@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777580113672-4db10frk1",
+  "providerId": "claude",
+  "title": "Start Conversation with User",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777580113692,
+  "updatedAt": 1777639731966,
+  "lastResponseAt": 1777639427968,
+  "sessionId": "c42984f1-2d74-472b-b087-e9bd0729451f",
+  "providerState": {
+    "providerSessionId": "c42984f1-2d74-472b-b087-e9bd0729451f"
+  },
+  "usage": {
+    "model": "deepseek-v4-flash",
+    "inputTokens": 465,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 99584,
+    "contextWindow": 200000,
+    "contextTokens": 100049,
+    "percentage": 50,
+    "contextWindowIsAuthoritative": true
+  }
+}

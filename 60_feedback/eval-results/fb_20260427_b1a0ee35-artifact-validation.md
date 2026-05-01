@@ -1,0 +1,81 @@
+---
+feedback_id: "fb_20260427_b1a0ee35"
+kind: "eval-results"
+title: "Artifact Validation Report"
+artifact_id: "multiple"
+source: "kdo validate"
+captured_at: "2026-04-26T18:40:10+00:00"
+path: "60_feedback/eval-results/fb_20260427_b1a0ee35-artifact-validation.md"
+---
+
+# Artifact Validation Report
+
+## kdo_builtin_knowledge_curator_v1
+
+- Type: `capability/skill`
+- Path: `40_outputs/capabilities/skills/knowledge-curator/SKILL.md`
+- Status: `ready`
+
+- PASS `definition_of_done`: Definition of done is present.
+- PASS `feedback_path`: Feedback path section declared with at least one entry.
+- PASS `placeholders`: No TODO placeholders remain.
+- PASS `capability_inputs`: Inputs section exists.
+- PASS `capability_outputs`: Outputs section exists.
+- PASS `capability_permissions`: Tool permissions section exists.
+- PASS `capability_evals`: Eval cases section exists.
+- PASS `capability_failure_modes`: Failure modes section exists.
+- PASS `capability_procedure_steps`: Procedure has 6 numbered step(s).
+- PASS `capability_eval_cases_filled`: Eval Cases section is filled in.
+
+## kdo_builtin_delivery_producer_v1
+
+- Type: `capability/skill`
+- Path: `40_outputs/capabilities/skills/delivery-producer/SKILL.md`
+- Status: `ready`
+
+- PASS `definition_of_done`: Definition of done is present.
+- PASS `feedback_path`: Feedback path section declared with at least one entry.
+- PASS `placeholders`: No TODO placeholders remain.
+- PASS `capability_inputs`: Inputs section exists.
+- PASS `capability_outputs`: Outputs section exists.
+- PASS `capability_permissions`: Tool permissions section exists.
+- PASS `capability_evals`: Eval cases section exists.
+- PASS `capability_failure_modes`: Failure modes section exists.
+- PASS `capability_procedure_steps`: Procedure has 6 numbered step(s).
+- PASS `capability_eval_cases_filled`: Eval Cases section is filled in.
+
+## kdo_builtin_system_linter_v1
+
+- Type: `capability/skill`
+- Path: `40_outputs/capabilities/skills/system-linter/SKILL.md`
+- Status: `ready`
+
+- PASS `definition_of_done`: Definition of done is present.
+- PASS `feedback_path`: Feedback path section declared with at least one entry.
+- PASS `placeholders`: No TODO placeholders remain.
+- PASS `capability_inputs`: Inputs section exists.
+- PASS `capability_outputs`: Outputs section exists.
+- PASS `capability_permissions`: Tool permissions section exists.
+- PASS `capability_evals`: Eval cases section exists.
+- PASS `capability_failure_modes`: Failure modes section exists.
+- PASS `capability_procedure_steps`: Procedure has 6 numbered step(s).
+- PASS `capability_eval_cases_filled`: Eval Cases section is filled in.
+
+## art_20260427_16a7c4d7
+
+- Type: `content/article`
+- Path: `40_outputs/content/articles/art_20260427_16a7c4d7-街顺-零融资saas的生存逻辑.md`
+- Status: `not_ready`
+
+- FAIL `source_refs`: Missing source references.
+- FAIL `wiki_refs`: Missing wiki references.
+- PASS `definition_of_done`: Definition of done is present.
+- PASS `feedback_path`: Feedback path section declared with at least one entry.
+- FAIL `placeholders`: TODO placeholders remain.
+- PASS `content_audience`: Audience section exists.
+- PASS `content_thesis`: Core thesis section exists.
+- PASS `content_draft`: Draft section exists.
+- PASS `content_audience_filled`: Audience section is filled in.
+- WARN `content_thesis_filled`: Core Thesis section contains TODO placeholders.
+- PASS `content_draft_nonempty`: Draft section has content.
+- WARN `content_draft_length`: Draft section is short (6 words; aim for 50+).

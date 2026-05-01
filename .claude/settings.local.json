@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import docx; print\\('python-docx available'\\)\")",
+      "Bash(pip install *)",
+      "Bash(python3 *)",
+      "Bash(dpkg -l)",
+      "Bash(python -c \"import docx; print\\('python-docx available'\\)\")",
+      "Bash(python *)",
+      "Bash(cat)",
+      "Bash(cat E:/wiki/00_inbox/紫鲸AI_智能体工作流平台_深度分析与产品设计.md)",
+      "Bash(cat E:/wiki/00_inbox/鑫港湾HIS系统分阶段整改报告.md)"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+# Artifact Registry
+
+artifacts:
+
+- artifact_id: "art_20260427_16a7c4d7"
+  type: "content"
+  subtype: "article"
+  title: "街顺-零融资SaaS的生存逻辑"
+  target_user: "行业分析师"
+  source_refs: []
+  wiki_refs: []
+  definition_of_done: ["target reader explicit", "core claim explicit", "source refs present", "feedback path declared"]
+  status: "draft"
+  delivery_channel: "article"
+  feedback_source: "60_feedback/"
+  path: "40_outputs/content/articles/art_20260427_16a7c4d7-街顺-零融资saas的生存逻辑.md"
+  created_at: "2026-04-26T18:40:09+00:00"
+
+- artifact_id: "art_20260430_cd02f27c"
+  type: "content"
+  subtype: "article"
+  title: "为什么YC说未来的公司要把AI当操作系统"
+  target_user: "创业者和CEO"
+  source_refs: ["src_20260428_29929c1f", "src_20260427_970eb338", "src_20260430_8cc84e5b"]
+  wiki_refs: ["30_wiki/concepts/街顺app全面调研报告.md", "30_wiki/concepts/紫鲸ai智能体工作流平台.md"]
+  definition_of_done: ["target reader explicit", "core claim explicit", "source refs present", "feedback path declared"]
+  status: "draft"
+  delivery_channel: "微信公众号"
+  feedback_source: "60_feedback/"
+  path: "40_outputs/content/articles/art_20260430_cd02f27c-为什么yc说未来的公司要把ai当操作系统.md"
+  created_at: "2026-04-29T17:09:46+00:00"
+
+- artifact_id: "art_20260430_447f2eea"
+  type: "content"
+  subtype: "article"
+  title: "AI-Native公司组织方法论：公司即操作系统"
+  target_user: "AI创业者与组织设计者"
+  source_refs: ["src_20260428_29929c1f", "src_20260427_970eb338", "src_20260430_59a3d224"]
+  wiki_refs: ["30_wiki/concepts/街顺app全面调研报告.md", "30_wiki/concepts/紫鲸ai智能体工作流平台.md"]
+  definition_of_done: ["target reader explicit", "core claim explicit", "source refs present", "feedback path declared"]
+  status: "draft"
+  delivery_channel: "article"
+  feedback_source: "60_feedback/"
+  path: "40_outputs/content/articles/art_20260430_447f2eea-ai-native公司组织方法论公司即操作系统.md"
+  created_at: "2026-04-29T18:37:15+00:00"
+
+- artifact_id: "art_20260430_a947d7a5"
+  type: "content"
+  subtype: "article"
+  title: "YC说中层管理变markdown，但中国的小微企业能做到吗？"
+  target_user: "传统行业老板和小微企业主"
+  source_refs: ["src_20260428_29929c1f", "src_20260427_970eb338", "src_20260430_59a3d224", "src_20260430_8cc84e5b"]
+  wiki_refs: ["30_wiki/concepts/街顺app全面调研报告.md"]
+  definition_of_done: ["target reader explicit", "core claim explicit", "source refs present", "feedback path declared"]
+  status: "draft"
+  delivery_channel: "微信公众号"
+  feedback_source: "60_feedback/"
+  path: "40_outputs/content/articles/art_20260430_a947d7a5-yc说中层管理变markdown但中国的小微企业能做到吗.md"
+  created_at: "2026-04-29T18:45:58+00:00"
+
+- artifact_id: "art_20260501_cc0af2d7"
+  type: "content"
+  subtype: "article"
+  title: "诊所O2O外卖平台业务深度调研报告"
+  target_user: "产品决策团队"
+  source_refs: ["src_20260501_dfa19257"]
+  wiki_refs: ["30_wiki/concepts/诊所o2o外卖平台业务深度调研报告.md"]
+  definition_of_done: ["target reader explicit", "core claim explicit", "source refs present", "feedback path declared"]
+  status: "draft"
+  delivery_channel: "article"
+  feedback_source: "60_feedback/"
+  path: "40_outputs/content/articles/art_20260501_cc0af2d7-诊所o2o外卖平台业务深度调研报告.md"
+  created_at: "2026-04-30T18:52:51+00:00"
+
+- artifact_id: "art_20260501_0ac5504f"
+  type: "content"
+  subtype: "article"
+  title: "互联网医院模式深度调研报告"
+  target_user: "产品决策团队"
+  source_refs: ["src_20260501_9962715b"]
+  wiki_refs: ["30_wiki/concepts/互联网医院模式深度调研报告.md"]
+  definition_of_done: ["target reader explicit", "core claim explicit", "source refs present", "feedback path declared"]
+  status: "draft"
+  delivery_channel: "article"
+  feedback_source: "60_feedback/"
+  path: "40_outputs/content/articles/art_20260501_0ac5504f-互联网医院模式深度调研报告.md"
+  created_at: "2026-04-30T19:30:06+00:00"

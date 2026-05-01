@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777521858168-06mpji00l",
+  "providerId": "claude",
+  "title": "Greet user and offer assistance",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777521858171,
+  "updatedAt": 1777527460345,
+  "lastResponseAt": 1777527443759,
+  "sessionId": "3e088963-e2ce-489c-a749-5fa60b608897",
+  "providerState": {
+    "providerSessionId": "3e088963-e2ce-489c-a749-5fa60b608897"
+  },
+  "currentNote": "40_outputs/content/Claude Code：你的终端里的AI编程伙伴.md",
+  "usage": {
+    "model": "deepseek-v4-flash",
+    "inputTokens": 22212,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 22212,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}

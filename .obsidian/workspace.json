@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "54c654165f7313ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "27243fe0eee8a4dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bef8a58ba3267dd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "618367de5b3e41d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bae9354bd2cdd39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee16d3095abfce90",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "0e83fe201bb4ead8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "f347c91d2b2259f2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200.5
+  },
+  "right": {
+    "id": "acf96d73226e0d2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "9959cd8da6495be1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1628066661e41ec2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "82884b64a66bd329",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "92bf3b039ff1f9d6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "11ca992483aa8037",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "24af7418ea3d39fd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "d4b20ae5c73cc184",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 394.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "claudian:Open Claudian": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "ee16d3095abfce90",
+  "lastOpenFiles": [
+    "未命名.md",
+    "30_wiki/index.md",
+    "30_wiki/concepts/诊所o2o外卖平台业务深度调研报告.md",
+    "学习笔记.md",
+    "未命名 1.md",
+    "未命名.base",
+    "双向链接.md",
+    "代码审查与整改方法论.md",
+    "[[.md",
+    "Excalidraw/Drawing 2026-05-01 20.44.46.excalidraw.md",
+    "Excalidraw",
+    "未命名 2.md",
+    "我的Obsidian学习日记.md",
+    "Dataview 示例.md",
+    "templates/默认模板.md",
+    "templates",
+    "60_feedback/simulated/fb_20260501_55f70d5e-文章内部有两种声音yc框架翻译者-vs-中国实践者切换时读者可能迷失.md",
+    "40_outputs/content/Claude Code：你的终端里的AI编程伙伴.md",
+    "40_outputs/content/articles/art_20260501_cc0af2d7-诊所o2o外卖平台业务深度调研报告.md",
+    "40_outputs/content/articles/art_20260501_0ac5504f-互联网医院模式深度调研报告.md",
+    "40_outputs/content/articles/art_20260430_cd02f27c-为什么yc说未来的公司要把ai当操作系统.md",
+    "40_outputs/content/articles/art_20260430_a947d7a5-yc说中层管理变markdown但中国的小微企业能做到吗.md",
+    "40_outputs/content/articles/art_20260430_447f2eea-ai-native公司组织方法论公司即操作系统.md",
+    "40_outputs/content/articles/art_20260427_16a7c4d7-街顺-零融资saas的生存逻辑.md",
+    "40_outputs/capabilities/workflows/daily-capture-flow.md",
+    "40_outputs/capabilities/workflows/feedback-improve-flow.md",
+    "40_outputs/capabilities/workflows/produce-and-ship-flow.md",
+    "40_outputs/capabilities/skills/system-linter/SKILL.md"
+  ]
+}

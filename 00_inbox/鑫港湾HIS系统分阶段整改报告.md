@@ -1,0 +1,3103 @@
+# 鑫港湾HIS系统分阶段整改报告
+
+Table of Contents
+
+鑫港湾 HIS 系统 分阶段整改报告
+
+审查项目: xingangwan-his-system项目地址: https://gitee.com/linhai-zhu/xingangwan-his-system报告日期: 2026年4月25日技术栈: .NET 8 + Vue 3 + MySQL 8.0 + Redis + Docker适用说明: 本报告基于”项目尚在开发阶段，尚未具备生产部署条件”这一前提，对审查发现的问题进行重新分类，明确区分开发阶段必须立即处理、上线前必须完成、上线后持续优化三类事项，供团队在当前阶段聚焦核心阻塞性问题。
+
+1. 执行摘要
+
+总体情况
+
+本次代码审查共发现 235个问题，其中严重28个、高64个、中87个、低56个。基于”开发中”的实际状态，重新分类如下：
+
+阶段
+
+问题数
+
+占比
+
+说明
+
+🔴 当下要改（开发阻塞）
+
+49个
+
+21%
+
+会导致开发环境异常、团队协作受阻、测试数据错误、技术债务累积的问题
+
+🟡 上线前改（安全合规）
+
+85个
+
+36%
+
+涉及患者隐私保护、访问控制、传输加密、部署安全的硬性合规要求
+
+🟢 上线后优化（持续改进）
+
+101个
+
+43%
+
+性能优化、架构升级、代码整洁度提升等长期改进项
+
+核心建议
+
+开发阶段当前最紧迫的是”当下要改”的49个问题。这些问题如果不解决，会直接影响开发团队的日常工作效率，导致测试数据不可靠、功能无法完整验证，甚至产生难以回退的技术债务。建议在接下来 1-2周 内集中解决这49个问题，然后再继续功能开发。
+
+2. 当下要改（开发阶段必须立即处理）
+
+2.1 数据库迁移阻塞（8项）—— 影响开发环境搭建
+
+这些问题会导致开发环境无法正常初始化，新团队成员无法快速搭建本地环境，CI/CD 构建失败。
+
+#
+
+问题
+
+文件
+
+影响
+
+建议修复方式
+
+1
+
+V009 使用 PostgreSQL 语法（DO $$、ON CONFLICT），在 MySQL 8.0 下完全无法执行
+
+V009__init_rbac_data.sql
+
+整个 RBAC 初始化流程失败，开发环境数据库无法初始化
+
+重写为 MySQL 语法，使用 DELIMITER 和 INSERT ... ON DUPLICATE KEY UPDATE
+
+2
+
+V024 修复脚本 DROP COLUMN + ADD COLUMN 会丢失历史库存数据
+
+V024_fix_drug_stock.sql
+
+开发/测试环境运行迁移后数据丢失，无法验证库存功能
+
+改为 CHANGE COLUMN 或备份数据后重命名列
+
+3
+
+V033 引用大量不存在的表名
+
+V033__seed_tenant_id.sql
+
+批量 UPDATE 在不存在的表上报错，数据迁移失败
+
+清理脚本中不存在表名，与实际表名对齐
+
+4
+
+迁移记录表名不一致（_migrations vs schema_migrations）
+
+V024 等
+
+迁移记录追踪混乱，无法确认哪些脚本已执行
+
+统一使用 schema_migrations
+
+5
+
+V009 admin 密码哈希无效（仅 43 字符，非标准 BCrypt 60 字符）
+
+V009__init_rbac_data.sql
+
+初始化后无法使用 admin 账号登录开发环境
+
+生成有效的 60 字符 BCrypt 哈希
+
+6
+
+V008_seed_initial.sql 为空（仅 SELECT 提示），迁移链断裂
+
+V008_seed_initial.sql
+
+种子数据未加载，开发环境缺少基础字典数据
+
+合并种子数据到 V008 或添加 source 命令
+
+7
+
+表结构重复定义（patients vs pat_patient、sys_users vs sys_user）
+
+init-clinic-his.sql、V001、V003、V004
+
+同一实体多版本并存，开发时不知该用哪个，数据模型混乱
+
+统一表定义，废弃旧版本，发布明确的 Schema 规范文档
+
+8
+
+V038~V047 回滚脚本缺少外键检查
+
+V038~V047_rollback.sql
+
+开发环境测试回滚时因外键约束失败
+
+添加 SET FOREIGN_KEY_CHECKS=0
+
+修复工作量预估: 约 8-12小时（1-2个工作日）关键建议: 这是目前开发团队面临的最大阻塞。建议立即指派一名后端开发者专门负责修复迁移脚本问题，优先修复 V009 和 V024，确保新团队成员能在本地成功跑通数据库初始化。
+
+2.2 前端架构阻塞（8项）—— 影响开发效率和数据正确性
+
+这些问题会导致前端代码难以维护、Mock 数据影响测试验证、开发调试困难。
+
+#
+
+问题
+
+文件
+
+影响
+
+建议修复方式
+
+1
+
+双 axios 实例并存，配置不一致（timeout 30s vs 15s）
+
+api/axios.ts + api/request.js
+
+前后端联调时行为不一致，难以排查网络问题；团队维护成本倍增
+
+合并为一个 axios 实例，统一 baseURL、timeout、拦截器
+
+2
+
+DrugInboundForm 药品列表硬编码 mock 数据，提交逻辑仅模拟延迟
+
+DrugInboundForm.vue
+
+入库功能无法真实测试，开发和测试人员无法验证实际业务流程
+
+接入真实 API，或添加明确的开发/测试环境切换开关
+
+3
+
+多处操作员 ID 硬编码为 1（operatorId、warehouseId、handlerId、resolvedBy）
+
+多个组件
+
+所有入库/出库/收费操作在测试环境都归属同一人，无法验证权限和数据归属
+
+从 userStore 获取当前用户 ID
+
+4
+
+RolePermission.vue 使用未导入的 nextTick
+
+RolePermission.vue
+
+运行时错误，功能无法使用
+
+从 vue 导入 nextTick
+
+5
+
+LoginView.vue 默认凭证 admin/123456 暴露在页面上
+
+LoginView.vue
+
+虽然开发方便，但测试/演示环境容易暴露
+
+移除默认提示，或仅在 NODE_ENV === 'development' 时显示
+
+6
+
+原生 fetch 混用（DiagnosisForm、MedicalRecordForm 绕过 axios 拦截器）
+
+DiagnosisForm.vue、MedicalRecordForm.vue
+
+Token 注入和统一错误处理失效，开发和生产环境行为不一致
+
+统一使用封装好的 API 模块
+
+7
+
+错误处理代码高度重复（约 80% 组件包含相同的 ECONNABORTED/500/message 判断）
+
+多个组件
+
+修改错误提示需改动数十个文件，开发效率低
+
+封装 handleApiError(e) 公共函数到 @/utils/error.ts
+
+8
+
+ICD-10 仅 30 条静态数据，实际门诊远远不够
+
+DiagnosisForm.vue
+
+医生诊断录入测试时数据不足，无法验证搜索/联想功能
+
+对接后端 ICD-10 字典接口（后端需提供）
+
+修复工作量预估: 约 16-24小时（3-4个工作日）关键建议: 双 axios 实例是最影响开发效率的问题，建议第一个修复。硬编码操作员 ID 影响测试数据的可信度，建议第二个处理。Mock 功能需要明确是”暂时未实现”还是”永远mock”，如果是前者需要在任务看板中追踪。
+
+2.3 后端架构阻塞（10项）—— 影响开发协作和代码质量
+
+这些问题会导致团队成员阅读困难、代码合并冲突、运行时错误、技术债务累积。
+
+#
+
+问题
+
+文件
+
+影响
+
+建议修复方式
+
+1
+
+兼容性存根类与正式实体类命名冲突（同名 SysUser/SysRole 在不同命名空间）
+
+Compatibility_Stubs.cs
+
+极易导致混淆和编译歧义，新团队成员上手困难
+
+移除存根类或改名为 LegacySysUser，明确标识为废弃
+
+2
+
+主键类型不统一（ulong vs long），外键关系不匹配
+
+BaseEntity.cs、Charge.cs、DrugStock.cs 等
+
+数据库 BIGINT 与 C# ulong/long 转换隐患，数据一致性风险
+
+统一使用 long（与数据库 BIGINT 一致），一次性批量修改
+
+3
+
+雪花 ID 生成器非单例模式使用，每次 new SnowflakeIdGenerator(0,0)
+
+AuditInterceptor.cs
+
+分布式部署时可能产生重复 ID，开发阶段也会因多实例冲突
+
+注册为单例 services.AddSingleton<ISnowflakeIdGenerator>()
+
+4
+
+JWT claim 中 userId 转为 int（ulong 转 int 可能溢出）
+
+AuthController.cs
+
+用户 ID 超过 int.MaxValue 时认证失败，限制系统扩展
+
+统一使用 long 或 string 存储 userId claim
+
+5
+
+背景任务使用反射调用 Application 层服务
+
+ExpiryWarningBackgroundService.cs
+
+破坏分层架构，重构时容易遗漏，运行时失败难排查
+
+直接引用接口 IExpiryWarningService
+
+6
+
+ChargeService 中 ConfirmDeduction 在 SaveChanges 之后调用
+
+ChargeService.cs
+
+已写入的 charge 数据可能不一致，开发和测试时数据状态混乱
+
+将 ConfirmDeduction 移入同一事务内
+
+7
+
+PatientList.vue openForm 为空实现
+
+PatientList.vue
+
+功能按钮点击无响应，测试/演示时显得系统不完整
+
+完成表单打开逻辑或暂时隐藏该按钮
+
+8
+
+全局异常过滤器缺失，各控制器分别捕获异常
+
+多个 Controller
+
+错误响应格式不一致，前端难以统一处理
+
+添加 GlobalExceptionFilter，统一包装错误响应
+
+9
+
+测试代码编译错误（TenantContext.SetTenant 三参数调用与实际两参数不匹配）
+
+ExternalPharmacyServiceTests.cs
+
+测试项目无法编译，CI/CD 构建失败
+
+修复测试代码中的方法签名，确保 CI 通过
+
+10
+
+DTO 文件位置混乱（DepartmentDto 在 Services 目录下）
+
+DepartmentDto.cs
+
+新员工找不到 DTO 定义，项目结构不符合惯例
+
+统一移至 HIS.Application/DTOs/ 目录
+
+修复工作量预估: 约 16-24小时（3-4个工作日）关键建议: 存根类命名冲突和主键类型不统一是最深的技术债务，越早统一成本越低。建议将主键类型统一作为一个独立的重构任务，在功能开发相对空闲的窗口期集中处理。
+
+2.4 命名规范不统一（8项）—— 影响团队协作效率
+
+这些问题不会导致系统崩溃，但会显著降低开发效率和代码可维护性。
+
+#
+
+问题
+
+范围
+
+影响
+
+建议修复方式
+
+1
+
+表命名严重不统一：单数/复数混用；带模块前缀/不带前缀混用
+
+全局
+
+开发人员不确定新表该怎么命名，Review 时反复讨论
+
+制定并发布命名规范文档，建议统一为 模块前缀_单数名词
+
+2
+
+字段命名不一致：created_at/created_time/operated_at 混用
+
+全局
+
+查询时需要记多个字段名，ORM 映射混乱
+
+统一为 created_at、updated_at、deleted_at
+
+3
+
+表名差异：sys_user vs sys_users、pat_patient vs patients
+
+多个迁移脚本
+
+同一概念多个名字，写 SQL 时容易用错
+
+统一表名，发布 Schema 规范文档
+
+4
+
+前端目录命名大小写不统一：Base/ vs pharmacy/
+
+views/ 目录
+
+在大小写敏感的文件系统上可能出现路径错误
+
+统一为 PascalCase 或 kebab-case
+
+5
+
+API 命名风格不统一：驼峰/帕斯卡混用
+
+api/ 目录
+
+前端调用 API 时需要记多种命名风格
+
+统一命名规范，建议 camelCase
+
+6
+
+时间戳字段默认值不统一：部分表 updated_at 为 NULL
+
+多个表
+
+查询时需注意 NULL 处理，增加代码复杂度
+
+所有业务表统一添加 DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+
+7
+
+VARCHAR 长度选择不一致
+
+多个表
+
+同一类数据（如 phone）在不同表长度不同
+
+建立字段长度标准文档
+
+8
+
+部分中文注释夹杂 emoji（🟢🟡⚪）
+
+全局
+
+影响专业性和部分终端显示
+
+使用纯文本标识替代
+
+修复工作量预估: 约 8-12小时（与 2.1 的表结构重复定义可一起处理）关键建议: 这类问题适合用”约定大于配置”的方式解决。建议团队花 1-2 小时共同制定一份《数据库命名规范》和《前端代码规范》文档，然后指派一名成员统一整理现有代码。
+
+2.5 调试和开发体验问题（15项）—— 低优先级但建议及早处理
+
+#
+
+问题
+
+影响
+
+建议
+
+1
+
+空占位类 Class1.cs 未删除
+
+项目不整洁
+
+删除
+
+2
+
+行内联初始化多语句挤在一行
+
+可读性差
+
+每条语句独占一行
+
+3
+
+缩进不一致
+
+代码审查时反复被指出
+
+使用 dotnet-format 统一格式化
+
+4
+
+V010~V013 使用数据库 his_integration_test，核心迁移使用 his_tenant_demo
+
+数据库名硬编码不一致
+
+使用参数化或动态指定
+
+5
+
+前端 UserList.vue 表单缺少 prop 绑定验证
+
+表单验证不生效
+
+添加 rules 和 prop
+
+6
+
+currentRoleId 使用普通 let 而非响应式
+
+组件状态污染
+
+改为 ref()
+
+7
+
+DrugItem 接口定义在脚本底部
+
+阅读代码需翻到底部
+
+移至顶部或独立类型文件
+
+8
+
+UserList.vue form 使用 ref 声明为浅响应对象
+
+嵌套属性失去响应性
+
+使用 reactive
+
+9
+
+前端 App.vue 全局样式 * { margin: 0; padding: 0 } 过于粗暴
+
+可能影响第三方组件
+
+使用更具体的选择器或 normalize.css
+
+10
+
+env.d.ts 使用 DefineComponent<{}, {}, any> 过于宽泛
+
+类型检查宽松
+
+使用更严格的泛型
+
+11
+
+api/warehouse.ts runAlertCheck 使用 PUT 语义不合理
+
+不符合 REST 语义
+
+改为 POST
+
+12
+
+状态映射对象（statusMap、levelMap）在多个组件重复定义
+
+违反 DRY
+
+提取到 constants/
+
+13
+
+ChargeList.vue 中 refundForm.idempotencyKey 格式不统一
+
+幂等性策略不一致
+
+统一幂等键生成策略
+
+14
+
+前端 main.ts 全局注册所有 Element Plus 图标
+
+打包体积增加
+
+改为按需注册
+
+15
+
+api/clinic.ts searchDrugs 未做防抖
+
+高频搜索请求堆积
+
+在组件层添加 debounce
+
+修复工作量预估: 约 12-16小时（可在日常开发中逐步消化）关键建议: 这些问题适合采用”童子军规则”——每次提交代码时顺手改一点，不需要单独安排任务。建议团队 Leader 在 Code Review 中提醒这些规范问题。
+
+3. 上线前改（必须完成才能生产部署）
+
+3.1 访问控制与认证（12项）—— 上线前硬性安全要求
+
+这些问题涉及患者隐私数据的访问控制，不上线还好，一旦上线就是重大安全事件和法律风险。
+
+#
+
+问题
+
+文件
+
+风险说明
+
+修复建议
+
+1
+
+PatientsController 未添加 [Authorize]
+
+PatientsController.cs
+
+未认证用户可访问患者隐私数据（PHI），直接违反《个人信息保护法》
+
+添加 [Authorize]；根据角色添加 [Authorize(Roles = "...")]
+
+2
+
+ChargesController 未添加 [Authorize]
+
+ChargesController.cs
+
+未认证用户可查询、修改收费记录
+
+同上
+
+3
+
+TenantsController 未添加 [Authorize]
+
+TenantsController.cs
+
+攻击者可枚举、修改租户信息
+
+同上；租户管理仅限管理员
+
+4
+
+JWT Token 有效期 8 小时过长
+
+AuthController.cs
+
+Token 被盗用后有充足时间利用
+
+缩短至 15-30 分钟，配合 Refresh Token
+
+5
+
+Token 刷新未验证签名且无 Refresh Token
+
+AuthController.cs
+
+攻击者可构造任意 payload 获取有效 Token
+
+实现标准 Refresh Token 机制
+
+6
+
+Logout 接口未使 Token 失效
+
+AuthController.cs
+
+用户登出后 Token 仍可被利用
+
+加入 Redis 黑名单
+
+7
+
+缺少登录失败锁定机制
+
+SysUser.cs 等
+
+攻击者可无限次暴力破解
+
+连续 5 次失败锁定 30 分钟
+
+8
+
+密码无复杂度校验
+
+UsersController.cs
+
+用户可设置弱密码
+
+最少 8 位，含大小写+数字+特殊字符
+
+9
+
+JWT ValidateAudience = false
+
+Program.cs
+
+Token 可能被跨应用滥用
+
+设置 ValidateAudience = true
+
+10
+
+前端路由守卫缺少细粒度权限控制
+
+router/index.ts
+
+所有登录用户可访问所有页面
+
+增加基于角色的路由守卫
+
+11
+
+SideMenu 菜单完全硬编码，未对接后端权限
+
+SideMenu.vue
+
+所有用户看到相同菜单
+
+从后端获取菜单树动态渲染
+
+12
+
+前端 Token 存储在 localStorage
+
+store/user.ts
+
+XSS 攻击可窃取 Token
+
+改为 httpOnly Cookie
+
+工作量预估: 约 32-40小时（5-6个工作日）关键建议: 这是安全合规的”红线”问题。建议安排一个后端开发者 + 一个前端开发者，组成”安全攻坚小组”，集中 1 周时间完成。其中 [Authorize] 特性添加（第 1-3 项）是最低成本的改动（一行代码即可），建议优先完成。
+
+3.2 敏感数据保护（10项）—— 法律合规硬性要求
+
+这些问题涉及《个人信息保护法》第 28-29 条、第 51 条的硬性合规要求，不上线则已，一旦数据泄露面临法律追责。
+
+#
+
+问题
+
+文件/表
+
+合规风险
+
+修复建议
+
+1
+
+患者身份证号明文存储
+
+PatPatient.cs、pat_patient 表
+
+违反《个保法》第 28-29 条
+
+AES-256 或 SM4 加密存储；展示层掩码
+
+2
+
+患者手机号/紧急电话明文存储
+
+pat_patient 表
+
+违反《个保法》第 28-29 条
+
+同上
+
+3
+
+患者地址信息明文存储
+
+pat_patient 表
+
+违反《个保法》第 51 条
+
+加密详细地址，保留省市用于统计
+
+4
+
+员工身份证号/电子签名 URL 明文存储
+
+sys_employee 表
+
+身份冒用风险
+
+加密存储；电子签名文件独立加密
+
+5
+
+WebhookSecret 明文存储
+
+ExternalPharmacyService.cs
+
+可伪造外部药房回调
+
+使用 AES-256 加密存储
+
+6
+
+密码明文从浏览器传输到后端
+
+store/user.ts
+
+中间人可截获密码
+
+前端 SHA256 哈希 + HTTPS 传输
+
+7
+
+API 密钥在前端收集后发送到后端
+
+ExternalPharmacyManage.vue
+
+敏感密钥经过前端不安全
+
+敏感密钥由后端直接配置，不经过前端
+
+8
+
+挂号表冗余存储患者姓名/电话
+
+visit_registration 表
+
+冗余字段增加泄露面
+
+移除冗余，通过 JOIN 从患者主表获取
+
+9
+
+审计日志 JSON 可能包含敏感信息
+
+audit_logs 表
+
+日志泄露即数据泄露
+
+审计前对敏感字段脱敏
+
+10
+
+溯源表明文存储患者姓名
+
+supp_trace 表
+
+溯源记录长期保留增加泄露风险
+
+仅存储患者 ID
+
+工作量预估: 约 24-32小时（3-4个工作日）关键建议: 敏感数据加密的实现需要在应用层统一封装一个 SensitiveDataEncryptionService，避免各服务各自实现。建议先实现加密服务，然后批量替换患者、员工实体的敏感字段存储/读取逻辑。
+
+3.3 部署与传输安全（8项）—— 基础设施安全硬要求
+
+#
+
+问题
+
+文件
+
+风险
+
+修复建议
+
+1
+
+Nginx 未启用 HTTPS/SSL
+
+nginx.uat.conf
+
+所有数据传输明文，中间人攻击
+
+配置 SSL/TLS 证书，强制 443
+
+2
+
+Docker Compose 硬编码 MySQL root 密码
+
+docker-compose.yml
+
+密码在镜像层永久留存
+
+使用 Docker Secrets 或 .env
+
+3
+
+生产环境包含 phpMyAdmin 服务
+
+docker-compose.yml
+
+数据库管理界面直接暴露，phpMyAdmin 历史漏洞多
+
+完全移除；数据库管理通过 VPN 跳板机
+
+4
+
+MySQL 端口 3306 暴露到所有网络接口
+
+docker-compose.yml
+
+外部可直接连接数据库
+
+移除端口映射，仅容器网络内访问
+
+5
+
+Redis 未设置密码，端口暴露
+
+docker-compose.yml
+
+无认证 Redis 可被任意访问
+
+添加 --requirepass；移除端口映射
+
+6
+
+Swagger 在所有环境启用
+
+Program.cs
+
+暴露完整 API 结构给攻击者
+
+仅开发环境启用
+
+7
+
+部署脚本硬编码 admin/123456
+
+deploy_via_ssh.sh
+
+密码在代码仓库中可见
+
+从环境变量读取
+
+8
+
+前端 Dockerfile 未使用非 root 用户
+
+frontend/Dockerfile
+
+容器逃逸后获得高权限
+
+创建非 root 用户运行 Nginx
+
+工作量预估: 约 8-12小时（1-2个工作日）关键建议: 这些主要是配置层面的问题，修复成本低但安全收益极高。建议在第一次部署到测试/UAT 环境前就处理好，不要在生产环境再临时改。
+
+3.4 输入验证与防护（8项）—— 防止攻击
+
+#
+
+问题
+
+文件
+
+风险
+
+修复建议
+
+1
+
+LoginDto 未添加输入长度限制
+
+AuthController.cs
+
+超大 payload 拒绝服务攻击
+
+添加 [MaxLength]、[Required] 注解
+
+2
+
+Webhook 接口缺少请求体大小限制
+
+ExternalPharmacyWebhookController.cs
+
+超大请求体 DoS
+
+添加 [RequestSizeLimit]
+
+3
+
+前端请求拦截器未做防 XSS 处理
+
+api/axios.ts
+
+URL 参数和请求体中的用户输入可能被注入
+
+对输入做 HTML 转义
+
+4
+
+CORS 过于宽松（AllowAnyOrigin）
+
+Program.cs
+
+CSRF 攻击风险
+
+限制为特定 Origin
+
+5
+
+Nginx 缺少安全响应头部
+
+nginx.uat.conf
+
+点击劫持、MIME 嗅探、XSS
+
+添加 X-Frame-Options、HSTS 等
+
+6
+
+Nginx 缺少速率限制
+
+nginx.uat.conf
+
+暴力破解、CC 攻击
+
+添加 limit_req_zone
+
+7
+
+V002 存储过程动态 SQL 二次注入风险
+
+V002__tenant_init_procedure.sql
+
+租户代码注入可创建任意数据库
+
+严格校验 p_tenant_code 格式
+
+8
+
+登录页面无验证码、无登录次数限制
+
+LoginView.vue
+
+暴力破解
+
+增加图形验证码和登录失败次数限制
+
+工作量预估: 约 12-16小时（2-3个工作日）关键建议: 输入验证可以用 ASP.NET Core 的 FluentValidation 或数据注解统一处理，建议批量添加。Nginx 安全头部和速率限制是配置层面的改动，成本很低。
+
+3.5 数据备份与可恢复性（6项）—— 运维保障
+
+#
+
+问题
+
+文件
+
+风险
+
+修复建议
+
+1
+
+回滚脚本仅 DROP TABLE，无数据备份
+
+rollbacks/ 目录
+
+回滚即丢数据
+
+先 CREATE TABLE ..._backup AS SELECT *
+
+2
+
+缺少数据库自动备份策略
+
+全局
+
+故障、勒索软件、误操作导致数据永久丢失
+
+每日全量 + 增量备份，加密存储
+
+3
+
+V024 无数据备份步骤
+
+V024_fix_drug_stock.sql
+
+修改列时数据永久丢失
+
+添加备份步骤
+
+4
+
+V038~V047 回滚无数据备份
+
+V038~V047_rollback.sql
+
+删除 10 张表无备份
+
+添加数据备份
+
+5
+
+V036 动态 SQL 无法正确回滚
+
+V036__enhance_charge_items.sql
+
+执行结果难以追踪
+
+简化脚本，移除动态 SQL
+
+6
+
+Docker Secrets 文件路径使用相对路径
+
+docker-compose.uat.yml
+
+可能被意外提交到代码仓库
+
+使用绝对路径；确保在 .gitignore 中
+
+工作量预估: 约 12-16小时（2-3个工作日）关键建议: 数据库备份策略需要运维团队介入，建议尽早确定备份方案（物理备份还是逻辑备份？备份存储在哪？保留周期？）。回滚脚本的备份机制可以由后端开发者在整理迁移脚本时一并处理。
+
+3.6 审计日志完善（5项）—— 等保 2.0 合规要求
+
+#
+
+问题
+
+文件
+
+合规差距
+
+修复建议
+
+1
+
+审计日志 claim 名称不匹配（user_id vs userId）
+
+AuditInterceptor.cs
+
+等保 2.0 审计要求记录操作人
+
+统一 claim 名称
+
+2
+
+审计日志仅覆盖部分端点
+
+全局
+
+未覆盖所有访问日志
+
+审计所有 API 端点
+
+3
+
+审计日志大表未分区
+
+sys_audit_log、audit_logs
+
+查询性能随时间下降
+
+按 created_at RANGE 分区
+
+4
+
+缺少日志留存策略
+
+全局
+
+《网络安全法》第 21 条要求日志留存
+
+明确留存周期（建议 ≥6 个月）
+
+5
+
+审计拦截器吞掉异常
+
+AuditLogMiddleware.cs
+
+审计失败无声无息
+
+至少记录到控制台
+
+工作量预估: 约 8-12小时（1-2个工作日）关键建议: 审计日志完善主要是配置和中间件层面的调整，成本不高但对等保合规很重要。
+
+3.7 后端业务逻辑正确性（13项）—— 保障数据正确
+
+这些问题可能导致业务数据错误，虽然不会立刻暴露为安全问题，但在生产环境中会造成严重的业务后果。
+
+#
+
+问题
+
+文件
+
+业务影响
+
+修复建议
+
+1
+
+ChargeService 硬编码 BatchNo = "DEFAULT"
+
+ChargeService.cs
+
+批次号不真实，药品溯源失效
+
+从库存系统动态分配
+
+2
+
+PharmacyService 预占记录多个药品共享同一 reservationId
+
+PharmacyService.cs
+
+一个 reservation 包含多个药品，逻辑混乱
+
+每个药品独立 reservationId
+
+3
+
+ConfirmDeduction 负值风险
+
+PharmacyService.cs
+
+locked_qty 可能变负数
+
+添加非负校验
+
+4
+
+RefundService 未处理部分退费
+
+RefundService.cs
+
+部分退费后状态直接为”refunded”
+
+支持 partial_refunded 状态
+
+5
+
+DeleteInvoice 使用硬删除
+
+InvoiceService.cs
+
+发票属于重要财务凭证
+
+改为软删除
+
+6
+
+药物库存使用原始 SQL FOR UPDATE 加行锁
+
+PharmacyService.cs
+
+EF Core 兼容性隐患
+
+使用乐观锁替代
+
+7
+
+药品批次 remaining_quantity 冗余且缺少一致性
+
+drug_batch 表
+
+与 drug_stock 汇总可能不一致
+
+移除冗余或添加触发器
+
+8
+
+处方总金额未与明细表数据库级联动
+
+prescriptions 表
+
+数据不一致风险
+
+添加触发器或应用层强校验
+
+9
+
+退费金额仅在业务层校验
+
+refunds 表
+
+数据库层无约束
+
+添加存储过程校验
+
+10
+
+schedules used_slots 可能超过 total_slots
+
+schedules 表
+
+号源超售
+
+添加 CHECK 约束
+
+11
+
+患者 age 字段为 INT
+
+patients 表
+
+年龄会随时间变化
+
+移除 age，改用 birth_date
+
+12
+
+inventory_check_items difference 无自动计算
+
+inventory_check_items 表
+
+需手动计算差异
+
+GENERATED ALWAYS AS
+
+13
+
+大量字段 DEFAULT NULL 但业务必填
+
+多个表
+
+数据完整性不足
+
+添加 NOT NULL 约束
+
+工作量预估: 约 16-24小时（3-4个工作日）关键建议: 这些是业务逻辑层面的修复，需要业务分析师或产品经理确认规则。建议由熟悉业务的后端开发者逐一梳理，部分问题（如批次号分配）可能需要前端配合修改交互流程。
+
+3.8 主键与外键一致性（6项）—— 数据模型基础
+
+#
+
+问题
+
+文件/表
+
+影响
+
+修复建议
+
+1
+
+sys_users INT vs sys_user BIGINT UNSIGNED
+
+V001 vs V003
+
+数据量增长时 INT 溢出
+
+统一为 BIGINT UNSIGNED
+
+2
+
+drug_reservations 主键未声明 AUTO_INCREMENT
+
+V022
+
+雪花 ID 策略不明确
+
+明确策略：自增或应用层生成
+
+3
+
+charges 等表使用雪花 ID 注释但未设置 AUTO_INCREMENT
+
+V025 等
+
+应用层与数据库层策略冲突
+
+统一策略
+
+4
+
+inventory_in_items 外键 ON DELETE CASCADE
+
+V039
+
+级联删除可能丢失库存记录
+
+改为 ON DELETE RESTRICT
+
+5
+
+patient_visits 外键缺少 ON DELETE 声明
+
+V015
+
+默认行为不明确
+
+显式声明 ON DELETE RESTRICT
+
+6
+
+inventory_transfers 缺少仓库外键
+
+V042
+
+无仓库数据校验
+
+添加外键约束
+
+工作量预估: 约 8-12小时（1-2个工作日）关键建议: 主键和外键设计属于”越早统一越好”的基础设施类工作。建议在功能开发的同时逐步统一，避免后期大规模数据迁移。
+
+3.9 前端数据脱敏（7项）—— 上线前必须完成
+
+#
+
+问题
+
+文件
+
+风险
+
+修复建议
+
+1
+
+API 响应返回完整患者敏感信息
+
+全局
+
+前端拿到完整身份证号等
+
+API 响应时脱敏
+
+2
+
+登录页面无验证码
+
+LoginView.vue
+
+暴力破解
+
+增加图形验证码
+
+3
+
+前端全局样式重置影响第三方组件
+
+App.vue
+
+可能影响 Element Plus 样式
+
+使用具体选择器
+
+4
+
+API 响应格式不统一
+
+多个组件
+
+前端错误处理混乱
+
+统一后端响应格式
+
+5
+
+原生 fetch 绕过 Token 注入
+
+DiagnosisForm.vue
+
+401 处理失效
+
+统一使用封装 API
+
+6
+
+Token 存储 localStorage XSS 风险
+
+store/user.ts
+
+XSS 窃取 Token
+
+httpOnly Cookie
+
+7
+
+store/user.ts JSON.parse 无异常保护
+
+store/user.ts
+
+数据损坏时应用白屏
+
+try-catch 包装
+
+工作量预估: 约 16-24小时（3-4个工作日）关键建议: 前端数据脱敏需要后端配合（API 返回脱敏数据），建议前后端协同完成。
+
+4. 上线后优化（生产环境运行后持续改进）
+
+4.1 性能优化（18项）—— 上线后根据实际数据量处理
+
+这些问题在当前开发/测试阶段不会明显暴露，因为数据量小。上线后随着数据积累才会成为瓶颈。
+
+#
+
+问题
+
+文件/表
+
+上线后影响
+
+优化建议
+
+1
+
+审计日志表未分区
+
+sys_audit_log、audit_logs
+
+日均万级数据，查询性能急剧下降
+
+按 created_at RANGE 分区
+
+2
+
+药品溯源表未分区
+
+supp_trace
+
+写密集型大表，溯源查询扫描全表
+
+按 event_time 分区
+
+3
+
+库存变动日志表未分区
+
+drug_stock_logs
+
+高频写入，查询慢
+
+按月分区
+
+4
+
+就诊记录表未分区
+
+visit_record、medical_records
+
+随时间线性增长
+
+按就诊日期分区
+
+5
+
+收费记录表未分区
+
+visit_charge、charges
+
+财务报表查询慢
+
+按收费日期分区
+
+6
+
+大量低区分度 status 单独索引
+
+几乎所有表
+
+浪费存储，影响写入性能
+
+移除单独索引，仅保留复合索引
+
+7
+
+sys_audit_log 单列索引过多
+
+sys_audit_log
+
+索引维护成本高
+
+合并为复合索引
+
+8
+
+pat_patient 缺少 name+phone 复合索引
+
+pat_patient
+
+常见搜索场景慢
+
+添加复合索引
+
+9
+
+drug_info 缺少 drug_name+drug_code 索引
+
+drug_info
+
+药品查询慢
+
+添加复合索引
+
+10
+
+supp_trace 缺少 batch_id+event_type 索引
+
+supp_trace
+
+溯源查询慢
+
+添加复合索引
+
+11
+
+inventory_ins 仅 clinic_id 单列索引
+
+inventory_ins
+
+实际查询是 clinic_id+date
+
+升级为复合索引
+
+12
+
+CurrentTenantId 每次访问重新求值
+
+HisDbContext.cs
+
+全局过滤器性能开销
+
+请求级别缓存
+
+13
+
+审计拦截器使用反射和 lock
+
+AuditInterceptor.cs
+
+每次模型构建都执行
+
+静态缓存
+
+14
+
+ConfigureTenantFilters 使用反射
+
+HisDbContext.cs
+
+性能开销大
+
+预编译或静态缓存
+
+15
+
+全局注册所有 Element Plus 图标
+
+main.ts
+
+打包体积大
+
+按需注册
+
+16
+
+searchDrugs 未做防抖
+
+api/clinic.ts
+
+高频搜索请求堆积
+
+添加 debounce
+
+17
+
+WaitingQueue 30 秒轮询
+
+WaitingQueue.vue
+
+后端压力
+
+改用 WebSocket/SSE
+
+18
+
+Docker Secrets 相对路径风险
+
+docker-compose.uat.yml
+
+文件权限管理
+
+使用绝对路径
+
+工作量预估: 约 40-56小时（1-1.5周，可分阶段）关键建议: 分区策略需要在数据量达到百万级前实施，建议在上线后 1-3 个月内完成。索引优化可以结合数据库慢查询日志逐步调整。WebSocket 替代轮询是较大的架构改动，建议放在较后期。
+
+4.2 架构升级（20项）—— 中长期技术演进
+
+这些问题不影响当前系统运行，但限制系统长期扩展能力和可维护性。
+
+#
+
+问题
+
+文件
+
+当前影响
+
+演进建议
+
+1
+
+缺少仓储层抽象
+
+ChargeService.cs 等
+
+服务层直接操作 DbContext
+
+引入 IRepository<T>
+
+2
+
+背景任务使用反射
+
+ExpiryWarningBackgroundService.cs
+
+破坏分层
+
+直接引用接口
+
+3
+
+PharmacyService 职责过重
+
+PharmacyService.cs
+
+同时处理库存操作和查询
+
+拆分为 Command/Query Service
+
+4
+
+AuditInterceptor 职责过多
+
+AuditInterceptor.cs
+
+依赖过多
+
+提取 ID 生成和用户信息获取
+
+5
+
+Patient 未继承 BaseEntity
+
+Patient.cs
+
+缺少统一审计字段
+
+继承 BaseEntity
+
+6
+
+Charge 未继承 BaseEntity
+
+Charge.cs
+
+缺少统一审计字段
+
+继承 BaseEntity
+
+7
+
+DrugStock 未继承 BaseEntity
+
+DrugStock.cs
+
+缺少统一审计字段
+
+继承 BaseEntity
+
+8
+
+缺少全局异常过滤器
+
+全局
+
+各控制器分别处理
+
+添加 GlobalExceptionFilter
+
+9
+
+JWT claim userId 转 int 溢出
+
+AuthController.cs
+
+用户 ID 超限
+
+使用 long/string
+
+10
+
+UserService ChangePassword 管理员改密码无审计
+
+UserService.cs
+
+安全风险
+
+添加安全审计日志
+
+11
+
+测试缺少多租户专项测试
+
+全局
+
+多租户功能无保障
+
+添加 TenantContext 测试
+
+12
+
+测试缺少 API 控制器集成测试
+
+全局
+
+端到端无保障
+
+使用 WebApplicationFactory
+
+13
+
+测试缺少性能/并发测试
+
+全局
+
+高并发场景未知
+
+BenchmarkDotNet + 并行测试
+
+14
+
+前端 API 类型全为 any
+
+api/*.ts
+
+丢失类型安全
+
+为每个 API 定义 DTO 接口
+
+15
+
+前端缺少统一错误处理函数
+
+多个组件
+
+错误处理重复
+
+提取公共函数
+
+16
+
+前端 Store 手动操作 localStorage
+
+store/user.ts
+
+容易出错
+
+使用 pinia-plugin-persistedstate
+
+17
+
+DTO 类定义在控制器文件底部
+
+AuthController.cs
+
+不符合单一职责
+
+移至单独 DTOs 目录
+
+18
+
+前端目录/组件命名不统一
+
+全局
+
+维护困难
+
+统一规范
+
+19
+
+使用 () => import() 懒加载
+
+router/index.ts
+
+已正确实现
+
+保持并推广
+
+20
+
+V036 使用动态 SQL 条件添加列
+
+V036
+
+回滚复杂
+
+简化为独立 ALTER TABLE
+
+工作量预估: 约 80-120小时（2-3周，可分阶段）关键建议: 架构升级属于”还债”工作，建议在系统上线稳定后（上线后 3-6 个月），结合业务需求变更窗口期逐步实施。仓储模式的引入可以配合新功能开发时逐步替换，不需要一次性重构全部代码。
+
+4.3 高级安全与合规（10项）—— 长期安全体系建设
+
+#
+
+问题
+
+当前状态
+
+上线后演进建议
+
+1
+
+引入双因素认证（2FA）
+
+无
+
+上线后 3 个月评估
+
+2
+
+实施数据分类分级
+
+无
+
+上线后 1 个月启动
+
+3
+
+建立安全事件监测和响应（SIEM）
+
+无
+
+上线后 3 个月评估
+
+4
+
+密钥管理服务（KMS/Vault）替代静态密钥
+
+硬编码
+
+上线后 3 个月迁移
+
+5
+
+定期安全渗透测试
+
+无
+
+每季度一次
+
+6
+
+容器安全扫描（Trivy/Clair）
+
+无
+
+集成到 CI/CD
+
+7
+
+引入 CQRS 分离读写操作
+
+混合
+
+新模块采用 CQRS
+
+8
+
+引入 MediatR 处理领域事件
+
+无
+
+上线后 6 个月评估
+
+9
+
+添加分布式追踪（OpenTelemetry）
+
+无
+
+上线后 3 个月评估
+
+10
+
+API 版本控制
+
+无
+
+新接口使用版本前缀
+
+工作量预估: 约 160-240小时（4-6周，分 6-12 个月实施）关键建议: 这些是安全体系的”锦上添花”，建议在系统上线稳定、团队有余力后逐步引入。其中数据分类分级和 SIEM 是等保三级的要求，建议在上线后 3 个月内启动。
+
+4.4 测试完善（12项）—— 持续补充
+
+#
+
+问题
+
+当前状态
+
+补充建议
+
+1
+
+测试代码夹杂大量中文注释和文档
+
+冗长
+
+精简注释，移至单独文档
+
+2
+
+DrugStockQuantity_IsDecimal 测试与业务无关
+
+无效
+
+移除
+
+3
+
+IPharmacyService 方法签名测试无价值
+
+无效
+
+移除或改用编译时验证
+
+4
+
+测试构造函数过于复杂
+
+混杂
+
+使用测试基类或工厂模式
+
+5
+
+测试跳过方式不正确
+
+if (!_dbAvailable) return
+
+使用 Skip.If
+
+6
+
+Test6 挂号超时测试的是手动取消
+
+不准确
+
+使用模拟时间测试真正超时
+
+7
+
+缺少多租户功能单元测试
+
+无
+
+添加专项测试
+
+8
+
+缺少 API 控制器集成测试
+
+无
+
+添加端到端测试
+
+9
+
+缺少性能测试
+
+无
+
+BenchmarkDotNet
+
+10
+
+缺少并发测试
+
+无
+
+并行测试雪花 ID、乐观锁
+
+11
+
+测试使用 ExecuteSqlRaw 拼接 SQL
+
+有注入风险
+
+改用参数化查询
+
+12
+
+前端测试缺失
+
+无
+
+引入 Vitest + Vue Test Utils
+
+工作量预估: 约 40-80小时（1-2周）关键建议: 测试完善应与功能开发并行进行，建议采用”测试驱动修复”的方式——修复一个 bug 就补充一个对应的测试用例，逐步提升覆盖率。
+
+4.5 用户体验微调（8项）—— 持续迭代
+
+#
+
+问题
+
+当前状态
+
+优化建议
+
+1
+
+WaitingQueue 自动刷新无视觉提示
+
+30 秒轮询
+
+增加刷新倒计时
+
+2
+
+InvoicePrint 通过 window.open 打开新窗口
+
+现代浏览器可能拦截
+
+使用 @media print
+
+3
+
+处方明细用法/频次硬编码
+
+静态选项
+
+从数据字典动态加载
+
+4
+
+PatientForm 身份证校验位验证
+
+已有正则
+
+增加校验位算法
+
+5
+
+前端 isEdit = false 硬编码
+
+路由参数未读取
+
+从路由 query 判断
+
+6
+
+ExternalPrescriptionList 路由复用组件
+
+未确认模式差异
+
+确认或拆分组件
+
+7
+
+DrugStockList.vue 错误处理仅显示”加载失败”
+
+丢失详细信息
+
+显示后端具体错误消息
+
+8
+
+排班号源乐观锁 INT 类型
+
+可能耗尽
+
+改用 BIGINT
+
+工作量预估: 约 16-24小时（3-4个工作日）关键建议: 用户体验问题可以放在日常迭代中逐步优化，不需要集中时间处理。建议建立用户反馈渠道，根据实际使用反馈确定优先级。
+
+4.6 代码规范与整洁度（16项）—— 日常逐步消化
+
+#
+
+问题
+
+当前状态
+
+建议
+
+1
+
+空 catch 块吞掉异常
+
+多处
+
+至少记录日志
+
+2
+
+中文注释夹杂 emoji
+
+全局
+
+纯文本替代
+
+3
+
+行内联初始化多语句一行
+
+多处
+
+每条独占一行
+
+4
+
+缩进不一致
+
+多处
+
+dotnet-format
+
+5
+
+测试跳过方式不正确
+
+全局
+
+Skip.If
+
+6
+
+前端 UserList.vue 缺少 lang="ts"
+
+多个组件
+
+统一添加
+
+7
+
+前端 env.d.ts 泛型过于宽泛
+
+类型宽松
+
+严格泛型
+
+8
+
+API 响应格式不统一
+
+多个组件
+
+统一包装
+
+9
+
+前端组件文件冗余
+
+HeaderBar/SideMenu 两份
+
+删除冗余
+
+10
+
+迁移脚本文件名格式不统一
+
+单/双下划线混用
+
+统一 Flyway 格式
+
+11
+
+早期脚本未显式指定 COLLATE
+
+部分脚本
+
+显式指定 utf8mb4_unicode_ci
+
+12
+
+inventory_ins 等未显式指定字符集
+
+部分表
+
+显式指定
+
+13
+
+warehouse_id DEFAULT 1 可能外键冲突
+
+V024
+
+确保默认值存在
+
+14
+
+external_pharmacy_stocks last_sync_at 为 NOT NULL
+
+首次无同步时间
+
+改为 NULL DEFAULT
+
+15
+
+部分表缺少 deleted_at 软删除
+
+多个表
+
+评估是否需要
+
+16
+
+tenant_id 类型不统一
+
+部分表 BIGINT NULL
+
+统一为 BIGINT UNSIGNED NOT NULL
+
+工作量预估: 约 16-24小时（可在 Code Review 中逐步消化）关键建议: 代码规范问题最适合用”童子军规则”和自动化工具解决。建议： - 配置 dotnet-format + husky 提交前自动格式化 - 配置 ESLint + Prettier 前端自动格式化 - Code Review 时只关注业务逻辑，格式问题交给自动化工具
+
+4.7 数据库 Schema 演进（8项）—— 长期维护
+
+#
+
+问题
+
+当前状态
+
+演进建议
+
+1
+
+init-clinic-his.sql 包含建表语句
+
+重复定义
+
+仅保留数据插入，删除建表
+
+2
+
+V002 存储过程创建租户数据库
+
+动态 SQL
+
+移到应用层
+
+3
+
+V036 动态 SQL 条件添加列
+
+难以追踪
+
+拆分为独立脚本
+
+4
+
+V033 批量 UPDATE 无 WHERE 限制
+
+影响全表
+
+添加 WHERE 限制
+
+5
+
+seed/V001 真实格式测试身份证号
+
+合规风险
+
+使用明显虚构号码
+
+6
+
+init-clinic-his 所有账号相同密码哈希
+
+测试数据风险
+
+每个账号不同哈希
+
+7
+
+V024 available_quantity 设计变更未说明
+
+列重命名
+
+迁移记录中明确说明
+
+8
+
+visit_record vital_signs JSON 无 Schema
+
+无校验
+
+添加 JSON Schema
+
+工作量预估: 约 8-16小时（与日常迁移脚本编写同步进行）关键建议: 数据库 Schema 演进是持续工作，建议： - 每次修改迁移脚本时顺手修正一个历史遗留问题 - 建立迁移脚本 Review 清单（命名规范、备份步骤、兼容性检查）
+
+4.8 文档与运维（9项）—— 上线后补全
+
+#
+
+问题
+
+当前状态
+
+建议
+
+1
+
+缺少数据库 Schema 版本控制文档
+
+无
+
+建立 Schema 文档
+
+2
+
+缺少 API 接口文档（Swagger 生产禁用后）
+
+仅 Swagger
+
+使用离线文档或内网 Swagger
+
+3
+
+缺少部署手册
+
+无
+
+编写部署和回滚手册
+
+4
+
+缺少监控告警方案
+
+无
+
+配置 Prometheus/Grafana
+
+5
+
+缺少日志聚合方案
+
+无
+
+配置 ELK/Loki
+
+6
+
+缺少容量规划
+
+无
+
+基于业务量估算资源
+
+7
+
+缺少灾难恢复演练
+
+无
+
+每半年演练一次
+
+8
+
+缺少数据归档策略
+
+无
+
+历史数据归档到冷存储
+
+9
+
+缺少安全事件响应预案
+
+无
+
+制定响应流程
+
+工作量预估: 约 80-120小时（2-3周，分阶段）关键建议: 运维文档和方案建议在系统上线前 1 个月开始准备，上线后持续完善。监控告警和数据归档是保障生产稳定运行的基础设施，应尽早（上线后 1 个月内）搭建。
+
+5. 分阶段实施路线图（基于开发阶段）
+
+第一阶段：开发环境打通（当前最优先，约 1-2 周）
+
+目标：让新团队成员能在 30 分钟内本地搭建环境，功能开发不受阻。
+
+序号
+
+任务
+
+负责人
+
+预计工时
+
+1
+
+重写 V009 为 MySQL 语法
+
+后端
+
+2h
+
+2
+
+修正 V024 列修改方式
+
+后端
+
+1h
+
+3
+
+清理 V033 不存在表名
+
+后端
+
+1h
+
+4
+
+统一迁移记录表名
+
+后端
+
+0.5h
+
+5
+
+修复 V009 admin 密码哈希
+
+后端
+
+0.5h
+
+6
+
+合并前端双 axios 实例
+
+前端
+
+4-6h
+
+7
+
+修复 RolePermission.vue nextTick 导入
+
+前端
+
+0.5h
+
+8
+
+修复测试代码编译错误
+
+后端
+
+2h
+
+9
+
+移除/重命名兼容性存根类
+
+后端
+
+4-6h
+
+10
+
+统一主键类型（ulong→long）
+
+后端
+
+4-6h
+
+11
+
+合并重复组件文件
+
+前端
+
+1h
+
+12
+
+移除空 Class1.cs
+
+后端
+
+0.1h
+
+13
+
+修复前端硬编码操作员 ID
+
+前端
+
+2-3h
+
+14
+
+统一数据库命名规范
+
+后端
+
+4-6h
+
+15
+
+发布 Schema 规范文档
+
+后端+前端
+
+2h
+
+阶段产出： - 新成员本地搭建时间 < 30 分钟 - 迁移脚本全量执行无报错 - 测试项目编译通过 - 代码命名规范文档
+
+第二阶段：功能完整性修复（约 2-3 周）
+
+目标：消除 Mock 功能，实现核心业务可完整测试。
+
+序号
+
+任务
+
+负责人
+
+预计工时
+
+1
+
+DrugInboundForm 接入真实 API
+
+前端+后端
+
+4-6h
+
+2
+
+PatientList.vue openForm 完成
+
+前端
+
+2h
+
+3
+
+ChargeService 批次号动态分配
+
+后端
+
+4h
+
+4
+
+修复 ConfirmDeduction 事务边界
+
+后端
+
+2h
+
+5
+
+修复 PharmacyService 共享 reservationId
+
+后端
+
+2h
+
+6
+
+添加全局异常过滤器
+
+后端
+
+2-4h
+
+7
+
+封装前端统一错误处理函数
+
+前端
+
+2-4h
+
+8
+
+替换原生 fetch 为封装 API
+
+前端
+
+2h
+
+9
+
+ICD-10 对接后端字典接口
+
+前端+后端
+
+4h
+
+10
+
+前端 API 层补充 TypeScript 类型
+
+前端
+
+6-8h
+
+11
+
+背景任务改为直接引用接口
+
+后端
+
+2h
+
+12
+
+修复雪花 ID 单例模式
+
+后端
+
+1h
+
+阶段产出： - 所有前端功能使用真实 API - 核心业务逻辑（挂号、收费、药房）可完整测试 - 错误处理统一
+
+第三阶段：安全合规攻坚（约 3-4 周，可在功能开发中后期并行）
+
+目标：满足等保 2.0 三级、个保法、网络安全法最低合规要求。
+
+序号
+
+任务
+
+负责人
+
+预计工时
+
+1
+
+为 Patients/Charges/TenantsController 添加 [Authorize]
+
+后端
+
+1h
+
+2
+
+修复 CORS 配置
+
+后端
+
+0.5h
+
+3
+
+实现登录失败锁定
+
+后端
+
+4h
+
+4
+
+缩短 Token 有效期 + Refresh Token
+
+后端
+
+4-6h
+
+5
+
+Logout 使 Token 失效（Redis 黑名单）
+
+后端
+
+2h
+
+6
+
+密码复杂度校验
+
+后端
+
+1h
+
+7
+
+实现 SideMenu 动态权限渲染
+
+前端
+
+4-6h
+
+8
+
+前端路由守卫添加权限控制
+
+前端
+
+2h
+
+9
+
+敏感数据加密服务封装
+
+后端
+
+4-6h
+
+10
+
+患者/员工敏感字段加密存储
+
+后端
+
+4h
+
+11
+
+API 响应数据脱敏
+
+后端
+
+2h
+
+12
+
+前端登录验证码
+
+前端
+
+2h
+
+13
+
+密码传输哈希
+
+前端+后端
+
+2h
+
+14
+
+Nginx 配置 HTTPS
+
+运维
+
+2-4h
+
+15
+
+Docker Compose 移除 phpMyAdmin，密码改用 Secrets
+
+运维
+
+2h
+
+16
+
+Redis 添加密码认证
+
+运维
+
+1h
+
+17
+
+Swagger 仅开发环境启用
+
+后端
+
+0.5h
+
+18
+
+部署脚本移除硬编码密码
+
+运维
+
+1h
+
+19
+
+数据库备份策略
+
+运维
+
+4h
+
+20
+
+审计日志完善（覆盖所有端点）
+
+后端
+
+2h
+
+阶段产出： - 等保 2.0 三级基本合规 - 个保法敏感信息保护合规 - 所有接口需认证访问 - 传输层加密
+
+第四阶段：生产就绪优化（上线前 1-2 个月）
+
+目标：系统在生产环境稳定运行，可监控、可告警、可回滚。
+
+序号
+
+任务
+
+负责人
+
+预计工时
+
+1
+
+数据库大表分区（审计日志、溯源、库存日志）
+
+后端+DBA
+
+8-12h
+
+2
+
+索引优化（移除低区分度索引，添加复合索引）
+
+DBA
+
+4-6h
+
+3
+
+完善回滚脚本备份机制
+
+后端
+
+4h
+
+4
+
+引入仓储模式（新模块采用）
+
+后端
+
+8-12h
+
+5
+
+完善异常处理（区分可恢复/不可恢复）
+
+后端
+
+4h
+
+6
+
+生产环境禁用 Swagger
+
+后端
+
+0.5h
+
+7
+
+添加 Nginx 安全头部和速率限制
+
+运维
+
+2h
+
+8
+
+数据库自动备份 + 恢复演练
+
+运维
+
+8h
+
+9
+
+配置监控告警（Prometheus/Grafana）
+
+运维
+
+8h
+
+10
+
+配置日志聚合（ELK/Loki）
+
+运维
+
+8h
+
+11
+
+编写部署手册和运维手册
+
+运维
+
+8h
+
+12
+
+容量规划和压力测试
+
+运维+测试
+
+8h
+
+第五阶段：长期演进（上线后 3-12 个月）
+
+序号
+
+任务
+
+时机
+
+1
+
+引入 CQRS
+
+新模块开发时
+
+2
+
+添加 OpenTelemetry 分布式追踪
+
+上线后 3 个月
+
+3
+
+双因素认证（2FA）
+
+上线后 3 个月评估
+
+4
+
+密钥管理服务（Vault）
+
+上线后 3 个月
+
+5
+
+安全事件监测（SIEM）
+
+上线后 3-6 个月
+
+6
+
+定期安全渗透测试
+
+每季度
+
+7
+
+数据归档策略
+
+上线后 1 个月
+
+8
+
+WebSocket 替代轮询
+
+上线后 3-6 个月
+
+6. 总结
+
+给开发团队的建议
+
+当下最紧急：数据库迁移脚本问题（V009 PostgreSQL 语法、V024 数据丢失）是当前最大的开发阻塞，建议立即安排一名后端开发者 1-2 天内修复。
+
+双 axios 实例是第二紧急的问题，影响前后端联调效率，建议前端开发者 1 天内完成合并。
+
+主键类型统一和存根类清理属于”越早做成本越低”的技术债务，建议在功能开发相对空闲的窗口期集中处理。
+
+安全合规问题不需要等到上线前才突击处理，建议在功能开发中后期（第三阶段）就开始逐步添加 [Authorize]、加密服务等，避免最后阶段时间压力过大。
+
+性能优化和架构升级可以放在上线后，根据实际运行数据和业务需求逐步实施，不需要在开发阶段过度设计。
+
+关键里程碑检查点
+
+检查点
+
+时间
+
+验收标准
+
+开发环境打通
+
+1-2 周后
+
+新成员 30 分钟本地搭建，迁移脚本全量通过
+
+功能完整可测试
+
+1 个月后
+
+所有前端功能使用真实 API，核心业务可完整测试
+
+安全合规基线
+
+2 个月后
+
+所有接口需认证，敏感数据加密，传输加密
+
+生产就绪
+
+3 个月后
+
+可监控、可告警、可回滚、有部署手册
+
+正式上线
+
+3-4 个月后
+
+通过安全复测，运维团队就位
+
+⚠️ 重要提示：以上时间估算基于常规开发节奏（2-3 名后端 + 1-2 名前端 + 1 名运维），实际进度需结合团队规模和业务需求优先级调整。建议在项目管理工具中为每个阶段创建独立的 Epic，按优先级逐步消化。
+
+本报告基于代码审查结果，结合项目尚在开发阶段的实际情况进行重新分类。问题分类原则： - 🔴 当下要改：会导致开发环境异常、团队协作受阻、测试数据错误、技术债务累积的问题 - 🟡 上线前改：涉及患者隐私保护、访问控制、传输加密、部署安全的硬性合规要求 - 🟢 上线后优化：性能优化、架构升级、代码整洁度提升等长期改进项
+
+报告生成日期: 2026年4月25日

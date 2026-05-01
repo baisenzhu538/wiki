@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777521858168-06mpji00l",
+  "providerId": "claude",
+  "title": "Initiate conversation",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777521858171,
+  "updatedAt": 1777531949493,
+  "lastResponseAt": 1777531949493,
+  "sessionId": "3e088963-e2ce-489c-a749-5fa60b608897",
+  "providerState": {
+    "providerSessionId": "3e088963-e2ce-489c-a749-5fa60b608897"
+  },
+  "usage": {
+    "model": "deepseek-v4-pro",
+    "inputTokens": 123,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 25344,
+    "contextWindow": 200000,
+    "contextTokens": 25467,
+    "percentage": 13,
+    "contextWindowIsAuthoritative": true
+  }
+}

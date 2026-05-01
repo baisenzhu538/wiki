@@ -1,0 +1,23 @@
+{
+  "id": "conv-1777643198305-9y00qeuxp",
+  "providerId": "claude",
+  "title": "Start KDO workspace session",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777643198306,
+  "updatedAt": 1777643207973,
+  "lastResponseAt": 1777643204565,
+  "sessionId": "a90a1e9a-68c6-4b9f-87b8-74bc6eff35be",
+  "providerState": {
+    "providerSessionId": "a90a1e9a-68c6-4b9f-87b8-74bc6eff35be"
+  },
+  "usage": {
+    "model": "deepseek-v4-flash",
+    "inputTokens": 113,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22272,
+    "contextWindow": 200000,
+    "contextTokens": 22385,
+    "percentage": 11,
+    "contextWindowIsAuthoritative": true
+  }
+}

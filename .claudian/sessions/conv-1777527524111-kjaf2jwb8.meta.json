@@ -1,0 +1,24 @@
+{
+  "id": "conv-1777527524111-kjaf2jwb8",
+  "providerId": "claude",
+  "title": "Begin conversation",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777527524113,
+  "updatedAt": 1777578554738,
+  "lastResponseAt": 1777578397747,
+  "sessionId": "67a0e2e0-09c5-48c9-9bc4-e089515ae605",
+  "providerState": {
+    "providerSessionId": "67a0e2e0-09c5-48c9-9bc4-e089515ae605"
+  },
+  "currentNote": "30_wiki/concepts/互联网医院模式深度调研报告.md",
+  "usage": {
+    "model": "deepseek-v4-flash",
+    "inputTokens": 20314,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 15360,
+    "contextWindow": 200000,
+    "contextTokens": 35674,
+    "percentage": 18,
+    "contextWindowIsAuthoritative": true
+  }
+}

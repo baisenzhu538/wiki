@@ -1,0 +1,143 @@
+# Source Registry
+
+sources:
+
+- id: "src_20260427_970eb338"
+  title: "街顺APP全面调研报告"
+  type: "other"
+  location: "10_raw/sources/src_20260427_970eb338-街顺app全面调研报告.md"
+  captured_at: "2026-04-26T18:17:11+00:00"
+  registered_at: "2026-04-26T18:17:11+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/街顺app全面调研报告.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/街顺APP全面调研报告.md"
+  content_sha256: "b49c66064a989dac1e72d221ff3bdb1ae36cf0a486232bc8be1cb66e6bc2cf23"
+
+- id: "src_20260430_8cc84e5b"
+  title: "YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN"
+  type: "other"
+  location: "10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md"
+  captured_at: "2026-04-29T17:08:58+00:00"
+  registered_at: "2026-04-29T17:08:58+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/links/YC-AI-Native公司组织方法论.md"
+  content_sha256: "c31c3942e43b995cb2dd225cf554d538429dc535c55ad06e91bb471ef3d20fd8"
+
+- id: "src_20260430_59a3d224"
+  title: "街顺APP全面调研报告"
+  type: "other"
+  location: "10_raw/sources/src_20260430_59a3d224-街顺app全面调研报告.md"
+  captured_at: "2026-04-29T18:36:29+00:00"
+  registered_at: "2026-04-29T18:36:29+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/街顺app全面调研报告-2.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/research/街顺APP全面调研报告.md"
+  content_sha256: "f9def8cf25d369094e9c1bfb3a41675be0418c367b8124d37895c4a33cc81027"
+
+- id: "src_20260430_b49df0ad"
+  title: "鑫港湾HIS系统分阶段整改报告"
+  type: "other"
+  location: "10_raw/sources/src_20260430_b49df0ad-鑫港湾his系统分阶段整改报告.md"
+  captured_at: "2026-04-29T18:36:29+00:00"
+  registered_at: "2026-04-29T18:36:29+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/鑫港湾his系统分阶段整改报告-2.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/鑫港湾HIS系统分阶段整改报告.md"
+  content_sha256: "7e6e0580ba12f06dcc2584625b1c90d71be4e00e11a7712382addc82e57dc42a"
+
+- id: "src_20260501_6a491b80"
+  title: "‍‬⁠​​​⁠​﻿​‍‍​​​​‬​​​‍​⁠‌​﻿‍‍⁠​​﻿‍‬​‍​‬​﻿﻿﻿​​‍‬​﻿‌​Knowledge Delivery OS 快速体验指南 - 飞书云文档"
+  type: "other"
+  location: "10_raw/sources/src_20260501_6a491b80-knowledge-delivery-os-快速体验指南-飞书云文档.md"
+  captured_at: "2026-04-30T18:43:29+00:00"
+  registered_at: "2026-04-30T18:43:29+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/links/‍‬⁠​​​⁠​﻿​‍‍​​​​‬​​​‍​⁠‌​﻿‍‍⁠​​﻿‍‬​‍​‬​﻿﻿﻿​​‍‬​﻿‌​Knowledge Delivery OS 快速体验指南 - 飞书云文档 1.md"
+  content_sha256: "c6a76f468cf050cd9cc51c2125efe9a3125dac72a82c38462ad6d8d1b4502eff"
+
+- id: "src_20260501_4eee4e95"
+  title: "紫鲸AI_智能体工作流平台_深度分析与产品设计"
+  type: "other"
+  location: "10_raw/sources/src_20260501_4eee4e95-紫鲸ai_智能体工作流平台_深度分析与产品设计.md"
+  captured_at: "2026-04-30T18:43:29+00:00"
+  registered_at: "2026-04-30T18:43:29+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/紫鲸ai_智能体工作流平台_深度分析与产品设计.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/research/紫鲸AI_智能体工作流平台_深度分析与产品设计.md"
+  content_sha256: "fd171bce75610acf94a8b4eaf6e11146ccf8150478471b105522ce49e9617e67"
+
+- id: "src_20260501_dfa19257"
+  title: "诊所O2O外卖平台业务深度调研报告"
+  type: "other"
+  location: "10_raw/sources/src_20260501_dfa19257-诊所o2o外卖平台业务深度调研报告.md"
+  captured_at: "2026-04-30T18:43:29+00:00"
+  registered_at: "2026-04-30T18:43:29+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/诊所o2o外卖平台业务深度调研报告.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/research/诊所O2O外卖平台业务深度调研报告.md"
+  content_sha256: "1c4f8b4c3a49f800f796d3151fa1d7de92d233f0e9a06ab97b17e9968e52f4b4"
+
+- id: "src_20260501_9a55ddb9"
+  title: "鑫港湾HIS系统分阶段整改报告"
+  type: "other"
+  location: "10_raw/sources/src_20260501_9a55ddb9-鑫港湾his系统分阶段整改报告.md"
+  captured_at: "2026-04-30T18:43:30+00:00"
+  registered_at: "2026-04-30T18:43:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/鑫港湾his系统分阶段整改报告-3.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/research/鑫港湾HIS系统分阶段整改报告.md"
+  content_sha256: "7e6e0580ba12f06dcc2584625b1c90d71be4e00e11a7712382addc82e57dc42a"
+
+- id: "src_20260501_9962715b"
+  title: "互联网医院模式深度调研报告"
+  type: "other"
+  location: "10_raw/sources/src_20260501_9962715b-互联网医院模式深度调研报告.md"
+  captured_at: "2026-04-30T19:29:48+00:00"
+  registered_at: "2026-04-30T19:29:48+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/互联网医院模式深度调研报告.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/research/互联网医院模式深度调研报告.md"
+  content_sha256: "062754dc042bc363fb4281de237cc786b1a40ad6cd6cb06b7f8052a0995c3953"
+
+- id: "src_20260501_58b6edef"
+  title: "Obsidian + KDO 内容产出工作流 — 产品设计大纲"
+  type: "other"
+  location: "10_raw/sources/src_20260501_58b6edef-obsidian-kdo-内容产出工作流-产品设计大纲.md"
+  captured_at: "2026-05-01T05:26:43+00:00"
+  registered_at: "2026-05-01T05:26:43+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/obsidian-kdo-内容产出工作流-产品设计大纲.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/research/kdo_product_design.agent.final.md"
+  content_sha256: "0039a70204dc57ed69bdd3babe5edeee579aafeab946cfb4026351be3f284cdb"
