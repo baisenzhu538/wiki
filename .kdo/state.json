@@ -255,7 +255,13 @@
       "related_wiki": [
         "30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md"
       ],
-      "derived_outputs": [],
+      "derived_outputs": [
+        {
+          "artifact_id": "art_20260502_415450fb",
+          "type": "content/article",
+          "path": "40_outputs/content/articles/art_20260502_415450fb-kimi-deep-research-swarm-方法论深度解析.md"
+        }
+      ],
       "inbox_path": "00_inbox/research/research_methodology.md",
       "content_sha256": "ca1c8a50e3fd12095991c548271ef0231edf945456cc6f3c9fa38e2969dda33c"
     }
@@ -486,19 +492,24 @@
       "subtype": "article",
       "title": "Kimi Deep-Research-Swarm 方法论深度解析",
       "target_user": "AI研究者与工程师",
-      "source_refs": [],
-      "wiki_refs": [],
+      "source_refs": [
+        "src_20260502_7d7c1b7c"
+      ],
+      "wiki_refs": [
+        "30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md"
+      ],
       "definition_of_done": [
         "target reader explicit",
         "core claim explicit",
         "source refs present",
         "feedback path declared"
       ],
-      "status": "draft",
+      "status": "ready",
       "delivery_channel": "article",
       "feedback_source": "60_feedback/",
       "path": "40_outputs/content/articles/art_20260502_415450fb-kimi-deep-research-swarm-方法论深度解析.md",
-      "created_at": "2026-05-01T18:54:29+00:00"
+      "created_at": "2026-05-01T18:54:29+00:00",
+      "updated_at": "2026-05-02T00:00:00+00:00"
     }
   ],
   "deliveries": [
