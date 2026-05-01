@@ -1,10 +1,10 @@
 ---
 title: "Kimi 深度调研集群方法论 (Deep-Research-Swarm)"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260502_7d7c1b7c"]
 created_at: "2026-05-01T18:49:20+00:00"
-updated_at: "2026-05-01T18:49:20+00:00"
+updated_at: "2026-05-02T00:00:00+00:00"
 ---
 
 # Kimi 深度调研集群方法论 (Deep-Research-Swarm)
@@ -23,15 +23,31 @@ updated_at: "2026-05-01T18:49:20+00:00"
 
 ## Reusable Knowledge
 
-- **逐文件提取**（每文件提取）:    - 核心主题与议题    - 关键声明、论点、结论    - 数据点、统计数字、图表（附页码/章节引用）    - 方法论（如适用）    - 局限性、注意事项、作者指出的偏见 3.
-- 如用户指定时间范围，编排器必须在移交前验证最终制品中的关键数据点和日期是否落在该范围内 | 路线 | Agent 规模 | 搜索预算 | 说明 | |------|-----------|---------|------| | **Route A** | ≥5广域Agent + ≥10深度Agent | **≥250次搜索** | 广域: 每Agent ≥10次；深度: 每Agent ≥20次 | | **Route B** | ≥10深度Agent | **≥200次搜索** | 每Agent ≥20次 | | **Route C** | ≥10文件Agent | **0次外部搜索** | 纯文件分析 | | **Route D** | ≥10深度Agent | **≥150次搜索** | 每Agent ≥15次（文件提供基础证据，搜索需求减少） | 1.
+- **认知三角测量 (Epistemic Triangulation)**：多智能体在不同维度发散探索，检测重叠与矛盾，深度验证后收敛为综合结论。集群并行服务于认知鲁棒性而非仅追求速度
+- **自适应路由体系 (Phase 0)**：根据任务特征将查询分为四条路线 — Route A 广域搜索（宽泛主题）、Route B 聚焦搜索（具体问题）、Route C 纯文件研究（零外部搜索）、Route D 文件增强研究（文件为主+外部补充）
+- **认知重置规则 (Epistemic Reset Rule)**：假设内部知识可能过时，始终先获取当前时间；时间敏感性约束为硬约束；外部证据优先于内部知识；禁止先叙事后搜索
+- **两阶段集群架构 (Route A)**：Phase 1W 广域探索（≥5 Agent，每Agent ≥10次搜索）追求覆盖广度 → Phase 3 并行深度挖掘（≥10 Agent，每Agent ≥20次搜索）追求深度，确保不遗漏关键信息
+- **维度分解规则**：≥10个强制性维度，从截然不同的角度/场景切入，≥30%概念重叠创造交叉验证压力，每个维度覆盖当前状态、关键证据、张力与反论
+- **交叉验证引擎 (Phase 4)**：四层置信度体系 — High（≥2 Agent独立确认）、Medium（1 Agent权威来源）、Low（薄弱来源）、Conflict Zone（统计/解释分歧，显式记录不压制）
+- **洞察提取 (Phase 6)**：洞察是从跨维度比较中涌现的高层推论，非现有发现的重复。体裁感知：报告优先战略洞察，学术论文优先研究空白与理论张力。最低5条洞察
+- **文件优先原则 (Route C/D)**：Route C 严格零外部搜索（保真度至上），Route D 以文件为主+外部搜索填补空白，外部来源不掩盖用户提供的材料
+- **搜索预算梯度**：Route A ≥250次（最重），Route B ≥200次，Route D ≥150次，Route C 0次。原始证据必需，禁止仅转述输出
+- **一切皆是文件**：长形式研究内容保存在 `/mnt/agents/output/research/`，聊天仅用于状态更新。输出文件包括 dim (维度)、cross_verification (交叉验证)、insight (洞察)、file_analysis (文件分析)、wide (广域探索)
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 多Agent集群的成本与延迟如何控制？≥15 Agent并行+≥250次搜索的预算在实际部署中的API调用费用和端到端延迟是否可接受？
+- Route C（纯文件）中跳过Phase 5后，如何确保低置信度发现或文件间矛盾不被带入最终制品？是否需要在Phase 6或Phase 7增设额外的"不确定性声明"机制？
+- 维度分解中≥30%概念重叠的"交叉验证压力"如何量化？当前依赖编排器主观判断，缺乏自动化重叠度度量方法
+- Phase 1W的广域探索维度（5-8个facet）如何保证不遗漏关键视角？是否有回退机制处理"事后发现遗漏维度"的情况？
+- 时间敏感性硬约束（如"2026 Q1"）在子Agent层面的执行保真度如何保证？编排器如何验证所有子Agent确实遵守了时间窗口？
+- 引用溯源链路断裂风险：子Agent输出的 `[^number^]` 引用在Phase 4-6的综合重写中如何保持完整可追溯？跨文档引用合并时的编号冲突如何解决？
+- 该方法论假设子Agent能自主执行≥20次独立搜索并判断来源质量——对Agent能力的依赖是否过高？弱Agent（无法区分权威来源与内容农场）是否会系统性降低研究质量？
+- 中文搜索生态与英文搜索生态的来源质量差异如何处理？中国互联网环境下政府/学术来源的可获得性与英文世界不同
+- 输出文件的长期管理和检索机制是什么？多次研究任务产生的 `/mnt/agents/output/research/` 文件如何被索引、复用、避免知识沉淀流失？
 
 ## Output Opportunities
 
-- Content: report or analysis
-- Code:
-- Capability: skill or agent
+- Content: 深度研究方法论对比分析报告（Kimi Deep-Research-Swarm vs Perplexity Deep Research vs Google Deep Research）；多智能体协作模式综述文章
+- Code: KDO 技能封装 — 将此方法论实现为 `kdo research` 命令的编排脚本，集成 Route A/B/C/D 路由逻辑
+- Capability: deep-research agent swarm 编排器（可复用的研究技能，接受主题+路线参数，自动编排子Agent集群）
