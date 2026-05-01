@@ -11,10 +11,14 @@
             "id": "8bef8a58ba3267dd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "CLAUDE"
             }
           }
         ]
@@ -185,11 +189,16 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "claudian:Open Claudian": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee16d3095abfce90",
+  "active": "d4b20ae5c73cc184",
   "lastOpenFiles": [
+    "00_inbox/research/research_methodology.md",
+    "60_feedback/assessments/老顽童对黄药师KDO改造的独立判断.md",
+    "60_feedback/assessments",
+    "新建文本文档.txt",
     "未命名.md",
     "30_wiki/index.md",
     "30_wiki/concepts/诊所o2o外卖平台业务深度调研报告.md",
@@ -216,7 +225,6 @@
     "40_outputs/content/articles/art_20260427_16a7c4d7-街顺-零融资saas的生存逻辑.md",
     "40_outputs/capabilities/workflows/daily-capture-flow.md",
     "40_outputs/capabilities/workflows/feedback-improve-flow.md",
-    "40_outputs/capabilities/workflows/produce-and-ship-flow.md",
-    "40_outputs/capabilities/skills/system-linter/SKILL.md"
+    "40_outputs/capabilities/workflows/produce-and-ship-flow.md"
   ]
 }
