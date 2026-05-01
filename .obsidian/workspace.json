@@ -171,9 +171,19 @@
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "8342fc6188e239ac",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -195,6 +205,8 @@
   },
   "active": "d4b20ae5c73cc184",
   "lastOpenFiles": [
+    "40_outputs/content/articles/art_20260502_415450fb-kimi-deep-research-swarm-方法论深度解析.md.tmp.439.1777662033265",
+    "40_outputs/content/articles/art_20260502_415450fb-kimi-deep-research-swarm-方法论深度解析.md.tmp.439.1777662022121",
     "40_outputs/content/articles/art_20260502_415450fb-kimi-deep-research-swarm-方法论深度解析.md.tmp.439.1777661802781",
     "60_feedback/eval-results/fb_20260502_d86f43fd-artifact-validation.md",
     "20_memory/cli-preferences.json",

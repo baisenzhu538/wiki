@@ -24,6 +24,12 @@ Kimi Deep-Research-Swarm 通过"多智能体认知三角测量"（Epistemic Tria
 - **Why this matters**: 理解 Kimi 的方法论架构可以帮助 AI 工程师设计更可靠的多Agent研究系统，避免"浅层聚合"陷阱
 - **Why now**: 2026年多Agent框架（LangGraph、CrewAI、AutoGen）日趋成熟，但缺乏经过验证的生产级研究编排模式——Kimi Swarm 提供了具体的参考架构
 
+## Audience
+
+- **AI/ML工程师**：正在构建或评估多Agent研究系统，需要生产级编排参考架构
+- **技术决策者**：评估深度研究工具的采购或自建方案，需要理解不同产品的架构差异
+- **学术研究者**：需要高质量文献综述和跨维度分析，关注如何使用AI提升研究效率和质量
+
 ## Key Findings
 
 1. **自适应路由是入口关键** — Kimi 在 Phase 0 根据任务特征（是否有文件、是否宽泛主题）自动分流为四条路线（A/B/C/D），每条路线的 Agent 规模、搜索预算和验证流程不同 `src_20260502_7d7c1b7c`
@@ -106,3 +112,8 @@ Kimi Swarm 最值得学习的设计是 Phase 4 的交叉验证引擎。所有子
 - [x] Word count is 500–3000
 - [x] Call to Action is specific and actionable
 - [x] Source lineage table is complete
+
+## Feedback Path
+
+- `60_feedback/comments/` — reader comments and suggestions
+- `60_feedback/corrections/` — factual correction reports
