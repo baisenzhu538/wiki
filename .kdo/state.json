@@ -241,6 +241,23 @@
       "derived_outputs": [],
       "inbox_path": "00_inbox/research/kdo_product_design.agent.final.md",
       "content_sha256": "0039a70204dc57ed69bdd3babe5edeee579aafeab946cfb4026351be3f284cdb"
+    },
+    {
+      "id": "src_20260502_7d7c1b7c",
+      "title": "Kimi 深度调研集群方法论 (Deep-Research-Swarm)",
+      "type": "other",
+      "location": "10_raw/sources/src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm.md",
+      "captured_at": "2026-05-01T18:49:20+00:00",
+      "registered_at": "2026-05-01T18:49:20+00:00",
+      "trust_level": "unknown",
+      "freshness": "unknown",
+      "rights": "unknown",
+      "related_wiki": [
+        "30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md"
+      ],
+      "derived_outputs": [],
+      "inbox_path": "00_inbox/research/research_methodology.md",
+      "content_sha256": "ca1c8a50e3fd12095991c548271ef0231edf945456cc6f3c9fa38e2969dda33c"
     }
   ],
   "artifacts": [
@@ -744,7 +761,8 @@
     "00_inbox/research/紫鲸AI_智能体工作流平台_深度分析与产品设计.md",
     "00_inbox/research/诊所O2O外卖平台业务深度调研报告.md",
     "00_inbox/research/互联网医院模式深度调研报告.md",
-    "00_inbox/research/kdo_product_design.agent.final.md"
+    "00_inbox/research/kdo_product_design.agent.final.md",
+    "00_inbox/research/research_methodology.md"
   ],
   "wiki_snapshots": {},
   "revisions": [

@@ -93,3 +93,5 @@ Chronological record of knowledge operations.
 - 2026-05-01T06:22:26+00:00 - Revision `rev_20260501_81bb865b` recorded for `30_wiki/concepts/街顺app全面调研报告.md` (triggered by 0 feedback record(s))
 
 - 2026-05-01T07:02:06+00:00 - Revision `rev_20260501_64a53a82` recorded for `30_wiki/concepts/紫鲸ai智能体工作流平台.md` (triggered by 0 feedback record(s))
+
+- 2026-05-01T18:49:20+00:00 - Ingested `src_20260502_7d7c1b7c` from 00_inbox/research/research_methodology.md
