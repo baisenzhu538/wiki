@@ -1,14 +1,15 @@
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/app.json
-.obsidian/appearance.json
-.obsidian/graph.json
-.obsidian/templates.json
-.claude/settings.local.json
-.claudian/claudian-settings.json
-.claudian/sessions/
-.kdo/search_index.json
-.kdo/state.json
-.obsidian/plugins/claudian/data.json
-.obsidian/plugins/claudian/backup/
-.obsidian/plugins/obsidian-excalidraw-plugin/data.json
+# Machine-specific configs — ignored across all devices
+.obsidian/
+.claude/
+.claudian/
+.kdo/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor temp files
+*.swp
+*.swo
+*~
