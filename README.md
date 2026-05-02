@@ -2,6 +2,8 @@
 
 This workspace is a local-first knowledge delivery system.
 
+> **All AI agents and human operators must read `90_control/PROTOCOL.md` before any create, update, or delete operation.**
+
 Core loop:
 
 ```text
