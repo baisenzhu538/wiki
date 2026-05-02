@@ -1,0 +1,244 @@
+{
+  "main": {
+    "id": "54c654165f7313ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa27f360d6bf8e0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ce6d7482f46c47b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "618367de5b3e41d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bae9354bd2cdd39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee16d3095abfce90",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "0e83fe201bb4ead8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "6d410a3ae33c9b35",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "acf96d73226e0d2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "9959cd8da6495be1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1628066661e41ec2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "40_outputs/content/articles/art_20260427_16a7c4d7-街顺-零融资saas的生存逻辑.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "art_20260427_16a7c4d7-街顺-零融资saas的生存逻辑 的反向链接列表"
+            }
+          },
+          {
+            "id": "82884b64a66bd329",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "40_outputs/content/articles/art_20260427_16a7c4d7-街顺-零融资saas的生存逻辑.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "art_20260427_16a7c4d7-街顺-零融资saas的生存逻辑 的出链列表"
+            }
+          },
+          {
+            "id": "92bf3b039ff1f9d6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "8cbb19fc64b9d924",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "11ca992483aa8037",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "40_outputs/content/Claude Code：你的终端里的AI编程伙伴.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Claude Code：你的终端里的AI编程伙伴 的大纲"
+            }
+          },
+          {
+            "id": "b16f054f5172301f",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "9af9361fbd4a2dec",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "claudian:Open Claudian": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "b16f054f5172301f",
+  "lastOpenFiles": [
+    "wiki/index.md",
+    "wiki/log.md",
+    "wiki",
+    "README.md",
+    "90_control/source-registry.yaml",
+    "90_control/routing-rules.md",
+    "90_control/artifact-registry.yaml",
+    "90_control/workflows/feedback-routing-rules.md",
+    "90_control/workflows",
+    "90_control/schemas/artifact.schema.md",
+    "90_control/schemas/source.schema.md",
+    "90_control/schemas",
+    "90_control/revisions/rev_20260501_64a53a82-30_wiki-concepts-紫鲸ai智能体工作流平台.md",
+    "90_control/revisions/rev_20260501_81bb865b-30_wiki-concepts-街顺app全面调研报告.md",
+    "90_control/revisions",
+    "90_control/quality-gates/content.md",
+    "90_control/quality-gates/capability.md",
+    "90_control/quality-gates/code.md",
+    "90_control/quality-gates",
+    "90_control/AGENTS.md",
+    "90_control",
+    "60_feedback/simulated/fb_20260501_14a57c1b-结语从分析模式滑向叙事模式不一样的叙事是记者笔法不是分析师笔法.md",
+    "60_feedback/simulated/fb_20260501_fc16d3d6-ai当操作系统的概念在上下文中表述模糊需要定义和翻译.md",
+    "60_feedback/simulated/fb_20260501_fc08fb37-所有数据源自单一来源但没有标注分析师要求可复现性.md",
+    "60_feedback/simulated/fb_20260501_da54ccfe-文章完全为空core-thesis和draft都是todo与传统老板读者需求严重断裂.md",
+    "60_feedback/simulated/fb_20260501_b17b8789-微信公众号长文风格缺失没有钩子节奏和行动号召.md",
+    "60_feedback/simulated/fb_20260501_a474bddb-文章完全是空骨架核心论点和正文均为todo.md",
+    "60_feedback/simulated/fb_20260501_6bcaa555-标题用yc说...但能做到吗挑起冲突正文需要匹配这个挑衅性承诺.md",
+    "60_feedback/simulated/fb_20260501_602e2582-wiki来源与文章标题之间存在逻辑断层yc的观点从哪来.md",
+    "60_feedback/simulated/fb_20260501_5a723ef5-frontmatter引用了街顺和紫鲸ai的wiki页面但正文从未提及引用链断裂.md",
+    "60_feedback/simulated/fb_20260501_55f70d5e-文章内部有两种声音yc框架翻译者-vs-中国实践者切换时读者可能迷失.md",
+    "60_feedback/simulated/fb_20260501_0dc89e46-wiki_refs只有街顺但街顺报告不包含yc方法论的核心信息.md",
+    "60_feedback/simulated/fb_20260501_5378b913-全链路唯一性声明缺少竞争对手对标分析师会追问证据呢.md",
+    "60_feedback/simulated/fb_20260501_3d61452e-四步指南偏通用ai创业者期望更具体的工具和行动方案.md",
+    "60_feedback/simulated",
+    "60_feedback/eval-results",
+    "00_inbox/research/arch_chapter5.png"
+  ]
+}
