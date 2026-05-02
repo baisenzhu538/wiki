@@ -1,0 +1,150 @@
+# Concept Card JSON Schema
+# Used by AI agents to validate frontmatter before creating/updating concept pages.
+# File: 90_control/schemas/concept.yaml
+# Reference: PROTOCOL.md Section 4
+
+$id: "kdo://schemas/concept"
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "KDO Concept Card"
+description: >
+  Schema for knowledge cards stored in 30_wiki/concepts/ and 30_wiki/entities/.
+  Every concept MUST pass this validation before being written to disk.
+
+type: object
+required:
+  - title
+  - type
+  - status
+  - source_refs
+  - created_at
+  - updated_at
+
+properties:
+  title:
+    type: string
+    minLength: 1
+    maxLength: 120
+    description: "Human-readable title. Use sentence case. No trailing period."
+
+  type:
+    type: string
+    enum:
+      - concept
+      - entity
+      - comparison
+      - decision
+      - improvement-plan
+      - system
+      - trend
+    description: >
+      concept: abstract idea or knowledge card
+      entity: person, company, organization
+      comparison: comparing two or more concepts
+      decision: decision record or improvement plan
+      improvement-plan: actionable plan derived from feedback
+      system: architecture or workflow knowledge
+      trend: trend analysis
+
+  status:
+    type: string
+    enum:
+      - draft
+      - reviewed
+      - stable
+      - needs-review
+    description: >
+      draft: initial creation, may contain TODOs
+      reviewed: passed human or AI review
+      stable: widely referenced, unlikely to change
+      needs-review: contradictions found or source questioned
+
+  source_refs:
+    type: array
+    minItems: 1
+    items:
+      type: string
+      pattern: "^src_[0-9]{8}_[a-f0-9]{8}$"
+    description: >
+      Array of source_ids referencing 10_raw/sources/.
+      Format: src_YYYYMMDD_8hexchars
+      Must have at least one entry.
+
+  created_at:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    description: "ISO 8601 date. Example: 2026-05-02"
+
+  updated_at:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    description: "ISO 8601 date. Update on every modification."
+
+  related:
+    type: array
+    items:
+      type: string
+      pattern: "^\\[\\[.+\\]\\]$"
+    description: >
+      Optional bidirectional links to other wiki pages.
+      Format: [[Concept Name]] or [[folder/Concept Name]]
+
+  tags:
+    type: array
+    items:
+      type: string
+      pattern: "^#[a-z0-9-]+$"
+    description: "Optional tags for filtering. Lowercase with hyphens."
+
+  trust_level:
+    type: string
+    enum:
+      - high
+      - medium
+      - low
+    description: >
+      Optional. Self-assessed reliability of the knowledge.
+      high: multiple verified sources, direct experience
+      medium: single strong source or indirect evidence
+      low: hypothesis, speculation, unverified claim
+
+  confidence:
+    type: number
+    minimum: 0
+    maximum: 1
+    description: "Optional numeric confidence (0.0-1.0). Overrides trust_level if present."
+
+  reviewed_by:
+    type: string
+    description: "Optional. Name of human or AI agent that last reviewed this card."
+
+  review_date:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    description: "Date of last review. Required if status is reviewed or stable."
+
+dependencies:
+  reviewed_by:
+    - review_date
+
+additionalProperties: false
+
+examples:
+  - title: "Graph RAG for Knowledge Management"
+    type: concept
+    status: reviewed
+    source_refs:
+      - "src_20260502_7d7c1b7c"
+    created_at: "2026-05-02"
+    updated_at: "2026-05-02"
+    related:
+      - "[[Obsidian + KDO 内容产出工作流]]"
+      - "[[KDO Protocol]]"
+    tags:
+      - #ai
+      - #knowledge-graph
+    trust_level: medium
+    reviewed_by: "Claude"
+    review_date: "2026-05-02"
