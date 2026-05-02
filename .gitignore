@@ -1,4 +1,4 @@
-# Machine-specific configs — ignored across all devices
+# Editor/app-specific directories - machine local, do not version
 .obsidian/
 .claude/
 .claudian/
