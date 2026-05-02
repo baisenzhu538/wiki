@@ -1,7 +1,7 @@
 ---
 title: "Graph RAG — Knowledge-Graph-Powered Retrieval"
 type: concept
-status: draft
+status: enriched
 source_refs:
   - "src_20260502_7d7c1b7c"
 created_at: "2026-05-03"

@@ -1,7 +1,7 @@
 ---
 title: "鑫港湾HIS系统分阶段整改报告"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260428_db49a647"]
 created_at: "2026-04-28T01:17:00+00:00"
 updated_at: "2026-05-03T00:00:00+00:00"
