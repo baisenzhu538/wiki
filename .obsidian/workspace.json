@@ -183,7 +183,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -203,7 +204,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1628066661e41ec2",
+  "active": "d4b20ae5c73cc184",
   "lastOpenFiles": [
     "40_outputs/content/articles/art_20260502_415450fb-kimi-deep-research-swarm-方法论深度解析.md.tmp.439.1777662033265",
     "40_outputs/content/articles/art_20260502_415450fb-kimi-deep-research-swarm-方法论深度解析.md.tmp.439.1777662022121",
