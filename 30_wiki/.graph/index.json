@@ -1,0 +1,617 @@
+{
+  "meta": {
+    "generated_at": "2026-05-03T00:33:10.844200",
+    "version": "0.1",
+    "node_count": 23,
+    "edge_count": 28,
+    "errors": 3
+  },
+  "nodes": [
+    {
+      "id": "wiki-index--knowledge-graph-entrypoint",
+      "label": "Wiki Index — Knowledge Graph Entrypoint",
+      "type": "system",
+      "status": "stable",
+      "path": "30_wiki/index.md",
+      "frontmatter": {
+        "title": "Wiki Index — Knowledge Graph Entrypoint",
+        "type": "system",
+        "status": "stable",
+        "source_refs": "[]",
+        "created_at": "2026-05-01",
+        "updated_at": "2026-05-03",
+        "related": [
+          "[[KDO Protocol]]",
+          "[[Obsidian + KDO 内容产出工作流 — 产品设计大纲]]"
+        ]
+      }
+    },
+    {
+      "id": "graph-rag--knowledge-graph-powered-retrieval",
+      "label": "Graph RAG — Knowledge-Graph-Powered Retrieval",
+      "type": "concept",
+      "status": "draft",
+      "path": "30_wiki/concepts/graph-rag.md",
+      "frontmatter": {
+        "title": "Graph RAG — Knowledge-Graph-Powered Retrieval",
+        "type": "concept",
+        "status": "draft",
+        "source_refs": [
+          "src_20260502_7d7c1b7c"
+        ],
+        "created_at": "2026-05-03",
+        "updated_at": "2026-05-03",
+        "related": [
+          "[[KDO Protocol]]",
+          "[[Wiki Index — Knowledge Graph Entrypoint]]",
+          "[[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]]"
+        ],
+        "tags": [
+          "#ai",
+          "#rag",
+          "#knowledge-graph",
+          "#retrieval"
+        ],
+        "trust_level": "medium",
+        "reviewed_by": "Claude",
+        "review_date": "2026-05-03"
+      }
+    },
+    {
+      "id": "kimi-深度调研集群方法论-deep-research-swarm",
+      "label": "Kimi 深度调研集群方法论 (Deep-Research-Swarm)",
+      "type": "concept",
+      "status": "enriched",
+      "path": "30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md",
+      "frontmatter": {
+        "title": "Kimi 深度调研集群方法论 (Deep-Research-Swarm)",
+        "type": "concept",
+        "status": "enriched",
+        "source_refs": "[\"src_20260502_7d7c1b7c\"]",
+        "created_at": "2026-05-01T18:49:20+00:00",
+        "updated_at": "2026-05-02T00:00:00+00:00"
+      }
+    },
+    {
+      "id": "knowledge-delivery-os-快速体验指南---飞书云文档",
+      "label": "‍‬⁠​​​⁠​﻿​‍‍​​​​‬​​​‍​⁠‌​﻿‍‍⁠​​﻿‍‬​‍​‬​﻿﻿﻿​​‍‬​﻿‌​Knowledge Delivery OS 快速体验指南 - 飞书云文档",
+      "type": "concept",
+      "status": "enriched",
+      "path": "30_wiki/concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md",
+      "frontmatter": {
+        "title": "‍‬⁠​​​⁠​﻿​‍‍​​​​‬​​​‍​⁠‌​﻿‍‍⁠​​﻿‍‬​‍​‬​﻿﻿﻿​​‍‬​﻿‌​Knowledge Delivery OS 快速体验指南 - 飞书云文档",
+        "type": "concept",
+        "status": "enriched",
+        "source_refs": "[\"src_20260501_6a491b80\"]",
+        "created_at": "2026-04-30T18:43:29+00:00",
+        "updated_at": "2026-05-02T12:06:48+00:00"
+      }
+    },
+    {
+      "id": "obsidian--kdo-内容产出工作流--产品设计大纲",
+      "label": "Obsidian + KDO 内容产出工作流 — 产品设计大纲",
+      "type": "concept",
+      "status": "draft",
+      "path": "30_wiki/concepts/obsidian-kdo-内容产出工作流-产品设计大纲.md",
+      "frontmatter": {
+        "title": "Obsidian + KDO 内容产出工作流 — 产品设计大纲",
+        "type": "concept",
+        "status": "draft",
+        "source_refs": "[\"src_20260501_58b6edef\"]",
+        "created_at": "2026-05-01T05:26:43+00:00",
+        "updated_at": "2026-05-01T05:26:43+00:00"
+      }
+    },
+    {
+      "id": "yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown",
+      "label": "YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN",
+      "type": "concept",
+      "status": "reviewed",
+      "path": "30_wiki/concepts/yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md",
+      "frontmatter": {
+        "title": "YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN",
+        "type": "concept",
+        "status": "reviewed",
+        "source_refs": "[\"src_20260430_8cc84e5b\"]",
+        "created_at": "2026-04-29T17:08:58+00:00",
+        "updated_at": "2026-05-03T00:00:00+00:00",
+        "trust_level": "medium",
+        "reviewed_by": "Claude",
+        "review_date": "2026-05-03"
+      }
+    },
+    {
+      "id": "互联网医院模式深度调研报告",
+      "label": "互联网医院模式深度调研报告",
+      "type": "concept",
+      "status": "reviewed",
+      "path": "30_wiki/concepts/互联网医院模式深度调研报告.md",
+      "frontmatter": {
+        "title": "互联网医院模式深度调研报告",
+        "type": "concept",
+        "status": "reviewed",
+        "source_refs": "[\"src_20260501_9962715b\"]",
+        "created_at": "2026-04-30T19:29:48+00:00",
+        "updated_at": "2026-05-03T00:00:00+00:00",
+        "trust_level": "medium",
+        "reviewed_by": "Claude",
+        "review_date": "2026-05-03"
+      }
+    },
+    {
+      "id": "紫鲸ai-智能体工作流平台-深度分析与产品设计",
+      "label": "紫鲸AI_智能体工作流平台_深度分析与产品设计",
+      "type": "concept",
+      "status": "draft",
+      "path": "30_wiki/concepts/紫鲸ai_智能体工作流平台_深度分析与产品设计.md",
+      "frontmatter": {
+        "title": "紫鲸AI_智能体工作流平台_深度分析与产品设计",
+        "type": "concept",
+        "status": "draft",
+        "source_refs": "[\"src_20260501_4eee4e95\"]",
+        "created_at": "2026-04-30T18:43:29+00:00",
+        "updated_at": "2026-04-30T18:43:29+00:00"
+      }
+    },
+    {
+      "id": "紫鲸ai智能体工作流平台",
+      "label": "紫鲸AI智能体工作流平台",
+      "type": "concept",
+      "status": "enriched",
+      "path": "30_wiki/concepts/紫鲸ai智能体工作流平台.md",
+      "frontmatter": {
+        "title": "紫鲸AI智能体工作流平台",
+        "type": "concept",
+        "status": "enriched",
+        "source_refs": "[\"src_20260428_29929c1f\"]",
+        "created_at": "2026-04-28T01:17:00+00:00",
+        "updated_at": "2026-04-28T01:17:00+00:00"
+      }
+    },
+    {
+      "id": "街顺app全面调研报告",
+      "label": "街顺APP全面调研报告",
+      "type": "concept",
+      "status": "reviewed",
+      "path": "30_wiki/concepts/街顺app全面调研报告.md",
+      "frontmatter": {
+        "title": "街顺APP全面调研报告",
+        "type": "concept",
+        "status": "reviewed",
+        "source_refs": "[\"src_20260427_970eb338\"]",
+        "created_at": "2026-04-26T18:17:11+00:00",
+        "updated_at": "2026-05-03T00:00:00+00:00",
+        "trust_level": "medium",
+        "reviewed_by": "Claude",
+        "review_date": "2026-05-03"
+      }
+    },
+    {
+      "id": "诊所o2o外卖平台业务深度调研报告",
+      "label": "诊所O2O外卖平台业务深度调研报告",
+      "type": "concept",
+      "status": "draft",
+      "path": "30_wiki/concepts/诊所o2o外卖平台业务深度调研报告.md",
+      "frontmatter": {
+        "title": "诊所O2O外卖平台业务深度调研报告",
+        "type": "concept",
+        "status": "draft",
+        "source_refs": [
+          "src_20260501_dfa19257"
+        ],
+        "created_at": "2026-04-30T18:43:29+00:00",
+        "updated_at": "2026-04-30T18:43:29+00:00"
+      }
+    },
+    {
+      "id": "鑫港湾his系统分阶段整改报告",
+      "label": "鑫港湾HIS系统分阶段整改报告",
+      "type": "concept",
+      "status": "draft",
+      "path": "30_wiki/concepts/鑫港湾his系统分阶段整改报告.md",
+      "frontmatter": {
+        "title": "鑫港湾HIS系统分阶段整改报告",
+        "type": "concept",
+        "status": "draft",
+        "source_refs": "[\"src_20260428_db49a647\"]",
+        "created_at": "2026-04-28T01:17:00+00:00",
+        "updated_at": "2026-05-03T00:00:00+00:00",
+        "trust_level": "high",
+        "reviewed_by": "Claude",
+        "review_date": "2026-05-03"
+      }
+    },
+    {
+      "id": "kdo-protocol-priority-checklist",
+      "label": "KDO Protocol Priority Checklist",
+      "type": "improvement-plan",
+      "status": "draft",
+      "path": "30_wiki/decisions/kdo-priority-checklist.md",
+      "frontmatter": {
+        "title": "KDO Protocol Priority Checklist",
+        "type": "improvement-plan",
+        "status": "draft",
+        "source_refs": [
+          "src_20260503_protocol_design_session"
+        ],
+        "created_at": "2026-05-03",
+        "updated_at": "2026-05-03",
+        "related": [
+          "[[KDO Protocol]]",
+          "[[KDO Protocol Implementation Roadmap]]"
+        ],
+        "tags": [
+          "#kdo",
+          "#priority",
+          "#checklist"
+        ],
+        "trust_level": "high"
+      }
+    },
+    {
+      "id": "kdo-protocol-implementation-roadmap--detailed-recommendation",
+      "label": "KDO Protocol Implementation Roadmap — Detailed Recommendation Report",
+      "type": "improvement-plan",
+      "status": "draft",
+      "path": "30_wiki/decisions/kdo-protocol-implementation-roadmap.md",
+      "frontmatter": {
+        "title": "KDO Protocol Implementation Roadmap — Detailed Recommendation Report",
+        "type": "improvement-plan",
+        "status": "draft",
+        "source_refs": [
+          "src_20260503_protocol_design_session"
+        ],
+        "created_at": "2026-05-03",
+        "updated_at": "2026-05-03",
+        "related": [
+          "[[KDO Protocol]]",
+          "[[Wiki Index — Knowledge Graph Entrypoint]]",
+          "[[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]]"
+        ],
+        "tags": [
+          "#kdo",
+          "#protocol",
+          "#roadmap",
+          "#improvement"
+        ],
+        "trust_level": "high",
+        "reviewed_by": "Claude",
+        "review_date": "2026-05-03"
+      }
+    },
+    {
+      "id": "plan-20260501-05858800-improvement-plan",
+      "label": "plan_20260501_05858800-improvement-plan",
+      "type": "improvement-plan",
+      "status": "draft",
+      "path": "30_wiki/decisions/plan_20260501_05858800-improvement-plan.md",
+      "frontmatter": {
+        "plan_id": "plan_20260501_05858800",
+        "type": "improvement-plan",
+        "status": "draft",
+        "created_at": "2026-04-30T16:58:19+00:00",
+        "feedback_count": "19",
+        "artifact_count": "7"
+      }
+    },
+    {
+      "id": "plan-20260501-47264869-improvement-plan",
+      "label": "plan_20260501_47264869-improvement-plan",
+      "type": "improvement-plan",
+      "status": "draft",
+      "path": "30_wiki/decisions/plan_20260501_47264869-improvement-plan.md",
+      "frontmatter": {
+        "plan_id": "plan_20260501_47264869",
+        "type": "improvement-plan",
+        "status": "draft",
+        "created_at": "2026-04-30T17:58:15+00:00",
+        "feedback_count": "19",
+        "artifact_count": "7"
+      }
+    },
+    {
+      "id": "plan-20260501-8001399c-improvement-plan",
+      "label": "plan_20260501_8001399c-improvement-plan",
+      "type": "improvement-plan",
+      "status": "draft",
+      "path": "30_wiki/decisions/plan_20260501_8001399c-improvement-plan.md",
+      "frontmatter": {
+        "plan_id": "plan_20260501_8001399c",
+        "type": "improvement-plan",
+        "status": "draft",
+        "created_at": "2026-04-30T16:47:18+00:00",
+        "feedback_count": "10",
+        "artifact_count": "7"
+      }
+    },
+    {
+      "id": "plan-20260501-85a84b92-improvement-plan",
+      "label": "plan_20260501_85a84b92-improvement-plan",
+      "type": "improvement-plan",
+      "status": "draft",
+      "path": "30_wiki/decisions/plan_20260501_85a84b92-improvement-plan.md",
+      "frontmatter": {
+        "plan_id": "plan_20260501_85a84b92",
+        "type": "improvement-plan",
+        "status": "draft",
+        "created_at": "2026-04-30T16:47:40+00:00",
+        "feedback_count": "10",
+        "artifact_count": "7"
+      }
+    },
+    {
+      "id": "plan-20260501-8ecb74e3-improvement-plan",
+      "label": "plan_20260501_8ecb74e3-improvement-plan",
+      "type": "improvement-plan",
+      "status": "draft",
+      "path": "30_wiki/decisions/plan_20260501_8ecb74e3-improvement-plan.md",
+      "frontmatter": {
+        "plan_id": "plan_20260501_8ecb74e3",
+        "type": "improvement-plan",
+        "status": "draft",
+        "created_at": "2026-05-01T05:27:34+00:00",
+        "feedback_count": "33",
+        "artifact_count": "9"
+      }
+    },
+    {
+      "id": "plan-20260501-97170532-improvement-plan",
+      "label": "plan_20260501_97170532-improvement-plan",
+      "type": "improvement-plan",
+      "status": "draft",
+      "path": "30_wiki/decisions/plan_20260501_97170532-improvement-plan.md",
+      "frontmatter": {
+        "plan_id": "plan_20260501_97170532",
+        "type": "improvement-plan",
+        "status": "draft",
+        "created_at": "2026-05-01T05:34:23+00:00",
+        "feedback_count": "33",
+        "artifact_count": "9"
+      }
+    },
+    {
+      "id": "plan-20260501-ca61cdd7-improvement-plan",
+      "label": "plan_20260501_ca61cdd7-improvement-plan",
+      "type": "improvement-plan",
+      "status": "draft",
+      "path": "30_wiki/decisions/plan_20260501_ca61cdd7-improvement-plan.md",
+      "frontmatter": {
+        "plan_id": "plan_20260501_ca61cdd7",
+        "type": "improvement-plan",
+        "status": "draft",
+        "created_at": "2026-04-30T16:47:28+00:00",
+        "feedback_count": "10",
+        "artifact_count": "7"
+      }
+    },
+    {
+      "id": "plan-20260501-e1e150b9-improvement-plan",
+      "label": "plan_20260501_e1e150b9-improvement-plan",
+      "type": "improvement-plan",
+      "status": "draft",
+      "path": "30_wiki/decisions/plan_20260501_e1e150b9-improvement-plan.md",
+      "frontmatter": {
+        "plan_id": "plan_20260501_e1e150b9",
+        "type": "improvement-plan",
+        "status": "draft",
+        "created_at": "2026-04-30T16:08:09+00:00",
+        "feedback_count": "6",
+        "artifact_count": "7"
+      }
+    },
+    {
+      "id": "kdo-protocol--ai-agent-operating-contract",
+      "label": "KDO Protocol — AI-Agent Operating Contract",
+      "type": "system",
+      "status": "draft",
+      "path": "30_wiki/systems/kdo-protocol.md",
+      "frontmatter": {
+        "title": "KDO Protocol — AI-Agent Operating Contract",
+        "type": "system",
+        "status": "draft",
+        "source_refs": [
+          "src_20260502_7d7c1b7c"
+        ],
+        "created_at": "2026-05-02",
+        "updated_at": "2026-05-03",
+        "related": [
+          "[[Obsidian + KDO 内容产出工作流 — 产品设计大纲]]",
+          "[[KDO Protocol]]",
+          "[[Wiki Index — Knowledge Graph Entrypoint]]"
+        ],
+        "tags": [
+          "#kdo",
+          "#protocol",
+          "#ai-workflow"
+        ],
+        "trust_level": "medium",
+        "reviewed_by": "Claude",
+        "review_date": "2026-05-03"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "wiki-index--knowledge-graph-entrypoint",
+      "to": "obsidian--kdo-内容产出工作流--产品设计大纲",
+      "relation": "related",
+      "source": "frontmatter"
+    },
+    {
+      "from": "wiki-index--knowledge-graph-entrypoint",
+      "to": "obsidian--kdo-内容产出工作流--产品设计大纲",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "wiki-index--knowledge-graph-entrypoint",
+      "to": "紫鲸ai智能体工作流平台",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "wiki-index--knowledge-graph-entrypoint",
+      "to": "knowledge-delivery-os-快速体验指南---飞书云文档",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "wiki-index--knowledge-graph-entrypoint",
+      "to": "obsidian--kdo-内容产出工作流--产品设计大纲",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "wiki-index--knowledge-graph-entrypoint",
+      "to": "kimi-深度调研集群方法论-deep-research-swarm",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "wiki-index--knowledge-graph-entrypoint",
+      "to": "紫鲸ai智能体工作流平台",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "wiki-index--knowledge-graph-entrypoint",
+      "to": "紫鲸ai-智能体工作流平台-深度分析与产品设计",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "wiki-index--knowledge-graph-entrypoint",
+      "to": "街顺app全面调研报告",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "wiki-index--knowledge-graph-entrypoint",
+      "to": "互联网医院模式深度调研报告",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "wiki-index--knowledge-graph-entrypoint",
+      "to": "诊所o2o外卖平台业务深度调研报告",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "wiki-index--knowledge-graph-entrypoint",
+      "to": "鑫港湾his系统分阶段整改报告",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "wiki-index--knowledge-graph-entrypoint",
+      "to": "yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "graph-rag--knowledge-graph-powered-retrieval",
+      "to": "wiki-index--knowledge-graph-entrypoint",
+      "relation": "related",
+      "source": "frontmatter"
+    },
+    {
+      "from": "graph-rag--knowledge-graph-powered-retrieval",
+      "to": "kimi-深度调研集群方法论-deep-research-swarm",
+      "relation": "related",
+      "source": "frontmatter"
+    },
+    {
+      "from": "graph-rag--knowledge-graph-powered-retrieval",
+      "to": "wiki-index--knowledge-graph-entrypoint",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "graph-rag--knowledge-graph-powered-retrieval",
+      "to": "kimi-深度调研集群方法论-deep-research-swarm",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "紫鲸ai智能体工作流平台",
+      "to": "街顺app全面调研报告",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "鑫港湾his系统分阶段整改报告",
+      "to": "紫鲸ai智能体工作流平台",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "kdo-protocol-implementation-roadmap--detailed-recommendation",
+      "to": "wiki-index--knowledge-graph-entrypoint",
+      "relation": "related",
+      "source": "frontmatter"
+    },
+    {
+      "from": "kdo-protocol-implementation-roadmap--detailed-recommendation",
+      "to": "kimi-深度调研集群方法论-deep-research-swarm",
+      "relation": "related",
+      "source": "frontmatter"
+    },
+    {
+      "from": "kdo-protocol-implementation-roadmap--detailed-recommendation",
+      "to": "wiki-index--knowledge-graph-entrypoint",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "kdo-protocol-implementation-roadmap--detailed-recommendation",
+      "to": "obsidian--kdo-内容产出工作流--产品设计大纲",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "kdo-protocol-implementation-roadmap--detailed-recommendation",
+      "to": "kimi-深度调研集群方法论-deep-research-swarm",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "kdo-protocol--ai-agent-operating-contract",
+      "to": "obsidian--kdo-内容产出工作流--产品设计大纲",
+      "relation": "related",
+      "source": "frontmatter"
+    },
+    {
+      "from": "kdo-protocol--ai-agent-operating-contract",
+      "to": "wiki-index--knowledge-graph-entrypoint",
+      "relation": "related",
+      "source": "frontmatter"
+    },
+    {
+      "from": "kdo-protocol--ai-agent-operating-contract",
+      "to": "obsidian--kdo-内容产出工作流--产品设计大纲",
+      "relation": "links-to",
+      "source": "body"
+    },
+    {
+      "from": "kdo-protocol--ai-agent-operating-contract",
+      "to": "wiki-index--knowledge-graph-entrypoint",
+      "relation": "links-to",
+      "source": "body"
+    }
+  ],
+  "errors": [
+    {
+      "file": "30_wiki/contradictions.md",
+      "error": "no frontmatter"
+    },
+    {
+      "file": "30_wiki/log.md",
+      "error": "no frontmatter"
+    },
+    {
+      "file": "30_wiki/links/index.md",
+      "error": "no frontmatter"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+# Artifact (Content) JSON Schema
+# Used by AI agents to validate frontmatter for content deliverables.
+# File: 90_control/schemas/artifact-content.yaml
+# Reference: PROTOCOL.md Section 3
+
+$id: "kdo://schemas/artifact-content"
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "KDO Content Artifact"
+description: >
+  Schema for content artifacts stored in 40_outputs/content/.
+  Articles, videos, audio, tutorials, reports, courses.
+
+type: object
+required:
+  - title
+  - type
+  - status
+  - source_refs
+  - created_at
+  - updated_at
+  - target_user
+  - channel
+
+properties:
+  title:
+    type: string
+    minLength: 1
+    maxLength: 120
+
+  type:
+    type: string
+    enum: [artifact]
+    description: "Must be 'artifact'. Subtype declared in artifact_type."
+
+  artifact_type:
+    type: string
+    enum: [article, video, audio, tutorial, report, course]
+    description: "Content format subtype."
+
+  status:
+    type: string
+    enum: [draft, validated, shipped]
+    description: "Delivery lifecycle."
+
+  target_user:
+    type: string
+    description: "Who is this content for? Be specific."
+
+  channel:
+    type: string
+    description: "Where will this be published? (e.g., WeChat, Bilibili, Newsletter)"
+
+  format:
+    type: string
+    enum: [markdown, pdf, mp4, mp3, html]
+    description: "Output file format."
+
+  word_count:
+    type: integer
+    minimum: 0
+    description: "Target or actual word count. Optional."
+
+  validation_status:
+    type: string
+    enum: [pending, passed, failed]
+    description: "Quality gate result."
+
+  delivery_channel:
+    type: string
+    description: "Published URL or distribution method. Populated after ship."
+
+  feedback_source:
+    type: string
+    description: "Where feedback will be collected."
+
+  source_refs:
+    type: array
+    minItems: 1
+    items:
+      type: string
+      pattern: "^src_[0-9]{8}_[a-f0-9]{8}$"
+
+  wiki_refs:
+    type: array
+    items:
+      type: string
+      pattern: "^\\[\\[.+\\]\\]$"
+    description: "Wiki concepts referenced in this artifact."
+
+  definition_of_done:
+    type: array
+    minItems: 1
+    items:
+      type: string
+    description: "Checklist of completion criteria."
+
+  created_at:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+
+  updated_at:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+
+  related:
+    type: array
+    items:
+      type: string
+      pattern: "^\\[\\[.+\\]\\]$"
+
+  tags:
+    type: array
+    items:
+      type: string
+      pattern: "^#[a-z0-9-]+$"
+
+  trust_level:
+    type: string
+    enum: [high, medium, low]
+
+  reviewed_by:
+    type: string
+
+  review_date:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+
+dependencies:
+  reviewed_by: [review_date]
+
+additionalProperties: false
+
+examples:
+  - title: "KDO Protocol Introduction"
+    type: artifact
+    artifact_type: article
+    status: draft
+    target_user: "Obsidian power users building AI workflows"
+    channel: "WeChat Official Account"
+    format: markdown
+    word_count: 3000
+    validation_status: pending
+    definition_of_done:
+      - "Core thesis stated in first paragraph"
+      - "All claims traceable to wiki sources"
+      - "Feedback channel declared"
+    source_refs: ["src_20260503_protocol_design_session"]
+    created_at: "2026-05-03"
+    updated_at: "2026-05-03"
+    trust_level: medium

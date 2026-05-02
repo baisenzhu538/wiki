@@ -1,10 +1,13 @@
 ---
 title: "YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN"
 type: "concept"
-status: "enriched"
+status: "reviewed"
 source_refs: ["src_20260430_8cc84e5b"]
 created_at: "2026-04-29T17:08:58+00:00"
-updated_at: "2026-04-29T17:08:58+00:00"
+updated_at: "2026-05-03T00:00:00+00:00"
+trust_level: "medium"
+reviewed_by: "Claude"
+review_date: "2026-05-03"
 ---
 
 

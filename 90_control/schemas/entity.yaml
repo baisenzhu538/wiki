@@ -1,0 +1,122 @@
+# Entity JSON Schema
+# Used by AI agents to validate frontmatter for person/company/organization pages.
+# File: 90_control/schemas/entity.yaml
+# Reference: PROTOCOL.md Section 3
+
+$id: "kdo://schemas/entity"
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "KDO Entity Card"
+description: >
+  Schema for entity cards stored in 30_wiki/entities/.
+  Represents people, companies, organizations, or other named entities.
+
+type: object
+required:
+  - title
+  - type
+  - status
+  - source_refs
+  - created_at
+  - updated_at
+
+properties:
+  title:
+    type: string
+    minLength: 1
+    maxLength: 120
+    description: "Canonical name of the entity."
+
+  type:
+    type: string
+    enum: [entity]
+    description: "Must be 'entity'."
+
+  status:
+    type: string
+    enum: [draft, reviewed, stable, needs-review]
+    description: "Lifecycle status."
+
+  entity_type:
+    type: string
+    enum: [person, company, organization, product, project, other]
+    description: "Subclass of entity."
+
+  aliases:
+    type: array
+    items:
+      type: string
+    description: "Alternative names, abbreviations, or nicknames."
+
+  url:
+    type: string
+    format: uri
+    description: "Primary website or profile URL."
+
+  location:
+    type: string
+    description: "Geographic location (city, country, or 'remote')."
+
+  founded_at:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    description: "Date founded or born. Optional."
+
+  source_refs:
+    type: array
+    minItems: 1
+    items:
+      type: string
+      pattern: "^src_[0-9]{8}_[a-f0-9]{8}$"
+
+  created_at:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+
+  updated_at:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+
+  related:
+    type: array
+    items:
+      type: string
+      pattern: "^\\[\\[.+\\]\\]$"
+
+  tags:
+    type: array
+    items:
+      type: string
+      pattern: "^#[a-z0-9-]+$"
+
+  trust_level:
+    type: string
+    enum: [high, medium, low]
+
+  reviewed_by:
+    type: string
+
+  review_date:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+
+dependencies:
+  reviewed_by: [review_date]
+
+additionalProperties: false
+
+examples:
+  - title: "紫鲸AI"
+    type: entity
+    entity_type: company
+    status: reviewed
+    aliases: ["Zijing AI"]
+    url: "https://example.com"
+    location: "Hangzhou, China"
+    source_refs: ["src_20260501_4eee4e95"]
+    created_at: "2026-05-01"
+    updated_at: "2026-05-01"
+    trust_level: medium

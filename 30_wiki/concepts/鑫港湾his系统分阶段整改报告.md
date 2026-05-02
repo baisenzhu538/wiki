@@ -4,7 +4,10 @@ type: "concept"
 status: "draft"
 source_refs: ["src_20260428_db49a647"]
 created_at: "2026-04-28T01:17:00+00:00"
-updated_at: "2026-04-28T01:17:00+00:00"
+updated_at: "2026-05-03T00:00:00+00:00"
+trust_level: "high"
+reviewed_by: "Claude"
+review_date: "2026-05-03"
 ---
 
 # 鑫港湾HIS系统分阶段整改报告

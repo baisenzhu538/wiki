@@ -1,0 +1,141 @@
+# Decision JSON Schema
+# Used by AI agents to validate decision records and ADR-style pages.
+# File: 90_control/schemas/decision.yaml
+# Reference: PROTOCOL.md Section 3
+
+$id: "kdo://schemas/decision"
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "KDO Decision Record"
+description: >
+  Schema for decision records stored in 30_wiki/decisions/.
+  Captures why a decision was made, alternatives considered, and consequences.
+
+type: object
+required:
+  - title
+  - type
+  - status
+  - source_refs
+  - created_at
+  - updated_at
+  - decision_date
+
+properties:
+  title:
+    type: string
+    minLength: 1
+    maxLength: 120
+    description: "Decision title in imperative mood. Example: 'Adopt KDO Protocol v0.1'"
+
+  type:
+    type: string
+    enum: [decision, improvement-plan]
+    description: "Must be 'decision' or 'improvement-plan'."
+
+  status:
+    type: string
+    enum: [proposed, accepted, superseded]
+    description: "Decision lifecycle."
+
+  decision_date:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    description: "Date the decision was made."
+
+  stakeholders:
+    type: array
+    minItems: 1
+    items:
+      type: string
+    description: "People or roles involved in the decision."
+
+  options_considered:
+    type: array
+    minItems: 1
+    items:
+      type: object
+      required: [option, pros, cons]
+      properties:
+        option:
+          type: string
+        pros:
+          type: string
+        cons:
+          type: string
+    description: "Alternatives evaluated before making the decision."
+
+  consequences:
+    type: string
+    description: "Expected and actual consequences of the decision."
+
+  reversibility:
+    type: string
+    enum: [reversible, irreversible]
+    description: "Can this decision be undone?"
+
+  source_refs:
+    type: array
+    minItems: 1
+    items:
+      type: string
+      pattern: "^src_[0-9]{8}_[a-f0-9]{8}$"
+
+  created_at:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+
+  updated_at:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+
+  related:
+    type: array
+    items:
+      type: string
+      pattern: "^\\[\\[.+\\]\\]$"
+
+  tags:
+    type: array
+    items:
+      type: string
+      pattern: "^#[a-z0-9-]+$"
+
+  trust_level:
+    type: string
+    enum: [high, medium, low]
+
+  reviewed_by:
+    type: string
+
+  review_date:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+
+dependencies:
+  reviewed_by: [review_date]
+
+additionalProperties: false
+
+examples:
+  - title: "Adopt JSON Schema for concept validation"
+    type: decision
+    status: accepted
+    decision_date: "2026-05-02"
+    stakeholders: ["Claude", "Human"]
+    options_considered:
+      - option: "Plain Markdown validation"
+        pros: "Simple, no tooling needed"
+        cons: "Not machine-readable, easy to drift"
+      - option: "JSON Schema"
+        pros: "Machine-readable, enforceable"
+        cons: "Requires schema maintenance"
+    consequences: "All new concept cards must pass schema validation."
+    reversibility: reversible
+    source_refs: ["src_20260502_7d7c1b7c"]
+    created_at: "2026-05-02"
+    updated_at: "2026-05-02"
+    trust_level: high

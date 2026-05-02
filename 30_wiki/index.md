@@ -161,13 +161,13 @@ SORT file.name ASC
 | **Draft** | 3 |
 | **Needs Review** | 1 |
 | **Sources Linked** | 10 |
-| **Orphan Pages** | 1 (诊所O2O — missing source_ref) |
+| **Orphan Pages** | 1 (诊所O2O — draft, no incoming wiki links) |
 
 ---
 
 ## Knowledge Gaps
 
-1. **诊所O2O外卖平台业务深度调研报告** — `status: draft`, missing `source_refs`
+1. **诊所O2O外卖平台业务深度调研报告** — `status: draft`, needs Critique/Synthesis section completion
 2. **KDO Protocol** — `status: draft`, needs review after implementation
 3. **Graph RAG integration** — no dedicated concept page yet (derived from 一堂 course)
 4. **Multi-device sync protocol** — documented in practice, not yet formalized as concept card

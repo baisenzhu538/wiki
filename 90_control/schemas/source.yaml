@@ -1,0 +1,162 @@
+# Source JSON Schema
+# Used by AI agents to validate frontmatter for raw source materials.
+# File: 90_control/schemas/source.yaml
+# Reference: PROTOCOL.md Section 3
+
+$id: "kdo://schemas/source"
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "KDO Source Record"
+description: >
+  Schema for source records stored in 10_raw/sources/.
+  Immutable records of ingested raw materials.
+
+type: object
+required:
+  - title
+  - type
+  - status
+  - source_refs
+  - created_at
+  - updated_at
+  - kind
+  - location
+  - captured_at
+  - trust_level
+  - freshness
+  - rights
+
+properties:
+  title:
+    type: string
+    minLength: 1
+    maxLength: 200
+    description: "Source title or description."
+
+  type:
+    type: string
+    enum: [source]
+    description: "Must be 'source'."
+
+  status:
+    type: string
+    enum: [ingested, enriched, linked]
+    description: "Processing lifecycle."
+
+  source_id:
+    type: string
+    pattern: "^src_[0-9]{8}_[a-f0-9]{8}$"
+    description: "Canonical source identifier. Auto-generated on ingest."
+
+  kind:
+    type: string
+    enum: [web, paper, meeting, transcript, text, file, ai-chat, other]
+    description: "Type of source material."
+
+  location:
+    type: string
+    description: "Path within vault or external URL."
+
+  captured_at:
+    type: string
+    format: date-time
+    description: "ISO-8601 timestamp when source was captured."
+
+  trust_level:
+    type: string
+    enum: [high, medium, low, unknown]
+    description: >
+      high: multiple verified sources, direct experience
+      medium: single strong source or indirect evidence
+      low: unverified claim or hearsay
+      unknown: not yet assessed
+
+  freshness:
+    type: string
+    enum: [volatile, current, stable, unknown]
+    description: >
+      volatile: changes frequently (news, stock prices)
+      current: accurate now but may drift (product docs)
+      stable: unlikely to change (academic paper, historical record)
+      unknown: not yet assessed
+
+  rights:
+    type: string
+    enum: [private, public, licensed, unknown]
+    description: "Intellectual property status."
+
+  related_wiki:
+    type: array
+    items:
+      type: string
+      pattern: "^\\[\\[.+\\]\\]$"
+    description: "Wiki pages derived from or referencing this source."
+
+  derived_outputs:
+    type: array
+    items:
+      type: string
+    description: "Artifact IDs or paths produced from this source."
+
+  source_refs:
+    type: array
+    items:
+      type: string
+      pattern: "^src_[0-9]{8}_[a-f0-9]{8}$"
+    description: "Parent sources if this is a derived compilation. Optional."
+
+  created_at:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+
+  updated_at:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+
+  related:
+    type: array
+    items:
+      type: string
+      pattern: "^\\[\\[.+\\]\\]$"
+
+  tags:
+    type: array
+    items:
+      type: string
+      pattern: "^#[a-z0-9-]+$"
+
+  trust_level:
+    type: string
+    enum: [high, medium, low]
+
+  reviewed_by:
+    type: string
+
+  review_date:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+
+dependencies:
+  reviewed_by: [review_date]
+
+additionalProperties: false
+
+examples:
+  - title: "一堂课程：AI-Native 公司组织方法论"
+    type: source
+    status: enriched
+    source_id: "src_20260502_7d7c1b7c"
+    kind: ai-chat
+    location: "10_raw/sources/src_20260502_7d7c1b7c-一堂课程.md"
+    captured_at: "2026-05-02T14:00:00+08:00"
+    trust_level: medium
+    freshness: current
+    rights: private
+    related_wiki:
+      - "[[AI-Native Organization]]"
+      - "[[KDO Protocol]]"
+    created_at: "2026-05-02"
+    updated_at: "2026-05-03"
+    trust_level: medium
