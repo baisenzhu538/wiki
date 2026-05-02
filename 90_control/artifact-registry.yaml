@@ -99,3 +99,17 @@ artifacts:
   feedback_source: "60_feedback/"
   path: "40_outputs/content/articles/art_20260502_415450fb-kimi-deep-research-swarm-方法论深度解析.md"
   created_at: "2026-05-01T18:54:29+00:00"
+
+- artifact_id: "art_20260503_767ce1bf"
+  type: "content"
+  subtype: "article"
+  title: "从模糊提问到高质量决策——一堂OSCAR五步法与人机协同调研完全指南"
+  target_user: "创业者和业务负责人"
+  source_refs: ["src_20260503_5f268da2"]
+  wiki_refs: ["30_wiki/concepts/一堂调研行动营-ai辅助系统式调研方法论.md"]
+  definition_of_done: ["target reader explicit", "core claim explicit", "source refs present", "feedback path declared"]
+  status: "draft"
+  delivery_channel: "article"
+  feedback_source: "60_feedback/"
+  path: "40_outputs/content/articles/art_20260503_767ce1bf-从模糊提问到高质量决策一堂oscar五步法与人机协同调研完全指南.md"
+  created_at: "2026-05-02T19:19:00+00:00"

@@ -246,3 +246,11 @@ Chronological record of knowledge operations.
 - `[[plan_20260503_f3e9a2b1-improvement-plan]]`
 - `[[KDO Protocol]]`
 - `[[Wiki Index — Knowledge Graph Entrypoint]]`
+
+- 2026-05-02T19:12:08+00:00 - Ingested `src_20260503_5f268da2` from 00_inbox/一堂-调研行动营启动_原文润色.md
+
+- 2026-05-02T19:12:09+00:00 - Self-check: 1 auto-feedback record(s) created
+
+- 2026-05-02T19:19:00+00:00 - Produced `art_20260503_767ce1bf`: 40_outputs/content/articles/art_20260503_767ce1bf-从模糊提问到高质量决策一堂oscar五步法与人机协同调研完全指南.md
+
+- 2026-05-02T19:19:10+00:00 - Recorded validation report `fb_20260503_c8dbba0e`

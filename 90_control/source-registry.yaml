@@ -155,3 +155,17 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/research/research_methodology.md"
   content_sha256: "ca1c8a50e3fd12095991c548271ef0231edf945456cc6f3c9fa38e2969dda33c"
+
+- id: "src_20260503_5f268da2"
+  title: "什么叫行动方案？"
+  type: "other"
+  location: "10_raw/sources/src_20260503_5f268da2-什么叫行动方案.md"
+  captured_at: "2026-05-02T19:12:08+00:00"
+  registered_at: "2026-05-02T19:12:08+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/什么叫行动方案.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-调研行动营启动_原文润色.md"
+  content_sha256: "ccd6e297dfb4ce53e9a194fa73f6ee3302532c6782c9088fd68a89d81eebf24b"
