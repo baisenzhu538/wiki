@@ -33,3 +33,7 @@ kdo project "Knowledge Delivery Product" --goal "Turn knowledge into shipped ass
 kdo task "Ship first artifact" --project-id proj_YYYYMMDD_xxxxxxxx
 kdo lint
 ```
+
+## Recent Session Reports
+
+- **2026-05-02 ~ 2026-05-03**: [KDO Protocol Structural Hardening](30_wiki/log.md) — Multi-device sync conflict resolution, 7 JSON Schemas, Graph RAG index, AI operating contract (`PROTOCOL.md`), routing-rules decision matrix, lint/validate scripts.
