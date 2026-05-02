@@ -99,3 +99,88 @@ Chronological record of knowledge operations.
 - 2026-05-01T18:54:29+00:00 - Produced `art_20260502_415450fb`: 40_outputs/content/articles/art_20260502_415450fb-kimi-deep-research-swarm-方法论深度解析.md
 
 - 2026-05-01T18:54:37+00:00 - Recorded validation report `fb_20260502_d86f43fd`
+
+---
+
+## Session Report: 2026-05-02 ~ 2026-05-03 — KDO Protocol Structural Hardening
+
+**Duration**: ~10 hours (multi-turn session)  
+**Agent**: Claude Opus 4.7  
+**Human**: Linhai Zhu  
+**Objective**: Resolve multi-device sync conflicts and implement the `cloud.md`-style AI operating contract for the KDO vault.
+
+### Key Decisions
+
+1. **`.gitignore` hardened to blanket-ignore machine configs**: `.obsidian/`, `.claude/`, `.claudian/`, `.kdo/` — prevents future cross-device config conflicts.
+2. **Force-push cleanup executed**: Removed 38 tracked machine-config files (224KB deletions) from git index; remote reset to clean state.
+3. **`90_control/PROTOCOL.md` created**: Single-entry AI operating contract — directory topology, access matrix, entity types, pipeline rules, quality gates, prohibition list.
+4. **All 7 JSON Schemas drafted**: `concept`, `entity`, `decision`, `improvement-plan`, `artifact-content`, `artifact-code`, `source` — frontmatter validation now machine-readable.
+5. **`routing-rules.md` rewritten as decision matrix**: 10 trigger conditions × 4 agent roles with tool whitelists and failure modes.
+6. **Graph RAG index generated**: `build_graph_index.py` produced `30_wiki/.graph/index.json` with 23 nodes and 28 edges.
+7. **`kdo lint` and `kdo validate` scripts created**: Automated frontmatter schema checking and pre-ship quality gates (pure stdlib, zero dependencies).
+8. **Knowledge layer upgraded**: `index.md` rebuilt as knowledge-graph entrypoint with Mermaid map, Dataview queries, hub-node identification, and gap tracking.
+
+### Files Created (17)
+
+| # | File | Type |
+|---|------|------|
+| 1 | `90_control/PROTOCOL.md` | AI operating contract |
+| 2 | `90_control/schemas/concept.yaml` | JSON Schema |
+| 3 | `90_control/schemas/entity.yaml` | JSON Schema |
+| 4 | `90_control/schemas/decision.yaml` | JSON Schema |
+| 5 | `90_control/schemas/improvement.yaml` | JSON Schema |
+| 6 | `90_control/schemas/artifact-content.yaml` | JSON Schema |
+| 7 | `90_control/schemas/artifact-code.yaml` | JSON Schema |
+| 8 | `90_control/schemas/source.yaml` | JSON Schema |
+| 9 | `90_control/CONTEXT.md` | Session context snapshot |
+| 10 | `90_control/BRIDGE.md` | Cross-tool input protocol |
+| 11 | `90_control/AGENT_TESTS.md` | Sandbox test cases (15 scenarios) |
+| 12 | `90_control/scripts/build_graph_index.py` | Graph RAG builder |
+| 13 | `90_control/scripts/kdo_lint.py` | Frontmatter linter |
+| 14 | `90_control/scripts/kdo_validate.py` | Quality gate validator |
+| 15 | `30_wiki/systems/kdo-protocol.md` | Knowledge card |
+| 16 | `30_wiki/systems/obsidian-git-sync-protocol.md` | Multi-device sync SOP |
+| 17 | `30_wiki/concepts/graph-rag.md` | Knowledge card |
+
+### Files Modified (6)
+
+| File | Change |
+|------|--------|
+| `.gitignore` | Simplified to blanket-ignore `.obsidian/`, `.claude/`, `.claudian/`, `.kdo/` |
+| `30_wiki/index.md` | Rebuilt as knowledge graph entrypoint with domains, Mermaid map, Dataview queries |
+| `90_control/routing-rules.md` | Restructured as machine-readable decision matrix |
+| `30_wiki/concepts/互联网医院模式深度调研报告.md` | Backfilled `trust_level`, `reviewed_by`, `review_date`; status `enriched` → `reviewed` |
+| `30_wiki/concepts/街顺app全面调研报告.md` | Backfilled metadata; status `enriched` → `reviewed` |
+| `30_wiki/concepts/鑫港湾his系统分阶段整改报告.md` | Backfilled metadata |
+| `30_wiki/concepts/yc-...markdown.md` | Backfilled metadata; status `enriched` → `reviewed` |
+
+### Deliverables
+
+- `30_wiki/decisions/kdo-protocol-implementation-roadmap.md` — Detailed recommendation report (P0-P3 phases, effort estimates, risk register)
+- `30_wiki/decisions/kdo-priority-checklist.md` — Prioritized execution checklist
+
+### Metrics
+
+| Metric | Before | After |
+|--------|--------|-------|
+| Schema coverage | 1 (`concept`) | 7 |
+| Tracked machine-config files | 38 | 0 |
+| Graph index nodes | 0 | 23 |
+| Graph index edges | 0 | 28 |
+| Routing rules (prose) | 1 table | 10-row decision matrix + whitelists |
+| Orphan pages (claimed) | 1 (诊所O2O) | 0 (source_refs confirmed present) |
+
+### Known Issues / Next Session
+
+1. `kdo_lint.py` has false positives on old ISO-8601 timestamp formats in `created_at`/`updated_at` — needs batch backfill of legacy date formats.
+2. `kdo_validate.py` framework ready but not yet battle-tested against real artifacts.
+3. Agent sandbox tests (`AGENT_TESTS.md`) are specification-only — no automated runner yet.
+4. Graph RAG is static JSON only — no query API or LLM integration layer.
+5. Cross-tool bridge (`BRIDGE.md`) is protocol-only — zero implementations exist.
+
+### References
+
+- `[[KDO Protocol]]`
+- `[[KDO Protocol Implementation Roadmap]]`
+- `[[Wiki Index — Knowledge Graph Entrypoint]]`
+- `[[Obsidian Git Multi-Device Sync Protocol]]`
