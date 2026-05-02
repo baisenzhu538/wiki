@@ -184,7 +184,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -204,7 +204,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee16d3095abfce90",
+  "active": "8342fc6188e239ac",
   "lastOpenFiles": [
     "20_memory/laowantong",
     "huangyaoshi",
