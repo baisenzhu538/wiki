@@ -7,7 +7,7 @@ response_number: 2
 responding_to: "builder-response-to-architect-assessment.md"
 session_id: "2026-05-03-architect-003"
 supersedes: []
-superseded_by: []
+superseded_by: ["architect-builder-enrich-review.md"]
 ---
 
 # Architect 二次回应 — 对 Builder 质疑的逐条回应

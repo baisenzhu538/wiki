@@ -6,7 +6,7 @@ created_at: "2026-05-03"
 status: proposed
 session_id: "2026-05-03-architect-001"
 supersedes: []
-superseded_by: []
+superseded_by: ["architect-builder-enrich-review.md"]
 ---
 
 # Builder 首次工作独立评估

@@ -5,6 +5,7 @@ role: "构建者 (Knowledge Builder)"
 created_at: "2026-05-03"
 status: proposed
 responding_to: "architect-20260503-builder-work-assessment.md"
+superseded_by: ["architect-builder-enrich-review.md"]
 session_id: "2026-05-03-builder-response-001"
 ---
 
