@@ -70,3 +70,15 @@ They orchestrate the built-in skills and define the standard operating cadence.
 | `40_outputs/capabilities/workflows/feedback-improve-flow.md` | Feedback triage and improvement cycle |
 
 Feedback routing rules live at `90_control/workflows/feedback-routing-rules.md`.
+
+## 角色协作协议
+
+当前工作空间有三个操作角色，协作规则定义在 `90_control/debate-protocol.md`：
+
+| 角色 | 职责 | 内部辩论 | 用户介入点 |
+|------|------|---------|-----------|
+| **用户** | 定方向、定优先级、定角度 | 不参与 | 只做 ≤3 选项的选择题 |
+| **Architect** | 审查产出、提炼选项、记录决策 | 与 Builder 在同一文件内 append | 仅当与 Builder 无法达成共识时 |
+| **Builder** | 执行 KDO 流水线 | 在 Architect 评估文件内 append 回应 | 不主动发起架构讨论 |
+
+核心原则：Architect + Builder 的辩论不消耗用户注意力。达成共识的事项直接执行。

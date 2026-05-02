@@ -4,6 +4,7 @@ author: "architect"
 role: "知识架构师 (Knowledge Architect)"
 created_at: "2026-05-03"
 updated_at: "2026-05-03"
+closed_at: "2026-05-03"
 status: proposed
 merged_from:
   - "architect-20260503-builder-work-assessment.md"
@@ -314,14 +315,46 @@ CONTEXT.md = AI 维护的软信息部分（决策理由、未完成事项）
 
 ---
 
+## 决策记录
+
+### D-1. enrich CJK 能力建设路线 — 已关闭
+
+**状态：** 已关闭（2026-05-03）
+**决策者：** 用户
+**选择路径：** 智能体替代 —— 直接用 Agent 执行中文内容 enrich，不修复 CLI regex，不配置 LLM API endpoint。
+**相关讨论：**
+- Round 1 — Architect 诊断为"enrich 被动响应"，建议加自动触发（P0）
+- Round 2 — Builder 纠正根因为 CJK 技术约束，指出 `kdo/extractors.py` 的三个 regex 缺陷（`\b` 边界不识别中文，keywords 纯英文，长度阈值不适合 CJK）
+- Round 3 — Architect 接受根因纠正，P0 方向从"加自动触发"修正为"enrich CJK 能力建设"
+- 终决 — 用户发现 `kdo/commands/curation.py` 中已有完整 LLM three-pass 实现（_pass_condense/_pass_question/_pass_synthesize，中文 prompt 已就位），但明确选择"直接用智能体替代"，不配置 API endpoint
+
+**工程含义：**
+- `kdo enrich` 对中文内容继续由 Agent 手动执行（当前工作模式）
+- 不修改 `kdo/extractors.py`
+- 不配置 OpenAI-compatible endpoint 来启用 `enrich_wiki_page_llm`
+- 如果未来一堂 200 门课程的量级使手动 enrich 成为瓶颈，再重新评估此决定
+
+### D-2. CONTEXT.md 维护方案 — 已关闭
+
+**状态：** 已关闭（2026-05-03）
+**决策者：** 用户
+**选择路径：** Builder 方案（纯派生品）—— CONTEXT.md 从 `.kdo/state.json` + `git log --since` + `30_wiki/log.md` 自动生成，不维护软信息。
+**被否决方案：** Architect 折中方案（AI 软信息 + 工具硬信息混合）
+**工程含义：**
+- CONTEXT.md 不再作为"决策理由"的载体
+- "为什么这么做"这类软信息应写入 `30_wiki/log.md` 的 session 摘要中
+- `closed_at` 自动派生机制需在后续实现（当前可手动更新）
+
+---
+
 ## 待拍板事项
 
 | 编号 | 事项 | Architect 建议 | Builder 立场 | 最终决策 |
 |:----:|------|---------------|-------------|:--------:|
-| 1 | **enrich CJK 能力建设路线** | 倾向手工先跑，量级到了再选方案 | 未明确表态 | 待你定 |
-| 2 | **CONTEXT.md 维护方案** | 折中：AI 软信息 + 工具硬信息 | 纯派生品 | 待你定 |
+| 1 | **enrich CJK 能力建设路线** | 倾向手工先跑，量级到了再选方案 | 未明确表态 | **已关闭: 智能体替代** ✅ |
+| 2 | **CONTEXT.md 维护方案** | 折中：AI 软信息 + 工具硬信息 | 纯派生品 | **已关闭: 选择 Builder 方案（纯派生品）** ✅ |
 | 3 | **变更粒度优先级** | P3（从 P2 降级） | P3 | — |
 | 4 | **闭环意识评分** | B+（接受 Builder 调整） | B+ | — |
 | 5 | **session 记录规则** | 每次 session 结束追加 log.md | 同意 | — |
 
-第 3-5 项已达成共识，可直接执行。第 1-2 项需要你拍板。
+第 3-5 项已达成共识，可直接执行。第 1-2 项均已关闭，全部事项已定案。
