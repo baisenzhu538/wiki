@@ -256,3 +256,39 @@ Chronological record of knowledge operations.
 - 2026-05-02T19:19:10+00:00 - Recorded validation report `fb_20260503_c8dbba0e`
 
 - 2026-05-02T21:09:33+00:00 - Recorded validation report `fb_20260503_b7bb35bc`
+
+- 2026-05-03T13:36:55+00:00 - Ingested batch from 00_inbox:
+  - `src_20260503_dadc7838` from 00_inbox/EC工业化规范手册.md
+  - `src_20260503_1a1f0312` from 00_inbox/HIS系统开发实现方案-架构师指南.md
+  - `src_20260503_968e0210` from 00_inbox/HIS系统深度调研.md
+  - `src_20260503_9bfe6913` from 00_inbox/一堂-调研行动营启动_原文润色.md
+  - `src_20260503_ae1921d5` from 00_inbox/保达云诊所深度调研报告.md
+  - `src_20260503_f4891888` from 00_inbox/开源HIS系统代码深度分析报告.md
+  - `src_20260503_5c91e867` from 00_inbox/轻量级诊所HIS调研全清单.md
+  - `src_20260503_52ae08ba` from 00_inbox/research/kdo_product_design.agent.final.md
+  - `src_20260503_5dc58ec8` from 00_inbox/research/research_methodology.md
+  - Created wiki skeletons: 9
+
+- 2026-05-03T13:45:00+00:00 - Enriched 9 wiki concept cards with 3-step compilation (Condense/Critique/Synthesis):
+  - `30_wiki/concepts/保达云诊所深度调研报告.md` — full compilation, status: reviewed
+  - `30_wiki/concepts/HIS系统深度调研.md` — full compilation, status: reviewed
+  - `30_wiki/concepts/EC工业化规范手册.md` — summary + condense + synthesis
+  - `30_wiki/concepts/开源HIS系统代码深度分析报告.md` — summary + condense + synthesis
+  - `30_wiki/concepts/轻量级诊所HIS调研全清单.md` — summary + condense + synthesis
+  - `30_wiki/concepts/kdo_product_design_agent_final.md` — summary + condense + synthesis
+  - `30_wiki/concepts/research_methodology.md` — summary + condense + synthesis
+  - `30_wiki/concepts/HIS系统开发实现方案-架构师指南.md` — summary + condense + synthesis
+  - `30_wiki/concepts/一堂-调研行动营启动_原文润色.md` — summary + condense + synthesis
+  - Converted 3 PDFs and 2 DOCXs to Markdown before ingest
+  - Archived arch_chapter5.png to 10_raw/assets/
+  - Updated `30_wiki/index.md` with 9 new concept links
+
+- 2026-05-03T14:00:00+00:00 - Cleaned 00_inbox/ after batch ingest. Deleted 26 processed files (including PDFs, DOCXs, MDs, TXT, ZIP). Inbox is now empty.
+
+- 2026-05-03T05:56:55+00:00 - Produced `cap_20260503_b2b_saas_research`: 40_outputs/capabilities/workflows/b2b-saas-competitive-research-playbook.md
+
+- 2026-05-03T05:56:55+00:00 - Produced `art_20260503_2705ecb6`: 40_outputs/content/articles/art_20260503_2705ecb6-诊所HIS竞品选型决策框架.md
+
+- 2026-05-03T05:56:55+00:00 - Validated both artifacts against quality gates. Status updated from `draft` → `validated`.
+
+- 2026-05-03T05:56:55+00:00 - Shipped `ship_20260503_b2b_saas_research` to internal channel. Delivery record: `50_delivery/published/ship_20260503_b2b_saas_research.md`.
