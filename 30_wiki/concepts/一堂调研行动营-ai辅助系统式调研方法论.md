@@ -2,6 +2,7 @@
 title: "一堂调研行动营 — AI辅助系统式调研方法论"
 type: "concept"
 status: "enriched"
+domain: ['master']
 source_refs: ["src_20260503_5f268da2"]
 created_at: "2026-05-02T19:12:08+00:00"
 updated_at: "2026-05-03T03:30:00+00:00"

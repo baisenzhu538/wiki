@@ -12,6 +12,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[KDO Protocol]]
 - [[30_wiki/concepts/graph-rag.md]]
 - [[30_wiki/concepts/obsidian-kdo-内容产出工作流-产品设计大纲.md]]
+- [[30_wiki/concepts/一堂调研行动营-ai辅助系统式调研方法论.md]]
 - [[30_wiki/systems/kdo-protocol.md]]
 - [[30_wiki/systems/obsidian-git-sync-protocol.md]]
 
@@ -21,11 +22,13 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]]
 - [[30_wiki/concepts/graph-rag.md]]
 - [[30_wiki/concepts/obsidian-kdo-内容产出工作流-产品设计大纲.md]]
+- [[30_wiki/concepts/一堂调研行动营-ai辅助系统式调研方法论.md]]
 
 ## [[Multi-Agent Orchestration]]
 - [[30_wiki/concepts/紫鲸ai智能体工作流平台.md]]
 
 ## [[Obsidian + KDO 内容产出工作流 — 产品设计大纲]]
+- [[30_wiki/concepts/一堂调研行动营-ai辅助系统式调研方法论.md]]
 - [[30_wiki/systems/kdo-protocol.md]]
 
 ## [[SaaS 单位经济模型]]
@@ -40,6 +43,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/systems/kdo-protocol.md]]
 
 ## [[YC-AI-Native公司组织方法论]]
+- [[30_wiki/concepts/一堂调研行动营-ai辅助系统式调研方法论.md]]
 - [[30_wiki/concepts/诊所o2o外卖平台业务深度调研报告.md]]
 
 ## [[互联网医院模式深度调研报告]]

@@ -2,6 +2,7 @@
 title: 诊所O2O外卖平台业务深度调研报告
 type: concept
 status: enriched
+domain: ['healthcare']
 source_refs:
   - src_20260501_dfa19257
 created_at: 2026-04-30T18:43:29+00:00

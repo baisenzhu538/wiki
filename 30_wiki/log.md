@@ -256,3 +256,7 @@ Chronological record of knowledge operations.
 - 2026-05-02T19:19:10+00:00 - Recorded validation report `fb_20260503_c8dbba0e`
 
 - 2026-05-02T21:09:33+00:00 - Recorded validation report `fb_20260503_b7bb35bc`
+
+- 2026-05-03T03:41:09+00:00 - Ingested `src_20260503_feab72b2` from 00_inbox/EC工业化规范手册.md
+
+- 2026-05-03T03:41:09+00:00 - Self-check: 1 auto-feedback record(s) created

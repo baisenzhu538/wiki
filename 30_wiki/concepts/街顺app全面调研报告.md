@@ -2,6 +2,7 @@
 title: "街顺APP全面调研报告"
 type: "concept"
 status: "reviewed"
+domain: ['healthcare']
 source_refs: ["src_20260427_970eb338"]
 created_at: "2026-04-26T18:17:11+00:00"
 updated_at: "2026-05-03T00:00:00+00:00"

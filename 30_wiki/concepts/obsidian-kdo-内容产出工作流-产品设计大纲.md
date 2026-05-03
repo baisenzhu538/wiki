@@ -2,6 +2,7 @@
 title: "Obsidian + KDO 内容产出工作流 — 产品设计大纲"
 type: "concept"
 status: "enriched"
+domain: ['master', 'ai-saas']
 source_refs: ["src_20260501_58b6edef"]
 created_at: "2026-05-01T05:26:43+00:00"
 updated_at: "2026-05-03T12:00:00+00:00"
