@@ -260,3 +260,5 @@ Chronological record of knowledge operations.
 - 2026-05-03T03:41:09+00:00 - Ingested `src_20260503_feab72b2` from 00_inbox/EC工业化规范手册.md
 
 - 2026-05-03T03:41:09+00:00 - Self-check: 1 auto-feedback record(s) created
+
+- 2026-05-03T04:05:59+00:00 - Produced `art_20260503_5bc9c549`: 40_outputs/content/articles/art_20260503_5bc9c549-ec工业化规范手册-核心方法论摘要.md
