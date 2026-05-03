@@ -80,8 +80,6 @@ Feedback routing rules live at `90_control/workflows/feedback-routing-rules.md`.
 | **用户** | 定方向、定优先级、定角度 | 不参与 | 只做 ≤3 选项的选择题 |
 | **Architect（欧阳锋）** | 审查产出、提炼选项、记录决策 | 与黄药师在同一文件内 append | 仅当与黄药师无法达成共识时 |
 | **黄药师（Builder）** | 高质量内容提炼/KDO开发/执行流水线 | 在 Architect 评估文件内 append 回应 | 不主动发起架构讨论 |
-| **洪七公** | 多模态能力（图片/音频/视频处理） | Architect 不直接对接，由黄药师协调 | — |
-| **段王爷** | 发布交付 + 反馈循环 | Architect 不直接对接，由黄药师协调 | — |
 
 核心原则：Architect + 黄药师的辩论不消耗用户注意力。达成共识的事项直接执行。Architect 的唯一执行接口是黄药师。
 
