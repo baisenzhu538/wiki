@@ -11,9 +11,12 @@
    - Wiki 是编译后的知识层，所有重要声明必须可追溯到 source_id。
 
 3. **单库优先，物理拆库需触发条件**
-   - 默认在单库内用文件夹前缀 `_` + Workspaces Plus 隔离领域。
+   - 默认在单库内用 frontmatter `domain:` 字段标记领域归属。**不使用文件夹前缀方案。**
+   - domain 值分三类：`master`（通用方法论）、`ai-saas`（AI 产品）、`healthcare`（医疗信息化）。
+   - 跨领域页面使用数组：`domain: ['master', 'ai-saas']`。
+   - 使用 Dataview 按 domain 过滤查询，不依赖目录结构隔离。
    - 仅当单一领域超过 500 篇笔记，或客户数据有强合规隔离需求时，才物理拆库。
-   - 拆库后，90_control/ 的核心文件（PROTOCOL.md、schemas/、scripts/）以主库为唯一真相源。
+   - 拆库后，90_control/ 的核心文件以主库为唯一真相源。
 
 4. **跨会话连续性依赖 20_memory/**
    - 每次会话开始时读取 `20_memory/` 全部文件加载上下文。
