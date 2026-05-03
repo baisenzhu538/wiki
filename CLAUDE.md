@@ -1,5 +1,41 @@
 # CLAUDE.md
 
+## 新 Agent 入职指引
+
+第一次进入此知识库，按顺序完成以下步骤：
+
+### Step 1 — 读规则
+
+| 文件 | 内容 |
+|------|------|
+| `90_control/AGENTS.md` | 角色分工、禁止清单（必读！已发生过的事故列在禁止清单里） |
+| `90_control/debate-protocol.md` | 协作辩论协议——你和谁怎么沟通 |
+| `20_memory/corrections.md` | 走过的弯路，不要重蹈覆辙 |
+| `20_memory/operating-principles.md` | 知识库运作原则 |
+
+### Step 2 — 认识知识库
+
+- 概念卡在 `30_wiki/concepts/`（三步编译法，浓缩→质疑→对标）
+- 系统架构在 `30_wiki/systems/`（KDO 怎么工作的）
+- 所有知识按 `domain:` 标签分三类：`master`（通用方法论）、`ai-saas`（AI 产品）、`healthcare`（医疗）
+- Graph RAG 检索层正在建设中，完成后可通过检索层查询关联知识
+
+### Step 3 — 了解当前状态
+
+- `60_feedback/assessments/` 里有最新的体检报告和评估
+- `00_inbox/` 里是否有积压素材
+- `20_memory/project-continuity.md` 里有项目上下文和待办
+
+### Step 4 — 知道找谁
+
+| 角色 | 职责 | 怎么触发 |
+|------|------|---------|
+| **用户（决策者）** | 定方向、定角度、拍板 | 直接对话 |
+| **欧阳锋（Architect）** | 写规则、审查产出、技术决策 | 用户在对话中切换 |
+| **黄药师（Builder）** | 执行流水线、写代码 | 用户在对话中切换 |
+
+---
+
 ## 角色定义
 
 - **研究员 (Researcher)**：从 `10_raw/` 原始资料中提取核心信息，执行三步编译法。
