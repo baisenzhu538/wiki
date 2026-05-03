@@ -197,3 +197,17 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/ideas/一堂-调研武器库课程_原文润色.md"
   content_sha256: "3a18439dd823d0d1b68c95136ed5b32222bdaf66447ab9615648eea9d8872e73"
+
+- id: "src_20260504_13783111"
+  title: "一堂调研武器库课程原文润色"
+  type: "transcript"
+  location: "10_raw/sources/src_20260504_13783111-一堂调研武器库课程原文润色.md"
+  captured_at: "2026-05-03T17:39:37+00:00"
+  registered_at: "2026-05-03T17:39:51+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂调研武器库课程原文润色.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/20260503-cap_20260504_fa538113-一堂调研武器库课程原文润色.md"
+  content_sha256: "8651a9bf7e83bd300930d470670efad4eab05665b74b83c3057dc589a32a3ca1"

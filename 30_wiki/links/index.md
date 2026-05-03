@@ -12,19 +12,35 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[EC工业化规范手册]]
 - [[30_wiki/concepts/HIS系统开发实现方案-架构师指南.md]]
 
+## [[Graph RAG]]
+- [[30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md]]
+- [[30_wiki/concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md]]
+- [[30_wiki/concepts/yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md]]
+- [[30_wiki/entities/Kimi-月之暗面.md]]
+- [[30_wiki/entities/一堂.md]]
+
+## [[HIS系统开发实现方案-架构师指南]]
+- [[30_wiki/entities/鑫港湾.md]]
+
 ## [[HIS系统深度调研]]
 - [[30_wiki/concepts/HIS系统开发实现方案-架构师指南.md]]
 - [[30_wiki/concepts/保达云诊所深度调研报告.md]]
 - [[30_wiki/concepts/开源HIS系统代码深度分析报告.md]]
 - [[30_wiki/concepts/轻量级诊所HIS调研全清单.md]]
+- [[30_wiki/entities/鑫港湾.md]]
 
 ## [[KDO Protocol]]
 - [[30_wiki/concepts/EC工业化规范手册.md]]
 - [[30_wiki/concepts/graph-rag.md]]
 - [[30_wiki/concepts/kdo_product_design_agent_final.md]]
+- [[30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md]]
+- [[30_wiki/concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md]]
 - [[30_wiki/concepts/obsidian-kdo-内容产出工作流-产品设计大纲.md]]
 - [[30_wiki/concepts/research_methodology.md]]
+- [[30_wiki/concepts/yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md]]
 - [[30_wiki/concepts/一堂调研行动营-ai辅助系统式调研方法论.md]]
+- [[30_wiki/entities/YC-Y-Combinator.md]]
+- [[30_wiki/entities/一堂.md]]
 - [[30_wiki/systems/kdo-protocol.md]]
 - [[30_wiki/systems/obsidian-git-sync-protocol.md]]
 
@@ -36,9 +52,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/kdo_product_design_agent_final.md]]
 - [[30_wiki/concepts/obsidian-kdo-内容产出工作流-产品设计大纲.md]]
 - [[30_wiki/concepts/research_methodology.md]]
+- [[30_wiki/concepts/yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md]]
 - [[30_wiki/concepts/一堂-调研行动营启动_原文润色.md]]
 - [[30_wiki/concepts/一堂调研行动营-ai辅助系统式调研方法论.md]]
 - [[30_wiki/concepts/轻量级诊所HIS调研全清单.md]]
+- [[30_wiki/entities/Kimi-月之暗面.md]]
+- [[30_wiki/entities/YC-Y-Combinator.md]]
 
 ## [[Multi-Agent Orchestration]]
 - [[30_wiki/concepts/紫鲸ai智能体工作流平台.md]]
@@ -59,6 +78,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/obsidian-kdo-内容产出工作流-产品设计大纲.md]]
 - [[30_wiki/systems/kdo-protocol.md]]
 
+## [[YC AI-Native 公司组织方法论]]
+- [[30_wiki/entities/YC-Y-Combinator.md]]
+- [[30_wiki/entities/紫鲸AI.md]]
+
+## [[YC AI-Native 方法论]]
+- [[30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md]]
+- [[30_wiki/concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md]]
+
 ## [[YC 放出一套ai-native-公司组织方法论...]]
 - [[30_wiki/concepts/一堂-调研行动营启动_原文润色.md]]
 
@@ -66,8 +93,22 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/一堂调研行动营-ai辅助系统式调研方法论.md]]
 - [[30_wiki/concepts/诊所o2o外卖平台业务深度调研报告.md]]
 
+## [[kimi-深度调研集群方法论-deep-research-swarm]]
+- [[30_wiki/concepts/一堂调研武器库13招.md]]
+
 ## [[knowledge-delivery-os-快速体验指南-飞书云文档]]
 - [[30_wiki/concepts/ec工业化规范手册-v2.8.0.md]]
+
+## [[一堂-调研行动营启动_原文润色]]
+- [[30_wiki/concepts/一堂调研武器库13招.md]]
+- [[30_wiki/entities/一堂.md]]
+
+## [[一堂调研武器库13招]]
+- [[30_wiki/entities/一堂.md]]
+
+## [[一堂调研行动营 — AI辅助系统式调研方法论]]
+- [[30_wiki/entities/Kimi-月之暗面.md]]
+- [[30_wiki/entities/一堂.md]]
 
 ## [[一堂调研行动营-ai辅助系统式调研方法论]]
 - [[30_wiki/concepts/research_methodology.md]]
@@ -84,6 +125,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[保达云诊所深度调研报告]]
 - [[30_wiki/concepts/HIS系统开发实现方案-架构师指南.md]]
 - [[30_wiki/concepts/HIS系统深度调研.md]]
+- [[30_wiki/concepts/互联网医院模式深度调研报告.md]]
 - [[30_wiki/concepts/开源HIS系统代码深度分析报告.md]]
 - [[30_wiki/concepts/轻量级诊所HIS调研全清单.md]]
 
@@ -98,6 +140,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[双向链接]]
 - [[30_wiki/concepts/graph-rag.md]]
+- [[30_wiki/concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md]]
 
 ## [[平台合规风险]]
 - [[30_wiki/concepts/紫鲸ai智能体工作流平台.md]]
@@ -114,6 +157,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[无人零售技术路线]]
 - [[30_wiki/concepts/街顺app全面调研报告.md]]
 
+## [[紫鲸AI_智能体工作流平台_深度分析与产品设计]]
+- [[30_wiki/entities/紫鲸AI.md]]
+
 ## [[紫鲸AI智能体工作流平台]]
 - [[30_wiki/concepts/EC工业化规范手册.md]]
 - [[30_wiki/concepts/HIS系统深度调研.md]]
@@ -123,6 +169,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/紫鲸ai_智能体工作流平台_深度分析与产品设计.md]]
 - [[30_wiki/concepts/诊所o2o外卖平台业务深度调研报告.md]]
 - [[30_wiki/concepts/鑫港湾his系统分阶段整改报告.md]]
+- [[30_wiki/entities/紫鲸AI.md]]
 
 ## [[美团生态]]
 - [[30_wiki/concepts/街顺app全面调研报告.md]]
@@ -132,6 +179,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/紫鲸ai智能体工作流平台.md]]
 - [[30_wiki/concepts/诊所o2o外卖平台业务深度调研报告.md]]
 
+## [[街顺app全面调研报告]]
+- [[30_wiki/concepts/一堂调研武器库13招.md]]
+
 ## [[诊所O2O外卖平台业务深度调研报告]]
 - [[30_wiki/concepts/ec工业化规范手册-v2.8.0.md]]
 
@@ -139,13 +189,19 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/HIS系统深度调研.md]]
 - [[30_wiki/concepts/保达云诊所深度调研报告.md]]
 
+## [[轻量级诊所HIS调研全清单]]
+- [[30_wiki/concepts/互联网医院模式深度调研报告.md]]
+- [[30_wiki/entities/鑫港湾.md]]
+
 ## [[鑫港湾HIS系统分阶段整改报告]]
 - [[30_wiki/concepts/ec工业化规范手册-v2.8.0.md]]
+- [[30_wiki/entities/鑫港湾.md]]
 
 ## [[鑫港湾his系统分阶段整改报告]]
 - [[30_wiki/concepts/EC工业化规范手册.md]]
 - [[30_wiki/concepts/HIS系统开发实现方案-架构师指南.md]]
 - [[30_wiki/concepts/HIS系统深度调研.md]]
+- [[30_wiki/concepts/互联网医院模式深度调研报告.md]]
 - [[30_wiki/concepts/保达云诊所深度调研报告.md]]
 - [[30_wiki/concepts/开源HIS系统代码深度分析报告.md]]
 

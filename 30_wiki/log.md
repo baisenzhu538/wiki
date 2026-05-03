@@ -310,3 +310,7 @@ Chronological record of knowledge operations.
 - 2026-05-03T15:40:21+00:00 - Ingested `src_20260503_af21929e` from 00_inbox/ideas/一堂-调研武器库课程_原文润色.md
 
 - 2026-05-03T15:40:22+00:00 - Self-check: 2 auto-feedback record(s) created
+
+- 2026-05-03T17:39:51+00:00 - Ingested `src_20260504_13783111` from 00_inbox/ideas/20260503-cap_20260504_fa538113-一堂调研武器库课程原文润色.md
+
+- 2026-05-03T17:39:52+00:00 - Self-check: 3 auto-feedback record(s) created
