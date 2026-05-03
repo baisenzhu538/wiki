@@ -183,3 +183,17 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/EC工业化规范手册.md"
   content_sha256: "f938f95ff20dbacf08c08528c96892fc810528d852cdf59af48965a2e34ad6c5"
+
+- id: "src_20260503_af21929e"
+  title: "第一个举手。"
+  type: "other"
+  location: "10_raw/sources/src_20260503_af21929e-第一个举手.md"
+  captured_at: "2026-05-03T15:40:21+00:00"
+  registered_at: "2026-05-03T15:40:21+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/第一个举手.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-调研武器库课程_原文润色.md"
+  content_sha256: "3a18439dd823d0d1b68c95136ed5b32222bdaf66447ab9615648eea9d8872e73"
