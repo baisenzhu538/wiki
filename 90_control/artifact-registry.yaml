@@ -113,3 +113,17 @@ artifacts:
   feedback_source: "60_feedback/"
   path: "40_outputs/content/articles/art_20260503_767ce1bf-从模糊提问到高质量决策一堂oscar五步法与人机协同调研完全指南.md"
   created_at: "2026-05-02T19:19:00+00:00"
+
+- artifact_id: "art_20260503_5bc9c549"
+  type: "content"
+  subtype: "article"
+  title: "EC工业化规范手册 — 核心方法论摘要"
+  target_user: "技术管理者"
+  source_refs: ["src_20260503_feab72b2"]
+  wiki_refs: ["30_wiki/concepts/ec工业化规范手册-v2.8.0.md"]
+  definition_of_done: ["target reader explicit", "core claim explicit", "source refs present", "feedback path declared"]
+  status: "draft"
+  delivery_channel: "article"
+  feedback_source: "60_feedback/"
+  path: "40_outputs/content/articles/art_20260503_5bc9c549-ec工业化规范手册-核心方法论摘要.md"
+  created_at: "2026-05-03T04:05:59+00:00"

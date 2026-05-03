@@ -82,3 +82,18 @@ Feedback routing rules live at `90_control/workflows/feedback-routing-rules.md`.
 | **Builder** | 执行 KDO 流水线 | 在 Architect 评估文件内 append 回应 | 不主动发起架构讨论 |
 
 核心原则：Architect + Builder 的辩论不消耗用户注意力。达成共识的事项直接执行。
+
+## 禁止清单
+
+以下操作已造成过实际事故。违反前请确认你理解了对应的失败模式。
+
+| 编号 | 禁止行为 | 失败模式 | 正确做法 |
+|:----:|----------|----------|----------|
+| 1 | **不准对中文内容执行 `kdo enrich`** | F-KDO-001 | 中文页面走 Agent 三步编译（浓缩→质疑→对标），不要调用 `kdo enrich --all` |
+| 2 | **不准在非 wiki 根目录执行 pipeline 命令** | F-KDO-004 | 始终 `cd /mnt/c/Users/Administrator/Desktop/wiki` 后执行 |
+| 3 | **不准用 `kdo ingest` 处理 .txt 文件** | F-KDO-002 | 先 `cp file.txt file.md` 转换后再 ingest |
+| 4 | **不准删除 feedback 文件不同步清理 state.json** | F-KDO-005 | 删除 `60_feedback/` 下文件时，同步从 `.kdo/state.json` 的 `feedback` 列表中移除 |
+| 5 | **不准在 state.json 被其他进程持有时执行写操作** | F-KDO-003 | 执行 `improve --apply` 前确认没有并发的 kdo 进程 |
+| 6 | **不准在 AGENTS.md 中只写"应该做什么"不写"不准做什么"** | — | 新增约束必须同时写入本禁止清单 |
+
+完整失败模式库：`90_control/failure-modes.md`。下一个 Agent session 启动时必读。

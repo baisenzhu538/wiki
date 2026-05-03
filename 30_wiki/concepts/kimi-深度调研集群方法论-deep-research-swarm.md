@@ -2,6 +2,7 @@
 title: "Kimi 深度调研集群方法论 (Deep-Research-Swarm)"
 type: "concept"
 status: "enriched"
+domain: ['ai-saas']
 source_refs: ["src_20260502_7d7c1b7c"]
 created_at: "2026-05-01T18:49:20+00:00"
 updated_at: "2026-05-02T00:00:00+00:00"

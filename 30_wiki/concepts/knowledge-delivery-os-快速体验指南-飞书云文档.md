@@ -2,6 +2,7 @@
 title: "‍‬⁠​​​⁠​﻿​‍‍​​​​‬​​​‍​⁠‌​﻿‍‍⁠​​﻿‍‬​‍​‬​﻿﻿﻿​​‍‬​﻿‌​Knowledge Delivery OS 快速体验指南 - 飞书云文档"
 type: "concept"
 status: "enriched"
+domain: ['master']
 source_refs: ["src_20260501_6a491b80"]
 created_at: "2026-04-30T18:43:29+00:00"
 updated_at: "2026-05-02T12:06:48+00:00"

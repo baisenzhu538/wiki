@@ -2,6 +2,7 @@
 title: "紫鲸AI_智能体工作流平台_深度分析与产品设计"
 type: "concept"
 status: "superseded"
+domain: ['ai-saas']
 source_refs: ["src_20260501_4eee4e95"]
 created_at: "2026-04-30T18:43:29+00:00"
 updated_at: "2026-05-03T12:00:00+00:00"
