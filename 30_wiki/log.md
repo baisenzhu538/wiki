@@ -2,6 +2,12 @@
 
 Chronological record of knowledge operations.
 
+- 2026-05-03T03:41:09+00:00 - Ingested `src_20260503_feab72b2` from 00_inbox/EC工业化规范手册.md
+- 2026-05-03T03:50:00+00:00 - Enriched `30_wiki/concepts/ec工业化规范手册-v2.8.0.md` (three-pass CJK compilation: condense + question + synthesize)
+- 2026-05-03T04:05:59+00:00 - Produced `art_20260503_5bc9c549`: 40_outputs/content/articles/art_20260503_5bc9c549-ec工业化规范手册-核心方法论摘要.md
+- 2026-05-03T04:05:59+00:00 - Self-check: all clear, 0 issues
+- 2026-05-03 - Session: batch enriched EC工业化规范手册, added domain field to all 12 wiki pages, cleaned stale feedback reference fb_20260503_101f00cf
+
 - 2026-04-26T18:17:11+00:00 - Ingested `src_20260427_970eb338` from 00_inbox/街顺APP全面调研报告.md
 
 - 2026-04-26T18:40:09+00:00 - Produced `art_20260427_16a7c4d7`: 40_outputs/content/articles/art_20260427_16a7c4d7-街顺-零融资saas的生存逻辑.md
