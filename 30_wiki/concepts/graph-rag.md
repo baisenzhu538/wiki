@@ -2,10 +2,7 @@
 title: "Graph RAG — Knowledge-Graph-Powered Retrieval"
 type: concept
 status: enriched
-<<<<<<< HEAD
-=======
 domain: ['ai-saas']
->>>>>>> origin/main
 source_refs:
   - "src_20260502_7d7c1b7c"
 created_at: "2026-05-03"

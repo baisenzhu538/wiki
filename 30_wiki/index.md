@@ -1,11 +1,7 @@
 # Wiki Index
 
 
-<<<<<<< HEAD
 _Last updated: 2026-05-03T13:36:55+00:00_
-=======
-_Last updated: 2026-05-03T03:41:09+00:00_
->>>>>>> origin/main
 
 - [EC工业化规范手册 v2.8.0](concepts/ec工业化规范手册-v2.8.0.md) - source `src_20260503_feab72b2`
 - [Graph RAG — Knowledge-Graph-Powered Retrieval](concepts/graph-rag.md) - source no source
@@ -36,3 +32,4 @@ _Last updated: 2026-05-03T03:41:09+00:00_
 
 - [B2B SaaS 竞品调研标准化手册](../40_outputs/capabilities/workflows/b2b-saas-competitive-research-playbook.md) - capability `cap_20260503_b2b_saas_research`
 - [诊所HIS竞品选型决策框架](../40_outputs/content/articles/art_20260503_2705ecb6-诊所HIS竞品选型决策框架.md) - article `art_20260503_2705ecb6`
+
