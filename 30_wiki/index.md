@@ -34,3 +34,9 @@ _Last updated: 2026-05-03T17:40:42+00:00_
 - [鑫港湾](entities/鑫港湾.md) - source no source
 - [KDO Protocol — AI-Agent Operating Contract](systems/kdo-protocol.md) - source no source
 - [Obsidian Git Multi-Device Sync Protocol](systems/obsidian-git-sync-protocol.md) - source no source
+
+## Projects
+
+- [诊所O2O项目](projects/诊所O2O项目.md) - 诊所外卖/O2O送药合规路径与商业闭环
+- [鑫港湾HIS项目](projects/鑫港湾HIS项目.md) - .NET 8 + Vue 3 医疗信息系统全流程工程化
+- [互联网医院项目](projects/互联网医院项目.md) - 互联网医院合规路径与入驻决策框架
