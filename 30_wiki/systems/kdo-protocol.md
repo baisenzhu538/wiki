@@ -2,6 +2,7 @@
 title: "KDO Protocol — AI-Agent Operating Contract"
 type: system
 status: draft
+aliases: ["KDO Protocol"]
 source_refs:
   - "src_20260502_7d7c1b7c"
 created_at: "2026-05-02"
