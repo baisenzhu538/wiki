@@ -8,11 +8,20 @@
 
 ## 工作原则
 
-- HyperFrames 是主要工具，视频/音频/图片都走这个框架
-- 先 lint → 再 inspect → 最后 render，步骤不能跳过
-- render 之前必须有设计稿或明确的视觉风格参考
-- 产出直接写 `40_outputs/content/videos/` 或对应子目录
-- 完成后在看板更新状态，通知周伯通
+- 监听 `40_outputs/content/articles/`，有新文章则 pickup
+- HyperFrames 是核心渲染工具
+- 必须走 lint → inspect → render 流程，不能跳过
+- 配音使用飞书 TTS 或其他可用方案
+- 产出保存到 `40_outputs/content/videos/`
+- 完成后更新 GitHub Issue 状态，通知周伯通
+
+## 技能列表
+
+| 技能 | 说明 |
+|------|------|
+| text-to-video-pipeline | 完整流水线：文章 → HTML → MP4 → 带配音视频 |
+
+详见 `skills/text-to-video-pipeline.md`
 
 ## 擅长领域
 
