@@ -28,3 +28,11 @@ _Last updated: 2026-05-03T15:40:21+00:00_
 - [鑫港湾HIS系统分阶段整改报告](concepts/鑫港湾his系统分阶段整改报告.md) - source `src_20260428_db49a647`
 - [KDO Protocol — AI-Agent Operating Contract](systems/kdo-protocol.md) - source no source
 - [Obsidian Git Multi-Device Sync Protocol](systems/obsidian-git-sync-protocol.md) - source no source
+
+## Entities
+
+- [一堂](entities/一堂.md) - 商业管理教育公司，调研武器库方法论来源
+- [Y Combinator](entities/YC-Y-Combinator.md) - AI-Native组织方法论发布机构
+- [Kimi（月之暗面）](entities/Kimi-月之暗面.md) - Deep Research集群方法论来源
+- [鑫港湾](entities/鑫港湾.md) - 医疗机构，HIS系统核心案例
+- [紫鲸AI](entities/紫鲸AI.md) - AI内容营销操作系统产品
