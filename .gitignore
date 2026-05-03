@@ -13,3 +13,6 @@ desktop.ini
 *.swp
 *.swo
 *~
+
+# Obsidian base files
+*.base
