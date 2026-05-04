@@ -36,6 +36,8 @@ source: "EC工业化规范手册 附录D — EC卡清单方法论"
 | REQ-022 | Kimi调研方法论 | AI集群调研方法论文章 | 调研者 | ai-saas | 2026-05-03 |
 | REQ-023 | Graph RAG分析 | Graph RAG知识管理文章 | KDO开发者 | ai-saas | 2026-05-03 |
 | REQ-014 | wiki 现有 enrich 页面 | 12篇产生文章 | 各领域从业者 | mixed | 2026-05-04 |
+| REQ-015 | — | kdo watch 生产就绪 | KDO 用户 | master | 2026-05-05 |
+| REQ-024 | — | kdo watch 自动识别 skill 路由 | KDO Agent | master | 2026-05-05 |
 
 ## 进行中
 
@@ -53,10 +55,8 @@ source: "EC工业化规范手册 附录D — EC卡清单方法论"
 
 | 编号 | 源文件 | 目标产出 | 目标用户 | 领域 | 备注 |
 |:-----|--------|----------|----------|------|------|
-| REQ-015 | — | kdo watch 生产就绪 | KDO 用户 | master | 文件监听+自动 pipeline |
 | REQ-016 | — | CJK enrich 自动化 | KDO Agent | master | LLM endpoint 配置或 extractor 升级 |
 | REQ-017 | 20_memory/ | 记忆生命周期管理 | KDO Agent | master | staleness 检测 + 自动更新 |
-| REQ-024 | — | kdo watch 自动识别 skill 路由 | KDO Agent | master | watch 检测 frontmatter type:skill → 走 capability 管线而非 knowledge 管线 |
 
 ## 排队 — P2（远期）
 
@@ -72,10 +72,10 @@ source: "EC工业化规范手册 附录D — EC卡清单方法论"
 
 | 状态 | 数量 |
 |------|:----:|
-| 已完成 | 14 |
+| 已完成 | 16 |
 | 进行中 | 0 |
 | P0 排队 | 1 |
-| P1 排队 | 4 |
+| P1 排队 | 2 |
 | P2 排队 | 3 |
 | **合计** | **22** |
 
