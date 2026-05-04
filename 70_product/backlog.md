@@ -53,6 +53,7 @@ source: "EC工业化规范手册 附录D — EC卡清单方法论"
 | REQ-015 | — | kdo watch 生产就绪 | KDO 用户 | master | 文件监听+自动 pipeline |
 | REQ-016 | — | CJK enrich 自动化 | KDO Agent | master | LLM endpoint 配置或 extractor 升级 |
 | REQ-017 | 20_memory/ | 记忆生命周期管理 | KDO Agent | master | staleness 检测 + 自动更新 |
+| REQ-024 | — | kdo watch 自动识别 skill 路由 | KDO Agent | master | watch 检测 frontmatter type:skill → 走 capability 管线而非 knowledge 管线 |
 
 ## 排队 — P2（远期）
 
@@ -71,9 +72,9 @@ source: "EC工业化规范手册 附录D — EC卡清单方法论"
 | 已完成 | 13 |
 | 进行中 | 0 |
 | P0 排队 | 1 |
-| P1 排队 | 4 |
+| P1 排队 | 5 |
 | P2 排队 | 3 |
-| **合计** | **21** |
+| **合计** | **22** |
 
 ---
 
