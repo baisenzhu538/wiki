@@ -1,0 +1,12 @@
+{
+  "app_id": "cli_a97d962dfbf8dbb3",
+  "open_id": "ou_a76bea7123d76d699aa59544e946b1e8",
+  "name": "阿海",
+  "union_id": "on_4095acdf3078aa117dbc087c5830a676",
+  "tenant_key": "1abfcb449fdf1bbd",
+  "token_type": "Bearer",
+  "expires_in": 6900,
+  "refresh_expires_in": 2591700,
+  "obtained_at": "2026-05-04T13:50:00+08:00",
+  "note": "user_access_token 已存储于环境变量 FEISHU_USER_ACCESS_TOKEN"
+}
