@@ -1,7 +1,10 @@
 ---
-title: "KDO 产品 Backlog"
+title: "KDO 产品 Backlog（已废弃）"
 type: "product"
-status: "draft"
+status: deprecated
+deprecated_at: "2026-05-04"
+superseded_by: "70_product/tasks/"
+reason: "与 tasks/ 信息重复，统一到单层 task 文件管理"
 created_at: "2026-05-03"
 source: "EC工业化规范手册 附录D — EC卡清单方法论"
 ---
