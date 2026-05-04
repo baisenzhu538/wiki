@@ -1,4 +1,7 @@
 {
+  "_deprecated": true,
+  "_deprecated_reason": "Superseded by LightRAG via kdo/commands/graph.py. See 30_wiki/systems/graph-rag-retrieval-layer.md.",
+  "_deprecated_date": "2026-05-04",
   "meta": {
     "generated_at": "2026-05-03T00:33:10.844200",
     "version": "0.1",
