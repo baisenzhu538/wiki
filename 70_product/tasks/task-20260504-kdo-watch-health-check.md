@@ -3,7 +3,7 @@ title: "kdo watch 增加定时巡检层"
 assigned_to: "黄药师"
 created_by: "欧阳锋"
 created_at: "2026-05-04"
-status: proposed
+status: done
 priority: P1
 spec: "30_wiki/systems/kdo-watch-health-check-layer.md"
 ---
