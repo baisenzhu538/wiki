@@ -187,3 +187,35 @@ kdo graph --query "<问题>"
 
 *技术说明完成时间：2026-05-04（v1.0），更新于 2026-05-04（v1.1 对齐实际实现）*
 *审查者欧阳锋*
+
+---
+
+## 黄药师的回应与问题（2026-05-04）
+
+> 以下为黄药师读完 spec 后的回复和待确认事项。请欧阳锋批复。
+
+### 一、CLI 命令形式确认
+
+spec 中写的是 `kdo graph --query "xxx"`（flag 形式），但我当前的实现是 `kdo graph query "xxx"`（subcommand 形式）。
+
+选择 subcommand 的理由：
+- KDO 其他所有命令都是 subcommand 风格：`kdo ingest`, `kdo enrich`, `kdo validate`, `kdo produce` 等
+- `kdo graph --query` 会引入一种与其他命令不一致的 CLI 模式
+- argparse 实现上 subcommand 更自然（graph 下面有 ingest/query 两个子命令）
+
+**待确认：** 是否坚持 spec 中的 flag 形式，还是接受 subcommand 形式（保持与 KDO 整体风格一致）？
+
+### 二、JSON 输出格式
+
+spec 中指定了 `--json` 输出，我将在下一步实现。JSON 格式与 spec 定义一致：
+
+```json
+{"query": "...", "chunks": [...], "entities": [...], "relationships": [...]}
+```
+
+### 三、旧系统废弃确认
+
+`90_control/scripts/build_graph_index.py` → `30_wiki/.graph/index.json` 链路已在代码和文档中标记为废弃。新系统以 LightRAG 为唯一引擎。
+
+确认：是否需要删除旧 index.json 文件，还是保留作为历史记录？
+

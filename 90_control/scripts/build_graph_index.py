@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 """
-Build Graph RAG index from 30_wiki/ markdown files.
-Pure stdlib. No external dependencies.
-Output: 30_wiki/.graph/index.json
+DEPRECATED (2026-05-04): Superseded by LightRAG via kdo graph ingest/query.
+
+This script and its output (30_wiki/.graph/index.json) are no longer the
+canonical graph index. The replacement is in kdo/commands/graph.py which
+uses LightRAG (pip install lightrag) for graph + vector hybrid retrieval.
+
+See: 30_wiki/systems/graph-rag-retrieval-layer.md for the new design.
+
+Kept for historical reference only. Do not use as the active graph engine.
 """
 
 import json
