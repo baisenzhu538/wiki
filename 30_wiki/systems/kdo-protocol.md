@@ -6,11 +6,12 @@ aliases: ["KDO Protocol"]
 source_refs:
   - "src_20260502_7d7c1b7c"
 created_at: "2026-05-02"
-updated_at: "2026-05-03"
+updated_at: "2026-05-04"
 related:
   - "[[Obsidian + KDO 内容产出工作流 — 产品设计大纲]]"
   - "[[KDO Protocol]]"
   - "[[Wiki Index — Knowledge Graph Entrypoint]]"
+  - "[[business-research-skill-oscar-13-weapon-system]]"
 tags:
   - #kdo
   - #protocol
@@ -58,6 +59,37 @@ review_date: "2026-05-03"
 | **Pipeline** | `PROTOCOL.md` Section 5 | KDO 流水线状态流转 |
 | **Quality Gates** | `PROTOCOL.md` Section 6 | 写入前检查清单 |
 | **Prohibitions** | `PROTOCOL.md` Section 7 | AI 绝对禁止的操作 |
+
+---
+
+## External Intake Routing: Skill vs Raw Material
+
+外部知识/Skill 进入 KDO 时，走哪条路线取决于**内容结构化程度**：
+
+| 路线 | 入口 | 适用素材 | 产出 |
+|------|------|---------|------|
+| **Inbox Pipeline** | `00_inbox/` → `kdo capture` → `kdo ingest` → `kdo enrich` | 原始课程笔记、网页抓取、录音转写、未整理的碎片 | `concepts/` 三步骤编译卡 |
+| **Direct Compile** | `30_wiki/concepts/` 直接创建 | 已结构化的 Skill 包（含 SKILL.md + references/）、明确要求"研究并内化"的技术栈 | 三步骤编译概念卡 + 可执行 Skill 安装 |
+
+**决策树**：
+
+```
+外部输入
+├── 已结构化 Skill 包（.zip / 完整 SKILL.md）？
+│   ├── 是 → 安装到 ~/.claude/skills/（可执行层）
+│   │      → concepts/ 直接出概念卡（知识层）✅
+│   └── 否 → 是否需要人工先确认再加工？
+│       ├── 是 → 00_inbox/ → KDO pipeline ✅
+│       └── 否（如技术能力研究）→ concepts/ 直接编译 ✅
+```
+
+**核心判断标准**：目标是"整理已有知识"走 inbox pipeline；目标是"编译新能力/技能"直接出概念卡。
+
+**两层分离**：
+- **执行层** — `~/.claude/skills/`：Claude Code 可调用的 Skill，装完即用
+- **知识层** — `30_wiki/concepts/`：Skill 的概念卡，可检索、可双向链接、可被 KDO 图谱索引
+
+> 此规则来自 business-research skill 安装过程中的实践总结。参见 [[business-research-skill-oscar-13-weapon-system]]。
 
 ---
 
