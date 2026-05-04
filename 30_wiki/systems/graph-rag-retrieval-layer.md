@@ -3,206 +3,187 @@ title: "Graph RAG 检索层技术说明"
 author: "审查者欧阳锋"
 role: "知识架构师 (Knowledge Architect)"
 created_at: "2026-05-04"
-status: proposed
-target_implementer: "黄药师 (Builder)"
-dependency: "30_wiki/.graph/index.json（由 build_graph_index.py 生成）"
+updated_at: "2026-05-04"
+status: stable
+implementor: "黄药师 (Builder)"
+dependencies:
+  - "LightRAG 库（pip install lightrag）"
+  - ".kdo/graph_index/（LightRAG 产出物）"
+superseded_design: "v0.1 keyword-based — 原计划基于 index.json 的纯标准库方案，因黄药师已完成 LightRAG MVP 且检索质量更优，该方案已废弃"
 ---
 
 # Graph RAG 检索层技术说明
 
-> 写给黄药师：本文件定义检索层的输入输出格式、与现有组件的接线方式、以及在 KDO 流水线里的触发时机。实现细节由你决定。
+> **实际实现：LightRAG（图 + 向量混合检索）**
+> 黄药师于 2026-05-04 完成 MVP，全链路跑通，零 LLM 调用。
+> 本文件为后续 Agent 调用的接口规范。
 
 ---
 
-## 零、整体架构
+## 零、整体架构（实际）
 
 ```
-build_graph_index.py          ← 已有，遍历 30_wiki/ 建图
+30_wiki/concepts/（全部概念卡）
         │
         ▼
-   index.json (30_wiki/.graph/)   ← 已有，静态节点+边
+   LightRAG（分块 + 实体提取 + 向量建库 + 图关系）
         │
         ▼
-【待实现】 query_graph.py          ← 本文件定义
-        │
-        ├── Step 1: 关键词匹配节点
-        ├── Step 2: 边遍历扩召回（1-2 hop）
-        └── Step 3: 格式化为 LLM 可消费的上下文
+   .kdo/graph_index/   ← 检索层的持久化数据库
+   ├── kv_store_text_chunks.json （199KB）
+   ├── vdb_chunks.json            （364KB，向量检索）
+   ├── vdb_entities.json          （81KB，实体检索）
+   ├── vdb_relationships.json     （48B，图关系）
+   └── graph_chunk_entity_relation.graphml （11KB）
         │
         ▼
-     调用方（Agent / CLI / kdo 命令）
-```
-
----
-
-## 一、输入
-
-### 1.1 调用方
-
-任何需要查询知识库的 Agent 或脚本。
-
-### 1.2 查询格式
-
-```python
-# 函数签名
-def query_graph(
-    query: str,       # 自然语言查询，如 "OSCAR 调研法"
-    n_hops: int = 2,  # 扩展跳数，默认 2
-    top_k: int = 5    # 返回节点数上限
-) -> dict
-```
-
-```python
-# CLI 调用
-python query_graph.py "OSCAR 调研法怎么用" --hops 2 --top-k 5
-python query_graph.py "YC 组织方法论" --format json
+   LightRAG 查询接口  ← 混合检索（图遍历 + 向量匹配）
+        │
+        ▼
+【待实现】 CLI 统一入口 → kdo graph --query "xxx"
+        │
+        ▼
+     调用方（Agent / Bot / 脚本）
 ```
 
 ---
 
-## 二、处理逻辑
+## 一、已完成 vs 待完成
 
-### Step 1 — 关键词匹配
+| 状态 | 事项 |
+|:----:|------|
+| ✅ | LightRAG 分块：所有 wiki 概念卡已完成 chunk |
+| ✅ | 向量建库：chunks + entities 向量已就绪 |
+| ✅ | 图关系建库：实体间关系已自动提取 |
+| ✅ | 混合检索：graph + vector 协同查询 |
+| ✅ | 零 LLM 调用：预填 keywords 绕过 LLM 关键词提取 |
+| ⏳ | CLI 统一入口：`kdo graph --query "xxx"` 未实现 |
+| ⏳ | Agent 调用格式：输出需标准化为 Agent 可直接消费的格式 |
 
-将 `query` 与 `index.json` 中每个节点的以下字段做子串匹配（大小写不敏感）：
+---
 
-| 匹配字段 | 来源 | 权重 |
-|---------|------|:---:|
-| `node.label` | 页面标题 | 最高 |
-| `node.id` | 页面 ID，通常含中文关键词 | 中 |
-| `node.frontmatter.tags` | #tag 标签 | 中 |
-| `node.frontmatter.title` | frontmatter 标题 | 低（容易重复） |
+## 二、CLI 接口规范（黄药师下一步实现）
 
-匹配到 ≥1 个关键词的节点进入候选集。按命中次数排相关性。
-
-### Step 2 — 边遍历扩召回
-
-从 Step 1 的命中节点出发，沿 `index.json` 中的 edges 走 1-2 跳：
+### 命令形式
 
 ```
-命中节点 A
-  ├── edge → 节点 B（未在候选中）→ 加入结果，标记 "关联"
-  └── edge → 节点 C
-        └── edge → 节点 D → 加入结果，标记 "二阶关联"
+kdo graph --query "<自然语言查询>"        → 纯文本输出（Agent 消费）
+kdo graph --query "<查询>" --json          → JSON 输出（脚本消费）
+kdo graph --rebuild                        → 手动重建 LightRAG 索引
 ```
 
-返回结果按层级分组：`hits`（直接命中）、`neighbors`（1 跳）、`extended`（2 跳）。
+### 输出格式
 
-### Step 3 — 格式化输出
+#### 纯文本（Agent 直接读）
+
+```markdown
+【Graph RAG 检索结果】查询: "OSCAR 调研法"
+
+┌─ 核心命中（3 chunks）
+├─ 一堂调研行动营-ai辅助系统式调研方法论
+│   片段: "OSCAR五步法：O（目标界定）→ S（扫描）→ C（比较）→ A（行动）→ R（复盘）..."
+│   路径: 30_wiki/concepts/一堂调研行动营-ai辅助系统式调研方法论.md
+│   领域: master | 状态: enriched
+│
+├─ 一堂-调研行动营启动_原文润色
+│   片段: "..."
+│   路径: 30_wiki/concepts/一堂-调研行动营启动_原文润色.md
+│
+└─ 一堂调研武器库13招
+   片段: "..."
+   路径: 30_wiki/concepts/一堂调研武器库13招.md
+
+┌─ 相关实体（10）
+├─ KDO Protocol | 30_wiki/systems/kdo-protocol.md
+├─ Wiki Index | 30_wiki/index.md
+├─ Kimi 深度调研集群方法论 | 30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md
+└─ ...（共 10 个）
+```
+
+#### JSON（脚本消费）
 
 ```json
 {
   "query": "OSCAR 调研法",
-  "node_count_before": 28,
-  "node_count_after": 0,
-  "results": [
+  "chunks": [
     {
-      "node_id": "一堂调研行动营-ai辅助系统式调研方法论",
-      "label": "一堂调研行动营-ai辅助系统式调研方法论",
-      "path": "30_wiki/concepts/一堂调研行动营-ai辅助系统式调研方法论.md",
-      "type": "concept",
+      "content": "...",
+      "file_path": "30_wiki/concepts/一堂调研行动营-ai辅助系统式调研方法论.md",
+      "concept_title": "一堂调研行动营-ai辅助系统式调研方法论",
       "domain": "master",
-      "relevance": "hit",
-      "hop": 0,
-      "score": 3.0,
-      "matched_on": ["label", "title", "tags"]
-    },
+      "relevance_score": 0.95
+    }
+  ],
+  "entities": [
     {
-      "node_id": "kimi-深度调研集群方法论-deep-research-swarm",
-      "label": "Kimi 深度调研集群方法论 (Deep-Research-Swarm)",
-      "path": "30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md",
-      "type": "concept",
-      "domain": "ai-saas",
-      "relevance": "neighbor",
-      "hop": 1,
-      "score": 1.0,
-      "matched_on": ["edge_from_hit"]
+      "name": "KDO Protocol",
+      "file_path": "30_wiki/systems/kdo-protocol.md",
+      "entity_type": "concept"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "一堂调研行动营",
+      "to": "Kimi 深度调研集群",
+      "relation_type": "related"
     }
   ]
 }
 ```
 
-附加一个纯文本格式供 Agent 直接消费：
-
-```markdown
-【核心命中】 一堂调研行动营-ai辅助系统式调研方法论
-  路径: 30_wiki/concepts/一堂调研行动营-ai辅助系统式调研方法论.md
-  类型: concept | 领域: master
-  匹配原因: 标题命中关键词"调研"
-
-【关联概念】 Kimi 深度调研集群方法论 (Deep-Research-Swarm)
-  路径: 30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md
-  类型: concept | 领域: ai-saas
-  关系: 一堂调研方法论 → Kimi 集群搜索（edge: related）
-
-【二阶关联】 KDO Protocol
-  路径: 30_wiki/systems/kdo-protocol.md
-  类型: system
-  关系: Kimi 集群搜索 → KDO Protocol（edge: links-to）
-```
-
 ---
 
-## 三、与现有组件接线
-
-### 3.1 依赖 `build_graph_index.py` 产出
-
-`query_graph.py` 只读 `index.json`，不重建索引。索引由 `build_graph_index.py` 生成和更新。
-
-### 3.2 集成到 `kdo watch` 流水线
+## 三、与 KDO 流水线的集成
 
 ```
 kdo watch 检测到新文件
   → ingest
-  → enrich
-  → build_graph_index.py   ← 重建索引
-  → （未来：query_graph 可被 Agent 调用）
+  → enrich（Agent 三步编译）
+  → kdo graph --rebuild   ← 重建 LightRAG 索引（新增这一环）
+  → Agent 可通过 kdo graph --query 检索
 ```
 
-### 3.3 暴露为 CLI 命令（建议）
+**触发时机：** 每次 enrich 完成后自动 rebuild。或者由 `kdo watch` 定期巡检触发。
+
+---
+
+## 四、Agent 调用约定
+
+任何 Agent 需要查询知识库时，调用方式：
 
 ```
-kdo graph --query "OSCAR 调研法"              → 纯文本输出
-kdo graph --query "OSCAR 调研法" --json        → JSON 输出
-kdo graph --rebuild                            → 手动重建索引
+kdo graph --query "<问题>" 
 ```
 
----
+输出即为纯文本上下文，Agent 可直接嵌入对话引用。
 
-## 四、实现约束
-
-| 约束 | 说明 |
-|------|------|
-| 零外部依赖 | 纯 Python 标准库（json, pathlib, re） |
-| 不要向量化 | 当前阶段 keyword 匹配足够，不加 embedding |
-| 文件路径用 vault 根路径 | `30_wiki/concepts/xxx.md`，不是绝对路径 |
-| 不修改 `index.json` | 只读不改；重建由 `build_graph_index.py` 负责 |
-| 错误静默降级 | `index.json` 不存在时返回空结果而非崩溃 |
+**Agent 不需要知道下面用了 LightRAG 还是 keyword。** 接口是 `kdo graph --query`，底层替换不影响调用。
 
 ---
 
-## 五、验收标准
+## 五、已知限制
 
-完成后验证以下场景：
-
-1. **基础查询**: `"OSCAR 调研法"` → 返回一堂调研方法论
-2. **扩展查询**: `"医疗 HIS"` → 返回鑫港湾、轻量级诊所HIS、开源HIS
-3. **跨域关联**: `"AI 组织方法论"` → 返回 YC 方法论 + Kimi 集群
-4. **无结果**: `"区块链"` → 返回空结果，不崩溃
-5. **JSON 不存在**: 返回空结果，带错误说明
+| 限制 | 原因 | 影响 |
+|------|------|------|
+| relations=0（部分查询） | wiki 中部分 wikilink 指向的页面不存在 | 图遍历跳数不足，召回偏低 |
+| 索引需手动重建 | 未接入 kdo watch 自动触发 | 新 enrich 的页面不会被自动检索 |
+| LightRAG 外部依赖 | 非标准库 | 需 pip install，环境迁移多一步 |
 
 ---
 
-## 六、未来升级方向
+## 六、与原 keyword 方案的取舍
 
-以下**不做在 MVP**，仅供参考：
+| 维度 | 原 keyword 方案 | 实际 LightRAG 方案 | 取舍理由 |
+|------|:---:|:---:|------|
+| 依赖 | 纯标准库 | LightRAG 库 | 检索质量 > 零依赖原则 |
+| 匹配方式 | 子串匹配 | 向量语义匹配 | "调研方法" 能命中 "OSCAR 五步法" |
+| 图关系 | 人工维护 wikilink | 自动提取实体关系 | 覆盖率更高，但准确性需校验 |
+| LLM 调用 | 无 | 无 | 一致 |
+| 维护成本 | 低（无外部依赖） | 中（LightRAG 版本升级） | 可接受 |
 
-- 将 concept 正文内容（Condense 摘要）加入匹配
-- 按 `domain` 字段过滤
-- 返回结果附带简短的 edge 关系说明（如"因为 [[一堂]] 对标了 [[Kimi]]"）
-- 向量化检索（含 embedding API）——当节点超过 200 时再考虑
+**结论：** 黄药师的 LightRAG 实现优于原 keyword 方案。原方案及 `build_graph_index.py` → `index.json` 链路标记为废弃。新检索层以 LightRAG 为唯一引擎。
 
 ---
 
-*技术说明完成时间：2026-05-04*
+*技术说明完成时间：2026-05-04（v1.0），更新于 2026-05-04（v1.1 对齐实际实现）*
 *审查者欧阳锋*
