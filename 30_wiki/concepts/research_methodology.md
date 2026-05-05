@@ -1,10 +1,12 @@
 ---
-title: "Kimi 深度调研集群方法论 (Deep-Research-Swarm)"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260503_5dc58ec8"]
-created_at: "2026-05-03T13:36:55+00:00"
-updated_at: "2026-05-03T13:36:55+00:00"
+title: Kimi 深度调研集群方法论 (Deep-Research-Swarm)
+type: concept
+status: superseded
+source_refs:
+  - src_20260503_5dc58ec8
+created_at: '2026-05-03T13:36:55+00:00'
+updated_at: '2026-05-03T13:36:55+00:00'
+superseded_by: 30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md
 ---
 
 # Kimi 深度调研集群方法论 (Deep-Research-Swarm)
