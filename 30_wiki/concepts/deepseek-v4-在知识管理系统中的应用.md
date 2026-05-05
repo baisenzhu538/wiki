@@ -1,11 +1,12 @@
 ---
 title: "DeepSeek V4 在知识管理系统中的应用"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260505_7766e197"]
 created_at: "2026-05-05T04:38:01+00:00"
-updated_at: "2026-05-05T04:38:01+00:00"
+updated_at: "2026-05-05T04:40:00+00:00"
 ---
+
 
 # DeepSeek V4 在知识管理系统中的应用
 
@@ -23,14 +24,25 @@ updated_at: "2026-05-05T04:38:01+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- KDO 是一个本地优先的知识处理管线，通过捕获原始信息、提取结构化知识、编译 Wiki 页面并产出知识制品，实现从原料到可交付知识的转化。
+- DeepSeek V4 在管线中替代传统正则表达式提取器，凭借原生中文理解能力，解决了 regex 对中文内容几乎无效的问题。
+- DeepSeek V4 提供双版本架构：V4 Pro 适合需要深度分析的知识编译任务，V4 Flash 适合大批量、高性价比的日常 enrich 任务。
+- 模型支持三种推理模式：Non-thinking 用于快速信息提取，Thinking 用于知识综合与矛盾检测，Thinking Max 用于需要多步逻辑链的质量审核。
+- 在 enrich 命令中，LLM 可一次性理解完整源文本与 Wiki 模板，自动填充 TODO 占位符，将中文内容富化的准确率从原来的 0% 提升至 90% 以上。
+- 健康检查模块能自动扫描 Wiki 中的七类常见问题：TODO 残留、低信任源、孤立页面、超期未更新、矛盾未解决、重复页面和破损链接。
+- 记忆系统通过状态文件追踪知识资产，memory --check 命令可检测过时条目并尝试自动修复，保持跨会话的知识一致性。
+- 只需在统一配置文件中指定 DeepSeek V4 的接入参数，所有支持 LLM 的 KDO 命令即可自动调用该模型，推动知识管线从半自动演进为全自动。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 文中“enrich 准确率从 0% 提升到 90%+”仅作为预期效果给出，没有说明该数字是如何测量或验证的。缺少具体的评估方法、测试数据集和实际实验结果。
+- 在“场景二：kdo watch --health”中列出了七类检测问题，但没有解释 DeepSeek V4 如何具体参与到这些检查中，是用于文本理解、矛盾判断还是生成修复建议，模型在健康检查管线中的角色不明确。
+- 配置示例中 `temperature: 0.7` 可能过高，对于需要稳定事实提取和知识编译的任务，高温会增加幻觉风险，文中未讨论不同任务应如何设置温度和采样参数。
+- DeepSeek V4 的百万级上下文窗口被描述为可“一次性加载整本书”，但没有讨论实际延迟、API 调用成本以及超长上下文下模型注意力衰减对输出质量的影响。
+- 文档假设 LLM 替代 regex 后知识编译可走向“全自动”，但没有说明如何处理模型幻觉、错误事实或不符合 Wiki 模板预期的输出，也未提及任何人工审核或自动验证机制。
 
 ## Output Opportunities
 
-- Content:
-- Code: template
-- Capability:
+Content: report
+Code: template
+Capability: playbook
