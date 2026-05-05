@@ -1,22 +1,25 @@
 ---
-title: 一堂-调研武器库课程
+title: "一堂调研武器库课程"
 type: concept
-status: enriched
+status: reviewed
 source_refs:
   - src_20260506_bb9048a6
-created_at: '2026-05-05T18:26:09+00:00'
-updated_at: '2026-05-05T18:33:06+00:00'
-subtype: course
+created_at: "2026-05-05"
+updated_at: "2026-05-06"
 domain:
   - yitang
-category: research
-course_id: yt-research-003
-reviewed_by: 黄药师
-review_date: '2026-05-06'
+yitang:
+  map: entrepreneur
+  module: "调研方法论"
+  course_id: "yt-research-003"
+  course_type: method
+  level: core
+reviewed_by: "黄药师"
+review_date: "2026-05-06"
 ---
 
 
-# 第一个举手。
+# 一堂调研武器库课程
 
 ## Summary
 
@@ -63,4 +66,4 @@ Capability: workflow
 - [[yitang-course-map|一堂课程大地图]]
 - [[一堂|一堂实体页]]
 - [[一堂调研武器库13招]]
-- [[一堂-课程地图精华串讲]]
+- [[yt-course-map-lecture]]

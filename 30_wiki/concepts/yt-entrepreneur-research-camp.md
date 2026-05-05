@@ -1,30 +1,29 @@
 ---
-title: 一堂-调研行动营启动_智能优化
+title: "一堂调研行动营启动 — AI辅助系统式调研方法论"
 type: concept
-status: enriched
+status: reviewed
 source_refs:
   - src_20260506_e4634e13
-created_at: '2026-05-05T18:26:09+00:00'
-updated_at: '2026-05-05T18:37:32+00:00'
-subtype: course
+created_at: "2026-05-05"
+updated_at: "2026-05-06"
 domain:
   - yitang
-category: research
-course_id: yt-research-camp-001
-reviewed_by: 黄药师
-review_date: '2026-05-06'
+yitang:
+  map: entrepreneur
+  module: "调研方法论"
+  course_id: "yt-research-camp-001"
+  course_type: method
+  level: foundational
+reviewed_by: "黄药师"
+review_date: "2026-05-06"
 ---
 
 
-# 说话人1     00:00
+# 一堂调研行动营启动 — AI辅助系统式调研方法论
 
 ## Summary
 
-说话人1     00:00      什么叫行动方案？
-
-说话人1     00:00      就是他不以课为中心。
-
-说话人1     00:01      虽然我今天会完整的教会一节课，但是我是次要的，你们的行动是主要的。
+一场关于"以行动为中心"的调研方法论的开学第一课：主张从以课为中心转向以学员动手行动为中心，系统介绍OSL五步法（目标→范围→清单→获取→归一整合）、竞品分析框架、以及人控AI方向盘协作模式。
 
 ## Source Refs
 

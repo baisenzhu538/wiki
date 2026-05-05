@@ -19,11 +19,11 @@ _Last updated: 2026-05-05T18:37:32+00:00_
 - [Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl](concepts/web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md) - source no source
 - [YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN](concepts/yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md) - source `src_20260430_8cc84e5b`
 - [一堂课程大地图](concepts/yitang-course-map.md) - source no source
-- [声音和画面正常吗？](concepts/一堂-案例必修课_智能优化.md) - source `src_20260506_9b4788a6`
-- [值班主](concepts/一堂-课程地图精华串讲.md) - source `src_20260506_13e7bbca`
-- [第一个举手。](concepts/一堂-调研武器库课程.md) - source `src_20260506_bb9048a6`
+- [声音和画面正常吗？](30_wiki/concepts/yt-entrepreneur-case-method.md) - source `src_20260506_9b4788a6`
+- [值班主](30_wiki/concepts/yt-course-map-lecture.md) - source `src_20260506_13e7bbca`
+- [第一个举手。](30_wiki/concepts/yt-entrepreneur-research-weapons.md) - source `src_20260506_bb9048a6`
 - [一堂-调研行动营启动_原文润色](concepts/一堂-调研行动营启动_原文润色.md) - source `src_20260503_9bfe6913`
-- [一堂-调研行动营启动_智能优化](concepts/一堂-调研行动营启动_智能优化.md) - source `src_20260506_e4634e13`
+- [一堂-调研行动营启动_智能优化](30_wiki/concepts/yt-entrepreneur-research-camp.md) - source `src_20260506_e4634e13`
 - [一堂调研武器库13招](concepts/一堂调研武器库13招.md) - source `src_20260503_af21929e`
 - [一堂调研武器库课程原文润色](concepts/一堂调研武器库课程原文润色.md) - source `src_20260504_13783111`
 - [一堂调研行动营 — AI辅助系统式调研方法论](concepts/一堂调研行动营-ai辅助系统式调研方法论.md) - source `src_20260503_5f268da2`

@@ -1,22 +1,25 @@
 ---
-title: 一堂-案例必修课_智能优化
+title: "一堂案例必修课"
 type: concept
-status: enriched
+status: reviewed
 source_refs:
   - src_20260506_9b4788a6
-created_at: '2026-05-05T18:26:09+00:00'
-updated_at: '2026-05-05T18:34:34+00:00'
-subtype: course
+created_at: "2026-05-05"
+updated_at: "2026-05-06"
 domain:
   - yitang
-category: case-studies
-course_id: yt-case-001
-reviewed_by: 黄药师
-review_date: '2026-05-06'
+yitang:
+  map: entrepreneur
+  module: "案例学习"
+  course_id: "yt-case-001"
+  course_type: method
+  level: foundational
+reviewed_by: "黄药师"
+review_date: "2026-05-06"
 ---
 
 
-# 声音和画面正常吗？
+# 一堂案例必修课
 
 ## Summary
 
@@ -61,4 +64,4 @@ Capability: playbook
 
 - [[yitang-course-map|一堂课程大地图]]
 - [[一堂|一堂实体页]]
-- [[一堂-课程地图精华串讲]]
+- [[yt-course-map-lecture]]

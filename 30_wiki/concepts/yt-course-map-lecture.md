@@ -1,22 +1,19 @@
 ---
-title: 一堂-课程地图精华串讲
+title: "一堂课程地图精华串讲"
 type: concept
-status: enriched
+status: reviewed
 source_refs:
   - src_20260506_13e7bbca
-created_at: '2026-05-05T18:26:09+00:00'
-updated_at: '2026-05-05T18:31:15+00:00'
-subtype: course
+created_at: "2026-05-05"
+updated_at: "2026-05-06"
 domain:
   - yitang
-category: course-map
-course_id: yt-map-001
-reviewed_by: 黄药师
-review_date: '2026-05-06'
+reviewed_by: "黄药师"
+review_date: "2026-05-06"
 ---
 
 
-# 值班主
+# 一堂课程地图精华串讲
 
 ## Summary
 
@@ -63,5 +60,5 @@ Capability: workflow
 
 - [[yitang-course-map|一堂课程大地图]]
 - [[一堂|一堂实体页]]
-- [[一堂-调研武器库课程]]
-- [[一堂-案例必修课_智能优化]]
+- [[yt-entrepreneur-research-weapons]]
+- [[yt-entrepreneur-case-method]]
