@@ -1,5 +1,5 @@
 ---
-title: "一堂调研行动营启动 — AI辅助系统式调研方法论"
+title: "一堂调研行动营 · 启动课（LLM 精炼）"
 type: concept
 status: reviewed
 source_refs:
@@ -19,7 +19,7 @@ review_date: "2026-05-06"
 ---
 
 
-# 一堂调研行动营启动 — AI辅助系统式调研方法论
+# 一堂调研行动营 · 启动课（LLM 精炼）
 
 ## Summary
 
