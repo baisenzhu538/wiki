@@ -3,7 +3,7 @@ title: "kdo watch 生产就绪"
 assigned_to: "黄药师"
 created_by: "欧阳锋"
 created_at: "2026-05-04"
-status: queued
+status: done
 priority: P1
 ---
 # kdo watch 生产就绪
