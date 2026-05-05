@@ -65,5 +65,14 @@ Capability: workflow
 
 - [[yitang-course-map|一堂课程大地图]]
 - [[一堂|一堂实体页]]
-- [[一堂调研武器库13招]]
 - [[yt-system-course-map-lecture]]
+
+### 与其他卡片的关系
+
+> **源-精关系**：本卡为完整课程转录的 LLM 精炼版。[[一堂调研武器库13招]] 是对同一批武器库方法论的结构化精炼（13 招分类体系），两卡互补——本卡侧重课堂叙事和案例展开，13招侧重快速查阅和工具索引。
+
+### Synthesis 对标
+
+- [[一堂调研武器库13招]] — 13 招分类体系（精炼版）
+- [[business-research-skill-oscar-13-weapon-system]] — OSCAR+13武器商业调研 Skill
+- [[一堂调研行动营 — AI辅助系统式调研方法论]] — AI 协同调研范式

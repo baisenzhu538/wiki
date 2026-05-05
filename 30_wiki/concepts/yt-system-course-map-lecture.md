@@ -62,3 +62,9 @@ Capability: workflow
 - [[一堂|一堂实体页]]
 - [[yt-research-weaponry-course]]
 - [[yt-case-mandatory-cases]]
+
+### Synthesis 对标
+
+- [[30_wiki/systems/一堂方法论体系总图]] — 一堂全部课程的权威 Hub，本卡为其核心源材料
+- [[一堂]] — 一堂 entity 页，公司背景与方法论总览
+- [[yitang-course-map]] — Dataview 课程列表页，本卡转录内容的结构化索引

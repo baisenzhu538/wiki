@@ -49,9 +49,11 @@ priority: P0
 
 ### 当前文件映射
 
-| 旧文件名 | 新文件名 | yitang.map | yitang.module |
+| 旧文件名 | 新文件名（欧阳锋命名） | yitang.map | yitang.module |
 |----------|----------|:--:|------|
-| 一堂-课程地图精华串讲 | `yt-course-map-lecture.md` | — (meta) | — |
-| 一堂-调研武器库课程 | `yt-entrepreneur-research-weapons.md` | entrepreneur | 调研方法论 |
-| 一堂-调研行动营启动_智能优化 | `yt-entrepreneur-research-camp.md` | entrepreneur | 调研方法论 |
-| 一堂-案例必修课_智能优化 | `yt-entrepreneur-case-method.md` | entrepreneur | 案例学习 |
+| 一堂-课程地图精华串讲 | `yt-system-course-map-lecture.md` | — (meta) | — |
+| 一堂-调研武器库课程 | `yt-research-weaponry-course.md` | — (跨地图) | 调研方法论 |
+| 一堂-调研行动营启动_智能优化 | `yt-research-action-camp-launch.md` | — (跨地图) | 调研方法论 |
+| 一堂-案例必修课_智能优化 | `yt-case-mandatory-cases.md` | — (跨地图) | 案例学习 |
+
+> 注：调研和案例为跨地图工具，暂不限定单一 map。Phase 2 课程清单提取后按欧阳锋的 map 分类统一分配。

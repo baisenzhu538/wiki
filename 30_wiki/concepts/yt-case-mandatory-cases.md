@@ -65,3 +65,9 @@ Capability: playbook
 - [[yitang-course-map|一堂课程大地图]]
 - [[一堂|一堂实体页]]
 - [[yt-system-course-map-lecture]]
+
+### Synthesis 对标
+
+- [[一堂调研武器库13招]] — 调研与案例学习互补：调研获取一手情报，案例学习从二手经验提炼模式
+- [[30_wiki/systems/一堂方法论体系总图]] — 创业修炼地图中「案例库」章节
+- [[一堂调研行动营 — AI辅助系统式调研方法论]] — 同为创业修炼起盘工具
