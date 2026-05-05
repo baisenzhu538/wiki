@@ -2,7 +2,7 @@
 title: "Business Research Skill — OSCAR 13武器体系 Claude Code 实现"
 type: concept
 status: enriched
-domain: ['master']
+domain: ['yitang']
 source_refs: []
 created_at: "2026-05-04"
 updated_at: "2026-05-04"
@@ -13,6 +13,7 @@ related:
   - "[[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]]"
   - "[[KDO Protocol]]"
 tags:
+  - "#yitang"
   - "#research"
   - "#business-analysis"
   - "#skill"
