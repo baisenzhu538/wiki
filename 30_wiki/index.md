@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-05-05T18:34:34+00:00_
+_Last updated: 2026-05-05T18:37:32+00:00_
 
 - [EC工业化规范手册](concepts/EC工业化规范手册.md) - source `src_20260503_dadc7838`
 - [HIS系统开发实现方案-架构师指南](concepts/HIS系统开发实现方案-架构师指南.md) - source `src_20260503_1a1f0312`
@@ -23,7 +23,7 @@ _Last updated: 2026-05-05T18:34:34+00:00_
 - [值班主](concepts/一堂-课程地图精华串讲.md) - source `src_20260506_13e7bbca`
 - [第一个举手。](concepts/一堂-调研武器库课程.md) - source `src_20260506_bb9048a6`
 - [一堂-调研行动营启动_原文润色](concepts/一堂-调研行动营启动_原文润色.md) - source `src_20260503_9bfe6913`
-- [说话人1     00:00](concepts/一堂-调研行动营启动_智能优化.md) - source `src_20260506_e4634e13`
+- [一堂-调研行动营启动_智能优化](concepts/一堂-调研行动营启动_智能优化.md) - source `src_20260506_e4634e13`
 - [一堂调研武器库13招](concepts/一堂调研武器库13招.md) - source `src_20260503_af21929e`
 - [一堂调研武器库课程原文润色](concepts/一堂调研武器库课程原文润色.md) - source `src_20260504_13783111`
 - [一堂调研行动营 — AI辅助系统式调研方法论](concepts/一堂调研行动营-ai辅助系统式调研方法论.md) - source `src_20260503_5f268da2`
