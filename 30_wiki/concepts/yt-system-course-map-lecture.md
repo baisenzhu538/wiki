@@ -60,5 +60,5 @@ Capability: workflow
 
 - [[yitang-course-map|一堂课程大地图]]
 - [[一堂|一堂实体页]]
-- [[yt-entrepreneur-research-weapons]]
-- [[yt-entrepreneur-case-method]]
+- [[yt-research-weaponry-course]]
+- [[yt-case-mandatory-cases]]

@@ -138,7 +138,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[一堂]]
 - [[30_wiki/systems/一堂方法论体系总图.md]]
 
-## [[yt-course-map-lecture]]
+## [[yt-system-course-map-lecture]]
 - [[30_wiki/systems/一堂方法论体系总图.md]]
 
 ## [[一堂-调研行动营启动_原文润色]]

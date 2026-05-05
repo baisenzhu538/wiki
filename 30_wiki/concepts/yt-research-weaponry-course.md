@@ -66,4 +66,4 @@ Capability: workflow
 - [[yitang-course-map|一堂课程大地图]]
 - [[一堂|一堂实体页]]
 - [[一堂调研武器库13招]]
-- [[yt-course-map-lecture]]
+- [[yt-system-course-map-lecture]]
