@@ -25,15 +25,15 @@ _Last updated: 2026-05-05T18:26:09+00:00_
 - [一堂调研行动营 — AI辅助系统式调研方法论](concepts/一堂调研行动营-ai辅助系统式调研方法论.md) - source `src_20260503_5f268da2`
 - [互联网医院模式深度调研报告](concepts/互联网医院模式深度调研报告.md) - source `src_20260501_9962715b`
 - [保达云诊所深度调研报告](concepts/保达云诊所深度调研报告.md) - source `src_20260503_ae1921d5`
-- [值班主](concepts/值班主.md) - source `src_20260506_13e7bbca`
-- [声音和画面正常吗？](concepts/声音和画面正常吗.md) - source `src_20260506_9b4788a6`
+- [值班主](30_wiki/concepts/%E4%B8%80%E5%A0%82-%E8%AF%BE%E7%A8%8B%E5%9C%B0%E5%9B%BE%E7%B2%BE%E5%8D%8E%E4%B8%B2%E8%AE%B2.md) - source `src_20260506_13e7bbca`
+- [声音和画面正常吗？](30_wiki/concepts/%E4%B8%80%E5%A0%82-%E6%A1%88%E4%BE%8B%E5%BF%85%E4%BF%AE%E8%AF%BE_%E6%99%BA%E8%83%BD%E4%BC%98%E5%8C%96.md) - source `src_20260506_9b4788a6`
 - [开源HIS系统代码深度分析报告](concepts/开源HIS系统代码深度分析报告.md) - source `src_20260503_f4891888`
-- [第一个举手。](concepts/第一个举手.md) - source `src_20260506_bb9048a6`
+- [第一个举手。](30_wiki/concepts/%E4%B8%80%E5%A0%82-%E8%B0%83%E7%A0%94%E6%AD%A6%E5%99%A8%E5%BA%93%E8%AF%BE%E7%A8%8B.md) - source `src_20260506_bb9048a6`
 - [紫鲸AI_智能体工作流平台_深度分析与产品设计](concepts/紫鲸ai_智能体工作流平台_深度分析与产品设计.md) - source `src_20260501_4eee4e95`
 - [紫鲸AI智能体工作流平台](concepts/紫鲸ai智能体工作流平台.md) - source `src_20260428_29929c1f`
 - [街顺APP全面调研报告](concepts/街顺app全面调研报告.md) - source `src_20260427_970eb338`
 - [诊所O2O外卖平台业务深度调研报告](concepts/诊所o2o外卖平台业务深度调研报告.md) - source no source
-- [说话人1     00:00](concepts/说话人1-00-00.md) - source `src_20260506_e4634e13`
+- [说话人1     00:00](30_wiki/concepts/%E4%B8%80%E5%A0%82-%E8%B0%83%E7%A0%94%E8%A1%8C%E5%8A%A8%E8%90%A5%E5%90%AF%E5%8A%A8_%E6%99%BA%E8%83%BD%E4%BC%98%E5%8C%96.md) - source `src_20260506_e4634e13`
 - [轻量级诊所HIS调研全清单](concepts/轻量级诊所HIS调研全清单.md) - source `src_20260503_5c91e867`
 - [鑫港湾HIS系统分阶段整改报告](concepts/鑫港湾his系统分阶段整改报告.md) - source `src_20260428_db49a647`
 - [Kimi（月之暗面）](entities/Kimi-月之暗面.md) - source no source
