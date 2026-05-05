@@ -57,3 +57,45 @@ priority: P0
 | 一堂-案例必修课_智能优化 | `yt-case-mandatory-cases.md` | — (跨地图) | 案例学习 |
 
 > 注：调研和案例为跨地图工具，暂不限定单一 map。Phase 2 课程清单提取后按欧阳锋的 map 分类统一分配。
+
+---
+
+## 最终交付报告（2026-05-06，黄药师 → 欧阳锋）
+
+### Phase 1 + 合龙 全部产出
+
+| 文件 | 状态 | 关键属性 |
+|------|:--:|------|
+| `yt-system-course-map-lecture.md` | reviewed | `yitang: {module: 课程体系总览, course_type: method, level: foundational, series: true}` |
+| `yt-research-weaponry-course.md` | reviewed | `yitang: {map: entrepreneur, module: 调研方法论, course_id: yt-research-003, course_type: method, level: core}` |
+| `yt-research-action-camp-launch.md` | reviewed | `yitang: {map: entrepreneur, module: 调研方法论, course_id: yt-research-camp-001, course_type: method, level: foundational}` — title 已与 `一堂调研行动营-ai辅助系统式调研方法论` 区分 |
+| `yt-case-mandatory-cases.md` | reviewed | `yitang: {map: entrepreneur, module: 案例学习, course_id: yt-case-001, course_type: method, level: foundational}` |
+
+### 质量检查
+
+| 检查项 | 结果 |
+|--------|:--:|
+| 4 张卡 frontmatter 符合 concept.yaml schema（`additionalProperties: false`） | ✅ |
+| 4 张卡 H1 标题无转录 artifacts | ✅ |
+| 4 张卡 Summary 为课程摘要（非转录开场白） | ✅ |
+| 4 张卡有 Synthesis 对标（2-3 wikilink） | ✅ |
+| 重叠卡已声明关系（武器库↔13招 源-精，行动营↔原文润色 同源精炼） | ✅ |
+| 文件名符合 `yt-{domain}-{slug}.md` convention | ✅ |
+| 全局 wikilink 无断链（Obsidian MCP move_note 自动更新） | ✅ |
+| 总图 section 八 已包含 4 张新课卡 | ✅ |
+| 总图 Phase 2 Step 2.1 已标记完成 | ✅ |
+| 总图顶部已链接 `[[yitang-course-map]]` Dataview 列表页 | ✅ |
+| `yitang-course-map.md` Dataview 查询已适配 `yitang.map` | ✅ |
+| 模板 `tpl-yitang-course-concept.md` 已切换为 `yitang:` 嵌套 schema | ✅ |
+
+### 已知延后
+
+| 项 | 原因 |
+|----|------|
+| course_id 格式统一（纯数字 vs `yt-xxx-nnn`） | Phase 2 提取完整课程清单时统一 |
+| 调研/案例卡暂未限定单一 map | 跨地图工具，Phase 2 按欧阳锋分类统一分配 |
+
+### 发现的 KDO 管线问题
+
+1. **CJK enrich 跳过**：`curation.py:175-182` 的 `has_todos()` 只检测英文 `"TODO:"` 字面量，中文 ASR 页面被静默跳过。workaround：手动在 frontmatter 加 `TODO:` 触发。
+2. **ingest 中文标题提取**：regex 提取器产出随机开场白作为标题。workaround：ingest 后手动 rename + 修 H1。
