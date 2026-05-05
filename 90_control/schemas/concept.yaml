@@ -97,6 +97,72 @@ properties:
       pattern: "^#[a-z0-9-]+$"
     description: "Optional tags for filtering. Lowercase with hyphens."
 
+  domain:
+    type: array
+    items:
+      type: string
+      enum:
+        - master
+        - ai-saas
+        - healthcare
+        - yitang
+    description: >
+      Knowledge domain classification. Multiple domains allowed.
+      master: general methodology (KDO, OSCAR, universal frameworks)
+      ai-saas: AI products and companies
+      healthcare: healthcare industry
+      yitang: 一堂 (Yitang) entrepreneurship/management education methodology
+
+  yitang:
+    type: object
+    description: >
+      Optional. 一堂 (Yitang) course-specific metadata.
+      Only present when domain includes 'yitang'.
+    properties:
+      map:
+        type: string
+        enum:
+          - personal
+          - management
+          - entrepreneur
+          - infinite
+        description: >
+          Which of the four maps this course belongs to:
+          personal (个人修炼), management (管理修炼),
+          entrepreneur (创业修炼), infinite (无限修炼)
+      module:
+        type: string
+        description: "Course module name in Chinese, e.g. 时间管理"
+      course_id:
+        type: string
+        description: "Course selection number in 一堂's system, e.g. 401"
+      course_type:
+        type: string
+        enum:
+          - method
+          - case
+          - tool
+        description: "method: methodology course | case: case study | tool: tool/practice"
+      level:
+        type: string
+        enum:
+          - foundational
+          - core
+          - advanced
+        description: "foundational: required basics | core: core curriculum | advanced: advanced topics"
+      prerequisites:
+        type: array
+        items:
+          type: string
+        description: "List of prerequisite course_ids"
+      credits:
+        type: integer
+        minimum: 1
+        description: "Course credits in 一堂's system"
+      series:
+        type: boolean
+        description: "Whether this is a series course (multiple sessions)"
+
   trust_level:
     type: string
     enum:
