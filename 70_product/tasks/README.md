@@ -14,12 +14,12 @@ updated_at: 2026-05-05
 
 | 状态 | 数量 |
 |------|:----:|
-| ✅ 已完成 | 3 |
+| ✅ 已完成 | 5 |
 | 🔄 进行中 | 0 |
 | ⏳ P0 排队 | 1 |
-| 📋 P1 排队 | 7 |
+| 📋 P1 排队 | 0 |
 | 📌 P2 排队 | 3 |
-| **合计** | **11** |
+| **合计** | **9** |
 
 ## P0 — 本周
 
@@ -32,11 +32,9 @@ updated_at: 2026-05-05
 | 编号 | 任务 | 负责人 | 状态 | 创建日期 |
 |:-----|------|:------:|:----:|:--------:|
 | 20260504-kdo-watch-health-check | ["kdo watch 增加定时巡检层"](task-20260504-kdo-watch-health-check.md) | "黄药师" | ✅ done | "2026-05-04" |
-| 20260504-req014-batch-produce | ["REQ-014 批量 Produce 12 篇 Enriched 页面"](task-20260504-req014-batch-produce.md) | "黄药师" | ? in_progress | "2026-05-04" |
-| 20260504-req014-bulk-produce | ["wiki enrich 页面批量 produce"](task-20260504-req014-bulk-produce.md) | "黄药师" | ⏳ queued | "2026-05-04" |
 | 20260504-req015-kdo-watch-production | ["kdo watch 生产就绪"](task-20260504-req015-kdo-watch-production.md) | "黄药师" | ✅ done | "2026-05-04" |
-| 20260504-req016-cjk-enrich-auto | ["CJK enrich 自动化"](task-20260504-req016-cjk-enrich-auto.md) | "黄药师" | ? complete | "2026-05-04" |
-| 20260504-req017-memory-lifecycle | ["记忆生命周期管理"](task-20260504-req017-memory-lifecycle.md) | "黄药师" | ? complete | "2026-05-04" |
+| 20260504-req016-cjk-enrich-auto | ["CJK enrich 自动化"](task-20260504-req016-cjk-enrich-auto.md) | "黄药师" | ✅ complete | "2026-05-04" |
+| 20260504-req017-memory-lifecycle | ["记忆生命周期管理"](task-20260504-req017-memory-lifecycle.md) | "黄药师" | ✅ complete | "2026-05-04" |
 | 20260504-req024-skill-routing | ["kdo watch 自动识别 skill 路由"](task-20260504-req024-skill-routing.md) | "黄药师" | ✅ done | "2026-05-04" |
 
 ## P2 — 远期
@@ -49,4 +47,4 @@ updated_at: 2026-05-05
 
 ---
 
-> 本文件由脚本自动生成。修改 task 状态请直接编辑对应的 `task-*.md` frontmatter，然后运行 `python3 scripts/gen_task_board.py` 重刷本文件。
+> 本文件由脚本自动生成。修改 task 状态请直接编辑对应的 `task-*.md` frontmatter，然后重刷本文件。
