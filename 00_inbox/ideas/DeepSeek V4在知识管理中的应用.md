@@ -1,0 +1,68 @@
+# DeepSeek V4 在知识管理系统中的应用
+
+## 背景
+
+知识管理系统（Knowledge Delivery OS，简称 KDO）是一个本地优先的知识处理管线。它的核心流程是：捕获原始信息 → 提取结构化知识 → 编译为 Wiki 页面 → 产出可交付的知识制品。
+
+在这个流程中，大语言模型扮演着知识编译器的角色。DeepSeek V4 作为新一代大模型，具备百万级上下文窗口和强大的推理能力，非常适合替代传统的 regex 提取器，尤其对中文内容的处理。
+
+## DeepSeek V4 的核心能力
+
+1. **百万 Token 上下文**：V4 Pro 支持 1M token 上下文窗口，可以一次性加载整本书或者大量的源材料，不需要分块处理。
+
+2. **双版本架构**：
+   - V4 Pro（1.6T 总参数 / 49B 激活参数）：旗舰推理版，适合需要深度分析的知识编译任务
+   - V4 Flash（284B 总参数 / 13B 激活参数）：快速经济版，适合大批量的日常 enrich 任务
+
+3. **三种推理模式**：
+   - Non-thinking：快速响应，适合简单的信息提取和格式转换
+   - Thinking：深度推理，适合复杂的知识综合和矛盾检测
+   - Thinking Max：最大推理深度，适合需要多步逻辑链的质量审核
+
+4. **中文优化**：DeepSeek 系列对中文的理解和生成能力在开源模型中处于领先水平，尤其适合 KDO 以中文为主的知识库场景。
+
+## 在 KDO 管线中的应用场景
+
+### 场景一：kdo enrich（Wiki 页面富化）
+
+KDO 的 enrich 命令从源文件中提取知识，填充 Wiki 页面的 TODO 占位符。传统方式依赖正则表达式，对中文几乎无效。切换到 DeepSeek V4 后：
+
+- 使用 LLM 模式（`kdo enrich --llm`）调用 DeepSeek V4 Pro
+- 一次性理解完整的源文本和 Wiki 模板
+- 自动补全 TODO 区域，生成高质量的中文知识条目
+- 预期效果：enrich 准确率从 0%（regex 对中文无效）提升到 90%+
+
+### 场景二：kdo watch --health（知识健康检查）
+
+KDO 的健康检查模块会扫描整个 Wiki，检测七类常见问题：
+
+1. TODO 残留（页面中仍有未填充的占位符）
+2. 低信任源（来源可信度低于阈值）
+3. 孤立页面（没有任何链接指向它的页面）
+4. 超期未更新（超过 30 天未维护的页面）
+5. 矛盾未解决（已标记但未解决的矛盾）
+6. 重复页面（内容高度相似的页面对）
+7. 破损链接（指向不存在页面的 wikilink）
+
+### 场景三：kdo memory --check（跨会话记忆维护）
+
+KDO 的记忆系统在 `.kdo/state.json` 中追踪所有知识资产的状态。`kdo memory --check` 命令会检查记忆条目是否过时，并尝试自动修复可检测的问题。
+
+## 配置方法
+
+在 `~/.kdo/config.yaml` 中配置 DeepSeek V4：
+
+```yaml
+llm:
+  endpoint: "https://api.deepseek.com/v1/chat/completions"
+  model: "deepseek-v4-pro"
+  api_key: "${DEEPSEEK_API_KEY}"
+  max_tokens: 4096
+  temperature: 0.7
+```
+
+配置完成后，所有需要 LLM 的 KDO 命令（enrich、fill_template 等）都会自动使用 DeepSeek V4。
+
+## 总结
+
+DeepSeek V4 的引入让 KDO 从"英文 only 的正则提取器"升级为"中英文通用的 AI 知识编译器"。这是 KDO 管道从半自动走向全自动的关键一步。

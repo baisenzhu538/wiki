@@ -1,11 +1,13 @@
 # Wiki Index
 
 
-_Last updated: 2026-05-03T17:40:42+00:00_
+_Last updated: 2026-05-05T04:38:01+00:00_
 
 - [EC工业化规范手册](concepts/EC工业化规范手册.md) - source `src_20260503_dadc7838`
 - [HIS系统开发实现方案-架构师指南](concepts/HIS系统开发实现方案-架构师指南.md) - source `src_20260503_1a1f0312`
 - [HIS系统深度调研](concepts/HIS系统深度调研.md) - source `src_20260503_968e0210`
+- [Business Research Skill — OSCAR 13武器体系 Claude Code 实现](concepts/business-research-skill-oscar-13-weapon-system.md) - source no source
+- [DeepSeek V4 在知识管理系统中的应用](concepts/deepseek-v4-在知识管理系统中的应用.md) - source `src_20260505_7766e197`
 - [EC工业化规范手册 v2.8.0](concepts/ec工业化规范手册-v2.8.0.md) - source `src_20260503_feab72b2`
 - [Graph RAG — Knowledge-Graph-Powered Retrieval](concepts/graph-rag.md) - source no source
 - [Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)](concepts/kdo_product_design_agent_final.md) - source `src_20260503_52ae08ba`
@@ -13,6 +15,7 @@ _Last updated: 2026-05-03T17:40:42+00:00_
 - [Knowledge Delivery OS 快速体验指南 - 飞书云文档](concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md) - source `src_20260501_6a491b80`
 - [Obsidian + KDO 内容产出工作流 — 产品设计大纲](concepts/obsidian-kdo-内容产出工作流-产品设计大纲.md) - source `src_20260501_58b6edef`
 - [Kimi 深度调研集群方法论 (Deep-Research-Swarm)](concepts/research_methodology.md) - source `src_20260503_5dc58ec8`
+- [Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl](concepts/web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md) - source no source
 - [YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN](concepts/yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md) - source `src_20260430_8cc84e5b`
 - [一堂-调研行动营启动_原文润色](concepts/一堂-调研行动营启动_原文润色.md) - source `src_20260503_9bfe6913`
 - [一堂调研武器库13招](concepts/一堂调研武器库13招.md) - source `src_20260503_af21929e`
@@ -32,11 +35,11 @@ _Last updated: 2026-05-03T17:40:42+00:00_
 - [一堂](entities/一堂.md) - source no source
 - [紫鲸AI](entities/紫鲸AI.md) - source no source
 - [鑫港湾](entities/鑫港湾.md) - source no source
+- [互联网医院项目](projects/互联网医院项目.md) - source no source
+- [诊所O2O项目](projects/诊所O2O项目.md) - source no source
+- [鑫港湾HIS项目](projects/鑫港湾HIS项目.md) - source no source
+- [Graph RAG 检索层技术说明](systems/graph-rag-retrieval-layer.md) - source no source
+- [REQ-014 批量 Produce 12 篇 Enriched 页面技术说明](systems/kdo-batch-produce-req014.md) - source no source
 - [KDO Protocol — AI-Agent Operating Contract](systems/kdo-protocol.md) - source no source
+- [kdo watch 定时巡检层技术说明](systems/kdo-watch-health-check-layer.md) - source no source
 - [Obsidian Git Multi-Device Sync Protocol](systems/obsidian-git-sync-protocol.md) - source no source
-
-## Projects
-
-- [诊所O2O项目](projects/诊所O2O项目.md) - 诊所外卖/O2O送药合规路径与商业闭环
-- [鑫港湾HIS项目](projects/鑫港湾HIS项目.md) - .NET 8 + Vue 3 医疗信息系统全流程工程化
-- [互联网医院项目](projects/互联网医院项目.md) - 互联网医院合规路径与入驻决策框架

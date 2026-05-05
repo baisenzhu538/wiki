@@ -211,3 +211,17 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/ideas/20260503-cap_20260504_fa538113-一堂调研武器库课程原文润色.md"
   content_sha256: "8651a9bf7e83bd300930d470670efad4eab05665b74b83c3057dc589a32a3ca1"
+
+- id: "src_20260505_7766e197"
+  title: "DeepSeek V4 在知识管理系统中的应用"
+  type: "other"
+  location: "10_raw/sources/src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用.md"
+  captured_at: "2026-05-05T04:38:01+00:00"
+  registered_at: "2026-05-05T04:38:01+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/deepseek-v4-在知识管理系统中的应用.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/DeepSeek V4在知识管理中的应用.md"
+  content_sha256: "5a91b4888d8ed5166ea0d4276f95f855da01fb3ad3e93611ad89eb00d95b4029"
