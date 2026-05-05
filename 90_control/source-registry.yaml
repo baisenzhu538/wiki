@@ -225,3 +225,59 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/ideas/DeepSeek V4在知识管理中的应用.md"
   content_sha256: "5a91b4888d8ed5166ea0d4276f95f855da01fb3ad3e93611ad89eb00d95b4029"
+
+- id: "src_20260506_9b4788a6"
+  title: "声音和画面正常吗？"
+  type: "other"
+  location: "10_raw/sources/src_20260506_9b4788a6-声音和画面正常吗.md"
+  captured_at: "2026-05-05T18:26:09+00:00"
+  registered_at: "2026-05-05T18:26:09+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/声音和画面正常吗.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-案例必修课_智能优化.md"
+  content_sha256: "b07339b0eeb05af3714678b14092df2bdcd9dfb7adf2cbcb4c90278389eb56a2"
+
+- id: "src_20260506_13e7bbca"
+  title: "值班主"
+  type: "other"
+  location: "10_raw/sources/src_20260506_13e7bbca-值班主.md"
+  captured_at: "2026-05-05T18:26:09+00:00"
+  registered_at: "2026-05-05T18:26:09+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/值班主.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-课程地图精华串讲_原文润色.md"
+  content_sha256: "37b971e9fb3806bfb89d95d2a56bfe4e5d7047c5d757b8f1184c59fe1aaf876b"
+
+- id: "src_20260506_bb9048a6"
+  title: "第一个举手。"
+  type: "other"
+  location: "10_raw/sources/src_20260506_bb9048a6-第一个举手.md"
+  captured_at: "2026-05-05T18:26:09+00:00"
+  registered_at: "2026-05-05T18:26:09+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/第一个举手.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-调研武器库课程_原文润色.md"
+  content_sha256: "3a18439dd823d0d1b68c95136ed5b32222bdaf66447ab9615648eea9d8872e73"
+
+- id: "src_20260506_e4634e13"
+  title: "说话人1     00:00"
+  type: "other"
+  location: "10_raw/sources/src_20260506_e4634e13-说话人1-00-00.md"
+  captured_at: "2026-05-05T18:26:09+00:00"
+  registered_at: "2026-05-05T18:26:09+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/说话人1-00-00.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-调研行动营启动_智能优化.md"
+  content_sha256: "b97f23472cbbfa5c2a26d1f63bc1138bf6fd4c4071f7046bdbbcf817950c6a72"
