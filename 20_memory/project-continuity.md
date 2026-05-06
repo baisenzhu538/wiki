@@ -59,3 +59,30 @@
 - [ ] 继续 enrich 下一批一堂课程
 - [ ] 修复 broken wikilink（上次排查 14 个，需重新审查当前数量）
 - [ ] 给 contradictions.md 写第一条真矛盾
+
+---
+
+## Session 2026-05-06 Afternoon
+
+**Human**: 朱振滔
+**Context**: TinyFish 深度评估 — 调研完成，测试暂缓
+
+### 完成的工作
+1. 深度评估报告已完成：`wiki/laowantong/tinyfish-assessment-report.md`
+2. Cookbook 模板已提炼：`wiki/laowantong/tinyfish-cookbook-template.md`
+3. Skill 已存入系统：`tinyfish-web-agent-platform`
+4. Wiki index 已更新
+
+### 待续进度
+- 需注册 TinyFish Free 账号获取 API Key
+- 需跑 Fetch API / Search API 实测
+- 需与 KDO `fetch-url` 做对比评估
+- WSL 网络问题导致无法直接访问注册页面
+
+### 重要结论
+- Fetch/Search API **全部免费**，对 KDO 素材收集价值高
+- Agent API 按 step 计费，Free 500 credits 足够评估测试
+- 五绝可共用一个 key，受并发限制（Free: 2 并发 Agent）
+
+### 复用时间节点
+老板想重启时，只需说"继续搞 TinyFish"或"把 TinyFish 测试跑了"，我会自动记得当前进度并推进。
