@@ -10,7 +10,7 @@ yitang:
   course_type: method
   level: core
   series: false
-source_refs: []
+source_refs: ["src_20260507_9dd09688"]
 created_at: "2026-05-06"
 updated_at: "2026-05-06"
 tags:
