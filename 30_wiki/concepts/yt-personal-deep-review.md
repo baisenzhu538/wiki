@@ -10,7 +10,7 @@ yitang:
   course_type: method
   level: core
   series: false
-source_refs: ["src_20260507_9dd09688"]
+source_refs: ["src_20260507_9dd09688", "src_20260507_df666081"]
 created_at: "2026-05-06"
 updated_at: "2026-05-07"
 reviewed_by: "黄药师"

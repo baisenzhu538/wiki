@@ -4,6 +4,7 @@ type: concept
 status: reviewed
 source_refs:
   - src_20260506_e4634e13
+  - src_20260507_67cb7ed2
 created_at: "2026-05-05"
 updated_at: "2026-05-06"
 domain:
