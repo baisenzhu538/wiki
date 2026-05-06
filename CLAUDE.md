@@ -211,6 +211,20 @@
 | Knowledge Curator | `40_outputs/capabilities/skills/knowledge-curator/SKILL.md` | Capture → ingest → wiki enrichment |
 | Delivery Producer | `40_outputs/capabilities/skills/delivery-producer/SKILL.md` | Wiki knowledge → shipped artifact |
 | System Linter | `40_outputs/capabilities/skills/system-linter/SKILL.md` | Workspace health check and improvement plan |
+| **Image OCR** | `40_outputs/capabilities/skills/image-ocr/SKILL.md` | 从图片提取中文文本（本地 PaddleOCR v5） |
+
+## 本地工具 (Local Tools)
+
+这些不在 KDO 管线内，但可在需要时直接调用：
+
+| 工具 | 路径 | 用途 |
+|------|------|------|
+| OCR 单张 | `powershell 40_outputs/capabilities/skills/image-ocr/ocr-image.ps1 <image>` | 提取单张图片中文文本→ `*_paddle_ocr.txt` |
+| OCR 批量 | `powershell 40_outputs/capabilities/skills/image-ocr/ocr-image.ps1 "*.png" -Batch` | 批量处理 |
+| OCR 直接 | `node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs <image>` | Node.js 直接调用 |
+
+> **OCR 运行时在 wiki 外面**：`C:\Users\Administrator\ocr-pipeline\`（models ~20MB + node_modules ~670MB，不进 git）。
+> **关键教训**：dict 索引不能 filter 空行。
 
 ## 内置工作流 (Built-in Workflows)
 

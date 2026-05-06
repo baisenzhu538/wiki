@@ -107,3 +107,9 @@ _Last updated: 2026-05-06T17:55:03+00:00_
 - [kdo watch 定时巡检层技术说明](systems/kdo-watch-health-check-layer.md) - source no source
 - [Obsidian Git Multi-Device Sync Protocol](systems/obsidian-git-sync-protocol.md) - source no source
 - [一堂方法论体系总图](systems/一堂方法论体系总图.md) - source no source
+
+## laowantong (周伯通专属空间)
+
+- [TinyFish 深度评估报告](laowantong/tinyfish-assessment-report.md) - source `tinyfish.ai + github`
+- [TinyFish Cookbook 架构模板](laowantong/tinyfish-cookbook-template.md) - source `github/tinyfish-io/tinyfish-cookbook`
+- [PaddleOCR 本地部署使用指南](laowantong/paddleocr-deployment-guide.md) - source `本地部署`

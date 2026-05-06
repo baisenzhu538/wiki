@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: entrepreneur
   module: "实事求是"
-  course_id: "⚠️待补"
+  course_id: "yt-entrepreneur-truth-seeking"
   course_type: method
   level: foundational
   series: false

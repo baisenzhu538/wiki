@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: entrepreneur
   module: "单元模型"
-  course_id: "⚠️待补"
+  course_id: "yt-entrepreneur-unit-model"
   course_type: method
   level: core
   series: true

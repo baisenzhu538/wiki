@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: entrepreneur
   module: "低成本验证/MVP"
-  course_id: "⚠️待补"
+  course_id: "yt-entrepreneur-lean-validation"
   course_type: method
   level: core
   series: true

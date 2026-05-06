@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: entrepreneur
   module: "一堂五步法"
-  course_id: "⚠️待补"
+  course_id: "yt-entrepreneur-five-step-method"
   course_type: method
   level: foundational
   series: true

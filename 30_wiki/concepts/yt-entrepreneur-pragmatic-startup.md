@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: entrepreneur
   module: "务实创业"
-  course_id: "⚠️待补"
+  course_id: "yt-entrepreneur-pragmatic-startup"
   course_type: method
   level: advanced
   series: false

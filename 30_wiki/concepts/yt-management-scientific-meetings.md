@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: management
   module: "科学开会"
-  course_id: "⚠️待补"
+  course_id: "yt-management-scientific-meetings"
   course_type: method
   level: core
   series: true

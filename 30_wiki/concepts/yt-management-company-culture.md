@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: management
   module: "公司文化"
-  course_id: "⚠️待补"
+  course_id: "yt-management-company-culture"
   course_type: method
   level: advanced
   series: false

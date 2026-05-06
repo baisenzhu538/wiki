@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: entrepreneur
   module: "融资认知"
-  course_id: "⚠️待补"
+  course_id: "yt-entrepreneur-fundraising"
   course_type: method
   level: advanced
   series: true

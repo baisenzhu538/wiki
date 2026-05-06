@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: entrepreneur
   module: "工业化生产"
-  course_id: "⚠️待补"
+  course_id: "yt-entrepreneur-industrial-production"
   course_type: method
   level: advanced
   series: false

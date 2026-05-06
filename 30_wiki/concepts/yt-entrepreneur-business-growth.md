@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: entrepreneur
   module: "业务增长"
-  course_id: "⚠️待补"
+  course_id: "yt-entrepreneur-business-growth"
   course_type: method
   level: core
   series: false

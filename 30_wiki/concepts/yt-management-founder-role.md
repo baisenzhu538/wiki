@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: management
   module: "一号位"
-  course_id: "⚠️待补"
+  course_id: "yt-management-founder-role"
   course_type: method
   level: advanced
   series: false

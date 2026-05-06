@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: management
   module: "基本功认知"
-  course_id: "⚠️待补"
+  course_id: "yt-management-basic-skills"
   course_type: method
   level: foundational
   series: true

@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: entrepreneur
   module: "渠道探索"
-  course_id: "⚠️待补"
+  course_id: "yt-entrepreneur-channel-exploration"
   course_type: method
   level: core
   series: false

@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: management
   module: "合伙股权"
-  course_id: "⚠️待补"
+  course_id: "yt-management-partnership-equity"
   course_type: method
   level: advanced
   series: true

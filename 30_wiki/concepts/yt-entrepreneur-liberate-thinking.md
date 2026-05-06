@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: entrepreneur
   module: "解放思想"
-  course_id: "⚠️待补"
+  course_id: "yt-entrepreneur-liberate-thinking"
   course_type: method
   level: foundational
   series: false

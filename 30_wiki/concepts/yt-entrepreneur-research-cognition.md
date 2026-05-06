@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: entrepreneur
   module: "调研认知"
-  course_id: "⚠️待补"
+  course_id: "yt-entrepreneur-research-cognition"
   course_type: method
   level: core
   series: true

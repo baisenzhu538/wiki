@@ -16,3 +16,8 @@ desktop.ini
 
 # Obsidian base files
 *.base
+
+# Runtime dependencies — not part of the knowledge repo
+_tmp/
+.tmp/
+node_modules/

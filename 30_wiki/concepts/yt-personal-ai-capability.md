@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: personal
   module: "AI 能力（双模型）"
-  course_id: "⚠️待补"
+  course_id: "yt-personal-ai-capability"
   course_type: method
   level: advanced
   series: false

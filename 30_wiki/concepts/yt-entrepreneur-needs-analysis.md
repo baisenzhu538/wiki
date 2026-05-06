@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: entrepreneur
   module: "需求分析"
-  course_id: "⚠️待补"
+  course_id: "yt-entrepreneur-needs-analysis"
   course_type: method
   level: foundational
   series: false

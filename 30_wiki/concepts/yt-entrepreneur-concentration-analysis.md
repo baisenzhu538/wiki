@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: entrepreneur
   module: "集中度分析"
-  course_id: "⚠️待补"
+  course_id: "yt-entrepreneur-concentration-analysis"
   course_type: method
   level: core
   series: false

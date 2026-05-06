@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: management
   module: "转化率黑客"
-  course_id: "⚠️待补"
+  course_id: "yt-management-conversion-hacking"
   course_type: method
   level: core
   series: true

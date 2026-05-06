@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: personal
   module: "泛产品设计"
-  course_id: "⚠️待补"
+  course_id: "yt-personal-product-design"
   course_type: method
   level: core
   series: true

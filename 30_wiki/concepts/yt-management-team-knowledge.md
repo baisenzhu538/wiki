@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: management
   module: "团队知识管理"
-  course_id: "⚠️待补"
+  course_id: "yt-management-team-knowledge"
   course_type: method
   level: core
   series: false

@@ -34,6 +34,27 @@ kdo task "Ship first artifact" --project-id proj_YYYYMMDD_xxxxxxxx
 kdo lint
 ```
 
-## Recent Session Reports
+## Local Tools
 
-- **2026-05-02 ~ 2026-05-03**: [KDO Protocol Structural Hardening](30_wiki/log.md) — Multi-device sync conflict resolution, 7 JSON Schemas, Graph RAG index, AI operating contract (`PROTOCOL.md`), routing-rules decision matrix, lint/validate scripts.
+All agents can invoke these directly. Paths are relative to workspace root.
+
+### Image OCR (Chinese text extraction)
+
+Local PaddleOCR v5 pipeline. No network, no API key. Supports PNG and JPEG.
+
+```bash
+# Single image → outputs *_paddle_ocr.txt alongside the image
+powershell 40_outputs/capabilities/skills/image-ocr/ocr-image.ps1 path/to/image.png
+
+# Batch
+powershell 40_outputs/capabilities/skills/image-ocr/ocr-image.ps1 "00_inbox/*.png" -Batch
+
+# Direct Node.js (if PowerShell unavailable)
+node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs path/to/image.png
+```
+
+**Runtime** (outside wiki, to avoid git): `C:\Users\Administrator\ocr-pipeline\` — contains `ocr-paddle.cjs`, `models/` (~20MB), `node_modules/`. Set up with `npm install paddleocr onnxruntime-web fast-png jpeg-js`.
+
+**Known pitfall**: The character dictionary (`dict.txt`) must NOT be filtered. If you `.filter(l => l.trim())` after `split('\n')`, the leading full-width space line is removed and all character indices shift by 1 — the output will be random Chinese gibberish.
+
+**Capability doc**: `40_outputs/capabilities/skills/image-ocr/SKILL.md`

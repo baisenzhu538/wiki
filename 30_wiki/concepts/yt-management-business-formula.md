@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: management
   module: "业务公式"
-  course_id: "⚠️待补"
+  course_id: "yt-management-business-formula"
   course_type: method
   level: core
   series: true

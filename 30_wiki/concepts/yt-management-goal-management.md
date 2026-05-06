@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: management
   module: "目标管理"
-  course_id: "⚠️待补"
+  course_id: "yt-management-goal-management"
   course_type: method
   level: core
   series: false

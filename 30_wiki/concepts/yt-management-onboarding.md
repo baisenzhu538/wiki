@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: management
   module: "新人落地"
-  course_id: "⚠️待补"
+  course_id: "yt-management-onboarding"
   course_type: method
   level: core
   series: false

@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: management
   module: "科学招聘"
-  course_id: "⚠️待补"
+  course_id: "yt-management-scientific-hiring"
   course_type: method
   level: core
   series: false

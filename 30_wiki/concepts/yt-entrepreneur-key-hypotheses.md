@@ -6,7 +6,7 @@ domain: ['yitang']
 yitang:
   map: entrepreneur
   module: "关键假设"
-  course_id: "⚠️待补"
+  course_id: "yt-entrepreneur-key-hypotheses"
   course_type: method
   level: foundational
   series: false
