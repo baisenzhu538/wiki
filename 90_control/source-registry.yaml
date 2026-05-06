@@ -281,3 +281,59 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/一堂-调研行动营启动_智能优化.md"
   content_sha256: "b97f23472cbbfa5c2a26d1f63bc1138bf6fd4c4071f7046bdbbcf817950c6a72"
+
+- id: "src_20260507_85c9ae50"
+  title: "说话人1     00:28"
+  type: "other"
+  location: "10_raw/sources/src_20260507_85c9ae50-说话人1-00-28.md"
+  captured_at: "2026-05-06T17:06:28+00:00"
+  registered_at: "2026-05-06T17:06:28+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/说话人1-00-28.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-IPO模型实操课_智能优化.md"
+  content_sha256: "4a291ac74d3c4641e035f8bd4ba26bd0e5c3fc6d22dd317e069014c062ed5cd9"
+
+- id: "src_20260507_9dd09688"
+  title: "说话人1     01:32"
+  type: "other"
+  location: "10_raw/sources/src_20260507_9dd09688-说话人1-01-32.md"
+  captured_at: "2026-05-06T17:06:29+00:00"
+  registered_at: "2026-05-06T17:06:29+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/说话人1-01-32.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-科学学习认知篇_智能优化.md"
+  content_sha256: "22bc09e6993ed1d72995c096887f796168dc1877ccc5f4eaf3d9aacbc306c32e"
+
+- id: "src_20260507_0872c7b3"
+  title: "过早上去都不好，最后归因发现就是因为需求自己定义的太大了，所以很多产品看上去乍一听都很好啊，但是一分析都有硬伤。"
+  type: "other"
+  location: "10_raw/sources/src_20260507_0872c7b3-过早上去都不好最后归因发现就是因为需求自己定义的太大了所以很多产品看上去乍一听都很好啊但是一分析都有硬伤.md"
+  captured_at: "2026-05-06T17:06:29+00:00"
+  registered_at: "2026-05-06T17:06:29+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/过早上去都不好最后归因发现就是因为需求自己定义的太大了所以很多产品看上去乍一听都很好啊但是一分析都有硬伤.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-需求分析方法论_原文润色.md"
+  content_sha256: "1a630418bf3595938a2d90aacef1d70261b1e04bbc62c0dccb46b09a46802f11"
+
+- id: "src_20260507_95c66ae9"
+  title: "用这个免费API，让你的 Agent 拥有「看」的能力"
+  type: "other"
+  location: "10_raw/sources/src_20260507_95c66ae9-用这个免费api让你的-agent-拥有看的能力.md"
+  captured_at: "2026-05-06T17:06:29+00:00"
+  registered_at: "2026-05-06T17:06:29+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/用这个免费api让你的-agent-拥有看的能力.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/用这个免费API，让你的 Agent 拥有「看」的能力.md"
+  content_sha256: "3a3d98585ab954243c9fcaf4e44940904617611c2c25d272d6c0f7d0a292c6b0"

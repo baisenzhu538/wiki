@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-05-05T18:37:32+00:00_
+_Last updated: 2026-05-06T17:06:29+00:00_
 
 - [EC工业化规范手册](concepts/EC工业化规范手册.md) - source `src_20260503_dadc7838`
 - [HIS系统开发实现方案-架构师指南](concepts/HIS系统开发实现方案-架构师指南.md) - source `src_20260503_1a1f0312`
@@ -15,26 +15,80 @@ _Last updated: 2026-05-05T18:37:32+00:00_
 - [Knowledge Delivery OS 快速体验指南 - 飞书云文档](concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md) - source `src_20260501_6a491b80`
 - [Obsidian + KDO 内容产出工作流 — 产品设计大纲](concepts/obsidian-kdo-内容产出工作流-产品设计大纲.md) - source no source
 - [Kimi 深度调研集群方法论 (Deep-Research-Swarm)](concepts/research_methodology.md) - source no source
+- [TinyFish — Agentic Web 基础设施建设层 Skill](concepts/tinyfish-agentic-web-infrastructure.md) - source no source
 - [Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现](concepts/truman-perspective-skill.md) - source no source
 - [Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl](concepts/web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md) - source no source
 - [YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN](concepts/yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md) - source `src_20260430_8cc84e5b`
 - [一堂课程大地图](concepts/yitang-course-map.md) - source no source
-- [声音和画面正常吗？](30_wiki/concepts/yt-case-mandatory-cases.md) - source `src_20260506_9b4788a6`
-- [值班主](30_wiki/concepts/yt-system-course-map-lecture.md) - source `src_20260506_13e7bbca`
-- [第一个举手。](30_wiki/concepts/yt-research-weaponry-course.md) - source `src_20260506_bb9048a6`
+- [一堂案例必修课](concepts/yt-case-mandatory-cases.md) - source no source
+- [259里程碑](concepts/yt-entrepreneur-259-milestone.md) - source no source
+- [项目壁垒](concepts/yt-entrepreneur-barriers.md) - source no source
+- [业务增长](concepts/yt-entrepreneur-business-growth.md) - source no source
+- [渠道探索](concepts/yt-entrepreneur-channel-exploration.md) - source no source
+- [集中度分析](concepts/yt-entrepreneur-concentration-analysis.md) - source no source
+- [一堂五步法](concepts/yt-entrepreneur-five-step-method.md) - source no source
+- [融资认知](concepts/yt-entrepreneur-fundraising.md) - source no source
+- [增长飞轮](concepts/yt-entrepreneur-growth-flywheel.md) - source no source
+- [工业化生产](concepts/yt-entrepreneur-industrial-production.md) - source no source
+- [行业预判](concepts/yt-entrepreneur-industry-forecast.md) - source no source
+- [关键假设](concepts/yt-entrepreneur-key-hypotheses.md) - source no source
+- [低成本验证/MVP](concepts/yt-entrepreneur-lean-validation.md) - source no source
+- [解放思想](concepts/yt-entrepreneur-liberate-thinking.md) - source no source
+- [需求分析](concepts/yt-entrepreneur-needs-analysis.md) - source no source
+- [机会选择](concepts/yt-entrepreneur-opportunity-selection.md) - source no source
+- [务实创业](concepts/yt-entrepreneur-pragmatic-startup.md) - source no source
+- [产品内核](concepts/yt-entrepreneur-product-core.md) - source no source
+- [调研认知](concepts/yt-entrepreneur-research-cognition.md) - source no source
+- [Y模型/科学方法](concepts/yt-entrepreneur-scientific-method.md) - source no source
+- [实事求是](concepts/yt-entrepreneur-truth-seeking.md) - source no source
+- [单元模型](concepts/yt-entrepreneur-unit-model.md) - source no source
+- [基本功认知](concepts/yt-management-basic-skills.md) - source no source
+- [业务公式](concepts/yt-management-business-formula.md) - source no source
+- [公司文化](concepts/yt-management-company-culture.md) - source no source
+- [转化率黑客](concepts/yt-management-conversion-hacking.md) - source no source
+- [财务入门](concepts/yt-management-finance-basics.md) - source no source
+- [一号位](concepts/yt-management-founder-role.md) - source no source
+- [目标管理](concepts/yt-management-goal-management.md) - source no source
+- [管理段位](concepts/yt-management-leadership-levels.md) - source no source
+- [新人落地](concepts/yt-management-onboarding.md) - source no source
+- [合伙股权](concepts/yt-management-partnership-equity.md) - source no source
+- [项目管理](concepts/yt-management-project-management.md) - source no source
+- [Y模型/科学决策](concepts/yt-management-scientific-decision.md) - source no source
+- [科学招聘](concepts/yt-management-scientific-hiring.md) - source no source
+- [科学开会](concepts/yt-management-scientific-meetings.md) - source no source
+- [战略会](concepts/yt-management-strategy-meeting.md) - source no source
+- [团队知识管理](concepts/yt-management-team-knowledge.md) - source no source
+- [AI 能力（双模型）](concepts/yt-personal-ai-capability.md) - source no source
+- [清单体笔记](concepts/yt-personal-checklist-notes.md) - source no source
+- [深度复盘](concepts/yt-personal-deep-review.md) - source no source
+- [科学成长（刻意练习）](concepts/yt-personal-deliberate-practice.md) - source no source
+- [灵感闪现（认知篇）](concepts/yt-personal-inspiration-flash.md) - source no source
+- [IPO 科学学习](concepts/yt-personal-ipo-learning.md) - source no source
+- [知识管理](concepts/yt-personal-knowledge-management.md) - source no source
+- [泛产品设计](concepts/yt-personal-product-design.md) - source no source
+- [十指销讲模型](concepts/yt-personal-sales-pitch-model.md) - source no source
+- [科学表达（火箭模型）](concepts/yt-personal-scientific-expression.md) - source no source
+- [时间管理](concepts/yt-personal-time-management.md) - source no source
+- [逐字稿](concepts/yt-personal-verbatim-script.md) - source no source
+- [一堂调研行动营 · 启动课（LLM 精炼）](concepts/yt-research-action-camp-launch.md) - source no source
+- [一堂调研武器库课程](concepts/yt-research-weaponry-course.md) - source no source
+- [一堂课程地图精华串讲](concepts/yt-system-course-map-lecture.md) - source no source
 - [一堂-调研行动营启动_原文润色](concepts/一堂-调研行动营启动_原文润色.md) - source `src_20260503_9bfe6913`
-- [一堂-调研行动营启动_智能优化](30_wiki/concepts/yt-research-action-camp-launch.md) - source `src_20260506_e4634e13`
 - [一堂调研武器库13招](concepts/一堂调研武器库13招.md) - source `src_20260503_af21929e`
 - [一堂调研武器库课程原文润色](concepts/一堂调研武器库课程原文润色.md) - source `src_20260504_13783111`
 - [一堂调研行动营 — AI辅助系统式调研方法论](concepts/一堂调研行动营-ai辅助系统式调研方法论.md) - source `src_20260503_5f268da2`
 - [互联网医院模式深度调研报告](concepts/互联网医院模式深度调研报告.md) - source `src_20260501_9962715b`
 - [保达云诊所深度调研报告](concepts/保达云诊所深度调研报告.md) - source `src_20260503_ae1921d5`
 - [开源HIS系统代码深度分析报告](concepts/开源HIS系统代码深度分析报告.md) - source `src_20260503_f4891888`
+- [用这个免费API，让你的 Agent 拥有「看」的能力](concepts/用这个免费api让你的-agent-拥有看的能力.md) - source `src_20260507_95c66ae9`
 - [紫鲸AI_智能体工作流平台_深度分析与产品设计](concepts/紫鲸ai_智能体工作流平台_深度分析与产品设计.md) - source `src_20260501_4eee4e95`
 - [紫鲸AI智能体工作流平台](concepts/紫鲸ai智能体工作流平台.md) - source `src_20260428_29929c1f`
 - [街顺APP全面调研报告](concepts/街顺app全面调研报告.md) - source `src_20260427_970eb338`
 - [诊所O2O外卖平台业务深度调研报告](concepts/诊所o2o外卖平台业务深度调研报告.md) - source no source
+- [说话人1     00:28](concepts/说话人1-00-28.md) - source `src_20260507_85c9ae50`
+- [说话人1     01:32](concepts/说话人1-01-32.md) - source `src_20260507_9dd09688`
 - [轻量级诊所HIS调研全清单](concepts/轻量级诊所HIS调研全清单.md) - source `src_20260503_5c91e867`
+- [过早上去都不好，最后归因发现就是因为需求自己定义的太大了，所以很多产品看上去乍一听都很好啊，但是一分析都有硬伤。](concepts/过早上去都不好最后归因发现就是因为需求自己定义的太大了所以很多产品看上去乍一听都很好啊但是一分析都有硬伤.md) - source `src_20260507_0872c7b3`
 - [鑫港湾HIS系统分阶段整改报告](concepts/鑫港湾his系统分阶段整改报告.md) - source `src_20260428_db49a647`
 - [Kimi（月之暗面）](entities/Kimi-月之暗面.md) - source no source
 - [Y Combinator](entities/YC-Y-Combinator.md) - source no source
@@ -50,8 +104,3 @@ _Last updated: 2026-05-05T18:37:32+00:00_
 - [kdo watch 定时巡检层技术说明](systems/kdo-watch-health-check-layer.md) - source no source
 - [Obsidian Git Multi-Device Sync Protocol](systems/obsidian-git-sync-protocol.md) - source no source
 - [一堂方法论体系总图](systems/一堂方法论体系总图.md) - source no source
-
-## laowantong (周伯通专属空间)
-
-- [TinyFish 深度评估报告](laowantong/tinyfish-assessment-report.md) - source `tinyfish.ai + github`
-- [TinyFish Cookbook 架构模板](laowantong/tinyfish-cookbook-template.md) - source `github/tinyfish-io/tinyfish-cookbook`
