@@ -1,5 +1,5 @@
 ---
-title: "PaddleOCR — 本地+云端双模 OCR 识别 Skill"
+title: "PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill"
 type: concept
 status: enriched
 domain: ['master']
@@ -15,19 +15,19 @@ tags:
   - "#ocr"
   - "#tool"
   - "#paddleocr"
-  - "#document-parsing"
+  - "#onnx"
 trust_level: high
 reviewed_by: "黄药师"
 review_date: "2026-05-07"
 ---
 
-# PaddleOCR — 本地+云端双模 OCR 识别 Skill
+# PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill
 
-> 百度 PaddlePaddle 出品，GitHub 74K+ stars，PP-OCRv5 中文准确率 ~97.8%，覆盖 80+ 语言。已安装 2 个官方 Claude Code Skill。
+> 百度 PaddlePaddle 出品，GitHub 74K+ stars，PP-OCRv5 中文准确率 ~97.8%。**本地部署方案已投产**：Node.js + ONNX Runtime，零网络依赖。
 
 ## Summary
 
-PaddleOCR 是目前中文 OCR 领域事实标准。官方提供了 2 个 Claude Code Skill：文本识别（线级文字提取）和文档解析（版面/表格/公式/印章/图表结构化还原）。两个 Skill 采用同一架构：SKILL.md + PEP 723 内联依赖脚本（uv 自动解析），需 PaddleOCR API Key。
+黄药师已完成 PaddleOCR 本地生产级部署。与官方云端 API Skill 形成互补双模架构。
 
 与此同时，黄药师已在本地部署 PaddleOCR Python 库，可直接通过 Python API 调用，无需 API Key。
 
@@ -35,73 +35,51 @@ PaddleOCR 是目前中文 OCR 领域事实标准。官方提供了 2 个 Claude 
 
 ## [Condense] 核心架构
 
-### 两个 Skill 的分工
-
-| Skill | 做什么 | 输入 | 输出 | 触发词 |
-|-------|--------|------|------|--------|
-| **paddleocr-text-recognition** | 线级文字提取，可带 bbox 坐标 | 图片/截图/扫描件/PDF | 纯文本 + 每行坐标 | OCR、文字识别、图片转文字 |
-| **paddleocr-doc-parsing** | 文档结构完整还原（表格/公式/图表/印章/页眉页脚/多栏/阅读顺序） | PDF/文档图片/复杂排版 | Markdown/JSON（含LaTeX公式、HTML表格） | 文档解析、版面分析、表格提取、公式识别 |
-
-### 使用策略（决策树）
+### 生产部署（本地 ONNX Runtime）
 
 ```
-用户给图片/PDF
-├── 只需要纯文字？
-│   └── paddleocr-text-recognition ✅
-├── 有表格/公式/印章/多栏排版？
-│   └── paddleocr-doc-parsing ✅
-├── 本地有 Python 环境且无 API Key？
-│   └── 本地 Python API 直接调用 ✅
-└── 有 API Key 且需要最快速度？
-    └── uv run scripts/ocr_caller.py ✅
+40_outputs/capabilities/skills/image-ocr/
+├── SKILL.md                    # 能力文档
+└── ocr-image.ps1               # PowerShell 包装脚本
+
+C:\Users\Administrator\ocr-pipeline\
+├── ocr-paddle.cjs              # 核心引擎（Node.js）
+├── models/
+│   ├── det.onnx (4.6MB)        # 文字检测模型
+│   ├── rec.onnx (15.8MB)       # 文字识别模型
+│   └── dict.txt (74KB)         # 字符字典 6700+ entries
+├── package.json                # paddleocr + onnxruntime-web + fast-png + jpeg-js
+└── node_modules/ (~670MB)
 ```
 
-### 本地 Python API（黄药师已部署）
+**为什么运行时在 wiki 外面**：模型 + node_modules ~700MB，不进 git。
 
-```python
-from paddleocr import PaddleOCR
+### 技术栈
 
-# 文字识别
-ocr = PaddleOCR(lang='ch', ocr_version='PP-OCRv5')
-result = ocr.predict("image.jpg")
-for res in result:
-    res.print()       # 打印结果
-    res.save_to_json("output/")  # 保存 JSON
+| 组件 | 选型 | 备注 |
+|------|------|------|
+| OCR 引擎 | PaddleOCR v5 (ONNX Runtime Web) | Node.js 封装，非 Python |
+| 检测模型 | `det.onnx` | 4.6MB，文字区域定位 |
+| 识别模型 | `rec.onnx` | 15.8MB，CRNN-CTC 序列识别 |
+| 字符字典 | `dict.txt` | 6700+ 字符，含全角空格（索引 1） |
+| 图片解码 | `fast-png` + `jpeg-js` | magic bytes 自动检测格式 |
+| 推理后端 | `onnxruntime-web` | WASM backend，CPU 推理 |
 
-# 文档结构解析
-from paddleocr import PPStructureV3
-pipeline = PPStructureV3(
-    use_table_recognition=True,
-    use_formula_recognition=True,
-    use_chart_recognition=True,
-    use_seal_recognition=True,
-    lang='ch'
-)
-output = pipeline.predict("document.pdf")
-for page in output:
-    print(page.to_markdown())
-```
+### 已知 Bug 教训（dict 索引偏移）
 
-### 云端 API（Skill 模式）
+PaddleOCR CTC 输出的 class 0 = blank token，class 1 = 全角空格 `　`，class 2 起才是实际字符。**dict 文件不能 filter 空行**——错误的 `.filter(l => l.trim())` 会移除全角空格行，导致所有字符索引偏移 1，症状为随机中文乱码。
 
-```bash
-# 文字识别
-uv run scripts/ocr_caller.py --file-path "image.png" --pretty
+### 使用方式（三种调用路径）
 
-# 文档解析
-uv run scripts/layout_caller.py --file-path "document.pdf" --pretty
-```
+```powershell
+# 路径 1: PowerShell 包装脚本（单张）
+.\40_outputs\capabilities\skills\image-ocr\ocr-image.ps1 "path/to/image.png"
 
-需要环境变量：`PADDLEOCR_OCR_API_URL` + `PADDLEOCR_ACCESS_TOKEN`
+# 路径 2: PowerShell 批量处理
+.\40_outputs\capabilities\skills\image-ocr\ocr-image.ps1 "00_inbox/*.png" -Batch
 
-### CLI 命令
-
-```bash
-# 命令行 OCR
-paddleocr ocr -i image.jpg --lang ch --ocr_version PP-OCRv5
-
-# 文档结构解析
-paddleocr pp_structurev3 -i document.pdf --use_table_recognition True
+# 路径 3: 直接调用 Node.js
+node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs <image-path>
 ```
 
 ---
@@ -110,28 +88,25 @@ paddleocr pp_structurev3 -i document.pdf --use_table_recognition True
 
 ### 前提假设
 
-- 假设云端 API 的识别质量与本地部署一致。【可靠性：高】云端使用相同模型 PP-OCRv5，且推理资源更充足
-- 假设 Skill 的 PEP 723 内联依赖模式（uv run）在 WSL 环境下可用。【可靠性：中】需要 uv 已安装，WSL 网络环境可能影响首次依赖解析
-- 假设 Document Parsing 的版面还原质量满足 KDO wiki 的转写需求。【可靠性：中】复杂多栏中文排版（如课程讲义）的阅读顺序仍有出错可能
+- 假设 ONNX Runtime Web (WASM) 在 Node.js 环境下的推理精度与原生 PaddlePaddle 一致。【可靠性：高】ONNX 是标准格式，模型权重完全相同
+- 假设 6700+ 字符字典覆盖 KDO wiki 场景中绝大多数中文文本。【可靠性：高】常用汉字 + 标点 + 字母数字均覆盖
+- 假设 magic bytes 格式检测对 PNG/JPEG 的识别可靠。【可靠性：高】这是标准做法，边界情况（WebP/BMP/PDF）会报错退出
 
 ### 边界与反例
 
-- **最适合**：截图文字提取、发票/财报结构化、扫描件 OCR、课程 PPT 转写
-- **不适合**：手写体（PP-OCRv5 对手写支持有限）、严重倾斜/变形文本、纯英文场景（有更轻量的方案）
-- **关键限制**：Document Parsing 单次最多 100 页 PDF；大图需压缩后上传
+- **最适合**：截图文字提取、扫描件 OCR、课程 PPT/讲义图片、微信群聊截图
+- **不适合**：PDF 直接解析（需要先转图片）、手写体、严重倾斜/弯曲文字、复杂表格还原
+- **已知局限**：低分辨率模糊图片识别率下降；非水平文字受限；首次加载 ~2s（WASM 初始化）；内存占用 ~200MB
 
-### 与现有工具的关系
+### 关键约束
 
-| 工具 | 层面 | 定位 |
-|------|------|------|
-| **PaddleOCR** | 视觉理解层 | 将图片/PDF 中的文字→可搜索/可编辑文本 |
-| **TinyFish** | Web 操作层 | 将网页→结构化数据 |
-| **Scrapling/Crawl4AI** | 爬虫层 | 将网页 HTML→文本 |
-| **business-research** | 调研编排层 | 将这些能力编排为调研流程 |
+- 只能从 WSL 通过 `/mnt/c/Users/Administrator/ocr-pipeline/` 路径调用——Windows 的 PowerShell 脚本 WSL 无法直接执行
+- 需要 `cmd.exe /c "powershell ..."` 或 `/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe` 桥接
+- 输出文件 `<原名>_paddle_ocr.txt` 保存在源图片同目录
 
 ### 可靠性
 
-**整体：高。** PaddleOCR 是百度核心开源项目，74K+ stars，被 Dify 等主流项目集成。云端 API 经 40M+ 调用验证。本地部署的质量取决于模型版本和硬件。
+**整体：高。** 生产级部署，已通过 dict 索引偏移 bug 修复验证。PP-OCRv5 中文准确率 97.8%，本地 ONNX 推理不受 API 限流/网络中断影响。
 
 ---
 
@@ -142,22 +117,30 @@ paddleocr pp_structurev3 -i document.pdf --use_table_recognition True
 - [[business-research-skill-oscar-13-weapon-system]] — Step 3 在线采集时，遇到图片形式的财报/数据，可以用 PaddleOCR 提取结构化数据
 - [[KDO Protocol]] — PaddleOCR 是第四个 tool 型 Skill，验证了 tool 型 Skill 的 pre-flight check 模式
 
-### Skill 体系更新
+### 补充：WSL 侧 Python PaddleOCR
+
+生产部署是 Windows Node.js ONNX 方案。WSL 侧另装了 `paddleocr 3.5.0`（Python），可用于更复杂的文档解析（PPStructureV3），但日常使用以 Node.js 方案为主。
+
+### 补充：云端 API Skill
+
+`~/.claude/skills/paddleocr-text-recognition/` 和 `~/.claude/skills/paddleocr-doc-parsing/` 是官方 Claude Code Skill（PEP 723 + uv），作为本地 ONNX 的备份，需要 PaddleOCR API Key。
+
+### Skill 体系（至此 5 个 Skill）
 
 | 类型 | Skill | 核心能力 |
 |------|-------|---------|
 | methodology | business-research | OSCAR + 13 武器调研 |
 | persona | truman-perspective | 许楚思维模拟 |
 | tool | use-tinyfish | Web Search/Fetch/Agent/Browser |
-| tool | **paddleocr-text-recognition** | 图片/PDF → 线级文本 |
-| tool | **paddleocr-doc-parsing** | 文档 → 结构化 Markdown/JSON |
+| tool | paddleocr-text-recognition | 图片/PDF → 线级文本（云端 API） |
+| tool | paddleocr-doc-parsing | 文档 → 结构化 Markdown（云端 API） |
+| **local** | **ocr-pipeline (ocr-paddle.cjs)** | 本地 ONNX 推理，零网络依赖 |
 
 ## Open Questions
 
-- 本地 PaddleOCR 部署的具体路径和可用模型版本？
-- PADDLEOCR_API_URL 和 ACCESS_TOKEN 是否已配置？
-- 本地部署 vs 云端 API 在 KDO wiki 转写场景中的速度和成本差异？
-- PP-StructureV3 对中文课程讲义的表格/公式还原效果如何？
+- Node.js 方案能否扩展支持 PDF 直接输入（目前仅 PNG/JPEG）？
+- ONNX 检测模型对竖排中文的表现如何？
+- 云端 PP-StructureV3 的表格还原质量是否值得配置 API Key？
 
 ## Output Opportunities
 

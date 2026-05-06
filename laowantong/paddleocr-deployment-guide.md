@@ -8,144 +8,148 @@ updated_at: 2026-05-07
 
 # PaddleOCR 本地部署使用指南
 
-## 1. 部署现状
-
-PaddleOCR 已本地部署在 `wiki/.tmp/ocr/` 目录下，可直接使用。
-
-### 目录结构
-
-```
-wiki/
-├── .tmp/ocr/                    ← 脚本与依赖
-│   ├── ocr-paddle-final.cjs     ← 主脚本（推荐用此版）
-│   ├── ocr-paddle.cjs         ← 早期版本（备份）
-│   ├── package.json           ← Node.js 依赖
-│   └── node_modules/          ← 已安装依赖
-└── _tmp/ocr/models/             ← ONNX 模型文件
-    ├── det.onnx                 ← 文字检测模型
-    ├── rec.onnx                 ← 文字识别模型
-    └── dict.txt                 ← 中文字典（3758 字）
-```
-
-### 技术栈
-
-- **运行时**: Node.js + `paddleocr` npm 包
-- **模型框架**: ONNX Runtime (`onnxruntime-web`)
-- **模型版本**: PP-OCRv5 Mobile（检测+ 识别两阶段）
-- **输入格式**: PNG 图片
-- **输出格式**: 纯文本 (`*_paddle_ocr.txt`)
+> 本文档对应正式 capability：`40_outputs/capabilities/skills/image-ocr/SKILL.md`
 
 ---
 
-## 2. 使用方式
+## 1. 正式封装结构
 
-### 单图识别
+老板已完成正式封装，分为两部分：
+
+### 运行时（不进 git）
+
+```
+C:\Users\Administrator\ocr-pipeline\
+├── ocr-paddle.cjs          ← 核心脚本（Node.js）
+├── package.json            ← 依赖配置
+├── node_modules/           ← 已安装依赖（~670MB）
+└── models/
+    ├── det.onnx            ← 文字检测模型（4.6MB）
+    ├── rec.onnx            ← 文字识别模型（15.8MB）
+    └── dict.txt            ← 字符字典（74KB）
+```
+
+> 运行时不进 git 的原因：模型文件 ~20MB + node_modules ~670MB，超出 git 合适范围。
+
+### Wiki 封装（进 git）
+
+```
+wiki/40_outputs/capabilities/skills/image-ocr/
+├── SKILL.md                ← 能力文档
+└── ocr-image.ps1         ← PowerShell 包装脚本
+```
+
+---
+
+## 2. 技术栈
+
+| 组件 | 版本 | 作用 |
+|------|------|------|
+| **PaddleOCR** | v5 (ONNX) | 核心引擎 |
+| **ONNX Runtime** | 1.25.1 | 模型推理 |
+| **fast-png** | 8.0.0 | PNG 图片解码 |
+| **jpeg-js** | 0.4.4 | JPEG 图片解码 |
+| **Node.js** | v14+ | 运行时 |
+
+---
+
+## 3. 使用方式
+
+### 推荐：PowerShell 包装脚本
+
+**单张图片**：
+```powershell
+.\40_outputs\capabilities\skills\image-ocr\ocr-image.ps1 "path/to/image.png"
+```
+
+**批量处理**：
+```powershell
+.\40_outputs\capabilities\skills\image-ocr\ocr-image.ps1 "00_inbox/*.png" -Batch
+```
+
+输出：同目录下 `<原文件名>_paddle_ocr.txt`
+
+### 直接调用 Node.js
 
 ```bash
-cd "C:\Users\Administrator\Desktop\wiki\.tmp\ocr"
-node ocr-paddle-final.cjs "<path-to-image.png>"
+node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs <image-path>
 ```
 
-例子：
-```bash
-node ocr-paddle-final.cjs "C:\Users\Administrator\Desktop\wiki\00_inbox\screenshot.png"
-```
+---
 
-输出：同目录下生成 `screenshot_paddle_ocr.txt`
+## 4. 支持的图片格式
 
-### 已处理记录
-
-目前已用 PaddleOCR 处理 **14 张图片**，输出保存在 `wiki/00_inbox/` 下：
-
-- `一堂-*_paddle_ocr.txt` × 13 份
-- `一堂进步大地图_paddle_ocr.txt` × 1 份
+- **PNG** — 通过 `fast-png` 解码
+- **JPEG** — 通过 `jpeg-js` 解码
+- 自动检测格式（magic bytes），不依赖文件扩展名
+- 自动处理 RGBA → RGB 转换
 
 ---
 
-## 3. 识别效果对比
+## 5. 关键 Bug 教训
 
-### PaddleOCR vs ocr.space（在线 API）
-
-| 维度 | PaddleOCR (本地) | ocr.space (在线) |
-|------|------------------|-----------------|
-| **连接方式** | 无需网络 | 需要网络 + API key |
-| **隐私性** | 图片不出本地 | 上传到第三方服务器 |
-| **中文识别** | ✅ 准确度高 | ✅ 也较高 |
-| **表格结构** | 纯文本，无格式 | 保留制表符 `	` |
-| **英文混排** | ✅ 支持 | ✅ 支持 |
-| **识别速度** | 1-3 秒/张 | 取决于网络 |
-| **费用** | 免费 | 免费额度有限 |
-| **可靠性** | ✅ 本地，不受网络影响 | ❌ 网络故障时不可用 |
-
-### 实际输出对比（以创业必修课程清单为例）
-
-**共同优点**：两者中文识别准确率都很高，课程名称、口令等关键信息均正确提取。
-
-**差异点**：
-- **ocr.space**: 输出包含 `	` 制表符，对表格类图片结构保留更好
-- **PaddleOCR**: 输出更干净，无多余空白和制表符，更适合直接喂给 LLM
-
-> **建议**：表格类图片用 ocr.space，文本类/截图类用 PaddleOCR。
+**索引偏移问题**：
+- PaddleOCR 模型的 CTC output class 0 是 blank token
+- class 1 是全角空格 `　`，class 2 起是实际字符
+- **dict 文件不能 filter 空行**！必须保留所有行以保持索引对齐
+- 错误的 `.filter(l => l.trim())` 会移除全角空格行，导致所有字符索引偏移 1
+- 症状：OCR 输出为随机中文乱码（字符都认识但内容完全不对）
 
 ---
 
-## 4. 与 RapidOCR 的关系
+## 6. 已知局限
 
-| | RapidOCR | PaddleOCR (当前部署) |
-|---|---|---|
-| **定位** | 轻量级 Python 封装 | 完整 Node.js 实现 |
-| **依赖** | Python + pip | Node.js + npm |
-| **模型** | 内置 PP-OCRv4 | 外部 PP-OCRv5 ONNX |
-| **部署难度** | 一行命令 | 需要配置模型路径 |
-| **适用场景** | Python 脚本快速调用 | Node.js 工作流稳定运行 |
-
-> 两者都是基于百度 PaddleOCR 的实现，核心识别能力相当。当前部署的是 PP-OCRv5，模型更新。
+1. **图片质量敏感**：低分辨率/模糊图片识别率下降
+2. **复杂排版**：非水平文字、弯曲文字识别受限
+3. **首次加载慢**：ONNX Runtime WASM backend 初始化 ~2s
+4. **内存占用**：模型加载 ~200MB RAM
 
 ---
 
-## 5. 五绝使用场景
+## 7. 备选方案对比
+
+| 方案 | 优点 | 缺点 |
+|------|------|------|
+| **PaddleOCR (本地)** | 本地、免费、高准确率 | 需模型文件、大内存 |
+| **OCR.space API** | 高准确率、无需本地模型 | 需联网、500次/天限额、≤1MB/图 |
+| **tesseract.js** | 开源、多语言 | 中文准确率低（~70%） |
+
+---
+
+## 8. 五绝使用场景
 
 | 使用者 | 场景 | 建议工具 |
 |--------|------|---------|
 | **黄药师** | 截图/课程图片识别→转文本→KDO ingest | **PaddleOCR** 本地更快 |
-| **洪七公** | 表格类图片识别（价格表、数据表） | **ocr.space** 保留表格结构 |
-| **段智兴** | 发布前的图片审核、文字校对 | **PaddleOCR** 本地处理 |
+| **洪七公** | 表格类图片（价格表、数据表） | **OCR.space** 保留表格结构 |
+| **段智兴** | 发布前图片审核、文字校对 | **PaddleOCR** 本地处理 |
 | **欧阳锋** | 技术文档截图识别 | **PaddleOCR** |
-| **周伯通** | 批量处理截图/评估质量 | **PaddleOCR** 可批量化 |
+| **周伯通** | 批量处理截图/评估质量 | **PaddleOCR** `-Batch` 批量模式 |
 
 ---
 
-## 6. 快速命令
+## 9. 快速命令速查
 
-### 单图识别
-```bash
-cd "C:\Users\Administrator\Desktop\wiki\.tmp\ocr"
-node ocr-paddle-final.cjs "<image.png>"
-```
+```powershell
+# 单图
+.\40_outputs\capabilities\skills\image-ocr\ocr-image.ps1 "image.png"
 
-### 批量识别（需自行编写批量脚本）
-```javascript
-const { execSync } = require('child_process');
-const images = ['a.png', 'b.png', 'c.png'];
-for (const img of images) {
-  execSync(`node ocr-paddle-final.cjs "${img}"`, { stdio: 'inherit' });
-}
+# 批量
+.\40_outputs\capabilities\skills\image-ocr\ocr-image.ps1 "*.png" -Batch
+
+# 直接 Node.js
+node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs "image.png"
 ```
 
 ---
 
-## 7. 注意事项
+## 10. 文件对照表
 
-1. **输入格式**: 仅支持 PNG，如果是 JPG/WEBP 需先转换
-2. **图片大小**: 建议图片宽度不超过 2000px，过大会慢
-3. **模型路径**: 脚本内写死了 `models/` 目录路径，不要移动
-4. **Node 版本**: 需要支持 async/await 的 Node.js 版本（v14+）
-
----
-
-## 8. 关键结论
-
-- ✅ **PaddleOCR 本地部署已可用**，无需网络、无需 API key
-- ✅ **中文识别准确率高**，适合 KDO 素材收集场景
-- ⚠️ **表格结构丢失**，纯文本输出，对结构化数据不友好
-- ✅ **建议主要使用** 本场 PaddleOCR，表格类再用在线 API
+| 文件 | 路径 | 说明 |
+|------|------|------|
+| 能力文档 | `wiki/40_outputs/capabilities/skills/image-ocr/SKILL.md` | 正式文档，进 git |
+| PowerShell 脚本 | `wiki/40_outputs/capabilities/skills/image-ocr/ocr-image.ps1` | 包装脚本，进 git |
+| 核心脚本 | `C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs` | Node.js 实现，不进 git |
+| 检测模型 | `C:\Users\Administrator\ocr-pipeline\models\det.onnx` | 4.6MB，不进 git |
+| 识别模型 | `C:\Users\Administrator\ocr-pipeline\models\rec.onnx` | 15.8MB，不进 git |
+| 字符字典 | `C:\Users\Administrator\ocr-pipeline\models\dict.txt` | 74KB，不进 git |
