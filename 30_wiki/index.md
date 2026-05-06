@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-05-06T17:06:29+00:00_
+_Last updated: 2026-05-06T17:55:03+00:00_
 
 - [EC工业化规范手册](concepts/EC工业化规范手册.md) - source `src_20260503_dadc7838`
 - [HIS系统开发实现方案-架构师指南](concepts/HIS系统开发实现方案-架构师指南.md) - source `src_20260503_1a1f0312`
@@ -34,7 +34,7 @@ _Last updated: 2026-05-06T17:06:29+00:00_
 - [关键假设](concepts/yt-entrepreneur-key-hypotheses.md) - source no source
 - [低成本验证/MVP](concepts/yt-entrepreneur-lean-validation.md) - source no source
 - [解放思想](concepts/yt-entrepreneur-liberate-thinking.md) - source no source
-- [需求分析](concepts/yt-entrepreneur-needs-analysis.md) - source no source
+- [需求分析](concepts/yt-entrepreneur-needs-analysis.md) - source `src_20260507_0872c7b3`
 - [机会选择](concepts/yt-entrepreneur-opportunity-selection.md) - source no source
 - [务实创业](concepts/yt-entrepreneur-pragmatic-startup.md) - source no source
 - [产品内核](concepts/yt-entrepreneur-product-core.md) - source no source
@@ -60,10 +60,10 @@ _Last updated: 2026-05-06T17:06:29+00:00_
 - [团队知识管理](concepts/yt-management-team-knowledge.md) - source no source
 - [AI 能力（双模型）](concepts/yt-personal-ai-capability.md) - source no source
 - [清单体笔记](concepts/yt-personal-checklist-notes.md) - source no source
-- [深度复盘](concepts/yt-personal-deep-review.md) - source no source
+- [深度复盘](concepts/yt-personal-deep-review.md) - source `src_20260507_9dd09688`
 - [科学成长（刻意练习）](concepts/yt-personal-deliberate-practice.md) - source no source
 - [灵感闪现（认知篇）](concepts/yt-personal-inspiration-flash.md) - source no source
-- [IPO 科学学习](concepts/yt-personal-ipo-learning.md) - source no source
+- [IPO 科学学习](concepts/yt-personal-ipo-learning.md) - source `src_20260507_85c9ae50`
 - [知识管理](concepts/yt-personal-knowledge-management.md) - source no source
 - [泛产品设计](concepts/yt-personal-product-design.md) - source no source
 - [十指销讲模型](concepts/yt-personal-sales-pitch-model.md) - source no source
@@ -79,16 +79,19 @@ _Last updated: 2026-05-06T17:06:29+00:00_
 - [一堂调研行动营 — AI辅助系统式调研方法论](concepts/一堂调研行动营-ai辅助系统式调研方法论.md) - source `src_20260503_5f268da2`
 - [互联网医院模式深度调研报告](concepts/互联网医院模式深度调研报告.md) - source `src_20260501_9962715b`
 - [保达云诊所深度调研报告](concepts/保达云诊所深度调研报告.md) - source `src_20260503_ae1921d5`
+- [值班主](concepts/值班主.md) - source `src_20260507_3f2ac357`
+- [声音和画面正常吗？](concepts/声音和画面正常吗.md) - source `src_20260507_857c7ed4`
 - [开源HIS系统代码深度分析报告](concepts/开源HIS系统代码深度分析报告.md) - source `src_20260503_f4891888`
-- [用这个免费API，让你的 Agent 拥有「看」的能力](concepts/用这个免费api让你的-agent-拥有看的能力.md) - source `src_20260507_95c66ae9`
+- [第一个举手。](concepts/第一个举手.md) - source `src_20260507_debc47be`
 - [紫鲸AI_智能体工作流平台_深度分析与产品设计](concepts/紫鲸ai_智能体工作流平台_深度分析与产品设计.md) - source `src_20260501_4eee4e95`
 - [紫鲸AI智能体工作流平台](concepts/紫鲸ai智能体工作流平台.md) - source `src_20260428_29929c1f`
 - [街顺APP全面调研报告](concepts/街顺app全面调研报告.md) - source `src_20260427_970eb338`
 - [诊所O2O外卖平台业务深度调研报告](concepts/诊所o2o外卖平台业务深度调研报告.md) - source no source
-- [说话人1     00:28](concepts/说话人1-00-28.md) - source `src_20260507_85c9ae50`
-- [说话人1     01:32](concepts/说话人1-01-32.md) - source `src_20260507_9dd09688`
+- [说话人1     00:00](concepts/说话人1-00-00.md) - source `src_20260507_67cb7ed2`
+- [说话人1     00:28](concepts/说话人1-00-28.md) - source `src_20260507_31a7f2df`
+- [说话人1     01:32](concepts/说话人1-01-32.md) - source `src_20260507_df666081`
 - [轻量级诊所HIS调研全清单](concepts/轻量级诊所HIS调研全清单.md) - source `src_20260503_5c91e867`
-- [过早上去都不好，最后归因发现就是因为需求自己定义的太大了，所以很多产品看上去乍一听都很好啊，但是一分析都有硬伤。](concepts/过早上去都不好最后归因发现就是因为需求自己定义的太大了所以很多产品看上去乍一听都很好啊但是一分析都有硬伤.md) - source `src_20260507_0872c7b3`
+- [过早上去都不好，最后归因发现就是因为需求自己定义的太大了，所以很多产品看上去乍一听都很好啊，但是一分析都有硬伤。](concepts/过早上去都不好最后归因发现就是因为需求自己定义的太大了所以很多产品看上去乍一听都很好啊但是一分析都有硬伤.md) - source `src_20260507_3120ec58`
 - [鑫港湾HIS系统分阶段整改报告](concepts/鑫港湾his系统分阶段整改报告.md) - source `src_20260428_db49a647`
 - [Kimi（月之暗面）](entities/Kimi-月之暗面.md) - source no source
 - [Y Combinator](entities/YC-Y-Combinator.md) - source no source

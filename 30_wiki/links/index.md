@@ -14,6 +14,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[30_wiki/systems/一堂方法论体系总图]]
 - [[30_wiki/concepts/yt-case-mandatory-cases.md]]
+- [[30_wiki/concepts/yt-personal-deep-review.md]]
+- [[30_wiki/concepts/yt-personal-ipo-learning.md]]
 - [[30_wiki/concepts/yt-system-course-map-lecture.md]]
 
 ## [[30_wiki/systems/一堂方法论体系总图|一堂方法论体系总图]]
@@ -125,6 +127,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[knowledge-delivery-os-快速体验指南-飞书云文档]]
 - [[30_wiki/concepts/ec工业化规范手册-v2.8.0.md]]
 
+## [[src_20260507_9dd09688]]
+- [[30_wiki/concepts/yt-personal-deep-review.md]]
+
 ## [[truman-perspective-skill]]
 - [[30_wiki/concepts/tinyfish-agentic-web-infrastructure.md]]
 
@@ -202,6 +207,45 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/entities/一堂.md]]
 - [[30_wiki/systems/一堂方法论体系总图.md]]
 
+## [[yt-entrepreneur-five-step-method]]
+- [[30_wiki/concepts/yt-entrepreneur-needs-analysis.md]]
+
+## [[yt-entrepreneur-key-hypotheses]]
+- [[30_wiki/concepts/yt-entrepreneur-needs-analysis.md]]
+
+## [[yt-entrepreneur-lean-validation]]
+- [[30_wiki/concepts/yt-entrepreneur-needs-analysis.md]]
+
+## [[yt-entrepreneur-liberate-thinking]]
+- [[30_wiki/concepts/yt-personal-ipo-learning.md]]
+
+## [[yt-entrepreneur-scientific-method]]
+- [[30_wiki/concepts/yt-personal-ipo-learning.md]]
+
+## [[yt-entrepreneur-scientific-method|科学决策/Y 模型]]
+- [[30_wiki/concepts/yt-personal-deep-review.md]]
+
+## [[yt-entrepreneur-unit-model]]
+- [[30_wiki/concepts/yt-entrepreneur-needs-analysis.md]]
+
+## [[yt-personal-deep-review]]
+- [[30_wiki/concepts/yt-personal-ipo-learning.md]]
+
+## [[yt-personal-deliberate-practice|刻意练习]]
+- [[30_wiki/concepts/yt-personal-deep-review.md]]
+
+## [[yt-personal-ipo-learning]]
+- [[30_wiki/concepts/yt-personal-deep-review.md]]
+
+## [[yt-personal-knowledge-management]]
+- [[30_wiki/concepts/yt-personal-ipo-learning.md]]
+
+## [[yt-personal-knowledge-management|知识管理]]
+- [[30_wiki/concepts/yt-personal-deep-review.md]]
+
+## [[yt-personal-time-management|时间管理]]
+- [[30_wiki/concepts/yt-personal-deep-review.md]]
+
 ## [[yt-research-action-camp-launch]]
 - [[30_wiki/entities/一堂.md]]
 - [[30_wiki/systems/一堂方法论体系总图.md]]
@@ -213,6 +257,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-system-course-map-lecture]]
 - [[30_wiki/concepts/yt-case-mandatory-cases.md]]
+- [[30_wiki/concepts/yt-entrepreneur-needs-analysis.md]]
+- [[30_wiki/concepts/yt-personal-deep-review.md]]
+- [[30_wiki/concepts/yt-personal-ipo-learning.md]]
 - [[30_wiki/concepts/yt-research-weaponry-course.md]]
 - [[30_wiki/entities/一堂.md]]
 - [[30_wiki/systems/一堂方法论体系总图.md]]

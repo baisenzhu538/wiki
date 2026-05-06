@@ -337,3 +337,101 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/用这个免费API，让你的 Agent 拥有「看」的能力.md"
   content_sha256: "3a3d98585ab954243c9fcaf4e44940904617611c2c25d272d6c0f7d0a292c6b0"
+
+- id: "src_20260507_31a7f2df"
+  title: "说话人1     00:28"
+  type: "other"
+  location: "10_raw/sources/src_20260507_31a7f2df-说话人1-00-28.md"
+  captured_at: "2026-05-06T17:55:02+00:00"
+  registered_at: "2026-05-06T17:55:02+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/说话人1-00-28.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-个人修炼-IPO模型实操课口述.md"
+  content_sha256: "4a291ac74d3c4641e035f8bd4ba26bd0e5c3fc6d22dd317e069014c062ed5cd9"
+
+- id: "src_20260507_df666081"
+  title: "说话人1     01:32"
+  type: "other"
+  location: "10_raw/sources/src_20260507_df666081-说话人1-01-32.md"
+  captured_at: "2026-05-06T17:55:02+00:00"
+  registered_at: "2026-05-06T17:55:02+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/说话人1-01-32.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-个人修炼-科学学习逐字稿.md"
+  content_sha256: "22bc09e6993ed1d72995c096887f796168dc1877ccc5f4eaf3d9aacbc306c32e"
+
+- id: "src_20260507_debc47be"
+  title: "第一个举手。"
+  type: "other"
+  location: "10_raw/sources/src_20260507_debc47be-第一个举手.md"
+  captured_at: "2026-05-06T17:55:02+00:00"
+  registered_at: "2026-05-06T17:55:02+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/第一个举手.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-创业必修-调研武器库.md"
+  content_sha256: "3a18439dd823d0d1b68c95136ed5b32222bdaf66447ab9615648eea9d8872e73"
+
+- id: "src_20260507_67cb7ed2"
+  title: "说话人1     00:00"
+  type: "other"
+  location: "10_raw/sources/src_20260507_67cb7ed2-说话人1-00-00.md"
+  captured_at: "2026-05-06T17:55:02+00:00"
+  registered_at: "2026-05-06T17:55:02+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/说话人1-00-00.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-创业必修-调研行动营.md"
+  content_sha256: "b97f23472cbbfa5c2a26d1f63bc1138bf6fd4c4071f7046bdbbcf817950c6a72"
+
+- id: "src_20260507_3120ec58"
+  title: "过早上去都不好，最后归因发现就是因为需求自己定义的太大了，所以很多产品看上去乍一听都很好啊，但是一分析都有硬伤。"
+  type: "other"
+  location: "10_raw/sources/src_20260507_3120ec58-过早上去都不好最后归因发现就是因为需求自己定义的太大了所以很多产品看上去乍一听都很好啊但是一分析都有硬伤.md"
+  captured_at: "2026-05-06T17:55:02+00:00"
+  registered_at: "2026-05-06T17:55:02+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/过早上去都不好最后归因发现就是因为需求自己定义的太大了所以很多产品看上去乍一听都很好啊但是一分析都有硬伤.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-创业必修-需求分析.md"
+  content_sha256: "1a630418bf3595938a2d90aacef1d70261b1e04bbc62c0dccb46b09a46802f11"
+
+- id: "src_20260507_857c7ed4"
+  title: "声音和画面正常吗？"
+  type: "other"
+  location: "10_raw/sources/src_20260507_857c7ed4-声音和画面正常吗.md"
+  captured_at: "2026-05-06T17:55:02+00:00"
+  registered_at: "2026-05-06T17:55:02+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/声音和画面正常吗.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-案例拆解-串讲口述.md"
+  content_sha256: "b07339b0eeb05af3714678b14092df2bdcd9dfb7adf2cbcb4c90278389eb56a2"
+
+- id: "src_20260507_3f2ac357"
+  title: "值班主"
+  type: "other"
+  location: "10_raw/sources/src_20260507_3f2ac357-值班主.md"
+  captured_at: "2026-05-06T17:55:03+00:00"
+  registered_at: "2026-05-06T17:55:03+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/值班主.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-课程地图精华串讲.md"
+  content_sha256: "37b971e9fb3806bfb89d95d2a56bfe4e5d7047c5d757b8f1184c59fe1aaf876b"

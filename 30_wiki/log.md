@@ -350,3 +350,19 @@ Chronological record of knowledge operations.
 - 2026-05-06T17:06:29+00:00 - Ingested `src_20260507_95c66ae9` from 00_inbox/用这个免费API，让你的 Agent 拥有「看」的能力.md
 
 - 2026-05-06T17:06:31+00:00 - Self-check: 56 auto-feedback record(s) created
+
+- 2026-05-06T17:55:02+00:00 - Ingested `src_20260507_31a7f2df` from 00_inbox/一堂-个人修炼-IPO模型实操课口述.md
+
+- 2026-05-06T17:55:02+00:00 - Ingested `src_20260507_df666081` from 00_inbox/一堂-个人修炼-科学学习逐字稿.md
+
+- 2026-05-06T17:55:02+00:00 - Ingested `src_20260507_debc47be` from 00_inbox/一堂-创业必修-调研武器库.md
+
+- 2026-05-06T17:55:02+00:00 - Ingested `src_20260507_67cb7ed2` from 00_inbox/一堂-创业必修-调研行动营.md
+
+- 2026-05-06T17:55:02+00:00 - Ingested `src_20260507_3120ec58` from 00_inbox/一堂-创业必修-需求分析.md
+
+- 2026-05-06T17:55:02+00:00 - Ingested `src_20260507_857c7ed4` from 00_inbox/一堂-案例拆解-串讲口述.md
+
+- 2026-05-06T17:55:03+00:00 - Ingested `src_20260507_3f2ac357` from 00_inbox/一堂-课程地图精华串讲.md
+
+- 2026-05-06T17:55:05+00:00 - Self-check: 56 auto-feedback record(s) created
