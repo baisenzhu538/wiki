@@ -366,3 +366,5 @@ Chronological record of knowledge operations.
 - 2026-05-06T17:55:03+00:00 - Ingested `src_20260507_3f2ac357` from 00_inbox/一堂-课程地图精华串讲.md
 
 - 2026-05-06T17:55:05+00:00 - Self-check: 56 auto-feedback record(s) created
+
+- 2026-05-07 - Ingested 知识萃取探索营 from 00_inbox/一堂-个人修炼-知识萃取探索营口述版.txt → 30_wiki/concepts/yt-personal-knowledge-extraction.md
