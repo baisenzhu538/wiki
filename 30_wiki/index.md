@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-05-06T17:55:03+00:00_
+_Last updated: 2026-05-08T09:59:17+00:00_
 
 - [EC工业化规范手册](concepts/EC工业化规范手册.md) - source `src_20260503_dadc7838`
 - [HIS系统开发实现方案-架构师指南](concepts/HIS系统开发实现方案-架构师指南.md) - source `src_20260503_1a1f0312`
@@ -14,6 +14,7 @@ _Last updated: 2026-05-06T17:55:03+00:00_
 - [Kimi 深度调研集群方法论 (Deep-Research-Swarm)](concepts/kimi-深度调研集群方法论-deep-research-swarm.md) - source `src_20260502_7d7c1b7c`
 - [Knowledge Delivery OS 快速体验指南 - 飞书云文档](concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md) - source `src_20260501_6a491b80`
 - [Obsidian + KDO 内容产出工作流 — 产品设计大纲](concepts/obsidian-kdo-内容产出工作流-产品设计大纲.md) - source no source
+- [PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill](concepts/paddleocr-skill.md) - source no source
 - [Kimi 深度调研集群方法论 (Deep-Research-Swarm)](concepts/research_methodology.md) - source no source
 - [TinyFish — Agentic Web 基础设施建设层 Skill](concepts/tinyfish-agentic-web-infrastructure.md) - source no source
 - [Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现](concepts/truman-perspective-skill.md) - source no source
@@ -58,12 +59,25 @@ _Last updated: 2026-05-06T17:55:03+00:00_
 - [科学开会](concepts/yt-management-scientific-meetings.md) - source no source
 - [战略会](concepts/yt-management-strategy-meeting.md) - source no source
 - [团队知识管理](concepts/yt-management-team-knowledge.md) - source no source
+- [双三角竞争力模型](concepts/yt-model-dual-triangle-competitiveness.md) - source no source
+- [创业修炼地图](concepts/yt-model-entrepreneur-map.md) - source no source
+- [IPO 科学学习完整清单](concepts/yt-model-ipo-complete-checklist.md) - source no source
+- [IPO 科学学习全景策略](concepts/yt-model-ipo-learning-strategy.md) - source no source
+- [解放思想五层模型](concepts/yt-model-liberate-thinking-layers.md) - source no source
+- [管理修炼地图](concepts/yt-model-management-map.md) - source no source
+- [MUSE 人工智能全景图](concepts/yt-model-muse-ai-framework.md) - source no source
+- [个人修炼地图](concepts/yt-model-personal-map.md) - source no source
+- [无限进步大地图](concepts/yt-model-progress-map.md) - source no source
+- [提问刻意练习提升画布](concepts/yt-model-questioning-practice-canvas.md) - source no source
+- [科学提问刻意练习地图](concepts/yt-model-scientific-questioning-map.md) - source no source
+- [Y 型创业模型](concepts/yt-model-y-organization.md) - source no source
 - [AI 能力（双模型）](concepts/yt-personal-ai-capability.md) - source no source
 - [清单体笔记](concepts/yt-personal-checklist-notes.md) - source no source
 - [深度复盘](concepts/yt-personal-deep-review.md) - source `src_20260507_9dd09688`
 - [科学成长（刻意练习）](concepts/yt-personal-deliberate-practice.md) - source no source
 - [灵感闪现（认知篇）](concepts/yt-personal-inspiration-flash.md) - source no source
 - [IPO 科学学习](concepts/yt-personal-ipo-learning.md) - source `src_20260507_85c9ae50`
+- [知识萃取方法论](concepts/yt-personal-knowledge-extraction.md) - source no source
 - [知识管理](concepts/yt-personal-knowledge-management.md) - source no source
 - [泛产品设计](concepts/yt-personal-product-design.md) - source no source
 - [十指销讲模型](concepts/yt-personal-sales-pitch-model.md) - source no source
@@ -72,6 +86,7 @@ _Last updated: 2026-05-06T17:55:03+00:00_
 - [逐字稿](concepts/yt-personal-verbatim-script.md) - source no source
 - [一堂调研行动营 · 启动课（LLM 精炼）](concepts/yt-research-action-camp-launch.md) - source no source
 - [一堂调研武器库课程](concepts/yt-research-weaponry-course.md) - source no source
+- [一堂全课程目录索引](concepts/yt-system-course-catalog.md) - source no source
 - [一堂课程地图精华串讲](concepts/yt-system-course-map-lecture.md) - source no source
 - [一堂-调研行动营启动_原文润色](concepts/一堂-调研行动营启动_原文润色.md) - source `src_20260503_9bfe6913`
 - [一堂调研武器库13招](concepts/一堂调研武器库13招.md) - source `src_20260503_af21929e`
@@ -79,19 +94,20 @@ _Last updated: 2026-05-06T17:55:03+00:00_
 - [一堂调研行动营 — AI辅助系统式调研方法论](concepts/一堂调研行动营-ai辅助系统式调研方法论.md) - source `src_20260503_5f268da2`
 - [互联网医院模式深度调研报告](concepts/互联网医院模式深度调研报告.md) - source `src_20260501_9962715b`
 - [保达云诊所深度调研报告](concepts/保达云诊所深度调研报告.md) - source `src_20260503_ae1921d5`
-- [值班主](concepts/值班主.md) - source `src_20260507_3f2ac357`
-- [声音和画面正常吗？](concepts/声音和画面正常吗.md) - source `src_20260507_857c7ed4`
+- [值班主](concepts/值班主.md) - source `src_20260508_a5f78afe`
+- [声音和画面正常吗？](concepts/声音和画面正常吗.md) - source `src_20260508_5298027a`
 - [开源HIS系统代码深度分析报告](concepts/开源HIS系统代码深度分析报告.md) - source `src_20260503_f4891888`
-- [第一个举手。](concepts/第一个举手.md) - source `src_20260507_debc47be`
+- [用这个免费API，让你的 Agent 拥有「看」的能力](concepts/用这个免费api让你的-agent-拥有看的能力.md) - source `src_20260508_0fc4f656`
+- [第一个举手。](concepts/第一个举手.md) - source `src_20260508_8ba64cd1`
 - [紫鲸AI_智能体工作流平台_深度分析与产品设计](concepts/紫鲸ai_智能体工作流平台_深度分析与产品设计.md) - source `src_20260501_4eee4e95`
 - [紫鲸AI智能体工作流平台](concepts/紫鲸ai智能体工作流平台.md) - source `src_20260428_29929c1f`
 - [街顺APP全面调研报告](concepts/街顺app全面调研报告.md) - source `src_20260427_970eb338`
 - [诊所O2O外卖平台业务深度调研报告](concepts/诊所o2o外卖平台业务深度调研报告.md) - source no source
-- [说话人1     00:00](concepts/说话人1-00-00.md) - source `src_20260507_67cb7ed2`
-- [说话人1     00:28](concepts/说话人1-00-28.md) - source `src_20260507_31a7f2df`
-- [说话人1     01:32](concepts/说话人1-01-32.md) - source `src_20260507_df666081`
+- [说话人1     00:00](concepts/说话人1-00-00.md) - source `src_20260508_22eaf31f`
+- [说话人1     00:28](concepts/说话人1-00-28.md) - source `src_20260508_4c61bc9c`
+- [说话人1     01:32](concepts/说话人1-01-32.md) - source `src_20260508_b84d707f`
 - [轻量级诊所HIS调研全清单](concepts/轻量级诊所HIS调研全清单.md) - source `src_20260503_5c91e867`
-- [过早上去都不好，最后归因发现就是因为需求自己定义的太大了，所以很多产品看上去乍一听都很好啊，但是一分析都有硬伤。](concepts/过早上去都不好最后归因发现就是因为需求自己定义的太大了所以很多产品看上去乍一听都很好啊但是一分析都有硬伤.md) - source `src_20260507_3120ec58`
+- [过早上去都不好，最后归因发现就是因为需求自己定义的太大了，所以很多产品看上去乍一听都很好啊，但是一分析都有硬伤。](concepts/过早上去都不好最后归因发现就是因为需求自己定义的太大了所以很多产品看上去乍一听都很好啊但是一分析都有硬伤.md) - source `src_20260508_7fec8ad9`
 - [鑫港湾HIS系统分阶段整改报告](concepts/鑫港湾his系统分阶段整改报告.md) - source `src_20260428_db49a647`
 - [Kimi（月之暗面）](entities/Kimi-月之暗面.md) - source no source
 - [Y Combinator](entities/YC-Y-Combinator.md) - source no source
@@ -107,9 +123,3 @@ _Last updated: 2026-05-06T17:55:03+00:00_
 - [kdo watch 定时巡检层技术说明](systems/kdo-watch-health-check-layer.md) - source no source
 - [Obsidian Git Multi-Device Sync Protocol](systems/obsidian-git-sync-protocol.md) - source no source
 - [一堂方法论体系总图](systems/一堂方法论体系总图.md) - source no source
-
-## laowantong (周伯通专属空间)
-
-- [TinyFish 深度评估报告](laowantong/tinyfish-assessment-report.md) - source `tinyfish.ai + github`
-- [TinyFish Cookbook 架构模板](laowantong/tinyfish-cookbook-template.md) - source `github/tinyfish-io/tinyfish-cookbook`
-- [PaddleOCR 本地部署使用指南](laowantong/paddleocr-deployment-guide.md) - source `本地部署`

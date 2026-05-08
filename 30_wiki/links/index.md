@@ -2,6 +2,18 @@
 
 _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
+## [[#个人必修]]
+- [[30_wiki/concepts/yt-system-course-catalog.md]]
+
+## [[#创业必修]]
+- [[30_wiki/concepts/yt-system-course-catalog.md]]
+
+## [[#案例拆解]]
+- [[30_wiki/concepts/yt-system-course-catalog.md]]
+
+## [[#管理必修]]
+- [[30_wiki/concepts/yt-system-course-catalog.md]]
+
 ## [[...]]
 - [[30_wiki/concepts/graph-rag.md]]
 - [[30_wiki/systems/kdo-protocol.md]]
@@ -52,6 +64,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md]]
 - [[30_wiki/concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md]]
 - [[30_wiki/concepts/obsidian-kdo-内容产出工作流-产品设计大纲.md]]
+- [[30_wiki/concepts/paddleocr-skill.md]]
 - [[30_wiki/concepts/research_methodology.md]]
 - [[30_wiki/concepts/tinyfish-agentic-web-infrastructure.md]]
 - [[30_wiki/concepts/truman-perspective-skill.md]]
@@ -111,6 +124,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/诊所o2o外卖平台业务深度调研报告.md]]
 
 ## [[business-research-skill-oscar-13-weapon-system]]
+- [[30_wiki/concepts/paddleocr-skill.md]]
 - [[30_wiki/concepts/tinyfish-agentic-web-infrastructure.md]]
 - [[30_wiki/concepts/truman-perspective-skill.md]]
 - [[30_wiki/concepts/yt-research-action-camp-launch.md]]
@@ -121,6 +135,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[ec工业化规范手册 v2.8.0]]
 - [[30_wiki/projects/鑫港湾HIS项目.md]]
 
+## [[image-ocr|40_outputs/capabilities/skills/image-ocr/SKILL.md]]
+- [[30_wiki/systems/一堂方法论体系总图.md]]
+
 ## [[kimi-深度调研集群方法论-deep-research-swarm]]
 - [[30_wiki/concepts/一堂调研武器库13招.md]]
 
@@ -130,10 +147,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[src_20260507_9dd09688]]
 - [[30_wiki/concepts/yt-personal-deep-review.md]]
 
+## [[tinyfish-agentic-web-infrastructure]]
+- [[30_wiki/concepts/paddleocr-skill.md]]
+
 ## [[truman-perspective-skill]]
 - [[30_wiki/concepts/tinyfish-agentic-web-infrastructure.md]]
 
 ## [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]
+- [[30_wiki/concepts/paddleocr-skill.md]]
 - [[30_wiki/concepts/tinyfish-agentic-web-infrastructure.md]]
 
 ## [[wikilink]]
@@ -203,6 +224,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/entities/一堂.md]]
 
 ## [[yt-case-mandatory-cases]]
+- [[30_wiki/concepts/yt-system-course-catalog.md]]
 - [[30_wiki/concepts/yt-system-course-map-lecture.md]]
 - [[30_wiki/entities/一堂.md]]
 - [[30_wiki/systems/一堂方法论体系总图.md]]
@@ -217,9 +239,15 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-entrepreneur-needs-analysis.md]]
 
 ## [[yt-entrepreneur-liberate-thinking]]
+- [[30_wiki/concepts/yt-model-liberate-thinking-layers.md]]
 - [[30_wiki/concepts/yt-personal-ipo-learning.md]]
 
+## [[yt-entrepreneur-pragmatic-startup]]
+- [[30_wiki/concepts/yt-model-liberate-thinking-layers.md]]
+
 ## [[yt-entrepreneur-scientific-method]]
+- [[30_wiki/concepts/yt-model-liberate-thinking-layers.md]]
+- [[30_wiki/concepts/yt-model-questioning-practice-canvas.md]]
 - [[30_wiki/concepts/yt-personal-ipo-learning.md]]
 
 ## [[yt-entrepreneur-scientific-method|科学决策/Y 模型]]
@@ -228,16 +256,94 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-entrepreneur-unit-model]]
 - [[30_wiki/concepts/yt-entrepreneur-needs-analysis.md]]
 
+## [[yt-management-scientific-hiring]]
+- [[30_wiki/concepts/yt-model-questioning-practice-canvas.md]]
+
+## [[yt-model-dual-triangle-competitiveness]]
+- [[30_wiki/concepts/yt-model-muse-ai-framework.md]]
+
+## [[yt-model-entrepreneur-map]]
+- [[30_wiki/concepts/yt-model-management-map.md]]
+- [[30_wiki/concepts/yt-model-progress-map.md]]
+- [[30_wiki/concepts/yt-model-y-organization.md]]
+
+## [[yt-model-ipo-complete-checklist]]
+- [[30_wiki/concepts/yt-system-course-catalog.md]]
+
+## [[yt-model-ipo-learning-strategy]]
+- [[30_wiki/concepts/yt-model-ipo-complete-checklist.md]]
+- [[30_wiki/concepts/yt-model-personal-map.md]]
+- [[30_wiki/concepts/yt-personal-knowledge-extraction.md]]
+
+## [[yt-model-management-map]]
+- [[30_wiki/concepts/yt-model-entrepreneur-map.md]]
+- [[30_wiki/concepts/yt-model-progress-map.md]]
+- [[30_wiki/concepts/yt-model-y-organization.md]]
+- [[30_wiki/concepts/yt-personal-knowledge-extraction.md]]
+
+## [[yt-model-muse-ai-framework]]
+- [[30_wiki/concepts/yt-model-dual-triangle-competitiveness.md]]
+
+## [[yt-model-personal-map]]
+- [[30_wiki/concepts/yt-model-management-map.md]]
+- [[30_wiki/concepts/yt-model-progress-map.md]]
+- [[30_wiki/concepts/yt-model-y-organization.md]]
+- [[30_wiki/concepts/yt-personal-knowledge-extraction.md]]
+
+## [[yt-model-progress-map]]
+- [[30_wiki/concepts/yt-model-entrepreneur-map.md]]
+- [[30_wiki/concepts/yt-model-management-map.md]]
+- [[30_wiki/concepts/yt-model-personal-map.md]]
+- [[30_wiki/concepts/yt-model-y-organization.md]]
+- [[30_wiki/concepts/yt-personal-knowledge-extraction.md]]
+
+## [[yt-model-scientific-questioning-map]]
+- [[30_wiki/concepts/yt-model-questioning-practice-canvas.md]]
+
+## [[yt-model-y-organization]]
+- [[30_wiki/concepts/yt-model-entrepreneur-map.md]]
+- [[30_wiki/concepts/yt-model-management-map.md]]
+- [[30_wiki/concepts/yt-model-personal-map.md]]
+- [[30_wiki/concepts/yt-model-progress-map.md]]
+- [[30_wiki/concepts/yt-personal-knowledge-extraction.md]]
+
+## [[yt-personal-ai-capability]]
+- [[30_wiki/concepts/yt-model-dual-triangle-competitiveness.md]]
+- [[30_wiki/concepts/yt-model-muse-ai-framework.md]]
+
+## [[yt-personal-checklist-notes]]
+- [[30_wiki/concepts/yt-model-ipo-complete-checklist.md]]
+- [[30_wiki/concepts/yt-model-ipo-learning-strategy.md]]
+
 ## [[yt-personal-deep-review]]
+- [[30_wiki/concepts/yt-model-ipo-complete-checklist.md]]
+- [[30_wiki/concepts/yt-model-ipo-learning-strategy.md]]
+- [[30_wiki/concepts/yt-model-questioning-practice-canvas.md]]
+- [[30_wiki/concepts/yt-model-scientific-questioning-map.md]]
 - [[30_wiki/concepts/yt-personal-ipo-learning.md]]
+
+## [[yt-personal-deliberate-practice]]
+- [[30_wiki/concepts/yt-model-ipo-complete-checklist.md]]
+- [[30_wiki/concepts/yt-model-ipo-learning-strategy.md]]
+- [[30_wiki/concepts/yt-model-questioning-practice-canvas.md]]
+- [[30_wiki/concepts/yt-model-scientific-questioning-map.md]]
 
 ## [[yt-personal-deliberate-practice|刻意练习]]
 - [[30_wiki/concepts/yt-personal-deep-review.md]]
 
+## [[yt-personal-ipo-checklist]]
+- [[30_wiki/concepts/yt-model-ipo-learning-strategy.md]]
+
 ## [[yt-personal-ipo-learning]]
+- [[30_wiki/concepts/yt-model-dual-triangle-competitiveness.md]]
+- [[30_wiki/concepts/yt-model-ipo-complete-checklist.md]]
+- [[30_wiki/concepts/yt-model-ipo-learning-strategy.md]]
+- [[30_wiki/concepts/yt-model-scientific-questioning-map.md]]
 - [[30_wiki/concepts/yt-personal-deep-review.md]]
 
 ## [[yt-personal-knowledge-management]]
+- [[30_wiki/concepts/yt-model-ipo-complete-checklist.md]]
+- [[30_wiki/concepts/yt-model-ipo-learning-strategy.md]]
 - [[30_wiki/concepts/yt-personal-ipo-learning.md]]
 
 ## [[yt-personal-knowledge-management|知识管理]]
@@ -255,12 +361,41 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/entities/一堂.md]]
 - [[30_wiki/systems/一堂方法论体系总图.md]]
 
+## [[yt-system-course-catalog]]
+- [[30_wiki/concepts/yt-model-progress-map.md]]
+- [[30_wiki/concepts/yt-model-y-organization.md]]
+- [[30_wiki/concepts/yt-personal-knowledge-extraction.md]]
+
+## [[yt-system-course-catalog#个人必修]]
+- [[30_wiki/concepts/yt-model-personal-map.md]]
+
+## [[yt-system-course-catalog#创业必修]]
+- [[30_wiki/concepts/yt-model-entrepreneur-map.md]]
+
+## [[yt-system-course-catalog#管理必修]]
+- [[30_wiki/concepts/yt-model-management-map.md]]
+
+## [[yt-system-course-catalog-cases]]
+- [[30_wiki/concepts/yt-system-course-catalog.md]]
+
+## [[yt-system-course-catalog-entrepreneur]]
+- [[30_wiki/concepts/yt-system-course-catalog.md]]
+
+## [[yt-system-course-catalog-management]]
+- [[30_wiki/concepts/yt-system-course-catalog.md]]
+
+## [[yt-system-course-catalog-personal]]
+- [[30_wiki/concepts/yt-system-course-catalog.md]]
+
 ## [[yt-system-course-map-lecture]]
 - [[30_wiki/concepts/yt-case-mandatory-cases.md]]
 - [[30_wiki/concepts/yt-entrepreneur-needs-analysis.md]]
+- [[30_wiki/concepts/yt-model-ipo-learning-strategy.md]]
+- [[30_wiki/concepts/yt-model-liberate-thinking-layers.md]]
 - [[30_wiki/concepts/yt-personal-deep-review.md]]
 - [[30_wiki/concepts/yt-personal-ipo-learning.md]]
 - [[30_wiki/concepts/yt-research-weaponry-course.md]]
+- [[30_wiki/concepts/yt-system-course-catalog.md]]
 - [[30_wiki/entities/一堂.md]]
 - [[30_wiki/systems/一堂方法论体系总图.md]]
 
@@ -268,6 +403,20 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yitang-course-map.md]]
 
 ## [[一堂]]
+- [[30_wiki/concepts/yt-model-dual-triangle-competitiveness.md]]
+- [[30_wiki/concepts/yt-model-entrepreneur-map.md]]
+- [[30_wiki/concepts/yt-model-ipo-complete-checklist.md]]
+- [[30_wiki/concepts/yt-model-ipo-learning-strategy.md]]
+- [[30_wiki/concepts/yt-model-liberate-thinking-layers.md]]
+- [[30_wiki/concepts/yt-model-management-map.md]]
+- [[30_wiki/concepts/yt-model-muse-ai-framework.md]]
+- [[30_wiki/concepts/yt-model-personal-map.md]]
+- [[30_wiki/concepts/yt-model-progress-map.md]]
+- [[30_wiki/concepts/yt-model-questioning-practice-canvas.md]]
+- [[30_wiki/concepts/yt-model-scientific-questioning-map.md]]
+- [[30_wiki/concepts/yt-model-y-organization.md]]
+- [[30_wiki/concepts/yt-personal-knowledge-extraction.md]]
+- [[30_wiki/concepts/yt-system-course-catalog.md]]
 - [[30_wiki/concepts/yt-system-course-map-lecture.md]]
 - [[30_wiki/systems/一堂方法论体系总图.md]]
 
@@ -327,6 +476,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-management-scientific-meetings.md]]
 - [[30_wiki/concepts/yt-management-strategy-meeting.md]]
 - [[30_wiki/concepts/yt-management-team-knowledge.md]]
+- [[30_wiki/concepts/yt-model-dual-triangle-competitiveness.md]]
+- [[30_wiki/concepts/yt-model-ipo-complete-checklist.md]]
+- [[30_wiki/concepts/yt-model-liberate-thinking-layers.md]]
+- [[30_wiki/concepts/yt-model-muse-ai-framework.md]]
+- [[30_wiki/concepts/yt-model-scientific-questioning-map.md]]
+- [[30_wiki/concepts/yt-model-y-organization.md]]
 - [[30_wiki/concepts/yt-personal-ai-capability.md]]
 - [[30_wiki/concepts/yt-personal-checklist-notes.md]]
 - [[30_wiki/concepts/yt-personal-deep-review.md]]

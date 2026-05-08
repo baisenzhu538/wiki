@@ -368,3 +368,21 @@ Chronological record of knowledge operations.
 - 2026-05-06T17:55:05+00:00 - Self-check: 56 auto-feedback record(s) created
 
 - 2026-05-07 - Ingested 知识萃取探索营 from 00_inbox/一堂-个人修炼-知识萃取探索营口述版.txt → 30_wiki/concepts/yt-personal-knowledge-extraction.md
+
+- 2026-05-08T09:59:17+00:00 - Ingested `src_20260508_4c61bc9c` from 00_inbox/ideas/一堂-个人修炼-IPO模型实操课口述.md
+
+- 2026-05-08T09:59:17+00:00 - Ingested `src_20260508_b84d707f` from 00_inbox/ideas/一堂-个人修炼-科学学习逐字稿.md
+
+- 2026-05-08T09:59:17+00:00 - Ingested `src_20260508_8ba64cd1` from 00_inbox/ideas/一堂-创业必修-调研武器库.md
+
+- 2026-05-08T09:59:17+00:00 - Ingested `src_20260508_22eaf31f` from 00_inbox/ideas/一堂-创业必修-调研行动营.md
+
+- 2026-05-08T09:59:17+00:00 - Ingested `src_20260508_7fec8ad9` from 00_inbox/ideas/一堂-创业必修-需求分析.md
+
+- 2026-05-08T09:59:17+00:00 - Ingested `src_20260508_5298027a` from 00_inbox/ideas/一堂-案例拆解-串讲口述.md
+
+- 2026-05-08T09:59:17+00:00 - Ingested `src_20260508_a5f78afe` from 00_inbox/ideas/一堂-课程地图精华串讲.md
+
+- 2026-05-08T09:59:17+00:00 - Ingested `src_20260508_0fc4f656` from 00_inbox/ideas/用这个免费API，让你的 Agent 拥有「看」的能力.md
+
+- 2026-05-08T09:59:21+00:00 - Self-check: 71 auto-feedback record(s) created
