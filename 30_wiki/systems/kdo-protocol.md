@@ -97,5 +97,5 @@ review_date: "2026-05-03"
 
 1. **No automated validation yet**: `schemas/concept.yaml` 是声明式 Schema，但还没有钩子（hook）在 AI 写入前自动执行校验。目前依赖 AI 自检。
 2. **Context loading is expensive**: AI 每次会话需要重新读取 PROTOCOL.md + AGENTS.md + routing-rules.md，大型 vault 的上下文加载成本高。
-3. **Graph RAG not integrated**: 双向链接 `[[...]]` 对人类是知识网络，对当前 AI 是文本符号。缺乏显式图谱索引。
+3. **Graph RAG not integrated**: 双向链接 `...` 对人类是知识网络，对当前 AI 是文本符号。缺乏显式图谱索引。
 4. **Cross-device sync edge cases**: Protocol 假设 Git 是同步层，但没有处理 Obsidian Git 插件的自动备份冲突（`.obsidian/` 等机器配置的多设备打架问题）。

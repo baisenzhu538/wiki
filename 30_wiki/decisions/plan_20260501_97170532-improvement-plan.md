@@ -91,8 +91,8 @@ artifact_count: 9
 - WARNING `30_wiki/concepts/街顺app全面调研报告.md`: Broken wikilink: 饿了么翱象 (no matching page found)
 - WARNING `30_wiki/concepts/鑫港湾his系统分阶段整改报告.md`: Broken wikilink: 医疗信息系统安全合规 (no matching page found)
 - WARNING `30_wiki/concepts/鑫港湾his系统分阶段整改报告.md`: Broken wikilink: .NET微服务架构演进 (no matching page found)
-- WARNING `30_wiki/concepts/鑫港湾his系统分阶段整改报告.md`: Broken wikilink: [[数据库迁移最佳实践]] (no matching page found)
-- WARNING `30_wiki/concepts/鑫港湾his系统分阶段整改报告.md`: Broken wikilink: [[代码审查与整改方法论]] (no matching page found)
+- WARNING `30_wiki/concepts/鑫港湾his系统分阶段整改报告.md`: Broken wikilink: 数据库迁移最佳实践 (no matching page found)
+- WARNING `30_wiki/concepts/鑫港湾his系统分阶段整改报告.md`: Broken wikilink: 代码审查与整改方法论 (no matching page found)
 
 ## Recommended Next Actions
 

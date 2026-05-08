@@ -8,7 +8,7 @@ created_at: "2026-05-03"
 updated_at: "2026-05-03"
 related:
   - "[[kdo-protocol]]"
-  - "[[KDO Protocol Implementation Roadmap]]"
+  - "[[kdo-protocol-implementation-roadmap]]"
 tags:
   - #kdo
   - #priority

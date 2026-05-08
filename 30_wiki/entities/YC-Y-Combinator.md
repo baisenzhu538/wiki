@@ -12,7 +12,7 @@ source_refs:
 created_at: "2026-05-03"
 updated_at: "2026-05-03"
 related:
-  - "[[YC AI-Native 公司组织方法论]]"
+  - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
   - "[[kdo-protocol]]"
   - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
 tags:

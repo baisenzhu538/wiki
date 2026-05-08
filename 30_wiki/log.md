@@ -181,7 +181,7 @@ Chronological record of knowledge operations.
 ### References
 
 - `[[kdo-protocol]]`
-- `[[KDO Protocol Implementation Roadmap]]`
+- `[[kdo-protocol-implementation-roadmap]]`
 - `[[index]]`
 - `[[Obsidian Git Multi-Device Sync Protocol]]`
 

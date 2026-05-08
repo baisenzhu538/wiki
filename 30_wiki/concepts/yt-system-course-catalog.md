@@ -39,7 +39,7 @@ tags:
 
 ## 创业必修（1/4）
 
-> 详细见 [[yt-system-course-catalog-entrepreneur]]
+> 详细见 yt-system-course-catalog-entrepreneur
 
 ### 预判阶段
 
@@ -93,7 +93,7 @@ tags:
 
 ## 管理必修（2/4）
 
-> 详细见 [[yt-system-course-catalog-management]]
+> 详细见 yt-system-course-catalog-management
 
 ### 管项目
 
@@ -138,7 +138,7 @@ tags:
 
 ## 个人必修（3/4）
 
-> 详细见 [[yt-system-course-catalog-personal]]
+> 详细见 yt-system-course-catalog-personal
 
 ### 不断提认知
 
@@ -172,7 +172,7 @@ tags:
 
 ## 案例拆解（4/4）
 
-> 详细见 [[yt-system-course-catalog-cases]]
+> 详细见 yt-system-course-catalog-cases
 
 ### 搞砸之夜（失败复盘）
 

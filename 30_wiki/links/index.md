@@ -1,6 +1,6 @@
 # Backlinks Index
 
-_Auto-generated index of `[[wikilink]]` references across wiki pages._
+_Auto-generated index of `wikilink` references across wiki pages._
 
 ## [[#个人必修]]
 - [[30_wiki/concepts/yt-system-course-catalog.md]]
@@ -14,7 +14,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[#管理必修]]
 - [[30_wiki/concepts/yt-system-course-catalog.md]]
 
-## [[...]]
+## ...
 - [[30_wiki/concepts/graph-rag.md]]
 - [[30_wiki/systems/kdo-protocol.md]]
 
@@ -75,7 +75,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/systems/kdo-protocol.md]]
 - [[30_wiki/systems/obsidian-git-sync-protocol.md]]
 
-## [[KDO Protocol Implementation Roadmap]]
+## [[kdo-protocol-implementation-roadmap]]
 - [[30_wiki/systems/obsidian-git-sync-protocol.md]]
 
 ## [[kimi-深度调研集群方法论-deep-research-swarm]]
@@ -111,7 +111,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/obsidian-kdo-内容产出工作流-产品设计大纲.md]]
 - [[30_wiki/systems/kdo-protocol.md]]
 
-## [[YC AI-Native 公司组织方法论]]
+## [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
 - [[30_wiki/entities/YC-Y-Combinator.md]]
 - [[30_wiki/entities/紫鲸AI.md]]
 
@@ -132,7 +132,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/systems/kdo-protocol.md]]
 - [[30_wiki/systems/一堂方法论体系总图.md]]
 
-## [[ec工业化规范手册 v2.8.0]]
+## [[ec工业化规范手册-v2.8.0]]
 - [[30_wiki/projects/鑫港湾HIS项目.md]]
 
 ## [[image-ocr|40_outputs/capabilities/skills/image-ocr/SKILL.md]]
@@ -157,7 +157,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/paddleocr-skill.md]]
 - [[30_wiki/concepts/tinyfish-agentic-web-infrastructure.md]]
 
-## [[wikilink]]
+## wikilink
 - [[30_wiki/systems/kdo-watch-health-check-layer.md]]
 
 ## [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown|YC AI-Native公司组织方法论]]
@@ -375,16 +375,16 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-system-course-catalog#管理必修]]
 - [[30_wiki/concepts/yt-model-management-map.md]]
 
-## [[yt-system-course-catalog-cases]]
+## yt-system-course-catalog-cases
 - [[30_wiki/concepts/yt-system-course-catalog.md]]
 
-## [[yt-system-course-catalog-entrepreneur]]
+## yt-system-course-catalog-entrepreneur
 - [[30_wiki/concepts/yt-system-course-catalog.md]]
 
-## [[yt-system-course-catalog-management]]
+## yt-system-course-catalog-management
 - [[30_wiki/concepts/yt-system-course-catalog.md]]
 
-## [[yt-system-course-catalog-personal]]
+## yt-system-course-catalog-personal
 - [[30_wiki/concepts/yt-system-course-catalog.md]]
 
 ## [[yt-system-course-map-lecture]]
@@ -537,7 +537,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/projects/互联网医院项目.md]]
 - [[30_wiki/projects/诊所O2O项目.md]]
 
-## [[代码审查与整改方法论]]
+## 代码审查与整改方法论
 - [[30_wiki/concepts/鑫港湾his系统分阶段整改报告.md]]
 
 ## [[保达云诊所深度调研报告]]
@@ -572,7 +572,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[开源HIS系统代码深度分析报告]]
 - [[30_wiki/concepts/HIS系统开发实现方案-架构师指南.md]]
 
-## [[数据库迁移最佳实践]]
+## 数据库迁移最佳实践
 - [[30_wiki/concepts/鑫港湾his系统分阶段整改报告.md]]
 
 ## 无人零售技术路线
@@ -640,7 +640,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/保达云诊所深度调研报告.md]]
 - [[30_wiki/concepts/开源HIS系统代码深度分析报告.md]]
 
-## [[链接]]
+## 链接
 - [[30_wiki/concepts/graph-rag.md]]
 
 ## 饿了么翱象

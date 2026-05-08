@@ -8,7 +8,7 @@ created_at: "2026-05-03"
 updated_at: "2026-05-03"
 related:
   - "[[kdo-protocol]]"
-  - "[[KDO Protocol Implementation Roadmap]]"
+  - "[[kdo-protocol-implementation-roadmap]]"
 tags:
   - #obsidian
   - #git
@@ -39,7 +39,7 @@ review_date: "2026-05-03"
 ### [Synthesis]
 
 - **Links to**: [[kdo-protocol]] — Sync protocol is a subsystem of the master operating contract.
-- **Links to**: [[KDO Protocol Implementation Roadmap]] — Listed as P3 item; this page fulfills that deliverable.
+- **Links to**: [[kdo-protocol-implementation-roadmap]] — Listed as P3 item; this page fulfills that deliverable.
 - **Complements**: `90_control/PROTOCOL.md` Section 2 (Directory Topology) — Defines which directories are git-ignored.
 - **Transferable to**: Any Obsidian vault using Git sync across multiple machines (Windows, macOS, Linux, mobile).
 

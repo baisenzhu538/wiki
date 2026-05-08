@@ -13,7 +13,7 @@ updated_at: "2026-05-03"
 related:
   - "[[紫鲸AI智能体工作流平台]]"
   - "[[紫鲸AI_智能体工作流平台_深度分析与产品设计]]"
-  - "[[YC AI-Native 公司组织方法论]]"
+  - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
 tags:
   - "#ai-saas"
   - "#content-marketing"
