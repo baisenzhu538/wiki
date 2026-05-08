@@ -48,9 +48,9 @@ updated_at: "2026-05-04T00:00:00+00:00"
 ## [Synthesis] 对标与迁移
 
 ### 关联概念
-- [[KDO Protocol]] — KDO 体验指南是 Protocol 的"用户手册"，Protocol 的定义需要在指南中得到清晰映射。
-- [[Graph RAG]] — KDO 当前只有文本层面的 [[双向链接]]，Graph RAG 是让三层溯源链路可计算化的关键基础设施。
-- [[YC AI-Native 方法论]] — KDO 本身就是 AI-native 组织的最小可行原型：CLAUDE.md 是组织的"操作系统"，三步编译是知识的"工厂产线"。
+- [[kdo-protocol]] — KDO 体验指南是 Protocol 的"用户手册"，Protocol 的定义需要在指南中得到清晰映射。
+- [[graph-rag]] — KDO 当前只有文本层面的 双向链接，Graph RAG 是让三层溯源链路可计算化的关键基础设施。
+- [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]] — KDO 本身就是 AI-native 组织的最小可行原型：CLAUDE.md 是组织的"操作系统"，三步编译是知识的"工厂产线"。
 
 ### 互补与冲突
 - 互补：KDO 解决了 YC 方法论中"公司变得可查询"的技术实现——state.json 记录了所有 source→wiki→artifact 的溯源链，KDO 的 workspace 就是公司认知的"可查询快照"。

@@ -72,4 +72,4 @@ Capability: workflow
 
 - [[一堂调研武器库13招]] — 13 招分类体系（精炼版）
 - [[business-research-skill-oscar-13-weapon-system]] — OSCAR+13武器商业调研 Skill
-- [[一堂调研行动营 — AI辅助系统式调研方法论]] — AI 协同调研范式
+- [[一堂调研行动营-ai辅助系统式调研方法论]] — AI 协同调研范式

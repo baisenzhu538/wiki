@@ -71,7 +71,7 @@ tags:
 
 - [[yt-personal-ipo-learning]] — IPO 科学学习课程（个人地图 402）
 - [[yt-personal-deep-review]] — 深度复盘（404）：IPO 模型的进阶应用
-- [[yt-personal-ipo-checklist]] — IPO 完整清单：各要素对应的具体课程和活动
+- [[yt-model-ipo-complete-checklist]] — IPO 完整清单：各要素对应的具体课程和活动
 - [[yt-personal-deliberate-practice]] — 科学成长/刻意练习（406）：输出层 L6 的核心方法
 - [[yt-personal-checklist-notes]] — 清单体笔记（407）：处理层 L2 的核心工具
 - [[yt-personal-knowledge-management]] — 知识管理（405）：输入/处理层的支撑工具

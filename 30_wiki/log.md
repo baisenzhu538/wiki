@@ -180,9 +180,9 @@ Chronological record of knowledge operations.
 
 ### References
 
-- `[[KDO Protocol]]`
+- `[[kdo-protocol]]`
 - `[[KDO Protocol Implementation Roadmap]]`
-- `[[Wiki Index — Knowledge Graph Entrypoint]]`
+- `[[index]]`
 - `[[Obsidian Git Multi-Device Sync Protocol]]`
 
 ---
@@ -244,8 +244,8 @@ Chronological record of knowledge operations.
 
 - `[[claude-20260503-kdo仓库遍历与健康度评估]]`
 - `[[plan_20260503_f3e9a2b1-improvement-plan]]`
-- `[[KDO Protocol]]`
-- `[[Wiki Index — Knowledge Graph Entrypoint]]`
+- `[[kdo-protocol]]`
+- `[[index]]`
 
 - 2026-05-02T19:12:08+00:00 - Ingested `src_20260503_5f268da2` from 00_inbox/一堂-调研行动营启动_原文润色.md
 

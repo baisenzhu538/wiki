@@ -83,7 +83,7 @@ source_refs: []
 ### 3.1 断链泛滥 — 知识图谱"伪连通"
 
 - Lint 报告 14 个 broken wikilink，全部集中在 Synthesis 章节
-- `[[Multi-Agent Orchestration]]`、`[[SaaS定价策略]]`、`[[平台经济中的互补者困境]]` 等链接指向不存在的页面
+- `Multi-Agent Orchestration`、`SaaS定价策略`、`平台经济中的互补者困境` 等链接指向不存在的页面
 - Graph RAG index 虽有 23 节点 28 边，但大量概念连接是"悬空"的
 
 ### 3.2 Improvement Plan 冗余积压

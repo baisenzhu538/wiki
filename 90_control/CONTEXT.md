@@ -7,7 +7,7 @@ created_at: "2026-05-03"
 updated_at: "2026-05-03"
 related:
   - "[[KDO Protocol]]"
-  - "[[Wiki Index — Knowledge Graph Entrypoint]]"
+  - "[[index]]"
 ---
 
 # AI Session Context Snapshot

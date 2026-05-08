@@ -54,7 +54,7 @@ Kimi Deep-Research-Swarm 通过"多智能体认知三角测量"（Epistemic Tria
 
 ## Wiki Refs
 
-- [[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]]
+- [[kimi-深度调研集群方法论-deep-research-swarm]]
 
 ## Draft
 

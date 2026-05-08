@@ -126,7 +126,7 @@ KDO 对这类用户的价值在于将 Obsidian 从"知识仓库"升级为"内容
 
 这类用户的痛点不在于个人知识管理，而在于协作状态的同步与质量把控。在实测中发现，当"老板"（即选题决策者）判断某个话题值得做时，这一判断只存在于人脑中，未被记录为系统资产，导致"一个月后查这个文件，不知道当时为什么判断值得做"[^9^]。团队成员之间的交接依赖于口头沟通或微信留言，无法形成可追溯的决策链条。
 
-KDO 为团队场景提供的核心能力是：通过状态机（draft → review → shipped）实现文章进度的可视化，通过 source lineage（素材血缘）实现素材来源的可追溯，通过 wiki health 检查实现知识库的集体维护。团队成员可以在 Obsidian 中通过[[双向链接]]共享 wiki 页面，也可以通过 CLI 命令（如 `kdo artifact <id> --set-status review`）推进文章状态[^5^]。
+KDO 为团队场景提供的核心能力是：通过状态机（draft → review → shipped）实现文章进度的可视化，通过 source lineage（素材血缘）实现素材来源的可追溯，通过 wiki health 检查实现知识库的集体维护。团队成员可以在 Obsidian 中通过双向链接共享 wiki 页面，也可以通过 CLI 命令（如 `kdo artifact <id> --set-status review`）推进文章状态[^5^]。
 
 | 维度 | 核心用户：深度 Obsidian 用户 | 扩展用户：AI 辅助创作者 | 团队用户：2-5 人内容小组 |
 |:---|:---|:---|:---|
@@ -427,7 +427,7 @@ flowchart TB
     subgraph Shared["🔄 共享边界 — 30_wiki/"]
         W1["Markdown 纯文本"]
         W2["frontmatter 状态标记"]
-        W3["[[双向链接]] 关系"]
+        W3["双向链接 关系"]
     end
 
     subgraph AI["🤖 机器主场 — KDO CLI"]
@@ -961,7 +961,7 @@ KDO Action 插件在 Obsidian 的命令面板（Command Palette）中注册 KDO 
 
 #### 6.3.3 KDO Link 插件：双向链接的元信息增强
 
-Obsidian 的核心交互范式之一是 `[[双向链接]]`（Wikilink），用户通过 `[[页面名]]` 语法在笔记之间建立关联，Obsidian 自动维护反向链接索引。KDO Link 插件在此基础上增强：当鼠标悬停或点击双向链接时，悬浮预览卡片中除 Obsidian 默认的页面摘要外，额外展示 KDO 元信息。
+Obsidian 的核心交互范式之一是 `双向链接`（Wikilink），用户通过 `[[页面名]]` 语法在笔记之间建立关联，Obsidian 自动维护反向链接索引。KDO Link 插件在此基础上增强：当鼠标悬停或点击双向链接时，悬浮预览卡片中除 Obsidian 默认的页面摘要外，额外展示 KDO 元信息。
 
 插件通过订阅 `app.metadataCache.on('changed')` 事件监听元数据变更[^50^]，并拦截 `app.workspace.on('hover-link')` 事件（若 Obsidian 提供该钩子，否则通过 DOM 注入实现）。悬浮卡片中展示的 KDO 元信息包括：
 

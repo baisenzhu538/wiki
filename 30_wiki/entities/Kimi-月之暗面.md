@@ -12,9 +12,9 @@ source_refs:
 created_at: "2026-05-03"
 updated_at: "2026-05-03"
 related:
-  - "[[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]]"
-  - "[[Graph RAG]]"
-  - "[[一堂调研行动营 — AI辅助系统式调研方法论]]"
+  - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
+  - "[[graph-rag]]"
+  - "[[一堂调研行动营-ai辅助系统式调研方法论]]"
 tags:
   - "#ai"
   - "#llm"

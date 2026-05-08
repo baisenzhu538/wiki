@@ -67,7 +67,7 @@ Commit `0471617`：清理了一个因 wiki 页面改名而失效的 auto-feedbac
 - "25 轮对话 11 万字是演示案例，一般用户可能在第 3-5 轮就满意了"——对案例代表性的质疑
 
 **Synthesis：跨链接不是凑数，每一条都有具体对标**
-- [[KDO Protocol]] 的对标："O（目标）对应 KDO 的 Produce 阶段，S-C-A 对应 Enrich 阶段，R 对应 Validate 阶段"——具体到阶段映射
+- [[kdo-protocol]] 的对标："O（目标）对应 KDO 的 Produce 阶段，S-C-A 对应 Enrich 阶段，R 对应 Validate 阶段"——具体到阶段映射
 - [[Kimi Deep Research Swarm]] 的对标："共享'单源不可信'的认知前提"——一句话说清共性
 - [[YC AI-Native 公司方法论]] 的对标："YC 聚焦组织效率（用 AI 减人），一堂聚焦个人能力杠杆（用 AI 乘人）"——清晰的差异概括
 

@@ -7,9 +7,9 @@ source_refs:
 created_at: "2026-05-03"
 updated_at: "2026-05-03"
 related:
-  - "[[KDO Protocol]]"
-  - "[[Wiki Index — Knowledge Graph Entrypoint]]"
-  - "[[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]]"
+  - "[[kdo-protocol]]"
+  - "[[index]]"
+  - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
 tags:
   - #kdo
   - #protocol
@@ -237,10 +237,10 @@ Rationale:
 
 ### Appendix B: Related Knowledge Cards
 
-- [[KDO Protocol]] — System-level knowledge card
-- [[Wiki Index — Knowledge Graph Entrypoint]] — Graph topology and statistics
-- [[Obsidian + KDO 内容产出工作流 — 产品设计大纲]] — Workflow design
-- [[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]] — Research methodology
+- [[kdo-protocol]] — System-level knowledge card
+- [[index]] — Graph topology and statistics
+- [[obsidian-kdo-内容产出工作流-产品设计大纲]] — Workflow design
+- [[kimi-深度调研集群方法论-deep-research-swarm]] — Research methodology
 
 ### Appendix C: Glossary
 

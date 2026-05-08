@@ -56,9 +56,9 @@ updated_at: "2026-05-04T00:00:00+00:00"
 ## [Synthesis] 对标与迁移
 
 ### 关联概念
-- [[Graph RAG]] — Deep Research 的跨维度交叉验证需要 Graph RAG 作为知识导航层。集群输出的 dim/cross_verification/insight 文件如果接入 KDO wiki，就是天然的 Graph RAG 数据源。
-- [[KDO Protocol]] — Deep Research 的 7-Phase 管线可以与 KDO 的 9 步循环对接：Research Phase 6-7 的输出 → KDO inbox → ingest → wiki → produce。
-- [[YC AI-Native 方法论]] — Software Factories 模式在调研领域的完美实例：人定义研究问题+维度（写 spec），AI 集群执行搜索+交叉验证（生成实现），人做洞察确认和方向修正（测试验证）。
+- [[graph-rag]] — Deep Research 的跨维度交叉验证需要 Graph RAG 作为知识导航层。集群输出的 dim/cross_verification/insight 文件如果接入 KDO wiki，就是天然的 Graph RAG 数据源。
+- [[kdo-protocol]] — Deep Research 的 7-Phase 管线可以与 KDO 的 9 步循环对接：Research Phase 6-7 的输出 → KDO inbox → ingest → wiki → produce。
+- [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]] — Software Factories 模式在调研领域的完美实例：人定义研究问题+维度（写 spec），AI 集群执行搜索+交叉验证（生成实现），人做洞察确认和方向修正（测试验证）。
 
 ### 互补与冲突
 - 互补：KDO 的三步编译法（Condense→Critique→Synthesize）与 Deep Research 的 Phase 4-6（交叉验证→冲突解决→洞察提取）在逻辑上高度对应。KDO 是"慢知识"的结构化沉淀，Deep Research 是"快研究"的深度探索。

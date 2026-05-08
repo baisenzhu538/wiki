@@ -13,8 +13,8 @@ created_at: "2026-05-03"
 updated_at: "2026-05-03"
 related:
   - "[[YC AI-Native 公司组织方法论]]"
-  - "[[KDO Protocol]]"
-  - "[[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]]"
+  - "[[kdo-protocol]]"
+  - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
 tags:
   - "#startup-accelerator"
   - "#venture-capital"

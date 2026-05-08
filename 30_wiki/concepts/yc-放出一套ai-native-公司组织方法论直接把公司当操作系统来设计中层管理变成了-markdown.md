@@ -58,9 +58,9 @@ review_date: "2026-05-04"
 ## [Synthesis] 对标与迁移
 
 ### 关联概念
-- [[KDO Protocol]] — KDO 的目录结构（CLAUDE.md + state.json + 三步编译）本质上就是 YC 说的"公司变成可查询的"。KDO 是 AI-native 组织的最小可行原型。
-- [[Graph RAG]] — Token Maxing 需要高效的检索基础设施作为支撑。Graph RAG 是让 AI 消费更多"高质量上下文"的关键技术。
-- [[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]] — Software Factories 模式在调研领域的应用：人定义研究问题+维度，AI 集群执行搜索+交叉验证。
+- [[kdo-protocol]] — KDO 的目录结构（CLAUDE.md + state.json + 三步编译）本质上就是 YC 说的"公司变成可查询的"。KDO 是 AI-native 组织的最小可行原型。
+- [[graph-rag]] — Token Maxing 需要高效的检索基础设施作为支撑。Graph RAG 是让 AI 消费更多"高质量上下文"的关键技术。
+- [[kimi-深度调研集群方法论-deep-research-swarm]] — Software Factories 模式在调研领域的应用：人定义研究问题+维度，AI 集群执行搜索+交叉验证。
 
 ### 互补还是冲突
 - 互补：YC 的"token 投入强度"概念与 KDO 的"三步编译法"高度互补——三步编译本质上就是把原始信息压缩为"高密度 token"，提高每次 AI 调用的上下文质量。

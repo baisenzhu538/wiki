@@ -7,7 +7,7 @@ source_refs:
 created_at: "2026-05-03"
 updated_at: "2026-05-03"
 related:
-  - "[[KDO Protocol]]"
+  - "[[kdo-protocol]]"
   - "[[KDO Protocol Implementation Roadmap]]"
 tags:
   - #kdo
@@ -48,7 +48,7 @@ trust_level: high
 
 | # | 任务 | 为什么战略级 | 预计时间 |
 |---|------|------------|----------|
-| 7 | **Graph RAG 索引层**<br>把 `[[双向链接]]` 解析成显式图结构（JSON/GraphML），让 AI 能做关系推理 | 一堂正在做的事；没有它，AI 对知识网络的理解永远停留在文本层面 | 4-6h |
+| 7 | **Graph RAG 索引层**<br>把 `双向链接` 解析成显式图结构（JSON/GraphML），让 AI 能做关系推理 | 一堂正在做的事；没有它，AI 对知识网络的理解永远停留在文本层面 | 4-6h |
 | 8 | **自动化校验钩子**<br>`kdo lint` 命令或 Obsidian 保存时钩子，自动检查 frontmatter 是否符合 Schema | Schema 从"纸面标准"变成"强制执行"，这是 Protocol 从宣言到制度的关键一跃 | 3-4h |
 | 9 | **跨工具桥接协议**<br>定义从飞书/网页/Notion 流入 KDO 的标准格式（`kdo ingest` 的输入契约） | 解决"捕获层到知识层"的 friction，让外部输入自动归位 | 2h |
 

@@ -9,9 +9,9 @@ source_refs:
 created_at: "2026-05-03"
 updated_at: "2026-05-03"
 related:
-  - "[[KDO Protocol]]"
-  - "[[Wiki Index — Knowledge Graph Entrypoint]]"
-  - "[[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]]"
+  - "[[kdo-protocol]]"
+  - "[[index]]"
+  - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
 tags:
   - #ai
   - #rag
@@ -28,7 +28,7 @@ review_date: "2026-05-04"
 
 1. **Graph RAG 是检索范式的升维**：传统 RAG 把知识库切成文本块，靠向量相似度找相关内容；Graph RAG 先把知识解析成**节点（概念）和边（关系）**，检索时沿着关系网络遍历，找到语义相关但文本不一定相似的内容。
 
-2. **[[双向链接]] 天然就是知识图谱**：KDO 的 `30_wiki/` 层已经有大量双向链接，但 AI 读取时是线性扫描文本，无法利用这些链接关系做推理。Graph RAG 就是要把隐式链接变成**显式图索引**——让 AI 能沿 1-hop → 2-hop 遍历概念网络。
+2. **双向链接 天然就是知识图谱**：KDO 的 `30_wiki/` 层已经有大量双向链接，但 AI 读取时是线性扫描文本，无法利用这些链接关系做推理。Graph RAG 就是要把隐式链接变成**显式图索引**——让 AI 能沿 1-hop → 2-hop 遍历概念网络。
 
 3. **两层检索叠加优于单层**：先走图找关系路径（语义覆盖），再走向量找相似文本（精确匹配），两层叠加可以同时提升**召回率**（不漏掉间接相关的内容）和**精确度**（不被表面相似但实质无关的内容干扰）。
 
@@ -45,9 +45,9 @@ review_date: "2026-05-04"
 
 ### [Synthesis]
 
-- **Links to**: [[KDO Protocol]] — Protocol 定义了目录结构和链接规则，是 Graph RAG 的**输入契约**；Graph RAG 是 Protocol 的**检索增强层**。
-- **Links to**: [[Wiki Index — Knowledge Graph Entrypoint]] — Index 的 Mermaid 图是 Graph RAG 的**人工可视化版本**；Graph RAG 是它的**机器可计算版本**。
-- **Links to**: [[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]] — 深度调研需要跨概念关联推理，Graph RAG 是支撑这种推理的基础设施。
+- **Links to**: [[kdo-protocol]] — Protocol 定义了目录结构和链接规则，是 Graph RAG 的**输入契约**；Graph RAG 是 Protocol 的**检索增强层**。
+- **Links to**: [[index]] — Index 的 Mermaid 图是 Graph RAG 的**人工可视化版本**；Graph RAG 是它的**机器可计算版本**。
+- **Links to**: [[kimi-深度调研集群方法论-deep-research-swarm]] — 深度调研需要跨概念关联推理，Graph RAG 是支撑这种推理的基础设施。
 - **Complements**: 一堂课程中提到的"将课程体系拉入知识图谱"——KDO 的 `30_wiki/` 层正在做类似的事，但用 Markdown + 双向链接而非专门的图数据库。
 - **Conflicts with**: Obsidian 的"自由哲学"——Graph RAG 要求链接有语义价值，可能抑制用户随意创建链接的自由度。
 - **Transferable to**: 任何基于 Markdown 的双向链接系统（Notion、Logseq、Roam Research + LLM 集成）。

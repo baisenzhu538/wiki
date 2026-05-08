@@ -18,7 +18,7 @@ superseded_by: 30_wiki/concepts/kimi-深度调研集群方法论-deep-research-s
 > **四条自适应路由**: Route A（广域搜索）、Route B（聚焦搜索）、Route C（纯文件研究）、Route D（文件增强研究）
 > **规模**: ≥10个子Agent并行，每Agent ≥20次独立搜索，总搜索预算≥200次（Route B）
 
-> **注意**: 本文件内容来自 `src_20260503_5dc58ec8`。相关概念参见 [[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]]（`src_20260502_7d7c1b7c`），二者内容高度相似，可能为同一方法论的不同版本或整理稿。
+> **注意**: 本文件内容来自 `src_20260503_5dc58ec8`。相关概念参见 [[kimi-深度调研集群方法论-deep-research-swarm]]（`src_20260502_7d7c1b7c`），二者内容高度相似，可能为同一方法论的不同版本或整理稿。
 
 ## Source Refs
 
@@ -49,9 +49,9 @@ superseded_by: 30_wiki/concepts/kimi-深度调研集群方法论-deep-research-s
 ### [Synthesis] 跨领域对标
 
 **与现有概念的关联：**
-- [[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]] — 同一方法论的另一版本。建议未来合并或标记主版本。
+- [[kimi-深度调研集群方法论-deep-research-swarm]] — 同一方法论的另一版本。建议未来合并或标记主版本。
 - [[一堂调研行动营-ai辅助系统式调研方法论]] — 一堂方法论是"人类主导的AI辅助调研"（10天行动营），Kimi方法论是"AI主导的多Agent自动化调研"。二者在"人机分工比例"上形成光谱两端。
-- [[KDO Protocol]] — KDO 的 Enrich 阶段可借鉴 Kimi 的维度分解和交叉验证机制，提升知识卡片的质量和可靠性。
+- [[kdo-protocol]] — KDO 的 Enrich 阶段可借鉴 Kimi 的维度分解和交叉验证机制，提升知识卡片的质量和可靠性。
 
 **可迁移场景：**
 - **自动化竞品调研**：将 Route D（文件增强研究）应用于 inbox 文件的自动分析，与 KDO Ingest 流程集成。

@@ -7,7 +7,7 @@ source_refs: []
 created_at: "2026-05-04"
 updated_at: "2026-05-04"
 related:
-  - "[[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]]"
+  - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
   - "[[一堂调研武器库13招]]"
 tags:
   - "#web-scraping"
@@ -159,7 +159,7 @@ data = page.css('.product', auto_save=True)  # DOM变化后自动重定位!
 
 ## [Synthesis]
 
-- 与 [[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]] 互补：Deep Research集群需要大规模Web数据采集作为输入，三剑客是数据采集层
+- 与 [[kimi-深度调研集群方法论-deep-research-swarm]] 互补：Deep Research集群需要大规模Web数据采集作为输入，三剑客是数据采集层
 - 与 [[一堂调研武器库13招]] 互补：13招中策略2（爬虫抓数据）、策略9（公开信息收集）可直接用这三个工具实现
 - 可作为 KDO `kdo fetch-url` 命令的后端引擎选型参考
 

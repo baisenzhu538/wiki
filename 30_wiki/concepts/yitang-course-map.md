@@ -60,4 +60,4 @@ SORT yitang.map ASC, yitang.module ASC, file.name ASC
 - [[30_wiki/entities/一堂|一堂实体页]] — 公司背景与方法论总览
 - [[yt-system-course-map-lecture|一堂课程地图精华串讲]] — 2025 开学第一课转录
 - [[一堂调研武器库13招]] — 调研方法论武器库
-- [[一堂调研行动营 — AI辅助系统式调研方法论]] — AI 协同调研范式
+- [[一堂调研行动营-ai辅助系统式调研方法论]] — AI 协同调研范式

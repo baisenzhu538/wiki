@@ -10,7 +10,7 @@ related:
   - "[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]"
   - "[[business-research-skill-oscar-13-weapon-system]]"
   - "[[truman-perspective-skill]]"
-  - "[[KDO Protocol]]"
+  - "[[kdo-protocol]]"
 tags:
   - "#skill"
   - "#web-infrastructure"
@@ -127,7 +127,7 @@ tinyfish browser session create --url "https://example.com"
 - [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]] — TinyFish 是第四个维度：从"爬虫工具"升级到"Agentic Web 基础设施"。四者形成层次：库(Scrapling) → 框架(Crawl4AI) → API平台(Firecrawl) → Agent基础设施(TinyFish)
 - [[business-research-skill-oscar-13-weapon-system]] — TinyFish 可以成为 business-research 的"在线采信引擎"——Step 3 Search 替代通用搜索引擎，Step 5 Agent 替代部分线下产品体验
 - [[truman-perspective-skill]] — 两个 Skill 是不同品类：truman-perspective 是人格模拟型，use-tinyfish 是工具型（第三个品类，与 methodology 和 persona 并列）
-- [[KDO Protocol]] — TinyFish 的 SKILL.md + CLI 架构验证了 KDO Protocol 的 External Intake Routing 规则中"已结构化 Skill 包 → 直接安装"路径
+- [[kdo-protocol]] — TinyFish 的 SKILL.md + CLI 架构验证了 KDO Protocol 的 External Intake Routing 规则中"已结构化 Skill 包 → 直接安装"路径
 
 ### Skill 类型体系（至此形成三个品类）
 

@@ -9,7 +9,7 @@ updated_at: "2026-05-07"
 related:
   - "[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]"
   - "[[tinyfish-agentic-web-infrastructure]]"
-  - "[[KDO Protocol]]"
+  - "[[kdo-protocol]]"
 tags:
   - "#skill"
   - "#ocr"
@@ -115,7 +115,7 @@ node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs <image-path>
 - [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]] — PaddleOCR 补充了"图片/PDF→文本"这一环，之前整个工具栈只有"网页→文本"
 - [[tinyfish-agentic-web-infrastructure]] — TinyFish 的 Fetch 端返回 Markdown，PaddleOCR 负责把 Fetch 拿不到的图片内文字提取出来。两者组合：TinyFish 获取页面 → PaddleOCR 识别嵌入图片
 - [[business-research-skill-oscar-13-weapon-system]] — Step 3 在线采集时，遇到图片形式的财报/数据，可以用 PaddleOCR 提取结构化数据
-- [[KDO Protocol]] — PaddleOCR 是第四个 tool 型 Skill，验证了 tool 型 Skill 的 pre-flight check 模式
+- [[kdo-protocol]] — PaddleOCR 是第四个 tool 型 Skill，验证了 tool 型 Skill 的 pre-flight check 模式
 
 ### 补充：WSL 侧 Python PaddleOCR
 

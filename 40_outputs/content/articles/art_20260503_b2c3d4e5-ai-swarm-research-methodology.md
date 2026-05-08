@@ -11,7 +11,7 @@ source_refs:
   - "src_20260503_5dc58ec8"
   - "src_20260502_7d7c1b7c"
 wiki_refs:
-  - "[[Kimi 深度调研集群方法论 (Deep-Research-Swarm)]]"
+  - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
   - "[[一堂调研行动营-ai辅助系统式调研方法论]]"
 created_at: "2026-05-03"
 domain: ['ai-saas', 'master']

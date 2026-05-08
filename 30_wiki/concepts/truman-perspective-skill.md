@@ -10,7 +10,7 @@ related:
   - "[[一堂调研武器库13招]]"
   - "[[一堂-调研行动营启动_原文润色]]"
   - "[[business-research-skill-oscar-13-weapon-system]]"
-  - "[[KDO Protocol]]"
+  - "[[kdo-protocol]]"
 tags:
   - "#skill"
   - "#persona"
@@ -135,7 +135,7 @@ Step 3: Truman式回答（基于事实 + 心智模型 + 表达DNA）
 - [[一堂调研武器库13招]] — Truman 是一堂的创始人，五步法是 OSCAR 方法论的源头之一。13 武器体系中的"假设驱动"直接来自 Truman 的心智模型2
 - [[business-research-skill-oscar-13-weapon-system]] — 两个 Skill 互补：business-research 是"调研机器"（怎么做调研），truman-perspective 是"思维顾问"（怎么思考问题）。可以组合使用——用 Truman 的视角审视 business-research 的调研结果
 - [[一堂-调研行动营启动_原文润色]] — Truman 是行动营的核心讲师，课程原文中有大量 Truman 的即兴表达样本
-- [[KDO Protocol]] — Truman Skill 的安装流程验证了 KDO Protocol 新定义的 External Intake Routing 规则：已结构化 Skill 包 → 直接安装 + 概念卡编译
+- [[kdo-protocol]] — Truman Skill 的安装流程验证了 KDO Protocol 新定义的 External Intake Routing 规则：已结构化 Skill 包 → 直接安装 + 概念卡编译
 
 ### 互补与冲突
 
