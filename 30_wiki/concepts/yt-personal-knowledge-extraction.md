@@ -1,7 +1,7 @@
 ---
 title: "知识萃取方法论"
 type: concept
-status: draft
+status: enriched
 domain:
   - yitang
 yitang:
@@ -12,7 +12,7 @@ yitang:
 source_refs:
   - "00_inbox/一堂-个人修炼-知识萃取探索营口述版.txt"
 created_at: "2026-05-07"
-updated_at: "2026-05-07"
+updated_at: "2026-05-08"
 tags:
   - "#yitang"
   - "#knowledge-extraction"

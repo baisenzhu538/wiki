@@ -1,7 +1,7 @@
 ---
 title: "MUSE 人工智能全景图"
 type: concept
-status: draft
+status: enriched
 domain:
   - yitang
 yitang:
@@ -11,7 +11,7 @@ yitang:
   level: foundational
 source_refs: []
 created_at: "2026-05-07"
-updated_at: "2026-05-07"
+updated_at: "2026-05-08"
 tags:
   - "#yitang"
   - "#ai-model"
