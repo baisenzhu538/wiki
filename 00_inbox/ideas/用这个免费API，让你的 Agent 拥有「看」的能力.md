@@ -2,7 +2,7 @@
 title: "用这个免费API，让你的 Agent 拥有「看」的能力"
 source: "https://mp.weixin.qq.com/s/uCCuxYGh05Ydlgj7drv3wg"
 author:
-  - "[[阿橙]]"
+  - "阿橙"
 published:
 created: 2026-05-06
 description: "别再说Agent没法上网了"
