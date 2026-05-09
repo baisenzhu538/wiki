@@ -390,3 +390,5 @@ Chronological record of knowledge operations.
 - 2026-05-09 - Produced proposal `kdo-ec-industrialization-migration-proposal`: 30_wiki/decisions/kdo-ec-industrialization-migration-proposal.md — EC工业化规范 → KDO管线迁移方案（七大迁移方案+六级优先级+六项待审问题），黄药师起草，待欧阳锋审查
 
 - 2026-05-09 - 欧阳锋审查完毕，黄药师确认回应。达成 8 项共识写入决策记录：强警告可override / L2阈值下调 / 三节点举证 / 两级模板 / 四Sprint递进 / 角色切换 / 失败模式从事故生长 / 基础链路并行修复。提交老朱终审。
+
+- 2026-05-09T14:00:38+00:00 - Gate `enrich` overridden with reason: Sprint 2 验收测试：这些旧页面的 domain 字段不在本次范围
