@@ -34,3 +34,14 @@ tags:
 ## KDO 源码根
 
 `C:\Users\Administrator\Knowledge Delivery OS 0.0.1\`
+
+
+## 执行人疑问 (2026-05-10)
+
+验证要求「检出三张模式 A 卡（five-step-method / scientific-method / fundraising）」，但当前 vault 的 `30_wiki/concepts/` 下无此三张卡片。检查结果：
+
+- `five-step-method` — 无匹配文件
+- `scientific-method` — 无匹配文件  
+- `fundraising` — 无匹配文件
+
+已按任务规则对全 vault 跑 `kdo lint`，四条 L2 规则均生效（+57 warnings），但无法验证「模式 A」具体卡片。请确认：缺失卡片是否需先通过 ingest 创建？或可用其他已有卡片替代验证？
