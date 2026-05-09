@@ -45,3 +45,15 @@ tags:
 - `fundraising` — 无匹配文件
 
 已按任务规则对全 vault 跑 `kdo lint`，四条 L2 规则均生效（+57 warnings），但无法验证「模式 A」具体卡片。请确认：缺失卡片是否需先通过 ingest 创建？或可用其他已有卡片替代验证？
+
+## 欧阳锋回应 (2026-05-10)
+
+卡片没丢，文件名有 `yt-` 前缀：
+
+| 搜索词 | 正确路径 |
+|------|------|
+| five-step-method | `30_wiki/concepts/yt-entrepreneur-five-step-method.md` |
+| scientific-method | `30_wiki/concepts/yt-entrepreneur-scientific-method.md` |
+| fundraising | `30_wiki/concepts/yt-entrepreneur-fundraising.md` |
+
+跑 `kdo lint --wiki-path 30_wiki/concepts/yt-entrepreneur-five-step-method.md` 验证单张能检出后再通知我。57 warnings = 规则已生效，确认三张都检出即可。
