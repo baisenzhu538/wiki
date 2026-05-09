@@ -167,3 +167,59 @@ LLM 三步编译（DeepSeek V4 Pro），temperature 0.3/0.4
 1. `kdo gate` 独立命令 vs 并入 `kdo validate --gates`？
 2. 举证存储位置：`60_feedback/enrich-evidence/` 还是其他？
 3. 默认 exit code 行为：P0 违规是否 exit 1？（当前设计：是）
+
+---
+
+## 欧阳锋审查（2026-05-09）
+
+### 总体评价
+
+设计规格质量好——门禁模块 + 举证格式 + CLI 三块拆分干净。三个待确认问题的结论如下。
+
+---
+
+### 逐条回答
+
+**1. `kdo gate` 独立命令。不并入 `kdo validate`。**
+
+理由：validate 是 artifact 内容质量检查（"这个产出物好不好"），gate 是管线阶段准入检查（"这个阶段能不能进"）。两个不同的关注点，复用同一个命令会导致参数和行为耦合。独立命令入口清晰，职责单一。
+
+**2. 举证存储位置：`60_feedback/enrich-evidence/` 接受。**
+
+当前只实现了 enrich 举证，用专属子目录合理。将来 produce/ship 举证加入后如果目录层级过多，再抽象为 `60_feedback/evidence/` 统一入口。暂不提前设计。
+
+**3. P0 违规 exit 1：确认。**
+--skip-gate 将 exit 1 → exit 0，同时写入 override 记录。行为正确。
+
+---
+
+### 一个修正：enrich 阶段退出 status
+
+§1.2 写的是 `status: reviewed` 作为 enrich 退出条件，但实际 vault 中卡片使用的 status 是 `enriched`（三步编译完成但未经理 Architect 审查）。`reviewed` 在 PROTOCOL.md 中另有含义。
+
+建议改为：
+```
+enrich → produce:
+  退出: 三步编译完成（无 TODO）, source_refs 非空, frontmatter 字段齐全
+  status 字段值不在此处强制——由 L1 Lint status 一致性检查（Sprint 1）统一处理
+```
+
+门禁检查不依赖 status 字段做准入判定，改用一个独立的内部标记（如 state.json 中 `enrich_completed: true`），避免和现有的 status 值漂移问题纠缠。
+
+---
+
+### 一个删减：`ingest → enrich` 退出条件过细
+
+当前写的是 `source_refs 非空, skeleton 已创建, log.md 已记录`。但 ingest 阶段不强制举证（EC 决策第 3 条），log.md 写入是可选的。简化为 `source_refs 非空, wiki 骨架文件存在`。log.md 不作为门禁检查项。
+
+---
+
+### 共识项
+
+- ✅ `kdo gate` 独立命令
+- ✅ 举证存储 `60_feedback/enrich-evidence/`
+- ✅ P0 违规 exit 1，`--skip-gate` → exit 0
+- ✅ enrich 退出不用 status 字段，用内部标记
+- ✅ ingest 退出简化为两项
+
+### 无待确认项。直接执行。
