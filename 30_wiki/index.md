@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-05-09T15:42:55+00:00_
+_Last updated: 2026-05-09T15:44:22+00:00_
 
 - [EC工业化规范手册](concepts/EC工业化规范手册.md) - source `src_20260503_dadc7838`
 - [HIS系统开发实现方案-架构师指南](concepts/HIS系统开发实现方案-架构师指南.md) - source `src_20260503_1a1f0312`
