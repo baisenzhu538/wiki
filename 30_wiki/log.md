@@ -392,3 +392,7 @@ Chronological record of knowledge operations.
 - 2026-05-09 - 欧阳锋审查完毕，黄药师确认回应。达成 8 项共识写入决策记录：强警告可override / L2阈值下调 / 三节点举证 / 两级模板 / 四Sprint递进 / 角色切换 / 失败模式从事故生长 / 基础链路并行修复。提交老朱终审。
 
 - 2026-05-09T14:00:38+00:00 - Gate `enrich` overridden with reason: Sprint 2 验收测试：这些旧页面的 domain 字段不在本次范围
+
+- 2026-05-09T15:42:55+00:00 - Ingested `src_20260509_d95236e9` from 00_inbox/ideas/test-mvp-concept.md
+
+- 2026-05-09T15:43:00+00:00 - Self-check: 7 auto-feedback record(s) created

@@ -547,3 +547,17 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/ideas/用这个免费API，让你的 Agent 拥有「看」的能力.md"
   content_sha256: "3a3d98585ab954243c9fcaf4e44940904617611c2c25d272d6c0f7d0a292c6b0"
+
+- id: "src_20260509_d95236e9"
+  title: "Sprint 2 验收测试 — 最小可行性产品"
+  type: "other"
+  location: "10_raw/sources/src_20260509_d95236e9-sprint-2-验收测试-最小可行性产品.md"
+  captured_at: "2026-05-09T15:42:55+00:00"
+  registered_at: "2026-05-09T15:42:55+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/sprint-2-验收测试-最小可行性产品.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/test-mvp-concept.md"
+  content_sha256: "f6d000376ad380167ece4ba6f7e45de805a5f297cbb3e5045461ee0a52c6c5e3"
