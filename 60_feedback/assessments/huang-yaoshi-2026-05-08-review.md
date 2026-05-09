@@ -117,3 +117,31 @@ status: draft          # 从 enriched 改回
 ---
 
 *修完通知我复审。三张模式 A 卡是 Sprint 1 L1 Lint 扩展上线前必须清掉的债务——`source_refs` 为空的卡在 Lint 扩展后会直接报 P0。*
+
+---
+
+## 欧阳锋复审（2026-05-09）
+
+### P0 Frontmatter 修复 — 全部通过
+
+| 文件 | status | source_refs | reviewed_by | 结论 |
+|------|:------:|------|:------:|:--:|
+| [[yt-entrepreneur-five-step-method.md]] | draft ✅ | `00_inbox/ideas/一堂-课程地图精华串讲.md` ✅ | 已删 ✅ | 通过 |
+| [[yt-entrepreneur-scientific-method.md]] | draft ✅ | `00_inbox/ideas/一堂-课程地图精华串讲.md` ✅ | 已删 ✅ | 通过 |
+| [[yt-entrepreneur-fundraising.md]] | draft ✅ | `00_inbox/ideas/一堂-课程地图精华串讲.md` ✅ | 已删 ✅ | 通过 |
+| [[yt-management-scientific-hiring.md]] | enriched ✅ | `00_inbox/ideas/一堂-课程地图精华串讲.md` ✅ | 保留 ✅ | 通过 |
+| [[yt-management-goal-management.md]] | enriched ✅ | `00_inbox/ideas/一堂-课程地图精华串讲.md` ✅ | 保留 ✅ | 通过 |
+
+### 评级更新
+
+| 文件 | 旧评级 | 新评级 | 理由 |
+|------|:------:|:------:|------|
+| five-step-method | D | **C** | P0 frontmatter 修复完成，内容仍需三步编译重写 |
+| scientific-method | D | **C** | 同上 |
+| fundraising | D | **C** | 同上 |
+| scientific-hiring | B+ | **B+** | source_refs 已补，无变化 |
+| goal-management | B+ | **B+** | 同上 |
+
+### 下一步
+
+`kdo lint` 确认 0 errors 后，Sprint 1 P0 阶段通过。P1 三步编译内容重写留 Sprint 2。
