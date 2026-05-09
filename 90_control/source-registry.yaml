@@ -575,3 +575,17 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/ideas/test-gate-enrich.md"
   content_sha256: "ab1703ff4e76c87e099b7f69b73df927a71fb5f0dcf9e7e9c19f53d68bb1cdef"
+
+- id: "src_20260510_9e98a292"
+  title: "Sprint 2 门禁举证验收"
+  type: "other"
+  location: "10_raw/sources/src_20260510_9e98a292-sprint-2-门禁举证验收.md"
+  captured_at: "2026-05-09T16:49:59+00:00"
+  registered_at: "2026-05-09T16:49:59+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/sprint-2-门禁举证验收.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/test-sprint2-gate.md"
+  content_sha256: "8d2b081aac6c85f56c5c140c09aa507ac2bbbd83fd915860ad5a1dddeeb12662"
