@@ -1,7 +1,7 @@
 ---
 title: "Y模型/科学方法"
 type: concept
-status: enriched
+status: draft
 domain: ['yitang']
 yitang:
   map: entrepreneur
@@ -10,11 +10,9 @@ yitang:
   course_type: method
   level: foundational
   series: false
-source_refs: []
+source_refs: ["00_inbox/ideas/一堂-课程地图精华串讲.md"]
 created_at: "2026-05-06"
-updated_at: "2026-05-08"
-reviewed_by: "黄药师"
-review_date: "2026-05-08"
+updated_at: "2026-05-09"
 trust_level: medium
 tags:
   - "#yitang"
@@ -67,7 +65,7 @@ tags:
 - [[yitang-course-map]] — 一堂全课程地图，本课程的知识坐标
 - [[yt-system-course-catalog]] — 全量课程目录与选课口令
 - [[yt-entrepreneur-five-step-method]] — 一堂五步法总纲
-- [[yt-entrepreneur-scientific-method]] — 科学理念，底层世界观
+- [[yt-entrepreneur-truth-seeking]] — 科学理念与求真方法论
 - [[yt-entrepreneur-key-hypotheses]] — 关键假设方法论
 - [[yt-model-entrepreneur-map]] — 创业地图总模型
 

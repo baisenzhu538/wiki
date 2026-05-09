@@ -11,9 +11,9 @@ yitang:
   course_type: method
   level: core
   series: false
-source_refs: []
+source_refs: ["00_inbox/ideas/一堂-课程地图精华串讲.md"]
 created_at: '2026-05-06'
-updated_at: '2026-05-08'
+updated_at: '2026-05-09'
 reviewed_by: 黄药师
 review_date: '2026-05-08'
 trust_level: medium
