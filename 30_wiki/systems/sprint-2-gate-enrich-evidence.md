@@ -223,3 +223,38 @@ enrich → produce:
 - ✅ ingest 退出简化为两项
 
 ### 无待确认项。直接执行。
+
+---
+
+## 欧阳锋终审（2026-05-10）
+
+### 验收结果
+
+| 标准 | 结果 | 证据 |
+|------|:--:|------|
+| 1. enrich evidence 文件存在 | ✅ | `60_feedback/enrich-evidence/ev_20260510_989577df.md`，LLM 方法 |
+| 2. kdo gate enrich 正常工作 | ✅ | 检测到 10 个 P0（domain 字段），`--skip-gate` 成功越过 |
+| 3. override 写入 state.json + log.md | ✅ | `state.json` gate_overrides + `log.md` 均有记录 |
+| 4. source → wiki → evidence 链路 | ✅ | `src_20260510_9e98a292` → `sprint-2-门禁举证验收.md` → `ev_20260510_989577df` |
+
+### 决策记录
+
+| # | 决策 | 状态 |
+|---|------|:--:|
+| 1 | `kdo gate` 独立命令 | ✅ 已实现 |
+| 2 | 举证存储 `60_feedback/enrich-evidence/` | ✅ 已实现 |
+| 3 | P0 exit 1，`--skip-gate` → exit 0 | ✅ 已验证 |
+| 4 | enrich 退出不依赖 status 字段 | ✅ 已实现 |
+| 5 | ingest 退出简化为 source_refs + 骨架文件 | ✅ 已实现 |
+
+### Sprint 2 交付清单
+
+| 文件 | 操作 | 状态 |
+|------|------|:--:|
+| `kdo/gate.py` | 新建 | ✅ |
+| `kdo/commands/quality.py` | 修改（cmd_gate） | ✅ |
+| `kdo/cli.py` | 修改（注册 gate 子命令） | ✅ |
+| `kdo/commands/curation.py` | 修改（_record_enrich_evidence） | ✅ |
+| `60_feedback/enrich-evidence/` | 新建目录 | ✅ |
+
+**Sprint 2 验收通过。**

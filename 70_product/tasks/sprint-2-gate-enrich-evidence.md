@@ -79,6 +79,16 @@ tags:
 
 - `parse_frontmatter` 不支持嵌套 YAML（如 `domain:\n  - yitang`），导致 list-valued frontmatter 字段被解析为空字符串，触发误报 P0。欧阳锋已知悉，另案处理。
 
-### 待审批
+### 终审结论（2026-05-10）
 
-- 欧阳锋 review → 验收通过/不通过 → 进入 Sprint 3 或返工
+**Sprint 2 验收通过。**
+
+终审详见 `30_wiki/systems/sprint-2-gate-enrich-evidence.md#欧阳锋终审（2026-05-10）`。
+
+四项验收标准全部满足：
+1. enrich evidence 文件存在 ✅
+2. kdo gate enrich 正常工作 ✅
+3. override 写入 state.json + log.md ✅
+4. source → wiki → evidence 链路完整 ✅
+
+五个设计决策全部落地实现。可进入 Sprint 3。
