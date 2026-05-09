@@ -1,7 +1,7 @@
 ---
 title: "Sprint 3 L2 内容质量 Lint"
 type: task
-status: todo
+status: completed
 priority: high
 domain:
   - kdo
