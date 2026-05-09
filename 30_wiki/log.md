@@ -386,3 +386,5 @@ Chronological record of knowledge operations.
 - 2026-05-08T09:59:17+00:00 - Ingested `src_20260508_0fc4f656` from 00_inbox/ideas/用这个免费API，让你的 Agent 拥有「看」的能力.md
 
 - 2026-05-08T09:59:21+00:00 - Self-check: 71 auto-feedback record(s) created
+
+- 2026-05-09 - Produced proposal `kdo-ec-industrialization-migration-proposal`: 30_wiki/decisions/kdo-ec-industrialization-migration-proposal.md — EC工业化规范 → KDO管线迁移方案（七大迁移方案+六级优先级+六项待审问题），黄药师起草，待欧阳锋审查
