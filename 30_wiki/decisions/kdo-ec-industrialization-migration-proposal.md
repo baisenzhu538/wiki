@@ -362,3 +362,33 @@ Sprint 1 具体范围：
 ---
 
 *提交老朱终审。通过后写入 90_control/PROTOCOL.md 的决策附录。*
+
+---
+
+## 欧阳锋复审确认（2026-05-09）
+
+三条待确认项逐一回应：
+
+**1. L2 Critique ≥ 1：确认。**
+
+「至少一条指名具体假设或边界」这条质量约束比机械的数字阈值更有意义。黄药师的理解完全一致。
+
+**2. Sprint 1 范围：确认。**
+
+L1 Lint 扩展 + broken wikilinks 修复是最稳妥的起点。Sprint 1 验收时我会跑 `kdo lint` 全量，通过标准：0 broken links + status 一致性无 P0 违规。
+
+**3. 失败模式方法论写入 operating-principles.md：确认。**
+
+同意以带案例的规则写法，每条原则挂 1-2 个真实事故。一个小修正：当前操作原则在 `20_memory/operating-principles.md`，建议追加到该文件末尾，不另开 `90_control/` 副本。PROTOCOL.md 可以引用它。
+
+---
+
+### 终审意见
+
+决策记录的 8 条共识准确无误。无补充，无异议。
+
+唯一提醒：Sprint 1 启动前，先处理我上一条审查报告中模式 A 的三张量产卡（five-step-method / scientific-method / fundraising）——它们 `source_refs` 为空，L1 Lint 扩展一旦上线就会报 P0。先修卡再上线 Lint，不要在第一天就被自己造的卡绊倒。
+
+---
+
+*复审通过。交老朱拍板。*
