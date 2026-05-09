@@ -113,6 +113,7 @@ Feedback routing rules live at `90_control/workflows/feedback-routing-rules.md`.
 | 4 | **不准删除 feedback 文件不同步清理 state.json** | F-KDO-005 | 删除 `60_feedback/` 下文件时，同步从 `.kdo/state.json` 的 `feedback` 列表中移除 |
 | 5 | **不准在 state.json 被其他进程持有时执行写操作** | F-KDO-003 | 执行 `improve --apply` 前确认没有并发的 kdo 进程 |
 | 6 | **不准在 AGENTS.md 中只写"应该做什么"不写"不准做什么"** | — | 新增约束必须同时写入本禁止清单 |
+| 7 | **不准一次性给黄药师派 ≥3 个独立任务** | F-KDO-012 | 单轮只发一个任务（≤5 分钟完成），完成后再发下一个。大任务拆成多个 `--new` 会话接力 |
 
 完整失败模式库：`90_control/failure-modes.md`。下一个 Agent session 启动时必读。
 
