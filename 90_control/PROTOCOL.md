@@ -216,3 +216,4 @@ attention_required:
 - `schemas/` — Data validation schemas
 - `source-registry.yaml` — Source metadata registry
 - `artifact-registry.yaml` — Output artifact registry
+- `kdo-industrialization-manual.md` — KDO 工业化规范手册（质量门禁、铁律、防呆、失败模式）

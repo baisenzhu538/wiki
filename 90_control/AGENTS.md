@@ -115,3 +115,13 @@ Feedback routing rules live at `90_control/workflows/feedback-routing-rules.md`.
 | 6 | **不准在 AGENTS.md 中只写"应该做什么"不写"不准做什么"** | — | 新增约束必须同时写入本禁止清单 |
 
 完整失败模式库：`90_control/failure-modes.md`。下一个 Agent session 启动时必读。
+
+## 工业化规范
+
+KDO 知识生产的完整工业化标准定义在 `90_control/kdo-industrialization-manual.md`（对标 EC 工业化规范手册 v2.8.0）。内容包括：
+- 三层质量门禁（L1 结构完整性 / L2 内容质量 / L3 管线一致性）
+- 18 条铁律（KF-001~018）
+- 管线阶段门禁与举证标准
+- 模板系统与反馈闭环
+
+所有 Agent 在执行 enrich/produce/validate 操作前应参考该手册的质量标准。
