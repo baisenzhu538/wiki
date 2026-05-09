@@ -11,12 +11,20 @@ created_at: "2026-05-09"
 
 ## 刚刚完成
 
-（黄药师每完成一步后更新此行）
+Sprint 2 终审通过 — gate.py + enrich 举证 + 端到端验收
 
 ## 下一步做什么
 
-（黄药师每完成一步后更新此行）
+在 `workspace.py` 的 `lint_workspace()` 中新增 L2 内容质量检查：
+1. Condense 实质性 — ≥3 条中文有内容行 → 不足 P1 warning
+2. Critique 指名假设 — 含"具体假设"\"边界"\"反例"\"前提"至少一个 → 一个都没 P1 warning
+3. Synthesis wikilink — ≥2 个 `[[...]]`，无 self-link → 不足或自指 P1 warning
+4. 全文 > 500 字
+5. 全部只输出 warning，不阻断
+
+写完对 vault 跑一次，确认能检出三张模式 A 卡。改完自更新本文件。
 
 ## 需要的文件路径
 
-（黄药师每完成一步后更新此行——只写操作目标，不写规范引用）
+- 修改：`kdo/workspace.py` → `lint_workspace()`
+- KDO 源码根：`C:\Users\Administrator\Knowledge Delivery OS 0.0.1\`
