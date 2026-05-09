@@ -68,8 +68,8 @@ Commit `0471617`：清理了一个因 wiki 页面改名而失效的 auto-feedbac
 
 **Synthesis：跨链接不是凑数，每一条都有具体对标**
 - [[kdo-protocol]] 的对标："O（目标）对应 KDO 的 Produce 阶段，S-C-A 对应 Enrich 阶段，R 对应 Validate 阶段"——具体到阶段映射
-- [[Kimi Deep Research Swarm]] 的对标："共享'单源不可信'的认知前提"——一句话说清共性
-- [[YC AI-Native 公司方法论]] 的对标："YC 聚焦组织效率（用 AI 减人），一堂聚焦个人能力杠杆（用 AI 乘人）"——清晰的差异概括
+- [[kimi-深度调研集群方法论-deep-research-swarm]] 的对标："共享'单源不可信'的认知前提"——一句话说清共性
+- [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]] 的对标："YC 聚焦组织效率（用 AI 减人），一堂聚焦个人能力杠杆（用 AI 乘人）"——清晰的差异概括
 
 **Open Questions：不是泛泛而谈**
 - "Graph RAG 在调研场景的实际增益"——直接关联一堂正在测试的方向

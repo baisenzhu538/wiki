@@ -10,7 +10,7 @@ status: "draft"
 source_refs:
   - "src_20260502_7d7c1b7c"
 wiki_refs:
-  - "[[Graph RAG — Knowledge-Graph-Powered Retrieval]]"
+  - "[[graph-rag]]"
   - "[[kdo-protocol]]"
   - "[[index]]"
 created_at: "2026-05-03"
