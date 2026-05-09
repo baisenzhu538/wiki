@@ -6,7 +6,7 @@ source_refs: []
 created_at: "2026-05-03"
 updated_at: "2026-05-03"
 related:
-  - "[[KDO Protocol]]"
+  - "[[kdo-protocol]]"
   - "[[index]]"
 ---
 
