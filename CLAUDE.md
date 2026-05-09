@@ -1,5 +1,12 @@
 # CLAUDE.md
 
+## 关键路径
+
+| 用途 | 路径 |
+|------|------|
+| Vault 根目录 | `C:\Users\Administrator\Desktop\wiki\` |
+| KDO CLI 源码 | `C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\` |
+
 ## 新 Agent 入职指引
 
 第一次进入此知识库，按顺序完成以下步骤：

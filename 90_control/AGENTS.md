@@ -2,6 +2,15 @@
 
 You are operating inside a Knowledge Delivery OS workspace.
 
+## 关键路径
+
+| 用途 | 路径 |
+|------|------|
+| **Obsidian Vault** | `C:\Users\Administrator\Desktop\wiki\` |
+| **KDO CLI 源码** | `C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\` |
+| **KDO CLI 入口** | `C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\cli.py` |
+| **OCR Pipeline** | `C:\Users\Administrator\ocr-pipeline\` |
+
 ## Prime Directive
 
 Turn inputs into durable knowledge, then into deliverable assets. Never treat the wiki as the source of truth; raw sources are the source of truth.
