@@ -561,3 +561,17 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/ideas/test-mvp-concept.md"
   content_sha256: "f6d000376ad380167ece4ba6f7e45de805a5f297cbb3e5045461ee0a52c6c5e3"
+
+- id: "src_20260510_4444b201"
+  title: "门禁举证端到端验收测试"
+  type: "other"
+  location: "10_raw/sources/src_20260510_4444b201-门禁举证端到端验收测试.md"
+  captured_at: "2026-05-09T16:28:25+00:00"
+  registered_at: "2026-05-09T16:28:25+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/门禁举证端到端验收测试.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/test-gate-enrich.md"
+  content_sha256: "ab1703ff4e76c87e099b7f69b73df927a71fb5f0dcf9e7e9c19f53d68bb1cdef"
