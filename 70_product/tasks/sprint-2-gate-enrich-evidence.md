@@ -92,3 +92,38 @@ tags:
 4. source → wiki → evidence 链路完整 ✅
 
 五个设计决策全部落地实现。可进入 Sprint 3。
+
+
+---
+
+## L2 内容质量检查 — 交付报告 (2026-05-10)
+
+### 产出
+
+| 文件 | 操作 | 说明 |
+|------|------|------|
+| `kdo/workspace.py` | 修改 | 新增 `_lint_l2_content_quality()` + `_extract_section()` + `_count_chinese_bullets()` |
+
+### 规则
+
+| 规则 | 检查对象 | 阈值 | 级别 |
+|------|---------|------|:--:|
+| Condense | `## Reusable Knowledge` 段 | ≥3 条中文 bullet | P1 |
+| Critique | `## Open Questions` 段 | 含「具体假设/边界/反例/前提」≥1 | P1 |
+| Synthesis | `## Output Opportunities` 段 | wikilink ≥2，无 self-link | P1 |
+| Body length | 全文（去 frontmatter） | >500 chars | P1 |
+
+### 质量检查
+
+- [x] `python3 -c "from kdo.workspace import _lint_l2_content_quality"` — OK
+- [x] `kdo lint` → 0 errors（基线保持）
+- [x] warnings 65 → 122（+57，全部 L2）
+- [x] Condense 规则：0 张违规（所有卡浓缩段达标）
+- [x] Critique 规则：~40 张缺关键术语
+- [x] Synthesis 规则：~50 张 wikilink 不足或无外链
+- [x] Body length 规则：1 张过短（紫鲸ai_智能体工作流平台_深度分析与产品设计，402 chars）
+- [x] 全部 warning 输出，不阻断
+
+### 已知延后项
+
+无。
