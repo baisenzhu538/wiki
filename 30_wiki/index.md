@@ -202,31 +202,31 @@ _Last updated: 2026-05-10T15:38:31+00:00_
 - [保达云诊所深度调研报告](concepts/保达云诊所深度调研报告.md) - source `src_20260503_ae1921d5`
 - [信息哨兵系统与 CI 平台](concepts/信息哨兵系统与-ci-平台.md) - source `src_20260510_82797a05`
 - [偏见级联检查清单](concepts/偏见级联检查清单.md) - source `src_20260510_a788b3ab`
-- [先开始看这个书封皮，这书封皮很有意思，这书有。](concepts/先开始看这个书封皮这书封皮很有意思这书有.md) - source `src_20260510_0e4bbe47`
+- [先开始看这个书封皮，这书封皮很有意思，这书有。](30_wiki/concepts/yt-entrepreneur-spin-selling.md) - source `src_20260510_0e4bbe47`
 - [关键数据库索引](concepts/关键数据库索引.md) - source `src_20260510_183ec574`
 - [分析框架详解](concepts/分析框架详解.md) - source `src_20260510_822df7ba`
-- [和知识封装成一个你自己的贴身的AI教练。](concepts/和知识封装成一个你自己的贴身的ai教练.md) - source `src_20260510_1e786622`
+- [和知识封装成一个你自己的贴身的AI教练。](30_wiki/concepts/yt-entrepreneur-research-camp.md) - source `src_20260510_1e786622`
 - [商业调研事实卡片模板](concepts/商业调研事实卡片模板.md) - source `src_20260510_78a30d82`
 - [商业调研报告 Style Guide（v1.0）](concepts/商业调研报告-style-guidev1.0.md) - source `src_20260510_feb79746`
 - [商业调研报告模板](concepts/商业调研报告模板.md) - source `src_20260510_a1001a71`
-- [好久不见好久不见。](concepts/好久不见好久不见.md) - source `src_20260510_afaf8f6a`
+- [好久不见好久不见。](30_wiki/concepts/yt-personal-thinking-models.md) - source `src_20260510_afaf8f6a`
 - [市场规模估算方法论](concepts/市场规模估算方法论.md) - source `src_20260510_22a75a3f`
 - [开源HIS系统代码深度分析报告](concepts/开源HIS系统代码深度分析报告.md) - source `src_20260503_f4891888`
 - [报告配图与排版规范](concepts/报告配图与排版规范.md) - source `src_20260510_1712e20e`
-- [欢迎大家来到一堂，这个不客套了。](concepts/欢迎大家来到一堂这个不客套了.md) - source `src_20260510_e6a28d17`
+- [欢迎大家来到一堂，这个不客套了。](30_wiki/concepts/yt-personal-pan-product-02.md) - source `src_20260510_e6a28d17`
 - [武器行动模板](concepts/武器行动模板.md) - source `src_20260510_f595a8ce`
-- [直播间里？](concepts/直播间里.md) - source `src_20260510_c8db6c16`
+- [直播间里？](30_wiki/concepts/yt-personal-y-model-exploration-2.md) - source `src_20260510_c8db6c16`
 - [紫鲸AI_智能体工作流平台_深度分析与产品设计](concepts/紫鲸ai_智能体工作流平台_深度分析与产品设计.md) - source `src_20260501_4eee4e95`
 - [紫鲸AI智能体工作流平台](concepts/紫鲸ai智能体工作流平台.md) - source `src_20260428_29929c1f`
-- [终于到这个课了，每次在讲这个课题的时候都是极大的焦虑，极大的担心，才有机会跟你们见面。](concepts/终于到这个课了每次在讲这个课题的时候都是极大的焦虑极大的担心才有机会跟你们见面.md) - source `src_20260510_1899f7fd`
+- [终于到这个课了，每次在讲这个课题的时候都是极大的焦虑，极大的担心，才有机会跟你们见面。](30_wiki/concepts/yt-personal-y-model-practice.md) - source `src_20260510_1899f7fd`
 - [街顺APP全面调研报告](concepts/街顺app全面调研报告.md) - source `src_20260427_970eb338`
 - [诊所O2O外卖平台业务深度调研报告](concepts/诊所o2o外卖平台业务深度调研报告.md) - source no source
-- [说话人1     00:53](concepts/说话人1-00-53-2.md) - source `src_20260510_bfbff2b1`
-- [说话人1     00:53](concepts/说话人1-00-53.md) - source `src_20260510_0154010e`
-- [说话人1     00:56](concepts/说话人1-00-56.md) - source `src_20260510_27e631c4`
-- [说话人1     01:03](concepts/说话人1-01-03.md) - source `src_20260510_4e3c18ee`
-- [说话人1     01:16](concepts/说话人1-01-16.md) - source `src_20260510_26320a1b`
-- [谢谢。](concepts/谢谢.md) - source `src_20260510_3b9d5cc0`
+- [说话人1     00:53](30_wiki/concepts/yt-personal-pan-product-aesthetics.md) - source `src_20260510_bfbff2b1`
+- [说话人1     00:53](30_wiki/concepts/yt-personal-knowledge-extraction-camp.md) - source `src_20260510_0154010e`
+- [说话人1     00:56](30_wiki/concepts/yt-personal-pan-product-concepts.md) - source `src_20260510_27e631c4`
+- [说话人1     01:03](30_wiki/concepts/yt-personal-pan-product-tools.md) - source `src_20260510_4e3c18ee`
+- [说话人1     01:16](30_wiki/concepts/yt-personal-pan-product-exploration.md) - source `src_20260510_26320a1b`
+- [谢谢。](30_wiki/concepts/yt-personal-pan-product-practice.md) - source `src_20260510_3b9d5cc0`
 - [轻量级诊所HIS调研全清单](concepts/轻量级诊所HIS调研全清单.md) - source `src_20260503_5c91e867`
 - [鑫港湾HIS系统分阶段整改报告](concepts/鑫港湾his系统分阶段整改报告.md) - source `src_20260428_db49a647`
 - [Kimi（月之暗面）](entities/Kimi-月之暗面.md) - source no source
