@@ -335,13 +335,13 @@ KDO 失败模式库完整定义在 [[failure-modes.md]]，此处列出索引：
 |:----:|------|:------:|------|
 | F-KDO-012 | Builder 上下文过载死锁 | 🔴 | 2026-05-09——单次会话处理 ≥3 个独立任务或读取 ≥5 个规范文件 |
 
-### 高密度素材专用（F-KDO-013~015，v1.1 新增）
+### 高密度素材专用（F-KDO-013~015，v1.2 修订）
 
 | 编号 | 名称 | 严重度 | 来源 |
 |:----:|------|:------:|------|
 | **F-KDO-013** | **OCR-only 知识提炼** | 🔴 | 2026-05-10——只依赖 OCR 文字提炼知识地图，未打开原图分析视觉结构。丢失空间层级、分组逻辑、阅读路径等核心信息 |
 | **F-KDO-014** | **源文件路径污染** | 🟠 | 2026-05-11——`source_refs` 指向 `00_inbox/` 临时路径而非 `10_raw/sources/`。inbox 文件可能被清理，导致溯源断裂 |
-| **F-KDO-015** | **复合编译上下文过载** | 🔴 | 2026-05-11——单次会话处理超过 3 个复合卡片，每卡需读取口述稿全文 + 多张原图，总上下文超过窗口容量导致死锁 |
+| **F-KDO-015** | **批量 enrich 上下文过载** | 🔴 | 2026-05-11——单次会话处理超量卡片（>5 张质量修复或 >2 张 Hub Page），每张需读取原图+口述稿，总上下文超过窗口容量导致死锁 |
 
 ### 失败模式入库协议
 
@@ -368,7 +368,7 @@ KDO 失败模式库完整定义在 [[failure-modes.md]]，此处列出索引：
 90_control/templates/
 ├── concept-card-full.md       # 知识卡片—完整版（8 区块）
 ├── concept-card-compact.md    # 知识卡片—精简版（3 区块）
-├── composite-card.md          # 复合概念卡（v1.1 新增，9 区块）
+├── hub-page.md                # Hub Page 导航页（v1.2 新增，5 区块）
 ├── artifact-article.md        # 文章类 artifact
 ├── artifact-capability.md     # 能力/工作流类 artifact
 ├── delivery-record.md         # 发布记录
@@ -382,15 +382,15 @@ KDO 失败模式库完整定义在 [[failure-modes.md]]，此处列出索引：
 |------|---------|------|
 | **完整版（8 区块）** | 深度分析、方法论文章、核心概念 | Summary → Condense → Critique → Synthesis → 知识体系定位 → 跨学科锚点 → Open Questions → Output Opportunities |
 | **精简版（3 区块）** | 快讯、小结、操作指南、轻量概念 | Summary → Condense → Critique |
-| **复合版（9 区块）**（v1.1 新增） | 高密度素材——口述稿+知识地图混合包 | Summary → Condense → Framework Gallery → Visual Analysis → Critique → Synthesis → 知识体系定位 → Open Questions → Output Opportunities |
+| **Hub Page（5 区块）**（v1.2 新增） | 导航页——串联散卡，提供模块概览 | 概览 → 核心概念（wiki-link 列表）→ 知识体系定位 → Critique（针对模块整体）→ Synthesis（链接模块外概念） |
 
-复合版模板详情见 [[high-density-composite-compilation-strategy]] §复合卡片结构模板。
+Hub Page 模板详情见 [[high-density-composite-compilation-strategy]] §Hub Page 模板。
 
 ### 9.3 模板使用规则
 
 - **起点非约束**：模板作为 `kdo produce` 的初始化起点，创建后 Agent 可以增删改区块
 - **唯一硬性约束**：核心 frontmatter 字段（title/type/status/source_refs/created_at）不可删
-- **复合版强制要求**：Framework Gallery 和 Visual Analysis 为复合卡强制区块，不可删除
+- **Hub Page 硬性约束**：字数 <3000 字，禁止复制子卡完整内容。只写概览 + wiki-link 导航
 - `kdo produce` 时从模板初始化
 
 ---
