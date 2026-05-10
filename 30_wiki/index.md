@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-05-10T15:38:31+00:00_
+_Last updated: 2026-05-10T15:43:35+00:00_
 
 - [13 武器覆盖率检查清单](concepts/13-武器覆盖率检查清单.md) - source `src_20260510_e94119d5`
 - [EC工业化规范手册](concepts/EC工业化规范手册.md) - source `src_20260503_dadc7838`
@@ -145,8 +145,10 @@ _Last updated: 2026-05-10T15:38:31+00:00_
 - [机会选择](concepts/yt-entrepreneur-opportunity-selection.md) - source no source
 - [务实创业](concepts/yt-entrepreneur-pragmatic-startup.md) - source no source
 - [产品内核](concepts/yt-entrepreneur-product-core.md) - source no source
+- [和知识封装成一个你自己的贴身的AI教练。](concepts/yt-entrepreneur-research-camp.md) - source `src_20260510_1e786622`
 - [调研认知](concepts/yt-entrepreneur-research-cognition.md) - source no source
 - [Y模型/科学方法](concepts/yt-entrepreneur-scientific-method.md) - source `00_inbox/ideas/一堂-课程地图精华串讲.md`
+- [先开始看这个书封皮，这书封皮很有意思，这书有。](concepts/yt-entrepreneur-spin-selling.md) - source `src_20260510_0e4bbe47`
 - [实事求是](concepts/yt-entrepreneur-truth-seeking.md) - source no source
 - [单元模型](concepts/yt-entrepreneur-unit-model.md) - source no source
 - [基本功认知](concepts/yt-management-basic-skills.md) - source no source
@@ -183,13 +185,23 @@ _Last updated: 2026-05-10T15:38:31+00:00_
 - [科学成长（刻意练习）](concepts/yt-personal-deliberate-practice.md) - source no source
 - [灵感闪现（认知篇）](concepts/yt-personal-inspiration-flash.md) - source no source
 - [IPO 科学学习](concepts/yt-personal-ipo-learning.md) - source `src_20260507_85c9ae50`
+- [说话人1     00:53](concepts/yt-personal-knowledge-extraction-camp.md) - source `src_20260510_0154010e`
 - [知识萃取方法论](concepts/yt-personal-knowledge-extraction.md) - source no source
 - [知识管理](concepts/yt-personal-knowledge-management.md) - source no source
+- [欢迎大家来到一堂，这个不客套了。](concepts/yt-personal-pan-product-02.md) - source `src_20260510_e6a28d17`
+- [说话人1     00:53](concepts/yt-personal-pan-product-aesthetics.md) - source `src_20260510_bfbff2b1`
+- [说话人1     00:56](concepts/yt-personal-pan-product-concepts.md) - source `src_20260510_27e631c4`
+- [说话人1     01:16](concepts/yt-personal-pan-product-exploration.md) - source `src_20260510_26320a1b`
+- [谢谢。](concepts/yt-personal-pan-product-practice.md) - source `src_20260510_3b9d5cc0`
+- [说话人1     01:03](concepts/yt-personal-pan-product-tools.md) - source `src_20260510_4e3c18ee`
 - [泛产品设计](concepts/yt-personal-product-design.md) - source no source
 - [十指销讲模型](concepts/yt-personal-sales-pitch-model.md) - source no source
 - [科学表达（火箭模型）](concepts/yt-personal-scientific-expression.md) - source no source
+- [好久不见好久不见。](concepts/yt-personal-thinking-models.md) - source `src_20260510_afaf8f6a`
 - [时间管理](concepts/yt-personal-time-management.md) - source no source
 - [逐字稿](concepts/yt-personal-verbatim-script.md) - source no source
+- [直播间里？](concepts/yt-personal-y-model-exploration-2.md) - source `src_20260510_c8db6c16`
+- [终于到这个课了，每次在讲这个课题的时候都是极大的焦虑，极大的担心，才有机会跟你们见面。](concepts/yt-personal-y-model-practice.md) - source `src_20260510_1899f7fd`
 - [一堂调研行动营 · 启动课（LLM 精炼）](concepts/yt-research-action-camp-launch.md) - source no source
 - [一堂调研武器库课程](concepts/yt-research-weaponry-course.md) - source no source
 - [一堂全课程目录索引](concepts/yt-system-course-catalog.md) - source no source
@@ -202,31 +214,19 @@ _Last updated: 2026-05-10T15:38:31+00:00_
 - [保达云诊所深度调研报告](concepts/保达云诊所深度调研报告.md) - source `src_20260503_ae1921d5`
 - [信息哨兵系统与 CI 平台](concepts/信息哨兵系统与-ci-平台.md) - source `src_20260510_82797a05`
 - [偏见级联检查清单](concepts/偏见级联检查清单.md) - source `src_20260510_a788b3ab`
-- [先开始看这个书封皮，这书封皮很有意思，这书有。](30_wiki/concepts/yt-entrepreneur-spin-selling.md) - source `src_20260510_0e4bbe47`
 - [关键数据库索引](concepts/关键数据库索引.md) - source `src_20260510_183ec574`
 - [分析框架详解](concepts/分析框架详解.md) - source `src_20260510_822df7ba`
-- [和知识封装成一个你自己的贴身的AI教练。](30_wiki/concepts/yt-entrepreneur-research-camp.md) - source `src_20260510_1e786622`
 - [商业调研事实卡片模板](concepts/商业调研事实卡片模板.md) - source `src_20260510_78a30d82`
 - [商业调研报告 Style Guide（v1.0）](concepts/商业调研报告-style-guidev1.0.md) - source `src_20260510_feb79746`
 - [商业调研报告模板](concepts/商业调研报告模板.md) - source `src_20260510_a1001a71`
-- [好久不见好久不见。](30_wiki/concepts/yt-personal-thinking-models.md) - source `src_20260510_afaf8f6a`
 - [市场规模估算方法论](concepts/市场规模估算方法论.md) - source `src_20260510_22a75a3f`
 - [开源HIS系统代码深度分析报告](concepts/开源HIS系统代码深度分析报告.md) - source `src_20260503_f4891888`
 - [报告配图与排版规范](concepts/报告配图与排版规范.md) - source `src_20260510_1712e20e`
-- [欢迎大家来到一堂，这个不客套了。](30_wiki/concepts/yt-personal-pan-product-02.md) - source `src_20260510_e6a28d17`
 - [武器行动模板](concepts/武器行动模板.md) - source `src_20260510_f595a8ce`
-- [直播间里？](30_wiki/concepts/yt-personal-y-model-exploration-2.md) - source `src_20260510_c8db6c16`
 - [紫鲸AI_智能体工作流平台_深度分析与产品设计](concepts/紫鲸ai_智能体工作流平台_深度分析与产品设计.md) - source `src_20260501_4eee4e95`
 - [紫鲸AI智能体工作流平台](concepts/紫鲸ai智能体工作流平台.md) - source `src_20260428_29929c1f`
-- [终于到这个课了，每次在讲这个课题的时候都是极大的焦虑，极大的担心，才有机会跟你们见面。](30_wiki/concepts/yt-personal-y-model-practice.md) - source `src_20260510_1899f7fd`
 - [街顺APP全面调研报告](concepts/街顺app全面调研报告.md) - source `src_20260427_970eb338`
 - [诊所O2O外卖平台业务深度调研报告](concepts/诊所o2o外卖平台业务深度调研报告.md) - source no source
-- [说话人1     00:53](30_wiki/concepts/yt-personal-pan-product-aesthetics.md) - source `src_20260510_bfbff2b1`
-- [说话人1     00:53](30_wiki/concepts/yt-personal-knowledge-extraction-camp.md) - source `src_20260510_0154010e`
-- [说话人1     00:56](30_wiki/concepts/yt-personal-pan-product-concepts.md) - source `src_20260510_27e631c4`
-- [说话人1     01:03](30_wiki/concepts/yt-personal-pan-product-tools.md) - source `src_20260510_4e3c18ee`
-- [说话人1     01:16](30_wiki/concepts/yt-personal-pan-product-exploration.md) - source `src_20260510_26320a1b`
-- [谢谢。](30_wiki/concepts/yt-personal-pan-product-practice.md) - source `src_20260510_3b9d5cc0`
 - [轻量级诊所HIS调研全清单](concepts/轻量级诊所HIS调研全清单.md) - source `src_20260503_5c91e867`
 - [鑫港湾HIS系统分阶段整改报告](concepts/鑫港湾his系统分阶段整改报告.md) - source `src_20260428_db49a647`
 - [Kimi（月之暗面）](entities/Kimi-月之暗面.md) - source no source
