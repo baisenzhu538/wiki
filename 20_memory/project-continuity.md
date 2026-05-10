@@ -89,19 +89,23 @@
 
 ---
 
-## ⛔ 2026-05-11 黄药师方向修正（v2.0）
+## ✅ 2026-05-11 黄药师方向共识（辩论完成）
 
-**第一轮审查（v1.0）**：判定黄药师"一图一卡"模式违规，要求停止并转为复合编译。
-**第二轮修正（v2.0）**：重新判断——知识库主要用户是 AI agent，细粒度独立卡片是最优结构。黄药师的 127 张卡结构正确，问题在质量。
+**辩论路径**：v1.0 复合编译 → v2.0 细粒度+导航层 → v1.3 Agent 原生标准
 
-### 黄药师下次启动时：
-1. **先读** `70_product/tasks/HALT-stop-individual-cards-start-composite.md`（v2.0 已更新）
-2. **不要降级卡片**，不要合并为复合大卡
-3. **P0 优先**：source_refs 归档（00_inbox/ → 10_raw/sources/） + 补 38 张缺 Critique
-4. **单会话上限**：≤5 张质量修复
+**最终共识**：
+- 采纳 [[agent-native-card-design]] 为强制标准
+- 卡片类型：composite-concept → framework → tool 三层
+- 三步编译映射为：Claims + Constraints + Synthesis 关系表 + frontmatter 图边
+- 导航靠图边（component_of/related），不建 Hub Page
+- 黄药师执行 Sprint 5：1 张 composite-concept + 6 张 framework 升级到 agent-native
 
-### 当前状态
-- 127 张独立卡片：结构正确，质量待修复
-- 策略 v2.0 已生效：[[high-density-composite-compilation-strategy]]
-- 工业化手册 v1.2 已更新：[[kdo-industrialization-manual]]
-- 黄药师确认新方向后可继续执行
+### 黄药师当前任务
+1. 压缩 `yt-composite-pan-product-methodology.md` → 12-15 claims
+2. 6 张 yt-model-pan-product-* framework 卡升级到 agent-native 格式
+3. 33 张 panproduct 卡 type → tool，渐进式升级
+
+### 当前标准文件
+- 内容工厂的工业化手册 v1.3：[[kdo-industrialization-manual]]
+- Agent 原生设计规范：[[agent-native-card-design]]
+- 高密度素材策略 v2.0：[[high-density-composite-compilation-strategy]]
