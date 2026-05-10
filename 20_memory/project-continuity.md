@@ -86,3 +86,20 @@
 
 ### 复用时间节点
 老板想重启时，只需说"继续搞 TinyFish"或"把 TinyFish 测试跑了"，我会自动记得当前进度并推进。
+
+---
+
+## ⛔ 2026-05-11 黄药师紧急停止
+
+**Architect 审查发现：黄药师正在按"一图一卡"模式逐张创建 yt-panproduct-* 卡片（已产出 127 张），违反了复合编译策略。**
+
+### 黄药师下次启动时：
+1. **先读** `70_product/tasks/HALT-stop-individual-cards-start-composite.md`
+2. **再读** `60_feedback/assessments/huang-yaoshi-2026-05-11-halt-review.md`
+3. **不要**启动任何 enrich 操作，直到读完上述文件
+
+### 当前状态
+- 127 张独立卡片：全部 source_refs → 00_inbox/（违规），38 张缺 Critique，81 张缺 Visual Analysis
+- 60 份素材的复合编译：尚未开始
+- 下一张复合卡：泛产品设计方法论（P0，#1/14）
+- 内容工厂的工业化手册已更新至 v1.1（含 KF-019~022 铁律 + 复合编译规范）
