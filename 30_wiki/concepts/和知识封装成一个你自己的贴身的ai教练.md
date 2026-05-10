@@ -2,9 +2,9 @@
 title: "和知识封装成一个你自己的贴身的AI教练。"
 type: "concept"
 status: "draft"
-source_refs: ["src_20260510_34116fbf"]
-created_at: "2026-05-10T15:46:34+00:00"
-updated_at: "2026-05-10T15:46:34+00:00"
+source_refs: ["src_20260510_ad730a76"]
+created_at: "2026-05-10T15:49:31+00:00"
+updated_at: "2026-05-10T15:49:31+00:00"
 ---
 
 # 和知识封装成一个你自己的贴身的AI教练。
@@ -19,7 +19,7 @@ updated_at: "2026-05-10T15:46:34+00:00"
 
 ## Source Refs
 
-- `src_20260510_34116fbf` -> `10_raw/sources/src_20260510_34116fbf-和知识封装成一个你自己的贴身的ai教练.md`
+- `src_20260510_ad730a76` -> `10_raw/sources/src_20260510_ad730a76-和知识封装成一个你自己的贴身的ai教练.md`
 
 ## Reusable Knowledge
 

@@ -3907,3 +3907,1585 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/一堂-读书会-SPIN销售法口述.md"
   content_sha256: "7b8687c4f826f9c4098bf00a949bad1b7603892cd35d5af58285c591316e2bba"
+
+- id: "src_20260510_0792387b"
+  title: "当有了这个逻辑以后，就可以用一页纸， 解释我所有的人生紅貞計划 厅"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_0792387b-当有了这个逻辑以后就可以用一页纸-解释我所有的人生紅貞計划-厅.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/当有了这个逻辑以后就可以用一页纸-解释我所有的人生紅貞計划-厅.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/Truman的个人成长五步法.md"
+  content_sha256: "43757b39a78340dbb8a974a54507afef368610bdf9c8652d69661fe84e5154ec"
+
+- id: "src_20260510_9d77cdb9"
+  title: "楚门的选择：两条职业成长路线 堂"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_9d77cdb9-楚门的选择两条职业成长路线-堂.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/楚门的选择两条职业成长路线-堂.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/truman的选择：两条职业成长路线.md"
+  content_sha256: "cfc38b08b60f17331e47a354e511c03ebae2c3f7a5ec8f0b98957b7ea87dd3e4"
+
+- id: "src_20260510_bf21614f"
+  title: "Y型创业： 堂科学型组织"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_bf21614f-y型创业-堂科学型组织.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/y型创业-堂科学型组织.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修炼-Y模型.md"
+  content_sha256: "66b5b208ff0ee28f1eb8d2c0acbbd0efac506870d1f28450a081332de81af0d3"
+
+- id: "src_20260510_c8e41ccb"
+  title: "个人修炼-Y模型实操"
+  type: "transcript"
+  location: "10_raw/sources/src_20260510_c8e41ccb-个人修炼-y模型实操.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/个人修炼-y模型实操.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修炼-Y模型实操口述版.md"
+  content_sha256: "ea02d19730c36a15075cb718fb81c69c7b4a99039c30675e534cd974ef479949"
+
+- id: "src_20260510_62b2cfa1"
+  title: "一堂人工智能全景图·MUSE模型"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_62b2cfa1-一堂人工智能全景图muse模型.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂人工智能全景图muse模型.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修炼-全景图MUSE模型.md"
+  content_sha256: "6f840df4524c13fa104299c890ad751c0268f665b0e4c168890f9c3a455b91d7"
+
+- id: "src_20260510_7c58991a"
+  title: "一堂AI时代的竞争力·双三角模型"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_7c58991a-一堂ai时代的竞争力双三角模型.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂ai时代的竞争力双三角模型.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修炼-双三角模型.md"
+  content_sha256: "437a1807cce5948ce3b4dba9e5697d761f091e0ff5ad41c341bbf433b75a8b74"
+
+- id: "src_20260510_e4a6ef49"
+  title: "提问刻意练习提升画布ByYITANG"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_e4a6ef49-提问刻意练习提升画布byyitang.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/提问刻意练习提升画布byyitang.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修炼-提问刻意练习画布.md"
+  content_sha256: "76de08e26ebd7709bccbab716d9e0722e2d1d7b2947535bd44061a9054ba1250"
+
+- id: "src_20260510_e6643d52"
+  title: "个人修炼-泛产品设计工具篇"
+  type: "transcript"
+  location: "10_raw/sources/src_20260510_e6643d52-个人修炼-泛产品设计工具篇.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/个人修炼-泛产品设计工具篇.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修炼-泛产品设计工具篇口述版.md"
+  content_sha256: "11b1d29683fae483db5aa61974ba5600d7e1aac265e63801f6cb23fbf9a1a47f"
+
+- id: "src_20260510_fab64a96"
+  title: "个人修炼-泛产品设计探索营"
+  type: "transcript"
+  location: "10_raw/sources/src_20260510_fab64a96-个人修炼-泛产品设计探索营.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/个人修炼-泛产品设计探索营.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修炼-泛产品设计探索营口述版.md"
+  content_sha256: "ff1911d7476b48f578eb3a7bd49300d336348d47f6e4d1e3515bcbeac8306d39"
+
+- id: "src_20260510_39a99221"
+  title: "个人修炼-泛产品设计概念"
+  type: "transcript"
+  location: "10_raw/sources/src_20260510_39a99221-个人修炼-泛产品设计概念.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/个人修炼-泛产品设计概念.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修炼-泛产品设计概念口述版.md"
+  content_sha256: "61ffad666bfbf51c713d43e6cf57bafa7d116489fb133177a465438622235f46"
+
+- id: "src_20260510_814ec410"
+  title: "个人修炼-知识萃取探索营"
+  type: "transcript"
+  location: "10_raw/sources/src_20260510_814ec410-个人修炼-知识萃取探索营.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/个人修炼-知识萃取探索营.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修炼-知识萃取探索营口述版.md"
+  content_sha256: "42b8e09e0014a18eb4c0a87230edbec289f927b653044a6ea468cb593c01370a"
+
+- id: "src_20260510_0c9323c5"
+  title: "一堂科学学习P口·全景策略图第二版 堂"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_0c9323c5-一堂科学学习p口全景策略图第二版-堂.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂科学学习p口全景策略图第二版-堂.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修炼-科学学习IPO-全景策略.md"
+  content_sha256: "c17f84c9a1a155ecd851c7028065a5b558f78bf0c79673eda69e5fae6684d6a6"
+
+- id: "src_20260510_490a2c9f"
+  title: "-堂科学学习IPO·完整清单"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_490a2c9f-堂科学学习ipo完整清单.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/堂科学学习ipo完整清单.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修炼-科学学习IPO完整清单.md"
+  content_sha256: "18e156a901ff694458647bb55fa1affeaa37f12b54f858b88a97d87bb9b99148"
+
+- id: "src_20260510_00757439"
+  title: "(no text detected)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_00757439-no-text-detected.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/no-text-detected.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修炼-科学学习IPO模型.md"
+  content_sha256: "14268a8aefaf774889a97ed233ac32420f2669ec0a15a37d2f3e1434ca2a98ed"
+
+- id: "src_20260510_21007a14"
+  title: "辅导 咨询"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_21007a14-辅导-咨询.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/辅导-咨询.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修炼-科学提问刻意练习.md"
+  content_sha256: "7a8aadffb4e5b83be90937fb17dfa4b986e86b7024232df3000bf55a648ec93f"
+
+- id: "src_20260510_fd2fb05f"
+  title: "目 难度最低(min) 难度最高(max)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_fd2fb05f-目-难度最低min-难度最高max.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/目-难度最低min-难度最高max.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修炼-解放思想.md"
+  content_sha256: "81607a059fb0ef0ba248c709bc424f74e00c9c7ef9d861ff6c2a4c32ea4fbfde"
+
+- id: "src_20260510_f9158e7c"
+  title: "![[一堂-个人修炼-课程清单.png]]"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_f9158e7c-一堂-个人修炼-课程清单.png.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂-个人修炼-课程清单.png.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修炼-课程清单.md"
+  content_sha256: "37c266ebae3d89ab5ba546412104bd47121c05543308b9de9ea815513b15669c"
+
+- id: "src_20260510_6d771b2a"
+  title: "个人修身-Y模型探索营2"
+  type: "transcript"
+  location: "10_raw/sources/src_20260510_6d771b2a-个人修身-y模型探索营2.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/个人修身-y模型探索营2.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md"
+  content_sha256: "6eb98141b7d56951608bd472823ed622e254ffc42a1e2d5408a5b15eb1a90a95"
+
+- id: "src_20260510_13cb37f7"
+  title: "个人修身-思维模型"
+  type: "transcript"
+  location: "10_raw/sources/src_20260510_13cb37f7-个人修身-思维模型.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/个人修身-思维模型.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修身-思维模型口述版.md"
+  content_sha256: "b58bc9407c7ddc42655cd47726b98a9ffc5478c59086585234f46cf61aadd549"
+
+- id: "src_20260510_c842c00d"
+  title: "个人修身-泛产品设计02"
+  type: "transcript"
+  location: "10_raw/sources/src_20260510_c842c00d-个人修身-泛产品设计02.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/个人修身-泛产品设计02.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修身-泛产品设计02口述.md"
+  content_sha256: "8367c52c12ce830d194f3add3a24cae7b6e9367730f070ba0c011b064f1521a0"
+
+- id: "src_20260510_6241b565"
+  title: "个人修身-泛产品设计实操"
+  type: "transcript"
+  location: "10_raw/sources/src_20260510_6241b565-个人修身-泛产品设计实操.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/个人修身-泛产品设计实操.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修身-泛产品设计实操口述版.md"
+  content_sha256: "5993a4060cfb809b81493bf9914495544e1e81fdebdc10d42829529a242ade43"
+
+- id: "src_20260510_4a29ec61"
+  title: "个人修身-泛产品设计审美"
+  type: "transcript"
+  location: "10_raw/sources/src_20260510_4a29ec61-个人修身-泛产品设计审美.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/个人修身-泛产品设计审美.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-个人修身-泛产品设计审美口述.md"
+  content_sha256: "14373a08cd84a07e1b1b0a9844884aa2d30abffa2481d1bd236dad98858d563f"
+
+- id: "src_20260510_2ba8671c"
+  title: "创业-调研行动营口述01"
+  type: "transcript"
+  location: "10_raw/sources/src_20260510_2ba8671c-创业-调研行动营口述01.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/创业-调研行动营口述01.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-创业-调研行动营口述01.md"
+  content_sha256: "57daa2a268c6751ed103ef05481670b110c3c451f4eaa927c719ad9cfd85006a"
+
+- id: "src_20260510_e7d966fe"
+  title: "一堂课程清单1-4（创业必修方向）"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_e7d966fe-一堂课程清单1-4创业必修方向.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂课程清单1-4创业必修方向.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-创业必修-课程清单.md"
+  content_sha256: "ad8ae26a9f566af6c483c1d69a6b6a5f90b91b2dff078dacfdc3feec2360b402"
+
+- id: "src_20260510_301d5124"
+  title: "(no text detected)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_301d5124-no-text-detected.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/no-text-detected-2.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-地图-个人地图_conv.md"
+  content_sha256: "96f55bbc9b964c051c84a921a6dd5201071310d8738cee0a7816f013df68f0bd"
+
+- id: "src_20260510_f435fbf7"
+  title: "(no text detected)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_f435fbf7-no-text-detected.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/no-text-detected-3.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-地图-创业地图_conv.md"
+  content_sha256: "96f55bbc9b964c051c84a921a6dd5201071310d8738cee0a7816f013df68f0bd"
+
+- id: "src_20260510_716e7cd5"
+  title: "(no text detected)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_716e7cd5-no-text-detected.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/no-text-detected-4.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-地图-管理地图_conv.md"
+  content_sha256: "96f55bbc9b964c051c84a921a6dd5201071310d8738cee0a7816f013df68f0bd"
+
+- id: "src_20260510_ba494aea"
+  title: "堂课程清单4-4(案例拆解方向)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_ba494aea-堂课程清单4-4案例拆解方向.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/堂课程清单4-4案例拆解方向.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-案例拆解-课程清单.md"
+  content_sha256: "15cfec584e1895fed6bf1b740d171a020485808dc83879221d1b7c6e7fc99c1f"
+
+- id: "src_20260510_828b1128"
+  title: "一堂泛产品设计・十年苦练30招"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_828b1128-一堂泛产品设计十年苦练30招.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂泛产品设计十年苦练30招.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-泛产品设计-十年苦练30招.md"
+  content_sha256: "57376cc05c39d93ce617e52bd3990c2e7b36cc26a94aa234d82d42e3576e9cc3"
+
+- id: "src_20260510_d288a1b7"
+  title: "一堂课程清单2-4(管理必修方向)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_d288a1b7-一堂课程清单2-4管理必修方向.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂课程清单2-4管理必修方向.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-管理必修-课程清单.md"
+  content_sha256: "2152c0a0c64f59a4e7ceb4a1ed60885cbcf90c857ad635f42e0cbf2bcf53e959"
+
+- id: "src_20260510_349a66fd"
+  title: "读书会-SPIN销售法"
+  type: "transcript"
+  location: "10_raw/sources/src_20260510_349a66fd-读书会-spin销售法.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/读书会-spin销售法.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂-读书会-SPIN销售法口述.md"
+  content_sha256: "d87e816144d241aefa0ce77642a3f210ff6b2f8c7821cc55dbb4bc97b811a4a2"
+
+- id: "src_20260510_fb28d5a6"
+  title: "一堂个人地图：高潜力成长者修炼全景地图"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_fb28d5a6-一堂个人地图高潜力成长者修炼全景地图.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂个人地图高潜力成长者修炼全景地图.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂个人地图：高潜力成长者修炼全景图.md"
+  content_sha256: "45b81c253fdd2ac93a2dfcc829aae483815e993fabc83e102e753edafdd7ac61"
+
+- id: "src_20260510_8f50e43f"
+  title: "堂五步法实操·产品内核画布 堂"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_8f50e43f-堂五步法实操产品内核画布-堂.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/堂五步法实操产品内核画布-堂.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂五步法-产品内核画布.md"
+  content_sha256: "f2f3b0c093c27184cf8789062723dc1350d336b86b7b7dece617b341fb37cdf0"
+
+- id: "src_20260510_1eb77650"
+  title: "一堂五步法画布YitangFive-stepCanvas"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂五步法画布yitangfive-stepcanvas.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂五步法画布.md"
+  content_sha256: "0dbd83b1bcd044a5632a5e0e43de2a4f37956531fe7c50f41aa21abf432ebbb0"
+
+- id: "src_20260510_5ef61f8f"
+  title: "一堂产品内核・十大典型指标"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_5ef61f8f-一堂产品内核十大典型指标.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂产品内核十大典型指标.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂产品内核-十大典型指标.md"
+  content_sha256: "50f1784c4c7b5a4476ecfa9b599f7665b384dded26924b0e4c8e055549cd89bf"
+
+- id: "src_20260510_39b040c6"
+  title: "刻意练习·一堂10年成长指数"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_39b040c6-刻意练习一堂10年成长指数.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/刻意练习一堂10年成长指数.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂刻意练习十年成长指数.md"
+  content_sha256: "34057b3c41d004e4ccfccdf77325b923c2c9c3ece9d3d1e1b67011f06596d579"
+
+- id: "src_20260510_d5e71a5e"
+  title: "一堂最佳转化率·动力三曲线 堂"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_d5e71a5e-一堂最佳转化率动力三曲线-堂.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂最佳转化率动力三曲线-堂.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂最佳转化率动力曲线图.md"
+  content_sha256: "e5e1cb61f59ed85136a38a9d95e7105964b90b5ebdaf5283208cf8b493e55624"
+
+- id: "src_20260510_4b005e61"
+  title: "堂泛产品设计·十年峰炼爬山地图 堂"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_4b005e61-堂泛产品设计十年峰炼爬山地图-堂.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/堂泛产品设计十年峰炼爬山地图-堂.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂泛产品设计-十年修炼爬山地图.md"
+  content_sha256: "fa225ca05716daa3f944b843afe08f2ed7e6f78d6b439da6b6968c0da1ddfe51"
+
+- id: "src_20260510_39b6911e"
+  title: "- 堂泛产品设计实操：多出牌多练  堂"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_39b6911e-堂泛产品设计实操多出牌多练-堂.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/堂泛产品设计实操多出牌多练-堂.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂泛产品设计-多出牌多练习.md"
+  content_sha256: "b0a02ed987734cb247a6df286a555f0032a05d6bab93ea606780813b87af021b"
+
+- id: "src_20260510_fe1b2976"
+  title: "![[一堂泛产品设计36计-全套地图.png]]"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_fe1b2976-一堂泛产品设计36计-全套地图.png.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂泛产品设计36计-全套地图.png.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂泛产品设计36计-全套地图.md"
+  content_sha256: "5137c72b6364c955481d045e7040447907b531dd4f457ce8c827c60fcba2022b"
+
+- id: "src_20260510_80e46b45"
+  title: "一堂深度复盘冰山图 堂"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_80e46b45-一堂深度复盘冰山图-堂.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂深度复盘冰山图-堂.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂深度复盘冰山图.md"
+  content_sha256: "bae2d50a7663478b2818b74009605a2f2660ebe566429ffb16fbb8677309b59c"
+
+- id: "src_20260510_54afab69"
+  title: "一堂最佳转化率·10大最易浪费触点"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_54afab69-一堂最佳转化率10大最易浪费触点.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂最佳转化率10大最易浪费触点.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂转化率-10大容易浪费的触点.md"
+  content_sha256: "c4341b18a03dc380dc5aaf910fdd9db6fa5a0290af66f59018c6e09c2e74ee44"
+
+- id: "src_20260510_ef0a5055"
+  title: "堂 堂无限进步大地图『十年收藏版 -"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_ef0a5055-堂-堂无限进步大地图十年收藏版.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/堂-堂无限进步大地图十年收藏版.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂进步大地图.md"
+  content_sha256: "396aa3e4f10bba3bc5b7d1a4c8ab606d1c4a4b1dc8be4e4627e499a75e89fd41"
+
+- id: "src_20260510_4b752c7e"
+  title: "(no text detected)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_4b752c7e-no-text-detected.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/no-text-detected-5.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/一堂进步大地图_compressed.md"
+  content_sha256: "96f55bbc9b964c051c84a921a6dd5201071310d8738cee0a7816f013df68f0bd"
+
+- id: "src_20260510_fd54cc2d"
+  title: "一堂·优秀泛产品设计者的自我修养 堂"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_fd54cc2d-一堂优秀泛产品设计者的自我修养-堂.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂优秀泛产品设计者的自我修养-堂.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/优秀泛产品设计者的自我修养.md"
+  content_sha256: "6111897728f652795d20e739f7262a24bf396f1d5e6d7e1761d3e68b1b32e570"
+
+- id: "src_20260510_980e86d3"
+  title: "婚礼操盘：用户与场景分析"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_980e86d3-婚礼操盘用户与场景分析.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/婚礼操盘用户与场景分析.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/婚礼操盘-用户和场景.md"
+  content_sha256: "1c6d6e3739dd9f67480fe042f043ebdaece7570bc6da4d2b194ad64930a2c371"
+
+- id: "src_20260510_29a4b59b"
+  title: "婚礼操盘：婚礼环节规划"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_29a4b59b-婚礼操盘婚礼环节规划.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/婚礼操盘婚礼环节规划.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/婚礼规划.md"
+  content_sha256: "d1b833869b4e34384d2f0db9c05aaea662812f9b1936a38513c79679ae9b854d"
+
+- id: "src_20260510_4bb17355"
+  title: "天花板"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_4bb17355-天花板.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/天花板.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/审美提升的层级.md"
+  content_sha256: "1a823dd5f9b734bc2173433c4b35c0ecf0d879260a6be037bf5d173baeb1b766"
+
+- id: "src_20260510_5629ae68"
+  title: "(no text detected)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_5629ae68-no-text-detected.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/no-text-detected-6.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/微信图片_20260507004746_32_32.md"
+  content_sha256: "96f55bbc9b964c051c84a921a6dd5201071310d8738cee0a7816f013df68f0bd"
+
+- id: "src_20260510_40241ece"
+  title: "(no text detected)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_40241ece-no-text-detected.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/no-text-detected-7.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/微信图片_20260507004751_33_32.md"
+  content_sha256: "96f55bbc9b964c051c84a921a6dd5201071310d8738cee0a7816f013df68f0bd"
+
+- id: "src_20260510_0688bccf"
+  title: "(no text detected)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_0688bccf-no-text-detected.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/no-text-detected-8.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/微信图片_20260507004755_34_32.md"
+  content_sha256: "96f55bbc9b964c051c84a921a6dd5201071310d8738cee0a7816f013df68f0bd"
+
+- id: "src_20260510_9ed770e3"
+  title: "(no text detected)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_9ed770e3-no-text-detected.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/no-text-detected-9.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/微信图片_20260507004758_35_32.md"
+  content_sha256: "96f55bbc9b964c051c84a921a6dd5201071310d8738cee0a7816f013df68f0bd"
+
+- id: "src_20260510_13871616"
+  title: "(no text detected)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_13871616-no-text-detected.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/no-text-detected-10.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/微信图片_20260507004801_37_32.md"
+  content_sha256: "96f55bbc9b964c051c84a921a6dd5201071310d8738cee0a7816f013df68f0bd"
+
+- id: "src_20260510_c4351cf3"
+  title: "(no text detected)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_c4351cf3-no-text-detected.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/no-text-detected-11.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/微信图片_20260507004802_38_32.md"
+  content_sha256: "96f55bbc9b964c051c84a921a6dd5201071310d8738cee0a7816f013df68f0bd"
+
+- id: "src_20260510_2039c9d2"
+  title: "(no text detected)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_2039c9d2-no-text-detected.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/no-text-detected-12.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/微信图片_20260507004804_39_32.md"
+  content_sha256: "96f55bbc9b964c051c84a921a6dd5201071310d8738cee0a7816f013df68f0bd"
+
+- id: "src_20260510_fedfaca7"
+  title: "(no text detected)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_fedfaca7-no-text-detected.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/no-text-detected-13.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/微信图片_20260507004806_40_32.md"
+  content_sha256: "96f55bbc9b964c051c84a921a6dd5201071310d8738cee0a7816f013df68f0bd"
+
+- id: "src_20260510_d5457e6c"
+  title: "(no text detected)"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_d5457e6c-no-text-detected.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/no-text-detected-14.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/微信图片_20260507004811_41_32.md"
+  content_sha256: "96f55bbc9b964c051c84a921a6dd5201071310d8738cee0a7816f013df68f0bd"
+
+- id: "src_20260510_c39bc55e"
+  title: "泛产品设计·审美卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_c39bc55e-泛产品设计审美卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计审美卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-审美卡片-最佳实践建模.md"
+  content_sha256: "2b93dd6033869b59f722851a0c6b3402725ffff4d7a55e46d3ec0381638ec908"
+
+- id: "src_20260510_080ee7fe"
+  title: "泛产品设计·审美卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_080ee7fe-泛产品设计审美卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计审美卡片-2.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-审美卡片-最佳实践收集.md"
+  content_sha256: "0fd4cbeb77d997aed6e260cd47e16304359eb4aad04b88f655672e28fb512b34"
+
+- id: "src_20260510_888b642b"
+  title: "泛产品设计·审美卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_888b642b-泛产品设计审美卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计审美卡片-3.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-审美卡片-最佳实践池子.md"
+  content_sha256: "75d630b768fe7909fa3c3e8b0e33d9325925c6aee63b4943fe00f93b114c24b8"
+
+- id: "src_20260510_d7218337"
+  title: "泛产品设计·审美卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_d7218337-泛产品设计审美卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计审美卡片-4.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-审美卡片-美好作品想象.md"
+  content_sha256: "3cd261da04e713257b2f0037902430adfc6bba5fd13c4aca789922de3c0fe78c"
+
+- id: "src_20260510_757ad8e6"
+  title: "一堂泛产品设计·审美工具箱指南 堂"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_757ad8e6-一堂泛产品设计审美工具箱指南-堂.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂泛产品设计审美工具箱指南-堂.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-审美工具箱指南.md"
+  content_sha256: "6154dd8b91873caf936173bd53345822767d8a92dfc92f89ebeeca8938d74ed2"
+
+- id: "src_20260510_67c95ed3"
+  title: "11 泛产品设计·用户卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_67c95ed3-11-泛产品设计用户卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/11-泛产品设计用户卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-用户卡片-一堂五步法.md"
+  content_sha256: "c0bfbed53d95f6a62f4a737d8a3c8b8e9a1adcee9c5a40c00d598db3618e7308"
+
+- id: "src_20260510_c2ad7caa"
+  title: "泛产品设计·用户卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_c2ad7caa-泛产品设计用户卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计用户卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-用户卡片-动力阻力.md"
+  content_sha256: "2c2638c2b85e0325813e5db37290157fa45b51b98ee443f79c27dc92055e0db3"
+
+- id: "src_20260510_d5f2d917"
+  title: "泛产品设计·用户卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_d5f2d917-泛产品设计用户卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计用户卡片-2.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-用户卡片-场景推演.md"
+  content_sha256: "ebfa81df835e387a54f065e9a87b20d5004da3e699ce153ff8a9623844ccb14d"
+
+- id: "src_20260510_9ffdec2f"
+  title: "6 泛产品设计·用户卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_9ffdec2f-6-泛产品设计用户卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/6-泛产品设计用户卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-用户卡片-多视角思考.md"
+  content_sha256: "2b6195521feeaea32f432b245edd2e88589e36cb1fe1a52e1838f8cae638b9dc"
+
+- id: "src_20260510_a740e623"
+  title: "泛产品设计·用户卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_a740e623-泛产品设计用户卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计用户卡片-3.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-用户卡片-峰终定律.md"
+  content_sha256: "690f4169e579aed32dfb9616573ff1bbad106309736ff7fba938726619f74886"
+
+- id: "src_20260510_d4725ad7"
+  title: "泛产品设计·用户卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_d4725ad7-泛产品设计用户卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计用户卡片-4.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-用户卡片-惊喜公式.md"
+  content_sha256: "80cf005ae1e47f04a524b971c7d32bbdd40091ce6298504d1e546a3bac73b15e"
+
+- id: "src_20260510_c7a864b9"
+  title: "泛产品设计·用户卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_c7a864b9-泛产品设计用户卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计用户卡片-5.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-用户卡片-用户分层.md"
+  content_sha256: "396bbc071f8afc2b1658c5ed4d16a077e2e129d0a9a4ededf59a95902a352548"
+
+- id: "src_20260510_f91e1a52"
+  title: "泛产品设计·用户卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_f91e1a52-泛产品设计用户卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计用户卡片-6.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-用户卡片-用户视角.md"
+  content_sha256: "ef8637d4ac8d4dcc275a51184031cd392e20322e44cb71b584ad1609640d7f8b"
+
+- id: "src_20260510_15d2904e"
+  title: "10 泛产品设计·用户卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_15d2904e-10-泛产品设计用户卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/10-泛产品设计用户卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-用户卡片-行业分析画布.md"
+  content_sha256: "b9b1b4e445c43f40631c70527afed5b5856f61da6780625342147b884f6ba658"
+
+- id: "src_20260510_82d8f065"
+  title: "泛产品设计·用户卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_82d8f065-泛产品设计用户卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计用户卡片-7.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-用户卡片-需求挖掘.md"
+  content_sha256: "9e318af4433c8af095a3f4b3285be218824344a93143946be56133ff77497082"
+
+- id: "src_20260510_80b2cc04"
+  title: "- 泛产品设计·用户卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_80b2cc04-泛产品设计用户卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计用户卡片-8.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-用户卡片-项目背景分析.md"
+  content_sha256: "998d28a3365e5f271ab31b75603ba85552f82b062537f16983ca8d588c167f33"
+
+- id: "src_20260510_5c931738"
+  title: "泛产品设计・落地卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_5c931738-泛产品设计落地卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计落地卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-ROI分析.md"
+  content_sha256: "43fc4b30d74211a6570a3ea6f7f8fcebdbaa6b96a6b3f374aa68616d99e74e94"
+
+- id: "src_20260510_42a669c6"
+  title: "小12 泛产品设计·落地卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_42a669c6-小12-泛产品设计落地卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/小12-泛产品设计落地卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-业务建模.md"
+  content_sha256: "3293ebbc887d5edf2ae21775c1adcb05cdb02e6a2cb4699cfecc8b48dd3b72f3"
+
+- id: "src_20260510_6f05ee70"
+  title: "13 泛产品设计·落地卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_6f05ee70-13-泛产品设计落地卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/13-泛产品设计落地卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-低成本测试MVP.md"
+  content_sha256: "69e7590e73bb614fe1e84cd90ac49ce1067c422585e2ce740669328dcbc56472"
+
+- id: "src_20260510_1eaabcec"
+  title: "15 泛产品设计·落地卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_1eaabcec-15-泛产品设计落地卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/15-泛产品设计落地卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-假设拆解.md"
+  content_sha256: "078f992881d25288a16df3ae688bdfd661d06751efb5f432110d8b961527d001"
+
+- id: "src_20260510_b1c7cbcd"
+  title: "1 泛产品设计·落地卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_b1c7cbcd-1-泛产品设计落地卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/1-泛产品设计落地卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-内核和边界.md"
+  content_sha256: "a0b56eae44be6b92d6fbb2ec7d97fc6021492b9fa4d57616be0e1bad64a8d6e4"
+
+- id: "src_20260510_2de05f43"
+  title: "65 n 泛产品设计・落地卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_2de05f43-65-n-泛产品设计落地卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/65-n-泛产品设计落地卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-努力仿真.md"
+  content_sha256: "ebc97aeec6a741aa94d6c00c0a01ef97b6f859b1ad909ba47e82038548d4504e"
+
+- id: "src_20260510_288355bc"
+  title: "小18 泛产品设计·落地卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_288355bc-小18-泛产品设计落地卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/小18-泛产品设计落地卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-十倍速验证.md"
+  content_sha256: "044f948f8e29c0d0011c8c3af1a1708364705d833094a732dd1009903d6ad621"
+
+- id: "src_20260510_4ff89472"
+  title: "-"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_4ff89472-item.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/src_20260510_4ff89472.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-善用佳软.md"
+  content_sha256: "e2f7573bac0494ec01ee6428301ac627c504dc03ef3073f6b826453c06e0bcb7"
+
+- id: "src_20260510_8ddf132d"
+  title: "10 泛产品设计·落地卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_8ddf132d-10-泛产品设计落地卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/10-泛产品设计落地卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-复盘迭代.md"
+  content_sha256: "134a9d7f236b5583b869ce903974f2853768c27ab845707f40dfdd8ca7b05f00"
+
+- id: "src_20260510_9e9073a7"
+  title: "小15 泛产品设计·落地卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_9e9073a7-小15-泛产品设计落地卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/小15-泛产品设计落地卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-攻坚会.md"
+  content_sha256: "fd6ae0bceadbf651da5e8183a255ed33b74b2d5ac14fed5cb552c71adb7f0bef"
+
+- id: "src_20260510_f66abd85"
+  title: "小14 泛产品设计·落地卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_f66abd85-小14-泛产品设计落地卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/小14-泛产品设计落地卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-灵感闪现.md"
+  content_sha256: "0babe790b23b54eb38e65f077e334c05eabd7e319e46a0c36d0b4f2715ebbbdb"
+
+- id: "src_20260510_5a82dfdb"
+  title: "6 泛产品设计·落地卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_5a82dfdb-6-泛产品设计落地卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/6-泛产品设计落地卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-管理三段论.md"
+  content_sha256: "f150b34bf5003417650f8cd3b8b5b65f99887e0cfd809d7f92b5b3c91f033ede"
+
+- id: "src_20260510_1869094e"
+  title: "小19 泛产品设计·落地卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_1869094e-小19-泛产品设计落地卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/小19-泛产品设计落地卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-解放思想.md"
+  content_sha256: "41a765842255ceae9ef7771e9577553a41ce6f03ff0e66f5b13bb74fed03a27a"
+
+- id: "src_20260510_1a3537cf"
+  title: "![[泛产品设计-落地卡片-设计原则.png]]"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_1a3537cf-泛产品设计-落地卡片-设计原则.png.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计-落地卡片-设计原则.png.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-设计原则.md"
+  content_sha256: "8825d3eea5a5a7076bd8219218718d7317f8515d47cf6ece5be98eb6ce6faec5"
+
+- id: "src_20260510_35d3be02"
+  title: "8 泛产品设计·落地卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_35d3be02-8-泛产品设计落地卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/8-泛产品设计落地卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-逻辑MECE.md"
+  content_sha256: "fcd5040fdea0eadc52d008d55b11aa45fdb9008edf947faa5cc44067f1b3207a"
+
+- id: "src_20260510_1a256d3f"
+  title: "泛产品设计·落地卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_1a256d3f-泛产品设计落地卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计落地卡片-2.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-酝酿式打磨.md"
+  content_sha256: "1712618ba5972278d518d4eb4aa62185ef0d774dc07dae4156ce2e25aed2feb2"
+
+- id: "src_20260510_61862bc3"
+  title: "泛产品设计·落地卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_61862bc3-泛产品设计落地卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计落地卡片-3.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-里程碑拆解.md"
+  content_sha256: "ef25b4bab0e21f2a1eb0332876675e45460c214a712bb6920944a87660d9b980"
+
+- id: "src_20260510_3cfafc73"
+  title: "小11 泛产品设计·落地卡片"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_3cfafc73-小11-泛产品设计落地卡片.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/小11-泛产品设计落地卡片.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-落地卡片-风险管理.md"
+  content_sha256: "2b6b37204594785b2d381d912ea16688219fa779f8ec655847b3ca831ea23a83"
+
+- id: "src_20260510_5d8b3e84"
+  title: "堂泛产品设计·需求工具箱指南 堂"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_5d8b3e84-堂泛产品设计需求工具箱指南-堂.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/堂泛产品设计需求工具箱指南-堂.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计-需求工具箱指南.md"
+  content_sha256: "224b46a9fd6defccf03ae7faf7381f836e90699b4b5b7d0a5e56f509f7ad12a1"
+
+- id: "src_20260510_e8468bf3"
+  title: "泛产品设计的应用场景示意图 堂"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_e8468bf3-泛产品设计的应用场景示意图-堂.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/泛产品设计的应用场景示意图-堂.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计的应用场景示意图.md"
+  content_sha256: "561077708bd864379af6c078ad5dfe3fd91096d321df13f704669b29437b319f"
+
+- id: "src_20260510_9851eabc"
+  title: "一堂·泛产品设计看的三大自我修养 堂"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_9851eabc-一堂泛产品设计看的三大自我修养-堂.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂泛产品设计看的三大自我修养-堂.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计者的三大自我修养.md"
+  content_sha256: "bb0019c1b25215c237452b7e2c4cbd046718cf2ca57fe910ddf452e3c466e6bd"
+
+- id: "src_20260510_0e59adc9"
+  title: "❤"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_0e59adc9-item.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/src_20260510_0e59adc9.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计者的自我修养.md"
+  content_sha256: "a7c018370e321381992dbe8231ac85cd2cb81e8bb18e3733f798668af28d43ed"
+
+- id: "src_20260510_f2a1d58b"
+  title: "一堂泛产品设计·落地工具箱指南 堂"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_f2a1d58b-一堂泛产品设计落地工具箱指南-堂.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/一堂泛产品设计落地工具箱指南-堂.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计落地工具篇指南.md"
+  content_sha256: "8a88644f89d71e3bb599a49e82f7f33c0dc06b1532f8ab9b549d01a0b077d1da"
+
+- id: "src_20260510_7f910730"
+  title: "从看得见到磨得透"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_7f910730-从看得见到磨得透.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/从看得见到磨得透.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/泛产品设计落地篇.md"
+  content_sha256: "b67fda670c9417c68148c8c6577b7bf062d3e28f9ac931af5dd63d37972499e3"
+
+- id: "src_20260510_14db4c2b"
+  title: "萃取总结"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_14db4c2b-萃取总结.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/萃取总结.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/萃取总结.md"
+  content_sha256: "ba24fbeeba2c9399d438171a247baa9046c32ee0a290a5483dbd8163e2a340c0"
+
+- id: "src_20260510_23912290"
+  title: "最终还是看你个人的品味"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_23912290-最终还是看你个人的品味.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/最终还是看你个人的品味.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/顶级产品追求的方向-乔布斯.md"
+  content_sha256: "229657c9b44fcc10472c96103130cece0ab3b666804048b8aaa18439149320fe"
+
+- id: "src_20260510_5a6fe455"
+  title: "项目背景问题思考的8个维度清单"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_5a6fe455-项目背景问题思考的8个维度清单.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/项目背景问题思考的8个维度清单.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/项目背景问题思考的8个维度.md"
+  content_sha256: "7d442ef68b8c88fa9b37e284fe7554a22a6615f2d30cde7537a293660d71774f"
+
+- id: "src_20260510_402c1db5"
+  title: "预判模型"
+  type: "knowledge-map"
+  location: "10_raw/sources/src_20260510_402c1db5-预判模型.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/预判模型.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/预判模型.md"
+  content_sha256: "f83da1f07440b7a8e68f96e8fed67999faa3bd5e5592ee7a7d1d7454d8f1ca66"
+
+- id: "src_20260510_4a74b6bf"
+  title: "终于到这个课了，每次在讲这个课题的时候都是极大的焦虑，极大的担心，才有机会跟你们见面。"
+  type: "other"
+  location: "10_raw/sources/src_20260510_4a74b6bf-终于到这个课了每次在讲这个课题的时候都是极大的焦虑极大的担心才有机会跟你们见面.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/终于到这个课了每次在讲这个课题的时候都是极大的焦虑极大的担心才有机会跟你们见面.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-个人修炼-Y模型实操口述版.md"
+  content_sha256: "5f944402b00f195fa571535097f67f1e1ab535902e5a6d6056875ca320872803"
+
+- id: "src_20260510_b4a37287"
+  title: "说话人1     01:03"
+  type: "other"
+  location: "10_raw/sources/src_20260510_b4a37287-说话人1-01-03.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/说话人1-01-03.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-个人修炼-泛产品设计工具篇口述版.md"
+  content_sha256: "cbf5dd58f694c602950a8570e25c5f28d84a603a1723c0f7a2e4962845f6907e"
+
+- id: "src_20260510_662c6862"
+  title: "说话人1     01:16"
+  type: "other"
+  location: "10_raw/sources/src_20260510_662c6862-说话人1-01-16.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/说话人1-01-16.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-个人修炼-泛产品设计探索营口述版.md"
+  content_sha256: "a23334101d892b315c4f08796d4cf82a91473f747eeb986f7f79511cc8072bf2"
+
+- id: "src_20260510_32d64dc0"
+  title: "说话人1     00:56"
+  type: "other"
+  location: "10_raw/sources/src_20260510_32d64dc0-说话人1-00-56.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/说话人1-00-56.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-个人修炼-泛产品设计概念口述版.md"
+  content_sha256: "f96311176b2973cd9d48637bab2a4d552c5f4ffd73746b79d30ad659db733a49"
+
+- id: "src_20260510_ca5c3c86"
+  title: "说话人1     00:53"
+  type: "other"
+  location: "10_raw/sources/src_20260510_ca5c3c86-说话人1-00-53.md"
+  captured_at: "2026-05-10T15:49:30+00:00"
+  registered_at: "2026-05-10T15:49:30+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/说话人1-00-53.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-个人修炼-知识萃取探索营口述版.md"
+  content_sha256: "2cb6ebd033e4f6a7aa23aff41dd2a733f763bb76bb555b3e8a2ff3bb27ba29b8"
+
+- id: "src_20260510_9ab38dc3"
+  title: "直播间里？"
+  type: "other"
+  location: "10_raw/sources/src_20260510_9ab38dc3-直播间里.md"
+  captured_at: "2026-05-10T15:49:31+00:00"
+  registered_at: "2026-05-10T15:49:31+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/直播间里.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-个人修身-Y模型探索营2口述版.md"
+  content_sha256: "683fb5bd4ee9fa4639e762dca7eb436fea6f459bb78ac15455d1a0c3fa02a13b"
+
+- id: "src_20260510_ce6c2c61"
+  title: "好久不见好久不见。"
+  type: "other"
+  location: "10_raw/sources/src_20260510_ce6c2c61-好久不见好久不见.md"
+  captured_at: "2026-05-10T15:49:31+00:00"
+  registered_at: "2026-05-10T15:49:31+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/好久不见好久不见.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-个人修身-思维模型口述版.md"
+  content_sha256: "7409e9b552f51f3621214f561a4090c3b633100c9ec8e31a31f956d2532286c1"
+
+- id: "src_20260510_37b00812"
+  title: "欢迎大家来到一堂，这个不客套了。"
+  type: "other"
+  location: "10_raw/sources/src_20260510_37b00812-欢迎大家来到一堂这个不客套了.md"
+  captured_at: "2026-05-10T15:49:31+00:00"
+  registered_at: "2026-05-10T15:49:31+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/欢迎大家来到一堂这个不客套了.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-个人修身-泛产品设计02口述.md"
+  content_sha256: "779e7eed591019a7663dc8a01a0e8d404c6d28c6a14d294adea6938bdcd4e02d"
+
+- id: "src_20260510_3eab7965"
+  title: "谢谢。"
+  type: "other"
+  location: "10_raw/sources/src_20260510_3eab7965-谢谢.md"
+  captured_at: "2026-05-10T15:49:31+00:00"
+  registered_at: "2026-05-10T15:49:31+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/谢谢.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-个人修身-泛产品设计实操口述版.md"
+  content_sha256: "423e449e00a1a4e592bc2c7764cc4c0c1595448db6f1f88c46129c1d724eeddd"
+
+- id: "src_20260510_826b6eb2"
+  title: "说话人1     00:53"
+  type: "other"
+  location: "10_raw/sources/src_20260510_826b6eb2-说话人1-00-53.md"
+  captured_at: "2026-05-10T15:49:31+00:00"
+  registered_at: "2026-05-10T15:49:31+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/说话人1-00-53-2.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-个人修身-泛产品设计审美口述.md"
+  content_sha256: "efe5ebb665dec1cab6c12cb74c9db2a947d19db3b690bcadc6a82cd977c4eada"
+
+- id: "src_20260510_ad730a76"
+  title: "和知识封装成一个你自己的贴身的AI教练。"
+  type: "other"
+  location: "10_raw/sources/src_20260510_ad730a76-和知识封装成一个你自己的贴身的ai教练.md"
+  captured_at: "2026-05-10T15:49:31+00:00"
+  registered_at: "2026-05-10T15:49:31+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/和知识封装成一个你自己的贴身的ai教练.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-创业-调研行动营口述01.md"
+  content_sha256: "cedb87fa95318cd6d414ba7443f6e1e7e1e881080576c9ddc7344c1542fcfd8a"
+
+- id: "src_20260510_f372ce76"
+  title: "先开始看这个书封皮，这书封皮很有意思，这书有。"
+  type: "other"
+  location: "10_raw/sources/src_20260510_f372ce76-先开始看这个书封皮这书封皮很有意思这书有.md"
+  captured_at: "2026-05-10T15:49:31+00:00"
+  registered_at: "2026-05-10T15:49:31+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/先开始看这个书封皮这书封皮很有意思这书有.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/一堂-读书会-SPIN销售法口述.md"
+  content_sha256: "7b8687c4f826f9c4098bf00a949bad1b7603892cd35d5af58285c591316e2bba"

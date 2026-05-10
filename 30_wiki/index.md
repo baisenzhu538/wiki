@@ -229,3 +229,229 @@ _Last updated: 2026-05-10T15:46:34+00:00_
 - [Obsidian Git Multi-Device Sync Protocol](systems/obsidian-git-sync-protocol.md) - source no source
 - [Sprint 2 门禁系统 + Enrich 举证 — 设计规格](systems/sprint-2-gate-enrich-evidence.md) - source no source
 - [一堂方法论体系总图](systems/一堂方法论体系总图.md) - source no source
+
+- [当有了这个逻辑以后，就可以用一页纸， 解释我所有的人生紅貞計划 厅](concepts/当有了这个逻辑以后就可以用一页纸-解释我所有的人生紅貞計划-厅.md) - source `src_20260510_0792387b`
+
+- [楚门的选择：两条职业成长路线 堂](concepts/楚门的选择两条职业成长路线-堂.md) - source `src_20260510_9d77cdb9`
+
+- [Y型创业： 堂科学型组织](concepts/y型创业-堂科学型组织.md) - source `src_20260510_bf21614f`
+
+- [个人修炼-Y模型实操](concepts/个人修炼-y模型实操.md) - source `src_20260510_c8e41ccb`
+
+- [一堂人工智能全景图·MUSE模型](concepts/一堂人工智能全景图muse模型.md) - source `src_20260510_62b2cfa1`
+
+- [一堂AI时代的竞争力·双三角模型](concepts/一堂ai时代的竞争力双三角模型.md) - source `src_20260510_7c58991a`
+
+- [提问刻意练习提升画布ByYITANG](concepts/提问刻意练习提升画布byyitang.md) - source `src_20260510_e4a6ef49`
+
+- [个人修炼-泛产品设计工具篇](concepts/个人修炼-泛产品设计工具篇.md) - source `src_20260510_e6643d52`
+
+- [个人修炼-泛产品设计探索营](concepts/个人修炼-泛产品设计探索营.md) - source `src_20260510_fab64a96`
+
+- [个人修炼-泛产品设计概念](concepts/个人修炼-泛产品设计概念.md) - source `src_20260510_39a99221`
+
+- [个人修炼-知识萃取探索营](concepts/个人修炼-知识萃取探索营.md) - source `src_20260510_814ec410`
+
+- [一堂科学学习P口·全景策略图第二版 堂](concepts/一堂科学学习p口全景策略图第二版-堂.md) - source `src_20260510_0c9323c5`
+
+- [-堂科学学习IPO·完整清单](concepts/堂科学学习ipo完整清单.md) - source `src_20260510_490a2c9f`
+
+- [(no text detected)](concepts/no-text-detected.md) - source `src_20260510_00757439`
+
+- [辅导 咨询](concepts/辅导-咨询.md) - source `src_20260510_21007a14`
+
+- [目 难度最低(min) 难度最高(max)](concepts/目-难度最低min-难度最高max.md) - source `src_20260510_fd2fb05f`
+
+- [![[一堂-个人修炼-课程清单.png]]](concepts/一堂-个人修炼-课程清单.png.md) - source `src_20260510_f9158e7c`
+
+- [个人修身-Y模型探索营2](concepts/个人修身-y模型探索营2.md) - source `src_20260510_6d771b2a`
+
+- [个人修身-思维模型](concepts/个人修身-思维模型.md) - source `src_20260510_13cb37f7`
+
+- [个人修身-泛产品设计02](concepts/个人修身-泛产品设计02.md) - source `src_20260510_c842c00d`
+
+- [个人修身-泛产品设计实操](concepts/个人修身-泛产品设计实操.md) - source `src_20260510_6241b565`
+
+- [个人修身-泛产品设计审美](concepts/个人修身-泛产品设计审美.md) - source `src_20260510_4a29ec61`
+
+- [创业-调研行动营口述01](concepts/创业-调研行动营口述01.md) - source `src_20260510_2ba8671c`
+
+- [一堂课程清单1-4（创业必修方向）](concepts/一堂课程清单1-4创业必修方向.md) - source `src_20260510_e7d966fe`
+
+- [(no text detected)](concepts/no-text-detected-2.md) - source `src_20260510_301d5124`
+
+- [(no text detected)](concepts/no-text-detected-3.md) - source `src_20260510_f435fbf7`
+
+- [(no text detected)](concepts/no-text-detected-4.md) - source `src_20260510_716e7cd5`
+
+- [堂课程清单4-4(案例拆解方向)](concepts/堂课程清单4-4案例拆解方向.md) - source `src_20260510_ba494aea`
+
+- [一堂泛产品设计・十年苦练30招](concepts/一堂泛产品设计十年苦练30招.md) - source `src_20260510_828b1128`
+
+- [一堂课程清单2-4(管理必修方向)](concepts/一堂课程清单2-4管理必修方向.md) - source `src_20260510_d288a1b7`
+
+- [读书会-SPIN销售法](concepts/读书会-spin销售法.md) - source `src_20260510_349a66fd`
+
+- [一堂个人地图：高潜力成长者修炼全景地图](concepts/一堂个人地图高潜力成长者修炼全景地图.md) - source `src_20260510_fb28d5a6`
+
+- [堂五步法实操·产品内核画布 堂](concepts/堂五步法实操产品内核画布-堂.md) - source `src_20260510_8f50e43f`
+
+- [一堂五步法画布YitangFive-stepCanvas](concepts/一堂五步法画布yitangfive-stepcanvas.md) - source `src_20260510_1eb77650`
+
+- [一堂产品内核・十大典型指标](concepts/一堂产品内核十大典型指标.md) - source `src_20260510_5ef61f8f`
+
+- [刻意练习·一堂10年成长指数](concepts/刻意练习一堂10年成长指数.md) - source `src_20260510_39b040c6`
+
+- [一堂最佳转化率·动力三曲线 堂](concepts/一堂最佳转化率动力三曲线-堂.md) - source `src_20260510_d5e71a5e`
+
+- [堂泛产品设计·十年峰炼爬山地图 堂](concepts/堂泛产品设计十年峰炼爬山地图-堂.md) - source `src_20260510_4b005e61`
+
+- [- 堂泛产品设计实操：多出牌多练  堂](concepts/堂泛产品设计实操多出牌多练-堂.md) - source `src_20260510_39b6911e`
+
+- [![[一堂泛产品设计36计-全套地图.png]]](concepts/一堂泛产品设计36计-全套地图.png.md) - source `src_20260510_fe1b2976`
+
+- [一堂深度复盘冰山图 堂](concepts/一堂深度复盘冰山图-堂.md) - source `src_20260510_80e46b45`
+
+- [一堂最佳转化率·10大最易浪费触点](concepts/一堂最佳转化率10大最易浪费触点.md) - source `src_20260510_54afab69`
+
+- [堂 堂无限进步大地图『十年收藏版 -](concepts/堂-堂无限进步大地图十年收藏版.md) - source `src_20260510_ef0a5055`
+
+- [(no text detected)](concepts/no-text-detected-5.md) - source `src_20260510_4b752c7e`
+
+- [一堂·优秀泛产品设计者的自我修养 堂](concepts/一堂优秀泛产品设计者的自我修养-堂.md) - source `src_20260510_fd54cc2d`
+
+- [婚礼操盘：用户与场景分析](concepts/婚礼操盘用户与场景分析.md) - source `src_20260510_980e86d3`
+
+- [婚礼操盘：婚礼环节规划](concepts/婚礼操盘婚礼环节规划.md) - source `src_20260510_29a4b59b`
+
+- [天花板](concepts/天花板.md) - source `src_20260510_4bb17355`
+
+- [(no text detected)](concepts/no-text-detected-6.md) - source `src_20260510_5629ae68`
+
+- [(no text detected)](concepts/no-text-detected-7.md) - source `src_20260510_40241ece`
+
+- [(no text detected)](concepts/no-text-detected-8.md) - source `src_20260510_0688bccf`
+
+- [(no text detected)](concepts/no-text-detected-9.md) - source `src_20260510_9ed770e3`
+
+- [(no text detected)](concepts/no-text-detected-10.md) - source `src_20260510_13871616`
+
+- [(no text detected)](concepts/no-text-detected-11.md) - source `src_20260510_c4351cf3`
+
+- [(no text detected)](concepts/no-text-detected-12.md) - source `src_20260510_2039c9d2`
+
+- [(no text detected)](concepts/no-text-detected-13.md) - source `src_20260510_fedfaca7`
+
+- [(no text detected)](concepts/no-text-detected-14.md) - source `src_20260510_d5457e6c`
+
+- [泛产品设计·审美卡片](concepts/泛产品设计审美卡片.md) - source `src_20260510_c39bc55e`
+
+- [泛产品设计·审美卡片](concepts/泛产品设计审美卡片-2.md) - source `src_20260510_080ee7fe`
+
+- [泛产品设计·审美卡片](concepts/泛产品设计审美卡片-3.md) - source `src_20260510_888b642b`
+
+- [泛产品设计·审美卡片](concepts/泛产品设计审美卡片-4.md) - source `src_20260510_d7218337`
+
+- [一堂泛产品设计·审美工具箱指南 堂](concepts/一堂泛产品设计审美工具箱指南-堂.md) - source `src_20260510_757ad8e6`
+
+- [11 泛产品设计·用户卡片](concepts/11-泛产品设计用户卡片.md) - source `src_20260510_67c95ed3`
+
+- [泛产品设计·用户卡片](concepts/泛产品设计用户卡片.md) - source `src_20260510_c2ad7caa`
+
+- [泛产品设计·用户卡片](concepts/泛产品设计用户卡片-2.md) - source `src_20260510_d5f2d917`
+
+- [6 泛产品设计·用户卡片](concepts/6-泛产品设计用户卡片.md) - source `src_20260510_9ffdec2f`
+
+- [泛产品设计·用户卡片](concepts/泛产品设计用户卡片-3.md) - source `src_20260510_a740e623`
+
+- [泛产品设计·用户卡片](concepts/泛产品设计用户卡片-4.md) - source `src_20260510_d4725ad7`
+
+- [泛产品设计·用户卡片](concepts/泛产品设计用户卡片-5.md) - source `src_20260510_c7a864b9`
+
+- [泛产品设计·用户卡片](concepts/泛产品设计用户卡片-6.md) - source `src_20260510_f91e1a52`
+
+- [10 泛产品设计·用户卡片](concepts/10-泛产品设计用户卡片.md) - source `src_20260510_15d2904e`
+
+- [泛产品设计·用户卡片](concepts/泛产品设计用户卡片-7.md) - source `src_20260510_82d8f065`
+
+- [- 泛产品设计·用户卡片](concepts/泛产品设计用户卡片-8.md) - source `src_20260510_80b2cc04`
+
+- [泛产品设计・落地卡片](concepts/泛产品设计落地卡片.md) - source `src_20260510_5c931738`
+
+- [小12 泛产品设计·落地卡片](concepts/小12-泛产品设计落地卡片.md) - source `src_20260510_42a669c6`
+
+- [13 泛产品设计·落地卡片](concepts/13-泛产品设计落地卡片.md) - source `src_20260510_6f05ee70`
+
+- [15 泛产品设计·落地卡片](concepts/15-泛产品设计落地卡片.md) - source `src_20260510_1eaabcec`
+
+- [1 泛产品设计·落地卡片](concepts/1-泛产品设计落地卡片.md) - source `src_20260510_b1c7cbcd`
+
+- [65 n 泛产品设计・落地卡片](concepts/65-n-泛产品设计落地卡片.md) - source `src_20260510_2de05f43`
+
+- [小18 泛产品设计·落地卡片](concepts/小18-泛产品设计落地卡片.md) - source `src_20260510_288355bc`
+
+- [-](concepts/src_20260510_4ff89472.md) - source `src_20260510_4ff89472`
+
+- [10 泛产品设计·落地卡片](concepts/10-泛产品设计落地卡片.md) - source `src_20260510_8ddf132d`
+
+- [小15 泛产品设计·落地卡片](concepts/小15-泛产品设计落地卡片.md) - source `src_20260510_9e9073a7`
+
+- [小14 泛产品设计·落地卡片](concepts/小14-泛产品设计落地卡片.md) - source `src_20260510_f66abd85`
+
+- [6 泛产品设计·落地卡片](concepts/6-泛产品设计落地卡片.md) - source `src_20260510_5a82dfdb`
+
+- [小19 泛产品设计·落地卡片](concepts/小19-泛产品设计落地卡片.md) - source `src_20260510_1869094e`
+
+- [![[泛产品设计-落地卡片-设计原则.png]]](concepts/泛产品设计-落地卡片-设计原则.png.md) - source `src_20260510_1a3537cf`
+
+- [8 泛产品设计·落地卡片](concepts/8-泛产品设计落地卡片.md) - source `src_20260510_35d3be02`
+
+- [泛产品设计·落地卡片](concepts/泛产品设计落地卡片-2.md) - source `src_20260510_1a256d3f`
+
+- [泛产品设计·落地卡片](concepts/泛产品设计落地卡片-3.md) - source `src_20260510_61862bc3`
+
+- [小11 泛产品设计·落地卡片](concepts/小11-泛产品设计落地卡片.md) - source `src_20260510_3cfafc73`
+
+- [堂泛产品设计·需求工具箱指南 堂](concepts/堂泛产品设计需求工具箱指南-堂.md) - source `src_20260510_5d8b3e84`
+
+- [泛产品设计的应用场景示意图 堂](concepts/泛产品设计的应用场景示意图-堂.md) - source `src_20260510_e8468bf3`
+
+- [一堂·泛产品设计看的三大自我修养 堂](concepts/一堂泛产品设计看的三大自我修养-堂.md) - source `src_20260510_9851eabc`
+
+- [❤](concepts/src_20260510_0e59adc9.md) - source `src_20260510_0e59adc9`
+
+- [一堂泛产品设计·落地工具箱指南 堂](concepts/一堂泛产品设计落地工具箱指南-堂.md) - source `src_20260510_f2a1d58b`
+
+- [从看得见到磨得透](concepts/从看得见到磨得透.md) - source `src_20260510_7f910730`
+
+- [萃取总结](concepts/萃取总结.md) - source `src_20260510_14db4c2b`
+
+- [最终还是看你个人的品味](concepts/最终还是看你个人的品味.md) - source `src_20260510_23912290`
+
+- [项目背景问题思考的8个维度清单](concepts/项目背景问题思考的8个维度清单.md) - source `src_20260510_5a6fe455`
+
+- [预判模型](concepts/预判模型.md) - source `src_20260510_402c1db5`
+
+- [终于到这个课了，每次在讲这个课题的时候都是极大的焦虑，极大的担心，才有机会跟你们见面。](concepts/终于到这个课了每次在讲这个课题的时候都是极大的焦虑极大的担心才有机会跟你们见面.md) - source `src_20260510_4a74b6bf`
+
+- [说话人1     01:03](concepts/说话人1-01-03.md) - source `src_20260510_b4a37287`
+
+- [说话人1     01:16](concepts/说话人1-01-16.md) - source `src_20260510_662c6862`
+
+- [说话人1     00:56](concepts/说话人1-00-56.md) - source `src_20260510_32d64dc0`
+
+- [说话人1     00:53](concepts/说话人1-00-53.md) - source `src_20260510_ca5c3c86`
+
+- [直播间里？](concepts/直播间里.md) - source `src_20260510_9ab38dc3`
+
+- [好久不见好久不见。](concepts/好久不见好久不见.md) - source `src_20260510_ce6c2c61`
+
+- [欢迎大家来到一堂，这个不客套了。](concepts/欢迎大家来到一堂这个不客套了.md) - source `src_20260510_37b00812`
+
+- [谢谢。](concepts/谢谢.md) - source `src_20260510_3eab7965`
+
+- [说话人1     00:53](concepts/说话人1-00-53-2.md) - source `src_20260510_826b6eb2`
+
+- [和知识封装成一个你自己的贴身的AI教练。](concepts/和知识封装成一个你自己的贴身的ai教练.md) - source `src_20260510_ad730a76`
+
+- [先开始看这个书封皮，这书封皮很有意思，这书有。](concepts/先开始看这个书封皮这书封皮很有意思这书有.md) - source `src_20260510_f372ce76`
