@@ -1,15 +1,15 @@
 # Wiki Index
 
 
-_Last updated: 2026-05-10T15:45:33+00:00_
+_Last updated: 2026-05-10T15:46:34+00:00_
 
-- [EC工业化规范手册](concepts/EC工业化规范手册.md) - source `src_20260503_dadc7838`
-- [HIS系统开发实现方案-架构师指南](concepts/HIS系统开发实现方案-架构师指南.md) - source `src_20260503_1a1f0312`
-- [HIS系统深度调研](concepts/HIS系统深度调研.md) - source `src_20260503_968e0210`
 - [Business Research Skill — OSCAR 13武器体系 Claude Code 实现](concepts/business-research-skill-oscar-13-weapon-system.md) - source no source
 - [DeepSeek V4 在知识管理系统中的应用](concepts/deepseek-v4-在知识管理系统中的应用.md) - source `src_20260505_7766e197`
 - [EC工业化规范手册 v2.8.0](concepts/ec工业化规范手册-v2.8.0.md) - source `src_20260503_feab72b2`
+- [EC工业化规范手册](concepts/EC工业化规范手册.md) - source `src_20260503_dadc7838`
 - [Graph RAG — Knowledge-Graph-Powered Retrieval](concepts/graph-rag.md) - source no source
+- [HIS系统开发实现方案-架构师指南](concepts/HIS系统开发实现方案-架构师指南.md) - source `src_20260503_1a1f0312`
+- [HIS系统深度调研](concepts/HIS系统深度调研.md) - source `src_20260503_968e0210`
 - [Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)](concepts/kdo_product_design_agent_final.md) - source `src_20260503_52ae08ba`
 - [Kimi 深度调研集群方法论 (Deep-Research-Swarm)](concepts/kimi-深度调研集群方法论-deep-research-swarm.md) - source `src_20260502_7d7c1b7c`
 - [Knowledge Delivery OS 快速体验指南 - 飞书云文档](concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md) - source `src_20260501_6a491b80`
@@ -17,6 +17,104 @@ _Last updated: 2026-05-10T15:45:33+00:00_
 - [PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill](concepts/paddleocr-skill.md) - source no source
 - [Kimi 深度调研集群方法论 (Deep-Research-Swarm)](concepts/research_methodology.md) - source no source
 - [Sprint 2 门禁举证验收](concepts/sprint-2-门禁举证验收.md) - source `src_20260510_9e98a292`
+- [﻿---](concepts/src_20260510_0345bf5a.md) - source `src_20260510_0345bf5a`
+- [﻿---](concepts/src_20260510_081424fd.md) - source `src_20260510_081424fd`
+- [﻿---](concepts/src_20260510_08ce7500.md) - source `src_20260510_08ce7500`
+- [﻿---](concepts/src_20260510_0aa2302e.md) - source `src_20260510_0aa2302e`
+- [﻿---](concepts/src_20260510_0ad92016.md) - source `src_20260510_0ad92016`
+- [﻿---](concepts/src_20260510_0b7e3162.md) - source `src_20260510_0b7e3162`
+- [﻿---](concepts/src_20260510_0cc250dd.md) - source `src_20260510_0cc250dd`
+- [﻿---](concepts/src_20260510_1282beac.md) - source `src_20260510_1282beac`
+- [﻿---](concepts/src_20260510_17ce322d.md) - source `src_20260510_17ce322d`
+- [﻿---](concepts/src_20260510_1893e261.md) - source `src_20260510_1893e261`
+- [﻿---](concepts/src_20260510_19b62b86.md) - source `src_20260510_19b62b86`
+- [﻿---](concepts/src_20260510_1c3f68f8.md) - source `src_20260510_1c3f68f8`
+- [﻿---](concepts/src_20260510_1dcecd5a.md) - source `src_20260510_1dcecd5a`
+- [﻿---](concepts/src_20260510_268d0ca1.md) - source `src_20260510_268d0ca1`
+- [﻿---](concepts/src_20260510_27bbfe74.md) - source `src_20260510_27bbfe74`
+- [﻿---](concepts/src_20260510_2ba8c07f.md) - source `src_20260510_2ba8c07f`
+- [﻿---](concepts/src_20260510_3078fb29.md) - source `src_20260510_3078fb29`
+- [﻿---](concepts/src_20260510_33083975.md) - source `src_20260510_33083975`
+- [﻿---](concepts/src_20260510_339cd37b.md) - source `src_20260510_339cd37b`
+- [﻿---](concepts/src_20260510_372dabc9.md) - source `src_20260510_372dabc9`
+- [﻿---](concepts/src_20260510_3964a346.md) - source `src_20260510_3964a346`
+- [﻿---](concepts/src_20260510_39d36ca2.md) - source `src_20260510_39d36ca2`
+- [﻿---](concepts/src_20260510_4304f022.md) - source `src_20260510_4304f022`
+- [﻿---](concepts/src_20260510_436cb619.md) - source `src_20260510_436cb619`
+- [﻿---](concepts/src_20260510_44dac585.md) - source `src_20260510_44dac585`
+- [﻿---](concepts/src_20260510_4d6ef2d8.md) - source `src_20260510_4d6ef2d8`
+- [﻿---](concepts/src_20260510_4f13fb33.md) - source `src_20260510_4f13fb33`
+- [﻿---](concepts/src_20260510_4fbd64d6.md) - source `src_20260510_4fbd64d6`
+- [﻿---](concepts/src_20260510_4fee2a75.md) - source `src_20260510_4fee2a75`
+- [﻿---](concepts/src_20260510_5058df21.md) - source `src_20260510_5058df21`
+- [﻿---](concepts/src_20260510_54f23f73.md) - source `src_20260510_54f23f73`
+- [﻿---](concepts/src_20260510_56b748d0.md) - source `src_20260510_56b748d0`
+- [﻿---](concepts/src_20260510_5aab2dda.md) - source `src_20260510_5aab2dda`
+- [﻿---](concepts/src_20260510_61385577.md) - source `src_20260510_61385577`
+- [﻿---](concepts/src_20260510_61ebf6f3.md) - source `src_20260510_61ebf6f3`
+- [﻿---](concepts/src_20260510_638fcd2a.md) - source `src_20260510_638fcd2a`
+- [﻿---](concepts/src_20260510_6594de46.md) - source `src_20260510_6594de46`
+- [﻿---](concepts/src_20260510_677d2fb5.md) - source `src_20260510_677d2fb5`
+- [﻿---](concepts/src_20260510_6866fc25.md) - source `src_20260510_6866fc25`
+- [﻿---](concepts/src_20260510_6afe9d44.md) - source `src_20260510_6afe9d44`
+- [﻿---](concepts/src_20260510_6d94b9e8.md) - source `src_20260510_6d94b9e8`
+- [﻿---](concepts/src_20260510_6e987d24.md) - source `src_20260510_6e987d24`
+- [﻿---](concepts/src_20260510_6e99bcbf.md) - source `src_20260510_6e99bcbf`
+- [﻿---](concepts/src_20260510_6f96cd2b.md) - source `src_20260510_6f96cd2b`
+- [﻿---](concepts/src_20260510_7116ef53.md) - source `src_20260510_7116ef53`
+- [﻿---](concepts/src_20260510_72b8af8b.md) - source `src_20260510_72b8af8b`
+- [﻿---](concepts/src_20260510_740421b6.md) - source `src_20260510_740421b6`
+- [﻿---](concepts/src_20260510_74977a28.md) - source `src_20260510_74977a28`
+- [﻿---](concepts/src_20260510_81c92817.md) - source `src_20260510_81c92817`
+- [﻿---](concepts/src_20260510_832bee4c.md) - source `src_20260510_832bee4c`
+- [﻿---](concepts/src_20260510_86a29669.md) - source `src_20260510_86a29669`
+- [﻿---](concepts/src_20260510_86b39e9a.md) - source `src_20260510_86b39e9a`
+- [﻿---](concepts/src_20260510_88c4508c.md) - source `src_20260510_88c4508c`
+- [﻿---](concepts/src_20260510_8a9b8812.md) - source `src_20260510_8a9b8812`
+- [﻿---](concepts/src_20260510_8ca8deb9.md) - source `src_20260510_8ca8deb9`
+- [﻿---](concepts/src_20260510_90efbe90.md) - source `src_20260510_90efbe90`
+- [﻿---](concepts/src_20260510_94fc2d48.md) - source `src_20260510_94fc2d48`
+- [﻿---](concepts/src_20260510_96a913a3.md) - source `src_20260510_96a913a3`
+- [﻿---](concepts/src_20260510_9fc30d42.md) - source `src_20260510_9fc30d42`
+- [﻿---](concepts/src_20260510_a01f10cc.md) - source `src_20260510_a01f10cc`
+- [﻿---](concepts/src_20260510_a09d3bbc.md) - source `src_20260510_a09d3bbc`
+- [﻿---](concepts/src_20260510_a20ff50b.md) - source `src_20260510_a20ff50b`
+- [﻿---](concepts/src_20260510_a2fd669a.md) - source `src_20260510_a2fd669a`
+- [﻿---](concepts/src_20260510_a475fce7.md) - source `src_20260510_a475fce7`
+- [﻿---](concepts/src_20260510_b1b96124.md) - source `src_20260510_b1b96124`
+- [﻿---](concepts/src_20260510_b5cd1ec0.md) - source `src_20260510_b5cd1ec0`
+- [﻿---](concepts/src_20260510_b9de7e0b.md) - source `src_20260510_b9de7e0b`
+- [﻿---](concepts/src_20260510_ba0d885e.md) - source `src_20260510_ba0d885e`
+- [﻿---](concepts/src_20260510_bb5dce45.md) - source `src_20260510_bb5dce45`
+- [﻿---](concepts/src_20260510_bd9620e3.md) - source `src_20260510_bd9620e3`
+- [﻿---](concepts/src_20260510_c0cf689a.md) - source `src_20260510_c0cf689a`
+- [﻿---](concepts/src_20260510_c2389c75.md) - source `src_20260510_c2389c75`
+- [﻿---](concepts/src_20260510_c311d0f9.md) - source `src_20260510_c311d0f9`
+- [﻿---](concepts/src_20260510_c40244d3.md) - source `src_20260510_c40244d3`
+- [﻿---](concepts/src_20260510_c49abdd8.md) - source `src_20260510_c49abdd8`
+- [﻿---](concepts/src_20260510_c5fbe207.md) - source `src_20260510_c5fbe207`
+- [﻿---](concepts/src_20260510_cbf3dd8d.md) - source `src_20260510_cbf3dd8d`
+- [﻿---](concepts/src_20260510_cd09ceeb.md) - source `src_20260510_cd09ceeb`
+- [﻿---](concepts/src_20260510_ce883bd5.md) - source `src_20260510_ce883bd5`
+- [﻿---](concepts/src_20260510_d8b0b591.md) - source `src_20260510_d8b0b591`
+- [﻿---](concepts/src_20260510_d8b8862a.md) - source `src_20260510_d8b8862a`
+- [﻿---](concepts/src_20260510_d9307dd3.md) - source `src_20260510_d9307dd3`
+- [﻿---](concepts/src_20260510_da4b4885.md) - source `src_20260510_da4b4885`
+- [﻿---](concepts/src_20260510_dc80be16.md) - source `src_20260510_dc80be16`
+- [﻿---](concepts/src_20260510_de159182.md) - source `src_20260510_de159182`
+- [﻿---](concepts/src_20260510_dec65dcf.md) - source `src_20260510_dec65dcf`
+- [﻿---](concepts/src_20260510_e0d5009e.md) - source `src_20260510_e0d5009e`
+- [﻿---](concepts/src_20260510_e189bedf.md) - source `src_20260510_e189bedf`
+- [﻿---](concepts/src_20260510_eb510284.md) - source `src_20260510_eb510284`
+- [﻿---](concepts/src_20260510_eca0ef69.md) - source `src_20260510_eca0ef69`
+- [﻿---](concepts/src_20260510_ee5aedeb.md) - source `src_20260510_ee5aedeb`
+- [﻿---](concepts/src_20260510_ef839d4c.md) - source `src_20260510_ef839d4c`
+- [﻿---](concepts/src_20260510_f0ca7226.md) - source `src_20260510_f0ca7226`
+- [﻿---](concepts/src_20260510_f88bd8d8.md) - source `src_20260510_f88bd8d8`
+- [﻿---](concepts/src_20260510_fa97987d.md) - source `src_20260510_fa97987d`
+- [﻿---](concepts/src_20260510_fcf41b5b.md) - source `src_20260510_fcf41b5b`
+- [﻿---](concepts/src_20260510_fe505c73.md) - source `src_20260510_fe505c73`
+- [﻿---](concepts/src_20260510_fffa533e.md) - source `src_20260510_fffa533e`
 - [TinyFish — Agentic Web 基础设施建设层 Skill](concepts/tinyfish-agentic-web-infrastructure.md) - source no source
 - [Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现](concepts/truman-perspective-skill.md) - source no source
 - [Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl](concepts/web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md) - source no source
@@ -97,11 +195,23 @@ _Last updated: 2026-05-10T15:45:33+00:00_
 - [一堂调研行动营 — AI辅助系统式调研方法论](concepts/一堂调研行动营-ai辅助系统式调研方法论.md) - source `src_20260503_5f268da2`
 - [互联网医院模式深度调研报告](concepts/互联网医院模式深度调研报告.md) - source `src_20260501_9962715b`
 - [保达云诊所深度调研报告](concepts/保达云诊所深度调研报告.md) - source `src_20260503_ae1921d5`
+- [先开始看这个书封皮，这书封皮很有意思，这书有。](concepts/先开始看这个书封皮这书封皮很有意思这书有.md) - source `src_20260510_5c17aa07`
+- [和知识封装成一个你自己的贴身的AI教练。](concepts/和知识封装成一个你自己的贴身的ai教练.md) - source `src_20260510_34116fbf`
+- [好久不见好久不见。](concepts/好久不见好久不见.md) - source `src_20260510_e589ca4d`
 - [开源HIS系统代码深度分析报告](concepts/开源HIS系统代码深度分析报告.md) - source `src_20260503_f4891888`
+- [欢迎大家来到一堂，这个不客套了。](concepts/欢迎大家来到一堂这个不客套了.md) - source `src_20260510_323c7a0c`
+- [直播间里？](concepts/直播间里.md) - source `src_20260510_574ae017`
 - [紫鲸AI_智能体工作流平台_深度分析与产品设计](concepts/紫鲸ai_智能体工作流平台_深度分析与产品设计.md) - source `src_20260501_4eee4e95`
 - [紫鲸AI智能体工作流平台](concepts/紫鲸ai智能体工作流平台.md) - source `src_20260428_29929c1f`
+- [终于到这个课了，每次在讲这个课题的时候都是极大的焦虑，极大的担心，才有机会跟你们见面。](concepts/终于到这个课了每次在讲这个课题的时候都是极大的焦虑极大的担心才有机会跟你们见面.md) - source `src_20260510_89a1ff61`
 - [街顺APP全面调研报告](concepts/街顺app全面调研报告.md) - source `src_20260427_970eb338`
 - [诊所O2O外卖平台业务深度调研报告](concepts/诊所o2o外卖平台业务深度调研报告.md) - source no source
+- [说话人1     00:53](concepts/说话人1-00-53-2.md) - source `src_20260510_a4570115`
+- [说话人1     00:53](concepts/说话人1-00-53.md) - source `src_20260510_f2ff0ae5`
+- [说话人1     00:56](concepts/说话人1-00-56.md) - source `src_20260510_a0374615`
+- [说话人1     01:03](concepts/说话人1-01-03.md) - source `src_20260510_9c3b63b0`
+- [说话人1     01:16](concepts/说话人1-01-16.md) - source `src_20260510_9faf2296`
+- [谢谢。](concepts/谢谢.md) - source `src_20260510_22e9d761`
 - [轻量级诊所HIS调研全清单](concepts/轻量级诊所HIS调研全清单.md) - source `src_20260503_5c91e867`
 - [鑫港湾HIS系统分阶段整改报告](concepts/鑫港湾his系统分阶段整改报告.md) - source `src_20260428_db49a647`
 - [Kimi（月之暗面）](entities/Kimi-月之暗面.md) - source no source

@@ -1,0 +1,42 @@
+---
+source_id: "src_20260510_bb5dce45"
+title: "﻿---"
+captured_at: "2026-05-10T15:46:34+00:00"
+kind: "raw-source"
+---
+
+# ﻿---
+
+﻿---
+title: "一堂最佳转化率·动力三曲线 堂"
+kind: "knowledge-map"
+source: "一堂创业课堂"
+image: "一堂最佳转化率动力曲线图"
+created_at: "2026-05-10"
+tags:
+  - "#knowledge-map"
+  - "#yitang"
+---
+
+# 一堂最佳转化率·动力三曲线 堂
+
+![[一堂最佳转化率动力曲线图.png]]
+
+一堂最佳转化率·动力三曲线 堂
+YitangMotivationBoosting·Three-CurVeModel
+名 互惠
+ Reciprocation Reputation
+葉 葉 承诺一致 利 Commitmentand Consistency 社会认同 Benefit SocialProof
+权 喜好
+Right Liking
+权威
+情 Authority
+Emotion 稀缺
+Scarcity
+内在驱动力 外在影响力
+DrivingForce Influence
+F.特性 A.优点 B.利益
+Feature Advantage Benefit
+核心说服
+一堂・坚持只做必修课
+扫码辛苦学3天，不扫弯路走3年
