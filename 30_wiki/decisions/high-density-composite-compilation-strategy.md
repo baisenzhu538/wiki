@@ -73,10 +73,21 @@ domain: ["master"]
 - 适用的场景
 
 ## Framework Gallery（框架附件）
-嵌入相关知识地图的 OCR 文字：
-- 卡片 1：框架说明（摘录 OCR 核心文字）
+嵌入相关知识地图的内容：
+- 卡片 1：框架说明
 - 卡片 2：检查清单
 - ...
+- 每张引用的原图以 `![[image-name.png]]` 嵌入对应小节
+
+## Visual Analysis（视觉结构分析）
+> 对每张引用的知识地图原图，用多模态能力分析 OCR 捕捉不到的视觉信息。**此节是补上纯文字提炼遗漏的关键关系——哪些概念是并列、因果、前提条件。**
+
+对每张图回答：
+- **空间层级**：谁在上面/谁在下面？谁是父节点谁是子节点？
+- **分组逻辑**：同色块/同区域内的是同类吗？分组暗示了什么分类体系？
+- **阅读路径**：箭头、编号、从左到右/从上到下暗示了什么顺序？
+- **视觉强调**：加粗/放大/高亮/单独配色的元素是核心概念吗？
+- **留白与隔离**：刻意分开的区域是否暗示了独立模块或对立关系？
 
 ## Critique（质疑）
 - 具体假设：[至少 1 条]
@@ -112,10 +123,12 @@ domain: ["master"]
 
 ### 每一步的要求
 
-1. **读取素材**：先读口述稿全文建立理解，再扫相关知识地图 OCR
-2. **合并编译**：在口述稿的 wiki 骨架上扩展，将知识地图作为 `## Framework Gallery` 附件融入。**不要为知识地图单独创建 wiki 卡片**——它们作为附件更有价值
-3. **三步编译**：Condense ≥5 条 / Critique 含至少一个关键词（假设/边界/反例/前提）/ Synthesis ≥2 个 wikilink
-4. **验证**：跑 `kdo lint --wiki-path <path>` 确认 0 warning
+1. **读取素材**：先读口述稿全文建立理解，再**逐张打开原图**分析视觉结构（不依赖 OCR 文字）
+2. **源文件归档**：引用图片从 `00_inbox/` 复制到 `10_raw/sources/`，source_refs 指向 source 文件（非 inbox 临时路径）。口述稿同理，引其 source 文件而非 inbox MD
+3. **合并编译**：在口述稿的 wiki 骨架上扩展，将知识地图作为 `## Framework Gallery` 附件融入。**不要为知识地图单独创建 wiki 卡片**
+4. **视觉分析**：每张引用的知识地图原图，用多模态能力分析其视觉结构，写入 `## Visual Analysis` 节。补上 OCR 遗漏的关系信息：层级、分组、路径、强调、留白
+5. **三步编译**：Condense ≥5 条 / Critique 含至少一个关键词（假设/边界/反例/前提）/ Synthesis ≥2 个 wikilink
+6. **验证**：跑 `kdo lint --wiki-path <path>` 确认 0 warning
 
 ### Kimi LLM 使用
 
@@ -129,11 +142,24 @@ kdo lint --wiki-path 30_wiki/concepts/<target>.md
 
 LLM 配置在 `C:\Users\Administrator\.kdo\config.yaml`，需填入 Kimi API Key。
 
+### 用多模态 Agent 辅助 Visual Analysis
+
+知识地图是视觉框架，其隐含的层级、分组、路径信息 OCR 无法捕获。可利用多模态 agent（如 Hermes）批量分析：
+
+1. 将原图 + 对应的 OCR 文字一起提交
+2. 要求输出：空间层级 / 分组逻辑 / 阅读路径 / 视觉强调 / 留白含义
+3. 将分析结果填入 `## Visual Analysis` 节
+
+> Agent 分析不是替代人工判断——最终由黄药师核实并决定哪些视觉关系值得写入卡片。
+
 ### 禁止事项
 
 - ❌ 不要逐张处理知识地图为独立卡片
+- ❌ 不要只依赖 OCR 文字提炼知识——**必须看原图**，OCR 丢失了视觉层级和关系
 - ❌ 不要在没读口述稿的情况下直接 enrich
+- ❌ source_refs 不要指向 `00_inbox/` 临时路径——图片和口述稿必须归档到 `10_raw/sources/`
 - ❌ 不要跳过 Critique（L2 强制要求）
+- ❌ 不要跳过 Visual Analysis（每张引用的知识地图原图必须分析视觉结构）
 - ❌ 不要创建只有 3 句话的 stub 卡
 - ❌ 单次会话不要处理超过 3 个复合卡片（防 context overload）
 
@@ -144,6 +170,8 @@ LLM 配置在 `C:\Users\Administrator\.kdo\config.yaml`，需填入 Kimi API Key
 | L2 Condense | ≥5 条实质性中文 bullets |
 | L2 Critique | 含「假设」「边界」「反例」「前提」至少 1 个 |
 | L2 Synthesis | ≥2 个有效 wikilink（非 self-link） |
+| Visual Analysis | 每张引用原图均有分析（层级/分组/路径/强调/留白） |
+| source_refs | 全部指向 `10_raw/sources/`，无 `00_inbox/` 引用 |
 | 全文字数 | >500 字 |
 | `kdo lint` | 此卡 0 warning |
 
