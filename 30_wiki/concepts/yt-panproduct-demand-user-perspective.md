@@ -1,7 +1,7 @@
 ---
 title: "泛产品设计·用户卡片：用户视角"
 type: model
-status: enriched
+status: draft
 domain:
   - yitang
 yitang:

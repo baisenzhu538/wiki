@@ -1,7 +1,7 @@
 ---
 title: "泛产品设计·用户卡片：惊喜公式"
 type: model
-status: enriched
+status: draft
 domain:
   - yitang
 yitang:

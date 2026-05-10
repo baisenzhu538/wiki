@@ -1,7 +1,7 @@
 ---
 title: "泛产品设计·落地卡片：低成本测试MVP"
 type: model
-status: enriched
+status: draft
 domain:
   - yitang
 yitang:

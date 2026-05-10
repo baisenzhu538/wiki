@@ -1,7 +1,7 @@
 ---
 title: "泛产品设计·用户卡片：项目背景分析"
 type: model
-status: enriched
+status: draft
 domain:
   - yitang
 yitang:

@@ -1,7 +1,7 @@
 ---
 title: "泛产品设计·审美卡片：美好作品想象"
 type: model
-status: enriched
+status: draft
 domain:
   - yitang
 yitang:

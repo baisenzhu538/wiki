@@ -1,7 +1,7 @@
 ---
 title: "泛产品设计·用户卡片：行业分析画布"
 type: model
-status: enriched
+status: draft
 domain:
   - yitang
 yitang:
