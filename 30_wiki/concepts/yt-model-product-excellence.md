@@ -1,0 +1,73 @@
+---
+title: "顶级产品追求：品味、最佳实践与乔布斯的审美哲学"
+type: model
+status: enriched
+domain:
+  - yitang
+yitang:
+  map: personal
+  module: "个人修炼"
+  course_type: framework
+  level: advanced
+source_refs:
+  - "00_inbox/顶级产品追求的方向-乔布斯.png"
+created_at: "2026-05-11"
+updated_at: "2026-05-11"
+tags:
+  - "#yitang"
+  - "#product-design"
+  - "#aesthetics"
+  - "#best-practices"
+---
+
+# 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
+
+> 来源：一堂知识地图《顶级产品追求的方向——乔布斯》。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-model-pan-product-three-virtues]] | [[一堂]]
+
+## Summary
+
+这张知识地图以乔布斯的一句名言为锚点，概括了顶级产品追求的核心哲学：品味（taste）不是天赋，而是一个可训练的过程——**主动接触人类所做的最好的事物，然后将它们带入你正在做的事情**。这句话与泛产品设计的第二大修养"永远以最佳实践为追求"完全同构。核心公式：品味 = 曝光量（看过多少最好的）× 迁移力（能把多少带入自己做的事）。
+
+## [Condense]
+
+### 乔布斯的品味公式
+
+> "Ultimately, it comes down to taste. It comes down to trying to expose yourself to the best things that humans have done, and then try to bring those things into what you're doing."
+>
+> "最终还是看你个人的品味。它归结于尝试让自己接触人类所做的最好的事物，然后将这些事物带入你正在做的事情。"
+
+### 品味 = 曝光 × 迁移
+
+| 要素 | 含义 | 训练方法 |
+|------|------|---------|
+| **曝光（Exposure）** | 看过多少最好的事物 | 收集→建池→建模→想象（审美四阶段） |
+| **迁移（Bring In）** | 能把多少带入自己的作品 | 从模仿开始→理解原则→自由运用→形成风格 |
+
+### 与泛产品审美工具箱的对应
+
+| 审美阶段 | 乔布斯公式的环节 |
+|---------|----------------|
+| **收集**（黑盒） | 开始"接触最好的事物" |
+| **建池**（筛选） | 从海量最佳实践中筛选入围 |
+| **建模**（白盒） | 理解"为什么它们是最好的" |
+| **想象**（创造） | "带入你正在做的事情"——从模仿到创造 |
+
+### 核心洞见
+
+- **品味不是天赋，是可训练的能力**：任何人可以通过系统性地"看最好的东西"来提升品味
+- **执行力的上限 = 最佳实践理解的下限**：你做不出你没见过的好东西
+- **不是"抄"，是"化"**：接触最佳实践不是为了复制，是为了内化原则后创造自己的版本
+
+## [Critique]
+
+1. **"只看最好的"可能产生审美精英主义**：乔布斯的方法假设存在客观的"最好的事物"，但审美有文化/场景/用户差异。非洲市场的"最佳 UI"可能不是苹果风格。
+
+2. **"带入"的迁移机制未展开**：从"看过"到"做出来"之间有巨大的鸿沟——看了一百个顶级 App ≠ 能做出一个顶级 App。中间需要刻意练习/拆解/模仿/反馈迭代，这些未被知识地图覆盖。
+
+## [Synthesis]
+
+- [[yt-model-pan-product-aesthetic-toolkit]] — 审美工具箱（4 张卡片）
+- [[yt-model-pan-product-three-virtues]] — 三大修养（第二大修养：最佳实践）
+- [[yt-model-aesthetic-progression]] — 审美提升层级（从主观到客观的进阶）
+- [[yt-personal-pan-product-aesthetics]] — 泛产品设计审美篇
+- [[一堂]] — 一堂实体页
