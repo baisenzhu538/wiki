@@ -410,3 +410,259 @@ Chronological record of knowledge operations.
 - 2026-05-09T16:50:02+00:00 - Self-check: 7 auto-feedback record(s) created
 
 - 2026-05-09T16:51:22+00:00 - Self-check: 6 auto-feedback record(s) created
+
+- 2026-05-10T15:38:20+00:00 - Ingested `src_20260510_2dea42f4` from 00_inbox/business-research-skill/Users/star/.claude/skills/business-research/SKILL.md
+
+- 2026-05-10T15:38:20+00:00 - Ingested `src_20260510_8ed04f08` from 00_inbox/business-research-skill/Users/star/.claude/skills/business-research/references/ach-methodology.md
+
+- 2026-05-10T15:38:20+00:00 - Ingested `src_20260510_822df7ba` from 00_inbox/business-research-skill/Users/star/.claude/skills/business-research/references/analysis-frameworks.md
+
+- 2026-05-10T15:38:20+00:00 - Ingested `src_20260510_a788b3ab` from 00_inbox/business-research-skill/Users/star/.claude/skills/business-research/references/bias-checklist.md
+
+- 2026-05-10T15:38:20+00:00 - Ingested `src_20260510_82797a05` from 00_inbox/business-research-skill/Users/star/.claude/skills/business-research/references/ci-platforms.md
+
+- 2026-05-10T15:38:20+00:00 - Ingested `src_20260510_183ec574` from 00_inbox/business-research-skill/Users/star/.claude/skills/business-research/references/databases-index.md
+
+- 2026-05-10T15:38:20+00:00 - Ingested `src_20260510_22a75a3f` from 00_inbox/business-research-skill/Users/star/.claude/skills/business-research/references/market-sizing.md
+
+- 2026-05-10T15:38:20+00:00 - Ingested `src_20260510_1712e20e` from 00_inbox/business-research-skill/Users/star/.claude/skills/business-research/references/report-guide.md
+
+- 2026-05-10T15:38:20+00:00 - Ingested `src_20260510_d2e41954` from 00_inbox/business-research-skill/Users/star/.claude/skills/business-research/references/research-principles.md
+
+- 2026-05-10T15:38:21+00:00 - Ingested `src_20260510_feb79746` from 00_inbox/business-research-skill/Users/star/.claude/skills/business-research/references/style-guide.md
+
+- 2026-05-10T15:38:22+00:00 - Ingested `src_20260510_f595a8ce` from 00_inbox/business-research-skill/Users/star/.claude/skills/business-research/references/weapon-action-templates.md
+
+- 2026-05-10T15:38:22+00:00 - Ingested `src_20260510_78a30d82` from 00_inbox/business-research-skill/Users/star/.claude/skills/business-research/templates/fact-card.md
+
+- 2026-05-10T15:38:23+00:00 - Ingested `src_20260510_a1001a71` from 00_inbox/business-research-skill/Users/star/.claude/skills/business-research/templates/report-structure.md
+
+- 2026-05-10T15:38:23+00:00 - Ingested `src_20260510_e94119d5` from 00_inbox/business-research-skill/Users/star/.claude/skills/business-research/templates/weapon-checklist.md
+
+- 2026-05-10T15:38:23+00:00 - Ingested `src_20260510_4f9b5878` from 00_inbox/ideas/Truman的个人成长五步法.md
+
+- 2026-05-10T15:38:23+00:00 - Ingested `src_20260510_474a3b4d` from 00_inbox/ideas/truman的选择：两条职业成长路线.md
+
+- 2026-05-10T15:38:23+00:00 - Ingested `src_20260510_ac9ca323` from 00_inbox/ideas/一堂-个人修炼-Y模型.md
+
+- 2026-05-10T15:38:23+00:00 - Ingested `src_20260510_c87db37e` from 00_inbox/ideas/一堂-个人修炼-Y模型实操口述版.md
+
+- 2026-05-10T15:38:23+00:00 - Ingested `src_20260510_3d96c807` from 00_inbox/ideas/一堂-个人修炼-全景图MUSE模型.md
+
+- 2026-05-10T15:38:23+00:00 - Ingested `src_20260510_a057fc2a` from 00_inbox/ideas/一堂-个人修炼-双三角模型.md
+
+- 2026-05-10T15:38:23+00:00 - Ingested `src_20260510_e593ca48` from 00_inbox/ideas/一堂-个人修炼-提问刻意练习画布.md
+
+- 2026-05-10T15:38:23+00:00 - Ingested `src_20260510_cd14a34a` from 00_inbox/ideas/一堂-个人修炼-泛产品设计工具篇口述版.md
+
+- 2026-05-10T15:38:23+00:00 - Ingested `src_20260510_1a6d8d3e` from 00_inbox/ideas/一堂-个人修炼-泛产品设计探索营口述版.md
+
+- 2026-05-10T15:38:23+00:00 - Ingested `src_20260510_7cbb9706` from 00_inbox/ideas/一堂-个人修炼-泛产品设计概念口述版.md
+
+- 2026-05-10T15:38:23+00:00 - Ingested `src_20260510_ecbd15cd` from 00_inbox/ideas/一堂-个人修炼-知识萃取探索营口述版.md
+
+- 2026-05-10T15:38:23+00:00 - Ingested `src_20260510_8822da12` from 00_inbox/ideas/一堂-个人修炼-科学学习IPO-全景策略.md
+
+- 2026-05-10T15:38:23+00:00 - Ingested `src_20260510_a4cfb8ac` from 00_inbox/ideas/一堂-个人修炼-科学学习IPO完整清单.md
+
+- 2026-05-10T15:38:24+00:00 - Ingested `src_20260510_32f3aeff` from 00_inbox/ideas/一堂-个人修炼-科学学习IPO模型.md
+
+- 2026-05-10T15:38:24+00:00 - Ingested `src_20260510_1a1de952` from 00_inbox/ideas/一堂-个人修炼-科学提问刻意练习.md
+
+- 2026-05-10T15:38:24+00:00 - Ingested `src_20260510_0edb595a` from 00_inbox/ideas/一堂-个人修炼-解放思想.md
+
+- 2026-05-10T15:38:24+00:00 - Ingested `src_20260510_17a8462c` from 00_inbox/ideas/一堂-个人修炼-课程清单.md
+
+- 2026-05-10T15:38:24+00:00 - Ingested `src_20260510_883b8d1c` from 00_inbox/ideas/一堂-个人修身-Y模型探索营2口述版.md
+
+- 2026-05-10T15:38:24+00:00 - Ingested `src_20260510_6856af23` from 00_inbox/ideas/一堂-个人修身-思维模型口述版.md
+
+- 2026-05-10T15:38:24+00:00 - Ingested `src_20260510_bb93e424` from 00_inbox/ideas/一堂-个人修身-泛产品设计02口述.md
+
+- 2026-05-10T15:38:24+00:00 - Ingested `src_20260510_bc3a8b4d` from 00_inbox/ideas/一堂-个人修身-泛产品设计实操口述版.md
+
+- 2026-05-10T15:38:24+00:00 - Ingested `src_20260510_055024ce` from 00_inbox/ideas/一堂-个人修身-泛产品设计审美口述.md
+
+- 2026-05-10T15:38:24+00:00 - Ingested `src_20260510_6f5d35e6` from 00_inbox/ideas/一堂-创业-调研行动营口述01.md
+
+- 2026-05-10T15:38:24+00:00 - Ingested `src_20260510_8ae83c3d` from 00_inbox/ideas/一堂-创业必修-课程清单.md
+
+- 2026-05-10T15:38:24+00:00 - Ingested `src_20260510_4c867c1a` from 00_inbox/ideas/一堂-地图-个人地图_conv.md
+
+- 2026-05-10T15:38:24+00:00 - Ingested `src_20260510_9a742953` from 00_inbox/ideas/一堂-地图-创业地图_conv.md
+
+- 2026-05-10T15:38:24+00:00 - Ingested `src_20260510_daabc292` from 00_inbox/ideas/一堂-地图-管理地图_conv.md
+
+- 2026-05-10T15:38:24+00:00 - Ingested `src_20260510_971f46e9` from 00_inbox/ideas/一堂-案例拆解-课程清单.md
+
+- 2026-05-10T15:38:24+00:00 - Ingested `src_20260510_4ff598ac` from 00_inbox/ideas/一堂-泛产品设计-十年苦练30招.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_d3f906ef` from 00_inbox/ideas/一堂-管理必修-课程清单.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_2a3c0cd2` from 00_inbox/ideas/一堂-读书会-SPIN销售法口述.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_06978fb3` from 00_inbox/ideas/一堂个人地图：高潜力成长者修炼全景图.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_6ca23687` from 00_inbox/ideas/一堂五步法-产品内核画布.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_9e7f0089` from 00_inbox/ideas/一堂五步法画布.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_a5597abb` from 00_inbox/ideas/一堂产品内核-十大典型指标.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_e978f859` from 00_inbox/ideas/一堂刻意练习十年成长指数.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_a37239a6` from 00_inbox/ideas/一堂最佳转化率动力曲线图.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_ec2a4477` from 00_inbox/ideas/一堂泛产品设计-十年修炼爬山地图.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_5afc29b5` from 00_inbox/ideas/一堂泛产品设计-多出牌多练习.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_ede0efb0` from 00_inbox/ideas/一堂泛产品设计36计-全套地图.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_688abad0` from 00_inbox/ideas/一堂深度复盘冰山图.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_31e4c161` from 00_inbox/ideas/一堂转化率-10大容易浪费的触点.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_441bc4f7` from 00_inbox/ideas/一堂进步大地图.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_24387907` from 00_inbox/ideas/一堂进步大地图_compressed.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_71e0885a` from 00_inbox/ideas/优秀泛产品设计者的自我修养.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_a59f0e82` from 00_inbox/ideas/婚礼操盘-用户和场景.md
+
+- 2026-05-10T15:38:25+00:00 - Ingested `src_20260510_1896bcc2` from 00_inbox/ideas/婚礼规划.md
+
+- 2026-05-10T15:38:26+00:00 - Ingested `src_20260510_0d22da09` from 00_inbox/ideas/审美提升的层级.md
+
+- 2026-05-10T15:38:26+00:00 - Ingested `src_20260510_dbeadebd` from 00_inbox/ideas/微信图片_20260507004746_32_32.md
+
+- 2026-05-10T15:38:26+00:00 - Ingested `src_20260510_06213cbe` from 00_inbox/ideas/微信图片_20260507004751_33_32.md
+
+- 2026-05-10T15:38:26+00:00 - Ingested `src_20260510_36b64ae2` from 00_inbox/ideas/微信图片_20260507004755_34_32.md
+
+- 2026-05-10T15:38:26+00:00 - Ingested `src_20260510_c9d4fd63` from 00_inbox/ideas/微信图片_20260507004758_35_32.md
+
+- 2026-05-10T15:38:26+00:00 - Ingested `src_20260510_9179a4c6` from 00_inbox/ideas/微信图片_20260507004801_37_32.md
+
+- 2026-05-10T15:38:26+00:00 - Ingested `src_20260510_a92ec052` from 00_inbox/ideas/微信图片_20260507004802_38_32.md
+
+- 2026-05-10T15:38:26+00:00 - Ingested `src_20260510_3aa6c8ae` from 00_inbox/ideas/微信图片_20260507004804_39_32.md
+
+- 2026-05-10T15:38:26+00:00 - Ingested `src_20260510_9ff09ea0` from 00_inbox/ideas/微信图片_20260507004806_40_32.md
+
+- 2026-05-10T15:38:26+00:00 - Ingested `src_20260510_7886569a` from 00_inbox/ideas/微信图片_20260507004811_41_32.md
+
+- 2026-05-10T15:38:26+00:00 - Ingested `src_20260510_af7a502d` from 00_inbox/ideas/泛产品设计-审美卡片-最佳实践建模.md
+
+- 2026-05-10T15:38:26+00:00 - Ingested `src_20260510_370a0835` from 00_inbox/ideas/泛产品设计-审美卡片-最佳实践收集.md
+
+- 2026-05-10T15:38:26+00:00 - Ingested `src_20260510_32a3390d` from 00_inbox/ideas/泛产品设计-审美卡片-最佳实践池子.md
+
+- 2026-05-10T15:38:26+00:00 - Ingested `src_20260510_e5f3c20d` from 00_inbox/ideas/泛产品设计-审美卡片-美好作品想象.md
+
+- 2026-05-10T15:38:26+00:00 - Ingested `src_20260510_84845ff9` from 00_inbox/ideas/泛产品设计-审美工具箱指南.md
+
+- 2026-05-10T15:38:26+00:00 - Ingested `src_20260510_874de29e` from 00_inbox/ideas/泛产品设计-用户卡片-一堂五步法.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_50660e45` from 00_inbox/ideas/泛产品设计-用户卡片-动力阻力.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_886d2240` from 00_inbox/ideas/泛产品设计-用户卡片-场景推演.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_00bc56a2` from 00_inbox/ideas/泛产品设计-用户卡片-多视角思考.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_ce5a8052` from 00_inbox/ideas/泛产品设计-用户卡片-峰终定律.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_8bddf0cd` from 00_inbox/ideas/泛产品设计-用户卡片-惊喜公式.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_8433be48` from 00_inbox/ideas/泛产品设计-用户卡片-用户分层.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_6b02f486` from 00_inbox/ideas/泛产品设计-用户卡片-用户视角.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_5363d110` from 00_inbox/ideas/泛产品设计-用户卡片-行业分析画布.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_dcac16b9` from 00_inbox/ideas/泛产品设计-用户卡片-需求挖掘.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_bb25201e` from 00_inbox/ideas/泛产品设计-用户卡片-项目背景分析.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_cf1e4648` from 00_inbox/ideas/泛产品设计-落地卡片-ROI分析.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_956520df` from 00_inbox/ideas/泛产品设计-落地卡片-业务建模.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_3cda335d` from 00_inbox/ideas/泛产品设计-落地卡片-低成本测试MVP.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_5f6c84d0` from 00_inbox/ideas/泛产品设计-落地卡片-假设拆解.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_a2b73a8c` from 00_inbox/ideas/泛产品设计-落地卡片-内核和边界.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_74d95b68` from 00_inbox/ideas/泛产品设计-落地卡片-努力仿真.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_ca61070c` from 00_inbox/ideas/泛产品设计-落地卡片-十倍速验证.md
+
+- 2026-05-10T15:38:27+00:00 - Ingested `src_20260510_1a9c9f53` from 00_inbox/ideas/泛产品设计-落地卡片-善用佳软.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_797b0603` from 00_inbox/ideas/泛产品设计-落地卡片-复盘迭代.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_cb00580f` from 00_inbox/ideas/泛产品设计-落地卡片-攻坚会.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_e12f83d9` from 00_inbox/ideas/泛产品设计-落地卡片-灵感闪现.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_53278062` from 00_inbox/ideas/泛产品设计-落地卡片-管理三段论.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_47fc2d32` from 00_inbox/ideas/泛产品设计-落地卡片-解放思想.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_b0eeafcd` from 00_inbox/ideas/泛产品设计-落地卡片-设计原则.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_79418e75` from 00_inbox/ideas/泛产品设计-落地卡片-逻辑MECE.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_144f0a75` from 00_inbox/ideas/泛产品设计-落地卡片-酝酿式打磨.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_da4444e3` from 00_inbox/ideas/泛产品设计-落地卡片-里程碑拆解.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_7e878aca` from 00_inbox/ideas/泛产品设计-落地卡片-风险管理.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_e30f39f3` from 00_inbox/ideas/泛产品设计-需求工具箱指南.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_a2158e63` from 00_inbox/ideas/泛产品设计的应用场景示意图.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_f11fa9ad` from 00_inbox/ideas/泛产品设计者的三大自我修养.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_10aee6a1` from 00_inbox/ideas/泛产品设计者的自我修养.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_d3a5718b` from 00_inbox/ideas/泛产品设计落地工具篇指南.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_b567a5fd` from 00_inbox/ideas/泛产品设计落地篇.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_35dc7cd1` from 00_inbox/ideas/萃取总结.md
+
+- 2026-05-10T15:38:28+00:00 - Ingested `src_20260510_74772d0e` from 00_inbox/ideas/顶级产品追求的方向-乔布斯.md
+
+- 2026-05-10T15:38:29+00:00 - Ingested `src_20260510_24151e71` from 00_inbox/ideas/项目背景问题思考的8个维度.md
+
+- 2026-05-10T15:38:29+00:00 - Ingested `src_20260510_5583664d` from 00_inbox/ideas/预判模型.md
+
+- 2026-05-10T15:38:29+00:00 - Ingested `src_20260510_1899f7fd` from 00_inbox/一堂-个人修炼-Y模型实操口述版.md
+
+- 2026-05-10T15:38:29+00:00 - Ingested `src_20260510_4e3c18ee` from 00_inbox/一堂-个人修炼-泛产品设计工具篇口述版.md
+
+- 2026-05-10T15:38:29+00:00 - Ingested `src_20260510_26320a1b` from 00_inbox/一堂-个人修炼-泛产品设计探索营口述版.md
+
+- 2026-05-10T15:38:29+00:00 - Ingested `src_20260510_27e631c4` from 00_inbox/一堂-个人修炼-泛产品设计概念口述版.md
+
+- 2026-05-10T15:38:29+00:00 - Ingested `src_20260510_0154010e` from 00_inbox/一堂-个人修炼-知识萃取探索营口述版.md
+
+- 2026-05-10T15:38:29+00:00 - Ingested `src_20260510_c8db6c16` from 00_inbox/一堂-个人修身-Y模型探索营2口述版.md
+
+- 2026-05-10T15:38:29+00:00 - Ingested `src_20260510_afaf8f6a` from 00_inbox/一堂-个人修身-思维模型口述版.md
+
+- 2026-05-10T15:38:29+00:00 - Ingested `src_20260510_e6a28d17` from 00_inbox/一堂-个人修身-泛产品设计02口述.md
+
+- 2026-05-10T15:38:29+00:00 - Ingested `src_20260510_3b9d5cc0` from 00_inbox/一堂-个人修身-泛产品设计实操口述版.md
+
+- 2026-05-10T15:38:29+00:00 - Ingested `src_20260510_bfbff2b1` from 00_inbox/一堂-个人修身-泛产品设计审美口述.md
+
+- 2026-05-10T15:38:29+00:00 - Ingested `src_20260510_1e786622` from 00_inbox/一堂-创业-调研行动营口述01.md
+
+- 2026-05-10T15:38:29+00:00 - Ingested `src_20260510_0e4bbe47` from 00_inbox/一堂-读书会-SPIN销售法口述.md
+
+- 2026-05-10T15:38:39+00:00 - Self-check: 135 auto-feedback record(s) created
