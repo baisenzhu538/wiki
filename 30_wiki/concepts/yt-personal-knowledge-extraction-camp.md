@@ -1,14 +1,23 @@
 ---
-title: "说话人1     00:53"
+title: "知识萃取探索营"
 type: "concept"
-status: "enriched"
+subtype: "course"
+domain: ["yitang"]
+category: "personal"
+course_id: "yt-personal-knowledge-extraction"
 source_refs: ["src_20260510_0154010e"]
+status: "enriched"
+reviewed_by: "claude"
+review_date: "2026-05-10"
 created_at: "2026-05-10T15:38:29+00:00"
 updated_at: "2026-05-10T15:43:35+00:00"
+tags: ["#yitang", "#knowledge-extraction", "#course"]
 ---
 
 
-# 说话人1     00:53
+# 知识萃取探索营
+
+> 一堂-个人修炼系列 | 如何从碎片化经验中提炼可复用模型
 
 ## Summary
 
