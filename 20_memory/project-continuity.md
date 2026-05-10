@@ -89,17 +89,19 @@
 
 ---
 
-## ⛔ 2026-05-11 黄药师紧急停止
+## ⛔ 2026-05-11 黄药师方向修正（v2.0）
 
-**Architect 审查发现：黄药师正在按"一图一卡"模式逐张创建 yt-panproduct-* 卡片（已产出 127 张），违反了复合编译策略。**
+**第一轮审查（v1.0）**：判定黄药师"一图一卡"模式违规，要求停止并转为复合编译。
+**第二轮修正（v2.0）**：重新判断——知识库主要用户是 AI agent，细粒度独立卡片是最优结构。黄药师的 127 张卡结构正确，问题在质量。
 
 ### 黄药师下次启动时：
-1. **先读** `70_product/tasks/HALT-stop-individual-cards-start-composite.md`
-2. **再读** `60_feedback/assessments/huang-yaoshi-2026-05-11-halt-review.md`
-3. **不要**启动任何 enrich 操作，直到读完上述文件
+1. **先读** `70_product/tasks/HALT-stop-individual-cards-start-composite.md`（v2.0 已更新）
+2. **不要降级卡片**，不要合并为复合大卡
+3. **P0 优先**：source_refs 归档（00_inbox/ → 10_raw/sources/） + 补 38 张缺 Critique
+4. **单会话上限**：≤5 张质量修复
 
 ### 当前状态
-- 127 张独立卡片：全部 source_refs → 00_inbox/（违规），38 张缺 Critique，81 张缺 Visual Analysis
-- 60 份素材的复合编译：尚未开始
-- 下一张复合卡：泛产品设计方法论（P0，#1/14）
-- 内容工厂的工业化手册已更新至 v1.1（含 KF-019~022 铁律 + 复合编译规范）
+- 127 张独立卡片：结构正确，质量待修复
+- 策略 v2.0 已生效：[[high-density-composite-compilation-strategy]]
+- 工业化手册 v1.2 已更新：[[kdo-industrialization-manual]]
+- 黄药师确认新方向后可继续执行
