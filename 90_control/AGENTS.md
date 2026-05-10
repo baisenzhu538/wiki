@@ -128,10 +128,12 @@ Feedback routing rules live at `90_control/workflows/feedback-routing-rules.md`.
 
 ## 工业化规范
 
-KDO 知识生产的完整工业化标准定义在 `90_control/kdo-industrialization-manual.md`（对标 EC 工业化规范手册 v2.8.0）。内容包括：
+KDO 知识生产的完整工业化标准定义在 `90_control/kdo-industrialization-manual.md`（内容工厂的工业化手册，对标 EC 工业化规范手册 v2.8.0）。内容包括：
 - 三层质量门禁（L1 结构完整性 / L2 内容质量 / L3 管线一致性）
-- 18 条铁律（KF-001~018）
-- 管线阶段门禁与举证标准
-- 模板系统与反馈闭环
+- 22 条铁律（KF-001~022，含高密度素材专用 KF-019~022）
+- 管线阶段门禁（标准+复合编译变体）与举证标准
+- 高密度素材复合编译规范（§十二）与 Visual Analysis 五维分析法
+- 模板系统（标准版/精简版/复合版）与反馈闭环
+- 技术笔记（BOM/CRLF 修复等）
 
 所有 Agent 在执行 enrich/produce/validate 操作前应参考该手册的质量标准。

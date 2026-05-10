@@ -15,7 +15,7 @@
 
 | 文件 | 内容 |
 |------|------|
-| `90_control/kdo-industrialization-manual.md` | **KDO 工业化规范手册**——质量门禁、铁律、防呆、失败模式（对标 EC 工业化规范） |
+| `90_control/kdo-industrialization-manual.md` | **内容工厂的工业化手册**——质量门禁、铁律、防呆、失败模式、复合编译规范、Visual Analysis 方法论 |
 | `90_control/AGENTS.md` | 角色分工、禁止清单（必读！已发生过的事故列在禁止清单里） |
 | `90_control/debate-protocol.md` | 协作辩论协议——你和谁怎么沟通 |
 | `20_memory/corrections.md` | 走过的弯路，不要重蹈覆辙 |
