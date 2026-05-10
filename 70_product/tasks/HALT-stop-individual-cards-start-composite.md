@@ -1,44 +1,82 @@
 ---
-title: "⛔ HALT — 停止独立卡片，启动复合编译"
+title: "⛔ 方向修正 — 保留独立卡，修复质量，建导航层"
 status: active
 priority: critical
 created_at: "2026-05-11"
+updated_at: "2026-05-11"
 assigned_to: 黄药师
 reviewed_by: 欧阳锋
+supersedes: "原 HALT 指令（复合编译方向已废弃）"
 ---
 
-# ⛔ 立即停止 —— 阅读此文件后不要执行任何 enrich，先读完
+# ⛔ 方向修正 —— 阅读此文件后不要执行任何 enrich，先读完
 
 ## 发生了什么
 
-你按"一图一卡"模式创建了 **127 张 yt-panproduct-* 独立卡片**。这违反了 [[high-density-composite-compilation-strategy]]（复合编译策略）的核心原则。
+你创建了 **127 张独立知识卡**。原先我认为这是错误（v1.0 策略要求合并为复合卡），但重新审视后发现：
 
-策略要求：**14 个主题聚类 → 14 张复合概念卡**，不是 127 张碎片。
+**v1.0 的复合编译方案是错误的。这个知识库的主要用户是 AI agent，细粒度卡片是最优结构。**
 
-## 你当前需要做的事（按顺序）
+## 正确的方向（v2.0）
 
-### Step 1：停止（不要做任何新 enrich）
-- 不要创建新的 yt-panproduct-* 卡片
-- 不要修改任何现有卡片的 status
+### 核心判断
 
-### Step 2：读审查报告
-打开 `60_feedback/assessments/huang-yaoshi-2026-05-11-halt-review.md`
+| 错误认知（v1.0） | 正确认知（v2.0） |
+|----------------|----------------|
+| 合并为复合卡 → 人类线性阅读 | 细粒度独立卡 → Agent RAG 按需检索 |
+| 14 张大卡 | 127 张小卡 + 14 张 Hub Page（导航层） |
 
-### Step 3：确认理解后，只做一件事
-将 127 张 yt-panproduct-* 独立卡片批量降级为 `status: draft`
+### 为什么 127 张独立卡对 agent 更好
 
-### Step 4：启动第一张复合卡
-按策略 P0 优先级：**泛产品设计方法论**（复合卡 #1）
+- Agent 通过 RAG 检索命中精确概念，不需要整坨加载 30 张知识地图
+- 127 张卡之间的 wiki-link 网络更密集，agent 图遍历能力更强
+- 单张卡维护独立，更新不互相影响
 
-详细规范见策略文件 §执行规范，关键要求：
-- 先读口述稿全文
-- 逐张打开原图分析视觉结构（不是 OCR 文字）
-- 图片归档到 10_raw/sources/（不是 00_inbox/）
-- 合并编译，知识地图作为 Framework Gallery 融入
-- 三步编译：Condense ≥5 / Critique 含假设边界 / Synthesis ≥2
-- Visual Analysis：每张原图五维分析
-- kdo lint 验证 0 warning
+### 你的 127 张卡真正的问题
+
+不是"太碎"，是**质量不达标**：
+
+| 问题 | 数量 | 严重度 |
+|------|:----:|:------:|
+| source_refs → 00_inbox/ | 127/127 | 🔴 P0 |
+| 缺 [Critique] | 38 张 | 🔴 P0 |
+| 缺 Visual Analysis | 81 张 | 🟠 P1 |
+| 内容 < 5KB（太浅） | 87 张 | 🟠 P1 |
+
+## 按顺序执行
+
+### Step 1：读更新后的策略
+打开 [[high-density-composite-compilation-strategy]]（v2.0，已修订）
+
+### Step 2：P0 修复（source_refs + Critique）
+
+**先修 source_refs**：
+- 将引用的 PNG 从 `00_inbox/` 复制到 `10_raw/sources/`
+- 更新 frontmatter `source_refs` 指向 `10_raw/sources/xxx.png`
+- 先做 10 张确认流程正确
+
+**再补 Critique**：
+- 38 张缺 Critique 的，逐张补充 ≥1 条指名假设或边界的质疑
+- 禁止万能废话（"需要更多验证"式）
+
+### Step 3：P1 修复（Visual Analysis）
+
+81 张缺 Visual Analysis 的卡片，逐张：
+1. 打开原图（`00_inbox/xxx.png`）
+2. 五维分析（层级/分组/路径/强调/留白）至少覆盖三维
+3. 写入 `## Visual Analysis` 节
+
+### Step 4：建 Hub Page
+
+完成质量修复后，建 14 张导航页。Hub Page 不是内容搬运——只写概览 + wiki-link 列表（<3000 字）。
+
+第一张：**[[泛产品设计方法论 Hub]]**（链接三大工具箱 Hub + 口述稿卡片）
+
+### 工作节奏
+
+- 单会话：≤5 张质量修复，或 ≤2 张 Hub Page
+- 每批完成后跑 `kdo lint --wiki-path <path>` 验证
 
 ---
 
-> 审查人：欧阳锋 | 下一步：确认此文件后读审查报告
+> 审查人：欧阳锋 | v2.0 策略已更新 | 保留 127 张卡，不降级
