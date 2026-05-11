@@ -1,23 +1,47 @@
 ---
-title: "泛产品设计·用户卡片：用户视角"
+id: yt-panproduct-demand-user-perspective
+title: 泛产品设计·用户卡片：用户视角
 type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.8
+prerequisites:
+- yt-composite-pan-product-methodology
+component_of:
+- yt-model-pan-product-demand-toolkit
+related: []
+contradicts: []
+query_triggers:
+- empathy
+- pan-product-design
+- user-research
+- 泛产品设计
+- 泛产品设计·用户卡片：用户视角
+- 用户卡片
+- 用户研究
+- 用户视角
+- 用户需求
+- 需求分析
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#user-research'
+- '#empathy'
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: foundational
 source_refs:
-  - "10_raw/assets/yitang/泛产品设计-用户卡片-用户视角.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#user-research"
-  - "#empathy"
+- 10_raw/assets/yitang/泛产品设计-用户卡片-用户视角.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1171
+reviewed_by: 黄药师
 ---
 
 # 用户视角：一秒转化用户视角
