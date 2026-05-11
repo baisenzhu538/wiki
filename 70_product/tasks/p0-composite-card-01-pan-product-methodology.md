@@ -104,7 +104,7 @@ composite-concept (顶层)
 
 1. ~~source_refs → 10_raw/~~：✅ 14 张 PNG 已归档到 `10_raw/assets/yitang/`，5 份口述稿已归档到 `10_raw/sources/`，7 张卡 source_refs 已全部更新，grep 验证 0 残留 `00_inbox/`
 2. ~~原图归档~~：✅ 14 张 PNG 已复制到 `10_raw/assets/yitang/`
-3. 实体页更新：`30_wiki/entities/一堂.md` 需补充 composite-concept 和 framework 卡的 wikilink（待执行）
+3. ~~实体页更新~~：✅ `30_wiki/entities/一堂.md` 已补充 `yt-composite-pan-product-methodology` wikilink（frontmatter + 正文泛产品设计体系段首）
 
 ### 最终状态：7/7 卡 A 级
 
