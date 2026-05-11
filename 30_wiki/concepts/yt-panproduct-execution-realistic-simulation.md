@@ -10,7 +10,7 @@ yitang:
   course_type: card
   level: foundational
 source_refs:
-  - "00_inbox/泛产品设计-落地卡片-努力仿真.png"
+  - "10_raw/assets/yitang/泛产品设计-落地卡片-努力仿真.png"
 created_at: "2026-05-11"
 updated_at: "2026-05-11"
 tags:

@@ -11,7 +11,7 @@ yitang:
   course_id: yt-personal-pan-product-concepts
   level: foundational
 source_refs:
-  - "00_inbox/一堂-个人修炼-泛产品设计概念口述版.md"
+  - "10_raw/sources/一堂-个人修炼-泛产品设计概念口述版.md"
 created_at: "2026-05-11"
 updated_at: "2026-05-11"
 tags:

@@ -10,7 +10,7 @@ yitang:
   course_type: card
   level: intermediate
 source_refs:
-  - "00_inbox/泛产品设计-审美卡片-最佳实践建模.png"
+  - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践建模.png"
 created_at: "2026-05-11"
 updated_at: "2026-05-11"
 tags:
