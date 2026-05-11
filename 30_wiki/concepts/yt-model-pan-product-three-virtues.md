@@ -29,7 +29,7 @@ query_triggers:
 tags: ["三大修养", "价值观", "一堂", "泛产品设计", "心法"]
 
 source_refs:
-  - "00_inbox/泛产品设计者的三大自我修养.png"
+  - "10_raw/assets/yitang/泛产品设计者的三大自我修养.png"
 
 created_at: "2026-05-11"
 updated_at: "2026-05-11"
