@@ -52,7 +52,7 @@ reviewed_by: 黄药师
 
 逻辑MECE提醒：面对长期重要的工作，要努力避免碎片化思考，尽量有逻辑、尽量完备、尽量有推理。拆解事物有四个层级——从碎片散点到有推理的逻辑链，MECE是结构化思考的核心纪律。
 
-## [Condense]
+## Claims
 
 ### 核心机制：四层拆解
 
@@ -74,7 +74,7 @@ reviewed_by: 黄药师
 
 卡片用四层递进结构呈现拆解深度——从L1碎片到L4逻辑链，每一层都比上一层更结构化。"不重不漏"被标注为MECE的核心定义，而"有推理的逻辑链"被标注为更高追求——暗示MECE不只是穷举，更是思考深度。"闹心"一词的使用将MECE从方法论内化为"本能反应"——不是工具而是习惯。
 
-## [Synthesis]
+## Synthesis
 
 - [[yt-panproduct-execution-core-and-boundary]] — 内核和边界（先定边界再MECE拆解）
 - [[yt-panproduct-execution-hypothesis-decomposition]] — 假设拆解（MECE在假设分析中的应用）

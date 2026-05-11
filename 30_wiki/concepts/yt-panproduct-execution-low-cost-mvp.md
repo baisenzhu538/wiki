@@ -53,7 +53,7 @@ reviewed_by: 黄药师
 
 低成本测试MVP提供从"不做产品"到"全量开发"的六档武器库——验证成本从左到右越来越高，核心原则是用最低成本学到最关键认知。不动开发 → 模拟产品 → 提供产品 → 极小开发 → 正式开发 → 全量开发。
 
-## [Condense]
+## Claims
 
 ### MVP设计武器库
 
@@ -73,7 +73,7 @@ reviewed_by: 黄药师
 
 卡片将MVP武器库从左到右排列——成本依次递增，形成一条"成本光谱"。最左侧"不做产品"被标红或强调——暗示最容易被忽视的选项是"不做产品也能验证"。从左到右的箭头暗示存在"最佳停靠点"——在验证目标达到后就应该停止向右移动，而不是惯性推进到全量开发。
 
-## [Synthesis]
+## Synthesis
 
 - [[yt-panproduct-execution-10x-validation]] — 十倍速验证（MVP是十倍速验证的具体执行）
 - [[yt-panproduct-execution-hypothesis-decomposition]] — 假设拆解（先拆解假设再选MVP层级）

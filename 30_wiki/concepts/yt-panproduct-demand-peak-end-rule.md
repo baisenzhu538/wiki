@@ -50,7 +50,7 @@ reviewed_by: 黄药师
 
 峰终定律（Peak-End Rule）指出：用户对体验的记忆不是平均值，而是由峰值时刻和终值时刻决定的。最值得关注的用户体验要素：峰值 + 终值 + 初值 + 底线值。对长链条体验设计尤为关键——你不需要每个环节都完美，但必须把关键MOT（关键时刻）做到极致。
 
-## [Condense]
+## Claims
 
 ### 核心机制：记忆≠平均
 
@@ -70,7 +70,7 @@ reviewed_by: 黄药师
 
 卡片用PEAK/END两个英文词作为主视觉锚点，下方配上EXPERIENCE和TIME——暗示用户体验是时间维度上的曲线而非点状评估。峰值被图形化呈现为体验曲线的最高点。初值和底线值被补充标注在曲线两端，形成四要素框架。"二八定律"的类比被用来传达核心洞察：20%的关键时刻决定80%的用户记忆。
 
-## [Synthesis]
+## Synthesis
 
 - [[yt-panproduct-demand-surprise-formula]] — 惊喜公式（峰值设计的具体方法）
 - [[yt-panproduct-demand-motivation-resistance]] — 动力阻力（转化率中的触点对应峰终时刻）
