@@ -1,23 +1,47 @@
 ---
-title: "泛产品设计·落地卡片：攻坚会"
+id: yt-panproduct-execution-war-room
+title: 泛产品设计·落地卡片：攻坚会
 type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: advanced
+confidence: 0.8
+prerequisites:
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-aesthetic-toolkit
+component_of:
+- yt-model-pan-product-execution-toolkit
+related: []
+contradicts: []
+query_triggers:
+- 产品落地
+- 产品迭代
+- 执行方法
+- 攻坚会
+- 泛产品设计
+- 泛产品设计·落地卡片：攻坚会
+- 落地卡片
+- 落地执行
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#execution'
+- '#collaboration'
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: advanced
 source_refs:
-  - "10_raw/assets/yitang/泛产品设计-落地卡片-攻坚会.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#execution"
-  - "#collaboration"
+- 10_raw/assets/yitang/泛产品设计-落地卡片-攻坚会.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1280
+reviewed_by: 黄药师
 ---
 
 # 攻坚会：重点课题all-in攻坚

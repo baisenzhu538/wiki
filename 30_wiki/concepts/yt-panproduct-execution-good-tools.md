@@ -1,23 +1,47 @@
 ---
-title: "泛产品设计·落地卡片：善用佳软"
+id: yt-panproduct-execution-good-tools
+title: 泛产品设计·落地卡片：善用佳软
 type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.8
+prerequisites:
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-aesthetic-toolkit
+component_of:
+- yt-model-pan-product-execution-toolkit
+related: []
+contradicts: []
+query_triggers:
+- 产品落地
+- 产品迭代
+- 善用佳软
+- 执行方法
+- 泛产品设计
+- 泛产品设计·落地卡片：善用佳软
+- 落地卡片
+- 落地执行
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#execution'
+- '#tools'
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: foundational
 source_refs:
-  - "10_raw/assets/yitang/泛产品设计-落地卡片-善用佳软.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#execution"
-  - "#tools"
+- 10_raw/assets/yitang/泛产品设计-落地卡片-善用佳软.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1129
+reviewed_by: 黄药师
 ---
 
 # 善用佳软：多学习一些简单产品工具

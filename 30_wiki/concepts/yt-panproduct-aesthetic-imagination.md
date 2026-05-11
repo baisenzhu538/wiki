@@ -1,23 +1,46 @@
 ---
-title: "泛产品设计·审美卡片：美好作品想象"
+id: yt-panproduct-aesthetic-imagination
+title: 泛产品设计·审美卡片：美好作品想象
 type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: advanced
+confidence: 0.8
+prerequisites:
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+component_of:
+- yt-model-pan-product-aesthetic-toolkit
+related: []
+contradicts: []
+query_triggers:
+- 产品审美
+- 审美
+- 审美卡片
+- 最佳实践
+- 泛产品设计
+- 泛产品设计·审美卡片：美好作品想象
+- 美好作品想象
+- 设计标准
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#aesthetics'
+- '#creativity'
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: advanced
 source_refs:
-  - "10_raw/assets/yitang/泛产品设计-审美卡片-美好作品想象.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#aesthetics"
-  - "#creativity"
+- 10_raw/assets/yitang/泛产品设计-审美卡片-美好作品想象.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1426
+reviewed_by: 黄药师
 ---
 
 # 美好作品想象：缺对标就自己想象

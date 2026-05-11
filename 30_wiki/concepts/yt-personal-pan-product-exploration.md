@@ -1,22 +1,41 @@
 ---
-title: "泛产品设计探索营：案例启发与认知重构"
+id: yt-personal-pan-product-exploration
+title: 泛产品设计探索营：案例启发与认知重构
 type: concept
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.8
+prerequisites: []
+component_of:
+- yt-composite-pan-product-methodology
+related: []
+contradicts: []
+query_triggers:
+- 个人修炼
+- 产品思维
+- 案例启发与认知重构
+- 泛产品设计
+- 泛产品设计探索营
+- 泛产品设计探索营：案例启发与认知重构
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#case-study'
 yitang:
   map: personal
-  module: "个人修炼"
+  module: 个人修炼
   course_type: explore_camp
   level: foundational
 source_refs:
-  - "10_raw/sources/一堂-个人修炼-泛产品设计探索营口述版.md"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#case-study"
+- 10_raw/sources/一堂-个人修炼-泛产品设计探索营口述版.md
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1679
+reviewed_by: 黄药师
 ---
 
 # 泛产品设计探索营：案例启发与认知重构

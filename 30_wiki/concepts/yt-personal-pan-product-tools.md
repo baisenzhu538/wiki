@@ -1,23 +1,42 @@
 ---
-title: "泛产品设计工具篇：出牌教学法与30张卡牌"
+id: yt-personal-pan-product-tools
+title: 泛产品设计工具篇：出牌教学法与30张卡牌
 type: concept
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.8
+prerequisites: []
+component_of:
+- yt-composite-pan-product-methodology
+related: []
+contradicts: []
+query_triggers:
+- 个人修炼
+- 产品思维
+- 出牌教学法与30张卡牌
+- 泛产品设计
+- 泛产品设计工具篇
+- 泛产品设计工具篇：出牌教学法与30张卡牌
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#toolkit'
+- '#pedagogy'
 yitang:
   map: personal
-  module: "个人修炼"
+  module: 个人修炼
   course_type: required
   level: intermediate
 source_refs:
-  - "10_raw/sources/一堂-个人修炼-泛产品设计工具篇口述版.md"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#toolkit"
-  - "#pedagogy"
+- 10_raw/sources/一堂-个人修炼-泛产品设计工具篇口述版.md
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1774
+reviewed_by: 黄药师
 ---
 
 # 泛产品设计工具篇：出牌教学法与30张卡牌

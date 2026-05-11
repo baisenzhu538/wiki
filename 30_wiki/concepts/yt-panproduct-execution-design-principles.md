@@ -1,23 +1,47 @@
 ---
-title: "泛产品设计·落地卡片：设计原则"
+id: yt-panproduct-execution-design-principles
+title: 泛产品设计·落地卡片：设计原则
 type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.8
+prerequisites:
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-aesthetic-toolkit
+component_of:
+- yt-model-pan-product-execution-toolkit
+related: []
+contradicts: []
+query_triggers:
+- 产品落地
+- 产品迭代
+- 执行方法
+- 泛产品设计
+- 泛产品设计·落地卡片：设计原则
+- 落地卡片
+- 落地执行
+- 设计原则
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#execution'
+- '#ui-ux'
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: foundational
 source_refs:
-  - "10_raw/assets/yitang/泛产品设计-落地卡片-设计原则.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#execution"
-  - "#ui-ux"
+- 10_raw/assets/yitang/泛产品设计-落地卡片-设计原则.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1128
+reviewed_by: 黄药师
 ---
 
 # 设计原则：掌握基本的UI/UE审美原则

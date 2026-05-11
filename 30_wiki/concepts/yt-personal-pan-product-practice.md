@@ -1,23 +1,42 @@
 ---
-title: "泛产品设计实操篇：需求分析与用户洞察"
+id: yt-personal-pan-product-practice
+title: 泛产品设计实操篇：需求分析与用户洞察
 type: concept
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.8
+prerequisites: []
+component_of:
+- yt-composite-pan-product-methodology
+related: []
+contradicts: []
+query_triggers:
+- 个人修炼
+- 产品思维
+- 泛产品设计
+- 泛产品设计实操篇
+- 泛产品设计实操篇：需求分析与用户洞察
+- 需求分析与用户洞察
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#user-research'
+- '#demand-analysis'
 yitang:
   map: personal
-  module: "个人修炼"
+  module: 个人修炼
   course_type: required
   level: intermediate
 source_refs:
-  - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#user-research"
-  - "#demand-analysis"
+- 10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1763
+reviewed_by: 黄药师
 ---
 
 # 泛产品设计实操篇：需求分析与用户洞察

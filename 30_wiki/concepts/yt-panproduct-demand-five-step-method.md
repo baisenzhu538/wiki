@@ -1,23 +1,45 @@
 ---
-title: "泛产品设计·用户卡片：一堂五步法"
+id: yt-panproduct-demand-five-step-method
+title: 泛产品设计·用户卡片：一堂五步法
 type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: advanced
+confidence: 0.8
+prerequisites:
+- yt-composite-pan-product-methodology
+component_of:
+- yt-model-pan-product-demand-toolkit
+related: []
+contradicts: []
+query_triggers:
+- 一堂五步法
+- 泛产品设计
+- 泛产品设计·用户卡片：一堂五步法
+- 用户卡片
+- 用户研究
+- 用户需求
+- 需求分析
+- 需求洞察
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#business-model'
+- '#five-step-method'
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: advanced
 source_refs:
-  - "10_raw/assets/yitang/泛产品设计-用户卡片-一堂五步法.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#business-model"
-  - "#five-step-method"
+- 10_raw/assets/yitang/泛产品设计-用户卡片-一堂五步法.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1228
+reviewed_by: 黄药师
 ---
 
 # 一堂五步法：善于分析商业成败假设

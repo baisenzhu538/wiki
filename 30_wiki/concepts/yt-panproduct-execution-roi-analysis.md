@@ -1,23 +1,47 @@
 ---
-title: "泛产品设计·落地卡片：ROI分析"
+id: yt-panproduct-execution-roi-analysis
+title: 泛产品设计·落地卡片：ROI分析
 type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.8
+prerequisites:
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-aesthetic-toolkit
+component_of:
+- yt-model-pan-product-execution-toolkit
+related: []
+contradicts: []
+query_triggers:
+- ROI分析
+- 产品落地
+- 产品迭代
+- 执行方法
+- 泛产品设计
+- 泛产品设计·落地卡片：ROI分析
+- 落地卡片
+- 落地执行
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#execution'
+- '#roi'
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: intermediate
 source_refs:
-  - "10_raw/assets/yitang/泛产品设计-落地卡片-ROI分析.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#execution"
-  - "#roi"
+- 10_raw/assets/yitang/泛产品设计-落地卡片-ROI分析.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1050
+reviewed_by: 黄药师
 ---
 
 # ROI分析：擅做投产比分析

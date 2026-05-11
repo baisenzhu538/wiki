@@ -1,23 +1,46 @@
 ---
-title: "泛产品设计·审美卡片：最佳实践收集"
+id: yt-panproduct-aesthetic-collection
+title: 泛产品设计·审美卡片：最佳实践收集
 type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.8
+prerequisites:
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+component_of:
+- yt-model-pan-product-aesthetic-toolkit
+related: []
+contradicts: []
+query_triggers:
+- 产品审美
+- 审美
+- 审美卡片
+- 最佳实践
+- 最佳实践收集
+- 泛产品设计
+- 泛产品设计·审美卡片：最佳实践收集
+- 设计标准
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#aesthetics'
+- '#best-practices'
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: foundational
 source_refs:
-  - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践收集.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#aesthetics"
-  - "#best-practices"
+- 10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践收集.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1309
+reviewed_by: 黄药师
 ---
 
 # 最佳实践收集：积极搜集最佳案例

@@ -1,23 +1,42 @@
 ---
-title: "泛产品设计审美篇：最佳实践与审美建模"
+id: yt-personal-pan-product-aesthetics
+title: 泛产品设计审美篇：最佳实践与审美建模
 type: concept
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.8
+prerequisites: []
+component_of:
+- yt-composite-pan-product-methodology
+related: []
+contradicts: []
+query_triggers:
+- 个人修炼
+- 产品思维
+- 最佳实践与审美建模
+- 泛产品设计
+- 泛产品设计审美篇
+- 泛产品设计审美篇：最佳实践与审美建模
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#aesthetics'
+- '#best-practice'
 yitang:
   map: personal
-  module: "个人修炼"
+  module: 个人修炼
   course_type: required
   level: intermediate
 source_refs:
-  - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#aesthetics"
-  - "#best-practice"
+- 10_raw/sources/一堂-个人修身-泛产品设计审美口述.md
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1731
+reviewed_by: 黄药师
 ---
 
 # 泛产品设计审美篇：永远以最佳实践为追求

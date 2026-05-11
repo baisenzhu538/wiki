@@ -1,23 +1,45 @@
 ---
-title: "泛产品设计·用户卡片：峰终定律"
+id: yt-panproduct-demand-peak-end-rule
+title: 泛产品设计·用户卡片：峰终定律
 type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.8
+prerequisites:
+- yt-composite-pan-product-methodology
+component_of:
+- yt-model-pan-product-demand-toolkit
+related: []
+contradicts: []
+query_triggers:
+- 峰终定律
+- 泛产品设计
+- 泛产品设计·用户卡片：峰终定律
+- 用户卡片
+- 用户研究
+- 用户需求
+- 需求分析
+- 需求洞察
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#user-experience'
+- '#peak-end-rule'
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: intermediate
 source_refs:
-  - "10_raw/assets/yitang/泛产品设计-用户卡片-峰终定律.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#user-experience"
-  - "#peak-end-rule"
+- 10_raw/assets/yitang/泛产品设计-用户卡片-峰终定律.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1169
+reviewed_by: 黄药师
 ---
 
 # 峰终定律：用户体验的二八定律

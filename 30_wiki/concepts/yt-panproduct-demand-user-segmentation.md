@@ -1,23 +1,45 @@
 ---
-title: "泛产品设计·用户卡片：用户分层"
+id: yt-panproduct-demand-user-segmentation
+title: 泛产品设计·用户卡片：用户分层
 type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.8
+prerequisites:
+- yt-composite-pan-product-methodology
+component_of:
+- yt-model-pan-product-demand-toolkit
+related: []
+contradicts: []
+query_triggers:
+- 泛产品设计
+- 泛产品设计·用户卡片：用户分层
+- 用户分层
+- 用户卡片
+- 用户研究
+- 用户需求
+- 需求分析
+- 需求洞察
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#user-research'
+- '#segmentation'
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: foundational
 source_refs:
-  - "10_raw/assets/yitang/泛产品设计-用户卡片-用户分层.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#user-research"
-  - "#segmentation"
+- 10_raw/assets/yitang/泛产品设计-用户卡片-用户分层.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1133
+reviewed_by: 黄药师
 ---
 
 # 用户分层：分层理解用户差异

@@ -1,23 +1,47 @@
 ---
-title: "泛产品设计·落地卡片：解放思想"
+id: yt-panproduct-execution-liberate-thinking
+title: 泛产品设计·落地卡片：解放思想
 type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: advanced
+confidence: 0.8
+prerequisites:
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-aesthetic-toolkit
+component_of:
+- yt-model-pan-product-execution-toolkit
+related: []
+contradicts: []
+query_triggers:
+- 产品落地
+- 产品迭代
+- 执行方法
+- 泛产品设计
+- 泛产品设计·落地卡片：解放思想
+- 落地卡片
+- 落地执行
+- 解放思想
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#execution'
+- '#innovation'
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: advanced
 source_refs:
-  - "10_raw/assets/yitang/泛产品设计-落地卡片-解放思想.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#execution"
-  - "#innovation"
+- 10_raw/assets/yitang/泛产品设计-落地卡片-解放思想.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1179
+reviewed_by: 黄药师
 ---
 
 # 解放思想：敢于提出新解法/挑战新问题

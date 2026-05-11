@@ -16,9 +16,6 @@ component_of:
 related: []
 contradicts: []
 query_triggers:
-- empathy
-- pan-product-design
-- user-research
 - 泛产品设计
 - 泛产品设计·用户卡片：用户视角
 - 用户卡片
@@ -26,6 +23,7 @@ query_triggers:
 - 用户视角
 - 用户需求
 - 需求分析
+- 需求洞察
 tags:
 - '#yitang'
 - '#pan-product-design'

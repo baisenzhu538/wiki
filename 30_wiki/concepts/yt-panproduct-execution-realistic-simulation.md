@@ -1,23 +1,47 @@
 ---
-title: "泛产品设计·落地卡片：努力仿真"
+id: yt-panproduct-execution-realistic-simulation
+title: 泛产品设计·落地卡片：努力仿真
 type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.8
+prerequisites:
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-aesthetic-toolkit
+component_of:
+- yt-model-pan-product-execution-toolkit
+related: []
+contradicts: []
+query_triggers:
+- 产品落地
+- 产品迭代
+- 努力仿真
+- 执行方法
+- 泛产品设计
+- 泛产品设计·落地卡片：努力仿真
+- 落地卡片
+- 落地执行
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#execution'
+- '#prototyping'
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: foundational
 source_refs:
-  - "10_raw/assets/yitang/泛产品设计-落地卡片-努力仿真.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#execution"
-  - "#prototyping"
+- 10_raw/assets/yitang/泛产品设计-落地卡片-努力仿真.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1175
+reviewed_by: 黄药师
 ---
 
 # 努力仿真：在真实场景做真东西

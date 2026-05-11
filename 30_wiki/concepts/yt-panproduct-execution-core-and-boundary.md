@@ -1,23 +1,47 @@
 ---
-title: "泛产品设计·落地卡片：内核和边界"
+id: yt-panproduct-execution-core-and-boundary
+title: 泛产品设计·落地卡片：内核和边界
 type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.8
+prerequisites:
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-aesthetic-toolkit
+component_of:
+- yt-model-pan-product-execution-toolkit
+related: []
+contradicts: []
+query_triggers:
+- 产品落地
+- 产品迭代
+- 内核和边界
+- 执行方法
+- 泛产品设计
+- 泛产品设计·落地卡片：内核和边界
+- 落地卡片
+- 落地执行
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#execution'
+- '#scope'
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: foundational
 source_refs:
-  - "10_raw/assets/yitang/泛产品设计-落地卡片-内核和边界.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#execution"
-  - "#scope"
+- 10_raw/assets/yitang/泛产品设计-落地卡片-内核和边界.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1111
+reviewed_by: 黄药师
 ---
 
 # 内核和边界：剥离中心思想和边界

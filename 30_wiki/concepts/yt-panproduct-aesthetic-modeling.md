@@ -1,23 +1,46 @@
 ---
-title: "泛产品设计·审美卡片：最佳实践建模"
+id: yt-panproduct-aesthetic-modeling
+title: 泛产品设计·审美卡片：最佳实践建模
 type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.8
+prerequisites:
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+component_of:
+- yt-model-pan-product-aesthetic-toolkit
+related: []
+contradicts: []
+query_triggers:
+- 产品审美
+- 审美
+- 审美卡片
+- 最佳实践
+- 最佳实践建模
+- 泛产品设计
+- 泛产品设计·审美卡片：最佳实践建模
+- 设计标准
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#aesthetics'
+- '#best-practices'
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: intermediate
 source_refs:
-  - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践建模.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#aesthetics"
-  - "#best-practices"
+- 10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践建模.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1424
+reviewed_by: 黄药师
 ---
 
 # 最佳实践建模：用评价维度打磨产品

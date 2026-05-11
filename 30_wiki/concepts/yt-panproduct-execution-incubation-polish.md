@@ -1,23 +1,47 @@
 ---
-title: "泛产品设计·落地卡片：酝酿式打磨"
+id: yt-panproduct-execution-incubation-polish
+title: 泛产品设计·落地卡片：酝酿式打磨
 type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.8
+prerequisites:
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-aesthetic-toolkit
+component_of:
+- yt-model-pan-product-execution-toolkit
+related: []
+contradicts: []
+query_triggers:
+- 产品落地
+- 产品迭代
+- 执行方法
+- 泛产品设计
+- 泛产品设计·落地卡片：酝酿式打磨
+- 落地卡片
+- 落地执行
+- 酝酿式打磨
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#execution'
+- '#iteration'
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: intermediate
 source_refs:
-  - "10_raw/assets/yitang/泛产品设计-落地卡片-酝酿式打磨.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#execution"
-  - "#iteration"
+- 10_raw/assets/yitang/泛产品设计-落地卡片-酝酿式打磨.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1062
+reviewed_by: 黄药师
 ---
 
 # 酝酿式打磨：科学式的灵感管理

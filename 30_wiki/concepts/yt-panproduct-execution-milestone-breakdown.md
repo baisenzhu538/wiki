@@ -1,23 +1,47 @@
 ---
-title: "泛产品设计·落地卡片：里程碑拆解"
+id: yt-panproduct-execution-milestone-breakdown
+title: 泛产品设计·落地卡片：里程碑拆解
 type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.8
+prerequisites:
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-aesthetic-toolkit
+component_of:
+- yt-model-pan-product-execution-toolkit
+related: []
+contradicts: []
+query_triggers:
+- 产品落地
+- 产品迭代
+- 执行方法
+- 泛产品设计
+- 泛产品设计·落地卡片：里程碑拆解
+- 落地卡片
+- 落地执行
+- 里程碑拆解
+tags:
+- '#yitang'
+- '#pan-product-design'
+- '#execution'
+- '#project-management'
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: intermediate
 source_refs:
-  - "10_raw/assets/yitang/泛产品设计-落地卡片-里程碑拆解.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#execution"
-  - "#project-management"
+- 10_raw/assets/yitang/泛产品设计-落地卡片-里程碑拆解.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1070
+reviewed_by: 黄药师
 ---
 
 # 里程碑拆解：主动设定交付中间节点
