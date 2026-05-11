@@ -1,5 +1,12 @@
 # Project Continuity
 
+## 2026-05-12：Sprint 5 关闭 / Sprint 6 启动
+
+- **Sprint 5 完成**：7 张 composite+framework 卡 agent-native 升级通过质量门禁
+- **Sprint 6 进行中**：~66 张卡片分批升级。任务文件：`70_product/tasks/sprint-6-agent-native-upgrade-all-cards.md`
+- **活跃角色**：黄药师（执行），欧阳锋（审查）
+- **关键决策**：agent-native 格式已定案，不可回退到旧格式
+
 ## Session 2026-05-03 Evening
 
 **Human**: Linhai Zhu
