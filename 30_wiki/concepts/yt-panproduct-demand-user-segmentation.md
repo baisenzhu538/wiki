@@ -1,7 +1,7 @@
 ---
 title: "泛产品设计·用户卡片：用户分层"
-type: model
-status: draft
+type: tool
+status: enriched
 domain:
   - yitang
 yitang:

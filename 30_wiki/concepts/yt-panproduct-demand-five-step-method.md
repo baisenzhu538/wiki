@@ -1,7 +1,7 @@
 ---
 title: "泛产品设计·用户卡片：一堂五步法"
-type: model
-status: draft
+type: tool
+status: enriched
 domain:
   - yitang
 yitang:

@@ -1,7 +1,7 @@
 ---
 title: "泛产品设计·审美卡片：最佳实践收集"
-type: model
-status: draft
+type: tool
+status: enriched
 domain:
   - yitang
 yitang:

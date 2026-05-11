@@ -1,7 +1,7 @@
 ---
 title: "泛产品设计·落地卡片：里程碑拆解"
-type: model
-status: draft
+type: tool
+status: enriched
 domain:
   - yitang
 yitang:
