@@ -30,9 +30,9 @@ query_triggers:
 tags: ["落地执行", "迭代", "工具箱", "一堂", "泛产品设计"]
 
 source_refs:
-  - "00_inbox/泛产品设计落地工具篇指南.png"
-  - "00_inbox/泛产品设计-落地卡片-内核和边界.png"
-  - "00_inbox/ideas/一堂-个人修身-泛产品设计实操口述版.md"
+  - "10_raw/assets/yitang/泛产品设计落地工具篇指南.png"
+  - "10_raw/assets/yitang/泛产品设计-落地卡片-内核和边界.png"
+  - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
 
 created_at: "2026-05-11"
 updated_at: "2026-05-11"

@@ -28,8 +28,8 @@ query_triggers:
 tags: ["需求分析", "工具箱", "一堂", "用户研究", "泛产品设计"]
 
 source_refs:
-  - "00_inbox/泛产品设计-需求工具箱指南.png"
-  - "00_inbox/一堂-个人修炼-泛产品设计概念口述版.md"
+  - "10_raw/assets/yitang/泛产品设计-需求工具箱指南.png"
+  - "10_raw/sources/一堂-个人修炼-泛产品设计概念口述版.md"
 
 created_at: "2026-05-11"
 updated_at: "2026-05-11"

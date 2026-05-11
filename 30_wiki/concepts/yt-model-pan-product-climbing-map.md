@@ -30,7 +30,7 @@ query_triggers:
 tags: ["爬山地图", "成长路径", "一堂", "泛产品设计", "段位"]
 
 source_refs:
-  - "00_inbox/一堂泛产品设计-十年修炼爬山地图.png"
+  - "10_raw/assets/yitang/一堂泛产品设计-十年修炼爬山地图.png"
 
 created_at: "2026-05-11"
 updated_at: "2026-05-11"

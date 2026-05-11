@@ -30,10 +30,10 @@ query_triggers:
 tags: ["36计", "工具箱", "一堂", "泛产品设计", "产品设计"]
 
 source_refs:
-  - "00_inbox/泛产品设计36计-全套地图.png"
-  - "00_inbox/泛产品设计-需求工具箱指南.png"
-  - "00_inbox/泛产品设计-审美工具箱指南.png"
-  - "00_inbox/泛产品设计落地工具篇指南.png"
+  - "10_raw/assets/yitang/泛产品设计36计-全套地图.png"
+  - "10_raw/assets/yitang/泛产品设计-需求工具箱指南.png"
+  - "10_raw/assets/yitang/泛产品设计-审美工具箱指南.png"
+  - "10_raw/assets/yitang/泛产品设计落地工具篇指南.png"
 
 created_at: "2026-05-11"
 updated_at: "2026-05-11"

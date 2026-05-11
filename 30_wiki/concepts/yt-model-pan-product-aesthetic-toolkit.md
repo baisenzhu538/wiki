@@ -29,12 +29,12 @@ query_triggers:
 tags: ["审美", "最佳实践", "工具箱", "一堂", "泛产品设计"]
 
 source_refs:
-  - "00_inbox/泛产品设计-审美工具箱指南.png"
-  - "00_inbox/泛产品设计-审美卡片-最佳实践收集.png"
-  - "00_inbox/泛产品设计-审美卡片-最佳实践池子.png"
-  - "00_inbox/泛产品设计-审美卡片-最佳实践建模.png"
-  - "00_inbox/泛产品设计-审美卡片-美好作品想象.png"
-  - "00_inbox/ideas/一堂-个人修身-泛产品设计审美口述.md"
+  - "10_raw/assets/yitang/泛产品设计-审美工具箱指南.png"
+  - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践收集.png"
+  - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践池子.png"
+  - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践建模.png"
+  - "10_raw/assets/yitang/泛产品设计-审美卡片-美好作品想象.png"
+  - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
 
 created_at: "2026-05-11"
 updated_at: "2026-05-11"
