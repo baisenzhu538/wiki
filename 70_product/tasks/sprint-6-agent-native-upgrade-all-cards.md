@@ -140,6 +140,25 @@ reviewed_by: "黄药师"
 | Batch 3 | entrepreneur 工具卡 | yt-entrepreneur-* (23张) | 体量大但格式统一，可高效批处理 |
 | Batch 4 | personal 工具卡 | yt-personal-* (16张) | 收尾 |
 
+### ✅ Batch 1 完成 (2026-05-12 黄药师)
+
+33 yt-panproduct-* + 6 yt-personal-pan-product-* = **39 张卡全部升级完成**。
+
+**Phase 1**: source_refs 迁移 00_inbox/ → 10_raw/（29 PNG 归档到 assets/yitang/，1 MD 归档到 sources/）
+**Phase 2**: frontmatter 注入 agent-native 字段（Python PyYAML 批处理）
+**Phase 3**: body 格式升级：
+- `[Condense]` → `Claims`，`[Critique]` → `Constraints & Boundaries`，`[Synthesis]` → `Synthesis` 表格式
+- `## Synthesis` 表格式转换（39/39）
+- `claim:boundary-NN` 格式转换（6/6 有 Constraints 的卡）
+- `## Framework Gallery` 新增（39/39）
+
+**质量门禁**:
+- [x] `grep '"00_inbox'` → 0 hits
+- [x] kdo lint: 0 errors, 305 warnings（全部存量）
+- [x] 39/39 卡有 `id:`、`query_triggers:`、`estimated_tokens:`
+- [x] 体量合规：全部 ≤150 行
+- [x] 旧格式 headers 0 残留
+
 ## 质量门禁
 
 完成每个 Batch 后自查：
