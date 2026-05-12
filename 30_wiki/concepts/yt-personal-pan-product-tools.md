@@ -92,7 +92,6 @@ reviewed_by: 黄药师
 
 ### 关联框架卡
 - [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
 
 ## Synthesis
 

@@ -87,7 +87,6 @@ Truman 分享了一堂产品与同行"完全找不到对标"的原因：
 
 ### 关联框架卡
 - [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
-- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
 
 ## Synthesis
 
