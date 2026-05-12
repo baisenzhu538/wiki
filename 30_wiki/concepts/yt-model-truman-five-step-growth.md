@@ -10,7 +10,7 @@ yitang:
   course_type: framework
   level: advanced
 source_refs:
-  - "00_inbox/Truman的个人成长五步法.png"
+  - "10_raw/assets/yitang/Truman的个人成长五步法.png"
 created_at: "2026-05-11"
 updated_at: "2026-05-11"
 tags:

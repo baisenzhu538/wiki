@@ -10,7 +10,7 @@ yitang:
   course_type: framework
   level: intermediate
 source_refs:
-  - "00_inbox/一堂产品内核-十大典型指标.png"
+  - "10_raw/assets/yitang/一堂产品内核-十大典型指标.png"
 created_at: "2026-05-11"
 updated_at: "2026-05-11"
 tags:

@@ -10,7 +10,7 @@ yitang:
   course_type: framework
   level: intermediate
 source_refs:
-  - "00_inbox/审美提升的层级.png"
+  - "10_raw/assets/yitang/审美提升的层级.png"
 created_at: "2026-05-11"
 updated_at: "2026-05-11"
 tags:

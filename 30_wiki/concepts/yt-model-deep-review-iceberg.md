@@ -10,7 +10,7 @@ yitang:
   course_type: framework
   level: intermediate
 source_refs:
-  - "00_inbox/一堂深度复盘冰山图.png"
+  - "10_raw/assets/yitang/一堂深度复盘冰山图.png"
 created_at: "2026-05-11"
 updated_at: "2026-05-11"
 tags:

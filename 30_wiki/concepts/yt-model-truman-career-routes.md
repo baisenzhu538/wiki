@@ -10,7 +10,7 @@ yitang:
   course_type: framework
   level: advanced
 source_refs:
-  - "00_inbox/truman的选择：两条职业成长路线.png"
+  - "10_raw/assets/yitang/truman的选择：两条职业成长路线.png"
 created_at: "2026-05-11"
 updated_at: "2026-05-11"
 tags:

@@ -10,8 +10,8 @@ yitang:
   course_type: framework
   level: intermediate
 source_refs:
-  - "00_inbox/一堂最佳转化率动力曲线图.png"
-  - "00_inbox/一堂转化率-10大容易浪费的触点.png"
+  - "10_raw/assets/yitang/一堂最佳转化率动力曲线图.png"
+  - "10_raw/assets/yitang/一堂转化率-10大容易浪费的触点.png"
 created_at: "2026-05-11"
 updated_at: "2026-05-11"
 tags:

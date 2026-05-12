@@ -10,7 +10,7 @@ yitang:
   course_type: framework
   level: intermediate
 source_refs:
-  - "00_inbox/预判模型.png"
+  - "10_raw/assets/yitang/预判模型.png"
 created_at: "2026-05-11"
 updated_at: "2026-05-11"
 tags:

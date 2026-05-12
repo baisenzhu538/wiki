@@ -10,8 +10,8 @@ yitang:
   course_type: framework
   level: intermediate
 source_refs:
-  - "00_inbox/一堂五步法画布.png"
-  - "00_inbox/一堂五步法-产品内核画布.png"
+  - "10_raw/assets/yitang/一堂五步法画布.png"
+  - "10_raw/assets/yitang/一堂五步法-产品内核画布.png"
 created_at: "2026-05-11"
 updated_at: "2026-05-11"
 tags:
