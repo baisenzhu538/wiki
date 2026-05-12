@@ -1,23 +1,41 @@
 ---
-title: "预判模型：从最糙版到复杂版的三种预判范式"
-type: model
+id: yt-model-prediction-model
+title: 预判模型：从最糙版到复杂版的三种预判范式
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 三种预判范式
+- 从最糙版到复杂版的三种预判范式
+- 使用原则
+- 常见角度
+- 预判模型
+- 预判模型：从最糙版到复杂版的三种预判范式
+tags:
+- '#yitang'
+- '#entrepreneurship'
+- '#prediction'
+- '#decision-making'
 yitang:
   map: entrepreneur
-  module: "创业必修"
+  module: 创业必修
   course_type: framework
   level: intermediate
 source_refs:
-  - "10_raw/assets/yitang/预判模型.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#entrepreneurship"
-  - "#prediction"
-  - "#decision-making"
+- 10_raw/assets/yitang/预判模型.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 2226
+reviewed_by: 黄药师
 ---
 
 # 预判模型：从最糙版到复杂版的三种预判范式
@@ -28,7 +46,7 @@ tags:
 
 预判模型是一堂对"提前判断能力"的结构化拆解——将预判分为三种范式，从简单到复杂逐级递进：**N 要素（最糙版）**——用 2-3 个基本要素做快速判断；**雷达图（常用版）**——用 5-7 个维度做系统评估，配套案例和打分；**Checklist（复杂版）**——用完整检查清单做全面审计。核心理念：预判不是神秘直觉，而是一套可以外化、迭代、教给别人的认知模型。
 
-## [Condense]
+## Claims
 
 ### 三种预判范式
 
@@ -60,16 +78,23 @@ tags:
 
 **刻意强调**：加分项用 √ 符号标记（非编号/非 bullet），视觉上类似 checklist 的"打勾完成"，暗示这是推荐但非强制的增强项。Checklist 版未列出具体条目数（只说"比如优秀 BP 黄金 27 条"），留白让学习者填入自己的领域清单。
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **三种范式的适用边界未定义**：N 要素在什么复杂度下失效？什么时候必须升级到 Checklist？没有给出升级判断标准。
 
-2. **预判 ≠ 预测**：框架叫"预判模型"但本质是评估框架（用已知维度打分），不是预测工具。真正的预测需要处理不确定性和时间序列，这三种范式都是静态截面分析。
+- claim:boundary-01 [conf=0.80] **三种范式的适用边界未定义**：N 要素在什么复杂度下失效？什么时候必须升级到 Checklist？没有给出升级判断标准。
 
-## [Synthesis]
+- claim:boundary-02 [conf=0.80] **预判 ≠ 预测**：框架叫"预判模型"但本质是评估框架（用已知维度打分），不是预测工具。真正的预测需要处理不确定性和时间序列，这三种范式都是静态截面分析。
 
-- [[yt-entrepreneur-industry-forecast]] — 行业预判（预判模型在行业分析中的应用）
-- [[yt-entrepreneur-key-hypotheses]] — 关键假设（预判是假设验证的前置步骤）
-- [[yt-entrepreneur-opportunity-selection]] — 机会选择（用预判模型筛选机会）
-- [[yt-management-scientific-decision]] — 科学决策（预判模型是决策工具的一种）
-- [[一堂]] — 一堂实体页
+## Framework Gallery
+
+### 关联框架卡
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联工具 | [[yt-entrepreneur-industry-forecast]] | 行业预判（预判模型在行业分析中的应用） |
+| 关联工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设（预判是假设验证的前置步骤） |
+| 关联工具 | [[yt-entrepreneur-opportunity-selection]] | 机会选择（用预判模型筛选机会） |
+| 关联 | [[yt-management-scientific-decision]] | 科学决策（预判模型是决策工具的一种） |
+| 实体页 | [[一堂]] | 一堂实体页 |

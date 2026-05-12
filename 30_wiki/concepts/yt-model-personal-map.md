@@ -1,21 +1,40 @@
 ---
-title: "个人修炼地图"
-type: concept
+id: yt-model-personal-map
+title: 个人修炼地图
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 个人修炼地图
+- 关联卡片
+- 四层金字塔
+- 核心追求
+- 知识体系定位
+- 迭代层的双螺旋
+- 领先层六大能力
+tags:
+- '#yitang'
+- '#personal-growth'
+- '#core-model'
 yitang:
   map: personal
-  module: "方法论总纲"
+  module: 方法论总纲
   course_type: model
   level: foundational
 source_refs: []
-created_at: "2026-05-07"
-updated_at: "2026-05-08"
-tags:
-  - "#yitang"
-  - "#personal-growth"
-  - "#core-model"
+created_at: '2026-05-07'
+updated_at: '2026-05-08'
+estimated_tokens: 1825
+reviewed_by: 黄药师
 ---
 
 # 一堂个人地图：高潜力成长者修炼全景图
@@ -26,7 +45,7 @@ tags:
 
 个人地图是进步大地图的第一个展开维度，以「天花板」为核心追求。四层金字塔结构从基础层到追求层逐级而上：管理时间→建立学习飞轮→形成可迁移能力→逼近人生红点。核心逻辑是「螺旋上升，无限进步」——从练得更多到学得更多，再到综合竞争力 N 倍放大。
 
-## [Condense]
+## Claims
 
 ### 四层金字塔
 
@@ -67,22 +86,26 @@ tags:
 
 **这张图的核心修炼目标是：天花板**——不断提升个人天花板，不要陷入长期停滞困顿。
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **迭代层双螺旋未充分展开**：「学得更多」和「练得更多」的互动关系（如何从学转入练、如何从练反哺学）在地图中不够显性。
-2. **领先层能力的选择逻辑不明**：为什么是这六项能力而不是其他？它们之间的权重和优先级关系是什么？
-3. **追求层的「人生红点」路径偏抽象**：从领先层到追求层的跃迁条件需要更明确的里程碑定义。
 
-## [Synthesis]
+- claim:boundary-01 [conf=0.80] **迭代层双螺旋未充分展开**：「学得更多」和「练得更多」的互动关系（如何从学转入练、如何从练反哺学）在地图中不够显性。
+- claim:boundary-02 [conf=0.80] **领先层能力的选择逻辑不明**：为什么是这六项能力而不是其他？它们之间的权重和优先级关系是什么？
+- claim:boundary-03 [conf=0.80] **追求层的「人生红点」路径偏抽象**：从领先层到追求层的跃迁条件需要更明确的里程碑定义。
 
-### 关联卡片
+## Framework Gallery
 
-- [[yt-model-progress-map]] — 无限进步大地图（总图）
-- [[yt-model-y-organization]] — Y 模型（底层逻辑）
-- [[yt-model-ipo-learning-strategy]] — IPO 全景策略图（迭代层核心方法）
-- [[yt-system-course-catalog#个人必修]] — 个人必修课程目录
-- [[一堂]] — 一堂实体页
+### 关联框架卡
+- [[yt-model-ipo-learning-strategy]]
+- [[yt-model-progress-map]]
+- [[yt-model-y-organization]]
 
-### 知识体系定位
+## Synthesis
 
-个人地图是进步大地图中「个人修炼」模块的完整展开，是一切修炼的起点——无论管理还是创业，个人天花板是一切上限的根基。迭代层的 IPO 学习法是个人地图的核心引擎。
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-model-progress-map]] | 无限进步大地图（总图） |
+| 关联框架 | [[yt-model-y-organization]] | Y 模型（底层逻辑） |
+| 关联框架 | [[yt-model-ipo-learning-strategy]] | IPO 全景策略图（迭代层核心方法） |
+| 关联 | [[yt-system-course-catalog#个人必修]] | 个人必修课程目录 |
+| 实体页 | [[一堂]] | 一堂实体页 |

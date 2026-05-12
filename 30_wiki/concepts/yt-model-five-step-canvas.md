@@ -1,24 +1,42 @@
 ---
-title: "五步法画布 × 产品内核画布：从假设到壁垒的实操工具"
-type: model
+id: yt-model-five-step-canvas
+title: 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 两个画布的联合使用
+- 五步法画布
+- 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
+- 产品内核画布
+- 产品内核画布（三栏结构）
+- 从假设到壁垒的实操工具
+tags:
+- '#yitang'
+- '#entrepreneurship'
+- '#five-step-method'
+- '#product-core'
 yitang:
   map: entrepreneur
-  module: "创业必修"
+  module: 创业必修
   course_type: framework
   level: intermediate
 source_refs:
-  - "10_raw/assets/yitang/一堂五步法画布.png"
-  - "10_raw/assets/yitang/一堂五步法-产品内核画布.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#entrepreneurship"
-  - "#five-step-method"
-  - "#product-core"
+- 10_raw/assets/yitang/一堂五步法画布.png
+- 10_raw/assets/yitang/一堂五步法-产品内核画布.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 2531
+reviewed_by: 黄药师
 ---
 
 # 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
@@ -29,7 +47,7 @@ tags:
 
 两张画布是五步法的实操工具。**五步法画布**将创业全过程映射到六个模块：需求→解决方案→商业模式→增长→壁垒，每个模块围绕价值假设和增长假设展开验证。**产品内核画布**聚焦"解决方案"这一步，用三栏结构（加法备选→减法内核→验证手段）帮创业者把模糊的产品想法收敛为可验证的内核假设。两张画布的关系：五步法是总流程，产品内核画布是第二步（解决方案）的深度展开。
 
-## [Condense]
+## Claims
 
 ### 五步法画布
 
@@ -73,17 +91,25 @@ tags:
 
 **两画布联合**：从五步法画布的"解决方案"模块放大进入产品内核画布——这是一种"zoom in"的视觉叙事：先用大地图定位，再放大到具体格子的深度工具。如果五步法画布是总地图，产品内核画布就是第二步（解决方案）的局部详图。
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **画布是"填空题"而非"解题法"**：画布告诉你格子名称（假设/需求/增长...），但不告诉你"怎么填"——新手面对空格照样无从下手。
 
-2. **线性顺序掩盖了迭代现实**：五步法画布从左到右排列，但实际创业是来回跳转的——做壁垒分析时可能发现需求假设错了，需要回到第一步。
+- claim:boundary-01 [conf=0.80] **画布是"填空题"而非"解题法"**：画布告诉你格子名称（假设/需求/增长...），但不告诉你"怎么填"——新手面对空格照样无从下手。
 
-## [Synthesis]
+- claim:boundary-02 [conf=0.80] **线性顺序掩盖了迭代现实**：五步法画布从左到右排列，但实际创业是来回跳转的——做壁垒分析时可能发现需求假设错了，需要回到第一步。
 
-- [[yt-entrepreneur-five-step-method]] — 五步法理论
-- [[yt-entrepreneur-product-core]] — 产品内核
-- [[yt-entrepreneur-key-hypotheses]] — 关键假设
-- [[yt-entrepreneur-lean-validation]] — 低成本验证
-- [[yt-model-product-core-metrics]] — 十大典型指标（产品内核的度量层）
-- [[一堂]] — 一堂实体页
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-product-core-metrics]]
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联工具 | [[yt-entrepreneur-five-step-method]] | 五步法理论 |
+| 关联工具 | [[yt-entrepreneur-product-core]] | 产品内核 |
+| 关联工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设 |
+| 关联工具 | [[yt-entrepreneur-lean-validation]] | 低成本验证 |
+| 关联框架 | [[yt-model-product-core-metrics]] | 十大典型指标（产品内核的度量层） |
+| 实体页 | [[一堂]] | 一堂实体页 |

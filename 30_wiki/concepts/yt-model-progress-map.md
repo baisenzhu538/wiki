@@ -1,22 +1,41 @@
 ---
-title: "无限进步大地图"
-type: concept
+id: yt-model-progress-map
+title: 无限进步大地图
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 五段式架构
+- 关联卡片
+- 四种辩证思考
+- 底层逻辑
+- 无限进步大地图
+- 核心口号
+- 知识体系定位
+tags:
+- '#yitang'
+- '#methodology'
+- '#progress-map'
+- '#core-model'
 yitang:
   map: system
-  module: "方法论总纲"
+  module: 方法论总纲
   course_type: model
   level: foundational
 source_refs: []
-created_at: "2026-05-07"
-updated_at: "2026-05-08"
-tags:
-  - "#yitang"
-  - "#methodology"
-  - "#progress-map"
-  - "#core-model"
+created_at: '2026-05-07'
+updated_at: '2026-05-08'
+estimated_tokens: 1881
+reviewed_by: 黄药师
 ---
 
 # 一堂无限进步大地图·十年收藏版
@@ -27,7 +46,7 @@ tags:
 
 无限进步大地图是一堂课程体系的"世界地图"——将个人修炼、管理修炼、创业修炼、无限修炼四张地图统一到一张总图上，以「不要急不要停：人生就是一场无限进步的游戏」为核心理念，四个模块分别追求天花板、段位、概率、笃定四重境界。
 
-## [Condense]
+## Claims
 
 ### 五段式架构
 
@@ -66,23 +85,28 @@ tags:
 - 「因为科学本身，就是我们唯一的前路」
 - 「没有什么弯路可以通向科学」
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **四张地图的层级递进关系不够明确**：是线性进阶（先个人→再管理→再创业）还是可以并行？地图未明确表达。
-2. **「无限修炼」模块最模糊**：前三个有完整地图支撑（个人/管理/创业），无限修炼只有"笃定"一个关键词，缺乏可操作的结构。
-3. **十年收藏版的版本稳定性**：标注为"十年收藏版"意味着应长期不变，但一堂课程体系仍在快速迭代——地图的更新策略需要说明。
 
-## [Synthesis]
+- claim:boundary-01 [conf=0.80] **四张地图的层级递进关系不够明确**：是线性进阶（先个人→再管理→再创业）还是可以并行？地图未明确表达。
+- claim:boundary-02 [conf=0.80] **「无限修炼」模块最模糊**：前三个有完整地图支撑（个人/管理/创业），无限修炼只有"笃定"一个关键词，缺乏可操作的结构。
+- claim:boundary-03 [conf=0.80] **十年收藏版的版本稳定性**：标注为"十年收藏版"意味着应长期不变，但一堂课程体系仍在快速迭代——地图的更新策略需要说明。
 
-### 关联卡片
+## Framework Gallery
 
-- [[yt-model-y-organization]] — Y 模型：进步大地图的底层哲学基础
-- [[yt-model-personal-map]] — 个人地图（第一张展开图）
-- [[yt-model-management-map]] — 管理地图（第二张展开图）
-- [[yt-model-entrepreneur-map]] — 创业地图（第三张展开图）
-- [[yt-system-course-catalog]] — 全课程目录索引
-- [[一堂]] — 一堂实体页
+### 关联框架卡
+- [[yt-model-entrepreneur-map]]
+- [[yt-model-management-map]]
+- [[yt-model-personal-map]]
+- [[yt-model-y-organization]]
 
-### 知识体系定位
+## Synthesis
 
-进步大地图是一堂知识体系的"总目录"和"世界观"。所有课程、模型、方法论都在这个框架中定位。四张分地图是它的展开视图。理解一堂的任何内容，都可以先回到这张总图找到所属模块和核心追求。
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-model-y-organization]] | Y 模型：进步大地图的底层哲学基础 |
+| 关联框架 | [[yt-model-personal-map]] | 个人地图（第一张展开图） |
+| 关联框架 | [[yt-model-management-map]] | 管理地图（第二张展开图） |
+| 关联框架 | [[yt-model-entrepreneur-map]] | 创业地图（第三张展开图） |
+| 关联 | [[yt-system-course-catalog]] | 全课程目录索引 |
+| 实体页 | [[一堂]] | 一堂实体页 |

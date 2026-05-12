@@ -1,23 +1,43 @@
 ---
-title: "顶级产品追求：品味、最佳实践与乔布斯的审美哲学"
-type: model
+id: yt-model-product-excellence
+title: 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: advanced
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 与泛产品审美工具箱的对应
+- 乔布斯的品味公式
+- 品味
+- 品味 = 曝光 × 迁移
+- 最佳实践与乔布斯的审美哲学
+- 核心洞见
+- 顶级产品追求
+- 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
+tags:
+- '#yitang'
+- '#product-design'
+- '#aesthetics'
+- '#best-practices'
 yitang:
   map: personal
-  module: "个人修炼"
+  module: 个人修炼
   course_type: framework
   level: advanced
 source_refs:
-  - "10_raw/assets/yitang/顶级产品追求的方向-乔布斯.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#product-design"
-  - "#aesthetics"
-  - "#best-practices"
+- 10_raw/assets/yitang/顶级产品追求的方向-乔布斯.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 2473
+reviewed_by: 黄药师
 ---
 
 # 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
@@ -28,7 +48,7 @@ tags:
 
 这张知识地图以乔布斯的一句名言为锚点，概括了顶级产品追求的核心哲学：品味（taste）不是天赋，而是一个可训练的过程——**主动接触人类所做的最好的事物，然后将它们带入你正在做的事情**。这句话与泛产品设计的第二大修养"永远以最佳实践为追求"完全同构。核心公式：品味 = 曝光量（看过多少最好的）× 迁移力（能把多少带入自己做的事）。
 
-## [Condense]
+## Claims
 
 ### 乔布斯的品味公式
 
@@ -68,16 +88,26 @@ tags:
 
 **刻意留白**："想象"阶段右侧没有闭合边界——暗示审美创造没有终点，最好的作品永远是下一个。这与审美提升层级图中"无限探索"区域的无边界设计完全一致。
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **"只看最好的"可能产生审美精英主义**：乔布斯的方法假设存在客观的"最好的事物"，但审美有文化/场景/用户差异。非洲市场的"最佳 UI"可能不是苹果风格。
 
-2. **"带入"的迁移机制未展开**：从"看过"到"做出来"之间有巨大的鸿沟——看了一百个顶级 App ≠ 能做出一个顶级 App。中间需要刻意练习/拆解/模仿/反馈迭代，这些未被知识地图覆盖。
+- claim:boundary-01 [conf=0.80] **"只看最好的"可能产生审美精英主义**：乔布斯的方法假设存在客观的"最好的事物"，但审美有文化/场景/用户差异。非洲市场的"最佳 UI"可能不是苹果风格。
 
-## [Synthesis]
+- claim:boundary-02 [conf=0.80] **"带入"的迁移机制未展开**：从"看过"到"做出来"之间有巨大的鸿沟——看了一百个顶级 App ≠ 能做出一个顶级 App。中间需要刻意练习/拆解/模仿/反馈迭代，这些未被知识地图覆盖。
 
-- [[yt-model-pan-product-aesthetic-toolkit]] — 审美工具箱（4 张卡片）
-- [[yt-model-pan-product-three-virtues]] — 三大修养（第二大修养：最佳实践）
-- [[yt-model-aesthetic-progression]] — 审美提升层级（从主观到客观的进阶）
-- [[yt-personal-pan-product-aesthetics]] — 泛产品设计审美篇
-- [[一堂]] — 一堂实体页
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-aesthetic-progression]]
+- [[yt-model-pan-product-aesthetic-toolkit]]
+- [[yt-model-pan-product-three-virtues]]
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-model-pan-product-aesthetic-toolkit]] | 审美工具箱（4 张卡片） |
+| 关联框架 | [[yt-model-pan-product-three-virtues]] | 三大修养（第二大修养：最佳实践） |
+| 关联框架 | [[yt-model-aesthetic-progression]] | 审美提升层级（从主观到客观的进阶） |
+| 关联工具 | [[yt-personal-pan-product-aesthetics]] | 泛产品设计审美篇 |
+| 实体页 | [[一堂]] | 一堂实体页 |

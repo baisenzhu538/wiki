@@ -1,23 +1,41 @@
 ---
-title: "产品内核十大典型指标：从获客到推荐的度量框架"
-type: model
+id: yt-model-product-core-metrics
+title: 产品内核十大典型指标：从获客到推荐的度量框架
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 与产品内核的关系
+- 产品内核十大典型指标
+- 产品内核十大典型指标：从获客到推荐的度量框架
+- 从获客到推荐的度量框架
+- 使用原则
+- 四大环节 × 十大指标
+tags:
+- '#yitang'
+- '#entrepreneurship'
+- '#product-metrics'
+- '#unit-model'
 yitang:
   map: entrepreneur
-  module: "创业必修"
+  module: 创业必修
   course_type: framework
   level: intermediate
 source_refs:
-  - "10_raw/assets/yitang/一堂产品内核-十大典型指标.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#entrepreneurship"
-  - "#product-metrics"
-  - "#unit-model"
+- 10_raw/assets/yitang/一堂产品内核-十大典型指标.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 2352
+reviewed_by: 黄药师
 ---
 
 # 产品内核十大典型指标：从获客到推荐的度量框架
@@ -28,7 +46,7 @@ tags:
 
 十大典型指标是一堂产品内核体系的核心度量框架——按用户全生命周期分四个环节：获客→服务→复购→推荐，每个环节配置 2-3 个关键指标。这套指标不是"越多越好"的数据看板，而是"做产品只盯这十个就够了"的极简度量哲学。核心逻辑：产品内核的质量由少数关键转化率决定，找到它们、盯住它们、优化它们。
 
-## [Condense]
+## Claims
 
 ### 四大环节 × 十大指标
 
@@ -66,16 +84,24 @@ tags:
 
 **刻意强调**：指标名称全是"X率"格式——统一命名暗示这是一套可比较的度量体系，不是散装 KPI。每个指标配"一句话说明"而非公式，暗示"先理解含义，再讨论计算方法"——这是面向创业者而非数据分析师的表达策略。
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **十个指标偏教育/ SaaS 视角**：完课率、续费率等指标在教育/SaaS 行业适用，但对餐饮（翻台率）、电商（GMV/客单价）、内容（完播率/互动率）等行业缺位。框架通用性需要行业适配层。
 
-2. **只列指标不教归因**：知道"留存率低"不难，难的是知道"是因为 onboarding 差还是核心价值没交付"。十大指标是指示灯，不替代归因分析。
+- claim:boundary-01 [conf=0.80] **十个指标偏教育/ SaaS 视角**：完课率、续费率等指标在教育/SaaS 行业适用，但对餐饮（翻台率）、电商（GMV/客单价）、内容（完播率/互动率）等行业缺位。框架通用性需要行业适配层。
 
-## [Synthesis]
+- claim:boundary-02 [conf=0.80] **只列指标不教归因**：知道"留存率低"不难，难的是知道"是因为 onboarding 差还是核心价值没交付"。十大指标是指示灯，不替代归因分析。
 
-- [[yt-entrepreneur-product-core]] — 产品内核（指标体系是其度量部分）
-- [[yt-entrepreneur-unit-model]] — 单元模型（指标驱动财务建模）
-- [[yt-entrepreneur-five-step-method]] — 五步法（关键假设 → 需求 → 解决方案 → 增长 → 壁垒）
-- [[yt-model-five-step-canvas]] — 五步法画布（产品内核画布的配套工具）
-- [[一堂]] — 一堂实体页
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-five-step-canvas]]
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联工具 | [[yt-entrepreneur-product-core]] | 产品内核（指标体系是其度量部分） |
+| 关联工具 | [[yt-entrepreneur-unit-model]] | 单元模型（指标驱动财务建模） |
+| 关联工具 | [[yt-entrepreneur-five-step-method]] | 五步法（关键假设 → 需求 → 解决方案 → 增长 → 壁垒） |
+| 关联框架 | [[yt-model-five-step-canvas]] | 五步法画布（产品内核画布的配套工具） |
+| 实体页 | [[一堂]] | 一堂实体页 |

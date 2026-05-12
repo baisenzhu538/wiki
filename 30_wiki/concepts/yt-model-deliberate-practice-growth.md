@@ -1,23 +1,41 @@
 ---
-title: "刻意练习十年成长指数：为什么有人一年顶十年"
-type: model
+id: yt-model-deliberate-practice-growth
+title: 刻意练习十年成长指数：为什么有人一年顶十年
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 与泛产品十年爬山地图的关系
+- 为什么有人一年顶十年
+- 刻意练习十年成长指数
+- 刻意练习十年成长指数：为什么有人一年顶十年
+- 四要素诊断矩阵
+- 成长曲线三种状态
+tags:
+- '#yitang'
+- '#personal-growth'
+- '#deliberate-practice'
+- '#growth-index'
 yitang:
   map: personal
-  module: "个人修炼"
+  module: 个人修炼
   course_type: framework
   level: foundational
 source_refs:
-  - "10_raw/assets/yitang/一堂刻意练习十年成长指数.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#personal-growth"
-  - "#deliberate-practice"
-  - "#growth-index"
+- 10_raw/assets/yitang/一堂刻意练习十年成长指数.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 2397
+reviewed_by: 黄药师
 ---
 
 # 刻意练习十年成长指数：为什么有人一年顶十年
@@ -28,7 +46,7 @@ tags:
 
 十年成长指数是一堂刻意练习体系的核心诊断工具——回答一个根本问题：为什么有些人的成长能一年顶十年，而有些人却刚好相反？答案在于四个练习要素的配比：**固定套路**（有没有可复用的方法）、**非舒适区**（是不是在能力边缘练习）、**及时反馈**（有没有快速纠错机制）、**大量重复**（有没有足够的练习量）。缺任何一个要素，成长就会停滞在"低端重复"或"开始进步但无法提升"阶段。
 
-## [Condense]
+## Claims
 
 ### 四要素诊断矩阵
 
@@ -67,17 +85,26 @@ tags:
 
 **刻意强调**：三条曲线中"无限进步"曲线用最粗/最突出的线型——不是让你关注"低端重复有多惨"，而是让你看到"无限进步有多值得"。底部四个要素用并列等宽布局暗示"四要素同等重要，缺一不可"。
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **四要素是必要条件列表而非充分条件**：全满足四要素也不等于一年顶十年——还有天赋、行业选择、运气、资源等因素。框架解释了"为什么无法成长"更准确，"为什么成长快"则需要更多因素。
 
-2. **"大量重复"在创意工作中的适用性受限**：产品设计、战略决策等非重复性工作，"大量重复"的定义模糊——是一百次用户访谈？还是一百次产品迭代？重复的"单位"是什么？
+- claim:boundary-01 [conf=0.80] **四要素是必要条件列表而非充分条件**：全满足四要素也不等于一年顶十年——还有天赋、行业选择、运气、资源等因素。框架解释了"为什么无法成长"更准确，"为什么成长快"则需要更多因素。
 
-## [Synthesis]
+- claim:boundary-02 [conf=0.80] **"大量重复"在创意工作中的适用性受限**：产品设计、战略决策等非重复性工作，"大量重复"的定义模糊——是一百次用户访谈？还是一百次产品迭代？重复的"单位"是什么？
 
-- [[yt-personal-deliberate-practice]] — 刻意练习方法论
-- [[yt-model-pan-product-climbing-map]] — 十年爬山地图（成长指数的应用实例）
-- [[yt-personal-deep-review]] — 深度复盘（及时反馈的实现方式）
-- [[yt-model-deep-review-iceberg]] — 深度复盘冰山图
-- [[yt-personal-thinking-models]] — 思维模型（固定套路的最高形式）
-- [[一堂]] — 一堂实体页
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-deep-review-iceberg]]
+- [[yt-model-pan-product-climbing-map]]
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联工具 | [[yt-personal-deliberate-practice]] | 刻意练习方法论 |
+| 关联框架 | [[yt-model-pan-product-climbing-map]] | 十年爬山地图（成长指数的应用实例） |
+| 关联工具 | [[yt-personal-deep-review]] | 深度复盘（及时反馈的实现方式） |
+| 关联框架 | [[yt-model-deep-review-iceberg]] | 深度复盘冰山图 |
+| 关联工具 | [[yt-personal-thinking-models]] | 思维模型（固定套路的最高形式） |
+| 实体页 | [[一堂]] | 一堂实体页 |

@@ -1,20 +1,40 @@
 ---
-title: "IPO 科学学习全景策略"
-type: concept
+id: yt-model-ipo-learning-strategy
+title: IPO 科学学习全景策略
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 6 要素闭环
+- IPO 科学学习全景策略
+- 三大学习法
+- 关联卡片
+- 常见误区
+- 知识体系定位
+- 科学学习全景策略
+- 输入质量六维度
+tags:
+- '#yitang'
+- '#learning-model'
 yitang:
   map: personal
-  module: "科学学习"
+  module: 科学学习
   course_type: model
   level: foundational
 source_refs: []
-created_at: "2026-05-07"
-updated_at: "2026-05-08"
-tags:
-  - "#yitang"
-  - "#learning-model"
+created_at: '2026-05-07'
+updated_at: '2026-05-08'
+estimated_tokens: 2214
+reviewed_by: 黄药师
 ---
 
 # IPO 科学学习全景策略 (Yitang Scientific Learning IPO V2.0)
@@ -25,7 +45,7 @@ tags:
 
 一堂将人的学习过程抽象为 IPO 模型（Input→Process→Output），延伸为 6 要素闭环系统：目标（Goal）→ 输入（Input）→ 处理（Process）→ 输出（Output）→ 反馈（Feedback）→ 模型调试。核心论断："为什么同样阅读听课，学习效率差 10 倍 100 倍？答案全部在这个小抄里。"
 
-## [Condense]
+## Claims
 
 ### 6 要素闭环
 
@@ -59,23 +79,25 @@ tags:
 - 思考过于浅层
 - 不知学没学会
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **六要素闭环的理想化**：完整 IPO 闭环对大多数人而言执行成本过高，现实中多数人的学习停留在一到两个要素上。
-2. **三学习法的整合路径不清**：世界学习法（自下而上）和知识树学习法（自上而下）如何在同一学习主题中交替使用，未给出操作指引。
-3. **反馈要素过于简略**：理性反馈的三个问题（是否理解/能否讲清/能否做出）是好的检查点，但缺少具体的反馈获取机制和频率建议。
 
-## [Synthesis]
+- claim:boundary-01 [conf=0.80] **六要素闭环的理想化**：完整 IPO 闭环对大多数人而言执行成本过高，现实中多数人的学习停留在一到两个要素上。
+- claim:boundary-02 [conf=0.80] **三学习法的整合路径不清**：世界学习法（自下而上）和知识树学习法（自上而下）如何在同一学习主题中交替使用，未给出操作指引。
+- claim:boundary-03 [conf=0.80] **反馈要素过于简略**：理性反馈的三个问题（是否理解/能否讲清/能否做出）是好的检查点，但缺少具体的反馈获取机制和频率建议。
 
-### 关联卡片
+## Framework Gallery
 
-- [[yt-personal-ipo-learning]] — IPO 科学学习课程（个人地图 402）
-- [[yt-personal-deep-review]] — 深度复盘（404）：IPO 模型的进阶应用
-- [[yt-model-ipo-complete-checklist]] — IPO 完整清单：各要素对应的具体课程和活动
-- [[yt-personal-deliberate-practice]] — 科学成长/刻意练习（406）：输出层 L6 的核心方法
-- [[yt-personal-checklist-notes]] — 清单体笔记（407）：处理层 L2 的核心工具
-- [[yt-personal-knowledge-management]] — 知识管理（405）：输入/处理层的支撑工具
+### 关联框架卡
+- [[yt-model-ipo-complete-checklist]]
 
-### 知识体系定位
+## Synthesis
 
-IPO 模型是个人修炼地图中「科学学习」模块的底层框架，与深度复盘（404）构成元认知双核心。课程地图串讲（[[yt-system-course-map-lecture]]）将 IPO 定位为「个人成长的加速度课」。
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联工具 | [[yt-personal-ipo-learning]] | IPO 科学学习课程（个人地图 402） |
+| 关联工具 | [[yt-personal-deep-review]] | 深度复盘（404）：IPO 模型的进阶应用 |
+| 关联框架 | [[yt-model-ipo-complete-checklist]] | IPO 完整清单：各要素对应的具体课程和活动 |
+| 关联工具 | [[yt-personal-deliberate-practice]] | 科学成长/刻意练习（406）：输出层 L6 的核心方法 |
+| 关联工具 | [[yt-personal-checklist-notes]] | 清单体笔记（407）：处理层 L2 的核心工具 |
+| 关联工具 | [[yt-personal-knowledge-management]] | 知识管理（405）：输入/处理层的支撑工具 |

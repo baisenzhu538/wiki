@@ -1,23 +1,41 @@
 ---
-title: "审美提升的层级：从看不见到大胆想象的进化路径"
-type: model
+id: yt-model-aesthetic-progression
+title: 审美提升的层级：从看不见到大胆想象的进化路径
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 从看不见到大胆想象的进化路径
+- 升级策略
+- 审美三阶进化
+- 审美提升的层级
+- 审美提升的层级：从看不见到大胆想象的进化路径
+- 核心公式解读
+tags:
+- '#yitang'
+- '#aesthetics'
+- '#best-practices'
+- '#personal-growth'
 yitang:
   map: personal
-  module: "个人修炼"
+  module: 个人修炼
   course_type: framework
   level: intermediate
 source_refs:
-  - "10_raw/assets/yitang/审美提升的层级.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#aesthetics"
-  - "#best-practices"
-  - "#personal-growth"
+- 10_raw/assets/yitang/审美提升的层级.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 2330
+reviewed_by: 黄药师
 ---
 
 # 审美提升的层级：从看不见到大胆想象的进化路径
@@ -28,7 +46,7 @@ tags:
 
 审美提升层级图刻画了从"审美盲"到"审美创造者"的完整进化路径。核心公式：**你执行力的上限，不会超过你对最佳实践理解的下限**。路径分两个阶段——第一阶段从"主观琢磨"进化到"理性衡量"（从模糊感觉到显性对比→从显性对比到理性衡量），第二阶段从"优秀"突破到"无限探索"（提炼模型→从实事求是到解放思想→超越）。每个阶段都有对应的升级策略。
 
-## [Condense]
+## Claims
 
 ### 审美三阶进化
 
@@ -66,16 +84,26 @@ tags:
 
 **刻意留白**："无限探索"区域的右上角没有继续向上延伸的箭头或边界框——暗示审美没有天花板。而"大胆想象"策略位于策略栏最右端但上方没有固定的"突破后"状态，留白表示创造新标准的人没有可参照的地图。
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **审美层级的认知突破依赖大量高质输入**：从"看不见"到"看见"需要看过足够多、足够好的作品——不是方法论能解决的，而是时间+资源。框架假设"主动搜集"可执行，但没说去哪找、怎么判断好坏、找多少算够。
 
-2. **"大胆想象"是黑箱**：前三个阶段（搜集→建池→建模）都有清晰路径，但最后"大胆想象"的跳跃没有方法——类似乔布斯的"connecting the dots"，是回溯性叙事而非可操作的步骤。
+- claim:boundary-01 [conf=0.80] **审美层级的认知突破依赖大量高质输入**：从"看不见"到"看见"需要看过足够多、足够好的作品——不是方法论能解决的，而是时间+资源。框架假设"主动搜集"可执行，但没说去哪找、怎么判断好坏、找多少算够。
 
-## [Synthesis]
+- claim:boundary-02 [conf=0.80] **"大胆想象"是黑箱**：前三个阶段（搜集→建池→建模）都有清晰路径，但最后"大胆想象"的跳跃没有方法——类似乔布斯的"connecting the dots"，是回溯性叙事而非可操作的步骤。
 
-- [[yt-model-pan-product-aesthetic-toolkit]] — 审美工具箱（4 张审美卡片）
-- [[yt-model-product-excellence]] — 顶级产品追求（乔布斯的品味哲学）
-- [[yt-personal-pan-product-aesthetics]] — 泛产品设计审美篇
-- [[yt-model-pan-product-three-virtues]] — 三大修养（第二大修养：最佳实践）
-- [[一堂]] — 一堂实体页
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-aesthetic-toolkit]]
+- [[yt-model-pan-product-three-virtues]]
+- [[yt-model-product-excellence]]
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-model-pan-product-aesthetic-toolkit]] | 审美工具箱（4 张审美卡片） |
+| 关联框架 | [[yt-model-product-excellence]] | 顶级产品追求（乔布斯的品味哲学） |
+| 关联工具 | [[yt-personal-pan-product-aesthetics]] | 泛产品设计审美篇 |
+| 关联框架 | [[yt-model-pan-product-three-virtues]] | 三大修养（第二大修养：最佳实践） |
+| 实体页 | [[一堂]] | 一堂实体页 |

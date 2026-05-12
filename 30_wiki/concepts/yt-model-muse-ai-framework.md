@@ -1,20 +1,39 @@
 ---
-title: "MUSE 人工智能全景图"
-type: concept
+id: yt-model-muse-ai-framework
+title: MUSE 人工智能全景图
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- MUSE 人工智能全景图
+- 人工智能全景图
+- 关联卡片
+- 四层结构
+- 核心逻辑
+- 版本信息
+- 知识体系定位
+tags:
+- '#yitang'
+- '#ai-model'
 yitang:
   map: personal
-  module: "AI 思维模型"
+  module: AI 思维模型
   course_type: model
   level: foundational
 source_refs: []
-created_at: "2026-05-07"
-updated_at: "2026-05-08"
-tags:
-  - "#yitang"
-  - "#ai-model"
+created_at: '2026-05-07'
+updated_at: '2026-05-08'
+estimated_tokens: 1476
+reviewed_by: 黄药师
 ---
 
 # MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
@@ -25,7 +44,7 @@ tags:
 
 MUSE 是「AI 共存的未来世界」的四层认知框架：从底层技术变革（E），到 AI 使用能力（S），再到 AI 驱动的创业机会（U），最终到 AI 创造的奇迹层（M）。四层由「涌现」逻辑连接——下层突破为上层提供技术能力基础。
 
-## [Condense]
+## Claims
 
 ### 四层结构
 
@@ -48,21 +67,23 @@ MUSE 是「AI 共存的未来世界」的四层认知框架：从底层技术变
 - 出品：北京一堂实验室
 - 定位：「一堂·坚持只做必修课」
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **四层边界在实际应用中重叠**：S 层的「模型微调/训练」与 E 层的「模型与算法」在实践中是连续光谱，二分法可能过度简化。
-2. **缺少时间轴**：框架是静态快照，未表达各层的发展阶段和时间节奏——这对创业者的时机判断至关重要。
-3. **「涌现」箭头含义模糊**：是描述性的（"已经发生了"）还是预测性的（"将会发生"），需要明确。
 
-## [Synthesis]
+- claim:boundary-01 [conf=0.80] **四层边界在实际应用中重叠**：S 层的「模型微调/训练」与 E 层的「模型与算法」在实践中是连续光谱，二分法可能过度简化。
+- claim:boundary-02 [conf=0.80] **缺少时间轴**：框架是静态快照，未表达各层的发展阶段和时间节奏——这对创业者的时机判断至关重要。
+- claim:boundary-03 [conf=0.80] **「涌现」箭头含义模糊**：是描述性的（"已经发生了"）还是预测性的（"将会发生"），需要明确。
 
-### 关联卡片
+## Framework Gallery
 
-- [[一堂]] — 一堂实体页
-- [[一堂方法论体系总图]] — 在方法论体系中的定位
-- [[yt-model-dual-triangle-competitiveness]] — 双三角竞争力模型：MUSE 的 AI 能力层（S/U）与双三角的 AI 三角对接
-- [[yt-personal-ai-capability]] — AI 能力课程（个人修炼地图）
+### 关联框架卡
+- [[yt-model-dual-triangle-competitiveness]]
 
-### 知识体系定位
+## Synthesis
 
-MUSE 是一堂对 AI 时代的全局认知框架，属于个人修炼地图中的「AI 能力」模块的底层模型。S 使用层对接个人 AI 能力课，U 创业层对接创业地图中的 AI 辅助方法论。
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 实体页 | [[一堂]] | 一堂实体页 |
+| 实体页 | [[一堂方法论体系总图]] | 在方法论体系中的定位 |
+| 关联框架 | [[yt-model-dual-triangle-competitiveness]] | 双三角竞争力模型：MUSE 的 AI 能力层（S/U）与双三角的 AI 三角对接 |
+| 关联工具 | [[yt-personal-ai-capability]] | AI 能力课程（个人修炼地图） |

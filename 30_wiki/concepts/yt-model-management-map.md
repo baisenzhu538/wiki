@@ -1,21 +1,42 @@
 ---
-title: "管理修炼地图"
-type: concept
+id: yt-model-management-map
+title: 管理修炼地图
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 五阶成长路径
+- 关联卡片
+- 核心追求
+- 知识体系定位
+- 管业务（L4）：四大杠杆
+- 管公司（L5）：四大支柱
+- 管团队（L3）：五项基本功
+- 管理修炼地图
+- 管项目（L2）：四步闭环
+tags:
+- '#yitang'
+- '#management'
+- '#core-model'
 yitang:
   map: management
-  module: "方法论总纲"
+  module: 方法论总纲
   course_type: model
   level: foundational
 source_refs: []
-created_at: "2026-05-07"
-updated_at: "2026-05-08"
-tags:
-  - "#yitang"
-  - "#management"
-  - "#core-model"
+created_at: '2026-05-07'
+updated_at: '2026-05-08'
+estimated_tokens: 2225
+reviewed_by: 黄药师
 ---
 
 # 一堂管理地图：高潜力管理者修炼全景图
@@ -26,7 +47,7 @@ tags:
 
 管理地图是进步大地图中「管理修炼」的完整展开，以「段位」为核心追求。五阶成长路径——管自己→管项目→管团队→管业务→管公司——从个人执行到组织治理逐级爬升。每个阶段有4-5个核心基本功模块，加星号课程为研发中。
 
-## [Condense]
+## Claims
 
 ### 五阶成长路径
 
@@ -79,23 +100,28 @@ tags:
 
 **这张图的核心修炼目标是：段位**——持续提升管理段位，善于用更多资源拿到更大结果。
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **五阶路径过于线性**：实际管理场景中，管项目的同时可能已经在管团队，管业务的阶段可能需要回补管团队的基本功——阶跃模型不如螺旋模型准确。
-2. **「段位」评估标准缺失**：什么算 L2 毕业可以进 L3？是管过几个项目还是项目规模？缺乏可操作的评估维度。
-3. **与创业地图存在内容重叠**：管业务（L4）中的「提转化」「做决策」与创业地图增长阶段的「科学决策」「关键转化」重叠——两本姊妹篇的边界需要更清晰。
 
-## [Synthesis]
+- claim:boundary-01 [conf=0.80] **五阶路径过于线性**：实际管理场景中，管项目的同时可能已经在管团队，管业务的阶段可能需要回补管团队的基本功——阶跃模型不如螺旋模型准确。
+- claim:boundary-02 [conf=0.80] **「段位」评估标准缺失**：什么算 L2 毕业可以进 L3？是管过几个项目还是项目规模？缺乏可操作的评估维度。
+- claim:boundary-03 [conf=0.80] **与创业地图存在内容重叠**：管业务（L4）中的「提转化」「做决策」与创业地图增长阶段的「科学决策」「关键转化」重叠——两本姊妹篇的边界需要更清晰。
 
-### 关联卡片
+## Framework Gallery
 
-- [[yt-model-progress-map]] — 无限进步大地图（总图）
-- [[yt-model-y-organization]] — Y 模型（底层逻辑）
-- [[yt-model-entrepreneur-map]] — 创业地图（姊妹篇：创业必修）
-- [[yt-model-personal-map]] — 个人地图（从管自己起步的基础）
-- [[yt-system-course-catalog#管理必修]] — 管理必修课程目录
-- [[一堂]] — 一堂实体页
+### 关联框架卡
+- [[yt-model-entrepreneur-map]]
+- [[yt-model-personal-map]]
+- [[yt-model-progress-map]]
+- [[yt-model-y-organization]]
 
-### 知识体系定位
+## Synthesis
 
-管理地图是进步大地图中「管理修炼」的完整展开，五阶路径从个人贡献者到 CEO 的全管理光谱。L1（管自己）对接个人修炼地图，L4-L5（管业务/管公司）与创业地图有交叉——三张地图在边界处互相咬合。
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-model-progress-map]] | 无限进步大地图（总图） |
+| 关联框架 | [[yt-model-y-organization]] | Y 模型（底层逻辑） |
+| 关联框架 | [[yt-model-entrepreneur-map]] | 创业地图（姊妹篇：创业必修） |
+| 关联框架 | [[yt-model-personal-map]] | 个人地图（从管自己起步的基础） |
+| 关联 | [[yt-system-course-catalog#管理必修]] | 管理必修课程目录 |
+| 实体页 | [[一堂]] | 一堂实体页 |

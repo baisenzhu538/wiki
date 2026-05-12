@@ -1,21 +1,42 @@
 ---
-title: "创业修炼地图"
-type: concept
+id: yt-model-entrepreneur-map
+title: 创业修炼地图
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 三阶段结构
+- 关联卡片
+- 创业修炼地图
+- 增长阶段核心模块
+- 底层逻辑
+- 核心追求
+- 知识体系定位
+- 科学专项工具箱
+- 起盘阶段双轨并行
+tags:
+- '#yitang'
+- '#entrepreneurship'
+- '#core-model'
 yitang:
   map: entrepreneur
-  module: "方法论总纲"
+  module: 方法论总纲
   course_type: model
   level: foundational
 source_refs: []
-created_at: "2026-05-07"
-updated_at: "2026-05-08"
-tags:
-  - "#yitang"
-  - "#entrepreneurship"
-  - "#core-model"
+created_at: '2026-05-07'
+updated_at: '2026-05-08'
+estimated_tokens: 2009
+reviewed_by: 黄药师
 ---
 
 # 一堂创业地图：高潜力创业者修炼全景图
@@ -26,7 +47,7 @@ tags:
 
 创业地图是进步大地图中「创业修炼」的完整展开，以「概率」为核心追求。按创业生命周期分为三个阶段：预判阶段（高水准选择）、起盘阶段（低成本创业）、增长阶段（可持续发展），底层是「实事求是 解放思想」的 Y 模型支撑。一句话：创业是个概率游戏，科学方法论帮你把自己修炼成概率高手。
 
-## [Condense]
+## Claims
 
 ### 三阶段结构
 
@@ -72,22 +93,26 @@ tags:
 
 **这张图的核心修炼目标是：概率**——创业是个概率游戏，不靠运气，靠把每一步的成功概率用科学方法提到最高。
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **「预判」与「起盘」的边界在实操中模糊**：很多项目在起盘阶段发现预判错误需要回头重判，但地图是单向箭头——缺少迭代回环的显性表达。
-2. **科学专项工具的优先级指引缺失**：10+ 项专项工具，创业者应该先学哪个？哪些是特定阶段才需要的？
-3. **「概率」作为核心追求缺少量化维度**：如何衡量我的"概率"提升了？从 10% 到 30%？还是靠感觉？地图未给出评估方法。
 
-## [Synthesis]
+- claim:boundary-01 [conf=0.80] **「预判」与「起盘」的边界在实操中模糊**：很多项目在起盘阶段发现预判错误需要回头重判，但地图是单向箭头——缺少迭代回环的显性表达。
+- claim:boundary-02 [conf=0.80] **科学专项工具的优先级指引缺失**：10+ 项专项工具，创业者应该先学哪个？哪些是特定阶段才需要的？
+- claim:boundary-03 [conf=0.80] **「概率」作为核心追求缺少量化维度**：如何衡量我的"概率"提升了？从 10% 到 30%？还是靠感觉？地图未给出评估方法。
 
-### 关联卡片
+## Framework Gallery
 
-- [[yt-model-progress-map]] — 无限进步大地图（总图）
-- [[yt-model-y-organization]] — Y 模型（底层逻辑）
-- [[yt-model-management-map]] — 管理地图（姊妹篇：管理必修）
-- [[yt-system-course-catalog#创业必修]] — 创业必修课程目录
-- [[一堂]] — 一堂实体页
+### 关联框架卡
+- [[yt-model-management-map]]
+- [[yt-model-progress-map]]
+- [[yt-model-y-organization]]
 
-### 知识体系定位
+## Synthesis
 
-创业地图是进步大地图中「创业修炼」的完整展开。与个人地图（修炼自己）和管理地图（修炼团队）不同，创业地图聚焦于「在不确定中做高概率决策」——从预判机会到低成本验证再到规模化增长的全链路方法论。
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-model-progress-map]] | 无限进步大地图（总图） |
+| 关联框架 | [[yt-model-y-organization]] | Y 模型（底层逻辑） |
+| 关联框架 | [[yt-model-management-map]] | 管理地图（姊妹篇：管理必修） |
+| 关联 | [[yt-system-course-catalog#创业必修]] | 创业必修课程目录 |
+| 实体页 | [[一堂]] | 一堂实体页 |

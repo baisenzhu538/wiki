@@ -1,23 +1,42 @@
 ---
-title: "楚门的选择：两条职业成长路线 X vs Y"
-type: model
+id: yt-model-truman-career-routes
+title: 楚门的选择：两条职业成长路线 X vs Y
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: advanced
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- X vs Y 七维对比
+- 与十年爬山地图的对应
+- 两条职业成长路线
+- 两条路线的底层逻辑
+- 关键选择框架
+- 楚门的选择
+- 楚门的选择：两条职业成长路线 X vs Y
+tags:
+- '#yitang'
+- '#career-planning'
+- '#pan-product-design'
+- '#deliberate-practice'
 yitang:
   map: personal
-  module: "个人修炼"
+  module: 个人修炼
   course_type: framework
   level: advanced
 source_refs:
-  - "10_raw/assets/yitang/truman的选择：两条职业成长路线.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#career-planning"
-  - "#pan-product-design"
-  - "#deliberate-practice"
+- 10_raw/assets/yitang/truman的选择：两条职业成长路线.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 2777
+reviewed_by: 黄药师
 ---
 
 # 楚门的选择：两条职业成长路线 X vs Y
@@ -28,7 +47,7 @@ tags:
 
 楚门的两条职业成长路线图对比了产品设计能力的两条修炼路径：**X路线（传统产品设计）**——见过模型→看人用过→自己用过→少量刻意练习，相对简单、掌握数量百量级、使用频率偏低、可迁移性较弱；**Y路线（泛产品设计）**——思考底层→看大量迁移→自己迁移→大量刻意练习，相对困难、掌握数量十量级、使用频率偏高、可迁移性较强。关键选择：要不要用更底层/更难的学习，来换更长期、更强迁移、更笃定的核心能力？
 
-## [Condense]
+## Claims
 
 ### X vs Y 七维对比
 
@@ -75,17 +94,28 @@ tags:
 
 **刻意强调**：底部关键选择框用最醒目的标注："要不要用更底层/更难的学习，来换更长期、更强迁移、更笃定的核心能力？"——整张图的七个维度都是为这一个问题提供决策依据。"10年"和"月/季度/年"的时间对比是全文最大的数字级差——暗示"时间框架"是X vs Y的最本质差异。
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **X和Y的二元对立过于简化**：现实中多数人的路径是混合的——在某些领域走X（快速上手），在某些领域走Y（长期修炼）。框架没有给出"什么时候切换"的判断标准。
 
-2. **"10年"作为Y路线的时间锚定可能产生劝阻效应**：对大多数人来说，"10年才能看到结果"等于"放弃"——框架需要一个Y路线的"3个月可见进展"来维持动力，否则只有极少数人能坚持。
+- claim:boundary-01 [conf=0.80] **X和Y的二元对立过于简化**：现实中多数人的路径是混合的——在某些领域走X（快速上手），在某些领域走Y（长期修炼）。框架没有给出"什么时候切换"的判断标准。
 
-## [Synthesis]
+- claim:boundary-02 [conf=0.80] **"10年"作为Y路线的时间锚定可能产生劝阻效应**：对大多数人来说，"10年才能看到结果"等于"放弃"——框架需要一个Y路线的"3个月可见进展"来维持动力，否则只有极少数人能坚持。
 
-- [[yt-model-truman-five-step-growth]] — Truman个人成长五步法（Y路线的具体执行框架）
-- [[yt-model-pan-product-36-strategies]] — 泛产品设计36计（Y路线的核心武器库）
-- [[yt-model-pan-product-climbing-map]] — 十年爬山地图（X→Y的渐进转化路径）
-- [[yt-model-deliberate-practice-growth]] — 刻意练习十年成长指数（Y路线需要的练习方式）
-- [[yt-personal-product-design]] — 泛产品设计认知篇
-- [[一堂]] — 一堂实体页
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-deliberate-practice-growth]]
+- [[yt-model-pan-product-36-strategies]]
+- [[yt-model-pan-product-climbing-map]]
+- [[yt-model-truman-five-step-growth]]
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-model-truman-five-step-growth]] | Truman个人成长五步法（Y路线的具体执行框架） |
+| 关联框架 | [[yt-model-pan-product-36-strategies]] | 泛产品设计36计（Y路线的核心武器库） |
+| 关联框架 | [[yt-model-pan-product-climbing-map]] | 十年爬山地图（X→Y的渐进转化路径） |
+| 关联框架 | [[yt-model-deliberate-practice-growth]] | 刻意练习十年成长指数（Y路线需要的练习方式） |
+| 关联工具 | [[yt-personal-product-design]] | 泛产品设计认知篇 |
+| 实体页 | [[一堂]] | 一堂实体页 |

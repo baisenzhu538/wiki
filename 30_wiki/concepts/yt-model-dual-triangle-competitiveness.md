@@ -1,21 +1,39 @@
 ---
-title: "双三角竞争力模型"
-type: concept
+id: yt-model-dual-triangle-competitiveness
+title: 双三角竞争力模型
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 人类三角 × AI 三角
+- 关联卡片
+- 双三角竞争力模型
+- 双螺旋增强回路
+- 基础层
+- 知识体系定位
+tags:
+- '#yitang'
+- '#ai-model'
+- '#competitiveness'
 yitang:
   map: personal
-  module: "AI 思维模型"
+  module: AI 思维模型
   course_type: model
   level: foundational
 source_refs: []
-created_at: "2026-05-07"
-updated_at: "2026-05-08"
-tags:
-  - "#yitang"
-  - "#ai-model"
-  - "#competitiveness"
+created_at: '2026-05-07'
+updated_at: '2026-05-08'
+estimated_tokens: 1915
+reviewed_by: 黄药师
 ---
 
 # 双三角竞争力模型 (Yitang Dual Triangle Model)
@@ -26,7 +44,7 @@ tags:
 
 双三角模型回答两个问题：（1）同样会用 AI，为什么不同人业务结果相差巨大？（2）同样都是业务高手，为什么不同人 AI 结果相差巨大？答案在于人类三角（审美→体系→基本功）与 AI 三角（数据→场景→创造力）的乘积效应——人变强了调教更强 AI，有了强 AI 辅助人变得更强。
 
-## [Condense]
+## Claims
 
 ### 人类三角 × AI 三角
 
@@ -61,21 +79,23 @@ tags:
 - 人类三角基础：LLM 提示词/智能体
 - AI 三角基础：专业见识、科学体系思维
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **乘积效应的量化证据缺失**：声称「乘积效应」但未提供可测量的交互增益数据——是乘法还是加法，需要实证。
-2. **「基本功」「审美」定义边界模糊**：审美体系与基本功在实操中的区分不够清晰，尤其在「最佳实践 → 评价标准」这条线上重叠严重。
-3. **模型偏向 AI Native 场景**：对于传统行业（制造业、农业等），AI 三角中的「场景」和「数据」要素的表达力可能不足。
 
-## [Synthesis]
+- claim:boundary-01 [conf=0.80] **乘积效应的量化证据缺失**：声称「乘积效应」但未提供可测量的交互增益数据——是乘法还是加法，需要实证。
+- claim:boundary-02 [conf=0.80] **「基本功」「审美」定义边界模糊**：审美体系与基本功在实操中的区分不够清晰，尤其在「最佳实践 → 评价标准」这条线上重叠严重。
+- claim:boundary-03 [conf=0.80] **模型偏向 AI Native 场景**：对于传统行业（制造业、农业等），AI 三角中的「场景」和「数据」要素的表达力可能不足。
 
-### 关联卡片
+## Framework Gallery
 
-- [[yt-model-muse-ai-framework]] — MUSE AI 全景图：双三角的 AI 能力三角形与 MUSE 的 S（使用层）对接
-- [[yt-personal-ai-capability]] — AI 能力必修课
-- [[一堂方法论体系总图]] — 方法论体系中的定位
-- [[yt-personal-ipo-learning]] — IPO 科学学习模型：输入→处理→输出的个人修炼方法论
+### 关联框架卡
+- [[yt-model-muse-ai-framework]]
 
-### 知识体系定位
+## Synthesis
 
-双三角是个人修炼地图中「AI 时代竞争力」的顶层模型，连接个人能力（审美/体系/基本功）与 AI 能力（数据/场景/创造力）的交互逻辑。与 MUSE 模型互为补充——MUSE 回答「AI 世界长什么样」，双三角回答「在 AI 世界怎么变强」。
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-model-muse-ai-framework]] | MUSE AI 全景图：双三角的 AI 能力三角形与 MUSE 的 S（使用层）对接 |
+| 关联工具 | [[yt-personal-ai-capability]] | AI 能力必修课 |
+| 实体页 | [[一堂方法论体系总图]] | 方法论体系中的定位 |
+| 关联工具 | [[yt-personal-ipo-learning]] | IPO 科学学习模型：输入→处理→输出的个人修炼方法论 |

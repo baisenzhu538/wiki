@@ -1,24 +1,45 @@
 ---
-title: "转化率优化：动力三曲线 × 十大浪费触点"
-type: model
+id: yt-model-conversion-optimization
+title: 转化率优化：动力三曲线 × 十大浪费触点
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- FAB 核心说服
+- 两者联合使用
+- 动力三曲线
+- 动力三曲线图
+- 动力三曲线模型
+- 十大浪费触点
+- 十大浪费触点清单
+- 转化率优化
+- 转化率优化：动力三曲线 × 十大浪费触点
+tags:
+- '#yitang'
+- '#management'
+- '#conversion-optimization'
+- '#growth'
 yitang:
   map: management
-  module: "管理必修"
+  module: 管理必修
   course_type: framework
   level: intermediate
 source_refs:
-  - "10_raw/assets/yitang/一堂最佳转化率动力曲线图.png"
-  - "10_raw/assets/yitang/一堂转化率-10大容易浪费的触点.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#management"
-  - "#conversion-optimization"
-  - "#growth"
+- 10_raw/assets/yitang/一堂最佳转化率动力曲线图.png
+- 10_raw/assets/yitang/一堂转化率-10大容易浪费的触点.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 3000
+reviewed_by: 黄药师
 ---
 
 # 转化率优化：动力三曲线 × 十大浪费触点
@@ -29,7 +50,7 @@ tags:
 
 一堂转化率优化体系由两张知识地图构成：(1) **动力三曲线模型**——Cialdini 影响力六原则（互惠/承诺一致/社会认同/喜好/权威/稀缺）与 FAB 核心说服（Feature→Advantage→Benefit），从内在驱动力和外在影响力两个维度解释转化动力；(2) **十大浪费触点清单**——按 S/A/B/C 四级分组的 10 个最易被忽视的关键触点，从峰值触点到消息触点。两者结合：三曲线告诉你"用什么驱动转化"，十触点告诉你"在哪些节点最容易流失"。
 
-## [Condense]
+## Claims
 
 ### 动力三曲线模型
 
@@ -91,16 +112,24 @@ tags:
 
 **阅读顺序暗示**：清单从上到下（S→A→B→C）= 优化优先级从高到低。但脚注"本清单用来辅助寻找被忽视的关键触点"暗示使用顺序应该是反向的——先看 C 级（最容易被忽视），再往上补 S 级（已经被重视）。这是一种巧妙的"名义排序 vs 使用排序"双关。
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **十大触点是列举式而非系统式**：触点清单来自经验归纳，但没有说明"如何系统发现你的业务中最浪费的触点"的方法论。缺少一个触点审计流程。
 
-2. **Cialdini 六大原则是借用而非原创**：动力三曲线的理论基础来自 Cialdini 1984 年的《影响力》，一堂的贡献在于将其与 FAB 和触点清单组合——但原创性有限。
+- claim:boundary-01 [conf=0.80] **十大触点是列举式而非系统式**：触点清单来自经验归纳，但没有说明"如何系统发现你的业务中最浪费的触点"的方法论。缺少一个触点审计流程。
 
-## [Synthesis]
+- claim:boundary-02 [conf=0.80] **Cialdini 六大原则是借用而非原创**：动力三曲线的理论基础来自 Cialdini 1984 年的《影响力》，一堂的贡献在于将其与 FAB 和触点清单组合——但原创性有限。
 
-- [[yt-management-conversion-hacking]] — 转化率黑客（实操课程）
-- [[yt-entrepreneur-growth-flywheel]] — 增长飞轮（转化率驱动增长）
-- [[yt-entrepreneur-five-step-method]] — 五步法（增长假设部分）
-- [[yt-model-product-core-metrics]] — 十大典型指标（转化率的度量基础）
-- [[一堂]] — 一堂实体页
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-product-core-metrics]]
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联 | [[yt-management-conversion-hacking]] | 转化率黑客（实操课程） |
+| 关联工具 | [[yt-entrepreneur-growth-flywheel]] | 增长飞轮（转化率驱动增长） |
+| 关联工具 | [[yt-entrepreneur-five-step-method]] | 五步法（增长假设部分） |
+| 关联框架 | [[yt-model-product-core-metrics]] | 十大典型指标（转化率的度量基础） |
+| 实体页 | [[一堂]] | 一堂实体页 |

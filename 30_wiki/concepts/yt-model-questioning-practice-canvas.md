@@ -1,20 +1,38 @@
 ---
-title: "提问刻意练习提升画布"
-type: concept
+id: yt-model-questioning-practice-canvas
+title: 提问刻意练习提升画布
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 使用场景矩阵
+- 关联卡片
+- 四层提问能力框架
+- 提问刻意练习提升画布
+- 核心方法论要素
+- 知识体系定位
+tags:
+- '#yitang'
+- '#questioning'
 yitang:
   map: personal
-  module: "提问能力"
+  module: 提问能力
   course_type: model
   level: foundational
 source_refs: []
-created_at: "2026-05-07"
-updated_at: "2026-05-08"
-tags:
-  - "#yitang"
-  - "#questioning"
+created_at: '2026-05-07'
+updated_at: '2026-05-08'
+estimated_tokens: 1832
+reviewed_by: 黄药师
 ---
 
 # 提问刻意练习提升画布 (By YITANG)
@@ -25,7 +43,7 @@ tags:
 
 一堂提问能力训练的实操画布，将提问分为四个层次（业务分析→辅导团队→咨询教练→萃取经验），每层有明确的提问目标、核心套路和工具箱。核心方法论要素包含：不断追问、对齐目标、SMART 原则、强迫思考、TopN 优先级等。
 
-## [Condense]
+## Claims
 
 ### 四层提问能力框架
 
@@ -57,22 +75,24 @@ tags:
 | 公司萃取知识 | L4 萃取经验 | 知识管理、内部培训 |
 | 个人做课 | L4 萃取经验 | 方法论产品化 |
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **画布定位——练习工具 vs 诊断工具**：画布更适合诊断自己提问能力的薄弱环节，而非直接指导练习过程。
-2. **L4「萃取经验」的方法论渗透率低**：相比 L1-L3 有成熟工具箱（STAR/GROW/苏格拉底），萃取经验的工具化程度明显不足。
-3. **场景与层级之间可能多对多**：例如面试评估可能同时涉及业务分析（L1）、辅导判断（L2）和咨询技巧（L3）。
 
-## [Synthesis]
+- claim:boundary-01 [conf=0.80] **画布定位——练习工具 vs 诊断工具**：画布更适合诊断自己提问能力的薄弱环节，而非直接指导练习过程。
+- claim:boundary-02 [conf=0.80] **L4「萃取经验」的方法论渗透率低**：相比 L1-L3 有成熟工具箱（STAR/GROW/苏格拉底），萃取经验的工具化程度明显不足。
+- claim:boundary-03 [conf=0.80] **场景与层级之间可能多对多**：例如面试评估可能同时涉及业务分析（L1）、辅导判断（L2）和咨询技巧（L3）。
 
-### 关联卡片
+## Framework Gallery
 
-- [[yt-model-scientific-questioning-map]] — 科学提问成长地图（姊妹模型）
-- [[yt-personal-deliberate-practice]] — 科学成长（406）：提问画布是用刻意练习方法训练提问能力
-- [[yt-personal-deep-review]] — 深度复盘（404）：复盘中的提问应用
-- [[yt-management-scientific-hiring]] — 科学招聘：面试评估中的提问应用
-- [[yt-entrepreneur-scientific-method]] — Y 模型/科学方法：假设驱动在提问中的体现
+### 关联框架卡
+- [[yt-model-scientific-questioning-map]]
 
-### 知识体系定位
+## Synthesis
 
-与 [[yt-model-scientific-questioning-map]] 互为姊妹——成长地图侧重宏观领域和路径，提升画布侧重微观套路和工具。两卡合起来构成一堂提问能力训练的完整框架。
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-model-scientific-questioning-map]] | 科学提问成长地图（姊妹模型） |
+| 关联工具 | [[yt-personal-deliberate-practice]] | 科学成长（406）：提问画布是用刻意练习方法训练提问能力 |
+| 关联工具 | [[yt-personal-deep-review]] | 深度复盘（404）：复盘中的提问应用 |
+| 关联 | [[yt-management-scientific-hiring]] | 科学招聘：面试评估中的提问应用 |
+| 关联工具 | [[yt-entrepreneur-scientific-method]] | Y 模型/科学方法：假设驱动在提问中的体现 |

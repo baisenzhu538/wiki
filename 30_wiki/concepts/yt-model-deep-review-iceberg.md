@@ -1,23 +1,41 @@
 ---
-title: "深度复盘冰山图：从主观感受到能力建设的五层穿透"
-type: model
+id: yt-model-deep-review-iceberg
+title: 深度复盘冰山图：从主观感受到能力建设的五层穿透
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 与解放思想层级的关系
+- 五层冰山
+- 五层穿透的实践要点
+- 从主观感受到能力建设的五层穿透
+- 深度复盘冰山图
+- 深度复盘冰山图：从主观感受到能力建设的五层穿透
+tags:
+- '#yitang'
+- '#personal-growth'
+- '#deep-review'
+- '#deliberate-practice'
 yitang:
   map: personal
-  module: "个人修炼"
+  module: 个人修炼
   course_type: framework
   level: intermediate
 source_refs:
-  - "10_raw/assets/yitang/一堂深度复盘冰山图.png"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#personal-growth"
-  - "#deep-review"
-  - "#deliberate-practice"
+- 10_raw/assets/yitang/一堂深度复盘冰山图.png
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 2454
+reviewed_by: 黄药师
 ---
 
 # 深度复盘冰山图：从主观感受到能力建设的五层穿透
@@ -28,7 +46,7 @@ tags:
 
 深度复盘冰山图是一堂复盘方法论的核心框架——将复盘深度分为五层：主观感受→客观事实→背后原因→底层模型→能力建设。每一层是一次认知跃迁。核心追问：这一轮复盘，你能挖到第几层？大多数人停在第一层"感觉这次做得好/不好"，少数人能到第三层"找到原因"，极少数人能到第五层"把复盘变成可迁移的能力"。复盘的质量不取决于花了多少时间，而取决于穿透了几层。
 
-## [Condense]
+## Claims
 
 ### 五层冰山
 
@@ -70,16 +88,24 @@ tags:
 
 **刻意强调**：L5"能力建设"位于冰山最底层——视觉上最远、最暗、最难到达，同时面积最大——暗示这是回报最高的层。海平面线不是实线而是虚线或渐变，暗示"客观与主观的边界是模糊的，不是二分的"。
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **五层模型的线性假设不现实**：实际复盘是来回跳跃的——可能在 L4 发现模型不对，回到 L2 补充事实。冰山图是阶梯而非单行道，但图示没有表达这种迭代关系。
 
-2. **"能力建设"的落地路径缺失**：L5 说"固化为组织能力"，但没说怎么做——是写 SOP？是培训？是嵌入考核？第五层需要的执行方法比前四层加起来都多，却是着墨最少的。
+- claim:boundary-01 [conf=0.80] **五层模型的线性假设不现实**：实际复盘是来回跳跃的——可能在 L4 发现模型不对，回到 L2 补充事实。冰山图是阶梯而非单行道，但图示没有表达这种迭代关系。
 
-## [Synthesis]
+- claim:boundary-02 [conf=0.80] **"能力建设"的落地路径缺失**：L5 说"固化为组织能力"，但没说怎么做——是写 SOP？是培训？是嵌入考核？第五层需要的执行方法比前四层加起来都多，却是着墨最少的。
 
-- [[yt-personal-deep-review]] — 深度复盘实操（冰山图是其理论框架）
-- [[yt-model-liberate-thinking-layers]] — 解放思想层级（五层冰山的哲学对应）
-- [[yt-personal-deliberate-practice]] — 刻意练习（复盘是刻意练习的核心机制）
-- [[yt-personal-knowledge-extraction]] — 知识萃取（L4 建模 = 萃取过程）
-- [[一堂]] — 一堂实体页
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-liberate-thinking-layers]]
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联工具 | [[yt-personal-deep-review]] | 深度复盘实操（冰山图是其理论框架） |
+| 关联框架 | [[yt-model-liberate-thinking-layers]] | 解放思想层级（五层冰山的哲学对应） |
+| 关联工具 | [[yt-personal-deliberate-practice]] | 刻意练习（复盘是刻意练习的核心机制） |
+| 关联工具 | [[yt-personal-knowledge-extraction]] | 知识萃取（L4 建模 = 萃取过程） |
+| 实体页 | [[一堂]] | 一堂实体页 |

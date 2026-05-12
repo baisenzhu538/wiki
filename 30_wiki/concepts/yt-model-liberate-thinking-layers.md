@@ -1,20 +1,38 @@
 ---
-title: "解放思想五层模型"
-type: concept
+id: yt-model-liberate-thinking-layers
+title: 解放思想五层模型
+type: framework
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.85
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 六层认知模型
+- 关联卡片
+- 关键洞察
+- 核心梯度
+- 知识体系定位
+- 解放思想五层模型
+tags:
+- '#yitang'
+- '#thinking-model'
 yitang:
   map: personal
-  module: "底层方法论"
+  module: 底层方法论
   course_type: model
   level: foundational
 source_refs: []
-created_at: "2026-05-07"
-updated_at: "2026-05-08"
-tags:
-  - "#yitang"
-  - "#thinking-model"
+created_at: '2026-05-07'
+updated_at: '2026-05-08'
+estimated_tokens: 1591
+reviewed_by: 黄药师
 ---
 
 # 解放思想五层模型
@@ -25,7 +43,7 @@ tags:
 
 一堂将人的认知抽象层级划分为六层——从盲目创新（L0）到学科经典（L5），越往高层抽象度越高、数量越少、迁移性越强。核心命题：大部分人困在 L1-L2 的经验和常识层做事，真正拉开差距的是 L3-L5 的方法模型、本质理解和学科经典。
 
-## [Condense]
+## Claims
 
 ### 六层认知模型
 
@@ -49,22 +67,23 @@ tags:
 
 大多数人在 L1/L2 层面做事——依赖案例、经验和常识。真正的高手习惯在 L3/L4 层面思考——从方法模型和本质定义出发，再向下落地。「解放思想」就是不断往上走的修炼过程。
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **抽象层级之间是否有跳跃路径？** 模型暗示逐级上升，但现实中的顿悟往往跨越层级——从 L1 直接跃入 L4。
-2. **L0 "盲目创新"是否被过度贬低？** 破坏性创新的早期往往表现为 L0——看似盲目的设想，事后才被理论化。完全否定 L0 可能过滤掉真正的突破性想法。
-3. **学科经典（L5）的适用边界**：脱离商业管理回到学术理论，在商业实践中的直接指导力需要验证。
 
-## [Synthesis]
+- claim:boundary-01 [conf=0.80] **抽象层级之间是否有跳跃路径？** 模型暗示逐级上升，但现实中的顿悟往往跨越层级——从 L1 直接跃入 L4。
+- claim:boundary-02 [conf=0.80] **L0 "盲目创新"是否被过度贬低？** 破坏性创新的早期往往表现为 L0——看似盲目的设想，事后才被理论化。完全否定 L0 可能过滤掉真正的突破性想法。
+- claim:boundary-03 [conf=0.80] **学科经典（L5）的适用边界**：脱离商业管理回到学术理论，在商业实践中的直接指导力需要验证。
 
-### 关联卡片
+## Framework Gallery
 
-- [[yt-entrepreneur-liberate-thinking]] — 解放思想课程（创业地图）
-- [[yt-entrepreneur-scientific-method]] — Y 模型/科学方法：同在底层逻辑模块
-- [[yt-entrepreneur-pragmatic-startup]] — 务实创业（实事求是）
-- [[一堂方法论体系总图]] — 方法论体系中的定位
-- [[yt-system-course-map-lecture]] — 课程地图串讲中「解放思想」的十层解读
+### 关联框架卡
 
-### 知识体系定位
+## Synthesis
 
-解放思想五层模型是个人修炼地图中「底层逻辑」模块的核心模型。与 Y 模型（科学方法）和实事求是（务实创业）构成方法论三基石——Y 模型提供假设驱动的推理工具，解放思想提供认知升级的阶梯，实事求是提供验证落地的锚点。
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联工具 | [[yt-entrepreneur-liberate-thinking]] | 解放思想课程（创业地图） |
+| 关联工具 | [[yt-entrepreneur-scientific-method]] | Y 模型/科学方法：同在底层逻辑模块 |
+| 关联工具 | [[yt-entrepreneur-pragmatic-startup]] | 务实创业（实事求是） |
+| 实体页 | [[一堂方法论体系总图]] | 方法论体系中的定位 |
+| 关联 | [[yt-system-course-map-lecture]] | 课程地图串讲中「解放思想」的十层解读 |
