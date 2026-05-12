@@ -73,11 +73,20 @@ reviewed_by: 黄药师
 
 卡片呈现"向下扎根→向上突破"的双向运动——向下箭头指向更底层的规律（本质/学科经典），向上箭头指向表面的创新动作。这种双向视觉暗示：创新力不是"往上看"（学竞争对手）而是"往下看"（学第一性原理）。"找到更底层的规律"被强调为核心心法——暗示解放思想不是"随便想"而是"想得更深"。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-model-liberate-thinking-layers]] — 解放思想层级（L0-L5的完整框架）
-- [[yt-panproduct-execution-idea-spark]] — 灵感闪现（解放思想的创意生成端）
-- [[yt-personal-y-model-practice]] — Y模型（解放思想=Y模型的"解放思想→知行合一"）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 36计总框架
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-model-liberate-thinking-layers]] | 解放思想层级（L0-L5的完整框架） |
+| 相关工具 | [[yt-panproduct-execution-idea-spark]] | 灵感闪现（解放思想的创意生成端） |
+| 关联 | [[yt-personal-y-model-practice]] | Y模型（解放思想=Y模型的"解放思想→知行合一"） |
+| 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
+| 上层框架 | [[yt-model-pan-product-36-strategies]] | 36计总框架 |
+| 实体页 | [[一堂]] | 一堂实体页 |

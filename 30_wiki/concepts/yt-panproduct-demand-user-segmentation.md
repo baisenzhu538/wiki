@@ -71,10 +71,19 @@ reviewed_by: 黄药师
 
 卡片用"铁板"被拆分成多个色块的视觉隐喻——从同质化大块到差异化小块的分解过程。三个分层维度并列排列，暗示它们不是互斥的而是可叠加的（同一批用户可同时按优先级、角色、认知状态三层切分）。"第一次设计产品"被标注为关键触发时机——暗示分层意识应在设计之初建立而非事后补救。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-demand-user-perspective]] — 用户视角（分层的前置步骤）
-- [[yt-panproduct-demand-scenario-walkthrough]] — 场景推演（分层后的场景化）
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 36计总框架
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-demand-user-perspective]] | 用户视角（分层的前置步骤） |
+| 相关工具 | [[yt-panproduct-demand-scenario-walkthrough]] | 场景推演（分层后的场景化） |
+| 父框架 | [[yt-model-pan-product-demand-toolkit]] | 需求工具箱总指南 |
+| 上层框架 | [[yt-model-pan-product-36-strategies]] | 36计总框架 |
+| 实体页 | [[一堂]] | 一堂实体页 |

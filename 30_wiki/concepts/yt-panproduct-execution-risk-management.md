@@ -71,10 +71,19 @@ reviewed_by: 黄药师
 
 卡片呈现"不确定的意外 → 确定的预案"的转换——左侧是混乱的风险云团，右侧是结构化的三步骤。"底线思维"被强调——暗示风险管理不是消除风险（不可能），而是确保底线不被突破。"依然保持体面和可用性"这一表述——暗示目标不是完美，是存活。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-execution-milestone-breakdown]] — 里程碑拆解（每个里程碑都是风险检查点）
-- [[yt-panproduct-execution-hypothesis-decomposition]] — 假设拆解（风险来自假设被推翻）
-- [[yt-model-deep-review-iceberg]] — 深度复盘冰山（复盘识别被忽视的风险）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-execution-milestone-breakdown]] | 里程碑拆解（每个里程碑都是风险检查点） |
+| 相关工具 | [[yt-panproduct-execution-hypothesis-decomposition]] | 假设拆解（风险来自假设被推翻） |
+| 关联框架 | [[yt-model-deep-review-iceberg]] | 深度复盘冰山（复盘识别被忽视的风险） |
+| 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

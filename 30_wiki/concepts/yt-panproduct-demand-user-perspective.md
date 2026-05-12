@@ -74,11 +74,20 @@ reviewed_by: 黄药师
 
 卡片将"一秒转化"作为视觉中心——从设计者视角到用户视角的箭头切换，强调速度感（一秒）和方向性（从己到彼）。适合场景"所有的产品设计"被放大——暗示这不是特定场景卡，而是"基础姿态卡"，与项目背景分析（另一张★卡）形成"微观代入+宏观分析"的互补对。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 36计总框架
-- [[yt-panproduct-demand-user-segmentation]] — 用户分层（视角后的细化）
-- [[yt-panproduct-demand-scenario-walkthrough]] — 场景推演（视角后的场景化）
-- [[yt-model-aesthetic-progression]] — 审美提升层级（同理：从"看不见"到"看见"）
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 父框架 | [[yt-model-pan-product-demand-toolkit]] | 需求工具箱总指南 |
+| 上层框架 | [[yt-model-pan-product-36-strategies]] | 36计总框架 |
+| 相关工具 | [[yt-panproduct-demand-user-segmentation]] | 用户分层（视角后的细化） |
+| 相关工具 | [[yt-panproduct-demand-scenario-walkthrough]] | 场景推演（视角后的场景化） |
+| 关联框架 | [[yt-model-aesthetic-progression]] | 审美提升层级（同理：从"看不见"到"看见"） |
+| 实体页 | [[一堂]] | 一堂实体页 |

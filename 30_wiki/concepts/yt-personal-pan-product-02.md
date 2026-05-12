@@ -86,15 +86,23 @@ reviewed_by: 黄药师
 
 ## Constraints & Boundaries
 
-1. **"无限进步"可能导致完美主义陷阱**：课程强调持续打磨，但实际商业场景中时机窗口有限。缺少"何时该停"的判断标准——打磨到85分还是95分？ROI拐点在哪？
+- claim:boundary-01 [conf=0.80] **"无限进步"可能导致完美主义陷阱**：课程强调持续打磨，但实际商业场景中时机窗口有限。缺少"何时该停"的判断标准——打磨到85分还是95分？ROI拐点在哪？
 
-2. **系列课的四节结构隐含线性假设**：认知→框架→需求→审美→落地，好像是线性推进，但实际上产品设计是高度迭代的——需求和审美常常在落地过程中被重新定义。课程结构可能强化了"先想清楚再动手"的瀑布思维。
+- claim:boundary-02 [conf=0.80] **系列课的四节结构隐含线性假设**：认知→框架→需求→审美→落地，好像是线性推进，但实际上产品设计是高度迭代的——需求和审美常常在落地过程中被重新定义。课程结构可能强化了"先想清楚再动手"的瀑布思维。
+
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
 
 ## Synthesis
 
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱19张卡牌详解
-- [[yt-model-pan-product-36-strategies]] — 36计总框架
-- [[yt-personal-pan-product-practice]] — 需求篇实操
-- [[yt-personal-pan-product-aesthetics]] — 审美篇实操
-- [[yt-model-y-organization]] — Y模型（无限进步 = 知行合一的体现）
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱19张卡牌详解 |
+| 上层框架 | [[yt-model-pan-product-36-strategies]] | 36计总框架 |
+| 相关工具 | [[yt-personal-pan-product-practice]] | 需求篇实操 |
+| 相关工具 | [[yt-personal-pan-product-aesthetics]] | 审美篇实操 |
+| 关联框架 | [[yt-model-y-organization]] | Y模型（无限进步 = 知行合一的体现） |
+| 实体页 | [[一堂]] | 一堂实体页 |

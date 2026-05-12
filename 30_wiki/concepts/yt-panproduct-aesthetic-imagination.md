@@ -80,10 +80,19 @@ reviewed_by: 黄药师
 
 卡片的核心视觉是"无对标→有想象"的跨越——左侧是一片空白（没有参照物），右侧是脑补出来的美好画面。三个幻想维度（画面/张力/迁移）呈放射状排列，暗示"从一个中心点向三个方向展开想象"。"勇敢追求"被单独强调——暗示"想象"的前提是"勇敢"，大多数人卡在"不敢想"而非"想不到"。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-aesthetic-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-aesthetic-modeling]] — 最佳实践建模（想象的理性基础）
-- [[yt-model-product-excellence]] — 顶级产品追求（乔布斯的品味哲学）
-- [[yt-model-aesthetic-progression]] — 审美提升层级（想象对应"大胆想象"阶段）
-- [[yt-model-pan-product-aesthetic-toolkit]] — 审美工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-aesthetic-modeling]] | 最佳实践建模（想象的理性基础） |
+| 关联框架 | [[yt-model-product-excellence]] | 顶级产品追求（乔布斯的品味哲学） |
+| 相关工具 | [[yt-model-aesthetic-progression]] | 审美提升层级（想象对应"大胆想象"阶段） |
+| 父框架 | [[yt-model-pan-product-aesthetic-toolkit]] | 审美工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

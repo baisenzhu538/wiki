@@ -70,10 +70,19 @@ reviewed_by: 黄药师
 
 卡片将六步分析框架按"宏观→微观→判断"三层排列：前三步（产业链/变化/稳态）是描述性分析，中间两步（周期/天花板）是评估性判断，最后一步（集中度）是竞争性结论。六个步骤形成一个漏斗——从广阔的产业链全景逐步收敛到一个具体的竞争判断。"预判下一个稳态B点"被突出——暗示行业分析的核心价值不是描述过去，而是预判未来。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-demand-five-step-method]] — 一堂五步法（行业分析是五步法中"机会选择"的前置）
-- [[yt-panproduct-demand-project-background]] — 项目背景分析（宏观维度的扩���版）
-- [[yt-entrepreneur-research-camp]] — 调研行动营（行业分析的方法论来源）
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-demand-five-step-method]] | 一堂五步法（行业分析是五步法中"机会选择"的前置） |
+| 相关工具 | [[yt-panproduct-demand-project-background]] | 项目背景分析（宏观维度的扩���版） |
+| 关联 | [[yt-entrepreneur-research-camp]] | 调研行动营（行业分析的方法论来源） |
+| 父框架 | [[yt-model-pan-product-demand-toolkit]] | 需求工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

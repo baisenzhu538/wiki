@@ -70,10 +70,19 @@ reviewed_by: 黄药师
 
 卡片用PEAK/END两个英文词作为主视觉锚点，下方配上EXPERIENCE和TIME——暗示用户体验是时间维度上的曲线而非点状评估。峰值被图形化呈现为体验曲线的最高点。初值和底线值被补充标注在曲线两端，形成四要素框架。"二八定律"的类比被用来传达核心洞察：20%的关键时刻决定80%的用户记忆。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-demand-surprise-formula]] — 惊喜公式（峰值设计的具体方法）
-- [[yt-panproduct-demand-motivation-resistance]] — 动力阻力（转化率中的触点对应峰终时刻）
-- [[yt-model-conversion-optimization]] — 转化率优化（S/A/B/C触点分级对应峰终理念）
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-demand-surprise-formula]] | 惊喜公式（峰值设计的具体方法） |
+| 相关工具 | [[yt-panproduct-demand-motivation-resistance]] | 动力阻力（转化率中的触点对应峰终时刻） |
+| 关联框架 | [[yt-model-conversion-optimization]] | 转化率优化（S/A/B/C触点分级对应峰终理念） |
+| 父框架 | [[yt-model-pan-product-demand-toolkit]] | 需求工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

@@ -84,15 +84,23 @@ reviewed_by: 黄药师
 
 ## Constraints & Boundaries
 
-1. **30张牌的认知负荷巨大**：一节课塞入30张牌，虽然用了出牌教学法降低门槛，但学员可能"看完热闹记不住牌"。需要后续实操篇逐张展开才能真正内化。
+- claim:boundary-01 [conf=0.80] **30张牌的认知负荷巨大**：一节课塞入30张牌，虽然用了出牌教学法降低门槛，但学员可能"看完热闹记不住牌"。需要后续实操篇逐张展开才能真正内化。
 
-2. **"被榨取"的隐性知识外化过程未透明化**：Truman 说自己被团队"凶残榨取"，但这个外化过程本身就是知识萃取的最佳案例——如果能展示"某张牌是怎么被榨出来的"，教学效果可能更好。
+- claim:boundary-02 [conf=0.80] **"被榨取"的隐性知识外化过程未透明化**：Truman 说自己被团队"凶残榨取"，但这个外化过程本身就是知识萃取的最佳案例——如果能展示"某张牌是怎么被榨出来的"，教学效果可能更好。
+
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
 
 ## Synthesis
 
-- [[yt-model-pan-product-36-strategies]] — 36计全图（框架篇的完整卡牌目录）
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱详解
-- [[yt-model-pan-product-aesthetic-toolkit]] — 审美工具箱详解
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱详解
-- [[yt-personal-pan-product-concepts]] — 认知篇（工具篇的前置）
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 上层框架 | [[yt-model-pan-product-36-strategies]] | 36计全图（框架篇的完整卡牌目录） |
+| 关联框架 | [[yt-model-pan-product-demand-toolkit]] | 需求工具箱详解 |
+| 关联框架 | [[yt-model-pan-product-aesthetic-toolkit]] | 审美工具箱详解 |
+| 关联框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱详解 |
+| 相关工具 | [[yt-personal-pan-product-concepts]] | 认知篇（工具篇的前置） |
+| 实体页 | [[一堂]] | 一堂实体页 |

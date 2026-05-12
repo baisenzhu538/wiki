@@ -87,9 +87,18 @@ reviewed_by: 黄药师
 
 卡片采用上下结构——上部是"进步曲线图"（时间轴×能力/见识两条曲线），下部是搜集渠道和行动要点。进步曲线中"见识曲线"始终高于"能力曲线"——暗示"先看见，再做到"的眼高手低是必经之路。三条曲线标签（拉高天花板→上手金手指→持续进步）用箭头连接，暗示进步是有阶段顺序的。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-aesthetic-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-model-pan-product-aesthetic-toolkit]] — 审美工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 36计总框架
-- [[yt-model-aesthetic-progression]] — 审美提升层级（收集是第一步）
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 父框架 | [[yt-model-pan-product-aesthetic-toolkit]] | 审美工具箱总指南 |
+| 上层框架 | [[yt-model-pan-product-36-strategies]] | 36计总框架 |
+| 相关工具 | [[yt-model-aesthetic-progression]] | 审美提升层级（收集是第一步） |
+| 实体页 | [[一堂]] | 一堂实体页 |

@@ -68,10 +68,19 @@ reviewed_by: 黄药师
 
 卡片将一个大方块分解为多个小里程碑节点的视觉序列——每个节点有独立标识（M1/M2/M3...）。这种视觉暗示两个关键洞察：(1) 里程碑之间是串联的——前一个完成才能解锁后一个；(2) 每个里程碑都是可独立验证的——不需要等到最后才知道是否成功。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-execution-management-trilogy]] — 管理三段论（路径拆解=里程碑拆解）
-- [[yt-panproduct-execution-risk-management]] — 风险管理（里程碑是风险的前置探测点）
-- [[yt-panproduct-execution-review-iteration]] — 复盘迭代（每个里程碑后复盘）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-execution-management-trilogy]] | 管理三段论（路径拆解=里程碑拆解） |
+| 相关工具 | [[yt-panproduct-execution-risk-management]] | 风险管理（里程碑是风险的前置探测点） |
+| 相关工具 | [[yt-panproduct-execution-review-iteration]] | 复盘迭代（每个里程碑后复盘） |
+| 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

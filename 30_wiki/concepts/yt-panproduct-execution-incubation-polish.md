@@ -71,10 +71,19 @@ reviewed_by: 黄药师
 
 卡片呈现一个双轮驱动+中心GAP的结构——左侧"拉审美"和右侧"挖需求"两个驱动力向中心汇聚，在GAP处碰撞，产生打磨行动。"酝酿"一词的使用暗示打磨不是一次性冲刺而是持续发酵——好作品是在反复"泡"的过程中慢慢变好的，而非一次性"做"出来的。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-aesthetic-pool]] — 最佳实践池子（拉审美的素材来源）
-- [[yt-panproduct-demand-need-discovery]] — 需求挖掘（挖需求的具体方法）
-- [[yt-panproduct-execution-review-iteration]] — 复盘迭代（酝酿式打磨的迭代周期）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-aesthetic-pool]] | 最佳实践池子（拉审美的素材来源） |
+| 相关工具 | [[yt-panproduct-demand-need-discovery]] | 需求挖掘（挖需求的具体方法） |
+| 相关工具 | [[yt-panproduct-execution-review-iteration]] | 复盘迭代（酝酿式打磨的迭代周期） |
+| 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

@@ -82,10 +82,19 @@ reviewed_by: 黄药师
 
 卡片的核心视觉是一个"池子"隐喻——产品被扔进大量最佳实践中间，通过对比被打磨。常见池子类型用并列列表呈现，暗示池子不是一个单一事物而是一个分类体系。底部的流程链用箭头连接，强调"建池子"不是一次性动作而是持续迭代的过程。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-aesthetic-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-aesthetic-collection]] — 最佳实践收集（池子的前置步骤）
-- [[yt-panproduct-aesthetic-modeling]] — 最佳实践建模（从黑盒到白盒的跃迁）
-- [[yt-model-pan-product-aesthetic-toolkit]] — 审美工具箱总指南
-- [[yt-model-aesthetic-progression]] — 审美提升层级（建池子对应"筛选入围"阶段）
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-aesthetic-collection]] | 最佳实践收集（池子的前置步骤） |
+| 相关工具 | [[yt-panproduct-aesthetic-modeling]] | 最佳实践建模（从黑盒到白盒的跃迁） |
+| 父框架 | [[yt-model-pan-product-aesthetic-toolkit]] | 审美工具箱总指南 |
+| 相关工具 | [[yt-model-aesthetic-progression]] | 审美提升层级（建池子对应"筛选入围"阶段） |
+| 实体页 | [[一堂]] | 一堂实体页 |

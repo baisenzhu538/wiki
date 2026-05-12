@@ -85,14 +85,22 @@ reviewed_by: 黄药师
 
 ## Constraints & Boundaries
 
-1. **四字诀的"算"最难落地**：拆/推/评三个环节有定性方法支撑，"算"需要数据积累和量化能力，新手往往在这一步卡住——没有历史数据如何估算规模×强度×频次？
+- claim:boundary-01 [conf=0.80] **四字诀的"算"最难落地**：拆/推/评三个环节有定性方法支撑，"算"需要数据积累和量化能力，新手往往在这一步卡住——没有历史数据如何估算规模×强度×频次？
 
-2. **JTBD 在中国市场的适应性**：JTBD 源自西方产品理论，核心案例（奶昔、宜家）与中国创业场景有差距。一堂做了本土化改造但仍需更多中国案例验证。
+- claim:boundary-02 [conf=0.80] **JTBD 在中国市场的适应性**：JTBD 源自西方产品理论，核心案例（奶昔、宜家）与中国创业场景有差距。一堂做了本土化改造但仍需更多中国案例验证。
+
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
 
 ## Synthesis
 
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱13张卡牌详解
-- [[yt-model-pan-product-36-strategies]] — 36计总框架
-- [[yt-entrepreneur-five-step-method]] — 创业五步法（需求分析是五步法第二步的深度展开）
-- [[yt-personal-pan-product-aesthetics]] — 审美篇（需求+审美 = 做对的事+做好的事）
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-model-pan-product-demand-toolkit]] | 需求工具箱13张卡牌详解 |
+| 上层框架 | [[yt-model-pan-product-36-strategies]] | 36计总框架 |
+| 关联 | [[yt-entrepreneur-five-step-method]] | 创业五步法（需求分析是五步法第二步的深度展开） |
+| 相关工具 | [[yt-personal-pan-product-aesthetics]] | 审美篇（需求+审美 = 做对的事+做好的事） |
+| 实体页 | [[一堂]] | 一堂实体页 |

@@ -71,10 +71,19 @@ reviewed_by: 黄药师
 
 卡片呈现"未转化 → 成功转化"的跨越——中间隔着一道由动力/阻力/触点构成的门槛。视觉上动力和阻力是方向相反的两个箭头（一个推用户前进，一个拉用户后退），触点是两者相遇的界面。三要素不是并列而是动力vs阻力的对抗关系——触点是这个对抗发生的具体位置。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-model-conversion-optimization]] — 转化率优化（Cialdini六大原则 + S/A/B/C触点）
-- [[yt-panproduct-demand-peak-end-rule]] — 峰终定律（触点体验设计）
-- [[yt-panproduct-demand-surprise-formula]] — 惊喜公式（增强动力的方法之一）
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-model-conversion-optimization]] | 转化率优化（Cialdini六大原则 + S/A/B/C触点） |
+| 相关工具 | [[yt-panproduct-demand-peak-end-rule]] | 峰终定律（触点体验设计） |
+| 相关工具 | [[yt-panproduct-demand-surprise-formula]] | 惊喜公式（增强动力的方法之一） |
+| 父框架 | [[yt-model-pan-product-demand-toolkit]] | 需求工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

@@ -69,10 +69,19 @@ reviewed_by: 黄药师
 
 卡片以数学公式作为主要视觉——业务结果 = A+B+C+D × E×F×G×H，暗示业务逻辑可以用精确的乘加关系表达。"不必强求一步到位"被标注——暗示业务建模是迭代过程，初始公式可以粗糙。"逐步演化"的箭头暗示从粗糙到精确的进化方向。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-execution-roi-analysis]] — ROI分析（业务建模是ROI的定量基础）
-- [[yt-panproduct-execution-logic-mece]] — 逻辑MECE（MECE是业务建模的第一原则）
-- [[yt-panproduct-demand-five-step-method]] — 一堂五步法（商业模式步需要业务建模）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-execution-roi-analysis]] | ROI分析（业务建模是ROI的定量基础） |
+| 相关工具 | [[yt-panproduct-execution-logic-mece]] | 逻辑MECE（MECE是业务建模的第一原则） |
+| 相关工具 | [[yt-panproduct-demand-five-step-method]] | 一堂五步法（商业模式步需要业务建模） |
+| 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

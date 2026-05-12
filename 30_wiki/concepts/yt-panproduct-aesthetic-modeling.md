@@ -79,11 +79,20 @@ reviewed_by: 黄药师
 
 卡片标题下方的核心操作图示暗示了从"黑盒"到"白盒"的转换——左侧是大量散落的最佳实践（黑盒/杂乱），右侧是提炼后的评价维度（白盒/结构化）。箭头从左到右就是"建模"的本质：从无序中提炼有序。底部的预判模型三范式（N要素→雷达图→Checklist）提供了建模的三个复杂度级别。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-aesthetic-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-aesthetic-pool]] — 最佳实践池子（建模的前置步骤）
-- [[yt-panproduct-aesthetic-imagination]] — 美好作品想象（建模之后的创造）
-- [[yt-model-prediction-model]] — 预判模型三范式（建模的方法论基础）
-- [[yt-model-pan-product-aesthetic-toolkit]] — 审美工具箱总指南
-- [[yt-model-aesthetic-progression]] — 审美提升层级（建模对应"提炼模型"阶段）
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-aesthetic-pool]] | 最佳实践池子（建模的前置步骤） |
+| 相关工具 | [[yt-panproduct-aesthetic-imagination]] | 美好作品想象（建模之后的创造） |
+| 关联框架 | [[yt-model-prediction-model]] | 预判模型三范式（建模的方法论基础） |
+| 父框架 | [[yt-model-pan-product-aesthetic-toolkit]] | 审美工具箱总指南 |
+| 相关工具 | [[yt-model-aesthetic-progression]] | 审美提升层级（建模对应"提炼模型"阶段） |
+| 实体页 | [[一堂]] | 一堂实体页 |

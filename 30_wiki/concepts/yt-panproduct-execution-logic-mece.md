@@ -74,10 +74,19 @@ reviewed_by: 黄药师
 
 卡片用四层递进结构呈现拆解深度——从L1碎片到L4逻辑链，每一层都比上一层更结构化。"不重不漏"被标注为MECE的核心定义，而"有推理的逻辑链"被标注为更高追求——暗示MECE不只是穷举，更是思考深度。"闹心"一词的使用将MECE从方法论内化为"本能反应"——不是工具而是习惯。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-execution-core-and-boundary]] — 内核和边界（先定边界再MECE拆解）
-- [[yt-panproduct-execution-hypothesis-decomposition]] — 假设拆解（MECE在假设分析中的应用）
-- [[yt-model-prediction-model]] — 预判模型（Checklist版是MECE的极致应用）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-execution-core-and-boundary]] | 内核和边界（先定边界再MECE拆解） |
+| 相关工具 | [[yt-panproduct-execution-hypothesis-decomposition]] | 假设拆解（MECE在假设分析中的应用） |
+| 关联框架 | [[yt-model-prediction-model]] | 预判模型（Checklist版是MECE的极致应用） |
+| 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

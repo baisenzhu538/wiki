@@ -72,10 +72,19 @@ reviewed_by: 黄药师
 
 卡片用两本书作为主要视觉锚点——暗示"设计原则不是天生品味而是可通过阅读习得的知识"。"一组专业的评价原则"被突出——暗示目标不是成为设计师，而是拥有评价能力（能判断什么是好、为什么好）。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-aesthetic-modeling]] — 最佳实践建模（设计原则是UI领域的最佳实践建模）
-- [[yt-panproduct-aesthetic-pool]] — 最佳实践池子（设计原则来自大量案例的共性提炼）
-- [[yt-panproduct-execution-realistic-simulation]] — 努力仿真（原则指导下进行真实场景验证）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-aesthetic-modeling]] | 最佳实践建模（设计原则是UI领域的最佳实践建模） |
+| 相关工具 | [[yt-panproduct-aesthetic-pool]] | 最佳实践池子（设计原则来自大量案例的共性提炼） |
+| 相关工具 | [[yt-panproduct-execution-realistic-simulation]] | 努力仿真（原则指导下进行真实场景验证） |
+| 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

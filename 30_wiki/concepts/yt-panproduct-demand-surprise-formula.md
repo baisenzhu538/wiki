@@ -75,10 +75,19 @@ reviewed_by: 黄药师
 
 卡片用一个简洁的减法公式作为视觉中心——惊喜大小 = 产品设计 − 用户预期。公式的极简性本身就是一种表达：惊喜的机制并不复杂，复杂的是执行。"预期差"三个字被刻意放大——暗示核心洞察不在于"做得好"而在于"做得比预期好"。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-demand-peak-end-rule]] — 峰终定律（惊喜往往设计在峰终时刻）
-- [[yt-model-product-excellence]] — 顶级产品追求（乔布斯的品味公式与惊喜公式同构）
-- [[yt-panproduct-aesthetic-imagination]] — 美好作品想象（惊喜是想象的重要目标之一）
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-demand-peak-end-rule]] | 峰终定律（惊喜往往设计在峰终时刻） |
+| 关联框架 | [[yt-model-product-excellence]] | 顶级产品追求（乔布斯的品味公式与惊喜公式同构） |
+| 相关工具 | [[yt-panproduct-aesthetic-imagination]] | 美好作品想象（惊喜是想象的重要目标之一） |
+| 父框架 | [[yt-model-pan-product-demand-toolkit]] | 需求工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

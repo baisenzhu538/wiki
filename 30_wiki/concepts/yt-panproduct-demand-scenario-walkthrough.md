@@ -75,11 +75,20 @@ reviewed_by: 黄药师
 
 卡片将造句范式作为核心视觉——三个空槽（细分用户/场景/真实问题）暗示"填空即设计"的极简操作模型。范式下方用箭头连接三个槽位，强调它们必须同时存在才有意义——缺任何一个要素，场景推演就会失效。"最简单"被刻意标注——暗示复杂方法论不如一个可执行的填空模板。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-demand-user-perspective]] — 用户视角（代入后才能推演场景）
-- [[yt-panproduct-demand-user-segmentation]] — 用户分层（先分层再分场景）
-- [[yt-panproduct-demand-need-discovery]] — 需求挖掘（场景推演后的深层追问）
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 36计总框架
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-demand-user-perspective]] | 用户视角（代入后才能推演场景） |
+| 相关工具 | [[yt-panproduct-demand-user-segmentation]] | 用户分层（先分层再分场景） |
+| 相关工具 | [[yt-panproduct-demand-need-discovery]] | 需求挖掘（场景推演后的深层追问） |
+| 父框架 | [[yt-model-pan-product-demand-toolkit]] | 需求工具箱总指南 |
+| 上层框架 | [[yt-model-pan-product-36-strategies]] | 36计总框架 |
+| 实体页 | [[一堂]] | 一堂实体页 |

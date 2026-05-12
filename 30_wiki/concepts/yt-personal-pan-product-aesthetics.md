@@ -80,14 +80,22 @@ reviewed_by: 黄药师
 
 ## Constraints & Boundaries
 
-1. **"有审美就不用教方法"可能过度简化**：审美建立品味方向，但从"知道什么是好"到"能做出好"中间还有巨大的执行鸿沟——需要需求洞察和落地打磨能力配合。
+- claim:boundary-01 [conf=0.80] **"有审美就不用教方法"可能过度简化**：审美建立品味方向，但从"知道什么是好"到"能做出好"中间还有巨大的执行鸿沟——需要需求洞察和落地打磨能力配合。
 
-2. **审美训练的时间尺度被低估**：Truman 自己用了十年才建立跨领域的审美判断力，课程中给学员的路径（收集→建池→建模→想象）每一步都可能需要以年为单位。
+- claim:boundary-02 [conf=0.80] **审美训练的时间尺度被低估**：Truman 自己用了十年才建立跨领域的审美判断力，课程中给学员的路径（收集→建池→建模→想象）每一步都可能需要以年为单位。
+
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
 
 ## Synthesis
 
-- [[yt-model-pan-product-aesthetic-toolkit]] — 审美工具箱4张卡牌详解
-- [[yt-model-pan-product-36-strategies]] — 36计总框架
-- [[yt-personal-pan-product-concepts]] — 认知篇（三大修养概述）
-- [[yt-model-liberate-thinking-layers]] — 解放思想层级（审美提升对应L1→L3的跃迁）
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-model-pan-product-aesthetic-toolkit]] | 审美工具箱4张卡牌详解 |
+| 上层框架 | [[yt-model-pan-product-36-strategies]] | 36计总框架 |
+| 相关工具 | [[yt-personal-pan-product-concepts]] | 认知篇（三大修养概述） |
+| 关联框架 | [[yt-model-liberate-thinking-layers]] | 解放思想层级（审美提升对应L1→L3的跃迁） |
+| 实体页 | [[一堂]] | 一堂实体页 |

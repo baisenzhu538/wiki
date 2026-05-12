@@ -70,10 +70,19 @@ reviewed_by: 黄药师
 
 卡片呈现一个"内核+外环边界"的同心圆视觉——内核被保护在中心，边界作为外环划定范围。这种空间隐喻直接传达了"先定内核再划边界"的操作顺序——边界的存在是为了保护内核不被稀释。混沌的外部环境被画在边界之外，暗示"边界之外的东西不需要处理"。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-execution-logic-mece]] — 逻辑MECE（厘清边界后的结构化拆解）
-- [[yt-panproduct-execution-management-trilogy]] — 管理三段论（目标对应内核）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 36计总框架
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-execution-logic-mece]] | 逻辑MECE（厘清边界后的结构化拆解） |
+| 相关工具 | [[yt-panproduct-execution-management-trilogy]] | 管理三段论（目标对应内核） |
+| 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
+| 上层框架 | [[yt-model-pan-product-36-strategies]] | 36计总框架 |
+| 实体页 | [[一堂]] | 一堂实体页 |

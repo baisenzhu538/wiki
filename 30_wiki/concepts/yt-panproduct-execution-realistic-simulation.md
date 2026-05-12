@@ -73,10 +73,19 @@ reviewed_by: 黄药师
 
 卡片用"假场景 vs 真场景"的对比结构——左侧是三个典型错误（电脑/飞书/电子版），右侧是正确做法。这个对比暗示仿真不是"尽力就好"而是"必须做到"——因为假场景会系统性地隐藏问题。"100%仿真"被刻意强调——暗示这不是程度问题而是原则问题。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-execution-low-cost-mvp]] — 低成本测试MVP（MVP也需要在仿真环境中测试）
-- [[yt-panproduct-execution-design-principles]] — 设计原则（原则需要在真实场景中验证）
-- [[yt-panproduct-demand-scenario-walkthrough]] — 场景推演（仿真就是场景推演的执行版）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-execution-low-cost-mvp]] | 低成本测试MVP（MVP也需要在仿真环境中测试） |
+| 相关工具 | [[yt-panproduct-execution-design-principles]] | 设计原则（原则需要在真实场景中验证） |
+| 相关工具 | [[yt-panproduct-demand-scenario-walkthrough]] | 场景推演（仿真就是场景推演的执行版） |
+| 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

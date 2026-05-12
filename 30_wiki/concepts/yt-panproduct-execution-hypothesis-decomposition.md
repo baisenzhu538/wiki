@@ -70,10 +70,19 @@ reviewed_by: 黄药师
 
 卡片将假设拆解呈现为"加法→减法→验证→迭代"的循环——暗示假设管理不是一次性动作而是持续循环。"贝叶斯定理"被标注在迭代环节——暗示假设更新不是随意改变而是有数学逻辑支撑的概率更新。"坚持/调整/放弃"三个选项并列——暗示验证结果只有三种可能，不需要犹豫。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-entrepreneur-five-step-method]] — 五步法（关键假设对应五步法第3步）
-- [[yt-panproduct-execution-10x-validation]] — 十倍速验证（验证假设的具体方法）
-- [[yt-panproduct-execution-low-cost-mvp]] — 低成本测试MVP（验证假设的MVP武器库）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联 | [[yt-entrepreneur-five-step-method]] | 五步法（关键假设对应五步法第3步） |
+| 相关工具 | [[yt-panproduct-execution-10x-validation]] | 十倍速验证（验证假设的具体方法） |
+| 相关工具 | [[yt-panproduct-execution-low-cost-mvp]] | 低成本测试MVP（验证假设的MVP武器库） |
+| 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

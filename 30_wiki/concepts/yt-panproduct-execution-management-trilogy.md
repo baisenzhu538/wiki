@@ -71,10 +71,19 @@ reviewed_by: 黄药师
 
 卡片用"目标→路径→资源"的单向箭头链作为核心视觉——暗示三者有严格的顺序逻辑（不能跳过目标讨论路径，不能跳过路径讨论资源）。三个要素呈递进关系而非并列，形成"为什么→怎么做→需要什么"的完整推理链。箭头的单向性也暗示：如果资源不够，应该回头调整路径或目标，而不是硬凑。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-execution-core-and-boundary]] — 内核和边界（目标即内核的具体表达）
-- [[yt-panproduct-execution-milestone-breakdown]] — 里程碑拆解（路径拆解的具体方法）
-- [[yt-panproduct-execution-roi-analysis]] — ROI分析（资源维度的定量评估）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-execution-core-and-boundary]] | 内核和边界（目标即内核的具体表达） |
+| 相关工具 | [[yt-panproduct-execution-milestone-breakdown]] | 里程碑拆解（路径拆解的具体方法） |
+| 相关工具 | [[yt-panproduct-execution-roi-analysis]] | ROI分析（资源维度的定量评估） |
+| 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

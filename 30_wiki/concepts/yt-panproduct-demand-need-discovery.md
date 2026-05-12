@@ -74,10 +74,19 @@ reviewed_by: 黄药师
 
 卡片用"表层→深层"的垂直纵深来暗示挖掘的方向——从水面之上的可见需求向下钻探到水下隐藏的动机。"追问为什么"被呈现为一把向下挖掘的铲子——暗示工具性（有方法可循而非靠直觉）。马斯洛需求层级被用作垂直参照系——需求越深层，越接近马斯洛的底层（生存/安全）。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-demand-scenario-walkthrough]] — 场景推演（场景化后更容易追问深层需求）
-- [[yt-panproduct-demand-user-perspective]] — 用户视角（代入后才能发现真实动机）
-- [[yt-personal-y-model-practice]] — Y模型实操（从现象到本质的追问逻辑）
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-demand-scenario-walkthrough]] | 场景推演（场景化后更容易追问深层需求） |
+| 相关工具 | [[yt-panproduct-demand-user-perspective]] | 用户视角（代入后才能发现真实动机） |
+| 关联 | [[yt-personal-y-model-practice]] | Y模型实操（从现象到本质的追问逻辑） |
+| 父框架 | [[yt-model-pan-product-demand-toolkit]] | 需求工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

@@ -71,10 +71,19 @@ reviewed_by: 黄药师
 
 卡片呈现三个视角维度的并列结构——暗示它们是三面"镜子"，同一产品在不同镜子里反射出不同问题。三个维度从上到下从抽象（内外视角）到具体（决策/使用），形成一种"先宏观后微观"的思考递进。"综合权衡，统一取舍"被强调——暗示收集多视角只是第一步，真正的能力在"统一取舍"（做出跨视角的权衡决策）。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-demand-project-background]] — 项目背景分析（多视角的8维度结构化版）
-- [[yt-panproduct-demand-user-segmentation]] — 用户分层（按角色分层是多视角的子集）
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱总指南
-- [[yt-model-pan-product-36-strategies]] — 36计总框架
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-demand-project-background]] | 项目背景分析（多视角的8维度结构化版） |
+| 相关工具 | [[yt-panproduct-demand-user-segmentation]] | 用户分层（按角色分层是多视角的子集） |
+| 父框架 | [[yt-model-pan-product-demand-toolkit]] | 需求工具箱总指南 |
+| 上层框架 | [[yt-model-pan-product-36-strategies]] | 36计总框架 |
+| 实体页 | [[一堂]] | 一堂实体页 |

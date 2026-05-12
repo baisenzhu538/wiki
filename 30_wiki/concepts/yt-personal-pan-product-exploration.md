@@ -79,13 +79,21 @@ Truman 分享了一堂产品与同行"完全找不到对标"的原因：
 
 ## Constraints & Boundaries
 
-1. **"手电筒模型"的传播效率存疑**：探索营定位为启发而非教程，但启发式教学的效果高度依赖学员自身的认知基础——没有产品基础的人可能只觉得"很厉害"但无法转化为行动。
+- claim:boundary-01 [conf=0.80] **"手电筒模型"的传播效率存疑**：探索营定位为启发而非教程，但启发式教学的效果高度依赖学员自身的认知基础——没有产品基础的人可能只觉得"很厉害"但无法转化为行动。
 
-2. **三项稀缺能力的可复制性不等**：五步法可标准化（已有课程体系），授课能力可训练（方法论+练习），但泛产品/创新能力是否能通过课程复制？Truman 自己也说"短期内估计挺难的"。
+- claim:boundary-02 [conf=0.80] **三项稀缺能力的可复制性不等**：五步法可标准化（已有课程体系），授课能力可训练（方法论+练习），但泛产品/创新能力是否能通过课程复制？Truman 自己也说"短期内估计挺难的"。
+
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
 
 ## Synthesis
 
-- [[yt-personal-pan-product-concepts]] — 认知篇（探索营的理论基础）
-- [[yt-personal-pan-product-tools]] — 工具篇（探索营之后的落地）
-- [[yt-model-pan-product-36-strategies]] — 36计总框架
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-personal-pan-product-concepts]] | 认知篇（探索营的理论基础） |
+| 相关工具 | [[yt-personal-pan-product-tools]] | 工具篇（探索营之后的落地） |
+| 上层框架 | [[yt-model-pan-product-36-strategies]] | 36计总框架 |
+| 实体页 | [[一堂]] | 一堂实体页 |

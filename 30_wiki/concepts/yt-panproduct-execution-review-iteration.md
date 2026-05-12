@@ -71,10 +71,19 @@ reviewed_by: 黄药师
 
 卡片使用冰山图作为核心视觉——水面之上是"主观感受"（可见但浅层），水面之下依次是客观事实→背后原因→底层模型→能力建设（越深越不可见但越有价值）。每向下一层标注一个"飞跃"——暗示每层之间存在质的跳跃而非量的积累。最深处的"能力建设"被标注为终极目标——复盘的终点不是找到原因而是内化为能力。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-model-deep-review-iceberg]] — 深度复盘冰山图（完整的五层方法论）
-- [[yt-panproduct-execution-milestone-breakdown]] — 里程碑拆解（每完成一个里程碑复盘一次）
-- [[yt-model-deliberate-practice-growth]] — 刻意练习成长指数（复盘是刻意练习的反馈环节）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-model-deep-review-iceberg]] | 深度复盘冰山图（完整的五层方法论） |
+| 相关工具 | [[yt-panproduct-execution-milestone-breakdown]] | 里程碑拆解（每完成一个里程碑复盘一次） |
+| 关联框架 | [[yt-model-deliberate-practice-growth]] | 刻意练习成长指数（复盘是刻意练习的反馈环节） |
+| 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

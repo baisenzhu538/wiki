@@ -76,10 +76,19 @@ reviewed_by: 黄药师
 
 卡片用八个维度呈放射状或列表式排列——每个维度都是"现状 vs 目标"的落差对比。八个维度从上到下按"宏观→中观→微观→个人"排序：战略/商业/市场是宏观外部，目标/用户是中观产品，效率/成长是微观团队，老板是个人决策层。"落差"一词被反复强调——暗示项目背景分析不是"描述现状"而是"识别缺口"，缺口就是设计机会。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-demand-user-perspective]] — 用户视角（微观代入，与项目背景的宏观分析互补）
-- [[yt-panproduct-demand-multi-perspective]] — 多视角思考（项目背景是8维度结构化版）
-- [[yt-panproduct-demand-industry-canvas]] — 行业分析画布（市场维度的展开版）
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-demand-user-perspective]] | 用户视角（微观代入，与项目背景的宏观分析互补） |
+| 相关工具 | [[yt-panproduct-demand-multi-perspective]] | 多视角思考（项目背景是8维度结构化版） |
+| 相关工具 | [[yt-panproduct-demand-industry-canvas]] | 行业分析画布（市场维度的展开版） |
+| 父框架 | [[yt-model-pan-product-demand-toolkit]] | 需求工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

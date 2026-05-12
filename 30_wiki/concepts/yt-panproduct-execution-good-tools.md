@@ -72,9 +72,18 @@ reviewed_by: 黄药师
 
 卡片将工具按精度从低到高排列——手绘→低保真→高保真，形成一条"从粗糙到精细"的工具光谱。AI工具被单独列为新类别，暗示AI是工具矩阵中的新维度（不是替代旧工具而是扩展可能性）。"学习教程快速入门"被强调为元能力——工具本身会过时，但快速上手新工具的能力不过时。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-execution-low-cost-mvp]] — 低成本测试MVP（工具是低成本验证的支撑）
-- [[yt-panproduct-execution-realistic-simulation]] — 努力仿真（工具帮助提高仿真度）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-execution-low-cost-mvp]] | 低成本测试MVP（工具是低成本验证的支撑） |
+| 相关工具 | [[yt-panproduct-execution-realistic-simulation]] | 努力仿真（工具帮助提高仿真度） |
+| 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

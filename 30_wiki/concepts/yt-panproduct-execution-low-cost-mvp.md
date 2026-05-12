@@ -73,10 +73,19 @@ reviewed_by: 黄药师
 
 卡片将MVP武器库从左到右排列——成本依次递增，形成一条"成本光谱"。最左侧"不做产品"被标红或强调——暗示最容易被忽视的选项是"不做产品也能验证"。从左到右的箭头暗示存在"最佳停靠点"——在验证目标达到后就应该停止向右移动，而不是惯性推进到全量开发。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-execution-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-panproduct-execution-10x-validation]] — 十倍速验证（MVP是十倍速验证的具体执行）
-- [[yt-panproduct-execution-hypothesis-decomposition]] — 假设拆解（先拆解假设再选MVP层级）
-- [[yt-entrepreneur-five-step-method]] — 五步法（精益验证对应五步法第4步）
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 相关工具 | [[yt-panproduct-execution-10x-validation]] | 十倍速验证（MVP是十倍速验证的具体执行） |
+| 相关工具 | [[yt-panproduct-execution-hypothesis-decomposition]] | 假设拆解（先拆解假设再选MVP层级） |
+| 关联 | [[yt-entrepreneur-five-step-method]] | 五步法（精益验证对应五步法第4步） |
+| 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |

@@ -69,10 +69,19 @@ reviewed_by: 黄药师
 
 卡片以五步法画布为视觉核心——五个横向排列的步骤从左到右展开，从需求到壁垒形成"问题→方案→模型→放大→防守"的递进逻辑。价值假设（前三步）和增长假设（后两步）用颜色或标记区分——暗示两个假设的验证顺序不同：先验证价值再做增长。每个步骤都是一个"提问框"而非"答案框"——暗示五步法的核心功能是"提出正确的问题"而非"找到快速答案"。
 
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-pan-product-demand-toolkit]] — 所属工具箱总指南
+- [[yt-model-pan-product-36-strategies]] — 泛产品36计总框架
+- [[yt-composite-pan-product-methodology]] — 泛产品设计方法论总纲
+
 ## Synthesis
 
-- [[yt-entrepreneur-five-step-method]] — 创业五步法（完整方法论）
-- [[yt-model-five-step-canvas]] — 五步法画布（画布工具版）
-- [[yt-model-prediction-model]] — 预判模型（五步法中的假设预判方法论）
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱总指南
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联 | [[yt-entrepreneur-five-step-method]] | 创业五步法（完整方法论） |
+| 关联框架 | [[yt-model-five-step-canvas]] | 五步法画布（画布工具版） |
+| 关联框架 | [[yt-model-prediction-model]] | 预判模型（五步法中的假设预判方法论） |
+| 父框架 | [[yt-model-pan-product-demand-toolkit]] | 需求工具箱总指南 |
+| 实体页 | [[一堂]] | 一堂实体页 |
