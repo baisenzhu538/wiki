@@ -159,6 +159,25 @@ reviewed_by: "黄药师"
 - [x] 体量合规：全部 ≤150 行
 - [x] 旧格式 headers 0 残留
 
+### ✅ Batch 2 完成 (2026-05-13 黄药师)
+
+22 张 yt-model-* 非 pan-product 框架卡全部升级完成。
+
+**Phase 1**: 12 张 PNG 从 00_inbox/ 归档到 10_raw/assets/yitang/，source_refs 全部迁移（10 张卡片，0 残留 00_inbox/）
+**Phase 2**: frontmatter 注入 agent-native 字段（type: framework, component_of: [], prerequisites: []）
+**Phase 3**: body 格式升级：
+- `[Condense]` → `Claims`（22/22）
+- `## Framework Gallery` 新增（22/22）
+- `## Synthesis` 表格式转换（22/22）
+- `claim:boundary-NN` 格式转换（1/1 有 Critique 的卡）
+- 旧格式 headers 0 残留
+
+**质量门禁**:
+- [x] `grep '"00_inbox' yt-model-*.md` → 0 hits
+- [x] kdo lint: 0 errors, 305 warnings（全部存量）
+- [x] 22/22 卡有 `id:`、`query_triggers:`、`estimated_tokens:`
+- [x] 22/22 `type: framework`
+
 ## 质量门禁
 
 完成每个 Batch 后自查：
