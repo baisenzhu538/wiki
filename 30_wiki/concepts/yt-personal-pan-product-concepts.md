@@ -95,12 +95,12 @@ reviewed_by: 黄药师
 
 ## Synthesis
 
-### 关联卡片
-
-- [[yt-model-pan-product-36-strategies]] — 36计总框架
-- [[yt-model-pan-product-demand-toolkit]] — 需求工具箱
-- [[yt-model-pan-product-aesthetic-toolkit]] — 审美工具箱
-- [[yt-model-pan-product-execution-toolkit]] — 落地工具箱
-- [[yt-model-pan-product-climbing-map]] — 十年爬山地图
-- [[yt-model-pan-product-three-virtues]] — 三大修养
-- [[一堂]] — 一堂实体页
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 上层框架 | [[yt-model-pan-product-36-strategies]] | 36计总框架 |
+| 关联框架 | [[yt-model-pan-product-demand-toolkit]] | 需求工具箱 |
+| 关联框架 | [[yt-model-pan-product-aesthetic-toolkit]] | 审美工具箱 |
+| 关联框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱 |
+| 关联框架 | [[yt-model-pan-product-climbing-map]] | 十年爬山地图 |
+| 关联框架 | [[yt-model-pan-product-three-virtues]] | 三大修养 |
+| 实体页 | [[一堂]] | 一堂实体页
