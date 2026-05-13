@@ -124,10 +124,10 @@ query_triggers:
 
 ## 质量门禁
 
-- [ ] `grep 'source_refs: \[\]' 30_wiki/concepts/yt-*.md` → 0 hits
-- [ ] `grep '"00_inbox' 30_wiki/concepts/yt-*.md` → 0 hits（全局仅剩 paddleocr-skill.md）
-- [ ] 抽查 3 张 entrepreneur 卡 query_triggers → 全部真实搜索词
-- [ ] 抽查 3 张 personal 卡 query_triggers → 全部真实搜索词
+- [x] `grep 'source_refs: \[\]' 30_wiki/concepts/yt-*.md` → 0 hits
+- [x] `grep '"00_inbox' 30_wiki/concepts/yt-*.md` → 0 hits（全局仅剩 paddleocr-skill.md）
+- [x] 抽查 3 张 entrepreneur 卡 query_triggers → 全部真实搜索词
+- [x] 抽查 3 张 personal 卡 query_triggers → 全部真实搜索词
 - [x] 抽查 2 张 entrepreneur 卡 Constraints → 至少 1 条该工具特有边界
 
 ---
@@ -185,3 +185,52 @@ query_triggers:
 - kdo lint 的 350 warnings 全部来自非 yt 卡（调研报告、中文名文件）的历史问题
 - 管理域和系统域卡片的 query_triggers 未在本次 sprints 范围内（Sprint 9 范围限定 entrepreneur + personal non-panproduct）
 - 管理域和系统域卡片的 Constraints 未在本次 sprint 范围内
+
+---
+
+## 欧阳锋终审结论（2026-05-14）
+
+### 格式门禁
+
+| 门禁 | 结果 |
+|------|:--:|
+| `source_refs: []` yt-* 卡 | ✅ 0 hits（52 张已修） |
+| `00_inbox` yt-* 卡 | ✅ 0 hits |
+
+### 理解门禁：query_triggers 抽检
+
+| 卡 | 判定 | 点评 |
+|----|:--:|------|
+| `yt-entrepreneur-lean-validation` | ✅ | "低成本验证""MVP""精益创业""pivot决策"——全部真人会搜 |
+| `yt-entrepreneur-needs-analysis` | ✅ | "JTBD""拆推评算""六层冰山模型""四种力量模型"——精准 |
+| `yt-entrepreneur-five-step-method` | ✅ | "一堂五步法""科学创业""五步法框架"——干净 |
+| `yt-personal-ai-capability` | ✅ | "提示词工程""人机协同""如何与AI协作""提示词怎么写"——场景化搜索 |
+| `yt-personal-y-model-practice` | ⚠️ 偏弱 | 混入了"Y模型四最""核心动词"等内部术语，但核心检索词可用 |
+| `yt-personal-checklist-notes` | ✅ | "清单体笔记""销冠小抄""三阶清单体系""如何做笔记"——好 |
+
+**与 Sprint 6 对比**：Sprint 6 的 triggers 是 100% section headers 污染（"与一堂方法论的关系""关联卡片"），Sprint 9 修复后 5/6 全干净、1 张可接受。**质量跃升明显。**
+
+### 理解门禁：Constraints 抽检
+
+| 卡 | 新增 #4 constraint | 判定 |
+|----|-------------------|:--:|
+| `yt-entrepreneur-business-growth` | 增长方法论在 PMF 前失效——在错误方向加速，浪费验证窗口 | ✅ |
+| `yt-entrepreneur-scientific-method` | 可证伪性 × 时间窗口悖论——长周期判断验证赶不上机会窗口 | ✅ |
+
+两卡的新增 constraint 均满足三个信号：
+- 有具体场景（PMF 未确认 / 品牌+文化+技术路线验证以年为单位）
+- 有可验证的失败症状（增长数据短暂拉升后塌陷 / 等实验回来窗口已关）
+- 有替代方案或补救路径（退回五步法验证模块 / 标注低置信度+第一性原理补充）
+
+### 裁决
+
+**通过 ✅。** Sprint 9 三阶段全部完成，Sprint 6 遗留的三个质量问题已修复：
+- source_refs 空值：52 → 0
+- query_triggers 污染：31 张已重写，5/6 抽检 clean
+- Constraints 模板化：20 张各新增 1 条工具特有边界
+
+**未覆盖的已知残留**（不阻塞）：
+- 管理域/系统域 query_triggers 未重写（Sprint 9 范围限定 entrepreneur + personal）
+- 管理域/系统域 Constraints 未去模板化
+
+以上两项纳入后续 sprint 按需处理，不单独建任务。

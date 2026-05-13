@@ -1,5 +1,12 @@
 # Project Continuity
 
+## 2026-05-14：Sprint 9 通过
+
+- **[[sprint-9-cleanup-source-refs-query-triggers]]** → completed ✅。52 张 source_refs 空值归零，31 张 query_triggers 重写，20 张 Constraints 去模板化
+- **Sprint 6 遗留问题全部关闭**：KF-020 违规清零、triggers 污染清除、boilerplate Constraints 已各增特有边界
+- **质量对比**：Sprint 6 triggers 100% section headers 污染 → Sprint 9 5/6 clean。黄药师修正质量显著
+- **已知未覆盖**：管理域/系统域 triggers/Constraints 未处理（Sprint 9 范围外），后续按需
+
 ## 2026-05-13：Sprint 6 终审 + Sprint 8 通过 + Sprint 9 启动
 
 - **Sprint 6 终审**：格式升级通过 ✅，质量有条件通过 ⚠️。发现 57 张卡 `source_refs: []`（KF-020 违规，Phase 1 完成声明不实）、Batches 3-4 的 query_triggers 被自动提取污染、~20 张 entrepreneur 卡 Constraints 模板化
