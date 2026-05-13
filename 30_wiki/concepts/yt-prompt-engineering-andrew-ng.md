@@ -12,6 +12,26 @@ difficulty: intermediate
 confidence: 0.90
 source_of:
   - yt-model-prompt-engineering
+related:
+  - yt-model-ipo-learning-strategy
+  - yt-model-personal-pitch-toolkit
+  - yt-panproduct-demand-motivation-resistance
+  - yt-concept-weapon-arsenal
+  - yt-personal-scientific-expression
+contradicts: []
+query_triggers:
+  - 提示词
+  - 提示词工程
+  - prompt engineering
+  - 吴恩达
+  - AI合伙人
+  - 迭代式提示词
+  - 反谄媚
+  - AI头脑风暴
+  - AI写作
+  - 守脑如玉
+  - 上下文工程
+component_of: []
 source_refs:
   - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
   - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf

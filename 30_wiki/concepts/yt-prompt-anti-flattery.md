@@ -17,6 +17,17 @@ component_of:
 source_refs:
   - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
   - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
+query_triggers:
+  - 反谄媚
+  - AI迎合
+  - 确认偏误
+  - 反对者角色
+  - 交叉验证
+  - 去正向形容词
+  - 先问缺点
+  - 证伪实验
+  - 认知泡泡
+
 tags:
   - '#yitang'
   - '#ai'

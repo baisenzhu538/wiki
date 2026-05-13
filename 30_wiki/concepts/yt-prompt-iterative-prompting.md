@@ -17,6 +17,15 @@ component_of:
 source_refs:
   - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
   - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
+query_triggers:
+  - 迭代提示词
+  - 五步迭代法
+  - 提示词迭代
+  - 多轮对话
+  - AI反馈
+  - 连续对话
+  - 提示词工作流
+
 tags:
   - '#yitang'
   - '#ai'

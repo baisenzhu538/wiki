@@ -297,3 +297,65 @@ Synthesis 表四个跨域连接全部未写入 frontmatter。缺失字段：
 3. **技能层**：未编码。本应通过 Phase 2 的 `ai-deep-work` skill 和 `human-ai-collaboration-playbook` 完成——这正是延后项不能掉的原因。这两个产出不仅是为人类用户，也是为我自己和后续进入 vault 的 agent。
 
 **总结：概念上懂了，行为上在用但不系统，技能资产尚未产出。Phase 2 执行之时才算是真正的内化完成。**
+
+---
+
+## 交付报告：2026-05-13 第二轮（完整执行）
+
+### 执行时间线
+
+| 阶段 | 动作 | 状态 |
+|------|------|:--:|
+| Phase 0 | PDF提取(pymupdf) + txt归档 + 链接搜集 | ✅ |
+| Phase 1a | 创建 framework 卡 `yt-model-prompt-engineering` | ✅ |
+| Phase 1b | 创建 4 tool + 2 concept 子卡 | ✅ |
+| Phase 1c | 4张关联卡 `related` 更新 + 原概念卡降级为 course_notes | ✅ |
+| Phase 1c | 8张新卡 `query_triggers` 注入 | ✅ |
+| Phase 1c | 原概念卡补齐 `related`/`query_triggers`/`prerequisites`/`component_of`/`contradicts` | ✅ |
+| Phase 2 | `ai-deep-work` SKILL.md | ✅ |
+| Phase 2 | `human-ai-collaboration-playbook` | ✅ |
+| Phase 3 | kdo lint 0 errors | ✅ |
+| Phase 3 | KF-020 (grep 00_inbox) | ✅ |
+
+### 产出总表
+
+| # | 产出 | 路径 | 行数 |
+|---|------|------|:--:|
+| F | 提示词工程总框架 | `30_wiki/concepts/yt-model-prompt-engineering.md` | 122 |
+| T1 | 迭代式提示词工作流 | `30_wiki/concepts/yt-prompt-iterative-prompting.md` | 87 |
+| T2 | 反谄媚机制 | `30_wiki/concepts/yt-prompt-anti-flattery.md` | 98 |
+| T3 | AI头脑风暴工作流 | `30_wiki/concepts/yt-prompt-brainstorming.md` | 87 |
+| T4 | AI写作工作流 | `30_wiki/concepts/yt-prompt-writing-workflow.md` | 85 |
+| C1 | 守脑如玉 | `30_wiki/concepts/yt-concept-ai-guard-brain.md` | 85 |
+| C2 | 上下文工程 | `30_wiki/concepts/yt-concept-context-engineering.md` | 80 |
+| N | 课程笔记卡(降级) | `30_wiki/concepts/yt-prompt-engineering-andrew-ng.md` | ~110 |
+| A | 输出文章 | `40_outputs/content/articles/art_20260513_ai-prompting-for-entrepreneurs.md` | 187 |
+| S | AI深度工作法Skill | `40_outputs/capabilities/skills/ai-deep-work/SKILL.md` | 130 |
+| P | 人机协作操作手册 | `40_outputs/capabilities/workflows/human-ai-collaboration-playbook.md` | 140 |
+
+### 关联域图边更新
+
+| 卡片 | 新增 `related` |
+|------|---------------|
+| `yt-model-ipo-learning-strategy` | `yt-model-prompt-engineering` |
+| `yt-personal-scientific-expression` | `yt-model-prompt-engineering` |
+| `yt-concept-weapon-arsenal` | `yt-model-prompt-engineering` |
+| `yt-model-personal-pitch-toolkit` | `yt-model-prompt-engineering` |
+| `yt-prompt-engineering-andrew-ng` | `related`/`query_triggers`/`prerequisites`/`component_of`/`contradicts` 全补齐 |
+
+### 质量门禁
+
+| 门禁 | 结果 |
+|------|:--:|
+| KF-020 (grep 00_inbox → 空) | ✅ |
+| kdo lint error count | ✅ 0 errors (350 warnings 均为旧卡) |
+| query_triggers 覆盖 8 张新卡 | ✅ 54 个中文检索词 |
+| Phase 2 技能门禁: SKILL.md 含触发条件+工作流+失败模式 | ✅ |
+| Phase 2 技能门禁: playbook 含角色定义+5原则+5场景速查 | ✅ |
+| 每张 tool 卡 Constraints ≥ 2 条 | ✅ |
+
+### 欧阳锋待审项
+
+- [ ] 7 张新卡理解门禁（随机抽检 2 张 Constraints 节）
+- [ ] 2 个 capability 资产技能门禁审查
+- [ ] 终审：本轮 `domain-prompt-engineering-andre-ng` P0 任务是否 close

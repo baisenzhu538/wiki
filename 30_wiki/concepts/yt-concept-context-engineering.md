@@ -15,6 +15,15 @@ prerequisites:
 source_refs:
   - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
   - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
+query_triggers:
+  - 上下文工程
+  - 背景信息
+  - 充分不等于越多越好
+  - 信息干扰
+  - 脱敏处理
+  - 对话窗口隔离
+  - 复述验证
+
 tags:
   - '#yitang'
   - '#ai'

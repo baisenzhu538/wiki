@@ -17,6 +17,15 @@ component_of:
 source_refs:
   - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
   - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
+query_triggers:
+  - AI写作
+  - 大纲杠杆
+  - 逐段润色
+  - 写作工作流
+  - 内容空洞
+  - AI填充
+  - 自上而下构建
+
 tags:
   - '#yitang'
   - '#ai'

@@ -14,6 +14,17 @@ source_refs:
   - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
   - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
   - https://www.deeplearning.ai/courses/ai-prompting-for-everyone/
+query_triggers:
+  - 提示词工程
+  - 人机协作
+  - AI合伙人
+  - 七层工作流
+  - 范式转换
+  - AI管理
+  - 迭代提示词
+  - 反谄媚
+  - 上下文工程
+
 tags:
   - '#yitang'
   - '#ai'

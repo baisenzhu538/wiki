@@ -15,6 +15,16 @@ prerequisites:
 source_refs:
   - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
   - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
+query_triggers:
+  - 守脑如玉
+  - 四遍学习法
+  - AI依赖
+  - 大脑锋利
+  - AI体感
+  - 手写笔记
+  - 模型敏感度
+  - 学习内化
+
 tags:
   - '#yitang'
   - '#ai'
