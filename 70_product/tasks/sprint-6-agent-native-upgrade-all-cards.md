@@ -178,6 +178,25 @@ reviewed_by: "黄药师"
 - [x] 22/22 卡有 `id:`、`query_triggers:`、`estimated_tokens:`
 - [x] 22/22 `type: framework`
 
+### ✅ Batch 3 完成 (2026-05-13 黄药师)
+
+23 张 yt-entrepreneur-* 工具卡全部升级完成。
+
+**Phase 1**: 3 个 MD 口述稿从 00_inbox/ 归档到 10_raw/sources/，source_refs 路径迁移（sed 简单字符串替换，5 张卡片，0 残留 00_inbox/）
+**Phase 2**: frontmatter 注入 agent-native 字段（type: tool, status: enriched 升级了 3 张 draft 卡）
+**Phase 3**: body 格式升级：
+- `[Condense]` → `Claims`（23/23）
+- `## Framework Gallery` 新增（23/23）
+- `## Synthesis` 表格式转换（23/23）
+- `claim:boundary-NN` 格式转换（有 Critique 的卡）
+- 旧格式 headers 0 残留
+
+**质量门禁**:
+- [x] `grep '"00_inbox' yt-entrepreneur-*.md` → 0 hits
+- [x] kdo lint: 0 errors, 309 warnings（全部存量）
+- [x] 23/23 卡有 `id:`、`query_triggers:`、`estimated_tokens:`
+- [x] 23/23 `type: tool`
+
 ## 质量门禁
 
 完成每个 Batch 后自查：
