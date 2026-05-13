@@ -204,12 +204,13 @@ Claims 覆盖：
 
 ### 3b. 格式门禁（机械检测，kdo lint 可自动覆盖）
 
-- [ ] `kdo lint` → 0 errors
-- [ ] 所有讲香域新卡 `source_refs` 指向 `10_raw/` 或 `10_raw/assets/yitang/`
-- [ ] 所有新卡 `related` 非空
-- [ ] `grep '"00_inbox' 30_wiki/concepts/yt-*.md` → 空
-- [ ] 旧卡 `yt-personal-sales-pitch-model` 已不复存在（被 framework 卡替换）
-- [ ] `yt-concept-weapon-arsenal.md` 的 Claims 覆盖至少 3 个跨域武器库实例
+- [x] `kdo lint` → 0 errors（340 warnings，全为旧卡和非 yt card，新卡零问题）
+- [x] 所有讲香域新卡 `source_refs` 指向 `10_raw/` 或 `10_raw/assets/yitang/`
+- [x] 所有新卡 `related` 非空（12/12 通过）
+- [x] `grep '"00_inbox' 30_wiki/concepts/yt-*.md` → 空（0 hits）
+- [x] 旧卡 `yt-personal-sales-pitch-model` 已不复存在（被 framework 卡替换）
+- [x] `yt-concept-weapon-arsenal.md` 的 Claims 覆盖至少 3 个跨域武器库实例（调研/表达/讲香）
+- [x] Framework card 的 Framework Gallery + Synthesis 已纳入全部 10 张 tool 卡
 
 ### 3c. 理解门禁（人工抽检，欧阳锋执行）
 
