@@ -117,8 +117,14 @@ reviewed_by: 黄药师
 ### 子工具卡
 - [[yt-pitch-scenarization]] — 场景化：向下具象第一指，基础层
 - [[yt-pitch-colloquialization]] — 口语化：向下具象第二指，进阶层
+- [[yt-pitch-quantification]] — 数字化：向下具象第三指，增强层
+- [[yt-pitch-storytelling]] — 故事化：向下具象第四指，奇效层
+- [[yt-pitch-materialization]] — 素材化：向下具象第五指，奇效层
 - [[yt-pitch-metaphor]] — 比喻化：向上抽象第一指，基础层
 - [[yt-pitch-aphorism]] — 金句化：向上抽象第二指，进阶层
+- [[yt-pitch-emotionalization]] — 情绪化：向上抽象第三指，增强层
+- [[yt-pitch-conflict]] — 冲突化：向上抽象第四指，奇效层
+- [[yt-pitch-sublimation]] — 升华化：向上抽象第五指，奇效层
 
 ### 关联框架
 - [[yt-personal-scientific-expression]] — 火箭模型：长表达的底层框架，与十指模型的短表达互补
@@ -133,8 +139,14 @@ reviewed_by: 黄药师
 |------|---------|------|
 | 子工具 | [[yt-pitch-scenarization]] | 场景化——具象化第一指（基础层） |
 | 子工具 | [[yt-pitch-colloquialization]] | 口语化——具象化第二指（进阶层） |
+| 子工具 | [[yt-pitch-quantification]] | 数字化——具象化第三指（增强层） |
+| 子工具 | [[yt-pitch-storytelling]] | 故事化——具象化第四指（奇效层） |
+| 子工具 | [[yt-pitch-materialization]] | 素材化——具象化第五指（奇效层） |
 | 子工具 | [[yt-pitch-metaphor]] | 比喻化——抽象化第一指（基础层） |
 | 子工具 | [[yt-pitch-aphorism]] | 金句化——抽象化第二指（进阶层） |
+| 子工具 | [[yt-pitch-emotionalization]] | 情绪化——抽象化第三指（增强层） |
+| 子工具 | [[yt-pitch-conflict]] | 冲突化——抽象化第四指（奇效层） |
+| 子工具 | [[yt-pitch-sublimation]] | 升华化——抽象化第五指（奇效层） |
 | 关联框架 | [[yt-personal-scientific-expression]] | 火箭模型——短表达vs长表达，共享底层逻辑 |
 | 关联框架 | [[yt-model-ipo-learning-strategy]] | IPO模型——讲香属输出环节L4-L5 |
 | 关联概念 | [[yt-concept-weapon-arsenal]] | 超级武器库——40战术速查的跨域元概念 |
