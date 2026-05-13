@@ -52,10 +52,8 @@ domain: personal
 
 五个 Phase：Phase 0（OCR）→ Phase 1（归档+武器库概念卡）→ Phase 2（Batch 1: framework + 4 tool + 关联更新）→ Phase 3（Batch 2: 6 tool + 质量门禁）。
 
-## 待用户最终确认
+## 用户确认 (2026-05-13)
 
-黄药师建议 + 我的修正 = 待用户（决策者）最终拍板的方案。三件可讨论：
+三件全部批准。拆分分两批、武器库独立成卡（master 域）、OCR 立即跑。
 
-1. **拆分分两批**：接受还是坚持一次性 10 张？
-2. **武器库独立成卡**：是否需要？放在 master 域还是 personal 域？
-3. **时序**：Phase 0 OCR 现在就跑？
+→ 指令书已下发：[[domain-xiang-jiang-deep-digestion]]，黄药师执行。
