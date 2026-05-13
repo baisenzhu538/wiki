@@ -1,96 +1,216 @@
 ---
 id: domain-xiang-jiang-deep-digestion
 title: "讲香域深度消化 + 架构重建"
-status: withdrawn
-
-## 撤回说明 (2026-05-13)
-
-用户指令：任务书撤回。黄药师先独立消化讲香域素材，提出自己的理解。之后欧阳锋、黄药师、用户三方讨论定架构。
+status: active
 priority: P0
 assigned_to: 黄药师
 architect: 欧阳锋
-domain: yitang
+domain: personal
 created: 2026-05-13
+updated: 2026-05-13
 ---
 
-## 背景
+## 三方讨论裁决 (2026-05-13 欧阳锋)
 
-新课"讲香基本功"（阿蕊老师口述）入仓。素材包括：
-- `00_inbox/一堂-个人修炼-讲香十指模型口述版.txt`（~33K tokens，100+ 案例）
-- `00_inbox/一堂-个人修炼-讲香十指模型-超级武器库.png`
-- `00_inbox/一堂-个人修炼-讲香基本功-十指模型修炼地图.png`
-- `00_inbox/一堂-个人修炼-讲香基本功.webp`
-- `00_inbox/一堂-个人修炼-表达力火箭模型-执行武器库.png`
+### 黄药师建议书概览
 
-经欧阳锋初判：现有 `yt-personal-sales-pitch-model` 的十指框架与新课内容**不一致**，需重写。
+见 [[new-course-讲香十指模型-消化建议书]]。核心结论：
 
-**本次不走纯机械 KDO 管线。先深度理解，再定架构，再执行。**
+- **旧卡框架错误已确认**：`yt-personal-sales-pitch-model` 的十指模型（价值构建/表达设计）与口述稿（向下具象/向上抽象）完全不同，需重写而非修补
+- **推荐方案 B**：1 framework + 10 tool 卡，参照 panproduct 拆分先例
+- **五阶段执行**：OCR → 归档 → 核心卡片 → 关联更新 → 质量门禁
 
-## Phase 1：深度消化（黄药师 + 欧阳锋各自完成）
+### 欧阳锋独立裁决
 
-### 必读材料
+**一致认同部分：**
 
-1. **完整口述稿**：`00_inbox/一堂-个人修炼-讲香十指模型口述版.txt`
-   - 重点段落：
-     - 价值 vs 价值感的概念区分（开头~200行）
-     - 十指模型的双手框架（~920-1050行）
-     - 十指逐一展开（~1140行起，每个手指的定义、案例、操作要点）
-     - 修炼路径与三个原则（~3400行起）
-   - 注意：口述稿有口语化重复，抓核心逻辑和案例即可
+1. ✅ 框架错误诊断正确——系统性重写，非补充更新
+2. ✅ 方案 B 方向正确——单卡无法承载 40 子策略 + 100+ 案例的密度
+3. ✅ 四层修炼路径中的"基础→进阶→增强→奇效"是天然的拆分依据
 
-2. **三张关键图**：
-   - 十指模型-超级武器库.png：双手十指的完整地图
-   - 十指修炼地图.png：从入门到精通的阶段路径
-   - 讲香基本功.webp：课程整体框架
+**补充/修正部分：**
 
-3. **现有相关卡**：
-   - [[yt-personal-sales-pitch-model]] —— 须重写的旧卡
-   - [[yt-personal-scientific-expression]] —— 表达力火箭模型
-   - [[yt-panproduct-execution-low-cost-mvp]] —— 十指讲香是落地卡之一
-   - [[yt-model-ipo-learning-strategy]] —— 讲香属于 IPO 输出环节
-   - [[yt-composite-pan-product-methodology]] —— 泛产品设计的表达维度
+4. **"超级武器库"需独立成卡**。黄药师将其仅视为速查表，但我判断它是一个跨域元概念——调研武器库、表达力执行武器库、讲香超级武器库共享相同结构特征（即查即用、实战验证、自由排列组合的战术集合）。需新建 `yt-concept-weapon-arsenal.md`（concept 类型），不附属于讲香域。
 
-### 消化要求
+5. **拆分分两批交付**，不是一次性 11 张卡。依据课程自身的四层路径：
 
-阅读后，用自己的话回答以下问题（不需要写入卡片，先在脑子里过）：
+| 批次 | 手指 | 卡片数 |
+|------|------|:----:|
+| Batch 1 | 场景化 + 比喻化（基础）+ 口语化 + 金句化（进阶） | 4 tool |
+| Batch 2 | 数字化 + 情绪化（增强）+ 故事化 + 素材化 + 冲突化 + 升华化（奇效） | 6 tool |
 
-1. 十指模型解决的核心问题是什么？（一句话）
-2. 左手和右手的本质区别是什么？为什么是"两只手"而不是"一张清单"？
-3. 每个手指的典型使用场景和反例（什么时候不该用这个手指）
-4. 十指模型和动力阻力模型（峰值/触点）是什么关系？
-5. 十指模型和表达力火箭模型是什么关系？（什么场景用哪个）
-6. "武器库"作为一个元概念，特征是什么？和"框架""工具箱"的区别？
+6. **关联域需补充三张卡**的 related 边：
 
-## Phase 2：架构决策（欧阳锋主导，黄药师参与）
+| 卡片 | 需补的 related 指向 |
+|------|-------------------|
+| `yt-panproduct-execution-low-cost-mvp` | 讲香 framework（十指是泛产品落地的表达工具） |
+| `yt-model-ipo-learning-strategy` | 讲香 framework（讲香属 IPO 输出环节 L4-L5） |
+| `yt-composite-pan-product-methodology` | 讲香 framework（泛产品设计的表达维度） |
 
-欧阳锋基于双方消化结果，输出以下决策：
+7. **Phase 0（OCR）立即执行**，不等后续讨论。OCR 提取的文字是后续卡片建设的原材料。
 
-1. **卡片拆分方案**：这个域需要几张卡？每张的类型和边界？
-2. **旧卡处置**：`yt-personal-sales-pitch-model` 是重写、废除还是降级？
-3. **与其他域的关系网**：哪些现有卡需要新增 `related` 边指向讲香域？
-4. **武器库元概念**：是否需要一张独立的 concept 卡来定义"武器库"？
+### 最终裁决
 
-决策写入本任务文件 `## Phase 2 架构决策` 节。
+| 决策项 | 裁决 |
+|--------|------|
+| 架构方案 | **方案 B**：1 framework + 10 tool，分两批交付 |
+| 武器库元概念 | **新增** `yt-concept-weapon-arsenal.md`（concept 类型，跨域） |
+| 旧卡处置 | **重写** `yt-personal-sales-pitch-model` 为 framework 卡，保留旧 Constraints 三条约 |
+| 关联域扩展 | 补充 panproduct execution、IPO、泛产品方法论三张卡 |
+| 命名规范 | `yt-model-personal-pitch-toolkit`（framework）+ `yt-pitch-{strategy-en}`（tool），照黄药师提议 |
+| OCR | **立即执行**，进入 Phase 0 |
 
-## Phase 3：KDO 管线执行（黄药师执行）
+---
 
-基于 Phase 2 架构决策：
+## Phase 0：OCR 提取（立即执行，不等批）
 
-1. 归档素材到 `10_raw/`（`kdo ingest`）
-2. 按决策方案创建/更新卡片（三步编译法：Claims → Constraints → Synthesis）
-3. 更新受影响卡片的图边
-4. 验证：所有 source_refs 指向 10_raw/，新旧卡无 contradiction
+```
+处理四张图：
+- 00_inbox/一堂-个人修炼-讲香十指模型-超级武器库.png → OCR
+- 00_inbox/一堂-个人修炼-讲香基本功-十指模型修炼地图.png → OCR
+- 00_inbox/一堂-个人修炼-表达力火箭模型.png → OCR
+- 00_inbox/一堂-个人修炼-表达力火箭模型-执行武器库.png → OCR
+```
 
-## Phase 4：审查（欧阳锋）
+命令参考：
+```powershell
+# 逐张提取
+node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs "C:\Users\Administrator\Desktop\wiki\00_inbox\一堂-个人修炼-讲香十指模型-超级武器库.png"
+node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs "C:\Users\Administrator\Desktop\wiki\00_inbox\一堂-个人修炼-讲香基本功-十指模型修炼地图.png"
+node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs "C:\Users\Administrator\Desktop\wiki\00_inbox\一堂-个人修炼-表达力火箭模型.png"
+node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs "C:\Users\Administrator\Desktop\wiki\00_inbox\一堂-个人修炼-表达力火箭模型-执行武器库.png"
+```
 
-重点检查：
-- 新旧卡之间无事实冲突
-- 十指模型的 Claims 准确反映口述稿内容
-- 图边完整，agent 可沿 related 边在讲香、表达、IPO、泛产品四个域间跳转
+产出：4 个 `*_paddle_ocr.txt` 文件在图片同目录。
+
+---
+
+## Phase 1：文件归档 + 武器库概念卡
+
+### 1a. kdo ingest
+
+```bash
+# 口述版归档
+kdo ingest --kind source "00_inbox/一堂-个人修炼-讲香十指模型口述版.txt"
+```
+
+### 1b. 图片归档
+
+```
+00_inbox/*.png + *.webp → 10_raw/assets/yitang/
+```
+
+### 1c. 新建武器库元概念卡
+
+```yaml
+id: yt-concept-weapon-arsenal
+title: 超级武器库（元概念）
+type: concept
+domain: master
+```
+
+Claims 至少覆盖：
+- 武器库的定义特征（即查即用、实战验证、排列组合）
+- 武器库 vs 框架（framework）vs 工具箱（toolkit）的区分
+- 跨域实例列举（讲香、表达、调研、需求）
+- 构建武器库的方法论（从"学一个方法"到"建一个武器库"）
+
+### 1d. 验证
+
+```bash
+grep -r '"00_inbox' 30_wiki/concepts/yt-*.md  # → 空
+```
+
+---
+
+## Phase 2：核心卡片建设（Batch 1）
+
+### 2a. Framework 卡
+
+重写 `yt-personal-sales-pitch-model.md` 为 framework 卡：
+
+```yaml
+id: yt-model-personal-pitch-toolkit
+title: 十指讲香模型（框架）
+type: framework
+domain: personal
+prerequisites:
+  - yt-model-ipo-learning-strategy
+component_of:
+  - yt-model-personal-map
+related:
+  - yt-personal-scientific-expression
+  - yt-concept-weapon-arsenal
+  - yt-panproduct-execution-low-cost-mvp
+```
+
+Claims 覆盖：
+- 核心问题：价值 vs 价值感
+- 双手框架：左手具象化（5指）+ 右手抽象化（5指）
+- 三大原则：卖点优先、持续修改、先慢后快
+- 四层修炼路径
+- 与火箭模型的关系（短表达 vs 长表达）
+- 与动力阻力模型的关系（讲香服务于动力阻力，卖点找歪全白费）
+- 从旧卡迁移三条 Constraints
+
+### 2b. 四张 Tool 卡（Batch 1：基础+进阶层）
+
+| ID | Title | 域 |
+|----|-------|-----|
+| `yt-pitch-scenarization` | 讲香·场景化 | personal |
+| `yt-pitch-colloquialization` | 讲香·口语化 | personal |
+| `yt-pitch-metaphor` | 讲香·比喻化 | personal |
+| `yt-pitch-aphorism` | 讲香·金句化 | personal |
+
+每张 tool 卡结构：
+- `prerequisites: [yt-model-personal-pitch-toolkit]`
+- `component_of: [yt-model-personal-pitch-toolkit]`
+- Claims：定义 + 4 子策略 + 2-3 精选案例 + 何时不该用这个手指
+- Constraints：1-2 条边界条件
+
+### 2c. 更新受影响卡片
+
+| 卡片 | 操作 |
+|------|------|
+| `yt-personal-sales-pitch-model` (旧) | 已被 2a 重写覆盖 |
+| `yt-personal-scientific-expression` | 补充火箭模型两张新图到 source_refs 和 body（如 OCR 提取了有价值文字则追加） |
+| `yt-model-personal-map` | `related` 新增 `yt-model-personal-pitch-toolkit` |
+| `yt-panproduct-execution-low-cost-mvp` | `related` 新增 `yt-model-personal-pitch-toolkit` |
+| `yt-model-ipo-learning-strategy` | `related` 新增 `yt-model-personal-pitch-toolkit` |
+| `yt-composite-pan-product-methodology` | `related` 新增 `yt-model-personal-pitch-toolkit` |
+
+---
+
+## Phase 3：Batch 2 + 质量门禁
+
+### 3a. 六张 Tool 卡（Batch 2：增强+奇效层）
+
+| ID | Title |
+|----|-------|
+| `yt-pitch-quantification` | 讲香·数字化 |
+| `yt-pitch-emotionalization` | 讲香·情绪化 |
+| `yt-pitch-storytelling` | 讲香·故事化 |
+| `yt-pitch-materialization` | 讲香·素材化 |
+| `yt-pitch-conflict` | 讲香·冲突化 |
+| `yt-pitch-sublimation` | 讲香·升华化 |
+
+### 3b. 质量门禁
+
+- [ ] `kdo lint` → 0 errors
+- [ ] 所有讲香域新卡 `source_refs` 指向 `10_raw/` 或 `10_raw/assets/yitang/`
+- [ ] 所有新卡 `related` 非空
+- [ ] `grep '"00_inbox' 30_wiki/concepts/yt-*.md` → 空
+- [ ] 旧卡 `yt-personal-sales-pitch-model` 已不复存在（被 framework 卡替换）
+- [ ] `yt-concept-weapon-arsenal.md` 的 Claims 覆盖至少 3 个跨域武器库实例
+- [ ] 欧阳锋终审通过
+
+---
 
 ## 完成信号
 
-- 讲香域卡片全部通过质量门禁
-- `yt-personal-sales-pitch-model` 已处置（重写/废除/降级）
-- 相关域卡片图边已更新
+- 讲香域：1 framework + 10 tool + 1 武器库概念卡，全部通过质量门禁
+- 旧卡已替换
+- 关联域的 6 张卡片图边已更新
+- 火箭模型两张新图已归档并补充到 `yt-personal-scientific-expression`
+- 原文素材全部归档 `10_raw/`
 - 欧阳锋终审通过
