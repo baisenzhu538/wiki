@@ -103,3 +103,32 @@
 2. 理解门禁标准写入任务文件（见 `domain-xiang-jiang-deep-digestion.md` Phase 3c）
 3. 新域卡片建设前，先抽检两张旧卡做校准——让 builder 看到"格式完整但思维空洞"的真实样本，形成质量标尺后再开工
 4. 关联任务：[[calibration-understanding-gate-motivation-peakend]]
+
+---
+
+## C-9. 批处理脚本提取 frontmatter 字段产生语义垃圾
+
+**时间：** 2026-05-13
+**报告人：** 欧阳锋（Sprint 6 终审发现）
+**症状：** Batches 3-4（entrepreneur + personal 卡）的 `query_triggers` 包含大量无意义的 section headers 和 critique 句子：
+
+```
+query_triggers:
+  - 与一堂方法论的关系          ← 文章段落名，没人会搜
+  - 从知道到做到的鸿沟          ← critique 句子，没人会搜
+  - 核心定位                   ← 通用标签
+  - 关联卡片                   ← 导航词
+  - 学习建议                   ← 文章结构名
+  - 方法论的前提假设需要检验     ← critique 句子
+```
+
+真正能用的 trigger 只有工具名本身（"融资认知"）——但被淹没在一堆垃圾词里。
+
+**根因：** 脚本规则是"提取所有 `### ` 级标题作为 query_triggers"。这个规则在 panproduct 卡上碰巧可用（标题本身就是方法名："惊喜公式""五要素模型"），但在 entrepreneur/personal 卡上，标题是文章结构标记和 critique 文本——脚本不区分语义，全量灌入。
+
+**本质是 C-8 的另一个变体**：批处理输出在格式上合法（字段非空、格式正确、lint 通过），但语义上是垃圾。格式门禁完全检测不到——只有人读了内容才能判断"这个词不会有人搜"。
+
+**修正：**
+1. `query_triggers` 字段**禁止脚本自动提取**。必须手动写 5-10 个真实用户会输入的中文搜索词
+2. 验证方法：欧阳锋抽检 3 张卡，每条 trigger 问"你会这样搜吗？"——有一条答不上来就返工
+3. 关联原则：见 `operating-principles.md` 第 7 条
