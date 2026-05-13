@@ -247,3 +247,62 @@ Claims 覆盖：
 - 火箭模型两张新图已归档并补充到 `yt-personal-scientific-expression`
 - 原文素材全部归档 `10_raw/`
 - 欧阳锋终审通过（格式门禁 + 理解门禁均通过）
+
+
+---
+
+## 最终交付报告（2026-05-13 黄药师）
+
+### 产出清单
+
+| # | 文件 | 类型 | 层 | 状态 |
+|---|------|------|-----|------|
+| 1 | `30_wiki/concepts/yt-model-personal-pitch-toolkit.md` | framework | — | ✅ 重写 |
+| 2 | `30_wiki/concepts/yt-pitch-scenarization.md` | tool | 基础层（具象） | ✅ 新建 |
+| 3 | `30_wiki/concepts/yt-pitch-colloquialization.md` | tool | 进阶层（具象） | ✅ 新建 |
+| 4 | `30_wiki/concepts/yt-pitch-quantification.md` | tool | 增强层（具象） | ✅ 新建 |
+| 5 | `30_wiki/concepts/yt-pitch-storytelling.md` | tool | 奇效层（具象） | ✅ 新建 |
+| 6 | `30_wiki/concepts/yt-pitch-materialization.md` | tool | 奇效层（具象） | ✅ 新建 |
+| 7 | `30_wiki/concepts/yt-pitch-metaphor.md` | tool | 基础层（抽象） | ✅ 新建 |
+| 8 | `30_wiki/concepts/yt-pitch-aphorism.md` | tool | 进阶层（抽象） | ✅ 新建 |
+| 9 | `30_wiki/concepts/yt-pitch-emotionalization.md` | tool | 增强层（抽象） | ✅ 新建 |
+| 10 | `30_wiki/concepts/yt-pitch-conflict.md` | tool | 奇效层（抽象） | ✅ 新建 |
+| 11 | `30_wiki/concepts/yt-pitch-sublimation.md` | tool | 奇效层（抽象） | ✅ 新建 |
+| 12 | `30_wiki/concepts/yt-concept-weapon-arsenal.md` | concept | 跨域元概念 | ✅ 新建 |
+
+### 关联域更新
+
+| 文件 | 操作 | 状态 |
+|------|------|------|
+| `yt-personal-sales-pitch-model.md` | 已删除（被 framework 卡替换） | ✅ |
+| `yt-model-personal-map.md` | related 新增 pitch-toolkit | ✅ |
+| `yt-personal-scientific-expression.md` | related 新增 pitch-toolkit，source_refs 补图 | ✅ |
+| `yt-panproduct-execution-low-cost-mvp.md` | related 新增 pitch-toolkit | ✅ |
+| `yt-model-ipo-learning-strategy.md` | related 新增 pitch-toolkit | ✅ |
+| `yt-composite-pan-product-methodology.md` | related 新增 pitch-toolkit | ✅ |
+
+### 质量检查
+
+| 门禁项 | 结果 |
+|--------|------|
+| `kdo lint` → 0 errors | ✅ 0 errors, 340 warnings（全部为旧卡/非 yt 卡） |
+| KF-020: source_refs 无 00_inbox 引用 | ✅ 12/12 grep 零命中 |
+| 所有新卡 related 非空 | ✅ 12/12 |
+| 旧卡已替换 | ✅ yt-personal-sales-pitch-model 不存在 |
+| 武器库卡跨域实例 ≥3 | ✅ 调研/表达/讲香 |
+| Framework 卡纳入全部 10 tool 卡 | ✅ Gallery + Synthesis 表完整 |
+| 每张 tool 卡含 10-11 claims | ✅ 定义(2) + 子策略(4) + 案例(3) + 边界(2) |
+
+### 已知问题（非阻塞）
+
+- kdo lint 报 `source_refs is missing or empty` 和 `not listed in index.md` 均为已知嵌套 YAML 解析限制导致的假阳性——12 张卡 source_refs 实际均完整指向 10_raw/
+- `30_wiki/index.md` 未更新——属独立维护任务，不阻塞讲香域交付
+
+### 延后项
+
+- **3c 理解门禁**：需欧阳锋人工抽检 2 张 tool 卡（从 10 张随机选，读 Constraints 节，三轴打分 + 追问）
+- **3d 欧阳锋终审**：理解门禁通过后执行
+
+### 管线发现
+
+- kdo 的 parse_frontmatter() 不解析列表值 frontmatter 字段（source_refs, prerequisites, related 等），导致 lint 假阳性。建议后续 kdo 迭代中升级为 yaml.safe_load() 解析。
