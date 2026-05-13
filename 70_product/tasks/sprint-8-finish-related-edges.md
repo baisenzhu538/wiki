@@ -1,7 +1,7 @@
 ---
 id: sprint-8-finish-related-edges
 title: "Sprint 8：完成 panproduct 图边 + 收尾 00_inbox"
-status: in_progress
+status: completed
 priority: P0
 assigned_to: 黄药师
 reviewer: 欧阳锋
@@ -79,4 +79,32 @@ Sprint 8 = Sprint 7 的精确重做，不扩范围。
 - [ ] `grep 'related: \[\]' 30_wiki/concepts/yt-panproduct-*.md` 返回空
 - [ ] `grep 'related: \[\]' 30_wiki/concepts/yt-personal-pan-product-*.md` 返回空
 - [ ] `grep '"00_inbox' 30_wiki/concepts/yt-management-*.md` 返回空
-- [ ] 所有 `related` 条目指向实际存在的卡片（抽查 5 张）
+- [x] 所有 `related` 条目指向实际存在的卡片（抽查 5 张）
+
+---
+
+## ✅ Sprint 8 完成 (2026-05-13 黄药师)
+
+### Phase 1: related 边填充
+
+| 群组 | 数量 | 结果 |
+|------|:----:|------|
+| `yt-panproduct-demand-*` | 11 | 11/11 已填，共 28 edges |
+| `yt-panproduct-aesthetic-*` | 4 | 4/4 已填，共 11 edges |
+| `yt-panproduct-execution-*` | 18 | 18/18 已填，共 46 edges |
+| `yt-personal-pan-product-*` | 6 | 6/6 已填，共 20 edges |
+| **合计** | **39** | **38 filled (1 already done), 105 edges** |
+
+方法：Python 脚本从 `## Synthesis` 表提取 `相关工具`/`关联框架`/`深层关联` 行，排除 `prerequisites`/`component_of` 中的节点。
+
+### Phase 2: 00_inbox 收尾
+
+- `yt-management-goal-management.md`: `00_inbox/` → `10_raw/sources/` ✅
+- `yt-management-scientific-hiring.md`: `00_inbox/` → `10_raw/sources/` ✅
+- 全局 `grep '"00_inbox' yt-*.md` → **0 hits** ✅
+
+### 质量门禁
+
+- [x] `related: []` — 39张 panproduct 卡全部有值
+- [x] `00_inbox` — 全局 0 hits
+- [x] kdo lint: 0 errors, 311 warnings（全部存量）
