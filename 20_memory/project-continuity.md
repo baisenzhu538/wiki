@@ -11,6 +11,15 @@
 - **待执行**：黄药师完成当前工作后领取校准任务
 - **欧阳锋审查标准**：不再做程序性 checkbox 检查，每条 constraint 必须有具体场景 + 可验证的失败模式
 
+## 2026-05-13：提示词工程域完成
+
+- **[[domain-prompt-engineering-andre-ng]]** → completed。7 张新卡（1 framework + 4 tool + 2 concept），格式+理解双门禁通过
+- **产出**：`ai-deep-work` SKILL.md + `human-ai-collaboration-playbook`，两资产通过技能门禁
+- **跨域边**：提示词工程与讲香/IPO/动力阻力/武器库/科学表达五域已连接
+- **讲香策略实战**：黄药师输出文章覆盖 9/10 十指策略，建议反收入讲香案例库
+- **关键沉淀**：反谄媚↔冲突化同构、四遍学习法↔IPO闭环、上下文工程↔泛产品约束方法论——三组跨域同构关系已验证
+- **Sprint 6**：仍进行中，下一批卡片升级待分配
+
 ## 2026-05-13：讲香域完成 + 校准通过 + 提示词工程启动
 
 - **讲香域全部完成**：[[domain-xiang-jiang-deep-digestion]] → completed。12 张新卡（1 framework + 10 tool + 1 concept），格式门禁+理解门禁双通过
