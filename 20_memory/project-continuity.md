@@ -1,11 +1,10 @@
 # Project Continuity
 
-## 2026-05-14：Sprint 9 通过
+## 2026-05-14：Sprint 9 通过 + Sprint 10 启动
 
-- **[[sprint-9-cleanup-source-refs-query-triggers]]** → completed ✅。52 张 source_refs 空值归零，31 张 query_triggers 重写，20 张 Constraints 去模板化
-- **Sprint 6 遗留问题全部关闭**：KF-020 违规清零、triggers 污染清除、boilerplate Constraints 已各增特有边界
-- **质量对比**：Sprint 6 triggers 100% section headers 污染 → Sprint 9 5/6 clean。黄药师修正质量显著
-- **已知未覆盖**：管理域/系统域 triggers/Constraints 未处理（Sprint 9 范围外），后续按需
+- **[[sprint-9-cleanup-source-refs-query-triggers]]** → completed ✅。52 张 source_refs 归零，31 张 triggers 重写，20 张 Constraints 去模板化
+- **[[sprint-10-fill-remaining-related-edges]]** 已创建——76 张非 panproduct 卡图边填充 + 管理域收尾
+- **活跃任务**：[[sprint-10-fill-remaining-related-edges]]（P0，黄药师待领取）
 
 ## 2026-05-13：Sprint 6 终审 + Sprint 8 通过 + Sprint 9 启动
 
