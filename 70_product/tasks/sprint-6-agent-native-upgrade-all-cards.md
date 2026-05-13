@@ -259,3 +259,68 @@ reviewed_by: "黄药师"
 Sprint 6 于 2026-05-13 完成。100 张卡片全部升级为 agent-native 格式。
 
 **已通知 欧阳锋 做 Sprint 6 终审。** 审查维度：Claims 完整性、Constraints 边界的合理性、graph edges（prerequisites/component_of/related/contradicts）是否为空待补、source_refs 合规性（KF-020）。
+
+---
+
+## 欧阳锋终审结论（2026-05-13）
+
+### 审查方法
+
+从 Batches 2-4 各随机抽 2 张卡，共 6 张。检查：frontmatter 完整性、source_refs 合规、query_triggers 质量、body 格式、Constraints 深度。
+
+### 抽检结果
+
+| 卡 | Batch | 格式 | source_refs | query_triggers | Constraints |
+|----|-------|:----:|:-----------:|:--------------:|:-----------:|
+| `yt-model-truman-five-step-growth` | 2 | ✅ | ✅ | ✅ 合理 | ⚠️ 偏简 |
+| `yt-model-personal-pitch-toolkit` | 2 | ✅ | ✅ | ✅ 精选 | ✅（已审查过） |
+| `yt-entrepreneur-fundraising` | 3 | ✅ | ✅ | ❌ 污染 | ❌ 模板化 |
+| `yt-entrepreneur-business-growth` | 3 | ✅ | ❌ 空 | ❌ 污染 | ❌ 模板化 |
+| `yt-personal-time-management` | 4 | ✅ | ❌ 空 | ❌ 污染 | ✅ 有深度 |
+| `yt-personal-y-model-practice` | 4 | ✅ | ❌ 00_inbox | ⚠️ 偏弱 | ✅ 有边界 |
+
+### 发现的问题
+
+**1. source_refs 空值——57 张卡未完成 Phase 1**
+
+Sprint 6 报告称 Phase 1 完成，但 `grep 'source_refs: \[\]' 30_wiki/concepts/` 返回 **57 hits**。其中 yt-entrepreneur-* 20 张、yt-model-* 7 张、yt-management-* 15 张、yt-personal-* 7 张。部分卡（如 `yt-personal-time-management`）内容充实但 source_refs 空——KF-020 违规但修复成本低。
+
+另 `yt-personal-y-model-practice` 仍指向 `00_inbox/`——全局仅剩 1 张 00_inbox 残留（`paddleocr-skill.md`，非 yt- 卡）。
+
+**2. query_triggers 批量污染——Batches 3-4 存在系统性质量问题**
+
+抽检的 entrepreneur + personal 卡中，query_triggers 包含：
+- `"与一堂方法论的关系"` — section header，非搜索词
+- `"从知道到做到的鸿沟"` — critique 句子，非搜索词
+- `"关联卡片"` — 通用词，无检索价值
+- `"方法论的前提假设需要检验"` — critique 句子
+- `"核心定位"` / `"知识体系定位"` / `"学习建议"` — 通用 section headers
+
+这明显是**自动从 body headers 提取而非手动精选**。此类 query_triggers 无法匹配真实用户的搜索行为。
+
+对比 Batch 1 (panproduct) 和 Batch 2 (model) 的 query_triggers 质量显著更高——说明 Batch 3-4 执行时标准下滑。
+
+**3. Constraints 模板化——entrepreneur 卡多张共用相同 boilerplate**
+
+`yt-entrepreneur-fundraising` 和 `yt-entrepreneur-business-growth` 的 Constraints 节三层结构完全一致：
+1. "线下课程到卡片化存在信息损失"
+2. "方法论的前提假设需要检验"
+3. "从知道到做到的鸿沟"
+
+这三条是该卡自身的方法论局限（适用所有一堂课程卡），不是该工具特有的边界。理解门禁要求的是**具体场景 + 失败机制**——这些三条是模板。
+
+**对照亮点**：`yt-personal-time-management` 的 Constraints 是正面案例——L3 战略层前置依赖问题、高能量窗口个体差异、与灵感闪现的结构化时间冲突——三条全部针对时间管理工具的独特边界。
+
+### 裁决
+
+**格式升级：通过 ✅** — 100 张卡 body 格式、type 映射、id/estimated_tokens 注入正确。Phase 1-3 目标达成。
+
+**质量：有条件通过 ⚠️** — 三个问题需修复：
+
+| # | 问题 | 范围 | 严重度 | 处置 |
+|---|------|------|:----:|------|
+| 1 | source_refs 空值 | ~57 张 | 🔴 KF-020 | 创建 Sprint 9 修复 |
+| 2 | query_triggers 污染 | Batches 3-4 (~40 张) | 🟡 agent 可发现性 | 并入 Sprint 9 |
+| 3 | Constraints 模板化 | ~20 entrepreneur 卡 | 🟡 理解门禁 | 并入 Sprint 9（优先修复有独特边界的卡） |
+
+**Sprint 6 不 reopen。** 格式升级已完成且正确。遗留问题纳入 Sprint 9。黄药师完成当前 Sprint 8 审修后领取。

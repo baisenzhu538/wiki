@@ -76,10 +76,10 @@ Sprint 8 = Sprint 7 的精确重做，不扩范围。
 
 ## 质量门禁
 
-- [ ] `grep 'related: \[\]' 30_wiki/concepts/yt-panproduct-*.md` 返回空
-- [ ] `grep 'related: \[\]' 30_wiki/concepts/yt-personal-pan-product-*.md` 返回空
-- [ ] `grep '"00_inbox' 30_wiki/concepts/yt-management-*.md` 返回空
-- [x] 所有 `related` 条目指向实际存在的卡片（抽查 5 张）
+- [x] `grep 'related: \[\]' 30_wiki/concepts/yt-panproduct-*.md` 返回空
+- [x] `grep 'related: \[\]' 30_wiki/concepts/yt-personal-pan-product-*.md` 返回空
+- [x] `grep '"00_inbox' 30_wiki/concepts/yt-management-*.md` 返回空
+- [x] 所有 `related` 条目指向实际存在的卡片（抽查 6 张卡 14 条边）
 
 ---
 
@@ -108,3 +108,22 @@ Sprint 8 = Sprint 7 的精确重做，不扩范围。
 - [x] `related: []` — 39张 panproduct 卡全部有值
 - [x] `00_inbox` — 全局 0 hits
 - [x] kdo lint: 0 errors, 311 warnings（全部存量）
+
+---
+
+## 欧阳锋审查结论（2026-05-13）
+
+### 门禁验证
+
+| 门禁 | 结果 | 备注 |
+|------|:--:|------|
+| panproduct related: [] → 0 | ✅ | 39 张全有值 |
+| personal-pan-product related: [] → 0 | ✅ | 6 张全有值 |
+| management 00_inbox → 0 | ✅ | 2 张已修 |
+| related 条目有效性抽查 | ✅ | 6 张卡 / 14 条边，全部指向真实卡片 |
+
+抽查覆盖了 demand (3 张) + execution (3 张)，跨群组、交叉域边均存在。`core-and-boundary ↔ logic-mece`、`hypothesis-decomposition ↔ 10x-validation`、`liberate-thinking ↔ model-liberate-thinking-layers` — 这些边具有实质检索价值。
+
+### 裁决
+
+**通过 ✅。** Sprint 8 目标明确、范围克制、执行干净。39 张 panproduct 卡图边全填充（105 edges），2 张 management 卡 00_inbox 残留已清除。轮次结束。

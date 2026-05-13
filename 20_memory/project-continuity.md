@@ -1,5 +1,13 @@
 # Project Continuity
 
+## 2026-05-13：Sprint 6 终审 + Sprint 8 通过 + Sprint 9 启动
+
+- **Sprint 6 终审**：格式升级通过 ✅，质量有条件通过 ⚠️。发现 57 张卡 `source_refs: []`（KF-020 违规，Phase 1 完成声明不实）、Batches 3-4 的 query_triggers 被自动提取污染、~20 张 entrepreneur 卡 Constraints 模板化
+- **Sprint 8 通过** ✅：39 张 panproduct 卡图边全填充（105 edges），2 张 management 卡 00_inbox 已清。6 张卡 14 条 related 抽查全部有效
+- **[[sprint-9-cleanup-source-refs-query-triggers]]** 已创建：修复 source_refs 空值 + query_triggers 重写 + Constraints 去模板化
+- **全局状态**：`source_refs: []` 仍有 57 张；`00_inbox` 残留仅剩 1 张（paddleocr-skill，非 yt- 域）
+- **活跃任务**：[[sprint-9-cleanup-source-refs-query-triggers]]（P0，黄药师待领取）
+
 ## 2026-05-13：讲香域架构裁决 + 理解门禁建立
 
 - **讲香域三方讨论完成**：黄药师建议书（[[new-course-讲香十指模型-消化建议书]]）→ 欧阳锋独立裁决 → 用户终批
