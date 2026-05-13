@@ -26,6 +26,23 @@ created_at: '2026-05-13'
 updated_at: '2026-05-13'
 reviewed_by: 黄药师
 estimated_tokens: 3600
+prerequisites:
+  - yt-model-prompt-engineering
+component_of: []
+related:
+  - yt-model-prompt-engineering
+  - yt-model-personal-pitch-toolkit
+  - yt-model-ipo-learning-strategy
+  - yt-panproduct-demand-motivation-resistance
+contradicts: []
+query_triggers:
+  - 吴恩达
+  - 提示词课程
+  - 一堂拆书
+  - AI合伙人
+  - 反谄媚
+  - 谄媚倾向
+  - 七层工作流
 ---
 
 # 吴恩达提示词课程·一堂拆书精华
