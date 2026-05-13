@@ -131,6 +131,6 @@ Truman 本人在 IPO 课中讲述"自己讲一堂课的准备过程"时提到，
 | 关联 | [[yt-system-course-catalog]] | 全课程目录，属于"不断练能力"之"写逐字稿" |
 | 关联工具 | [[yt-personal-ipo-learning]] | IPO 科学学习模型；逐字稿是 IPO 输出环节从 L2（专题笔记）到 L4（分享讲解）的桥梁——Truman 本人的课程准备就是逐字稿驱动 |
 | 关联工具 | [[yt-personal-scientific-expression]] | 科学表达/火箭模型；火箭模型是逐字稿的结构检视框架——第二轮结构重构就是用火箭四级检视裸写稿 |
-| 关联工具 | [[yt-personal-sales-pitch-model]] | 十指销讲模型；讲香的十个要素可以直接转化为逐字稿中对应位置的写作要点 |
+| 关联工具 | [[yt-model-personal-pitch-toolkit]] | 十指销讲模型；讲香的十个要素可以直接转化为逐字稿中对应位置的写作要点 |
 | 关联工具 | [[yt-personal-deliberate-practice]] | 刻意练习；逐字稿的"练习-修正循环"是刻意练习在表达能力上的最佳实践——录一遍、标问题、修改、再录、再标 |
 | 关联工具 | [[yt-personal-checklist-notes]] | 清单式笔记；逐字稿的第四轮"练习-修正循环"可以做成一张自查清单（节奏/音量/表达/肢体/停顿） |

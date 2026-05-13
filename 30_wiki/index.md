@@ -180,7 +180,7 @@ _Last updated: 2026-05-10T15:46:34+00:00_
 - [知识萃取方法论](concepts/yt-personal-knowledge-extraction.md) - source no source
 - [知识管理](concepts/yt-personal-knowledge-management.md) - source no source
 - [泛产品设计](concepts/yt-personal-product-design.md) - source no source
-- [十指销讲模型](concepts/yt-personal-sales-pitch-model.md) - source no source
+- [十指销讲模型](30_wiki/concepts/yt-model-personal-pitch-toolkit.md) - source no source
 - [科学表达（火箭模型）](concepts/yt-personal-scientific-expression.md) - source no source
 - [时间管理](concepts/yt-personal-time-management.md) - source no source
 - [逐字稿](concepts/yt-personal-verbatim-script.md) - source no source

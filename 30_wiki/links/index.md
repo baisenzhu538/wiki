@@ -575,7 +575,7 @@ png]]
 ## [[yt-personal-product-design]]
 - [[30_wiki\concepts\yt-personal-ai-capability.md]]
 
-## [[yt-personal-sales-pitch-model]]
+## [[yt-model-personal-pitch-toolkit]]
 - [[30_wiki\concepts\yt-personal-scientific-expression.md]]
 - [[30_wiki\concepts\yt-personal-verbatim-script.md]]
 

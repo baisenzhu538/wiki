@@ -137,7 +137,7 @@ reviewed_by: 黄药师
 | 关联 | [[yitang-course-map]] | 课程大地图，"我选表达"/"我选演讲"为选课口令（系列课两门：科学表达必修课 + 公开演讲练习） |
 | 关联 | [[yt-system-course-catalog]] | 全课程目录，属于"不断练能力"之"表达力" |
 | 关联工具 | [[yt-personal-ipo-learning]] | IPO 科学学习模型；火箭模型是 IPO 输出环节 L4-L5 的操作化框架——Truman 的 IPO 课本身就是火箭模型的示范 |
-| 关联工具 | [[yt-personal-sales-pitch-model]] | 十指销讲模型；十指模型是"短表达"的框架，火箭模型是"长表达"的框架，两者共用关联锚点、故事骨架、情感锚点等底层要素 |
+| 关联工具 | [[yt-model-personal-pitch-toolkit]] | 十指销讲模型；十指模型是"短表达"的框架，火箭模型是"长表达"的框架，两者共用关联锚点、故事骨架、情感锚点等底层要素 |
 | 关联工具 | [[yt-personal-verbatim-script]] | 逐字稿；逐字稿是火箭模型的"文字化预演"——好的表达建立在好的逐字稿之上 |
 | 关联工具 | [[yt-personal-deliberate-practice]] | 刻意练习；火箭模型的"单级火箭练习"和"分级评分练习"是刻意练习在表达能力上的具体应用 |
 | 关联工具 | [[yt-personal-inspiration-flash]] | 灵感闪现；三级火箭的"讲故事/画面语言"高度依赖灵感闪现的素材库——好的故事素材是灵感积累和加工的产物 |
