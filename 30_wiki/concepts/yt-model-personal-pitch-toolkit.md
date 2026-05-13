@@ -17,6 +17,7 @@ related:
   - yt-concept-weapon-arsenal
   - yt-panproduct-execution-low-cost-mvp
   - yt-composite-pan-product-methodology
+  - yt-model-prompt-engineering
 contradicts: []
 query_triggers:
   - 十指模型

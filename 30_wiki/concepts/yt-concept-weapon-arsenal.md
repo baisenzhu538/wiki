@@ -13,6 +13,7 @@ component_of: []
 related:
   - yt-model-personal-pitch-toolkit
   - yt-personal-scientific-expression
+  - yt-model-prompt-engineering
 contradicts: []
 query_triggers:
   - 超级武器库

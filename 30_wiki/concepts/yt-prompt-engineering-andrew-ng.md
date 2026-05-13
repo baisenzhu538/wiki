@@ -1,7 +1,7 @@
 ---
 id: yt-prompt-engineering-andrew-ng
 title: 吴恩达提示词课程·一堂拆书精华
-type: concept
+type: course_notes
 status: enriched
 domain:
   - yitang
@@ -10,6 +10,8 @@ language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.90
+source_of:
+  - yt-model-prompt-engineering
 source_refs:
   - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
   - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
@@ -28,6 +30,8 @@ estimated_tokens: 3600
 
 # 吴恩达提示词课程·一堂拆书精华
 
+> **此卡已展开为完整卡片树。** 本文是课程原始笔记（20条 claims），系统化架构见 [[yt-model-prompt-engineering]]（1 framework + 4 tool + 2 concept）。
+>
 > 拆书会第202期。吴恩达《AI Prompting for Everyone》（21节课，3小时） × 一堂创业场景深度应用。课程免费，B站有中文字幕版。
 
 ## Claims

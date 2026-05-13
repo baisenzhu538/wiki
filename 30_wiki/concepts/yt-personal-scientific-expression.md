@@ -13,6 +13,7 @@ prerequisites: []
 component_of: []
 related:
   - yt-model-personal-pitch-toolkit
+  - yt-model-prompt-engineering
 contradicts: []
 query_triggers:
 - '"情感共鸣"的刻意设计与真诚之间的张力'

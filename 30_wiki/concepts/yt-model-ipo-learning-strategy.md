@@ -13,6 +13,7 @@ prerequisites: []
 component_of: []
 related:
   - yt-model-personal-pitch-toolkit
+  - yt-model-prompt-engineering
 contradicts: []
 query_triggers:
 - 6 要素闭环
