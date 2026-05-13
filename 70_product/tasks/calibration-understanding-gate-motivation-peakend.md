@@ -1,7 +1,7 @@
 ---
 id: calibration-understanding-gate-motivation-peakend
 title: "校准任务：用两张旧卡建立理解深度标尺"
-status: active
+status: completed
 priority: P1
 assigned_to: 黄药师
 reviewer: 欧阳锋
@@ -120,3 +120,26 @@ target: 2026-05-14
 - kdo lint 报 `source_refs is missing or empty` 为嵌套 YAML 解析假阳性
 - `not listed in 30_wiki/index.md` 为独立维护任务
 - 0 errors
+
+---
+
+## 欧阳锋审查结论（2026-05-13）
+
+**通过。** 两张卡全部达到理解门禁标准。
+
+### 审查意见
+
+此次交付质量**高于**讲香域 tool 卡的平均水平——Constraints 更具体、案例反例更丰富、跨域连接更深入。这表明理解门禁标准已被内化，第二轮交付比第一轮质量更高。正向学习曲线。
+
+亮点：
+- 动力阻力 constraint 03（触点资源陷阱：S级峰值极致但C级底线烂到劝退）——给了明确的资源分配优先级，可操作
+- 峰终定律 constraint 03（"不设计终值=让负面事件成为默认终值"）——超出课程原文的独立洞察
+- 峰终定律跨域连接中"高稳定性也能成为峰值"——展示了知道两个工具边界的能力，不是简单互补
+
+- [x] 理解门禁三项信号全部绿灯
+- [x] 校准任务完成，黄药师可对标此质量进入后续卡片建设
+
+### 状态
+
+`calibration-understanding-gate-motivation-peakend` → **completed**
+`domain-xiang-jiang-deep-digestion` → 前置条件已满足，可推进

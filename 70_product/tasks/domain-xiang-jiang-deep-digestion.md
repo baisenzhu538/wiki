@@ -1,7 +1,7 @@
 ---
 id: domain-xiang-jiang-deep-digestion
 title: "讲香域深度消化 + 架构重建"
-status: active
+status: completed
 priority: P0
 assigned_to: 黄药师
 architect: 欧阳锋
