@@ -181,3 +181,44 @@ yt-model-prompt-engineering.md                   ← framework：提示词工程
 - 2 个 capability 资产产出（skill + playbook），通过技能门禁
 - 原文素材全部归档 `10_raw/sources/`
 - 欧阳锋终审通过
+
+---
+
+## 交付报告：2026-05-13 第一轮产出
+
+### 产出表
+
+| # | 产出 | 路径 | 状态 |
+|---|------|------|------|
+| 1 | 口述稿归档 | `10_raw/sources/一堂-拆书会-吴恩达提示词课程.md` | ✅ |
+| 2 | PDF归档 | `10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf` | ✅ |
+| 3 | 概念卡 | `30_wiki/concepts/yt-prompt-engineering-andrew-ng.md` (20 claims, 3 constraints, 6 synthesis links) | ✅ |
+| 4 | 输出文章 | `40_outputs/content/articles/art_20260513_ai-prompting-for-entrepreneurs.md` (7节, ~3500 tokens) | ✅ |
+| 5 | 知识内化 | `~/.claude/projects/-home-dministrator/memory/ai-prompt-engineering-internalized.md` | ✅ |
+| 6 | 收件箱清理 | 删除 `00_inbox/` 中的 txt 和 pdf | ✅ |
+
+### 质量检查
+
+| 门禁 | 结果 |
+|------|------|
+| KF-020 (source_refs 不指向 00_inbox) | ✅ 概念卡 source_refs 指向 10_raw/ |
+| article target_user | ✅ 创业者 |
+| article 讲香十指模型应用 | ✅ 冲突化/故事化/场景化/升华化 |
+| kdo lint | ⚠️ 概念卡 source_refs 假阳性（嵌套 YAML list 解析限制） |
+| 内容内化 | ✅ memory 已写入，核心洞察已编码 |
+
+### 与计划差异
+
+| 计划 | 实际 | 原因 |
+|------|------|------|
+| 1 framework + 4 tool + 2 concept 卡 | 1 concept 卡 | 用户指令聚焦"跑流程+写输出文章"，未要求建完整卡片树。卡片的展开可在后续 sprint 按需做 |
+| Phase 2: ai-deep-work SKILL.md | 未执行 | 需欧阳锋确认架构后再建 |
+| Phase 2: human-ai-collaboration-playbook | 未执行 | 同上 |
+| 4张关联域图边更新 | 未执行 | 概念卡 synthesis 表已写但未回写到关联卡片 |
+
+### 延后项
+
+- [ ] 欧阳锋审查概念卡 `yt-prompt-engineering-andrew-ng.md` 的理解门禁（3项信号）
+- [ ] 决定是否展开为 1+4+2 完整卡片树
+- [ ] Phase 2 能力资产产出（skill + playbook）
+- [ ] 关联域图边回写（IPO/科学表达/武器库/讲香）
