@@ -14,16 +14,16 @@ component_of: []
 related: []
 contradicts: []
 query_triggers:
-- 与一堂方法论的关系
-- 从知道到做到的鸿沟
-- 关联卡片
-- 关键概念
 - 单元模型
-- 学习建议
-- 方法论的前提假设需要检验
-- 核心定位
-- 知识体系定位
-- 线下课程到卡片化存在信息损失
+- Unit Economics
+- LTV/CAC
+- 单位经济模型
+- 回本周期计算
+- 商业模式拆解
+- 最小交易单元
+- 创业经济可行性
+- 毛利分析
+- 单客经济模型
 tags:
 - '#yitang'
 trust_level: medium

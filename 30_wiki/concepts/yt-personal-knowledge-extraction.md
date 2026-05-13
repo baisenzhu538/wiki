@@ -14,14 +14,16 @@ component_of: []
 related: []
 contradicts: []
 query_triggers:
-- IPO模型视角
-- Truman六阶段成长历程
-- 一堂五大萃取手段
-- 关联卡片
-- 知识体系定位
-- 知识萃取三流派
-- 知识萃取三维目标体系
-- 知识萃取方法论
+- 知识萃取
+- 经验萃取方法论
+- 案例大爆炸
+- 辩证式讨论
+- 专家访谈技巧
+- 方法论建模
+- 知行合一验证
+- 全网调研
+- PRD自查清单
+- 知识体系搭建
 tags:
 - '#yitang'
 - '#knowledge-extraction'

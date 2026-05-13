@@ -14,16 +14,16 @@ component_of: []
 related: []
 contradicts: []
 query_triggers:
-- 与一堂方法论的关系
-- 从知道到做到的鸿沟
-- 关联卡片
-- 关键概念
-- 学习建议
-- 方法论的前提假设需要检验
-- 核心定位
-- 知识体系定位
-- 线下课程到卡片化存在信息损失
 - 融资认知
+- 创业融资
+- 融资时机
+- 估值逻辑
+- Term Sheet
+- 投资人沟通
+- BP怎么写
+- 融资节奏
+- 融资是放大器
+- 融资执行
 tags:
 - '#yitang'
 trust_level: medium

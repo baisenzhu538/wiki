@@ -14,16 +14,16 @@ component_of: []
 related: []
 contradicts: []
 query_triggers:
-- '"双模型"的差异化不足'
-- AI 能力（双模型）
-- 一堂实际交付
-- 一堂方法论中的
-- 与通用
-- 位置
-- 关联卡片
-- 双模型
+- AI能力
 - 双模型框架
-- 时代个人竞争力的重新定义
+- 提示词工程
+- 人机协同
+- AI认知模型
+- 任务分解
+- 验证闭环
+- AI时代竞争力
+- 如何与AI协作
+- 提示词怎么写
 tags:
 - '#yitang'
 trust_level: medium
