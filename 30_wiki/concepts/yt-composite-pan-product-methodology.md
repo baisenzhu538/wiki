@@ -18,6 +18,7 @@ related:
   - "yt-model-pan-product-demand-toolkit"
   - "yt-model-pan-product-aesthetic-toolkit"
   - "yt-model-pan-product-execution-toolkit"
+  - "yt-model-personal-pitch-toolkit"
 contradicts: []
 
 query_triggers:

@@ -18,6 +18,7 @@ component_of:
 related:
 - yt-panproduct-execution-10x-validation
 - yt-panproduct-execution-hypothesis-decomposition
+- yt-model-personal-pitch-toolkit
 contradicts: []
 query_triggers:
 - 产品落地

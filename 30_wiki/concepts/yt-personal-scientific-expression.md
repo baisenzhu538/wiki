@@ -11,7 +11,8 @@ difficulty: foundational
 confidence: 0.8
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-model-personal-pitch-toolkit
 contradicts: []
 query_triggers:
 - '"情感共鸣"的刻意设计与真诚之间的张力'
@@ -34,7 +35,9 @@ yitang:
   course_type: method
   level: core
   series: true
-source_refs: []
+source_refs:
+  - 10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型.png
+  - 10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型-执行武器库.png
 created_at: '2026-05-06'
 updated_at: '2026-05-08'
 review_date: '2026-05-08'

@@ -11,7 +11,8 @@ difficulty: foundational
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-model-personal-pitch-toolkit
 contradicts: []
 query_triggers:
 - 个人修炼地图
