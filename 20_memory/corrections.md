@@ -81,3 +81,25 @@
 **症状：** staged 了文件准备手动按类型拆分为 3 个 commit，auto-backup 抢在前面把所有 37 个文件打成了一个 backup commit。
 **根因：** Obsidian Git 插件的 auto-backup 定时（约 20 分钟）自动提交所有已 staged 的变更。
 **修正：** 如果要拆分 commit，不要一次 stage 所有文件——先 stage 一组 → commit → 再 stage 下一组。或者临时关闭 auto-backup。
+
+---
+
+## C-8. 批处理格式升级产生"格式完整但思维空洞"的卡片
+
+**时间：** 2026-05-13
+**报告人：** 欧阳锋（审查发现）
+**症状：** Sprint 6 批处理升级的 panproduct tool 卡通过所有格式门禁（`id:` 有、`query_triggers:` 有、`related:` 非空），但体检抽检两张卡（`yt-panproduct-demand-motivation-resistance` + `yt-panproduct-demand-peak-end-rule`）发现：
+
+1. **Constraints & Boundaries 节完全缺失**——不是内容差，是不存在
+2. Claims 是口述稿的直接摘录，零合成加工（如"决定转化率的三大本质要素：动力 + 阻力 + 触点"）
+3. **无反例**——未回答"什么场景下不该用这个工具"
+4. **无案例筛选**——从大量素材中挑选最有区分度的案例这一步被跳过
+5. 跨域连接是薄标签（"触点体验设计"），无实质说明
+
+**根因：** 质量门禁只检测格式（`kdo lint`、`source_refs` 非空、`related` 非空），检测不到理解深度。批处理脚本可以填满所有必填字段，但不会做"这个工具的边界在哪里""哪个案例最能说明它的独特价值""它和另一个工具的本质区别是什么"这种判断。
+
+**修正：** 
+1. 格式门禁之上新增**理解门禁**——随机抽检 Constraints 节，三个信号（反例具体性、案例筛选、跨域连接）判定搬运 vs 理解
+2. 理解门禁标准写入任务文件（见 `domain-xiang-jiang-deep-digestion.md` Phase 3c）
+3. 新域卡片建设前，先抽检两张旧卡做校准——让 builder 看到"格式完整但思维空洞"的真实样本，形成质量标尺后再开工
+4. 关联任务：[[calibration-understanding-gate-motivation-peakend]]

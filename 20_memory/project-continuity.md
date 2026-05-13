@@ -1,5 +1,16 @@
 # Project Continuity
 
+## 2026-05-13：讲香域架构裁决 + 理解门禁建立
+
+- **讲香域三方讨论完成**：黄药师建议书（[[new-course-讲香十指模型-消化建议书]]）→ 欧阳锋独立裁决 → 用户终批
+- **架构方案**：1 framework + 10 tool + 1 武器库概念卡，分两批交付（基础+进阶先，增强+奇效后）
+- **关键创新**：新增理解门禁——格式门禁检测不到"搬运 vs 理解"。三个信号：反例具体性、案例筛选、跨域连接
+- **发现失败模式 C-8**：批处理格式升级产生"格式完整但思维空洞"的卡片（抽检 `motivation-resistance` + `peak-end-rule` 双杀）
+- **校准任务**：`[[calibration-understanding-gate-motivation-peakend]]`——黄药师先深度重写两张旧卡，建立质量标尺后再进入讲香域
+- **活跃任务**：`[[calibration-understanding-gate-motivation-peakend]]`（P1）→ `[[domain-xiang-jiang-deep-digestion]]`（P0）
+- **待执行**：黄药师完成当前工作后领取校准任务
+- **欧阳锋审查标准**：不再做程序性 checkbox 检查，每条 constraint 必须有具体场景 + 可验证的失败模式
+
 ## 2026-05-12：Sprint 5 关闭 / Sprint 6 启动
 
 - **Sprint 5 完成**：7 张 composite+framework 卡 agent-native 升级通过质量门禁
