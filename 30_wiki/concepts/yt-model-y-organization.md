@@ -30,7 +30,9 @@ yitang:
   module: 方法论总纲
   course_type: model
   level: foundational
-source_refs: []
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+  - 10_raw/assets/yitang/一堂-个人修炼-Y模型.jpg
 created_at: '2026-05-07'
 updated_at: '2026-05-08'
 estimated_tokens: 1635

@@ -11,7 +11,8 @@ yitang:
   course_type: method
   level: core
   series: false
-source_refs: []
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
 created_at: '2026-05-06'
 updated_at: '2026-05-08'
 reviewed_by: 黄药师

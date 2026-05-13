@@ -31,7 +31,9 @@ yitang:
   module: 科学学习
   course_type: reference
   level: foundational
-source_refs: []
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+  - 10_raw/assets/yitang/一堂-个人修炼-科学学习IPO完整清单.jpg
 created_at: '2026-05-07'
 updated_at: '2026-05-08'
 estimated_tokens: 2614
