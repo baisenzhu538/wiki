@@ -14,7 +14,10 @@ prerequisites:
 - yt-model-pan-product-demand-toolkit
 component_of:
 - yt-model-pan-product-aesthetic-toolkit
-related: []
+related:
+- yt-panproduct-aesthetic-modeling
+- yt-model-product-excellence
+- yt-model-aesthetic-progression
 contradicts: []
 query_triggers:
 - 产品审美

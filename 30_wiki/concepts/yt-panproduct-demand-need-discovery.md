@@ -13,7 +13,9 @@ prerequisites:
 - yt-composite-pan-product-methodology
 component_of:
 - yt-model-pan-product-demand-toolkit
-related: []
+related:
+- yt-panproduct-demand-scenario-walkthrough
+- yt-panproduct-demand-user-perspective
 contradicts: []
 query_triggers:
 - 泛产品设计

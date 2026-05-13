@@ -13,7 +13,9 @@ prerequisites:
 - yt-composite-pan-product-methodology
 component_of:
 - yt-model-pan-product-demand-toolkit
-related: []
+related:
+- yt-panproduct-demand-project-background
+- yt-panproduct-demand-user-segmentation
 contradicts: []
 query_triggers:
 - 多视角思考

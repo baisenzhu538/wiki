@@ -15,7 +15,10 @@ prerequisites:
 - yt-model-pan-product-aesthetic-toolkit
 component_of:
 - yt-model-pan-product-execution-toolkit
-related: []
+related:
+- yt-panproduct-execution-management-trilogy
+- yt-panproduct-execution-milestone-breakdown
+- yt-panproduct-execution-business-modeling
 contradicts: []
 query_triggers:
 - ROI分析

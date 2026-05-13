@@ -13,7 +13,10 @@ prerequisites:
 - yt-composite-pan-product-methodology
 component_of:
 - yt-model-pan-product-demand-toolkit
-related: []
+related:
+- yt-panproduct-demand-surprise-formula
+- yt-panproduct-demand-motivation-resistance
+- yt-model-conversion-optimization
 contradicts: []
 query_triggers:
 - 峰终定律

@@ -15,7 +15,9 @@ prerequisites:
 - yt-model-pan-product-aesthetic-toolkit
 component_of:
 - yt-model-pan-product-execution-toolkit
-related: []
+related:
+- yt-model-liberate-thinking-layers
+- yt-panproduct-execution-idea-spark
 contradicts: []
 query_triggers:
 - 产品落地

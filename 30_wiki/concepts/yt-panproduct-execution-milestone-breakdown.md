@@ -15,7 +15,10 @@ prerequisites:
 - yt-model-pan-product-aesthetic-toolkit
 component_of:
 - yt-model-pan-product-execution-toolkit
-related: []
+related:
+- yt-panproduct-execution-management-trilogy
+- yt-panproduct-execution-risk-management
+- yt-panproduct-execution-review-iteration
 contradicts: []
 query_triggers:
 - 产品落地

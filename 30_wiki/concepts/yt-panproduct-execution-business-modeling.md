@@ -15,7 +15,10 @@ prerequisites:
 - yt-model-pan-product-aesthetic-toolkit
 component_of:
 - yt-model-pan-product-execution-toolkit
-related: []
+related:
+- yt-panproduct-execution-roi-analysis
+- yt-panproduct-execution-logic-mece
+- yt-panproduct-demand-five-step-method
 contradicts: []
 query_triggers:
 - 业务建模

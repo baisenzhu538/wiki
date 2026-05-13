@@ -13,7 +13,10 @@ prerequisites:
 - yt-composite-pan-product-methodology
 component_of:
 - yt-model-pan-product-demand-toolkit
-related: []
+related:
+- yt-panproduct-demand-user-perspective
+- yt-panproduct-demand-user-segmentation
+- yt-panproduct-demand-need-discovery
 contradicts: []
 query_triggers:
 - 场景推演

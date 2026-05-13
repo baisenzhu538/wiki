@@ -12,7 +12,9 @@ confidence: 0.8
 prerequisites: []
 component_of:
 - yt-composite-pan-product-methodology
-related: []
+related:
+- yt-personal-pan-product-concepts
+- yt-personal-pan-product-tools
 contradicts: []
 query_triggers:
 - 个人修炼

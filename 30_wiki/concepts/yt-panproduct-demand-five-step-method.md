@@ -13,7 +13,9 @@ prerequisites:
 - yt-composite-pan-product-methodology
 component_of:
 - yt-model-pan-product-demand-toolkit
-related: []
+related:
+- yt-model-five-step-canvas
+- yt-model-prediction-model
 contradicts: []
 query_triggers:
 - 一堂五步法

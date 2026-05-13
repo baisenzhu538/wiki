@@ -13,7 +13,10 @@ prerequisites:
 - yt-composite-pan-product-methodology
 component_of:
 - yt-model-pan-product-demand-toolkit
-related: []
+related:
+- yt-model-conversion-optimization
+- yt-panproduct-demand-peak-end-rule
+- yt-panproduct-demand-surprise-formula
 contradicts: []
 query_triggers:
 - 动力阻力

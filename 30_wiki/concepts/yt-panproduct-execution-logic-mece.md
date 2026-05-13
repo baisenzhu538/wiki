@@ -15,7 +15,10 @@ prerequisites:
 - yt-model-pan-product-aesthetic-toolkit
 component_of:
 - yt-model-pan-product-execution-toolkit
-related: []
+related:
+- yt-panproduct-execution-core-and-boundary
+- yt-panproduct-execution-hypothesis-decomposition
+- yt-model-prediction-model
 contradicts: []
 query_triggers:
 - 产品落地

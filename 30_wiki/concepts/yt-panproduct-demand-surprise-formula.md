@@ -13,7 +13,10 @@ prerequisites:
 - yt-composite-pan-product-methodology
 component_of:
 - yt-model-pan-product-demand-toolkit
-related: []
+related:
+- yt-panproduct-demand-peak-end-rule
+- yt-model-product-excellence
+- yt-panproduct-aesthetic-imagination
 contradicts: []
 query_triggers:
 - 惊喜公式

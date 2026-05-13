@@ -13,7 +13,10 @@ prerequisites:
 - yt-composite-pan-product-methodology
 component_of:
 - yt-model-pan-product-demand-toolkit
-related: []
+related:
+- yt-panproduct-demand-user-perspective
+- yt-panproduct-demand-multi-perspective
+- yt-panproduct-demand-industry-canvas
 contradicts: []
 query_triggers:
 - 泛产品设计
