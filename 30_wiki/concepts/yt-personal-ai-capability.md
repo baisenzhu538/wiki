@@ -1,9 +1,32 @@
 ---
+id: yt-personal-ai-capability
 title: AI 能力（双模型）
-type: concept
+type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.8
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- '"双模型"的差异化不足'
+- AI 能力（双模型）
+- 一堂实际交付
+- 一堂方法论中的
+- 与通用
+- 位置
+- 关联卡片
+- 双模型
+- 双模型框架
+- 时代个人竞争力的重新定义
+tags:
+- '#yitang'
+trust_level: medium
 yitang:
   map: personal
   module: AI 能力（双模型）
@@ -14,11 +37,9 @@ yitang:
 source_refs: []
 created_at: '2026-05-06'
 updated_at: '2026-05-08'
-reviewed_by: 黄药师
 review_date: '2026-05-08'
-trust_level: medium
-tags:
-  - '#yitang'
+estimated_tokens: 3000
+reviewed_by: 黄药师
 ---
 # AI 能力（双模型）
 
@@ -28,7 +49,7 @@ tags:
 
 AI 能力（双模型）是一堂个人必修课中"形成竞争力"模块的核心课程，定位于帮助学员建立与 AI 协同工作的底层框架。课程提出"双模型"概念：第一个模型是理解 AI 的工作原理和能力边界（认知模型），第二个模型是习得与 AI 高效协作的操作方法（实用模型）。核心主张：AI 时代个人竞争力的重构不在于"会用工具"，而在于建立一套可迭代的 AI 协同心智模型。
 
-## [Condense]
+## Claims
 
 ### AI 时代个人竞争力的重新定义
 
@@ -67,7 +88,8 @@ AI 能力（双模型）是一堂个人必修课中"形成竞争力"模块的核
 
 课程包含《人工智能第一课 v2.0》和《提示词必修课》，覆盖从认知到实操的完整路径。实践中的核心训练：用 AI 做行业分析、用 AI 拆解商业案例、用 AI 辅助写逐字稿和提示词。
 
-## [Critique]
+## Constraints & Boundaries
+
 
 ### 1. "双模型"的差异化不足——与通用 AI 素养课程的边界模糊
 
@@ -81,36 +103,18 @@ AI 能力（双模型）是一堂个人必修课中"形成竞争力"模块的核
 
 AI 工具以月为单位迭代，今天的"最佳提示词范式"可能在模型升级后过时。课程内容若过度依赖特定工具（如 ChatGPT / DeepSeek 的具体操作），其知识半衰期可能极短。理想的课程设计应更多聚焦"不随工具变化的人机协同原则"，但如何区分"稳定原则"和"时效性操作"本身就是一个需要持续迭代的判断。
 
-## [Synthesis]
+## Framework Gallery
 
-### 关联卡片
+### 关联框架卡
 
-- [[一堂方法论体系总图]] — AI 能力在个人地图"形成竞争力"模块中的定位
-- [[yitang-course-map]] — 课程大地图，AI 力属于 personal map 的竞争力子模块
-- [[yt-system-course-catalog]] — 全课程目录，"我选人工智能"/"我选提示词"为选课口令
-- [[yt-personal-ipo-learning]] — IPO 科学学习模型；AI 被定位为 Input 端的效率工具，同时 Processing 环节的"建立联系"练习（如用 AI 做举一反三）与 AI 能力高度交叉
-- [[yt-personal-knowledge-extraction]] — 知识萃取方法论；AI 在"全网调研"阶段可大幅降本，但辩证式讨论和知行合一验证的最终判断权不可让渡给 AI
-- [[yt-entrepreneur-needs-analysis]] — 需求分析课中已交付 AI 教练系统提示词，是 AI 能力在一堂方法论中的具体应用案例
-- [[yt-personal-product-design]] — 同为"形成竞争力"模块的课程，泛产品设计力的 AI 辅助也是 AI 能力的重要应用场景
+## Synthesis
 
-### 知识体系定位
-
-```
-个人必修（Personal Map）
-├── 提认知
-│   ├── 时间管理 (401)
-│   ├── IPO 科学学习 (402)
-│   ├── 深度复盘
-│   └── 知识管理 (405)
-├── 练能力
-│   ├── 刻意练习 (406)
-│   ├── 清单式笔记 (407)
-│   ├── 灵感闪现 (518)
-│   ├── 逐字稿 (408)
-│   ├── 十指销讲模型 (409)
-│   └── 科学表达/火箭模型 (410)
-└── 形成竞争力
-    ├── 泛产品设计力
-    ├── AI 能力（双模型） ← 本卡片
-    └── 人生红点
-```
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 实体页 | [[一堂方法论体系总图]] | AI 能力在个人地图"形成竞争力"模块中的定位 |
+| 关联 | [[yitang-course-map]] | 课程大地图，AI 力属于 personal map 的竞争力子模块 |
+| 关联 | [[yt-system-course-catalog]] | 全课程目录，"我选人工智能"/"我选提示词"为选课口令 |
+| 关联工具 | [[yt-personal-ipo-learning]] | IPO 科学学习模型；AI 被定位为 Input 端的效率工具，同时 Processing 环节的"建立联系"练习（如用 AI 做举一反三）与 AI 能力高度交叉 |
+| 关联工具 | [[yt-personal-knowledge-extraction]] | 知识萃取方法论；AI 在"全网调研"阶段可大幅降本，但辩证式讨论和知行合一验证的最终判断权不可让渡给 AI |
+| 关联工具 | [[yt-entrepreneur-needs-analysis]] | 需求分析课中已交付 AI 教练系统提示词，是 AI 能力在一堂方法论中的具体应用案例 |
+| 关联工具 | [[yt-personal-product-design]] | 同为"形成竞争力"模块的课程，泛产品设计力的 AI 辅助也是 AI 能力的重要应用场景 |

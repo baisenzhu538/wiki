@@ -1,23 +1,43 @@
 ---
-title: "知识萃取方法论"
-type: concept
+id: yt-personal-knowledge-extraction
+title: 知识萃取方法论
+type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.8
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- IPO模型视角
+- Truman六阶段成长历程
+- 一堂五大萃取手段
+- 关联卡片
+- 知识体系定位
+- 知识萃取三流派
+- 知识萃取三维目标体系
+- 知识萃取方法论
+tags:
+- '#yitang'
+- '#knowledge-extraction'
+- '#methodology'
+- '#personal-growth'
 yitang:
   map: personal
-  module: "个人修炼"
+  module: 个人修炼
   course_type: explore_camp
   level: advanced
 source_refs:
-  - "00_inbox/一堂-个人修炼-知识萃取探索营口述版.txt"
-created_at: "2026-05-07"
-updated_at: "2026-05-08"
-tags:
-  - "#yitang"
-  - "#knowledge-extraction"
-  - "#methodology"
-  - "#personal-growth"
+- 00_inbox/一堂-个人修炼-知识萃取探索营口述版.txt
+created_at: '2026-05-07'
+updated_at: '2026-05-08'
+estimated_tokens: 3000
+reviewed_by: 黄药师
 ---
 
 # 一堂知识萃取探索营：从碎片经验到确定模型
@@ -28,7 +48,7 @@ tags:
 
 知识萃取是一堂的核心竞争力——把碎片化、矛盾的经验转化为确定、可复用的模型。Truman以十年六阶段成长历程（2013-2023）为主线，从最早在去哪儿的PRD自查清单起步，到美团时期建立第一个方法论模型（产品经理三层次），再到一堂时期的全网调研/专家访谈/案例大爆炸/辩证式讨论等完整工具链，逐步揭示了一堂做课能力的底层密码。核心洞见：知识萃取是面向未来的——面向过去建模型，面向未来解决问题。三个目标维度：宽度（个人→团队→跨领域）、深度（案例→SOP→方法论→本质）、可靠度（有启发→有实证→无反例）。
 
-## [Condense]
+## Claims
 
 ### 知识萃取三流派
 
@@ -103,32 +123,36 @@ tags:
 - **输出（O）**：方法论模型（N步法/矩阵/段位图/冰山图/武器库/卡牌）、SOP、清单小抄、最佳实践级课程
 - **反馈**：专家验证吵架、周五内测、自身实践测试、NPS/留存/作业率数据复盘
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **六阶段是Truman个人路径，可复制性存疑**：每个阶段的外部环境（去哪儿/美团/以太/一堂）高度特殊——普通人既没有美团那样的深度思考文化熏陶，也没有一堂这样的教研试验场。Truman自己也说「跨度太大」，直接学现在的水平很难。需要区分哪些是通用方法（如Check List、辩证式讨论）、哪些是环境红利。
 
-2. **知识萃取的能力评估缺乏标尺**：Truman给出了宽度/深度/可靠度三维框架，但没有可操作的段位评估标准。一个团队说自己做到了「方法论级」，如何验证？靠什么判断萃取质量合格？
+- claim:boundary-01 [conf=0.80] **六阶段是Truman个人路径，可复制性存疑**：每个阶段的外部环境（去哪儿/美团/以太/一堂）高度特殊——普通人既没有美团那样的深度思考文化熏陶，也没有一堂这样的教研试验场。Truman自己也说「跨度太大」，直接学现在的水平很难。需要区分哪些是通用方法（如Check List、辩证式讨论）、哪些是环境红利。
 
-3. **「专家共识」作为金标准有盲区**：辩证式讨论能消除逻辑矛盾，但消除不了集体盲区。如果所有专家的经验都基于同一个错误范式（如融资轮次案例——最终发现无法建模），「无反例」也可能只是圈子内没人见过反例。
+- claim:boundary-02 [conf=0.80] **知识萃取的能力评估缺乏标尺**：Truman给出了宽度/深度/可靠度三维框架，但没有可操作的段位评估标准。一个团队说自己做到了「方法论级」，如何验证？靠什么判断萃取质量合格？
 
-4. **案例大爆炸的规模门槛未量化**：36计要300个案例才稳定、开会清单150个技巧——不同领域的饱和态规模差异可能极大。缺少判断「何时算饱和」的操作性标准（Chao1 estimator? 边际收益递减阈值?）。
+- claim:boundary-03 [conf=0.80] **「专家共识」作为金标准有盲区**：辩证式讨论能消除逻辑矛盾，但消除不了集体盲区。如果所有专家的经验都基于同一个错误范式（如融资轮次案例——最终发现无法建模），「无反例」也可能只是圈子内没人见过反例。
 
-5. **千人广场模型的Before/After划分过于二元**：950个「不行的人」内部差异巨大——有的是认知问题、有的是执行问题、有的是场景不匹配。把人群粗暴二分为B/A可能漏掉中间态的关键洞察。
+- claim:boundary-04 [conf=0.80] **案例大爆炸的规模门槛未量化**：36计要300个案例才稳定、开会清单150个技巧——不同领域的饱和态规模差异可能极大。缺少判断「何时算饱和」的操作性标准（Chao1 estimator? 边际收益递减阈值?）。
 
-## [Synthesis]
+- claim:boundary-05 [conf=0.80] **千人广场模型的Before/After划分过于二元**：950个「不行的人」内部差异巨大——有的是认知问题、有的是执行问题、有的是场景不匹配。把人群粗暴二分为B/A可能漏掉中间态的关键洞察。
 
-### 关联卡片
+## Framework Gallery
 
-- [[yt-model-personal-map]] — 个人修炼地图（知识萃取属于迭代层「学得更多」路径的核心能力）
-- [[yt-model-management-map]] — 管理地图（团队级萃取对应L3管团队「做沉淀」）
-- [[yt-model-progress-map]] — 进步大地图（知识萃取是一切方法论生产的基础设施）
-- [[yt-model-y-organization]] — Y模型（实事求是解放思想是萃取的心法底座）
-- [[yt-model-ipo-learning-strategy]] — IPO学习策略（萃取本质上是IPO在方法论生产上的应用）
-- [[yt-system-course-catalog]] — 全课程目录（萃取是各门课程背后的生产能力）
-- [[一堂]] — 一堂实体页
+### 关联框架卡
+- [[yt-model-ipo-learning-strategy]]
+- [[yt-model-management-map]]
+- [[yt-model-personal-map]]
+- [[yt-model-progress-map]]
+- [[yt-model-y-organization]]
 
-### 知识体系定位
+## Synthesis
 
-知识萃取是一堂整个方法论体系的**生产引擎**——不是某一门课，而是生产所有课的能力。在四张地图中它横跨个人（个人级萃取）、管理（团队级萃取/做沉淀）、创业（行业级萃取/学科建模）三个维度。可以理解为一堂的「元能力」（meta-skill）：其他方法论是产品，知识萃取是产线。
-
-课程本身属于个人修炼模块的高级探索营（非全员必修），因为难度太大——Truman明确说「不敢奢求把大家教会，只能给个手电筒照照路」。
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-model-personal-map]] | 个人修炼地图（知识萃取属于迭代层「学得更多」路径的核心能力） |
+| 关联框架 | [[yt-model-management-map]] | 管理地图（团队级萃取对应L3管团队「做沉淀」） |
+| 关联框架 | [[yt-model-progress-map]] | 进步大地图（知识萃取是一切方法论生产的基础设施） |
+| 关联框架 | [[yt-model-y-organization]] | Y模型（实事求是解放思想是萃取的心法底座） |
+| 关联框架 | [[yt-model-ipo-learning-strategy]] | IPO学习策略（萃取本质上是IPO在方法论生产上的应用） |
+| 关联 | [[yt-system-course-catalog]] | 全课程目录（萃取是各门课程背后的生产能力） |
+| 实体页 | [[一堂]] | 一堂实体页 |

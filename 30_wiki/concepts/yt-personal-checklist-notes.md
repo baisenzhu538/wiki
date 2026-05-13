@@ -1,9 +1,32 @@
 ---
+id: yt-personal-checklist-notes
 title: 清单体笔记
-type: concept
+type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.8
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- '"可检查"标准的二值化假设'
+- 一堂内部应用案例
+- 关联卡片
+- 到僵化
+- 模型的关系
+- 清单体笔记
+- 清单式笔记与
+- 清单式笔记的核心方法
+- 清单的"去情境化"风险
+- 清单的可迁移性挑战
+tags:
+- '#yitang'
+trust_level: medium
 yitang:
   map: personal
   module: 清单体笔记
@@ -14,11 +37,9 @@ yitang:
 source_refs: []
 created_at: '2026-05-06'
 updated_at: '2026-05-08'
-reviewed_by: 黄药师
 review_date: '2026-05-08'
-trust_level: medium
-tags:
-  - '#yitang'
+estimated_tokens: 3000
+reviewed_by: 黄药师
 ---
 # 清单体笔记
 
@@ -28,7 +49,7 @@ tags:
 
 清单式笔记是一堂"练能力"模块中的核心训练课，定位于帮助学员从"信息搬运式笔记"转向"解题式笔记"。课程核心命题：大多数人的笔记是"知识的仓库"而非"思考的工具"——抄录了内容却未转化为可执行的行动指南。清单式笔记的关键转换在于：把笔记从"我学到了什么"改为"我接下来要做什么/检查什么"。
 
-## [Condense]
+## Claims
 
 ### 笔记的三种范式
 
@@ -68,7 +89,8 @@ tags:
 
 同时，清单也是 **Process 端"存储记忆"的外挂工具**——Truman 在 IPO 课中强调"大多数人大脑只有内存没有硬盘"，清单就是硬盘的一种最高效格式。
 
-## [Critique]
+## Constraints & Boundaries
+
 
 ### 1. 清单的"去情境化"风险——从 SOP 到僵化
 
@@ -82,38 +104,18 @@ tags:
 
 Truman 销冠小抄案例中，清单是从特定销冠的特定话术中提取的——清单本身承载了大量该销冠的隐性知识（语感、时机判断、情绪感知）。把同样的清单交给另一个性格/风格不同的人，可能效果大减。清单在多大程度上可以跨人迁移，取决于萃取者的抽象能力——这一前提未被充分强调。
 
-## [Synthesis]
+## Framework Gallery
 
-### 关联卡片
+### 关联框架卡
 
-- [[一堂方法论体系总图]] — 清单式笔记在个人地图"练能力"模块中的定位
-- [[yitang-course-map]] — 课程大地图，"我选记笔记"为选课口令
-- [[yt-system-course-catalog]] — 全课程目录，属于"不断练能力"之"练记笔记"
-- [[yt-personal-knowledge-extraction]] — 知识萃取方法论，清单是萃取产出物中最基础的层次（Check List → 画布/模板 → N 步法/方法论），Truman 的六阶段成长从清单起步
-- [[yt-personal-ipo-learning]] — IPO 科学学习模型，清单式笔记是输出环节的核心外化形式，也是处理环节存储记忆的外部工具
-- [[yt-personal-deliberate-practice]] — 刻意练习课；清单为刻意练习提供"可重复执行"的操作框架——没有清单的练习是低效的，没有练习的清单是死的
-- [[yt-personal-deep-review]] — 深度复盘课；复盘四步法本身就是一个清单式操作框架
+## Synthesis
 
-### 知识体系定位
-
-```
-个人必修（Personal Map）
-├── 提认知
-│   ├── 时间管理 (401)
-│   ├── IPO 科学学习 (402)
-│   ├── 深度复盘
-│   └── 知识管理 (405)
-├── 练能力
-│   ├── 刻意练习 (406)
-│   ├── 清单式笔记 (407) ← 本卡片
-│   ├── 灵感闪现 (518)
-│   ├── 逐字稿 (408)
-│   ├── 十指销讲模型 (409)
-│   └── 科学表达/火箭模型 (410)
-└── 形成竞争力
-    ├── 泛产品设计力
-    ├── AI 能力（双模型）
-    └── 人生红点
-```
-
-**跨层关联**：清单式笔记在萃取体系中是 L1 层次（Check List）的操作化训练，向上可发展为模板/画布（L2）和 N 步法（L3），向下可直接对接所有课程的学习输出——本质上是"将方法转化为行动"的通用桥梁。
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 实体页 | [[一堂方法论体系总图]] | 清单式笔记在个人地图"练能力"模块中的定位 |
+| 关联 | [[yitang-course-map]] | 课程大地图，"我选记笔记"为选课口令 |
+| 关联 | [[yt-system-course-catalog]] | 全课程目录，属于"不断练能力"之"练记笔记" |
+| 关联工具 | [[yt-personal-knowledge-extraction]] | 知识萃取方法论，清单是萃取产出物中最基础的层次（Check List → 画布/模板 → N 步法/方法论），Truman 的六阶段成长从清单起步 |
+| 关联工具 | [[yt-personal-ipo-learning]] | IPO 科学学习模型，清单式笔记是输出环节的核心外化形式，也是处理环节存储记忆的外部工具 |
+| 关联工具 | [[yt-personal-deliberate-practice]] | 刻意练习课；清单为刻意练习提供"可重复执行"的操作框架——没有清单的练习是低效的，没有练习的清单是死的 |
+| 关联工具 | [[yt-personal-deep-review]] | 深度复盘课；复盘四步法本身就是一个清单式操作框架 |

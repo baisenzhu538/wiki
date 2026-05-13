@@ -1,23 +1,44 @@
 ---
-title: "思维模型：从碎片经验到稳定模型"
-type: concept
+id: yt-personal-thinking-models
+title: 思维模型：从碎片经验到稳定模型
+type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: foundational
+confidence: 0.8
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 一堂做课供应链模型
+- 为什么提炼模型是最核心的能力
+- 从碎片经验到稳定模型
+- 做课模型演化史
+- 思维模型
+- 思维模型：从碎片经验到稳定模型
+- 教学创新
+- 脱敏版
+- 角色推演法
+tags:
+- '#yitang'
+- '#mental-models'
+- '#knowledge-extraction'
+- '#thinking'
 yitang:
   map: personal
-  module: "个人修炼"
+  module: 个人修炼
   course_type: explore_camp
   level: advanced
 source_refs:
-  - "00_inbox/一堂-个人修身-思维模型口述版.md"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#mental-models"
-  - "#knowledge-extraction"
-  - "#thinking"
+- 00_inbox/一堂-个人修身-思维模型口述版.md
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1853
+reviewed_by: 黄药师
 ---
 
 # 思维模型：从碎片经验到稳定模型
@@ -28,7 +49,7 @@ tags:
 
 思维模型是一堂VIP专属案例营，Truman 首次以"角色推演"教学法公开自己做课能力从0到1的完整建模历程。核心主张：提炼模型的能力是 CEO/一号位/管理者的核心能力——只有不断实践、总结、复盘、建模，才能避免在低水平线上重复。课程采用3+X机制（三人分享 + 开放麦），Truman 讲做课供应链模型（如何一周交付一节原创硬课），水水讲读书模型（从不爱读书到年读百本），子敬讲投资模型（早期投资能否科学化）。
 
-## [Condense]
+## Claims
 
 ### 为什么提炼模型是最核心的能力
 
@@ -61,16 +82,25 @@ tags:
 - 一共六道题，看学员能推到第几步
 - 目的：不是抄作业，而是理解模型是怎么被"找出来"的
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **一周一课的工业化模型不可持续**：Truman 自己也承认这是"核心能力"但做了脱敏——暗示竞争压力。从外部视角看，一周一课的节奏对团队消耗极大，且深度依赖Truman个人能力。
 
-2. **"模型"概念的泛化风险**：课程中将雷达图、三部曲、岗位模型都叫"模型"——这可能导致学员以为"画个框架图"就是建了模型，忽略了模型的验证和迭代才是核心。
+- claim:boundary-01 [conf=0.80] **一周一课的工业化模型不可持续**：Truman 自己也承认这是"核心能力"但做了脱敏——暗示竞争压力。从外部视角看，一周一课的节奏对团队消耗极大，且深度依赖Truman个人能力。
 
-## [Synthesis]
+- claim:boundary-02 [conf=0.80] **"模型"概念的泛化风险**：课程中将雷达图、三部曲、岗位模型都叫"模型"——这可能导致学员以为"画个框架图"就是建了模型，忽略了模型的验证和迭代才是核心。
 
-- [[yt-personal-knowledge-extraction]] — 知识萃取方法论（做课背后的萃取引擎）
-- [[yt-model-liberate-thinking-layers]] — 解放思想层级（建模对应L3方法模型→L4本质）
-- [[yt-model-ipo-learning-strategy]] — IPO学习策略（建模 = Process层的深度加工）
-- [[yt-personal-y-model-practice]] — Y模型实操（Y模型是所有模型的元模型）
-- [[一堂]] — 一堂实体页
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-ipo-learning-strategy]]
+- [[yt-model-liberate-thinking-layers]]
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联工具 | [[yt-personal-knowledge-extraction]] | 知识萃取方法论（做课背后的萃取引擎） |
+| 关联框架 | [[yt-model-liberate-thinking-layers]] | 解放思想层级（建模对应L3方法模型→L4本质） |
+| 关联框架 | [[yt-model-ipo-learning-strategy]] | IPO学习策略（建模 = Process层的深度加工） |
+| 关联工具 | [[yt-personal-y-model-practice]] | Y模型实操（Y模型是所有模型的元模型） |
+| 实体页 | [[一堂]] | 一堂实体页 |
