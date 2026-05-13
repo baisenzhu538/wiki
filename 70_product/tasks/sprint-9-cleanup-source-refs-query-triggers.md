@@ -1,7 +1,7 @@
 ---
 id: sprint-9-cleanup-source-refs-query-triggers
 title: "Sprint 9：修复 source_refs 空值 + query_triggers 污染"
-status: pending
+status: completed
 priority: P0
 assigned_to: 黄药师
 reviewer: 欧阳锋
@@ -128,4 +128,60 @@ query_triggers:
 - [ ] `grep '"00_inbox' 30_wiki/concepts/yt-*.md` → 0 hits（全局仅剩 paddleocr-skill.md）
 - [ ] 抽查 3 张 entrepreneur 卡 query_triggers → 全部真实搜索词
 - [ ] 抽查 3 张 personal 卡 query_triggers → 全部真实搜索词
-- [ ] 抽查 2 张 entrepreneur 卡 Constraints → 至少 1 条该工具特有边界
+- [x] 抽查 2 张 entrepreneur 卡 Constraints → 至少 1 条该工具特有边界
+
+---
+
+## 最终交付报告（2026-05-14 黄药师）
+
+### Phase 1：source_refs 空值修复
+
+| 指标 | 结果 |
+|------|------|
+| 修复前空值卡数 | 52 |
+| 修复后空值卡数 | 0 |
+| 引用模式 | 48 卡 → `10_raw/sources/一堂-课程地图精华串讲.md`；12 model 卡 → 额外补充 `10_raw/assets/yitang/` 对应图片 |
+| KF-020: 00_inbox 引用 | 0 hits |
+
+### Phase 2：query_triggers 重写
+
+| 指标 | 结果 |
+|------|------|
+| 处理卡数 | 31（21 entrepreneur + 10 personal） |
+| 污染类型 | section header 文本（"与一堂方法论的关系"/"关联卡片"等）、Claims 片段、Constraints 回音 |
+| 替换后每卡条目 | 8-10 条真实中文搜索词 |
+| 验证 | 全局 0 条污染残留 |
+
+### Phase 3：Constraints 去模板化
+
+| 指标 | 结果 |
+|------|------|
+| 处理卡数 | 20 张 entrepreneur 卡 |
+| 原 Constraints | 全部 3 条完全相同模板（信息损失 + 前提假设 + 知行鸿沟） |
+| 新增 | 每卡 1 条工具特有 `### 4.` constraint |
+| 边界类型分布 | 前置条件 4、场景失效 4、典型失败模式 4、工具盲区 4、场景不适用 2、其他 2 |
+
+### 质量门禁
+
+- [x] `grep 'source_refs: []' 30_wiki/concepts/yt-*.md` → 0 hits ✅
+- [x] `grep '"00_inbox' 30_wiki/concepts/yt-*.md` → 0 hits ✅
+- [x] 抽查 3 张 entrepreneur 卡 query_triggers → 全部真实搜索词 ✅
+- [x] 抽查 3 张 personal 卡 query_triggers → 全部真实搜索词 ✅
+- [x] 抽查 2 张 entrepreneur 卡 Constraints → 至少 1 条该工具特有边界 ✅
+- [x] `python3 -m kdo lint` → 0 errors, 350 warnings（全部为旧卡/非 yt 卡） ✅
+
+### 已更新文件
+
+| 类别 | 数量 | 操作 |
+|------|:----:|------|
+| yt-entrepreneur-*.md | 21 | source_refs + query_triggers + Constraints |
+| yt-management-*.md | 15 | source_refs |
+| yt-model-*.md | 12 | source_refs |
+| yt-personal-*.md | 10 | source_refs + query_triggers |
+| yt-system-course-catalog.md | 1 | source_refs |
+
+### 已知问题（非阻塞）
+
+- kdo lint 的 350 warnings 全部来自非 yt 卡（调研报告、中文名文件）的历史问题
+- 管理域和系统域卡片的 query_triggers 未在本次 sprints 范围内（Sprint 9 范围限定 entrepreneur + personal non-panproduct）
+- 管理域和系统域卡片的 Constraints 未在本次 sprint 范围内
