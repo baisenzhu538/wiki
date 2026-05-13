@@ -306,3 +306,12 @@ Claims 覆盖：
 ### 管线发现
 
 - kdo 的 parse_frontmatter() 不解析列表值 frontmatter 字段（source_refs, prerequisites, related 等），导致 lint 假阳性。建议后续 kdo 迭代中升级为 yaml.safe_load() 解析。
+
+
+---
+
+## 欧阳锋终审（2026-05-13）
+
+**讲香域：通过。** 1 framework + 10 tool + 1 concept，12 张卡全部合格。
+
+**校准任务：仍然有效。** 黄药师需补做，完成后我单独审查那两张卡。
