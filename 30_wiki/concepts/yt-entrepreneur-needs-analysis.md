@@ -1,23 +1,47 @@
 ---
-title: "需求分析"
-type: concept
+id: yt-entrepreneur-needs-analysis
+title: 需求分析
+type: tool
 status: enriched
-domain: ['yitang']
+domain:
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.8
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- '"需求定义过大"的归因可能是一种事后叙事'
+- 三步剥离法
+- 为什么需求分析是创业的起点
+- 六层冰山模型
+- 关联卡片
+- 四字诀
+- 四字诀在不同行业的适用性差异被低估
+- 微观体感的可教性存疑
+- 拆推评算
+- 推演的完整过程
+tags:
+- '#yitang'
+trust_level: high
 yitang:
   map: entrepreneur
-  module: "需求分析"
-  course_id: "yt-entrepreneur-needs-analysis"
+  module: 需求分析
+  course_id: yt-entrepreneur-needs-analysis
   course_type: method
   level: foundational
   series: false
-source_refs: ["src_20260507_0872c7b3", "src_20260507_3120ec58"]
-created_at: "2026-05-06"
-updated_at: "2026-05-07"
-reviewed_by: "黄药师"
-review_date: "2026-05-07"
-trust_level: high
-tags:
-  - "#yitang"
+source_refs:
+- src_20260507_0872c7b3
+- src_20260507_3120ec58
+created_at: '2026-05-06'
+updated_at: '2026-05-07'
+estimated_tokens: 3000
+reviewed_by: 黄药师
+review_date: '2026-05-07'
 ---
 
 # 需求分析
@@ -28,7 +52,7 @@ tags:
 
 需求分析是一堂五步法的起点，核心工具是"拆推评算"四字诀。课程从 JTBD（Jobs To Be Done）理论出发，构建了一套六层冰山模型：从表层用户标签拆分，到核心任务定义、任务地图分解、深层动机挖掘（四种力量/三种任务/微观体感），最终落成可验证的假设卡片。课程揭示了一个核心归因：大量创业失败源于需求定义过大、未经细拆推演，导致"乍一听很好，一分析全是硬伤"。
 
-## [Condense]
+## Claims
 
 ### 为什么需求分析是创业的起点
 
@@ -113,7 +137,8 @@ tags:
 
 课程用了一个贯穿案例：六家公司（A→F）分别对应 L1→L6 水平，同一个"隔代育儿"赛道，不同深度的需求洞察带来完全不同的创业成功率。A 公司只会打用户标签，F 公司能产出 4 张具体假设卡片（情景化沟通话术生成器、祖辈成就放大器、宝宝行为周报、祖辈育儿盟友社交圈），每个卡片都有清晰的机会假设+风险假设。
 
-## [Critique]
+## Constraints & Boundaries
+
 
 ### 1. "需求定义过大"的归因可能是一种事后叙事
 
@@ -135,37 +160,18 @@ tags:
 
 课程反复强调在 L3-L6 阶段"完全不考虑解决方案，只讨论客观世界的客观事实"。但在实践中，任何创业者都带着行业认知和解决方案倾向进入分析——完全剥离的"真空区域"更像是一个理想型（ideal type）而非可操作状态。更诚实的表述或许是：**努力觉察并暂悬自己的解决方案倾向**，而非假装它能被完全剥离。
 
-## [Synthesis]
+## Framework Gallery
 
-### 关联卡片
+### 关联框架卡
 
-- [[一堂方法论体系总图]] — 需求分析在一堂整个方法论体系中的定位
-- [[yitang-course-map]] — 创业地图（entrepreneur map）课程索引
-- [[yt-system-course-map-lecture]] — 体系课地图讲授课内容
-- [[yt-entrepreneur-five-step-method]] — 同为五步法环节，需求分析是第一步，后续依次为解决方案/产品定义、验证/实验、增长/规模化
-- [[yt-entrepreneur-key-hypotheses]] — L6 假设卡片直接对接关键假设方法论，前置假设优先原则在需求分析中体现为 L3→L6 层层收敛
-- [[yt-entrepreneur-unit-model]] — 三步剥离法中第一次剥离（商业模式级）的核心工具，需求分析的前提是能先把需求从商业模式中剥离出来
-- [[yt-entrepreneur-lean-validation]] — 需求分析形成的假设卡片是精益验证的输入，拆得越细验证成本越低
+## Synthesis
 
-### 知识体系定位
-
-需求分析在一堂知识树中的位置：
-
-```
-一堂五步法
-├── Step 1: 需求分析 ← 本卡片
-│   ├── 拆（用户/场景/问题标签）
-│   ├── 推（六层冰山 L1-L6）
-│   ├── 评（重要性-满意度排序）
-│   └── 算（天花板定量）
-├── Step 2: 解决方案/产品定义
-├── Step 3: 验证/实验
-├── Step 4: 增长/规模化
-└── Step 5: 壁垒/护城河
-```
-
-### 跨学科锚点
-
-- **JTBD 理论**起源于克里斯坦森《创新者的解答》（The Innovator's Solution），是颠覆性创新理论在需求洞察层面的实战延伸。
-- **四种力量模型**与俞军的"新体验 - 旧体验 - 切换成本"产品价值公式以及一堂自身的"动力-阻力-触点"模型同源异构，适合交叉验证。
-- **重要性-满意度矩阵**是 Kano 模型和市场调研中 IPA（Importance-Performance Analysis）的变种应用。
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 实体页 | [[一堂方法论体系总图]] | 需求分析在一堂整个方法论体系中的定位 |
+| 关联 | [[yitang-course-map]] | 创业地图（entrepreneur map）课程索引 |
+| 关联 | [[yt-system-course-map-lecture]] | 体系课地图讲授课内容 |
+| 关联工具 | [[yt-entrepreneur-five-step-method]] | 同为五步法环节，需求分析是第一步，后续依次为解决方案/产品定义、验证/实验、增长/规模化 |
+| 关联工具 | [[yt-entrepreneur-key-hypotheses]] | L6 假设卡片直接对接关键假设方法论，前置假设优先原则在需求分析中体现为 L3→L6 层层收敛 |
+| 关联工具 | [[yt-entrepreneur-unit-model]] | 三步剥离法中第一次剥离（商业模式级）的核心工具，需求分析的前提是能先把需求从商业模式中剥离出来 |
+| 关联工具 | [[yt-entrepreneur-lean-validation]] | 需求分析形成的假设卡片是精益验证的输入，拆得越细验证成本越低 |

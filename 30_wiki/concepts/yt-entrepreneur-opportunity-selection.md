@@ -1,23 +1,45 @@
 ---
-title: "机会选择"
-type: concept
+id: yt-entrepreneur-opportunity-selection
+title: 机会选择
+type: tool
 status: enriched
-domain: ['yitang']
+domain:
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.8
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 与一堂方法论的关系
+- 从知道到做到的鸿沟
+- 关联卡片
+- 关键概念
+- 学习建议
+- 方法论的前提假设需要检验
+- 机会选择
+- 核心定位
+- 知识体系定位
+- 线下课程到卡片化存在信息损失
+tags:
+- '#yitang'
+trust_level: medium
 yitang:
   map: entrepreneur
-  module: "机会选择"
-  course_id: "yt-entrepreneur-opportunity-selection"
+  module: 机会选择
+  course_id: yt-entrepreneur-opportunity-selection
   course_type: method
   level: core
   series: false
 source_refs: []
-created_at: "2026-05-06"
-updated_at: "2026-05-08"
-reviewed_by: "黄药师"
-review_date: "2026-05-08"
-trust_level: medium
-tags:
-  - "#yitang"
+created_at: '2026-05-06'
+updated_at: '2026-05-08'
+estimated_tokens: 1849
+reviewed_by: 黄药师
+review_date: '2026-05-08'
 ---
 
 # 机会选择
@@ -28,7 +50,7 @@ tags:
 
 机会预判，一堂预判阶段的核心课程。讲如何从众多创业方向中筛选出真正值得做的机会。
 
-## [Condense]
+## Claims
 
 ### 核心定位
 
@@ -46,7 +68,8 @@ tags:
 
 本课程是一堂五步法体系（需求-方案-验证-增长-壁垒）在预判阶段环节的具体展开。一堂方法论的核心原则贯穿始终：关键假设优先、最小成本验证、前置判断前置做。
 
-## [Critique]
+## Constraints & Boundaries
+
 
 ### 1. 线下课程到卡片化存在信息损失
 
@@ -60,31 +83,18 @@ tags:
 
 与其他一堂课程一样，这门课最大的挑战不是内容深度不够，而是学员能否在实际工作中持续应用。知道一个方法和遇到问题能想到用它之间有一条需要大量刻意练习才能跨越的鸿沟。
 
-## [Synthesis]
+## Framework Gallery
 
-### 关联卡片
+### 关联框架卡
+- [[yt-model-entrepreneur-map]]
 
-- [[yitang-course-map]] — 一堂全课程地图，本课程的知识坐标
-- [[yt-system-course-catalog]] — 全量课程目录与选课口令
-- [[yt-entrepreneur-five-step-method]] — 一堂五步法总纲
-- [[yt-entrepreneur-scientific-method]] — 科学理念，底层世界观
-- [[yt-entrepreneur-key-hypotheses]] — 关键假设方法论
-- [[yt-model-entrepreneur-map]] — 创业地图总模型
+## Synthesis
 
-### 知识体系定位
-
-```
-一堂创业知识树
-├── 底层逻辑（科学理念/实事求是/解放思想）
-├── 预判阶段（机会/行业/集中度/里程碑/五步法）
-├── 起盘阶段（产品内核/单元模型/调研/实验/增长飞轮）
-├── 增长阶段（融资/销售/渠道）
-└── 案例拆解（搞砸之夜/最佳实践/落地之夜）
-```
-
-### 学习建议
-
-1. 先学底层逻辑四门课（科学理念/实事求是/解放思想/务实创业）建立认知框架
-2. 再学五步法总纲，理解完整方法论闭环
-3. 然后根据自己的创业阶段选择对应模块深入学习
-4. 配合案例拆解课程（搞砸之夜/最佳实践）进行对照学习，效果最佳
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联 | [[yitang-course-map]] | 一堂全课程地图，本课程的知识坐标 |
+| 关联 | [[yt-system-course-catalog]] | 全量课程目录与选课口令 |
+| 关联工具 | [[yt-entrepreneur-five-step-method]] | 一堂五步法总纲 |
+| 关联工具 | [[yt-entrepreneur-scientific-method]] | 科学理念，底层世界观 |
+| 关联工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设方法论 |
+| 关联框架 | [[yt-model-entrepreneur-map]] | 创业地图总模型 |

@@ -1,23 +1,42 @@
 ---
-title: "调研行动营：从调研认知到AI调研武器库"
-type: concept
+id: yt-entrepreneur-research-camp
+title: 调研行动营：从调研认知到AI调研武器库
+type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.8
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- 三轮学习设计
+- 从调研认知到AI调研武器库
+- 第0期的特殊性
+- 调研段位
+- 调研行动营
+- 调研行动营：从调研认知到AI调研武器库
+- 调研黑客五步曲
+tags:
+- '#yitang'
+- '#entrepreneurship'
+- '#research'
+- '#market-research'
 yitang:
   map: entrepreneur
-  module: "创业必修"
+  module: 创业必修
   course_type: action_camp
   level: intermediate
 source_refs:
-  - "10_raw/sources/一堂-创业-调研行动营口述01.md"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#entrepreneurship"
-  - "#research"
-  - "#market-research"
+- 10_raw/sources/一堂-创业-调研行动营口述01.md
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 1863
+reviewed_by: 黄药师
 ---
 
 # 调研行动营：从调研认知到AI调研武器库
@@ -28,7 +47,7 @@ tags:
 
 调研行动营是一堂2026年推出的"第0期"创新教学产品——三轮学习打通调研能力：第一轮打通认知（调研是什么/为什么重要），第二轮学会AI实操（用AI工具做调研），第三轮完成迭代（现场点评作业+升级方法论）。核心主张：调研能力有清晰的段位（L1-L6），大多数人卡在第二段位"不知道到底该怎么再往上提升"。本次行动营的特殊性：包含时效性内容和现场点评，可能不会上架课程库——"只此一次"。
 
-## [Condense]
+## Claims
 
 ### 三轮学习设计
 
@@ -66,16 +85,24 @@ tags:
 - 可能不会上架课程库——"只此一次，千万别等着后面课程上架再去选课学习"
 - 2026年一堂将进行大量课程模式迭代——"你们会见到一个非常不一样的"
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **"只此一次"的稀缺性策略与知识资产化矛盾**：如果调研行动营真的包含独特方法论，不上架意味着知识资产流失。稀缺性可能是营销策略，但如果真的不上架，后续学员无法受益。
 
-2. **AI调研的效果边界未明确**：行动营强调用AI做调研，但调研中最难的部分（专家隐性知识提取、数据可信度判断）是AI难以替代的。需要区分"AI能加速的"和"人必须自己做的"。
+- claim:boundary-01 [conf=0.80] **"只此一次"的稀缺性策略与知识资产化矛盾**：如果调研行动营真的包含独特方法论，不上架意味着知识资产流失。稀缺性可能是营销策略，但如果真的不上架，后续学员无法受益。
 
-## [Synthesis]
+- claim:boundary-02 [conf=0.80] **AI调研的效果边界未明确**：行动营强调用AI做调研，但调研中最难的部分（专家隐性知识提取、数据可信度判断）是AI难以替代的。需要区分"AI能加速的"和"人必须自己做的"。
 
-- [[yt-entrepreneur-research-cognition]] — 调研认知篇（行动营的前置理论课）
-- [[yt-entrepreneur-five-step-method]] — 创业五步法（调研是五步法中"情报调研"环节的深度展开）
-- [[yt-model-ipo-learning-strategy]] — IPO学习策略（三轮学习 = I→P→O的完整闭环）
-- [[yt-personal-knowledge-extraction]] — 知识萃取（调研本质上是萃取的外部信息版）
-- [[一堂]] — 一堂实体页
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-ipo-learning-strategy]]
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联工具 | [[yt-entrepreneur-research-cognition]] | 调研认知篇（行动营的前置理论课） |
+| 关联工具 | [[yt-entrepreneur-five-step-method]] | 创业五步法（调研是五步法中"情报调研"环节的深度展开） |
+| 关联框架 | [[yt-model-ipo-learning-strategy]] | IPO学习策略（三轮学习 = I→P→O的完整闭环） |
+| 关联工具 | [[yt-personal-knowledge-extraction]] | 知识萃取（调研本质上是萃取的外部信息版） |
+| 实体页 | [[一堂]] | 一堂实体页 |

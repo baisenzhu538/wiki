@@ -1,23 +1,43 @@
 ---
-title: "SPIN销售法：顾问式销售的奠基之作"
-type: concept
+id: yt-entrepreneur-spin-selling
+title: SPIN销售法：顾问式销售的奠基之作
+type: tool
 status: enriched
 domain:
-  - yitang
+- yitang
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.8
+prerequisites: []
+component_of: []
+related: []
+contradicts: []
+query_triggers:
+- SPIN四步法
+- SPIN销售法
+- SPIN销售法：顾问式销售的奠基之作
+- 与传统销售的关键区分
+- 书籍地位
+- 核心洞见
+- 读书会结构
+- 顾问式销售的奠基之作
+tags:
+- '#yitang'
+- '#entrepreneurship'
+- '#sales'
+- '#spin-selling'
 yitang:
   map: entrepreneur
-  module: "创业必修"
+  module: 创业必修
   course_type: book_club
   level: intermediate
 source_refs:
-  - "10_raw/sources/一堂-读书会-SPIN销售法口述.md"
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-tags:
-  - "#yitang"
-  - "#entrepreneurship"
-  - "#sales"
-  - "#spin-selling"
+- 10_raw/sources/一堂-读书会-SPIN销售法口述.md
+created_at: '2026-05-11'
+updated_at: '2026-05-11'
+estimated_tokens: 2236
+reviewed_by: 黄药师
 ---
 
 # SPIN销售法：顾问式销售的奠基之作
@@ -28,7 +48,7 @@ tags:
 
 SPIN Selling 是1988年出版的现代销售奠基之作——首次将科学实证引入销售领域，通过AB测试和数据实验颠覆传统销售方式（逼单、开白等）。它定义了此后30-50年故事式销售的范式，是B2B大客户销售的"圣经"，地位等同于营销学中的《定位》。核心理念：顾问式销售（Consultative Selling）——销售不是说服，而是通过提问帮客户发现自己需要改变。Truman 分两次读书会解读：第一次理论篇（前八章，SPIN四步法），第二次实践篇（后加章节）。
 
-## [Condense]
+## Claims
 
 ### 书籍地位
 
@@ -71,18 +91,26 @@ SPIN Selling 是1988年出版的现代销售奠基之作——首次将科学实
 - **上半场（本次）**：理论篇（前八章）——SPIN四步法的完整逻辑
 - **下半场（后续）**：实践篇（后加章节）——SPIN在具体场景中的应用
 
-## [Critique]
+## Constraints & Boundaries
 
-1. **SPIN的案例严重过时**：书中案例全部来自上世纪80-90年代，距今30+年。虽然方法论经典，但销售场景已剧变（数字化/远程销售/AI辅助），需要大量现代适配。
 
-2. **对To C和小额交易的适用性有限**：SPIN设计用于复杂B2B大客户销售（长周期/高金额/多决策者），对于To C场景（如电商/直播）的适配性需要批判性评估。
+- claim:boundary-01 [conf=0.80] **SPIN的案例严重过时**：书中案例全部来自上世纪80-90年代，距今30+年。虽然方法论经典，但销售场景已剧变（数字化/远程销售/AI辅助），需要大量现代适配。
 
-3. **"顾问式销售"在中国市场的本土化挑战**：中国商业文化中关系（Guanxi）的重要性可能高于方法论——SPIN假设客户理性决策，但在关系驱动的市场中，提问术的效果可能受限。
+- claim:boundary-02 [conf=0.80] **对To C和小额交易的适用性有限**：SPIN设计用于复杂B2B大客户销售（长周期/高金额/多决策者），对于To C场景（如电商/直播）的适配性需要批判性评估。
 
-## [Synthesis]
+- claim:boundary-03 [conf=0.80] **"顾问式销售"在中国市场的本土化挑战**：中国商业文化中关系（Guanxi）的重要性可能高于方法论——SPIN假设客户理性决策，但在关系驱动的市场中，提问术的效果可能受限。
 
-- [[yt-entrepreneur-scientific-method]] — 科学方法论（SPIN是科学方法在销售领域的最佳实践）
-- [[yt-entrepreneur-five-step-method]] — 创业五步法（SPIN对应增长阶段的科学销售环节）
-- [[yt-personal-knowledge-extraction]] — 知识萃取（SPIN本质上是萃取客户隐性需求的提问方法论）
-- [[yt-model-questioning-practice-canvas]] — 科学提问画布（SPIN四种问题类型与提问四个层次高度对应）
-- [[一堂]] — 一堂实体页
+## Framework Gallery
+
+### 关联框架卡
+- [[yt-model-questioning-practice-canvas]]
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联工具 | [[yt-entrepreneur-scientific-method]] | 科学方法论（SPIN是科学方法在销售领域的最佳实践） |
+| 关联工具 | [[yt-entrepreneur-five-step-method]] | 创业五步法（SPIN对应增长阶段的科学销售环节） |
+| 关联工具 | [[yt-personal-knowledge-extraction]] | 知识萃取（SPIN本质上是萃取客户隐性需求的提问方法论） |
+| 关联框架 | [[yt-model-questioning-practice-canvas]] | 科学提问画布（SPIN四种问题类型与提问四个层次高度对应） |
+| 实体页 | [[一堂]] | 一堂实体页 |
