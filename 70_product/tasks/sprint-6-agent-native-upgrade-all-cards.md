@@ -1,7 +1,7 @@
 ---
 id: sprint-6-agent-native-upgrade-all-cards
 title: "Sprint 6：全量卡片 Agent-Native 格式升级"
-status: in_progress
+status: completed
 priority: P0
 assigned_to: 黄药师
 reviewer: 欧阳锋
@@ -197,6 +197,51 @@ reviewed_by: "黄药师"
 - [x] 23/23 卡有 `id:`、`query_triggers:`、`estimated_tokens:`
 - [x] 23/23 `type: tool`
 
+### ✅ Batch 4 完成 (2026-05-13 黄药师)
+
+16 张 yt-personal-* 非 pan-product 工具卡全部升级完成。
+
+**Phase 1**: 无需操作（0 张卡有 00_inbox/ 引用）
+**Phase 2**: frontmatter 注入 agent-native 字段（type: tool, difficulty: foundational）
+**Phase 3**: body 格式升级：
+- `[Condense]` → `Claims`（16/16）
+- `## Framework Gallery` 新增（16/16）
+- `## Synthesis` 表格式转换（16/16）
+- `claim:boundary-NN` 格式转换（有 Critique 的卡）
+- 旧格式 headers 0 残留
+
+**质量门禁**:
+- [x] `grep '"00_inbox' yt-personal-*.md`（排除 pan-product）→ 0 hits
+- [x] kdo lint: 0 errors, 311 warnings（全部存量）
+- [x] 16/16 卡有 `id:`、`query_triggers:`、`estimated_tokens:`
+- [x] 16/16 `type: tool`
+
+---
+
+## Sprint 6 总完成报告
+
+| 批次 | 前缀 | 数量 | type | Phase 1 | Phase 2 | Phase 3 | 状态 |
+|------|------|------|------|---------|---------|---------|------|
+| Batch 1 | yt-panproduct-* + yt-personal-pan-product-* | 39 | tool | 30 files archived | frontmatter injected | body converted | ✅ |
+| Batch 2 | yt-model-* (非 pan-product) | 22 | framework | 12 PNGs archived | frontmatter injected | body converted | ✅ |
+| Batch 3 | yt-entrepreneur-* | 23 | tool | 3 MDs archived | frontmatter injected | body converted | ✅ |
+| Batch 4 | yt-personal-* (非 pan-product) | 16 | tool | 无需操作 | frontmatter injected | body converted | ✅ |
+| **合计** | | **100** | | | | | |
+
+**全局质量门禁**:
+- [x] `grep -r '"00_inbox' 30_wiki/concepts/yt-*.md` → **0 hits**（KF-020 合规）
+- [x] `kdo lint`: **0 errors**, 311 warnings（全部存量，非 yt-* 卡片）
+- [x] 100/100 卡有 `id:`、`query_triggers:`、`estimated_tokens:`
+- [x] 100/100 卡 `type:` 符合判定标准（22 framework + 78 tool）
+- [x] 旧格式 headers（`## [Condense]` / `## [Critique]` / `## [Synthesis]`）0 残留
+- [x] 100/100 卡有 `## Framework Gallery`
+- [x] Synthesis 表格式转换（有旧列表格式的卡全部转换）
+- [x] claim:boundary-NN 格式转换（有 Constraints 的卡全部转换）
+
+**归档文件**:
+- `10_raw/assets/yitang/`: +41 PNG（Batch 1: 29, Batch 2: 12）
+- `10_raw/sources/`: +4 MD（Batch 1: 1, Batch 3: 3）
+
 ## 质量门禁
 
 完成每个 Batch 后自查：
@@ -209,4 +254,8 @@ reviewed_by: "黄药师"
 
 ## 完成信号
 
-全部 4 个 Batch 完成后，通知 欧阳锋 做 Sprint 6 终审。
+## 交付通知
+
+Sprint 6 于 2026-05-13 完成。100 张卡片全部升级为 agent-native 格式。
+
+**已通知 欧阳锋 做 Sprint 6 终审。** 审查维度：Claims 完整性、Constraints 边界的合理性、graph edges（prerequisites/component_of/related/contradicts）是否为空待补、source_refs 合规性（KF-020）。
