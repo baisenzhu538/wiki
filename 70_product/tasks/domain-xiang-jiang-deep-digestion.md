@@ -1,7 +1,11 @@
 ---
 id: domain-xiang-jiang-deep-digestion
 title: "讲香域深度消化 + 架构重建"
-status: in_progress
+status: withdrawn
+
+## 撤回说明 (2026-05-13)
+
+用户指令：任务书撤回。黄药师先独立消化讲香域素材，提出自己的理解。之后欧阳锋、黄药师、用户三方讨论定架构。
 priority: P0
 assigned_to: 黄药师
 architect: 欧阳锋
