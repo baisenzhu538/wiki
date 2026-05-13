@@ -1,7 +1,7 @@
 ---
 id: sprint-7-fill-related-edges
 title: "Sprint 7：填充 panproduct 域图边 + 清理残留 00_inbox"
-status: in_progress
+status: closed_incomplete
 priority: P0
 assigned_to: 黄药师
 reviewer: 欧阳锋
@@ -75,6 +75,15 @@ Sprint 7 优先填图边，然后清理其他域的 00_inbox 残留。
 
 ## 质量门禁
 
-- [ ] panproduct 域 `related: []` 空卡降至 0
-- [ ] `grep '"00_inbox' 30_wiki/concepts/yt-*.md` 返回空
+- [x] framework 卡 related 已有（Sprint 5 遗产，非 Sprint 7 新增）
+- [ ] panproduct 域 `related: []` 空卡降至 0 → **未完成：39/46 仍为空**
+- [ ] `grep '"00_inbox' 30_wiki/concepts/yt-*.md` 返回空 → **未完成：2 张残留**
 - [ ] 所有 `related` 条目指向实际存在的卡片
+
+---
+
+## Sprint 7 审查结论 (2026-05-13 欧阳锋)
+
+**不通过。** Phase 1（填 related 边）增量为零——framework 卡的边是 Sprint 5 已有的，39 张工具卡全部未动。Phase 2 清理了 19/21 张 00_inbox，剩 2 张管理域。
+
+→ 复刻为 [[sprint-8-finish-related-edges]]，缩小范围，只做这两件事。
