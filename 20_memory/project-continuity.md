@@ -11,6 +11,17 @@
 - **待执行**：黄药师完成当前工作后领取校准任务
 - **欧阳锋审查标准**：不再做程序性 checkbox 检查，每条 constraint 必须有具体场景 + 可验证的失败模式
 
+## 2026-05-13：讲香域完成 + 校准通过 + 提示词工程启动
+
+- **讲香域全部完成**：[[domain-xiang-jiang-deep-digestion]] → completed。12 张新卡（1 framework + 10 tool + 1 concept），格式门禁+理解门禁双通过
+- **校准任务通过**：[[calibration-understanding-gate-motivation-peakend]] → completed。黄药师第二轮交付质量高于第一轮，理解门禁标准已被内化
+- **C-8 已录入**：批处理格式升级产生"格式完整但思维空洞"卡片的失败模式
+- **理解门禁制度化**：写入 `operating-principles.md` 第 6 条，成为欧阳锋审查硬标准
+- **新任务**：[[domain-prompt-engineering-andre-ng]] — 吴恩达提示词课程消化 + 人机协作技能内化
+- **新材料**：一堂拆书会吴恩达提示词课程口述稿（~2700行）+ PDF课件（1.4MB）
+- **关键判断**：提示词工程是人机协作的操作系统层知识——需产出 wiki 卡 + executable skills/playbooks
+- **活跃角色**：黄药师（执行），欧阳锋（审查+架构）
+
 ## 2026-05-12：Sprint 5 关闭 / Sprint 6 启动
 
 - **Sprint 5 完成**：7 张 composite+framework 卡 agent-native 升级通过质量门禁
