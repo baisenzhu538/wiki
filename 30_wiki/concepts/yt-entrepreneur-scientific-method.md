@@ -10,7 +10,7 @@ yitang:
   course_type: method
   level: foundational
   series: false
-source_refs: ["00_inbox/ideas/一堂-课程地图精华串讲.md"]
+source_refs: ["10_raw/sources/一堂-课程地图精华串讲.md"]
 created_at: "2026-05-06"
 updated_at: "2026-05-09"
 trust_level: medium

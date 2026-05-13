@@ -10,7 +10,7 @@ yitang:
   course_type: book_club
   level: intermediate
 source_refs:
-  - "00_inbox/一堂-读书会-SPIN销售法口述.md"
+  - "10_raw/sources/一堂-读书会-SPIN销售法口述.md"
 created_at: "2026-05-11"
 updated_at: "2026-05-11"
 tags:
