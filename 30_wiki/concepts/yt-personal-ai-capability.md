@@ -11,7 +11,11 @@ difficulty: foundational
 confidence: 0.8
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-needs-analysis
+  - yt-personal-ipo-learning
+  - yt-personal-knowledge-extraction
+  - yt-personal-product-design
 contradicts: []
 query_triggers:
 - AI能力

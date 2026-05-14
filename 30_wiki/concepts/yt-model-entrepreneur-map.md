@@ -11,7 +11,10 @@ difficulty: foundational
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-model-management-map
+  - yt-model-progress-map
+  - yt-model-y-organization
 contradicts: []
 query_triggers:
 - 三阶段结构

@@ -11,7 +11,12 @@ difficulty: foundational
 confidence: 0.8
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-scientific-method
+  - yt-model-ipo-learning-strategy
+  - yt-model-liberate-thinking-layers
+  - yt-model-y-organization
+  - yt-personal-knowledge-extraction
 contradicts: []
 query_triggers:
 - Y模型四最

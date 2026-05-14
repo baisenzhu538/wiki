@@ -11,7 +11,11 @@ difficulty: intermediate
 confidence: 0.8
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-five-step-method
+  - yt-entrepreneur-research-cognition
+  - yt-model-ipo-learning-strategy
+  - yt-personal-knowledge-extraction
 contradicts: []
 query_triggers:
 - 三轮学习设计

@@ -11,7 +11,12 @@ difficulty: foundational
 confidence: 0.8
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-personal-deliberate-practice
+  - yt-personal-inspiration-flash
+  - yt-personal-ipo-learning
+  - yt-personal-knowledge-extraction
+  - yt-personal-knowledge-management
 contradicts: []
 query_triggers:
 - 时间管理

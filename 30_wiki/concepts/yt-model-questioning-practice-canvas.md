@@ -11,7 +11,12 @@ difficulty: foundational
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-scientific-method
+  - yt-management-scientific-hiring
+  - yt-model-scientific-questioning-map
+  - yt-personal-deep-review
+  - yt-personal-deliberate-practice
 contradicts: []
 query_triggers:
 - 使用场景矩阵

@@ -11,7 +11,11 @@ difficulty: intermediate
 confidence: 0.8
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-five-step-method
+  - yt-entrepreneur-key-hypotheses
+  - yt-entrepreneur-truth-seeking
+  - yt-model-entrepreneur-map
 contradicts: []
 query_triggers:
 - Y模型

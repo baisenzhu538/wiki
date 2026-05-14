@@ -11,7 +11,11 @@ difficulty: intermediate
 confidence: 0.8
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-five-step-method
+  - yt-entrepreneur-key-hypotheses
+  - yt-entrepreneur-scientific-method
+  - yt-model-entrepreneur-map
 contradicts: []
 query_triggers:
 - 调研认知

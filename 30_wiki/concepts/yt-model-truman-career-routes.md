@@ -11,7 +11,12 @@ difficulty: advanced
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-model-deliberate-practice-growth
+  - yt-model-pan-product-36-strategies
+  - yt-model-pan-product-climbing-map
+  - yt-model-truman-five-step-growth
+  - yt-personal-product-design
 contradicts: []
 query_triggers:
 - X vs Y 七维对比

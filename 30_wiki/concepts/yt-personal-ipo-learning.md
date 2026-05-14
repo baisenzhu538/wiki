@@ -11,7 +11,12 @@ difficulty: foundational
 confidence: 0.8
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-liberate-thinking
+  - yt-entrepreneur-scientific-method
+  - yt-personal-deep-review
+  - yt-personal-knowledge-management
+  - yt-system-course-map-lecture
 contradicts: []
 query_triggers:
 - IPO 科学学习

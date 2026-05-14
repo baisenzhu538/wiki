@@ -11,7 +11,11 @@ difficulty: advanced
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-model-aesthetic-progression
+  - yt-model-pan-product-aesthetic-toolkit
+  - yt-model-pan-product-three-virtues
+  - yt-personal-pan-product-aesthetics
 contradicts: []
 query_triggers:
 - 与泛产品审美工具箱的对应

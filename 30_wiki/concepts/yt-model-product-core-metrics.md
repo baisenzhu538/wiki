@@ -11,7 +11,11 @@ difficulty: intermediate
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-five-step-method
+  - yt-entrepreneur-product-core
+  - yt-entrepreneur-unit-model
+  - yt-model-five-step-canvas
 contradicts: []
 query_triggers:
 - 与产品内核的关系

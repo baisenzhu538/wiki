@@ -11,7 +11,11 @@ difficulty: foundational
 confidence: 0.8
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-model-ipo-learning-strategy
+  - yt-model-liberate-thinking-layers
+  - yt-personal-knowledge-extraction
+  - yt-personal-y-model-practice
 contradicts: []
 query_triggers:
 - 一堂做课供应链模型

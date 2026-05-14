@@ -11,7 +11,12 @@ difficulty: foundational
 confidence: 0.8
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-model-personal-pitch-toolkit
+  - yt-personal-checklist-notes
+  - yt-personal-deliberate-practice
+  - yt-personal-ipo-learning
+  - yt-personal-scientific-expression
 contradicts: []
 query_triggers:
 - 逐字稿

@@ -11,7 +11,11 @@ difficulty: intermediate
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-model-liberate-thinking-layers
+  - yt-personal-deep-review
+  - yt-personal-deliberate-practice
+  - yt-personal-knowledge-extraction
 contradicts: []
 query_triggers:
 - 与解放思想层级的关系

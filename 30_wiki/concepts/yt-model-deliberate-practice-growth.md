@@ -11,7 +11,12 @@ difficulty: foundational
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-model-deep-review-iceberg
+  - yt-model-pan-product-climbing-map
+  - yt-personal-deep-review
+  - yt-personal-deliberate-practice
+  - yt-personal-thinking-models
 contradicts: []
 query_triggers:
 - 与泛产品十年爬山地图的关系

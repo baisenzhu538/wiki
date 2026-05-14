@@ -11,7 +11,12 @@ difficulty: intermediate
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-five-step-method
+  - yt-entrepreneur-key-hypotheses
+  - yt-entrepreneur-lean-validation
+  - yt-entrepreneur-product-core
+  - yt-model-product-core-metrics
 contradicts: []
 query_triggers:
 - 两个画布的联合使用

@@ -11,7 +11,12 @@ difficulty: intermediate
 confidence: 0.8
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-five-step-method
+  - yt-entrepreneur-key-hypotheses
+  - yt-entrepreneur-lean-validation
+  - yt-entrepreneur-unit-model
+  - yt-system-course-map-lecture
 contradicts: []
 query_triggers:
 - 需求分析

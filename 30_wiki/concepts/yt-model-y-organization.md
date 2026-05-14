@@ -11,7 +11,11 @@ difficulty: foundational
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-model-entrepreneur-map
+  - yt-model-management-map
+  - yt-model-personal-map
+  - yt-model-progress-map
 contradicts: []
 query_triggers:
 - Y 型创业模型

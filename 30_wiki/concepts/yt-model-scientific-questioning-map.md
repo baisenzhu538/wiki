@@ -11,7 +11,10 @@ difficulty: foundational
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-personal-deep-review
+  - yt-personal-deliberate-practice
+  - yt-personal-ipo-learning
 contradicts: []
 query_triggers:
 - 关联卡片

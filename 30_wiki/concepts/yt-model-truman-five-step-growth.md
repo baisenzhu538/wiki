@@ -11,7 +11,11 @@ difficulty: advanced
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-five-step-method
+  - yt-model-deliberate-practice-growth
+  - yt-model-personal-map
+  - yt-personal-deliberate-practice
 contradicts: []
 query_triggers:
 - Truman的个人成长五步法

@@ -11,7 +11,11 @@ difficulty: intermediate
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-five-step-method
+  - yt-entrepreneur-growth-flywheel
+  - yt-management-conversion-hacking
+  - yt-model-product-core-metrics
 contradicts: []
 query_triggers:
 - FAB 核心说服

@@ -11,7 +11,11 @@ difficulty: intermediate
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-model-pan-product-aesthetic-toolkit
+  - yt-model-pan-product-three-virtues
+  - yt-model-product-excellence
+  - yt-personal-pan-product-aesthetics
 contradicts: []
 query_triggers:
 - 从看不见到大胆想象的进化路径

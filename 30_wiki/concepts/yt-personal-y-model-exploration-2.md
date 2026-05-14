@@ -11,7 +11,11 @@ difficulty: foundational
 confidence: 0.8
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-scientific-method
+  - yt-model-scientific-questioning-map
+  - yt-model-y-organization
+  - yt-personal-y-model-practice
 contradicts: []
 query_triggers:
 - '"牵"的深层含义'

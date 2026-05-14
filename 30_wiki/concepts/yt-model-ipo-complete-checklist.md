@@ -11,7 +11,13 @@ difficulty: foundational
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-model-ipo-learning-strategy
+  - yt-personal-checklist-notes
+  - yt-personal-deep-review
+  - yt-personal-deliberate-practice
+  - yt-personal-ipo-learning
+  - yt-personal-knowledge-management
 contradicts: []
 query_triggers:
 - IPO 科学学习完整清单

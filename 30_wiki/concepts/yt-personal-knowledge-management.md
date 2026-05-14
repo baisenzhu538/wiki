@@ -11,7 +11,11 @@ difficulty: foundational
 confidence: 0.8
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-personal-checklist-notes
+  - yt-personal-deep-review
+  - yt-personal-ipo-learning
+  - yt-personal-knowledge-extraction
 contradicts: []
 query_triggers:
 - 知识管理

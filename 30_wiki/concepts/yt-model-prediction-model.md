@@ -11,7 +11,11 @@ difficulty: intermediate
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-industry-forecast
+  - yt-entrepreneur-key-hypotheses
+  - yt-entrepreneur-opportunity-selection
+  - yt-management-scientific-decision
 contradicts: []
 query_triggers:
 - 三种预判范式

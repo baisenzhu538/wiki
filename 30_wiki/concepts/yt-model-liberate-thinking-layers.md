@@ -11,7 +11,11 @@ difficulty: foundational
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-liberate-thinking
+  - yt-entrepreneur-pragmatic-startup
+  - yt-entrepreneur-scientific-method
+  - yt-system-course-map-lecture
 contradicts: []
 query_triggers:
 - 六层认知模型

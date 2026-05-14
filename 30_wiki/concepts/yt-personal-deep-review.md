@@ -11,7 +11,13 @@ difficulty: foundational
 confidence: 0.8
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-scientific-method
+  - yt-personal-deliberate-practice
+  - yt-personal-ipo-learning
+  - yt-personal-knowledge-management
+  - yt-personal-time-management
+  - yt-system-course-map-lecture
 contradicts: []
 query_triggers:
 - '"小抄"与"必修课"的互锁'

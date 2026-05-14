@@ -11,7 +11,12 @@ difficulty: foundational
 confidence: 0.8
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-model-ipo-learning-strategy
+  - yt-model-management-map
+  - yt-model-personal-map
+  - yt-model-progress-map
+  - yt-model-y-organization
 contradicts: []
 query_triggers:
 - 知识萃取

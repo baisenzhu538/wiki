@@ -11,7 +11,11 @@ difficulty: intermediate
 confidence: 0.8
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-entrepreneur-five-step-method
+  - yt-entrepreneur-scientific-method
+  - yt-model-questioning-practice-canvas
+  - yt-personal-knowledge-extraction
 contradicts: []
 query_triggers:
 - SPIN四步法

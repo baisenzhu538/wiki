@@ -11,7 +11,10 @@ difficulty: foundational
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-model-muse-ai-framework
+  - yt-personal-ai-capability
+  - yt-personal-ipo-learning
 contradicts: []
 query_triggers:
 - 人类三角 × AI 三角

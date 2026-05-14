@@ -11,7 +11,9 @@ difficulty: foundational
 confidence: 0.85
 prerequisites: []
 component_of: []
-related: []
+related:
+  - yt-model-dual-triangle-competitiveness
+  - yt-personal-ai-capability
 contradicts: []
 query_triggers:
 - MUSE 人工智能全景图
