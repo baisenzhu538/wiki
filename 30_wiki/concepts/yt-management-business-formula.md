@@ -18,6 +18,13 @@ updated_at: '2026-05-08'
 reviewed_by: 黄药师
 review_date: '2026-05-08'
 trust_level: medium
+related:
+  - yt-entrepreneur-key-hypotheses
+  - yt-entrepreneur-unit-model
+  - yt-management-conversion-hacking
+  - yt-management-finance-basics
+  - yt-management-goal-management
+  - yt-management-scientific-decision
 tags:
   - '#yitang'
 ---

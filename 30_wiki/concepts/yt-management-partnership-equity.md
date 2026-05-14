@@ -17,6 +17,11 @@ updated_at: "2026-05-08"
 reviewed_by: "黄药师"
 review_date: "2026-05-08"
 trust_level: medium
+related:
+  - yt-management-basic-skills
+  - yt-management-scientific-hiring
+  - yt-management-scientific-meetings
+  - yt-model-management-map
 tags:
   - "#yitang"
 ---

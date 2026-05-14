@@ -17,6 +17,13 @@ updated_at: '2026-05-09'
 reviewed_by: 黄药师
 review_date: '2026-05-08'
 trust_level: medium
+related:
+  - yt-management-business-formula
+  - yt-management-project-management
+  - yt-management-scientific-decision
+  - yt-management-scientific-meetings
+  - yt-management-strategy-meeting
+  - yt-personal-ipo-learning
 tags:
   - '#yitang'
 ---

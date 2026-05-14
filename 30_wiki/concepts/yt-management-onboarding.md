@@ -18,6 +18,12 @@ updated_at: '2026-05-08'
 reviewed_by: 黄药师
 review_date: '2026-05-08'
 trust_level: medium
+related:
+  - yt-management-basic-skills
+  - yt-management-company-culture
+  - yt-management-goal-management
+  - yt-management-scientific-hiring
+  - yt-management-team-knowledge
 tags:
   - '#yitang'
 ---

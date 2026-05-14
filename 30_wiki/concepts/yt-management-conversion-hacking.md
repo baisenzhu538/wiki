@@ -18,6 +18,11 @@ updated_at: '2026-05-08'
 reviewed_by: 黄药师
 review_date: '2026-05-08'
 trust_level: medium
+related:
+  - yt-entrepreneur-lean-validation
+  - yt-management-business-formula
+  - yt-management-goal-management
+  - yt-management-scientific-decision
 tags:
   - '#yitang'
 ---
