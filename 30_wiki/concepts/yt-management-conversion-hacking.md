@@ -34,6 +34,8 @@ query_triggers:
   - 着陆页优化
   - 降低购买摩擦
   - 增长转化
+tags:
+  - '#yitang'
 ---
 # 转化率黑客
 

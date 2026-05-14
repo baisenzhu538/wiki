@@ -36,6 +36,8 @@ query_triggers:
   - 领导力提升
   - 管理晋升路径
   - 管理者段位测评
+tags:
+  - '#yitang'
 ---
 # 管理段位
 

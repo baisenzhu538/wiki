@@ -36,6 +36,8 @@ query_triggers:
   - 增长飞轮
   - 用数据管业务
   - 业务逻辑关系图
+tags:
+  - '#yitang'
 ---
 # 业务公式
 

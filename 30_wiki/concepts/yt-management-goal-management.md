@@ -35,6 +35,8 @@ query_triggers:
   - KPI考核
   - 员工目标管理
   - OKR和绩效挂钩吗
+tags:
+  - '#yitang'
 ---
 # 目标管理
 

@@ -36,6 +36,8 @@ query_triggers:
   - 科学管理观
   - 从执行到管理
   - 管理工具包
+tags:
+  - '#yitang'
 ---
 # 基本功认知
 

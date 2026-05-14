@@ -35,6 +35,8 @@ query_triggers:
   - 创业者自我管理
   - 老板怎么定方向
   - 创始人角色
+tags:
+  - '#yitang'
 ---
 # 一号位
 
