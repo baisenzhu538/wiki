@@ -33,6 +33,11 @@ yitang:
   course_id: '406'
   course_type: method
   level: foundational
+related:
+  - yt-personal-checklist-notes
+  - yt-personal-deep-review
+  - yt-personal-ipo-learning
+  - yt-personal-knowledge-extraction
   series: false
 source_refs:
   - 10_raw/sources/一堂-课程地图精华串讲.md

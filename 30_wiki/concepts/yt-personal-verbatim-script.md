@@ -33,6 +33,12 @@ yitang:
   course_id: '408'
   course_type: method
   level: core
+related:
+  - yt-model-personal-pitch-toolkit
+  - yt-personal-checklist-notes
+  - yt-personal-deliberate-practice
+  - yt-personal-ipo-learning
+  - yt-personal-scientific-expression
   series: false
 source_refs:
   - 10_raw/sources/一堂-课程地图精华串讲.md

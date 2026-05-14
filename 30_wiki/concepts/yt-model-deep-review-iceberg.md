@@ -29,6 +29,11 @@ yitang:
   map: personal
   module: 个人修炼
   course_type: framework
+related:
+  - yt-model-liberate-thinking-layers
+  - yt-personal-deep-review
+  - yt-personal-deliberate-practice
+  - yt-personal-knowledge-extraction
   level: intermediate
 source_refs:
 - 10_raw/assets/yitang/一堂深度复盘冰山图.png

@@ -29,6 +29,11 @@ yitang:
   map: personal
   module: 个人修炼
   course_type: framework
+related:
+  - yt-model-pan-product-aesthetic-toolkit
+  - yt-model-pan-product-three-virtues
+  - yt-model-product-excellence
+  - yt-personal-pan-product-aesthetics
   level: intermediate
 source_refs:
 - 10_raw/assets/yitang/审美提升的层级.png

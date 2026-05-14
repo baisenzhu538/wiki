@@ -30,6 +30,11 @@ yitang:
   map: entrepreneur
   module: 创业必修
   course_type: action_camp
+related:
+  - yt-entrepreneur-five-step-method
+  - yt-entrepreneur-research-cognition
+  - yt-model-ipo-learning-strategy
+  - yt-personal-knowledge-extraction
   level: intermediate
 source_refs:
 - 10_raw/sources/一堂-创业-调研行动营口述01.md

@@ -31,6 +31,11 @@ yitang:
   map: personal
   module: 个人修炼
   course_type: framework
+related:
+  - yt-model-aesthetic-progression
+  - yt-model-pan-product-aesthetic-toolkit
+  - yt-model-pan-product-three-virtues
+  - yt-personal-pan-product-aesthetics
   level: advanced
 source_refs:
 - 10_raw/assets/yitang/顶级产品追求的方向-乔布斯.png

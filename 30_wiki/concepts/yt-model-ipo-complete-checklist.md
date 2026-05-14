@@ -30,6 +30,13 @@ yitang:
   map: personal
   module: 科学学习
   course_type: reference
+related:
+  - yt-model-ipo-learning-strategy
+  - yt-personal-checklist-notes
+  - yt-personal-deep-review
+  - yt-personal-deliberate-practice
+  - yt-personal-ipo-learning
+  - yt-personal-knowledge-management
   level: foundational
 source_refs:
   - 10_raw/sources/一堂-课程地图精华串讲.md

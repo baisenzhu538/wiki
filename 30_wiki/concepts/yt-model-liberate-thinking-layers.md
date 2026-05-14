@@ -27,6 +27,11 @@ yitang:
   map: personal
   module: 底层方法论
   course_type: model
+related:
+  - yt-entrepreneur-liberate-thinking
+  - yt-entrepreneur-pragmatic-startup
+  - yt-entrepreneur-scientific-method
+  - yt-system-course-map-lecture
   level: foundational
 source_refs:
   - 10_raw/sources/一堂-课程地图精华串讲.md

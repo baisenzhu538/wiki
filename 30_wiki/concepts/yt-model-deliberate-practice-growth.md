@@ -29,6 +29,12 @@ yitang:
   map: personal
   module: 个人修炼
   course_type: framework
+related:
+  - yt-model-deep-review-iceberg
+  - yt-model-pan-product-climbing-map
+  - yt-personal-deep-review
+  - yt-personal-deliberate-practice
+  - yt-personal-thinking-models
   level: foundational
 source_refs:
 - 10_raw/assets/yitang/一堂刻意练习十年成长指数.png

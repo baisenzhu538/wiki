@@ -30,6 +30,11 @@ yitang:
   map: personal
   module: 个人修炼
   course_type: framework
+related:
+  - yt-entrepreneur-five-step-method
+  - yt-model-deliberate-practice-growth
+  - yt-model-personal-map
+  - yt-personal-deliberate-practice
   level: advanced
 source_refs:
 - 10_raw/assets/yitang/Truman的个人成长五步法.png

@@ -33,6 +33,11 @@ yitang:
   course_id: yt-personal-ai-capability
   course_type: method
   level: advanced
+related:
+  - yt-entrepreneur-needs-analysis
+  - yt-personal-ipo-learning
+  - yt-personal-knowledge-extraction
+  - yt-personal-product-design
   series: false
 source_refs:
   - 10_raw/sources/一堂-课程地图精华串讲.md

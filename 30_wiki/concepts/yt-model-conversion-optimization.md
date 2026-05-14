@@ -32,6 +32,11 @@ yitang:
   map: management
   module: 管理必修
   course_type: framework
+related:
+  - yt-entrepreneur-five-step-method
+  - yt-entrepreneur-growth-flywheel
+  - yt-management-conversion-hacking
+  - yt-model-product-core-metrics
   level: intermediate
 source_refs:
 - 10_raw/assets/yitang/一堂最佳转化率动力曲线图.png

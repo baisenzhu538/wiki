@@ -30,6 +30,12 @@ yitang:
   map: personal
   module: 个人修炼
   course_type: framework
+related:
+  - yt-model-deliberate-practice-growth
+  - yt-model-pan-product-36-strategies
+  - yt-model-pan-product-climbing-map
+  - yt-model-truman-five-step-growth
+  - yt-personal-product-design
   level: advanced
 source_refs:
 - 10_raw/assets/yitang/truman的选择：两条职业成长路线.png

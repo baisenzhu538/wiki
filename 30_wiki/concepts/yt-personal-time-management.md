@@ -33,6 +33,12 @@ yitang:
   course_id: '401'
   course_type: method
   level: foundational
+related:
+  - yt-personal-deliberate-practice
+  - yt-personal-inspiration-flash
+  - yt-personal-ipo-learning
+  - yt-personal-knowledge-extraction
+  - yt-personal-knowledge-management
   series: false
 source_refs:
   - 10_raw/sources/一堂-课程地图精华串讲.md

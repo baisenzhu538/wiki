@@ -32,6 +32,11 @@ yitang:
   map: personal
   module: 个人修炼
   course_type: explore_camp
+related:
+  - yt-model-ipo-learning-strategy
+  - yt-model-liberate-thinking-layers
+  - yt-personal-knowledge-extraction
+  - yt-personal-y-model-practice
   level: advanced
 source_refs:
 - 00_inbox/一堂-个人修身-思维模型口述版.md

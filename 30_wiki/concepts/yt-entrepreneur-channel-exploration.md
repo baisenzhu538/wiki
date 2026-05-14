@@ -33,6 +33,11 @@ yitang:
   course_id: yt-entrepreneur-channel-exploration
   course_type: method
   level: core
+related:
+  - yt-entrepreneur-five-step-method
+  - yt-entrepreneur-key-hypotheses
+  - yt-entrepreneur-scientific-method
+  - yt-model-entrepreneur-map
   series: false
 source_refs:
   - 10_raw/sources/一堂-课程地图精华串讲.md

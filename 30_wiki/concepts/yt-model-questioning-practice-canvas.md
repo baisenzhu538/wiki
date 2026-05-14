@@ -27,6 +27,12 @@ yitang:
   map: personal
   module: 提问能力
   course_type: model
+related:
+  - yt-entrepreneur-scientific-method
+  - yt-management-scientific-hiring
+  - yt-model-scientific-questioning-map
+  - yt-personal-deep-review
+  - yt-personal-deliberate-practice
   level: foundational
 source_refs:
   - 10_raw/sources/一堂-课程地图精华串讲.md

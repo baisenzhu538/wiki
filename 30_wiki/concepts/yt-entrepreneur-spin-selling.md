@@ -31,6 +31,11 @@ yitang:
   map: entrepreneur
   module: 创业必修
   course_type: book_club
+related:
+  - yt-entrepreneur-five-step-method
+  - yt-entrepreneur-scientific-method
+  - yt-model-questioning-practice-canvas
+  - yt-personal-knowledge-extraction
   level: intermediate
 source_refs:
 - 10_raw/sources/一堂-读书会-SPIN销售法口述.md

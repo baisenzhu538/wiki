@@ -29,6 +29,11 @@ yitang:
   map: system
   module: 方法论总纲
   course_type: model
+related:
+  - yt-model-entrepreneur-map
+  - yt-model-management-map
+  - yt-model-personal-map
+  - yt-model-progress-map
   level: foundational
 source_refs:
   - 10_raw/sources/一堂-课程地图精华串讲.md

@@ -33,6 +33,11 @@ yitang:
   course_id: '407'
   course_type: method
   level: core
+related:
+  - yt-personal-deep-review
+  - yt-personal-deliberate-practice
+  - yt-personal-ipo-learning
+  - yt-personal-knowledge-extraction
   series: false
 source_refs:
   - 10_raw/sources/一堂-课程地图精华串讲.md

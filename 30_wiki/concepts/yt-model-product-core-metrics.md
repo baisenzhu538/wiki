@@ -29,6 +29,11 @@ yitang:
   map: entrepreneur
   module: 创业必修
   course_type: framework
+related:
+  - yt-entrepreneur-five-step-method
+  - yt-entrepreneur-product-core
+  - yt-entrepreneur-unit-model
+  - yt-model-five-step-canvas
   level: intermediate
 source_refs:
 - 10_raw/assets/yitang/一堂产品内核-十大典型指标.png

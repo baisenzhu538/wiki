@@ -31,6 +31,13 @@ yitang:
   course_id: '402'
   course_type: method
   level: foundational
+related:
+  - 30_wiki/systems/一堂方法论体系总图
+  - yt-entrepreneur-liberate-thinking
+  - yt-entrepreneur-scientific-method
+  - yt-personal-deep-review
+  - yt-personal-knowledge-management
+  - yt-system-course-map-lecture
   series: true
 source_refs:
 - src_20260507_85c9ae50

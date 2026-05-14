@@ -33,6 +33,11 @@ yitang:
   course_id: '518'
   course_type: method
   level: advanced
+related:
+  - yt-personal-ai-capability
+  - yt-personal-checklist-notes
+  - yt-personal-ipo-learning
+  - yt-personal-knowledge-extraction
   series: true
 source_refs:
   - 10_raw/sources/一堂-课程地图精华串讲.md

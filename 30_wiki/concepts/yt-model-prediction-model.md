@@ -29,6 +29,11 @@ yitang:
   map: entrepreneur
   module: 创业必修
   course_type: framework
+related:
+  - yt-entrepreneur-industry-forecast
+  - yt-entrepreneur-key-hypotheses
+  - yt-entrepreneur-opportunity-selection
+  - yt-management-scientific-decision
   level: intermediate
 source_refs:
 - 10_raw/assets/yitang/预判模型.png

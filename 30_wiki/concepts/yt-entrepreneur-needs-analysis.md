@@ -33,6 +33,12 @@ yitang:
   course_id: yt-entrepreneur-needs-analysis
   course_type: method
   level: foundational
+related:
+  - yt-entrepreneur-five-step-method
+  - yt-entrepreneur-key-hypotheses
+  - yt-entrepreneur-lean-validation
+  - yt-entrepreneur-unit-model
+  - yt-system-course-map-lecture
   series: false
 source_refs:
 - src_20260507_0872c7b3

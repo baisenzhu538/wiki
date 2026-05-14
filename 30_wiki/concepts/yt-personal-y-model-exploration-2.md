@@ -32,6 +32,11 @@ yitang:
   map: personal
   module: 个人修炼
   course_type: explore_camp
+related:
+  - yt-entrepreneur-scientific-method
+  - yt-model-scientific-questioning-map
+  - yt-model-y-organization
+  - yt-personal-y-model-practice
   level: advanced
 source_refs:
 - 00_inbox/一堂-个人修身-Y模型探索营2口述版.md
