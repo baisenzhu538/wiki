@@ -24,6 +24,17 @@ related:
   - yt-management-goal-management
   - yt-management-scientific-hiring
   - yt-management-team-knowledge
+query_triggers:
+  - 新人入职培训
+  - 新员工融入计划
+  - 新人90天软着陆
+  - 新员工导师制度
+  - buddy机制
+  - 新人landing框架
+  - 新员工留存
+  - 入职流程设计
+  - 试用期管理
+  - 文化融入方法
 tags:
   - '#yitang'
 ---

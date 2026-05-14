@@ -25,6 +25,17 @@ related:
   - yt-management-onboarding
   - yt-management-project-management
   - yt-personal-knowledge-management
+query_triggers:
+  - 团队知识管理
+  - 知识库搭建方法
+  - 隐性知识萃取
+  - 知识沉淀体系
+  - 团队经验传承
+  - 项目复盘知识化
+  - SECI模型
+  - 知识管理系统
+  - 新人FAQ沉淀
+  - 组织记忆力
 tags:
   - '#yitang'
 ---

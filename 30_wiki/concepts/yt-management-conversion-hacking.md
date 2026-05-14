@@ -23,8 +23,17 @@ related:
   - yt-management-business-formula
   - yt-management-goal-management
   - yt-management-scientific-decision
-tags:
-  - '#yitang'
+query_triggers:
+  - 转化率优化
+  - 转化率提升方法
+  - CRO转化率优化
+  - A/B测试
+  - 转化漏斗分析
+  - 用户为什么不下单
+  - 动力阻力触点模型
+  - 着陆页优化
+  - 降低购买摩擦
+  - 增长转化
 ---
 # 转化率黑客
 

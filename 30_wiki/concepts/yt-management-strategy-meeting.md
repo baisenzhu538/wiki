@@ -25,6 +25,16 @@ related:
   - yt-management-goal-management
   - yt-management-scientific-decision
   - yt-management-scientific-meetings
+query_triggers:
+  - 战略会怎么开
+  - 创业战略规划
+  - 战略讨论框架
+  - 战略共识达成
+  - 战略方向选择
+  - 务虚会方法
+  - 战略决策纪要
+  - disagree and commit
+  - 年度战略会
 tags:
   - '#yitang'
 ---

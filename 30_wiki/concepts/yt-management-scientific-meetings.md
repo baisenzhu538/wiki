@@ -24,6 +24,16 @@ related:
   - yt-management-project-management
   - yt-management-scientific-decision
   - yt-management-strategy-meeting
+query_triggers:
+  - 高效开会方法
+  - 减少无效会议
+  - 会议设计框架
+  - 会议主持技巧
+  - 异步沟通替代
+  - 会议纪要模板
+  - 决策会怎么开
+  - 会议角色分工
+  - 科学开会
 tags:
   - '#yitang'
 ---

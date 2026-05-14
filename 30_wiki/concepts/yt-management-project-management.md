@@ -25,6 +25,16 @@ related:
   - yt-management-scientific-decision
   - yt-management-scientific-meetings
   - yt-management-team-knowledge
+query_triggers:
+  - 项目管理方法
+  - WBS任务拆解
+  - 项目五步闭环
+  - 甘特图怎么画
+  - 项目复盘模板
+  - 项目执行跟踪
+  - 风险前置管理
+  - 极简方案设计
+  - 项目过程管理
 tags:
   - '#yitang'
 ---

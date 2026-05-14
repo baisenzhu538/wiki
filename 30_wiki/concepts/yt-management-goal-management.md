@@ -24,8 +24,17 @@ related:
   - yt-management-scientific-meetings
   - yt-management-strategy-meeting
   - yt-personal-ipo-learning
-tags:
-  - '#yitang'
+query_triggers:
+  - OKR
+  - 目标管理
+  - OKR和KPI区别
+  - 怎么定团队目标
+  - OKR怎么写
+  - 目标拆解方法
+  - OKR落地执行
+  - KPI考核
+  - 员工目标管理
+  - OKR和绩效挂钩吗
 ---
 # 目标管理
 

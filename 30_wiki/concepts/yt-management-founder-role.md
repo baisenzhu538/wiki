@@ -24,8 +24,17 @@ related:
   - yt-management-leadership-levels
   - yt-management-partnership-equity
   - yt-management-strategy-meeting
-tags:
-  - '#yitang'
+query_triggers:
+  - 创始人职责
+  - 一号位
+  - 老板该管什么不该管什么
+  - 创始人时间管理
+  - 创业CEO做什么
+  - 创始人怎么授权
+  - CEO核心职责
+  - 创业者自我管理
+  - 老板怎么定方向
+  - 创始人角色
 ---
 # 一号位
 

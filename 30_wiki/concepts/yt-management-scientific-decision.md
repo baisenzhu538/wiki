@@ -25,6 +25,17 @@ related:
   - yt-management-finance-basics
   - yt-management-goal-management
   - yt-management-strategy-meeting
+query_triggers:
+  - 科学决策方法
+  - Y模型决策
+  - 决策矩阵
+  - 10-10-10法则
+  - 二阶思考
+  - 预期价值计算
+  - 决策陷阱
+  - 沉没成本
+  - 确认偏差
+  - 创业决策框架
 tags:
   - '#yitang'
 ---

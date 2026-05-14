@@ -25,8 +25,17 @@ related:
   - yt-management-finance-basics
   - yt-management-goal-management
   - yt-management-scientific-decision
-tags:
-  - '#yitang'
+query_triggers:
+  - 业务公式
+  - 业务拆解方法
+  - 营收公式怎么拆
+  - 业务量化管理
+  - MECE分析
+  - 数据驱动业务增长
+  - 变量驱动因子
+  - 增长飞轮
+  - 用数据管业务
+  - 业务逻辑关系图
 ---
 # 业务公式
 

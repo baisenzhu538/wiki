@@ -25,8 +25,17 @@ related:
   - yt-management-scientific-hiring
   - yt-management-team-knowledge
   - yt-personal-ipo-learning
-tags:
-  - '#yitang'
+query_triggers:
+  - 管理段位
+  - 管理者成长阶段
+  - 领导力层级
+  - 管理者怎么晋升
+  - 新经理成长
+  - 管理能力分级
+  - 从执行到管理
+  - 领导力提升
+  - 管理晋升路径
+  - 管理者段位测评
 ---
 # 管理段位
 

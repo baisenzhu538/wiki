@@ -24,8 +24,17 @@ related:
   - yt-management-partnership-equity
   - yt-management-scientific-hiring
   - yt-management-strategy-meeting
-tags:
-  - '#yitang'
+query_triggers:
+  - 公司文化建设
+  - 企业文化怎么落地
+  - 价值观考核
+  - 创业公司文化
+  - 团队文化打造
+  - 文化面试
+  - 员工行为规范
+  - 组织文化建设
+  - 小公司需要文化吗
+  - 企业文化不是口号
 ---
 # 公司文化
 

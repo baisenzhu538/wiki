@@ -24,8 +24,17 @@ related:
   - yt-management-goal-management
   - yt-management-scientific-decision
   - yt-management-strategy-meeting
-tags:
-  - '#yitang'
+query_triggers:
+  - 创业者财务入门
+  - 老板怎么看财务报表
+  - 三张报表
+  - 现金流管理
+  - 烧钱速度
+  - 创业公司能撑多久
+  - 利润和现金区别
+  - 不懂财务怎么管公司
+  - 毛利率怎么算
+  - 创业财务基础
 ---
 # 财务入门
 

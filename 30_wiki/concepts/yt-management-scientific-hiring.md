@@ -23,6 +23,16 @@ related:
   - yt-management-goal-management
   - yt-management-leadership-levels
   - yt-management-onboarding
+query_triggers:
+  - 科学招聘方法
+  - 结构化面试技巧
+  - 行为面试法
+  - STAR追问法
+  - 岗位画像模板
+  - 招聘决策方法
+  - 产品经理怎么招
+  - 招聘评估维度
+  - 面试评分标准
 tags:
   - '#yitang'
 ---

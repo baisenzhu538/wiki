@@ -25,8 +25,17 @@ related:
   - yt-management-scientific-hiring
   - yt-management-scientific-meetings
   - yt-personal-ipo-learning
-tags:
-  - '#yitang'
+query_triggers:
+  - 管理基本功
+  - 新经理怎么带团队
+  - 管理能力提升
+  - 管理者入门培训
+  - 能力意愿矩阵
+  - STAR反馈模型
+  - 授权管理方法
+  - 科学管理观
+  - 从执行到管理
+  - 管理工具包
 ---
 # 基本功认知
 

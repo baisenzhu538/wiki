@@ -22,6 +22,16 @@ related:
   - yt-management-scientific-hiring
   - yt-management-scientific-meetings
   - yt-model-management-map
+query_triggers:
+  - 合伙股权分配
+  - 创业合伙人股权
+  - 股权退出机制
+  - 动态股权调整
+  - vesting cliff设计
+  - 控制权设计
+  - 创业合伙协议
+  - 股权架构设计
+  - 创始团队分股
 tags:
   - "#yitang"
 ---
