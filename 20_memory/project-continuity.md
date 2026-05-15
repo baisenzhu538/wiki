@@ -1,6 +1,20 @@
 # Project Continuity
 
-## 2026-05-15：工业化手册 v1.4 + Sprint 11 启动
+## 2026-05-15：工业化手册 v1.5 + Sprint 11/12 任务下发
+
+- **KDO 方法论升级 v1.5**：黄药师提交 AI 思维卡分析建议书（[[ai-thinking-card-vs-kdo-analysis]]），欧阳锋独立裁决——采纳三个卡片层行为转化要件（Critique 外部攻击 + Synthesis 不要用场景 + Action Triggers），否决 ICAP 和 FOLLOWUP（原因：ICAP 是读者属性非卡片属性，FOLLOWUP 已被 v1.4 project-continuity 机制覆盖）
+- **v1.5 变更**：工业化手册新增 §1.7（卡片层三要件）、KF-024 铁律、L2 门禁规则更新。适用方法/工具/框架卡，概念卡和索引卡豁免
+- **Sprint 11 更新**：[[sprint-11-cognitive-upgrade-framework]] 质量门禁追加 v1.5 三要件——2 张新卡将成为第一批 v1.5 实例
+- **Sprint 12 创建**：[[sprint-12-backfill-card-behavioral-requirements]]——~140 张 yt-* 卡分三批回溯升级（25 framework → 85 tool → ~30 concept）
+- **活跃任务**：[[sprint-11-cognitive-upgrade-framework]]（P0）→ [[sprint-12-backfill-card-behavioral-requirements]]（P0，待 Sprint 11 完成后启动）
+
+## 2026-05-15：工业化手册 v1.4 + Sprint 11 启动（已被 v1.5 取代）
+
+- **KDO 方法论升级 v1.4**：对标 AI 思维卡「认知升级系统 v3.2」，引入行为转化层（ACTION→CTA→FOLLOWUP）、EVIDENCE 审计标准（偏差标注+外部攻击+反事实）、Burn line。新增 KF-023 和 F-KDO-016
+- **审而不改**：控制文件和规则由欧阳锋直接改。知识卡和素材处理走 KDO 管线，黄药师执行
+- **[[sprint-11-cognitive-upgrade-framework]]** 已创建——AI思维卡 HTML ingest + 十步框架萃取 + PEAS 工具卡
+- **活跃任务**：[[sprint-11-cognitive-upgrade-framework]]（P0，黄药师待领取）
+- **注**：v1.4 的产出层行为转化标准和 EVIDENCE 审计标准在 v1.5 中保留，卡片层三要件为增量
 
 - **KDO 方法论升级 v1.4**：对标 AI 思维卡「认知升级系统 v3.2」，引入行为转化层（ACTION→CTA→FOLLOWUP）、EVIDENCE 审计标准（偏差标注+外部攻击+反事实）、Burn line。新增 KF-023 和 F-KDO-016
 - **审而不改**：控制文件和规则由欧阳锋直接改。知识卡和素材处理走 KDO 管线，黄药师执行
@@ -8,7 +22,7 @@
 - **活跃任务**：[[sprint-11-cognitive-upgrade-framework]]（P0，黄药师待领取）
 
 - **[[sprint-9-cleanup-source-refs-query-triggers]]** → completed ✅。52 张 source_refs 归零，31 张 triggers 重写，20 张 Constraints 去模板化
-- **[[sprint-10-fill-remaining-related-edges]]** 已创建——76 张非 panproduct 卡图边填充 + 管理域收尾
+- **[[sprint-10-fill-remaining-related-edges]]** → completed ✅。76 张非 panproduct 卡图边全填充，16 张管理域 query_triggers 新增，管理域 Constraints 保留原 Critique（已为工具特有）
 - **活跃任务**：[[sprint-10-fill-remaining-related-edges]]（P0，黄药师待领取）
 
 ## 2026-05-13：Sprint 6 终审 + Sprint 8 通过 + Sprint 9 启动
