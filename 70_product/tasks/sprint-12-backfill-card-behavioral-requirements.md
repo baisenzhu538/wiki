@@ -134,7 +134,7 @@ yt-model-truman-five-step-growth
 - [ ] project-continuity.md 记录每批完成状态
 
 ---
-## Batch A 进度 (10/25)
+## Batch A 进度 (15/25)
 
 ### Round 1 (2026-05-15) — 5 张完成
 
@@ -164,3 +164,22 @@ yt-model-truman-five-step-growth
 - 原有内容未被修改
 
 **剩余**: 15 张 framework 卡（下次会话继续）
+
+### Round 3 (2026-05-16) — 5 张完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 11 | `yt-model-management-map` | Mintzberg (管理手艺论) + Pfeffer (领导力产业批判) | 3 行（小团队/专业专家/自组织） | 4 触发项 | ✅ |
+| 12 | `yt-model-ipo-learning-strategy` | Kohn (目标驱动批判) + Illich (去学校化) | 3 行（探索期/即时学习/师徒制） | 4 触发项 | ✅ |
+| 13 | `yt-model-deep-review-iceberg` | Edmondson (心理安全优先) + Argyris (防御性推理) | 3 行（情绪未平/高频迭代/个人生活） | 4 触发项 | ✅ |
+| 14 | `yt-model-personal-map` | Epstein (过早专业化) + Newport (热情追随批判) | 3 行（新人/中年转型/极度不确定） | 4 触发项 | ✅ |
+| 15 | `yt-model-prediction-model` | Tetlock (超级预测者) + Kahneman (噪声审计) | 3 行（长跨度预测/单变量未知/群体极化） | 4 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint` → 0 errors, 全部 warnings 为预存
+- 外部攻击全部引真实批评者/学派（非 straw man）
+- 不要用场景全部含失效机制 + 替代方案
+- Action Triggers 全部含可验证成功指标
+- 原有内容未被修改
+
+**剩余**: 10 张 framework 卡（下次会话继续）
