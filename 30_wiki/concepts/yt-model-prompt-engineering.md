@@ -10,6 +10,8 @@ language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.90
+related:
+  - yt-model-cognitive-upgrade-framework
 source_refs:
   - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
   - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf

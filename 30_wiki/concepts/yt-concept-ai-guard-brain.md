@@ -10,6 +10,8 @@ language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.85
+related:
+  - yt-model-cognitive-upgrade-framework
 prerequisites:
   - yt-model-prompt-engineering
 source_refs:

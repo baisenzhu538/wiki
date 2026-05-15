@@ -12,6 +12,7 @@ confidence: 0.85
 prerequisites: []
 component_of: []
 related:
+  - yt-model-cognitive-upgrade-framework
   - yt-model-personal-pitch-toolkit
   - yt-model-prompt-engineering
 contradicts: []
