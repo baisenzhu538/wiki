@@ -1,5 +1,7 @@
 # CLAUDE.md
 
+> **启动先读** `.agent/context.md` → `.agent/pitfalls.md`（30秒恢复上下文，省80%token）
+
 ## 关键路径
 
 | 用途 | 路径 |
