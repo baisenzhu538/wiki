@@ -1,0 +1,16 @@
+KimiCodeAPI同时兼容OpenAl和Anthropic两种协议。不同工具对地址配置的要求不同：
+•BaseURL：部分工具(如ClaudeCode)只需填写BaseURL，工具会自动拼接后续路径。
+•完整Endpoint：部分工具(如Trae)需要填写完整的API请求地址。
+按需选择对应的地址：
+协议 BaseURL 常用Endpoint示例
+OpenAl
+兼容 https://api.kimi.com/coding/v1 https://api.kimi.com/coding/v1/chat/completions
+Anthropic
+兼容 https://api.kimi.com/coding/ https://api.kimi.com/coding/v1/messages
+上
+获取APIKey
+Kimi会员可在KimiCode控制台创建和管理(最多5个，仅创建时显示一次，请妥善保存）。
+模型ID
+在第三方工具中调用KimiCodeAPI时，请统一使用模型IDkimi-for-coding。无论是OpenAl
+兼容协议还是Anthropic兼容协议，请求体里的model字段都填这个值。
+说明：kimi-for-coding是固定的模型ID，后端会根据最新发布的模型自动更新其对应的
