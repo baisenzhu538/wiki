@@ -134,7 +134,7 @@ yt-model-truman-five-step-growth
 - [ ] project-continuity.md 记录每批完成状态
 
 ---
-## Batch A 进度 (15/25)
+## Batch A 进度 (25/25) ✅
 
 ### Round 1 (2026-05-15) — 5 张完成
 
@@ -182,4 +182,33 @@ yt-model-truman-five-step-growth
 - Action Triggers 全部含可验证成功指标
 - 原有内容未被修改
 
-**剩余**: 10 张 framework 卡（下次会话继续）
+**剩余**: 0 张 framework 卡。Batch A 完成 ✅
+
+### Round 4 (2026-05-16) — 5 张完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 16 | `yt-model-personal-pitch-toolkit` | Postman (娱乐至死) + Sontag (反阐释) | 3 行（技术沟通/价值观对话/危机) | 4 触发项 | ✅ |
+| 17 | `yt-model-product-core-metrics` | Croll & Yoskovitz (OMTM) + Hubbard (测量价值论) | 3 行（探索期/B2B长周期/双边市场） | 4 触发项 | ✅ |
+| 18 | `yt-model-progress-map` | J. Gray (反进步论) + 韩炳哲 (倦怠社会) | 3 行（人生变故后/领域顶尖/组织战略） | 4 触发项 | ✅ |
+| 19 | `yt-model-product-excellence` | Norman (UCD) + Papanek (设计伦理) | 3 行（资源受限/B2B功能型/敏捷快迭代） | 4 触发项 | ✅ |
+| 20 | `yt-model-truman-career-routes` | Ibarra (先做再成为) + Duckworth (坚毅论) | 3 行（职业探索期/经济压力/组织内发展） | 4 触发项 | ✅ |
+
+### Round 5 (2026-05-16) — 5 张完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 21 | `yt-model-questioning-practice-canvas` | Schein (过程咨询) + Rackham (SPIN) | 3 行（非正式聊天/心理危机/权力不对等） | 4 触发项 | ✅ |
+| 22 | `yt-model-prompt-engineering` | Marcus (深度学习局限) + Bender (随机鹦鹉) | 3 行（精确事实/无法判断质量/危机快决） | 4 触发项 | ✅ |
+| 23 | `yt-model-scientific-questioning-map` | Freire (提问式教育) + 苏格拉底反方法化 | 3 行（创意发散/亲子对话/对方已有答案） | 4 触发项 | ✅ |
+| 24 | `yt-model-y-organization` | Feyerabend (认识论无政府) + Rorty (反基础主义) | 3 行（艺术创作/宗教灵性/直觉体感建立） | 4 触发项 | ✅ |
+| 25 | `yt-model-truman-five-step-growth` | Gilbert (预测偏差) + Rogers (成为非规划) | 3 行（红点未定/年轻人/身份转变期） | 4 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint` → 3 errors, 591 warnings (全部为预存，非本次引入)
+- 外部攻击全部引真实批评者/学派（非 straw man）
+- 不要用场景全部含失效机制 + 替代方案
+- Action Triggers 全部含可验证成功指标
+- 原有内容未被修改
+
+**Batch A 完成**。下一步：欧阳锋审查通过后启动 Batch B（85 张 tool 卡）。
