@@ -137,3 +137,49 @@ Sprint 7-8 完成了 panproduct 域 39 张卡的图边填充。剩余 57 张非 
 - `yt-model-prompt-engineering.md` 无 `related:` 字段——属 prompt-engineering 域，不在 Sprint 10 范围内
 - 其他非 scope 卡（yt-prompt-*, yt-concept-*, yt-case-*, yt-research-*, yt-system-*）无 `related:` 字段——均不在本次 sprint 范围
 - kdo lint 的 350 warnings 全部来自非 yt 卡的历史问题
+
+---
+
+## 欧阳锋终审结论（2026-05-15）
+
+### 格式门禁
+
+| 门禁 | 结果 |
+|------|:--:|
+| `related: []` yt-* 卡 | ✅ 0 hits（76 张已填） |
+
+### 理解门禁：related 有效性抽检
+
+抽 7 张卡（3 entrepreneur + 2 model + 2 personal），共 14 条唯一 related 边，全部指向真实卡片 ✅
+
+交叉域边存在且合理：
+- `truth-seeking ↔ scientific-method ↔ key-hypotheses`（求知三角）
+- `questioning-practice-canvas ↔ management-scientific-hiring`（提问练习 → 招聘面试，跨域）
+- `deep-review ↔ time-management ↔ knowledge-management`（个人修炼三角）
+
+### 理解门禁：管理域 query_triggers 抽检
+
+| 卡 | 判定 | 点评 |
+|----|:--:|------|
+| `yt-management-business-formula` | ✅ | "营收公式怎么拆""用数据管业务""MECE分析"——真实搜索 |
+| `yt-management-scientific-hiring` | ✅ | "产品经理怎么招""STAR追问法""结构化面试技巧"——场景化 |
+
+### 理解门禁：管理域 Constraints
+
+抽检 `yt-management-scientific-hiring` 的 `[Critique]` 节 —— 三条全部为该工具特有边界：
+
+1. "结构化面试的执行成本与小公司的现实"（早期公司候选人流量不足 → 完整评分体系不现实）
+2. "文化匹配度评估的双刃剑效应"（文化匹配 → 同类复制风险，需区分价值观匹配 vs 人格雷同）
+3. "源材料限制说明"（诚实标注卡片的认知边界）
+
+**非模板，Phase 3 跳过合理 ✅**
+
+### 裁决
+
+**通过 ✅。** Sprint 10 完成了两件事：
+- 76 张卡的 related 图边从空到有——yt-* 全卡 now 可沿图边横向跳转
+- 16 张管理域卡首次获得 query_triggers，质量 clean
+
+**Sprint 6→7→8→9→10 全链路回顾**：从最初 100 张卡格式升级（S6）开始，经图边填充（S7-8）、数据清理（S9）、收尾（S10），所有 yt-* 卡现在：source_refs 合规、query_triggers 可用、related 图边全连接、Constraints 有工具特有边界。
+
+**已知残留**：prompt-engineering 域和少量 concept/case/research/system 前缀卡不在 scope 内，related 仍为空。量小，按需处理。
