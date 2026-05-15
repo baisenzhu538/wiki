@@ -42,3 +42,12 @@ blockers: []
 1. 读 `pitfalls.md`
 2. 读 `70_product/tasks/sprint-12-backfill-card-behavioral-requirements.md`
 3. 继续 active_task
+
+## ⚠️ 会话结束前（MUST）
+
+- [ ] 更新 `updated:` 日期
+- [ ] 更新 `active_task` 和 `blockers`
+- [ ] 更新 ## 当前状态（完成数、剩余数、新发现的问题）
+- [ ] 有新坑？追加到 `pitfalls.md`
+- [ ] 有决策？追加到 `decisions.md`
+- [ ] **禁止用 `/memory` 替代上述更新**——`/memory` 不是项目公共记忆。

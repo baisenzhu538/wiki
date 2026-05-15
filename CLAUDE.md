@@ -1,6 +1,10 @@
 # CLAUDE.md
 
-**!!! 启动后第一个动作：Read `.agent/context.md` 然后 `.agent/pitfalls.md`。这两个文件包含你是谁、现在做到哪了、踩过什么坑。不读会失忆。!!!**
+**!!! 启动第一个动作：Read `.agent/context.md` → `.agent/pitfalls.md`。!!!**
+
+**!!! 每次会话快结束时：必须 Update `.agent/context.md`（更新 active_task、进度、blockers），有新坑追加到 `pitfalls.md`。不更新等于白建外挂大脑。!!!**
+
+**禁止用 Claude Code `/memory` 替代 `.agent/` 文件**。`/memory` 是工具私有记忆，换电脑/换工具就丢。`.agent/` 是项目公共记忆，跟着 git 走。后者是唯一真相源。
 
 ## 关键路径
 
