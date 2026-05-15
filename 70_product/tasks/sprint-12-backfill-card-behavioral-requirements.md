@@ -134,7 +134,7 @@ yt-model-truman-five-step-growth
 - [ ] project-continuity.md 记录每批完成状态
 
 ---
-## Batch A 进度 (5/25)
+## Batch A 进度 (10/25)
 
 ### Round 1 (2026-05-15) — 5 张完成
 
@@ -146,11 +146,21 @@ yt-model-truman-five-step-growth
 | 4 | `yt-model-deliberate-practice-growth` | Ericsson (Peak修正) + Epstein (Range批判) | 3 行（探索期/0-1创新/组织建设） | 4 触发项 | ✅ |
 | 5 | `yt-model-entrepreneur-map` | Taleb (Knight不确定性) + Blank (客户开发) | 3 行（PMF后/连续创业者/硬科技） | 4 触发项 | ✅ |
 
+### Round 2 (2026-05-16) — 5 张完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 6 | `yt-model-dual-triangle-competitiveness` | Mintzberg (实践手艺论) + Taleb (幸存者偏差) | 3 行（执行层个体/组织人事/硬科技战略） | 4 触发项 | ✅ |
+| 7 | `yt-model-five-step-canvas` | Blank (客户开发循环) + Savoia (预型方法论) | 3 行（PMF后/硬科技/一人公司） | 4 触发项 | ✅ |
+| 8 | `yt-model-ipo-complete-checklist` | Perell (输出优先论) + Karpathy (按需学习) | 2 行（项目驱动学习者/预算极度受限） | 4 触发项 | ✅ |
+| 9 | `yt-model-liberate-thinking-layers` | Papert (建构主义) + Dreyfus (现象学技能习得) | 3 行（新手/快决策/团队沟通） | 4 触发项 | ✅ |
+| 10 | `yt-model-muse-ai-framework` | Evans (分类学徒劳) + Marcus (涌现魔法词) | 3 行（产品选型/传统行业/学术研究） | 4 触发项 | ✅ |
+
 **质量验证**：
-- `kdo lint` → 0 errors, 359 warnings (全为预存)
+- `kdo lint` → 0 errors, 全部 warnings 为预存
 - 外部攻击全部引真实批评者/学派（非 straw man）
 - 不要用场景全部含失效机制 + 替代方案
 - Action Triggers 全部含可验证成功指标
 - 原有内容未被修改
 
-**剩余**: 20 张 framework 卡（下次会话继续）
+**剩余**: 15 张 framework 卡（下次会话继续）
