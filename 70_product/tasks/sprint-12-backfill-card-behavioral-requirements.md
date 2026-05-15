@@ -132,3 +132,25 @@ yt-model-truman-five-step-growth
 - [ ] 不要用场景含失效机制 + 替代方案（非"根据情况灵活运用"式废话）
 - [ ] Action Triggers 三列完整（触发场景 + 第一动作 + 成功指标），成功指标可验证
 - [ ] project-continuity.md 记录每批完成状态
+
+---
+## Batch A 进度 (5/25)
+
+### Round 1 (2026-05-15) — 5 张完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 1 | `yt-model-agent-architecture` | Gary Klein (RPD 模型) | 3 行（P争议/危机/高不确定探索） | 4 触发项 | ✅ |
+| 2 | `yt-model-aesthetic-progression` | Shklovsky (陌生化) + Hume (品味主体性) | 4 行（新手/纯技术决策/紧急交付/激进创新） | 5 触发项 | ✅ |
+| 3 | `yt-model-conversion-optimization` | BJ Fogg (B=MAT) + Brignull (欺骗性设计) | 2 行（产品缺陷/长决策链不可见） | 4 触发项 | ✅ |
+| 4 | `yt-model-deliberate-practice-growth` | Ericsson (Peak修正) + Epstein (Range批判) | 3 行（探索期/0-1创新/组织建设） | 4 触发项 | ✅ |
+| 5 | `yt-model-entrepreneur-map` | Taleb (Knight不确定性) + Blank (客户开发) | 3 行（PMF后/连续创业者/硬科技） | 4 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint` → 0 errors, 359 warnings (全为预存)
+- 外部攻击全部引真实批评者/学派（非 straw man）
+- 不要用场景全部含失效机制 + 替代方案
+- Action Triggers 全部含可验证成功指标
+- 原有内容未被修改
+
+**剩余**: 20 张 framework 卡（下次会话继续）
