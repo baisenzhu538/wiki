@@ -1,7 +1,7 @@
 ---
 id: sprint-11-cognitive-upgrade-framework
 title: "Sprint 11：AI思维卡素材 ingest + 认知升级十步框架萃取"
-status: pending
+status: completed
 priority: P0
 assigned_to: 黄药师
 reviewer: 欧阳锋
@@ -79,6 +79,44 @@ Constraints 至少 2 条：
 > **v1.5 新标准**：本 Sprint 的两张卡（1 framework + 1 tool）是工业化手册 v1.5 卡片层行为转化三要件的第一批实例。三个新节均为必填。
 
 - [ ] `kdo lint` → 0 errors
+- [x] `kdo lint` → 0 errors ✅
+
+---
+## 交付报告 (2026-05-15)
+
+### 产出表
+
+| Phase | 产出 | 路径 | 状态 |
+|-------|------|------|------|
+| 1a | HTML→MD 转换 | `10_raw/sources/aima-ai-thinking-card-20260515.md` | ✅ |
+| 1b | kdo ingest 归档 | `10_raw/sources/aima-ai-thinking-card-20260515.html` | ✅ |
+| 1c | 外部链接提取 | `00_inbox/links/aima-ai-thinking-card-links.md` | ✅ |
+| 2a | framework 卡：认知升级十步框架 | `30_wiki/concepts/yt-model-cognitive-upgrade-framework.md` | ✅ |
+| 2b | tool 卡：PEAS 智能体分析 | `30_wiki/concepts/yt-tool-peas-agent-analysis.md` | ✅ |
+| 3 | 跨域图边（3张卡 related 更新） | `yt-model-ipo-learning-strategy`, `yt-model-prompt-engineering`, `yt-concept-ai-guard-brain` | ✅ |
+
+### 质量检查
+
+| 检查项 | 结果 |
+|--------|------|
+| `kdo lint` errors | **0** ✅ |
+| 2 张新卡 Constraints ≥ 2 | ✅ framework 3条，tool 2条 |
+| 3 张关联卡 related 已更新 | ✅ 全部含 `yt-model-cognitive-upgrade-framework` |
+| framework 卡 Burn line | ✅ 「读书不是为了知道更多，而是为了下一次做决定时，脑子里响起的不是旧 Bug 而是新 Patch」 |
+| v1.5: Critique 外部攻击子节 | ✅ 两张卡各有 ≥1 条真实外部批评 |
+| v1.5: Synthesis 不要用的场景表 | ✅ framework 3条，tool 3条（均含失效机制+替代方案） |
+| v1.5: Action Triggers 节 | ✅ 各 3 个触发场景+第一动作+成功指标 |
+| source_refs 指向 `10_raw/` | ✅ 两张卡均指向已归档文件 |
+| query_triggers 真实搜索词 | ✅ 中文搜索词，非 section header |
+
+### 已知项
+
+- `kdo lint` source_refs "missing or empty" warning：已知假阳性，影响全库约 150 张卡，非本 Sprint 引入。两张新卡 source_refs 均已正确指向 `10_raw/` 目录下的已归档文件。
+- `kdo lint` "orphan page" / "not listed in index" warning：新卡预期行为，待后续跨域边建设自然消解。
+
+### 延后项
+
+无。Sprint 11 全部 Phase 完成。
 - [ ] 2 张新卡 source_refs 指向 `10_raw/`
 - [ ] 每张新卡 Constraints ≥ 2 条，满足理解门禁
 - [ ] 每张新卡 query_triggers 为真实搜索词（非 section headers）
