@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-> **启动先读** `.agent/context.md` → `.agent/pitfalls.md`（30秒恢复上下文，省80%token）
+**!!! 启动后第一个动作：Read `.agent/context.md` 然后 `.agent/pitfalls.md`。这两个文件包含你是谁、现在做到哪了、踩过什么坑。不读会失忆。!!!**
 
 ## 关键路径
 
