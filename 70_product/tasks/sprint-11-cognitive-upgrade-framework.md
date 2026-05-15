@@ -45,6 +45,8 @@ Constraints 至少 3 条，须覆盖：
 - ICAP 自评的自我欺骗风险
 - CTA 设计质量决定转化率
 
+> **v1.5 要求**：此卡为工业化手册 §1.7 的第一张 framework 实例——外部攻击、不要用场景、Action Triggers 三个新节均为必填。标准见 `90_control/kdo-industrialization-manual.md` §1.7。
+
 ### 2b. tool：`yt-tool-peas-agent-analysis`（PEAS 智能体分析工具）
 
 从 AI 思维卡内容中提取 PEAS 四元组 + 5 层 Agent 架构作为一张可操作的自我诊断工具卡。
@@ -57,6 +59,8 @@ Constraints 至少 3 条，须覆盖：
 Constraints 至少 2 条：
 - PEAS 在 P 本身有争议的领域（养育/艺术/关系）会卡住
 - 5 层架构不完全适用于神经网络时代（LLM 是混合体）
+
+> **v1.5 要求**：此卡为工业化手册 §1.7 的第一张 tool 实例——外部攻击、不要用场景、Action Triggers 三个新节均为必填。
 
 ## Phase 3：跨域图边
 
@@ -72,9 +76,14 @@ Constraints 至少 2 条：
 
 ## 质量门禁
 
+> **v1.5 新标准**：本 Sprint 的两张卡（1 framework + 1 tool）是工业化手册 v1.5 卡片层行为转化三要件的第一批实例。三个新节均为必填。
+
 - [ ] `kdo lint` → 0 errors
 - [ ] 2 张新卡 source_refs 指向 `10_raw/`
 - [ ] 每张新卡 Constraints ≥ 2 条，满足理解门禁
 - [ ] 每张新卡 query_triggers 为真实搜索词（非 section headers）
 - [ ] 3 张关联卡 `related` 已更新
 - [ ] framework 卡含 Burn line
+- [ ] **（v1.5 新增）** 每张卡 Critique 含"外部攻击"子节（≥1 条真实外部批评，不带 straw man）
+- [ ] **（v1.5 新增）** 每张卡 Synthesis 含"不要用的场景"表（≥2 条：场景+失效机制+替代方案）
+- [ ] **（v1.5 新增）** 每张卡含 `## Action Triggers` 节（≥3 个触发场景 + 第一动作 + 成功指标）
