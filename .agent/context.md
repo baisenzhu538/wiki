@@ -1,7 +1,7 @@
 ---
-updated: 2026-05-16
+updated: 2026-05-16_2
 active_branch: main
-active_task: Sprint 12 Batch A — yt-* 卡片 v1.5 行为转化三要件回溯
+active_task: Sprint 12 Batch B — 85 张 yt-tool 卡 v1.5 行为转化三要件回溯
 blockers: []
 ---
 
@@ -29,8 +29,9 @@ blockers: []
   2. **Synthesis 不要写场景**（写跨域同构关系，不写应用场景）
   3. **Action Triggers**（何时触发该知识的可观测信号）
 - Sprint 11（认知升级框架）→ completed ✅
-- **Sprint 12 Batch A** → completed ✅ (25/25 framework 卡已升级)
-- Batch B（85 张 tool 卡）和 Batch C（~30 张 concept 卡）待欧阳锋审查后启动
+- **Sprint 12 Batch A** → completed ✅ (25/25 framework 卡已升级，欧阳锋审查通过)
+- **Sprint 12 Batch B** → pending (85 张 tool 卡，待启动)
+- Batch C（~30 张 concept 卡）待 Batch B 完成后启动
 - 346 条 inbox 积压未清理，591 条 lint 警告待处理
 
 ## 最近决策

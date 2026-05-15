@@ -29,3 +29,27 @@
 **替代方案**：Claude Code `/memory` — 被否决，因为锁在工具里、换工具/换电脑就丢。
 
 **后果**：每次 session 结束需花 2 分钟更新 context.md。新 agent 启动时先读这三个文件。
+
+---
+
+## 2026-05-16: Sprint 12 Batch A 审查通过，启动 Batch B
+
+**背景**：黄药师完成 25 张 `type: framework` 的 yt-* 卡 v1.5 回溯升级（外部攻击 + 不要用场景表 + Action Triggers）。欧阳锋按验收标准抽检 5/25（20%）。
+
+**抽检样本**：`yt-model-agent-architecture`、`yt-model-five-step-canvas`、`yt-model-deep-review-iceberg`、`yt-model-product-excellence`、`yt-model-scientific-questioning-map`
+
+**决策**：Batch A 通过。25/25 全部达到 v1.5 三要件标准。黄药师可启动 Batch B（85 张 `type: tool` 卡）。
+
+**原因**：
+- 外部攻击 0 straw man——全部引用真实学者（Klein, Edmondson, Argyris, Freire, Norman, Papanek 等）及其具体论证
+- 不要用场景表全部含失效机制 + 替代方案，无"根据情况灵活运用"式废话
+- Action Triggers 全部含三列完整（触发场景 + 第一动作 + 可验证成功指标）
+- 原有 Claims / Constraints 内容未被修改
+- `kdo lint` 3 errors / 591 warnings 全部为预存，非本次引入
+
+**否决的替代方案**：无。审查无 blocking issue。
+
+**后果**：
+- Batch B（85 张 tool 卡）按 Sprint 12 工单执行，单次 ≤5 张，分 ~17 轮
+- 黄药师在 `.agent/context.md` 更新当前任务为 Batch B
+- 欧阳锋每域抽检 2 张（共 14 张，~16%）

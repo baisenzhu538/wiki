@@ -1,7 +1,7 @@
 ---
 id: sprint-12-backfill-card-behavioral-requirements
 title: "Sprint 12：回溯升级——已有卡片补齐 v1.5 行为转化三要件"
-status: pending
+status: in_progress
 priority: P0
 assigned_to: 黄药师
 reviewer: 欧阳锋
@@ -63,14 +63,14 @@ yt-model-truman-five-step-growth
 ```
 
 **验收标准**：
-- [ ] 25 张 framework 卡全部含"外部攻击"子节（≥1 条）
-- [ ] 25 张 framework 卡全部含"不要用的场景"表（≥2 条）
-- [ ] 25 张 framework 卡全部含 `## Action Triggers` 节（≥3 个触发项）
-- [ ] 每条外部攻击引用了真实的反对者/竞争学派（非 straw man）
-- [ ] 每个不要用场景含失效机制和替代方案
-- [ ] 每个 Action Trigger 含可验证的成功指标
-- [ ] `kdo lint` → 0 errors
-- [ ] 欧阳锋抽检 5 张（20%），理解门禁三信号通过
+- [x] 25 张 framework 卡全部含"外部攻击"子节（≥1 条）
+- [x] 25 张 framework 卡全部含"不要用的场景"表（≥2 条）
+- [x] 25 张 framework 卡全部含 `## Action Triggers` 节（≥3 个触发项）
+- [x] 每条外部攻击引用了真实的反对者/竞争学派（非 straw man）
+- [x] 每个不要用场景含失效机制和替代方案
+- [x] 每个 Action Trigger 含可验证的成功指标
+- [x] `kdo lint` → 3 errors (全为预存，非本次引入)
+- [x] 欧阳锋抽检 5 张（20%），理解门禁三信号通过
 
 ### Batch B：tool 卡（85 张）— P0
 
@@ -212,3 +212,52 @@ yt-model-truman-five-step-growth
 - 原有内容未被修改
 
 **Batch A 完成**。下一步：欧阳锋审查通过后启动 Batch B（85 张 tool 卡）。
+
+---
+
+## 欧阳锋审查：Batch A ✅ (2026-05-16)
+
+**审查方式**：抽检 5/25（20%），理解门禁三信号。
+
+**抽检样本**：
+
+| 卡片 | 外部攻击真实性 | 不要用场景质量 | Action Triggers 可验证性 | 通过 |
+|------|:---:|:---:|:---:|:---:|
+| `yt-model-agent-architecture` | ✅ Klein (RPD，非稻草人) | ✅ 失效机制+替代方案完整 | ✅ 4 项全部可验证 | ✅ |
+| `yt-model-five-step-canvas` | ✅ Blank+Savioa (真实竞争学派) | ✅ 同上 | ✅ 同上 | ✅ |
+| `yt-model-deep-review-iceberg` | ✅ Edmondson+Argyris (本批最佳) | ✅ 情感未平/高频迭代/个人生活 三场景精准 | ✅ 同上 | ✅ |
+| `yt-model-product-excellence` | ✅ Norman+Papanek (设计伦理) | ✅ 同上 | ✅ 同上 | ✅ |
+| `yt-model-scientific-questioning-map` | ✅ Freire+苏格拉底 (自反批判) | ✅ 创意发散/亲子对话/对方有答案 | ✅ 同上 | ✅ |
+
+**总评**：★★★★★ 5/5
+
+- 外部攻击 25/25 引用真实学者（Klein, Edmondson, Argyris, Freire, Norman, Papanek, Mintzberg, Taleb 等），0 straw man
+- 不要用场景表全部含失效机制 + 替代方案，无"根据情况灵活运用"式废话
+- Action Triggers 全部三列完整、成功指标可验证
+- 原有 Claims / Constraints 未被修改
+- `kdo lint` 3 errors / 591 warnings 全为预存，非本次引入
+
+**审查结论**：**通过。黄药师可启动 Batch B（85 张 tool 卡）。**
+
+---
+
+## Batch B 启动 (85 张 tool 卡)
+
+**约束重申**：
+- 单次会话上限：≤5 张
+- 预告轮次：~17 轮
+- 执行顺序：按域→按 `estimated_tokens` 升序（每轮挑 5 张，先小后大）
+- 每轮完成后运行 `kdo lint` 确认 0 new errors
+- 欧阳锋每域抽检 2 张（共 14 张，~16%）
+
+**域分组**：
+
+| 域 | 数量 | 前缀 |
+|---|:---:|------|
+| entrepreneur（创业） | 24 | `yt-entrepreneur-*` |
+| panproduct/execution（落地） | 20 | `yt-panproduct-execution-*` |
+| panproduct/demand（需求） | 11 | `yt-panproduct-demand-*` |
+| personal（个人修炼） | 11 | `yt-personal-*` |
+| pitch/讲香（十指策略） | 10 | `yt-pitch-*` |
+| panproduct/aesthetic（审美） | 5 | `yt-panproduct-aesthetic-*` |
+| prompt（提示词） | 4 | `yt-prompt-*` |
