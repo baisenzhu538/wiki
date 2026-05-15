@@ -15,15 +15,8 @@
 - **[[sprint-11-cognitive-upgrade-framework]]** 已创建——AI思维卡 HTML ingest + 十步框架萃取 + PEAS 工具卡
 - **活跃任务**：[[sprint-11-cognitive-upgrade-framework]]（P0，黄药师待领取）
 - **注**：v1.4 的产出层行为转化标准和 EVIDENCE 审计标准在 v1.5 中保留，卡片层三要件为增量
-
-- **KDO 方法论升级 v1.4**：对标 AI 思维卡「认知升级系统 v3.2」，引入行为转化层（ACTION→CTA→FOLLOWUP）、EVIDENCE 审计标准（偏差标注+外部攻击+反事实）、Burn line。新增 KF-023 和 F-KDO-016
-- **审而不改**：控制文件和规则由欧阳锋直接改。知识卡和素材处理走 KDO 管线，黄药师执行
-- **[[sprint-11-cognitive-upgrade-framework]]** 已创建——AI思维卡 HTML ingest + 十步框架萃取 + PEAS 工具卡
-- **活跃任务**：[[sprint-11-cognitive-upgrade-framework]]（P0，黄药师待领取）
-
 - **[[sprint-9-cleanup-source-refs-query-triggers]]** → completed ✅。52 张 source_refs 归零，31 张 triggers 重写，20 张 Constraints 去模板化
 - **[[sprint-10-fill-remaining-related-edges]]** → completed ✅。76 张非 panproduct 卡图边全填充，16 张管理域 query_triggers 新增，管理域 Constraints 保留原 Critique（已为工具特有）
-- **活跃任务**：[[sprint-10-fill-remaining-related-edges]]（P0，黄药师待领取）
 
 ## 2026-05-13：Sprint 6 终审 + Sprint 8 通过 + Sprint 9 启动
 
