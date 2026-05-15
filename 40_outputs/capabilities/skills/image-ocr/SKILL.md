@@ -81,6 +81,33 @@ node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs <image-path>
 - 错误的 `.filter(l => l.trim())` 会移除全角空格行，导致所有字符索引偏移 1
 - 症状：OCR 输出为随机中文乱码（字符都认识但内容完全不对）
 
+## 截图自动发现（v2 新增）
+
+当用户粘贴截图到聊天但平台不支持多模态时，使用自动发现流程：
+
+```powershell
+# 自动发现最近 N 张截图并 OCR
+.\40_outputs\capabilities\skills\image-ocr\read-screenshot.ps1 -Last 3
+
+# 指定具体文件
+.\40_outputs\capabilities\skills\image-ocr\read-screenshot.ps1 -Path "C:\Users\Administrator\Desktop\Snipaste_xxx.png"
+```
+
+**搜索范围**：
+1. 桌面：`Snipaste_*.png`、`Screenshot_*.png`、`*.screenshot*.png`
+2. Vault inbox：`00_inbox/screenshot*.png`
+3. 兜底：桌面上最近 10 张任意 PNG
+
+**输出**：OCR 文本打印到终端 + 图片自动拷贝到 `00_inbox/ocr_*.png`
+
+## 为什么需要这个（模型层分析）
+
+当前会话的模型后端是 **DeepSeek V4 Pro**（通过 Kimi Code API），该模型**不支持多模态**：
+- Read 工具返回 `[Unsupported Image]` —— 模型无法处理像素数据
+- WebSearch 返回 `tool_choice` 错误 —— DeepSeek Reasoner 不支持工具选择
+
+因此所有图片理解必须走本地 OCR 管道。这是非多模态模型下看图能力的唯一可行方案。
+
 ## 备选方案
 
 | 方案 | 优点 | 缺点 |
@@ -88,6 +115,16 @@ node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs <image-path>
 | OCR.space API | 高准确率、无需本地模型 | 需联网、500次/天限额、≤1MB/图 |
 | tesseract.js | 开源、多语言 | 中文准确率低（~70%） |
 | PaddleOCR (本方案) | 本地、免费、高准确率 | 需模型文件、大内存 |
+| Kimi 视觉模型 | 原生理解图表/UI/颜色 | 需确认 kimi-for-coding 是否含 vision 能力 |
+| 直接切 Claude | 原生多模态，无需 OCR | 需更换 API endpoint |
+
+## 已知局限（更新 v2）
+
+1. PaddleOCR **只能提取文字**，无法理解图表、UI布局、颜色、空间关系
+2. 复杂排版（竖排、弯曲文字、手写体）识别率低
+3. 首次加载 ~2s（ONNX Runtime WASM 初始化）
+4. 内存占用 ~200MB
+5. 桌面路径在 WSL 下不可达，必须用 PowerShell 调用
 
 ## 依赖
 
