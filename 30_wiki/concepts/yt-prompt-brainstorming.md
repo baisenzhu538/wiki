@@ -77,6 +77,12 @@ estimated_tokens: 2000
 - [[yt-prompt-anti-flattery]] — 反谄媚——头脑风暴产生的选项天然被 AI 合理化了，需要反谄媚过滤
 - [[yt-concept-context-engineering]] — 上下文工程——独特资源+独特约束就是头脑风暴的上下文
 
+### 外部攻击：Mihaly Csikszentmihalyi的"三元创造力" + Teresa Amabile的"创造力要素理论"
+
+**Mihaly Csikszentmihalyi**（克莱蒙研究大学心理学教授，"Creativity: Flow and the Psychology of Discovery and Invention"作者，创造力系统模型的创始人）论证：真正的创意突破不是在个人脑中完成的事件——它发生在个体（individual）、领域（domain，文化中的符号规则）、和场域（field，决定哪些创新有价值的社会守门人）三者的交互中。Csikszentmihalyi的挑战：AI头脑风暴的"95分"潜力来自AI对"领域"维度的控制——它能搜索全网知识、快速度匹配、生成你没想到的组合。但创意的另外两个维度——个体维度的独特生命体验（你为什么选这个组合而不是那个组合的判断）、场域维度的社会验证（用户/市场/同行会不会接受这个创新）——AI完全不参与。把AI头脑风暴定位为"95分"可能高估了"领域搜索"在创造力总价值中的占比——对于很多突破性创新，"领域搜索"恰好是最容易被替代、最不稀缺的那一块。
+
+**Teresa Amabile**（哈佛商学院教授，"Creativity in Context: Update to the Social Psychology of Creativity"作者，创造力要素理论componential theory of creativity创始人）通过40年实证研究证明：创造力需要三个核心要素——领域相关技能（domain-relevant skills）、创造力相关过程（creativity-relevant processes）、和内在任务动机（task motivation）。Amabile的挑战：AI头脑风暴提供了领域搜索和组合（对应要素1"领域技能"），但要素2（创造力过程——你识别一个好想法的能力、你打破认知定式的思维习惯）和要素3（内在动机——你对解决这个问题本身的深层兴趣）必须来自你。AI给你10个方案，你看完后觉得"都一般"→你没有足够的创造力过程去判断哪个方案的方向是对的只是执行不够好vs哪个方案的方向本身就是死胡同。AI帮你省了搜索时间，但AI不能替你建立"识别一个好想法的能力"——这个能力来自你自己做过大量"从模糊想法→清晰方案"的实践积累。
+
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

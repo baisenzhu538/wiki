@@ -77,6 +77,12 @@ estimated_tokens: 2000
 - [[yt-prompt-brainstorming]] — 头脑风暴：Step 3 的详细展开
 - [[yt-concept-context-engineering]] — 上下文工程：Step 1 的理论基础
 
+### 外部攻击：Ethan Mollick的"锯齿边界" + Shannon Vallor的"AI镜子"
+
+**Ethan Mollick**（宾夕法尼亚大学沃顿商学院教授，"Co-Intelligence: Living and Working with AI"作者，AI与工作领域最具影响力的学者之一）通过大规模实验发现了AI能力的"锯齿边界"（jagged frontier）——AI在某些任务上远超人类（如创意生成），在另一些看似相似的任务上却惊人地弱（如精确计算和因果推理），且这个边界不直观、难以预测。Mollick的挑战：五步迭代法假设每一轮反馈都会让AI的产出变得更好——但Mollick的"锯齿边界"揭示：如果你当前的任务恰好落在AI的"弱侧"（如没有结构化数据的精确商业数字计算、需严格因果链的推理），迭代再多轮AI也不会真的变好——它只是在不断换说法。真正的进步来自判断当前任务在锯齿边界的哪一侧——落在强侧的迭代，落在弱侧的停止迭代换工具。
+
+**Shannon Vallor**（爱丁堡大学技术伦理教授，"The AI Mirror: How to Reclaim Our Humanity in an Age of Machine Thinking"作者）论证：AI不像一个"他者"在与你对话——它像一面镜子，反射回你自己的语言习惯、认知偏见和思维模式给你看。Vallor的挑战：迭代提示词的核心理念"用新上下文不断校准AI的理解"——但Vallor会说，AI没有"理解"可以被校准。每一次迭代中你给的新上下文，AI不是在用它们"更准确地理解你的问题"，而是在用新的统计信号更精确地预测"什么样的输出最让你满意"。迭代不是在"校准理解"——AI没有在理解——它在"拟合你的满意度模式"。当迭代让你越来越满意时，这不等于AI的答案越来越正确，只等于AI越来越擅长预测你想要什么——而这恰好是谄媚的另一种形式。
+
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

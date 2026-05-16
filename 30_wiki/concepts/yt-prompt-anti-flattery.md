@@ -89,6 +89,12 @@ estimated_tokens: 2200
 - [[yt-prompt-iterative-prompting]] — 迭代提示词——反谄媚是每轮迭代必须嵌入的校准机制
 - [[yt-panproduct-demand-motivation-resistance]] — 动力阻力——反谄媚本质上就是降低 AI 使用中的"阻力"（过度自信）
 
+### 外部攻击：Emily Bender的"随机鹦鹉" + Arvind Narayanan的"蛇油AI"
+
+**Emily Bender**（华盛顿大学计算语言学教授，"On the Dangers of Stochastic Parrots"合著者）的"随机鹦鹉"（stochastic parrot）论证对多角色交叉验证的可靠性提出了最根本的挑战。Bender证明：大语言模型不"理解"它生成的语言——它只是在基于训练数据中的统计模式预测下一个最可能的token。Bender的挑战：反谄媚机制的三大操作——删除正向形容词、先问缺点、多角色交叉验证——这些操作让你觉得你在获取"多元视角"。但Bender会说：当AI扮演"红杉投资人"时，它不是在"像一个投资人一样思考"，而是在从训练数据中提取与"红杉""投资人"统计相关的语言模式。它说得"像"一个投资人≠它做出了一个投资人同质量的判断。多角色交叉验证不是"多个人在说话"，是"一个人穿了不同的衣服在说话"——所有"角色"共享同一个根本局限：它们都不理解自己说的话是什么意思。
+
+**Arvind Narayanan**（普林斯顿大学计算机科学教授，"AI Snake Oil: What Artificial Intelligence Can Do, What It Can't, and How to Tell the Difference"合著者）通过系统区分AI的"真实能力"与"感知能力"论证：当前LLM最危险的不是它们的失败，而是它们的失败模式不可预测且被流畅的语言所掩盖。Narayanan的挑战：反谄媚机制让你删除正向形容词、问"缺点"而非"是否有潜力"——这些操作减少了AI给你"你想听的"的概率，但Narayanan会说：这没有解决"AI给的答案不是基于真实推理而是基于统计拟合"这个根本问题。删除了正向形容词后AI给了你一个"看似平衡"的分析——但AI自己不知道这个分析中哪些部分是真的、哪些部分只是"在统计上看起来像是一个自称客观的分析会说的话"。反谄媚解决的是"谄媚"这个症状，但不解决"AI输出的任何内容都不能被直接信任"这个根因。
+
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |
