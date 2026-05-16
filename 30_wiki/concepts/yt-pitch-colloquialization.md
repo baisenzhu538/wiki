@@ -3,7 +3,9 @@ id: yt-pitch-colloquialization
 title: 讲香·口语化
 type: tool
 status: enriched
-domain: personal
+domain:
+  - personal
+  - yitang
 language: zh-CN
 version: 1
 difficulty: intermediate

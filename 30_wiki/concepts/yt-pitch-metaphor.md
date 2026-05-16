@@ -3,7 +3,9 @@ id: yt-pitch-metaphor
 title: 讲香·比喻化
 type: tool
 status: enriched
-domain: personal
+domain:
+  - personal
+  - yitang
 language: zh-CN
 version: 1
 difficulty: foundational

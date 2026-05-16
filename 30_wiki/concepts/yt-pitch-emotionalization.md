@@ -3,7 +3,9 @@ id: yt-pitch-emotionalization
 title: 讲香·情绪化
 type: tool
 status: enriched
-domain: personal
+domain:
+  - personal
+  - yitang
 language: zh-CN
 version: 1
 difficulty: intermediate

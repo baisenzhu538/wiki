@@ -3,7 +3,9 @@ id: yt-pitch-materialization
 title: 讲香·素材化
 type: tool
 status: enriched
-domain: personal
+domain:
+  - personal
+  - yitang
 language: zh-CN
 version: 1
 difficulty: advanced

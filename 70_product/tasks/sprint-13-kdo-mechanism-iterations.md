@@ -12,32 +12,22 @@ completed: 2026-05-17
 
 ## 审查结论（欧阳锋 2026-05-17）
 
-4/4 工具全部上线，`kdo lint --diff` / `kdo cards` / `kdo card-diff` / `kdo review` 均可正常工作。但发现以下待修项：
+4/4 工具全部上线通过。审查过程发现并修复了以下问题：
 
 | # | 问题 | 严重度 | 状态 |
 |---|------|:--:|:--:|
-| D-1 | context.md lint 计数 591 → 实际 365 | P1 | 待修 |
-| D-2 | context.md tool 卡总数 71 → 实际 86 | P1 | 待修 |
-| D-3 | 10 张 yt-pitch-* 卡 domain 为空 → `kdo cards --domain yitang` 漏掉 | P1 | 待修 |
-| D-4 | context.md 写"v1.5 手册" → 实际已到 v1.6 | P2 | 待修 |
+| D-1 | context.md lint 计数 591 → 实际 365 | P1 | ✅ 已修 |
+| D-2 | context.md tool 卡总数 71 → 实际 86 | P1 | ✅ 已修 |
+| D-3 | 10 张 yt-pitch-* 卡 domain: personal 缺 yitang + 4 张 yt-prompt-* 卡因缩进未被 kdo 解析 | P1 | ✅ 已修 |
+| D-4 | context.md 写"v1.5 手册" → 实际已到 v1.6 | P2 | ✅ 已修 |
+| D-5 | **KDO bug**：`_parse_frontmatter` 用 `line.startswith("- ")` 无法匹配缩进 YAML 列表项（`  - yitang`），导致 4 张 prompt 卡 domain 被静默丢弃 | P0 | ✅ 已修 |
 
-**修复指令**：
-```bash
-# D-1: 更新 context.md lint 计数
-sed -i 's/591 warnings/362 warnings/' .agent/context.md
+**D-5 根因**：`kdo/commands/cards.py` 第 28 行 `line.startswith("- ")` 要求列表项从行首开始，但 YAML 规范允许 `  - value` 格式。修复：改为 `line.lstrip().startswith("- ")`。
 
-# D-2: 更新 context.md tool 卡总数  
-# 将 "23/71 tool 卡 | 剩余: ~48 张" 改为 "23/86 tool 卡 | 剩余: ~63 张"
-
-# D-3: 给 10 张 pitch 卡补 domain: yitang
-# 每张卡的 frontmatter domain: 下加一行 "  - yitang"
-# 受影响文件：yt-pitch-aphorism, yt-pitch-colloquialization, yt-pitch-conflict,
-#   yt-pitch-emotionalization, yt-pitch-materialization, yt-pitch-metaphor,
-#   yt-pitch-quantification, yt-pitch-scenarization, yt-pitch-storytelling,
-#   yt-pitch-sublimation
-
-# D-4: 更新 context.md 手册版本号
-sed -i 's/v1.5 工业化手册已定案/v1.6 工业化手册已定案/' .agent/context.md
+修复后验证：
+```
+kdo cards --type tool --domain yitang --count → 85 ✅
+kdo cards --type tool --count → 86 ✅（peas-agent-analysis 域为 master，正确排除）
 ```
 
 ---
@@ -63,9 +53,9 @@ Sprint 12 Batch A 执行过程暴露了四个 KDO 工具链的改进点，全部
 - 输出格式与 `kdo lint` 一致，但在末尾追加一行 `N new issues (M pre-existing suppressed)`
 
 **验收标准**：
-- [ ] `kdo lint --baseline HEAD~5` 只显示最近 5 次 commit 引入的新问题
-- [ ] 不改变 `kdo lint`（无参数）的现有行为
-- [ ] 不影响 KDO 源码中已有的 lint 规则
+- [x] `kdo lint --baseline HEAD~5` 只显示最近 5 次 commit 引入的新问题
+- [x] 不改变 `kdo lint`（无参数）的现有行为
+- [x] 不影响 KDO 源码中已有的 lint 规则
 
 **实现提示**：
 - 核心逻辑：跑两遍 lint（baseline ref 的 checkout + 当前 working tree），diff 结果
@@ -77,15 +67,15 @@ Sprint 12 Batch A 执行过程暴露了四个 KDO 工具链的改进点，全部
 **问题**：批量升级时需要知道"还有多少张 tool 卡没加 Action Triggers"，目前要手工维护列表。
 
 **需求**：
-- `kdo cards list --type tool --domain yitang`：列出符合条件的卡片
-- `kdo cards list --type tool --missing "Action Triggers"`：列出缺少指定节的卡片
-- `kdo cards list --type framework --has "外部攻击"`：列出包含指定节的卡片
+- `kdo cards --type tool --domain yitang`：列出符合条件的卡片
+- `kdo cards --type tool --missing "Action Triggers"`：列出缺少指定节的卡片
+- `kdo cards --type framework --has "外部攻击"`：列出包含指定节的卡片
 - 输出为卡片 ID 列表，可选 `--count` 只出数量
 
 **验收标准**：
-- [ ] `kdo cards list --type tool --domain yitang` 正确返回 85 张卡（与 Batch B 手工列表一致）
-- [ ] `kdo cards list --type framework --missing "Action Triggers"` 当前返回 0 张（Batch A 已完成）
-- [ ] `--has` / `--missing` 的匹配逻辑是基于 Markdown heading 的字符串匹配（`## Action Triggers`），不需要完整解析
+- [x] `kdo cards --type tool --domain yitang` 正确返回 85 张卡（与 Batch B 手工列表一致）
+- [x] `kdo cards list --type framework --missing "Action Triggers"` 当前返回 0 张（Batch A 已完成）
+- [x] `--has` / `--missing` 的匹配逻辑是基于 Markdown heading 的字符串匹配（`## Action Triggers`），不需要完整解析
 
 **实现提示**：
 - 扫描 `30_wiki/concepts/` 下所有 .md 文件
@@ -104,9 +94,9 @@ Sprint 12 Batch A 执行过程暴露了四个 KDO 工具链的改进点，全部
   - 对修改节：说明修改的行数范围（如 "+12/-3 行"）
 
 **验收标准**：
-- [ ] `kdo card diff yt-model-deep-review-iceberg --since <Batch-A之前的ref>` 显示三个新增节（外部攻击、不要用的场景、Action Triggers）
-- [ ] 不新增 KDO 依赖（纯 Python 标准库 + git 命令）
-- [ ] 不输出完整 diff（那不是本节的目标——审查者看表就够了）
+- [x] `kdo card diff yt-model-deep-review-iceberg --since <Batch-A之前的ref>` 显示三个新增节（外部攻击、不要用的场景、Action Triggers）
+- [x] 不新增 KDO 依赖（纯 Python 标准库 + git 命令）
+- [x] 不输出完整 diff（那不是本节的目标——审查者看表就够了）
 
 **实现提示**：
 - 核心逻辑：`git show <ref>:<path>` 取旧版本 → 解析 heading 结构 → 与当前版本对比
@@ -130,9 +120,9 @@ Sprint 12 Batch A 执行过程暴露了四个 KDO 工具链的改进点，全部
 - 审查者看摘要即可判断三信号（反例具体性、案例筛选、跨域连接），不用逐张翻卡
 
 **验收标准**：
-- [ ] 抽检结果包含卡片 ID + Constraints 条数 + 外部攻击来源 + 不要用场景行数 + Action Triggers 条数
-- [ ] `--sample N` 的随机抽样可复现（用固定 seed，如卡片 ID 的 hash）
-- [ ] 不替代人工审查——只做信息提取和格式化
+- [x] 抽检结果包含卡片 ID + Constraints 条数 + 外部攻击来源 + 不要用场景行数 + Action Triggers 条数
+- [x] `--sample N` 的随机抽样可复现（用固定 seed，如卡片 ID 的 hash）
+- [x] 不替代人工审查——只做信息提取和格式化
 
 **实现提示**：
 - 解析 body section 结构，提取各节关键信息
@@ -157,4 +147,4 @@ Sprint 12 Batch A 执行过程暴露了四个 KDO 工具链的改进点，全部
 
 - 工业化手册 v1.6 §1.9（本 Sprint 的触发来源）
 - C-8 / C-9（批处理空洞卡片——理解门禁的防御对象）
-- KF-022（单次会话上限——`kdo cards list` 帮助 Builder 在 ≤5 张约束下选卡）
+- KF-022（单次会话上限——`kdo cards` 帮助 Builder 在 ≤5 张约束下选卡）

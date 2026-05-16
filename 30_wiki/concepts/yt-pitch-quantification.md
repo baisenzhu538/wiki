@@ -3,7 +3,9 @@ id: yt-pitch-quantification
 title: 讲香·数字化
 type: tool
 status: enriched
-domain: personal
+domain:
+  - personal
+  - yitang
 language: zh-CN
 version: 1
 difficulty: intermediate
