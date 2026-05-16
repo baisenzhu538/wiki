@@ -91,6 +91,12 @@
 
 **关联**：P-5（同一个事故链的第三环：work_dir 错 → env.conf 错 → session 缓存错）。Config Cascade Debug skill 的 Layer 0（运行时缓存）又一次成为最后一层漏网之鱼。
 
+**⚠️ 2026-05-17 复现**：P-6 的精确复现。昨晚 21:37 修 P-5 时重启了 cc-connect，旧 Claude Code 进程被杀，但 session 文件保留着死进程的 `agent_session_id`。用户睡觉期间没人发消息，WebSocket 在 00:05 和 02:17 两次超时重连后进入僵尸状态（TCP 连着但应用层不收消息）。早上用户发消息 → cc-connect 尝试 resume 死 session → 静默失败 → 空响应。飞书端 3 小时零条日志。修复：删 session 文件 + 重启 cc-connect。
+
+**复现条件**：cc-connect 重启 + 存在旧 session 文件 + 重启后第一次发消息。复现率 100%。
+
+**设计层根因**：cc-connect 启动时不做 session 有效性检测——不检查 `agent_session_id` 是否指向活着的 Claude Code 进程，也不自动清理。这个 bug 每次重启 cc-connect 都会触发。
+
 ---
 
 ## P-7: 素材预处理缺少 OCR 强制检查——执行者跳过图片
