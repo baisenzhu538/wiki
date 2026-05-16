@@ -294,7 +294,23 @@ yt-model-truman-five-step-growth
 - Action Triggers 全部含可验证成功指标
 - 原有内容未被修改
 
-**剩余 entrepreneur**: 8 张 | **总计剩余**: ~56 张 tool 卡
+### Round 4 (2026-05-16) — 5 张完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 16 | `yt-entrepreneur-pragmatic-startup` | Thiel (非共识真理) + Shaw (理性人悖论) | 3 行（非共识方向/执行期/范式创造期） | 4 触发项 | ✅ |
+| 17 | `yt-entrepreneur-product-core` | Moore (完整产品) + Jason Fried (简约非剥离) | 3 行（平台闭环/已有用户量级/需求验证期） | 4 触发项 | ✅ |
+| 18 | `yt-entrepreneur-research-camp` | Kathy Sierra (用户技能转化) + Ericsson (刻意练习) | 3 行（L3+/行业专属信息/确认偏差回填BP） | 4 触发项 | ✅ |
+| 19 | `yt-entrepreneur-research-cognition` | Gary Klein (识别启动决策) + Thaler (确认偏差) | 3 行（行业深耕多年/极端概念期/决策窗口极紧） | 4 触发项 | ✅ |
+| 20 | `yt-entrepreneur-scientific-method` | Feyerabend (反对方法) + Maslow (科学的两种形态) | 3 行（意义维度/长周期假设/团队无科学基础） | 4 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint --diff` → 0 new errors, 1 warning（预存）
+- 外部攻击全部引真实学者/从业者（Thiel, Shaw, Moore, Fried, Sierra, Ericsson, Klein, Thaler, Feyerabend, Maslow）
+- 不要用场景全部含失效机制 + 替代方案
+- Action Triggers 全部含可验证成功指标
+
+**剩余 entrepreneur**: 3 张（spin-selling, truth-seeking, unit-model）| **总计剩余**: ~51 张 tool 卡
 
 **域分组**：
 

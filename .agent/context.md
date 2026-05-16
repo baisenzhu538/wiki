@@ -28,8 +28,8 @@ blockers: []
 - Sprint 11（认知升级框架）→ completed ✅
 - Sprint 12 Batch A → completed ✅ (25/25 framework 卡已升级，欧阳锋审查通过)
 - **Sprint 13** → completed ✅ (4 个 KDO 工具：lint --baseline/--diff, cards list, card-diff, review)
-- **Sprint 12 Batch B** → 进行中 (15/23 entrepreneur 完成，Round 1-3 done)
-- 剩余 entrepreneur: 8 张 → 其他域: ~56 张 (panproduct-execution 18, panproduct-demand 11, personal 14, pitch 10, panproduct-aesthetic 5, prompt 4)
+- **Sprint 12 Batch B** → 进行中 (20/23 entrepreneur 完成，Round 1-4 done)
+- 剩余 entrepreneur: 3 张 → 其他域: ~51 张
 - Batch C（~30 张 concept 卡）待 Batch B 完成后启动
 - 346 条 inbox 积压未清理
 - Hermes 五绝全部在线（老顽童/洪七公/段王爷 Kimi API 认证修复）
