@@ -90,9 +90,27 @@ yt-model-truman-five-step-growth
 **升级内容**：同 Batch A — 三个新节全部追加
 
 **验收标准**：
-- [ ] 6 张 pan-product framework 卡全部含 v1.5 三要件
-- [ ] `kdo cards --type framework --missing "Action Triggers"` → 0
+- [x] 6 张 pan-product framework 卡全部含 v1.5 三要件
+- [x] `kdo cards --type framework --missing "Action Triggers"` → 0
 - [ ] 欧阳锋抽检 2 张
+
+**升级详情（2026-05-17 完成）**：
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| A2-1 | `yt-model-pan-product-36-strategies` | Mintzberg (战略手艺化/涌现vs预设工具箱) + Don Norman (HCD/工具替代真实共情) | 2 行（无交付体感/卡牌数=进度） | 3 触发项 | ✅ |
+| A2-2 | `yt-model-pan-product-aesthetic-toolkit` | Pirsig (品质不可分解/白盒丢失本质) + Bourdieu (品味是阶级区隔/训练忽略文化资本) | 2 行（建池成目的/全新品类无对标） | 3 触发项 | ✅ |
+| A2-3 | `yt-model-pan-product-climbing-map` | Epstein (Range广度优先/过早专业化) + Dweck (固定型心态/段位标签化) | 2 行（团队排名/探索期自评） | 3 触发项 | ✅ |
+| A2-4 | `yt-model-pan-product-demand-toolkit` | Christensen (JTBD/任务而非用户画像) + Hall (共情需要研究基础/一秒视角=自我投射) | 2 行（无真实用户/定性卡牌答定量问题） | 3 触发项 | ✅ |
+| A2-5 | `yt-model-pan-product-execution-toolkit` | Goldratt (约束理论/非瓶颈优化是浪费) + Flyvbjerg (巨型项目铁律/拆越细越乐观) | 2 行（单一瓶颈明显/pre-PMF探索） | 3 触发项 | ✅ |
+| A2-6 | `yt-model-pan-product-three-virtues` | MacIntyre (美德依赖于实践传统/修养不可真空修炼) + Newport (慢生产力/永远进步=永远焦虑) | 2 行（自我审判工具/高压生存环境） | 3 触发项 | ✅ |
+
+**质量验证**：
+- `kdo cards --type framework --missing "Action Triggers"` → 0（空输出）
+- `kdo lint --diff` → 0 new errors
+- 外部攻击全部引真实学者/从业者 + 具体著作
+- 不要用场景全部含失效机制 + 替代方案
+- Action Triggers 全部含可验证成功指标
 
 **执行约束**：同 Batch A — 单次 ≤5 张，审而不改。
 **优先级**：P0 — 在 Batch B 继续前先补齐，避免 framework/tool 两套标准并存。
