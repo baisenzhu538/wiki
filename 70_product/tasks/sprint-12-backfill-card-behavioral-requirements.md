@@ -571,18 +571,34 @@ yt-model-truman-five-step-growth
 - 外部攻击全部引真实学者/从业者 + 具体著作
 - aesthetic 域: 4/4 ✅ 完成！
 
-**域完成态**: entrepreneur 23 ✅ | panproduct-execution 18 ✅ | panproduct-demand 11 ✅ | personal 15 ✅ | pitch 10 ✅ | aesthetic 4 ✅
+### Round 19 (2026-05-17) — 4 张 prompt 完成（prompt 域收尾）
 
-**总计**: 81/86 (94%) | **剩余**: prompt (5) 张
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 82 | `yt-prompt-anti-flattery` | Emily Bender (随机鹦鹉/多角色=同一模型穿不同衣服) + Arvind Narayanan (AI蛇油/症状vs根因) | 2 行（快速确认鼓励/纯主观审美判断） | 3 触发项 | ✅ |
+| 83 | `yt-prompt-brainstorming` | Mihaly Csikszentmihalyi (三元创造力:个体-领域-场域) + Teresa Amabile (创造力要素理论/领域搜索+创造过程+内在动机) | 2 行（问题未定义清楚/缺少领域判断力） | 3 触发项 | ✅ |
+| 84 | `yt-prompt-iterative-prompting` | Ethan Mollick (锯齿边界/弱侧迭代不进步) + Shannon Vallor (AI镜子/拟合满意度≠校准理解) | 2 行（任务在AI弱侧/无判断力迭代变漂移） | 3 触发项 | ✅ |
+| 85 | `yt-prompt-writing-workflow` | John Warner (写作即思考/填充跳过写作中的思考) + Naomi Baron (ownership稀释/不知每句话为什么在这里) | 2 行（未形成自己的观点/AI填充例子数据未经核实） | 3 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint --diff` → 0 new errors, 1 warning（预存）
+- 外部攻击全部引真实学者/从业者 + 具体著作
+- prompt 域: 4/4 ✅ 完成！
+
+**域完成态**: entrepreneur 23 ✅ | panproduct-execution 18 ✅ | panproduct-demand 11 ✅ | personal 15 ✅ | pitch 10 ✅ | aesthetic 4 ✅ | prompt 4 ✅
+
+**总计**: 85/85 (100%) — **Batch B 完成！** 🎉
+
+> **注**：另有 2 张 `yt-decision-*` tool 卡（`yt-decision-ai-partner` + `yt-decision-canvas`），创建于 2026-05-17，创建时即含 v1.5 三要件（reviewed_by: 周伯通），无需回溯升级。`kdo cards --type tool --domain yitang --count` → 87 = 85（Sprint 12 升级）+ 2（预合规）。
 
 **域分组**：
 
 | 域 | 数量 | 前缀 |
 |---|:---:|------|
-| entrepreneur（创业） | 24 | `yt-entrepreneur-*` |
-| panproduct/execution（落地） | 20 | `yt-panproduct-execution-*` |
+| entrepreneur（创业） | 23 | `yt-entrepreneur-*` |
+| panproduct/execution（落地） | 18 | `yt-panproduct-execution-*` |
 | panproduct/demand（需求） | 11 | `yt-panproduct-demand-*` |
-| personal（个人修炼） | 11 | `yt-personal-*` |
+| personal（个人修炼） | 15 | `yt-personal-*` |
 | pitch/讲香（十指策略） | 10 | `yt-pitch-*` |
-| panproduct/aesthetic（审美） | 5 | `yt-panproduct-aesthetic-*` |
+| panproduct/aesthetic（审美） | 4 | `yt-panproduct-aesthetic-*` |
 | prompt（提示词） | 4 | `yt-prompt-*` |

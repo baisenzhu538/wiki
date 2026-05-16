@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-17
 active_branch: main
-active_task: Sprint 12 Batch B Round 8（5 张 panproduct-execution 剩余卡）
+active_task: Sprint 12 Batch B — 等待欧阳锋审查
 blockers: []
 ---
 
@@ -30,11 +30,12 @@ blockers: []
 - ⚠️ **Batch A-2**：Sprint 13 KDO 审查发现 6 张 pan-product framework 卡被遗漏 → P0 优先，在 Batch B 继续前补齐
 - **Sprint 13** → completed ✅ (4 个 KDO 工具 + D-5 解析 bug 修复)
 - **Sprint 12 Batch B** → 进行中 (23/23 entrepreneur ✅ + 18/18 panproduct-execution ✅ + 11/11 panproduct-demand ✅ + 3 personal ✅)
-- Round 18 (4 张 aesthetic) completed ✅ — 81/86 (94%)
-- aesthetic 域 4/4 ✅ 完成
-- 剩余：prompt (5) 张 — 最后一批！
-- 总计: 81/86 tool 卡已完成 | 剩余: 5 张
-- Batch C（~30 张 concept 卡）待 Batch B 完成后启动
+- Sprint 12 Batch B Round 19（4 张 prompt 卡）已完成 ✅ — 85/85 (100%) Batch B 完成！
+- prompt 域 4/4 ✅ — anti-flattery + brainstorming + iterative-prompting + writing-workflow
+- 2 张 yt-decision-* tool 卡（ai-partner + canvas）创建时即含 v1.5 三要件，无需回溯
+- Sprint 12：framework 25 + tool 85 = 110 张卡全部完成 v1.5 升级
+- 下一步：欧阳锋审查 Batch B（每域抽检 2 张，共 14 张）
+- Batch C（~30 张 concept 卡）待 Batch B 审查通过后启动
 - 346 条 inbox 积压未清理
 - Hermes 五绝全部在线（老顽童/洪七公/段王爷 Kimi API 认证修复）
 
