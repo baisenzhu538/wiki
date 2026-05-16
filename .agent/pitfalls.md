@@ -13,9 +13,10 @@
 **对策**：
 - **不要逐项改环境变量**——直接改 Claude Code 的全局设置文件
 - 全局设置的模型/API endpoint/Key 一处修改即生效，无需注销重登
-- 黄药师已验证此路径可行（最终修好以此为准）
 
-**关联**：`decisions.md` 2026-05-16 DeepSeek vs Kimi（注意：该决策写于错误诊断之前，实际可通过全局设置切模型）
+**关联**：`decisions.md` 2026-05-16 DeepSeek vs Kimi
+
+**⚠️ 2026-05-16 补充**：P-1 的初始诊断不完全准确。真正的覆盖源对飞书黄药师而言是 cc-connect 的 systemd `env.conf` drop-in（见 P-5），对 CLI 黄药师则可能是全局设置或注册表。两者互不影响——这就是为什么 CLI 黄药师正常工作而飞书黄药师 401。
 
 ---
 
@@ -52,4 +53,25 @@
 **根因**：批处理只改了结构和 frontmatter，没有触发真正的理解加工。格式门禁检测不到"搬运 vs 理解"。
 
 **对策**：v1.5 新增理解门禁——每条 Constraint 必须有具体场景 + 可验证的失败模式。批量升级后至少抽检 2 张。
+
+---
+
+## P-5: cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
+
+**症状**：从 Kimi 切回 DeepSeek 后，WSL 终端的 `claude` 命令正常工作，但飞书黄药师报 `HTTP 401` 且无法访问 wiki/KDO。
+
+**根因（2 个残留文件未回切）**：
+1. `~/.config/systemd/user/cc-connect.service.d/env.conf` —— Kimi 时代的 systemd Environment drop-in，仍指向 `https://api.kimi.com/coding` + Kimi Key。systemd `Environment=` 注入的 env var 优先级最高，覆盖 `.bashrc` 和注册表
+2. `~/.cc-connect/config.toml` —— `work_dir` 从 `/mnt/c/Users/Administrator/Desktop/wiki` 被改为 `/home/dministrator`（Kimi 切换期间重置的），导致 Claude Code 从 home 目录启动，读不到 wiki 的 `CLAUDE.md`
+
+**为什么 CLI 黄药师正常**：CLI 走 `.bashrc` → tmux session env，和 cc-connect 的 systemd env 互不影响。两条独立的配置链路。
+
+**对策**：
+- 切模型/切 API 时，cc-connect 的配置有**独立的两个文件**需要同步：
+  1. `config.toml` → 模型/API 通过 provider 或 env 注入
+  2. `cc-connect.service.d/env.conf` → systemd 环境变量
+- 改完后 `systemctl --user daemon-reload && systemctl --user restart cc-connect`
+- 验证：`systemctl --user show cc-connect | grep Environment`
+
+**关联**：Config Cascade Debug skill — 这本质是同一模式：多个独立配置层（.bashrc / 注册表 / systemd drop-in / cc-connect config.toml），改了三处漏了一处。
 
