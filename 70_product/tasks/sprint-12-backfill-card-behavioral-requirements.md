@@ -310,7 +310,23 @@ yt-model-truman-five-step-growth
 - 不要用场景全部含失效机制 + 替代方案
 - Action Triggers 全部含可验证成功指标
 
-**剩余 entrepreneur**: 3 张（spin-selling, truth-seeking, unit-model）| **总计剩余**: ~51 张 tool 卡
+### Round 5 (2026-05-16) — 3 张完成，entrepreneur 域收尾
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 21 | `yt-entrepreneur-spin-selling` | Dixon & Adamson (挑战者销售) + Daniel Pink (信息对称下销售) | 3 行（买方自主研究/To C小客单价/中国关系文化） | 4 触发项 | ✅ |
+| 22 | `yt-entrepreneur-truth-seeking` | Trivers (自欺进化论) + Dunning (无知的元盲区) | 3 行（心理脆弱期/权力不对称/极端未知） | 4 触发项 | ✅ |
+| 23 | `yt-entrepreneur-unit-model` | Eric Ries (创新核算) + Bill Aulet (市场风险优先) | 3 行（PMF未确认/网络效应驱动/资金密集型监管行业） | 4 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint --diff` → 0 new errors
+- 外部攻击全部引真实学者/从业者
+- 不要用场景全部含失效机制 + 替代方案
+- Action Triggers 全部含可验证成功指标
+
+**entrepreneur 域完成** ✅ (23/23 张 tool 卡) | **总计**: 23/71 tool 卡 | **剩余**: ~48 张 (panproduct-execution 18, panproduct-demand 11, personal 14, pitch 10, panproduct-aesthetic 5, prompt 4)
+
+**下一步**: panproduct-execution 域（18 张 `yt-panproduct-execution-*`）
 
 **域分组**：
 
