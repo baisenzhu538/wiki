@@ -425,6 +425,22 @@ yt-model-truman-five-step-growth
 
 **总计**: 41/71 (58%) | **下一域**: panproduct/demand（11 张）
 
+### Round 10 (2026-05-17) — 5 张 panproduct-demand 完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 42 | `yt-panproduct-demand-five-step-method` | Peter Thiel (垄断优先/壁垒应是第一步) + Steve Blank (搜索≠执行/前3步和后2步是不同模式) | 2 行（极早期用户未知/风险集中在单一维度） | 3 触发项 | ✅ |
+| 43 | `yt-panproduct-demand-industry-canvas` | Peter Thiel (竞争是失败者的游戏) + Rita McGrath (竞争优势已死/没有稳态B点) | 2 行（全新品类/技术S曲线剧烈上升期） | 3 触发项 | ✅ |
+| 44 | `yt-panproduct-demand-multi-perspective` | Daniel Kahneman (知识诅咒+聚焦幻觉) + Annie Duke (你模拟的是你的想象不是真实视角) | 2 行（团队高度同质化/心理视角切换无实证校准） | 3 触发项 | ✅ |
+| 45 | `yt-panproduct-demand-need-discovery` | Clayton Christensen (JTBD替代5 Whys+马斯洛) + Douglas Van Praet (无意识需求/口头解释是事后合理化) | 2 行（无意识需求/5 Whys漂移到人类天性） | 3 触发项 | ✅ |
+| 46 | `yt-panproduct-demand-project-background` | Richard Rumelt (全面分析≠好策略) + Nassim Taleb (8维度平均掩盖极端) | 2 行（单一压倒性风险/分析替代了做决策） | 3 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint --diff` → 0 new errors
+- 外部攻击全部引真实学者/从业者 + 具体著作
+
+**剩余 panproduct-demand**: 6 张 | **总计**: 46/71 (65%)
+
 **域分组**：
 
 | 域 | 数量 | 前缀 |
