@@ -371,6 +371,24 @@ yt-model-truman-five-step-growth
 
 **剩余 panproduct-execution**: 13 张 | **总计**: 28/71 (39%)
 
+### Round 7 (2026-05-17) — 5 张 panproduct-execution 完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 29 | `yt-panproduct-execution-hypothesis-decomposition` | Gigerenzer (简捷启发式) + Feynman (不要骗自己) | 2 行（方向未定/假设不sharp） | 2 触发项 | ✅ |
+| 30 | `yt-panproduct-execution-idea-spark` | John Cleese (开放模式) + Steven Johnson (慢灵感) | 2 行（范式级创新/快模式局限） | 2 触发项 | ✅ |
+| 31 | `yt-panproduct-execution-incubation-polish` | Ed Catmull (原初愿景总是错的) + Herbert Simon (满意即可) | 2 行（方向未验证/边际收益≤0） | 2 触发项 | ✅ |
+| 32 | `yt-panproduct-execution-liberate-thinking` | David Epstein (广度>深度) + Karl Popper (知识即猜想) | 2 行（新领域事实不足/PMF后执行主导） | 3 触发项 | ✅ |
+| 33 | `yt-panproduct-execution-logic-mece` | Roger Martin (整合思维) + Rory Sutherland (逻辑反魔法) | 2 行（问题边界未定/情感审美问题） | 3 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint --diff` → 0 new errors, 1 warning（预存）
+- 外部攻击全部引真实学者/从业者 + 具体著作
+- 不要用场景全部含失效机制 + 替代方案
+- Action Triggers 全部含可验证成功指标
+
+**剩余 panproduct-execution**: 8 张 | **总计**: 33/71 (46%)
+
 **域分组**：
 
 | 域 | 数量 | 前缀 |
