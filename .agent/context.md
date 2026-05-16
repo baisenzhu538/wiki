@@ -29,10 +29,10 @@ blockers: []
 - Sprint 12 Batch A → completed ✅ (25/25 framework 卡已升级，欧阳锋审查通过)
 - ⚠️ **Batch A-2**：Sprint 13 KDO 审查发现 6 张 pan-product framework 卡被遗漏 → P0 优先，在 Batch B 继续前补齐
 - **Sprint 13** → completed ✅ (4 个 KDO 工具 + D-5 解析 bug 修复)
-- **Sprint 12 Batch B** → 进行中 (23/23 entrepreneur ✅ + 18/18 panproduct-execution ✅ + 10/11 panproduct-demand ✅)
-- Round 11 (5 张 panproduct-demand) completed ✅ — 51/71 (72%)
-- 下一批：panproduct-demand 最后1张 (peak-end-rule) + personal (11)
-- 总计: 51/71 tool 卡已完成 | 剩余: 20 张
+- **Sprint 12 Batch B** → 进行中 (23/23 entrepreneur ✅ + 18/18 panproduct-execution ✅ + 11/11 panproduct-demand ✅ + 3 personal ✅)
+- Round 12 (4 张) completed ✅ — 55/71 (77%)
+- 下一批：personal 剩余 + pitch
+- 总计: 55/71 tool 卡已完成 | 剩余: 16 张
 - Batch C（~30 张 concept 卡）待 Batch B 完成后启动
 - 346 条 inbox 积压未清理
 - Hermes 五绝全部在线（老顽童/洪七公/段王爷 Kimi API 认证修复）

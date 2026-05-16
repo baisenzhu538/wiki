@@ -456,6 +456,21 @@ yt-model-truman-five-step-growth
 
 **剩余 panproduct-demand**: 1 张 (peak-end-rule) | **总计**: 51/71 (72%)
 
+### Round 12 (2026-05-17) — 1 张 demand + 3 张 personal 完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 52 | `yt-panproduct-demand-peak-end-rule` | Daniel Kahneman (体验自我vs记忆自我/峰终是认知偏差) + Paul Bloom (本质主义/设计感太明显会反噬) | 2 行（重复性高频场景/底线值有硬伤） | 3 触发项 | ✅ |
+| 53 | `yt-personal-ai-capability` | Gary Marcus (AI非推理引擎/失败模式不可预测) + Erik Brynjolfsson (图灵陷阱/增强是短暂均衡) | 2 行（因果推理密集型/领域知识不足以验证AI） | 3 触发项 | ✅ |
+| 54 | `yt-personal-checklist-notes` | Atul Gawande (清单疲劳/数量与价值成反比) + David Allen (静态清单vs动态情境感知系统) | 2 行（清单过多>20张/创造性开放任务） | 3 触发项 | ✅ |
+| 55 | `yt-personal-deep-review` | Anders Ericsson (刻意练习不来自元认知/瓶颈在练习量非认知框架) + Carol Dweck (IPO需要成长型心态为前提/固定型心态用IPO自证) | 2 行（学习者缺成长型心态/多线程高压环境） | 3 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint --diff` → 0 new errors
+- panproduct-demand 域: 11/11 ✅ 完成！
+
+**总计**: 55/71 (77%) | **下一域**: personal 剩余 + pitch (10) + aesthetic (5) + prompt (4)
+
 **域分组**：
 
 | 域 | 数量 | 前缀 |
