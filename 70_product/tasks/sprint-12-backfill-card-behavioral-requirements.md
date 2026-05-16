@@ -441,6 +441,21 @@ yt-model-truman-five-step-growth
 
 **剩余 panproduct-demand**: 6 张 | **总计**: 46/71 (65%)
 
+### Round 11 (2026-05-17) — 5 张 panproduct-demand 完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 47 | `yt-panproduct-demand-scenario-walkthrough` | Don Norman (狭窄共情/填空≠理解认知模型) + Alan Cooper (100个场景≠1个产品/需要Persona选择机制) | 2 行（无主Persona/只写理想路径） | 3 触发项 | ✅ |
+| 48 | `yt-panproduct-demand-surprise-formula` | Barry Schwartz (预期军备竞赛/每次惊喜抬高基线) + Rory Sutherland (惊喜非线性/最大惊喜来自用户不知道想要的) | 2 行（基础体验有硬伤/预期军备竞赛） | 3 触发项 | ✅ |
+| 49 | `yt-panproduct-demand-user-perspective` | Daniel Kahneman (一秒是生理不可能/系统2操作被系统1污染) + Erika Hall (共情必须基于研究/想象用户≠研究用户) | 2 行（未见过真实用户/生命周期差距太大） | 3 触发项 | ✅ |
+| 50 | `yt-panproduct-demand-user-segmentation` | Clayton Christensen (按属性分层≠按Job分层) + Geoffrey Moore (跨越鸿沟/分层是动态时序选择) | 2 行（需求未验证/0→1资源极度有限） | 3 触发项 | ✅ |
+| 51 | `yt-panproduct-demand-motivation-resistance` | BJ Fogg (能力和动机是补偿关系非加减) + Stephen Wendel (CREATE序列/行为决策是步骤序列非净值) | 2 行（需求不存在/诊断未定位到触点） | 3 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint --diff` → 0 new errors
+
+**剩余 panproduct-demand**: 1 张 (peak-end-rule) | **总计**: 51/71 (72%)
+
 **域分组**：
 
 | 域 | 数量 | 前缀 |
