@@ -250,6 +250,35 @@ yt-model-truman-five-step-growth
 - 每轮完成后运行 `kdo lint` 确认 0 new errors
 - 欧阳锋每域抽检 2 张（共 14 张，~16%）
 
+### Round 1 (2026-05-16) — 5 张完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 1 | `yt-entrepreneur-259-milestone` | Blank (客户开发) + Taleb (遍历性) | 2 行（SDK时期/未设警戒线） | 4 触发项 | ✅ |
+| 2 | `yt-entrepreneur-barriers` | Helmer (7 Powers) + Thiel (垄断非设计) | 2 行（pre-PMF/快速膨胀新市场） | 4 触发项 | ✅ |
+| 3 | `yt-entrepreneur-business-growth` | Ellis (增长黑客) + Paul Graham (不可规模化) | 2 行（PMF未确认/B2B长周期大客户） | 4 触发项 | ✅ |
+| 4 | `yt-entrepreneur-channel-exploration` | Weinberg (公牛眼框架) + Balfour (增长循环) | 3 行（方向未定/双边平台/创始人强行业关系） | 4 触发项 | ✅ |
+| 5 | `yt-entrepreneur-concentration-analysis` | Christensen (颠覆式创新) + W. Brian Arthur (正反馈锁定) | 2 行（技术范式转移期/创业者自评） | 4 触发项 | ✅ |
+
+### Round 2 (2026-05-16) — 5 张完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 6 | `yt-entrepreneur-five-step-method` | Ries (精益创业BML循环) + Mintzberg (战略规划批判) | 3 行（0-1探索期/双边平台/大企业内部创新） | 4 触发项 | ✅ |
+| 7 | `yt-entrepreneur-fundraising` | DHH (自给自足) + Naval (融资不是里程碑) | 3 行（非指数增长/已正现金流/无VC关系网） | 4 触发项 | ✅ |
+| 8 | `yt-entrepreneur-growth-flywheel` | Rosenzweig (光环效应) + Balfour (增长循环细分) | 3 行（冷启动/PMF未确认/单一外部渠道） | 4 触发项 | ✅ |
+| 9 | `yt-entrepreneur-industrial-production` | Deming (深知识) + Graeber (官僚化批判) | 3 行（探索期/核心价值依赖个体创造力/团队<5人） | 4 触发项 | ✅ |
+| 10 | `yt-entrepreneur-industry-forecast` | McGrath (发现驱动规划) + Thiel (竞争是给失败者的) | 3 行（边界被重塑/面向非消费群体/极早期方向漂移） | 4 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint --diff` → 0 new errors, 1 new warning (预存，非本次引入)
+- 外部攻击全部引真实学者/从业者（Ries, Mintzberg, DHH, Naval, Rosenzweig, Balfour, Deming, Graeber, McGrath, Thiel）
+- 不要用场景全部含失效机制 + 替代方案
+- Action Triggers 全部含可验证成功指标
+- 原有内容未被修改
+
+**剩余 entrepreneur**: 13 张 | **总计剩余**: ~75 张 tool 卡
+
 **域分组**：
 
 | 域 | 数量 | 前缀 |

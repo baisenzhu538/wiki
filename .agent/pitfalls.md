@@ -75,3 +75,19 @@
 
 **关联**：Config Cascade Debug skill — 这本质是同一模式：多个独立配置层（.bashrc / 注册表 / systemd drop-in / cc-connect config.toml），改了三处漏了一处。
 
+---
+
+## P-6: cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session ID
+
+**症状**：cc-connect 的 `work_dir` 和 `env.conf` 都已修正（→ wiki vault + DeepSeek），飞书发消息后 bot 返回空。日志显示 `is_resume=true`，紧接着 `exit status 1: No conversation found with session ID: cb687591...`。
+
+**根因**：cc-connect 的 session 文件（`~/.cc-connect/sessions/huangyaoshi_53de3c3f.json`）里存了 `agent_session_id`，指向 Claude Code 在**旧 work_dir**（`/home/dministrator`）下创建的 session。work_dir 已改为 wiki vault 后，Claude Code 的 wiki 项目里不存在这个 session ID，resume 失败，返回空。
+
+**为什么之前的 401 错误也写入了同一个 session**：这个 session 是在 Kimi 配置期间创建的，所有 401 错误都被写入了 session history。修好 API Key 后 session 里仍有 `agent_session_id` 指向不存在的位置，所以 Claude Code 启动即失败。
+
+**对策**：
+- 修改 cc-connect 的 `work_dir` 后，必须同时删除对应的 session 文件（`~/.cc-connect/sessions/<project>_<hash>.json`），否则旧 session ID 无法 resume
+- 删除后重启 cc-connect，下次消息自动创建全新 session
+
+**关联**：P-5（同一个事故链的第三环：work_dir 错 → env.conf 错 → session 缓存错）。Config Cascade Debug skill 的 Layer 0（运行时缓存）又一次成为最后一层漏网之鱼。
+
