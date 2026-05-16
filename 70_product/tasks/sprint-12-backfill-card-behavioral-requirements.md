@@ -277,7 +277,24 @@ yt-model-truman-five-step-growth
 - Action Triggers 全部含可验证成功指标
 - 原有内容未被修改
 
-**剩余 entrepreneur**: 13 张 | **总计剩余**: ~75 张 tool 卡
+### Round 3 (2026-05-16) — 5 张完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 11 | `yt-entrepreneur-key-hypotheses` | Taleb (随机性/黑天鹅) + Snowden (复杂域/Cynefin) | 3 行（认知空白期/深度共识后/技术依赖型） | 4 触发项 | ✅ |
+| 12 | `yt-entrepreneur-lean-validation` | Savoia (预型/Pretotyping) + Beck/XP (实验武器化) | 3 行（信任型产品/长期留存假设/B2B长周期销售） | 4 触发项 | ✅ |
+| 13 | `yt-entrepreneur-liberate-thinking` | Kuhn (范式不可通约) + Foucault (权力/知识) | 3 行（快速决策期/完全陌生行业/行动导向者） | 4 触发项 | ✅ |
+| 14 | `yt-entrepreneur-needs-analysis` | Ulwick (成果驱动创新/ODI) + Don Norman (隐性需求/三层认知) | 3 行（资源极度受限的技术团队/技术驱动型需求/全新品类用户无法表述） | 4 触发项 | ✅ |
+| 15 | `yt-entrepreneur-opportunity-selection` | Paul Graham (坏主意) + Kim & Mauborgne (蓝海战略) | 3 行（方向直觉已强/机会空间全新/与行业高度不匹配） | 4 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint --diff` → 0 new errors, 1 warning（预存）
+- 外部攻击全部引真实学者/从业者（Taleb, Snowden, Savoia, Beck, Kuhn, Foucault, Ulwick, Norman, PG, Kim & Mauborgne）
+- 不要用场景全部含失效机制 + 替代方案
+- Action Triggers 全部含可验证成功指标
+- 原有内容未被修改
+
+**剩余 entrepreneur**: 8 张 | **总计剩余**: ~56 张 tool 卡
 
 **域分组**：
 
