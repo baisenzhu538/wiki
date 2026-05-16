@@ -503,7 +503,26 @@ yt-model-truman-five-step-growth
 - 不要用场景全部含失效机制 + 替代方案
 - Action Triggers 全部含可验证成功指标
 
-**总计**: 65/71 (92%) | **剩余**: personal 2 张 (y-model-practice, y-model-exploration-2) + pitch (10) + aesthetic (5) + prompt (4) = 6 张 tool 卡
+**总计**: 65/71 (92%) | **剩余**: pitch 7 + aesthetic (5) + prompt (4)
+
+### Round 15 (2026-05-17) — 2 张 personal + 3 张 pitch 完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 66 | `yt-personal-y-model-practice` | Karl Popper (可证伪性/"无反例"无法被证实) + Stephen Toulmin (领域依赖论证/不存在跨领域统一的推理结构) | 2 行（方法论储备<100学时/Y模型是慢推演不适用于3分钟快决策） | 3 触发项 | ✅ |
+| 67 | `yt-personal-y-model-exploration-2` | Daniel Kahneman (Aha!幻觉/主观确信感≠客观有效性) + Gary Klein (识别启动决策/专家通过模式匹配而非显性推演决策) | 2 行（未系统学过一套完整方法论/记忆12345口诀≠会操作Y模型） | 3 触发项 | ✅ |
+| 68 | `yt-pitch-storytelling` | Jonathan Gottschall (故事为双刃剑/对真假同样有效) + Keith Oatley (叙事传输降低批判性防御/绕过论证) | 2 行（高投入长周期决策场景/故事真实性未经核实） | 3 触发项 | ✅ |
+| 69 | `yt-pitch-metaphor` | George Lakoff (隐喻建构现实/非中性工具是认知框架植入器) + I.A. Richards (意义溢出/喻体全部联想不可控) | 2 行（喻体有负面联想/精确性卖点被比喻模糊） | 3 触发项 | ✅ |
+| 70 | `yt-pitch-emotionalization` | 亚里士多德 (pathos需logos平衡/单独pathos即操纵) + Robert Cialdini (影响力免疫力/大规模培训加速单个策略效果衰减) | 2 行（长期信任型行业/短格式渠道无空间建立logos平衡） | 3 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint --diff` → 0 new errors
+- 外部攻击全部引真实学者/从业者 + 具体著作
+- 不要用场景全部含失效机制 + 替代方案
+- Action Triggers 全部含可验证成功指标
+- personal 域 15/15 ✅ 完成！
+
+**总计**: 70/71 (99%) | **剩余**: pitch 7 张 (aphorism/colloquialization/conflict/materialization/quantification/scenarization/sublimation) + aesthetic (5) + prompt (4) = 16 张
 
 **域分组**：
 
