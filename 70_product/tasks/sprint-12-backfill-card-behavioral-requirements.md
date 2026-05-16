@@ -469,7 +469,23 @@ yt-model-truman-five-step-growth
 - `kdo lint --diff` → 0 new errors
 - panproduct-demand 域: 11/11 ✅ 完成！
 
-**总计**: 55/71 (77%) | **下一域**: personal 剩余 + pitch (10) + aesthetic (5) + prompt (4)
+### Round 13 (2026-05-17) — 5 张 personal 完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 56 | `yt-personal-deliberate-practice` | David Epstein (Range/恶劣学习环境vs友善学习环境) + Barbara Oakley (发散模式vs专注模式) | 2 行（wicked领域无标准动作/完全陌生领域基础操作不熟） | 3 触发项 | ✅ |
+| 57 | `yt-personal-inspiration-flash` | Kevin Ashton (创造是汗水分步非灵感瞬间) + Mihaly Csikszentmihalyi (创造力在个体-领域-场域交互中不在个人脑中) | 2 行（已知框架内变体创意/aha-moment确信感≠质量） | 3 触发项 | ✅ |
+| 58 | `yt-personal-ipo-learning` | Seymour Papert (建造主义vs信息处理/制作实体不可还原为IPO) + John Sweller (认知负荷瓶颈/工作记忆容量是核心限速) | 2 行（极端deadline压力/领域知识不足以支撑联系练习） | 3 触发项 | ✅ |
+| 59 | `yt-personal-knowledge-extraction` | Ikujiro Nonaka (隐性知识不可萃取/SECI) + Philip Tetlock (专家预测不准/刺猬vs狐狸) | 2 行（隐性知识密集型经验/千人广场B/A二分过粗） | 3 触发项 | ✅ |
+| 60 | `yt-personal-knowledge-management` | Tiago Forte (渐进总结/无法预测未来输出) + Andy Matuschak (涌现式结构vs预设层级/原子化笔记) | 2 行（系统配置成目的/预设树结构不匹配未来使用场景） | 3 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint --diff` → 0 new errors, 1 warning（预存）
+- 外部攻击全部引真实学者/从业者 + 具体著作
+- 不要用场景全部含失效机制 + 替代方案
+- Action Triggers 全部含可验证成功指标
+
+**总计**: 60/71 (84%) | **下一域**: personal 剩余 + pitch (10) + aesthetic (5) + prompt (4)
 
 **域分组**：
 
