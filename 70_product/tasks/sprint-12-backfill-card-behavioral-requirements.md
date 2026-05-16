@@ -555,7 +555,25 @@ yt-model-truman-five-step-growth
 
 **域完成态**: entrepreneur 23 ✅ | panproduct-execution 18 ✅ | panproduct-demand 11 ✅ | personal 15 ✅ | pitch 10 ✅
 
-**总计**: 77/86 (90%) | **剩余**: aesthetic (5) + prompt (4) = 9 张
+**总计**: 77/86 (90%) | **剩余**: prompt (5) = 5 张
+
+### Round 18 (2026-05-17) — 4 张 aesthetic 完成（aesthetic 域收尾）
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 78 | `yt-panproduct-aesthetic-collection` | Henry Petroski (失败教设计/通过失败案例学习边界) + Ellen Lupton (拆解教品味/未经分析的多看=眼熟≠品味) | 2 行（只搜集不拆解/搜集范围同质化缺乏异域配额） | 3 触发项 | ✅ |
+| 79 | `yt-panproduct-aesthetic-pool` | Dieter Rams (少但更好/对比导致趋同) + Edward de Bono (水平思考/池子外维度才是创新源) | 2 行（池子维度过期/对比指出差距但不排优先级） | 3 触发项 | ✅ |
+| 80 | `yt-panproduct-aesthetic-modeling` | Robert Pirsig (品质不可分解/雷达图丢失整体性) + Malcolm Gladwell (薄片截取/显性指标系统丢弃未语言化的判断信号) | 2 行（维度过多变行政审计/体验型产品不可建模） | 3 触发项 | ✅ |
+| 81 | `yt-panproduct-aesthetic-imagination` | Roberto Verganti (意义创新/比更好更重要的是新意义) + Clayton Christensen (JTBD/用户雇佣产品为完成job非为了最美体感) | 2 行（想象基于假想用户需求非真实job/快交付压力下想象法变微创新） | 3 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint --diff` → 0 new errors
+- 外部攻击全部引真实学者/从业者 + 具体著作
+- aesthetic 域: 4/4 ✅ 完成！
+
+**域完成态**: entrepreneur 23 ✅ | panproduct-execution 18 ✅ | panproduct-demand 11 ✅ | personal 15 ✅ | pitch 10 ✅ | aesthetic 4 ✅
+
+**总计**: 81/86 (94%) | **剩余**: prompt (5) 张
 
 **域分组**：
 
