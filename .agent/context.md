@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-16_4
 active_branch: main
-active_task: Sprint 12 Batch B — 86 张 yt-tool 卡 v1.6 行为转化三要件回溯
+active_task: Sprint 12 Batch A-2（6 张 pan-product framework 卡）→ Batch B（86 张 tool 卡）
 blockers: []
 ---
 
@@ -27,7 +27,8 @@ blockers: []
 - v1.6 工业化手册已定案，新增卡片层三要件
 - Sprint 11（认知升级框架）→ completed ✅
 - Sprint 12 Batch A → completed ✅ (25/25 framework 卡已升级，欧阳锋审查通过)
-- **Sprint 13** → completed ✅ (4 个 KDO 工具：lint --baseline/--diff, cards list, card-diff, review)
+- ⚠️ **Batch A-2**：Sprint 13 KDO 审查发现 6 张 pan-product framework 卡被遗漏 → P0 优先，在 Batch B 继续前补齐
+- **Sprint 13** → completed ✅ (4 个 KDO 工具 + D-5 解析 bug 修复)
 - **Sprint 12 Batch B** → 进行中 (23/23 entrepreneur ✅，欧阳锋抽检 2/2 通过)
 - 下一域：panproduct/execution（20 张）→ demand（11）→ personal（11）→ pitch（10）→ aesthetic（5）→ prompt（4）
 - 总计: 23/86 tool 卡已完成 | 剩余: 62 张（含 1 张已有 Action Triggers）

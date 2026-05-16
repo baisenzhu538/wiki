@@ -72,7 +72,32 @@ yt-model-truman-five-step-growth
 - [x] `kdo lint` → 3 errors (全为预存，非本次引入)
 - [x] 欧阳锋抽检 5 张（20%），理解门禁三信号通过
 
-### Batch B：tool 卡（85 张）— P0
+### Batch A-2：遗漏的 pan-product framework 卡（6 张）— P0 🔴
+
+**发现**：2026-05-17 Sprint 13 KDO 审查中，`kdo cards --type framework --missing "Action Triggers"` 发现 Batch A 遗漏了 6 张 `type: framework` 的 pan-product 卡。
+
+**范围**：
+
+| 卡 ID | 缺失 |
+|-------|:--:|
+| `yt-model-pan-product-36-strategies` | 外部攻击 + 不要用的场景 + Action Triggers |
+| `yt-model-pan-product-aesthetic-toolkit` | 外部攻击 + 不要用的场景 + Action Triggers |
+| `yt-model-pan-product-climbing-map` | 外部攻击 + 不要用的场景 + Action Triggers |
+| `yt-model-pan-product-demand-toolkit` | 外部攻击 + 不要用的场景 + Action Triggers |
+| `yt-model-pan-product-execution-toolkit` | 外部攻击 + 不要用的场景 + Action Triggers |
+| `yt-model-pan-product-three-virtues` | 外部攻击 + 不要用的场景 + Action Triggers |
+
+**升级内容**：同 Batch A — 三个新节全部追加
+
+**验收标准**：
+- [ ] 6 张 pan-product framework 卡全部含 v1.5 三要件
+- [ ] `kdo cards --type framework --missing "Action Triggers"` → 0
+- [ ] 欧阳锋抽检 2 张
+
+**执行约束**：同 Batch A — 单次 ≤5 张，审而不改。
+**优先级**：P0 — 在 Batch B 继续前先补齐，避免 framework/tool 两套标准并存。
+
+### Batch B：tool 卡（86 张）— P0
 
 **范围**：所有 `type: tool` 的 yt-* 卡
 
