@@ -522,7 +522,40 @@ yt-model-truman-five-step-growth
 - Action Triggers 全部含可验证成功指标
 - personal 域 15/15 ✅ 完成！
 
-**总计**: 70/71 (99%) | **剩余**: pitch 7 张 (aphorism/colloquialization/conflict/materialization/quantification/scenarization/sublimation) + aesthetic (5) + prompt (4) = 16 张
+**总计**: 70/71 (99%) | **剩余**: pitch 2 张 + aesthetic (5) + prompt (4)
+
+### Round 16 (2026-05-17) — 5 张 pitch 完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 71 | `yt-pitch-aphorism` | George Orwell (垂死隐喻/预制短语替代思考) + Neil Postman (娱乐至死/金句碎片替代深度论述) | 2 行（复杂价值不可压缩/金句修辞正确但事实错误） | 3 触发项 | ✅ |
+| 72 | `yt-pitch-conflict` | Isaiah Berlin (价值多元主义/不是所有差异都是对vs错) + Jonathan Haidt (道德直觉优先/二元对立激活部族忠诚) | 2 行（无真实对手/对抗性表达在非同温层无效） | 3 触发项 | ✅ |
+| 73 | `yt-pitch-scenarization` | Marshall McLuhan (媒介即讯息/脑中大屏幕替代真实体验) + Rory Sutherland (感知空壳/场景-产品落差即背叛感) | 2 行（感知落差/信息评估模式下的感性防御） | 3 触发项 | ✅ |
+| 74 | `yt-pitch-quantification` | Darrell Huff (How to Lie with Statistics/选择性真数字) + Tim Harford (真但误导/数字的可信度光环绕过理性检查) | 2 行（劣势维度回避/高数据素养群体免疫C4锚点操作） | 3 触发项 | ✅ |
+| 75 | `yt-pitch-sublimation` | Raymond Williams (文化包装/意义话语为商业合法性服务) + Viktor Frankl (求意义的意志/被商业化的意义购买混淆"买意义"和"活出意义") | 2 行（产品基线不足/务实型受众对情怀排斥） | 3 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint --diff` → 0 new errors
+- 外部攻击全部引真实学者/从业者 + 具体著作
+- pitch 域: 8/10 ✅ (aphorism + conflict + emotionalization + metaphor + quantification + scenarization + storytelling + sublimation)
+
+**总计**: 75/86 (87%) | **剩余**: aesthetic (5) + prompt (4) = 9 张
+
+### Round 17 (2026-05-17) — 2 张 pitch 完成（pitch 域收尾）
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 76 | `yt-pitch-colloquialization` | Deborah Tannen (语体文化差异/不存在普遍"自然的"口语) + Erving Goffman (拟剧论/"舞台化自然"被识别则信任崩塌) | 2 行（社会语言背景跨度过大/需要权威感和距离感的场景） | 3 触发项 | ✅ |
+| 77 | `yt-pitch-materialization` | Susan Sontag (取景即诠释/素材隐藏主观性看似客观) + Roland Barthes (图像修辞/夸张测试制造"神话"偷换日常品质) | 2 行（加工超真实素材vs真实体验落差/素材替代论证用户得出错误结论） | 3 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint --diff` → 0 new errors
+- 外部攻击全部引真实学者/从业者 + 具体著作
+- pitch 域: 10/10 ✅ 完成！
+
+**域完成态**: entrepreneur 23 ✅ | panproduct-execution 18 ✅ | panproduct-demand 11 ✅ | personal 15 ✅ | pitch 10 ✅
+
+**总计**: 77/86 (90%) | **剩余**: aesthetic (5) + prompt (4) = 9 张
 
 **域分组**：
 
