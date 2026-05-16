@@ -389,6 +389,24 @@ yt-model-truman-five-step-growth
 
 **剩余 panproduct-execution**: 8 张 | **总计**: 33/71 (46%)
 
+### Round 8 (2026-05-17) — 5 张 panproduct-execution 完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 34 | `yt-panproduct-execution-low-cost-mvp` | Clayton Christensen (颠覆性创新无法被现有客户验证) + Phil Rosenzweig (光环效应污染MVP数据) | 2 行（颠覆性创新/网络效应依赖） | 3 触发项 | ✅ |
+| 35 | `yt-panproduct-execution-management-trilogy` | Henry Mintzberg (涌现战略) + John Boyd (OODA缺少Orient环节) | 2 行（高度不确定环境/极度资源匮乏） | 3 触发项 | ✅ |
+| 36 | `yt-panproduct-execution-milestone-breakdown` | Eliyahu Goldratt (约束理论/局部优化) + Bent Flyvbjerg (巨型项目铁律/拆解越细越乐观) | 2 行（创意探索性项目/依赖关系不明确） | 3 触发项 | ✅ |
+| 37 | `yt-panproduct-execution-realistic-simulation` | Jeff Hawkins (木块仿真只能验证已知场景) + Alan Cooper (仿真验证交互质量而非需求质量) | 2 行（全新使用行为/测试环境系统性偏差） | 3 触发项 | ✅ |
+| 38 | `yt-panproduct-execution-review-iteration` | Gary Klein (专家模式匹配/非逐层递进) + Chris Argyris (防御性推理/聪明的专业人士最难深度复盘) | 2 行（高度情绪化事件/团队心理安全不足） | 3 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint --diff` → 0 new errors, 1 warning（预存）
+- 外部攻击全部引真实学者/从业者 + 具体著作
+- 不要用场景全部含失效机制 + 替代方案
+- Action Triggers 全部含可验证成功指标
+
+**剩余 panproduct-execution**: 3 张 (risk-management, roi-analysis, war-room) | **总计**: 38/71 (54%)
+
 **域分组**：
 
 | 域 | 数量 | 前缀 |
