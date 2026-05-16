@@ -487,6 +487,24 @@ yt-model-truman-five-step-growth
 
 **总计**: 60/71 (84%) | **下一域**: personal 剩余 + pitch (10) + aesthetic (5) + prompt (4)
 
+### Round 14 (2026-05-17) — 5 张 personal 完成
+
+| # | 卡片 | 外部攻击 | 不要用场景 | Action Triggers | 状态 |
+|---|------|---------|-----------|----------------|------|
+| 61 | `yt-personal-thinking-models` | Henry Mintzberg (涌现战略/先做再总结) + Donald Schön (行动中反思/即时建模) | 2 行（经验<10个案例建模=假模型/建模成逃避行动的借口） | 3 触发项 | ✅ |
+| 62 | `yt-personal-time-management` | Oliver Burkeman (四千周/接受有些事永远不会做) + Cal Newport (慢生产力/砍掉一半项目>优先级排序) | 2 行（探索期L3方向未定/响应型工作不可保护深度时间块） | 3 触发项 | ✅ |
+| 63 | `yt-personal-verbatim-script` | Nancy Duarte (演讲是被设计的不是被写的/实时能量交换) + Chris Anderson (想法穿透力优先/先想透再说出来) | 2 行（短表达场景投入产出比差/涌现型表达者逐字稿杀死即兴活力） | 3 触发项 | ✅ |
+| 64 | `yt-personal-product-design` | Don Norman (HCD不可泛化/深度用户研究不可跳过) + David Pye (风险性手艺vs确定性手艺/迭代假设不通用) | 2 行（不可逆长周期产品/对目标领域无基本体感） | 3 触发项 | ✅ |
+| 65 | `yt-personal-scientific-expression` | Susan Cain (安静的力量/内向者系统性劣势) + Edward Tufte (认知风格分析/模板可能掩盖论证薄弱) | 2 行（双向对话非单向输出/引导型表达者不宜逐级推进） | 3 触发项 | ✅ |
+
+**质量验证**：
+- `kdo lint --diff` → 0 new errors
+- 外部攻击全部引真实学者/从业者 + 具体著作
+- 不要用场景全部含失效机制 + 替代方案
+- Action Triggers 全部含可验证成功指标
+
+**总计**: 65/71 (92%) | **剩余**: personal 2 张 (y-model-practice, y-model-exploration-2) + pitch (10) + aesthetic (5) + prompt (4) = 6 张 tool 卡
+
 **域分组**：
 
 | 域 | 数量 | 前缀 |
