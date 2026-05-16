@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-16_4
 active_branch: main
-active_task: Sprint 12 Batch B — 85 张 yt-tool 卡 v1.5 行为转化三要件回溯
+active_task: Sprint 12 Batch B — 86 张 yt-tool 卡 v1.6 行为转化三要件回溯
 blockers: []
 ---
 
@@ -18,18 +18,19 @@ blockers: []
 
 ## 模型与环境
 
-- **模型**：DeepSeek V4 Pro（通过 Kimi Code API `/anthropic` 兼容层）
+- **模型**：DeepSeek V4 Pro（直连 `api.deepseek.com/anthropic`）
 - **运行方式**：WSL2 Ubuntu-22.04 终端 → `claude`（tmux session `claude`）
-- **关键教训**：切模型时涉及四层配置（`.bashrc` / `.profile` / Windows 注册表 / systemd drop-in `env.conf`）。2026-05-16 切 Kimi 再切回 DeepSeek 后，漏了 `cc-connect.service.d/env.conf`（仍指向 Kimi）和 `config.toml` 的 `work_dir`（被改为 `/home/dministrator`），导致飞书黄药师 401 + 找不到 wiki。已修复。详见 `pitfalls.md`。
+- **关键教训**：切模型时涉及五层配置（`.bashrc` / 注册表 / systemd drop-in `env.conf` / `cc-connect config.toml` / cc-connect session 缓存）。2026-05-16 切 Kimi 再切回 DeepSeek 后，漏了 env.conf + config.toml work_dir + session 缓存，导致飞书黄药师 401 + 找不到 wiki + 空响应。已修复。详见 `pitfalls.md` P-5/P-6。
 
 ## 当前状态
 
-- v1.5 工业化手册已定案，新增卡片层三要件
+- v1.6 工业化手册已定案，新增卡片层三要件
 - Sprint 11（认知升级框架）→ completed ✅
 - Sprint 12 Batch A → completed ✅ (25/25 framework 卡已升级，欧阳锋审查通过)
 - **Sprint 13** → completed ✅ (4 个 KDO 工具：lint --baseline/--diff, cards list, card-diff, review)
-- **Sprint 12 Batch B** → 进行中 (23/23 entrepreneur ✅，下一个域: panproduct-execution 18 张)
-- 总计: 23/71 tool 卡 | 剩余: ~48 张
+- **Sprint 12 Batch B** → 进行中 (23/23 entrepreneur ✅，欧阳锋抽检 2/2 通过)
+- 下一域：panproduct/execution（20 张）→ demand（11）→ personal（11）→ pitch（10）→ aesthetic（5）→ prompt（4）
+- 总计: 23/86 tool 卡已完成 | 剩余: 62 张（含 1 张已有 Action Triggers）
 - Batch C（~30 张 concept 卡）待 Batch B 完成后启动
 - 346 条 inbox 积压未清理
 - Hermes 五绝全部在线（老顽童/洪七公/段王爷 Kimi API 认证修复）

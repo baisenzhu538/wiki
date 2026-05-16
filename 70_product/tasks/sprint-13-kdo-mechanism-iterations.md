@@ -1,21 +1,53 @@
 ---
 id: sprint-13-kdo-mechanism-iterations
 title: "Sprint 13：KDO 机制迭代——lint 基线、卡片清册、变更 diff、理解门禁辅助"
-status: pending
+status: completed
 priority: P1
 assigned_to: 黄药师
 reviewer: 欧阳锋
 domain: master
 created: 2026-05-16
-target: 2026-05-25
+completed: 2026-05-17
+---
+
+## 审查结论（欧阳锋 2026-05-17）
+
+4/4 工具全部上线，`kdo lint --diff` / `kdo cards` / `kdo card-diff` / `kdo review` 均可正常工作。但发现以下待修项：
+
+| # | 问题 | 严重度 | 状态 |
+|---|------|:--:|:--:|
+| D-1 | context.md lint 计数 591 → 实际 365 | P1 | 待修 |
+| D-2 | context.md tool 卡总数 71 → 实际 86 | P1 | 待修 |
+| D-3 | 10 张 yt-pitch-* 卡 domain 为空 → `kdo cards --domain yitang` 漏掉 | P1 | 待修 |
+| D-4 | context.md 写"v1.5 手册" → 实际已到 v1.6 | P2 | 待修 |
+
+**修复指令**：
+```bash
+# D-1: 更新 context.md lint 计数
+sed -i 's/591 warnings/362 warnings/' .agent/context.md
+
+# D-2: 更新 context.md tool 卡总数  
+# 将 "23/71 tool 卡 | 剩余: ~48 张" 改为 "23/86 tool 卡 | 剩余: ~63 张"
+
+# D-3: 给 10 张 pitch 卡补 domain: yitang
+# 每张卡的 frontmatter domain: 下加一行 "  - yitang"
+# 受影响文件：yt-pitch-aphorism, yt-pitch-colloquialization, yt-pitch-conflict,
+#   yt-pitch-emotionalization, yt-pitch-materialization, yt-pitch-metaphor,
+#   yt-pitch-quantification, yt-pitch-scenarization, yt-pitch-storytelling,
+#   yt-pitch-sublimation
+
+# D-4: 更新 context.md 手册版本号
+sed -i 's/v1.5 工业化手册已定案/v1.6 工业化手册已定案/' .agent/context.md
+```
+
 ---
 
 ## 背景
 
 Sprint 12 Batch A 执行过程暴露了四个 KDO 工具链的改进点，全部来自真实摩擦：
 
-1. **lint 噪音**：591 条预存 warning，每次跑 `kdo lint` 都要人工判读"有没有新增"
-2. **卡片清册手工维护**：Batch B 的 85 张 tool 卡列表是手工写的，无法按 type/domain/缺失节 查询
+1. **lint 噪音**：~365 条预存 warning（原估 591，实际已减少），每次跑 `kdo lint` 都要人工判读"有没有新增"
+2. **卡片清册手工维护**：Batch B 的 86 张 tool 卡列表是手工写的，无法按 type/domain/缺失节 查询
 3. **审查时看不到变更**：Architect 只能看最终状态，无法快速定位 Builder 追加了什么
 4. **理解门禁抽检靠手工**：C-8 防御靠人工翻卡，没有工具辅助
 
