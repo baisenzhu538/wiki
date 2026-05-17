@@ -77,6 +77,8 @@ estimated_tokens: 3400
 - [[yt-model-prompt-engineering]] — 父框架：提示词工程总框架
 - [[yt-model-ipo-learning-strategy]] — IPO 学习模型：四遍学习法是强化版输入→处理→输出闭环
 - [[yt-prompt-writing-workflow]] — AI 写作工作流——守脑如玉是使用写作工作流的前提
+- [[yt-concept-weapon-arsenal]]（master域）— 武器库元概念：武器库追求即查即用（外存），守脑如玉追求肌肉记忆（内化）。真正的专家知道什么时候查武器库、什么时候靠肌肉
+- [[yt-model-personal-pitch-toolkit]]（personal域）— 讲香十指框架：讲香的最高境界不是查武器库，是用自己的话讲——与四遍学习法同构：输入→消化→用自己的话输出
 
 ## Critique
 
@@ -130,3 +132,5 @@ Stiegler 的"无产阶级化"（proletarianization）概念：每一项技术工
 | 父框架 | [[yt-model-prompt-engineering]] | 提示词工程总框架——守脑如玉是整个框架的底层哲学：AI 是放大器不是替代品 |
 | 理论基础 | [[yt-model-ipo-learning-strategy]] | IPO 学习模型——四遍学习法（手写→口述→AI→分享）即强化版输入→处理→输出闭环。不是更快而是更深 |
 | 互补概念 | [[yt-prompt-writing-workflow]] | AI 写作——如果你自己不保持写作能力，AI 写作工作流会慢慢侵蚀你的文字判断力 |
+| 辩证关联 | [[yt-concept-weapon-arsenal]] | 武器库元概念（master域）——外存与内化的辩证关系：武器库让你"不必记住全部"，守脑如玉让你"记住最核心的"。二者的分界线就是判断"什么值得内化"的元能力 |
+| 同构验证 | [[yt-model-personal-pitch-toolkit]] | 讲香十指框架（personal域）——讲香的消化路径（学→练→讲→创）与四遍学习法（手写→口述→AI→分享）同构：真正的内化必须经过"用自己的话输出"这一关 |

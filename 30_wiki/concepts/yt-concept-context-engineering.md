@@ -70,6 +70,8 @@ estimated_tokens: 3400
 - [[yt-model-prompt-engineering]] — 父框架：提示词工程总框架
 - [[yt-prompt-iterative-prompting]] — 迭代提示词——迭代的每一轮都是在给 AI 补充新的上下文
 - [[yt-prompt-brainstorming]] — 头脑风暴——独特资源+独特约束就是头脑风暴的上下文
+- [[yt-concept-weapon-arsenal]]（master域）— 武器库元概念：武器库的"即查即用"依赖上下文的精准匹配——给错上下文等于拿错武器。上下文工程和武器库共同解决"在什么情况下用什么知识"的元问题
+- [[yt-model-personal-pitch-toolkit]]（personal域）— 讲香十指框架：讲香的十指维度本身就是一种上下文工程——受众的认知起点是什么？需要先建立什么概念才能理解接下来的内容？讲香高手本质上是上下文工程的高手
 
 ## Critique
 
@@ -135,3 +137,5 @@ estimated_tokens: 3400
 | 父框架 | [[yt-model-prompt-engineering]] | 提示词工程总框架——上下文工程对应7层工作流中的"背景层" |
 | 互补工具 | [[yt-prompt-iterative-prompting]] | 迭代提示词——迭代的本质是用新上下文不断校准AI的理解。上下文工程告诉你"给什么"，迭代告诉你"怎么给" |
 | 互补工具 | [[yt-prompt-brainstorming]] | 头脑风暴——独特资源+独特约束是头脑风暴的燃料，上下文工程确保这些燃料的纯度和相关度 |
+| 同构关联 | [[yt-concept-weapon-arsenal]] | 武器库元概念（master域）——上下文工程和武器库共享同一核心问题：如何在正确的时间给正确的对象（AI/人脑）正确的信息。武器库解决"给人什么战术"，上下文工程解决"给 AI 什么背景" |
+| 跨域映射 | [[yt-model-personal-pitch-toolkit]] | 讲香十指框架（personal域）——讲香的过程本质上就是上下文工程的逆向操作：你不是在"给 AI 上下文"，你是在"为受众构建上下文"。十指中的场景化、素材化、比喻化，都是上下文工程的变体 |
