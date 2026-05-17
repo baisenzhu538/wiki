@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-18
 active_branch: main
-active_task: 黄药师 Batch C（concept 卡：20/30 v1.5 升级完成 + pytest ✅ + 坚果云备份 ✅）+ 老顽童补 related 边 → 出文章 → 提案新域
+active_task: 老顽童量产 master 域 + 黄药师专注 KDO 基础设施。角色重对齐：黄药师=工程师（不碰量产），老顽童=产能主力。
 blockers: []
 ---
 
@@ -71,9 +71,22 @@ blockers: []
 
 1 framework + 10 tool + 1 concept（武器库元概念），12 张卡全部通过。
 
-### 老顽童当前任务：消化全库
+### 老顽童状态（产能主力）
 
-按 framework → tool → concept 顺序读完 `30_wiki/concepts/` 下 ~150 张卡。不求速成，求真懂。消化完欧阳锋出题考。消化完前不接新编译任务。
+- **7 张 master 卡全部通过 ✅**：[[70_product/tasks/proposal-new-domain-master-meta-capabilities.md]] 提案的 7 张卡全部写成，审查 A，可直接入库
+  - #1 master-cognitive-bias-checklist（A）| #2 master-decision-hygiene（A）| #3 master-first-principles（A）
+  - #4 master-systems-thinking（A）| #5 master-antifragile-checklist（B+→改 frontmatter）| #6 master-ai-info-literacy（A+）| #7 master-knowledge-compound（A-）
+- PEAS 洞察 concept 卡（A+）附赠完成
+- 边界定义文件已写（`70_product/tasks/master-7-cards-layer-and-boundary.md`）
+- 仅需小修：#5 frontmatter concept→tool，#3 正文呼应 SpaceX 例子
+- 评估：知识广度 A，独立判断 A，学术品味 A+，跨域合成 A
+
+### 黄药师状态（基础设施唯一负责人）
+
+- **不接卡片量产**。专注 KDO CLI、方法论建设、质量门、Graph RAG。
+- pytest ✅（9.0.3，182/182 passing）| 坚果云备份 ✅
+- 权限已扩：`.claude/settings.json` 开放 vault 全路径 + kdo 命令免批
+- Batch C 剩余 concept 卡：暂停或转交老顽童
 
 ### Design 域 → 待建
 
@@ -110,6 +123,31 @@ blockers: []
 | `kdo review --sample 5 --domain yitang` | 随机抽检卡片，输出理解门禁摘要 |
 
 ## 最近决策
+
+### 2026-05-18：角色重对齐——黄药师回归工程师岗，老顽童接全部产能岗
+
+**背景**：两轮审查发现黄药师在基础设施（KDO CLI / Graph RAG / 方法论对接表）产出 A+，但在卡片量产（Batch C 5/30）反复掉链子。老顽童本轮 7 张 master 卡 + PEAS 卡一次交清，质量 A，产能超预期。这不是速度问题，是天赋错配——黄药师引力场在"建工厂"，老顽童引力场在"工厂里出活儿"。
+
+**决策**：
+- **黄药师 = KDO 基础设施唯一负责人**：CLI 开发、方法论建设、质量门设计、Graph RAG、代码审查。只写只有他能写的卡（如认知升级十步↔KDO三步编译对接表这类 meta 卡）。不接卡片量产任务。
+- **老顽童 = 产能主力**：卡片量产、文章/内容产出、跨域合成、提案新域。7 张 master 卡直接入库启用。
+- 黄药师权限已扩：`.claude/settings.json` 新增 vault 全路径 Read/Edit/Write/Glob/Grep + kdo 命令免批，解决手动批准瓶颈。
+
+**否决的替代方案**：继续让黄药师兼量产——两轮数据证明产能天花板在 17%，且拖累基础设施进度。
+
+**后果**：
+- 黄药师 Batch C 剩余 concept 卡转交老顽童或暂停
+- 黄药师下个任务：KDO 基础设施 backlog（枚举待定）
+- 老顽童下个任务：量产 master 域剩余卡 + 文章
+- 老顽童评估更新：知识广度 A-→A，独立判断 A-→A，跨域合成 A-→A
+
+**⚠️ 注意**：黄药师不碰卡片生产后可能和 vault 内容脱节。每次做基础设施决策前先跑 `kdo graph query` 保持体感。
+
+### 2026-05-18：老顽童 7 张 master 卡审查通过（A）+ 黄药师 5 张 concept 卡通过
+
+- 老顽童：7 张 master 卡（认知偏差清单/决策卫生/第一性原理/系统思考/反脆弱/AI信息素养/知识复利）+ PEAS 洞察卡 + 边界定义文件。全部评审 A。攻击者 20 位，0 稻草人。已建议直接入库。
+- 黄药师：5 张 concept 卡（守脑如玉/上下文工程/PEAS/武器库/认知升级十步）。质量 A。pytest 已装（9.0.3）。十步↔KDO三步编译对接表是意外的高价值产出——回答了老顽童消化笔记 #3 问题。
+- 黄药师 Claude Code 权限已修复：`.claude/settings.json` 扩至 vault 全路径 + kdo 命令免批。
 
 ### 2026-05-18：黄药师 Batch C 会话（Batch 5）
 
@@ -151,7 +189,7 @@ blockers: []
 ## 下次启动
 
 1. 读 `pitfalls.md`
-2. 继续 Batch C concept 卡 — 下个会话从第 16 张开始（KF-022 ≤5/会话），待升级 ~15 张
+2. 继续 Batch C concept 卡 — 下个会话从第 21 张开始（KF-022 ≤5/会话），待升级 ~10 张。管理域 16 张已全部完成，剩余为 entrepreneur/personal/panproduct 等域 concept 卡
 3. pytest 182/182 ✅ — 后续修改代码后必须重跑
 4. 坚果云备份 ✅ — KDO 源码已在坚果云（sandbox + zip 快照）
 5. 核查老顽童进度（补 related 边 / 双三角文章 v2 / 提案新域）
