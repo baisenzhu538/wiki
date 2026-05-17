@@ -240,6 +240,7 @@
 | Delivery Producer | `40_outputs/capabilities/skills/delivery-producer/SKILL.md` | Wiki knowledge → shipped artifact |
 | System Linter | `40_outputs/capabilities/skills/system-linter/SKILL.md` | Workspace health check and improvement plan |
 | **Image OCR** | `40_outputs/capabilities/skills/image-ocr/SKILL.md` | 从图片提取中文文本（本地 PaddleOCR v5） |
+| **Design Prompt Iteration** | `40_outputs/capabilities/skills/design-prompt-iteration/SKILL.md` | 人反馈视觉问题 → agent 翻译为 prompt 修改（不判断审美，不修改图片） |
 
 ## 本地工具 (Local Tools)
 
