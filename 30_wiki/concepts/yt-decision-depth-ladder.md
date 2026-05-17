@@ -12,24 +12,43 @@ confidence: 0.85
 prerequisites:
   - yt-decision-y-model
   - yt-decision-width-method
-tags:
-- ROI-depth
-- decision-levels
-- unit-economics
-- funnel-analysis
-source:
-  - type: yitang-course
-    title: 一堂·科学决策·ROI决策深度实操课
-    url: https://www.yitang.top/course/xxx
-dependencies:
-  - yt-decision-habit-shift
+component_of:
+  - yt-decision-y-model
+related:
   - yt-decision-canvas
-created: 2026-05-17
-updated: 2026-05-17
-authors:
-- laowantong
-reviewed_by:
-- ou_f31e3e2d561c472fbaa95de3424efc79
+  - yt-decision-height-toolkit
+  - yt-decision-ai-partner
+contradicts: []
+query_triggers:
+- ROI深度
+- 停车场模型
+- 单元模型
+- 转化率漏斗
+- 三点预测
+- 决策层级
+- L1定性
+- L2定量
+- L3公式
+- L4财务ROI
+tags:
+- '#yitang'
+- '#decision-making'
+- '#tool'
+- '#depth'
+- '#unit-economics'
+trust_level: medium
+yitang:
+  map: entrepreneur
+  module: 科学决策
+  course_id: yt-decision-depth-ladder
+  course_type: tool
+  level: intermediate
+source_refs:
+  - 00_inbox/科学决策/一堂-科学决策-ROI决策深度实操课口述03.txt
+created_at: '2026-05-17'
+updated_at: '2026-05-17'
+estimated_tokens: 2800
+reviewed_by: 
 ---
 
 # 深度阶梯工具：L1-L4停车场模型 + 三点预测法
@@ -136,18 +155,20 @@ Hayek在《知识在社会中的利用》中证明：经济系统中的关键知
 
 | 关联卡片 | 关系 | 使用场景 |
 |----------|------|----------|
-| `yt-decision-habit-shift` | 前置依赖 | 先用习惯诊断确认自己是Y型决策者，否则深度工具会沦为X型的"新的拖延借口" |
-| `yt-decision-width-method` | 并行使用 | 宽度工具找全要素（ABCD），深度工具把关键要素定量。先宽后深，避免"算得很深的偏见" |
-| `yt-decision-canvas` | 子节融合 | ABCD模型中：A/B/C/D对应价值项，X/Y/Z对应成本项。画完画布后，对最大项做深度阶梯分析 |
-| `yt-decision-height-toolkit` | 后续模块 | 高度工具处理"概率、时机、共识"等无法量化的维度。深度算不清时，上高度 |
-| `yt-decision-ai-partner` | 加速辅助 | 用AI辅助拆公式漏斗、生成benchmark范围、做敏感性分析，但经验值必须人工校准 |
+| [[yt-decision-habit-shift]] | 前置依赖 | 先用习惯诊断确认自己是Y型决策者，否则深度工具会沦为X型的"新的拖延借口" |
+| [[yt-decision-width-method]] | 并行使用 | 宽度工具找全要素（ABCD），深度工具把关键要素定量。先宽后深，避免"算得很深的偏见" |
+| [[yt-decision-canvas]] | 子节融合 | ABCD模型中：A/B/C/D对应价值项，X/Y/Z对应成本项。画完画布后，对最大项做深度阶梯分析 |
+| [[yt-decision-height-toolkit]] | 后续模块 | 高度工具处理"概率、时机、共识"等无法量化的维度。深度算不清时，上高度 |
+| [[yt-decision-ai-partner]] | 加速辅助 | 用AI辅助拆公式漏斗、生成benchmark范围、做敏感性分析，但经验值必须人工校准 |
 
 ### 不要用的场景
 
-- ❌ 决策试错成本极低（几百元、几天时间）→ 直接用L1或直觉判断
-- ❌ 团队没有Y型决策习惯 → 先用`yt-decision-habit-shift`转换，否则深度分析会变成"用数据包装立场"
-- ❌ 关键数据完全缺失且无类比可能 → 不要硬拆L3/L4，直接转为MAP实验设计
-- ❌ 情绪决策（涉及个人情感、面子、权力斗争）→ 深度工具对"不讲道理"的决策无效
+| 场景 | 为什么失效 | 替代方案 |
+|------|-----------|---------|
+| **决策试错成本极低（几百元、几天时间）** | L1就足够了，上L2/L3/L4是分析浪费。拉高了决策成本，降低了执行速度。 | 直接用L1定性列项，5-15分钟定论。 |
+| **团队没有Y型决策习惯** | 深度分析会变成"用数据包装立场"的工具——先有了结论，再找数据支撑。 | 先用[[yt-decision-habit-shift]]诊断并转换团队决策习惯，再上深度工具。 |
+| **关键数据完全缺失且无类比可能** | 硬拆L3/L4只是"拍脑袋的数学伪装"，公式越复杂越有迶导性。 | 不要硬拆，直接转为MAP实验设计，用小规模实践获取真实数据。 |
+| **情绪决策（涉及个人情感、面子、权力斗争）** | 深度工具对"不讲道理"的决策无效，数字不能解决价值观冲突。 | 换用沟通或决策者独裁（如你是老板，直接拍板）。 |
 
 ### 常见误用
 
