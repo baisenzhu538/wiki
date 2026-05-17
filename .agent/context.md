@@ -96,7 +96,14 @@ blockers: []
 
 ## 最近决策
 
-### 2026-05-17：欧阳锋会话
+### 2026-05-17：黄药师 Batch C 会话（晚上）
+
+- **concept 卡 v1.5 升级 5/30**：武器库（Dreyfus+Polanyi）、守脑如玉（Carr+Stiegler）、上下文工程（Simon+Shannon+Scott）、科学决策（Klein+Taleb）、基本功认知（Mintzberg+Argyris）。学者阵容 12 位，0 稻草人。每卡 ≥3 跨域引用、≥2 不要用场景、≥3 Action Triggers。
+- **pytest ⚡ 182/182 all green**：fix 7 tests。Ship validation gate → smoke/security tests 加 `--skip-validation`；validation.py `or` 链 `[]` 视为 falsy → 改用 `is not None` 判断；improve_apply tests 缺 feedback entries → 补 `corrections` kind feedback。
+- **坚果云备份**：KDO 源码（去 .git/__pycache__/build）→ zip 272 KB → `Nutstore\1\我的坚果云\`。坚果云实际同步 `C:\Users\Administrator\Knowledge Delivery OS 0.0.1` 本身（已配置为 sandbox），zip 是额外快照。
+- **concept 卡跨域引用策略**：master 域有 `yt-concept-weapon-arsenal`，personal 域有 `yt-model-personal-pitch-toolkit`——作为跨域桥梁卡使用。每张 yitang-only concept 卡至少追加这 2 张的关联引用即可满足 ≥3 域要求。
+
+### 2026-05-17：欧阳锋会话（上午）
 
 - **Graph RAG 跑通**：依赖安装 + 索引重建 + 查询验证全完成。三个 bug 修复：embedding 从 PyTorch/sentence-transformers 换 sklearn HashingVectorizer（Windows Python 3.12 DLL 不兼容）、LLM 从 Kimi 换 DeepSeek API、relation 字段名修正（src_id/tgt_id + relationships key）。索引：219 entities / 626 chunks / 920 relations / 396 nodes / 1188 edges。
 - **`kdo query` 已合并为 Graph RAG 默认引擎**：`kdo query "..."` 现在走 LightRAG 语义+图检索 → BM25 → 关键词三层回退。`kdo graph query` 保留为调试/脚本用（--json）。代码改在 `delivery.py`。
@@ -115,11 +122,11 @@ blockers: []
 ## 下次启动
 
 1. 读 `pitfalls.md`
-2. 核查黄药师 demand 域 + personal 域进度（是否继续 Batch B）
-3. 核查老顽童全库消化进度（消化完可出题考）
-4. KDO Graph RAG ✅ — `kdo graph query "..."` 可用
-5. 用户是否灌入了设计 prompt 素材到 `00_inbox/design/`
-6. 老顽童是否修正了双三角文章初稿
+2. 继续 Batch C concept 卡 — 下个会话从第 6 张开始（KF-022 ≤5/会话），待升级 ~25 张
+3. pytest 182/182 ✅ — 后续修改代码后必须重跑
+4. 坚果云备份 ✅ — KDO 源码已在坚果云（sandbox + zip 快照）
+5. 核查老顽童进度（补 related 边 / 双三角文章 v2 / 提案新域）
+6. 用户是否灌入了设计 prompt 素材到 `00_inbox/design/`
 
 ## ⚠️ 会话结束前（MUST）
 
