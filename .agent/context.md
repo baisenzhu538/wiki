@@ -1,8 +1,8 @@
 ---
 updated: 2026-05-17
 active_branch: main
-active_task: 双线并行——黄药师 Sprint 12 Batch B（demand 收尾）+ 老顽童科学决策域编译
-blockers: []
+active_task: 黄药师 Sprint 12 Batch B（personal 域待检查）+ 老顽童消化全库 + design 域待建 + Graph RAG ✅
+blockers: [老顽童消化全库中—消化完前不接新编译任务]
 ---
 
 ## 你是谁
@@ -15,35 +15,61 @@ blockers: []
 |------|------|
 | Vault 根目录 | `C:\Users\Administrator\Desktop\wiki\` |
 | KDO CLI 源码 | `C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\` |
+| Design Prompt Iteration | `40_outputs/capabilities/skills/design-prompt-iteration/SKILL.md` |
 
 ## 模型与环境
 
 - **模型**：DeepSeek V4 Pro（直连 `api.deepseek.com/anthropic`）
-- **运行方式**：WSL2 Ubuntu-22.04 终端 → `claude`（tmux session `claude`）
-- **关键教训**：切模型时涉及五层配置（`.bashrc` / 注册表 / systemd drop-in `env.conf` / `cc-connect config.toml` / cc-connect session 缓存）。2026-05-16 切 Kimi 再切回 DeepSeek 后，漏了 env.conf + config.toml work_dir + session 缓存，导致飞书黄药师 401 + 找不到 wiki + 空响应。已修复。详见 `pitfalls.md` P-5/P-6。
+- **运行方式**：欧阳锋 = Claude Agent（本会话）/ 黄药师 = WSL tmux `claude` / 老顽童 = Hermes agent → 飞书
+- **飞书 WebSocket 僵尸连接**：cc-connect 和 Hermes 均出现过 keepalive ping timeout 导致飞书无响应。重启服务即修复。注意网络中断后 WebSocket 可能不会自动恢复。P-6 已记录复现条件。
+- **关键教训**：切模型时涉及五层配置（`.bashrc` / 注册表 / systemd drop-in `env.conf` / `cc-connect config.toml` / cc-connect session 缓存）。详见 `pitfalls.md`
 
 ## 当前状态
 
 ### Sprint 进度
 - v1.6 工业化手册定案，卡片层三要件
 - Sprint 11 / 12 Batch A / A-2 / 13 → 全部 completed ✅
-- **Sprint 12 Batch B** → entrepreneur 23/23 + panproduct-execution 18/18 完成
-- **demand 域 11 张**：Action Triggers 已有，缺 外部攻击+不要用场景（黄药师本轮）
-- 剩余：personal(~8) / pitch(10) / aesthetic(4) / prompt(4)
+- **Sprint 12 Batch B** → entrepreneur 23/23 + panproduct-execution 18/18 + demand 11/11 完成 ✅
+- **剩余**：personal(~15) / pitch(10) / aesthetic(4) / prompt(4) — 黄药师待继续
 - Batch C（~30 concept 卡）待 Batch B 完成后
 
-### 新域：科学决策（老顽童负责）
-- 素材：6 口述稿 ~16,000 行 + 35 张 PNG（全待 OCR）
-- 老顽童试工通过 ✅（yt-decision-y-model / canvas / ai-partner，B+→A-）
-- 架构从 21 张收缩到 9 张（2 framework + 7 tool）
-- 本轮：01 审美拉升 → yt-decision-habit-shift（X型→Y型诊断转换）
-- 顺序：01→02→03→04→05，每模块 ≤2 张 tool 卡
+### 科学决策域（老顽童）→ ✅ 已完成
+
+10 张卡全部通过欧阳锋审查。学者引用阵容：Kahneman×3, Simon×2, Taleb×2, Klein×2, Hayek, Keynes, Foucault, Janis, March, Popper, Mintzberg, Gigerenzer, Bender, Marcus — 14 位真实学者，0 稻草人。
+
+| 评级 | 卡片 |
+|------|------|
+| A | width-method, consensus-iceberg, review, full-process, depth-ladder(修后), height-toolkit(修后) |
+| A- | habit-shift, y-model |
+| B+→A- | canvas, ai-partner |
+
+**已发现的问题**：双三角模型在初稿中被搞反（人类三角=创造力/体系/审美，AI三角=场景/数据/基本功）。卡片内容偏"精炼搬运"，缺讲香式消化再表达。根因：老顽童入职时只读了规则，未消化全库。
+
+### 讲香域 → ✅ 已完成（黄药师 2026-05-13）
+
+1 framework + 10 tool + 1 concept（武器库元概念），12 张卡全部通过。
+
+### 老顽童当前任务：消化全库
+
+按 framework → tool → concept 顺序读完 `30_wiki/concepts/` 下 ~150 张卡。不求速成，求真懂。消化完欧阳锋出题考。消化完前不接新编译任务。
+
+### Design 域 → 待建
+
+- 用户需要设计参考库 + prompt 工程支持
+- 架构：Eagle（图轨）+ Obsidian（文轨），双轨三层
+- Design Prompt Iteration skill 已建（`40_outputs/capabilities/skills/design-prompt-iteration/SKILL.md`）
+- 待用户灌入 prompt 收藏到 `00_inbox/design/`，agent 拆卡
 
 ### KDO CLI 状态
-- 42 .py 文件，11,635 行，11 测试文件，pytest 未安装
-- `kdo cards/lint/card-diff/review` 正常；Graph RAG 依赖未装（战略要补齐）
-- 待办：pytest 安装 / lint --quiet / cards --missing 多值 / Graph RAG 跑通
-- 备份：KDO 源码放坚果云（单机灾备，非 git）
+- 42 .py 文件，11,635 行，11 测试文件
+- `kdo cards/lint/card-diff/review` 正常
+- **Graph RAG ✅**：`kdo graph rebuild` + `kdo graph query` 跑通
+  - 189 entities, 529 chunks, 1095 relations, 363 graph nodes, 1092 edges
+  - Embedding: sklearn HashingVectorizer（char n-gram，纯 Python，无 DLL 依赖）
+  - LLM: DeepSeek V4 Pro（`api.deepseek.com/v1`，OpenAI 兼容）
+  - 查询返回 chunks + entities + relationships 三层结果
+- pytest 仍未安装
+- 备份：KDO 源码放坚果云（单机灾备，非 git）— 待执行
 
 ## 新增工具
 
@@ -60,25 +86,31 @@ blockers: []
 ## 最近决策
 
 ### 2026-05-17：欧阳锋会话
-- **老顽童上岗**：试工通过（科学决策 3 张卡），独立负责科学决策域编译。架构从 21 张收缩到 9 张。产出后出文章。
-- **双线并行**：黄药师 Batch B + 老顽童科学决策域，互不阻塞。
-- **KDO 备份**：坚果云单机灾备（删 .git/ + 排除 __pycache__），不用 GitHub。
-- **Graph RAG**：战略保留，补齐依赖+跑通验证，为 MCP server 铺路。
+
+- **Graph RAG 跑通**：依赖安装 + 索引重建 + 查询验证全完成。三个 bug 修复：embedding 从 PyTorch/sentence-transformers 换 sklearn HashingVectorizer（Windows Python 3.12 DLL 不兼容）、LLM 从 Kimi 换 DeepSeek API、relation 字段名修正（src_id/tgt_id + relationships key）。索引：189 entities / 529 chunks / 1095 relations / 363 nodes / 1092 edges。查询返回 chunks + entities + relationships。
+- **Agent 入职必须先消化全库**：不是读讲香方法论，是读完 `30_wiki/concepts/` 下全部卡片。肚子里有货，写卡才有魂。CLAUDE.md Step 1 已更新。
+- **老顽童全面评估**：B+。学术品味 A+，格式纪律 B+→A，独立判断 C+（最大短板：等指令不预判），知识广度 D（消化全库中，提到 B 就能从编译者升级到合成者）。
+- **Design 域路线图**：Eagle（图轨）+ Obsidian（文轨），双轨三层。Agent 管方法论和 prompt 迭代，不管审美判断。
+- **Design Prompt Iteration skill**：人描述视觉问题 → agent 翻译为 prompt 修改。四维反馈协议（画面内容/光影/构图/色彩）。
+- **飞书 WebSocket 僵尸连接**：cc-connect 和 Hermes 同一天相继出现 keepalive ping timeout。重启即修复。P-6 已补复现记录。
+- **双三角模型修正**：人类三角=创造力/体系/审美，AI 三角=场景/数据/基本功。初稿写反了。
 
 见 `decisions.md`
 
 ## 下次启动
 
 1. 读 `pitfalls.md`
-2. 核查黄药师 demand 域进度（外部攻击+不要用场景是否补齐）
-3. 核查老顽童 01 模块产出（yt-decision-habit-shift）
-4. 关注：KDO pytest 是否安装 / 科学决策图片是否 OCR
+2. 核查黄药师 demand 域 + personal 域进度（是否继续 Batch B）
+3. 核查老顽童全库消化进度（消化完可出题考）
+4. KDO Graph RAG ✅ — `kdo graph query "..."` 可用
+5. 用户是否灌入了设计 prompt 素材到 `00_inbox/design/`
+6. 老顽童是否修正了双三角文章初稿
 
 ## ⚠️ 会话结束前（MUST）
 
-- [ ] 更新 `updated:` 日期
-- [ ] 更新 `active_task` 和 `blockers`
-- [ ] 更新 ## 当前状态（完成数、剩余数、新发现的问题）
-- [ ] 有新坑？追加到 `pitfalls.md`
-- [ ] 有决策？追加到 `decisions.md`
-- [ ] **禁止用 `/memory` 替代上述更新**——`/memory` 不是项目公共记忆。
+- [x] 更新 `updated:` 日期
+- [x] 更新 `active_task` 和 `blockers`
+- [x] 更新 ## 当前状态
+- [x] 有新坑？追加到 `pitfalls.md`（P-6 复现记录已补）
+- [x] 有决策？追加到 `decisions.md`（Agent 入职消化全库 + Design 域 + 老顽童评估）
+- [ ] **禁止用 `/memory` 替代上述更新**
