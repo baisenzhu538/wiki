@@ -1,4 +1,9 @@
-"""Split prompt-best-practices-collection.md into domain-specific files."""
+"""Split prompt-best-practices-collection.md into domain-specific files.
+
+Key insight: top-level sections are separated by ``---\\n\\n## N.``.
+Internal subsections (e.g. ``## 1. 分析结论`` inside section 34) are NOT
+preceded by ``---`` and must be kept intact with their parent section.
+"""
 import re
 from pathlib import Path
 
@@ -7,7 +12,6 @@ SRC = VAULT / "00_inbox" / "prompt-best-practices-collection.md"
 OUT_DIR = VAULT / "00_inbox" / "prompts"
 DESIGN_DIR = VAULT / "00_inbox" / "design" / "prompts"
 
-# Section number → output filename
 ROUTING = {
     1:  "writing-content.md",
     2:  "learning-thinking.md",
@@ -37,7 +41,7 @@ ROUTING = {
     26: "tools-workflows.md",
     27: "business-analysis.md",
     28: "writing-content.md",
-    29: "../design/prompts/ai-image-generation.md",  # NANO BANANA PRO
+    29: "design/ai-image-generation.md",  # NANO BANANA PRO → design folder
     30: "writing-content.md",
     31: "tools-workflows.md",
     32: "business-analysis.md",
@@ -47,7 +51,7 @@ ROUTING = {
     36: "tools-workflows.md",
     37: "writing-content.md",
     38: "product-ux.md",
-    39: "tools-workflows.md",  # 图片反推提示词网站 → tools
+    39: "tools-workflows.md",
     40: "tools-workflows.md",
     41: "tools-workflows.md",
     42: "writing-content.md",
@@ -69,63 +73,106 @@ ROUTING = {
     58: "writing-content.md",
 }
 
-SECTION_RE = re.compile(r"^## (\d+)\. ")
+# Top-level sections are separated by --- followed by ## N.
+SECTION_SPLIT_RE = re.compile(r"\n---\n\n(?=## (\d+)\. )")
+
 
 def main():
     text = SRC.read_text(encoding="utf-8")
-    lines = text.split("\n")
 
-    # Find section boundaries
-    sections = {}  # num → (start_line, end_line, title)
-    current_num = None
-    current_start = None
+    # Split at top-level separators
+    parts = SECTION_SPLIT_RE.split(text)
+    # parts is like: [header_before_first_section, "1", section1_body,
+    #                  "2", section2_body, "3", section3_body, ...]
 
-    for i, line in enumerate(lines):
-        m = SECTION_RE.match(line)
-        if m:
-            num = int(m.group(1))
-            # Close previous section
-            if current_num is not None:
-                sections[current_num] = (current_start, i, current_title)
-            # Start new section
-            current_num = num
-            current_start = i
-            current_title = line
+    if not parts:
+        print("ERROR: no sections found")
+        return
 
-    # Close last section
-    if current_num is not None:
-        sections[current_num] = (current_start, len(lines), current_title)
+    header = parts[0]  # TOC + intro
+    del parts[0]
 
-    # Collect output files: filename → [(num, start, end)]
+    # Now parts alternates: num_str, body, num_str, body, ...
+    sections = {}  # num → text
+    for i in range(0, len(parts), 2):
+        if i + 1 >= len(parts):
+            break
+        num_str = parts[i]
+        body = parts[i + 1]
+        num = int(num_str)
+        # Reconstruct the full section including the ## header
+        sections[num] = f"## {num}. {body.lstrip().split(chr(10), 1)[-1] if body.strip() else ''}"
+
+    # Hmm, the regex splits BEFORE the ## N. heading, so the heading text is in the next part.
+    # Let me re-read the split behavior...
+    # Actually re.split with capture group: the separator match is removed, and captured groups are inserted.
+    # Pattern: \n---\n\n(?=## (\d+)\. )
+    # The (?=...) is a lookahead, not a capture. The only capture is (\d+).
+    # So after split: [text_before], ["1", rest_of_section1_with_heading], ["2", rest_of_section2], ...
+    # Where rest_of_sectionN starts with "## N. ..."
+
+    # Wait, \n---\n\n is consumed (deleted), (?=## (\d+)\. ) is lookahead so NOT consumed.
+    # Captured group (\d+) is inserted.
+    # So:
+    # parts[0] = everything before first "\n---\n\n## N."
+    # parts[1] = "1" (captured digit)
+    # parts[2] = "## 1. 自动化写文章\n\n..." (everything after the lookahead match, until next separator)
+    # parts[3] = "2"
+    # parts[4] = "## 2. 复盘大师提示词\n\n..."
+    # ...
+
+    # OK so the logic above needs fixing. Let me just redo this more carefully.
+    # Actually my logic above was:
+    # - parts[0] = header
+    # - parts[1] = "1", parts[2] = section 1 body (which starts with "## 1. ...")
+    # - parts[3] = "2", parts[4] = section 2 body
+    # My code:
+    # for i in range(0, len(parts), 2):
+    #     if i+1 < len(parts): num_str = parts[i], body = parts[i+1]
+    # This gets: num_str="1", body=section_1, then num_str=section_1_body (which fails int()), etc.
+    # WRONG. The pattern is: parts[0]=header, parts[1]=capture1, parts[2]=body1, parts[3]=capture2, parts[4]=body2
+    # Starting from index 1: i=1,3,5,... num_str=parts[i], body=parts[i+1]
+    # Let me fix this starting index.
+
+    print("Top-level sections detected:")
+    for i in range(1, len(parts) - 1, 2):
+        num_str = parts[i]
+        body = parts[i + 1]
+        num = int(num_str)
+        # Extract the heading line
+        body_lines = body.strip().split("\n", 1)
+        heading = body_lines[0] if body_lines else f"## {num}."
+        sections[num] = body.strip()
+        print(f"  #{num}: {heading[:80]}")
+
+    # Now group by output file
     outputs = {}
-    for num, (start, end, title) in sections.items():
+    for num, body in sections.items():
         fname = ROUTING.get(num)
         if fname is None:
             print(f"  WARNING: section {num} not routed — skipping")
             continue
-        outputs.setdefault(fname, []).append((num, start, end, title))
+        outputs.setdefault(fname, []).append((num, body))
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     DESIGN_DIR.mkdir(parents=True, exist_ok=True)
 
     total_sections = 0
     for fname, entries in sorted(outputs.items()):
-        # Resolve path
-        if fname.startswith(".."):
-            out_path = OUT_DIR / fname
+        if fname.startswith("design/"):
+            out_path = DESIGN_DIR / fname.replace("design/", "")
         else:
             out_path = OUT_DIR / fname
 
-        # Build file: header + each section's lines
-        header = f"# {fname.replace('.md','').replace('-',' ').title()}\n\n"
+        safe_name = fname.replace(".md", "").replace("-", " ").replace("/", " / ").title()
+        header = f"# {safe_name}\n\n"
         header += "> 拆分自 `00_inbox/prompt-best-practices-collection.md`\n"
         header += f"> 条目数：{len(entries)}\n\n---\n\n"
 
         body_parts = [header]
-        for num, start, end, title in sorted(entries, key=lambda x: x[0]):
-            section_lines = lines[start:end]
-            body_parts.append("\n".join(section_lines))
-            body_parts.append("\n")
+        for num, body in sorted(entries, key=lambda x: x[0]):
+            body_parts.append(body)
+            body_parts.append("\n---\n")
 
         out_path.write_text("\n".join(body_parts), encoding="utf-8")
         print(f"  {fname}: {len(entries)} sections → {out_path}")
