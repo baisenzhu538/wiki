@@ -91,13 +91,17 @@ blockers: []
 
 ### 2026-05-17：欧阳锋会话
 
-- **Graph RAG 跑通**：依赖安装 + 索引重建 + 查询验证全完成。三个 bug 修复：embedding 从 PyTorch/sentence-transformers 换 sklearn HashingVectorizer（Windows Python 3.12 DLL 不兼容）、LLM 从 Kimi 换 DeepSeek API、relation 字段名修正（src_id/tgt_id + relationships key）。索引：189 entities / 529 chunks / 1095 relations / 363 nodes / 1092 edges。查询返回 chunks + entities + relationships。
+- **Graph RAG 跑通**：依赖安装 + 索引重建 + 查询验证全完成。三个 bug 修复：embedding 从 PyTorch/sentence-transformers 换 sklearn HashingVectorizer（Windows Python 3.12 DLL 不兼容）、LLM 从 Kimi 换 DeepSeek API、relation 字段名修正（src_id/tgt_id + relationships key）。索引：219 entities / 626 chunks / 920 relations / 396 nodes / 1188 edges。
+- **`kdo query` 已合并为 Graph RAG 默认引擎**：`kdo query "..."` 现在走 LightRAG 语义+图检索 → BM25 → 关键词三层回退。`kdo graph query` 保留为调试/脚本用（--json）。代码改在 `delivery.py`。
 - **Agent 入职必须先消化全库**：不是读讲香方法论，是读完 `30_wiki/concepts/` 下全部卡片。肚子里有货，写卡才有魂。CLAUDE.md Step 1 已更新。
-- **老顽童全面评估**：B+。学术品味 A+，格式纪律 B+→A，独立判断 C+（最大短板：等指令不预判），知识广度 D（消化全库中，提到 B 就能从编译者升级到合成者）。
+- **老顽童全面评估**：消化前 B+，消化后三道考试全部 A/A+。知识广度 D→B+，独立判断 C+→A-，学术品味 A+ 维持。**Blocker 已解除，可接新编译任务。**
+- **老顽童考试 Q3 金句**："人脑不是计算器，是模式匹配器。你逼它做 Excel 分析，它就偷偷用偏见替你填答案。——Kahneman" 传播力+准确性双高，建议收入卡中。
 - **Design 域路线图**：Eagle（图轨）+ Obsidian（文轨），双轨三层。Agent 管方法论和 prompt 迭代，不管审美判断。
 - **Design Prompt Iteration skill**：人描述视觉问题 → agent 翻译为 prompt 修改。四维反馈协议（画面内容/光影/构图/色彩）。
 - **飞书 WebSocket 僵尸连接**：cc-connect 和 Hermes 同一天相继出现 keepalive ping timeout。重启即修复。P-6 已补复现记录。
 - **双三角模型修正**：人类三角=创造力/体系/审美，AI 三角=场景/数据/基本功。初稿写反了。
+- **黄药师 Batch B all done / 老顽童消化全库 done / Graph RAG done / blockers 全部清除**
+- **新任务已写**：[[70_product/tasks/sprint-12-batch-c-concept-cards.md]] + [[70_product/tasks/laowantong-next-tasks.md]]
 
 见 `decisions.md`
 

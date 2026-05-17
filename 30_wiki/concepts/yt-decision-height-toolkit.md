@@ -19,6 +19,7 @@ related:
   - yt-decision-canvas
   - yt-decision-consensus-iceberg
   - yt-decision-ai-partner
+  - yt-model-liberate-thinking-layers
 contradicts: []
 query_triggers:
 - 高度分析
@@ -57,7 +58,7 @@ reviewed_by:
 
 宽度找全、深度算准之后，70%的决策困难出在"高度"——不同人站在不同视角看同一件事，得出的结论截然相反。高度工具通过"上帝视角"四维拔升（长期视角→公司视角→机会成本→时间窗口），配合"高水平共识曲线"四步法，解决"同一张ROI表、两个人吵架"的决策困境。核心不是让老板说服员工，而是让团队在同一高度上用同一套参数讲道理。
 
-**一句话定位**：决策质量的上限不是由分析深度决定，而是由视角高度决定。
+**一句话定位**：决策质量的上限不是由分析深度决定，而是由视角高度决定。（关于如何系统诊断和提升思维高度，见[[yt-model-liberate-thinking-layers]]）
 
 ---
 

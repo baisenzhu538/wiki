@@ -121,3 +121,26 @@
 **决策**：科学决策域编译必须 OCR 全部图片。图片和口述稿互相佐证，跳过图片等于丢失一半信息。
 
 **后果**：老顽童须先 OCR 全部 35 张图，读完六个口述稿，形成完整域架构后再逐模块写卡。不能只读一个口述稿就报方案。
+
+---
+
+## 2026-05-17：`kdo query` 合并 Graph RAG 为默认引擎
+
+**背景**：`kdo query` 和 `kdo graph query` 两个命令并存——一个用关键词 grep，一个用 LightRAG 语义+图检索。对用户和 agent 来说，需要记住两个命令的区别是不必要的认知负担。
+
+**决策**：将 `kdo query` 升级为三层回退架构：
+1. **Graph RAG**（LightRAG 语义+图检索，默认）
+2. **SearchIndex**（BM25 CJK-aware 全文索引，回退）
+3. **关键词 grep**（`search_documents` 暴力匹配，最后手段）
+
+`kdo graph query --json` 保留为调试/脚本接口。
+
+**原因**：Graph RAG 能找到关键词找不到的语义关联和图邻居；即使索引未建或依赖缺失，下面两层也能兜底。对用户透明——同一个命令，底层自动选最好的引擎。
+
+**否决的替代方案**：保留两个独立命令——用户记不住，agent 不知道该用哪个。合并后零退化、零学习成本。
+
+**后果**：
+- `kdo/commands/delivery.py` `cmd_query` 已改，`kdo/cli.py` help 文本已更新
+- Agent 文档（CLAUDE.md、context.md）已同步
+- 查询时无外部 API 调用（embedding 纯本地 sklearn，LLM 不触发）
+- 索引持久化在 `.kdo/graph_index/`，建成就一直在，内容变更后 `kdo graph rebuild` 即可

@@ -15,6 +15,7 @@ related:
   - yt-decision-canvas
   - yt-decision-ai-partner
   - yt-model-entrepreneur-map
+  - yt-entrepreneur-key-hypotheses
 contradicts: []
 query_triggers:
 - 科学决策
@@ -59,7 +60,7 @@ reviewed_by: 周伯通
 
 ### 核心定位
 
-Y模型在一堂知识体系中的坐标：科学决策模块的底层框架，贯穿预判、起盘、增长三阶段，与关键假设、单元模型、科学管理等课程形成方法论网络。
+Y模型在一堂知识体系中的坐标：科学决策模块的底层框架，贯穿预判、起盘、增长三阶段，与[[yt-entrepreneur-key-hypotheses|关键假设]]、单元模型、科学管理等课程形成方法论网络。
 
 ### 三维度结构
 
