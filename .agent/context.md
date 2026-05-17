@@ -188,7 +188,7 @@ blockers: []
 
 ## 下次启动
 
-1. 读 `pitfalls.md`
+1. 读 `pitfalls.md` → `toolkit.md`（武器库别忘记！OCR/Git/KDO 命令都在里面）
 2. **角色分工已重对齐**：黄药师=工程师（KDO CLI/方法论/Graph RAG），老顽童=产能主力（卡片量产/文章/提案）
 3. 核查老顽童后续产出：#5 反脆弱 frontmatter 修复 + #3 第一性原理小修 + 后续量产任务
 4. 核查黄药师 KDO 基础设施 backlog（需要定义下个迭代的具体任务）

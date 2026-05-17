@@ -112,3 +112,21 @@
 - 架构者审查新域提案时，独立验证"素材是否全部消化"——不能只信执行者的自述
 - 长对话中出现判断失误时主动收尾，下次干净状态接手
 
+---
+
+## P-8: 欧阳锋忘记本地已有武器——重新调研已部署工具
+
+**症状**：新欧阳锋 session 启动后，遇到 OCR/图片处理需求，花大量时间调研方案、测试依赖、试图部署新工具。最后才想起来 vault 旁边 `C:\Users\Administrator\ocr-pipeline\` 已经部署了 PaddleOCR v5，且有 PowerShell 封装脚本。
+
+**根因**：
+1. 启动时只读了 `context.md` + `pitfalls.md`，本地工具清单藏在 277 行的 CLAUDE.md 里，读完前两个文件根本看不到
+2. `.agent/` 记忆系统缺少"武器库"文件——记录"我们有什么、在哪、怎么用"
+3. 工具部署完成后没有在 startup checklist 中加入验证步骤
+
+**对策**：
+- 新建 `.agent/toolkit.md`（OCR/KDO CLI/Git/WSL 桥接/内置 Skills/常见操作模式）
+- CLAUDE.md 启动指令已改：`Read .agent/context.md → .agent/pitfalls.md → .agent/toolkit.md`
+- context.md "下次启动"第 1 条加了 `toolkit.md` 提醒
+- 新增工具/能力时必须同步更新 `toolkit.md`
+- 原则：**先查武器库再行动——不要重复造轮子**
+

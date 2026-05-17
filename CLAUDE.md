@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-**!!! 启动第一个动作：Read `.agent/context.md` → `.agent/pitfalls.md`。!!!**
+**!!! 启动第一个动作：Read `.agent/context.md` → `.agent/pitfalls.md` → `.agent/toolkit.md`。!!!**
 
 **!!! 每次会话快结束时：必须 Update `.agent/context.md`（更新 active_task、进度、blockers），有新坑追加到 `pitfalls.md`。不更新等于白建外挂大脑。!!!**
 
