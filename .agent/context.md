@@ -106,6 +106,13 @@ blockers: []
 
 ## 最近决策
 
+### 2026-05-18：黄药师 Batch C 会话（Batch 3-4）
+
+- **Batch 3（5 张）**：业务公式（Hayek+Weick）、一号位（Pfeffer+Drucker）、目标管理（Deming+Muller）、管理段位（Kegan+Kellerman）、公司文化（Schein+Martin）
+- **Batch 4（5 张）**：转化率黑客（Sutherland+Ariely）、财务入门（Johnson&Kaplan+Jensen）、科学招聘（Gladwell+Bohnet）、战略会（Rumelt+Porter）、团队知识管理（Nonaka&Takeuchi+Snowden）
+- **累计 15/30**：学者阵容 30 位，0 稻草人。每卡 ≥2 不要用场景、≥3 Action Triggers、≥3 跨域引用、estimated_tokens ≤3500
+- **学者新增**：Rory Sutherland, Dan Ariely, H. Thomas Johnson, Robert S. Kaplan, Michael C. Jensen, Malcolm Gladwell, Iris Bohnet, Richard Rumelt, Michael Porter, Ikujiro Nonaka, Hirotaka Takeuchi, Dave Snowden
+
 ### 2026-05-17：黄药师 Batch C 会话（晚上）
 
 - **concept 卡 v1.5 升级 5/30**：武器库（Dreyfus+Polanyi）、守脑如玉（Carr+Stiegler）、上下文工程（Simon+Shannon+Scott）、科学决策（Klein+Taleb）、基本功认知（Mintzberg+Argyris）。学者阵容 12 位，0 稻草人。每卡 ≥3 跨域引用、≥2 不要用场景、≥3 Action Triggers。
@@ -132,7 +139,7 @@ blockers: []
 ## 下次启动
 
 1. 读 `pitfalls.md`
-2. 继续 Batch C concept 卡 — 下个会话从第 6 张开始（KF-022 ≤5/会话），待升级 ~25 张
+2. 继续 Batch C concept 卡 — 下个会话从第 16 张开始（KF-022 ≤5/会话），待升级 ~15 张
 3. pytest 182/182 ✅ — 后续修改代码后必须重跑
 4. 坚果云备份 ✅ — KDO 源码已在坚果云（sandbox + zip 快照）
 5. 核查老顽童进度（补 related 边 / 双三角文章 v2 / 提案新域）
