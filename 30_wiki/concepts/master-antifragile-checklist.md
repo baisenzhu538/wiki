@@ -1,7 +1,7 @@
 ---
 domain: master
 subdomain: decision
-card_type: concept
+card_type: tool
 confidence: 0.88
 page_count: 1
 alias:
