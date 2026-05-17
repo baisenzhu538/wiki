@@ -189,11 +189,14 @@ blockers: []
 ## 下次启动
 
 1. 读 `pitfalls.md`
-2. 继续 Batch C concept 卡 — 下个会话从第 21 张开始（KF-022 ≤5/会话），待升级 ~10 张。管理域 16 张已全部完成，剩余为 entrepreneur/personal/panproduct 等域 concept 卡
-3. pytest 182/182 ✅ — 后续修改代码后必须重跑
-4. 坚果云备份 ✅ — KDO 源码已在坚果云（sandbox + zip 快照）
-5. 核查老顽童进度（补 related 边 / 双三角文章 v2 / 提案新域）
-6. 用户是否灌入了设计 prompt 素材到 `00_inbox/design/`
+2. **角色分工已重对齐**：黄药师=工程师（KDO CLI/方法论/Graph RAG），老顽童=产能主力（卡片量产/文章/提案）
+3. 核查老顽童后续产出：#5 反脆弱 frontmatter 修复 + #3 第一性原理小修 + 后续量产任务
+4. 核查黄药师 KDO 基础设施 backlog（需要定义下个迭代的具体任务）
+5. KDO Graph RAG ✅ — `kdo query "..."` 三阶回退正常工作
+6. pytest 182/182 ✅ — 代码修改后必须重跑
+7. 坚果云备份 ✅ — `C:\Users\Administrator\Nutstore\1\我的坚果云\` 
+8. 黄药师 WSL 启动：`wsl` → `cd /mnt/c/Users/Administrator/Desktop/wiki` → `tmux new -s huangaoshi` → `claude`
+9. 用户是否灌入了设计 prompt 素材到 `00_inbox/design/`
 
 ## ⚠️ 会话结束前（MUST）
 
