@@ -1,7 +1,7 @@
 ---
-updated: 2026-05-17
+updated: 2026-05-18
 active_branch: main
-active_task: 黄药师 Batch C（concept 卡：5/30 v1.5 升级完成 + pytest ✅ + 坚果云备份 ✅）+ 老顽童补 related 边 → 出文章 → 提案新域
+active_task: 黄药师 Batch C（concept 卡：15/30 v1.5 升级完成 + pytest ✅ + 坚果云备份 ✅）+ 老顽童补 related 边 → 出文章 → 提案新域
 blockers: []
 ---
 
@@ -30,14 +30,24 @@ blockers: []
 - v1.6 工业化手册定案，卡片层三要件
 - Sprint 11 / 12 Batch A / A-2 / 13 → 全部 completed ✅
 - **Sprint 12 Batch B** → entrepreneur 23/23 + panproduct-execution 18/18 + demand 11/11 + personal/pitch/aesthetic/prompt 全部完成 ✅
-- **Batch C**（~30 concept 卡）→ **5/30 v1.5 升级完成**
+- **Batch C**（~30 concept 卡）→ **15/30 v1.5 升级完成**
   - ✅ yt-concept-weapon-arsenal（master — Dreyfus+Polanyi, 跨 3 域）
   - ✅ yt-concept-ai-guard-brain（yitang+ai — Carr+Stiegler, 跨 4 域）
   - ✅ yt-concept-context-engineering（yitang+ai — Simon+Shannon/Weaver+Scott, 跨 4 域）
   - ✅ yt-management-scientific-decision（yitang — Klein+Taleb, 跨 3 域）
   - ✅ yt-management-basic-skills（yitang — Mintzberg+Argyris, 跨 3 域）
-  - 待续：~25 张 concept 卡（KF-022 每会话 ≤5）
-  - 全部 5 张通过 `kdo lint --baseline HEAD`
+  - ✅ yt-management-business-formula（yitang — Hayek+Weick, 跨 3 域）
+  - ✅ yt-management-founder-role（yitang — Pfeffer+Drucker, 跨 3 域）
+  - ✅ yt-management-goal-management（yitang — Deming+Muller, 跨 3 域）
+  - ✅ yt-management-leadership-levels（yitang — Kegan+Kellerman, 跨 3 域）
+  - ✅ yt-management-company-culture（yitang — Schein+Martin, 跨 3 域）
+  - ✅ yt-management-conversion-hacking（yitang — Sutherland+Ariely, 跨 3 域）
+  - ✅ yt-management-finance-basics（yitang — Johnson&Kaplan+Jensen, 跨 3 域）
+  - ✅ yt-management-scientific-hiring（yitang — Gladwell+Bohnet, 跨 3 域）
+  - ✅ yt-management-strategy-meeting（yitang — Rumelt+Porter, 跨 3 域）
+  - ✅ yt-management-team-knowledge（yitang — Nonaka&Takeuchi+Snowden, 跨 3 域）
+  - 待续：~15 张 concept 卡（KF-022 每会话 ≤5）
+  - 全部 15 张通过 `kdo lint --baseline HEAD`
 - **老顽童后续** → 已分配：[[70_product/tasks/laowantong-next-tasks.md]]（①补related边 ②双三角文章v2 ③提案新域）
 
 ### 科学决策域（老顽童）→ ✅ 已完成
