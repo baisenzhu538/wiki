@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-17
 active_branch: main
-active_task: 黄药师 Batch C（concept 卡 ~30 张）+ 老顽童补 related 边 → 出文章 → 提案新域
+active_task: 黄药师 Batch C（concept 卡 ~30 张 + pytest + 坚果云备份）+ 老顽童补 related 边 → 出文章 → 提案新域
 blockers: []
 ---
 
