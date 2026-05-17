@@ -63,11 +63,15 @@ blockers: [老顽童消化全库中—消化完前不接新编译任务]
 ### KDO CLI 状态
 - 42 .py 文件，11,635 行，11 测试文件
 - `kdo cards/lint/card-diff/review` 正常
-- **Graph RAG ✅**：`kdo graph rebuild` + `kdo graph query` 跑通
-  - 189 entities, 529 chunks, 1095 relations, 363 graph nodes, 1092 edges
-  - Embedding: sklearn HashingVectorizer（char n-gram，纯 Python，无 DLL 依赖）
-  - LLM: DeepSeek V4 Pro（`api.deepseek.com/v1`，OpenAI 兼容）
-  - 查询返回 chunks + entities + relationships 三层结果
+- **Graph RAG ✅ — `kdo query` 默认引擎**：
+  - `kdo query "..."` 现在默认走 LightRAG 语义+图检索（不再是关键词 grep）
+  - 回退链：Graph RAG → BM25 SearchIndex → 关键词 grep
+  - `kdo graph rebuild` 增量重建索引（内容变更后运行）
+  - `kdo graph query "..."` 保留为调试/脚本用（支持 `--json`）
+  - 219 entities, 626 chunks, 920 relations, 396 nodes, 1188 edges
+  - Embedding: sklearn HashingVectorizer（char n-gram 2-4，纯 Python，零外部 API 调用）
+  - LLM: 查询时不调用（keywords 已预填）；只在 `kdo enrich --llm` 时走 DeepSeek API
+  - 索引持久化在 `.kdo/graph_index/`，纯本地，无 daemon，无外部依赖
 - pytest 仍未安装
 - 备份：KDO 源码放坚果云（单机灾备，非 git）— 待执行
 

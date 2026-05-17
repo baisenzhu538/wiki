@@ -172,7 +172,7 @@
 
 ### 指令：Query `[你的问题]`
 
-1. 运行 `kdo query "<问题>"` 搜索 memory、wiki、outputs 和 raw sources。
+1. 运行 `kdo query "<问题>"` 进行语义+图检索（LightRAG）。若索引未建立，自动回退到关键词搜索。
 2. 查阅 `30_wiki/` 和 `10_raw/` 中的相关内容。
 3. 用 `双向链接` 引用已有概念。
 4. 若有新见解，写入 `30_wiki/` 对应页面。
@@ -180,7 +180,7 @@
 
 ### 指令：Produce `[类型]` `[主题]`
 
-1. 运行 `kdo query "<主题>"` 确认有足够 wiki/source 覆盖。
+1. 运行 `kdo query "<主题>"`（语义+图检索）确认有足够 wiki/source 覆盖。
 2. 运行 `kdo produce <type>/<subtype> --topic "<主题>" --target-user "<目标用户>" --channel <渠道>`。
 3. 读取 `kdo brief --artifact-id <id>` 获取完整上下文。
 4. 填充所有 TODO 占位符，引用具体 source_id。
@@ -217,7 +217,9 @@
 | `kdo import-chat <path> [--title] [--format]` | 导入 AI 对话到 00_inbox/ai-chats |
 | `kdo ingest [--limit N] [--dry-run]` | 编译 inbox → raw sources + wiki 骨架 |
 | `kdo enrich [--wiki-path] [--all] [--dry-run]` | 自动填充 wiki 骨架中的 TODO 占位 |
-| `kdo query <question> [--limit N]` | 关键词搜索 memory/wiki/outputs/raw |
+| `kdo query <question> [--limit N]` | 语义+图检索（LightRAG），回退到 BM25 → 关键词 |
+| `kdo graph rebuild` | 重建 Graph RAG 索引（内容变更后运行） |
+| `kdo graph query <question> [--json]` | 直接查 Graph RAG，输出实体+关系+chunks（调试/脚本用） |
 | `kdo produce <content\|code\|capability>/<subtype> --topic <topic>` | 创建 artifact 骨架到 40_outputs |
 | `kdo validate [artifact_id] [--advisory] [--write-report]` | 按质量门校验 artifact |
 | `kdo ship <artifact_id> --channel <channel> [--url]` | 记录交付事件到 50_delivery |
