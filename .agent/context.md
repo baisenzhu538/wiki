@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-18
 active_branch: main
-active_task: 黄药师 Batch C（concept 卡：15/30 v1.5 升级完成 + pytest ✅ + 坚果云备份 ✅）+ 老顽童补 related 边 → 出文章 → 提案新域
+active_task: 黄药师 Batch C（concept 卡：20/30 v1.5 升级完成 + pytest ✅ + 坚果云备份 ✅）+ 老顽童补 related 边 → 出文章 → 提案新域
 blockers: []
 ---
 
@@ -46,8 +46,13 @@ blockers: []
   - ✅ yt-management-scientific-hiring（yitang — Gladwell+Bohnet, 跨 3 域）
   - ✅ yt-management-strategy-meeting（yitang — Rumelt+Porter, 跨 3 域）
   - ✅ yt-management-team-knowledge（yitang — Nonaka&Takeuchi+Snowden, 跨 3 域）
-  - 待续：~15 张 concept 卡（KF-022 每会话 ≤5）
-  - 全部 15 张通过 `kdo lint --baseline HEAD`
+  - ✅ yt-management-onboarding（yitang — Van Maanen&Schein+Edmondson, 跨 3 域）
+  - ✅ yt-management-partnership-equity（yitang — Coase+Williamson, 跨 3 域）
+  - ✅ yt-management-project-management（yitang — Flyvbjerg+Goldratt, 跨 3 域）
+  - ✅ yt-management-scientific-meetings（yitang — Useem+Doyle&Straus, 跨 3 域）
+  - ✅ yt-concept-peas-insight（master — Berlin+Klein 已有，补跨域引用）
+  - 待续：~10 张 concept 卡（KF-022 每会话 ≤5）
+  - 全部 20 张通过 `kdo lint --baseline HEAD`
 - **老顽童后续** → 已分配：[[70_product/tasks/laowantong-next-tasks.md]]（①补related边 ②双三角文章v2 ③提案新域）
 
 ### 科学决策域（老顽童）→ ✅ 已完成
@@ -105,6 +110,13 @@ blockers: []
 | `kdo review --sample 5 --domain yitang` | 随机抽检卡片，输出理解门禁摘要 |
 
 ## 最近决策
+
+### 2026-05-18：黄药师 Batch C 会话（Batch 5）
+
+- **Batch 5（5 张）**：新人落地（Van Maanen&Schein+Edmondson）、合伙股权（Coase+Williamson）、项目管理（Flyvbjerg+Goldratt）、科学开会（Useem+Doyle&Straus）、PEAS核心洞察（Berlin+Klein 已有，补跨域引用）
+- **累计 20/30**：学者阵容 40 位，0 稻草人
+- **管理域 16 张全部完成** ✅
+- **学者新增**：Van Maanen, Schein (again, role-specific), Edmondson, Coase, Williamson, Flyvbjerg, Goldratt, Useem, Doyle, Straus
 
 ### 2026-05-18：黄药师 Batch C 会话（Batch 3-4）
 

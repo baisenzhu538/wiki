@@ -35,7 +35,8 @@ tags:
 - '#systems-thinking'
 created_at: '2026-05-18'
 updated_at: '2026-05-18'
-reviewed_by: ""
+estimated_tokens: 3200
+reviewed_by: 黄药师
 trust_level: medium
 ---
 
@@ -113,11 +114,14 @@ E（环境）是给定的。你不能选择环境，但你能选择：
 
 ### 关联卡片
 
-- [[yt-tool-peas-agent-analysis]] — PEAS 智能体分析工具：本概念的工具化落地
-- [[yt-model-agent-architecture]] — 智能体架构：完整的理论框架
-- [[yt-model-cognitive-upgrade-framework]] — 认知升级十步框架：PEAS 可作为 IDENTITY 阶段的"旧 Bug"诊断工具
-- [[yt-decision-habit-shift]] — X/Y 型决策习惯转换：从 reflex 升级到 goal-based 的具体路径
-- [[yt-decision-y-model]] — Y 模型：宽度×深度×高度的决策框架
+- [[yt-tool-peas-agent-analysis]] — PEAS 智能体分析工具（master 域）：本概念的工具化落地
+- [[yt-model-agent-architecture]] — 智能体架构（master 域）：完整的理论框架
+- [[yt-model-cognitive-upgrade-framework]] — 认知升级十步框架（master 域）：PEAS 可作为 IDENTITY 阶段的"旧 Bug"诊断工具
+- [[yt-decision-habit-shift]] — X/Y 型决策习惯转换（master 域）：从 reflex 升级到 goal-based 的具体路径
+- [[yt-decision-y-model]] — Y 模型（master 域）：宽度×深度×高度的决策框架
+- [[yt-management-goal-management]] — 目标管理（yitang 域）：OKR 失败的最常见原因就是 P 填了但 E/A/S 空着——团队设了目标但没有告诉团队"你有什么武器（A）和雷达（S）"。PEAS 是对 OKR 方法论最根本的诊断工具
+- [[yt-management-scientific-decision]] — 科学决策（yitang 域）：Y 模型告诉你"怎么选择"，PEAS 告诉你"为什么你的选择在执行中会失败"——因为你的决策系统只有目标没有执行器/传感器。Y 模型是决策的手术刀，PEAS 是决策的体检表
+- [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：Berlin 的价值多元论对 PEAS 最根本的挑战在讲香的语境中变得清晰——不是所有价值都适合被 P 量化。当你向团队"讲香"时，有些东西（信任、归属、意义）被量化成 KR 的那一刻，它们就失去了对人的感召力。"讲香"的最高技巧是让人感到"这个目标值得追"——而不是"这个目标可以被测量"
 
 ### 不要用的场景
 
