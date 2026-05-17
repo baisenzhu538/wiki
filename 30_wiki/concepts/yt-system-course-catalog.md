@@ -1,4 +1,5 @@
 ---
+id: yt-system-course-catalog
 title: "一堂全课程目录索引"
 type: concept
 status: enriched
@@ -12,11 +13,12 @@ yitang:
 source_refs:
   - 10_raw/sources/一堂-课程地图精华串讲.md
 created_at: "2026-05-07"
-updated_at: "2026-05-08"
+updated_at: "2026-05-18"
 tags:
   - "#yitang"
   - "#course-catalog"
   - "#index"
+estimated_tokens: 3200
 ---
 
 # 一堂全课程目录索引
