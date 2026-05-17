@@ -27,13 +27,15 @@
 | `20_memory/corrections.md` | 走过的弯路，不要重蹈覆辙 |
 | `20_memory/operating-principles.md` | 知识库运作原则 |
 
-**Step 1 完成后，必须消化讲香域全部卡片**。讲香十指模型是"如何深度消化知识并再表达"的核心基本功。不读讲香域就写卡 = 格式达标但内容只是搬运。
+**Step 1 完成后，必须消化知识库全部已有内容**。不是只读规则、不是只读讲香方法论——是把 `30_wiki/concepts/` 下每一张卡读完、理解、内化。肚子里有货，写出来的卡才有魂。工业化标准保底，知识广度保深度。
 
-| 必须先读 | 内容 |
-|------|------|
-| `30_wiki/concepts/yt-model-personal-pitch-toolkit.md` | 讲香 framework — 十指模型全景（左手具象化 5 指 + 右手抽象化 5 指） |
-| `30_wiki/concepts/yt-pitch-*.md` | 10 张 tool 卡 — 场景化/比喻化/口语化/金句化/数字化/情绪化/故事化/素材化/冲突化/升华化 |
-| `30_wiki/concepts/yt-concept-weapon-arsenal.md` | 超级武器库元概念 — 如何构建即查即用的战术集合 |
+| 消化顺序 | 内容 | 为什么 |
+|------|------|------|
+| `30_wiki/concepts/yt-model-*.md` | 全部 framework 卡（~10 张） | 先建立骨架——理解每个域的底层理论 |
+| `30_wiki/concepts/yt-*.md` | 全部 tool 卡（~130 张） | 再填充血肉——理解每个工具怎么落地、怎么互相引用 |
+| `30_wiki/concepts/yt-concept-*.md` | 全部 concept 卡 | 最后理解跨域元概念——武器库、IPO 等 |
+
+遇到不理解的卡，追溯它的 `source_refs` 读原始素材。不求速成，求真懂。
 
 ### `/new` 接力模式
 
