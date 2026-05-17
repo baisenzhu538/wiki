@@ -108,6 +108,116 @@ trust_level: medium
 
 **互补关系**：三步编译法负责流水线的**宽度**（N 本书 → N 张卡 → 可遍历），十步框架负责单点的**深度**（1 本书 → 1 次行为改变）。两者不是竞争——十步框架深度加工后的素材，可以拆解为多张 KDO 卡片入库。
 
+---
+
+### 十步 → 三步 详细映射
+
+**核心问题**：十步框架的哪些步骤产出 = KDO 三步编译法的哪个区块？
+
+```
+十步框架              KDO 三步编译法
+┌───────────────┐       ┌───────────────┐
+│ 1. IDENTITY       │       │                   │
+│ 2. MODEL          │ ──────» │   [Condense]      │
+│    (核心框架+3句精髓) │       │   Claims 列表    │
+│                   │       │                   │
+│ 3. EVIDENCE       │       │   [Critique]      │
+│    (审计+外部攻击) │ ──────» │   Constraints     │
+│ 4. CONTRAST       │       │   & Boundaries    │
+│    (边界+失效场景) │       │                   │
+│                   │       │   [Synthesis]     │
+│ 5. ACTION         │       │   关联卡片 +      │
+│ 6. REFLECTION     │ ──────» │   图边连接      │
+│ 7. MY TAKE        │       │                   │
+│ 8. ICAP           │       │                   │
+│                   │       │                   │
+│ 9. CTA            │ ──────» │   Action Triggers │
+│ 10. FOLLOWUP      │       │   (触发+动作+指标) │
+└───────────────┘       └───────────────┘
+```
+
+#### 映射详解
+
+| 十步模块 | 产出物 | 对应 KDO 区块 | 转化方法 |
+|---------|-------|--------------|---------|
+| **IDENTITY** | 书的身份卡（真正在问的问题 + 承诺 + 旧 Bug） | 前置信息 | 写入 KDO 卡片的 `source_refs` 和前言 |
+| **MODEL** | 3 句精髓 + 5 个工程原语 + 3 条关键判断 | **[Condense]** | 每条精髓 = 1 个 Claim，格式：`claim:NN [conf=X] description` |
+| **EVIDENCE** | 关键案例审计（含反事实 + 偏差识别） | **[Critique]** 内部 | 审计结果 → Constraints / 偏差标签 → per-claim confidence 调整 |
+| **EVIDENCE 外部攻击** | 对立阵营的批评 | **[Critique]** 外部攻击 | 直接转化为 KDO 卡片的"外部攻击"子节（≥2 位不同范式的攻击者） |
+| **CONTRAST** | 与既有方法冲突/互补表 + 适用 vs 失效场景表 | **[Critique]** 边界 + **[Synthesis]** | 失效场景 → "不要用的场景"表（场景+失效机制+替代方案） |
+| **ACTION** | 场景触发卡 + SOP + 最小可行实验 | **[Synthesis]** 行动化 | 场景触发卡 → Action Triggers（触发+动作+指标） |
+| **REFLECTION** | 3 句原文精炼 + 使用情境 | 辅助材料 | 写入 KDO 卡片的引用区或金句区 |
+| **MY TAKE** | 旧认知 → 新认知转化表 | **[Synthesis]** 个人化 | 转化表 → Synthesis 中的"个人洞察"或"模式转化"子节 |
+| **ICAP** | ICAP 四级自评 + 泵升计划 | 质量门禁 | 泵升计划 → 学习路径推荐（可写入 `prerequisites`） |
+| **CTA** | 3 个 5 分钟内最小动作 | **[Synthesis]** Action Triggers | 直接转化为 Action Triggers 的"第一动作"列 |
+| **FOLLOWUP** | 3 周后复诊清单 | 反馈闭环 | 复诊清单 → `60_feedback/` 目录下的反馈记录 |
+
+---
+
+### 操作流程：从十步框架到 KDO 卡片
+
+**场景**：你用十步框架深度读完了一本书，现在想把产出转化为 KDO 卡片入库。
+
+**步骤 1：拆解**
+
+看 MODEL 模块的产出：3 句精髓 + 5 个工程原语 + 3 条关键判断。
+
+判断：这些内容能否拆成多张独立可用的卡片？
+- 能 → 每张卡片用十步框架的对应部分填充 KDO 三步编译法的三个区块
+- 不能 → 保留为一张复合卡（`type: composite-concept`）
+
+**步骤 2：填充 Condense**
+
+对每张卡片：
+- 从 MODEL 中抽取 Claims：每句精髓 = 1 个 Claim
+- 从 IDENTITY 中抽取来源信息：写入 `source_refs`
+- 从 REFLECTION 中抽取金句：写入引用区
+
+**步骤 3：填充 Critique**
+
+对每张卡片：
+- 从 EVIDENCE 的审计结果 → Constraints（内部局限性）
+- 从 EVIDENCE 的外部攻击 → "外部攻击"子节（≥2 位不同范式）
+- 从 CONTRAST 的失效场景 → "不要用的场景"表
+- 从 EVIDENCE 的偏差标签 → 调整 per-claim confidence
+
+**步骤 4：填充 Synthesis**
+
+对每张卡片：
+- 从 ACTION 的场景触发卡 → Action Triggers（≥3 个）
+- 从 MY TAKE 的转化表 → Synthesis 中的"个人化洞察"
+- 从 CONTRAST 的关联方法 → Synthesis 中的"关联卡片"表
+- 从 ICAP 的泵升计划 → `prerequisites` 或 "学习路径"
+- 扫描 `related:` 字段——碰到 vault 中已有的概念时加入图边
+
+**步骤 5：质量门禁**
+
+检查：
+- [ ] 每张卡片的 Claims 是否与十步框架的 MODEL 一致？
+- [ ] Constraints 是否覆盖了 EVIDENCE 中的审计发现？
+- [ ] 外部攻击是否≥2 位且引用了真实学者？
+- [ ] Action Triggers 是否≥3 个且包含具体动作？
+- [ ] `kdo lint` 通过：0 errors
+
+**步骤 6：反馈闭环**
+
+3 周后：
+- 从 FOLLOWUP 的复诊清单 → 写入 `60_feedback/`
+- 根据复诊结果调整卡片的 confidence 和 Constraints
+
+---
+
+### 补充说明：为什么这个对接很重要
+
+没有对接映射时的常见问题：
+
+| 问题 | 原因 | 对接后的解决 |
+|------|------|-----------|
+| "十步框架的产出沉在思维卡里，无法被其他卡片引用" | 思维卡是个人产物，不是原子化知识 | 拆解为 KDO 卡片后，Claims 可独立引用 |
+| "十步框架的 EVIDENCE 审计和外部攻击没有进入 KDO 系统" | 审计和攻击只存在于思维卡内 | 映射到 Critique 区块后，成为所有卡片的标准组成部分 |
+| "十步框架的 CTA 与 KDO 卡片的 Action Triggers 重叠但不一致" | 两套系统各自为政 | 对接后 CTA 直接转化为 Action Triggers，保持一致 |
+| "不知道十步框架的 FOLLOWUP 怎么用" | 没有反馈管线接入点 | 映射到 `60_feedback/` 反馈闭环系统 |
+
 ## [Critique]
 
 ### 内部局限性
