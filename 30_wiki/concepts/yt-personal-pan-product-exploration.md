@@ -35,8 +35,8 @@ yitang:
 source_refs:
 - 10_raw/sources/一堂-个人修炼-泛产品设计探索营口述版.md
 created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 1679
+updated_at: '2026-05-18'
+estimated_tokens: 3100
 reviewed_by: 黄药师
 ---
 

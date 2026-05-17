@@ -30,29 +30,16 @@ blockers: []
 - v1.6 工业化手册定案，卡片层三要件
 - Sprint 11 / 12 Batch A / A-2 / 13 → 全部 completed ✅
 - **Sprint 12 Batch B** → entrepreneur 23/23 + panproduct-execution 18/18 + demand 11/11 + personal/pitch/aesthetic/prompt 全部完成 ✅
-- **Batch C**（~30 concept 卡）→ **15/30 v1.5 升级完成**
-  - ✅ yt-concept-weapon-arsenal（master — Dreyfus+Polanyi, 跨 3 域）
-  - ✅ yt-concept-ai-guard-brain（yitang+ai — Carr+Stiegler, 跨 4 域）
-  - ✅ yt-concept-context-engineering（yitang+ai — Simon+Shannon/Weaver+Scott, 跨 4 域）
-  - ✅ yt-management-scientific-decision（yitang — Klein+Taleb, 跨 3 域）
-  - ✅ yt-management-basic-skills（yitang — Mintzberg+Argyris, 跨 3 域）
-  - ✅ yt-management-business-formula（yitang — Hayek+Weick, 跨 3 域）
-  - ✅ yt-management-founder-role（yitang — Pfeffer+Drucker, 跨 3 域）
-  - ✅ yt-management-goal-management（yitang — Deming+Muller, 跨 3 域）
-  - ✅ yt-management-leadership-levels（yitang — Kegan+Kellerman, 跨 3 域）
-  - ✅ yt-management-company-culture（yitang — Schein+Martin, 跨 3 域）
-  - ✅ yt-management-conversion-hacking（yitang — Sutherland+Ariely, 跨 3 域）
-  - ✅ yt-management-finance-basics（yitang — Johnson&Kaplan+Jensen, 跨 3 域）
-  - ✅ yt-management-scientific-hiring（yitang — Gladwell+Bohnet, 跨 3 域）
-  - ✅ yt-management-strategy-meeting（yitang — Rumelt+Porter, 跨 3 域）
-  - ✅ yt-management-team-knowledge（yitang — Nonaka&Takeuchi+Snowden, 跨 3 域）
-  - ✅ yt-management-onboarding（yitang — Van Maanen&Schein+Edmondson, 跨 3 域）
-  - ✅ yt-management-partnership-equity（yitang — Coase+Williamson, 跨 3 域）
-  - ✅ yt-management-project-management（yitang — Flyvbjerg+Goldratt, 跨 3 域）
-  - ✅ yt-management-scientific-meetings（yitang — Useem+Doyle&Straus, 跨 3 域）
-  - ✅ yt-concept-peas-insight（master — Berlin+Klein 已有，补跨域引用）
-  - 待续：~10 张 concept 卡（KF-022 每会话 ≤5）
-  - 全部 20 张通过 `kdo lint --baseline HEAD`
+- **Batch C**（~30 concept 卡）→ **25/30 v1.5 升级完成**
+  - (前 20 张：yt-concept ×4 + yt-management ×16)
+  - ✅ yt-personal-pan-product-concepts（yitang/personal — Epstein+Drucker, 跨 3 域）
+  - ✅ yt-personal-pan-product-aesthetics（yitang/personal — Norman+Bourdieu, 跨 3 域）
+  - ✅ yt-personal-pan-product-exploration（yitang/personal — Dewey+Lave&Wenger, 跨 3 域）
+  - ✅ yt-personal-pan-product-practice（yitang/personal — Christensen+Mintzberg, 跨 3 域）
+  - ✅ yt-personal-pan-product-tools（yitang/personal — Suchman+Schön, 跨 3 域）
+  - 待续：~5 张 concept 卡（KF-022 每会话 ≤5）
+  - 全部 25 张通过 `kdo lint --baseline HEAD`
+  - ⚠️ 黄药师角色重对齐 → 不接量产。剩余 5 张转交老顽童或暂停
 - **老顽童后续** → 已分配：[[70_product/tasks/laowantong-next-tasks.md]]（①补related边 ②双三角文章v2 ③提案新域）
 
 ### 科学决策域（老顽童）→ ✅ 已完成
