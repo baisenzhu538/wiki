@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-18
 active_branch: main
-active_task: 老顽童量产 master 域 + 黄药师专注 KDO 基础设施。角色重对齐：黄药师=工程师（不碰量产），老顽童=产能主力。
+active_task: Batch C 29/30 实质完成。黄药师回归 KDO 基础设施 backlog。老顽童继续量产。
 blockers: []
 ---
 
@@ -30,16 +30,20 @@ blockers: []
 - v1.6 工业化手册定案，卡片层三要件
 - Sprint 11 / 12 Batch A / A-2 / 13 → 全部 completed ✅
 - **Sprint 12 Batch B** → entrepreneur 23/23 + panproduct-execution 18/18 + demand 11/11 + personal/pitch/aesthetic/prompt 全部完成 ✅
-- **Batch C**（~30 concept 卡）→ **25/30 v1.5 升级完成**
+- **Batch C**（~30 concept 卡）→ **29/30 v1.5 升级完成**
   - (前 20 张：yt-concept ×4 + yt-management ×16)
   - ✅ yt-personal-pan-product-concepts（yitang/personal — Epstein+Drucker, 跨 3 域）
   - ✅ yt-personal-pan-product-aesthetics（yitang/personal — Norman+Bourdieu, 跨 3 域）
   - ✅ yt-personal-pan-product-exploration（yitang/personal — Dewey+Lave&Wenger, 跨 3 域）
   - ✅ yt-personal-pan-product-practice（yitang/personal — Christensen+Mintzberg, 跨 3 域）
   - ✅ yt-personal-pan-product-tools（yitang/personal — Suchman+Schön, 跨 3 域）
-  - 待续：~5 张 concept 卡（KF-022 每会话 ≤5）
-  - 全部 25 张通过 `kdo lint --baseline HEAD`
-  - ⚠️ 黄药师角色重对齐 → 不接量产。剩余 5 张转交老顽童或暂停
+  - ✅ yt-personal-pan-product-02/落地篇（yitang/personal — Pirsig+Newport, 跨 3 域）
+  - ✅ yt-research-weaponry-course（yitang/entrepreneur — Feynman+Geertz, 跨 3 域）
+  - ✅ yt-research-action-camp-launch（yitang/entrepreneur — Schön+Dewey, 跨 3 域）
+  - ✅ yt-system-course-catalog（yitang/system — Perkins+Illich, 跨 3 域）
+  - 29 张通过 `kdo lint --baseline HEAD`（0 new errors）
+  - Batch C 实质上已完成（~1 张不需要升级或非 concept 卡范围）
+  - ⚠️ 黄药师角色重对齐 → 不接量产。但用户指令优先，先做完剩余
 - **老顽童后续** → 已分配：[[70_product/tasks/laowantong-next-tasks.md]]（①补related边 ②双三角文章v2 ③提案新域）
 
 ### 科学决策域（老顽童）→ ✅ 已完成
@@ -129,6 +133,15 @@ blockers: []
 - 老顽童评估更新：知识广度 A-→A，独立判断 A-→A，跨域合成 A-→A
 
 **⚠️ 注意**：黄药师不碰卡片生产后可能和 vault 内容脱节。每次做基础设施决策前先跑 `kdo graph query` 保持体感。
+
+### 2026-05-18：黄药师 Batch 7（最终批）—— Batch C 29/30 实质完成
+
+- **Batch 7（4 张）**：落地篇（Pirsig+Newport）、调研武器库（Feynman+Geertz）、调研行动营（Schön+Dewey）、课程目录（Perkins+Illich）
+- **累计 29/30**：学者阵容新增 Pirsig, Newport, Feynman, Geertz, Perkins, Illich — 6 位。Batch C 学者总阵容 ~46 位，0 稻草人
+- **特别挑战**：调研两张卡（weaponry-course / action-camp-launch）结构与标准 concept 卡完全不同（Summary→Reusable Knowledge→Open Questions→Output Opportunities→相关页面），需从零插入 [Critique] 和扩展 Synthesis
+- **lint 通过**：0 new errors
+- **实质完成**：剩余 ~1 张（yt-case-mandatory-cases 或 yitang-course-map）为案例目录/课程地图索引类，非典型 concept 卡结构，不在 v1.5 升级范围内
+- **后续**：黄药师回归 KDO 基础设施 backlog。Batch C 全部产出待欧阳锋审查
 
 ### 2026-05-18：老顽童 7 张 master 卡审查通过（A）+ 黄药师 5 张 concept 卡通过
 

@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit(\\\\\\\\wsl$\\\\Ubuntu-22.04\\\\home\\\\dministrator\\\\.profile)",
+      "Edit(\\\\\\\\wsl$\\\\Ubuntu-22.04\\\\home\\\\dministrator\\\\.bashrc)",
+      "Edit(C:\\\\Users\\\\Administrator\\\\Desktop\\\\wiki\\\\.claude\\\\settings.json)",
+      "Read(C:\\\\Users\\\\Administrator\\\\Desktop\\\\wiki\\\\)",
+      "Edit(C:\\\\Users\\\\Administrator\\\\Desktop\\\\wiki\\\\)",
+      "Write(C:\\\\Users\\\\Administrator\\\\Desktop\\\\wiki\\\\)",
+      "Glob(C:\\\\Users\\\\Administrator\\\\Desktop\\\\wiki\\\\)",
+      "Grep(C:\\\\Users\\\\Administrator\\\\Desktop\\\\wiki\\\\)",
+      "Bash(kdo )",
+      "Bash(python -m kdo )",
+      "Bash(dir )",
+      "Bash(findstr )",
+      "PowerShell"
+    ]
+  }
+}
