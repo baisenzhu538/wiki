@@ -1,4 +1,4 @@
-# ../Design/Prompts/Ai Image Generation
+# Design / Ai Image Generation
 
 > 拆分自 `00_inbox/prompt-best-practices-collection.md`
 > 条目数：1
@@ -11,5 +11,3 @@
 https://youmind.com/zh-CN/nano-banana-pro-prompts
 
 ---
-
-
