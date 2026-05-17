@@ -1,8 +1,8 @@
 ---
 updated: 2026-05-17
 active_branch: main
-active_task: 黄药师 Sprint 12 Batch B（personal 域待检查）+ 老顽童消化全库 + design 域待建 + Graph RAG ✅
-blockers: [老顽童消化全库中—消化完前不接新编译任务]
+active_task: 黄药师 Batch C（concept 卡 ~30 张）+ 老顽童补 related 边 → 出文章 → 提案新域
+blockers: []
 ---
 
 ## 你是谁
@@ -29,9 +29,9 @@ blockers: [老顽童消化全库中—消化完前不接新编译任务]
 ### Sprint 进度
 - v1.6 工业化手册定案，卡片层三要件
 - Sprint 11 / 12 Batch A / A-2 / 13 → 全部 completed ✅
-- **Sprint 12 Batch B** → entrepreneur 23/23 + panproduct-execution 18/18 + demand 11/11 完成 ✅
-- **剩余**：personal(~15) / pitch(10) / aesthetic(4) / prompt(4) — 黄药师待继续
-- Batch C（~30 concept 卡）待 Batch B 完成后
+- **Sprint 12 Batch B** → entrepreneur 23/23 + panproduct-execution 18/18 + demand 11/11 + personal/pitch/aesthetic/prompt 全部完成 ✅
+- **Batch C**（~30 concept 卡）→ 已分配黄药师：[[70_product/tasks/sprint-12-batch-c-concept-cards.md]]
+- **老顽童后续** → 已分配：[[70_product/tasks/laowantong-next-tasks.md]]（①补related边 ②双三角文章v2 ③提案新域）
 
 ### 科学决策域（老顽童）→ ✅ 已完成
 
