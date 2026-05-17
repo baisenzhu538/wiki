@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-17
 active_branch: main
-active_task: 黄药师 Batch C（concept 卡 ~30 张 + pytest + 坚果云备份）+ 老顽童补 related 边 → 出文章 → 提案新域
+active_task: 黄药师 Batch C（concept 卡：5/30 v1.5 升级完成 + pytest ✅ + 坚果云备份 ✅）+ 老顽童补 related 边 → 出文章 → 提案新域
 blockers: []
 ---
 
@@ -30,7 +30,14 @@ blockers: []
 - v1.6 工业化手册定案，卡片层三要件
 - Sprint 11 / 12 Batch A / A-2 / 13 → 全部 completed ✅
 - **Sprint 12 Batch B** → entrepreneur 23/23 + panproduct-execution 18/18 + demand 11/11 + personal/pitch/aesthetic/prompt 全部完成 ✅
-- **Batch C**（~30 concept 卡）→ 已分配黄药师：[[70_product/tasks/sprint-12-batch-c-concept-cards.md]]
+- **Batch C**（~30 concept 卡）→ **5/30 v1.5 升级完成**
+  - ✅ yt-concept-weapon-arsenal（master — Dreyfus+Polanyi, 跨 3 域）
+  - ✅ yt-concept-ai-guard-brain（yitang+ai — Carr+Stiegler, 跨 4 域）
+  - ✅ yt-concept-context-engineering（yitang+ai — Simon+Shannon/Weaver+Scott, 跨 4 域）
+  - ✅ yt-management-scientific-decision（yitang — Klein+Taleb, 跨 3 域）
+  - ✅ yt-management-basic-skills（yitang — Mintzberg+Argyris, 跨 3 域）
+  - 待续：~25 张 concept 卡（KF-022 每会话 ≤5）
+  - 全部 5 张通过 `kdo lint --baseline HEAD`
 - **老顽童后续** → 已分配：[[70_product/tasks/laowantong-next-tasks.md]]（①补related边 ②双三角文章v2 ③提案新域）
 
 ### 科学决策域（老顽童）→ ✅ 已完成
@@ -72,8 +79,8 @@ blockers: []
   - Embedding: sklearn HashingVectorizer（char n-gram 2-4，纯 Python，零外部 API 调用）
   - LLM: 查询时不调用（keywords 已预填）；只在 `kdo enrich --llm` 时走 DeepSeek API
   - 索引持久化在 `.kdo/graph_index/`，纯本地，无 daemon，无外部依赖
-- pytest 仍未安装
-- 备份：KDO 源码放坚果云（单机灾备，非 git）— 待执行
+- **pytest ✅**：182/182 passing。修复 7 个测试（smoke test / security ship tests + --skip-validation / improve_apply 加 feedback / validation `or` pattern 空 list bug）
+- **备份 ✅**：KDO 源码 zip（删 .git/__pycache__/build）→ `C:\Users\Administrator\Nutstore\1\我的坚果云\kdo-source-backup-20260517.zip`（272.6 KB）
 
 ## 新增工具
 
