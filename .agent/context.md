@@ -44,7 +44,7 @@ blockers: []
   - 29 张通过 `kdo lint --baseline HEAD`（0 new errors）
   - Batch C 实质上已完成（~1 张不需要升级或非 concept 卡范围）
   - ⚠️ 黄药师角色重对齐 → 不接量产。但用户指令优先，先做完剩余
-- **老顽童后续** → 已分配：[[70_product/tasks/laowantong-next-tasks.md]]（①补related边 ②双三角文章v2 ✅ ③提案新域）
+- **老顽童后续** → 已分配：[[70_product/tasks/laowantong-next-tasks.md]]（①补related边 ②双三角文章v2 ⚠️返工——老顽童自认按模板输出未真正消化 ③提案新域）
 
 ### 科学决策域（老顽童）→ ✅ 已完成
 
