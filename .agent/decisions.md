@@ -230,3 +230,21 @@
 - 182 测试全绿
 - 新增卡片会自动被 index 完整性检查发现（"Wiki page not listed" warning），提醒更新 index
 - 未来质量门自动化可以将"新增 card 是否已加入 index"作为检查项
+
+---
+
+## 2026-05-18：Agent 入职步骤缩减——消化 Core 替代消化全库
+
+**背景**：CLAUDE.md 原 Step 1 要求 agent 入职时消化全部 198 张卡（~1M tokens），token 成本极高。分层索引建立后，Core 层 55 张卡已是"建立心智模型的最小集"。加上 Graph RAG 可按需精准拉取，入职不必读完 198 张。
+
+**决策**：
+- CLAUDE.md Step 1 从"消化全库 198 张"改为"消化 Core 55 张 + 日常用 `kdo query` 按需拉取 Extended 层"
+- 新增按域摘要卡任务（[[70_product/tasks/domain-digest-cards.md]]）→ P3，黄药师 P2 完成后执行
+- 10 张 digest 卡，每域一张 ~100 行摘要，预计省 65% 入职 token、96% 域切换 token
+
+**原因**：Core 层有骨架（framework + master + 桥梁），Graph RAG 能精准投喂血肉，两者配合比逐张翻全库高效得多。digest 卡是进一步优化——agent 切域时读 1 张 3K token 的摘要而非翻 20 张 100K+ token 的 tool 卡。
+
+**后果**：
+- 新 agent 入职 token 成本从 ~1M → ~350K（省 65%）
+- 黄药师 P2 完成后有 10 张 digest 卡待写
+- 老顽童调研域编译时可顺手出 digest-research.md 作为示范

@@ -27,13 +27,16 @@
 | `20_memory/corrections.md` | 走过的弯路，不要重蹈覆辙 |
 | `20_memory/operating-principles.md` | 知识库运作原则 |
 
-**Step 1 完成后，必须消化知识库全部已有内容**。不是只读规则、不是只读讲香方法论——是把 `30_wiki/concepts/` 下每一张卡读完、理解、内化。肚子里有货，写出来的卡才有魂。工业化标准保底，知识广度保深度。
+**Step 1 完成后，消化 Core 层卡片建立知识骨架**。不是只读规则、不是只读讲香方法论——是把 `30_wiki/index.md` Core 层的 55 张卡读完、理解、内化。Core 层是"如果只读 55 张就够建立心智模型"的最小集：全部 framework + 主域方法论 + 跨域桥梁 + 系统/目录。
+
+日常任务中，**不要逐张翻 Extended 层的 143 张 tool 卡**。用 `kdo query "<问题>"` 做语义+图检索，按需拉取命中的 2-5 张卡精读。肚子里有 Core 的骨架 + Graph RAG 精准投喂血肉 = 省 80% token 不丢上下文。
 
 | 消化顺序 | 内容 | 为什么 |
 |------|------|------|
-| `30_wiki/concepts/yt-model-*.md` | 全部 framework 卡（~10 张） | 先建立骨架——理解每个域的底层理论 |
-| `30_wiki/concepts/yt-*.md` | 全部 tool 卡（~130 张） | 再填充血肉——理解每个工具怎么落地、怎么互相引用 |
-| `30_wiki/concepts/yt-concept-*.md` | 全部 concept 卡 | 最后理解跨域元概念——武器库、IPO 等 |
+| `30_wiki/index.md` → Core 层 framework | 全部 framework 卡（39 张） | 先建立骨架——理解每个域的底层理论 |
+| `30_wiki/index.md` → Core 层 master + 桥梁 | master 方法论 + 跨域桥梁概念（13 张） | 理解通用方法论和枢纽概念 |
+| `30_wiki/index.md` → Core 层系统/目录 | 系统与目录卡（3 张） | 理解课程体系和案例结构 |
+| 日常：`kdo query "..."` | 按任务关键词检索 | 精准拉取相关 Extended 层卡，不逐张翻 |
 
 遇到不理解的卡，追溯它的 `source_refs` 读原始素材。不求速成，求真懂。
 
