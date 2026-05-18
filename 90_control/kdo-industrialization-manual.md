@@ -716,6 +716,162 @@ def parse_frontmatter(text: str) -> tuple[dict[str, Any], str]:
 | — | **Agent 原生设计** | KDO 独有：卡片是知识图谱节点，结构化 frontmatter + Claims + 图边 |
 | — | **Visual Analysis 方法论** | KDO 独有：知识地图五维视觉结构分析 |
 
+## §1.10 四种卡片结构与 v1.5 升级路径（v1.7 新增）
+
+Batch C（29 张卡片 v1.5 回溯升级）暴露了知识库中存在至少 4 种卡片结构。不同结构的 [Critique] 插入位置不同，强制统一会破坏原有组织逻辑。
+
+### 四种结构类型
+
+| 结构类型 | 识别特征 | 典型卡片 | 占比 |
+|---------|---------|---------|------|
+| **标准 concept** | Summary → Claims → Constraints → [Critique] → Synthesis | `yt-management-*` | ~95%（128/135） |
+| **Pan-product concept** | Summary → Claims → **Constraints & Boundaries** → Framework Gallery → Synthesis（无独立 Critique 节） | `yt-personal-pan-product-*` | ~4%（5/135） |
+| **Research concept** | Summary → Reusable Knowledge → Open Questions → Output Opportunities → 相关页面（无 Constraints/Critique/Synthesis） | `yt-research-*-course`, `yt-research-*-launch` | ~1%（2/135） |
+| **Catalog index** | Summary → 内容表格区 → [Synthesis]（Heading 数 ≤3） | `yt-system-course-catalog` | <1%（1/135） |
+
+可用 `kdo lint --structure-report` 查看当前结构分布。
+
+### 各结构的 v1.5 升级模式
+
+**标准 concept**（已有 Constraints 和 Critique 节）：
+- [Critique] 节已存在 → 追加**外部攻击者子节**（以"*领域 方法论学者 反方法化学者*"为引证格式）
+- [Synthesis] 节已存在 → 在节内追加**不要用的场景表格**和**Action Triggers 节**
+
+**Pan-product concept**（有 `Constraints & Boundaries`，无独立 Critique）：
+- 在 `Framework Gallery` 之后、`Synthesis` 之前插入完整的 `### [Critique]` 节
+- 外观与标准 concept 的 [Critique] 相同（外部攻击 ≥2 + 反事实测试）
+- 随后在 `Synthesis` 中追加不要用的场景表和 Action Triggers
+- 不要重命名 `Constraints & Boundaries` 为 `Constraints`——这是 pan-product 结构的设计意图
+
+**Research concept**（无 Constraints/Critique/Synthesis）：
+- 在 `Output Opportunities` 之后、`相关页面` 之前插入 `### [Critique]` 节
+- 将已有 `### [Synthesis] 对标` 子节提升为完整节（`### [Synthesis]`）并扩展：加入不要用场景 + Action Triggers
+- 保留 `Reusable Knowledge` 和 `Open Questions` 节——这是 research 卡的独有模式
+
+**Catalog index**（极长表格 + 少量节）：
+- 在表格区之后、已有 [Synthesis] 之前插入 `### [Critique]` 节
+- 仅对索引的组织逻辑做外部攻击（如：分类粒度、覆盖盲区），不攻击被索引的内容本身
+
+### 升级前必检清单
+
+1. `kdo cards --type concept --domain <domain> --count` 或 `--missing` 定位待升级卡片
+2. `kdo lint --structure-report` 确认卡片结构类型
+3. 读卡全文确认结构类型，再决定 [Critique] 插入位置
+4. 升级完成后 `kdo lint --baseline HEAD` 确认无新增问题
+
+---
+
+## §1.11 跨域引用桥接策略（v1.7 新增）
+
+v1.5 要求每张卡 ≥3 个跨域引用。实际执行中发现每个域的知识图谱密度不均——master 域最密集，personal/healthcare 域较稀疏——盲目跨域引用容易产生弱关联。
+
+### 通用桥接卡
+
+两张卡片作为跨域引用的通用锚点：
+
+| 桥接卡 | 作用 | 使用方式 |
+|--------|------|---------|
+| `yt-concept-weapon-arsenal`（master） | 52 个工具的索引型总目录，覆盖所有域 | 引用时写明"从武器库中选取 X 和 Y 工具" |
+| `yt-model-personal-pitch-toolkit`（personal） | 个人推销工具箱，与 master 域结构同构 | 引用时说明 master 方法论的 personal 投射 |
+
+### 桥接引用写法
+
+有效的跨域引用必须满足两个条件：（1）被引用的卡确实存在（2）引用有具体的映射关系。
+
+**好例子**（具体映射）：
+> `[[yt-model-personal-pitch-toolkit]]` 将 `[[yt-concept-weapon-arsenal]]` 中的"问题解构"和"故事框架"工具映射到个人推销场景——这是从通用方法论到场景化落地的跨域转译。
+
+**坏例子**（弱关联）：
+> 参见 `[[yt-some-random-card]]`。
+
+### 质量信号
+
+- 跨域引用出现在 [Synthesis] 或 Action Triggers 中（不是在 Claims 中）
+- 引用伴随具体的映射关系描述（"X 工具在 Y 域体现为 Z"）
+- 被引用卡确实在不同域（检查 frontmatter `domain:` 标签）
+
+---
+
+## §1.12 新工具用法（v1.7 新增）
+
+### kdo cards 批量升级选卡
+
+```bash
+# 查看某域所有 concept 卡数量（用于批量升级前盘点）
+kdo cards --type concept --domain yitang --count
+
+# 筛选缺少 id 的卡（定位未升级卡）
+kdo cards --type concept --domain yitang --missing id
+
+# 筛选缺少 estimated_tokens 的卡（定位需补体量标注的卡）
+kdo cards --type concept --domain master --missing estimated_tokens
+```
+
+典型工作流：`--missing id` → 确认待升级列表 → 按 KF-022（≤5/会话）分批执行 → 每批后跑 lint。
+
+### kdo lint --accept-baseline
+
+将当前所有 lint warning 和 error 存入 `.kdo/baseline.json`，后续 `kdo lint`（无参数）只显示新增问题。
+
+```bash
+kdo lint --accept-baseline   # 接受当前状态为基线
+kdo lint                      # 之后只显示新增问题
+kdo lint --baseline HEAD~1    # 审查时确认本分支无新增问题（行为不变）
+```
+
+使用时机：大量存量卡有已知 issue（如旧格式 frontmatter），Accept 后消除 alert fatigue，专注新增问题。
+
+### kdo lint --structure-report
+
+统计全库卡片结构分布，输出每种结构的卡片数和典型样例。
+
+```bash
+kdo lint --structure-report    # 输出结构聚类 → 类型 → 计数 → 样例
+```
+
+使用时机：批量升级前了解待升级卡的结构分布，设计分批策略。
+
+### kdo graph rebuild
+
+内容变更后重建 Graph RAG 索引，新写入卡片才可被 `kdo query` 检索。
+
+```bash
+kdo graph rebuild    # 重建全文 + 图索引
+kdo graph query "学者名"    # 冒烟验证新内容可见
+```
+
+---
+
+## §1.13 KF-022 / KF-024 执行感受（v1.7 新增）
+
+Batch C（29 张卡 v1.5 升级）中严格按 KF-022（≤5 张/会话）和 KF-024（estimated_tokens ≤3500）执行的实际观察：
+
+### KF-022：≤5 卡片/会话
+
+**正面效应**：
+- 每轮 3-5 张卡保持注意力集中，[Critique] 外部攻击质量稳定——不会出现"第 7 张卡后攻击力度下降"的现象
+- 每轮结束后跑 lint + 审查抽检，问题在当轮解决，不累积
+
+**负面效应**：
+- 29 张卡分 6 轮执行（5+5+5+5+4+5），每轮需要重新读取上下文（规则文件 + 桥接卡 + 最新版工业化手册），overhead 显著
+- 连续多轮升级同类卡片时，attack pattern（如引用同一学者对不同卡做攻击）会出现复用——需要刻意轮换攻击者以避免同质化
+
+**建议**：≤5 保持不变作为硬上限。如果连续多轮升级同类卡，每 2 轮更换一组外部攻击者的领域（如：教育 → 哲学 → 人类学）。
+
+### KF-024：estimated_tokens ≤3500
+
+**正面效应**：
+- 3/29 张卡超限（3400-3500 tokens），均在结构复杂的卡片上（catalog index 244 行、research 卡含长输出列表）
+- ≤3500 的卡片 Critique 更聚焦——因为空间有限，只能选最强的 2 个攻击角度
+
+**负面效应**：
+- 超长卡（>300 lines source markdown）的 estimated_tokens 被 H2 节数放大而不是实际内容密度。如 catalog index 卡 244 行主要是表格（内容密度低），estimated_tokens 却 ~3200
+- 精确遵守 ≤3500 时，某些 dense 内容（如工具卡片引用 6+ 相关工具）的 Synthesis 被压缩过头
+
+**建议**：KF-024 保持 ≤3500 作为基准。如果卡片内容密度低但行数多（大量表格/列表），允许 ≤4000 并标注原因。如果 estimated_tokens 接近 3500 且所有内容必须保留，优先压缩 Claims 节的冗余措辞，不加新内容。
+
+---
+
 ## 附录 D：版本历史
 
 | 日期 | 版本 | 变更 | 作者 |
@@ -727,6 +883,7 @@ def parse_frontmatter(text: str) -> tuple[dict[str, Any], str]:
 | 2026-05-15 | 1.4 | **行为转化层 + EVIDENCE 审计**——对标 AI 思维卡「认知升级系统 v3.2」方法论：新增 §1.6 知识生产目标=行为改变、ACTION 锚点写入 P0 门禁（KF-023）、EVIDENCE 审计标准（偏差标注+外部攻击+反事实）、Burn line、F-KDO-016 | 欧阳锋 |
 | 2026-05-15 | 1.5 | **卡片层行为转化三要件**——黄药师 AI 思维卡分析建议经欧阳锋裁决采纳：新增 §1.7（Critique 外部攻击子节 + Synthesis 不要用场景表 + Action Triggers 节），适用方法/工具/框架卡。新增 KF-024 铁律。更新 L2 门禁规则。概念卡和索引卡豁免 | 欧阳锋 |
 | 2026-05-16 | 1.6 | **三要件执行质量标准 + 回溯升级节奏**——Sprint 12 Batch A（25 张 framework 卡）审查后迭代：§1.7 要件 1 补充外部攻击引证启发法（按领域→反方法化学者映射表）；要件 2 补充不要用场景质量三信号（场景具体性/失效因果/替代指名）；要件 3 补充成功指标三种可验证模式（数量型/时间型/频率型）和 5 分钟可启动测试；新增 §1.9 批量回溯升级执行节奏（≤5 张/轮 + lint + 审查抽检 20%） | 欧阳锋 |
+| 2026-05-18 | 1.7 | **Batch C 执行经验迭代**——29 张 card v1.5 回溯升级完成后沉淀：新增 §1.10 四种卡片结构与 v1.5 升级路径（标准/pan-product/research/catalog）；新增 §1.11 跨域引用桥接策略（通用桥接卡 + 质量信号）；新增 §1.12 新工具用法（`kdo cards --missing`、`kdo lint --accept-baseline`、`kdo lint --structure-report`、`kdo graph rebuild`）；新增 §1.13 KF-022/KF-024 执行感受与实际建议 | 黄药师 |
 
 ---
 
