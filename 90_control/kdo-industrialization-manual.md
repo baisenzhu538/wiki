@@ -2,9 +2,9 @@
 title: "内容工厂的工业化手册"
 type: "control"
 status: "stable"
-version: "1.6"
+version: "1.7"
 created_at: "2026-05-09"
-updated_at: "2026-05-16"
+updated_at: "2026-05-18"
 author: "欧阳锋"
 source: "EC工业化规范手册 v2.8.0 → KDO 领域迁移 + Sprint 1-3 实践经验"
 supersedes: ["kdo-industrialization-manual-v1.0"]
