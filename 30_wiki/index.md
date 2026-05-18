@@ -294,12 +294,14 @@ tier: layered
 | [[yt-prompt-writing-workflow]] | tool | AI 写作工作流：大纲→要点→全文 |
 | [[yt-prompt-engineering-andrew-ng]] | course_notes | 吴恩达提示词课程·一堂拆书精华 |
 
-### 调研（Research）— 2 张
+### 调研（Research）— 4 张
 
-> 1 张 framework 在 Core，此为辅助资料。
+> 1 张 framework（OSL 五步法）在 Core，此为此域全部卡片。
 
 | 卡片 | 类型 | 一句话 |
 |------|------|--------|
+| [[yt-research-intelligence-map]] | framework | 情报获取全景地图：13+渠道穷尽手段 |
+| [[yt-research-competitor-toolkit]] | tool | 竞品拆解工具包：三层分类+内核边界+单元模型对标 |
 | [[yt-research-action-camp-launch]] | concept | 调研行动营启动课 |
 | [[yt-research-weaponry-course]] | concept | 调研武器库课程 |
 
