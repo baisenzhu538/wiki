@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-18
 active_branch: main
-active_task: 老顽童调研域编译 + 黄药师基础设施 backlog（P0 Graph RAG 重建 → P1-A lint baseline → P1-B 结构报告）
+active_task: 老顽童调研域编译中。黄药师 KDO 基础设施 backlog P0+P1-A+P1-B 全部完成。等待欧阳锋决定是否继续 P2。
 blockers: []
 ---
 
@@ -98,16 +98,17 @@ blockers: []
 - 42 .py 文件，11,635 行，11 测试文件
 - `kdo cards/lint/card-diff/review` 正常
 - **Graph RAG ✅ — `kdo query` 默认引擎**：
-  - `kdo query "..."` 现在默认走 LightRAG 语义+图检索（不再是关键词 grep）
+  - `kdo query "..."` 默认走 LightRAG 语义+图检索
   - 回退链：Graph RAG → BM25 SearchIndex → 关键词 grep
-  - `kdo graph rebuild` 增量重建索引（内容变更后运行）
+  - `kdo graph rebuild` 增量重建索引
   - `kdo graph query "..."` 保留为调试/脚本用（支持 `--json`）
-  - 219 entities, 626 chunks, 920 relations, 396 nodes, 1188 edges
-  - Embedding: sklearn HashingVectorizer（char n-gram 2-4，纯 Python，零外部 API 调用）
-  - LLM: 查询时不调用（keywords 已预填）；只在 `kdo enrich --llm` 时走 DeepSeek API
-  - 索引持久化在 `.kdo/graph_index/`，纯本地，无 daemon，无外部依赖
-- **pytest ✅**：182/182 passing。修复 7 个测试（smoke test / security ship tests + --skip-validation / improve_apply 加 feedback / validation `or` pattern 空 list bug）
-- **备份 ✅**：KDO 源码 zip（删 .git/__pycache__/build）→ `C:\Users\Administrator\Nutstore\1\我的坚果云\kdo-source-backup-20260517.zip`（272.6 KB）
+  - **索引已重建（2026-05-18）**：226 entities, 721 chunks, 1252 relations, 406 nodes, 1252 edges（含 Batch C 29 张新卡）
+  - 冒烟验证通过：Pirsig/Geertz/Illich 等新学者均可检索
+  - Embedding: sklearn HashingVectorizer（char n-gram 2-4，零外部 API）
+- **pytest ✅**：182/182 passing
+- **备份 ✅**：`C:\Users\Administrator\Nutstore\1\我的坚果云\kdo-source-backup-20260517.zip`（272.6 KB）
+- **lint baseline ✅**：`kdo lint --accept-baseline` 已执行（635 issues），默认 `kdo lint` 输出 "0 new (635 accepted)"
+- **structure report ✅**：`kdo lint --structure-report` 可用，197 卡分 6 类
 
 ## 新增工具
 
@@ -120,6 +121,8 @@ blockers: []
 | `kdo cards --count` | 只出数量 |
 | `kdo card-diff <id> --since <ref>` | 节级别变更摘要（新增/删除/修改） |
 | `kdo review --sample 5 --domain yitang` | 随机抽检卡片，输出理解门禁摘要 |
+| `kdo lint --accept-baseline` | 将当前 warning 快照存入 baseline.json，后续 lint 只显示新增 |
+| `kdo lint --structure-report` | 全库卡片按 H2 结构聚类，输出类型分布摘要 |
 
 ## 最近决策
 
@@ -158,6 +161,15 @@ blockers: []
 - 老顽童评估更新：知识广度 A-→A，独立判断 A-→A，跨域合成 A-→A
 
 **⚠️ 注意**：黄药师不碰卡片生产后可能和 vault 内容脱节。每次做基础设施决策前先跑 `kdo graph query` 保持体感。
+
+### 2026-05-18：黄药师 KDO 基础设施 backlog P0+P1-A+P1-B 全部完成 ✅
+
+- **P0 Graph RAG 重建**：索引 396→406 nodes, 1188→1252 edges, 616→721 chunks。Pirsig/Geertz/Illich 冒烟验证通过
+- **P1-A `kdo lint --accept-baseline`**：635 issues accepted。默认 `kdo lint` 输出 "0 new (635 accepted)"。`--baseline <ref>` 行为不变
+- **P1-B `kdo lint --structure-report`**：197 卡分为 6 类 — pan-product (82, 42%), other (52, 26%), standard-concept (31, 16%), research (15, 8%), pan-product-upgraded (14, 7%), catalog-index (3, 2%)
+- pytest: 182/182 全绿，无回归
+- 代码量：+87 行（cli.py +3, system.py +84）
+- 等待欧阳锋决定：P2（工业化手册 v1.7 / `kdo backup`）还是质量门自动化（`kdo validate --v15`）
 
 ### 2026-05-18：黄药师 Batch 7（最终批）—— Batch C 29/30 实质完成
 
