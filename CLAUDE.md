@@ -234,7 +234,9 @@
 | `kdo task <title> [--project-id] [--priority] [--done]` | 产品任务管理 |
 | `kdo connector <name> [--kind] [--target] [--run]` | 外部连接器管理 |
 | `kdo dashboard [--output] [--view] [--serve]` | 生成静态 HTML dashboard |
-| `kdo lint [--strict]` | 检查工作空间结构完整性 |
+| `kdo lint [--strict] [--baseline <ref>] [--diff] [--accept-baseline] [--structure-report]` | 检查工作空间结构完整性 |
+| `kdo backup [--output <dir>]` | 备份 KDO 源码到 zip（去 .git/__pycache__/build） |
+| `kdo cards [--type] [--domain] [--has] [--missing] [--count]` | 按条件列出/统计概念卡片 |
 | `kdo status` | 显示工作空间库存盘点 |
 
 ## 内置能力 (Built-in Skills)

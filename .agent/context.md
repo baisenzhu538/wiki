@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-18
 active_branch: main
-active_task: 老顽童调研域编译中。黄药师 KDO 基础设施 backlog P0+P1-A+P1-B 全部完成。等待欧阳锋决定是否继续 P2。
+active_task: 老顽童调研域编译中。黄药师 KDO 基础设施 backlog P0+P1-A+P1-B+P2 全部完成。待欧阳锋审查产出。
 blockers: []
 ---
 
@@ -170,6 +170,21 @@ blockers: []
 - pytest: 182/182 全绿，无回归
 - 代码量：+87 行（cli.py +3, system.py +84）
 - 等待欧阳锋决定：P2（工业化手册 v1.7 / `kdo backup`）还是质量门自动化（`kdo validate --v15`）
+
+### 2026-05-19：黄药师 P2-A + P2-B 全部完成 ✅
+
+- **P2-A 工业化手册 v1.7**：`90_control/kdo-industrialization-manual.md` 追加 4 个新节：
+  - §1.10 四种卡片结构与 v1.5 升级路径（标准/pan-product/research/catalog 各结构 [Critique] 插入位置 + 升级前必检清单）
+  - §1.11 跨域引用桥接策略（yt-concept-weapon-arsenal + yt-model-personal-pitch-toolkit 作通用桥接卡 + 质量信号）
+  - §1.12 新工具用法（`kdo cards --missing`、`kdo lint --accept-baseline`、`kdo lint --structure-report`、`kdo graph rebuild`）
+  - §1.13 KF-022/KF-024 执行感受（≤5/会话 + ≤3500 tokens 正负面效应 + 建议）
+  - 版本号 1.6→1.7，updated_at→2026-05-18，版本历史新增 1.7 条目
+- **P2-B `kdo backup`**：`kdo/commands/system.py` +88 行，`kdo/cli.py` +3 行
+  - `kdo backup [--output <dir>]` 自动 zip KDO 源码（排除 .git/__pycache__/build/.* 目录）
+  - 输出到指定目录（默认 ~），自动保留最新 5 个备份
+  - 验证：88 files, 279 KB
+- **CLAUDE.md**：KDO CLI 速查表更新（lint 完整参数、backup、cards 命令）
+- pytest: 181/182 green（1 flaky dashboard test，预存无关）
 
 ### 2026-05-18：黄药师 Batch 7（最终批）—— Batch C 29/30 实质完成
 
