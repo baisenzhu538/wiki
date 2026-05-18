@@ -135,7 +135,31 @@ yt-model-truman-five-step-growth
 **验收标准**：
 - [x] 85 张 tool 卡全部含三个新节（同 Batch A 标准）
 - [x] `kdo lint` → 0 errors
-- [ ] 欧阳锋每域抽检 2 张（共 14 张，~16%），理解门禁通过
+- [x] 欧阳锋每域抽检 2 张（共 14 张，~16%），理解门禁通过
+
+### 欧阳锋抽检：Batch B ✅ (2026-05-18)
+
+**审查方式**：每域抽检 2 张（14/85=16.5%），三信号检查。
+
+| 域 | 卡片 1 | 卡片 2 | 外部攻击 | 不要用场景 | Action Triggers | 评级 |
+|---|--------|--------|:---:|:---:|:---:|:---:|
+| entrepreneur | key-hypotheses | spin-selling | ✅ Taleb+Snowden / Dixon&Adamson+Pink | ✅ 3行/3行 | ✅ 4/4 | A / A |
+| panproduct-execution | core-and-boundary | risk-management | ✅ Brand+Shirky / Taleb+Vaughan | ✅ 2行/2行 | ✅ 3/3 | A- / A |
+| panproduct-demand | need-discovery | peak-end-rule | ✅ Christensen+Van Praet / Kahneman+Bloom | ✅ 2行/2行 | ✅ 3/3 | A / A+ |
+| personal | deep-review | time-management | ✅ Ericsson+Dweck / Burkeman+Newport | ✅ 2行/2行 | ✅ 3/3 | A / A+ |
+| pitch | conflict | sublimation | ✅ Berlin+Haidt / Williams+Frankl | ✅ 2行/2行 | ✅ 3/3 | A+ / A |
+| aesthetic | collection | imagination | ✅ Petroski+Lupton / Verganti+Christensen | ✅ 2行/2行 | ✅ 3/3 | A / A |
+| prompt | anti-flattery | writing-workflow | ✅ Bender+Narayanan / Warner+Baron | ✅ 2行/2行 | ✅ 3/3 | A+ / A |
+
+**总评**：14/14 全部通过。外部攻击 28 位学者均为真实学者/从业者，0 straw man。不要用场景全部含失效机制+替代方案。Action Triggers 全部含可验证成功指标。
+
+**特别亮眼的攻击者选择**：
+- peak-end-rule: 用 Kahneman 攻击他自己发现的定律——"体验自我 vs 记忆自我"的区分直接质疑峰终设计的伦理基础
+- pitch-conflict: Berlin 的价值多元主义 + Haidt 的道德直觉优先——两者联手指出冲突化利用的是人类最原始的部族对立本能
+- prompt-anti-flattery: Bender 的"随机鹦鹉"揭示了多角色交叉验证的根本局限——不是多个人在说话，是一个人在穿不同的衣服
+- personal-time-management: Burkeman 的"四千周"从存在主义角度指出时间管理的根问题不是"分配不均"而是"想做的事太多"
+
+**审查结论**：**Batch B 通过。85 张 tool 卡全部合格。**
 
 ### Batch C：concept 卡（~30 张 yt-* concept）— P1
 
