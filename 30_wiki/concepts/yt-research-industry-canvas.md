@@ -2,7 +2,7 @@
 id: yt-research-industry-canvas
 title: 行业分析画布：五维快速扫描+二维定位
 type: tool
-status: draft
+status: reviewed
 domain:
   - yitang
 language: zh-CN
@@ -17,8 +17,10 @@ related:
   - yt-research-osl-framework
   - yt-research-intelligence-map
   - yt-research-competitor-toolkit
-  - yt-entrepreneur-key-hypotheses
   - yt-research-user-jtbd
+  - yt-research-expert-interview
+  - yt-research-hypothesis-test
+  - yt-entrepreneur-key-hypotheses
 contradicts: []
 query_triggers:
   - 行业分析

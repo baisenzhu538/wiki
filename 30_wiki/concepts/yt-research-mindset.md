@@ -2,7 +2,7 @@
 id: yt-research-mindset
 title: 调研认知升级：从"找答案"到"拆解假设"
 type: concept
-status: draft
+status: reviewed
 domain:
   - yitang
 language: zh-CN
@@ -18,6 +18,9 @@ related:
   - yt-research-hypothesis-test
   - yt-research-competitor-toolkit
   - yt-research-user-jtbd
+  - yt-research-intelligence-map
+  - yt-research-expert-interview
+  - yt-research-industry-canvas
   - yt-decision-y-model
   - yt-entrepreneur-key-hypotheses
 contradicts: []

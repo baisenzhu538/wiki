@@ -2,7 +2,7 @@
 id: yt-research-user-jtbd
 title: 用户JTBD访谈工具：区分"说的"和"真正要的"
 type: tool
-status: draft
+status: reviewed
 domain:
   - yitang
 language: zh-CN
@@ -17,6 +17,9 @@ related:
   - yt-research-osl-framework
   - yt-research-expert-interview
   - yt-research-hypothesis-test
+  - yt-research-intelligence-map
+  - yt-research-competitor-toolkit
+  - yt-research-industry-canvas
   - yt-entrepreneur-key-hypotheses
 contradicts: []
 query_triggers:

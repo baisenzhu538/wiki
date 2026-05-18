@@ -2,7 +2,7 @@
 id: yt-research-hypothesis-test
 title: 假设验证调研工具：关键假设→可证伪问题→最小实验
 type: tool
-status: draft
+status: reviewed
 domain:
   - yitang
 language: zh-CN
@@ -18,6 +18,8 @@ related:
   - yt-research-intelligence-map
   - yt-research-competitor-toolkit
   - yt-research-user-jtbd
+  - yt-research-expert-interview
+  - yt-research-industry-canvas
   - yt-entrepreneur-key-hypotheses
   - yt-decision-y-model
 contradicts: []

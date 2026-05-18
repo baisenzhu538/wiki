@@ -2,7 +2,7 @@
 id: yt-research-intelligence-map
 title: 情报获取全景地图：13+渠道穷尽手段
 type: framework
-status: draft
+status: reviewed
 domain:
 - yitang
 language: zh-CN
@@ -17,6 +17,8 @@ related:
   - yt-research-expert-interview
   - yt-research-hypothesis-test
   - yt-research-industry-canvas
+  - yt-research-user-jtbd
+  - yt-research-mindset
 contradicts: []
 query_triggers:
 - 情报获取

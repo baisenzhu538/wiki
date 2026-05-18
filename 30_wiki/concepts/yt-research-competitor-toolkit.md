@@ -2,7 +2,7 @@
 id: yt-research-competitor-toolkit
 title: 竞品拆解工具包：三层分类+内核边界+单元模型对标
 type: tool
-status: draft
+status: reviewed
 domain:
   - yitang
 language: zh-CN
@@ -17,6 +17,9 @@ related:
   - yt-research-osl-framework
   - yt-research-intelligence-map
   - yt-research-hypothesis-test
+  - yt-research-expert-interview
+  - yt-research-industry-canvas
+  - yt-research-user-jtbd
   - yt-decision-width-method
 contradicts: []
 query_triggers:

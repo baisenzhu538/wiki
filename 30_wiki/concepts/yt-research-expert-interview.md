@@ -2,7 +2,7 @@
 id: yt-research-expert-interview
 title: 专家访谈工具：2小时获取行业共识的标准流程
 type: tool
-status: draft
+status: reviewed
 domain:
   - yitang
 language: zh-CN
@@ -17,6 +17,9 @@ related:
   - yt-research-osl-framework
   - yt-research-intelligence-map
   - yt-research-hypothesis-test
+  - yt-research-competitor-toolkit
+  - yt-research-industry-canvas
+  - yt-research-user-jtbd
   - yt-entrepreneur-key-hypotheses
 contradicts: []
 query_triggers:

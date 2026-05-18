@@ -2,7 +2,7 @@
 id: yt-research-osl-framework
 title: OSL调研五步法：一堂通用商业调研框架
 type: framework
-status: draft
+status: reviewed
 domain:
 - yitang
 language: zh-CN
@@ -14,8 +14,11 @@ component_of: []
 related:
   - yt-research-intelligence-map
   - yt-research-competitor-toolkit
-  - yt-research-hypothesis-test
   - yt-research-expert-interview
+  - yt-research-hypothesis-test
+  - yt-research-industry-canvas
+  - yt-research-user-jtbd
+  - yt-research-mindset
   - yt-decision-y-model
   - yt-entrepreneur-key-hypotheses
 contradicts: []
