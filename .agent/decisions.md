@@ -198,3 +198,35 @@
 - Agent 文档（CLAUDE.md、context.md）已同步
 - 查询时无外部 API 调用（embedding 纯本地 sklearn，LLM 不触发）
 - 索引持久化在 `.kdo/graph_index/`，建成就一直在，内容变更后 `kdo graph rebuild` 即可
+
+---
+
+## 2026-05-18：分层索引架构——Core / Extended / Reference 三层
+
+**背景**：`30_wiki/index.md` 是 458 行的自动生成垃圾——包含 97 个 `src_*` 裸源文件条目、14 个 `(no text detected)` 条目、12 个 `说话人*` 转录碎片、大量重复中文标题变体和已取代的旧版本。作为人类导航工具完全不可用。concepts/ 目录本身已是干净的（198 张真实卡，无垃圾文件），但索引从未更新。
+
+**决策**：
+- `index.md` 完全重写为三层结构化索引
+- **Core 层（55 张，28%）**：全部 37 张 framework + 主域方法论 + 跨域桥梁概念 + 系统/目录卡。地基——"如果只读 55 张，读这些"
+- **Extended 层（143 张，72%）**：按域组织的全部剩余卡片，每个域内按类型（tool/concept）排序。工具箱——"Core 是为什么，Extended 是怎么做"
+- **Reference 层**：到 entities/、systems/、projects/、90_control/、20_memory/、70_product/tasks/、00_inbox/ 的外部链接
+- 每个条目格式：`[[wikilink]]` + 类型 + 一句话描述
+- 末尾附统计面板（域×类型矩阵）
+
+**原因**：
+- 198 张卡如果不分层，新人面对一面墙不知道从哪开始读
+- Core 层有明确选择标准（framework + master + 桥梁），不是主观挑选
+- Extended 层按域组织，查询时直接跳转到对应域的表
+- Reference 层把跨目录链接集中在一起，避免重复罗列
+- 使用 wikilinks 而非 markdown 链接——Obsidian 原生支持，且 `[[filename]]` 语法更简洁
+
+**同时修复的 lint 工具 bug**：
+1. `workspace.py:657`：index 完整性检查只解析 `(path/file.md)` markdown 链接，不解析 `[[wikilink]]`。新增 wikilink 解析分支，bare wikilink 自动解析为 `30_wiki/concepts/<target>.md`，带路径的解析为 `30_wiki/<path>.md`
+2. `links.py:55`：Windows 上 `Path.relative_to()` 返回反斜杠路径（`30_wiki\entities\一堂.md`），而链接解析器用正斜杠做 `endswith` 检查。改为 `as_posix()` 统一用正斜杠
+3. `links.py:83`：链接解析器的 `endswith(f"/{target}.md")` 对 vault 根目录下的文件（如 `90_control/kdo-industrialization-manual.md`）失效——路径不含前导 `/` 时 `endswith` 不匹配。新增 `endswith(f"{target}.md")` 处理
+
+**后果**：
+- lint 从 139 new warnings → 8（全部为预存的调研域前向引用 + 1 个测试链接）
+- 182 测试全绿
+- 新增卡片会自动被 index 完整性检查发现（"Wiki page not listed" warning），提醒更新 index
+- 未来质量门自动化可以将"新增 card 是否已加入 index"作为检查项
