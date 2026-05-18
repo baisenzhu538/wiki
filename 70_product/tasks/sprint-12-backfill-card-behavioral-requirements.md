@@ -1,7 +1,7 @@
 ---
 id: sprint-12-backfill-card-behavioral-requirements
 title: "Sprint 12：回溯升级——已有卡片补齐 v1.5 行为转化三要件"
-status: in_progress
+status: review
 priority: P0
 assigned_to: 黄药师
 reviewer: 欧阳锋
@@ -133,8 +133,8 @@ yt-model-truman-five-step-growth
 | panproduct/aesthetic（审美） | 5 | `yt-panproduct-aesthetic-*` |
 
 **验收标准**：
-- [ ] 85 张 tool 卡全部含三个新节（同 Batch A 标准）
-- [ ] `kdo lint` → 0 errors
+- [x] 85 张 tool 卡全部含三个新节（同 Batch A 标准）
+- [x] `kdo lint` → 0 errors
 - [ ] 欧阳锋每域抽检 2 张（共 14 张，~16%），理解门禁通过
 
 ### Batch C：concept 卡（~30 张 yt-* concept）— P1

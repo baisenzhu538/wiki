@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-18
 active_branch: main
-active_task: Batch C 29/30 实质完成。黄药师回归 KDO 基础设施 backlog。老顽童继续量产。
+active_task: 老顽童启动调研域编译（8张卡，方案已批准）。黄药师 KDO 基础设施 backlog 待定义。
 blockers: []
 ---
 
@@ -66,11 +66,13 @@ blockers: []
 
 - **7 张 master 卡全部通过 ✅**：[[70_product/tasks/proposal-new-domain-master-meta-capabilities.md]] 提案的 7 张卡全部写成，审查 A，可直接入库
   - #1 master-cognitive-bias-checklist（A）| #2 master-decision-hygiene（A）| #3 master-first-principles（A）
-  - #4 master-systems-thinking（A）| #5 master-antifragile-checklist（B+→改 frontmatter）| #6 master-ai-info-literacy（A+）| #7 master-knowledge-compound（A-）
+  - #4 master-systems-thinking（A）| #5 master-antifragile-checklist（A，frontmatter 已修）| #6 master-ai-info-literacy（A+）| #7 master-knowledge-compound（A-）
 - PEAS 洞察 concept 卡（A+）附赠完成
 - 边界定义文件已写（`70_product/tasks/master-7-cards-layer-and-boundary.md`）
-- 仅需小修：#5 frontmatter concept→tool，#3 正文呼应 SpaceX 例子
-- 评估：知识广度 A，独立判断 A，学术品味 A+，跨域合成 A
+- **修复验证 ✅**：#5 card_type→tool ✅ | #3 SpaceX 例子三层注解 + 类比思维反例 ✅
+- **调研方法论域提案 → ✅ 已批准**：8 张卡（F2+T5+C1），攻击者全部跨范式，Feyerabend+Kuhn 是最佳配对。T4/T5 编译时注意边界，编译前先 OCR 全部素材图片
+- **科学决策审计 → ⛔ 已叫停**。10 张卡 A 级已通过，不返工
+- 评估：知识广度 A，独立判断 A→A+（SpaceX 自我纠错），学术品味 A+，跨域合成 A
 
 ### 黄药师状态（基础设施唯一负责人）
 
@@ -114,6 +116,23 @@ blockers: []
 | `kdo review --sample 5 --domain yitang` | 随机抽检卡片，输出理解门禁摘要 |
 
 ## 最近决策
+
+### 2026-05-18：老顽童调研方法论域提案批准 + 老顽童评估升级
+
+**提案审查结论**：
+- **域选择**：✅ 调研域是空白度最高 × 素材最丰富 × 价值最大的交集，优先编译
+- **Card Map**：8 张（F2+T5+C1）合理。建议 T4（行业画布）和 T5（假设验证）编译时评估是否需合并，但不阻塞启动
+- **攻击者**：全部跨范式。Feyerabend+Kuhn 配对为 KDO 首次出现。Taleb 第 3 次出现，T4 需确保攻击措辞与 width-method 中的 Taleb 有足够区分度
+- **材质风险**：老顽童必须先 OCR 扫描调研素材文件夹中全部图片（P-7 教训），再开始编译
+- **科学决策审计**：已叫停。10 张卡 A 级，不返工
+
+**老顽童评估升级**：
+- 独立判断 A→A+：SpaceX 例子的自我纠错——识别出"类比污染"并自主完成方法论层面的修正
+- 老顽童已从"需要监督的高产能执行者"进化为"可以独立做方法论判断的内容架构者"
+
+**后果**：
+- 老顽童下个任务：调研域 8 张卡编译
+- 黄药师下个任务：KDO 基础设施 backlog（待枚举）
 
 ### 2026-05-18：角色重对齐——黄药师回归工程师岗，老顽童接全部产能岗
 
@@ -190,8 +209,8 @@ blockers: []
 
 1. 读 `pitfalls.md` → `toolkit.md`（武器库别忘记！OCR/Git/KDO 命令都在里面）
 2. **角色分工已重对齐**：黄药师=工程师（KDO CLI/方法论/Graph RAG），老顽童=产能主力（卡片量产/文章/提案）
-3. 核查老顽童后续产出：#5 反脆弱 frontmatter 修复 + #3 第一性原理小修 + 后续量产任务
-4. 核查黄药师 KDO 基础设施 backlog（需要定义下个迭代的具体任务）
+3. 老顽童：启动调研域编译（8 张卡，方案已批准）——先 OCR 全部素材图片，再按 F1→F2→T1→T2→T3→T4→T5→C1 编译
+4. 黄药师：KDO 基础设施 backlog 待定义
 5. KDO Graph RAG ✅ — `kdo query "..."` 三阶回退正常工作
 6. pytest 182/182 ✅ — 代码修改后必须重跑
 7. 坚果云备份 ✅ — `C:\Users\Administrator\Nutstore\1\我的坚果云\` 
