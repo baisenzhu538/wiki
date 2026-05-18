@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-18
 active_branch: main
-active_task: 老顽童调研域编译中。黄药师 KDO 基础设施 backlog 全部完成（P0/P1-A/P1-B/P2 ✅）。下个任务：质量门自动化 `kdo validate --v15`（[[70_product/tasks/quality-gate-automation-v15.md]]）
+active_task: 老顽童→下个任务（补related边→双三角文章v2→提案新域）。黄药师→质量门自动化 `kdo validate --v15`（[[70_product/tasks/quality-gate-automation-v15.md]]）。所有域编译/升级完成。
 blockers: []
 ---
 
@@ -44,7 +44,7 @@ blockers: []
   - 29 张通过 `kdo lint --baseline HEAD`（0 new errors）
   - Batch C 实质上已完成（~1 张不需要升级或非 concept 卡范围）
   - ⚠️ 黄药师角色重对齐 → 不接量产。但用户指令优先，先做完剩余
-- **老顽童后续** → 已分配：[[70_product/tasks/laowantong-next-tasks.md]]（①补related边 ②双三角文章v2 ③提案新域）
+- **老顽童后续** → 已分配：[[70_product/tasks/laowantong-next-tasks.md]]（①补related边 ②双三角文章v2 ✅ ③提案新域）
 
 ### 科学决策域（老顽童）→ ✅ 已完成
 
@@ -62,6 +62,17 @@ blockers: []
 
 1 framework + 10 tool + 1 concept（武器库元概念），12 张卡全部通过。
 
+### 调研方法论域（老顽童）→ ✅ 已完成
+
+8 张卡全部通过欧阳锋审查（F2+T5+C1，含 3 张升级 + 5 张新建）。学者引用阵容：Simon, Weick, Ellsberg, Benkler, Tetlock, Becker, Zaltman, Bourdieu, Feyerabend, Kuhn, Taleb, Popper, Porter, Christensen, Feynman, Lakoff — 16 位真实学者，0 稻草人。
+
+| 评级 | 卡片 |
+|------|------|
+| A+ | hypothesis-test（Feyerabend+Kuhn — 全库最具哲学严密性的攻击段落之一）、user-jtbd（Zaltman ZMET + Bourdieu 惯习理论，非显而易见） |
+| A | osl-framework（Simon+Weick）、intelligence-map（Ellsberg+Benkler）、expert-interview（Tetlock+Becker）、industry-canvas（Taleb+Popper）、competitor-toolkit（Porter+Christensen）、mindset（Feynman+Lakoff） |
+
+**全量 checklist 通过**：8/8 [Critique] 节、8/8 外部攻击 ≥2、8/8 不要用场景 ≥2、8/8 Action Triggers ≥3。
+
 ### 老顽童状态（产能主力）
 
 - **7 张 master 卡全部通过 ✅**：[[70_product/tasks/proposal-new-domain-master-meta-capabilities.md]] 提案的 7 张卡全部写成，审查 A，可直接入库
@@ -70,7 +81,7 @@ blockers: []
 - PEAS 洞察 concept 卡（A+）附赠完成
 - 边界定义文件已写（`70_product/tasks/master-7-cards-layer-and-boundary.md`）
 - **修复验证 ✅**：#5 card_type→tool ✅ | #3 SpaceX 例子三层注解 + 类比思维反例 ✅
-- **调研方法论域提案 → ✅ 已批准**：8 张卡（F2+T5+C1），攻击者全部跨范式，Feyerabend+Kuhn 是最佳配对。T4/T5 编译时注意边界，编译前先 OCR 全部素材图片
+- **调研方法论域 → ✅ 已完成**：8 张卡（F2+T5+C1）全部 A 级，库存 +8
 - **科学决策审计 → ⛔ 已叫停**。10 张卡 A 级已通过，不返工
 - 评估：知识广度 A，独立判断 A→A+（SpaceX 自我纠错），学术品味 A+，跨域合成 A
 
