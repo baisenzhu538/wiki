@@ -131,6 +131,8 @@ reviewed_by: ''
 - [[yt-research-osl-framework]] —— OSL调研五步法
 - [[yt-research-competitor-toolkit]] —— 竞品拆解工具包
 - [[yt-research-expert-interview]] —— 专家访谈工具
+- [[yt-research-user-jtbd]] —— 区分"说的"和"真正要的
+- [[yt-research-mindset]] —— 从"找答案"到"拆解假设
 
 ## Synthesis
 

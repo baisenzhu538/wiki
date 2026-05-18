@@ -157,6 +157,9 @@ reviewed_by: ''
 | 关联工具 | [[yt-research-user-jtbd]] | 用户调研需要"拆解"而非"找证据"的心态 |
 | 关联框架 | [[yt-decision-y-model]] | 科学决策框架中的验证思维 |
 | 关联框架 | [[yt-entrepreneur-key-hypotheses]] | 关键假设识别是"拆解假设"的实际应用 |
+| 关联工具 | [[yt-research-intelligence-map]] | 13+渠道穷尽手段 |
+| 关联工具 | [[yt-research-expert-interview]] | 2小时获取行业共识的标准流程 |
+| 关联工具 | [[yt-research-industry-canvas]] | 五维快速扫描+二维定位 |
 
 ## Action Triggers
 

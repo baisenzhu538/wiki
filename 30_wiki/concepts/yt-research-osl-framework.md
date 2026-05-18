@@ -140,6 +140,10 @@ OSL的三条边界声明揭示了框架的内在张力：
 - [[yt-decision-y-model]] —— Y模型科学决策框架
 - [[yt-entrepreneur-key-hypotheses]] —— 关键假设验证方法论
 - [[yt-research-intelligence-map]] —— 情报获取全景地图
+- [[yt-research-hypothesis-test]] —— 关键假设→可证伪问题→最小实验
+- [[yt-research-industry-canvas]] —— 五维快速扫描+二维定位
+- [[yt-research-user-jtbd]] —— 区分"说的"和"真正要的
+- [[yt-research-mindset]] —— 从"找答案"到"拆解假设
 
 ## Synthesis
 

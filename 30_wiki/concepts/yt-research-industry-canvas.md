@@ -160,6 +160,8 @@ reviewed_by: ''
 | 关联工具 | [[yt-research-intelligence-map]] | 情报地图提供五维扫描的信息渠道 |
 | 关联工具 | [[yt-research-competitor-toolkit]] | 竞品拆解补充竞争象限中的玩家分析 |
 | 关联框架 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证中的行业假设验证 |
+| 关联工具 | [[yt-research-expert-interview]] | 2小时获取行业共识的标准流程 |
+| 关联工具 | [[yt-research-hypothesis-test]] | 关键假设→可证伪问题→最小实验 |
 
 ## Action Triggers
 

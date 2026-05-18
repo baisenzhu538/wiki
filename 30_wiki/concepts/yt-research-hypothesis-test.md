@@ -167,6 +167,8 @@ reviewed_by: ''
 | 关联工具 | [[yt-research-user-jtbd]] | 用户访谈可以验证需求假设 |
 | 关联框架 | [[yt-entrepreneur-key-hypotheses]] | 关键假设识别的前置框架 |
 | 关联框架 | [[yt-decision-y-model]] | 科学决策框架中的验证环节 |
+| 关联工具 | [[yt-research-expert-interview]] | 2小时获取行业共识的标准流程 |
+| 关联工具 | [[yt-research-industry-canvas]] | 五维快速扫描+二维定位 |
 
 ## Action Triggers
 

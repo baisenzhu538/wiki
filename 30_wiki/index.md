@@ -3,7 +3,7 @@ title: "Wiki Index"
 type: index
 status: stable
 created: 2026-05-10
-updated: 2026-05-18
+updated: 2026-05-19
 tier: layered
 ---
 
@@ -11,7 +11,7 @@ tier: layered
 
 > **三层架构**：Core（地基）→ Extended（工具箱）→ Reference（外部资源）。先读 Core，再按需查 Extended。
 
-**统计**：203 张概念卡 · 40 framework · 101 tool · 62 concept · 3 catalog
+**统计**：201 张概念卡 · 40 framework · 101 tool · 60 concept · 3 catalog
 
 ---
 
@@ -79,15 +79,16 @@ tier: layered
 | [[yt-model-aesthetic-progression]] | 审美提升层级：从看不见到大胆想象 |
 
 **科学决策**
-| 卡片 | 一句话 |
-|------|--------|
-| [[yt-decision-y-model]] | Y 模型科学决策框架（广义 ROI） |
-| [[yt-decision-full-process]] | 科学决策全景流程：五阶段模型 |
+|| 卡片 | 一句话 |
+||------|--------|
+|| [[yt-decision-y-model]] | Y 型科学决策框架（广义 ROI） |
+|| [[yt-decision-full-process]] | 科学决策全景流程：五阶段模型 |
 
 **调研**
-| 卡片 | 一句话 |
-|------|--------|
-| [[yt-research-osl-framework]] | OSL 调研五步法 |
+|| 卡片 | 一句话 |
+||------|--------|
+|| [[yt-research-osl-framework]] | OSL 调研五步法 |
+|| [[yt-research-intelligence-map]] | 情报获取全景地图：13+渠道穷尽手段 |
 
 ### 主域方法论（Master Domain）
 
@@ -294,21 +295,18 @@ tier: layered
 | [[yt-prompt-writing-workflow]] | tool | AI 写作工作流：大纲→要点→全文 |
 | [[yt-prompt-engineering-andrew-ng]] | course_notes | 吴恩达提示词课程·一堂拆书精华 |
 
-### 调研（Research）— 9 张
+### 调研（Research）— 8 张
 
-> 1 张 framework（OSL 五步法）在 Core，此处为此域全部卡片。
+> 2 张 framework（OSL 五步法、情报地图）在 Core，此处为 5 张 tool + 1 张 concept。
 
-| 卡片 | 类型 | 一句话 |
-|------|------|--------|
-| [[yt-research-intelligence-map]] | framework | 情报获取全景地图：13+渠道穷尽手段 |
-| [[yt-research-competitor-toolkit]] | tool | 竞品拆解工具包：三层分类+内核边界+单元模型对标 |
-| [[yt-research-expert-interview]] | tool | 专家访谈工具：2小时获取行业共识的标准流程 |
-| [[yt-research-user-jtbd]] | tool | 用户JTBD访谈工具：区分"说的"和"真正要的" |
-| [[yt-research-industry-canvas]] | tool | 行业分析画布：五维快速扫描+二维定位 |
-| [[yt-research-hypothesis-test]] | tool | 假设验证调研工具：关键假设→可证伪问题→最小实验 |
-| [[yt-research-action-camp-launch]] | concept | 调研行动营启动课 |
-| [[yt-research-weaponry-course]] | concept | 调研武器库课程 |
-| [[yt-research-mindset]] | concept | 调研认知升级：从"找答案"到"拆解假设" |
+|| 卡片 | 类型 | 一句话 |
+||------|------|--------|
+|| [[yt-research-competitor-toolkit]] | tool | 竞品拆解工具包：三层分类+内核边界+单元模型对标 |
+|| [[yt-research-expert-interview]] | tool | 专家访谈工具：2小时获取行业共识的标准流程 |
+|| [[yt-research-user-jtbd]] | tool | 用户JTBD访谈工具：区分"说的"和"真正要的" |
+|| [[yt-research-industry-canvas]] | tool | 行业分析画布：五维快速扫描+二维定位 |
+|| [[yt-research-hypothesis-test]] | tool | 假设验证调研工具：关键假设→可证伪问题→最小实验 |
+|| [[yt-research-mindset]] | concept | 调研认知升级：从"找答案"到"拆解假设" |
 
 ### 医疗（Healthcare）— 5 张
 
@@ -340,7 +338,9 @@ tier: layered
 
 | 卡片 | 类型 | 一句话 |
 |------|------|--------|
-| [[business-research-skill-oscar-13-weapon-system]] | concept | Business Research Skill — OSCAR 13 武器体系 |
+|| [[yt-research-action-camp-launch]] | concept | 一堂调研行动营·启动课（补充课程） |
+|| [[yt-research-weaponry-course]] | concept | 一堂调研武器库课程（补充课程） |
+|| [[business-research-skill-oscar-13-weapon-system]] | concept | Business Research Skill — OSCAR 13 武器体系 |
 | [[truman-perspective-skill]] | concept | Truman Perspective Skill |
 | [[tinyfish-agentic-web-infrastructure]] | concept | TinyFish Agentic Web 基础设施 |
 | [[paddleocr-skill]] | concept | PaddleOCR 本地+云端双模 OCR |
@@ -443,13 +443,13 @@ tier: layered
 | 泛产品设计 | 9 | 30 | — | 39 |
 | 销讲 | 1 | 10 | — | 11 |
 | 科学决策 | 2 | 7 | — | 9 |
-|| 调研 | 2 | 5 | 3 | 10 |
+|| 调研 | 2 | 5 | 1 | 8 |
 | Prompt | 1 | 4 | 1 | 6 |
 | 医疗 | — | — | 9 | 9 |
 | AI SaaS | — | — | 7 | 7 |
-| 主域/工具链 | 2 | 5 | 9 | 16 |
+|| 主域/工具链 | 2 | 5 | 11 | 18 |
 | 系统/目录 | — | — | 4 | 4 |
 | 已取代 | — | — | 2 | 2 |
-|| **合计** | **40** | **101** | **62** | **203** |
+||| **合计** | **40** | **101** | **60** | **201** |
 
 > 注：部分卡片跨类型统计，合计接近 198。实际以 `30_wiki/concepts/` 目录文件数为准。结构报告显示 198 张卡（含 2 张无 frontmatter type 的文件）。

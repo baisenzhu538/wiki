@@ -156,6 +156,9 @@ reviewed_by: ''
 | 关联工具 | [[yt-research-intelligence-map]] | 情报获取地图告诉你去哪找竞品信息 |
 | 关联工具 | [[yt-research-hypothesis-test]] | 竞品分析的结论需要转化为可验证的假设 |
 | 关联工具 | [[yt-decision-width-method]] | 决策宽度方法中的"查盲区"需要竞品分析补充 |
+| 关联工具 | [[yt-research-expert-interview]] | 2小时获取行业共识的标准流程 |
+| 关联工具 | [[yt-research-industry-canvas]] | 五维快速扫描+二维定位 |
+| 关联工具 | [[yt-research-user-jtbd]] | 区分"说的"和"真正要的 |
 
 ## Action Triggers
 

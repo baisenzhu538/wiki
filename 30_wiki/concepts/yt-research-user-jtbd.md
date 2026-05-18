@@ -170,6 +170,9 @@ JTBD工具的三条边界声明揭示了工具的内在张力：
 | 关联工具 | [[yt-research-expert-interview]] | 专家访谈技巧可用于JTBD访谈 |
 | 关联工具 | [[yt-research-hypothesis-test]] | JTBD结论需要转化为可验证的假设 |
 | 关联框架 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证中的需求假设 |
+| 关联工具 | [[yt-research-intelligence-map]] | 13+渠道穷尽手段 |
+| 关联工具 | [[yt-research-competitor-toolkit]] | 三层分类+内核边界+单元模型对标 |
+| 关联工具 | [[yt-research-industry-canvas]] | 五维快速扫描+二维定位 |
 
 ## Action Triggers
 

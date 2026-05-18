@@ -184,6 +184,9 @@ reviewed_by: ''
 | 关联工具 | [[yt-research-intelligence-map]] | 情报地图告诉你怎么找专家 |
 | 关联工具 | [[yt-research-hypothesis-test]] | 访谈结论需要转化为可验证的假设 |
 | 关联框架 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证，访谈目标常源于关键假设 |
+| 关联工具 | [[yt-research-competitor-toolkit]] | 三层分类+内核边界+单元模型对标 |
+| 关联工具 | [[yt-research-industry-canvas]] | 五维快速扫描+二维定位 |
+| 关联工具 | [[yt-research-user-jtbd]] | 区分"说的"和"真正要的 |
 
 ## Action Triggers
 
