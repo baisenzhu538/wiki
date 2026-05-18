@@ -1,25 +1,37 @@
 ---
-domain: master
-subdomain: decision
-source_author: 一堂 (Truman)
-card_type: framework
-confidence: 0.90
-page_count: 1
-alias:
-  - AI信息素养
-  - 信息真伪辨别
-  - AI幻觉检测
+id: master-ai-info-literacy
+title: AI时代信息素养框架
+type: framework
+status: enriched
+domain:
+  - master
+language: zh-CN
+version: 1
+difficulty: intermediate
+confidence: 0.9
+prerequisites:
+component_of:
 related:
   - yt-entrepreneur-research-cognition
   - yt-model-prompt-engineering
   - yt-personal-ai-capability
-  - yt-entrepreneur-research-weaponry
+  - yt-research-weaponry-course
   - yt-decision-y-model
-created_date: 2026-05-18
-reviewed_by: ""
-quality_gate: ""
-status: draft
+contradicts:
+query_triggers:
+  - AI信息素养
+  - 信息真伪辨别
+  - AI幻觉检测
+tags:
+  - #master
+source_refs:
+  - 来源: 一堂 (Truman)
+created_at: 2026-05-18
+updated_at: 2026-05-18
+estimated_tokens: 1176
+reviewed_by: 
 ---
+
 
 # AI时代信息素养框架
 

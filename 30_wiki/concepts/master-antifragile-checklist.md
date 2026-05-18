@@ -1,19 +1,32 @@
 ---
-domain: master
-subdomain: decision
-card_type: tool
+id: master-antifragile-checklist
+title: 反脆弱决策检查清单
+type: tool
+status: enriched
+domain:
+  - master
+language: zh-CN
+version: 1
+difficulty: intermediate
 confidence: 0.88
-page_count: 1
-alias:
+prerequisites:
+component_of:
+related:
+contradicts:
+query_triggers:
   - 反脆弱决策
   - 杠铃策略
   - 反脆弱清单
   - Taleb决策
-created_date: 2026-05-18
-reviewed_by: ""
-quality_gate: ""
-status: draft
+tags:
+  - #master
+source_refs:
+created_at: 2026-05-18
+updated_at: 2026-05-18
+estimated_tokens: 1144
+reviewed_by: 
 ---
+
 
 # 反脆弱决策检查清单
 

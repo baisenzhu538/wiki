@@ -1,27 +1,39 @@
 ---
-domain: master
-subdomain: thinking
-source_author: Aristotle, Elon Musk
-card_type: tool
+id: master-first-principles
+title: 第一性原理拆解器
+type: tool
+status: enriched
+domain:
+  - master
+language: zh-CN
+version: 1
+difficulty: intermediate
 confidence: 0.85
-page_count: 1
-alias:
-  - 第一性原理
-  - 拆到不可拆
-  - 本质思维
-  - 底层逻辑拆解
+prerequisites:
+component_of:
 related:
-  - yt-personal-liberate-thinking
+  - yt-entrepreneur-liberate-thinking
   - yt-personal-y-model-exploration-2
   - yt-entrepreneur-liberate-thinking
   - yt-panproduct-execution-core-and-boundary
   - yt-personal-deep-review
   - master-systems-thinking
-created_date: 2026-05-18
-reviewed_by: ""
-quality_gate: ""
-status: draft
+contradicts:
+query_triggers:
+  - 第一性原理
+  - 拆到不可拆
+  - 本质思维
+  - 底层逻辑拆解
+tags:
+  - #master
+source_refs:
+  - 来源: Aristotle, Elon Musk
+created_at: 2026-05-18
+updated_at: 2026-05-18
+estimated_tokens: 1622
+reviewed_by: 
 ---
+
 
 # 第一性原理拆解器
 

@@ -1,26 +1,38 @@
 ---
-domain: master
-subdomain: learning
-card_type: concept
+id: master-knowledge-compound
+title: 知识复利：IPO+萃取+管理的上位整合
+type: concept
+status: enriched
+domain:
+  - master
+language: zh-CN
+version: 1
+difficulty: intermediate
 confidence: 0.82
-page_count: 1
-alias:
-  - 知识复利
-  - 知识资产
-  - 知识飞轮
-  - 认知复利
+prerequisites:
+component_of:
 related:
   - yt-personal-ipo-learning
   - yt-personal-knowledge-extraction
   - yt-personal-knowledge-management
-  - yt-personal-knowledge-loop
+  - yt-personal-knowledge-management
   - master-systems-thinking
   - master-first-principles
-created_date: 2026-05-18
-reviewed_by: ""
-quality_gate: ""
-status: draft
+contradicts:
+query_triggers:
+  - 知识复利
+  - 知识资产
+  - 知识飞轮
+  - 认知复利
+tags:
+  - #master
+source_refs:
+created_at: 2026-05-18
+updated_at: 2026-05-18
+estimated_tokens: 1420
+reviewed_by: 
 ---
+
 
 # 知识复利：IPO+萃取+管理的上位整合
 

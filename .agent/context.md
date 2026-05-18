@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-18
 active_branch: main
-active_task: 老顽童启动调研域编译（8张卡，方案已批准）。黄药师 KDO 基础设施 backlog 待定义。
+active_task: 老顽童调研域编译 + 黄药师基础设施 backlog（P0 Graph RAG 重建 → P1-A lint baseline → P1-B 结构报告）
 blockers: []
 ---
 
@@ -79,7 +79,13 @@ blockers: []
 - **不接卡片量产**。专注 KDO CLI、方法论建设、质量门、Graph RAG。
 - pytest ✅（9.0.3，182/182 passing）| 坚果云备份 ✅
 - 权限已扩：`.claude/settings.json` 开放 vault 全路径 + kdo 命令免批
-- Batch C 剩余 concept 卡：暂停或转交老顽童
+- **已批准 backlog**：[[70_product/tasks/kdo-infrastructure-backlog-proposal.md]]
+  - P0: Graph RAG 索引重建（29 张新卡未进索引）
+  - P1-A: `kdo lint --accept-baseline`（消除 634 条 warning 噪音）
+  - P1-B: `kdo lint --structure-report`（4 种卡片结构适配）
+  - P2-A: 工业化手册 v1.7（收录 Batch C 经验）
+  - P2-B: `kdo backup` 自动化
+  - 后续：质量门自动化 `kdo validate --v15`（另案提案）
 
 ### Design 域 → 待建
 

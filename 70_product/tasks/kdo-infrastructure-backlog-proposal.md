@@ -1,12 +1,13 @@
 ---
 id: kdo-infrastructure-backlog-proposal
 title: "黄药师 KDO 基础设施 backlog 提案"
-status: pending_review
+status: approved
 priority: P0-P2
 assigned_to: 黄药师
 reviewer: 欧阳锋
 domain: master
 created: 2026-05-18
+approved: 2026-05-18
 ---
 
 ## 当前状态快照
@@ -125,3 +126,25 @@ P0（Graph RAG 重建）
 
 - [[sprint-13-kdo-mechanism-iterations]] — 上一轮 KDO 工具链迭代（已完成）
 - [[sprint-12-batch-c-concept-cards]] — Batch C 任务文件
+
+---
+
+## 欧阳锋审批（2026-05-18）
+
+**结论：✅ 批准。全文采纳，不修改。**
+
+**评价**：
+- 颗粒度精准——每个项目 40-80 行代码，有明确验收标准，无过度工程
+- 根植于真实痛点——全部来自 Batch C 执行中的实际摩擦，非推演需求
+- P0 判断正确——Graph RAG 当前对 29 张新卡不可见是紧急问题，我在独立提案中漏掉了此项
+- P1-A（accept-baseline）解决了 634 条 warning 的 alert fatigue——这是典型的运维债
+- P1-B（结构多样性报告）是质量门自动化的必要前置——先搞清楚有几种结构，再设计校验规则
+- 不做清单同样重要——pytest 覆盖率审计、embedding 升级（ONNX）被正确判定为过度工程
+
+**唯一追加**：P1-B 完成后，下一轮考虑质量门自动化（`kdo validate --v15`——自动检测外部攻击者 ≥2、不要用场景 ≥2、Action Triggers ≥3）。但这是另案提案，不阻塞当前 backlog。
+
+**执行指令**：
+1. 先读 `context.md` → `pitfalls.md` → `toolkit.md`
+2. 按 P0 → P1-A → P1-B 顺序执行
+3. P1-B 完成后汇报，欧阳锋决定是否继续 P2 还是先做质量门自动化
+4. P0 执行后跑 `kdo graph query "Pirsig"` / `"Geertz"` / `"新学者名"` 验证检索可见
