@@ -1,457 +1,448 @@
-# Wiki Index
-
-
-_Last updated: 2026-05-10T15:46:34+00:00_
-
-- [Business Research Skill — OSCAR 13武器体系 Claude Code 实现](concepts/business-research-skill-oscar-13-weapon-system.md) - source no source
-- [DeepSeek V4 在知识管理系统中的应用](concepts/deepseek-v4-在知识管理系统中的应用.md) - source `src_20260505_7766e197`
-- [EC工业化规范手册 v2.8.0](concepts/ec工业化规范手册-v2.8.0.md) - source `src_20260503_feab72b2`
-- [EC工业化规范手册](concepts/EC工业化规范手册.md) - source `src_20260503_dadc7838`
-- [Graph RAG — Knowledge-Graph-Powered Retrieval](concepts/graph-rag.md) - source no source
-- [HIS系统开发实现方案-架构师指南](concepts/HIS系统开发实现方案-架构师指南.md) - source `src_20260503_1a1f0312`
-- [HIS系统深度调研](concepts/HIS系统深度调研.md) - source `src_20260503_968e0210`
-- [Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)](concepts/kdo_product_design_agent_final.md) - source `src_20260503_52ae08ba`
-- [Kimi 深度调研集群方法论 (Deep-Research-Swarm)](concepts/kimi-深度调研集群方法论-deep-research-swarm.md) - source `src_20260502_7d7c1b7c`
-- [Knowledge Delivery OS 快速体验指南 - 飞书云文档](concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md) - source `src_20260501_6a491b80`
-- [Obsidian + KDO 内容产出工作流 — 产品设计大纲](concepts/obsidian-kdo-内容产出工作流-产品设计大纲.md) - source no source
-- [PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill](concepts/paddleocr-skill.md) - source no source
-- [Kimi 深度调研集群方法论 (Deep-Research-Swarm)](concepts/research_methodology.md) - source no source
-- [Sprint 2 门禁举证验收](concepts/sprint-2-门禁举证验收.md) - source `src_20260510_9e98a292`
-- [﻿---](concepts/src_20260510_0345bf5a.md) - source `src_20260510_0345bf5a`
-- [﻿---](concepts/src_20260510_081424fd.md) - source `src_20260510_081424fd`
-- [﻿---](concepts/src_20260510_08ce7500.md) - source `src_20260510_08ce7500`
-- [﻿---](concepts/src_20260510_0aa2302e.md) - source `src_20260510_0aa2302e`
-- [﻿---](concepts/src_20260510_0ad92016.md) - source `src_20260510_0ad92016`
-- [﻿---](concepts/src_20260510_0b7e3162.md) - source `src_20260510_0b7e3162`
-- [﻿---](concepts/src_20260510_0cc250dd.md) - source `src_20260510_0cc250dd`
-- [﻿---](concepts/src_20260510_1282beac.md) - source `src_20260510_1282beac`
-- [﻿---](concepts/src_20260510_17ce322d.md) - source `src_20260510_17ce322d`
-- [﻿---](concepts/src_20260510_1893e261.md) - source `src_20260510_1893e261`
-- [﻿---](concepts/src_20260510_19b62b86.md) - source `src_20260510_19b62b86`
-- [﻿---](concepts/src_20260510_1c3f68f8.md) - source `src_20260510_1c3f68f8`
-- [﻿---](concepts/src_20260510_1dcecd5a.md) - source `src_20260510_1dcecd5a`
-- [﻿---](concepts/src_20260510_268d0ca1.md) - source `src_20260510_268d0ca1`
-- [﻿---](concepts/src_20260510_27bbfe74.md) - source `src_20260510_27bbfe74`
-- [﻿---](concepts/src_20260510_2ba8c07f.md) - source `src_20260510_2ba8c07f`
-- [﻿---](concepts/src_20260510_3078fb29.md) - source `src_20260510_3078fb29`
-- [﻿---](concepts/src_20260510_33083975.md) - source `src_20260510_33083975`
-- [﻿---](concepts/src_20260510_339cd37b.md) - source `src_20260510_339cd37b`
-- [﻿---](concepts/src_20260510_372dabc9.md) - source `src_20260510_372dabc9`
-- [﻿---](concepts/src_20260510_3964a346.md) - source `src_20260510_3964a346`
-- [﻿---](concepts/src_20260510_39d36ca2.md) - source `src_20260510_39d36ca2`
-- [﻿---](concepts/src_20260510_4304f022.md) - source `src_20260510_4304f022`
-- [﻿---](concepts/src_20260510_436cb619.md) - source `src_20260510_436cb619`
-- [﻿---](concepts/src_20260510_44dac585.md) - source `src_20260510_44dac585`
-- [﻿---](concepts/src_20260510_4d6ef2d8.md) - source `src_20260510_4d6ef2d8`
-- [﻿---](concepts/src_20260510_4f13fb33.md) - source `src_20260510_4f13fb33`
-- [﻿---](concepts/src_20260510_4fbd64d6.md) - source `src_20260510_4fbd64d6`
-- [﻿---](concepts/src_20260510_4fee2a75.md) - source `src_20260510_4fee2a75`
-- [﻿---](concepts/src_20260510_5058df21.md) - source `src_20260510_5058df21`
-- [﻿---](concepts/src_20260510_54f23f73.md) - source `src_20260510_54f23f73`
-- [﻿---](concepts/src_20260510_56b748d0.md) - source `src_20260510_56b748d0`
-- [﻿---](concepts/src_20260510_5aab2dda.md) - source `src_20260510_5aab2dda`
-- [﻿---](concepts/src_20260510_61385577.md) - source `src_20260510_61385577`
-- [﻿---](concepts/src_20260510_61ebf6f3.md) - source `src_20260510_61ebf6f3`
-- [﻿---](concepts/src_20260510_638fcd2a.md) - source `src_20260510_638fcd2a`
-- [﻿---](concepts/src_20260510_6594de46.md) - source `src_20260510_6594de46`
-- [﻿---](concepts/src_20260510_677d2fb5.md) - source `src_20260510_677d2fb5`
-- [﻿---](concepts/src_20260510_6866fc25.md) - source `src_20260510_6866fc25`
-- [﻿---](concepts/src_20260510_6afe9d44.md) - source `src_20260510_6afe9d44`
-- [﻿---](concepts/src_20260510_6d94b9e8.md) - source `src_20260510_6d94b9e8`
-- [﻿---](concepts/src_20260510_6e987d24.md) - source `src_20260510_6e987d24`
-- [﻿---](concepts/src_20260510_6e99bcbf.md) - source `src_20260510_6e99bcbf`
-- [﻿---](concepts/src_20260510_6f96cd2b.md) - source `src_20260510_6f96cd2b`
-- [﻿---](concepts/src_20260510_7116ef53.md) - source `src_20260510_7116ef53`
-- [﻿---](concepts/src_20260510_72b8af8b.md) - source `src_20260510_72b8af8b`
-- [﻿---](concepts/src_20260510_740421b6.md) - source `src_20260510_740421b6`
-- [﻿---](concepts/src_20260510_74977a28.md) - source `src_20260510_74977a28`
-- [﻿---](concepts/src_20260510_81c92817.md) - source `src_20260510_81c92817`
-- [﻿---](concepts/src_20260510_832bee4c.md) - source `src_20260510_832bee4c`
-- [﻿---](concepts/src_20260510_86a29669.md) - source `src_20260510_86a29669`
-- [﻿---](concepts/src_20260510_86b39e9a.md) - source `src_20260510_86b39e9a`
-- [﻿---](concepts/src_20260510_88c4508c.md) - source `src_20260510_88c4508c`
-- [﻿---](concepts/src_20260510_8a9b8812.md) - source `src_20260510_8a9b8812`
-- [﻿---](concepts/src_20260510_8ca8deb9.md) - source `src_20260510_8ca8deb9`
-- [﻿---](concepts/src_20260510_90efbe90.md) - source `src_20260510_90efbe90`
-- [﻿---](concepts/src_20260510_94fc2d48.md) - source `src_20260510_94fc2d48`
-- [﻿---](concepts/src_20260510_96a913a3.md) - source `src_20260510_96a913a3`
-- [﻿---](concepts/src_20260510_9fc30d42.md) - source `src_20260510_9fc30d42`
-- [﻿---](concepts/src_20260510_a01f10cc.md) - source `src_20260510_a01f10cc`
-- [﻿---](concepts/src_20260510_a09d3bbc.md) - source `src_20260510_a09d3bbc`
-- [﻿---](concepts/src_20260510_a20ff50b.md) - source `src_20260510_a20ff50b`
-- [﻿---](concepts/src_20260510_a2fd669a.md) - source `src_20260510_a2fd669a`
-- [﻿---](concepts/src_20260510_a475fce7.md) - source `src_20260510_a475fce7`
-- [﻿---](concepts/src_20260510_b1b96124.md) - source `src_20260510_b1b96124`
-- [﻿---](concepts/src_20260510_b5cd1ec0.md) - source `src_20260510_b5cd1ec0`
-- [﻿---](concepts/src_20260510_b9de7e0b.md) - source `src_20260510_b9de7e0b`
-- [﻿---](concepts/src_20260510_ba0d885e.md) - source `src_20260510_ba0d885e`
-- [﻿---](concepts/src_20260510_bb5dce45.md) - source `src_20260510_bb5dce45`
-- [﻿---](concepts/src_20260510_bd9620e3.md) - source `src_20260510_bd9620e3`
-- [﻿---](concepts/src_20260510_c0cf689a.md) - source `src_20260510_c0cf689a`
-- [﻿---](concepts/src_20260510_c2389c75.md) - source `src_20260510_c2389c75`
-- [﻿---](concepts/src_20260510_c311d0f9.md) - source `src_20260510_c311d0f9`
-- [﻿---](concepts/src_20260510_c40244d3.md) - source `src_20260510_c40244d3`
-- [﻿---](concepts/src_20260510_c49abdd8.md) - source `src_20260510_c49abdd8`
-- [﻿---](concepts/src_20260510_c5fbe207.md) - source `src_20260510_c5fbe207`
-- [﻿---](concepts/src_20260510_cbf3dd8d.md) - source `src_20260510_cbf3dd8d`
-- [﻿---](concepts/src_20260510_cd09ceeb.md) - source `src_20260510_cd09ceeb`
-- [﻿---](concepts/src_20260510_ce883bd5.md) - source `src_20260510_ce883bd5`
-- [﻿---](concepts/src_20260510_d8b0b591.md) - source `src_20260510_d8b0b591`
-- [﻿---](concepts/src_20260510_d8b8862a.md) - source `src_20260510_d8b8862a`
-- [﻿---](concepts/src_20260510_d9307dd3.md) - source `src_20260510_d9307dd3`
-- [﻿---](concepts/src_20260510_da4b4885.md) - source `src_20260510_da4b4885`
-- [﻿---](concepts/src_20260510_dc80be16.md) - source `src_20260510_dc80be16`
-- [﻿---](concepts/src_20260510_de159182.md) - source `src_20260510_de159182`
-- [﻿---](concepts/src_20260510_dec65dcf.md) - source `src_20260510_dec65dcf`
-- [﻿---](concepts/src_20260510_e0d5009e.md) - source `src_20260510_e0d5009e`
-- [﻿---](concepts/src_20260510_e189bedf.md) - source `src_20260510_e189bedf`
-- [﻿---](concepts/src_20260510_eb510284.md) - source `src_20260510_eb510284`
-- [﻿---](concepts/src_20260510_eca0ef69.md) - source `src_20260510_eca0ef69`
-- [﻿---](concepts/src_20260510_ee5aedeb.md) - source `src_20260510_ee5aedeb`
-- [﻿---](concepts/src_20260510_ef839d4c.md) - source `src_20260510_ef839d4c`
-- [﻿---](concepts/src_20260510_f0ca7226.md) - source `src_20260510_f0ca7226`
-- [﻿---](concepts/src_20260510_f88bd8d8.md) - source `src_20260510_f88bd8d8`
-- [﻿---](concepts/src_20260510_fa97987d.md) - source `src_20260510_fa97987d`
-- [﻿---](concepts/src_20260510_fcf41b5b.md) - source `src_20260510_fcf41b5b`
-- [﻿---](concepts/src_20260510_fe505c73.md) - source `src_20260510_fe505c73`
-- [﻿---](concepts/src_20260510_fffa533e.md) - source `src_20260510_fffa533e`
-- [TinyFish — Agentic Web 基础设施建设层 Skill](concepts/tinyfish-agentic-web-infrastructure.md) - source no source
-- [Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现](concepts/truman-perspective-skill.md) - source no source
-- [Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl](concepts/web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md) - source no source
-- [YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN](concepts/yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md) - source `src_20260430_8cc84e5b`
-- [一堂课程大地图](concepts/yitang-course-map.md) - source no source
-- [一堂案例必修课](concepts/yt-case-mandatory-cases.md) - source no source
-- [259里程碑](concepts/yt-entrepreneur-259-milestone.md) - source no source
-- [项目壁垒](concepts/yt-entrepreneur-barriers.md) - source no source
-- [业务增长](concepts/yt-entrepreneur-business-growth.md) - source no source
-- [渠道探索](concepts/yt-entrepreneur-channel-exploration.md) - source no source
-- [集中度分析](concepts/yt-entrepreneur-concentration-analysis.md) - source no source
-- [一堂五步法](concepts/yt-entrepreneur-five-step-method.md) - source `00_inbox/ideas/一堂-课程地图精华串讲.md`
-- [融资认知](concepts/yt-entrepreneur-fundraising.md) - source `00_inbox/ideas/一堂-课程地图精华串讲.md`
-- [增长飞轮](concepts/yt-entrepreneur-growth-flywheel.md) - source no source
-- [工业化生产](concepts/yt-entrepreneur-industrial-production.md) - source no source
-- [行业预判](concepts/yt-entrepreneur-industry-forecast.md) - source no source
-- [关键假设](concepts/yt-entrepreneur-key-hypotheses.md) - source no source
-- [低成本验证/MVP](concepts/yt-entrepreneur-lean-validation.md) - source no source
-- [解放思想](concepts/yt-entrepreneur-liberate-thinking.md) - source no source
-- [需求分析](concepts/yt-entrepreneur-needs-analysis.md) - source `src_20260507_0872c7b3`
-- [机会选择](concepts/yt-entrepreneur-opportunity-selection.md) - source no source
-- [务实创业](concepts/yt-entrepreneur-pragmatic-startup.md) - source no source
-- [产品内核](concepts/yt-entrepreneur-product-core.md) - source no source
-- [调研认知](concepts/yt-entrepreneur-research-cognition.md) - source no source
-- [Y模型/科学方法](concepts/yt-entrepreneur-scientific-method.md) - source `00_inbox/ideas/一堂-课程地图精华串讲.md`
-- [实事求是](concepts/yt-entrepreneur-truth-seeking.md) - source no source
-- [单元模型](concepts/yt-entrepreneur-unit-model.md) - source no source
-- [基本功认知](concepts/yt-management-basic-skills.md) - source no source
-- [业务公式](concepts/yt-management-business-formula.md) - source no source
-- [公司文化](concepts/yt-management-company-culture.md) - source no source
-- [转化率黑客](concepts/yt-management-conversion-hacking.md) - source no source
-- [财务入门](concepts/yt-management-finance-basics.md) - source no source
-- [一号位](concepts/yt-management-founder-role.md) - source no source
-- [目标管理](concepts/yt-management-goal-management.md) - source `00_inbox/ideas/一堂-课程地图精华串讲.md`
-- [管理段位](concepts/yt-management-leadership-levels.md) - source no source
-- [新人落地](concepts/yt-management-onboarding.md) - source no source
-- [合伙股权](concepts/yt-management-partnership-equity.md) - source no source
-- [项目管理](concepts/yt-management-project-management.md) - source no source
-- [Y模型/科学决策](concepts/yt-management-scientific-decision.md) - source no source
-- [科学招聘](concepts/yt-management-scientific-hiring.md) - source `00_inbox/ideas/一堂-课程地图精华串讲.md`
-- [科学开会](concepts/yt-management-scientific-meetings.md) - source no source
-- [战略会](concepts/yt-management-strategy-meeting.md) - source no source
-- [团队知识管理](concepts/yt-management-team-knowledge.md) - source no source
-- [双三角竞争力模型](concepts/yt-model-dual-triangle-competitiveness.md) - source no source
-- [创业修炼地图](concepts/yt-model-entrepreneur-map.md) - source no source
-- [IPO 科学学习完整清单](concepts/yt-model-ipo-complete-checklist.md) - source no source
-- [IPO 科学学习全景策略](concepts/yt-model-ipo-learning-strategy.md) - source no source
-- [解放思想五层模型](concepts/yt-model-liberate-thinking-layers.md) - source no source
-- [管理修炼地图](concepts/yt-model-management-map.md) - source no source
-- [MUSE 人工智能全景图](concepts/yt-model-muse-ai-framework.md) - source no source
-- [个人修炼地图](concepts/yt-model-personal-map.md) - source no source
-- [无限进步大地图](concepts/yt-model-progress-map.md) - source no source
-- [提问刻意练习提升画布](concepts/yt-model-questioning-practice-canvas.md) - source no source
-- [科学提问刻意练习地图](concepts/yt-model-scientific-questioning-map.md) - source no source
-- [Y 型创业模型](concepts/yt-model-y-organization.md) - source no source
-- [AI 能力（双模型）](concepts/yt-personal-ai-capability.md) - source no source
-- [清单体笔记](concepts/yt-personal-checklist-notes.md) - source no source
-- [深度复盘](concepts/yt-personal-deep-review.md) - source `src_20260507_9dd09688`
-- [科学成长（刻意练习）](concepts/yt-personal-deliberate-practice.md) - source no source
-- [灵感闪现（认知篇）](concepts/yt-personal-inspiration-flash.md) - source no source
-- [IPO 科学学习](concepts/yt-personal-ipo-learning.md) - source `src_20260507_85c9ae50`
-- [知识萃取探索营](concepts/yt-personal-knowledge-extraction-camp.md) - source `src_20260510_0154010e`
-- [知识萃取方法论](concepts/yt-personal-knowledge-extraction.md) - source no source
-- [知识管理](concepts/yt-personal-knowledge-management.md) - source no source
-- [泛产品设计](concepts/yt-personal-product-design.md) - source no source
-- [十指销讲模型](30_wiki/concepts/yt-model-personal-pitch-toolkit.md) - source no source
-- [科学表达（火箭模型）](concepts/yt-personal-scientific-expression.md) - source no source
-- [时间管理](concepts/yt-personal-time-management.md) - source no source
-- [逐字稿](concepts/yt-personal-verbatim-script.md) - source no source
-- [终于到这个课了，每次在讲这个课题的时候都是极大的焦虑，极大的担心，才有机会跟你们见面。](concepts/yt-personal-y-model-practice.md) - source `src_20260510_1899f7fd`
-- [一堂调研行动营 · 启动课（LLM 精炼）](concepts/yt-research-action-camp-launch.md) - source no source
-- [一堂调研武器库课程](concepts/yt-research-weaponry-course.md) - source no source
-- [一堂全课程目录索引](concepts/yt-system-course-catalog.md) - source no source
-- [一堂课程地图精华串讲](concepts/yt-system-course-map-lecture.md) - source no source
-- [一堂-调研行动营启动_原文润色](concepts/一堂-调研行动营启动_原文润色.md) - source `src_20260503_9bfe6913`
-- [一堂调研武器库13招](concepts/一堂调研武器库13招.md) - source `src_20260503_af21929e`
-- [一堂调研武器库课程原文润色](concepts/一堂调研武器库课程原文润色.md) - source `src_20260504_13783111`
-- [一堂调研行动营 — AI辅助系统式调研方法论](concepts/一堂调研行动营-ai辅助系统式调研方法论.md) - source `src_20260503_5f268da2`
-- [互联网医院模式深度调研报告](concepts/互联网医院模式深度调研报告.md) - source `src_20260501_9962715b`
-- [保达云诊所深度调研报告](concepts/保达云诊所深度调研报告.md) - source `src_20260503_ae1921d5`
-- [先开始看这个书封皮，这书封皮很有意思，这书有。](concepts/先开始看这个书封皮这书封皮很有意思这书有.md) - source `src_20260510_5c17aa07`
-- [和知识封装成一个你自己的贴身的AI教练。](concepts/和知识封装成一个你自己的贴身的ai教练.md) - source `src_20260510_34116fbf`
-- [好久不见好久不见。](concepts/好久不见好久不见.md) - source `src_20260510_e589ca4d`
-- [开源HIS系统代码深度分析报告](concepts/开源HIS系统代码深度分析报告.md) - source `src_20260503_f4891888`
-- [欢迎大家来到一堂，这个不客套了。](concepts/欢迎大家来到一堂这个不客套了.md) - source `src_20260510_323c7a0c`
-- [直播间里？](concepts/直播间里.md) - source `src_20260510_574ae017`
-- [紫鲸AI_智能体工作流平台_深度分析与产品设计](concepts/紫鲸ai_智能体工作流平台_深度分析与产品设计.md) - source `src_20260501_4eee4e95`
-- [紫鲸AI智能体工作流平台](concepts/紫鲸ai智能体工作流平台.md) - source `src_20260428_29929c1f`
-- [终于到这个课了，每次在讲这个课题的时候都是极大的焦虑，极大的担心，才有机会跟你们见面。](concepts/终于到这个课了每次在讲这个课题的时候都是极大的焦虑极大的担心才有机会跟你们见面.md) - source `src_20260510_89a1ff61`
-- [街顺APP全面调研报告](concepts/街顺app全面调研报告.md) - source `src_20260427_970eb338`
-- [诊所O2O外卖平台业务深度调研报告](concepts/诊所o2o外卖平台业务深度调研报告.md) - source no source
-- [说话人1     00:53](concepts/说话人1-00-53-2.md) - source `src_20260510_a4570115`
-- [说话人1     00:53](concepts/说话人1-00-53.md) - source `src_20260510_f2ff0ae5`
-- [说话人1     00:56](concepts/说话人1-00-56.md) - source `src_20260510_a0374615`
-- [说话人1     01:03](concepts/说话人1-01-03.md) - source `src_20260510_9c3b63b0`
-- [说话人1     01:16](concepts/说话人1-01-16.md) - source `src_20260510_9faf2296`
-- [谢谢。](concepts/谢谢.md) - source `src_20260510_22e9d761`
-- [轻量级诊所HIS调研全清单](concepts/轻量级诊所HIS调研全清单.md) - source `src_20260503_5c91e867`
-- [鑫港湾HIS系统分阶段整改报告](concepts/鑫港湾his系统分阶段整改报告.md) - source `src_20260428_db49a647`
-- [Kimi（月之暗面）](entities/Kimi-月之暗面.md) - source no source
-- [Y Combinator](entities/YC-Y-Combinator.md) - source no source
-- [一堂](entities/一堂.md) - source no source
-- [紫鲸AI](entities/紫鲸AI.md) - source no source
-- [鑫港湾](entities/鑫港湾.md) - source no source
-- [互联网医院项目](projects/互联网医院项目.md) - source no source
-- [诊所O2O项目](projects/诊所O2O项目.md) - source no source
-- [鑫港湾HIS项目](projects/鑫港湾HIS项目.md) - source no source
-- [Graph RAG 检索层技术说明](systems/graph-rag-retrieval-layer.md) - source no source
-- [REQ-014 批量 Produce 12 篇 Enriched 页面技术说明](systems/kdo-batch-produce-req014.md) - source no source
-- [KDO Protocol — AI-Agent Operating Contract](systems/kdo-protocol.md) - source no source
-- [kdo watch 定时巡检层技术说明](systems/kdo-watch-health-check-layer.md) - source no source
-- [Obsidian Git Multi-Device Sync Protocol](systems/obsidian-git-sync-protocol.md) - source no source
-- [Sprint 2 门禁系统 + Enrich 举证 — 设计规格](systems/sprint-2-gate-enrich-evidence.md) - source no source
-- [一堂方法论体系总图](systems/一堂方法论体系总图.md) - source no source
-
-- [当有了这个逻辑以后，就可以用一页纸， 解释我所有的人生紅貞計划 厅](concepts/当有了这个逻辑以后就可以用一页纸-解释我所有的人生紅貞計划-厅.md) - source `src_20260510_0792387b`
-
-- [楚门的选择：两条职业成长路线 堂](concepts/楚门的选择两条职业成长路线-堂.md) - source `src_20260510_9d77cdb9`
-
-- [Y型创业： 堂科学型组织](concepts/y型创业-堂科学型组织.md) - source `src_20260510_bf21614f`
-
-- [个人修炼-Y模型实操](concepts/个人修炼-y模型实操.md) - source `src_20260510_c8e41ccb`
-
-- [一堂人工智能全景图·MUSE模型](concepts/一堂人工智能全景图muse模型.md) - source `src_20260510_62b2cfa1`
-
-- [一堂AI时代的竞争力·双三角模型](concepts/一堂ai时代的竞争力双三角模型.md) - source `src_20260510_7c58991a`
-
-- [提问刻意练习提升画布ByYITANG](concepts/提问刻意练习提升画布byyitang.md) - source `src_20260510_e4a6ef49`
-
-- [个人修炼-泛产品设计工具篇](concepts/个人修炼-泛产品设计工具篇.md) - source `src_20260510_e6643d52`
-
-- [个人修炼-泛产品设计探索营](concepts/个人修炼-泛产品设计探索营.md) - source `src_20260510_fab64a96`
-
-- [个人修炼-泛产品设计概念](concepts/个人修炼-泛产品设计概念.md) - source `src_20260510_39a99221`
-
-- [个人修炼-知识萃取探索营](concepts/个人修炼-知识萃取探索营.md) - source `src_20260510_814ec410`
-
-- [一堂科学学习P口·全景策略图第二版 堂](concepts/一堂科学学习p口全景策略图第二版-堂.md) - source `src_20260510_0c9323c5`
-
-- [-堂科学学习IPO·完整清单](concepts/堂科学学习ipo完整清单.md) - source `src_20260510_490a2c9f`
-
-- [(no text detected)](concepts/no-text-detected.md) - source `src_20260510_00757439`
-
-- [辅导 咨询](concepts/辅导-咨询.md) - source `src_20260510_21007a14`
-
-- [目 难度最低(min) 难度最高(max)](concepts/目-难度最低min-难度最高max.md) - source `src_20260510_fd2fb05f`
-
-- [![[一堂-个人修炼-课程清单.png]]](concepts/一堂-个人修炼-课程清单.png.md) - source `src_20260510_f9158e7c`
-
-- [个人修身-Y模型探索营2](concepts/个人修身-y模型探索营2.md) - source `src_20260510_6d771b2a`
-
-- [个人修身-思维模型](concepts/个人修身-思维模型.md) - source `src_20260510_13cb37f7`
-
-- [个人修身-泛产品设计02](concepts/个人修身-泛产品设计02.md) - source `src_20260510_c842c00d`
-
-- [个人修身-泛产品设计实操](concepts/个人修身-泛产品设计实操.md) - source `src_20260510_6241b565`
-
-- [个人修身-泛产品设计审美](concepts/个人修身-泛产品设计审美.md) - source `src_20260510_4a29ec61`
-
-- [创业-调研行动营口述01](concepts/创业-调研行动营口述01.md) - source `src_20260510_2ba8671c`
-
-- [一堂课程清单1-4（创业必修方向）](concepts/一堂课程清单1-4创业必修方向.md) - source `src_20260510_e7d966fe`
-
-- [(no text detected)](concepts/no-text-detected-2.md) - source `src_20260510_301d5124`
-
-- [(no text detected)](concepts/no-text-detected-3.md) - source `src_20260510_f435fbf7`
-
-- [(no text detected)](concepts/no-text-detected-4.md) - source `src_20260510_716e7cd5`
-
-- [堂课程清单4-4(案例拆解方向)](concepts/堂课程清单4-4案例拆解方向.md) - source `src_20260510_ba494aea`
-
-- [一堂泛产品设计・十年苦练30招](concepts/一堂泛产品设计十年苦练30招.md) - source `src_20260510_828b1128`
-
-- [一堂课程清单2-4(管理必修方向)](concepts/一堂课程清单2-4管理必修方向.md) - source `src_20260510_d288a1b7`
-
-- [读书会-SPIN销售法](concepts/读书会-spin销售法.md) - source `src_20260510_349a66fd`
-
-- [一堂个人地图：高潜力成长者修炼全景地图](concepts/一堂个人地图高潜力成长者修炼全景地图.md) - source `src_20260510_fb28d5a6`
-
-- [堂五步法实操·产品内核画布 堂](concepts/堂五步法实操产品内核画布-堂.md) - source `src_20260510_8f50e43f`
-
-- [一堂五步法画布YitangFive-stepCanvas](concepts/一堂五步法画布yitangfive-stepcanvas.md) - source `src_20260510_1eb77650`
-
-- [一堂产品内核・十大典型指标](concepts/一堂产品内核十大典型指标.md) - source `src_20260510_5ef61f8f`
-
-- [刻意练习·一堂10年成长指数](concepts/刻意练习一堂10年成长指数.md) - source `src_20260510_39b040c6`
-
-- [一堂最佳转化率·动力三曲线 堂](concepts/一堂最佳转化率动力三曲线-堂.md) - source `src_20260510_d5e71a5e`
-
-- [堂泛产品设计·十年峰炼爬山地图 堂](concepts/堂泛产品设计十年峰炼爬山地图-堂.md) - source `src_20260510_4b005e61`
-
-- [- 堂泛产品设计实操：多出牌多练  堂](concepts/堂泛产品设计实操多出牌多练-堂.md) - source `src_20260510_39b6911e`
-
-- [![[一堂泛产品设计36计-全套地图.png]]](concepts/一堂泛产品设计36计-全套地图.png.md) - source `src_20260510_fe1b2976`
-
-- [一堂深度复盘冰山图 堂](concepts/一堂深度复盘冰山图-堂.md) - source `src_20260510_80e46b45`
-
-- [一堂最佳转化率·10大最易浪费触点](concepts/一堂最佳转化率10大最易浪费触点.md) - source `src_20260510_54afab69`
-
-- [堂 堂无限进步大地图『十年收藏版 -](concepts/堂-堂无限进步大地图十年收藏版.md) - source `src_20260510_ef0a5055`
-
-- [(no text detected)](concepts/no-text-detected-5.md) - source `src_20260510_4b752c7e`
-
-- [一堂·优秀泛产品设计者的自我修养 堂](concepts/一堂优秀泛产品设计者的自我修养-堂.md) - source `src_20260510_fd54cc2d`
-
-- [婚礼操盘：用户与场景分析](concepts/婚礼操盘用户与场景分析.md) - source `src_20260510_980e86d3`
-
-- [婚礼操盘：婚礼环节规划](concepts/婚礼操盘婚礼环节规划.md) - source `src_20260510_29a4b59b`
-
-- [天花板](concepts/天花板.md) - source `src_20260510_4bb17355`
-
-- [(no text detected)](concepts/no-text-detected-6.md) - source `src_20260510_5629ae68`
-
-- [(no text detected)](concepts/no-text-detected-7.md) - source `src_20260510_40241ece`
-
-- [(no text detected)](concepts/no-text-detected-8.md) - source `src_20260510_0688bccf`
-
-- [(no text detected)](concepts/no-text-detected-9.md) - source `src_20260510_9ed770e3`
-
-- [(no text detected)](concepts/no-text-detected-10.md) - source `src_20260510_13871616`
-
-- [(no text detected)](concepts/no-text-detected-11.md) - source `src_20260510_c4351cf3`
-
-- [(no text detected)](concepts/no-text-detected-12.md) - source `src_20260510_2039c9d2`
-
-- [(no text detected)](concepts/no-text-detected-13.md) - source `src_20260510_fedfaca7`
-
-- [(no text detected)](concepts/no-text-detected-14.md) - source `src_20260510_d5457e6c`
-
-- [泛产品设计·审美卡片](concepts/泛产品设计审美卡片.md) - source `src_20260510_c39bc55e`
-
-- [泛产品设计·审美卡片](concepts/泛产品设计审美卡片-2.md) - source `src_20260510_080ee7fe`
-
-- [泛产品设计·审美卡片](concepts/泛产品设计审美卡片-3.md) - source `src_20260510_888b642b`
-
-- [泛产品设计·审美卡片](concepts/泛产品设计审美卡片-4.md) - source `src_20260510_d7218337`
-
-- [一堂泛产品设计·审美工具箱指南 堂](concepts/一堂泛产品设计审美工具箱指南-堂.md) - source `src_20260510_757ad8e6`
-
-- [11 泛产品设计·用户卡片](concepts/11-泛产品设计用户卡片.md) - source `src_20260510_67c95ed3`
-
-- [泛产品设计·用户卡片](concepts/泛产品设计用户卡片.md) - source `src_20260510_c2ad7caa`
-
-- [泛产品设计·用户卡片](concepts/泛产品设计用户卡片-2.md) - source `src_20260510_d5f2d917`
-
-- [6 泛产品设计·用户卡片](concepts/6-泛产品设计用户卡片.md) - source `src_20260510_9ffdec2f`
-
-- [泛产品设计·用户卡片](concepts/泛产品设计用户卡片-3.md) - source `src_20260510_a740e623`
-
-- [泛产品设计·用户卡片](concepts/泛产品设计用户卡片-4.md) - source `src_20260510_d4725ad7`
-
-- [泛产品设计·用户卡片](concepts/泛产品设计用户卡片-5.md) - source `src_20260510_c7a864b9`
-
-- [泛产品设计·用户卡片](concepts/泛产品设计用户卡片-6.md) - source `src_20260510_f91e1a52`
-
-- [10 泛产品设计·用户卡片](concepts/10-泛产品设计用户卡片.md) - source `src_20260510_15d2904e`
-
-- [泛产品设计·用户卡片](concepts/泛产品设计用户卡片-7.md) - source `src_20260510_82d8f065`
-
-- [- 泛产品设计·用户卡片](concepts/泛产品设计用户卡片-8.md) - source `src_20260510_80b2cc04`
-
-- [泛产品设计・落地卡片](concepts/泛产品设计落地卡片.md) - source `src_20260510_5c931738`
-
-- [小12 泛产品设计·落地卡片](concepts/小12-泛产品设计落地卡片.md) - source `src_20260510_42a669c6`
-
-- [13 泛产品设计·落地卡片](concepts/13-泛产品设计落地卡片.md) - source `src_20260510_6f05ee70`
-
-- [15 泛产品设计·落地卡片](concepts/15-泛产品设计落地卡片.md) - source `src_20260510_1eaabcec`
-
-- [1 泛产品设计·落地卡片](concepts/1-泛产品设计落地卡片.md) - source `src_20260510_b1c7cbcd`
-
-- [65 n 泛产品设计・落地卡片](concepts/65-n-泛产品设计落地卡片.md) - source `src_20260510_2de05f43`
-
-- [小18 泛产品设计·落地卡片](concepts/小18-泛产品设计落地卡片.md) - source `src_20260510_288355bc`
-
-- [-](concepts/src_20260510_4ff89472.md) - source `src_20260510_4ff89472`
-
-- [10 泛产品设计·落地卡片](concepts/10-泛产品设计落地卡片.md) - source `src_20260510_8ddf132d`
-
-- [小15 泛产品设计·落地卡片](concepts/小15-泛产品设计落地卡片.md) - source `src_20260510_9e9073a7`
-
-- [小14 泛产品设计·落地卡片](concepts/小14-泛产品设计落地卡片.md) - source `src_20260510_f66abd85`
-
-- [6 泛产品设计·落地卡片](concepts/6-泛产品设计落地卡片.md) - source `src_20260510_5a82dfdb`
-
-- [小19 泛产品设计·落地卡片](concepts/小19-泛产品设计落地卡片.md) - source `src_20260510_1869094e`
-
-- [![[泛产品设计-落地卡片-设计原则.png]]](concepts/泛产品设计-落地卡片-设计原则.png.md) - source `src_20260510_1a3537cf`
-
-- [8 泛产品设计·落地卡片](concepts/8-泛产品设计落地卡片.md) - source `src_20260510_35d3be02`
-
-- [泛产品设计·落地卡片](concepts/泛产品设计落地卡片-2.md) - source `src_20260510_1a256d3f`
-
-- [泛产品设计·落地卡片](concepts/泛产品设计落地卡片-3.md) - source `src_20260510_61862bc3`
-
-- [小11 泛产品设计·落地卡片](concepts/小11-泛产品设计落地卡片.md) - source `src_20260510_3cfafc73`
-
-- [堂泛产品设计·需求工具箱指南 堂](concepts/堂泛产品设计需求工具箱指南-堂.md) - source `src_20260510_5d8b3e84`
-
-- [泛产品设计的应用场景示意图 堂](concepts/泛产品设计的应用场景示意图-堂.md) - source `src_20260510_e8468bf3`
-
-- [一堂·泛产品设计看的三大自我修养 堂](concepts/一堂泛产品设计看的三大自我修养-堂.md) - source `src_20260510_9851eabc`
-
-- [❤](concepts/src_20260510_0e59adc9.md) - source `src_20260510_0e59adc9`
-
-- [一堂泛产品设计·落地工具箱指南 堂](concepts/一堂泛产品设计落地工具箱指南-堂.md) - source `src_20260510_f2a1d58b`
-
-- [从看得见到磨得透](concepts/从看得见到磨得透.md) - source `src_20260510_7f910730`
-
-- [萃取总结](concepts/萃取总结.md) - source `src_20260510_14db4c2b`
-
-- [最终还是看你个人的品味](concepts/最终还是看你个人的品味.md) - source `src_20260510_23912290`
-
-- [项目背景问题思考的8个维度清单](concepts/项目背景问题思考的8个维度清单.md) - source `src_20260510_5a6fe455`
-
-- [预判模型](concepts/预判模型.md) - source `src_20260510_402c1db5`
-
-- [终于到这个课了，每次在讲这个课题的时候都是极大的焦虑，极大的担心，才有机会跟你们见面。](concepts/终于到这个课了每次在讲这个课题的时候都是极大的焦虑极大的担心才有机会跟你们见面.md) - source `src_20260510_4a74b6bf`
-
-- [说话人1     01:03](concepts/说话人1-01-03.md) - source `src_20260510_b4a37287`
-
-- [说话人1     01:16](concepts/说话人1-01-16.md) - source `src_20260510_662c6862`
-
-- [说话人1     00:56](concepts/说话人1-00-56.md) - source `src_20260510_32d64dc0`
-
-- [说话人1     00:53](concepts/说话人1-00-53.md) - source `src_20260510_ca5c3c86`
-
-- [直播间里？](concepts/直播间里.md) - source `src_20260510_9ab38dc3`
-
-- [好久不见好久不见。](concepts/好久不见好久不见.md) - source `src_20260510_ce6c2c61`
-
-- [欢迎大家来到一堂，这个不客套了。](concepts/欢迎大家来到一堂这个不客套了.md) - source `src_20260510_37b00812`
-
-- [谢谢。](concepts/谢谢.md) - source `src_20260510_3eab7965`
-
-- [说话人1     00:53](concepts/说话人1-00-53-2.md) - source `src_20260510_826b6eb2`
-
-- [和知识封装成一个你自己的贴身的AI教练。](concepts/和知识封装成一个你自己的贴身的ai教练.md) - source `src_20260510_ad730a76`
-
-- [先开始看这个书封皮，这书封皮很有意思，这书有。](concepts/先开始看这个书封皮这书封皮很有意思这书有.md) - source `src_20260510_f372ce76`
+---
+title: "Wiki Index"
+type: index
+status: stable
+created: 2026-05-10
+updated: 2026-05-18
+tier: layered
+---
+
+# Wiki Index — 分层知识索引
+
+> **三层架构**：Core（地基）→ Extended（工具箱）→ Reference（外部资源）。先读 Core，再按需查 Extended。
+
+**统计**：198 张概念卡 · 37 framework · 97 tool · 61 concept · 3 catalog
+
+---
+
+## Core Layer — 地基（55 张）
+
+> 如果你只读 55 张卡，读这些。全部 framework + 跨域桥梁 + 主域方法论。
+
+### 跨域框架（Cross-Domain Frameworks）
+
+核心思维模型，被各域工具引用。
+
+| 卡片 | 一句话 |
+|------|--------|
+| [[yt-model-y-organization]] | Y 型创业模型：科学型组织的底层架构 |
+| [[yt-model-dual-triangle-competitiveness]] | 双三角竞争力：AI 时代的个人与组织竞争力框架 |
+| [[yt-model-five-step-canvas]] | 五步法画布 × 产品内核画布 |
+| [[yt-model-ipo-complete-checklist]] | IPO 科学学习完整清单 |
+| [[yt-model-ipo-learning-strategy]] | IPO 科学学习全景策略 |
+| [[yt-model-progress-map]] | 无限进步大地图：十年修炼路线图 |
+| [[yt-model-muse-ai-framework]] | MUSE 人工智能全景图 |
+| [[yt-model-agent-architecture]] | 智能体架构：PEAS 与五层 Agent 模型 |
+| [[yt-model-prompt-engineering]] | 人机协作操作系统：提示词工程总框架 |
+| [[yt-model-cognitive-upgrade-framework]] | 认知升级十步框架 |
+| [[yt-model-prediction-model]] | 预判模型：三种预判范式 |
+| [[yt-model-product-excellence]] | 顶级产品追求：品味与最佳实践 |
+| [[yt-model-scientific-questioning-map]] | 科学提问刻意练习地图 |
+| [[yt-model-questioning-practice-canvas]] | 提问刻意练习提升画布 |
+| [[yt-model-truman-career-routes]] | 楚门的选择：X vs Y 职业成长路线 |
+| [[yt-model-truman-five-step-growth]] | Truman 个人成长五步法 |
+
+### 域框架（Domain Frameworks）
+
+各领域的基础理论模型。
+
+**创业**
+| 卡片 | 一句话 |
+|------|--------|
+| [[yt-model-entrepreneur-map]] | 创业修炼地图：从假设到壁垒 |
+
+**管理**
+| 卡片 | 一句话 |
+|------|--------|
+| [[yt-model-management-map]] | 管理修炼地图 |
+
+**个人修炼**
+| 卡片 | 一句话 |
+|------|--------|
+| [[yt-model-personal-map]] | 个人修炼地图 |
+| [[yt-model-personal-pitch-toolkit]] | 十指讲香模型 |
+| [[yt-model-deliberate-practice-growth]] | 刻意练习十年成长指数 |
+| [[yt-model-deep-review-iceberg]] | 深度复盘冰山图：五层穿透 |
+| [[yt-model-liberate-thinking-layers]] | 解放思想五层模型 |
+
+**泛产品设计**
+| 卡片 | 一句话 |
+|------|--------|
+| [[yt-model-pan-product-three-virtues]] | 泛产品三大自我修养 |
+| [[yt-model-pan-product-climbing-map]] | 泛产品十年爬山地图 L1-L6 |
+| [[yt-model-pan-product-36-strategies]] | 泛产品 36 计全套工具箱 |
+| [[yt-model-pan-product-demand-toolkit]] | 需求工具箱（13 张卡） |
+| [[yt-model-pan-product-execution-toolkit]] | 落地工具箱（19 张卡） |
+| [[yt-model-pan-product-aesthetic-toolkit]] | 审美工具箱（4 张卡） |
+| [[yt-model-product-core-metrics]] | 产品内核十大典型指标 |
+| [[yt-model-conversion-optimization]] | 转化率优化：动力三曲线 × 十大浪费触点 |
+| [[yt-model-aesthetic-progression]] | 审美提升层级：从看不见到大胆想象 |
+
+**科学决策**
+| 卡片 | 一句话 |
+|------|--------|
+| [[yt-decision-y-model]] | Y 模型科学决策框架（广义 ROI） |
+| [[yt-decision-full-process]] | 科学决策全景流程：五阶段模型 |
+
+**调研**
+| 卡片 | 一句话 |
+|------|--------|
+| [[yt-research-osl-framework]] | OSL 调研五步法 |
+
+### 主域方法论（Master Domain）
+
+与具体业务域无关的通用方法论。
+
+| 卡片 | 类型 | 一句话 |
+|------|------|--------|
+| [[master-ai-info-literacy]] | framework | AI 时代信息素养框架 |
+| [[master-decision-hygiene]] | framework | 决策卫生五步法 |
+| [[master-antifragile-checklist]] | tool | 反脆弱决策检查清单 |
+| [[master-cognitive-bias-checklist]] | tool | 认知偏差快速诊断清单 |
+| [[master-first-principles]] | tool | 第一性原理拆解器 |
+| [[master-knowledge-compound]] | concept | 知识复利：IPO+萃取+管理 |
+| [[master-systems-thinking]] | concept | 系统思考：反馈循环与杠杆点 |
+
+### 跨域桥梁（Cross-Domain Bridges）
+
+被多张卡交叉引用的枢纽概念。
+
+| 卡片 | 类型 | 一句话 |
+|------|------|--------|
+| [[yt-concept-weapon-arsenal]] | concept | 超级武器库（元概念）—— 所有工具的索引 |
+| [[yt-concept-peas-insight]] | concept | PEAS 核心洞察：决策系统四槽诊断 |
+| [[yt-concept-ai-guard-brain]] | concept | 守脑如玉：AI 时代保持大脑锋利 |
+| [[yt-concept-context-engineering]] | concept | 上下文工程：充分 ≠ 越多越好 |
+| [[yt-tool-peas-agent-analysis]] | tool | PEAS 智能体分析工具 |
+| [[yt-composite-pan-product-methodology]] | composite | 泛产品设计方法论（上位整合） |
+
+### 系统 & 目录（System & Catalog）
+
+| 卡片 | 类型 | 一句话 |
+|------|------|--------|
+| [[yt-system-course-catalog]] | concept | 一堂全课程目录索引 |
+| [[yitang-course-map]] | concept | 一堂课程大地图 |
+| [[yt-case-mandatory-cases]] | concept | 一堂案例必修课 |
+| [[yt-system-course-map-lecture]] | concept | 一堂课程地图精华串讲 |
+
+---
+
+## Extended Layer — 工具箱（143 张）
+
+> 按域组织的全部工具卡。Core 是"为什么"，Extended 是"怎么做"。
+
+### 创业（Entrepreneur）— 23 张
+
+| 卡片 | 类型 | 一句话 |
+|------|------|--------|
+| [[yt-entrepreneur-five-step-method]] | tool | 一堂五步法 |
+| [[yt-entrepreneur-key-hypotheses]] | tool | 关键假设 |
+| [[yt-entrepreneur-scientific-method]] | tool | Y 模型/科学方法 |
+| [[yt-entrepreneur-opportunity-selection]] | tool | 机会选择 |
+| [[yt-entrepreneur-needs-analysis]] | tool | 需求分析 |
+| [[yt-entrepreneur-product-core]] | tool | 产品内核 |
+| [[yt-entrepreneur-lean-validation]] | tool | 低成本验证/MVP |
+| [[yt-entrepreneur-unit-model]] | tool | 单元模型 |
+| [[yt-entrepreneur-business-growth]] | tool | 业务增长 |
+| [[yt-entrepreneur-barriers]] | tool | 项目壁垒 |
+| [[yt-entrepreneur-concentration-analysis]] | tool | 集中度分析 |
+| [[yt-entrepreneur-industry-forecast]] | tool | 行业预判 |
+| [[yt-entrepreneur-channel-exploration]] | tool | 渠道探索 |
+| [[yt-entrepreneur-growth-flywheel]] | tool | 增长飞轮 |
+| [[yt-entrepreneur-fundraising]] | tool | 融资认知 |
+| [[yt-entrepreneur-industrial-production]] | tool | 工业化生产 |
+| [[yt-entrepreneur-259-milestone]] | tool | 259 里程碑 |
+| [[yt-entrepreneur-truth-seeking]] | tool | 实事求是 |
+| [[yt-entrepreneur-liberate-thinking]] | tool | 解放思想 |
+| [[yt-entrepreneur-pragmatic-startup]] | tool | 务实创业 |
+| [[yt-entrepreneur-research-cognition]] | tool | 调研认知 |
+| [[yt-entrepreneur-research-camp]] | tool | 调研行动营 |
+| [[yt-entrepreneur-spin-selling]] | tool | SPIN 销售法 |
+
+### 管理（Management）— 15 张
+
+| 卡片 | 类型 | 一句话 |
+|------|------|--------|
+| [[yt-management-founder-role]] | concept | 一号位 |
+| [[yt-management-goal-management]] | concept | 目标管理 |
+| [[yt-management-scientific-decision]] | concept | Y 模型/科学决策 |
+| [[yt-management-scientific-hiring]] | concept | 科学招聘 |
+| [[yt-management-scientific-meetings]] | concept | 科学开会 |
+| [[yt-management-strategy-meeting]] | concept | 战略会 |
+| [[yt-management-basic-skills]] | concept | 基本功认知 |
+| [[yt-management-business-formula]] | concept | 业务公式 |
+| [[yt-management-company-culture]] | concept | 公司文化 |
+| [[yt-management-conversion-hacking]] | concept | 转化率黑客 |
+| [[yt-management-finance-basics]] | concept | 财务入门 |
+| [[yt-management-leadership-levels]] | concept | 管理段位 |
+| [[yt-management-onboarding]] | concept | 新人落地 |
+| [[yt-management-partnership-equity]] | concept | 合伙股权 |
+| [[yt-management-project-management]] | concept | 项目管理 |
+| [[yt-management-team-knowledge]] | concept | 团队知识管理 |
+
+### 个人修炼（Personal Development）— 22 张
+
+| 卡片 | 类型 | 一句话 |
+|------|------|--------|
+| [[yt-personal-ipo-learning]] | tool | IPO 科学学习 |
+| [[yt-personal-deliberate-practice]] | tool | 科学成长（刻意练习） |
+| [[yt-personal-deep-review]] | tool | 深度复盘 |
+| [[yt-personal-time-management]] | tool | 时间管理 |
+| [[yt-personal-knowledge-management]] | tool | 知识管理 |
+| [[yt-personal-knowledge-extraction]] | tool | 知识萃取方法论 |
+| [[yt-personal-checklist-notes]] | tool | 清单体笔记 |
+| [[yt-personal-verbatim-script]] | tool | 逐字稿 |
+| [[yt-personal-scientific-expression]] | tool | 科学表达（火箭模型） |
+| [[yt-personal-ai-capability]] | tool | AI 能力（双模型） |
+| [[yt-personal-inspiration-flash]] | tool | 灵感闪现（认知篇） |
+| [[yt-personal-product-design]] | tool | 泛产品设计 |
+| [[yt-personal-thinking-models]] | tool | 思维模型 |
+| [[yt-personal-ai-thinking-card]] | method | AI 思维卡 |
+| [[yt-personal-y-model-practice]] | tool | Y 模型实操 |
+| [[yt-personal-y-model-exploration-2]] | tool | Y 模型探索营 2 |
+| [[yt-personal-pan-product-concepts]] | concept | 泛产品设计认知篇 |
+| [[yt-personal-pan-product-exploration]] | concept | 泛产品设计探索营 |
+| [[yt-personal-pan-product-tools]] | concept | 泛产品设计工具篇 |
+| [[yt-personal-pan-product-practice]] | concept | 泛产品设计实操篇 |
+| [[yt-personal-pan-product-aesthetics]] | concept | 泛产品设计审美篇 |
+| [[yt-personal-pan-product-02]] | concept | 泛产品设计落地篇 |
+
+### 泛产品设计（Pan-Product Design）— 30 张
+
+**需求分析（Demand）— 11 张**
+| 卡片 | 类型 | 一句话 |
+|------|------|--------|
+| [[yt-panproduct-demand-need-discovery]] | tool | 需求挖掘 |
+| [[yt-panproduct-demand-user-perspective]] | tool | 用户视角 |
+| [[yt-panproduct-demand-user-segmentation]] | tool | 用户分层 |
+| [[yt-panproduct-demand-scenario-walkthrough]] | tool | 场景推演 |
+| [[yt-panproduct-demand-multi-perspective]] | tool | 多视角思考 |
+| [[yt-panproduct-demand-project-background]] | tool | 项目背景分析 |
+| [[yt-panproduct-demand-industry-canvas]] | tool | 行业分析画布 |
+| [[yt-panproduct-demand-motivation-resistance]] | tool | 动力阻力 |
+| [[yt-panproduct-demand-peak-end-rule]] | tool | 峰终定律 |
+| [[yt-panproduct-demand-five-step-method]] | tool | 一堂五步法 |
+| [[yt-panproduct-demand-surprise-formula]] | tool | 惊喜公式 |
+
+**落地执行（Execution）— 15 张**
+| 卡片 | 类型 | 一句话 |
+|------|------|--------|
+| [[yt-panproduct-execution-core-and-boundary]] | tool | 内核和边界 |
+| [[yt-panproduct-execution-design-principles]] | tool | 设计原则 |
+| [[yt-panproduct-execution-hypothesis-decomposition]] | tool | 假设拆解 |
+| [[yt-panproduct-execution-logic-mece]] | tool | 逻辑 MECE |
+| [[yt-panproduct-execution-realistic-simulation]] | tool | 努力仿真 |
+| [[yt-panproduct-execution-low-cost-mvp]] | tool | 低成本测试 MVP |
+| [[yt-panproduct-execution-10x-validation]] | tool | 十倍速验证 |
+| [[yt-panproduct-execution-business-modeling]] | tool | 业务建模 |
+| [[yt-panproduct-execution-risk-management]] | tool | 风险管理 |
+| [[yt-panproduct-execution-roi-analysis]] | tool | ROI 分析 |
+| [[yt-panproduct-execution-management-trilogy]] | tool | 管理三段论 |
+| [[yt-panproduct-execution-milestone-breakdown]] | tool | 里程碑拆解 |
+| [[yt-panproduct-execution-good-tools]] | tool | 善用佳软 |
+| [[yt-panproduct-execution-idea-spark]] | tool | 灵感闪现 |
+| [[yt-panproduct-execution-incubation-polish]] | tool | 酝酿式打磨 |
+| [[yt-panproduct-execution-liberate-thinking]] | tool | 解放思想 |
+| [[yt-panproduct-execution-review-iteration]] | tool | 复盘迭代 |
+| [[yt-panproduct-execution-war-room]] | tool | 攻坚会 |
+
+**审美（Aesthetics）— 4 张**
+| 卡片 | 类型 | 一句话 |
+|------|------|--------|
+| [[yt-panproduct-aesthetic-collection]] | tool | 最佳实践收集 |
+| [[yt-panproduct-aesthetic-imagination]] | tool | 美好作品想象 |
+| [[yt-panproduct-aesthetic-modeling]] | tool | 最佳实践建模 |
+| [[yt-panproduct-aesthetic-pool]] | tool | 最佳实践池子 |
+
+### 销讲（Pitch）— 10 张
+
+| 卡片 | 类型 | 一句话 |
+|------|------|--------|
+| [[yt-pitch-conflict]] | tool | 冲突化 |
+| [[yt-pitch-sublimation]] | tool | 升华化 |
+| [[yt-pitch-storytelling]] | tool | 故事化 |
+| [[yt-pitch-scenarization]] | tool | 场景化 |
+| [[yt-pitch-metaphor]] | tool | 比喻化 |
+| [[yt-pitch-emotionalization]] | tool | 情绪化 |
+| [[yt-pitch-quantification]] | tool | 数字化 |
+| [[yt-pitch-materialization]] | tool | 素材化 |
+| [[yt-pitch-colloquialization]] | tool | 口语化 |
+| [[yt-pitch-aphorism]] | tool | 金句化 |
+
+### 科学决策（Scientific Decision）— 7 张
+
+> 2 张 framework 在 Core，此处为 5 张 tool + 2 张辅助。
+
+| 卡片 | 类型 | 一句话 |
+|------|------|--------|
+| [[yt-decision-habit-shift]] | tool | X 型→Y 型决策者习惯诊断与转换 |
+| [[yt-decision-width-method]] | tool | 宽度分析：列推建查四步法+三层盲区清单 |
+| [[yt-decision-depth-ladder]] | tool | 深度阶梯：L1-L4 停车场模型+三点预测法 |
+| [[yt-decision-height-toolkit]] | tool | 高度分析：上帝视角四维提升法 |
+| [[yt-decision-consensus-iceberg]] | tool | 共识冰山：决策爬山·说服挖冰四层法 |
+| [[yt-decision-review]] | tool | 决策复盘：L1-L4 深度复盘法+假设验证闭环 |
+| [[yt-decision-canvas]] | tool | Y 模型决策画布（一页纸工具） |
+| [[yt-decision-ai-partner]] | tool | AI 决策 Partner 对话法 |
+
+### Prompt 工程 — 5 张
+
+| 卡片 | 类型 | 一句话 |
+|------|------|--------|
+| [[yt-prompt-anti-flattery]] | tool | 反谄媚机制：让 AI 说真话 |
+| [[yt-prompt-brainstorming]] | tool | AI 头脑风暴工作流 |
+| [[yt-prompt-iterative-prompting]] | tool | 迭代式提示词工作流（5 步法） |
+| [[yt-prompt-writing-workflow]] | tool | AI 写作工作流：大纲→要点→全文 |
+| [[yt-prompt-engineering-andrew-ng]] | course_notes | 吴恩达提示词课程·一堂拆书精华 |
+
+### 调研（Research）— 2 张
+
+> 1 张 framework 在 Core，此为辅助资料。
+
+| 卡片 | 类型 | 一句话 |
+|------|------|--------|
+| [[yt-research-action-camp-launch]] | concept | 调研行动营启动课 |
+| [[yt-research-weaponry-course]] | concept | 调研武器库课程 |
+
+### 医疗（Healthcare）— 5 张
+
+| 卡片 | 类型 | 一句话 |
+|------|------|--------|
+| [[互联网医院模式深度调研报告]] | concept | 互联网医院模式深度调研 |
+| [[保达云诊所深度调研报告]] | concept | 保达云诊所深度调研 |
+| [[鑫港湾his系统分阶段整改报告]] | concept | 鑫港湾 HIS 系统整改 |
+| [[诊所o2o外卖平台业务深度调研报告]] | concept | 诊所 O2O 外卖平台调研 |
+| [[街顺app全面调研报告]] | concept | 街顺 APP 全面调研 |
+| [[轻量级诊所HIS调研全清单]] | concept | 轻量级诊所 HIS 调研清单 |
+| [[开源HIS系统代码深度分析报告]] | concept | 开源 HIS 系统代码分析 |
+| [[HIS系统开发实现方案-架构师指南]] | concept | HIS 系统开发架构师指南 |
+| [[HIS系统深度调研]] | concept | HIS 系统深度调研 |
+
+### AI SaaS — 7 张
+
+| 卡片 | 类型 | 一句话 |
+|------|------|--------|
+| [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]] | concept | YC AI-Native 公司组织方法论 |
+| [[graph-rag]] | concept | Graph RAG 知识图谱检索 |
+| [[kimi-深度调研集群方法论-deep-research-swarm]] | concept | Kimi 深度调研集群方法论 |
+| [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]] | concept | Web Scraping 三剑客 |
+| [[紫鲸ai智能体工作流平台]] | concept | 紫鲸 AI 智能体工作流平台 |
+| [[紫鲸ai_智能体工作流平台_深度分析与产品设计]] | concept | 紫鲸 AI 深度分析与产品设计 |
+| [[deepseek-v4-在知识管理系统中的应用]] | concept | DeepSeek V4 应用分析 |
+
+### 未分类 / 工具链 — 其余卡片
+
+| 卡片 | 类型 | 一句话 |
+|------|------|--------|
+| [[business-research-skill-oscar-13-weapon-system]] | concept | Business Research Skill — OSCAR 13 武器体系 |
+| [[truman-perspective-skill]] | concept | Truman Perspective Skill |
+| [[tinyfish-agentic-web-infrastructure]] | concept | TinyFish Agentic Web 基础设施 |
+| [[paddleocr-skill]] | concept | PaddleOCR 本地+云端双模 OCR |
+| [[knowledge-delivery-os-快速体验指南-飞书云文档]] | concept | KDO 快速体验指南 |
+| [[kdo_product_design_agent_final]] | concept | KDO 产品设计大纲 v1.0 |
+| [[sprint-2-门禁举证验收]] | concept | Sprint 2 门禁举证验收 |
+| [[EC工业化规范手册]] | concept | EC 工业化规范手册 |
+| [[ec工业化规范手册-v2.8.0]] | concept | EC 工业化规范手册 v2.8.0 |
+| [[research_methodology]] | concept | 调研方法论（已取代） |
+| [[obsidian-kdo-内容产出工作流-产品设计大纲]] | concept | Obsidian+KDO 工作流（已取代） |
+
+---
+
+## Reference Layer — 外部资源
+
+> 不在 `concepts/` 目录内，但对理解知识库有用的文件和目录。
+
+### 实体（Entities）
+
+| 文件 | 类型 |
+|------|------|
+| [[entities/一堂]] | 组织 |
+| [[entities/YC-Y-Combinator]] | 组织 |
+| [[entities/紫鲸AI]] | 公司 |
+| [[entities/鑫港湾]] | 公司 |
+| [[entities/Kimi-月之暗面]] | 公司 |
+
+### 系统（Systems）
+
+| 文件 | 类型 |
+|------|------|
+| [[systems/kdo-protocol]] | KDO Agent 操作协议 |
+| [[systems/graph-rag-retrieval-layer]] | Graph RAG 检索层技术说明 |
+| [[systems/obsidian-git-sync-protocol]] | Git 多设备同步协议 |
+| [[systems/一堂方法论体系总图]] | 一堂方法论体系 |
+| [[systems/kdo-watch-health-check-layer]] | KDO Watch 定时巡检 |
+| [[systems/kdo-batch-produce-req014]] | REQ-014 批量 Produce |
+| [[systems/sprint-2-gate-enrich-evidence]] | Sprint 2 门禁设计规格 |
+
+### 项目（Projects）
+
+| 文件 | 类型 |
+|------|------|
+| [[projects/互联网医院项目]] | 项目 |
+| [[projects/诊所O2O项目]] | 项目 |
+| [[projects/鑫港湾HIS项目]] | 项目 |
+
+### 控制面板（90_control）
+
+| 文件 | 说明 |
+|------|------|
+| [[90_control/kdo-industrialization-manual]] | 工业化手册——编译规范、质量门、防呆 |
+| [[90_control/AGENTS.md]] | Agent 行为规则与分工 |
+| [[90_control/debate-protocol.md]] | 协作辩论协议 |
+
+### 记忆（20_memory）
+
+| 文件 | 说明 |
+|------|------|
+| [[20_memory/project-continuity.md]] | 项目上下文与待办 |
+| [[20_memory/corrections.md]] | 走过的弯路 |
+| [[20_memory/operating-principles.md]] | 知识库运作原则 |
+
+### 任务（70_product/tasks）
+
+| 文件 | 说明 |
+|------|------|
+| [[70_product/tasks/sprint-12-backfill-card-behavioral-requirements.md]] | Sprint 12 — v1.5 行为要求回填 |
+| [[70_product/tasks/kdo-infrastructure-backlog-proposal.md]] | 黄药师 KDO 基础设施 backlog |
+| [[70_product/tasks/scientific-decision-tool-cards-review-plan.md]] | 科学决策域审查方案 |
+| [[70_product/tasks/proposal-next-domain-research.md]] | 老顽童调研域提案 |
+
+### 素材入口
+
+| 目录 | 说明 |
+|------|------|
+| `00_inbox/` | 低摩擦捕获入口——想法、链接、AI 对话、截图 |
+| `10_raw/sources/` | 不可变原始资料——已编译的 .md 源文件 |
+| `00_inbox/科学决策/` | 科学决策域口述素材（~16000 行 + 35 张 PNG） |
+
+---
+
+## 统计面板
+
+| 维度 | 数量 |
+|------|------|
+| **Core** | 55 张（28%） |
+| **Extended** | 143 张（72%） |
+| **framework** | 37 张 |
+| **tool** | 97 张 |
+| **concept** | 61 张 |
+| **catalog / other** | 3 张 |
+
+| 域 | framework | tool | concept | 合计 |
+|------|-----------|------|---------|------|
+| 跨域 | 16 | 1 | 5 | 22 |
+| 创业 | 1 | 22 | — | 23 |
+| 管理 | 1 | — | 16 | 17 |
+| 个人修炼 | 5 | 15 | 6 | 26 |
+| 泛产品设计 | 9 | 30 | — | 39 |
+| 销讲 | 1 | 10 | — | 11 |
+| 科学决策 | 2 | 7 | — | 9 |
+| 调研 | 1 | — | 2 | 3 |
+| Prompt | 1 | 4 | 1 | 6 |
+| 医疗 | — | — | 9 | 9 |
+| AI SaaS | — | — | 7 | 7 |
+| 主域/工具链 | 2 | 5 | 9 | 16 |
+| 系统/目录 | — | — | 4 | 4 |
+| 已取代 | — | — | 2 | 2 |
+| **合计** | **39** | **94** | **61** | **194** |
+
+> 注：部分卡片跨类型统计，合计可能不完全等于 198。实际以 cards/ 目录文件数为准。
