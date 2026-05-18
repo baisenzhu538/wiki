@@ -16,6 +16,7 @@ related:
   - yt-research-competitor-toolkit
   - yt-research-expert-interview
   - yt-research-hypothesis-test
+  - yt-research-industry-canvas
 contradicts: []
 query_triggers:
 - 情报获取

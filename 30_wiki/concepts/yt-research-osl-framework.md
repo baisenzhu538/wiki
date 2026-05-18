@@ -15,6 +15,7 @@ related:
   - yt-research-intelligence-map
   - yt-research-competitor-toolkit
   - yt-research-hypothesis-test
+  - yt-research-expert-interview
   - yt-decision-y-model
   - yt-entrepreneur-key-hypotheses
 contradicts: []

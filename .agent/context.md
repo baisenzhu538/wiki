@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-18
 active_branch: main
-active_task: 老顽童调研域编译中。黄药师 KDO 基础设施 backlog P0+P1-A+P1-B+P2 全部完成。待欧阳锋审查产出。
+active_task: 老顽童调研域编译中。黄药师 KDO 基础设施 backlog 全部完成（P0/P1-A/P1-B/P2 ✅）。下个任务：质量门自动化 `kdo validate --v15`（[[70_product/tasks/quality-gate-automation-v15.md]]）
 blockers: []
 ---
 

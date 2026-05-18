@@ -18,6 +18,7 @@ related:
   - yt-research-intelligence-map
   - yt-research-competitor-toolkit
   - yt-entrepreneur-key-hypotheses
+  - yt-research-user-jtbd
 contradicts: []
 query_triggers:
   - 行业分析

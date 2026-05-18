@@ -248,3 +248,20 @@
 - 新 agent 入职 token 成本从 ~1M → ~350K（省 65%）
 - 黄药师 P2 完成后有 10 张 digest 卡待写
 - 老顽童调研域编译时可顺手出 digest-research.md 作为示范
+
+---
+
+## 2026-05-19：黄药师权限补齐——KDO 源码目录 + git/python/bash 全放行
+
+**背景**：之前"黄药师 `.claude/settings.json` 扩权"只覆盖了 wiki vault 目录。黄药师操作 KDO 源码（`C:\Users\Administrator\Knowledge Delivery OS 0.0.1\`）时会触发手动批准，`git`、`python`、`pytest` 等命令也未放行。用户反馈仍然需要审批。
+
+**根因**：权限配置只授权了 wiki vault 路径，漏了 KDO 源码路径。bash 白名单只放了 `kdo`、`python -m kdo`、`dir`、`findstr`，漏了 `git`、`python`、`pytest`、`pip`、`ls`、`where`。
+
+**决策**：`.claude/settings.json` 追加：
+- KDO 源码目录的 Read/Edit/Write/Glob/Grep（5 条）
+- Bash：`git`、`python`（独立，不限于 `python -m kdo`）、`pytest`、`pip`、`ls`、`where`（6 条）
+- Web：`WebFetch`、`WebSearch`（2 条，黄药师查文档需要）
+
+**澄清**：`Bash(python )` 匹配 `python` + 空格，涵盖 `python -m pytest`、`python -c ...` 等所有 python 调用。`Bash(pytest)` 无空格，匹配 `pytest` 命令本身。`Bash(git )` 涵盖所有 git 子命令。
+
+**后果**：黄药师在 wiki vault 和 KDO 源码两个目录均无需手动批准。新权限从下次会话生效。
