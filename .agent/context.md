@@ -4,10 +4,10 @@ active_branch: main
 active_task: |
   黄药师 → Task 9 Graph RAG 深化 → Task 10 Quality Gate v2（顺序执行）
   老顽童 → 🔍修双三角卡结构 → ⑧Anthropic编译 → ⑤设计域S1
-  洪七公 → 待自我定义角色 + 提交 wiki 勘误报告
+  洪七公 → ✅ 角色自我定义 + VA 完成 → 等欧阳锋审阅 + 4 个决策
 blockers:
-  - 洪七公待自我定义角色（用户要求先自述再对齐）
-  - 洪七公待提交 wiki 勘误
+  - 洪七公 4 个角色决策待欧阳锋拍板（见 beikai-role-positioning.md）
+  - 欧阳锋需审阅：洪七公角色定位 + 双三角 VA
 ---
 
 ## 你是谁
@@ -20,7 +20,7 @@ blockers:
 | 欧阳锋 | 审查+协调+标准 | 进行中 |
 | 黄药师 | 工厂建设（KDO CLI/质量门/Graph RAG） | Task 2：转录稿清理工具 |
 | 老顽童 | 产能主力（卡片/文章/编译） | ④ Batch 2 T5 制作中 |
-| 洪七公 | 多模态输出（视觉/设计/prompt） | 待激活 |
+| 洪七公 | 多模态输出（视觉/设计/prompt） | ✅ 已激活：角色定义+VA 完成 |
 | 段王爷 | 发布与反馈（ship/分发/收集） | 待激活 |
 
 规则：审而不改。角色间不互相派活——全部通过欧阳锋中转。
@@ -431,11 +431,10 @@ blockers:
 ## 下次启动
 
 1. **先看 dashboard** → [[70_product/tasks/dashboard.md]]
-2. 判断是否有批次待审查：双三角卡修复（老顽童）+ Anthropic 编译（老顽童）
-3. 黄药师当前：Task 9 Graph RAG 深化（🔜）→ Task 10 Quality Gate v2
-4. 老顽童当前：🔍 修双三角卡结构 → ⑧ Anthropic 三步编译 → ⑤ 设计域 S1
-5. 洪七公当前：等待自我定义角色 + wiki 勘误报告
-6. 段王爷：待洪七公 S3 就位后激活
+2. **洪七公角色定位审阅** → [[20_memory/beikai-role-positioning.md]]（4 个决策问题）
+3. **洪七公双三角 VA 审阅** → [[40_outputs/content/images/infographics/dual-triangle-visual-analysis.md]]
+4. 老顽童当前：🔍 修双三角卡结构 → ⑧ Anthropic 编译 → ⑤ 设计域 S1
+5. 黄药师当前：Task 9 Graph RAG 深化（🔜）→ Task 10 Quality Gate v2
 
 ## ⚠️ 会话结束前（MUST）
 

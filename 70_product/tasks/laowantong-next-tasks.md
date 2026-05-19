@@ -247,7 +247,7 @@ kdo validate --v15 --card <id>
 | T1 `yt-tool-meeting-designer` Line 90 | `只需要知会议会把议程定好` | `只需要知道会议会把议程定好` | ✅ |
 | T3 `yt-tool-okr-cycle` Line 105 | `团队脚脑暴` | `团队头脑风暴` | ✅ |
 
-### 双三角竞争力模型卡 → A-（内容 A，结构需修）
+### 双三角竞争力模型卡 → A-（内容 A，结构需修，设计域产出完整 ✅）
 
 **卡片**：[[yt-model-dual-triangle-competitiveness]]
 
@@ -255,6 +255,11 @@ kdo validate --v15 --card <id>
 - Mintzberg（实践手艺不可编码）+ Taleb（幸存者偏差/赢家归纳错误）——两个攻击角度精准、独立、有具体引用来源
 - Visual Analysis 五维分析（空间层级/分组逻辑/阅读路径/视觉强调/留白含义）是 KDO 迄今最详尽的信息图分析，方法论自觉
 - 3 个不要用场景 + 4 个 Action Triggers 均合格，替代方案具体可操作
+
+**关联设计域产出**（洪七公+老顽童联合产出，均已完成 ✅）：
+- `40_outputs/content/images/infographics/dual-triangle-visual-analysis.md` — 158 行完整视觉分析报告（洪七公）
+- `40_outputs/content/images/infographics/dual-triangle-competitiveness.excalidraw` — Excalidraw 重绘信息图（洪七公）
+- 归属错位发现：原图 vs wiki 卡片子项归属不一致（洪七公发现，老顽童在卡片中添加注释）
 
 **结构问题（需修复，5min）**：
 
@@ -273,15 +278,18 @@ kdo validate --v15 --card <id>
 
 2. **重复 `related:` 字段**：frontmatter 中 `related:` 出现两次（Line 14-17 和 Line 34-37），YAML 解析时后者覆盖前者。删掉其中一组（保留较完整的 Line 14-17，删 Line 34-37 的简版）。
 
-### Anthropic 创始人手册 → ⚠️ 未开工
+### 老顽童本次完成总结
 
-`30_wiki/concepts/anthropic-官方发布创始人手册打造-ai-原生初创公司.md` 仍是 ingest 骨架（Summary 一段 + TODO 占位），老顽童尚未开始三步编译。
+| 产出 | 状态 | 评级 |
+|------|:--:|:--:|
+| T1/T3 typo 修复 | ✅ | — |
+| 双三角卡内容（Mintzberg+Taleb, VA, 3 不要用, 4 AT） | ✅ | A |
+| 双三角卡结构（H3→H4, 重复 related） | ⏳ | 待修 |
+| 双三角配套 Visual Analysis + Excalidraw | ✅ | 洪七公联合作业 |
+| Anthropic 创始人手册 | ⚠️ | 未开工 |
+| 设计域 S1/S2/S3 | ⏳ | 排队 |
 
-### 下一步
-
-1. **立即**：修双三角卡 2 个结构问题（5min）
-2. **优先**：Anthropic 三步编译（按 ⑧ 执行步骤 1-5）
-3. **后续**：⑤ 设计域 S1 模型选型指南 skill
+**审查结论**：老顽童实际上完成了设计和内容两个维度的产出——Visual Analysis 五维方法论 + Excalidraw 重绘是 KDO 首次打通"卡片→视觉分析→重绘"的完整设计管线。结构问题两个（5min），不影响内容评级。
 
 ---
 

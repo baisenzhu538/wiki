@@ -18,7 +18,7 @@ updated: 2026-05-19
 | ② | 双三角文章 v2 | — | ✅ | 用户已通过，关闭 |
 | ③ | 管理工具箱 Batch 1（F1+T1+T2） | 工具箱 | ✅ | 全 A。T1 typo 已修 ✅ |
 | ④ | 管理工具箱 Batch 2（T3+T4+T5） | 工具箱 | ✅ | T3 A / T4 A+ / T5 A。T3 typo 已修 ✅ |
-| 🔍 | 双三角卡结构修复 | — | ⏳ | H3→H4 攻击者标题 + 删重复 related（审查 A-） |
+| 🔍 | 双三角卡结构修复 | — | ⏳ | H3→H4 攻击者标题 + 删重复 related（审查 A-）。设计域产出：Visual Analysis + Excalidraw 重绘已完成 ✅ |
 | 🆕 | Anthropic AI 原生初创手册 | 素材编译 | 🔜 | 优先——ingest ✅，wiki 骨架已生成，三步编译 |
 | ⑤ | 设计域 → 3 个 Skill | 洪七公+段王爷 | ⏳ | S1+S2+S3 skill 文件 |
 | ⑥ | v1.5 全库修复（89 FAILED） | 质量 | ⏳ | 等 scaffold 工具 + 设计域完成后启动 |
@@ -59,11 +59,23 @@ updated: 2026-05-19
 
 ---
 
-## 洪七公（Multimodal）
+## 洪七公（Multimodal · 飞书 Hermes）
 
 | # | 任务 | 状态 | 备注 |
 |---|------|------|------|
-| — | 待激活 | ⚠️ | 任务派发协议待定义 |
+| 1 | 角色自我定义 | ✅ | `20_memory/beikai-role-positioning.md`（296行，85技能×18领域，4个待决策问题） |
+| 2 | 双三角 Visual Analysis | ✅ | `40_outputs/content/images/infographics/dual-triangle-visual-analysis.md`（158行五维分析） |
+| 3 | 双三角 Excalidraw 重绘 | ✅ | `40_outputs/content/images/infographics/dual-triangle-competitiveness.excalidraw` |
+| 4 | wiki 勘误（归属错位） | ✅ | 发现原图 vs 卡片子项归属错位，已写入 Visual Analysis + 卡片注释 |
+| 5 | 角色边界决策 | ⏳ | 4 个待欧阳锋决策的问题（见角色定位文件） |
+
+### 洪七公 — 待欧阳锋决策
+
+详见 [[20_memory/beikai-role-positioning.md]]，4 个问题：
+1. 角色边界：AGENTS.md 是"最小职责集"还是"最大边界墙"？
+2. 执行接口标准化：触发机制是否需要统一？
+3. 归属错位处理原则：原图 vs wiki 卡片不一致时用哪个？
+4. 技能升级权限：85 个技能中哪些正式注册？
 
 ## 段王爷（Publisher）
 
@@ -77,9 +89,9 @@ updated: 2026-05-19
 
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
-| 老顽童 | 双三角卡结构修复 | H3→H4 + 删重复 related（审查发现，等老顽童修） |
-| 洪七公 | wiki 勘误 | 发现 wiki 中的错误，待提交报告 |
-| 洪七公 | 角色自我定义 | 用户要求洪七公先自述角色理解，再与欧阳锋对齐 |
+| 老顽童 | 双三角卡 H3→H4 + 删重复 related | 审查发现，等老顽童修 |
+| 洪七公 | 4 个角色决策待欧阳锋拍板 | 见 `beikai-role-positioning.md` |
+| 欧阳锋 | 需审阅洪七公角色定位 + 双三角 VA | 两份文件均已就位 |
 
 ---
 
@@ -87,10 +99,11 @@ updated: 2026-05-19
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
-| 05-19 | 欧阳锋 | 老顽童工作审查 | T1/T3 typo ✅，双三角卡 A-（2 结构问题），Anthropic 未开工 |
+| 05-19 | 洪七公 | 双三角 Excalidraw 重绘 | ✅ `dual-triangle-competitiveness.excalidraw` |
+| 05-19 | 洪七公 | 双三角 Visual Analysis | ✅ `dual-triangle-visual-analysis.md`（158行五维分析） |
+| 05-19 | 洪七公 | 角色自我定义 | ✅ `beikai-role-positioning.md`（296行，85技能×18领域） |
+| 05-19 | 老顽童 | 双三角卡更新 | 新增 Visual Analysis 节 + 归属错位注释 |
+| 05-19 | 欧阳锋 | 老顽童工作审查 | T1/T3 typo ✅，双三角卡 A-（2 结构问题） |
 | 05-19 | 黄药师 | Task 8 graph stats | ✅ 4 tests, --json |
 | 05-19 | 黄药师 | Task 7 graph rebuild --incremental | ✅ 5 tests, --full + incremental |
 | 05-19 | 黄药师 | Task 6 kdo task 自动化 | ✅ 5 子命令 + 6 tests |
-| 05-19 | 黄药师 | Batch 2 全部完成 | Task 4-8 全线 ✅，247 tests pass |
-| 05-19 | 老顽童 | T1/T3 typo 修复 | ✅ 两处均确认修复 |
-| 05-19 | 欧阳锋 | 设计域方向调整 | 废弃 D1-D7 → 3 个 Skill |
