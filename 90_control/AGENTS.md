@@ -113,20 +113,98 @@ KDO 知识工厂五角色分工，协作规则定义在 `90_control/debate-proto
 
 每个角色从固定路径接收任务和工作素材，产出写入固定路径。不跨角色翻别人的输出目录找活干。
 
-| 角色 | 接收任务 | 工作素材 | 知识/内容产出 | 视觉/代码产出 | 勘误/反馈 |
-|------|---------|---------|-------------|-------------|----------|
-| **欧阳锋** | 用户指令 + 全员产出 | — | `70_product/tasks/` 任务文件 + `.agent/` 决策记录 | — | 审查结论写入对应任务文件 |
-| **老顽童** | `70_product/tasks/laowantong-next-tasks.md` | `00_inbox/` 新素材 → `10_raw/sources/` 已 ingest 素材 | `30_wiki/concepts/` 知识卡片 + `40_outputs/content/articles/` 文章 | `40_outputs/capabilities/skills/` 操作手册类 skill | 编译中发现问题 → 卡片内注释 + `60_feedback/corrections/` |
-| **黄药师** | `70_product/tasks/huangyaoshi-next-tasks.md` | KDO CLI 源码（外部目录） | `90_control/` 方法论/标准/质量门文档 | `kdo/` 代码 + `70_product/tasks/` 工单 | pytest 结果 + CLI 日志 → `70_product/tasks/` 对应工单 |
-| **洪七公** | `70_product/tasks/dashboard.md` 洪七公任务区 | `30_wiki/concepts/` 待可视化卡片 + `10_raw/assets/` 原图/截图 | **静态视觉**：`40_outputs/content/images/infographics/`（信息图/Excalidraw/SVG/ASCII/VA报告）**动态视觉**：`40_outputs/content/videos/`（视频/动画/ASCII视频/后期）**音频**：`40_outputs/content/audio/`（TTS播客/AI音乐/可视化）**演示**：`40_outputs/content/presentations/`（PPT）**网页**：`40_outputs/code/templates/` | `40_outputs/capabilities/skills/` 自建多模态 skill | 归属错位/视觉不一致 → `60_feedback/corrections/`（不改卡片主体） |
-| **段王爷** | `70_product/tasks/dashboard.md` 段王爷任务区 | `40_outputs/` 中待发布 artifact | `50_delivery/` 发布记录 | `50_delivery/channels/` 渠道配置 | 外部反馈 → `60_feedback/comments/` + `60_feedback/issues/` |
+#### 老顽童（Producer）
+
+| 方向 | 路径 |
+|------|------|
+| **接收任务** | `70_product/tasks/laowantong-next-tasks.md` |
+| **工作素材** | `00_inbox/` 新素材 → `10_raw/sources/` 已 ingest 素材 |
+| **知识卡片** | `30_wiki/concepts/` |
+| **文章** | `40_outputs/content/articles/` |
+| **课程** | `40_outputs/content/courses/` |
+| **报告** | `40_outputs/content/reports/` |
+| **教程** | `40_outputs/content/tutorials/` |
+| **操作手册 skill** | `40_outputs/capabilities/skills/` |
+| **勘误/发现** | 卡片内注释 + `60_feedback/corrections/` |
+
+#### 洪七公（Multimodal Arbiter）
+
+| 方向 | 路径 | 产出类型 |
+|------|------|---------|
+| **接收任务** | `70_product/tasks/dashboard.md` 洪七公任务区 | — |
+| **工作素材** | `30_wiki/concepts/` + `10_raw/assets/` | 待可视化卡片 + 原图/截图 |
+| **静态视觉** | `40_outputs/content/images/infographics/` | 信息图、Excalidraw、SVG、ASCII 艺术、知识地图重绘、VA 报告 |
+| **动态视觉** | `40_outputs/content/videos/` | 文章转视频、manim 动画、ASCII 视频、字幕/格式后期 |
+| **音频** | `40_outputs/content/audio/` | TTS 播客、AI 音乐/BGM、音频可视化 |
+| **生成视觉** | `40_outputs/content/images/generative/` | p5js 生成艺术、Stable Diffusion、AI 画图 |
+| **演示** | `40_outputs/content/presentations/` | Markdown→PPT |
+| **网页模板** | `40_outputs/code/templates/` | 网页设计模板 |
+| **多模态 skill** | `40_outputs/capabilities/skills/` | 自建多模态 pipeline |
+| **勘误** | `60_feedback/corrections/` | 归属错位、视觉不一致（不改卡片主体） |
+
+#### 黄药师（Builder）
+
+| 方向 | 路径 |
+|------|------|
+| **接收任务** | `70_product/tasks/huangyaoshi-next-tasks.md` |
+| **工作素材** | KDO CLI 源码（`C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\`） |
+| **KDO CLI 代码** | 同上外部目录 |
+| **方法论/标准** | `90_control/`（工业化手册、质量门、铁律） |
+| **工作流** | `40_outputs/capabilities/workflows/` |
+| **Agent 定义** | `40_outputs/capabilities/agents/` |
+| **评测框架** | `40_outputs/capabilities/evals/` |
+| **操作手册** | `40_outputs/capabilities/playbooks/` |
+| **代码模板** | `40_outputs/code/templates/` |
+| **系统 skill** | `40_outputs/capabilities/skills/`（KDO 内置 skill） |
+| **工单/日志** | `70_product/tasks/` 对应工单 |
+
+#### 段王爷（Publisher）
+
+| 方向 | 路径 |
+|------|------|
+| **接收任务** | `70_product/tasks/dashboard.md` 段王爷任务区 |
+| **工作素材** | `40_outputs/` 中待发布 artifact |
+| **发布记录** | `50_delivery/` |
+| **渠道配置** | `50_delivery/channels/` |
+| **外部反馈** | `60_feedback/comments/` + `60_feedback/issues/` |
+
+#### 欧阳锋（Architect）
+
+| 方向 | 路径 |
+|------|------|
+| **接收任务** | 用户指令 + 全员产出 |
+| **任务文件** | `70_product/tasks/` |
+| **决策记录** | `.agent/context.md` + `.agent/decisions.md` |
+| **审查结论** | 写入对应任务文件 |
+
+### 40_outputs 目录归属一览
+
+```
+40_outputs/
+├── content/
+│   ├── articles/      → 老顽童
+│   ├── courses/       → 老顽童
+│   ├── reports/       → 老顽童
+│   ├── tutorials/     → 老顽童
+│   ├── images/        → 洪七公
+│   ├── videos/        → 洪七公
+│   ├── audio/         → 洪七公
+│   └── presentations/ → 洪七公
+├── capabilities/
+│   ├── skills/        → 混合（老顽童=操作手册 / 洪七公=多模态 / 黄药师=系统skill）
+│   ├── workflows/     → 黄药师
+│   ├── agents/        → 黄药师
+│   ├── evals/         → 黄药师
+│   └── playbooks/     → 黄药师
+└── code/              → 黄药师（apps/packages/plugins/scripts/templates）
+```
 
 **查找规则**：
 - 想知道谁在做什么 → 看 `dashboard.md`
-- 想要老顽童/黄药师的产出 → 去他们的产出路径找
-- 想要洪七公的视觉资产 → `40_outputs/content/images/infographics/`
-- 想要洪七公的勘误 → `60_feedback/corrections/`
-- 想要段王爷的发布状态 → `50_delivery/`
+- 找老顽童的文章/课程/报告 → `content/articles/` `courses/` `reports/` `tutorials/`
+- 找洪七公的视觉/音频/演示 → `content/images/` `videos/` `audio/` `presentations/`
+- 找黄药师的系统文件 → `capabilities/` `code/` `90_control/`
+- 找段王爷的发布状态 → `50_delivery/`
 - 角色间疑问 → 异步疑问传递机制（见下节）
 
 ### 异步疑问传递机制
