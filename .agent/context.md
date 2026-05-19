@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-19
 active_branch: main
-active_task: 黄药师→三件顺序执行（scaffold ✅ → 转录稿清理 → validate watch）。老顽童→七件顺序执行（详细队列见各自任务文件）。
+active_task: 黄药师→空闲（三件全部完成 ✅）。老顽童→七件顺序执行（详细队列见各自任务文件）。
 blockers: []
 ---
 
@@ -128,7 +128,7 @@ blockers: []
 - 待用户灌入 prompt 收藏到 `00_inbox/design/`，agent 拆卡
 
 ### KDO CLI 状态
-- 42 .py 文件，11,635 行，11 测试文件
+- 44 .py 文件，~12,300 行，13 测试文件
 - `kdo cards/lint/card-diff/review` 正常
 - **Graph RAG ✅ — `kdo query` 默认引擎**：
   - `kdo query "..."` 默认走 LightRAG 语义+图检索
@@ -156,8 +156,20 @@ blockers: []
 | `kdo review --sample 5 --domain yitang` | 随机抽检卡片，输出理解门禁摘要 |
 | `kdo lint --accept-baseline` | 将当前 warning 快照存入 baseline.json，后续 lint 只显示新增 |
 | `kdo lint --structure-report` | 全库卡片按 H2 结构聚类，输出类型分布摘要 |
+| `kdo scaffold --card <id>` | 为缺失 v1.5 信号的卡生成升级骨架（攻击者建议+TODO占位） |
+| `kdo scaffold --batch A` | 整批 dry-run（A=全信号缺失, B=缺攻击, C=缺AT, D=研究降级, E=warnings） |
+| `kdo scaffold --from-plan --write` | 从升级计划整批写入骨架 |
+| `kdo clean-transcript <file>` | ASR 转录稿清理（去噪+去口头禅+分段+术语标注） |
+| `kdo validate --v15 --watch` | 文件保存自动重检（2s 防抖，Ctrl+C 退出） |
 
 ## 最近决策
+
+### 2026-05-19：黄药师三件全部完成 ✅（scaffold + 转录稿清理 + validate watch）
+
+- **Task 1 `kdo scaffold`**（[[70_product/tasks/kdo-scaffold-v15.md]]）：`quality.py` +210 行，4 类骨架生成器，同域攻击者智能建议，--from-plan 覆盖 115 卡 0 崩溃
+- **Task 2 `kdo clean-transcript`**（[[70_product/tasks/huangyaoshi-next-tasks.md]]）：`transcript.py` 新模块 ~120 行，规则引擎去噪（回声/网络/互动行 + 填充词 + 断句合并 + 术语标注），两份设计转录稿已验证
+- **Task 3 `kdo validate --v15 --watch`**：`quality.py` +70 行，纯 stdlib `os.stat` 轮询，2s 防抖，Ctrl+C 退出，--domain 过滤，--json 输出
+- **pytest**：228/229 pass（1 flaky dashboard 预存），+24 新 tests（scaffold 17 + transcript 7）
 
 ### 2026-05-19：黄药师 `kdo scaffold` 完成 ✅
 
