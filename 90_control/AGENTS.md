@@ -118,7 +118,7 @@ KDO 知识工厂五角色分工，协作规则定义在 `90_control/debate-proto
 | **欧阳锋** | 用户指令 + 全员产出 | — | `70_product/tasks/` 任务文件 + `.agent/` 决策记录 | — | 审查结论写入对应任务文件 |
 | **老顽童** | `70_product/tasks/laowantong-next-tasks.md` | `00_inbox/` 新素材 → `10_raw/sources/` 已 ingest 素材 | `30_wiki/concepts/` 知识卡片 + `40_outputs/content/articles/` 文章 | `40_outputs/capabilities/skills/` 操作手册类 skill | 编译中发现问题 → 卡片内注释 + `60_feedback/corrections/` |
 | **黄药师** | `70_product/tasks/huangyaoshi-next-tasks.md` | KDO CLI 源码（外部目录） | `90_control/` 方法论/标准/质量门文档 | `kdo/` 代码 + `70_product/tasks/` 工单 | pytest 结果 + CLI 日志 → `70_product/tasks/` 对应工单 |
-| **洪七公** | `70_product/tasks/dashboard.md` 洪七公任务区 | `30_wiki/concepts/` 待可视化卡片 + `10_raw/assets/` 原图/截图 | **视觉资产**：`40_outputs/content/images/infographics/`（信息图/Excalidraw/SVG）`40_outputs/content/videos/`（视频）`40_outputs/content/audio/`（音频）**VA 报告**：与对应信息图同目录 | `40_outputs/capabilities/skills/` 自建多模态 skill | 归属错位/视觉不一致 → `60_feedback/corrections/`（不改卡片主体） |
+| **洪七公** | `70_product/tasks/dashboard.md` 洪七公任务区 | `30_wiki/concepts/` 待可视化卡片 + `10_raw/assets/` 原图/截图 | **静态视觉**：`40_outputs/content/images/infographics/`（信息图/Excalidraw/SVG/ASCII/VA报告）**动态视觉**：`40_outputs/content/videos/`（视频/动画/ASCII视频/后期）**音频**：`40_outputs/content/audio/`（TTS播客/AI音乐/可视化）**演示**：`40_outputs/content/presentations/`（PPT）**网页**：`40_outputs/code/templates/` | `40_outputs/capabilities/skills/` 自建多模态 skill | 归属错位/视觉不一致 → `60_feedback/corrections/`（不改卡片主体） |
 | **段王爷** | `70_product/tasks/dashboard.md` 段王爷任务区 | `40_outputs/` 中待发布 artifact | `50_delivery/` 发布记录 | `50_delivery/channels/` 渠道配置 | 外部反馈 → `60_feedback/comments/` + `60_feedback/issues/` |
 
 **查找规则**：

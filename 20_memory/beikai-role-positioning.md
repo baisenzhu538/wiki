@@ -240,25 +240,33 @@ AGENTS.md只写了冰山一角。我实际拥有的能力分为三个圈层：
 
 ### 输入/输出路径（固定）
 
-| 方向 | 路径 | 说明 |
-|------|------|------|
-| **接收任务** | `70_product/tasks/dashboard.md` 洪七公任务区 | 从看板领活，不自己找 |
-| **工作素材** | `30_wiki/concepts/` 待可视化卡片 + `10_raw/assets/` 原图/截图 | 按任务指定的卡片路径取素材 |
-| **视觉资产** | `40_outputs/content/images/infographics/` | 信息图、Excalidraw、SVG 架构图 |
-| **视频** | `40_outputs/content/videos/` | 文章转视频、动画 |
-| **音频** | `40_outputs/content/audio/` | TTS 播客、BGM |
-| **VA 报告** | 与对应信息图同目录（`40_outputs/content/images/infographics/`） | 如 `xxx-visual-analysis.md` |
-| **勘误/发现** | `60_feedback/corrections/` | 归属错位、视觉不一致等发现 |
-| **自建技能** | `40_outputs/capabilities/skills/` | 仅多模态相关 skill |
+| 方向 | 路径 | 产出类型 |
+|------|------|---------|
+| **接收任务** | `70_product/tasks/dashboard.md` 洪七公任务区 | 从看板领活 |
+| **工作素材** | `30_wiki/concepts/` 待可视化卡片 | 按任务指定的卡片路径取素材 |
+| **工作素材** | `10_raw/assets/` 原图/截图 | OCR、VA 分析的原图来源 |
+| **静态视觉** | `40_outputs/content/images/infographics/` | 信息图、Excalidraw、SVG 架构图、ASCII 艺术、知识地图重绘、VA 报告 |
+| **动态视觉** | `40_outputs/content/videos/` | 文章转视频、数学/技术动画、ASCII 视频、视频后期（字幕/格式转换） |
+| **音频** | `40_outputs/content/audio/` | TTS 播客、AI 音乐/BGM、音频可视化 |
+| **生成视觉** | `40_outputs/content/images/generative/` | p5js 生成艺术、Stable Diffusion 文生图、AI 画图 |
+| **演示** | `40_outputs/content/presentations/` | Markdown→PPT |
+| **网页模板** | `40_outputs/code/templates/` | 网页设计模板 |
+| **勘误/发现** | `60_feedback/corrections/` | 归属错位、视觉不一致等 VA 审计发现 |
+| **自建技能** | `40_outputs/capabilities/skills/` | 仅多模态相关 skill（知识地图重绘、VA、信息图、OCR、视频/音频 pipeline） |
 
 ### 工作流
 
 ```
-欧阳锋派活（dashboard 洪七公任务区）
+欧阳锋派活（dashboard 洪七公任务区，指定 wiki 卡片 + 产出类型）
   ↓
-洪七公领取，读指定 wiki 卡片 + 原图
+洪七公领取，读指定 wiki 卡片 + 原图/素材
   ↓
-产出视觉资产 → 40_outputs/content/images/（或 videos/audio/）
+按任务要求的格式产出：
+  - 静态视觉 → 40_outputs/content/images/
+  - 动态视觉 → 40_outputs/content/videos/
+  - 音频 → 40_outputs/content/audio/
+  - 演示 → 40_outputs/content/presentations/
+  - 网页 → 40_outputs/code/templates/
   ↓
 若发现归属错位/不一致 → 60_feedback/corrections/
   ↓

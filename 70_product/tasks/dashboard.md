@@ -62,8 +62,8 @@ updated: 2026-05-19
 
 > **定位**：多模态知识仲裁者。主业=知识→视觉资产。副业=VA 过程中发现归属错位。
 > **输入**：`dashboard` 任务 + `30_wiki/concepts/` 卡片 + `10_raw/assets/` 原图
-> **输出**：视觉 → `40_outputs/content/images/` `videos/` `audio/`；勘误 → `60_feedback/corrections/`
-> **规则**：不自行修改卡片主体结构。原图优先于卡片文字。详细角色定义 → [[20_memory/beikai-role-positioning.md]]
+> **输出**：静态视觉 → `40_outputs/content/images/` · 动态视觉 → `videos/` · 音频 → `audio/` · 演示 → `presentations/` · 网页 → `code/templates/` · 勘误 → `60_feedback/corrections/`
+> **规则**：不自行修改卡片主体结构。原图优先于卡片文字。详细 → [[20_memory/beikai-role-positioning.md]]
 
 | # | 任务 | 状态 | 备注 |
 |---|------|------|------|
