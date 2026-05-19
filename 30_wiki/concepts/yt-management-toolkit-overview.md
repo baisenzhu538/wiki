@@ -2,7 +2,7 @@
 id: yt-management-toolkit-overview
 title: 管理工具箱总览
 type: framework
-status: draft
+status: enriched
 domain:
 - yitang
 language: zh-CN
