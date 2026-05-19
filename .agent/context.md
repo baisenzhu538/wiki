@@ -1,7 +1,7 @@
 ---
-updated: 2026-05-18
+updated: 2026-05-19
 active_branch: main
-active_task: 老顽童→下个任务（补related边→双三角文章v2→提案新域）。黄药师→质量门自动化 `kdo validate --v15`（[[70_product/tasks/quality-gate-automation-v15.md]]）。所有域编译/升级完成。
+active_task: 老顽童→下个任务（补related边→双三角文章v2→提案新域）。黄药师→质量门自动化 `kdo validate --v15` 完成，待欧阳锋审查。所有域编译/升级完成。
 blockers: []
 ---
 
@@ -196,6 +196,26 @@ blockers: []
   - 验证：88 files, 279 KB
 - **CLAUDE.md**：KDO CLI 速查表更新（lint 完整参数、backup、cards 命令）
 - pytest: 181/182 green（1 flaky dashboard test，预存无关）
+
+### 2026-05-19：黄药师质量门自动化 `kdo validate --v15` 完成 ✅
+
+- **任务文件**：[[70_product/tasks/quality-gate-automation-v15.md]]
+- **核心实现**：`kdo/commands/quality.py` +200 行
+  - 6 种结构 × v1.5 三信号校验矩阵（standard-concept/pan-product/pan-product-upgraded 全检，research 降级，catalog-index 最低，other 人工审查）
+  - 外部攻击：H4 scholar headings 计数 + 去重（回退 italic spans）
+  - 不要用场景：`### 不要用*` H3 子节下 3 列表格行计数（排除表头）
+  - Action Triggers：H2/H3 双位置搜索 + 3 列表格行计数（排除表头）
+- **CLI 接口**：`kdo validate --v15 [--domain] [--type] [--card] [--json]`
+- **pytest**：205/205 passed（新增 24 test cases，1 skipped），1 flaky dashboard test 本次也未触发
+- **全库运行**：205 cards — 45 passed / 89 failed / 71 warning
+  - Failed：主要是 pan-product tool 卡未升级 v1.5（external-attacks 0/2）
+  - Warning：research/other/catalog-index 结构卡（downgrade check + manual review）
+  - 无假阳性崩溃
+- **关键修复**：
+  - `classify_card_structure` 提取到模块级别（system.py→quality.py 复用）
+  - 修复 research 卡分类（Reusable Knowledge/Open Questions 优先于 Critique 检测）
+  - 修复表格计数（排除表头行 `past_sep` 逻辑）
+  - 修复 GBK 编码问题（Unicode 符号 → ASCII）
 
 ### 2026-05-18：黄药师 Batch 7（最终批）—— Batch C 29/30 实质完成
 
