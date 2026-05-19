@@ -1,11 +1,12 @@
 ---
 id: fix-validate-v15-domain-filter
 title: "修复 kdo validate --v15 的 --domain 过滤失效"
-status: pending
+status: done
 priority: P1
 assigned_to: 黄药师
 reviewer: 欧阳锋
 created: 2026-05-19
+completed: 2026-05-19
 depends_on: quality-gate-automation-v15
 ---
 

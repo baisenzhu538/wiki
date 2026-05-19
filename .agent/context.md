@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-19
 active_branch: main
-active_task: 老顽童→下个任务（①补related边 ②双三角文章v2 ③提案新域）。黄药师→修 `--domain` 过滤 bug（[[70_product/tasks/fix-validate-v15-domain-filter.md]]，A-审查通过，一个 P1 bug 待修）
+active_task: 老顽童→下个任务（①补related边 ②双三角文章v2 ③提案新域）。黄药师→`--domain` 过滤 bug 已修（[[70_product/tasks/fix-validate-v15-domain-filter.md]]），待欧阳锋复验
 blockers: []
 ---
 
@@ -137,6 +137,27 @@ blockers: []
 | `kdo lint --structure-report` | 全库卡片按 H2 结构聚类，输出类型分布摘要 |
 
 ## 最近决策
+
+### 2026-05-19：黄药师 kdo validate --v15 审查通过（A-）+ domain filter bug 工单
+
+**审查结论**：
+- 代码质量 A：~350 行，结构清晰，`_parse_card_sections` + `_count_*` x3 + `cmd_validate_v15`
+- 测试 A：24 tests（23 pass + 1 skip），6 结构分类 + 4 集成 + 双模式攻击检测
+- 真实卡验证 A：205 张全量扫描 0 崩溃，45 pass / 89 fail / 71 warn 均为真实反映
+- JSON/--card/--type 均正常。全量 pytest 205/205 pass，无回归
+
+**Bug — `--domain` 过滤失效**：
+- `_read_frontmatter()` 单行正则无法解析多行 YAML 列表 `domain:\n  - yitang`（168/195 张卡）
+- `--domain yitang` 只命中 7 张（预期 ~140）
+- 工单已下发：[[70_product/tasks/fix-validate-v15-domain-filter.md]]
+
+**小问题（不阻塞）**：
+- 学者名含中文标题（H4 无冒号时 fallback 到全文本），去重正确但显示不干净
+- `--type` dest="ctype" 与 task spec 中的 `--type` 一致，仅内部命名差异
+
+**后果**：
+- 黄药师修 `--domain` bug（~15 行，`_read_frontmatter` 支持多行列表 + domain 比较改为 `in` 检查）
+- 修完后欧阳锋复验 → A → 合入
 
 ### 2026-05-18：老顽童调研方法论域提案批准 + 老顽童评估升级
 
