@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-19
 active_branch: main
-active_task: 黄药师→`kdo validate --v15 --upgrade-plan`（[[70_product/tasks/validate-v15-upgrade-plan.md]]）。老顽童→下个任务（①补related边 ②双三角文章v2 ③提案新域）。
+active_task: 黄药师→空闲（三件工单全完成）。老顽童→下个任务（①补related边 ②双三角文章v2 ③提案新域）。
 blockers: []
 ---
 
@@ -91,6 +91,7 @@ blockers: []
 - pytest ✅（9.0.3，205/205 passing）| 坚果云备份 ✅
 - 权限已扩：`.claude/settings.json` 开放 vault 全路径 + kdo 命令免批
 - **`kdo validate --v15` → A 审查通过**：205 卡全量扫描 0 崩溃，24 tests，JSON/--card/--type/--domain 均正常。`--domain` bug 已修（`_read_frontmatter` 重构为返回 `dict[str, list[str]]`，支持三种 domain 格式）。pytest 203/205 pass（2 flaky dashboard 预存）。
+- **`kdo validate --v15 --upgrade-plan` ✅**：从诊断到可行动的升级路线图。5 批分组（A-E）+ 引用排序 + 分钟级工作量估计。`--domain` / `--batch-size` / `--json` 支持。test_validate_v15.py 23 passed, 1 skipped。
 - **已批准 backlog**：[[70_product/tasks/kdo-infrastructure-backlog-proposal.md]]
   - P0: Graph RAG 索引重建 ✅
   - P1-A: `kdo lint --accept-baseline` ✅
@@ -137,6 +138,30 @@ blockers: []
 | `kdo lint --structure-report` | 全库卡片按 H2 结构聚类，输出类型分布摘要 |
 
 ## 最近决策
+
+### 2026-05-19：黄药师 `kdo validate --v15 --upgrade-plan` 完成 ✅
+
+- **任务文件**：[[70_product/tasks/validate-v15-upgrade-plan.md]]
+- **核心实现**：`kdo/commands/quality.py` +130 行
+  - `_card_citation_count(card_id, concepts_dir)` — 全库 `[[wikilink]]` 扫描计数
+  - `_estimate_effort(checks, structure)` — 按缺失信号估算分钟数（5 档：15/20/40/55/60/90m）
+  - `_classify_batch(r, full_check)` — 五批分组（A=全信号缺失高引, B=缺攻击, C=缺AT, D=研究降级, E=warnings）
+  - `_print_upgrade_plan(results, ...)` — 分级打印 + JSON 输出
+- **CLI 接口**：`kdo validate --v15 --upgrade-plan [--domain] [--batch-size] [--json]`
+- **全库运行**：160 卡（89 fail + 71 warn），估计总工时 ~86.7h
+  - Batch A (CRITICAL): 3 cards, ~4.5h — 全信号缺失，高引用
+  - Batch B (HIGH): 80 cards, ~56.1h — 缺外部攻击
+  - Batch C (MEDIUM): 6 cards, ~1.8h — 缺 Action Triggers
+  - Batch D (LOW): ~26 research cards, ~13h — 研究降级失败
+  - Batch E (TRIAGE): 45 cards, ~11.2h — warnings
+- **pytest**：23 passed, 1 skipped（test_validate_v15.py），全绿
+- **关键修复**：Batch D 分类 bug（research cards with WARN status was being filtered out — changed to `r["overall"] in ("FAIL", "WARN")`）
+
+### 2026-05-19：黄药师 `kdo validate --v15` domain filter bug 修复 ✅
+
+- **任务文件**：[[70_product/tasks/fix-validate-v15-domain-filter.md]]
+- **修复**：`_read_frontmatter()` 重构为状态机解析器，返回 `dict[str, list[str]]`，支持三种 domain/type 格式（单值、Python 列表、多行 YAML 列表）
+- **验证**：--domain yitang 从 7 张恢复到 ~140 张。pytest 无回归。
 
 ### 2026-05-19：黄药师 kdo validate --v15 审查通过（A-）+ domain filter bug 工单
 

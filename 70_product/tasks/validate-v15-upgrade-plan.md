@@ -1,11 +1,12 @@
 ---
 id: validate-v15-upgrade-plan
 title: "kdo validate --v15 --upgrade-plan：从诊断到可行动的升级路线图"
-status: pending
+status: done
 priority: P1
 assigned_to: 黄药师
 reviewer: 欧阳锋
 created: 2026-05-19
+completed: 2026-05-19
 depends_on: quality-gate-automation-v15
 ---
 
