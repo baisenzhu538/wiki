@@ -50,11 +50,11 @@ updated: 2026-05-19
 | 7 | graph rebuild --incremental | P2 | ✅ | 5 tests, --full + incremental |
 | 8 | `kdo graph stats` | P3 | ✅ | 4 tests, --json, NOT BUILT |
 | 9 | Graph RAG 深化 | P1 | ✅ | graph path + 跨域标注 + --health, 9 tests |
-| 10 | Quality Gate v2（article+skill） | P1 | ⏳ | validate 扩展到文章/skill 类型 |
+| 10 | Quality Gate v2（article+skill） | P1 | ✅ | --article + --skill + --all, 9 tests |
 
 ### 黄药师 — 当前任务
 
-**Task 10**：Quality Gate v2（详见 [[70_product/tasks/huangyaoshi-next-tasks.md]]）
+**全部完成，无待办**。等待欧阳锋分配新任务。
 
 ---
 
@@ -95,6 +95,7 @@ updated: 2026-05-19
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
+| 05-19 | 黄药师 | Task 10 Quality Gate v2 | ✅ --article + --skill + --all, 9 tests |
 | 05-19 | 黄药师 | Task 9 Graph RAG 深化 | ✅ graph path + 跨域标注 + --health, 9 tests |
 | 05-19 | 洪七公 | 双三角 VA + Excalidraw 重绘 | ✅ VA 158行 + `.excalidraw` 源文件 |
 | 05-19 | 洪七公 | 角色自我定义 | ✅ `beikai-role-positioning.md`（296行，85技能×18领域） |

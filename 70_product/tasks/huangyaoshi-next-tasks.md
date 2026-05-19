@@ -11,7 +11,7 @@
 - Batch 2 Task 4: `kdo watch` 依赖解耦 ✅（4 tests, watchdog 可选, pyproject.toml 已清理）
 - Batch 2 Task 5-8: 全部 ✅
 
-**当前状态**：Batch 2 全部完成 ✅。**Batch 3 待开工**：Task 9 → Task 10 顺序执行。
+**当前状态**：Batch 2 全部完成 ✅。**Batch 3 全部完成 ✅**。266 tests pass, 1 skipped。
 
 ---
 
@@ -153,8 +153,8 @@ Graph RAG Index
 | 6 | `kdo task` 自动化 + dashboard | ✅ 6 tests, dashboard/mine/done/review/verify, 向后兼容 |
 | 7 | graph rebuild --incremental | ✅ 5 tests, --full + incremental, graph_state.json 追踪 |
 | 8 | `kdo graph stats` | ✅ 4 tests, --json, NOT BUILT 处理 |
-| 9 | Graph RAG 深化（查询+推理+监控） | 图遍历查询 + 跨域路径发现 + 索引自动健康检查 |
-| 10 | Quality Gate v2（文章+skill 校验） | validate 扩展到 article/skill 类型 |
+| 9 | Graph RAG 深化（查询+推理+监控） | ✅ 图遍历查询 + 跨域路径发现 + 索引自动健康检查, 9 tests |
+| 10 | Quality Gate v2（文章+skill 校验） | ✅ validate 扩展到 article/skill 类型, 9 tests |
 
 
 ---
