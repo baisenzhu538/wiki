@@ -5489,3 +5489,17 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/一堂-读书会-SPIN销售法口述.md"
   content_sha256: "7b8687c4f826f9c4098bf00a949bad1b7603892cd35d5af58285c591316e2bba"
+
+- id: "src_20260519_f6ec0400"
+  title: "Anthropic 官方发布：《创始人手册：打造 AI 原生初创公司》"
+  type: "other"
+  location: "10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md"
+  captured_at: "2026-05-19T11:59:38+00:00"
+  registered_at: "2026-05-19T11:59:38+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/anthropic-官方发布创始人手册打造-ai-原生初创公司.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/Anthropic 官方发布：《创始人手册：打造 AI 原生初创公司》.md"
+  content_sha256: "12e8f10bf0b81c41837009bfc75efe2134c6e0b4c87a6b782cbe77b65d8b81aa"

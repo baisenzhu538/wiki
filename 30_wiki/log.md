@@ -1122,3 +1122,7 @@ Chronological record of knowledge operations.
 - 2026-05-16T19:19:29+00:00 - Produced `art_20260517_9c7a63cb`: 40_outputs/content/articles/art_20260517_9c7a63cb-人机协作决策双三角模型读后感.md
 
 - 2026-05-16T19:19:33+00:00 - Generated handoff brief `brief_20260517_1f55df11`
+
+- 2026-05-19T11:59:38+00:00 - Ingested `src_20260519_f6ec0400` from 00_inbox/Anthropic 官方发布：《创始人手册：打造 AI 原生初创公司》.md
+
+- 2026-05-19T11:59:39+00:00 - Self-check: 15 auto-feedback record(s) created

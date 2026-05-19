@@ -14,6 +14,8 @@
 
 **⚠️ 以下任务顺序执行**。做完一个看下一个，不要跳。
 
+**🆕 新素材（优先）**：Anthropic 创始人手册 → 见 [[#⑧ Anthropic AI 原生初创公司手册]]
+
 **⚠️ 黄药师正在建 `kdo scaffold` 工具**（[[70_product/tasks/huangyaoshi-next-tasks.md]]）。完工后你修 89 卡时用它加速——不再从空白页搭 Critique 框架。
 
 ---
@@ -190,6 +192,41 @@ kdo validate --v15 --card <id>
 - T6 项目雷达：Flyvbjerg（巨型项目铁律）+ Goldratt（约束理论——局部最优≠全局最优）
 - T7 新人融入：Van Maanen&Schein（组织社会化策略）+ Edmondson（心理安全——融入≠同化）
 - T8 股权清单：Coase（交易成本/企业边界）+ Williamson（资产专用性——股权是一种治理结构选择）
+
+---
+
+## ⑧ Anthropic AI 原生初创公司手册（🆕 优先）
+
+### 素材
+
+| 文件 | 来源 | 大小 |
+|------|------|------|
+| `00_inbox/Anthropic 官方发布：《创始人手册：打造 AI 原生初创公司》.md` | Anthropic 2026.5.17 | 82KB |
+
+已 ingest → source `src_20260519_f6ec0400`，wiki 骨架已生成：[[anthropic-官方发布创始人手册打造-ai-原生初创公司]]
+
+### 执行步骤
+
+标准三步编译法：
+
+1. **读素材**：`10_raw/sources/src_20260519_f6ec0400-*.md`
+2. **Condense**：提取 3-5 条核心观点（AI 四阶段创业法、创始人角色演变、精益独角兽模式、三类 AI 能力）
+3. **Question**：写 `## Constraints & Boundaries` + `### [Critique]` 节
+   - 至少 2 位外部攻击者（建议方向：Christensen 创新者窘境——AI 原生是否是新颠覆？Pfeffer 领导力 BS——AI 指挥家是否是新包装？）
+   - 至少 2 个不要用场景
+4. **Synthesize**：对标已有卡片（管理工具箱 F1/T4、决策域 Y 模型等），创建 wikilink
+5. **Action Triggers**：≥3 条可执行触发器
+
+### 卡片类型
+
+`concept`（方法论概念卡），domain 建议 `entrepreneur`
+
+### 验收
+
+- v1.5 三信号齐全（≥2 attackers, ≥2 don't-use, ≥3 AT）
+- 引用 Anthropic 原文关键数据
+- 跨域引用 ≥3 张已有卡片
+- `kdo validate --v15 --card anthropic-官方发布创始人手册打造-ai-原生初创公司` 返回 PASS
 
 ---
 

@@ -42,11 +42,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\entities\鑫港湾.md]]
 - [[30_wiki\projects\鑫港湾HIS项目.md]]
 
-## [[Truman的个人成长五步法.
-
-png]]
-- [[30_wiki\concepts\src_20260510_88c4508c.md]]
-
 ## [[business-research-skill-oscar-13-weapon-system]]
 - [[30_wiki\concepts\paddleocr-skill.md]]
 - [[30_wiki\concepts\tinyfish-agentic-web-infrastructure.md]]
@@ -84,7 +79,6 @@ png]]
 - [[30_wiki\concepts\tinyfish-agentic-web-infrastructure.md]]
 - [[30_wiki\concepts\truman-perspective-skill.md]]
 - [[30_wiki\concepts\yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md]]
-- [[30_wiki\concepts\一堂调研行动营-ai辅助系统式调研方法论.md]]
 - [[30_wiki\entities\YC-Y-Combinator.md]]
 - [[30_wiki\entities\一堂.md]]
 - [[30_wiki\systems\kdo-protocol.md]]
@@ -101,9 +95,6 @@ png]]
 - [[30_wiki\concepts\research_methodology.md]]
 - [[30_wiki\concepts\web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md]]
 - [[30_wiki\concepts\yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md]]
-- [[30_wiki\concepts\一堂-调研行动营启动_原文润色.md]]
-- [[30_wiki\concepts\一堂调研武器库13招.md]]
-- [[30_wiki\concepts\一堂调研行动营-ai辅助系统式调研方法论.md]]
 - [[30_wiki\concepts\轻量级诊所HIS调研全清单.md]]
 - [[30_wiki\entities\Kimi-月之暗面.md]]
 - [[30_wiki\entities\YC-Y-Combinator.md]]
@@ -111,9 +102,33 @@ png]]
 ## [[knowledge-delivery-os-快速体验指南-飞书云文档]]
 - [[30_wiki\concepts\ec工业化规范手册-v2.8.0.md]]
 
+## [[master-cognitive-bias-checklist]]
+- [[30_wiki\concepts\yt-tool-hiring-scorecard.md]]
+- [[30_wiki\concepts\yt-tool-meeting-designer.md]]
+
+## [[master-decision-hygiene]]
+- [[30_wiki\concepts\yt-management-toolkit-overview.md]]
+- [[30_wiki\concepts\yt-tool-equity-checklist.md]]
+- [[30_wiki\concepts\yt-tool-hiring-scorecard.md]]
+- [[30_wiki\concepts\yt-tool-meeting-designer.md]]
+- [[30_wiki\concepts\yt-tool-okr-cycle.md]]
+- [[30_wiki\concepts\yt-tool-onboarding-90day.md]]
+- [[30_wiki\concepts\yt-tool-project-health-radar.md]]
+- [[30_wiki\concepts\yt-tool-strategy-workshop.md]]
+- [[30_wiki\tools\yt-tool-hiring-scorecard.md]]
+- [[30_wiki\tools\yt-tool-meeting-designer.md]]
+
+## [[master-knowledge-compound]]
+- [[30_wiki\concepts\yt-management-toolkit-overview.md]]
+- [[30_wiki\concepts\yt-tool-hiring-scorecard.md]]
+- [[30_wiki\concepts\yt-tool-knowledge-extraction.md]]
+- [[30_wiki\concepts\yt-tool-meeting-designer.md]]
+- [[30_wiki\concepts\yt-tool-okr-cycle.md]]
+- [[30_wiki\concepts\yt-tool-project-health-radar.md]]
+- [[30_wiki\concepts\yt-tool-strategy-workshop.md]]
+
 ## [[obsidian-kdo-内容产出工作流-产品设计大纲]]
 - [[30_wiki\concepts\kdo_product_design_agent_final.md]]
-- [[30_wiki\concepts\一堂调研行动营-ai辅助系统式调研方法论.md]]
 - [[30_wiki\systems\kdo-protocol.md]]
 
 ## [[paddleocr-skill]]
@@ -125,11 +140,6 @@ png]]
 ## [[truman-perspective-skill]]
 - [[30_wiki\concepts\tinyfish-agentic-web-infrastructure.md]]
 
-## [[truman的选择：两条职业成长路线.
-
-png]]
-- [[30_wiki\concepts\src_20260510_6d94b9e8.md]]
-
 ## [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]
 - [[30_wiki\concepts\paddleocr-skill.md]]
 - [[30_wiki\concepts\tinyfish-agentic-web-infrastructure.md]]
@@ -137,13 +147,9 @@ png]]
 ## [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
 - [[30_wiki\concepts\kimi-深度调研集群方法论-deep-research-swarm.md]]
 - [[30_wiki\concepts\knowledge-delivery-os-快速体验指南-飞书云文档.md]]
-- [[30_wiki\concepts\一堂调研行动营-ai辅助系统式调研方法论.md]]
 - [[30_wiki\concepts\诊所o2o外卖平台业务深度调研报告.md]]
 - [[30_wiki\entities\YC-Y-Combinator.md]]
 - [[30_wiki\entities\紫鲸AI.md]]
-
-## [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown|YC AI-Native公司组织方法论]]
-- [[30_wiki\concepts\一堂-调研行动营启动_原文润色.md]]
 
 ## [[yitang-course-map]]
 - [[30_wiki\concepts\yt-entrepreneur-259-milestone.md]]
@@ -191,7 +197,6 @@ png]]
 - [[30_wiki\concepts\yt-personal-ipo-learning.md]]
 - [[30_wiki\concepts\yt-personal-knowledge-management.md]]
 - [[30_wiki\concepts\yt-personal-product-design.md]]
-- [[30_wiki\concepts\yt-personal-sales-pitch-model.md]]
 - [[30_wiki\concepts\yt-personal-scientific-expression.md]]
 - [[30_wiki\concepts\yt-personal-time-management.md]]
 - [[30_wiki\concepts\yt-personal-verbatim-script.md]]
@@ -208,8 +213,209 @@ png]]
 ## [[yt-case-mandatory-cases]]
 - [[30_wiki\concepts\yt-system-course-catalog.md]]
 - [[30_wiki\concepts\yt-system-course-map-lecture.md]]
-- [[30_wiki\entities\一堂.md]]
 - [[30_wiki\systems\一堂方法论体系总图.md]]
+
+## [[yt-composite-pan-product-methodology]]
+- [[30_wiki\concepts\yt-concept-weapon-arsenal.md]]
+- [[30_wiki\concepts\yt-model-pan-product-36-strategies.md]]
+- [[30_wiki\concepts\yt-model-pan-product-aesthetic-toolkit.md]]
+- [[30_wiki\concepts\yt-model-pan-product-climbing-map.md]]
+- [[30_wiki\concepts\yt-model-pan-product-demand-toolkit.md]]
+- [[30_wiki\concepts\yt-model-pan-product-execution-toolkit.md]]
+- [[30_wiki\concepts\yt-model-pan-product-three-virtues.md]]
+- [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-collection.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-imagination.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-modeling.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-pool.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-five-step-method.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-industry-canvas.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-motivation-resistance.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-multi-perspective.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-need-discovery.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-peak-end-rule.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-project-background.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-scenario-walkthrough.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-surprise-formula.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-user-perspective.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-user-segmentation.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-10x-validation.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-business-modeling.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-core-and-boundary.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-design-principles.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-good-tools.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-hypothesis-decomposition.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-idea-spark.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-incubation-polish.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-liberate-thinking.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-logic-mece.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-low-cost-mvp.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-management-trilogy.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-milestone-breakdown.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-realistic-simulation.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-review-iteration.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-risk-management.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-roi-analysis.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-war-room.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-02.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-aesthetics.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-concepts.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-exploration.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-practice.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-tools.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-composite-pan-product-methodology|泛产品设计方法论（总纲）]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-concept-ai-guard-brain]]
+- [[30_wiki\concepts\yt-model-agent-architecture.md]]
+- [[30_wiki\concepts\yt-model-prompt-engineering.md]]
+- [[30_wiki\concepts\yt-prompt-writing-workflow.md]]
+- [[30_wiki\concepts\yt-tool-peas-agent-analysis.md]]
+
+## [[yt-concept-context-engineering]]
+- [[30_wiki\concepts\yt-model-prompt-engineering.md]]
+- [[30_wiki\concepts\yt-prompt-brainstorming.md]]
+- [[30_wiki\concepts\yt-prompt-iterative-prompting.md]]
+
+## [[yt-concept-weapon-arsenal]]
+- [[30_wiki\concepts\yt-concept-ai-guard-brain.md]]
+- [[30_wiki\concepts\yt-concept-context-engineering.md]]
+- [[30_wiki\concepts\yt-management-basic-skills.md]]
+- [[30_wiki\concepts\yt-management-business-formula.md]]
+- [[30_wiki\concepts\yt-management-company-culture.md]]
+- [[30_wiki\concepts\yt-management-conversion-hacking.md]]
+- [[30_wiki\concepts\yt-management-finance-basics.md]]
+- [[30_wiki\concepts\yt-management-founder-role.md]]
+- [[30_wiki\concepts\yt-management-goal-management.md]]
+- [[30_wiki\concepts\yt-management-leadership-levels.md]]
+- [[30_wiki\concepts\yt-management-onboarding.md]]
+- [[30_wiki\concepts\yt-management-partnership-equity.md]]
+- [[30_wiki\concepts\yt-management-project-management.md]]
+- [[30_wiki\concepts\yt-management-scientific-decision.md]]
+- [[30_wiki\concepts\yt-management-scientific-hiring.md]]
+- [[30_wiki\concepts\yt-management-scientific-meetings.md]]
+- [[30_wiki\concepts\yt-management-strategy-meeting.md]]
+- [[30_wiki\concepts\yt-management-team-knowledge.md]]
+- [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-02.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-aesthetics.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-concepts.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-exploration.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-practice.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-tools.md]]
+- [[30_wiki\concepts\yt-pitch-aphorism.md]]
+- [[30_wiki\concepts\yt-pitch-colloquialization.md]]
+- [[30_wiki\concepts\yt-pitch-conflict.md]]
+- [[30_wiki\concepts\yt-pitch-emotionalization.md]]
+- [[30_wiki\concepts\yt-pitch-materialization.md]]
+- [[30_wiki\concepts\yt-pitch-metaphor.md]]
+- [[30_wiki\concepts\yt-pitch-quantification.md]]
+- [[30_wiki\concepts\yt-pitch-scenarization.md]]
+- [[30_wiki\concepts\yt-pitch-storytelling.md]]
+- [[30_wiki\concepts\yt-pitch-sublimation.md]]
+- [[30_wiki\concepts\yt-prompt-engineering-andrew-ng.md]]
+- [[30_wiki\concepts\yt-research-action-camp-launch.md]]
+- [[30_wiki\concepts\yt-research-weaponry-course.md]]
+- [[30_wiki\concepts\yt-system-course-catalog.md]]
+- [[30_wiki\concepts\yt-tool-knowledge-extraction.md]]
+- [[30_wiki\tools\yt-tool-strategy-workshop.md]]
+
+## [[yt-decision-ai-partner]]
+- [[30_wiki\concepts\yt-decision-canvas.md]]
+- [[30_wiki\concepts\yt-decision-depth-ladder.md]]
+- [[30_wiki\concepts\yt-decision-habit-shift.md]]
+- [[30_wiki\concepts\yt-decision-height-toolkit.md]]
+- [[30_wiki\concepts\yt-decision-width-method.md]]
+- [[30_wiki\concepts\yt-decision-y-model.md]]
+
+## [[yt-decision-canvas]]
+- [[30_wiki\concepts\yt-decision-ai-partner.md]]
+- [[30_wiki\concepts\yt-decision-consensus-iceberg.md]]
+- [[30_wiki\concepts\yt-decision-depth-ladder.md]]
+- [[30_wiki\concepts\yt-decision-full-process.md]]
+- [[30_wiki\concepts\yt-decision-habit-shift.md]]
+- [[30_wiki\concepts\yt-decision-height-toolkit.md]]
+- [[30_wiki\concepts\yt-decision-review.md]]
+- [[30_wiki\concepts\yt-decision-width-method.md]]
+- [[30_wiki\concepts\yt-decision-y-model.md]]
+- [[30_wiki\concepts\yt-management-toolkit-overview.md]]
+- [[30_wiki\concepts\yt-tool-equity-checklist.md]]
+- [[30_wiki\concepts\yt-tool-hiring-scorecard.md]]
+- [[30_wiki\concepts\yt-tool-meeting-designer.md]]
+- [[30_wiki\concepts\yt-tool-okr-cycle.md]]
+- [[30_wiki\concepts\yt-tool-project-health-radar.md]]
+
+## [[yt-decision-consensus-iceberg]]
+- [[30_wiki\concepts\yt-decision-full-process.md]]
+- [[30_wiki\concepts\yt-decision-review.md]]
+- [[30_wiki\concepts\yt-tool-meeting-designer.md]]
+
+## [[yt-decision-depth-ladder]]
+- [[30_wiki\concepts\yt-decision-consensus-iceberg.md]]
+- [[30_wiki\concepts\yt-decision-full-process.md]]
+- [[30_wiki\concepts\yt-decision-habit-shift.md]]
+- [[30_wiki\concepts\yt-decision-height-toolkit.md]]
+- [[30_wiki\concepts\yt-decision-width-method.md]]
+
+## [[yt-decision-full-process]]
+- [[30_wiki\concepts\yt-tool-strategy-workshop.md]]
+
+## [[yt-decision-habit-shift]]
+- [[30_wiki\concepts\yt-concept-peas-insight.md]]
+- [[30_wiki\concepts\yt-decision-consensus-iceberg.md]]
+- [[30_wiki\concepts\yt-decision-depth-ladder.md]]
+- [[30_wiki\concepts\yt-decision-full-process.md]]
+- [[30_wiki\concepts\yt-decision-height-toolkit.md]]
+- [[30_wiki\concepts\yt-decision-review.md]]
+- [[30_wiki\concepts\yt-decision-width-method.md]]
+- [[30_wiki\concepts\yt-tool-hiring-scorecard.md]]
+- [[30_wiki\concepts\yt-tool-okr-cycle.md]]
+
+## [[yt-decision-height-toolkit]]
+- [[30_wiki\concepts\yt-decision-consensus-iceberg.md]]
+- [[30_wiki\concepts\yt-decision-depth-ladder.md]]
+- [[30_wiki\concepts\yt-decision-full-process.md]]
+
+## [[yt-decision-red-team-blue-team]]
+- [[30_wiki\tools\yt-tool-strategy-workshop.md]]
+
+## [[yt-decision-review]]
+- [[30_wiki\concepts\yt-decision-consensus-iceberg.md]]
+- [[30_wiki\concepts\yt-decision-full-process.md]]
+- [[30_wiki\concepts\yt-tool-knowledge-extraction.md]]
+
+## [[yt-decision-width-method]]
+- [[30_wiki\concepts\yt-decision-consensus-iceberg.md]]
+- [[30_wiki\concepts\yt-decision-depth-ladder.md]]
+- [[30_wiki\concepts\yt-decision-full-process.md]]
+- [[30_wiki\concepts\yt-decision-height-toolkit.md]]
+- [[30_wiki\concepts\yt-management-toolkit-overview.md]]
+- [[30_wiki\concepts\yt-research-competitor-toolkit.md]]
+- [[30_wiki\concepts\yt-tool-hiring-scorecard.md]]
+- [[30_wiki\tools\yt-tool-hiring-scorecard.md]]
+- [[30_wiki\tools\yt-tool-okr-cycle.md]]
+
+## [[yt-decision-y-model]]
+- [[30_wiki\concepts\yt-concept-peas-insight.md]]
+- [[30_wiki\concepts\yt-decision-ai-partner.md]]
+- [[30_wiki\concepts\yt-decision-canvas.md]]
+- [[30_wiki\concepts\yt-decision-consensus-iceberg.md]]
+- [[30_wiki\concepts\yt-decision-full-process.md]]
+- [[30_wiki\concepts\yt-decision-habit-shift.md]]
+- [[30_wiki\concepts\yt-decision-review.md]]
+- [[30_wiki\concepts\yt-decision-width-method.md]]
+- [[30_wiki\concepts\yt-research-hypothesis-test.md]]
+- [[30_wiki\concepts\yt-research-mindset.md]]
+- [[30_wiki\concepts\yt-research-osl-framework.md]]
+- [[30_wiki\concepts\yt-tool-strategy-workshop.md]]
+- [[30_wiki\tools\yt-tool-meeting-designer.md]]
+- [[30_wiki\tools\yt-tool-okr-cycle.md]]
+- [[30_wiki\tools\yt-tool-strategy-workshop.md]]
+
+## [[yt-entrepreneur-concentration-analysis]]
+- [[30_wiki\concepts\yt-entrepreneur-barriers.md]]
 
 ## [[yt-entrepreneur-five-step-method]]
 - [[30_wiki\concepts\yt-entrepreneur-259-milestone.md]]
@@ -229,12 +435,39 @@ png]]
 - [[30_wiki\concepts\yt-entrepreneur-opportunity-selection.md]]
 - [[30_wiki\concepts\yt-entrepreneur-pragmatic-startup.md]]
 - [[30_wiki\concepts\yt-entrepreneur-product-core.md]]
+- [[30_wiki\concepts\yt-entrepreneur-research-camp.md]]
 - [[30_wiki\concepts\yt-entrepreneur-research-cognition.md]]
 - [[30_wiki\concepts\yt-entrepreneur-scientific-method.md]]
+- [[30_wiki\concepts\yt-entrepreneur-spin-selling.md]]
 - [[30_wiki\concepts\yt-entrepreneur-truth-seeking.md]]
 - [[30_wiki\concepts\yt-entrepreneur-unit-model.md]]
+- [[30_wiki\concepts\yt-model-conversion-optimization.md]]
+- [[30_wiki\concepts\yt-model-five-step-canvas.md]]
+- [[30_wiki\concepts\yt-model-pan-product-demand-toolkit.md]]
+- [[30_wiki\concepts\yt-model-product-core-metrics.md]]
+- [[30_wiki\concepts\yt-model-truman-five-step-growth.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-five-step-method.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-10x-validation.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-hypothesis-decomposition.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-low-cost-mvp.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-practice.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-entrepreneur-five-step-method|五步法]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-entrepreneur-growth-flywheel]]
+- [[30_wiki\concepts\yt-model-conversion-optimization.md]]
+
+## [[yt-entrepreneur-industry-forecast]]
+- [[30_wiki\concepts\yt-entrepreneur-barriers.md]]
+- [[30_wiki\concepts\yt-entrepreneur-concentration-analysis.md]]
+- [[30_wiki\concepts\yt-model-prediction-model.md]]
 
 ## [[yt-entrepreneur-key-hypotheses]]
+- [[30_wiki\concepts\yt-decision-ai-partner.md]]
+- [[30_wiki\concepts\yt-decision-canvas.md]]
+- [[30_wiki\concepts\yt-decision-y-model.md]]
 - [[30_wiki\concepts\yt-entrepreneur-259-milestone.md]]
 - [[30_wiki\concepts\yt-entrepreneur-barriers.md]]
 - [[30_wiki\concepts\yt-entrepreneur-business-growth.md]]
@@ -258,15 +491,34 @@ png]]
 - [[30_wiki\concepts\yt-entrepreneur-unit-model.md]]
 - [[30_wiki\concepts\yt-management-business-formula.md]]
 - [[30_wiki\concepts\yt-management-scientific-decision.md]]
+- [[30_wiki\concepts\yt-model-five-step-canvas.md]]
+- [[30_wiki\concepts\yt-model-prediction-model.md]]
 - [[30_wiki\concepts\yt-personal-product-design.md]]
-- [[30_wiki\concepts\yt-personal-sales-pitch-model.md]]
+- [[30_wiki\concepts\yt-research-expert-interview.md]]
+- [[30_wiki\concepts\yt-research-hypothesis-test.md]]
+- [[30_wiki\concepts\yt-research-industry-canvas.md]]
+- [[30_wiki\concepts\yt-research-mindset.md]]
+- [[30_wiki\concepts\yt-research-osl-framework.md]]
+- [[30_wiki\concepts\yt-research-user-jtbd.md]]
+- [[30_wiki\concepts\yt-tool-equity-checklist.md]]
+- [[30_wiki\tools\yt-tool-hiring-scorecard.md]]
+- [[30_wiki\tools\yt-tool-meeting-designer.md]]
+- [[30_wiki\tools\yt-tool-okr-cycle.md]]
+
+## [[yt-entrepreneur-key-hypotheses|关键假设]]
+- [[30_wiki\concepts\yt-decision-y-model.md]]
 
 ## [[yt-entrepreneur-lean-validation]]
 - [[30_wiki\concepts\yt-entrepreneur-needs-analysis.md]]
+- [[30_wiki\concepts\yt-entrepreneur-research-cognition.md]]
 - [[30_wiki\concepts\yt-management-conversion-hacking.md]]
 - [[30_wiki\concepts\yt-management-project-management.md]]
+- [[30_wiki\concepts\yt-model-five-step-canvas.md]]
+- [[30_wiki\concepts\yt-model-pan-product-execution-toolkit.md]]
 
 ## [[yt-entrepreneur-liberate-thinking]]
+- [[30_wiki\concepts\yt-entrepreneur-key-hypotheses.md]]
+- [[30_wiki\concepts\yt-entrepreneur-pragmatic-startup.md]]
 - [[30_wiki\concepts\yt-model-liberate-thinking-layers.md]]
 - [[30_wiki\concepts\yt-personal-ipo-learning.md]]
 
@@ -274,8 +526,29 @@ png]]
 - [[30_wiki\concepts\yt-personal-ai-capability.md]]
 - [[30_wiki\concepts\yt-personal-product-design.md]]
 
+## [[yt-entrepreneur-opportunity-selection]]
+- [[30_wiki\concepts\yt-model-prediction-model.md]]
+
 ## [[yt-entrepreneur-pragmatic-startup]]
 - [[30_wiki\concepts\yt-model-liberate-thinking-layers.md]]
+
+## [[yt-entrepreneur-product-core]]
+- [[30_wiki\concepts\yt-model-five-step-canvas.md]]
+- [[30_wiki\concepts\yt-model-product-core-metrics.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-entrepreneur-research-camp]]
+- [[30_wiki\concepts\yt-panproduct-demand-industry-canvas.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-entrepreneur-research-camp|调研行动营]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-entrepreneur-research-cognition]]
+- [[30_wiki\concepts\yt-entrepreneur-liberate-thinking.md]]
+- [[30_wiki\concepts\yt-entrepreneur-research-camp.md]]
+- [[30_wiki\concepts\yt-entrepreneur-truth-seeking.md]]
+- [[30_wiki\entities\一堂.md]]
 
 ## [[yt-entrepreneur-scientific-method]]
 - [[30_wiki\concepts\yt-entrepreneur-259-milestone.md]]
@@ -295,14 +568,27 @@ png]]
 - [[30_wiki\concepts\yt-entrepreneur-pragmatic-startup.md]]
 - [[30_wiki\concepts\yt-entrepreneur-product-core.md]]
 - [[30_wiki\concepts\yt-entrepreneur-research-cognition.md]]
+- [[30_wiki\concepts\yt-entrepreneur-spin-selling.md]]
 - [[30_wiki\concepts\yt-entrepreneur-truth-seeking.md]]
 - [[30_wiki\concepts\yt-entrepreneur-unit-model.md]]
 - [[30_wiki\concepts\yt-model-liberate-thinking-layers.md]]
 - [[30_wiki\concepts\yt-model-questioning-practice-canvas.md]]
 - [[30_wiki\concepts\yt-personal-ipo-learning.md]]
+- [[30_wiki\concepts\yt-personal-y-model-exploration-2.md]]
+- [[30_wiki\concepts\yt-personal-y-model-practice.md]]
+- [[30_wiki\entities\一堂.md]]
 
 ## [[yt-entrepreneur-scientific-method|科学决策/Y 模型]]
 - [[30_wiki\concepts\yt-personal-deep-review.md]]
+
+## [[yt-entrepreneur-scientific-method|科学方法论]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-entrepreneur-spin-selling]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-entrepreneur-spin-selling|SPIN销售法]]
+- [[30_wiki\entities\一堂.md]]
 
 ## [[yt-entrepreneur-truth-seeking]]
 - [[30_wiki\concepts\yt-entrepreneur-scientific-method.md]]
@@ -311,11 +597,11 @@ png]]
 - [[30_wiki\concepts\yt-entrepreneur-needs-analysis.md]]
 - [[30_wiki\concepts\yt-management-business-formula.md]]
 - [[30_wiki\concepts\yt-management-finance-basics.md]]
+- [[30_wiki\concepts\yt-model-product-core-metrics.md]]
 
 ## [[yt-management-basic-skills]]
 - [[30_wiki\concepts\yt-management-leadership-levels.md]]
 - [[30_wiki\concepts\yt-management-onboarding.md]]
-- [[30_wiki\concepts\yt-management-partnership-equity.md]]
 - [[30_wiki\concepts\yt-management-project-management.md]]
 - [[30_wiki\concepts\yt-management-scientific-hiring.md]]
 - [[30_wiki\concepts\yt-management-scientific-meetings.md]]
@@ -326,29 +612,43 @@ png]]
 - [[30_wiki\concepts\yt-management-finance-basics.md]]
 - [[30_wiki\concepts\yt-management-goal-management.md]]
 - [[30_wiki\concepts\yt-management-scientific-decision.md]]
+- [[30_wiki\concepts\yt-tool-okr-cycle.md]]
+- [[30_wiki\tools\yt-tool-okr-cycle.md]]
 
 ## [[yt-management-company-culture]]
 - [[30_wiki\concepts\yt-management-founder-role.md]]
 - [[30_wiki\concepts\yt-management-onboarding.md]]
+- [[30_wiki\concepts\yt-management-partnership-equity.md]]
 - [[30_wiki\concepts\yt-management-scientific-hiring.md]]
 - [[30_wiki\concepts\yt-management-strategy-meeting.md]]
 - [[30_wiki\concepts\yt-management-team-knowledge.md]]
+- [[30_wiki\concepts\yt-tool-onboarding-90day.md]]
+- [[30_wiki\concepts\yt-tool-strategy-workshop.md]]
+- [[30_wiki\tools\yt-tool-hiring-scorecard.md]]
+- [[30_wiki\tools\yt-tool-strategy-workshop.md]]
 
 ## [[yt-management-conversion-hacking]]
 - [[30_wiki\concepts\yt-management-business-formula.md]]
 - [[30_wiki\concepts\yt-management-scientific-decision.md]]
+- [[30_wiki\concepts\yt-model-conversion-optimization.md]]
 
 ## [[yt-management-finance-basics]]
 - [[30_wiki\concepts\yt-management-business-formula.md]]
+- [[30_wiki\concepts\yt-management-partnership-equity.md]]
 - [[30_wiki\concepts\yt-management-scientific-decision.md]]
 - [[30_wiki\concepts\yt-management-strategy-meeting.md]]
+- [[30_wiki\concepts\yt-tool-equity-checklist.md]]
 
 ## [[yt-management-founder-role]]
 - [[30_wiki\concepts\yt-management-company-culture.md]]
 - [[30_wiki\concepts\yt-management-leadership-levels.md]]
+- [[30_wiki\concepts\yt-management-partnership-equity.md]]
 - [[30_wiki\concepts\yt-management-strategy-meeting.md]]
+- [[30_wiki\concepts\yt-tool-equity-checklist.md]]
+- [[30_wiki\tools\yt-tool-strategy-workshop.md]]
 
 ## [[yt-management-goal-management]]
+- [[30_wiki\concepts\yt-concept-peas-insight.md]]
 - [[30_wiki\concepts\yt-management-basic-skills.md]]
 - [[30_wiki\concepts\yt-management-business-formula.md]]
 - [[30_wiki\concepts\yt-management-conversion-hacking.md]]
@@ -361,6 +661,13 @@ png]]
 - [[30_wiki\concepts\yt-management-scientific-hiring.md]]
 - [[30_wiki\concepts\yt-management-scientific-meetings.md]]
 - [[30_wiki\concepts\yt-management-strategy-meeting.md]]
+- [[30_wiki\concepts\yt-tool-okr-cycle.md]]
+- [[30_wiki\concepts\yt-tool-onboarding-90day.md]]
+- [[30_wiki\concepts\yt-tool-project-health-radar.md]]
+- [[30_wiki\tools\yt-tool-hiring-scorecard.md]]
+- [[30_wiki\tools\yt-tool-meeting-designer.md]]
+- [[30_wiki\tools\yt-tool-okr-cycle.md]]
+- [[30_wiki\tools\yt-tool-strategy-workshop.md]]
 
 ## [[yt-management-leadership-levels]]
 - [[30_wiki\concepts\yt-management-basic-skills.md]]
@@ -373,17 +680,27 @@ png]]
 - [[30_wiki\concepts\yt-management-company-culture.md]]
 - [[30_wiki\concepts\yt-management-scientific-hiring.md]]
 - [[30_wiki\concepts\yt-management-team-knowledge.md]]
+- [[30_wiki\concepts\yt-tool-knowledge-extraction.md]]
+- [[30_wiki\concepts\yt-tool-onboarding-90day.md]]
+- [[30_wiki\tools\yt-tool-hiring-scorecard.md]]
 
 ## [[yt-management-partnership-equity]]
 - [[30_wiki\concepts\yt-management-company-culture.md]]
 - [[30_wiki\concepts\yt-management-founder-role.md]]
+- [[30_wiki\concepts\yt-tool-equity-checklist.md]]
 
 ## [[yt-management-project-management]]
 - [[30_wiki\concepts\yt-management-goal-management.md]]
 - [[30_wiki\concepts\yt-management-scientific-meetings.md]]
 - [[30_wiki\concepts\yt-management-team-knowledge.md]]
+- [[30_wiki\concepts\yt-tool-knowledge-extraction.md]]
+- [[30_wiki\concepts\yt-tool-project-health-radar.md]]
+- [[30_wiki\tools\yt-tool-meeting-designer.md]]
+- [[30_wiki\tools\yt-tool-okr-cycle.md]]
 
 ## [[yt-management-scientific-decision]]
+- [[30_wiki\concepts\yt-concept-peas-insight.md]]
+- [[30_wiki\concepts\yt-decision-review.md]]
 - [[30_wiki\concepts\yt-management-business-formula.md]]
 - [[30_wiki\concepts\yt-management-conversion-hacking.md]]
 - [[30_wiki\concepts\yt-management-finance-basics.md]]
@@ -391,6 +708,8 @@ png]]
 - [[30_wiki\concepts\yt-management-project-management.md]]
 - [[30_wiki\concepts\yt-management-scientific-meetings.md]]
 - [[30_wiki\concepts\yt-management-strategy-meeting.md]]
+- [[30_wiki\concepts\yt-model-prediction-model.md]]
+- [[30_wiki\tools\yt-tool-strategy-workshop.md]]
 
 ## [[yt-management-scientific-hiring]]
 - [[30_wiki\concepts\yt-management-basic-skills.md]]
@@ -399,31 +718,111 @@ png]]
 - [[30_wiki\concepts\yt-management-onboarding.md]]
 - [[30_wiki\concepts\yt-management-partnership-equity.md]]
 - [[30_wiki\concepts\yt-model-questioning-practice-canvas.md]]
+- [[30_wiki\concepts\yt-tool-hiring-scorecard.md]]
+- [[30_wiki\tools\yt-tool-hiring-scorecard.md]]
 
 ## [[yt-management-scientific-meetings]]
 - [[30_wiki\concepts\yt-management-basic-skills.md]]
 - [[30_wiki\concepts\yt-management-goal-management.md]]
-- [[30_wiki\concepts\yt-management-partnership-equity.md]]
 - [[30_wiki\concepts\yt-management-project-management.md]]
 - [[30_wiki\concepts\yt-management-strategy-meeting.md]]
+- [[30_wiki\concepts\yt-tool-meeting-designer.md]]
+- [[30_wiki\tools\yt-tool-meeting-designer.md]]
+- [[30_wiki\tools\yt-tool-okr-cycle.md]]
+- [[30_wiki\tools\yt-tool-strategy-workshop.md]]
 
 ## [[yt-management-strategy-meeting]]
 - [[30_wiki\concepts\yt-management-company-culture.md]]
 - [[30_wiki\concepts\yt-management-finance-basics.md]]
 - [[30_wiki\concepts\yt-management-founder-role.md]]
 - [[30_wiki\concepts\yt-management-goal-management.md]]
+- [[30_wiki\concepts\yt-management-partnership-equity.md]]
 - [[30_wiki\concepts\yt-management-scientific-decision.md]]
 - [[30_wiki\concepts\yt-management-scientific-meetings.md]]
+- [[30_wiki\concepts\yt-tool-strategy-workshop.md]]
+- [[30_wiki\tools\yt-tool-meeting-designer.md]]
+- [[30_wiki\tools\yt-tool-okr-cycle.md]]
+- [[30_wiki\tools\yt-tool-strategy-workshop.md]]
 
 ## [[yt-management-team-knowledge]]
 - [[30_wiki\concepts\yt-management-leadership-levels.md]]
 - [[30_wiki\concepts\yt-management-onboarding.md]]
 - [[30_wiki\concepts\yt-management-project-management.md]]
+- [[30_wiki\concepts\yt-tool-knowledge-extraction.md]]
+
+## [[yt-management-toolkit-overview]]
+- [[30_wiki\concepts\yt-tool-equity-checklist.md]]
+- [[30_wiki\concepts\yt-tool-hiring-scorecard.md]]
+- [[30_wiki\concepts\yt-tool-knowledge-extraction.md]]
+- [[30_wiki\concepts\yt-tool-meeting-designer.md]]
+- [[30_wiki\concepts\yt-tool-okr-cycle.md]]
+- [[30_wiki\concepts\yt-tool-onboarding-90day.md]]
+- [[30_wiki\concepts\yt-tool-project-health-radar.md]]
+- [[30_wiki\concepts\yt-tool-strategy-workshop.md]]
+- [[30_wiki\tools\yt-tool-hiring-scorecard.md]]
+- [[30_wiki\tools\yt-tool-meeting-designer.md]]
+- [[30_wiki\tools\yt-tool-okr-cycle.md]]
+- [[30_wiki\tools\yt-tool-strategy-workshop.md]]
+
+## [[yt-model-aesthetic-progression]]
+- [[30_wiki\concepts\yt-model-product-excellence.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-collection.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-imagination.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-modeling.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-pool.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-user-perspective.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-aesthetic-progression|审美提升层级]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-agent-architecture]]
+- [[30_wiki\concepts\yt-concept-peas-insight.md]]
+- [[30_wiki\concepts\yt-model-cognitive-upgrade-framework.md]]
+- [[30_wiki\concepts\yt-personal-ai-thinking-card.md]]
+- [[30_wiki\concepts\yt-tool-peas-agent-analysis.md]]
+
+## [[yt-model-cognitive-upgrade-framework]]
+- [[30_wiki\concepts\yt-concept-peas-insight.md]]
+- [[30_wiki\concepts\yt-tool-peas-agent-analysis.md]]
+
+## [[yt-model-conversion-optimization]]
+- [[30_wiki\concepts\yt-panproduct-demand-motivation-resistance.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-peak-end-rule.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-conversion-optimization|转化率优化]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-deep-review-iceberg]]
+- [[30_wiki\concepts\yt-model-agent-architecture.md]]
+- [[30_wiki\concepts\yt-model-deliberate-practice-growth.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-review-iteration.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-risk-management.md]]
+- [[30_wiki\concepts\yt-personal-ai-thinking-card.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-deep-review-iceberg|深度复盘冰山图]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-deliberate-practice-growth]]
+- [[30_wiki\concepts\yt-model-truman-career-routes.md]]
+- [[30_wiki\concepts\yt-model-truman-five-step-growth.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-review-iteration.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-deliberate-practice-growth|刻意练习十年成长指数]]
+- [[30_wiki\entities\一堂.md]]
 
 ## [[yt-model-dual-triangle-competitiveness]]
 - [[30_wiki\concepts\yt-model-muse-ai-framework.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-dual-triangle-competitiveness|双三角竞争力模型]]
+- [[30_wiki\entities\一堂.md]]
 
 ## [[yt-model-entrepreneur-map]]
+- [[30_wiki\concepts\yt-decision-y-model.md]]
 - [[30_wiki\concepts\yt-entrepreneur-259-milestone.md]]
 - [[30_wiki\concepts\yt-entrepreneur-barriers.md]]
 - [[30_wiki\concepts\yt-entrepreneur-business-growth.md]]
@@ -444,34 +843,317 @@ png]]
 - [[30_wiki\concepts\yt-entrepreneur-scientific-method.md]]
 - [[30_wiki\concepts\yt-entrepreneur-truth-seeking.md]]
 - [[30_wiki\concepts\yt-entrepreneur-unit-model.md]]
+- [[30_wiki\concepts\yt-management-toolkit-overview.md]]
 - [[30_wiki\concepts\yt-model-management-map.md]]
 - [[30_wiki\concepts\yt-model-progress-map.md]]
 - [[30_wiki\concepts\yt-model-y-organization.md]]
 
+## [[yt-model-entrepreneur-map|创业修炼地图]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-five-step-canvas]]
+- [[30_wiki\concepts\yt-model-product-core-metrics.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-five-step-method.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-five-step-canvas|五步法画布]]
+- [[30_wiki\entities\一堂.md]]
+
 ## [[yt-model-ipo-complete-checklist]]
 - [[30_wiki\concepts\yt-model-ipo-learning-strategy.md]]
 - [[30_wiki\concepts\yt-system-course-catalog.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-ipo-complete-checklist|IPO完整清单]]
+- [[30_wiki\entities\一堂.md]]
 
 ## [[yt-model-ipo-learning-strategy]]
+- [[30_wiki\concepts\yt-concept-ai-guard-brain.md]]
+- [[30_wiki\concepts\yt-entrepreneur-research-camp.md]]
+- [[30_wiki\concepts\yt-model-cognitive-upgrade-framework.md]]
 - [[30_wiki\concepts\yt-model-ipo-complete-checklist.md]]
+- [[30_wiki\concepts\yt-model-pan-product-36-strategies.md]]
+- [[30_wiki\concepts\yt-model-pan-product-aesthetic-toolkit.md]]
 - [[30_wiki\concepts\yt-model-personal-map.md]]
+- [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
+- [[30_wiki\concepts\yt-model-prompt-engineering.md]]
 - [[30_wiki\concepts\yt-personal-knowledge-extraction.md]]
+- [[30_wiki\concepts\yt-personal-thinking-models.md]]
+- [[30_wiki\concepts\yt-personal-y-model-practice.md]]
+- [[30_wiki\concepts\yt-prompt-engineering-andrew-ng.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-ipo-learning-strategy|IPO学习策略]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-liberate-thinking-layers]]
+- [[30_wiki\concepts\yt-decision-height-toolkit.md]]
+- [[30_wiki\concepts\yt-model-deep-review-iceberg.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-liberate-thinking.md]]
+- [[30_wiki\concepts\yt-personal-thinking-models.md]]
+- [[30_wiki\concepts\yt-personal-y-model-practice.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-liberate-thinking-layers|解放思想层级]]
+- [[30_wiki\entities\一堂.md]]
 
 ## [[yt-model-management-map]]
-- [[30_wiki\concepts\yt-management-partnership-equity.md]]
+- [[30_wiki\concepts\yt-management-toolkit-overview.md]]
 - [[30_wiki\concepts\yt-model-entrepreneur-map.md]]
 - [[30_wiki\concepts\yt-model-progress-map.md]]
 - [[30_wiki\concepts\yt-model-y-organization.md]]
 - [[30_wiki\concepts\yt-personal-knowledge-extraction.md]]
 
+## [[yt-model-management-map|管理修炼地图]]
+- [[30_wiki\entities\一堂.md]]
+
 ## [[yt-model-muse-ai-framework]]
 - [[30_wiki\concepts\yt-model-dual-triangle-competitiveness.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-muse-ai-framework|MUSE AI框架]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-pan-product-36-strategies]]
+- [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
+- [[30_wiki\concepts\yt-model-pan-product-aesthetic-toolkit.md]]
+- [[30_wiki\concepts\yt-model-pan-product-climbing-map.md]]
+- [[30_wiki\concepts\yt-model-pan-product-demand-toolkit.md]]
+- [[30_wiki\concepts\yt-model-pan-product-execution-toolkit.md]]
+- [[30_wiki\concepts\yt-model-pan-product-three-virtues.md]]
+- [[30_wiki\concepts\yt-model-truman-career-routes.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-collection.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-imagination.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-modeling.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-pool.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-five-step-method.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-industry-canvas.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-motivation-resistance.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-multi-perspective.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-need-discovery.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-peak-end-rule.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-project-background.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-scenario-walkthrough.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-surprise-formula.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-user-perspective.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-user-segmentation.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-10x-validation.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-business-modeling.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-core-and-boundary.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-design-principles.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-good-tools.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-hypothesis-decomposition.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-idea-spark.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-incubation-polish.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-liberate-thinking.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-logic-mece.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-low-cost-mvp.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-management-trilogy.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-milestone-breakdown.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-realistic-simulation.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-review-iteration.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-risk-management.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-roi-analysis.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-war-room.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-concepts.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-exploration.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-tools.md]]
+- [[30_wiki\entities\一堂.md]]
+- [[30_wiki\systems\agent-native-card-design.md]]
+
+## [[yt-model-pan-product-36-strategies|泛产品36计]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-pan-product-aesthetic-toolkit]]
+- [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
+- [[30_wiki\concepts\yt-model-aesthetic-progression.md]]
+- [[30_wiki\concepts\yt-model-pan-product-36-strategies.md]]
+- [[30_wiki\concepts\yt-model-pan-product-climbing-map.md]]
+- [[30_wiki\concepts\yt-model-pan-product-demand-toolkit.md]]
+- [[30_wiki\concepts\yt-model-pan-product-execution-toolkit.md]]
+- [[30_wiki\concepts\yt-model-pan-product-three-virtues.md]]
+- [[30_wiki\concepts\yt-model-product-excellence.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-collection.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-imagination.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-modeling.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-pool.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-aesthetics.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-concepts.md]]
+- [[30_wiki\entities\一堂.md]]
+- [[30_wiki\systems\agent-native-card-design.md]]
+
+## [[yt-model-pan-product-aesthetic-toolkit|审美工具箱]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-pan-product-climbing-map]]
+- [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
+- [[30_wiki\concepts\yt-model-deliberate-practice-growth.md]]
+- [[30_wiki\concepts\yt-model-pan-product-36-strategies.md]]
+- [[30_wiki\concepts\yt-model-pan-product-three-virtues.md]]
+- [[30_wiki\concepts\yt-model-truman-career-routes.md]]
+- [[30_wiki\entities\一堂.md]]
+- [[30_wiki\systems\agent-native-card-design.md]]
+
+## [[yt-model-pan-product-climbing-map|十年爬山地图]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-pan-product-demand-toolkit]]
+- [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
+- [[30_wiki\concepts\yt-model-pan-product-36-strategies.md]]
+- [[30_wiki\concepts\yt-model-pan-product-aesthetic-toolkit.md]]
+- [[30_wiki\concepts\yt-model-pan-product-climbing-map.md]]
+- [[30_wiki\concepts\yt-model-pan-product-execution-toolkit.md]]
+- [[30_wiki\concepts\yt-model-pan-product-three-virtues.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-five-step-method.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-industry-canvas.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-motivation-resistance.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-multi-perspective.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-need-discovery.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-peak-end-rule.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-project-background.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-scenario-walkthrough.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-surprise-formula.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-user-perspective.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-user-segmentation.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-concepts.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-practice.md]]
+- [[30_wiki\entities\一堂.md]]
+- [[30_wiki\systems\agent-native-card-design.md]]
+
+## [[yt-model-pan-product-demand-toolkit|需求工具箱]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-pan-product-execution-toolkit]]
+- [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
+- [[30_wiki\concepts\yt-model-pan-product-36-strategies.md]]
+- [[30_wiki\concepts\yt-model-pan-product-aesthetic-toolkit.md]]
+- [[30_wiki\concepts\yt-model-pan-product-climbing-map.md]]
+- [[30_wiki\concepts\yt-model-pan-product-demand-toolkit.md]]
+- [[30_wiki\concepts\yt-model-pan-product-three-virtues.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-10x-validation.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-business-modeling.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-core-and-boundary.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-design-principles.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-good-tools.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-hypothesis-decomposition.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-idea-spark.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-incubation-polish.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-liberate-thinking.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-logic-mece.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-low-cost-mvp.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-management-trilogy.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-milestone-breakdown.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-realistic-simulation.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-review-iteration.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-risk-management.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-roi-analysis.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-war-room.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-02.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-concepts.md]]
+- [[30_wiki\entities\一堂.md]]
+- [[30_wiki\systems\agent-native-card-design.md]]
+
+## [[yt-model-pan-product-execution-toolkit|落地工具箱]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-pan-product-three-virtues]]
+- [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
+- [[30_wiki\concepts\yt-model-aesthetic-progression.md]]
+- [[30_wiki\concepts\yt-model-pan-product-36-strategies.md]]
+- [[30_wiki\concepts\yt-model-pan-product-climbing-map.md]]
+- [[30_wiki\concepts\yt-model-product-excellence.md]]
+- [[30_wiki\entities\一堂.md]]
+- [[30_wiki\systems\agent-native-card-design.md]]
+
+## [[yt-model-pan-product-three-virtues|三大修养]]
+- [[30_wiki\entities\一堂.md]]
 
 ## [[yt-model-personal-map]]
+- [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
+- [[30_wiki\concepts\yt-management-toolkit-overview.md]]
 - [[30_wiki\concepts\yt-model-management-map.md]]
+- [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
 - [[30_wiki\concepts\yt-model-progress-map.md]]
+- [[30_wiki\concepts\yt-model-truman-five-step-growth.md]]
 - [[30_wiki\concepts\yt-model-y-organization.md]]
 - [[30_wiki\concepts\yt-personal-knowledge-extraction.md]]
+
+## [[yt-model-personal-map|个人修炼地图]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-personal-pitch-toolkit]]
+- [[30_wiki\concepts\yt-concept-ai-guard-brain.md]]
+- [[30_wiki\concepts\yt-concept-context-engineering.md]]
+- [[30_wiki\concepts\yt-concept-peas-insight.md]]
+- [[30_wiki\concepts\yt-concept-weapon-arsenal.md]]
+- [[30_wiki\concepts\yt-management-basic-skills.md]]
+- [[30_wiki\concepts\yt-management-business-formula.md]]
+- [[30_wiki\concepts\yt-management-company-culture.md]]
+- [[30_wiki\concepts\yt-management-conversion-hacking.md]]
+- [[30_wiki\concepts\yt-management-finance-basics.md]]
+- [[30_wiki\concepts\yt-management-founder-role.md]]
+- [[30_wiki\concepts\yt-management-goal-management.md]]
+- [[30_wiki\concepts\yt-management-leadership-levels.md]]
+- [[30_wiki\concepts\yt-management-onboarding.md]]
+- [[30_wiki\concepts\yt-management-partnership-equity.md]]
+- [[30_wiki\concepts\yt-management-project-management.md]]
+- [[30_wiki\concepts\yt-management-scientific-decision.md]]
+- [[30_wiki\concepts\yt-management-scientific-hiring.md]]
+- [[30_wiki\concepts\yt-management-scientific-meetings.md]]
+- [[30_wiki\concepts\yt-management-strategy-meeting.md]]
+- [[30_wiki\concepts\yt-management-team-knowledge.md]]
+- [[30_wiki\concepts\yt-model-prompt-engineering.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-02.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-aesthetics.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-concepts.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-exploration.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-practice.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-tools.md]]
+- [[30_wiki\concepts\yt-personal-scientific-expression.md]]
+- [[30_wiki\concepts\yt-personal-verbatim-script.md]]
+- [[30_wiki\concepts\yt-pitch-aphorism.md]]
+- [[30_wiki\concepts\yt-pitch-colloquialization.md]]
+- [[30_wiki\concepts\yt-pitch-conflict.md]]
+- [[30_wiki\concepts\yt-pitch-emotionalization.md]]
+- [[30_wiki\concepts\yt-pitch-materialization.md]]
+- [[30_wiki\concepts\yt-pitch-metaphor.md]]
+- [[30_wiki\concepts\yt-pitch-quantification.md]]
+- [[30_wiki\concepts\yt-pitch-scenarization.md]]
+- [[30_wiki\concepts\yt-pitch-storytelling.md]]
+- [[30_wiki\concepts\yt-pitch-sublimation.md]]
+- [[30_wiki\concepts\yt-prompt-anti-flattery.md]]
+- [[30_wiki\concepts\yt-prompt-engineering-andrew-ng.md]]
+- [[30_wiki\concepts\yt-prompt-writing-workflow.md]]
+- [[30_wiki\concepts\yt-research-action-camp-launch.md]]
+- [[30_wiki\concepts\yt-research-weaponry-course.md]]
+- [[30_wiki\concepts\yt-system-course-catalog.md]]
+- [[30_wiki\tools\yt-tool-strategy-workshop.md]]
+
+## [[yt-model-prediction-model]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-modeling.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-five-step-method.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-logic-mece.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-prediction-model|预判模型]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-product-core-metrics]]
+- [[30_wiki\concepts\yt-model-conversion-optimization.md]]
+- [[30_wiki\concepts\yt-model-five-step-canvas.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-product-core-metrics|产品内核十大指标]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-product-excellence]]
+- [[30_wiki\concepts\yt-model-aesthetic-progression.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-imagination.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-surprise-formula.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-product-excellence|顶级产品追求]]
+- [[30_wiki\entities\一堂.md]]
 
 ## [[yt-model-progress-map]]
 - [[30_wiki\concepts\yt-model-entrepreneur-map.md]]
@@ -480,46 +1162,350 @@ png]]
 - [[30_wiki\concepts\yt-model-y-organization.md]]
 - [[30_wiki\concepts\yt-personal-knowledge-extraction.md]]
 
+## [[yt-model-progress-map|无限进步大地图]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-prompt-engineering]]
+- [[30_wiki\concepts\yt-concept-ai-guard-brain.md]]
+- [[30_wiki\concepts\yt-concept-context-engineering.md]]
+- [[30_wiki\concepts\yt-model-agent-architecture.md]]
+- [[30_wiki\concepts\yt-prompt-anti-flattery.md]]
+- [[30_wiki\concepts\yt-prompt-brainstorming.md]]
+- [[30_wiki\concepts\yt-prompt-engineering-andrew-ng.md]]
+- [[30_wiki\concepts\yt-prompt-iterative-prompting.md]]
+- [[30_wiki\concepts\yt-prompt-writing-workflow.md]]
+
+## [[yt-model-questioning-practice-canvas]]
+- [[30_wiki\concepts\yt-entrepreneur-spin-selling.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-questioning-practice-canvas|提问画布]]
+- [[30_wiki\entities\一堂.md]]
+
 ## [[yt-model-scientific-questioning-map]]
 - [[30_wiki\concepts\yt-model-questioning-practice-canvas.md]]
+- [[30_wiki\concepts\yt-personal-y-model-exploration-2.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-scientific-questioning-map|科学提问地图]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-truman-career-routes]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-truman-career-routes|楚门的选择]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-truman-five-step-growth]]
+- [[30_wiki\concepts\yt-model-truman-career-routes.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-model-truman-five-step-growth|Truman个人成长五步法]]
+- [[30_wiki\entities\一堂.md]]
 
 ## [[yt-model-y-organization]]
+- [[30_wiki\concepts\yt-management-toolkit-overview.md]]
 - [[30_wiki\concepts\yt-model-entrepreneur-map.md]]
 - [[30_wiki\concepts\yt-model-management-map.md]]
+- [[30_wiki\concepts\yt-model-pan-product-execution-toolkit.md]]
 - [[30_wiki\concepts\yt-model-personal-map.md]]
 - [[30_wiki\concepts\yt-model-progress-map.md]]
 - [[30_wiki\concepts\yt-personal-knowledge-extraction.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-02.md]]
+- [[30_wiki\concepts\yt-personal-y-model-exploration-2.md]]
+- [[30_wiki\concepts\yt-personal-y-model-practice.md]]
+
+## [[yt-model-y-organization|Y模型组织版]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-aesthetic-collection]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-pool.md]]
+
+## [[yt-panproduct-aesthetic-collection|最佳实践收集]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-aesthetic-imagination]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-modeling.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-surprise-formula.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-idea-spark.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-logic-mece.md]]
+
+## [[yt-panproduct-aesthetic-imagination|美好作品想象]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-aesthetic-modeling]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-imagination.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-pool.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-design-principles.md]]
+
+## [[yt-panproduct-aesthetic-modeling|最佳实践建模]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-aesthetic-pool]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-modeling.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-design-principles.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-incubation-polish.md]]
+
+## [[yt-panproduct-aesthetic-pool|最佳实践池子]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-demand-five-step-method]]
+- [[30_wiki\concepts\yt-panproduct-demand-industry-canvas.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-business-modeling.md]]
+
+## [[yt-panproduct-demand-five-step-method|一堂五步法]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-demand-industry-canvas]]
+- [[30_wiki\concepts\yt-panproduct-demand-project-background.md]]
+
+## [[yt-panproduct-demand-industry-canvas|行业分析画布]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-demand-motivation-resistance]]
+- [[30_wiki\concepts\yt-model-prompt-engineering.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-peak-end-rule.md]]
+- [[30_wiki\concepts\yt-prompt-anti-flattery.md]]
+- [[30_wiki\concepts\yt-prompt-engineering-andrew-ng.md]]
+
+## [[yt-panproduct-demand-motivation-resistance|动力阻力]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-demand-multi-perspective]]
+- [[30_wiki\concepts\yt-panproduct-demand-project-background.md]]
+
+## [[yt-panproduct-demand-multi-perspective|多视角思考]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-demand-need-discovery]]
+- [[30_wiki\concepts\yt-panproduct-demand-scenario-walkthrough.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-incubation-polish.md]]
+
+## [[yt-panproduct-demand-need-discovery|需求挖掘]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-demand-peak-end-rule]]
+- [[30_wiki\concepts\yt-panproduct-demand-motivation-resistance.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-surprise-formula.md]]
+
+## [[yt-panproduct-demand-peak-end-rule|峰终定律]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-demand-project-background]]
+- [[30_wiki\concepts\yt-panproduct-demand-industry-canvas.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-multi-perspective.md]]
+
+## [[yt-panproduct-demand-project-background|项目背景分析]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-demand-scenario-walkthrough]]
+- [[30_wiki\concepts\yt-panproduct-demand-need-discovery.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-user-perspective.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-user-segmentation.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-realistic-simulation.md]]
+- [[30_wiki\concepts\yt-pitch-scenarization.md]]
+
+## [[yt-panproduct-demand-scenario-walkthrough|场景推演]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-demand-surprise-formula]]
+- [[30_wiki\concepts\yt-panproduct-demand-motivation-resistance.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-peak-end-rule.md]]
+
+## [[yt-panproduct-demand-surprise-formula|惊喜公式]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-demand-user-perspective]]
+- [[30_wiki\concepts\yt-panproduct-demand-need-discovery.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-project-background.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-scenario-walkthrough.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-user-segmentation.md]]
+
+## [[yt-panproduct-demand-user-perspective|用户视角]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-demand-user-segmentation]]
+- [[30_wiki\concepts\yt-panproduct-demand-multi-perspective.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-scenario-walkthrough.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-user-perspective.md]]
+
+## [[yt-panproduct-demand-user-segmentation|用户分层]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-10x-validation]]
+- [[30_wiki\concepts\yt-panproduct-execution-hypothesis-decomposition.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-low-cost-mvp.md]]
+
+## [[yt-panproduct-execution-10x-validation|十倍速验证]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-business-modeling]]
+- [[30_wiki\concepts\yt-panproduct-execution-roi-analysis.md]]
+
+## [[yt-panproduct-execution-business-modeling|业务建模]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-core-and-boundary]]
+- [[30_wiki\concepts\yt-panproduct-execution-logic-mece.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-management-trilogy.md]]
+
+## [[yt-panproduct-execution-core-and-boundary|内核和边界]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-design-principles]]
+- [[30_wiki\concepts\yt-panproduct-execution-realistic-simulation.md]]
+
+## [[yt-panproduct-execution-design-principles|设计原则]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-good-tools|善用佳软]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-hypothesis-decomposition]]
+- [[30_wiki\concepts\yt-panproduct-execution-10x-validation.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-liberate-thinking.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-logic-mece.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-low-cost-mvp.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-risk-management.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-war-room.md]]
+
+## [[yt-panproduct-execution-hypothesis-decomposition|假设拆解]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-idea-spark]]
+- [[30_wiki\concepts\yt-panproduct-execution-liberate-thinking.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-logic-mece.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-war-room.md]]
+- [[30_wiki\concepts\yt-personal-inspiration-flash.md]]
+
+## [[yt-panproduct-execution-idea-spark|灵感闪现]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-incubation-polish|酝酿式打磨]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-liberate-thinking]]
+- [[30_wiki\concepts\yt-panproduct-execution-idea-spark.md]]
+
+## [[yt-panproduct-execution-liberate-thinking|解放思想]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-logic-mece]]
+- [[30_wiki\concepts\yt-panproduct-execution-business-modeling.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-core-and-boundary.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-war-room.md]]
+
+## [[yt-panproduct-execution-logic-mece|逻辑MECE]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-low-cost-mvp]]
+- [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-10x-validation.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-good-tools.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-hypothesis-decomposition.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-realistic-simulation.md]]
+
+## [[yt-panproduct-execution-low-cost-mvp|低成本测试MVP]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-management-trilogy]]
+- [[30_wiki\concepts\yt-panproduct-execution-core-and-boundary.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-milestone-breakdown.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-roi-analysis.md]]
+
+## [[yt-panproduct-execution-management-trilogy|管理三段论]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-milestone-breakdown]]
+- [[30_wiki\concepts\yt-panproduct-execution-management-trilogy.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-review-iteration.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-risk-management.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-roi-analysis.md]]
+
+## [[yt-panproduct-execution-milestone-breakdown|里程碑拆解]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-realistic-simulation]]
+- [[30_wiki\concepts\yt-panproduct-execution-design-principles.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-good-tools.md]]
+
+## [[yt-panproduct-execution-realistic-simulation|努力仿真]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-review-iteration]]
+- [[30_wiki\concepts\yt-panproduct-execution-incubation-polish.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-milestone-breakdown.md]]
+
+## [[yt-panproduct-execution-review-iteration|复盘迭代]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-risk-management]]
+- [[30_wiki\concepts\yt-panproduct-execution-milestone-breakdown.md]]
+
+## [[yt-panproduct-execution-risk-management|风险管理]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-roi-analysis]]
+- [[30_wiki\concepts\yt-panproduct-execution-business-modeling.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-management-trilogy.md]]
+
+## [[yt-panproduct-execution-roi-analysis|ROI分析]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-panproduct-execution-war-room]]
+- [[30_wiki\concepts\yt-panproduct-execution-idea-spark.md]]
+
+## [[yt-panproduct-execution-war-room|攻坚会]]
+- [[30_wiki\entities\一堂.md]]
 
 ## [[yt-personal-ai-capability]]
+- [[30_wiki\concepts\yt-model-agent-architecture.md]]
 - [[30_wiki\concepts\yt-model-dual-triangle-competitiveness.md]]
 - [[30_wiki\concepts\yt-model-muse-ai-framework.md]]
 - [[30_wiki\concepts\yt-personal-inspiration-flash.md]]
 - [[30_wiki\concepts\yt-personal-product-design.md]]
+- [[30_wiki\concepts\yt-tool-peas-agent-analysis.md]]
+
+## [[yt-personal-ai-thinking-card]]
+- [[30_wiki\concepts\yt-model-cognitive-upgrade-framework.md]]
 
 ## [[yt-personal-checklist-notes]]
+- [[30_wiki\concepts\yt-model-cognitive-upgrade-framework.md]]
 - [[30_wiki\concepts\yt-model-ipo-complete-checklist.md]]
 - [[30_wiki\concepts\yt-model-ipo-learning-strategy.md]]
+- [[30_wiki\concepts\yt-personal-ai-thinking-card.md]]
 - [[30_wiki\concepts\yt-personal-deliberate-practice.md]]
 - [[30_wiki\concepts\yt-personal-inspiration-flash.md]]
 - [[30_wiki\concepts\yt-personal-knowledge-management.md]]
-- [[30_wiki\concepts\yt-personal-sales-pitch-model.md]]
 - [[30_wiki\concepts\yt-personal-verbatim-script.md]]
 
 ## [[yt-personal-deep-review]]
+- [[30_wiki\concepts\yt-model-cognitive-upgrade-framework.md]]
+- [[30_wiki\concepts\yt-model-deep-review-iceberg.md]]
+- [[30_wiki\concepts\yt-model-deliberate-practice-growth.md]]
 - [[30_wiki\concepts\yt-model-ipo-complete-checklist.md]]
 - [[30_wiki\concepts\yt-model-ipo-learning-strategy.md]]
 - [[30_wiki\concepts\yt-model-questioning-practice-canvas.md]]
 - [[30_wiki\concepts\yt-model-scientific-questioning-map.md]]
+- [[30_wiki\concepts\yt-personal-ai-thinking-card.md]]
 - [[30_wiki\concepts\yt-personal-checklist-notes.md]]
 - [[30_wiki\concepts\yt-personal-deliberate-practice.md]]
 - [[30_wiki\concepts\yt-personal-ipo-learning.md]]
 - [[30_wiki\concepts\yt-personal-knowledge-management.md]]
+- [[30_wiki\tools\yt-tool-hiring-scorecard.md]]
+
+## [[yt-personal-deep-review|五层复盘模型]]
+- [[30_wiki\concepts\yt-decision-review.md]]
 
 ## [[yt-personal-deliberate-practice]]
+- [[30_wiki\concepts\yt-model-agent-architecture.md]]
+- [[30_wiki\concepts\yt-model-deep-review-iceberg.md]]
+- [[30_wiki\concepts\yt-model-deliberate-practice-growth.md]]
 - [[30_wiki\concepts\yt-model-ipo-complete-checklist.md]]
 - [[30_wiki\concepts\yt-model-ipo-learning-strategy.md]]
 - [[30_wiki\concepts\yt-model-questioning-practice-canvas.md]]
 - [[30_wiki\concepts\yt-model-scientific-questioning-map.md]]
+- [[30_wiki\concepts\yt-model-truman-five-step-growth.md]]
 - [[30_wiki\concepts\yt-personal-checklist-notes.md]]
 - [[30_wiki\concepts\yt-personal-scientific-expression.md]]
 - [[30_wiki\concepts\yt-personal-time-management.md]]
@@ -547,20 +1533,31 @@ png]]
 - [[30_wiki\concepts\yt-personal-inspiration-flash.md]]
 - [[30_wiki\concepts\yt-personal-knowledge-management.md]]
 - [[30_wiki\concepts\yt-personal-product-design.md]]
-- [[30_wiki\concepts\yt-personal-sales-pitch-model.md]]
 - [[30_wiki\concepts\yt-personal-scientific-expression.md]]
 - [[30_wiki\concepts\yt-personal-time-management.md]]
 - [[30_wiki\concepts\yt-personal-verbatim-script.md]]
+- [[30_wiki\tools\yt-tool-okr-cycle.md]]
 
 ## [[yt-personal-knowledge-extraction]]
+- [[30_wiki\concepts\yt-entrepreneur-research-camp.md]]
+- [[30_wiki\concepts\yt-entrepreneur-spin-selling.md]]
+- [[30_wiki\concepts\yt-model-cognitive-upgrade-framework.md]]
+- [[30_wiki\concepts\yt-model-deep-review-iceberg.md]]
 - [[30_wiki\concepts\yt-personal-ai-capability.md]]
+- [[30_wiki\concepts\yt-personal-ai-thinking-card.md]]
 - [[30_wiki\concepts\yt-personal-checklist-notes.md]]
 - [[30_wiki\concepts\yt-personal-deliberate-practice.md]]
 - [[30_wiki\concepts\yt-personal-inspiration-flash.md]]
 - [[30_wiki\concepts\yt-personal-knowledge-management.md]]
 - [[30_wiki\concepts\yt-personal-product-design.md]]
-- [[30_wiki\concepts\yt-personal-sales-pitch-model.md]]
+- [[30_wiki\concepts\yt-personal-thinking-models.md]]
 - [[30_wiki\concepts\yt-personal-time-management.md]]
+- [[30_wiki\concepts\yt-personal-y-model-practice.md]]
+- [[30_wiki\concepts\yt-tool-knowledge-extraction.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-personal-knowledge-extraction|知识萃取]]
+- [[30_wiki\entities\一堂.md]]
 
 ## [[yt-personal-knowledge-management]]
 - [[30_wiki\concepts\yt-management-team-knowledge.md]]
@@ -568,20 +1565,58 @@ png]]
 - [[30_wiki\concepts\yt-model-ipo-learning-strategy.md]]
 - [[30_wiki\concepts\yt-personal-ipo-learning.md]]
 - [[30_wiki\concepts\yt-personal-time-management.md]]
+- [[30_wiki\concepts\yt-tool-knowledge-extraction.md]]
 
 ## [[yt-personal-knowledge-management|知识管理]]
 - [[30_wiki\concepts\yt-personal-deep-review.md]]
 
-## [[yt-personal-product-design]]
-- [[30_wiki\concepts\yt-personal-ai-capability.md]]
+## [[yt-personal-pan-product-aesthetics]]
+- [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
+- [[30_wiki\concepts\yt-model-aesthetic-progression.md]]
+- [[30_wiki\concepts\yt-model-product-excellence.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-02.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-practice.md]]
 
-## [[yt-model-personal-pitch-toolkit]]
-- [[30_wiki\concepts\yt-personal-scientific-expression.md]]
-- [[30_wiki\concepts\yt-personal-verbatim-script.md]]
+## [[yt-personal-pan-product-concepts]]
+- [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-02.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-aesthetics.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-exploration.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-practice.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-tools.md]]
+
+## [[yt-personal-pan-product-concepts|泛产品设计认知]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-personal-pan-product-practice]]
+- [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-02.md]]
+
+## [[yt-personal-pan-product-tools]]
+- [[30_wiki\concepts\yt-personal-pan-product-exploration.md]]
+
+## [[yt-personal-product-design]]
+- [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
+- [[30_wiki\concepts\yt-model-truman-career-routes.md]]
+- [[30_wiki\concepts\yt-personal-ai-capability.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-concepts.md]]
 
 ## [[yt-personal-scientific-expression]]
-- [[30_wiki\concepts\yt-personal-sales-pitch-model.md]]
+- [[30_wiki\concepts\yt-concept-weapon-arsenal.md]]
+- [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
+- [[30_wiki\concepts\yt-model-prompt-engineering.md]]
 - [[30_wiki\concepts\yt-personal-verbatim-script.md]]
+- [[30_wiki\concepts\yt-pitch-colloquialization.md]]
+
+## [[yt-personal-thinking-models]]
+- [[30_wiki\concepts\yt-model-deliberate-practice-growth.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-personal-thinking-models|思维模型]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-personal-time-management]]
+- [[30_wiki\tools\yt-tool-meeting-designer.md]]
 
 ## [[yt-personal-time-management|时间管理]]
 - [[30_wiki\concepts\yt-personal-deep-review.md]]
@@ -589,13 +1624,145 @@ png]]
 ## [[yt-personal-verbatim-script]]
 - [[30_wiki\concepts\yt-personal-scientific-expression.md]]
 
-## [[yt-research-action-camp-launch]]
+## [[yt-personal-y-model-exploration-2]]
 - [[30_wiki\entities\一堂.md]]
+
+## [[yt-personal-y-model-practice]]
+- [[30_wiki\concepts\yt-panproduct-demand-need-discovery.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-liberate-thinking.md]]
+- [[30_wiki\concepts\yt-personal-thinking-models.md]]
+- [[30_wiki\concepts\yt-personal-y-model-exploration-2.md]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-personal-y-model-practice|Y模型实操]]
+- [[30_wiki\entities\一堂.md]]
+
+## [[yt-pitch-aphorism]]
+- [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
+
+## [[yt-pitch-colloquialization]]
+- [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
+
+## [[yt-pitch-conflict]]
+- [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
+
+## [[yt-pitch-emotionalization]]
+- [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
+
+## [[yt-pitch-materialization]]
+- [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
+
+## [[yt-pitch-metaphor]]
+- [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
+
+## [[yt-pitch-quantification]]
+- [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
+
+## [[yt-pitch-scenarization]]
+- [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
+
+## [[yt-pitch-storytelling]]
+- [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
+
+## [[yt-pitch-sublimation]]
+- [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
+
+## [[yt-prompt-anti-flattery]]
+- [[30_wiki\concepts\yt-model-prompt-engineering.md]]
+- [[30_wiki\concepts\yt-prompt-brainstorming.md]]
+- [[30_wiki\concepts\yt-prompt-iterative-prompting.md]]
+
+## [[yt-prompt-brainstorming]]
+- [[30_wiki\concepts\yt-concept-context-engineering.md]]
+- [[30_wiki\concepts\yt-model-prompt-engineering.md]]
+- [[30_wiki\concepts\yt-prompt-iterative-prompting.md]]
+- [[30_wiki\concepts\yt-prompt-writing-workflow.md]]
+
+## [[yt-prompt-engineering-andrew-ng]]
+- [[30_wiki\concepts\yt-model-prompt-engineering.md]]
+
+## [[yt-prompt-iterative-prompting]]
+- [[30_wiki\concepts\yt-concept-context-engineering.md]]
+- [[30_wiki\concepts\yt-model-prompt-engineering.md]]
+- [[30_wiki\concepts\yt-prompt-anti-flattery.md]]
+- [[30_wiki\concepts\yt-prompt-brainstorming.md]]
+
+## [[yt-prompt-writing-workflow]]
+- [[30_wiki\concepts\yt-concept-ai-guard-brain.md]]
+- [[30_wiki\concepts\yt-model-prompt-engineering.md]]
+
+## [[yt-research-action-camp-launch]]
 - [[30_wiki\systems\一堂方法论体系总图.md]]
+
+## [[yt-research-competitor-toolkit]]
+- [[30_wiki\concepts\yt-research-expert-interview.md]]
+- [[30_wiki\concepts\yt-research-hypothesis-test.md]]
+- [[30_wiki\concepts\yt-research-industry-canvas.md]]
+- [[30_wiki\concepts\yt-research-intelligence-map.md]]
+- [[30_wiki\concepts\yt-research-mindset.md]]
+- [[30_wiki\concepts\yt-research-osl-framework.md]]
+- [[30_wiki\concepts\yt-research-user-jtbd.md]]
+
+## [[yt-research-expert-interview]]
+- [[30_wiki\concepts\yt-research-competitor-toolkit.md]]
+- [[30_wiki\concepts\yt-research-hypothesis-test.md]]
+- [[30_wiki\concepts\yt-research-industry-canvas.md]]
+- [[30_wiki\concepts\yt-research-intelligence-map.md]]
+- [[30_wiki\concepts\yt-research-mindset.md]]
+- [[30_wiki\concepts\yt-research-osl-framework.md]]
+- [[30_wiki\concepts\yt-research-user-jtbd.md]]
+
+## [[yt-research-hypothesis-test]]
+- [[30_wiki\concepts\yt-research-competitor-toolkit.md]]
+- [[30_wiki\concepts\yt-research-expert-interview.md]]
+- [[30_wiki\concepts\yt-research-industry-canvas.md]]
+- [[30_wiki\concepts\yt-research-intelligence-map.md]]
+- [[30_wiki\concepts\yt-research-mindset.md]]
+- [[30_wiki\concepts\yt-research-osl-framework.md]]
+- [[30_wiki\concepts\yt-research-user-jtbd.md]]
+
+## [[yt-research-industry-canvas]]
+- [[30_wiki\concepts\yt-research-competitor-toolkit.md]]
+- [[30_wiki\concepts\yt-research-expert-interview.md]]
+- [[30_wiki\concepts\yt-research-hypothesis-test.md]]
+- [[30_wiki\concepts\yt-research-intelligence-map.md]]
+- [[30_wiki\concepts\yt-research-mindset.md]]
+- [[30_wiki\concepts\yt-research-osl-framework.md]]
+- [[30_wiki\concepts\yt-research-user-jtbd.md]]
+
+## [[yt-research-intelligence-map]]
+- [[30_wiki\concepts\yt-research-competitor-toolkit.md]]
+- [[30_wiki\concepts\yt-research-expert-interview.md]]
+- [[30_wiki\concepts\yt-research-hypothesis-test.md]]
+- [[30_wiki\concepts\yt-research-industry-canvas.md]]
+- [[30_wiki\concepts\yt-research-mindset.md]]
+- [[30_wiki\concepts\yt-research-osl-framework.md]]
+- [[30_wiki\concepts\yt-research-user-jtbd.md]]
+
+## [[yt-research-mindset]]
+- [[30_wiki\concepts\yt-research-intelligence-map.md]]
+- [[30_wiki\concepts\yt-research-osl-framework.md]]
+
+## [[yt-research-osl-framework]]
+- [[30_wiki\concepts\yt-research-competitor-toolkit.md]]
+- [[30_wiki\concepts\yt-research-expert-interview.md]]
+- [[30_wiki\concepts\yt-research-hypothesis-test.md]]
+- [[30_wiki\concepts\yt-research-industry-canvas.md]]
+- [[30_wiki\concepts\yt-research-intelligence-map.md]]
+- [[30_wiki\concepts\yt-research-mindset.md]]
+- [[30_wiki\concepts\yt-research-user-jtbd.md]]
+
+## [[yt-research-user-jtbd]]
+- [[30_wiki\concepts\yt-research-competitor-toolkit.md]]
+- [[30_wiki\concepts\yt-research-expert-interview.md]]
+- [[30_wiki\concepts\yt-research-hypothesis-test.md]]
+- [[30_wiki\concepts\yt-research-industry-canvas.md]]
+- [[30_wiki\concepts\yt-research-intelligence-map.md]]
+- [[30_wiki\concepts\yt-research-mindset.md]]
+- [[30_wiki\concepts\yt-research-osl-framework.md]]
 
 ## [[yt-research-weaponry-course]]
 - [[30_wiki\concepts\yt-system-course-map-lecture.md]]
-- [[30_wiki\entities\一堂.md]]
 - [[30_wiki\systems\一堂方法论体系总图.md]]
 
 ## [[yt-system-course-catalog]]
@@ -644,7 +1811,6 @@ png]]
 - [[30_wiki\concepts\yt-personal-knowledge-extraction.md]]
 - [[30_wiki\concepts\yt-personal-knowledge-management.md]]
 - [[30_wiki\concepts\yt-personal-product-design.md]]
-- [[30_wiki\concepts\yt-personal-sales-pitch-model.md]]
 - [[30_wiki\concepts\yt-personal-scientific-expression.md]]
 - [[30_wiki\concepts\yt-personal-time-management.md]]
 - [[30_wiki\concepts\yt-personal-verbatim-script.md]]
@@ -658,108 +1824,141 @@ png]]
 ## [[yt-system-course-catalog#管理必修]]
 - [[30_wiki\concepts\yt-model-management-map.md]]
 
+## [[yt-system-course-catalog|课程总目录]]
+- [[30_wiki\entities\一堂.md]]
+
 ## [[yt-system-course-map-lecture]]
 - [[30_wiki\concepts\yt-case-mandatory-cases.md]]
 - [[30_wiki\concepts\yt-entrepreneur-needs-analysis.md]]
-- [[30_wiki\concepts\yt-model-ipo-learning-strategy.md]]
 - [[30_wiki\concepts\yt-model-liberate-thinking-layers.md]]
 - [[30_wiki\concepts\yt-personal-deep-review.md]]
 - [[30_wiki\concepts\yt-personal-ipo-learning.md]]
 - [[30_wiki\concepts\yt-research-weaponry-course.md]]
 - [[30_wiki\concepts\yt-system-course-catalog.md]]
-- [[30_wiki\entities\一堂.md]]
 - [[30_wiki\systems\一堂方法论体系总图.md]]
 
 ## [[yt-system-course-map-lecture|一堂课程地图精华串讲]]
 - [[30_wiki\concepts\yitang-course-map.md]]
 
+## [[yt-tool-equity-checklist]]
+- [[30_wiki\concepts\yt-management-toolkit-overview.md]]
+
+## [[yt-tool-hiring-scorecard]]
+- [[30_wiki\concepts\yt-management-toolkit-overview.md]]
+- [[30_wiki\concepts\yt-tool-equity-checklist.md]]
+- [[30_wiki\concepts\yt-tool-onboarding-90day.md]]
+- [[30_wiki\tools\yt-tool-hiring-scorecard.md]]
+
+## [[yt-tool-knowledge-extraction]]
+- [[30_wiki\concepts\yt-management-toolkit-overview.md]]
+- [[30_wiki\concepts\yt-tool-onboarding-90day.md]]
+- [[30_wiki\concepts\yt-tool-project-health-radar.md]]
+
+## [[yt-tool-meeting-designer]]
+- [[30_wiki\concepts\yt-management-toolkit-overview.md]]
+- [[30_wiki\concepts\yt-tool-okr-cycle.md]]
+- [[30_wiki\concepts\yt-tool-project-health-radar.md]]
+- [[30_wiki\concepts\yt-tool-strategy-workshop.md]]
+- [[30_wiki\tools\yt-tool-meeting-designer.md]]
+
+## [[yt-tool-okr-cycle]]
+- [[30_wiki\concepts\yt-management-goal-management.md]]
+- [[30_wiki\concepts\yt-management-toolkit-overview.md]]
+- [[30_wiki\concepts\yt-tool-meeting-designer.md]]
+- [[30_wiki\concepts\yt-tool-strategy-workshop.md]]
+- [[30_wiki\tools\yt-tool-okr-cycle.md]]
+- [[30_wiki\tools\yt-tool-strategy-workshop.md]]
+
+## [[yt-tool-onboarding-90day]]
+- [[30_wiki\concepts\yt-management-toolkit-overview.md]]
+- [[30_wiki\concepts\yt-tool-hiring-scorecard.md]]
+
+## [[yt-tool-peas-agent-analysis]]
+- [[30_wiki\concepts\yt-concept-peas-insight.md]]
+
+## [[yt-tool-project-health-radar]]
+- [[30_wiki\concepts\yt-management-toolkit-overview.md]]
+- [[30_wiki\concepts\yt-tool-meeting-designer.md]]
+
+## [[yt-tool-strategy-workshop]]
+- [[30_wiki\concepts\yt-management-strategy-meeting.md]]
+- [[30_wiki\concepts\yt-management-toolkit-overview.md]]
+- [[30_wiki\concepts\yt-tool-meeting-designer.md]]
+- [[30_wiki\concepts\yt-tool-okr-cycle.md]]
+- [[30_wiki\tools\yt-tool-okr-cycle.md]]
+- [[30_wiki\tools\yt-tool-strategy-workshop.md]]
+
 ## [[一堂]]
+- [[30_wiki\concepts\yt-entrepreneur-research-camp.md]]
+- [[30_wiki\concepts\yt-entrepreneur-spin-selling.md]]
+- [[30_wiki\concepts\yt-model-aesthetic-progression.md]]
+- [[30_wiki\concepts\yt-model-conversion-optimization.md]]
+- [[30_wiki\concepts\yt-model-deep-review-iceberg.md]]
+- [[30_wiki\concepts\yt-model-deliberate-practice-growth.md]]
 - [[30_wiki\concepts\yt-model-dual-triangle-competitiveness.md]]
 - [[30_wiki\concepts\yt-model-entrepreneur-map.md]]
+- [[30_wiki\concepts\yt-model-five-step-canvas.md]]
 - [[30_wiki\concepts\yt-model-ipo-complete-checklist.md]]
 - [[30_wiki\concepts\yt-model-ipo-learning-strategy.md]]
 - [[30_wiki\concepts\yt-model-liberate-thinking-layers.md]]
 - [[30_wiki\concepts\yt-model-management-map.md]]
 - [[30_wiki\concepts\yt-model-muse-ai-framework.md]]
 - [[30_wiki\concepts\yt-model-personal-map.md]]
+- [[30_wiki\concepts\yt-model-prediction-model.md]]
+- [[30_wiki\concepts\yt-model-product-core-metrics.md]]
+- [[30_wiki\concepts\yt-model-product-excellence.md]]
 - [[30_wiki\concepts\yt-model-progress-map.md]]
 - [[30_wiki\concepts\yt-model-questioning-practice-canvas.md]]
 - [[30_wiki\concepts\yt-model-scientific-questioning-map.md]]
+- [[30_wiki\concepts\yt-model-truman-career-routes.md]]
+- [[30_wiki\concepts\yt-model-truman-five-step-growth.md]]
 - [[30_wiki\concepts\yt-model-y-organization.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-collection.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-imagination.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-modeling.md]]
+- [[30_wiki\concepts\yt-panproduct-aesthetic-pool.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-five-step-method.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-industry-canvas.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-motivation-resistance.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-multi-perspective.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-need-discovery.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-peak-end-rule.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-project-background.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-scenario-walkthrough.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-surprise-formula.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-user-perspective.md]]
+- [[30_wiki\concepts\yt-panproduct-demand-user-segmentation.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-10x-validation.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-business-modeling.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-core-and-boundary.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-design-principles.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-good-tools.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-hypothesis-decomposition.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-idea-spark.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-incubation-polish.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-liberate-thinking.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-logic-mece.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-low-cost-mvp.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-management-trilogy.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-milestone-breakdown.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-realistic-simulation.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-review-iteration.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-risk-management.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-roi-analysis.md]]
+- [[30_wiki\concepts\yt-panproduct-execution-war-room.md]]
 - [[30_wiki\concepts\yt-personal-knowledge-extraction.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-02.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-aesthetics.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-concepts.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-exploration.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-practice.md]]
+- [[30_wiki\concepts\yt-personal-pan-product-tools.md]]
+- [[30_wiki\concepts\yt-personal-thinking-models.md]]
+- [[30_wiki\concepts\yt-personal-y-model-exploration-2.md]]
+- [[30_wiki\concepts\yt-personal-y-model-practice.md]]
 - [[30_wiki\concepts\yt-system-course-catalog.md]]
 - [[30_wiki\concepts\yt-system-course-map-lecture.md]]
 - [[30_wiki\systems\一堂方法论体系总图.md]]
-
-## [[一堂-个人修炼-Y模型.
-
-jpg]]
-- [[30_wiki\concepts\src_20260510_19b62b86.md]]
-
-## [[一堂-个人修炼-全景图MUSE模型.
-
-jpg]]
-- [[30_wiki\concepts\src_20260510_ce883bd5.md]]
-
-## [[一堂-个人修炼-双三角模型.
-
-jpg]]
-- [[30_wiki\concepts\src_20260510_fffa533e.md]]
-
-## [[一堂-个人修炼-提问刻意练习画布.
-
-png]]
-- [[30_wiki\concepts\src_20260510_0ad92016.md]]
-
-## [[一堂-个人修炼-科学学习IPO-全景策略.
-
-jpg]]
-- [[30_wiki\concepts\src_20260510_4304f022.md]]
-
-## [[一堂-个人修炼-科学学习IPO完整清单.
-
-jpg]]
-- [[30_wiki\concepts\src_20260510_339cd37b.md]]
-
-## [[一堂-个人修炼-科学学习IPO模型.
-
-jpg]]
-- [[30_wiki\concepts\src_20260510_d8b0b591.md]]
-
-## [[一堂-个人修炼-科学提问刻意练习.
-
-png]]
-- [[30_wiki\concepts\src_20260510_740421b6.md]]
-
-## [[一堂-个人修炼-解放思想.
-
-png]]
-- [[30_wiki\concepts\src_20260510_27bbfe74.md]]
-
-## [[一堂-个人修炼-课程清单.
-
-png]]
-- [[30_wiki\concepts\src_20260510_cd09ceeb.md]]
-
-## [[一堂-创业必修-课程清单.
-
-png]]
-- [[30_wiki\concepts\src_20260510_081424fd.md]]
-
-## [[一堂-案例拆解-课程清单.
-
-png]]
-- [[30_wiki\concepts\src_20260510_1dcecd5a.md]]
-
-## [[一堂-泛产品设计-十年苦练30招.
-
-png]]
-- [[30_wiki\concepts\src_20260510_c5fbe207.md]]
-
-## [[一堂-管理必修-课程清单.
-
-png]]
-- [[30_wiki\concepts\src_20260510_86a29669.md]]
 
 ## [[一堂-课程地图精华串讲]]
 - [[30_wiki\systems\一堂方法论体系总图.md]]
@@ -768,9 +1967,6 @@ png]]
 - [[30_wiki\concepts\business-research-skill-oscar-13-weapon-system.md]]
 - [[30_wiki\concepts\truman-perspective-skill.md]]
 - [[30_wiki\concepts\yt-research-action-camp-launch.md]]
-- [[30_wiki\concepts\一堂调研武器库13招.md]]
-- [[30_wiki\concepts\一堂调研武器库课程原文润色.md]]
-- [[30_wiki\entities\一堂.md]]
 - [[30_wiki\systems\一堂方法论体系总图.md]]
 
 ## [[一堂|一堂实体页]]
@@ -778,26 +1974,6 @@ png]]
 - [[30_wiki\concepts\yt-research-action-camp-launch.md]]
 - [[30_wiki\concepts\yt-research-weaponry-course.md]]
 - [[30_wiki\concepts\yt-system-course-map-lecture.md]]
-
-## [[一堂个人地图：高潜力成长者修炼全景图.
-
-png]]
-- [[30_wiki\concepts\src_20260510_6afe9d44.md]]
-
-## [[一堂五步法-产品内核画布.
-
-png]]
-- [[30_wiki\concepts\src_20260510_9fc30d42.md]]
-
-## [[一堂产品内核-十大典型指标.
-
-png]]
-- [[30_wiki\concepts\src_20260510_a475fce7.md]]
-
-## [[一堂刻意练习十年成长指数.
-
-png]]
-- [[30_wiki\concepts\src_20260510_86b39e9a.md]]
 
 ## [[一堂方法论体系总图]]
 - [[30_wiki\concepts\yt-entrepreneur-needs-analysis.md]]
@@ -830,22 +2006,21 @@ png]]
 - [[30_wiki\concepts\yt-personal-ipo-learning.md]]
 - [[30_wiki\concepts\yt-personal-knowledge-management.md]]
 - [[30_wiki\concepts\yt-personal-product-design.md]]
-- [[30_wiki\concepts\yt-personal-sales-pitch-model.md]]
 - [[30_wiki\concepts\yt-personal-scientific-expression.md]]
 - [[30_wiki\concepts\yt-personal-time-management.md]]
 - [[30_wiki\concepts\yt-personal-verbatim-script.md]]
 - [[30_wiki\entities\一堂.md]]
 - [[30_wiki\systems\一堂方法论体系总图.md]]
 
-## [[一堂最佳转化率动力曲线图.
+## [[一堂泛产品设计-十年修炼爬山地图.png]]
+- [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
+- [[30_wiki\concepts\yt-model-pan-product-climbing-map.md]]
+- [[30_wiki\systems\agent-native-card-design.md]]
 
-png]]
-- [[30_wiki\concepts\src_20260510_bb5dce45.md]]
-
-## [[一堂深度复盘冰山图.
-
-png]]
-- [[30_wiki\concepts\src_20260510_f88bd8d8.md]]
+## [[一堂泛产品设计36计-全套地图.png]]
+- [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
+- [[30_wiki\concepts\yt-model-pan-product-36-strategies.md]]
+- [[30_wiki\systems\agent-native-card-design.md]]
 
 ## [[一堂调研武器库13招]]
 - [[30_wiki\concepts\business-research-skill-oscar-13-weapon-system.md]]
@@ -855,8 +2030,6 @@ png]]
 - [[30_wiki\concepts\yt-case-mandatory-cases.md]]
 - [[30_wiki\concepts\yt-research-action-camp-launch.md]]
 - [[30_wiki\concepts\yt-research-weaponry-course.md]]
-- [[30_wiki\concepts\一堂调研武器库课程原文润色.md]]
-- [[30_wiki\entities\一堂.md]]
 - [[30_wiki\systems\一堂方法论体系总图.md]]
 
 ## [[一堂调研武器库课程原文润色]]
@@ -869,16 +2042,8 @@ png]]
 - [[30_wiki\concepts\yt-case-mandatory-cases.md]]
 - [[30_wiki\concepts\yt-research-action-camp-launch.md]]
 - [[30_wiki\concepts\yt-research-weaponry-course.md]]
-- [[30_wiki\concepts\一堂-调研行动营启动_原文润色.md]]
-- [[30_wiki\concepts\一堂调研武器库课程原文润色.md]]
 - [[30_wiki\entities\Kimi-月之暗面.md]]
-- [[30_wiki\entities\一堂.md]]
 - [[30_wiki\systems\一堂方法论体系总图.md]]
-
-## [[一堂转化率-10大容易浪费的触点.
-
-png]]
-- [[30_wiki\concepts\src_20260510_0b7e3162.md]]
 
 ## [[一堂进步大地图.png]]
 - [[30_wiki\concepts\yitang-course-map.md]]
@@ -890,10 +2055,8 @@ png]]
 - [[30_wiki\projects\互联网医院项目.md]]
 - [[30_wiki\projects\诊所O2O项目.md]]
 
-## [[优秀泛产品设计者的自我修养.
-
-png]]
-- [[30_wiki\concepts\src_20260510_5058df21.md]]
+## [[优秀泛产品设计者的自我修养.png]]
+- [[30_wiki\concepts\yt-model-pan-product-three-virtues.md]]
 
 ## [[保达云诊所深度调研报告]]
 - [[30_wiki\concepts\HIS系统开发实现方案-架构师指南.md]]
@@ -904,213 +2067,23 @@ png]]
 - [[30_wiki\projects\互联网医院项目.md]]
 - [[30_wiki\projects\诊所O2O项目.md]]
 
-## [[婚礼操盘-用户和场景.
-
-png]]
-- [[30_wiki\concepts\src_20260510_17ce322d.md]]
-
 ## [[开源HIS系统代码深度分析报告]]
 - [[30_wiki\concepts\HIS系统开发实现方案-架构师指南.md]]
 
-## [[泛产品设计-审美卡片-最佳实践建模.
+## [[泛产品设计-审美工具箱指南.png]]
+- [[30_wiki\concepts\yt-model-pan-product-aesthetic-toolkit.md]]
 
-png]]
-- [[30_wiki\concepts\src_20260510_c311d0f9.md]]
+## [[泛产品设计-需求工具箱指南.png]]
+- [[30_wiki\concepts\yt-model-pan-product-demand-toolkit.md]]
 
-## [[泛产品设计-审美卡片-最佳实践收集.
+## [[泛产品设计的应用场景示意图.png]]
+- [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
 
-png]]
-- [[30_wiki\concepts\src_20260510_cbf3dd8d.md]]
+## [[泛产品设计者的三大自我修养.png]]
+- [[30_wiki\concepts\yt-model-pan-product-three-virtues.md]]
 
-## [[泛产品设计-审美卡片-最佳实践池子.
-
-png]]
-- [[30_wiki\concepts\src_20260510_4fbd64d6.md]]
-
-## [[泛产品设计-审美卡片-美好作品想象.
-
-png]]
-- [[30_wiki\concepts\src_20260510_74977a28.md]]
-
-## [[泛产品设计-审美工具箱指南.
-
-png]]
-- [[30_wiki\concepts\src_20260510_61385577.md]]
-
-## [[泛产品设计-用户卡片-一堂五步法.
-
-png]]
-- [[30_wiki\concepts\src_20260510_ba0d885e.md]]
-
-## [[泛产品设计-用户卡片-动力阻力.
-
-png]]
-- [[30_wiki\concepts\src_20260510_3964a346.md]]
-
-## [[泛产品设计-用户卡片-场景推演.
-
-png]]
-- [[30_wiki\concepts\src_20260510_677d2fb5.md]]
-
-## [[泛产品设计-用户卡片-多视角思考.
-
-png]]
-- [[30_wiki\concepts\src_20260510_ef839d4c.md]]
-
-## [[泛产品设计-用户卡片-峰终定律.
-
-png]]
-- [[30_wiki\concepts\src_20260510_8ca8deb9.md]]
-
-## [[泛产品设计-用户卡片-惊喜公式.
-
-png]]
-- [[30_wiki\concepts\src_20260510_a20ff50b.md]]
-
-## [[泛产品设计-用户卡片-用户分层.
-
-png]]
-- [[30_wiki\concepts\src_20260510_44dac585.md]]
-
-## [[泛产品设计-用户卡片-用户视角.
-
-png]]
-- [[30_wiki\concepts\src_20260510_f0ca7226.md]]
-
-## [[泛产品设计-用户卡片-行业分析画布.
-
-png]]
-- [[30_wiki\concepts\src_20260510_fe505c73.md]]
-
-## [[泛产品设计-用户卡片-需求挖掘.
-
-png]]
-- [[30_wiki\concepts\src_20260510_2ba8c07f.md]]
-
-## [[泛产品设计-用户卡片-项目背景分析.
-
-png]]
-- [[30_wiki\concepts\src_20260510_54f23f73.md]]
-
-## [[泛产品设计-落地卡片-ROI分析.
-
-png]]
-- [[30_wiki\concepts\src_20260510_dec65dcf.md]]
-
-## [[泛产品设计-落地卡片-业务建模.
-
-png]]
-- [[30_wiki\concepts\src_20260510_c2389c75.md]]
-
-## [[泛产品设计-落地卡片-低成本测试MVP.
-
-png]]
-- [[30_wiki\concepts\src_20260510_6e99bcbf.md]]
-
-## [[泛产品设计-落地卡片-假设拆解.
-
-png]]
-- [[30_wiki\concepts\src_20260510_832bee4c.md]]
-
-## [[泛产品设计-落地卡片-内核和边界.
-
-png]]
-- [[30_wiki\concepts\src_20260510_a01f10cc.md]]
-
-## [[泛产品设计-落地卡片-努力仿真.
-
-png]]
-- [[30_wiki\concepts\src_20260510_61ebf6f3.md]]
-
-## [[泛产品设计-落地卡片-十倍速验证.
-
-png]]
-- [[30_wiki\concepts\src_20260510_3078fb29.md]]
-
-## [[泛产品设计-落地卡片-善用佳软.
-
-png]]
-- [[30_wiki\concepts\src_20260510_6594de46.md]]
-
-## [[泛产品设计-落地卡片-复盘迭代.
-
-png]]
-- [[30_wiki\concepts\src_20260510_d9307dd3.md]]
-
-## [[泛产品设计-落地卡片-攻坚会.
-
-png]]
-- [[30_wiki\concepts\src_20260510_0aa2302e.md]]
-
-## [[泛产品设计-落地卡片-灵感闪现.
-
-png]]
-- [[30_wiki\concepts\src_20260510_0cc250dd.md]]
-
-## [[泛产品设计-落地卡片-管理三段论.
-
-png]]
-- [[30_wiki\concepts\src_20260510_c49abdd8.md]]
-
-## [[泛产品设计-落地卡片-解放思想.
-
-png]]
-- [[30_wiki\concepts\src_20260510_4d6ef2d8.md]]
-
-## [[泛产品设计-落地卡片-设计原则.
-
-png]]
-- [[30_wiki\concepts\src_20260510_5aab2dda.md]]
-
-## [[泛产品设计-落地卡片-逻辑MECE.
-
-png]]
-- [[30_wiki\concepts\src_20260510_4fee2a75.md]]
-
-## [[泛产品设计-落地卡片-酝酿式打磨.
-
-png]]
-- [[30_wiki\concepts\src_20260510_b5cd1ec0.md]]
-
-## [[泛产品设计-落地卡片-里程碑拆解.
-
-png]]
-- [[30_wiki\concepts\src_20260510_fcf41b5b.md]]
-
-## [[泛产品设计-落地卡片-风险管理.
-
-png]]
-- [[30_wiki\concepts\src_20260510_1893e261.md]]
-
-## [[泛产品设计-需求工具箱指南.
-
-png]]
-- [[30_wiki\concepts\src_20260510_c40244d3.md]]
-
-## [[泛产品设计的应用场景示意图.
-
-png]]
-- [[30_wiki\concepts\src_20260510_72b8af8b.md]]
-
-## [[泛产品设计者的三大自我修养.
-
-png]]
-- [[30_wiki\concepts\src_20260510_56b748d0.md]]
-
-## [[泛产品设计者的自我修养.
-
-png]]
-- [[30_wiki\concepts\src_20260510_1c3f68f8.md]]
-
-## [[泛产品设计落地工具篇指南.
-
-png]]
-- [[30_wiki\concepts\src_20260510_94fc2d48.md]]
-
-## [[泛产品设计落地篇.
-
-png]]
-- [[30_wiki\concepts\src_20260510_dc80be16.md]]
+## [[泛产品设计落地工具篇指南.png]]
+- [[30_wiki\concepts\yt-model-pan-product-execution-toolkit.md]]
 
 ## [[紫鲸AI_智能体工作流平台_深度分析与产品设计]]
 - [[30_wiki\entities\紫鲸AI.md]]
@@ -1119,7 +2092,6 @@ png]]
 - [[30_wiki\concepts\EC工业化规范手册.md]]
 - [[30_wiki\concepts\HIS系统深度调研.md]]
 - [[30_wiki\concepts\obsidian-kdo-内容产出工作流-产品设计大纲.md]]
-- [[30_wiki\concepts\一堂-调研行动营启动_原文润色.md]]
 - [[30_wiki\concepts\保达云诊所深度调研报告.md]]
 - [[30_wiki\concepts\紫鲸ai_智能体工作流平台_深度分析与产品设计.md]]
 - [[30_wiki\concepts\诊所o2o外卖平台业务深度调研报告.md]]
@@ -1131,9 +2103,6 @@ png]]
 - [[30_wiki\concepts\紫鲸ai智能体工作流平台.md]]
 - [[30_wiki\concepts\诊所o2o外卖平台业务深度调研报告.md]]
 - [[30_wiki\projects\诊所O2O项目.md]]
-
-## [[街顺app全面调研报告]]
-- [[30_wiki\concepts\一堂调研武器库13招.md]]
 
 ## [[诊所O2O外卖平台业务深度调研报告]]
 - [[30_wiki\concepts\ec工业化规范手册-v2.8.0.md]]
@@ -1170,13 +2139,3 @@ png]]
 - [[30_wiki\concepts\互联网医院模式深度调研报告.md]]
 - [[30_wiki\concepts\保达云诊所深度调研报告.md]]
 - [[30_wiki\concepts\开源HIS系统代码深度分析报告.md]]
-
-## [[顶级产品追求的方向-乔布斯.
-
-png]]
-- [[30_wiki\concepts\src_20260510_4f13fb33.md]]
-
-## [[项目背景问题思考的8个维度.
-
-png]]
-- [[30_wiki\concepts\src_20260510_c0cf689a.md]]
