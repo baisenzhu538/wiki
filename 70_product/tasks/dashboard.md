@@ -61,7 +61,7 @@ updated: 2026-05-19
 
 ### 黄药师 — 当前任务
 
-**全部完成，无待办**。等待欧阳锋分配新任务。
+**Task 1-12 全部完成** ✅。282 tests pass。**⚠️ 20 个文件未 commit**，详见 [[70_product/tasks/huangyaoshi-next-tasks#🔍 欧阳锋审查（2026-05-19）]]。
 
 ---
 
@@ -92,10 +92,10 @@ updated: 2026-05-19
 
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
+| 黄药师 | Task 11+12 全部未 commit | 20 个文件（12 modified + 8 untracked），需 commit |
 | 老顽童 | Anthropic 卡 typo `斗姄`→`窘境` + 补 `reviewed_by` | 审查发现，修完即关 |
 | 老顽童 | 双三角攻击者位置（Framework Gallery → Constraints & Boundaries） | 建议移，非阻塞 |
 | 洪七公 | 通道就绪确认 | 确认能读写输入/输出路径 |
-| 欧阳锋 | 待审查黄药师 Task 11+12 | Task 11 开发中，Task 12 排队 |
 
 ---
 
@@ -103,6 +103,8 @@ updated: 2026-05-19
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
+| 05-19 | 黄药师 | Task 11+12 完成 | ✅ skill-dir validation + KDO Build，282 tests PASS |
+| 05-19 | 欧阳锋 | 黄药师 Task 11+12 审查 | A/代码良，A/实测通，⚠️ 全部未 commit |
 | 05-19 | 老顽童 | ①+②+③ 三项完成 | ✅ 双三角修复 + Skill 修复 + Anthropic 编译 |
 | 05-19 | 欧阳锋 | 老顽童①+②+③ 审查 | ✅ 双三角通过/设计域通过/Anthropic A-，2 小修 |
 | 05-19 | 黄药师 | Task 10 Quality Gate v2 | ✅ --article + --skill + --all, 9 tests |
@@ -129,3 +131,22 @@ updated: 2026-05-19
 **2. 双三角卡结构微调**（建议，非阻塞）：[[yt-model-dual-triangle-competitiveness]]
 - 两个 H4 攻击者当前在 `## Framework Gallery` 下，惯例应放在 `## Constraints & Boundaries`
 - 不影响 v1.5 解析，不改也行
+
+---
+
+## 🔍 欧阳锋审查（黄药师 Task 11+12，2026-05-19）
+
+**Task 11** `kdo validate --skill-dir`：A
+- 递归扫描 SKILL.md → L1 五段检查 → PASS/FAIL/WARN 汇总 + JSON 输出
+- 11 tests（TestSkillQualityGate×4 + TestValidateSkillDir×4 + TestSkillL1Structure + TestValidateAllAutoDetect×2）
+- 实测 `ai-design-fundamentals` → PASS
+
+**Task 12** KDO Build：A
+- `--check` 工作空间完整性 · `--version` CHANGELOG + build_state · `--release` 全流程
+- 11 tests（check/changelog/module guess/version state 全覆盖）
+- 实测 `build --check` → PASS
+
+**⚠️ 全部未 commit**：20 个文件（12 modified + 8 untracked），需黄药师 commit：
+```
+git add -A && git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
+```

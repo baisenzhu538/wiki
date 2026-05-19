@@ -4,12 +4,15 @@
 
 ## 状态
 
-**已完成**：Task 1-10 全部 ✅。266 tests pass。
+**已完成**：Task 1-12 全部 ✅。282 tests pass（+16 since Task 10）。
 - Batch 1: scaffold + clean-transcript + validate --watch
 - Batch 2: watch 解耦 + scaffold 修正 + task 自动化 + graph rebuild + graph stats
 - Batch 3: Graph RAG 深化 + Quality Gate v2
+- Batch 4: Skill 审查流水线 + KDO Build 系统
 
-**当前状态**：全部完成，无待办。**Batch 4 待开工**：Task 11 → Task 12 顺序执行。
+**当前状态**：全部完成，无待办。
+
+**⚠️ 欧阳锋审查（2026-05-19）**：代码质量 A，但全部未 commit。详见 [[#🔍 欧阳锋审查（2026-05-19）]]
 
 ---
 
@@ -153,8 +156,12 @@ Graph RAG Index
 | 8 | `kdo graph stats` | ✅ 4 tests, --json, NOT BUILT 处理 |
 | 9 | Graph RAG 深化（查询+推理+监控） | ✅ 图遍历查询 + 跨域路径发现 + 索引自动健康检查, 9 tests |
 | 10 | Quality Gate v2（文章+skill 校验） | ✅ validate 扩展到 article/skill 类型, 9 tests |
-| 11 | Skill 审查流水线 | `kdo validate --skill-dir` + batch 扫描 + L1 结构检查 |
-| 12 | KDO Build 系统 | `kdo build` + CHANGELOG + build_state.json |
+| 11 | Skill 审查流水线 | ✅ `kdo validate --skill-dir` + batch 扫描 + L1 5节检查, 9 tests |
+| 12 | KDO Build 系统 | ✅ `kdo build` + CHANGELOG + build_state.json, 11 tests |
+
+---
+
+## 🔍 欧阳锋审查（2026-05-19）
 
 
 ---
@@ -419,3 +426,33 @@ kdo validate --v15 --watch --json              # JSON 输出（给 CI/tmux statu
 - [[70_product/tasks/quality-gate-automation-v15.md]] — validate v15 本身
 - [[70_product/tasks/laowantong-next-tasks.md]] — 老顽童队列（scaffold 的消费者、设计域编译器）
 - [[70_product/tasks/kdo-infrastructure-backlog-proposal.md]] — 原始 backlog
+
+---
+
+## 🔍 欧阳锋审查（2026-05-19）
+
+### Task 11：`kdo validate --skill-dir` — A
+
+- `cmd_validate_skill_dir` 递归扫描 SKILL.md → batch 检查 → PASS/FAIL/WARN 汇总
+- L1 结构检查：Purpose / When to Use / When NOT to Use / Protocol / Example 五段全覆盖
+- 实测：`ai-design-fundamentals` → PASS（Protocol 12 steps, all sections present）
+- 测试：TestSkillQualityGate(4) + TestValidateSkillDir(4) + TestSkillL1Structure(1) + TestValidateAllAutoDetect(2) = 11 tests
+
+### Task 12：KDO Build 系统 — A
+
+- `build --check` 检查 9 目录 + state.json + graph + backups
+- `build --version <semver>` 生成 CHANGELOG（git log feat/fix/refactor 按模块分组）+ build_state.json
+- `build --release` 顺序：check → backup → tag → changelog
+- 实测：`kdo build --check` → PASS
+- 测试：11 tests (check/changelog/module guess/version state)
+
+### ⚠️ 全部未 commit
+
+```
+未暂存修改: cli.py, quality.py, validation.py, workspace.py, etc. (12 files)
+未跟踪新增: commands/build.py, commands/cards.py, commands/transcript.py,
+              tests/test_build.py, tests/test_graph.py, tests/test_transcript.py,
+              tests/test_validate_v15.py, tests/test_watch.py (8 files)
+```
+
+**行动**：黄药师 commit 全部改动 → `git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"`
