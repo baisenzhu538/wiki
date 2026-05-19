@@ -112,7 +112,7 @@ Graph RAG Index
 | 2 | clean-transcript | ✅ A，7 tests |
 | 3 | validate --watch | ✅ A，纯标准库 |
 | 4 | `kdo watch` 依赖解耦 | ✅ 4 tests, watchdog 可选, pyproject.toml 已清理 |
-| 5 | scaffold 插入位置修正 | 🔨 当前任务——节插入正确 + 旧行为 fallback |
+| 5 | scaffold 插入位置修正 | ✅ Critique→CB/Synthesis间, 不要用→关联卡片后, AT→Synthesis后 |
 | 6 | graph rebuild --incremental | 增量 <5s vs 全量 ~30s |
 | 7 | `kdo graph stats` | 输出合法 + --json |
 
