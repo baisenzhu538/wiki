@@ -38,9 +38,9 @@ updated: 2026-05-19
 | 3 | `kdo validate --v15 --watch` | P2 | ✅ | A，纯标准库 |
 | 4 | `kdo watch` 依赖解耦 | P1 | ✅ | 4 tests |
 | 5 | scaffold 插入位置修正 | P2 | ✅ | Critique→CB/Synthesis 间 |
-| 6 | `kdo task` 自动化 + dashboard | **P0** | 🔨 | **优先级提升**——用户要求立即做 |
+| 6 | `kdo task` 自动化 + dashboard | **P0** | 🔨 | YAML frontmatter + CLI 子命令 |
 | 7 | graph rebuild --incremental | P2 | ✅ | 5 tests, --full + incremental |
-| 8 | `kdo graph stats` | P3 | ⏳ | 输出合法 + --json |
+| 8 | `kdo graph stats` | P3 | ✅ | 4 tests, --json, NOT BUILT |
 
 ### 黄药师 — 当前任务
 

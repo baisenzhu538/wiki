@@ -35,14 +35,14 @@ blockers: []
 2. 禁止单一工具判断"文件不存在"——Glob 可能漏子目录
 
 ### 审查节奏
-- **批次级审查**，不做逐任务审查
-- Agent 批次全部完成后 → 统一审查，一次性给结论
+- **每完成一个任务立即更新 dashboard**，不等批次。Agent 随时可能断连，任务文件是唯一上下文锚点
+- 全部完成后统一给审查意见
 - 审查结论写入 dashboard.md 和对应任务文件
 
 ### 状态更新
-- **只在批次边界更新** dashboard.md 和任务文件
-- Agent 执行期间不碰任务文件（避免合并冲突）
-- 讨论/架构决策可以随时进行，不阻塞 agent
+- **实时更新**：Agent 每完成一个 → 立即更新 dashboard
+- 飞书 bot 通过 cc-connect/Hermes 连接，WebSocket 经常超时断连（P-6）
+- Agent 重连后靠 dashboard 恢复上下文——延迟更新 = 重复劳动
 
 ### 结束时
 - 更新 dashboard.md
