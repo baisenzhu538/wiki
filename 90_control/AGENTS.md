@@ -239,6 +239,9 @@ KDO 知识工厂五角色分工，协作规则定义在 `90_control/debate-proto
 | 6 | **不准在 AGENTS.md 中只写"应该做什么"不写"不准做什么"** | — | 新增约束必须同时写入本禁止清单 |
 | 7 | **不准一次性给黄药师派 ≥3 个独立任务** | F-KDO-012 | 单轮只发一个任务（≤5 分钟完成），完成后再发下一个。大任务拆成多个 `--new` 会话接力 |
 | 8 | **不准基础设施修改后直接跑批量** | F-KDO-013 | 必须先单卡 dry-run → 单卡 write → validator 验证 → **人工审查内容未被破坏** → 再批量。关联 [[20_memory/corrections#C-10. 基础设施工具改后直接跑批量 → 71 张卡攻击者内容被清空\|C-10]] |
+| 9 | **不准擅自运行批量写入命令** | F-KDO-014 | `kdo scaffold --batch --write`、`kdo enrich --batch` 等批量写入命令，必须先经人类明确批准。C-10 证明了批量写入的破坏半径——71 张卡一次清空。单卡验证通过≠批量安全 |
+| 10 | **不准替换 source_refs 已有条目** | F-KDO-015 | 编辑 frontmatter `source_refs` 时只追加不替换。替换已有条目会断开 wiki→source 溯源链。如果旧 source 确实过时→追加新 source 并标注旧 source 已 superseded，不删除 |
+| 11 | **不准不读文件直接 patch** | F-KDO-016 | 执行 Edit/Write 前必须先 Read 确认文件当前状态。基于过时假设编辑会覆盖他人已修改的内容，且无 git diff 可追溯覆盖前状态 |
 
 完整失败模式库：`90_control/failure-modes.md`。下一个 Agent session 启动时必读。
 
