@@ -4,14 +4,12 @@
 
 ## 状态
 
-**已完成**：
-- P0-P3 全部 ✅ + domain filter fix ✅
-- Batch 1: scaffold ✅ + clean-transcript ✅ + validate --watch ✅
-- Bonus: `kdo watch` ✅
-- Batch 2 Task 4: `kdo watch` 依赖解耦 ✅（4 tests, watchdog 可选, pyproject.toml 已清理）
-- Batch 2 Task 5-8: 全部 ✅
+**已完成**：Task 1-10 全部 ✅。266 tests pass。
+- Batch 1: scaffold + clean-transcript + validate --watch
+- Batch 2: watch 解耦 + scaffold 修正 + task 自动化 + graph rebuild + graph stats
+- Batch 3: Graph RAG 深化 + Quality Gate v2
 
-**当前状态**：Batch 2 全部完成 ✅。**Batch 3 全部完成 ✅**。266 tests pass, 1 skipped。
+**当前状态**：全部完成，无待办。**Batch 4 待开工**：Task 11 → Task 12 顺序执行。
 
 ---
 
