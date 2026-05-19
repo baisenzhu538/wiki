@@ -434,6 +434,59 @@ kdo validate --v15 --card <id>
 
 ---
 
+## 🆕 洪七公审计修复 — 双三角文章（插队执行，15min）
+
+> 审计来源：[[60_feedback/corrections/art-audit-20260519-dual-triangle-batch]]（洪七公 2026-05-19）
+> 欧阳锋决策：方案A——严格按原图 `00_inbox/一堂-个人修炼-双三角模型.jpg` 修正
+
+### 文件 1：`40_outputs/content/articles/art_双三角纠错_v2.md`
+
+**L51 归属错位修复**：
+
+当前（错误）：
+```
+创造力…包含三个动作：业务拆解、理解底层规律、提出创造假设
+```
+
+改为：
+```
+创造力…包含三个动作：理解底层规律、善于解放思想、提出创造假设
+```
+
+同时检查场景段是否完整列出四个子项：**业务拆解、ROI预判、AI打磨、组织部署**。如有缺失补全。
+
+### 文件 2：`40_outputs/content/articles/art_20260517_9c7a63cb-人机协作决策双三角模型读后感.md`
+
+**① 补全 source_refs**：
+当前只有 1 个：
+```yaml
+source_refs: ["src_20260510_7c58991a"]
+```
+补充正文引用的外部学术来源（至少 5 个 src_ id），包括 Mintzberg、Taleb、Klein、Kahneman 等。
+
+**② 补全 wiki_refs**：
+当前只有 1 个：
+```yaml
+wiki_refs: ["30_wiki/concepts/yt-decision-ai-partner.md"]
+```
+补全正文引用的所有 wiki 概念（至少 3 个），包括：
+- `30_wiki/concepts/yt-model-dual-triangle-competitiveness.md`
+- `30_wiki/concepts/yt-decision-y-model.md`
+
+**③ 统一 delivery_channel**：
+```yaml
+delivery_channel: homework  →  delivery_channel: wiki
+```
+与 `art_双三角纠错_v2` 统一为 wiki 渠道。如需区分受众，在标题中标注（如"深度篇"）。
+
+### 验收
+
+- `art_双三角纠错_v2` L51 归属与原图一致
+- `art_20260517_9c7a63cb` 的 source_refs ≥ 5, wiki_refs ≥ 3, delivery_channel = wiki
+- 完成后通知洪七公做多模态转换
+
+---
+
 ## 🔍 v1.5 修复策略（欧阳锋拍板 2026-05-20）
 
 > 扫描结果：215 卡，54 pass / 89 fail / 72 warn。89 张 FAILED 分两批。
