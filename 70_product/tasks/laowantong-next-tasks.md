@@ -230,14 +230,63 @@ kdo validate --v15 --card <id>
 
 ---
 
+## 🔍 欧阳锋审查（2026-05-19）
+
+### T1/T3 Typo 修复 → ✅ 已确认
+
+| 卡 | 原文 | 修复后 | 验证 |
+|----|------|--------|------|
+| T1 `yt-tool-meeting-designer` Line 90 | `只需要知会议会把议程定好` | `只需要知道会议会把议程定好` | ✅ |
+| T3 `yt-tool-okr-cycle` Line 105 | `团队脚脑暴` | `团队头脑风暴` | ✅ |
+
+### 双三角竞争力模型卡 → A-（内容 A，结构需修）
+
+**卡片**：[[yt-model-dual-triangle-competitiveness]]
+
+**内容评价（A）**：
+- Mintzberg（实践手艺不可编码）+ Taleb（幸存者偏差/赢家归纳错误）——两个攻击角度精准、独立、有具体引用来源
+- Visual Analysis 五维分析（空间层级/分组逻辑/阅读路径/视觉强调/留白含义）是 KDO 迄今最详尽的信息图分析，方法论自觉
+- 3 个不要用场景 + 4 个 Action Triggers 均合格，替代方案具体可操作
+
+**结构问题（需修复，5min）**：
+
+1. **H3→H4 攻击者标题**：两个攻击者（Mintzberg、Taleb）写在同一个 H3 标题下：
+   ```
+   ### 外部攻击：Henry Mintzberg的实践手艺论 + Nassim Taleb的幸存者偏差
+   ```
+   `kdo validate --v15` 解析器只识别 H4 标题统计攻击者，当前报告 0/2。需拆为：
+   ```markdown
+   #### Henry Mintzberg — 实践手艺论
+   （Mintzberg 攻击段落）
+
+   #### Nassim Taleb — 幸存者偏差
+   （Taleb 攻击段落）
+   ```
+
+2. **重复 `related:` 字段**：frontmatter 中 `related:` 出现两次（Line 14-17 和 Line 34-37），YAML 解析时后者覆盖前者。删掉其中一组（保留较完整的 Line 14-17，删 Line 34-37 的简版）。
+
+### Anthropic 创始人手册 → ⚠️ 未开工
+
+`30_wiki/concepts/anthropic-官方发布创始人手册打造-ai-原生初创公司.md` 仍是 ingest 骨架（Summary 一段 + TODO 占位），老顽童尚未开始三步编译。
+
+### 下一步
+
+1. **立即**：修双三角卡 2 个结构问题（5min）
+2. **优先**：Anthropic 三步编译（按 ⑧ 执行步骤 1-5）
+3. **后续**：⑤ 设计域 S1 模型选型指南 skill
+
+---
+
 ## 完成标志
 
 | 序号 | 任务 | 验证 |
 |------|------|------|
 | ① | 补 related 边 | `kdo lint` 通过 + 欧阳锋确认 |
 | ② | 双三角文章 v2 | ✅ 用户已通过，关闭 |
-| ③ | 管理工具箱 Batch 1 | ✅ 全 A，T1 修一个 typo |
-| ④ | 管理工具箱 Batch 2 | T3 (A) ✅ + T4 (A+) ✅ + T5 (A) ✅ |
-| ⑤ | 设计域 7 张卡 | 素材已就位，清理转录稿后可开工 |
+| ③ | 管理工具箱 Batch 1 | ✅ 全 A，T1 typo 已修 ✅ |
+| ④ | 管理工具箱 Batch 2 | ✅ T3 (A) + T4 (A+) + T5 (A)，T3 typo 已修 ✅ |
+| 🔍 | 双三角卡结构修复 | ⏳ H3→H4 攻击者标题 + 删重复 related |
+| ⑤ | 设计域 3 个 Skill | 素材已就位，转录稿已清理 |
 | ⑥ | v1.5 全库修复（89 FAILED） | `kdo validate --v15` FAILED → 0 |
 | ⑦ | 管理工具箱 Batch 3（T6+T7+T8） | 欧阳锋审查通过 |
+| ⑧ | Anthropic 创始人手册 | v1.5 三信号齐全 + validate PASS |

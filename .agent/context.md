@@ -2,10 +2,12 @@
 updated: 2026-05-19
 active_branch: main
 active_task: |
-  黄药师 → Task 6 kdo task 自动化 → Task 8 graph stats（3个任务批次）
-  老顽童 → ⑤ 设计域 S1→S2→S3 skill 文件（3个任务批次）
-  两批全部完成后通知欧阳锋统一审查
-blockers: []
+  黄药师 → Task 9 Graph RAG 深化 → Task 10 Quality Gate v2（顺序执行）
+  老顽童 → 🔍修双三角卡结构 → ⑧Anthropic编译 → ⑤设计域S1
+  洪七公 → 待自我定义角色 + 提交 wiki 勘误报告
+blockers:
+  - 洪七公待自我定义角色（用户要求先自述再对齐）
+  - 洪七公待提交 wiki 勘误
 ---
 
 ## 你是谁
@@ -429,11 +431,11 @@ blockers: []
 ## 下次启动
 
 1. **先看 dashboard** → [[70_product/tasks/dashboard.md]]
-2. 判断是否有批次待审查：有 → 审查。无 → 等待
-3. 黄药师当前：Task 6 `kdo task` 自动化（P0，在 graph 工作之前）
-4. 老顽童当前：⑤ 设计域 S1 模型选型指南 skill
-5. 审查时机：两批各 3 个任务全部完成后统一审查
-6. 洪七公/段王爷待 S1-S3 skill 就位后激活
+2. 判断是否有批次待审查：双三角卡修复（老顽童）+ Anthropic 编译（老顽童）
+3. 黄药师当前：Task 9 Graph RAG 深化（🔜）→ Task 10 Quality Gate v2
+4. 老顽童当前：🔍 修双三角卡结构 → ⑧ Anthropic 三步编译 → ⑤ 设计域 S1
+5. 洪七公当前：等待自我定义角色 + wiki 勘误报告
+6. 段王爷：待洪七公 S3 就位后激活
 
 ## ⚠️ 会话结束前（MUST）
 
