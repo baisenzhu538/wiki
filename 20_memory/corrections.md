@@ -132,3 +132,28 @@ query_triggers:
 1. `query_triggers` 字段**禁止脚本自动提取**。必须手动写 5-10 个真实用户会输入的中文搜索词
 2. 验证方法：欧阳锋抽检 3 张卡，每条 trigger 问"你会这样搜吗？"——有一条答不上来就返工
 3. 关联原则：见 `operating-principles.md` 第 7 条
+
+---
+
+## C-10. 基础设施工具改后直接跑批量 → 71 张卡攻击者内容被清空
+
+**时间：** 2026-05-20
+**报告人：** 欧阳锋（审查发现）
+**症状：** 黄药师交付了 `kdo scaffold`，老顽童直接跑 `kdo scaffold --batch B --write` 对 71 张卡批量操作。结果：
+
+1. scaffold 的 `_count_external_attacks` 只认 `## Critique` H2 节，不认旧格式 `## Framework Gallery` 下的 `### 外部攻击*`
+2. 71 张旧格式卡被判定为 atk_count=0 → 生成空壳 `## Critique` 覆盖
+3. Taleb、Snowden、Kahneman、Hayek、Kohn、Illich 等 ~140 个精心研究的攻击段落全部丢失
+
+但更可怕的是：`kdo validate --v15` 给空壳卡打了 PASS——validator 只查 H4 标题存在不查内容。Pass 54→58 是假象。
+
+**根因：**
+1. **工具缺陷**：scaffold 检测盲区——只能看到新格式，看不到旧格式
+2. **流程缺陷**：基础设施修改后，没有先在 1 张卡上 dry-run 验证，直接跑 71 张卡批量写入
+3. **校验缺陷**：validator 空 H4 不计内容，给了虚假安全感
+
+**修正（铁律）：**
+1. **基础设施工具改后，严禁直接跑批量。必须先单卡 dry-run → 单卡 write → validator 验证 → 人工审查内容未被破坏 → 再考虑批量。**
+2. scaffold 增加旧格式兼容检测（见黄药师 Task 13）
+3. validator 增加 H4 内容非空检查（见黄药师 Task 14）
+4. 关联 C-8、C-9——这是第三次批处理产生内容破坏。模式已成型：**任何自动化内容修改工具，必须先单卡验证再批量，无一例外。**
