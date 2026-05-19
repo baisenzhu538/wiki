@@ -81,6 +81,30 @@ updated: 2026-05-19
 | 4 | wiki 勘误（归属错位） | ✅ | 已反馈 → `60_feedback/corrections/`，卡片修正由老顽童执行 |
 | 5 | 通道就绪确认 | ⏳ | 确认能读写上述输入/输出路径 |
 | 6 | 双三角文章审计 | ✅ | 审计 2 篇，发现 🔴归属错位 1 处 + 🟡引用/渠道 3 处，报告已交付 |
+| 7 | KDO 快速上手指南 → 中视频 | ⏳ | 源：[[40_outputs/content/articles/art_20260504_02b8c4d6-kdo-quickstart-guide]]。详见下方任务详情 |
+
+### 洪七公 — 任务 7 详情
+
+**源文章**：`40_outputs/content/articles/art_20260504_02b8c4d6-kdo-quickstart-guide.md`
+
+**产出**：≤10 分钟中视频，HyperFrames 分段渲染
+
+**输出路径**：`40_outputs/content/videos/kdo-quickstart-guide.mp4`
+
+**核心叙事线**（5 段）：
+1. **Hook**（30s）：信息过载→"然后呢？"——引出 KDO
+2. **KDO 是什么**（2min）：流水线不是文件夹，9 步闭环图解
+3. **怎么做**（4min）：飞书文档→可交付资产的 8 步实操演示（capture→ingest→enrich→produce→validate→ship→feedback→improve）
+4. **谁适合用**（1.5min）：4 个适合特征 + 3 个不适合边界
+5. **与 Obsidian 的关系**（1min）：花园 vs 工厂类比
+
+**视觉要求**：
+- 9 步闭环流程图（主角视觉）
+- CLI 命令与目录映射对照表
+- 飞书→KDO 前后对比
+- 花园→工厂隐喻插画
+
+**参考**：文章已有完整 Source Map，可直接溯源原始飞书文档。
 
 ## 段王爷（Publisher）
 

@@ -45,6 +45,9 @@ yitang:
   level: advanced
 source_refs:
   - 00_inbox/科学决策/一堂-科学决策-ROI决策高度实操课口述04.txt
+  - 00_inbox/科学决策/一堂-科学决策-高度-两种典型的思考习惯.png
+  - 00_inbox/科学决策/一堂-科学决策-稀缺资源清单.png
+  - 00_inbox/科学决策/一堂-科学决策-稀缺机会窗口.png
   - 00_inbox/科学决策/一堂-科学决策-高水平共识曲线（重要）.png
 created_at: '2026-05-17'
 updated_at: '2026-05-17'
@@ -62,7 +65,7 @@ reviewed_by:
 
 ---
 
-## How It Works
+## Claims
 
 ### 一、两种思考习惯（诊断前提）
 
