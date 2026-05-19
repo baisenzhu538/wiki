@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-19
 active_branch: main
-active_task: 黄药师→`kdo scaffold`（加速 89 卡修复流水线）。老顽童→管理工具箱 Batch 2（T3+T4+T5）。设计域素材已入 inbox，待老顽童工具箱完成后启动。
+active_task: 黄药师→三件顺序执行（scaffold → 转录稿清理 → validate watch）。老顽童→七件顺序执行（详细队列见各自任务文件）。
 blockers: []
 ---
 
@@ -44,12 +44,16 @@ blockers: []
   - 29 张通过 `kdo lint --baseline HEAD`（0 new errors）
   - Batch C 实质上已完成（~1 张不需要升级或非 concept 卡范围）
   - ⚠️ 黄药师角色重对齐 → 不接量产。但用户指令优先，先做完剩余
-- **老顽童后续** → 已分配：[[70_product/tasks/laowantong-next-tasks.md]]
-  - ① 补 related 边 ✅
-  - ② 双三角文章 v2 ✅（用户已通过，关闭）
-  - ③ 管理工具箱 Batch 1 ✅（F1+T1+T2 全 A — Mintzberg+Pfeffer, Kahneman+Perrow, Kahneman+Tetlock）
-  - ④ 管理工具箱 Batch 2 进行中（T3 OKR罗盘 + T4 战略研讨会 + T5 知识萃取器）
-  - ⑤ 新域提案（待工具箱完成后）
+- **老顽童后续** → 全队列写定：[[70_product/tasks/laowantong-next-tasks.md]]
+  - ① 补 related 边 ✅ | ② 双三角文章 v2 ✅ | ③ 管理工具箱 Batch 1 ✅（F1+T1+T2 全 A）
+  - ④ 管理工具箱 Batch 2（进行中：T3+T4+T5）
+  - ⑤ 设计域 7 张卡（素材已就位 `00_inbox/design/`）
+  - ⑥ v1.5 全库修复 89 卡（scaffold 加速）
+  - ⑦ 管理工具箱 Batch 3（T6+T7+T8 收官）
+- **黄药师后续** → 全队列写定：[[70_product/tasks/huangyaoshi-next-tasks.md]]
+  - Task 1: `kdo scaffold`（P0，加速老顽童 89 卡流水线）
+  - Task 2: 设计域转录稿清理工具（P1，规则引擎去噪+分段）
+  - Task 3: `kdo validate --v15 --watch`（P2，文件保存自动重检）
 
 ### 科学决策域（老顽童）→ ✅ 已完成
 
@@ -352,15 +356,14 @@ blockers: []
 
 ## 下次启动
 
-1. 读 `pitfalls.md` → `toolkit.md`（武器库别忘记！OCR/Git/KDO 命令都在里面）
-2. **角色分工已重对齐**：黄药师=工程师（KDO CLI/方法论/Graph RAG），老顽童=产能主力（卡片量产/文章/提案）
-3. 老顽童：启动调研域编译（8 张卡，方案已批准）——先 OCR 全部素材图片，再按 F1→F2→T1→T2→T3→T4→T5→C1 编译
-4. 黄药师：KDO 基础设施 backlog 待定义
-5. KDO Graph RAG ✅ — `kdo query "..."` 三阶回退正常工作
-6. pytest 182/182 ✅ — 代码修改后必须重跑
-7. 坚果云备份 ✅ — `C:\Users\Administrator\Nutstore\1\我的坚果云\` 
-8. 黄药师 WSL 启动：`wsl` → `cd /mnt/c/Users/Administrator/Desktop/wiki` → `tmux new -s huangaoshi` → `claude`
-9. 用户是否灌入了设计 prompt 素材到 `00_inbox/design/`
+1. 读 `pitfalls.md` → `toolkit.md`
+2. **角色分工**：黄药师=KDO 基础设施（顺序队列见 [[70_product/tasks/huangyaoshi-next-tasks.md]]），老顽童=产能主力（顺序队列见 [[70_product/tasks/laowantong-next-tasks.md]]）
+3. 黄药师当前：Task 1 `kdo scaffold`（P0）
+4. 老顽童当前：④ 管理工具箱 Batch 2（T3+T4+T5）
+5. 设计域素材已就位 `00_inbox/design/`，待黄药师 Task 2 清理工具 + 老顽童 ⑤ 启动
+6. KDO Graph RAG ✅ — `kdo query "..."` 三阶回退正常工作
+7. pytest 182/182 ✅ — 代码修改后必须重跑
+8. 坚果云备份 ✅
 
 ## ⚠️ 会话结束前（MUST）
 

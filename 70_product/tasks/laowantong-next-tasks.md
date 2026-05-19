@@ -11,6 +11,10 @@
 - 管理工具箱 Batch 1 ✅（F1+T1+T2，欧阳锋审查全 A — Mintzberg+Pfeffer / Kahneman+Perrow / Kahneman+Tetlock）
 - Blocker 解除：可以接新编译任务
 
+**⚠️ 以下任务顺序执行**。做完一个看下一个，不要跳。
+
+**⚠️ 黄药师正在建 `kdo scaffold` 工具**（[[70_product/tasks/huangyaoshi-next-tasks.md]]）。完工后你修 89 卡时用它加速——不再从空白页搭 Critique 框架。
+
 ---
 
 ## ① 补 related 边（立即，30min）
@@ -153,6 +157,58 @@ body 高度提升段添加：`[[yt-model-liberate-thinking-layers]]`
 
 ---
 
+## ⑥ v1.5 全库修复流水线（设计域完成后）
+
+### 背景
+
+`kdo validate --v15` 诊断结果：205 张卡，45 pass / 89 fail / 71 warn。`kdo scaffold`（黄药师 Task 1）已经搭好了工具。
+
+### 执行方式
+
+```bash
+# 1. 先看全局
+kdo validate --v15 --upgrade-plan
+
+# 2. 按优先级分批（黄药师的 scaffold 已可用）
+kdo scaffold --batch A --write    # 全信号缺失高引卡（~3 张）
+kdo scaffold --batch C --write    # 缺 Action Triggers（~6 张）
+kdo scaffold --batch B --write    # 缺外部攻击（~80 张，大头）
+kdo scaffold --batch D --write    # 研究降级（~26 张）
+
+# 3. 逐张填内容（scaffold 给了 TODO + 学者建议）
+# 4. 填完验证
+kdo validate --v15 --card <id>
+```
+
+### 优先级
+
+| 顺序 | Batch | 内容 | 卡数 | 策略 |
+|------|-------|------|------|------|
+| 1 | C | 缺 Action Triggers | ~6 | **先做**。每张只需补一个 3 行表，15min/张，最快看到 PASS 增长 |
+| 2 | A | 全信号缺失高引 | ~3 | 工作量大（90min/张）但价值最大——修一张 = 0→3 信号 |
+| 3 | B | 缺外部攻击 | ~80 | **大头**。每张需研究 2 位学者 + 写攻击段落，60min/张 |
+| 4 | D | 研究降级 | ~26 | 标准降低但仍需 ≥1 攻击 |
+| 5 | E | Warnings | ~71 | 不算 fail，精修 |
+
+> 注意：不是一次做完 89 张。按批推进，每做完一批通知欧阳锋抽检。
+
+---
+
+## ⑦ 管理工具箱 Batch 3（89 卡修复喘口气时穿插）
+
+工具箱还剩最后 3 张，可以在 89 卡修复的间隙穿插（换脑休息）：
+
+**T6 [[yt-tool-project-health-radar]]** — 项目健康度雷达（L2-L4 交叉）
+**T7 [[yt-tool-onboarding-90day]]** — 新人 90 天融入加速器（L3 管团队）
+**T8 [[yt-tool-equity-checklist]]** — 股权设计检查清单（L5 管公司）
+
+攻击者方向：
+- T6 项目雷达：Flyvbjerg（巨型项目铁律）+ Goldratt（约束理论——局部最优≠全局最优）
+- T7 新人融入：Van Maanen&Schein（组织社会化策略）+ Edmondson（心理安全——融入≠同化）
+- T8 股权清单：Coase（交易成本/企业边界）+ Williamson（资产专用性——股权是一种治理结构选择）
+
+---
+
 ## 完成标志
 
 | 序号 | 任务 | 验证 |
@@ -160,5 +216,7 @@ body 高度提升段添加：`[[yt-model-liberate-thinking-layers]]`
 | ① | 补 related 边 | `kdo lint` 通过 + 欧阳锋确认 |
 | ② | 双三角文章 v2 | ✅ 用户已通过，关闭 |
 | ③ | 管理工具箱 Batch 1 | ✅ 全 A，T1 修一个 typo |
-| ④ | 管理工具箱 Batch 2 | 欧阳锋审查通过 → 继续 Batch 3 |
-| ⑤ | 新域提案 | 欧阳锋审批通过 → 分配编译工单 |
+| ④ | 管理工具箱 Batch 2（T3+T4+T5） | 欧阳锋审查通过 |
+| ⑤ | 设计域 7 张卡 | 欧阳锋审查全 A → 入库 |
+| ⑥ | v1.5 全库修复（89 FAILED） | `kdo validate --v15` FAILED → 0 |
+| ⑦ | 管理工具箱 Batch 3（T6+T7+T8） | 欧阳锋审查通过 |

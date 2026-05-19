@@ -21,6 +21,8 @@ related:
 - yt-decision-canvas
 - yt-decision-consensus-iceberg
 - yt-tool-project-health-radar
+- yt-tool-okr-cycle
+- yt-tool-strategy-workshop
 contradicts: []
 query_triggers:
 - 会议设计
@@ -236,6 +238,8 @@ Perrow 的洞见：**会议设计师提供了一个"理想流程"——但复杂
 | 主域方法 | [[master-decision-hygiene]] | 主域——决策卫生是会议质量的底层保障 |
 | 主域方法 | [[master-cognitive-bias-checklist]] | 主域——会议中的群体思维、锚定效应需要认知偏差清单警醒 |
 | 主域方法 | [[master-knowledge-compound]] | 主域——会议纪要是团队知识复利的关键输入 |
+| 同层工具 | [[yt-tool-okr-cycle]] | 管理域——OKR 周度脉搏是会议设计师的高频应用场景 |
+| 同层工具 | [[yt-tool-strategy-workshop]] | 管理域——战略研讨会是会议设计在高利害场景下的完整应用 |
 
 ### 不要用的场景
 

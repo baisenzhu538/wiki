@@ -159,7 +159,9 @@ Porter 的核心论证：
 - [[yt-management-goal-management]] — 目标管理：战略会的产出应直接转化为下一周期的公司级 OKR
 - [[yt-management-scientific-meetings]] — 科学开会：战略会是科学开会方法论在最高利害场景下的完整应用
 - [[yt-management-founder-role]] — 一号位（创始人角色）：战略会是一号位行使方向决策权的核心机制
+- [[yt-tool-strategy-workshop]] — 战略研讨会引导手册：战略会的工具化升级，提供会前四件套+会中五段式+会后三检查
 - [[yt-management-company-culture]] — 公司文化：战略会上的讨论氛围（能否坦诚表达异议）是公司文化的一面镜子
+- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）
 - [[yt-management-finance-basics]] — 财务入门：战略讨论中的资源分配决策需要基本财务分析能力
 - 一堂底层逻辑 — 科学理念/实事求是：一堂底层的"实事求是"是战略会的基本原则——基于事实而非基于意愿做决策
 - [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：战略会是组织决策系统中最重量级的武器——开好了方向明确、士气提振；开坏了消耗时间、制造虚假共识、帮全员巩固错误的假设。Rumelt + Porter 的共同指向：武器的威力不由"开会技巧"决定，由"战略思考质量"决定。战略会是一把重型狙击枪——但多数团队拿着它当霰弹枪用，打出去的是一堆方向碎片而非一发击穿瓶颈的子弹

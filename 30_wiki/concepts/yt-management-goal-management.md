@@ -165,7 +165,9 @@ OKR 假设方向是清晰的、只需要量化执行。但对于还在探索产�
 - [[yt-management-scientific-decision]] — 科学决策（Y模型）：当多个可能的 OKR 争夺有限资源时，需要决策模型来排优先级
 - [[yt-management-scientific-meetings]] — 科学开会：OKR 周复盘会是科学开会方法论最重要的应用场景之一
 - [[yt-management-project-management]] — 科学项目管理：项目管理的目标设定层直接对接 OKR
+- [[yt-tool-okr-cycle]] — OKR 制定与复盘罗盘：目标管理的工具化升级，提供完整的 OKR 周期流程
 - [[yt-management-strategy-meeting]] — 战略会：战略会的输出应转化为下一周期的 OKR
+- [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）
 - [[yt-personal-ipo-learning]] — 科学学习（IPO 模型）：个人 OKR 与科学学习方法论可以结合用于个人成长管理
 - [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：OKR 工具是管理者武器库中最精良也是最容易被滥用的武器——用得好是执行加速器，用不好是组织毒药。Deming+Muller 的警示就是这把武器的安全使用说明书
 - [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：OKR 的第一关不是"写好"，而是"讲懂"——如果团队成员不能用自己的话讲清楚"这个季度的 O 是什么意思"，KR 写得再漂亮也没用
