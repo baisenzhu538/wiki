@@ -59,12 +59,12 @@ updated: 2026-05-19
 | 10 | Quality Gate v2（article+skill） | P1 | ✅ | --article + --skill + --all, 9 tests |
 | 11 | `kdo validate --skill-dir` 审查流水线 | P1 | ✅ | batch 扫描 + L1 5节检查, 5 tests |
 | 12 | KDO Build 系统 | P2 | ✅ | `kdo build` + CHANGELOG + build_state, 11 tests |
-| 13 | 🔥 scaffold 三缺陷（盲区+重复插入+内容丢弃） | **P0** | ⏳ | `_count_external_attacks` + `_insert_critique` 幂等+纯追加。71张卡受损 |
-| 14 | validator 空 H4 校验 | P1 | ⏳ | H4 标题下无内容仍计为有效攻击者，空壳 PASS。需加内容非空检查 |
+| 13 | 🔥 scaffold 四缺陷（盲区+重复插入+内容丢弃+空H4） | **P0** | ✅ | `877c41a`。286 tests PASS (+4)。欧阳锋审查：A，通过 |
+| 14 | validator 空 H4 校验 | P1 | ✅ | 并入 Task 13。H4 <100 字不计入。验收测试全部通过 |
 
 ### 黄药师 — 当前任务
 
-**Task 13-14 🔥 紧急**：scaffold 缺陷已造成 71 张卡攻击者内容丢失。详见下方 [[#🔧 黄药师 Task 13-14：scaffold 紧急修复]]。
+**全部完成，无待办。** 等待欧阳锋派发下一批工单。
 
 ---
 
@@ -120,13 +120,11 @@ updated: 2026-05-19
 
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
-| 老顽童 | scaffold 清空 71 张卡攻击者内容 | 等黄药师修 Bug 1/2，然后 git 恢复 |
-| 黄药师 | 🔥 scaffold 检测盲区 + 空 H4 校验 | P0，~45min |
-| 老顽童 | 文章归属错位：`art_双三角纠错_v2` L51 "业务拆解"→创造力应为场景 | 洪七公审计发现，老顽童修 |
-| 老顽童 | Anthropic 卡 typo `斗姄`→`窘境` + 补 `reviewed_by` | 审查发现，修完即关 |
-| 老顽童 | 双三角攻击者位置（Framework Gallery → Constraints & Boundaries） | 建议移，非阻塞 |
-| 洪七公 | `art_双三角纠错_v2` 修复后→多模态转换 | 等老顽童修完归属错位 |
+| 老顽童 | 🔧 4 项顺手修（Anthropic typo + 双三角文章归属+引用） | 积压 3 天，scaffold 已修好，可并行清 |
+| 老顽童 | v1.5 全库修复（20 FAILED / ~69 B + 13 A） | scaffold 已修好，阻塞解除 ✅ |
 | 洪七公 | 通道就绪确认 | 确认能读写输入/输出路径 |
+| 洪七公 | KDO 快速上手指南 → 中视频（Task 7） | 等通道就绪 |
+| 洪七公 | `art_双三角纠错_v2` 修复后→多模态转换 | 等老顽童修完归属错位 |
 
 ---
 
@@ -134,9 +132,11 @@ updated: 2026-05-19
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
+| 05-20 | 黄药师 | Task 13-14 scaffold 四缺陷修复 | ✅ `877c41a`，286 tests (+4)，0 回归。欧阳锋审查：A |
+| 05-20 | 欧阳锋 | Task 13-14 审查 + AGENTS.md 新增强 9/10/11 三条铁律 | ✅ F-KDO-014/015/016 已写入禁止清单 |
+| 05-20 | 老顽童 | scaffold 恢复 70/71 张卡 + lean-validation 二轮修复 | ✅ Savoia/Beck 各自独立 H4，内容正确 |
 | 05-20 | 老顽童 | ⑨ 科学决策 35 PNG 审计 + ① 补 related | ✅ 审计报告 A，91%覆盖；① 3 wikilink 已补 |
-| 05-20 | 老顽童 | v1.5 全库扫描 | 215 卡，54 pass / 89 fail / 72 warn，Batch B~69 / Batch A 13 |
-| 05-20 | 黄药师 | Task 11+12 commit | ✅ `33203ed`，23 files，+5475/-202，clean tree |
+| 05-20 | 老顽童 | v1.5 全库扫描 + scaffold 恢复后重扫 | 恢复前 54/89/72 → 恢复后 125/20/70 |
 | 05-19 | 黄药师 | Task 11+12 完成 | ✅ skill-dir validation + KDO Build，282 tests PASS |
 | 05-19 | 欧阳锋 | 黄药师 Task 11+12 审查 | A/代码良，A/实测通，⚠️ 全部未 commit |
 | 05-19 | 老顽童 | ①+②+③ 三项完成 | ✅ 双三角修复 + Skill 修复 + Anthropic 编译 |
@@ -191,7 +191,7 @@ git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
 
 ## 🔍 v1.5 修复策略（欧阳锋拍板 2026-05-20）
 
-> 老顽童扫描结果：215 卡，54 pass / 89 fail / 72 warn。关键发现：**不存在"只缺 AT"的 Batch C**——要么缺 Critique（B），要么全缺（A）。
+> 老顽童扫描结果：215 卡，125 pass / 20 fail / 70 warn。scaffold 恢复后 FAILED 从 89→20（所有 FAILED 均为 AT 缺失，非 scaffold 损害）。**scaffold 已修复（Task 13-14 ✅），阻塞解除。**
 
 ### 执行顺序
 
