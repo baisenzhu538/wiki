@@ -51,10 +51,12 @@ updated: 2026-05-19
 | 8 | `kdo graph stats` | P3 | ✅ | 4 tests, --json, NOT BUILT |
 | 9 | Graph RAG 深化 | P1 | ✅ | graph path + 跨域标注 + --health, 9 tests |
 | 10 | Quality Gate v2（article+skill） | P1 | ✅ | --article + --skill + --all, 9 tests |
+| 11 | `kdo validate --skill-dir` 审查流水线 | P1 | ⏳ | batch 扫描 + L1 结构检查，~1h |
+| 12 | KDO Build 系统 | P2 | ⏳ | `kdo build` + CHANGELOG + build_state.json，~2h |
 
 ### 黄药师 — 当前任务
 
-**全部完成，无待办**。等待欧阳锋分配新任务。
+**Task 11**：`kdo validate --skill-dir` 审查流水线（详见 [[70_product/tasks/huangyaoshi-next-tasks.md#Batch 4]]）
 
 ---
 

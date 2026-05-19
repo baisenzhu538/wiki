@@ -153,6 +153,8 @@ Graph RAG Index
 | 8 | `kdo graph stats` | ✅ 4 tests, --json, NOT BUILT 处理 |
 | 9 | Graph RAG 深化（查询+推理+监控） | ✅ 图遍历查询 + 跨域路径发现 + 索引自动健康检查, 9 tests |
 | 10 | Quality Gate v2（文章+skill 校验） | ✅ validate 扩展到 article/skill 类型, 9 tests |
+| 11 | Skill 审查流水线 | `kdo validate --skill-dir` + batch 扫描 + L1 结构检查 |
+| 12 | KDO Build 系统 | `kdo build` + CHANGELOG + build_state.json |
 
 
 ---
@@ -203,6 +205,59 @@ Graph RAG Index
 - `--all` 覆盖三种类型
 - pytest ≥5 新 tests
 - 不破坏现有 `--v15` 卡片校验
+
+---
+
+---
+
+## Batch 4：审查支撑 + Build 系统
+
+### Task 11：`kdo validate` skill 审查流水线（P1，~1h）
+
+**背景**：Task 10 建好了 `kdo validate --skill`，但老顽童产出的设计域 S1+S2 skill 需要入库到 `40_outputs/capabilities/skills/` 后欧阳锋才能审查。当前流程：老顽童产出 → 放错路径 → 欧阳锋发现 → 让老顽童搬。应该在入库环节就自动校验。
+
+**改什么**：
+
+1. `kdo validate --skill <path>` 增加 batch 模式：`kdo validate --skill-dir <dir>` 扫描整个目录下所有 SKILL.md
+2. 输出统一格式（PASS/FAIL/WARN + 缺失节清单），和 `--v15` 输出风格一致
+3. 集成到 `kdo validate --all`（当前已支持 concept/article/skill 三种类型，确认 skill 路由正常）
+4. 增加 L1 结构检查：SKILL.md 必须有 Purpose / When to Use / When NOT to Use / Protocol / Examples 五节
+
+**验收**：
+- `kdo validate --skill-dir 40_outputs/capabilities/skills/` 扫描全部 skill 输出汇总
+- 对老顽童即将入库的 3 个设计域 skill 能跑通
+- pytest ≥3 新 tests
+
+**估时**：~1h
+
+---
+
+### Task 12：KDO Build 系统（P2，~2h）
+
+**背景**：当前 `kdo backup` 只做源码 zip 快照，没有版本号管理、没有 CHANGELOG 生成、没有跨会话的 build 记录。KDO CLI 已经迭代了 scaffold/validate/watch/clean-transcript/graph/task 等多个模块，需要正式的 build 管线。
+
+**改什么**：
+
+1. `kdo build` 命令：
+   - `kdo build --version <semver>` — 打版本标签，生成 CHANGELOG（从 commit 历史自动提取）
+   - `kdo build --check` — dry-run，检查工作空间完整性（所有产出文件路径有效、引用不悬空）
+   - `kdo build --release` — 完整发布：check → backup → tag → changelog
+
+2. CHANGELOG 生成规则：
+   - 从 `git log` 提取 feat/fix/refactor 前缀的 commit
+   - 按模块分组（scaffold, validate, graph, task, clean-transcript）
+   - 输出到 `70_product/releases/CHANGELOG.md`
+
+3. `.kdo/build_state.json` 记录：当前版本号、上次 build 时间、pytest 结果、模块清单
+
+**验收**：
+- `kdo build --check` 通过
+- `kdo build --version 0.2.0` 生成 CHANGELOG
+- `.kdo/build_state.json` 记录完整
+- pytest ≥5 新 tests
+- 不破坏现有 `kdo backup`
+
+**估时**：~2h
 
 ---
 
