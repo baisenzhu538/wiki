@@ -468,11 +468,13 @@ git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
 
 ## 🔥 Batch 5：scaffold 紧急修复（P0，~45min）
 
-> **事故**：老顽童 2026-05-20 跑 `kdo scaffold --batch B --write`，71 张卡攻击者内容被清空。根因是 scaffold 两个缺陷叠加。详见 [[70_product/tasks/dashboard#🔧 黄药师 Task 13-14：scaffold 紧急修复]]。
+> **事故**：老顽童 2026-05-20 跑 `kdo scaffold --batch B --write`，71 张卡攻击者内容被清空。老顽童自检确认 scaffold 共三个缺陷叠加。详见 [[70_product/tasks/dashboard#🔧 黄药师 Task 13-14：scaffold 紧急修复]]。
 
-### Task 13：修复攻击者检测盲区（P0，~30min）
+### Task 13：修复 scaffold 三个缺陷（P0，~45min）
 
-**问题**：`_count_external_attacks` (quality.py L152) 只查 `## Critique` H2 节。旧格式卡把攻击者放在 `## Framework Gallery` 下：
+**缺陷 1：检测盲区**（`_count_external_attacks`）
+
+`_count_external_attacks` (quality.py L152) 只查 `## Critique` H2 节。旧格式卡把攻击者放在 `## Framework Gallery` 下：
 
 ```markdown
 ## Framework Gallery
@@ -483,14 +485,24 @@ git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
 **Dave Snowden**……（完整论证）
 ```
 
-`_find_section(sections, "critique")` 返回 None → `atk_count = 0` → scaffold 以为缺攻击者，生成空壳覆盖。
+`_find_section(sections, "critique")` 返回 None → `atk_count = 0` → scaffold 以为缺攻击者。
 
-**改什么**：`_count_external_attacks` 增加 fallback：
-1. 先走现有逻辑（找 `## Critique`）
-2. 若未找到，检查 `## Framework Gallery` 下的 `### 外部攻击*` H3 子节
-3. 在子节内容中匹配 `**学者名**` 粗体格式，提取学者名
+**缺陷 2：重复插入**
 
-**关键约束**：只改 `_count_external_attacks`，不改 `_insert_critique`（它只做插入，理论上不破坏旧内容——内容丢失的根因需要你在修复时同时排查）。
+当卡片已有 `## Critique` 但 scaffold 判定 `atk_count < atk_needed` 时，`_insert_critique` 会在 `## Synthesis` 前插入**第二个** `## Critique` 块，导致一张卡出现双 Critique 节。老顽童发现 6 张卡有此问题。
+
+**缺陷 3：内容丢弃**
+
+`_insert_critique` 插入新块时，旧攻击者正文未被保留——插入操作实际上覆盖/替换了相邻的旧内容，而非纯粹追加。这是 71 张卡内容丢失的直接根因。
+
+**改什么**：
+
+1. `_count_external_attacks` 增加 fallback：
+   - 先走现有逻辑（找 `## Critique`）
+   - 若未找到，检查 `## Framework Gallery` 下的 `### 外部攻击*` H3 子节
+   - 在子节内容中匹配 `**学者名**` 粗体格式，提取学者名
+2. `_insert_critique` 增加**幂等检查**：若卡片已有 `## Critique` H2 节，只追加缺失的 H4 攻击者（不重复创建整个 Critique 块）
+3. `_insert_critique` 改为**纯追加模式**：绝不对已有内容做替换/覆盖，只在 `## Synthesis` 前或文末插入新块
 
 ### Task 14：空 H4 校验（P1，~15min）
 
@@ -501,7 +513,9 @@ git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
 ### 验收
 
 - [ ] `_count_external_attacks` 能识别 `## Framework Gallery` 下 `### 外部攻击*` 中的 `**学者名**` 格式
+- [ ] 卡片已有 `## Critique` 时，`_insert_critique` 不重复创建第二个 Critique 块
+- [ ] `_insert_critique` 纯追加，不覆盖/替换已有内容
 - [ ] 在 `yt-entrepreneur-key-hypotheses` 原始版本（commit `99787ad`）上 dry-run scaffold 返回 `None`（无需 scaffold）
 - [ ] 空 H4（下面 <100 字正文）不计入攻击者计数
-- [ ] pytest 新增 ≥3 tests：旧格式识别 / 空 H4 拒绝 / dry-run 不误伤
+- [ ] pytest 新增 ≥5 tests：旧格式识别 / 双 Critique 幂等 / 内容保留 / 空 H4 拒绝 / dry-run 不误伤
 - [ ] 不破坏现有 282 tests
