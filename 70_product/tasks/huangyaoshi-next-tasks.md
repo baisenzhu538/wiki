@@ -10,7 +10,9 @@
 - Bonus: `kdo watch` ✅
 - Batch 2 Task 4: `kdo watch` 依赖解耦 ✅（4 tests, watchdog 可选, pyproject.toml 已清理）
 
-**当前状态**：Task 5 → Task 6 → Task 7 顺序执行中。做完一个跑 pytest 全量，确认无回归再开下一个。
+**当前状态**：Task 5 ✅ → **Task 6（新，P0 优先级提升）** → Task 7 → Task 8 顺序执行中。
+
+> ⚠️ **优先级调整**：原 Task 8（kdo task 自动化）提升为 Task 6，在 graph 工作之前做。原因：用户要求立即解决任务交接混乱问题。
 
 ---
 
