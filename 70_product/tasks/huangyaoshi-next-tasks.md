@@ -9,10 +9,9 @@
 - Batch 1: scaffold ✅ + clean-transcript ✅ + validate --watch ✅
 - Bonus: `kdo watch` ✅
 - Batch 2 Task 4: `kdo watch` 依赖解耦 ✅（4 tests, watchdog 可选, pyproject.toml 已清理）
+- Batch 2 Task 5-8: 全部 ✅
 
-**当前状态**：Task 5 ✅ → **Task 6（新，P0 优先级提升）** → Task 7 → Task 8 顺序执行中。
-
-> ⚠️ **优先级调整**：原 Task 8（kdo task 自动化）提升为 Task 6，在 graph 工作之前做。原因：用户要求立即解决任务交接混乱问题。
+**当前状态**：Batch 2 全部完成。pytest 223/224 pass (1 pre-existing flaky skip)。
 
 ---
 
@@ -151,7 +150,7 @@ Graph RAG Index
 | 3 | validate --watch | ✅ A，纯标准库 |
 | 4 | `kdo watch` 依赖解耦 | ✅ 4 tests, watchdog 可选, pyproject.toml 已清理 |
 | 5 | scaffold 插入位置修正 | ✅ Critique→CB/Synthesis间, 不要用→关联卡片后, AT→Synthesis后 |
-| 6 | `kdo task` 自动化 + dashboard | 🔨 当前任务——YAML frontmatter + CLI 子命令 + dashboard 生成 |
+| 6 | `kdo task` 自动化 + dashboard | ✅ 6 tests, dashboard/mine/done/review/verify, 向后兼容 |
 | 7 | graph rebuild --incremental | ✅ 5 tests, --full + incremental, graph_state.json 追踪 |
 | 8 | `kdo graph stats` | ✅ 4 tests, --json, NOT BUILT 处理 |
 
