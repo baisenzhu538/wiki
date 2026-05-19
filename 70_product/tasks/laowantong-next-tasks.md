@@ -9,8 +9,8 @@
 | **1-4** | ✅ 双三角修复 + Skill 修复 + Anthropic + 设计域复审 | — | 全 A/A-，审查通过 |
 | **5** | ✅ ① 补 related 边 | 30min | 3 wikilink + frontmatter relation ✅ |
 | **6** | ✅ ⑨ 科学决策域 35 PNG 增强消化 | 3h | 审计报告：91%覆盖，2 遗漏→amendment ✅ |
-| **🔧** | ⚠️ 顺手修（开工前 2min） | 2min | ① Anthropic `斗姄`→`窘境` + `reviewed_by` ② 双三角攻击者移入 Constraints & Boundaries |
-| **🔧** | 🆕 洪七公审计修复 — 双三角文章归属错位 + 引用补齐 | 15min | 方案A：严格按原图修正。`art_双三角纠错_v2` L51 + `art_20260517_9c7a63cb` source_refs/wiki_refs。详见 [[60_feedback/corrections/art-audit-20260519-dual-triangle-batch]] |
+| **🔧** | ⚠️ 顺手修（开工前 2min） | 2min | ① Anthropic `斗姄`→`窘境` + `reviewed_by` ✅ ② 双三角攻击者移入 Constraints & Boundaries ✅ |
+| **🔧** | 🆕 洪七公审计修复 — 双三角文章归属错位 + 引用补齐 | 15min | 方案A：严格按原图修正。`art_双三角纠错_v2` L51 + `art_20260517_9c7a63cb` source_refs/wiki_refs。详见 [[60_feedback/corrections/art-audit-20260519-dual-triangle-batch]] ✅ |
 | **7** | ⑥ v1.5 全库修复 ← **当前** | 分批 | Batch B（~69张缺Critique）→ Batch A（13张全缺）。详见表下方策略 |
 | **8** | ⑦ 管理工具箱 Batch 3（T6+T7+T8） | 6h | 每 5 张 B 卡后穿插 1 张 T 卡换脑 |
 
