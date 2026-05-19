@@ -18,9 +18,9 @@ updated: 2026-05-19
 | ② | 双三角文章 v2 | — | ✅ | 用户已通过，关闭 |
 | ③ | 管理工具箱 Batch 1（F1+T1+T2） | 工具箱 | ✅ | 全 A。T1 typo 已修 ✅ |
 | ④ | 管理工具箱 Batch 2（T3+T4+T5） | 工具箱 | ✅ | T3 A / T4 A+ / T5 A。T3 typo 已修 ✅ |
-| 🔍 | 双三角卡结构修复 | — | ⏳ | H3→H4 攻击者标题 + 删重复 related（审查 A-） |
-| 🆕 | Anthropic AI 原生初创手册 | 素材编译 | ⏳ | ingest ✅，骨架已生成，三步编译未开始 |
-| ⑤ | 设计域 S1+S2+S3 skill | 洪七公+段王爷 | 🔨 | 内容 A，3 命名/格式 Bug 待修（详见表下执行顺序 #2） |
+| 🔍 | 双三角卡结构修复 | — | ✅ | H3→H4 ✅ + 删重复 related ✅。⚠️ 攻击者在 Framework Gallery 下，建议移入 Constraints & Boundaries |
+| 🆕 | Anthropic AI 原生初创手册 | 素材编译 | ✅ | A-。Christensen+Pfeffer 攻击精准，5 ATs。⚠️ `创新者斗姄`→`创新者窘境`，补 `reviewed_by` |
+| ⑤ | 设计域 S1+S2+S3 skill | 洪七公+段王爷 | ✅ | 命名+格式+五段式全修。3/3 通过 |
 | 🆕 | 科学决策域 35 PNG 增强消化 | 增强 | ⏳ | OCR+交叉比对，老顽童自闭环 |
 | ⑥ | v1.5 全库修复（89 FAILED） | 质量 | ⏳ | 等 scaffold 工具 + 设计域完成后启动 |
 | ⑦ | 管理工具箱 Batch 3（T6+T7+T8） | 工具箱 | ⏳ | 穿插在 89 卡修复间隙 |
@@ -29,11 +29,11 @@ updated: 2026-05-19
 
 | 顺序 | 任务 | 内容 | 估时 | 备注 |
 |:----:|------|------|:--:|------|
-| **1** | 🔍 双三角卡结构修复 | H3→H4 攻击者标题 + 删重复 related | 5min | 审查 A-，修完跑 `kdo validate --v15 --card yt-model-dual-triangle-competitiveness` 验证 |
-| **2** | 🔧 设计域 Skill 命名+格式修复 | 目录重命名 + frontmatter name 去重 + 加五段式标准结构 | 15min | 审查发现 3 Bug：目录名错位、name 重复、缺标准段。详见 [[70_product/tasks/laowantong-next-tasks#⑤-B 设计域 Skill 命名与格式修复（欧阳锋审查反馈）]] |
-| **3** | 🆕 Anthropic 创始人手册 | 三步编译法 → concept 卡 | 2h | 详见 [[70_product/tasks/laowantong-next-tasks#⑧ Anthropic AI 原生初创公司手册]] |
-| **4** | ⑤ 设计域 S1+S2+S3 复审 | 命名+格式修完后欧阳锋复审 | — | S1/S2/S3 内容已完成（A），等格式修复后复议 |
-| **5** | ① 补 related 边 | 3 张卡的 wikilink + frontmatter relation | 30min | 详见 [[70_product/tasks/laowantong-next-tasks#① 补 related 边（立即，30min）]] |
+| **1** | ~~🔍 双三角卡结构修复~~ | ✅ 完成 | 5min | 欧阳锋复审：通过。⚠️ 攻击者在 Framework Gallery 下，建议移入 Constraints & Boundaries |
+| **2** | ~~🔧 设计域 Skill 命名+格式修复~~ | ✅ 完成 | 15min | 欧阳锋复审：通过。3/3 全修 |
+| **3** | ~~🆕 Anthropic 创始人手册~~ | ✅ 完成 | 2h | 欧阳锋复审：A-。⚠️ 修 typo `斗姄`→`窘境`，补 `reviewed_by` |
+| **4** | ~~⑤ 设计域 S1+S2+S3 复审~~ | ✅ 欧阳锋已复审 | — | 三 skill 内容 A，格式完备，闭环 |
+| **5** | ① 补 related 边 ← **下一个** | 3 张卡的 wikilink + frontmatter relation | 30min | 详见 [[70_product/tasks/laowantong-next-tasks#① 补 related 边（立即，30min）]] |
 | **6** | 🆕 科学决策域 35 PNG 增强消化 | OCR+交叉比对→查漏补缺 | 3h | 老顽童自闭环（含 OCR）。详见 [[70_product/tasks/laowantong-next-tasks#⑨ 科学决策域 35 PNG 增强消化]] |
 | **7** | ⑥ v1.5 全库修复（89 FAILED） | scaffold 分批修 | 分批 | 穿插 ⑦ Batch 3（T6+T7+T8，换脑休息） |
 | **8** | ⑦ 管理工具箱 Batch 3（T6+T7+T8） | 穿插在 ⑥ 间隙 | 6h | T6 项目雷达 / T7 新人融入 / T8 股权清单 |
@@ -92,8 +92,8 @@ updated: 2026-05-19
 
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
-| 老顽童 | 双三角卡 H3→H4 + 删重复 related | 审查发现，等老顽童修 |
-| 老顽童 | 设计域 3 Skill 命名/格式修复 | 目录名错位+name 重复+缺标准段，修复清单已写入 [[70_product/tasks/laowantong-next-tasks#⑤-B 设计域 Skill 命名与格式修复（欧阳锋审查反馈）]] |
+| 老顽童 | Anthropic 卡 typo `斗姄`→`窘境` + 补 `reviewed_by` | 审查发现，修完即关 |
+| 老顽童 | 双三角攻击者位置（Framework Gallery → Constraints & Boundaries） | 建议移，非阻塞 |
 | 洪七公 | 通道就绪确认 | 确认能读写输入/输出路径 |
 | 欧阳锋 | 待审查黄药师 Task 11+12 | Task 11 开发中，Task 12 排队 |
 
@@ -103,7 +103,8 @@ updated: 2026-05-19
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
-| 05-19 | 欧阳锋 | 老顽童设计域 3 Skill 审查 | ✅ 内容全 A，3 Bug（命名+格式），修复清单已写入任务文件 |
+| 05-19 | 老顽童 | ①+②+③ 三项完成 | ✅ 双三角修复 + Skill 修复 + Anthropic 编译 |
+| 05-19 | 欧阳锋 | 老顽童①+②+③ 审查 | ✅ 双三角通过/设计域通过/Anthropic A-，2 小修 |
 | 05-19 | 黄药师 | Task 10 Quality Gate v2 | ✅ --article + --skill + --all, 9 tests |
 | 05-19 | 黄药师 | Task 9 Graph RAG 深化 | ✅ graph path + 跨域标注 + --health, 9 tests |
 | 05-19 | 洪七公 | 双三角 VA + Excalidraw 重绘 | ✅ VA 158行 + `.excalidraw` 源文件 |
@@ -114,3 +115,17 @@ updated: 2026-05-19
 | 05-19 | 黄药师 | Task 8 graph stats | ✅ 4 tests, --json |
 | 05-19 | 黄药师 | Task 7 graph rebuild --incremental | ✅ 5 tests, --full + incremental |
 | 05-19 | 黄药师 | Task 6 kdo task 自动化 | ✅ 5 子命令 + 6 tests |
+
+---
+
+## 🔍 欧阳锋审查（老顽童 ①+②+③，2026-05-19）
+
+### 待修（2 项，老顽童下次会话顺手修）
+
+**1. Anthropic 卡 typo**：[[anthropic-官方发布创始人手册打造-ai-原生初创公司]] Line 105
+- `创新者斗姄` → `创新者窘境`（Christensen 书名标准译名）
+- 补 frontmatter `reviewed_by: 欧阳锋`
+
+**2. 双三角卡结构微调**（建议，非阻塞）：[[yt-model-dual-triangle-competitiveness]]
+- 两个 H4 攻击者当前在 `## Framework Gallery` 下，惯例应放在 `## Constraints & Boundaries`
+- 不影响 v1.5 解析，不改也行

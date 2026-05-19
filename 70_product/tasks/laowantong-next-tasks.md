@@ -395,12 +395,12 @@ kdo validate --v15 --card <id>
 |------|:--:|:--:|
 | T1/T3 typo 修复 | ✅ | — |
 | 双三角卡内容（Mintzberg+Taleb, VA, 3 不要用, 4 AT） | ✅ | A |
-| 双三角卡结构（H3→H4, 重复 related） | ⏳ | 待修 |
+| 双三角卡结构（H3→H4, 重复 related） | ✅ | 已修，欧阳锋确认 |
 | 双三角配套 Visual Analysis + Excalidraw | ✅ | 洪七公联合作业 |
-| Anthropic 创始人手册 | ⚠️ | 未开工 |
-| 设计域 S1/S2/S3 | ⏳ | 排队 |
+| Anthropic 创始人手册 | ✅ | A-，已编译 |
+| 设计域 S1/S2/S3 | ✅ | 命名+格式+五段式已修 |
 
-**审查结论**：老顽童实际上完成了设计和内容两个维度的产出——Visual Analysis 五维方法论 + Excalidraw 重绘是 KDO 首次打通"卡片→视觉分析→重绘"的完整设计管线。结构问题两个（5min），不影响内容评级。
+**审查结论（2026-05-19 更新）**：三项全部完成。遗留 2 个顺手修（见下方 [[#🔍 本次审查遗留（2026-05-19）]]）。
 
 ---
 
@@ -412,9 +412,23 @@ kdo validate --v15 --card <id>
 | ② | 双三角文章 v2 | ✅ 用户已通过，关闭 |
 | ③ | 管理工具箱 Batch 1 | ✅ 全 A，T1 typo 已修 ✅ |
 | ④ | 管理工具箱 Batch 2 | ✅ T3 (A) + T4 (A+) + T5 (A)，T3 typo 已修 ✅ |
-| 🔍 | 双三角卡结构修复 | ⏳ H3→H4 攻击者标题 + 删重复 related |
-| ⑤ | 设计域 3 个 Skill | 素材已就位，转录稿已清理 |
+| 🔍 | 双三角卡结构修复 | ✅ H3→H4 ✅ + 删重复 related ✅ |
+| ⑤ | 设计域 3 个 Skill | ✅ 命名+格式+五段式全修 |
 | ⑥ | v1.5 全库修复（89 FAILED） | `kdo validate --v15` FAILED → 0 |
 | ⑦ | 管理工具箱 Batch 3（T6+T7+T8） | 欧阳锋审查通过 |
-| ⑧ | Anthropic 创始人手册 | v1.5 三信号齐全 + validate PASS |
+| ⑧ | Anthropic 创始人手册 | ✅ A-。v1.5 三信号齐全 |
 | ⑨ | 科学决策域 35 PNG 增强消化 | 35 张 OCR + 10 卡交叉比对完成 |
+
+---
+
+## 🔍 本次审查遗留（欧阳锋 2026-05-19，老顽童下次会话顺手修）
+
+两项都是 1 分钟修完的小事：
+
+**1. [[anthropic-官方发布创始人手册打造-ai-原生初创公司]] — typo**
+- Line 105 `创新者斗姄` → `创新者窘境`
+- 补 frontmatter `reviewed_by: 欧阳锋`
+
+**2. [[yt-model-dual-triangle-competitiveness]] — 结构微调（建议）**
+- 两个 H4 攻击者目前在 `## Framework Gallery` 下，惯例放 `## Constraints & Boundaries`
+- 不影响 `kdo validate --v15`，不改也行
