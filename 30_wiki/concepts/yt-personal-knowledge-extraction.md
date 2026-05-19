@@ -149,6 +149,14 @@ reviewed_by: 黄药师
 
 - claim:boundary-05 [conf=0.80] **千人广场模型的Before/After划分过于二元**：950个「不行的人」内部差异巨大——有的是认知问题、有的是执行问题、有的是场景不匹配。把人群粗暴二分为B/A可能漏掉中间态的关键洞察。
 
+## Critique
+
+### 外部攻击
+
+#### Ikujiro Nonaka：批判
+
+#### Philip Tetlock：批判
+
 ## Framework Gallery
 
 ### 关联框架卡
@@ -157,12 +165,6 @@ reviewed_by: 黄药师
 - [[yt-model-personal-map]]
 - [[yt-model-progress-map]]
 - [[yt-model-y-organization]]
-
-### 外部攻击：Ikujiro Nonaka的"隐性知识不可萃取" + Philip Tetlock的"专家预测不比猩猩好"
-
-**Ikujiro Nonaka**（一桥大学荣休教授，"The Knowledge-Creating Company"作者，SECI模型创始人）的知识创造理论对"经验萃取"的前提提出了根本性挑战。Nonaka论证：知识分为显性知识（explicit knowledge，可写出来/可编码的）和隐性知识（tacit knowledge，不可言传的、嵌入在身体和情境中的）。知识萃取的核心操作——把顶级实践者的经验编码为方法论——假设隐性知识可以被转化为显性知识。但Nonaka会指出：隐性知识最大的特征恰恰是"不可被完全萃取"——销冠的"语感"、产品经理的"产品直觉"、领导者的"时机判断"——这些不只是"还没被萃取的显性知识"，而是"本质上是不可被语言穷尽的知识"。萃取可以让其他人更快上手（比没有方法论好），但永远无法替代在真实情境中浸泡多年内化出的隐性判断力。
-
-**Philip Tetlock**（宾夕法尼亚大学心理学教授，"Superforecasting"和"Expert Political Judgment"作者）的"狐狸vs刺猬"研究对"专家共识是知识的标准"提出了严肃质疑。Tetlock通过长达20年的专家预测追踪研究证明：大多数领域专家的预测准确度并不比随机好多少——且最重要的是——那些拥有"一个大理论"、对自己的模型最自信的"刺猬型"专家（hedgehogs）恰恰是预测最不准的。Tetlock的挑战："专家共识才可能是知识"这个标准在逻辑上是对的，但在操作上——那些在辩证式讨论中声音最大、模型最完整、最后被共识采纳的观点——可能恰好来自准确度最低的"刺猬型"专家，而那些知道很多小东西、承认不确定性、不喜欢建大模型的"狐狸型"专家（foxes）的意见可能因为不够漂亮而被淘汰。
 
 ## Synthesis
 

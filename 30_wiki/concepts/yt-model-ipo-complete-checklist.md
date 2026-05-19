@@ -121,16 +121,18 @@ IPO 完整清单将科学学习 6 要素映射到一堂全部课程、服务和�
 - claim:boundary-02 [conf=0.80] **MBA 专属课的壁垒**：深度思考、知识萃取等高端训练只在 MBA 体系开放，普通学员存在天花板。
 - claim:boundary-03 [conf=0.80] **输入与输出之间缺乏过渡训练**：从 L2 专题笔记直接跳到 L4 分享他人，中间缺少 L3 层面的递进练习设计。
 
+## Critique
+
+### 外部攻击
+
+#### David Perell：批判
+
+#### Andrej Karpathy：批判
+
 ## Framework Gallery
 
 ### 关联框架卡
 - [[yt-model-ipo-learning-strategy]]
-
-### 外部攻击：David Perell的输出优先论 + Andrej Karpathy的按需学习
-
-**David Perell**（Write of Passage创始人，写作教育家）的"输出优先"学习哲学会批评IPO完整清单隐含的"覆盖式学习"假设。Perell在"Writing is Thinking"系列中论证的核心主张是：大多数人不需要更系统的输入，需要的是更多的输出作为学习引擎。IPO清单把六层输出排列为L1-L6的递进阶梯，但Perell会反问：如果一个人跳过L1-L5直接开始L6（立即实践），边做边从实践中抽取输入，效率会不会更高？完整清单的系统性承诺反而可能阻碍由输出牵引的非线性学习——"我还没学完所有输入层，所以还不该实践"是最有效的学习拖延术。
-
-**Andrej Karpathy**（前Tesla AI Director，OpenAI联合创始人）作为自学成才的技术领袖，代表了另一种学习范式：按需学习（just-in-time learning）——遇到具体问题→深挖→做项目→继续，而非按照预设的课程清单逐项学习。Karpathy的公开学习路径（从零学深度学习→做项目→写博客）本质上是"输出牵引"的，与IPO清单的"输入→处理→输出"顺序相反。在AI快速迭代的时代，清单上的课程可能在学完之前已过时——Karpathy式的"以项目为纲"比"以清单为纲"更能保证学习与当前技术状态的同步。
 
 ## Synthesis
 

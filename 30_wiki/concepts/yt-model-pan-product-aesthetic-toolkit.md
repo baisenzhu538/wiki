@@ -76,11 +76,28 @@ reviewed_by: "黄药师"
 ### 关键原图
 - ![[泛产品设计-审美工具箱指南.png]]
 
-### 外部攻击：Pirsig的"品质不可分解" + Bourdieu的"品味是阶级区隔"
+## Critique
 
-**Robert Pirsig**（《Zen and the Art of Motorcycle Maintenance》作者，"Quality"概念的哲学探索者）通过"品质形而上学"（Metaphysics of Quality）论证：真正的好（Quality）不能被分解为一组可列出的要素而不丢失其本质。Pirsig的挑战：审美工具箱的核心操作——从"这个好"（黑盒感觉）到"为什么好"（白盒要素），隐含假设"好"可以被分解为N个可复现要素。但Pirsig会说：当你把一首打动人心的歌拆成"旋律×节奏×歌词×编曲"的雷达图时，你已经失去了"这首歌为什么让你起鸡皮疙瘩"的那个东西。建模产出的"要素清单"不等于审美能力——它可能只是审美的解剖报告，而非审美本身。
+### 外部攻击
 
-**Pierre Bourdieu**（法国社会学家，法兰西学院院士，《Distinction: A Social Critique of the Judgement of Taste》作者）通过大规模实证研究证明：品味（taste）本质上是阶级区隔（social distinction）的工具——你"觉得什么东西好"不是纯粹的个人判断，而是你的社会出身、教育背景和文化资本共同塑造的结果。Bourdieu的挑战：审美工具箱假设"通过系统训练人人都能建立审美"，但Bourdieu会说——你在建池子时"挑选哪些进入池子"这个动作本身，已经被你的阶级和文化背景预设了标准。工具箱没解决"谁的审美算好审美"这个前提——它默认"行业最佳实践 = 好"的共识，但忽略了这个共识恰恰是文化权力运作的结果。
+#### Robert Pirsig：批判
+
+#### Pierre Bourdieu：批判
+
+## Constraints & Boundaries
+
+- claim:boundary-01 [conf=0.75] "建模"环节的方法论支撑最弱——从黑盒感觉到白盒要素的跳跃，目前只给了"找到N要素"的抽象指导，缺少具体操作步骤（如要素分解方法、要素完备性验证）。这可能是审美能力中最依赖天赋和经验的环节
+- claim:boundary-02 [conf=0.75] 池子的分类标准未结构化——不同类型的产品设计（课程设计 vs 空间设计）的最佳实践池子结构不同，目前未给出MECE的分类框架
+- claim:boundary-03 [conf=0.75] "美好作品想象"与"最佳实践建模"存在张力——建模追求"不比他们差"，想象追求"超越最佳"。是先建模再超越还是边建边超越，路径不够清晰
+- claim:boundary-04 [conf=0.85] 审美能力需与需求理解（知道为谁做）和落地能力（能做出来）配合使用——单一维度的审美提升不足以产出好作品
+
+## Critique
+
+### 外部攻击
+
+#### Robert Pirsig：批判
+
+#### Pierre Bourdieu：批判
 
 ## Constraints & Boundaries
 

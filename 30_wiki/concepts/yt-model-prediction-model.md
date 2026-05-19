@@ -94,15 +94,17 @@ reviewed_by: 黄药师
 
 - claim:boundary-02 [conf=0.80] **预判 ≠ 预测**：框架叫"预判模型"但本质是评估框架（用已知维度打分），不是预测工具。真正的预测需要处理不确定性和时间序列，这三种范式都是静态截面分析。
 
+## Critique
+
+### 外部攻击
+
+#### Philip Tetlock：批判
+
+#### Daniel Kahneman：批判
+
 ## Framework Gallery
 
 ### 关联框架卡
-
-### 外部攻击：Philip Tetlock的超级预测者研究 + Daniel Kahneman的噪声审计
-
-**Philip Tetlock**（UPenn，"Superforecasting"作者）长达20年的预测研究是对预判模型最系统性的实证挑战。Good Judgment Project的数据显示：即使最优秀的"超级预测者"（superforecasters），预测准确率也远低于我们对"系统预判"的期望。更关键的是，Tetlock发现超级预测者的核心能力不是"使用评估框架"，而是认知风格——actively open-minded thinking（不断更新信念、搜索反面证据、用量化概率而非模糊词）。预判模型的N要素/雷达图/Checklist三种范式都假设"多列维度+打分提升预判准确率"，但Tetlock的数据表明：维度的数量和系统性与预判准确率之间没有简单正相关——有时候2个关键要素比7维度雷达图更准。
-
-**Daniel Kahneman**（诺贝尔经济学奖得主，《Noise》合著者）在《Noise》(2021)中的发现直接冲击预判模型的核心假设——即使使用相同的评估维度和打分标准，不同评估者之间的判断差异（噪声）远大于预期。"噪声审计"（noise audit）揭示：相同的雷达图，张三和李四的打分可以有巨大差异——预判模型的可靠性瓶颈不在维度设计，在评估者校准。Kahneman会说：与其从N要素升级到Checklist，不如先做评估者信度校准——让所有打分的人对同一批案例独立打分，直到信度达到可接受水平。框架越复杂，噪声越大——因为更多的维度给了更多的主观判断空间。
 
 ## Synthesis
 

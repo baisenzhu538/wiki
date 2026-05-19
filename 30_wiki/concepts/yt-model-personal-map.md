@@ -96,18 +96,20 @@ reviewed_by: 黄药师
 - claim:boundary-02 [conf=0.80] **领先层能力的选择逻辑不明**：为什么是这六项能力而不是其他？它们之间的权重和优先级关系是什么？
 - claim:boundary-03 [conf=0.80] **追求层的「人生红点」路径偏抽象**：从领先层到追求层的跃迁条件需要更明确的里程碑定义。
 
+## Critique
+
+### 外部攻击
+
+#### David Epstein：批判
+
+#### Cal Newport：批判
+
 ## Framework Gallery
 
 ### 关联框架卡
 - [[yt-model-ipo-learning-strategy]]
 - [[yt-model-progress-map]]
 - [[yt-model-y-organization]]
-
-### 外部攻击：David Epstein的过早专业化陷阱 + Cal Newport的热情追随批判
-
-**David Epstein**（"Range"作者）对个人发展框架的"过早专业化陷阱"批评直接适用于个人地图的四层金字塔结构。Epstein通过大量跨领域案例研究证明：最成功的个人发展路径往往包含"采样期"（sampling period）——在不同领域广泛尝试后才在某个交叉点上深耕。个人地图的"基础层→迭代层→领先层→追求层"暗示一条从下到上的线性建设路径，但Epstein会反驳：领先层六项能力的选择预设了你已经知道该发展哪些能力——采样期未完成就进入深耕，是过早收敛。
-
-**Cal Newport**（Georgetown CS教授，"So Good They Can't Ignore You"作者）的"career capital"理论与个人地图的"人生红点"追求层直接冲突。Newport基于大量职业访谈论证：职业满意度来自稀缺且有价值技能（career capital）的积累，而非"找到人生红点"。个人地图把"人生红点"放在金字塔尖暗示"这是最终目标"，但Newport会反驳：人生红点不是你找到的，是你在某个领域做到足够好之后自然浮现的副产品。把红点放在顶层会让还不具备稀缺能力的年轻人苦苦寻找红点——制造焦虑而非推动成长。
 
 ## Synthesis
 

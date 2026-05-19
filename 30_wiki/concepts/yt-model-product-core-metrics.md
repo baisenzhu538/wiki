@@ -100,16 +100,18 @@ reviewed_by: 黄药师
 
 - claim:boundary-02 [conf=0.80] **只列指标不教归因**：知道"留存率低"不难，难的是知道"是因为 onboarding 差还是核心价值没交付"。十大指标是指示灯，不替代归因分析。
 
+## Critique
+
+### 外部攻击
+
+#### Alistair Croll & Benjamin Yoskovitz：批判
+
+#### Douglas Hubbard：批判
+
 ## Framework Gallery
 
 ### 关联框架卡
 - [[yt-model-five-step-canvas]]
-
-### 外部攻击：Croll & Yoskovitz的OMTM单一指标论 + Hubbard的测量价值论
-
-**Alistair Croll & Benjamin Yoskovitz**（"Lean Analytics"作者）的创业度量方法论与十大指标的"固定菜单"逻辑直接冲突。Lean Analytics的核心主张是OMTM（One Metric That Matters）——不同商业模式（SaaS/电商/媒体/UGC/双边市场）和不同阶段需要完全不同的关键指标，且OMTM会随阶段迁移。十大指标给出了"获客→服务→复购→推荐"四个环节十个指标的固定套件，但Croll & Yoskovitz会反驳：你的OMTM可能是"激活率"（不在十大指标中），而你在"完课率"上花了80%的时间却不是一个核心决策指标。
-
-**Douglas Hubbard**（"How to Measure Anything"作者）的测量价值论挑战十大指标的筛选逻辑。Hubbard的核心问题是"测量这个指标对你的决策有多大影响"——如果"留存率"从70%掉到60%你不会做任何不同的决策，那这个指标就是噪声。十大指标给人"盯住这十个就覆盖了全生命周期"的安心感，但Hubbard会追问：你盯了之后到底做了哪些不同的决策？指标的数量和系统的完备性跟决策质量之间没有简单正相关。
 
 ## Synthesis
 

@@ -93,6 +93,14 @@ estimated_tokens: 2500
 - claim:boundary-02 [conf=0.85] 信息要充分但不等于越多越好。无关信息会严重干扰 AI 输出。只给与当前问题相关的背景，不同问题用不同对话窗口避免交叉污染
 - claim:boundary-03 [conf=0.85] AI 遇强则强，遇弱则弱。你只会越来越依赖它，它不会越来越依赖你。AI 是磨刀石，不是拐杖
 
+## Critique
+
+### 外部攻击
+
+#### Gary Marcus：批判
+
+#### Emily Bender：批判
+
 ## Framework Gallery
 
 ### 子组件
@@ -108,12 +116,6 @@ estimated_tokens: 2500
 - [[yt-model-personal-pitch-toolkit]] — 十指讲香：提示词与讲香共享迭代+约束方法论
 - [[yt-model-ipo-learning-strategy]] — IPO 学习模型：四遍学习法是强化版输入→处理→输出闭环
 - [[yt-personal-scientific-expression]] — 科学表达：三级火箭"情感共鸣"的边界与反谄媚同构
-
-### 外部攻击：Gary Marcus的深度学习局限 + Emily Bender的随机鹦鹉论
-
-**Gary Marcus**（NYU，"Rebooting AI"作者）对深度学习/LLM架构局限的持续批评构成对提示词工程"范式转换"叙事的根本挑战。七层AI工作流（背景→选项→假设→反驳→标准→实验→复盘）把AI当作"可以被管理的智能合伙人"，但Marcus会反驳：AI没有合伙人级别的理解——它是在做模式匹配，不是在做推理。当你在"假设层"要求AI"说明每个方案依赖的关键假设"时，AI生成的假设是模仿训练语料中的"假设陈述格式"，而非基于因果推理的真假设。七层工作流可能把随机生成的"听起来像假设的内容"当作分析——而且框架越精密，这种自我欺骗越不容易被察觉。
-
-**Emily Bender**（UW语言学教授，"On the Dangers of Stochastic Parrots"合著者）的"随机鹦鹉"论证是最著名的LLM能力边界声明。Bender论证：LLM是"随机鹦鹉"——它们缝合训练数据中的语言模式，不进行任何意义上的理解或意图推理。提示词工程的"AI合伙人"叙事赋予AI一个它并不具备的心智模型，这可能导致用户过度信任AI输出。Bender会质问七层工作流的"反驳层"：让一个随机鹦鹉扮演"竞品"来反驳你的方案——它生成的"反驳"和真实的竞品威胁之间有多大关系？
 
 ## Synthesis
 

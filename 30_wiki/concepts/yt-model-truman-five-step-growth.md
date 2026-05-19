@@ -115,17 +115,19 @@ Truman的个人成长五步法是创业五步法在个人发展领域的迁移�
 
 - claim:boundary-02 [conf=0.80] **"人生红点"的发现没有方法论**：框架假设你已经知道人生红点是什么，但大多数人卡在"找不到红点"。从"不知道红点"到"确定红点"的过程可能比五要素本身更重要。
 
+## Critique
+
+### 外部攻击
+
+#### Daniel Gilbert：批判
+
+#### Carl Rogers：批判
+
 ## Framework Gallery
 
 ### 关联框架卡
 - [[yt-model-deliberate-practice-growth]]
 - [[yt-model-personal-map]]
-
-### 外部攻击：Daniel Gilbert的"预测偏差" + 卡尔·罗杰斯的"成为而非规划"
-
-**Daniel Gilbert**（Harvard心理学教授，"Stumbling on Happiness"作者）对"预测未来自我"的研究直接挑战五步法的逻辑起点——人生红点。Gilbert在《Stumbling on Happiness》(2006)中综合大量心理学实验证明：人类在预测"未来什么会让自己幸福"方面表现极差——"你现在的自己"无法准确判断"未来的自己"想要什么。五步法用"倒推"逻辑（确定人生红点→倒推能力→规划路径），但这个逻辑的有效性取决于一个致命前提：你现在确定的人生红点在未来10-20年仍然成立。Gilbert的数据说：大概率不成立——你会变成不同的人，有着不同的偏好和价值观。
-
-**Carl Rogers**（人本主义心理学创始人，"On Becoming a Person"作者）的"成为而非规划"是来自心理学内部的另一套成长哲学。Rogers在《On Becoming a Person》(1961)中论证：最健康的人格发展不是"走向一个预先确定的目标"，而是"对体验保持开放"（openness to experience）——让自我在每时每刻的体验中自然浮现。五步法把"人生红点"当作导航终点，但Rogers会说：真正的成长是"成为一个过程而非达到一个状态"——你不需要一页纸规划全部人生，你需要的是在每个时刻倾听自己真实的体验并据此调整方向。
 
 ## Synthesis
 
