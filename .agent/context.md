@@ -167,7 +167,13 @@ blockers: []
 - Scaffold 完工后老顽童立即使用它开工 89 卡修复
 - 黄药师后续选项：设计域转录稿清理工具 / `kdo validate --v15 --watch`（文件变更自动重检）/ Graph RAG 索引增量更新 / KDO build 系统（非紧急）
 
-### 2026-05-19：老顽童管理工具箱 Batch 1 审查通过（F1+T1+T2 全 A）
+### 2026-05-19：老顽童管理工具箱 Batch 2 审查（T3 A / T4 A+，T5 制作中）
+
+- **T3 OKR 罗盘**（A）：Mintzberg（涌现战略）+ Lisa Ordonez（目标副作用/"Goals Gone Wild"）— Ordonez 是非显而易见的优秀选择，攻击角度精准
+- **T4 战略研讨会**（A+）：Christensen（创新者窘境——战略会杀创新）+ Taleb（黑天鹅——规划是伪科学）— 全库迄今最佳 tool 卡。会前四件套+会中五段式+会后三检查，11 步结构最完整。建议作为后续 tool 卡参考标准
+- **T5 知识萃取器**：制作中（建议 Nonaka&Takeuchi + Snowden）
+- **T3 待修**：Line 106 `团队脚脑暴`→`团队头脑风暴`
+- Mintzberg 已出场 3 次（F1/T3/T4），Tale b 已 ~3 次。T5-T8 应避开
 
 - **F1 工具箱总览**（A）：Mintzberg（管理手艺不可编码）+ Pfeffer（Leadership BS/科学感=安慰剂）— 管理域最佳攻击者配对之一
 - **T1 会议设计师**（A）：Kahneman（认知负荷/System 2）+ Perrow（正常事故/紧密耦合）— 双杀，操作流程四段清晰

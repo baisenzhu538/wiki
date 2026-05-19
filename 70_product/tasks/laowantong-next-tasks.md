@@ -76,18 +76,19 @@ body 高度提升段添加：`[[yt-model-liberate-thinking-layers]]`
 
 ---
 
-## ④ 管理工具箱 Batch 2（下一步）— T3+T4 + T5
+## ④ 管理工具箱 Batch 2 — T3+T4 已交付，T5 制作中
 
-**T3 [[yt-tool-okr-cycle]]** — OKR 制定与复盘罗盘（L4 管业务）
-**T4 [[yt-tool-strategy-workshop]]** — 战略研讨会引导手册（L5 管公司）
-**T5 [[yt-tool-knowledge-extraction]]** — 知识萃取器（L2-L3 交叉）
+| 卡 | 评级 | 攻击者 | 状态 |
+|----|------|--------|------|
+| T3 [[yt-tool-okr-cycle]] | **A** | Mintzberg（涌现战略）+ Ordonez（目标副作用） | ✅ 审查通过。⚠️ 修 typo：Line 106 `团队脚脑暴`→`团队头脑风暴` |
+| T4 [[yt-tool-strategy-workshop]] | **A+** | Christensen（创新者窘境）+ Taleb（黑天鹅/规划伪科学） | ✅ 审查通过。全库迄今最佳 tool 卡，建议作为后续标准 |
+| T5 [[yt-tool-knowledge-extraction]] | — | 建议：Nonaka&Takeuchi（SECI 模型）+ Snowden（Cynefin——复杂域知识不可萃取） | 🔨 制作中 |
 
-攻击者选择方向：
-- T3 OKR：Doerr（OKR 原教旨）+ Müller（指标暴政/Goodhart's Law）或 Deming（目标管理的系统代价）
-- T4 战略会：Rumelt（好战略坏战略）+ Mintzberg（战略即涌现，不是研讨会里规划出来的）
-- T5 知识萃取：Nonaka&Takeuchi（SECI 模型）+ Snowden（Cynefin——复杂域知识不可萃取）
-
-老规则：独立可用、≥2 攻击者、≥2 不要用、≥3 AT、≥3 跨域引用。
+**审查备注**：
+- T4 是全工具箱 5 张 tool 卡的结构标杆：会前四件套+会中五段式+会后三检查，11 步各有时间分配+关键约束+退出标准
+- T3 的 Ordonez 是非显而易见但高度相关的选择（"Goals Gone Wild"研究），体现了独立学术判断
+- Mintzberg 已在 F1/T3/T4 三次出场，攻击角度有区分（管理手艺 vs 涌现战略 vs 战略涌现）但目前频次触顶，T5-T8 应避开
+- Taleb 已出场 ~3 次，同样建议 T5-T8 避开
 
 ---
 
@@ -216,7 +217,7 @@ kdo validate --v15 --card <id>
 | ① | 补 related 边 | `kdo lint` 通过 + 欧阳锋确认 |
 | ② | 双三角文章 v2 | ✅ 用户已通过，关闭 |
 | ③ | 管理工具箱 Batch 1 | ✅ 全 A，T1 修一个 typo |
-| ④ | 管理工具箱 Batch 2（T3+T4+T5） | 欧阳锋审查通过 |
+| ④ | 管理工具箱 Batch 2 | T3 (A) + T4 (A+) ✅ / T5 🔨 制作中 |
 | ⑤ | 设计域 7 张卡 | 欧阳锋审查全 A → 入库 |
 | ⑥ | v1.5 全库修复（89 FAILED） | `kdo validate --v15` FAILED → 0 |
 | ⑦ | 管理工具箱 Batch 3（T6+T7+T8） | 欧阳锋审查通过 |
