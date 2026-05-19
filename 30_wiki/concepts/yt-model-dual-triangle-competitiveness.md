@@ -39,8 +39,10 @@ related:
 source_refs:
   - 10_raw/sources/一堂-课程地图精华串讲.md
   - 10_raw/assets/yitang/一堂-个人修炼-双三角模型.jpg
+  - 40_outputs/content/images/infographics/dual-triangle-competitiveness.excalidraw
+  - 40_outputs/content/images/infographics/dual-triangle-visual-analysis.md
 created_at: '2026-05-07'
-updated_at: '2026-05-08'
+updated_at: '2026-05-19'
 estimated_tokens: 1915
 reviewed_by: 黄药师
 ---
