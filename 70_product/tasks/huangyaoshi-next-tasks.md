@@ -7,9 +7,10 @@
 **已完成**：
 - P0-P3 全部 ✅ + domain filter fix ✅
 - Batch 1: scaffold ✅ + clean-transcript ✅ + validate --watch ✅
-- Bonus: `kdo watch`（inbox 监控 + health check）
+- Bonus: `kdo watch` ✅
+- Batch 2 Task 4: `kdo watch` 依赖解耦 ✅（4 tests, watchdog 可选, pyproject.toml 已清理）
 
-**当前状态**：Batch 2 待开工。
+**当前状态**：Task 5 → Task 6 → Task 7 顺序执行中。做完一个跑 pytest 全量，确认无回归再开下一个。
 
 ---
 
@@ -111,7 +112,7 @@ Graph RAG Index
 | 2 | clean-transcript | ✅ A，7 tests |
 | 3 | validate --watch | ✅ A，纯标准库 |
 | 4 | `kdo watch` 依赖解耦 | ✅ 4 tests, watchdog 可选, pyproject.toml 已清理 |
-| 5 | scaffold 插入位置修正 | 节插入正确 + 旧行为 fallback |
+| 5 | scaffold 插入位置修正 | 🔨 当前任务——节插入正确 + 旧行为 fallback |
 | 6 | graph rebuild --incremental | 增量 <5s vs 全量 ~30s |
 | 7 | `kdo graph stats` | 输出合法 + --json |
 
