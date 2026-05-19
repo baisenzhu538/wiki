@@ -1,13 +1,9 @@
 ---
 updated: 2026-05-19
 active_branch: main
-active_task: |
-  黄药师 → Task 10 Quality Gate v2（Task 9 已完成 ✅）
-  老顽童 → 🔍修双三角卡结构 → ⑧Anthropic编译 → 设计域 S1+S2（已提交，文件位置待确认）
 active_task: 老顽童→按队列执行：①补related边 → 修typo → ⑤设计域3Skill → 科学决策35PNG消化/重检现有卡 → ⑥v1.5修复 → ⑦Batch3。黄药师→已完成scaffold+转录稿清理+validate watch，等待下一个工单。
-blockers: [科学决策35张PNG未分配优先级/任务]
-  - 老顽童设计域 S1+S2 文件位置待确认（老顽童说已提交，vault 中未找到）
-  - 洪七公通道就绪确认（新角色定义需验证能读写输入输出路径）
+blockers:
+  - 科学决策35张PNG未分配优先级/任务
 ---
 
 ## 你是谁

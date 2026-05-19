@@ -14,14 +14,14 @@ updated: 2026-05-19
 
 | # | 任务 | 批次 | 状态 | 备注 |
 |---|------|------|------|------|
-| ① | 补 related 边 | — | ⏳ | 3 条 wikilink + frontmatter relation |
+| ① | 补 related 边 | — | ✅ | 3 条 wikilink + frontmatter relation |
 | ② | 双三角文章 v2 | — | ✅ | 用户已通过，关闭 |
 | ③ | 管理工具箱 Batch 1（F1+T1+T2） | 工具箱 | ✅ | 全 A。T1 typo 已修 ✅ |
 | ④ | 管理工具箱 Batch 2（T3+T4+T5） | 工具箱 | ✅ | T3 A / T4 A+ / T5 A。T3 typo 已修 ✅ |
 | 🔍 | 双三角卡结构修复 | — | ✅ | H3→H4 ✅ + 删重复 related ✅。⚠️ 攻击者在 Framework Gallery 下，建议移入 Constraints & Boundaries |
 | 🆕 | Anthropic AI 原生初创手册 | 素材编译 | ✅ | A-。Christensen+Pfeffer 攻击精准，5 ATs。⚠️ `创新者斗姄`→`创新者窘境`，补 `reviewed_by` |
 | ⑤ | 设计域 S1+S2+S3 skill | 洪七公+段王爷 | ✅ | 命名+格式+五段式全修。3/3 通过 |
-| 🆕 | 科学决策域 35 PNG 增强消化 | 增强 | ⏳ | OCR+交叉比对，老顽童自闭环 |
+| 🆕 | 科学决策域 35 PNG 增强消化 | 增强 | ✅ | 审计报告 A，91%覆盖，2 遗漏→现有卡 amendment，无需新卡 |
 | ⑥ | v1.5 全库修复（89 FAILED） | 质量 | ⏳ | 等 scaffold 工具 + 设计域完成后启动 |
 | ⑦ | 管理工具箱 Batch 3（T6+T7+T8） | 工具箱 | ⏳ | 穿插在 89 卡修复间隙 |
 
@@ -33,9 +33,9 @@ updated: 2026-05-19
 | **2** | ~~🔧 设计域 Skill 命名+格式修复~~ | ✅ 完成 | 15min | 欧阳锋复审：通过。3/3 全修 |
 | **3** | ~~🆕 Anthropic 创始人手册~~ | ✅ 完成 | 2h | 欧阳锋复审：A-。⚠️ 修 typo `斗姄`→`窘境`，补 `reviewed_by` |
 | **4** | ~~⑤ 设计域 S1+S2+S3 复审~~ | ✅ 欧阳锋已复审 | — | 三 skill 内容 A，格式完备，闭环 |
-| **5** | ① 补 related 边 ← **下一个** | 3 张卡的 wikilink + frontmatter relation | 30min | 详见 [[70_product/tasks/laowantong-next-tasks#① 补 related 边（立即，30min）]] |
-| **6** | 🆕 科学决策域 35 PNG 增强消化 | OCR+交叉比对→查漏补缺 | 3h | 老顽童自闭环（含 OCR）。详见 [[70_product/tasks/laowantong-next-tasks#⑨ 科学决策域 35 PNG 增强消化]] |
-| **7** | ⑥ v1.5 全库修复（89 FAILED） | scaffold 分批修 | 分批 | 穿插 ⑦ Batch 3（T6+T7+T8，换脑休息） |
+| **5** | ~~① 补 related 边~~ | ✅ 完成 | 30min | 3 条 wikilink + frontmatter relation |
+| **6** | ~~🆕 科学决策域 35 PNG 增强消化~~ | ✅ 完成 | 3h | 审计报告：91%覆盖，2 遗漏→amendment，无需新卡 |
+| **7** | ⑥ v1.5 全库修复（89 FAILED） ← **下一个** | Batch B（~69张缺Critique）先做，再 Batch A（13张全缺）| 分批 | 穿插 ⑦ Batch 3。策略见 [[#🔍 v1.5 修复策略（欧阳锋拍板 2026-05-20）]] |
 | **8** | ⑦ 管理工具箱 Batch 3（T6+T7+T8） | 穿插在 ⑥ 间隙 | 6h | T6 项目雷达 / T7 新人融入 / T8 股权清单 |
 
 > **规则**：顺序执行，不跳。每完成一个 → 跑验证 → 通知欧阳锋审查。不要等批次全部完成。
@@ -102,6 +102,8 @@ updated: 2026-05-19
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
+| 05-20 | 老顽童 | ⑨ 科学决策 35 PNG 审计 + ① 补 related | ✅ 审计报告 A，91%覆盖；① 3 wikilink 已补 |
+| 05-20 | 老顽童 | v1.5 全库扫描 | 215 卡，54 pass / 89 fail / 72 warn，Batch B~69 / Batch A 13 |
 | 05-20 | 黄药师 | Task 11+12 commit | ✅ `33203ed`，23 files，+5475/-202，clean tree |
 | 05-19 | 黄药师 | Task 11+12 完成 | ✅ skill-dir validation + KDO Build，282 tests PASS |
 | 05-19 | 欧阳锋 | 黄药师 Task 11+12 审查 | A/代码良，A/实测通，⚠️ 全部未 commit |
@@ -152,3 +154,49 @@ cd "C:\Users\Administrator\Knowledge Delivery OS 0.0.1"
 git add -A
 git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
 ```
+
+---
+
+## 🔍 v1.5 修复策略（欧阳锋拍板 2026-05-20）
+
+> 老顽童扫描结果：215 卡，54 pass / 89 fail / 72 warn。关键发现：**不存在"只缺 AT"的 Batch C**——要么缺 Critique（B），要么全缺（A）。
+
+### 执行顺序
+
+| 顺序 | Batch | 内容 | 卡数 | 每卡工作量 | 总估时 |
+|:--:|-------|------|:--:|:--:|:--:|
+| **1** | B | 缺外部攻击者（有 DU+AT，只缺 Critique） | ~69 | 30min | ~35h |
+| **2** | A | 全信号缺失（ATK=0/DU=0/AT=0） | ~13 | 90min | ~20h |
+| **3** | Warnings | 格式微调 + 手动审查（other 类） | ~72 | — | 穿插 |
+
+### 为什么 B 先做
+
+- B 卡已有 DU table 和 AT table，结构半成型，只差 `## Critique` + 2 个 H4 攻击者
+- 每张 30min（查 2 个学者 → 写攻击段落 → scaffold 验证），做完 69 张后 FAILED 从 89 降到 ~20
+- A 卡每张 90min（从零搭 Critique+DU+AT），但只有 13 张，放后面集中突破
+
+### B 执行规范
+
+每张 B 卡补：
+```markdown
+## Constraints & Boundaries
+
+#### [学者名] — [攻击标题]
+[2-3 句攻击论证，含具体引用来源]
+
+#### [学者名] — [攻击标题]
+[2-3 句攻击论证，含具体引用来源]
+```
+
+攻击者选择原则：
+- pan-product 卡 → JTBD、精益创业、设计思维、系统动力学范式
+- 两张卡不同攻击者（不重复用同一学者）
+- 有紧迫感（"这个框架的边界在哪？什么时候失效？"）
+
+### CLI 问题
+
+`kdo validate --v15` 文本输出正常，`--json` 有编码问题但不影响使用。老顽童用文本输出即可。
+
+### 穿插规则
+
+每做完 5 张 B 卡 → 跑 `kdo validate --v15 --card <id>` 验证 → 穿插 1 张 Batch 3（T6/T7/T8）换脑。

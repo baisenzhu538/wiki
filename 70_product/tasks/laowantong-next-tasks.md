@@ -6,18 +6,13 @@
 
 | 顺序 | 任务 | 估时 | 验证方式 |
 |:----:|------|:--:|------|
-| **1** | 🔍 修双三角卡结构 | 5min | `kdo validate --v15 --card yt-model-dual-triangle-competitiveness` → 2/2 attackers |
-| **2** | 🔧 修设计域 Skill 命名+格式 | 15min | 详见 [[#⑤-B 设计域 Skill 命名与格式修复（欧阳锋审查反馈）]] |
-| **3** | ⑧ Anthropic 创始人手册 三步编译 | 2h | `kdo validate --v15 --card anthropic-官方发布创始人手册打造-ai-原生初创公司` → PASS |
-| **4** | ⑤ 设计域 S1 AI 生图模型选型 | — | S1 内容已完成（ai-design-fundamentals），等格式+命名修完欧阳锋复审 |
-| **5** | ⑤ 设计域 S2 Prompt 工程 | — | S2 内容已完成（ai-design-prompts），等格式+命名修完欧阳锋复审 |
-| **6** | ⑤ 设计域 S3 资产管理规范 | — | S3 内容已完成（ai-design-assets），等格式+命名修完欧阳锋复审 |
-| **7** | ① 补 related 边 | 30min | 3 张卡 wikilink + frontmatter relation，跑 `kdo lint` 验证 |
-| **8** | ⑨ 科学决策域 35 PNG 增强消化 | 3h | 详见 [[#⑨ 科学决策域 35 PNG 增强消化]] |
-| **9** | ⑥ v1.5 全库修复（89 FAILED） | 分批 | `kdo validate --v15` FAILED → 0，穿插 ⑦ Batch 3 |
-| **10** | ⑦ 管理工具箱 Batch 3（T6+T7+T8） | 6h | 穿插在 ⑥ 间隙做，换脑休息 |
+| **1-4** | ✅ 双三角修复 + Skill 修复 + Anthropic + 设计域复审 | — | 全 A/A-，审查通过 |
+| **5** | ✅ ① 补 related 边 | 30min | 3 wikilink + frontmatter relation ✅ |
+| **6** | ✅ ⑨ 科学决策域 35 PNG 增强消化 | 3h | 审计报告：91%覆盖，2 遗漏→amendment ✅ |
+| **7** | ⑥ v1.5 全库修复 ← **当前** | 分批 | Batch B（~69张缺Critique）→ Batch A（13张全缺）。详见表下方策略 |
+| **8** | ⑦ 管理工具箱 Batch 3（T6+T7+T8） | 6h | 每 5 张 B 卡后穿插 1 张 T 卡换脑 |
 
-> **规则**：顺序执行，不跳号（1→10）。**每完成一个立即通知欧阳锋审查**，不等批次。第 9-10 步穿插推进。完成后更新本文件对应任务的完成标志。
+> **规则**：顺序执行。每 5 张 B 卡 → `kdo validate --v15 --card <id>` 验证 → 通知欧阳锋抽检。穿插 1 张 T 卡换脑。
 
 ---
 
@@ -27,10 +22,12 @@
 - 管理工具箱 Batch 1 ✅（F1+T1+T2 全 A）| Batch 2 ✅（T3 A / T4 A+ / T5 A）
 - T1/T3 typo 已修 ✅（欧阳锋 05-19 确认）
 - ② 双三角文章 v2 ✅（用户已通过，关闭）
-- Anthropic 创始人手册：ingest ✅，骨架已生成，三步编译**未开始**
-- ⑤ 设计域素材已就位（3 份文件），转录稿已清理
+- Anthropic 创始人手册 ✅（A-，Christensen+Pfeffer，5 ATs）
+- ⑤ 设计域 S1+S2+S3 ✅（命名+格式+五段式全修）
+- ① 补 related 边 ✅ | ⑨ 科学决策 35 PNG ✅（审计报告 A，91%覆盖）
+- ⑥ v1.5 修复进行中 ← **当前**
 
-**🆕 最新审查**（欧阳锋 05-19）：[[#🔍 欧阳锋审查（2026-05-19）]]
+**🆕 最新审查**（欧阳锋 05-20）：[[#🔍 欧阳锋审查（2026-05-19）]] · [[70_product/tasks/dashboard#🔍 v1.5 修复策略（欧阳锋拍板 2026-05-20）|v1.5 修复策略]]
 
 ---
 ## ① 补 related 边（立即，30min）
