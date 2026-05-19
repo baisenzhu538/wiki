@@ -24,6 +24,7 @@ related:
   - yt-management-goal-management
   - yt-management-leadership-levels
   - yt-management-onboarding
+  - yt-tool-hiring-scorecard
 query_triggers:
   - 科学招聘方法
   - 结构化面试技巧

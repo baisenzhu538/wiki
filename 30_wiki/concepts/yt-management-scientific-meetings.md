@@ -25,6 +25,7 @@ related:
   - yt-management-project-management
   - yt-management-scientific-decision
   - yt-management-strategy-meeting
+  - yt-tool-meeting-designer
 query_triggers:
   - 高效开会方法
   - 减少无效会议

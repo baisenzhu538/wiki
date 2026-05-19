@@ -11,7 +11,7 @@ tier: layered
 
 > **三层架构**：Core（地基）→ Extended（工具箱）→ Reference（外部资源）。先读 Core，再按需查 Extended。
 
-**统计**：201 张概念卡 · 40 framework · 101 tool · 60 concept · 3 catalog
+**统计**：204 张概念卡 · 41 framework · 103 tool · 60 concept · 3 catalog
 
 ---
 
@@ -160,10 +160,13 @@ tier: layered
 | [[yt-entrepreneur-research-camp]] | tool | 调研行动营 |
 | [[yt-entrepreneur-spin-selling]] | tool | SPIN 销售法 |
 
-### 管理（Management）— 15 张
+### 管理（Management）— 18 张（升级中：+3 张 tool/framework）
 
 | 卡片 | 类型 | 一句话 |
 |------|------|--------|
+| [[yt-management-toolkit-overview]] | framework | 管理工具箱总览：8 张工具卡的场景导航与选择速查 |
+| [[yt-tool-meeting-designer]] | tool | 会议设计师：一页纸会议蓝图（会前三问+议程时间盒+角色分工+产出验收） |
+| [[yt-tool-hiring-scorecard]] | tool | 结构化面试打分卡：6 维评估+STAR 追问+独立打分+群体决策 |
 | [[yt-management-founder-role]] | concept | 一号位 |
 | [[yt-management-goal-management]] | concept | 目标管理 |
 | [[yt-management-scientific-decision]] | concept | Y 模型/科学决策 |
@@ -438,7 +441,7 @@ tier: layered
 |------|-----------|------|---------|------|
 | 跨域 | 16 | 1 | 5 | 22 |
 | 创业 | 1 | 22 | — | 23 |
-| 管理 | 1 | — | 16 | 17 |
+| 管理 | 2 | 2 | 16 | 20 |
 | 个人修炼 | 5 | 15 | 6 | 26 |
 | 泛产品设计 | 9 | 30 | — | 39 |
 | 销讲 | 1 | 10 | — | 11 |
