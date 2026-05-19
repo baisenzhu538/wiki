@@ -25,6 +25,7 @@ related:
   - yt-management-goal-management
   - yt-management-scientific-hiring
   - yt-management-team-knowledge
+  - yt-tool-onboarding-90day
 query_triggers:
   - 新人入职培训
   - 新员工融入计划
