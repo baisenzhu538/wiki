@@ -4,15 +4,117 @@
 
 ## 状态
 
-- P0: `kdo validate --v15` ✅
-- P1-A: `kdo lint --accept-baseline` ✅
-- P1-B: `kdo lint --structure-report` ✅
-- P2-A: 工业化手册 v1.7 ✅
-- P2-B: `kdo backup` ✅
-- P3: `kdo validate --v15 --upgrade-plan` ✅
-- domain filter bug fix ✅
+**已完成**：
+- P0-P3 全部 ✅ + domain filter fix ✅
+- Batch 1: scaffold ✅ + clean-transcript ✅ + validate --watch ✅
+- Bonus: `kdo watch`（inbox 监控 + health check）
 
-**当前状态**：空闲，待接新任务。
+**当前状态**：Batch 2 待开工。
+
+---
+
+## Batch 2：修 bonus 问题 + 增量索引 + 统计面板
+
+### Task 4：`kdo watch` 依赖解耦（P1，~30min）
+
+**问题**：`watch.py` 硬 import `watchdog`，`pyproject.toml` 加了 `watchdog>=4.0`。违反 KDO 零运行时依赖原则。且 `kdo watch` 零测试。
+
+**改什么**：
+
+1. `watch.py` 顶部改为可选 import：
+```python
+try:
+    from watchdog.observers import Observer
+    from watchdog.events import FileSystemEventHandler
+    _HAS_WATCHDOG = True
+except ImportError:
+    _HAS_WATCHDOG = False
+```
+
+2. `cmd_watch` 启动时检查 `_HAS_WATCHDOG`，未安装时打印 "kdo watch requires watchdog. Install: pip install watchdog" 并 return 1
+
+3. `pyproject.toml` 移除 `watchdog` 依赖
+
+4. `test_watch.py` 新增 ≥3 tests：
+   - `test_watch_missing_watchdog_returns_1`（mock ImportError）
+   - `test_watch_inbox_not_found`
+   - `test_health_check_runs`
+
+**验收**：pytest 全绿。未装 watchdog 时 `kdo watch` 不崩溃。
+
+---
+
+### Task 5：scaffold 插入位置修正（P2，~20min）
+
+**问题**：scaffold 目前追加到文件末尾。Critique 应在 `## Constraints & Boundaries` 和 `## Synthesis` 之间，不是文末。
+
+**改什么**：`_scaffold_card` 写入逻辑改为智能插入：
+- 缺 Critique → 在 `## Constraints & Boundaries` 节后、`## Synthesis` 节前插入
+- 缺 不要用场景 → 在 `## Synthesis` 节内、`### 关联卡片` 后插入  
+- 缺 Action Triggers → 追加到 `## Synthesis` 节后（本节之后，已有的 AT 或文末之前）
+- 如果找不到锚点 → fallback 到文末追加（当前行为）
+
+**验收**：对一张已有 Critique+Synthesis 但缺不要用的卡 scaffold，验证不要用场景插在了正确位置。对已有全部节的卡 scaffold 返回 None 不变。
+
+---
+
+### Task 6：Graph RAG 增量更新（P2，~1-2h）
+
+**问题**：当前 `kdo graph rebuild` 全量重建。老顽童每天新增/修改 3-5 张卡，全量重建浪费 30s+。改为增量：只处理变更的卡。
+
+**改什么**：`kdo graph rebuild --incremental`
+
+1. 记录上次 rebuild 的时间戳到 `.kdo/graph_state.json`
+2. 增量模式：只扫描 `mtime > last_rebuild` 的 `.md` 文件
+3. 对新增/修改的卡：更新 LightRAG 索引中对应 entity + chunks + relations
+4. 对删除的卡：从索引中移除
+5. `--incremental` 为默认行为，`--full` 强制全量
+
+**技术方案**：利用 LightRAG 的 `ainsert` / `adelete_by_doc_id` API。如果 LightRAG 版本不支持增量 → 改为增量检测 + 全量重建（至少省了"哪些卡要重建"的判断）。
+
+**验收**：
+- 修改 1 张卡后 `kdo graph rebuild --incremental` 耗时 <5s（全量重建 ~30s）
+- 索引中该卡的内容已更新（冒烟：`kdo graph query "新加的内容关键词"` 能命中）
+- `--full` 行为不变
+
+---
+
+### Task 7：`kdo graph stats`（P3，~30min）
+
+**问题**：Graph RAG 索引建完后没有健康检查手段。不知道 entity 数、chunk 数、relation 数、最后一次 rebuild 时间。
+
+**改什么**：`kdo graph stats [--json]`
+
+输出：
+```
+Graph RAG Index
+  Entities:   226
+  Chunks:     721
+  Relations:  1252
+  Nodes:      406
+  Edges:      1252
+  Last build: 2026-05-19 15:30
+  Status:     OK
+```
+
+数据来源：LightRAG 内部存储（`kg_db` / `vector_db`）。如果索引不存在 → `Status: NOT BUILT`。
+
+**验收**：`kdo graph stats` 输出合法。`--json` 输出可管道。
+
+---
+
+## 完成标志
+
+| 序号 | 任务 | 验证 |
+|------|------|------|
+| 1 | scaffold | ✅ A，17 tests |
+| 2 | clean-transcript | ✅ A，7 tests |
+| 3 | validate --watch | ✅ A，纯标准库 |
+| 4 | `kdo watch` 依赖解耦 | watchdog 可选 + ≥3 tests |
+| 5 | scaffold 插入位置修正 | 节插入正确 + 旧行为 fallback |
+| 6 | graph rebuild --incremental | 增量 <5s vs 全量 ~30s |
+| 7 | `kdo graph stats` | 输出合法 + --json |
+
 
 ---
 

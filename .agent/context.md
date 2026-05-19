@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-19
 active_branch: main
-active_task: 黄药师→空闲（三件全部完成 ✅）。老顽童→七件顺序执行（详细队列见各自任务文件）。
+active_task: 黄药师→Batch 2（watchdog解耦 → scaffold插入修正 → graph增量 → graph stats）。老顽童→七件顺序执行（详细队列见各自任务文件）。
 blockers: []
 ---
 
