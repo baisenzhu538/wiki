@@ -41,6 +41,7 @@ yitang:
   level: intermediate
 source_refs:
   - 00_inbox/科学决策/一堂-科学决策-AI协助决策行动营口述06.txt
+  - 00_inbox/科学决策/一堂-科学决策-人机协作决策.png
 created_at: '2026-05-17'
 updated_at: '2026-05-17'
 estimated_tokens: 1950
