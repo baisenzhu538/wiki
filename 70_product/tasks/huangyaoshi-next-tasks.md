@@ -153,7 +153,7 @@ Graph RAG Index
 | 5 | scaffold 插入位置修正 | ✅ Critique→CB/Synthesis间, 不要用→关联卡片后, AT→Synthesis后 |
 | 6 | `kdo task` 自动化 + dashboard | 🔨 当前任务——YAML frontmatter + CLI 子命令 + dashboard 生成 |
 | 7 | graph rebuild --incremental | ✅ 5 tests, --full + incremental, graph_state.json 追踪 |
-| 8 | `kdo graph stats` | 输出合法 + --json |
+| 8 | `kdo graph stats` | ✅ 4 tests, --json, NOT BUILT 处理 |
 
 
 ---

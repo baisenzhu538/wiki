@@ -1,7 +1,10 @@
 ---
 updated: 2026-05-19
 active_branch: main
-active_task: 黄药师→Batch 2（watchdog解耦 → scaffold插入修正 → graph增量 → graph stats）。老顽童→七件顺序执行（详细队列见各自任务文件）。
+active_task: |
+  黄药师 → Task 6 kdo task 自动化 → Task 8 graph stats（3个任务批次）
+  老顽童 → ⑤ 设计域 S1→S2→S3 skill 文件（3个任务批次）
+  两批全部完成后通知欧阳锋统一审查
 blockers: []
 ---
 
@@ -19,6 +22,32 @@ blockers: []
 | 段王爷 | 发布与反馈（ship/分发/收集） | 待激活 |
 
 规则：审而不改。角色间不互相派活——全部通过欧阳锋中转。
+
+## 欧阳锋 SOP（自己的工作流）
+
+### 启动时
+1. **先看 dashboard** → [[70_product/tasks/dashboard.md]]，了解全局状态
+2. Agent 正在执行中的批次 → 不打扰，让其跑完
+3. 用户新指令 → 判断是"讨论"还是"阻塞级问题"。讨论不打断 agent
+
+### 查文件
+1. **先用 PowerShell `Get-ChildItem` 列目录**，再用 Glob/Grep 搜索
+2. 禁止单一工具判断"文件不存在"——Glob 可能漏子目录
+
+### 审查节奏
+- **批次级审查**，不做逐任务审查
+- Agent 批次全部完成后 → 统一审查，一次性给结论
+- 审查结论写入 dashboard.md 和对应任务文件
+
+### 状态更新
+- **只在批次边界更新** dashboard.md 和任务文件
+- Agent 执行期间不碰任务文件（避免合并冲突）
+- 讨论/架构决策可以随时进行，不阻塞 agent
+
+### 结束时
+- 更新 dashboard.md
+- 更新 context.md 的 active_task
+- 有新坑追加到 pitfalls.md
 
 ## 关键路径
 
@@ -399,14 +428,12 @@ blockers: []
 
 ## 下次启动
 
-1. 读 `pitfalls.md` → `toolkit.md`
-2. **角色分工**：黄药师=KDO 基础设施（顺序队列见 [[70_product/tasks/huangyaoshi-next-tasks.md]]），老顽童=产能主力（顺序队列见 [[70_product/tasks/laowantong-next-tasks.md]]）
-3. 黄药师当前：Task 1 `kdo scaffold`（P0）
-4. 老顽童当前：④ 管理工具箱 Batch 2（T3+T4+T5）
-5. 设计域素材已就位 `00_inbox/design/`，待黄药师 Task 2 清理工具 + 老顽童 ⑤ 启动
-6. KDO Graph RAG ✅ — `kdo query "..."` 三阶回退正常工作
-7. pytest 182/182 ✅ — 代码修改后必须重跑
-8. 坚果云备份 ✅
+1. **先看 dashboard** → [[70_product/tasks/dashboard.md]]
+2. 判断是否有批次待审查：有 → 审查。无 → 等待
+3. 黄药师当前：Task 6 `kdo task` 自动化（P0，在 graph 工作之前）
+4. 老顽童当前：⑤ 设计域 S1 模型选型指南 skill
+5. 审查时机：两批各 3 个任务全部完成后统一审查
+6. 洪七公/段王爷待 S1-S3 skill 就位后激活
 
 ## ⚠️ 会话结束前（MUST）
 
