@@ -7,10 +7,11 @@
 | 顺序 | 任务 | 估时 | 验证方式 |
 |:----:|------|:--:|------|
 | **1** | 🔍 修双三角卡结构 | 5min | `kdo validate --v15 --card yt-model-dual-triangle-competitiveness` → 2/2 attackers |
-| **2** | ⑧ Anthropic 创始人手册 三步编译 | 2h | `kdo validate --v15 --card anthropic-官方发布创始人手册打造-ai-原生初创公司` → PASS |
-| **3** | ⑤ 设计域 S1 AI 生图模型选型 | 1.5h | 对照 [[40_outputs/capabilities/skills/design-prompt-iteration/SKILL.md]] 格式自检 |
-| **4** | ⑤ 设计域 S2 Prompt 工程 | 1.5h | S1 审查通过后启动 |
-| **5** | ⑤ 设计域 S3 资产管理规范 | 1h | S2 审查通过后启动 |
+| **2** | 🔧 修设计域 Skill 命名+格式 | 15min | 详见 [[#⑤-B 设计域 Skill 命名与格式修复（欧阳锋审查反馈）]] |
+| **3** | ⑧ Anthropic 创始人手册 三步编译 | 2h | `kdo validate --v15 --card anthropic-官方发布创始人手册打造-ai-原生初创公司` → PASS |
+| **4** | ⑤ 设计域 S1 AI 生图模型选型 | — | S1 内容已完成（ai-design-fundamentals），等格式+命名修完欧阳锋复审 |
+| **5** | ⑤ 设计域 S2 Prompt 工程 | — | S2 内容已完成（ai-design-prompts），等格式+命名修完欧阳锋复审 |
+| **6** | ⑤ 设计域 S3 资产管理规范 | — | S3 内容已完成（ai-design-assets），等格式+命名修完欧阳锋复审 |
 
 > **规则**：顺序执行，不跳号。**每完成一个立即通知欧阳锋审查**，不等批次。完成后更新本文件对应任务的完成标志。
 
@@ -148,6 +149,69 @@ body 高度提升段添加：`[[yt-model-liberate-thinking-layers]]`
 ### 执行顺序
 
 S1 → S2 → S3，分段输出。每完成一个发欧阳锋审查。
+
+---
+
+## ⑤-B 设计域 Skill 命名与格式修复（欧阳锋审查反馈）
+
+> **审查结论**：三份 SKILL.md 内容评级均为 A（S1 模型选型准确、S2 提示词模板实用、S3 资产管理体系完整），但存在 3 个命名/格式 Bug，需修复后复议。
+
+### Bug 1：目录名与内容错位
+
+| 现状 | 问题 | 应改为 |
+|------|------|--------|
+| `ai-design-workflow/` | 内容=Prompt 工程，目录名叫 workflow | `ai-design-prompts/` |
+| `ai-design-prompts/` | 内容=资产管理规范，目录名叫 prompts | `ai-design-assets/` |
+| `ai-design-fundamentals/` | ✅ 正确（内容=模型选型） | 不改 |
+
+### Bug 2：Frontmatter `name:` 重复
+
+两个文件共用 `name: ai-design-prompts`，`skill_view()` 会加载到错的文件：
+
+| 文件 | 当前 name | 应为 |
+|------|-----------|------|
+| `ai-design-fundamentals/SKILL.md` | 无 (缺失) | `ai-design-fundamentals` |
+| `ai-design-workflow/SKILL.md` | `ai-design-prompts` | `ai-design-prompts` |
+| `ai-design-prompts/SKILL.md` | `ai-design-prompts` | `ai-design-assets` |
+
+### Bug 3：缺失标准五段式结构
+
+三个文件均无 `## Purpose` / `## When to Use` / `## When NOT to Use` / `## Protocol` / `## Examples` 标准段。当前是讲义体（## 1. / ## 2. / ...），需在现有内容基础上**添加**标准头部段：
+
+1. 在每个文件开头（`# 标题` 之后、正文之前）添加：
+   ```markdown
+   ## Purpose
+   （一句话说清这个 skill 干什么）
+
+   ## When to Use
+   - 场景1
+   - 场景2
+
+   ## When NOT to Use
+   - 边界1
+   - 边界2
+   ```
+2. 现有正文整体归入 `## Protocol` 段
+3. 末尾添加 `## Examples`（至少 1 个真实案例，可简化）
+
+### 修复清单
+
+| 步骤 | 操作 | 文件 |
+|:----:|------|------|
+| 1 | 重命名目录 | `ai-design-workflow/` → `ai-design-prompts/` |
+| 2 | 重命名目录 | `ai-design-prompts/` → `ai-design-assets/` |
+| 3 | 改 frontmatter `name:` | `ai-design-fundamentals` → `name: ai-design-fundamentals` |
+| 4 | 改 frontmatter `name:` | `ai-design-prompts` → `name: ai-design-prompts` |
+| 5 | 改 frontmatter `name:` | `ai-design-assets` → `name: ai-design-assets` |
+| 6 | 修 prerequisites 交叉引用 | 三个文件的 `prerequisites:` 字段改为新 name |
+| 7 | 加标准五段式 | 三个文件各加 Purpose/When to Use/When NOT to Use/Protocol/Examples |
+
+### 验收
+
+- 三个目录名与内容一致
+- 三个 frontmatter `name:` 互不相同
+- 三个文件均有 `## Purpose` `## When to Use` `## When NOT to Use` `## Protocol` `## Examples` 五段
+- `kdo validate --skill-dir 40_outputs/capabilities/skills/ai-design-fundamentals --skill-dir 40_outputs/capabilities/skills/ai-design-prompts --skill-dir 40_outputs/capabilities/skills/ai-design-assets` 通过（黄药师 Task 11 完成后可用）
 
 ---
 

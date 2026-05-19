@@ -20,7 +20,7 @@ updated: 2026-05-19
 | ④ | 管理工具箱 Batch 2（T3+T4+T5） | 工具箱 | ✅ | T3 A / T4 A+ / T5 A。T3 typo 已修 ✅ |
 | 🔍 | 双三角卡结构修复 | — | ⏳ | H3→H4 攻击者标题 + 删重复 related（审查 A-） |
 | 🆕 | Anthropic AI 原生初创手册 | 素材编译 | ⏳ | ingest ✅，骨架已生成，三步编译未开始 |
-| ⑤ | 设计域 S1+S2 skill | 洪七公+段王爷 | 🔨 | 老顽童已提交，待欧阳锋审查 |
+| ⑤ | 设计域 S1+S2+S3 skill | 洪七公+段王爷 | 🔨 | 内容 A，3 命名/格式 Bug 待修（详见表下执行顺序 #2） |
 | ⑥ | v1.5 全库修复（89 FAILED） | 质量 | ⏳ | 等 scaffold 工具 + 设计域完成后启动 |
 | ⑦ | 管理工具箱 Batch 3（T6+T7+T8） | 工具箱 | ⏳ | 穿插在 89 卡修复间隙 |
 
@@ -29,9 +29,9 @@ updated: 2026-05-19
 | 顺序 | 任务 | 内容 | 估时 | 备注 |
 |:----:|------|------|:--:|------|
 | **1** | 🔍 双三角卡结构修复 | H3→H4 攻击者标题 + 删重复 related | 5min | 审查 A-，修完跑 `kdo validate --v15 --card yt-model-dual-triangle-competitiveness` 验证 |
-| **2** | 🆕 Anthropic 创始人手册 | 三步编译法 → concept 卡 | 2h | 详见 [[70_product/tasks/laowantong-next-tasks#⑧ Anthropic AI 原生初创公司手册]] |
-| **3** | ⑤ 设计域 S1+S2 | AI 生图模型选型 + Prompt 工程 skill | 🔨 老顽童已提交 | 待欧阳锋审查，文件位置待确认 |
-| **4** | ⑤ 设计域 S3 | `设计资产管理规范` skill | 1h | S1+S2 审查通过后启动 |
+| **2** | 🔧 设计域 Skill 命名+格式修复 | 目录重命名 + frontmatter name 去重 + 加五段式标准结构 | 15min | 审查发现 3 Bug：目录名错位、name 重复、缺标准段。详见 [[70_product/tasks/laowantong-next-tasks#⑤-B 设计域 Skill 命名与格式修复（欧阳锋审查反馈）]] |
+| **3** | 🆕 Anthropic 创始人手册 | 三步编译法 → concept 卡 | 2h | 详见 [[70_product/tasks/laowantong-next-tasks#⑧ Anthropic AI 原生初创公司手册]] |
+| **4** | ⑤ 设计域 S1+S2+S3 复审 | 命名+格式修完后欧阳锋复审 | — | S1/S2/S3 内容已完成（A），等格式修复后复议 |
 
 > **规则**：顺序执行，不跳。每完成一个 → 跑验证 → 通知欧阳锋审查。不要等批次全部完成。
 
@@ -51,12 +51,12 @@ updated: 2026-05-19
 | 8 | `kdo graph stats` | P3 | ✅ | 4 tests, --json, NOT BUILT |
 | 9 | Graph RAG 深化 | P1 | ✅ | graph path + 跨域标注 + --health, 9 tests |
 | 10 | Quality Gate v2（article+skill） | P1 | ✅ | --article + --skill + --all, 9 tests |
-| 11 | `kdo validate --skill-dir` 审查流水线 | P1 | ⏳ | batch 扫描 + L1 结构检查，~1h |
+| 11 | `kdo validate --skill-dir` 审查流水线 | P1 | ✅ | batch 扫描 + L1 5节检查, 5 tests |
 | 12 | KDO Build 系统 | P2 | ⏳ | `kdo build` + CHANGELOG + build_state.json，~2h |
 
 ### 黄药师 — 当前任务
 
-**Task 11**：`kdo validate --skill-dir` 审查流水线（详见 [[70_product/tasks/huangyaoshi-next-tasks.md#Batch 4]]）
+**Task 12**：KDO Build 系统（详见 [[70_product/tasks/huangyaoshi-next-tasks.md#Batch 4]]）
 
 ---
 
@@ -88,8 +88,9 @@ updated: 2026-05-19
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
 | 老顽童 | 双三角卡 H3→H4 + 删重复 related | 审查发现，等老顽童修 |
+| 老顽童 | 设计域 3 Skill 命名/格式修复 | 目录名错位+name 重复+缺标准段，修复清单已写入 [[70_product/tasks/laowantong-next-tasks#⑤-B 设计域 Skill 命名与格式修复（欧阳锋审查反馈）]] |
 | 洪七公 | 通道就绪确认 | 确认能读写输入/输出路径 |
-| 欧阳锋 | 待审查老顽童设计域 S1+S2 skill | 老顽童已提交，文件位置待确认 |
+| 欧阳锋 | 待审查黄药师 Task 11+12 | Task 11 开发中，Task 12 排队 |
 
 ---
 
@@ -97,6 +98,7 @@ updated: 2026-05-19
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
+| 05-19 | 欧阳锋 | 老顽童设计域 3 Skill 审查 | ✅ 内容全 A，3 Bug（命名+格式），修复清单已写入任务文件 |
 | 05-19 | 黄药师 | Task 10 Quality Gate v2 | ✅ --article + --skill + --all, 9 tests |
 | 05-19 | 黄药师 | Task 9 Graph RAG 深化 | ✅ graph path + 跨域标注 + --health, 9 tests |
 | 05-19 | 洪七公 | 双三角 VA + Excalidraw 重绘 | ✅ VA 158行 + `.excalidraw` 源文件 |
