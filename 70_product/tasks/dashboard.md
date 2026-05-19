@@ -33,8 +33,10 @@ updated: 2026-05-19
 | **2** | 🔧 设计域 Skill 命名+格式修复 | 目录重命名 + frontmatter name 去重 + 加五段式标准结构 | 15min | 审查发现 3 Bug：目录名错位、name 重复、缺标准段。详见 [[70_product/tasks/laowantong-next-tasks#⑤-B 设计域 Skill 命名与格式修复（欧阳锋审查反馈）]] |
 | **3** | 🆕 Anthropic 创始人手册 | 三步编译法 → concept 卡 | 2h | 详见 [[70_product/tasks/laowantong-next-tasks#⑧ Anthropic AI 原生初创公司手册]] |
 | **4** | ⑤ 设计域 S1+S2+S3 复审 | 命名+格式修完后欧阳锋复审 | — | S1/S2/S3 内容已完成（A），等格式修复后复议 |
-| **5** | 🆕 科学决策域 35 PNG 增强消化 | OCR+交叉比对→查漏补缺 | 3h | 老顽童自闭环（含 OCR）。详见 [[70_product/tasks/laowantong-next-tasks#⑨ 科学决策域 35 PNG 增强消化]] |
-| **6** | ⑥ v1.5 全库修复（89 FAILED） | scaffold 分批修 + 穿插 ⑦ Batch 3 | 分批 | `kdo validate --v15` FAILED → 0 |
+| **5** | ① 补 related 边 | 3 张卡的 wikilink + frontmatter relation | 30min | 详见 [[70_product/tasks/laowantong-next-tasks#① 补 related 边（立即，30min）]] |
+| **6** | 🆕 科学决策域 35 PNG 增强消化 | OCR+交叉比对→查漏补缺 | 3h | 老顽童自闭环（含 OCR）。详见 [[70_product/tasks/laowantong-next-tasks#⑨ 科学决策域 35 PNG 增强消化]] |
+| **7** | ⑥ v1.5 全库修复（89 FAILED） | scaffold 分批修 | 分批 | 穿插 ⑦ Batch 3（T6+T7+T8，换脑休息） |
+| **8** | ⑦ 管理工具箱 Batch 3（T6+T7+T8） | 穿插在 ⑥ 间隙 | 6h | T6 项目雷达 / T7 新人融入 / T8 股权清单 |
 
 > **规则**：顺序执行，不跳。每完成一个 → 跑验证 → 通知欧阳锋审查。不要等批次全部完成。
 
