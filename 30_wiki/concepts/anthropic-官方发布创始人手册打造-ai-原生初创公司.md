@@ -33,7 +33,7 @@ source_refs:
   - 10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md
 created_at: '2026-05-19'
 updated_at: '2026-05-19'
-reviewed_by: ''
+reviewed_by: '欧阳锋'
 ---
 
 # AI 原生创业四阶段模型（Anthropic 创始人手册）
@@ -102,7 +102,7 @@ AI 正在彻底重塑初创公司的诞生方式。Anthropic 提出的四阶段�
 
 ---
 
-#### Clayton Christensen — 创新者斗姄
+#### Clayton Christensen — 创新者窘境
 
 **批评**：Anthropic 手册浑然不觉地将 AI 原生创业描绘成一个“无人区”——似乎任何人都能搭建成功创业。Christensen 会问：这种“面向所有人”的创业方式，是否本质上是低端毁灭性创新的延续？当每个人都能用相同的 AI 工具做出相似的产品，竞争优势从哪里来？
 
