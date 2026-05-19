@@ -59,10 +59,12 @@ updated: 2026-05-19
 | 10 | Quality Gate v2（article+skill） | P1 | ✅ | --article + --skill + --all, 9 tests |
 | 11 | `kdo validate --skill-dir` 审查流水线 | P1 | ✅ | batch 扫描 + L1 5节检查, 5 tests |
 | 12 | KDO Build 系统 | P2 | ✅ | `kdo build` + CHANGELOG + build_state, 11 tests |
+| 13 | 🔥 scaffold 攻击者检测盲区 + 内容覆盖 | **P0** | ⏳ | 只认 `## Critique`，旧格式 `## Framework Gallery` 下的攻击者被当作 0→空壳覆盖。71张卡受损 |
+| 14 | validator 空 H4 校验 | P1 | ⏳ | H4 标题下无内容仍计为有效攻击者，空壳 PASS。需加内容非空检查 |
 
 ### 黄药师 — 当前任务
 
-**Task 1-12 全部完成** ✅。282 tests pass。commit `33203ed` 已提交。
+**Task 13-14 🔥 紧急**：scaffold 缺陷已造成 71 张卡攻击者内容丢失。详见下方 [[#🔧 黄药师 Task 13-14：scaffold 紧急修复]]。
 
 ---
 
@@ -250,3 +252,65 @@ git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
 2. **保留双版本**：`art_双三角纠错_v2`（wiki 渠道）+ `art_20260517_9c7a63cb`（统一为 wiki 渠道），标题区分受众
 3. **执行人**：老顽童（15min）。修复完成后通知洪七公做多模态转换
 4. **洪七公后续**：修复完成后，将 `art_双三角纠错_v2` 转为中视频 + TTS 播客 + 信息图
+
+---
+
+## 🔧 黄药师 Task 13-14：scaffold 紧急修复（P0）
+
+> **触发**：老顽童 2026-05-20 跑 `kdo scaffold --batch B --write`，71 张卡的攻击者内容被清空。
+> **根因**：scaffold 的两个缺陷叠加。
+
+### Bug 1：攻击者检测盲区（`_count_external_attacks`）
+
+**位置**：`quality.py` L152-188
+
+**问题**：只查 `## Critique` H2 节下的 H4 标题。71 张卡用的是旧格式——攻击者内容放在 `## Framework Gallery` 下面：
+
+```markdown
+## Framework Gallery
+
+### 外部攻击：Taleb的"随机性" + Snowden的"复杂域"
+
+**Nassim Nicholas Taleb**……（完整论证段落）
+
+**Dave Snowden**……（完整论证段落）
+```
+
+`_find_section(sections, "critique")` 找不到 `## Critique` → 返回 None → `atk_count = 0`。
+
+**后果**：scaffold 认为这些卡"缺攻击者"，生成空壳 `## Critique` 覆盖。
+
+**修法**：`_count_external_attacks` 增加 fallback——当 `## Critique` 不存在时，也检查 `## Framework Gallery` 下的 `### 外部攻击*` H3 子节中的 `**学者名**` 粗体标记。
+
+### Bug 2：validator 空 H4 不计内容
+
+**位置**：`quality.py` L164-175（或 validate 路径）
+
+**问题**：H4 标题存在即计为攻击者，不检查标题下面是否有实质内容。
+
+```markdown
+#### Nassim Nicholas Taleb：批判
+                        ← 空行，validator 认为"有攻击者"
+#### Dave Snowden：批判
+                        ← 空行，validator 认为"有攻击者"
+```
+
+**后果**：空壳卡通过 v1.5，Pass 54→58 是假象。
+
+**修法**：H4 计数时检查下一个 H4/H3/H2 之前是否有足够长度的非空文本（≥100 字符）。
+
+### 修复顺序
+
+| 顺序 | 做什么 | 谁 | 估时 |
+|:--:|------|-----|:--:|
+| **1** | 修 Bug 1（检测盲区） | 黄药师 | 30min |
+| **2** | 修 Bug 2（空 H4 校验） | 黄药师 | 15min |
+| **3** | 从 git 恢复 71 张卡原始内容 | 老顽童 | `git checkout 99787ad -- 30_wiki/concepts/yt-*.md` |
+| **4** | 重跑 scaffold（修好后） | 老顽童 | 验证不误伤 |
+
+### 验收
+
+- `_count_external_attacks` 能识别 `## Framework Gallery` 下 `### 外部攻击*` 中的 `**学者名**` 格式
+- 空 H4（下面 <100 字正文）不计入攻击者计数
+- 在 `yt-entrepreneur-key-hypotheses` 原始版本上 dry-run scaffold 返回 `None`（无需 scaffold）
+- pytest 新增 test 覆盖两种旧格式

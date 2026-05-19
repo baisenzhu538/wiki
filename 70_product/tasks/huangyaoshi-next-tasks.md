@@ -461,3 +461,45 @@ cd "C:\Users\Administrator\Knowledge Delivery OS 0.0.1"
 git add -A
 git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
 ```
+
+---
+
+## 🔥 Batch 5：scaffold 紧急修复（P0，~45min）
+
+> **事故**：老顽童 2026-05-20 跑 `kdo scaffold --batch B --write`，71 张卡攻击者内容被清空。根因是 scaffold 两个缺陷叠加。详见 [[70_product/tasks/dashboard#🔧 黄药师 Task 13-14：scaffold 紧急修复]]。
+
+### Task 13：修复攻击者检测盲区（P0，~30min）
+
+**问题**：`_count_external_attacks` (quality.py L152) 只查 `## Critique` H2 节。旧格式卡把攻击者放在 `## Framework Gallery` 下：
+
+```markdown
+## Framework Gallery
+
+### 外部攻击：Taleb的"随机性" + Snowden的"复杂域"
+
+**Nassim Nicholas Taleb**……（完整论证）
+**Dave Snowden**……（完整论证）
+```
+
+`_find_section(sections, "critique")` 返回 None → `atk_count = 0` → scaffold 以为缺攻击者，生成空壳覆盖。
+
+**改什么**：`_count_external_attacks` 增加 fallback：
+1. 先走现有逻辑（找 `## Critique`）
+2. 若未找到，检查 `## Framework Gallery` 下的 `### 外部攻击*` H3 子节
+3. 在子节内容中匹配 `**学者名**` 粗体格式，提取学者名
+
+**关键约束**：只改 `_count_external_attacks`，不改 `_insert_critique`（它只做插入，理论上不破坏旧内容——内容丢失的根因需要你在修复时同时排查）。
+
+### Task 14：空 H4 校验（P1，~15min）
+
+**问题**：validator 只检查 H4 标题存在，不检查标题下是否有实质内容。空 `#### Scholar：批判` + 空行 = 通过。
+
+**改什么**：H4 计数逻辑增加内容检查——从 H4 标题行到下一个 H4/H3/H2 之间，提取非空纯文本（跳过 `> [!TODO]` 和 `[TODO]` 等占位符），要求 ≥100 字符才算有效攻击者。
+
+### 验收
+
+- [ ] `_count_external_attacks` 能识别 `## Framework Gallery` 下 `### 外部攻击*` 中的 `**学者名**` 格式
+- [ ] 在 `yt-entrepreneur-key-hypotheses` 原始版本（commit `99787ad`）上 dry-run scaffold 返回 `None`（无需 scaffold）
+- [ ] 空 H4（下面 <100 字正文）不计入攻击者计数
+- [ ] pytest 新增 ≥3 tests：旧格式识别 / 空 H4 拒绝 / dry-run 不误伤
+- [ ] 不破坏现有 282 tests
