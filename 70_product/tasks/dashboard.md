@@ -43,10 +43,12 @@ updated: 2026-05-19
 | 6 | `kdo task` 自动化 + dashboard | **P0** | ✅ | 6 tests, 5 子命令, 向后兼容 |
 | 7 | graph rebuild --incremental | P2 | ✅ | 5 tests, --full + incremental |
 | 8 | `kdo graph stats` | P3 | ✅ | 4 tests, --json, NOT BUILT |
+| 9 | Graph RAG 深化 | P1 | 🔜 | 图遍历查询 + 跨域推理 + 健康检查 |
+| 10 | Quality Gate v2（article+skill） | P1 | ⏳ | validate 扩展到文章/skill 类型 |
 
 ### 黄药师 — 当前任务
 
-**全部完成，无待办**。等待欧阳锋分配新任务。
+**Task 9**：Graph RAG 深化（详见 [[70_product/tasks/huangyaoshi-next-tasks.md]]）
 
 ---
 

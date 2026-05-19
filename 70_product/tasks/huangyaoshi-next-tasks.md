@@ -11,7 +11,7 @@
 - Batch 2 Task 4: `kdo watch` 依赖解耦 ✅（4 tests, watchdog 可选, pyproject.toml 已清理）
 - Batch 2 Task 5-8: 全部 ✅
 
-**当前状态**：Batch 2 全部完成。pytest 223/224 pass (1 pre-existing flaky skip)。
+**当前状态**：Batch 2 全部完成 ✅。**Batch 3 待开工**：Task 9 → Task 10 顺序执行。
 
 ---
 
@@ -153,7 +153,58 @@ Graph RAG Index
 | 6 | `kdo task` 自动化 + dashboard | ✅ 6 tests, dashboard/mine/done/review/verify, 向后兼容 |
 | 7 | graph rebuild --incremental | ✅ 5 tests, --full + incremental, graph_state.json 追踪 |
 | 8 | `kdo graph stats` | ✅ 4 tests, --json, NOT BUILT 处理 |
+| 9 | Graph RAG 深化（查询+推理+监控） | 图遍历查询 + 跨域路径发现 + 索引自动健康检查 |
+| 10 | Quality Gate v2（文章+skill 校验） | validate 扩展到 article/skill 类型 |
 
+
+---
+
+## Batch 3：Graph RAG 深化 + 质量门扩展
+
+### Task 9：Graph RAG 深化（P1，~2h）
+
+**问题**：当前 Graph RAG 能检索但缺少图遍历能力。查询"A 和 B 之间有什么关联路径"时只能靠 chunk 相似度，无法沿图边遍历发现间接关系。索引健康监控只有 `kdo graph stats` 的静态快照。
+
+**改什么**：
+
+1. **图遍历查询**：`kdo graph path <entity_a> <entity_b>` — 沿关系边 BFS 发现最短路径，输出实体→关系→实体的路径链
+2. **跨域推理增强**：在 `kdo query` 结果中标注跨域桥接卡（如 `yt-concept-weapon-arsenal`），高亮不同 domain 之间的间接关联
+3. **索引自动健康检查**：`kdo graph stats` 加 `--health` 模式——检查 entity 数是否下降 >20%、孤立节点占比、chunk 覆盖率，异常时报警
+
+**验收**：
+- `kdo graph path Kahneman Mintzberg` 输出至少一条通过共享卡片的关系路径
+- `kdo query "..."` 结果中跨域关联被标注
+- `kdo graph stats --health` 输出健康评分 + 异常项
+- pytest ≥6 新 tests
+
+---
+
+### Task 10：Quality Gate v2 — 扩展到 article + skill（P1，~1.5h）
+
+**问题**：`kdo validate --v15` 只校验 concept/tool/framework 卡片。洪七公产出 skill、段王爷产出 article，没有自动化质量检查。这直接阻碍他们进入工作流。
+
+**改什么**：
+
+1. `kdo validate --article <path>` — 文章质量门：
+   - 目标读者明确（`## 目标读者` 节）
+   - 核心论点 ≤3 句可提取
+   - 来源可追溯（每段关键声明有 `source_ref` 或脚注）
+   - 结构完整（摘要→正文→结论→反馈入口）
+
+2. `kdo validate --skill <path>` — Skill 质量门：
+   - Purpose / When to Use / When NOT to Use 三节齐全
+   - Protocol 可执行（≥3 个可照做的步骤）
+   - 至少一个真实 Example
+   - 边界清晰（When NOT to Use 非空）
+
+3. `kdo validate --all` 自动检测类型并路由到对应门禁
+
+**验收**：
+- `kdo validate --skill 40_outputs/capabilities/skills/design-prompt-iteration/SKILL.md` 返回 PASS
+- `kdo validate --article <一篇老顽童产出的文章>` 返回结构化检查结果
+- `--all` 覆盖三种类型
+- pytest ≥5 新 tests
+- 不破坏现有 `--v15` 卡片校验
 
 ---
 
