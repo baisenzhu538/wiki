@@ -69,10 +69,10 @@ reviewed_by: 黄药师
 
 ### 外部攻击
 
-#### Marshall McLuhan批判
+#### Marshall McLuhan：批判
 
 **Marshall McLuhan**（多伦多大学英语教授，媒介理论奠基人，"Understanding Media"和"The Medium is the Massage"作者）的"媒介即讯息"理论对场景化提出了媒介层面的反思。McLuhan论证：媒体的形式本身——而非媒体承载的内容——才是塑造人类感知和社会结构的真正力量。McLuhan的挑战：场景化通过在用户脑中"放一块大屏幕"来传递产品价值——但你放在用户脑中的这个"大屏幕"不只是内容的载体，它本身就是你在向用户施加的影响力结构。用户以为自己在"看到一个真实场景"，但实际上他看到的是一段被精心剪辑、被选择性聚焦、被节奏控制的"内置广告"——你控制了用户"看到什么"和"以什么顺序看到"。场景化不是"帮用户想象自己的场景"，而是"用你设计的场景替代用户自己的真实场景记忆"。
-#### Rory Sutherland批判
+#### Rory Sutherland：批判
 
 **Rory Sutherland**（奥美集团副主席，"Alchemy: The Dark Art and Curious Science of Creating Magic in Brands, Business, and Life"作者，行为经济学在营销应用的领军人物）虽然拥护"感知即现实"的营销哲学，但他同时尖锐地警告了"感知空壳"（perception without substance）的致命风险。Sutherland反复强调：感知设计（perception design）只有在"底层有真实价值支撑"时才可持续——如果产品本身的质量与你通过场景化描绘的体验之间存在不可弥合的差距，用户体验到的不是"落差"而是"背叛"。Sutherland的挑战：场景化最好的效果——小米汽车防晒让用户"看到自己不需要带冰袖的画面"——让用户为画面买单。但如果用户买了后发现车内仍然热、仍然需要带冰袖，她不会觉得自己"被一个好场景打动了"，她会觉得自己"被骗了"。
 ## Framework Gallery

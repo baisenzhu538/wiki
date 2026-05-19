@@ -117,10 +117,10 @@ reviewed_by: 黄药师
 
 ### 外部攻击
 
-#### Neil Postman批判
+#### Neil Postman：批判
 
 **Neil Postman**（NYU媒介生态学家，"Amusing Ourselves to Death"作者）对"把所有内容包装得更吸引人"的媒介逻辑的批判，是对十指模型最深层的攻击。Postman论证：当"怎么讲"的技术系统化到40个子策略时，"讲什么"会自动让位于"怎么讲"——传播效率压倒内容实质。十指模型教人用场景化/情绪化/冲突化把任何价值点包装得"饱满动人"，但Postman会警告：这就是娱乐逻辑殖民严肃内容的路径——一旦你掌握了让任何东西"讲香"的能力，你就不再有动力让东西本身值得被讲。
-#### Susan Sontag批判
+#### Susan Sontag：批判
 
 **Susan Sontag**（"Against Interpretation"作者）的"反对阐释"直接攻击十指模型的"向上抽象"（比喻化/升华化）。Sontag在1964年的著名论文中提出：我们把艺术作品塞进阐释框架（"这意味着什么""这背后是什么"）是在逃避直接的感官体验——"in place of a hermeneutics we need an erotics of art"。十指模型的升华化教人给每个东西找"更大的意义"，但Sontag会说：不是所有东西都需要升华——有时最真实的沟通就是"这就是它，没有更多"。
 ## Framework Gallery

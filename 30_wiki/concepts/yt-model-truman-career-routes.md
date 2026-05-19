@@ -116,10 +116,10 @@ reviewed_by: 黄药师
 
 ### 外部攻击
 
-#### Herminia Ibarra批判
+#### Herminia Ibarra：批判
 
 **Herminia Ibarra**（London Business School，"Working Identity"作者）对职业转型的研究直接挑战X vs Y的"先选择再执行"框架。Ibarra基于对数十位成功转型者的跟踪研究发现：职业转型不是一个"选X还是选Y"的前置认知决策，而是一个"先做再成为"（act then think）的实践过程。核心机制是side project实验——通过小范围试水来逐步转型——而非先计算出哪条路的长期ROI更高。楚门框架的"要不要用更底层更难的学习换更长期能力"是一个认知性的投资决策，但Ibarra会说：你不做怎么知道适不适合你？转型不是在脑子里完成的，是在试探中完成的。
-#### Angela Duckworth批判
+#### Angela Duckworth：批判
 
 **Angela Duckworth**（UPenn，"Grit"作者）的坚毅研究对X vs Y框架构成有趣的侧翼攻击。Duckworth的数据表明：长期成功的最强预测因子不是"你选了哪条路"，而是对所选方向的持续热情和坚持（grit）。楚门框架暗示Y路线在价值上优于X路线（更高杠杆/更强迁移），但Duckworth会反驳：一个在X路线上投入了10年grit的人，最终成就可能远超一个在Y路线上摇摆不定的人。问题不是"X还是Y"，而是"你能不能坚持到超过所有人"——路线的选择远不如路线上的坚持重要。
 ## Framework Gallery

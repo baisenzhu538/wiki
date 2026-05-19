@@ -114,7 +114,7 @@ AI在"查"的环节价值最大——作为外部视角补充盲区。但AI输�
 
 ### 外部攻击
 
-#### Gerd Gigerenzer 的"快速节俭启发式"批判
+#### Gerd Gigerenzer 的"快速节俭启发式"：批判
 
 **Gerd Gigerenzer**（柏林马克斯·普朗克人类发展研究所所长，代表性著作《Gut Feelings》《Simple Heuristics That Make Us Smart》）对"结构化穷尽分析"提出了系统性挑战：
 

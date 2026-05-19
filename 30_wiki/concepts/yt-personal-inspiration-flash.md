@@ -122,10 +122,10 @@ reviewed_by: 黄药师
 
 ### 外部攻击
 
-#### Kevin Ashton批判
+#### Kevin Ashton：批判
 
 **Kevin Ashton**（"How to Fly a Horse: The Secret History of Creation, Invention, and Discovery"作者，物联网概念的提出者）通过大量创新史上的案例分析，对"灵感闪现"叙事进行了系统性的拆解。Ashton证明：几乎所有被神话为"灵感瞬间"的创造——从莫扎特到乔布斯——实际上都是长时间、多步骤、持续迭代的产物。"灵感的到来只需一秒"这种叙事掩盖了灵感到来之前数周乃至数月的刻意信息积累、反复试错、不断推敲的前置工作。Ashton的挑战：灵感闪现的三阶段模型（积累→暂停→捕获）在结构上承认了"积累"的重要性，但"闪现"这个词本身重置了叙事焦点到"接住它"的那一秒——而真正的创造力密码不在那一秒，在那之前的那些看起来毫无闪光的平凡日子。
-#### Mihaly Csikszentmihalyi批判
+#### Mihaly Csikszentmihalyi：批判
 
 **Mihaly Csikszentmihalyi**（克莱蒙研究大学心理学教授，"Creativity: Flow and the Psychology of Discovery and Invention"作者）的创造力系统模型对"灵感在个人脑中"的前提提出了根本性扩展。Csikszentmihalyi论证：创造力不发生在个人脑中——它发生在个体（individual）、领域（domain，文化中的符号规则）、和场域（field，判断哪些创新有价值的社会守门人）三者的交互中。Csikszentmihalyi的挑战：灵感闪现卡描述的是"个体如何产生和捕获新想法"，但一个想法是否为"创新"不由个体的Aha-moment决定——由场域中的其他人（同行、市场、用户）的认可决定。你可以有源源不断的灵感但全部不被市场认可——你的"灵感系统"从个人视角看很好但从创造力系统视角看是失效的。
 ## Framework Gallery

@@ -105,7 +105,7 @@ AI决策Partner对话法是一堂提出的AI时代决策协作范式。核心转
 
 ### 外部攻击
 
-#### Emily M. Bender 的"随机鹦鹉"批判
+#### Emily M. Bender 的"随机鹦鹉"：批判
 
 **Emily M. Bender**（华盛顿大学计算语言学教授，"随机鹦鹉"概念提出者，论文《On the Dangers of Stochastic Parrots》第一作者）从语言学和AI伦理角度对"AI辅助决策"提出根本性质疑：
 
@@ -115,7 +115,7 @@ AI决策Partner对话法是一堂提出的AI时代决策协作范式。核心转
 
 对AI决策Partner的直接挑战：Partner模式假设"AI的分析+人的判断=更好决策"，但Bender会说——如果AI的"分析"本质上是训练语料的统计重组而非真实推理，那么"人的判断"需要判断的不仅是"这个结论对不对"，还包括"这个推理链本身是不是有效的"。这要求人具备接近AI专家的判断力，与"降低门槛"的设计目标相矛盾。
 
-#### Gary Marcus 的"深度学习局限"批判
+#### Gary Marcus 的"深度学习局限"：批判
 
 **Gary Marcus**（纽约大学心理学与神经科学教授，AI创业公司Robust.AI创始人，《Rebooting AI》作者）从认知科学和AI工程角度补充性质疑：
 

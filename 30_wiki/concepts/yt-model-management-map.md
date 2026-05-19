@@ -124,10 +124,10 @@ reviewed_by: 黄药师
 
 ### 外部攻击
 
-#### Henry Mintzberg批判
+#### Henry Mintzberg：批判
 
 **Henry Mintzberg**（McGill University，"Managers Not MBAs"作者）对管理阶段模型的批评直接适用于管理地图的五阶成长路径。Mintzberg基于29位管理者田野观察提出的核心主张：管理不是一套可以从"管自己"到"管公司"逐级爬升的可编码技能，而是在具体情境中涌现的实践手艺（craft）。五阶模型的"段位"追求暗示"升到L5=更好的管理者"，但Mintzberg会反驳：真正优秀的管理者不是在L5"管公司"的人，而是在任何层级都能根据具体情境做出有效判断的人。把管理拆成阶段课程清单，是把craft变成了checklist。
-#### Jeffrey Pfeffer批判
+#### Jeffrey Pfeffer：批判
 
 **Jeffrey Pfeffer**（Stanford GSB，"Leadership BS"作者）对领导力发展产业的经验批评构成第二道攻击。Pfeffer在《Leadership BS》(2015)中系统记录了领导力培训项目的失败模式：它们设计精良、体验良好、参与者满意度高——但几乎不产生实际行为改变。Pfeffer会质问管理地图：学员学完"管团队-L3"的五项基本功后，实际管理行为改变了多少？段位升级的评估标准在哪里？如果没有行为改变的证据，"我从L2升到了L3"不过是一种让人感觉良好的自我叙事。
 ## Framework Gallery

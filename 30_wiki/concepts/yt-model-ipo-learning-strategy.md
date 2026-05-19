@@ -95,10 +95,10 @@ reviewed_by: 黄药师
 
 ### 外部攻击
 
-#### Alfie Kohn批判
+#### Alfie Kohn：批判
 
 **Alfie Kohn**（"Punished by Rewards"作者，进步教育倡导者）对"目标驱动学习"范式的批判直接冲击IPO模型的逻辑起点。Kohn论证：当学习被外在目标（人生红点、战略笃定）驱动时，内在动机被挤出——深度学习反而减少。IPO模型的闭环起始于Goal（培养长期渴望），但Kohn会反驳：人类最深刻的学习往往始于无目的的好奇和游戏，而非"我先定义渴望再选择输入"。把学习当作生产过程（I→P→O）优化，可能挤出学习的核心燃料——内在兴趣。
-#### Ivan Illich批判
+#### Ivan Illich：批判
 
 **Ivan Illich**（"Deschooling Society"作者）对制度化学习的根本批判适用于IPO将学习标准化为六要素闭环。Illich主张最有价值的学习发生在"学习网络"（learning webs）——peer matching、skill exchanges、reference services——而非结构化课程和优化框架中。IPO六要素闭环是一种"学习制度化"——把学习从生活实践中抽离出来放进一个自我管理框架，这恰恰可能削弱了人在真实世界中"遇到问题→自然学习→解决问题"的原始学习能力。
 ## Framework Gallery

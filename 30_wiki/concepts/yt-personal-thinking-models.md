@@ -102,10 +102,10 @@ reviewed_by: 黄药师
 
 ### 外部攻击
 
-#### Henry Mintzberg批判
+#### Henry Mintzberg：批判
 
 **Henry Mintzberg**（麦吉尔大学管理学教授，"The Rise and Fall of Strategic Planning"作者）对"先建模型再行动"的假设提出了战略性挑战。Mintzberg通过大量实证研究证明：最有效的战略往往不是通过正式分析/建模"规划"出来的，而是在行动中"涌现"（emerge）出来的——管理者在实践中发现了模式，事后才将其归纳为模型。Mintzberg的挑战：思维模型课将"先提炼模型"作为核心能力，但Mintzberg会说——对大量处于"做中学"阶段的管理者，"先做再总结"比"先建模再执行"更符合组织学习的真实规律。好的模型是做的副产品，不是做的先决条件。
-#### Donald Schön批判
+#### Donald Schön：批判
 
 **Donald Schön**（MIT社会学与城市规划教授，"The Reflective Practitioner"和"Educating the Reflective Practitioner"作者）的"行动中反思"（reflection-in-action）理论对"建模优先"提出了更深层的认知挑战。Schön论证：专业人士在面对"独特、不确定、价值冲突"的真实情境时，使用的不是"先建立模型再应用"的步骤，而是"在行动中边做边重塑自己的理解"——设计者与情境持续对话，每一次行动都是对理解的测试和修正。Schön的挑战：建模课将"模型"视为"行动前的产出"，但最具创造性的实践者在行动中"即时建模"——他们不先停下手头的事去建模型，他们通过在做事中的微妙调整来体现对规律的理解。这可能是比"先建好模型再行动"更高阶、也更难言传的能力。
 ## Framework Gallery
