@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920, height=1080">
+<title>KDO Quickstart Video</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&display=swap');
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Noto Sans SC', sans-serif;
+  background: #0a0e27;
+  color: #fff;
+  width: 1920px; height: 1080px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* 星空背景 */
+.stars {
+  position: absolute; inset: 0;
+  background: 
+    radial-gradient(ellipse at 20% 80%, rgba(0,229,255,0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(255,215,0,0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(255,64,129,0.04) 0%, transparent 60%);
+}
+.stars::before {
+  content:''; position:absolute; inset:0;
+  background-image: 
+    radial-gradient(2px 2px at 100px 200px, rgba(255,255,255,0.4), transparent),
+    radial-gradient(2px 2px at 500px 400px, rgba(255,255,255,0.3), transparent),
+    radial-gradient(1px 1px at 900px 100px, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 1300px 700px, rgba(255,255,255,0.3), transparent),
+    radial-gradient(2px 2px at 1700px 300px, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 300px 800px, rgba(255,255,255,0.2), transparent),
+    radial-gradient(2px 2px at 1500px 900px, rgba(255,255,255,0.3), transparent);
+}
+
+/* 场景容器 */
+.scene {
+  position: absolute; inset: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 120px;
+}
+.scene.active { display: flex; }
+
+/* 玻璃卡片 */
+.glass {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 24px;
+  backdrop-filter: blur(20px);
+  padding: 48px 64px;
+}
+
+/* 标题样式 */
+.title-main {
+  font-size: 72px; font-weight: 900;
+  background: linear-gradient(135deg, #FFD700 0%, #FF4081 50%, #00E5FF 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center; line-height: 1.2;
+  margin-bottom: 24px;
+}
+.title-sub {
+  font-size: 32px; font-weight: 500;
+  color: rgba(255,255,255,0.7);
+  text-align: center;
+}
+
+/* 霓虹文字 */
+.neon-gold { color: #FFD700; text-shadow: 0 0 20px rgba(255,215,0,0.5); }
+.neon-cyan { color: #00E5FF; text-shadow: 0 0 20px rgba(0,229,255,0.5); }
+.neon-pink { color: #FF4081; text-shadow: 0 0 20px rgba(255,64,129,0.5); }
+
+/* 大引用 */
+.quote {
+  font-size: 48px; font-weight: 700;
+  text-align: center; line-height: 1.5;
+  max-width: 1400px;
+}
+
+/* 标签 */
+.tag {
+  display: inline-block;
+  padding: 8px 24px;
+  border-radius: 100px;
+  font-size: 18px; font-weight: 500;
+  margin: 6px;
+}
+.tag-gold { background: rgba(255,215,0,0.15); border: 1px solid rgba(255,215,0,0.4); color: #FFD700; }
+.tag-cyan { background: rgba(0,229,255,0.15); border: 1px solid rgba(0,229,255,0.4); color: #00E5FF; }
+.tag-pink { background: rgba(255,64,129,0.15); border: 1px solid rgba(255,64,129,0.4); color: #FF4081; }
+
+/* 流程步骤 */
+.flow-step {
+  display: inline-flex; align-items: center; gap: 12px;
+  padding: 16px 28px;
+  border-radius: 12px;
+  font-size: 22px; font-weight: 600;
+  margin: 6px;
+  white-space: nowrap;
+}
+.flow-step .num {
+  width: 36px; height: 36px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px; font-weight: 700;
+}
+.flow-gold { background: rgba(255,215,0,0.12); border: 1px solid rgba(255,215,0,0.35); }
+.flow-gold .num { background: rgba(255,215,0,0.3); color: #FFD700; }
+.flow-cyan { background: rgba(0,229,255,0.12); border: 1px solid rgba(0,229,255,0.35); }
+.flow-cyan .num { background: rgba(0,229,255,0.3); color: #00E5FF; }
+.flow-pink { background: rgba(255,64,129,0.12); border: 1px solid rgba(255,64,129,0.35); }
+.flow-pink .num { background: rgba(255,64,129,0.3); color: #FF4081; }
+
+.arrow { font-size: 28px; color: rgba(255,255,255,0.3); margin: 0 4px; }
+
+/* 三层产物 */
+.layer-card {
+  width: 420px; padding: 36px;
+  border-radius: 20px;
+  text-align: center;
+}
+.layer-card h3 { font-size: 32px; font-weight: 700; margin-bottom: 12px; }
+.layer-card p { font-size: 18px; color: rgba(255,255,255,0.65); line-height: 1.6; }
+.layer-content { background: linear-gradient(135deg, rgba(255,215,0,0.15), rgba(255,215,0,0.05)); border: 1px solid rgba(255,215,0,0.3); }
+.layer-code { background: linear-gradient(135deg, rgba(0,229,255,0.15), rgba(0,229,255,0.05)); border: 1px solid rgba(0,229,255,0.3); }
+.layer-cap { background: linear-gradient(135deg, rgba(255,64,129,0.15), rgba(255,64,129,0.05)); border: 1px solid rgba(255,64,129,0.3); }
+
+/* 溯源链 */
+.chain { display: flex; align-items: center; gap: 20px; font-size: 24px; }
+.chain-box {
+  padding: 16px 32px; border-radius: 12px;
+  font-weight: 600;
+}
+.chain-source { background: rgba(255,215,0,0.15); border: 1px solid rgba(255,215,0,0.4); color: #FFD700; }
+.chain-wiki { background: rgba(0,229,255,0.15); border: 1px solid rgba(0,229,255,0.4); color: #00E5FF; }
+.chain-artifact { background: rgba(255,64,129,0.15); border: 1px solid rgba(255,64,129,0.4); color: #FF4081; }
+
+/* CLI 终端 */
+.terminal {
+  background: #0d1117;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 16px;
+  padding: 32px 40px;
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 20px;
+  line-height: 2;
+  min-width: 700px;
+}
+.terminal .cmd { color: #00E5FF; }
+.terminal .arg { color: #FFD700; }
+.terminal .comment { color: rgba(255,255,255,0.35); }
+
+/* CTA */
+.cta-text {
+  font-size: 56px; font-weight: 900;
+  text-align: center;
+  background: linear-gradient(135deg, #FFD700, #00E5FF);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+.cta-sub { font-size: 28px; color: rgba(255,255,255,0.6); margin-top: 20px; }
+
+/* 布局辅助 */
+.flex-row { display: flex; gap: 32px; align-items: stretch; justify-content: center; }
+.flex-col { display: flex; flex-direction: column; gap: 24px; align-items: center; }
+.mt-20 { margin-top: 20px; }
+.mt-40 { margin-top: 40px; }
+.mb-20 { margin-bottom: 20px; }
+</style>
+</head>
+<body>
+<div class="stars"></div>
+
+<!-- S1: 标题卡 -->
+<div class="scene active" id="s1">
+  <div class="flex-col">
+    <div class="tag tag-gold">Knowledge Delivery OS</div>
+    <h1 class="title-main">快速上手指南</h1>
+    <p class="title-sub">把散落知识变成可交付资产</p>
+    <div class="mt-40 flex-row">
+      <span class="tag tag-cyan">流水线思维</span>
+      <span class="tag tag-pink">本地优先</span>
+      <span class="tag tag-gold">CLI 驱动</span>
+    </div>
+  </div>
+</div>
+
+<!-- S2: 问题引入 -->
+<div class="scene" id="s2">
+  <div class="flex-col">
+    <div class="tag tag-pink mb-20">问题</div>
+    <p class="quote">
+      信息过载不是问题<br>
+      <span class="neon-cyan">信息无法变成可用的东西</span><br>
+      才是问题
+    </p>
+    <div class="mt-40 flex-row">
+      <span class="tag tag-gold">200+ 收藏文章</span>
+      <span class="tag tag-cyan">50+ 篇笔记</span>
+      <span class="tag tag-pink">10+ 个课程</span>
+      <span class="tag" style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.2);">然后呢？</span>
+    </div>
+  </div>
+</div>
+
+<!-- S3: Core Thesis -->
+<div class="scene" id="s3">
+  <div class="flex-col">
+    <div class="tag tag-cyan mb-20">Core Thesis</div>
+    <p class="quote" style="font-size:42px;">
+      KDO 不是笔记应用，不是知识库<br>
+      而是 <span class="neon-gold">从原材料到可交付资产的流水线</span>
+    </p>
+    <div class="mt-40 flex-row">
+      <div class="glass" style="text-align:center;min-width:280px;">
+        <div style="font-size:48px;margin-bottom:12px;">📝</div>
+        <h3 class="neon-gold">文章</h3>
+        <p style="color:rgba(255,255,255,0.6);font-size:16px;">可发布的内容资产</p>
+      </div>
+      <div class="glass" style="text-align:center;min-width:280px;">
+        <div style="font-size:48px;margin-bottom:12px;">💻</div>
+        <h3 class="neon-cyan">代码</h3>
+        <p style="color:rgba(255,255,255,0.6);font-size:16px;">可复用的脚本模板</p>
+      </div>
+      <div class="glass" style="text-align:center;min-width:280px;">
+        <div style="font-size:48px;margin-bottom:12px;">⚡</div>
+        <h3 class="neon-pink">能力</h3>
+        <p style="color:rgba(255,255,255,0.6);font-size:16px;">可调用的 Skill / Agent</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- S4: 9步闭环 -->
+<div class="scene" id="s4">
+  <div class="flex-col" style="width:100%;">
+    <div class="tag tag-gold mb-20">9 步闭环</div>
+    <h2 style="font-size:36px;margin-bottom:32px;">知识从原材料到成品的完整路径</h2>
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:12px;max-width:1600px;">
+      <div class="flow-step flow-gold"><span class="num">1</span>捕获</div>
+      <span class="arrow">→</span>
+      <div class="flow-step flow-gold"><span class="num">2</span>注册</div>
+      <span class="arrow">→</span>
+      <div class="flow-step flow-cyan"><span class="num">3</span>编译</div>
+      <span class="arrow">→</span>
+      <div class="flow-step flow-cyan"><span class="num">4</span>路由</div>
+      <span class="arrow">→</span>
+      <div class="flow-step flow-cyan"><span class="num">5</span>生产</div>
+      <span class="arrow">→</span>
+      <div class="flow-step flow-pink"><span class="num">6</span>验证</div>
+      <span class="arrow">→</span>
+      <div class="flow-step flow-pink"><span class="num">7</span>交付</div>
+      <span class="arrow">→</span>
+      <div class="flow-step flow-pink"><span class="num">8</span>反馈</div>
+      <span class="arrow">→</span>
+      <div class="flow-step flow-gold"><span class="num">9</span>改进</div>
+    </div>
+    <p class="mt-40" style="font-size:20px;color:rgba(255,255,255,0.5);">每一步有对应的 CLI 命令、目录映射和质量标准</p>
+  </div>
+</div>
+
+<!-- S5: 三层产物 + 溯源链 -->
+<div class="scene" id="s5">
+  <div class="flex-col">
+    <div class="tag tag-cyan mb-20">三层产物 · 一条溯源链</div>
+    <div class="flex-row">
+      <div class="layer-card layer-content">
+        <h3 class="neon-gold">内容</h3>
+        <p>文章 / 报告 / 教程</p>
+      </div>
+      <div class="layer-card layer-code">
+        <h3 class="neon-cyan">代码</h3>
+        <p>脚本 / 模板 / 工具</p>
+      </div>
+      <div class="layer-card layer-cap">
+        <h3 class="neon-pink">能力</h3>
+        <p>Skill / Agent / 工作流</p>
+      </div>
+    </div>
+    <div class="chain mt-40">
+      <div class="chain-box chain-source">Source</div>
+      <span style="font-size:28px;color:rgba(255,255,255,0.3);">→</span>
+      <div class="chain-box chain-wiki">Wiki</div>
+      <span style="font-size:28px;color:rgba(255,255,255,0.3);">→</span>
+      <div class="chain-box chain-artifact">Artifact</div>
+    </div>
+    <p style="margin-top:16px;font-size:18px;color:rgba(255,255,255,0.45);">任何交付物都可追溯到原始来源和知识加工过程</p>
+  </div>
+</div>
+
+<!-- S6: 典型工作流 -->
+<div class="scene" id="s6">
+  <div class="flex-col" style="align-items:flex-start;width:100%;max-width:1400px;">
+    <div class="tag tag-pink mb-20">典型工作流</div>
+    <h2 style="font-size:32px;margin-bottom:28px;">飞书文档 → KDO 交付</h2>
+    <div class="terminal">
+      <div><span class="cmd">$</span> <span class="arg">kdo capture</span>   <span class="comment"># 飞书文档 → inbox</span></div>
+      <div><span class="cmd">$</span> <span class="arg">kdo ingest</span>    <span class="comment"># 编译为结构化 wiki</span></div>
+      <div><span class="cmd">$</span> <span class="arg">kdo enrich</span>    <span class="comment"># 浓缩 → 批判 → 对标</span></div>
+      <div><span class="cmd">$</span> <span class="arg">kdo produce</span>   <span class="comment"># 生成面向读者的文章</span></div>
+      <div><span class="cmd">$</span> <span class="arg">kdo validate</span>  <span class="comment"># 质量检查</span></div>
+      <div><span class="cmd">$</span> <span class="arg">kdo ship</span>      <span class="comment"># 记录交付，状态变已完成</span></div>
+    </div>
+    <div class="mt-20 flex-row">
+      <span class="tag tag-gold">12 个核心 CLI 命令</span>
+      <span class="tag tag-cyan">覆盖完整生命周期</span>
+      <span class="tag tag-pink">精确 · 可脚本化</span>
+    </div>
+  </div>
+</div>
+
+<!-- S7: 片尾 CTA -->
+<div class="scene" id="s7">
+  <div class="flex-col">
+    <h2 class="cta-text">开始你的知识流水线</h2>
+    <p class="cta-sub">把散落知识变成可交付资产</p>
+    <div class="mt-40 flex-row">
+      <span class="tag tag-gold">本地优先</span>
+      <span class="tag tag-cyan">Markdown + YAML</span>
+      <span class="tag tag-pink">Git 原生支持</span>
+    </div>
+    <div class="mt-40" style="font-size:18px;color:rgba(255,255,255,0.35);">
+      Knowledge Delivery OS · 北丐出品
+    </div>
+  </div>
+</div>
+
+<script>
+const scenes = document.querySelectorAll('.scene');
+function showScene(n) {
+  scenes.forEach((s, i) => {
+    s.classList.toggle('active', i === n - 1);
+  });
+}
+const params = new URLSearchParams(location.search);
+const sceneNum = parseInt(params.get('scene') || '1', 10);
+showScene(sceneNum);
+</script>
+</body>
+</html>
