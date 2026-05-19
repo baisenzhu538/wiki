@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-19
 active_branch: main
-active_task: 老顽童→管理工具箱 Batch 2（T3+T4+T5）。黄药师→空闲（三件工单全完成，待定下个任务）。
+active_task: 黄药师→`kdo scaffold`（加速 89 卡修复流水线）。老顽童→管理工具箱 Batch 2（T3+T4+T5）。设计域素材已入 inbox，待老顽童工具箱完成后启动。
 blockers: []
 ---
 
@@ -143,6 +143,25 @@ blockers: []
 | `kdo lint --structure-report` | 全库卡片按 H2 结构聚类，输出类型分布摘要 |
 
 ## 最近决策
+
+### 2026-05-19：新任务分配 — scaffold（黄药师）+ 设计域规划
+
+**黄药师 → `kdo scaffold`（P0 工单 [[70_product/tasks/kdo-scaffold-v15.md]]）**：
+- 为缺失 v1.5 信号的卡片自动生成升级骨架（TODO 占位符 + 智能学者建议）
+- CLI: `kdo scaffold --card <id>` / `--batch A` / `--from-plan` / `--write`
+- 核心逻辑：读卡→诊断缺口→生成骨架（Critique/不要用/AT）→智能攻击者建议（同域池+跨域经典配对）
+- ~200-250 行，~8 test cases
+- **不做**：自动生成攻击内容、自动选择攻击者、修改已有节
+
+**老顽童 → 管理工具箱 Batch 2（T3+T4+T5）+ 设计域规划**：
+- 设计域素材已就位 `00_inbox/design/`：月白老师两期 AI 设计分享转录稿 + prompt 集合
+- 初步规划 7 张卡（D1 AI生图技术→D7 设计师角色重塑），最终 5-8 张
+- 执行流程：清理转录稿→ingest→编译卡片→学者攻击者配对→欧阳锋审查
+- 工具箱 Batch 2 优先完成后启动，不并行
+
+**黄药师完成 scaffold 后的后续方向**：
+- Scaffold 完工后老顽童立即使用它开工 89 卡修复
+- 黄药师后续选项：设计域转录稿清理工具 / `kdo validate --v15 --watch`（文件变更自动重检）/ Graph RAG 索引增量更新 / KDO build 系统（非紧急）
 
 ### 2026-05-19：老顽童管理工具箱 Batch 1 审查通过（F1+T1+T2 全 A）
 
