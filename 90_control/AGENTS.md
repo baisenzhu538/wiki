@@ -92,7 +92,7 @@ KDO 知识工厂五角色分工，协作规则定义在 `90_control/debate-proto
 | **Architect** | 欧阳锋 | 审查全部产出、任务分配与协调、架构决策、质量标准制定。审而不改 | 通过 vault 文件异步派发工单 |
 | **Builder** | 黄药师 | KDO CLI 开发、质量门自动化、Graph RAG、基础设施。不接卡片量产 | WSL tmux `claude`，顺序执行工单 |
 | **Producer** | 老顽童 | 卡片量产、文章/内容产出、跨域合成、新域编译。产能主力 | 飞书 Hermes agent，顺序执行任务队列 |
-| **Multimodal** | 洪七公 | 多模态输出——知识→视觉资产（信息图/设计稿/视频脚本）、OCR→结构化文本、图片→prompt 工程 | 待定义 |
+| **Multimodal** | 洪七公 | **多模态知识仲裁者**——主业：知识→视觉资产（信息图/Excalidraw/SVG/视频/音频）；副业：VA 过程中发现源文件与编译物的归属错位/不一致，反馈给欧阳锋。只标记差异+建议修正方向，不自行修改卡片主体结构 | 飞书 Hermes agent，从 dashboard 领任务，产出写入固定输出路径 |
 | **Publisher** | 段王爷 | 发布管线——`kdo ship`→渠道分发、反馈收集→`60_feedback/`、版本发布记录 | 待定义 |
 
 ### 协作流程
@@ -108,6 +108,26 @@ KDO 知识工厂五角色分工，协作规则定义在 `90_control/debate-proto
 ```
 
 核心原则：欧阳锋是唯一协调节点。角色之间不互相派活——都通过欧阳锋中转。
+
+### 各角色输入/输出路径（固定，不可混用）
+
+每个角色从固定路径接收任务和工作素材，产出写入固定路径。不跨角色翻别人的输出目录找活干。
+
+| 角色 | 接收任务 | 工作素材 | 知识/内容产出 | 视觉/代码产出 | 勘误/反馈 |
+|------|---------|---------|-------------|-------------|----------|
+| **欧阳锋** | 用户指令 + 全员产出 | — | `70_product/tasks/` 任务文件 + `.agent/` 决策记录 | — | 审查结论写入对应任务文件 |
+| **老顽童** | `70_product/tasks/laowantong-next-tasks.md` | `00_inbox/` 新素材 → `10_raw/sources/` 已 ingest 素材 | `30_wiki/concepts/` 知识卡片 + `40_outputs/content/articles/` 文章 | `40_outputs/capabilities/skills/` 操作手册类 skill | 编译中发现问题 → 卡片内注释 + `60_feedback/corrections/` |
+| **黄药师** | `70_product/tasks/huangyaoshi-next-tasks.md` | KDO CLI 源码（外部目录） | `90_control/` 方法论/标准/质量门文档 | `kdo/` 代码 + `70_product/tasks/` 工单 | pytest 结果 + CLI 日志 → `70_product/tasks/` 对应工单 |
+| **洪七公** | `70_product/tasks/dashboard.md` 洪七公任务区 | `30_wiki/concepts/` 待可视化卡片 + `10_raw/assets/` 原图/截图 | **视觉资产**：`40_outputs/content/images/infographics/`（信息图/Excalidraw/SVG）`40_outputs/content/videos/`（视频）`40_outputs/content/audio/`（音频）**VA 报告**：与对应信息图同目录 | `40_outputs/capabilities/skills/` 自建多模态 skill | 归属错位/视觉不一致 → `60_feedback/corrections/`（不改卡片主体） |
+| **段王爷** | `70_product/tasks/dashboard.md` 段王爷任务区 | `40_outputs/` 中待发布 artifact | `50_delivery/` 发布记录 | `50_delivery/channels/` 渠道配置 | 外部反馈 → `60_feedback/comments/` + `60_feedback/issues/` |
+
+**查找规则**：
+- 想知道谁在做什么 → 看 `dashboard.md`
+- 想要老顽童/黄药师的产出 → 去他们的产出路径找
+- 想要洪七公的视觉资产 → `40_outputs/content/images/infographics/`
+- 想要洪七公的勘误 → `60_feedback/corrections/`
+- 想要段王爷的发布状态 → `50_delivery/`
+- 角色间疑问 → 异步疑问传递机制（见下节）
 
 ### 异步疑问传递机制
 

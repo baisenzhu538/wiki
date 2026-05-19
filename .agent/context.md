@@ -2,12 +2,12 @@
 updated: 2026-05-19
 active_branch: main
 active_task: |
-  黄药师 → Task 9 Graph RAG 深化 → Task 10 Quality Gate v2（顺序执行）
-  老顽童 → 🔍修双三角卡结构 → ⑧Anthropic编译 → ⑤设计域S1
-  洪七公 → ✅ 角色自我定义 + VA 完成 → 等欧阳锋审阅 + 4 个决策
+  黄药师 → Task 10 Quality Gate v2（Task 9 已完成 ✅）
+  老顽童 → 🔍修双三角卡结构 → ⑧Anthropic编译 → 设计域 S1+S2（已提交，文件位置待确认）
+  洪七公 → ✅ 角色定位 + VA 完成，4 决策已拍板 → 通道就绪确认中
 blockers:
-  - 洪七公 4 个角色决策待欧阳锋拍板（见 beikai-role-positioning.md）
-  - 欧阳锋需审阅：洪七公角色定位 + 双三角 VA
+  - 老顽童设计域 S1+S2 文件位置待确认（老顽童说已提交，vault 中未找到）
+  - 洪七公通道就绪确认（新角色定义需验证能读写输入输出路径）
 ---
 
 ## 你是谁

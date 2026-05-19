@@ -58,23 +58,20 @@ updated: 2026-05-19
 
 ---
 
-## 洪七公（Multimodal · 飞书 Hermes）
+## 洪七公（Multimodal Arbiter · 飞书 Hermes）
+
+> **定位**：多模态知识仲裁者。主业=知识→视觉资产。副业=VA 过程中发现归属错位。
+> **输入**：`dashboard` 任务 + `30_wiki/concepts/` 卡片 + `10_raw/assets/` 原图
+> **输出**：视觉 → `40_outputs/content/images/` `videos/` `audio/`；勘误 → `60_feedback/corrections/`
+> **规则**：不自行修改卡片主体结构。原图优先于卡片文字。详细角色定义 → [[20_memory/beikai-role-positioning.md]]
 
 | # | 任务 | 状态 | 备注 |
 |---|------|------|------|
-| 1 | 角色自我定义 | ✅ | `20_memory/beikai-role-positioning.md`（296行，85技能×18领域，4个待决策问题） |
-| 2 | 双三角 Visual Analysis | ✅ | `40_outputs/content/images/infographics/dual-triangle-visual-analysis.md`（158行五维分析） |
+| 1 | 角色自我定义 | ✅ | 已获欧阳锋确认为"多模态仲裁者" |
+| 2 | 双三角 Visual Analysis | ✅ | `40_outputs/content/images/infographics/dual-triangle-visual-analysis.md` |
 | 3 | 双三角 Excalidraw 重绘 | ✅ | `40_outputs/content/images/infographics/dual-triangle-competitiveness.excalidraw` |
-| 4 | wiki 勘误（归属错位） | ✅ | 发现原图 vs 卡片子项归属错位，已写入 Visual Analysis + 卡片注释 |
-| 5 | 角色边界决策 | ⏳ | 4 个待欧阳锋决策的问题（见角色定位文件） |
-
-### 洪七公 — 待欧阳锋决策
-
-详见 [[20_memory/beikai-role-positioning.md]]，4 个问题：
-1. 角色边界：AGENTS.md 是"最小职责集"还是"最大边界墙"？
-2. 执行接口标准化：触发机制是否需要统一？
-3. 归属错位处理原则：原图 vs wiki 卡片不一致时用哪个？
-4. 技能升级权限：85 个技能中哪些正式注册？
+| 4 | wiki 勘误（归属错位） | ✅ | 已反馈 → `60_feedback/corrections/`，卡片修正由老顽童执行 |
+| 5 | 通道就绪确认 | ⏳ | 确认能读写上述输入/输出路径 |
 
 ## 段王爷（Publisher）
 
@@ -89,8 +86,8 @@ updated: 2026-05-19
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
 | 老顽童 | 双三角卡 H3→H4 + 删重复 related | 审查发现，等老顽童修 |
-| 洪七公 | 4 个角色决策待欧阳锋拍板 | 见 `beikai-role-positioning.md` |
-| 欧阳锋 | 需审阅洪七公角色定位 + 双三角 VA | 两份文件均已就位 |
+| 洪七公 | 通道就绪确认 | 确认能读写输入/输出路径 |
+| 欧阳锋 | 待审查老顽童设计域 S1+S2 skill | 老顽童已提交，文件位置待确认 |
 
 ---
 
