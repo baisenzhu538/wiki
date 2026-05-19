@@ -1,114 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980">
 <defs>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1f3a" stroke-width="0.5"/>
-    </pattern>
-    <linearGradient id="humanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:0.15"/>
-      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:0.05"/>
-    </linearGradient>
-    <linearGradient id="aiGrad" x1="100%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#00E5FF;stop-opacity:0.15"/>
-      <stop offset="100%" style="stop-color:#00B8D4;stop-opacity:0.05"/>
-    </linearGradient>
-    <filter id="glowGold" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="glowPink" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="glowArrow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="glass" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
-      <feOffset in="blur" dx="0" dy="2" result="offsetBlur"/>
-      <feFlood flood-color="rgba(255,255,255,0.05)" result="tint"/>
-      <feComposite in="tint" in2="SourceAlpha" operator="in" result="tinted"/>
-      <feMerge><feMergeNode in="tinted"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L9,3 z" fill="#FF4081"/>
-    </marker>
-    <marker id="arrowCyan" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L9,3 z" fill="#FF4081"/>
-    </marker>
-  </defs>
-<rect width="100%" height="100%" fill="#0a0e27"/>
-  <rect width="100%" height="100%" fill="url(#grid)"/>
-  <rect x="50" y="30" width="60" height="36" rx="6" fill="#FFD700" filter="url(#glowGold)"/>
-  <text x="80" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0a0e27">一堂</text>
-  <text x="600" y="65" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" font-weight="bold" fill="#E8EAF6" filter="url(#glowGold)">一堂AI时代的竞争力 · 双三角模型</text>
-  <text x="600" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#9FA8DA">Yitang Competitiveness in the AI Era: Dual Triangle Model</text>
-<polygon points="600,160 220,460 600,460" fill="url(#humanGrad)" stroke="#FFD700" stroke-width="2" stroke-dasharray="8,4" filter="url(#glowGold)"/>
-<polygon points="600,160 600,460 980,460" fill="url(#aiGrad)" stroke="#00E5FF" stroke-width="2" stroke-dasharray="8,4" filter="url(#glowCyan)"/>
-<line x1="600" y1="160" x2="600" y2="460" stroke="#E8EAF6" stroke-width="3" opacity="0.8"/>
-<text x="440" y="205" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">✓ 理解底层规律</text>
-  <text x="440" y="225" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">✓ 善于解放思想</text>
-  <text x="440" y="245" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">✓ 提出创造假设</text>
-  <text x="440" y="290" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" font-weight="bold" fill="#FFD700" filter="url(#glowGold)">创造力</text>
-<text x="760" y="200" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">✓ 业务拆解</text>
-  <text x="760" y="220" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">✓ ROI预判</text>
-  <text x="760" y="240" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">✓ AI打磨</text>
-  <text x="760" y="260" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">✓ 组织部署</text>
-  <text x="760" y="300" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" font-weight="bold" fill="#00E5FF" filter="url(#glowCyan)">场景</text>
-<rect x="70" y="330" width="180" height="100" rx="10" fill="rgba(255, 215, 0, 0.08)" stroke="#FFD700" stroke-width="1.5" stroke-dasharray="4,2" filter="url(#glass)"/>
-  <text x="85" y="355" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#FFD700" font-weight="bold">灵魂考问</text>
-  <text x="85" y="380" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">
-    <tspan x="85" dy="0">"同样都会用AI，</tspan>
-    <tspan x="85" dy="20">为什么不同人</tspan>
-    <tspan x="85" dy="20">业务结果相差这么大？"</tspan>
-  </text>
-<rect x="950" y="330" width="180" height="100" rx="10" fill="rgba(0, 229, 255, 0.08)" stroke="#00E5FF" stroke-width="1.5" stroke-dasharray="4,2" filter="url(#glass)"/>
-  <text x="965" y="355" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#00E5FF" font-weight="bold">灵魂考问</text>
-  <text x="965" y="380" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">
-    <tspan x="965" dy="0">"同样都是业务高手，</tspan>
-    <tspan x="965" dy="20">为什么不同人</tspan>
-    <tspan x="965" dy="20">AI结果相差这么大？"</tspan>
-  </text>
-<text x="470" y="420" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" font-weight="bold" fill="#E8EAF6">人类三角</text>
-  <text x="470" y="442" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#9FA8DA">持续让自己变强</text>
-  <text x="600" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FF4081" filter="url(#glowPink)">×</text>
-  <text x="730" y="420" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" font-weight="bold" fill="#E8EAF6">AI三角</text>
-  <text x="730" y="442" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#9FA8DA">持续使用AI更强</text>
-  <path d="M 520 360 Q 600 310 680 360" fill="none" stroke="#FF4081" stroke-width="2.5" marker-end="url(#arrowGold)" filter="url(#glowArrow)"/>
-  <text x="600" y="335" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#FF4081">人变强了，调教更强AI</text>
-  <path d="M 680 490 Q 600 540 520 490" fill="none" stroke="#FF4081" stroke-width="2.5" marker-end="url(#arrowCyan)" filter="url(#glowArrow)"/>
-  <text x="600" y="525" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#FF4081">有了强AI，辅助人变得更强</text>
-<line x1="100" y1="500" x2="1100" y2="500" stroke="#1a1f3a" stroke-width="1"/>
-  <text x="600" y="525" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#9FA8DA">四维支撑层（详细展开）</text>
-  <rect x="120" y="545" width="220" height="130" rx="8" fill="rgba(255, 215, 0, 0.05)" stroke="#FFD700" stroke-width="1" filter="url(#glass)"/>
-  <text x="230" y="572" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" font-weight="bold" fill="#FFD700" filter="url(#glowGold)">审美</text>
-  <text x="140" y="600" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">✓ 专业见识</text>
-  <text x="140" y="620" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">✓ 最佳实践</text>
-  <text x="140" y="640" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">✓ 评价标准</text>
-  <rect x="370" y="545" width="220" height="130" rx="8" fill="rgba(255, 215, 0, 0.05)" stroke="#FFD700" stroke-width="1" filter="url(#glass)"/>
-  <text x="480" y="572" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" font-weight="bold" fill="#FFD700" filter="url(#glowGold)">体系</text>
-  <text x="390" y="600" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">✓ 科学体系思维</text>
-  <text x="390" y="620" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">✓ 假设验证模型</text>
-  <text x="390" y="640" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">✓ 稳定知识结构</text>
-  <rect x="620" y="545" width="220" height="130" rx="8" fill="rgba(0, 229, 255, 0.05)" stroke="#00E5FF" stroke-width="1" filter="url(#glass)"/>
-  <text x="730" y="572" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" font-weight="bold" fill="#00E5FF" filter="url(#glowCyan)">基本功</text>
-  <text x="640" y="600" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#E8EAF6">✓ 基础: LLM提示词/智能体</text>
-  <text x="640" y="620" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#E8EAF6">✓ 宽度: 多模态/AI工具库(∞)</text>
-  <text x="640" y="640" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="11" fill="#E8EAF6">✓ 深度: 模型微调训练/工程化</text>
-  <rect x="870" y="545" width="220" height="130" rx="8" fill="rgba(0, 229, 255, 0.05)" stroke="#00E5FF" stroke-width="1" filter="url(#glass)"/>
-  <text x="980" y="572" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" font-weight="bold" fill="#00E5FF" filter="url(#glowCyan)">数据</text>
-  <text x="890" y="600" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">✓ 非结构化数据</text>
-  <text x="890" y="620" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">✓ 结构化数据</text>
-  <text x="890" y="640" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#E8EAF6">✓ 形成资产</text>
-<rect x="0" y="720" width="1200" height="180" fill="rgba(26, 31, 58, 0.8)"/>
-  <text x="600" y="755" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#9FA8DA">版本更新于：2025.9.5 @北京一堂实验室</text>
-  <text x="100" y="805" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" font-weight="bold" fill="#E8EAF6">一堂 · 坚持只做必修课</text>
-  <text x="100" y="835" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" fill="#9FA8DA">扫码辛苦学3天，不扫弯路走3年</text>
-  <rect x="1040" y="745" width="80" height="80" rx="4" fill="#E8EAF6" opacity="0.9"/>
-  <rect x="1075" y="775" width="10" height="10" fill="#FF4081"/>
+  <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+    <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#151a30" stroke-width="0.5"/>
+  </pattern>
+  <filter id="glowH" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glowA" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glowP" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glass" x="-10%" y="-10%" width="120%" height="120%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="1.5" result="blur"/>
+    <feOffset in="blur" dx="0" dy="1" result="off"/>
+    <feFlood flood-color="rgba(255,255,255,0.03)" result="tint"/>
+    <feComposite in="tint" in2="SourceAlpha" operator="in" result="tinted"/>
+    <feMerge><feMergeNode in="tinted"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <marker id="arrH" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,1 L0,7 L9,4 z" fill="#FF4081"/></marker>
+  <marker id="arrA" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,1 L0,7 L9,4 z" fill="#FF4081"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#080c20"/>
+<rect width="100%" height="100%" fill="url(#grid)"/>
+<rect x="60" y="28" width="70" height="40" rx="8" fill="#FFC107" filter="url(#glowH)"/>
+<text x="95" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#080c20">一堂</text>
+<text x="700" y="68" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="32" font-weight="bold" fill="#FFFFFF">一堂AI时代的竞争力 · 双三角模型</text>
+<text x="700" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#A0A8C8">Yitang Competitiveness in the AI Era: Dual Triangle Model</text>
+<polygon points="490,170 360,490 620,490" fill="rgba(255,193,7,0.06)" stroke="#FFC107" stroke-width="2" stroke-dasharray="10,5" filter="url(#glowH)"/>
+<polygon points="910,170 780,490 1040,490" fill="rgba(0,229,255,0.06)" stroke="#00E5FF" stroke-width="2" stroke-dasharray="10,5" filter="url(#glowA)"/>
+<text x="490" y="373" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">人类三角</text>
+<text x="490" y="397" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="13" fill="#A0A8C8">持续让自己变强</text>
+<text x="910" y="373" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">AI三角</text>
+<text x="910" y="397" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="13" fill="#A0A8C8">持续使用AI更强</text>
+<text x="700" y="391" text-anchor="middle" font-family="Arial,sans-serif" font-size="56" font-weight="bold" fill="#FF4081" filter="url(#glowP)">×</text>
+<path d="M 610 250 Q 700 200 790 250" fill="none" stroke="#FF4081" stroke-width="2.5" marker-end="url(#arrH)" filter="url(#glowP)"/>
+<text x="700" y="232" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FF4081">人变强了，调教更强AI</text>
+<path d="M 790 450 Q 700 500 610 450" fill="none" stroke="#FF4081" stroke-width="2.5" marker-end="url(#arrA)" filter="url(#glowP)"/>
+<text x="700" y="478" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FF4081">有了强AI，辅助人变得更强</text>
+<rect x="330" y="300" width="180" height="90" rx="10" fill="rgba(255,193,7,0.06)" stroke="#FFC107" stroke-width="1.5" stroke-dasharray="4,2" filter="url(#glass)"/>
+<text x="342" y="322" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFC107" font-weight="bold">灵魂考问</text>
+<text x="342" y="346" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="11" fill="#FFFFFF">“同样都会用AI，</text>
+<text x="342" y="364" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="11" fill="#FFFFFF">为什么不同人业务</text>
+<text x="342" y="382" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="11" fill="#FFFFFF">结果相差这么大？”</text>
+<rect x="1060" y="300" width="180" height="90" rx="10" fill="rgba(0,229,255,0.06)" stroke="#00E5FF" stroke-width="1.5" stroke-dasharray="4,2" filter="url(#glass)"/>
+<text x="1072" y="322" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#00E5FF" font-weight="bold">灵魂考问</text>
+<text x="1072" y="346" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="11" fill="#FFFFFF">“同样都是业务高手，</text>
+<text x="1072" y="364" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="11" fill="#FFFFFF">为什么不同人AI</text>
+<text x="1072" y="382" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="11" fill="#FFFFFF">结果相差这么大？”</text>
+<rect x="390" y="150" width="200" height="130" rx="10" fill="rgba(255,193,7,0.07)" stroke="#FFC107" stroke-width="1.5" filter="url(#glass)"/>
+<text x="490" y="174" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="15" font-weight="bold" fill="#FFC107" filter="url(#glowH)">创造力</text>
+<text x="404" y="196" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 理解底层规律</text>
+<text x="404" y="216" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 善于解放思想</text>
+<text x="404" y="236" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 提出创造假设</text>
+<rect x="270" y="500" width="200" height="110" rx="10" fill="rgba(255,193,7,0.07)" stroke="#FFC107" stroke-width="1.5" filter="url(#glass)"/>
+<text x="370" y="524" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="15" font-weight="bold" fill="#FFC107" filter="url(#glowH)">审美</text>
+<text x="284" y="546" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 专业见识</text>
+<text x="284" y="566" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 最佳实践</text>
+<text x="284" y="586" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 评价标准</text>
+<rect x="510" y="500" width="200" height="110" rx="10" fill="rgba(255,193,7,0.07)" stroke="#FFC107" stroke-width="1.5" filter="url(#glass)"/>
+<text x="610" y="524" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="15" font-weight="bold" fill="#FFC107" filter="url(#glowH)">体系</text>
+<text x="524" y="546" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 科学体系思维</text>
+<text x="524" y="566" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 假设验证模型</text>
+<text x="524" y="586" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 稳定知识结构</text>
+<rect x="810" y="150" width="200" height="145" rx="10" fill="rgba(0,229,255,0.07)" stroke="#00E5FF" stroke-width="1.5" filter="url(#glass)"/>
+<text x="910" y="174" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="15" font-weight="bold" fill="#00E5FF" filter="url(#glowH)">场景</text>
+<text x="824" y="196" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 业务拆解</text>
+<text x="824" y="216" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ ROI预判</text>
+<text x="824" y="236" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ AI打磨</text>
+<text x="824" y="256" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 组织部署</text>
+<rect x="690" y="500" width="200" height="125" rx="10" fill="rgba(0,229,255,0.07)" stroke="#00E5FF" stroke-width="1.5" filter="url(#glass)"/>
+<text x="790" y="524" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="15" font-weight="bold" fill="#00E5FF" filter="url(#glowH)">基本功</text>
+<text x="704" y="546" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 基础: LLM提示词/智能体</text>
+<text x="704" y="566" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 宽度: 多模态/AI工具库(∞)</text>
+<text x="704" y="586" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 深度: 模型微调训练/工程化</text>
+<rect x="930" y="500" width="200" height="110" rx="10" fill="rgba(0,229,255,0.07)" stroke="#00E5FF" stroke-width="1.5" filter="url(#glass)"/>
+<text x="1030" y="524" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="15" font-weight="bold" fill="#00E5FF" filter="url(#glowH)">数据</text>
+<text x="944" y="546" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 非结构化数据</text>
+<text x="944" y="566" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 结构化数据</text>
+<text x="944" y="586" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#FFFFFF">✓ 形成资产</text>
+<rect x="0" y="780" width="1400" height="200" fill="rgba(21,26,48,0.9)"/>
+<text x="700" y="815" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="14" fill="#A0A8C8">版本更新于：2025.9.5 @北京一堂实验室</text>
+<text x="100" y="865" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">一堂 · 坚持只做必修课</text>
+<text x="100" y="895" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="15" fill="#A0A8C8">扫码辛苦学3天，不扫弯路走3年</text>
+<rect x="1220" y="805" width="80" height="80" rx="4" fill="#FFFFFF" opacity="0.9"/>
+<rect x="1255" y="840" width="10" height="10" fill="#FF4081"/>
 </svg>
