@@ -99,10 +99,12 @@ reviewed_by: 黄药师
 
 ### 外部攻击
 
-#### Edgar Schein：批判
+#### Edgar Schein批判
 
-#### Neil Rackham：批判
+**Edgar Schein**（MIT斯隆管理学院，"Process Consultation"作者）的过程咨询理论是对"结构化提问框架"最权威的学术批评。Schein在《Process Consultation Revisited》(1999)中区分了三种咨询模式：专家模式（告诉答案）、医生模式（诊断开方）、过程咨询模式（帮助客户自己找到答案）。Schein的核心洞见是：提问框架（如画布中的STAR/GROW/SMART等工具箱）隐含了一个危险假设——"我知道该问什么"——这恰恰是医生模式而非过程咨询模式。真正的过程咨询要求顾问放下自己的框架，跟随客户的叙述流——"最好的提问不是你准备好的问题，而是你听完上一句之后自然产生的好奇"。
+#### Neil Rackham批判
 
+**Neil Rackham**（"SPIN Selling"作者，Huthwaite行为研究）的SPIN模型代表了一种竞争性的提问方法论。Rackham通过对35,000次销售拜访的行为分析发现：最有效的提问序列是SPIN——Situation→Problem→Implication→Need-payoff——一个按心理学效应排序的四步递进，而非按领域分类的四层矩阵。提问画布的四层（业务分析/辅导团队/咨询教练/萃取经验）是按"应用场景"分类，但Rackham会说：场景分类不等于问题设计——在任何一个场景中，提问的有效性取决于"问题的心理学序列"而非"场景的工具匹配"。
 ## Framework Gallery
 
 ### 关联框架卡

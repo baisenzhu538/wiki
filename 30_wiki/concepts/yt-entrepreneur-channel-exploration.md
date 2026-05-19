@@ -101,10 +101,12 @@ review_date: '2026-05-08'
 
 ### 外部攻击
 
-#### Gabriel Weinberg & Justin Mares：批判
+#### Gabriel Weinberg & Justin Mares批判
 
-#### Brian Balfour：批判
+**Gabriel Weinberg & Justin Mares**（"Traction: How Any Startup Can Achieve Explosive Customer Growth"作者）提出了与渠道探索不同的渠道选择方法论——"公牛眼框架"（Bullseye Framework）。公牛眼的核心步骤是：外环（brainstorm所有19种渠道）→中环（选3-4个做廉价测试）→内环（集中所有资源深耕1个）。与一堂渠道探索课程的关键差异在于：Weinberg强调"先穷举所有可能渠道类型"（其19种渠道清单包括"现有平台""公关""内容营销"等非传统渠道），而一堂的渠道假设-小预算测试-数据回收-筛选方法更侧重于"你已经有了几个候选渠道"的前提。如果创业者从来没听说过"社区营销""API渠道""战略联盟"等非主流渠道类型，他们可能从一开始就把最有效的渠道排除在了测试范围之外。
+#### Brian Balfour批判
 
+**Brian Balfour**（Reforge创始人，前HubSpot增长VP）的"增长循环"（Growth Loops）方法论则质疑了渠道探索中最基础的"漏斗思维"。Balfour论证：漏斗模型（获客→激活→留存→变现→传播）假设增长是线性的，但真正可持续的增长来自循环——产品的每一次使用都在创造下一个新用户的条件（如Pinterest的用户pin被Google收录→非用户搜索点击→注册→又pin了更多内容）。一堂渠道探索课程隐含的"选渠道→测试→优化泄漏"逻辑是漏斗思维，但Balfour会说：你根本不应该在漏斗阶段选渠道——你应该先问"我们的产品是否有可能内生一个增长循环？"如果有循环，渠道选择是从循环中推导出来的，而非独立选择的。
 ## Framework Gallery
 
 ### 关联框架卡

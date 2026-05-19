@@ -113,10 +113,12 @@ reviewed_by: 黄药师
 
 ### 外部攻击
 
-#### Steve Blank：批判
+#### Steve Blank批判
 
-#### Alberto Savoia：批判
+**Steve Blank**（《The Four Steps to the Epiphany》作者，Lean Startup运动的奠基人）的客户开发方法论与五步法画布的线性结构存在根本张力。五步法画布从左到右排列（假设→需求→解决方案→商业模式→增长→壁垒），但Blank的核心原则是"get out of the building"——每个阶段可能要pivot回第一步。画布工具给人"填完格子就完成了"的仪式感，但真正的创业认知在格子外面——在客户办公室里，不在画布上。线性画布的隐藏危险是让创业者按顺序填完格子却没有离开过办公室。
+#### Alberto Savoia批判
 
+**Alberto Savoia**（Google工程总监，《The Right It》作者）的预型（pretotyping）方法论会批评五步法画布从"假设"起步的前置分析时间投资过大。Savoia的核心主张是"在确认It之前先确认Right It"——用假门测试（fake door test）、机械土耳其人（mechanical turk）等极低成本假测试替代画布分析。产品内核画布鼓励创业者"充分做加法"（左侧栏），但Savoia会反驳：加法不是在你脑子里做，是在市场上用假门测试做——用一个landing page测试需求信号比花两周填画布更接近真相。
 ## Framework Gallery
 
 ### 关联框架卡

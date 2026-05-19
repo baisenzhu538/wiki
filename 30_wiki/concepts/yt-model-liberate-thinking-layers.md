@@ -89,10 +89,12 @@ reviewed_by: 黄药师
 
 ### 外部攻击
 
-#### Seymour Papert：批判
+#### Seymour Papert批判
 
-#### Hubert Dreyfus：批判
+**Seymour Papert**（MIT，建构主义学习理论奠基人，《Mindstorms》作者）的建构主义（Constructionism）与解放思想的"向上走"隐喻存在根本冲突。Papert提出最深刻的学习发生在"用手建造可分享的物件"的过程中——不是从L0爬到L5的抽象攀登，而是在具体建造中自然涌现抽象理解。一堂把"盲目创新"（L0）放在最底层，但Papert会反驳：儿童"盲目"搭建乐高的过程恰恰是最有效的L4/L5学习的原型——抽象理解不是爬上去的，是做出来的。抽象度爬升模型低估了从具体→抽象的自然涌现路径，将"建造中的直觉探索"误判为"盲目创新"。
+#### Hubert Dreyfus批判
 
+**Hubert Dreyfus**（UC Berkeley，现象学技能习得模型开创者）的五阶段技能习得模型（Novice→Advanced Beginner→Competence→Proficiency→Expertise）与解放思想的六层抽象模型形成方向性对比。Dreyfus的方向是从"依赖规则"到"直觉把握"——高手的标志不是更抽象，而是更直觉化、情境化。一堂的五层模型把"掌握难度L5最高"和"迁移性L5最强"绑定，但Dreyfus的田野数据显示：真正的专家（国际象棋大师、资深医生、战斗机飞行员）的决策不是从L5学科经典向下推导的，而是情境直觉驱动的——和L0的"盲目"只有一线之隔。把"学科经典"放在金字塔尖可能是一种学院派偏见。
 ## Framework Gallery
 
 ### 关联框架卡

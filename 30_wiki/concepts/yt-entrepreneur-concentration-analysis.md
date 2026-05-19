@@ -101,10 +101,12 @@ review_date: '2026-05-08'
 
 ### 外部攻击
 
-#### Clayton Christensen：批判
+#### Clayton Christensen批判
 
-#### W. Brian Arthur：批判
+**Clayton Christensen**（Harvard Business School，"The Innovator's Dilemma"作者）的颠覆式创新理论直接动摇了集中度分析的基本假设——即可以从当前行业结构外推终局格局。Christensen论证：历史上几乎所有行业的领导者都被从低端或新市场切入的颠覆者击败，而这些颠覆发生时的行业集中度预测——无论多精细——都系统性低估了颠覆者重塑行业结构的速度和幅度。例如，2005年用集中度分析工具预判手机行业终局的人会看到Nokia/Motorola/Samsung的高集中度格局——而iPhone作为"电脑公司做的手机"完全绕开了传统手机行业的竞争维度。Christensen的教训是：集中度分析可以告诉你"如果行业逻辑不变谁会赢"，但对"行业逻辑会不会被颠覆"这个问题无能为力。
+#### W. Brian Arthur批判
 
+**W. Brian Arthur**（Santa Fe Institute，"Increasing Returns and Path Dependence in the Economy"作者）的收益递增经济学为集中度分析提供了更深层的挑战。Arthur论证：在技术密集型行业中，市场集中度不是由"网络效应强度"或"规模经济边界"等静态因素决定的，而是由历史偶然事件触发的"正反馈锁定"（lock-in through increasing returns）决定的——比如QWERTY键盘和VHS录像带的胜利。Arthur的核心洞见：高集中度可能不是因为某些行业"天然倾向于赢家通吃"，而是因为某个随机时间点上某个玩家通过正反馈循环锁定了市场。这意味着集中度分析工具箱中的"网络效应强度评估"应被改造为"正反馈循环是否存在及其触发阈值评估"——两者看似相近但分析逻辑完全不同。
 ## Framework Gallery
 
 ### 关联框架卡

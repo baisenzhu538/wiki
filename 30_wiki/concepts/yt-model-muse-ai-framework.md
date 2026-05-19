@@ -85,10 +85,12 @@ MUSE 是「AI 共存的未来世界」的四层认知框架：从底层技术变
 
 ### 外部攻击
 
-#### Benedict Evans：批判
+#### Benedict Evans批判
 
-#### Gary Marcus：批判
+**Benedict Evans**（a16z前合伙人，独立科技分析师）对AI分层框架的核心批评是"自上而下的分类学在技术爆发期是徒劳的"。他在多篇年度报告（"AI and the Big Five"、"Ways to Think About AI"）中指出，AI对产业的重塑不是按"变革层→使用层→创业层→奇迹层"的线性涌现推进的，而是在每个层面同时发生混乱的重组。MUSE框架给人"看清了格局"的安心感，但Evans会提醒：真正的颠覆发生在这四层之间的灰色地带——比如"模型即产品"（model-as-product）同时跨越E层和U层，是框架无法干净归类的形态。分类学的清洁性恰恰是它在技术转型期的缺陷，因为它过滤掉了最有信号价值的杂交形态。
+#### Gary Marcus批判
 
+**Gary Marcus**（NYU心理学教授，《Rebooting AI》作者，深度学习批评者）对AI全景框架的批评会聚焦在"涌现"这一连接逻辑上。MUSE用"涌现"连接四层，但Marcus认为这是一个"魔法词汇"（magic word）——它描述了一个我们尚未理解的现象（海量数据+算力→突然出现的能力），但把它当作框架的连接逻辑是混淆了描述和解释。Marcus在"Deep Learning is Hitting a Wall"(2022)中论证，符号推理和神经网络的混合路径才是通向通用AI的关键——这一路径在MUSE的四层分类中没有被表达为独立的技术方向。
 ## Framework Gallery
 
 ### 关联框架卡
