@@ -455,4 +455,9 @@ kdo validate --v15 --watch --json              # JSON 输出（给 CI/tmux statu
               tests/test_validate_v15.py, tests/test_watch.py (8 files)
 ```
 
-**行动**：黄药师 commit 全部改动 → `git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"`
+**行动**：黄药师在 KDO repo 目录执行：
+```bash
+cd "C:\Users\Administrator\Knowledge Delivery OS 0.0.1"
+git add -A
+git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
+```

@@ -146,7 +146,9 @@ updated: 2026-05-19
 - 11 tests（check/changelog/module guess/version state 全覆盖）
 - 实测 `build --check` → PASS
 
-**⚠️ 全部未 commit**：20 个文件（12 modified + 8 untracked），需黄药师 commit：
-```
-git add -A && git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
+**⚠️ 全部未 commit**：20 个文件（12 modified + 8 untracked），在 KDO repo 目录执行：
+```bash
+cd "C:\Users\Administrator\Knowledge Delivery OS 0.0.1"
+git add -A
+git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
 ```
