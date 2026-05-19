@@ -108,13 +108,6 @@ reviewed_by: "黄药师"
 - claim:boundary-02 [conf=0.80] "十年"的时间锚定缺乏差异化——应以"有效刻意练习小时数"为参照，而非日历年份
 - claim:boundary-03 [conf=0.75] L6不是最终段位——爬山地图L6右上角没有标注L7是刻意留白，留给达到L6的人自己去定义下一个段位
 
-## Critique
-
-### 外部攻击
-
-#### David Epstein：批判
-
-#### Carol Dweck：批判
 
 ## Visual Analysis
 

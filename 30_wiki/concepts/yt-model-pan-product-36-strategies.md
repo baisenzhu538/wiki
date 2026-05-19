@@ -110,13 +110,6 @@ reviewed_by: "黄药师"
 - claim:boundary-03 [conf=0.75] 审美工具箱从"黑盒到白盒"的跳跃缺乏路径——从"这个好"到"为什么好"再到"可复现的要素清单"，目前依赖个人悟性而非可操作步骤
 - claim:boundary-04 [conf=0.80] 36计与IPO模型的关系未被显式化——需求=Input、审美=Process、落地=Output，但课程中刻意不做此对应以避免过度理论化
 
-## Critique
-
-### 外部攻击
-
-#### Henry Mintzberg：批判
-
-#### Don Norman：批判
 
 ## Visual Analysis
 

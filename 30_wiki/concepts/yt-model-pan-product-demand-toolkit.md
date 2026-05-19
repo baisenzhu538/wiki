@@ -98,13 +98,6 @@ reviewed_by: "黄药师"
 - claim:boundary-03 [conf=0.75] 13张卡牌侧重定性洞察，缺少类似精益实验的定量验证环节——"用户说的"和"用户做的"之间的gap没有被系统处理
 - claim:boundary-04 [conf=0.80] 单张卡牌能解决约60%的问题，多张叠加到约90%——不应期望一张卡牌解决全部
 
-## Critique
-
-### 外部攻击
-
-#### Clayton Christensen：批判
-
-#### Erika Hall：批判
 
 ## Constraints & Boundaries
 

@@ -93,13 +93,6 @@ reviewed_by: "黄药师"
 - claim:boundary-03 [conf=0.75] "美好作品想象"与"最佳实践建模"存在张力——建模追求"不比他们差"，想象追求"超越最佳"。是先建模再超越还是边建边超越，路径不够清晰
 - claim:boundary-04 [conf=0.85] 审美能力需与需求理解（知道为谁做）和落地能力（能做出来）配合使用——单一维度的审美提升不足以产出好作品
 
-## Critique
-
-### 外部攻击
-
-#### Robert Pirsig：批判
-
-#### Pierre Bourdieu：批判
 
 ## Constraints & Boundaries
 

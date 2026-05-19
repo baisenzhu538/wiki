@@ -104,13 +104,6 @@ reviewed_by: "黄药师"
 - claim:boundary-02 [conf=0.75] "修养"的不可操作性——修养是内在品质，难以衡量和教学。相比36张卡牌的具体工具，三大修养更像是"道"而非"术"。学员更需要"如何从凑合到提升"的具体阶梯
 - claim:boundary-03 [conf=0.80] 三大修养假设设计者有足够的自驱力和长期视角——"永远"二字本身就是高强度承诺，不适合追求速成的场景
 
-## Critique
-
-### 外部攻击
-
-#### Alasdair MacIntyre：批判
-
-#### Cal Newport：批判
 
 ## Visual Analysis
 

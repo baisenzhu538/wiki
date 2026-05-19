@@ -103,13 +103,6 @@ reviewed_by: "黄药师"
 - claim:boundary-03 [conf=0.75] 磨创新层5张卡牌偏向"心法"而非"技法"——假设拆解、灵感闪现、解放思想更接近思维习惯而非可操作工具，可能导致"高阶卡牌反而更难落地"的悖论
 - claim:boundary-04 [conf=0.80] 落地工具箱依赖需求工具箱（知道为谁做）和审美工具箱（知道做成什么样）的输出——单独使用落地卡牌会导致"做得快但做错了"
 
-## Critique
-
-### 外部攻击
-
-#### Eliyahu Goldratt：批判
-
-#### Bent Flyvbjerg：批判
 
 ## Constraints & Boundaries
 
