@@ -24,11 +24,17 @@ updated: 2026-05-19
 | ⑥ | v1.5 全库修复（89 FAILED） | 质量 | ⏳ | 等 scaffold 工具 + 设计域完成后启动 |
 | ⑦ | 管理工具箱 Batch 3（T6+T7+T8） | 工具箱 | ⏳ | 穿插在 89 卡修复间隙 |
 
-### 老顽童 — 立即要做
+### 老顽童 — 执行顺序（从上到下，做完一个再看下一个）
 
-1. **🆕 Anthropic 创始人手册**：三步编译法 → concept 卡（优先）
-2. **🔍 修双三角卡结构**：H3→H4 攻击者标题 + 删重复 related（审查 A-，5min）
-3. **⑤ 设计域 S1**：`AI 生图模型选型指南` skill 文件
+| 顺序 | 任务 | 内容 | 估时 | 备注 |
+|:----:|------|------|:--:|------|
+| **1** | 🔍 双三角卡结构修复 | H3→H4 攻击者标题 + 删重复 related | 5min | 审查 A-，修完跑 `kdo validate --v15 --card yt-model-dual-triangle-competitiveness` 验证 |
+| **2** | 🆕 Anthropic 创始人手册 | 三步编译法 → concept 卡 | 2h | 详见 [[70_product/tasks/laowantong-next-tasks#⑧ Anthropic AI 原生初创公司手册]] |
+| **3** | ⑤ 设计域 S1 | `AI 生图模型选型指南` skill | 1.5h | 详见 [[70_product/tasks/laowantong-next-tasks#⑤ 设计域 → 洪七公/段王爷 Skills]] |
+| **4** | ⑤ 设计域 S2 | `AI 设计 Prompt 工程` skill | 1.5h | S1 审查通过后启动 |
+| **5** | ⑤ 设计域 S3 | `设计资产管理规范` skill | 1h | S2 审查通过后启动 |
+
+> **规则**：顺序执行，不跳。每完成一个 → 跑验证 → 通知欧阳锋审查。不要等批次全部完成。
 
 ---
 
