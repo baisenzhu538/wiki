@@ -44,6 +44,7 @@ yitang:
   level: advanced
 source_refs:
   - 00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt
+  - 00_inbox/科学决策/一堂-科学决策-ROI高阶训练全景图.png
 created_at: '2026-05-17'
 updated_at: '2026-05-17'
 estimated_tokens: 2400
