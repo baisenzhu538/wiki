@@ -1,0 +1,4113 @@
+{
+  "passed": [],
+  "failed": [
+    {
+      "card_id": "EC\u5de5\u4e1a\u5316\u89c4\u8303\u624b\u518c",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "HIS\u7cfb\u7edf\u5f00\u53d1\u5b9e\u73b0\u65b9\u6848-\u67b6\u6784\u5e08\u6307\u5357",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "HIS\u7cfb\u7edf\u6df1\u5ea6\u8c03\u7814",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "business-research-skill-oscar-13-weapon-system",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "deepseek-v4-\u5728\u77e5\u8bc6\u7ba1\u7406\u7cfb\u7edf\u4e2d\u7684\u5e94\u7528",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "ec\u5de5\u4e1a\u5316\u89c4\u8303\u624b\u518c-v2.8.0",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "graph-rag",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "kdo_product_design_agent_final",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "kimi-\u6df1\u5ea6\u8c03\u7814\u96c6\u7fa4\u65b9\u6cd5\u8bba-deep-research-swarm",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "knowledge-delivery-os-\u5feb\u901f\u4f53\u9a8c\u6307\u5357-\u98de\u4e66\u4e91\u6587\u6863",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "master-ai-info-literacy",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "master-antifragile-checklist",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 7,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "master-cognitive-bias-checklist",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "master-decision-hygiene",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "master-first-principles",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "master-knowledge-compound",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 7,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "master-systems-thinking",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 7,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "obsidian-kdo-\u5185\u5bb9\u4ea7\u51fa\u5de5\u4f5c\u6d41-\u4ea7\u54c1\u8bbe\u8ba1\u5927\u7eb2",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "paddleocr-skill",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "research_methodology",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "sprint-2-\u95e8\u7981\u4e3e\u8bc1\u9a8c\u6536",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "truman-perspective-skill",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "web-scraping-\u4e09\u5251\u5ba2-scrapling-crawl4ai-firecrawl",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yc-\u653e\u51fa\u4e00\u5957ai-native-\u516c\u53f8\u7ec4\u7ec7\u65b9\u6cd5\u8bba\u76f4\u63a5\u628a\u516c\u53f8\u5f53\u64cd\u4f5c\u7cfb\u7edf\u6765\u8bbe\u8ba1\u4e2d\u5c42\u7ba1\u7406\u53d8\u6210\u4e86-markdown",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yitang-course-map",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-case-mandatory-cases",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-composite-pan-product-methodology",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-concept-peas-insight",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 7,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-decision-depth-ladder",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-259-milestone",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-barriers",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-business-growth",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-channel-exploration",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-concentration-analysis",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-five-step-method",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-fundraising",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-growth-flywheel",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-industrial-production",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-industry-forecast",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-key-hypotheses",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-lean-validation",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-liberate-thinking",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-opportunity-selection",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-pragmatic-startup",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-product-core",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-research-camp",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-research-cognition",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-scientific-method",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-spin-selling",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-truth-seeking",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-unit-model",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-aesthetic-progression",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 7,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-agent-architecture",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-model-cognitive-upgrade-framework",
+      "structure": "standard-concept",
+      "h4_count": 1,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=1/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-conversion-optimization",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-deep-review-iceberg",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-five-step-canvas",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-ipo-complete-checklist",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-ipo-learning-strategy",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-liberate-thinking-layers",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-management-map",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-muse-ai-framework",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-pan-product-36-strategies",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-model-pan-product-aesthetic-toolkit",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-model-pan-product-climbing-map",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-model-pan-product-demand-toolkit",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-model-pan-product-execution-toolkit",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-model-pan-product-three-virtues",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-model-personal-map",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-personal-pitch-toolkit",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-prediction-model",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-product-core-metrics",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-product-excellence",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-progress-map",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-prompt-engineering",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-questioning-practice-canvas",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-scientific-questioning-map",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-truman-career-routes",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-truman-five-step-growth",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-y-organization",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-aesthetic-collection",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-aesthetic-imagination",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-aesthetic-modeling",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-aesthetic-pool",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-five-step-method",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-industry-canvas",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-motivation-resistance",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-multi-perspective",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-need-discovery",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-peak-end-rule",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-project-background",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-scenario-walkthrough",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-surprise-formula",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-user-perspective",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-user-segmentation",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-10x-validation",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-business-modeling",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-core-and-boundary",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-design-principles",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-good-tools",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-hypothesis-decomposition",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-idea-spark",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-incubation-polish",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-liberate-thinking",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-logic-mece",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-low-cost-mvp",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-management-trilogy",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-milestone-breakdown",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-realistic-simulation",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-review-iteration",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-risk-management",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-roi-analysis",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-war-room",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-ai-capability",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-ai-thinking-card",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-personal-checklist-notes",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-deep-review",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-deliberate-practice",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-inspiration-flash",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-ipo-learning",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-knowledge-extraction",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-personal-knowledge-management",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-product-design",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-scientific-expression",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-thinking-models",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-time-management",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-verbatim-script",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-y-model-exploration-2",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-y-model-practice",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-aphorism",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-colloquialization",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-conflict",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-emotionalization",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-materialization",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-metaphor",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-quantification",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-scenarization",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-storytelling",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-sublimation",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-prompt-anti-flattery",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-prompt-brainstorming",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-prompt-engineering-andrew-ng",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-prompt-iterative-prompting",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-prompt-writing-workflow",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-system-course-map-lecture",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-tool-peas-agent-analysis",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "\u4e92\u8054\u7f51\u533b\u9662\u6a21\u5f0f\u6df1\u5ea6\u8c03\u7814\u62a5\u544a",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u4fdd\u8fbe\u4e91\u8bca\u6240\u6df1\u5ea6\u8c03\u7814\u62a5\u544a",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u5f00\u6e90HIS\u7cfb\u7edf\u4ee3\u7801\u6df1\u5ea6\u5206\u6790\u62a5\u544a",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u7d2b\u9cb8ai_\u667a\u80fd\u4f53\u5de5\u4f5c\u6d41\u5e73\u53f0_\u6df1\u5ea6\u5206\u6790\u4e0e\u4ea7\u54c1\u8bbe\u8ba1",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u7d2b\u9cb8ai\u667a\u80fd\u4f53\u5de5\u4f5c\u6d41\u5e73\u53f0",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u8857\u987aapp\u5168\u9762\u8c03\u7814\u62a5\u544a",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u8bca\u6240o2o\u5916\u5356\u5e73\u53f0\u4e1a\u52a1\u6df1\u5ea6\u8c03\u7814\u62a5\u544a",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u8f7b\u91cf\u7ea7\u8bca\u6240HIS\u8c03\u7814\u5168\u6e05\u5355",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u946b\u6e2f\u6e7ehis\u7cfb\u7edf\u5206\u9636\u6bb5\u6574\u6539\u62a5\u544a",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    }
+  ],
+  "warned": [
+    {
+      "card_id": "anthropic-\u5b98\u65b9\u53d1\u5e03\u521b\u59cb\u4eba\u624b\u518c\u6253\u9020-ai-\u539f\u751f\u521d\u521b\u516c\u53f8",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "tinyfish-agentic-web-infrastructure",
+      "structure": "research",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/1",
+        "DU=0/1",
+        "AT=0/1"
+      ]
+    },
+    {
+      "card_id": "yt-concept-ai-guard-brain",
+      "structure": "pan-product",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-concept-context-engineering",
+      "structure": "pan-product",
+      "h4_count": 3,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-concept-weapon-arsenal",
+      "structure": "pan-product",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-decision-ai-partner",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-decision-canvas",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-decision-consensus-iceberg",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-decision-full-process",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 7,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-decision-habit-shift",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-decision-height-toolkit",
+      "structure": "standard-concept",
+      "h4_count": 4,
+      "at_rows": 7,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-decision-review",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-decision-width-method",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 7,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-decision-y-model",
+      "structure": "pan-product",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-needs-analysis",
+      "structure": "pan-product",
+      "h4_count": 3,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-basic-skills",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-business-formula",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-company-culture",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-conversion-hacking",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-finance-basics",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-founder-role",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-goal-management",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-leadership-levels",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-onboarding",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-partnership-equity",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-project-management",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-scientific-decision",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-scientific-hiring",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-scientific-meetings",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-strategy-meeting",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-team-knowledge",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-management-toolkit-overview",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-deliberate-practice-growth",
+      "structure": "pan-product",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-dual-triangle-competitiveness",
+      "structure": "pan-product",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-entrepreneur-map",
+      "structure": "pan-product",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-pan-product-02",
+      "structure": "pan-product",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-pan-product-aesthetics",
+      "structure": "pan-product",
+      "h4_count": 2,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-pan-product-concepts",
+      "structure": "pan-product",
+      "h4_count": 2,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-pan-product-exploration",
+      "structure": "pan-product",
+      "h4_count": 2,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-pan-product-practice",
+      "structure": "pan-product",
+      "h4_count": 2,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-pan-product-tools",
+      "structure": "pan-product",
+      "h4_count": 2,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-research-action-camp-launch",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-research-competitor-toolkit",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-research-expert-interview",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-research-hypothesis-test",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-research-industry-canvas",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-research-intelligence-map",
+      "structure": "pan-product",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-research-mindset",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 7,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-research-osl-framework",
+      "structure": "pan-product",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-research-user-jtbd",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-research-weaponry-course",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-system-course-catalog",
+      "structure": "standard-concept",
+      "h4_count": 2,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-tool-equity-checklist",
+      "structure": "standard-concept",
+      "h4_count": 7,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-tool-hiring-scorecard",
+      "structure": "standard-concept",
+      "h4_count": 6,
+      "at_rows": 7,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-tool-knowledge-extraction",
+      "structure": "standard-concept",
+      "h4_count": 5,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-tool-meeting-designer",
+      "structure": "standard-concept",
+      "h4_count": 6,
+      "at_rows": 7,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-tool-okr-cycle",
+      "structure": "standard-concept",
+      "h4_count": 6,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-tool-onboarding-90day",
+      "structure": "standard-concept",
+      "h4_count": 7,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-tool-project-health-radar",
+      "structure": "standard-concept",
+      "h4_count": 6,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-tool-strategy-workshop",
+      "structure": "standard-concept",
+      "h4_count": 5,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "DU=0/2"
+      ]
+    }
+  ],
+  "batch_c": [],
+  "batch_a": [
+    {
+      "card_id": "EC\u5de5\u4e1a\u5316\u89c4\u8303\u624b\u518c",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "HIS\u7cfb\u7edf\u5f00\u53d1\u5b9e\u73b0\u65b9\u6848-\u67b6\u6784\u5e08\u6307\u5357",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "HIS\u7cfb\u7edf\u6df1\u5ea6\u8c03\u7814",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "business-research-skill-oscar-13-weapon-system",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "deepseek-v4-\u5728\u77e5\u8bc6\u7ba1\u7406\u7cfb\u7edf\u4e2d\u7684\u5e94\u7528",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "ec\u5de5\u4e1a\u5316\u89c4\u8303\u624b\u518c-v2.8.0",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "graph-rag",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "kdo_product_design_agent_final",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "kimi-\u6df1\u5ea6\u8c03\u7814\u96c6\u7fa4\u65b9\u6cd5\u8bba-deep-research-swarm",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "knowledge-delivery-os-\u5feb\u901f\u4f53\u9a8c\u6307\u5357-\u98de\u4e66\u4e91\u6587\u6863",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "obsidian-kdo-\u5185\u5bb9\u4ea7\u51fa\u5de5\u4f5c\u6d41-\u4ea7\u54c1\u8bbe\u8ba1\u5927\u7eb2",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "paddleocr-skill",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "research_methodology",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "sprint-2-\u95e8\u7981\u4e3e\u8bc1\u9a8c\u6536",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "truman-perspective-skill",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "web-scraping-\u4e09\u5251\u5ba2-scrapling-crawl4ai-firecrawl",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yc-\u653e\u51fa\u4e00\u5957ai-native-\u516c\u53f8\u7ec4\u7ec7\u65b9\u6cd5\u8bba\u76f4\u63a5\u628a\u516c\u53f8\u5f53\u64cd\u4f5c\u7cfb\u7edf\u6765\u8bbe\u8ba1\u4e2d\u5c42\u7ba1\u7406\u53d8\u6210\u4e86-markdown",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yitang-course-map",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-case-mandatory-cases",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-composite-pan-product-methodology",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-model-agent-architecture",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-model-pan-product-36-strategies",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-model-pan-product-aesthetic-toolkit",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-model-pan-product-climbing-map",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-model-pan-product-demand-toolkit",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-model-pan-product-execution-toolkit",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-model-pan-product-three-virtues",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-personal-ai-thinking-card",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-personal-knowledge-extraction",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-prompt-anti-flattery",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-prompt-brainstorming",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-prompt-engineering-andrew-ng",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-prompt-iterative-prompting",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-prompt-writing-workflow",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "yt-system-course-map-lecture",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u4e92\u8054\u7f51\u533b\u9662\u6a21\u5f0f\u6df1\u5ea6\u8c03\u7814\u62a5\u544a",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u4fdd\u8fbe\u4e91\u8bca\u6240\u6df1\u5ea6\u8c03\u7814\u62a5\u544a",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u5f00\u6e90HIS\u7cfb\u7edf\u4ee3\u7801\u6df1\u5ea6\u5206\u6790\u62a5\u544a",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u7d2b\u9cb8ai_\u667a\u80fd\u4f53\u5de5\u4f5c\u6d41\u5e73\u53f0_\u6df1\u5ea6\u5206\u6790\u4e0e\u4ea7\u54c1\u8bbe\u8ba1",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u7d2b\u9cb8ai\u667a\u80fd\u4f53\u5de5\u4f5c\u6d41\u5e73\u53f0",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u8857\u987aapp\u5168\u9762\u8c03\u7814\u62a5\u544a",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u8bca\u6240o2o\u5916\u5356\u5e73\u53f0\u4e1a\u52a1\u6df1\u5ea6\u8c03\u7814\u62a5\u544a",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u8f7b\u91cf\u7ea7\u8bca\u6240HIS\u8c03\u7814\u5168\u6e05\u5355",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    },
+    {
+      "card_id": "\u946b\u6e2f\u6e7ehis\u7cfb\u7edf\u5206\u9636\u6bb5\u6574\u6539\u62a5\u544a",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 0,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2",
+        "AT=0/3"
+      ]
+    }
+  ],
+  "batch_b": [
+    {
+      "card_id": "master-ai-info-literacy",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "master-antifragile-checklist",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 7,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "master-cognitive-bias-checklist",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "master-decision-hygiene",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "master-first-principles",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "master-knowledge-compound",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 7,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "master-systems-thinking",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 7,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-concept-peas-insight",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 7,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-decision-depth-ladder",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-259-milestone",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-barriers",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-business-growth",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-channel-exploration",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-concentration-analysis",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-five-step-method",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-fundraising",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-growth-flywheel",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-industrial-production",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-industry-forecast",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-key-hypotheses",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-lean-validation",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-liberate-thinking",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-opportunity-selection",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-pragmatic-startup",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-product-core",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-research-camp",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-research-cognition",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-scientific-method",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-spin-selling",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-truth-seeking",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-entrepreneur-unit-model",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-aesthetic-progression",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 7,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-cognitive-upgrade-framework",
+      "structure": "standard-concept",
+      "h4_count": 1,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=1/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-conversion-optimization",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-deep-review-iceberg",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-five-step-canvas",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-ipo-complete-checklist",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-ipo-learning-strategy",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-liberate-thinking-layers",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-management-map",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-muse-ai-framework",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-personal-map",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-personal-pitch-toolkit",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-prediction-model",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-product-core-metrics",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-product-excellence",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-progress-map",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-prompt-engineering",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-questioning-practice-canvas",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-scientific-questioning-map",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-truman-career-routes",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-truman-five-step-growth",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-model-y-organization",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-aesthetic-collection",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-aesthetic-imagination",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-aesthetic-modeling",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-aesthetic-pool",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-five-step-method",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-industry-canvas",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-motivation-resistance",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-multi-perspective",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-need-discovery",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-peak-end-rule",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-project-background",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-scenario-walkthrough",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-surprise-formula",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-user-perspective",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-demand-user-segmentation",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-10x-validation",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-business-modeling",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 6,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-core-and-boundary",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-design-principles",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-good-tools",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-hypothesis-decomposition",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-idea-spark",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-incubation-polish",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 4,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-liberate-thinking",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-logic-mece",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-low-cost-mvp",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-management-trilogy",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-milestone-breakdown",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-realistic-simulation",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-review-iteration",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-risk-management",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-roi-analysis",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-panproduct-execution-war-room",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-ai-capability",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-checklist-notes",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-deep-review",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-deliberate-practice",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-inspiration-flash",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-ipo-learning",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-knowledge-management",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-product-design",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-scientific-expression",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-thinking-models",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-time-management",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-verbatim-script",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-y-model-exploration-2",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-personal-y-model-practice",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-aphorism",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-colloquialization",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-conflict",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-emotionalization",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-materialization",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-metaphor",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-quantification",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-scenarization",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-storytelling",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-pitch-sublimation",
+      "structure": "pan-product",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    },
+    {
+      "card_id": "yt-tool-peas-agent-analysis",
+      "structure": "standard-concept",
+      "h4_count": 0,
+      "at_rows": 5,
+      "du_bullets": 0,
+      "issues": [
+        "ATK=0/2",
+        "DU=0/2"
+      ]
+    }
+  ]
+}
