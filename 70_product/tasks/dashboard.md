@@ -40,13 +40,13 @@ updated: 2026-05-19
 | 3 | `kdo validate --v15 --watch` | P2 | ✅ | A，纯标准库 |
 | 4 | `kdo watch` 依赖解耦 | P1 | ✅ | 4 tests |
 | 5 | scaffold 插入位置修正 | P2 | ✅ | Critique→CB/Synthesis 间 |
-| 6 | `kdo task` 自动化 + dashboard | **P0** | 🔨 | YAML frontmatter + CLI 子命令 |
+| 6 | `kdo task` 自动化 + dashboard | **P0** | ✅ | 6 tests, 5 子命令, 向后兼容 |
 | 7 | graph rebuild --incremental | P2 | ✅ | 5 tests, --full + incremental |
 | 8 | `kdo graph stats` | P3 | ✅ | 4 tests, --json, NOT BUILT |
 
 ### 黄药师 — 当前任务
 
-**Task 6**：`kdo task` 自动化（详见 [[70_product/tasks/huangyaoshi-next-tasks.md]]）
+**全部完成，无待办**。等待欧阳锋分配新任务。
 
 ---
 
@@ -82,3 +82,5 @@ updated: 2026-05-19
 | 05-19 | 欧阳锋 | 设计域转录稿清理 | ✅ → `00_inbox/design/cleaned/` |
 | 05-19 | 黄药师 | Task 7 graph rebuild --incremental | ✅ |
 | 05-19 | 欧阳锋 | 设计域方向调整 | 废弃 D1-D7 → 3 个 Skill |
+| 05-19 | 黄药师 | Task 6 kdo task 自动化 | ✅ 5 子命令 + 6 tests |
+| 05-19 | 黄药师 | Batch 2 全部完成 | Task 4-8 全线 ✅，247 tests pass |
