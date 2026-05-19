@@ -79,6 +79,7 @@ updated: 2026-05-19
 | 3 | 双三角 Excalidraw 重绘 | ✅ | `40_outputs/content/images/infographics/dual-triangle-competitiveness.excalidraw` |
 | 4 | wiki 勘误（归属错位） | ✅ | 已反馈 → `60_feedback/corrections/`，卡片修正由老顽童执行 |
 | 5 | 通道就绪确认 | ⏳ | 确认能读写上述输入/输出路径 |
+| 6 | 双三角文章审计 | ✅ | 审计 2 篇，发现 🔴归属错位 1 处 + 🟡引用/渠道 3 处，报告已交付 |
 
 ## 段王爷（Publisher）
 
@@ -92,8 +93,10 @@ updated: 2026-05-19
 
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
+| 老顽童 | 文章归属错位：`art_双三角纠错_v2` L51 "业务拆解"→创造力应为场景 | 洪七公审计发现，老顽童修 |
 | 老顽童 | Anthropic 卡 typo `斗姄`→`窘境` + 补 `reviewed_by` | 审查发现，修完即关 |
 | 老顽童 | 双三角攻击者位置（Framework Gallery → Constraints & Boundaries） | 建议移，非阻塞 |
+| 洪七公 | `art_双三角纠错_v2` 修复后→多模态转换 | 等老顽童修完归属错位 |
 | 洪七公 | 通道就绪确认 | 确认能读写输入/输出路径 |
 
 ---
