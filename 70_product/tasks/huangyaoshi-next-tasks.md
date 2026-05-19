@@ -10,7 +10,7 @@
 - Batch 3: Graph RAG 深化 + Quality Gate v2
 - Batch 4: Skill 审查流水线 + KDO Build 系统
 
-**当前状态**：全部完成，无待办。
+**🔥 紧急**：Task 13-14 — scaffold 攻击者检测盲区 + 空 H4 校验。71 张卡受损。见 [[#🔥 Batch 5：scaffold 紧急修复]]。
 
 **⚠️ 欧阳锋审查（2026-05-19）**：代码质量 A，但全部未 commit。详见 [[#🔍 欧阳锋审查（2026-05-19）]]
 
@@ -158,6 +158,8 @@ Graph RAG Index
 | 10 | Quality Gate v2（文章+skill 校验） | ✅ validate 扩展到 article/skill 类型, 9 tests |
 | 11 | Skill 审查流水线 | ✅ `kdo validate --skill-dir` + batch 扫描 + L1 5节检查, 9 tests |
 | 12 | KDO Build 系统 | ✅ `kdo build` + CHANGELOG + build_state.json, 11 tests |
+| 13 | 🔥 scaffold 检测盲区 | `_count_external_attacks` 识别旧格式，dry-run 不误伤 |
+| 14 | 空 H4 校验 | H4 下 <100 字不计入，pytest ≥3 new tests |
 
 ---
 

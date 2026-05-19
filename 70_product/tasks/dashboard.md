@@ -120,6 +120,8 @@ updated: 2026-05-19
 
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
+| 老顽童 | scaffold 清空 71 张卡攻击者内容 | 等黄药师修 Bug 1/2，然后 git 恢复 |
+| 黄药师 | 🔥 scaffold 检测盲区 + 空 H4 校验 | P0，~45min |
 | 老顽童 | 文章归属错位：`art_双三角纠错_v2` L51 "业务拆解"→创造力应为场景 | 洪七公审计发现，老顽童修 |
 | 老顽童 | Anthropic 卡 typo `斗姄`→`窘境` + 补 `reviewed_by` | 审查发现，修完即关 |
 | 老顽童 | 双三角攻击者位置（Framework Gallery → Constraints & Boundaries） | 建议移，非阻塞 |
