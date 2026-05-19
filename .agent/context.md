@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-19
 active_branch: main
-active_task: 老顽童→下个任务（补related边→双三角文章v2→提案新域）。黄药师→质量门自动化 `kdo validate --v15` 完成，待欧阳锋审查。所有域编译/升级完成。
+active_task: 老顽童→下个任务（①补related边 ②双三角文章v2 ③提案新域）。黄药师→修 `--domain` 过滤 bug（[[70_product/tasks/fix-validate-v15-domain-filter.md]]，A-审查通过，一个 P1 bug 待修）
 blockers: []
 ---
 
@@ -88,15 +88,16 @@ blockers: []
 ### 黄药师状态（基础设施唯一负责人）
 
 - **不接卡片量产**。专注 KDO CLI、方法论建设、质量门、Graph RAG。
-- pytest ✅（9.0.3，182/182 passing）| 坚果云备份 ✅
+- pytest ✅（9.0.3，205/205 passing）| 坚果云备份 ✅
 - 权限已扩：`.claude/settings.json` 开放 vault 全路径 + kdo 命令免批
+- **`kdo validate --v15` → A- 审查通过**：205 卡全量扫描 0 崩溃，24 tests，JSON/--card/--type 均正常。一个 P1 bug：`--domain` filter 因 `_read_frontmatter` 不处理多行 YAML 列表（168/195 卡受影响）→ [[70_product/tasks/fix-validate-v15-domain-filter.md]]
 - **已批准 backlog**：[[70_product/tasks/kdo-infrastructure-backlog-proposal.md]]
-  - P0: Graph RAG 索引重建（29 张新卡未进索引）
-  - P1-A: `kdo lint --accept-baseline`（消除 634 条 warning 噪音）
-  - P1-B: `kdo lint --structure-report`（4 种卡片结构适配）
-  - P2-A: 工业化手册 v1.7（收录 Batch C 经验）
-  - P2-B: `kdo backup` 自动化
-  - 后续：质量门自动化 `kdo validate --v15`（另案提案）
+  - P0: Graph RAG 索引重建 ✅
+  - P1-A: `kdo lint --accept-baseline` ✅
+  - P1-B: `kdo lint --structure-report` ✅
+  - P2-A: 工业化手册 v1.7 ✅
+  - P2-B: `kdo backup` ✅
+  - P3: 质量门自动化 `kdo validate --v15` ✅（A-，一个 bug 待修）
 
 ### Design 域 → 待建
 
