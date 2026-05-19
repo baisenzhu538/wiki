@@ -73,17 +73,17 @@ body 高度提升段添加：`[[yt-model-liberate-thinking-layers]]`
 | T1 [[yt-tool-meeting-designer]] | A | Kahneman+Perrow |
 | T2 [[yt-tool-hiring-scorecard]] | A | Kahneman+Tetlock |
 
-**⚠️ T1 需修一个小 typo**（Line 88 "只需要知会议会把议程定好"语义不通），修完直接推进 Batch 2。
+**⚠️ T1 typo 仍未修复**（Line 90 "只需要知会议会把议程定好"语义不通）。
 
 ---
 
-## ④ 管理工具箱 Batch 2 — T3+T4 已交付，T5 制作中
+## ④ 管理工具箱 Batch 2 — T3+T4+T5 全部完成 ✅
 
 | 卡 | 评级 | 攻击者 | 状态 |
 |----|------|--------|------|
-| T3 [[yt-tool-okr-cycle]] | **A** | Mintzberg（涌现战略）+ Ordonez（目标副作用） | ✅ 审查通过。⚠️ 修 typo：Line 106 `团队脚脑暴`→`团队头脑风暴` |
+| T3 [[yt-tool-okr-cycle]] | **A** | Mintzberg（涌现战略）+ Ordonez（目标副作用） | ✅ 审查通过。⚠️ typo 仍未修复：Line 105 `团队脚脑暴`→`团队头脑风暴` |
 | T4 [[yt-tool-strategy-workshop]] | **A+** | Christensen（创新者窘境）+ Taleb（黑天鹅/规划伪科学） | ✅ 审查通过。全库迄今最佳 tool 卡，建议作为后续标准 |
-| T5 [[yt-tool-knowledge-extraction]] | **A** | Nonaka&Takeuchi（SECI 模型）+ Snowden（Cynefin——复杂域知识不可萃取） | ✅ 审查通过。⚠️ 修 typo：Line 227 `显性知诇`→`显性知识`，Line ~275 `喊一喊子`→`喊一嗓子` |
+| T5 [[yt-tool-knowledge-extraction]] | **A** | Nonaka&Takeuchi（SECI 模型）+ Snowden（Cynefin——复杂域知识不可萃取） | ✅ 审查通过。typo 已修复 ✅ |
 
 **审查备注**：
 - T4 是全工具箱 5 张 tool 卡的结构标杆：会前四件套+会中五段式+会后三检查，11 步各有时间分配+关键约束+退出标准
