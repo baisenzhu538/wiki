@@ -9,6 +9,7 @@
 | **1-4** | ✅ 双三角修复 + Skill 修复 + Anthropic + 设计域复审 | — | 全 A/A-，审查通过 |
 | **5** | ✅ ① 补 related 边 | 30min | 3 wikilink + frontmatter relation ✅ |
 | **6** | ✅ ⑨ 科学决策域 35 PNG 增强消化 | 3h | 审计报告：91%覆盖，2 遗漏→amendment ✅ |
+| **🔧** | ⚠️ 顺手修（开工前 2min） | 2min | ① Anthropic `斗姄`→`窘境` + `reviewed_by` ② 双三角攻击者移入 Constraints & Boundaries |
 | **7** | ⑥ v1.5 全库修复 ← **当前** | 分批 | Batch B（~69张缺Critique）→ Batch A（13张全缺）。详见表下方策略 |
 | **8** | ⑦ 管理工具箱 Batch 3（T6+T7+T8） | 6h | 每 5 张 B 卡后穿插 1 张 T 卡换脑 |
 
@@ -429,3 +430,54 @@ kdo validate --v15 --card <id>
 **2. [[yt-model-dual-triangle-competitiveness]] — 结构微调（建议）**
 - 两个 H4 攻击者目前在 `## Framework Gallery` 下，惯例放 `## Constraints & Boundaries`
 - 不影响 `kdo validate --v15`，不改也行
+
+---
+
+## 🔍 v1.5 修复策略（欧阳锋拍板 2026-05-20）
+
+> 扫描结果：215 卡，54 pass / 89 fail / 72 warn。89 张 FAILED 分两批。
+
+### 执行顺序：B → A
+
+| 顺序 | Batch | 问题 | 卡数 | 每卡 | 总估时 |
+|:--:|-------|------|:--:|:--:|:--:|
+| **1** | B | 缺 Critique（有 DU table + AT table） | ~69 | 30min | ~35h |
+| **2** | A | 全信号缺失（ATK=0/DU=0/AT=0） | ~13 | 90min | ~20h |
+
+### 为什么 B 先做
+
+B 卡结构半成型，DU table 和 AT table 已存在，只差 `## Constraints & Boundaries` + 2 个 H4 攻击者。做完 69 张后 FAILED 从 89 降到 ~20，再集中突破 13 张 A 卡。
+
+### B 卡执行模板
+
+每张 B 卡在 `## Synthesis` 前插入：
+
+```markdown
+## Constraints & Boundaries
+
+#### [学者名] — [攻击标题]
+[2-3 句攻击论证，含具体引用来源]
+
+#### [学者名] — [攻击标题]
+[2-3 句攻击论证，含具体引用来源]
+```
+
+攻击者选择原则：
+- pan-product 卡 → JTBD、精益创业、设计思维、系统动力学范式
+- 同一域内不同卡使用不同攻击者（不重复）
+- 攻击要有紧迫感："这个框架的边界在哪？什么时候会失效？"
+
+### CLI
+
+`kdo validate --v15` 文本输出正常，**不用 `--json`**（有编码问题）。
+
+### 穿插规则
+
+- 每 5 张 B 卡 → `kdo validate --v15 --card <id>` 验证 PASS → 通知欧阳锋抽检
+- 每 5 张 B 卡后穿插 1 张 T 卡（T6/T7/T8）换脑
+- Batch B 做到 30 张时暂停，让欧阳锋审查节奏和攻击者质量
+
+### 验收
+
+- `kdo validate --v15` FAILED 从 89 降到 0
+- 不得新增 WARN
