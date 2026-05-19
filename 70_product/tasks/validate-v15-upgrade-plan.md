@@ -129,13 +129,13 @@ Batch E — TRIAGE: Warnings (71 cards, ~35h)
 
 ## 验收标准
 
-- [ ] 五种 Batch（A-E）分组逻辑正确
-- [ ] 被引次数排序（高引优先）
-- [ ] 工作量估计合理（与实际 Batch C 数据偏差 <30%）
-- [ ] `--domain` / `--batch-size` 过滤正常
-- [ ] JSON 输出可用
-- [ ] pytest ≥5 新 test cases，全绿
-- [ ] 对 205 张真实卡输出 plan，无崩溃
+- [x] 五种 Batch（A-E）分组逻辑正确
+- [x] 被引次数排序（高引优先）
+- [x] 工作量估计合理（与实际 Batch C 数据偏差 <30%）
+- [x] `--domain` / `--batch-size` 过滤正常
+- [x] JSON 输出可用
+- [x] pytest ≥5 新 test cases，全绿
+- [x] 对 205 张真实卡输出 plan，无崩溃
 
 ## 不做
 
