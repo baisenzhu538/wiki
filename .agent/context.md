@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-19
 active_branch: main
-active_task: 黄药师→三件顺序执行（scaffold → 转录稿清理 → validate watch）。老顽童→七件顺序执行（详细队列见各自任务文件）。
+active_task: 黄药师→三件顺序执行（scaffold ✅ → 转录稿清理 → validate watch）。老顽童→七件顺序执行（详细队列见各自任务文件）。
 blockers: []
 ---
 
@@ -147,6 +147,20 @@ blockers: []
 | `kdo lint --structure-report` | 全库卡片按 H2 结构聚类，输出类型分布摘要 |
 
 ## 最近决策
+
+### 2026-05-19：黄药师 `kdo scaffold` 完成 ✅
+
+- **任务文件**：[[70_product/tasks/kdo-scaffold-v15.md]]
+- **核心实现**：`kdo/commands/quality.py` +210 行，`kdo/cli.py` +10 行
+  - `_scaffold_card(card_path, concepts_dir, write, hints)` — 主逻辑：读卡→诊断→生成骨架
+  - `_get_attacker_suggestions(domains, existing, concepts_dir)` — 同域扫描攻击者名→去重→频次排序→top 3
+  - `_generate_critique_full` / `_generate_attack_only` / `_generate_dont_use` / `_generate_triggers` — 四类骨架生成器
+- **CLI 接口**：`kdo scaffold --card <id>` / `--batch A|B|C|D|E` / `--from-plan [--write] [--no-hints]`
+- **智能攻击者建议**：从同域卡片中实际提取（非硬编码），排除已用攻击者，按频次排序推荐 top 3
+- **全库验证**：`--from-plan` 覆盖 115 张可 scaffold 卡片，0 崩溃
+- **内容安全**：`--write` 只追加不修改已有内容，pytest 逐内容验证
+- **pytest**：222 passed, 1 skipped（+17 新 scaffold tests）
+- **KDO CLI 新增命令**：`kdo scaffold`
 
 ### 2026-05-19：新任务分配 — scaffold（黄药师）+ 设计域规划
 

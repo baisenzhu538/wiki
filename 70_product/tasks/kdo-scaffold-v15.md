@@ -1,11 +1,12 @@
 ---
 id: kdo-scaffold-v15
 title: "kdo scaffold — 为缺失 v1.5 信号的卡片自动生成升级骨架"
-status: todo
+status: done
 priority: P0
 assigned_to: 黄药师
 reviewer: 欧阳锋
 created: 2026-05-19
+completed: 2026-05-19
 depends_on: validate-v15-upgrade-plan
 ---
 
@@ -171,16 +172,16 @@ kdo scaffold --card <id> --no-hints   # 纯骨架不带智能提示（快速模�
 
 ## 验收标准
 
-- [ ] `kdo scaffold --card <id>` 对已有 Critique 的卡不追加重复节
-- [ ] `kdo scaffold --card <id>` 对缺 Critique 的卡正确生成完整骨架（含攻击者提示）
-- [ ] `kdo scaffold --card <id>` 对缺 Action Triggers 的卡正确追加 AT 表（不覆盖已有的 2 行只补 1 行）
-- [ ] `--batch A/B/C/D/E` 分组正确
-- [ ] `--write` 实际写入，`dry-run`（默认）只输出 diff
-- [ ] 攻击者建议不推荐该卡已有的攻击者
-- [ ] 同域攻击者池从实际卡片数据中提取，非硬编码
-- [ ] 对 205 张真实卡运行 `--from-plan`，无崩溃
-- [ ] 写入后原卡的已有内容完整保留（逐字节验证 ≥3 张卡）
-- [ ] pytest ≥8 新 test cases，全绿
+- [x] `kdo scaffold --card <id>` 对已有 Critique 的卡不追加重复节
+- [x] `kdo scaffold --card <id>` 对缺 Critique 的卡正确生成完整骨架（含攻击者提示）
+- [x] `kdo scaffold --card <id>` 对缺 Action Triggers 的卡正确追加 AT 表（不覆盖已有的 2 行只补 1 行）
+- [x] `--batch A/B/C/D/E` 分组正确
+- [x] `--write` 实际写入，`dry-run`（默认）只输出 diff
+- [x] 攻击者建议不推荐该卡已有的攻击者
+- [x] 同域攻击者池从实际卡片数据中提取，非硬编码
+- [x] 对 205 张真实卡运行 `--from-plan`，无崩溃
+- [x] 写入后原卡的已有内容完整保留（逐字节验证 ≥3 张卡）
+- [x] pytest ≥8 新 test cases，全绿
 
 ## 不做
 
