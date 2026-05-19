@@ -93,7 +93,9 @@ body 高度提升段添加：`[[yt-model-liberate-thinking-layers]]`
 
 ---
 
-## ⑤ 设计域（Design Domain）— 工具箱完成后启动
+## ⑤ 设计域 → 洪七公/段王爷 Skills（方向调整）
+
+> **2026-05-19 欧阳锋拍板**：废弃 D1-D7 卡片地图 + 两篇文章方案。这不是知识卡片（不需要 Critique/攻击者），是操作手册。产出改为 3 个 skill 文件，供洪七公和段王爷直接调用。格式参照 `[[40_outputs/capabilities/skills/design-prompt-iteration/SKILL.md]]`。
 
 ### 素材
 
@@ -101,61 +103,41 @@ body 高度提升段添加：`[[yt-model-liberate-thinking-layers]]`
 
 | 文件 | 内容 | 大小 | 状态 |
 |------|------|------|------|
-| `AI设计-AI设计基础01.txt` | 月白老师第一期分享：AI 生图历史（GAN→VAE→Diffusion）、模型对比（GPT-2/巨米4.0/Nano Banana）、"去油腻"概念、为什么 AI 不能替代设计师 | 72KB | ✅ 待清理 |
-| `AI设计-AI设计师实操培训01.txt` | 月白老师第二期分享：Leo 文创案例、一堂方法论在设计场景的迁移（泛产品设计/设计MVP/最佳实践/审美十层解读）、AI prompt 的"拜拜"隐喻 | 122KB | ✅ 待清理 |
+| `AI设计-AI设计基础01.txt` | 月白老师第一期分享 | 72KB | ✅ 已清理 → `cleaned/` |
+| `AI设计-AI设计师实操培训01.txt` | 月白老师第二期分享 | 122KB | ✅ 已清理 → `cleaned/` |
 | `prompts/ai-image-generation.md` | NANO BANANA PRO 提示词集合链接 | 230B | ✅ 骨架 |
 
-### 执行步骤
+### 产出：3 个 Skill
 
-#### Step 0 — 清理转录稿 ✅
+| # | Skill 名称 | 给谁用 | 素材来源 | 核心内容 |
+|---|-----------|--------|---------|---------|
+| **S1** | AI 生图模型选型指南 | 洪七公 | 素材1 前半 | GPT-2o / 巨米4.0 / Nano Banana 场景匹配矩阵、"去油腻"概念、何时用/不用 |
+| **S2** | AI 设计 Prompt 工程 | 洪七公 | 素材2 | "拜拜"工作流（说出来→写下来→喂给AI）、设计MVP、灵感画布五维检索 |
+| **S3** | 设计资产管理规范 | 段王爷 | 素材1 后半 | 8要素命名法、四类资产沉淀、输出格式规范 |
 
-两份转录稿已通过 `kdo clean-transcript` 清理，输出到 `00_inbox/design/cleaned/`：
+### Skill 格式规范
 
-| 输入 | 输出 | 行数 |
-|------|------|------|
-| `AI设计-AI设计基础01.txt` | `AI设计-AI设计基础01_cleaned.md` | 1686 → 1661 |
-| `AI设计-AI设计师实操培训01.txt` | `AI设计-AI设计师实操培训01_cleaned.md` | 3270 → 3201 |
+参照 `[[40_outputs/capabilities/skills/design-prompt-iteration/SKILL.md]]`，每个 skill 必须包含：
 
-> 注：第二份转录稿 ASR 质量一般（碎片行较多），但核心概念完整可读。
+```markdown
+# Skill Name
 
-#### Step 1 — Ingest
+## Purpose（一句话说清干什么）
 
-清理后的转录稿走 `kdo ingest` → 创建 `10_raw/sources/` 副本 + wiki 骨架。
+## When to Use（触发条件）
 
-#### Step 2 — 编译卡片
+## When NOT to Use（边界——这很重要）
 
-从两份转录稿提取可复用知识，建议卡片地图（待老顽童消化素材后细化）：
+## Protocol / Guide（操作步骤，能照着做）
 
-| 编号 | 暂定标题 | 类型 | 内容 |
-|------|---------|------|------|
-| D1 | AI 生图技术演进 | concept | GAN→VAE→Diffusion→GPT-2o，技术路线 + 关键转折 |
-| D2 | AI 设计模型选型指南 | tool | GPT-2o vs 巨米4.0 vs Nano Banana，场景匹配矩阵 |
-| D3 | 设计 MVP 方法论 | tool | 大设计项目拆解为小 MVP，与一堂 MVP 方法论的区别 |
-| D4 | AI 设计 Prompt 工程 | tool | "说出来→写下来→喂给AI"的口喷工作流 + NANO BANANA PRO 提示词 |
-| D5 | 视觉最佳实践检索 | tool | 设计参考的搜寻→筛选→迁移策略 |
-| D6 | 审美判断十层解读 | framework | 设计的十层评判维度（月白老师提炼版） |
-| D7 | AI 时代设计师角色重塑 | concept | "AI 不会替代设计师，但会替代不会用 AI 的设计师" |
+## Examples（至少一个真实案例）
+```
 
-> ⚠️ 以上为初步印象。老顽童消化完素材后可能合并/拆分/新增。最终卡片数 5-8 张。
+**不需要**：Critique、攻击者、不要用场景、Action Triggers、wikilink 引用。这是操作手册，不是知识卡片。
 
-#### Step 3 — 攻击者配对
+### 执行顺序
 
-设计域学者方向建议（消化素材后确认）：
-
-| 卡 | 建议攻击者 | 攻击角度 |
-|----|-----------|---------|
-| AI 生图技术 | Nelson Goodman（艺术语言）+ Flusser（技术图像哲学） | AI 生成的"图像"是否算"设计" |
-| Prompt 工程 | Suchman（情境行动）+ Schön（反思实践） | prompt 可编码 vs 设计 tacit knowledge 不可编码 |
-| 审美判断 | Bourdieu（区隔/品味阶级）+ Norman（情感化设计） | 审美是可教可学的技能还是文化资本 |
-| 设计师角色 | Sennett（匠人）+ Crawford（动手的智慧） | AI 去技能化 vs 增强 |
-
-#### Step 4 — 欧阳锋审查
-
-老规则：全量 checklist（≥2 攻击者、≥2 不要用、≥3 AT、≥3 跨域引用）。
-
-### 与工具箱的关系
-
-工具箱 Batch 2（T3+T4+T5）优先完成，然后启动设计域。不并行——老顽童单线程产能，上下文切换成本高。
+S1 → S2 → S3，分段输出。每完成一个发欧阳锋审查。
 
 ---
 

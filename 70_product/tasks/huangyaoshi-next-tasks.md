@@ -61,7 +61,43 @@ except ImportError:
 
 ---
 
-### Task 6：Graph RAG 增量更新（P2，~1-2h）
+### Task 6：`kdo task` 自动化 + dashboard（P0，~1.5h）
+
+**问题**：当前手工编辑 Markdown 任务文件交接——欧阳锋手动改状态表、Agent 手动读文件找任务、完成/审查后无人更新。已导致设计域文件明明是存在的却被误报缺失。用户要求立即自动化。
+
+**改什么**：
+
+1. 任务文件加 YAML frontmatter（结构化状态层，不改 Markdown brief 内容）：
+```yaml
+---
+tasks:
+  - id: hys-5
+    title: scaffold 插入位置修正
+    status: done
+    assigned_to: 黄药师
+    priority: P2
+---
+```
+
+2. `kdo task` 新增子命令：
+   - `kdo task dashboard` → 扫描所有任务文件 frontmatter，生成 `70_product/tasks/dashboard.md`
+   - `kdo task mine [--assignee <name>]` → 列出当前 agent 的待办（按优先级+依赖排序）
+   - `kdo task done <id>` → 标记任务完成，更新 frontmatter
+   - `kdo task review <id> --verdict A [--notes "..."]` → 欧阳锋记录审查结论
+   - `kdo task verify` → 扫描所有任务引用的文件/工具是否存在，报告缺失
+
+3. 现有 `cmd_task()` 扩展：支持 YAML frontmatter 读写（读任务文件 → 解析 frontmatter → 更新字段 → 写回）
+
+**验收**：
+- `kdo task dashboard` 生成 dashboard.md，内容与两个任务文件状态一致
+- `kdo task done hys-5` 后，对应任务文件的 frontmatter 状态变为 done
+- `kdo task verify` 对缺失文件报 warning
+- pytest ≥5 新 test cases
+- 不破坏现有 `kdo task` CRUD 功能（state.json 模式保持兼容）
+
+---
+
+### Task 7：Graph RAG 增量更新（P2，~1-2h）
 
 **问题**：当前 `kdo graph rebuild` 全量重建。老顽童每天新增/修改 3-5 张卡，全量重建浪费 30s+。改为增量：只处理变更的卡。
 
@@ -82,7 +118,7 @@ except ImportError:
 
 ---
 
-### Task 7：`kdo graph stats`（P3，~30min）
+### Task 8：`kdo graph stats`（P3，~30min）
 
 **问题**：Graph RAG 索引建完后没有健康检查手段。不知道 entity 数、chunk 数、relation 数、最后一次 rebuild 时间。
 
@@ -115,8 +151,9 @@ Graph RAG Index
 | 3 | validate --watch | ✅ A，纯标准库 |
 | 4 | `kdo watch` 依赖解耦 | ✅ 4 tests, watchdog 可选, pyproject.toml 已清理 |
 | 5 | scaffold 插入位置修正 | ✅ Critique→CB/Synthesis间, 不要用→关联卡片后, AT→Synthesis后 |
-| 6 | graph rebuild --incremental | ✅ 5 tests, --full + incremental, graph_state.json 追踪 |
-| 7 | `kdo graph stats` | 输出合法 + --json |
+| 6 | `kdo task` 自动化 + dashboard | 🔨 当前任务——YAML frontmatter + CLI 子命令 + dashboard 生成 |
+| 7 | graph rebuild --incremental | ✅ 5 tests, --full + incremental, graph_state.json 追踪 |
+| 8 | `kdo graph stats` | 输出合法 + --json |
 
 
 ---

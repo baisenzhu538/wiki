@@ -18,14 +18,14 @@ updated: 2026-05-19
 | ② | 双三角文章 v2 | — | ✅ | 用户已通过，关闭 |
 | ③ | 管理工具箱 Batch 1（F1+T1+T2） | 工具箱 | ✅ | 全 A。⚠️ T1 typo 未修 |
 | ④ | 管理工具箱 Batch 2（T3+T4+T5） | 工具箱 | ✅ | T3 A / T4 A+ / T5 A。⚠️ T3 typo 未修 |
-| ⑤ | 设计域 7 张卡 | 设计域 | 🔜 | Step 0 清理 ✅，Step 1 Ingest 可开工 |
+| ⑤ | 设计域 → 3 个 Skill | 洪七公+段王爷 | 🔜 | 方向调整：废弃卡片地图，改出 S1+S2+S3 skill 文件 |
 | ⑥ | v1.5 全库修复（89 FAILED） | 质量 | ⏳ | 等 scaffold 工具 + 设计域完成后启动 |
 | ⑦ | 管理工具箱 Batch 3（T6+T7+T8） | 工具箱 | ⏳ | 穿插在 89 卡修复间隙 |
 
 ### 老顽童 — 立即要做
 
 1. **修两个 typo**（5 分钟）：T1 Line 90、T3 Line 105
-2. **⑤ 设计域 Step 1**：`kdo ingest` 两份清理后的转录稿 → `10_raw/sources/`
+2. **⑤ 设计域 S1**：`AI 生图模型选型指南` skill 文件（给洪七公用）
 
 ---
 
@@ -39,21 +39,12 @@ updated: 2026-05-19
 | 4 | `kdo watch` 依赖解耦 | P1 | ✅ | 4 tests |
 | 5 | scaffold 插入位置修正 | P2 | ✅ | Critique→CB/Synthesis 间 |
 | 6 | `kdo task` 自动化 + dashboard | **P0** | 🔨 | **优先级提升**——用户要求立即做 |
-| 7 | graph rebuild --incremental | P2 | 🔜 | 增量 <5s vs 全量 ~30s |
+| 7 | graph rebuild --incremental | P2 | ✅ | 5 tests, --full + incremental |
 | 8 | `kdo graph stats` | P3 | ⏳ | 输出合法 + --json |
 
 ### 黄药师 — 当前任务
 
-**Task 6（原 Task 8 提前）**：`kdo task` 自动化
-
-要做什么：
-- `kdo task dashboard` → 自动扫描所有任务文件 YAML frontmatter，生成此仪表盘
-- `kdo task mine` → Agent 查自己的待办
-- `kdo task done <id>` → Agent 标记完成
-- `kdo task review <id> --verdict A` → 欧阳锋记录审查结论
-- `kdo task verify` → 检查所有任务引用的文件/工具是否存在
-
-核心思路：任务文件头部加 YAML frontmatter（结构化状态），CLI 读/写 frontmatter，dashboard 自动聚合。不改现有 Markdown brief 内容。
+**Task 6**：`kdo task` 自动化（详见 [[70_product/tasks/huangyaoshi-next-tasks.md]]）
 
 ---
 
@@ -87,3 +78,5 @@ updated: 2026-05-19
 | 05-19 | 黄药师 | Task 4 watchdog 解耦 | ✅ |
 | 05-19 | 老顽童 | T5 typo 修复 | ✅ |
 | 05-19 | 欧阳锋 | 设计域转录稿清理 | ✅ → `00_inbox/design/cleaned/` |
+| 05-19 | 黄药师 | Task 7 graph rebuild --incremental | ✅ |
+| 05-19 | 欧阳锋 | 设计域方向调整 | 废弃 D1-D7 → 3 个 Skill |
