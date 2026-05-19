@@ -26,6 +26,7 @@ related:
   - yt-management-onboarding
   - yt-management-project-management
   - yt-personal-knowledge-management
+  - yt-tool-knowledge-extraction
 query_triggers:
   - 团队知识管理
   - 知识库搭建方法

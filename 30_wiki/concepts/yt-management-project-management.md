@@ -26,6 +26,7 @@ related:
   - yt-management-scientific-decision
   - yt-management-scientific-meetings
   - yt-management-team-knowledge
+  - yt-tool-project-health-radar
 query_triggers:
   - 项目管理方法
   - WBS任务拆解
