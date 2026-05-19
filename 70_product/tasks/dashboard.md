@@ -92,7 +92,6 @@ updated: 2026-05-19
 
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
-| 黄药师 | Task 11+12 全部未 commit | 20 个文件（12 modified + 8 untracked），需 commit |
 | 老顽童 | Anthropic 卡 typo `斗姄`→`窘境` + 补 `reviewed_by` | 审查发现，修完即关 |
 | 老顽童 | 双三角攻击者位置（Framework Gallery → Constraints & Boundaries） | 建议移，非阻塞 |
 | 洪七公 | 通道就绪确认 | 确认能读写输入/输出路径 |
