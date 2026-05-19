@@ -160,13 +160,15 @@ tier: layered
 | [[yt-entrepreneur-research-camp]] | tool | 调研行动营 |
 | [[yt-entrepreneur-spin-selling]] | tool | SPIN 销售法 |
 
-### 管理（Management）— 18 张（升级中：+3 张 tool/framework）
+### 管理（Management）— 20 张（升级中：+5 张 tool/framework）
 
-| 卡片 | 类型 | 一句话 |
-|------|------|--------|
-| [[yt-management-toolkit-overview]] | framework | 管理工具箱总览：8 张工具卡的场景导航与选择速查 |
-| [[yt-tool-meeting-designer]] | tool | 会议设计师：一页纸会议蓝图（会前三问+议程时间盒+角色分工+产出验收） |
-| [[yt-tool-hiring-scorecard]] | tool | 结构化面试打分卡：6 维评估+STAR 追问+独立打分+群体决策 |
+|| 卡片 | 类型 | 一句话 |
+||------|------|--------|
+|| [[yt-management-toolkit-overview]] | framework | 管理工具箱总览：10 张工具卡的场景导航与选择速查 |
+|| [[yt-tool-meeting-designer]] | tool | 会议设计师：一页纸会议蓝图（会前三问+议程时间盒+角色分工+产出验收） |
+|| [[yt-tool-hiring-scorecard]] | tool | 结构化面试打分卡：6 维评估+STAR 追问+独立打分+群体决策 |
+|| [[yt-tool-okr-cycle]] | tool | OKR 制定与复盘罗盘：季度诊断→O/KR 设定→对齐会议→周度脉搏→季度复盘（Mintzberg+Ordonez 双攻击） |
+|| [[yt-tool-strategy-workshop]] | tool | 战略研讨会引导手册：会前四件套→会中五段式→会后三检查（Christensen+Taleb 双攻击） |
 | [[yt-management-founder-role]] | concept | 一号位 |
 | [[yt-management-goal-management]] | concept | 目标管理 |
 | [[yt-management-scientific-decision]] | concept | Y 模型/科学决策 |
