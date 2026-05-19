@@ -16,6 +16,7 @@ related:
   - yt-model-personal-map
   - yt-model-progress-map
   - yt-model-y-organization
+  - yt-management-toolkit-overview
 contradicts: []
 query_triggers:
 - 五阶成长路径

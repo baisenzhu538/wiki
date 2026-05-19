@@ -16,6 +16,8 @@ component_of:
 related:
   - yt-decision-ai-partner
   - yt-entrepreneur-key-hypotheses
+  - yt-tool-meeting-designer
+  - yt-tool-hiring-scorecard
 contradicts: []
 query_triggers:
 - 决策画布
