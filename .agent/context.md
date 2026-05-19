@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-19
 active_branch: main
-active_task: 黄药师→空闲（三件工单全完成）。老顽童→下个任务（①补related边 ②双三角文章v2 ③提案新域）。
+active_task: 老顽童→管理工具箱 Batch 2（T3+T4+T5）。黄药师→空闲（三件工单全完成，待定下个任务）。
 blockers: []
 ---
 
@@ -44,7 +44,12 @@ blockers: []
   - 29 张通过 `kdo lint --baseline HEAD`（0 new errors）
   - Batch C 实质上已完成（~1 张不需要升级或非 concept 卡范围）
   - ⚠️ 黄药师角色重对齐 → 不接量产。但用户指令优先，先做完剩余
-- **老顽童后续** → 已分配：[[70_product/tasks/laowantong-next-tasks.md]]（①补related边 ②双三角文章v2 ⚠️返工——老顽童自认按模板输出未真正消化 ③提案新域）
+- **老顽童后续** → 已分配：[[70_product/tasks/laowantong-next-tasks.md]]
+  - ① 补 related 边 ✅
+  - ② 双三角文章 v2 ✅（用户已通过，关闭）
+  - ③ 管理工具箱 Batch 1 ✅（F1+T1+T2 全 A — Mintzberg+Pfeffer, Kahneman+Perrow, Kahneman+Tetlock）
+  - ④ 管理工具箱 Batch 2 进行中（T3 OKR罗盘 + T4 战略研讨会 + T5 知识萃取器）
+  - ⑤ 新域提案（待工具箱完成后）
 
 ### 科学决策域（老顽童）→ ✅ 已完成
 
@@ -138,6 +143,16 @@ blockers: []
 | `kdo lint --structure-report` | 全库卡片按 H2 结构聚类，输出类型分布摘要 |
 
 ## 最近决策
+
+### 2026-05-19：老顽童管理工具箱 Batch 1 审查通过（F1+T1+T2 全 A）
+
+- **F1 工具箱总览**（A）：Mintzberg（管理手艺不可编码）+ Pfeffer（Leadership BS/科学感=安慰剂）— 管理域最佳攻击者配对之一
+- **T1 会议设计师**（A）：Kahneman（认知负荷/System 2）+ Perrow（正常事故/紧密耦合）— 双杀，操作流程四段清晰
+- **T2 面试打分卡**（A）：Kahneman（噪声 vs 偏差）+ Tetlock（专家预测失败/狐狸 vs 刺猬）— Kahneman 两次出场攻击角度完全不同（认知负荷 vs 噪声偏差），区分度足够
+- **攻击者阵容**：Mintzberg, Pfeffer, Kahneman×2, Perrow, Tetlock — 5 位真实学者，0 稻草人
+- **T1 小问题**：Line 88 typo "只需要知会议会把议程定好"语义不通，修完推进 Batch 2
+- **双三角文章 v2**：用户已通过，任务关闭
+- **下一步**：Batch 2 — T3（OKR 罗盘）+ T4（战略研讨会）+ T5（知识萃取器）
 
 ### 2026-05-19：黄药师 `kdo validate --v15 --upgrade-plan` 完成 ✅
 
