@@ -61,7 +61,7 @@ updated: 2026-05-19
 
 ### 黄药师 — 当前任务
 
-**Task 1-12 全部完成** ✅。282 tests pass。**⚠️ 20 个文件未 commit**，详见 [[70_product/tasks/huangyaoshi-next-tasks#🔍 欧阳锋审查（2026-05-19）]]。
+**Task 1-12 全部完成** ✅。282 tests pass。commit `33203ed` 已提交。
 
 ---
 
@@ -102,6 +102,7 @@ updated: 2026-05-19
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
+| 05-20 | 黄药师 | Task 11+12 commit | ✅ `33203ed`，23 files，+5475/-202，clean tree |
 | 05-19 | 黄药师 | Task 11+12 完成 | ✅ skill-dir validation + KDO Build，282 tests PASS |
 | 05-19 | 欧阳锋 | 黄药师 Task 11+12 审查 | A/代码良，A/实测通，⚠️ 全部未 commit |
 | 05-19 | 老顽童 | ①+②+③ 三项完成 | ✅ 双三角修复 + Skill 修复 + Anthropic 编译 |
