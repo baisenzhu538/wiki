@@ -10,7 +10,7 @@
 - 双三角文章 v2 ⚠️（已输出 `40_outputs/content/articles/art_双三角纠错_v2.md`，待返工）
 - **管理工具域提案 ✅**（2026-05-19 提交，9 张卡：F1+T1~T8，待启动编译）
 - Blocker 解除：可以接新编译任务
-- Blocker 解除：可以接新编译任务
+- **⚠️ ⑤ 设计域阻塞**：素材文件未放入 vault（`00_inbox/design/` 不存在），等用户提供文件
 
 **⚠️ 以下任务顺序执行**。做完一个看下一个，不要跳。
 
@@ -83,7 +83,7 @@ body 高度提升段添加：`[[yt-model-liberate-thinking-layers]]`
 |----|------|--------|------|
 | T3 [[yt-tool-okr-cycle]] | **A** | Mintzberg（涌现战略）+ Ordonez（目标副作用） | ✅ 审查通过。⚠️ 修 typo：Line 106 `团队脚脑暴`→`团队头脑风暴` |
 | T4 [[yt-tool-strategy-workshop]] | **A+** | Christensen（创新者窘境）+ Taleb（黑天鹅/规划伪科学） | ✅ 审查通过。全库迄今最佳 tool 卡，建议作为后续标准 |
-| T5 [[yt-tool-knowledge-extraction]] | — | 建议：Nonaka&Takeuchi（SECI 模型）+ Snowden（Cynefin——复杂域知识不可萃取） | 🔨 制作中 |
+| T5 [[yt-tool-knowledge-extraction]] | **A** | Nonaka&Takeuchi（SECI 模型）+ Snowden（Cynefin——复杂域知识不可萃取） | ✅ 审查通过。⚠️ 修 typo：Line 227 `显性知诇`→`显性知识`，Line ~275 `喊一喊子`→`喊一嗓子` |
 
 **审查备注**：
 - T4 是全工具箱 5 张 tool 卡的结构标杆：会前四件套+会中五段式+会后三检查，11 步各有时间分配+关键约束+退出标准
@@ -97,13 +97,17 @@ body 高度提升段添加：`[[yt-model-liberate-thinking-layers]]`
 
 ### 素材
 
-已就位 `00_inbox/design/`：
+> ⚠️ **2026-05-19 欧阳锋核查：`00_inbox/design/` 目录不存在，三份素材均未放入 vault。**
+> 
+> **阻塞原因**：任务文件写了"已就位"但实际文件缺失。老顽童找不到文件是正确的。
+> 
+> **等用户提供文件来源后解除阻塞。**
 
 | 文件 | 内容 | 状态 |
 |------|------|------|
-| `AI设计-AI设计基础01.txt` | 月白老师第一期分享：AI 生图历史（GAN→VAE→Diffusion）、模型对比（GPT-2/巨米4.0/Nano Banana）、"去油腻"概念、为什么 AI 不能替代设计师 | 语音转文字，需清理 |
-| `AI设计-AI设计师实操培训01.txt` | 月白老师第二期分享：Leo 文创案例、一堂方法论在设计场景的迁移（泛产品设计/设计MVP/最佳实践/审美十层解读）、AI prompt 的"拜拜"隐喻 | 语音转文字，需清理 |
-| `prompts/ai-image-generation.md` | NANO BANANA PRO 提示词集合链接 | 骨架 |
+| `AI设计-AI设计基础01.txt` | 月白老师第一期分享：AI 生图历史（GAN→VAE→Diffusion）、模型对比（GPT-2/巨米4.0/Nano Banana）、"去油腻"概念、为什么 AI 不能替代设计师 | ❌ 文件缺失 |
+| `AI设计-AI设计师实操培训01.txt` | 月白老师第二期分享：Leo 文创案例、一堂方法论在设计场景的迁移（泛产品设计/设计MVP/最佳实践/审美十层解读）、AI prompt 的"拜拜"隐喻 | ❌ 文件缺失 |
+| `prompts/ai-image-generation.md` | NANO BANANA PRO 提示词集合链接 | ❌ 文件缺失 |
 
 ### 执行步骤
 
@@ -218,7 +222,7 @@ kdo validate --v15 --card <id>
 | ① | 补 related 边 | `kdo lint` 通过 + 欧阳锋确认 |
 | ② | 双三角文章 v2 | ✅ 用户已通过，关闭 |
 | ③ | 管理工具箱 Batch 1 | ✅ 全 A，T1 修一个 typo |
-| ④ | 管理工具箱 Batch 2 | T3 (A) + T4 (A+) ✅ / T5 🔨 制作中 |
-| ⑤ | 设计域 7 张卡 | 欧阳锋审查全 A → 入库 |
+| ④ | 管理工具箱 Batch 2 | T3 (A) ✅ + T4 (A+) ✅ + T5 (A) ✅ |
+| ⑤ | 设计域 7 张卡 | ⚠️ 阻塞——素材文件缺失，等用户提供 |
 | ⑥ | v1.5 全库修复（89 FAILED） | `kdo validate --v15` FAILED → 0 |
 | ⑦ | 管理工具箱 Batch 3（T6+T7+T8） | 欧阳锋审查通过 |
