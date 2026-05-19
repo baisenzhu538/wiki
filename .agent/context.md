@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-19
 active_branch: main
-active_task: 老顽童→下个任务（①补related边 ②双三角文章v2 ③提案新域）。黄药师→`--domain` 过滤 bug 已修（[[70_product/tasks/fix-validate-v15-domain-filter.md]]），待欧阳锋复验
+active_task: 黄药师→`kdo validate --v15 --upgrade-plan`（[[70_product/tasks/validate-v15-upgrade-plan.md]]）。老顽童→下个任务（①补related边 ②双三角文章v2 ③提案新域）。
 blockers: []
 ---
 
@@ -90,14 +90,14 @@ blockers: []
 - **不接卡片量产**。专注 KDO CLI、方法论建设、质量门、Graph RAG。
 - pytest ✅（9.0.3，205/205 passing）| 坚果云备份 ✅
 - 权限已扩：`.claude/settings.json` 开放 vault 全路径 + kdo 命令免批
-- **`kdo validate --v15` → A- 审查通过**：205 卡全量扫描 0 崩溃，24 tests，JSON/--card/--type 均正常。一个 P1 bug：`--domain` filter 因 `_read_frontmatter` 不处理多行 YAML 列表（168/195 卡受影响）→ [[70_product/tasks/fix-validate-v15-domain-filter.md]]
+- **`kdo validate --v15` → A 审查通过**：205 卡全量扫描 0 崩溃，24 tests，JSON/--card/--type/--domain 均正常。`--domain` bug 已修（`_read_frontmatter` 重构为返回 `dict[str, list[str]]`，支持三种 domain 格式）。pytest 203/205 pass（2 flaky dashboard 预存）。
 - **已批准 backlog**：[[70_product/tasks/kdo-infrastructure-backlog-proposal.md]]
   - P0: Graph RAG 索引重建 ✅
   - P1-A: `kdo lint --accept-baseline` ✅
   - P1-B: `kdo lint --structure-report` ✅
   - P2-A: 工业化手册 v1.7 ✅
   - P2-B: `kdo backup` ✅
-  - P3: 质量门自动化 `kdo validate --v15` ✅（A-，一个 bug 待修）
+  - P3: 质量门自动化 `kdo validate --v15` ✅
 
 ### Design 域 → 待建
 
