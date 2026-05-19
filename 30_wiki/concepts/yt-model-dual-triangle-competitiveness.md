@@ -31,10 +31,6 @@ yitang:
   map: personal
   module: AI 思维模型
   course_type: model
-related:
-  - yt-model-muse-ai-framework
-  - yt-personal-ai-capability
-  - yt-personal-ipo-learning
   level: foundational
 source_refs:
   - 10_raw/sources/一堂-课程地图精华串讲.md
@@ -164,9 +160,11 @@ reviewed_by: 黄药师
 ### 关联框架卡
 - [[yt-model-muse-ai-framework]]
 
-### 外部攻击：Henry Mintzberg的实践手艺论 + Nassim Taleb的幸存者偏差
+#### Henry Mintzberg — 实践手艺论
 
 **Henry Mintzberg**（管理学家，McGill University，"Managers Not MBAs"作者）对管理能力框架的经典批评直接适用于双三角模型：将竞争力拆解为"审美×体系×基本功"等结构化维度，犯了管理教育的原型错误——把实践智慧（craft）分解为可教授的离散技能，制造"知道框架=具备能力"的认知幻觉。Mintzberg在《Managing》(2009)中基于29位管理者的田野观察提出，真正有效的管理能力是在具体情境中涌现的实践手艺，无法被前置编码为六维矩阵。双三角框架让学员感知到"我在系统地提升竞争力"，但框架的对称美学可能掩盖实际竞争力的高度情境依赖性和非结构化特征。
+
+#### Nassim Taleb — 幸存者偏差
 
 **Nassim Taleb**（《Antifragile》作者）的幸存者偏差批评：从成功者身上逆向提取"人类三角+AI三角"要素，犯了"在赢家身上找共同特征"的归纳错误。Taleb会问：有多少同时具备审美/体系/AI能力的人失败了？没有失败者控制组的竞争力归因，可能是模式识别幻觉——你总能在一群成功者身上找到共同特征，但这不等于因果关系。
 
