@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Noto Sans SC', sans-serif;
+  background: linear-gradient(135deg, #0a0e27 0%, #050714 100%);
+  color: #fff;
+  width: 1920px; height: 1080px;
+  overflow: hidden;
+}
+.scene {
+  position: absolute; top: 0; left: 0;
+  width: 1920px; height: 1080px;
+  display: none;
+  padding: 80px 120px;
+}
+.scene.active { display: flex; flex-direction: column; }
+
+.glow-gold { text-shadow: 0 0 20px rgba(255,193,7,0.5), 0 0 40px rgba(255,193,7,0.2); }
+.glow-cyan { text-shadow: 0 0 20px rgba(0,229,255,0.5), 0 0 40px rgba(0,229,255,0.2); }
+.glow-pink { text-shadow: 0 0 20px rgba(255,64,129,0.5), 0 0 40px rgba(255,64,129,0.2); }
+
+h1 { font-size: 72px; font-weight: 900; line-height: 1.2; }
+h2 { font-size: 52px; font-weight: 700; margin-bottom: 40px; }
+h3 { font-size: 36px; font-weight: 700; margin-bottom: 20px; }
+p { font-size: 28px; line-height: 1.6; opacity: 0.9; }
+
+.card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 16px;
+  padding: 30px 40px;
+  backdrop-filter: blur(10px);
+}
+.card-gold { border-left: 4px solid #FFC107; }
+.card-cyan { border-left: 4px solid #00E5FF; }
+.card-pink { border-left: 4px solid #FF4081; }
+
+.grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 30px; margin-top: 30px; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 30px; }
+.grid-4 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 25px; margin-top: 30px; }
+.grid-5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; margin-top: 30px; }
+
+.step-box {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+}
+.step-num {
+  font-size: 42px; font-weight: 900;
+  display: block; margin-bottom: 10px;
+}
+.step-title { font-size: 22px; font-weight: 700; margin-bottom: 8px; }
+.step-desc { font-size: 16px; opacity: 0.7; line-height: 1.4; }
+
+.tag {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 5px;
+}
+.tag-gold { background: rgba(255,193,7,0.15); color: #FFC107; border: 1px solid rgba(255,193,7,0.3); }
+.tag-cyan { background: rgba(0,229,255,0.15); color: #00E5FF; border: 1px solid rgba(0,229,255,0.3); }
+
+.arrow { font-size: 36px; color: #FF4081; text-align: center; margin: 15px 0; }
+
+.subtitle {
+  font-size: 32px;
+  color: #00E5FF;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.footer {
+  position: absolute; bottom: 40px; left: 120px;
+  font-size: 18px; opacity: 0.5;
+}
+
+.highlight-bar {
+  width: 80px; height: 5px;
+  background: linear-gradient(90deg, #FFC107, #FF4081);
+  border-radius: 3px;
+  margin: 20px 0 30px 0;
+}
+
+.flow-step {
+  display: flex; align-items: center;
+  background: rgba(255,255,255,0.04);
+  border-radius: 12px;
+  padding: 20px 30px;
+  margin-bottom: 15px;
+}
+.flow-num {
+  width: 50px; height: 50px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 24px; font-weight: 900;
+  margin-right: 25px;
+  flex-shrink: 0;
+}
+.flow-num-gold { background: rgba(255,193,7,0.2); color: #FFC107; border: 2px solid #FFC107; }
+.flow-num-cyan { background: rgba(0,229,255,0.2); color: #00E5FF; border: 2px solid #00E5FF; }
+.flow-content h4 { font-size: 24px; margin-bottom: 5px; }
+.flow-content p { font-size: 18px; opacity: 0.7; }
+
+.big-cta {
+  font-size: 120px; font-weight: 900;
+  text-align: center;
+  margin-top: 100px;
+  background: linear-gradient(135deg, #FFC107, #FF4081);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.cta-sub {
+  text-align: center;
+  font-size: 36px;
+  color: #00E5FF;
+  margin-top: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Scene 1: Title -->
+<div class="scene active" id="s1">
+  <div style="flex:1; display:flex; flex-direction:column; justify-content:center;">
+    <h1 class="glow-gold">你的知识，睡了吗？</h1>
+    <div class="highlight-bar"></div>
+    <p style="font-size:36px; margin-top:20px;">每天产生大量信息，却<strong style="color:#FF4081;">无法变成可用资产</strong></p>
+    <p style="font-size:28px; margin-top:30px; opacity:0.7;">Knowledge Delivery OS 快速上手指南</p>
+  </div>
+  <div class="footer">KDO · 把散落知识变成可交付资产</div>
+</div>
+
+<!-- Scene 2: Core Thesis -->
+<div class="scene" id="s2">
+  <h2 class="glow-cyan">KDO 不是文件夹，是流水线</h2>
+  <div class="highlight-bar"></div>
+  <div class="grid-2" style="margin-top:50px;">
+    <div class="card card-gold">
+      <h3 style="color:#FFC107;">❌ 传统方式</h3>
+      <p>信息散落在微信、飞书、Notion、Obsidian...</p>
+      <p style="margin-top:15px; color:#FF4081;">找得到，但用不上</p>
+    </div>
+    <div class="card card-cyan">
+      <h3 style="color:#00E5FF;">✅ KDO 方式</h3>
+      <p>捕获 → 编译 → 生产 → 交付</p>
+      <p style="margin-top:15px; color:#00E5FF;">流水线产出，即拿即用</p>
+    </div>
+  </div>
+</div>
+
+<!-- Scene 3: 9 Steps -->
+<div class="scene" id="s3">
+  <h2 style="text-align:center;">九步闭环：从信息到资产</h2>
+  <div class="grid-5" style="margin-top:40px;">
+    <div class="step-box">
+      <span class="step-num glow-gold">1</span>
+      <div class="step-title">捕获</div>
+      <div class="step-desc">收集散落信息</div>
+    </div>
+    <div class="step-box">
+      <span class="step-num glow-gold">2</span>
+      <div class="step-title">注册</div>
+      <div class="step-desc">给信息编号</div>
+    </div>
+    <div class="step-box">
+      <span class="step-num glow-cyan">3</span>
+      <div class="step-title">编译</div>
+      <div class="step-desc">加工提炼</div>
+    </div>
+    <div class="step-box">
+      <span class="step-num glow-cyan">4</span>
+      <div class="step-title">路由</div>
+      <div class="step-desc">分发到各环节</div>
+    </div>
+    <div class="step-box">
+      <span class="step-num glow-pink">5</span>
+      <div class="step-title">生产</div>
+      <div class="step-desc">生成产物</div>
+    </div>
+  </div>
+  <div style="text-align:center; margin:25px 0; font-size:48px; color:#FF4081;">↓</div>
+  <div class="grid-4" style="max-width:1200px; margin:0 auto;">
+    <div class="step-box">
+      <span class="step-num glow-gold">6</span>
+      <div class="step-title">验证</div>
+      <div class="step-desc">质量检查</div>
+    </div>
+    <div class="step-box">
+      <span class="step-num glow-cyan">7</span>
+      <div class="step-title">交付</div>
+      <div class="step-desc">输出成品</div>
+    </div>
+    <div class="step-box">
+      <span class="step-num glow-cyan">8</span>
+      <div class="step-title">反馈</div>
+      <div class="step-desc">收集评价</div>
+    </div>
+    <div class="step-box">
+      <span class="step-num glow-pink">9</span>
+      <div class="step-title">改进</div>
+      <div class="step-desc">迭代优化</div>
+    </div>
+  </div>
+</div>
+
+<!-- Scene 4: 3 Layers -->
+<div class="scene" id="s4">
+  <h2 class="glow-gold">三层产物溯源链</h2>
+  <div class="highlight-bar"></div>
+  <div style="margin-top:60px; max-width:1400px;">
+    <div class="flow-step">
+      <div class="flow-num flow-num-gold">L1</div>
+      <div class="flow-content">
+        <h4>原材料 <span style="color:#FFC107; font-size:18px;">Raw Materials</span></h4>
+        <p>原始笔记、截图、链接、灵感碎片 —— 未经加工的输入</p>
+      </div>
+    </div>
+    <div class="arrow">↓ 编译加工</div>
+    <div class="flow-step">
+      <div class="flow-num flow-num-cyan">L2</div>
+      <div class="flow-content">
+        <h4>中间件 <span style="color:#00E5FF; font-size:18px;">Middleware</span></h4>
+        <p>概念卡、方法卡、结构化笔记 —— 可复用的知识组件</p>
+      </div>
+    </div>
+    <div class="arrow">↓ 组装生产</div>
+    <div class="flow-step">
+      <div class="flow-num flow-num-cyan">L3</div>
+      <div class="flow-content">
+        <h4>成品 <span style="color:#FF4081; font-size:18px;">Deliverables</span></h4>
+        <p>文章、视频、信息图、播客 —— 可直接交付的资产</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Scene 5: CLI -->
+<div class="scene" id="s5">
+  <h2 class="glow-cyan">CLI 设计哲学</h2>
+  <div class="highlight-bar"></div>
+  <p style="margin-top:30px; font-size:28px;">本地优先 + 命令行驱动 = 极速工作流</p>
+  <div class="grid-2" style="margin-top:50px;">
+    <div class="card card-cyan">
+      <h3 style="color:#00E5FF;">kdo init</h3>
+      <p style="margin-top:15px;">一键初始化工作目录</p>
+      <p style="margin-top:10px; opacity:0.6; font-size:22px;">创建 10_inbox · 20_processing · 30_concepts · 40_outputs</p>
+    </div>
+    <div class="card card-gold">
+      <h3 style="color:#FFC107;">kdo compile</h3>
+      <p style="margin-top:15px;">编译原材料为中间件</p>
+      <p style="margin-top:10px; opacity:0.6; font-size:22px;">笔记 → 概念卡 · 截图 → 方法卡</p>
+    </div>
+  </div>
+  <div class="grid-2" style="margin-top:30px;">
+    <div class="card card-pink">
+      <h3 style="color:#FF4081;">kdo produce</h3>
+      <p style="margin-top:15px;">中间件组装为成品</p>
+      <p style="margin-top:10px; opacity:0.6; font-size:22px;">概念卡 + 方法卡 → 文章 / 视频脚本</p>
+    </div>
+    <div class="card card-cyan">
+      <h3 style="color:#00E5FF;">kdo deliver</h3>
+      <p style="margin-top:15px;">验证 + 输出 + 分发</p>
+      <p style="margin-top:10px; opacity:0.6; font-size:22px;">QA检查 → 多格式输出 → 飞书/公众号/YouTube</p>
+    </div>
+  </div>
+</div>
+
+<!-- Scene 6: Feishu -->
+<div class="scene" id="s6">
+  <h2>飞书是桥，KDO 是工厂</h2>
+  <div class="highlight-bar"></div>
+  <div style="margin-top:50px;">
+    <div style="display:flex; align-items:center; justify-content:space-between; max-width:1400px;">
+      <div class="card card-cyan" style="flex:1; text-align:center;">
+        <h3 style="color:#00E5FF;">飞书文档</h3>
+        <p style="margin-top:15px;">收集 · 讨论 · 协作</p>
+        <div style="margin-top:20px;">
+          <span class="tag tag-cyan">碎片化</span>
+          <span class="tag tag-cyan">实时</span>
+        </div>
+      </div>
+      <div style="font-size:60px; color:#FF4081; padding:0 40px;">→</div>
+      <div class="card card-gold" style="flex:1; text-align:center;">
+        <h3 style="color:#FFC107;">KDO 流水线</h3>
+        <p style="margin-top:15px;">编译 · 生产 · 交付</p>
+        <div style="margin-top:20px;">
+          <span class="tag tag-gold">结构化</span>
+          <span class="tag tag-gold">可复用</span>
+        </div>
+      </div>
+      <div style="font-size:60px; color:#FF4081; padding:0 40px;">→</div>
+      <div class="card card-pink" style="flex:1; text-align:center;">
+        <h3 style="color:#FF4081;">多平台发布</h3>
+        <p style="margin-top:15px;">公众号 · 视频号 · 播客</p>
+        <div style="margin-top:20px;">
+          <span class="tag" style="background:rgba(255,64,129,0.15);color:#FF4081;border:1px solid rgba(255,64,129,0.3);">资产化</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p style="margin-top:60px; text-align:center; font-size:24px; opacity:0.7;">
+    飞书解决"在一起"，KDO 解决"产出什么"
+  </p>
+</div>
+
+<!-- Scene 7: CTA -->
+<div class="scene" id="s7">
+  <div style="flex:1; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+    <div class="big-cta">kdo init</div>
+    <div class="cta-sub">一键启动你的知识流水线</div>
+    <p style="margin-top:60px; font-size:24px; opacity:0.6; text-align:center; max-width:800px;">
+      把散落的信息变成结构化的资产<br>
+      让每一次输入都能产生可交付的产出
+    </p>
+    <div style="margin-top:50px;">
+      <span class="tag tag-gold">本地优先</span>
+      <span class="tag tag-cyan">CLI驱动</span>
+      <span class="tag" style="background:rgba(255,64,129,0.15);color:#FF4081;border:1px solid rgba(255,64,129,0.3);">九步闭环</span>
+    </div>
+  </div>
+  <div class="footer">KDO · Knowledge Delivery OS</div>
+</div>
+
+<script>
+const scenes = document.querySelectorAll('.scene');
+function showScene(idx) {
+  scenes.forEach((s, i) => {
+    if (i === idx) s.classList.add('active');
+    else s.classList.remove('active');
+  });
+}
+// URL参数控制场景: ?scene=0~6
+const params = new URLSearchParams(window.location.search);
+const sceneIdx = parseInt(params.get('scene') || '0');
+showScene(sceneIdx);
+</script>
+
+</body>
+</html>
