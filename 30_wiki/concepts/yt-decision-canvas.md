@@ -42,7 +42,7 @@ yitang:
   course_type: tool
   level: intermediate
 source_refs:
-  - 00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt
+  - 00_inbox/科学决策/一堂-科学决策-AI协助决策行动营口述06.txt
   - 00_inbox/科学决策/一堂-科学决策-ROI决策评估画布.png
   - 00_inbox/科学决策/一堂-科学决策-ROI决策评估画布-案例01.png
   - 00_inbox/科学决策/一堂-科学决策-ROI决策评估画布-案例02.png

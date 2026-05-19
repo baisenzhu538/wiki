@@ -47,6 +47,7 @@ yitang:
   course_type: framework
   level: intermediate
 source_refs:
+  - 00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt
   - 00_inbox/科学决策/一堂-科学决策-ROI高阶训练全景图.png
   - 00_inbox/科学决策/一堂-科学决策-关键训练清单（重要））.png
   - 00_inbox/科学决策/一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.png

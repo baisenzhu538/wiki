@@ -41,7 +41,7 @@ yitang:
   course_type: framework
   level: foundational
 source_refs:
-  - 00_inbox/科学决策/一堂-科学决策-审美拉升01口述.txt
+  - 00_inbox/科学决策/一堂-科学决策-AI协助决策行动营口述06.txt
   - 00_inbox/科学决策/一堂-科学决策-决策三角形.png
   - 00_inbox/科学决策/一堂-科学决策-ROI高阶训练全景图.png
 created_at: '2026-05-17'
