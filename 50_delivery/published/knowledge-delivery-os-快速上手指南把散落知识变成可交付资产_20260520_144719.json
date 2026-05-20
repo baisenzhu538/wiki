@@ -4,5 +4,37 @@
   "format": "mp4",
   "channel": "local",
   "shipped_at": "2026-05-21 04:30",
-  "source_article": "40_outputs/content/articles/art_20260504_02b8c4d6-kdo-quickstart-guide.md"
+  "source_article": "40_outputs/content/articles/art_20260504_02b8c4d6-kdo-quickstart-guide.md",
+  "gates": {
+    "gate0_script": {"status": "passed", "grade": "A+", "reviewer": "欧阳锋", "date": "2026-05-20"},
+    "gate1_storyboard": {"status": "passed", "grade": "A+", "reviewer": "欧阳锋", "date": "2026-05-20"},
+    "gate2_frames_seg1_3": {"status": "passed", "reviewer": "用户", "date": "2026-05-20"},
+    "gate3_frames_all": {"status": "passed", "reviewer": "用户", "date": "2026-05-20"},
+    "gate4_timing": {"status": "passed", "grade": "A", "reviewer": "欧阳锋", "date": "2026-05-21"}
+  },
+  "contributors": {
+    "script": "老顽童",
+    "storyboard": "洪七公",
+    "frames": "洪七公",
+    "render": "洪七公",
+    "timing": "洪七公",
+    "ship": "段王爷"
+  },
+  "artifacts": {
+    "script": "01-script.md (十指讲香版, 2219字)",
+    "storyboard": "02-storyboard.md v2 (40帧, Bauhaus Style Guide)",
+    "frames": "frames/ (40帧, 1920×1080, PNG)",
+    "audio": "audio/full_audio.mp3 (487.9s, TTS edge-tts)",
+    "draft": "draft/draft.mp4 (500.1s, H.264/AAC)",
+    "timing": "timing.md (5803字, 逐帧时间线+方案A/B)",
+    "final": "final/final.mp4 (500.08s, H.264/AAC)"
+  },
+  "pipeline_notes": {
+    "c11_violation": "洪七公 7b/7c/7d 提报缺失，已写入 F-KDO-017 + C-11",
+    "c11_resolved": "7e→7f 遵守停等信号，纪律生效",
+    "tool_iterations": "黄药师 Task 15→16→17，render 模块三次迭代",
+    "total_gates": 5,
+    "total_roles": 4,
+    "end_to_end": "first successful e2e video pipeline"
+  }
 }
