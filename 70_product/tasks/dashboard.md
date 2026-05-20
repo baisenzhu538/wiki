@@ -309,7 +309,7 @@ kdo video render --compose "40_outputs/content/videos/knowledge-delivery-os-快�
 
 | # | 任务 | 状态 | 备注 |
 |---|------|------|------|
-| 1 | 🎬 KDO 视频试点 ship | ✅ | `shipped_at: 2026-05-21 04:30`。final.mp4: 11810 KB, 500.08s。管道关闭 🎉 |
+| 1 | 🎬 KDO 视频试点 ship | ⚠️ 待补记录 | `shipped_at: 2026-05-21 04:30`。final.mp4 已就绪。交付记录需补全（审批链+门禁+贡献者），详见下方修正指令 ↓ |
 
 ### 🎬 任务 1：KDO 视频试点 ship（~5min）
 
@@ -365,6 +365,61 @@ kdo video ship → final.mp4 → 🎉 管线关闭
 ```
 
 **这是你的第一个正式任务。整个视频试点管线等你这最后一步。**
+
+---
+
+### 🎬 任务 1 修正：补全交付记录（~5min）
+
+**问题**：`kdo video ship` 生成的 `50_delivery/published/knowledge-delivery-os-...json` 只有 8 行骨架，缺少审批链、门禁通过情况、审查结论。
+
+**要求**：将以下内容补入交付记录 JSON：
+
+```json
+{
+  "video_id": "...",
+  "title": "...",
+  "format": "mp4",
+  "channel": "local",
+  "shipped_at": "2026-05-21 04:30",
+  "source_article": "...",
+  "gates": {
+    "gate0_script": {"status": "passed", "grade": "A+", "reviewer": "欧阳锋", "date": "2026-05-20"},
+    "gate1_storyboard": {"status": "passed", "grade": "A+", "reviewer": "欧阳锋", "date": "2026-05-20"},
+    "gate2_frames_seg1_3": {"status": "passed", "reviewer": "用户", "date": "2026-05-20"},
+    "gate3_frames_all": {"status": "passed", "reviewer": "用户", "date": "2026-05-20"},
+    "gate4_timing": {"status": "passed", "grade": "A", "reviewer": "欧阳锋", "date": "2026-05-21"}
+  },
+  "contributors": {
+    "script": "老顽童",
+    "storyboard": "洪七公",
+    "frames": "洪七公",
+    "render": "洪七公",
+    "timing": "洪七公",
+    "ship": "段王爷"
+  },
+  "artifacts": {
+    "script": "01-script.md (十指讲香版, 2219字)",
+    "storyboard": "02-storyboard.md v2 (40帧, Bauhaus Style Guide)",
+    "frames": "frames/ (40帧, 1920×1080, PNG)",
+    "audio": "audio/full_audio.mp3 (487.9s, TTS edge-tts)",
+    "draft": "draft/draft.mp4 (500.1s, H.264/AAC)",
+    "timing": "timing.md (5803字, 逐帧时间线+方案A/B)",
+    "final": "final/final.mp4 (500.08s, H.264/AAC)"
+  },
+  "pipeline_notes": {
+    "c11_violation": "洪七公 7b/7c/7d 提报缺失，已写入 F-KDO-017 + C-11",
+    "c11_resolved": "7e→7f 遵守停等信号，纪律生效",
+    "tool_iterations": "黄药师 Task 15→16→17，render 模块三次迭代",
+    "total_gates": 5,
+    "total_roles": 4,
+    "end_to_end": "first successful e2e video pipeline"
+  }
+}
+```
+
+**验证**：JSON 合法（`python -c "import json; json.load(open('...'))"` 无报错）
+
+**完成后直接更新文件，无需提报。** 这是补记录，不是新产出。
 
 ---
 
