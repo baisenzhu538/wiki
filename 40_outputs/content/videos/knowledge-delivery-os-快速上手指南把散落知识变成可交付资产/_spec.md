@@ -21,7 +21,7 @@ stages: {'script': 'done', 'storyboard': 'done', 'frames': 'in_progress', 'audio
 |-------|--------|--------|
 | 1. Script | ✅ done | `01-script.md` |
 | 2. Storyboard | ✅ done | `02-storyboard.md` |
-| 3. Frames | pending | `frames/` |
-| 4. Audio | pending | `audio/` |
-| 5. Compose | pending | `draft/draft.mp4` |
-| 6. Ship | pending | `final/final.mp4` |
+| 3. Frames | 🔄 ready | `frames/BRIEF.md` |
+| 4. Audio | ⏳ pending | `audio/` |
+| 5. Compose | ⏳ pending | `draft/draft.mp4` |
+| 6. Ship | ⏳ pending | `final/final.mp4` |
