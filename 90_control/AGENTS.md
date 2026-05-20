@@ -93,7 +93,7 @@ KDO 知识工厂五角色分工，协作规则定义在 `90_control/debate-proto
 | **Builder** | 黄药师 | KDO CLI 开发、质量门自动化、Graph RAG、基础设施。不接卡片量产 | WSL tmux `claude`，顺序执行工单 |
 | **Producer** | 老顽童 | 卡片量产、文章/内容产出、跨域合成、新域编译。产能主力 | 飞书 Hermes agent，顺序执行任务队列 |
 | **Multimodal** | 洪七公 | **多模态知识仲裁者**——主业：知识→视觉资产（信息图/Excalidraw/SVG/视频/音频）；副业：VA 过程中发现源文件与编译物的归属错位/不一致，反馈给欧阳锋。只标记差异+建议修正方向，不自行修改卡片主体结构 | 飞书 Hermes agent，从 dashboard 领任务，产出写入固定输出路径 |
-| **Publisher** | 段王爷 | 发布管线——`kdo ship`→渠道分发、反馈收集→`60_feedback/`、版本发布记录 | 待定义 |
+| **Publisher** | 段王爷 | 发布管线——`kdo ship`→渠道分发、反馈收集→`60_feedback/`、版本发布记录 | 飞书 Hermes agent，从 dashboard 领任务，执行 `kdo ship` + 记录发布事件 |
 
 ### 协作流程
 

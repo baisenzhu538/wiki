@@ -118,7 +118,7 @@ updated: 2026-05-20 (Gate 0+1+2+3+4 条件通过 · 7a-7g ✅ · 待洪七公补
 | **7h** | 渲染合成 | `frames/` 全部 40 帧 | `draft/draft.mp4` | ✅ 黄药师 Task 16 完成 | 15min | ✅ 完成。draft.mp4: 11810 KB, 500.1s, H.264/AAC |
 | 7g | 配音节奏审查 | `draft/draft.mp4` | `timing.md` → 实际产出 `03-qa-report.md` | 7h 完成 | 20min | ⚠️ **Gate 4 条件通过 · B+**。待修：拆出 `timing.md` + 补逐段时长表（15min）。[[#🛑 Gate 4 审查：洪七公 7g 音画对位]] |
 
-**洪七公总估时**：~4.5h（含 7a v2 分镜修订 45min + 7h 渲染合成 15min）。`kdo video render` 是 CLI 命令，洪七公自行执行，不需要黄药师介入。`kdo video ship` 最后一步由黄药师执行。
+**洪七公总估时**：~4.5h（含 7a v2 分镜修订 45min + 7h 渲染合成 15min）。`kdo video render` 是 CLI 命令，洪七公自行执行，不需要黄药师介入。`kdo video ship` 最后一步由段王爷执行。
 
 ### 🛑 审批节点总览（视频试点 v2）
 
@@ -160,7 +160,7 @@ updated: 2026-05-20 (Gate 0+1+2+3+4 条件通过 · 7a-7g ✅ · 待洪七公补
 🛑 GATE 4 ⚠️ 条件通过 — timing.md 命名不符 + 缺逐段时长表（15min 修正）
     │
     ▼
-洪七公 补 timing.md → 欧阳锋复审 → 黄药师 kdo video ship → final.mp4
+洪七公 补 timing.md → 欧阳锋复审 → 段王爷 kdo video ship → final.mp4
 ```
 
 ### 🛑 GATE 1 审查标准（分镜 v2）
@@ -301,11 +301,15 @@ kdo video render --compose "40_outputs/content/videos/knowledge-delivery-os-快�
 
 跳步后果：产出质量不可控（参 C-8：格式完整但思维空洞）。
 
-## 段王爷（Publisher）
+## 段王爷（Publisher · 飞书 Hermes）
+
+> **定位**：发布管线。`kdo ship`→渠道分发、反馈收集、版本发布记录。
+> **输入**：`dashboard` 任务 + `40_outputs/` 待发布 artifact
+> **输出**：`50_delivery/` 发布记录 · `50_delivery/channels/` 渠道配置 · `60_feedback/comments/` + `issues/`
 
 | # | 任务 | 状态 | 备注 |
 |---|------|------|------|
-| — | 待激活 | ⚠️ | 任务派发协议待定义 |
+| 1 | 🎬 KDO 视频试点 ship | ⏳ | 前置：洪七公补 timing.md → Gate 4 正式放行。`kdo video ship` → 记录交付事件 |
 
 ---
 

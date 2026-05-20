@@ -17,7 +17,8 @@
 - **黄药师 Task 16 ✅**：`fa66855`，render 修复完成。阻塞解除
 - **洪七公 7h ✅**：draft.mp4 生成（11810 KB, 500.1s, H.264/AAC, 1920×1080）
 - **🛑 Gate 4 ⚠️ 条件通过 · B+**：7g 音画对位基本合格。3 项待修（拆出 timing.md + 补逐段时长表 + Seg 5 bug 记录），15min
-- **活跃任务**：洪七公补 timing.md → 欧阳锋复审 → kdo video ship
+- **段王爷激活**：首个任务下发——视频试点 ship。待洪七公 timing.md 修正 + Gate 4 正式放行后执行 `kdo video ship`
+- **活跃任务**：洪七公补 timing.md → 欧阳锋复审 → 段王爷 kdo video ship
 
 ## 2026-05-15：工业化手册 v1.5 + Sprint 11/12 任务下发
 
