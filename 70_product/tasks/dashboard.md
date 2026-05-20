@@ -23,7 +23,8 @@ updated: 2026-05-19
 | ⑤ | 设计域 S1+S2+S3 skill | 洪七公+段王爷 | ✅ | 命名+格式+五段式全修。3/3 通过 |
 | 🆕 | 科学决策域 35 PNG 增强消化 | 增强 | ✅ | 审计报告 A，91%覆盖，2 遗漏→现有卡 amendment，无需新卡 |
 | ⑥ | v1.5 全库修复（89 FAILED） | 质量 | ⏳ | 等 scaffold 工具 + 设计域完成后启动 |
-| ⑦ | 管理工具箱 Batch 3（T6+T7+T8） | 工具箱 | ⏳ | 穿插在 89 卡修复间隙 |
+| ⑦ | 管理工具箱 Batch 3（T6+T7+T8） | 工具箱 | ⏳ | 穿插在 v1.5 修复间隙 |
+| 🎬 | KDO 视频脚本精炼（Stage 1） | 视频 | ⏳ | 等黄药师 `kdo video init` 后，/new session 读文章→写 01-script.md。估时 30min |
 
 ### 老顽童 — 执行顺序（从上到下，做完一个再看下一个）
 
@@ -38,8 +39,10 @@ updated: 2026-05-19
 | **🔧** | 🆕 洪七公审计修复 — 双三角文章归属错位 + 引用补齐 | 15min | 方案A：严格按原图修正。`art_双三角纠错_v2` L51 + `art_20260517_9c7a63cb` source_refs/wiki_refs。见 [[#🔍 洪七公文章审计（2026-05-19）]] |
 | **7** | ⑥ v1.5 全库修复（89 FAILED） ← **下一个** | Batch B（~69张缺Critique）先做，再 Batch A（13张全缺）| 分批 | 穿插 ⑦ Batch 3。策略见 [[#🔍 v1.5 修复策略（欧阳锋拍板 2026-05-20）]] |
 | **8** | ⑦ 管理工具箱 Batch 3（T6+T7+T8） | 穿插在 ⑥ 间隙 | 6h | T6 项目雷达 / T7 新人融入 / T8 股权清单 |
+| 🎬 | KDO 视频脚本精炼 | 等黄药师 `kdo video init` 后：读源文章 → 写 `01-script.md` | 30min | /new session。规范见 [[40_outputs/capabilities/workflows/video-production-flow#Stage 1]] |
 
 > **规则**：顺序执行，不跳。每完成一个 → 跑验证 → 通知欧阳锋审查。不要等批次全部完成。
+> 🎬 视频脚本可穿插执行（与 v1.5 修复独立），但在黄药师 `kdo video init` 就绪之后。
 
 ---
 
@@ -61,10 +64,11 @@ updated: 2026-05-19
 | 12 | KDO Build 系统 | P2 | ✅ | `kdo build` + CHANGELOG + build_state, 11 tests |
 | 13 | 🔥 scaffold 四缺陷（盲区+重复插入+内容丢弃+空H4） | **P0** | ✅ | `877c41a`。286 tests PASS (+4)。欧阳锋审查：A，通过 |
 | 14 | validator 空 H4 校验 | P1 | ✅ | 并入 Task 13。H4 <100 字不计入。验收测试全部通过 |
+| 15 | `kdo video` CLI（init/validate/render/ship） | **P1** | ⏳ | spec 已写入 [[huangyaoshi-next-tasks#🔧 Batch 6：kdo video CLI]]。5 子命令，~2h |
 
 ### 黄药师 — 当前任务
 
-**全部完成，无待办。** 等待欧阳锋派发下一批工单。
+**Task 15**：`kdo video` CLI。详见 [[huangyaoshi-next-tasks#🔧 Batch 6：kdo video CLI]]。建好后洪七公+老顽童的视频流水线才有工具支撑。
 
 ---
 
@@ -83,30 +87,30 @@ updated: 2026-05-19
 | 4 | wiki 勘误（归属错位） | ✅ | 已反馈 → `60_feedback/corrections/`，卡片修正由老顽童执行 |
 | 5 | 通道就绪确认 | ⏳ | 确认能读写上述输入/输出路径 |
 | 6 | 双三角文章审计 | ✅ | 审计 2 篇，发现 🔴归属错位 1 处 + 🟡引用/渠道 3 处，报告已交付 |
-| 7 | KDO 快速上手指南 → 中视频 | ⏳ | 源：[[40_outputs/content/articles/art_20260504_02b8c4d6-kdo-quickstart-guide]]。详见下方任务详情 |
+| 7 | KDO 快速上手指南 → 中视频（分镜+画面） | ⏳ | 等待：①黄药师 `kdo video` CLI + ②老顽童脚本。详见下方 |
 
-### 洪七公 — 任务 7 详情
+### 洪七公 — 视频流水线任务（Task 7 重构）
 
-**源文章**：`40_outputs/content/articles/art_20260504_02b8c4d6-kdo-quickstart-guide.md`
+> **工作流**：[[40_outputs/capabilities/workflows/video-production-flow.md]]
+> **原则**：每阶段独立 `/new` session，读入参文件→写出参文件，不靠记忆。
 
-**产出**：≤10 分钟中视频，HyperFrames 分段渲染
+| 子任务 | 阶段 | 入参 | 出参 | 前置依赖 | 估时 |
+|:--:|------|------|------|------|:--:|
+| 7a | 分镜设计 | `01-script.md` | `02-storyboard.md`（Style Guide + 分镜表） | 老顽童脚本完成 | 45min |
+| 7b | 画面制作 Seg 1 | `02-storyboard.md` | `frames/segment_1_*.png` | 分镜审查通过 | 30min |
+| 7c | 画面制作 Seg 2 | `02-storyboard.md` | `frames/segment_2_*.png` | 分镜审查通过 | 30min |
+| 7d | 画面制作 Seg 3 | `02-storyboard.md` | `frames/segment_3_*.png` | 分镜审查通过 | 30min |
+| 7e | 画面制作 Seg 4 | `02-storyboard.md` | `frames/segment_4_*.png` | 分镜审查通过 | 30min |
+| 7f | 画面制作 Seg 5 | `02-storyboard.md` | `frames/segment_5_*.png` | 分镜审查通过 | 30min |
+| 7g | 配音节奏审查 | `draft/draft.mp4` | `timing.md`（时间轴修正标注） | 黄药师 render 完成 | 20min |
 
-**输出路径**：`40_outputs/content/videos/kdo-quickstart-guide.mp4`
+**洪七公总估时**：~3.5h（vs 原来一个人扛 7 步时不可估量）。音频和组装由 `kdo video render` 工具链完成，不再占用洪七公 session。
 
-**核心叙事线**（5 段）：
-1. **Hook**（30s）：信息过载→"然后呢？"——引出 KDO
-2. **KDO 是什么**（2min）：流水线不是文件夹，9 步闭环图解
-3. **怎么做**（4min）：飞书文档→可交付资产的 8 步实操演示（capture→ingest→enrich→produce→validate→ship→feedback→improve）
-4. **谁适合用**（1.5min）：4 个适合特征 + 3 个不适合边界
-5. **与 Obsidian 的关系**（1min）：花园 vs 工厂类比
-
-**视觉要求**：
-- 9 步闭环流程图（主角视觉）
-- CLI 命令与目录映射对照表
-- 飞书→KDO 前后对比
-- 花园→工厂隐喻插画
-
-**参考**：文章已有完整 Source Map，可直接溯源原始飞书文档。
+**执行规则**：
+- 7b-7f 共 5 个 session，每个 `/new` 只做一个 segment
+- 每个 session 只读 `02-storyboard.md` 中对应 segment 的部分
+- 每完成一个 segment 通知欧阳锋抽查
+- 不跳步：分镜未审查通过不开始画面制作
 
 ## 段王爷（Publisher）
 
@@ -120,10 +124,12 @@ updated: 2026-05-19
 
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
-| 老顽童 | 🔧 4 项顺手修（Anthropic typo + 双三角文章归属+引用） | 积压 3 天，scaffold 已修好，可并行清 |
-| 老顽童 | v1.5 全库修复（20 FAILED / ~69 B + 13 A） | scaffold 已修好，阻塞解除 ✅ |
+| 黄药师 | `kdo video` CLI（Task 15） | 视频流水线的工具基础，洪七公和老顽童都在等 |
+| 洪七公 | 视频分镜+画面（Task 7a-7g） | ① 黄药师先 init ② 老顽童先写脚本 ③ 欧阳锋审脚本 |
+| 老顽童 | 视频脚本精炼（🎬） | 等黄药师 `kdo video init` 产出 `01-script.md` 模板 |
+| 老顽童 | 🔧 4 项顺手修（Anthropic typo + 双三角文章归属+引用） | 积压，可随时清 |
+| 老顽童 | v1.5 全库修复（20 FAILED） | scaffold 已修好，可随时启动 |
 | 洪七公 | 通道就绪确认 | 确认能读写输入/输出路径 |
-| 洪七公 | KDO 快速上手指南 → 中视频（Task 7） | 等通道就绪 |
 | 洪七公 | `art_双三角纠错_v2` 修复后→多模态转换 | 等老顽童修完归属错位 |
 
 ---

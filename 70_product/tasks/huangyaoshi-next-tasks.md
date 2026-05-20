@@ -514,3 +514,173 @@ git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
 - [ ] 空 H4（下面 <100 字正文）不计入攻击者计数
 - [ ] pytest 新增 ≥5 tests：旧格式识别 / 双 Critique 幂等 / 内容保留 / 空 H4 拒绝 / dry-run 不误伤
 - [ ] 不破坏现有 282 tests
+
+---
+
+## 🔧 Batch 6：kdo video CLI（P1，~2h）
+
+> **触发**：洪七公独自扛视频生产 7 步，session 爆了后降级为"HTML 幻灯片→录屏"，产出不可用。
+> **根因**：没有工具强制执行阶段门禁，没有中间产物持久化机制。
+> **设计文档**：[[40_outputs/capabilities/workflows/video-production-flow.md]]
+> **角色分工**：老顽童→脚本 / 洪七公→分镜+画面 / 工具链→音频+组装 / 欧阳锋→阶段审查
+
+### Task 15：`kdo video` 四个子命令（P1，~2h）
+
+`kdo video` 是一个轻量编排器——它自己不渲染、不生成音频。它负责：建项目骨架、验证阶段产物、调外部工具组装。
+
+#### 子命令 1：`kdo video init <article_path> [--title] [--slug]`
+
+```
+入参：一篇已存在的文章 .md 路径
+出参：视频项目目录 + _spec.md + 阶段模板文件
+```
+
+**行为**：
+1. 读取文章 frontmatter（artifact_id, title, source_refs, wiki_refs）
+2. 在 `40_outputs/content/videos/<slug>/` 下创建目录结构：
+   ```
+   <slug>/
+   ├── _spec.md                 # 项目 manifest
+   ├── 01-script.md             # Stage 1 模板（预填文章摘要+5段占位）
+   ├── 02-storyboard.md         # Stage 2 模板（预填分镜表头+style guide 占位）
+   ├── frames/                  # Stage 3 输出目录（空）
+   ├── audio/                   # Stage 4 输出目录（空）
+   └── draft/                   # Stage 5 输出目录（空）
+   ```
+3. `_spec.md` 内容：
+   ```yaml
+   ---
+   video_id: "<slug>_<timestamp>"
+   title: "<article title>"
+   source_article: "<article relative path>"
+   source_refs: [<from article frontmatter>]
+   wiki_refs: [<from article frontmatter>]
+   status: init
+   created_at: <timestamp>
+   stages:
+     script: pending
+     storyboard: pending
+     frames: pending
+     audio: pending
+     compose: pending
+   ---
+   ```
+4. `01-script.md` 预填：文章标题 + 5 段占位符（## Segment 1-5）+ 文章 Key Takeaways 作为参考
+5. `02-storyboard.md` 预填：Style Guide 占位（colors/font/animation/brand 四项）+ 空分镜表
+
+**验收**：
+- 目录结构完整（6 entries）
+- `_spec.md` 可解析 YAML，source_article 路径正确
+- `01-script.md` 包含 5 个 `## Segment N` 占位符
+- `02-storyboard.md` 包含 Style Guide 和分镜表头
+- 幂等：对同一 article 重复 init 不覆盖已有内容（检查 `_spec.md` 存在则提示 "already initialized"）
+
+#### 子命令 2：`kdo video validate <video_dir> [--stage script|storyboard|frames|audio|compose|all]`
+
+```
+入参：视频项目目录路径
+出参：终端报告 + 退出码（0=pass, 1=fail, 2=warn）
+```
+
+**三层门禁**（与 workflow 对齐）：
+
+| Layer | Checks | When | Exit Code on Fail |
+|:-----:|--------|------|:--:|
+| L1 | `_spec.md` 存在且可解析；`01-script.md` 非空非 TODO；`02-storyboard.md` 非空非 TODO；`frames/` 目录存在；`audio/` 目录存在 | --stage all | 1 |
+| L2 | script 含 5 个 `## Segment`；storyboard 含 Style Guide 四个字段；frames 数量 ≥ script 中 speaking points 数；frame 文件名匹配 `segment_N_frame_FFF` | --stage storyboard / frames | 1 |
+| L3 | source_article 路径可解析；storyboard 中颜色值为合法 hex；帧文件均为 ≥ 1920×1080 | --stage all | 2 (warn only) |
+
+**注意**：L1/L2 = BLOCK（exit 1），L3 = WARN（exit 2）。--stage 参数限定检查范围。
+
+**验收**：
+- L1 通过刚 init 的项目（空模板不算 fail——只检查文件存在，不检查内容质量）
+- L2 在 storyboard 缺 Style Guide 时 fail
+- L3 在 source_article 路径断裂时 warn
+- ≥3 tests
+
+#### 子命令 3：`kdo video render --audio <video_dir>`
+
+```
+入参：已完成 script + storyboard 的项目目录
+出参：audio/segment_N.mp3 × 5
+```
+
+**行为**：
+1. 读取 `01-script.md` → 提取每个 segment 的 speaking text
+2. 读取 `02-storyboard.md` → 提取每个 segment 的目标时长
+3. 调用外部 TTS 工具（设计为可配置插件，默认调用 edge-tts 或系统 TTS）
+4. 每段生成一个 mp3，时长控制在 storyboard 标注的 ±5%
+5. 生成低音量 BGM（可选，--bgm 开关）
+
+**外部依赖**：
+- TTS：edge-tts（pip install edge-tts）或系统内置 TTS
+- BGM：无版权素材库路径或静音（--no-bgm）
+
+**验收**：
+- 5 个 segment_*.mp3 生成，每个非空（>10KB）
+- 每段时长在 storyboard 标注 ±10% 内
+- ≥1 test（mock TTS 输出）
+
+#### 子命令 4：`kdo video render --compose <video_dir>`
+
+```
+入参：frames/* + audio/* + storyboard.md
+出参：draft/draft.mp4
+```
+
+**行为**：
+1. 读取 `02-storyboard.md` → 提取 frame→duration 映射
+2. 用 ffmpeg 将每个 segment 的画面帧 + 音频合成为 segment clip
+3. 拼接 5 个 segment clips → 输出 `draft/draft.mp4`
+4. 格式：H.264 1080p 30fps，AAC 192kbps
+
+**外部依赖**：ffmpeg（系统已安装）
+
+**验收**：
+- `draft/draft.mp4` 生成，1920×1080，时长 8-10 min
+- ffmpeg 未安装时打印清晰错误信息（非 traceback）
+- ≥1 test（mock ffmpeg 或检查命令拼接正确性）
+
+#### 子命令 5：`kdo video ship <video_dir> [--channel]`
+
+```
+入参：validate 通过的项目目录
+出参：final/final.mp4 + delivery record
+```
+
+**行为**：
+1. 验证 `kdo video validate` 通过
+2. Copy `draft/draft.mp4` → `final/final.mp4`
+3. 更新 `_spec.md` status → shipped
+4. 写入 `50_delivery/published/<video_id>.yaml`
+
+**验收**：
+- `final/final.mp4` 存在
+- `_spec.md` status = shipped
+- delivery record 写入
+
+### 不做什么
+
+- **不做** GUI 或 Web 界面
+- **不做** 实时预览或播放器
+- **不做** 视频托管或 CDN 分发
+- **不做** TTS 引擎本身（调用外部工具）
+- **不做** 画面渲染本身（洪七公负责）
+- **不做** 分镜表 GUI 编辑器
+
+### 总体验收
+
+- `kdo video --help` 输出清晰
+- 5 个子命令各自 --help 输出清晰
+- `kdo video init <article> && kdo video validate <dir>` 跑通完整 init→validate 链路
+- ≥5 new tests（init×2 + validate×2 + render mock×1）
+- 不破坏现有 286 tests
+- 错误信息始终打印到 stderr，正常输出到 stdout
+- 所有路径操作使用 pathlib，兼容 Windows 反斜杠路径
+
+### 完成标志
+
+- [ ] 5 个子命令全部可用
+- [ ] 286 + ≥5 new tests = ≥291 tests，全部 pass
+- [ ] 在 `C:\Users\Administrator\Knowledge Delivery OS 0.0.1` 下执行 `git add -A && git commit -m "feat: kdo video CLI — init/validate/render/ship"`
+- [ ] 用洪七公产出的 KDO quickstart 文章做首次 init 实测：`kdo video init "40_outputs/content/articles/art_20260504_02b8c4d6-kdo-quickstart-guide.md"`
