@@ -242,6 +242,7 @@ KDO 知识工厂五角色分工，协作规则定义在 `90_control/debate-proto
 | 9 | **不准擅自运行批量写入命令** | F-KDO-014 | `kdo scaffold --batch --write`、`kdo enrich --batch` 等批量写入命令，必须先经人类明确批准。C-10 证明了批量写入的破坏半径——71 张卡一次清空。单卡验证通过≠批量安全 |
 | 10 | **不准替换 source_refs 已有条目** | F-KDO-015 | 编辑 frontmatter `source_refs` 时只追加不替换。替换已有条目会断开 wiki→source 溯源链。如果旧 source 确实过时→追加新 source 并标注旧 source 已 superseded，不删除 |
 | 11 | **不准不读文件直接 patch** | F-KDO-016 | 执行 Edit/Write 前必须先 Read 确认文件当前状态。基于过时假设编辑会覆盖他人已修改的内容，且无 git diff 可追溯覆盖前状态 |
+| 12 | **不准跳过审批节点连续执行多个阶段** | F-KDO-017 | 流水线中每个子任务完成后必须提报审查，审查通过方可进入下一阶段。即使标记为"快速提报"的节点也不得跳过——快速≠跳过。典型违规：在一个 session 里连续产出 7b+7c+7d 三段画面，三次提报全部缺失。关联 C-11 |
 
 完整失败模式库：`90_control/failure-modes.md`。下一个 Agent session 启动时必读。
 

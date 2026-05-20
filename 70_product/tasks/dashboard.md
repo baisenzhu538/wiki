@@ -108,9 +108,9 @@ updated: 2026-05-20 (Gate 0+1 审查通过)
 | 子任务 | 阶段 | 入参 | 出参 | 前置依赖 | 估时 | 🛑 审查节点 |
 |:--:|------|------|------|------|:--:|------|
 | **7a v2** | 分镜修订 | 新版 `01-script.md`（十指讲香版） | `02-storyboard.md` v2 | 老顽童 Gate 0 通过 | 45min | ✅ **Gate 1 通过 · A+**。40 帧，6/6 门禁全过。烹饪比喻 3 帧+墓碑独立设计+情绪弧线全覆盖 |
-| 7b | 画面 Seg 1 | `02-storyboard.md` v2 | `frames/segment_1_*.png` | Gate 1 通过 | 30min | 🛑 7b 完成后提报，欧阳锋快速扫一眼（不阻塞但必须报） |
-| 7c | 画面 Seg 2 | `02-storyboard.md` v2 | `frames/segment_2_*.png` | 7b 提报完成 | 30min | 🛑 7c 完成后提报 |
-| 7d | 画面 Seg 3 | `02-storyboard.md` v2 | `frames/segment_3_*.png` | 7c 提报完成 | 30min | 🛑 **Gate 2**：7b+7c+7d 三段画面全部完成后，提报欧阳锋正式抽检（抽查 2/3 段） |
+| 7b | 画面 Seg 1 | `02-storyboard.md` v2 | `frames/segment_1_*.png` | Gate 1 通过 | 30min | ✅ 完成（10 帧，17:54）。⚠️ 未提报即进入 7c——违规 |
+| 7c | 画面 Seg 2 | `02-storyboard.md` v2 | `frames/segment_2_*.png` | 7b 提报完成 | 30min | ✅ 完成（7 帧，18:07）。⚠️ 未提报即进入 7d——违规 |
+| 7d | 画面 Seg 3 | `02-storyboard.md` v2 | `frames/segment_3_*.png` | 7c 提报完成 | 30min | ✅ 完成（14 帧，18:39）。⚠️ 三段连续产出，三次提报全部跳过 |
 | 7e | 画面 Seg 4 | `02-storyboard.md` v2 | `frames/segment_4_*.png` | Gate 2 通过 | 30min | 🛑 7e 完成后提报 |
 | 7f | 画面 Seg 5 | `02-storyboard.md` v2 | `frames/segment_5_*.png` | 7e 提报完成 | 30min | 🛑 **Gate 3**：全部 5 段画面完成后提报欧阳锋终检（逐段审查，不放水） |
 | 7g | 配音节奏审查 | `draft/draft.mp4` | `timing.md`（时间轴修正标注） | 黄药师 render + Gate 3 通过 | 20min | 🛑 **Gate 4**：timing.md 提报欧阳锋→黄药师最终合成→**欧阳锋终审 draft.mp4** |
