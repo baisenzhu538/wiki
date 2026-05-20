@@ -75,11 +75,11 @@ updated: 2026-05-20 (Gate 0+1+2 通过 · 7b-7f ✅ · 黄药师 Task 16 待执�
 | 13 | 🔥 scaffold 四缺陷（盲区+重复插入+内容丢弃+空H4） | **P0** | ✅ | `877c41a`。286 tests PASS (+4)。欧阳锋审查：A，通过 |
 | 14 | validator 空 H4 校验 | P1 | ✅ | 并入 Task 13。H4 <100 字不计入。验收测试全部通过 |
 | 15 | `kdo video` CLI（init/validate/render/ship） | **P1** | ✅ | `e8b9265`。5 子命令，24 tests，310 total 0 regressions |
-| 16 | 🔥 `kdo video render` 修两个缺口（散文体+TTS） | **P0** | ⏳ | 阻塞洪七公 7h。门禁见 [[huangyaoshi-next-tasks#Task 16：kdo video render 修两个缺口（~1h P0）]] |
+| 16 | 🔥 `kdo video render` 修两个缺口（散文体+TTS） | **P0** | ✅ | `fa66855`。散文体提取 + edge-tts 集成。32 video tests，317 total |
 
 ### 黄药师 — 当前任务
 
-**Task 16 排队中** ⏳。Task 1-15 全部交付 ✅。Task 16（kdo video render 修复）已下发，等待黄药师领取执行。**这是视频管线唯一的工具链阻塞点。**
+**全部完成** ✅ — Task 1-16 全部交付。视频管线阻塞点已解除，洪七公可执行 `kdo video render --audio`。
 
 ---
 
