@@ -64,11 +64,11 @@ updated: 2026-05-19
 | 12 | KDO Build 系统 | P2 | ✅ | `kdo build` + CHANGELOG + build_state, 11 tests |
 | 13 | 🔥 scaffold 四缺陷（盲区+重复插入+内容丢弃+空H4） | **P0** | ✅ | `877c41a`。286 tests PASS (+4)。欧阳锋审查：A，通过 |
 | 14 | validator 空 H4 校验 | P1 | ✅ | 并入 Task 13。H4 <100 字不计入。验收测试全部通过 |
-| 15 | `kdo video` CLI（init/validate/render/ship） | **P1** | ⏳ | spec 已写入 [[huangyaoshi-next-tasks#🔧 Batch 6：kdo video CLI]]。5 子命令，~2h |
+| 15 | `kdo video` CLI（init/validate/render/ship） | **P1** | ✅ | `e8b9265`。5 子命令，24 tests，310 total 0 regressions |
 
 ### 黄药师 — 当前任务
 
-**Task 15**：`kdo video` CLI。详见 [[huangyaoshi-next-tasks#🔧 Batch 6：kdo video CLI]]。建好后洪七公+老顽童的视频流水线才有工具支撑。
+**全部完成** ✅。Task 1-15 全部交付。等欧阳锋审查后派新任务。
 
 ---
 

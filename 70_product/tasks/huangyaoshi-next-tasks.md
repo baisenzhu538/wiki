@@ -680,7 +680,8 @@ git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
 
 ### 完成标志
 
-- [ ] 5 个子命令全部可用
-- [ ] 286 + ≥5 new tests = ≥291 tests，全部 pass
-- [ ] 在 `C:\Users\Administrator\Knowledge Delivery OS 0.0.1` 下执行 `git add -A && git commit -m "feat: kdo video CLI — init/validate/render/ship"`
-- [ ] 用洪七公产出的 KDO quickstart 文章做首次 init 实测：`kdo video init "40_outputs/content/articles/art_20260504_02b8c4d6-kdo-quickstart-guide.md"`
+- [x] 5 个子命令全部可用
+- [x] 286 + 24 new tests = 310 tests，全部 pass（1 skipped 系已有）
+- [x] `e8b9265` feat: kdo video CLI — init/validate/render/ship
+- [x] 用洪七公产出的 KDO quickstart 文章做首次 init 实测：创建成功，validate 返回 WARN（正确——空模板）
+- [x] 欧阳锋审查：待审查
