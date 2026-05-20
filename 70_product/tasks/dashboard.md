@@ -1,6 +1,6 @@
 ---
 title: 任务仪表盘
-updated: 2026-05-21 (Gate 0-4 全部通过 · 7a-7g A · 老顽童 v1.5 零FAILED + Batch3 A · 段王爷 ship 可执行)
+updated: 2026-05-21 (🎬 视频试点已关闭 · 黄药师 Task 17 A · 老顽童 v1.5+Batch3 A · 全员待命)
 ---
 
 # 任务仪表盘
@@ -309,7 +309,7 @@ kdo video render --compose "40_outputs/content/videos/knowledge-delivery-os-快�
 
 | # | 任务 | 状态 | 备注 |
 |---|------|------|------|
-| 1 | 🎬 KDO 视频试点 ship | 🔜 可执行 | 全部前置已就绪。Gate 0-4 通过。详见下方任务书 ↓ |
+| 1 | 🎬 KDO 视频试点 ship | ✅ | `shipped_at: 2026-05-21 04:30`。final.mp4: 11810 KB, 500.08s。管道关闭 🎉 |
 
 ### 🎬 任务 1：KDO 视频试点 ship（~5min）
 
@@ -372,12 +372,7 @@ kdo video ship → final.mp4 → 🎉 管线关闭
 
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
-| 段王爷 | 🎬 KDO 视频试点 ship | 🔜 就绪。所有 Gate 通过，`kdo video ship` 即可关闭管线 |
-| 黄药师 | Task 17 Seg5 TTS + compose 动态时长 | ⏳ P1 backlog |
-| 老顽童 | v1.5 全库修复（20 FAILED） | 🔨 可随时启动 |
-| 老顽童 | 🔧 4 项顺手修（Anthropic typo + 双三角文章归属+引用） | 积压，可随时清 |
-| 老顽童 | v1.5 全库修复（20 FAILED） | scaffold 已修好，可随时启动 |
-| 洪七公 | `art_双三角纠错_v2` 修复后→多模态转换 | 等老顽童修完归属错位 |
+| — | — | 当前无阻塞项。全员待命 |
 
 ---
 
@@ -385,6 +380,9 @@ kdo video ship → final.mp4 → 🎉 管线关闭
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
+| 05-21 | 欧阳锋 | 🛑 黄药师审查：Task 17 render 遗留缺陷 | ✅ A。Seg5 558.5s→70.5s + compose 动态帧时长。36 tests, 321 total |
+| 05-21 | 黄药师 | Task 17 render 遗留缺陷 | ✅ `dee0f83`。Bug1 appendix truncation + Bug2 dynamic frame durations。+4 tests |
+| 05-21 | 段王爷 | 🎬 Task 1 KDO 视频试点 ship | ✅ shipped。final.mp4: 11810 KB, 500.08s。管道关闭 🎉 |
 | 05-21 | 欧阳锋 | 🛑 老顽童审查：v1.5 全库修复 + Batch 3 | ✅ 通过 · A。215 cards: 211 pass / 0 fail / 4 warn。T6/T7/T8 A/A+/A+ |
 | 05-21 | 欧阳锋 | 🛑 Gate 4 复审：洪七公 timing.md 修正 | ✅ 升级为 A。timing.md 5803 字，40 帧逐帧时间线，方案A/B |
 | 05-21 | 洪七公 | 7g timing.md 修正 | ✅ 完成。逐帧时间线 + 均匀vs动态对比表 + 方案A/B |

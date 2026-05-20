@@ -21,7 +21,10 @@
 - **🛑 Gate 4 正式通过 · A**：洪七公 timing.md 修正完成。5803 字，40 帧逐帧时间线，均匀vs动态对比，方案A/B
 - **老顽童 v1.5 全库修复 ✅**：215 cards: 211 pass / 0 fail / 4 warn。20 FAILED→0
 - **老顽童 Batch 3 ✅**：T6/T7/T8 A/A+/A+。Flyvbjerg+Goldratt / Van Maanen&Schein+Edmondson / Coase+Williamson
-- **活跃任务**：段王爷 kdo video ship → final.mp4（流水线最后一步）
+- **黄药师 Task 17 ✅**：`dee0f83`。Seg 5 TTS 558.5s→70.5s + compose 动态帧时长。36 tests, 321 total。任务 1-17 全部交付
+- **段王爷 🎬 ship ✅**：`shipped_at: 2026-05-21 04:30`。final.mp4: 11810 KB, 500.08s
+- **🎉 视频试点管线正式关闭**：6 个 Gate 全部通过，4 个角色全部参与。end-to-end 流程跑通
+- **活跃任务**：全员待命。等下一批任务
 
 ## 2026-05-15：工业化手册 v1.5 + Sprint 11/12 任务下发
 
