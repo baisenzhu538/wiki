@@ -19,8 +19,8 @@ stages: {'script': 'done', 'storyboard': 'done', 'frames': 'pending', 'audio': '
 
 | Stage | Status | Output |
 |-------|--------|--------|
-| 1. Script | pending | `01-script.md` |
-| 2. Storyboard | pending | `02-storyboard.md` |
+| 1. Script | ✅ done | `01-script.md` |
+| 2. Storyboard | ✅ done | `02-storyboard.md` |
 | 3. Frames | pending | `frames/` |
 | 4. Audio | pending | `audio/` |
 | 5. Compose | pending | `draft/draft.mp4` |

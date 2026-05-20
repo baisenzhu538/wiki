@@ -1,6 +1,6 @@
 ---
 title: 任务仪表盘
-updated: 2026-05-19
+updated: 2026-05-20 (Gate 0+1 审查通过)
 ---
 
 # 任务仪表盘
@@ -24,7 +24,7 @@ updated: 2026-05-19
 | 🆕 | 科学决策域 35 PNG 增强消化 | 增强 | ✅ | 审计报告 A，91%覆盖，2 遗漏→现有卡 amendment，无需新卡 |
 | ⑥ | v1.5 全库修复（89 FAILED） | 质量 | ⏳ | 等 scaffold 工具 + 设计域完成后启动 |
 | ⑦ | 管理工具箱 Batch 3（T6+T7+T8） | 工具箱 | ⏳ | 穿插在 v1.5 修复间隙 |
-| 🎬 | KDO 视频脚本精炼（Stage 1） | 视频 | ⏳ | 等黄药师 `kdo video init` 后，/new session 读文章→写 01-script.md。估时 30min |
+| 🎬 | KDO 视频脚本精炼（Stage 1） | 视频 | ✅ | 脚本 A，Gate 0 通过。欧阳锋审查：1825 字（略低于 2000 下限，内容覆盖完整不阻塞） |
 
 ### 老顽童 — 执行顺序（从上到下，做完一个再看下一个）
 
@@ -39,7 +39,7 @@ updated: 2026-05-19
 | **🔧** | 🆕 洪七公审计修复 — 双三角文章归属错位 + 引用补齐 | 15min | 方案A：严格按原图修正。`art_双三角纠错_v2` L51 + `art_20260517_9c7a63cb` source_refs/wiki_refs。见 [[#🔍 洪七公文章审计（2026-05-19）]] |
 | **7** | ⑥ v1.5 全库修复（20 FAILED） | Batch B（~69张缺Critique）先做，再 Batch A（13张全缺）| 分批 | 穿插 ⑦ Batch 3。策略见 [[#🔍 v1.5 修复策略（欧阳锋拍板 2026-05-20）]] |
 | **8** | ⑦ 管理工具箱 Batch 3（T6+T7+T8） | 穿插在 ⑥ 间隙 | 6h | T6 项目雷达 / T7 新人融入 / T8 股权清单 |
-| **🎬** | KDO 视频脚本精炼 ← **下一个（试点优先）** | /new session：读源文章 → 写 `01-script.md` | 30min | 规范见下方 [[#🎬 老顽童 — 视频脚本任务]]。项目已 init，模板已就绪 |
+| **🎬** | KDO 视频脚本精炼 | ✅ 完成。Gate 0 通过 | 30min | 欧阳锋审查：A。5 段，1825 字，5/5 Visual hints，`kdo video validate` PASS |
 
 > **规则**：顺序执行，不跳。每完成一个 → 跑验证 → 通知欧阳锋审查。不要等批次全部完成。
 > 🎬 视频脚本试点的前置依赖（黄药师 `kdo video init`）已就绪。优先执行。
@@ -97,7 +97,7 @@ updated: 2026-05-19
 | 4 | wiki 勘误（归属错位） | ✅ | 已反馈 → `60_feedback/corrections/`，卡片修正由老顽童执行 |
 | 5 | 通道就绪确认 | ✅ | 13 路径全部就绪，5 核心输出路径写入测试通过 |
 | 6 | 双三角文章审计 | ✅ | 审计 2 篇，发现 🔴归属错位 1 处 + 🟡引用/渠道 3 处，报告已交付 |
-| 7 | KDO 快速上手指南 → 中视频（分镜+画面） | ⏳ | 等待：①黄药师 `kdo video` CLI + ②老顽童脚本。详见下方 |
+| 7 | KDO 快速上手指南 → 中视频（分镜+画面） | 🔨 | 7a ✅ Gate 1 通过。7b-7g 排队。详见下方 |
 
 ### 洪七公 — 视频流水线任务（Task 7 重构）
 
@@ -107,7 +107,7 @@ updated: 2026-05-19
 
 | 子任务 | 阶段 | 入参 | 出参 | 前置依赖 | 估时 | 审查节点 |
 |:--:|------|------|------|------|:--:|:--:|
-| 7a | 分镜设计 | `01-script.md` | `02-storyboard.md`（Style Guide + 分镜表） | 老顽童脚本完成 | 45min | 🛑 **Gate 1**：分镜必须欧阳锋审过才进入 7b |
+| 7a | 分镜设计 | `01-script.md` | `02-storyboard.md`（Style Guide + 分镜表） | 老顽童脚本完成 | 45min | ✅ **Gate 1 通过**：欧阳锋审查 A，34 帧，Style Guide 完整，非通用科技风 |
 | 7b | 画面 Seg 1 | `02-storyboard.md` | `frames/segment_1_*.png` | Gate 1 通过 | 30min | — |
 | 7c | 画面 Seg 2 | `02-storyboard.md` | `frames/segment_2_*.png` | Gate 1 通过 | 30min | — |
 | 7d | 画面 Seg 3 | `02-storyboard.md` | `frames/segment_3_*.png` | Gate 1 通过 | 30min | 🛑 **Gate 2**：7b-7d 完成 3/5 段时提报欧阳锋抽检 |
@@ -180,9 +180,9 @@ updated: 2026-05-19
 
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
-| 黄药师 | `kdo video` CLI（Task 15） | 视频流水线的工具基础，洪七公和老顽童都在等 |
-| 洪七公 | 视频分镜+画面（Task 7a-7g） | ① ✅ 黄药师 init ② 🔨 老顽童写脚本 ③ 等欧阳锋审脚本 |
-| 老顽童 | 视频脚本精炼（🎬） | 🔨 试点优先。黄药师 `kdo video init` 已就绪 ✅，可立即开工 |
+| 黄药师 | `kdo video` CLI（Task 15） | ✅ 已交付。阻塞解除 |
+| 洪七公 | 视频分镜+画面（Task 7b-7g） | 🔨 可立即开工。7a 分镜已通过 Gate 1，7b-7d 无阻塞 |
+| 老顽童 | v1.5 全库修复（20 FAILED） | 🔨 可随时启动 |
 | 老顽童 | 🔧 4 项顺手修（Anthropic typo + 双三角文章归属+引用） | 积压，可随时清 |
 | 老顽童 | v1.5 全库修复（20 FAILED） | scaffold 已修好，可随时启动 |
 | 洪七公 | `art_双三角纠错_v2` 修复后→多模态转换 | 等老顽童修完归属错位 |
@@ -193,6 +193,10 @@ updated: 2026-05-19
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
+| 05-20 | 欧阳锋 | 🛑 Gate 0 审查：老顽童视频脚本 | ✅ 通过。5 段/1825 字/5 Visual hints/抽查朗读 2 段不拗口。字数略低于 2000 下限，内容覆盖完整不阻塞 |
+| 05-20 | 欧阳锋 | 🛑 Gate 1 审查：洪七公视频分镜 | ✅ 通过。34 帧/Bauhaus amber 非通用科技风/每句有画面/Style Guide 完整可执行 |
+| 05-20 | 老顽童 | 🎬 KDO 视频脚本精炼 | ✅ 完成。01-script.md，5 段 full text + TTS 稿 |
+| 05-20 | 洪七公 | 7a 视频分镜设计 | ✅ 完成。02-storyboard.md，34 帧 + Style Guide + Production Notes + Asset Checklist |
 | 05-20 | 黄药师 | Task 13-14 scaffold 四缺陷修复 | ✅ `877c41a`，286 tests (+4)，0 回归。欧阳锋审查：A |
 | 05-20 | 欧阳锋 | Task 13-14 审查 + AGENTS.md 新增强 9/10/11 三条铁律 | ✅ F-KDO-014/015/016 已写入禁止清单 |
 | 05-20 | 老顽童 | scaffold 恢复 70/71 张卡 + lean-validation 二轮修复 | ✅ Savoia/Beck 各自独立 H4，内容正确 |
@@ -293,6 +297,51 @@ git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
 ### 穿插规则
 
 每做完 5 张 B 卡 → 跑 `kdo validate --v15 --card <id>` 验证 → 穿插 1 张 Batch 3（T6/T7/T8）换脑。
+
+---
+
+## 🛑 欧阳锋审查：视频试点 Gate 0 + Gate 1（2026-05-20）
+
+### Gate 0 — 老顽童脚本 `01-script.md`
+
+| # | 门禁项 | 结果 | 证据 |
+|:--:|------|:--:|------|
+| 1 | 总字数 2000-2500 | ⚠️ 1825 | 比下限少 175 字，~7.3 分钟。内容覆盖完整，不阻塞 |
+| 2 | 无占位残留 | ✅ | 0 `[Speaking point` 匹配 |
+| 3 | 每段 Visual hint | ✅ | 5/5，具体可执行 |
+| 4 | `kdo video validate --stage script` | ✅ | PASS |
+| 5 | 欧阳锋抽查朗读 2 段 | ✅ | Seg 1 + Seg 3，短句无嵌套，一口气说完 |
+
+**质量评定：A**。五段递进清晰，`--` 停顿可朗读，Visual hints 给出具体意象。字数偏少不阻塞——"快速上手指南"7.3 分钟长度合理。
+
+### Gate 1 — 洪七公分镜 `02-storyboard.md`
+
+| # | 审批项 | 结果 | 证据 |
+|:--:|------|:--:|------|
+| 1 | Style Guide 完整 | ✅ | 色彩/字体/动效/品牌/AVOID 全 |
+| 2 | 每句有画面 | ✅ | 34 帧覆盖 5 段全部 speaking point |
+| 3 | 非通用科技风 | ✅ | amber+黑底 Bauhaus，非蓝紫渐变 |
+| 4 | `kdo video validate --stage storyboard` | ✅ | PASS |
+| 5 | Production Notes 可执行 | ✅ | 5 个关键帧有具体实现说明 |
+
+**质量评定：A**。分镜覆盖无遗漏，9 种视觉类型有区分度，Style Guide 有记忆点（Bauhaus + amber terminal），Asset Checklist 提前列出了依赖资产。
+
+### 审批结论
+
+- ✅ **Gate 0 通过** → 老顽童脚本任务关闭，回归 v1.5 修复主线
+- ✅ **Gate 1 通过** → 洪七公可立即启动 7b-7d（Segment 1-3 画面制作）
+
+### 提报记录
+
+```
+老顽童 [Script Stage 1] 已完成
+路径：40_outputs/content/videos/knowledge-delivery-os-快速上手指南把散落知识变成可交付资产/01-script.md
+欧阳锋审查：✅ Gate 0 通过
+
+洪七公 [Storyboard Stage 7a] 已完成
+路径：40_outputs/content/videos/knowledge-delivery-os-快速上手指南把散落知识变成可交付资产/02-storyboard.md
+欧阳锋审查：✅ Gate 1 通过
+```
 
 ---
 

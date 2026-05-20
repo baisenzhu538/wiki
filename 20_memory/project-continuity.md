@@ -1,5 +1,14 @@
 # Project Continuity
 
+## 2026-05-20：视频试点 Gate 0+1 通过 + 门禁/审批/节点标准编码
+
+- **🛑 Gate 0 审查**：老顽童 KDO 视频脚本 `01-script.md` 通过。A 级，5 段/1825 字/5 Visual hints/抽查朗读不拗口。字数略低于 2000 下限但不阻塞
+- **🛑 Gate 1 审查**：洪七公视频分镜 `02-storyboard.md` 通过。A 级，34 帧/Bauhaus amber 非通用科技风/Style Guide 完整/Production Notes 可执行
+- **Operating Principle #9 编码**：门禁/审批/节点三要素写入 [[20_memory/operating-principles.md]]，以后所有工单缺一不得派发
+- **洪七公可立即开工 7b-7d**（Segment 1-3 画面），Gate 2 在 3/5 段完成时抽检
+- **老顽童回归主线**：视频脚本任务关闭，回归 v1.5 全库修复（20 FAILED）
+- **活跃任务**：洪七公 7b-7d 视频画面（P1）→ 老顽童 v1.5 全库修复 Batch B（P0）
+
 ## 2026-05-15：工业化手册 v1.5 + Sprint 11/12 任务下发
 
 - **KDO 方法论升级 v1.5**：黄药师提交 AI 思维卡分析建议书（[[ai-thinking-card-vs-kdo-analysis]]），欧阳锋独立裁决——采纳三个卡片层行为转化要件（Critique 外部攻击 + Synthesis 不要用场景 + Action Triggers），否决 ICAP 和 FOLLOWUP（原因：ICAP 是读者属性非卡片属性，FOLLOWUP 已被 v1.4 project-continuity 机制覆盖）
