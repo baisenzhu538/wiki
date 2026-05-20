@@ -1,6 +1,6 @@
 ---
 title: 任务仪表盘
-updated: 2026-05-20 (Gate 0+1+2 通过 · 7b-7f ✅ · 黄药师 Task 16 待执行 · 管线阻塞：render 修复)
+updated: 2026-05-20 (Gate 0+1+2+3 通过 · 7b-7f ✅ · 黄药师 Task 16 ✅ · 洪七公 7h 可执行)
 ---
 
 # 任务仪表盘
@@ -98,7 +98,7 @@ updated: 2026-05-20 (Gate 0+1+2 通过 · 7b-7f ✅ · 黄药师 Task 16 待执�
 | 4 | wiki 勘误（归属错位） | ✅ | 已反馈 → `60_feedback/corrections/`，卡片修正由老顽童执行 |
 | 5 | 通道就绪确认 | ✅ | 13 路径全部就绪，5 核心输出路径写入测试通过 |
 | 6 | 双三角文章审计 | ✅ | 审计 2 篇，发现 🔴归属错位 1 处 + 🟡引用/渠道 3 处，报告已交付 |
-| 7 | KDO 快速上手指南 → 中视频（分镜+画面） | 🔨 | 7a-7f ✅。Gate 0+1+2 通过。⏳ Gate 3 待用户终检。⚠️ 7h 阻塞于黄药师 Task 16 |
+| 7 | KDO 快速上手指南 → 中视频（分镜+画面） | 🔨 | 7a-7f ✅。Gate 0+1+2+3 通过。黄药师 Task 16 ✅。下一步：洪七公 7h |
 
 ### 洪七公 — 视频流水线任务（Task 7 v2）
 
@@ -114,7 +114,7 @@ updated: 2026-05-20 (Gate 0+1+2 通过 · 7b-7f ✅ · 黄药师 Task 16 待执�
 | 7d | 画面 Seg 3 | `02-storyboard.md` v2 | `frames/segment_3_*.png` | 7c 提报完成 | 30min | ✅ 完成（14 帧，18:39）。🛑 **Gate 2 通过**：用户初步看过，先跑通再迭代 |
 | 7e | 画面 Seg 4 | `02-storyboard.md` v2 | `frames/segment_4_*.png` | Gate 2 通过 | 30min | 🛑 7e 完成后提报 |
 | 7f | 画面 Seg 5 | `02-storyboard.md` v2 | `frames/segment_5_*.png` | Gate 2 通过 | 30min | ✅ 完成（6 帧，19:36）。7e→7f 间隔 8min，洪七公遵守停等信号（C-11 纪律已生效） |
-| **7h** | 渲染合成 ← **阻塞** | `frames/` 全部 40 帧 | `draft/draft.mp4` | ⚠️ 等黄药师 Task 16（render 缺陷修复） | 15min | 🛑 洪七公执行。黄药师 Task 16 完成后方可运行 `kdo video render --audio` |
+| **7h** | 渲染合成 ← **当前** | `frames/` 全部 40 帧 | `draft/draft.mp4` | ✅ 黄药师 Task 16 完成（fa66855） | 15min | 🛑 洪七公执行。`kdo video render --audio` → `--compose` → 产出 draft.mp4 后提报 |
 | 7g | 配音节奏审查 | `draft/draft.mp4` | `timing.md`（时间轴修正标注） | 7h draft.mp4 完成 | 20min | 🛑 **Gate 4**：timing.md 提报欧阳锋→欧阳锋终审 draft.mp4 |
 
 **洪七公总估时**：~4.5h（含 7a v2 分镜修订 45min + 7h 渲染合成 15min）。`kdo video render` 是 CLI 命令，洪七公自行执行，不需要黄药师介入。`kdo video ship` 最后一步由黄药师执行。
@@ -144,14 +144,13 @@ updated: 2026-05-20 (Gate 0+1+2 通过 · 7b-7f ✅ · 黄药师 Task 16 待执�
 洪七公 7e Seg 4 ✅ → 7f Seg 5 ✅（7e→7f 间隔 8min，停等信号生效）
     │
     ▼
-🛑 GATE 3 ⏳ — 等待用户终检全部 5 段 40 帧画面（逐段审查，不放水）
+🛑 GATE 3 ✅ 通过 — 用户终检全部 5 段 40 帧画面（效果一般，先跑通流程）
     │
     ▼
-⚠️ 黄药师 Task 16 ⏳ — kdo video render 修复（散文体提取 + TTS 集成）
-    │  ← 视频管线唯一的工具链阻塞点
+黄药师 Task 16 ✅ — kdo video render 修复（fa66855，散文体提取 + edge-tts 集成，32 tests，317 total）
     │
     ▼
-洪七公 7h 渲染合成（kdo video render --audio → --compose）
+洪七公 7h 渲染合成 ← **下一步**（kdo video render --audio → --compose）
     │
     ▼
 洪七公 7g timing.md
@@ -313,8 +312,8 @@ kdo video render --compose "40_outputs/content/videos/knowledge-delivery-os-快�
 
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
-| 黄药师 | `kdo video render` 修复（Task 16） | ⚠️ 阻塞洪七公 7h。散文体提取 + TTS 集成两个缺口，~1h P0 |
-| 洪七公 | 视频画面制作（7b-7g） | ✅ 7b-7f 已完成（40 帧）。⏳ Gate 3 等待用户终检。⚠️ 7h 阻塞于黄药师 Task 16 |
+| 黄药师 | `kdo video render` 修复（Task 16） | ✅ `fa66855`，阻塞解除 |
+| 洪七公 | 视频画面制作（7b-7g） | ✅ 7b-7f 已完成（40 帧）。🔜 7h 渲染合成可执行 |
 | 老顽童 | v1.5 全库修复（20 FAILED） | 🔨 可随时启动 |
 | 老顽童 | 🔧 4 项顺手修（Anthropic typo + 双三角文章归属+引用） | 积压，可随时清 |
 | 老顽童 | v1.5 全库修复（20 FAILED） | scaffold 已修好，可随时启动 |
@@ -475,13 +474,14 @@ git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
 🛑 GATE 0 ✅ 通过（老顽童脚本十指讲香版 · A+）
 🛑 GATE 1 ✅ 通过（洪七公分镜 v2 · A+）
 🛑 GATE 2 ✅ 通过（用户初步看过，31 帧可接受，先跑通再迭代）
-🛑 7e ✅ 完成 → 7f ✅ 完成（洪七公遵守停等信号，C-11 纪律生效）
+🛑 7e ✅ → 7f ✅（停等信号生效）
+🛑 GATE 3 ✅ 通过（用户终检 40 帧，效果一般，先跑通流程）
     │
     ▼
-🛑 GATE 3 ⏳ — 等待用户终检全部 5 段 40 帧画面
+洪七公 7h 渲染合成 ← 下一步（黄药师 Task 16 ✅，阻塞解除）
     │
     ▼
-⚠️ 黄药师 Task 16 ⏳ — 阻塞洪七公 7h
+🛑 GATE 4 — 欧阳锋终审 draft.mp4
 ```
 
 ---
