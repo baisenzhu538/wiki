@@ -6,7 +6,7 @@ source_refs: ["30_wiki/concepts/knowledge-delivery-os-快速体验指南-飞书�
 wiki_refs: ["30_wiki/concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md"]
 status: "init"
 created_at: "2026-05-20 14:47"
-stages: {'script': 'pending', 'storyboard': 'pending', 'frames': 'pending', 'audio': 'pending', 'compose': 'pending'}
+stages: {'script': 'done', 'storyboard': 'done', 'frames': 'pending', 'audio': 'pending', 'compose': 'pending'}
 ---
 
 # Video Project Spec
