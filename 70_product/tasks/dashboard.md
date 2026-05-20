@@ -76,11 +76,11 @@ updated: 2026-05-20 (Gate 0+1+2+3+4 条件通过 · 7a-7g ✅ · 待洪七公补
 | 14 | validator 空 H4 校验 | P1 | ✅ | 并入 Task 13。H4 <100 字不计入。验收测试全部通过 |
 | 15 | `kdo video` CLI（init/validate/render/ship） | **P1** | ✅ | `e8b9265`。5 子命令，24 tests，310 total 0 regressions |
 | 16 | 🔥 `kdo video render` 修两个缺口（散文体+TTS） | **P0** | ✅ | `fa66855`。散文体提取 + edge-tts 集成。32 video tests，317 total |
-| 17 | `kdo video render` 遗留缺陷（Seg5 TTS + compose 动态帧时长） | **P1** | ⏳ | 不阻塞当前试点 ship。Backlog。门禁见 [[huangyaoshi-next-tasks#Task 17：kdo video render 两个遗留缺陷（~1h P1）]] |
+| 17 | `kdo video render` 遗留缺陷（Seg5 TTS + compose 动态帧时长） | **P1** | ✅ | `dee0f83`。Seg 5 558.5s→70.5s；compose 按 audio 时长比例分配帧。+5 tests，36 video total，321 total |
 
 ### 黄药师 — 当前任务
 
-**Task 17 排队中** ⏳。Task 1-16 全部交付 ✅。Task 17（Seg 5 TTS 异常 + compose 动态时长）P1 backlog，不阻塞当前试点 ship。修完后用于后续视频项目。
+**全部完成** ✅ — Task 1-17 全部交付。视频管线工具链完整：init → validate → render --audio → render --compose → ship。
 
 ---
 
