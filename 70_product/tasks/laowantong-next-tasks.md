@@ -577,18 +577,42 @@ B 卡结构半成型，DU table 和 AT table 已存在，只差 `## Constraints 
 | 禁止 | 不说"众所周知""显而易见"；不堆砌排比句；每段不超过 5 个 speaking point |
 | Visual hint | 每段至少 1 个，用 `[Visual hint: 画面描述]` 格式 |
 
-### 验收
+### 🛑 门禁（通过标准，缺一不可）
 
-- [ ] 2000-2500 总字数
-- [ ] 5 个 Segment 全部填充，无 `[Speaking point` 残留
-- [ ] 每段有 ≥1 个 Visual hint
-- [ ] 大声读出来不拗口（欧阳锋抽查朗读 2 段）
-- [ ] `kdo video validate --stage script` 返回 PASS（无 TODO 警告）
+| # | 门禁项 | 判定方式 |
+|:--:|------|------|
+| 1 | 总字数 2000-2500 | 编辑器字数统计 |
+| 2 | 5 个 Segment 无 `[Speaking point` 占位残留 | `grep "\[Speaking point" 01-script.md` 返回空 |
+| 3 | 每段 ≥1 个 `[Visual hint: ...]` | `grep "\[Visual hint" 01-script.md` 返回 ≥5 |
+| 4 | `kdo video validate --stage script` 返回 PASS（无 TODO 警告） | 终端 exit 0 |
+| 5 | 欧阳锋抽查朗读 2 段——不拗口、可一口气说完 | 人审 |
 
-### 完成后
+### 🛑 审批（提报规范）
 
-**🛑 硬阻断：产出 `01-script.md` 后，必须通知欧阳锋审查。不得自行进入下一阶段。**
+**完成后必须立即提报，不得自行进入后续阶段。**
 
-通知格式：`"KDO 视频脚本已完成，路径：40_outputs/content/videos/knowledge-delivery-os-快速上手指南把散落知识变成可交付资产/01-script.md，请欧阳锋审查"`
+提报人：老顽童 → 审批人：欧阳锋
 
-审查通过后欧阳锋会通知洪七公启动分镜。审查不通过会标注具体修改点，修改后重新提报。
+提报格式：
+```
+KDO 视频脚本已完成，请欧阳锋审查。
+路径：40_outputs/content/videos/knowledge-delivery-os-快速上手指南把散落知识变成可交付资产/01-script.md
+```
+
+审批结果：
+- **通过** → 欧阳锋通知洪七公启动分镜（7a）
+- **修改** → 欧阳锋标注具体修改点（行号+问题+期望），老顽童修改后重新提报
+
+> ⚠️ 审批通过前自行进入下一阶段 = 违规。跳步后果参 C-8。
+
+### 🛑 节点（你在流水线中的位置）
+
+```
+GATE 0 ← 你在这里，产出 01-script.md
+  ↓ 欧阳锋审批通过
+GATE 1 ← 洪七公分镜（你不出力，但要知道下游在等你）
+  ↓
+GATE 2-4 ← 洪七公 + 黄药师 + 欧阳锋
+  ↓
+final.mp4
+```
