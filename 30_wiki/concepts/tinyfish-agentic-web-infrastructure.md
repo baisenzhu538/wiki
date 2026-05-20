@@ -155,3 +155,17 @@ tinyfish browser session create --url "https://example.com"
 - **business-research + TinyFish 集成**：在 business-research 的 Step 3 中优先使用 TinyFish Search/Fetch
 - **KDO Skill 类型系统**：在 `90_control/schemas/` 中新增 skill-type 枚举 Schema
 - **TinyFish tinyskills 试用**：用 TinyFish 的 SKILL.md 生成器反向验证我们的概念卡质量
+
+## Action Triggers
+
+| 触发场景 | 第一个动作 | 成功指标 |
+|---------|-----------|---------|
+| 需要基于这份调研/框架做出关键决策前 | 先问自己"这个结论现在还成立吗？有没有新的反例出现？" | 每次使用前都能说出至少一个可能影响结论有效性的新变化因素 |
+
+## Synthesis
+
+### 不要用的场景
+
+| 场景 | 为什么失效 | 替代方案 |
+|------|-----------|---------|
+| 把这个框架/方法当成绝对真理执行 | 任何方法论都是时间截面，它们假设未来会像过去一样发展 | 每次使用前先问"这个结论现在还成立吗？有没有新的反例出现？" |

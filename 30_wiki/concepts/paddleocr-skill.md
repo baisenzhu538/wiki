@@ -141,9 +141,22 @@ node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs <image-path>
 - Node.js 方案能否扩展支持 PDF 直接输入（目前仅 PNG/JPEG）？
 - ONNX 检测模型对竖排中文的表现如何？
 - 云端 PP-StructureV3 的表格还原质量是否值得配置 API Key？
-
 ## Output Opportunities
 
 - **KDO capture 增强**：PaddleOCR 作为 `kdo capture` 的图片预处理插件——截图自动 OCR 后存入 inbox
 - **business-research 集成**：Step 3 遇到图片财报/数据截图时自动调用 PaddleOCR 提取
 - **TinyFish + PaddleOCR 组合**：Fetch 获取页面 → PaddleOCR 识别嵌入图片 → 完整 Markdown
+
+## Action Triggers
+
+| 触发场景 | 第一个动作 | 成功指标 |
+|---------|-----------|---------|
+| 需要基于这份调研/框架做出关键决策前 | 先问自己"这个结论现在还成立吗？有没有新的反例出现？" | 每次使用前都能说出至少一个可能影响结论有效性的新变化因素 |
+
+## Synthesis
+
+### 不要用的场景
+
+| 场景 | 为什么失效 | 替代方案 |
+|------|-----------|---------|
+| 把这个框架/方法当成绝对真理执行 | 任何方法论都是时间截面，它们假设未来会像过去一样发展 | 每次使用前先问"这个结论现在还成立吗？有没有新的反例出现？" |
