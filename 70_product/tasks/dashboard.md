@@ -1,6 +1,6 @@
 ---
 title: 任务仪表盘
-updated: 2026-05-20 (Gate 0+1+2+3 通过 · 7b-7f ✅ · 黄药师 Task 16 ✅ · 洪七公 7h 可执行)
+updated: 2026-05-20 (Gate 0+1+2+3+4 条件通过 · 7a-7g ✅ · 待洪七公补 timing.md → ship)
 ---
 
 # 任务仪表盘
@@ -98,7 +98,7 @@ updated: 2026-05-20 (Gate 0+1+2+3 通过 · 7b-7f ✅ · 黄药师 Task 16 ✅ �
 | 4 | wiki 勘误（归属错位） | ✅ | 已反馈 → `60_feedback/corrections/`，卡片修正由老顽童执行 |
 | 5 | 通道就绪确认 | ✅ | 13 路径全部就绪，5 核心输出路径写入测试通过 |
 | 6 | 双三角文章审计 | ✅ | 审计 2 篇，发现 🔴归属错位 1 处 + 🟡引用/渠道 3 处，报告已交付 |
-| 7 | KDO 快速上手指南 → 中视频（分镜+画面） | 🔨 | 7a-7f ✅。Gate 0+1+2+3 通过。黄药师 Task 16 ✅。下一步：洪七公 7h |
+| 7 | KDO 快速上手指南 → 中视频 | 🔨 | 7a-7g ✅。Gate 0-4 通过（Gate 4 条件通过 B+）。待洪七公补 timing.md → ship |
 
 ### 洪七公 — 视频流水线任务（Task 7 v2）
 
@@ -114,8 +114,8 @@ updated: 2026-05-20 (Gate 0+1+2+3 通过 · 7b-7f ✅ · 黄药师 Task 16 ✅ �
 | 7d | 画面 Seg 3 | `02-storyboard.md` v2 | `frames/segment_3_*.png` | 7c 提报完成 | 30min | ✅ 完成（14 帧，18:39）。🛑 **Gate 2 通过**：用户初步看过，先跑通再迭代 |
 | 7e | 画面 Seg 4 | `02-storyboard.md` v2 | `frames/segment_4_*.png` | Gate 2 通过 | 30min | 🛑 7e 完成后提报 |
 | 7f | 画面 Seg 5 | `02-storyboard.md` v2 | `frames/segment_5_*.png` | Gate 2 通过 | 30min | ✅ 完成（6 帧，19:36）。7e→7f 间隔 8min，洪七公遵守停等信号（C-11 纪律已生效） |
-| **7h** | 渲染合成 ← **当前** | `frames/` 全部 40 帧 | `draft/draft.mp4` | ✅ 黄药师 Task 16 完成（fa66855） | 15min | 🛑 洪七公执行。`kdo video render --audio` → `--compose` → 产出 draft.mp4 后提报 |
-| 7g | 配音节奏审查 | `draft/draft.mp4` | `timing.md`（时间轴修正标注） | 7h draft.mp4 完成 | 20min | 🛑 **Gate 4**：timing.md 提报欧阳锋→欧阳锋终审 draft.mp4 |
+| **7h** | 渲染合成 | `frames/` 全部 40 帧 | `draft/draft.mp4` | ✅ 黄药师 Task 16 完成 | 15min | ✅ 完成。draft.mp4: 11810 KB, 500.1s, H.264/AAC |
+| 7g | 配音节奏审查 | `draft/draft.mp4` | `timing.md` → 实际产出 `03-qa-report.md` | 7h 完成 | 20min | ⚠️ **Gate 4 条件通过 · B+**。待修：拆出 `timing.md` + 补逐段时长表（15min）。[[#🛑 Gate 4 审查：洪七公 7g 音画对位]] |
 
 **洪七公总估时**：~4.5h（含 7a v2 分镜修订 45min + 7h 渲染合成 15min）。`kdo video render` 是 CLI 命令，洪七公自行执行，不需要黄药师介入。`kdo video ship` 最后一步由黄药师执行。
 
@@ -147,19 +147,19 @@ updated: 2026-05-20 (Gate 0+1+2+3 通过 · 7b-7f ✅ · 黄药师 Task 16 ✅ �
 🛑 GATE 3 ✅ 通过 — 用户终检全部 5 段 40 帧画面（效果一般，先跑通流程）
     │
     ▼
-黄药师 Task 16 ✅ — kdo video render 修复（fa66855，散文体提取 + edge-tts 集成，32 tests，317 total）
+黄药师 Task 16 ✅ — kdo video render 修复（fa66855）
     │
     ▼
-洪七公 7h 渲染合成 ← **下一步**（kdo video render --audio → --compose）
+洪七公 7h ✅ 渲染合成（draft.mp4: 11810 KB, 500.1s, H.264/AAC）
     │
     ▼
-洪七公 7g timing.md
+洪七公 7g ⚠️ 条件通过 · B+
     │
     ▼
-🛑 GATE 4 — 欧阳锋终审 draft.mp4（节奏+音画同步+整体观感）
+🛑 GATE 4 ⚠️ 条件通过 — timing.md 命名不符 + 缺逐段时长表（15min 修正）
     │
     ▼
-黄药师 kdo video ship → final.mp4
+洪七公 补 timing.md → 欧阳锋复审 → 黄药师 kdo video ship → final.mp4
 ```
 
 ### 🛑 GATE 1 审查标准（分镜 v2）
@@ -312,8 +312,7 @@ kdo video render --compose "40_outputs/content/videos/knowledge-delivery-os-快�
 
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
-| 黄药师 | `kdo video render` 修复（Task 16） | ✅ `fa66855`，阻塞解除 |
-| 洪七公 | 视频画面制作（7b-7g） | ✅ 7b-7f 已完成（40 帧）。🔜 7h 渲染合成可执行 |
+| 洪七公 | 7g timing.md 修正 | ⚠️ 拆出 `timing.md` + 补逐段时长表，15min。完成后 → ship |
 | 老顽童 | v1.5 全库修复（20 FAILED） | 🔨 可随时启动 |
 | 老顽童 | 🔧 4 项顺手修（Anthropic typo + 双三角文章归属+引用） | 积压，可随时清 |
 | 老顽童 | v1.5 全库修复（20 FAILED） | scaffold 已修好，可随时启动 |
@@ -471,18 +470,33 @@ git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
 ### 审批节点状态
 
 ```
-🛑 GATE 0 ✅ 通过（老顽童脚本十指讲香版 · A+）
-🛑 GATE 1 ✅ 通过（洪七公分镜 v2 · A+）
-🛑 GATE 2 ✅ 通过（用户初步看过，31 帧可接受，先跑通再迭代）
-🛑 7e ✅ → 7f ✅（停等信号生效）
-🛑 GATE 3 ✅ 通过（用户终检 40 帧，效果一般，先跑通流程）
-    │
-    ▼
-洪七公 7h 渲染合成 ← 下一步（黄药师 Task 16 ✅，阻塞解除）
-    │
-    ▼
-🛑 GATE 4 — 欧阳锋终审 draft.mp4
+🛑 GATE 0 ✅ A+
+🛑 GATE 1 ✅ A+
+🛑 GATE 2 ✅ 用户初步通过
+🛑 GATE 3 ✅ 用户终检通过
+🛑 GATE 4 ⚠️ 条件通过 · B+（洪七公补 timing.md 后放行 ship）
 ```
+
+---
+
+### 🛑 Gate 4 审查：洪七公 7g 音画对位（2026-05-20）
+
+**结论：有条件通过。B+。不阻塞 ship。**
+
+| # | 门禁 | 结果 |
+|:--:|------|:--:|
+| 1 | draft.mp4 存在 + 可播放 | ✅ 11810 KB, H.264/AAC, 1920×1080 |
+| 2 | 视频时长 8-10 分钟 | ✅ 500.1s (8.3min) |
+| 3 | `kdo video validate` PASS | ✅ |
+| 4 | 至少 3 处音画同步修正标注 | ✅ 4 处 |
+| 5 | 产出 `timing.md` | ⚠️ 产出 `03-qa-report.md`（内容等效，命名不符规范） |
+
+**待修（洪七公 15min）**：
+1. 从 `03-qa-report.md` 拆出独立 `timing.md`
+2. 补逐段时长表（Seg 1-5 × 帧范围 × 脚本标注 × 音频实测 × 建议帧时长）
+3. Seg 5 TTS 异常（558.5s→预期 ~60s）记录供黄药师排查
+
+**审查记录已写入** `03-qa-report.md` 底部。
 
 ---
 
