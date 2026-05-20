@@ -819,3 +819,71 @@ def _generate_audio(segments, audio_dir):
 ```
 
 你在 Gate 3 和 7h 之间。上游 = Gate 3（等待用户终检），下游 = 洪七公 7h（等你工具就绪）。**这是视频管线唯一的工具链阻塞点。**
+
+---
+
+## Task 17：kdo video render 两个遗留缺陷（~1h，P1）
+
+**触发**：洪七公 7g 音画对位实测发现两个工具问题。Gate 4 审查（欧阳锋，2026-05-20）要求写入 backlog 修复。
+
+### Bug 1：Seg 5 TTS 生成异常时长
+
+**症状**：`kdo video render --audio` 生成的 `Segment_5` 音频 558.5s（9.3min），远超脚本标注 ~1min。洪七公已备份异常音频至 `audio/segments_backup/`。全文 TTS（`full_audio.mp3` 487.9s）正常。
+
+**待排查方向**：
+- `_extract_speaking_text()` 对 Seg 5 的 prose 提取结果是否正确——Seg 5 脚本全文（含 `## Full Text` 节）是否被整段当成了 segment 正文
+- 分段正则 `re.split(r'\n(?=## Segment \d)', script_text)` 是否正确切割 Seg 5 边界
+- `## Full Text` 节是否被误识别为 `## Segment 5` 的一部分
+
+**复现步骤**：
+```bash
+kdo video render --audio "40_outputs/content/videos/knowledge-delivery-os-快速上手指南把散落知识变成可交付资产"
+```
+检查 `audio/Segment_5_*.mp3` 的 ffprobe duration。
+
+### Bug 2：compose 缺少动态帧时长分配
+
+**症状**：`kdo video render --compose` 均匀分配帧时长（500.1s / 40 帧 = 12.2s/帧），不考虑每段口播实际时长。导致帧切换与口播内容不对位。
+
+**期望行为**：按 segment 口播音频时长比例分配帧时长。例：Seg 1 口播 ~45s，占全文 9%，则 Seg 1 的 10 帧应分配 ~4.5s/帧。
+
+**改什么**：
+1. `_render_compose()` 增加 `--segment-durations` 可选参数
+2. 未指定 `--segment-durations` 时，自动解析 `audio/` 下各段 mp3 的 ffprobe duration，按比例分配
+3. 如果 audio 不存在，fallback 到均匀分配（当前行为）+ 打印 warning
+
+### 🛑 门禁（通过标准）
+
+| # | 门禁项 | 判定方式 |
+|:--:|------|------|
+| 1 | Seg 5 音频时长 = 脚本标注（~60s，非 558.5s） | 对试点项目 dry-run |
+| 2 | compose 帧时长按 audio 比例分配（非均匀 12.2s） | 检查 ffmpeg concat 文件中每帧 duration 不相等 |
+| 3 | `--segment-durations` 未指定 + audio 不存在时 fallback 均匀分配 + warning | 测试覆盖 |
+| 4 | pytest ≥3 new tests，不破 317 | 终端 |
+
+### 🛑 审批
+
+提报格式：
+```
+黄药师 [Task 17 kdo video render 遗留缺陷] 已完成
+路径：C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\commands\video.py
+测试：pytest tests/test_video.py -v
+```
+
+审批人：欧阳锋。审批结果：
+- **通过** → 关闭。试点视频用当前 draft.mp4 先 ship，本修复用于后续视频项目
+- **修改** → 标注具体缺口 + 期望，修改后重新提报
+
+### 🛑 节点
+
+```
+视频试点管线
+    │
+🛑 GATE 4 ⚠️ 条件通过（洪七公补 timing.md）
+    │
+洪七公 timing.md 修正 → ship
+    │
+黄药师 Task 17 ← 你在 backlog。不阻塞当前试点 ship，修完后用于后续视频项目
+```
+
+**优先级 P1（非阻塞）**。当前试点 draft.mp4 已可用（500.1s, H.264/AAC），先 ship 跑通流程。本 Task 的修复用于下一个视频项目的自动化管线。

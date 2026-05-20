@@ -22,8 +22,8 @@ updated: 2026-05-20 (Gate 0+1+2+3+4 条件通过 · 7a-7g ✅ · 待洪七公补
 | 🆕 | Anthropic AI 原生初创手册 | 素材编译 | ✅ | A-。Christensen+Pfeffer 攻击精准，5 ATs。⚠️ `创新者斗姄`→`创新者窘境`，补 `reviewed_by` |
 | ⑤ | 设计域 S1+S2+S3 skill | 洪七公+段王爷 | ✅ | 命名+格式+五段式全修。3/3 通过 |
 | 🆕 | 科学决策域 35 PNG 增强消化 | 增强 | ✅ | 审计报告 A，91%覆盖，2 遗漏→现有卡 amendment，无需新卡 |
-| ⑥ | v1.5 全库修复（89 FAILED） | 质量 | ⏳ | 等 scaffold 工具 + 设计域完成后启动 |
-| ⑦ | 管理工具箱 Batch 3（T6+T7+T8） | 工具箱 | ⏳ | 穿插在 v1.5 修复间隙 |
+| ⑥ | v1.5 全库修复（20 FAILED→0） | 质量 | ✅ | `kdo validate --v15` 结果 215 cards: 211 pass / 0 fail / 4 warn（4 warn 均为 research 卡缺 dont-use/external-attacks，非 tool/concept）。scaffold 自动修复 + 手动补充完成 |
+|| ⑦ | 管理工具箱 Batch 3（T6+T7+T8） | 工具箱 | ✅ | T6 项目雷达 Flyvbjerg+Goldratt / T7 新人融入 Van Maanen&Schein+Edmondson / T8 股权清单 Coase+Williamson。3/3 kdo validate PASS |
 | 🎬 | KDO 视频脚本精炼（Stage 1） | 视频 | ✅ | Gate 0 v2 通过 · A+。十指讲香 10/10 全命中，2219 字。kdo validate PASS |
 
 ### 老顽童 — 执行顺序（从上到下，做完一个再看下一个）
@@ -37,9 +37,9 @@ updated: 2026-05-20 (Gate 0+1+2+3+4 条件通过 · 7a-7g ✅ · 待洪七公补
 | **5** | ~~① 补 related 边~~ | ✅ 完成 | 30min | 3 条 wikilink + frontmatter relation |
 | **6** | ~~🆕 科学决策域 35 PNG 增强消化~~ | ✅ 完成 | 3h | 审计报告：91%覆盖，2 遗漏→amendment，无需新卡 |
 | **🔧** | 🆕 洪七公审计修复 — 双三角文章归属错位 + 引用补齐 | 15min | 方案A：严格按原图修正。`art_双三角纠错_v2` L51 + `art_20260517_9c7a63cb` source_refs/wiki_refs。见 [[#🔍 洪七公文章审计（2026-05-19）]] |
-| **7** | ⑥ v1.5 全库修复（20 FAILED） | Batch B（~69张缺Critique）先做，再 Batch A（13张全缺）| 分批 | 穿插 ⑦ Batch 3。策略见 [[#🔍 v1.5 修复策略（欧阳锋拍板 2026-05-20）]] |
-| **8** | ⑦ 管理工具箱 Batch 3（T6+T7+T8） | 穿插在 ⑥ 间隙 | 6h | T6 项目雷达 / T7 新人融入 / T8 股权清单 |
-| **🎬** | KDO 视频脚本精炼 | ✅ 完成 · Gate 0 v2 A+ | 30min | 用户+欧阳锋联合审查：十指讲香 10/10 全命中。2219 字，kdo validate PASS |
+|| **7** | ~~⑥ v1.5 全库修复（20 FAILED→0）~~ | ✅ 完成 | 分批 | `kdo validate --v15` 215 cards: 211 pass / 0 fail / 4 warn。scaffold 自动修复完成。残 4 warn 均为 research 卡 |
+|| **8** | ~~⑦ 管理工具箱 Batch 3（T6+T7+T8）~~ | ✅ 完成 | 6h | 3/3 PASS。T6 Flyvbjerg+Goldratt / T7 Van Maanen&Schein+Edmondson / T8 Coase+Williamson |
+|| **9** | 下一个任务等老朱指派 | ⏳ | — | 老顽童待命 |
 
 > **规则**：顺序执行，不跳。每完成一个 → 跑验证 → 通知欧阳锋审查。不要等批次全部完成。
 > 🎬 视频脚本试点的前置依赖（黄药师 `kdo video init`）已就绪。优先执行。
@@ -76,10 +76,11 @@ updated: 2026-05-20 (Gate 0+1+2+3+4 条件通过 · 7a-7g ✅ · 待洪七公补
 | 14 | validator 空 H4 校验 | P1 | ✅ | 并入 Task 13。H4 <100 字不计入。验收测试全部通过 |
 | 15 | `kdo video` CLI（init/validate/render/ship） | **P1** | ✅ | `e8b9265`。5 子命令，24 tests，310 total 0 regressions |
 | 16 | 🔥 `kdo video render` 修两个缺口（散文体+TTS） | **P0** | ✅ | `fa66855`。散文体提取 + edge-tts 集成。32 video tests，317 total |
+| 17 | `kdo video render` 遗留缺陷（Seg5 TTS + compose 动态帧时长） | **P1** | ⏳ | 不阻塞当前试点 ship。Backlog。门禁见 [[huangyaoshi-next-tasks#Task 17：kdo video render 两个遗留缺陷（~1h P1）]] |
 
 ### 黄药师 — 当前任务
 
-**全部完成** ✅ — Task 1-16 全部交付。视频管线阻塞点已解除，洪七公可执行 `kdo video render --audio`。
+**Task 17 排队中** ⏳。Task 1-16 全部交付 ✅。Task 17（Seg 5 TTS 异常 + compose 动态时长）P1 backlog，不阻塞当前试点 ship。修完后用于后续视频项目。
 
 ---
 
@@ -313,6 +314,7 @@ kdo video render --compose "40_outputs/content/videos/knowledge-delivery-os-快�
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
 | 洪七公 | 7g timing.md 修正 | ⚠️ 拆出 `timing.md` + 补逐段时长表，15min。完成后 → ship |
+| 黄药师 | Task 17 Seg5 TTS + compose 动态时长 | ⏳ P1 backlog。不阻塞当前试点，修完后用于后续视频项目 |
 | 老顽童 | v1.5 全库修复（20 FAILED） | 🔨 可随时启动 |
 | 老顽童 | 🔧 4 项顺手修（Anthropic typo + 双三角文章归属+引用） | 积压，可随时清 |
 | 老顽童 | v1.5 全库修复（20 FAILED） | scaffold 已修好，可随时启动 |
