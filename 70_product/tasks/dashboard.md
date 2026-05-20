@@ -1,6 +1,6 @@
 ---
 title: 任务仪表盘
-updated: 2026-05-20 (Gate 0+1+2+3+4 条件通过 · 7a-7g ✅ · 待洪七公补 timing.md → ship)
+updated: 2026-05-21 (Gate 0-4 全部通过 · 7a-7g A · 老顽童 v1.5 零FAILED + Batch3 A · 段王爷 ship 可执行)
 ---
 
 # 任务仪表盘
@@ -99,7 +99,7 @@ updated: 2026-05-20 (Gate 0+1+2+3+4 条件通过 · 7a-7g ✅ · 待洪七公补
 | 4 | wiki 勘误（归属错位） | ✅ | 已反馈 → `60_feedback/corrections/`，卡片修正由老顽童执行 |
 | 5 | 通道就绪确认 | ✅ | 13 路径全部就绪，5 核心输出路径写入测试通过 |
 | 6 | 双三角文章审计 | ✅ | 审计 2 篇，发现 🔴归属错位 1 处 + 🟡引用/渠道 3 处，报告已交付 |
-| 7 | KDO 快速上手指南 → 中视频 | 🔨 | 7a-7g ✅。Gate 0-4 通过（Gate 4 条件通过 B+）。待洪七公补 timing.md → ship |
+| 7 | KDO 快速上手指南 → 中视频 | ✅ | 7a-7g 全部完成 · Gate 0-4 全部通过。timing.md A。下一步：段王爷 ship |
 
 ### 洪七公 — 视频流水线任务（Task 7 v2）
 
@@ -116,7 +116,7 @@ updated: 2026-05-20 (Gate 0+1+2+3+4 条件通过 · 7a-7g ✅ · 待洪七公补
 | 7e | 画面 Seg 4 | `02-storyboard.md` v2 | `frames/segment_4_*.png` | Gate 2 通过 | 30min | 🛑 7e 完成后提报 |
 | 7f | 画面 Seg 5 | `02-storyboard.md` v2 | `frames/segment_5_*.png` | Gate 2 通过 | 30min | ✅ 完成（6 帧，19:36）。7e→7f 间隔 8min，洪七公遵守停等信号（C-11 纪律已生效） |
 | **7h** | 渲染合成 | `frames/` 全部 40 帧 | `draft/draft.mp4` | ✅ 黄药师 Task 16 完成 | 15min | ✅ 完成。draft.mp4: 11810 KB, 500.1s, H.264/AAC |
-| 7g | 配音节奏审查 | `draft/draft.mp4` | `timing.md` → 实际产出 `03-qa-report.md` | 7h 完成 | 20min | ⚠️ **Gate 4 条件通过 · B+**。待修：拆出 `timing.md` + 补逐段时长表（15min）。[[#🛑 Gate 4 审查：洪七公 7g 音画对位]] |
+| 7g | 配音节奏审查 | `draft/draft.mp4` | `timing.md` ✅ | 7h 完成 | 20min | ✅ **Gate 4 通过 · A**。逐帧时间线 + 均匀vs动态对比 + 方案A/B建议。[[#🛑 Gate 4 审查：洪七公 7g 音画对位]] |
 
 **洪七公总估时**：~4.5h（含 7a v2 分镜修订 45min + 7h 渲染合成 15min）。`kdo video render` 是 CLI 命令，洪七公自行执行，不需要黄药师介入。`kdo video ship` 最后一步由段王爷执行。
 
@@ -154,13 +154,13 @@ updated: 2026-05-20 (Gate 0+1+2+3+4 条件通过 · 7a-7g ✅ · 待洪七公补
 洪七公 7h ✅ 渲染合成（draft.mp4: 11810 KB, 500.1s, H.264/AAC）
     │
     ▼
-洪七公 7g ⚠️ 条件通过 · B+
+洪七公 7g ✅ A（timing.md 逐帧时间线 + 均匀vs动态对比）
     │
     ▼
-🛑 GATE 4 ⚠️ 条件通过 — timing.md 命名不符 + 缺逐段时长表（15min 修正）
+🛑 GATE 4 ✅ 通过 · A — 段王爷可执行 kdo video ship
     │
     ▼
-洪七公 补 timing.md → 欧阳锋复审 → 段王爷 kdo video ship → final.mp4
+段王爷 kdo video ship → final.mp4
 ```
 
 ### 🛑 GATE 1 审查标准（分镜 v2）
@@ -317,8 +317,8 @@ kdo video render --compose "40_outputs/content/videos/knowledge-delivery-os-快�
 
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
-| 洪七公 | 7g timing.md 修正 | ⚠️ 拆出 `timing.md` + 补逐段时长表，15min。完成后 → ship |
-| 黄药师 | Task 17 Seg5 TTS + compose 动态时长 | ⏳ P1 backlog。不阻塞当前试点，修完后用于后续视频项目 |
+| 段王爷 | 🎬 KDO 视频试点 ship | ⏳ `kdo video ship` → final.mp4。流水线最后一步 |
+| 黄药师 | Task 17 Seg5 TTS + compose 动态时长 | ⏳ P1 backlog |
 | 老顽童 | v1.5 全库修复（20 FAILED） | 🔨 可随时启动 |
 | 老顽童 | 🔧 4 项顺手修（Anthropic typo + 双三角文章归属+引用） | 积压，可随时清 |
 | 老顽童 | v1.5 全库修复（20 FAILED） | scaffold 已修好，可随时启动 |
@@ -330,6 +330,11 @@ kdo video render --compose "40_outputs/content/videos/knowledge-delivery-os-快�
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
+| 05-21 | 欧阳锋 | 🛑 老顽童审查：v1.5 全库修复 + Batch 3 | ✅ 通过 · A。215 cards: 211 pass / 0 fail / 4 warn。T6/T7/T8 A/A+/A+ |
+| 05-21 | 欧阳锋 | 🛑 Gate 4 复审：洪七公 timing.md 修正 | ✅ 升级为 A。timing.md 5803 字，40 帧逐帧时间线，方案A/B |
+| 05-21 | 洪七公 | 7g timing.md 修正 | ✅ 完成。逐帧时间线 + 均匀vs动态对比表 + 方案A/B |
+| 05-20 | 老顽童 | ⑦ 管理工具箱 Batch 3（T6+T7+T8） | ✅ 3/3 PASS。T6 Flyvbjerg+Goldratt / T7 Van Maanen&Schein+Edmondson / T8 Coase+Williamson |
+| 05-20 | 老顽童 | ⑥ v1.5 全库修复（20 FAILED→0） | ✅ 215 cards: 211 pass / 0 fail / 4 warn |
 | 05-20 | 欧阳锋 | 🛑 Gate 4 审查：洪七公 7g 音画对位 | ⚠️ 条件通过 · B+。待补 timing.md 逐段时长表（15min） |
 | 05-20 | 洪七公 | 7g 音画对位审查 | ⚠️ 完成。产出 `03-qa-report.md`（非 `timing.md`）。draft.mp4: 500.1s, H.264/AAC。发现 Seg 5 TTS 异常 + compose 均匀分配问题 |
 | 05-20 | 洪七公 | 7h 渲染合成 | ✅ 完成。draft.mp4 生成：11810 KB, 500.1s, H.264/AAC |
@@ -484,29 +489,29 @@ git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
 🛑 GATE 1 ✅ A+
 🛑 GATE 2 ✅ 用户初步通过
 🛑 GATE 3 ✅ 用户终检通过
-🛑 GATE 4 ⚠️ 条件通过 · B+（洪七公补 timing.md 后放行 ship）
+🛑 GATE 4 ✅ 通过 · A（timing.md 逐帧时间线 + 方案A/B，段王爷可 ship）
 ```
 
 ---
 
-### 🛑 Gate 4 审查：洪七公 7g 音画对位（2026-05-20）
+### 🛑 Gate 4 审查：洪七公 7g 音画对位（2026-05-20 初查 B+ → 2026-05-21 修正后 A）
 
-**结论：有条件通过。B+。不阻塞 ship。**
+**结论：通过。A。**
 
-| # | 门禁 | 结果 |
-|:--:|------|:--:|
-| 1 | draft.mp4 存在 + 可播放 | ✅ 11810 KB, H.264/AAC, 1920×1080 |
-| 2 | 视频时长 8-10 分钟 | ✅ 500.1s (8.3min) |
-| 3 | `kdo video validate` PASS | ✅ |
-| 4 | 至少 3 处音画同步修正标注 | ✅ 4 处 |
-| 5 | 产出 `timing.md` | ⚠️ 产出 `03-qa-report.md`（内容等效，命名不符规范） |
+| # | 门禁 | 初查 | 修正后 |
+|:--:|------|:--:|:--:|
+| 1 | draft.mp4 存在 + 可播放 | ✅ | ✅ |
+| 2 | 视频时长 8-10 分钟 | ✅ | ✅ |
+| 3 | `kdo video validate` PASS | ✅ | ✅ |
+| 4 | 至少 3 处音画同步修正标注 | ✅ | ✅ |
+| 5 | 产出 `timing.md` + 逐段时长表 | ⚠️ 缺 | ✅ **5803 字，四段式，40 帧逐帧时间线** |
 
-**待修（洪七公 15min）**：
-1. 从 `03-qa-report.md` 拆出独立 `timing.md`
-2. 补逐段时长表（Seg 1-5 × 帧范围 × 脚本标注 × 音频实测 × 建议帧时长）
-3. Seg 5 TTS 异常（558.5s→预期 ~60s）记录供黄药师排查
+**超出预期**：
+- 逐帧标注口播内容节点（非逐段，是逐帧）
+- 均匀 vs 动态分配对比表（量化揭示 Seg1 过长 50%、Seg4 过短 52%）
+- 方案 A（微调当前 40 帧）vs 方案 B（重构分帧），推荐方案 A
 
-**审查记录已写入** `03-qa-report.md` 底部。
+**审查记录已写入** `03-qa-report.md` + `timing.md`。
 
 ---
 
