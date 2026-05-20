@@ -887,3 +887,27 @@ kdo video render --audio "40_outputs/content/videos/knowledge-delivery-os-快速
 ```
 
 **优先级 P1（非阻塞）**。当前试点 draft.mp4 已可用（500.1s, H.264/AAC），先 ship 跑通流程。本 Task 的修复用于下一个视频项目的自动化管线。
+
+---
+
+## 顺手修：`kdo video ship` 同步更新 stages 字典（~5min，P3）
+
+**发现者**：段王爷（ship 实测）+ 欧阳锋（审查确认）
+
+**症状**：`kdo video ship` 执行后，`_spec.md` 顶层 `status` 正确变为 `"shipped"`，但 frontmatter 中 `stages` 字典的 `'ship'` 仍为 `'pending'`。
+
+```yaml
+# 当前（不一致）：
+status: "shipped"
+stages: "{'script': 'done', ..., 'ship': 'pending'}"  # ← 未同步
+
+# 期望：
+status: "shipped"
+stages: "{'script': 'done', ..., 'ship': 'done'}"      # ← 应同步
+```
+
+**改什么**：`cmd_video_ship()` 中，写完 `status` 字段后，同步将 `stages['ship']` 设为 `'done'`。
+
+**验收**：对试点项目 dry-run ship → 检查 `_spec.md` 中 `stages` 字典 `'ship': 'done'`。
+
+**无需测试、无需提报。** 5 分钟小修，下个 session 顺手改。
