@@ -324,6 +324,10 @@ kdo video render --compose "40_outputs/content/videos/knowledge-delivery-os-快�
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
+| 05-20 | 欧阳锋 | 🛑 Gate 4 审查：洪七公 7g 音画对位 | ⚠️ 条件通过 · B+。待补 timing.md 逐段时长表（15min） |
+| 05-20 | 洪七公 | 7g 音画对位审查 | ⚠️ 完成。产出 `03-qa-report.md`（非 `timing.md`）。draft.mp4: 500.1s, H.264/AAC。发现 Seg 5 TTS 异常 + compose 均匀分配问题 |
+| 05-20 | 洪七公 | 7h 渲染合成 | ✅ 完成。draft.mp4 生成：11810 KB, 500.1s, H.264/AAC |
+| 05-20 | 黄药师 | Task 16 kdo video render 修复 | ✅ `fa66855`。散文体提取 + edge-tts 集成。32 tests, 317 total |
 | 05-20 | 洪七公 | 7f Seg 5 画面（6 帧） | ✅ 完成。7e→7f 间隔 8min，遵守停等信号（C-11 纪律生效） |
 | 05-20 | 洪七公 | 7e Seg 4 画面（3 帧） | ✅ 完成。Gate 2 通过后执行，7d→7e 间隔 49min |
 | 05-20 | 欧阳锋 | 🛑 Gate 2 审查：7b+7c+7d 三段画面 | ✅ 通过。用户初步看过，31 帧可接受，先跑通再迭代 |
