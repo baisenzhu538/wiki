@@ -685,3 +685,137 @@ git commit -m "feat: Task 11+12 — skill-dir validation + KDO build system"
 - [x] `e8b9265` feat: kdo video CLI — init/validate/render/ship
 - [x] 用洪七公产出的 KDO quickstart 文章做首次 init 实测：创建成功，validate 返回 WARN（正确——空模板）
 - [x] 欧阳锋审查：待审查
+
+---
+
+## 🔧 Task 16：`kdo video render` 修两个缺口（P0，~1h）
+
+> **触发**：视频试点 Gate 3 通过，洪七公准备执行 `kdo video render --audio` 时实测报错：`No speaking points found.` 根因两个缺口。
+
+### 缺口 1：只认 bullet point 格式，不认散文体脚本
+
+**位置**：`commands/video.py` `_render_audio()` L426
+
+**现状**：
+```python
+points = re.findall(r'^- (.+)', seg, re.MULTILINE)
+speaking_text = ' '.join(points)
+```
+
+这只匹配 `- 说话内容` 格式。老顽童的十指讲香脚本是散文体（段落+`--` 停顿标记），不含任何 bullet point。结果是 `points = []` → `speaking_text = ''` → 所有 segment 都被跳过。
+
+**改法**：提取逻辑改为双路径 fallback：
+
+```python
+# Path A: 尝试提取 bullet points
+points = re.findall(r'^- (.+)', seg, re.MULTILINE)
+if points:
+    speaking_text = ' '.join(points)
+else:
+    # Path B: 从散文体中提取——跳过 frontmatter、标题、Visual hint、空行、分隔线
+    # 保留以中文/英文开头的内容行（去掉 `--` 停顿标记）
+    prose_lines = []
+    for line in seg.split('\n'):
+        line = line.strip()
+        if not line or line.startswith('#') or line.startswith('[') or line.startswith('>') or line.startswith('---') or line == '`':
+            continue
+        # 去停顿标记但保留停顿节奏（-- → 逗号停顿）
+        line = re.sub(r'\s*--\s*', '，', line)
+        prose_lines.append(line)
+    speaking_text = ' '.join(prose_lines)
+```
+
+或者更简单的方式：如果存在 `## Full Text` 段，直接按 segment 边界拆分 Full Text 段的内容。
+
+**验收**：对散文体脚本运行 `render --audio`，5 个 segment 各自提取到 >100 字的 speaking text。
+
+### 缺口 2：TTS 未集成
+
+**位置**：`commands/video.py` `_render_audio()` L431-435
+
+**现状**：提取文本后写入 `.txt` 文件，打印 `TTS not yet integrated`。不生成任何 mp3。
+
+**改法**：
+1. 装依赖：`pip install edge-tts`（纯 Python，零系统依赖，支持中文）
+2. 在 `_render_audio()` 中调用 `edge-tts`：
+
+```python
+import asyncio
+import subprocess
+
+async def _tts_segment(text, out_path, voice='zh-CN-XiaoxiaoNeural'):
+    """Generate MP3 from Chinese text using edge-tts."""
+    cmd = ['edge-tts', '--voice', voice, '--text', text, '--write-media', str(out_path)]
+    proc = await asyncio.create_subprocess_exec(*cmd)
+    await proc.wait()
+    return proc.returncode == 0
+
+def _generate_audio(segments, audio_dir):
+    """同步封装：为每个 segment 调 edge-tts 生成 mp3。"""
+    import asyncio
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+    try:
+        for seg_title, text, out_path in segments:
+            ok = loop.run_until_complete(_tts_segment(text, out_path))
+            if not ok:
+                print(f"  ⚠ TTS failed for {seg_title}")
+            else:
+                print(f"  {out_path.name} ← {len(text)} chars")
+    finally:
+        loop.close()
+```
+
+3. edge-tts 未安装时的处理：try import / 检查命令是否存在，不存在则打印清晰错误信息 + 安装指令，不扔 traceback。
+
+**验收**：
+- 对试点项目运行 `render --audio`，`audio/` 下生成 5 个 .mp3（每个 >10KB）
+- edge-tts 未安装时打印 `edge-tts not found. Install: pip install edge-tts` 并 exit 1
+- 不破坏现有 310 tests
+
+### 总体验收
+
+| # | 验收项 | 判定方式 |
+|:--:|------|------|
+| 1 | 散文体脚本提取到 speaking text（≥100 字/段） | 对试点项目 dry-run，5 段均有非空输出 |
+| 2 | `audio/` 下生成 5 个 .mp3 | 文件存在 + >10KB |
+| 3 | edge-tts 缺失时清晰报错不崩溃 | 临时 uninstall edge-tts 后运行 |
+| 4 | `kdo video validate --stage audio` 通过 | exit 0 |
+| 5 | ≥3 new tests（散文体提取 + mock TTS + edge-tts 缺失） | pytest 全绿，不破 310 |
+| 6 | 对视频试点项目实测：`render --audio` → `render --compose` → `draft/draft.mp4` 可播放 | 最终产物存在 + ffprobe 可读 |
+
+### 🛑 门禁（通过标准，缺一不可）
+
+| # | 门禁项 | 判定方式 |
+|:--:|------|------|
+| 1 | 散文体脚本不报 `No speaking points found` | 实测试点项目 |
+| 2 | 5 个 segment 各生成 >10KB mp3 | 文件大小检查 |
+| 3 | pytest ≥3 new tests 全绿，不破 310 | 终端 |
+| 4 | `kdo video validate --stage audio` PASS | exit 0 |
+
+### 🛑 审批
+
+提报格式：
+```
+黄药师 [Task 16 kdo video render 修复] 已完成
+路径：C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\commands\video.py
+测试：pytest tests/test_video.py -v
+```
+
+审批人：欧阳锋。审批结果：
+- **通过** → 通知洪七公执行 7h 渲染合成
+- **修改** → 标注具体缺口 + 期望，黄药师修改后重新提报
+
+### 🛑 节点
+
+```
+视频试点流水线
+    │
+🛑 GATE 3 ⏳ 等待用户终检 40 帧画面
+    │
+洪七公 7h 渲染合成 ← 阻塞在此。等你修完 render 模块才能执行
+    │
+洪七公 7g timing → GATE 4
+```
+
+你在 Gate 3 和 7h 之间。上游 = Gate 3（等待用户终检），下游 = 洪七公 7h（等你工具就绪）。**这是视频管线唯一的工具链阻塞点。**
