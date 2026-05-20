@@ -309,7 +309,62 @@ kdo video render --compose "40_outputs/content/videos/knowledge-delivery-os-快�
 
 | # | 任务 | 状态 | 备注 |
 |---|------|------|------|
-| 1 | 🎬 KDO 视频试点 ship | ⏳ | 前置：洪七公补 timing.md → Gate 4 正式放行。`kdo video ship` → 记录交付事件 |
+| 1 | 🎬 KDO 视频试点 ship | 🔜 可执行 | 全部前置已就绪。Gate 0-4 通过。详见下方任务书 ↓ |
+
+### 🎬 任务 1：KDO 视频试点 ship（~5min）
+
+**前置**：全部就绪 ✅
+- 🛑 Gate 0 脚本 ✅ → Gate 1 分镜 ✅ → Gate 2 画面 ✅ → Gate 3 终检 ✅ → Gate 4 音画 ✅
+- `draft/draft.mp4`：11810 KB, 500.1s, H.264/AAC, 1920×1080
+- `timing.md`：逐帧时间线已就绪
+
+**执行**：
+
+```bash
+cd "C:\Users\Administrator\Desktop\wiki"
+$env:PYTHONPATH = "C:\Users\Administrator\Knowledge Delivery OS 0.0.1"
+python -m kdo video ship "40_outputs/content/videos/knowledge-delivery-os-快速上手指南把散落知识变成可交付资产"
+```
+
+**出参**：
+- `draft/draft.mp4` → `final/final.mp4`（复制 + 元数据注入）
+- `_spec.md` 更新：`stages.ship = 'done'`，`status = 'shipped'`
+- `50_delivery/` 下记录交付事件
+
+**🛑 门禁**：
+
+| # | 门禁项 | 判定方式 |
+|:--:|------|------|
+| 1 | `final/final.mp4` 存在 + 可播放 | 文件 > 10MB，ffprobe 可读 |
+| 2 | `_spec.md` 中 `stages.ship = 'done'` | grep 确认 |
+| 3 | `kdo video validate` 全阶段 PASS | exit 0 |
+
+**🛑 审批**：
+
+提报格式：
+```
+段王爷 [Task 1 KDO 视频试点 ship] 已完成
+路径：40_outputs/content/videos/knowledge-delivery-os-快速上手指南把散落知识变成可交付资产/final/final.mp4
+大小：xx MB | 时长：xx min | 编码：H.264/AAC
+```
+
+审批人：欧阳锋。审批结果：
+- **通过** → 视频试点管线正式关闭 🎉
+- **修改** → 标注具体问题，修正后重新提报
+
+**🛑 节点**：
+
+```
+视频试点管线
+    │
+🛑 GATE 0-4 ✅ 全部通过
+    │
+段王爷 Task 1 ← 你在管线最末端。上游全部绿灯，下游是终点
+    │
+kdo video ship → final.mp4 → 🎉 管线关闭
+```
+
+**这是你的第一个正式任务。整个视频试点管线等你这最后一步。**
 
 ---
 
@@ -317,7 +372,7 @@ kdo video render --compose "40_outputs/content/videos/knowledge-delivery-os-快�
 
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
-| 段王爷 | 🎬 KDO 视频试点 ship | ⏳ `kdo video ship` → final.mp4。流水线最后一步 |
+| 段王爷 | 🎬 KDO 视频试点 ship | 🔜 就绪。所有 Gate 通过，`kdo video ship` 即可关闭管线 |
 | 黄药师 | Task 17 Seg5 TTS + compose 动态时长 | ⏳ P1 backlog |
 | 老顽童 | v1.5 全库修复（20 FAILED） | 🔨 可随时启动 |
 | 老顽童 | 🔧 4 项顺手修（Anthropic typo + 双三角文章归属+引用） | 积压，可随时清 |
