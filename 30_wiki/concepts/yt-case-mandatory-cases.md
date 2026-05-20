@@ -63,7 +63,7 @@ Capability: playbook
 - [[一堂|一堂实体页]]
 - [[yt-system-course-map-lecture]]
 
-### Critique
+## Critique
 
 #### 研究者偏差风险——调研者本身是最大的系统性偏差源
 
@@ -73,7 +73,7 @@ Capability: playbook
 
 ### 内部局限
 
-## Synthesis 对标
+## Synthesis
 
 - [[一堂调研武器库13招]] — 调研与案例学习互补：调研获取一手情报，案例学习从二手经验提炼模式
 - [[30_wiki/systems/一堂方法论体系总图]] — 创业修炼地图中「案例库」章节
