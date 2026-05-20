@@ -91,12 +91,34 @@
 
 **Frame 总进度: 17/40 帧 (42.5%)**
 
----
+**Seg 3 工厂 (F018–F031) — ✅ 2026-05-20 完成**
+
+| 帧号 | 文件名 | 画面类型 | 审查结果 |
+|------|--------|----------|----------|
+| F018 | segment_3_frame_018.png | 列表+红叉: KDO不是什么 | ✅ |
+| F019 | segment_3_frame_019.png | 漏斗动画 (9节点+三输出) | ✅ |
+| F020 | segment_3_frame_020.png | 三种产出 (文章/代码/能力) | ✅ |
+| F021 | segment_3_frame_021.png | Terminal Demo: kdo trace | ✅ |
+| F022 | segment_3_frame_022.png | 金句: 存得更多 vs 产得更清晰 | ✅ |
+| F023 | segment_3_frame_023.png | Terminal Demo: kdo capture | ✅ |
+| F024 | segment_3_frame_024.png | Terminal Demo: kdo ingest | ✅ |
+| F025 | segment_3_frame_025.png | Terminal Demo: kdo enrich (进度条) | ✅ |
+| F026 | segment_3_frame_026.png | 烹饪比喻: 生肉 | ✅ |
+| F027 | segment_3_frame_027.png | 烹饪比喻: 粥 | ✅ |
+| F028 | segment_3_frame_028.png | 烹饪比喻: 菜 | ✅ |
+| F029 | segment_3_frame_029.png | Terminal Demo: route/produce/validate | ✅ |
+| F030 | segment_3_frame_030.png | Terminal Demo: ship/feedback/improve | ✅ |
+| F031 | segment_3_frame_031.png | 金句: 3步 vs 9步 | ✅ |
+
+**Seg 3 kdo validate:** `PASS` (exit 0)
+
+**Frame 总进度: 31/40 帧 (77.5%)**
 
 ## 下一步行动
 
-1. 继续 7d — Seg 3 画面制作（F18–F22，共5帧）
-2. 每完成一个 Seg 后更新本报告 + 运行 kdo validate
+1. 继续 7e — Seg 4 画面制作（F032–F034，共3帧，墓碑 vs 流水线对比）
+2. 然后 7f — Seg 5 画面制作（F035–F040，共6帧，花园 vs 厨房 + CTA）
+3. 最后 7g — 音画对位
 
 ---
 
