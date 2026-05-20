@@ -85,7 +85,7 @@ updated: 2026-05-19
 | 2 | 双三角 Visual Analysis | ✅ | `40_outputs/content/images/infographics/dual-triangle-visual-analysis.md` |
 | 3 | 双三角 Excalidraw 重绘 | ✅ | `40_outputs/content/images/infographics/dual-triangle-competitiveness.excalidraw` |
 | 4 | wiki 勘误（归属错位） | ✅ | 已反馈 → `60_feedback/corrections/`，卡片修正由老顽童执行 |
-| 5 | 通道就绪确认 | ⏳ | 确认能读写上述输入/输出路径 |
+| 5 | 通道就绪确认 | ✅ | 13 路径全部就绪，5 核心输出路径写入测试通过 |
 | 6 | 双三角文章审计 | ✅ | 审计 2 篇，发现 🔴归属错位 1 处 + 🟡引用/渠道 3 处，报告已交付 |
 | 7 | KDO 快速上手指南 → 中视频（分镜+画面） | ⏳ | 等待：①黄药师 `kdo video` CLI + ②老顽童脚本。详见下方 |
 
@@ -129,7 +129,6 @@ updated: 2026-05-19
 | 老顽童 | 视频脚本精炼（🎬） | 等黄药师 `kdo video init` 产出 `01-script.md` 模板 |
 | 老顽童 | 🔧 4 项顺手修（Anthropic typo + 双三角文章归属+引用） | 积压，可随时清 |
 | 老顽童 | v1.5 全库修复（20 FAILED） | scaffold 已修好，可随时启动 |
-| 洪七公 | 通道就绪确认 | 确认能读写输入/输出路径 |
 | 洪七公 | `art_双三角纠错_v2` 修复后→多模态转换 | 等老顽童修完归属错位 |
 
 ---
