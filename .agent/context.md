@@ -1,9 +1,8 @@
 ---
-updated: 2026-05-19
+updated: 2026-05-21
 active_branch: main
-active_task: 老顽童→按队列执行：①补related边 → 修typo → ⑤设计域3Skill → 科学决策35PNG消化/重检现有卡 → ⑥v1.5修复 → ⑦Batch3。黄药师→已完成scaffold+转录稿清理+validate watch，等待下一个工单。
-blockers:
-  - 科学决策35张PNG未分配优先级/任务
+active_task: 全员待命。老顽童 9/9 ✅。黄药师 Task 1-17 全部完成 ✅。视频试点已关闭。洪七公双三角VA待审阅。段王爷 Publisher 反馈闭环初具雏形。
+blockers: []
 ---
 
 ## 你是谁
@@ -14,7 +13,7 @@ blockers:
 | 角色 | 职责 | 状态 |
 |------|------|------|
 | 欧阳锋 | 审查+协调+标准 | 进行中 |
-| 黄药师 | 工厂建设（KDO CLI/质量门/Graph RAG） | Task 2：转录稿清理工具 |
+| 黄药师 | 工厂建设（KDO CLI/质量门/Graph RAG） | Task 1-17 全部完成 ✅，待命 |
 | 老顽童 | 产能主力（卡片/文章/编译） | ④ Batch 2 T5 制作中 |
 | 洪七公 | 多模态输出（视觉/设计/prompt） | ✅ 已激活：角色定义+VA 完成 |
 | 段王爷 | 发布与反馈（ship/分发/收集） | 待激活 |
@@ -135,17 +134,12 @@ blockers:
 ### 黄药师状态（基础设施唯一负责人）
 
 - **不接卡片量产**。专注 KDO CLI、方法论建设、质量门、Graph RAG。
-- pytest ✅（9.0.3，205/205 passing）| 坚果云备份 ✅
-- 权限已扩：`.claude/settings.json` 开放 vault 全路径 + kdo 命令免批
-- **`kdo validate --v15` → A 审查通过**：205 卡全量扫描 0 崩溃，24 tests，JSON/--card/--type/--domain 均正常。`--domain` bug 已修（`_read_frontmatter` 重构为返回 `dict[str, list[str]]`，支持三种 domain 格式）。pytest 203/205 pass（2 flaky dashboard 预存）。
-- **`kdo validate --v15 --upgrade-plan` ✅**：从诊断到可行动的升级路线图。5 批分组（A-E）+ 引用排序 + 分钟级工作量估计。`--domain` / `--batch-size` / `--json` 支持。test_validate_v15.py 23 passed, 1 skipped。
-- **已批准 backlog**：[[70_product/tasks/kdo-infrastructure-backlog-proposal.md]]
-  - P0: Graph RAG 索引重建 ✅
-  - P1-A: `kdo lint --accept-baseline` ✅
-  - P1-B: `kdo lint --structure-report` ✅
-  - P2-A: 工业化手册 v1.7 ✅
-  - P2-B: `kdo backup` ✅
-  - P3: 质量门自动化 `kdo validate --v15` ✅
+- **Task 1-17 全部完成 ✅**：scaffold → clean-transcript → validate watch → watch 解耦 → scaffold 插入修正 → task 自动化 → graph incremental → graph stats → Graph RAG 深化 → Quality Gate v2 → skill-dir 审查 → Build 系统 → scaffold 四缺陷修复 → video CLI → video render 修复 → video 遗留缺陷
+- **KDO CLI 新增命令**：`kdo scaffold`, `kdo clean-transcript`, `kdo validate --v15 --watch`, `kdo build`, `kdo video`（5 子命令）
+- pytest：321/321 passing（+1 flaky dashboard 预存）
+- **视频管线工具链完整**：`kdo video init → validate → render --audio → render --compose → ship`
+- 坚果云备份 ✅ | Graph RAG 索引 ✅（226 entities, 1252 relations）
+- 待命。下一个工单等待欧阳锋分配。
 
 ### Design 域 → 待建
 
@@ -155,20 +149,11 @@ blockers:
 - 待用户灌入 prompt 收藏到 `00_inbox/design/`，agent 拆卡
 
 ### KDO CLI 状态
-- 44 .py 文件，~12,300 行，13 测试文件
-- `kdo cards/lint/card-diff/review` 正常
-- **Graph RAG ✅ — `kdo query` 默认引擎**：
-  - `kdo query "..."` 默认走 LightRAG 语义+图检索
-  - 回退链：Graph RAG → BM25 SearchIndex → 关键词 grep
-  - `kdo graph rebuild` 增量重建索引
-  - `kdo graph query "..."` 保留为调试/脚本用（支持 `--json`）
-  - **索引已重建（2026-05-18）**：226 entities, 721 chunks, 1252 relations, 406 nodes, 1252 edges（含 Batch C 29 张新卡）
-  - 冒烟验证通过：Pirsig/Geertz/Illich 等新学者均可检索
-  - Embedding: sklearn HashingVectorizer（char n-gram 2-4，零外部 API）
-- **pytest ✅**：182/182 passing
-- **备份 ✅**：`C:\Users\Administrator\Nutstore\1\我的坚果云\kdo-source-backup-20260517.zip`（272.6 KB）
-- **lint baseline ✅**：`kdo lint --accept-baseline` 已执行（635 issues），默认 `kdo lint` 输出 "0 new (635 accepted)"
-- **structure report ✅**：`kdo lint --structure-report` 可用，197 卡分 6 类
+- 47 .py 文件，~13,500 行，15 测试文件
+- **pytest ✅**：321/321 passing（1 flaky dashboard 预存）
+- **Graph RAG ✅**：226 entities, 721 chunks, 1252 relations
+- **kdo video**：5 子命令（init/validate/render/ship），36 tests
+- **备份 ✅**：坚果云自动同步
 
 ## 新增工具
 
@@ -188,8 +173,21 @@ blockers:
 | `kdo scaffold --from-plan --write` | 从升级计划整批写入骨架 |
 | `kdo clean-transcript <file>` | ASR 转录稿清理（去噪+去口头禅+分段+术语标注） |
 | `kdo validate --v15 --watch` | 文件保存自动重检（2s 防抖，Ctrl+C 退出） |
+| `kdo video init <article>` | 创建视频项目骨架（_spec.md + 模板） |
+| `kdo video validate <dir>` | 三层质量门（L1 结构/L2 内容/L3 管线） |
+| `kdo video render --audio <dir>` | TTS 口播生成（edge-tts，5 段 mp3） |
+| `kdo video render --compose <dir>` | ffmpeg 帧+音频合成（动态帧时长） |
+| `kdo video ship <dir>` | 交付：draft→final + delivery record |
 
 ## 最近决策
+
+### 2026-05-21：黄药师 Task 15-17 全部完成 ✅ — kdo video CLI 完整交付
+
+- **Task 15 `kdo video` CLI**（`e8b9265`）：5 子命令（init/validate/render/ship），24 tests，310 total
+- **Task 16 render 修复**（`fa66855`）：散文体脚本支持 + edge-tts TTS 集成，32 tests，317 total
+- **Task 17 遗留缺陷**（`dee0f83`）：Seg 5 TTS 558.5s→70.5s + compose 动态帧时长分配，36 tests，321 total
+- **视频管线完整**：`kdo video init → validate → render --audio → render --compose → ship`
+- **段王爷 Publisher 反馈闭环初具雏形**：ship 时发现 `stages` 字典未同步，已记录为 P3 顺手修
 
 ### 2026-05-19：黄药师三件全部完成 ✅（scaffold + 转录稿清理 + validate watch）
 
@@ -427,16 +425,16 @@ blockers:
 ## 下次启动
 
 1. **先看 dashboard** → [[70_product/tasks/dashboard.md]]
-2. **洪七公角色定位审阅** → [[20_memory/beikai-role-positioning.md]]（4 个决策问题）
-3. **洪七公双三角 VA 审阅** → [[40_outputs/content/images/infographics/dual-triangle-visual-analysis.md]]
-4. 老顽童当前：🔍 修双三角卡结构 → ⑧ Anthropic 编译 → ⑤ 设计域 S1
-5. 黄药师当前：Task 9 Graph RAG 深化（🔜）→ Task 10 Quality Gate v2
+2. **黄药师**：待命。Task 1-17 全部完成。顺手修 P3（`kdo video ship` stages 同步）待分配。
+3. **老顽童**：待命。9/9 全部完成。
+4. **洪七公**：双三角 VA 待审阅。
+5. **段王爷**：Publisher 反馈闭环初具雏形（已发现首条工具缺陷）。
 
 ## ⚠️ 会话结束前（MUST）
 
 - [x] 更新 `updated:` 日期
 - [x] 更新 `active_task` 和 `blockers`
 - [x] 更新 ## 当前状态
-- [x] 有新坑？追加到 `pitfalls.md`（P-6 复现记录已补）
-- [x] 有决策？追加到 `decisions.md`（Agent 入职消化全库 + Design 域 + 老顽童评估）
-- [ ] **禁止用 `/memory` 替代上述更新**
+- [x] 有新坑？追加到 `pitfalls.md`
+- [x] 有决策？追加到 `decisions.md`（Task 15-17 video CLI 完成 + 段王爷首次反馈闭环）
+- [x] **禁止用 `/memory` 替代上述更新**

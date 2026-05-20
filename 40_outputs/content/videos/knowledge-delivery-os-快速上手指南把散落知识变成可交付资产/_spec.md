@@ -8,8 +8,8 @@ status: "shipped"
 created_at: "2026-05-20 14:47"
 reviewed_by: "欧阳锋"
 gates: "{'gate0': 'passed_2026-05-20', 'gate1': 'passed_2026-05-20', 'gate2': 'passed_2026-05-20', 'gate3': 'passed_2026-05-20', 'gate4': 'conditional_pass_2026-05-20'}"
-stages: "{'script': 'done', 'storyboard': 'done', 'frames': 'done', 'audio': 'done', 'compose': 'done', 'timing': 'needs_fix', 'ship': 'pending'}"
-shipped_at: "2026-05-21 04:30"
+stages: {'script': 'done', 'storyboard': 'done', 'frames': 'done', 'audio': 'done', 'compose': 'done', 'timing': 'needs_fix', 'ship': 'done'}
+shipped_at: "2026-05-21 05:02"
 channel: "local"
 ---
 
