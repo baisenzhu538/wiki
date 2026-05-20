@@ -103,24 +103,70 @@ updated: 2026-05-19
 
 > **工作流**：[[40_outputs/capabilities/workflows/video-production-flow.md]]
 > **原则**：每阶段独立 `/new` session，读入参文件→写出参文件，不靠记忆。
+> **🛑 审批铁律**：每个阶段完成后**必须提报欧阳锋审查**，审查通过前**不得**进入下一阶段。不通过则标注修改点→修改→重新提报。
 
-| 子任务 | 阶段 | 入参 | 出参 | 前置依赖 | 估时 |
-|:--:|------|------|------|------|:--:|
-| 7a | 分镜设计 | `01-script.md` | `02-storyboard.md`（Style Guide + 分镜表） | 老顽童脚本完成 | 45min |
-| 7b | 画面制作 Seg 1 | `02-storyboard.md` | `frames/segment_1_*.png` | 分镜审查通过 | 30min |
-| 7c | 画面制作 Seg 2 | `02-storyboard.md` | `frames/segment_2_*.png` | 分镜审查通过 | 30min |
-| 7d | 画面制作 Seg 3 | `02-storyboard.md` | `frames/segment_3_*.png` | 分镜审查通过 | 30min |
-| 7e | 画面制作 Seg 4 | `02-storyboard.md` | `frames/segment_4_*.png` | 分镜审查通过 | 30min |
-| 7f | 画面制作 Seg 5 | `02-storyboard.md` | `frames/segment_5_*.png` | 分镜审查通过 | 30min |
-| 7g | 配音节奏审查 | `draft/draft.mp4` | `timing.md`（时间轴修正标注） | 黄药师 render 完成 | 20min |
+| 子任务 | 阶段 | 入参 | 出参 | 前置依赖 | 估时 | 审查节点 |
+|:--:|------|------|------|------|:--:|:--:|
+| 7a | 分镜设计 | `01-script.md` | `02-storyboard.md`（Style Guide + 分镜表） | 老顽童脚本完成 | 45min | 🛑 **Gate 1**：分镜必须欧阳锋审过才进入 7b |
+| 7b | 画面 Seg 1 | `02-storyboard.md` | `frames/segment_1_*.png` | Gate 1 通过 | 30min | — |
+| 7c | 画面 Seg 2 | `02-storyboard.md` | `frames/segment_2_*.png` | Gate 1 通过 | 30min | — |
+| 7d | 画面 Seg 3 | `02-storyboard.md` | `frames/segment_3_*.png` | Gate 1 通过 | 30min | 🛑 **Gate 2**：7b-7d 完成 3/5 段时提报欧阳锋抽检 |
+| 7e | 画面 Seg 4 | `02-storyboard.md` | `frames/segment_4_*.png` | Gate 2 通过 | 30min | — |
+| 7f | 画面 Seg 5 | `02-storyboard.md` | `frames/segment_5_*.png` | Gate 2 通过 | 30min | 🛑 **Gate 3**：全部 5 段画面完成后提报欧阳锋终检 |
+| 7g | 配音节奏审查 | `draft/draft.mp4` | `timing.md`（时间轴修正标注） | 黄药师 render + Gate 3 通过 | 20min | 🛑 **Gate 4**：timing.md 提报欧阳锋→黄药师最终合成→**欧阳锋终审 draft.mp4** |
 
-**洪七公总估时**：~3.5h（vs 原来一个人扛 7 步时不可估量）。音频和组装由 `kdo video render` 工具链完成，不再占用洪七公 session。
+**洪七公总估时**：~3.5h。音频和组装由 `kdo video render` 工具链完成，不占用洪七公 session。
 
-**执行规则**：
-- 7b-7f 共 5 个 session，每个 `/new` 只做一个 segment
-- 每个 session 只读 `02-storyboard.md` 中对应 segment 的部分
-- 每完成一个 segment 通知欧阳锋抽查
-- 不跳步：分镜未审查通过不开始画面制作
+### 🛑 审批节点总览（视频试点）
+
+```
+老顽童 01-script.md 完成
+    │
+    ▼
+🛑 GATE 0 — 欧阳锋审查脚本（抽查朗读 2 段）
+    │
+    ▼
+洪七公 7a 02-storyboard.md
+    │
+    ▼
+🛑 GATE 1 — 欧阳锋审查分镜（Style Guide 完整？每句有画面？不是通用科技风？）
+    │
+    ▼
+洪七公 7b-7d（Segment 1-3）
+    │
+    ▼
+🛑 GATE 2 — 欧阳锋抽检画面（抽查 2/5，风格一致？匹配分镜表？）
+    │
+    ▼
+洪七公 7e-7f（Segment 4-5）
+    │
+    ▼
+🛑 GATE 3 — 欧阳锋终检全部画面
+    │
+    ▼
+黄药师 kdo video render --audio → --compose
+    │
+    ▼
+洪七公 7g timing.md
+    │
+    ▼
+🛑 GATE 4 — 欧阳锋终审 draft.mp4（节奏+音画同步+整体观感）
+    │
+    ▼
+黄药师 kdo video ship → final.mp4
+```
+
+### 提报规范
+
+每阶段完成后，洪七公/老顽童必须通知欧阳锋：
+
+```
+"[角色名] [阶段名] 已完成，路径：[产出文件路径]，请欧阳锋审查"
+```
+
+欧阳锋审查后在同一文件末尾或任务文件追加审查结论。结论为"通过"方可进入下一阶段。结论为"修改"则标注具体修改点，修改完成后重新提报。
+
+**禁止**：审查通过前自行进入下一阶段。跳步后果：产出质量不可控（参 C-8：格式完整但思维空洞）。
 
 ## 段王爷（Publisher）
 
