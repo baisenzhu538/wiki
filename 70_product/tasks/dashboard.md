@@ -37,12 +37,22 @@ updated: 2026-05-19
 | **5** | ~~① 补 related 边~~ | ✅ 完成 | 30min | 3 条 wikilink + frontmatter relation |
 | **6** | ~~🆕 科学决策域 35 PNG 增强消化~~ | ✅ 完成 | 3h | 审计报告：91%覆盖，2 遗漏→amendment，无需新卡 |
 | **🔧** | 🆕 洪七公审计修复 — 双三角文章归属错位 + 引用补齐 | 15min | 方案A：严格按原图修正。`art_双三角纠错_v2` L51 + `art_20260517_9c7a63cb` source_refs/wiki_refs。见 [[#🔍 洪七公文章审计（2026-05-19）]] |
-| **7** | ⑥ v1.5 全库修复（89 FAILED） ← **下一个** | Batch B（~69张缺Critique）先做，再 Batch A（13张全缺）| 分批 | 穿插 ⑦ Batch 3。策略见 [[#🔍 v1.5 修复策略（欧阳锋拍板 2026-05-20）]] |
+| **7** | ⑥ v1.5 全库修复（20 FAILED） | Batch B（~69张缺Critique）先做，再 Batch A（13张全缺）| 分批 | 穿插 ⑦ Batch 3。策略见 [[#🔍 v1.5 修复策略（欧阳锋拍板 2026-05-20）]] |
 | **8** | ⑦ 管理工具箱 Batch 3（T6+T7+T8） | 穿插在 ⑥ 间隙 | 6h | T6 项目雷达 / T7 新人融入 / T8 股权清单 |
-| 🎬 | KDO 视频脚本精炼 | 等黄药师 `kdo video init` 后：读源文章 → 写 `01-script.md` | 30min | /new session。规范见 [[40_outputs/capabilities/workflows/video-production-flow#Stage 1]] |
+| **🎬** | KDO 视频脚本精炼 ← **下一个（试点优先）** | /new session：读源文章 → 写 `01-script.md` | 30min | 规范见下方 [[#🎬 老顽童 — 视频脚本任务]]。项目已 init，模板已就绪 |
 
 > **规则**：顺序执行，不跳。每完成一个 → 跑验证 → 通知欧阳锋审查。不要等批次全部完成。
-> 🎬 视频脚本可穿插执行（与 v1.5 修复独立），但在黄药师 `kdo video init` 就绪之后。
+> 🎬 视频脚本试点的前置依赖（黄药师 `kdo video init`）已就绪。优先执行。
+
+### 🎬 老顽童 — 视频脚本任务（试点，30min）
+
+- **入参**：`40_outputs/content/articles/art_20260504_02b8c4d6-kdo-quickstart-guide.md`
+- **出参**：`40_outputs/content/videos/knowledge-delivery-os-快速上手指南把散落知识变成可交付资产/01-script.md`
+- **规范**：[[40_outputs/capabilities/workflows/video-production-flow#Stage 1]] + [[laowantong-next-tasks#🎬 KDO 视频脚本精炼]]
+- **验收**：欧阳锋抽查朗读 2 段；`kdo video validate --stage script` 无 TODO 警告
+- **完成后通知**：欧阳锋审查脚本→洪七公启动分镜
+
+---
 
 ---
 
@@ -125,8 +135,8 @@ updated: 2026-05-19
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
 | 黄药师 | `kdo video` CLI（Task 15） | 视频流水线的工具基础，洪七公和老顽童都在等 |
-| 洪七公 | 视频分镜+画面（Task 7a-7g） | ① 黄药师先 init ② 老顽童先写脚本 ③ 欧阳锋审脚本 |
-| 老顽童 | 视频脚本精炼（🎬） | 等黄药师 `kdo video init` 产出 `01-script.md` 模板 |
+| 洪七公 | 视频分镜+画面（Task 7a-7g） | ① ✅ 黄药师 init ② 🔨 老顽童写脚本 ③ 等欧阳锋审脚本 |
+| 老顽童 | 视频脚本精炼（🎬） | 🔨 试点优先。黄药师 `kdo video init` 已就绪 ✅，可立即开工 |
 | 老顽童 | 🔧 4 项顺手修（Anthropic typo + 双三角文章归属+引用） | 积压，可随时清 |
 | 老顽童 | v1.5 全库修复（20 FAILED） | scaffold 已修好，可随时启动 |
 | 洪七公 | `art_双三角纠错_v2` 修复后→多模态转换 | 等老顽童修完归属错位 |

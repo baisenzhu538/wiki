@@ -11,6 +11,7 @@
 | **6** | ✅ ⑨ 科学决策域 35 PNG 增强消化 | 3h | 审计报告：91%覆盖，2 遗漏→amendment ✅ |
 | **🔧** | ⚠️ 顺手修（开工前 2min） | 2min | ① Anthropic `斗姄`→`窘境` + `reviewed_by` ✅ ② 双三角攻击者移入 Constraints & Boundaries ✅ |
 | **🔧** | 🆕 洪七公审计修复 — 双三角文章归属错位 + 引用补齐 | 15min | 方案A：严格按原图修正。`art_双三角纠错_v2` L51 + `art_20260517_9c7a63cb` source_refs/wiki_refs。详见 [[60_feedback/corrections/art-audit-20260519-dual-triangle-batch]] ✅ |
+| **🎬** | 🆕 KDO 视频脚本精炼 | 30min | 试点任务。读源文章 → 填 `01-script.md`。详见表下方 |
 | **7** | ⑥ v1.5 全库修复 ← **当前** | 分批 | Batch B（~69张缺Critique）→ Batch A（13张全缺）。详见表下方策略 |
 | **8** | ⑦ 管理工具箱 Batch 3（T6+T7+T8） | 6h | 每 5 张 B 卡后穿插 1 张 T 卡换脑 |
 
@@ -535,3 +536,59 @@ B 卡结构半成型，DU table 和 AT table 已存在，只差 `## Constraints 
 
 - `kdo validate --v15` FAILED 从 89 降到 0
 - 不得新增 WARN
+
+---
+
+## 🎬 KDO 视频脚本精炼（试点任务，~30min）
+
+> **背景**：KDO 视频流水线试点。黄药师 `kdo video` CLI 已就绪（`e8b9265`），项目已 init。
+> **工作流**：[[40_outputs/capabilities/workflows/video-production-flow.md]]
+
+### 做什么
+
+```
+/new session
+入参：源文章 + 01-script.md 模板
+出参：填好的 01-script.md
+```
+
+**源文章**：`40_outputs/content/articles/art_20260504_02b8c4d6-kdo-quickstart-guide.md`
+
+**输出路径**：`40_outputs/content/videos/knowledge-delivery-os-快速上手指南把散落知识变成可交付资产/01-script.md`
+
+### 怎么做
+
+1. **Read** 源文章（74 行，5 Key Takeaways + 6 节 Draft）
+2. **Read** `01-script.md` 模板——已有 5 段框架（Segment 1-5 + 时长标注 + 空 speaking points）
+3. 逐段填充 speaking points：
+   - **每段 3-5 个 bullet points**，不是段落——给口语表达留弹性
+   - 每句话写完默念一遍——**说出来顺不顺**
+   - 标注 `[Visual hint: ...]` 告诉洪七公这 30 秒画面上该出现什么
+4. 替换所有 `[Speaking point N]` 占位符
+
+### 脚本规范
+
+| 要求 | 标准 |
+|------|------|
+| 时长 | 总 2000-2500 字（中文口播 ~250 字/min，8-10 分钟） |
+| 结构 | 5 段：Hook(45s) → 什么是KDO(2min) → 怎么做(3-4min) → 谁适合(1.5min) → 结尾(1min) |
+| 语言 | 短句为主（≤25 字/句），嵌套从句砍掉。停顿时用 `--` 标注 |
+| 术语 | 首次出现时一句话解释（"KDO 是一个本地知识流水线——把飞书文档变成可交付资产"） |
+| 禁止 | 不说"众所周知""显而易见"；不堆砌排比句；每段不超过 5 个 speaking point |
+| Visual hint | 每段至少 1 个，用 `[Visual hint: 画面描述]` 格式 |
+
+### 验收
+
+- [ ] 2000-2500 总字数
+- [ ] 5 个 Segment 全部填充，无 `[Speaking point` 残留
+- [ ] 每段有 ≥1 个 Visual hint
+- [ ] 大声读出来不拗口（欧阳锋抽查朗读 2 段）
+- [ ] `kdo video validate --stage script` 返回 PASS（无 TODO 警告）
+
+### 完成后
+
+**🛑 硬阻断：产出 `01-script.md` 后，必须通知欧阳锋审查。不得自行进入下一阶段。**
+
+通知格式：`"KDO 视频脚本已完成，路径：40_outputs/content/videos/knowledge-delivery-os-快速上手指南把散落知识变成可交付资产/01-script.md，请欧阳锋审查"`
+
+审查通过后欧阳锋会通知洪七公启动分镜。审查不通过会标注具体修改点，修改后重新提报。
