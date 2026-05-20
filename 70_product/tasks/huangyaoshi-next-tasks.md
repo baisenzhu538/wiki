@@ -4,15 +4,10 @@
 
 ## 状态
 
-**已完成**：Task 1-12 全部 ✅。282 tests pass（+16 since Task 10）。
-- Batch 1: scaffold + clean-transcript + validate --watch
-- Batch 2: watch 解耦 + scaffold 修正 + task 自动化 + graph rebuild + graph stats
-- Batch 3: Graph RAG 深化 + Quality Gate v2
-- Batch 4: Skill 审查流水线 + KDO Build 系统
-
-**🔥 紧急**：Task 13-14 — scaffold 攻击者检测盲区 + 空 H4 校验。71 张卡受损。见 [[#🔥 Batch 5：scaffold 紧急修复]]。
-
-**⚠️ 欧阳锋审查（2026-05-19）**：代码质量 A，但全部未 commit。详见 [[#🔍 欧阳锋审查（2026-05-19）]]
+**已完成**：Task 1-14 全部 ✅。286 tests pass。
+- Batch 1-4: scaffold / clean-transcript / validate / watch / task / graph / RAG / quality-gate / skill-dir / build
+- Batch 5: scaffold 四缺陷修复（`877c41a`），286 tests (+4)，欧阳锋审查：A
+- Task 13-14 已关闭。scaffold 不再误判旧格式，空 H4 不再计为有效攻击者。
 
 ---
 
