@@ -112,10 +112,11 @@ updated: 2026-05-20 (Gate 0+1 审查通过)
 | 7c | 画面 Seg 2 | `02-storyboard.md` v2 | `frames/segment_2_*.png` | 7b 提报完成 | 30min | ✅ 完成（7 帧，18:07）。⚠️ 未提报即进入 7d——违规 |
 | 7d | 画面 Seg 3 | `02-storyboard.md` v2 | `frames/segment_3_*.png` | 7c 提报完成 | 30min | ✅ 完成（14 帧，18:39）。🛑 **Gate 2 通过**：用户初步看过，先跑通再迭代 |
 | 7e | 画面 Seg 4 | `02-storyboard.md` v2 | `frames/segment_4_*.png` | Gate 2 通过 | 30min | 🛑 7e 完成后提报 |
-| 7f | 画面 Seg 5 | `02-storyboard.md` v2 | `frames/segment_5_*.png` | 7e 提报完成 | 30min | 🛑 **Gate 3**：全部 5 段画面完成后提报欧阳锋终检（逐段审查，不放水） |
-| 7g | 配音节奏审查 | `draft/draft.mp4` | `timing.md`（时间轴修正标注） | 黄药师 render + Gate 3 通过 | 20min | 🛑 **Gate 4**：timing.md 提报欧阳锋→黄药师最终合成→**欧阳锋终审 draft.mp4** |
+| 7f | 画面 Seg 5 | `02-storyboard.md` v2 | `frames/segment_5_*.png` | Gate 2 通过 | 30min | ✅ 完成（6 帧，19:36）。🛑 **Gate 3**：全部 5 段画面终检 |
+| **7h** | 渲染合成 ← **Gate 3 通过后** | `frames/` 全部 40 帧 | `draft/draft.mp4` | Gate 3 通过 | 15min | 🛑 洪七公执行。命令见下方 [[#7h 渲染合成（洪七公执行）]]。产出 draft.mp4 后提报 |
+| 7g | 配音节奏审查 | `draft/draft.mp4` | `timing.md`（时间轴修正标注） | 7h draft.mp4 完成 | 20min | 🛑 **Gate 4**：timing.md 提报欧阳锋→欧阳锋终审 draft.mp4 |
 
-**洪七公总估时**：~4h（含 7a v2 分镜修订 45min）。音频和组装由 `kdo video render` 工具链完成，不占用洪七公 session。
+**洪七公总估时**：~4.5h（含 7a v2 分镜修订 45min + 7h 渲染合成 15min）。`kdo video render` 是 CLI 命令，洪七公自行执行，不需要黄药师介入。`kdo video ship` 最后一步由黄药师执行。
 
 ### 🛑 审批节点总览（视频试点 v2）
 
@@ -144,7 +145,7 @@ updated: 2026-05-20 (Gate 0+1 审查通过)
 🛑 GATE 3 — 欧阳锋终检全部 5 段画面（逐段审查，不放水）
     │
     ▼
-黄药师 kdo video render --audio → --compose
+洪七公 7h 渲染合成（kdo video render --audio → --compose）
     │
     ▼
 洪七公 7g timing.md
@@ -250,6 +251,29 @@ updated: 2026-05-20 (Gate 0+1 审查通过)
 | 结尾"让你的知识值得被交付"的 CTA 画面有力 | 人审 |
 
 **审批**：7f 完成后，连同全部 5 段画面打包提报 Gate 3——"洪七公 [7b-7f Seg 1-5 全部画面] 已完成，请欧阳锋终检"。**这是画面阶段的最终审查，逐段审查，不放水。**
+
+#### 7h — 渲染合成（洪七公执行，非黄药师）
+
+> ⚠️ `kdo video render` 是 CLI 命令，不是开发任务。**洪七公自行执行**，黄药师不介入。黄药师只负责建造工具（Task 15），不负责每次运行。
+
+**执行步骤**：
+
+```bash
+# Step 1: 生成 TTS 配音
+cd "C:\Users\Administrator\Desktop\wiki"
+kdo video render --audio "40_outputs/content/videos/knowledge-delivery-os-快速上手指南把散落知识变成可交付资产"
+
+# Step 2: 合成视频（40 帧 + 配音 → draft.mp4）
+kdo video render --compose "40_outputs/content/videos/knowledge-delivery-os-快速上手指南把散落知识变成可交付资产"
+```
+
+| 🛑 门禁 | 判定方式 |
+|------|------|
+| `audio/` 目录下有 TTS 音频文件 | 文件存在 |
+| `draft/draft.mp4` 存在且可播放 | 文件 > 1MB，ffprobe 可读 |
+| 视频时长 8-10 分钟（对应 2219 字脚本） | ffprobe duration |
+
+**审批**：7h 完成后提报——"洪七公 [7h 渲染合成] 已完成，路径：draft/draft.mp4，请欧阳锋审查"。欧阳锋快速确认 draft.mp4 可播放后，洪七公进入 7g。
 
 #### 7g — 配音节奏审查 + Gate 4
 
