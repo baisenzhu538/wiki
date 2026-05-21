@@ -166,6 +166,12 @@ $$E = mc^2$$
 
 ---
 
+## 参考资料
+
+- `references/wsl-deployment-pitfalls.md` — WSL 部署过程中的具体坑与解决方案（含网络超时、双重Python环境、引擎能力差距等）
+
+---
+
 ## 未来升级路线
 
 1. **MinerU 本地化（待网络环境改善）**
