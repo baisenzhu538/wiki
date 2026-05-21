@@ -1,6 +1,6 @@
 ---
 title: 任务仪表盘
-updated: 2026-05-21 (🎬 视频试点已关闭 · 黄药师 Task 17 A · 老顽童 v1.5+Batch3 A · 全员待命)
+updated: 2026-05-21 (🎬 视频试点已关闭 · 黄药师 全17项 ✅ · 老顽童 Truman卡片 A- · 全员待命)
 ---
 
 # 任务仪表盘
@@ -37,9 +37,10 @@ updated: 2026-05-21 (🎬 视频试点已关闭 · 黄药师 Task 17 A · 老顽
 | **5** | ~~① 补 related 边~~ | ✅ 完成 | 30min | 3 条 wikilink + frontmatter relation |
 | **6** | ~~🆕 科学决策域 35 PNG 增强消化~~ | ✅ 完成 | 3h | 审计报告：91%覆盖，2 遗漏→amendment，无需新卡 |
 | **🔧** | 🆕 洪七公审计修复 — 双三角文章归属错位 + 引用补齐 | 15min | 方案A：严格按原图修正。`art_双三角纠错_v2` L51 + `art_20260517_9c7a63cb` source_refs/wiki_refs。见 [[#🔍 洪七公文章审计（2026-05-19）]] |
-|| **7** | ~~⑥ v1.5 全库修复（20 FAILED→0）~~ | ✅ 完成 | 分批 | `kdo validate --v15` 215 cards: 211 pass / 0 fail / 4 warn。scaffold 自动修复完成。残 4 warn 均为 research 卡 |
-|| **8** | ~~⑦ 管理工具箱 Batch 3（T6+T7+T8）~~ | ✅ 完成 | 6h | 3/3 PASS。T6 Flyvbjerg+Goldratt / T7 Van Maanen&Schein+Edmondson / T8 Coase+Williamson |
-|| **9** | 下一个任务等老朱指派 | ⏳ | — | 老顽童待命 |
+|| **7** | ~~⑥ v1.5 全库修复（20 FAILED→0）~~ | ✅ 完成 | 分批 | 215 cards: 211 pass / 0 fail / 4 warn |
+|| **8** | ~~⑦ 管理工具箱 Batch 3（T6+T7+T8）~~ | ✅ 完成 | 6h | 3/3 PASS。T6 A+ / T7 A / T8 A+ |
+|| **9** | ~~🆕 Truman 知识地图→wiki cards~~ | ⚠️ A- | 2h | 2 张 framework 卡 PASS。Ibarra+Duckworth / Gilbert+Rogers。⚠️ `career-routes` frontmatter `related` 重复需删 |
+|| **10** | 下一个任务等老朱指派 | ⏳ | — | 老顽童待命 |
 
 > **规则**：顺序执行，不跳。每完成一个 → 跑验证 → 通知欧阳锋审查。不要等批次全部完成。
 > 🎬 视频脚本试点的前置依赖（黄药师 `kdo video init`）已就绪。优先执行。
