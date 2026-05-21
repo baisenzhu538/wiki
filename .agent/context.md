@@ -134,7 +134,7 @@ blockers: []
 ### 黄药师状态（基础设施唯一负责人）
 
 - **不接卡片量产**。专注 KDO CLI、方法论建设、质量门、Graph RAG。
-- **Task 1-17 全部完成 ✅**：scaffold → clean-transcript → validate watch → watch 解耦 → scaffold 插入修正 → task 自动化 → graph incremental → graph stats → Graph RAG 深化 → Quality Gate v2 → skill-dir 审查 → Build 系统 → scaffold 四缺陷修复 → video CLI → video render 修复 → video 遗留缺陷
+- **Task 1-18 全部完成 ✅**：scaffold → clean-transcript → validate watch → watch 解耦 → scaffold 插入修正 → task 自动化 → graph incremental → graph stats → Graph RAG 深化 → Quality Gate v2 → skill-dir 审查 → Build 系统 → scaffold 四缺陷修复 → video CLI → video render 修复 → video 遗留缺陷 → P3 ship stages 同步 → G1-G4 管线补齐
 - **KDO CLI 新增命令**：`kdo scaffold`, `kdo clean-transcript`, `kdo validate --v15 --watch`, `kdo build`, `kdo video`（5 子命令）
 - pytest：321/321 passing（+1 flaky dashboard 预存）
 - **视频管线工具链完整**：`kdo video init → validate → render --audio → render --compose → ship`
