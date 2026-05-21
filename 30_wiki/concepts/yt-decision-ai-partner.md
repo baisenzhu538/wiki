@@ -42,6 +42,15 @@ yitang:
 source_refs:
   - 00_inbox/科学决策/一堂-科学决策-AI协助决策行动营口述06.txt
   - 00_inbox/科学决策/一堂-科学决策-人机协作决策.png
+visual_analysis:
+  - image: 一堂-科学决策-人机协作决策.png
+    dimensions:
+      - 色彩语义: 人侧暖色(橙黄)=创造力/审美；AI侧冷色(蓝紫)=计算/数据；交界区渐变=协作融合
+      - 空间结构: 左右对称但非镜像——人侧略大暗示"人主导AI辅助"
+      - 信息层级: L1 双三角标签 → L2 各自三能力 → L3 协作界面 → L4 共同输出
+      - 负形利用: 中间交界区=协作的"灰色地带"；留白=尚未定义的协作规则
+      - 视觉隐喻: 双三角=人的三角(审美/体系/判断力)+AI的三角(场景/数据/基本功)；齿轮=咬合协作
+
 created_at: '2026-05-17'
 updated_at: '2026-05-17'
 estimated_tokens: 1950
@@ -142,6 +151,11 @@ AI决策Partner对话法是一堂提出的AI时代决策协作范式。核心转
 | 所属框架 | [[yt-decision-y-model]] | 对话法的底层理论框架 |
 | 关联工具 | [[yt-decision-canvas]] | 对话过程中可配合使用的一页纸画布 |
 | 关联工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证，可与AI Partner结合使用 |
+| 跨域连接 | [[human-in-the-loop-dss]] | AI Partner的"人主导AI辅助"与决策支持系统（DSS）的人在回路（HITL）设计原则同源 |
+| 跨域连接 | [[explainable-ai-xai]] | AI Partner的"六步对话流程"本质是XAI的"可解释交互"——让AI的推理过程对人透明 |
+| 跨域连接 | [[distributed-cognition-hutchins]] | 双三角模型（人+AI）与Hutchins分布式认知理论同源——认知过程分布在人与工具之间 |
+| 跨模块连接 | [[yt-growth-data-driven]] | 增长模块的数据驱动决策使用AI Partner进行L3/L4定量分析的快速原型 |
+| 跨模块连接 | [[yt-management-intelligent-ops]] | 管理模块的智能化运营与AI Partner在"人机协作工作流"上互补 |
 
 ## Action Triggers
 

@@ -45,6 +45,15 @@ yitang:
 source_refs:
   - 00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt
   - 00_inbox/科学决策/一堂-科学决策-ROI高阶训练全景图.png
+visual_analysis:
+  - image: 一堂-科学决策-ROI高阶训练全景图.png
+    dimensions:
+      - 色彩语义: 绿=复盘阶段(成长/循环)；与全景图中第5阶段呼应
+      - 空间结构: 五阶段流程的末端，从复盘指向"变聪明"的循环箭头
+      - 信息层级: L1 复盘标签 → L2 四层深度 → L3 假设验证 → L4 认知资产
+      - 负形利用: 循环箭头=非线性回归；箭头留白=复盘的"呼吸空间"
+      - 视觉隐喻: 螺旋上升=每次复盘都带来认知升级；闭环=假设验证的完整性
+
 created_at: '2026-05-17'
 updated_at: '2026-05-17'
 estimated_tokens: 2400
@@ -166,6 +175,11 @@ Taleb让复盘使用者睡不着觉的问题是：如果你过去一年里最成
 | 前置工具 | [[yt-decision-canvas]] | 复盘的对象是"画布上的预判"，没有画布就没有可对比的快照 |
 | 关联概念 | [[yt-decision-habit-shift]] | 复盘的最终目的是将X型拍脑袋习惯转换为Y型分层决策习惯 |
 | 关联概念 | [[yt-management-scientific-decision]] | 复盘是科学管理的核心闭环，与一堂管理课的复盘模型互补 |
+| 跨域连接 | [[after-action-review-aar]] | L1-L4四层复盘与美军AAR在"结构化事后分析"上同源，但Y模型增加了迁移层和能力层 |
+| 跨域连接 | [[double-loop-learning-argyris]] | L3迁移层=单环学习（改进策略），L4能力层=双环学习（改变假设）——Argyris学习理论是复盘的分层基础 |
+| 跨域连接 | [[seci-model-nonaka]] | 复盘产生的"迁移规则"与SECI模型在"隐性知识显性化"上同源——个人经验→团队知识→组织资产 |
+| 跨模块连接 | [[yt-growth-data-analysis]] | 增长模块的数据分析为复盘提供L2过程层的偏差量化（实际vs预判） |
+| 跨模块连接 | [[yt-management-performance-review]] | 管理模块的绩效复盘与决策复盘在"能力缺失识别"上互补 |
 
 ## Action Triggers
 
