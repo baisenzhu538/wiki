@@ -78,11 +78,11 @@ updated: 2026-05-21 (🎬 视频试点已关闭 · 黄药师 全17项 ✅ · 老
 | 15 | `kdo video` CLI（init/validate/render/ship） | **P1** | ✅ | `e8b9265`。5 子命令，24 tests，310 total 0 regressions |
 | 16 | 🔥 `kdo video render` 修两个缺口（散文体+TTS） | **P0** | ✅ | `fa66855`。散文体提取 + edge-tts 集成。32 video tests，317 total |
 | 17 | `kdo video render` 遗留缺陷（Seg5 TTS + compose 动态帧时长） | **P1** | ✅ | `dee0f83`。Seg 5 558.5s→70.5s；compose 按 audio 时长比例分配帧。+5 tests，36 video total，321 total |
-| 18 | 🔥 G1-G4 管线工具链补齐（route + produce 分型 + video 统一 + connector run） | **P0** | ✅ | `1735a7c`。G1: kdo route 20 tests / G2: subtype scaffolding 22 tests / G3: video unified / G4: connector run。311 tests + 42 new = 353 total |
+| 18 | 🔥 G1-G4 管线工具链补齐（route + produce 分型 + video 统一 + connector run） | **P0** | ✅ | `1735a7c`。欧阳锋审查：A。364 tests (+43)。已 push GitHub |
 
 ### 黄药师 — 当前任务
 
-**全部完成** ✅ — Task 1-17 全部交付。视频管线工具链完整：init → validate → render --audio → render --compose → ship。
+**全部完成** ✅ — Task 1-18 全部交付。管线完整：enrich → route → produce（12 子类型）→ validate（含 video）→ ship（含 video/connector）。待命。
 
 ---
 
