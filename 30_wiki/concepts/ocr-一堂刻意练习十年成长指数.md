@@ -1,0 +1,36 @@
+---
+title: "OCR: 一堂刻意练习十年成长指数"
+type: "concept"
+status: "draft"
+source_refs: ["src_20260522_e6cf558a"]
+created_at: "2026-05-21T20:13:56+00:00"
+updated_at: "2026-05-21T20:13:56+00:00"
+---
+
+# OCR: 一堂刻意练习十年成长指数
+
+## Summary
+
+原图: `00_inbox/一堂刻意练习十年成长指数.
+
+png` 刻意练习·一堂10年成长指数 堂 DeliberatePractice:Yitang10-YearGrowthIndex 为什么有些人的成长能一年顶十年，而有些人却刚好相反？
+
+进步速度↑ 无限进步 9 无限进步区 成为专家 不断提升 e 开始进步 - 低端重复 固定套路 非舒适区 及时反馈 大量重复 练习要素 - 本文件由 PaddleOCR ONNX pipeline 自动提取 - 可能存在连字/误识，需要人工校对 - 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+
+## Source Refs
+
+- `src_20260522_e6cf558a` -> `10_raw/sources/src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数.md`
+
+## Reusable Knowledge
+
+- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+
+## Open Questions
+
+- 为什么有些人的成长能一年顶十年，而有些人却刚好相反？
+
+## Output Opportunities
+
+- Content:
+- Code:
+- Capability: workflow or playbook

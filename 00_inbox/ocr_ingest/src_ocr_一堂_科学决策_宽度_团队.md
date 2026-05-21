@@ -1,0 +1,42 @@
+---
+source_id: "src_ocr_一堂_科学决策_宽度_团队"
+kind: "image_ocr"
+captured_at: "2026-05-22T04:13:08.617158"
+original_image: "00_inbox/科学决策/一堂-科学决策-宽度-团队.png"
+ocr_engine: "paddleocr_onnx"
+char_count: 270
+trust_level: "medium"
+freshness: "2026-05"
+rights: "yitang_course_material"
+---
+
+# OCR: 一堂-科学决策-宽度-团队
+
+原图: `00_inbox/科学决策/一堂-科学决策-宽度-团队.png`
+
+## OCR 原文
+
+一堂科学決策宽度・团队篇 堂
+TheBreadthofScientificDecision:TeamSection
+常见价值盲区 常见成本盲区
+1.关键业务认知 1.支持部门成本
+2.提升核心能力 2.获客推广成本
+3.提升团队士气 3.退款退货成本
+4.团队知识提升 4.团队沟通成本
+5.团队人效提升 5.团队管理成本
+6.团队培养成长
+7.综合HR成本
+8.综合财务成本
+9.综合办公成本
+常见决策场景
+1.选方案：做不做这方案
+2.投资源：投不投入资源
+3.选项目：要不要上项目
+一堂・坚持只做必修课
+扫码辛苦学3天，不扫弯路走3年
+
+## 备注
+
+- 本文件由 PaddleOCR ONNX pipeline 自动提取
+- 可能存在连字/误识，需要人工校对
+- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解

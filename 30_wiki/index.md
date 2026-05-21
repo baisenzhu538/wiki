@@ -1,19 +1,24 @@
 # Wiki Index
 
 
-_Last updated: 2026-05-19T11:59:38+00:00_
+_Last updated: 2026-05-21T20:14:04+00:00_
 
-- [Anthropic 官方发布：《创始人手册：打造 AI 原生初创公司》](concepts/anthropic-官方发布创始人手册打造-ai-原生初创公司.md) - source `src_20260519_f6ec0400`
-- [Business Research Skill — OSCAR 13武器体系 Claude Code 实现](concepts/business-research-skill-oscar-13-weapon-system.md) - source no source
-- [DeepSeek V4 在知识管理系统中的应用](concepts/deepseek-v4-在知识管理系统中的应用.md) - source `src_20260505_7766e197`
-- [EC工业化规范手册 v2.8.0](concepts/ec工业化规范手册-v2.8.0.md) - source `src_20260503_feab72b2`
+- [2026-05-17 深夜感想](concepts/2026-05-17-深夜感想.md) - source `src_20260522_390d75a8`
 - [EC工业化规范手册](concepts/EC工业化规范手册.md) - source `src_20260503_dadc7838`
-- [Graph RAG — Knowledge-Graph-Powered Retrieval](concepts/graph-rag.md) - source no source
 - [HIS系统开发实现方案-架构师指南](concepts/HIS系统开发实现方案-架构师指南.md) - source `src_20260503_1a1f0312`
 - [HIS系统深度调研](concepts/HIS系统深度调研.md) - source `src_20260503_968e0210`
+- [AIMA AI思维卡 — 外部链接归档](concepts/aima-ai思维卡-外部链接归档.md) - source `src_20260522_a8e05d98`
+- [AI 原生创业四阶段模型（Anthropic 创始人手册）](concepts/anthropic-官方发布创始人手册打造-ai-原生初创公司.md) - source no source
+- [Business Analysis](concepts/business-analysis.md) - source `src_20260522_9d98d526`
+- [Business Research Skill — OSCAR 13武器体系 Claude Code 实现](concepts/business-research-skill-oscar-13-weapon-system.md) - source no source
+- [DeepSeek V4 在知识管理系统中的应用](concepts/deepseek-v4-在知识管理系统中的应用.md) - source `src_20260505_7766e197`
+- [Design / Ai Image Generation](concepts/design-ai-image-generation.md) - source `src_20260522_38173b48`
+- [EC工业化规范手册 v2.8.0](concepts/ec工业化规范手册-v2.8.0.md) - source `src_20260503_feab72b2`
+- [Graph RAG — Knowledge-Graph-Powered Retrieval](concepts/graph-rag.md) - source no source
 - [Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)](concepts/kdo_product_design_agent_final.md) - source `src_20260503_52ae08ba`
 - [Kimi 深度调研集群方法论 (Deep-Research-Swarm)](concepts/kimi-深度调研集群方法论-deep-research-swarm.md) - source `src_20260502_7d7c1b7c`
 - [Knowledge Delivery OS 快速体验指南 - 飞书云文档](concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md) - source `src_20260501_6a491b80`
+- [Learning Thinking](concepts/learning-thinking.md) - source `src_20260522_0af1f6dd`
 - [AI时代信息素养框架](concepts/master-ai-info-literacy.md) - source no source
 - [反脆弱决策检查清单](concepts/master-antifragile-checklist.md) - source no source
 - [认知偏差快速诊断清单](concepts/master-cognitive-bias-checklist.md) - source no source
@@ -21,13 +26,157 @@ _Last updated: 2026-05-19T11:59:38+00:00_
 - [第一性原理拆解器](concepts/master-first-principles.md) - source no source
 - [知识复利：IPO+萃取+管理的上位整合](concepts/master-knowledge-compound.md) - source no source
 - [系统思考：反馈循环与杠杆点](concepts/master-systems-thinking.md) - source no source
+- [Meta Prompt Eng](concepts/meta-prompt-eng.md) - source `src_20260522_a89ab860`
 - [Obsidian + KDO 内容产出工作流 — 产品设计大纲](concepts/obsidian-kdo-内容产出工作流-产品设计大纲.md) - source no source
+- [OCR: ocr_screenshot2](concepts/ocr-ocr_screenshot2.md) - source `src_20260522_4fa28ed8`
+- [OCR: ocr_Snipaste_2026-05-15_21-39-40](concepts/ocr-ocr_snipaste_2026-05-15_21-39-40.md) - source `src_20260522_8b6b5cfe`
+- [OCR: screenshot1](concepts/ocr-screenshot1.md) - source `src_20260522_64727b82`
+- [OCR: screenshot2](concepts/ocr-screenshot2.md) - source `src_20260522_961e1d68`
+- [OCR: Truman的个人成长五步法](concepts/ocr-truman的个人成长五步法.md) - source `src_20260522_074c72ae`
+- [OCR: truman的选择：两条职业成长路线](concepts/ocr-truman的选择两条职业成长路线.md) - source `src_20260522_9cbdf4fd`
+- [OCR: 一堂-个人修炼-Y模型](concepts/ocr-一堂-个人修炼-y模型.md) - source `src_20260522_3f5c76c0`
+- [OCR: 一堂-个人修炼-全景图MUSE模型](concepts/ocr-一堂-个人修炼-全景图muse模型.md) - source `src_20260522_20c9fda8`
+- [OCR: 一堂-个人修炼-双三角模型](concepts/ocr-一堂-个人修炼-双三角模型.md) - source `src_20260522_1b95114b`
+- [OCR: 一堂-个人修炼-提问刻意练习画布](concepts/ocr-一堂-个人修炼-提问刻意练习画布.md) - source `src_20260522_a1a098d5`
+- [OCR: 一堂-个人修炼-科学学习IPO-全景策略](concepts/ocr-一堂-个人修炼-科学学习ipo-全景策略.md) - source `src_20260522_dee56cff`
+- [OCR: 一堂-个人修炼-科学学习IPO完整清单](concepts/ocr-一堂-个人修炼-科学学习ipo完整清单.md) - source `src_20260522_e139c9e9`
+- [OCR: 一堂-个人修炼-科学学习IPO模型](concepts/ocr-一堂-个人修炼-科学学习ipo模型.md) - source `src_20260522_6199c6b7`
+- [OCR: 一堂-个人修炼-科学提问刻意练习](concepts/ocr-一堂-个人修炼-科学提问刻意练习.md) - source `src_20260522_f70d7a7d`
+- [OCR: 一堂-个人修炼-表达力火箭模型-执行武器库](concepts/ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md) - source `src_20260522_e60a7ec8`
+- [OCR: 一堂-个人修炼-表达力火箭模型](concepts/ocr-一堂-个人修炼-表达力火箭模型.md) - source `src_20260522_f6f8f8eb`
+- [OCR: 一堂-个人修炼-解放思想](concepts/ocr-一堂-个人修炼-解放思想.md) - source `src_20260522_33346186`
+- [OCR: 一堂-个人修炼-讲香十指模型-超级武器库](concepts/ocr-一堂-个人修炼-讲香十指模型-超级武器库.md) - source `src_20260522_ad373a9b`
+- [OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图](concepts/ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md) - source `src_20260522_ecb6ee97`
+- [OCR: 一堂-个人修炼-讲香基本功](concepts/ocr-一堂-个人修炼-讲香基本功.md) - source `src_20260522_98db1d35`
+- [OCR: 一堂-个人修炼-课程清单](concepts/ocr-一堂-个人修炼-课程清单.md) - source `src_20260522_a94d8057`
+- [OCR: 一堂-创业必修-课程清单](concepts/ocr-一堂-创业必修-课程清单.md) - source `src_20260522_67aa4e2a`
+- [OCR: 一堂-地图-个人地图](concepts/ocr-一堂-地图-个人地图.md) - source `src_20260522_40d2aee5`
+- [OCR: 一堂-地图-个人地图_conv](concepts/ocr-一堂-地图-个人地图_conv.md) - source `src_20260522_bd0dca98`
+- [OCR: 一堂-地图-创业地图](concepts/ocr-一堂-地图-创业地图.md) - source `src_20260522_c1935261`
+- [OCR: 一堂-地图-创业地图_conv](concepts/ocr-一堂-地图-创业地图_conv.md) - source `src_20260522_2954d80a`
+- [OCR: 一堂-地图-管理地图](concepts/ocr-一堂-地图-管理地图.md) - source `src_20260522_af67f9b0`
+- [OCR: 一堂-地图-管理地图_conv](concepts/ocr-一堂-地图-管理地图_conv.md) - source `src_20260522_e2244f17`
+- [OCR: 一堂-案例拆解-课程清单](concepts/ocr-一堂-案例拆解-课程清单.md) - source `src_20260522_1e654244`
+- [OCR: 一堂-泛产品设计-十年苦练30招](concepts/ocr-一堂-泛产品设计-十年苦练30招.md) - source `src_20260522_604eae9b`
+- [OCR: 一堂-科学决策-ROI决策评估画布-案例01](concepts/ocr-一堂-科学决策-roi决策评估画布-案例01.md) - source `src_20260522_6bb74b4e`
+- [OCR: 一堂-科学决策-ROI决策评估画布-案例02](concepts/ocr-一堂-科学决策-roi决策评估画布-案例02.md) - source `src_20260522_bf298e46`
+- [OCR: 一堂-科学决策-ROI决策评估画布-案例03](concepts/ocr-一堂-科学决策-roi决策评估画布-案例03.md) - source `src_20260522_01bac741`
+- [OCR: 一堂-科学决策-ROI决策评估画布-案例04](concepts/ocr-一堂-科学决策-roi决策评估画布-案例04.md) - source `src_20260522_94699fa0`
+- [OCR: 一堂-科学决策-ROI决策评估画布](concepts/ocr-一堂-科学决策-roi决策评估画布.md) - source `src_20260522_c78c1f2e`
+- [OCR: 一堂-科学决策-ROI高阶训练全景图](concepts/ocr-一堂-科学决策-roi高阶训练全景图.md) - source `src_20260522_43b15d45`
+- [OCR: 一堂-科学决策-X型Y型决策习惯对比](concepts/ocr-一堂-科学决策-x型y型决策习惯对比.md) - source `src_20260522_765d0777`
+- [OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步](concepts/ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md) - source `src_20260522_d96543bb`
+- [OCR: 一堂-科学决策-人机协作决策](concepts/ocr-一堂-科学决策-人机协作决策.md) - source `src_20260522_33c40d41`
+- [OCR: 一堂-科学决策-关键假设ABCD模型](concepts/ocr-一堂-科学决策-关键假设abcd模型.md) - source `src_20260522_3261e6bd`
+- [OCR: 一堂-科学决策-关键训练清单（重要））](concepts/ocr-一堂-科学决策-关键训练清单重要.md) - source `src_20260522_ac7f8874`
+- [OCR: 一堂-科学决策-决策三角形](concepts/ocr-一堂-科学决策-决策三角形.md) - source `src_20260522_f3429a35`
+- [OCR: 一堂-科学决策-发现决策](concepts/ocr-一堂-科学决策-发现决策.md) - source `src_20260522_1a2ffc3e`
+- [OCR: 一堂-科学决策-商业模式-完整财务公式决策](concepts/ocr-一堂-科学决策-商业模式-完整财务公式决策.md) - source `src_20260522_c59acefd`
+- [OCR: 一堂-科学决策-宽度-个人](concepts/ocr-一堂-科学决策-宽度-个人.md) - source `src_20260522_45957066`
+- [OCR: 一堂-科学决策-宽度-企业](concepts/ocr-一堂-科学决策-宽度-企业.md) - source `src_20260522_b4ebba42`
+- [OCR: 一堂-科学决策-宽度-团队](concepts/ocr-一堂-科学决策-宽度-团队.md) - source `src_20260522_97242832`
+- [OCR: 一堂-科学决策-深度-L1优先级定性](concepts/ocr-一堂-科学决策-深度-l1优先级定性.md) - source `src_20260522_22cb5729`
+- [OCR: 一堂-科学决策-深度-L2部分定量](concepts/ocr-一堂-科学决策-深度-l2部分定量.md) - source `src_20260522_ad937c9c`
+- [OCR: 一堂-科学决策-深度-L3定量公式](concepts/ocr-一堂-科学决策-深度-l3定量公式.md) - source `src_20260522_80e1b943`
+- [OCR: 一堂-科学决策-深度-L4-案例01](concepts/ocr-一堂-科学决策-深度-l4-案例01.md) - source `src_20260522_5323822f`
+- [OCR: 一堂-科学决策-深度-L4严格财务公式](concepts/ocr-一堂-科学决策-深度-l4严格财务公式.md) - source `src_20260522_26271f58`
+- [OCR: 一堂-科学决策-深度-你的业务是一次抽样实验](concepts/ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md) - source `src_20260522_3693c090`
+- [OCR: 一堂-科学决策-深度-决策经验值](concepts/ocr-一堂-科学决策-深度-决策经验值.md) - source `src_20260522_4f3415a1`
+- [OCR: 一堂-科学决策-深度-案例01](concepts/ocr-一堂-科学决策-深度-案例01.md) - source `src_20260522_9b437f93`
+- [OCR: 一堂-科学决策-深度-案例02](concepts/ocr-一堂-科学决策-深度-案例02.md) - source `src_20260522_e60022cc`
+- [OCR: 一堂-科学决策-深度-案例03](concepts/ocr-一堂-科学决策-深度-案例03.md) - source `src_20260522_3782f983`
+- [OCR: 一堂-科学决策-深度-案例04](concepts/ocr-一堂-科学决策-深度-案例04.md) - source `src_20260522_b4a26e00`
+- [OCR: 一堂-科学决策-深度-案例05](concepts/ocr-一堂-科学决策-深度-案例05.md) - source `src_20260522_7344d957`
+- [OCR: 一堂-科学决策-深度-案例06](concepts/ocr-一堂-科学决策-深度-案例06.md) - source `src_20260522_e70d298c`
+- [OCR: 一堂-科学决策-稀缺机会窗口](concepts/ocr-一堂-科学决策-稀缺机会窗口.md) - source `src_20260522_7fb2b9c1`
+- [OCR: 一堂-科学决策-稀缺资源清单](concepts/ocr-一堂-科学决策-稀缺资源清单.md) - source `src_20260522_d067a6ba`
+- [OCR: 一堂-科学决策-项目方案评估三角形](concepts/ocr-一堂-科学决策-项目方案评估三角形.md) - source `src_20260522_e31b26dd`
+- [OCR: 一堂-科学决策-高度-两种典型的思考习惯](concepts/ocr-一堂-科学决策-高度-两种典型的思考习惯.md) - source `src_20260522_23b5714d`
+- [OCR: 一堂-科学决策-高水平共识曲线（重要）](concepts/ocr-一堂-科学决策-高水平共识曲线重要.md) - source `src_20260522_80eadfd8`
+- [OCR: 一堂-管理必修-课程清单](concepts/ocr-一堂-管理必修-课程清单.md) - source `src_20260522_4c9a911f`
+- [OCR: 一堂Y模型-科学成事道理](concepts/ocr-一堂y模型-科学成事道理.md) - source `src_20260522_32462c98`
+- [OCR: 一堂Y模型steps策略集](concepts/ocr-一堂y模型steps策略集.md) - source `src_20260522_0bb1cb6e`
+- [OCR: 一堂Y模型实操工作流](concepts/ocr-一堂y模型实操工作流.md) - source `src_20260522_53341e5a`
+- [OCR: 一堂个人地图：高潜力成长者修炼全景图](concepts/ocr-一堂个人地图高潜力成长者修炼全景图.md) - source `src_20260522_9cb1d9d6`
+- [OCR: 一堂五步法-产品内核画布](concepts/ocr-一堂五步法-产品内核画布.md) - source `src_20260522_dc5c80df`
+- [OCR: 一堂五步法画布](concepts/ocr-一堂五步法画布.md) - source `src_20260522_2a547df5`
+- [OCR: 一堂产品内核-十大典型指标](concepts/ocr-一堂产品内核-十大典型指标.md) - source `src_20260522_32e4318a`
+- [OCR: 一堂刻意练习十年成长指数](concepts/ocr-一堂刻意练习十年成长指数.md) - source `src_20260522_e6cf558a`
+- [OCR: 一堂提炼过的因果模型](concepts/ocr-一堂提炼过的因果模型.md) - source `src_20260522_77b6cdaf`
+- [OCR: 一堂最佳转化率动力曲线图](concepts/ocr-一堂最佳转化率动力曲线图.md) - source `src_20260522_9557e4cb`
+- [OCR: 一堂泛产品设计-十年修炼爬山地图](concepts/ocr-一堂泛产品设计-十年修炼爬山地图.md) - source `src_20260522_db09e70d`
+- [OCR: 一堂泛产品设计-多出牌多练习](concepts/ocr-一堂泛产品设计-多出牌多练习.md) - source `src_20260522_4754d8fd`
+- [OCR: 一堂泛产品设计36计-全套地图](concepts/ocr-一堂泛产品设计36计-全套地图.md) - source `src_20260522_7e8d10c4`
+- [OCR: 一堂深度复盘冰山图](concepts/ocr-一堂深度复盘冰山图.md) - source `src_20260522_c92a36ba`
+- [OCR: 一堂转化率-10大容易浪费的触点](concepts/ocr-一堂转化率-10大容易浪费的触点.md) - source `src_20260522_037af20f`
+- [OCR: 一堂进步大地图](concepts/ocr-一堂进步大地图.md) - source `src_20260522_d75f0a0d`
+- [OCR: 一堂进步大地图_compressed](concepts/ocr-一堂进步大地图_compressed.md) - source `src_20260522_2250865e`
+- [OCR: 优秀泛产品设计者的自我修养](concepts/ocr-优秀泛产品设计者的自我修养.md) - source `src_20260522_91948770`
+- [OCR: 婚礼操盘-用户和场景](concepts/ocr-婚礼操盘-用户和场景.md) - source `src_20260522_94ee2a08`
+- [OCR: 婚礼规划](concepts/ocr-婚礼规划.md) - source `src_20260522_b29a6b98`
+- [OCR: 审美提升的层级](concepts/ocr-审美提升的层级.md) - source `src_20260522_7d2a79f8`
+- [OCR: 微信图片_20260507004746_32_32](concepts/ocr-微信图片_20260507004746_32_32.md) - source `src_20260522_dd3806c5`
+- [OCR: 微信图片_20260507004751_33_32](concepts/ocr-微信图片_20260507004751_33_32.md) - source `src_20260522_d38bb08e`
+- [OCR: 微信图片_20260507004755_34_32](concepts/ocr-微信图片_20260507004755_34_32.md) - source `src_20260522_0f690cad`
+- [OCR: 微信图片_20260507004758_35_32](concepts/ocr-微信图片_20260507004758_35_32.md) - source `src_20260522_c28367b2`
+- [OCR: 微信图片_20260507004801_37_32](concepts/ocr-微信图片_20260507004801_37_32.md) - source `src_20260522_05b4de3c`
+- [OCR: 微信图片_20260507004802_38_32](concepts/ocr-微信图片_20260507004802_38_32.md) - source `src_20260522_f0ec18a8`
+- [OCR: 微信图片_20260507004804_39_32](concepts/ocr-微信图片_20260507004804_39_32.md) - source `src_20260522_d694dfc8`
+- [OCR: 微信图片_20260507004806_40_32](concepts/ocr-微信图片_20260507004806_40_32.md) - source `src_20260522_db85a8da`
+- [OCR: 微信图片_20260507004811_41_32](concepts/ocr-微信图片_20260507004811_41_32.md) - source `src_20260522_b64b7124`
+- [OCR: 泛产品设计-审美卡片-最佳实践建模](concepts/ocr-泛产品设计-审美卡片-最佳实践建模.md) - source `src_20260522_89529426`
+- [OCR: 泛产品设计-审美卡片-最佳实践收集](concepts/ocr-泛产品设计-审美卡片-最佳实践收集.md) - source `src_20260522_6373b1b1`
+- [OCR: 泛产品设计-审美卡片-最佳实践池子](concepts/ocr-泛产品设计-审美卡片-最佳实践池子.md) - source `src_20260522_6a8b5755`
+- [OCR: 泛产品设计-审美卡片-美好作品想象](concepts/ocr-泛产品设计-审美卡片-美好作品想象.md) - source `src_20260522_6697adcb`
+- [OCR: 泛产品设计-审美工具箱指南](concepts/ocr-泛产品设计-审美工具箱指南.md) - source `src_20260522_65a78106`
+- [OCR: 泛产品设计-用户卡片-一堂五步法](concepts/ocr-泛产品设计-用户卡片-一堂五步法.md) - source `src_20260522_a632cc1c`
+- [OCR: 泛产品设计-用户卡片-动力阻力](concepts/ocr-泛产品设计-用户卡片-动力阻力.md) - source `src_20260522_1ec27760`
+- [OCR: 泛产品设计-用户卡片-场景推演](concepts/ocr-泛产品设计-用户卡片-场景推演.md) - source `src_20260522_3bc67cbd`
+- [OCR: 泛产品设计-用户卡片-多视角思考](concepts/ocr-泛产品设计-用户卡片-多视角思考.md) - source `src_20260522_f6cf4e83`
+- [OCR: 泛产品设计-用户卡片-峰终定律](concepts/ocr-泛产品设计-用户卡片-峰终定律.md) - source `src_20260522_041b5a94`
+- [OCR: 泛产品设计-用户卡片-惊喜公式](concepts/ocr-泛产品设计-用户卡片-惊喜公式.md) - source `src_20260522_622b8a41`
+- [OCR: 泛产品设计-用户卡片-用户分层](concepts/ocr-泛产品设计-用户卡片-用户分层.md) - source `src_20260522_38ddd826`
+- [OCR: 泛产品设计-用户卡片-用户视角](concepts/ocr-泛产品设计-用户卡片-用户视角.md) - source `src_20260522_11d721ac`
+- [OCR: 泛产品设计-用户卡片-行业分析画布](concepts/ocr-泛产品设计-用户卡片-行业分析画布.md) - source `src_20260522_78d5f0a4`
+- [OCR: 泛产品设计-用户卡片-需求挖掘](concepts/ocr-泛产品设计-用户卡片-需求挖掘.md) - source `src_20260522_11af6cd2`
+- [OCR: 泛产品设计-用户卡片-项目背景分析](concepts/ocr-泛产品设计-用户卡片-项目背景分析.md) - source `src_20260522_115e8827`
+- [OCR: 泛产品设计-落地卡片-ROI分析](concepts/ocr-泛产品设计-落地卡片-roi分析.md) - source `src_20260522_1b5af0b6`
+- [OCR: 泛产品设计-落地卡片-业务建模](concepts/ocr-泛产品设计-落地卡片-业务建模.md) - source `src_20260522_f5a0f2e1`
+- [OCR: 泛产品设计-落地卡片-低成本测试MVP](concepts/ocr-泛产品设计-落地卡片-低成本测试mvp.md) - source `src_20260522_4d086230`
+- [OCR: 泛产品设计-落地卡片-假设拆解](concepts/ocr-泛产品设计-落地卡片-假设拆解.md) - source `src_20260522_eb90d179`
+- [OCR: 泛产品设计-落地卡片-内核和边界](concepts/ocr-泛产品设计-落地卡片-内核和边界.md) - source `src_20260522_f3072399`
+- [OCR: 泛产品设计-落地卡片-努力仿真](concepts/ocr-泛产品设计-落地卡片-努力仿真.md) - source `src_20260522_bab48c61`
+- [OCR: 泛产品设计-落地卡片-十倍速验证](concepts/ocr-泛产品设计-落地卡片-十倍速验证.md) - source `src_20260522_5bd37e0d`
+- [OCR: 泛产品设计-落地卡片-善用佳软](concepts/ocr-泛产品设计-落地卡片-善用佳软.md) - source `src_20260522_7ddf8bf2`
+- [OCR: 泛产品设计-落地卡片-复盘迭代](concepts/ocr-泛产品设计-落地卡片-复盘迭代.md) - source `src_20260522_3b5c417d`
+- [OCR: 泛产品设计-落地卡片-攻坚会](concepts/ocr-泛产品设计-落地卡片-攻坚会.md) - source `src_20260522_cbb3b77d`
+- [OCR: 泛产品设计-落地卡片-灵感闪现](concepts/ocr-泛产品设计-落地卡片-灵感闪现.md) - source `src_20260522_e861d61d`
+- [OCR: 泛产品设计-落地卡片-管理三段论](concepts/ocr-泛产品设计-落地卡片-管理三段论.md) - source `src_20260522_8d5cc8b0`
+- [OCR: 泛产品设计-落地卡片-解放思想](concepts/ocr-泛产品设计-落地卡片-解放思想.md) - source `src_20260522_c2c6b487`
+- [OCR: 泛产品设计-落地卡片-设计原则](concepts/ocr-泛产品设计-落地卡片-设计原则.md) - source `src_20260522_9eaf7399`
+- [OCR: 泛产品设计-落地卡片-逻辑MECE](concepts/ocr-泛产品设计-落地卡片-逻辑mece.md) - source `src_20260522_8d990f3c`
+- [OCR: 泛产品设计-落地卡片-酝酿式打磨](concepts/ocr-泛产品设计-落地卡片-酝酿式打磨.md) - source `src_20260522_2bcc3531`
+- [OCR: 泛产品设计-落地卡片-里程碑拆解](concepts/ocr-泛产品设计-落地卡片-里程碑拆解.md) - source `src_20260522_4be84945`
+- [OCR: 泛产品设计-落地卡片-风险管理](concepts/ocr-泛产品设计-落地卡片-风险管理.md) - source `src_20260522_3dd58dff`
+- [OCR: 泛产品设计-需求工具箱指南](concepts/ocr-泛产品设计-需求工具箱指南.md) - source `src_20260522_726a6a3b`
+- [OCR: 泛产品设计的应用场景示意图](concepts/ocr-泛产品设计的应用场景示意图.md) - source `src_20260522_e985ecdb`
+- [OCR: 泛产品设计者的三大自我修养](concepts/ocr-泛产品设计者的三大自我修养.md) - source `src_20260522_2a53b1eb`
+- [OCR: 泛产品设计者的自我修养](concepts/ocr-泛产品设计者的自我修养.md) - source `src_20260522_8995f40a`
+- [OCR: 泛产品设计落地工具篇指南](concepts/ocr-泛产品设计落地工具篇指南.md) - source `src_20260522_8bdb2970`
+- [OCR: 泛产品设计落地篇](concepts/ocr-泛产品设计落地篇.md) - source `src_20260522_e4b635ac`
+- [OCR: 萃取总结](concepts/ocr-萃取总结.md) - source `src_20260522_4310e409`
+- [OCR: 顶级产品追求的方向-乔布斯](concepts/ocr-顶级产品追求的方向-乔布斯.md) - source `src_20260522_ea933690`
+- [OCR: 项目背景问题思考的8个维度](concepts/ocr-项目背景问题思考的8个维度.md) - source `src_20260522_4af61500`
+- [OCR: 预判模型](concepts/ocr-预判模型.md) - source `src_20260522_e71d89ff`
 - [PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill](concepts/paddleocr-skill.md) - source no source
+- [Product Ux](concepts/product-ux.md) - source `src_20260522_404f58a2`
 - [Kimi 深度调研集群方法论 (Deep-Research-Swarm)](concepts/research_methodology.md) - source no source
 - [Sprint 2 门禁举证验收](concepts/sprint-2-门禁举证验收.md) - source `src_20260510_9e98a292`
 - [TinyFish — Agentic Web 基础设施建设层 Skill](concepts/tinyfish-agentic-web-infrastructure.md) - source no source
+- [Tools Workflows](concepts/tools-workflows.md) - source `src_20260522_9d322e81`
 - [Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现](concepts/truman-perspective-skill.md) - source no source
 - [Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl](concepts/web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md) - source no source
+- [Writing Content](concepts/writing-content.md) - source `src_20260522_5819659f`
 - [YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN](concepts/yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md) - source `src_20260430_8cc84e5b`
 - [一堂课程大地图](concepts/yitang-course-map.md) - source no source
 - [一堂案例必修课](concepts/yt-case-mandatory-cases.md) - source no source
@@ -210,19 +359,26 @@ _Last updated: 2026-05-19T11:59:38+00:00_
 - [项目健康度雷达](concepts/yt-tool-project-health-radar.md) - source no source
 - [战略研讨会引导手册](concepts/yt-tool-strategy-workshop.md) - source no source
 - [互联网医院模式深度调研报告](concepts/互联网医院模式深度调研报告.md) - source `src_20260501_9962715b`
+- [人机协作决策 —— 双三角模型](concepts/人机协作决策-双三角模型.md) - source `src_20260522_55f812d7`
 - [保达云诊所深度调研报告](concepts/保达云诊所深度调研报告.md) - source `src_20260503_ae1921d5`
+- [在设计小伙伴的反馈还挺好的。](concepts/在设计小伙伴的反馈还挺好的.md) - source `src_20260522_fef0b51b`
+- [存储策略](concepts/存储策略.md) - source `src_20260522_42622b63`
 - [开源HIS系统代码深度分析报告](concepts/开源HIS系统代码深度分析报告.md) - source `src_20260503_f4891888`
 - [紫鲸AI_智能体工作流平台_深度分析与产品设计](concepts/紫鲸ai_智能体工作流平台_深度分析与产品设计.md) - source `src_20260501_4eee4e95`
 - [紫鲸AI智能体工作流平台](concepts/紫鲸ai智能体工作流平台.md) - source `src_20260428_29929c1f`
+- [老朱的水感 — 2026年5月](concepts/老朱的水感-2026年5月.md) - source `src_20260522_d3a621b8`
 - [街顺APP全面调研报告](concepts/街顺app全面调研报告.md) - source `src_20260427_970eb338`
+- [视觉Prompt三层操作系统 (SROM Visual OS)](concepts/视觉prompt三层操作系统-srom-visual-os.md) - source `src_20260522_1ede9202`
 - [诊所O2O外卖平台业务深度调研报告](concepts/诊所o2o外卖平台业务深度调研报告.md) - source no source
 - [轻量级诊所HIS调研全清单](concepts/轻量级诊所HIS调研全清单.md) - source `src_20260503_5c91e867`
+- [那今天不会。](concepts/那今天不会.md) - source `src_20260522_642ab512`
 - [鑫港湾HIS系统分阶段整改报告](concepts/鑫港湾his系统分阶段整改报告.md) - source `src_20260428_db49a647`
 - [Kimi（月之暗面）](entities/Kimi-月之暗面.md) - source no source
 - [Y Combinator](entities/YC-Y-Combinator.md) - source no source
 - [一堂](entities/一堂.md) - source no source
 - [紫鲸AI](entities/紫鲸AI.md) - source no source
 - [鑫港湾](entities/鑫港湾.md) - source no source
+- [yt-decision-abcd-model](frameworks/yt-decision-abcd-model.md) - source no source
 - [互联网医院项目](projects/互联网医院项目.md) - source no source
 - [诊所O2O项目](projects/诊所O2O项目.md) - source no source
 - [鑫港湾HIS项目](projects/鑫港湾HIS项目.md) - source no source
@@ -235,7 +391,10 @@ _Last updated: 2026-05-19T11:59:38+00:00_
 - [Obsidian Git Multi-Device Sync Protocol](systems/obsidian-git-sync-protocol.md) - source no source
 - [Sprint 2 门禁系统 + Enrich 举证 — 设计规格](systems/sprint-2-gate-enrich-evidence.md) - source no source
 - [一堂方法论体系总图](systems/一堂方法论体系总图.md) - source no source
+- ['股权设计检查清单'](tools/yt-tool-equity-checklist.md) - source no source
 - ['结构化面试打分卡'](tools/yt-tool-hiring-scorecard.md) - source no source
 - ['会议设计师：一页纸会议蓝图'](tools/yt-tool-meeting-designer.md) - source no source
 - ['OKR 制定与复盘罗盘'](tools/yt-tool-okr-cycle.md) - source no source
+- ['新人 90 天融入加速器'](tools/yt-tool-onboarding-90day.md) - source no source
+- ['项目健康度雷达'](tools/yt-tool-project-health-radar.md) - source no source
 - ['战略研讨会引导手册'](tools/yt-tool-strategy-workshop.md) - source no source

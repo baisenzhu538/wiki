@@ -5503,3 +5503,2173 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/Anthropic 官方发布：《创始人手册：打造 AI 原生初创公司》.md"
   content_sha256: "12e8f10bf0b81c41837009bfc75efe2134c6e0b4c87a6b782cbe77b65d8b81aa"
+
+- id: "src_20260522_642ab512"
+  title: "那今天不会。"
+  type: "other"
+  location: "10_raw/sources/src_20260522_642ab512-那今天不会.md"
+  captured_at: "2026-05-21T20:13:51+00:00"
+  registered_at: "2026-05-21T20:13:51+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/那今天不会.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/design/cleaned/AI设计-AI设计基础01_cleaned.md"
+  content_sha256: "bb32a280b1bf430a2001280e4fe12e985e66b1b7ffa40984f4c5097c06e02e60"
+
+- id: "src_20260522_fef0b51b"
+  title: "在设计小伙伴的反馈还挺好的。"
+  type: "other"
+  location: "10_raw/sources/src_20260522_fef0b51b-在设计小伙伴的反馈还挺好的.md"
+  captured_at: "2026-05-21T20:13:51+00:00"
+  registered_at: "2026-05-21T20:13:51+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/在设计小伙伴的反馈还挺好的.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/design/cleaned/AI设计-AI设计师实操培训01_cleaned.md"
+  content_sha256: "577708788d577177a606159baf23fa9aa37714818abdec9ed1390d7bb491e992"
+
+- id: "src_20260522_38173b48"
+  title: "Design / Ai Image Generation"
+  type: "other"
+  location: "10_raw/sources/src_20260522_38173b48-design-ai-image-generation.md"
+  captured_at: "2026-05-21T20:13:51+00:00"
+  registered_at: "2026-05-21T20:13:51+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/design-ai-image-generation.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/design/prompts/ai-image-generation.md"
+  content_sha256: "0bd90aada00204bf355de378b29b00434003f7f48ebca84201912dae7d01e3a0"
+
+- id: "src_20260522_55f812d7"
+  title: "人机协作决策 —— 双三角模型"
+  type: "idea"
+  location: "10_raw/sources/src_20260522_55f812d7-人机协作决策-双三角模型.md"
+  captured_at: "2026-05-17T00:00:00+08:00"
+  registered_at: "2026-05-21T20:13:51+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/人机协作决策-双三角模型.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ideas/2026-05-17-hci-decision-double-triangle.md"
+  content_sha256: "9bfff328d26ede6d4b746446481c215d93368ca3dfbe1b98daa3aa5be5436813"
+
+- id: "src_20260522_a8e05d98"
+  title: "AIMA AI思维卡 — 外部链接归档"
+  type: "other"
+  location: "10_raw/sources/src_20260522_a8e05d98-aima-ai思维卡-外部链接归档.md"
+  captured_at: "2026-05-21T20:13:51+00:00"
+  registered_at: "2026-05-21T20:13:51+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/aima-ai思维卡-外部链接归档.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/links/aima-ai-thinking-card-links.md"
+  content_sha256: "1d05ebecd66a52abfd611cf5462cb9d0f3bd25d2bc865157a3df6b45871cdb95"
+
+- id: "src_20260522_4fa28ed8"
+  title: "OCR: ocr_screenshot2"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_4fa28ed8-ocr-ocr_screenshot2.md"
+  captured_at: "2026-05-22T04:13:07.128894"
+  registered_at: "2026-05-21T20:13:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-ocr_screenshot2.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_ocr_screenshot2.md"
+  content_sha256: "3489e5276092bd99e60103cfd314d76fed6100200bc6f8e7440c122ceaf879d9"
+
+- id: "src_20260522_8b6b5cfe"
+  title: "OCR: ocr_Snipaste_2026-05-15_21-39-40"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_8b6b5cfe-ocr-ocr_snipaste_2026-05-15_21-39-40.md"
+  captured_at: "2026-05-22T04:13:07.132612"
+  registered_at: "2026-05-21T20:13:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-ocr_snipaste_2026-05-15_21-39-40.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_ocr_snipaste_2026_05_15_21_39_40.md"
+  content_sha256: "087d648f89b634cc144c9a89a026729bd6aefb299b131a4455b182844b5d9a63"
+
+- id: "src_20260522_64727b82"
+  title: "OCR: screenshot1"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_64727b82-ocr-screenshot1.md"
+  captured_at: "2026-05-22T04:13:07.137770"
+  registered_at: "2026-05-21T20:13:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-screenshot1.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_screenshot1.md"
+  content_sha256: "dcdd00ff66ef36aab34507607305eebfd1019383472289e5c1fef084434ea16c"
+
+- id: "src_20260522_961e1d68"
+  title: "OCR: screenshot2"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_961e1d68-ocr-screenshot2.md"
+  captured_at: "2026-05-22T04:13:07.142864"
+  registered_at: "2026-05-21T20:13:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-screenshot2.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_screenshot2.md"
+  content_sha256: "a8ef8bf1d080954a618b5d860030a0639ccd77166d9a2e2566e1996c86a65432"
+
+- id: "src_20260522_074c72ae"
+  title: "OCR: Truman的个人成长五步法"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_074c72ae-ocr-truman的个人成长五步法.md"
+  captured_at: "2026-05-22T04:13:07.147187"
+  registered_at: "2026-05-21T20:13:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-truman的个人成长五步法.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_truman的个人成长五步法.md"
+  content_sha256: "8164e507ff74e450a4ca5c0c97dd1a4a574c123112a9c960484f3c89b340896a"
+
+- id: "src_20260522_9cbdf4fd"
+  title: "OCR: truman的选择：两条职业成长路线"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线.md"
+  captured_at: "2026-05-22T04:13:07.151278"
+  registered_at: "2026-05-21T20:13:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-truman的选择两条职业成长路线.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_truman的选择：两条职业成长路线.md"
+  content_sha256: "ea1d6f6800252231175b6f33b29950e0ebc1f067fe1ee282db4df18d7cc44dfe"
+
+- id: "src_20260522_3f5c76c0"
+  title: "OCR: 一堂-个人修炼-Y模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_3f5c76c0-ocr-一堂-个人修炼-y模型.md"
+  captured_at: "2026-05-22T04:13:07.156143"
+  registered_at: "2026-05-21T20:13:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-个人修炼-y模型.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_y模型.md"
+  content_sha256: "10313cbcf827d3682b1fae052d34c8710e0b01eb99e764e4611faaed230fde6b"
+
+- id: "src_20260522_20c9fda8"
+  title: "OCR: 一堂-个人修炼-全景图MUSE模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_20c9fda8-ocr-一堂-个人修炼-全景图muse模型.md"
+  captured_at: "2026-05-22T04:13:07.161399"
+  registered_at: "2026-05-21T20:13:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-个人修炼-全景图muse模型.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_全景图muse模型.md"
+  content_sha256: "f83a265b407fdc0d25c5d79ce0064b27362218b914efc590d2967a0781442ab9"
+
+- id: "src_20260522_1b95114b"
+  title: "OCR: 一堂-个人修炼-双三角模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_1b95114b-ocr-一堂-个人修炼-双三角模型.md"
+  captured_at: "2026-05-22T04:13:07.165811"
+  registered_at: "2026-05-21T20:13:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-个人修炼-双三角模型.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_双三角模型.md"
+  content_sha256: "0293ba8e06371c8a9b77226974244512afab457a3fb8374dd1b425f4830d38c4"
+
+- id: "src_20260522_a1a098d5"
+  title: "OCR: 一堂-个人修炼-提问刻意练习画布"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_a1a098d5-ocr-一堂-个人修炼-提问刻意练习画布.md"
+  captured_at: "2026-05-22T04:13:07.170440"
+  registered_at: "2026-05-21T20:13:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-个人修炼-提问刻意练习画布.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_提问刻意练习画布.md"
+  content_sha256: "e276ca3d52e3d8da1a5ea9f7631d8569eaef876d10750a31841d5a96f881e882"
+
+- id: "src_20260522_dee56cff"
+  title: "OCR: 一堂-个人修炼-科学学习IPO-全景策略"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略.md"
+  captured_at: "2026-05-22T04:13:07.175362"
+  registered_at: "2026-05-21T20:13:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-个人修炼-科学学习ipo-全景策略.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_科学学习ipo_全景策略.md"
+  content_sha256: "c75d38a981274642e0191b0fe1c1515eaf4ddfbdbfe16dd34b9d4e887873bb76"
+
+- id: "src_20260522_e139c9e9"
+  title: "OCR: 一堂-个人修炼-科学学习IPO完整清单"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单.md"
+  captured_at: "2026-05-22T04:13:07.181263"
+  registered_at: "2026-05-21T20:13:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-个人修炼-科学学习ipo完整清单.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_科学学习ipo完整清单.md"
+  content_sha256: "c683250e294d0a72cbfbef32cc404db2a97b2d14d861d5c720771e729a4c8343"
+
+- id: "src_20260522_6199c6b7"
+  title: "OCR: 一堂-个人修炼-科学学习IPO模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_6199c6b7-ocr-一堂-个人修炼-科学学习ipo模型.md"
+  captured_at: "2026-05-22T04:13:07.185744"
+  registered_at: "2026-05-21T20:13:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-个人修炼-科学学习ipo模型.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_科学学习ipo模型.md"
+  content_sha256: "ec2280b076d795ba6fd405b13bcf4726869c048b5b1d459d62c56b3d3c217337"
+
+- id: "src_20260522_f70d7a7d"
+  title: "OCR: 一堂-个人修炼-科学提问刻意练习"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_f70d7a7d-ocr-一堂-个人修炼-科学提问刻意练习.md"
+  captured_at: "2026-05-22T04:13:07.190219"
+  registered_at: "2026-05-21T20:13:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-个人修炼-科学提问刻意练习.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_科学提问刻意练习.md"
+  content_sha256: "1f676a58e63043186b8d3bea8f2b099aa56e3de24369f34a61c000333ef94541"
+
+- id: "src_20260522_f6f8f8eb"
+  title: "OCR: 一堂-个人修炼-表达力火箭模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_f6f8f8eb-ocr-一堂-个人修炼-表达力火箭模型.md"
+  captured_at: "2026-05-22T04:13:07.199063"
+  registered_at: "2026-05-21T20:13:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-个人修炼-表达力火箭模型.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_表达力火箭模型.md"
+  content_sha256: "9715477f97e4333f98e44b7c56731cc8d15e9feabb12ac2ff2dc82330e86dcdb"
+
+- id: "src_20260522_e60a7ec8"
+  title: "OCR: 一堂-个人修炼-表达力火箭模型-执行武器库"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_e60a7ec8-ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md"
+  captured_at: "2026-05-22T04:13:07.195036"
+  registered_at: "2026-05-21T20:13:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_表达力火箭模型_执行武器库.md"
+  content_sha256: "dcfe584249986e66c3621d22f452c89e3421d9400029be7c7e955d4efa82fa78"
+
+- id: "src_20260522_33346186"
+  title: "OCR: 一堂-个人修炼-解放思想"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_33346186-ocr-一堂-个人修炼-解放思想.md"
+  captured_at: "2026-05-22T04:13:07.203425"
+  registered_at: "2026-05-21T20:13:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-个人修炼-解放思想.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_解放思想.md"
+  content_sha256: "6f4d73dfbd8e209c9bcaed51cd73c350e2d0613ab71f6d648a29c7c1ad89403f"
+
+- id: "src_20260522_ad373a9b"
+  title: "OCR: 一堂-个人修炼-讲香十指模型-超级武器库"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_ad373a9b-ocr-一堂-个人修炼-讲香十指模型-超级武器库.md"
+  captured_at: "2026-05-22T04:13:07.207772"
+  registered_at: "2026-05-21T20:13:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-个人修炼-讲香十指模型-超级武器库.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_讲香十指模型_超级武器库.md"
+  content_sha256: "ea8e6209e4abaf547ee059ceb440b72811259a69513b7b65a1f9a11570e29e0b"
+
+- id: "src_20260522_98db1d35"
+  title: "OCR: 一堂-个人修炼-讲香基本功"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_98db1d35-ocr-一堂-个人修炼-讲香基本功.md"
+  captured_at: "2026-05-22T04:13:08.049864"
+  registered_at: "2026-05-21T20:13:53+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-个人修炼-讲香基本功.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_讲香基本功.md"
+  content_sha256: "ea04c55fcc9470ac40db822b6bf02c55eeebc655fc6e0e42df1c4c85f4d3eac4"
+
+- id: "src_20260522_ecb6ee97"
+  title: "OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_ecb6ee97-ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md"
+  captured_at: "2026-05-22T04:13:07.212786"
+  registered_at: "2026-05-21T20:13:53+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_讲香基本功_十指模型修炼地图.md"
+  content_sha256: "1792772a6a0078a337730234d1a7aefac2a054897760e8d29100c0696953d405"
+
+- id: "src_20260522_a94d8057"
+  title: "OCR: 一堂-个人修炼-课程清单"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_a94d8057-ocr-一堂-个人修炼-课程清单.md"
+  captured_at: "2026-05-22T04:13:08.054402"
+  registered_at: "2026-05-21T20:13:53+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-个人修炼-课程清单.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_课程清单.md"
+  content_sha256: "572daee9ce04e9056be1466825aae5a7367367f5faf56012290a1ff145e32f14"
+
+- id: "src_20260522_67aa4e2a"
+  title: "OCR: 一堂-创业必修-课程清单"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_67aa4e2a-ocr-一堂-创业必修-课程清单.md"
+  captured_at: "2026-05-22T04:13:08.059488"
+  registered_at: "2026-05-21T20:13:53+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-创业必修-课程清单.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_创业必修_课程清单.md"
+  content_sha256: "eab24e2a6fced2331fb0e5378814a19fb4e53db77ec76fd05c0ca1d1e939e9c5"
+
+- id: "src_20260522_40d2aee5"
+  title: "OCR: 一堂-地图-个人地图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_40d2aee5-ocr-一堂-地图-个人地图.md"
+  captured_at: "2026-05-22T04:13:08.076135"
+  registered_at: "2026-05-21T20:13:53+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-地图-个人地图.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_地图_个人地图.md"
+  content_sha256: "e6a5310ec1fe7b0d62017287366dbd4cf9f5f5306454da60753b1e1ae780355a"
+
+- id: "src_20260522_bd0dca98"
+  title: "OCR: 一堂-地图-个人地图_conv"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_bd0dca98-ocr-一堂-地图-个人地图_conv.md"
+  captured_at: "2026-05-22T04:13:08.067062"
+  registered_at: "2026-05-21T20:13:53+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-地图-个人地图_conv.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_地图_个人地图_conv.md"
+  content_sha256: "cf94cb611c0a5b923a0699317bcac1020385f8912455e3fcc9a367abf4639adb"
+
+- id: "src_20260522_c1935261"
+  title: "OCR: 一堂-地图-创业地图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_c1935261-ocr-一堂-地图-创业地图.md"
+  captured_at: "2026-05-22T04:13:08.096080"
+  registered_at: "2026-05-21T20:13:53+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-地图-创业地图.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_地图_创业地图.md"
+  content_sha256: "22d0a42d29e6fae88b2a027950a51f441bdb95822a8ab9fb254a8340e5e8e171"
+
+- id: "src_20260522_2954d80a"
+  title: "OCR: 一堂-地图-创业地图_conv"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_2954d80a-ocr-一堂-地图-创业地图_conv.md"
+  captured_at: "2026-05-22T04:13:08.085982"
+  registered_at: "2026-05-21T20:13:53+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-地图-创业地图_conv.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_地图_创业地图_conv.md"
+  content_sha256: "c5779cb9488203b72a39775b4f9ce9a90bdf66882869c4a22169afbde1144ddc"
+
+- id: "src_20260522_af67f9b0"
+  title: "OCR: 一堂-地图-管理地图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_af67f9b0-ocr-一堂-地图-管理地图.md"
+  captured_at: "2026-05-22T04:13:08.106733"
+  registered_at: "2026-05-21T20:13:53+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-地图-管理地图.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_地图_管理地图.md"
+  content_sha256: "9ce1e942bc69bd56fef4a8fa8fcafb99db24cdf6689618541548fbdddc03346e"
+
+- id: "src_20260522_e2244f17"
+  title: "OCR: 一堂-地图-管理地图_conv"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md"
+  captured_at: "2026-05-22T04:13:08.101232"
+  registered_at: "2026-05-21T20:13:53+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-地图-管理地图_conv.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_地图_管理地图_conv.md"
+  content_sha256: "76c6e4d8cc06444557bfe11cca525a39910f122369a15243a949e8c05644a1b4"
+
+- id: "src_20260522_1e654244"
+  title: "OCR: 一堂-案例拆解-课程清单"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_1e654244-ocr-一堂-案例拆解-课程清单.md"
+  captured_at: "2026-05-22T04:13:08.111039"
+  registered_at: "2026-05-21T20:13:53+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-案例拆解-课程清单.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_案例拆解_课程清单.md"
+  content_sha256: "cef48ce37f529fe45d952ce71442f562820787cc7c21e032ae37d4b9df1bf24f"
+
+- id: "src_20260522_604eae9b"
+  title: "OCR: 一堂-泛产品设计-十年苦练30招"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_604eae9b-ocr-一堂-泛产品设计-十年苦练30招.md"
+  captured_at: "2026-05-22T04:13:08.117298"
+  registered_at: "2026-05-21T20:13:53+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-泛产品设计-十年苦练30招.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_泛产品设计_十年苦练30招.md"
+  content_sha256: "d6ef9ac5add78f16a243e3cb9ef84fa87c322654bc2a9a8d5bd8a0cb9bb08182"
+
+- id: "src_20260522_c78c1f2e"
+  title: "OCR: 一堂-科学决策-ROI决策评估画布"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_c78c1f2e-ocr-一堂-科学决策-roi决策评估画布.md"
+  captured_at: "2026-05-22T04:13:08.545941"
+  registered_at: "2026-05-21T20:13:53+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-roi决策评估画布.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_roi决策评估画布.md"
+  content_sha256: "5bac66670d1f0900333da10ee3135b661e3da0a2323c8e8fdf708e38f8ec49cf"
+
+- id: "src_20260522_6bb74b4e"
+  title: "OCR: 一堂-科学决策-ROI决策评估画布-案例01"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_6bb74b4e-ocr-一堂-科学决策-roi决策评估画布-案例01.md"
+  captured_at: "2026-05-22T04:13:08.522608"
+  registered_at: "2026-05-21T20:13:53+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-roi决策评估画布-案例01.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_roi决策评估画布_案例01.md"
+  content_sha256: "8021706a4559c82f1271989a38159e161daeba0facb28650b290becd72df5792"
+
+- id: "src_20260522_bf298e46"
+  title: "OCR: 一堂-科学决策-ROI决策评估画布-案例02"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_bf298e46-ocr-一堂-科学决策-roi决策评估画布-案例02.md"
+  captured_at: "2026-05-22T04:13:08.528597"
+  registered_at: "2026-05-21T20:13:53+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-roi决策评估画布-案例02.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_roi决策评估画布_案例02.md"
+  content_sha256: "7d3aaec510d3c14c70c6a4f0e440c19e2d28bd9a316b3f8b2f804113bc96ec62"
+
+- id: "src_20260522_01bac741"
+  title: "OCR: 一堂-科学决策-ROI决策评估画布-案例03"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_01bac741-ocr-一堂-科学决策-roi决策评估画布-案例03.md"
+  captured_at: "2026-05-22T04:13:08.534358"
+  registered_at: "2026-05-21T20:13:54+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-roi决策评估画布-案例03.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_roi决策评估画布_案例03.md"
+  content_sha256: "3a67903853328816068b2dcb4582b1dfeacd8ae93057cf3cdf38bd3421733ee3"
+
+- id: "src_20260522_94699fa0"
+  title: "OCR: 一堂-科学决策-ROI决策评估画布-案例04"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_94699fa0-ocr-一堂-科学决策-roi决策评估画布-案例04.md"
+  captured_at: "2026-05-22T04:13:08.540405"
+  registered_at: "2026-05-21T20:13:54+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-roi决策评估画布-案例04.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_roi决策评估画布_案例04.md"
+  content_sha256: "62eda9daa76b384f3e6be17a0b149fb1f1d4561f92f68f69008628d9f8c9bfa2"
+
+- id: "src_20260522_43b15d45"
+  title: "OCR: 一堂-科学决策-ROI高阶训练全景图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_43b15d45-ocr-一堂-科学决策-roi高阶训练全景图.md"
+  captured_at: "2026-05-22T04:13:08.551711"
+  registered_at: "2026-05-21T20:13:54+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-roi高阶训练全景图.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_roi高阶训练全景图.md"
+  content_sha256: "509ef73a2b085d83e3c11ff6bbde50d41a10c04422369ce4485df8c0d9738ee8"
+
+- id: "src_20260522_765d0777"
+  title: "OCR: 一堂-科学决策-X型Y型决策习惯对比"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_765d0777-ocr-一堂-科学决策-x型y型决策习惯对比.md"
+  captured_at: "2026-05-22T04:13:08.557909"
+  registered_at: "2026-05-21T20:13:54+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-x型y型决策习惯对比.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_x型y型决策习惯对比.md"
+  content_sha256: "04d826bb8de4ba20a59b7a661f19486149c2b72370ee2f1f630886540d81e17d"
+
+- id: "src_20260522_d96543bb"
+  title: "OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_d96543bb-ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md"
+  captured_at: "2026-05-22T04:13:08.563621"
+  registered_at: "2026-05-21T20:13:54+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_一堂双三角磨合追求_从入门到无限进步.md"
+  content_sha256: "2e19f6ac55077aadfc0b43ae9e31574a575e964b6e06ee87bffa8d5fda1c5ce6"
+
+- id: "src_20260522_33c40d41"
+  title: "OCR: 一堂-科学决策-人机协作决策"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_33c40d41-ocr-一堂-科学决策-人机协作决策.md"
+  captured_at: "2026-05-22T04:13:08.568988"
+  registered_at: "2026-05-21T20:13:54+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-人机协作决策.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_人机协作决策.md"
+  content_sha256: "02fa64a5933b48211aa0192d1442ec9819d38c8e268b99dab7d877d85e483b0a"
+
+- id: "src_20260522_3261e6bd"
+  title: "OCR: 一堂-科学决策-关键假设ABCD模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md"
+  captured_at: "2026-05-22T04:13:08.575136"
+  registered_at: "2026-05-21T20:13:54+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-关键假设abcd模型.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_关键假设abcd模型.md"
+  content_sha256: "bf4218887f8820a7f97142676fc237544bed22e8b1c800d59441ce3cc2d7fadf"
+
+- id: "src_20260522_ac7f8874"
+  title: "OCR: 一堂-科学决策-关键训练清单（重要））"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md"
+  captured_at: "2026-05-22T04:13:08.581840"
+  registered_at: "2026-05-21T20:13:54+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-关键训练清单重要.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_关键训练清单（重要））.md"
+  content_sha256: "3933597f85ae6900b1c45c0d7b294fa280c8461458af513c7d6d0003c286707d"
+
+- id: "src_20260522_f3429a35"
+  title: "OCR: 一堂-科学决策-决策三角形"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_f3429a35-ocr-一堂-科学决策-决策三角形.md"
+  captured_at: "2026-05-22T04:13:08.587731"
+  registered_at: "2026-05-21T20:13:54+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-决策三角形.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_决策三角形.md"
+  content_sha256: "322810770c0690c7589d3950ae23a67579e9a6e0a42c908e4a0970773d00bdaa"
+
+- id: "src_20260522_1a2ffc3e"
+  title: "OCR: 一堂-科学决策-发现决策"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_1a2ffc3e-ocr-一堂-科学决策-发现决策.md"
+  captured_at: "2026-05-22T04:13:08.594445"
+  registered_at: "2026-05-21T20:13:54+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-发现决策.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_发现决策.md"
+  content_sha256: "4e7733a4b9cff7cf66bb7af58b90047e0b10a8e4713b4944bcf3856fd69905fa"
+
+- id: "src_20260522_c59acefd"
+  title: "OCR: 一堂-科学决策-商业模式-完整财务公式决策"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_c59acefd-ocr-一堂-科学决策-商业模式-完整财务公式决策.md"
+  captured_at: "2026-05-22T04:13:08.599916"
+  registered_at: "2026-05-21T20:13:54+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-商业模式-完整财务公式决策.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_商业模式_完整财务公式决策.md"
+  content_sha256: "58c188b6d60e67d9aae76e5b4de8daba8f5a80ee1dc3378bb822bca06e8da356"
+
+- id: "src_20260522_45957066"
+  title: "OCR: 一堂-科学决策-宽度-个人"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_45957066-ocr-一堂-科学决策-宽度-个人.md"
+  captured_at: "2026-05-22T04:13:08.606058"
+  registered_at: "2026-05-21T20:13:54+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-宽度-个人.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_宽度_个人.md"
+  content_sha256: "0b5ad639148c0405dfdf0586de366187f38a75a3fe654ff0da3028c43f1b3cd4"
+
+- id: "src_20260522_b4ebba42"
+  title: "OCR: 一堂-科学决策-宽度-企业"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_b4ebba42-ocr-一堂-科学决策-宽度-企业.md"
+  captured_at: "2026-05-22T04:13:08.611651"
+  registered_at: "2026-05-21T20:13:54+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-宽度-企业.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_宽度_企业.md"
+  content_sha256: "7a1bb54ad63b3fa539f5ac8d3b6a1a146aa4d095e8fb26b12c1d187bb42da50b"
+
+- id: "src_20260522_97242832"
+  title: "OCR: 一堂-科学决策-宽度-团队"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_97242832-ocr-一堂-科学决策-宽度-团队.md"
+  captured_at: "2026-05-22T04:13:08.617158"
+  registered_at: "2026-05-21T20:13:54+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-宽度-团队.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_宽度_团队.md"
+  content_sha256: "75acb6d23b81fe849a4698a0db7b731e6c334039e38b078566a20e7e57ee93b3"
+
+- id: "src_20260522_22cb5729"
+  title: "OCR: 一堂-科学决策-深度-L1优先级定性"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_22cb5729-ocr-一堂-科学决策-深度-l1优先级定性.md"
+  captured_at: "2026-05-22T04:13:08.623301"
+  registered_at: "2026-05-21T20:13:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-深度-l1优先级定性.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_l1优先级定性.md"
+  content_sha256: "fe2e18c375c7b33d17b3007b79f9326eb933ca79ce646fb15c72c6e5981379ff"
+
+- id: "src_20260522_ad937c9c"
+  title: "OCR: 一堂-科学决策-深度-L2部分定量"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_ad937c9c-ocr-一堂-科学决策-深度-l2部分定量.md"
+  captured_at: "2026-05-22T04:13:08.629025"
+  registered_at: "2026-05-21T20:13:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-深度-l2部分定量.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_l2部分定量.md"
+  content_sha256: "64d51e83d435493fa50b84e9e1f7497e991cc6358b7370472bc4abd657a308bf"
+
+- id: "src_20260522_80e1b943"
+  title: "OCR: 一堂-科学决策-深度-L3定量公式"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_80e1b943-ocr-一堂-科学决策-深度-l3定量公式.md"
+  captured_at: "2026-05-22T04:13:08.635612"
+  registered_at: "2026-05-21T20:13:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-深度-l3定量公式.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_l3定量公式.md"
+  content_sha256: "bfee2e92a5fc332ddad30a98b4e105089d5c324ee31634823dc312f00c3c0ea7"
+
+- id: "src_20260522_5323822f"
+  title: "OCR: 一堂-科学决策-深度-L4-案例01"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_5323822f-ocr-一堂-科学决策-深度-l4-案例01.md"
+  captured_at: "2026-05-22T04:13:08.641751"
+  registered_at: "2026-05-21T20:13:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-深度-l4-案例01.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_l4_案例01.md"
+  content_sha256: "f934fd506e3893a14b4782a9b0bcf576b61c02e83c0be80faadc1c742c0abdb1"
+
+- id: "src_20260522_26271f58"
+  title: "OCR: 一堂-科学决策-深度-L4严格财务公式"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_26271f58-ocr-一堂-科学决策-深度-l4严格财务公式.md"
+  captured_at: "2026-05-22T04:13:08.648108"
+  registered_at: "2026-05-21T20:13:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-深度-l4严格财务公式.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_l4严格财务公式.md"
+  content_sha256: "9f93ec6414d58d9f2cfc9e9df4e7b47c02483b38144496e36790f8e3240c9ca5"
+
+- id: "src_20260522_3693c090"
+  title: "OCR: 一堂-科学决策-深度-你的业务是一次抽样实验"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_3693c090-ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md"
+  captured_at: "2026-05-22T04:13:08.654238"
+  registered_at: "2026-05-21T20:13:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_你的业务是一次抽样实验.md"
+  content_sha256: "773ebd566d5b0891def685d451aaa5ddf41fbb89cb676cb716bc09a1e5953da2"
+
+- id: "src_20260522_4f3415a1"
+  title: "OCR: 一堂-科学决策-深度-决策经验值"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md"
+  captured_at: "2026-05-22T04:13:08.660093"
+  registered_at: "2026-05-21T20:13:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-深度-决策经验值.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_决策经验值.md"
+  content_sha256: "bc2529d0811e066825af4652e8612a733f62af9e57474b06da41475f8f06f590"
+
+- id: "src_20260522_9b437f93"
+  title: "OCR: 一堂-科学决策-深度-案例01"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_9b437f93-ocr-一堂-科学决策-深度-案例01.md"
+  captured_at: "2026-05-22T04:13:08.666141"
+  registered_at: "2026-05-21T20:13:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-深度-案例01.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_案例01.md"
+  content_sha256: "d33c7a4c66090221e0f0c0c5739a89562c09134cfe909bd88f3e0998f56fc9bd"
+
+- id: "src_20260522_e60022cc"
+  title: "OCR: 一堂-科学决策-深度-案例02"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_e60022cc-ocr-一堂-科学决策-深度-案例02.md"
+  captured_at: "2026-05-22T04:13:08.671884"
+  registered_at: "2026-05-21T20:13:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-深度-案例02.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_案例02.md"
+  content_sha256: "314dc4eff8748b17d2d9cd554f77ced9558646a5419a02db4cdb8d481d5682b5"
+
+- id: "src_20260522_3782f983"
+  title: "OCR: 一堂-科学决策-深度-案例03"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_3782f983-ocr-一堂-科学决策-深度-案例03.md"
+  captured_at: "2026-05-22T04:13:08.677554"
+  registered_at: "2026-05-21T20:13:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-深度-案例03.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_案例03.md"
+  content_sha256: "d0b91827a3b1f7a3cc597d7e0f2a260faa38bd3acb1e258d566980d435994dae"
+
+- id: "src_20260522_b4a26e00"
+  title: "OCR: 一堂-科学决策-深度-案例04"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_b4a26e00-ocr-一堂-科学决策-深度-案例04.md"
+  captured_at: "2026-05-22T04:13:08.682692"
+  registered_at: "2026-05-21T20:13:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-深度-案例04.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_案例04.md"
+  content_sha256: "fcd12869b71be22b1b89ffd2723619f762642d8d9cefc6508b9aad0a0e9361d1"
+
+- id: "src_20260522_7344d957"
+  title: "OCR: 一堂-科学决策-深度-案例05"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_7344d957-ocr-一堂-科学决策-深度-案例05.md"
+  captured_at: "2026-05-22T04:13:08.688409"
+  registered_at: "2026-05-21T20:13:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-深度-案例05.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_案例05.md"
+  content_sha256: "05de77659764cbb400fb0ff433fccaa2af9ce43f0b05262670acc1de3372b98b"
+
+- id: "src_20260522_e70d298c"
+  title: "OCR: 一堂-科学决策-深度-案例06"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_e70d298c-ocr-一堂-科学决策-深度-案例06.md"
+  captured_at: "2026-05-22T04:13:08.695048"
+  registered_at: "2026-05-21T20:13:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-深度-案例06.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_案例06.md"
+  content_sha256: "accf8f6184dab2c39a60cdca86bb61cc5327a5e0b029af9afe11d034dec797c7"
+
+- id: "src_20260522_7fb2b9c1"
+  title: "OCR: 一堂-科学决策-稀缺机会窗口"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_7fb2b9c1-ocr-一堂-科学决策-稀缺机会窗口.md"
+  captured_at: "2026-05-22T04:13:08.701486"
+  registered_at: "2026-05-21T20:13:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-稀缺机会窗口.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_稀缺机会窗口.md"
+  content_sha256: "5dcf70dd8ead5116617d3df2aaa6f6f5c515aa51e7211cf7c8f1f569caaddd59"
+
+- id: "src_20260522_d067a6ba"
+  title: "OCR: 一堂-科学决策-稀缺资源清单"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_d067a6ba-ocr-一堂-科学决策-稀缺资源清单.md"
+  captured_at: "2026-05-22T04:13:08.706960"
+  registered_at: "2026-05-21T20:13:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-稀缺资源清单.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_稀缺资源清单.md"
+  content_sha256: "1852f52f6b151d1eb9f1986b1dddf966151e89dba5afbcdcdaf22ca7f37619c7"
+
+- id: "src_20260522_e31b26dd"
+  title: "OCR: 一堂-科学决策-项目方案评估三角形"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_e31b26dd-ocr-一堂-科学决策-项目方案评估三角形.md"
+  captured_at: "2026-05-22T04:13:08.712564"
+  registered_at: "2026-05-21T20:13:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-项目方案评估三角形.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_项目方案评估三角形.md"
+  content_sha256: "ed1bcd02740e7024ae36826600e277c2c3f04f9afe408e65e8541982d1585c88"
+
+- id: "src_20260522_23b5714d"
+  title: "OCR: 一堂-科学决策-高度-两种典型的思考习惯"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_23b5714d-ocr-一堂-科学决策-高度-两种典型的思考习惯.md"
+  captured_at: "2026-05-22T04:13:08.718196"
+  registered_at: "2026-05-21T20:13:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-高度-两种典型的思考习惯.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_高度_两种典型的思考习惯.md"
+  content_sha256: "1ced81ec26f588de278b13a3c18086fe5ff74a2ecb259547bccf78e1d9e9cb64"
+
+- id: "src_20260522_80eadfd8"
+  title: "OCR: 一堂-科学决策-高水平共识曲线（重要）"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_80eadfd8-ocr-一堂-科学决策-高水平共识曲线重要.md"
+  captured_at: "2026-05-22T04:13:08.724260"
+  registered_at: "2026-05-21T20:13:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-科学决策-高水平共识曲线重要.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_科学决策_高水平共识曲线（重要）.md"
+  content_sha256: "88237b4965ac90523e9f3f1fdae737663d1ac881b28b61e540a0b799eae2e9b1"
+
+- id: "src_20260522_4c9a911f"
+  title: "OCR: 一堂-管理必修-课程清单"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_4c9a911f-ocr-一堂-管理必修-课程清单.md"
+  captured_at: "2026-05-22T04:13:08.121528"
+  registered_at: "2026-05-21T20:13:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂-管理必修-课程清单.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂_管理必修_课程清单.md"
+  content_sha256: "477e6ce78c0b529e8f8badad1083103ff014d438d1a94c103e6adc33398f036c"
+
+- id: "src_20260522_32462c98"
+  title: "OCR: 一堂Y模型-科学成事道理"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_32462c98-ocr-一堂y模型-科学成事道理.md"
+  captured_at: "2026-05-22T04:13:08.125475"
+  registered_at: "2026-05-21T20:13:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂y模型-科学成事道理.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂y模型_科学成事道理.md"
+  content_sha256: "a9aafa588a5ade2baaaa0d9aa64b68629ba04b72bea3268c6ebb692064e63a31"
+
+- id: "src_20260522_0bb1cb6e"
+  title: "OCR: 一堂Y模型steps策略集"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_0bb1cb6e-ocr-一堂y模型steps策略集.md"
+  captured_at: "2026-05-22T04:13:08.129277"
+  registered_at: "2026-05-21T20:13:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂y模型steps策略集.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂y模型steps策略集.md"
+  content_sha256: "1961d5a765f3d4dd3ee189e1b5c74b82b4049fe9efcb856aae145acc8344abdc"
+
+- id: "src_20260522_53341e5a"
+  title: "OCR: 一堂Y模型实操工作流"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_53341e5a-ocr-一堂y模型实操工作流.md"
+  captured_at: "2026-05-22T04:13:08.133726"
+  registered_at: "2026-05-21T20:13:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂y模型实操工作流.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂y模型实操工作流.md"
+  content_sha256: "efeaaa94c7ee54807fdbaf671a2d39832d3f1573ad14fb5fdc1fd953d2614d9a"
+
+- id: "src_20260522_9cb1d9d6"
+  title: "OCR: 一堂个人地图：高潜力成长者修炼全景图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_9cb1d9d6-ocr-一堂个人地图高潜力成长者修炼全景图.md"
+  captured_at: "2026-05-22T04:13:08.138142"
+  registered_at: "2026-05-21T20:13:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂个人地图高潜力成长者修炼全景图.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂个人地图：高潜力成长者修炼全景图.md"
+  content_sha256: "e278fb9cc052eaaab49e691039294d6dbbb95f62a57ffc2c7550e96be0b5fbce"
+
+- id: "src_20260522_dc5c80df"
+  title: "OCR: 一堂五步法-产品内核画布"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_dc5c80df-ocr-一堂五步法-产品内核画布.md"
+  captured_at: "2026-05-22T04:13:08.143156"
+  registered_at: "2026-05-21T20:13:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂五步法-产品内核画布.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂五步法_产品内核画布.md"
+  content_sha256: "affaf537c72500ed0f08f548b60048d4b01a3620c286b503827db2e18aa27afe"
+
+- id: "src_20260522_2a547df5"
+  title: "OCR: 一堂五步法画布"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_2a547df5-ocr-一堂五步法画布.md"
+  captured_at: "2026-05-22T04:13:08.147747"
+  registered_at: "2026-05-21T20:13:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂五步法画布.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂五步法画布.md"
+  content_sha256: "406bb40f1dfdfea7a5d6be5e0374ca9d606a3ea3f34caab84d38fe4a5de8962b"
+
+- id: "src_20260522_32e4318a"
+  title: "OCR: 一堂产品内核-十大典型指标"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_32e4318a-ocr-一堂产品内核-十大典型指标.md"
+  captured_at: "2026-05-22T04:13:08.152024"
+  registered_at: "2026-05-21T20:13:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂产品内核-十大典型指标.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂产品内核_十大典型指标.md"
+  content_sha256: "1cb2a6b862c854572ccdc4d91e873a300b41356f5f6d7977328fcab6a5adc02d"
+
+- id: "src_20260522_e6cf558a"
+  title: "OCR: 一堂刻意练习十年成长指数"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数.md"
+  captured_at: "2026-05-22T04:13:08.156348"
+  registered_at: "2026-05-21T20:13:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂刻意练习十年成长指数.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂刻意练习十年成长指数.md"
+  content_sha256: "e8e2a2034ff7122dbad1111d5298f58ddca649b1a4ed8e9581945c4b4f03f9bd"
+
+- id: "src_20260522_77b6cdaf"
+  title: "OCR: 一堂提炼过的因果模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_77b6cdaf-ocr-一堂提炼过的因果模型.md"
+  captured_at: "2026-05-22T04:13:08.160329"
+  registered_at: "2026-05-21T20:13:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂提炼过的因果模型.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂提炼过的因果模型.md"
+  content_sha256: "2c7858917c6f31770d5756893322966dd13e1028d36409c69997548b61ad2181"
+
+- id: "src_20260522_9557e4cb"
+  title: "OCR: 一堂最佳转化率动力曲线图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_9557e4cb-ocr-一堂最佳转化率动力曲线图.md"
+  captured_at: "2026-05-22T04:13:08.165065"
+  registered_at: "2026-05-21T20:13:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂最佳转化率动力曲线图.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂最佳转化率动力曲线图.md"
+  content_sha256: "96160a6d2ee9a3a1816ef697e2e4f946775c0876c85161b6aac8d89f606aff76"
+
+- id: "src_20260522_7e8d10c4"
+  title: "OCR: 一堂泛产品设计36计-全套地图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_7e8d10c4-ocr-一堂泛产品设计36计-全套地图.md"
+  captured_at: "2026-05-22T04:13:08.180992"
+  registered_at: "2026-05-21T20:13:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂泛产品设计36计-全套地图.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂泛产品设计36计_全套地图.md"
+  content_sha256: "2d7ddc124a3fdb1ef6e50b4e24285d381e4570dfdbbe2509109e8b36f9461ea6"
+
+- id: "src_20260522_db09e70d"
+  title: "OCR: 一堂泛产品设计-十年修炼爬山地图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_db09e70d-ocr-一堂泛产品设计-十年修炼爬山地图.md"
+  captured_at: "2026-05-22T04:13:08.169564"
+  registered_at: "2026-05-21T20:13:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂泛产品设计-十年修炼爬山地图.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂泛产品设计_十年修炼爬山地图.md"
+  content_sha256: "4ee4844a195a1eea3c98e28939db50b364bfe96461d8f957609f0828cf10a55a"
+
+- id: "src_20260522_4754d8fd"
+  title: "OCR: 一堂泛产品设计-多出牌多练习"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_4754d8fd-ocr-一堂泛产品设计-多出牌多练习.md"
+  captured_at: "2026-05-22T04:13:08.174333"
+  registered_at: "2026-05-21T20:13:57+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂泛产品设计-多出牌多练习.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂泛产品设计_多出牌多练习.md"
+  content_sha256: "ddb83aad48fd3b68a08d0e1cec4915ae4a84fdb9a0db964cafdd57167b9dd5be"
+
+- id: "src_20260522_c92a36ba"
+  title: "OCR: 一堂深度复盘冰山图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_c92a36ba-ocr-一堂深度复盘冰山图.md"
+  captured_at: "2026-05-22T04:13:08.185642"
+  registered_at: "2026-05-21T20:13:57+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂深度复盘冰山图.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂深度复盘冰山图.md"
+  content_sha256: "e5998e2ec647c9c684fbdaec43f1471590830465507d8fff4dd88f52bff83fd0"
+
+- id: "src_20260522_037af20f"
+  title: "OCR: 一堂转化率-10大容易浪费的触点"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_037af20f-ocr-一堂转化率-10大容易浪费的触点.md"
+  captured_at: "2026-05-22T04:13:08.190843"
+  registered_at: "2026-05-21T20:13:57+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂转化率-10大容易浪费的触点.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂转化率_10大容易浪费的触点.md"
+  content_sha256: "ee35a1498d158641c5ba8ddfe86213d188088aa41ff5ea7fb1f563dd46c72232"
+
+- id: "src_20260522_d75f0a0d"
+  title: "OCR: 一堂进步大地图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_d75f0a0d-ocr-一堂进步大地图.md"
+  captured_at: "2026-05-22T04:13:08.200420"
+  registered_at: "2026-05-21T20:13:57+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂进步大地图.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂进步大地图.md"
+  content_sha256: "1e564ed67a491c0c8e4859cf7efd3d5c261b5d56d81a91b613d67f1d632c4738"
+
+- id: "src_20260522_2250865e"
+  title: "OCR: 一堂进步大地图_compressed"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_2250865e-ocr-一堂进步大地图_compressed.md"
+  captured_at: "2026-05-22T04:13:08.195914"
+  registered_at: "2026-05-21T20:13:57+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-一堂进步大地图_compressed.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_一堂进步大地图_compressed.md"
+  content_sha256: "0531f913a92ed73e6a3da40fb2740d272ff0142abfd98b3180e33eac37f20276"
+
+- id: "src_20260522_91948770"
+  title: "OCR: 优秀泛产品设计者的自我修养"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_91948770-ocr-优秀泛产品设计者的自我修养.md"
+  captured_at: "2026-05-22T04:13:08.205397"
+  registered_at: "2026-05-21T20:13:57+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-优秀泛产品设计者的自我修养.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_优秀泛产品设计者的自我修养.md"
+  content_sha256: "d2d196fc800030f3702260f25d2a2ab6db51fbeebe76778cd632c6c2b1d90c67"
+
+- id: "src_20260522_94ee2a08"
+  title: "OCR: 婚礼操盘-用户和场景"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_94ee2a08-ocr-婚礼操盘-用户和场景.md"
+  captured_at: "2026-05-22T04:13:08.209480"
+  registered_at: "2026-05-21T20:13:57+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-婚礼操盘-用户和场景.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_婚礼操盘_用户和场景.md"
+  content_sha256: "bfb28e04e7025d0074877bac3d211d0bbcd0ced73281f5fbbe67193f645c22d5"
+
+- id: "src_20260522_b29a6b98"
+  title: "OCR: 婚礼规划"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_b29a6b98-ocr-婚礼规划.md"
+  captured_at: "2026-05-22T04:13:08.213753"
+  registered_at: "2026-05-21T20:13:57+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-婚礼规划.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_婚礼规划.md"
+  content_sha256: "0a9d781f536c793f53fc7c6f10464494ee2175de28b754425bb47a44d4f46c36"
+
+- id: "src_20260522_7d2a79f8"
+  title: "OCR: 审美提升的层级"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_7d2a79f8-ocr-审美提升的层级.md"
+  captured_at: "2026-05-22T04:13:08.217644"
+  registered_at: "2026-05-21T20:13:57+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-审美提升的层级.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_审美提升的层级.md"
+  content_sha256: "253f2e21c7bcdecc0e7befa3fc79c0b8bfe7ec2069d7873fefe8e235e654af97"
+
+- id: "src_20260522_dd3806c5"
+  title: "OCR: 微信图片_20260507004746_32_32"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_dd3806c5-ocr-微信图片_20260507004746_32_32.md"
+  captured_at: "2026-05-22T04:13:08.223416"
+  registered_at: "2026-05-21T20:13:57+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-微信图片_20260507004746_32_32.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_微信图片_20260507004746_32_32.md"
+  content_sha256: "04dcd7214723ca2e09ff20243788ca6a1916ec8423dc9c036e96fd90b83a5f11"
+
+- id: "src_20260522_d38bb08e"
+  title: "OCR: 微信图片_20260507004751_33_32"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_d38bb08e-ocr-微信图片_20260507004751_33_32.md"
+  captured_at: "2026-05-22T04:13:08.228505"
+  registered_at: "2026-05-21T20:13:57+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-微信图片_20260507004751_33_32.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_微信图片_20260507004751_33_32.md"
+  content_sha256: "db6e0e1c4706e4bbf327efb367620075e47e6586d59c1e7f3b35273b3a319341"
+
+- id: "src_20260522_0f690cad"
+  title: "OCR: 微信图片_20260507004755_34_32"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_0f690cad-ocr-微信图片_20260507004755_34_32.md"
+  captured_at: "2026-05-22T04:13:08.233267"
+  registered_at: "2026-05-21T20:13:57+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-微信图片_20260507004755_34_32.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_微信图片_20260507004755_34_32.md"
+  content_sha256: "b3bab7c7542f3e4955880830037516b641f19e0c744534581d042b42519cce82"
+
+- id: "src_20260522_c28367b2"
+  title: "OCR: 微信图片_20260507004758_35_32"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_c28367b2-ocr-微信图片_20260507004758_35_32.md"
+  captured_at: "2026-05-22T04:13:08.238701"
+  registered_at: "2026-05-21T20:13:57+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-微信图片_20260507004758_35_32.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_微信图片_20260507004758_35_32.md"
+  content_sha256: "857673ee65222fdee169e599518dfaa2b6fbdface1ec465148ccca22bde6d244"
+
+- id: "src_20260522_05b4de3c"
+  title: "OCR: 微信图片_20260507004801_37_32"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_05b4de3c-ocr-微信图片_20260507004801_37_32.md"
+  captured_at: "2026-05-22T04:13:08.243435"
+  registered_at: "2026-05-21T20:13:57+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-微信图片_20260507004801_37_32.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_微信图片_20260507004801_37_32.md"
+  content_sha256: "e0b609ca58f5d6cabe802e1477d2b72bb19b372bb00ce390b26fe84f36c8fc76"
+
+- id: "src_20260522_f0ec18a8"
+  title: "OCR: 微信图片_20260507004802_38_32"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_f0ec18a8-ocr-微信图片_20260507004802_38_32.md"
+  captured_at: "2026-05-22T04:13:08.248289"
+  registered_at: "2026-05-21T20:13:57+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-微信图片_20260507004802_38_32.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_微信图片_20260507004802_38_32.md"
+  content_sha256: "18bc8c4a19e08fa8e6ad38f2b8b2db8d0d80a3b8a0778dc348d88b33f1d8c56b"
+
+- id: "src_20260522_d694dfc8"
+  title: "OCR: 微信图片_20260507004804_39_32"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_d694dfc8-ocr-微信图片_20260507004804_39_32.md"
+  captured_at: "2026-05-22T04:13:08.253389"
+  registered_at: "2026-05-21T20:13:58+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-微信图片_20260507004804_39_32.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_微信图片_20260507004804_39_32.md"
+  content_sha256: "a60a71a26a2ede3a2010ed6de3d0d01239b641d0e289da9cabe9319700e8c048"
+
+- id: "src_20260522_db85a8da"
+  title: "OCR: 微信图片_20260507004806_40_32"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_db85a8da-ocr-微信图片_20260507004806_40_32.md"
+  captured_at: "2026-05-22T04:13:08.257970"
+  registered_at: "2026-05-21T20:13:58+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-微信图片_20260507004806_40_32.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_微信图片_20260507004806_40_32.md"
+  content_sha256: "a605ee247b0abd78534ae02e41d05f551b7f8fa1728cb1dac17598f396e5c26a"
+
+- id: "src_20260522_b64b7124"
+  title: "OCR: 微信图片_20260507004811_41_32"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_b64b7124-ocr-微信图片_20260507004811_41_32.md"
+  captured_at: "2026-05-22T04:13:08.263154"
+  registered_at: "2026-05-21T20:13:58+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-微信图片_20260507004811_41_32.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_微信图片_20260507004811_41_32.md"
+  content_sha256: "1f2dfd1d17423efa2e00faa94a15f5adccf30e33d153321f750dd91d8ecb5270"
+
+- id: "src_20260522_89529426"
+  title: "OCR: 泛产品设计-审美卡片-最佳实践建模"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_89529426-ocr-泛产品设计-审美卡片-最佳实践建模.md"
+  captured_at: "2026-05-22T04:13:08.267622"
+  registered_at: "2026-05-21T20:13:58+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-审美卡片-最佳实践建模.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_审美卡片_最佳实践建模.md"
+  content_sha256: "8c41f37582970e0462b7371c9eb2441d3b99ba11f2a60a6b5bbb6f6319b9253e"
+
+- id: "src_20260522_6373b1b1"
+  title: "OCR: 泛产品设计-审美卡片-最佳实践收集"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_6373b1b1-ocr-泛产品设计-审美卡片-最佳实践收集.md"
+  captured_at: "2026-05-22T04:13:08.271765"
+  registered_at: "2026-05-21T20:13:58+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-审美卡片-最佳实践收集.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_审美卡片_最佳实践收集.md"
+  content_sha256: "bd74f9eb86aa60a45e757c29c26612efd027973fbcfcef658e84b5a4d5f24f65"
+
+- id: "src_20260522_6a8b5755"
+  title: "OCR: 泛产品设计-审美卡片-最佳实践池子"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_6a8b5755-ocr-泛产品设计-审美卡片-最佳实践池子.md"
+  captured_at: "2026-05-22T04:13:08.275536"
+  registered_at: "2026-05-21T20:13:58+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-审美卡片-最佳实践池子.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_审美卡片_最佳实践池子.md"
+  content_sha256: "f4f3e85f258880d1a10cd237dad0c3d1ef7e060c60337aa28369ad144b59e467"
+
+- id: "src_20260522_6697adcb"
+  title: "OCR: 泛产品设计-审美卡片-美好作品想象"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_6697adcb-ocr-泛产品设计-审美卡片-美好作品想象.md"
+  captured_at: "2026-05-22T04:13:08.280427"
+  registered_at: "2026-05-21T20:13:58+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-审美卡片-美好作品想象.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_审美卡片_美好作品想象.md"
+  content_sha256: "6a4a63aa2f1bbff11038eba10c8f651f3388f97b5cd52f5ab3d09eed3eac376c"
+
+- id: "src_20260522_65a78106"
+  title: "OCR: 泛产品设计-审美工具箱指南"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_65a78106-ocr-泛产品设计-审美工具箱指南.md"
+  captured_at: "2026-05-22T04:13:08.284386"
+  registered_at: "2026-05-21T20:13:58+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-审美工具箱指南.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_审美工具箱指南.md"
+  content_sha256: "f88538aa79ce6dcd4a51ea376c9335ebbaf668dc4909e232b5cf2bcaecf2e0f8"
+
+- id: "src_20260522_a632cc1c"
+  title: "OCR: 泛产品设计-用户卡片-一堂五步法"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_a632cc1c-ocr-泛产品设计-用户卡片-一堂五步法.md"
+  captured_at: "2026-05-22T04:13:08.288871"
+  registered_at: "2026-05-21T20:13:58+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-用户卡片-一堂五步法.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_一堂五步法.md"
+  content_sha256: "e8a98b9ca09afab52c38cad23d75bb52daa61faa2e911581ecde599f5b412334"
+
+- id: "src_20260522_1ec27760"
+  title: "OCR: 泛产品设计-用户卡片-动力阻力"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_1ec27760-ocr-泛产品设计-用户卡片-动力阻力.md"
+  captured_at: "2026-05-22T04:13:08.292788"
+  registered_at: "2026-05-21T20:13:58+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-用户卡片-动力阻力.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_动力阻力.md"
+  content_sha256: "dbccc4c17e1087e801200819303ce1a0365b0ba0ea12f53ff3e4e041be2964bc"
+
+- id: "src_20260522_3bc67cbd"
+  title: "OCR: 泛产品设计-用户卡片-场景推演"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_3bc67cbd-ocr-泛产品设计-用户卡片-场景推演.md"
+  captured_at: "2026-05-22T04:13:08.297230"
+  registered_at: "2026-05-21T20:13:58+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-用户卡片-场景推演.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_场景推演.md"
+  content_sha256: "79f04b698f45dc157141f79a865264e8a0eb2b4aa7639dfa44d5e9f58666acdf"
+
+- id: "src_20260522_f6cf4e83"
+  title: "OCR: 泛产品设计-用户卡片-多视角思考"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_f6cf4e83-ocr-泛产品设计-用户卡片-多视角思考.md"
+  captured_at: "2026-05-22T04:13:08.302336"
+  registered_at: "2026-05-21T20:13:58+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-用户卡片-多视角思考.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_多视角思考.md"
+  content_sha256: "eba8a7de0bc5dac232f6e1e0031f1bebd99bd2649f407e7d292743f7abb78801"
+
+- id: "src_20260522_041b5a94"
+  title: "OCR: 泛产品设计-用户卡片-峰终定律"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_041b5a94-ocr-泛产品设计-用户卡片-峰终定律.md"
+  captured_at: "2026-05-22T04:13:08.306861"
+  registered_at: "2026-05-21T20:13:58+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-用户卡片-峰终定律.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_峰终定律.md"
+  content_sha256: "1264c65d487e62f6ac2acdb947285d8ea7195eb94a576d459d34d976151079a9"
+
+- id: "src_20260522_622b8a41"
+  title: "OCR: 泛产品设计-用户卡片-惊喜公式"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_622b8a41-ocr-泛产品设计-用户卡片-惊喜公式.md"
+  captured_at: "2026-05-22T04:13:08.312064"
+  registered_at: "2026-05-21T20:13:58+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-用户卡片-惊喜公式.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_惊喜公式.md"
+  content_sha256: "2b0713936fc7236f442d798af56284a8c07a2e82f9c7ce35d0deb849547bfd2c"
+
+- id: "src_20260522_38ddd826"
+  title: "OCR: 泛产品设计-用户卡片-用户分层"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_38ddd826-ocr-泛产品设计-用户卡片-用户分层.md"
+  captured_at: "2026-05-22T04:13:08.316236"
+  registered_at: "2026-05-21T20:13:59+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-用户卡片-用户分层.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_用户分层.md"
+  content_sha256: "dc2ac899f27268859df8d58d99f0e00c281decfaf5df0d250ea4151f51a7e9da"
+
+- id: "src_20260522_11d721ac"
+  title: "OCR: 泛产品设计-用户卡片-用户视角"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_11d721ac-ocr-泛产品设计-用户卡片-用户视角.md"
+  captured_at: "2026-05-22T04:13:08.320369"
+  registered_at: "2026-05-21T20:13:59+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-用户卡片-用户视角.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_用户视角.md"
+  content_sha256: "8699d7cc6fa745c709e24affd1e41a5b0718fa274b7adbc535c430dd7e80463b"
+
+- id: "src_20260522_78d5f0a4"
+  title: "OCR: 泛产品设计-用户卡片-行业分析画布"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_78d5f0a4-ocr-泛产品设计-用户卡片-行业分析画布.md"
+  captured_at: "2026-05-22T04:13:08.324515"
+  registered_at: "2026-05-21T20:13:59+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-用户卡片-行业分析画布.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_行业分析画布.md"
+  content_sha256: "88ff475d0fc40f47490b080c3cf7787cdf2a9a4744a1cb7843ebde1c91efa9ef"
+
+- id: "src_20260522_11af6cd2"
+  title: "OCR: 泛产品设计-用户卡片-需求挖掘"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘.md"
+  captured_at: "2026-05-22T04:13:08.329865"
+  registered_at: "2026-05-21T20:13:59+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-用户卡片-需求挖掘.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_需求挖掘.md"
+  content_sha256: "4903058052be6692604fd8e648296f9bdb0e5f728fb7717df01590f0bbb6d0df"
+
+- id: "src_20260522_115e8827"
+  title: "OCR: 泛产品设计-用户卡片-项目背景分析"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_115e8827-ocr-泛产品设计-用户卡片-项目背景分析.md"
+  captured_at: "2026-05-22T04:13:08.334765"
+  registered_at: "2026-05-21T20:13:59+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-用户卡片-项目背景分析.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_项目背景分析.md"
+  content_sha256: "30f69797a906f6aa7fb1dcdc6170873e61499850e4d177c2507a68d632297947"
+
+- id: "src_20260522_1b5af0b6"
+  title: "OCR: 泛产品设计-落地卡片-ROI分析"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_1b5af0b6-ocr-泛产品设计-落地卡片-roi分析.md"
+  captured_at: "2026-05-22T04:13:08.338822"
+  registered_at: "2026-05-21T20:13:59+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-roi分析.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_roi分析.md"
+  content_sha256: "8392c7489ac2b59c30b14436333145a7a0b3b882150ec2fa4edb95ae423fb57e"
+
+- id: "src_20260522_f5a0f2e1"
+  title: "OCR: 泛产品设计-落地卡片-业务建模"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_f5a0f2e1-ocr-泛产品设计-落地卡片-业务建模.md"
+  captured_at: "2026-05-22T04:13:08.343202"
+  registered_at: "2026-05-21T20:13:59+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-业务建模.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_业务建模.md"
+  content_sha256: "41dbdde2d5e67507c15ae6382c355e9092dedc693f1a067556822179f360e688"
+
+- id: "src_20260522_4d086230"
+  title: "OCR: 泛产品设计-落地卡片-低成本测试MVP"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_4d086230-ocr-泛产品设计-落地卡片-低成本测试mvp.md"
+  captured_at: "2026-05-22T04:13:08.347745"
+  registered_at: "2026-05-21T20:13:59+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-低成本测试mvp.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_低成本测试mvp.md"
+  content_sha256: "4d34f0a57d478ddb911c3cf812dabe9f25a3e26e7c990b52ae92b9bfa8190073"
+
+- id: "src_20260522_eb90d179"
+  title: "OCR: 泛产品设计-落地卡片-假设拆解"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_eb90d179-ocr-泛产品设计-落地卡片-假设拆解.md"
+  captured_at: "2026-05-22T04:13:08.351960"
+  registered_at: "2026-05-21T20:13:59+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-假设拆解.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_假设拆解.md"
+  content_sha256: "aaae782c2ac47f0c18d1f852fd76fb9123af64df8976b6bdb4b67c782c4ef214"
+
+- id: "src_20260522_f3072399"
+  title: "OCR: 泛产品设计-落地卡片-内核和边界"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_f3072399-ocr-泛产品设计-落地卡片-内核和边界.md"
+  captured_at: "2026-05-22T04:13:08.355861"
+  registered_at: "2026-05-21T20:13:59+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-内核和边界.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_内核和边界.md"
+  content_sha256: "b10ff3df3b1cf570162884c5ede770c001c5cd64678584fff506dc474634ebef"
+
+- id: "src_20260522_bab48c61"
+  title: "OCR: 泛产品设计-落地卡片-努力仿真"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_bab48c61-ocr-泛产品设计-落地卡片-努力仿真.md"
+  captured_at: "2026-05-22T04:13:08.360687"
+  registered_at: "2026-05-21T20:13:59+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-努力仿真.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_努力仿真.md"
+  content_sha256: "b8c6ae8600a16fb2bb57059143789c636992a2b37b982a7d39ec8a750961e524"
+
+- id: "src_20260522_5bd37e0d"
+  title: "OCR: 泛产品设计-落地卡片-十倍速验证"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_5bd37e0d-ocr-泛产品设计-落地卡片-十倍速验证.md"
+  captured_at: "2026-05-22T04:13:08.364961"
+  registered_at: "2026-05-21T20:13:59+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-十倍速验证.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_十倍速验证.md"
+  content_sha256: "bcbe3ef3dd14f57f6397e734541c7953bbe41a547d3b431622f9d9d29371c366"
+
+- id: "src_20260522_7ddf8bf2"
+  title: "OCR: 泛产品设计-落地卡片-善用佳软"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_7ddf8bf2-ocr-泛产品设计-落地卡片-善用佳软.md"
+  captured_at: "2026-05-22T04:13:08.369413"
+  registered_at: "2026-05-21T20:13:59+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-善用佳软.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_善用佳软.md"
+  content_sha256: "ac8819f9c26f2591df97cab9698e25a9103cf133af4e7fe94a122e5ea36fb5fe"
+
+- id: "src_20260522_3b5c417d"
+  title: "OCR: 泛产品设计-落地卡片-复盘迭代"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_3b5c417d-ocr-泛产品设计-落地卡片-复盘迭代.md"
+  captured_at: "2026-05-22T04:13:08.373792"
+  registered_at: "2026-05-21T20:13:59+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-复盘迭代.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_复盘迭代.md"
+  content_sha256: "48bc869389a76fb415db4cb92d214730c3adacc247d217bcfb70f7ec3a0709ad"
+
+- id: "src_20260522_cbb3b77d"
+  title: "OCR: 泛产品设计-落地卡片-攻坚会"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_cbb3b77d-ocr-泛产品设计-落地卡片-攻坚会.md"
+  captured_at: "2026-05-22T04:13:08.379049"
+  registered_at: "2026-05-21T20:13:59+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-攻坚会.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_攻坚会.md"
+  content_sha256: "2470660b7e3626bca3577caf799129aabc2dfcf780aa0d471ad0e14b2841955b"
+
+- id: "src_20260522_e861d61d"
+  title: "OCR: 泛产品设计-落地卡片-灵感闪现"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现.md"
+  captured_at: "2026-05-22T04:13:08.384419"
+  registered_at: "2026-05-21T20:14:00+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-灵感闪现.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_灵感闪现.md"
+  content_sha256: "f068b8f3fe55ea71151d19d58ac319b06550fd7fef5ea3d51b9bae02ccde8f48"
+
+- id: "src_20260522_8d5cc8b0"
+  title: "OCR: 泛产品设计-落地卡片-管理三段论"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_8d5cc8b0-ocr-泛产品设计-落地卡片-管理三段论.md"
+  captured_at: "2026-05-22T04:13:08.388632"
+  registered_at: "2026-05-21T20:14:00+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-管理三段论.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_管理三段论.md"
+  content_sha256: "c63d10cb8eab2702614babc8d668ec2640badd602db6351de1cb47d1cced5e26"
+
+- id: "src_20260522_c2c6b487"
+  title: "OCR: 泛产品设计-落地卡片-解放思想"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_c2c6b487-ocr-泛产品设计-落地卡片-解放思想.md"
+  captured_at: "2026-05-22T04:13:08.393323"
+  registered_at: "2026-05-21T20:14:00+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-解放思想.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_解放思想.md"
+  content_sha256: "07a4e70380b1c344f627d2e38b0b3d0ce3f1b9b74a3d1e084fae09550a726d49"
+
+- id: "src_20260522_9eaf7399"
+  title: "OCR: 泛产品设计-落地卡片-设计原则"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_9eaf7399-ocr-泛产品设计-落地卡片-设计原则.md"
+  captured_at: "2026-05-22T04:13:08.397146"
+  registered_at: "2026-05-21T20:14:00+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-设计原则.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_设计原则.md"
+  content_sha256: "21111239fd2719e8db82098d1c8e2958c4418ffd0f1efed29ecde12761f6cde8"
+
+- id: "src_20260522_8d990f3c"
+  title: "OCR: 泛产品设计-落地卡片-逻辑MECE"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_8d990f3c-ocr-泛产品设计-落地卡片-逻辑mece.md"
+  captured_at: "2026-05-22T04:13:08.401185"
+  registered_at: "2026-05-21T20:14:00+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-逻辑mece.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_逻辑mece.md"
+  content_sha256: "f0b114ffc4a8415316f18596f0303c185f48bbd7aa72345a3a61a4dc441ee854"
+
+- id: "src_20260522_2bcc3531"
+  title: "OCR: 泛产品设计-落地卡片-酝酿式打磨"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_2bcc3531-ocr-泛产品设计-落地卡片-酝酿式打磨.md"
+  captured_at: "2026-05-22T04:13:08.405324"
+  registered_at: "2026-05-21T20:14:00+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-酝酿式打磨.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_酝酿式打磨.md"
+  content_sha256: "73f5d50b5f4c53178f96a5bf7e6baa50509e465e3be6f1719b65458e7382beb4"
+
+- id: "src_20260522_4be84945"
+  title: "OCR: 泛产品设计-落地卡片-里程碑拆解"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解.md"
+  captured_at: "2026-05-22T04:13:08.409478"
+  registered_at: "2026-05-21T20:14:00+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-里程碑拆解.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_里程碑拆解.md"
+  content_sha256: "b921d5535600afee2f37a1d4f54634da361438bcc4c0655cf491933d5b5dff7e"
+
+- id: "src_20260522_3dd58dff"
+  title: "OCR: 泛产品设计-落地卡片-风险管理"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_3dd58dff-ocr-泛产品设计-落地卡片-风险管理.md"
+  captured_at: "2026-05-22T04:13:08.413271"
+  registered_at: "2026-05-21T20:14:00+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-落地卡片-风险管理.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_风险管理.md"
+  content_sha256: "2edccab688c47c348a01de74bf357b2accee7ee2dc251e444804ef921a08597a"
+
+- id: "src_20260522_726a6a3b"
+  title: "OCR: 泛产品设计-需求工具箱指南"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_726a6a3b-ocr-泛产品设计-需求工具箱指南.md"
+  captured_at: "2026-05-22T04:13:08.417689"
+  registered_at: "2026-05-21T20:14:00+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计-需求工具箱指南.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计_需求工具箱指南.md"
+  content_sha256: "1302d5b4592146f4c11d9da10d8a1c986f79c6bed9e97cad03dd690eebb53aab"
+
+- id: "src_20260522_e985ecdb"
+  title: "OCR: 泛产品设计的应用场景示意图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_e985ecdb-ocr-泛产品设计的应用场景示意图.md"
+  captured_at: "2026-05-22T04:13:08.421339"
+  registered_at: "2026-05-21T20:14:00+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计的应用场景示意图.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计的应用场景示意图.md"
+  content_sha256: "fb7f8e1b8600546a6c4090736b0f0068209f3770d8d6250efb63d82fbe2432fa"
+
+- id: "src_20260522_2a53b1eb"
+  title: "OCR: 泛产品设计者的三大自我修养"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_2a53b1eb-ocr-泛产品设计者的三大自我修养.md"
+  captured_at: "2026-05-22T04:13:08.425465"
+  registered_at: "2026-05-21T20:14:00+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计者的三大自我修养.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计者的三大自我修养.md"
+  content_sha256: "ff3a82bd0cf9b3e0cc37a37992a8e1dc0c93a992cb1be9629729d8a3917e66b7"
+
+- id: "src_20260522_8995f40a"
+  title: "OCR: 泛产品设计者的自我修养"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_8995f40a-ocr-泛产品设计者的自我修养.md"
+  captured_at: "2026-05-22T04:13:08.429270"
+  registered_at: "2026-05-21T20:14:00+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计者的自我修养.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计者的自我修养.md"
+  content_sha256: "bc02e591baa5f45b40f2aaff397ea06750f58acefb33da7e3093ef0a0c213ca2"
+
+- id: "src_20260522_8bdb2970"
+  title: "OCR: 泛产品设计落地工具篇指南"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_8bdb2970-ocr-泛产品设计落地工具篇指南.md"
+  captured_at: "2026-05-22T04:13:08.434179"
+  registered_at: "2026-05-21T20:14:00+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计落地工具篇指南.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计落地工具篇指南.md"
+  content_sha256: "ac50979aba0ae7f6664e6df1745e0f78a78806da857ece4d7c6feeb1b304d5fa"
+
+- id: "src_20260522_e4b635ac"
+  title: "OCR: 泛产品设计落地篇"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_e4b635ac-ocr-泛产品设计落地篇.md"
+  captured_at: "2026-05-22T04:13:08.438871"
+  registered_at: "2026-05-21T20:14:00+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-泛产品设计落地篇.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_泛产品设计落地篇.md"
+  content_sha256: "cb463d69349a6f20ab0d38ae0b95875c6e08dc85de2227badadaa13038b82393"
+
+- id: "src_20260522_4310e409"
+  title: "OCR: 萃取总结"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_4310e409-ocr-萃取总结.md"
+  captured_at: "2026-05-22T04:13:08.443818"
+  registered_at: "2026-05-21T20:14:01+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-萃取总结.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_萃取总结.md"
+  content_sha256: "456db78ef5320b3e233a1d69e634b46e1fa8f97bf1cf9a065bd461dc8bd8a08b"
+
+- id: "src_20260522_ea933690"
+  title: "OCR: 顶级产品追求的方向-乔布斯"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯.md"
+  captured_at: "2026-05-22T04:13:08.448205"
+  registered_at: "2026-05-21T20:14:01+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-顶级产品追求的方向-乔布斯.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_顶级产品追求的方向_乔布斯.md"
+  content_sha256: "10c17f7954bb0d53ccdae510314c0c4cfd8a656a9083035d6ca7141cda931db7"
+
+- id: "src_20260522_4af61500"
+  title: "OCR: 项目背景问题思考的8个维度"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_4af61500-ocr-项目背景问题思考的8个维度.md"
+  captured_at: "2026-05-22T04:13:08.452459"
+  registered_at: "2026-05-21T20:14:01+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-项目背景问题思考的8个维度.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_项目背景问题思考的8个维度.md"
+  content_sha256: "4d924c3770502f230e5955ec6fdbaa548679ae60058161d6913518b2a1636008"
+
+- id: "src_20260522_e71d89ff"
+  title: "OCR: 预判模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260522_e71d89ff-ocr-预判模型.md"
+  captured_at: "2026-05-22T04:13:08.457451"
+  registered_at: "2026-05-21T20:14:01+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: ["30_wiki/concepts/ocr-预判模型.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ocr_ingest/src_ocr_预判模型.md"
+  content_sha256: "1091b6463489c9a1165c0e690f8356d406b7cea1d68f105696946889b48afcc0"
+
+- id: "src_20260522_9d98d526"
+  title: "Business Analysis"
+  type: "other"
+  location: "10_raw/sources/src_20260522_9d98d526-business-analysis.md"
+  captured_at: "2026-05-21T20:14:01+00:00"
+  registered_at: "2026-05-21T20:14:01+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/business-analysis.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/prompts/business-analysis.md"
+  content_sha256: "563e726b6159e2af8ea344e81d76fbeebd950912b5a346ce7bfc25e57fd47c29"
+
+- id: "src_20260522_0af1f6dd"
+  title: "Learning Thinking"
+  type: "other"
+  location: "10_raw/sources/src_20260522_0af1f6dd-learning-thinking.md"
+  captured_at: "2026-05-21T20:14:01+00:00"
+  registered_at: "2026-05-21T20:14:01+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/learning-thinking.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/prompts/learning-thinking.md"
+  content_sha256: "6f8956ba379b3ff295f0a5f87d924b2a061a4cde100534211a35ea5b23d81fe3"
+
+- id: "src_20260522_a89ab860"
+  title: "Meta Prompt Eng"
+  type: "other"
+  location: "10_raw/sources/src_20260522_a89ab860-meta-prompt-eng.md"
+  captured_at: "2026-05-21T20:14:01+00:00"
+  registered_at: "2026-05-21T20:14:01+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/meta-prompt-eng.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/prompts/meta-prompt-eng.md"
+  content_sha256: "356071624d1162202ad0bed9cc307099fa6a8589919aca623f47d746feb7a236"
+
+- id: "src_20260522_404f58a2"
+  title: "Product Ux"
+  type: "other"
+  location: "10_raw/sources/src_20260522_404f58a2-product-ux.md"
+  captured_at: "2026-05-21T20:14:01+00:00"
+  registered_at: "2026-05-21T20:14:01+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/product-ux.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/prompts/product-ux.md"
+  content_sha256: "02c9ae6e5fb68630872daa7ed5edd428abe83e765daf51e0e2ac42dce41d2543"
+
+- id: "src_20260522_9d322e81"
+  title: "Tools Workflows"
+  type: "other"
+  location: "10_raw/sources/src_20260522_9d322e81-tools-workflows.md"
+  captured_at: "2026-05-21T20:14:01+00:00"
+  registered_at: "2026-05-21T20:14:01+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/tools-workflows.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/prompts/tools-workflows.md"
+  content_sha256: "ed1752bc469aef746ec16f430ed761f982f11a92bc67c9703f1c38aa0f1628ca"
+
+- id: "src_20260522_5819659f"
+  title: "Writing Content"
+  type: "other"
+  location: "10_raw/sources/src_20260522_5819659f-writing-content.md"
+  captured_at: "2026-05-21T20:14:01+00:00"
+  registered_at: "2026-05-21T20:14:01+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/writing-content.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/prompts/writing-content.md"
+  content_sha256: "efbf5f5f0f94e166f5fb7654f7b1a44378751c49abab1c05e5425725b81797b3"
+
+- id: "src_20260522_1ede9202"
+  title: "视觉Prompt三层操作系统 (SROM Visual OS)"
+  type: "other"
+  location: "10_raw/sources/src_20260522_1ede9202-视觉prompt三层操作系统-srom-visual-os.md"
+  captured_at: "2026-05-21T20:14:01+00:00"
+  registered_at: "2026-05-21T20:14:01+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/视觉prompt三层操作系统-srom-visual-os.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/visual-prompt-system_SKILL.md"
+  content_sha256: "b79673e5a1c4e9994457a7f696e932ac1b2c2306430ea4ff3463346257fdfa8f"
+
+- id: "src_20260522_42622b63"
+  title: "存储策略"
+  type: "other"
+  location: "10_raw/sources/src_20260522_42622b63-存储策略.md"
+  captured_at: "2026-05-21T20:14:01+00:00"
+  registered_at: "2026-05-21T20:14:01+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/存储策略.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/water-sense/.water-sense-config.md"
+  content_sha256: "7d440f7bd11f7301140bc1ede34a7ad8eb194a82a1f183406bfd4d9ca6768905"
+
+- id: "src_20260522_390d75a8"
+  title: "2026-05-17 深夜感想"
+  type: "voice-thought"
+  location: "10_raw/sources/src_20260522_390d75a8-2026-05-17-深夜感想.md"
+  captured_at: "2026-05-17T20:35:00+08:00"
+  registered_at: "2026-05-21T20:14:01+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/2026-05-17-深夜感想.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/water-sense/2026-05-17.md"
+  content_sha256: "24d608294390e34dcd6ce247947253f52389556abf2422968ce32458d7fd4ed2"
+
+- id: "src_20260522_d3a621b8"
+  title: "老朱的水感 — 2026年5月"
+  type: "other"
+  location: "10_raw/sources/src_20260522_d3a621b8-老朱的水感-2026年5月.md"
+  captured_at: "2026-05-21T20:14:01+00:00"
+  registered_at: "2026-05-21T20:14:01+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/老朱的水感-2026年5月.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/water-sense/2026-05.md"
+  content_sha256: "806199b501141bc3af5cbce5a6cd019b8bc766d64c9538fdc4c638ab2ee7ebe4"

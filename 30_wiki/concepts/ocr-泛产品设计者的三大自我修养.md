@@ -1,0 +1,34 @@
+---
+title: "OCR: 泛产品设计者的三大自我修养"
+type: "concept"
+status: "draft"
+source_refs: ["src_20260522_2a53b1eb"]
+created_at: "2026-05-21T20:14:00+00:00"
+updated_at: "2026-05-21T20:14:00+00:00"
+---
+
+# OCR: 泛产品设计者的三大自我修养
+
+## Summary
+
+原图: `00_inbox/泛产品设计者的三大自我修养.
+
+png` 一堂·泛产品设计看的三大自我修养 堂 Yitang·TheWayofGeneralProductDesigner 审美工具箱 最佳实践 永远以"最佳实践"为追求 练审美 个 个 GAP 进步空间 持续打磨 落地工具箱 练酝酿 永远以"无限进步"为迭代 理解用户 需求工具箱 永远以"用户价值"为中心 练洞察 粗糙 入门 进阶 美好 凑合 提升 专业 作品 用10年的心态练些真本事，打造出我们心中的"美好作品" 一堂・坚持只做必修课 扫码辛苦学3天，不扫弯路走3年 - 本文件由 PaddleOCR ONNX pipeline 自动提取 - 可能存在连字/误识，需要人工校对 - 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+
+## Source Refs
+
+- `src_20260522_2a53b1eb` -> `10_raw/sources/src_20260522_2a53b1eb-ocr-泛产品设计者的三大自我修养.md`
+
+## Reusable Knowledge
+
+- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+
+## Open Questions
+
+- TODO: What open questions does this source raise?
+
+## Output Opportunities
+
+- Content:
+- Code:
+- Capability: workflow or playbook

@@ -1140,3 +1140,315 @@ Chronological record of knowledge operations.
   - 一堂-科学决策-ROI决策评估画布.png
   - 一堂-科学决策-深度-L3定量公式.png
 
+
+- 2026-05-21T20:13:51+00:00 - Ingested `src_20260522_642ab512` from 00_inbox/design/cleaned/AI设计-AI设计基础01_cleaned.md
+
+- 2026-05-21T20:13:51+00:00 - Ingested `src_20260522_fef0b51b` from 00_inbox/design/cleaned/AI设计-AI设计师实操培训01_cleaned.md
+
+- 2026-05-21T20:13:51+00:00 - Ingested `src_20260522_38173b48` from 00_inbox/design/prompts/ai-image-generation.md
+
+- 2026-05-21T20:13:51+00:00 - Ingested `src_20260522_55f812d7` from 00_inbox/ideas/2026-05-17-hci-decision-double-triangle.md
+
+- 2026-05-21T20:13:51+00:00 - Ingested `src_20260522_a8e05d98` from 00_inbox/links/aima-ai-thinking-card-links.md
+
+- 2026-05-21T20:13:51+00:00 - Ingested `src_20260522_4fa28ed8` from 00_inbox/ocr_ingest/src_ocr_ocr_screenshot2.md
+
+- 2026-05-21T20:13:51+00:00 - Ingested `src_20260522_8b6b5cfe` from 00_inbox/ocr_ingest/src_ocr_ocr_snipaste_2026_05_15_21_39_40.md
+
+- 2026-05-21T20:13:51+00:00 - Ingested `src_20260522_64727b82` from 00_inbox/ocr_ingest/src_ocr_screenshot1.md
+
+- 2026-05-21T20:13:52+00:00 - Ingested `src_20260522_961e1d68` from 00_inbox/ocr_ingest/src_ocr_screenshot2.md
+
+- 2026-05-21T20:13:52+00:00 - Ingested `src_20260522_074c72ae` from 00_inbox/ocr_ingest/src_ocr_truman的个人成长五步法.md
+
+- 2026-05-21T20:13:52+00:00 - Ingested `src_20260522_9cbdf4fd` from 00_inbox/ocr_ingest/src_ocr_truman的选择：两条职业成长路线.md
+
+- 2026-05-21T20:13:52+00:00 - Ingested `src_20260522_3f5c76c0` from 00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_y模型.md
+
+- 2026-05-21T20:13:52+00:00 - Ingested `src_20260522_20c9fda8` from 00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_全景图muse模型.md
+
+- 2026-05-21T20:13:52+00:00 - Ingested `src_20260522_1b95114b` from 00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_双三角模型.md
+
+- 2026-05-21T20:13:52+00:00 - Ingested `src_20260522_a1a098d5` from 00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_提问刻意练习画布.md
+
+- 2026-05-21T20:13:52+00:00 - Ingested `src_20260522_dee56cff` from 00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_科学学习ipo_全景策略.md
+
+- 2026-05-21T20:13:52+00:00 - Ingested `src_20260522_e139c9e9` from 00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_科学学习ipo完整清单.md
+
+- 2026-05-21T20:13:52+00:00 - Ingested `src_20260522_6199c6b7` from 00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_科学学习ipo模型.md
+
+- 2026-05-21T20:13:52+00:00 - Ingested `src_20260522_f70d7a7d` from 00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_科学提问刻意练习.md
+
+- 2026-05-21T20:13:52+00:00 - Ingested `src_20260522_f6f8f8eb` from 00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_表达力火箭模型.md
+
+- 2026-05-21T20:13:52+00:00 - Ingested `src_20260522_e60a7ec8` from 00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_表达力火箭模型_执行武器库.md
+
+- 2026-05-21T20:13:52+00:00 - Ingested `src_20260522_33346186` from 00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_解放思想.md
+
+- 2026-05-21T20:13:53+00:00 - Ingested `src_20260522_ad373a9b` from 00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_讲香十指模型_超级武器库.md
+
+- 2026-05-21T20:13:53+00:00 - Ingested `src_20260522_98db1d35` from 00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_讲香基本功.md
+
+- 2026-05-21T20:13:53+00:00 - Ingested `src_20260522_ecb6ee97` from 00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_讲香基本功_十指模型修炼地图.md
+
+- 2026-05-21T20:13:53+00:00 - Ingested `src_20260522_a94d8057` from 00_inbox/ocr_ingest/src_ocr_一堂_个人修炼_课程清单.md
+
+- 2026-05-21T20:13:53+00:00 - Ingested `src_20260522_67aa4e2a` from 00_inbox/ocr_ingest/src_ocr_一堂_创业必修_课程清单.md
+
+- 2026-05-21T20:13:53+00:00 - Ingested `src_20260522_40d2aee5` from 00_inbox/ocr_ingest/src_ocr_一堂_地图_个人地图.md
+
+- 2026-05-21T20:13:53+00:00 - Ingested `src_20260522_bd0dca98` from 00_inbox/ocr_ingest/src_ocr_一堂_地图_个人地图_conv.md
+
+- 2026-05-21T20:13:53+00:00 - Ingested `src_20260522_c1935261` from 00_inbox/ocr_ingest/src_ocr_一堂_地图_创业地图.md
+
+- 2026-05-21T20:13:53+00:00 - Ingested `src_20260522_2954d80a` from 00_inbox/ocr_ingest/src_ocr_一堂_地图_创业地图_conv.md
+
+- 2026-05-21T20:13:53+00:00 - Ingested `src_20260522_af67f9b0` from 00_inbox/ocr_ingest/src_ocr_一堂_地图_管理地图.md
+
+- 2026-05-21T20:13:53+00:00 - Ingested `src_20260522_e2244f17` from 00_inbox/ocr_ingest/src_ocr_一堂_地图_管理地图_conv.md
+
+- 2026-05-21T20:13:53+00:00 - Ingested `src_20260522_1e654244` from 00_inbox/ocr_ingest/src_ocr_一堂_案例拆解_课程清单.md
+
+- 2026-05-21T20:13:53+00:00 - Ingested `src_20260522_604eae9b` from 00_inbox/ocr_ingest/src_ocr_一堂_泛产品设计_十年苦练30招.md
+
+- 2026-05-21T20:13:53+00:00 - Ingested `src_20260522_c78c1f2e` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_roi决策评估画布.md
+
+- 2026-05-21T20:13:53+00:00 - Ingested `src_20260522_6bb74b4e` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_roi决策评估画布_案例01.md
+
+- 2026-05-21T20:13:53+00:00 - Ingested `src_20260522_bf298e46` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_roi决策评估画布_案例02.md
+
+- 2026-05-21T20:13:54+00:00 - Ingested `src_20260522_01bac741` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_roi决策评估画布_案例03.md
+
+- 2026-05-21T20:13:54+00:00 - Ingested `src_20260522_94699fa0` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_roi决策评估画布_案例04.md
+
+- 2026-05-21T20:13:54+00:00 - Ingested `src_20260522_43b15d45` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_roi高阶训练全景图.md
+
+- 2026-05-21T20:13:54+00:00 - Ingested `src_20260522_765d0777` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_x型y型决策习惯对比.md
+
+- 2026-05-21T20:13:54+00:00 - Ingested `src_20260522_d96543bb` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_一堂双三角磨合追求_从入门到无限进步.md
+
+- 2026-05-21T20:13:54+00:00 - Ingested `src_20260522_33c40d41` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_人机协作决策.md
+
+- 2026-05-21T20:13:54+00:00 - Ingested `src_20260522_3261e6bd` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_关键假设abcd模型.md
+
+- 2026-05-21T20:13:54+00:00 - Ingested `src_20260522_ac7f8874` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_关键训练清单（重要））.md
+
+- 2026-05-21T20:13:54+00:00 - Ingested `src_20260522_f3429a35` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_决策三角形.md
+
+- 2026-05-21T20:13:54+00:00 - Ingested `src_20260522_1a2ffc3e` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_发现决策.md
+
+- 2026-05-21T20:13:54+00:00 - Ingested `src_20260522_c59acefd` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_商业模式_完整财务公式决策.md
+
+- 2026-05-21T20:13:54+00:00 - Ingested `src_20260522_45957066` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_宽度_个人.md
+
+- 2026-05-21T20:13:54+00:00 - Ingested `src_20260522_b4ebba42` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_宽度_企业.md
+
+- 2026-05-21T20:13:54+00:00 - Ingested `src_20260522_97242832` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_宽度_团队.md
+
+- 2026-05-21T20:13:55+00:00 - Ingested `src_20260522_22cb5729` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_l1优先级定性.md
+
+- 2026-05-21T20:13:55+00:00 - Ingested `src_20260522_ad937c9c` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_l2部分定量.md
+
+- 2026-05-21T20:13:55+00:00 - Ingested `src_20260522_80e1b943` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_l3定量公式.md
+
+- 2026-05-21T20:13:55+00:00 - Ingested `src_20260522_5323822f` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_l4_案例01.md
+
+- 2026-05-21T20:13:55+00:00 - Ingested `src_20260522_26271f58` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_l4严格财务公式.md
+
+- 2026-05-21T20:13:55+00:00 - Ingested `src_20260522_3693c090` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_你的业务是一次抽样实验.md
+
+- 2026-05-21T20:13:55+00:00 - Ingested `src_20260522_4f3415a1` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_决策经验值.md
+
+- 2026-05-21T20:13:55+00:00 - Ingested `src_20260522_9b437f93` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_案例01.md
+
+- 2026-05-21T20:13:55+00:00 - Ingested `src_20260522_e60022cc` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_案例02.md
+
+- 2026-05-21T20:13:55+00:00 - Ingested `src_20260522_3782f983` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_案例03.md
+
+- 2026-05-21T20:13:55+00:00 - Ingested `src_20260522_b4a26e00` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_案例04.md
+
+- 2026-05-21T20:13:55+00:00 - Ingested `src_20260522_7344d957` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_案例05.md
+
+- 2026-05-21T20:13:55+00:00 - Ingested `src_20260522_e70d298c` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_深度_案例06.md
+
+- 2026-05-21T20:13:55+00:00 - Ingested `src_20260522_7fb2b9c1` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_稀缺机会窗口.md
+
+- 2026-05-21T20:13:56+00:00 - Ingested `src_20260522_d067a6ba` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_稀缺资源清单.md
+
+- 2026-05-21T20:13:56+00:00 - Ingested `src_20260522_e31b26dd` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_项目方案评估三角形.md
+
+- 2026-05-21T20:13:56+00:00 - Ingested `src_20260522_23b5714d` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_高度_两种典型的思考习惯.md
+
+- 2026-05-21T20:13:56+00:00 - Ingested `src_20260522_80eadfd8` from 00_inbox/ocr_ingest/src_ocr_一堂_科学决策_高水平共识曲线（重要）.md
+
+- 2026-05-21T20:13:56+00:00 - Ingested `src_20260522_4c9a911f` from 00_inbox/ocr_ingest/src_ocr_一堂_管理必修_课程清单.md
+
+- 2026-05-21T20:13:56+00:00 - Ingested `src_20260522_32462c98` from 00_inbox/ocr_ingest/src_ocr_一堂y模型_科学成事道理.md
+
+- 2026-05-21T20:13:56+00:00 - Ingested `src_20260522_0bb1cb6e` from 00_inbox/ocr_ingest/src_ocr_一堂y模型steps策略集.md
+
+- 2026-05-21T20:13:56+00:00 - Ingested `src_20260522_53341e5a` from 00_inbox/ocr_ingest/src_ocr_一堂y模型实操工作流.md
+
+- 2026-05-21T20:13:56+00:00 - Ingested `src_20260522_9cb1d9d6` from 00_inbox/ocr_ingest/src_ocr_一堂个人地图：高潜力成长者修炼全景图.md
+
+- 2026-05-21T20:13:56+00:00 - Ingested `src_20260522_dc5c80df` from 00_inbox/ocr_ingest/src_ocr_一堂五步法_产品内核画布.md
+
+- 2026-05-21T20:13:56+00:00 - Ingested `src_20260522_2a547df5` from 00_inbox/ocr_ingest/src_ocr_一堂五步法画布.md
+
+- 2026-05-21T20:13:56+00:00 - Ingested `src_20260522_32e4318a` from 00_inbox/ocr_ingest/src_ocr_一堂产品内核_十大典型指标.md
+
+- 2026-05-21T20:13:56+00:00 - Ingested `src_20260522_e6cf558a` from 00_inbox/ocr_ingest/src_ocr_一堂刻意练习十年成长指数.md
+
+- 2026-05-21T20:13:56+00:00 - Ingested `src_20260522_77b6cdaf` from 00_inbox/ocr_ingest/src_ocr_一堂提炼过的因果模型.md
+
+- 2026-05-21T20:13:56+00:00 - Ingested `src_20260522_9557e4cb` from 00_inbox/ocr_ingest/src_ocr_一堂最佳转化率动力曲线图.md
+
+- 2026-05-21T20:13:56+00:00 - Ingested `src_20260522_7e8d10c4` from 00_inbox/ocr_ingest/src_ocr_一堂泛产品设计36计_全套地图.md
+
+- 2026-05-21T20:13:57+00:00 - Ingested `src_20260522_db09e70d` from 00_inbox/ocr_ingest/src_ocr_一堂泛产品设计_十年修炼爬山地图.md
+
+- 2026-05-21T20:13:57+00:00 - Ingested `src_20260522_4754d8fd` from 00_inbox/ocr_ingest/src_ocr_一堂泛产品设计_多出牌多练习.md
+
+- 2026-05-21T20:13:57+00:00 - Ingested `src_20260522_c92a36ba` from 00_inbox/ocr_ingest/src_ocr_一堂深度复盘冰山图.md
+
+- 2026-05-21T20:13:57+00:00 - Ingested `src_20260522_037af20f` from 00_inbox/ocr_ingest/src_ocr_一堂转化率_10大容易浪费的触点.md
+
+- 2026-05-21T20:13:57+00:00 - Ingested `src_20260522_d75f0a0d` from 00_inbox/ocr_ingest/src_ocr_一堂进步大地图.md
+
+- 2026-05-21T20:13:57+00:00 - Ingested `src_20260522_2250865e` from 00_inbox/ocr_ingest/src_ocr_一堂进步大地图_compressed.md
+
+- 2026-05-21T20:13:57+00:00 - Ingested `src_20260522_91948770` from 00_inbox/ocr_ingest/src_ocr_优秀泛产品设计者的自我修养.md
+
+- 2026-05-21T20:13:57+00:00 - Ingested `src_20260522_94ee2a08` from 00_inbox/ocr_ingest/src_ocr_婚礼操盘_用户和场景.md
+
+- 2026-05-21T20:13:57+00:00 - Ingested `src_20260522_b29a6b98` from 00_inbox/ocr_ingest/src_ocr_婚礼规划.md
+
+- 2026-05-21T20:13:57+00:00 - Ingested `src_20260522_7d2a79f8` from 00_inbox/ocr_ingest/src_ocr_审美提升的层级.md
+
+- 2026-05-21T20:13:57+00:00 - Ingested `src_20260522_dd3806c5` from 00_inbox/ocr_ingest/src_ocr_微信图片_20260507004746_32_32.md
+
+- 2026-05-21T20:13:57+00:00 - Ingested `src_20260522_d38bb08e` from 00_inbox/ocr_ingest/src_ocr_微信图片_20260507004751_33_32.md
+
+- 2026-05-21T20:13:57+00:00 - Ingested `src_20260522_0f690cad` from 00_inbox/ocr_ingest/src_ocr_微信图片_20260507004755_34_32.md
+
+- 2026-05-21T20:13:57+00:00 - Ingested `src_20260522_c28367b2` from 00_inbox/ocr_ingest/src_ocr_微信图片_20260507004758_35_32.md
+
+- 2026-05-21T20:13:57+00:00 - Ingested `src_20260522_05b4de3c` from 00_inbox/ocr_ingest/src_ocr_微信图片_20260507004801_37_32.md
+
+- 2026-05-21T20:13:58+00:00 - Ingested `src_20260522_f0ec18a8` from 00_inbox/ocr_ingest/src_ocr_微信图片_20260507004802_38_32.md
+
+- 2026-05-21T20:13:58+00:00 - Ingested `src_20260522_d694dfc8` from 00_inbox/ocr_ingest/src_ocr_微信图片_20260507004804_39_32.md
+
+- 2026-05-21T20:13:58+00:00 - Ingested `src_20260522_db85a8da` from 00_inbox/ocr_ingest/src_ocr_微信图片_20260507004806_40_32.md
+
+- 2026-05-21T20:13:58+00:00 - Ingested `src_20260522_b64b7124` from 00_inbox/ocr_ingest/src_ocr_微信图片_20260507004811_41_32.md
+
+- 2026-05-21T20:13:58+00:00 - Ingested `src_20260522_89529426` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_审美卡片_最佳实践建模.md
+
+- 2026-05-21T20:13:58+00:00 - Ingested `src_20260522_6373b1b1` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_审美卡片_最佳实践收集.md
+
+- 2026-05-21T20:13:58+00:00 - Ingested `src_20260522_6a8b5755` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_审美卡片_最佳实践池子.md
+
+- 2026-05-21T20:13:58+00:00 - Ingested `src_20260522_6697adcb` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_审美卡片_美好作品想象.md
+
+- 2026-05-21T20:13:58+00:00 - Ingested `src_20260522_65a78106` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_审美工具箱指南.md
+
+- 2026-05-21T20:13:58+00:00 - Ingested `src_20260522_a632cc1c` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_一堂五步法.md
+
+- 2026-05-21T20:13:58+00:00 - Ingested `src_20260522_1ec27760` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_动力阻力.md
+
+- 2026-05-21T20:13:58+00:00 - Ingested `src_20260522_3bc67cbd` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_场景推演.md
+
+- 2026-05-21T20:13:58+00:00 - Ingested `src_20260522_f6cf4e83` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_多视角思考.md
+
+- 2026-05-21T20:13:58+00:00 - Ingested `src_20260522_041b5a94` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_峰终定律.md
+
+- 2026-05-21T20:13:59+00:00 - Ingested `src_20260522_622b8a41` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_惊喜公式.md
+
+- 2026-05-21T20:13:59+00:00 - Ingested `src_20260522_38ddd826` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_用户分层.md
+
+- 2026-05-21T20:13:59+00:00 - Ingested `src_20260522_11d721ac` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_用户视角.md
+
+- 2026-05-21T20:13:59+00:00 - Ingested `src_20260522_78d5f0a4` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_行业分析画布.md
+
+- 2026-05-21T20:13:59+00:00 - Ingested `src_20260522_11af6cd2` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_需求挖掘.md
+
+- 2026-05-21T20:13:59+00:00 - Ingested `src_20260522_115e8827` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_用户卡片_项目背景分析.md
+
+- 2026-05-21T20:13:59+00:00 - Ingested `src_20260522_1b5af0b6` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_roi分析.md
+
+- 2026-05-21T20:13:59+00:00 - Ingested `src_20260522_f5a0f2e1` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_业务建模.md
+
+- 2026-05-21T20:13:59+00:00 - Ingested `src_20260522_4d086230` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_低成本测试mvp.md
+
+- 2026-05-21T20:13:59+00:00 - Ingested `src_20260522_eb90d179` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_假设拆解.md
+
+- 2026-05-21T20:13:59+00:00 - Ingested `src_20260522_f3072399` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_内核和边界.md
+
+- 2026-05-21T20:13:59+00:00 - Ingested `src_20260522_bab48c61` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_努力仿真.md
+
+- 2026-05-21T20:13:59+00:00 - Ingested `src_20260522_5bd37e0d` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_十倍速验证.md
+
+- 2026-05-21T20:13:59+00:00 - Ingested `src_20260522_7ddf8bf2` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_善用佳软.md
+
+- 2026-05-21T20:13:59+00:00 - Ingested `src_20260522_3b5c417d` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_复盘迭代.md
+
+- 2026-05-21T20:14:00+00:00 - Ingested `src_20260522_cbb3b77d` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_攻坚会.md
+
+- 2026-05-21T20:14:00+00:00 - Ingested `src_20260522_e861d61d` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_灵感闪现.md
+
+- 2026-05-21T20:14:00+00:00 - Ingested `src_20260522_8d5cc8b0` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_管理三段论.md
+
+- 2026-05-21T20:14:00+00:00 - Ingested `src_20260522_c2c6b487` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_解放思想.md
+
+- 2026-05-21T20:14:00+00:00 - Ingested `src_20260522_9eaf7399` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_设计原则.md
+
+- 2026-05-21T20:14:00+00:00 - Ingested `src_20260522_8d990f3c` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_逻辑mece.md
+
+- 2026-05-21T20:14:00+00:00 - Ingested `src_20260522_2bcc3531` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_酝酿式打磨.md
+
+- 2026-05-21T20:14:00+00:00 - Ingested `src_20260522_4be84945` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_里程碑拆解.md
+
+- 2026-05-21T20:14:00+00:00 - Ingested `src_20260522_3dd58dff` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_落地卡片_风险管理.md
+
+- 2026-05-21T20:14:00+00:00 - Ingested `src_20260522_726a6a3b` from 00_inbox/ocr_ingest/src_ocr_泛产品设计_需求工具箱指南.md
+
+- 2026-05-21T20:14:00+00:00 - Ingested `src_20260522_e985ecdb` from 00_inbox/ocr_ingest/src_ocr_泛产品设计的应用场景示意图.md
+
+- 2026-05-21T20:14:00+00:00 - Ingested `src_20260522_2a53b1eb` from 00_inbox/ocr_ingest/src_ocr_泛产品设计者的三大自我修养.md
+
+- 2026-05-21T20:14:00+00:00 - Ingested `src_20260522_8995f40a` from 00_inbox/ocr_ingest/src_ocr_泛产品设计者的自我修养.md
+
+- 2026-05-21T20:14:00+00:00 - Ingested `src_20260522_8bdb2970` from 00_inbox/ocr_ingest/src_ocr_泛产品设计落地工具篇指南.md
+
+- 2026-05-21T20:14:01+00:00 - Ingested `src_20260522_e4b635ac` from 00_inbox/ocr_ingest/src_ocr_泛产品设计落地篇.md
+
+- 2026-05-21T20:14:01+00:00 - Ingested `src_20260522_4310e409` from 00_inbox/ocr_ingest/src_ocr_萃取总结.md
+
+- 2026-05-21T20:14:01+00:00 - Ingested `src_20260522_ea933690` from 00_inbox/ocr_ingest/src_ocr_顶级产品追求的方向_乔布斯.md
+
+- 2026-05-21T20:14:01+00:00 - Ingested `src_20260522_4af61500` from 00_inbox/ocr_ingest/src_ocr_项目背景问题思考的8个维度.md
+
+- 2026-05-21T20:14:01+00:00 - Ingested `src_20260522_e71d89ff` from 00_inbox/ocr_ingest/src_ocr_预判模型.md
+
+- 2026-05-21T20:14:01+00:00 - Ingested `src_20260522_9d98d526` from 00_inbox/prompts/business-analysis.md
+
+- 2026-05-21T20:14:01+00:00 - Ingested `src_20260522_0af1f6dd` from 00_inbox/prompts/learning-thinking.md
+
+- 2026-05-21T20:14:01+00:00 - Ingested `src_20260522_a89ab860` from 00_inbox/prompts/meta-prompt-eng.md
+
+- 2026-05-21T20:14:01+00:00 - Ingested `src_20260522_404f58a2` from 00_inbox/prompts/product-ux.md
+
+- 2026-05-21T20:14:01+00:00 - Ingested `src_20260522_9d322e81` from 00_inbox/prompts/tools-workflows.md
+
+- 2026-05-21T20:14:01+00:00 - Ingested `src_20260522_5819659f` from 00_inbox/prompts/writing-content.md
+
+- 2026-05-21T20:14:01+00:00 - Ingested `src_20260522_1ede9202` from 00_inbox/visual-prompt-system_SKILL.md
+
+- 2026-05-21T20:14:01+00:00 - Ingested `src_20260522_42622b63` from 00_inbox/water-sense/.water-sense-config.md
+
+- 2026-05-21T20:14:01+00:00 - Ingested `src_20260522_390d75a8` from 00_inbox/water-sense/2026-05-17.md
+
+- 2026-05-21T20:14:02+00:00 - Ingested `src_20260522_d3a621b8` from 00_inbox/water-sense/2026-05.md
+
+- 2026-05-21T20:14:20+00:00 - Self-check: 171 auto-feedback record(s) created
