@@ -129,23 +129,68 @@ node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs <image-path>
 
 因此所有图片理解必须走本地 OCR 管道。这是非多模态模型下看图能力的唯一可行方案。
 
-## 备选方案
+## 升级方案：深度文档解析（表格/公式/密集文字）
 
-| 方案 | 优点 | 缺点 |
-|------|------|------|
-| OCR.space API | 高准确率、无需本地模型 | 需联网、500次/天限额、≤1MB/图 |
-| tesseract.js | 开源、多语言 | 中文准确率低（~70%） |
-| PaddleOCR (本方案) | 本地、免费、高准确率 | 需模型文件、大内存 |
-| Kimi 视觉模型 | 原生理解图表/UI/颜色 | 需确认 kimi-for-coding 是否含 vision 能力 |
-| 直接切 Claude | 原生多模态，无需 OCR | 需更换 API endpoint |
+当费用本 skill 触碰能力边界（表格、公式、密集文字、多栏）时，必须切换到以下**深度文档解析引擎**。这些引擎不是简单的 OCR，而是具备版面理解能力的文档结构化提取器。
 
-## 已知局限（更新 v2）
+### 引擎对比（2026-05 调研）
 
-1. PaddleOCR **只能提取文字**，无法理解图表、UI布局、颜色、空间关系
-2. 复杂排版（竖排、弯曲文字、手写体）识别率低
-3. 首次加载 ~2s（ONNX Runtime WASM 初始化）
-4. 内存占用 ~200MB
-5. 桌面路径在 WSL 下不可达，必须用 PowerShell 调用
+| 维度 | **MinerU** (`magic-pdf`) | **Marker** (`marker-pdf`) | **PaddleOCR Python + PP-Structure** |
+|------|--------------------------|---------------------------|-------------------------------------|
+| 厂商 | 阿里通义 | 社区开源 | 百度飞桨 |
+| 安装 | `pip install magic-pdf[full]` | `pip install marker-pdf` | `pip install paddleocr` + 多模型管理 |
+| 模型大小 | ~1GB（自动懒加载） | ~4GB | ~500MB（需手动管理） |
+| 表格识别 | ⭐⭐⭐ 极强 | ⭐⭐☆ 良好 | ⭐⭐⭐ 极强 |
+| 公式识别 | ⭐⭐⭐ LaTeX 输出 | ⭐⭐⭐ LaTeX 输出 | ⭐⭐☆ 需单独配置 PP-Formula |
+| 密集文字 | ⭐⭐⭐ 专门优化 | ⭐⭐☆ | ⭐⭐⭐ 中文极强 |
+| 多栏布局 | ⭐⭐⭐ 自动分栏 | ⭐⭐☆ | ⭐⭐⭐ 版面分析 |
+| 中文支持 | ⭐⭐⭐ 原生优化 | ⭐⭐☆ 依赖 Qwen-VL | ⭐⭐⭐ 母语级 |
+| 输出格式 | Markdown / JSON / HTML | Markdown | JSON / 多种格式 |
+| 运行方式 | Python CLI + API | Python CLI | Python API |
+
+### 七公推荐：MinerU 作为主力
+
+**理由**：
+1. KDO 知识库以中文为主，MinerU 阿里内部打磨，中文课程截图/研报识别率最高
+2. 一体化输出：一次调用同时得到 Markdown（含表格、LaTeX）+ JSON（坐标/置信度/区块类型）
+3. Markdown 可直接注入 `30_wiki/concepts/` 卡片正文
+4. JSON 坐标可用于后续 Visual Analysis
+5. 支持图片 + PDF 双输入
+
+### 引擎选型决策树
+
+```
+任务类型
+├── 纯文字提取（登机牌、发票、简短截图） → 本 skill (PaddleOCR.js)
+├── 表格/公式/密集文字（课程截图、研报、论文、对比图） → MinerU
+├── 英文学术 PDF 转 Markdown → Marker（公式效果更稳定）
+└── 深度定制场景（特殊字体、手写体） → PaddleOCR Python + 自训练模型
+```
+
+### MinerU 快速试用
+
+```bash
+# 安装
+pip install magic-pdf[full]
+
+# 单张图片解析
+magic-pdf -p input.png -o output_dir -m auto
+
+# 输出结析
+output_dir/
+├── input.md       # Markdown 正文（含表格、公式）
+├── input.json     # 结构化元数据（区块类型、坐标、置信度）
+└── images/        # 提取的嵌入图片
+```
+
+### 备选方案（轻量级）
+
+| 方案 | 适用场景 | 优点 | 缺点 |
+|------|---------|------|------|
+| OCR.space API | 偶尔识图 | 无需本地模型 | 需联网、500次/天限额 |
+| tesseract.js | 多语言场景 | 开源 | 中文准确率低（~70%） |
+| Kimi 视觉模型 | 图表理解 | 原生多模态 | 需确认 API 是否含 vision |
+| 直接切 Claude | 复杂图片 | 无需 OCR | 需更换 API endpoint |
 
 ## 依赖
 
