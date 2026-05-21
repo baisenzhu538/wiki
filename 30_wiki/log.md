@@ -1126,3 +1126,17 @@ Chronological record of knowledge operations.
 - 2026-05-19T11:59:38+00:00 - Ingested `src_20260519_f6ec0400` from 00_inbox/Anthropic 官方发布：《创始人手册：打造 AI 原生初创公司》.md
 
 - 2026-05-19T11:59:39+00:00 - Self-check: 15 auto-feedback record(s) created
+
+- 2026-05-21T18:15:26+00:00 - Enriched 5 concept cards with deep-image-parser structured extraction (tables, formulas, comparison matrices)
+  - yt-decision-habit-shift.md: X-vs-Y comparison dimension table + visual mark semantics
+  - yt-decision-y-model.md: ABCD 4-quadrant strategic model (macro/micro x efficiency/outcome)
+  - yt-decision-full-process.md: 6-level financial accounting capability ladder + per-level error patterns
+  - yt-decision-canvas.md: ROI canvas 3-column structure (3 dimensions + 2 hidden variables + final conclusion)
+  - yt-decision-depth-ladder.md: L3 quantitative formula visual expression (A+B+C+D inputs, X conversion, Y output)
+- 2026-05-21T18:15:26+00:00 - Deep-parsed 5 source images from 00_inbox/科学决策/ using vision_analyze for table/formula/dense-text recognition
+  - 一堂-科学决策-X型Y型决策习惯对比.png
+  - 一堂-科学决策-商业模式-完整财务公式决策.png
+  - 一堂-科学决策-关键假设ABCD模型.png
+  - 一堂-科学决策-ROI决策评估画布.png
+  - 一堂-科学决策-深度-L3定量公式.png
+
