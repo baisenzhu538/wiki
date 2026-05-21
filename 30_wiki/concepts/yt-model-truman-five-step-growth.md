@@ -42,8 +42,10 @@ related:
   level: advanced
 source_refs:
 - 10_raw/assets/yitang/Truman的个人成长五步法.png
+- 00_inbox/Truman的个人成长五步法.png  # 源图像，经 deep-image-parser 深度解析
+- 00_inbox/Truman的个人成长五步法_paddle_ocr.txt  # PaddleOCR基线对比
 created_at: '2026-05-11'
-updated_at: '2026-05-11'
+updated_at: '2026-05-22'
 estimated_tokens: 2678
 reviewed_by: 黄药师
 ---
