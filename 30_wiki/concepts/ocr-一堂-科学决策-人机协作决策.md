@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-科学决策-人机协作决策"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_33c40d41"]
 created_at: "2026-05-21T20:13:54+00:00"
-updated_at: "2026-05-21T20:13:54+00:00"
+updated_at: "2026-05-21T20:27:11+00:00"
 ---
+
 
 # OCR: 一堂-科学决策-人机协作决策
 

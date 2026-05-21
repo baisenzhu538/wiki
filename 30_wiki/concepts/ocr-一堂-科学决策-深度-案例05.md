@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-科学决策-深度-案例05"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_7344d957"]
 created_at: "2026-05-21T20:13:55+00:00"
-updated_at: "2026-05-21T20:13:55+00:00"
+updated_at: "2026-05-21T20:29:40+00:00"
 ---
+
 
 # OCR: 一堂-科学决策-深度-案例05
 

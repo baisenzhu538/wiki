@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂提炼过的因果模型"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_77b6cdaf"]
 created_at: "2026-05-21T20:13:56+00:00"
-updated_at: "2026-05-21T20:13:56+00:00"
+updated_at: "2026-05-21T20:31:39+00:00"
 ---
+
 
 # OCR: 一堂提炼过的因果模型
 

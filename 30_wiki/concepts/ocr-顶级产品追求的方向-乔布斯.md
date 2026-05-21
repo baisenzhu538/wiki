@@ -1,11 +1,12 @@
 ---
 title: "OCR: 顶级产品追求的方向-乔布斯"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_ea933690"]
 created_at: "2026-05-21T20:14:01+00:00"
-updated_at: "2026-05-21T20:14:01+00:00"
+updated_at: "2026-05-21T20:40:11+00:00"
 ---
+
 
 # OCR: 顶级产品追求的方向-乔布斯
 

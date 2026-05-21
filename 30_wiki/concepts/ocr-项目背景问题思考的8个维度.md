@@ -1,11 +1,12 @@
 ---
 title: "OCR: 项目背景问题思考的8个维度"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_4af61500"]
 created_at: "2026-05-21T20:14:01+00:00"
-updated_at: "2026-05-21T20:14:01+00:00"
+updated_at: "2026-05-21T20:40:18+00:00"
 ---
+
 
 # OCR: 项目背景问题思考的8个维度
 

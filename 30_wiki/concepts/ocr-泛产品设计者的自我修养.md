@@ -1,11 +1,12 @@
 ---
 title: "OCR: 泛产品设计者的自我修养"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_8995f40a"]
 created_at: "2026-05-21T20:14:00+00:00"
-updated_at: "2026-05-21T20:14:00+00:00"
+updated_at: "2026-05-21T20:39:39+00:00"
 ---
+
 
 # OCR: 泛产品设计者的自我修养
 

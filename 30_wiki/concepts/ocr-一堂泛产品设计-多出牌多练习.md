@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂泛产品设计-多出牌多练习"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_4754d8fd"]
 created_at: "2026-05-21T20:13:57+00:00"
-updated_at: "2026-05-21T20:13:57+00:00"
+updated_at: "2026-05-21T20:32:01+00:00"
 ---
+
 
 # OCR: 一堂泛产品设计-多出牌多练习
 

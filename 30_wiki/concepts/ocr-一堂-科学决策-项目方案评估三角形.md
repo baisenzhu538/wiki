@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-科学决策-项目方案评估三角形"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_e31b26dd"]
 created_at: "2026-05-21T20:13:56+00:00"
-updated_at: "2026-05-21T20:13:56+00:00"
+updated_at: "2026-05-21T20:30:10+00:00"
 ---
+
 
 # OCR: 一堂-科学决策-项目方案评估三角形
 

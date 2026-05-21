@@ -1,11 +1,12 @@
 ---
 title: "OCR: 婚礼规划"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_b29a6b98"]
 created_at: "2026-05-21T20:13:57+00:00"
-updated_at: "2026-05-21T20:13:57+00:00"
+updated_at: "2026-05-21T20:33:03+00:00"
 ---
+
 
 # OCR: 婚礼规划
 

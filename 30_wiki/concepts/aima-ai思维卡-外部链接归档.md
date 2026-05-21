@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_a8e05d98"]
 created_at: "2026-05-21T20:13:51+00:00"
-updated_at: "2026-05-21T20:15:10+00:00"
+updated_at: "2026-05-21T20:22:08+00:00"
 ---
+
 
 
 # AIMA AI思维卡 — 外部链接归档

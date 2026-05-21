@@ -1,11 +1,12 @@
 ---
 title: "OCR: 泛产品设计-落地卡片-内核和边界"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_f3072399"]
 created_at: "2026-05-21T20:13:59+00:00"
-updated_at: "2026-05-21T20:13:59+00:00"
+updated_at: "2026-05-21T20:37:25+00:00"
 ---
+
 
 # OCR: 泛产品设计-落地卡片-内核和边界
 

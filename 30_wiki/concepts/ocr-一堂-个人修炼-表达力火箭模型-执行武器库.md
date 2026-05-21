@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-个人修炼-表达力火箭模型-执行武器库"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_e60a7ec8"]
 created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-21T20:13:52+00:00"
+updated_at: "2026-05-21T20:24:14+00:00"
 ---
+
 
 # OCR: 一堂-个人修炼-表达力火箭模型-执行武器库
 

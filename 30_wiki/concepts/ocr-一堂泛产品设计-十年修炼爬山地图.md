@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂泛产品设计-十年修炼爬山地图"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_db09e70d"]
 created_at: "2026-05-21T20:13:56+00:00"
-updated_at: "2026-05-21T20:13:56+00:00"
+updated_at: "2026-05-21T20:31:54+00:00"
 ---
+
 
 # OCR: 一堂泛产品设计-十年修炼爬山地图
 

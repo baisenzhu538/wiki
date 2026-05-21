@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂刻意练习十年成长指数"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_e6cf558a"]
 created_at: "2026-05-21T20:13:56+00:00"
-updated_at: "2026-05-21T20:13:56+00:00"
+updated_at: "2026-05-21T20:31:32+00:00"
 ---
+
 
 # OCR: 一堂刻意练习十年成长指数
 

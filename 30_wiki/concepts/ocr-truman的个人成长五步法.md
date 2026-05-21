@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_074c72ae"]
 created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-21T20:16:03+00:00"
+updated_at: "2026-05-21T20:23:00+00:00"
 ---
+
 
 
 # OCR: Truman的个人成长五步法

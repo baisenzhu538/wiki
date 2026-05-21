@@ -1,11 +1,12 @@
 ---
 title: "OCR: 泛产品设计-用户卡片-场景推演"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_3bc67cbd"]
 created_at: "2026-05-21T20:13:58+00:00"
-updated_at: "2026-05-21T20:13:58+00:00"
+updated_at: "2026-05-21T20:35:26+00:00"
 ---
+
 
 # OCR: 泛产品设计-用户卡片-场景推演
 

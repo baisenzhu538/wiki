@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_961e1d68"]
 created_at: "2026-05-21T20:13:51+00:00"
-updated_at: "2026-05-21T20:15:55+00:00"
+updated_at: "2026-05-21T20:22:53+00:00"
 ---
+
 
 
 # OCR: screenshot2

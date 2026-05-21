@@ -1,11 +1,12 @@
 ---
 title: "视觉Prompt三层操作系统 (SROM Visual OS)"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_1ede9202"]
 created_at: "2026-05-21T20:14:01+00:00"
-updated_at: "2026-05-21T20:14:01+00:00"
+updated_at: "2026-05-21T20:41:20+00:00"
 ---
+
 
 # 视觉Prompt三层操作系统 (SROM Visual OS)
 

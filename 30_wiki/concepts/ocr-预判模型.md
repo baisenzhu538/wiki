@@ -1,11 +1,12 @@
 ---
 title: "OCR: 预判模型"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_e71d89ff"]
 created_at: "2026-05-21T20:14:01+00:00"
-updated_at: "2026-05-21T20:14:01+00:00"
+updated_at: "2026-05-21T20:40:25+00:00"
 ---
+
 
 # OCR: 预判模型
 

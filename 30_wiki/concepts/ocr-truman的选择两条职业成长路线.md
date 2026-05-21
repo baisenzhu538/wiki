@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_9cbdf4fd"]
 created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-21T20:16:10+00:00"
+updated_at: "2026-05-21T20:23:07+00:00"
 ---
+
 
 
 # OCR: truman的选择：两条职业成长路线

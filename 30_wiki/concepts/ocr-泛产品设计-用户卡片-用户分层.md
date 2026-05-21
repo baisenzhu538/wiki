@@ -1,11 +1,12 @@
 ---
 title: "OCR: 泛产品设计-用户卡片-用户分层"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_38ddd826"]
 created_at: "2026-05-21T20:13:59+00:00"
-updated_at: "2026-05-21T20:13:59+00:00"
+updated_at: "2026-05-21T20:35:59+00:00"
 ---
+
 
 # OCR: 泛产品设计-用户卡片-用户分层
 

@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_a1a098d5"]
 created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-21T20:16:40+00:00"
+updated_at: "2026-05-21T20:23:37+00:00"
 ---
+
 
 
 # OCR: 一堂-个人修炼-提问刻意练习画布

@@ -1,11 +1,12 @@
 ---
 title: "OCR: 泛产品设计-审美工具箱指南"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_65a78106"]
 created_at: "2026-05-21T20:13:58+00:00"
-updated_at: "2026-05-21T20:13:58+00:00"
+updated_at: "2026-05-21T20:35:01+00:00"
 ---
+
 
 # OCR: 泛产品设计-审美工具箱指南
 

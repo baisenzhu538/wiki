@@ -1,11 +1,12 @@
 ---
 title: "OCR: 萃取总结"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_4310e409"]
 created_at: "2026-05-21T20:14:01+00:00"
-updated_at: "2026-05-21T20:14:01+00:00"
+updated_at: "2026-05-21T20:40:03+00:00"
 ---
+
 
 # OCR: 萃取总结
 

@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-个人修炼-讲香十指模型-超级武器库"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_ad373a9b"]
 created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-21T20:13:52+00:00"
+updated_at: "2026-05-21T20:24:37+00:00"
 ---
+
 
 # OCR: 一堂-个人修炼-讲香十指模型-超级武器库
 

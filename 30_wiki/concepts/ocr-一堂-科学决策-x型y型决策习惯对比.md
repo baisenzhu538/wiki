@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-科学决策-X型Y型决策习惯对比"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_765d0777"]
 created_at: "2026-05-21T20:13:54+00:00"
-updated_at: "2026-05-21T20:13:54+00:00"
+updated_at: "2026-05-21T20:26:57+00:00"
 ---
+
 
 # OCR: 一堂-科学决策-X型Y型决策习惯对比
 

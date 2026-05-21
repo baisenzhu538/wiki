@@ -1,11 +1,12 @@
 ---
 title: "OCR: 泛产品设计的应用场景示意图"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_e985ecdb"]
 created_at: "2026-05-21T20:14:00+00:00"
-updated_at: "2026-05-21T20:14:00+00:00"
+updated_at: "2026-05-21T20:39:24+00:00"
 ---
+
 
 # OCR: 泛产品设计的应用场景示意图
 

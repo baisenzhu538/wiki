@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-泛产品设计-十年苦练30招"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_604eae9b"]
 created_at: "2026-05-21T20:13:53+00:00"
-updated_at: "2026-05-21T20:13:53+00:00"
+updated_at: "2026-05-21T20:26:06+00:00"
 ---
+
 
 # OCR: 一堂-泛产品设计-十年苦练30招
 

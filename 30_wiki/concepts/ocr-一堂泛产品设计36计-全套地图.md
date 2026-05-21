@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂泛产品设计36计-全套地图"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_7e8d10c4"]
 created_at: "2026-05-21T20:13:56+00:00"
-updated_at: "2026-05-21T20:13:56+00:00"
+updated_at: "2026-05-21T20:32:09+00:00"
 ---
+
 
 # OCR: 一堂泛产品设计36计-全套地图
 

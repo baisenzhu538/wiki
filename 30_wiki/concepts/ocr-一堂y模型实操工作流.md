@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂Y模型实操工作流"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_53341e5a"]
 created_at: "2026-05-21T20:13:56+00:00"
-updated_at: "2026-05-21T20:13:56+00:00"
+updated_at: "2026-05-21T20:30:55+00:00"
 ---
+
 
 # OCR: 一堂Y模型实操工作流
 

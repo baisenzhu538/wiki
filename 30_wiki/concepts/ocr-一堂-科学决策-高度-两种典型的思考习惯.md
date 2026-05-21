@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-科学决策-高度-两种典型的思考习惯"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_23b5714d"]
 created_at: "2026-05-21T20:13:56+00:00"
-updated_at: "2026-05-21T20:13:56+00:00"
+updated_at: "2026-05-21T20:30:18+00:00"
 ---
+
 
 # OCR: 一堂-科学决策-高度-两种典型的思考习惯
 

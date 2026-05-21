@@ -1,11 +1,12 @@
 ---
 title: "OCR: 泛产品设计-落地卡片-管理三段论"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_8d5cc8b0"]
 created_at: "2026-05-21T20:14:00+00:00"
-updated_at: "2026-05-21T20:14:00+00:00"
+updated_at: "2026-05-21T20:38:23+00:00"
 ---
+
 
 # OCR: 泛产品设计-落地卡片-管理三段论
 

@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_ecb6ee97"]
 created_at: "2026-05-21T20:13:53+00:00"
-updated_at: "2026-05-21T20:13:53+00:00"
+updated_at: "2026-05-21T20:24:45+00:00"
 ---
+
 
 # OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图
 

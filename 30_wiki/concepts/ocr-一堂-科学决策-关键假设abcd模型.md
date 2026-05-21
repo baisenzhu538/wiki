@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-科学决策-关键假设ABCD模型"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_3261e6bd"]
 created_at: "2026-05-21T20:13:54+00:00"
-updated_at: "2026-05-21T20:13:54+00:00"
+updated_at: "2026-05-21T20:27:19+00:00"
 ---
+
 
 # OCR: 一堂-科学决策-关键假设ABCD模型
 

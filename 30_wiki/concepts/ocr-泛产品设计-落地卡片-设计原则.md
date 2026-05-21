@@ -1,11 +1,12 @@
 ---
 title: "OCR: 泛产品设计-落地卡片-设计原则"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_9eaf7399"]
 created_at: "2026-05-21T20:14:00+00:00"
-updated_at: "2026-05-21T20:14:00+00:00"
+updated_at: "2026-05-21T20:38:38+00:00"
 ---
+
 
 # OCR: 泛产品设计-落地卡片-设计原则
 

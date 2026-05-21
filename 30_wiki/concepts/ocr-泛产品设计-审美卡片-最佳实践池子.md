@@ -1,11 +1,12 @@
 ---
 title: "OCR: 泛产品设计-审美卡片-最佳实践池子"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_6a8b5755"]
 created_at: "2026-05-21T20:13:58+00:00"
-updated_at: "2026-05-21T20:13:58+00:00"
+updated_at: "2026-05-21T20:34:45+00:00"
 ---
+
 
 # OCR: 泛产品设计-审美卡片-最佳实践池子
 

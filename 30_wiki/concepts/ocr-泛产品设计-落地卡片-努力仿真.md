@@ -1,11 +1,12 @@
 ---
 title: "OCR: 泛产品设计-落地卡片-努力仿真"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_bab48c61"]
 created_at: "2026-05-21T20:13:59+00:00"
-updated_at: "2026-05-21T20:13:59+00:00"
+updated_at: "2026-05-21T20:37:34+00:00"
 ---
+
 
 # OCR: 泛产品设计-落地卡片-努力仿真
 
