@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_5323822f"]
 created_at: "2026-05-21T20:13:55+00:00"
-updated_at: "2026-05-21T20:28:40+00:00"
+updated_at: "2026-05-22T07:13:45+00:00"
 ---
+
 
 
 # OCR: 一堂-科学决策-深度-L4-案例01
@@ -22,14 +23,23 @@ png` 1万个投放线索的ROI分析(乐观) 成本 收益 投放成本：200万
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 投放获客需核算全链路成本，包括投放成本、履约成本及退费成本，而非仅计算直接投放支出。
+- 本案例"乐观"口径下，1万条线索总成本272万元，总收益240万元，实际ROI为负。
+- 科学决策要求区分乐观/悲观等多情景测算，避免单一预期误导投入判断。
+- 线索量级（1万条）需与转化效率联动分析，大规模投放可能放大亏损基数。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 该案例标注为"乐观"口径，但悲观情景的具体参数（如转化率假设、退费率假设）未披露，无法验证乐观/悲观的边界是否合理
+- "1万个投放线索"的转化金额240万元对应的客单价、转化率、转化周期等关键中间指标缺失，无法评估模型可复用性
+- 履约成本60万元的具体构成（人力、物料、服务周期）未说明，无法判断该成本属于固定成本还是可变成本，影响规模效应分析
+- 退费成本12万元的退费触发条件、退费时间窗口、是否含资金占用成本未明确，乐观口径下是否已充分计提存在疑问
+- 投放成本200万元对应的渠道结构（单一渠道/组合渠道）、线索单价（200元/条）与行业基准对比缺失，无法评估投放效率
+- 总收益240万元是否含续费/复购等LTV延伸收益，或仅为首单收入，直接影响ROI计算口径的科学性
+- 视觉结构信息未在OCR中体现，"乐观"标注位置及是否有其他情景表格并列原图，需人工校对确认是否存在关键信息遗漏
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <article/tutorial/report/analysis>
+Code: <script/tool/template>
+Capability: <workflow/playbook/skill/agent>

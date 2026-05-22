@@ -2154,6 +2154,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-system-course-map-lecture.md]]
 
 ## [[一堂方法论体系总图]]
+- [[30_wiki\concepts\ocr-泛产品设计的应用场景示意图.md]]
 - [[30_wiki\concepts\yt-entrepreneur-needs-analysis.md]]
 - [[30_wiki\concepts\yt-management-basic-skills.md]]
 - [[30_wiki\concepts\yt-management-business-formula.md]]

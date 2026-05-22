@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_f5a0f2e1"]
 created_at: "2026-05-21T20:13:59+00:00"
-updated_at: "2026-05-21T20:36:56+00:00"
+updated_at: "2026-05-22T07:41:53+00:00"
 ---
+
 
 
 # OCR: 泛产品设计-落地卡片-业务建模
@@ -22,14 +23,25 @@ png` 小12 泛产品设计·落地卡片 业务建模 学习拆解业务公式 �
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 业务建模的核心方法是学习拆解业务公式，将业务结果分解为可量化、可操作的乘积或加和结构。
+- 拆解原则要求尽量MECE（相互独立、完全穷尽）、尽量定量、尽量细拆，但不必强求一步到位，允许逐步演化。
+- 复杂业务公式可分层展开：顶层为A+B+CD×EF×G×H，中层可进一步拆分为C₁×C₂×C₃或G₁+G₂+G₃等子结构。
+- 业务建模适用于"站在全局思考和管理复杂的业务"的场景，强调系统性视角。
+- 该方法论主张通过结构化课程学习掌握，体现"一堂课解决，不行就两堂"的渐进式学习原则。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 公式中 "×x①" 和 "只×只只" 等明显 OCR 错误，原始业务公式的准确数学表达是什么？
+- "平价者标" 应为 "评估指标" 还是其他术语？该指标在公式中的具体作用机制未明确。
+- ①②③的编号体系混乱（出现重复①②），原图的层级结构逻辑是什么？
+- "蜂燥" 明显为误识，原词是 "规模"、"增速" 还是其他核心业务变量？
+- 公式中同时存在加法（+）和乘法（×）混合运算，但未说明何时用加、何时用乘的选择标准。
+- "逐步演化" 的具体触发条件是什么——是业务阶段变化、数据可得性提升，还是认知深化？
+- 课程《全员必修：业务拆解篇》的具体内容、案例行业、课时安排均未提及，如何验证其有效性？
+- "没有什么不是一堂课解决不了的" 这一口号与复杂业务建模的实际难度是否存在张力，是否隐含对方法论局限性的回避？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <article/tutorial/report/analysis>
+Code: <script/tool/template>
+Capability: <workflow/playbook/skill/agent>

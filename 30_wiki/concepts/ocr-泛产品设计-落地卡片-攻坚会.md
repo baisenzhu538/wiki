@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_cbb3b77d"]
 created_at: "2026-05-21T20:13:59+00:00"
-updated_at: "2026-05-21T20:38:07+00:00"
+updated_at: "2026-05-22T07:45:43+00:00"
 ---
+
 
 
 # OCR: 泛产品设计-落地卡片-攻坚会
@@ -24,14 +25,28 @@ png` 小15 泛产品设计·落地卡片 攻坚会 重点课题all-in攻坚 在�
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- "攻坚会"是一种集中式、封闭空间的团队协作方法，要求所有关键角色在场，以"不达目的不散会"的强度解决开放性难题。
+- 攻坚会的核心流程：会前角色确定与思考准备 → 充分发言激发想法 → 鼓励激发并逐步建模 → 基于模型持续排列组合 → 探索最优解法 → 形成团队共识与关键决策。
+- 攻坚会的适用场景：关键项目中的关键卡点，且必须是开放性难题（非确定性问题）。
+- 业务一号位需长期练习攻坚会的组织与主持技术，这是该方法论落地的关键成功因素。
+- 该方法论隐含一个设计原则：复杂开放性问题需要高强度、高聚焦的集体认知投入，而非分散式异步协作。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 如何界定"开放性难题"与"封闭性难题"的边界？是否存在判断标准或分类框架，避免攻坚会被误用于可通过常规流程解决的问题？
+- "封闭的空间"和"集中的时间"的具体操作参数是什么？（如物理空间 vs 虚拟空间、建议时长上限、最佳参与人数）这些参数如何随问题复杂度调整？
+- "逐步建模"环节中模型的类型和形式未明确：是概念模型、流程模型、数据模型还是原型？由谁主导建模，是否有工具或模板支持？
+- "业务一号位长期练习"的具体练习对象、反馈机制和评估标准缺失——如何衡量"组织和主持技术"的进步，是否存在认证或复盘框架？
+- 方法论宣称"所有关键项目的关键卡点"均适用，但未讨论攻坚会的失败条件、成本阈值（时间/人力消耗）或与敏捷/精益方法的衔接关系。
+- "充分发言"与"形成团队共识"之间可能存在张力：高强度封闭场景下，如何避免群体极化或权威压制，是否有少数意见保护机制？
+- 提取的"设计原则"将攻坚会定位为"高强度集体认知投入优于分散式异步协作"，但未提供比较依据——何种问题特征、团队规模或组织文化下该原则成立或失效？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <article/tutorial/report/analysis or empty>
+Code: <script/tool/template or empty>
+Capability: <workflow/playbook/skill/agent or empty>
+
+Content: 
+Code: 
+Capability:

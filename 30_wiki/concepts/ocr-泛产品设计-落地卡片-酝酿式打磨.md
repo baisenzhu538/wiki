@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_2bcc3531"]
 created_at: "2026-05-21T20:14:00+00:00"
-updated_at: "2026-05-21T20:38:53+00:00"
+updated_at: "2026-05-22T07:48:03+00:00"
 ---
+
 
 
 # OCR: 泛产品设计-落地卡片-酝酿式打磨
@@ -22,14 +23,30 @@ png` 泛产品设计·落地卡片 酝酿式打磨 科学式的灵感管理 最�
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- "酝酿式打磨"是一种泛产品设计方法，强调通过持续酝酿而非一次性完成来追求更好作品。
+- 核心机制是"科学式的灵感管理"，将灵感视为可系统化管理的设计资源。
+- 关键实践包括：拉审美（提升审美基准）、识别GAP（差距分析）、多轮打磨产品、理解用户挖需求。
+- 适用场景为需要不断打磨、追求更高品质的作品，不适用于一次性交付即可的任务。
+- 进步方式是养成"产品持续酝酿"的工作习惯，使持续优化成为默认工作模式。
+- 隐含原则：复杂能力提升可通过结构化课程/训练解决（"没有什么不是一堂课解决不了的"）。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 什么是"科学式的灵感管理"的具体操作流程？灵感如何被量化、存储、调用和评估？
+- "拉审美"的具体实施方式是什么？谁来定义审美基准？是否存在跨文化或跨领域的审美冲突？
+- "GAP"分析中，当前状态与目标状态的差距如何被系统性识别和度量？
+- "理解用户·挖需求"与常规用户研究方法有何区别？"挖"是否暗示某种特定的深度或技巧？
+- "酝酿"的时间周期和节奏如何确定？是否存在过度酝酿导致交付延迟的风险？
+- "一堂课/两堂课"的隐喻是否暗示该方法依赖外部培训？自学或实践积累是否被同等重视？
+- 该方法与敏捷迭代、精益创业等方法论的关系是什么？是替代、补充还是融合？
+- OCR质量存疑："堂"字孤立出现，原图视觉结构中是否存在被误识或遗漏的关键信息？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <article/tutorial/report/analysis or empty>
+Code: <script/tool/template or empty>
+Capability: <workflow/playbook/skill/agent or empty>
+
+Content: analysis
+Code: tool
+Capability: workflow

@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_c78c1f2e"]
 created_at: "2026-05-21T20:13:53+00:00"
-updated_at: "2026-05-21T20:26:43+00:00"
+updated_at: "2026-05-22T07:08:42+00:00"
 ---
+
 
 
 # OCR: 一堂-科学决策-ROI决策评估画布
@@ -22,14 +23,25 @@ png` ROI决策评估画布 维度 收益项 成本项 基础ROI 长期视角 公
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- ROI决策评估画布包含六个核心维度：基础ROI、长期视角、公司视角、机会成本、时间窗口、最终结论。
+- 每个维度需同时评估收益项与成本项，形成结构化决策分析框架。
+- 科学决策要求超越单一财务指标，将时间维度（长期视角、时间窗口）和组织维度（公司视角）纳入ROI计算。
+- 机会成本作为独立维度强调决策的比较优势分析，而非仅评估绝对收益。
+- 最终结论需综合前五维度的双向评估（收益与成本）后得出，避免孤立判断。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 该画布的六个维度之间是否存在权重分配机制，还是默认各维度等权重？
+- "收益项"与"成本项"在每个维度下是否采用相同的量化标准，如何统一货币化与非货币化指标？
+- "公司视角"维度具体包含哪些子要素（如部门利益、战略协同、文化影响），原文未展开说明
+- "时间窗口"与"长期视角"两个时间维度是否存在概念重叠，如何界定二者的评估边界？
+- 机会成本作为独立维度的评估方法论是什么，是否需要预设明确的替代方案作为比较基准？
+- 该框架是否经过实证验证，在何种决策场景下适用性最强、何种场景可能失效？
+- "最终结论"的整合机制是算术汇总、逻辑推演还是专家判断，如何避免前五维度的评估偏差被累积放大？
+- 该画布与经典决策理论（如期望效用理论、实物期权分析）的关系如何，是替代、简化还是补充？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: article
+Code: tool
+Capability: playbook

@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_622b8a41"]
 created_at: "2026-05-21T20:13:58+00:00"
-updated_at: "2026-05-21T20:35:50+00:00"
+updated_at: "2026-05-22T07:39:02+00:00"
 ---
+
 
 
 # OCR: 泛产品设计-用户卡片-惊喜公式
@@ -24,14 +25,27 @@ png` 泛产品设计·用户卡片 惊喜公式 理解惊喜的本质 惊喜的�
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 惊喜的本质是**巨大的预期差**，而非巨大的投入或无限精心的准备。
+- 惊喜公式：**惊喜 = 产品设计 − 用户预期**。
+- 该公式适用于所有涉及创造惊喜和惊喜式营销的场景。
+- 提升惊喜创造能力的核心方法是**长期刻意练习**。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 公式中"产品设计"和"用户预期"的具体度量单位是什么？是主观评分、功能数量、还是其他可量化指标？
+- "用户预期"的基准如何确定？是行业平均水平、竞品现状、还是用户个人历史经验？
+- 当"产品设计"低于"用户预期"时，公式结果为负值，这是否意味着"惊吓"或"失望"？原文未讨论负向场景。
+- "长期刻意练习"的具体练习对象和方法是什么？是练习洞察用户预期，还是练习产品设计创新，或两者兼顾？
+- 公式是否假设"用户预期"是静态的？若用户预期随市场演化而提升，维持同等惊喜水平是否需要持续提高产品设计投入？
+- "所有涉及创造惊喜和惊喜式营销的场景"这一适用范围是否过于绝对？B2B复杂决策场景或高信任度服务是否同样适用？
+- 原文将"巨大的预期差"等同于惊喜，但预期差的方向性是否重要？超预期与反预期（如故意制造短暂困惑再揭晓）是否产生同质的惊喜体验？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <article/tutorial/report/analysis or empty>
+Code: <script/tool/template or empty>
+Capability: <workflow/playbook/skill/agent or empty>
+
+Content: analysis
+Code: tool
+Capability: workflow

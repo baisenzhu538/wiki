@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_53341e5a"]
 created_at: "2026-05-21T20:13:56+00:00"
-updated_at: "2026-05-21T20:30:55+00:00"
+updated_at: "2026-05-22T07:21:17+00:00"
 ---
+
 
 
 # OCR: 一堂Y模型实操工作流
@@ -22,14 +23,27 @@ png` Y模型实操工作流 像一个顶级科学家一样创业 第一步 第�
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- Y模型实操工作流将创业过程类比为顶级科学家的研究方法论，强调结构化而非随意探索
+- 工作流分为五步：圈定问题和范围→明确追求目标→形成基本认知→预判进步方式→升级组织配套
+- 问题圈定原则：主动限定边界，避免无限延展导致资源分散
+- 目标设定采用"1+N维度"框架，即一个核心维度配合多个辅助维度
+- 认知构建建议控制在3-5个模块，保持足够聚焦以形成有效行动基础
+- 进步方式预判需识别高价值手段，并规划四次迭代进化路径
+- 组织配套升级涵盖四个要素：资源配置、会议机制、工具系统和基本功训练
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 未定义"顶级科学家"的具体标准或参照案例，不同学科领域的方法论差异如何调和？
+- "1+N维度"中的N是否有上限？辅助维度与核心维度冲突时如何取舍？
+- "3-5个模块"的阈值依据是什么？复杂业务场景下是否允许弹性扩展？
+- "四次迭代"是固定次数还是泛指？每次迭代的验收标准与终止条件未说明
+- "高价值手段"的评估框架缺失，由谁、以何种周期判定价值高低？
+- "圈定边界"与"避免无限延展"的具体操作工具或决策流程未提供
+- 五步是否为严格线性序列？能否回溯或并行？未说明阶段间的反馈机制
+- 组织配套四要素（资源/会议/工具/基本功）的优先级排序与投入比例未明确
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <article: "Y模型五步工作流实战手册" — 将一堂Y模型与KDO知识管理结合，针对OCR提取的创业方法论结构化落地，包含边界限定工具、1+N维度目标拆解模板、3-5模块认知聚焦检查表、四阶迭代进化路径图、组织配套四要素配置指南>
+Code: <script: `y-model-workflow-cli.js` — Node.js交互式工具，引导用户逐步完成Y模型五步流程，自动生成分阶段Markdown文档与Obsidian/Dendron兼容的YAML frontmatter，集成PaddleOCR pipeline实现白板/手写笔记直接摄入>
+Capability: <playbook: "OCR-方法论-结构化三角验证工作流" — 定义从原始图像(PaddleOCR ONNX提取)→人工校对→KDO概念卡片→方法论体系交叉引用→输出机会识别的标准操作程序，解决OCR视觉结构丢失与创业知识结构化之间的gap>

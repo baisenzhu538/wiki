@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_2250865e"]
 created_at: "2026-05-21T20:13:57+00:00"
-updated_at: "2026-05-21T20:32:39+00:00"
+updated_at: "2026-05-22T07:28:58+00:00"
 ---
+
 
 
 # OCR: 一堂进步大地图_compressed
@@ -20,14 +21,22 @@ updated_at: "2026-05-21T20:32:39+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- No text was successfully extracted from this source by the OCR pipeline.
+- Visual structure information (headings, body text, table segmentation) was not captured and requires manual review against the original image.
+- The source appears to be a compressed image titled "一堂进步大地图" (likely "A Map of Progress" or similar), but content cannot be verified from OCR output alone.
+- This record serves as a placeholder indicating OCR failure for this document; original image review is necessary for any knowledge extraction.
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- What is the actual content and structure of the original image "一堂进步大地图" that the OCR failed to capture?
+- Why did the PaddleOCR ONNX pipeline fail to detect any text—was it due to image compression artifacts, non-text visual elements (e.g., a mind map or infographic), or a technical processing error?
+- What is the intended meaning of "一堂进步大地图"—does "一堂" refer to a specific organization, platform, or course, and what domain does this "progress map" cover?
+- What visual structure information (hierarchies, relationships, timelines, categories) is embedded in the original image that cannot be recovered from OCR alone?
+- Is there a higher-quality or uncompressed version of this image available that might yield successful text extraction?
+- What manual review protocol should be established to handle OCR failures where the original image is listed as "unknown" and may no longer be accessible?
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <article: "OCR Failure Recovery Protocol for Compressed Infographics" — a decision tree guide for handling zero-text OCR results on visual knowledge artifacts (mind maps, methodology maps, progress dashboards), covering source provenance tracing, alternative extraction strategies, and manual reconstruction workflows for the Yitang knowledge system>
+Code: <tool: `ocr-fallback-pipeline.ps1` — PowerShell script that chains PaddleOCR ONNX → image quality assessment (compression/ resolution check) → visual structure classifier (infographic vs. text-heavy) → conditional routing to human-in-the-loop queue or alternative extraction API, with specific handling for Yitang domain maps>
+Capability: <workflow: "Visual Knowledge Artifact Ingestion Playbook" — a KDO skill defining triage rules for OCR failures: compressed infographics trigger original image recovery protocols, text-light maps trigger structured manual transcription templates aligned to Yitang's four-map methodology framework, and all failures generate cross-linked placeholder records to prevent knowledge gaps>

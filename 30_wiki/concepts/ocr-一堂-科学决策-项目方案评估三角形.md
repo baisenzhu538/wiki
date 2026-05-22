@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_e31b26dd"]
 created_at: "2026-05-21T20:13:56+00:00"
-updated_at: "2026-05-21T20:30:10+00:00"
+updated_at: "2026-05-22T07:18:35+00:00"
 ---
+
 
 
 # OCR: 一堂-科学决策-项目方案评估三角形
@@ -22,14 +23,25 @@ png` 一堂项目管理-方案评估三角形 Yitang PY0j  ect Management Toolki
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 项目方案评估可采用"评估三角形"框架，核心维度包括投入产出比（ROI）、机会成本和机会窗口。
+- ROI 是项目决策的基础量化指标，用于衡量资源投入与预期收益的关系。
+- 机会成本要求决策者考虑资源投入当前项目所放弃的其他最佳替代方案的价值。
+- 机会窗口强调决策的时间敏感性，即特定行动方案的有效实施期限。
+- 科学决策需同时权衡这三个维度，而非单一优化某个指标。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 该"评估三角形"框架是否经过实证验证，还是仅为一堂内部方法论？
+- 三个维度（ROI、机会成本、机会窗口）之间是否存在权重分配机制或优先级排序规则？
+- 机会窗口的具体量化标准是什么——是绝对时间截止点、相对竞争节奏，还是可延长的弹性区间？
+- 该框架适用于何种项目类型和规模范围（如初创企业vs.大型组织、短期vs.长期项目）？
+- 当三个维度出现冲突时（如高ROI但机会窗口极短，或机会窗口充裕但机会成本过高），决策规则是什么？
+- 原文提到"视觉结构信息未在OCR中体现"，原图中的三角形结构是否暗示了三者间的几何关系（如面积代表综合得分、边长相互制约）？
+- 该框架与经典决策理论（如期望效用理论、实物期权理论）的对应关系或差异点是什么？
+- "一堂PY0j ect Management Toolkit"中的"PY0j"是否为OCR误识，实际应为"Project"，这一识别错误是否影响对工具包版本或完整内容的理解？
 
 ## Output Opportunities
 
-- Content:
-- Code: script or tool
-- Capability: workflow or playbook
+Content: article
+Code: 
+Capability: workflow

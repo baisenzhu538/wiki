@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_26271f58"]
 created_at: "2026-05-21T20:13:55+00:00"
-updated_at: "2026-05-21T20:28:48+00:00"
+updated_at: "2026-05-22T07:14:00+00:00"
 ---
+
 
 
 # OCR: 一堂-科学决策-深度-L4严格财务公式
@@ -22,14 +23,25 @@ png` 单元模型ROI深度：L4严格财务公式 (A+B+C+D）/(X+Y+Z 定量 定�
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 单元模型ROI深度采用L4严格财务公式进行计算
+- L4严格财务公式结构为：(A+B+C+D)/(X+Y+Z)
+- 公式核心要求：定量、定钱（即必须量化且以货币计量）
+- 分子A+B+C+D代表收益/价值的各组成部分
+- 分母X+Y+Z代表成本/投入的各组成部分
+- L4层级表明这是最深度的ROI计算标准，要求严格的财务可归属性
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 公式中的A/B/C/D和X/Y/Z具体对应哪些财务科目或业务指标？原图是否有定义或示例？
+- 分母"(X+Y+Z"存在明显OCR截断，Z之后是否还有其他成本项？分母是否完整闭合？
+- "定量 定钱"的具体执行标准是什么——是要求所有变量必须直接货币化，还是允许间接折算？
+- L4层级与其他层级（L1-L3）的区别标准未说明，"最深度"的判定依据是什么？
+- 分子分母各变量之间是否存在重复计算或互斥关系？例如A是否已包含(X+Y+Z)产生的部分收益？
+- 该公式是否要求现金流折现（DCF）处理，还是仅采用静态加总？
+- "单元模型"的边界如何界定——是单一产品、单一项目还是单一客户生命周期？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: article
+Code: template
+Capability: playbook

@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_3261e6bd"]
 created_at: "2026-05-21T20:13:54+00:00"
-updated_at: "2026-05-21T20:27:19+00:00"
+updated_at: "2026-05-22T07:10:04+00:00"
 ---
+
 
 
 # OCR: 一堂-科学决策-关键假设ABCD模型
@@ -24,14 +25,25 @@ png` 一堂·关键假设ABC口模型 yitangABCDStrategyModel 成败问题 A.
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 一堂关键假设ABCD模型将商业决策分为成败问题（A商业场景、B决策场景）与效率问题（C增长场景、D转化场景）两大维度。
+- 商业场景（A）采用"一堂五步法"策略，从宏观到微观进行分析。
+- 决策场景（B）以投产比ROI为核心策略，评估投入产出效率。
+- 增长场景（C）运用"增长公式"作为策略工具，解决规模化扩张问题。
+- 转化场景（D）基于"动力阻力触点"框架，分析用户行为转化的驱动与阻碍因素。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 模型名称在OCR中出现"ABC口"与"ABCD"两种写法，"口"是否为" D"的误识，还是暗示D为待填/开放模块？
+- "一堂五步法"的具体步骤是什么，其从宏观到微观的分析逻辑如何与A商业场景形成唯一对应关系？
+- ROI作为决策场景（B）的核心策略，但ROI本身是一种评估指标而非决策方法，其如何独立支撑"决策场景"这一成败问题的判断？
+- "增长公式"在C增长场景中的具体表达式是什么，该公式是否普适于所有增长类型（如用户增长、收入增长、市场份额增长）？
+- "动力阻力触点"框架中，三要素的权重关系、交互机制及量化方式未明确，如何确保转化场景分析的一致性？
+- 成败问题与效率问题的二分法是否穷尽了所有商业决策类型，是否存在既非成败也非效率的第三类问题（如风险规避、合规决策）？
+- A-B（成败问题）与C-D（效率问题）之间的逻辑关系是递进、并列还是存在反馈循环，模型是否提供了跨维度问题的整合机制？
+- 该模型的适用范围边界未界定：是否仅适用于互联网/科技行业，还是可扩展至传统制造业、服务业或非营利组织？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: article
+Code: 
+Capability: playbook

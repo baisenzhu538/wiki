@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_45957066"]
 created_at: "2026-05-21T20:13:54+00:00"
-updated_at: "2026-05-21T20:27:56+00:00"
+updated_at: "2026-05-22T07:11:46+00:00"
 ---
+
 
 
 # OCR: 一堂-科学决策-宽度-个人
@@ -24,14 +25,26 @@ png` 一堂科学決策宽度·个人篇 堂 TheBreadthofScientificDecision:Pers
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 个人科学决策需同时审视价值盲区与成本盲区，避免单方面评估。
+- 常见价值盲区包括：核心能力成长、核心认知收获、时间获取、顶级见识审美、个人背景镀金、成就感与人生意义、愉悦感与情绪价值、认识优秀人脉、幸福家庭关系。
+- 常见成本盲区包括：业余时间消耗、情绪损耗、健康影响、减少陪伴家人、社会化压力。
+- 个人决策三大核心场景：投资自身（职业发展）、投资金钱（购买决策）、投资时间（事务取舍）。
+- 隐性成本（情绪、健康、家庭关系）往往比显性成本更容易被低估，却对个人长期价值影响深远。
+- 非财务收益（认知、审美、人脉、意义感）应纳入决策框架，与物质回报同等考量。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 该框架将"价值盲区"与"成本盲区"对立呈现，是否预设了所有决策都存在可量化的价值-成本权衡？是否存在无法归入这两类的决策维度（如伦理约束、身份认同冲突）？
+- 9项价值盲区与5项成本盲区的数量不对称，是否意味着价值维度天然更丰富，还是成本盲区存在系统性遗漏（如机会成本、财务风险、法律后果）？
+- "顶级见识审美"作为价值项的具体衡量标准是什么？如何避免将其沦为精英主义话语下的主观偏好包装？
+- 成本盲区中的"社会化压力"表述模糊——是指外部社会评价带来的压力，还是个体适应社会规范的心理负担？这与"情绪损耗"的边界如何界定？
+- 三大决策场景（投自己/金钱/时间）是否覆盖了所有个人决策类型？关系决策（如婚姻、合作）或身体决策（如生育、医疗）如何归类？
+- "坚持只做必修课"的营销话术与科学决策倡导的理性审视之间存在张力——该框架本身是否也在制造"学习焦虑"这一隐性成本？
+- 价值盲区中的"个人背景镀金"与其他项（成就感、幸福家庭）存在潜在冲突，框架未提供优先级排序机制，用户如何权衡矛盾价值？
+- 该框架源自商业培训场景，其隐含的"个人即投资标的"逻辑是否适用于非功利性人生选择（如无偿照护、艺术创作、政治参与）？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <analysis>
+Code: <personal-decision-calculator template with weighted scoring for 9 value dimensions vs 5 cost dimensions across 3 scenario types>
+Capability: <personal-decision-review-playbook integrating implicit cost auditing into weekly/monthly life review workflow>

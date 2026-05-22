@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_ad937c9c"]
 created_at: "2026-05-21T20:13:55+00:00"
-updated_at: "2026-05-21T20:28:26+00:00"
+updated_at: "2026-05-22T07:13:03+00:00"
 ---
+
 
 
 # OCR: 一堂-科学决策-深度-L2部分定量
@@ -22,14 +23,24 @@ png` 单元模型ROI深度：L2部分定量 A B X 定量 定钱 - 本文件由 P
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 单元模型ROI分析包含深度评估层级，L2层级要求部分定量分析
+- 科学决策框架区分"定量"与"定钱"两个维度，前者关注指标量化，后者关注资金测算
+- A/B/X 可能代表决策模型中的对比方案或变量组合，用于结构化评估选项
+- ROI分析采用分层递进方法：L2层级是定性向完全定量过渡的中间阶段
+- 部分定量意味着关键变量需数值化，但允许保留部分定性判断或估算区间
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 该OCR输出极度碎片化，"A B X"与"定量 定钱"之间的逻辑关系是什么？是矩阵维度、评估步骤还是并列概念？
+- "L2部分定量"中的"L2"是课程层级（L2=Level 2）还是分析深度层级？与"L1""L3"的完整框架边界未明确
+- "定钱"是否为"定价"或"定金"的OCR误识？需人工校对确认原词
+- "单元模型ROI深度"中的"单元模型"指业务单元、分析单元还是课程单元？定义缺失
+- 若L2允许"部分定性判断或估算区间"，判定"部分定量"达标的具体阈值或标准是什么？
+- A/B/X三变量是互斥方案、组合要素还是敏感性分析参数？在ROI计算中的数学关系未说明
+- 从L2到完全定量的升级条件是什么？哪些变量必须从区间估计转为点估计？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <analysis>
+Code: <tool>
+Capability: <workflow>

@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_9eaf7399"]
 created_at: "2026-05-21T20:14:00+00:00"
-updated_at: "2026-05-21T20:38:38+00:00"
+updated_at: "2026-05-22T07:47:27+00:00"
 ---
+
 
 
 # OCR: 泛产品设计-落地卡片-设计原则
@@ -24,14 +25,26 @@ png` 泛产品设计·落地卡片 设计原则 掌握基本的UI/UE审美原则
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 泛产品设计需掌握基本UI/UE审美原则作为基础能力。
+- 页面设计和排版原则的核心价值在于专业评价能力与交互效率判断。
+- 推荐入门书籍：《写给大家看的设计书》与《Designing Interfaces（界面设计模式）》。
+- 设计原则的学习适用场景为涉及专业页面设计与内容排版的工作。
+- 进步方式明确为"读入门书+掌握一组专业评价原则"的二元路径。
+- "一堂课/两堂课"隐喻：系统性知识可通过结构化学习快速获取。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 来源文本是OCR提取结果且明确标注"可能存在连字/误识"，核心概念"泛产品设计"的定义边界是否被准确识别？原图中是否有更精确的领域限定（如"B端/C端/工具类产品"）被OCR遗漏？
+- "落地卡片"作为知识载体形式，其完整信息结构是否因OCR丢失了视觉层级？原图中"设计原则"是主标题还是副标题，"掌握基本的UI/UE审美原则"是卡片唯一原则还是多原则中的首条？
+- 推荐书籍《Designing Interfaces》的版本信息缺失（原书2005年初版，2010年第二版，2020年第三版），不同版本内容差异显著，"界面设计模式"的副标题标注是否对应特定中译本？
+- "适合场景"的表述为"涉及到专业的页面设计和内容排版的场景"，"专业"的判定标准是什么？非专业场景（如内部工具/后台系统）是否适用这些原则，原文是否有区分？
+- "进步方式"的二元路径（读书+掌握原则）是否覆盖了实践能力培养？原图中是否有"练习/项目/反馈"等第三维度被OCR遗漏，或该卡片本身即存在方法论缺口？
+- "一堂课/两堂课"隐喻的来源语境不明：是卡片作者的原创口号、引用自某教育产品slogan、还是特定社群/课程的内部黑话？该表述的权威性基础未说明。
+- 两本推荐书籍的关联性逻辑未解释：《写给大家看的设计书》侧重平面排版四大原则（对比/重复/对齐/亲密性），《Designing Interfaces》侧重交互模式库，二者如何构成互补而非简单并列的学习路径？
+- "UI/UE审美原则"中"UE"术语使用存在时代争议（现行业更通用"UX"），该表述是原文如此、OCR误识（如"UX"被识别为"UE"）、还是特定组织/时期的术语习惯？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <article/tutorial/report/analysis>
+Code: <script/tool/template>
+Capability: <workflow/playbook/skill/agent>

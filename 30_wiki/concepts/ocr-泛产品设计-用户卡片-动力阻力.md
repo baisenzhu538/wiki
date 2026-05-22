@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_1ec27760"]
 created_at: "2026-05-21T20:13:58+00:00"
-updated_at: "2026-05-21T20:35:18+00:00"
+updated_at: "2026-05-22T07:37:29+00:00"
 ---
+
 
 
 # OCR: 泛产品设计-用户卡片-动力阻力
@@ -22,14 +23,27 @@ png` 泛产品设计·用户卡片 动力阻力 理解转化率的本质 未转�
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 转化率的三大本质要素：动力、阻力、触点。
+- 提升转化率需同时考虑增强用户动力、降低行动阻力、优化触点设计。
+- 该框架适用于所有需要提升关键转化率的场景。
+- "用户卡片"是承载动力阻力分析的具体工具形式，用于结构化理解用户转化状态。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 该框架声称适用于"所有提升关键转化率的场景"，但未界定"关键转化率"的判定标准，是否存在不适用或失效的边界条件？
+- "动力""阻力""触点"三要素之间是否存在权重差异或交互效应，还是简单并列关系？原文未说明如何量化或优先级排序。
+- "用户卡片"作为具体工具形式，其字段结构、填写规范、使用流程均未在OCR文本中体现，实际可操作性存疑。
+- 核心论断"没有什么不是一堂课解决不了的"属于营销话术还是经过验证的方法论承诺？其证据基础未呈现。
+- OCR提取自视觉材料，原文的图示关系（如动力与阻力的对比结构、转化路径的可视化）完全丢失，是否影响核心逻辑的理解准确性？
+- "进步方式"仅指向付费课程，未提供替代学习路径或开源资源，是否存在商业利益与知识客观性的潜在冲突？
+- 该框架与福格行为模型（动机-能力-提示）高度相似，但未说明理论渊源或差异化创新点，是否存在原创性归属问题？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <article/tutorial/report/analysis or empty>
+Code: <script/tool/template or empty>
+Capability: <workflow/playbook/skill/agent or empty>
+
+Content: analysis
+Code: tool
+Capability: playbook

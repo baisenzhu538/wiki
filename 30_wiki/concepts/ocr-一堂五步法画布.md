@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_2a547df5"]
 created_at: "2026-05-21T20:13:56+00:00"
-updated_at: "2026-05-21T20:31:17+00:00"
+updated_at: "2026-05-22T07:22:51+00:00"
 ---
+
 
 
 # OCR: 一堂五步法画布
@@ -22,14 +23,24 @@ png` 一堂五步法画布YitangFive-stepCanvas 假设 需求 解决方案 商�
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 一堂五步法画布（Yitang Five-step Canvas）是一个结构化业务分析框架，包含五个递进阶段：假设、需求、解决方案、商业模式、增长与壁垒。
+- 该框架要求明确区分两类核心假设：价值假设（验证产品是否真正解决用户问题）与增长假设（验证业务能否规模化扩张）。
+- 画布以"我的业务"为中心展开，强调从业务本质出发进行系统性推演，而非套用固定模板。
+- 最终阶段"增长/壁垒"采用合并且置设计，暗示规模化与护城河构建需同步考量，二者相互强化。
+- 五步法遵循从虚到实、从验证到构建的逻辑：先验证假设与需求真实性，再设计解决方案，最后确立商业模式并规划增长路径。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 原始图片中的"增衣"是否为"增长"的OCR误识，需人工核对原图确认？
+- "一堂"指代的是特定机构（如"一堂创业课"）还是通用术语，其方法论来源与权威性如何验证？
+- 五步法中"假设"与"需求"的先后顺序是否存在逻辑循环风险——需求发现本身是否已隐含假设？
+- "价值假设"与"增长假设"的二分法是否覆盖了所有关键假设类型（如技术可行性假设、政策合规假设）？
+- "增长/壁垒"的合并设计是刻意为之还是OCR排版误差，原图中二者的视觉权重是否对称？
+- 该框架未明确标注"验证节点"或"止损标准"，五步法是否默认为线性推进而非迭代循环？
+- "我的业务"作为中心锚点，是否预设了创业者视角而忽视了平台型/生态型业务的网络效应分析？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <article: "一堂五步法画布实战手册" — 结构化教程，将OCR提取的框架与一堂方法论体系总图中的四张地图对齐，提供从假设验证到壁垒构建的完整工作流，含画布填写示例与常见逻辑陷阱（如"假设-需求"循环风险）的规避策略>
+Code: <script: `yitang-canvas-ocr-reconstructor.py` — Python工具，输入PaddleOCR原始输出+一堂五步法画布模板结构，自动修复"增衣→增长"等典型误识，重建画布五栏视觉布局，输出Markdown格式结构化画布及置信度标注>
+Capability: <playbook: "OCR-方法论画布联合校验工作流" — 整合PaddleOCR ONNX pipeline的已知bug教训（dict索引偏移、全角空格处理）与一堂类结构化画布的语义校验规则，建立"OCR提取→术语库匹配→人工复核→KDO入库"的四阶段标准作业程序>

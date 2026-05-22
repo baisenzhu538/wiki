@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_f6cf4e83"]
 created_at: "2026-05-21T20:13:58+00:00"
-updated_at: "2026-05-21T20:35:35+00:00"
+updated_at: "2026-05-22T07:38:16+00:00"
 ---
+
 
 
 # OCR: 泛产品设计-用户卡片-多视角思考
@@ -24,14 +25,27 @@ png` 6 泛产品设计·用户卡片 多视角思考 综合内部/外部/角色�
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 泛产品设计应避免单一视角，需综合内部/外部/角色等多维度进行权衡取舍。
+- 多视角思考的三个具体维度：内部/外部视角、不同岗位角色、决策者与使用者。
+- 多视角思考适用于所有涉及多角色使用的产品方案。
+- 培养多视角思考能力的关键是养成"一定多视角思考"的自觉习惯。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 内部/外部视角的具体划分标准是什么？同一组织内的不同部门是否属于"内部"还是存在嵌套层级？
+- "不同岗位角色"的颗粒度如何把握？是按职能大类（如产品/技术/运营）还是需要细化到具体职级？
+- 决策者与使用者的分离场景中，当二者身份重叠时（如自购自用），多视角框架是否仍然适用或需要调整？
+- "统一取舍"的决策机制未明确：多视角冲突时，以何种优先级或权重进行整合，是否存在明确的仲裁原则？
+- 适用范围声称"所有涉及多角色使用的产品方案"，但单角色产品是否完全无需此框架，还是仍需预防性应用？
+- "一定多视角思考"作为习惯培养，是否有具体的触发条件或检查清单，还是依赖主观自觉？
+- OCR文本中"堂"和"丿没有什么不是一堂课解决不了的"疑似识别错误，原文是否为其他内容，该标语与主题是否存在关联？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <article/tutorial/report/analysis or empty>
+Code: <script/tool/template or empty>
+Capability: <workflow/playbook/skill/agent or empty>
+
+Content: analysis
+Code: tool
+Capability: workflow

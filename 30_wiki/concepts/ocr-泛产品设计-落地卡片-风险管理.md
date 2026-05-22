@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_3dd58dff"]
 created_at: "2026-05-21T20:14:00+00:00"
-updated_at: "2026-05-21T20:39:08+00:00"
+updated_at: "2026-05-22T07:48:45+00:00"
 ---
+
 
 
 # OCR: 泛产品设计-落地卡片-风险管理
@@ -24,14 +25,24 @@ png` 小11 泛产品设计·落地卡片 风险管理 把风险从意外变成�
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- **风险管理的本质目标**：将风险从意外转化为确定性，确保在风险发生、意外出现或环境骤变时，系统依然保持体面和可用性。
+- **底线思维原则**：设计时必须优先考虑最坏情况下的系统韧性，而非仅优化正常路径。
+- **风险管理四步法**：预判风险（提前设想意外可能性）→ 监控风险（设计及时发现机制）→ 应对策略（预设应对方案）→ 持续迭代。
+- **适用场景判定**：所有重大、关键、不容有失的方案设计都必须经过风险管理流程。
+- **能力提升路径**：通过强制练习风险的预判和应对来逐步提高风险管理能力，无法一蹴而就。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 如何判断一个方案是否属于"重大的/关键的/不容有失的"范畴，是否存在明确的分级标准或评估维度？
+- "保持体面"的具体衡量标准是什么，是用户体验、商业声誉还是其他指标，如何避免主观判断偏差？
+- 监控风险机制中"及时发现"的时间阈值如何界定，不同场景下的容忍度是否有差异？
+- 应对策略的预设深度应达到什么程度，是框架性思路还是可立即执行的详细预案？
+- "强迫思考并练习"的具体方法论和频率要求未说明，如何确保练习有效性而非流于形式？
+- 风险管理四步法与"持续迭代"之间的衔接机制未明确，迭代触发条件和评估标准是什么？
+- 底线思维与正常路径优化之间的资源分配冲突如何解决，是否存在量化决策模型？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <article/tutorial/report/analysis>
+Code: <script/tool/template>
+Capability: <workflow/playbook/skill/agent>

@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_78d5f0a4"]
 created_at: "2026-05-21T20:13:59+00:00"
-updated_at: "2026-05-21T20:36:18+00:00"
+updated_at: "2026-05-22T07:40:17+00:00"
 ---
+
 
 
 # OCR: 泛产品设计-用户卡片-行业分析画布
@@ -24,14 +25,31 @@ png` 10 泛产品设计·用户卡片 行业分析画布 分析行业赛道的�
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 行业分析画布包含六个核心步骤：拆解产业链、洞察底层变化、预判未来稳态、判断行业周期、测算天花板大小、评估市场集中度。
+- 产业链拆解是分析行业现状的基础，需理清上下游结构与价值分配。
+- 洞察行业底层变化要求识别技术、政策、消费习惯等驱动因素的结构性转变。
+- 预判"稳态B点"指预测行业演化后的下一个相对稳定状态，用于提前布局。
+- 行业周期判断直接关联创业时机选择，需区分成长期、成熟期或衰退期。
+- 天花板测算需综合市场现状、增速与未来空间，评估机会的规模上限。
+- 行业集中度反映竞争格局，头部市场份额决定新进入者的差异化策略空间。
+- 该框架适用于所有需宏观市场机会分析的产品决策场景。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 六个步骤之间的逻辑关系与执行顺序是什么？是否存在依赖关系或可以并行推进？
+- "稳态B点"的预判方法论未具体说明：基于什么理论模型、数据输入或验证机制来确保预判可靠性？
+- 行业周期判断的标准和量化指标缺失：如何界定"好的创业时机"，有无具体阈值或案例参照？
+- 天花板测算的方法论未展开：市场现状、增速、未来空间的测算公式或数据来源是什么？
+- 行业集中度的"头部产品"定义模糊：按营收、用户量还是其他维度？集中度高低与新进入者策略的对应关系是否绝对？
+- 该框架的适用边界未检验：是否适用于高度监管行业、颠覆性创新领域或全球化市场？
+- "一堂课解决"的宣传语与框架复杂性之间存在张力：是否低估了行业分析所需的定制化深度与跨学科知识？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: article/tutorial/report/analysis or empty
+Code: script/tool/template or empty
+Capability: workflow/playbook/skill/agent or empty
+
+Content: tutorial
+Code: template
+Capability: workflow

@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_91948770"]
 created_at: "2026-05-21T20:13:57+00:00"
-updated_at: "2026-05-21T20:32:47+00:00"
+updated_at: "2026-05-22T07:29:23+00:00"
 ---
+
 
 
 # OCR: 优秀泛产品设计者的自我修养
@@ -22,14 +23,26 @@ png` 一堂·优秀泛产品设计者的自我修养 堂 YitangProductDesignInfi
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 优秀泛产品设计者的核心能力模型包含"拉审美"作为最佳实践，强调审美是可通过训练提升的设计基础能力
+- 产品打磨需要经历"多轮打磨"的迭代过程，而非一次性完成
+- 设计工作的起点是"理解用户"和"挖需求"，用户洞察优先于方案输出
+- 存在"GAP"意识——认识到当前水平与目标水平之间的差距是进步的前提
+- "坚持只做必修课"体现了聚焦核心能力、拒绝贪多的学习原则
+- 时间投入对比：系统学习3天的收益大于走弯路3年的成本，强调方法选择的重要性
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 原文中"拉审美"的具体训练方法是什么？"拉"是指提升、培养还是其他含义？
+- "GAP"具体指代什么差距？是审美差距、技能差距还是综合设计能力差距？
+- "一堂·坚持只做必修课"中的"一堂"是机构名称还是课程单位？"必修课"的筛选标准由谁定义？
+- "扫码辛苦学3天，不扫弯路走3年"的对比数据是否有实证基础，还是仅为营销修辞？
+- "优秀泛产品设计者"中的"泛"字是否OCR误识？原意是"泛产品"（跨领域产品）还是其他词汇？
+- 视觉结构信息缺失的情况下，"YitangProductDesignInfiniteProgressHikingRoadmap"的层级关系如何确定？是否为独立副标题？
+- "A 👍 A"的符号组合是OCR识别错误还是原图确实存在的评价标记？其语义功能是什么？
+- 该内容是否为一堂课程的宣传物料而非系统性知识框架？知识提取的客观性是否受来源性质影响？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <article: "OCR 质量分级与知识提取校验指南——从'一堂·优秀泛产品设计者'误识案例看视觉结构重建方法论">
+Code: <tool: `ocr-yitang-pipeline-enhancer.js` — 针对教育培训类海报/路线图优化的 PaddleOCR 后处理工具，集成层级结构推断（标题/副标题/正文分块）、营销修辞识别标记、"GAP"等专业术语字典扩展、以及 👍 等符号语义解析>
+Capability: <workflow: "OCR→KDO 知识提取双循环校验 Playbook" — 定义原始图片→ONNX 推理→结构重建→人工校对→知识卡片生成的五步工作流，明确每步的交付物、质量门控标准（如"视觉结构信息缺失时强制原图比对"）及异常升级路径>

@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_a1a098d5"]
 created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-22T06:53:25+00:00"
+updated_at: "2026-05-22T06:55:13+00:00"
 ---
+
 
 
 
@@ -26,14 +27,31 @@ png` 提问刻意练习提升画布ByYITANG 维度 Level1.
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 提问能力分为四级递进维度：业务分析（找答案）→ 辅导团队（提升员工找答案能力）→ 咨询教练（帮助客户提升找答案能力）→ 萃取经验（与专家共创方法论）。
+- 每级维度有明确的提问对象、目标、难度星级及典型场景，形成从内部问题解决到外部知识生产的完整光谱。
+- Level 1 业务分析的核心套路是理解问题、不断追问、交叉验证，工具箱包含 STAR、SMART、MECE。
+- Level 2 辅导团队的核心套路是对齐目标、建设性提问、引导建模，工具箱包含 GROW、强迫思考、六个 why。
+- Level 3 咨询教练的核心套路是达成共识、共同评估、探讨解法，工具箱包含关键假设、加减法、TopN 优先级。
+- Level 4 萃取经验的核心套路是界定内核边界、代入场景、辩证讨论，工具箱包含代入问题场景、追问榨干经验、苏格拉底式提问。
+- 提问难度随层级递增：业务分析一星，辅导团队二星，咨询教练三星，萃取经验五星，反映从执行到创造的知识复杂度跃迁。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 为什么难度评级从1星直接跳到2星、3星、5星，缺少4星？这是刻意设计还是OCR遗漏？
+- "一堂提炼259"中的"259"具体指什么？是课程编号、方法论代号还是OCR误识？
+- Level 4萃取经验的"内核边界"具体如何界定？操作标准是什么？
+- "强迫思考"作为工具箱条目，具体指什么技术？与"六个why"如何区分使用场景？
+- 从Level 3到Level 4的难度跃迁（3星→5星）跨越了4星，是否意味着存在未明示的中间层级或能力断层？
+- "加减法"在咨询教练场景中的具体含义和操作步骤是什么？
+- 该框架的递进关系是否经过实证验证？还是基于个人经验归纳？
+- 视觉结构信息缺失导致"基本套路"与"工具箱"的层级关系不明确，二者是并列还是包含关系？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <article/tutorial/report/analysis or empty>
+Code: <script/tool/template or empty>
+Capability: <workflow/playbook/skill/agent or empty>
+
+Content: 提问刻意练习分级能力诊断报告
+Code: 四级提问能力自评与场景匹配工具（含STAR/GROW/苏格拉底式提问等8个模型的交互式决策树）
+Capability: 个人修炼-提问能力跃迁Playbook（含Level1→4的刻意练习路径、场景切换信号识别与工具箱调用SOP）
