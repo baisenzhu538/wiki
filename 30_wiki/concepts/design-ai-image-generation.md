@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: ["src_20260522_38173b48"]
 created_at: "2026-05-21T20:13:51+00:00"
-updated_at: "2026-05-21T20:22:15+00:00"
+updated_at: "2026-05-22T06:47:21+00:00"
 ---
+
 
 
 
@@ -25,14 +26,20 @@ com/zh-CN/nano-banana-pro-prompts
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- NANO BANANA PRO is a referenced AI image generation tool/resource with documented prompt patterns available at youmind.com/zh-CN/nano-banana-pro-prompts.
+- The source material originated from a prompt best practices collection, indicating community-curated knowledge transfer for AI image generation workflows.
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- What specific prompt patterns does NANO BANANA PRO use, and how do they differ from standard Midjourney/Stable Diffusion prompt structures?
+- Why was this single entry split from a larger prompt best practices collection—was it incomplete, deprecated, or separated for a specific purpose?
+- What validation exists that these prompts are "commonly used" versus aspirational or untested examples?
+- Does the youmind.com documentation include version history or updates to account for model changes in underlying image generators?
+- What is the relationship between NANO BANANA PRO and the youmind.com platform—is it an official tool, community project, or third-party documentation?
+- Are there quantitative results (comparison tests, user surveys) demonstrating these prompts outperform alternatives, or is effectiveness assumed?
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: skill or agent
+Content: article
+Code: prompt-comparison-tool
+Capability: workflow
