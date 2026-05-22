@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-个人修炼-科学提问刻意练习"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: ["src_20260522_f70d7a7d"]
 created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-21T20:13:52+00:00"
+updated_at: "2026-05-22T05:33:47+00:00"
 ---
+
 
 # OCR: 一堂-个人修炼-科学提问刻意练习
 
@@ -21,14 +22,26 @@ png` 辅导 咨询 业务分析 团队 萃取经验 Analysis 教练 Teaching Soc
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 科学提问与刻意练习被定位为一项可修炼的个人成长能力，而非天赋或偶然行为。
+- 该能力体系横跨多个应用场景：辅导咨询、业务分析、团队管理、经验萃取、教练技术、教学、苏格拉底式对话。
+- "成长地图"暗示科学提问能力可通过结构化路径分阶段培养，而非零散技巧堆砌。
+- 刻意练习（deliberate practice）原则适用于认知技能领域，强调有反馈、有目标的重复训练优于单纯经验积累。
+- 苏格拉底式提问（Socratic questioning）被纳入核心方法，表明深度追问与逻辑检视是科学提问的古典根基。
+- 经验萃取（knowledge extraction）是科学提问的重要产出方向，将隐性经验转化为可复用的显性知识。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 该"成长地图"的具体阶段划分、各阶段能力指标及进阶标准是什么？原文仅提及概念而未展示结构。
+- "科学提问"的操作性定义与评估标准未明确：如何判断一个问题是否"科学"，是否存在可量化的质量维度？
+- 刻意练习的反馈机制来源未说明：在自我修炼场景中，学习者如何获得有效反馈以避免"错误练习"的固化？
+- 七个应用场景（辅导咨询、业务分析等）的提问技术差异未被区分：是否存在通用核心模型，还是各领域需要独立的方法论适配？
+- "堂内部使用·谢绝传播"的标注暗示该内容为组织内部知识资产，其理论来源（原创/整合/引用）及外部验证状态未知。
+- 苏格拉底式提问与现代认知科学中的提问研究如何衔接？原文未说明古典方法是否经过实证研究的更新或修正。
+- 经验萃取的"科学提问"技术与常规访谈/问卷方法的本质区别未阐明，其独特价值主张缺乏论证。
+- OCR提取的文本碎片（如"Analysis"单独成行）与周边中文内容的逻辑关系存疑，原始视觉结构可能包含未识别的层级信息。
 
 ## Output Opportunities
 
-- Content: report or analysis
-- Code:
-- Capability: workflow or playbook
+Content: article
+Code: 
+Capability: playbook
