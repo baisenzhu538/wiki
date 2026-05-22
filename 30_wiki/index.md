@@ -1,12 +1,9 @@
 # Wiki Index
 
 
-_Last updated: 2026-05-21T20:41:27+00:00_
+_Last updated: 2026-05-22T05:01:38+00:00_
 
 - [2026-05-17 深夜感想](concepts/2026-05-17-深夜感想.md) - source `src_20260522_390d75a8`
-- [EC工业化规范手册](concepts/EC工业化规范手册.md) - source `src_20260503_dadc7838`
-- [HIS系统开发实现方案-架构师指南](concepts/HIS系统开发实现方案-架构师指南.md) - source `src_20260503_1a1f0312`
-- [HIS系统深度调研](concepts/HIS系统深度调研.md) - source `src_20260503_968e0210`
 - [AIMA AI思维卡 — 外部链接归档](concepts/aima-ai思维卡-外部链接归档.md) - source `src_20260522_a8e05d98`
 - [AI 原生创业四阶段模型（Anthropic 创始人手册）](concepts/anthropic-官方发布创始人手册打造-ai-原生初创公司.md) - source no source
 - [Business Analysis](concepts/business-analysis.md) - source `src_20260522_9d98d526`
@@ -14,7 +11,10 @@ _Last updated: 2026-05-21T20:41:27+00:00_
 - [DeepSeek V4 在知识管理系统中的应用](concepts/deepseek-v4-在知识管理系统中的应用.md) - source `src_20260505_7766e197`
 - [Design / Ai Image Generation](concepts/design-ai-image-generation.md) - source `src_20260522_38173b48`
 - [EC工业化规范手册 v2.8.0](concepts/ec工业化规范手册-v2.8.0.md) - source `src_20260503_feab72b2`
+- [EC工业化规范手册](concepts/EC工业化规范手册.md) - source `src_20260503_dadc7838`
 - [Graph RAG — Knowledge-Graph-Powered Retrieval](concepts/graph-rag.md) - source no source
+- [HIS系统开发实现方案-架构师指南](concepts/HIS系统开发实现方案-架构师指南.md) - source `src_20260503_1a1f0312`
+- [HIS系统深度调研](concepts/HIS系统深度调研.md) - source `src_20260503_968e0210`
 - [Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)](concepts/kdo_product_design_agent_final.md) - source `src_20260503_52ae08ba`
 - [Kimi 深度调研集群方法论 (Deep-Research-Swarm)](concepts/kimi-深度调研集群方法论-deep-research-swarm.md) - source `src_20260502_7d7c1b7c`
 - [Knowledge Delivery OS 快速体验指南 - 飞书云文档](concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md) - source `src_20260501_6a491b80`
@@ -63,13 +63,10 @@ _Last updated: 2026-05-21T20:41:27+00:00_
 - [OCR: 一堂-科学决策-ROI决策评估画布-案例03](concepts/ocr-一堂-科学决策-roi决策评估画布-案例03.md) - source `src_20260522_01bac741`
 - [OCR: 一堂-科学决策-ROI决策评估画布-案例04](concepts/ocr-一堂-科学决策-roi决策评估画布-案例04.md) - source `src_20260522_94699fa0`
 - [OCR: 一堂-科学决策-ROI决策评估画布](concepts/ocr-一堂-科学决策-roi决策评估画布.md) - source `src_20260522_c78c1f2e`
-- [OCR: 一堂-科学决策-ROI高阶训练全景图](concepts/ocr-一堂-科学决策-roi高阶训练全景图.md) - source `src_20260522_43b15d45`
-- [OCR: 一堂-科学决策-X型Y型决策习惯对比](concepts/ocr-一堂-科学决策-x型y型决策习惯对比.md) - source `src_20260522_765d0777`
 - [OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步](concepts/ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md) - source `src_20260522_d96543bb`
 - [OCR: 一堂-科学决策-人机协作决策](concepts/ocr-一堂-科学决策-人机协作决策.md) - source `src_20260522_33c40d41`
 - [OCR: 一堂-科学决策-关键假设ABCD模型](concepts/ocr-一堂-科学决策-关键假设abcd模型.md) - source `src_20260522_3261e6bd`
 - [OCR: 一堂-科学决策-关键训练清单（重要））](concepts/ocr-一堂-科学决策-关键训练清单重要.md) - source `src_20260522_ac7f8874`
-- [OCR: 一堂-科学决策-决策三角形](concepts/ocr-一堂-科学决策-决策三角形.md) - source `src_20260522_f3429a35`
 - [OCR: 一堂-科学决策-发现决策](concepts/ocr-一堂-科学决策-发现决策.md) - source `src_20260522_1a2ffc3e`
 - [OCR: 一堂-科学决策-商业模式-完整财务公式决策](concepts/ocr-一堂-科学决策-商业模式-完整财务公式决策.md) - source `src_20260522_c59acefd`
 - [OCR: 一堂-科学决策-宽度-个人](concepts/ocr-一堂-科学决策-宽度-个人.md) - source `src_20260522_45957066`
@@ -92,7 +89,6 @@ _Last updated: 2026-05-21T20:41:27+00:00_
 - [OCR: 一堂-科学决策-稀缺资源清单](concepts/ocr-一堂-科学决策-稀缺资源清单.md) - source `src_20260522_d067a6ba`
 - [OCR: 一堂-科学决策-项目方案评估三角形](concepts/ocr-一堂-科学决策-项目方案评估三角形.md) - source `src_20260522_e31b26dd`
 - [OCR: 一堂-科学决策-高度-两种典型的思考习惯](concepts/ocr-一堂-科学决策-高度-两种典型的思考习惯.md) - source `src_20260522_23b5714d`
-- [OCR: 一堂-科学决策-高水平共识曲线（重要）](concepts/ocr-一堂-科学决策-高水平共识曲线重要.md) - source `src_20260522_80eadfd8`
 - [OCR: 一堂-管理必修-课程清单](concepts/ocr-一堂-管理必修-课程清单.md) - source `src_20260522_4c9a911f`
 - [OCR: 一堂Y模型-科学成事道理](concepts/ocr-一堂y模型-科学成事道理.md) - source `src_20260522_32462c98`
 - [OCR: 一堂Y模型steps策略集](concepts/ocr-一堂y模型steps策略集.md) - source `src_20260522_0bb1cb6e`
@@ -359,7 +355,7 @@ _Last updated: 2026-05-21T20:41:27+00:00_
 - [项目健康度雷达](concepts/yt-tool-project-health-radar.md) - source no source
 - [战略研讨会引导手册](concepts/yt-tool-strategy-workshop.md) - source no source
 - [互联网医院模式深度调研报告](concepts/互联网医院模式深度调研报告.md) - source `src_20260501_9962715b`
-- [人机协作决策 —— 双三角模型](concepts/人机协作决策-双三角模型.md) - source `src_20260522_55f812d7`
+- [人机协作决策——双三角模型](concepts/人机协作决策-双三角模型.md) - source no source
 - [保达云诊所深度调研报告](concepts/保达云诊所深度调研报告.md) - source `src_20260503_ae1921d5`
 - [在设计小伙伴的反馈还挺好的。](concepts/在设计小伙伴的反馈还挺好的.md) - source `src_20260522_fef0b51b`
 - [存储策略](concepts/存储策略.md) - source `src_20260522_42622b63`
