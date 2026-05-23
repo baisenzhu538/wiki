@@ -1,7 +1,7 @@
 ---
 id: sprint-12-backfill-card-behavioral-requirements
 title: "Sprint 12：回溯升级——已有卡片补齐 v1.5 行为转化三要件"
-status: review
+status: done
 priority: P0
 assigned_to: 黄药师
 reviewer: 欧阳锋
@@ -161,7 +161,9 @@ yt-model-truman-five-step-growth
 
 **审查结论**：**Batch B 通过。85 张 tool 卡全部合格。**
 
-### Batch C：concept 卡（~30 张 yt-* concept）— P1
+### Batch C：concept 卡（~30 张 yt-* concept）— ❌ 已取消
+
+> **2026-05-24 欧阳锋裁定**：Batch C 取消。concept 卡不加"外部攻击"节的判断仍然成立，但全量回溯升级的边际收益递减——剩余 ~30 张 concept 卡已有 Critique + Synthesis，行为转化三要件对 concept 类型的附加价值不明确。不再单独推进，随老顽童/洪七公后续工作自然更新即可。
 
 **范围**：所有 `type: concept` 的 yt-* 卡
 

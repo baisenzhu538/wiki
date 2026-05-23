@@ -79,18 +79,18 @@ updated: 2026-05-24 (🆕 单元模型域全量编译已分配 · 黄药师 Batc
 | 16 | 🔥 `kdo video render` 修两个缺口（散文体+TTS） | **P0** | ✅ | `fa66855`。散文体提取 + edge-tts 集成。32 video tests，317 total |
 | 17 | `kdo video render` 遗留缺陷（Seg5 TTS + compose 动态帧时长） | **P1** | ✅ | `dee0f83`。Seg 5 558.5s→70.5s；compose 按 audio 时长比例分配帧。+5 tests，36 video total，321 total |
 | 18 | 🔥 G1-G4 管线工具链补齐（route + produce 分型 + video 统一 + connector run） | **P0** | ✅ | `1735a7c`。欧阳锋审查：A。364 tests (+43)。已 push GitHub |
+| 19 | 🔥 **Sprint 12**：回溯升级 v1.5 行为转化三要件（Batch A 25 张 framework + Batch B 85 张 tool） | **P0** | ✅ | 110/110 卡全部 PASS。欧阳锋抽检 14/14 A 级（2026-05-18）。Batch C（~30 concept）已取消。详见 [[sprint-12-backfill-card-behavioral-requirements]] |
+| 🍽️ | 狗粮任务：AI学习域全管线 → 2 篇文章 + 体验笔记 | P1 | ✅ | A。文章 A/A-。体验笔记 A+，发现 7 个管线缺陷（含 2 个 P0）。详见 [[task-20260524-huangyaoshi-ai-study-dogfood]] |
 
 ### 黄药师 — 当前任务
 
 | 顺序 | 任务 | 估时 | 状态 |
 |:--:|------|:--:|:--:|
-| 🍽️ | **狗粮任务**：AI学习域全管线 → 2篇文章 | 2-3h | ⏳ 待开工 |
 | 21 | **断链批量修复**（~113个） | ~45min | ⏳ |
 | 22 | **frontmatter 批量补全**（~271张） | ~30min | ⏳ |
 | 23 | **新旧格式统一**（~166张） | ~20min | ⏳ |
 
-> 🍽️ 狗粮任务是一次性体验——自己用自己建的工厂从头到尾产出文章。发现的问题写入体验笔记。
-> [[70_product/tasks/task-20260524-huangyaoshi-ai-study-dogfood]]
+> 🆕 狗粮任务已完成（A）。发现 7 个管线缺陷 → 提炼为 Batch 9 工单（详见 [[huangyaoshi-next-tasks]]）。
 > Batch 8 任务（21-23）详见 [[70_product/tasks/huangyaoshi-next-tasks#batch-8-a-类脚本化修复p0顺序执行]]
 
 ---
