@@ -147,11 +147,41 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[lean-canvas-maurya]]
 - [[30_wiki\concepts\yt-decision-canvas.md]]
 
+## [[master-antifragile-checklist]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-roi决策评估画布-案例02.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-稀缺机会窗口.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-稀缺资源清单.md]]
+
 ## [[master-cognitive-bias-checklist]]
 - [[30_wiki\concepts\yt-tool-hiring-scorecard.md]]
 - [[30_wiki\concepts\yt-tool-meeting-designer.md]]
 
 ## [[master-decision-hygiene]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-roi决策评估画布-案例01.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-roi决策评估画布-案例03.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-roi决策评估画布-案例04.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-roi决策评估画布.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-关键训练清单重要.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-发现决策.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-商业模式-完整财务公式决策.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-宽度-个人.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-宽度-企业.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-宽度-团队.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-l1优先级定性.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-l2部分定量.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-l3定量公式.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-l4-案例01.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-l4严格财务公式.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-决策经验值.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例01.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例02.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例03.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例04.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例05.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例06.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-高度-两种典型的思考习惯.md]]
 - [[30_wiki\concepts\yt-management-toolkit-overview.md]]
 - [[30_wiki\concepts\yt-tool-equity-checklist.md]]
 - [[30_wiki\concepts\yt-tool-hiring-scorecard.md]]
@@ -366,6 +396,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-prompt-iterative-prompting.md]]
 
 ## [[yt-concept-weapon-arsenal]]
+- [[30_wiki\concepts\ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md]]
 - [[30_wiki\concepts\yt-concept-ai-guard-brain.md]]
 - [[30_wiki\concepts\yt-concept-context-engineering.md]]
 - [[30_wiki\concepts\yt-management-basic-skills.md]]
@@ -412,6 +443,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-decision-full-process.md]]
 
 ## [[yt-decision-ai-partner]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-人机协作决策.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-高度-两种典型的思考习惯.md]]
 - [[30_wiki\concepts\yt-decision-canvas.md]]
 - [[30_wiki\concepts\yt-decision-depth-ladder.md]]
 - [[30_wiki\concepts\yt-decision-habit-shift.md]]
@@ -421,6 +455,23 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\人机协作决策-双三角模型.md]]
 
 ## [[yt-decision-canvas]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-roi决策评估画布-案例01.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-roi决策评估画布-案例02.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-roi决策评估画布-案例03.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-roi决策评估画布-案例04.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-roi决策评估画布.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-关键训练清单重要.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-l1优先级定性.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-l2部分定量.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-l3定量公式.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-l4-案例01.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-l4严格财务公式.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例01.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例03.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例04.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例05.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-稀缺资源清单.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-项目方案评估三角形.md]]
 - [[30_wiki\concepts\yt-decision-ai-partner.md]]
 - [[30_wiki\concepts\yt-decision-consensus-iceberg.md]]
 - [[30_wiki\concepts\yt-decision-depth-ladder.md]]
@@ -447,6 +498,20 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\frameworks\yt-decision-abcd-model.md]]
 
 ## [[yt-decision-depth-ladder]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-商业模式-完整财务公式决策.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-l1优先级定性.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-l2部分定量.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-l3定量公式.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-l4-案例01.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-l4严格财务公式.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-决策经验值.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例01.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例02.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例03.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例04.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例05.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例06.md]]
 - [[30_wiki\concepts\yt-decision-consensus-iceberg.md]]
 - [[30_wiki\concepts\yt-decision-full-process.md]]
 - [[30_wiki\concepts\yt-decision-habit-shift.md]]
@@ -458,10 +523,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\frameworks\yt-decision-abcd-model.md]]
 
 ## [[yt-decision-full-process]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-人机协作决策.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-发现决策.md]]
 - [[30_wiki\concepts\yt-tool-strategy-workshop.md]]
 - [[30_wiki\frameworks\yt-decision-abcd-model.md]]
 
 ## [[yt-decision-habit-shift]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-人机协作决策.md]]
 - [[30_wiki\concepts\yt-concept-peas-insight.md]]
 - [[30_wiki\concepts\yt-decision-consensus-iceberg.md]]
 - [[30_wiki\concepts\yt-decision-depth-ladder.md]]
@@ -474,6 +543,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\人机协作决策-双三角模型.md]]
 
 ## [[yt-decision-height-method]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-高度-两种典型的思考习惯.md]]
 - [[30_wiki\frameworks\yt-decision-abcd-model.md]]
 
 ## [[yt-decision-height-toolkit]]
@@ -481,6 +551,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-decision-depth-ladder.md]]
 - [[30_wiki\concepts\yt-decision-full-process.md]]
 - [[30_wiki\frameworks\yt-decision-abcd-model.md]]
+
+## [[yt-decision-key-hypotheses]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-roi决策评估画布-案例01.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-关键假设abcd模型.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-关键训练清单重要.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-项目方案评估三角形.md]]
 
 ## [[yt-decision-red-team-blue-team]]
 - [[30_wiki\tools\yt-tool-strategy-workshop.md]]
@@ -494,6 +570,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\frameworks\yt-decision-abcd-model.md]]
 
 ## [[yt-decision-width-method]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-roi决策评估画布.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-发现决策.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-宽度-个人.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-宽度-企业.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-宽度-团队.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例02.md]]
 - [[30_wiki\concepts\yt-decision-consensus-iceberg.md]]
 - [[30_wiki\concepts\yt-decision-depth-ladder.md]]
 - [[30_wiki\concepts\yt-decision-full-process.md]]
@@ -506,6 +588,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\tools\yt-tool-okr-cycle.md]]
 
 ## [[yt-decision-y-model]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-关键假设abcd模型.md]]
 - [[30_wiki\concepts\yt-concept-peas-insight.md]]
 - [[30_wiki\concepts\yt-decision-ai-partner.md]]
 - [[30_wiki\concepts\yt-decision-canvas.md]]
@@ -531,6 +614,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-entrepreneur-barriers.md]]
 
 ## [[yt-entrepreneur-five-step-method]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-roi决策评估画布-案例03.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-关键假设abcd模型.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-商业模式-完整财务公式决策.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例06.md]]
 - [[30_wiki\concepts\yt-entrepreneur-259-milestone.md]]
 - [[30_wiki\concepts\yt-entrepreneur-barriers.md]]
 - [[30_wiki\concepts\yt-entrepreneur-business-growth.md]]
@@ -573,6 +660,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-model-conversion-optimization.md]]
 
 ## [[yt-entrepreneur-industry-forecast]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-深度-决策经验值.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-稀缺机会窗口.md]]
 - [[30_wiki\concepts\yt-entrepreneur-barriers.md]]
 - [[30_wiki\concepts\yt-entrepreneur-concentration-analysis.md]]
 - [[30_wiki\concepts\yt-model-prediction-model.md]]
@@ -637,11 +727,18 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-model-liberate-thinking-layers.md]]
 - [[30_wiki\concepts\yt-personal-ipo-learning.md]]
 
+## [[yt-entrepreneur-life-design]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-宽度-个人.md]]
+
 ## [[yt-entrepreneur-needs-analysis]]
 - [[30_wiki\concepts\yt-personal-ai-capability.md]]
 - [[30_wiki\concepts\yt-personal-product-design.md]]
 
 ## [[yt-entrepreneur-opportunity-selection]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-roi决策评估画布-案例02.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-宽度-企业.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-稀缺机会窗口.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-稀缺资源清单.md]]
 - [[30_wiki\concepts\yt-model-prediction-model.md]]
 
 ## [[yt-entrepreneur-pragmatic-startup]]
@@ -848,6 +945,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-decision-review.md]]
 
 ## [[yt-management-project-management]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-宽度-团队.md]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-项目方案评估三角形.md]]
 - [[30_wiki\concepts\yt-management-goal-management.md]]
 - [[30_wiki\concepts\yt-management-scientific-meetings.md]]
 - [[30_wiki\concepts\yt-management-team-knowledge.md]]
@@ -980,6 +1079,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-model-dual-triangle-competitiveness]]
 - [[30_wiki\concepts\anthropic-官方发布创始人手册打造-ai-原生初创公司.md]]
+- [[30_wiki\concepts\ocr-一堂-个人修炼-全景图muse模型.md]]
 - [[30_wiki\concepts\yt-model-muse-ai-framework.md]]
 - [[30_wiki\entities\一堂.md]]
 
@@ -1073,6 +1173,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\entities\一堂.md]]
 
 ## [[yt-model-muse-ai-framework]]
+- [[30_wiki\concepts\ocr-一堂-个人修炼-全景图muse模型.md]]
 - [[30_wiki\concepts\yt-model-dual-triangle-competitiveness.md]]
 - [[30_wiki\entities\一堂.md]]
 
@@ -1295,6 +1396,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\tools\yt-tool-strategy-workshop.md]]
 
 ## [[yt-model-prediction-model]]
+- [[30_wiki\concepts\ocr-预判模型.md]]
 - [[30_wiki\concepts\yt-panproduct-aesthetic-modeling.md]]
 - [[30_wiki\concepts\yt-panproduct-demand-five-step-method.md]]
 - [[30_wiki\concepts\yt-panproduct-execution-logic-mece.md]]
@@ -1362,6 +1464,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\entities\一堂.md]]
 
 ## [[yt-model-truman-five-step-growth]]
+- [[30_wiki\concepts\ocr-一堂-个人修炼-科学学习ipo-全景策略.md]]
 - [[30_wiki\concepts\yt-model-truman-career-routes.md]]
 - [[30_wiki\entities\一堂.md]]
 
@@ -1399,6 +1502,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\entities\一堂.md]]
 
 ## [[yt-panproduct-aesthetic-modeling]]
+- [[30_wiki\concepts\ocr-预判模型.md]]
 - [[30_wiki\concepts\yt-panproduct-aesthetic-imagination.md]]
 - [[30_wiki\concepts\yt-panproduct-aesthetic-pool.md]]
 - [[30_wiki\concepts\yt-panproduct-execution-design-principles.md]]
@@ -1645,6 +1749,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-personal-verbatim-script.md]]
 
 ## [[yt-personal-deep-review]]
+- [[30_wiki\concepts\ocr-一堂-科学决策-roi决策评估画布-案例04.md]]
 - [[30_wiki\concepts\yt-model-cognitive-upgrade-framework.md]]
 - [[30_wiki\concepts\yt-model-deep-review-iceberg.md]]
 - [[30_wiki\concepts\yt-model-deliberate-practice-growth.md]]
@@ -1684,6 +1789,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-personal-time-management.md]]
 
 ## [[yt-personal-ipo-learning]]
+- [[30_wiki\concepts\ocr-一堂-个人修炼-科学学习ipo-全景策略.md]]
 - [[30_wiki\concepts\yt-management-basic-skills.md]]
 - [[30_wiki\concepts\yt-management-goal-management.md]]
 - [[30_wiki\concepts\yt-management-leadership-levels.md]]
@@ -1758,15 +1864,18 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-personal-pan-product-02.md]]
 
 ## [[yt-personal-pan-product-tools]]
+- [[30_wiki\concepts\ocr-泛产品设计落地篇.md]]
 - [[30_wiki\concepts\yt-personal-pan-product-exploration.md]]
 
 ## [[yt-personal-product-design]]
+- [[30_wiki\concepts\ocr-泛产品设计落地篇.md]]
 - [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
 - [[30_wiki\concepts\yt-model-truman-career-routes.md]]
 - [[30_wiki\concepts\yt-personal-ai-capability.md]]
 - [[30_wiki\concepts\yt-personal-pan-product-concepts.md]]
 
 ## [[yt-personal-scientific-expression]]
+- [[30_wiki\concepts\ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md]]
 - [[30_wiki\concepts\yt-concept-weapon-arsenal.md]]
 - [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
 - [[30_wiki\concepts\yt-model-prompt-engineering.md]]
