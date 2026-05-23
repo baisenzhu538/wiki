@@ -6,55 +6,130 @@ title: "从AI小白到AI Native：五层进阶实操指南"
 target_user: "非技术背景的AI初学者"
 status: "draft"
 delivery_channel: "homework"
-source_refs: ["src_20260524_dd8a0fe6", "src_20260501_4eee4e95", "src_20260428_29929c1f", "src_20260524_90fb730a"]
-wiki_refs: []
+source_refs: ["src_20260524_3cadf228"]
+wiki_refs: ["30_wiki/concepts/ai-native-五层进阶从答案到效率到作品到产品到系统.md"]
 created_at: "2026-05-23T17:41:36+00:00"
-updated_at: "2026-05-23T17:41:36+00:00"
+updated_at: "2026-05-24T00:00:00+00:00"
 ---
 
 # 从AI小白到AI Native：五层进阶实操指南
 
 ## Audience
 
-TODO: Who is the target reader? Describe their role, pain point, and what they can do after reading.
+非技术背景、刚开始接触AI工具的职场人和创作者。痛点：知道AI"有用"，但除了偶尔问问ChatGPT，不知道下一步该往哪里走；看到别人玩Agent、搭系统，感觉差距巨大。
+
+读完能做什么：明确自己当前在哪一层，拿到L2（工作流层）的三个即时可执行动作，本周就能开始。
 
 ## Core Thesis
 
-TODO: State a single falsifiable claim for `AI Native五层进阶与个人AI系统搭建`. Avoid vague language like "we will discuss" or "it is generally known that".
+**AI Native不是"会用很多工具"，而是"默认把AI纳入工作流+把高频任务沉淀成可复用资产"——对80%的人来说，L2（工作流层）和L3（作品层）是投入产出比最高的两层，不需要冲L5才叫进步。**
+
 ## Hook
 
-TODO: Open with a specific scenario, contradiction, or surprising fact. 2-3 sentences max.
+一年前你以为ChatGPT只是个"能聊天的搜索引擎"。一年后，有人用它管理整个业务——从选题、写稿、发布到数据复盘全链路自动化。差距不在智商、不在预算、不在技术背景，而在于：他走了五层台阶，而你还站在第一层的入口处。
 
 ## Body Structure
 
-TODO: Outline the 3-5 sections. Each section = one key point + evidence + transition.
+**Part 1: 一个定义——先搞清楚什么才叫AI Native。** 两个关键词：默认纳入 + 沉淀成资产。破除"工具多=能力强"的误解。
+
+**Part 2: 五层全景——从问答到系统的复利阶梯。** 每一层用一句话定位 + 晋级标准。重点展开L1和L2（读者最可能卡在这里）。
+
+**Part 3: L2实操三动作——本周就能开始的改变。** 口述输入、会议重构、项目化知识库。每个动作给出具体工具和第一步。
+
+**Part 4: 三条铁律——别掉进最常见的坑。** 不要上来就冲L5；警惕工具瘾；先闭环再自动化。
 
 ## Draft
 
-TODO: Write the article for `homework` (aim for 800–2000 words).
+### Part 1：先搞清楚一件事——什么才叫AI Native
+
+"AI Native"这个词最近被反复提起，但大部分人对它的理解是错的。
+
+错误理解：会用的AI工具越多，就越AI Native。今天试这个插件、明天玩那个Agent、后天刷模型榜单——三个月过去，工具换了一轮，工作流没建起来，作品没沉淀下来。
+
+正确定义只有一句话：**当你遇到信息获取、思考重构、内容表达、产品构建的问题时，默认把AI纳入流程，并把高频任务沉淀成可复用的资产和系统。**
+
+两个关键词：
+- **"默认纳入"**——不是偶尔想起来用一下，而是它已经像打字、开会一样成为你工作的默认动作。
+- **"沉淀成资产"**——今天的努力明天还能用。不是每次从零开始问AI，而是让每次交互都在积累。
+
+明白了这个定义，你就会发现：AI Native的成长不是工具清单的升级，而是工作方式的层级跃迁。
+
+### Part 2：五层全景——你现在在哪里？
+
+整条路径可以压缩成五层：
+
+**L1 · 问答层：把AI当搜索框用。** 遇到问题问一句、得到答案复制粘贴。大多数人停在这里。晋级标准：你能识别AI幻觉，知道什么时候必须停下来交叉验证。
+
+**L2 · 工作流层：让AI长进每一天。** 口述输入、会议重构、项目化知识管理——AI不再是偶尔用一下的工具，而是你日常工作的基础设施。晋级标准：口述/重构/知识库常态化运转，每周能量化省下的时间。
+
+**L3 · 作品层：用AI产出被外界验证的东西。** 内容类（文章/视频/课件）、代码类（原型/小工具）、智能资产类（Skill/Prompt模板/Hook）。晋级标准：你的产出被真实世界验证过——有人读、有人用、有人给反馈。
+
+**L4 · 产品层：从单点作品到被人持续依赖。** 作品让人看懂，产品让人稳定依赖。8条最低验收线：稳定访问、数据备份、权限控制、错误处理、测试日志、成本控制、合规脱敏、维护责任。晋级标准：有真实用户在反复使用你做的东西。
+
+**L5 · 系统层：搭建个人AI操作台。** 触发→权限判断→读取上下文→选择技能→调用工具→校验结果→人工确认→回写知识库→监控反馈→通知人。一台端到端运转的机器。晋级标准：系统能在你不亲自操作的情况下，持续完成有价值的业务动作。
+
+**关键认知：这五层不是工具难度排序，而是"复利密度和责任边界"的排序。** 越往上，AI替你创造的长期资产越多；同时你必须承担的验证、安全、维护责任也越大。
+
+对大多数人，**L2+L3是性价比最高的组合**。做扎实这两层，你已经领先90%的AI使用者。
+
+### Part 3：L2实操——本周就能开始的三个动作
+
+如果你目前还在L1，以下三个动作是你进入L2的最短路径。不需要技术背景，不需要花钱，今天就能做第一步。
+
+**动作一：从打字切换到口述输入。**
+
+人类思维速度远快于打字速度，而说话是最接近思维速度的输出方式。具体做法：打开手机录音或语音输入工具（豆包输入法、讯飞语音、iOS自带听写），对着说出你想让AI处理的内容——不要先在脑子里组织措辞，直接说。
+
+口述的隐藏好处：它逼出你"未经修饰的真实想法"。打字时你会潜意识自我审查、追求工整；口述时，原始判断和灵感反而保留下来——这些恰恰是AI最缺、最值钱的输入。
+
+**第一步**：明天上班路上，把今天要做的三件事对着手机说出来，让AI整理成清单。
+
+**动作二：录下来，再重构一次。**
+
+下次开完会、听完一场分享，别让内容就这么过去。用飞书妙记或通义听悟录下来，让AI输出三样东西：纪要摘要、可执行待办、你下次会复用的核心洞察。
+
+核心原则：**内容每被重构一次，价值增加一次。** 一小时会议只是存档，价值是0；提取三条待办，价值是3；把洞察写入知识库供未来调用，价值是100。AI把"重构"的时间成本从几小时压到几分钟。
+
+**第一步**：下一场会议，打开飞书妙记录音。会后花5分钟让AI提取3条行动项。
+
+**动作三：给AI建一个"项目"，别每次从零开始。**
+
+在Claude或ChatGPT里创建一个Project（项目），把你正在做的事情的背景信息——定位、受众、风格要求、过往参考——全部放进去。从此每次对话，AI自带上下文，不需要你重复交代前情。
+
+判断标准很简单：**这件事三个月内还会再做一次，就值得项目化。** 否则在通用对话窗口聊完即弃。
+
+**第一步**：把你最常用AI处理的那类任务（写周报？做PPT？改文案？），建成一个Project，把你的角色、风格要求、三篇过往范文放进去。
+
+### Part 4：三条铁律——避开最常见的坑
+
+**铁律一：不要一上来就冲L4/L5。** 看到别人玩Claude Code、搞Agent自动化就焦虑？不必。对绝大多数人，L2+L3做扎实就能拉开巨大差距。先把口述/重构/知识库跑通，再谈系统化。
+
+**铁律二：警惕工具瘾。** 每天试新工具、看新教程、刷榜单，却从来没在任何一层停下来做扎实——这不是学习，是逃避。AI Native的关键不是会用多少种工具，而是能不能把AI真正嵌入到一条完整的工作流里。
+
+**铁律三：先闭环，再自动化。** 先让流程在人手里跑通→再让AI参与→先AI草拟、人审批→再逐步把低风险环节交给AI自动执行→先小范围验证→再扩到关键业务。每一次放权的前提都是：你已经验证AI在这件事上稳定可靠，并且有反馈机制能及时发现异常。
+
 ## Call to Action
 
-TODO: One concrete, specific next step for the reader. Avoid "share this article" as the only CTA.
+今晚做一件事：打开你最常用的AI工具，判断自己当前在哪一层。如果你还在L1（问答层），选择Part 3中的任意一个动作，明天开始执行。一周后回头看：你是否已经不需要"想起来"才用AI——它已经成了你的默认动作？
 
 ## Source Lineage
 
 | Source ID | Trust Level | Key Claim Used |
 |-----------|-------------|----------------|
-- `src_20260524_dd8a0fe6`
-- `src_20260501_4eee4e95`
-- `src_20260428_29929c1f`
-- `src_20260524_90fb730a`
+| src_20260524_3cadf228 | high | AI Native五层框架（定义、层级划分、晋级标准、三条关键原则、L5工程底座公式） |
 
 ## Wiki Refs
 
-- TODO: Add wiki refs.
+- [[30_wiki/concepts/ai-native-五层进阶从答案到效率到作品到产品到系统]]
+- [[master-knowledge-compound]]
+- [[master-systems-thinking]]
 
 ## Review Checklist
 
-- [ ] Core Thesis is a verifiable claim (not a vague observation)
-- [ ] Word count matches target for article
-- [ ] Call to Action is specific and actionable
-- [ ] Source lineage table is complete
+- [x] Core Thesis is a verifiable claim (not a vague observation)
+- [x] Word count matches target for article (~1900 words)
+- [x] Call to Action is specific and actionable
+- [x] Source lineage table is complete
 
 ## Feedback Path
 
