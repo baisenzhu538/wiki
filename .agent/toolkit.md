@@ -26,20 +26,74 @@
 
 ---
 
-## 二、KDO CLI 核心命令
+## 二、KDO CLI 完整速查
+
+### 知识管线
 
 | 命令 | 用途 |
 |------|------|
-| `kdo query "..."` | 语义+图检索（LightRAG），回退 BM25 → 关键词 |
-| `kdo graph rebuild` | 重建 Graph RAG 索引（内容变更后） |
-| `kdo graph query "..." --json` | 直接查 Graph RAG（调试/脚本用） |
-| `kdo lint --diff` | 只报告 HEAD~1 后的新增 lint 问题 |
-| `kdo lint --baseline <ref>` | 只报告指定 ref 后的新增 lint 问题 |
-| `kdo cards --type <t> --domain <d>` | 按类型/域查询卡片 |
-| `kdo cards --count` | 只出数量 |
-| `kdo card-diff <id> --since <ref>` | 节级别变更摘要 |
-| `kdo review --sample 5 --domain <domain>` | 随机抽检卡片 |
-| `kdo status` | 库存盘点 |
+| `kdo init [path]` | 初始化 KDO 工作空间 |
+| `kdo capture <input> [--title] [--kind]` | 捕获文本/URL/文件到 00_inbox |
+| `kdo fetch-url <url> [--title] [--timeout]` | 抓取 URL 并提取文本到 00_inbox/links |
+| `kdo import-chat <path> [--title] [--format]` | 导入 AI 对话到 00_inbox/ai-chats |
+| `kdo ingest [--limit N] [--dry-run]` | 编译 inbox → raw sources + wiki 骨架 |
+| `kdo enrich [--wiki-path] [--all] [--dry-run]` | 自动填充 wiki 骨架中的 TODO 占位 |
+| `kdo query <question> [--limit N]` | 语义+图检索（LightRAG），回退到 BM25 → 关键词 |
+| `kdo produce <content\|code\|capability>/<subtype> --topic <topic>` | 创建 artifact 骨架到 40_outputs |
+| `kdo validate [artifact_id] [--advisory] [--write-report]` | 按质量门校验 artifact |
+| `kdo ship <artifact_id> --channel <channel> [--url]` | 记录交付事件到 50_delivery |
+| `kdo feedback <text> [--kind] [--artifact-id]` | 记录反馈信号到 60_feedback |
+| `kdo improve [--output] [--print] [--apply]` | 从反馈生成改进计划到 30_wiki/decisions |
+| `kdo brief --topic <topic> \| --artifact-id <id>` | 生成交接简报纸到 50_delivery/briefs |
+
+### Graph RAG
+
+| 命令 | 用途 |
+|------|------|
+| `kdo graph rebuild` | 重建 Graph RAG 索引（内容变更后运行） |
+| `kdo graph query <question> [--json]` | 直接查 Graph RAG，输出实体+关系+chunks（调试/脚本用） |
+
+### 质量与检查
+
+| 命令 | 用途 |
+|------|------|
+| `kdo lint [--strict] [--baseline <ref>] [--diff] [--accept-baseline] [--structure-report]` | 检查工作空间结构完整性 |
+| `kdo validate --v15 [--domain] [--type] [--card] [--json]` | v1.5 三信号校验（external-attacks / dont-use / action-triggers） |
+| `kdo cards [--type] [--domain] [--has] [--missing] [--count]` | 按条件列出/统计概念卡片 |
+| `kdo card-diff <id> --since <ref>` | 节级别变更摘要（新增/删除/修改） |
+| `kdo review --sample 5 --domain <domain>` | 随机抽检卡片，输出理解门禁摘要 |
+| `kdo status` | 显示工作空间库存盘点 |
+
+### 工具与自动化
+
+| 命令 | 用途 |
+|------|------|
+| `kdo scaffold --card <id> \| --batch A\|B\|C\|D\|E \| --from-plan [--write]` | 为缺失 v1.5 信号的卡生成升级骨架 |
+| `kdo clean-transcript <file>` | ASR 转录稿清理（去噪+去口头禅+分段+术语标注） |
+| `kdo validate --v15 --watch` | 文件保存自动重检（2s 防抖，Ctrl+C 退出） |
+| `kdo llm-check` | LLM 连通性自检 |
+| `kdo build [--check] [--version] [--release]` | KDO 构建系统 |
+| `kdo backup [--output <dir>]` | 备份 KDO 源码到 zip（去 .git/__pycache__/build） |
+
+### 项目管理
+
+| 命令 | 用途 |
+|------|------|
+| `kdo project <name> [--goal] [--set-status] [--set-stage]` | 产品项目管理 |
+| `kdo task <title> [--project-id] [--priority] [--done]` | 产品任务管理 |
+| `kdo connector <name> [--kind] [--target] [--run]` | 外部连接器管理 |
+| `kdo eval <capability_artifact_id> --input --expected [--actual]` | 记录/评分 capability 评测 |
+| `kdo dashboard [--output] [--view] [--serve]` | 生成静态 HTML dashboard |
+
+### 视频管线
+
+| 命令 | 用途 |
+|------|------|
+| `kdo video init <article>` | 创建视频项目骨架（_spec.md + 模板） |
+| `kdo video validate <dir>` | 三层质量门（L1 结构/L2 内容/L3 管线） |
+| `kdo video render --audio <dir>` | TTS 口播生成（edge-tts） |
+| `kdo video render --compose <dir>` | ffmpeg 帧+音频合成（动态帧时长） |
+| `kdo video ship <dir>` | 交付：draft→final + delivery record |
 
 > **Graph RAG 是纯本地**：sklearn HashingVectorizer，查询时零 API 调用。索引在 `.kdo/graph_index/`。
 
