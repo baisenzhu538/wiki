@@ -70,7 +70,7 @@ standard-concept (旧版 Condense·Critique)   20  ( 5%)  ← 缺 Synthesis
 > - Critique 缺失：在 OCR 卡中搜索 `## Critique` / `### [Critique]` / `### Critique` 节头标记。结果 136 张 OCR 卡无一张有此节头（0/136）。v1 报告的 "95% / ~130+" 错误来自：① 搜索了全部 366 张卡（非 OCR 卡有 Critique 节），未限定 `ocr-` 前缀子集；② 搜索了中文词"质疑"（这是 Critique 节内的正文用词，即使节头缺失也可能匹配到相关讨论）。
 > - Synthesis 外链：在每张 OCR 卡中统计 `[[...]]` wikilink（排除 `src_`/`ev_`/`art_` 元数据前缀），验证是否 ≥2 个。仅 1 张 OCR 卡满足 ≥2 个外部链接（99.3% 不达标）。v1 报告的 "94% / 136(全部)" 将零链接和 <2 链接混为一谈，且同样未限定 OCR 子集。
 
-**根因**：这些卡最初是用正则表达式而非 LLM 做的第一遍 enrichment（当时 Kimi 端点未配置），内容质量远低于三遍 LLM 编译标准。现在 LLM 已通，可以批量重跑 `kdo enrich --all --llm`。
+**根因**：这些卡最初是用正则表达式而非 LLM 做的第一遍 enrichment（当时 Kimi 端点未配置），结构质量低于三遍 LLM 编译标准。但**不应执行全量 `kdo enrich --all --llm`**——OCR 文本存在连字/误识（PaddleOCR ONNX 已知局限），将噪声文本送入 LLM 会产生基于错误前提的 Critique 和 Synthesis。正确路径：人工 triage → 校对 → 合并关联卡 → 再 enrich。
 
 ---
 
@@ -170,7 +170,7 @@ standard-concept (旧版 Condense·Critique)   20  ( 5%)  ← 缺 Synthesis
 | 序号 | 行动 | 责任人 |
 |------|------|--------|
 | 1 | **Inbox 分流**：233 个顶层文件按类型归入 `screenshots/` / `ideas/` / `ai-chats/` | 老顽童 |
-| 2 | **136 OCR 卡 LLM 重编译**：`kdo enrich --all --llm`（现在 LLM 已通） | 黄药师 (触发) + 老顽童 (执行) |
+| 2 | **136 OCR 卡人工 triage**：① 筛选有价值卡（排除纯噪声/微型截图碎片）；② 同一文档连续截图合并为单卡；③ 人工校对关键误识文本；④ 对校对后的合并卡执行 `kdo enrich --llm`。**不应直接全量 LLM 重编译**——OCR 噪声入 LLM 出幻觉 | 老顽童 (triage) + 洪七公 (图卡对应) + 黄药师 (enrich 触发) |
 | 3 | ~~Git commit：llm.py + ocr.py + cli.py + tests~~ ✅ 已完成 (3026355) | 黄药师 |
 
 ### P1 — 结构债（两周内）
