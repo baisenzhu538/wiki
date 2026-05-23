@@ -74,7 +74,7 @@ reviewed_by: "黄药师"
 - [[yt-model-pan-product-execution-toolkit]] — 落地工具箱（审美标准指导打磨方向）
 
 ### 关键原图
-- ![[泛产品设计-审美工具箱指南.png]]
+- !
 
 ## Critique
 
@@ -92,7 +92,6 @@ reviewed_by: "黄药师"
 - claim:boundary-02 [conf=0.75] 池子的分类标准未结构化——不同类型的产品设计（课程设计 vs 空间设计）的最佳实践池子结构不同，目前未给出MECE的分类框架
 - claim:boundary-03 [conf=0.75] "美好作品想象"与"最佳实践建模"存在张力——建模追求"不比他们差"，想象追求"超越最佳"。是先建模再超越还是边建边超越，路径不够清晰
 - claim:boundary-04 [conf=0.85] 审美能力需与需求理解（知道为谁做）和落地能力（能做出来）配合使用——单一维度的审美提升不足以产出好作品
-
 
 ## Constraints & Boundaries
 

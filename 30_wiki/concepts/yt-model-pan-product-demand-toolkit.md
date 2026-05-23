@@ -79,7 +79,7 @@ reviewed_by: "黄药师"
 - [[yt-model-pan-product-execution-toolkit]] — 落地工具箱（需求→落地的衔接）
 
 ### 关键原图
-- ![[泛产品设计-需求工具箱指南.png]]
+- !
 
 ## Critique
 
@@ -97,7 +97,6 @@ reviewed_by: "黄药师"
 - claim:boundary-02 [conf=0.75] "用户视角"卡牌虽标★建议第一张出牌，但"一秒转化用户视角"本身是需要大量刻意练习的隐性能力——卡牌的作用是提醒，而非替代训练
 - claim:boundary-03 [conf=0.75] 13张卡牌侧重定性洞察，缺少类似精益实验的定量验证环节——"用户说的"和"用户做的"之间的gap没有被系统处理
 - claim:boundary-04 [conf=0.80] 单张卡牌能解决约60%的问题，多张叠加到约90%——不应期望一张卡牌解决全部
-
 
 ## Constraints & Boundaries
 

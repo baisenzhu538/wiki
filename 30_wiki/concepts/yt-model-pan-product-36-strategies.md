@@ -80,7 +80,7 @@ reviewed_by: "黄药师"
 - [[yt-model-pan-product-execution-toolkit]] — 落地工具箱（36计第三组）
 
 ### 关键原图
-- ![[一堂泛产品设计36计-全套地图.png]]
+- !
 
 ## Critique
 
@@ -109,7 +109,6 @@ reviewed_by: "黄药师"
 - claim:boundary-02 [conf=0.75] 三级场景的边界模糊——同一个婚礼设计对新手是B级（泛产品设计），对有经验者是C级（泛产品创新）。场景分级应以"设计者当前能力"而非"任务客观复杂度"为参照系
 - claim:boundary-03 [conf=0.75] 审美工具箱从"黑盒到白盒"的跳跃缺乏路径——从"这个好"到"为什么好"再到"可复现的要素清单"，目前依赖个人悟性而非可操作步骤
 - claim:boundary-04 [conf=0.80] 36计与IPO模型的关系未被显式化——需求=Input、审美=Process、落地=Output，但课程中刻意不做此对应以避免过度理论化
-
 
 ## Visual Analysis
 

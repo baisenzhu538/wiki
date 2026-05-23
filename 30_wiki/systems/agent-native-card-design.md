@@ -123,8 +123,8 @@ estimated_tokens: 2500                      # 估算 token 数，帮助 agent �
 - [[yt-model-pan-product-36-strategies]]
 
 ### 关键原图
-- ![[一堂泛产品设计36计-全套地图.png]]
-- ![[一堂泛产品设计-十年修炼爬山地图.png]]
+- !
+- !
 
 ## Visual Analysis
 <!-- 每份分析为表格，可机器解析 -->

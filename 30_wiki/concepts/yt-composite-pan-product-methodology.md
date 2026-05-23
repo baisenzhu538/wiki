@@ -92,9 +92,9 @@ reviewed_by: "黄药师"
 - [[yt-model-pan-product-execution-toolkit]] — 落地工具箱（19张卡牌），第三维度实操集
 
 ### 关键原图
-- ![[一堂泛产品设计36计-全套地图.png]]
-- ![[一堂泛产品设计-十年修炼爬山地图.png]]
-- ![[泛产品设计的应用场景示意图.png]]
+- !
+- !
+- !
 
 ## Visual Analysis
 

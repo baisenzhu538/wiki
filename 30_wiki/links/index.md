@@ -2302,12 +2302,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\entities\一堂.md]]
 - [[30_wiki\systems\一堂方法论体系总图.md]]
 
-## [[一堂泛产品设计-十年修炼爬山地图.png]]
+## 
 - [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
 - [[30_wiki\concepts\yt-model-pan-product-climbing-map.md]]
 - [[30_wiki\systems\agent-native-card-design.md]]
 
-## [[一堂泛产品设计36计-全套地图.png]]
+## 
 - [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
 - [[30_wiki\concepts\yt-model-pan-product-36-strategies.md]]
 - [[30_wiki\systems\agent-native-card-design.md]]
@@ -2335,7 +2335,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\entities\Kimi-月之暗面.md]]
 - [[30_wiki\systems\一堂方法论体系总图.md]]
 
-## [[一堂进步大地图.png]]
+## 
 - [[30_wiki\concepts\yitang-course-map.md]]
 
 ## [[互联网医院模式深度调研报告]]
@@ -2345,7 +2345,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\projects\互联网医院项目.md]]
 - [[30_wiki\projects\诊所O2O项目.md]]
 
-## [[优秀泛产品设计者的自我修养.png]]
+## 
 - [[30_wiki\concepts\yt-model-pan-product-three-virtues.md]]
 
 ## [[保达云诊所深度调研报告]]
@@ -2360,19 +2360,19 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[开源HIS系统代码深度分析报告]]
 - [[30_wiki\concepts\HIS系统开发实现方案-架构师指南.md]]
 
-## [[泛产品设计-审美工具箱指南.png]]
+## 
 - [[30_wiki\concepts\yt-model-pan-product-aesthetic-toolkit.md]]
 
-## [[泛产品设计-需求工具箱指南.png]]
+## 
 - [[30_wiki\concepts\yt-model-pan-product-demand-toolkit.md]]
 
-## [[泛产品设计的应用场景示意图.png]]
+## 
 - [[30_wiki\concepts\yt-composite-pan-product-methodology.md]]
 
-## [[泛产品设计者的三大自我修养.png]]
+## 
 - [[30_wiki\concepts\yt-model-pan-product-three-virtues.md]]
 
-## [[泛产品设计落地工具篇指南.png]]
+## 
 - [[30_wiki\concepts\yt-model-pan-product-execution-toolkit.md]]
 
 ## [[紫鲸AI_智能体工作流平台_深度分析与产品设计]]

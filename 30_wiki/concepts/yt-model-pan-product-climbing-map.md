@@ -79,7 +79,7 @@ reviewed_by: "黄药师"
 - [[yt-model-pan-product-execution-toolkit]] — 落地工具箱（L4-L6核心工具）
 
 ### 关键原图
-- ![[一堂泛产品设计-十年修炼爬山地图.png]]
+- !
 
 ## Critique
 
@@ -107,7 +107,6 @@ reviewed_by: "黄药师"
 - claim:boundary-01 [conf=0.80] L1-L6的线性叙事过于理想化——真实的成长不是线性的，可能在一个领域L5，换个领域掉回L2。爬山地图未刻画"跨领域时能力折损"的现实
 - claim:boundary-02 [conf=0.80] "十年"的时间锚定缺乏差异化——应以"有效刻意练习小时数"为参照，而非日历年份
 - claim:boundary-03 [conf=0.75] L6不是最终段位——爬山地图L6右上角没有标注L7是刻意留白，留给达到L6的人自己去定义下一个段位
-
 
 ## Visual Analysis
 
