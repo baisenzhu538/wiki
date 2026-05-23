@@ -15,6 +15,7 @@
 | **7** | ⑥ v1.5 全库修复 | 分批 | Batch B（~69张缺Critique）→ Batch A（13张全缺）。详见表下方策略 |
 | **8** | ⑦ 管理工具箱 Batch 3（T6+T7+T8） | 6h | 每 5 张 B 卡后穿插 1 张 T 卡换脑 |
 | **🆕** | 🆕 **OCR 卡 Critique + Synthesis 补全** ← **插队** | 分批 | **136 张 OCR 卡补 Critique + Synthesis + wikilinks**。5 个 Batch，详见 [[70_product/tasks/task-20260523-laowantong-ocr-critique-synthesis]] |
+| **🆕** | 🆕 **单元模型域全量编译** ← **插队** | 3-4h | **新域编译**。5 口述稿 + 31 图→完整卡片。详见 [[70_product/tasks/task-20260524-laowantong-unit-model-domain]] |
 
 > **规则**：顺序执行。每 5 张 B 卡 → `kdo validate --v15 --card <id>` 验证 → 通知欧阳锋抽检。穿插 1 张 T 卡换脑。
 
