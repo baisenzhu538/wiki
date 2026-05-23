@@ -119,14 +119,14 @@ scope: "全库结构 + Frontmatter + 链接健康 + 积压 + 卡片质量抽样"
 
 | 次数 | 断链目标 |
 |---|---|
-| 109x | `[[30_wiki\entities\一堂.md]]` |
+| 109x | `[[一堂]]` |
 | 20x | `[[一堂调研武器库13招]]` |
 | 16x | `[[一堂调研行动营-ai辅助系统式调研方法论]]` |
-| 16x | `[[30_wiki\concepts\yt-management-toolkit-overview.md]]` |
-| 14x | `[[30_wiki\systems\一堂方法论体系总图.md]]` |
-| 14x | `[[30_wiki\concepts\yt-decision-full-process.md]]` |
+| 16x | `[[yt-management-toolkit-overview]]` |
+| 14x | `[[一堂方法论体系总图]]` |
+| 14x | `[[yt-decision-full-process]]` |
 | 13x | `[[一堂-调研行动营启动_原文润色]]` |
-| 12x | `[[30_wiki\tools\yt-tool-strategy-workshop.md]]` |
+| 12x | `[[yt-tool-strategy-workshop]]` |
 | 12x | `[[]]` 空链接 |
 | 11x | `[[30_wiki/systems/一堂方法论体系总图]]` — 正斜杠格式 |
 

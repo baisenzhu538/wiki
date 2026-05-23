@@ -165,12 +165,12 @@ source_refs: []
 - `[[90_control/PROTOCOL.md]]`
 - `[[90_control/routing-rules.md]]`
 - `[[90_control/AGENTS.md]]`
-- `[[30_wiki/log.md]]`
-- `[[30_wiki/index.md]]`
+- `[[log]]`
+- `[[index]]`
 - `[[90_control/iterations/2026-05-02-iter-001-kdo-反馈闭环建设---首次迭代.md]]`
 - `[[60_feedback/assessments/老顽童对黄药师KDO改造的独立判断.md]]`
-- `[[30_wiki/decisions/kdo-protocol-implementation-roadmap.md]]`
-- `[[30_wiki/decisions/kdo-priority-checklist.md]]`
+- `[[kdo-protocol-implementation-roadmap]]`
+- `[[kdo-priority-checklist]]`
 
 ---
 
