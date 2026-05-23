@@ -25,7 +25,7 @@ review_date: "2026-05-04"
 
 ---
 
-## [Condense] 核心定位
+## Claims
 
 | 工具 | 定位 | Stars | License | 形态 |
 |------|------|:----:|---------|------|
@@ -41,7 +41,7 @@ review_date: "2026-05-04"
 
 ---
 
-## [Condense] 各工具核心能力
+### 各工具核心能力
 
 ### Firecrawl — API优先
 
@@ -112,7 +112,7 @@ data = page.css('.product', auto_save=True)  # DOM变化后自动重定位!
 
 ---
 
-## [Condense] 对抗反爬能力排名
+### 对抗反爬能力排名
 
 | 检测手段 | Firecrawl | Crawl4AI | Scrapling |
 |----------|:---------:|:--------:|:---------:|
@@ -125,7 +125,7 @@ data = page.css('.product', auto_save=True)  # DOM变化后自动重定位!
 
 ---
 
-## [Condense] 组合策略
+### 组合策略
 
 | 场景 | 推荐 |
 |------|------|
@@ -140,7 +140,7 @@ data = page.css('.product', auto_save=True)  # DOM变化后自动重定位!
 
 ---
 
-## [Critique]
+## Critique
 
 ### 前提假设
 - 假设三个工具在2026年持续维护更新。【可靠性：高】三个均活跃开发中：Firecrawl $14.5M融资、Crawl4AI 9M+ PyPI下载、Scrapling 31K stars。
@@ -157,7 +157,7 @@ data = page.css('.product', auto_save=True)  # DOM变化后自动重定位!
 
 ---
 
-## [Synthesis]
+## Synthesis
 
 - 与 [[kimi-深度调研集群方法论-deep-research-swarm]] 互补：Deep Research集群需要大规模Web数据采集作为输入，三剑客是数据采集层
 - 与 [[一堂调研武器库13招]] 互补：13招中策略2（爬虫抓数据）、策略9（公开信息收集）可直接用这三个工具实现

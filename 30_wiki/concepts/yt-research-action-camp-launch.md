@@ -58,7 +58,7 @@ Content: tutorial
 Code: template
 Capability: playbook
 
-## [Critique]
+## Critique
 
 ### 外部攻击
 

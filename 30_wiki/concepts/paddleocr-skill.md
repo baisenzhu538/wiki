@@ -33,7 +33,7 @@ review_date: "2026-05-07"
 
 ---
 
-## [Condense] 核心架构
+## Claims
 
 ### 生产部署（本地 ONNX Runtime）
 
@@ -84,7 +84,7 @@ node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs <image-path>
 
 ---
 
-## [Critique] 批判性评估
+## Critique
 
 ### 前提假设
 
@@ -110,7 +110,7 @@ node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs <image-path>
 
 ---
 
-## [Synthesis] 与 wiki 知识库的关联
+## Synthesis
 
 - [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]] — PaddleOCR 补充了"图片/PDF→文本"这一环，之前整个工具栈只有"网页→文本"
 - [[tinyfish-agentic-web-infrastructure]] — TinyFish 的 Fetch 端返回 Markdown，PaddleOCR 负责把 Fetch 拿不到的图片内文字提取出来。两者组合：TinyFish 获取页面 → PaddleOCR 识别嵌入图片

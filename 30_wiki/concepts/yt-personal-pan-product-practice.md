@@ -91,7 +91,7 @@ reviewed_by: 黄药师
 
 - claim:boundary-02 [conf=0.80] **JTBD 在中国市场的适应性**：JTBD 源自西方产品理论，核心案例（奶昔、宜家）与中国创业场景有差距。一堂做了本土化改造但仍需更多中国案例验证。
 
-## [Critique]
+## Critique
 
 ### 外部攻击
 

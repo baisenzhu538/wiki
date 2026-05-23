@@ -128,7 +128,7 @@ reviewed_by: 黄药师
 
 - claim:boundary-02 [conf=0.80] **Cialdini 六大原则是借用而非原创**：动力三曲线的理论基础来自 Cialdini 1984 年的《影响力》，一堂的贡献在于将其与 FAB 和触点清单组合——但原创性有限。
 
-## [Critique]
+## Critique
 
 ### 内部局限性
 

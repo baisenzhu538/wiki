@@ -14,7 +14,7 @@ updated_at: "2026-05-04T00:00:00+00:00"
 
 ---
 
-## [Condense] 核心观点
+## Claims
 
 1. **四路自适应路由（Phase 0）**：所有调研任务首先经过意图路由器，根据任务特征自动分类——Route A 广域搜索（宽泛主题）、Route B 聚焦搜索（具体问题）、Route C 纯文件研究（零外部搜索）、Route D 文件增强研究（文件为主+外部补充）。路由信号来自文件存在性和用户措辞。
 
@@ -32,7 +32,7 @@ updated_at: "2026-05-04T00:00:00+00:00"
 
 ---
 
-## [Critique] 批判性评估
+## Critique
 
 ### 前提假设
 - 假设子 Agent 能自主执行 ≥20 次独立搜索并区分权威来源与内容农场。【可靠性：低】中文搜索生态中内容农场和 SEO 污染严重，弱 Agent 无法有效过滤噪音，可能系统性降低研究质量。
@@ -53,7 +53,7 @@ updated_at: "2026-05-04T00:00:00+00:00"
 
 ---
 
-## [Synthesis] 对标与迁移
+## Synthesis
 
 ### 关联概念
 - [[graph-rag]] — Deep Research 的跨维度交叉验证需要 Graph RAG 作为知识导航层。集群输出的 dim/cross_verification/insight 文件如果接入 KDO wiki，就是天然的 Graph RAG 数据源。

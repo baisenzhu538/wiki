@@ -100,7 +100,7 @@ reviewed_by: 黄药师
 
 - claim:boundary-02 [conf=0.80] **"大胆想象"是黑箱**：前三个阶段（搜集→建池→建模）都有清晰路径，但最后"大胆想象"的跳跃没有方法——类似乔布斯的"connecting the dots"，是回溯性叙事而非可操作的步骤。
 
-## [Critique]
+## Critique
 
 ### 内部局限
 

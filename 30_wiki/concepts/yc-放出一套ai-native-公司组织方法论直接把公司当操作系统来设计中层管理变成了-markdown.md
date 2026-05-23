@@ -19,7 +19,7 @@ review_date: "2026-05-04"
 
 ---
 
-## [Condense] 核心观点
+## Claims
 
 1. **公司变成"可查询的"（Queryable Company）**：每个重要动作都产出 artifact，整家公司变成一个持续运行的学习系统。AI 能从公司历史决策中学习，而非每次从零开始。
 
@@ -35,7 +35,7 @@ review_date: "2026-05-04"
 
 ---
 
-## [Critique] 批判性评估
+## Critique
 
 ### 前提假设
 - 假设 LLM 能力持续指数增长，能可靠地替代中层管理的协调和判断职能。【可靠性：中】LLM 在结构化任务上表现优秀，但在需要情境判断、政治敏感的协调场景仍不可靠。
@@ -55,7 +55,7 @@ review_date: "2026-05-04"
 
 ---
 
-## [Synthesis] 对标与迁移
+## Synthesis
 
 ### 关联概念
 - [[kdo-protocol]] — KDO 的目录结构（CLAUDE.md + state.json + 三步编译）本质上就是 YC 说的"公司变成可查询的"。KDO 是 AI-native 组织的最小可行原型。

@@ -32,7 +32,7 @@ Truman Perspective Skill 是一个**人格模拟型 Skill**，将一堂创始人
 
 ---
 
-## [Condense] 核心架构
+## Claims
 
 ### 四层设计
 
@@ -104,7 +104,7 @@ Step 3: Truman式回答（基于事实 + 心智模型 + 表达DNA）
 
 ---
 
-## [Critique] 批判性评估
+## Critique
 
 ### 前提假设
 
@@ -130,7 +130,7 @@ Step 3: Truman式回答（基于事实 + 心智模型 + 表达DNA）
 
 ---
 
-## [Synthesis] 与 wiki 知识库的关联
+## Synthesis
 
 - [[一堂调研武器库13招]] — Truman 是一堂的创始人，五步法是 OSCAR 方法论的源头之一。13 武器体系中的"假设驱动"直接来自 Truman 的心智模型2
 - [[business-research-skill-oscar-13-weapon-system]] — 两个 Skill 互补：business-research 是"调研机器"（怎么做调研），truman-perspective 是"思维顾问"（怎么思考问题）。可以组合使用——用 Truman 的视角审视 business-research 的调研结果

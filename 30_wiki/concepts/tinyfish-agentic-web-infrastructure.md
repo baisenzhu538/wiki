@@ -32,7 +32,7 @@ TinyFish 是 Palo Alto 公司（2024年成立，11-50人）推出的四合一 We
 
 ---
 
-## [Condense] 核心架构
+## Claims
 
 ### 四产品体系（一套 API Key）
 
@@ -96,7 +96,7 @@ tinyfish browser session create --url "https://example.com"
 
 ---
 
-## [Critique] 批判性评估
+## Critique
 
 ### 前提假设
 
@@ -122,7 +122,7 @@ tinyfish browser session create --url "https://example.com"
 
 ---
 
-## [Synthesis] 与 wiki 知识库的关联
+## Synthesis
 
 - [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]] — TinyFish 是第四个维度：从"爬虫工具"升级到"Agentic Web 基础设施"。四者形成层次：库(Scrapling) → 框架(Crawl4AI) → API平台(Firecrawl) → Agent基础设施(TinyFish)
 - [[business-research-skill-oscar-13-weapon-system]] — TinyFish 可以成为 business-research 的"在线采信引擎"——Step 3 Search 替代通用搜索引擎，Step 5 Agent 替代部分线下产品体验

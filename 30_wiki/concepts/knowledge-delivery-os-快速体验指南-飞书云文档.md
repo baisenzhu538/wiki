@@ -14,7 +14,7 @@ updated_at: "2026-05-04T00:00:00+00:00"
 
 ---
 
-## [Condense] 核心观点
+## Claims
 
 1. **核心循环 9 步闭环**：捕获 (capture) → 注册 (register) → 编译 (ingest) → 路由 (route) → 生产 (produce) → 验证 (validate) → 交付 (ship) → 反馈 (feedback) → 改进 (improve)。每一步有对应的 CLI 命令和目录映射，形成知识到资产的完整流水线。
 
@@ -28,7 +28,7 @@ updated_at: "2026-05-04T00:00:00+00:00"
 
 ---
 
-## [Critique] 批判性评估
+## Critique
 
 ### 前提假设
 - 假设用户愿意接受 CLI 作为主要界面。【可靠性：中】技术用户可以，但非技术用户（如老朱提到的"传统行业老板"）上手门槛极高。这限制了 KDO 的受众范围——目前限于会用命令行的知识工作者。
@@ -45,7 +45,7 @@ updated_at: "2026-05-04T00:00:00+00:00"
 
 ---
 
-## [Synthesis] 对标与迁移
+## Synthesis
 
 ### 关联概念
 - [[kdo-protocol]] — KDO 体验指南是 Protocol 的"用户手册"，Protocol 的定义需要在指南中得到清晰映射。

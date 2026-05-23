@@ -59,7 +59,7 @@ Content: report
 Code: template
 Capability: workflow
 
-## [Critique]
+## Critique
 
 ### 外部攻击
 

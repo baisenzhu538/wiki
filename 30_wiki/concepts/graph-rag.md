@@ -24,7 +24,7 @@ review_date: "2026-05-04"
 
 # Graph RAG — Knowledge-Graph-Powered Retrieval
 
-## [Condense] 核心观点
+## Claims
 
 1. **Graph RAG 是检索范式的升维**：传统 RAG 把知识库切成文本块，靠向量相似度找相关内容；Graph RAG 先把知识解析成**节点（概念）和边（关系）**，检索时沿着关系网络遍历，找到语义相关但文本不一定相似的内容。
 
