@@ -40,7 +40,7 @@ updated: 2026-05-24 (🆕 单元模型域全量编译已分配 · 黄药师 Batc
 || **7** | ~~⑥ v1.5 全库修复（20 FAILED→0）~~ | ✅ 完成 | 分批 | 215 cards: 211 pass / 0 fail / 4 warn |
 || **8** | ~~⑦ 管理工具箱 Batch 3（T6+T7+T8）~~ | ✅ 完成 | 6h | 3/3 PASS。T6 A+ / T7 A / T8 A+ |
 || **9** | ~~🆕 Truman 知识地图→wiki cards~~ | ⚠️ A- | 2h | 2 张 framework 卡 PASS。Ibarra+Duckworth / Gilbert+Rogers。⚠️ `career-routes` frontmatter `related` 重复需删 |
-|| **10** | 🆕 **单元模型域全量编译** ← 当前 | 🔨 | 5 口述稿 + 31 图 → 完整卡片。详见 [[70_product/tasks/task-20260524-laowantong-unit-model-domain]] |
+|| **10** | 🆕 **单元模型域编译 + VA 修复** ← 当前 | 🔨 | 主线：5口述稿+31图→卡片。穿插：14条VA交叉审查修复。详见 [[70_product/tasks/task-20260524-laowantong-unit-model-plus-va-repair]] |
 || **11** | OCR Batch 4（50张视觉卡，等洪七公 VA） | ⏳ | 阻塞：洪七公 VA 前置未交付 |
 
 > **规则**：顺序执行，不跳。每完成一个 → 跑验证 → 通知欧阳锋审查。不要等批次全部完成。
@@ -112,13 +112,11 @@ updated: 2026-05-24 (🆕 单元模型域全量编译已分配 · 黄药师 Batc
 | 6 | 双三角文章审计 | ✅ | 审计 2 篇，发现 🔴归属错位 1 处 + 🟡引用/渠道 3 处，报告已交付 |
 | 7 | KDO 快速上手指南 → 中视频 | ✅ | 7a-7g 全部完成 · Gate 0-4 全部通过。timing.md A。下一步：段王爷 ship |
 || 8 | 🔥 科学决策域 VA 交叉审查 | ✅ | **全部完成！** 35 张图逐图 vision 审查，报告：`va-cross-review-scientific-decision-2026-05-23-final.md`。通过率 ~71%（20/28），🔴 重写 5 张，⚠️ 小修 8 张，结构性发现 4 项（张冠李戴/颜色偏差/虚构元素/归属错位）
-|| 9 | 🆕 **VA 前置 + 文章重启** | ⏳ | VA 四维法（颜色已剔除）。≥10张视觉卡 + ≥3篇文章。详见 [[70_product/tasks/task-20260523-hongqigong-va-and-articles]] |
+|| 9 | 🆕 **VA 前置 + 文章重启** ← 当前 | 🔨 | VA 四维法（颜色已剔除）。≥10张视觉卡 + ≥3篇文章。详见 [[70_product/tasks/task-20260524-hongqigong-va-articles-go]] |
 
 ### 洪七公 — 当前任务
 
-**9a 科学决策 VA 交叉审查**：第一批 ✅ 通过（欧阳锋 A+ 审查）→ 第二批 18 张进行中。颜色偏见类 bug 已作废（欧阳锋 2026-05-24 裁定：颜色不纳入 VA）。
-
-**9b VA 前置 + 文章重启**：交叉审查完成后启动。
+**Task 9 VA 前置 + 文章重启**：Task 8 交叉审查已关闭（终报 A）。VA 四维法生效（颜色不纳入）。先做 A（≥10张 VA），后做 B（3篇文章）。做完 A 后老顽童 OCR Batch 4 解阻塞。
 
 ### 🖼️ 洪七公 — Task 8：科学决策域 VA 交叉审查
 
