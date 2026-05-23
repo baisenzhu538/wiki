@@ -50,3 +50,12 @@ png` 一堂个人地图：高潜力成长者修炼全景地图 YITANGPERSONALGRO
 Content: <article: "OCR-Extracted Framework Validation Protocol" — a critical analysis tutorial teaching knowledge workers to assess completeness claims in visual learning maps, using the 一堂个人地图 as a case study for identifying unstated thresholds, unverified multipliers, and product-placement bias in self-development frameworks>
 Code: <script: `kdo-ocr-proofreader.ps1` — PowerShell tool extending the PaddleOCR ONNX pipeline with post-processing heuristics for Chinese ed-tech content: auto-corrects common OCR errors in pedagogical frameworks (e.g., "讲得香张力" → "演讲张力"), validates hierarchical structure against expected layer patterns (基础层/迭代层/领先层/追求层), and flags asterisked/underlined annotations for manual review>
 Capability: <workflow: "Visual Knowledge Artifact → Validated KDO Synthesis" — a 5-step playbook integrating PaddleOCR ONNX extraction, structure-aware proofreading, cross-reference with domain knowledge bases (e.g., 一堂方法论体系总图), open-question generation, and artifact opportunity mapping, with explicit quality gates for handling "研发中" content and OCR noise>
+
+## Visual Analysis
+
+原图为金字塔式个人成长知识地图，整体呈从下到上递进的纵向层级结构。主标题“一堂个人地图：高潜力成长者修炼全景地图”位于顶部居中，英文副标题位于其下，底部横幅标注“这张图的核心修炼目标是：天花板”。
+主体分为四个纵向层级：基础层（时间管理人生效率管理）→迭代层（不断提认知+不断练能力的双飞轮）→领先层（6种竞争力横条）→追求层（人生红点提高人生上限的圆形目标）。右侧有三个自下而上的弧形箭头分别标注“有时间”“有支撑”“有推动”。
+分组逻辑：四大层级以横向留白和层级标题进行纵向区隔，每层独立成组；迭代层内部以两个倾斜柱体明确划分“提认知”与“练能力”两大信息组，中间以双向箭头标示互动循环关系；追求层以圆形与虚线轮廓界定核心概念与外围支撑要素。
+阅读路径：整体呈从下到上的垂直阅读流，符合能力递进的逻辑；进入迭代层后，视线在左右两组间循环流动，沿双向箭头形成认知与能力交替增强的闭环；到达追求层时，视线从圆心“人生红点”向外围放射扩散；右侧三个向上弯曲箭头引导视线向上攀升。
+视觉强调：主标题以超大字号居中置顶，具有绝对视觉权重；“人生红点”与“形成竞争力xN”因位于各层级中央且形状独特，成为各层的视觉焦点；迭代层双向箭头因构成循环形态而强烈吸引注意；右侧三个向上箭头与底部“天花板”目标条因位置对比而形成收束性强调。
+留白运用：层级间留白形成明确的递进节奏，让四层金字塔结构清晰可辨；迭代层左右两组间留白构成对比空间，突显认知与能力的张力；追求层圆形内部留白形成辐射空间，支撑从圆心向外围的视觉扩散；底部横幅与主体之间的大面积留白构成沉稳的收束区域＜强化“天花板”目标的收束感；顶部标题与主体之间留白让视线自然下沉至核心内容。
