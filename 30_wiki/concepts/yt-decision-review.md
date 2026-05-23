@@ -19,6 +19,8 @@ related:
   - yt-decision-width-method
   - yt-decision-depth-ladder
   - yt-personal-deep-review
+  - yt-unit-model-ladder
+  - yt-unit-model-benchmark
 contradicts: []
 query_triggers:
 - 决策复盘

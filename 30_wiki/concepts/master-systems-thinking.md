@@ -18,6 +18,12 @@ related:
   - yt-personal-knowledge-extraction
   - master-first-principles
   - master-knowledge-compound
+  - yt-unit-model-ladder
+  - yt-unit-model-dynamic
+  - yt-unit-model-selection
+  - yt-unit-model-construction
+  - yt-unit-model-benchmark
+  - yt-unit-model-ai-assisted
 contradicts:
 query_triggers:
   - 系统思考

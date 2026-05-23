@@ -18,6 +18,8 @@ related:
   - yt-decision-full-process
   - master-cognitive-bias-checklist
   - master-ai-info-literacy
+  - yt-unit-model-ladder
+  - yt-unit-model-selection
 contradicts:
 query_triggers:
   - 决策卫生

@@ -19,6 +19,8 @@ related:
   - yt-decision-review
   - master-decision-hygiene
   - master-ai-info-literacy
+  - yt-unit-model-ladder
+  - yt-unit-model-benchmark
 contradicts:
 query_triggers:
   - 认知偏差自检

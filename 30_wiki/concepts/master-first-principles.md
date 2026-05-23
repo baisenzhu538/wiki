@@ -18,6 +18,9 @@ related:
   - yt-panproduct-execution-core-and-boundary
   - yt-personal-deep-review
   - master-systems-thinking
+  - yt-unit-model-ladder
+  - yt-unit-model-construction
+  - yt-unit-model-dynamic
 contradicts:
 query_triggers:
   - 第一性原理

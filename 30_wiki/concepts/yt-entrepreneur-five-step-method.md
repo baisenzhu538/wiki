@@ -16,6 +16,13 @@ related:
   - yt-entrepreneur-key-hypotheses
   - yt-entrepreneur-scientific-method
   - yt-model-entrepreneur-map
+  - yt-unit-model-overview
+  - yt-unit-model-ladder
+  - yt-unit-model-selection
+  - yt-unit-model-construction
+  - yt-unit-model-benchmark
+  - yt-unit-model-dynamic
+  - yt-unit-model-ai-assisted
 contradicts: []
 query_triggers:
 - 一堂五步法
@@ -42,6 +49,13 @@ related:
   - yt-entrepreneur-key-hypotheses
   - yt-entrepreneur-scientific-method
   - yt-model-entrepreneur-map
+  - yt-unit-model-overview
+  - yt-unit-model-ladder
+  - yt-unit-model-selection
+  - yt-unit-model-construction
+  - yt-unit-model-benchmark
+  - yt-unit-model-dynamic
+  - yt-unit-model-ai-assisted
   series: true
 source_refs:
 - 10_raw/sources/一堂-课程地图精华串讲.md

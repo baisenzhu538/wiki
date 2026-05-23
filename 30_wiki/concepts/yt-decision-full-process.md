@@ -44,6 +44,20 @@ related:
 
   - yt-decision-canvas
 
+  - yt-unit-model-overview
+
+  - yt-unit-model-ladder
+
+  - yt-unit-model-selection
+
+  - yt-unit-model-construction
+
+  - yt-unit-model-benchmark
+
+  - yt-unit-model-dynamic
+
+  - yt-unit-model-ai-assisted
+
 contradicts: []
 
 query_triggers:
