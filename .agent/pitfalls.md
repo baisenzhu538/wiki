@@ -157,3 +157,29 @@
 - 审查意见要分"观察"和"指令"两类，指令类必须当场写入 task 文件
 - 任务文件是唯一真相源——如果任务文件里没有，就等于不存在
 - 具体案例：最终改为写入任务文件的软约束"同一域内，每5张卡至少引入1位新攻击者"
+
+---
+
+## P-11: validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效
+
+**症状**：一篇1800字完整文章，`kdo validate` 报 "Draft section is empty (0 words)"。加了内容后仍只统计到46 words。
+
+**根因**：`validation.py:section_content()` 的正则 `(?=^##|\Z)` 用 `^##` 作为section结束标记。`###` 行以 `##` 开头，被正则误判为同级heading，导致提取只截取到第一个 `###` 之前的文字。所有使用三级标题的文章（几乎全部）都命中此bug。
+
+**对策**：
+- **临时绕路**：在 `## Draft` 和第一个 `### Part N` 之间插入一段引导文字
+- **根治**：将正则改为 `(?=^##(?!#)|\Z)` 或 `(?=^##\s|\Z)`——只匹配同级 `## ` heading，不匹配更深级别
+- **优先级**：P0——阻塞所有文章类artifact的有意义验证
+
+---
+
+## P-12: state.json / artifact-registry.yaml / 文件frontmatter 三源分裂
+
+**症状**：在文件frontmatter里更新了 `source_refs` 和 `wiki_refs`，`kdo validate` 仍然报 "Missing"。
+
+**根因**：`validate_artifact()` 优先读取 `artifact.get("source_refs")`——数据来自 `.kdo/state.json`，不读文件frontmatter。同时 `90_control/artifact-registry.yaml` 又是第三份拷贝。三处数据独立维护、可以不一致，没有同步机制。
+
+**对策**：
+- **短期**：修改后必须同时更新 state.json（用 Python 脚本 or `kdo` 命令）
+- **长治**：validate 应以文件 frontmatter 为 source of truth，state.json 和 registry 只做缓存/索引。发现不一致时自动同步或报 warning
+- **优先级**：P1——每次手动改文件都要记住还有state.json，极易遗忘
