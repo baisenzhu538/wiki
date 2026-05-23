@@ -12,8 +12,9 @@
 | **🔧** | ⚠️ 顺手修（开工前 2min） | 2min | ① Anthropic `斗姄`→`窘境` + `reviewed_by` ✅ ② 双三角攻击者移入 Constraints & Boundaries ✅ |
 | **🔧** | 🆕 洪七公审计修复 — 双三角文章归属错位 + 引用补齐 | 15min | 方案A：严格按原图修正。`art_双三角纠错_v2` L51 + `art_20260517_9c7a63cb` source_refs/wiki_refs。详见 [[60_feedback/corrections/art-audit-20260519-dual-triangle-batch]] ✅ |
 | **🎬** | 🆕 KDO 视频脚本精炼 | 30min | 试点任务。读源文章 → 填 `01-script.md`。详见表下方 |
-| **7** | ⑥ v1.5 全库修复 ← **当前** | 分批 | Batch B（~69张缺Critique）→ Batch A（13张全缺）。详见表下方策略 |
+| **7** | ⑥ v1.5 全库修复 | 分批 | Batch B（~69张缺Critique）→ Batch A（13张全缺）。详见表下方策略 |
 | **8** | ⑦ 管理工具箱 Batch 3（T6+T7+T8） | 6h | 每 5 张 B 卡后穿插 1 张 T 卡换脑 |
+| **🆕** | 🆕 **OCR 卡 Critique + Synthesis 补全** ← **插队** | 分批 | **136 张 OCR 卡补 Critique + Synthesis + wikilinks**。5 个 Batch，详见 [[70_product/tasks/task-20260523-laowantong-ocr-critique-synthesis]] |
 
 > **规则**：顺序执行。每 5 张 B 卡 → `kdo validate --v15 --card <id>` 验证 → 通知欧阳锋抽检。穿插 1 张 T 卡换脑。
 
@@ -29,6 +30,7 @@
 - ⑤ 设计域 S1+S2+S3 ✅（命名+格式+五段式全修）
 - ① 补 related 边 ✅ | ⑨ 科学决策 35 PNG ✅（审计报告 A，91%覆盖）
 - ⑥ v1.5 修复进行中 ← **当前**
+- 🆕 **OCR Critique+Synthesis 补全** ← **新任务，插队执行**（详见 [[70_product/tasks/task-20260523-laowantong-ocr-critique-synthesis]]）
 
 **🆕 最新审查**（欧阳锋 05-20）：[[#🔍 欧阳锋审查（2026-05-19）]] · [[70_product/tasks/dashboard#🔍 v1.5 修复策略（欧阳锋拍板 2026-05-20）|v1.5 修复策略]]
 

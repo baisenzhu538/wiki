@@ -4,10 +4,72 @@
 
 ## 状态
 
-**已完成**：Task 1-14 全部 ✅。286 tests pass。
+**已完成**：Task 1-14 全部 ✅。286 tests pass。P0 整改令全部通过。
 - Batch 1-4: scaffold / clean-transcript / validate / watch / task / graph / RAG / quality-gate / skill-dir / build
 - Batch 5: scaffold 四缺陷修复（`877c41a`），286 tests (+4)，欧阳锋审查：A
 - Task 13-14 已关闭。scaffold 不再误判旧格式，空 H4 不再计为有效攻击者。
+- 🔧 **P0 整改令**（欧阳锋 2026-05-23）全部完成，审查通过 ✅
+
+---
+
+## 🔧 P0 整改令（欧阳锋 2026-05-23）→ ✅ 已完成
+
+> 整改来源：[[60_feedback/assessments/architect-20260523-huanyyaoshi-rectification.md]]
+> 审查结论：P0 三项全部通过。P1 三项转入下方任务队列。
+
+### P0-1：Commit llm.py ✅
+
+```
+3026355 feat: dual-protocol LLM support (Anthropic + OpenAI) and kdo ocr command
+```
+
+Anthropic 协议适配 + `_PLACEHOLDER_PATTERNS` + `is_configured()` 修复已入库。4 files, 531 insertions.
+
+### P0-2：更正健康报告 ✅
+
+`wiki-health-analysis-2026-05-23.md` 已更新：
+- Critique 缺失率：~~95%~~ → **100%（136/136）**
+- Synthesis/wikilinks 缺失率：~~"全部"/94%~~ → **99.3%（135/136）**
+- 孤岛卡片：~~111（29.2%）~~ → **196（53.6%）**（独立验证 195，差 1 张可接受）
+- LLM 状态：~~401（红）~~ → **绿**（HTTP 200）
+
+### P0-3：标注方法学 ✅
+
+每项指标下已注明统计方法、文件过滤规则、与 v1 差异说明。
+
+### ⚠️ 审查遗留（顺手修）
+
+健康报告 P0 #2 仍写"136 OCR 卡 LLM 重编译：kdo enrich --all --llm"——实际不需要重做 enrich，应改为"补 Critique + Synthesis + wikilinks"。**下次编辑健康报告时顺手改。**
+
+---
+
+## 🔧 P1 整改项（本周内）→ 并入下方任务队列
+
+| 整改编号 | 内容 | 对应任务 |
+|:--:|------|------|
+| P1-4 | LLM 端点自检加入 `kdo lint --health` | → 新任务，见下方 [[#P1 整改：LLM 自检 + kdo lint 覆盖范围修复]] |
+| P1-5 | `kdo lint` 增加 `--all-files` 覆盖非 git 文件 | → 同上 |
+| P1-6 | 卡片结构完整性改用 heading 结构检查，不用 body 关键词匹配 | → 同上 |
+
+---
+
+### P1 整改：LLM 自检 + kdo lint 覆盖范围修复（P1，~1.5h）
+
+**问题**：当前 `kdo lint` 仅覆盖 git-tracked 文件（漏 132 张 OCR 卡），且无 LLM 连通性检查。健康报告中的基础设施状态依赖 Builder 手动测试，不可持续。
+
+**改什么**：
+
+1. `kdo lint` 增加 `--all-files` 标志：扫描全文件系统而非仅 git-tracked
+2. `kdo lint --health`（复用 `kdo graph stats --health` 模式）：增加 LLM 端点连通性检查——向配置端点发送最小请求，验证返回 HTTP 200
+3. 卡片结构完整性检查：废弃 body 关键词匹配（如搜 "Critique" 字符串），改为 Markdown heading 结构匹配（检查 `## Critique` / `## Constraints & Boundaries` / `## Synthesis` H2 节是否存在）
+
+**验收**：
+- `kdo lint --all-files` 孤岛 ≥190 张（覆盖全部 OCR 卡）
+- `kdo lint --health` 输出 LLM 状态（OK / UNREACHABLE）
+- `kdo lint --structure-report` 的 Critique/Synthesis 缺失率基于 heading 结构，非 body 关键词
+- pytest ≥3 新 tests
+
+**估时**：~1.5h
 
 ---
 
