@@ -147,8 +147,8 @@ artifacts:
   subtype: "article"
   title: "AI时代，为什么你比任何时候都需要批判性思维"
   target_user: "AI工具使用者"
-  source_refs: []
-  wiki_refs: []
+  source_refs: ["src_20260524_836ad51c"]
+  wiki_refs: ["30_wiki/concepts/学会提问在信息洪流中锻造批判性思维的利刃.md"]
   definition_of_done: ["target reader explicit", "core claim explicit", "source refs present", "feedback path declared"]
   status: "draft"
   delivery_channel: "homework"
@@ -161,8 +161,8 @@ artifacts:
   subtype: "article"
   title: "从AI小白到AI Native：五层进阶实操指南"
   target_user: "非技术背景的AI初学者"
-  source_refs: ["src_20260524_dd8a0fe6", "src_20260501_4eee4e95", "src_20260428_29929c1f", "src_20260524_90fb730a"]
-  wiki_refs: []
+  source_refs: ["src_20260524_3cadf228"]
+  wiki_refs: ["30_wiki/concepts/ai-native-五层进阶从答案到效率到作品到产品到系统.md"]
   definition_of_done: ["target reader explicit", "core claim explicit", "source refs present", "feedback path declared"]
   status: "draft"
   delivery_channel: "homework"
