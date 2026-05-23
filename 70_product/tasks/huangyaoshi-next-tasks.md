@@ -188,7 +188,155 @@ Anthropic 协议适配 + `_PLACEHOLDER_PATTERNS` + `is_configured()` 修复已�
 | 21 | 断链批量修复 | 待做 |
 | 22 | frontmatter 批量补全 | 待做 |
 | 23 | 新旧格式统一 | 待做 |
-| 🍽️ | AI学习域狗粮任务 | 待做 |
+| 🍽️ | AI学习域狗粮任务 | ✅ A |
+
+---
+
+## Batch 9：狗粮发现修复（P0→P2，顺序执行）
+
+> **来源**：黄药师狗粮笔记 [[60_feedback/corrections/huangyaoshi-dogfood-ai-study-2026-05-24]]。7 个发现 → 7 个工单。其中 2 个黄药师已自修（未等工单），剩余 5 个。
+
+### 黄药师自主修复（无工单，已生效未 commit）
+
+| 发现 | 修复 | 文件 |
+|:---|:---|:---|
+| `section_content` regex 误匹配 `###` | `(?=^##\|\Z)` → `(?=^##\s\|\Z)` — 只匹配同级 heading | `validation.py` L22 |
+| `kdo ingest` 无法指定 title/kind | `--title` + `--kind` 参数 + `ingest_one()` 接入 | `cli.py` L264 + `ingestion.py` L60-94 |
+
+> ⚠️ 以上变更在 KDO repo 工作区，**未 commit**。`git status` 显示 3 files modified。
+
+---
+
+### Task 24：`kdo produce` 自动预填结构性信息（P0，~1.5h）
+
+**问题**：`kdo produce content/article` 只生成纯 TODO 骨架，不读 wiki 卡片内容、不预填 Source Lineage、不提取 Reusable Knowledge。
+
+**改什么**：
+1. produce article 时，从 `--topic` 关键词查 wiki 卡片 → 提取 Reusable Knowledge 填入 Body Structure
+2. 从 state.json 或 source registry 查 source → 自动填写 Source Lineage 表（source_id + trust_level）
+3. 从 wiki 卡片 frontmatter 提取 `wiki_refs` 预填 Wiki Refs 节
+4. Draft 不自动写（那是 LLM 或人的活），但结构性信息不该让人手动复制
+
+**验收**：
+- `kdo produce content/article --topic "AI Native"` 生成的骨架含预填的 Source Lineage + Wiki Refs + Body Structure（含 RK 要点）
+- Source Lineage 表的 trust_level 正确（从 source frontmatter 读取）
+- 不覆盖已有人工填写内容（幂等，只填 TODO 占位符）
+- ≥5 tests
+
+**估时**：~1.5h
+
+---
+
+### Task 25：`kdo validate` 以文件 frontmatter 为唯一真相源（P1，~1h）
+
+**问题**：artifact 的 source_refs/wiki_refs 同时存在于 state.json / artifact-registry.yaml / 文件 frontmatter 三处，validate 只读 state.json。改了文件 frontmatter → validation 仍 fail。
+
+**改什么**：
+1. `kdo validate` 增加文件 frontmatter 读取逻辑：如果文件 frontmatter 中存在 source_refs/wiki_refs，优先使用文件数据
+2. 文件 frontmatter 和 state.json 不一致时 → 以文件为准，自动同步 state.json（或至少 WARN）
+3. artifact-registry.yaml 降级为索引/缓存用途，不再作为 validate 的强制数据源
+
+**验收**：
+- 修改一篇文章的 frontmatter source_refs → validate 读到修改后的数据
+- frontmatter 与 state.json 不一致时 validate 给出 WARN 并继续（不 BLOCK）
+- ≥3 tests
+- 不破坏现有 validate 逻辑
+
+**估时**：~1h
+
+---
+
+### Task 26：`kdo clean-transcript` 增加会话式规则集（P1，~1.5h）
+
+**问题**：当前正则只适用于讲座稿（去"嗯啊"、去重复句首），对直播互动式口述稿（观众打招呼/评论区互动/跑题闲聊/互动问答）完全无效。三份约 480KB 的口述稿只减少了 2-3% 的行数。
+
+**改什么**：
+1. 新增 `--mode conversational` 规则集：
+   - 去直播互动噪音：匹配"评论区"、"同学你好"、"有回音吗"、"刚才曼曼已经给我介绍了"等模式 → 删除
+   - 去观众问答段落：检测问答模式（"有人问……"、"回答一下……"）→ 标记为 `> [!qa]` 折叠块而非直接删除
+   - 去跑题闲聊：检测主题跳跃且内容信息密度 < 阈值 → 标记
+2. 默认 `--mode lecture` 保持现有行为
+3. 考虑 `--mode auto`：用简单启发式判断（检测到"评论区"关键词 → 自动切 conversational）
+
+**验收**：
+- 对 3 份 AI学习域口述稿运行 `--mode conversational` → 行数减少 ≥30%
+- 有价值内容不丢失（人工抽检 3 段清理前后对比）
+- `--mode lecture` 行为不变
+- ≥3 tests
+
+**估时**：~1.5h
+
+---
+
+### Task 27：`kdo ocr` 失败时输出替代方案提示（P2，~15min）
+
+**问题**：MinerU 返回 "parsing failed" 时，用户不知道该怎么办。错误信息没有给出替代方案。
+
+**改什么**：`kdo ocr` 失败时，在错误信息后追加：
+
+```
+This image may not be suitable for document parsing (MinerU is designed for PDFs).
+Try PaddleOCR instead:
+  powershell 40_outputs/capabilities/skills/image-ocr/ocr-image.ps1 <image>
+Or use the Node.js pipeline:
+  node C:\Users\Administrator\ocr-pipeline\ocr-paddle.cjs <image>
+```
+
+**验收**：对信息图 PNG 运行 `kdo ocr` → 看到替代方案提示
+**估时**：~15min
+
+---
+
+### Task 28：`kdo produce` 完成后自动跑 advisory validate（P2，~20min）
+
+**问题**：produce 完手写整篇文章后，才发现 registry 没同步、validate 不过。produce→validate 之间全靠人脑衔接。
+
+**改什么**：
+1. `kdo produce` 完成后自动运行 `kdo validate --advisory` 预检
+2. 输出：列出哪些字段还没填（不 BLOCK，只是提示）
+3. 加分项：输出 checklist（"以下 3 项需要在发布前补全：source_refs / wiki_refs / target_user"）
+
+**验收**：
+- `kdo produce content/article --topic "..."` 完成 → 自动输出 advisory 预检结果
+- `--advisory` 模式 exit 0 即使有字段缺（不 BLOCK）
+- ≥2 tests
+
+**估时**：~20min
+
+---
+
+### 随手清理
+
+清除 3 张狗粮任务产生的垃圾 source（标题为直播开场白）：
+- `src_20260524_90fb730a` — "应该都是老同学吧…"
+- `src_20260524_dd8a0fe6` — "昨天参加攻坚会的同学…"
+- `src_20260524_e290738e` — "评论区同学们你们有多少人…"
+
+同时检查是否有对应的垃圾 wiki 骨架需删除。
+
+---
+
+## 完成标志（更新）
+
+| 序号 | 任务 | 验证 |
+|------|------|------|
+| 1-20 | KDO 核心 + Batch 1-7 | ✅ |
+| P0-1/2/3 | llm.py commit + 报告更正 + 方法学 | ✅ |
+| P1-4/5/6 | llm-check + orphan all-files + heading 匹配 | ✅ |
+| 🍽️ | AI学习域狗粮任务 | ✅ A |
+| 24 | produce 自动预填结构性信息 | 待做 |
+| 25 | validate 以 frontmatter 为真相源 | 待做 |
+| 26 | clean-transcript 会话式规则集 | 待做 |
+| 27 | ocr 失败提示 | 待做 |
+| 28 | produce→validate 快捷循环 | 待做 |
+| 21 | 断链批量修复 | 待做 |
+| 22 | frontmatter 批量补全 | 待做 |
+| 23 | 新旧格式统一 | 待做 |
+| — | 清理 3 张垃圾 source | 待做 |
+
+**已自主修复（无工单，待 commit）**：
+- `validation.py` — `section_content` regex 修复
+- `cli.py` + `ingestion.py` — `--title` / `--kind` 参数
 
 ---
 

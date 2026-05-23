@@ -86,12 +86,19 @@ updated: 2026-05-24 (🆕 单元模型域全量编译已分配 · 黄药师 Batc
 
 | 顺序 | 任务 | 估时 | 状态 |
 |:--:|------|:--:|:--:|
+| 24 | 🔥 **produce 自动预填结构性信息**（P0） | ~1.5h | ⏳ |
+| 25 | **validate 以 frontmatter 为真相源**（P1） | ~1h | ⏳ |
+| 先 | **commit 自主修复**：regex + --title/--kind（已生效未入库） | 5min | ⚡ |
+| 随手 | **清理 3 张垃圾 source** | 5min | ⏳ |
 | 21 | **断链批量修复**（~113个） | ~45min | ⏳ |
 | 22 | **frontmatter 批量补全**（~271张） | ~30min | ⏳ |
 | 23 | **新旧格式统一**（~166张） | ~20min | ⏳ |
+| 26 | **clean-transcript 会话式规则集**（P1） | ~1.5h | ⏳ |
+| 27 | **ocr 失败提示**（P2） | ~15min | ⏳ |
+| 28 | **produce→validate 快捷循环**（P2） | ~20min | ⏳ |
 
-> 🆕 狗粮任务已完成（A）。发现 7 个管线缺陷 → 提炼为 Batch 9 工单（详见 [[huangyaoshi-next-tasks]]）。
-> Batch 8 任务（21-23）详见 [[70_product/tasks/huangyaoshi-next-tasks#batch-8-a-类脚本化修复p0顺序执行]]
+> ⚡  黄药师未等工单已自修 2 个 P0：`section_content` regex + `--title`/`--kind`。代码在 KDO 工作区未 commit。
+> 全部 10 项任务详见 [[huangyaoshi-next-tasks]]。顺序 = 优先级（P0→P1→P2）。
 
 ---
 
