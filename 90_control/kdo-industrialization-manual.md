@@ -290,7 +290,7 @@ Builder 提交（原图 + OCR文字）→ Agent 分析视觉结构 → Builder �
 |------|---------|
 | 源文件归档 | 图片从 `00_inbox/` → `10_raw/sources/`，source_refs 更新 |
 | 三步编译 | Condense ≥3 / Critique ≥1（指名假设或边界） / Synthesis ≥2 |
-| Visual Analysis | 每张知识地图原图五维分析（层级/分组/路径/强调/留白），至少覆盖三维 |
+| Visual Analysis | 每张知识地图原图四维分析（层级/分组/路径/强调）。**颜色不纳入 VA 维度**（2026-05-24 裁定）。至少覆盖三维 |
 | 验证 | `kdo lint --wiki-path` 0 warning |
 
 **步骤 B：导航层构建**
@@ -336,7 +336,7 @@ Builder 提交（原图 + OCR文字）→ Agent 分析视觉结构 → Builder �
 | Critique ≥ 1 条，且至少一条**指名具体假设或边界**；方法/工具/框架卡须含"外部攻击"子节（≥1 条真实外部批评） | 🟠 P1 | 禁止"需要更多验证"式万能废话；若为 agent-native 格式则 Constraints ≥1 条 boundary claim |
 | Synthesis 有 ≥ 2 个 wikilinks（允许含 index 页）；方法/工具/框架卡须含"不要用的场景"表（≥2 条场景+失效机制+替代方案） | 🟡 P2 | agent-native 格式额外检查 frontmatter 图边字段（prerequisites/component_of/related）非空 |
 | 全文 > 500 字 | 🟡 P2 | — |
-| **Visual Analysis**：知识地图原图必须分析视觉结构 | 🟠 P1 | 层级/分组/路径/强调/留白 至少覆盖三个维度 |
+| **Visual Analysis**：知识地图原图必须分析视觉结构 | 🟠 P1 | 层级/分组/路径/强调 至少覆盖三个维度。颜色不纳入 VA |
 | **Agent-native frontmatter 完整**（新增） | 🟠 P1 | id、type、domain、query_triggers(≥3)、estimated_tokens、所有图边字段非空 |
 | **体量合规**（新增） | 🟡 P2 | 不超过对应 type 的 Claims 数和行数上限 |
 | **Action Triggers 节**（v1.5 新增）— 方法/工具/框架卡必填 | 🟠 P1 | ≥3 个触发场景，每条含第一动作 + 成功指标 |
@@ -714,7 +714,7 @@ def parse_frontmatter(text: str) -> tuple[dict[str, Any], str]:
 | CF-001~020 铁律 | KF-001~022 铁律 | 18 条对标 + 4 条 KDO 新增（KF-019~022） |
 | 只测不修 | 审而不改 | 完全同构 |
 | — | **Agent 原生设计** | KDO 独有：卡片是知识图谱节点，结构化 frontmatter + Claims + 图边 |
-| — | **Visual Analysis 方法论** | KDO 独有：知识地图五维视觉结构分析 |
+| — | **Visual Analysis 方法论** | KDO 独有：知识地图四维视觉结构分析（2026-05-24：颜色剔除出 VA） |
 
 ## §1.10 四种卡片结构与 v1.5 升级路径（v1.7 新增）
 
