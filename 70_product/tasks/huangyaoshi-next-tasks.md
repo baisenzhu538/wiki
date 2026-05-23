@@ -4,11 +4,13 @@
 
 ## 状态
 
-**已完成**：Task 1-14 全部 ✅。P0+P1 整改令全部关闭。379 tests pass（+1 skipped）。
+**已完成**：Task 1-20 全部 ✅。P0+P1 整改令全部关闭。379 tests pass（+1 skipped）。
 - Batch 1-5: scaffold / clean-transcript / validate / watch / task / graph / RAG / quality-gate / skill-dir / build
 - 🔧 P0 整改令（`3026355` llm.py commit + 健康报告更正 + 方法学标注）✅
 - 🔧 P1 整改令（`c41bcfe` orphan all-files + `ee7c1ac` llm-check + heading 结构匹配）✅
-- 欧阳锋终验：P0+P1 共 6 项整改全部通过。[[60_feedback/assessments/architect-20260523-huanyyaoshi-rectification]] 关闭。
+- 🔧 Batch 7 基础设施债（`2c7c04e` index.md wikilink + 源注册表垃圾清理 + auto-feedback cooldown）✅
+- 欧阳锋终验：P0+P1 共 6 项整改全部通过。Batch 7 三项全部通过。
+- [[60_feedback/assessments/architect-20260523-huanyyaoshi-rectification]] 关闭。
 
 ---
 
@@ -118,13 +120,34 @@ Anthropic 协议适配 + `_PLACEHOLDER_PATTERNS` + `is_configured()` 修复已�
 | 1-14 | KDO 核心 + Batch 1-5 | ✅ |
 | P0-1/2/3 | llm.py commit + 报告更正 + 方法学 | ✅ |
 | P1-4/5/6 | llm-check + orphan all-files + heading 匹配 | ✅ |
-| 18 | index.md wikilink 修复 | 待做 |
-| 19 | 源注册表垃圾清理 | 待做 |
-| 20 | auto-feedback 洪水清理 | 待做 |
+| 18 | index.md wikilink 修复 | ✅ |
+| 19 | 源注册表垃圾清理 | ✅ |
+| 20 | auto-feedback 洪水清理 | ✅ |
 
 ---
 
-## Batch 2：修 bonus 问题 + 增量索引 + 统计面板
+
+
+---
+
+### 🔍 欧阳锋终验（2026-05-24 Batch 7）
+
+**提交**：`2c7c04e` — 单 commits 覆盖三任务，64 行增 / 4 行删。
+
+| 任务 | 验收 | 评级 | 备注 |
+|:---|:--:|:--:|:---|
+| 18: index.md wikilink | ✅ | A | 391 `[[wikilink]]`，0 反斜杠。`as_posix()` + `--rebuild` |
+| 19: 源注册表垃圾 | ✅ | A- | 337 条目（-211）。preventive filter `<8` chars 已加。dry-run 未实现但可接受 |
+| 20: auto-feedback | ✅ | A | 112 文件（-1,658）。24h cooldown 逻辑正确 |
+| pytest | ✅ | 379 passed，1 skipped，0 回归 | |
+
+**总评**：A。增量修复，未过度工程。三个任务都在一个方向上：从源头阻止垃圾进入系统，而非事后清理。
+
+**审计发现**：剩余 112 个 auto-feedback 文件大部分是 `near-duplicate-wiki-pages`（非 `unenriched-wiki-page`），与 5 张卡相关（`深度调研集群方法论` 35次、`结构化面试打分卡` 12次等）。是类似洪水问题的相邻类型，但不在此批次范围内。建议后续工单追踪。
+
+---
+
+
 
 ### Task 4：`kdo watch` 依赖解耦（P1，~30min）
 
