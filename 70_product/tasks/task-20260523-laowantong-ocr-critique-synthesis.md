@@ -114,7 +114,8 @@ blocks: []
 |:--:|:--:|:--:|:--:|:---|
 | 1 | 5 | 5 | 5 | A+。Norman/Pye/Postman/Morozov/Papert/Orwell/Simon |
 | 2+3 | ~40 | 31 | 待审 | 科学决策域清空。见下方 [[#🔍 欧阳锋审查（2026-05-23 Batch 2+3）]] |
-| 4 | 50 | 0 | 0 | |
+| 4 | 50 | 0 | 0 | **洪七公正在做 VA 前置**，完成后交接给老顽童做 Critique+Synthesis |
+| ↳ | ↳ | ↳ | ↳ | 详见 [[70_product/tasks/task-20260523-hongqigong-va-and-articles]] |
 | 5 | 41 | 0 | 0 | 先评估，不盲目开工 |
 
 ---
