@@ -26,6 +26,17 @@
 - **🎉 视频试点管线正式关闭**：6 个 Gate 全部通过，4 个角色全部参与。end-to-end 流程跑通
 - **活跃任务**：全员待命。等下一批任务
 
+## 2026-05-24：单元模型域全量编译 + OCR Batch 2+3 终验通过
+
+- **✅ OCR Batch 2+3 完成**：31 张科学决策域纯文本卡已补完 Critique + Synthesis，欧阳锋终验全部通过（平均 A-，攻击者多样性 A+，21 位学者）
+- **⏳ OCR Batch 4**：50 张视觉卡等待洪七公 VA 前置交付
+- **⏳ OCR Batch 5**：41 张低价值/OCR失败卡待评估
+- **✅ AI+单元模型读后感**：已交付，存 `40_outputs/content/articles/art_ai_unit_model_reading_v1.md`，~2800字，5 wikilinks，Kahneman System 1/2 洞察
+- **⏳ 单元模型域 Step 1**：5 份口述稿已消化（31张图已浏览），kdo query 确认 vault 无现存单元模型卡
+- **⏳ 单元模型域 Step 2**：Card Map 已报（F2+T5=7张），等老朱拍板
+- **活跃角色**：老顶童（产能主力）
+- **待决策**：单元模型域 Card Map 是否开干
+
 ## 2026-05-15：工业化手册 v1.5 + Sprint 11/12 任务下发
 
 - **KDO 方法论升级 v1.5**：黄药师提交 AI 思维卡分析建议书（[[ai-thinking-card-vs-kdo-analysis]]），欧阳锋独立裁决——采纳三个卡片层行为转化要件（Critique 外部攻击 + Synthesis 不要用场景 + Action Triggers），否决 ICAP 和 FOLLOWUP（原因：ICAP 是读者属性非卡片属性，FOLLOWUP 已被 v1.4 project-continuity 机制覆盖）

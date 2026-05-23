@@ -1486,3 +1486,7 @@ Chronological record of knowledge operations.
 - 2026-05-23T17:29:50+00:00 - Ingested `src_20260524_e290738e` from 00_inbox/AI-study/cleaned/一堂-AI学习-科学提问口述_cleaned.md
 
 - 2026-05-23T17:29:52+00:00 - Self-check: 24 auto-feedback record(s) created
+
+- 2026-05-23T17:41:33+00:00 - Produced `art_20260524_6249d2bd`: 40_outputs/content/articles/art_20260524_6249d2bd-ai时代为什么你比任何时候都需要批判性思维.md
+
+- 2026-05-23T17:41:36+00:00 - Produced `art_20260524_2594aa81`: 40_outputs/content/articles/art_20260524_2594aa81-从ai小白到ai-native五层进阶实操指南.md
