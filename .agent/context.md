@@ -1,8 +1,8 @@
 ---
-updated: 2026-05-21
+updated: 2026-05-23
 active_branch: main
-active_task: 全员待命。老顽童 9/9 ✅。黄药师 Task 1-17 全部完成 ✅。视频试点已关闭。洪七公双三角VA待审阅。段王爷 Publisher 反馈闭环初具雏形。
-blockers: []
+active_task: OCR 136卡补全管线全面启动。老顽童 Batch 2+3 审查通过（31卡），正在调整攻击者多样性+格式统一。洪七公 VA前置+文章重启任务已下发。黄药师 Batch 7 基础设施债（Tasks 18-20）已分配。
+blockers: ["洪七公 VA 前置完成前，老顽童 Batch 4（50张视觉卡）无法开工"]
 ---
 
 ## 你是谁
@@ -13,9 +13,9 @@ blockers: []
 | 角色 | 职责 | 状态 |
 |------|------|------|
 | 欧阳锋 | 审查+协调+标准 | 进行中 |
-| 黄药师 | 工厂建设（KDO CLI/质量门/Graph RAG） | Task 1-17 全部完成 ✅，待命 |
-| 老顽童 | 产能主力（卡片/文章/编译） | ④ Batch 2 T5 制作中 |
-| 洪七公 | 多模态输出（视觉/设计/prompt） | ✅ 已激活：角色定义+VA 完成 |
+| 黄药师 | 工厂建设（KDO CLI/质量门/Graph RAG） | Batch 7 基础设施债（Tasks 18-20）进行中 |
+| 老顽童 | 产能主力（卡片/文章/编译） | OCR 136卡 Critique+Synthesis 补全：Batch 1(5✅A+) + Batch 2+3(31✅待调整) |
+| 洪七公 | 多模态输出（视觉/设计/prompt） | VA前置（≥10张视觉卡）+ 文章重启（≥3篇）任务已下发 |
 | 段王爷 | 发布与反馈（ship/分发/收集） | 待激活 |
 
 规则：审而不改。角色间不互相派活——全部通过欧阳锋中转。
@@ -121,25 +121,26 @@ blockers: []
 
 ### 老顽童状态（产能主力）
 
-- **7 张 master 卡全部通过 ✅**：[[70_product/tasks/proposal-new-domain-master-meta-capabilities.md]] 提案的 7 张卡全部写成，审查 A，可直接入库
-  - #1 master-cognitive-bias-checklist（A）| #2 master-decision-hygiene（A）| #3 master-first-principles（A）
-  - #4 master-systems-thinking（A）| #5 master-antifragile-checklist（A，frontmatter 已修）| #6 master-ai-info-literacy（A+）| #7 master-knowledge-compound（A-）
-- PEAS 洞察 concept 卡（A+）附赠完成
-- 边界定义文件已写（`70_product/tasks/master-7-cards-layer-and-boundary.md`）
-- **修复验证 ✅**：#5 card_type→tool ✅ | #3 SpaceX 例子三层注解 + 类比思维反例 ✅
-- **调研方法论域 → ✅ 已完成**：8 张卡（F2+T5+C1）全部 A 级，库存 +8
-- **科学决策审计 → ⛔ 已叫停**。10 张卡 A 级已通过，不返工
-- 评估：知识广度 A，独立判断 A→A+（SpaceX 自我纠错），学术品味 A+，跨域合成 A
+- **OCR 136卡 Critique+Synthesis 补全**（主线任务）：
+  - Batch 1：5张 ✅ A+（Norman/Pye/Postman/Morozov/Papert/Orwell/Simon）
+  - Batch 2+3：31张 ✅ 科学决策域清空，审查通过但需调整（攻击者多样性+格式统一）
+  - Batch 4：50张，待洪七公 VA 前置完成后交接
+  - Batch 5：41张低价值卡，待评估
+- **管理工具箱 Batch 2**：T3 A / T4 A+ / T5 制作中（暂停，OCR 任务插队）
+- 任务文件：[[70_product/tasks/task-20260523-laowantong-ocr-critique-synthesis]]
+- 评估：知识广度 A，独立判断 A+，学术品味 A+，跨域合成 A
 
 ### 黄药师状态（基础设施唯一负责人）
 
 - **不接卡片量产**。专注 KDO CLI、方法论建设、质量门、Graph RAG。
-- **Task 1-18 全部完成 ✅**：scaffold → clean-transcript → validate watch → watch 解耦 → scaffold 插入修正 → task 自动化 → graph incremental → graph stats → Graph RAG 深化 → Quality Gate v2 → skill-dir 审查 → Build 系统 → scaffold 四缺陷修复 → video CLI → video render 修复 → video 遗留缺陷 → P3 ship stages 同步 → G1-G4 管线补齐
-- **KDO CLI 新增命令**：`kdo scaffold`, `kdo clean-transcript`, `kdo validate --v15 --watch`, `kdo build`, `kdo video`（5 子命令）
-- pytest：321/321 passing（+1 flaky dashboard 预存）
-- **视频管线工具链完整**：`kdo video init → validate → render --audio → render --compose → ship`
+- **Task 1-17 全部完成 ✅** + P0/P1 整改令关闭 ✅
+- **当前：Batch 7 基础设施债**（Tasks 18-20）：
+  - Task 18: index.md 反斜杠 wikilink 修复（search_index.py `os.path` → `pathlib`，~30min）
+  - Task 19: 源注册表垃圾清理（211 条 title≤4字符污染，~20min）
+  - Task 20: auto-feedback 洪水清理（1,770 噪声文件，~15min）
+- pytest：379/379 passing（+1 skipped）
+- **KDO CLI 新增命令**：`kdo scaffold`, `kdo clean-transcript`, `kdo validate --v15 --watch`, `kdo build`, `kdo video`, `kdo llm-check`
 - 坚果云备份 ✅ | Graph RAG 索引 ✅（226 entities, 1252 relations）
-- 待命。下一个工单等待欧阳锋分配。
 
 ### Design 域 → 待建
 
@@ -425,10 +426,29 @@ blockers: []
 ## 下次启动
 
 1. **先看 dashboard** → [[70_product/tasks/dashboard.md]]
-2. **黄药师**：待命。Task 1-17 全部完成。顺手修 P3（`kdo video ship` stages 同步）待分配。
-3. **老顽童**：待命。9/9 全部完成。
-4. **洪七公**：双三角 VA 待审阅。
-5. **段王爷**：Publisher 反馈闭环初具雏形（已发现首条工具缺陷）。
+2. **黄药师**：Batch 7 基础设施债进行中（Task 18 index.md wikilink修复 / Task 19 源注册表垃圾清理 / Task 20 auto-feedback洪水清理）
+3. **老顽童**：Batch 2+3 格式调整中（攻击者多样性+`## Critique`统一+`### 不要用的场景`补全）。调整完成后等洪七公 VA 前置交付再开 Batch 4。
+4. **洪七公**：VA前置（≥10张视觉卡）+ 文章重启（≥3篇）。任务文件：[[70_product/tasks/task-20260523-hongqigong-va-and-articles]]
+5. **段王爷**：待激活。
+6. **文章管线**：自 5/17 停摆 6 天，已分配给洪七公重启。系统性缺口（Output Opportunities → 文章任务自动触发）待黄药师后续补充。
+
+## ⚠️ 今日关键决策（2026-05-23）
+
+### OCR 136卡管线全面启动
+- 欧阳锋独立审查确认：136 张 OCR 卡完成了 Condense，完全跳过了 Critique 和 Synthesis
+- 任务书下发：老顽童做 Critique+Synthesis，洪七公做 VA 前置（视觉复杂卡）
+- 依赖关系：洪七公 VA → 老顽童 Batch 4（50张视觉卡）
+
+### 攻击者多样性规则（软约束）
+- Kahneman 13次、Taleb 10次——集中度过高
+- 规则：同一域内，每5张卡至少引入1位新攻击者
+- 可用池：Popper / Christensen / Mintzberg / Snowden / Klein / Gigerenzer / Thaler / Sterman
+- 纯 Kahneman+Taleb 组合的卡需替换其中一位
+
+### 黄药师数据错误追查
+- 健康报告 4 处数据错误（Critique缺失率/Synthesis缺失率/孤岛卡片/LLM状态）
+- 根因：llm.py Anthropic 适配从未 commit 到 git
+- P0+P1 共 6 项整改全部通过关闭
 
 ## ⚠️ 会话结束前（MUST）
 
