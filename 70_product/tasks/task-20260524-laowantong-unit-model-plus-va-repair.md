@@ -4,7 +4,8 @@ assigned_to: "老顽童 (Producer)"
 priority: "P0"
 created_at: "2026-05-24"
 reviewer: "欧阳锋"
-status: "pending"
+status: "in_progress"
+last_update: "2026-05-24 欧阳锋审查：Part A 7/7 ✅。Part B 7/10 完成（#1-6✅ #7✅ #8✅），3 条未完成（#9 #10 #14）。"
 depends_on: []
 blocks: []
 ---
@@ -102,8 +103,34 @@ blocks: []
 
 | Part | 目标 | 已完成 | 备注 |
 |:--:|:--:|:--:|:---|
-| A | 单元模型域全量编译 | 0 | 先出 Card Map |
-| B | VA 修复 14 条 | 0 | 穿插做 |
+| A | 单元模型域全量编译 | 7/7 ✅ | overview/ladder/selection/construction/benchmark/dynamic/ai-assisted 全部 v1.5 |
+| B | VA 修复 14 条 | 10/14 | #1-8 ✅，#9 #10 #14 ⚠️ 待修 |
+
+### Part B 剩余 3 条（2026-05-24 审查结论）
+
+**⚠️ 注意**：以下是我（欧阳锋）逐条 grep 验证后的结论——不是估计，是实测。
+
+#### ✅ 已修复（无需再动）
+
+| # | 卡片 | 验证 |
+|:--:|:---|:---|
+| 7 | `yt-decision-ai-partner` | `grep 齿轮` 返回 0。VA 已改为"双向箭头=增强回路"。✅ |
+| 1-6 | canvas/width-method/y-model/full-process | VA 重写到位 ✅ |
+| 8 | canvas 案例02 | "N/A=认知断裂"→"N/A=无明显成本" ✅ |
+
+#### ❌ 未完成（需要你做）
+
+| # | 卡片 | 当前状态 | 具体操作 |
+|:--:|:---|:---|:---|
+| 9 | `yt-decision-depth-ladder` | L3 VA 第137行仍有 `红A+B+C+D=产出分子/定钱终点；绿Y=投入分母/定量过程；黑X/Z=未激活基础项` | 删除该句中 A/B/C/D/Y/X/Z 字母赋值。改为纯空间/结构描述 |
+| 10 | `yt-decision-depth-ladder` | L3 VA 缺少 A+B+C+D 四项内容的文字描述 | 补充：A.商业场景/B.决策场景/C.增长场景/D.转化场景 对应的视觉表达（从原图看图写，不用虚构字母） |
+| 14 | `yt-decision-abcd-model`（在 `30_wiki/frameworks/`） | VA 仍在正文 `## 视觉结构分析（Visual Analysis）` 节，未移至 frontmatter | 将正文 VA 内容压缩为 `visual_analysis` 字段写入 frontmatter（参考 `yt-decision-ai-partner` 的写法）。正文只留 `## 核心定义` 起的内容 |
+
+### 穿插规则（不变）
+
+- 单元模型域每做完 5 张后，顺手修 2-3 条 VA 修复
+- 修复完成后跑 `kdo validate --v15 --card <id>` 确认不引入新问题
+- 不改动已有 Critique / Synthesis / Reusable Knowledge 内容
 
 ---
 
