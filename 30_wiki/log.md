@@ -1474,3 +1474,15 @@ Chronological record of knowledge operations.
 - 2026-05-22T07:59:19+00:00 - Self-check: 19 auto-feedback record(s) created
 
 - 2026-05-22T23:00:24+00:00 - Recorded validation report `fb_20260523_dec767bb`
+
+- 2026-05-23T17:29:50+00:00 - Ingested `src_20260524_3cadf228` from 00_inbox/ai-native-five-levels.md
+
+- 2026-05-23T17:29:50+00:00 - Ingested `src_20260524_836ad51c` from 00_inbox/AI-study/asking-the-right-questions-critical-thinking.md
+
+- 2026-05-23T17:29:50+00:00 - Ingested `src_20260524_90fb730a` from 00_inbox/AI-study/cleaned/一堂-AI学习-AI工具应用AMA口述_cleaned.md
+
+- 2026-05-23T17:29:50+00:00 - Ingested `src_20260524_dd8a0fe6` from 00_inbox/AI-study/cleaned/一堂-AI学习-AI时代判断力口述_cleaned.md
+
+- 2026-05-23T17:29:50+00:00 - Ingested `src_20260524_e290738e` from 00_inbox/AI-study/cleaned/一堂-AI学习-科学提问口述_cleaned.md
+
+- 2026-05-23T17:29:52+00:00 - Self-check: 24 auto-feedback record(s) created

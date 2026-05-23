@@ -4719,3 +4719,73 @@ sources:
   derived_outputs: []
   inbox_path: 00_inbox/water-sense/2026-05.md
   content_sha256: 806199b501141bc3af5cbce5a6cd019b8bc766d64c9538fdc4c638ab2ee7ebe4
+
+- id: "src_20260524_3cadf228"
+  title: "AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统"
+  type: "other"
+  location: "10_raw/sources/src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md"
+  captured_at: "2026-05-23T17:29:50+00:00"
+  registered_at: "2026-05-23T17:29:50+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/ai-native-五层进阶从答案到效率到作品到产品到系统.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/ai-native-five-levels.md"
+  content_sha256: "cdc46b2295bd33a9baa727b6bddeb7018dacb83d6b5359b6b7b02dd3a763d237"
+
+- id: "src_20260524_836ad51c"
+  title: "《学会提问》：在信息洪流中锻造批判性思维的利刃"
+  type: "other"
+  location: "10_raw/sources/src_20260524_836ad51c-学会提问在信息洪流中锻造批判性思维的利刃.md"
+  captured_at: "2026-05-23T17:29:50+00:00"
+  registered_at: "2026-05-23T17:29:50+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/学会提问在信息洪流中锻造批判性思维的利刃.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/AI-study/asking-the-right-questions-critical-thinking.md"
+  content_sha256: "f8c313aebe6f7570bd2c79e208fc54b909578429e5362be93901577529cda441"
+
+- id: "src_20260524_90fb730a"
+  title: "应该都是老同学吧，然后我刚才曼曼已经给我介绍了，我就不念了。"
+  type: "other"
+  location: "10_raw/sources/src_20260524_90fb730a-应该都是老同学吧然后我刚才曼曼已经给我介绍了我就不念了.md"
+  captured_at: "2026-05-23T17:29:50+00:00"
+  registered_at: "2026-05-23T17:29:50+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/应该都是老同学吧然后我刚才曼曼已经给我介绍了我就不念了.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/AI-study/cleaned/一堂-AI学习-AI工具应用AMA口述_cleaned.md"
+  content_sha256: "283eaba24e74051d9bd4c4a1f96e97ffb315320bc6f3dfbd6440b6b6527f87f2"
+
+- id: "src_20260524_dd8a0fe6"
+  title: "昨天参加攻坚会的同学，给我写的那些反馈，我每一条都看了，真的拳拳到肉，我非常感动非常感动。"
+  type: "other"
+  location: "10_raw/sources/src_20260524_dd8a0fe6-昨天参加攻坚会的同学给我写的那些反馈我每一条都看了真的拳拳到肉我非常感动非常感动.md"
+  captured_at: "2026-05-23T17:29:50+00:00"
+  registered_at: "2026-05-23T17:29:50+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/昨天参加攻坚会的同学给我写的那些反馈我每一条都看了真的拳拳到肉我非常感动非常感动.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/AI-study/cleaned/一堂-AI学习-AI时代判断力口述_cleaned.md"
+  content_sha256: "6311b4104045cecd56193f3f118d33a1c7655f8d144ad66cde4511a4edb9b397"
+
+- id: "src_20260524_e290738e"
+  title: "评论区同学们，你们有多少人之前认识我或者知道我？"
+  type: "other"
+  location: "10_raw/sources/src_20260524_e290738e-评论区同学们你们有多少人之前认识我或者知道我.md"
+  captured_at: "2026-05-23T17:29:50+00:00"
+  registered_at: "2026-05-23T17:29:50+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/评论区同学们你们有多少人之前认识我或者知道我.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/AI-study/cleaned/一堂-AI学习-科学提问口述_cleaned.md"
+  content_sha256: "bc75ee51a0758383cdb56c85d9b0742f4e5dc26be8acf264509678eeb005d354"

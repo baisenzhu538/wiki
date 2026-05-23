@@ -1,6 +1,6 @@
 ---
 title: 任务仪表盘
-updated: 2026-05-21 (🎬 视频试点已关闭 · 黄药师 全17项 ✅ · 老顽童 科学决策VA A- · 洪七公 Task 8 待领取)
+updated: 2026-05-24 (🆕 单元模型域全量编译已分配 · 黄药师 Batch 8 A类修复 + 狗粮任务 · 洪七公 VA交叉审查第一批通过)
 ---
 
 # 任务仪表盘
@@ -40,10 +40,10 @@ updated: 2026-05-21 (🎬 视频试点已关闭 · 黄药师 全17项 ✅ · 老
 || **7** | ~~⑥ v1.5 全库修复（20 FAILED→0）~~ | ✅ 完成 | 分批 | 215 cards: 211 pass / 0 fail / 4 warn |
 || **8** | ~~⑦ 管理工具箱 Batch 3（T6+T7+T8）~~ | ✅ 完成 | 6h | 3/3 PASS。T6 A+ / T7 A / T8 A+ |
 || **9** | ~~🆕 Truman 知识地图→wiki cards~~ | ⚠️ A- | 2h | 2 张 framework 卡 PASS。Ibarra+Duckworth / Gilbert+Rogers。⚠️ `career-routes` frontmatter `related` 重复需删 |
-|| **10** | 下一个任务等老朱指派 | ⏳ | — | 老顽童待命 |
+|| **10** | 🆕 **单元模型域全量编译** ← 当前 | 🔨 | 5 口述稿 + 31 图 → 完整卡片。详见 [[70_product/tasks/task-20260524-laowantong-unit-model-domain]] |
+|| **11** | OCR Batch 4（50张视觉卡，等洪七公 VA） | ⏳ | 阻塞：洪七公 VA 前置未交付 |
 
 > **规则**：顺序执行，不跳。每完成一个 → 跑验证 → 通知欧阳锋审查。不要等批次全部完成。
-> 🎬 视频脚本试点的前置依赖（黄药师 `kdo video init`）已就绪。优先执行。
 
 ### 🎬 老顽童 — 视频脚本任务（试点，30min）
 
@@ -82,7 +82,16 @@ updated: 2026-05-21 (🎬 视频试点已关闭 · 黄药师 全17项 ✅ · 老
 
 ### 黄药师 — 当前任务
 
-**全部完成** ✅ — Task 1-18 全部交付。管线完整：enrich → route → produce（12 子类型）→ validate（含 video）→ ship（含 video/connector）。待命。
+| 顺序 | 任务 | 估时 | 状态 |
+|:--:|------|:--:|:--:|
+| 🍽️ | **狗粮任务**：AI学习域全管线 → 2篇文章 | 2-3h | ⏳ 待开工 |
+| 21 | **断链批量修复**（~113个） | ~45min | ⏳ |
+| 22 | **frontmatter 批量补全**（~271张） | ~30min | ⏳ |
+| 23 | **新旧格式统一**（~166张） | ~20min | ⏳ |
+
+> 🍽️ 狗粮任务是一次性体验——自己用自己建的工厂从头到尾产出文章。发现的问题写入体验笔记。
+> [[70_product/tasks/task-20260524-huangyaoshi-ai-study-dogfood]]
+> Batch 8 任务（21-23）详见 [[70_product/tasks/huangyaoshi-next-tasks#batch-8-a-类脚本化修复p0顺序执行]]
 
 ---
 
@@ -103,6 +112,13 @@ updated: 2026-05-21 (🎬 视频试点已关闭 · 黄药师 全17项 ✅ · 老
 | 6 | 双三角文章审计 | ✅ | 审计 2 篇，发现 🔴归属错位 1 处 + 🟡引用/渠道 3 处，报告已交付 |
 | 7 | KDO 快速上手指南 → 中视频 | ✅ | 7a-7g 全部完成 · Gate 0-4 全部通过。timing.md A。下一步：段王爷 ship |
 || 8 | 🔥 科学决策域 VA 交叉审查 | ✅ | **全部完成！** 35 张图逐图 vision 审查，报告：`va-cross-review-scientific-decision-2026-05-23-final.md`。通过率 ~71%（20/28），🔴 重写 5 张，⚠️ 小修 8 张，结构性发现 4 项（张冠李戴/颜色偏差/虚构元素/归属错位）
+|| 9 | 🆕 **VA 前置 + 文章重启** | ⏳ | VA 四维法（颜色已剔除）。≥10张视觉卡 + ≥3篇文章。详见 [[70_product/tasks/task-20260523-hongqigong-va-and-articles]] |
+
+### 洪七公 — 当前任务
+
+**9a 科学决策 VA 交叉审查**：第一批 ✅ 通过（欧阳锋 A+ 审查）→ 第二批 18 张进行中。颜色偏见类 bug 已作废（欧阳锋 2026-05-24 裁定：颜色不纳入 VA）。
+
+**9b VA 前置 + 文章重启**：交叉审查完成后启动。
 
 ### 🖼️ 洪七公 — Task 8：科学决策域 VA 交叉审查
 
@@ -481,7 +497,7 @@ kdo video ship → final.mp4 → 🎉 管线关闭
 
 | 谁 | 什么事 | 卡在哪 |
 |----|--------|--------|
-| — | — | 当前无阻塞项。全员待命 |
+| 老顽童 | OCR Batch 4（50张视觉卡） | 等洪七公 VA 前置交付 |
 
 ---
 
@@ -489,6 +505,11 @@ kdo video ship → final.mp4 → 🎉 管线关闭
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
+| 05-24 | 黄药师 | Batch 7 基础设施债（Task 18-20） | ✅ A。`2c7c04e`。index.md wikilink + 源注册表垃圾 + auto-feedback cooldown。379 tests |
+| 05-24 | 老顽童 | OCR Batch 2+3 格式调整 | ✅ A。31张卡全部统一 `## Critique` + `### 不要用的场景`。攻击者多样性 A+ |
+| 05-24 | 洪七公 | 科学决策域 VA 交叉审查 Batch 1 | ✅ A+。18张图逐图审查。欧阳锋裁定：颜色不纳入 VA 维度 |
+| 05-23 | 黄药师 | P0+P1 整改令全部关闭 | ✅ 6 项全部通过。`3026355` + `c41bcfe` + `ee7c1ac` |
+| 05-23 | 老顽童 | OCR Batch 1（5张视觉框架卡） | ✅ A+。Norman/Pye/Postman/Morozov/Papert/Orwell/Simon |
 | 05-21 | 欧阳锋 | 🛑 黄药师审查：Task 17 render 遗留缺陷 | ✅ A。Seg5 558.5s→70.5s + compose 动态帧时长。36 tests, 321 total |
 | 05-21 | 黄药师 | Task 17 render 遗留缺陷 | ✅ `dee0f83`。Bug1 appendix truncation + Bug2 dynamic frame durations。+4 tests |
 | 05-21 | 段王爷 | 🎬 Task 1 KDO 视频试点 ship | ✅ shipped。final.mp4: 11810 KB, 500.08s。管道关闭 🎉 |

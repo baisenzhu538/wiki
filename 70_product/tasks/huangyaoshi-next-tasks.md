@@ -114,6 +114,67 @@ Anthropic 协议适配 + `_PLACEHOLDER_PATTERNS` + `is_configured()` 修复已�
 
 ---
 
+## Batch 8：A 类脚本化修复（P0，顺序执行）
+
+> **背景**：老顽童在自我检讨中识别出三类 A 类基础设施债——全部可脚本化，全部是黄药师的主场。这是让工厂自己修自己的活。
+
+### Task 21：断链批量修复（P0，~45min）
+
+**问题**：全库约 113 个 broken wikilinks。根因：批量重命名/移动卡片时未同步更新引用。
+
+**改什么**：
+1. `kdo lint --broken-links --json` 输出全量断链清单（源文件 → 断链目标）
+2. 如果目标存在但路径不对 → 自动修正
+3. 如果目标不存在 → 标记为 `⚠️ 需要人工判断`（不自动删除）
+
+**验收**：
+- `kdo lint` broken wikilinks 从 ~113 降到 <10
+- 不产生假修复（把断链改成错误的目标页）
+- 3 个修复案例可复现
+
+**估时**：~45min
+
+---
+
+### Task 22：frontmatter 批量补全（P0，~30min）
+
+**问题**：约 271 张卡缺少 frontmatter 关键字段（id/type/status 三缺一或多缺）。
+
+**改什么**：
+1. `kdo lint --missing-frontmatter --json` 输出缺失清单
+2. 自动补全规则：
+   - `type`：从文件名推断（ocr- → concept，无前缀 → concept 默认）
+   - `status`：有 Critique+Synthesis → enriched，缺 → draft
+   - `id`：从文件名 slug 生成
+3. `--dry-run` 先预览，不直接写入
+
+**验收**：
+- `kdo lint --missing-frontmatter` 缺失数从 ~271 降到 <20
+- 自动推断的 type 准确率 >95%
+- 不覆盖已有正确字段
+
+**估时**：~30min
+
+---
+
+### Task 23：新旧格式统一（P0，~20min）
+
+**问题**：约 166 张卡存在新旧格式并存（如同时有 `## Critique` 和 `## Constraints & Boundaries`；`## dont-use` 和 `### 不要用的场景`）。
+
+**改什么**：
+1. `kdo lint --mixed-format --json` 检测同卡并存两套标题
+2. 统一规则：保留 v1.5 格式（`## Critique` / `### 不要用的场景`），删除旧格式空节
+3. 如果旧节有实质内容但新节为空 → 内容迁移而不是简单删除
+
+**验收**：
+- 新旧格式并存卡从 ~166 降到 <10
+- 无内容丢失（旧节有实质内容时已迁移）
+- `kdo validate --v15 --all` PASS 数提升
+
+**估时**：~20min
+
+---
+
 ## 完成标志（更新）
 
 | 序号 | 任务 | 验证 |
@@ -124,6 +185,10 @@ Anthropic 协议适配 + `_PLACEHOLDER_PATTERNS` + `is_configured()` 修复已�
 | 18 | index.md wikilink 修复 | ✅ |
 | 19 | 源注册表垃圾清理 | ✅ |
 | 20 | auto-feedback 洪水清理 | ✅ |
+| 21 | 断链批量修复 | 待做 |
+| 22 | frontmatter 批量补全 | 待做 |
+| 23 | 新旧格式统一 | 待做 |
+| 🍽️ | AI学习域狗粮任务 | 待做 |
 
 ---
 
