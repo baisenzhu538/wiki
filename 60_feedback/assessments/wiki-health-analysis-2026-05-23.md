@@ -8,6 +8,9 @@ domain: "master"
 
 # Wiki 健康度全面分析 2026-05-23
 
+> **整改记录** (2026-05-23 欧阳锋审查后)：
+> 四处数据失实已更正。根因：① Critique/Synthesis 缺失率用了全量 366 张卡而非 OCR 子集 136 张；② "质疑"匹配了正文词而非节头结构标记；③ 孤岛统计依赖 `kdo lint` git-tracked-only 输出，漏了 132 张未跟踪 OCR 卡；④ llm.py Anthropic 修复未提交到 git，工作树有但 git HEAD 没有。统计方法学已在每项指标下标注。P0-A（git commit）已完成。详见 [[architect-20260523-huanyyaoshi-rectification]]。
+
 ## 总览
 
 | 维度 | 当前值 | 健康等级 | 趋势 |
@@ -36,18 +39,22 @@ standard-concept (旧版 Condense·Critique)   20  ( 5%)  ← 缺 Synthesis
 
 **解读**：将近一半卡片（178 张）处于 "research" 最低结构层级——只有摘要和源引用，没有 Critique（质疑评估）和 Synthesis（对标连接）。这类卡片本质上是"已归档但未编译"的原始笔记，不是可复用的知识资产。
 
-### 1.2 孤岛问题（189/366 卡片无人链接）
+### 1.2 孤岛问题（196/366 卡片无人链接）
 
 | 指标 | 数值 |
 |------|------|
-| 被至少一张其他卡片链接 | 177 (48%) |
-| 完全无入链（孤岛） | **189 (52%)** |
+| 被至少一张其他卡片链接 | 170 (46.4%) |
+| 完全无入链（孤岛） | **196 (53.6%)** |
+| 其中 OCR 卡 | 136 (全部) |
+| 其中非 OCR 卡 | 60 |
 | 反向链接索引 | 552 个 target |
+
+> **方法学**：遍历 `30_wiki/concepts/*.md` 全部 366 张卡，提取每张卡正文中的 `[[wikilink]]`（排除 src_/ev_/art_ 前缀的元数据链接），建立入链集合。未出现在入链集合中的卡片标记为孤岛。与 v1 报告的差异：v1 依赖 `kdo lint` 输出，该命令仅覆盖 git-tracked 文件，漏计 132 张未跟踪 OCR 卡；且 v1 将 OCR 卡全部计入但孤岛总数却只报了 189（应为 136+≥47），存在计数矛盾。
 
 **解读**：超过一半的卡片在知识网络中是"断头路"——没有其他卡片引用它们。这意味着：
 - 这些卡片即使有价值，也无法被查询/浏览路径发现
 - 知识网络的实际可用直径远小于理论直径
-- 大量 OCR 卡片（136 张）均属此类孤岛，它们彼此之间也无链接
+- 全部 136 张 OCR 卡片均属孤岛，它们彼此之间也无链接
 
 ### 1.3 OCR 卡片专项
 
@@ -55,9 +62,13 @@ standard-concept (旧版 Condense·Critique)   20  ( 5%)  ← 缺 Synthesis
 |------|------|
 | OCR 卡总数 | 136 |
 | 已 enriched | 136 (100%) |
-| 缺 Critique 关键词（假设/边界/反转/前提） | ~130+ / 140 |
-| 缺 2 个以上外部 wikilink | 136 (全部) |
+| **缺 Critique 节头** | **136/136 (100%)** |
+| 缺 ≥2 个外部 wikilink | 135/136 (99.3%) |
 | Condense 不足 3 条实质性 bullet | 部分 |
+
+> **方法学**：
+> - Critique 缺失：在 OCR 卡中搜索 `## Critique` / `### [Critique]` / `### Critique` 节头标记。结果 136 张 OCR 卡无一张有此节头（0/136）。v1 报告的 "95% / ~130+" 错误来自：① 搜索了全部 366 张卡（非 OCR 卡有 Critique 节），未限定 `ocr-` 前缀子集；② 搜索了中文词"质疑"（这是 Critique 节内的正文用词，即使节头缺失也可能匹配到相关讨论）。
+> - Synthesis 外链：在每张 OCR 卡中统计 `[[...]]` wikilink（排除 `src_`/`ev_`/`art_` 元数据前缀），验证是否 ≥2 个。仅 1 张 OCR 卡满足 ≥2 个外部链接（99.3% 不达标）。v1 报告的 "94% / 136(全部)" 将零链接和 <2 链接混为一谈，且同样未限定 OCR 子集。
 
 **根因**：这些卡最初是用正则表达式而非 LLM 做的第一遍 enrichment（当时 Kimi 端点未配置），内容质量远低于三遍 LLM 编译标准。现在 LLM 已通，可以批量重跑 `kdo enrich --all --llm`。
 
@@ -144,11 +155,11 @@ standard-concept (旧版 Condense·Critique)   20  ( 5%)  ← 缺 Synthesis
 |------|------|------|
 | KDO CLI 测试 | 绿 | 373/373 passed, 1 skipped |
 | Graph RAG | 绿 | 406 节点, 1252 边 |
-| LLM 接入 | 绿 | Anthropic 协议已通, Kimi API |
-| `kdo lint` | 黄 | 大量 wikilink 断裂告警 |
+| LLM 接入 | 绿 | Anthropic 协议已通, Kimi API, HTTP 200 已验证 (3026355) |
+| `kdo lint` | 黄 | 大量 wikilink 断裂告警; 缺陷: 仅覆盖 git-tracked 文件 |
 | Broken wikilinks | ~150+ WARNINGs | yt-* 系列引用未创建的概念 |
 | MinerU 运行时 | 红 | onnxruntime DLL 缺失 |
-| Git 状态 | 黄 | kdo/llm.py, ocr.py, cli.py, tests 未提交 |
+| Git 状态 | 绿 | llm.py + ocr.py 已提交 (3026355) |
 
 ---
 
@@ -160,7 +171,7 @@ standard-concept (旧版 Condense·Critique)   20  ( 5%)  ← 缺 Synthesis
 |------|------|--------|
 | 1 | **Inbox 分流**：233 个顶层文件按类型归入 `screenshots/` / `ideas/` / `ai-chats/` | 老顽童 |
 | 2 | **136 OCR 卡 LLM 重编译**：`kdo enrich --all --llm`（现在 LLM 已通） | 黄药师 (触发) + 老顽童 (执行) |
-| 3 | Git commit：llm.py + ocr.py + cli.py + tests | 黄药师 |
+| 3 | ~~Git commit：llm.py + ocr.py + cli.py + tests~~ ✅ 已完成 (3026355) | 黄药师 |
 
 ### P1 — 结构债（两周内）
 
@@ -175,7 +186,7 @@ standard-concept (旧版 Condense·Critique)   20  ( 5%)  ← 缺 Synthesis
 
 | 序号 | 行动 | 责任人 |
 |------|------|--------|
-| 8 | 189 张孤岛卡逐步建立入链（优先高价值 research 卡） | 老顽童 |
+| 8 | 196 张孤岛卡逐步建立入链（优先 60 张非 OCR 高价值卡，136 张 OCR 卡由 enrich --llm 重编译时自动补链） | 老顽童 |
 | 9 | 矛盾追踪审计——主动找出并记录潜在矛盾 | 知识仲裁者 |
 | 10 | MinerU 运行时修复（VC++ Redistributable + 模型） | 黄药师 |
 | 11 | Broken wikilinks 清理——yt-* 引用需创建或去除 | 老顽童 + 欧阳锋 |
@@ -186,7 +197,7 @@ standard-concept (旧版 Condense·Critique)   20  ( 5%)  ← 缺 Synthesis
 
 1. **Inbox 腐烂风险**：590 个文件中有 126 个 `.txt` 和 82 个 `.png` 裸文件——价值未知，可能有用也可能已是噪声。再不加分流，噪声比会不可逆地上升。
 
-2. **孤岛知识风险**：52% 卡片无入链意味着查询 `kdo query` 只能通过语义匹配命中，无法通过结构链（A→B→C）发现——"存在但找不到" = 不存在。
+2. **孤岛知识风险**：53.6% 卡片无入链意味着查询 `kdo query` 只能通过语义匹配命中，无法通过结构链（A→B→C）发现——"存在但找不到" = 不存在。
 
 3. **Artifact 空壳风险**：28 个产物中大部分是骨架（draft 为空），投入了创建成本但从未产出价值。要么填充，要么标记废弃。
 
