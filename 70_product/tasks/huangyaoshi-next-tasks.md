@@ -4,11 +4,11 @@
 
 ## 状态
 
-**已完成**：Task 1-14 全部 ✅。286 tests pass。P0 整改令全部通过。
-- Batch 1-4: scaffold / clean-transcript / validate / watch / task / graph / RAG / quality-gate / skill-dir / build
-- Batch 5: scaffold 四缺陷修复（`877c41a`），286 tests (+4)，欧阳锋审查：A
-- Task 13-14 已关闭。scaffold 不再误判旧格式，空 H4 不再计为有效攻击者。
-- 🔧 **P0 整改令**（欧阳锋 2026-05-23）全部完成，审查通过 ✅
+**已完成**：Task 1-14 全部 ✅。P0+P1 整改令全部关闭。379 tests pass（+1 skipped）。
+- Batch 1-5: scaffold / clean-transcript / validate / watch / task / graph / RAG / quality-gate / skill-dir / build
+- 🔧 P0 整改令（`3026355` llm.py commit + 健康报告更正 + 方法学标注）✅
+- 🔧 P1 整改令（`c41bcfe` orphan all-files + `ee7c1ac` llm-check + heading 结构匹配）✅
+- 欧阳锋终验：P0+P1 共 6 项整改全部通过。[[60_feedback/assessments/architect-20260523-huanyyaoshi-rectification]] 关闭。
 
 ---
 
@@ -43,33 +43,84 @@ Anthropic 协议适配 + `_PLACEHOLDER_PATTERNS` + `is_configured()` 修复已�
 
 ---
 
-## 🔧 P1 整改项（本周内）→ 并入下方任务队列
+## 🔧 P1 整改项 → ✅ 全部完成（2026-05-23 终验通过）
 
-| 整改编号 | 内容 | 对应任务 |
-|:--:|------|------|
-| P1-4 | LLM 端点自检加入 `kdo lint --health` | → 新任务，见下方 [[#P1 整改：LLM 自检 + kdo lint 覆盖范围修复]] |
-| P1-5 | `kdo lint` 增加 `--all-files` 覆盖非 git 文件 | → 同上 |
-| P1-6 | 卡片结构完整性改用 heading 结构检查，不用 body 关键词匹配 | → 同上 |
+| 整改编号 | 内容 | Commit | 验证 |
+|:--:|------|------|:--:|
+| P1-4 | LLM 自检 | `ee7c1ac` — `kdo llm-check` + `self-check --llm` | 实测 HTTP 200, 934ms |
+| P1-5 | `kdo lint` 覆盖全文件 | `c41bcfe` — `find_orphans_vault()` 原生扫描 | 6 tests pass |
+| P1-6 | heading 结构匹配 | `ee7c1ac` — `_extract_section()` 匹配 `## [Critique]` 方括号格式 | 379 tests pass |
 
 ---
 
-### P1 整改：LLM 自检 + kdo lint 覆盖范围修复（P1，~1.5h）
+## Batch 7：基础设施债清偿（P0，顺序执行）
 
-**问题**：当前 `kdo lint` 仅覆盖 git-tracked 文件（漏 132 张 OCR 卡），且无 LLM 连通性检查。健康报告中的基础设施状态依赖 Builder 手动测试，不可持续。
+> 以下问题自 2026-05-22 洪七公 cross-review 起已确认，至今未修。都是已有明确修复方案的工单，不需要设计。
+
+### Task 18：index.md 反斜杠 wikilink 修复（P0，~30min）
+
+**问题**：`30_wiki/index.md` 中 391 个链接全部使用 `[text](file)` 格式而非 `[[wikilink]]`。更深层的问题是 kdo 的 index builder（`search_index.py`）在 Windows 上调用 `os.path` 产出反斜杠路径，导致 Graph RAG 检索时链接断裂。
 
 **改什么**：
-
-1. `kdo lint` 增加 `--all-files` 标志：扫描全文件系统而非仅 git-tracked
-2. `kdo lint --health`（复用 `kdo graph stats --health` 模式）：增加 LLM 端点连通性检查——向配置端点发送最小请求，验证返回 HTTP 200
-3. 卡片结构完整性检查：废弃 body 关键词匹配（如搜 "Critique" 字符串），改为 Markdown heading 结构匹配（检查 `## Critique` / `## Constraints & Boundaries` / `## Synthesis` H2 节是否存在）
+1. `kdo/index` 或 `search_index.py` 中，路径拼接改用 `pathlib` 或手动 `replace('\\', '/')`
+2. 重建 index.md：`kdo index --rebuild`，验证所有链接为正斜杠 `[[wikilink]]` 格式
+3. 不产生新断链（现有 wikilink 目标页均存在）
 
 **验收**：
-- `kdo lint --all-files` 孤岛 ≥190 张（覆盖全部 OCR 卡）
-- `kdo lint --health` 输出 LLM 状态（OK / UNREACHABLE）
-- `kdo lint --structure-report` 的 Critique/Synthesis 缺失率基于 heading 结构，非 body 关键词
-- pytest ≥3 新 tests
+- `grep '\\\\' 30_wiki/index.md` 返回空（无反斜杠）
+- `grep '\[\[' 30_wiki/index.md | wc -l` ≥ 300（wikilink 格式）
+- Graph RAG 重建后 `kdo graph stats` 节点/边数无明显下降
 
-**估时**：~1.5h
+**估时**：~30min
+
+---
+
+### Task 19：源注册表垃圾清理（P0，~20min）
+
+**问题**：`90_control/source-registry.yaml` 含 211 条垃圾条目（title ≤4 字符或 title=`---`），占总条目 38.5%。来源为 OCR 批处理中 PaddleOCR 误识的分隔线、录音碎片。
+
+**改什么**：
+1. 脚本清理：删除 title 为 `---`、纯数字、≤4 字符无意义碎片的条目
+2. 增加 `kdo ingest` 前置过滤：标题最小长度 ≥8 字符，拒收 YAML 分隔符（`---`）
+3. Dry-run 模式先预览，确认无误再写入
+
+**验收**：
+- 清理后注册表条目数从 548 降到 ~340
+- 无 `---` 条目残留
+- `kdo ingest` 对短标题/分隔符自动拒收
+
+**估时**：~20min
+
+---
+
+### Task 20：auto-feedback 洪水清理（P0，~15min）
+
+**问题**：`60_feedback/auto/` 含 1,770 个自动反馈文件，绝大多数为 `unenriched-wiki-page` 正常状态触发的噪声。淹没有效反馈信号（assessments/ 仅 19 个文件）。
+
+**改什么**：
+1. 清理 24h 内新卡片的 `unenriched-wiki-page` 自动反馈（已 enriched 的卡不应再触发）
+2. 反馈逻辑增加冷却期：同一卡片 24h 内不重复触发同类型反馈
+3. 或：直接关闭 `unenriched-wiki-page` 自动反馈（status 枚举已足够追踪）
+
+**验收**：
+- `60_feedback/auto/` 文件数从 1,770 降到 <500
+- 无有效信号被误删（人工抽检 10 个被删文件）
+- `kdo feedback` 手动反馈不受影响
+
+**估时**：~15min
+
+---
+
+## 完成标志（更新）
+
+| 序号 | 任务 | 验证 |
+|------|------|------|
+| 1-14 | KDO 核心 + Batch 1-5 | ✅ |
+| P0-1/2/3 | llm.py commit + 报告更正 + 方法学 | ✅ |
+| P1-4/5/6 | llm-check + orphan all-files + heading 匹配 | ✅ |
+| 18 | index.md wikilink 修复 | 待做 |
+| 19 | 源注册表垃圾清理 | 待做 |
+| 20 | auto-feedback 洪水清理 | 待做 |
 
 ---
 
