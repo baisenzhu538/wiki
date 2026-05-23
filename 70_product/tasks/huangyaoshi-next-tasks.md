@@ -9,6 +9,7 @@
 - 🔧 P0 整改令（`3026355` llm.py commit + 健康报告更正 + 方法学标注）✅
 - 🔧 P1 整改令（`c41bcfe` orphan all-files + `ee7c1ac` llm-check + heading 结构匹配）✅
 - 🔧 Batch 7 基础设施债（`2c7c04e` index.md wikilink + 源注册表垃圾清理 + auto-feedback cooldown）✅
+- 🍽️ **狗粮任务**：[[70_product/tasks/task-20260524-huangyaoshi-ai-study-dogfood]]（一次性体验式，不影响主要职责）
 - 欧阳锋终验：P0+P1 共 6 项整改全部通过。Batch 7 三项全部通过。
 - [[60_feedback/assessments/architect-20260523-huanyyaoshi-rectification]] 关闭。
 
