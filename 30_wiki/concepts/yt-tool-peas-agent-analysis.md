@@ -53,7 +53,7 @@ trust_level: medium
 
 PEAS 是描述**任何决策系统**的通用工程语言——不只是 AI，也适用于你自己、你的团队、你的项目。四个槽位（Performance 性能度量 / Environment 环境 / Actuators 执行器 / Sensors 传感器）把模糊目标拆成可诊断的工程问题。5 层 Agent 架构（Simple Reflex → Learning Agent）告诉你"卡住了该升级哪个部件"。核心洞见：**拖延不是性格问题，是 reflex agent 在打 multi-agent 动态战——架构错配**。
 
-## [Condense]
+## Claims
 
 ### PEAS 四元组速查
 
@@ -108,7 +108,7 @@ Level 5 — Learning Agent       "持续更新自己的某个部件"     能指�
 | 重大不可逆决策 | 效用函数展开 | 隐藏变量（部分可观察）→ 先做信息收集动作再决 |
 | 感觉"做了很多但没进步" | Agent 类型周复盘 | reflex 占比 > 50% → 下周强制安排 utility 决策时间块 |
 
-## [Critique]
+## Critique
 
 ### 内部局限性
 
@@ -130,7 +130,7 @@ PEAS 默认性能度量可以被明确写出。但人生最难的问题恰恰是
 
 克莱因（Gary Klein）研究消防员、军人和急诊医生的真实决策过程后发现：专家在高压下根本不做什么"效用最大化"——他们靠**识别启动决策**（Recognition-Primed Decision）：看到情境 → 匹配脑内模式 → 模拟一个方案 → 如果可行就执行。他们不会列出选项比较效用。PEAS + 理性决策框架描述的是"学生做题"式的决策，不是真实世界专家的决策。
 
-## [Synthesis]
+## Synthesis
 
 ### 关联卡片
 

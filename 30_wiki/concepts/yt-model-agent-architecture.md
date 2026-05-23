@@ -51,7 +51,7 @@ trust_level: medium
 
 PEAS + 五层Agent架构是描述任何决策系统的通用语言。PEAS（Performance/Environment/Actuators/Sensors）把模糊目标拆成四个可设计的工程槽位；五层架构（Simple Reflex → Model-based → Goal-based → Utility-based → Learning Agent）提供一张诊断"这个系统卡在哪一层"的地图。核心主张：**升级的本质是换架构，不是加算法**——拖延不是性格问题，是reflex agent在打multi-agent动态战。
 
-## [Condense]
+## Claims
 
 ### PEAS：描述任何任务环境的四元组
 

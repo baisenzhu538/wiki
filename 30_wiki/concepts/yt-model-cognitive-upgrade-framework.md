@@ -56,7 +56,7 @@ trust_level: medium
 
 > **Burn line**: 读书不是为了知道更多，而是为了下一次做决定时，脑子里响起的不是旧 Bug 而是新 Patch。
 
-## [Condense]
+## Claims
 
 ### 十步流程全景
 
@@ -218,7 +218,7 @@ trust_level: medium
 | "十步框架的 CTA 与 KDO 卡片的 Action Triggers 重叠但不一致" | 两套系统各自为政 | 对接后 CTA 直接转化为 Action Triggers，保持一致 |
 | "不知道十步框架的 FOLLOWUP 怎么用" | 没有反馈管线接入点 | 映射到 `60_feedback/` 反馈闭环系统 |
 
-## [Critique]
+## Critique
 
 ### 内部局限性
 
@@ -244,7 +244,7 @@ Daniel Willingham（《为什么学生不喜欢上学》）的核心论点：认
 
 塔勒布在《反脆弱》中反复警告：过度理论化会让人对现实的复杂性视而不见。十步框架把阅读变成高度结构化的工程流程——这可能系统性地过滤掉那些"无法被归入框架但很重要"的洞见。尤其是 CONTRAST 的"不要用的场景"表，如果写表的人本身就在该框架的思维范式内，他写出的"边界"不过是框架内部的盲区。
 
-## [Synthesis]
+## Synthesis
 
 ### 关联卡片
 

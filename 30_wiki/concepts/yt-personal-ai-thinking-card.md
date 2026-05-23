@@ -50,7 +50,7 @@ trust_level: medium
 
 AI思维卡是一套**把书读成认知补丁**的结构化笔记系统。它的核心假设是：阅读的价值不在于"知道了什么"，而在于"我的哪个认知部件被更新了"。8个模块（IDENTITY → MODEL → EVIDENCE → CONTRAST → ACTION → REFLECTION → MYTAKE → ICAP → CTA → FOLLOWUP）构成一条从"理解作者在说什么"到"我接下来做什么"的完整管道。它本质上是一个**Learning Agent的更新日志**。
 
-## [Condense]
+## Claims
 
 ### 核心命题
 
