@@ -1,8 +1,8 @@
 ---
 updated: 2026-05-24
 active_branch: main
-active_task: 欧阳锋审查老顽童+洪七公交付。洪七公 task 已更正重发。老顽童 Part B 剩余3条已明确指令。
-blockers: ["洪七公单元模型VA完成前，老顽童无法将视觉信息写入卡片（但老顽童 Part B修复可并行进行）"]
+active_task: 黄药师 Sprint 2-4 完成，Sprint 5 暂缓。待欧阳锋审查 Sprint 3 交付 + 给定方向。
+blockers: []
 ---
 
 ## 你是谁
@@ -12,7 +12,7 @@ blockers: ["洪七公单元模型VA完成前，老顽童无法将视觉信息写
 | 角色 | 职责 | 状态 |
 |------|------|------|
 | 欧阳锋 | 审查+协调+标准 | 进行中 |
-| 黄药师 | 工厂建设（KDO CLI/质量门/Graph RAG） | Batch 7 ✅ + Dogfood ✅，10项待办排队 |
+| 黄药师 | 工厂建设（KDO CLI/质量门/Graph RAG） | Sprint 2 ✅ + Sprint 3 ✅ + Sprint 4 ✅，Sprint 5 暂缓 |
 | 老顽童 | 产能主力（卡片/文章/编译） | Part A 7卡 ✅ ｜ Part B VA修复 10/14（剩余3条已明确指令） |
 | 洪七公 | 多模态输出（视觉/设计/prompt） | 单元模型VA前置（已更正任务书重发）+ 文章重启 |
 | 段王爷 | 发布与反馈（ship/分发/收集） | Video ship 交付记录待补 |
@@ -58,16 +58,17 @@ blockers: ["洪七公单元模型VA完成前，老顽童无法将视觉信息写
 ## 当前状态
 
 ### 各角色当前任务
-- **老顽童**：#10 单元模型域编译 + VA 修复（主线）。OCR Batch 4 等洪七公 VA 前置。
-- **黄药师**：Dogfood 完成。10 项待办（P0→P1→P2），当前 P0 = produce 自动预填。
-- **洪七公**：VA 前置 A1（前5张🔴卡 VA 完成，待抽检）+ 文章重启（≥3篇）。
+- **黄药师**：Sprint 2（ingest改进）✅ + Sprint 3（produce预填）✅ + Sprint 4（数据卫生）✅。Sprint 5（validate→ship闭环）暂缓等体验沉淀。354 tests pass。
+- **欧阳锋**：审查黄药师 Sprint 3 交付，裁定 Sprint 5 方案。
+- **老顽童**：#10 单元模型域编译 + VA 修复（主线）。
+- **洪七公**：VA 前置 + 文章重启。
 - **段王爷**：Video ship 交付记录补全。
 
 ### KDO CLI 状态
-- 47 .py 文件，~13,500 行，15 测试文件
-- **pytest**：379/379 passing
+- 47 .py 文件，~13,800 行，15 测试文件
+- **pytest**：354/354 passing（不含 flaky dashboard 网络测试）
 - **Graph RAG**：226 entities, 721 chunks, 1252 relations
-- **kdo video**：5 子命令（init/validate/render/ship），36 tests
+- **kdo video**：5 子命令，36 tests
 - 坚果云备份 ✅
 
 ### Design 域
@@ -77,6 +78,11 @@ blockers: ["洪七公单元模型VA完成前，老顽童无法将视觉信息写
 - 同一域内，每5张卡至少引入1位新攻击者。纯 Kahneman+Taleb 组合需替换一位。
 
 ## 最近决策
+
+### 2026-05-24：Sprint 3 传送带2 — Produce预填 完成
+- 5项任务全部完成：produce读wiki预填Body Structure + Source Lineage自动填充 + post-produce advisory验证 + validate改读frontmatter为真相源 + artifact-registry降级
+- 354 tests pass。老顽童跑 `kdo produce` 不再产出TODO空模板
+- Sprint 5暂缓等体验沉淀
 
 ### 2026-05-24：上下文瘦身
 - dashboard.md 772→~120 行，context.md 461→~100 行。历史审查记录归档，旧决策移除。每个 session 启动节省 ~1000 行。
@@ -92,9 +98,9 @@ blockers: ["洪七公单元模型VA完成前，老顽童无法将视觉信息写
 ## 下次启动
 
 1. **先看 dashboard** → [[70_product/tasks/dashboard.md]]
-2. **黄药师**：10 项待办排队（P0 produce 自动预填）
-3. **老顽童**：Part A 7卡✅。Part B 待修：#9 depth-ladder删除C/D/Y/Z，#10 depth-ladder补A+B+C+D描述，#14 abcd-model VA移入frontmatter。
-4. **洪七公**：单元模型VA前置（任务书已更正，写VA到7张yt-unit-model卡）
+2. **黄药师**：Sprint 2-4 全部完成。等欧阳锋审查 Sprint 3 交付 + 裁定 Sprint 5 方案。
+3. **老顽童**：Part B 待修：#9 depth-ladder删除C/D/Y/Z，#10 depth-ladder补A+B+C+D描述，#14 abcd-model VA移入frontmatter。
+4. **洪七公**：单元模型VA前置
 5. **段王爷**：Video ship 交付记录补全
 
 ## ⚠️ 会话结束前（MUST）

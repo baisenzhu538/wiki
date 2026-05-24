@@ -173,6 +173,42 @@
 
 ---
 
+## P-13: 长会话 = token黑洞 — 一晚上烧掉80元
+
+**症状**：黄药师从晚上开始跑 Dogfood → Sprint 2 → Sprint 3 → Sprint 4，一个会话跑到上下文爆掉再续第二个会话。共 ~100轮+，DeepSeek 账单 ~80元。单晚消耗超过过去10天总和。
+
+**根因**（三重叠加）：
+1. **每轮重发全量上下文** — 后期每轮 input 100-150k tokens，其中 90% 是历史对话和工具结果
+2. **CLAUDE.md 很大** — 每轮携带 ~4000 tokens 系统提示
+3. **缓存 TTL 5分钟** — 超时后下一轮全量重新计费
+
+**反算**：总输入 ~14M tokens，缓存未命中 ~5.6M（占费用 80%）。
+
+**对策**：
+- **一个 Sprint 开一个会话** — 完成即 /new，通过 `.agent/context.md` 接力
+- 不要一口气跑 100轮——拆成 5个短会话，总 token 量降 70%+
+- CLAUDE.md 已精简（290→101行），CLI 速查移出到 `90_control/cli-reference.md`
+- 需要批量脚本任务的，写好脚本让用户本地跑，不用我一轮轮验证
+
+---
+
+## P-14: 僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环
+
+**症状**：PID 17916 `claude` 从 5月19日跑到今天（5天），CPU 仅 502 秒但可能烧了大量 API 费用。另外 PID 15540（hermes）从 5月16日跑了 8 天。80元账单不全是黄药师消耗。
+
+**根因**：
+1. Obsidian vault backup 插件每隔几分钟自动 `git commit`，文件变更可能触发 Obsidian 内的 Claudian 插件调用
+2. 用户不知道那个 Obsidian 窗口里的 Claudian 一直在后台活着
+3. 没有定期检查进程的习惯——僵尸会话默默积累
+
+**对策**：
+- 每次 Claude Code 会话结束**确认终端已关**——不是最小化、不是挂 tmux
+- 定期 `Get-Process claude` 检查是否有意外残留
+- Obsidian Claudian 用完即关——不要让它在后台被 vault backup 反复唤醒
+- **每完成一批任务就检查一次账单**——不要等积累了 80元才发现
+
+---
+
 ## P-12: state.json / artifact-registry.yaml / 文件frontmatter 三源分裂
 
 **症状**：在文件frontmatter里更新了 `source_refs` 和 `wiki_refs`，`kdo validate` 仍然报 "Missing"。
