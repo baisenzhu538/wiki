@@ -45,6 +45,41 @@ png` 当有了这个逻辑以后，就可以用一页纸， 解释我所有的�
 - What empirical basis or personal experience validates this methodology, and has it been applied or tested beyond Truman's individual case?
 - How does "作品存世型" reconcile with the "人生红点" (life milestones) concept—are milestones stepping stones or validation points toward the legacy goal?
 
+## Critique
+
+### 内部局限
+
+- **OCR损坏导致内容不完整：第四个能力被OCR损坏（"西空品創開"和"印"），导致五步法的能力维度不完整。
+- **"高效IPO"的模糊性：未解释IPO是字面意义上的"首次公开募股"还是隐喻。如果是隐喻，未解释具体含义。
+- **"自由创新者"的双重分类：既是资源类别又是职业阶段，可能导致概念重叠。
+
+### 外部攻击
+
+#### Anders Ericsson — “刻意练习需要外部引导，不是自己走五步”
+
+Anders Ericsson 会质疑：**个人成长五步法是否暗含了"自己引导自己"的假设？** 如果没有外部反馈，一个人可能在"打破魔咒"阶段困住多年而不自知。
+
+#### Carol Dweck — “成长型思维是态度，不是步骤”
+
+Carol Dweck 会质疑：**当你把"成长型思维"变成"五步法"时，你是否在用"固定型思维"的方式推广"成长型思维"？** 五步法的线性结构可能正好是固定型思维的产物。
+
+### 不要用的场景
+
+- **创造性领域的成长（艺术、科学研究）："作品存世型"的实用导向与创造性工作的非竞争性本质冲突。
+- **组织发展或团队能力建设：五步法是个人中心的，未考虑组织环境对个人成长的影响。
+
+## Synthesis
+
+### 与本库其他概念的关联
+
+- [[yt-decision-deliberate-practice]] — 刻意练习是五步法中"进步方式"的理论基础
+- [[yt-decision-career-ladder]] — 职业成长阶段与五步法的"路径"维度形成对照
+
+### 可迁移场景
+
+- 职业规划：用五步法快速定位自己所处的成长阶段
+- 教育设计：根据五步法设计从入门到专家的培训路径
+
 ## Output Opportunities
 
 Content: <article: "Truman's Five-Step Personal Growth Framework — Decoded & Contextualized: A Comparative Analysis with 一堂's '顶天立地' Methodology" — reconciling OCR-corrupted capability taxonomy with validated 一堂 curriculum structure, resolving '高效IPO' semantic ambiguity through cross-reference with course 402's Input-Process-Output model, and mapping the 'free innovator' dual classification against 一堂's four-map progression>
