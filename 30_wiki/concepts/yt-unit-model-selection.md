@@ -16,8 +16,11 @@ component_of: []
 related:
   - yt-unit-model-ladder
   - yt-unit-model-construction
+  - yt-unit-model-benchmark
+  - yt-unit-model-dynamic
   - yt-entrepreneur-five-step-method
   - yt-decision-key-hypotheses
+  - yt-decision-y-model
 contradicts: []
 query_triggers:
   - "复制哪个算哪个"
