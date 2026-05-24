@@ -1,5 +1,5 @@
 ---
-updated: 2026-05-24
+updated: 2026-05-25
 active_branch: main
 active_task: 黄药师 Sprint 2-4 完成，Sprint 5 暂缓。待欧阳锋审查 Sprint 3 交付 + 给定方向。
 blockers: []

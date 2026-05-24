@@ -328,17 +328,17 @@ Anthropic 协议适配 + `_PLACEHOLDER_PATTERNS` + `is_configured()` 修复已�
 | P0-1/2/3 | llm.py + 报告更正 + 方法学 | — | ✅ |
 | P1-4/5/6 | llm-check + orphan + heading | — | ✅ |
 | 🍽️ | AI学习域狗粮任务 | — | ✅ A |
-| S1-2 | regex + --title/--kind + ocr fallback | S1-2 | ⚡ 已修，待 commit |
-| S3-1 | produce 读 wiki → Body Structure | S3 | ⏳ |
-| S3-2 | produce 自动填 Source Lineage | S3 | ⏳ |
-| S3-3 | produce → validate 快捷循环 | S3 | ⏳ |
-| S3-4 | validate 以 frontmatter 为真相源 | S3 | ⏳ |
-| S3-5 | artifact-registry 降级 | S3 | ⏳ |
-| S4-1 | 断链批量修复（~113个） | S4 | ⏳ |
-| S4-2 | frontmatter 批量补全（~271张） | S4 | ⏳ |
-| S4-3 | 新旧格式统一（~166张） | S4 | ⏳ |
-| 🧹 | 清理 3 张垃圾 source | 随手 | ⏳ |
-| 🎬 | video ship stages sync | 随手 | ⏳ |
+| S1-2 | regex + --title/--kind + ocr fallback | S1-2 | ✅ |
+| S3-1 | produce 读 wiki → Body Structure | S3 | ✅ |
+| S3-2 | produce 自动填 Source Lineage | S3 | ✅ |
+| S3-3 | produce → validate 快捷循环 | S3 | ✅ |
+| S3-4 | validate 以 frontmatter 为真相源 | S3 | ✅ |
+| S3-5 | artifact-registry 降级 | S3 | ✅ |
+| S4-1 | 断链批量修复（~113个） | S4 | ✅ |
+| S4-2 | frontmatter 批量补全（~271张） | S4 | ✅ |
+| S4-3 | 新旧格式统一（~166张） | S4 | ✅ |
+| 🧹 | 清理 3 张垃圾 source | 随手 | ✅ |
+| 🎬 | video ship stages sync | 随手 | ✅ |
 | S5 | Validate→Ship 闭环 | — | ⏸️ 暂缓 |
 
 ---
