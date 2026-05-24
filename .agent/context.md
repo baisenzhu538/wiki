@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-25
 active_branch: main
-active_task: 黄药师 Sprint 2-4 完成，Sprint 5 暂缓。待欧阳锋审查 Sprint 3 交付 + 给定方向。
+active_task: 黄药师 Sprint 2-4 完成，Sprint 5 暂缓。待欧阳锋审查 Sprint 3 交付 + 给定方向。Token 暴涨排查完成 → [[70_product/tasks/token-spike-investigation-20260525]]。
 blockers: []
 ---
 
