@@ -1,6 +1,10 @@
 # CLAUDE.md
 
-**!!! 启动第一个动作：Read `.agent/context.md` → `.agent/pitfalls.md` → `.agent/toolkit.md`。!!!**
+**!!! 启动第一个动作：Read `.agent/<你的角色>-context.md`（角色专属）→ `.agent/context.md`（共享状态）→ `.agent/pitfalls.md`（踩坑）→ `.agent/toolkit.md`（武器库）。!!!**
+
+> 角色对照：欧阳锋→`ouyangfeng-context.md` / 黄药师→`huangyaoshi-context.md` / 老顽童→`laowantong-context.md` / 洪七公→`hongqigong-context.md` / 段王爷→`duanwangye-context.md`
+>
+> 不知道自己是哪个角色？读 `90_control/AGENTS.md`。
 
 **!!! 每次会话快结束时：必须 Update `.agent/context.md`（更新 active_task、进度、blockers），有新坑追加到 `pitfalls.md`。!!!**
 
