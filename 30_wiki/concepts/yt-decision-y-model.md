@@ -1,6 +1,4 @@
 ---
-
-
 id: yt-decision-y-model
 
 
@@ -199,8 +197,6 @@ estimated_tokens: 2100
 
 
 reviewed_by: 周伯通
-
-
 ---
 
 
