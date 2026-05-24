@@ -46,7 +46,7 @@ source_refs:
   - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
   - "src_20260524_6b5a4c3d-一堂-单元模型04口述"
 created_at: "2026-05-24"
-updated_at: "2026-05-24"
+updated_at: "2026-05-25"
 estimated_tokens: 2800
 reviewed_by: ""
 ---
@@ -187,6 +187,7 @@ Gigerenzer 的"生态理性"理论对"拆推评算"的"努力找出所有成本�
 | 下游工具 | [[yt-unit-model-benchmark]] | 模型建好后，需要基准值来验证数字是否合理 |
 | 下游工具 | [[yt-unit-model-dynamic]] | 静态模型建好后，需要动态预测来预判未来变化 |
 | 进阶框架 | [[yt-unit-model-ladder]] | "拆推评算"是 L4 的核心能力，L5 需要在此基础上加入基准值验证 |
+| 方法论来源 | [[yt-entrepreneur-five-step-method]] | 五步法中的"看数据"环节即为本工具的具体实操场景 |
 | 方法论语境 | [[yt-decision-y-model]] | Y 模型负责"验证假设"，本工具负责"量化假设"——两者互补 |
 
 ### 不要用的场景

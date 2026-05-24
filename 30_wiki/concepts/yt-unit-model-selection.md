@@ -44,7 +44,7 @@ source_refs:
   - "src_20260524_9f4e5d6a-一堂-单元模型02口述"
   - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
 created_at: "2026-05-24"
-updated_at: "2026-05-24"
+updated_at: "2026-05-25"
 estimated_tokens: 2600
 reviewed_by: ""
 ---
@@ -176,6 +176,7 @@ Klein 在《Sources of Power》中对消防员、护士等专家的决策研究�
 |------|---------|------|
 | 进阶框架 | [[yt-unit-model-ladder]] | 选择单元是 L3 的核心能力——L1-L2 不需要选择，L4-L6 在选定单元后进行精细化 |
 | 下游工具 | [[yt-unit-model-construction]] | 选定单元后，下一步是建模（拆推评算） |
+| 下游工具 | [[yt-unit-model-benchmark]] | 建模完成后，需要基准值来验证数字是否合理 |
 | 方法论来源 | [[yt-entrepreneur-five-step-method]] | 五步法中的"看数据"需要先选定单元，否则数据是散乱的 |
 | 先导条件 | [[yt-decision-key-hypotheses]] | 在选单元之前，必须先确认"业务假设"是否成立——方向错了，单元选得再好也没用 |
 
