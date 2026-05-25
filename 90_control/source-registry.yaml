@@ -4789,3 +4789,45 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/AI-study/cleaned/一堂-AI学习-科学提问口述_cleaned.md"
   content_sha256: "bc75ee51a0758383cdb56c85d9b0742f4e5dc26be8acf264509678eeb005d354"
+
+- id: "src_20260525_7ee2bba2"
+  title: "AI时代判断力口述"
+  type: "transcript"
+  location: "10_raw/sources/src_20260525_7ee2bba2-ai时代判断力口述.md"
+  captured_at: "2026-05-25T04:49:06+00:00"
+  registered_at: "2026-05-25T04:49:06+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/ai时代判断力口述.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/AI应用场景01.md"
+  content_sha256: "48f9526d0f2c4b6977eee3d99188191f4b0658dbffc17d104561516753e68075"
+
+- id: "src_20260525_6748cc27"
+  title: "AI时代判断力口述"
+  type: "transcript"
+  location: "10_raw/sources/src_20260525_6748cc27-ai时代判断力口述.md"
+  captured_at: "2026-05-25T04:49:06+00:00"
+  registered_at: "2026-05-25T04:49:06+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/ai时代判断力口述-2.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/AI时代自进化组织形式.md"
+  content_sha256: "b7b3bf6c2a908a68e2b694a566b5da882fbf098ba9d60582b6859f9aaa06ab95"
+
+- id: "src_20260525_66059442"
+  title: "AI时代判断力口述"
+  type: "transcript"
+  location: "10_raw/sources/src_20260525_66059442-ai时代判断力口述.md"
+  captured_at: "2026-05-25T04:49:06+00:00"
+  registered_at: "2026-05-25T04:49:06+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/ai时代判断力口述-3.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/yitang-judgment-transcript.md"
+  content_sha256: "b3f69519a25252e1e7a5b87a78eb79e0737f8b3e909932e484effd8a7028b922"

@@ -1,400 +1,415 @@
 # Wiki Index
 
-_Last updated: 2026-05-23T17:29:50+00:00_
 
-- [[2026-05-17-深夜感想|2026-05-17 深夜感想]] — source `src_20260522_390d75a8`
-- [[ai-native-五层进阶从答案到效率到作品到产品到系统|AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统]] — source `src_20260524_3cadf228`
-- [[aima-ai思维卡-外部链接归档|AIMA AI思维卡 — 外部链接归档]] — source `src_20260522_a8e05d98`
-- [[anthropic-官方发布创始人手册打造-ai-原生初创公司|AI 原生创业四阶段模型（Anthropic 创始人手册）]] — source no source
-- [[business-analysis|Business Analysis]] — source `src_20260522_9d98d526`
-- [[business-research-skill-oscar-13-weapon-system|Business Research Skill — OSCAR 13武器体系 Claude Code 实现]] — source no source
-- [[deepseek-v4-在知识管理系统中的应用|DeepSeek V4 在知识管理系统中的应用]] — source `src_20260505_7766e197`
-- [[design-ai-image-generation|Design / Ai Image Generation]] — source `src_20260522_38173b48`
-- [[ec工业化规范手册-v2.8.0|EC工业化规范手册 v2.8.0]] — source `src_20260503_feab72b2`
-- [[EC工业化规范手册|EC工业化规范手册]] — source `src_20260503_dadc7838`
-- [[graph-rag|Graph RAG — Knowledge-Graph-Powered Retrieval]] — source no source
-- [[HIS系统开发实现方案-架构师指南|HIS系统开发实现方案-架构师指南]] — source `src_20260503_1a1f0312`
-- [[HIS系统深度调研|HIS系统深度调研]] — source `src_20260503_968e0210`
-- [[kdo_product_design_agent_final|Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)]] — source `src_20260503_52ae08ba`
-- [[kimi-深度调研集群方法论-deep-research-swarm|Kimi 深度调研集群方法论 (Deep-Research-Swarm)]] — source `src_20260502_7d7c1b7c`
-- [[knowledge-delivery-os-快速体验指南-飞书云文档|Knowledge Delivery OS 快速体验指南 - 飞书云文档]] — source `src_20260501_6a491b80`
-- [[learning-thinking|Learning Thinking]] — source `src_20260522_0af1f6dd`
-- [[master-ai-info-literacy|AI时代信息素养框架]] — source no source
-- [[master-antifragile-checklist|反脆弱决策检查清单]] — source no source
-- [[master-cognitive-bias-checklist|认知偏差快速诊断清单]] — source no source
-- [[master-decision-hygiene|决策卫生五步法]] — source no source
-- [[master-first-principles|第一性原理拆解器]] — source no source
-- [[master-knowledge-compound|知识复利：IPO+萃取+管理的上位整合]] — source no source
-- [[master-systems-thinking|系统思考：反馈循环与杠杆点]] — source no source
-- [[meta-prompt-eng|Meta Prompt Eng]] — source `src_20260522_a89ab860`
-- [[obsidian-kdo-内容产出工作流-产品设计大纲|Obsidian + KDO 内容产出工作流 — 产品设计大纲]] — source no source
-- [[ocr-ocr_screenshot2|OCR: ocr_screenshot2]] — source `src_20260522_4fa28ed8`
-- [[ocr-ocr_snipaste_2026-05-15_21-39-40|OCR: ocr_Snipaste_2026-05-15_21-39-40]] — source `src_20260522_8b6b5cfe`
-- [[ocr-screenshot1|OCR: screenshot1]] — source `src_20260522_64727b82`
-- [[ocr-screenshot2|OCR: screenshot2]] — source `src_20260522_961e1d68`
-- [[ocr-truman的个人成长五步法|OCR: Truman的个人成长五步法]] — source `src_20260522_074c72ae`
-- [[ocr-truman的选择两条职业成长路线|OCR: truman的选择：两条职业成长路线]] — source `src_20260522_9cbdf4fd`
-- [[ocr-一堂-个人修炼-y模型|OCR: 一堂-个人修炼-Y模型]] — source `src_20260522_3f5c76c0`
-- [[ocr-一堂-个人修炼-全景图muse模型|OCR: 一堂-个人修炼-全景图MUSE模型]] — source `src_20260522_20c9fda8`
-- [[ocr-一堂-个人修炼-双三角模型|OCR: 一堂-个人修炼-双三角模型]] — source `src_20260522_1b95114b`
-- [[ocr-一堂-个人修炼-提问刻意练习画布|OCR: 一堂-个人修炼-提问刻意练习画布]] — source `src_20260522_a1a098d5`
-- [[ocr-一堂-个人修炼-科学学习ipo-全景策略|OCR: 一堂-个人修炼-科学学习IPO-全景策略]] — source `src_20260522_dee56cff`
-- [[ocr-一堂-个人修炼-科学学习ipo完整清单|OCR: 一堂-个人修炼-科学学习IPO完整清单]] — source `src_20260522_e139c9e9`
-- [[ocr-一堂-个人修炼-科学学习ipo模型|OCR: 一堂-个人修炼-科学学习IPO模型]] — source `src_20260522_6199c6b7`
-- [[ocr-一堂-个人修炼-科学提问刻意练习|OCR: 一堂-个人修炼-科学提问刻意练习]] — source `src_20260522_f70d7a7d`
-- [[ocr-一堂-个人修炼-表达力火箭模型-执行武器库|OCR: 一堂-个人修炼-表达力火箭模型-执行武器库]] — source `src_20260522_e60a7ec8`
-- [[ocr-一堂-个人修炼-表达力火箭模型|OCR: 一堂-个人修炼-表达力火箭模型]] — source `src_20260522_f6f8f8eb`
-- [[ocr-一堂-个人修炼-解放思想|OCR: 一堂-个人修炼-解放思想]] — source `src_20260522_33346186`
-- [[ocr-一堂-个人修炼-讲香十指模型-超级武器库|OCR: 一堂-个人修炼-讲香十指模型-超级武器库]] — source `src_20260522_ad373a9b`
-- [[ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图|OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图]] — source `src_20260522_ecb6ee97`
-- [[ocr-一堂-个人修炼-讲香基本功|OCR: 一堂-个人修炼-讲香基本功]] — source `src_20260522_98db1d35`
-- [[ocr-一堂-个人修炼-课程清单|OCR: 一堂-个人修炼-课程清单]] — source `src_20260522_a94d8057`
-- [[ocr-一堂-创业必修-课程清单|OCR: 一堂-创业必修-课程清单]] — source `src_20260522_67aa4e2a`
-- [[ocr-一堂-地图-个人地图|OCR: 一堂-地图-个人地图]] — source `src_20260522_40d2aee5`
-- [[ocr-一堂-地图-个人地图_conv|OCR: 一堂-地图-个人地图_conv]] — source `src_20260522_bd0dca98`
-- [[ocr-一堂-地图-创业地图|OCR: 一堂-地图-创业地图]] — source `src_20260522_c1935261`
-- [[ocr-一堂-地图-创业地图_conv|OCR: 一堂-地图-创业地图_conv]] — source `src_20260522_2954d80a`
-- [[ocr-一堂-地图-管理地图|OCR: 一堂-地图-管理地图]] — source `src_20260522_af67f9b0`
-- [[ocr-一堂-地图-管理地图_conv|OCR: 一堂-地图-管理地图_conv]] — source `src_20260522_e2244f17`
-- [[ocr-一堂-案例拆解-课程清单|OCR: 一堂-案例拆解-课程清单]] — source `src_20260522_1e654244`
-- [[ocr-一堂-泛产品设计-十年苦练30招|OCR: 一堂-泛产品设计-十年苦练30招]] — source `src_20260522_604eae9b`
-- [[ocr-一堂-科学决策-roi决策评估画布-案例01|OCR: 一堂-科学决策-ROI决策评估画布-案例01]] — source `src_20260522_6bb74b4e`
-- [[ocr-一堂-科学决策-roi决策评估画布-案例02|OCR: 一堂-科学决策-ROI决策评估画布-案例02]] — source `src_20260522_bf298e46`
-- [[ocr-一堂-科学决策-roi决策评估画布-案例03|OCR: 一堂-科学决策-ROI决策评估画布-案例03]] — source `src_20260522_01bac741`
-- [[ocr-一堂-科学决策-roi决策评估画布-案例04|OCR: 一堂-科学决策-ROI决策评估画布-案例04]] — source `src_20260522_94699fa0`
-- [[ocr-一堂-科学决策-roi决策评估画布|OCR: 一堂-科学决策-ROI决策评估画布]] — source `src_20260522_c78c1f2e`
-- [[ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步|OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步]] — source `src_20260522_d96543bb`
-- [[ocr-一堂-科学决策-人机协作决策|OCR: 一堂-科学决策-人机协作决策]] — source `src_20260522_33c40d41`
-- [[ocr-一堂-科学决策-关键假设abcd模型|OCR: 一堂-科学决策-关键假设ABCD模型]] — source `src_20260522_3261e6bd`
-- [[ocr-一堂-科学决策-关键训练清单重要|OCR: 一堂-科学决策-关键训练清单（重要））]] — source `src_20260522_ac7f8874`
-- [[ocr-一堂-科学决策-发现决策|OCR: 一堂-科学决策-发现决策]] — source `src_20260522_1a2ffc3e`
-- [[ocr-一堂-科学决策-商业模式-完整财务公式决策|OCR: 一堂-科学决策-商业模式-完整财务公式决策]] — source `src_20260522_c59acefd`
-- [[ocr-一堂-科学决策-宽度-个人|OCR: 一堂-科学决策-宽度-个人]] — source `src_20260522_45957066`
-- [[ocr-一堂-科学决策-宽度-企业|OCR: 一堂-科学决策-宽度-企业]] — source `src_20260522_b4ebba42`
-- [[ocr-一堂-科学决策-宽度-团队|OCR: 一堂-科学决策-宽度-团队]] — source `src_20260522_97242832`
-- [[ocr-一堂-科学决策-深度-l1优先级定性|OCR: 一堂-科学决策-深度-L1优先级定性]] — source `src_20260522_22cb5729`
-- [[ocr-一堂-科学决策-深度-l2部分定量|OCR: 一堂-科学决策-深度-L2部分定量]] — source `src_20260522_ad937c9c`
-- [[ocr-一堂-科学决策-深度-l3定量公式|OCR: 一堂-科学决策-深度-L3定量公式]] — source `src_20260522_80e1b943`
-- [[ocr-一堂-科学决策-深度-l4-案例01|OCR: 一堂-科学决策-深度-L4-案例01]] — source `src_20260522_5323822f`
-- [[ocr-一堂-科学决策-深度-l4严格财务公式|OCR: 一堂-科学决策-深度-L4严格财务公式]] — source `src_20260522_26271f58`
-- [[ocr-一堂-科学决策-深度-你的业务是一次抽样实验|OCR: 一堂-科学决策-深度-你的业务是一次抽样实验]] — source `src_20260522_3693c090`
-- [[ocr-一堂-科学决策-深度-决策经验值|OCR: 一堂-科学决策-深度-决策经验值]] — source `src_20260522_4f3415a1`
-- [[ocr-一堂-科学决策-深度-案例01|OCR: 一堂-科学决策-深度-案例01]] — source `src_20260522_9b437f93`
-- [[ocr-一堂-科学决策-深度-案例02|OCR: 一堂-科学决策-深度-案例02]] — source `src_20260522_e60022cc`
-- [[ocr-一堂-科学决策-深度-案例03|OCR: 一堂-科学决策-深度-案例03]] — source `src_20260522_3782f983`
-- [[ocr-一堂-科学决策-深度-案例04|OCR: 一堂-科学决策-深度-案例04]] — source `src_20260522_b4a26e00`
-- [[ocr-一堂-科学决策-深度-案例05|OCR: 一堂-科学决策-深度-案例05]] — source `src_20260522_7344d957`
-- [[ocr-一堂-科学决策-深度-案例06|OCR: 一堂-科学决策-深度-案例06]] — source `src_20260522_e70d298c`
-- [[ocr-一堂-科学决策-稀缺机会窗口|OCR: 一堂-科学决策-稀缺机会窗口]] — source `src_20260522_7fb2b9c1`
-- [[ocr-一堂-科学决策-稀缺资源清单|OCR: 一堂-科学决策-稀缺资源清单]] — source `src_20260522_d067a6ba`
-- [[ocr-一堂-科学决策-项目方案评估三角形|OCR: 一堂-科学决策-项目方案评估三角形]] — source `src_20260522_e31b26dd`
-- [[ocr-一堂-科学决策-高度-两种典型的思考习惯|OCR: 一堂-科学决策-高度-两种典型的思考习惯]] — source `src_20260522_23b5714d`
-- [[ocr-一堂-管理必修-课程清单|OCR: 一堂-管理必修-课程清单]] — source `src_20260522_4c9a911f`
-- [[ocr-一堂y模型-科学成事道理|OCR: 一堂Y模型-科学成事道理]] — source `src_20260522_32462c98`
-- [[ocr-一堂y模型steps策略集|OCR: 一堂Y模型steps策略集]] — source `src_20260522_0bb1cb6e`
-- [[ocr-一堂y模型实操工作流|OCR: 一堂Y模型实操工作流]] — source `src_20260522_53341e5a`
-- [[ocr-一堂个人地图高潜力成长者修炼全景图|OCR: 一堂个人地图：高潜力成长者修炼全景图]] — source `src_20260522_9cb1d9d6`
-- [[ocr-一堂五步法-产品内核画布|OCR: 一堂五步法-产品内核画布]] — source `src_20260522_dc5c80df`
-- [[ocr-一堂五步法画布|OCR: 一堂五步法画布]] — source `src_20260522_2a547df5`
-- [[ocr-一堂产品内核-十大典型指标|OCR: 一堂产品内核-十大典型指标]] — source `src_20260522_32e4318a`
-- [[ocr-一堂刻意练习十年成长指数|OCR: 一堂刻意练习十年成长指数]] — source `src_20260522_e6cf558a`
-- [[ocr-一堂提炼过的因果模型|OCR: 一堂提炼过的因果模型]] — source `src_20260522_77b6cdaf`
-- [[ocr-一堂最佳转化率动力曲线图|OCR: 一堂最佳转化率动力曲线图]] — source `src_20260522_9557e4cb`
-- [[ocr-一堂泛产品设计-十年修炼爬山地图|OCR: 一堂泛产品设计-十年修炼爬山地图]] — source `src_20260522_db09e70d`
-- [[ocr-一堂泛产品设计-多出牌多练习|OCR: 一堂泛产品设计-多出牌多练习]] — source `src_20260522_4754d8fd`
-- [[ocr-一堂泛产品设计36计-全套地图|OCR: 一堂泛产品设计36计-全套地图]] — source `src_20260522_7e8d10c4`
-- [[ocr-一堂深度复盘冰山图|OCR: 一堂深度复盘冰山图]] — source `src_20260522_c92a36ba`
-- [[ocr-一堂转化率-10大容易浪费的触点|OCR: 一堂转化率-10大容易浪费的触点]] — source `src_20260522_037af20f`
-- [[ocr-一堂进步大地图|OCR: 一堂进步大地图]] — source `src_20260522_d75f0a0d`
-- [[ocr-一堂进步大地图_compressed|OCR: 一堂进步大地图_compressed]] — source `src_20260522_2250865e`
-- [[ocr-优秀泛产品设计者的自我修养|OCR: 优秀泛产品设计者的自我修养]] — source `src_20260522_91948770`
-- [[ocr-婚礼操盘-用户和场景|OCR: 婚礼操盘-用户和场景]] — source `src_20260522_94ee2a08`
-- [[ocr-婚礼规划|OCR: 婚礼规划]] — source `src_20260522_b29a6b98`
-- [[ocr-审美提升的层级|OCR: 审美提升的层级]] — source `src_20260522_7d2a79f8`
-- [[ocr-微信图片_20260507004746_32_32|OCR: 微信图片_20260507004746_32_32]] — source `src_20260522_dd3806c5`
-- [[ocr-微信图片_20260507004751_33_32|OCR: 微信图片_20260507004751_33_32]] — source `src_20260522_d38bb08e`
-- [[ocr-微信图片_20260507004755_34_32|OCR: 微信图片_20260507004755_34_32]] — source `src_20260522_0f690cad`
-- [[ocr-微信图片_20260507004758_35_32|OCR: 微信图片_20260507004758_35_32]] — source `src_20260522_c28367b2`
-- [[ocr-微信图片_20260507004801_37_32|OCR: 微信图片_20260507004801_37_32]] — source `src_20260522_05b4de3c`
-- [[ocr-微信图片_20260507004802_38_32|OCR: 微信图片_20260507004802_38_32]] — source `src_20260522_f0ec18a8`
-- [[ocr-微信图片_20260507004804_39_32|OCR: 微信图片_20260507004804_39_32]] — source `src_20260522_d694dfc8`
-- [[ocr-微信图片_20260507004806_40_32|OCR: 微信图片_20260507004806_40_32]] — source `src_20260522_db85a8da`
-- [[ocr-微信图片_20260507004811_41_32|OCR: 微信图片_20260507004811_41_32]] — source `src_20260522_b64b7124`
-- [[ocr-泛产品设计-审美卡片-最佳实践建模|OCR: 泛产品设计-审美卡片-最佳实践建模]] — source `src_20260522_89529426`
-- [[ocr-泛产品设计-审美卡片-最佳实践收集|OCR: 泛产品设计-审美卡片-最佳实践收集]] — source `src_20260522_6373b1b1`
-- [[ocr-泛产品设计-审美卡片-最佳实践池子|OCR: 泛产品设计-审美卡片-最佳实践池子]] — source `src_20260522_6a8b5755`
-- [[ocr-泛产品设计-审美卡片-美好作品想象|OCR: 泛产品设计-审美卡片-美好作品想象]] — source `src_20260522_6697adcb`
-- [[ocr-泛产品设计-审美工具箱指南|OCR: 泛产品设计-审美工具箱指南]] — source `src_20260522_65a78106`
-- [[ocr-泛产品设计-用户卡片-一堂五步法|OCR: 泛产品设计-用户卡片-一堂五步法]] — source `src_20260522_a632cc1c`
-- [[ocr-泛产品设计-用户卡片-动力阻力|OCR: 泛产品设计-用户卡片-动力阻力]] — source `src_20260522_1ec27760`
-- [[ocr-泛产品设计-用户卡片-场景推演|OCR: 泛产品设计-用户卡片-场景推演]] — source `src_20260522_3bc67cbd`
-- [[ocr-泛产品设计-用户卡片-多视角思考|OCR: 泛产品设计-用户卡片-多视角思考]] — source `src_20260522_f6cf4e83`
-- [[ocr-泛产品设计-用户卡片-峰终定律|OCR: 泛产品设计-用户卡片-峰终定律]] — source `src_20260522_041b5a94`
-- [[ocr-泛产品设计-用户卡片-惊喜公式|OCR: 泛产品设计-用户卡片-惊喜公式]] — source `src_20260522_622b8a41`
-- [[ocr-泛产品设计-用户卡片-用户分层|OCR: 泛产品设计-用户卡片-用户分层]] — source `src_20260522_38ddd826`
-- [[ocr-泛产品设计-用户卡片-用户视角|OCR: 泛产品设计-用户卡片-用户视角]] — source `src_20260522_11d721ac`
-- [[ocr-泛产品设计-用户卡片-行业分析画布|OCR: 泛产品设计-用户卡片-行业分析画布]] — source `src_20260522_78d5f0a4`
-- [[ocr-泛产品设计-用户卡片-需求挖掘|OCR: 泛产品设计-用户卡片-需求挖掘]] — source `src_20260522_11af6cd2`
-- [[ocr-泛产品设计-用户卡片-项目背景分析|OCR: 泛产品设计-用户卡片-项目背景分析]] — source `src_20260522_115e8827`
-- [[ocr-泛产品设计-落地卡片-roi分析|OCR: 泛产品设计-落地卡片-ROI分析]] — source `src_20260522_1b5af0b6`
-- [[ocr-泛产品设计-落地卡片-业务建模|OCR: 泛产品设计-落地卡片-业务建模]] — source `src_20260522_f5a0f2e1`
-- [[ocr-泛产品设计-落地卡片-低成本测试mvp|OCR: 泛产品设计-落地卡片-低成本测试MVP]] — source `src_20260522_4d086230`
-- [[ocr-泛产品设计-落地卡片-假设拆解|OCR: 泛产品设计-落地卡片-假设拆解]] — source `src_20260522_eb90d179`
-- [[ocr-泛产品设计-落地卡片-内核和边界|OCR: 泛产品设计-落地卡片-内核和边界]] — source `src_20260522_f3072399`
-- [[ocr-泛产品设计-落地卡片-努力仿真|OCR: 泛产品设计-落地卡片-努力仿真]] — source `src_20260522_bab48c61`
-- [[ocr-泛产品设计-落地卡片-十倍速验证|OCR: 泛产品设计-落地卡片-十倍速验证]] — source `src_20260522_5bd37e0d`
-- [[ocr-泛产品设计-落地卡片-善用佳软|OCR: 泛产品设计-落地卡片-善用佳软]] — source `src_20260522_7ddf8bf2`
-- [[ocr-泛产品设计-落地卡片-复盘迭代|OCR: 泛产品设计-落地卡片-复盘迭代]] — source `src_20260522_3b5c417d`
-- [[ocr-泛产品设计-落地卡片-攻坚会|OCR: 泛产品设计-落地卡片-攻坚会]] — source `src_20260522_cbb3b77d`
-- [[ocr-泛产品设计-落地卡片-灵感闪现|OCR: 泛产品设计-落地卡片-灵感闪现]] — source `src_20260522_e861d61d`
-- [[ocr-泛产品设计-落地卡片-管理三段论|OCR: 泛产品设计-落地卡片-管理三段论]] — source `src_20260522_8d5cc8b0`
-- [[ocr-泛产品设计-落地卡片-解放思想|OCR: 泛产品设计-落地卡片-解放思想]] — source `src_20260522_c2c6b487`
-- [[ocr-泛产品设计-落地卡片-设计原则|OCR: 泛产品设计-落地卡片-设计原则]] — source `src_20260522_9eaf7399`
-- [[ocr-泛产品设计-落地卡片-逻辑mece|OCR: 泛产品设计-落地卡片-逻辑MECE]] — source `src_20260522_8d990f3c`
-- [[ocr-泛产品设计-落地卡片-酝酿式打磨|OCR: 泛产品设计-落地卡片-酝酿式打磨]] — source `src_20260522_2bcc3531`
-- [[ocr-泛产品设计-落地卡片-里程碑拆解|OCR: 泛产品设计-落地卡片-里程碑拆解]] — source `src_20260522_4be84945`
-- [[ocr-泛产品设计-落地卡片-风险管理|OCR: 泛产品设计-落地卡片-风险管理]] — source `src_20260522_3dd58dff`
-- [[ocr-泛产品设计-需求工具箱指南|OCR: 泛产品设计-需求工具箱指南]] — source `src_20260522_726a6a3b`
-- [[ocr-泛产品设计的应用场景示意图|OCR: 泛产品设计的应用场景示意图]] — source `src_20260522_e985ecdb`
-- [[ocr-泛产品设计者的三大自我修养|OCR: 泛产品设计者的三大自我修养]] — source `src_20260522_2a53b1eb`
-- [[ocr-泛产品设计者的自我修养|OCR: 泛产品设计者的自我修养]] — source `src_20260522_8995f40a`
-- [[ocr-泛产品设计落地工具篇指南|OCR: 泛产品设计落地工具篇指南]] — source `src_20260522_8bdb2970`
-- [[ocr-泛产品设计落地篇|OCR: 泛产品设计落地篇]] — source `src_20260522_e4b635ac`
-- [[ocr-萃取总结|OCR: 萃取总结]] — source `src_20260522_4310e409`
-- [[ocr-顶级产品追求的方向-乔布斯|OCR: 顶级产品追求的方向-乔布斯]] — source `src_20260522_ea933690`
-- [[ocr-项目背景问题思考的8个维度|OCR: 项目背景问题思考的8个维度]] — source `src_20260522_4af61500`
-- [[ocr-预判模型|OCR: 预判模型]] — source `src_20260522_e71d89ff`
-- [[paddleocr-skill|PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill]] — source no source
-- [[product-ux|Product Ux]] — source `src_20260522_404f58a2`
-- [[research_methodology|Kimi 深度调研集群方法论 (Deep-Research-Swarm)]] — source no source
-- [[sprint-2-门禁举证验收|Sprint 2 门禁举证验收]] — source `src_20260510_9e98a292`
-- [[tinyfish-agentic-web-infrastructure|TinyFish — Agentic Web 基础设施建设层 Skill]] — source no source
-- [[tools-workflows|Tools Workflows]] — source `src_20260522_9d322e81`
-- [[truman-perspective-skill|Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现]] — source no source
-- [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl|Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl]] — source no source
-- [[writing-content|Writing Content]] — source `src_20260522_5819659f`
-- [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown|YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN]] — source `src_20260430_8cc84e5b`
-- [[yitang-course-map|一堂课程大地图]] — source no source
-- [[yt-case-mandatory-cases|一堂案例必修课]] — source no source
-- [[yt-composite-pan-product-methodology|泛产品设计方法论]] — source no source
-- [[yt-concept-ai-guard-brain|守脑如玉：AI时代保持大脑锋利]] — source no source
-- [[yt-concept-context-engineering|上下文工程：充分≠越多越好]] — source no source
-- [[yt-concept-peas-insight|PEAS核心洞察：决策系统的四槽诊断法]] — source no source
-- [[yt-concept-weapon-arsenal|超级武器库（元概念）]] — source no source
-- [[yt-decision-ai-partner|AI决策Partner对话法]] — source no source
-- [[yt-decision-canvas|Y模型决策画布（一页纸工具）]] — source no source
-- [[yt-decision-consensus-iceberg|共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问]] — source no source
-- [[yt-decision-depth-ladder|深度阶梯工具：L1-L4停车场模型 + 三点预测法]] — source no source
-- [[yt-decision-full-process|科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型]] — source no source
-- [[yt-decision-habit-shift|X型→Y型决策者习惯诊断与转换]] — source no source
-- [[yt-decision-height-toolkit|高度分析工具：上帝视角四维提升法 + 高水平共识曲线]] — source no source
-- [[yt-decision-review|决策复盘工具：L1-L4深度复盘法 + 假设验证闭环]] — source no source
-- [[yt-decision-width-method|宽度分析工具：列推建查四步法+三层盲区清单]] — source no source
-- [[yt-decision-y-model|Y模型科学决策框架（广义ROI）]] — source no source
-- [[yt-entrepreneur-259-milestone|259里程碑]] — source no source
-- [[yt-entrepreneur-barriers|项目壁垒]] — source no source
-- [[yt-entrepreneur-business-growth|业务增长]] — source no source
-- [[yt-entrepreneur-channel-exploration|渠道探索]] — source no source
-- [[yt-entrepreneur-concentration-analysis|集中度分析]] — source no source
-- [[yt-entrepreneur-five-step-method|一堂五步法]] — source no source
-- [[yt-entrepreneur-fundraising|融资认知]] — source no source
-- [[yt-entrepreneur-growth-flywheel|增长飞轮]] — source no source
-- [[yt-entrepreneur-industrial-production|工业化生产]] — source no source
-- [[yt-entrepreneur-industry-forecast|行业预判]] — source no source
-- [[yt-entrepreneur-key-hypotheses|关键假设]] — source no source
-- [[yt-entrepreneur-lean-validation|低成本验证/MVP]] — source no source
-- [[yt-entrepreneur-liberate-thinking|解放思想]] — source no source
-- [[yt-entrepreneur-needs-analysis|需求分析]] — source no source
-- [[yt-entrepreneur-opportunity-selection|机会选择]] — source no source
-- [[yt-entrepreneur-pragmatic-startup|务实创业]] — source no source
-- [[yt-entrepreneur-product-core|产品内核]] — source no source
-- [[yt-entrepreneur-research-camp|调研行动营：从调研认知到AI调研武器库]] — source no source
-- [[yt-entrepreneur-research-cognition|调研认知]] — source no source
-- [[yt-entrepreneur-scientific-method|Y模型/科学方法]] — source no source
-- [[yt-entrepreneur-spin-selling|SPIN销售法：顾问式销售的奠基之作]] — source no source
-- [[yt-entrepreneur-truth-seeking|实事求是]] — source no source
-- [[yt-entrepreneur-unit-model|单元模型]] — source no source
-- [[yt-management-basic-skills|基本功认知]] — source no source
-- [[yt-management-business-formula|业务公式]] — source no source
-- [[yt-management-company-culture|公司文化]] — source no source
-- [[yt-management-conversion-hacking|转化率黑客]] — source no source
-- [[yt-management-finance-basics|财务入门]] — source no source
-- [[yt-management-founder-role|一号位]] — source no source
-- [[yt-management-goal-management|目标管理]] — source `10_raw/sources/一堂-课程地图精华串讲.md`
-- [[yt-management-leadership-levels|管理段位]] — source no source
-- [[yt-management-onboarding|新人落地]] — source no source
-- [[yt-management-partnership-equity|合伙股权]] — source no source
-- [[yt-management-project-management|项目管理]] — source no source
-- [[yt-management-scientific-decision|Y模型/科学决策]] — source no source
-- [[yt-management-scientific-hiring|科学招聘]] — source `10_raw/sources/一堂-课程地图精华串讲.md`
-- [[yt-management-scientific-meetings|科学开会]] — source no source
-- [[yt-management-strategy-meeting|战略会]] — source no source
-- [[yt-management-team-knowledge|团队知识管理]] — source no source
-- [[yt-management-toolkit-overview|管理工具箱总览]] — source no source
-- [[yt-model-aesthetic-progression|审美提升的层级：从看不见到大胆想象的进化路径]] — source no source
-- [[yt-model-agent-architecture|智能体架构：PEAS与五层Agent模型]] — source no source
-- [[yt-model-cognitive-upgrade-framework|认知升级十步框架：从「读书」到「安装认知补丁」]] — source no source
-- [[yt-model-conversion-optimization|转化率优化：动力三曲线 × 十大浪费触点]] — source no source
-- [[yt-model-deep-review-iceberg|深度复盘冰山图：从主观感受到能力建设的五层穿透]] — source no source
-- [[yt-model-deliberate-practice-growth|刻意练习十年成长指数：为什么有人一年顶十年]] — source no source
-- [[yt-model-dual-triangle-competitiveness|双三角竞争力模型]] — source no source
-- [[yt-model-entrepreneur-map|创业修炼地图]] — source no source
-- [[yt-model-five-step-canvas|五步法画布 × 产品内核画布：从假设到壁垒的实操工具]] — source no source
-- [[yt-model-ipo-complete-checklist|IPO 科学学习完整清单]] — source no source
-- [[yt-model-ipo-learning-strategy|IPO 科学学习全景策略]] — source no source
-- [[yt-model-liberate-thinking-layers|解放思想五层模型]] — source no source
-- [[yt-model-management-map|管理修炼地图]] — source no source
-- [[yt-model-muse-ai-framework|MUSE 人工智能全景图]] — source no source
-- [[yt-model-pan-product-36-strategies|泛产品设计36计·全套官方工具箱]] — source no source
-- [[yt-model-pan-product-aesthetic-toolkit|泛产品设计·审美工具箱（4张卡牌）]] — source no source
-- [[yt-model-pan-product-climbing-map|泛产品十年爬山地图：L1-L6成长路径]] — source no source
-- [[yt-model-pan-product-demand-toolkit|泛产品设计·需求工具箱（13张卡牌）]] — source no source
-- [[yt-model-pan-product-execution-toolkit|泛产品设计·落地工具箱（19张卡牌）]] — source no source
-- [[yt-model-pan-product-three-virtues|泛产品三大自我修养：用户价值×最佳实践×无限进步]] — source no source
-- [[yt-model-personal-map|个人修炼地图]] — source no source
-- [[yt-model-personal-pitch-toolkit|十指讲香模型（框架）]] — source no source
-- [[yt-model-prediction-model|预判模型：从最糙版到复杂版的三种预判范式]] — source no source
-- [[yt-model-product-core-metrics|产品内核十大典型指标：从获客到推荐的度量框架]] — source no source
-- [[yt-model-product-excellence|顶级产品追求：品味、最佳实践与乔布斯的审美哲学]] — source no source
-- [[yt-model-progress-map|无限进步大地图]] — source no source
-- [[yt-model-prompt-engineering|人机协作操作系统：提示词工程总框架]] — source no source
-- [[yt-model-questioning-practice-canvas|提问刻意练习提升画布]] — source no source
-- [[yt-model-scientific-questioning-map|科学提问刻意练习地图]] — source no source
-- [[yt-model-truman-career-routes|楚门的选择：两条职业成长路线 X vs Y]] — source no source
-- [[yt-model-truman-five-step-growth|Truman的个人成长五步法：用一页纸解释全部人生规划]] — source no source
-- [[yt-model-y-organization|Y 型创业模型]] — source no source
-- [[yt-panproduct-aesthetic-collection|泛产品设计·审美卡片：最佳实践收集]] — source no source
-- [[yt-panproduct-aesthetic-imagination|泛产品设计·审美卡片：美好作品想象]] — source no source
-- [[yt-panproduct-aesthetic-modeling|泛产品设计·审美卡片：最佳实践建模]] — source no source
-- [[yt-panproduct-aesthetic-pool|泛产品设计·审美卡片：最佳实践池子]] — source no source
-- [[yt-panproduct-demand-five-step-method|泛产品设计·用户卡片：一堂五步法]] — source no source
-- [[yt-panproduct-demand-industry-canvas|泛产品设计·用户卡片：行业分析画布]] — source no source
-- [[yt-panproduct-demand-motivation-resistance|泛产品设计·用户卡片：动力阻力]] — source no source
-- [[yt-panproduct-demand-multi-perspective|泛产品设计·用户卡片：多视角思考]] — source no source
-- [[yt-panproduct-demand-need-discovery|泛产品设计·用户卡片：需求挖掘]] — source no source
-- [[yt-panproduct-demand-peak-end-rule|泛产品设计·用户卡片：峰终定律]] — source no source
-- [[yt-panproduct-demand-project-background|泛产品设计·用户卡片：项目背景分析]] — source no source
-- [[yt-panproduct-demand-scenario-walkthrough|泛产品设计·用户卡片：场景推演]] — source no source
-- [[yt-panproduct-demand-surprise-formula|泛产品设计·用户卡片：惊喜公式]] — source no source
-- [[yt-panproduct-demand-user-perspective|泛产品设计·用户卡片：用户视角]] — source no source
-- [[yt-panproduct-demand-user-segmentation|泛产品设计·用户卡片：用户分层]] — source no source
-- [[yt-panproduct-execution-10x-validation|泛产品设计·落地卡片：十倍速验证]] — source no source
-- [[yt-panproduct-execution-business-modeling|泛产品设计·落地卡片：业务建模]] — source no source
-- [[yt-panproduct-execution-core-and-boundary|泛产品设计·落地卡片：内核和边界]] — source no source
-- [[yt-panproduct-execution-design-principles|泛产品设计·落地卡片：设计原则]] — source no source
-- [[yt-panproduct-execution-good-tools|泛产品设计·落地卡片：善用佳软]] — source no source
-- [[yt-panproduct-execution-hypothesis-decomposition|泛产品设计·落地卡片：假设拆解]] — source no source
-- [[yt-panproduct-execution-idea-spark|泛产品设计·落地卡片：灵感闪现]] — source no source
-- [[yt-panproduct-execution-incubation-polish|泛产品设计·落地卡片：酝酿式打磨]] — source no source
-- [[yt-panproduct-execution-liberate-thinking|泛产品设计·落地卡片：解放思想]] — source no source
-- [[yt-panproduct-execution-logic-mece|泛产品设计·落地卡片：逻辑MECE]] — source no source
-- [[yt-panproduct-execution-low-cost-mvp|泛产品设计·落地卡片：低成本测试MVP]] — source no source
-- [[yt-panproduct-execution-management-trilogy|泛产品设计·落地卡片：管理三段论]] — source no source
-- [[yt-panproduct-execution-milestone-breakdown|泛产品设计·落地卡片：里程碑拆解]] — source no source
-- [[yt-panproduct-execution-realistic-simulation|泛产品设计·落地卡片：努力仿真]] — source no source
-- [[yt-panproduct-execution-review-iteration|泛产品设计·落地卡片：复盘迭代]] — source no source
-- [[yt-panproduct-execution-risk-management|泛产品设计·落地卡片：风险管理]] — source no source
-- [[yt-panproduct-execution-roi-analysis|泛产品设计·落地卡片：ROI分析]] — source no source
-- [[yt-panproduct-execution-war-room|泛产品设计·落地卡片：攻坚会]] — source no source
-- [[yt-personal-ai-capability|AI 能力（双模型）]] — source no source
-- [[yt-personal-ai-thinking-card|AI思维卡：从「读书」到「安装认知补丁」]] — source no source
-- [[yt-personal-checklist-notes|清单体笔记]] — source no source
-- [[yt-personal-deep-review|深度复盘]] — source no source
-- [[yt-personal-deliberate-practice|科学成长（刻意练习）]] — source no source
-- [[yt-personal-inspiration-flash|灵感闪现（认知篇）]] — source no source
-- [[yt-personal-ipo-learning|IPO 科学学习]] — source no source
-- [[yt-personal-knowledge-extraction|知识萃取方法论]] — source no source
-- [[yt-personal-knowledge-management|知识管理]] — source no source
-- [[yt-personal-pan-product-02|泛产品设计落地篇：无限进步与持续打磨]] — source no source
-- [[yt-personal-pan-product-aesthetics|泛产品设计审美篇：最佳实践与审美建模]] — source no source
-- [[yt-personal-pan-product-concepts|泛产品设计认知篇：重新理解泛化产品能力]] — source no source
-- [[yt-personal-pan-product-exploration|泛产品设计探索营：案例启发与认知重构]] — source no source
-- [[yt-personal-pan-product-practice|泛产品设计实操篇：需求分析与用户洞察]] — source no source
-- [[yt-personal-pan-product-tools|泛产品设计工具篇：出牌教学法与30张卡牌]] — source no source
-- [[yt-personal-product-design|泛产品设计]] — source no source
-- [[yt-personal-scientific-expression|科学表达（火箭模型）]] — source no source
-- [[yt-personal-thinking-models|思维模型：从碎片经验到稳定模型]] — source no source
-- [[yt-personal-time-management|时间管理]] — source no source
-- [[yt-personal-verbatim-script|逐字稿]] — source no source
-- [[yt-personal-y-model-exploration-2|Y模型探索营2：五次质变与科学推演]] — source no source
-- [[yt-personal-y-model-practice|Y模型实操：科学成事的底层操作系统]] — source no source
-- [[yt-pitch-aphorism|讲香·金句化]] — source no source
-- [[yt-pitch-colloquialization|讲香·口语化]] — source no source
-- [[yt-pitch-conflict|讲香·冲突化]] — source no source
-- [[yt-pitch-emotionalization|讲香·情绪化]] — source no source
-- [[yt-pitch-materialization|讲香·素材化]] — source no source
-- [[yt-pitch-metaphor|讲香·比喻化]] — source no source
-- [[yt-pitch-quantification|讲香·数字化]] — source no source
-- [[yt-pitch-scenarization|讲香·场景化]] — source no source
-- [[yt-pitch-storytelling|讲香·故事化]] — source no source
-- [[yt-pitch-sublimation|讲香·升华化]] — source no source
-- [[yt-prompt-anti-flattery|反谄媚机制：让AI说真话]] — source no source
-- [[yt-prompt-brainstorming|AI头脑风暴工作流]] — source no source
-- [[yt-prompt-engineering-andrew-ng|吴恩达提示词课程·一堂拆书精华]] — source no source
-- [[yt-prompt-iterative-prompting|迭代式提示词工作流（5步法）]] — source no source
-- [[yt-prompt-writing-workflow|AI写作工作流：大纲→要点→全文]] — source no source
-- [[yt-research-action-camp-launch|一堂调研行动营 · 启动课（LLM 精炼）]] — source no source
-- [[yt-research-competitor-toolkit|竞品拆解工具包：三层分类+内核边界+单元模型对标]] — source no source
-- [[yt-research-expert-interview|专家访谈工具：2小时获取行业共识的标准流程]] — source no source
-- [[yt-research-hypothesis-test|假设验证调研工具：关键假设→可证伪问题→最小实验]] — source no source
-- [[yt-research-industry-canvas|行业分析画布：五维快速扫描+二维定位]] — source no source
-- [[yt-research-intelligence-map|情报获取全景地图：13+渠道穷尽手段]] — source no source
-- [[yt-research-mindset|调研认知升级：从"找答案"到"拆解假设]] — source no source
-- [[yt-research-osl-framework|OSL调研五步法：一堂通用商业调研框架]] — source no source
-- [[yt-research-user-jtbd|用户JTBD访谈工具：区分"说的"和"真正要的]] — source no source
-- [[yt-research-weaponry-course|一堂调研武器库课程]] — source no source
-- [[yt-system-course-catalog|一堂全课程目录索引]] — source no source
-- [[yt-system-course-map-lecture|一堂课程地图精华串讲]] — source no source
-- [[yt-tool-equity-checklist|股权设计检查清单]] — source no source
-- [[yt-tool-hiring-scorecard|结构化面试打分卡]] — source no source
-- [[yt-tool-knowledge-extraction|团队知识萃取器]] — source no source
-- [[yt-tool-meeting-designer|会议设计师：一页纸会议蓝图]] — source no source
-- [[yt-tool-okr-cycle|OKR 制定与复盘罗盘]] — source no source
-- [[yt-tool-onboarding-90day|新人90天融入加速器]] — source no source
-- [[yt-tool-peas-agent-analysis|PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统]] — source no source
-- [[yt-tool-project-health-radar|项目健康度雷达]] — source no source
-- [[yt-tool-strategy-workshop|战略研讨会引导手册]] — source no source
-- [[互联网医院模式深度调研报告|互联网医院模式深度调研报告]] — source `src_20260501_9962715b`
-- [[人机协作决策-双三角模型|人机协作决策——双三角模型]] — source no source
-- [[保达云诊所深度调研报告|保达云诊所深度调研报告]] — source `src_20260503_ae1921d5`
-- [[在设计小伙伴的反馈还挺好的|在设计小伙伴的反馈还挺好的。]] — source `src_20260522_fef0b51b`
-- [[存储策略|存储策略]] — source `src_20260522_42622b63`
-- [[学会提问在信息洪流中锻造批判性思维的利刃|《学会提问》：在信息洪流中锻造批判性思维的利刃]] — source `src_20260524_836ad51c`
--  — source `src_20260524_90fb730a`
-- [[开源HIS系统代码深度分析报告|开源HIS系统代码深度分析报告]] — source `src_20260503_f4891888`
--  — source `src_20260524_dd8a0fe6`
-- [[紫鲸ai_智能体工作流平台_深度分析与产品设计|紫鲸AI_智能体工作流平台_深度分析与产品设计]] — source `src_20260501_4eee4e95`
-- [[紫鲸ai智能体工作流平台|紫鲸AI智能体工作流平台]] — source `src_20260428_29929c1f`
-- [[老朱的水感-2026年5月|老朱的水感 — 2026年5月]] — source `src_20260522_d3a621b8`
-- [[街顺app全面调研报告|街顺APP全面调研报告]] — source `src_20260427_970eb338`
-- [[视觉prompt三层操作系统-srom-visual-os|视觉Prompt三层操作系统 (SROM Visual OS)]] — source `src_20260522_1ede9202`
--  — source `src_20260524_e290738e`
-- [[诊所o2o外卖平台业务深度调研报告|诊所O2O外卖平台业务深度调研报告]] — source no source
-- [[轻量级诊所HIS调研全清单|轻量级诊所HIS调研全清单]] — source `src_20260503_5c91e867`
-- [[那今天不会|那今天不会。]] — source `src_20260522_642ab512`
-- [[鑫港湾his系统分阶段整改报告|鑫港湾HIS系统分阶段整改报告]] — source `src_20260428_db49a647`
-- [[Kimi-月之暗面|Kimi（月之暗面）]] — source no source
-- [[YC-Y-Combinator|Y Combinator]] — source no source
-- [[一堂|一堂]] — source no source
-- [[紫鲸AI|紫鲸AI]] — source no source
-- [[鑫港湾|鑫港湾]] — source no source
-- [[yt-decision-abcd-model|yt-decision-abcd-model]] — source no source
-- [[互联网医院项目|互联网医院项目]] — source no source
-- [[诊所O2O项目|诊所O2O项目]] — source no source
-- [[鑫港湾HIS项目|鑫港湾HIS项目]] — source no source
-- [[agent-external-brain-design|Agent 外挂大脑设计]] — source `project-continuity.md`
-- [[agent-native-card-design|Agent 原生知识卡设计规范 v2]] — source no source
-- [[graph-rag-retrieval-layer|Graph RAG 检索层技术说明]] — source no source
-- [[kdo-batch-produce-req014|REQ-014 批量 Produce 12 篇 Enriched 页面技术说明]] — source no source
-- [[kdo-protocol|KDO Protocol — AI-Agent Operating Contract]] — source no source
-- [[kdo-watch-health-check-layer|kdo watch 定时巡检层技术说明]] — source no source
-- [[obsidian-git-sync-protocol|Obsidian Git Multi-Device Sync Protocol]] — source no source
-- [[sprint-2-gate-enrich-evidence|Sprint 2 门禁系统 + Enrich 举证 — 设计规格]] — source no source
-- [[一堂方法论体系总图|一堂方法论体系总图]] — source no source
-- [[yt-tool-equity-checklist|'股权设计检查清单']] — source no source
-- [[yt-tool-hiring-scorecard|'结构化面试打分卡']] — source no source
-- [[yt-tool-meeting-designer|'会议设计师：一页纸会议蓝图']] — source no source
-- [[yt-tool-okr-cycle|'OKR 制定与复盘罗盘']] — source no source
-- [[yt-tool-onboarding-90day|'新人 90 天融入加速器']] — source no source
-- [[yt-tool-project-health-radar|'项目健康度雷达']] — source no source
-- [[yt-tool-strategy-workshop|'战略研讨会引导手册']] — source no source
+_Last updated: 2026-05-25T04:49:07+00:00_
+
+- [[concepts/2026-05-17-深夜感想.md|2026-05-17 深夜感想]] — source `src_20260522_390d75a8`
+- [[concepts/ai-native-五层进阶从答案到效率到作品到产品到系统.md|“AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统”]] — source `[`
+- [[concepts/aima-ai思维卡-外部链接归档.md|AIMA AI思维卡 — 外部链接归档]] — source `src_20260522_a8e05d98`
+- [[concepts/ai时代判断力口述-2.md|AI时代判断力口述]] — source `src_20260525_6748cc27`
+- [[concepts/ai时代判断力口述-3.md|AI时代判断力口述]] — source `src_20260525_66059442`
+- [[concepts/ai时代判断力口述.md|AI时代判断力口述]] — source `src_20260525_7ee2bba2`
+- [[concepts/anthropic-官方发布创始人手册打造-ai-原生初创公司.md|AI 原生创业四阶段模型（Anthropic 创始人手册）]] — source no source
+- [[concepts/business-analysis.md|Business Analysis]] — source `src_20260522_9d98d526`
+- [[concepts/business-research-skill-oscar-13-weapon-system.md|Business Research Skill — OSCAR 13武器体系 Claude Code 实现]] — source no source
+- [[concepts/deepseek-v4-在知识管理系统中的应用.md|DeepSeek V4 在知识管理系统中的应用]] — source `src_20260505_7766e197`
+- [[concepts/design-ai-image-generation.md|Design / Ai Image Generation]] — source `src_20260522_38173b48`
+- [[concepts/ec工业化规范手册-v2.8.0.md|EC工业化规范手册 v2.8.0]] — source `src_20260503_feab72b2`
+- [[concepts/EC工业化规范手册.md|EC工业化规范手册]] — source `src_20260503_dadc7838`
+- [[concepts/graph-rag.md|Graph RAG — Knowledge-Graph-Powered Retrieval]] — source no source
+- [[concepts/HIS系统开发实现方案-架构师指南.md|HIS系统开发实现方案-架构师指南]] — source `src_20260503_1a1f0312`
+- [[concepts/HIS系统深度调研.md|HIS系统深度调研]] — source `src_20260503_968e0210`
+- [[concepts/kdo_product_design_agent_final.md|Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)]] — source `src_20260503_52ae08ba`
+- [[concepts/kimi-深度调研集群方法论-deep-research-swarm.md|Kimi 深度调研集群方法论 (Deep-Research-Swarm)]] — source `src_20260502_7d7c1b7c`
+- [[concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md|Knowledge Delivery OS 快速体验指南 - 飞书云文档]] — source `src_20260501_6a491b80`
+- [[concepts/learning-thinking.md|Learning Thinking]] — source `src_20260522_0af1f6dd`
+- [[concepts/master-ai-info-literacy.md|AI时代信息素养框架]] — source no source
+- [[concepts/master-antifragile-checklist.md|反脆弱决策检查清单]] — source no source
+- [[concepts/master-cognitive-bias-checklist.md|认知偏差快速诊断清单]] — source no source
+- [[concepts/master-decision-hygiene.md|决策卫生五步法]] — source no source
+- [[concepts/master-first-principles.md|第一性原理拆解器]] — source no source
+- [[concepts/master-knowledge-compound.md|知识复利：IPO+萃取+管理的上位整合]] — source no source
+- [[concepts/master-systems-thinking.md|系统思考：反馈循环与杠杆点]] — source no source
+- [[concepts/meta-prompt-eng.md|Meta Prompt Eng]] — source `src_20260522_a89ab860`
+- [[concepts/obsidian-kdo-内容产出工作流-产品设计大纲.md|Obsidian + KDO 内容产出工作流 — 产品设计大纲]] — source no source
+- [[concepts/ocr-ocr_screenshot2.md|OCR: ocr_screenshot2]] — source `src_20260522_4fa28ed8`
+- [[concepts/ocr-ocr_snipaste_2026-05-15_21-39-40.md|OCR: ocr_Snipaste_2026-05-15_21-39-40]] — source `src_20260522_8b6b5cfe`
+- [[concepts/ocr-screenshot1.md|OCR: screenshot1]] — source `src_20260522_64727b82`
+- [[concepts/ocr-screenshot2.md|OCR: screenshot2]] — source `src_20260522_961e1d68`
+- [[concepts/ocr-truman的个人成长五步法.md|OCR: Truman的个人成长五步法]] — source `src_20260522_074c72ae`
+- [[concepts/ocr-truman的选择两条职业成长路线.md|OCR: truman的选择：两条职业成长路线]] — source `src_20260522_9cbdf4fd`
+- [[concepts/ocr-一堂-个人修炼-y模型.md|OCR: 一堂-个人修炼-Y模型]] — source `src_20260522_3f5c76c0`
+- [[concepts/ocr-一堂-个人修炼-全景图muse模型.md|OCR: 一堂-个人修炼-全景图MUSE模型]] — source `src_20260522_20c9fda8`
+- [[concepts/ocr-一堂-个人修炼-双三角模型.md|OCR: 一堂-个人修炼-双三角模型]] — source `src_20260522_1b95114b`
+- [[concepts/ocr-一堂-个人修炼-提问刻意练习画布.md|OCR: 一堂-个人修炼-提问刻意练习画布]] — source `src_20260522_a1a098d5`
+- [[concepts/ocr-一堂-个人修炼-科学学习ipo-全景策略.md|OCR: 一堂-个人修炼-科学学习IPO-全景策略]] — source `src_20260522_dee56cff`
+- [[concepts/ocr-一堂-个人修炼-科学学习ipo完整清单.md|OCR: 一堂-个人修炼-科学学习IPO完整清单]] — source `src_20260522_e139c9e9`
+- [[concepts/ocr-一堂-个人修炼-科学学习ipo模型.md|OCR: 一堂-个人修炼-科学学习IPO模型]] — source `src_20260522_6199c6b7`
+- [[concepts/ocr-一堂-个人修炼-科学提问刻意练习.md|OCR: 一堂-个人修炼-科学提问刻意练习]] — source `src_20260522_f70d7a7d`
+- [[concepts/ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md|OCR: 一堂-个人修炼-表达力火箭模型-执行武器库]] — source `src_20260522_e60a7ec8`
+- [[concepts/ocr-一堂-个人修炼-表达力火箭模型.md|OCR: 一堂-个人修炼-表达力火箭模型]] — source `src_20260522_f6f8f8eb`
+- [[concepts/ocr-一堂-个人修炼-解放思想.md|OCR: 一堂-个人修炼-解放思想]] — source `src_20260522_33346186`
+- [[concepts/ocr-一堂-个人修炼-讲香十指模型-超级武器库.md|OCR: 一堂-个人修炼-讲香十指模型-超级武器库]] — source `src_20260522_ad373a9b`
+- [[concepts/ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md|OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图]] — source `src_20260522_ecb6ee97`
+- [[concepts/ocr-一堂-个人修炼-讲香基本功.md|OCR: 一堂-个人修炼-讲香基本功]] — source `src_20260522_98db1d35`
+- [[concepts/ocr-一堂-个人修炼-课程清单.md|OCR: 一堂-个人修炼-课程清单]] — source `src_20260522_a94d8057`
+- [[concepts/ocr-一堂-创业必修-课程清单.md|OCR: 一堂-创业必修-课程清单]] — source `src_20260522_67aa4e2a`
+- [[concepts/ocr-一堂-地图-个人地图.md|OCR: 一堂-地图-个人地图]] — source `src_20260522_40d2aee5`
+- [[concepts/ocr-一堂-地图-个人地图_conv.md|OCR: 一堂-地图-个人地图_conv]] — source `src_20260522_bd0dca98`
+- [[concepts/ocr-一堂-地图-创业地图.md|OCR: 一堂-地图-创业地图]] — source `src_20260522_c1935261`
+- [[concepts/ocr-一堂-地图-创业地图_conv.md|OCR: 一堂-地图-创业地图_conv]] — source `src_20260522_2954d80a`
+- [[concepts/ocr-一堂-地图-管理地图.md|OCR: 一堂-地图-管理地图]] — source `src_20260522_af67f9b0`
+- [[concepts/ocr-一堂-地图-管理地图_conv.md|OCR: 一堂-地图-管理地图_conv]] — source `src_20260522_e2244f17`
+- [[concepts/ocr-一堂-案例拆解-课程清单.md|OCR: 一堂-案例拆解-课程清单]] — source `src_20260522_1e654244`
+- [[concepts/ocr-一堂-泛产品设计-十年苦练30招.md|OCR: 一堂-泛产品设计-十年苦练30招]] — source `src_20260522_604eae9b`
+- [[concepts/ocr-一堂-科学决策-roi决策评估画布-案例01.md|OCR: 一堂-科学决策-ROI决策评估画布-案例01]] — source `src_20260522_6bb74b4e`
+- [[concepts/ocr-一堂-科学决策-roi决策评估画布-案例02.md|OCR: 一堂-科学决策-ROI决策评估画布-案例02]] — source `src_20260522_bf298e46`
+- [[concepts/ocr-一堂-科学决策-roi决策评估画布-案例03.md|OCR: 一堂-科学决策-ROI决策评估画布-案例03]] — source `src_20260522_01bac741`
+- [[concepts/ocr-一堂-科学决策-roi决策评估画布-案例04.md|OCR: 一堂-科学决策-ROI决策评估画布-案例04]] — source `src_20260522_94699fa0`
+- [[concepts/ocr-一堂-科学决策-roi决策评估画布.md|OCR: 一堂-科学决策-ROI决策评估画布]] — source `src_20260522_c78c1f2e`
+- [[concepts/ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md|OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步]] — source `src_20260522_d96543bb`
+- [[concepts/ocr-一堂-科学决策-人机协作决策.md|OCR: 一堂-科学决策-人机协作决策]] — source `src_20260522_33c40d41`
+- [[concepts/ocr-一堂-科学决策-关键假设abcd模型.md|OCR: 一堂-科学决策-关键假设ABCD模型]] — source `src_20260522_3261e6bd`
+- [[concepts/ocr-一堂-科学决策-关键训练清单重要.md|OCR: 一堂-科学决策-关键训练清单（重要））]] — source `src_20260522_ac7f8874`
+- [[concepts/ocr-一堂-科学决策-发现决策.md|OCR: 一堂-科学决策-发现决策]] — source `src_20260522_1a2ffc3e`
+- [[concepts/ocr-一堂-科学决策-商业模式-完整财务公式决策.md|OCR: 一堂-科学决策-商业模式-完整财务公式决策]] — source `src_20260522_c59acefd`
+- [[concepts/ocr-一堂-科学决策-宽度-个人.md|OCR: 一堂-科学决策-宽度-个人]] — source `src_20260522_45957066`
+- [[concepts/ocr-一堂-科学决策-宽度-企业.md|OCR: 一堂-科学决策-宽度-企业]] — source `src_20260522_b4ebba42`
+- [[concepts/ocr-一堂-科学决策-宽度-团队.md|OCR: 一堂-科学决策-宽度-团队]] — source `src_20260522_97242832`
+- [[concepts/ocr-一堂-科学决策-深度-l1优先级定性.md|OCR: 一堂-科学决策-深度-L1优先级定性]] — source `src_20260522_22cb5729`
+- [[concepts/ocr-一堂-科学决策-深度-l2部分定量.md|OCR: 一堂-科学决策-深度-L2部分定量]] — source `src_20260522_ad937c9c`
+- [[concepts/ocr-一堂-科学决策-深度-l3定量公式.md|OCR: 一堂-科学决策-深度-L3定量公式]] — source `src_20260522_80e1b943`
+- [[concepts/ocr-一堂-科学决策-深度-l4-案例01.md|OCR: 一堂-科学决策-深度-L4-案例01]] — source `src_20260522_5323822f`
+- [[concepts/ocr-一堂-科学决策-深度-l4严格财务公式.md|OCR: 一堂-科学决策-深度-L4严格财务公式]] — source `src_20260522_26271f58`
+- [[concepts/ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md|OCR: 一堂-科学决策-深度-你的业务是一次抽样实验]] — source `src_20260522_3693c090`
+- [[concepts/ocr-一堂-科学决策-深度-决策经验值.md|OCR: 一堂-科学决策-深度-决策经验值]] — source `src_20260522_4f3415a1`
+- [[concepts/ocr-一堂-科学决策-深度-案例01.md|OCR: 一堂-科学决策-深度-案例01]] — source `src_20260522_9b437f93`
+- [[concepts/ocr-一堂-科学决策-深度-案例02.md|OCR: 一堂-科学决策-深度-案例02]] — source `src_20260522_e60022cc`
+- [[concepts/ocr-一堂-科学决策-深度-案例03.md|OCR: 一堂-科学决策-深度-案例03]] — source `src_20260522_3782f983`
+- [[concepts/ocr-一堂-科学决策-深度-案例04.md|OCR: 一堂-科学决策-深度-案例04]] — source `src_20260522_b4a26e00`
+- [[concepts/ocr-一堂-科学决策-深度-案例05.md|OCR: 一堂-科学决策-深度-案例05]] — source `src_20260522_7344d957`
+- [[concepts/ocr-一堂-科学决策-深度-案例06.md|OCR: 一堂-科学决策-深度-案例06]] — source `src_20260522_e70d298c`
+- [[concepts/ocr-一堂-科学决策-稀缺机会窗口.md|OCR: 一堂-科学决策-稀缺机会窗口]] — source `src_20260522_7fb2b9c1`
+- [[concepts/ocr-一堂-科学决策-稀缺资源清单.md|OCR: 一堂-科学决策-稀缺资源清单]] — source `src_20260522_d067a6ba`
+- [[concepts/ocr-一堂-科学决策-项目方案评估三角形.md|OCR: 一堂-科学决策-项目方案评估三角形]] — source `src_20260522_e31b26dd`
+- [[concepts/ocr-一堂-科学决策-高度-两种典型的思考习惯.md|OCR: 一堂-科学决策-高度-两种典型的思考习惯]] — source `src_20260522_23b5714d`
+- [[concepts/ocr-一堂-管理必修-课程清单.md|OCR: 一堂-管理必修-课程清单]] — source `src_20260522_4c9a911f`
+- [[concepts/ocr-一堂y模型-科学成事道理.md|OCR: 一堂Y模型-科学成事道理]] — source `src_20260522_32462c98`
+- [[concepts/ocr-一堂y模型steps策略集.md|OCR: 一堂Y模型steps策略集]] — source `src_20260522_0bb1cb6e`
+- [[concepts/ocr-一堂y模型实操工作流.md|OCR: 一堂Y模型实操工作流]] — source `src_20260522_53341e5a`
+- [[concepts/ocr-一堂个人地图高潜力成长者修炼全景图.md|OCR: 一堂个人地图：高潜力成长者修炼全景图]] — source `src_20260522_9cb1d9d6`
+- [[concepts/ocr-一堂五步法-产品内核画布.md|OCR: 一堂五步法-产品内核画布]] — source `src_20260522_dc5c80df`
+- [[concepts/ocr-一堂五步法画布.md|OCR: 一堂五步法画布]] — source `src_20260522_2a547df5`
+- [[concepts/ocr-一堂产品内核-十大典型指标.md|OCR: 一堂产品内核-十大典型指标]] — source `src_20260522_32e4318a`
+- [[concepts/ocr-一堂刻意练习十年成长指数.md|OCR: 一堂刻意练习十年成长指数]] — source `src_20260522_e6cf558a`
+- [[concepts/ocr-一堂提炼过的因果模型.md|OCR: 一堂提炼过的因果模型]] — source `src_20260522_77b6cdaf`
+- [[concepts/ocr-一堂最佳转化率动力曲线图.md|OCR: 一堂最佳转化率动力曲线图]] — source `src_20260522_9557e4cb`
+- [[concepts/ocr-一堂泛产品设计-十年修炼爬山地图.md|OCR: 一堂泛产品设计-十年修炼爬山地图]] — source `src_20260522_db09e70d`
+- [[concepts/ocr-一堂泛产品设计-多出牌多练习.md|OCR: 一堂泛产品设计-多出牌多练习]] — source `src_20260522_4754d8fd`
+- [[concepts/ocr-一堂泛产品设计36计-全套地图.md|OCR: 一堂泛产品设计36计-全套地图]] — source `src_20260522_7e8d10c4`
+- [[concepts/ocr-一堂深度复盘冰山图.md|OCR: 一堂深度复盘冰山图]] — source `src_20260522_c92a36ba`
+- [[concepts/ocr-一堂转化率-10大容易浪费的触点.md|OCR: 一堂转化率-10大容易浪费的触点]] — source `src_20260522_037af20f`
+- [[concepts/ocr-一堂进步大地图.md|OCR: 一堂进步大地图]] — source `src_20260522_d75f0a0d`
+- [[concepts/ocr-一堂进步大地图_compressed.md|OCR: 一堂进步大地图_compressed]] — source `src_20260522_2250865e`
+- [[concepts/ocr-优秀泛产品设计者的自我修养.md|OCR: 优秀泛产品设计者的自我修养]] — source `src_20260522_91948770`
+- [[concepts/ocr-婚礼操盘-用户和场景.md|OCR: 婚礼操盘-用户和场景]] — source `src_20260522_94ee2a08`
+- [[concepts/ocr-婚礼规划.md|OCR: 婚礼规划]] — source `src_20260522_b29a6b98`
+- [[concepts/ocr-审美提升的层级.md|OCR: 审美提升的层级]] — source `src_20260522_7d2a79f8`
+- [[concepts/ocr-微信图片_20260507004746_32_32.md|OCR: 微信图片_20260507004746_32_32]] — source `src_20260522_dd3806c5`
+- [[concepts/ocr-微信图片_20260507004751_33_32.md|OCR: 微信图片_20260507004751_33_32]] — source `src_20260522_d38bb08e`
+- [[concepts/ocr-微信图片_20260507004755_34_32.md|OCR: 微信图片_20260507004755_34_32]] — source `src_20260522_0f690cad`
+- [[concepts/ocr-微信图片_20260507004758_35_32.md|OCR: 微信图片_20260507004758_35_32]] — source `src_20260522_c28367b2`
+- [[concepts/ocr-微信图片_20260507004801_37_32.md|OCR: 微信图片_20260507004801_37_32]] — source `src_20260522_05b4de3c`
+- [[concepts/ocr-微信图片_20260507004802_38_32.md|OCR: 微信图片_20260507004802_38_32]] — source `src_20260522_f0ec18a8`
+- [[concepts/ocr-微信图片_20260507004804_39_32.md|OCR: 微信图片_20260507004804_39_32]] — source `src_20260522_d694dfc8`
+- [[concepts/ocr-微信图片_20260507004806_40_32.md|OCR: 微信图片_20260507004806_40_32]] — source `src_20260522_db85a8da`
+- [[concepts/ocr-微信图片_20260507004811_41_32.md|OCR: 微信图片_20260507004811_41_32]] — source `src_20260522_b64b7124`
+- [[concepts/ocr-泛产品设计-审美卡片-最佳实践建模.md|OCR: 泛产品设计-审美卡片-最佳实践建模]] — source `src_20260522_89529426`
+- [[concepts/ocr-泛产品设计-审美卡片-最佳实践收集.md|OCR: 泛产品设计-审美卡片-最佳实践收集]] — source `src_20260522_6373b1b1`
+- [[concepts/ocr-泛产品设计-审美卡片-最佳实践池子.md|OCR: 泛产品设计-审美卡片-最佳实践池子]] — source `src_20260522_6a8b5755`
+- [[concepts/ocr-泛产品设计-审美卡片-美好作品想象.md|OCR: 泛产品设计-审美卡片-美好作品想象]] — source `src_20260522_6697adcb`
+- [[concepts/ocr-泛产品设计-审美工具箱指南.md|OCR: 泛产品设计-审美工具箱指南]] — source `src_20260522_65a78106`
+- [[concepts/ocr-泛产品设计-用户卡片-一堂五步法.md|OCR: 泛产品设计-用户卡片-一堂五步法]] — source `src_20260522_a632cc1c`
+- [[concepts/ocr-泛产品设计-用户卡片-动力阻力.md|OCR: 泛产品设计-用户卡片-动力阻力]] — source `src_20260522_1ec27760`
+- [[concepts/ocr-泛产品设计-用户卡片-场景推演.md|OCR: 泛产品设计-用户卡片-场景推演]] — source `src_20260522_3bc67cbd`
+- [[concepts/ocr-泛产品设计-用户卡片-多视角思考.md|OCR: 泛产品设计-用户卡片-多视角思考]] — source `src_20260522_f6cf4e83`
+- [[concepts/ocr-泛产品设计-用户卡片-峰终定律.md|OCR: 泛产品设计-用户卡片-峰终定律]] — source `src_20260522_041b5a94`
+- [[concepts/ocr-泛产品设计-用户卡片-惊喜公式.md|OCR: 泛产品设计-用户卡片-惊喜公式]] — source `src_20260522_622b8a41`
+- [[concepts/ocr-泛产品设计-用户卡片-用户分层.md|OCR: 泛产品设计-用户卡片-用户分层]] — source `src_20260522_38ddd826`
+- [[concepts/ocr-泛产品设计-用户卡片-用户视角.md|OCR: 泛产品设计-用户卡片-用户视角]] — source `src_20260522_11d721ac`
+- [[concepts/ocr-泛产品设计-用户卡片-行业分析画布.md|OCR: 泛产品设计-用户卡片-行业分析画布]] — source `src_20260522_78d5f0a4`
+- [[concepts/ocr-泛产品设计-用户卡片-需求挖掘.md|OCR: 泛产品设计-用户卡片-需求挖掘]] — source `src_20260522_11af6cd2`
+- [[concepts/ocr-泛产品设计-用户卡片-项目背景分析.md|OCR: 泛产品设计-用户卡片-项目背景分析]] — source `src_20260522_115e8827`
+- [[concepts/ocr-泛产品设计-落地卡片-roi分析.md|OCR: 泛产品设计-落地卡片-ROI分析]] — source `src_20260522_1b5af0b6`
+- [[concepts/ocr-泛产品设计-落地卡片-业务建模.md|OCR: 泛产品设计-落地卡片-业务建模]] — source `src_20260522_f5a0f2e1`
+- [[concepts/ocr-泛产品设计-落地卡片-低成本测试mvp.md|OCR: 泛产品设计-落地卡片-低成本测试MVP]] — source `src_20260522_4d086230`
+- [[concepts/ocr-泛产品设计-落地卡片-假设拆解.md|OCR: 泛产品设计-落地卡片-假设拆解]] — source `src_20260522_eb90d179`
+- [[concepts/ocr-泛产品设计-落地卡片-内核和边界.md|OCR: 泛产品设计-落地卡片-内核和边界]] — source `src_20260522_f3072399`
+- [[concepts/ocr-泛产品设计-落地卡片-努力仿真.md|OCR: 泛产品设计-落地卡片-努力仿真]] — source `src_20260522_bab48c61`
+- [[concepts/ocr-泛产品设计-落地卡片-十倍速验证.md|OCR: 泛产品设计-落地卡片-十倍速验证]] — source `src_20260522_5bd37e0d`
+- [[concepts/ocr-泛产品设计-落地卡片-善用佳软.md|OCR: 泛产品设计-落地卡片-善用佳软]] — source `src_20260522_7ddf8bf2`
+- [[concepts/ocr-泛产品设计-落地卡片-复盘迭代.md|OCR: 泛产品设计-落地卡片-复盘迭代]] — source `src_20260522_3b5c417d`
+- [[concepts/ocr-泛产品设计-落地卡片-攻坚会.md|OCR: 泛产品设计-落地卡片-攻坚会]] — source `src_20260522_cbb3b77d`
+- [[concepts/ocr-泛产品设计-落地卡片-灵感闪现.md|OCR: 泛产品设计-落地卡片-灵感闪现]] — source `src_20260522_e861d61d`
+- [[concepts/ocr-泛产品设计-落地卡片-管理三段论.md|OCR: 泛产品设计-落地卡片-管理三段论]] — source `src_20260522_8d5cc8b0`
+- [[concepts/ocr-泛产品设计-落地卡片-解放思想.md|OCR: 泛产品设计-落地卡片-解放思想]] — source `src_20260522_c2c6b487`
+- [[concepts/ocr-泛产品设计-落地卡片-设计原则.md|OCR: 泛产品设计-落地卡片-设计原则]] — source `src_20260522_9eaf7399`
+- [[concepts/ocr-泛产品设计-落地卡片-逻辑mece.md|OCR: 泛产品设计-落地卡片-逻辑MECE]] — source `src_20260522_8d990f3c`
+- [[concepts/ocr-泛产品设计-落地卡片-酝酿式打磨.md|OCR: 泛产品设计-落地卡片-酝酿式打磨]] — source `src_20260522_2bcc3531`
+- [[concepts/ocr-泛产品设计-落地卡片-里程碑拆解.md|OCR: 泛产品设计-落地卡片-里程碑拆解]] — source `src_20260522_4be84945`
+- [[concepts/ocr-泛产品设计-落地卡片-风险管理.md|OCR: 泛产品设计-落地卡片-风险管理]] — source `src_20260522_3dd58dff`
+- [[concepts/ocr-泛产品设计-需求工具箱指南.md|OCR: 泛产品设计-需求工具箱指南]] — source `src_20260522_726a6a3b`
+- [[concepts/ocr-泛产品设计的应用场景示意图.md|OCR: 泛产品设计的应用场景示意图]] — source `src_20260522_e985ecdb`
+- [[concepts/ocr-泛产品设计者的三大自我修养.md|OCR: 泛产品设计者的三大自我修养]] — source `src_20260522_2a53b1eb`
+- [[concepts/ocr-泛产品设计者的自我修养.md|OCR: 泛产品设计者的自我修养]] — source `src_20260522_8995f40a`
+- [[concepts/ocr-泛产品设计落地工具篇指南.md|OCR: 泛产品设计落地工具篇指南]] — source `src_20260522_8bdb2970`
+- [[concepts/ocr-泛产品设计落地篇.md|OCR: 泛产品设计落地篇]] — source `src_20260522_e4b635ac`
+- [[concepts/ocr-萃取总结.md|OCR: 萃取总结]] — source `src_20260522_4310e409`
+- [[concepts/ocr-顶级产品追求的方向-乔布斯.md|OCR: 顶级产品追求的方向-乔布斯]] — source `src_20260522_ea933690`
+- [[concepts/ocr-项目背景问题思考的8个维度.md|OCR: 项目背景问题思考的8个维度]] — source `src_20260522_4af61500`
+- [[concepts/ocr-预判模型.md|OCR: 预判模型]] — source `src_20260522_e71d89ff`
+- [[concepts/paddleocr-skill.md|PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill]] — source no source
+- [[concepts/product-ux.md|Product Ux]] — source `src_20260522_404f58a2`
+- [[concepts/research_methodology.md|Kimi 深度调研集群方法论 (Deep-Research-Swarm)]] — source no source
+- [[concepts/sprint-2-门禁举证验收.md|Sprint 2 门禁举证验收]] — source `src_20260510_9e98a292`
+- [[concepts/tinyfish-agentic-web-infrastructure.md|TinyFish — Agentic Web 基础设施建设层 Skill]] — source no source
+- [[concepts/tools-workflows.md|Tools Workflows]] — source `src_20260522_9d322e81`
+- [[concepts/truman-perspective-skill.md|Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现]] — source no source
+- [[concepts/web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md|Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl]] — source no source
+- [[concepts/writing-content.md|Writing Content]] — source `src_20260522_5819659f`
+- [[concepts/yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md|YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN]] — source `src_20260430_8cc84e5b`
+- [[concepts/yitang-course-map.md|一堂课程大地图]] — source no source
+- [[concepts/yt-case-mandatory-cases.md|一堂案例必修课]] — source no source
+- [[concepts/yt-composite-pan-product-methodology.md|泛产品设计方法论]] — source no source
+- [[concepts/yt-concept-ai-guard-brain.md|守脑如玉：AI时代保持大脑锋利]] — source no source
+- [[concepts/yt-concept-context-engineering.md|上下文工程：充分≠越多越好]] — source no source
+- [[concepts/yt-concept-peas-insight.md|PEAS核心洞察：决策系统的四槽诊断法]] — source no source
+- [[concepts/yt-concept-weapon-arsenal.md|超级武器库（元概念）]] — source no source
+- [[concepts/yt-decision-ai-partner.md|AI决策Partner对话法]] — source no source
+- [[concepts/yt-decision-canvas.md|Y模型决策画布（一页纸工具）]] — source no source
+- [[concepts/yt-decision-consensus-iceberg.md|共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问]] — source no source
+- [[concepts/yt-decision-depth-ladder.md|yt-decision-depth-ladder]] — source no source
+- [[concepts/yt-decision-full-process.md|科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型]] — source no source
+- [[concepts/yt-decision-habit-shift.md|X型→Y型决策者习惯诊断与转换]] — source no source
+- [[concepts/yt-decision-height-toolkit.md|高度分析工具：上帝视角四维提升法 + 高水平共识曲线]] — source no source
+- [[concepts/yt-decision-review.md|决策复盘工具：L1-L4深度复盘法 + 假设验证闭环]] — source no source
+- [[concepts/yt-decision-width-method.md|宽度分析工具：列推建查四步法+三层盲区清单]] — source no source
+- [[concepts/yt-decision-y-model.md|Y模型科学决策框架（广义ROI）]] — source no source
+- [[concepts/yt-entrepreneur-259-milestone.md|259里程碑]] — source no source
+- [[concepts/yt-entrepreneur-barriers.md|项目壁垒]] — source no source
+- [[concepts/yt-entrepreneur-business-growth.md|业务增长]] — source no source
+- [[concepts/yt-entrepreneur-channel-exploration.md|渠道探索]] — source no source
+- [[concepts/yt-entrepreneur-concentration-analysis.md|集中度分析]] — source no source
+- [[concepts/yt-entrepreneur-five-step-method.md|一堂五步法]] — source no source
+- [[concepts/yt-entrepreneur-fundraising.md|融资认知]] — source no source
+- [[concepts/yt-entrepreneur-growth-flywheel.md|增长飞轮]] — source no source
+- [[concepts/yt-entrepreneur-industrial-production.md|工业化生产]] — source no source
+- [[concepts/yt-entrepreneur-industry-forecast.md|行业预判]] — source no source
+- [[concepts/yt-entrepreneur-key-hypotheses.md|关键假设]] — source no source
+- [[concepts/yt-entrepreneur-lean-validation.md|低成本验证/MVP]] — source no source
+- [[concepts/yt-entrepreneur-liberate-thinking.md|解放思想]] — source no source
+- [[concepts/yt-entrepreneur-needs-analysis.md|需求分析]] — source no source
+- [[concepts/yt-entrepreneur-opportunity-selection.md|机会选择]] — source no source
+- [[concepts/yt-entrepreneur-pragmatic-startup.md|务实创业]] — source no source
+- [[concepts/yt-entrepreneur-product-core.md|产品内核]] — source no source
+- [[concepts/yt-entrepreneur-research-camp.md|调研行动营：从调研认知到AI调研武器库]] — source no source
+- [[concepts/yt-entrepreneur-research-cognition.md|调研认知]] — source no source
+- [[concepts/yt-entrepreneur-scientific-method.md|Y模型/科学方法]] — source no source
+- [[concepts/yt-entrepreneur-spin-selling.md|SPIN销售法：顾问式销售的奠基之作]] — source no source
+- [[concepts/yt-entrepreneur-truth-seeking.md|实事求是]] — source no source
+- [[concepts/yt-entrepreneur-unit-model.md|单元模型]] — source no source
+- [[concepts/yt-management-basic-skills.md|基本功认知]] — source no source
+- [[concepts/yt-management-business-formula.md|业务公式]] — source no source
+- [[concepts/yt-management-company-culture.md|公司文化]] — source no source
+- [[concepts/yt-management-conversion-hacking.md|转化率黑客]] — source no source
+- [[concepts/yt-management-finance-basics.md|财务入门]] — source no source
+- [[concepts/yt-management-founder-role.md|一号位]] — source no source
+- [[concepts/yt-management-goal-management.md|目标管理]] — source `10_raw/sources/一堂-课程地图精华串讲.md`
+- [[concepts/yt-management-leadership-levels.md|管理段位]] — source no source
+- [[concepts/yt-management-onboarding.md|新人落地]] — source no source
+- [[concepts/yt-management-partnership-equity.md|合伙股权]] — source no source
+- [[concepts/yt-management-project-management.md|项目管理]] — source no source
+- [[concepts/yt-management-scientific-decision.md|Y模型/科学决策]] — source no source
+- [[concepts/yt-management-scientific-hiring.md|科学招聘]] — source `10_raw/sources/一堂-课程地图精华串讲.md`
+- [[concepts/yt-management-scientific-meetings.md|科学开会]] — source no source
+- [[concepts/yt-management-strategy-meeting.md|战略会]] — source no source
+- [[concepts/yt-management-team-knowledge.md|团队知识管理]] — source no source
+- [[concepts/yt-management-toolkit-overview.md|管理工具箱总览]] — source no source
+- [[concepts/yt-model-aesthetic-progression.md|审美提升的层级：从看不见到大胆想象的进化路径]] — source no source
+- [[concepts/yt-model-agent-architecture.md|智能体架构：PEAS与五层Agent模型]] — source no source
+- [[concepts/yt-model-cognitive-upgrade-framework.md|认知升级十步框架：从「读书」到「安装认知补丁」]] — source no source
+- [[concepts/yt-model-conversion-optimization.md|转化率优化：动力三曲线 × 十大浪费触点]] — source no source
+- [[concepts/yt-model-deep-review-iceberg.md|深度复盘冰山图：从主观感受到能力建设的五层穿透]] — source no source
+- [[concepts/yt-model-deliberate-practice-growth.md|刻意练习十年成长指数：为什么有人一年顶十年]] — source no source
+- [[concepts/yt-model-dual-triangle-competitiveness.md|双三角竞争力模型]] — source no source
+- [[concepts/yt-model-entrepreneur-map.md|创业修炼地图]] — source no source
+- [[concepts/yt-model-five-step-canvas.md|五步法画布 × 产品内核画布：从假设到壁垒的实操工具]] — source no source
+- [[concepts/yt-model-ipo-complete-checklist.md|IPO 科学学习完整清单]] — source no source
+- [[concepts/yt-model-ipo-learning-strategy.md|IPO 科学学习全景策略]] — source no source
+- [[concepts/yt-model-liberate-thinking-layers.md|解放思想五层模型]] — source no source
+- [[concepts/yt-model-management-map.md|管理修炼地图]] — source no source
+- [[concepts/yt-model-muse-ai-framework.md|MUSE 人工智能全景图]] — source no source
+- [[concepts/yt-model-pan-product-36-strategies.md|泛产品设计36计·全套官方工具箱]] — source no source
+- [[concepts/yt-model-pan-product-aesthetic-toolkit.md|泛产品设计·审美工具箱（4张卡牌）]] — source no source
+- [[concepts/yt-model-pan-product-climbing-map.md|泛产品十年爬山地图：L1-L6成长路径]] — source no source
+- [[concepts/yt-model-pan-product-demand-toolkit.md|泛产品设计·需求工具箱（13张卡牌）]] — source no source
+- [[concepts/yt-model-pan-product-execution-toolkit.md|泛产品设计·落地工具箱（19张卡牌）]] — source no source
+- [[concepts/yt-model-pan-product-three-virtues.md|泛产品三大自我修养：用户价值×最佳实践×无限进步]] — source no source
+- [[concepts/yt-model-personal-map.md|个人修炼地图]] — source no source
+- [[concepts/yt-model-personal-pitch-toolkit.md|十指讲香模型（框架）]] — source no source
+- [[concepts/yt-model-prediction-model.md|预判模型：从最糙版到复杂版的三种预判范式]] — source no source
+- [[concepts/yt-model-product-core-metrics.md|产品内核十大典型指标：从获客到推荐的度量框架]] — source no source
+- [[concepts/yt-model-product-excellence.md|顶级产品追求：品味、最佳实践与乔布斯的审美哲学]] — source no source
+- [[concepts/yt-model-progress-map.md|无限进步大地图]] — source no source
+- [[concepts/yt-model-prompt-engineering.md|人机协作操作系统：提示词工程总框架]] — source no source
+- [[concepts/yt-model-questioning-practice-canvas.md|提问刻意练习提升画布]] — source no source
+- [[concepts/yt-model-scientific-questioning-map.md|科学提问刻意练习地图]] — source no source
+- [[concepts/yt-model-truman-career-routes.md|楚门的选择：两条职业成长路线 X vs Y]] — source no source
+- [[concepts/yt-model-truman-five-step-growth.md|Truman的个人成长五步法：用一页纸解释全部人生规划]] — source no source
+- [[concepts/yt-model-y-organization.md|Y 型创业模型]] — source no source
+- [[concepts/yt-panproduct-aesthetic-collection.md|泛产品设计·审美卡片：最佳实践收集]] — source no source
+- [[concepts/yt-panproduct-aesthetic-imagination.md|泛产品设计·审美卡片：美好作品想象]] — source no source
+- [[concepts/yt-panproduct-aesthetic-modeling.md|泛产品设计·审美卡片：最佳实践建模]] — source no source
+- [[concepts/yt-panproduct-aesthetic-pool.md|泛产品设计·审美卡片：最佳实践池子]] — source no source
+- [[concepts/yt-panproduct-demand-five-step-method.md|泛产品设计·用户卡片：一堂五步法]] — source no source
+- [[concepts/yt-panproduct-demand-industry-canvas.md|泛产品设计·用户卡片：行业分析画布]] — source no source
+- [[concepts/yt-panproduct-demand-motivation-resistance.md|泛产品设计·用户卡片：动力阻力]] — source no source
+- [[concepts/yt-panproduct-demand-multi-perspective.md|泛产品设计·用户卡片：多视角思考]] — source no source
+- [[concepts/yt-panproduct-demand-need-discovery.md|泛产品设计·用户卡片：需求挖掘]] — source no source
+- [[concepts/yt-panproduct-demand-peak-end-rule.md|泛产品设计·用户卡片：峰终定律]] — source no source
+- [[concepts/yt-panproduct-demand-project-background.md|泛产品设计·用户卡片：项目背景分析]] — source no source
+- [[concepts/yt-panproduct-demand-scenario-walkthrough.md|泛产品设计·用户卡片：场景推演]] — source no source
+- [[concepts/yt-panproduct-demand-surprise-formula.md|泛产品设计·用户卡片：惊喜公式]] — source no source
+- [[concepts/yt-panproduct-demand-user-perspective.md|泛产品设计·用户卡片：用户视角]] — source no source
+- [[concepts/yt-panproduct-demand-user-segmentation.md|泛产品设计·用户卡片：用户分层]] — source no source
+- [[concepts/yt-panproduct-execution-10x-validation.md|泛产品设计·落地卡片：十倍速验证]] — source no source
+- [[concepts/yt-panproduct-execution-business-modeling.md|泛产品设计·落地卡片：业务建模]] — source no source
+- [[concepts/yt-panproduct-execution-core-and-boundary.md|泛产品设计·落地卡片：内核和边界]] — source no source
+- [[concepts/yt-panproduct-execution-design-principles.md|泛产品设计·落地卡片：设计原则]] — source no source
+- [[concepts/yt-panproduct-execution-good-tools.md|泛产品设计·落地卡片：善用佳软]] — source no source
+- [[concepts/yt-panproduct-execution-hypothesis-decomposition.md|泛产品设计·落地卡片：假设拆解]] — source no source
+- [[concepts/yt-panproduct-execution-idea-spark.md|泛产品设计·落地卡片：灵感闪现]] — source no source
+- [[concepts/yt-panproduct-execution-incubation-polish.md|泛产品设计·落地卡片：酝酿式打磨]] — source no source
+- [[concepts/yt-panproduct-execution-liberate-thinking.md|泛产品设计·落地卡片：解放思想]] — source no source
+- [[concepts/yt-panproduct-execution-logic-mece.md|泛产品设计·落地卡片：逻辑MECE]] — source no source
+- [[concepts/yt-panproduct-execution-low-cost-mvp.md|泛产品设计·落地卡片：低成本测试MVP]] — source no source
+- [[concepts/yt-panproduct-execution-management-trilogy.md|泛产品设计·落地卡片：管理三段论]] — source no source
+- [[concepts/yt-panproduct-execution-milestone-breakdown.md|泛产品设计·落地卡片：里程碑拆解]] — source no source
+- [[concepts/yt-panproduct-execution-realistic-simulation.md|泛产品设计·落地卡片：努力仿真]] — source no source
+- [[concepts/yt-panproduct-execution-review-iteration.md|泛产品设计·落地卡片：复盘迭代]] — source no source
+- [[concepts/yt-panproduct-execution-risk-management.md|泛产品设计·落地卡片：风险管理]] — source no source
+- [[concepts/yt-panproduct-execution-roi-analysis.md|泛产品设计·落地卡片：ROI分析]] — source no source
+- [[concepts/yt-panproduct-execution-war-room.md|泛产品设计·落地卡片：攻坚会]] — source no source
+- [[concepts/yt-personal-ai-capability.md|AI 能力（双模型）]] — source no source
+- [[concepts/yt-personal-ai-thinking-card.md|AI思维卡：从「读书」到「安装认知补丁」]] — source no source
+- [[concepts/yt-personal-checklist-notes.md|清单体笔记]] — source no source
+- [[concepts/yt-personal-deep-review.md|深度复盘]] — source no source
+- [[concepts/yt-personal-deliberate-practice.md|科学成长（刻意练习）]] — source no source
+- [[concepts/yt-personal-inspiration-flash.md|灵感闪现（认知篇）]] — source no source
+- [[concepts/yt-personal-ipo-learning.md|IPO 科学学习]] — source no source
+- [[concepts/yt-personal-knowledge-extraction.md|知识萃取方法论]] — source no source
+- [[concepts/yt-personal-knowledge-management.md|知识管理]] — source no source
+- [[concepts/yt-personal-pan-product-02.md|泛产品设计落地篇：无限进步与持续打磨]] — source no source
+- [[concepts/yt-personal-pan-product-aesthetics.md|泛产品设计审美篇：最佳实践与审美建模]] — source no source
+- [[concepts/yt-personal-pan-product-concepts.md|泛产品设计认知篇：重新理解泛化产品能力]] — source no source
+- [[concepts/yt-personal-pan-product-exploration.md|泛产品设计探索营：案例启发与认知重构]] — source no source
+- [[concepts/yt-personal-pan-product-practice.md|泛产品设计实操篇：需求分析与用户洞察]] — source no source
+- [[concepts/yt-personal-pan-product-tools.md|泛产品设计工具篇：出牌教学法与30张卡牌]] — source no source
+- [[concepts/yt-personal-product-design.md|泛产品设计]] — source no source
+- [[concepts/yt-personal-scientific-expression.md|科学表达（火箭模型）]] — source no source
+- [[concepts/yt-personal-thinking-models.md|思维模型：从碎片经验到稳定模型]] — source no source
+- [[concepts/yt-personal-time-management.md|时间管理]] — source no source
+- [[concepts/yt-personal-verbatim-script.md|逐字稿]] — source no source
+- [[concepts/yt-personal-y-model-exploration-2.md|Y模型探索营2：五次质变与科学推演]] — source no source
+- [[concepts/yt-personal-y-model-practice.md|Y模型实操：科学成事的底层操作系统]] — source no source
+- [[concepts/yt-pitch-aphorism.md|讲香·金句化]] — source no source
+- [[concepts/yt-pitch-colloquialization.md|讲香·口语化]] — source no source
+- [[concepts/yt-pitch-conflict.md|讲香·冲突化]] — source no source
+- [[concepts/yt-pitch-emotionalization.md|讲香·情绪化]] — source no source
+- [[concepts/yt-pitch-materialization.md|讲香·素材化]] — source no source
+- [[concepts/yt-pitch-metaphor.md|讲香·比喻化]] — source no source
+- [[concepts/yt-pitch-quantification.md|讲香·数字化]] — source no source
+- [[concepts/yt-pitch-scenarization.md|讲香·场景化]] — source no source
+- [[concepts/yt-pitch-storytelling.md|讲香·故事化]] — source no source
+- [[concepts/yt-pitch-sublimation.md|讲香·升华化]] — source no source
+- [[concepts/yt-prompt-anti-flattery.md|反谄媚机制：让AI说真话]] — source no source
+- [[concepts/yt-prompt-brainstorming.md|AI头脑风暴工作流]] — source no source
+- [[concepts/yt-prompt-engineering-andrew-ng.md|吴恩达提示词课程·一堂拆书精华]] — source no source
+- [[concepts/yt-prompt-iterative-prompting.md|迭代式提示词工作流（5步法）]] — source no source
+- [[concepts/yt-prompt-writing-workflow.md|AI写作工作流：大纲→要点→全文]] — source no source
+- [[concepts/yt-research-action-camp-launch.md|一堂调研行动营 · 启动课（LLM 精炼）]] — source no source
+- [[concepts/yt-research-competitor-toolkit.md|竞品拆解工具包：三层分类+内核边界+单元模型对标]] — source no source
+- [[concepts/yt-research-expert-interview.md|专家访谈工具：2小时获取行业共识的标准流程]] — source no source
+- [[concepts/yt-research-hypothesis-test.md|假设验证调研工具：关键假设→可证伪问题→最小实验]] — source no source
+- [[concepts/yt-research-industry-canvas.md|行业分析画布：五维快速扫描+二维定位]] — source no source
+- [[concepts/yt-research-intelligence-map.md|情报获取全景地图：13+渠道穷尽手段]] — source no source
+- [[concepts/yt-research-mindset.md|调研认知升级：从"找答案"到"拆解假设]] — source no source
+- [[concepts/yt-research-osl-framework.md|OSL调研五步法：一堂通用商业调研框架]] — source no source
+- [[concepts/yt-research-user-jtbd.md|用户JTBD访谈工具：区分"说的"和"真正要的]] — source no source
+- [[concepts/yt-research-weaponry-course.md|一堂调研武器库课程]] — source no source
+- [[concepts/yt-system-course-catalog.md|一堂全课程目录索引]] — source no source
+- [[concepts/yt-system-course-map-lecture.md|一堂课程地图精华串讲]] — source no source
+- [[concepts/yt-tool-equity-checklist.md|股权设计检查清单]] — source no source
+- [[concepts/yt-tool-hiring-scorecard.md|结构化面试打分卡]] — source no source
+- [[concepts/yt-tool-knowledge-extraction.md|团队知识萃取器]] — source no source
+- [[concepts/yt-tool-meeting-designer.md|会议设计师：一页纸会议蓝图]] — source no source
+- [[concepts/yt-tool-okr-cycle.md|OKR 制定与复盘罗盘]] — source no source
+- [[concepts/yt-tool-onboarding-90day.md|新人90天融入加速器]] — source no source
+- [[concepts/yt-tool-peas-agent-analysis.md|PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统]] — source no source
+- [[concepts/yt-tool-project-health-radar.md|项目健康度雷达]] — source no source
+- [[concepts/yt-tool-strategy-workshop.md|战略研讨会引导手册]] — source no source
+- [[concepts/yt-unit-model-ai-assisted.md|AI+单元模型：TCP-R双导师与出口式咨询实践]] — source no source
+- [[concepts/yt-unit-model-benchmark.md|单元模型基准值：科学类比、三点预测与基准值共建]] — source no source
+- [[concepts/yt-unit-model-construction.md|单元模型构建法：拆推评算与ABCD模型分类]] — source no source
+- [[concepts/yt-unit-model-dynamic.md|动态单元模型：规模变量、拐点预判与规模经济对抗]] — source no source
+- [[concepts/yt-unit-model-ladder.md|单元模型六段进阶：从不会算账到动态预判]] — source no source
+- [[concepts/yt-unit-model-overview.md|单元模型概述：从最小经济单元到商业判断框架]] — source no source
+- [[concepts/yt-unit-model-selection.md|单元模型选择法：复制哪个算哪个，找到核心经济单元]] — source no source
+- [[concepts/互联网医院模式深度调研报告.md|互联网医院模式深度调研报告]] — source `src_20260501_9962715b`
+- [[concepts/人机协作决策-双三角模型.md|人机协作决策——双三角模型]] — source no source
+- [[concepts/保达云诊所深度调研报告.md|保达云诊所深度调研报告]] — source `src_20260503_ae1921d5`
+- [[concepts/在设计小伙伴的反馈还挺好的.md|在设计小伙伴的反馈还挺好的。]] — source `src_20260522_fef0b51b`
+- [[concepts/存储策略.md|存储策略]] — source `src_20260522_42622b63`
+- [[concepts/学会提问在信息洪流中锻造批判性思维的利刃.md|《学会提问》：在信息洪流中锻造批判性思维的利刃]] — source `src_20260524_836ad51c`
+- [[concepts/开源HIS系统代码深度分析报告.md|开源HIS系统代码深度分析报告]] — source `src_20260503_f4891888`
+- [[concepts/紫鲸ai_智能体工作流平台_深度分析与产品设计.md|紫鲸AI_智能体工作流平台_深度分析与产品设计]] — source `src_20260501_4eee4e95`
+- [[concepts/紫鲸ai智能体工作流平台.md|紫鲸AI智能体工作流平台]] — source `src_20260428_29929c1f`
+- [[concepts/老朱的水感-2026年5月.md|老朱的水感 — 2026年5月]] — source `src_20260522_d3a621b8`
+- [[concepts/街顺app全面调研报告.md|街顺APP全面调研报告]] — source `src_20260427_970eb338`
+- [[concepts/视觉prompt三层操作系统-srom-visual-os.md|视觉Prompt三层操作系统 (SROM Visual OS)]] — source `src_20260522_1ede9202`
+- [[concepts/诊所o2o外卖平台业务深度调研报告.md|诊所O2O外卖平台业务深度调研报告]] — source no source
+- [[concepts/轻量级诊所HIS调研全清单.md|轻量级诊所HIS调研全清单]] — source `src_20260503_5c91e867`
+- [[concepts/那今天不会.md|那今天不会。]] — source `src_20260522_642ab512`
+- [[concepts/鑫港湾his系统分阶段整改报告.md|鑫港湾HIS系统分阶段整改报告]] — source `src_20260428_db49a647`
+- [[entities/Kimi-月之暗面.md|Kimi（月之暗面）]] — source no source
+- [[entities/YC-Y-Combinator.md|Y Combinator]] — source no source
+- [[entities/一堂.md|一堂]] — source no source
+- [[entities/紫鲸AI.md|紫鲸AI]] — source no source
+- [[entities/鑫港湾.md|鑫港湾]] — source no source
+- [[frameworks/yt-decision-abcd-model.md|yt-decision-abcd-model]] — source no source
+- [[frameworks/yt-unit-model-ladder.md|单元模型六段进阶：从拍脑袋到动态预测]] — source no source
+- [[frameworks/yt-unit-model-overview.md|单元模型概览：十大单元模型与三角色分工]] — source no source
+- [[projects/互联网医院项目.md|互联网医院项目]] — source no source
+- [[projects/诊所O2O项目.md|诊所O2O项目]] — source no source
+- [[projects/鑫港湾HIS项目.md|鑫港湾HIS项目]] — source no source
+- [[systems/agent-external-brain-design.md|Agent 外挂大脑设计]] — source `project-continuity.md`
+- [[systems/agent-native-card-design.md|Agent 原生知识卡设计规范 v2]] — source no source
+- [[systems/graph-rag-retrieval-layer.md|Graph RAG 检索层技术说明]] — source no source
+- [[systems/kdo-batch-produce-req014.md|REQ-014 批量 Produce 12 篇 Enriched 页面技术说明]] — source no source
+- [[systems/kdo-protocol.md|KDO Protocol — AI-Agent Operating Contract]] — source no source
+- [[systems/kdo-watch-health-check-layer.md|kdo watch 定时巡检层技术说明]] — source no source
+- [[systems/obsidian-git-sync-protocol.md|Obsidian Git Multi-Device Sync Protocol]] — source no source
+- [[systems/sprint-2-gate-enrich-evidence.md|Sprint 2 门禁系统 + Enrich 举证 — 设计规格]] — source no source
+- [[systems/一堂方法论体系总图.md|一堂方法论体系总图]] — source no source
+- [[tools/yt-tool-equity-checklist.md|'股权设计检查清单']] — source no source
+- [[tools/yt-tool-hiring-scorecard.md|'结构化面试打分卡']] — source no source
+- [[tools/yt-tool-meeting-designer.md|'会议设计师：一页纸会议蓝图']] — source no source
+- [[tools/yt-tool-okr-cycle.md|'OKR 制定与复盘罗盘']] — source no source
+- [[tools/yt-tool-onboarding-90day.md|'新人 90 天融入加速器']] — source no source
+- [[tools/yt-tool-project-health-radar.md|'项目健康度雷达']] — source no source
+- [[tools/yt-tool-strategy-workshop.md|'战略研讨会引导手册']] — source no source
+- [[tools/yt-tool-unit-model-ai-assisted.md|AI+单元模型助手：TCP-R 双导师与出口式咨询]] — source no source
+- [[tools/yt-tool-unit-model-benchmark.md|单元模型基准值设定器：科学类比与三点预测]] — source no source
+- [[tools/yt-tool-unit-model-construction.md|单元模型构建器：拆推评算八字诀]] — source no source
+- [[tools/yt-tool-unit-model-dynamic.md|单元模型动态预测器：规模经济与拐点判断]] — source no source
+- [[tools/yt-tool-unit-model-selection.md|单元模型选择器：复制哪个算哪个]] — source no source

@@ -1490,3 +1490,11 @@ Chronological record of knowledge operations.
 - 2026-05-23T17:41:33+00:00 - Produced `art_20260524_6249d2bd`: 40_outputs/content/articles/art_20260524_6249d2bd-ai时代为什么你比任何时候都需要批判性思维.md
 
 - 2026-05-23T17:41:36+00:00 - Produced `art_20260524_2594aa81`: 40_outputs/content/articles/art_20260524_2594aa81-从ai小白到ai-native五层进阶实操指南.md
+
+- 2026-05-25T04:49:06+00:00 - Ingested `src_20260525_7ee2bba2` from 00_inbox/AI应用场景01.md
+
+- 2026-05-25T04:49:06+00:00 - Ingested `src_20260525_6748cc27` from 00_inbox/AI时代自进化组织形式.md
+
+- 2026-05-25T04:49:06+00:00 - Ingested `src_20260525_66059442` from 00_inbox/yitang-judgment-transcript.md
+
+- 2026-05-25T04:49:08+00:00 - Self-check: 32 auto-feedback record(s) created
