@@ -19,6 +19,33 @@ blocks: []
 - Part B VA 修复 14/14 ✅（#9 已改、#10 描述准确无需动、#14 已完成）
 - OCR Batch 4 15 张卡的 Critique+Synthesis 已完成（7 张手写 ✅、8 张批量模板 ⚠️）
 
+## 🔍 欧阳锋审查（2026-05-25）
+
+### OCR Batch 4 — 8 张批量模板 ✅ 全部通过（A-）
+
+| 卡 | 攻击者（旧→新） | VA引用Critique | VA引用OQ | 判定 |
+|:---|:---------------|:-------------:|:--------:|:---:|
+| 个人地图 | Kahneman→**Dewey** + Simon | ✅ 视觉/箭头 | ✅ 视觉/箭头/递进 | ✅ |
+| 创业地图 | Kahneman→**Schön** + Simon | ✅ 视觉 | ✅ 箭头/模块/并列 | ✅ |
+| 管理地图 | Kahneman→**Langlois** + Simon | ✅ 视觉/模块/并列 | ✅ 视觉/箭头/模块/递进 | ✅ |
+| 进步大地图 | Kahneman→**Bowker/Star** + Simon | ✅ 视觉/箭头/模块 | ✅ F形/Z形/模块/递进 | ✅ |
+| 高潜力成长者 | Kahneman→**Sontag** + Simon | ✅ 视觉/箭头 | ✅ 视觉/箭头 | ✅ |
+| 十年修炼爬山 | Kahneman→**Sontag** + Simon→Pye | ✅ 视觉/递进 | ✅ 阅读路径/F形/模块/递进 | ✅ |
+| 36计全套地图 | Kahneman→**Langlois** + Simon→Pye | ✅ 视觉/模块 | ✅ 模块/递进 | ✅ |
+| 萃取总结 | Kahneman→**Bowker/Star** + Simon→Pye | ✅ 视觉/模块/布局 | ✅ 视觉/布局/递进 | ✅ |
+
+**亮点**：8 张全部替换 Kahneman，5 位新攻击者全部启用（Dewey/Schön/Langlois/Bowker&Star/Sontag）。3 张超出最低标准，连 Simon 也换成了 Pye。Open Questions 全部重写为针对内容的实质性提问，非模板填空。Critique 和 OQ 均引用了 VA 描述的视觉结构。
+
+### y-model validator ❌ 未修复
+
+`yt-decision-y-model.md` 当前仍用 `## Constraints & Boundaries` 旧格式，**无 `### 外部攻击` 容器**——`#### Gary Klein` 和 `#### Daniel Kahneman` 直接挂在 `Constraints & Boundaries` 下。`kdo validate --v15` 必然 FAIL。
+
+**修复方法**（同前）：
+1. 将 `## Constraints & Boundaries` 改为 `## Critique`
+2. 在 `####` 攻击者前插入 `### 外部攻击`
+3. 核对格式与已 PASS 卡片（如 yt-decision-canvas）一致
+4. `kdo validate --v15 --card yt-decision-y-model` 直至 exit 0
+
 ## 执行顺序
 
 ### Step 1：修 y-model validator（~10min，先做）
