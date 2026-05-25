@@ -210,6 +210,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[master-knowledge-compound]]
 - [[30_wiki\concepts\ai-native-五层进阶从答案到效率到作品到产品到系统.md]]
+- [[30_wiki\concepts\ai时代判断力口述-3.md]]
 - [[30_wiki\concepts\yt-management-toolkit-overview.md]]
 - [[30_wiki\concepts\yt-tool-hiring-scorecard.md]]
 - [[30_wiki\concepts\yt-tool-knowledge-extraction.md]]
@@ -231,6 +232,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[obsidian-kdo-内容产出工作流-产品设计大纲]]
 - [[30_wiki\concepts\kdo_product_design_agent_final.md]]
 - [[30_wiki\systems\kdo-protocol.md]]
+
+## [[ocr-一堂-个人修炼-科学学习ipo模型]]
+- [[30_wiki\concepts\ai时代判断力口述-3.md]]
 
 ## [[ooda-loop-boyd]]
 - [[30_wiki\concepts\yt-decision-full-process.md]]
@@ -460,6 +464,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\tools\yt-tool-strategy-workshop.md]]
 
 ## [[yt-decision-abcd-model]]
+- [[30_wiki\concepts\ocr-一堂-地图-创业地图.md]]
 - [[30_wiki\concepts\yt-decision-full-process.md]]
 
 ## [[yt-decision-aesthetic-practice]]
@@ -511,6 +516,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\ocr-一堂-科学决策-稀缺资源清单.md]]
 - [[30_wiki\concepts\ocr-一堂-科学决策-项目方案评估三角形.md]]
 - [[30_wiki\concepts\ocr-一堂y模型实操工作流.md]]
+- [[30_wiki\concepts\ocr-萃取总结.md]]
 - [[30_wiki\concepts\ocr-项目背景问题思考的8个维度.md]]
 - [[30_wiki\concepts\yt-decision-ai-partner.md]]
 - [[30_wiki\concepts\yt-decision-consensus-iceberg.md]]
@@ -574,6 +580,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-decision-depth-ladder]]
 - [[30_wiki\concepts\ocr-一堂-个人修炼-解放思想.md]]
+- [[30_wiki\concepts\ocr-一堂-地图-个人地图.md]]
 - [[30_wiki\concepts\ocr-一堂-科学决策-商业模式-完整财务公式决策.md]]
 - [[30_wiki\concepts\ocr-一堂-科学决策-深度-l1优先级定性.md]]
 - [[30_wiki\concepts\ocr-一堂-科学决策-深度-l2部分定量.md]]
@@ -588,6 +595,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例04.md]]
 - [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例05.md]]
 - [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例06.md]]
+- [[30_wiki\concepts\ocr-一堂个人地图高潜力成长者修炼全景图.md]]
 - [[30_wiki\concepts\ocr-一堂深度复盘冰山图.md]]
 - [[30_wiki\concepts\yt-decision-consensus-iceberg.md]]
 - [[30_wiki\concepts\yt-decision-full-process.md]]
@@ -866,6 +874,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\ocr-screenshot2.md]]
 
 ## [[yt-decision-width-method]]
+- [[30_wiki\concepts\ocr-一堂-地图-管理地图.md]]
 - [[30_wiki\concepts\ocr-一堂-科学决策-roi决策评估画布.md]]
 - [[30_wiki\concepts\ocr-一堂-科学决策-发现决策.md]]
 - [[30_wiki\concepts\ocr-一堂-科学决策-宽度-个人.md]]
@@ -874,6 +883,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\ocr-一堂-科学决策-深度-案例02.md]]
 - [[30_wiki\concepts\ocr-一堂y模型steps策略集.md]]
 - [[30_wiki\concepts\ocr-一堂提炼过的因果模型.md]]
+- [[30_wiki\concepts\ocr-一堂泛产品设计-十年修炼爬山地图.md]]
+- [[30_wiki\concepts\ocr-一堂泛产品设计36计-全套地图.md]]
 - [[30_wiki\concepts\ocr-项目背景问题思考的8个维度.md]]
 - [[30_wiki\concepts\yt-decision-consensus-iceberg.md]]
 - [[30_wiki\concepts\yt-decision-depth-ladder.md]]
@@ -2110,6 +2121,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-personal-time-management.md]]
 
 ## [[yt-personal-ipo-learning]]
+- [[30_wiki\concepts\ai时代判断力口述-3.md]]
 - [[30_wiki\concepts\ocr-一堂-个人修炼-科学学习ipo-全景策略.md]]
 - [[30_wiki\concepts\ocr-一堂进步大地图.md]]
 - [[30_wiki\concepts\yt-management-basic-skills.md]]

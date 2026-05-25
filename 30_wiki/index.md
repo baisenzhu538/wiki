@@ -1,13 +1,14 @@
 # Wiki Index
 
 
-_Last updated: 2026-05-25T04:49:07+00:00_
+_Last updated: 2026-05-25T05:14:02+00:00_
 
 - [[concepts/2026-05-17-深夜感想.md|2026-05-17 深夜感想]] — source `src_20260522_390d75a8`
 - [[concepts/ai-native-五层进阶从答案到效率到作品到产品到系统.md|“AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统”]] — source `[`
 - [[concepts/aima-ai思维卡-外部链接归档.md|AIMA AI思维卡 — 外部链接归档]] — source `src_20260522_a8e05d98`
+- [[concepts/ai单元模型口述蒋老师.md|AI+单元模型口述（蒋老师）]] — source `src_20260525_92ea6173`
 - [[concepts/ai时代判断力口述-2.md|AI时代判断力口述]] — source `src_20260525_6748cc27`
-- [[concepts/ai时代判断力口述-3.md|AI时代判断力口述]] — source `src_20260525_66059442`
+- [[concepts/ai时代判断力口述-3.md|AI时代判断力口述（国帅）]] — source `src_20260525_66059442`
 - [[concepts/ai时代判断力口述.md|AI时代判断力口述]] — source `src_20260525_7ee2bba2`
 - [[concepts/anthropic-官方发布创始人手册打造-ai-原生初创公司.md|AI 原生创业四阶段模型（Anthropic 创始人手册）]] — source no source
 - [[concepts/business-analysis.md|Business Analysis]] — source `src_20260522_9d98d526`

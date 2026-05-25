@@ -1498,3 +1498,7 @@ Chronological record of knowledge operations.
 - 2026-05-25T04:49:06+00:00 - Ingested `src_20260525_66059442` from 00_inbox/yitang-judgment-transcript.md
 
 - 2026-05-25T04:49:08+00:00 - Self-check: 32 auto-feedback record(s) created
+
+- 2026-05-25T05:14:02+00:00 - Ingested `src_20260525_92ea6173` from 00_inbox/yitang-unit-model-ai-transcript.md
+
+- 2026-05-25T05:14:03+00:00 - Self-check: 9 auto-feedback record(s) created

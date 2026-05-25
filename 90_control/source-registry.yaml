@@ -4831,3 +4831,17 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/yitang-judgment-transcript.md"
   content_sha256: "b3f69519a25252e1e7a5b87a78eb79e0737f8b3e909932e484effd8a7028b922"
+
+- id: "src_20260525_92ea6173"
+  title: "AI+单元模型口述（蒋老师）"
+  type: "transcript"
+  location: "10_raw/sources/src_20260525_92ea6173-ai单元模型口述蒋老师.md"
+  captured_at: "2026-05-25T05:14:02+00:00"
+  registered_at: "2026-05-25T05:14:02+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/ai单元模型口述蒋老师.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/yitang-unit-model-ai-transcript.md"
+  content_sha256: "354cb277a13b5a2576421ae6e8112d8ec74a46c86f84ff7ef04aef2ecd0e09c5"
