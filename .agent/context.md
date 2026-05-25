@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-25
 active_branch: main
-active_task: 老顽童：#10 单元模型域编译 ✅ 已审查通过。Batch 4 15张OCR卡完成Critique+Synthesis（7张✅ 8张待修）。下一步：修y-model validator（10min）→ 开OCR Batch 4 修补。
+active_task: 老顽童：#10 单元模型域编译 ✅ 已审查通过。Batch 4 15张OCR卡完成Critique+Synthesis（7张✅ 8张已修补✅）。下一步：OCR Batch 5 评估（41张低价值/OCR失败卡）。
 blockers: []
 ---
 
