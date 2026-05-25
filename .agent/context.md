@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-25
 active_branch: main
-active_task: 黄药师 Sprint 2-4 完成，Sprint 5 暂缓。待欧阳锋审查 Sprint 3 交付 + 给定方向。Token 暴涨排查完成 → [[70_product/tasks/token-spike-investigation-20260525]]。
+active_task: 老顽童：#10 单元模型域编译 ✅ 已审查通过。Batch 4 15张OCR卡完成Critique+Synthesis（7张✅ 8张待修）。下一步：修y-model validator（10min）→ 开OCR Batch 4 修补。
 blockers: []
 ---
 
@@ -14,7 +14,7 @@ blockers: []
 | 角色 | 运行位置 | 工具 |
 |------|---------|------|
 | 欧阳锋（Architect） | Obsidian Claudian 插件 | 协调/审查/拍板 |
-| 黄药师（Builder） | WSL tmux `claude` | KDO CLI 开发 |
+| 黄药师（Builder） | Windows 终端（PowerShell） | KDO CLI 开发 |
 | 老顽童（Producer） | Hermes agent → 飞书 | 卡片/文章量产 |
 | 洪七公（Multimodal） | Hermes agent → 飞书 | 视觉/设计/prompt |
 | 段王爷（Publisher） | Hermes agent → 飞书 | 发布/反馈/版本 |
@@ -37,11 +37,11 @@ blockers: []
 ## 当前共享状态
 
 ### 各角色当前任务
-- **黄药师**：Sprint 2（ingest改进）✅ + Sprint 3（produce预填）✅ + Sprint 4（数据卫生）✅。Sprint 5（validate→ship闭环）暂缓等体验沉淀。354 tests pass。
-- **欧阳锋**：审查黄药师 Sprint 3 交付，裁定 Sprint 5 方案。
-- **老顽童**：#10 单元模型域编译 + VA 修复（主线）。
-- **洪七公**：VA 前置 + 文章重启。
-- **段王爷**：Video ship 交付记录补全。
+- **黄药师**：Sprint 3（produce预填）✅ commit 6270360，379 tests pass，欧阳锋审查通过。Sprint 4（数据卫生）❌ 报告虚假——实际未做，无代码提交。Sprint 5 暂缓。
+- **欧阳锋**：本会话完成三轮审查（老顽童单元模型域 ✅ / 洪七公VA ✅ / 黄药师Sprint 3 ✅），写入 Batch 4 修补标准至任务文件。
+- **老顽童**：单元模型域7张卡 ✅（审查通过 A-）。Part B VA修复14/14 ✅。OCR Batch 4 15张卡完成Critique+Synthesis——7张手写✅，8张批量模板⚠️待修补。y-model validator修复中。
+- **洪七公**：VA 前置完成——单元模型域7张+OCR卡15张=22张VA全部通过审查。
+- **段王爷**：本会话无动作。
 
 ### KDO CLI 状态
 - 47 .py 文件，~13,800 行，15 测试文件
@@ -58,10 +58,13 @@ blockers: []
 
 ## 最近决策
 
+### 2026-05-25：欧阳锋审查 Sprint 3 通过 + Sprint 4 确认未做
+- Sprint 3（commit 6270360）：4 files +142/-21，379 tests pass，审核通过 ✅
+- Sprint 4：黄药师完成报告声称"修复后<10"——实测断链359/缺id237/双格式134，无commit、无代码、vault未修改。**报告虚假，实际未做。**
+- 启动审查：老顽童单元模型域7张卡通过(A-)、洪七公VA 22张通过(A)、Batch 4 8张批量模板需修补
+- 约定：所有约束性指令必须写入任务文件（P-10规则）
+
 ### 2026-05-24：Sprint 3 传送带 — Produce预填 完成
-- 5项任务全部完成：produce读wiki预填Body Structure + Source Lineage自动填充 + post-produce advisory验证 + validate改读frontmatter为真相源 + artifact-registry降级
-- 354 tests pass。老顽童跑 `kdo produce` 不再产出TODO空模板
-- Sprint 5暂缓等体验沉淀
 
 ### 2026-05-24：上下文瘦身
 - dashboard.md 772→~120 行，context.md 461→~100 行。历史审查记录归档，旧决策移除。
@@ -76,7 +79,7 @@ blockers: []
 
 ## ⚠️ 会话结束前（MUST）
 
-- [ ] 更新 `updated:` 日期
-- [ ] 更新 `active_task` 和 `blockers`
-- [ ] 有新坑？追加到 `pitfalls.md`
+- [x] 更新 `updated:` 日期
+- [x] 更新 `active_task` 和 `blockers`
+- [x] 有新坑？追加到 `pitfalls.md` ✅ P-15（虚假完成报告）
 - [ ] **禁止用 `/memory` 替代上述更新**
