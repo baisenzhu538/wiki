@@ -229,11 +229,6 @@ Y模型不是单一工具，而是"四套操作系统"——根据决策场景�
 
 
 
-## Constraints & Boundaries
-
-
-
-
 ## Critique
 
 ### 内部局限
@@ -255,13 +250,6 @@ Y模型不是单一工具，而是"四套操作系统"——根据决策场景�
 ### 外部攻击
 
 #### Gary Klein 的"自然决策"：批判
-
-**Gary Klein**（宏观认知/自然决策理论创始人，代表作《Sources of Power》）对结构化决策框架提出了根本性挑战。Klein 通过对消防员、急救医护、军事指挥官等专家决策者的实地研究提出 Recognition-Primed Decision（RPD）模型：
-#### Gary Klein 的"自然决策"：批判
-
-
-
-
 
 **Gary Klein**（宏观认知/自然决策理论创始人，代表作《Sources of Power》）对结构化决策框架提出了根本性挑战。Klein 通过对消防员、急救医护、军事指挥官等专家决策者的实地研究提出 Recognition-Primed Decision（RPD）模型：
 
