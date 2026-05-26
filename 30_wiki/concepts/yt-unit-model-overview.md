@@ -1,4 +1,5 @@
 ---
+id: yt-unit-model-overview
 title: "单元模型概述：从最小经济单元到商业判断框架"
 type: framework
 domain:
