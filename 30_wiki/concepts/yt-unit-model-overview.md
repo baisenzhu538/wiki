@@ -14,7 +14,7 @@ source_refs:
   - "src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述"
 created_at: "2026-05-24"
 updated_at: "2026-05-24"
-author: "老顿童"
+author: "老顽童"
 reviewed_by: ""
 related:
   - yt-unit-model-ladder
