@@ -4,7 +4,7 @@ assigned_to: "老顽童 (Producer)"
 priority: "P0"
 created_at: "2026-05-26"
 reviewer: "欧阳锋"
-status: "in_progress"
+status: "completed"
 depends_on: []
 blocks: []
 ---
