@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-26
 active_branch: main
-active_task: 老顽童：y-model validator 修复（P0）+ 单元模型域2处小修（P1）。Batch 5 评估完成——不需要老顽童做，100+张ROI低不投入。
+active_task: 老顽童：y-model validator 修复 ✅ + 单元模型域2处小修 ✅ 全部完成。等待新任务分配。
 blockers: []
 ---
 
