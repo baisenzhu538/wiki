@@ -132,11 +132,11 @@ S4-2 和 S4-3 复用 S4-1 的独立脚本模式（`90_control/s4_*.py`）。
 
 | # | 验收项 | 判定方式 |
 |:-:|------|:--------|
-| 1 | 断链数 <10（明确不存在的目标标记 ⚠️） | `kdo lint --broken-links` |
-| 2 | frontmatter 缺失数 <20 | `kdo lint --missing-frontmatter` |
-| 3 | 新旧格式并存卡 <10 | `kdo lint --mixed-format` |
+| 1 | A 类断链 83 条全部修复，0 假修复 | `90_control/s4_scan_broken_links.py` 复查 |
+| 2 | frontmatter 缺失数 <20 | `90_control/s4_scan_frontmatter.py` |
+| 3 | 新旧格式并存卡 <10 | `90_control/s4_scan_mixed_format.py` |
 | 4 | `kdo validate --v15` 不降级 | 0 Failed |
-| 5 | C-10 铁律未被跳过（有 dry-run + 试点记录） | 审查 |
+| 5 | C-10 铁律未被跳过（dry-run + 试点记录可查） | 审查 |
 
 ## 不做
 
