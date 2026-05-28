@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-28
 active_branch: main
-active_task: 黄药师 Sprint 5a（article validator 修复）。老顽童 Phase C 文章待修（缺 Audience/Core Thesis）。洪七公路演域 VA 🟡 有條件 PASS（ladder L207 待修）。段王爷：视频交付记录待补。
+active_task: 黄药师 Sprint 5a（article validator 修复）。老顽童 Phase C 文章待修（缺 Audience/Core Thesis）。洪七公路演域 VA 🟡 有條件 PASS（ladder L207 待修）。段王爷：视频交付记录待补。Design 域第一批编译 ✅（3 张概念卡，月白AIGC课程系列）
 blockers: []
 ---
 
@@ -51,7 +51,10 @@ blockers: []
 - 坚果云备份 ✅
 
 ### Design 域
-- Eagle（图轨）+ Obsidian（文轨），双轨三层。待用户灌入素材。
+- Eagle（图轨）+ Obsidian（文轨），双轨三层。第一批编译已完成 ✅
+- 3 张概念卡：AIGC设计基础（生图原理+提示词基本功）、口喷设计范式+电商全流程、Leo文创IP案例
+- 源素材：月白（一堂）AIGC设计课程口述 3 期 → ingested → enriched → indexed → graphed
+- 文轨骨架已立，待后续视觉资产桥接（Eagle 图轨）
 
 ### 攻击者多样性规则（软约束）
 - 同一域内，每5张卡至少引入1位新攻击者。纯 Kahneman+Taleb 组合需替换一位。

@@ -73,7 +73,7 @@ updated: 2026-05-28
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
-| 05-28 | 黄药师 | Sprint 4 数据卫生（断链/frontmatter/双格式） | ✅ **全部 PASS**。A类83→0，FM 245→0，格式134→0 |
+| 05-28 | 欧阳锋 | Design 域第一批编译（月白AIGC设计课程） | ✅ **PASS**。3 张概念卡全流程完成。源素材 ingest → enrich → index → graph rebuild |
 | 05-28 | 黄药师 | Sprint 5（Validate→Ship 闭环） | ✅ **全部 PASS**。9/9 tests, 388 pytest, S5-1/S5-2/S5-3 |
 | 05-28 | 老顽童 | Phase C 文章 3 篇 | 🟡 有条件 PASS。内容 A-/A，缺 Audience/Core Thesis 节，修复后无需再审 |
 | 05-28 | 老顽童 | 路演工具箱 Batch 1（故事化/数字化/比喻化） | ✅ **PASS**。Phase A+B，3卡全通过，攻击者论证充实，v1.5 0 Failed |
