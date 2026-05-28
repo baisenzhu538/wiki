@@ -70,17 +70,17 @@ OCR 文件中文件名含乱码 CJK 字符。例如 `[[һ�õ������
 
 验证：`yt-decision-ai-partner.md` 存在，`yt-decision-ai-innovation.md` 不存在。上下文吻合。
 
-### Step 2 ⏸️ 等待欧阳锋确认
+### Step 2 ✅ 已完成（2026-05-28）
 
-3 张试点候选（非 OCR，1-3 条可修复链接，风险低）：
+3 张试点卡片已写入，等待欧阳锋审查：
 
-| # | 文件 | 修改 | 行 |
-|:-:|------|------|:--:|
-| 1 | `yt-unit-model-ai-assisted.md` | `ai-innovation` → `ai-partner` | 170 |
-| 2 | `yt-decision-consensus-iceberg.md` | `yt-management-meeting-design` → `yt-management-scientific-decision` | 339 |
-| 3 | `yt-decision-habit-shift.md` | `yt-management-team-building` → `yt-management-team-knowledge` | 379 |
+| # | 文件 | 修改 | 行 | 状态 |
+|:-:|------|------|:--:|:--:|
+| 1 | `yt-unit-model-ai-assisted.md` | `ai-innovation` → `ai-partner` | 170 | ✅ |
+| 2 | `yt-decision-consensus-iceberg.md` | `yt-management-meeting-design` → `yt-management-scientific-decision` | 339 | ✅ |
+| 3 | `yt-decision-habit-shift.md` | `yt-management-team-building` → `yt-management-team-knowledge` | 379 | ✅ |
 
-### Step 3 ⏸️ 等待试点完成后，批量修复余下 54 个文件
+### Step 3 ⏸️ 等待试点审查通过后，批量修复余下 54 个文件（80 条可修复链接）
 
 ---
 

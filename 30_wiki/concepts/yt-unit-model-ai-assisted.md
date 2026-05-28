@@ -167,7 +167,7 @@ Postman 在《Amusing Ourselves to Death》中提出的"媒介即隐喻"理论�
 | 上游工具 | [[yt-unit-model-construction]] | AI 辅助的是"拆推评算"的过程——先会手动建模，再用 AI 加速 |
 | 上游工具 | [[yt-unit-model-dynamic]] | AI 可以帮助扫描三维变量的交互效应和识别非线性拐点 |
 | 进阶框架 | [[yt-unit-model-ladder]] | AI 可以将 L3-L4 的分析时间从"周"压缩到"天"，但 L5-L6 的判断仍需人做 |
-| 跨域关联 | [[yt-decision-ai-innovation]] | AI 在决策中的角色定位——辅助而非替代 |
+| 跨域关联 | [[yt-decision-ai-partner]] | AI 在决策中的角色定位——辅助而非替代 |
 | 跨域关联 | [[yt-decision-system1-system2]] | AI 擅长 System 2 的缓慢分析，但商业直觉需要 System 1 的快速识别 |
 
 ### 不要用的场景
