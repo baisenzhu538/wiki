@@ -37,7 +37,7 @@ Jonathan Gottschall 在《讲故事的动物》里有一个结论：故事是人
 
 Keith Oatley 的研究揭示了故事为什么这么管用的机制：好故事通过“叙事传输”（narrative transportation）让听众暂时“离开自己的世界并进入故事世界”。在传输状态下，听众的批判性防御大幅降低。
 
-这正好是 Daniel Kahneman 在《思考，快与慢》里提到的 System 1 与 System 2 的关系。System 1 是快思考，自动、情感化、凭直觉做决定；System 2 是慢思考，需要努力、理性、批判性分析。
+这正好是 Daniel Kahneman 在《思考，快与慢》里提到的 System 1 与 System 2 的关系。System 1 是快思考，自动、情感化、凭直觉做决定；System 2 是慢思考，需要努力、理性、批判性分析。故事化的精髓，就是用 System 1 对抗 System 2。
 
 故事化的精髓，就是用 System 1 对抗 System 2。当你听到一个好故事时，你的 System 1 被激活了——你的大脑在自动构建情境、产生共情、形成信仰。而 System 2 被抑制了——你不会去质问这个故事的核心事实是否经得起推敲。
 
