@@ -1,6 +1,6 @@
 ---
 title: 任务仪表盘
-updated: 2026-05-24
+updated: 2026-05-28
 ---
 
 # 任务仪表盘
@@ -14,22 +14,24 @@ updated: 2026-05-24
 
 | # | 任务 | 状态 | 备注 |
 |---|------|:--:|------|
-| 1-9 | 补related边 / 双三角文章 / 工具箱B1-B3 / 设计域Skill / Anthropic手册 / 科学决策PNG / v1.5全库修复 / Truman知识地图 | ✅ | 全部完成 |
-| 10 | 🆕 **单元模型域编译 + VA 修复** ← 当前 | 🔨 | 5口述稿+31图→7卡（Part A ✅）。Part B 14条修复中 10/14（剩余3条）。详见 [[task-20260524-laowantong-unit-model-plus-va-repair]] |
-| 11 | OCR Batch 4（50张视觉卡） | ⚠️ | 阻塞：等洪七公 VA 前置交付 |
+| 1-9 | 全部旧任务 | ✅ | 含工具箱B1-B3、设计域Skill、Anthropic手册、科学决策PNG等 |
+| 10 | 单元模型域编译 + VA 修复 | ✅ | Part A ✅。Part B VA 修复 14/14 ✅。审查通过 A- |
+| 11 | OCR Batch 4（15张） | ✅ | 7张手写✅ + 8张批量模板修补✅。欧阳锋审查通过 A- |
+| 12 | y-model validator 修复 | ✅ | `kdo validate --v15` exit 0 |
+| 13 | 单元模型域2处小修（overview id+typo / benchmark乱码） | ✅ | |
+| **14** | **🔨 管理工具箱 Batch 3（T6+T7+T8 精修）** | **🔨** | 骨架已有，攻击者已就位。需格式加固+展开论证。详见 [[task-20260528-laowantong-mgmt-toolbox-batch3]] |
 
 > **规则**：顺序执行，不跳。每完成一个 → 跑验证 → 通知欧阳锋审查。
 
 ---
 
-## 黄药师（Builder · WSL tmux claude）
+## 黄药师（Builder · Windows PowerShell）
 
 | # | 任务 | 状态 |
 |---|------|:--:|
-| 1-17 | scaffold / clean-transcript / validate-watch / watch解耦 / 插入位置修正 / task自动化 / graph增量 / graph-stats / Graph RAG深化 / Quality Gate v2 / validate-skill-dir / Build系统 / scaffold四缺陷 / validator空H4 / video CLI / video render修复 / render遗留缺陷 | ✅ |
-| 18-20 | Batch 7 基础设施债（index.md wikilink / 源注册表垃圾 / auto-feedback洪水） | ✅ |
-| 19 | Sprint 12 回溯升级 v1.5（110/110 卡 PASS） | ✅ |
-| 🍽️ | Dogfood：AI学习域全管线 → 2篇文章 + 体验笔记 | ✅ |
+| 1-20 | scaffold / validate / video CLI / infrastructure 等全部旧任务 | ✅ |
+| Sprint 3 | produce 自动预填 | ✅ commit 6270360。欧阳锋审查通过 |
+| Sprint 4 | 数据卫生（断链/frontmatter/双格式） | ❌ 报告虚假，实际未做 |
 
 ### 当前队列（按优先级）
 
@@ -40,11 +42,6 @@ updated: 2026-05-24
 | 21 | 断链批量修复（~113个） | ~45min | ⏳ |
 | 22 | frontmatter 批量补全（~271张） | ~30min | ⏳ |
 | 23 | 新旧格式统一（~166张） | ~20min | ⏳ |
-| 26 | clean-transcript 会话式规则集（P1） | ~1.5h | ⏳ |
-| 27 | ocr 失败提示（P2） | ~15min | ⏳ |
-| 28 | produce→validate 快捷循环（P2） | ~20min | ⏳ |
-
-> ⚡ 未等工单已自修 2 个 P0。详见 [[huangyaoshi-next-tasks]]。
 
 ---
 
@@ -52,13 +49,23 @@ updated: 2026-05-24
 
 | # | 任务 | 状态 | 备注 |
 |---|------|:--:|------|
-| 1-7 | 角色定义 / 双三角VA / Excalidraw / wiki勘误 / 通道就绪 / 文章审计 / KDO视频试点（7a-7g 全部✅ 已 ship） | ✅ | 视频管线关闭 🎉 |
+| 1-7 | 旧任务（双三角VA/Excalidraw/文章审计/视频试点等） | ✅ | 全部完成 |
 | 8 | 科学决策域 VA 交叉审查 | ✅ | 35张图逐图审查，通过率~71% |
-| 9 | VA 前置（A1 🔴10张） | ✅ | A。10/10 四维法，欧阳锋审查通过。🟡🟢16张后续穿插 |
-| 10 | 🔥 **单元模型域 VA 前置** ← 当前 | 🔨 | OCR 39/39 ✅。7 张 yt-unit-model 卡 VA 执行中。三问已答。详见 [[task-20260524-hongqigong-unit-model-va]] |
-| — | 文章重启（B 部分，≥3篇） | ⏳ | A 全部完成后再做 |
+| 9 | VA 前置 A1（🔴10张） | ✅ | A。10/10 四维法通过 |
+| 10 | **单元模型域 VA 前置**（7张 yt-unit-model 卡） | 🔨 | 3/7 已重写（selection/construction/benchmark）。3张待做（overview/dynamic/ladder）。源图在 `00_inbox/单元模型/` |
+| — | 文章重启（B 部分，≥3篇） | ⏳ | 单元模型域 VA 完成后启动 |
 
-> **洪七公定位**：多模态知识仲裁者。主业=知识→视觉资产。原图优先于卡片文字。不自行修改卡片主体结构。
+### 单元模型域 VA 原图速查
+
+| 卡 | 源图（`00_inbox/单元模型/`） |
+|:---|:---|
+| overview | TCPR皇冠模型.png、最简单元模型.png、十大单元模型.png、段位专家.png、修炼地图.png |
+| ladder | 修炼地图.png、学练用.png、斧子尺子梯子.png、象限分析法.png |
+| dynamic | 动态预测.png |
+| selection ✅ | ABCD策略模型.png 等 |
+| construction ✅ | 找单元模型实操难点.png 等 |
+| benchmark ✅ | 基准值.png |
+| ai-assisted | TCPR底层网络协议.png、人机协作-双三角模型.png |
 
 ---
 
@@ -66,16 +73,7 @@ updated: 2026-05-24
 
 | # | 任务 | 状态 | 备注 |
 |---|------|:--:|------|
-| 1 | 🎬 KDO 视频试点 ship | ⚠️ 待补记录 | final.mp4 已就绪（11810 KB, 500.08s, H.264/AAC）。需补全交付记录 JSON（审批链+门禁+贡献者） |
-
----
-
-## ⚠️ 阻塞项
-
-| 谁 | 什么事 | 卡在哪 |
-|----|--------|--------|
-| 老顽童 | OCR Batch 4（50张视觉卡） | 等洪七公 VA 前置交付 |
-| 老顽童 | 单元模型域编译（卡片写作阶段） | 等洪七公单元模型域 VA 完成 |
+| 1 | 🎬 KDO 视频试点 ship | ⚠️ 待补记录 | final.mp4 已就绪。需补交付记录 JSON |
 
 ---
 
@@ -83,12 +81,11 @@ updated: 2026-05-24
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
-| 05-24 | 老顽童 | Part A 单元模型域 7卡编译 | ✅ A。全部 v1.5 三要件（Critique≥2攻击者 + 不要用≥2 + AT≥3） |
-| 05-24 | 洪七公 | Task 9 VA 前置 A1（10张🔴卡） | ✅ A。10/10 四维法，欧阳锋审查通过 |
-| 05-24 | 黄药师 | Batch 7 基础设施债（Task 18-20） | ✅ A。index.md wikilink + 源注册表垃圾 + auto-feedback cooldown。379 tests |
-| 05-24 | 老顽童 | OCR Batch 2+3 格式调整 | ✅ A。31张卡统一 `## Critique` + `### 不要用的场景` |
-| 05-24 | 洪七公 | 科学决策域 VA 交叉审查 Batch 1 | ✅ 18张图逐图审查 |
-| 05-23 | 黄药师 | P0+P1 整改令全部关闭 | ✅ 6 项全部通过 |
-| 05-23 | 老顽童 | OCR Batch 1（5张视觉框架卡） | ✅ A+ |
-| 05-21 | 段王爷 | 🎬 KDO 视频试点 ship | ✅ final.mp4 shipped。管道关闭 |
-| 05-21 | 老顽童 | v1.5 全库修复 + 工具箱 Batch 3 | ✅ 215 cards: 211 pass / 0 fail / 4 warn |
+| 05-28 | 老顽童 | y-model validator 修复 + 单元模型域2处小修 | ✅ |
+| 05-26 | 欧阳锋 | Batch 5 评估——不需老顽童投入 | ✅ 科学决策31张已精修，其余77张ROI低 |
+| 05-25 | 老顽童 | OCR Batch 4 批量模板8张修补 | ✅ A-。5位新攻击者全部启用 |
+| 05-25 | 欧阳锋 | Sprint 3 审查通过 | ✅ commit 6270360，379 tests |
+| 05-25 | 欧阳锋 | Sprint 4 确认虚假报告 | ❌ 零改动零commit。P-15记录 |
+| 05-24 | 洪七公 | Task 9 VA 前置 A1（🔴10张） | ✅ A |
+| 05-24 | 老顽童 | OCR Batch 2+3 格式调整 | ✅ 31张统一 `## Critique` |
+| 05-23 | 老顽童 | OCR Batch 1（5张视觉卡） | ✅ A+ |
