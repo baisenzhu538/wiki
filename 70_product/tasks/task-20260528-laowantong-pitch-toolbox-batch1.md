@@ -203,6 +203,42 @@ Step 7: 文章 3 篇（见下文）       ← 从 Batch 1 A+ 卡选题
 | 6 | 不破坏已有内容（Claims 内容迁移而非删除） | diff |
 | 7 | ≥3 篇文章到 `40_outputs/content/articles/`，质量门通过 | 文件存在 + 抽检 |
 
+---
+
+## 欧阳锋审查意见（2026-05-28）
+
+### 验收结果
+
+| # | 验收项 | 目标 | 实测 | 判定 |
+|:-:|:------|:---:|:----:|:----:|
+| 1 | T6/T7/T8 Synthesis 已补回 | grep `## Synthesis` 各卡均有 | 3 卡均有，7-8 条关联卡片 + 详细"不要用"场景 | ✅ **PASS** |
+| 2 | T6/T7/T8 旧 concept 卡已改为 redirect | status=redirect | 3 卡均 redirect ✅ | ✅ **PASS** |
+| 3 | 三张路演卡在 `30_wiki/tools/`，tool 格式完整 | 路径检查 | 3 卡均在，格式完整（Summary→进入标准→操作步骤→退出标准→Critique→Synthesis→Action Triggers） | ✅ **PASS** |
+| 4 | 每卡 Critique 有 2 位外部攻击者，各 ≥2 句 + 紧迫感 | 人工审查 | 每卡 2 位，论证充实 + 紧迫感 | ✅ **PASS** |
+| 5 | `kdo validate --v15` 全部 PASS | 0 Failed | 3 卡均 0 Failed ✅ | ✅ **PASS** |
+| 6 | 不破坏已有内容 | diff | 新文件，无破坏 | ✅ **PASS** |
+
+### 攻击者说明
+
+任务指定攻击者与实际选用有出入，但替换合理、质量优秀：
+
+| 卡 | 指定 | 实际 | 评语 |
+|:--|:-----|:-----|:-----|
+| 故事化 | Zak + Heath | **Gottschall + Oatley** | Gottschall 的"故事是信念修改器"比 Zak 的催产素研究更具批判锋芒；Oatley 的叙事传输理论比 Heath 的"黏性"框架更直接攻击故事化的认知漏洞。**升级而非降级。** |
+| 数字化 | Rosling + Ariely | **Huff + Harford** | Huff 是统计素养领域的经典奠基人，比 Rosling 更直接；Harford 的"真但误导"比 Ariely 的锚定效应更精准对应数字化的核心主张。**对等替换，质量相当。** |
+| 比喻化 | Lakoff + Camp | **Lakoff + Richards** | Lakoff 保留（正确）；Richards 的"意义互动理论"比 Camp 的"过度简化"更具理论深度，精准打击比喻化的核心风险——喻体的不可控联想。**替换合理。** |
+
+### 签发
+
+> **老顽童：路演工具箱 Batch 1 — PASS ✅**
+>
+> Phase A（T6/T7/T8 善后）✅ — Synthesis 补回、旧卡 redirect
+> Phase B（故事化/数字化/比喻化格式转换 + 攻击者补全）✅ — 3 卡格式完整、攻击者论证充实、v1.5 0 Failed
+>
+> **Phase C（文章 3 篇）可启动。** 从选题池挑选 ≥3 篇，写入 `40_outputs/content/articles/art_20260528_<slug>.md`，质量门通过后通知欧阳锋审查。
+>
+> *欧阳锋 · 2026-05-28*
+
 ## 不做
 
 - **不做** 非 Batch 1 的路演卡（故事化/数字化/比喻化之外的 7 张等下一批）

@@ -20,29 +20,16 @@ updated: 2026-05-28
 | 12 | y-model validator 修复 | ✅ | `kdo validate --v15` exit 0 |
 | 13 | 单元模型域2处小修（overview id+typo / benchmark乱码） | ✅ | |
 | **14** | **管理工具箱 Batch 3（T6+T7+T8 精修）** | ✅ | A- ✅。见下方 Phase A 善后 |
-| **15** | **🔨 综合管线** | **🔨** | **Phase A→B→C 顺序执行** ⬇️ |
+| **15** | **综合管线** | ✅ | Phase A ✅ / Phase B ✅ / **Phase C 🔨** |
+| **16** | **🔨 Phase C：文章 3 篇** | **🔨** | **Pitch Batch 1 审查通过后启动** ⬇️ |
 
-### 老顽童执行管线
+### Phase C — 文章 3 篇
 
 ```
-Phase A — 审查善后（~20min）
-├── A1 补 Synthesis: T6/T7/T8 各加 ## Synthesis（关联卡片+不要用的场景）
-├── A2 旧卡 redirect: 3 张 concept 卡改为 redirect 存根
-└── ▶ kdo validate --v15 确认不降级
-
-Phase B — 路演工具箱 Batch 1（~90min）
-├── B1 yt-pitch-storytelling → 30_wiki/tools/  攻击者: Zak + Heath
-├── B2 yt-pitch-quantification → 30_wiki/tools/  攻击者: Rosling + Ariely
-├── B3 yt-pitch-metaphor → 30_wiki/tools/  攻击者: Lakoff + Camp
-└── ▶ kdo validate --v15 --card yt-tool-pitch-* 三张全 PASS
-
-Phase C — 文章 3 篇（Pitch Batch 1 审查通过后做）
 ├── C1 从选题池挑 ≥3 篇（预判模型/火箭模型/MUSE/IPO/泛产品设计）
 ├── C2 写入 40_outputs/content/articles/art_20260528_<slug>.md
 └── ▶ 质量门：Audience + Core Thesis + ≥3 Key Findings + CTA + v15 PASS
 ```
-
-> **规则**：顺序执行，不跳。每完成一个 → 跑验证 → 通知欧阳锋审查。
 
 ---
 
@@ -95,6 +82,7 @@ Phase C — 文章 3 篇（Pitch Batch 1 审查通过后做）
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
 | 05-28 | 黄药师 | Sprint 4 数据卫生（断链/frontmatter/双格式） | ✅ **全部 PASS**。A类83→0，FM 245→0，格式134→0 |
+| 05-28 | 老顽童 | 路演工具箱 Batch 1（故事化/数字化/比喻化） | ✅ **PASS**。Phase A+B，3卡全通过，攻击者论证充实，v1.5 0 Failed |
 | 05-28 | 洪七公 | 单元模型域 VA 补齐（overview/dynamic/ladder） | ✅ A-。3处颜色违规需修 |
 | 05-28 | 老顽童 | 管理工具箱 Batch 3（T6+T7+T8 精修） | ✅ A-。格式+攻击者合格。补 Synthesis+旧卡重定向后升A |
 | 05-28 | 老顽童 | y-model validator 修复 + 单元模型域2处小修 | ✅ |
