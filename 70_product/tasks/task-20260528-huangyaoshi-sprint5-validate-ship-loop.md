@@ -4,7 +4,7 @@ assigned_to: "黄药师 (Builder)"
 priority: "P1"
 created_at: "2026-05-28"
 reviewer: "欧阳锋"
-status: "in_progress"
+status: "completed"
 depends_on: []
 blocks: []
 ---
