@@ -52,8 +52,7 @@ Phase C — 文章 3 篇（Pitch Batch 1 审查通过后做）
 |---|------|:--:|
 | 1-20 | scaffold / validate / video CLI / infrastructure 等全部旧任务 | ✅ |
 | Sprint 3 | produce 自动预填 | ✅ commit 6270360。欧阳锋审查通过 |
-| Sprint 4 | 数据卫生（断链/frontmatter/双格式） | ❌ 上次报告虚假，**本次真做** |
-| **Sprint 4** | **🔨 数据卫生批量修复** | **🔨** S4-1断链→S4-2 frontmatter→S4-3格式统一。详见 [[task-20260528-huangyaoshi-sprint4-data-hygiene]] |
+| Sprint 4 | 数据卫生（断链/frontmatter/双格式） | ✅ | **S4-1/S4-2/S4-3 全部 PASS** ✅ 欧阳锋审查通过。A类断链83→0，frontmatter245→0，双格式134→0 |
 
 > Sprint 5（Validate→Ship 闭环）暂缓。
 
@@ -66,8 +65,8 @@ Phase C — 文章 3 篇（Pitch Batch 1 审查通过后做）
 | 1-7 | 旧任务（双三角VA/Excalidraw/文章审计/视频试点等） | ✅ | 全部完成 |
 | 8 | 科学决策域 VA 交叉审查 | ✅ | 35张图逐图审查，通过率~71% |
 | 9 | VA 前置 A1（🔴10张） | ✅ | A。10/10 四维法通过 |
-| 10 | **单元模型域 VA 前置**（7张 yt-unit-model 卡） | ✅ | VA 补齐完成。欧阳锋审查 A-。3处颜色违规需修（修完升A） |
-| — | 文章（B 部分，≥3篇） | ⏳ | 老顽童任务 pipeline 中 |
+| 10 | **单元模型域 VA 前置**（7张 yt-unit-model 卡） | ✅ | VA 补齐完成。欧阳锋审查 A-。3处颜色违规待修（计入下个任务前置） |
+| **11** | **🔨 路演域 VA 补齐**（讲香十指模型 + 表达力火箭） | **🔨** | 详见 [[task-20260528-hongqigong-pitch-domain-va]] |
 
 ### 单元模型域 VA 原图速查
 
@@ -95,6 +94,7 @@ Phase C — 文章 3 篇（Pitch Batch 1 审查通过后做）
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
+| 05-28 | 黄药师 | Sprint 4 数据卫生（断链/frontmatter/双格式） | ✅ **全部 PASS**。A类83→0，FM 245→0，格式134→0 |
 | 05-28 | 洪七公 | 单元模型域 VA 补齐（overview/dynamic/ladder） | ✅ A-。3处颜色违规需修 |
 | 05-28 | 老顽童 | 管理工具箱 Batch 3（T6+T7+T8 精修） | ✅ A-。格式+攻击者合格。补 Synthesis+旧卡重定向后升A |
 | 05-28 | 老顽童 | y-model validator 修复 + 单元模型域2处小修 | ✅ |

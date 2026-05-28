@@ -1,1504 +1,1132 @@
 {
   "stats": {
-    "total": 5463,
-    "found": 5050,
+    "total": 5452,
+    "found": 5127,
     "fixable": 0,
-    "not-exist": 413,
+    "not-exist": 325,
     "garbled": 0
   },
   "fixable_links": [],
   "broken_links": [
     {
       "source": "30_wiki\\concepts\\business-research-skill-oscar-13-weapon-system.md",
-      "line": 10,
-      "target": "一堂调研武器库13招",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\business-research-skill-oscar-13-weapon-system.md",
       "line": 11,
-      "target": "一堂调研行动营-ai辅助系统式调研方法论",
+      "target": "一堂调研武器库13招",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\business-research-skill-oscar-13-weapon-system.md",
       "line": 12,
-      "target": "一堂-调研行动营启动_原文润色",
+      "target": "一堂调研行动营-ai辅助系统式调研方法论",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\business-research-skill-oscar-13-weapon-system.md",
-      "line": 106,
-      "target": "一堂调研武器库13招",
+      "line": 13,
+      "target": "一堂-调研行动营启动_原文润色",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\business-research-skill-oscar-13-weapon-system.md",
       "line": 107,
+      "target": "一堂调研武器库13招",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\business-research-skill-oscar-13-weapon-system.md",
+      "line": 108,
       "target": "一堂调研行动营-ai辅助系统式调研方法论",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-ocr_screenshot2.md",
-      "line": 73,
+      "line": 74,
       "target": "yt-decision-ocr-quality",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-ocr_screenshot2.md",
+      "line": 75,
+      "target": "yt-decision-visual-analysis",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-ocr_snipaste_2026-05-15_21-39-40.md",
+      "line": 73,
+      "target": "yt-decision-ocr-quality",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-ocr_snipaste_2026-05-15_21-39-40.md",
       "line": 74,
       "target": "yt-decision-visual-analysis",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\ocr-ocr_snipaste_2026-05-15_21-39-40.md",
-      "line": 72,
-      "target": "yt-decision-ocr-quality",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-ocr_snipaste_2026-05-15_21-39-40.md",
-      "line": 73,
-      "target": "yt-decision-visual-analysis",
-      "resolved": null
-    },
-    {
       "source": "30_wiki\\concepts\\ocr-screenshot1.md",
-      "line": 75,
+      "line": 76,
       "target": "yt-decision-ocr-quality",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-screenshot1.md",
-      "line": 76,
+      "line": 77,
       "target": "yt-decision-visual-analysis",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-screenshot2.md",
-      "line": 71,
+      "line": 72,
       "target": "yt-decision-ocr-quality",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-screenshot2.md",
-      "line": 72,
+      "line": 73,
       "target": "yt-decision-visual-analysis",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\ocr-truman的个人成长五步法.md",
-      "line": 75,
-      "target": "yt-decision-deliberate-practice",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-truman的个人成长五步法.md",
-      "line": 76,
-      "target": "yt-decision-career-ladder",
-      "resolved": null
-    },
-    {
       "source": "30_wiki\\concepts\\ocr-truman的选择两条职业成长路线.md",
-      "line": 72,
-      "target": "yt-decision-career-path",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-truman的选择两条职业成长路线.md",
-      "line": 73,
+      "line": 74,
       "target": "yt-decision-portfolio-career",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-y模型.md",
-      "line": 74,
-      "target": "yt-decision-scientific-learning-ipo",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-双三角模型.md",
-      "line": 74,
-      "target": "yt-decision-ai-triangle",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-提问刻意练习画布.md",
-      "line": 76,
-      "target": "yt-decision-question-canvas",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-提问刻意练习画布.md",
-      "line": 77,
-      "target": "yt-decision-deliberate-practice",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-科学学习ipo完整清单.md",
-      "line": 76,
+      "line": 75,
       "target": "yt-decision-scientific-learning-ipo",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-科学学习ipo完整清单.md",
       "line": 77,
-      "target": "yt-decision-deliberate-practice",
+      "target": "yt-decision-scientific-learning-ipo",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-科学学习ipo模型.md",
-      "line": 61,
+      "line": 62,
       "target": "yt-decision-scientific-learning-ipo",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-科学提问刻意练习.md",
-      "line": 70,
-      "target": "yt-decision-question-canvas",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-科学提问刻意练习.md",
-      "line": 71,
-      "target": "yt-decision-deliberate-practice",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-表达力火箭模型.md",
-      "line": 68,
-      "target": "yt-decision-expressive-weapon",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-表达力火箭模型.md",
       "line": 69,
-      "target": "yt-decision-storytelling",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-解放思想.md",
-      "line": 74,
-      "target": "yt-decision-scientific-method",
+      "target": "yt-decision-expressive-weapon",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-讲香十指模型-超级武器库.md",
-      "line": 75,
-      "target": "yt-decision-ten-finger-model",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-讲香十指模型-超级武器库.md",
-      "line": 76,
+      "line": 77,
       "target": "yt-decision-expressive-rocket",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md",
+      "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-讲香基本功.md",
       "line": 72,
-      "target": "yt-decision-ten-finger-model",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md",
-      "line": 73,
-      "target": "yt-decision-deliberate-practice",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-讲香基本功.md",
-      "line": 70,
-      "target": "yt-decision-ten-finger-model",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-讲香基本功.md",
-      "line": 71,
       "target": "yt-decision-expressive-rocket",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-课程清单.md",
-      "line": 73,
-      "target": "yt-decision-course-structure",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-个人修炼-课程清单.md",
       "line": 74,
-      "target": "yt-decision-learning-path",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-创业必修-课程清单.md",
-      "line": 72,
       "target": "yt-decision-course-structure",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-创业必修-课程清单.md",
       "line": 73,
-      "target": "yt-decision-learning-path",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-地图-个人地图.md",
-      "line": 75,
-      "target": "yt-decision-capability-map",
+      "target": "yt-decision-course-structure",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-地图-个人地图.md",
       "line": 76,
-      "target": "yt-decision-skill-progression",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-地图-个人地图_conv.md",
-      "line": 66,
       "target": "yt-decision-capability-map",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-地图-个人地图_conv.md",
       "line": 67,
-      "target": "yt-decision-skill-progression",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-地图-创业地图.md",
-      "line": 76,
       "target": "yt-decision-capability-map",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-地图-创业地图.md",
       "line": 77,
-      "target": "yt-decision-skill-progression",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-地图-创业地图_conv.md",
-      "line": 66,
       "target": "yt-decision-capability-map",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-地图-创业地图_conv.md",
       "line": 67,
-      "target": "yt-decision-skill-progression",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-地图-管理地图.md",
-      "line": 76,
       "target": "yt-decision-capability-map",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-地图-管理地图.md",
       "line": 77,
-      "target": "yt-decision-skill-progression",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-地图-管理地图_conv.md",
-      "line": 63,
       "target": "yt-decision-capability-map",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-地图-管理地图_conv.md",
       "line": 64,
-      "target": "yt-decision-skill-progression",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-案例拆解-课程清单.md",
-      "line": 74,
-      "target": "yt-decision-course-structure",
+      "target": "yt-decision-capability-map",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-案例拆解-课程清单.md",
       "line": 75,
-      "target": "yt-decision-learning-path",
+      "target": "yt-decision-course-structure",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-泛产品设计-十年苦练30招.md",
-      "line": 76,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-泛产品设计-十年苦练30招.md",
-      "line": 77,
+      "line": 78,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-科学决策-roi决策评估画布-案例01.md",
-      "line": 65,
+      "line": 66,
       "target": "yt-decision-key-hypotheses",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-科学决策-关键假设abcd模型.md",
-      "line": 57,
+      "line": 58,
       "target": "yt-decision-key-hypotheses",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-科学决策-关键训练清单重要.md",
-      "line": 70,
+      "line": 71,
       "target": "yt-decision-key-hypotheses",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\ocr-一堂-科学决策-宽度-个人.md",
-      "line": 71,
-      "target": "yt-entrepreneur-life-design",
-      "resolved": null
-    },
-    {
       "source": "30_wiki\\concepts\\ocr-一堂-科学决策-稀缺机会窗口.md",
-      "line": 68,
+      "line": 69,
       "target": "yt-decision-scarcity-window",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-科学决策-稀缺资源清单.md",
-      "line": 69,
+      "line": 70,
       "target": "yt-decision-scarcity-resources",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-科学决策-项目方案评估三角形.md",
-      "line": 57,
+      "line": 58,
       "target": "yt-decision-key-hypotheses",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-科学决策-高度-两种典型的思考习惯.md",
-      "line": 68,
-      "target": "yt-decision-height-method",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂-管理必修-课程清单.md",
-      "line": 72,
-      "target": "yt-decision-course-structure",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂-管理必修-课程清单.md",
       "line": 73,
-      "target": "yt-decision-learning-path",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂个人地图高潜力成长者修炼全景图.md",
-      "line": 76,
-      "target": "yt-decision-capability-map",
+      "target": "yt-decision-course-structure",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂个人地图高潜力成长者修炼全景图.md",
       "line": 77,
-      "target": "yt-decision-skill-progression",
+      "target": "yt-decision-capability-map",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂五步法-产品内核画布.md",
-      "line": 74,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂五步法-产品内核画布.md",
-      "line": 75,
+      "line": 76,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂五步法画布.md",
-      "line": 70,
+      "line": 71,
       "target": "yt-decision-assumption-hypothesis",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂产品内核-十大典型指标.md",
-      "line": 76,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂产品内核-十大典型指标.md",
-      "line": 77,
+      "line": 78,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂刻意练习十年成长指数.md",
-      "line": 73,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂刻意练习十年成长指数.md",
-      "line": 74,
+      "line": 75,
       "target": "yt-decision-product-launch",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂最佳转化率动力曲线图.md",
-      "line": 71,
-      "target": "yt-decision-conversion-funnel",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂最佳转化率动力曲线图.md",
       "line": 72,
+      "target": "yt-decision-conversion-funnel",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-一堂最佳转化率动力曲线图.md",
+      "line": 73,
       "target": "yt-decision-touchpoint-10waste",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂泛产品设计-十年修炼爬山地图.md",
-      "line": 76,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂泛产品设计-十年修炼爬山地图.md",
-      "line": 77,
+      "line": 78,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂泛产品设计-多出牌多练习.md",
-      "line": 70,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂泛产品设计-多出牌多练习.md",
-      "line": 71,
+      "line": 72,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂泛产品设计36计-全套地图.md",
-      "line": 76,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂泛产品设计36计-全套地图.md",
-      "line": 77,
+      "line": 78,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂转化率-10大容易浪费的触点.md",
-      "line": 73,
+      "line": 74,
       "target": "yt-decision-conversion-funnel",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂转化率-10大容易浪费的触点.md",
-      "line": 74,
+      "line": 75,
       "target": "yt-decision-motivation-curve",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂进步大地图.md",
-      "line": 76,
-      "target": "yt-decision-capability-map",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂进步大地图.md",
       "line": 77,
-      "target": "yt-decision-skill-progression",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-一堂进步大地图_compressed.md",
-      "line": 65,
       "target": "yt-decision-capability-map",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-一堂进步大地图_compressed.md",
       "line": 66,
-      "target": "yt-decision-skill-progression",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-优秀泛产品设计者的自我修养.md",
-      "line": 71,
-      "target": "yt-decision-aesthetic-practice",
+      "target": "yt-decision-capability-map",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-优秀泛产品设计者的自我修养.md",
       "line": 72,
+      "target": "yt-decision-aesthetic-practice",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-优秀泛产品设计者的自我修养.md",
+      "line": 73,
       "target": "yt-decision-user-insight",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-婚礼操盘-用户和场景.md",
-      "line": 69,
+      "line": 70,
       "target": "yt-decision-project-management",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-婚礼操盘-用户和场景.md",
-      "line": 70,
+      "line": 71,
       "target": "yt-decision-user-research",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-婚礼规划.md",
-      "line": 73,
+      "line": 74,
       "target": "yt-decision-project-management",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-婚礼规划.md",
-      "line": 74,
+      "line": 75,
       "target": "yt-decision-user-research",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-审美提升的层级.md",
-      "line": 73,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-审美提升的层级.md",
-      "line": 74,
+      "line": 75,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-微信图片_20260507004746_32_32.md",
-      "line": 65,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004746_32_32.md",
-      "line": 66,
-      "target": "yt-decision-product-launch",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004751_33_32.md",
-      "line": 65,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004751_33_32.md",
-      "line": 66,
-      "target": "yt-decision-product-launch",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004755_34_32.md",
-      "line": 65,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004755_34_32.md",
-      "line": 66,
-      "target": "yt-decision-product-launch",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004758_35_32.md",
-      "line": 64,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004758_35_32.md",
-      "line": 65,
-      "target": "yt-decision-product-launch",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004801_37_32.md",
-      "line": 65,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004801_37_32.md",
-      "line": 66,
-      "target": "yt-decision-product-launch",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004802_38_32.md",
-      "line": 65,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004802_38_32.md",
-      "line": 66,
-      "target": "yt-decision-product-launch",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004804_39_32.md",
-      "line": 66,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004804_39_32.md",
       "line": 67,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004806_40_32.md",
-      "line": 64,
-      "target": "yt-decision-pan-product-design",
+      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004751_33_32.md",
+      "line": 67,
+      "target": "yt-decision-product-launch",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004755_34_32.md",
+      "line": 67,
+      "target": "yt-decision-product-launch",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004758_35_32.md",
+      "line": 66,
+      "target": "yt-decision-product-launch",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004801_37_32.md",
+      "line": 67,
+      "target": "yt-decision-product-launch",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004802_38_32.md",
+      "line": 67,
+      "target": "yt-decision-product-launch",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004804_39_32.md",
+      "line": 68,
+      "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-微信图片_20260507004806_40_32.md",
-      "line": 65,
+      "line": 66,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-微信图片_20260507004811_41_32.md",
-      "line": 64,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-微信图片_20260507004811_41_32.md",
-      "line": 65,
+      "line": 66,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-审美卡片-最佳实践建模.md",
-      "line": 71,
+      "line": 72,
       "target": "yt-decision-aesthetic-practice",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-审美卡片-最佳实践建模.md",
-      "line": 72,
+      "line": 73,
       "target": "yt-decision-design-philosophy",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-审美卡片-最佳实践收集.md",
-      "line": 70,
+      "line": 71,
       "target": "yt-decision-aesthetic-practice",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-审美卡片-最佳实践收集.md",
-      "line": 71,
+      "line": 72,
       "target": "yt-decision-design-philosophy",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-审美卡片-最佳实践池子.md",
-      "line": 70,
+      "line": 71,
       "target": "yt-decision-aesthetic-practice",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-审美卡片-最佳实践池子.md",
-      "line": 71,
+      "line": 72,
       "target": "yt-decision-design-philosophy",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-审美卡片-美好作品想象.md",
-      "line": 71,
-      "target": "yt-decision-aesthetic-practice",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-审美卡片-美好作品想象.md",
       "line": 72,
+      "target": "yt-decision-aesthetic-practice",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-审美卡片-美好作品想象.md",
+      "line": 73,
       "target": "yt-decision-design-philosophy",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-审美工具箱指南.md",
+      "line": 77,
+      "target": "yt-decision-product-launch",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-一堂五步法.md",
+      "line": 74,
+      "target": "yt-decision-user-research",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-一堂五步法.md",
       "line": 75,
-      "target": "yt-decision-pan-product-design",
+      "target": "yt-decision-product-innovation",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-审美工具箱指南.md",
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-动力阻力.md",
+      "line": 69,
+      "target": "yt-decision-user-research",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-动力阻力.md",
+      "line": 70,
+      "target": "yt-decision-product-innovation",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-场景推演.md",
+      "line": 72,
+      "target": "yt-decision-user-research",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-场景推演.md",
+      "line": 73,
+      "target": "yt-decision-product-innovation",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-多视角思考.md",
+      "line": 71,
+      "target": "yt-decision-user-research",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-多视角思考.md",
+      "line": 72,
+      "target": "yt-decision-product-innovation",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-峰终定律.md",
+      "line": 68,
+      "target": "yt-decision-user-research",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-峰终定律.md",
+      "line": 69,
+      "target": "yt-decision-product-innovation",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-惊喜公式.md",
+      "line": 71,
+      "target": "yt-decision-user-research",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-惊喜公式.md",
+      "line": 72,
+      "target": "yt-decision-product-innovation",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-用户分层.md",
+      "line": 73,
+      "target": "yt-decision-user-research",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-用户分层.md",
+      "line": 74,
+      "target": "yt-decision-product-innovation",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-用户视角.md",
+      "line": 70,
+      "target": "yt-decision-user-research",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-用户视角.md",
+      "line": 71,
+      "target": "yt-decision-product-innovation",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-行业分析画布.md",
+      "line": 75,
+      "target": "yt-decision-user-research",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-行业分析画布.md",
       "line": 76,
-      "target": "yt-decision-product-launch",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-一堂五步法.md",
-      "line": 73,
-      "target": "yt-decision-user-research",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-一堂五步法.md",
-      "line": 74,
-      "target": "yt-decision-product-innovation",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-动力阻力.md",
-      "line": 68,
-      "target": "yt-decision-user-research",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-动力阻力.md",
-      "line": 69,
-      "target": "yt-decision-product-innovation",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-场景推演.md",
-      "line": 71,
-      "target": "yt-decision-user-research",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-场景推演.md",
-      "line": 72,
-      "target": "yt-decision-product-innovation",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-多视角思考.md",
-      "line": 70,
-      "target": "yt-decision-user-research",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-多视角思考.md",
-      "line": 71,
-      "target": "yt-decision-product-innovation",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-峰终定律.md",
-      "line": 67,
-      "target": "yt-decision-user-research",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-峰终定律.md",
-      "line": 68,
-      "target": "yt-decision-product-innovation",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-惊喜公式.md",
-      "line": 70,
-      "target": "yt-decision-user-research",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-惊喜公式.md",
-      "line": 71,
-      "target": "yt-decision-product-innovation",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-用户分层.md",
-      "line": 72,
-      "target": "yt-decision-user-research",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-用户分层.md",
-      "line": 73,
-      "target": "yt-decision-product-innovation",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-用户视角.md",
-      "line": 69,
-      "target": "yt-decision-user-research",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-用户视角.md",
-      "line": 70,
-      "target": "yt-decision-product-innovation",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-行业分析画布.md",
-      "line": 74,
-      "target": "yt-decision-user-research",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-行业分析画布.md",
-      "line": 75,
       "target": "yt-decision-product-innovation",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-需求挖掘.md",
-      "line": 71,
+      "line": 72,
       "target": "yt-decision-user-research",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-需求挖掘.md",
-      "line": 72,
+      "line": 73,
       "target": "yt-decision-product-innovation",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-项目背景分析.md",
-      "line": 79,
-      "target": "yt-decision-user-research",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-项目背景分析.md",
       "line": 80,
+      "target": "yt-decision-user-research",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-项目背景分析.md",
+      "line": 81,
       "target": "yt-decision-product-innovation",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-roi分析.md",
-      "line": 70,
+      "line": 71,
       "target": "yt-decision-project-management",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-roi分析.md",
-      "line": 71,
+      "line": 72,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-业务建模.md",
-      "line": 70,
+      "line": 71,
       "target": "yt-decision-project-management",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-业务建模.md",
-      "line": 71,
+      "line": 72,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-低成本测试mvp.md",
-      "line": 70,
+      "line": 71,
       "target": "yt-decision-project-management",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-低成本测试mvp.md",
-      "line": 71,
+      "line": 72,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-假设拆解.md",
-      "line": 72,
+      "line": 73,
       "target": "yt-decision-project-management",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-假设拆解.md",
-      "line": 73,
+      "line": 74,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-内核和边界.md",
-      "line": 71,
+      "line": 72,
       "target": "yt-decision-project-management",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-内核和边界.md",
-      "line": 72,
+      "line": 73,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-努力仿真.md",
-      "line": 71,
+      "line": 72,
       "target": "yt-decision-project-management",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-努力仿真.md",
-      "line": 72,
+      "line": 73,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-十倍速验证.md",
-      "line": 72,
+      "line": 73,
       "target": "yt-decision-project-management",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-十倍速验证.md",
-      "line": 73,
+      "line": 74,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-善用佳软.md",
-      "line": 74,
+      "line": 75,
       "target": "yt-decision-project-management",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-善用佳软.md",
-      "line": 75,
-      "target": "yt-decision-product-launch",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-复盘迭代.md",
-      "line": 71,
-      "target": "yt-decision-project-management",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-复盘迭代.md",
-      "line": 72,
-      "target": "yt-decision-product-launch",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-攻坚会.md",
-      "line": 71,
-      "target": "yt-decision-project-management",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-攻坚会.md",
-      "line": 72,
-      "target": "yt-decision-product-launch",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-灵感闪现.md",
-      "line": 75,
-      "target": "yt-decision-project-management",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-灵感闪现.md",
       "line": 76,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-管理三段论.md",
-      "line": 70,
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-复盘迭代.md",
+      "line": 72,
       "target": "yt-decision-project-management",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-管理三段论.md",
-      "line": 71,
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-复盘迭代.md",
+      "line": 73,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-解放思想.md",
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-攻坚会.md",
+      "line": 72,
+      "target": "yt-decision-project-management",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-攻坚会.md",
+      "line": 73,
+      "target": "yt-decision-product-launch",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-灵感闪现.md",
+      "line": 76,
+      "target": "yt-decision-project-management",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-灵感闪现.md",
+      "line": 77,
+      "target": "yt-decision-product-launch",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-管理三段论.md",
       "line": 71,
       "target": "yt-decision-project-management",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-解放思想.md",
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-管理三段论.md",
       "line": 72,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-设计原则.md",
-      "line": 73,
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-解放思想.md",
+      "line": 72,
       "target": "yt-decision-project-management",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-解放思想.md",
+      "line": 73,
+      "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-设计原则.md",
       "line": 74,
-      "target": "yt-decision-product-launch",
+      "target": "yt-decision-project-management",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-逻辑mece.md",
-      "line": 72,
-      "target": "yt-decision-project-management",
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-设计原则.md",
+      "line": 75,
+      "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-逻辑mece.md",
       "line": 73,
+      "target": "yt-decision-project-management",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-逻辑mece.md",
+      "line": 74,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-酝酿式打磨.md",
-      "line": 71,
+      "line": 72,
       "target": "yt-decision-project-management",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-酝酿式打磨.md",
-      "line": 72,
+      "line": 73,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-里程碑拆解.md",
-      "line": 70,
+      "line": 71,
       "target": "yt-decision-project-management",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-里程碑拆解.md",
-      "line": 71,
-      "target": "yt-decision-product-launch",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-风险管理.md",
-      "line": 71,
-      "target": "yt-decision-project-management",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-风险管理.md",
       "line": 72,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计-需求工具箱指南.md",
-      "line": 75,
-      "target": "yt-decision-pan-product-design",
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-风险管理.md",
+      "line": 72,
+      "target": "yt-decision-project-management",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-风险管理.md",
+      "line": 73,
+      "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\ocr-泛产品设计-需求工具箱指南.md",
+      "line": 77,
+      "target": "yt-decision-product-launch",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计的应用场景示意图.md",
+      "line": 73,
+      "target": "yt-decision-product-launch",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计者的三大自我修养.md",
+      "line": 73,
+      "target": "yt-decision-product-launch",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计者的自我修养.md",
+      "line": 71,
+      "target": "yt-decision-product-launch",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\ocr-泛产品设计落地工具篇指南.md",
       "line": 76,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计的应用场景示意图.md",
-      "line": 71,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计的应用场景示意图.md",
-      "line": 72,
-      "target": "yt-decision-product-launch",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计者的三大自我修养.md",
-      "line": 71,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计者的三大自我修养.md",
-      "line": 72,
-      "target": "yt-decision-product-launch",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计者的自我修养.md",
-      "line": 69,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计者的自我修养.md",
-      "line": 70,
-      "target": "yt-decision-product-launch",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计落地工具篇指南.md",
+      "source": "30_wiki\\concepts\\ocr-萃取总结.md",
       "line": 74,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-泛产品设计落地工具篇指南.md",
-      "line": 75,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\ocr-萃取总结.md",
+      "source": "30_wiki\\concepts\\ocr-顶级产品追求的方向-乔布斯.md",
       "line": 72,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-萃取总结.md",
-      "line": 73,
-      "target": "yt-decision-product-launch",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-顶级产品追求的方向-乔布斯.md",
-      "line": 70,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\ocr-顶级产品追求的方向-乔布斯.md",
-      "line": 71,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\research_methodology.md",
-      "line": 71,
+      "line": 72,
       "target": "一堂调研行动营-ai辅助系统式调研方法论",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\truman-perspective-skill.md",
-      "line": 10,
-      "target": "一堂调研武器库13招",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\truman-perspective-skill.md",
-      "line": 11,
-      "target": "一堂-调研行动营启动_原文润色",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\truman-perspective-skill.md",
-      "line": 135,
-      "target": "一堂调研武器库13招",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\truman-perspective-skill.md",
-      "line": 137,
-      "target": "一堂-调研行动营启动_原文润色",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md",
       "line": 11,
       "target": "一堂调研武器库13招",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md",
-      "line": 163,
+      "source": "30_wiki\\concepts\\truman-perspective-skill.md",
+      "line": 12,
+      "target": "一堂-调研行动营启动_原文润色",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\truman-perspective-skill.md",
+      "line": 136,
       "target": "一堂调研武器库13招",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\yitang-course-map.md",
-      "line": 62,
+      "source": "30_wiki\\concepts\\truman-perspective-skill.md",
+      "line": 138,
+      "target": "一堂-调研行动营启动_原文润色",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md",
+      "line": 12,
+      "target": "一堂调研武器库13招",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md",
+      "line": 164,
       "target": "一堂调研武器库13招",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yitang-course-map.md",
       "line": 63,
+      "target": "一堂调研武器库13招",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\concepts\\yitang-course-map.md",
+      "line": 64,
       "target": "一堂调研行动营-ai辅助系统式调研方法论",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-case-mandatory-cases.md",
-      "line": 78,
+      "line": 79,
       "target": "一堂调研武器库13招",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-case-mandatory-cases.md",
-      "line": 80,
+      "line": 81,
       "target": "一堂调研行动营-ai辅助系统式调研方法论",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-ai-partner.md",
-      "line": 154,
+      "line": 148,
       "target": "human-in-the-loop-dss",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-ai-partner.md",
-      "line": 155,
+      "line": 149,
       "target": "explainable-ai-xai",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-ai-partner.md",
-      "line": 156,
+      "line": 150,
       "target": "distributed-cognition-hutchins",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-ai-partner.md",
-      "line": 157,
+      "line": 151,
       "target": "yt-growth-data-driven",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-ai-partner.md",
-      "line": 158,
+      "line": 152,
       "target": "yt-management-intelligent-ops",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-canvas.md",
-      "line": 214,
+      "line": 208,
       "target": "business-model-canvas-osterwalder",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-canvas.md",
-      "line": 215,
+      "line": 209,
       "target": "lean-canvas-maurya",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-canvas.md",
-      "line": 216,
+      "line": 210,
       "target": "empathy-map-design-thinking",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-canvas.md",
-      "line": 217,
+      "line": 211,
       "target": "yt-startup-business-plan",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-canvas.md",
-      "line": 218,
+      "line": 212,
       "target": "yt-growth-channel-canvas",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-consensus-iceberg.md",
-      "line": 336,
+      "line": 322,
       "target": "psychological-safety-edmondson",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-consensus-iceberg.md",
-      "line": 337,
+      "line": 323,
       "target": "nonviolent-communication-rosenberg",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-consensus-iceberg.md",
-      "line": 338,
+      "line": 324,
       "target": "facilitation-technology",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\yt-decision-consensus-iceberg.md",
-      "line": 339,
-      "target": "yt-management-meeting-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\yt-decision-depth-ladder.md",
-      "line": 489,
-      "target": "pirate-metrics-aarrr",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\yt-decision-depth-ladder.md",
-      "line": 491,
-      "target": "npv-irr-finance",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\yt-decision-depth-ladder.md",
-      "line": 493,
-      "target": "confidence-interval-statistics",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\yt-decision-depth-ladder.md",
-      "line": 495,
-      "target": "yt-growth-unit-economics",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\yt-decision-depth-ladder.md",
-      "line": 497,
-      "target": "yt-forecast-market-size",
-      "resolved": null
-    },
-    {
       "source": "30_wiki\\concepts\\yt-decision-full-process.md",
-      "line": 579,
+      "line": 565,
       "target": "pdca-deming",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-full-process.md",
-      "line": 580,
+      "line": 566,
       "target": "ooda-loop-boyd",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-full-process.md",
-      "line": 581,
+      "line": 567,
       "target": "design-thinking-ideo",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-full-process.md",
-      "line": 582,
+      "line": 568,
       "target": "yt-lean-startup-mvp",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-full-process.md",
-      "line": 583,
+      "line": 569,
       "target": "yt-growth-hacking-loop",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-habit-shift.md",
-      "line": 376,
+      "line": 362,
       "target": "thinking-fast-slow-kahneman",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-habit-shift.md",
-      "line": 377,
+      "line": 363,
       "target": "immunity-to-change-kegan",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-habit-shift.md",
-      "line": 378,
+      "line": 364,
       "target": "status-quo-bias-samuelson",
       "resolved": null
     },
     {
-      "source": "30_wiki\\concepts\\yt-decision-habit-shift.md",
-      "line": 379,
-      "target": "yt-management-team-building",
-      "resolved": null
-    },
-    {
       "source": "30_wiki\\concepts\\yt-decision-height-toolkit.md",
-      "line": 259,
+      "line": 250,
       "target": "second-curve-handy",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-height-toolkit.md",
-      "line": 260,
+      "line": 251,
       "target": "blue-ocean-strategy",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-height-toolkit.md",
-      "line": 261,
+      "line": 252,
       "target": "porter-five-forces",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-height-toolkit.md",
-      "line": 262,
+      "line": 253,
       "target": "yt-forecast-timing-window",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-height-toolkit.md",
-      "line": 263,
+      "line": 254,
       "target": "yt-startup-strategic-choice",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-review.md",
-      "line": 180,
+      "line": 173,
       "target": "after-action-review-aar",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-review.md",
-      "line": 181,
+      "line": 174,
       "target": "double-loop-learning-argyris",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-review.md",
-      "line": 182,
+      "line": 175,
       "target": "seci-model-nonaka",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-review.md",
-      "line": 183,
+      "line": 176,
       "target": "yt-growth-data-analysis",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-review.md",
-      "line": 184,
+      "line": 177,
       "target": "yt-management-performance-review",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-width-method.md",
-      "line": 597,
+      "line": 576,
       "target": "checklist-manifesto-gawande",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-width-method.md",
-      "line": 598,
+      "line": 577,
       "target": "tco-total-cost-ownership",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-width-method.md",
-      "line": 599,
+      "line": 578,
       "target": "yt-growth-channel-evaluation",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-decision-width-method.md",
-      "line": 600,
+      "line": 579,
       "target": "yt-startup-mvp-costing",
       "resolved": null
     },
@@ -1588,37 +1216,31 @@
     },
     {
       "source": "30_wiki\\concepts\\yt-unit-model-ai-assisted.md",
-      "line": 170,
-      "target": "yt-decision-ai-innovation",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\concepts\\yt-unit-model-ai-assisted.md",
-      "line": 171,
+      "line": 164,
       "target": "yt-decision-system1-system2",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-unit-model-benchmark.md",
-      "line": 183,
+      "line": 176,
       "target": "yt-decision-forecasting-accuracy",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-unit-model-benchmark.md",
-      "line": 184,
+      "line": 177,
       "target": "yt-decision-heuristics-biases",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-unit-model-dynamic.md",
-      "line": 171,
+      "line": 164,
       "target": "yt-decision-forecasting-accuracy",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\yt-unit-model-dynamic.md",
-      "line": 172,
+      "line": 165,
       "target": "yt-decision-system1-system2",
       "resolved": null
     },
@@ -1630,847 +1252,703 @@
     },
     {
       "source": "30_wiki\\concepts\\yt-unit-model-selection.md",
-      "line": 181,
+      "line": 174,
       "target": "yt-decision-key-hypotheses",
       "resolved": null
     },
     {
       "source": "30_wiki\\concepts\\人机协作决策-双三角模型.md",
-      "line": 97,
+      "line": 92,
       "target": "system-thinking-senge",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 52,
-      "target": "用户视角",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 52,
-      "target": "需求工具箱 Hub",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
       "line": 53,
-      "target": "用户分层",
+      "target": "用户视角",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 54,
-      "target": "场景推演",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 55,
-      "target": "动机阻力",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 57,
-      "target": "内核边界",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 57,
-      "target": "落地工具箱 Hub",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 58,
-      "target": "逻辑MECE",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 59,
-      "target": "管理三段论",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 98,
-      "target": "泛产品设计方法论 Hub",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 99,
+      "line": 53,
       "target": "需求工具箱 Hub",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 100,
-      "target": "审美工具箱 Hub",
+      "line": 54,
+      "target": "用户分层",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 101,
+      "line": 55,
+      "target": "场景推演",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
+      "line": 56,
+      "target": "动机阻力",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
+      "line": 58,
+      "target": "内核边界",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
+      "line": 58,
       "target": "落地工具箱 Hub",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
+      "line": 59,
+      "target": "逻辑MECE",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
+      "line": 60,
+      "target": "管理三段论",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
+      "line": 99,
+      "target": "泛产品设计方法论 Hub",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
+      "line": 100,
+      "target": "需求工具箱 Hub",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
+      "line": 101,
+      "target": "审美工具箱 Hub",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
       "line": 102,
+      "target": "落地工具箱 Hub",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
+      "line": 103,
       "target": "一堂五步法 Hub",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 103,
+      "line": 104,
       "target": "SPIN销售法 Hub",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 104,
+      "line": 105,
       "target": "Y模型实操 Hub",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 105,
+      "line": 106,
       "target": "科学学习IPO Hub",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 106,
+      "line": 107,
       "target": "调研方法论 Hub",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 107,
+      "line": 108,
       "target": "知识萃取方法论 Hub",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 108,
+      "line": 109,
       "target": "思维模型提炼 Hub",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 109,
+      "line": 110,
       "target": "个人成长地图 Hub",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 110,
+      "line": 111,
       "target": "转化率优化 Hub",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 111,
+      "line": 112,
       "target": "婚礼项目管理 Hub",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 130,
+      "line": 131,
       "target": "概念卡 A",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
-      "line": 131,
+      "line": 132,
       "target": "概念卡 B",
       "resolved": null
     },
     {
       "source": "30_wiki\\decisions\\plan_20260503_f3e9a2b1-improvement-plan.md",
-      "line": 113,
+      "line": 114,
       "target": "plan_20260503_f3e9a2b1",
       "resolved": null
     },
     {
       "source": "30_wiki\\entities\\Kimi-月之暗面.md",
-      "line": 17,
+      "line": 18,
       "target": "一堂调研行动营-ai辅助系统式调研方法论",
       "resolved": null
     },
     {
-      "source": "30_wiki\\frameworks\\yt-decision-abcd-model.md",
-      "line": 280,
-      "target": "yt-decision-depth-method",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\frameworks\\yt-decision-abcd-model.md",
-      "line": 282,
-      "target": "yt-decision-height-method",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\frameworks\\yt-decision-abcd-model.md",
-      "line": 284,
-      "target": "yt-decision-consensus-curve",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\frameworks\\yt-decision-abcd-model.md",
-      "line": 286,
-      "target": "yt-decision-roi-practice",
-      "resolved": null
-    },
-    {
       "source": "30_wiki\\links\\index.md",
-      "line": 3,
+      "line": 12,
       "target": "wikilink",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 45,
+      "line": 54,
       "target": "after-action-review-aar",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 48,
-      "target": "ai-prompt-engineering",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 51,
+      "line": 60,
       "target": "blue-ocean-strategy",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 54,
+      "line": 63,
       "target": "business-model-canvas-osterwalder",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 66,
+      "line": 75,
       "target": "checklist-manifesto-gawande",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 69,
+      "line": 78,
       "target": "confidence-interval-statistics",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 72,
+      "line": 81,
       "target": "design-thinking-ideo",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 75,
+      "line": 84,
       "target": "distributed-cognition-hutchins",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 78,
+      "line": 87,
       "target": "double-loop-learning-argyris",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 84,
+      "line": 93,
       "target": "empathy-map-design-thinking",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 87,
+      "line": 96,
       "target": "explainable-ai-xai",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 90,
+      "line": 99,
       "target": "facilitation-technology",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 100,
+      "line": 109,
       "target": "human-in-the-loop-dss",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 103,
+      "line": 112,
       "target": "immunity-to-change-kegan",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 111,
+      "line": 120,
       "target": "jtbd-framework",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 150,
+      "line": 159,
       "target": "lean-canvas-maurya",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 226,
+      "line": 235,
       "target": "nonviolent-communication-rosenberg",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 229,
+      "line": 238,
       "target": "npv-irr-finance",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 239,
+      "line": 248,
       "target": "ooda-loop-boyd",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 246,
+      "line": 255,
       "target": "pdca-deming",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 249,
+      "line": 258,
       "target": "pirate-metrics-aarrr",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 252,
+      "line": 261,
       "target": "porter-five-forces",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 255,
+      "line": 264,
       "target": "psychological-safety-edmondson",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 258,
+      "line": 267,
       "target": "seci-model-nonaka",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 261,
+      "line": 270,
       "target": "second-curve-handy",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 264,
+      "line": 273,
       "target": "status-quo-bias-samuelson",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 267,
+      "line": 276,
       "target": "system-thinking-senge",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 271,
+      "line": 280,
       "target": "tco-total-cost-ownership",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 274,
+      "line": 283,
       "target": "thinking-fast-slow-kahneman",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 470,
+      "line": 479,
       "target": "yt-decision-aesthetic-practice",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 477,
-      "target": "yt-decision-ai-innovation",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 491,
-      "target": "yt-decision-ai-triangle",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 494,
+      "line": 503,
       "target": "yt-decision-assumption-hypothesis",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 537,
+      "line": 546,
       "target": "yt-decision-capability-map",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 548,
-      "target": "yt-decision-career-ladder",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 551,
-      "target": "yt-decision-career-path",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 554,
-      "target": "yt-decision-consensus-curve",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 564,
+      "line": 573,
       "target": "yt-decision-conversion-funnel",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 568,
+      "line": 577,
       "target": "yt-decision-course-structure",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 574,
-      "target": "yt-decision-deliberate-practice",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 607,
-      "target": "yt-decision-depth-method",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 610,
+      "line": 619,
       "target": "yt-decision-design-philosophy",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 616,
+      "line": 625,
       "target": "yt-decision-expressive-rocket",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 620,
+      "line": 629,
       "target": "yt-decision-expressive-weapon",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 623,
+      "line": 632,
       "target": "yt-decision-forecasting-accuracy",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 648,
-      "target": "yt-decision-height-method",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 659,
+      "line": 668,
       "target": "yt-decision-heuristics-biases",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 662,
+      "line": 671,
       "target": "yt-decision-key-hypotheses",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 670,
-      "target": "yt-decision-learning-path",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 676,
+      "line": 685,
       "target": "yt-decision-motivation-curve",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 679,
+      "line": 688,
       "target": "yt-decision-ocr-quality",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 685,
-      "target": "yt-decision-pan-product-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 712,
+      "line": 721,
       "target": "yt-decision-portfolio-career",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 715,
+      "line": 724,
       "target": "yt-decision-product-innovation",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 728,
+      "line": 737,
       "target": "yt-decision-product-launch",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 773,
+      "line": 782,
       "target": "yt-decision-project-management",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 795,
-      "target": "yt-decision-question-canvas",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 799,
+      "line": 808,
       "target": "yt-decision-red-team-blue-team",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 809,
-      "target": "yt-decision-roi-practice",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 812,
+      "line": 821,
       "target": "yt-decision-scarcity-resources",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 815,
+      "line": 824,
       "target": "yt-decision-scarcity-window",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 818,
+      "line": 827,
       "target": "yt-decision-scientific-learning-ipo",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 823,
-      "target": "yt-decision-scientific-method",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 826,
-      "target": "yt-decision-skill-progression",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 837,
-      "target": "yt-decision-storytelling",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 840,
+      "line": 849,
       "target": "yt-decision-system1-system2",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 844,
-      "target": "yt-decision-ten-finger-model",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 849,
+      "line": 858,
       "target": "yt-decision-touchpoint-10waste",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 852,
+      "line": 861,
       "target": "yt-decision-user-insight",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 855,
+      "line": 864,
       "target": "yt-decision-user-research",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 870,
+      "line": 879,
       "target": "yt-decision-visual-analysis",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 1061,
-      "target": "yt-entrepreneur-life-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 1142,
+      "line": 1151,
       "target": "yt-forecast-market-size",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 1145,
+      "line": 1154,
       "target": "yt-forecast-timing-window",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 1148,
+      "line": 1157,
       "target": "yt-forecast-trend-signal",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 1151,
+      "line": 1160,
       "target": "yt-growth-channel-canvas",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 1154,
+      "line": 1163,
       "target": "yt-growth-channel-evaluation",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 1157,
+      "line": 1166,
       "target": "yt-growth-channel-roi",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 1160,
+      "line": 1169,
       "target": "yt-growth-data-analysis",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 1163,
+      "line": 1172,
       "target": "yt-growth-data-driven",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 1166,
+      "line": 1175,
       "target": "yt-growth-hacking-loop",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 1169,
+      "line": 1178,
       "target": "yt-growth-unit-economics",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 1172,
+      "line": 1181,
       "target": "yt-lean-startup-mvp",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 1246,
+      "line": 1255,
       "target": "yt-management-intelligent-ops",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 1255,
-      "target": "yt-management-meeting-design",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 1272,
+      "line": 1281,
       "target": "yt-management-performance-review",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 1336,
-      "target": "yt-management-team-building",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\links\\index.md",
-      "line": 2376,
+      "line": 2385,
       "target": "yt-startup-business-plan",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 2379,
+      "line": 2388,
       "target": "yt-startup-mvp-cost",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 2382,
+      "line": 2391,
       "target": "yt-startup-mvp-costing",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 2385,
+      "line": 2394,
       "target": "yt-startup-strategic-choice",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 2639,
+      "line": 2648,
       "target": "一堂-调研行动营启动_原文润色",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 2689,
+      "line": 2698,
       "target": "一堂调研武器库13招",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 2699,
+      "line": 2708,
       "target": "一堂调研武器库课程原文润色",
       "resolved": null
     },
     {
       "source": "30_wiki\\links\\index.md",
-      "line": 2702,
+      "line": 2711,
       "target": "一堂调研行动营-ai辅助系统式调研方法论",
       "resolved": null
     },
     {
       "source": "30_wiki\\log.md",
-      "line": 186,
+      "line": 195,
       "target": "Obsidian Git Multi-Device Sync Protocol",
       "resolved": null
     },
     {
       "source": "30_wiki\\systems\\一堂方法论体系总图.md",
-      "line": 14,
-      "target": "一堂调研行动营-ai辅助系统式调研方法论",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\systems\\一堂方法论体系总图.md",
       "line": 15,
-      "target": "一堂调研武器库13招",
+      "target": "一堂调研行动营-ai辅助系统式调研方法论",
       "resolved": null
     },
     {
       "source": "30_wiki\\systems\\一堂方法论体系总图.md",
-      "line": 355,
-      "target": "一堂调研行动营-ai辅助系统式调研方法论",
+      "line": 16,
+      "target": "一堂调研武器库13招",
       "resolved": null
     },
     {
       "source": "30_wiki\\systems\\一堂方法论体系总图.md",
       "line": 356,
-      "target": "一堂调研武器库13招",
+      "target": "一堂调研行动营-ai辅助系统式调研方法论",
       "resolved": null
     },
     {
       "source": "30_wiki\\systems\\一堂方法论体系总图.md",
       "line": 357,
-      "target": "一堂调研武器库课程原文润色",
+      "target": "一堂调研武器库13招",
       "resolved": null
     },
     {
       "source": "30_wiki\\systems\\一堂方法论体系总图.md",
       "line": 358,
+      "target": "一堂调研武器库课程原文润色",
+      "resolved": null
+    },
+    {
+      "source": "30_wiki\\systems\\一堂方法论体系总图.md",
+      "line": 359,
       "target": "一堂-调研行动营启动_原文润色",
       "resolved": null
     },
     {
       "source": "30_wiki\\systems\\一堂方法论体系总图.md",
-      "line": 719,
+      "line": 720,
       "target": "一堂调研武器库13招",
       "resolved": null
     },
     {
       "source": "30_wiki\\systems\\一堂方法论体系总图.md",
-      "line": 721,
+      "line": 722,
       "target": "一堂-调研行动营启动_原文润色",
       "resolved": null
     },
     {
       "source": "30_wiki\\systems\\一堂方法论体系总图.md",
-      "line": 767,
+      "line": 768,
       "target": "一堂调研武器库13招",
       "resolved": null
     },
     {
       "source": "30_wiki\\systems\\一堂方法论体系总图.md",
-      "line": 769,
+      "line": 770,
       "target": "一堂-调研行动营启动_原文润色",
       "resolved": null
     },
     {
       "source": "30_wiki\\systems\\一堂方法论体系总图.md",
-      "line": 845,
+      "line": 846,
       "target": "一堂调研行动营-ai辅助系统式调研方法论",
       "resolved": null
     },
@@ -2478,12 +1956,6 @@
       "source": "30_wiki\\tools\\yt-tool-strategy-workshop.md",
       "line": 333,
       "target": "yt-decision-red-team-blue-team",
-      "resolved": null
-    },
-    {
-      "source": "30_wiki\\tools\\yt-tool-unit-model-ai-assisted.md",
-      "line": 76,
-      "target": "ai-prompt-engineering",
       "resolved": null
     }
   ],

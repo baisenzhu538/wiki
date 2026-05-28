@@ -1,6 +1,6 @@
 # Sprint 4 数据卫生 — 黄药师观察与等待指令
 
-> 2026-05-28，黄药师，等待欧阳锋审查
+> 2026-05-28，黄药师，S4-1/S4-2/S4-3 全部完成，等待欧阳锋审查
 
 ---
 
@@ -80,42 +80,39 @@ OCR 文件中文件名含乱码 CJK 字符。例如 `[[һ�õ������
 | 2 | `yt-decision-consensus-iceberg.md` | `yt-management-meeting-design` → `yt-management-scientific-decision` | 339 | ✅ |
 | 3 | `yt-decision-habit-shift.md` | `yt-management-team-building` → `yt-management-team-knowledge` | 379 | ✅ |
 
-### Step 3 ⏸️ 等待试点审查通过后，批量修复余下 54 个文件（80 条可修复链接）
+### Step 3 ✅ 批量修复完成（2026-05-28）
+
+54 个文件、80 条可修复链接已全部替换。脚本：`90_control/s4_fix_broken_links.py`
+
+验证扫描：可修复 A 类 83→0，剩余 B+C 类 325 条（目标不存在/编码乱码）。
 
 ---
 
-## 四、S4-2：frontmatter 缺失详情（245 张卡）
+## 四、S4-2：frontmatter 补全 ✅ 已完成（2026-05-28）
 
-**扫描脚本**：`90_control/s4_scan_frontmatter.py`
-**输出**：`90_control/s4-frontmatter-missing.json`
+**修复脚本**：`90_control/s4_fix_frontmatter.py`
 
-| 问题类型 | 数量 | 说明 |
-|----------|:----:|------|
-| 缺 `id` 字段 | 240 | 占绝大多数，可自动从文件名 stem 生成 |
-| 无 frontmatter 块 | 5 | 需补完整 frontmatter 骨架 |
-| 缺 `type` 字段 | 3 | 均可推断为 `concept` |
-| 缺 `status` 字段 | 1 | 可根据内容推断（有 Critique+Synthesis → enriched / 缺 → draft） |
+| 问题类型 | 修复前 | 修复后 |
+|----------|:------:|:------:|
+| 缺 `id` 字段 | 240 | 0 |
+| 无 frontmatter 块 | 5 | 0 |
+| 缺 `type` 字段 | 3 | 0 |
+| 缺 `status` 字段 | 1 | 0 |
 
-**修复策略**：
-- `id`：从文件名 slug 生成，不覆盖已有正确 id
-- `type`：从文件名前缀推断（ocr- → concept，默认 concept）
-- `status`：基于内容检测（有 Critique+Synthesis → enriched）
-- 无 frontmatter 的 5 张卡先补完整骨架
-- `--dry-run` 先预览，确认无误再写入
+验证扫描：0 cards with any issue。
 
 ---
 
-## 五、S4-3：新旧格式并存详情（134 张卡）
+## 五、S4-3：新旧格式统一 ✅ 已完成（2026-05-28）
 
-**扫描脚本**：`90_control/s4_scan_mixed_format.py`
-**输出**：`90_control/s4-mixed-format.json`
+**修复脚本**：`90_control/s4_fix_mixed_format.py`
 
-| 类型 | 数量 | 处理方式 |
-|------|:----:|------|
-| 新旧并存（`## Critique` + `## Constraints & Boundaries`） | 130 | 删除旧格式空节/迁移内容后删除 |
-| 纯旧格式（仅 `## Constraints & Boundaries`，无 `## Critique`） | 4 | 重命名为 `## Critique` |
+| 类型 | 修复前 | 修复后 |
+|------|:------:|:------:|
+| 新旧并存 | 130 | 0 |
+| 纯旧格式 | 4 | 0 |
 
-**注意**：旧节 `## Constraints & Boundaries` 在有实质内容但新节为空时 → 内容迁移，不简单删除。
+验证扫描：0 mixed format, 0 old only。`## Constraints & Boundaries` 全 vault 零残留。
 
 ---
 
@@ -157,8 +154,11 @@ OCR 文件中文件名含乱码 CJK 字符。例如 `[[һ�õ������
 |------|------|
 | `90_control/s4_scan_broken_links.py` | 断链扫描脚本 V2 |
 | `90_control/s4_analyze_broken.py` | 断链分类分析脚本 |
-| `90_control/s4-broken-links.json` | 全量断链数据（413 条 + 分类） |
+| `90_control/s4-broken-links.json` | 全量断链数据 |
 | `90_control/s4-fixable-links.txt` | 可修复链接清单 |
+| `90_control/s4_fix_broken_links.py` | **S4-1 修复脚本**（54文件/80链接） |
+| `90_control/s4_fix_frontmatter.py` | **S4-2 修复脚本**（245张卡） |
+| `90_control/s4_fix_mixed_format.py` | **S4-3 修复脚本**（134张卡） |
 
 ---
 

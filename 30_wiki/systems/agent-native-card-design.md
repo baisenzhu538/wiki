@@ -138,7 +138,7 @@ estimated_tokens: 2500                      # 估算 token 数，帮助 agent �
 | 视觉锚点 | ... |
 | 隐含假设 | ... |
 
-## Constraints & Boundaries
+## Critique
 <!-- 什么时候不适用 -->
 - claim:boundary-01 [conf=0.7] 本方法论适用于 B2C 产品设计，B2B 场景需额外考虑采购决策链
 - claim:boundary-02 [conf=0.8] 假设产品已过 PMF 阶段，不适用于 0-1 探索期

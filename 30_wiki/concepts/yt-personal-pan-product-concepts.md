@@ -87,12 +87,6 @@ reviewed_by: 黄药师
 2. **永远以最佳实践为追求** → [[yt-model-pan-product-aesthetic-toolkit]]
 3. **永远以无限进步为迭代** → [[yt-model-pan-product-execution-toolkit]]
 
-## Constraints & Boundaries
-
-- claim:boundary-01 [conf=0.80] **"泛"的边界未清晰定义**：Truman 强调不把自己锁定在某一领域，但"泛"到什么程度算泛？如果一个人同时做课程设计+婚礼设计+App设计，每个都60分，在市场上如何定价？泛产品能力的市场价值锚点待验证。
-
-- claim:boundary-02 [conf=0.80] **四阶段路径的环境依赖性**：Truman 的泛化之路严重依赖大厂训练（S1）、创业自由（S2-S3）、以及有一堂这个试验场（S4）。普通人缺乏这些环境，泛化路径是否有替代方案？
-
 ## Critique
 
 ### 外部攻击
