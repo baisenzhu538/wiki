@@ -54,6 +54,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[after-action-review-aar]]
 - [[30_wiki\concepts\yt-decision-review.md]]
 
+## [[aigc设计基础01ai生图原理与提示词基本功]]
+- [[30_wiki\concepts\aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md]]
+
+## [[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]
+- [[30_wiki\concepts\aigc文创案例设计课leo文创ip从0到1全流程.md]]
+
 ## [[ai时代判断力口述-3]]
 - [[30_wiki\concepts\ai单元模型口述蒋老师.md]]
 
@@ -74,6 +80,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[checklist-manifesto-gawande]]
 - [[30_wiki\concepts\yt-decision-width-method.md]]
+
+## [[design-ai-image-generation]]
+- [[30_wiki\concepts\aigc设计基础01ai生图原理与提示词基本功.md]]
 
 ## [[design-thinking-ideo]]
 - [[30_wiki\concepts\yt-decision-full-process.md]]
@@ -137,6 +146,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[kdo-protocol-implementation-roadmap]]
 - [[30_wiki\systems\obsidian-git-sync-protocol.md]]
+
+## [[kdo_product_design_agent_final]]
+- [[30_wiki\concepts\aigc设计基础01ai生图原理与提示词基本功.md]]
 
 ## [[kimi-深度调研集群方法论-deep-research-swarm]]
 - [[30_wiki\concepts\business-research-skill-oscar-13-weapon-system.md]]
@@ -1875,6 +1887,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\entities\一堂.md]]
 
 ## [[yt-panproduct-execution-design-principles]]
+- [[30_wiki\concepts\aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md]]
 - [[30_wiki\concepts\yt-panproduct-execution-realistic-simulation.md]]
 
 ## [[yt-panproduct-execution-design-principles|设计原则]]
@@ -2221,6 +2234,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
 
 ## [[yt-pitch-storytelling]]
+- [[30_wiki\concepts\aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md]]
 - [[30_wiki\concepts\ocr-一堂-个人修炼-表达力火箭模型.md]]
 - [[30_wiki\concepts\yt-model-personal-pitch-toolkit.md]]
 
@@ -2504,6 +2518,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\tools\yt-tool-unit-model-dynamic.md]]
 
 ## [[yt-unit-model-overview]]
+- [[30_wiki\concepts\aigc设计基础01ai生图原理与提示词基本功.md]]
 - [[30_wiki\concepts\ai单元模型口述蒋老师.md]]
 - [[30_wiki\concepts\yt-unit-model-ai-assisted.md]]
 - [[30_wiki\concepts\yt-unit-model-ladder.md]]

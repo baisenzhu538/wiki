@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-05-28T14:55:38+00:00_
+_Last updated: 2026-05-28T14:59:12+00:00_
 
 - [[concepts/2026-05-17-深夜感想.md|2026-05-17 深夜感想]] — source `src_20260522_390d75a8`
 - [[concepts/ai-native-五层进阶从答案到效率到作品到产品到系统.md|“AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统”]] — source `[`
@@ -9,6 +9,9 @@ _Last updated: 2026-05-28T14:55:38+00:00_
 - [[concepts/aigc设计基础01ai生图原理与提示词基本功.md|AIGC设计基础01：AI生图原理与提示词基本功]] — source `src_20260528_2ba8539f`
 - [[concepts/aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md|AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程]] — source `src_20260528_04be660c`
 - [[concepts/aima-ai思维卡-外部链接归档.md|AIMA AI思维卡 — 外部链接归档]] — source `src_20260522_a8e05d98`
+- [[concepts/aigc设计基础01ai生图原理与提示词基本功.md|AIGC设计基础01：AI生图原理与提示词基本功]] — source `src_20260528_2ba8539f`
+- [[concepts/aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md|AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程]] — source `src_20260528_04be660c`
+- [[concepts/aigc文创案例设计课leo文创ip从0到1全流程.md|AIGC文创案例设计课：Leo文创IP从0到1全流程]] — source `src_20260528_4277c6be`
 - [[concepts/ai单元模型口述蒋老师.md|AI+单元模型口述（蒋老师/磊哥）]] — source `src_20260525_92ea6173`
 - [[concepts/ai时代判断力口述-2.md|AI时代判断力口述]] — source `src_20260525_6748cc27`
 - [[concepts/ai时代判断力口述-3.md|AI时代判断力口述（国帅）]] — source `src_20260525_66059442`

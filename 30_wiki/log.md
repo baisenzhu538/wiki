@@ -11,6 +11,8 @@ updated_at:
 
 Chronological record of knowledge operations.
 
+- 2026-05-28T14:55:38+00:00 - Ingested 3 AIGC design course oral transcripts from `00_inbox/design/` → `src_20260528_2ba8539f` / `src_20260528_04be660c` / `src_20260528_4277c6be`
+  - Produced 3 concept cards: `aigc设计基础01ai生图原理与提示词基本功`, `aigc设计师实操培训01口喷设计范式与电商ai设计全流程`, `aigc文创案例设计课leo文创ip从0到1全流程`
 - 2026-04-26T18:17:11+00:00 - Ingested `src_20260427_970eb338` from 00_inbox/街顺APP全面调研报告.md
 
 - 2026-04-26T18:40:09+00:00 - Produced `art_20260427_16a7c4d7`: 40_outputs/content/articles/art_20260427_16a7c4d7-街顺-零融资saas的生存逻辑.md
@@ -1514,3 +1516,5 @@ Chronological record of knowledge operations.
 - 2026-05-28T14:55:38+00:00 - Ingested `src_20260528_4277c6be` from 00_inbox/design/AI设计-文创案例设计课口述.md
 
 - 2026-05-28T14:55:40+00:00 - Self-check: 36 auto-feedback record(s) created
+
+- 2026-05-28T14:59:13+00:00 - Self-check: 11 auto-feedback record(s) created
