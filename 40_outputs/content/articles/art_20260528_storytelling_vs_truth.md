@@ -1,7 +1,7 @@
 ---
 id: art_20260528_storytelling_vs_truth
 title: "故事比道理管用十倍，但它可能正在操纵你"
-author: 老顿童
+author: 老顽童
 domain: personal
 language: zh-CN
 version: 1

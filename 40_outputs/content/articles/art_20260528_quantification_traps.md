@@ -1,7 +1,7 @@
 ---
 id: art_20260528_quantification_traps
-title: "用真数字说出真谎言？你以为的确冴，可能只是精心设计的统计操纵"
-author: 老顿童
+title: "用真数字说出真谎言？你以为的确凿，可能只是精心设计的统计操纵"
+author: 老顽童
 domain: personal
 language: zh-CN
 version: 1
@@ -15,7 +15,7 @@ source_refs:
 estimated_tokens: 2800
 ---
 
-# 用真数字说出真谎言？你以为的确冴，可能只是精心设计的统计操纵
+# 用真数字说出真谎言？你以为的确凿，可能只是精心设计的统计操纵
 
 > 一家装修公司只服务了8个客户。这个数字说出去，业务就完了。
 >
