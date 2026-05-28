@@ -7,6 +7,7 @@ source_refs: []
 created_at: "2026-05-07"
 updated_at: "2026-05-07"
 related:
+id: paddleocr-skill
   - "[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]"
   - "[[tinyfish-agentic-web-infrastructure]]"
   - "[[kdo-protocol]]"

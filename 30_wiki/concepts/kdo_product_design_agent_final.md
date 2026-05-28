@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260503_52ae08ba"]
 created_at: "2026-05-03T13:36:55+00:00"
 updated_at: "2026-05-03T13:36:55+00:00"
+id: kdo_product_design_agent_final
 ---
 
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)

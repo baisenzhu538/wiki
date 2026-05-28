@@ -7,6 +7,8 @@ updated_at: "2026-05-04"
 status: stable
 implementor: "黄药师 (Builder)"
 dependencies:
+id: graph-rag-retrieval-layer
+type: concept
   - "LightRAG 库（pip install lightrag）"
   - ".kdo/graph_index/（LightRAG 产出物）"
 superseded_design: "v0.1 keyword-based — 原计划基于 index.json 的纯标准库方案，因黄药师已完成 LightRAG MVP 且检索质量更优，该方案已废弃"

@@ -8,6 +8,7 @@ url: "https://www.ycombinator.com"
 location: "Mountain View, California, USA"
 founded_at: "2005-03-01"
 source_refs:
+id: YC-Y-Combinator
   - "src_20260430_8cc84e5b"
 created_at: "2026-05-03"
 updated_at: "2026-05-03"

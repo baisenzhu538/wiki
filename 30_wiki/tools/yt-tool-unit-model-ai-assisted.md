@@ -8,6 +8,7 @@ source_refs: []
 author: "一堂科学决策课程"
 component_of: "yt-decision-full-process"
 related:
+id: yt-tool-unit-model-ai-assisted
   - "yt-unit-model-overview"
   - "yt-unit-model-ladder"
   - "yt-unit-model-construction"
@@ -73,7 +74,7 @@ Neil Postman (1985) 在*Amusing Ourselves to Death* 中提出，技术不仅改�
 - [[yt-unit-model-ladder]] — AI可以加速L3→L4→L6的进阶，但L1→L3的跳跃必须人工完成
 - [[yt-unit-model-construction]] — AI可以辅助"拆推评算"中的列清单和推算阶段
 - [[yt-management-scientific-decision]] — 科学决策要求"基于数据而非拍脑袋"，AI助手是实现这一原则的工具
-- [[ai-prompt-engineering]] — 和平台性的提示词工程技能形成补充，但单元模型的提示词需要结合商业上下文
+- [[yt-model-prompt-engineering]] — 和平台性的提示词工程技能形成补充，但单元模型的提示词需要结合商业上下文
 
 ### 可迁移场景
 

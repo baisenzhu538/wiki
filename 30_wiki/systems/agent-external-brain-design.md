@@ -6,6 +6,7 @@ domain: master
 created_at: 2026-05-16
 source_refs: ["project-continuity.md", "corrections.md", "operating-principles.md"]
 tags:
+id: agent-external-brain-design
   - agent-memory
   - context-management
   - token-efficiency

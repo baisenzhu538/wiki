@@ -9,6 +9,7 @@ updated_at: "2026-05-04T00:00:00+00:00"
 trust_level: "medium"
 reviewed_by: "黄药师"
 review_date: "2026-05-04"
+id: yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
 ---
 
 # YC 放出一套「AI-NATIVE 公司」组织方法论

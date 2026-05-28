@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_e70d298c"]
 created_at: "2026-05-21T20:13:55+00:00"
 updated_at: "2026-05-22T07:17:31+00:00"
+id: ocr-一堂-科学决策-深度-案例06
 ---
 
 

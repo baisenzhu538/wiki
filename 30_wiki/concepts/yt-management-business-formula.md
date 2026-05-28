@@ -3,6 +3,7 @@ title: 业务公式
 type: concept
 status: enriched
 domain:
+id: yt-management-business-formula
   - yitang
 yitang:
   map: management

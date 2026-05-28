@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_45957066"]
 created_at: "2026-05-21T20:13:54+00:00"
 updated_at: "2026-05-22T07:11:46+00:00"
+id: ocr-一堂-科学决策-宽度-个人
 ---
 
 
@@ -68,7 +69,7 @@ Pye 在《设计的本质》中论证，真正的审美判断是“不可编码�
 ### 与本库其他概念的关联
 
 - [[yt-decision-width-method]] — 宽度决策方法，个人篇是其在个人层面的具体展开
-- [[yt-entrepreneur-life-design]] — 生活设计，与个人盲区分析互补
+- [[yt-entrepreneur-fundraising]] — 生活设计，与个人盲区分析互补
 - [[master-decision-hygiene]] — 通用决策卫生，提醒人生决策中非财务因素的重要性
 
 ### 可迁移场景

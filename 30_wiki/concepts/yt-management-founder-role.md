@@ -3,6 +3,7 @@ title: 一号位
 type: concept
 status: enriched
 domain:
+id: yt-management-founder-role
   - yitang
 yitang:
   map: management

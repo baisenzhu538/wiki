@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_e139c9e9"]
 created_at: "2026-05-21T20:13:52+00:00"
 updated_at: "2026-05-22T06:56:32+00:00"
+id: ocr-一堂-个人修炼-科学学习ipo完整清单
 ---
 
 
@@ -74,7 +75,7 @@ Benedict Carey 在《如何学习》中证明：有效的学习往往是"混乱"
 ### 与本库其他概念的关联
 
 - [[yt-decision-scientific-learning-ipo]] — 科学学习IPO模型的概念版本
-- [[yt-decision-deliberate-practice]] — 刻意练习是清单中"复盘反思"阶段的理论基础
+- [[yt-personal-deliberate-practice]] — 刻意练习是清单中"复盘反思"阶段的理论基础
 
 ### 可迁移场景
 

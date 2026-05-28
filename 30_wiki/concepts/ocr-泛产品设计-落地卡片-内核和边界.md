@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_f3072399"]
 created_at: "2026-05-21T20:13:59+00:00"
 updated_at: "2026-05-22T07:43:16+00:00"
+id: ocr-泛产品设计-落地卡片-内核和边界
 ---
 
 

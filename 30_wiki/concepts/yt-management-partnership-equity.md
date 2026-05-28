@@ -11,6 +11,7 @@ yitang:
   level: foundational
   series: false
 source_refs:
+id: yt-management-partnership-equity
   - 10_raw/sources/一堂-课程地图精华串讲.md
 created_at: "2026-05-06"
 updated_at: '2026-05-19'

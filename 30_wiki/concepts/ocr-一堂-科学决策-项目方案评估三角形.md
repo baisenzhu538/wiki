@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_e31b26dd"]
 created_at: "2026-05-21T20:13:56+00:00"
 updated_at: "2026-05-22T07:18:35+00:00"
+id: ocr-一堂-科学决策-项目方案评估三角形
 ---
 
 

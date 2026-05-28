@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260503_5c91e867"]
 created_at: "2026-05-03T13:36:55+00:00"
 updated_at: "2026-05-03T13:36:55+00:00"
+id: 轻量级诊所HIS调研全清单
 ---
 
 # 轻量级诊所HIS调研全清单

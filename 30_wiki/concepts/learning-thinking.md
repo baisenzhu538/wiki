@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_0af1f6dd"]
 created_at: "2026-05-21T20:14:01+00:00"
 updated_at: "2026-05-22T06:48:15+00:00"
+id: learning-thinking
 ---
 
 

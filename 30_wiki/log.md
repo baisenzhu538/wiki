@@ -1,3 +1,12 @@
+---
+id: log
+type: concept
+status: draft
+title: 
+created_at: 
+updated_at: 
+---
+
 # Wiki Log
 
 Chronological record of knowledge operations.

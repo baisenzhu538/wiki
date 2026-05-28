@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_a632cc1c"]
 created_at: "2026-05-21T20:13:58+00:00"
 updated_at: "2026-05-22T07:37:14+00:00"
+id: ocr-泛产品设计-用户卡片-一堂五步法
 ---
 
 

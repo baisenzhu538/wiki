@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_b4ebba42"]
 created_at: "2026-05-21T20:13:54+00:00"
 updated_at: "2026-05-22T07:12:14+00:00"
+id: ocr-一堂-科学决策-宽度-企业
 ---
 
 

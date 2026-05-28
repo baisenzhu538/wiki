@@ -3,6 +3,7 @@ title: 新人落地
 type: concept
 status: enriched
 domain:
+id: yt-management-onboarding
   - yitang
 yitang:
   map: management

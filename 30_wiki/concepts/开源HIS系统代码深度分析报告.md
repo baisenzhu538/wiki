@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260503_f4891888"]
 created_at: "2026-05-03T13:36:55+00:00"
 updated_at: "2026-05-03T13:36:55+00:00"
+id: 开源HIS系统代码深度分析报告
 ---
 
 # 开源HIS系统代码深度分析报告

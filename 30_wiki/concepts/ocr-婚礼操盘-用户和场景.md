@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_94ee2a08"]
 created_at: "2026-05-21T20:13:57+00:00"
 updated_at: "2026-05-22T07:29:46+00:00"
+id: ocr-婚礼操盘-用户和场景
 ---
 
 

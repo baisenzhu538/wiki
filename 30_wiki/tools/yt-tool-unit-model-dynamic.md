@@ -8,6 +8,7 @@ source_refs: []
 author: "一堂科学决策课程"
 component_of: "yt-decision-full-process"
 related:
+id: yt-tool-unit-model-dynamic
   - "yt-unit-model-overview"
   - "yt-unit-model-ladder"
   - "yt-unit-model-benchmark"

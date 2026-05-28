@@ -5,6 +5,7 @@ status: revised
 version: "2.0"
 supersedes: "v1.0（复合编译方案，已废弃）"
 domain:
+id: high-density-composite-compilation-strategy
   - kdo
 source_refs:
   - "30_wiki/decisions/kdo-ec-industrialization-migration-proposal.md"

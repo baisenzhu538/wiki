@@ -3,6 +3,7 @@ title: “AI Native 五层进阶：从答案，到效率，到作品，到产品
 type: “framework”
 status: “enriched”
 domain:
+id: ai-native-五层进阶从答案到效率到作品到产品到系统
   - ai-saas
   - master
 source_refs: [“src_20260524_3cadf228”]

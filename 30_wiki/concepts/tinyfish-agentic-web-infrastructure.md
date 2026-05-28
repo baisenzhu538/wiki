@@ -7,6 +7,7 @@ source_refs: []
 created_at: "2026-05-06"
 updated_at: "2026-05-06"
 related:
+id: tinyfish-agentic-web-infrastructure
   - "[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]"
   - "[[business-research-skill-oscar-13-weapon-system]]"
   - "[[truman-perspective-skill]]"

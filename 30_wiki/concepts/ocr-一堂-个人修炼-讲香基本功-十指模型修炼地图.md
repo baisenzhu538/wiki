@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_ecb6ee97"]
 created_at: "2026-05-21T20:13:53+00:00"
 updated_at: "2026-05-22T07:00:14+00:00"
+id: ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图
 ---
 
 
@@ -69,8 +70,8 @@ Dreyfus 兄弟在《技能获取的五个阶段》中证明：从新手到专家
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-ten-finger-model]] — 十指模型的技巧展开，地图是其能力进阶路径
-- [[yt-decision-deliberate-practice]] — 刻意练习的理论基础，地图的 L4-L5 层是其具体应用
+- [[yt-decision-y-model]] — 十指模型的技巧展开，地图是其能力进阶路径
+- [[yt-personal-deliberate-practice]] — 刻意练习的理论基础，地图的 L4-L5 层是其具体应用
 
 ### 可迁移场景
 

@@ -3,6 +3,7 @@ title: 基本功认知
 type: concept
 status: enriched
 domain:
+id: yt-management-basic-skills
   - yitang
 yitang:
   map: management

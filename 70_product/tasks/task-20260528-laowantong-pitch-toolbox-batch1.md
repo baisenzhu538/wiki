@@ -156,6 +156,39 @@ Step 3: pitch-storytelling 转换     ← 格式 + 攻击者
 Step 4: pitch-quantification 转换   ← 格式 + 攻击者
 Step 5: pitch-metaphor 转换        ← 格式 + 攻击者
 Step 6: kdo validate --v15         ← 全部 PASS 后通知审查
+Step 7: 文章 3 篇（见下文）       ← 从 Batch 1 A+ 卡选题
+```
+
+---
+
+## Step 7：文章重启（Pitch Batch 1 审查通过后做）
+
+从 Batch 1 已完成的 5 张 A+ 卡中挑 ≥3 个选题，产出文章到 `40_outputs/content/articles/`。
+
+### 选题池
+
+| 卡 | 文章方向 |
+|:---|:--------|
+| `ocr-预判模型` | "预判模型三范式：从 N 要素到 Checklist——如何选择正确的预判复杂度" |
+| `ocr-表达力火箭模型` | "Orwell 警告过的表达技巧——Magic Words 的边界与伦理" |
+| `ocr-一堂-个人修炼-全景图muse模型` | "AI 共存时代，Postman 式的冷静——MUSE 框架的边界与盲区" |
+| `ocr-一堂-个人修炼-科学学习ipo-全景策略` | "学习效率差 10 倍？Kahneman 和 Papert 为什么不同意" |
+| `ocr-泛产品设计落地篇` | "泛产品设计的边界：当 Norman 和 Pye 说不" |
+
+### 文章质量门
+
+| # | 门禁项 | 判定 |
+|:-:|------|:----:|
+| 1 | 目标读者明确（`## Audience`） | 文件存在 |
+| 2 | 核心论点 ≤3 句（`## Core Thesis`） | 人审 |
+| 3 | ≥3 条 Key Finding，每条有 source_ref 追溯 | grep |
+| 4 | 结尾有 Call to Action | 人审 |
+| 5 | `kdo validate --v15 --article <path>` PASS | 终端 |
+
+### 产出命名
+
+```
+40_outputs/content/articles/art_20260528_<slug>.md
 ```
 
 ## 验收
@@ -168,12 +201,13 @@ Step 6: kdo validate --v15         ← 全部 PASS 后通知审查
 | 4 | 每卡 Critique 有 2 位外部攻击者，各 ≥2 句 + 紧迫感 | 人工审查 |
 | 5 | `kdo validate --v15` 全部 PASS | exit 0 |
 | 6 | 不破坏已有内容（Claims 内容迁移而非删除） | diff |
+| 7 | ≥3 篇文章到 `40_outputs/content/articles/`，质量门通过 | 文件存在 + 抽检 |
 
 ## 不做
 
 - **不做** 非 Batch 1 的路演卡（故事化/数字化/比喻化之外的 7 张等下一批）
 - **不做** 框架卡 `yt-model-personal-pitch-toolkit` 的修改（在后续批次一起做）
-- **不做** VA 视觉分析（非视觉卡）
+- **不做** VA 视觉分析（那是洪七公的活）
 - **不做** `yt-decision-*` 域的路演关联（专注路演域自身）
 
 ---

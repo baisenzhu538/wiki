@@ -6,6 +6,7 @@ source_refs: ["src_20260525_92ea6173"]
 created_at: "2026-05-25T05:14:02+00:00"
 updated_at: "2026-05-25"
 domain:
+id: ai单元模型口述蒋老师
   - entrepreneur
   - ai
   - yitang

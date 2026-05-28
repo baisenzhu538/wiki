@@ -19,8 +19,28 @@ updated: 2026-05-28
 | 11 | OCR Batch 4（15张） | ✅ | 7张手写✅ + 8张批量模板修补✅。欧阳锋审查通过 A- |
 | 12 | y-model validator 修复 | ✅ | `kdo validate --v15` exit 0 |
 | 13 | 单元模型域2处小修（overview id+typo / benchmark乱码） | ✅ | |
-| **14** | **管理工具箱 Batch 3（T6+T7+T8 精修）** | ✅ | A- ✅。待补 Synthesis + 旧卡重定向（记入 Batch 4 前置） |
-| **15** | **🔨 路演工具箱 Batch 1（故事化+数字化+比喻化）** | **🔨** | 详见 [[task-20260528-laowantong-pitch-toolbox-batch1]] |
+| **14** | **管理工具箱 Batch 3（T6+T7+T8 精修）** | ✅ | A- ✅。见下方 Phase A 善后 |
+| **15** | **🔨 综合管线** | **🔨** | **Phase A→B→C 顺序执行** ⬇️ |
+
+### 老顽童执行管线
+
+```
+Phase A — 审查善后（~20min）
+├── A1 补 Synthesis: T6/T7/T8 各加 ## Synthesis（关联卡片+不要用的场景）
+├── A2 旧卡 redirect: 3 张 concept 卡改为 redirect 存根
+└── ▶ kdo validate --v15 确认不降级
+
+Phase B — 路演工具箱 Batch 1（~90min）
+├── B1 yt-pitch-storytelling → 30_wiki/tools/  攻击者: Zak + Heath
+├── B2 yt-pitch-quantification → 30_wiki/tools/  攻击者: Rosling + Ariely
+├── B3 yt-pitch-metaphor → 30_wiki/tools/  攻击者: Lakoff + Camp
+└── ▶ kdo validate --v15 --card yt-tool-pitch-* 三张全 PASS
+
+Phase C — 文章 3 篇（Pitch Batch 1 审查通过后做）
+├── C1 从选题池挑 ≥3 篇（预判模型/火箭模型/MUSE/IPO/泛产品设计）
+├── C2 写入 40_outputs/content/articles/art_20260528_<slug>.md
+└── ▶ 质量门：Audience + Core Thesis + ≥3 Key Findings + CTA + v15 PASS
+```
 
 > **规则**：顺序执行，不跳。每完成一个 → 跑验证 → 通知欧阳锋审查。
 
@@ -46,8 +66,8 @@ updated: 2026-05-28
 | 1-7 | 旧任务（双三角VA/Excalidraw/文章审计/视频试点等） | ✅ | 全部完成 |
 | 8 | 科学决策域 VA 交叉审查 | ✅ | 35张图逐图审查，通过率~71% |
 | 9 | VA 前置 A1（🔴10张） | ✅ | A。10/10 四维法通过 |
-| 10 | **单元模型域 VA 前置**（7张 yt-unit-model 卡） | ✅ | VA 补齐完成。欧阳锋审查 A-。3处颜色违规需修（pipeline中） |
-| — | 文章重启（B 部分，≥3篇） | ⏳ | VA 审查通过后启动 |
+| 10 | **单元模型域 VA 前置**（7张 yt-unit-model 卡） | ✅ | VA 补齐完成。欧阳锋审查 A-。3处颜色违规需修（修完升A） |
+| — | 文章（B 部分，≥3篇） | ⏳ | 老顽童任务 pipeline 中 |
 
 ### 单元模型域 VA 原图速查
 

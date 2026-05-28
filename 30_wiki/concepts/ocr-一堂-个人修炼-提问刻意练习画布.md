@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_a1a098d5"]
 created_at: "2026-05-21T20:13:52+00:00"
 updated_at: "2026-05-22T06:55:13+00:00"
+id: ocr-一堂-个人修炼-提问刻意练习画布
 ---
 
 
@@ -73,8 +74,8 @@ Socrates 会质疑画布本身的假设：**提问能力是可以被"分级练�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-question-canvas]] — 提问画布的独立版本，可与刻意练习画布对照使用
-- [[yt-decision-deliberate-practice]] — 刻意练习的理论基础，提问画布是其在提问领域的应用
+- [[yt-decision-canvas]] — 提问画布的独立版本，可与刻意练习画布对照使用
+- [[yt-personal-deliberate-practice]] — 刻意练习的理论基础，提问画布是其在提问领域的应用
 
 ### 可迁移场景
 

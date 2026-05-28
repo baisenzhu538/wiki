@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_e985ecdb"]
 created_at: "2026-05-21T20:14:00+00:00"
 updated_at: "2026-05-22T07:49:55+00:00"
+id: ocr-泛产品设计的应用场景示意图
 ---
 
 
@@ -68,7 +69,7 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-pan-product-design]] — 泛产品设计方法论总纲
+- [[yt-personal-product-design]] — 泛产品设计方法论总纲
 - [[yt-decision-product-launch]] — 产品落地发布的方法论补充
 
 ### 可迁移场景

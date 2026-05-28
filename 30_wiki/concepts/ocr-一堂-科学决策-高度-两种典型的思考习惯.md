@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_23b5714d"]
 created_at: "2026-05-21T20:13:56+00:00"
 updated_at: "2026-05-22T07:18:57+00:00"
+id: ocr-一堂-科学决策-高度-两种典型的思考习惯
 ---
 
 
@@ -65,7 +66,7 @@ Pye 论证真正的设计判断是“不可复制”的——每个设计决策�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-height-method]] - 高度方法，案例是其在思维方式分析上的具体展开
+- [[yt-decision-width-method]] - 高度方法，案例是其在思维方式分析上的具体展开
 - [[yt-decision-ai-partner]] - AI 协作决策，与案例中的系统思维互补
 - [[master-decision-hygiene]] - 通用决策卫生
 

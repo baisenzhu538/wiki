@@ -5,6 +5,7 @@ status: "draft"
 source_refs: ["src_20260522_9d98d526"]
 created_at: "2026-05-21T20:14:01+00:00"
 updated_at: "2026-05-21T20:14:01+00:00"
+id: business-analysis
 ---
 
 # Business Analysis

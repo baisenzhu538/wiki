@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_9cb1d9d6"]
 created_at: "2026-05-21T20:13:56+00:00"
 updated_at: "2026-05-22T07:22:01+00:00"
+id: ocr-一堂个人地图高潜力成长者修炼全景图
 ---
 
 
@@ -74,7 +75,7 @@ Herbert Simon 会质疑：**清单在处理"程序性任务"时有效，但在�
 ### 与本库其他概念的关联
 
 - [[yt-decision-capability-map]] — 能力地图的宏观视角
-- [[yt-decision-skill-progression]] — 技能进阶的理论基础
+- [[yt-decision-full-process]] — 技能进阶的理论基础
 - **此卡的金字塔结构（VA 描述为“从下到上递进的纵向层级结构”）与 [[yt-decision-depth-ladder]] 的 L1-L4 模型在“层级递进”逻辑上同源，但高潜力成长者地图用“天花板”隐喻和右侧三个向上箭头强化了“向上突破”的单向性，而深度阶梯模型更强调各层级之间的“停车检查”与双向反馈，而非一味向上。**
 
 ### 可迁移场景

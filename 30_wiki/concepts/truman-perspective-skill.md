@@ -7,6 +7,7 @@ source_refs: []
 created_at: "2026-05-06"
 updated_at: "2026-05-06"
 related:
+id: truman-perspective-skill
   - "[[一堂调研武器库13招]]"
   - "[[一堂-调研行动营启动_原文润色]]"
   - "[[business-research-skill-oscar-13-weapon-system]]"

@@ -1,3 +1,12 @@
+---
+id: yt-decision-depth-ladder
+type: concept
+status: enriched
+title: 
+created_at: 
+updated_at: 
+---
+
      1|---
      2|
      3|id: yt-decision-depth-ladder

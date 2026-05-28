@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_33346186"]
 created_at: "2026-05-21T20:13:52+00:00"
 updated_at: "2026-05-22T06:58:28+00:00"
+id: ocr-一堂-个人修炼-解放思想
 ---
 
 
@@ -71,7 +72,7 @@ Paul Feyerabend 在《反对方法》中主张：科学方法的多元性和无�
 ### 与本库其他概念的关联
 
 - [[yt-decision-depth-ladder]] — 认知深度梯子也将认知分层，但强调"具体到抽象"的上下穿透
-- [[yt-decision-scientific-method]] — 科学方法是L5层级的具体工具
+- [[yt-decision-width-method]] — 科学方法是L5层级的具体工具
 
 ### 可迁移场景
 

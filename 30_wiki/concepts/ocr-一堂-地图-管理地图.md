@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_af67f9b0"]
 created_at: "2026-05-21T20:13:53+00:00"
 updated_at: "2026-05-22T07:03:41+00:00"
+id: ocr-一堂-地图-管理地图
 ---
 
 
@@ -74,7 +75,7 @@ Herbert Simon 会质疑：**清单在处理"程序性任务"时有效，但在�
 ### 与本库其他概念的关联
 
 - [[yt-decision-capability-map]] — 能力地图的宏观视角
-- [[yt-decision-skill-progression]] — 技能进阶的理论基础
+- [[yt-decision-full-process]] — 技能进阶的理论基础
 - **此卡的坐标系矩阵结构（VA 描述为“纵横双轴框架结构”）与 [[yt-decision-width-method]] 的“维度×深度”分析矩阵在“双轴定位”逻辑上同源，但管理地图把“管自己”放在原点位置暗示它是“起点基础”，而宽度方法论更强调各维度之间的动态耦合而非静态定位。**
 
 ### 可迁移场景

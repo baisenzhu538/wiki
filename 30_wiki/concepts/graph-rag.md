@@ -5,6 +5,7 @@ status: enriched
 domain: ['ai-saas']
 aliases: ["Graph RAG"]
 source_refs:
+id: graph-rag
   - "src_20260502_7d7c1b7c"
 created_at: "2026-05-03"
 updated_at: "2026-05-03"

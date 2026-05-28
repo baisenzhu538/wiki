@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_9cbdf4fd"]
 created_at: "2026-05-21T20:13:52+00:00"
 updated_at: "2026-05-22T06:52:08+00:00"
+id: ocr-truman的选择两条职业成长路线
 ---
 
 
@@ -69,7 +70,7 @@ Seth Godin 在《Linchpin》中主张：真正的艺术家不做"选择题"，�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-career-path]] — 职业路径选择与两条路线的二元框架形成对照
+- [[yt-decision-ai-partner]] — 职业路径选择与两条路线的二元框架形成对照
 - [[yt-decision-portfolio-career]] — 组合职业是对两条路线的突破
 
 ### 可迁移场景

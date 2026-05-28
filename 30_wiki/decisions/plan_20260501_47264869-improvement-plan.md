@@ -5,6 +5,7 @@ status: "draft"
 created_at: "2026-04-30T17:58:15+00:00"
 feedback_count: 19
 artifact_count: 7
+id: plan_20260501_47264869-improvement-plan
 ---
 
 # Improvement Plan plan_20260501_47264869

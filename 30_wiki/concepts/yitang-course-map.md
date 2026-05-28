@@ -7,6 +7,7 @@ status: stable
 tags: ["yitang", "course-map", "index", "dataview"]
 created_at: "2026-05-06"
 updated_at: "2026-05-06"
+id: yitang-course-map
 ---
 
 # 一堂课程大地图

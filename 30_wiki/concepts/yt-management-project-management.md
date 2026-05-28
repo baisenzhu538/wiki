@@ -3,6 +3,7 @@ title: 项目管理
 type: concept
 status: enriched
 domain:
+id: yt-management-project-management
   - yitang
 yitang:
   map: management

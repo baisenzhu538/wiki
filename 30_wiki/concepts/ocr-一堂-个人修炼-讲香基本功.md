@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_98db1d35"]
 created_at: "2026-05-21T20:13:53+00:00"
 updated_at: "2026-05-22T07:00:42+00:00"
+id: ocr-一堂-个人修炼-讲香基本功
 ---
 
 
@@ -67,7 +68,7 @@ Marshall McLuhan 在《理解媒介》中证明："媒介即讯息"——传播�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-ten-finger-model]] — 十指模型的完整版本，提供了更详细的十个维度解释
+- [[yt-decision-y-model]] — 十指模型的完整版本，提供了更详细的十个维度解释
 - [[yt-decision-expressive-rocket]] — 表达力火箭模型与十指模型在"营销表达"领域形成互补
 
 ### 可迁移场景

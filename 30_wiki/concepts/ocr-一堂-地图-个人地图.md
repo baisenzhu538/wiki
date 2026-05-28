@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_40d2aee5"]
 created_at: "2026-05-21T20:13:53+00:00"
 updated_at: "2026-05-22T07:01:55+00:00"
+id: ocr-一堂-地图-个人地图
 ---
 
 
@@ -73,7 +74,7 @@ Herbert Simon 会质疑：**清单在处理"程序性任务"时有效，但在�
 ### 与本库其他概念的关联
 
 - [[yt-decision-capability-map]] — 能力地图的宏观视角
-- [[yt-decision-skill-progression]] — 技能进阶的理论基础
+- [[yt-decision-full-process]] — 技能进阶的理论基础
 - **此卡的纵向金字塔结构（VA 描述为“从下到上递进的纵向结构”）与 [[yt-decision-depth-ladder]] 的 L1-L4 停车场模型在“分层递进”逻辑上同源，但个人地图缺少“停车信号”——学习者无法判断自己当前应停在第几层。**
 
 ### 可迁移场景

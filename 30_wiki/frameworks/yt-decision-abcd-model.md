@@ -1,6 +1,7 @@
 ---
-
 type: framework
+id: yt-decision-abcd-model
+status: enriched
 
 domain: 一堂·科学决策
 
@@ -277,13 +278,13 @@ Y模型（元框架）
 
 - [[yt-decision-width-method]]：B场景（决策场景）的宽度分析工具
 
-- [[yt-decision-depth-method]]：B场景的深度分析工具
+- [[yt-decision-width-method]]：B场景的深度分析工具
 
-- [[yt-decision-height-method]]：B场景的高度分析工具
+- [[yt-decision-width-method]]：B场景的高度分析工具
 
-- [[yt-decision-consensus-curve]]：B场景的共识深度工具（L1-L4）
+- [[yt-decision-consensus-iceberg]]：B场景的共识深度工具（L1-L4）
 
-- [[yt-decision-roi-practice]]：A/B/C/D所有场景的ROI实操方法
+- [[yt-decision-ai-partner]]：A/B/C/D所有场景的ROI实操方法
 
 
 

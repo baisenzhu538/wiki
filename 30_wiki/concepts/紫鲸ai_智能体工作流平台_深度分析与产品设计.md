@@ -7,6 +7,7 @@ source_refs: ["src_20260501_4eee4e95"]
 created_at: "2026-04-30T18:43:29+00:00"
 updated_at: "2026-05-03T12:00:00+00:00"
 superseded_by: "[[紫鲸AI智能体工作流平台]]"
+id: 紫鲸ai_智能体工作流平台_深度分析与产品设计
 ---
 
 > **Status**: superseded by `[[紫鲸AI智能体工作流平台]]`（内容完全覆盖本页面，此页面为 initial ingest 产生的骨架，保留 frontmatter 以维护 source_ref 追溯链）

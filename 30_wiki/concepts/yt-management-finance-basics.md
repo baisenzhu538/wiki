@@ -3,6 +3,7 @@ title: 财务入门
 type: concept
 status: enriched
 domain:
+id: yt-management-finance-basics
   - yitang
 yitang:
   map: management

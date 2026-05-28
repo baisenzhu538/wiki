@@ -3,6 +3,7 @@ title: "一堂课程地图精华串讲"
 type: concept
 status: reviewed
 source_refs:
+id: yt-system-course-map-lecture
   - src_20260506_13e7bbca
   - src_20260507_3f2ac357
 created_at: "2026-05-05"

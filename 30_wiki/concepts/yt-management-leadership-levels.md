@@ -3,6 +3,7 @@ title: 管理段位
 type: concept
 status: enriched
 domain:
+id: yt-management-leadership-levels
   - yitang
 yitang:
   map: management

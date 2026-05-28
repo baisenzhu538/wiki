@@ -3,6 +3,7 @@ title: 目标管理
 type: concept
 status: enriched
 domain:
+id: yt-management-goal-management
   - yitang
 yitang:
   map: management

@@ -3,6 +3,7 @@ title: 团队知识管理
 type: concept
 status: enriched
 domain:
+id: yt-management-team-knowledge
   - yitang
 yitang:
   map: management

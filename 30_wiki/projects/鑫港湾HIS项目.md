@@ -4,6 +4,7 @@ type: project
 status: active
 domain: ['healthcare']
 source_refs:
+id: 鑫港湾HIS项目
   - "src_20260428_db49a647"
   - "src_20260503_968e0210"
   - "src_20260503_1a1f0312"

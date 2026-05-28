@@ -3,6 +3,7 @@ title: 战略会
 type: concept
 status: enriched
 domain:
+id: yt-management-strategy-meeting
   - yitang
 yitang:
   map: management

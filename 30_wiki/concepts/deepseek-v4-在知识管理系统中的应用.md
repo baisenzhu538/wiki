@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260505_7766e197"]
 created_at: "2026-05-05T04:38:01+00:00"
 updated_at: "2026-05-05T04:40:00+00:00"
+id: deepseek-v4-在知识管理系统中的应用
 ---
 
 

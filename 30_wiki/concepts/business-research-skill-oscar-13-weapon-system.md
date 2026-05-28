@@ -7,6 +7,7 @@ source_refs: []
 created_at: "2026-05-04"
 updated_at: "2026-05-04"
 related:
+id: business-research-skill-oscar-13-weapon-system
   - "[[一堂调研武器库13招]]"
   - "[[一堂调研行动营-ai辅助系统式调研方法论]]"
   - "[[一堂-调研行动营启动_原文润色]]"

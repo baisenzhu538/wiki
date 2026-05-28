@@ -1,3 +1,12 @@
+---
+id: contradictions
+type: concept
+status: draft
+title: 
+created_at: 
+updated_at: 
+---
+
 # Contradictions
 
 Use this file to preserve unresolved conflicts instead of smoothing them over.

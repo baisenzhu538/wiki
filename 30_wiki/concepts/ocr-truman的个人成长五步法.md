@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_074c72ae"]
 created_at: "2026-05-21T20:13:52+00:00"
 updated_at: "2026-05-22T06:51:27+00:00"
+id: ocr-truman的个人成长五步法
 ---
 
 
@@ -72,8 +73,8 @@ Carol Dweck 会质疑：**当你把"成长型思维"变成"五步法"时，你�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-deliberate-practice]] — 刻意练习是五步法中"进步方式"的理论基础
-- [[yt-decision-career-ladder]] — 职业成长阶段与五步法的"路径"维度形成对照
+- [[yt-personal-deliberate-practice]] — 刻意练习是五步法中"进步方式"的理论基础
+- [[yt-decision-depth-ladder]] — 职业成长阶段与五步法的"路径"维度形成对照
 
 ### 可迁移场景
 

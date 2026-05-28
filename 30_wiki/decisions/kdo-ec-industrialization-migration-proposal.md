@@ -3,6 +3,7 @@ title: "EC工业化规范 → KDO管线迁移方案"
 type: decision
 status: draft
 domain:
+id: kdo-ec-industrialization-migration-proposal
   - kdo
 decision_type: proposal
 authors:

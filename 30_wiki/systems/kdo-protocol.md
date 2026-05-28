@@ -4,6 +4,7 @@ type: system
 status: draft
 aliases: ["KDO Protocol"]
 source_refs:
+id: kdo-protocol
   - "src_20260502_7d7c1b7c"
 created_at: "2026-05-02"
 updated_at: "2026-05-04"

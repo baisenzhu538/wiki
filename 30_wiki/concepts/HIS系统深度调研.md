@@ -8,6 +8,7 @@ updated_at: "2026-05-03T13:36:55+00:00"
 trust_level: "medium"
 reviewed_by: "Claude"
 review_date: "2026-05-03"
+id: HIS系统深度调研
 ---
 
 # HIS系统深度调研

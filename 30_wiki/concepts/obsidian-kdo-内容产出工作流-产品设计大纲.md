@@ -3,6 +3,7 @@ title: Obsidian + KDO 内容产出工作流 — 产品设计大纲
 type: concept
 status: superseded
 domain:
+id: obsidian-kdo-内容产出工作流-产品设计大纲
   - master
   - ai-saas
 source_refs:

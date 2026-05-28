@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_1b95114b"]
 created_at: "2026-05-21T20:13:52+00:00"
 updated_at: "2026-05-22T06:54:49+00:00"
+id: ocr-一堂-个人修炼-双三角模型
 ---
 
 
@@ -71,7 +72,7 @@ Shoshana Zuboff 在《监控资本主义时代》中证明：数据资产化的�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-ai-triangle]] — AI三角的独立版本，双三角模型将其与人类能力整合
+- [[yt-decision-ai-partner]] — AI三角的独立版本，双三角模型将其与人类能力整合
 - [[yt-decision-y-model]] — Y模型中的"解放思想"与双三角中的"创造力"在"突破惯性认知"上同源
 
 ### 可迁移场景

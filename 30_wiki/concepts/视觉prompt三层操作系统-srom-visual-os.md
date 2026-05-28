@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_1ede9202"]
 created_at: "2026-05-21T20:14:01+00:00"
 updated_at: "2026-05-22T07:58:30+00:00"
+id: 视觉prompt三层操作系统-srom-visual-os
 ---
 
 

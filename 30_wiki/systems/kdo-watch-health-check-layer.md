@@ -6,6 +6,8 @@ created_at: "2026-05-04"
 status: proposed
 implementor: "黄药师 (Builder)"
 dependency: "已有 kdo watch（inbox 监听 + 自动 ingest → enrich → 重建索引）"
+id: kdo-watch-health-check-layer
+type: concept
 ---
 
 # kdo watch 定时巡检层技术说明

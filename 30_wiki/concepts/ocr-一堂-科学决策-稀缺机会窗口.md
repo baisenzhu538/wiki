@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_7fb2b9c1"]
 created_at: "2026-05-21T20:13:55+00:00"
 updated_at: "2026-05-22T07:17:57+00:00"
+id: ocr-一堂-科学决策-稀缺机会窗口
 ---
 
 

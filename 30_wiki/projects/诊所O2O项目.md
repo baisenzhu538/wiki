@@ -4,6 +4,7 @@ type: project
 status: active
 domain: ['healthcare']
 source_refs:
+id: 诊所O2O项目
   - "src_20260427_970eb338"
 created_at: "2026-05-04"
 updated_at: "2026-05-04"

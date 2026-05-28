@@ -3,6 +3,7 @@ title: Y模型/科学决策
 type: concept
 status: enriched
 domain:
+id: yt-management-scientific-decision
   - yitang
 yitang:
   map: management

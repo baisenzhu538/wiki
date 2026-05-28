@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_f70d7a7d"]
 created_at: "2026-05-21T20:13:52+00:00"
 updated_at: "2026-05-22T05:33:47+00:00"
+id: ocr-一堂-个人修炼-科学提问刻意练习
 ---
 
 
@@ -67,8 +68,8 @@ Socrates 会质疑：**当你将"苏格拉底式提问"变成一种"可修炼的
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-question-canvas]] — 提问刻意练习画布提供了四级提问的具体框架，本卡片是其概念版本
-- [[yt-decision-deliberate-practice]] — 刻意练习的理论基础
+- [[yt-decision-canvas]] — 提问刻意练习画布提供了四级提问的具体框架，本卡片是其概念版本
+- [[yt-personal-deliberate-practice]] — 刻意练习的理论基础
 
 ### 可迁移场景
 

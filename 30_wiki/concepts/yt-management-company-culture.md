@@ -3,6 +3,7 @@ title: 公司文化
 type: concept
 status: enriched
 domain:
+id: yt-management-company-culture
   - yitang
 yitang:
   map: management

@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_33c40d41"]
 created_at: "2026-05-21T20:13:54+00:00"
 updated_at: "2026-05-22T07:09:39+00:00"
+id: ocr-一堂-科学决策-人机协作决策
 ---
 
 

@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_bd0dca98"]
 created_at: "2026-05-21T20:13:53+00:00"
 updated_at: "2026-05-22T07:02:17+00:00"
+id: ocr-一堂-地图-个人地图_conv
 ---
 
 
@@ -64,7 +65,7 @@ Herbert Simon 会质疑：**清单在处理"程序性任务"时有效，但在�
 ### 与本库其他概念的关联
 
 - [[yt-decision-capability-map]] — 能力地图的宏观视角
-- [[yt-decision-skill-progression]] — 技能进阶的理论基础
+- [[yt-decision-full-process]] — 技能进阶的理论基础
 
 ### 可迁移场景
 

@@ -5,6 +5,7 @@ status: "draft"
 source_refs: ["src_20260525_6748cc27"]
 created_at: "2026-05-25T04:49:06+00:00"
 updated_at: "2026-05-25T04:49:06+00:00"
+id: ai时代判断力口述-2
 ---
 
 # AI时代判断力口述

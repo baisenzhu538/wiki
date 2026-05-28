@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_f6f8f8eb"]
 created_at: "2026-05-21T20:13:52+00:00"
 updated_at: "2026-05-22T06:58:00+00:00"
+id: ocr-一堂-个人修炼-表达力火箭模型
 ---
 
 
@@ -66,7 +67,7 @@ Aristotle 在《修辞学》中提出了修辞的三要素：信息（ethos）�
 ### 与本库其他概念的关联
 
 - [[yt-decision-expressive-weapon]] — 表达力火箭模型的执行武器库，提供了具体的表达工具
-- [[yt-decision-storytelling]] — 故事化表达与"打动人"在情感传达上同源
+- [[yt-pitch-storytelling]] — 故事化表达与"打动人"在情感传达上同源
 
 ### 可迁移场景
 

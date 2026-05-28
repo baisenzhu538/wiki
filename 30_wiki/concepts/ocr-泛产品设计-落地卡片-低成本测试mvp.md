@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_4d086230"]
 created_at: "2026-05-21T20:13:59+00:00"
 updated_at: "2026-05-22T07:42:23+00:00"
+id: ocr-泛产品设计-落地卡片-低成本测试mvp
 ---
 
 

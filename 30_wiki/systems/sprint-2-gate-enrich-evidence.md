@@ -3,6 +3,7 @@ title: "Sprint 2 门禁系统 + Enrich 举证 — 设计规格"
 type: system
 status: draft
 domain:
+id: sprint-2-gate-enrich-evidence
   - kdo
 source_refs:
   - "30_wiki/decisions/kdo-ec-industrialization-migration-proposal.md"

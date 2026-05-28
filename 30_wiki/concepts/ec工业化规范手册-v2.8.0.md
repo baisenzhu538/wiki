@@ -9,6 +9,7 @@ created_at: "2026-05-03T03:41:09+00:00"
 updated_at: "2026-05-03"
 reviewed_by: "Claude"
 review_date: "2026-05-03"
+id: ec工业化规范手册-v2.8.0
 ---
 
 # EC工业化规范手册 v2.8.0

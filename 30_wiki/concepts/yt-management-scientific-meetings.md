@@ -3,6 +3,7 @@ title: 科学开会
 type: concept
 status: enriched
 domain:
+id: yt-management-scientific-meetings
   - yitang
 yitang:
   map: management

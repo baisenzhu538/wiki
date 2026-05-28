@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_4c9a911f"]
 created_at: "2026-05-21T20:13:56+00:00"
 updated_at: "2026-05-22T07:19:29+00:00"
+id: ocr-一堂-管理必修-课程清单
 ---
 
 
@@ -70,7 +71,7 @@ Herbert Simon 会质疑：**清单在处理"程序性任务"时有效，但在�
 ### 与本库其他概念的关联
 
 - [[yt-decision-course-structure]] — 课程结构的宏观视角
-- [[yt-decision-learning-path]] — 学习路径规划的理论基础
+- [[yt-decision-ai-partner]] — 学习路径规划的理论基础
 
 ### 可迁移场景
 

@@ -8,6 +8,7 @@ url: "https://kimi.moonshot.cn"
 location: "Beijing, China"
 founded_at: "2023-04-01"
 source_refs:
+id: Kimi-月之暗面
   - "src_20260502_7d7c1b7c"
 created_at: "2026-05-03"
 updated_at: "2026-05-03"

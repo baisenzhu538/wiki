@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_8d5cc8b0"]
 created_at: "2026-05-21T20:14:00+00:00"
 updated_at: "2026-05-22T07:46:22+00:00"
+id: ocr-泛产品设计-落地卡片-管理三段论
 ---
 
 

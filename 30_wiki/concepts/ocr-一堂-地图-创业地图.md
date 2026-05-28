@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_c1935261"]
 created_at: "2026-05-21T20:13:53+00:00"
 updated_at: "2026-05-22T07:02:46+00:00"
+id: ocr-一堂-地图-创业地图
 ---
 
 
@@ -74,7 +75,7 @@ Herbert Simon 会质疑：**清单在处理"程序性任务"时有效，但在�
 ### 与本库其他概念的关联
 
 - [[yt-decision-capability-map]] — 能力地图的宏观视角
-- [[yt-decision-skill-progression]] — 技能进阶的理论基础
+- [[yt-decision-full-process]] — 技能进阶的理论基础
 - **此卡的房屋结构（VA 描述为“上窄下宽的层级递进结构”）与 [[yt-decision-abcd-model]] 的决策四步流程在“阶段递进”逻辑上同源，但创业地图把“底层逻辑”放在基座位置暗示它是“预先存在的地基”，而 ABCD 模型更强调底层假设在迭代中被不断推翻重建。**
 
 ### 可迁移场景

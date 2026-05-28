@@ -1,3 +1,12 @@
+---
+id: index
+type: concept
+status: draft
+title: 
+created_at: 
+updated_at: 
+---
+
 # Backlinks Index
 
 _Auto-generated index of `[[wikilink]]` references across wiki pages._
@@ -45,7 +54,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[after-action-review-aar]]
 - [[30_wiki\concepts\yt-decision-review.md]]
 
-## [[ai-prompt-engineering]]
+## [[yt-model-prompt-engineering]]
 - [[30_wiki\tools\yt-tool-unit-model-ai-assisted.md]]
 
 ## [[blue-ocean-strategy]]
@@ -474,7 +483,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\ocr-泛产品设计-审美卡片-最佳实践池子.md]]
 - [[30_wiki\concepts\ocr-泛产品设计-审美卡片-美好作品想象.md]]
 
-## [[yt-decision-ai-innovation]]
+## [[yt-decision-ai-partner]]
 - [[30_wiki\concepts\yt-unit-model-ai-assisted.md]]
 
 ## [[yt-decision-ai-partner]]
@@ -488,7 +497,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-decision-y-model.md]]
 - [[30_wiki\concepts\人机协作决策-双三角模型.md]]
 
-## [[yt-decision-ai-triangle]]
+## [[yt-decision-ai-partner]]
 - [[30_wiki\concepts\ocr-一堂-个人修炼-双三角模型.md]]
 
 ## [[yt-decision-assumption-hypothesis]]
@@ -545,13 +554,13 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\ocr-一堂进步大地图.md]]
 - [[30_wiki\concepts\ocr-一堂进步大地图_compressed.md]]
 
-## [[yt-decision-career-ladder]]
+## [[yt-decision-depth-ladder]]
 - [[30_wiki\concepts\ocr-truman的个人成长五步法.md]]
 
-## [[yt-decision-career-path]]
+## [[yt-decision-ai-partner]]
 - [[30_wiki\concepts\ocr-truman的选择两条职业成长路线.md]]
 
-## [[yt-decision-consensus-curve]]
+## [[yt-decision-consensus-iceberg]]
 - [[30_wiki\frameworks\yt-decision-abcd-model.md]]
 
 ## [[yt-decision-consensus-iceberg]]
@@ -571,7 +580,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\ocr-一堂-案例拆解-课程清单.md]]
 - [[30_wiki\concepts\ocr-一堂-管理必修-课程清单.md]]
 
-## [[yt-decision-deliberate-practice]]
+## [[yt-personal-deliberate-practice]]
 - [[30_wiki\concepts\ocr-truman的个人成长五步法.md]]
 - [[30_wiki\concepts\ocr-一堂-个人修炼-提问刻意练习画布.md]]
 - [[30_wiki\concepts\ocr-一堂-个人修炼-科学学习ipo完整清单.md]]
@@ -604,7 +613,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-decision-width-method.md]]
 - [[30_wiki\frameworks\yt-decision-abcd-model.md]]
 
-## [[yt-decision-depth-method]]
+## [[yt-decision-width-method]]
 - [[30_wiki\frameworks\yt-decision-abcd-model.md]]
 
 ## [[yt-decision-design-philosophy]]
@@ -645,7 +654,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-tool-okr-cycle.md]]
 - [[30_wiki\concepts\人机协作决策-双三角模型.md]]
 
-## [[yt-decision-height-method]]
+## [[yt-decision-width-method]]
 - [[30_wiki\concepts\ocr-一堂-科学决策-高度-两种典型的思考习惯.md]]
 - [[30_wiki\frameworks\yt-decision-abcd-model.md]]
 
@@ -667,7 +676,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-unit-model-overview.md]]
 - [[30_wiki\concepts\yt-unit-model-selection.md]]
 
-## [[yt-decision-learning-path]]
+## [[yt-decision-ai-partner]]
 - [[30_wiki\concepts\ocr-一堂-个人修炼-课程清单.md]]
 - [[30_wiki\concepts\ocr-一堂-创业必修-课程清单.md]]
 - [[30_wiki\concepts\ocr-一堂-案例拆解-课程清单.md]]
@@ -682,7 +691,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\ocr-screenshot1.md]]
 - [[30_wiki\concepts\ocr-screenshot2.md]]
 
-## [[yt-decision-pan-product-design]]
+## [[yt-personal-product-design]]
 - [[30_wiki\concepts\ocr-一堂-泛产品设计-十年苦练30招.md]]
 - [[30_wiki\concepts\ocr-一堂五步法-产品内核画布.md]]
 - [[30_wiki\concepts\ocr-一堂产品内核-十大典型指标.md]]
@@ -792,7 +801,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\ocr-泛产品设计-落地卡片-里程碑拆解.md]]
 - [[30_wiki\concepts\ocr-泛产品设计-落地卡片-风险管理.md]]
 
-## [[yt-decision-question-canvas]]
+## [[yt-decision-canvas]]
 - [[30_wiki\concepts\ocr-一堂-个人修炼-提问刻意练习画布.md]]
 - [[30_wiki\concepts\ocr-一堂-个人修炼-科学提问刻意练习.md]]
 
@@ -806,7 +815,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\frameworks\yt-unit-model-ladder.md]]
 - [[30_wiki\tools\yt-tool-unit-model-benchmark.md]]
 
-## [[yt-decision-roi-practice]]
+## [[yt-decision-ai-partner]]
 - [[30_wiki\frameworks\yt-decision-abcd-model.md]]
 
 ## [[yt-decision-scarcity-resources]]
@@ -820,10 +829,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\ocr-一堂-个人修炼-科学学习ipo完整清单.md]]
 - [[30_wiki\concepts\ocr-一堂-个人修炼-科学学习ipo模型.md]]
 
-## [[yt-decision-scientific-method]]
+## [[yt-decision-width-method]]
 - [[30_wiki\concepts\ocr-一堂-个人修炼-解放思想.md]]
 
-## [[yt-decision-skill-progression]]
+## [[yt-decision-full-process]]
 - [[30_wiki\concepts\ocr-一堂-地图-个人地图.md]]
 - [[30_wiki\concepts\ocr-一堂-地图-个人地图_conv.md]]
 - [[30_wiki\concepts\ocr-一堂-地图-创业地图.md]]
@@ -834,14 +843,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\ocr-一堂进步大地图.md]]
 - [[30_wiki\concepts\ocr-一堂进步大地图_compressed.md]]
 
-## [[yt-decision-storytelling]]
+## [[yt-pitch-storytelling]]
 - [[30_wiki\concepts\ocr-一堂-个人修炼-表达力火箭模型.md]]
 
 ## [[yt-decision-system1-system2]]
 - [[30_wiki\concepts\yt-unit-model-ai-assisted.md]]
 - [[30_wiki\concepts\yt-unit-model-dynamic.md]]
 
-## [[yt-decision-ten-finger-model]]
+## [[yt-decision-y-model]]
 - [[30_wiki\concepts\ocr-一堂-个人修炼-讲香十指模型-超级武器库.md]]
 - [[30_wiki\concepts\ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md]]
 - [[30_wiki\concepts\ocr-一堂-个人修炼-讲香基本功.md]]
@@ -1058,7 +1067,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-model-liberate-thinking-layers.md]]
 - [[30_wiki\concepts\yt-personal-ipo-learning.md]]
 
-## [[yt-entrepreneur-life-design]]
+## [[yt-entrepreneur-fundraising]]
 - [[30_wiki\concepts\ocr-一堂-科学决策-宽度-个人.md]]
 
 ## [[yt-entrepreneur-needs-analysis]]
@@ -1252,7 +1261,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-management-scientific-hiring.md]]
 - [[30_wiki\concepts\yt-management-team-knowledge.md]]
 
-## [[yt-management-meeting-design]]
+## [[yt-management-scientific-decision]]
 - [[30_wiki\concepts\yt-decision-consensus-iceberg.md]]
 
 ## [[yt-management-onboarding]]
@@ -1333,7 +1342,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\tools\yt-tool-okr-cycle.md]]
 - [[30_wiki\tools\yt-tool-strategy-workshop.md]]
 
-## [[yt-management-team-building]]
+## [[yt-management-team-knowledge]]
 - [[30_wiki\concepts\yt-decision-habit-shift.md]]
 
 ## [[yt-management-team-knowledge]]

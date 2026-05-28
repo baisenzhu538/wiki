@@ -9,6 +9,7 @@ updated_at: "2026-05-03T00:00:00+00:00"
 trust_level: "high"
 reviewed_by: "Claude"
 review_date: "2026-05-03"
+id: 鑫港湾his系统分阶段整改报告
 ---
 
 # 鑫港湾HIS系统分阶段整改报告

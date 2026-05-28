@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260522_3bc67cbd"]
 created_at: "2026-05-21T20:13:58+00:00"
 updated_at: "2026-05-22T07:37:56+00:00"
+id: ocr-泛产品设计-用户卡片-场景推演
 ---
 
 

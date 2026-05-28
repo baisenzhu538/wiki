@@ -6,6 +6,7 @@ source_refs: ["src_20260525_66059442"]
 created_at: "2026-05-25T04:49:06+00:00"
 updated_at: "2026-05-25"
 domain:
+id: ai时代判断力口述-3
   - ai
   - yitang
 language: zh-CN

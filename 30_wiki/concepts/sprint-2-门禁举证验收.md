@@ -5,6 +5,7 @@ status: "enriched"
 source_refs: ["src_20260510_9e98a292"]
 created_at: "2026-05-09T16:49:59+00:00"
 updated_at: "2026-05-09T16:51:19+00:00"
+id: sprint-2-门禁举证验收
 ---
 
 
