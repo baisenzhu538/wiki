@@ -1,60 +1,91 @@
-"""S4-1: Scan vault for broken wikilinks."""
+"""S4-1: Scan vault for broken wikilinks. V2 with proper path handling."""
 import json
-import os
 import re
-import sys
 from pathlib import Path
 
 VAULT = Path(r"C:\Users\Administrator\Desktop\wiki")
 WIKI_DIR = VAULT / "30_wiki"
-OUTPUT_DIR = VAULT / "90_control"
 
-WIKILINK_RE = re.compile(r'\[\[([^\]|#]+)(?:[#|][^\]]+)?\]\]')
+WIKILINK_RE = re.compile(r'\[\[([^\]|#]+?)(?:[#|][^\]]+)?\]\]')
 
-def find_md_files(root: Path) -> list[Path]:
-    files = []
-    for path in root.rglob("*.md"):
-        if path.is_file():
-            files.append(path)
-    return files
+def find_all_md() -> dict[str, Path]:
+    """Return {stem: path, relative_path: path} for all .md files in vault."""
+    index = {}
+    for f in VAULT.rglob("*.md"):
+        if f.is_file():
+            rel = str(f.relative_to(VAULT)).replace('\\', '/')
+            stem = f.stem
+            index[rel.lower()] = f
+            index[stem.lower()] = f
+            # Also index by path without leading dirs
+            parts = rel.split('/')
+            if len(parts) > 1:
+                shorter = '/'.join(parts[1:])
+                index[shorter.lower()] = f
+    return index
 
-def resolve_target(link_target: str, source_file: Path) -> Path | None:
-    """Try to resolve a wikilink target to a real file."""
-    target = link_target.strip()
+def is_garbled(s: str) -> bool:
+    """Check if string contains encoding-garbled CJK characters."""
+    for ch in s:
+        cp = ord(ch)
+        if cp > 0x4e00 and cp < 0x9fff:
+            continue  # valid CJK
+        if cp > 0x3000 and cp < 0x303f:
+            continue  # CJK punctuation
+        if cp > 0xff00 and cp < 0xffef:
+            continue  # fullwidth forms
+        if cp > 0x2000 and cp < 0x206f:
+            continue  # general punctuation
+        if cp > 0x80 and cp < 0x2000:
+            return True  # garbled latin-1 range for CJK
+    return False
 
-    # Try exact match
-    exact = WIKI_DIR / "concepts" / f"{target}.md"
-    if exact.exists():
-        return exact
+def resolve(target_raw: str, file_index: dict[str, Path]) -> tuple[str | None, str]:
+    """Try to resolve a wikilink target.
+    Returns (resolved_path, category).
+    Category: 'found' | 'path-fixable' | 'not-exist' | 'encoding-garbled' | 'external'
+    """
+    target = target_raw.strip()
 
-    # Try tools
-    exact = WIKI_DIR / "tools" / f"{target}.md"
-    if exact.exists():
-        return exact
+    if is_garbled(target):
+        return None, 'encoding-garbled'
 
-    # Try systems
-    exact = WIKI_DIR / "systems" / f"{target}.md"
-    if exact.exists():
-        return exact
+    # Normalize: replace backslash with forward slash
+    normalized = target.replace('\\', '/').lower()
 
-    # Try in all wiki subdirs
-    for subdir in WIKI_DIR.rglob("*"):
-        if subdir.is_dir():
-            candidate = subdir / f"{target}.md"
-            if candidate.exists():
-                return candidate
+    # Try direct lookup
+    if normalized in file_index:
+        return str(file_index[normalized].relative_to(VAULT)), 'found'
 
-    # Try relative to source file
-    candidate = source_file.parent / f"{target}.md"
-    if candidate.exists():
-        return candidate
+    # Try with .md extension stripped (in case link has .md)
+    if normalized.endswith('.md'):
+        without_ext = normalized[:-3]
+        if without_ext in file_index:
+            return str(file_index[without_ext].relative_to(VAULT)), 'found'
 
-    return None
+    # Try as stem only (last component without extension)
+    stem = Path(target).stem.lower()
+    if stem in file_index:
+        return str(file_index[stem].relative_to(VAULT)), 'found'
+
+    # Path-fixable: target might exist with slightly different path
+    # e.g. "30_wiki/concepts/xxx" vs "xxx"
+    for key, val in file_index.items():
+        if key.endswith('/' + stem + '.md') or key.endswith('\\' + stem + '.md'):
+            return str(val.relative_to(VAULT)), 'path-fixable'
+
+    return None, 'not-exist'
+
 
 def main():
-    md_files = find_md_files(WIKI_DIR)
-    broken_links = []
-    total_links = 0
+    file_index = find_all_md()
+    print(f"Indexed {len(file_index)} filename variants")
+
+    md_files = list(WIKI_DIR.rglob("*.md"))
+    broken: list[dict] = []
+    fixable: list[dict] = []
+    garbled: list[dict] = []
+    stats = {'total': 0, 'found': 0, 'fixable': 0, 'not-exist': 0, 'garbled': 0}
 
     for f in sorted(md_files):
         try:
@@ -63,33 +94,65 @@ def main():
             continue
 
         for match in WIKILINK_RE.finditer(content):
-            total_links += 1
+            stats['total'] += 1
             target = match.group(1).strip()
-            resolved = resolve_target(target, f)
-            if resolved is None:
-                broken_links.append({
-                    "source": str(f.relative_to(VAULT)),
-                    "line": content[:match.start()].count('\n') + 1,
-                    "target": target,
-                })
+            if not target or target.startswith('http'):
+                stats['found'] += 1
+                continue
 
-    # Write output
-    output = {
-        "total_links_scanned": total_links,
-        "broken_count": len(broken_links),
-        "broken_links": broken_links,
+            resolved, category = resolve(target, file_index)
+            entry = {
+                "source": str(f.relative_to(VAULT)),
+                "line": content[:match.start()].count('\n') + 1,
+                "target": target,
+                "resolved": resolved,
+            }
+
+            if category == 'found':
+                stats['found'] += 1
+            elif category == 'path-fixable':
+                stats['fixable'] += 1
+                fixable.append(entry)
+            elif category == 'not-exist':
+                stats['not-exist'] += 1
+                broken.append(entry)
+            elif category == 'encoding-garbled':
+                stats['garbled'] += 1
+                garbled.append(entry)
+
+    print(f"\nResults:")
+    print(f"  Total links scanned:   {stats['total']}")
+    print(f"  Found (valid):         {stats['found']}")
+    print(f"  Path-fixable (auto):   {stats['fixable']}")
+    print(f"  Broken (not exist):    {stats['not-exist']}")
+    print(f"  Encoding garbled:      {stats['garbled']}")
+
+    # Write outputs
+    out_dir = VAULT / "90_control"
+
+    summary = {
+        "stats": stats,
+        "fixable_links": fixable,
+        "broken_links": broken,
+        "garbled_links": garbled,
     }
+    (out_dir / "s4-broken-links.json").write_text(
+        json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    out_path = OUTPUT_DIR / "s4-broken-links.json"
-    out_path.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+    # Write fixable list for auto-repair
+    with open(out_dir / "s4-fixable-links.txt", "w", encoding="utf-8") as fh:
+        for fl in fixable:
+            fh.write(f"{fl['source']}:{fl['line']}:{fl['target']} -> {fl['resolved']}\n")
 
-    print(f"Scanned {len(md_files)} files, {total_links} total links")
-    print(f"Broken: {len(broken_links)}")
-    print(f"Output: {out_path}")
+    # Show top broken not-exist targets
+    from collections import Counter
+    top_broken = Counter(b['target'] for b in broken).most_common(30)
+    print(f"\nTop 30 broken targets (not exist):")
+    for t, c in top_broken:
+        print(f"  {c:4d}x [[{t[:90]}]]")
 
-    # Print first 20 for quick review
-    for bl in broken_links[:20]:
-        print(f"  {bl['source']}:{bl['line']} -> [[{bl['target']}]]")
+    print(f"\nOutput: {out_dir / 's4-broken-links.json'}")
+    print(f"Fixable list: {out_dir / 's4-fixable-links.txt'}")
 
 if __name__ == "__main__":
     main()
