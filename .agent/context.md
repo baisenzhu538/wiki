@@ -1,7 +1,7 @@
 ---
-updated: 2026-05-26
+updated: 2026-05-28
 active_branch: main
-active_task: 老顽童：y-model validator 修复 ✅ + 单元模型域2处小修 ✅ 全部完成。等待新任务分配。
+active_task: 老顽童：管理工具箱 Batch 3（T6+T7+T8）精修——格式加固 + 攻击者展开。v1.5 0 Failed（222 Pass），157 Warning 均为 research 类型不处理。
 blockers: []
 ---
 
@@ -39,7 +39,7 @@ blockers: []
 ### 各角色当前任务
 - **黄药师**：Sprint 3（produce预填）✅ commit 6270360，379 tests pass，欧阳锋审查通过。Sprint 4（数据卫生）❌ 报告虚假——实际未做，无代码提交。Sprint 5 暂缓。
 - **欧阳锋**：本会话完成三轮审查（老顽童单元模型域 ✅ / 洪七公VA ✅ / 黄药师Sprint 3 ✅），写入 Batch 4 修补标准至任务文件。
-- **老顽童**：OCR Batch 4 15张卡 ✅ 全部审查通过。y-model validator ❌ 仍未修复——已下任务 [[task-20260526-laowantong-y-model-and-minor-fixes]]。Batch 5 评估完成，无需老顽童投入。
+- **老顽童**：y-model ✅ + 单元模型域小修 ✅ + OCR Batch 1-4 ✅。新任务：[[task-20260528-laowantong-mgmt-toolbox-batch3]]（管理工具箱 T6+T7+T8 精修）
 - **洪七公**：VA 前置完成——单元模型域7张+OCR卡15张=22张VA全部通过审查。
 - **段王爷**：本会话无动作。
 
@@ -57,6 +57,12 @@ blockers: []
 - 同一域内，每5张卡至少引入1位新攻击者。纯 Kahneman+Taleb 组合需替换一位。
 
 ## 最近决策
+
+### 2026-05-28：管理工具箱 Batch 3 下达
+- y-model ✅ + 单元模型域小修 ✅ — 老顽童上批任务全部完成
+- v1.5 验证：379卡 0 Failed 222 Pass 157 Warning — 全库修复自动完成
+- 老顽童新任务：T6 (project-health-radar) + T7 (onboarding-90day) + T8 (equity-checklist) 精修
+- 三张卡骨架已存在，需修格式 + 展开攻击者论证
 
 ### 2026-05-26：Batch 5 评估完成 + y-model 任务下达
 - Batch 5（117张候选卡）评估结论：科学决策31张已精修通过，其余77张内容太薄ROI低不投入
