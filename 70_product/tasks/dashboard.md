@@ -32,7 +32,8 @@ updated: 2026-05-28
 | 1-20 | scaffold / validate / video CLI / infrastructure 等全部旧任务 | ✅ |
 | Sprint 3 | produce 自动预填 | ✅ commit 6270360。欧阳锋审查通过 |
 | Sprint 4 | 数据卫生（断链/frontmatter/双格式） | ✅ | **S4-1/S4-2/S4-3 全部 PASS** ✅ 欧阳锋审查通过。A类断链83→0，frontmatter245→0，双格式134→0 |
-| **Sprint 5** | **Validate→Ship 闭环** | ✅ | **S5-1/S5-2/S5-3 全部 PASS** ✅ 欧阳锋审查通过。9/9 tests, 388 pytest
+| **Sprint 5** | **Validate→Ship 闭环** | ✅ | **S5-1/S5-2/S5-3 全部 PASS** ✅ 欧阳锋审查通过。9/9 tests, 388 pytest |
+| **Sprint 5a** | **🔨 Article validator source_refs 修复** | **🔨** | 修 article validator 未识别 frontmatter source_refs bug。详见 [[task-20260528-huangyaoshi-sprint5a-article-validator-fix]] |
 
 ---
 
@@ -44,7 +45,7 @@ updated: 2026-05-28
 | 8 | 科学决策域 VA 交叉审查 | ✅ | 35张图逐图审查，通过率~71% |
 | 9 | VA 前置 A1（🔴10张） | ✅ | A。10/10 四维法通过 |
 | 10 | **单元模型域 VA 前置**（7张 yt-unit-model 卡） | ✅ | VA 补齐完成。欧阳锋审查 A-。3处颜色违规待修（计入下个任务前置） |
-| **11** | **🔨 路演域 VA 补齐**（讲香十指模型 + 表达力火箭） | **🔨** | 详见 [[task-20260528-hongqigong-pitch-domain-va]] |
+| **11** | **路演域 VA 补齐**（讲香十指模型 + 表达力火箭） | **🟡** | **有条件 PASS**。ladder L207 1 处颜色残留待修（修完即结） |
 
 ### 单元模型域 VA 原图速查
 
