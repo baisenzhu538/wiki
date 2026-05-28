@@ -1,21 +1,15 @@
----
-id: index
-type: concept
-status: draft
-title: 
-created_at: 
-updated_at: 
----
-
 # Wiki Index
 
 
-_Last updated: 2026-05-25T05:14:02+00:00_
+_Last updated: 2026-05-28T14:55:38+00:00_
 
 - [[concepts/2026-05-17-深夜感想.md|2026-05-17 深夜感想]] — source `src_20260522_390d75a8`
 - [[concepts/ai-native-五层进阶从答案到效率到作品到产品到系统.md|“AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统”]] — source `[`
+- [[concepts/aigc文创案例设计课leo文创ip从0到1全流程.md|AIGC文创案例设计课：Leo文创IP从0到1全流程]] — source `src_20260528_4277c6be`
+- [[concepts/aigc设计基础01ai生图原理与提示词基本功.md|AIGC设计基础01：AI生图原理与提示词基本功]] — source `src_20260528_2ba8539f`
+- [[concepts/aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md|AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程]] — source `src_20260528_04be660c`
 - [[concepts/aima-ai思维卡-外部链接归档.md|AIMA AI思维卡 — 外部链接归档]] — source `src_20260522_a8e05d98`
-- [[concepts/ai单元模型口述蒋老师.md|AI+单元模型口述（蒋老师）]] — source `src_20260525_92ea6173`
+- [[concepts/ai单元模型口述蒋老师.md|AI+单元模型口述（蒋老师/磊哥）]] — source `src_20260525_92ea6173`
 - [[concepts/ai时代判断力口述-2.md|AI时代判断力口述]] — source `src_20260525_6748cc27`
 - [[concepts/ai时代判断力口述-3.md|AI时代判断力口述（国帅）]] — source `src_20260525_66059442`
 - [[concepts/ai时代判断力口述.md|AI时代判断力口述]] — source `src_20260525_7ee2bba2`
@@ -198,7 +192,7 @@ _Last updated: 2026-05-25T05:14:02+00:00_
 - [[concepts/yt-decision-ai-partner.md|AI决策Partner对话法]] — source no source
 - [[concepts/yt-decision-canvas.md|Y模型决策画布（一页纸工具）]] — source no source
 - [[concepts/yt-decision-consensus-iceberg.md|共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问]] — source no source
-- [[concepts/yt-decision-depth-ladder.md|yt-decision-depth-ladder]] — source no source
+- [[concepts/yt-decision-depth-ladder.md|]] — source no source
 - [[concepts/yt-decision-full-process.md|科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型]] — source no source
 - [[concepts/yt-decision-habit-shift.md|X型→Y型决策者习惯诊断与转换]] — source no source
 - [[concepts/yt-decision-height-toolkit.md|高度分析工具：上帝视角四维提升法 + 高水平共识曲线]] — source no source
@@ -359,14 +353,14 @@ _Last updated: 2026-05-25T05:14:02+00:00_
 - [[concepts/yt-research-weaponry-course.md|一堂调研武器库课程]] — source no source
 - [[concepts/yt-system-course-catalog.md|一堂全课程目录索引]] — source no source
 - [[concepts/yt-system-course-map-lecture.md|一堂课程地图精华串讲]] — source no source
-- [[concepts/yt-tool-equity-checklist.md|股权设计检查清单]] — source no source
+- [[concepts/yt-tool-equity-checklist.md|'股权设计检查清单']] — source no source
 - [[concepts/yt-tool-hiring-scorecard.md|结构化面试打分卡]] — source no source
 - [[concepts/yt-tool-knowledge-extraction.md|团队知识萃取器]] — source no source
 - [[concepts/yt-tool-meeting-designer.md|会议设计师：一页纸会议蓝图]] — source no source
 - [[concepts/yt-tool-okr-cycle.md|OKR 制定与复盘罗盘]] — source no source
-- [[concepts/yt-tool-onboarding-90day.md|新人90天融入加速器]] — source no source
+- [[concepts/yt-tool-onboarding-90day.md|'新人90天融入加速器']] — source no source
 - [[concepts/yt-tool-peas-agent-analysis.md|PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统]] — source no source
-- [[concepts/yt-tool-project-health-radar.md|项目健康度雷达]] — source no source
+- [[concepts/yt-tool-project-health-radar.md|'项目健康度雷达']] — source no source
 - [[concepts/yt-tool-strategy-workshop.md|战略研讨会引导手册]] — source no source
 - [[concepts/yt-unit-model-ai-assisted.md|AI+单元模型：TCP-R双导师与出口式咨询实践]] — source no source
 - [[concepts/yt-unit-model-benchmark.md|单元模型基准值：科学类比、三点预测与基准值共建]] — source no source
@@ -411,6 +405,9 @@ _Last updated: 2026-05-25T05:14:02+00:00_
 - [[systems/obsidian-git-sync-protocol.md|Obsidian Git Multi-Device Sync Protocol]] — source no source
 - [[systems/sprint-2-gate-enrich-evidence.md|Sprint 2 门禁系统 + Enrich 举证 — 设计规格]] — source no source
 - [[systems/一堂方法论体系总图.md|一堂方法论体系总图]] — source no source
+- [[tools/yt-pitch-metaphor.md|'讲香·比喻化']] — source no source
+- [[tools/yt-pitch-quantification.md|'讲香·数字化']] — source no source
+- [[tools/yt-pitch-storytelling.md|'讲香·故事化']] — source no source
 - [[tools/yt-tool-equity-checklist.md|'股权设计检查清单']] — source no source
 - [[tools/yt-tool-hiring-scorecard.md|'结构化面试打分卡']] — source no source
 - [[tools/yt-tool-meeting-designer.md|'会议设计师：一页纸会议蓝图']] — source no source

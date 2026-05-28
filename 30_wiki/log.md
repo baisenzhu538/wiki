@@ -1506,3 +1506,11 @@ Chronological record of knowledge operations.
 - 2026-05-25T05:14:02+00:00 - Ingested `src_20260525_92ea6173` from 00_inbox/yitang-unit-model-ai-transcript.md
 
 - 2026-05-25T05:14:03+00:00 - Self-check: 9 auto-feedback record(s) created
+
+- 2026-05-28T14:55:38+00:00 - Ingested `src_20260528_2ba8539f` from 00_inbox/design/AI设计-AI设计基础01.md
+
+- 2026-05-28T14:55:38+00:00 - Ingested `src_20260528_04be660c` from 00_inbox/design/AI设计-AI设计师实操培训01.md
+
+- 2026-05-28T14:55:38+00:00 - Ingested `src_20260528_4277c6be` from 00_inbox/design/AI设计-文创案例设计课口述.md
+
+- 2026-05-28T14:55:40+00:00 - Self-check: 36 auto-feedback record(s) created

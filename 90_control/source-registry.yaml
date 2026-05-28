@@ -4806,3 +4806,45 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/yitang-unit-model-ai-transcript.md"
   content_sha256: "354cb277a13b5a2576421ae6e8112d8ec74a46c86f84ff7ef04aef2ecd0e09c5"
+
+- id: "src_20260528_2ba8539f"
+  title: "AIGC设计基础01：AI生图原理与提示词基本功"
+  type: "oral-transcript"
+  location: "10_raw/sources/src_20260528_2ba8539f-aigc设计基础01ai生图原理与提示词基本功.md"
+  captured_at: "2026-05-28T14:55:38+00:00"
+  registered_at: "2026-05-28T14:55:38+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/aigc设计基础01ai生图原理与提示词基本功.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/design/AI设计-AI设计基础01.md"
+  content_sha256: "48ceba6c0f6fe2e1ac0f09e0aa2aa884eedb43764e80b1062a54289d8a3423d3"
+
+- id: "src_20260528_04be660c"
+  title: "AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程"
+  type: "oral-transcript"
+  location: "10_raw/sources/src_20260528_04be660c-aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md"
+  captured_at: "2026-05-28T14:55:38+00:00"
+  registered_at: "2026-05-28T14:55:38+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/design/AI设计-AI设计师实操培训01.md"
+  content_sha256: "9bdf85376a9f95230c3445af3597db20bbbeb547c2f472b68446f79d29be213c"
+
+- id: "src_20260528_4277c6be"
+  title: "AIGC文创案例设计课：Leo文创IP从0到1全流程"
+  type: "oral-transcript"
+  location: "10_raw/sources/src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程.md"
+  captured_at: "2026-05-28T14:55:38+00:00"
+  registered_at: "2026-05-28T14:55:38+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: ["30_wiki/concepts/aigc文创案例设计课leo文创ip从0到1全流程.md"]
+  derived_outputs: []
+  inbox_path: "00_inbox/design/AI设计-文创案例设计课口述.md"
+  content_sha256: "a582787a936daf9050b887f12bece08ca89b34d95423dbb40e28ebcc6bf7acb0"
