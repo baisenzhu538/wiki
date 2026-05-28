@@ -32,7 +32,7 @@ updated: 2026-05-28
 | 1-20 | scaffold / validate / video CLI / infrastructure 等全部旧任务 | ✅ |
 | Sprint 3 | produce 自动预填 | ✅ commit 6270360。欧阳锋审查通过 |
 | Sprint 4 | 数据卫生（断链/frontmatter/双格式） | ✅ | **S4-1/S4-2/S4-3 全部 PASS** ✅ 欧阳锋审查通过。A类断链83→0，frontmatter245→0，双格式134→0 |
-| **Sprint 5** | **🔨 Validate→Ship 闭环** | **🔨** | **S5-1 Ship Gate 硬化 → S5-2 Feedback→Improve 闭环 → S5-3 测试套件** ⬇️ |
+| **Sprint 5** | **Validate→Ship 闭环** | ✅ | **S5-1/S5-2/S5-3 全部 PASS** ✅ 欧阳锋审查通过。9/9 tests, 388 pytest
 
 ---
 
@@ -73,6 +73,8 @@ updated: 2026-05-28
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
 | 05-28 | 黄药师 | Sprint 4 数据卫生（断链/frontmatter/双格式） | ✅ **全部 PASS**。A类83→0，FM 245→0，格式134→0 |
+| 05-28 | 黄药师 | Sprint 5（Validate→Ship 闭环） | ✅ **全部 PASS**。9/9 tests, 388 pytest, S5-1/S5-2/S5-3 |
+| 05-28 | 老顽童 | Phase C 文章 3 篇 | 🟡 有条件 PASS。内容 A-/A，缺 Audience/Core Thesis 节，修复后无需再审 |
 | 05-28 | 老顽童 | 路演工具箱 Batch 1（故事化/数字化/比喻化） | ✅ **PASS**。Phase A+B，3卡全通过，攻击者论证充实，v1.5 0 Failed |
 | 05-28 | 洪七公 | 单元模型域 VA 补齐（overview/dynamic/ladder） | ✅ A-。3处颜色违规需修 |
 | 05-28 | 老顽童 | 管理工具箱 Batch 3（T6+T7+T8 精修） | ✅ A-。格式+攻击者合格。补 Synthesis+旧卡重定向后升A |

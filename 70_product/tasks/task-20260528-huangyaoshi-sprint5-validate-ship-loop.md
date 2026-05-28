@@ -198,3 +198,52 @@ pytest  # 全量不降级
 ---
 
 *欧阳锋 · 2026-05-28*
+
+---
+
+## 欧阳锋审查意见（2026-05-28）
+
+### 代码变更
+
+| 文件 | 变更 | 用途 |
+|:----|:----|:------|
+| `kdo/cli.py` | +1 行 | 新增 `--from-eval` CLI 参数 |
+| `kdo/commands/delivery.py` | +42/-1 行 | **S5-1**：validation_snapshot 嵌入 delivery record + 结构化 ship 日志 |
+| `kdo/commands/feedback.py` | +125/-1 行 | **S5-2**：_scan_validation_state + _generate_improve_task_file + cmd_improve --from-eval |
+| `kdo/commands/quality.py` | +3 行 | **S5-2**：validate failed 时输出 feedback 建议 |
+| `tests/test_ship_gate.py` | 新文件，210 行 | **S5-3**：5 个测试场景 |
+| `tests/test_feedback_loop.py` | 新文件，221 行 | **S5-3**：4 个测试场景 |
+
+### 验收结果
+
+| # | 验收项 | 目标 | 实测 | 判定 |
+|:-:|:------|:---:|:----:|:----:|
+| 1 | S5-1：ship 记录含 validation_snapshot | delivery record 中有 | ✅ pytest test_ship_normal_flow 验证 snapshot 写入 frontmatter + body | **PASS** |
+| 2 | S5-1：validate fail 时 ship 拒绝 | pytest | ✅ test_ship_validation_fail 验证 deliveries 为 0 | **PASS** |
+| 3 | S5-2：eval 录入后输出建议改进项 | pytest | ✅ test_feedback_eval_results_suggests_improvements | **PASS** |
+| 4 | S5-2：`kdo improve --from-eval` 生成 task 文件 | pytest + 文件存在 | ✅ test_improve_from_eval_generates_task_file | **PASS** |
+| 5 | S5-2：validate fail 时输出 feedback 建议 | pytest | ✅ test_validate_fail_outputs_feedback_hint | **PASS** |
+| 6 | S5-3：7 个测试场景全部 PASS | 7 | ✅ **9/9 PASS**（含 2 个超额场景） | **PASS** |
+| 7 | pytest 全量不降级 | 354/354 | ✅ **388 passed, 1 skipped**（+34 = Sprint 5 9 + 前期增量） | **PASS** |
+
+### 代码审查
+
+**S5-1（delivery.py）** ✅ 干净。validation_snapshot 嵌入 frontmatter（通过 record dict）和 body（通过 ## Validation Snapshot 节）双保险。结构化日志从 `print(f"Recorded delivery...")` 升级为三段链式输出。skip 标记清晰。
+
+**S5-2（feedback.py）** ✅ `_scan_validation_state` 设计合理——遍历非 shipped 的非内置 artifact，按 fail → warn 优先级输出建议。`_generate_improve_task_file` 生成的标准任务模板含 source feedback 全文 + 关联 validation issues + 可勾选的 action items。`--from-eval` 接入了现有的 `cmd_improve` 入口，不破坏原有逻辑。
+
+**S5-2（quality.py）** ✅ 仅 +3 行——validate fail 后在 summary 行后追加 feedback 提示。侵入最小化。
+
+**测试** ✅ `test_ship_gate.py` 用 tempfile workspace + find_workspace monkey-patch，独立干净。`test_feedback_loop.py` 分 3 个 TestCase 覆盖 3 个独立组件（feedback eval / improve from-eval / validate hint）。除任务要求的 7 个场景外，还超额覆盖了 `--force` 允许重复 ship。
+
+### 签发
+
+> **黄药师：Sprint 5 — PASS ✅**
+>
+> S5-1（Ship Gate 硬化）✅ — validation_snapshot 写入 delivery record 双保险
+> S5-2（Feedback→Improve 闭环）✅ — _scan_validation_state → 建议改进项 → `--from-eval` 生成 task 文件
+> S5-3（测试套件）✅ — 9/9 PASS，pytest 388/388 不降级
+>
+> 代码增量 171 行，侵入最小化，无架构变更。**Sprint 6 可启动。**
+>
+> *欧阳锋 · 2026-05-28*
