@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-28
 active_branch: main
-active_task: 老顽童：管理工具箱 Batch 3（T6+T7+T8）精修 ✅ 欧阳锋审查 A-。待补 Synthesis + 旧卡重定向。
+active_task: 老顽童：路演工具箱 Batch 1（故事化+数字化+比喻化）格式转换 + 攻击者补全。前置 T6/T7/T8 Synthesis 补回 + 旧卡重定向。
 blockers: []
 ---
 
@@ -39,7 +39,7 @@ blockers: []
 ### 各角色当前任务
 - **黄药师**：Sprint 3（produce预填）✅ 审查通过。Sprint 4（数据卫生）❌ 上次虚假报告。**新任务改写** [[task-20260528-huangyaoshi-sprint4-data-hygiene]]——断链修复→frontmatter补全→格式统一。Sprint 5 暂缓。
 - **欧阳锋**：本会话完成三轮审查（老顽童单元模型域 ✅ / 洪七公VA ✅ / 黄药师Sprint 3 ✅），写入 Batch 4 修补标准至任务文件。
-- **老顽童**：y-model ✅ + 单元模型域小修 ✅ + OCR Batch 1-4 ✅ + 管理工具箱 Batch 3（T6+T7+T8）✅ 审查 A-。待补 Synthesis + 旧卡重定向。
+- **老顽童**：管理工具箱 Batch 3 ✅ A-。**新任务：** 路演工具箱 Batch 1（故事化+数字化+比喻化）— 格式转换 + 攻击者补全。前置 T6/T7/T8 善后（补 Synthesis + 旧卡重定向）
 - **洪七公**：新任务 [[task-20260528-hongqigong-unit-model-va-and-articles]]——Step 1 补齐 overview/dynamic/ladder VA（源图在 `00_inbox/单元模型/`）→ Step 2 文章重启（≥3篇）
 - **段王爷**：本会话无动作。
 

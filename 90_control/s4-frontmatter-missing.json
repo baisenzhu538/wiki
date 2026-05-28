@@ -1,0 +1,2235 @@
+{
+  "total_cards": 428,
+  "missing_stats": {
+    "id": 240,
+    "type": 3,
+    "status": 1,
+    "any": 245,
+    "no_frontmatter": 5
+  },
+  "cards_with_issues": [
+    {
+      "file": "30_wiki\\concepts\\2026-05-17-深夜感想.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "2026-05-17-深夜感想"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ai-native-五层进阶从答案到效率到作品到产品到系统.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ai-native-五层进阶从答案到效率到作品到产品到系统"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\aima-ai思维卡-外部链接归档.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "aima-ai思维卡-外部链接归档"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ai单元模型口述蒋老师.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ai单元模型口述蒋老师"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ai时代判断力口述-2.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ai时代判断力口述-2"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ai时代判断力口述-3.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ai时代判断力口述-3"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ai时代判断力口述.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ai时代判断力口述"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\business-analysis.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "business-analysis"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\business-research-skill-oscar-13-weapon-system.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "business-research-skill-oscar-13-weapon-system"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\deepseek-v4-在知识管理系统中的应用.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "deepseek-v4-在知识管理系统中的应用"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\design-ai-image-generation.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "design-ai-image-generation"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ec工业化规范手册-v2.8.0.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ec工业化规范手册-v2.8.0"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\EC工业化规范手册.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "EC工业化规范手册"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\graph-rag.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "graph-rag"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\HIS系统开发实现方案-架构师指南.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "HIS系统开发实现方案-架构师指南"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\HIS系统深度调研.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "HIS系统深度调研"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\kdo_product_design_agent_final.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "kdo_product_design_agent_final"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\kimi-深度调研集群方法论-deep-research-swarm.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "kimi-深度调研集群方法论-deep-research-swarm"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\knowledge-delivery-os-快速体验指南-飞书云文档.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "knowledge-delivery-os-快速体验指南-飞书云文档"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\learning-thinking.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "learning-thinking"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\meta-prompt-eng.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "meta-prompt-eng"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\obsidian-kdo-内容产出工作流-产品设计大纲.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "obsidian-kdo-内容产出工作流-产品设计大纲"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-ocr_screenshot2.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-ocr_screenshot2"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-ocr_snipaste_2026-05-15_21-39-40.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-ocr_snipaste_2026-05-15_21-39-40"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-screenshot1.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-screenshot1"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-screenshot2.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-screenshot2"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-truman的个人成长五步法.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-truman的个人成长五步法"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-truman的选择两条职业成长路线.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-truman的选择两条职业成长路线"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-个人修炼-y模型.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-个人修炼-y模型"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-个人修炼-全景图muse模型.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-个人修炼-全景图muse模型"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-个人修炼-双三角模型.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-个人修炼-双三角模型"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-个人修炼-提问刻意练习画布.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-个人修炼-提问刻意练习画布"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-个人修炼-科学学习ipo-全景策略.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-个人修炼-科学学习ipo-全景策略"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-个人修炼-科学学习ipo完整清单.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-个人修炼-科学学习ipo完整清单"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-个人修炼-科学学习ipo模型.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-个人修炼-科学学习ipo模型"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-个人修炼-科学提问刻意练习.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-个人修炼-科学提问刻意练习"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-个人修炼-表达力火箭模型-执行武器库"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-个人修炼-表达力火箭模型.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-个人修炼-表达力火箭模型"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-个人修炼-解放思想.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-个人修炼-解放思想"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-个人修炼-讲香十指模型-超级武器库.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-个人修炼-讲香十指模型-超级武器库"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-个人修炼-讲香基本功.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-个人修炼-讲香基本功"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-个人修炼-课程清单.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-个人修炼-课程清单"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-创业必修-课程清单.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-创业必修-课程清单"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-地图-个人地图.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-地图-个人地图"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-地图-个人地图_conv.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-地图-个人地图_conv"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-地图-创业地图.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-地图-创业地图"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-地图-创业地图_conv.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-地图-创业地图_conv"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-地图-管理地图.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-地图-管理地图"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-地图-管理地图_conv.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-地图-管理地图_conv"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-案例拆解-课程清单.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-案例拆解-课程清单"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-泛产品设计-十年苦练30招.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-泛产品设计-十年苦练30招"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-roi决策评估画布-案例01.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-roi决策评估画布-案例01"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-roi决策评估画布-案例02.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-roi决策评估画布-案例02"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-roi决策评估画布-案例03.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-roi决策评估画布-案例03"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-roi决策评估画布-案例04.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-roi决策评估画布-案例04"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-roi决策评估画布.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-roi决策评估画布"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-人机协作决策.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-人机协作决策"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-关键假设abcd模型.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-关键假设abcd模型"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-关键训练清单重要.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-关键训练清单重要"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-发现决策.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-发现决策"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-商业模式-完整财务公式决策.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-商业模式-完整财务公式决策"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-宽度-个人.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-宽度-个人"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-宽度-企业.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-宽度-企业"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-宽度-团队.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-宽度-团队"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-深度-l1优先级定性.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-深度-l1优先级定性"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-深度-l2部分定量.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-深度-l2部分定量"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-深度-l3定量公式.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-深度-l3定量公式"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-深度-l4-案例01.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-深度-l4-案例01"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-深度-l4严格财务公式.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-深度-l4严格财务公式"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-深度-你的业务是一次抽样实验"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-深度-决策经验值.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-深度-决策经验值"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-深度-案例01.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-深度-案例01"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-深度-案例02.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-深度-案例02"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-深度-案例03.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-深度-案例03"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-深度-案例04.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-深度-案例04"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-深度-案例05.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-深度-案例05"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-深度-案例06.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-深度-案例06"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-稀缺机会窗口.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-稀缺机会窗口"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-稀缺资源清单.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-稀缺资源清单"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-项目方案评估三角形.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-项目方案评估三角形"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-科学决策-高度-两种典型的思考习惯.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-科学决策-高度-两种典型的思考习惯"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂-管理必修-课程清单.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂-管理必修-课程清单"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂y模型-科学成事道理.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂y模型-科学成事道理"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂y模型steps策略集.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂y模型steps策略集"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂y模型实操工作流.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂y模型实操工作流"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂个人地图高潜力成长者修炼全景图.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂个人地图高潜力成长者修炼全景图"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂五步法-产品内核画布.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂五步法-产品内核画布"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂五步法画布.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂五步法画布"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂产品内核-十大典型指标.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂产品内核-十大典型指标"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂刻意练习十年成长指数.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂刻意练习十年成长指数"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂提炼过的因果模型.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂提炼过的因果模型"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂最佳转化率动力曲线图.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂最佳转化率动力曲线图"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂泛产品设计-十年修炼爬山地图.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂泛产品设计-十年修炼爬山地图"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂泛产品设计-多出牌多练习.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂泛产品设计-多出牌多练习"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂泛产品设计36计-全套地图.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂泛产品设计36计-全套地图"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂深度复盘冰山图.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂深度复盘冰山图"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂转化率-10大容易浪费的触点.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂转化率-10大容易浪费的触点"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂进步大地图.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂进步大地图"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-一堂进步大地图_compressed.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-一堂进步大地图_compressed"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-优秀泛产品设计者的自我修养.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-优秀泛产品设计者的自我修养"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-婚礼操盘-用户和场景.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-婚礼操盘-用户和场景"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-婚礼规划.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-婚礼规划"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-审美提升的层级.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-审美提升的层级"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-微信图片_20260507004746_32_32.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-微信图片_20260507004746_32_32"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-微信图片_20260507004751_33_32.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-微信图片_20260507004751_33_32"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-微信图片_20260507004755_34_32.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-微信图片_20260507004755_34_32"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-微信图片_20260507004758_35_32.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-微信图片_20260507004758_35_32"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-微信图片_20260507004801_37_32.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-微信图片_20260507004801_37_32"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-微信图片_20260507004802_38_32.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-微信图片_20260507004802_38_32"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-微信图片_20260507004804_39_32.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-微信图片_20260507004804_39_32"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-微信图片_20260507004806_40_32.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-微信图片_20260507004806_40_32"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-微信图片_20260507004811_41_32.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-微信图片_20260507004811_41_32"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-审美卡片-最佳实践建模.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-审美卡片-最佳实践建模"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-审美卡片-最佳实践收集.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-审美卡片-最佳实践收集"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-审美卡片-最佳实践池子.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-审美卡片-最佳实践池子"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-审美卡片-美好作品想象.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-审美卡片-美好作品想象"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-审美工具箱指南.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-审美工具箱指南"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-一堂五步法.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-用户卡片-一堂五步法"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-动力阻力.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-用户卡片-动力阻力"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-场景推演.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-用户卡片-场景推演"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-多视角思考.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-用户卡片-多视角思考"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-峰终定律.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-用户卡片-峰终定律"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-惊喜公式.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-用户卡片-惊喜公式"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-用户分层.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-用户卡片-用户分层"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-用户视角.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-用户卡片-用户视角"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-行业分析画布.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-用户卡片-行业分析画布"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-需求挖掘.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-用户卡片-需求挖掘"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-用户卡片-项目背景分析.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-用户卡片-项目背景分析"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-roi分析.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-roi分析"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-业务建模.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-业务建模"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-低成本测试mvp.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-低成本测试mvp"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-假设拆解.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-假设拆解"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-内核和边界.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-内核和边界"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-努力仿真.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-努力仿真"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-十倍速验证.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-十倍速验证"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-善用佳软.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-善用佳软"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-复盘迭代.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-复盘迭代"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-攻坚会.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-攻坚会"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-灵感闪现.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-灵感闪现"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-管理三段论.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-管理三段论"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-解放思想.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-解放思想"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-设计原则.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-设计原则"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-逻辑mece.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-逻辑mece"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-酝酿式打磨.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-酝酿式打磨"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-里程碑拆解.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-里程碑拆解"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-落地卡片-风险管理.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-落地卡片-风险管理"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计-需求工具箱指南.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计-需求工具箱指南"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计的应用场景示意图.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计的应用场景示意图"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计者的三大自我修养.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计者的三大自我修养"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计者的自我修养.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计者的自我修养"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计落地工具篇指南.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计落地工具篇指南"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-泛产品设计落地篇.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-泛产品设计落地篇"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-萃取总结.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-萃取总结"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-顶级产品追求的方向-乔布斯.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-顶级产品追求的方向-乔布斯"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-项目背景问题思考的8个维度.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-项目背景问题思考的8个维度"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\ocr-预判模型.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "ocr-预判模型"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\paddleocr-skill.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "paddleocr-skill"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\product-ux.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "product-ux"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\research_methodology.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "research_methodology"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\sprint-2-门禁举证验收.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "sprint-2-门禁举证验收"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\tinyfish-agentic-web-infrastructure.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "tinyfish-agentic-web-infrastructure"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\tools-workflows.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "tools-workflows"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\truman-perspective-skill.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "truman-perspective-skill"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "web-scraping-三剑客-scrapling-crawl4ai-firecrawl"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\writing-content.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "writing-content"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yitang-course-map.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yitang-course-map"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-case-mandatory-cases.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-case-mandatory-cases"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-decision-depth-ladder.md",
+      "issues": [
+        "no_frontmatter"
+      ],
+      "suggested_fix": {
+        "id": "yt-decision-depth-ladder",
+        "type": "concept",
+        "status": "enriched"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-management-basic-skills.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-management-basic-skills"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-management-business-formula.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-management-business-formula"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-management-company-culture.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-management-company-culture"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-management-conversion-hacking.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-management-conversion-hacking"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-management-finance-basics.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-management-finance-basics"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-management-founder-role.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-management-founder-role"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-management-goal-management.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-management-goal-management"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-management-leadership-levels.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-management-leadership-levels"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-management-onboarding.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-management-onboarding"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-management-partnership-equity.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-management-partnership-equity"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-management-project-management.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-management-project-management"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-management-scientific-decision.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-management-scientific-decision"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-management-scientific-hiring.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-management-scientific-hiring"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-management-scientific-meetings.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-management-scientific-meetings"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-management-strategy-meeting.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-management-strategy-meeting"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-management-team-knowledge.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-management-team-knowledge"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\yt-system-course-map-lecture.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-system-course-map-lecture"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\互联网医院模式深度调研报告.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "互联网医院模式深度调研报告"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\人机协作决策-双三角模型.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "人机协作决策-双三角模型"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\保达云诊所深度调研报告.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "保达云诊所深度调研报告"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\在设计小伙伴的反馈还挺好的.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "在设计小伙伴的反馈还挺好的"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\存储策略.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "存储策略"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\学会提问在信息洪流中锻造批判性思维的利刃.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "学会提问在信息洪流中锻造批判性思维的利刃"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\开源HIS系统代码深度分析报告.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "开源HIS系统代码深度分析报告"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\紫鲸ai_智能体工作流平台_深度分析与产品设计.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "紫鲸ai_智能体工作流平台_深度分析与产品设计"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\紫鲸ai智能体工作流平台.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "紫鲸ai智能体工作流平台"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\老朱的水感-2026年5月.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "老朱的水感-2026年5月"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\街顺app全面调研报告.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "街顺app全面调研报告"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\视觉prompt三层操作系统-srom-visual-os.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "视觉prompt三层操作系统-srom-visual-os"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\诊所o2o外卖平台业务深度调研报告.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "诊所o2o外卖平台业务深度调研报告"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\轻量级诊所HIS调研全清单.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "轻量级诊所HIS调研全清单"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\那今天不会.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "那今天不会"
+      }
+    },
+    {
+      "file": "30_wiki\\concepts\\鑫港湾his系统分阶段整改报告.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "鑫港湾his系统分阶段整改报告"
+      }
+    },
+    {
+      "file": "30_wiki\\contradictions.md",
+      "issues": [
+        "no_frontmatter"
+      ],
+      "suggested_fix": {
+        "id": "contradictions",
+        "type": "concept",
+        "status": "draft"
+      }
+    },
+    {
+      "file": "30_wiki\\decisions\\high-density-composite-compilation-strategy.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "high-density-composite-compilation-strategy"
+      }
+    },
+    {
+      "file": "30_wiki\\decisions\\kdo-ec-industrialization-migration-proposal.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "kdo-ec-industrialization-migration-proposal"
+      }
+    },
+    {
+      "file": "30_wiki\\decisions\\kdo-priority-checklist.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "kdo-priority-checklist"
+      }
+    },
+    {
+      "file": "30_wiki\\decisions\\kdo-protocol-implementation-roadmap.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "kdo-protocol-implementation-roadmap"
+      }
+    },
+    {
+      "file": "30_wiki\\decisions\\plan_20260501_05858800-improvement-plan.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "plan_20260501_05858800-improvement-plan"
+      }
+    },
+    {
+      "file": "30_wiki\\decisions\\plan_20260501_47264869-improvement-plan.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "plan_20260501_47264869-improvement-plan"
+      }
+    },
+    {
+      "file": "30_wiki\\decisions\\plan_20260501_8001399c-improvement-plan.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "plan_20260501_8001399c-improvement-plan"
+      }
+    },
+    {
+      "file": "30_wiki\\decisions\\plan_20260501_85a84b92-improvement-plan.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "plan_20260501_85a84b92-improvement-plan"
+      }
+    },
+    {
+      "file": "30_wiki\\decisions\\plan_20260501_8ecb74e3-improvement-plan.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "plan_20260501_8ecb74e3-improvement-plan"
+      }
+    },
+    {
+      "file": "30_wiki\\decisions\\plan_20260501_97170532-improvement-plan.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "plan_20260501_97170532-improvement-plan"
+      }
+    },
+    {
+      "file": "30_wiki\\decisions\\plan_20260501_ca61cdd7-improvement-plan.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "plan_20260501_ca61cdd7-improvement-plan"
+      }
+    },
+    {
+      "file": "30_wiki\\decisions\\plan_20260501_e1e150b9-improvement-plan.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "plan_20260501_e1e150b9-improvement-plan"
+      }
+    },
+    {
+      "file": "30_wiki\\decisions\\plan_20260503_f3e9a2b1-improvement-plan.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "plan_20260503_f3e9a2b1-improvement-plan"
+      }
+    },
+    {
+      "file": "30_wiki\\entities\\Kimi-月之暗面.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "Kimi-月之暗面"
+      }
+    },
+    {
+      "file": "30_wiki\\entities\\YC-Y-Combinator.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "YC-Y-Combinator"
+      }
+    },
+    {
+      "file": "30_wiki\\entities\\一堂.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "一堂"
+      }
+    },
+    {
+      "file": "30_wiki\\entities\\紫鲸AI.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "紫鲸AI"
+      }
+    },
+    {
+      "file": "30_wiki\\entities\\鑫港湾.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "鑫港湾"
+      }
+    },
+    {
+      "file": "30_wiki\\frameworks\\yt-decision-abcd-model.md",
+      "issues": [
+        "id",
+        "status"
+      ],
+      "suggested_fix": {
+        "id": "yt-decision-abcd-model",
+        "status": "enriched"
+      }
+    },
+    {
+      "file": "30_wiki\\frameworks\\yt-unit-model-ladder.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-unit-model-ladder"
+      }
+    },
+    {
+      "file": "30_wiki\\frameworks\\yt-unit-model-overview.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-unit-model-overview"
+      }
+    },
+    {
+      "file": "30_wiki\\index.md",
+      "issues": [
+        "no_frontmatter"
+      ],
+      "suggested_fix": {
+        "id": "index",
+        "type": "concept",
+        "status": "draft"
+      }
+    },
+    {
+      "file": "30_wiki\\links\\index.md",
+      "issues": [
+        "no_frontmatter"
+      ],
+      "suggested_fix": {
+        "id": "index",
+        "type": "concept",
+        "status": "draft"
+      }
+    },
+    {
+      "file": "30_wiki\\log.md",
+      "issues": [
+        "no_frontmatter"
+      ],
+      "suggested_fix": {
+        "id": "log",
+        "type": "concept",
+        "status": "draft"
+      }
+    },
+    {
+      "file": "30_wiki\\projects\\互联网医院项目.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "互联网医院项目"
+      }
+    },
+    {
+      "file": "30_wiki\\projects\\诊所O2O项目.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "诊所O2O项目"
+      }
+    },
+    {
+      "file": "30_wiki\\projects\\鑫港湾HIS项目.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "鑫港湾HIS项目"
+      }
+    },
+    {
+      "file": "30_wiki\\systems\\agent-external-brain-design.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "agent-external-brain-design"
+      }
+    },
+    {
+      "file": "30_wiki\\systems\\graph-rag-retrieval-layer.md",
+      "issues": [
+        "id",
+        "type"
+      ],
+      "suggested_fix": {
+        "id": "graph-rag-retrieval-layer",
+        "type": "concept"
+      }
+    },
+    {
+      "file": "30_wiki\\systems\\kdo-batch-produce-req014.md",
+      "issues": [
+        "id",
+        "type"
+      ],
+      "suggested_fix": {
+        "id": "kdo-batch-produce-req014",
+        "type": "concept"
+      }
+    },
+    {
+      "file": "30_wiki\\systems\\kdo-protocol.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "kdo-protocol"
+      }
+    },
+    {
+      "file": "30_wiki\\systems\\kdo-watch-health-check-layer.md",
+      "issues": [
+        "id",
+        "type"
+      ],
+      "suggested_fix": {
+        "id": "kdo-watch-health-check-layer",
+        "type": "concept"
+      }
+    },
+    {
+      "file": "30_wiki\\systems\\obsidian-git-sync-protocol.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "obsidian-git-sync-protocol"
+      }
+    },
+    {
+      "file": "30_wiki\\systems\\sprint-2-gate-enrich-evidence.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "sprint-2-gate-enrich-evidence"
+      }
+    },
+    {
+      "file": "30_wiki\\systems\\一堂方法论体系总图.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "一堂方法论体系总图"
+      }
+    },
+    {
+      "file": "30_wiki\\tools\\yt-tool-unit-model-ai-assisted.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-tool-unit-model-ai-assisted"
+      }
+    },
+    {
+      "file": "30_wiki\\tools\\yt-tool-unit-model-benchmark.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-tool-unit-model-benchmark"
+      }
+    },
+    {
+      "file": "30_wiki\\tools\\yt-tool-unit-model-construction.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-tool-unit-model-construction"
+      }
+    },
+    {
+      "file": "30_wiki\\tools\\yt-tool-unit-model-dynamic.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-tool-unit-model-dynamic"
+      }
+    },
+    {
+      "file": "30_wiki\\tools\\yt-tool-unit-model-selection.md",
+      "issues": [
+        "id"
+      ],
+      "suggested_fix": {
+        "id": "yt-tool-unit-model-selection"
+      }
+    }
+  ]
+}

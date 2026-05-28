@@ -19,7 +19,8 @@ updated: 2026-05-28
 | 11 | OCR Batch 4（15张） | ✅ | 7张手写✅ + 8张批量模板修补✅。欧阳锋审查通过 A- |
 | 12 | y-model validator 修复 | ✅ | `kdo validate --v15` exit 0 |
 | 13 | 单元模型域2处小修（overview id+typo / benchmark乱码） | ✅ | |
-| **14** | **管理工具箱 Batch 3（T6+T7+T8 精修）** | ✅ | 欧阳锋审查 A- ✅。格式 + 攻击者论证合格。需补 Synthesis + 旧卡重定向（2项顺手修，修完升A）。详见 [[task-20260528-laowantong-mgmt-toolbox-batch3]] |
+| **14** | **管理工具箱 Batch 3（T6+T7+T8 精修）** | ✅ | A- ✅。待补 Synthesis + 旧卡重定向（记入 Batch 4 前置） |
+| **15** | **🔨 路演工具箱 Batch 1（故事化+数字化+比喻化）** | **🔨** | 详见 [[task-20260528-laowantong-pitch-toolbox-batch1]] |
 
 > **规则**：顺序执行，不跳。每完成一个 → 跑验证 → 通知欧阳锋审查。
 
