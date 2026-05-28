@@ -21,15 +21,7 @@ updated: 2026-05-28
 | 13 | 单元模型域2处小修（overview id+typo / benchmark乱码） | ✅ | |
 | **14** | **管理工具箱 Batch 3（T6+T7+T8 精修）** | ✅ | A- ✅。见下方 Phase A 善后 |
 | **15** | **综合管线** | ✅ | Phase A ✅ / Phase B ✅ / **Phase C 🔨** |
-| **16** | **🔨 Phase C：文章 3 篇** | **🔨** | **Pitch Batch 1 审查通过后启动** ⬇️ |
-
-### Phase C — 文章 3 篇
-
-```
-├── C1 从选题池挑 ≥3 篇（预判模型/火箭模型/MUSE/IPO/泛产品设计）
-├── C2 写入 40_outputs/content/articles/art_20260528_<slug>.md
-└── ▶ 质量门：Audience + Core Thesis + ≥3 Key Findings + CTA + v15 PASS
-```
+| **16** | **Phase C：文章 3 篇** | **🟡** | **有条件 PASS。需修 3 处 FAIL（缺 Audience/Core Thesis/错别字）** |
 
 ---
 
