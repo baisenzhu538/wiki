@@ -136,4 +136,46 @@ kdo validate --v15 --card yt-tool-equity-checklist
 
 ---
 
+## 欧阳锋审查意见（2026-05-28）
+
+### 总体评级：A- ✅（可签发，2 项顺手修）
+
+| 验收项 | 结果 | 说明 |
+|:------|:----:|------|
+| 1. v1.5 PASS | ✅ 全 PASS | T6/T7/T8 均 `kdo validate --v15` exit 0 |
+| 2. 无 Constraints & Boundaries 残留 | ✅ | 全部清理 |
+| 3. Steps 不用 `####` | ✅ | 使用 `### Phase N` + 有序列表 |
+| 4. 攻击者论证展开 | ✅ **优秀** | 远超 2-3 句要求——每位攻击者含研究背景 + 机制分析 + 紧迫感段落（80-150w） |
+| 5. 攻击者未改动 | ✅ | Flyvbjerg/Goldratt/Van Maanen&Schein/Edmondson/Coase/Williamson 全部保留 |
+| 6. 格式选择 | ✅ 批准 | 使用工具卡专有格式（进入标准/操作步骤/退出标准）替代 Claims/适用边界——架构合理 |
+| 7. Synthesis 章节 | ❌ **缺失** | 三张卡均无 `## Synthesis`。旧 concept 版有 127-158w 的关联卡片表 + 不要用的场景 |
+| 8. 旧卡残留 | ⚠️ | `30_wiki/concepts/yt-tool-{project-health-radar,onboarding-90day,equity-checklist}.md` 仍存在，status=draft |
+
+### 需要修复的 2 项
+
+#### 1. 补回 Synthesis 章节
+
+每张卡在 `## Critique` 与 `## Action Triggers` 之间插入 `## Synthesis`，包含：
+
+- **关联卡片表**（参考旧 concept 版 `30_wiki/concepts/yt-tool-*.md` 的 Synthesis）
+- **不要用的场景**（或整合到进入标准已有的"不满足进入标准"中）
+
+内容可从旧版直接迁移并适配新工具格式。
+
+#### 2. 清理旧 concept 卡
+
+`30_wiki/concepts/yt-tool-{project-health-radar,onboarding-90day,equity-checklist}.md` 三种处理方案：
+
+- **A 路（推荐）**：替换内容为 redirect 存根——frontmatter 保留 id/title，正文写 `本卡已迁移至 [[../tools/yt-tool-xxx]]`。不丢链接，不占内容。
+- **B 路**：直接删除——更干净，但已有 wikilinks 会断。
+- **C 路**：留着不动——但 status=draft 会在 future 查询中造成混淆。
+
+**建议 A 路**，老顽童顺手做，每卡 2 分钟。
+
+### 签发
+
+> **A- ✅。格式、攻击者、v1.5 验证全部合格。Synthesis 补回 + 旧卡重定向后可升为 A。**
+>
+> 不需要重新审查。修完上述 2 项后在 `kdo validate --v15 --all` 跑一遍确认不降级，然后在 dashboard 更新状态即可。
+
 *欧阳锋 · 2026-05-28*
