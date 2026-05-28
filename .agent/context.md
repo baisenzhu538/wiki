@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-28
 active_branch: main
-active_task: 黄药师 Sprint 4 ✅ 通过。老顽童：路演工具箱 Batch 1 管线。洪七公：路演域 VA。
+active_task: 黄药师 Sprint 5（Validate→Ship 闭环）。老顽童 Phase C（文章3篇）。洪七公路演域 VA。段王爷：视频交付记录待补。
 blockers: []
 ---
 
@@ -37,7 +37,7 @@ blockers: []
 ## 当前共享状态
 
 ### 各角色当前任务
-- **黄药师**：Sprint 4（数据卫生）✅ 欧阳锋审查通过。A类断链83→0、frontmatter245→0、双格式134→0。Sprint 5 可启动。
+- **黄药师**：Sprint 4 ✅ 通过。**新任务：** Sprint 5（Validate→Ship 闭环）— S5-1 Ship Gate 硬化 / S5-2 Feedback→Improve 闭环 / S5-3 测试套件
 - **欧阳锋**：本会话完成三轮审查（老顽童单元模型域 ✅ / 洪七公VA ✅ / 黄药师Sprint 3 ✅），写入 Batch 4 修补标准至任务文件。
 - **老顽童**：管理工具箱 Batch 3 ✅ A-。路演工具箱 Batch 1（故事化+数字化+比喻化）✅ 欧阳锋审查通过。**新任务：** Phase C 文章 3 篇（从选题池挑 ≥3 篇）
 - **洪七公**：单元模型域 VA 补齐 ✅ A-。**新任务：** 路演域 VA 补齐（讲香十指模型超级武器库 + 表达力火箭模型）。先修单元模型 3 处颜色违规

@@ -40,8 +40,7 @@ updated: 2026-05-28
 | 1-20 | scaffold / validate / video CLI / infrastructure 等全部旧任务 | ✅ |
 | Sprint 3 | produce 自动预填 | ✅ commit 6270360。欧阳锋审查通过 |
 | Sprint 4 | 数据卫生（断链/frontmatter/双格式） | ✅ | **S4-1/S4-2/S4-3 全部 PASS** ✅ 欧阳锋审查通过。A类断链83→0，frontmatter245→0，双格式134→0 |
-
-> Sprint 5（Validate→Ship 闭环）暂缓。
+| **Sprint 5** | **🔨 Validate→Ship 闭环** | **🔨** | **S5-1 Ship Gate 硬化 → S5-2 Feedback→Improve 闭环 → S5-3 测试套件** ⬇️ |
 
 ---
 
