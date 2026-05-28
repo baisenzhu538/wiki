@@ -127,4 +127,44 @@ pytest
 
 ---
 
+## 欧阳锋审查报告（2026-05-29）
+
+### 验收结果
+
+| # | 验收项 | 目标 | 实测 | 判定 |
+|:-:|:------|:---:|:----:|:----:|
+| 1 | 三篇文章的 `kdo validate --v15 --article` 不再报 traceable_sources WARN | WARN → PASS | ✅ 三篇均 PASS | ✅ **PASS** |
+| 2 | 仅改 article validator，不影响 card/skill 的 source_refs 检查 | 不改无关代码 | ✅ 仅动 quality.py article 路径 | ✅ **PASS** |
+| 3 | pytest 全量不降级 | 388 passed, 1 skipped | ✅ 388 passed, 1 skipped | ✅ **PASS** |
+
+### 代码审查
+
+**quality.py** L1357-1363 —— 正则回退检测 `source_refs`：
+
+```python
+if not source_refs:
+    if re.search(r'^source_refs:\s*\n(?:\s+-.+\n?)+', raw, re.MULTILINE):
+        source_refs = ["detected"]
+```
+
+**问题原因诊断**：`parse_frontmatter` 是逐行解析器，遇到 YAML 多行列表（`source_refs:\n  - xxx\n  - yyy`）时丢弃了列表项，导致 `fm.get("source_refs", [])` 返回空列表。正则回退方案正确——在正常解析返回空时，回头在原始文本中搜 `source_refs:` + 列表模式。
+
+**边界安全性**：
+- 正则命中后设 `["detected"]` 哨兵值而非真实列表。当前代码路径只有 `if source_refs or has_footnotes:` 这一个判断点，哨兵值足够。如果后续代码遍历 `source_refs` 拿具体路径，会拿不到真值——目前无此路径，安全。
+- 正则 `(?:\s+-.+\n?)+` 要求缩进 `-` 开头，对 YAML 有效缩进（`  - xxx`）可匹配。tab 缩进或 inline 格式 `source_refs: [a, b]` 不会命中——但此时 `parse_frontmatter` 也不会丢，不需回退。覆盖合理。
+
+### 附带发现
+
+黄药师 working tree 中还有 Sprint 5 的改动（delivery.py/+42、feedback.py/+125、cli.py/+1、test_ship_gate.py、test_feedback_loop.py）尚未 commit。Sprint 5 审查时已通过但未入库。建议一并提交。
+
+### 签发
+
+> **黄药师：Sprint 5a — Article Validator source_refs 识别修复 ✅ PASS**
+>
+> 修复正确，目标行为验证通过（3/3 文章 traceable_sources 从 WARN 变为 PASS）。pytest 388/1 无降级。改动量 8 行，精准解决了 `parse_frontmatter` 丢弃 YAML 多行列表的问题。
+>
+> *欧阳锋 · 2026-05-29*
+
+---
+
 *欧阳锋 · 2026-05-28*
