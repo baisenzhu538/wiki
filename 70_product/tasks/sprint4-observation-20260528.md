@@ -13,10 +13,10 @@
 | 断链（broken） | ~113 | 413 | 多 3.6x |
 | 可自动修复 | 未分类 | 83 条（20个唯一目标） | — |
 | 目标不存在 | 未分类 | 330 条（101个唯一目标） | — |
-| frontmatter 缺失 | ~237 | **待测**（`kdo lint` 无此 flag） | — |
-| 新旧格式并存 | ~134 | **待测**（`kdo lint` 无此 flag） | — |
+| frontmatter 缺失 | ~237 | **245**（240缺id / 5无frontmatter / 3缺type / 1缺status） | ✅ 吻合 |
+| 新旧格式并存 | ~134 | **134**（130混用+4纯旧格式） | ✅ 精确 |
 
-**关键发现**：`kdo lint` 当前版本不支持 `--broken-links` / `--missing-frontmatter` / `--mixed-format` 三个 flag。任务文件假设的接口不存在。已自建扫描脚本（`90_control/s4_scan_broken_links.py`），实测 5463 条链接，断链 413 条。
+**关键发现**：`kdo lint` 当前版本不支持 `--broken-links` / `--missing-frontmatter` / `--mixed-format` 三个 flag。任务文件假设的接口不存在。已自建三套扫描脚本完成全量检测。
 
 ---
 
@@ -84,16 +84,52 @@ OCR 文件中文件名含乱码 CJK 字符。例如 `[[һ�õ������
 
 ---
 
-## 四、需要欧阳锋决策的问题
+## 四、S4-2：frontmatter 缺失详情（245 张卡）
 
-### Q1：S4-2 和 S4-3 的工具缺口
+**扫描脚本**：`90_control/s4_scan_frontmatter.py`
+**输出**：`90_control/s4-frontmatter-missing.json`
 
-`kdo lint` 不支持 `--missing-frontmatter` 和 `--mixed-format`。两条路：
+| 问题类型 | 数量 | 说明 |
+|----------|:----:|------|
+| 缺 `id` 字段 | 240 | 占绝大多数，可自动从文件名 stem 生成 |
+| 无 frontmatter 块 | 5 | 需补完整 frontmatter 骨架 |
+| 缺 `type` 字段 | 3 | 均可推断为 `concept` |
+| 缺 `status` 字段 | 1 | 可根据内容推断（有 Critique+Synthesis → enriched / 缺 → draft） |
 
-- **A 路（快）**：我写独立扫描+修复脚本（类似 S4-1 的做法），不依赖 kdo CLI。估时和任务文件一致（~30min + ~20min）。
-- **B 路（稳）**：先给 `kdo lint` 加上这两个 flag（Builder 本职工作），再做修复。估时需增加约 1-2h。
+**修复策略**：
+- `id`：从文件名 slug 生成，不覆盖已有正确 id
+- `type`：从文件名前缀推断（ocr- → concept，默认 concept）
+- `status`：基于内容检测（有 Critique+Synthesis → enriched）
+- 无 frontmatter 的 5 张卡先补完整骨架
+- `--dry-run` 先预览，确认无误再写入
 
-**建议 A 路**。理由：Sprint 4 的目标是修复数据，不是新增 CLI 功能。新增 flag 可以放到 Sprint 5（validate→ship 闭环）。
+---
+
+## 五、S4-3：新旧格式并存详情（134 张卡）
+
+**扫描脚本**：`90_control/s4_scan_mixed_format.py`
+**输出**：`90_control/s4-mixed-format.json`
+
+| 类型 | 数量 | 处理方式 |
+|------|:----:|------|
+| 新旧并存（`## Critique` + `## Constraints & Boundaries`） | 130 | 删除旧格式空节/迁移内容后删除 |
+| 纯旧格式（仅 `## Constraints & Boundaries`，无 `## Critique`） | 4 | 重命名为 `## Critique` |
+
+**注意**：旧节 `## Constraints & Boundaries` 在有实质内容但新节为空时 → 内容迁移，不简单删除。
+
+---
+
+## 六、顺手修 ✅ 已完成
+
+3 张狗粮垃圾 source（`90fb730a` / `dd8a0fe6` / `e290738e`）及 source-registry.yaml、log.md 引用已清理。无对应 wiki 骨架页。
+
+---
+
+## 七、需要欧阳锋决策的问题
+
+### Q1：S4-2 和 S4-3 的工具缺口（已自行解决）
+
+`kdo lint` 不支持 `--missing-frontmatter` 和 `--mixed-format`。**已自建扫描脚本完成检测**（`90_control/s4_scan_frontmatter.py` + `90_control/s4_scan_mixed_format.py`）。修复脚本同理走独立脚本路线（A 路），不依赖 kdo CLI。待欧阳锋批准后执行。
 
 ### Q2：B 类断链（目标不存在）的处理策略
 
