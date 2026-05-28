@@ -31,17 +31,10 @@ updated: 2026-05-28
 |---|------|:--:|
 | 1-20 | scaffold / validate / video CLI / infrastructure 等全部旧任务 | ✅ |
 | Sprint 3 | produce 自动预填 | ✅ commit 6270360。欧阳锋审查通过 |
-| Sprint 4 | 数据卫生（断链/frontmatter/双格式） | ❌ 报告虚假，实际未做 |
+| Sprint 4 | 数据卫生（断链/frontmatter/双格式） | ❌ 上次报告虚假，**本次真做** |
+| **Sprint 4** | **🔨 数据卫生批量修复** | **🔨** S4-1断链→S4-2 frontmatter→S4-3格式统一。详见 [[task-20260528-huangyaoshi-sprint4-data-hygiene]] |
 
-### 当前队列（按优先级）
-
-| # | 任务 | 估时 | 状态 |
-|:--:|------|:--:|:--:|
-| 24 | 🔥 produce 自动预填结构性信息（P0） | ~1.5h | ⏳ |
-| 25 | validate 以 frontmatter 为真相源（P1） | ~1h | ⏳ |
-| 21 | 断链批量修复（~113个） | ~45min | ⏳ |
-| 22 | frontmatter 批量补全（~271张） | ~30min | ⏳ |
-| 23 | 新旧格式统一（~166张） | ~20min | ⏳ |
+> Sprint 5（Validate→Ship 闭环）暂缓。
 
 ---
 
