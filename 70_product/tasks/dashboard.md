@@ -66,6 +66,7 @@ updated: 2026-05-28
 | # | 任务 | 状态 | 备注 |
 |---|------|:--:|------|
 | 1 | 🎬 KDO 视频试点 ship | ⚠️ 待补记录 | final.mp4 已就绪。需补交付记录 JSON |
+| **2** | **花总AMA卡片修补** | **🟡** | **有条件 PASS。需修 3 项：source_refs 格式 + 交叉链接 + 格式清理。见 [[task-20260529-duanwangye-huazong-ama-fixes]]** |
 
 ---
 
