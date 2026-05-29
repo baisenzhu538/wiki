@@ -2,7 +2,7 @@
 title: 花总AMA精华摘要（商业突破大航海）
 type: concept
 status: stable
-source_refs: [[yitang-huazong-ama-20250526]]
+source_refs: ["src_20260529_huazong_ama"]
 created_at: 2026-05-29
 updated_at: 2026-05-29
 tags: [AI落地, 一堂, 花总, 商业突破, 多行业AI, 摘要]
@@ -37,6 +37,8 @@ tags: [AI落地, 一堂, 花总, 商业突破, 多行业AI, 摘要]
 -　**数据**是壁垒：能沉淀多少行业数据，决定了你的护城河
 -　**基本功**是底层：由场景决定，提需求和验收也是一种基本功
 
+> 相关卡片：[[ocr-一堂-个人修炼-双三角模型]]、[[yt-model-dual-triangle-competitiveness]]
+
 ### 2. 五步法
 
 1. **拆**：拆解场景到最小单元（两平米、一页纸）
@@ -44,6 +46,8 @@ tags: [AI落地, 一堂, 花总, 商业突破, 多行业AI, 摘要]
 3. **评**：评估审美标准和可行性
 4. **算**：计算ROI、天花板、收入结构
 5. **验**：假设验证，先做减法再做加法
+
+> 相关卡片：[[yt-entrepreneur-five-step-method]]、[[yt-model-five-step-canvas]]
 
 ### 3. 定制率理论
 
