@@ -66,7 +66,7 @@ updated: 2026-05-28
 | # | 任务 | 状态 | 备注 |
 |---|------|:--:|------|
 | 1 | 🎬 KDO 视频试点 ship | ⚠️ 待补记录 | final.mp4 已就绪。需补交付记录 JSON |
-| **2** | **花总AMA全流程（培训任务）** | **🟡** | **卡片修补 3 项 + 综合文章 1 篇。一次性培训任务，跑通 produce→validate→ship。见 [[task-20260529-duanwangye-huazong-ama-fixes]]** |
+| 2 | 花总AMA全流程（培训任务） | ✅ | 卡片修补3项 + 综合文章1篇全部完成。produce→validate→ship 管线跑通。见 [[task-20260529-duanwangye-huazong-ama-fixes]] |
 
 ---
 
