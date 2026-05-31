@@ -22,6 +22,7 @@ updated: 2026-05-28
 | **14** | **管理工具箱 Batch 3（T6+T7+T8 精修）** | ✅ | A- ✅。见下方 Phase A 善后 |
 | **15** | **综合管线** | ✅ | Phase A ✅ / Phase B ✅ / **Phase C 🔨** |
 | **16** | **Phase C：文章 3 篇** | **🟡** | **有条件 PASS。需修 3 处 FAIL（缺 Audience/Core Thesis/错别字）** |
+| **17** | **Phase 2：corrections.md 暗知识卡批量生产** | **⏳ 排队** | **新任务。从 corrections.md 产出 9 张暗知识卡（六字段模板）。详见 [[task-20260531-laowantong-phase2-dark-knowledge]]** |
 
 ---
 
