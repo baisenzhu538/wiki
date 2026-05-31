@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 黄药师 — 最终汇总已上报（30_wiki/decisions/labeling-final-consolidation.md）。三份调研+独立判断合并为15维度v1.1+三段式管线+五维质量控制。老顽童报告做减法(40%保留/30%翻译/30%丢弃)。待用户+欧阳锋审查。
+active_task: 黄药师 — 标注方案审查通过（有条件PASS，4项修复已完成）。Data Curator v1.3 + 标注管线双轨推进。下一步：实现 auto_label_chunk() 三段式管线 + 更新 tag-registry.yaml v1.1。
 blockers: []
 ---
 

@@ -103,9 +103,9 @@ AI 脚本自动标注 → RAG 检索 → LLM 上下文 → AI 回答
 | 4 | 视角 | audience | 块 | 有信号 | 自动 | 8 |
 | 5 | 视角 | perspective | 块 | 有信号 | 自动 | 6 |
 | 6 | 视角 | platform | 块 | 有信号 | 自动 | 6 |
-| 7 | 视角 | source_person | 卡 | dk 卡必标 | 人工 | 11 |
-| 8 | 视角 | source_context_type | 卡 | dk 卡必标 | 人工 | 9 |
-| 9 | 质量 | confidence | 块 | 有证据 | 自动* | 4+null |
+| 7 | 视角 | source_person | 卡 | 暗知识卡必标 | 人工 | 12 |
+| 8 | 视角 | source_context_type | 卡 | 暗知识卡必标 | 人工 | 9 |
+| 9 | 质量 | confidence | 块 | 有证据 | 自动 | 4+null |
 | 10 | 质量 | data_generation | 卡 | **必标** ↑ | 人工 | 5 |
 | 11 | 质量 | error_root | 块 | error_data | 自动 | 9 |
 | 12 | 质量 | expiry | 卡 | 条件必标† | 人工 | 5 |
@@ -113,14 +113,14 @@ AI 脚本自动标注 → RAG 检索 → LLM 上下文 → AI 回答
 | 14 | 价值 | usage_depth | 卡 | 必标 | 自动+人工 | 5 |
 | 15 | 价值 | prerequisite_knowledge | 卡 | 有前置 | 人工 | 4+ |
 
-\* confidence 标注升级：LLM 推理时给出置信度 score → 高(>0.85)直接入库，中(0.70-0.85)进抽检池，低(<0.70)必须人工确认。  
+\* `label_confidence`（LLM 标注置信度）路由规则：LLM 推理时给出置信度 score → 高(>0.85)直接入库，中(0.70-0.85)进抽检池，低(<0.70)必须人工确认。注意与维度 #9 `confidence`（标签值：高/中/低/null，描述 chunk 主张本身的置信水平）区分——`label_confidence` 是标注过程的元数据，`confidence` 是标签内容。  
 † expiry 条件必标：value_tier = macro 的卡必须填 expiry。其余可选。
 
 ### v1.1 新增字段（欧阳锋三个建议）
 
 | # | 字段 | 层级 | 说明 | 来源 |
 |:--:|------|:--:|------|:--:|
-| 1 | `label_confidence` | 块 | LLM 标注时给出的置信度 (0-1)。用于路由决策 | 欧阳锋建议 1 |
+| 1* | `label_confidence` | 块 | LLM 标注时给出的置信度 (0-1)。用于路由决策 | 欧阳锋建议 1 |
 | 2 | `last_reviewed_at` | 卡/块 | 自动时间戳。配合 `kdo lint --stale N` | 欧阳锋建议 2 |
 | 3 | `label_version` | 块 | 标注时使用的 tag-registry 版本号。registry 升级后触发重标注 | 欧阳锋建议 3 |
 | 4 | `labeled_by` | 块 | 标注者：ai / human / ai+human | 老顽童质量矩阵→黄药师翻译 |
@@ -155,7 +155,7 @@ AI 脚本自动标注 → RAG 检索 → LLM 上下文 → AI 回答
 | audience | 8 |
 | perspective | 6 |
 | platform | 6 |
-| source_person | 11 |
+| source_person | 12 |
 | source_context_type | 9 |
 | confidence | 4 |
 | data_generation | 5 |
@@ -164,7 +164,7 @@ AI 脚本自动标注 → RAG 检索 → LLM 上下文 → AI 回答
 | value_tier | 3 |
 | usage_depth | 5 |
 | prerequisite_knowledge | 4 |
-| **合计** | **110** |
+| **合计** | **111** |
 
 每块实际激活 5-10 个标签（分层激活，不是全量）。在行业建议范围（3-8 个）的上限，但维度多是因为分层——同一 chunk 不会同时触发所有维度。
 
@@ -201,7 +201,7 @@ AI 脚本自动标注 → RAG 检索 → LLM 上下文 → AI 回答
 
 | 文件 | 作者 | 内容 |
 |------|------|------|
-| `data-labeling-best-practices-report.md` | 黄药师 | AI 时代标注最佳实践调研 |
+| `30_wiki/concepts/data-labeling-best-practices-report.md` | 黄药师 | AI 时代标注最佳实践调研 |
 | `kdo-15-dimension-label-spec.md` | 黄药师 | 15 维度方案 v1.0 |
 | `labeling-research-alignment.md` | 黄药师 | 黄药师×老顽童 报告对齐 |
 | `ouyangfeng-labeling-research-review.md` | 欧阳锋 | 2025-2026 行业验证 + 三个补充建议 |
