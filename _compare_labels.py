@@ -1,4 +1,4 @@
-"""Gold Standard comparison — run and report."""
+"""Gold Standard comparison — with card-level context hints."""
 import json, re, sys
 from pathlib import Path
 
@@ -9,6 +9,13 @@ from kdo.llm import LLMConfig
 from kdo.workspace import safe_read
 
 CORE = ["chunk_type", "method_family", "audience", "perspective"]
+
+CARD_HINTS = {
+    "master-decision-hygiene.md": "决策卫生（认知思维工具卡，讨论偏差/噪声/判断分解等认知概念）",
+    "yt-decision-y-model.md": "Y模型决策框架（决策工具卡，讨论ROI/宽度深度高度/决策矩阵）",
+    "master-cognitive-bias-checklist.md": "认知偏误自检清单（评估工具卡，12条逐项自检清单）",
+    "ai时代判断力口述-3.md": "AI时代判断力口述（知识工程/IPO模型，面向开发者）",
+}
 
 def parse_gold(path):
     text = safe_read(path)
@@ -25,8 +32,8 @@ def parse_gold(path):
         table_start = body.find("| 维度 | 标签值 | 理由 |")
         if table_start >= 0:
             table_text = body[table_start:]
-            next_heading = re.search(r'\n##\s', table_text)
-            if next_heading: table_text = table_text[:next_heading.start()]
+            nh = re.search(r'\n##\s', table_text)
+            if nh: table_text = table_text[:nh.start()]
             for row in table_text.split("\n")[2:]:
                 cells = [c.strip() for c in row.split("|") if c.strip()]
                 if len(cells) >= 2 and cells[0] in CORE:
@@ -37,67 +44,47 @@ def parse_gold(path):
 def main():
     chunks = parse_gold(VAULT / "30_wiki/decisions/gold-standard-manual-labels.md")
     print("Parsed {} chunks\n".format(len(chunks)))
-
     cfg = LLMConfig.from_yaml()
     print("LLM: {}\n".format(cfg.model))
-
     all_dims = flatten_dimensions(load_tag_registry(VAULT))
     core_dims = {k: v for k, v in all_dims.items() if k in CORE}
 
-    total_match = 0; total_miss = 0; total_missing = 0; total_gold = 0
-    dim_match = {d: 0 for d in CORE}
-    dim_total = {d: 0 for d in CORE}
-
-    N_VOTES = 3  # Self-consistency: majority vote over 3 runs
+    tm = 0; tx = 0; t0 = 0; tg = 0
+    dm = {d: 0 for d in CORE}; dt = {d: 0 for d in CORE}
 
     for chunk in chunks:
-        print("--- Chunk {} ({}) ---".format(chunk["id"], chunk["source"].split("/")[-1][:35]))
-        if not chunk["text"]:
-            print("  SKIP\n"); continue
-
-        # Self-consistency: run N times and take majority vote per dimension
-        votes = {d: {} for d in CORE}
-        for run_i in range(N_VOTES):
-            decisions = llm_label_chunk(chunk["text"], core_dims, config=cfg)
-            if decisions:
-                for d in decisions:
-                    val = d["value"]
-                    votes[d["dimension"]][val] = votes[d["dimension"]].get(val, 0) + 1
+        card_name = chunk["source"].split("/")[-1]
+        hint = CARD_HINTS.get(card_name, card_name)
+        print("--- Chunk {} ({} | {}) ---".format(chunk["id"], card_name[:35], hint[:40]))
+        if not chunk["text"]: print("  SKIP\n"); continue
+        decisions = llm_label_chunk(chunk["text"], core_dims, config=cfg, card_hint=hint)
         auto = {}
-        for dim in CORE:
-            if votes[dim]:
-                auto[dim] = max(votes[dim], key=votes[dim].get)
-        if not any(auto.values()):
-            print("    EMPTY (all {} runs)".format(N_VOTES))
-        elif N_VOTES > 1:
-            print("    votes: {}".format({d: dict(votes[d]) for d in CORE if votes[d]}))
-
-        matches = 0; gold_count = 0
+        if decisions:
+            for d in decisions: auto[d["dimension"]] = d["value"]
+        else:
+            print("    EMPTY")
+        m = 0; gc = 0
         for dim in CORE:
             gv = chunk["gold"].get(dim)
             if not gv: continue
-            gold_count += 1; total_gold += 1; dim_total[dim] += 1
+            gc += 1; tg += 1; dt[dim] += 1
             av = auto.get(dim)
             if av and av == str(gv):
-                matches += 1; total_match += 1; dim_match[dim] += 1
+                m += 1; tm += 1; dm[dim] += 1
                 print("  OK {}: {}".format(dim, gv))
             elif av:
-                total_miss += 1
-                print("  XX {}: gold={} auto={}".format(dim, gv, av))
+                tx += 1; print("  XX {}: gold={} auto={}".format(dim, gv, av))
             else:
-                total_missing += 1
-                print("  -- {}: gold={}".format(dim, gv))
-        acc = matches/gold_count if gold_count else 0
-        print("  -> {}/{} ({:.0%})\n".format(matches, gold_count, acc))
+                t0 += 1; print("  -- {}: gold={}".format(dim, gv))
+        acc = m/gc if gc else 0
+        print("  -> {}/{} ({:.0%})\n".format(m, gc, acc))
 
-    overall = total_match/total_gold if total_gold else 0
+    ov = tm/tg if tg else 0
     print("=" * 60)
-    print("OVERALL: {}/{} = {:.1%}".format(total_match, total_gold, overall))
-    print("\nPer-dimension:")
+    print("OVERALL: {}/{} = {:.1%}  (OK:{} XX:{} --:{})".format(tm, tg, ov, tm, tx, t0))
     for dim in CORE:
-        if dim_total[dim]:
-            print("  {}: {}/{} = {:.0%}".format(dim, dim_match[dim], dim_total[dim], dim_match[dim]/dim_total[dim]))
-    print("\nTarget: >= 85%  Result: {}".format("PASS" if overall >= 0.85 else "FAIL"))
+        if dt[dim]: print("  {}: {}/{} = {:.0%}".format(dim, dm[dim], dt[dim], dm[dim]/dt[dim]))
+    print("\nTarget: >= 85%  Result: {}".format("PASS" if ov >= 0.85 else "FAIL"))
 
 if __name__ == "__main__":
     main()
