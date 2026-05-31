@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 黄药师 — 标签方案+暗知识全量范围提案已写入30_wiki/decisions/huangyaoshi-tagging-and-scope-proposal.md。两层标签架构(卡属性5+块属性7维度池, AI自动标注+20%抽检)。暗知识一期~49张(结构化)+二期~100张(口述稿)+三期~30张(待结构化)=~150张。等欧阳锋三个判断。
+active_task: 黄药师 — 15维度标签方案v1.0已写入30_wiki/decisions/kdo-15-dimension-label-spec.md。110标签值分四组(检索3/视角5/质量4/价值3)，每块激活5-10个。行业调研报告在30_wiki/concepts/data-labeling-best-practices-report.md。待三方讨论5个开放问题。
 blockers: []
 ---
 
