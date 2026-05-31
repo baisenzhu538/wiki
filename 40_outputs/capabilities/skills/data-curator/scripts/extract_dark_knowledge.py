@@ -253,22 +253,22 @@ def classify_segment(text: str) -> str | None:
     """Classify a text segment into a dark knowledge type, or None."""
     scores = {}
 
-    # Check tool usage
+    # Check tool usage — highest base (tool names = unambiguous signal)
     if any(re.search(p, text) for p in TOOL_ACTION_PATTERNS):
-        scores["tool_usage"] = 0.7 + (0.1 if any(t.lower() in text.lower() for t in KNOWN_TOOLS) else 0)
+        scores["tool_usage"] = 0.75 + (0.1 if any(t.lower() in text.lower() for t in KNOWN_TOOLS) else 0)
 
     # Check failure
     if any(re.search(p, text) for p in FAILURE_PATTERNS):
-        scores["failure"] = 0.6 + (0.1 if "修正" in text or "对策" in text or "不要" in text else 0)
+        scores["failure"] = 0.65 + (0.1 if "修正" in text or "对策" in text or "不要" in text else 0)
 
-    # Check insight — higher bar: must pass gold nugget test
+    # Check workflow — before insight (step patterns > vague "我觉得")
+    if any(re.search(p, text) for p in WORKFLOW_PATTERNS):
+        scores["workflow"] = 0.60 + (0.1 if len(text) > 60 else 0)
+
+    # Check insight — lowest base; only wins when no stronger signal
     if any(re.search(p, text) for p in INSIGHT_PATTERNS):
         nugget = _gold_nugget_score(text)
-        scores["insight"] = 0.5 + nugget  # need at least 0.15 nugget score to clear base threshold
-
-    # Check workflow
-    if any(re.search(p, text) for p in WORKFLOW_PATTERNS):
-        scores["workflow"] = 0.5 + (0.1 if len(text) > 60 else 0)
+        scores["insight"] = 0.45 + nugget
 
     if not scores:
         return None
