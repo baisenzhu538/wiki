@@ -48,16 +48,29 @@ def main():
     dim_match = {d: 0 for d in CORE}
     dim_total = {d: 0 for d in CORE}
 
+    N_VOTES = 3  # Self-consistency: majority vote over 3 runs
+
     for chunk in chunks:
         print("--- Chunk {} ({}) ---".format(chunk["id"], chunk["source"].split("/")[-1][:35]))
         if not chunk["text"]:
             print("  SKIP\n"); continue
-        decisions = llm_label_chunk(chunk["text"], core_dims, config=cfg)
+
+        # Self-consistency: run N times and take majority vote per dimension
+        votes = {d: {} for d in CORE}
+        for run_i in range(N_VOTES):
+            decisions = llm_label_chunk(chunk["text"], core_dims, config=cfg)
+            if decisions:
+                for d in decisions:
+                    val = d["value"]
+                    votes[d["dimension"]][val] = votes[d["dimension"]].get(val, 0) + 1
         auto = {}
-        if decisions:
-            for d in decisions: auto[d["dimension"]] = d["value"]
-        else:
-            print("    EMPTY")
+        for dim in CORE:
+            if votes[dim]:
+                auto[dim] = max(votes[dim], key=votes[dim].get)
+        if not any(auto.values()):
+            print("    EMPTY (all {} runs)".format(N_VOTES))
+        elif N_VOTES > 1:
+            print("    votes: {}".format({d: dict(votes[d]) for d in CORE if votes[d]}))
 
         matches = 0; gold_count = 0
         for dim in CORE:
