@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 黄药师 — 标注方案审查通过（有条件PASS，4项修复已完成）。Data Curator v1.3 + 标注管线双轨推进。下一步：实现 auto_label_chunk() 三段式管线 + 更新 tag-registry.yaml v1.1。
+active_task: 标注方案审查通过（有条件PASS，4项修复已完成）。欧阳锋 Gold Standard 15条手工标注完成（30_wiki/decisions/gold-standard-manual-labels.md）。下一步：黄药师实现 auto_label_chunk() 三段式管线 + 更新 tag-registry.yaml v1.1。
 blockers: []
 ---
 
