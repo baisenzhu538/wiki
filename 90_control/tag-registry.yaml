@@ -1,121 +1,587 @@
-# KDO Controlled Tag Vocabulary
-# ==============================
-# Version: 1.0
+# KDO Controlled Tag Vocabulary v1.1
+# =====================================
+# Version: 1.1
 # Created: 2026-05-31
-# Purpose: Multi-dimensional tagging for concept cards.
-#   Provides deterministic filtering/statistics where semantic search
-#   provides probabilistic discovery. These are complementary, not redundant.
+# Updated: 2026-05-31
+# Purpose: 15-dimension multi-dimensional labeling for concept cards and chunks.
+#   Each value includes "includes"/"excludes" descriptions — these drive the
+#   auto_label_chunk() embedding pre-screen stage for semantic matching.
 #
-# Convention:
-#   - Tags use format: #namespace/value (lowercase, hyphens, ASCII only)
-#   - Max 3 levels: #namespace/group/value
-#   - Deprecated tags get status: deprecated, never removed
-#   - New values can be added; existing values never change meaning
+# Design principles:
+#   - Every dimension answers an AI decision question ("should I trust this?")
+#   - Values are MECE within each dimension
+#   - Hierarchical activation: not every chunk gets all 15 dims
+#   - includes/excludes descriptions > label names for embedding quality
+#   - Version tracked: label_version field records which registry version was used
 #
 # Usage:
-#   - kdo cards --tag "#method/decision-framework"
-#   - Graph RAG cross-domain bridge detection uses domain/* tags
-#   - Validation checks all tags are in this registry
+#   - Pre-screen: auto_label_chunk() uses includes/excludes for bigram overlap
+#   - LLM labeling: registry sent as structured candidates to LLM
+#   - Validation: kdo validate --v15 checks all tags are in registry
+#   - Graph RAG: cross-domain bridge detection uses domain tags
+#
+# Convention:
+#   - Values: lowercase, hyphens, ASCII or CJK names for source_person
+#   - Never change a value's meaning — add new values, deprecate old ones
+#   - Deprecated values get status: deprecated (never removed)
 
-version: 1
+version: 1.1
 created_at: 2026-05-31
 updated_at: 2026-05-31
 
-namespaces:
+# ============================================================================
+# Group 1: 检索组 (Retrieval) — 3 dimensions, every chunk REQUIRED
+# AI decision: What is this? Where does it belong? What methodology?
+# ============================================================================
 
-  # --- Dimension 1: Method ---
-  # What method/tool/framework does this card teach or describe?
-  method:
-    description: "Knowledge about methods, frameworks, and techniques"
-    values:
-      - thinking-tool          # Cognitive tools, mental models
-      - decision-framework     # Decision-making frameworks (ROI, ABCDE, etc.)
-      - learning-method        # Learning methodologies (IPO, Y-model, etc.)
-      - research-method        # Research and investigation methodologies
-      - product-design         # Product design methods
-      - management-tool        # Management and leadership tools
-      - execution-method       # Execution and delivery frameworks
-      - evaluation-method      # Evaluation, assessment, scoring frameworks
-      - communication-method   # Communication, presentation, expression methods
-      - prompt-engineering     # Prompt design and engineering techniques
+dimensions:
 
-  # --- Dimension 2: Domain ---
-  # What real-world domain does this knowledge apply to?
+  # --- 1. domain (卡属性, 必标, 人工) ---
   domain:
-    description: "Application domain of the knowledge"
+    group: retrieval
+    layer: card
+    activation: required
+    labeling: manual
+    description: "Application domain or knowledge silo of the card."
     values:
-      - healthcare-it          # Healthcare IT, HIS, medical systems
-      - ai-engineering         # AI/ML engineering, LLM application
-      - entrepreneurship       # Entrepreneurship, startups, business
-      - personal-growth        # Personal development, career growth
-      - knowledge-management   # Knowledge management, PKM, KDO itself
-      - design                 # Visual design, UI/UX, AIGC design
-      - software-engineering   # Software development, architecture
+      - value: master
+        includes: "general methodology, KDO self-reference, cross-domain bridges, systems thinking, knowledge management infrastructure"
+        excludes: "industry-specific content, domain-narrow how-to"
+      - value: ai-saas
+        includes: "AI products, LLM applications, prompt engineering, RAG systems, AI agent architectures, model evaluation"
+        excludes: "general software development, traditional ML training pipelines"
+      - value: healthcare
+        includes: "healthcare IT, HIS hospital systems, clinical decision support, medical data standards"
+        excludes: "general health科普, wellness advice, gym recommendations"
+      - value: yitang
+        includes: "一堂课程体系, 双三角模型, 五步法, entrepreneurship education methodology, Truman's frameworks"
+        excludes: "generic entrepreneurship advice, non-一堂 startup content"
+      - value: design
+        includes: "AI-generated design, visual communication, brand design, AIGC tools, design workflow, 月白 design methodology"
+        excludes: "general UI development, frontend coding, CSS frameworks"
 
-  # --- Dimension 3: Quality ---
-  # What is the quality/trust signal for this card?
-  quality:
-    description: "Data quality and trust signals"
+  # --- 2. chunk_type (块属性, 必标, 自动) ---
+  chunk_type:
+    group: retrieval
+    layer: chunk
+    activation: required
+    labeling: auto
+    description: "Semantic type of this chunk — what kind of knowledge unit is this?"
     values:
-      - needs-review           # Card needs human review
-      - stub                   # Minimal/stub content — thin card
-      - high-signal            # High signal density — verified quality
-      - ocr-card               # Derived from OCR — may have errors
-      - low-confidence         # Confidence < 0.6 — treat claims cautiously
+      - value: claim
+        includes: "falsifiable knowledge claim, testable assertion, core argument, thesis statement, proposition that can be proven wrong"
+        excludes: "pure descriptive narrative, storytelling without a claim, context-free statements"
+      - value: constraint
+        includes: "boundary condition, limitation, prerequisite, restriction, scope boundary, when NOT to use, applicability condition"
+        excludes: "step-by-step instructions, positive advice without boundaries"
+      - value: procedure
+        includes: "actionable step-by-step instruction, executable workflow, numbered sequence of operations, standard operating procedure, checklist item"
+        excludes: "principle-level advice, abstract guidelines without concrete steps"
+      - value: definition
+        includes: "term definition, concept explanation, jargon disambiguation, precise technical meaning"
+        excludes: "case studies, examples illustrating the concept, narrative stories"
+      - value: example
+        includes: "concrete case, real scenario, specific instance, demonstration, usage illustration"
+        excludes: "abstract principles, theoretical frameworks without examples"
+      - value: reference
+        includes: "citation, external source, academic paper reference, book reference, URL link, data source attribution"
+        excludes: "internal opinion, author's own viewpoint"
+      - value: critique
+        includes: "external attacker viewpoint, adversarial argument, counter-argument from another scholar, limitation pointed out by third party"
+        excludes: "author's own self-criticism, general disclaimer"
+      - value: synthesis
+        includes: "cross-domain insight, integrated conclusion, connection across silos, meta-pattern discovery, unified framework"
+        excludes: "single-domain summary, intra-domain recap"
+      - value: question
+        includes: "open question, unexplored territory, research direction, future exploration, unresolved tension"
+        excludes: "rhetorical questions, Socratic leading questions with obvious answers"
+      - value: action_trigger
+        includes: "when-to-use trigger condition, when-NOT-to-use trigger, decision gate, activation condition, if-this-then-that rule"
+        excludes: "general advice without trigger conditions, vague recommendations"
+      - value: process_data
+        includes: "decision rationale, change log, before-and-after comparison, iteration record, why we chose X over Y, design decision"
+        excludes: "final conclusion without process, polished end-product description"
+      - value: error_data
+        includes: "error record, mistake, correction, C-N record, failure mode instance, bug report, incident postmortem, what went wrong"
+        excludes: "success stories, positive case studies, best practices without failure context"
+      - value: original_quote
+        includes: "direct quotation from source material, verbatim transcript excerpt, exact words from person, raw interview fragment"
+        excludes: "paraphrased content, summarized version, interpreted meaning"
+      - value: use_case
+        includes: "specific usage scenario, concrete context for applying knowledge, who-when-where-how of application"
+        excludes: "generalized description, abstract applicability statement"
+      - value: operation
+        includes: "step-level operational detail, specific tool usage, concrete button-pushing instructions, dark knowledge operation method"
+        excludes: "abstract principles, strategic direction without tactical steps"
+      - value: boundary
+        includes: "specific counter-example, explicit non-applicability, clear boundary condition, preconditions for validity, dark knowledge boundary"
+        excludes: "generic limitations statement, vague 'it depends' caveats"
+      - value: why_valuable
+        includes: "rationale for uniqueness, why AI training data doesn't have this, competitive moat explanation, dark knowledge value proposition"
+        excludes: "generic statements of importance, 'this is very useful' without evidence"
+      - value: cross_reference
+        includes: "link to concept card, reference to related knowledge, bidirectional link, knowledge graph edge"
+        excludes: "empty links, broken wikilinks, dangling references"
+      - value: extraction_guide
+        includes: "meta-methodology extracted from a group of cards,统领性方法论摘要, extraction guide for a card cluster, domain-wide principles"
+        excludes: "single-card summary, individual card conclusion"
 
-  # --- Dimension 4: Role ---
-  # What role does this card play in the knowledge graph?
-  role:
-    description: "Structural role in the knowledge graph"
+  # --- 3. method_family (块属性, 必标, 自动) ---
+  method_family:
+    group: retrieval
+    layer: chunk
+    activation: required
+    labeling: auto
+    description: "Methodological family the knowledge belongs to."
     values:
-      - hub                    # Highly connected central card (>= 5 incoming links)
-      - leaf                   # Peripheral card with few connections
-      - bridge                 # Cross-domain connector (links 2+ domains)
-      - reference              # Reference/lookup card (entity, glossary, index)
-      - index                  # Navigation/index card (hub page, catalog)
+      - value: thinking-tool
+        includes: "cognitive model, mental framework, heuristic method, thinking technique, mindware, concept mapping"
+        excludes: "concrete operational tools, software-specific instructions"
+      - value: decision-framework
+        includes: "ROI evaluation, ABCDE model, five-step method, decision matrix, prioritization framework, trade-off analysis, noise reduction"
+        excludes: "general thinking methods, purely descriptive decision theory"
+      - value: learning-method
+        includes: "IPO model, Y-model, scientific learning methodology, spaced repetition, deliberate practice, knowledge acquisition framework"
+        excludes: "course content itself, curriculum design"
+      - value: research-method
+        includes: "investigation methodology, interview technique, survey design, data analysis, competitive research, due diligence"
+        excludes: "data engineering, ETL pipelines, database design"
+      - value: product-design
+        includes: "generic product design, MVP methodology, user research, product-market fit, JTBD, design thinking"
+        excludes: "UI visual design, graphic design, brand identity design"
+      - value: management-tool
+        includes: "management framework, team collaboration tool, OKR, hiring framework, meeting design, organizational design"
+        excludes: "execution-level checklist, pure process documentation"
+      - value: execution-method
+        includes: "execution framework, implementation strategy, delivery methodology, rhythm control, project management, deployment approach"
+        excludes: "strategic direction, vision setting, high-level roadmap"
+      - value: evaluation-method
+        includes: "assessment framework, benchmarking, audit methodology, scoring rubric, quality evaluation, review framework, validation method"
+        excludes: "pure approval process, administrative sign-off"
+      - value: communication-method
+        includes: "presentation method, pitching technique, narrative framework, storytelling, persuasion framework, public speaking"
+        excludes: "everyday conversation skills, casual chat techniques"
+      - value: prompt-engineering
+        includes: "prompt design, AI interaction pattern, chain-of-thought, few-shot prompting, system prompt design, AI collaboration workflow"
+        excludes: "AI底层技术, model architecture, training methodology"
+      - value: knowledge-engineering
+        includes: "knowledge management, ontology design, KDO self-methodology, PKM framework, wiki architecture, graph RAG design, tagging methodology"
+        excludes: "general information management, file organization, folder naming conventions"
 
-# --- Tag Inference Map ---
-# Used by tag_cards.py for AI-assisted tag suggestion.
-# Human always confirms before write.
-#
-# Format:
-#   prefix_pattern:
-#     - suggested_tag
+  # ============================================================================
+  # Group 2: 视角组 (Perspective) — 5 dimensions, activated when signal present
+  # AI decision: Who is this for? From what angle? On what platform? Who said it? In what context?
+  # ============================================================================
+
+  # --- 4. audience (块属性, 有信号, 自动) ---
+  audience:
+    group: perspective
+    layer: chunk
+    activation: conditional
+    labeling: auto
+    description: "Intended audience for this chunk of knowledge."
+    values:
+      - value: ceo
+        includes: "CEO, founder, 一号位, 创始人, top decision maker, strategy, vision, board-level, company direction"
+        excludes: "execution details, operational specifics, line-level implementation"
+      - value: manager
+        includes: "管理, team lead, director, head of, 主管, middle management, people management, team coordination"
+        excludes: "frontline operation, individual contributor tasks"
+      - value: executor
+        includes: "execution, 执行, operation, 落地, frontline, individual contributor, hands-on, doer, implementer"
+        excludes: "strategic thinking, high-level direction, vision setting"
+      - value: designer
+        includes: "designer, 设计, visual, composition, aesthetic, 审美, typography, color theory, design workflow"
+        excludes: "non-design visual descriptions, general aesthetics discussion"
+      - value: developer
+        includes: "developer, engineer, 工程师, code, API, technical architecture, system design, programming"
+        excludes: "non-technical architecture, general software description"
+      - value: beginner
+        includes: "入门, newcomer, zero-basis, 零基础, first-time, novice, introductory, no prerequisites needed"
+        excludes: "expert-level deep dives, specialist terminology without explanation"
+      - value: expert
+        includes: "进阶, advanced, expert, 专家, deep dive, specialist, experienced practitioner, nuanced understanding"
+        excludes: "basic introductions, 101-level content"
+      - value: general
+        includes: "general audience, universal content, all levels, no specific audience assumed"
+        excludes: "specialized content targeting a narrow professional group"
+
+  # --- 5. perspective (块属性, 有信号, 自动) ---
+  perspective:
+    group: perspective
+    layer: chunk
+    activation: conditional
+    labeling: auto
+    description: "Viewpoint or lens through which the knowledge is presented."
+    values:
+      - value: professional
+        includes: "domain jargon, technical terminology, specialist language, field-specific concepts, expert shorthand, 专业术语"
+        excludes: "layperson explanations, beginner-friendly simplifications"
+      - value: compliance
+        includes: "regulation, legal, privacy, copyright, 合规, 监管, red line, legal constraint, data protection, regulatory requirement"
+        excludes: "internal policy, team guideline, voluntary standard"
+      - value: platform-policy
+        includes: "platform rule, 平台规则, content moderation, shadowban, 违禁词, platform policy, rate limiting, account restriction"
+        excludes: "government regulation, legal compliance"
+      - value: roi
+        includes: "ROI, cost-benefit, 投入产出, 值不值, return on investment, efficiency analysis, resource allocation trade-off"
+        excludes: "general value statements without quantitative framing"
+      - value: user-experience
+        includes: "user experience, 用户体验, NPS, satisfaction, ease of use, usability, human-centered design, end-user feeling"
+        excludes: "technical performance metrics, backend optimization"
+      - value: general
+        includes: "no specific perspective angle, general knowledge presentation"
+        excludes: "specialized viewpoints"
+
+  # --- 6. platform (块属性, 有信号, 自动) ---
+  platform:
+    group: perspective
+    layer: chunk
+    activation: conditional
+    labeling: auto
+    description: "Platform-specific context mentioned in the content."
+    values:
+      - value: xiaohongshu
+        includes: "小红书 content rules, cover image dimensions, 小红书 banned words, RED platform,种草 content format"
+        excludes: "general social media, other platforms"
+      - value: douyin
+        includes: "抖音 short video rules, Douyin algorithm, 抖音 content characteristics, vertical video format"
+        excludes: "general short video advice, other short video platforms"
+      - value: wechat
+        includes: "微信 public account, 公众号 format, 视频号, WeChat ecosystem, 微信 rules and specifications"
+        excludes: "general messaging, other chat platforms"
+      - value: feishu
+        includes: "飞书文档, Feishu多维表格, Feishu collaboration, 飞书 base, Feishu docs features"
+        excludes: "general document collaboration, other office suites"
+      - value: obsidian
+        includes: "Obsidian Markdown ecosystem, Obsidian plugin system, Obsidian vault management, wikilink syntax"
+        excludes: "general Markdown editors, other note-taking apps"
+      - value: general
+        includes: "platform-agnostic content, not tied to any specific platform"
+        excludes: "platform-specific rules or features"
+
+  # --- 7. source_person (卡属性, 暗知识卡必标, 人工) ---
+  source_person:
+    group: perspective
+    layer: card
+    activation: conditional
+    labeling: manual
+    activation_condition: "dark-knowledge cards required; concept cards optional when clear source person exists"
+    description: "Person who originated this knowledge."
+    values:
+      - value: 月白
+        includes: "月白 oral transcripts, 月白 sharing sessions, 月白 course content, AI design methodology from 月白"
+      - value: Truman
+        includes: "Truman (一堂 founder) oral transcripts, Truman courses, Truman spontaneous judgments, Truman AI data methodology"
+      - value: 欧阳锋
+        includes: "欧阳锋 review opinions, 欧阳锋 architecture decisions, 欧阳锋 quality assessments"
+      - value: 黄药师
+        includes: "黄药师 technical decisions, 黄药师 bug records, 黄药师 KDO CLI development insights"
+      - value: 老顽童
+        includes: "老顽童 content production records, 老顽童 card compilation process, 老顽童 domain compilation notes"
+      - value: 洪七公
+        includes: "洪七公 multimodal outputs, 洪七公 visual analysis, 洪七公 design VA"
+      - value: 段王爷
+        includes: "段王爷 publishing records, 段王爷 channel feedback, 段王爷 distribution insights"
+      - value: 花总
+        includes: "花总 expert judgments, 花总 domain expertise"
+      - value: 用户
+        includes: "用户 strategic decisions, 用户 directional judgments, 用户 domain insights, 用户 vision and priorities"
+      - value: 大眉毛
+        includes: "大眉毛 data engineering practice, 大眉毛 technical insights"
+      - value: 徐建
+        includes: "徐建 entrepreneurship cases, 徐建 data asset methodology, 徐建 startup experience"
+      - value: multiple
+        includes: "multiple contributors, collaborative knowledge, team-sourced content"
+
+  # --- 8. source_context_type (卡属性, 暗知识卡必标, 人工) ---
+  source_context_type:
+    group: perspective
+    layer: card
+    activation: conditional
+    labeling: manual
+    activation_condition: "dark-knowledge cards required"
+    description: "Type of context in which the knowledge was originally expressed."
+    values:
+      - value: oral-transcript
+        includes: "oral transcript, 口述稿, online/offline sharing verbatim transcript, course transcription, lecture recording transcription"
+        excludes: "written articles, prepared documents"
+      - value: live-session
+        includes: "real-time conversation, live discussion, 实时对话, review dialogue, Q&A session, meeting recording"
+        excludes: "prepared presentations, scripted content"
+      - value: written-document
+        includes: "written document, article, proposal, SOP, course syllabus, prepared text, 书面文档"
+        excludes: "verbatim transcripts, live recordings"
+      - value: code-commit
+        includes: "Git commit, PR discussion, code change log, commit message, source code comment"
+        excludes: "design documents, architecture proposals"
+      - value: review-comment
+        includes: "欧阳锋 review record, quality assessment note,审查意见, evaluation feedback"
+        excludes: "general chat comments, informal feedback"
+      - value: correction-record
+        includes: "corrections.md entry, pitfalls.md entry, 纠偏记录, mistake documentation, error correction"
+        excludes: "success documentation, best practice records"
+      - value: casual-chat
+        includes: "informal conversation, 闲聊, spontaneous judgment in conversation, offhand insight, water-cooler talk"
+        excludes: "formal reviews, prepared content"
+      - value: structured-data
+        includes: "table, JSON, YAML configuration, structured data export, database extract, spreadsheet"
+        excludes: "prose documents, narrative text"
+      - value: experiment-log
+        includes: "A/B test, pilot, trial run, experiment record, 实验记录, prototype test, proof of concept"
+        excludes: "production deployment records, operational logs"
+
+  # ============================================================================
+  # Group 3: 质量组 (Quality) — 4 dimensions, AI calibration and governance
+  # AI decision: Can I trust this? How confident? Who generated it? Will it expire? What can go wrong?
+  # ============================================================================
+
+  # --- 9. confidence (块属性, 有证据, 自动+人工) ---
+  confidence:
+    group: quality
+    layer: chunk
+    activation: conditional
+    labeling: auto_plus_manual
+    description: "Confidence level of the claim in this chunk."
+    values:
+      - value: "0.90"
+        includes: "multi-source verified, practical experience confirmed, peer consensus, strong empirical evidence, Kahneman-level authority"
+        excludes: "single-source claims, personal anecdotes without verification"
+      - value: "0.70"
+        includes: "single strong source, logically coherent, expert personal experience, internally consistent but externally unverified, practitioner methodology"
+        excludes: "speculative claims, hypothetical scenarios"
+      - value: "0.50"
+        includes: "single source with partial counterexamples, spontaneous judgment, personal opinion with reasoning, plausible but unverified"
+        excludes: "widely accepted facts, multi-source confirmed knowledge"
+      - value: "0.30"
+        includes: "hypothesis, speculation, personal preference, untested conjecture, future prediction, 'I think...' statements"
+        excludes: "empirically grounded claims, expert consensus"
+      - value: null
+        includes: "pure factual statement without judgment, neutral description, observational data, 'the sky is blue'-level objective facts"
+        excludes: "any claim involving interpretation, evaluation, or prediction"
+
+  # --- 10. data_generation (卡属性, 必标, 人工) ---
+  data_generation:
+    group: quality
+    layer: card
+    activation: required
+    labeling: manual
+    description: "Generation provenance — how was this data originally created? Critical for AI contamination prevention."
+    values:
+      - value: original
+        includes: "human-original content, oral transcript, handwritten notes, real photography, human-authored text without AI assistance"
+      - value: ai_generated
+        includes: "AI single-pass generation, LLM output without human editing, raw model output"
+      - value: ai_on_ai
+        includes: "AI-generated content further processed by another AI, stacked AI generations, multi-pass AI refinement, high hallucination risk"
+        excludes: "AI generated then human edited"
+      - value: human_ai_collab
+        includes: "AI generated draft + human substantial revision, iterative human-AI co-creation, human direction + AI execution"
+        excludes: "AI-only generation, human-only authoring"
+      - value: human_edited_ai
+        includes: "AI generated content reviewed and lightly edited by human, AI output with human approval stamp"
+        excludes: "substantial human rewriting of AI draft"
+
+  # --- 11. error_root (块属性, error_data 时激活, 自动) ---
+  error_root:
+    group: quality
+    layer: chunk
+    activation: conditional
+    activation_condition: "only when chunk_type = error_data"
+    labeling: auto
+    description: "Root cause category of a failure or error."
+    values:
+      - value: skip-validation
+        includes: "skipped check, didn't validate, didn't review, assumed correct,直接跑, jumped the gate, bypassed quality step"
+        excludes: "validation ran but passed incorrectly"
+      - value: format-over-content
+        includes: "format check passed, gate green, PASS on surface, format correct but content wrong, structure valid but substance missing"
+        excludes: "format check failure, structural errors"
+      - value: silent-failure
+        includes: "no error message, silent crash, 0 output, false success, zero pages, operation completed with wrong result, quiet data loss"
+        excludes: "explicit error messages, crash with stack trace"
+      - value: compatibility-break
+        includes: "incompatible format, old vs new format, migration error, version mismatch, breaking change not caught, deprecated API"
+        excludes: "new feature development, greenfield bugs"
+      - value: naming-conflict
+        includes: "duplicate name, shared name collision,命名冲突, field name overlap, ID collision, reused identifier, ambiguous reference"
+        excludes: "missing names, unnamed entities"
+      - value: context-overflow
+        includes: "context window overflow, token limit exceeded, content too long, truncated input, partial processing,上下文超载"
+        excludes: "content too short, insufficient input"
+      - value: human-error
+        includes: "misjudgment, human mistake, forgot, missed, overlooked,误判, thought it was done, didn't notice, confirmation bias"
+        excludes: "automation bugs, tool errors"
+      - value: automation-blindness
+        includes: "trusted script, batch run without check, automated without human review, 一跑就过了, automation over-trust, blind批量"
+        excludes: "human error, manual mistakes"
+      - value: governance-gap
+        includes: "missing safeguard, no protection mechanism,缺少护栏, no defense line, systemic vulnerability, process gap, missing check layer"
+        excludes: "individual error, one-off mistake"
+
+  # --- 12. expiry (卡/块属性, 有时效性时, 人工+自动) ---
+  expiry:
+    group: quality
+    layer: card_or_chunk
+    activation: conditional
+    activation_condition: "content has timeliness concern; value_tier=macro cards must fill this"
+    labeling: manual_plus_auto
+    description: "Timeliness and expiration characteristic of the knowledge."
+    values:
+      - value: stable
+        includes: "long-term stable, won't expire with time, fundamental principle, cognitive bias checklist, basic methodology, mathematics-level truth"
+        excludes: "time-sensitive data, current events, tool-specific versions"
+      - value: current
+        includes: "currently valid,可能需要 2-3 年内审查, contemporary practice, current tool recommendation, recent methodology"
+        excludes: "timeless principles, already-obsolete information"
+      - value: volatile
+        includes: "rapidly changing, may expire within 1 year, platform-specific rules, current model pricing,违禁词列表, trending techniques"
+        excludes: "stable methods, fundamental knowledge, long-term frameworks"
+      - value: evergreen
+        includes: "never expires, first principles, MECE principle, laws of physics, timeless wisdom, foundational axioms"
+        excludes: "any time-bounded content, dated references"
+      - value: "dated:<YYYY-MM-DD>"
+        includes: "explicit expiration date, known sunset date, license expiration, contract end date"
+        excludes: "vague future expiration, unspecified timeline"
+
+  # ============================================================================
+  # Group 4: 价值组 (Value) — 3 dimensions, macro routing and prioritization
+  # AI decision: How important is this? How should I use it? What prerequisites?
+  # ============================================================================
+
+  # --- 13. value_tier (卡属性, 必标, 人工) ---
+  value_tier:
+    group: value
+    layer: card
+    activation: required
+    labeling: manual
+    description: "Strategic value tier of this card for AI usage."
+    values:
+      - value: micro
+        includes: "textbook-level, single-query context reference, individual card lookup, Q&A support, knowledge snack, reference material"
+        excludes: "workflow-integrated knowledge, strategic moat content"
+      - value: meso
+        includes: "fuel-level, business workflow stable data supply, multi-card domain pipeline, complex task completion, domain-level integration"
+        excludes: "single-use reference, industry-exclusive secrets"
+      - value: macro
+        includes: "moat-level, industry-exclusive scarce asset, competitive barrier, full-library strategic advantage, ten-year accumulation, defensible know-how"
+        excludes: "commonly available knowledge, public domain frameworks"
+
+  # --- 14. usage_depth (卡属性, 必标, 自动+人工) ---
+  usage_depth:
+    group: value
+    layer: card
+    activation: required
+    labeling: auto_plus_manual
+    description: "Depth of AI usage for this card — from simple retrieval to training data."
+    values:
+      - value: feed
+        includes: "single-query retrieval,被检索到即可, basic RAG context, minimal integration, all cards minimum level"
+        excludes: "packaged for system prompts, configured in workflows"
+      - value: packaged
+        includes: "encapsulated as Data Pack, used in system prompt, skill definition, capability description, structured for repeated use"
+        excludes: "single-use retrieval, ad-hoc queries"
+      - value: retrieval
+        includes: "RAG knowledge base retrieval, Graph RAG indexed, semantic search accessible, vector database resident"
+        excludes: "unindexed cards, non-searchable content"
+      - value: configured
+        includes: "workflow node, Agent node configuration, pipeline stage, automated decision point, recurring task integration"
+        excludes: "manual retrieval, human-initiated queries"
+      - value: trained
+        includes: "fine-tuning data, training corpus, model customization data — NOT CURRENTLY ENABLED for KDO"
+        excludes: "all standard usage levels"
+
+  # --- 15. prerequisite_knowledge (卡属性, 有前置时, 人工) ---
+  prerequisite_knowledge:
+    group: value
+    layer: card
+    activation: conditional
+    activation_condition: "when the card requires prior knowledge"
+    labeling: manual
+    description: "Prerequisite knowledge or cards needed before consuming this one."
+    values:
+      - value: none
+        includes: "zero prerequisites, no prior knowledge needed, accessible to complete beginners, self-contained"
+        excludes: "any dependency on prior concepts"
+      - value: basic-domain
+        includes: "basic domain awareness needed,例如'知道什么是 RAG', general familiarity with the field"
+        excludes: "specific methodology required, deep expertise"
+      - value: intermediate-method
+        includes: "specific methodology prerequisite,例如'理解五步法', requires mastery of a named framework"
+        excludes: "general domain awareness, basic familiarity"
+      - value: advanced-specialist
+        includes: "domain expert level required, specialist knowledge,多年经验才能理解, advanced practitioner"
+        excludes: "intermediate level, learnable within weeks"
+      - value: "card:<id>"
+        includes: "specific card prerequisite,必须先读某张卡, linked dependency, sequential reading order"
+        excludes: "general prerequisites without specific card reference"
+
+# ============================================================================
+# Activation Rules: which dimensions activate for which chunk types
+# ============================================================================
+
+activation_rules:
+  standard_concept_claim:
+    dimensions: [domain, chunk_type, method_family]
+    label_count: "~5"
+  with_audience_signal:
+    dimensions: [domain, chunk_type, method_family, audience, perspective]
+    label_count: "~7"
+  dark_knowledge_error:
+    dimensions: [domain, chunk_type, method_family, source_person, source_context_type, error_root, confidence]
+    label_count: "~10"
+  platform_specific:
+    dimensions: [domain, chunk_type, method_family, platform, perspective]
+    label_count: "~7"
+
+# ============================================================================
+# Implicit activation: dimensions that activate by chunk_type value
+# ============================================================================
+
+chunk_type_triggers:
+  error_data:
+    activate: [error_root]
+  original_quote:
+    activate: [source_person]
+  critique:
+    activate: [confidence]
+
+# ============================================================================
+# Tag Inference Map (carried over from v1.0)
+# Used for filename-prefix-based initial tag suggestions.
+# ============================================================================
 
 inference_map:
   "yt-":
-    - "#domain/entrepreneurship"
-    - "#method/product-design"
+    - "#domain/yitang"
+    - "#method_family/product-design"
   "master-":
-    - "#domain/knowledge-management"
+    - "#domain/master"
   "ocr-一堂-":
-    - "#domain/entrepreneurship"
+    - "#domain/yitang"
     - "#quality/ocr-card"
   "ocr-":
     - "#quality/ocr-card"
   "design-":
     - "#domain/design"
+  "dk-":
+    - "#domain/master"
   "kdo-":
-    - "#domain/knowledge-management"
-    - "#domain/software-engineering"
+    - "#domain/master"
+    - "#domain/ai-saas"
   "graph-rag":
-    - "#domain/ai-engineering"
-    - "#domain/knowledge-management"
+    - "#domain/ai-saas"
+    - "#domain/master"
   "deepseek-":
-    - "#domain/ai-engineering"
+    - "#domain/ai-saas"
   "kimi-":
-    - "#domain/ai-engineering"
+    - "#domain/ai-saas"
   "anthropic-":
-    - "#domain/ai-engineering"
+    - "#domain/ai-saas"
   "ai-native":
-    - "#domain/ai-engineering"
+    - "#domain/ai-saas"
   "his-":
-    - "#domain/healthcare-it"
+    - "#domain/healthcare"
   "ec-":
-    - "#domain/knowledge-management"
-    - "#method/evaluation-method"
-
-# Cards with domain: yitang → add #domain/entrepreneurship
-# Cards with domain: master → add #domain/knowledge-management + #method/thinking-tool
-# Cards with domain: healthcare → add #domain/healthcare-it
-# Cards with domain: ai-saas → add #domain/ai-engineering
+    - "#domain/master"
+    - "#method_family/evaluation-method"
