@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 黄药师 — Data Curator Skill v1.3。三方对齐完成，分工方案已写入：30_wiki/decisions/data-curator-role-division.md。pilot素材：corrections.md(2条)+master-decision-hygiene(1 section)。
+active_task: 黄药师 — Phase 1 pilot 审查通过(A/A/A-)。Phase 2 准备完成：dark-knowledge schema ✅、chunk_cards.py v1.3 真原子引擎 ✅(56 chunks vs 旧16)、老顽童 SOP ✅。待老顽童试读SOP → Phase 2 启动。
 blockers: []
 ---
 
