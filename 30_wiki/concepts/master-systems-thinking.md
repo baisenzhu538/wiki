@@ -1,16 +1,19 @@
 ---
 id: master-systems-thinking
-title: 系统思考：反馈循环与杠杆点
-type: concept
-status: enriched
+component_of: 
+confidence: 0.85
+created_at: 2026-05-18
+difficulty: intermediate
 domain:
   - master
+estimated_tokens: 1380
 language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.85
-prerequisites:
-component_of:
+prerequisites: 
+query_triggers:
+  - 系统思考
+  - 反馈循环
+  - 杠杆点
+  - 系统动力学
 related:
   - yt-entrepreneur-growth-flywheel
   - yt-entrepreneur-key-hypotheses
@@ -24,20 +27,16 @@ related:
   - yt-unit-model-construction
   - yt-unit-model-benchmark
   - yt-unit-model-ai-assisted
-contradicts:
-query_triggers:
-  - 系统思考
-  - 反馈循环
-  - 杠杆点
-  - 系统动力学
-tags:
-  - #master
-source_refs:
-  - 来源: Jay Forrester, Donella Meadows, Peter Senge
-created_at: 2026-05-18
-updated_at: 2026-05-18
-estimated_tokens: 1380
 reviewed_by: 
+source_refs:
+  - {'来源': 'Jay Forrester, Donella Meadows, Peter Senge'}
+status: enriched
+tags:
+  - None
+title: 系统思考：反馈循环与杠杆点
+type: concept
+updated_at: 2026-05-18
+version: 1
 ---
 
 

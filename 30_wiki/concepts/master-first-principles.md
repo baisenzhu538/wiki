@@ -1,16 +1,19 @@
 ---
 id: master-first-principles
-title: 第一性原理拆解器
-type: tool
-status: enriched
+component_of: 
+confidence: 0.85
+created_at: 2026-05-18
+difficulty: intermediate
 domain:
   - master
+estimated_tokens: 1622
 language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.85
-prerequisites:
-component_of:
+prerequisites: 
+query_triggers:
+  - 第一性原理
+  - 拆到不可拆
+  - 本质思维
+  - 底层逻辑拆解
 related:
   - yt-entrepreneur-liberate-thinking
   - yt-personal-y-model-exploration-2
@@ -21,20 +24,16 @@ related:
   - yt-unit-model-ladder
   - yt-unit-model-construction
   - yt-unit-model-dynamic
-contradicts:
-query_triggers:
-  - 第一性原理
-  - 拆到不可拆
-  - 本质思维
-  - 底层逻辑拆解
-tags:
-  - #master
-source_refs:
-  - 来源: Aristotle, Elon Musk
-created_at: 2026-05-18
-updated_at: 2026-05-18
-estimated_tokens: 1622
 reviewed_by: 
+source_refs:
+  - {'来源': 'Aristotle, Elon Musk'}
+status: enriched
+tags:
+  - None
+title: 第一性原理拆解器
+type: tool
+updated_at: 2026-05-18
+version: 1
 ---
 
 

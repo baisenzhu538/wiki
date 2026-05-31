@@ -1,44 +1,43 @@
 ---
 id: yt-model-aesthetic-progression
-title: 审美提升的层级：从看不见到大胆想象的进化路径
-type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.85
-prerequisites: []
 component_of: []
+confidence: 0.85
+created_at: 2026-05-11
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 2330
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 从看不见到大胆想象的进化路径
+  - 升级策略
+  - 审美三阶进化
+  - 审美提升的层级
+  - 审美提升的层级：从看不见到大胆想象的进化路径
+  - 核心公式解读
 related:
   - yt-model-pan-product-aesthetic-toolkit
   - yt-model-pan-product-three-virtues
   - yt-model-product-excellence
   - yt-personal-pan-product-aesthetics
-contradicts: []
-query_triggers:
-- 从看不见到大胆想象的进化路径
-- 升级策略
-- 审美三阶进化
-- 审美提升的层级
-- 审美提升的层级：从看不见到大胆想象的进化路径
-- 核心公式解读
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/审美提升的层级.png
+status: enriched
 tags:
-- '#yitang'
-- '#aesthetics'
-- '#best-practices'
-- '#personal-growth'
+  - "#yitang"
+  - "#aesthetics"
+  - "#best-practices"
+  - "#personal-growth"
+title: 审美提升的层级：从看不见到大胆想象的进化路径
+type: framework
+updated_at: 2026-05-11
+version: 1
 yitang:
+  course_type: framework
   map: personal
   module: 个人修炼
-  course_type: framework
-source_refs:
-- 10_raw/assets/yitang/审美提升的层级.png
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 2330
-reviewed_by: 黄药师
 ---
 
 # 审美提升的层级：从看不见到大胆想象的进化路径

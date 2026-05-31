@@ -1,16 +1,18 @@
 ---
 id: master-cognitive-bias-checklist
-title: 认知偏差快速诊断清单
-type: tool
-status: enriched
+component_of: 
+confidence: 0.85
+created_at: 2026-05-18
+difficulty: intermediate
 domain:
   - master
+estimated_tokens: 1082
 language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.85
-prerequisites:
-component_of:
+prerequisites: 
+query_triggers:
+  - 认知偏差自检
+  - 决策前检查表
+  - 12种常见偏差
 related:
   - yt-decision-y-model
   - yt-decision-canvas
@@ -21,19 +23,16 @@ related:
   - master-ai-info-literacy
   - yt-unit-model-ladder
   - yt-unit-model-benchmark
-contradicts:
-query_triggers:
-  - 认知偏差自检
-  - 决策前检查表
-  - 12种常见偏差
-tags:
-  - #master
-source_refs:
-  - 来源: 消化全库后提炼
-created_at: 2026-05-18
-updated_at: 2026-05-18
-estimated_tokens: 1082
 reviewed_by: 
+source_refs:
+  - {'来源': '消化全库后提炼'}
+status: enriched
+tags:
+  - None
+title: 认知偏差快速诊断清单
+type: tool
+updated_at: 2026-05-18
+version: 1
 ---
 
 

@@ -1,220 +1,62 @@
 ---
-
-
 id: yt-decision-width-method
-
-
-title: 宽度分析工具：列推建查四步法+三层盲区清单
-
-
-type: tool
-
-
-status: enriched
-
-
-domain:
-
-
-- yitang
-
-
-language: zh-CN
-
-
-version: 1
-
-
-difficulty: intermediate
-
-
-confidence: 0.82
-
-
-prerequisites:
-
-
-  - yt-decision-y-model
-
-
 component_of:
-
-
   - yt-decision-y-model
-
-
-related:
-
-
-  - yt-decision-canvas
-
-
-  - yt-decision-habit-shift
-
-
-  - yt-decision-depth-ladder
-
-
-contradicts: []
-
-
-query_triggers:
-
-
-- 列推建查
-
-
-- 宽度分析
-
-
-- 盲区检查
-
-
-- 决策清单
-
-
-- 成本收益分析
-
-
-- 故事推演
-
-
-- MECE模型
-
-
-- 单元模型
-
-
-- 个人盲区
-
-
-- 团队盲区
-
-
-- 公司盲区
-
-
-tags:
-
-
-- '#yitang'
-
-
-- '#decision-making'
-
-
-- '#tool'
-
-
-- '#checklist'
-
-
-- '#breadth'
-
-
-trust_level: medium
-
-
-yitang:
-
-
-  map: entrepreneur
-
-
-  module: 科学决策
-
-
-  course_id: yt-decision-width-method
-
-
-  course_type: tool
-
-
-  level: intermediate
-
-
-source_refs:
-
-  - 00_inbox/科学决策/一堂-科学决策-ROI决策宽度实操课口述02.txt
-
-  - 00_inbox/科学决策/一堂-科学决策-宽度-个人.png
-
-  - 00_inbox/科学决策/一堂-科学决策-宽度-团队.png
-
-  - 00_inbox/科学决策/一堂-科学决策-宽度-企业.png
-
-  - 00_inbox/科学决策/一堂-科学决策-关键训练清单（重要））.png
-
-visual_analysis:
-
-  - image: 一堂-科学决策-宽度-个人.png
-
-    dimensions:
-
-      - 色彩语义: 左栏白底（价值/收益）vs 右栏灰底（成本），明度差异暗示"收益更亮眼"
-
-      - 空间结构: 左右9:5数量失衡，左重右轻打破对称中立性
-
-      - 信息层级: L1 双栏标题 → L2 价值9项密集排列 → L3 成本5项+底部留白 → L4 决策场景行动引导
-
-      - 负形利用: '成本栏底部4行留白=成本"有限且可控"的视觉修辞；价值栏满溢=收益"丰富"'
-
-      - 视觉隐喻: 容器隐喻（价值满杯/成本半杯）+ 天平隐喻（表面权衡实则倾斜）
-
-  - image: 一堂-科学决策-宽度-团队.png
-
-    dimensions:
-
-      - 色彩语义: 蓝紫主调=系统性/组织性，区别于个人篇的橙黄=个体性
-
-      - 空间结构: 双栏列表(价值盲区/成本盲区)+底部通栏(常见场景)，上部双栏对称+底部通栏横跨
-
-      - 信息层级: L1 场景标签 → L2 价值盲区 → L3 成本盲区（含乘数系数1.2-1.5） → L4 行动场景
-
-      - 负形利用: 栏间分割线=组织边界隐喻；底部场景栏横跨=跨部门视角
-
-      - 视觉隐喻: '"盲区→光明"=课程照亮组织暗角；乘数系数=成本放大的视觉警告'
-
-  - image: 一堂-科学决策-宽度-企业.png
-
-    dimensions:
-
-      - 色彩语义: 深灰/藏青=战略严肃性，红色点缀=风险警示
-
-      - 空间结构: 双栏列表(价值盲区/成本盲区)+底部通栏(常见决策场景)，上部双栏对称+底部通栏横跨
-
-      - 信息层级: L1 战略级标签 → L2 价值盲区 → L3 成本盲区 → L4 底部场景通栏
-
-      - 负形利用: 栏间分割线=组织边界隐喻；底部通栏横跨=跨部门视角
-
-      - 视觉隐喻: 棋盘隐喻=企业决策的多维博弈；深底色=深水区/高风险区
-
-  - image: 一堂-科学决策-关键训练清单（重要））.png
-
-    dimensions:
-
-      - 色彩语义: 红黄绿交通灯系统=优先级编码，黑色=必须完成
-
-      - 空间结构: 纵向清单+横向进度条，T型结构
-
-      - 信息层级: L1 训练模块 → L2 关键动作 → L3 完成标记 → L4 时间锚点
-
-      - 负形利用: 未完成项的空白框=待填充的认知债务
-
-      - 视觉隐喻: 进度条=能力积累的视觉化；交通灯=决策质量的通行权限
-
-created_at: '2026-05-17'
-
-
-updated_at: '2026-05-17'
-
-
+confidence: 0.82
+created_at: 2026-05-17
+difficulty: intermediate
+domain:
+  - yitang
 estimated_tokens: 2800
-
-
+language: zh-CN
+prerequisites:
+  - yt-decision-y-model
+query_triggers:
+  - 列推建查
+  - 宽度分析
+  - 盲区检查
+  - 决策清单
+  - 成本收益分析
+  - 故事推演
+  - MECE模型
+  - 单元模型
+  - 个人盲区
+  - 团队盲区
+  - 公司盲区
+related:
+  - yt-decision-canvas
+  - yt-decision-habit-shift
+  - yt-decision-depth-ladder
 reviewed_by: 
-
-
+source_refs:
+  - 00_inbox/科学决策/一堂-科学决策-ROI决策宽度实操课口述02.txt
+  - 00_inbox/科学决策/一堂-科学决策-宽度-个人.png
+  - 00_inbox/科学决策/一堂-科学决策-宽度-团队.png
+  - 00_inbox/科学决策/一堂-科学决策-宽度-企业.png
+  - 00_inbox/科学决策/一堂-科学决策-关键训练清单（重要））.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#decision-making"
+  - "#tool"
+  - "#checklist"
+  - "#breadth"
+title: 宽度分析工具：列推建查四步法+三层盲区清单
+trust_level: medium
+type: tool
+updated_at: 2026-05-17
+version: 1
+visual_analysis:
+  - {'image': '一堂-科学决策-宽度-个人.png', 'dimensions': [{'色彩语义': '左栏白底（价值/收益）vs 右栏灰底（成本），明度差异暗示"收益更亮眼"'}, {'空间结构': '左右9:5数量失衡，左重右轻打破对称中立性'}, {'信息层级': 'L1 双栏标题 → L2 价值9项密集排列 → L3 成本5项+底部留白 → L4 决策场景行动引导'}, {'负形利用': '成本栏底部4行留白=成本"有限且可控"的视觉修辞；价值栏满溢=收益"丰富"'}, {'视觉隐喻': '容器隐喻（价值满杯/成本半杯）+ 天平隐喻（表面权衡实则倾斜）'}]}
+  - {'image': '一堂-科学决策-宽度-团队.png', 'dimensions': [{'色彩语义': '蓝紫主调=系统性/组织性，区别于个人篇的橙黄=个体性'}, {'空间结构': '双栏列表(价值盲区/成本盲区)+底部通栏(常见场景)，上部双栏对称+底部通栏横跨'}, {'信息层级': 'L1 场景标签 → L2 价值盲区 → L3 成本盲区（含乘数系数1.2-1.5） → L4 行动场景'}, {'负形利用': '栏间分割线=组织边界隐喻；底部场景栏横跨=跨部门视角'}, {'视觉隐喻': '"盲区→光明"=课程照亮组织暗角；乘数系数=成本放大的视觉警告'}]}
+  - {'image': '一堂-科学决策-宽度-企业.png', 'dimensions': [{'色彩语义': '深灰/藏青=战略严肃性，红色点缀=风险警示'}, {'空间结构': '双栏列表(价值盲区/成本盲区)+底部通栏(常见决策场景)，上部双栏对称+底部通栏横跨'}, {'信息层级': 'L1 战略级标签 → L2 价值盲区 → L3 成本盲区 → L4 底部场景通栏'}, {'负形利用': '栏间分割线=组织边界隐喻；底部通栏横跨=跨部门视角'}, {'视觉隐喻': '棋盘隐喻=企业决策的多维博弈；深底色=深水区/高风险区'}]}
+  - {'image': '一堂-科学决策-关键训练清单（重要））.png', 'dimensions': [{'色彩语义': '红黄绿交通灯系统=优先级编码，黑色=必须完成'}, {'空间结构': '纵向清单+横向进度条，T型结构'}, {'信息层级': 'L1 训练模块 → L2 关键动作 → L3 完成标记 → L4 时间锚点'}, {'负形利用': '未完成项的空白框=待填充的认知债务'}, {'视觉隐喻': '进度条=能力积累的视觉化；交通灯=决策质量的通行权限'}]}
+yitang:
+  course_id: yt-decision-width-method
+  course_type: tool
+  level: intermediate
+  map: entrepreneur
+  module: 科学决策
 ---
 
 

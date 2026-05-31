@@ -1,16 +1,18 @@
 ---
 id: master-decision-hygiene
-title: 决策卫生五步法
-type: framework
-status: enriched
+component_of: 
+confidence: 0.90
+created_at: 2026-05-18
+difficulty: intermediate
 domain:
   - master
+estimated_tokens: 1589
 language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.9
-prerequisites:
-component_of:
+prerequisites: 
+query_triggers:
+  - 决策卫生
+  - 噪声减少
+  - 团队决策降噪
 related:
   - yt-decision-y-model
   - yt-decision-canvas
@@ -20,19 +22,16 @@ related:
   - master-ai-info-literacy
   - yt-unit-model-ladder
   - yt-unit-model-selection
-contradicts:
-query_triggers:
-  - 决策卫生
-  - 噪声减少
-  - 团队决策降噪
-tags:
-  - #master
-source_refs:
-  - 来源: Daniel Kahneman, Olivier Sibony, Cass Sunstein
-created_at: 2026-05-18
-updated_at: 2026-05-18
-estimated_tokens: 1589
 reviewed_by: 
+source_refs:
+  - {'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}
+status: enriched
+tags:
+  - None
+title: 决策卫生五步法
+type: framework
+updated_at: 2026-05-18
+version: 1
 ---
 
 

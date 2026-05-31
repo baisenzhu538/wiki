@@ -1,60 +1,52 @@
 ---
 id: yt-decision-ai-partner
-title: AI决策Partner对话法
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.75
-prerequisites:
-  - yt-decision-y-model
 component_of:
   - yt-decision-y-model
+confidence: 0.75
+created_at: 2026-05-17
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1950
+language: zh-CN
+prerequisites:
+  - yt-decision-y-model
+query_triggers:
+  - AI辅助决策
+  - AI决策伙伴
+  - 双三角模型
+  - 决策对话流程
+  - AI partner
+  - 人机协作决策
+  - AI多轮对话
+  - 决策备忘录
+  - AI幻觉识别
 related:
   - yt-decision-canvas
   - yt-entrepreneur-key-hypotheses
-contradicts: []
-query_triggers:
-- AI辅助决策
-- AI决策伙伴
-- 双三角模型
-- 决策对话流程
-- AI partner
-- 人机协作决策
-- AI多轮对话
-- 决策备忘录
-- AI幻觉识别
-tags:
-- '#yitang'
-- '#decision-making'
-- '#AI'
-- '#tool'
-trust_level: medium
-yitang:
-  map: entrepreneur
-  module: 科学决策
-  course_id: yt-decision-ai-partner
-  course_type: tool
-  level: intermediate
+reviewed_by: 周伯通
 source_refs:
   - 00_inbox/科学决策/一堂-科学决策-AI协助决策行动营口述06.txt
   - 00_inbox/科学决策/一堂-科学决策-人机协作决策.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#decision-making"
+  - "#AI"
+  - "#tool"
+title: AI决策Partner对话法
+trust_level: medium
+type: tool
+updated_at: 2026-05-17
+version: 1
 visual_analysis:
-  - image: 一堂-科学决策-人机协作决策.png
-    dimensions:
-      - 色彩语义: 人侧暖色(橙黄)=创造力/审美；AI侧冷色(蓝紫)=计算/数据；交界区渐变=协作融合
-      - 空间结构: 左右对称但非镜像——人侧略大暗示"人主导AI辅助"
-      - 信息层级: L1 双三角标签 → L2 各自三能力 → L3 协作界面 → L4 共同输出
-      - 负形利用: 中间交界区=协作的"灰色地带"；留白=尚未定义的协作规则
-      - 视觉隐喻: 双三角=人的三角(审美/体系/判断力)+AI的三角(场景/数据/基本功)；双向箭头=增强回路
-
-created_at: '2026-05-17'
-updated_at: '2026-05-17'
-estimated_tokens: 1950
-reviewed_by: 周伯通
+  - {'image': '一堂-科学决策-人机协作决策.png', 'dimensions': [{'色彩语义': '人侧暖色(橙黄)=创造力/审美；AI侧冷色(蓝紫)=计算/数据；交界区渐变=协作融合'}, {'空间结构': '左右对称但非镜像——人侧略大暗示"人主导AI辅助"'}, {'信息层级': 'L1 双三角标签 → L2 各自三能力 → L3 协作界面 → L4 共同输出'}, {'负形利用': '中间交界区=协作的"灰色地带"；留白=尚未定义的协作规则'}, {'视觉隐喻': '双三角=人的三角(审美/体系/判断力)+AI的三角(场景/数据/基本功)；双向箭头=增强回路'}]}
+yitang:
+  course_id: yt-decision-ai-partner
+  course_type: tool
+  level: intermediate
+  map: entrepreneur
+  module: 科学决策
 ---
 
 # AI决策Partner对话法
