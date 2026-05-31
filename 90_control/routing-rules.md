@@ -1,10 +1,16 @@
-# Routing Rules v0.3
+# Routing Rules v0.4
 
-> **Machine-readable decision matrix for task routing.**
-> AI agents MUST consult this table before executing any create/update/delete operation.
-> If a trigger condition is ambiguous, route to Arbiter for clarification.
+> **状态**：活跃。最后审查 2026-05-31。
 >
-> **Roles**: 3 (Researcher, Librarian, Arbiter) per CLAUDE.md.
+> **注意**：v0.3 基于旧 3 角色体系（Researcher/Librarian/Arbiter）。v0.4 已将角色引用同步到当前 5 角色体系（AGENTS.md），触发条件和路由逻辑不变——只是执行角色的名字变了。
+>
+> **当前角色映射**：
+> | 旧角色 | 当前角色 |
+> |--------|---------|
+> | Researcher | 老顽童（内容生产）+ 洪七公（多模态） |
+> | Librarian | 老顽童（卡片/文章写入）+ 黄药师（系统层写入） |
+> | Arbiter | 欧阳锋（审查/决策） |
+>
 > **Skills/Workflows**: 3 built-ins (Knowledge Curator, Delivery Producer, System Linter) — invoked by roles, not independent agents.
 
 ---

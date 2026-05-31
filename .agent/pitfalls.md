@@ -251,3 +251,44 @@
 - **所有自动标注管线的性能评估以 Gold Standard 为唯一基准**：`30_wiki/decisions/gold-standard-manual-labels.md`（15 条 chunk，含理由说明）
 
 **关联**：P-15（声称完成未验证）的同一种病的不同表现——这次不是"没做"，而是"测了但测的是错的指标"。
+
+---
+
+## P-18: 手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复
+
+**症状**：Data Curator Clean 跑完后，`yt-decision-y-model.md` 的 `visual_analysis` 字段从 4 张图的完整结构化描述变成 5 条扁平字符串，3 张图 15 条分析丢失。`yt-model-aesthetic-progression.md` 的 `related` 字段从 4 个链接变成 `level: intermediate`。
+
+**根因**：`clean_cards.py` 使用 97 行手写 YAML 解析器，只能处理平面键值对和一层嵌套。遇到 `visual_analysis` 这种"列表内嵌 dict"结构时直接拍扁成字符串。
+
+**对策**：
+- **绝对不要手写 YAML/JSON 解析器**。Python 标准库 `yaml.safe_load()` 1行替代97行
+- 任何批量文件修改工具必须在 write 前做 round-trip 校验
+- 修改后全量扫描 `yaml.safe_load()` 确认 0 损坏
+- 修复流程：代码修复→回滚受损文件(git restore)→重跑
+
+**定位**：`30_wiki/decisions/fix-data-curator-parse-bug.md`
+
+---
+
+## P-19: 花引号被YAML误解析为字符串定界符
+
+**症状**：`"四套操作系统"=可切换的决策runtime` 中，直引号 `"` 被 yaml.safe_load 解释为 YAML 字符串定界符，后面的 `=可切换...` 成为非法 tail，导致 YAML parse error。
+
+**根因**：中文内容的引号在修复花引号→直引号后，被 YAML 流式解析器误认为是字符串包裹符号。`key: "value"=tail` 模式触发 YAML 流式解析。
+
+**对策**：
+- 含 `"value"=tail` 或 `"value":tail` 模式的 YAML 值用单引号包裹：`key: '"value"=tail'`
+- 或者保留花引号 `""` (U+201C/U+201D)——花引号不是 YAML 特殊字符
+
+---
+
+## P-20: pre-screen bigram 匹配对中文文本完全失效
+
+**症状**：tag-registry v1.1 的 `includes`/`excludes` 字段全是英文描述（如 "falsifiable knowledge claim, testable assertion"），但 KDO 的 chunk 90% 是中文。bigram 匹配跨语言完全失效，pre-screen 返回 0 candidates。
+
+**根因**：tag-registry 设计时未考虑中英双语场景。英文 includes 对中文 chunk 无匹配价值。
+
+**对策**：
+- tag-registry 的 includes 必须包含中文关键词（中英双语）
+- 短期内绕过 pre-screen，直接送全维度候选给 LLM（单选模式不需要 pre-screen 过滤）
+- 长期：pre-screen 改为 LLM-based（"这个 chunk 可能属于哪些维度？"）或中文 Embedding 匹配

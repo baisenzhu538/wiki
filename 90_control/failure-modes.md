@@ -28,6 +28,8 @@ source: "EC工业化规范手册 第十三章 — 失败模式库方法论"
 | F-KDO-010 | 溯源断裂 | 🔴 | 已知，L1 Lint 待实现（Sprint 1） |
 | F-KDO-011 | 百科词条化 | 🟡 | 已知，L2 Lint 待实现 |
 | F-KDO-012 | Builder 上下文过载死锁 | 🔴 | 已知，操作规范已更新 |
+| F-KDO-013 | 手写 YAML 解析器导致嵌套数据丢失 | 🔴 | 已修复 — `yaml.safe_load()` |
+| F-KDO-014 | 准确率声明的测量口径不一致 | 🟠 | 已知，Gold Standard 基线已建立 |
 
 ---
 
@@ -214,6 +216,10 @@ source: "EC工业化规范手册 第十三章 — 失败模式库方法论"
 □ F-KDO-011: 卡片是三步编译还是百科词条？→ 检查 [Condense]/[Critique]/[Synthesis] 区块
 □ F-KDO-012: 给黄药师的任务是否 ≤1 个、≤5 分钟、未引用规范文件？→ 单轮单任务
 □ F-KDO-012: 黄药师的会话是否 >20 分钟无产出？→ token 零跳动 = 卡死，立即 `/new`
+□ F-KDO-013: 是否手写了 YAML 解析器？→ 改用 `yaml.safe_load()` + `yaml.dump()`
+□ F-KDO-013: 批量改 frontmatter 前是否做了 round-trip 校验？→ 先 dry-run 确认嵌套结构无损
+□ F-KDO-014: 声称的"准确率"是否附带测量方法？→ 必须明确数据集、覆盖维度、计算方式
+□ F-KDO-014: 是否用 Gold Standard 做了比对？→ 跑 `_verify_gold_standard.py`，不要凭感觉报数字
 ```
 
 ---

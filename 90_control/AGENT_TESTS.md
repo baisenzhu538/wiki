@@ -1,7 +1,12 @@
 # Agent Sandbox Test Cases
 
-> **Test-driven validation of AI agent behavior under boundary conditions.**
-> Run these scenarios after any change to `AGENTS.md`, `routing-rules.md`, or `PROTOCOL.md`.
+> **状态**：活性低。最后审查 2026-05-31。
+>
+> **说明**：v0.1 基于旧 3 角色体系（Researcher/Librarian/Arbiter）设计，当前已是 5 角色体系。测试场景中的角色名需要重新映射后才能使用。
+>
+> **测试场景的格式**（scenario → expected → failure）仍有参考价值——描述了操作边界条件的思考方式。
+>
+> 如需更新：将 Researcher→老顽童、Librarian→老顽童/黄药师、Arbiter→欧阳锋 重新映射后，逐条确认预期行为是否仍然成立。
 
 ---
 

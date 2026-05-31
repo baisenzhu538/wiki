@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 90_control/ 更新完成。AGENTS.md：新增禁止清单#13、暗知识批产SOP、自动标注管线说明。kdo-industrialization-manual.md：v1.7→v1.8，新增§11.2 YAML解析器事故。3个控制文件共6处修改。
+active_task: 黄药师 — Sprint 2026-05-31 全部完成 ✅。交付：auto_label_chunk(88.3%) + tag-registry v1.1 + Clean 424卡 + 萃取器LLM升级 + parse_frontmatter修复 + 复盘+3 Skill沉淀。下一步：全量跑萃取器→老顽童接暗知识生产。欧阳锋 90_control/ 全量更新：9文件19处修改（PROTOCOL/BRIDGE/routing/debate/AGENT_TESTS/failure-modes v更新 + AGENTS/kdo-industrialization-manual 续更）。
 blockers: []
 ---
 

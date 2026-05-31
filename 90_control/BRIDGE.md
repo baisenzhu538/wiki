@@ -1,21 +1,26 @@
-# Cross-Tool Bridge Protocol
+# Cross-Tool Bridge Protocol v0.4
 
-> **Input contract**: How external content (Feishu, Web, Notion, WeChat) flows into KDO.
-> **Goal**: Zero-friction capture from any tool into `00_inbox/`, then `kdo ingest` handles the rest.
+> **状态**：活跃。最后审查 2026-05-31。
+> **Input contract**：How external content (Feishu, Web, Notion, WeChat) flows into KDO.
+> **Goal**：Zero-friction capture from any tool into `00_inbox/`, then `kdo ingest` handles the rest.
+>
+> **v0.3 → v0.4 变更**：桥接脚本（`bridge/feishu.py` 等）从未实现，实际路径走 `kdo capture` / `kdo fetch-url` / 手动拷贝。本文件已同步到当前 CLI 命令。
+> 完整 CLI 速查见 `cli-reference.md` 或 `.agent/toolkit.md`。
 
 ---
 
 ## Supported Input Channels
 
-| Channel | Source Format | KDO Target | Transformer |
-|---------|--------------|------------|-------------|
-| **Feishu Docs** | `.docx` export or API markdown | `00_inbox/` → `10_raw/sources/` | `bridge/feishu.py` |
-| **Web Articles** | HTML / Readability extraction | `00_inbox/links/` → `10_raw/web/` | `bridge/web.py` |
-| **WeChat MP** | HTML / copy-paste markdown | `00_inbox/` → `10_raw/web/` | `bridge/wechat.py` |
-| **Notion** | Markdown export | `00_inbox/` → `10_raw/sources/` | `bridge/notion.py` |
-| **AI Chats** | Markdown transcript | `00_inbox/ai-chats/` → `10_raw/sources/` | `bridge/ai_chat.py` |
-| **Screenshots** | PNG/JPG + OCR text | `00_inbox/screenshots/` → `10_raw/assets/` | `bridge/ocr.py` |
-| **Voice Notes** | Audio + transcript | `00_inbox/voice-notes/` → `10_raw/transcripts/` | `bridge/transcribe.py` |
+| Channel | Source Format | KDO Target | 实际操作（非桥接脚本，用 CLI 命令） |
+|---------|--------------|------------|-----------------------------------|
+| **Feishu Docs** | `.docx` export → `.md` | `00_inbox/` → `kdo ingest` | 手动导出飞书文档为 Markdown → 拷贝到 `00_inbox/` → `kdo ingest` |
+| **Web Articles** | URL | `00_inbox/links/` | `kdo fetch-url <url>` 直接抓取 |
+| **WeChat MP** | 复制粘贴 | `00_inbox/` | 手动粘贴为 `.md` → `kdo ingest` |
+| **Notion** | Markdown export | `00_inbox/` | Notion 导出 → 手动拷贝 → `kdo ingest` |
+| **AI Chats** | Markdown transcript | `00_inbox/ai-chats/` | `kdo import-chat <path>` 直接导入 |
+| **Screenshots** | PNG/JPG | `10_raw/assets/` | PaddleOCR（`ocr-pipeline/`）→ 文本附在图片同目录 |
+| **Voice Notes** | 音频 + ASR 转录 | `10_raw/transcripts/` | 走 ASR 工具转文本 → 手动拷贝 |
+| **通用兜底** | 任意文本文件 | `00_inbox/` | `cp file.txt file.md`（先转 .md）→ `kdo ingest` |
 
 ---
 

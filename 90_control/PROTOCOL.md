@@ -1,7 +1,9 @@
-# KDO Protocol v0.1
+# KDO Protocol v0.3
 
-> Machine-readable operating contract for AI agents interacting with this vault.
-> Human intent: AI must read this file BEFORE any create/update/delete operation.
+> **状态**：活跃。最后审查 2026-05-31。
+> **定位**：v0.1 基于旧 3 角色体系（Researcher/Librarian/Arbiter），v0.3 已同步到当前 5 角色体系（欧阳锋/黄药师/老顽童/洪七公/段王爷）。
+> **阅读顺序**：先读 `AGENTS.md`（角色分工+禁止清单）→ 本文件（目录拓扑+访问控制）→ `kdo-industrialization-manual.md`（操作标准）。
+> **AI 必须在执行任何 create/update/delete 操作前读取本文件**。
 
 ---
 
@@ -9,11 +11,11 @@
 
 | Key | Value |
 |-----|-------|
-| **Name** | KDO (Knowledge Development Organization) |
+| **Name** | KDO (Knowledge Delivery Organization) |
 | **Purpose** | Compile raw inputs into reusable knowledge assets and shipped outputs |
 | **Storage** | Markdown + YAML frontmatter + JSON state |
 | **Runtime** | Zero external dependencies (std-lib only) |
-| **Primary AI Roles** | Researcher, Librarian, Arbiter (defined in `AGENTS.md`) |
+| **Primary AI Roles** | 欧阳锋（Architect）, 黄药师（Builder）, 老顽童（Producer）, 洪七公（Multimodal）, 段王爷（Publisher）——定义在 `AGENTS.md` |
 
 ---
 
