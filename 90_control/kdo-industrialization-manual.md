@@ -2,9 +2,9 @@
 title: "内容工厂的工业化手册"
 type: "control"
 status: "stable"
-version: "1.7"
+version: "1.8"
 created_at: "2026-05-09"
-updated_at: "2026-05-18"
+updated_at: "2026-05-31"
 author: "欧阳锋"
 source: "EC工业化规范手册 v2.8.0 → KDO 领域迁移 + Sprint 1-3 实践经验"
 supersedes: ["kdo-industrialization-manual-v1.0"]
@@ -619,6 +619,42 @@ def parse_frontmatter(text: str) -> tuple[dict[str, Any], str]:
 
 **教训**：Windows + PowerShell + Python 的组合下，BOM/CRLF 是默认潜伏的坑。任何文本解析器在处理来自 PowerShell 的文件时，必须在入口处做这两步处理。
 
+### 11.2 parse_frontmatter 手写 YAML 解析器 → 嵌套结构数据丢失
+
+**事故**：2026-05-31，Data Curator Phase 2 Clean 使用手写逐行 YAML 解析器，导致：
+- `visual_analysis` 字段：4 张图 × 20 条结构化描述被拍平为 5 条扁平字符串，**3 张图 15 条分析丢失**
+- `related` 字段：4 个关联卡链接被覆盖为 `level: intermediate`（从 `yitang` namespace 误解析而来）
+- 受影响文件：353 张概念卡全部被重写，实际受损文件需逐个扫描
+
+**根因**：`clean_cards.py` 和 `workspace.py` 各有一份手写的逐行 YAML 解析器（各 ~100 行），只能处理平面键值对和一层嵌套，遇到 `visual_analysis` 的列表内嵌 dict 结构时完全错乱。
+
+**修复**（`kdo/workspace.py` + `clean_cards.py`）：
+```python
+# 旧：97 行手写 line-by-line 解析
+for line in raw.splitlines():
+    if ":" not in line: continue
+    key, val = line.split(":", 1)
+    metadata[key.strip()] = val.strip()  # ❌ 列表丢失，嵌套拍平
+
+# 新：1 行 yaml.safe_load()
+import yaml
+metadata = yaml.safe_load(raw_fm)  # ✅ 任意嵌套结构无损
+```
+
+渲染端同样修复：
+```python
+# 旧：dict → json.dumps(str(value)) → Python repr 输出
+# 新：dict → yaml.dump(value) → 标准 YAML 输出
+```
+
+**教训**：
+1. **不要手写 YAML 解析器。** Python 标准安装的 `PyYAML` 已经有了 `yaml.safe_load()`，97 行手写代码不如 1 行标准库调用。
+2. **涉及 frontmatter 的操作必须做 round-trip 校验。** write 前用 `yaml.safe_load()` 读回来，确认嵌套结构无损。
+3. **严禁一次性批量重写全部 frontmatter。** 必须单卡 dry-run → 单卡 write → 人工审查 → 再决定是否批量。
+4. **`#` 在 YAML 中是注释标记**，卡片 tags 中的 `- #master` 必须加引号写成 `- "#master"`，否则 `yaml.safe_load()` 会解析为 null。
+
+**完整指南**：`[[30_wiki/concepts/kdo-yaml-frontmatter-safety]]`
+
 ---
 
 ## 十二、Agent 原生知识卡编译规范（v1.3）
@@ -884,6 +920,7 @@ Batch C（29 张卡 v1.5 升级）中严格按 KF-022（≤5 张/会话）和 KF
 | 2026-05-15 | 1.5 | **卡片层行为转化三要件**——黄药师 AI 思维卡分析建议经欧阳锋裁决采纳：新增 §1.7（Critique 外部攻击子节 + Synthesis 不要用场景表 + Action Triggers 节），适用方法/工具/框架卡。新增 KF-024 铁律。更新 L2 门禁规则。概念卡和索引卡豁免 | 欧阳锋 |
 | 2026-05-16 | 1.6 | **三要件执行质量标准 + 回溯升级节奏**——Sprint 12 Batch A（25 张 framework 卡）审查后迭代：§1.7 要件 1 补充外部攻击引证启发法（按领域→反方法化学者映射表）；要件 2 补充不要用场景质量三信号（场景具体性/失效因果/替代指名）；要件 3 补充成功指标三种可验证模式（数量型/时间型/频率型）和 5 分钟可启动测试；新增 §1.9 批量回溯升级执行节奏（≤5 张/轮 + lint + 审查抽检 20%） | 欧阳锋 |
 | 2026-05-18 | 1.7 | **Batch C 执行经验迭代**——29 张 card v1.5 回溯升级完成后沉淀：新增 §1.10 四种卡片结构与 v1.5 升级路径（标准/pan-product/research/catalog）；新增 §1.11 跨域引用桥接策略（通用桥接卡 + 质量信号）；新增 §1.12 新工具用法（`kdo cards --missing`、`kdo lint --accept-baseline`、`kdo lint --structure-report`、`kdo graph rebuild`）；新增 §1.13 KF-022/KF-024 执行感受与实际建议 | 黄药师 |
+| 2026-05-31 | 1.8 | **Data Curator Clean 事故 + YAML 安全规范**——手写 YAML 解析器导致 353 张卡 frontmatter 嵌套数据丢失。新增 §11.2（YAML 解析器坑）。AGENTS.md 同步更新：禁止清单 #13（Gold Standard 验证）、暗知识卡批产管线说明、自动标注管线配置。详见 `[[30_wiki/concepts/kdo-yaml-frontmatter-safety]]` | 欧阳锋 |
 
 ---
 

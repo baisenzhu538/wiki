@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 今日完结。① workspace.py parse_frontmatter + yaml_scalar 已修复（yaml.safe_load + yaml.dump）✅ ② auto_label 准确率基线：34.8%（vs Gold Standard 15条）— 黄药师待调prompt ③ 萃取器LLM升级方案已写入 ④ 三段式审查框架 v2 已更新到toolkit.md ⑤ YAML安全操作指南已入库。
+active_task: 90_control/ 更新完成。AGENTS.md：新增禁止清单#13、暗知识批产SOP、自动标注管线说明。kdo-industrialization-manual.md：v1.7→v1.8，新增§11.2 YAML解析器事故。3个控制文件共6处修改。
 blockers: []
 ---
 
