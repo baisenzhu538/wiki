@@ -1,8 +1,9 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 黄药师 — 标注管线三任务全部完成。① auto_label_chunk() 三段式管线 (+25 tests, 388 pass) ② tag-registry.yaml v1.1 (15维×113值) ③ Data Curator Phase 2 Clean (424卡, 347修复)。下一步：pilot 20张卡→测标注准确率→欧阳锋 Gold Standard 比对。
-blockers: []
+active_task: 审查完毕：auto_label_chunk A ✅ + tag-registry v1.1 A ✅ → 可进Pilot。Data Curator Clean D ⚠️ — parse_frontmatter 手写YAML解析器导致嵌套数据丢失（visual_analysis 4图→5字符串，related 4链接→level: intermediate）。修复方案已写入 30_wiki/decisions/fix-data-curator-parse-bug.md，待黄药师执行（替换为 yaml.safe_load + 回滚 + 重跑）。
+blockers:
+  - "Data Curator Clean parse_frontmatter bug 阻塞 Pilot 启动"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。

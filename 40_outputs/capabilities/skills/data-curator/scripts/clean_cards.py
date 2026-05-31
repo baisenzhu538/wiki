@@ -66,8 +66,11 @@ DOMAIN_KEYWORD_MAP = {
 }
 
 
+import yaml
+
+
 def parse_frontmatter(text: str) -> tuple[dict, str, str]:
-    """Parse YAML frontmatter. Returns (metadata, body, raw_frontmatter)."""
+    """Parse YAML frontmatter using proper YAML parser. Returns (metadata, body, raw_frontmatter)."""
     text = text.replace("\r\n", "\n")
     if text.startswith("﻿"):
         text = text[1:]
@@ -81,86 +84,19 @@ def parse_frontmatter(text: str) -> tuple[dict, str, str]:
     raw_fm = text[4:end]
     body = text[end + 5:]
 
-    metadata = {}
-    lines = raw_fm.split("\n")
-    current_key = None
-    current_list = []
+    try:
+        metadata = yaml.safe_load(raw_fm)
+    except yaml.YAMLError as e:
+        print(f"  [WARN] YAML parse error in frontmatter: {e}", file=sys.stderr)
+        return {}, text, ""
 
-    for line in lines:
-        stripped = line.strip()
-        if not stripped or stripped.startswith("#"):
-            continue
+    if not isinstance(metadata, dict):
+        return {}, text, raw_fm
 
-        if current_key and stripped.startswith("- "):
-            val = stripped[2:].strip().strip('"').strip("'")
-            current_list.append(val)
-            continue
-
-        if current_key and line.startswith("  ") and ":" in stripped:
-            if current_list:
-                metadata[current_key] = current_list
-                current_list = []
-            sub_key, sub_val = stripped.split(":", 1)
-            sub_key = sub_key.strip()
-            sub_val = sub_val.strip().strip('"').strip("'")
-            if current_key not in metadata or not isinstance(metadata[current_key], dict):
-                metadata[current_key] = {}
-            metadata[current_key][sub_key] = sub_val
-            continue
-
-        if current_key and current_list:
-            metadata[current_key] = current_list
-            current_list = []
-            current_key = None
-
-        if ":" not in stripped:
-            continue
-
-        key, raw_val = stripped.split(":", 1)
-        key = key.strip()
-        val = raw_val.strip()
-
-        if val and val[0] in ("[", "{") or val in ("true", "false", "null"):
-            try:
-                metadata[key] = json.loads(val)
-                current_key = None
-                continue
-            except json.JSONDecodeError:
-                pass
-
-        if val and val[0] == '"' and val[-1] == '"':
-            metadata[key] = val[1:-1]
-            current_key = None
-            continue
-        if val and val[0] == "'" and val[-1] == "'":
-            metadata[key] = val[1:-1]
-            current_key = None
-            continue
-
-        if val:
-            try:
-                metadata[key] = int(val)
-                current_key = None
-                continue
-            except ValueError:
-                pass
-            try:
-                metadata[key] = float(val)
-                current_key = None
-                continue
-            except ValueError:
-                pass
-
-        if val == "" or val == "[]":
-            current_key = key
-            current_list = []
-            continue
-
-        metadata[key] = val
-        current_key = None
-
-    if current_key and current_list:
-        metadata[current_key] = current_list
+    # Normalize None values to empty string
+    for k, v in list(metadata.items()):
+        if v is None:
+            metadata[k] = ""
 
     return metadata, body, raw_fm
 
@@ -370,12 +306,11 @@ def render_frontmatter(metadata: dict) -> str:
                     else:
                         lines.append(f"  - {item}")
         elif isinstance(value, dict):
+            # Use yaml.dump for nested dicts to handle arbitrary depth
+            dict_yaml = yaml.dump(value, default_flow_style=False, allow_unicode=True).strip()
             lines.append(f"{key}:")
-            for k, v in value.items():
-                if isinstance(v, str):
-                    lines.append(f"  {k}: {v}")
-                else:
-                    lines.append(f"  {k}: {v}")
+            for sub_line in dict_yaml.split("\n"):
+                lines.append(f"  {sub_line}")
         elif isinstance(value, str):
             if ":" in value or "#" in value or value.startswith("["):
                 lines.append(f'{key}: "{value}"')
@@ -410,6 +345,23 @@ def clean_card(filepath: Path, dry_run: bool = True, backup: bool = True) -> dic
 
     new_fm = render_frontmatter(normalized)
     new_text = new_fm + "\n" + body
+
+    # Round-trip check: verify nested structures survive parse→render cycle
+    try:
+        test_metadata, _, _ = parse_frontmatter(new_text)
+        for key in normalized:
+            if isinstance(normalized[key], (dict, list)):
+                if key not in test_metadata:
+                    raise ValueError(f"Key '{key}' lost during YAML round-trip")
+                if type(normalized[key]) != type(test_metadata[key]):
+                    raise ValueError(
+                        f"Key '{key}' type changed from {type(normalized[key]).__name__} "
+                        f"to {type(test_metadata[key]).__name__} during round-trip"
+                    )
+    except Exception as e:
+        print(f"  ROUND-TRIP CHECK FAILED for {stem}: {e}", file=sys.stderr)
+        print("  Writing ABORTED.", file=sys.stderr)
+        return {"file": str(filepath), "status": "aborted", "reason": str(e)}
 
     if dry_run:
         # Print diff
