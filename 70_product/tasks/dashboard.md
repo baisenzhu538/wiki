@@ -24,6 +24,8 @@ updated: 2026-05-28
 | **16** | **Phase C：文章 3 篇** | **🟡** | **有条件 PASS。需修 3 处 FAIL（缺 Audience/Core Thesis/错别字）** |
 | **17** | **Phase 2.1：corrections.md 暗知识卡批产** | ✅ | **11 张全部 PASS。质量 A** |
 | **18** | **Phase 2.2：failure-modes.md 暗知识卡批产** | **🔨 进行中** | **22 种失败模式，分 7-8 批产出。见 [[task-20260531-laowantong-phase2-dark-knowledge]]** |
+| **19** | **Phase 2.3：pitfalls.md 暗知识卡批产** | **⏳ 排队** | **15 条踩坑，沿用 failure-modes 模板** |
+| **20** | **Phase 3：口述稿暗知识萃取（月白→Truman）** | **⏳ 排队** | **~100 张。黄药师萃取器 A 版就绪后启动** |
 
 ---
 

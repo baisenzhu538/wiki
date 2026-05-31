@@ -1528,3 +1528,5 @@ Chronological record of knowledge operations.
 - 2026-05-31T10:17:05+00:00 - Produced `art_20260531_74dd8445`: 40_outputs/content/articles/art_20260531_74dd8445-李诞脱口秀工作手册读书分享会后感.md
 
 - 2026-05-31T10:17:13+00:00 - Generated handoff brief `brief_20260531_f88c9044`
+
+- 2026-05-31T10:23:32+00:00 - Shipped `art_20260531_74dd8445` to local
