@@ -28,6 +28,10 @@ def parse_gold(path):
         table_start = body.find("| 维度 | 标签值 | 理由 |")
         if table_start >= 0:
             table_text = body[table_start:]
+            # Stop at next heading to avoid picking up statistics tables
+            next_heading = re.search(r'\n##\s', table_text)
+            if next_heading:
+                table_text = table_text[:next_heading.start()]
             for row in table_text.split("\n")[2:]:
                 cells = [c.strip() for c in row.split("|") if c.strip()]
                 if len(cells) >= 2 and cells[0] in CORE:
