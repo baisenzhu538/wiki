@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 黄药师 — Phase 2 条件已补齐(5/6)。SOP已补交付路径+范围说明。chunk_cards.py v1.3 真原子引擎就绪。待老顽童试读SOP→上手C-1。欧阳锋审查通过(A-→A)。
+active_task: 黄药师 — Data Curator Skill Phase 2 启动条件全部满足。Schema ✅、Chunk引擎 ✅、SOP ✅、老顽童试读通过(A/A)。老顽童可规模化生产暗知识卡(corrections 剩余10条→failure-modes 22种→pitfalls 15条)。黄药师待命：chunk脚本自动处理、需要时支援萃取指南。
 blockers: []
 ---
 
