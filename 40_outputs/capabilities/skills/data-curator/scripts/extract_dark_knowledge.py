@@ -91,7 +91,7 @@ def score_candidate(segment: str, dk_type: str) -> float:
 
     specificity = _score_specificity(segment)
     uniqueness = _score_uniqueness(segment, dk_type)
-    independence = _score_independence(segment)
+    independence = _score_independence(segment, dk_type)
     actionability = _score_actionability(segment, dk_type)
 
     return w_sp * specificity + w_un * uniqueness + w_in * independence + w_ac * actionability
@@ -194,7 +194,7 @@ def _gold_nugget_score(text: str) -> float:
     return score
 
 
-def _score_independence(text: str) -> float:
+def _score_independence(text: str, dk_type: str = "") -> float:
     """Can this text be understood without surrounding context?
 
     Independent: contains its own subject, verb, object — a complete thought.
@@ -202,9 +202,10 @@ def _score_independence(text: str) -> float:
     """
     i = 0.4  # base
 
-    # Starts with dependency marker — needs prior sentence
+    # Oral speech penalty: relaxed for tool_usage/workflow (connectors are natural in speech)
+    penalty = 0.12 if dk_type in ("tool_usage", "workflow") else 0.25
     if re.match(r"^\s*(?:然后|所以|但是|而且|因为|接着|之后|后来|于是)", text):
-        i -= 0.25
+        i -= penalty
 
     # Contains demonstrative without antecedent (这个/那个/它 without prior reference)
     if re.search(r"^(?:这个|那个|它|他|她|这|那)\s*\S", text):
@@ -529,7 +530,7 @@ def _deduplicate_semantic(candidates: list[dict]) -> list[dict]:
             if not prev_sig:
                 continue
             overlap = len(sig & prev_sig) / min(len(sig), len(prev_sig)) if min(len(sig), len(prev_sig)) > 0 else 0
-            if overlap > 0.6:
+            if overlap > 0.7:
                 is_dup = True
                 break
 
