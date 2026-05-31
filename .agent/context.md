@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 审查完毕：auto_label_chunk A ✅ + tag-registry v1.1 A ✅ → 可进Pilot。Data Curator Clean D ⚠️ — parse_frontmatter 手写YAML解析器导致嵌套数据丢失（visual_analysis 4图→5字符串，related 4链接→level: intermediate）。修复方案已写入 30_wiki/decisions/fix-data-curator-parse-bug.md，待黄药师执行（替换为 yaml.safe_load + 回滚 + 重跑）。
+active_task: 老顽童 Phase 2.2 (failure-modes→12 dk-f) + 2.3 (pitfalls→15 dk-p) 全部审查通过 ✅ A级。总计38张暗知识卡入库（11 dk-c + 12 dk-f + 15 dk-p）。黄药师 Data Curator Clean D ⚠️ — parse_frontmatter bug 修复方案已写入 30_wiki/decisions/fix-data-curator-parse-bug.md，待黄药师执行。
 blockers:
   - "Data Curator Clean parse_frontmatter bug 阻塞 Pilot 启动"
 ---
