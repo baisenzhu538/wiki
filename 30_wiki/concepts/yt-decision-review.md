@@ -1,26 +1,19 @@
 ---
 id: yt-decision-review
-component_of:
-  - yt-decision-y-model
-confidence: 0.80
-created_at: 2026-05-17
-difficulty: advanced
+title: 决策复盘工具：L1-L4深度复盘法 + 假设验证闭环
+type: tool
+status: enriched
 domain:
-  - yitang
-estimated_tokens: 2400
+- yitang
 language: zh-CN
+version: 1
+difficulty: advanced
+confidence: 0.80
 prerequisites:
   - yt-decision-y-model
   - yt-decision-consensus-iceberg
-query_triggers:
-  - 决策复盘
-  - 假设验证
-  - 后见之明
-  - 决策迭代
-  - 认知迁移
-  - 能力缺失
-  - 无限进步
-  - ROI改进
+component_of:
+  - yt-decision-y-model
 related:
   - yt-decision-canvas
   - yt-decision-width-method
@@ -28,33 +21,45 @@ related:
   - yt-personal-deep-review
   - yt-unit-model-ladder
   - yt-unit-model-benchmark
-source_refs:
-  - 00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt
-  - 00_inbox/科学决策/一堂-科学决策-ROI高阶训练全景图.png
-status: enriched
+contradicts: []
+query_triggers:
+- 决策复盘
+- 假设验证
+- 后见之明
+- 决策迭代
+- 认知迁移
+- 能力缺失
+- 无限进步
+- ROI改进
 tags:
-  - "#yitang"
-  - "#decision-making"
-  - "#tool"
-  - "#review"
-  - "#feedback-loop"
-title: 决策复盘工具：L1-L4深度复盘法 + 假设验证闭环
+- '#yitang'
+- '#decision-making'
+- '#tool'
+- '#review'
+- '#feedback-loop'
 trust_level: medium
-type: tool
-updated_at: 2026-05-17
-version: 1
-visual_analysis:
-  - "色彩语义: 绿=复盘阶段(成长/循环)；与全景图中第5阶段呼应"
-  - "空间结构: 五阶段流程的末端，从复盘指向"变聪明"的循环箭头"
-  - "信息层级: L1 复盘标签 → L2 四层深度 → L3 假设验证 → L4 认知资产"
-  - "负形利用: 循环箭头=非线性回归；箭头留白=复盘的"呼吸空间"
-  - "视觉隐喻: 螺旋上升=每次复盘都带来认知升级；闭环=假设验证的完整性"
 yitang:
   map: entrepreneur
   module: 科学决策
   course_id: yt-decision-review
   course_type: tool
   level: advanced
+source_refs:
+  - 00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt
+  - 00_inbox/科学决策/一堂-科学决策-ROI高阶训练全景图.png
+visual_analysis:
+  - image: 一堂-科学决策-ROI高阶训练全景图.png
+    dimensions:
+      - 色彩语义: 绿=复盘阶段(成长/循环)；与全景图中第5阶段呼应
+      - 空间结构: 五阶段流程的末端，从复盘指向"变聪明"的循环箭头
+      - 信息层级: L1 复盘标签 → L2 四层深度 → L3 假设验证 → L4 认知资产
+      - 负形利用: 循环箭头=非线性回归；箭头留白=复盘的"呼吸空间"
+      - 视觉隐喻: 螺旋上升=每次复盘都带来认知升级；闭环=假设验证的完整性
+
+created_at: '2026-05-17'
+updated_at: '2026-05-17'
+estimated_tokens: 2400
+reviewed_by: 
 ---
 
 # 决策复盘工具：L1-L4深度复盘法 + 假设验证闭环
