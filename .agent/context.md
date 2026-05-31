@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 黄药师 — Data Curator Skill v1.1 迭代完成。理念层重构（查字典→食材思维）、5维标签（+source_type）、12类chunk（+process/error_data）、分库架构预留、ROI评估框架。方案文档：30_wiki/decisions/plan_20260531_data-curator-v1.1.md。等待4篇口述文章输入→v1.2
+active_task: 黄药师 — Data Curator Skill v1.3 迭代完成。完整6+1数据飞轮框架(A.D.U.C.I.T)、双飞轮(数据+场景)、6级成熟度(L1-L6)、三层处理工序(粗/精/灵魂)、互仓策略、五级使用深度、清单笔记标准格式、三种反馈模式、多Agent文档底盘、治理贯穿。方案：30_wiki/decisions/plan_20260531_data-curator-v1.3.md
 blockers: []
 ---
 

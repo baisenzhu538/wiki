@@ -2,7 +2,8 @@
 id: plan_20260531_data-curator-v1.1
 title: "Data Curator Skill — 数据清洗+原子切分+多维标签 实施方案 v1.1"
 type: improvement-plan
-status: draft
+status: superseded
+superseded_by: plan_20260531_data-curator-v1.3
 domain:
   - master
 tags:
