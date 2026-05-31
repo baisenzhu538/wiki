@@ -1,7 +1,7 @@
 ---
-updated: 2026-05-28
+updated: 2026-05-31
 active_branch: main
-active_task: 黄药师 Sprint 5a（article validator 修复）。老顽童 Phase C 文章待修（缺 Audience/Core Thesis）。洪七公路演域 VA 🟡 有條件 PASS（ladder L207 待修）。段王爷：视频交付记录待补。Design 域第一批编译 ✅（3 张概念卡，月白AIGC课程系列）
+active_task: 黄药师 — Data Curator Skill v1.0（数据清洗+原子切分+多维标签）方案已批准，pilot dry-run 完成，待 write 审批。方案文档：30_wiki/decisions/plan_20260531_data-curator-v1.md
 blockers: []
 ---
 

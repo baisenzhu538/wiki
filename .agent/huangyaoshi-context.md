@@ -26,7 +26,7 @@ updated: 2026-05-24
 - **Sprint 3**（produce 预填传送带 5 项）：全部完成，354 tests pass，待欧阳锋审查
 - **Sprint 4**（数据卫生批修）：全部完成，待欧阳锋审查
 - **Sprint 5**（validate→ship 闭环）：⏸️ 欧阳锋裁定暂缓
-- **当前**：等欧阳锋审查交付 + 定下一步方向
+- **当前**：Data Curator Skill v1.0 方案已批准，pilot dry-run 完成。方案：`30_wiki/decisions/plan_20260531_data-curator-v1.md`。Skill：`40_outputs/capabilities/skills/data-curator/`
 
 ## 依赖——不要动
 
