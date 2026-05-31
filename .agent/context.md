@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 黄药师 — Data Curator Skill v1.3 修正版。三方认知对齐文档已创建：30_wiki/decisions/three-party-data-alignment.md（欧阳锋必读）。核心：6+1框架、湖仓、暗知识、真原子、双轨捕获。
+active_task: 黄药师 — Data Curator Skill v1.3。三方对齐完成，分工方案已写入：30_wiki/decisions/data-curator-role-division.md。pilot素材：corrections.md(2条)+master-decision-hygiene(1 section)。
 blockers: []
 ---
 
