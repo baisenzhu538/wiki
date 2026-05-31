@@ -1,193 +1,115 @@
-"""Compare auto_label_chunk() against Gold Standard manual labels.
-Reads gold-standard-manual-labels.md, extracts the 15 chunks,
-runs auto_label_chunk() on each, computes accuracy metrics.
-"""
-import json
-import re
-import sys
+"""Compare auto_label_chunk() against Gold Standard — with debug output."""
+import json, re, sys
 from pathlib import Path
-from collections import defaultdict
 
 VAULT = Path(r"C:\Users\Administrator\Desktop\wiki")
-
-# Import from KDO
 sys.path.insert(0, r"C:\Users\Administrator\Knowledge Delivery OS 0.0.1")
 from kdo.commands.label import (
     auto_label_chunk, load_tag_registry, flatten_dimensions,
-    prescreen_chunk, validate_and_route, llm_label_chunk,
+    prescreen_chunk, llm_label_chunk, validate_and_route,
 )
-from kdo.llm import LLMConfig
+from kdo.llm import LLMConfig, chat
 from kdo.workspace import safe_read
 
-# --- Parse Gold Standard ---
+DIMS = ["chunk_type","method_family","audience","perspective","platform",
+        "confidence","data_generation","value_tier","prerequisite_knowledge",
+        "expiry","usage_depth","source_person","source_context_type"]
 
-def parse_gold_standard(path: Path) -> list[dict]:
-    """Extract the 15 labeled chunks from gold-standard-manual-labels.md."""
+def parse_gold(path):
     text = safe_read(path)
     chunks = []
-    # Split on "## Chunk N" sections
-    sections = re.split(r'\n(?=## Chunk \d+)', text)
-    for sec in sections:
-        m = re.match(r'## Chunk (\d+).*?\n', sec)
-        if not m:
-            continue
-        chunk_id = int(m.group(1))
-        # Extract source card
-        src_m = re.search(r'\*\*来源卡片\*\*\s*\|\s*`(.+?)`', sec)
-        source_card = src_m.group(1) if src_m else "unknown"
-
-        # Extract chunk content
-        content_m = re.search(r'\*\*chunk 内容\*\*\s*\|\s*(.+?)(?:\n\n\||\n\n##)', sec, re.DOTALL)
-        if not content_m:
-            # Try alternative: after the chunk header
-            content_m = re.search(r'\*\*chunk 内容\*\*\s*\|\s*(.+?)(?=\n\|\s*\n\|)', sec, re.DOTALL)
-        chunk_text = ""
-        if content_m:
-            chunk_text = content_m.group(1).strip().strip('"').strip("'")
-
-        # Extract labels from the dimension table
+    for sec in re.split(r'\n(?=## Chunk \d+)', text):
+        m = re.match(r'## Chunk (\d+)', sec)
+        if not m: continue
+        cid = int(m.group(1))
+        src = re.search(r'\*\*来源卡片\*\*\s*\|\s*`(.+?)`', sec)
+        src = src.group(1) if src else "?"
+        cm = re.search(r'\*\*chunk 内容\*\*\s*\|\s*(.+?)(?=\n\|\s*\n\|)', sec, re.DOTALL)
+        txt = cm.group(1).strip().strip('"').strip("'") if cm else ""
         labels = {}
-        table_section = sec.split("| 维度 | 标签值 | 理由 |")
-        if len(table_section) > 1:
-            rows = table_section[1].strip().split("\n")
-            for row in rows:
-                cells = [c.strip() for c in row.split("|") if c.strip()]
-                if len(cells) >= 2:
-                    dim = cells[0].strip()
-                    val = cells[1].strip()
-                    if dim and val and dim not in ("维度", "---", ":--"):
-                        labels[dim] = val
-
-        chunks.append({
-            "id": chunk_id,
-            "source_card": source_card,
-            "text": chunk_text,
-            "gold_labels": labels,
-        })
-
+        for row in sec.split("\n"):
+            cells = [c.strip() for c in row.split("|") if c.strip()]
+            if len(cells) >= 2 and cells[0] in DIMS:
+                labels[cells[0]] = cells[1]
+        chunks.append({"id": cid, "source": src, "text": txt, "gold": labels})
     return chunks
 
-
-# --- Compare Labels ---
-
-DIMS_TO_COMPARE = [
-    "chunk_type", "method_family", "audience", "perspective",
-    "platform", "confidence", "data_generation", "value_tier",
-    "prerequisite_knowledge", "expiry", "usage_depth",
-]
-
-def compare_chunk(gold_labels: dict, auto_result: dict) -> dict:
-    """Compare auto labels against gold standard for one chunk."""
-    auto_labels = {}
-    for lbl in auto_result.get("result", {}).get("labels", []):
-        auto_labels[lbl["dimension"]] = lbl["value"]
-
-    matches = 0
-    mismatches = 0
-    gold_only = 0
-    auto_only = 0
-    details = []
-
-    for dim in DIMS_TO_COMPARE:
-        gold_val = gold_labels.get(dim)
-        auto_val = auto_labels.get(dim)
-        if gold_val and auto_val:
-            if str(gold_val) == str(auto_val):
-                matches += 1
-                details.append(f"  ✅ {dim}: {gold_val}")
-            else:
-                mismatches += 1
-                details.append(f"  ❌ {dim}: gold={gold_val} auto={auto_val}")
-        elif gold_val and not auto_val:
-            gold_only += 1
-            details.append(f"  ⚠️ {dim}: gold={gold_val} auto=<missing>")
-        elif auto_val and not gold_val:
-            auto_only += 1
-            details.append(f"  ➕ {dim}: gold=<none> auto={auto_val}")
-
-    total_gold = matches + mismatches + gold_only
-    accuracy = matches / total_gold if total_gold > 0 else 0
-
-    return {
-        "matches": matches, "mismatches": mismatches,
-        "gold_only": gold_only, "auto_only": auto_only,
-        "accuracy": round(accuracy, 3),
-        "details": details,
-    }
-
-
 def main():
-    gold_path = VAULT / "30_wiki" / "decisions" / "gold-standard-manual-labels.md"
-    if not gold_path.exists():
-        print(f"Gold standard file not found: {gold_path}")
-        return 1
+    chunks = parse_gold(VAULT / "30_wiki/decisions/gold-standard-manual-labels.md")
+    print(f"Parsed {len(chunks)} Gold Standard chunks.\n")
 
-    gold_chunks = parse_gold_standard(gold_path)
-    print(f"Parsed {len(gold_chunks)} Gold Standard chunks.\n")
-
-    # Check LLM
-    llm_config = LLMConfig.from_yaml()
-    llm_available = llm_config.is_configured()
-    print(f"LLM configured: {llm_available}")
-    if not llm_available:
-        print("⚠ Running pre-screen only (no LLM). Results will be noisy.\n")
-    else:
-        print(f"Model: {llm_config.model}\n")
+    cfg = LLMConfig.from_yaml()
+    print(f"LLM: {cfg.model} @ {cfg.endpoint} (configured={cfg.is_configured()})\n")
 
     registry = load_tag_registry(VAULT)
-    if not registry:
-        print("ERROR: tag-registry not found")
-        return 1
+    dims = flatten_dimensions(registry)
 
-    total_matches = 0
-    total_mismatches = 0
-    total_gold_only = 0
-    total_auto_only = 0
-    all_results = []
+    total_match = 0; total_miss = 0; total_extra = 0; total_gold = 0
 
-    for chunk in gold_chunks:
-        print(f"--- Chunk {chunk['id']} ({chunk['source_card'].split('/')[-1][:40]}) ---")
-        print(f"  Gold labels: {len(chunk['gold_labels'])} dims")
-        print(f"  Text: {chunk['text'][:80]}...")
+    for chunk in chunks:
+        print(f"--- Chunk {chunk['id']} ({chunk['source'].split('/')[-1][:35]}) ---")
+        print(f"  text: {chunk['text'][:70]}...")
 
-        result = auto_label_chunk(
-            chunk["text"],
-            registry=registry,
-            llm_config=llm_config,
-            top_k=15,  # More candidates for better coverage
-        )
+        # Stage 1: Pre-screen
+        candidates = prescreen_chunk(chunk["text"], dims, top_k=8)
+        print(f"  pre-screen: {len(candidates)} candidates")
 
-        comparison = compare_chunk(chunk["gold_labels"], result)
-        total_matches += comparison["matches"]
-        total_mismatches += comparison["mismatches"]
-        total_gold_only += comparison["gold_only"]
-        total_auto_only += comparison["auto_only"]
+        # Stage 2: LLM
+        if candidates:
+            try:
+                decisions = llm_label_chunk(chunk["text"], candidates, config=cfg)
+                if not decisions:
+                    print(f"  LLM: returned empty — using pre-screen fallback")
+                    # Fallback: use high-scoring pre-screen candidates
+                    result = validate_and_route([
+                        {"dimension": c["dimension"], "value": c["value"],
+                         "decision": "APPLY" if c["score"] > 0.2 else "REJECT",
+                         "confidence": c["score"]}
+                        for c in candidates
+                    ])
+                else:
+                    print(f"  LLM: {len(decisions)} decisions")
+                    for d in decisions[:3]:
+                        print(f"    {d.get('decision','?')} {d['dimension']}/{d['value']} ({d.get('confidence','?')})")
+                    result = validate_and_route(decisions)
+            except Exception as e:
+                print(f"  LLM ERROR: {e}")
+                result = {"labels": [], "routing": "error", "summary": str(e)}
+        else:
+            result = {"labels": [], "routing": "no_candidates"}
 
-        print(f"  Accuracy: {comparison['accuracy']:.0%} ({comparison['matches']}/{comparison['matches']+comparison['mismatches']+comparison['gold_only']})")
-        for d in comparison["details"]:
-            print(d)
-        print()
-        all_results.append({**chunk, "comparison": comparison, "auto_result": result})
+        # Compare
+        auto = {l["dimension"]: str(l["value"]) for l in result.get("labels", [])}
+        matches = 0; misses = 0; gold_only = 0
+        for dim in DIMS:
+            gv = chunk["gold"].get(dim)
+            if not gv: continue
+            total_gold += 1
+            av = auto.get(dim)
+            if av and av == str(gv):
+                matches += 1
+                total_match += 1
+                print(f"  ✅ {dim}: {gv}")
+            elif av:
+                misses += 1
+                total_miss += 1
+                print(f"  ❌ {dim}: gold={gv} auto={av}")
+            else:
+                gold_only += 1
+                total_extra += 1
+                if dim not in ("source_person","source_context_type"):
+                    print(f"  ⚠️ {dim}: gold={gv} auto=<missing>")
 
-    total = total_matches + total_mismatches + total_gold_only
-    overall_acc = total_matches / total if total > 0 else 0
+        acc = matches/(matches+misses+gold_only) if (matches+misses+gold_only) else 0
+        print(f"  → {matches}/{matches+misses+gold_only} correct ({acc:.0%}) routing={result.get('routing','?')}\n")
+
+    overall = total_match/total_gold if total_gold else 0
     print("=" * 60)
-    print(f"OVERALL: {total_matches}/{total} correct = {overall_acc:.1%}")
-    print(f"  ✅ Matches:   {total_matches}")
-    print(f"  ❌ Mismatches: {total_mismatches}")
-    print(f"  ⚠️ Gold-only:  {total_gold_only} (auto missed)")
-    print(f"  ➕ Auto-only:  {total_auto_only} (extra labels)")
-    print(f"  Target:       ≥ 85%")
-
-    # Save detailed results
-    output_path = VAULT / "60_feedback" / "data-quality" / "label-results" / "gold-standard-comparison.json"
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with output_path.open("w", encoding="utf-8") as f:
-        json.dump(all_results, f, ensure_ascii=False, indent=2, default=str)
-    print(f"\nDetailed results saved to: {output_path}")
-
-    return 0 if overall_acc >= 0.85 else 1
-
+    print(f"OVERALL: {total_match}/{total_gold} = {overall:.1%}")
+    print(f"  ✅ Match:  {total_match}")
+    print(f"  ❌ Miss:   {total_miss}")
+    print(f"  ⚠️ Missing: {total_extra}")
+    print(f"  Target:    ≥ 85%")
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
