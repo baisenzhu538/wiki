@@ -29,6 +29,25 @@ updated_at: 2026-06-01
 **温度**：0.01
 **策略**：中文 few-shot (7例) + card上下文 + 9维单选
 
+## 2026-06-01 — v10 9维全量 baseline
+
+| 维度 | 准确率 | 状态 |
+|------|:--:|:--:|
+| chunk_type | 87% (13/15) | ✅ |
+| method_family | 93% (14/15) | ✅ |
+| audience | 87% (13/15) | ✅ |
+| perspective | 93% (14/15) | ✅ |
+| confidence | 53% (8/15) | ❌ 需调优 |
+| platform | 100% (15/15) | ✅ |
+| expiry | 100% (15/15) | ✅ |
+| prerequisite_knowledge | 67% (10/15) | ⚠️ 边缘 |
+| usage_depth | 100% (15/15) | ✅ |
+| **总(9维)** | **86.7% (117/135)** | ✅ **PASS** |
+
+**分析**：9 维总准确率 86.7%，超 85% 目标。confidence（53%）是主要瓶颈——LLM 对"多源验证 vs 单源强证据"的判断不精准。prerequisite_knowledge（67%）有 5 例边界混淆。但两者都是质量辅助维度，不影响核心 4 维的检索和分类用途。
+
+**结论**：门禁通过。confidence 和 prerequisite_knowledge 的调优作为 P2 优化项，不阻塞 Pilot 启动。
+
 ## 迭代历史
 
 | 版本 | 日期 | 改动 | chunk_type | method_family | audience | perspective | **总** |

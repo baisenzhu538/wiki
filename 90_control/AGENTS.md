@@ -247,6 +247,25 @@ KDO 知识工厂五角色分工，协作规则定义在 `90_control/debate-proto
 
 完整失败模式库：`90_control/failure-modes.md`。下一个 Agent session 启动时必读。
 
+## 标注准确率标准（双轨制）
+
+自动标注管线的准确率评估采用双轨标准。所有角色在引用"准确率"时必须明确说明是哪一轨：
+
+| 指标 | 用途 | 目标 | 谁测 |
+|------|------|:--:|------|
+| **4 维准确率**（chunk_type/method_family/audience/perspective） | prompt 开发快速反馈 | ≥ 85% | Builder 自测（`_verify_gold_standard.py`） |
+| **9 维准确率**（全部可比维度） | 生产门禁 | ≥ 85% | **Architect 独立验证** |
+
+**规则**：
+1. 4 维 < 85% → Builder 继续调 prompt
+2. 4 维 ≥ 85% → 提交 Architect 做 9 维验证
+3. 9 维 < 85% → 定位退步维度 → 针对性调优 → 重新提交
+4. 9 维 ≥ 85% → 门禁通过，启动 Pilot
+
+**准确率 = 正确数 / 总数，不剔除任何 chunk。** "边界 case"标注在比对报告中，但不从计算中排除。
+
+完整讨论记录：`[[30_wiki/decisions/label-accuracy-standard-alignment]]`
+
 ## 暗知识卡批产管线（Phase 2）
 
 Phase 2 建立了暗知识卡从结构化源到入库的完整流程。三个源文件对应三套卡：
