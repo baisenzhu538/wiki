@@ -37,7 +37,8 @@ updated: 2026-05-28
 | Sprint 3 | produce 自动预填 | ✅ commit 6270360。欧阳锋审查通过 |
 | Sprint 4 | 数据卫生（断链/frontmatter/双格式） | ✅ | **S4-1/S4-2/S4-3 全部 PASS** ✅ 欧阳锋审查通过。A类断链83→0，frontmatter245→0，双格式134→0 |
 | **Sprint 5** | **Validate→Ship 闭环** | ✅ | **S5-1/S5-2/S5-3 全部 PASS** ✅ 欧阳锋审查通过。9/9 tests, 388 pytest |
-| **Sprint 5a** | **🔨 Article validator source_refs 修复** | **🔨** | 修 article validator 未识别 frontmatter source_refs bug。详见 [[task-20260528-huangyaoshi-sprint5a-article-validator-fix]] |
+| **Sprint 5a** | **Article validator source_refs 修复** | ✅ | 欧阳锋审查通过 ✅。详见 [[task-20260528-huangyaoshi-sprint5a-article-validator-fix]] |
+| **Sprint 5b** | **🔨 萃取器跑通全部月白口述稿** | **🔨** | **3 篇口述稿过萃取器，产出候选 JSON。见 [[task-20260531-huangyaoshi-extractor-run-all]]** |
 
 ---
 
