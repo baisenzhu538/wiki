@@ -25,6 +25,11 @@ from pathlib import Path
 VAULT_ROOT = Path(r"C:\Users\Administrator\Desktop\wiki")
 OUTPUT_DIR = VAULT_ROOT / "60_feedback" / "data-quality" / "dk-candidates"
 
+# KDO CLI LLM integration
+KDO_CLI = Path(r"C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo")
+sys.path.insert(0, str(KDO_CLI.parent))
+from kdo.llm import LLMConfig, chat
+
 # --- Detection Patterns ---
 
 # Tool names to detect
@@ -541,9 +546,63 @@ def _deduplicate_semantic(candidates: list[dict]) -> list[dict]:
     return unique
 
 
+# --- LLM-based Refinement (v2.0) ---
+
+LLM_EXTRACT_PROMPT = """你是暗知识萃取专家。分析以下口述稿片段，判断是否值得入库，并提取结构化信息。
+
+好的暗知识标准：
+1. 具体、可执行（不是泛泛道理）
+2. AI 训练语料中不存在（不是公开常识）
+3. 独立可读（不需要上下文也明白）
+
+原始片段：
+---
+{segment}
+---
+
+判断类型（选一个）：
+- tool_usage：具体工具/配置/技巧/集成方式
+- failure：错误/踩坑/教训/"不要做"
+- insight：个人专业判断/金句/反常识洞察
+- workflow：操作流程/步骤序列
+
+返回 JSON：
+{{"is_valid": true或false, "title": "简短标题", "dark_knowledge_type": "tool_usage|failure|insight|workflow", "original_quote": "最有价值的原文片段", "use_case": "谁在什么情况下需要", "operation": "具体操作步骤", "boundary": "不适用的情况或易混淆模式", "why_valuable": "为什么AI语料里没有", "cross_reference": "关联概念或工具", "score": 0.0到1.0, "score_reason": "评分理由"}}
+is_valid=false 时只需填 score 和 score_reason。"""
+
+
+def _load_llm_config():
+    try:
+        cfg = LLMConfig.from_yaml()
+        if cfg.is_configured():
+            return cfg
+    except Exception:
+        pass
+    return None
+
+
+def llm_extract_candidate(segment: str, cfg: LLMConfig) -> dict | None:
+    prompt = LLM_EXTRACT_PROMPT.format(segment=segment[:2000])
+    try:
+        response = chat(
+            [{"role": "user", "content": prompt}],
+            config=cfg, temperature=0.1,
+        )
+        json_match = re.search(r"\{.*\}", response, re.DOTALL)
+        if not json_match:
+            return None
+        result = json.loads(json_match.group(0))
+        if not result.get("is_valid", False):
+            return None
+        return result
+    except Exception as exc:
+        print(f"  LLM extraction failed: {exc}", file=sys.stderr)
+        return None
+
+
 # --- Main ---
 
-def extract_from_transcript(input_path: str, dry_run: bool = True) -> list[dict]:
+def extract_from_transcript(input_path: str, dry_run: bool = True, use_llm: bool = True) -> list[dict]:
     """Main extraction pipeline."""
     filepath = VAULT_ROOT / input_path if not os.path.isabs(input_path) else Path(input_path)
     if not filepath.exists():
@@ -554,16 +613,50 @@ def extract_from_transcript(input_path: str, dry_run: bool = True) -> list[dict]
     segments = split_transcript(text)
     print(f"Split into {len(segments)} segments from {filepath.name}")
 
+    # LLM config
+    cfg = _load_llm_config() if use_llm else None
+    if cfg and cfg.is_configured():
+        print(f"LLM: {cfg.model} (configured)")
+    else:
+        print("LLM: not configured — using regex-only fallback")
+
     candidates = []
+    llm_count = 0
+    regex_count = 0
     for seg in segments:
+        if cfg and cfg.is_configured():
+            refined = llm_extract_candidate(seg, cfg)
+            if refined:
+                llm_count += 1
+                source_person = _infer_source_person(str(input_path))
+                candidates.append({
+                    "title": refined.get("title", ""),
+                    "dark_knowledge_type": refined.get("dark_knowledge_type", classify_segment(seg) or "insight"),
+                    "source_person": source_person,
+                    "source_context": f"口述稿: {Path(input_path).stem}",
+                    "score": refined.get("score", 0.0),
+                    "original_quote": refined.get("original_quote", seg[:500]),
+                    "use_case": refined.get("use_case", ""),
+                    "operation": refined.get("operation", "[OPERATION_NEEDS_HUMAN]"),
+                    "boundary": refined.get("boundary", ""),
+                    "why_valuable": refined.get("why_valuable", ""),
+                    "cross_reference": refined.get("cross_reference", ""),
+                })
+                continue
+
+        # Fallback: regex-only (existing path)
         dk_type = classify_segment(seg)
         if not dk_type:
             continue
         score = score_candidate(seg, dk_type)
-        if score < 0.45:  # v1.3: tighter than B+ (0.4) but not over-strict
+        if score < 0.45:
             continue
         template = prefill_template(seg, dk_type, str(input_path), score)
         candidates.append(template)
+        regex_count += 1
+
+    if llm_count > 0:
+        print(f"  LLM extracted: {llm_count}, regex fallback: {regex_count}")
 
     # Deduplicate with semantic-aware overlap detection
     unique = _deduplicate_semantic(candidates)
@@ -596,6 +689,7 @@ def extract_from_transcript(input_path: str, dry_run: bool = True) -> list[dict]
 def main():
     input_path = None
     dry_run = True
+    use_llm = True
 
     args = sys.argv[1:]
     i = 0
@@ -605,15 +699,19 @@ def main():
         elif args[i] == "--dry-run":
             dry_run = True; i += 1
         elif args[i] == "--output":
-            dry_run = False; i += 1  # --output flag triggers write mode
+            dry_run = False; i += 1
+        elif args[i] == "--llm":
+            use_llm = True; i += 1
+        elif args[i] == "--no-llm":
+            use_llm = False; i += 1
         else:
             i += 1
 
     if not input_path:
-        print("Usage: extract_dark_knowledge.py --input <path> [--dry-run|--output]")
+        print("Usage: extract_dark_knowledge.py --input <path> [--dry-run|--output] [--llm|--no-llm]")
         sys.exit(1)
 
-    extract_from_transcript(input_path, dry_run=dry_run)
+    extract_from_transcript(input_path, dry_run=dry_run, use_llm=use_llm)
 
 
 if __name__ == "__main__":
