@@ -67,49 +67,183 @@ WORKFLOW_PATTERNS = [
     r"(?:分成|分为|拆成).*?(?:三步|两步|五步|三个|两个|五个)",
 ]
 
-# --- Scoring ---
+# --- Scoring (v1.3: 4-dimension weighted) ---
 
 def score_candidate(segment: str, dk_type: str) -> float:
-    """Score a candidate segment for card-worthiness (0.0-1.0)."""
-    score = 0.3  # base
+    """Score a candidate segment for card-worthiness (0.0-1.0).
 
-    # Specificity bonus
-    if any(tool.lower() in segment.lower() for tool in KNOWN_TOOLS):
-        score += 0.15
-    if re.search(r"\d+", segment):  # contains numbers
-        score += 0.05
-    if len(segment) > 40 and len(segment) < 300:
-        score += 0.10
+    Four dimensions, weighted:
+      - specificity (0.30): concrete details — tools, numbers, names
+      - uniqueness  (0.25): not generic, not public knowledge
+      - independence(0.25): readable without surrounding context
+      - actionability(0.20): can someone act on this?
 
-    # Uniqueness bonus
-    specific_names = ["月白", "Truman", "一堂", "大眉毛", "徐建", "阿蕊", "花总"]
-    if any(name in segment for name in specific_names):
-        score += 0.10
+    The weights differ by dk_type — insight cares more about uniqueness,
+    tool_usage cares more about specificity.
+    """
+    weights = {
+        "tool_usage": (0.30, 0.20, 0.25, 0.25),
+        "failure":    (0.25, 0.30, 0.20, 0.25),
+        "insight":    (0.15, 0.40, 0.30, 0.15),
+        "workflow":   (0.30, 0.15, 0.25, 0.30),
+    }
+    w_sp, w_un, w_in, w_ac = weights.get(dk_type, (0.25, 0.25, 0.25, 0.25))
 
-    # Actionability bonus
-    if dk_type in ("tool_usage", "failure") and _has_how_to(segment):
-        score += 0.15
-    if dk_type == "workflow" and len(segment.split("。")) >= 3:
-        score += 0.15
-    if dk_type == "insight" and len(segment) < 120:
-        score += 0.10
+    specificity = _score_specificity(segment)
+    uniqueness = _score_uniqueness(segment, dk_type)
+    independence = _score_independence(segment)
+    actionability = _score_actionability(segment, dk_type)
 
-    # Penalty: too generic
-    generic_words = ["重要", "关键", "核心", "基础", "必要"]
-    if sum(1 for w in generic_words if w in segment) >= 3 and dk_type != "insight":
-        score -= 0.10
-
-    return min(1.0, max(0.0, score))
+    return w_sp * specificity + w_un * uniqueness + w_in * independence + w_ac * actionability
 
 
-def _has_how_to(text: str) -> bool:
-    """Check if text contains actionable how-to content."""
-    how_patterns = [
-        r"\d+[\.\)、].{5,}",       # numbered steps
-        r"(?:打开|点击|输入|选择|设置|配置|保存|导出|导入|拖拽|复制|粘贴)",
-        r"(?:先|再|然后|接着|最后)[^。]{3,30}",
+def _score_specificity(text: str) -> float:
+    """Concrete details = higher score."""
+    s = 0.0
+    if any(t.lower() in text.lower() for t in KNOWN_TOOLS):
+        s += 0.30
+    if re.search(r"\d+", text):
+        s += 0.15
+    if any(name in text for name in ["月白", "Truman", "一堂", "大眉毛", "徐建", "阿蕊", "花总"]):
+        s += 0.20
+    if 40 < len(text) < 300:
+        s += 0.15
+    # Penalty: too many generic adjectives without substance
+    generic = ["非常", "特别", "很", "挺", "比较"]
+    if sum(1 for w in generic if w in text) >= 4:
+        s -= 0.15
+    return min(1.0, max(0.0, s))
+
+
+def _score_uniqueness(text: str, dk_type: str) -> float:
+    """Is this knowledge NOT in public AI training data?"""
+    u = 0.3  # base — oral transcripts are inherently somewhat unique
+
+    # Insight-specific: gold nugget detector
+    if dk_type == "insight":
+        u += _gold_nugget_score(text)
+
+    # Tool-specific: named tool + specific trick
+    if dk_type == "tool_usage":
+        if any(re.search(rf"{t}.*?(?:可以|能|会|用来|用来做)", text) for t in KNOWN_TOOLS):
+            u += 0.25
+        if re.search(r"(?:免费|不用钱|省(?:了|下)|不花钱|白嫖)", text):
+            u += 0.10
+
+    # Failure: contains root cause analysis
+    if dk_type == "failure":
+        if re.search(r"(?:根因|是因为|之所以|原因.*?是|归根结底|本质上)", text):
+            u += 0.30
+
+    # Workflow: specific sequence, not generic advice
+    if dk_type == "workflow":
+        if len(re.findall(r"(?:先|再|然后|接着|最后|第一步|第二步)", text)) >= 3:
+            u += 0.20
+
+    # Penalty: sounds like public knowledge
+    public_sounding = [
+        r"(?:大家.*?知道|众所周知|一般来说|通常.*?会|很多人.*?都)",
+        r"(?:重要.*?是|关键.*?是|核心.*?是|基础.*?是)\s*(?:要|需要|应该)",
     ]
-    return any(re.search(p, text) for p in how_patterns)
+    if any(re.search(p, text) for p in public_sounding):
+        u -= 0.20
+
+    return min(1.0, max(0.0, u))
+
+
+def _gold_nugget_score(text: str) -> float:
+    """Detect genuine aphorisms vs filler '我觉得' statements.
+
+    Gold nugget signals:
+      - Short and punchy (<80 chars)
+      - Contains contrast/reversal/paradox (不是X而是Y, 以前X现在Y)
+      - Standalone quotable (去掉"我觉得"仍然成立)
+      - Has original metaphor/analogy (像/如同/相当于/活菩萨)
+      - Counter-intuitive claim (其实/本质上/恰恰/反而)
+
+    Noise signals:
+      - Long and rambling (>150 chars for an 'insight')
+      - Heavy on filler words (这个/然后呢/就是说)
+      - Statement of obvious preference (我喜欢/我觉得好用)
+    """
+    score = 0.0
+
+    # Positive signals
+    if len(text) < 80:
+        score += 0.25
+    elif len(text) > 150:
+        score -= 0.20
+
+    if re.search(r"(?:不是.{2,10}(?:而是|就是|是)|以前.{2,10}现在|过去.{2,10}现在)", text):
+        score += 0.20  # contrast/reversal
+
+    if re.search(r"(?:本质上|其实|恰恰|反而|说到底|归根结底)", text):
+        score += 0.15  # counter-intuitive
+
+    if re.search(r"(?:活菩萨|许愿|教材|燃料|护城河|操盘手|查字典|食材|飞轮)", text):
+        score += 0.20  # original metaphor
+
+    # Negative signals
+    filler_count = len(re.findall(r"(?:这个|然后呢|就是说|好不好|对吧|是不是)", text))
+    if filler_count >= 3:
+        score -= 0.20
+
+    if re.search(r"^(?:我|我们)\s*(?:觉得|感觉|认为|喜欢|爱)", text) and len(text) > 60:
+        score -= 0.10  # just an opinion, not a nugget
+
+    return score
+
+
+def _score_independence(text: str) -> float:
+    """Can this text be understood without surrounding context?
+
+    Independent: contains its own subject, verb, object — a complete thought.
+    Dependent: starts with '然后' '所以' '但是' implying prior context needed.
+    """
+    i = 0.4  # base
+
+    # Starts with dependency marker — needs prior sentence
+    if re.match(r"^\s*(?:然后|所以|但是|而且|因为|接着|之后|后来|于是)", text):
+        i -= 0.25
+
+    # Contains demonstrative without antecedent (这个/那个/它 without prior reference)
+    if re.search(r"^(?:这个|那个|它|他|她|这|那)\s*\S", text):
+        if not re.search(r"(?:是|叫|指|就是|指的是)", text[:30]):
+            i -= 0.15  # "这个..." — what is 这个?
+
+    # Has a clear subject-verb-object structure
+    if re.search(r".{3,20}(?:是|用|做|有|能|会|可以|需要|应该).{3,50}", text):
+        i += 0.20
+
+    # Standalone judgment — could be a tweet
+    if len(text) < 100 and not re.match(r"^\s*(?:然后|所以|但是)", text):
+        i += 0.15
+
+    return min(1.0, max(0.0, i))
+
+
+def _score_actionability(text: str, dk_type: str) -> float:
+    """Can someone act on this knowledge?"""
+    a = 0.2  # base
+
+    if dk_type in ("tool_usage", "workflow"):
+        if re.search(r"\d+[\.\)、]\s*.{5,}", text):
+            a += 0.30  # numbered steps
+        if len(re.findall(r"(?:打开|点击|输入|选择|设置|配置|保存|导出|导入|拖拽|复制|粘贴|下载|安装)", text)) >= 2:
+            a += 0.20
+
+    if dk_type == "failure":
+        if re.search(r"(?:修正|对策|解决|修复|改进).{5,30}", text):
+            a += 0.25
+        if re.search(r"(?:不要|别|避免|禁止|停止).{5,30}", text):
+            a += 0.20
+
+    if dk_type == "insight":
+        # Insights aren't directly actionable — they inform judgment. Lower ceiling.
+        if re.search(r"(?:所以|因此|于是).{5,30}(?:应该|需要|可以|值得)", text):
+            a += 0.15
+
+    return min(1.0, max(0.0, a))
 
 
 # --- Segment Classification ---
@@ -126,9 +260,10 @@ def classify_segment(text: str) -> str | None:
     if any(re.search(p, text) for p in FAILURE_PATTERNS):
         scores["failure"] = 0.6 + (0.1 if "修正" in text or "对策" in text or "不要" in text else 0)
 
-    # Check insight
+    # Check insight — higher bar: must pass gold nugget test
     if any(re.search(p, text) for p in INSIGHT_PATTERNS):
-        scores["insight"] = 0.5 + (0.15 if len(text) < 120 else 0)
+        nugget = _gold_nugget_score(text)
+        scores["insight"] = 0.5 + nugget  # need at least 0.15 nugget score to clear base threshold
 
     # Check workflow
     if any(re.search(p, text) for p in WORKFLOW_PATTERNS):
@@ -201,11 +336,17 @@ def prefill_template(segment: str, dk_type: str, source_path: str, score: float)
     }
     template["use_case"] = type_contexts.get(dk_type, "")
 
-    # Auto-fill operation if steps detected
-    if dk_type in ("tool_usage", "workflow"):
+    # Operation: DO NOT auto-extract broken steps.
+    # Leave blank with annotation. 老顽童 does this from original_quote.
+    if dk_type in ("tool_usage", "workflow", "failure"):
         steps = _extract_steps(segment)
-        if steps:
+        if steps and all(len(s) > 20 for s in steps[:3]) and len(steps) >= 2:
+            # Only fill if we have ≥2 real steps
             template["operation"] = "\n".join(f"{i+1}. {s}" for i, s in enumerate(steps[:5]))
+        else:
+            template["operation"] = "[需从原始表述中提取操作步骤]"
+    else:
+        template["operation"] = "[不适用]"
 
     # Auto-fill why_valuable
     template["why_valuable"] = _prefill_why_valuable(segment, dk_type)
@@ -215,7 +356,76 @@ def prefill_template(segment: str, dk_type: str, source_path: str, score: float)
     if boundary:
         template["boundary"] = boundary
 
+    # Auto-suggest cross-references from existing cards
+    refs = _match_existing_cards(segment, dk_type)
+    if refs:
+        template["cross_reference"] = ", ".join(refs[:3])
+
     return template
+
+
+# --- Cross-Reference Matching ---
+
+# Lazily loaded card index
+_card_index = None
+
+def _load_card_index() -> dict[str, str]:
+    """Load a lightweight index: card_slug → title + keywords."""
+    global _card_index
+    if _card_index is not None:
+        return _card_index
+
+    concepts_dir = VAULT_ROOT / "30_wiki" / "concepts"
+    _card_index = {}
+    for fp in concepts_dir.glob("*.md"):
+        try:
+            text = fp.read_text(encoding="utf-8", errors="replace")[:3000]
+            # Extract title from first H1 or frontmatter
+            title_match = re.search(r"^#\s+(.+)", text, re.MULTILINE)
+            fm_match = re.search(r"^title:\s*\"?(.+?)\"?\s*$", text, re.MULTILINE)
+            title = (title_match.group(1) if title_match else
+                     fm_match.group(1) if fm_match else fp.stem)
+            # Extract key terms from body
+            body = text[text.find("---\n", 4) + 4:] if "---\n" in text[4:] else text
+            body = body[:2000]
+            _card_index[fp.stem] = f"{title} {body[:500]}"
+        except Exception:
+            pass
+    return _card_index
+
+
+def _match_existing_cards(segment: str, dk_type: str) -> list[str]:
+    """Suggest existing concept cards that this dark knowledge relates to."""
+    card_index = _load_card_index()
+    if not card_index:
+        return []
+
+    # Extract key terms from the segment (CJK bigrams + tool names)
+    terms = set()
+    for tool in KNOWN_TOOLS:
+        if tool.lower() in segment.lower():
+            terms.add(tool)
+
+    # CJK bigrams
+    cjk_chars = re.findall(r"[一-鿿]{2,4}", segment)
+    # Keep only mid-frequency terms (not every stop word)
+    term_counts = Counter(cjk_chars)
+    for term, count in term_counts.most_common(15):
+        if count >= 2 and len(term) >= 2:
+            terms.add(term)
+
+    if not terms:
+        return []
+
+    # Score each card by term overlap
+    scores = {}
+    for slug, content in card_index.items():
+        overlap = sum(1 for t in terms if t in content)
+        if overlap >= 2:
+            scores[slug] = overlap
+
+    # Return top matches
+    return [slug for slug, _ in sorted(scores.items(), key=lambda x: -x[1])[:3]]
 
 
 def _infer_source_person(source_path: str) -> str:
@@ -292,6 +502,44 @@ def _prefill_why_valuable(segment: str, dk_type: str) -> str:
     return reasons.get(dk_type, "不在任何 AI 训练语料中的独特知识")
 
 
+def _deduplicate_semantic(candidates: list[dict]) -> list[dict]:
+    """Deduplicate candidates — keep highest scored, merge near-duplicates.
+
+    Uses CJK bigram overlap: if two candidates share >60% bigrams, keep the higher-scored one.
+    """
+    if len(candidates) <= 1:
+        return candidates
+
+    def bigrams(text: str) -> set[str]:
+        cjk = re.findall(r"[一-鿿]{2}", text)
+        return set(cjk)
+
+    sorted_cands = sorted(candidates, key=lambda x: x["score"], reverse=True)
+    unique = []
+    seen_sigs = []
+
+    for c in sorted_cands:
+        sig = bigrams(c["original_quote"])
+        if len(sig) < 3:  # too short to meaningfully compare
+            unique.append(c)
+            continue
+
+        is_dup = False
+        for prev_sig in seen_sigs:
+            if not prev_sig:
+                continue
+            overlap = len(sig & prev_sig) / min(len(sig), len(prev_sig)) if min(len(sig), len(prev_sig)) > 0 else 0
+            if overlap > 0.6:
+                is_dup = True
+                break
+
+        if not is_dup:
+            unique.append(c)
+            seen_sigs.append(sig)
+
+    return unique
+
+
 # --- Main ---
 
 def extract_from_transcript(input_path: str, dry_run: bool = True) -> list[dict]:
@@ -311,19 +559,13 @@ def extract_from_transcript(input_path: str, dry_run: bool = True) -> list[dict]
         if not dk_type:
             continue
         score = score_candidate(seg, dk_type)
-        if score < 0.4:  # minimum threshold
+        if score < 0.45:  # v1.3: tighter than B+ (0.4) but not over-strict
             continue
         template = prefill_template(seg, dk_type, str(input_path), score)
         candidates.append(template)
 
-    # Deduplicate (keep highest scored)
-    seen = set()
-    unique = []
-    for c in sorted(candidates, key=lambda x: x["score"], reverse=True):
-        key = c["original_quote"][:80]
-        if key not in seen:
-            seen.add(key)
-            unique.append(c)
+    # Deduplicate with semantic-aware overlap detection
+    unique = _deduplicate_semantic(candidates)
 
     # Report
     type_counts = Counter(c["dark_knowledge_type"] for c in unique)
