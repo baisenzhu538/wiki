@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂五步法-产品内核画布"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_dc5c80df"]
-created_at: "2026-05-21T20:13:56+00:00"
-updated_at: "2026-05-22T07:22:21+00:00"
 id: ocr-一堂五步法-产品内核画布
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_dc5c80df
+status: enriched
+title: "OCR: 一堂五步法-产品内核画布"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

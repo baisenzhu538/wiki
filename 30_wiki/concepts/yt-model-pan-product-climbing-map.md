@@ -1,44 +1,47 @@
 ---
-id: "yt-model-pan-product-climbing-map"
-title: "泛产品十年爬山地图：L1-L6成长路径"
-type: "framework"
-status: "enriched"
-domain: "yitang"
-language: "zh-CN"
-version: 1
-difficulty: "foundational"
+id: yt-model-pan-product-climbing-map
+component_of:
+  - yt-composite-pan-product-methodology
 confidence: 0.85
-
-prerequisites: ["yt-composite-pan-product-methodology"]
-component_of: ["yt-composite-pan-product-methodology"]
-related:
-  - "yt-model-pan-product-36-strategies"
-  - "yt-model-pan-product-three-virtues"
-  - "yt-model-pan-product-demand-toolkit"
-  - "yt-model-pan-product-aesthetic-toolkit"
-  - "yt-model-pan-product-execution-toolkit"
-contradicts: []
-
-query_triggers:
-  - "爬山地图"
-  - "L1-L6"
-  - "产品成长路径"
-  - "产品设计段位"
-  - "产品能力提升"
-  - "十年修炼"
-  - "产品设计进阶"
-tags: ["爬山地图", "成长路径", "一堂", "泛产品设计", "段位"]
-
-source_refs:
-  - "10_raw/assets/yitang/一堂泛产品设计-十年修炼爬山地图.png"
-
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-review_by: "2026-11-11"
-superseded_by: ""
-deprecation_reason: ""
+created_at: 2026-05-11
+deprecation_reason: 
+difficulty: foundational
+domain:
+  - yitang
 estimated_tokens: 1800
-reviewed_by: "黄药师"
+language: zh-CN
+prerequisites:
+  - yt-composite-pan-product-methodology
+query_triggers:
+  - 爬山地图
+  - L1-L6
+  - 产品成长路径
+  - 产品设计段位
+  - 产品能力提升
+  - 十年修炼
+  - 产品设计进阶
+related:
+  - yt-model-pan-product-36-strategies
+  - yt-model-pan-product-three-virtues
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
+  - yt-model-pan-product-execution-toolkit
+review_by: 2026-11-11
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/一堂泛产品设计-十年修炼爬山地图.png
+status: enriched
+superseded_by: 
+tags:
+  - 爬山地图
+  - 成长路径
+  - 一堂
+  - 泛产品设计
+  - 段位
+title: 泛产品十年爬山地图：L1-L6成长路径
+type: framework
+updated_at: 2026-05-11
+version: 1
 ---
 
 ## Claims

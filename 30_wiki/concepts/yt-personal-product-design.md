@@ -1,57 +1,45 @@
 ---
 id: yt-personal-product-design
-title: 泛产品设计
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: foundational
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-needs-analysis
-  - yt-personal-ai-capability
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-extraction
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 3000
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 泛产品设计
-- 产品思维
-- 用户场景分析
-- 最小交付物
-- 产品审美
-- 解决方案设计
-- 迭代验证
-- 用户任务分析
-- 职业发展路径设计
-- 产品设计方法论
+  - 泛产品设计
+  - 产品思维
+  - 用户场景分析
+  - 最小交付物
+  - 产品审美
+  - 解决方案设计
+  - 迭代验证
+  - 用户任务分析
+  - 职业发展路径设计
+  - 产品设计方法论
+related:
+  series: true
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 泛产品设计
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: personal
   module: 泛产品设计
   course_id: yt-personal-product-design
   course_type: method
   level: core
-related:
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-needs-analysis
-  - yt-personal-ai-capability
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-extraction
-  series: true
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-review_date: '2026-05-08'
-estimated_tokens: 3000
-reviewed_by: 黄药师
 ---
 # 泛产品设计
 

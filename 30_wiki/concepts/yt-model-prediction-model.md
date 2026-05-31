@@ -1,50 +1,40 @@
 ---
 id: yt-model-prediction-model
+component_of: []
+confidence: 0.85
+created_at: 2026-05-11
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 2226
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 三种预判范式
+  - 从最糙版到复杂版的三种预判范式
+  - 使用原则
+  - 常见角度
+  - 预判模型
+  - 预判模型：从最糙版到复杂版的三种预判范式
+related:
+  level: intermediate
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/预判模型.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#entrepreneurship"
+  - "#prediction"
+  - "#decision-making"
 title: 预判模型：从最糙版到复杂版的三种预判范式
 type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: intermediate
-confidence: 0.85
-prerequisites: []
-component_of: []
-related:
-  - yt-entrepreneur-industry-forecast
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-opportunity-selection
-  - yt-management-scientific-decision
-contradicts: []
-query_triggers:
-- 三种预判范式
-- 从最糙版到复杂版的三种预判范式
-- 使用原则
-- 常见角度
-- 预判模型
-- 预判模型：从最糙版到复杂版的三种预判范式
-tags:
-- '#yitang'
-- '#entrepreneurship'
-- '#prediction'
-- '#decision-making'
 yitang:
   map: entrepreneur
   module: 创业必修
   course_type: framework
-related:
-  - yt-entrepreneur-industry-forecast
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-opportunity-selection
-  - yt-management-scientific-decision
-  level: intermediate
-source_refs:
-- 10_raw/assets/yitang/预判模型.png
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 2226
-reviewed_by: 黄药师
 ---
 
 # 预判模型：从最糙版到复杂版的三种预判范式

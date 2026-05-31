@@ -1,46 +1,45 @@
 ---
 id: yt-model-dual-triangle-competitiveness
-title: 双三角竞争力模型
-type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: foundational
-confidence: 0.85
-prerequisites: []
 component_of: []
+confidence: 0.85
+created_at: 2026-05-07
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 1915
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 人类三角 × AI 三角
+  - 关联卡片
+  - 双三角竞争力模型
+  - 双螺旋增强回路
+  - 基础层
+  - 知识体系定位
 related:
   - yt-model-muse-ai-framework
   - yt-personal-ai-capability
   - yt-personal-ipo-learning
-contradicts: []
-query_triggers:
-- 人类三角 × AI 三角
-- 关联卡片
-- 双三角竞争力模型
-- 双螺旋增强回路
-- 基础层
-- 知识体系定位
-tags:
-- '#yitang'
-- '#ai-model'
-- '#competitiveness'
-yitang:
-  map: personal
-  module: AI 思维模型
-  course_type: model
-  level: foundational
+reviewed_by: 黄药师
 source_refs:
   - 10_raw/sources/一堂-课程地图精华串讲.md
   - 10_raw/assets/yitang/一堂-个人修炼-双三角模型.jpg
   - 40_outputs/content/images/infographics/dual-triangle-competitiveness.excalidraw
   - 40_outputs/content/images/infographics/dual-triangle-visual-analysis.md
-created_at: '2026-05-07'
-updated_at: '2026-05-19'
-estimated_tokens: 1915
-reviewed_by: 黄药师
+status: enriched
+tags:
+  - "#yitang"
+  - "#ai-model"
+  - "#competitiveness"
+title: 双三角竞争力模型
+type: framework
+updated_at: 2026-05-19
+version: 1
+yitang:
+  map: personal
+  module: AI 思维模型
+  course_type: model
+  level: foundational
 ---
 
 # 双三角竞争力模型 (Yitang Dual Triangle Model)

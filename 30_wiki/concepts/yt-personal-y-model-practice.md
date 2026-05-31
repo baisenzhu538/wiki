@@ -1,54 +1,42 @@
 ---
 id: yt-personal-y-model-practice
+component_of: []
+confidence: 0.80
+created_at: 2026-05-11
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 2024
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - Y模型四最
+  - Y模型实操
+  - Y模型实操：科学成事的底层操作系统
+  - Y模型的实操工作流
+  - Y模型的核心结构
+  - 为什么Y模型难学
+  - 核心动词
+  - 科学成事的底层操作系统
+related:
+  level: advanced
+reviewed_by: 黄药师
+source_refs:
+  - 00_inbox/一堂-个人修炼-Y模型实操口述版.md
+status: enriched
+tags:
+  - "#yitang"
+  - "#y-model"
+  - "#scientific-method"
+  - "#meta-skill"
 title: Y模型实操：科学成事的底层操作系统
 type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: foundational
-confidence: 0.8
-prerequisites: []
-component_of: []
-related:
-  - yt-entrepreneur-scientific-method
-  - yt-model-ipo-learning-strategy
-  - yt-model-liberate-thinking-layers
-  - yt-model-y-organization
-  - yt-personal-knowledge-extraction
-contradicts: []
-query_triggers:
-- Y模型四最
-- Y模型实操
-- Y模型实操：科学成事的底层操作系统
-- Y模型的实操工作流
-- Y模型的核心结构
-- 为什么Y模型难学
-- 核心动词
-- 科学成事的底层操作系统
-tags:
-- '#yitang'
-- '#y-model'
-- '#scientific-method'
-- '#meta-skill'
 yitang:
   map: personal
   module: 个人修炼
   course_type: explore_camp
-related:
-  - yt-entrepreneur-scientific-method
-  - yt-model-ipo-learning-strategy
-  - yt-model-liberate-thinking-layers
-  - yt-model-y-organization
-  - yt-personal-knowledge-extraction
-  level: advanced
-source_refs:
-- 00_inbox/一堂-个人修炼-Y模型实操口述版.md
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 2024
-reviewed_by: 黄药师
 ---
 
 # Y模型实操：科学成事的底层操作系统

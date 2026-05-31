@@ -1,11 +1,14 @@
 ---
-title: "Meta Prompt Eng"
-type: "concept"
-status: "draft"
-source_refs: ["src_20260522_a89ab860"]
-created_at: "2026-05-21T20:14:01+00:00"
-updated_at: "2026-05-21T20:14:01+00:00"
 id: meta-prompt-eng
+created_at: 2026-05-21
+domain:
+  - ai-saas
+source_refs:
+  - src_20260522_a89ab860
+status: draft
+title: Meta Prompt Eng
+type: concept
+updated_at: 2026-05-21
 ---
 
 # Meta Prompt Eng

@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂提炼过的因果模型"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_77b6cdaf"]
-created_at: "2026-05-21T20:13:56+00:00"
-updated_at: "2026-05-22T07:24:03+00:00"
 id: ocr-一堂提炼过的因果模型
+created_at: 2026-05-21
+domain:
+  - ai-saas
+source_refs:
+  - src_20260522_77b6cdaf
+status: enriched
+title: "OCR: 一堂提炼过的因果模型"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

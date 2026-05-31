@@ -1,0 +1,79 @@
+---
+title: "OCR: 微信图片_20260507004804_39_32"
+type: "concept"
+status: "enriched"
+source_refs: ["src_20260522_d694dfc8"]
+created_at: "2026-05-21T20:13:58+00:00"
+updated_at: "2026-05-22T07:34:35+00:00"
+id: ocr-微信图片_20260507004804_39_32
+---
+
+
+
+# OCR: 微信图片_20260507004804_39_32
+
+## Summary
+
+原图: `unknown` (no text detected) - 本文件由 PaddleOCR ONNX pipeline 自动提取 - 可能存在连字/误识，需要人工校对 - 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+
+## Source Refs
+
+- `src_20260522_d694dfc8` -> `10_raw/sources/src_20260522_d694dfc8-ocr-微信图片_20260507004804_39_32.md`
+
+## Reusable Knowledge
+
+- No text was detected by the OCR pipeline in this image.
+- This source is an empty OCR result from a WeChat image (`微信图片_20260507004804_39_32`), captured 2026-05-21.
+- The image may be purely visual (diagram, photo, screenshot) or contain text that failed to extract.
+- Visual structure information (titles, body text, tables) was not preserved; original image review is needed for any knowledge extraction.
+
+## Open Questions
+
+- What is the actual visual content of the original image that caused OCR to return no text—does it contain diagrams, photographs, handwritten text, or structured data that require alternative extraction methods?
+- Why was the original image marked as `unknown` rather than preserved, and is the source image still retrievable from WeChat or backup systems for manual review?
+- What specific characteristics of this image caused PaddleOCR ONNX pipeline to fail—image quality, resolution, language, font, or non-text content—and would other OCR engines or multimodal models succeed?
+- What is the significance of the filename pattern `微信图片_20260507004804_39_32`—does the timestamp `20260507004804` indicate when the image was created, received, or processed, and what do the suffixes `_39_32` represent?
+- Why was this empty OCR result captured and stored in the knowledge management system rather than flagged for immediate manual handling or discarded?
+- Are there other instances in the system of `微信图片_*` sources with failed OCR that should be batch-reviewed to identify systemic extraction gaps?
+- What downstream processes or users depended on extracting knowledge from this source, and have they been notified that the content is unavailable?
+
+
+## Critique
+
+### 内部局限
+
+- **方法论的普适性未验证：声称的方法论未经过对照实验验证，其有效性主要基于主讲人个人经验。
+- **视觉信息丢失：OCR损坏导致原图的视觉结构、层级关系和关键节点信息未被完整提取。
+
+### 外部攻击
+
+#### Don Norman — “设计需要深度理解，不是通用模板”
+
+Don Norman 在《设计心理学》中证明：好的设计需要深度理解特定用户、特定场景、特定约束。Norman 会质疑：**当你用通用模板去处理具体问题时，你是否在用"术语重新包装一个你没有专业判断力的东西"？**
+
+#### David Pye — “确定性手艺与风险性手艺的分野”
+
+David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 会质疑：**软件产品设计偏向"确定性手艺"，但很多设计对象——制度设计、职业路径、个人知识体系——本质上是"风险性手艺"。**
+
+### 不要用的场景
+
+- **对目标领域缺乏基本体感的设计任务：用产品思维设计一个完全不了解的领域，可能导致“用术语重新包装无知”。
+- **不可逆、不可A/B测试的长期个人产品（如3-5年的职业发展路径）：软件产品的"快速验证"核心假设不成立。
+
+## Synthesis
+
+### 与本库其他概念的关联
+
+- [[yt-personal-product-design]] — 泛产品设计方法论总纲
+- [[yt-decision-product-launch]] — 产品落地发布的方法论补充
+
+### 可迁移场景
+
+- 产品设计者自我评估：用本框架快速定位自己的能力短板
+- 团队能力建设：将方法论作为团队培训的入门模块
+
+## Output Opportunities
+
+Content: <analysis: "WeChat Image OCR Failure Pattern Analysis — diagnostic report correlating `微信图片_*` filename patterns, zero-text detection rates, and pipeline degradation factors (resolution, encoding, content type) across KDO ingestion logs">
+Code: <tool: `ocr-multimodal-fallback.ps1` — PowerShell wrapper extending the PaddleOCR ONNX skill with automatic fallback to vision-language model (VLM) description when text detection returns empty, generating structured YAML with `detected_content_type: [text|diagram|photo|screenshot|handwritten]` and `extraction_method: [paddleocr|vlm|manual_review]`>
+Capability: <workflow: "Empty OCR Triage Playbook — step-by-step protocol for handling zero-text OCR results: (1) image retrieval from WeChat/backup, (2) VLM or manual visual classification, (3) routing to appropriate extraction channel (text→re-OCR with alternative engine, diagram→structured description, photo→metadata-only archival), (4) downstream stakeholder notification, (5) systemic gap logging for batch review">

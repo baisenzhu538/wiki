@@ -1,11 +1,14 @@
 ---
-title: "OCR: truman的选择：两条职业成长路线"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_9cbdf4fd"]
-created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-22T06:52:08+00:00"
 id: ocr-truman的选择两条职业成长路线
+created_at: 2026-05-21
+domain:
+  - ai-saas
+source_refs:
+  - src_20260522_9cbdf4fd
+status: enriched
+title: "OCR: truman的选择：两条职业成长路线"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

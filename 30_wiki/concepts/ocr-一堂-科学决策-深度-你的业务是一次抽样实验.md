@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-科学决策-深度-你的业务是一次抽样实验"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_3693c090"]
-created_at: "2026-05-21T20:13:55+00:00"
-updated_at: "2026-05-22T07:14:20+00:00"
 id: ocr-一堂-科学决策-深度-你的业务是一次抽样实验
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_3693c090
+status: enriched
+title: "OCR: 一堂-科学决策-深度-你的业务是一次抽样实验"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

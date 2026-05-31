@@ -1,14 +1,17 @@
 ---
-title: "HIS系统深度调研"
-type: "concept"
-status: "reviewed"
-source_refs: ["src_20260503_968e0210"]
-created_at: "2026-05-03T13:36:55+00:00"
-updated_at: "2026-05-03T13:36:55+00:00"
-trust_level: "medium"
-reviewed_by: "Claude"
-review_date: "2026-05-03"
 id: HIS系统深度调研
+created_at: 2026-05-03
+domain:
+  - healthcare
+review_date: 2026-05-03
+reviewed_by: Claude
+source_refs:
+  - src_20260503_968e0210
+status: reviewed
+title: HIS系统深度调研
+trust_level: medium
+type: concept
+updated_at: 2026-05-03
 ---
 
 # HIS系统深度调研

@@ -1,57 +1,45 @@
 ---
 id: yt-personal-time-management
-title: 时间管理
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: foundational
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-personal-deliberate-practice
-  - yt-personal-inspiration-flash
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-extraction
-  - yt-personal-knowledge-management
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 3000
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 时间管理
-- 优先级思维
-- 能量管理
-- 深度工作
-- 时间块管理
-- 日计划方法
-- 周计划管理
-- 高能量窗口
-- 保护整块时间
-- 如何管理时间
+  - 时间管理
+  - 优先级思维
+  - 能量管理
+  - 深度工作
+  - 时间块管理
+  - 日计划方法
+  - 周计划管理
+  - 高能量窗口
+  - 保护整块时间
+  - 如何管理时间
+related:
+  series: false
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 时间管理
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: personal
   module: 时间管理
-  course_id: '401'
+  course_id: 401
   course_type: method
   level: foundational
-related:
-  - yt-personal-deliberate-practice
-  - yt-personal-inspiration-flash
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-extraction
-  - yt-personal-knowledge-management
-  series: false
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-review_date: '2026-05-08'
-estimated_tokens: 3000
-reviewed_by: 黄药师
 ---
 # 时间管理
 

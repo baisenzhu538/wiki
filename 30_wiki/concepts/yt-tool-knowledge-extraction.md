@@ -1,56 +1,54 @@
 ---
 id: yt-tool-knowledge-extraction
-title: 团队知识萃取器
-type: tool
-status: draft
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.80
-prerequisites:
-- yt-management-toolkit-overview
 component_of:
-- yt-management-toolkit-overview
-related:
-- yt-management-team-knowledge
-- yt-management-project-management
-- yt-management-onboarding
-- yt-personal-knowledge-extraction
-- yt-personal-knowledge-management
-- master-knowledge-compound
-- yt-decision-review
-- yt-concept-weapon-arsenal
-contradicts: []
+  - yt-management-toolkit-overview
+confidence: 0.80
+created_at: 2026-05-19
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 3400
+language: zh-CN
+prerequisites:
+  - yt-management-toolkit-overview
 query_triggers:
-- 团队知识萃取
-- 隐性知识转化
-- 经验沉淀方法
-- 最佳实践萃取
-- 团队知识库建设
-- 知识萃取SOP
-- 专家经验提取
-- 知识文档化
-- 复盘知识化
-- 新人FAQ沉淀
+  - 团队知识萃取
+  - 隐性知识转化
+  - 经验沉淀方法
+  - 最佳实践萃取
+  - 团队知识库建设
+  - 知识萃取SOP
+  - 专家经验提取
+  - 知识文档化
+  - 复盘知识化
+  - 新人FAQ沉淀
+related:
+  - yt-management-team-knowledge
+  - yt-management-project-management
+  - yt-management-onboarding
+  - yt-personal-knowledge-extraction
+  - yt-personal-knowledge-management
+  - master-knowledge-compound
+  - yt-decision-review
+  - yt-concept-weapon-arsenal
+source_refs:
+  - 30_wiki/concepts/yt-management-team-knowledge.md
+status: draft
 tags:
-- '#yitang'
-- '#management'
-- '#tool'
-- '#knowledge-management'
+  - "#yitang"
+  - "#management"
+  - "#tool"
+  - "#knowledge-management"
+title: 团队知识萃取器
 trust_level: medium
+type: tool
+updated_at: 2026-05-19
+version: 1
 yitang:
   map: management
   module: 管团队
   course_type: tool
   level: core
-source_refs:
-- 30_wiki/concepts/yt-management-team-knowledge.md
-created_at: '2026-05-19'
-updated_at: '2026-05-19'
-estimated_tokens: 3400
-reviewed_by: 
 ---
 
 # 团队知识萃取器

@@ -1,55 +1,45 @@
 ---
 id: yt-personal-knowledge-management
-title: 知识管理
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: foundational
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-personal-checklist-notes
-  - yt-personal-deep-review
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-extraction
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 3000
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 知识管理
-- 第二大脑
-- 内容地图
-- 双向链接笔记
-- 知识树结构
-- 零摩擦捕获
-- 检索练习
-- 如何整理笔记
-- 知识组织
-- 知识激活
+  - 知识管理
+  - 第二大脑
+  - 内容地图
+  - 双向链接笔记
+  - 知识树结构
+  - 零摩擦捕获
+  - 检索练习
+  - 如何整理笔记
+  - 知识组织
+  - 知识激活
+related:
+  series: false
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 知识管理
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: personal
   module: 知识管理
-  course_id: '405'
+  course_id: 405
   course_type: method
   level: core
-related:
-  - yt-personal-checklist-notes
-  - yt-personal-deep-review
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-extraction
-  series: false
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-review_date: '2026-05-08'
-estimated_tokens: 3000
-reviewed_by: 黄药师
 ---
 # 知识管理
 

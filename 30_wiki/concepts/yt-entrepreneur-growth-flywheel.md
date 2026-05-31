@@ -1,55 +1,45 @@
 ---
 id: yt-entrepreneur-growth-flywheel
-title: 增长飞轮
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1812
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 增长飞轮
-- 飞轮地图
-- 正反馈闭环
-- 驱动因子拆解
-- 飞轮阻塞诊断
-- 亚马逊飞轮
-- 系统化增长
-- 飞轮效应
-- 投入产出再投入
-- 增长结构
+  - 增长飞轮
+  - 飞轮地图
+  - 正反馈闭环
+  - 驱动因子拆解
+  - 飞轮阻塞诊断
+  - 亚马逊飞轮
+  - 系统化增长
+  - 飞轮效应
+  - 投入产出再投入
+  - 增长结构
+related:
+  series: false
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 增长飞轮
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: entrepreneur
   module: 增长飞轮
-  course_id: '489'
+  course_id: 489
   course_type: method
   level: advanced
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-  series: false
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-estimated_tokens: 1812
-reviewed_by: 黄药师
-review_date: '2026-05-08'
 ---
 
 # 增长飞轮

@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-个人修炼-讲香基本功"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_98db1d35"]
-created_at: "2026-05-21T20:13:53+00:00"
-updated_at: "2026-05-22T07:00:42+00:00"
 id: ocr-一堂-个人修炼-讲香基本功
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_98db1d35
+status: enriched
+title: "OCR: 一堂-个人修炼-讲香基本功"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

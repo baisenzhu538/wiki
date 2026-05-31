@@ -1,67 +1,65 @@
 ---
 id: yt-tool-hiring-scorecard
-title: 结构化面试打分卡
-type: tool
-status: draft
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.80
-prerequisites:
-- yt-management-toolkit-overview
 component_of:
-- yt-management-toolkit-overview
-related:
-- yt-management-scientific-hiring
-- yt-management-onboarding
-- yt-management-company-culture
-- yt-decision-width-method
-- yt-decision-canvas
-- yt-decision-habit-shift
-- master-cognitive-bias-checklist
-- master-decision-hygiene
-contradicts: []
+  - yt-management-toolkit-overview
+confidence: 0.80
+created_at: 2026-05-19
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 3400
+language: zh-CN
+prerequisites:
+  - yt-management-toolkit-overview
 query_triggers:
-- 结构化面试
-- 面试打分卡
-- 招聘评估模型
-- 行为面试法
-- STAR追问
-- 面试评分量表
-- 招聘决策矩阵
-- 招人打分卡
-- 面试偏见防范
-- 招聘流程
-- 岗位画像
-- 招聘渠道
-- 录用决策
-- 面试问题库
-- 面试评分标准
-- 招人工具
-- 面试打分卡模板
-- 面试决策流程
-- 面试评估维度
-- 面试偏差降低
+  - 结构化面试
+  - 面试打分卡
+  - 招聘评估模型
+  - 行为面试法
+  - STAR追问
+  - 面试评分量表
+  - 招聘决策矩阵
+  - 招人打分卡
+  - 面试偏见防范
+  - 招聘流程
+  - 岗位画像
+  - 招聘渠道
+  - 录用决策
+  - 面试问题库
+  - 面试评分标准
+  - 招人工具
+  - 面试打分卡模板
+  - 面试决策流程
+  - 面试评估维度
+  - 面试偏差降低
+related:
+  - yt-management-scientific-hiring
+  - yt-management-onboarding
+  - yt-management-company-culture
+  - yt-decision-width-method
+  - yt-decision-canvas
+  - yt-decision-habit-shift
+  - master-cognitive-bias-checklist
+  - master-decision-hygiene
+source_refs:
+  - 30_wiki/concepts/yt-management-scientific-hiring.md
+status: draft
 tags:
-- '#yitang'
-- '#management'
-- '#tool'
-- '#hiring'
-- '#interview'
+  - "#yitang"
+  - "#management"
+  - "#tool"
+  - "#hiring"
+  - "#interview"
+title: 结构化面试打分卡
 trust_level: medium
+type: tool
+updated_at: 2026-05-19
+version: 1
 yitang:
   map: management
   module: 管团队
   course_type: tool
   level: core
-source_refs:
-- 30_wiki/concepts/yt-management-scientific-hiring.md
-created_at: '2026-05-19'
-updated_at: '2026-05-19'
-estimated_tokens: 3400
-reviewed_by: 
 ---
 
 # 结构化面试打分卡

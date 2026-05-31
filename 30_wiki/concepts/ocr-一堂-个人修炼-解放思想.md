@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-个人修炼-解放思想"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_33346186"]
-created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-22T06:58:28+00:00"
 id: ocr-一堂-个人修炼-解放思想
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_33346186
+status: enriched
+title: "OCR: 一堂-个人修炼-解放思想"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

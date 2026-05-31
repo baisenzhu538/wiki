@@ -1,68 +1,66 @@
 ---
 id: yt-management-toolkit-overview
-title: 管理工具箱总览
-type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: foundational
-confidence: 0.85
-prerequisites: []
 component_of:
-- yt-model-management-map
-related:
-- yt-tool-meeting-designer
-- yt-tool-hiring-scorecard
-- yt-tool-okr-cycle
-- yt-tool-strategy-workshop
-- yt-tool-knowledge-extraction
-- yt-tool-project-health-radar
-- yt-tool-onboarding-90day
-- yt-tool-equity-checklist
-- yt-model-management-map
-- yt-model-y-organization
-contradicts: []
+  - yt-model-management-map
+confidence: 0.85
+created_at: 2026-05-19
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 2800
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 管理工具
-- 管理者工具箱
-- 管团队用什么工具
-- 管业务用什么方法
-- 一号位管理工具
-- 管理基本功落地
-- 管理修炼工具
-- 管理场景速查
-- 什么时候用什么管理工具
-- 管理问题诊断
-- 管理工具地图
-- 管理方法论落地
-- 团队管理实操
-- 管理者武器库
-- 管理效率工具
-- 管理实操指南
-- 管理者 checklist
-- 管理工具选择
-- 管理场景对应工具
-- 管理基本功工具化
+  - 管理工具
+  - 管理者工具箱
+  - 管团队用什么工具
+  - 管业务用什么方法
+  - 一号位管理工具
+  - 管理基本功落地
+  - 管理修炼工具
+  - 管理场景速查
+  - 什么时候用什么管理工具
+  - 管理问题诊断
+  - 管理工具地图
+  - 管理方法论落地
+  - 团队管理实操
+  - 管理者武器库
+  - 管理效率工具
+  - 管理实操指南
+  - 管理者 checklist
+  - 管理工具选择
+  - 管理场景对应工具
+  - 管理基本功工具化
+related:
+  - yt-tool-meeting-designer
+  - yt-tool-hiring-scorecard
+  - yt-tool-okr-cycle
+  - yt-tool-strategy-workshop
+  - yt-tool-knowledge-extraction
+  - yt-tool-project-health-radar
+  - yt-tool-onboarding-90day
+  - yt-tool-equity-checklist
+  - yt-model-management-map
+  - yt-model-y-organization
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+  - 30_wiki/concepts/yt-model-management-map.md
+status: enriched
 tags:
-- '#yitang'
-- '#management'
-- '#framework'
-- '#toolkit'
+  - "#yitang"
+  - "#management"
+  - "#framework"
+  - "#toolkit"
+title: 管理工具箱总览
 trust_level: medium
+type: framework
+updated_at: 2026-05-19
+version: 1
 yitang:
   map: management
   module: 方法论总纲
   course_type: framework
   level: foundational
-source_refs:
-- 10_raw/sources/一堂-课程地图精华串讲.md
-- 30_wiki/concepts/yt-model-management-map.md
-created_at: '2026-05-19'
-updated_at: '2026-05-19'
-estimated_tokens: 2800
-reviewed_by: 
 ---
 
 # 管理工具箱总览

@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-科学决策-关键训练清单（重要））"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_ac7f8874"]
-created_at: "2026-05-21T20:13:54+00:00"
-updated_at: "2026-05-22T07:10:39+00:00"
 id: ocr-一堂-科学决策-关键训练清单重要
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_ac7f8874
+status: enriched
+title: "OCR: 一堂-科学决策-关键训练清单（重要））"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

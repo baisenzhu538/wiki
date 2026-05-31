@@ -1,11 +1,14 @@
 ---
-title: "OCR: 泛产品设计-审美卡片-最佳实践建模"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_89529426"]
-created_at: "2026-05-21T20:13:58+00:00"
-updated_at: "2026-05-22T07:35:32+00:00"
 id: ocr-泛产品设计-审美卡片-最佳实践建模
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_89529426
+status: enriched
+title: "OCR: 泛产品设计-审美卡片-最佳实践建模"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

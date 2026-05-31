@@ -1,55 +1,45 @@
 ---
 id: yt-personal-ai-capability
-title: AI 能力（双模型）
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: foundational
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-needs-analysis
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-extraction
-  - yt-personal-product-design
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 3000
+language: zh-CN
+prerequisites: []
 query_triggers:
-- AI能力
-- 双模型框架
-- 提示词工程
-- 人机协同
-- AI认知模型
-- 任务分解
-- 验证闭环
-- AI时代竞争力
-- 如何与AI协作
-- 提示词怎么写
+  - AI能力
+  - 双模型框架
+  - 提示词工程
+  - 人机协同
+  - AI认知模型
+  - 任务分解
+  - 验证闭环
+  - AI时代竞争力
+  - 如何与AI协作
+  - 提示词怎么写
+related:
+  series: false
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: AI 能力（双模型）
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: personal
   module: AI 能力（双模型）
   course_id: yt-personal-ai-capability
   course_type: method
   level: advanced
-related:
-  - yt-entrepreneur-needs-analysis
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-extraction
-  - yt-personal-product-design
-  series: false
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-review_date: '2026-05-08'
-estimated_tokens: 3000
-reviewed_by: 黄药师
 ---
 # AI 能力（双模型）
 

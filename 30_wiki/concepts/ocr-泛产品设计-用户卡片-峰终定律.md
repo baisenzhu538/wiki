@@ -1,11 +1,14 @@
 ---
-title: "OCR: 泛产品设计-用户卡片-峰终定律"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_041b5a94"]
-created_at: "2026-05-21T20:13:58+00:00"
-updated_at: "2026-05-22T07:38:43+00:00"
 id: ocr-泛产品设计-用户卡片-峰终定律
+created_at: 2026-05-21
+domain:
+  - ai-saas
+source_refs:
+  - src_20260522_041b5a94
+status: enriched
+title: "OCR: 泛产品设计-用户卡片-峰终定律"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

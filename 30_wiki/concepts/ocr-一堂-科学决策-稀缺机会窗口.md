@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-科学决策-稀缺机会窗口"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_7fb2b9c1"]
-created_at: "2026-05-21T20:13:55+00:00"
-updated_at: "2026-05-22T07:17:57+00:00"
 id: ocr-一堂-科学决策-稀缺机会窗口
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_7fb2b9c1
+status: enriched
+title: "OCR: 一堂-科学决策-稀缺机会窗口"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

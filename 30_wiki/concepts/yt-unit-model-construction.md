@@ -1,19 +1,24 @@
 ---
 id: yt-unit-model-construction
-title: "单元模型构建法：拆推评算与ABCD模型分类"
-type: tool
-status: draft
+component_of: []
+confidence: 0.85
+created_at: 2026-05-24
+difficulty: intermediate
 domain:
   - entrepreneur
   - master
+estimated_tokens: 2800
 language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.85
 prerequisites:
   - yt-unit-model-overview
   - yt-unit-model-selection
-component_of: []
+query_triggers:
+  - 拆推评算
+  - 练推借查
+  - 单元模型构建
+  - ABCD模型
+  - 成本收入项清单
+  - 单元模型公式
 related:
   - yt-unit-model-ladder
   - yt-unit-model-selection
@@ -21,34 +26,28 @@ related:
   - yt-unit-model-dynamic
   - yt-entrepreneur-five-step-method
   - yt-decision-y-model
-contradicts: []
-query_triggers:
-  - "拆推评算"
-  - "练推借查"
-  - "单元模型构建"
-  - "ABCD模型"
-  - "成本收入项清单"
-  - "单元模型公式"
+reviewed_by: 
+source_refs:
+  - src_20260524_9f4e5d6a-一堂-单元模型02口述
+  - src_20260524_7c8d9e0f-一堂-单元模型03口述
+  - src_20260524_6b5a4c3d-一堂-单元模型04口述
+status: draft
 tags:
-  - '#yitang'
-  - '#entrepreneur'
-  - '#tool'
-  - '#unit-model'
-  - '#financial-modeling'
+  - "#yitang"
+  - "#entrepreneur"
+  - "#tool"
+  - "#unit-model"
+  - "#financial-modeling"
+title: 单元模型构建法：拆推评算与ABCD模型分类
 trust_level: high
+type: tool
+updated_at: 2026-05-25
+version: 1
 yitang:
   map: entrepreneur
-  module: "创业必修"
+  module: 创业必修
   course_type: tool
   level: intermediate
-source_refs:
-  - "src_20260524_9f4e5d6a-一堂-单元模型02口述"
-  - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
-  - "src_20260524_6b5a4c3d-一堂-单元模型04口述"
-created_at: "2026-05-24"
-updated_at: "2026-05-25"
-estimated_tokens: 2800
-reviewed_by: ""
 ---
 
 # 单元模型构建法：拆推评算与ABCD模型分类

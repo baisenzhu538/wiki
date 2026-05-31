@@ -1,18 +1,23 @@
 ---
 id: yt-research-expert-interview
-title: 专家访谈工具：2小时获取行业共识的标准流程
-type: tool
-status: reviewed
+component_of: []
+confidence: 0.85
+created_at: 2026-05-18
+difficulty: intermediate
 domain:
   - yitang
+estimated_tokens: 2400
 language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.85
 prerequisites:
   - yt-research-osl-framework
   - yt-research-intelligence-map
-component_of: []
+query_triggers:
+  - 专家访谈
+  - 行业共识
+  - 怎么找专家
+  - 访谈流程
+  - 访谈技巧
+  - 访谈提纲
 related:
   - yt-research-osl-framework
   - yt-research-intelligence-map
@@ -21,32 +26,26 @@ related:
   - yt-research-industry-canvas
   - yt-research-user-jtbd
   - yt-entrepreneur-key-hypotheses
-contradicts: []
-query_triggers:
-  - 专家访谈
-  - 行业共识
-  - 怎么找专家
-  - 访谈流程
-  - 访谈技巧
-  - 访谈提纲
+reviewed_by: 
+source_refs:
+  - 00_inbox/ideas/一堂-创业必修-调研武器库.md
+  - 00_inbox/ideas/一堂-创业必修-调研行动营.md
+status: reviewed
 tags:
-  - '#yitang'
-  - '#research'
-  - '#tool'
+  - "#yitang"
+  - "#research"
+  - "#tool"
+title: 专家访谈工具：2小时获取行业共识的标准流程
 trust_level: medium
+type: tool
+updated_at: 2026-05-18
+version: 1
 yitang:
   map: entrepreneur
   module: 调研方法论
   course_id: yt-research-expert-interview
   course_type: tool
   level: intermediate
-source_refs:
-  - 00_inbox/ideas/一堂-创业必修-调研武器库.md
-  - 00_inbox/ideas/一堂-创业必修-调研行动营.md
-created_at: '2026-05-18'
-updated_at: '2026-05-18'
-estimated_tokens: 2400
-reviewed_by: ''
 ---
 
 # 专家访谈工具：2小时获取行业共识的标准流程

@@ -1,11 +1,14 @@
 ---
-title: "OCR: 泛产品设计-落地卡片-设计原则"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_9eaf7399"]
-created_at: "2026-05-21T20:14:00+00:00"
-updated_at: "2026-05-22T07:47:27+00:00"
 id: ocr-泛产品设计-落地卡片-设计原则
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_9eaf7399
+status: enriched
+title: "OCR: 泛产品设计-落地卡片-设计原则"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂泛产品设计-多出牌多练习"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_4754d8fd"]
-created_at: "2026-05-21T20:13:57+00:00"
-updated_at: "2026-05-22T07:25:56+00:00"
 id: ocr-一堂泛产品设计-多出牌多练习
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_4754d8fd
+status: enriched
+title: "OCR: 一堂泛产品设计-多出牌多练习"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

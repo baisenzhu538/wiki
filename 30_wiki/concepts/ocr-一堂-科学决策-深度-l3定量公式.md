@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-科学决策-深度-L3定量公式"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_80e1b943"]
-created_at: "2026-05-21T20:13:55+00:00"
-updated_at: "2026-05-22T07:13:24+00:00"
 id: ocr-一堂-科学决策-深度-l3定量公式
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_80e1b943
+status: enriched
+title: "OCR: 一堂-科学决策-深度-L3定量公式"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

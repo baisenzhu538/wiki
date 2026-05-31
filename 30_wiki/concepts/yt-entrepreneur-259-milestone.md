@@ -1,55 +1,45 @@
 ---
 id: yt-entrepreneur-259-milestone
-title: 259里程碑
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1851
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 259里程碑
-- 业务里程碑
-- 预判阶段
-- 假设增长
-- 假设验证
-- 科学创业
-- 创业里程碑
-- 关键假设优先
-- 最小成本验证
-- 259框架
+  - 259里程碑
+  - 业务里程碑
+  - 预判阶段
+  - 假设增长
+  - 假设验证
+  - 科学创业
+  - 创业里程碑
+  - 关键假设优先
+  - 最小成本验证
+  - 259框架
+related:
+  series: false
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 259里程碑
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: entrepreneur
   module: 259里程碑
-  course_id: '259'
+  course_id: 259
   course_type: method
   level: foundational
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-  series: false
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-estimated_tokens: 1851
-reviewed_by: 黄药师
-review_date: '2026-05-08'
 ---
 
 # 259里程碑

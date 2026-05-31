@@ -1,15 +1,17 @@
 ---
-title: "鑫港湾HIS系统分阶段整改报告"
-type: "concept"
-status: "enriched"
-domain: ['healthcare']
-source_refs: ["src_20260428_db49a647"]
-created_at: "2026-04-28T01:17:00+00:00"
-updated_at: "2026-05-03T00:00:00+00:00"
-trust_level: "high"
-reviewed_by: "Claude"
-review_date: "2026-05-03"
 id: 鑫港湾his系统分阶段整改报告
+created_at: 2026-04-28
+domain:
+  - "['healthcare']"
+review_date: 2026-05-03
+reviewed_by: Claude
+source_refs:
+  - src_20260428_db49a647
+status: enriched
+title: 鑫港湾HIS系统分阶段整改报告
+trust_level: high
+type: concept
+updated_at: 2026-05-03
 ---
 
 # 鑫港湾HIS系统分阶段整改报告

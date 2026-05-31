@@ -1,55 +1,45 @@
 ---
 id: yt-entrepreneur-liberate-thinking
-title: 解放思想
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1873
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 解放思想
-- 创业认知边界
-- 隐含假设识别
-- 思维定式突破
-- 行业惯例反思
-- 认知升级方法论
-- 公理化建模
-- 假设驱动验证
-- 创业思维转换
-- 从零到一思维方式
+  - 解放思想
+  - 创业认知边界
+  - 隐含假设识别
+  - 思维定式突破
+  - 行业惯例反思
+  - 认知升级方法论
+  - 公理化建模
+  - 假设驱动验证
+  - 创业思维转换
+  - 从零到一思维方式
+related:
+  series: false
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 解放思想
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: entrepreneur
   module: 解放思想
   course_id: yt-entrepreneur-liberate-thinking
   course_type: method
   level: foundational
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-  series: false
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-estimated_tokens: 1873
-reviewed_by: 黄药师
-review_date: '2026-05-08'
 ---
 
 # 解放思想

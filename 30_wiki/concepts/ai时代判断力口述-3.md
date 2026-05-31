@@ -1,29 +1,29 @@
 ---
-title: "AI时代判断力口述（国帅）"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260525_66059442"]
-created_at: "2026-05-25T04:49:06+00:00"
-updated_at: "2026-05-25"
-domain:
 id: ai时代判断力口述-3
-  - ai
-  - yitang
-language: zh-CN
-difficulty: intermediate
 confidence: 0.75
-speaker: 国帅（胡帅），一堂联合创始人兼CTO
+created_at: 2026-05-25
+difficulty: intermediate
+domain:
+  - ai-saas
 event: 一堂AI俱乐部第77场，2026-05-20
+language: zh-CN
 related:
   - yt-personal-ipo-learning
   - master-knowledge-compound
   - ocr-一堂-个人修炼-科学学习ipo模型
+source_refs:
+  - src_20260525_66059442
+speaker: 国帅（胡帅），一堂联合创始人兼CTO
+status: enriched
 tags:
   - "#ai"
   - "#yitang"
   - "#judgment"
   - "#ipo"
   - "#webcoding"
+title: AI时代判断力口述（国帅）
+type: concept
+updated_at: 2026-05-25
 ---
 
 # AI时代判断力口述（国帅）

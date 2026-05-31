@@ -1,50 +1,49 @@
 ---
 id: yt-panproduct-execution-incubation-polish
+component_of:
+  - yt-model-pan-product-execution-toolkit
+confidence: 0.80
+created_at: 2026-05-11
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1062
+language: zh-CN
+prerequisites:
+  - yt-composite-pan-product-methodology
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
+query_triggers:
+  - 产品落地
+  - 产品迭代
+  - 执行方法
+  - 泛产品设计
+  - 泛产品设计·落地卡片：酝酿式打磨
+  - 落地卡片
+  - 落地执行
+  - 酝酿式打磨
+related:
+  - yt-panproduct-aesthetic-pool
+  - yt-panproduct-demand-need-discovery
+  - yt-panproduct-execution-review-iteration
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/泛产品设计-落地卡片-酝酿式打磨.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#pan-product-design"
+  - "#execution"
+  - "#iteration"
 title: 泛产品设计·落地卡片：酝酿式打磨
 type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
-component_of:
-- yt-model-pan-product-execution-toolkit
-related:
-- yt-panproduct-aesthetic-pool
-- yt-panproduct-demand-need-discovery
-- yt-panproduct-execution-review-iteration
-contradicts: []
-query_triggers:
-- 产品落地
-- 产品迭代
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：酝酿式打磨
-- 落地卡片
-- 落地执行
-- 酝酿式打磨
-tags:
-- '#yitang'
-- '#pan-product-design'
-- '#execution'
-- '#iteration'
 yitang:
   map: personal
   module: 泛产品设计
   course_type: card
   level: intermediate
-source_refs:
-- 10_raw/assets/yitang/泛产品设计-落地卡片-酝酿式打磨.png
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 1062
-reviewed_by: 黄药师
 ---
 
 # 酝酿式打磨：科学式的灵感管理

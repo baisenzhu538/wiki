@@ -1,48 +1,47 @@
 ---
 id: yt-personal-pan-product-02
+component_of:
+  - yt-composite-pan-product-methodology
+confidence: 0.80
+created_at: 2026-05-11
+difficulty: advanced
+domain:
+  - yitang
+estimated_tokens: 3400
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 个人修炼
+  - 产品思维
+  - 无限进步与持续打磨
+  - 泛产品设计
+  - 泛产品设计落地篇
+  - 泛产品设计落地篇：无限进步与持续打磨
+related:
+  - yt-model-pan-product-execution-toolkit
+  - yt-personal-pan-product-practice
+  - yt-personal-pan-product-aesthetics
+  - yt-model-y-organization
+  - yt-concept-weapon-arsenal
+  - yt-model-personal-pitch-toolkit
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-个人修身-泛产品设计02口述.md
+status: enriched
+tags:
+  - "#yitang"
+  - "#pan-product-design"
+  - "#execution"
+  - "#iteration"
 title: 泛产品设计落地篇：无限进步与持续打磨
 type: concept
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-18
 version: 1
-difficulty: advanced
-confidence: 0.8
-prerequisites: []
-component_of:
-- yt-composite-pan-product-methodology
-related:
-- yt-model-pan-product-execution-toolkit
-- yt-personal-pan-product-practice
-- yt-personal-pan-product-aesthetics
-- yt-model-y-organization
-- yt-concept-weapon-arsenal
-- yt-model-personal-pitch-toolkit
-contradicts: []
-query_triggers:
-- 个人修炼
-- 产品思维
-- 无限进步与持续打磨
-- 泛产品设计
-- 泛产品设计落地篇
-- 泛产品设计落地篇：无限进步与持续打磨
-tags:
-- '#yitang'
-- '#pan-product-design'
-- '#execution'
-- '#iteration'
 yitang:
   map: personal
   module: 个人修炼
   course_type: required
   level: advanced
-source_refs:
-- 10_raw/sources/一堂-个人修身-泛产品设计02口述.md
-created_at: '2026-05-11'
-updated_at: '2026-05-18'
-estimated_tokens: 3400
-reviewed_by: 黄药师
 ---
 
 # 泛产品设计落地篇：无限进步与持续打磨

@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-科学决策-深度-案例02"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_e60022cc"]
-created_at: "2026-05-21T20:13:55+00:00"
-updated_at: "2026-05-22T07:15:37+00:00"
 id: ocr-一堂-科学决策-深度-案例02
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_e60022cc
+status: enriched
+title: "OCR: 一堂-科学决策-深度-案例02"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

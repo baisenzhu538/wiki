@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-个人修炼-全景图MUSE模型"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_20c9fda8"]
-created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-22T06:53:03+00:00"
 id: ocr-一堂-个人修炼-全景图muse模型
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_20c9fda8
+status: enriched
+title: "OCR: 一堂-个人修炼-全景图MUSE模型"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

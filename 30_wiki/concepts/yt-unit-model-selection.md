@@ -1,18 +1,22 @@
 ---
 id: yt-unit-model-selection
-title: "单元模型选择法：复制哪个算哪个，找到核心经济单元"
-type: tool
-status: draft
+component_of: []
+confidence: 0.85
+created_at: 2026-05-24
+difficulty: intermediate
 domain:
   - entrepreneur
   - master
+estimated_tokens: 2600
 language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.85
 prerequisites:
   - yt-unit-model-overview
-component_of: []
+query_triggers:
+  - 复制哪个算哪个
+  - 找单元模型
+  - 核心单元判断
+  - 单元模型选择
+  - 十大单元模型
 related:
   - yt-unit-model-ladder
   - yt-unit-model-construction
@@ -21,32 +25,27 @@ related:
   - yt-entrepreneur-five-step-method
   - yt-decision-key-hypotheses
   - yt-decision-y-model
-contradicts: []
-query_triggers:
-  - "复制哪个算哪个"
-  - "找单元模型"
-  - "核心单元判断"
-  - "单元模型选择"
-  - "十大单元模型"
+reviewed_by: 
+source_refs:
+  - src_20260524_9f4e5d6a-一堂-单元模型02口述
+  - src_20260524_7c8d9e0f-一堂-单元模型03口述
+status: draft
 tags:
-  - '#yitang'
-  - '#entrepreneur'
-  - '#tool'
-  - '#unit-model'
-  - '#business-analysis'
+  - "#yitang"
+  - "#entrepreneur"
+  - "#tool"
+  - "#unit-model"
+  - "#business-analysis"
+title: 单元模型选择法：复制哪个算哪个，找到核心经济单元
 trust_level: high
+type: tool
+updated_at: 2026-05-25
+version: 1
 yitang:
   map: entrepreneur
-  module: "创业必修"
+  module: 创业必修
   course_type: tool
   level: intermediate
-source_refs:
-  - "src_20260524_9f4e5d6a-一堂-单元模型02口述"
-  - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
-created_at: "2026-05-24"
-updated_at: "2026-05-25"
-estimated_tokens: 2600
-reviewed_by: ""
 ---
 
 # 单元模型选择法：复制哪个算哪个，找到核心经济单元

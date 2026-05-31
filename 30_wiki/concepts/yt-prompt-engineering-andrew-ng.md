@@ -1,60 +1,16 @@
 ---
 id: yt-prompt-engineering-andrew-ng
-title: 吴恩达提示词课程·一堂拆书精华
-type: course_notes
-status: enriched
+component_of: []
+confidence: 0.90
+created_at: 2026-05-13
+difficulty: intermediate
 domain:
   - yitang
   - ai
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.90
-source_of:
-  - yt-model-prompt-engineering
-related:
-  - yt-model-ipo-learning-strategy
-  - yt-model-personal-pitch-toolkit
-  - yt-panproduct-demand-motivation-resistance
-  - yt-concept-weapon-arsenal
-  - yt-personal-scientific-expression
-contradicts: []
-query_triggers:
-  - 提示词
-  - 提示词工程
-  - prompt engineering
-  - 吴恩达
-  - AI合伙人
-  - 迭代式提示词
-  - 反谄媚
-  - AI头脑风暴
-  - AI写作
-  - 守脑如玉
-  - 上下文工程
-component_of: []
-source_refs:
-  - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
-  - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
-  - https://www.deeplearning.ai/courses/ai-prompting-for-everyone/
-  - https://www.bilibili.com/video/BV1UT9qBDET7/
-tags:
-  - '#yitang'
-  - '#ai'
-  - '#prompt-engineering'
-  - '#entrepreneur'
-created_at: '2026-05-13'
-updated_at: '2026-05-13'
-reviewed_by: 黄药师
 estimated_tokens: 3600
+language: zh-CN
 prerequisites:
   - yt-model-prompt-engineering
-component_of: []
-related:
-  - yt-model-prompt-engineering
-  - yt-model-personal-pitch-toolkit
-  - yt-model-ipo-learning-strategy
-  - yt-panproduct-demand-motivation-resistance
-contradicts: []
 query_triggers:
   - 吴恩达
   - 提示词课程
@@ -63,6 +19,29 @@ query_triggers:
   - 反谄媚
   - 谄媚倾向
   - 七层工作流
+related:
+  - yt-model-prompt-engineering
+  - yt-model-personal-pitch-toolkit
+  - yt-model-ipo-learning-strategy
+  - yt-panproduct-demand-motivation-resistance
+reviewed_by: 黄药师
+source_of:
+  - yt-model-prompt-engineering
+source_refs:
+  - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
+  - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
+  - "https://www.deeplearning.ai/courses/ai-prompting-for-everyone/"
+  - "https://www.bilibili.com/video/BV1UT9qBDET7/"
+status: enriched
+tags:
+  - "#yitang"
+  - "#ai"
+  - "#prompt-engineering"
+  - "#entrepreneur"
+title: 吴恩达提示词课程·一堂拆书精华
+type: course_notes
+updated_at: 2026-05-13
+version: 1
 ---
 
 # 吴恩达提示词课程·一堂拆书精华

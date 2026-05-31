@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂Y模型-科学成事道理"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_32462c98"]
-created_at: "2026-05-21T20:13:56+00:00"
-updated_at: "2026-05-22T07:20:00+00:00"
 id: ocr-一堂y模型-科学成事道理
+created_at: 2026-05-21
+domain:
+  - healthcare
+source_refs:
+  - src_20260522_32462c98
+status: enriched
+title: "OCR: 一堂Y模型-科学成事道理"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

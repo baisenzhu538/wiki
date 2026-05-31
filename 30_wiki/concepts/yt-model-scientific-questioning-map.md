@@ -1,48 +1,40 @@
 ---
 id: yt-model-scientific-questioning-map
+component_of: []
+confidence: 0.85
+created_at: 2026-05-07
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 1667
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 关联卡片
+  - 四领域 × 三级难度矩阵
+  - 提问的核心维度
+  - 知识体系定位
+  - 科学提问刻意练习地图
+  - 通用工具箱
+related:
+  level: foundational
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+  - 10_raw/assets/yitang/一堂-个人修炼-科学提问刻意练习.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#questioning"
+  - "#deliberate-practice"
 title: 科学提问刻意练习地图
 type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-08
 version: 1
-difficulty: foundational
-confidence: 0.85
-prerequisites: []
-component_of: []
-related:
-  - yt-personal-deep-review
-  - yt-personal-deliberate-practice
-  - yt-personal-ipo-learning
-contradicts: []
-query_triggers:
-- 关联卡片
-- 四领域 × 三级难度矩阵
-- 提问的核心维度
-- 知识体系定位
-- 科学提问刻意练习地图
-- 通用工具箱
-tags:
-- '#yitang'
-- '#questioning'
-- '#deliberate-practice'
 yitang:
   map: personal
   module: 提问能力
   course_type: model
-related:
-  - yt-personal-deep-review
-  - yt-personal-deliberate-practice
-  - yt-personal-ipo-learning
-  level: foundational
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂-个人修炼-科学提问刻意练习.png
-created_at: '2026-05-07'
-updated_at: '2026-05-08'
-estimated_tokens: 1667
-reviewed_by: 黄药师
 ---
 
 # 科学提问刻意练习地图

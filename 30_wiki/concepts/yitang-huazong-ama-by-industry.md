@@ -1,11 +1,16 @@
 ---
+id: yitang-huazong-ama-by-industry
+created_at: 2026-05-29
+domain:
+  - healthcare
+source_refs:
+  - src_20260529_huazong_ama
+status: stable
+tags:
+  - "[AI落地, 一堂, 花总, 行业分类, 对照表]"
 title: 花总AMA按行业分类整理（商业突破大航海）
 type: concept
-status: stable
-source_refs: ["src_20260529_huazong_ama"]
-created_at: 2026-05-29
 updated_at: 2026-05-29
-tags: [AI落地, 一堂, 花总, 行业分类, 对照表]
 ---
 
 # 花总AMA按行业分类整理

@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-创业必修-课程清单"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_67aa4e2a"]
-created_at: "2026-05-21T20:13:53+00:00"
-updated_at: "2026-05-22T07:01:32+00:00"
 id: ocr-一堂-创业必修-课程清单
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_67aa4e2a
+status: enriched
+title: "OCR: 一堂-创业必修-课程清单"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

@@ -1,22 +1,17 @@
 ---
 id: yt-pitch-sublimation
-title: 讲香·升华化
-type: tool
-status: enriched
+component_of:
+  - yt-model-personal-pitch-toolkit
+confidence: 0.85
+created_at: 2026-05-13
+difficulty: advanced
 domain:
   - personal
   - yitang
+estimated_tokens: 1600
 language: zh-CN
-version: 1
-difficulty: advanced
-confidence: 0.85
 prerequisites:
   - yt-model-personal-pitch-toolkit
-component_of:
-  - yt-model-personal-pitch-toolkit
-related:
-  - yt-concept-weapon-arsenal
-contradicts: []
 query_triggers:
   - 升华化
   - 升华
@@ -24,17 +19,21 @@ query_triggers:
   - 挖价值
   - 更高意义
   - 情怀
-tags:
-  - '#yitang'
-  - '#pitch'
-  - '#抽象化'
+related:
+  - yt-concept-weapon-arsenal
+reviewed_by: 黄药师
 source_refs:
   - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
   - 10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png
-created_at: 2026-05-13
+status: enriched
+tags:
+  - "#yitang"
+  - "#pitch"
+  - "#抽象化"
+title: 讲香·升华化
+type: tool
 updated_at: 2026-05-13
-estimated_tokens: 1600
-reviewed_by: 黄药师
+version: 1
 ---
 # 讲香·升华化
 

@@ -1,52 +1,42 @@
 ---
 id: yt-entrepreneur-spin-selling
+component_of: []
+confidence: 0.80
+created_at: 2026-05-11
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 2236
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - SPIN四步法
+  - SPIN销售法
+  - SPIN销售法：顾问式销售的奠基之作
+  - 与传统销售的关键区分
+  - 书籍地位
+  - 核心洞见
+  - 读书会结构
+  - 顾问式销售的奠基之作
+related:
+  level: intermediate
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-读书会-SPIN销售法口述.md
+status: enriched
+tags:
+  - "#yitang"
+  - "#entrepreneurship"
+  - "#sales"
+  - "#spin-selling"
 title: SPIN销售法：顾问式销售的奠基之作
 type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
-component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-scientific-method
-  - yt-model-questioning-practice-canvas
-  - yt-personal-knowledge-extraction
-contradicts: []
-query_triggers:
-- SPIN四步法
-- SPIN销售法
-- SPIN销售法：顾问式销售的奠基之作
-- 与传统销售的关键区分
-- 书籍地位
-- 核心洞见
-- 读书会结构
-- 顾问式销售的奠基之作
-tags:
-- '#yitang'
-- '#entrepreneurship'
-- '#sales'
-- '#spin-selling'
 yitang:
   map: entrepreneur
   module: 创业必修
   course_type: book_club
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-scientific-method
-  - yt-model-questioning-practice-canvas
-  - yt-personal-knowledge-extraction
-  level: intermediate
-source_refs:
-- 10_raw/sources/一堂-读书会-SPIN销售法口述.md
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 2236
-reviewed_by: 黄药师
 ---
 
 # SPIN销售法：顾问式销售的奠基之作

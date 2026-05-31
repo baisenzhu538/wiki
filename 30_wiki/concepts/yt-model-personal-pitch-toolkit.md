@@ -1,24 +1,16 @@
 ---
 id: yt-model-personal-pitch-toolkit
-title: 十指讲香模型（框架）
-type: framework
-status: enriched
-domain: personal
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.90
-prerequisites:
-  - yt-model-ipo-learning-strategy
 component_of:
   - yt-model-personal-map
-related:
-  - yt-personal-scientific-expression
-  - yt-concept-weapon-arsenal
-  - yt-panproduct-execution-low-cost-mvp
-  - yt-composite-pan-product-methodology
-  - yt-model-prompt-engineering
-contradicts: []
+confidence: 0.90
+created_at: 2026-05-13
+difficulty: intermediate
+domain:
+  - personal
+estimated_tokens: 3200
+language: zh-CN
+prerequisites:
+  - yt-model-ipo-learning-strategy
 query_triggers:
   - 十指模型
   - 讲香模型
@@ -28,18 +20,26 @@ query_triggers:
   - 讲香基本功
   - 具象化
   - 抽象化
-tags:
-  - '#yitang'
-  - '#framework'
-  - '#personal'
+related:
+  - yt-personal-scientific-expression
+  - yt-concept-weapon-arsenal
+  - yt-panproduct-execution-low-cost-mvp
+  - yt-composite-pan-product-methodology
+  - yt-model-prompt-engineering
+reviewed_by: 黄药师
 source_refs:
   - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
   - 10_raw/assets/yitang/一堂-个人修炼-讲香基本功-十指模型修炼地图.png
   - 10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png
-created_at: 2026-05-13
+status: enriched
+tags:
+  - "#yitang"
+  - "#framework"
+  - "#personal"
+title: 十指讲香模型（框架）
+type: framework
 updated_at: 2026-05-13
-estimated_tokens: 3200
-reviewed_by: 黄药师
+version: 1
 ---
 # 十指讲香模型（框架）
 

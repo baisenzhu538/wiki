@@ -1,0 +1,78 @@
+---
+title: "OCR: 微信图片_20260507004802_38_32"
+type: "concept"
+status: "enriched"
+source_refs: ["src_20260522_f0ec18a8"]
+created_at: "2026-05-21T20:13:57+00:00"
+updated_at: "2026-05-22T07:33:47+00:00"
+id: ocr-微信图片_20260507004802_38_32
+---
+
+
+
+# OCR: 微信图片_20260507004802_38_32
+
+## Summary
+
+原图: `unknown` (no text detected) - 本文件由 PaddleOCR ONNX pipeline 自动提取 - 可能存在连字/误识，需要人工校对 - 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+
+## Source Refs
+
+- `src_20260522_f0ec18a8` -> `10_raw/sources/src_20260522_f0ec18a8-ocr-微信图片_20260507004802_38_32.md`
+
+## Reusable Knowledge
+
+- No text was detected in the OCR processing of this image, indicating it may be entirely visual/non-textual content.
+- OCR extraction was performed using the PaddleOCR ONNX pipeline, which may introduce ligature or misrecognition errors when text is present.
+- Visual structural information (headings, body text, table segmentation) is not preserved in OCR output and requires original image reference for proper interpretation.
+- Automated OCR pipelines require human verification for accuracy, especially for content intended for knowledge management or decision-making purposes.
+
+## Open Questions
+
+- 如果OCR未检测到任何文本，该图像是否确实不含文本，还是PaddleOCR ONNX pipeline对特定字体、语言或图像质量存在识别盲区？
+- "unknown"的原图状态意味着无法回溯验证——这是否构成知识管理系统中不可接受的单点失效，需要强制要求原图存档？
+- 备注中提到"可能存在连字/误识"，但在"no text detected"的情况下此警告是否属于模板化冗余，还是暗示存在低置信度识别结果被过滤？
+- 视觉结构信息完全丢失的情况下，该来源是否仍应被纳入知识库，还是需要建立"视觉内容准入"的判定标准？
+- 捕获时间（2026-05-21）与文件名时间戳（20260507）存在14天差异——这是图像创建时间与入库时间的正常间隔，还是提示来源追溯链断裂？
+- 文件名"微信图片"表明来自微信渠道，但未记录发送者、群聊上下文或转发链条，是否满足知识溯源的最小必要信息要求？
+
+
+## Critique
+
+### 内部局限
+
+- **方法论的普适性未验证：声称的方法论未经过对照实验验证，其有效性主要基于主讲人个人经验。
+- **视觉信息丢失：OCR损坏导致原图的视觉结构、层级关系和关键节点信息未被完整提取。
+
+### 外部攻击
+
+#### Don Norman — “设计需要深度理解，不是通用模板”
+
+Don Norman 在《设计心理学》中证明：好的设计需要深度理解特定用户、特定场景、特定约束。Norman 会质疑：**当你用通用模板去处理具体问题时，你是否在用"术语重新包装一个你没有专业判断力的东西"？**
+
+#### David Pye — “确定性手艺与风险性手艺的分野”
+
+David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 会质疑：**软件产品设计偏向"确定性手艺"，但很多设计对象——制度设计、职业路径、个人知识体系——本质上是"风险性手艺"。**
+
+### 不要用的场景
+
+- **对目标领域缺乏基本体感的设计任务：用产品思维设计一个完全不了解的领域，可能导致“用术语重新包装无知”。
+- **不可逆、不可A/B测试的长期个人产品（如3-5年的职业发展路径）：软件产品的"快速验证"核心假设不成立。
+
+## Synthesis
+
+### 与本库其他概念的关联
+
+- [[yt-personal-product-design]] — 泛产品设计方法论总纲
+- [[yt-decision-product-launch]] — 产品落地发布的方法论补充
+
+### 可迁移场景
+
+- 产品设计者自我评估：用本框架快速定位自己的能力短板
+- 团队能力建设：将方法论作为团队培训的入门模块
+
+## Output Opportunities
+
+Content: <analysis: "OCR零文本检测根因诊断手册" — 基于PaddleOCR ONNX pipeline的盲区分析，覆盖字体/语言/图像质量三维排查矩阵，建立"未检出≠无文本"的KDO准入判定标准>
+Code: <tool: `ocr-pipeline-auditor.ps1` — 增强型PowerShell包装器，在现有ocr-image.ps1基础上集成：①图像质量预检（分辨率/模糊度/对比度阈值）②零文本告警分级（硬失败/软失败/视觉内容）③强制原图路径存档校验④时间戳一致性审计（文件名vs捕获vs入库三向比对）>
+Capability: <playbook: "视觉内容溯源最小集" — 定义微信渠道图像入KDO的元数据强制字段：发送者ID、群聊/私聊上下文、转发链条哈希、原图BASE64指纹，解决"unknown原图"导致的单点失效与14天时间差异常>

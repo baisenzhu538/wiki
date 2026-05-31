@@ -1,11 +1,14 @@
 ---
-title: "AI时代判断力口述"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260525_7ee2bba2"]
-created_at: "2026-05-25T04:49:06+00:00"
-updated_at: "2026-05-28T14:59:11+00:00"
-id: "ai时代判断力口述"
+id: ai时代判断力口述
+created_at: 2026-05-25
+domain:
+  - healthcare
+source_refs:
+  - src_20260525_7ee2bba2
+status: enriched
+title: AI时代判断力口述
+type: concept
+updated_at: 2026-05-28
 ---
 
 

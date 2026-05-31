@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-个人修炼-科学提问刻意练习"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_f70d7a7d"]
-created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-22T05:33:47+00:00"
 id: ocr-一堂-个人修炼-科学提问刻意练习
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_f70d7a7d
+status: enriched
+title: "OCR: 一堂-个人修炼-科学提问刻意练习"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

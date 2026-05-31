@@ -1,50 +1,49 @@
 ---
 id: yt-panproduct-execution-review-iteration
+component_of:
+  - yt-model-pan-product-execution-toolkit
+confidence: 0.80
+created_at: 2026-05-11
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1223
+language: zh-CN
+prerequisites:
+  - yt-composite-pan-product-methodology
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
+query_triggers:
+  - 产品落地
+  - 产品迭代
+  - 复盘迭代
+  - 执行方法
+  - 泛产品设计
+  - 泛产品设计·落地卡片：复盘迭代
+  - 落地卡片
+  - 落地执行
+related:
+  - yt-model-deep-review-iceberg
+  - yt-panproduct-execution-milestone-breakdown
+  - yt-model-deliberate-practice-growth
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/泛产品设计-落地卡片-复盘迭代.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#pan-product-design"
+  - "#execution"
+  - "#review"
 title: 泛产品设计·落地卡片：复盘迭代
 type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
-component_of:
-- yt-model-pan-product-execution-toolkit
-related:
-- yt-model-deep-review-iceberg
-- yt-panproduct-execution-milestone-breakdown
-- yt-model-deliberate-practice-growth
-contradicts: []
-query_triggers:
-- 产品落地
-- 产品迭代
-- 复盘迭代
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：复盘迭代
-- 落地卡片
-- 落地执行
-tags:
-- '#yitang'
-- '#pan-product-design'
-- '#execution'
-- '#review'
 yitang:
   map: personal
   module: 泛产品设计
   course_type: card
   level: intermediate
-source_refs:
-- 10_raw/assets/yitang/泛产品设计-落地卡片-复盘迭代.png
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 1223
-reviewed_by: 黄药师
 ---
 
 # 复盘迭代：善于向自己的经验学习

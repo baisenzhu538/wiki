@@ -1,45 +1,44 @@
 ---
 id: yt-personal-pan-product-aesthetics
+component_of:
+  - yt-composite-pan-product-methodology
+confidence: 0.80
+created_at: 2026-05-11
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 3200
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 个人修炼
+  - 产品思维
+  - 最佳实践与审美建模
+  - 泛产品设计
+  - 泛产品设计审美篇
+  - 泛产品设计审美篇：最佳实践与审美建模
+related:
+  - yt-model-pan-product-aesthetic-toolkit
+  - yt-personal-pan-product-concepts
+  - yt-model-liberate-thinking-layers
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-个人修身-泛产品设计审美口述.md
+status: enriched
+tags:
+  - "#yitang"
+  - "#pan-product-design"
+  - "#aesthetics"
+  - "#best-practice"
 title: 泛产品设计审美篇：最佳实践与审美建模
 type: concept
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-18
 version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
-component_of:
-- yt-composite-pan-product-methodology
-related:
-- yt-model-pan-product-aesthetic-toolkit
-- yt-personal-pan-product-concepts
-- yt-model-liberate-thinking-layers
-contradicts: []
-query_triggers:
-- 个人修炼
-- 产品思维
-- 最佳实践与审美建模
-- 泛产品设计
-- 泛产品设计审美篇
-- 泛产品设计审美篇：最佳实践与审美建模
-tags:
-- '#yitang'
-- '#pan-product-design'
-- '#aesthetics'
-- '#best-practice'
 yitang:
   map: personal
   module: 个人修炼
   course_type: required
   level: intermediate
-source_refs:
-- 10_raw/sources/一堂-个人修身-泛产品设计审美口述.md
-created_at: '2026-05-11'
-updated_at: '2026-05-18'
-estimated_tokens: 3200
-reviewed_by: 黄药师
 ---
 
 # 泛产品设计审美篇：永远以最佳实践为追求

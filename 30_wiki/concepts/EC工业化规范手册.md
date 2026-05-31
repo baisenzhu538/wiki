@@ -1,11 +1,14 @@
 ---
-title: "EC工业化规范手册"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260503_dadc7838"]
-created_at: "2026-05-03T13:36:55+00:00"
-updated_at: "2026-05-03T13:36:55+00:00"
 id: EC工业化规范手册
+created_at: 2026-05-03
+domain:
+  - healthcare
+source_refs:
+  - src_20260503_dadc7838
+status: enriched
+title: EC工业化规范手册
+type: concept
+updated_at: 2026-05-03
 ---
 
 # EC工业化规范手册

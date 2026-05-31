@@ -1,55 +1,43 @@
 ---
 id: yt-model-management-map
+component_of: []
+confidence: 0.85
+created_at: 2026-05-07
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 2225
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 五阶成长路径
+  - 关联卡片
+  - 核心追求
+  - 知识体系定位
+  - 管业务（L4）：四大杠杆
+  - 管公司（L5）：四大支柱
+  - 管团队（L3）：五项基本功
+  - 管理修炼地图
+  - 管项目（L2）：四步闭环
+related:
+  level: foundational
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+  - 10_raw/assets/yitang/一堂-地图-管理地图.webp
+status: enriched
+tags:
+  - "#yitang"
+  - "#management"
+  - "#core-model"
 title: 管理修炼地图
 type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-08
 version: 1
-difficulty: foundational
-confidence: 0.85
-prerequisites: []
-component_of: []
-related:
-  - yt-model-entrepreneur-map
-  - yt-model-personal-map
-  - yt-model-progress-map
-  - yt-model-y-organization
-  - yt-management-toolkit-overview
-contradicts: []
-query_triggers:
-- 五阶成长路径
-- 关联卡片
-- 核心追求
-- 知识体系定位
-- 管业务（L4）：四大杠杆
-- 管公司（L5）：四大支柱
-- 管团队（L3）：五项基本功
-- 管理修炼地图
-- 管项目（L2）：四步闭环
-tags:
-- '#yitang'
-- '#management'
-- '#core-model'
 yitang:
   map: management
   module: 方法论总纲
   course_type: model
-related:
-  - yt-model-entrepreneur-map
-  - yt-model-personal-map
-  - yt-model-progress-map
-  - yt-model-y-organization
-  - yt-system-course-catalog#管理必修
-  level: foundational
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂-地图-管理地图.webp
-created_at: '2026-05-07'
-updated_at: '2026-05-08'
-estimated_tokens: 2225
-reviewed_by: 黄药师
 ---
 
 # 一堂管理地图：高潜力管理者修炼全景图

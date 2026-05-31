@@ -1,50 +1,40 @@
 ---
 id: yt-model-deep-review-iceberg
+component_of: []
+confidence: 0.85
+created_at: 2026-05-11
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 2454
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 与解放思想层级的关系
+  - 五层冰山
+  - 五层穿透的实践要点
+  - 从主观感受到能力建设的五层穿透
+  - 深度复盘冰山图
+  - 深度复盘冰山图：从主观感受到能力建设的五层穿透
+related:
+  level: intermediate
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/一堂深度复盘冰山图.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#personal-growth"
+  - "#deep-review"
+  - "#deliberate-practice"
 title: 深度复盘冰山图：从主观感受到能力建设的五层穿透
 type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: intermediate
-confidence: 0.85
-prerequisites: []
-component_of: []
-related:
-  - yt-model-liberate-thinking-layers
-  - yt-personal-deep-review
-  - yt-personal-deliberate-practice
-  - yt-personal-knowledge-extraction
-contradicts: []
-query_triggers:
-- 与解放思想层级的关系
-- 五层冰山
-- 五层穿透的实践要点
-- 从主观感受到能力建设的五层穿透
-- 深度复盘冰山图
-- 深度复盘冰山图：从主观感受到能力建设的五层穿透
-tags:
-- '#yitang'
-- '#personal-growth'
-- '#deep-review'
-- '#deliberate-practice'
 yitang:
   map: personal
   module: 个人修炼
   course_type: framework
-related:
-  - yt-model-liberate-thinking-layers
-  - yt-personal-deep-review
-  - yt-personal-deliberate-practice
-  - yt-personal-knowledge-extraction
-  level: intermediate
-source_refs:
-- 10_raw/assets/yitang/一堂深度复盘冰山图.png
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 2454
-reviewed_by: 黄药师
 ---
 
 # 深度复盘冰山图：从主观感受到能力建设的五层穿透

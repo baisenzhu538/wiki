@@ -1,45 +1,44 @@
 ---
 id: yt-personal-ai-thinking-card
-title: AI思维卡：从「读书」到「安装认知补丁」
-type: method
-status: enriched
-domain:
-- personal-methods
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.80
-source_refs:
-- 10_raw/sources/aima-ai-thinking-card-20260515.html
-prerequisites: []
 component_of: []
-related:
-- yt-model-agent-architecture
-- yt-personal-knowledge-extraction
-- yt-personal-deep-review
-- yt-personal-checklist-notes
-- yt-model-deep-review-iceberg
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-15
+difficulty: intermediate
+domain:
+  - personal-methods
+language: zh-CN
+prerequisites: []
 query_triggers:
-- AI思维卡
-- 认知升级系统
-- 深度阅读方法
-- 如何把书读成认知补丁
-- 结构化读书笔记
-- ICAP分层
-- 知识内化方法
-- 从读到用的方法
-- 读书怎么变成行动
-tags:
-- '#reading'
-- '#knowledge-management'
-- '#personal-growth'
-- '#deep-work'
-created_at: '2026-05-15'
-updated_at: '2026-05-15'
+  - AI思维卡
+  - 认知升级系统
+  - 深度阅读方法
+  - 如何把书读成认知补丁
+  - 结构化读书笔记
+  - ICAP分层
+  - 知识内化方法
+  - 从读到用的方法
+  - 读书怎么变成行动
+related:
+  - yt-model-agent-architecture
+  - yt-personal-knowledge-extraction
+  - yt-personal-deep-review
+  - yt-personal-checklist-notes
+  - yt-model-deep-review-iceberg
+review_date: 2026-05-15
 reviewed_by: 黄药师
-review_date: '2026-05-15'
+source_refs:
+  - 10_raw/sources/aima-ai-thinking-card-20260515.html
+status: enriched
+tags:
+  - "#reading"
+  - "#knowledge-management"
+  - "#personal-growth"
+  - "#deep-work"
+title: AI思维卡：从「读书」到「安装认知补丁」
 trust_level: medium
+type: method
+updated_at: 2026-05-15
+version: 1
 ---
 
 # AI思维卡：从「读书」到「安装认知补丁」

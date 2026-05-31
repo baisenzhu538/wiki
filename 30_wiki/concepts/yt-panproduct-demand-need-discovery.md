@@ -1,47 +1,46 @@
 ---
 id: yt-panproduct-demand-need-discovery
+component_of:
+  - yt-model-pan-product-demand-toolkit
+confidence: 0.80
+created_at: 2026-05-11
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 1167
+language: zh-CN
+prerequisites:
+  - yt-composite-pan-product-methodology
+query_triggers:
+  - 泛产品设计
+  - 泛产品设计·用户卡片：需求挖掘
+  - 用户卡片
+  - 用户研究
+  - 用户需求
+  - 需求分析
+  - 需求挖掘
+  - 需求洞察
+related:
+  - yt-panproduct-demand-scenario-walkthrough
+  - yt-panproduct-demand-user-perspective
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/泛产品设计-用户卡片-需求挖掘.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#pan-product-design"
+  - "#user-research"
+  - "#need-discovery"
 title: 泛产品设计·用户卡片：需求挖掘
 type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: foundational
-confidence: 0.8
-prerequisites:
-- yt-composite-pan-product-methodology
-component_of:
-- yt-model-pan-product-demand-toolkit
-related:
-- yt-panproduct-demand-scenario-walkthrough
-- yt-panproduct-demand-user-perspective
-contradicts: []
-query_triggers:
-- 泛产品设计
-- 泛产品设计·用户卡片：需求挖掘
-- 用户卡片
-- 用户研究
-- 用户需求
-- 需求分析
-- 需求挖掘
-- 需求洞察
-tags:
-- '#yitang'
-- '#pan-product-design'
-- '#user-research'
-- '#need-discovery'
 yitang:
   map: personal
   module: 泛产品设计
   course_type: card
   level: foundational
-source_refs:
-- 10_raw/assets/yitang/泛产品设计-用户卡片-需求挖掘.png
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 1167
-reviewed_by: 黄药师
 ---
 
 # 需求挖掘：理解背后的深层原因

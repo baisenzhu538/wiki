@@ -1,52 +1,42 @@
 ---
 id: yt-model-product-excellence
+component_of: []
+confidence: 0.85
+created_at: 2026-05-11
+difficulty: advanced
+domain:
+  - yitang
+estimated_tokens: 2473
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 与泛产品审美工具箱的对应
+  - 乔布斯的品味公式
+  - 品味
+  - 品味 = 曝光 × 迁移
+  - 最佳实践与乔布斯的审美哲学
+  - 核心洞见
+  - 顶级产品追求
+  - 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
+related:
+  level: advanced
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/顶级产品追求的方向-乔布斯.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#product-design"
+  - "#aesthetics"
+  - "#best-practices"
 title: 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: advanced
-confidence: 0.85
-prerequisites: []
-component_of: []
-related:
-  - yt-model-aesthetic-progression
-  - yt-model-pan-product-aesthetic-toolkit
-  - yt-model-pan-product-three-virtues
-  - yt-personal-pan-product-aesthetics
-contradicts: []
-query_triggers:
-- 与泛产品审美工具箱的对应
-- 乔布斯的品味公式
-- 品味
-- 品味 = 曝光 × 迁移
-- 最佳实践与乔布斯的审美哲学
-- 核心洞见
-- 顶级产品追求
-- 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
-tags:
-- '#yitang'
-- '#product-design'
-- '#aesthetics'
-- '#best-practices'
 yitang:
   map: personal
   module: 个人修炼
   course_type: framework
-related:
-  - yt-model-aesthetic-progression
-  - yt-model-pan-product-aesthetic-toolkit
-  - yt-model-pan-product-three-virtues
-  - yt-personal-pan-product-aesthetics
-  level: advanced
-source_refs:
-- 10_raw/assets/yitang/顶级产品追求的方向-乔布斯.png
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 2473
-reviewed_by: 黄药师
 ---
 
 # 顶级产品追求：品味、最佳实践与乔布斯的审美哲学

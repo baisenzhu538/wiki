@@ -1,55 +1,45 @@
 ---
 id: yt-entrepreneur-business-growth
-title: 业务增长
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1878
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 业务增长
-- 增长引擎
-- 增长飞轮
-- 增长实验
-- 规模化增长
-- 增长单元模型
-- 增长渠道矩阵
-- 可复制增长
-- 五步法第四步
-- 增长假设
+  - 业务增长
+  - 增长引擎
+  - 增长飞轮
+  - 增长实验
+  - 规模化增长
+  - 增长单元模型
+  - 增长渠道矩阵
+  - 可复制增长
+  - 五步法第四步
+  - 增长假设
+related:
+  series: false
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 业务增长
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: entrepreneur
   module: 业务增长
   course_id: yt-entrepreneur-business-growth
   course_type: method
   level: core
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-  series: false
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-estimated_tokens: 1878
-reviewed_by: 黄药师
-review_date: '2026-05-08'
 ---
 
 # 业务增长

@@ -1,11 +1,14 @@
 ---
-title: "Product Ux"
-type: "concept"
-status: "draft"
-source_refs: ["src_20260522_404f58a2"]
-created_at: "2026-05-21T20:14:01+00:00"
-updated_at: "2026-05-21T20:14:01+00:00"
 id: product-ux
+created_at: 2026-05-21
+domain:
+  - ai-saas
+source_refs:
+  - src_20260522_404f58a2
+status: draft
+title: Product Ux
+type: concept
+updated_at: 2026-05-21
 ---
 
 # Product Ux

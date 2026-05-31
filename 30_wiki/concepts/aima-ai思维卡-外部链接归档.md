@@ -1,11 +1,14 @@
 ---
-title: "AIMA AI思维卡 — 外部链接归档"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_a8e05d98"]
-created_at: "2026-05-21T20:13:51+00:00"
-updated_at: "2026-05-22T06:47:07+00:00"
 id: aima-ai思维卡-外部链接归档
+created_at: 2026-05-21
+domain:
+  - healthcare
+source_refs:
+  - src_20260522_a8e05d98
+status: enriched
+title: AIMA AI思维卡 — 外部链接归档
+type: concept
+updated_at: 2026-05-22
 ---
 
 

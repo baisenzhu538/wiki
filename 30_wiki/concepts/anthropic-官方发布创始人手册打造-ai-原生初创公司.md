@@ -1,39 +1,38 @@
 ---
 id: anthropic-官方发布创始人手册打造-ai-原生初创公司
-title: "AI 原生创业四阶段模型（Anthropic 创始人手册）"
-type: concept
-status: enriched
-domain:
-- entrepreneur
-language: zh-CN
-version: 1
-difficulty: foundational
-confidence: 0.8
-prerequisites: []
 component_of: []
+confidence: 0.80
+created_at: 2026-05-19
+difficulty: foundational
+domain:
+  - entrepreneur
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - AI 原生创业
+  - 创业四阶段
+  - 精益独角兽
+  - 智能体编程
+  - 创始人角色演变
+  - 产品市场契合度
 related:
   - yt-management-toolkit-overview
   - yt-model-dual-triangle-competitiveness
   - yt-entrepreneur-key-hypotheses
   - yt-tool-meeting-designer
-contradicts: []
-query_triggers:
-- AI 原生创业
-- 创业四阶段
-- 精益独角兽
-- 智能体编程
-- 创始人角色演变
-- 产品市场契合度
-tags:
-- '#anthropic'
-- '#ai-native'
-- '#startup'
-- '#entrepreneurship'
+reviewed_by: 欧阳锋
 source_refs:
   - 10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md
-created_at: '2026-05-19'
-updated_at: '2026-05-19'
-reviewed_by: '欧阳锋'
+status: enriched
+tags:
+  - "#anthropic"
+  - "#ai-native"
+  - "#startup"
+  - "#entrepreneurship"
+title: AI 原生创业四阶段模型（Anthropic 创始人手册）
+type: concept
+updated_at: 2026-05-19
+version: 1
 ---
 
 # AI 原生创业四阶段模型（Anthropic 创始人手册）

@@ -1,52 +1,40 @@
 ---
 id: yt-model-deliberate-practice-growth
+component_of: []
+confidence: 0.85
+created_at: 2026-05-11
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 2397
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 与泛产品十年爬山地图的关系
+  - 为什么有人一年顶十年
+  - 刻意练习十年成长指数
+  - 刻意练习十年成长指数：为什么有人一年顶十年
+  - 四要素诊断矩阵
+  - 成长曲线三种状态
+related:
+  level: foundational
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/一堂刻意练习十年成长指数.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#personal-growth"
+  - "#deliberate-practice"
+  - "#growth-index"
 title: 刻意练习十年成长指数：为什么有人一年顶十年
 type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: foundational
-confidence: 0.85
-prerequisites: []
-component_of: []
-related:
-  - yt-model-deep-review-iceberg
-  - yt-model-pan-product-climbing-map
-  - yt-personal-deep-review
-  - yt-personal-deliberate-practice
-  - yt-personal-thinking-models
-contradicts: []
-query_triggers:
-- 与泛产品十年爬山地图的关系
-- 为什么有人一年顶十年
-- 刻意练习十年成长指数
-- 刻意练习十年成长指数：为什么有人一年顶十年
-- 四要素诊断矩阵
-- 成长曲线三种状态
-tags:
-- '#yitang'
-- '#personal-growth'
-- '#deliberate-practice'
-- '#growth-index'
 yitang:
   map: personal
   module: 个人修炼
   course_type: framework
-related:
-  - yt-model-deep-review-iceberg
-  - yt-model-pan-product-climbing-map
-  - yt-personal-deep-review
-  - yt-personal-deliberate-practice
-  - yt-personal-thinking-models
-  level: foundational
-source_refs:
-- 10_raw/assets/yitang/一堂刻意练习十年成长指数.png
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 2397
-reviewed_by: 黄药师
 ---
 
 # 刻意练习十年成长指数：为什么有人一年顶十年

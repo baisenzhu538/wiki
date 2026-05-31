@@ -1,51 +1,41 @@
 ---
 id: yt-entrepreneur-research-camp
+component_of: []
+confidence: 0.80
+created_at: 2026-05-11
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1863
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 三轮学习设计
+  - 从调研认知到AI调研武器库
+  - 第0期的特殊性
+  - 调研段位
+  - 调研行动营
+  - 调研行动营：从调研认知到AI调研武器库
+  - 调研黑客五步曲
+related:
+  level: intermediate
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-创业-调研行动营口述01.md
+status: enriched
+tags:
+  - "#yitang"
+  - "#entrepreneurship"
+  - "#research"
+  - "#market-research"
 title: 调研行动营：从调研认知到AI调研武器库
 type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
-component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-research-cognition
-  - yt-model-ipo-learning-strategy
-  - yt-personal-knowledge-extraction
-contradicts: []
-query_triggers:
-- 三轮学习设计
-- 从调研认知到AI调研武器库
-- 第0期的特殊性
-- 调研段位
-- 调研行动营
-- 调研行动营：从调研认知到AI调研武器库
-- 调研黑客五步曲
-tags:
-- '#yitang'
-- '#entrepreneurship'
-- '#research'
-- '#market-research'
 yitang:
   map: entrepreneur
   module: 创业必修
   course_type: action_camp
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-research-cognition
-  - yt-model-ipo-learning-strategy
-  - yt-personal-knowledge-extraction
-  level: intermediate
-source_refs:
-- 10_raw/sources/一堂-创业-调研行动营口述01.md
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 1863
-reviewed_by: 黄药师
 ---
 
 # 调研行动营：从调研认知到AI调研武器库

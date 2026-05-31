@@ -1,55 +1,45 @@
 ---
 id: yt-entrepreneur-product-core
-title: 产品内核
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1878
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 产品内核
-- 产品最小内核
-- 内核剥离法
-- 核心功能定义
-- 产品价值聚焦
-- MVP核心价值
-- 产品功能优先级
-- 产品减法
-- 价值点拆解
-- 用户买单核心
+  - 产品内核
+  - 产品最小内核
+  - 内核剥离法
+  - 核心功能定义
+  - 产品价值聚焦
+  - MVP核心价值
+  - 产品功能优先级
+  - 产品减法
+  - 价值点拆解
+  - 用户买单核心
+related:
+  series: true
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 产品内核
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: entrepreneur
   module: 产品内核
   course_id: yt-entrepreneur-product-core
   course_type: method
   level: core
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-  series: true
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-estimated_tokens: 1878
-reviewed_by: 黄药师
-review_date: '2026-05-08'
 ---
 
 # 产品内核

@@ -1,11 +1,14 @@
 ---
-title: "OCR: 泛产品设计-落地卡片-酝酿式打磨"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_2bcc3531"]
-created_at: "2026-05-21T20:14:00+00:00"
-updated_at: "2026-05-22T07:48:03+00:00"
 id: ocr-泛产品设计-落地卡片-酝酿式打磨
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_2bcc3531
+status: enriched
+title: "OCR: 泛产品设计-落地卡片-酝酿式打磨"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

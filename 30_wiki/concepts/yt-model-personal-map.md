@@ -1,43 +1,42 @@
 ---
 id: yt-model-personal-map
-title: 个人修炼地图
-type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: foundational
-confidence: 0.85
-prerequisites: []
 component_of: []
+confidence: 0.85
+created_at: 2026-05-07
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 1825
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 个人修炼地图
+  - 关联卡片
+  - 四层金字塔
+  - 核心追求
+  - 知识体系定位
+  - 迭代层的双螺旋
+  - 领先层六大能力
 related:
   - yt-model-personal-pitch-toolkit
-contradicts: []
-query_triggers:
-- 个人修炼地图
-- 关联卡片
-- 四层金字塔
-- 核心追求
-- 知识体系定位
-- 迭代层的双螺旋
-- 领先层六大能力
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+  - 10_raw/assets/yitang/一堂-地图-个人地图.webp
+status: enriched
 tags:
-- '#yitang'
-- '#personal-growth'
-- '#core-model'
+  - "#yitang"
+  - "#personal-growth"
+  - "#core-model"
+title: 个人修炼地图
+type: framework
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: personal
   module: 方法论总纲
   course_type: model
   level: foundational
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂-地图-个人地图.webp
-created_at: '2026-05-07'
-updated_at: '2026-05-08'
-estimated_tokens: 1825
-reviewed_by: 黄药师
 ---
 
 # 一堂个人地图：高潜力成长者修炼全景图

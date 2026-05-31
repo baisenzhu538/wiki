@@ -1,49 +1,48 @@
 ---
 id: yt-personal-scientific-expression
-title: 科学表达（火箭模型）
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: foundational
-confidence: 0.8
-prerequisites: []
 component_of: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 3000
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 火箭模型
+  - 科学表达
+  - 表达力训练
+  - 演讲结构设计
+  - 四级火箭
+  - 情感共鸣
+  - 逻辑推演
+  - 行动推进
+  - 公开演讲技巧
+  - 如何做好演讲
 related:
   - yt-model-personal-pitch-toolkit
   - yt-model-prompt-engineering
-contradicts: []
-query_triggers:
-- 火箭模型
-- 科学表达
-- 表达力训练
-- 演讲结构设计
-- 四级火箭
-- 情感共鸣
-- 逻辑推演
-- 行动推进
-- 公开演讲技巧
-- 如何做好演讲
-tags:
-- '#yitang'
-trust_level: medium
-yitang:
-  map: personal
-  module: 科学表达（火箭模型）
-  course_id: '410'
-  course_type: method
-  level: core
-  series: true
+review_date: 2026-05-08
+reviewed_by: 黄药师
 source_refs:
   - 10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型.png
   - 10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型-执行武器库.png
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-review_date: '2026-05-08'
-estimated_tokens: 3000
-reviewed_by: 黄药师
+status: enriched
+tags:
+  - "#yitang"
+title: 科学表达（火箭模型）
+trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
+yitang:
+  map: personal
+  module: 科学表达（火箭模型）
+  course_id: 410
+  course_type: method
+  level: core
+  series: true
 ---
 # 科学表达（火箭模型）
 

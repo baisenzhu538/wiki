@@ -1,16 +1,15 @@
 ---
-title: Obsidian + KDO 内容产出工作流 — 产品设计大纲
-type: concept
-status: superseded
-domain:
 id: obsidian-kdo-内容产出工作流-产品设计大纲
-  - master
+created_at: 2026-05-01
+domain:
   - ai-saas
 source_refs:
   - src_20260501_58b6edef
-created_at: '2026-05-01T05:26:43+00:00'
-updated_at: '2026-05-03T12:00:00+00:00'
+status: superseded
 superseded_by: 30_wiki/concepts/kdo_product_design_agent_final.md
+title: Obsidian + KDO 内容产出工作流 — 产品设计大纲
+type: concept
+updated_at: 2026-05-03
 ---
 
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲

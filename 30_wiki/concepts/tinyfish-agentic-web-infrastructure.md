@@ -1,26 +1,22 @@
 ---
-title: "TinyFish — Agentic Web 基础设施建设层 Skill"
-type: concept
-status: enriched
-domain: ['master']
-source_refs: []
-created_at: "2026-05-06"
-updated_at: "2026-05-06"
-related:
 id: tinyfish-agentic-web-infrastructure
-  - "[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]"
-  - "[[business-research-skill-oscar-13-weapon-system]]"
-  - "[[truman-perspective-skill]]"
-  - "[[kdo-protocol]]"
+created_at: 2026-05-06
+domain:
+  - "['master']"
+review_date: 2026-05-06
+reviewed_by: 黄药师
+source_refs: []
+status: enriched
 tags:
   - "#skill"
   - "#web-infrastructure"
   - "#agentic-web"
   - "#tool"
   - "#tinyfish"
+title: TinyFish — Agentic Web 基础设施建设层 Skill
 trust_level: high
-reviewed_by: "黄药师"
-review_date: "2026-05-06"
+type: concept
+updated_at: 2026-05-06
 ---
 
 # TinyFish — Agentic Web 基础设施建设层 Skill

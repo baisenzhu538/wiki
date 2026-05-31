@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-个人修炼-提问刻意练习画布"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_a1a098d5"]
-created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-22T06:55:13+00:00"
 id: ocr-一堂-个人修炼-提问刻意练习画布
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_a1a098d5
+status: enriched
+title: "OCR: 一堂-个人修炼-提问刻意练习画布"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

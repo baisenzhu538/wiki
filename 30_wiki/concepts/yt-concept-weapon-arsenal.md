@@ -1,20 +1,14 @@
 ---
 id: yt-concept-weapon-arsenal
-title: 超级武器库（元概念）
-type: concept
-status: enriched
-domain: master
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.85
-prerequisites: []
 component_of: []
-related:
-  - yt-model-personal-pitch-toolkit
-  - yt-personal-scientific-expression
-  - yt-model-prompt-engineering
-contradicts: []
+confidence: 0.85
+created_at: 2026-05-13
+difficulty: intermediate
+domain:
+  - master
+estimated_tokens: 2800
+language: zh-CN
+prerequisites: []
 query_triggers:
   - 超级武器库
   - 武器库
@@ -24,17 +18,23 @@ query_triggers:
   - 策略集合
   - 即查即用
   - 战术集合
-tags:
-  - '#yitang'
-  - '#meta-concept'
-  - '#框架设计'
+related:
+  - yt-model-personal-pitch-toolkit
+  - yt-personal-scientific-expression
+  - yt-model-prompt-engineering
+reviewed_by: 黄药师
 source_refs:
   - 10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png
   - 10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型-执行武器库.png
-created_at: 2026-05-13
+status: enriched
+tags:
+  - "#yitang"
+  - "#meta-concept"
+  - "#框架设计"
+title: 超级武器库（元概念）
+type: concept
 updated_at: 2026-05-13
-estimated_tokens: 2800
-reviewed_by: 黄药师
+version: 1
 ---
 # 超级武器库（元概念）
 

@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-个人修炼-科学学习IPO完整清单"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_e139c9e9"]
-created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-22T06:56:32+00:00"
 id: ocr-一堂-个人修炼-科学学习ipo完整清单
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_e139c9e9
+status: enriched
+title: "OCR: 一堂-个人修炼-科学学习IPO完整清单"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

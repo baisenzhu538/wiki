@@ -1,30 +1,9 @@
 ---
-title: "合伙股权"
-type: concept
-status: enriched
-domain: ['yitang']
-yitang:
-  map: management
-  module: "合伙股权"
-  course_id: "yt-management-partnership-equity"
-  course_type: method
-  level: foundational
-  series: false
-source_refs:
 id: yt-management-partnership-equity
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: "2026-05-06"
-updated_at: '2026-05-19'
+created_at: 2026-05-06
+domain:
+  - "['yitang']"
 estimated_tokens: 3300
-reviewed_by: "黄药师"
-review_date: "2026-05-08"
-trust_level: medium
-related:
-  - yt-management-basic-skills
-  - yt-management-scientific-hiring
-  - yt-management-scientific-meetings
-  - yt-model-management-map
-  - yt-tool-equity-checklist
 query_triggers:
   - 合伙股权分配
   - 创业合伙人股权
@@ -35,8 +14,28 @@ query_triggers:
   - 创业合伙协议
   - 股权架构设计
   - 创始团队分股
+related:
+  - yt-management-basic-skills
+  - yt-management-scientific-hiring
+  - yt-management-scientific-meetings
+  - yt-model-management-map
+  - yt-tool-equity-checklist
+review_date: 2026-05-08
+reviewed_by: 黄药师
+status: enriched
 tags:
   - "#yitang"
+title: 合伙股权
+trust_level: medium
+type: concept
+updated_at: 2026-05-19
+yitang:
+  map: management
+  module: 合伙股权
+  course_id: yt-management-partnership-equity
+  course_type: method
+  level: foundational
+  series: false
 ---
 
 # 合伙股权

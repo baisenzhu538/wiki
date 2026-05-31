@@ -1,54 +1,44 @@
 ---
 id: yt-entrepreneur-scientific-method
-title: Y模型/科学方法
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-truth-seeking
-  - yt-model-entrepreneur-map
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1833
+language: zh-CN
+prerequisites: []
 query_triggers:
-- Y模型
-- 科学创业方法
-- 假设驱动
-- 可证伪性
-- 商业假设验证
-- 数据决策
-- 证伪思维
-- 科学方法论创业
-- 迭代验证
-- 经验主义替代
+  - Y模型
+  - 科学创业方法
+  - 假设驱动
+  - 可证伪性
+  - 商业假设验证
+  - 数据决策
+  - 证伪思维
+  - 科学方法论创业
+  - 迭代验证
+  - 经验主义替代
+related:
+  series: false
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: Y模型/科学方法
 trust_level: medium
+type: tool
+updated_at: 2026-05-09
+version: 1
 yitang:
   map: entrepreneur
   module: Y模型/科学方法
   course_id: yt-entrepreneur-scientific-method
   course_type: method
   level: foundational
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-truth-seeking
-  - yt-model-entrepreneur-map
-  series: false
-source_refs:
-- 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-09'
-estimated_tokens: 1833
-reviewed_by: 黄药师
 ---
 
 # Y模型/科学方法

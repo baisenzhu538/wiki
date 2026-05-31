@@ -1,18 +1,22 @@
 ---
 id: yt-research-competitor-toolkit
-title: 竞品拆解工具包：三层分类+内核边界+单元模型对标
-type: tool
-status: reviewed
+component_of: []
+confidence: 0.85
+created_at: 2026-05-18
+difficulty: intermediate
 domain:
   - yitang
+estimated_tokens: 2200
 language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.85
 prerequisites:
   - yt-research-osl-framework
   - yt-research-intelligence-map
-component_of: []
+query_triggers:
+  - 竞品分析
+  - 竞品拆解
+  - 对标分析
+  - 竞争格局
+  - 竞争象限
 related:
   - yt-research-osl-framework
   - yt-research-intelligence-map
@@ -21,31 +25,26 @@ related:
   - yt-research-industry-canvas
   - yt-research-user-jtbd
   - yt-decision-width-method
-contradicts: []
-query_triggers:
-  - 竞品分析
-  - 竞品拆解
-  - 对标分析
-  - 竞争格局
-  - 竞争象限
+reviewed_by: 
+source_refs:
+  - 00_inbox/ideas/一堂-创业必修-调研武器库.md
+  - 00_inbox/ideas/一堂-创业必修-需求分析.md
+status: reviewed
 tags:
-  - '#yitang'
-  - '#research'
-  - '#tool'
+  - "#yitang"
+  - "#research"
+  - "#tool"
+title: 竞品拆解工具包：三层分类+内核边界+单元模型对标
 trust_level: medium
+type: tool
+updated_at: 2026-05-18
+version: 1
 yitang:
   map: entrepreneur
   module: 调研方法论
   course_id: yt-research-competitor-toolkit
   course_type: tool
   level: intermediate
-source_refs:
-  - 00_inbox/ideas/一堂-创业必修-调研武器库.md
-  - 00_inbox/ideas/一堂-创业必修-需求分析.md
-created_at: '2026-05-18'
-updated_at: '2026-05-18'
-estimated_tokens: 2200
-reviewed_by: ''
 ---
 
 # 竞品拆解工具包：三层分类+内核边界+单元模型对标

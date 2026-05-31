@@ -1,55 +1,45 @@
 ---
 id: yt-entrepreneur-barriers
-title: 项目壁垒
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1845
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 项目壁垒
-- 护城河
-- 规模效应
-- 网络效应
-- 品牌壁垒
-- 技术壁垒
-- 专利壁垒
-- 五步法壁垒
-- 创业护城河
-- 行业准入
+  - 项目壁垒
+  - 护城河
+  - 规模效应
+  - 网络效应
+  - 品牌壁垒
+  - 技术壁垒
+  - 专利壁垒
+  - 五步法壁垒
+  - 创业护城河
+  - 行业准入
+related:
+  series: false
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 项目壁垒
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: entrepreneur
   module: 项目壁垒
   course_id: yt-entrepreneur-barriers
   course_type: method
   level: advanced
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-  series: false
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-estimated_tokens: 1845
-reviewed_by: 黄药师
-review_date: '2026-05-08'
 ---
 
 # 项目壁垒

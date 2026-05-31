@@ -1,18 +1,12 @@
 ---
-title: "Business Research Skill — OSCAR 13武器体系 Claude Code 实现"
-type: concept
-status: enriched
-domain: ['yitang']
-source_refs: []
-created_at: "2026-05-04"
-updated_at: "2026-05-04"
-related:
 id: business-research-skill-oscar-13-weapon-system
-  - "[[一堂调研武器库13招]]"
-  - "[[一堂调研行动营-ai辅助系统式调研方法论]]"
-  - "[[一堂-调研行动营启动_原文润色]]"
-  - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
-  - "[[kdo-protocol]]"
+created_at: 2026-05-04
+domain:
+  - "['yitang']"
+review_date: 2026-05-04
+reviewed_by: 黄药师
+source_refs: []
+status: enriched
 tags:
   - "#yitang"
   - "#research"
@@ -20,9 +14,10 @@ tags:
   - "#skill"
   - "#methodology"
   - "#oscar"
+title: Business Research Skill — OSCAR 13武器体系 Claude Code 实现
 trust_level: high
-reviewed_by: "黄药师"
-review_date: "2026-05-04"
+type: concept
+updated_at: 2026-05-04
 ---
 
 # Business Research Skill — OSCAR 13武器体系 Claude Code 实现

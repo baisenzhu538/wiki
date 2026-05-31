@@ -1,20 +1,12 @@
 ---
-title: "AI+单元模型口述（蒋老师/磊哥）"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260525_92ea6173"]
-created_at: "2026-05-25T05:14:02+00:00"
-updated_at: "2026-05-25"
-domain:
 id: ai单元模型口述蒋老师
-  - entrepreneur
-  - ai
-  - yitang
-language: zh-CN
-difficulty: intermediate
 confidence: 0.85
-speaker: 蒋老师（磊哥），一堂合伙人、教练
+created_at: 2026-05-25
+difficulty: intermediate
+domain:
+  - healthcare
 event: 一堂AI落地行动营第三期（最后一期内测），2026-05
+language: zh-CN
 related:
   - yt-unit-model-overview
   - yt-unit-model-construction
@@ -23,12 +15,19 @@ related:
   - yt-model-dual-triangle-competitiveness
   - yt-decision-y-model
   - ai时代判断力口述-3
+source_refs:
+  - src_20260525_92ea6173
+speaker: 蒋老师（磊哥），一堂合伙人、教练
+status: enriched
 tags:
   - "#entrepreneur"
   - "#ai"
   - "#unit-model"
   - "#yitang"
   - "#business-analysis"
+title: AI+单元模型口述（蒋老师/磊哥）
+type: concept
+updated_at: 2026-05-25
 ---
 
 # AI+单元模型口述（蒋老师/磊哥）

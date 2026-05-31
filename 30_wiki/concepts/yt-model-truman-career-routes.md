@@ -1,53 +1,41 @@
 ---
 id: yt-model-truman-career-routes
+component_of: []
+confidence: 0.85
+created_at: 2026-05-11
+difficulty: advanced
+domain:
+  - yitang
+estimated_tokens: 2777
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - X vs Y 七维对比
+  - 与十年爬山地图的对应
+  - 两条职业成长路线
+  - 两条路线的底层逻辑
+  - 关键选择框架
+  - 楚门的选择
+  - 楚门的选择：两条职业成长路线 X vs Y
+related:
+  level: advanced
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/truman的选择：两条职业成长路线.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#career-planning"
+  - "#pan-product-design"
+  - "#deliberate-practice"
 title: 楚门的选择：两条职业成长路线 X vs Y
 type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: advanced
-confidence: 0.85
-prerequisites: []
-component_of: []
-related:
-  - yt-model-deliberate-practice-growth
-  - yt-model-pan-product-36-strategies
-  - yt-model-pan-product-climbing-map
-  - yt-model-truman-five-step-growth
-  - yt-personal-product-design
-contradicts: []
-query_triggers:
-- X vs Y 七维对比
-- 与十年爬山地图的对应
-- 两条职业成长路线
-- 两条路线的底层逻辑
-- 关键选择框架
-- 楚门的选择
-- 楚门的选择：两条职业成长路线 X vs Y
-tags:
-- '#yitang'
-- '#career-planning'
-- '#pan-product-design'
-- '#deliberate-practice'
 yitang:
   map: personal
   module: 个人修炼
   course_type: framework
-related:
-  - yt-model-deliberate-practice-growth
-  - yt-model-pan-product-36-strategies
-  - yt-model-pan-product-climbing-map
-  - yt-model-truman-five-step-growth
-  - yt-personal-product-design
-  level: advanced
-source_refs:
-- 10_raw/assets/yitang/truman的选择：两条职业成长路线.png
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 2777
-reviewed_by: 黄药师
 ---
 
 # 楚门的选择：两条职业成长路线 X vs Y

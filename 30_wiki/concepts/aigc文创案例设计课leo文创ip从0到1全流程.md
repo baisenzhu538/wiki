@@ -1,11 +1,16 @@
 ---
-title: "AIGC文创案例设计课：Leo文创IP从0到1全流程"
-type: "concept"
-status: "draft"
-source_refs: ["src_20260528_4277c6be"]
-created_at: "2026-05-28T14:55:38+00:00"
-updated_at: "2026-05-28T14:55:38+00:00"
-tags: [design, aigc, cultural-creative, ip, case-study]
+id: aigc文创案例设计课leo文创ip从0到1全流程
+created_at: 2026-05-28
+domain:
+  - ai-saas
+source_refs:
+  - src_20260528_4277c6be
+status: draft
+tags:
+  - "[design, aigc, cultural-creative, ip, case-study]"
+title: AIGC文创案例设计课：Leo文创IP从0到1全流程
+type: concept
+updated_at: 2026-05-28
 ---
 
 # AIGC文创案例设计课：Leo文创IP从0到1全流程

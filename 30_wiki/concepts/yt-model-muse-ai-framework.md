@@ -1,46 +1,40 @@
 ---
 id: yt-model-muse-ai-framework
+component_of: []
+confidence: 0.85
+created_at: 2026-05-07
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 1476
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - MUSE 人工智能全景图
+  - 人工智能全景图
+  - 关联卡片
+  - 四层结构
+  - 核心逻辑
+  - 版本信息
+  - 知识体系定位
+related:
+  level: foundational
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+  - 10_raw/assets/yitang/一堂-个人修炼-全景图MUSE模型.jpg
+status: enriched
+tags:
+  - "#yitang"
+  - "#ai-model"
 title: MUSE 人工智能全景图
 type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-08
 version: 1
-difficulty: foundational
-confidence: 0.85
-prerequisites: []
-component_of: []
-related:
-  - yt-model-dual-triangle-competitiveness
-  - yt-personal-ai-capability
-contradicts: []
-query_triggers:
-- MUSE 人工智能全景图
-- 人工智能全景图
-- 关联卡片
-- 四层结构
-- 核心逻辑
-- 版本信息
-- 知识体系定位
-tags:
-- '#yitang'
-- '#ai-model'
 yitang:
   map: personal
   module: AI 思维模型
   course_type: model
-related:
-  - yt-model-dual-triangle-competitiveness
-  - yt-personal-ai-capability
-  level: foundational
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂-个人修炼-全景图MUSE模型.jpg
-created_at: '2026-05-07'
-updated_at: '2026-05-08'
-estimated_tokens: 1476
-reviewed_by: 黄药师
 ---
 
 # MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)

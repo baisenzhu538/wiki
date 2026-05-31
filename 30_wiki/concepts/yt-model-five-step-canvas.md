@@ -1,53 +1,41 @@
 ---
 id: yt-model-five-step-canvas
+component_of: []
+confidence: 0.85
+created_at: 2026-05-11
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 2531
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 两个画布的联合使用
+  - 五步法画布
+  - 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
+  - 产品内核画布
+  - 产品内核画布（三栏结构）
+  - 从假设到壁垒的实操工具
+related:
+  level: intermediate
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/一堂五步法画布.png
+  - 10_raw/assets/yitang/一堂五步法-产品内核画布.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#entrepreneurship"
+  - "#five-step-method"
+  - "#product-core"
 title: 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
 type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: intermediate
-confidence: 0.85
-prerequisites: []
-component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-lean-validation
-  - yt-entrepreneur-product-core
-  - yt-model-product-core-metrics
-contradicts: []
-query_triggers:
-- 两个画布的联合使用
-- 五步法画布
-- 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
-- 产品内核画布
-- 产品内核画布（三栏结构）
-- 从假设到壁垒的实操工具
-tags:
-- '#yitang'
-- '#entrepreneurship'
-- '#five-step-method'
-- '#product-core'
 yitang:
   map: entrepreneur
   module: 创业必修
   course_type: framework
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-lean-validation
-  - yt-entrepreneur-product-core
-  - yt-model-product-core-metrics
-  level: intermediate
-source_refs:
-- 10_raw/assets/yitang/一堂五步法画布.png
-- 10_raw/assets/yitang/一堂五步法-产品内核画布.png
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 2531
-reviewed_by: 黄药师
 ---
 
 # 五步法画布 × 产品内核画布：从假设到壁垒的实操工具

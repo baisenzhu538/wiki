@@ -1,51 +1,50 @@
 ---
 id: yt-panproduct-execution-low-cost-mvp
+component_of:
+  - yt-model-pan-product-execution-toolkit
+confidence: 0.80
+created_at: 2026-05-11
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 1131
+language: zh-CN
+prerequisites:
+  - yt-composite-pan-product-methodology
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
+query_triggers:
+  - 产品落地
+  - 产品迭代
+  - 低成本测试MVP
+  - 执行方法
+  - 泛产品设计
+  - 泛产品设计·落地卡片：低成本测试MVP
+  - 落地卡片
+  - 落地执行
+related:
+  - yt-panproduct-execution-10x-validation
+  - yt-panproduct-execution-hypothesis-decomposition
+  - yt-model-personal-pitch-toolkit
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/泛产品设计-落地卡片-低成本测试MVP.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#pan-product-design"
+  - "#execution"
+  - "#mvp"
+  - "#lean"
 title: 泛产品设计·落地卡片：低成本测试MVP
 type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: foundational
-confidence: 0.8
-prerequisites:
-- yt-composite-pan-product-methodology
-- yt-model-pan-product-demand-toolkit
-- yt-model-pan-product-aesthetic-toolkit
-component_of:
-- yt-model-pan-product-execution-toolkit
-related:
-- yt-panproduct-execution-10x-validation
-- yt-panproduct-execution-hypothesis-decomposition
-- yt-model-personal-pitch-toolkit
-contradicts: []
-query_triggers:
-- 产品落地
-- 产品迭代
-- 低成本测试MVP
-- 执行方法
-- 泛产品设计
-- 泛产品设计·落地卡片：低成本测试MVP
-- 落地卡片
-- 落地执行
-tags:
-- '#yitang'
-- '#pan-product-design'
-- '#execution'
-- '#mvp'
-- '#lean'
 yitang:
   map: personal
   module: 泛产品设计
   course_type: card
   level: foundational
-source_refs:
-- 10_raw/assets/yitang/泛产品设计-落地卡片-低成本测试MVP.png
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 1131
-reviewed_by: 黄药师
 ---
 
 # 低成本测试MVP：用实验思维10倍速验证假设

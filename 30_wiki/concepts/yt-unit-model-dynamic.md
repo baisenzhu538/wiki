@@ -1,53 +1,52 @@
 ---
 id: yt-unit-model-dynamic
-title: "动态单元模型：规模变量、拐点预判与规模经济对抗"
-type: tool
-status: draft
+component_of: []
+confidence: 0.85
+created_at: 2026-05-24
+difficulty: advanced
 domain:
   - entrepreneur
   - master
+estimated_tokens: 2800
 language: zh-CN
-version: 1
-difficulty: advanced
-confidence: 0.85
 prerequisites:
   - yt-unit-model-overview
   - yt-unit-model-construction
   - yt-unit-model-benchmark
-component_of: []
+query_triggers:
+  - 动态单元模型
+  - 规模经济对抗
+  - 拐点预判
+  - 规模变量
+  - 单元模型动态预测
+  - 规模化盈利
 related:
   - yt-unit-model-ladder
   - yt-unit-model-ai-assisted
   - yt-decision-forecasting-accuracy
   - yt-decision-system1-system2
-contradicts: []
-query_triggers:
-  - "动态单元模型"
-  - "规模经济对抗"
-  - "拐点预判"
-  - "规模变量"
-  - "单元模型动态预测"
-  - "规模化盈利"
+reviewed_by: 
+source_refs:
+  - src_20260524_6b5a4c3d-一堂-单元模型04口述
+  - src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述
+status: draft
 tags:
-  - '#yitang'
-  - '#entrepreneur'
-  - '#tool'
-  - '#unit-model'
-  - '#dynamic-modeling'
-  - '#scaling'
+  - "#yitang"
+  - "#entrepreneur"
+  - "#tool"
+  - "#unit-model"
+  - "#dynamic-modeling"
+  - "#scaling"
+title: 动态单元模型：规模变量、拐点预判与规模经济对抗
 trust_level: high
+type: tool
+updated_at: 2026-05-24
+version: 1
 yitang:
   map: entrepreneur
-  module: "创业必修"
+  module: 创业必修
   course_type: tool
   level: advanced
-source_refs:
-  - "src_20260524_6b5a4c3d-一堂-单元模型04口述"
-  - "src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述"
-created_at: "2026-05-24"
-updated_at: "2026-05-24"
-estimated_tokens: 2800
-reviewed_by: ""
 ---
 
 # 动态单元模型：规模变量、拐点预判与规模经济对抗

@@ -1,11 +1,14 @@
 ---
-title: "OCR: 泛产品设计-用户卡片-行业分析画布"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_78d5f0a4"]
-created_at: "2026-05-21T20:13:59+00:00"
-updated_at: "2026-05-22T07:40:17+00:00"
 id: ocr-泛产品设计-用户卡片-行业分析画布
+created_at: 2026-05-21
+domain:
+  - ai-saas
+source_refs:
+  - src_20260522_78d5f0a4
+status: enriched
+title: "OCR: 泛产品设计-用户卡片-行业分析画布"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

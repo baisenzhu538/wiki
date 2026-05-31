@@ -1,11 +1,14 @@
 ---
-title: "OCR: ocr_screenshot2"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_4fa28ed8"]
-created_at: "2026-05-21T20:13:51+00:00"
-updated_at: "2026-05-22T06:48:50+00:00"
 id: ocr-ocr_screenshot2
+created_at: 2026-05-21
+domain:
+  - healthcare
+source_refs:
+  - src_20260522_4fa28ed8
+status: enriched
+title: "OCR: ocr_screenshot2"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

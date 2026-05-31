@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-科学决策-ROI决策评估画布-案例04"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_94699fa0"]
-created_at: "2026-05-21T20:13:54+00:00"
-updated_at: "2026-05-22T07:08:00+00:00"
 id: ocr-一堂-科学决策-roi决策评估画布-案例04
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_94699fa0
+status: enriched
+title: "OCR: 一堂-科学决策-ROI决策评估画布-案例04"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

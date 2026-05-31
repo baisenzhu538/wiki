@@ -1,55 +1,45 @@
 ---
 id: yt-entrepreneur-truth-seeking
-title: 实事求是
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1817
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 实事求是
-- 创业求真
-- 红队蓝队辩论
-- 魔鬼代言人
-- 反面证据搜索
-- 自我欺骗识别
-- 创业客观分析
-- 认知偏差纠正
-- 事实与愿望区分
-- 数据逻辑决策
+  - 实事求是
+  - 创业求真
+  - 红队蓝队辩论
+  - 魔鬼代言人
+  - 反面证据搜索
+  - 自我欺骗识别
+  - 创业客观分析
+  - 认知偏差纠正
+  - 事实与愿望区分
+  - 数据逻辑决策
+related:
+  series: false
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 实事求是
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: entrepreneur
   module: 实事求是
   course_id: yt-entrepreneur-truth-seeking
   course_type: method
   level: foundational
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-  series: false
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-estimated_tokens: 1817
-reviewed_by: 黄药师
-review_date: '2026-05-08'
 ---
 
 # 实事求是

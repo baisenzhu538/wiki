@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-地图-管理地图"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_af67f9b0"]
-created_at: "2026-05-21T20:13:53+00:00"
-updated_at: "2026-05-22T07:03:41+00:00"
 id: ocr-一堂-地图-管理地图
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_af67f9b0
+status: enriched
+title: "OCR: 一堂-地图-管理地图"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

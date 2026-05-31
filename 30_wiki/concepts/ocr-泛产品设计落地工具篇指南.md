@@ -1,11 +1,14 @@
 ---
-title: "OCR: 泛产品设计落地工具篇指南"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_8bdb2970"]
-created_at: "2026-05-21T20:14:00+00:00"
-updated_at: "2026-05-22T07:52:05+00:00"
 id: ocr-泛产品设计落地工具篇指南
+created_at: 2026-05-21
+domain:
+  - ai-saas
+source_refs:
+  - src_20260522_8bdb2970
+status: enriched
+title: "OCR: 泛产品设计落地工具篇指南"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

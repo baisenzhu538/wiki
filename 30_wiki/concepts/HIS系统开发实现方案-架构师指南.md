@@ -1,11 +1,14 @@
 ---
-title: "HIS系统开发实现方案-架构师指南"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260503_1a1f0312"]
-created_at: "2026-05-03T13:36:55+00:00"
-updated_at: "2026-05-03T13:36:55+00:00"
 id: HIS系统开发实现方案-架构师指南
+created_at: 2026-05-03
+domain:
+  - healthcare
+source_refs:
+  - src_20260503_1a1f0312
+status: enriched
+title: HIS系统开发实现方案-架构师指南
+type: concept
+updated_at: 2026-05-03
 ---
 
 # HIS系统开发实现方案-架构师指南

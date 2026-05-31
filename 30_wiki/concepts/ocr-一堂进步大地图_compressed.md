@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂进步大地图_compressed"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_2250865e"]
-created_at: "2026-05-21T20:13:57+00:00"
-updated_at: "2026-05-22T07:28:58+00:00"
 id: ocr-一堂进步大地图_compressed
+created_at: 2026-05-21
+domain:
+  - healthcare
+source_refs:
+  - src_20260522_2250865e
+status: enriched
+title: "OCR: 一堂进步大地图_compressed"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

@@ -1,11 +1,16 @@
 ---
-title: "AIGC设计基础01：AI生图原理与提示词基本功"
-type: "concept"
-status: "draft"
-source_refs: ["src_20260528_2ba8539f"]
-created_at: "2026-05-28T14:55:38+00:00"
-updated_at: "2026-05-28T14:55:38+00:00"
-tags: [design, aigc, prompt-engineering]
+id: aigc设计基础01ai生图原理与提示词基本功
+created_at: 2026-05-28
+domain:
+  - ai-saas
+source_refs:
+  - src_20260528_2ba8539f
+status: draft
+tags:
+  - "[design, aigc, prompt-engineering]"
+title: AIGC设计基础01：AI生图原理与提示词基本功
+type: concept
+updated_at: 2026-05-28
 ---
 
 # AIGC设计基础01：AI生图原理与提示词基本功

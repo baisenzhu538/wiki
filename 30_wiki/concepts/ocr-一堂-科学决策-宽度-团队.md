@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-科学决策-宽度-团队"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_97242832"]
-created_at: "2026-05-21T20:13:54+00:00"
-updated_at: "2026-05-22T07:12:35+00:00"
 id: ocr-一堂-科学决策-宽度-团队
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_97242832
+status: enriched
+title: "OCR: 一堂-科学决策-宽度-团队"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

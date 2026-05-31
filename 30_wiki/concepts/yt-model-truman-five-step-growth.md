@@ -1,53 +1,43 @@
 ---
 id: yt-model-truman-five-step-growth
+component_of: []
+confidence: 0.85
+created_at: 2026-05-11
+difficulty: advanced
+domain:
+  - yitang
+estimated_tokens: 2678
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - Truman的个人成长五步法
+  - Truman的个人成长五步法：用一页纸解释全部人生规划
+  - 两种人生红点类型
+  - 五步法与创业五步法的对应
+  - 五要素模型
+  - 核心逻辑
+  - 用一页纸解释全部人生规划
+related:
+  level: advanced
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/Truman的个人成长五步法.png
+  - "00_inbox/Truman的个人成长五步法.png  # 源图像，经 deep-image-parser 深度解析"
+  - "00_inbox/Truman的个人成长五步法_paddle_ocr.txt  # PaddleOCR基线对比"
+status: enriched
+tags:
+  - "#yitang"
+  - "#personal-growth"
+  - "#five-step-method"
+  - "#career-planning"
 title: Truman的个人成长五步法：用一页纸解释全部人生规划
 type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-22
 version: 1
-difficulty: advanced
-confidence: 0.85
-prerequisites: []
-component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-model-deliberate-practice-growth
-  - yt-model-personal-map
-  - yt-personal-deliberate-practice
-contradicts: []
-query_triggers:
-- Truman的个人成长五步法
-- Truman的个人成长五步法：用一页纸解释全部人生规划
-- 两种人生红点类型
-- 五步法与创业五步法的对应
-- 五要素模型
-- 核心逻辑
-- 用一页纸解释全部人生规划
-tags:
-- '#yitang'
-- '#personal-growth'
-- '#five-step-method'
-- '#career-planning'
 yitang:
   map: personal
   module: 个人修炼
   course_type: framework
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-model-deliberate-practice-growth
-  - yt-model-personal-map
-  - yt-personal-deliberate-practice
-  level: advanced
-source_refs:
-- 10_raw/assets/yitang/Truman的个人成长五步法.png
-- 00_inbox/Truman的个人成长五步法.png  # 源图像，经 deep-image-parser 深度解析
-- 00_inbox/Truman的个人成长五步法_paddle_ocr.txt  # PaddleOCR基线对比
-created_at: '2026-05-11'
-updated_at: '2026-05-22'
-estimated_tokens: 2678
-reviewed_by: 黄药师
 ---
 
 # Truman的个人成长五步法：用一页纸解释全部人生规划

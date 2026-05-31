@@ -1,11 +1,14 @@
 ---
-title: "OCR: 泛产品设计者的自我修养"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_8995f40a"]
-created_at: "2026-05-21T20:14:00+00:00"
-updated_at: "2026-05-22T07:51:08+00:00"
 id: ocr-泛产品设计者的自我修养
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_8995f40a
+status: enriched
+title: "OCR: 泛产品设计者的自我修养"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

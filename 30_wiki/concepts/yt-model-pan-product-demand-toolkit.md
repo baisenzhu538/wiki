@@ -1,43 +1,46 @@
 ---
-id: "yt-model-pan-product-demand-toolkit"
-title: "泛产品设计·需求工具箱（13张卡牌）"
-type: "framework"
-status: "enriched"
-domain: "yitang"
-language: "zh-CN"
-version: 1
-difficulty: "intermediate"
+id: yt-model-pan-product-demand-toolkit
+component_of:
+  - yt-composite-pan-product-methodology
 confidence: 0.85
-
-prerequisites: ["yt-composite-pan-product-methodology"]
-component_of: ["yt-composite-pan-product-methodology"]
-related:
-  - "yt-model-pan-product-36-strategies"
-  - "yt-model-pan-product-aesthetic-toolkit"
-  - "yt-model-pan-product-execution-toolkit"
-  - "yt-entrepreneur-five-step-method"
-contradicts: []
-
-query_triggers:
-  - "需求分析"
-  - "用户需求"
-  - "需求工具箱"
-  - "怎么理解用户需求"
-  - "用户场景分析"
-  - "需求洞察方法"
-tags: ["需求分析", "工具箱", "一堂", "用户研究", "泛产品设计"]
-
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计-需求工具箱指南.png"
-  - "10_raw/sources/一堂-个人修炼-泛产品设计概念口述版.md"
-
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-review_by: "2026-11-11"
-superseded_by: ""
-deprecation_reason: ""
+created_at: 2026-05-11
+deprecation_reason: 
+difficulty: intermediate
+domain:
+  - yitang
 estimated_tokens: 1800
-reviewed_by: "黄药师"
+language: zh-CN
+prerequisites:
+  - yt-composite-pan-product-methodology
+query_triggers:
+  - 需求分析
+  - 用户需求
+  - 需求工具箱
+  - 怎么理解用户需求
+  - 用户场景分析
+  - 需求洞察方法
+related:
+  - yt-model-pan-product-36-strategies
+  - yt-model-pan-product-aesthetic-toolkit
+  - yt-model-pan-product-execution-toolkit
+  - yt-entrepreneur-five-step-method
+review_by: 2026-11-11
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/泛产品设计-需求工具箱指南.png
+  - 10_raw/sources/一堂-个人修炼-泛产品设计概念口述版.md
+status: enriched
+superseded_by: 
+tags:
+  - 需求分析
+  - 工具箱
+  - 一堂
+  - 用户研究
+  - 泛产品设计
+title: 泛产品设计·需求工具箱（13张卡牌）
+type: framework
+updated_at: 2026-05-11
+version: 1
 ---
 
 ## Claims

@@ -1,15 +1,17 @@
 ---
-title: "EC工业化规范手册 v2.8.0"
-type: "concept"
-status: "enriched"
-trust_level: "high"
-domain: ["healthcare"]
-source_refs: ["src_20260503_feab72b2"]
-created_at: "2026-05-03T03:41:09+00:00"
-updated_at: "2026-05-03"
-reviewed_by: "Claude"
-review_date: "2026-05-03"
 id: ec工业化规范手册-v2.8.0
+created_at: 2026-05-03
+domain:
+  - healthcare
+review_date: 2026-05-03
+reviewed_by: Claude
+source_refs:
+  - src_20260503_feab72b2
+status: enriched
+title: EC工业化规范手册 v2.8.0
+trust_level: high
+type: concept
+updated_at: 2026-05-03
 ---
 
 # EC工业化规范手册 v2.8.0

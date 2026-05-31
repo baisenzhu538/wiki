@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-管理必修-课程清单"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_4c9a911f"]
-created_at: "2026-05-21T20:13:56+00:00"
-updated_at: "2026-05-22T07:19:29+00:00"
 id: ocr-一堂-管理必修-课程清单
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_4c9a911f
+status: enriched
+title: "OCR: 一堂-管理必修-课程清单"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

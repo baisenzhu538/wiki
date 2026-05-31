@@ -1,46 +1,51 @@
 ---
-id: "yt-model-pan-product-execution-toolkit"
-title: "泛产品设计·落地工具箱（19张卡牌）"
-type: "framework"
-status: "enriched"
-domain: "yitang"
-language: "zh-CN"
-version: 1
-difficulty: "intermediate"
+id: yt-model-pan-product-execution-toolkit
+component_of:
+  - yt-composite-pan-product-methodology
 confidence: 0.85
-
-prerequisites: ["yt-composite-pan-product-methodology", "yt-model-pan-product-demand-toolkit", "yt-model-pan-product-aesthetic-toolkit"]
-component_of: ["yt-composite-pan-product-methodology"]
-related:
-  - "yt-model-pan-product-36-strategies"
-  - "yt-model-pan-product-demand-toolkit"
-  - "yt-model-pan-product-aesthetic-toolkit"
-  - "yt-model-y-organization"
-  - "yt-entrepreneur-lean-validation"
-contradicts: []
-
-query_triggers:
-  - "产品落地"
-  - "执行落地"
-  - "落地工具箱"
-  - "怎么打磨产品"
-  - "产品迭代方法"
-  - "如何做好产品执行"
-  - "产品交付方法论"
-tags: ["落地执行", "迭代", "工具箱", "一堂", "泛产品设计"]
-
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计落地工具篇指南.png"
-  - "10_raw/assets/yitang/泛产品设计-落地卡片-内核和边界.png"
-  - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
-
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-review_by: "2026-11-11"
-superseded_by: ""
-deprecation_reason: ""
+created_at: 2026-05-11
+deprecation_reason: 
+difficulty: intermediate
+domain:
+  - yitang
 estimated_tokens: 1800
-reviewed_by: "黄药师"
+language: zh-CN
+prerequisites:
+  - yt-composite-pan-product-methodology
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
+query_triggers:
+  - 产品落地
+  - 执行落地
+  - 落地工具箱
+  - 怎么打磨产品
+  - 产品迭代方法
+  - 如何做好产品执行
+  - 产品交付方法论
+related:
+  - yt-model-pan-product-36-strategies
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
+  - yt-model-y-organization
+  - yt-entrepreneur-lean-validation
+review_by: 2026-11-11
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/泛产品设计落地工具篇指南.png
+  - 10_raw/assets/yitang/泛产品设计-落地卡片-内核和边界.png
+  - 10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md
+status: enriched
+superseded_by: 
+tags:
+  - 落地执行
+  - 迭代
+  - 工具箱
+  - 一堂
+  - 泛产品设计
+title: 泛产品设计·落地工具箱（19张卡牌）
+type: framework
+updated_at: 2026-05-11
+version: 1
 ---
 
 ## Claims

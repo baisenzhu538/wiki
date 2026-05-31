@@ -1,13 +1,12 @@
 ---
+id: 诊所o2o外卖平台业务深度调研报告
+created_at: 2026-04-30
+domain:
+  - "['healthcare']"
+status: enriched
 title: 诊所O2O外卖平台业务深度调研报告
 type: concept
-status: enriched
-domain: ['healthcare']
-source_refs:
-id: 诊所o2o外卖平台业务深度调研报告
-  - src_20260501_dfa19257
-created_at: 2026-04-30T18:43:29+00:00
-updated_at: 2026-05-03T12:00:00+00:00
+updated_at: 2026-05-03
 ---
 
 # 诊所O2O外卖平台业务深度调研报告

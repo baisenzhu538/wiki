@@ -1,47 +1,50 @@
 ---
-id: "yt-model-pan-product-36-strategies"
-title: "泛产品设计36计·全套官方工具箱"
-type: "framework"
-status: "enriched"
-domain: "yitang"
-language: "zh-CN"
-version: 1
-difficulty: "intermediate"
+id: yt-model-pan-product-36-strategies
+component_of:
+  - yt-composite-pan-product-methodology
 confidence: 0.90
-
-prerequisites: ["yt-composite-pan-product-methodology"]
-component_of: ["yt-composite-pan-product-methodology"]
-related:
-  - "yt-model-pan-product-three-virtues"
-  - "yt-model-pan-product-climbing-map"
-  - "yt-model-pan-product-demand-toolkit"
-  - "yt-model-pan-product-aesthetic-toolkit"
-  - "yt-model-pan-product-execution-toolkit"
-  - "yt-model-ipo-learning-strategy"
-contradicts: []
-
-query_triggers:
-  - "36计"
-  - "泛产品设计工具箱"
-  - "36张卡牌"
-  - "产品设计工具全集"
-  - "泛产品设计工具体系"
-  - "36计怎么用"
-tags: ["36计", "工具箱", "一堂", "泛产品设计", "产品设计"]
-
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计36计-全套地图.png"
-  - "10_raw/assets/yitang/泛产品设计-需求工具箱指南.png"
-  - "10_raw/assets/yitang/泛产品设计-审美工具箱指南.png"
-  - "10_raw/assets/yitang/泛产品设计落地工具篇指南.png"
-
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-review_by: "2026-11-11"
-superseded_by: ""
-deprecation_reason: ""
+created_at: 2026-05-11
+deprecation_reason: 
+difficulty: intermediate
+domain:
+  - yitang
 estimated_tokens: 2200
-reviewed_by: "黄药师"
+language: zh-CN
+prerequisites:
+  - yt-composite-pan-product-methodology
+query_triggers:
+  - 36计
+  - 泛产品设计工具箱
+  - 36张卡牌
+  - 产品设计工具全集
+  - 泛产品设计工具体系
+  - 36计怎么用
+related:
+  - yt-model-pan-product-three-virtues
+  - yt-model-pan-product-climbing-map
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
+  - yt-model-pan-product-execution-toolkit
+  - yt-model-ipo-learning-strategy
+review_by: 2026-11-11
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/泛产品设计36计-全套地图.png
+  - 10_raw/assets/yitang/泛产品设计-需求工具箱指南.png
+  - 10_raw/assets/yitang/泛产品设计-审美工具箱指南.png
+  - 10_raw/assets/yitang/泛产品设计落地工具篇指南.png
+status: enriched
+superseded_by: 
+tags:
+  - 36计
+  - 工具箱
+  - 一堂
+  - 泛产品设计
+  - 产品设计
+title: 泛产品设计36计·全套官方工具箱
+type: framework
+updated_at: 2026-05-11
+version: 1
 ---
 
 ## Claims

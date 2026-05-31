@@ -1,11 +1,14 @@
 ---
-title: "OCR: screenshot2"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_961e1d68"]
-created_at: "2026-05-21T20:13:51+00:00"
-updated_at: "2026-05-22T06:50:02+00:00"
 id: ocr-screenshot2
+created_at: 2026-05-21
+domain:
+  - ai-saas
+source_refs:
+  - src_20260522_961e1d68
+status: enriched
+title: "OCR: screenshot2"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

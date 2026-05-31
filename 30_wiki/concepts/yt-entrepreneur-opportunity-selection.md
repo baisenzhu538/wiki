@@ -1,55 +1,45 @@
 ---
 id: yt-entrepreneur-opportunity-selection
-title: 机会选择
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1849
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 机会选择
-- 创业机会评估
-- 机会评估矩阵
-- 创业方向筛选
-- 市场机会判断
-- 伪机会排除
-- 时机窗口判断
-- 创业赛道选择
-- 竞争强度分析
-- 市场大小评估
+  - 机会选择
+  - 创业机会评估
+  - 机会评估矩阵
+  - 创业方向筛选
+  - 市场机会判断
+  - 伪机会排除
+  - 时机窗口判断
+  - 创业赛道选择
+  - 竞争强度分析
+  - 市场大小评估
+related:
+  series: false
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 机会选择
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: entrepreneur
   module: 机会选择
   course_id: yt-entrepreneur-opportunity-selection
   course_type: method
   level: core
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-  series: false
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-estimated_tokens: 1849
-reviewed_by: 黄药师
-review_date: '2026-05-08'
 ---
 
 # 机会选择

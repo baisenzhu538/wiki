@@ -1,55 +1,45 @@
 ---
 id: yt-entrepreneur-research-cognition
-title: 调研认知
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1821
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 调研认知
-- 创业调研方法
-- 调研黑客
-- 调研武器库
-- OSCAR框架
-- 行业调研
-- 用户访谈技巧
-- 专家访谈方法
-- 竞争情报搜集
-- 上市报告分析
+  - 调研认知
+  - 创业调研方法
+  - 调研黑客
+  - 调研武器库
+  - OSCAR框架
+  - 行业调研
+  - 用户访谈技巧
+  - 专家访谈方法
+  - 竞争情报搜集
+  - 上市报告分析
+related:
+  series: true
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 调研认知
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: entrepreneur
   module: 调研认知
   course_id: yt-entrepreneur-research-cognition
   course_type: method
   level: core
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-  series: true
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-estimated_tokens: 1821
-reviewed_by: 黄药师
-review_date: '2026-05-08'
 ---
 
 # 调研认知

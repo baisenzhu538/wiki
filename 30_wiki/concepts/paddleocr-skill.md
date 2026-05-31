@@ -1,25 +1,22 @@
 ---
-title: "PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill"
-type: concept
-status: enriched
-domain: ['master']
-source_refs: []
-created_at: "2026-05-07"
-updated_at: "2026-05-07"
-related:
 id: paddleocr-skill
-  - "[[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]"
-  - "[[tinyfish-agentic-web-infrastructure]]"
-  - "[[kdo-protocol]]"
+created_at: 2026-05-07
+domain:
+  - "['master']"
+review_date: 2026-05-07
+reviewed_by: 黄药师
+source_refs: []
+status: enriched
 tags:
   - "#skill"
   - "#ocr"
   - "#tool"
   - "#paddleocr"
   - "#onnx"
+title: PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill
 trust_level: high
-reviewed_by: "黄药师"
-review_date: "2026-05-07"
+type: concept
+updated_at: 2026-05-07
 ---
 
 # PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill

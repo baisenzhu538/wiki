@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-个人修炼-讲香十指模型-超级武器库"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_ad373a9b"]
-created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-22T06:59:16+00:00"
 id: ocr-一堂-个人修炼-讲香十指模型-超级武器库
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_ad373a9b
+status: enriched
+title: "OCR: 一堂-个人修炼-讲香十指模型-超级武器库"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

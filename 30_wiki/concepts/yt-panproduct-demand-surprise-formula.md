@@ -1,48 +1,47 @@
 ---
 id: yt-panproduct-demand-surprise-formula
+component_of:
+  - yt-model-pan-product-demand-toolkit
+confidence: 0.80
+created_at: 2026-05-11
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1127
+language: zh-CN
+prerequisites:
+  - yt-composite-pan-product-methodology
+query_triggers:
+  - 惊喜公式
+  - 泛产品设计
+  - 泛产品设计·用户卡片：惊喜公式
+  - 用户卡片
+  - 用户研究
+  - 用户需求
+  - 需求分析
+  - 需求洞察
+related:
+  - yt-panproduct-demand-peak-end-rule
+  - yt-model-product-excellence
+  - yt-panproduct-aesthetic-imagination
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/泛产品设计-用户卡片-惊喜公式.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#pan-product-design"
+  - "#user-experience"
+  - "#surprise"
 title: 泛产品设计·用户卡片：惊喜公式
 type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites:
-- yt-composite-pan-product-methodology
-component_of:
-- yt-model-pan-product-demand-toolkit
-related:
-- yt-panproduct-demand-peak-end-rule
-- yt-model-product-excellence
-- yt-panproduct-aesthetic-imagination
-contradicts: []
-query_triggers:
-- 惊喜公式
-- 泛产品设计
-- 泛产品设计·用户卡片：惊喜公式
-- 用户卡片
-- 用户研究
-- 用户需求
-- 需求分析
-- 需求洞察
-tags:
-- '#yitang'
-- '#pan-product-design'
-- '#user-experience'
-- '#surprise'
 yitang:
   map: personal
   module: 泛产品设计
   course_type: card
   level: intermediate
-source_refs:
-- 10_raw/assets/yitang/泛产品设计-用户卡片-惊喜公式.png
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 1127
-reviewed_by: 黄药师
 ---
 
 # 惊喜公式：理解惊喜的本质

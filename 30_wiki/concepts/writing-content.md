@@ -1,11 +1,14 @@
 ---
-title: "Writing Content"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_5819659f"]
-created_at: "2026-05-21T20:14:01+00:00"
-updated_at: "2026-05-22T07:56:09+00:00"
 id: writing-content
+created_at: 2026-05-21
+domain:
+  - ai-saas
+source_refs:
+  - src_20260522_5819659f
+status: enriched
+title: Writing Content
+type: concept
+updated_at: 2026-05-22
 ---
 
 

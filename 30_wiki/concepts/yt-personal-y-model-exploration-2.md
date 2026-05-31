@@ -1,53 +1,43 @@
 ---
 id: yt-personal-y-model-exploration-2
+component_of: []
+confidence: 0.80
+created_at: 2026-05-11
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 1885
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 牵"的深层含义
+  - 12345口诀
+  - Y模型探索营2
+  - Y模型探索营2：五次质变与科学推演
+  - 五次质变
+  - 五次质变与科学推演
+  - 关键区分
+  - 解释
+  - 预测
+related:
+  level: advanced
+reviewed_by: 黄药师
+source_refs:
+  - 00_inbox/一堂-个人修身-Y模型探索营2口述版.md
+status: enriched
+tags:
+  - "#yitang"
+  - "#y-model"
+  - "#scientific-method"
+  - "#cognitive-leap"
 title: Y模型探索营2：五次质变与科学推演
 type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: foundational
-confidence: 0.8
-prerequisites: []
-component_of: []
-related:
-  - yt-entrepreneur-scientific-method
-  - yt-model-scientific-questioning-map
-  - yt-model-y-organization
-  - yt-personal-y-model-practice
-contradicts: []
-query_triggers:
-- '"牵"的深层含义'
-- 12345口诀
-- Y模型探索营2
-- Y模型探索营2：五次质变与科学推演
-- 五次质变
-- 五次质变与科学推演
-- 关键区分
-- 解释
-- 预测
-tags:
-- '#yitang'
-- '#y-model'
-- '#scientific-method'
-- '#cognitive-leap'
 yitang:
   map: personal
   module: 个人修炼
   course_type: explore_camp
-related:
-  - yt-entrepreneur-scientific-method
-  - yt-model-scientific-questioning-map
-  - yt-model-y-organization
-  - yt-personal-y-model-practice
-  level: advanced
-source_refs:
-- 00_inbox/一堂-个人修身-Y模型探索营2口述版.md
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 1885
-reviewed_by: 黄药师
 ---
 
 # Y模型探索营2：五次质变与科学推演

@@ -1,56 +1,42 @@
 ---
 id: yt-model-ipo-complete-checklist
+component_of: []
+confidence: 0.85
+created_at: 2026-05-07
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 2614
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - IPO 科学学习完整清单
+  - 关联卡片
+  - 处理 Process
+  - 目标 Goal：培养长期渴望
+  - 知识体系定位
+  - 科学学习完整清单
+  - 输入 Input
+  - 输出 Output
+related:
+  level: foundational
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+  - 10_raw/assets/yitang/一堂-个人修炼-科学学习IPO完整清单.jpg
+status: enriched
+tags:
+  - "#yitang"
+  - "#learning-model"
+  - "#catalog"
 title: IPO 科学学习完整清单
 type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-08
 version: 1
-difficulty: foundational
-confidence: 0.85
-prerequisites: []
-component_of: []
-related:
-  - yt-model-ipo-learning-strategy
-  - yt-personal-checklist-notes
-  - yt-personal-deep-review
-  - yt-personal-deliberate-practice
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-management
-contradicts: []
-query_triggers:
-- IPO 科学学习完整清单
-- 关联卡片
-- 处理 Process
-- 目标 Goal：培养长期渴望
-- 知识体系定位
-- 科学学习完整清单
-- 输入 Input
-- 输出 Output
-tags:
-- '#yitang'
-- '#learning-model'
-- '#catalog'
 yitang:
   map: personal
   module: 科学学习
   course_type: reference
-related:
-  - yt-model-ipo-learning-strategy
-  - yt-personal-checklist-notes
-  - yt-personal-deep-review
-  - yt-personal-deliberate-practice
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-management
-  level: foundational
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂-个人修炼-科学学习IPO完整清单.jpg
-created_at: '2026-05-07'
-updated_at: '2026-05-08'
-estimated_tokens: 2614
-reviewed_by: 黄药师
 ---
 
 # IPO 科学学习完整清单 (Complete List)

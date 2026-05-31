@@ -1,47 +1,46 @@
 ---
 id: yt-panproduct-demand-industry-canvas
+component_of:
+  - yt-model-pan-product-demand-toolkit
+confidence: 0.80
+created_at: 2026-05-11
+difficulty: advanced
+domain:
+  - yitang
+estimated_tokens: 1281
+language: zh-CN
+prerequisites:
+  - yt-composite-pan-product-methodology
+query_triggers:
+  - 泛产品设计
+  - 泛产品设计·用户卡片：行业分析画布
+  - 用户卡片
+  - 用户研究
+  - 用户需求
+  - 行业分析画布
+  - 需求分析
+  - 需求洞察
+related:
+  - yt-panproduct-demand-five-step-method
+  - yt-panproduct-demand-project-background
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/泛产品设计-用户卡片-行业分析画布.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#pan-product-design"
+  - "#industry-analysis"
+  - "#market-research"
 title: 泛产品设计·用户卡片：行业分析画布
 type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: advanced
-confidence: 0.8
-prerequisites:
-- yt-composite-pan-product-methodology
-component_of:
-- yt-model-pan-product-demand-toolkit
-related:
-- yt-panproduct-demand-five-step-method
-- yt-panproduct-demand-project-background
-contradicts: []
-query_triggers:
-- 泛产品设计
-- 泛产品设计·用户卡片：行业分析画布
-- 用户卡片
-- 用户研究
-- 用户需求
-- 行业分析画布
-- 需求分析
-- 需求洞察
-tags:
-- '#yitang'
-- '#pan-product-design'
-- '#industry-analysis'
-- '#market-research'
 yitang:
   map: personal
   module: 泛产品设计
   course_type: card
   level: advanced
-source_refs:
-- 10_raw/assets/yitang/泛产品设计-用户卡片-行业分析画布.png
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 1281
-reviewed_by: 黄药师
 ---
 
 # 行业分析画布：分析行业赛道的变化和机会

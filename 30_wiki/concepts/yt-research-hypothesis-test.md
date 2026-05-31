@@ -1,18 +1,23 @@
 ---
 id: yt-research-hypothesis-test
-title: 假设验证调研工具：关键假设→可证伪问题→最小实验
-type: tool
-status: reviewed
+component_of: []
+confidence: 0.85
+created_at: 2026-05-18
+difficulty: advanced
 domain:
   - yitang
+estimated_tokens: 2600
 language: zh-CN
-version: 1
-difficulty: advanced
-confidence: 0.85
 prerequisites:
   - yt-research-osl-framework
   - yt-research-intelligence-map
-component_of: []
+query_triggers:
+  - 假设验证
+  - 关键假设
+  - 调研验证
+  - 最小实验
+  - 可证伪
+  - 假设测试
 related:
   - yt-research-osl-framework
   - yt-research-intelligence-map
@@ -22,32 +27,26 @@ related:
   - yt-research-industry-canvas
   - yt-entrepreneur-key-hypotheses
   - yt-decision-y-model
-contradicts: []
-query_triggers:
-  - 假设验证
-  - 关键假设
-  - 调研验证
-  - 最小实验
-  - 可证伪
-  - 假设测试
+reviewed_by: 
+source_refs:
+  - 00_inbox/ideas/一堂-创业必修-调研行动营.md
+  - 00_inbox/ideas/一堂-创业-调研行动营口述01.md
+status: reviewed
 tags:
-  - '#yitang'
-  - '#research'
-  - '#tool'
+  - "#yitang"
+  - "#research"
+  - "#tool"
+title: 假设验证调研工具：关键假设→可证伪问题→最小实验
 trust_level: medium
+type: tool
+updated_at: 2026-05-18
+version: 1
 yitang:
   map: entrepreneur
   module: 调研方法论
   course_id: yt-research-hypothesis-test
   course_type: tool
   level: advanced
-source_refs:
-  - 00_inbox/ideas/一堂-创业必修-调研行动营.md
-  - 00_inbox/ideas/一堂-创业-调研行动营口述01.md
-created_at: '2026-05-18'
-updated_at: '2026-05-18'
-estimated_tokens: 2600
-reviewed_by: ''
 ---
 
 # 假设验证调研工具：关键假设→可证伪问题→最小实验

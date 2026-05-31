@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂产品内核-十大典型指标"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_32e4318a"]
-created_at: "2026-05-21T20:13:56+00:00"
-updated_at: "2026-05-22T07:23:37+00:00"
 id: ocr-一堂产品内核-十大典型指标
+created_at: 2026-05-21
+domain:
+  - healthcare
+source_refs:
+  - src_20260522_32e4318a
+status: enriched
+title: "OCR: 一堂产品内核-十大典型指标"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

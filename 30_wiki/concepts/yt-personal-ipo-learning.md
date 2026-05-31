@@ -1,57 +1,44 @@
 ---
 id: yt-personal-ipo-learning
+component_of: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 3000
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - IPO 科学学习
+  - 世界学习法与四大渠道
+  - 分层学习法六级
+  - 处理
+  - 模型总览
+  - 科学学习
+  - 质变点与四大联系练习
+  - 输入
+  - 输出
+related:
+  series: true
+review_date: 2026-05-07
+reviewed_by: 黄药师
+source_refs:
+  - src_20260507_85c9ae50
+  - src_20260507_31a7f2df
+status: enriched
+tags:
+  - "#yitang"
 title: IPO 科学学习
 type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-07
 version: 1
-difficulty: foundational
-confidence: 0.8
-prerequisites: []
-component_of: []
-related:
-  - yt-entrepreneur-liberate-thinking
-  - yt-entrepreneur-scientific-method
-  - yt-personal-deep-review
-  - yt-personal-knowledge-management
-  - yt-system-course-map-lecture
-contradicts: []
-query_triggers:
-- IPO 科学学习
-- 世界学习法与四大渠道
-- 分层学习法六级
-- 处理
-- 模型总览
-- 科学学习
-- 质变点与四大联系练习
-- 输入
-- 输出
-tags:
-- '#yitang'
 yitang:
   map: personal
   module: IPO 科学学习
-  course_id: '402'
+  course_id: 402
   course_type: method
   level: foundational
-related:
-  - 30_wiki/systems/一堂方法论体系总图
-  - yt-entrepreneur-liberate-thinking
-  - yt-entrepreneur-scientific-method
-  - yt-personal-deep-review
-  - yt-personal-knowledge-management
-  - yt-system-course-map-lecture
-  series: true
-source_refs:
-- src_20260507_85c9ae50
-- src_20260507_31a7f2df
-created_at: '2026-05-06'
-updated_at: '2026-05-07'
-review_date: '2026-05-07'
-estimated_tokens: 3000
-reviewed_by: 黄药师
 ---
 
 # IPO 科学学习

@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 标注方案审查通过（有条件PASS，4项修复已完成）。欧阳锋 Gold Standard 15条手工标注完成（30_wiki/decisions/gold-standard-manual-labels.md）。下一步：黄药师实现 auto_label_chunk() 三段式管线 + 更新 tag-registry.yaml v1.1。
+active_task: 黄药师 — 标注管线三任务全部完成。① auto_label_chunk() 三段式管线 (+25 tests, 388 pass) ② tag-registry.yaml v1.1 (15维×113值) ③ Data Curator Phase 2 Clean (424卡, 347修复)。下一步：pilot 20张卡→测标注准确率→欧阳锋 Gold Standard 比对。
 blockers: []
 ---
 

@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-个人修炼-Y模型"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_3f5c76c0"]
-created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-22T06:52:36+00:00"
 id: ocr-一堂-个人修炼-y模型
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_3f5c76c0
+status: enriched
+title: "OCR: 一堂-个人修炼-Y模型"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

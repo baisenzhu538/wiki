@@ -1,51 +1,39 @@
 ---
 id: yt-model-questioning-practice-canvas
+component_of: []
+confidence: 0.85
+created_at: 2026-05-07
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 1832
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 使用场景矩阵
+  - 关联卡片
+  - 四层提问能力框架
+  - 提问刻意练习提升画布
+  - 核心方法论要素
+  - 知识体系定位
+related:
+  level: foundational
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+  - 10_raw/assets/yitang/一堂-个人修炼-提问刻意练习画布.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#questioning"
 title: 提问刻意练习提升画布
 type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-08
 version: 1
-difficulty: foundational
-confidence: 0.85
-prerequisites: []
-component_of: []
-related:
-  - yt-entrepreneur-scientific-method
-  - yt-management-scientific-hiring
-  - yt-model-scientific-questioning-map
-  - yt-personal-deep-review
-  - yt-personal-deliberate-practice
-contradicts: []
-query_triggers:
-- 使用场景矩阵
-- 关联卡片
-- 四层提问能力框架
-- 提问刻意练习提升画布
-- 核心方法论要素
-- 知识体系定位
-tags:
-- '#yitang'
-- '#questioning'
 yitang:
   map: personal
   module: 提问能力
   course_type: model
-related:
-  - yt-entrepreneur-scientific-method
-  - yt-management-scientific-hiring
-  - yt-model-scientific-questioning-map
-  - yt-personal-deep-review
-  - yt-personal-deliberate-practice
-  level: foundational
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂-个人修炼-提问刻意练习画布.png
-created_at: '2026-05-07'
-updated_at: '2026-05-08'
-estimated_tokens: 1832
-reviewed_by: 黄药师
 ---
 
 # 提问刻意练习提升画布 (By YITANG)

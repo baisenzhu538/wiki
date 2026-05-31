@@ -1,16 +1,21 @@
 ---
 id: yt-research-osl-framework
-title: OSL调研五步法：一堂通用商业调研框架
-type: framework
-status: reviewed
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.85
-prerequisites: []
 component_of: []
+confidence: 0.85
+created_at: 2026-05-18
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 2500
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 调研方法
+  - OSL五步法
+  - 商业调研
+  - 调研流程
+  - 系统式调研
+  - 调研框架
 related:
   - yt-research-intelligence-map
   - yt-research-competitor-toolkit
@@ -21,32 +26,26 @@ related:
   - yt-research-mindset
   - yt-decision-y-model
   - yt-entrepreneur-key-hypotheses
-contradicts: []
-query_triggers:
-- 调研方法
-- OSL五步法
-- 商业调研
-- 调研流程
-- 系统式调研
-- 调研框架
+reviewed_by: 
+source_refs:
+  - 00_inbox/ideas/一堂-创业必修-调研行动营.md
+  - 00_inbox/ideas/一堂-创业-调研行动营口述01.md
+status: reviewed
 tags:
-- '#yitang'
-- '#research'
-- '#framework'
+  - "#yitang"
+  - "#research"
+  - "#framework"
+title: OSL调研五步法：一堂通用商业调研框架
 trust_level: medium
+type: framework
+updated_at: 2026-05-18
+version: 1
 yitang:
   map: entrepreneur
   module: 调研方法论
   course_id: yt-research-osl-framework
   course_type: framework
   level: foundational
-source_refs:
-  - 00_inbox/ideas/一堂-创业必修-调研行动营.md
-  - 00_inbox/ideas/一堂-创业-调研行动营口述01.md
-created_at: '2026-05-18'
-updated_at: '2026-05-18'
-estimated_tokens: 2500
-reviewed_by: ''
 ---
 
 # OSL调研五步法：一堂通用商业调研框架

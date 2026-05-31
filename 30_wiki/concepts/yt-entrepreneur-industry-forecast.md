@@ -1,55 +1,45 @@
 ---
 id: yt-entrepreneur-industry-forecast
-title: 行业预判
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1845
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 行业预判
-- 行业画布
-- 行业分析
-- 赛道选择
-- 进入时机
-- 利润池
-- 行业趋势
-- 价值链分析
-- 市场规模预测
-- 行业选择大于商业模式
+  - 行业预判
+  - 行业画布
+  - 行业分析
+  - 赛道选择
+  - 进入时机
+  - 利润池
+  - 行业趋势
+  - 价值链分析
+  - 市场规模预测
+  - 行业选择大于商业模式
+related:
+  series: false
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 行业预判
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: entrepreneur
   module: 行业预判
   course_id: yt-entrepreneur-industry-forecast
   course_type: method
   level: core
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-  series: false
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-estimated_tokens: 1845
-reviewed_by: 黄药师
-review_date: '2026-05-08'
 ---
 
 # 行业预判

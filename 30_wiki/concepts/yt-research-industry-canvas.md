@@ -1,18 +1,23 @@
 ---
 id: yt-research-industry-canvas
-title: 行业分析画布：五维快速扫描+二维定位
-type: tool
-status: reviewed
+component_of: []
+confidence: 0.85
+created_at: 2026-05-18
+difficulty: intermediate
 domain:
   - yitang
+estimated_tokens: 2400
 language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.85
 prerequisites:
   - yt-research-osl-framework
   - yt-research-intelligence-map
-component_of: []
+query_triggers:
+  - 行业分析
+  - 行业调研
+  - 要不要进这个行业
+  - 行业选择
+  - 行业画布
+  - 行业扫描
 related:
   - yt-research-osl-framework
   - yt-research-intelligence-map
@@ -21,32 +26,26 @@ related:
   - yt-research-expert-interview
   - yt-research-hypothesis-test
   - yt-entrepreneur-key-hypotheses
-contradicts: []
-query_triggers:
-  - 行业分析
-  - 行业调研
-  - 要不要进这个行业
-  - 行业选择
-  - 行业画布
-  - 行业扫描
+reviewed_by: 
+source_refs:
+  - 00_inbox/ideas/一堂-创业必修-调研武器库.md
+  - 00_inbox/ideas/一堂-创业必修-调研行动营.md
+status: reviewed
 tags:
-  - '#yitang'
-  - '#research'
-  - '#tool'
+  - "#yitang"
+  - "#research"
+  - "#tool"
+title: 行业分析画布：五维快速扫描+二维定位
 trust_level: medium
+type: tool
+updated_at: 2026-05-18
+version: 1
 yitang:
   map: entrepreneur
   module: 调研方法论
   course_id: yt-research-industry-canvas
   course_type: tool
   level: intermediate
-source_refs:
-  - 00_inbox/ideas/一堂-创业必修-调研武器库.md
-  - 00_inbox/ideas/一堂-创业必修-调研行动营.md
-created_at: '2026-05-18'
-updated_at: '2026-05-18'
-estimated_tokens: 2400
-reviewed_by: ''
 ---
 
 # 行业分析画布：五维快速扫描+二维定位

@@ -1,26 +1,26 @@
 ---
-title: "Graph RAG — Knowledge-Graph-Powered Retrieval"
-type: concept
-status: enriched
-domain: ['ai-saas']
-aliases: ["Graph RAG"]
-source_refs:
 id: graph-rag
-  - "src_20260502_7d7c1b7c"
-created_at: "2026-05-03"
-updated_at: "2026-05-03"
+aliases:
+  - Graph RAG
+created_at: 2026-05-03
+domain:
+  - "['ai-saas']"
 related:
   - "[[kdo-protocol]]"
   - "[[index]]"
   - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
+review_date: 2026-05-04
+reviewed_by: 黄药师
+status: enriched
 tags:
-  - #ai
-  - #rag
-  - #knowledge-graph
-  - #retrieval
+  - "#ai"
+  - "#rag"
+  - "#knowledge-graph"
+  - "#retrieval"
+title: Graph RAG — Knowledge-Graph-Powered Retrieval
 trust_level: medium
-reviewed_by: "黄药师"
-review_date: "2026-05-04"
+type: concept
+updated_at: 2026-05-03
 ---
 
 # Graph RAG — Knowledge-Graph-Powered Retrieval

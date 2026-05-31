@@ -1,68 +1,44 @@
 ---
 id: yt-entrepreneur-five-step-method
-title: 一堂五步法
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-  - yt-unit-model-overview
-  - yt-unit-model-ladder
-  - yt-unit-model-selection
-  - yt-unit-model-construction
-  - yt-unit-model-benchmark
-  - yt-unit-model-dynamic
-  - yt-unit-model-ai-assisted
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1868
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 一堂五步法
-- 需求分析
-- 方案定义
-- 验证实验
-- 增长规模化
-- 壁垒护城河
-- 科学创业
-- 创业方法论
-- 五步法框架
-- 关键假设优先
+  - 一堂五步法
+  - 需求分析
+  - 方案定义
+  - 验证实验
+  - 增长规模化
+  - 壁垒护城河
+  - 科学创业
+  - 创业方法论
+  - 五步法框架
+  - 关键假设优先
+related:
+  series: true
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 一堂五步法
 trust_level: medium
+type: tool
+updated_at: 2026-05-09
+version: 1
 yitang:
   map: entrepreneur
   module: 一堂五步法
   course_id: yt-entrepreneur-five-step-method
   course_type: method
   level: foundational
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-  - yt-unit-model-overview
-  - yt-unit-model-ladder
-  - yt-unit-model-selection
-  - yt-unit-model-construction
-  - yt-unit-model-benchmark
-  - yt-unit-model-dynamic
-  - yt-unit-model-ai-assisted
-  series: true
-source_refs:
-- 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-09'
-estimated_tokens: 1868
-reviewed_by: 黄药师
 ---
 
 # 一堂五步法

@@ -1,48 +1,47 @@
 ---
 id: yt-panproduct-demand-user-perspective
+component_of:
+  - yt-model-pan-product-demand-toolkit
+confidence: 0.80
+created_at: 2026-05-11
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 1171
+language: zh-CN
+prerequisites:
+  - yt-composite-pan-product-methodology
+query_triggers:
+  - 泛产品设计
+  - 泛产品设计·用户卡片：用户视角
+  - 用户卡片
+  - 用户研究
+  - 用户视角
+  - 用户需求
+  - 需求分析
+  - 需求洞察
+related:
+  - yt-panproduct-demand-user-segmentation
+  - yt-panproduct-demand-scenario-walkthrough
+  - yt-model-aesthetic-progression
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/泛产品设计-用户卡片-用户视角.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#pan-product-design"
+  - "#user-research"
+  - "#empathy"
 title: 泛产品设计·用户卡片：用户视角
 type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: foundational
-confidence: 0.8
-prerequisites:
-- yt-composite-pan-product-methodology
-component_of:
-- yt-model-pan-product-demand-toolkit
-related:
-- yt-panproduct-demand-user-segmentation
-- yt-panproduct-demand-scenario-walkthrough
-- yt-model-aesthetic-progression
-contradicts: []
-query_triggers:
-- 泛产品设计
-- 泛产品设计·用户卡片：用户视角
-- 用户卡片
-- 用户研究
-- 用户视角
-- 用户需求
-- 需求分析
-- 需求洞察
-tags:
-- '#yitang'
-- '#pan-product-design'
-- '#user-research'
-- '#empathy'
 yitang:
   map: personal
   module: 泛产品设计
   course_type: card
   level: foundational
-source_refs:
-- 10_raw/assets/yitang/泛产品设计-用户卡片-用户视角.png
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 1171
-reviewed_by: 黄药师
 ---
 
 # 用户视角：一秒转化用户视角

@@ -1,55 +1,45 @@
 ---
 id: yt-personal-inspiration-flash
-title: 灵感闪现（认知篇）
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: foundational
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-personal-ai-capability
-  - yt-personal-checklist-notes
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-extraction
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 3000
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 灵感闪现
-- 灵感捕捉
-- 潜意识思考
-- 顿悟时刻
-- 跨领域模式识别
-- 信息浸泡
-- 灵感触发方法
-- 创造力培养
-- 如何产生灵感
-- 暂停显意识
+  - 灵感闪现
+  - 灵感捕捉
+  - 潜意识思考
+  - 顿悟时刻
+  - 跨领域模式识别
+  - 信息浸泡
+  - 灵感触发方法
+  - 创造力培养
+  - 如何产生灵感
+  - 暂停显意识
+related:
+  series: true
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 灵感闪现（认知篇）
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: personal
   module: 灵感闪现（认知篇）
-  course_id: '518'
+  course_id: 518
   course_type: method
   level: advanced
-related:
-  - yt-personal-ai-capability
-  - yt-personal-checklist-notes
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-extraction
-  series: true
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-review_date: '2026-05-08'
-estimated_tokens: 3000
-reviewed_by: 黄药师
 ---
 # 灵感闪现（认知篇）
 

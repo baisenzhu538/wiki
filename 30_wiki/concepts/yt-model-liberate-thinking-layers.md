@@ -1,49 +1,39 @@
 ---
 id: yt-model-liberate-thinking-layers
+component_of: []
+confidence: 0.85
+created_at: 2026-05-07
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 1591
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 六层认知模型
+  - 关联卡片
+  - 关键洞察
+  - 核心梯度
+  - 知识体系定位
+  - 解放思想五层模型
+related:
+  level: foundational
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+  - 10_raw/assets/yitang/一堂-个人修炼-解放思想.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#thinking-model"
 title: 解放思想五层模型
 type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-08
 version: 1
-difficulty: foundational
-confidence: 0.85
-prerequisites: []
-component_of: []
-related:
-  - yt-entrepreneur-liberate-thinking
-  - yt-entrepreneur-pragmatic-startup
-  - yt-entrepreneur-scientific-method
-  - yt-system-course-map-lecture
-contradicts: []
-query_triggers:
-- 六层认知模型
-- 关联卡片
-- 关键洞察
-- 核心梯度
-- 知识体系定位
-- 解放思想五层模型
-tags:
-- '#yitang'
-- '#thinking-model'
 yitang:
   map: personal
   module: 底层方法论
   course_type: model
-related:
-  - yt-entrepreneur-liberate-thinking
-  - yt-entrepreneur-pragmatic-startup
-  - yt-entrepreneur-scientific-method
-  - yt-system-course-map-lecture
-  level: foundational
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂-个人修炼-解放思想.png
-created_at: '2026-05-07'
-updated_at: '2026-05-08'
-estimated_tokens: 1591
-reviewed_by: 黄药师
 ---
 
 # 解放思想五层模型

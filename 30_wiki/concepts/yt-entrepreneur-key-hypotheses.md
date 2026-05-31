@@ -1,55 +1,45 @@
 ---
 id: yt-entrepreneur-key-hypotheses
-title: 关键假设
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1864
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 关键假设
-- 假设验证
-- 假设驱动
-- 最小成本验证
-- 创业假设
-- 假设优先级
-- 不确定性矩阵
-- 前置判断
-- 商业计划验证
-- 关键假设优先
+  - 关键假设
+  - 假设验证
+  - 假设驱动
+  - 最小成本验证
+  - 创业假设
+  - 假设优先级
+  - 不确定性矩阵
+  - 前置判断
+  - 商业计划验证
+  - 关键假设优先
+related:
+  series: false
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 关键假设
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: entrepreneur
   module: 关键假设
   course_id: yt-entrepreneur-key-hypotheses
   course_type: method
   level: foundational
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-  series: false
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-estimated_tokens: 1864
-reviewed_by: 黄药师
-review_date: '2026-05-08'
 ---
 
 # 关键假设

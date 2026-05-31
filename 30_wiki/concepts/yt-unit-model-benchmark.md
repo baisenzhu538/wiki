@@ -1,19 +1,24 @@
 ---
 id: yt-unit-model-benchmark
-title: "单元模型基准值：科学类比、三点预测与基准值共建"
-type: tool
-status: draft
+component_of: []
+confidence: 0.85
+created_at: 2026-05-24
+difficulty: intermediate
 domain:
   - entrepreneur
   - master
+estimated_tokens: 2500
 language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.85
 prerequisites:
   - yt-unit-model-overview
   - yt-unit-model-construction
-component_of: []
+query_triggers:
+  - 单元模型基准值
+  - 三点预测
+  - 科学类比
+  - 行业基准值
+  - 基准值共建
+  - 预测准确性
 related:
   - yt-unit-model-ladder
   - yt-unit-model-selection
@@ -23,34 +28,28 @@ related:
   - yt-decision-heuristics-biases
   - yt-decision-y-model
   - yt-entrepreneur-five-step-method
-contradicts: []
-query_triggers:
-  - "单元模型基准值"
-  - "三点预测"
-  - "科学类比"
-  - "行业基准值"
-  - "基准值共建"
-  - "预测准确性"
+reviewed_by: 
+source_refs:
+  - src_20260524_7c8d9e0f-一堂-单元模型03口述
+  - src_20260524_6b5a4c3d-一堂-单元模型04口述
+status: draft
 tags:
-  - '#yitang'
-  - '#entrepreneur'
-  - '#tool'
-  - '#unit-model'
-  - '#benchmarking'
-  - '#forecasting'
+  - "#yitang"
+  - "#entrepreneur"
+  - "#tool"
+  - "#unit-model"
+  - "#benchmarking"
+  - "#forecasting"
+title: 单元模型基准值：科学类比、三点预测与基准值共建
 trust_level: high
+type: tool
+updated_at: 2026-05-25
+version: 1
 yitang:
   map: entrepreneur
-  module: "创业必修"
+  module: 创业必修
   course_type: tool
   level: intermediate
-source_refs:
-  - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
-  - "src_20260524_6b5a4c3d-一堂-单元模型04口述"
-created_at: "2026-05-24"
-updated_at: "2026-05-25"
-estimated_tokens: 2500
-reviewed_by: ""
 ---
 
 # 单元模型基准值：科学类比、三点预测与基准值共建

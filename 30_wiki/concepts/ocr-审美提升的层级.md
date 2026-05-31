@@ -1,11 +1,14 @@
 ---
-title: "OCR: 审美提升的层级"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_7d2a79f8"]
-created_at: "2026-05-21T20:13:57+00:00"
-updated_at: "2026-05-22T07:30:54+00:00"
 id: ocr-审美提升的层级
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_7d2a79f8
+status: enriched
+title: "OCR: 审美提升的层级"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

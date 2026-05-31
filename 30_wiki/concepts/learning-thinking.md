@@ -1,11 +1,14 @@
 ---
-title: "Learning Thinking"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_0af1f6dd"]
-created_at: "2026-05-21T20:14:01+00:00"
-updated_at: "2026-05-22T06:48:15+00:00"
 id: learning-thinking
+created_at: 2026-05-21
+domain:
+  - ai-saas
+source_refs:
+  - src_20260522_0af1f6dd
+status: enriched
+title: Learning Thinking
+type: concept
+updated_at: 2026-05-22
 ---
 
 

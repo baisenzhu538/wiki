@@ -1,55 +1,45 @@
 ---
 id: yt-entrepreneur-lean-validation
-title: 低成本验证/MVP
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1851
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 低成本验证
-- MVP
-- 精益创业
-- 最小可行产品
-- 创业假设验证
-- 精益实验设计
-- pivot决策
-- 创业实验矩阵
-- 数据驱动决策
-- 关键假设测试
+  - 低成本验证
+  - MVP
+  - 精益创业
+  - 最小可行产品
+  - 创业假设验证
+  - 精益实验设计
+  - pivot决策
+  - 创业实验矩阵
+  - 数据驱动决策
+  - 关键假设测试
+related:
+  series: true
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 低成本验证/MVP
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: entrepreneur
   module: 低成本验证/MVP
   course_id: yt-entrepreneur-lean-validation
   course_type: method
   level: core
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-  series: true
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-estimated_tokens: 1851
-reviewed_by: 黄药师
-review_date: '2026-05-08'
 ---
 
 # 低成本验证/MVP

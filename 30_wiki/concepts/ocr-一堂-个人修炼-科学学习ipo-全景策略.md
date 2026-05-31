@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-个人修炼-科学学习IPO-全景策略"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_dee56cff"]
-created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-22T06:55:44+00:00"
 id: ocr-一堂-个人修炼-科学学习ipo-全景策略
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_dee56cff
+status: enriched
+title: "OCR: 一堂-个人修炼-科学学习IPO-全景策略"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

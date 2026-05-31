@@ -1,58 +1,46 @@
 ---
 id: yt-entrepreneur-needs-analysis
-title: 需求分析
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-lean-validation
-  - yt-entrepreneur-unit-model
-  - yt-system-course-map-lecture
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 3000
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 需求分析
-- JTBD
-- 拆推评算
-- 六层冰山模型
-- 用户需求挖掘
-- 任务地图
-- 四种力量模型
-- 微观体感
-- 伪需求识别
-- 需求剥离法
+  - 需求分析
+  - JTBD
+  - 拆推评算
+  - 六层冰山模型
+  - 用户需求挖掘
+  - 任务地图
+  - 四种力量模型
+  - 微观体感
+  - 伪需求识别
+  - 需求剥离法
+related:
+  series: false
+review_date: 2026-05-07
+reviewed_by: 黄药师
+source_refs:
+  - src_20260507_0872c7b3
+  - src_20260507_3120ec58
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 需求分析
 trust_level: high
+type: tool
+updated_at: 2026-05-07
+version: 1
 yitang:
   map: entrepreneur
   module: 需求分析
   course_id: yt-entrepreneur-needs-analysis
   course_type: method
   level: foundational
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-lean-validation
-  - yt-entrepreneur-unit-model
-  - yt-system-course-map-lecture
-  series: false
-source_refs:
-- src_20260507_0872c7b3
-- src_20260507_3120ec58
-created_at: '2026-05-06'
-updated_at: '2026-05-07'
-estimated_tokens: 3000
-reviewed_by: 黄药师
-review_date: '2026-05-07'
 ---
 
 # 需求分析

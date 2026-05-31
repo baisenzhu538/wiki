@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂-个人修炼-双三角模型"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_1b95114b"]
-created_at: "2026-05-21T20:13:52+00:00"
-updated_at: "2026-05-22T06:54:49+00:00"
 id: ocr-一堂-个人修炼-双三角模型
+created_at: 2026-05-21
+domain:
+  - yitang
+source_refs:
+  - src_20260522_1b95114b
+status: enriched
+title: "OCR: 一堂-个人修炼-双三角模型"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

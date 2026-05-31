@@ -1,18 +1,23 @@
 ---
 id: yt-research-mindset
-title: 调研认知升级：从"找答案"到"拆解假设"
-type: concept
-status: reviewed
+component_of: []
+confidence: 0.85
+created_at: 2026-05-18
+difficulty: advanced
 domain:
   - yitang
+estimated_tokens: 2200
 language: zh-CN
-version: 1
-difficulty: advanced
-confidence: 0.85
 prerequisites:
   - yt-research-osl-framework
   - yt-research-hypothesis-test
-component_of: []
+query_triggers:
+  - 调研思维
+  - 调研认知
+  - 调研方法论
+  - 假设驱动
+  - 调研方式
+  - 怎么做调研
 related:
   - yt-research-osl-framework
   - yt-research-hypothesis-test
@@ -23,33 +28,27 @@ related:
   - yt-research-industry-canvas
   - yt-decision-y-model
   - yt-entrepreneur-key-hypotheses
-contradicts: []
-query_triggers:
-  - 调研思维
-  - 调研认知
-  - 调研方法论
-  - 假设驱动
-  - 调研方式
-  - 怎么做调研
+reviewed_by: 
+source_refs:
+  - 00_inbox/ideas/一堂-创业必修-调研武器库.md
+  - 00_inbox/ideas/一堂-创业必修-调研行动营.md
+  - 00_inbox/ideas/一堂-创业必修-需求分析.md
+status: reviewed
 tags:
-  - '#yitang'
-  - '#research'
-  - '#concept'
+  - "#yitang"
+  - "#research"
+  - "#concept"
+title: 调研认知升级：从"找答案"到"拆解假设"
 trust_level: medium
+type: concept
+updated_at: 2026-05-18
+version: 1
 yitang:
   map: entrepreneur
   module: 调研方法论
   course_id: yt-research-mindset
   course_type: concept
   level: advanced
-source_refs:
-  - 00_inbox/ideas/一堂-创业必修-调研武器库.md
-  - 00_inbox/ideas/一堂-创业必修-调研行动营.md
-  - 00_inbox/ideas/一堂-创业必修-需求分析.md
-created_at: '2026-05-18'
-updated_at: '2026-05-18'
-estimated_tokens: 2200
-reviewed_by: ''
 ---
 
 # 调研认知升级：从"找答案"到"拆解假设"

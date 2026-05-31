@@ -1,16 +1,21 @@
 ---
 id: yt-research-intelligence-map
-title: 情报获取全景地图：13+渠道穷尽手段
-type: framework
-status: reviewed
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.85
-prerequisites: []
 component_of: []
+confidence: 0.85
+created_at: 2026-05-18
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 2800
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 情报获取
+  - 调研渠道
+  - 怎么找信息
+  - 竞品情报
+  - 行业调研
+  - 情报地图
 related:
   - yt-research-osl-framework
   - yt-research-competitor-toolkit
@@ -19,31 +24,25 @@ related:
   - yt-research-industry-canvas
   - yt-research-user-jtbd
   - yt-research-mindset
-contradicts: []
-query_triggers:
-- 情报获取
-- 调研渠道
-- 怎么找信息
-- 竞品情报
-- 行业调研
-- 情报地图
+reviewed_by: 
+source_refs:
+  - 00_inbox/ideas/一堂-创业必修-调研武器库.md
+status: reviewed
 tags:
-- '#yitang'
-- '#research'
-- '#framework'
+  - "#yitang"
+  - "#research"
+  - "#framework"
+title: 情报获取全景地图：13+渠道穷尽手段
 trust_level: medium
+type: framework
+updated_at: 2026-05-18
+version: 1
 yitang:
   map: entrepreneur
   module: 调研方法论
   course_id: yt-research-intelligence-map
   course_type: framework
   level: foundational
-source_refs:
-  - 00_inbox/ideas/一堂-创业必修-调研武器库.md
-created_at: '2026-05-18'
-updated_at: '2026-05-18'
-estimated_tokens: 2800
-reviewed_by: ''
 ---
 
 # 情报获取全景地图：13+渠道穷尽手段

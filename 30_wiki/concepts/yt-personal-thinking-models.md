@@ -1,53 +1,43 @@
 ---
 id: yt-personal-thinking-models
+component_of: []
+confidence: 0.80
+created_at: 2026-05-11
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 1853
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 一堂做课供应链模型
+  - 为什么提炼模型是最核心的能力
+  - 从碎片经验到稳定模型
+  - 做课模型演化史
+  - 思维模型
+  - 思维模型：从碎片经验到稳定模型
+  - 教学创新
+  - 脱敏版
+  - 角色推演法
+related:
+  level: advanced
+reviewed_by: 黄药师
+source_refs:
+  - 00_inbox/一堂-个人修身-思维模型口述版.md
+status: enriched
+tags:
+  - "#yitang"
+  - "#mental-models"
+  - "#knowledge-extraction"
+  - "#thinking"
 title: 思维模型：从碎片经验到稳定模型
 type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: foundational
-confidence: 0.8
-prerequisites: []
-component_of: []
-related:
-  - yt-model-ipo-learning-strategy
-  - yt-model-liberate-thinking-layers
-  - yt-personal-knowledge-extraction
-  - yt-personal-y-model-practice
-contradicts: []
-query_triggers:
-- 一堂做课供应链模型
-- 为什么提炼模型是最核心的能力
-- 从碎片经验到稳定模型
-- 做课模型演化史
-- 思维模型
-- 思维模型：从碎片经验到稳定模型
-- 教学创新
-- 脱敏版
-- 角色推演法
-tags:
-- '#yitang'
-- '#mental-models'
-- '#knowledge-extraction'
-- '#thinking'
 yitang:
   map: personal
   module: 个人修炼
   course_type: explore_camp
-related:
-  - yt-model-ipo-learning-strategy
-  - yt-model-liberate-thinking-layers
-  - yt-personal-knowledge-extraction
-  - yt-personal-y-model-practice
-  level: advanced
-source_refs:
-- 00_inbox/一堂-个人修身-思维模型口述版.md
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 1853
-reviewed_by: 黄药师
 ---
 
 # 思维模型：从碎片经验到稳定模型

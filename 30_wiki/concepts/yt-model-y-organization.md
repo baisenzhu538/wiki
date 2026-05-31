@@ -1,51 +1,41 @@
 ---
 id: yt-model-y-organization
+component_of: []
+confidence: 0.85
+created_at: 2026-05-07
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 1635
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - Y 型创业模型
+  - Y 型结构
+  - 三条认知路径
+  - 关联卡片
+  - 型创业模型
+  - 核心要素
+  - 知识体系定位
+related:
+  level: foundational
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+  - 10_raw/assets/yitang/一堂-个人修炼-Y模型.jpg
+status: enriched
+tags:
+  - "#yitang"
+  - "#methodology"
+  - "#core-model"
 title: Y 型创业模型
 type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-08
 version: 1
-difficulty: foundational
-confidence: 0.85
-prerequisites: []
-component_of: []
-related:
-  - yt-model-entrepreneur-map
-  - yt-model-management-map
-  - yt-model-personal-map
-  - yt-model-progress-map
-contradicts: []
-query_triggers:
-- Y 型创业模型
-- Y 型结构
-- 三条认知路径
-- 关联卡片
-- 型创业模型
-- 核心要素
-- 知识体系定位
-tags:
-- '#yitang'
-- '#methodology'
-- '#core-model'
 yitang:
   map: system
   module: 方法论总纲
   course_type: model
-related:
-  - yt-model-entrepreneur-map
-  - yt-model-management-map
-  - yt-model-personal-map
-  - yt-model-progress-map
-  level: foundational
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂-个人修炼-Y模型.jpg
-created_at: '2026-05-07'
-updated_at: '2026-05-08'
-estimated_tokens: 1635
-reviewed_by: 黄药师
 ---
 
 # Y 型创业模型 (Y Model for Startups)

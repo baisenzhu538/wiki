@@ -1,11 +1,16 @@
 ---
+id: yitang-huazong-ama-summary
+created_at: 2026-05-29
+domain:
+  - healthcare
+source_refs:
+  - src_20260529_huazong_ama
+status: stable
+tags:
+  - "[AI落地, 一堂, 花总, 商业突破, 多行业AI, 摘要]"
 title: 花总AMA精华摘要（商业突破大航海）
 type: concept
-status: stable
-source_refs: ["src_20260529_huazong_ama"]
-created_at: 2026-05-29
 updated_at: 2026-05-29
-tags: [AI落地, 一堂, 花总, 商业突破, 多行业AI, 摘要]
 ---
 
 # 花总AMA精华摘要

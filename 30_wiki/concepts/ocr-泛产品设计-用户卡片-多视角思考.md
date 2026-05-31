@@ -1,11 +1,14 @@
 ---
-title: "OCR: 泛产品设计-用户卡片-多视角思考"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_f6cf4e83"]
-created_at: "2026-05-21T20:13:58+00:00"
-updated_at: "2026-05-22T07:38:16+00:00"
 id: ocr-泛产品设计-用户卡片-多视角思考
+created_at: 2026-05-21
+domain:
+  - ai-saas
+source_refs:
+  - src_20260522_f6cf4e83
+status: enriched
+title: "OCR: 泛产品设计-用户卡片-多视角思考"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

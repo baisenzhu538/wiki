@@ -1,22 +1,17 @@
 ---
 id: yt-pitch-aphorism
-title: 讲香·金句化
-type: tool
-status: enriched
+component_of:
+  - yt-model-personal-pitch-toolkit
+confidence: 0.85
+created_at: 2026-05-13
+difficulty: intermediate
 domain:
   - personal
   - yitang
+estimated_tokens: 1500
 language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.85
 prerequisites:
   - yt-model-personal-pitch-toolkit
-component_of:
-  - yt-model-personal-pitch-toolkit
-related:
-  - yt-concept-weapon-arsenal
-contradicts: []
 query_triggers:
   - 金句化
   - 金句
@@ -24,17 +19,21 @@ query_triggers:
   - 断言
   - 押韵文案
   - 洞察对比
-tags:
-  - '#yitang'
-  - '#pitch'
-  - '#抽象化'
+related:
+  - yt-concept-weapon-arsenal
+reviewed_by: 黄药师
 source_refs:
   - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
   - 10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png
-created_at: 2026-05-13
+status: enriched
+tags:
+  - "#yitang"
+  - "#pitch"
+  - "#抽象化"
+title: 讲香·金句化
+type: tool
 updated_at: 2026-05-13
-estimated_tokens: 1500
-reviewed_by: 黄药师
+version: 1
 ---
 # 讲香·金句化
 

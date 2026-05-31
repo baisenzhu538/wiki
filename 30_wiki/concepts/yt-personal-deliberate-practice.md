@@ -1,55 +1,45 @@
 ---
 id: yt-personal-deliberate-practice
-title: 科学成长（刻意练习）
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: foundational
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-personal-checklist-notes
-  - yt-personal-deep-review
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-extraction
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: foundational
+domain:
+  - yitang
+estimated_tokens: 3000
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 刻意练习
-- 科学成长
-- 一万小时定律
-- 天真的练习
-- 即时反馈
-- 舒适区拉伸
-- 心理表征
-- 案例拆解练习
-- 能力培养方法
-- 如何有效练习
+  - 刻意练习
+  - 科学成长
+  - 一万小时定律
+  - 天真的练习
+  - 即时反馈
+  - 舒适区拉伸
+  - 心理表征
+  - 案例拆解练习
+  - 能力培养方法
+  - 如何有效练习
+related:
+  series: false
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 科学成长（刻意练习）
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: personal
   module: 科学成长（刻意练习）
-  course_id: '406'
+  course_id: 406
   course_type: method
   level: foundational
-related:
-  - yt-personal-checklist-notes
-  - yt-personal-deep-review
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-extraction
-  series: false
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-review_date: '2026-05-08'
-estimated_tokens: 3000
-reviewed_by: 黄药师
 ---
 # 科学成长（刻意练习）
 

@@ -1,11 +1,14 @@
 ---
-title: "OCR: 一堂个人地图：高潜力成长者修炼全景图"
-type: "concept"
-status: "enriched"
-source_refs: ["src_20260522_9cb1d9d6"]
-created_at: "2026-05-21T20:13:56+00:00"
-updated_at: "2026-05-22T07:22:01+00:00"
 id: ocr-一堂个人地图高潜力成长者修炼全景图
+created_at: 2026-05-21
+domain:
+  - healthcare
+source_refs:
+  - src_20260522_9cb1d9d6
+status: enriched
+title: "OCR: 一堂个人地图：高潜力成长者修炼全景图"
+type: concept
+updated_at: 2026-05-22
 ---
 
 

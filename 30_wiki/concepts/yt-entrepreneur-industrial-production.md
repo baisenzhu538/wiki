@@ -1,55 +1,45 @@
 ---
 id: yt-entrepreneur-industrial-production
-title: 工业化生产
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1874
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 工业化生产
-- 标准化流程
-- 创业SOP
-- 可复制性
-- 规模化前提
-- 手工转工业化
-- 流程标准化
-- 创业效率
-- 工具链自动化
-- 内容产品化
+  - 工业化生产
+  - 标准化流程
+  - 创业SOP
+  - 可复制性
+  - 规模化前提
+  - 手工转工业化
+  - 流程标准化
+  - 创业效率
+  - 工具链自动化
+  - 内容产品化
+related:
+  series: false
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 工业化生产
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: entrepreneur
   module: 工业化生产
   course_id: yt-entrepreneur-industrial-production
   course_type: method
   level: advanced
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-  series: false
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-estimated_tokens: 1874
-reviewed_by: 黄药师
-review_date: '2026-05-08'
 ---
 
 # 工业化生产

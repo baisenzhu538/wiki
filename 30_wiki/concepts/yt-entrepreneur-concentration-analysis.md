@@ -1,55 +1,45 @@
 ---
 id: yt-entrepreneur-concentration-analysis
-title: 集中度分析
-type: tool
-status: enriched
-domain:
-- yitang
-language: zh-CN
-version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
 component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-contradicts: []
+confidence: 0.80
+created_at: 2026-05-06
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 1849
+language: zh-CN
+prerequisites: []
 query_triggers:
-- 集中度分析
-- 行业集中度
-- 赢家通吃
-- 分散市场
-- 集中度曲线
-- 行业终局
-- 网络效应强度
-- 规模经济边界
-- 市场格局分析
-- 差异化空间
+  - 集中度分析
+  - 行业集中度
+  - 赢家通吃
+  - 分散市场
+  - 集中度曲线
+  - 行业终局
+  - 网络效应强度
+  - 规模经济边界
+  - 市场格局分析
+  - 差异化空间
+related:
+  series: false
+review_date: 2026-05-08
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-课程地图精华串讲.md
+status: enriched
 tags:
-- '#yitang'
+  - "#yitang"
+title: 集中度分析
 trust_level: medium
+type: tool
+updated_at: 2026-05-08
+version: 1
 yitang:
   map: entrepreneur
   module: 集中度分析
   course_id: yt-entrepreneur-concentration-analysis
   course_type: method
   level: core
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - yt-entrepreneur-scientific-method
-  - yt-model-entrepreneur-map
-  series: false
-source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-08'
-estimated_tokens: 1849
-reviewed_by: 黄药师
-review_date: '2026-05-08'
 ---
 
 # 集中度分析

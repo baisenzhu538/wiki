@@ -1,44 +1,43 @@
 ---
 id: yt-personal-pan-product-practice
+component_of:
+  - yt-composite-pan-product-methodology
+confidence: 0.80
+created_at: 2026-05-11
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 3400
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - 个人修炼
+  - 产品思维
+  - 泛产品设计
+  - 泛产品设计实操篇
+  - 泛产品设计实操篇：需求分析与用户洞察
+  - 需求分析与用户洞察
+related:
+  - yt-model-pan-product-demand-toolkit
+  - yt-personal-pan-product-aesthetics
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md
+status: enriched
+tags:
+  - "#yitang"
+  - "#pan-product-design"
+  - "#user-research"
+  - "#demand-analysis"
 title: 泛产品设计实操篇：需求分析与用户洞察
 type: concept
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-18
 version: 1
-difficulty: intermediate
-confidence: 0.8
-prerequisites: []
-component_of:
-- yt-composite-pan-product-methodology
-related:
-- yt-model-pan-product-demand-toolkit
-- yt-personal-pan-product-aesthetics
-contradicts: []
-query_triggers:
-- 个人修炼
-- 产品思维
-- 泛产品设计
-- 泛产品设计实操篇
-- 泛产品设计实操篇：需求分析与用户洞察
-- 需求分析与用户洞察
-tags:
-- '#yitang'
-- '#pan-product-design'
-- '#user-research'
-- '#demand-analysis'
 yitang:
   map: personal
   module: 个人修炼
   course_type: required
   level: intermediate
-source_refs:
-- 10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md
-created_at: '2026-05-11'
-updated_at: '2026-05-18'
-estimated_tokens: 3400
-reviewed_by: 黄药师
 ---
 
 # 泛产品设计实操篇：需求分析与用户洞察

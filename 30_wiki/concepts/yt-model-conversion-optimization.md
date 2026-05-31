@@ -1,54 +1,44 @@
 ---
 id: yt-model-conversion-optimization
+component_of: []
+confidence: 0.85
+created_at: 2026-05-11
+difficulty: intermediate
+domain:
+  - yitang
+estimated_tokens: 3000
+language: zh-CN
+prerequisites: []
+query_triggers:
+  - FAB 核心说服
+  - 两者联合使用
+  - 动力三曲线
+  - 动力三曲线图
+  - 动力三曲线模型
+  - 十大浪费触点
+  - 十大浪费触点清单
+  - 转化率优化
+  - 转化率优化：动力三曲线 × 十大浪费触点
+related:
+  level: intermediate
+reviewed_by: 黄药师
+source_refs:
+  - 10_raw/assets/yitang/一堂最佳转化率动力曲线图.png
+  - 10_raw/assets/yitang/一堂转化率-10大容易浪费的触点.png
+status: enriched
+tags:
+  - "#yitang"
+  - "#management"
+  - "#conversion-optimization"
+  - "#growth"
 title: 转化率优化：动力三曲线 × 十大浪费触点
 type: framework
-status: enriched
-domain:
-- yitang
-language: zh-CN
+updated_at: 2026-05-11
 version: 1
-difficulty: intermediate
-confidence: 0.85
-prerequisites: []
-component_of: []
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-growth-flywheel
-  - yt-management-conversion-hacking
-  - yt-model-product-core-metrics
-contradicts: []
-query_triggers:
-- FAB 核心说服
-- 两者联合使用
-- 动力三曲线
-- 动力三曲线图
-- 动力三曲线模型
-- 十大浪费触点
-- 十大浪费触点清单
-- 转化率优化
-- 转化率优化：动力三曲线 × 十大浪费触点
-tags:
-- '#yitang'
-- '#management'
-- '#conversion-optimization'
-- '#growth'
 yitang:
   map: management
   module: 管理必修
   course_type: framework
-related:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-growth-flywheel
-  - yt-management-conversion-hacking
-  - yt-model-product-core-metrics
-  level: intermediate
-source_refs:
-- 10_raw/assets/yitang/一堂最佳转化率动力曲线图.png
-- 10_raw/assets/yitang/一堂转化率-10大容易浪费的触点.png
-created_at: '2026-05-11'
-updated_at: '2026-05-11'
-estimated_tokens: 3000
-reviewed_by: 黄药师
 ---
 
 # 转化率优化：动力三曲线 × 十大浪费触点
