@@ -1,95 +1,59 @@
-"""Minimal YAML fix: remove blank lines within block sequences and fix orphaned lines."""
+"""Final fix: wrap YAML values containing unescaped double-quotes in single quotes."""
 import yaml
 from pathlib import Path
 
 CONCEPTS = Path(r"C:\Users\Administrator\Desktop\wiki\30_wiki\concepts")
 
-def fix_frontmatter_whitespace(text):
-    """Remove blank lines within block collections (sequences/mappings) in YAML frontmatter.
-    Blank lines between top-level keys are preserved.
-    """
+def fix_double_quotes_in_values(raw_fm):
+    """Wrap values containing bare double-quotes in single quotes for YAML safety."""
+    lines = raw_fm.split("\n")
+    result = []
+    for line in lines:
+        stripped = line.strip()
+        # Only process indented list items (dimensions items)
+        if stripped.startswith("- ") and ":" in stripped:
+            key_part, _, val_part = stripped.partition(": ")
+            key_part = key_part[2:]  # Remove "- " prefix
+            # If value contains bare " that could be interpreted as YAML string delimiter
+            if '"' in val_part:
+                # Count quotes - if odd, it's a problem
+                quote_count = val_part.count('"')
+                if quote_count > 0 and '=' in val_part:
+                    # Wrap entire value in single quotes
+                    indent = len(line) - len(line.lstrip())
+                    result.append(" " * indent + f"- {key_part}: '{val_part}'")
+                    continue
+            # Also check for "pattern"=pattern which confuses YAML
+            if val_part.strip().startswith('"') and '=' in val_part:
+                indent = len(line) - len(line.lstrip())
+                result.append(" " * indent + f"- {key_part}: '{val_part}'")
+                continue
+        result.append(line)
+    return "\n".join(result)
+
+
+# Fix all 3 broken cards
+for filename in ["yt-decision-y-model.md", "yt-decision-width-method.md", "yt-model-aesthetic-progression.md"]:
+    path = CONCEPTS / filename
+    text = path.read_text(encoding="utf-8", errors="replace")
     if not text.startswith("---\n"):
-        return text
+        continue
     end = text.find("\n---\n", 4)
     if end == -1:
-        return text
+        continue
     raw_fm = text[4:end]
     body = text[end+5:]
 
-    lines = raw_fm.split("\n")
-    result = []
-    # Track whether we're inside a block (list or nested mapping)
-    depth = 0  # >0 means we're inside a block collection
-
-    for line in lines:
-        stripped = line.strip()
-
-        # Detect depth by leading whitespace
-        indent = len(line) - len(line.lstrip())
-
-        # Top-level keys reset depth tracking
-        if indent == 0 and stripped and not stripped.startswith("-") and not stripped.startswith("#"):
-            depth = 0
-            if stripped and not stripped.startswith("#"):
-                # Check if this key opens a block
-                if stripped.endswith(":") and not stripped.startswith("-"):
-                    pass  # Could open a block
-            result.append(line)
-            continue
-
-        # Indented lines or list items
-        if indent > 0 or stripped.startswith("- "):
-            if depth == 0:
-                depth = 1
-
-            # Skip blank lines inside blocks
-            if not stripped and depth > 0:
-                continue
-
-            # Skip blank lines
-            if not stripped:
-                continue
-
-            result.append(line)
-            continue
-
-        # Blank lines between top-level keys
-        result.append(line)
-
-    new_fm = "\n".join(result)
+    fixed_fm = fix_double_quotes_in_values(raw_fm)
     try:
-        yaml.safe_load(new_fm)
-        return "---\n" + new_fm + "\n---\n" + body
-    except yaml.YAMLError:
-        return text  # Don't change if still invalid
+        yaml.safe_load(fixed_fm)
+        new_text = "---\n" + fixed_fm + "\n---\n" + body
+        path.write_text(new_text, encoding="utf-8")
+        print(f"FIXED: {filename}")
+    except yaml.YAMLError as e:
+        print(f"STILL BROKEN: {filename} — {e}")
 
-
-# Find and fix
-for f in sorted(CONCEPTS.glob("*.md")):
-    text = f.read_text(encoding="utf-8", errors="replace")
-    if not text.startswith("---\n"):
-        continue
-    end = text.find("\n---\n", 4)
-    if end == -1:
-        continue
-    try:
-        yaml.safe_load(text[4:end])
-    except yaml.YAMLError:
-        new_text = fix_frontmatter_whitespace(text)
-        if new_text != text:
-            # Verify
-            e = new_text.find("\n---\n", 4)
-            try:
-                yaml.safe_load(new_text[4:e])
-                f.write_text(new_text, encoding="utf-8")
-                print(f"  FIXED: {f.stem}")
-            except yaml.YAMLError as err:
-                print(f"  PARTIAL: {f.stem} — {err}")
-                f.write_text(new_text, encoding="utf-8")
-        else:
-            print(f"  UNFIXABLE: {f.stem} — whitespace removal didn't help")
-
-# Final scan
+# Final verification
 remaining = []
 for f in sorted(CONCEPTS.glob("*.md")):
     text = f.read_text(encoding="utf-8", errors="replace")
@@ -103,6 +67,6 @@ for f in sorted(CONCEPTS.glob("*.md")):
     except yaml.YAMLError:
         remaining.append(f.stem)
 
-print(f"\nYAML-valid: {424 - len(remaining)}/{424}")
+print(f"\nAll cards YAML-valid: {424 - len(remaining)}/{424}")
 if remaining:
-    print(f"Still broken ({len(remaining)}): {remaining}")
+    print(f"Still broken: {remaining}")
