@@ -1,4 +1,4 @@
-"""Gold Standard comparison v5 — clean parsing, proper tracking."""
+"""Gold Standard comparison v5 — fixed text parsing."""
 import json, re, sys
 from pathlib import Path
 
@@ -18,15 +18,12 @@ def parse_gold(path):
         cid = int(sections[i])
         body = sections[i+1] if i+1 < len(sections) else ""
 
-        # Extract source card
         src_m = re.search(r'\*\*来源卡片\*\*\s*\|\s*`(.+?)`', body)
         src = src_m.group(1) if src_m else "?"
 
-        # Extract chunk content
-        cm = re.search(r'\*\*chunk 内容\*\*\s*\|\s*(.+?)(?=\n\|\s*\n\||\n\n\|\s*\|\n)', body, re.DOTALL)
+        cm = re.search(r'\*\*chunk 内容\*\*\s*\|\s*(.+?)(?=\n\|\s*\n\||\n\n)', body, re.DOTALL)
         txt = cm.group(1).strip().strip('"').strip("'") if cm else ""
 
-        # Extract labels
         labels = {}
         table_start = body.find("| 维度 | 标签值 | 理由 |")
         if table_start >= 0:
@@ -56,7 +53,7 @@ def main():
     for chunk in chunks:
         print("--- Chunk {} ({}) ---".format(chunk["id"], chunk["source"].split("/")[-1][:35]))
         if not chunk["text"]:
-            print("  SKIP: empty text")
+            print("  SKIP: empty text\n")
             continue
         print("  text: {}...".format(chunk["text"][:80]))
 
@@ -65,7 +62,6 @@ def main():
         if decisions:
             for d in decisions:
                 auto[d["dimension"]] = d["value"]
-                print("    {}={}".format(d["dimension"], d["value"]))
         else:
             print("    LLM returned empty")
 
@@ -74,21 +70,17 @@ def main():
             gv = chunk["gold"].get(dim)
             if not gv:
                 continue
-            gold_count += 1
-            total_gold += 1
-            dim_total[dim] += 1
+            gold_count += 1; total_gold += 1; dim_total[dim] += 1
             av = auto.get(dim)
             if av and av == str(gv):
-                matches += 1
-                total_match += 1
-                dim_match[dim] += 1
+                matches += 1; total_match += 1; dim_match[dim] += 1
                 print("  OK {}: {}".format(dim, gv))
             elif av:
                 total_miss += 1
                 print("  XX {}: gold={} auto={}".format(dim, gv, av))
             else:
                 total_missing += 1
-                print("  -- {}: gold={} auto=<missing>".format(dim, gv))
+                print("  -- {}: gold={}".format(dim, gv))
 
         acc = matches/gold_count if gold_count else 0
         print("  -> {}/{} ({:.0%})\n".format(matches, gold_count, acc))
@@ -102,6 +94,7 @@ def main():
         if dim_total[dim]:
             print("  {}: {}/{} = {:.0%}".format(dim, dim_match[dim], dim_total[dim],
                   dim_match[dim]/dim_total[dim]))
+    print("\nTarget: >= 85%")
 
 if __name__ == "__main__":
     main()
