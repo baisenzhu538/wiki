@@ -1,11 +1,13 @@
-"""Fix YAML frontmatter: remove blank lines from block collections that break yaml.safe_load."""
+"""Minimal YAML fix: remove blank lines within block sequences and fix orphaned lines."""
 import yaml
 from pathlib import Path
 
 CONCEPTS = Path(r"C:\Users\Administrator\Desktop\wiki\30_wiki\concepts")
 
-def normalize_frontmatter_blank_lines(text):
-    """Remove blank lines inside YAML frontmatter that break block collection parsing."""
+def fix_frontmatter_whitespace(text):
+    """Remove blank lines within block collections (sequences/mappings) in YAML frontmatter.
+    Blank lines between top-level keys are preserved.
+    """
     if not text.startswith("---\n"):
         return text
     end = text.find("\n---\n", 4)
@@ -13,64 +15,56 @@ def normalize_frontmatter_blank_lines(text):
         return text
     raw_fm = text[4:end]
     body = text[end+5:]
+
     lines = raw_fm.split("\n")
     result = []
-    in_block = False
+    # Track whether we're inside a block (list or nested mapping)
+    depth = 0  # >0 means we're inside a block collection
+
     for line in lines:
         stripped = line.strip()
-        if stripped.startswith("- ") or stripped.startswith("  ") or stripped.startswith("\t"):
-            in_block = True
-        elif stripped and ":" in stripped and not stripped.startswith("-"):
-            in_block = False
-        # Remove blank lines in block collections
-        if in_block and not stripped:
+
+        # Detect depth by leading whitespace
+        indent = len(line) - len(line.lstrip())
+
+        # Top-level keys reset depth tracking
+        if indent == 0 and stripped and not stripped.startswith("-") and not stripped.startswith("#"):
+            depth = 0
+            if stripped and not stripped.startswith("#"):
+                # Check if this key opens a block
+                if stripped.endswith(":") and not stripped.startswith("-"):
+                    pass  # Could open a block
+            result.append(line)
             continue
+
+        # Indented lines or list items
+        if indent > 0 or stripped.startswith("- "):
+            if depth == 0:
+                depth = 1
+
+            # Skip blank lines inside blocks
+            if not stripped and depth > 0:
+                continue
+
+            # Skip blank lines
+            if not stripped:
+                continue
+
+            result.append(line)
+            continue
+
+        # Blank lines between top-level keys
         result.append(line)
+
     new_fm = "\n".join(result)
-    # Verify valid YAML
     try:
         yaml.safe_load(new_fm)
-    except yaml.YAMLError as e:
-        print(f"  STILL INVALID after normalization: {e}")
-        return text  # Don't write if still broken
-    return "---\n" + new_fm + "\n---\n" + body
-
-# Find all cards with YAML parse errors
-broken = []
-for f in sorted(CONCEPTS.glob("*.md")):
-    text = f.read_text(encoding="utf-8", errors="replace")
-    if not text.startswith("---\n"):
-        continue
-    end = text.find("\n---\n", 4)
-    if end == -1:
-        continue
-    raw = text[4:end]
-    try:
-        yaml.safe_load(raw)
+        return "---\n" + new_fm + "\n---\n" + body
     except yaml.YAMLError:
-        broken.append(f)
+        return text  # Don't change if still invalid
 
-print(f"Found {len(broken)} cards with YAML parse errors.\n")
 
-for f in broken:
-    text = f.read_text(encoding="utf-8", errors="replace")
-    new_text = normalize_frontmatter_blank_lines(text)
-    if new_text != text:
-        f.write_text(new_text, encoding="utf-8")
-        # Verify after write
-        verify = f.read_text(encoding="utf-8", errors="replace")
-        e = verify.find("\n---\n", 4)
-        if e > 0:
-            try:
-                yaml.safe_load(verify[4:e])
-                print(f"  FIXED: {f.stem}")
-            except yaml.YAMLError as err:
-                print(f"  STILL BROKEN: {f.stem} — {err}")
-    else:
-        print(f"  UNFIXABLE: {f.stem}")
-
-# Final scan
-broken2 = []
+# Find and fix
 for f in sorted(CONCEPTS.glob("*.md")):
     text = f.read_text(encoding="utf-8", errors="replace")
     if not text.startswith("---\n"):
@@ -81,9 +75,34 @@ for f in sorted(CONCEPTS.glob("*.md")):
     try:
         yaml.safe_load(text[4:end])
     except yaml.YAMLError:
-        broken2.append(f)
+        new_text = fix_frontmatter_whitespace(text)
+        if new_text != text:
+            # Verify
+            e = new_text.find("\n---\n", 4)
+            try:
+                yaml.safe_load(new_text[4:e])
+                f.write_text(new_text, encoding="utf-8")
+                print(f"  FIXED: {f.stem}")
+            except yaml.YAMLError as err:
+                print(f"  PARTIAL: {f.stem} — {err}")
+                f.write_text(new_text, encoding="utf-8")
+        else:
+            print(f"  UNFIXABLE: {f.stem} — whitespace removal didn't help")
 
-print(f"\nFinal: {len(broken2)} remaining YAML parse errors")
-if broken2:
-    for b in broken2:
-        print(f"  ❌ {b.stem}")
+# Final scan
+remaining = []
+for f in sorted(CONCEPTS.glob("*.md")):
+    text = f.read_text(encoding="utf-8", errors="replace")
+    if not text.startswith("---\n"):
+        continue
+    end = text.find("\n---\n", 4)
+    if end == -1:
+        continue
+    try:
+        yaml.safe_load(text[4:end])
+    except yaml.YAMLError:
+        remaining.append(f.stem)
+
+print(f"\nYAML-valid: {424 - len(remaining)}/{424}")
+if remaining:
+    print(f"Still broken ({len(remaining)}): {remaining}")
