@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 黄药师 — Phase 1 pilot 审查通过(A/A/A-)。Phase 2 准备完成：dark-knowledge schema ✅、chunk_cards.py v1.3 真原子引擎 ✅(56 chunks vs 旧16)、老顽童 SOP ✅。待老顽童试读SOP → Phase 2 启动。
+active_task: 黄药师 — Phase 2 条件已补齐(5/6)。SOP已补交付路径+范围说明。chunk_cards.py v1.3 真原子引擎就绪。待老顽童试读SOP→上手C-1。欧阳锋审查通过(A-→A)。
 blockers: []
 ---
 
