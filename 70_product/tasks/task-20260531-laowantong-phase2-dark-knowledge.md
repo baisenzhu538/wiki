@@ -142,4 +142,25 @@ related:
 
 ---
 
+## 完成状态
+
+| 阶段 | 素材 | 预估产出 | 状态 |
+|:----:|:-----|:--------:|:----:|
+| Phase 2.1 | corrections.md | 11 张 dk-c | ✅ 全部通过 |
+| Phase 2.2 | failure-modes.md | 22 张 dk-f | 🔨 进行中 |
+| Phase 2.3 | pitfalls.md | 15 张 dk-p | ⏳ 下一站 |
+
+Phase 2.2 完成后不做三期的乱七八糟扫描。直接进 **Phase 2.3 — pitfalls.md**（15 条踩坑记录，`。agent/pitfalls.md`）。
+
+**和 failure-modes 的区别**：
+- source_person = `system`（不变）
+- source_context = `"pitfalls.md P-{N}"`
+- dark_knowledge_type = `failure`（不变）
+- 文件名前缀 = `dk-p{N}-{slug}.md`
+- 其他六字段模板完全一样
+
+做完 Phase 2.3，一期结构化源全部入库（corrections 12 + failure-modes 22 + pitfalls 15 = **49 张暗知识卡**）。二期待黄药师萃取器就绪后再安排。
+
+---
+
 *欧阳锋 · 2026-05-31*
