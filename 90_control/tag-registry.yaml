@@ -1,0 +1,121 @@
+# KDO Controlled Tag Vocabulary
+# ==============================
+# Version: 1.0
+# Created: 2026-05-31
+# Purpose: Multi-dimensional tagging for concept cards.
+#   Provides deterministic filtering/statistics where semantic search
+#   provides probabilistic discovery. These are complementary, not redundant.
+#
+# Convention:
+#   - Tags use format: #namespace/value (lowercase, hyphens, ASCII only)
+#   - Max 3 levels: #namespace/group/value
+#   - Deprecated tags get status: deprecated, never removed
+#   - New values can be added; existing values never change meaning
+#
+# Usage:
+#   - kdo cards --tag "#method/decision-framework"
+#   - Graph RAG cross-domain bridge detection uses domain/* tags
+#   - Validation checks all tags are in this registry
+
+version: 1
+created_at: 2026-05-31
+updated_at: 2026-05-31
+
+namespaces:
+
+  # --- Dimension 1: Method ---
+  # What method/tool/framework does this card teach or describe?
+  method:
+    description: "Knowledge about methods, frameworks, and techniques"
+    values:
+      - thinking-tool          # Cognitive tools, mental models
+      - decision-framework     # Decision-making frameworks (ROI, ABCDE, etc.)
+      - learning-method        # Learning methodologies (IPO, Y-model, etc.)
+      - research-method        # Research and investigation methodologies
+      - product-design         # Product design methods
+      - management-tool        # Management and leadership tools
+      - execution-method       # Execution and delivery frameworks
+      - evaluation-method      # Evaluation, assessment, scoring frameworks
+      - communication-method   # Communication, presentation, expression methods
+      - prompt-engineering     # Prompt design and engineering techniques
+
+  # --- Dimension 2: Domain ---
+  # What real-world domain does this knowledge apply to?
+  domain:
+    description: "Application domain of the knowledge"
+    values:
+      - healthcare-it          # Healthcare IT, HIS, medical systems
+      - ai-engineering         # AI/ML engineering, LLM application
+      - entrepreneurship       # Entrepreneurship, startups, business
+      - personal-growth        # Personal development, career growth
+      - knowledge-management   # Knowledge management, PKM, KDO itself
+      - design                 # Visual design, UI/UX, AIGC design
+      - software-engineering   # Software development, architecture
+
+  # --- Dimension 3: Quality ---
+  # What is the quality/trust signal for this card?
+  quality:
+    description: "Data quality and trust signals"
+    values:
+      - needs-review           # Card needs human review
+      - stub                   # Minimal/stub content — thin card
+      - high-signal            # High signal density — verified quality
+      - ocr-card               # Derived from OCR — may have errors
+      - low-confidence         # Confidence < 0.6 — treat claims cautiously
+
+  # --- Dimension 4: Role ---
+  # What role does this card play in the knowledge graph?
+  role:
+    description: "Structural role in the knowledge graph"
+    values:
+      - hub                    # Highly connected central card (>= 5 incoming links)
+      - leaf                   # Peripheral card with few connections
+      - bridge                 # Cross-domain connector (links 2+ domains)
+      - reference              # Reference/lookup card (entity, glossary, index)
+      - index                  # Navigation/index card (hub page, catalog)
+
+# --- Tag Inference Map ---
+# Used by tag_cards.py for AI-assisted tag suggestion.
+# Human always confirms before write.
+#
+# Format:
+#   prefix_pattern:
+#     - suggested_tag
+
+inference_map:
+  "yt-":
+    - "#domain/entrepreneurship"
+    - "#method/product-design"
+  "master-":
+    - "#domain/knowledge-management"
+  "ocr-一堂-":
+    - "#domain/entrepreneurship"
+    - "#quality/ocr-card"
+  "ocr-":
+    - "#quality/ocr-card"
+  "design-":
+    - "#domain/design"
+  "kdo-":
+    - "#domain/knowledge-management"
+    - "#domain/software-engineering"
+  "graph-rag":
+    - "#domain/ai-engineering"
+    - "#domain/knowledge-management"
+  "deepseek-":
+    - "#domain/ai-engineering"
+  "kimi-":
+    - "#domain/ai-engineering"
+  "anthropic-":
+    - "#domain/ai-engineering"
+  "ai-native":
+    - "#domain/ai-engineering"
+  "his-":
+    - "#domain/healthcare-it"
+  "ec-":
+    - "#domain/knowledge-management"
+    - "#method/evaluation-method"
+
+# Cards with domain: yitang → add #domain/entrepreneurship
+# Cards with domain: master → add #domain/knowledge-management + #method/thinking-tool
+# Cards with domain: healthcare → add #domain/healthcare-it
+# Cards with domain: ai-saas → add #domain/ai-engineering
