@@ -29,7 +29,8 @@ def parse_gold(path):
         for row in sec.split("\n"):
             cells = [c.strip() for c in row.split("|") if c.strip()]
             if len(cells) >= 2 and cells[0] in DIMS:
-                labels[cells[0]] = cells[1]
+                val = cells[1].strip("`").strip("'").strip('"')
+                labels[cells[0]] = val
         chunks.append({"id": cid, "source": src, "text": txt, "gold": labels})
     return chunks
 
