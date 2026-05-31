@@ -1,262 +1,262 @@
 {
   "total_chunks": 15,
   "total_dimensions": 135,
-  "total_matches": 47,
-  "accuracy": 0.3481,
+  "total_matches": 107,
+  "accuracy": 0.7926,
   "chunks": [
     {
       "id": 1,
       "dims": 9,
-      "matches": 4,
-      "accuracy": 0.444,
+      "matches": 8,
+      "accuracy": 0.889,
       "details": [
         "  PASS chunk_type: definition",
         "  PASS method_family: thinking-tool",
         "  PASS audience: general",
         "  PASS perspective: general",
-        "  FAIL platform: gold=general auto=<missing>",
-        "  FAIL confidence: gold=0.90 auto=<missing>",
-        "  FAIL prerequisite_knowledge: gold=basic-domain auto=<missing>",
-        "  FAIL expiry: gold=stable auto=<missing>",
-        "  FAIL usage_depth: gold=feed auto=<missing>"
+        "  PASS platform: general",
+        "  PASS confidence: 0.90",
+        "  FAIL prerequisite_knowledge: gold=basic-domain auto=none",
+        "  PASS expiry: stable",
+        "  PASS usage_depth: feed"
       ]
     },
     {
       "id": 2,
       "dims": 9,
-      "matches": 3,
-      "accuracy": 0.333,
+      "matches": 6,
+      "accuracy": 0.667,
       "details": [
         "  PASS chunk_type: procedure",
-        "  PASS method_family: thinking-tool",
+        "  FAIL method_family: gold=thinking-tool auto=decision-framework",
         "  FAIL audience: gold=manager auto=general",
         "  PASS perspective: general",
-        "  FAIL platform: gold=general auto=<missing>",
-        "  FAIL confidence: gold=0.90 auto=<missing>",
-        "  FAIL prerequisite_knowledge: gold=basic-domain auto=<missing>",
-        "  FAIL expiry: gold=stable auto=<missing>",
-        "  FAIL usage_depth: gold=feed auto=<missing>"
+        "  PASS platform: general",
+        "  FAIL confidence: gold=0.90 auto=0.70",
+        "  PASS prerequisite_knowledge: basic-domain",
+        "  PASS expiry: stable",
+        "  PASS usage_depth: feed"
       ]
     },
     {
       "id": 3,
       "dims": 9,
-      "matches": 3,
-      "accuracy": 0.333,
+      "matches": 8,
+      "accuracy": 0.889,
       "details": [
         "  PASS chunk_type: critique",
         "  FAIL method_family: gold=thinking-tool auto=decision-framework",
         "  PASS audience: general",
         "  PASS perspective: professional",
-        "  FAIL platform: gold=general auto=<missing>",
-        "  FAIL confidence: gold=0.70 auto=<missing>",
-        "  FAIL prerequisite_knowledge: gold=intermediate-method auto=<missing>",
-        "  FAIL expiry: gold=stable auto=<missing>",
-        "  FAIL usage_depth: gold=feed auto=<missing>"
+        "  PASS platform: general",
+        "  PASS confidence: 0.70",
+        "  PASS prerequisite_knowledge: intermediate-method",
+        "  PASS expiry: stable",
+        "  PASS usage_depth: feed"
       ]
     },
     {
       "id": 4,
       "dims": 9,
-      "matches": 3,
-      "accuracy": 0.333,
+      "matches": 7,
+      "accuracy": 0.778,
       "details": [
         "  PASS chunk_type: constraint",
-        "  PASS method_family: thinking-tool",
+        "  FAIL method_family: gold=thinking-tool auto=decision-framework",
         "  PASS audience: manager",
-        "  FAIL perspective: gold=general auto=<missing>",
-        "  FAIL platform: gold=general auto=<missing>",
-        "  FAIL confidence: gold=0.90 auto=<missing>",
-        "  FAIL prerequisite_knowledge: gold=basic-domain auto=<missing>",
-        "  FAIL expiry: gold=stable auto=<missing>",
-        "  FAIL usage_depth: gold=feed auto=<missing>"
+        "  PASS perspective: general",
+        "  PASS platform: general",
+        "  FAIL confidence: gold=0.90 auto=0.85",
+        "  PASS prerequisite_knowledge: basic-domain",
+        "  PASS expiry: stable",
+        "  PASS usage_depth: feed"
       ]
     },
     {
       "id": 5,
       "dims": 9,
-      "matches": 2,
-      "accuracy": 0.222,
+      "matches": 4,
+      "accuracy": 0.444,
       "details": [
         "  FAIL chunk_type: gold=claim auto=cross_reference",
         "  FAIL method_family: gold=decision-framework auto=knowledge-engineering",
         "  PASS audience: general",
         "  PASS perspective: general",
-        "  FAIL platform: gold=general auto=<missing>",
-        "  FAIL confidence: gold=0.85 auto=<missing>",
-        "  FAIL prerequisite_knowledge: gold=basic-domain auto=<missing>",
-        "  FAIL expiry: gold=stable auto=<missing>",
-        "  FAIL usage_depth: gold=feed auto=<missing>"
+        "  PASS platform: general",
+        "  FAIL confidence: gold=0.85 auto=0.70",
+        "  FAIL prerequisite_knowledge: gold=basic-domain auto=intermediate-method",
+        "  PASS expiry: stable",
+        "  FAIL usage_depth: gold=feed auto=retrieval"
       ]
     },
     {
       "id": 6,
       "dims": 9,
-      "matches": 1,
-      "accuracy": 0.111,
+      "matches": 6,
+      "accuracy": 0.667,
       "details": [
         "  FAIL chunk_type: gold=definition auto=procedure",
         "  PASS method_family: decision-framework",
         "  FAIL audience: gold=manager auto=general",
-        "  FAIL perspective: gold=general auto=roi",
-        "  FAIL platform: gold=general auto=<missing>",
-        "  FAIL confidence: gold=0.85 auto=<missing>",
-        "  FAIL prerequisite_knowledge: gold=basic-domain auto=<missing>",
-        "  FAIL expiry: gold=stable auto=<missing>",
-        "  FAIL usage_depth: gold=feed auto=<missing>"
+        "  PASS perspective: general",
+        "  PASS platform: general",
+        "  FAIL confidence: gold=0.85 auto=0.75",
+        "  PASS prerequisite_knowledge: basic-domain",
+        "  PASS expiry: stable",
+        "  PASS usage_depth: feed"
       ]
     },
     {
       "id": 7,
       "dims": 9,
-      "matches": 4,
-      "accuracy": 0.444,
+      "matches": 9,
+      "accuracy": 1.0,
       "details": [
         "  PASS chunk_type: critique",
         "  PASS method_family: decision-framework",
         "  PASS audience: general",
         "  PASS perspective: professional",
-        "  FAIL platform: gold=general auto=<missing>",
-        "  FAIL confidence: gold=0.70 auto=<missing>",
-        "  FAIL prerequisite_knowledge: gold=intermediate-method auto=<missing>",
-        "  FAIL expiry: gold=stable auto=<missing>",
-        "  FAIL usage_depth: gold=feed auto=<missing>"
+        "  PASS platform: general",
+        "  PASS confidence: 0.70",
+        "  PASS prerequisite_knowledge: intermediate-method",
+        "  PASS expiry: stable",
+        "  PASS usage_depth: feed"
       ]
     },
     {
       "id": 8,
       "dims": 9,
-      "matches": 3,
-      "accuracy": 0.333,
+      "matches": 9,
+      "accuracy": 1.0,
       "details": [
         "  PASS chunk_type: constraint",
         "  PASS method_family: decision-framework",
         "  PASS audience: manager",
-        "  FAIL perspective: gold=general auto=<missing>",
-        "  FAIL platform: gold=general auto=<missing>",
-        "  FAIL confidence: gold=0.85 auto=<missing>",
-        "  FAIL prerequisite_knowledge: gold=basic-domain auto=<missing>",
-        "  FAIL expiry: gold=stable auto=<missing>",
-        "  FAIL usage_depth: gold=feed auto=<missing>"
+        "  PASS perspective: general",
+        "  PASS platform: general",
+        "  PASS confidence: 0.85",
+        "  PASS prerequisite_knowledge: basic-domain",
+        "  PASS expiry: stable",
+        "  PASS usage_depth: feed"
       ]
     },
     {
       "id": 9,
       "dims": 9,
-      "matches": 4,
-      "accuracy": 0.444,
+      "matches": 9,
+      "accuracy": 1.0,
       "details": [
         "  PASS chunk_type: action_trigger",
         "  PASS method_family: decision-framework",
         "  PASS audience: manager",
         "  PASS perspective: roi",
-        "  FAIL platform: gold=general auto=<missing>",
-        "  FAIL confidence: gold=0.85 auto=<missing>",
-        "  FAIL prerequisite_knowledge: gold=basic-domain auto=<missing>",
-        "  FAIL expiry: gold=current auto=<missing>",
-        "  FAIL usage_depth: gold=feed auto=<missing>"
+        "  PASS platform: general",
+        "  PASS confidence: 0.85",
+        "  PASS prerequisite_knowledge: basic-domain",
+        "  PASS expiry: current",
+        "  PASS usage_depth: feed"
       ]
     },
     {
       "id": 10,
       "dims": 9,
-      "matches": 4,
-      "accuracy": 0.444,
+      "matches": 9,
+      "accuracy": 1.0,
       "details": [
         "  PASS chunk_type: procedure",
         "  PASS method_family: evaluation-method",
         "  PASS audience: general",
         "  PASS perspective: general",
-        "  FAIL platform: gold=general auto=<missing>",
-        "  FAIL confidence: gold=0.85 auto=<missing>",
-        "  FAIL prerequisite_knowledge: gold=none auto=<missing>",
-        "  FAIL expiry: gold=stable auto=<missing>",
-        "  FAIL usage_depth: gold=feed auto=<missing>"
+        "  PASS platform: general",
+        "  PASS confidence: 0.85",
+        "  PASS prerequisite_knowledge: none",
+        "  PASS expiry: stable",
+        "  PASS usage_depth: feed"
       ]
     },
     {
       "id": 11,
       "dims": 9,
-      "matches": 4,
-      "accuracy": 0.444,
+      "matches": 8,
+      "accuracy": 0.889,
       "details": [
         "  PASS chunk_type: critique",
         "  PASS method_family: evaluation-method",
         "  PASS audience: general",
         "  PASS perspective: professional",
-        "  FAIL platform: gold=general auto=<missing>",
-        "  FAIL confidence: gold=0.90 auto=<missing>",
-        "  FAIL prerequisite_knowledge: gold=basic-domain auto=<missing>",
-        "  FAIL expiry: gold=stable auto=<missing>",
-        "  FAIL usage_depth: gold=feed auto=<missing>"
+        "  PASS platform: general",
+        "  PASS confidence: 0.90",
+        "  FAIL prerequisite_knowledge: gold=basic-domain auto=intermediate-method",
+        "  PASS expiry: stable",
+        "  PASS usage_depth: feed"
       ]
     },
     {
       "id": 12,
       "dims": 9,
-      "matches": 4,
-      "accuracy": 0.444,
+      "matches": 7,
+      "accuracy": 0.778,
       "details": [
         "  PASS chunk_type: constraint",
         "  PASS method_family: evaluation-method",
         "  PASS audience: general",
         "  PASS perspective: general",
-        "  FAIL platform: gold=general auto=<missing>",
-        "  FAIL confidence: gold=0.90 auto=<missing>",
-        "  FAIL prerequisite_knowledge: gold=none auto=<missing>",
-        "  FAIL expiry: gold=stable auto=<missing>",
-        "  FAIL usage_depth: gold=feed auto=<missing>"
+        "  PASS platform: general",
+        "  FAIL confidence: gold=0.90 auto=0.85",
+        "  FAIL prerequisite_knowledge: gold=none auto=basic-domain",
+        "  PASS expiry: stable",
+        "  PASS usage_depth: feed"
       ]
     },
     {
       "id": 13,
       "dims": 9,
-      "matches": 3,
-      "accuracy": 0.333,
+      "matches": 6,
+      "accuracy": 0.667,
       "details": [
         "  PASS chunk_type: claim",
         "  PASS method_family: knowledge-engineering",
         "  FAIL audience: gold=developer auto=general",
-        "  PASS perspective: professional",
-        "  FAIL platform: gold=general auto=<missing>",
-        "  FAIL confidence: gold=0.75 auto=<missing>",
-        "  FAIL prerequisite_knowledge: gold=basic-domain auto=<missing>",
-        "  FAIL expiry: gold=current auto=<missing>",
-        "  FAIL usage_depth: gold=feed auto=<missing>"
+        "  FAIL perspective: gold=professional auto=general",
+        "  PASS platform: general",
+        "  FAIL confidence: gold=0.75 auto=0.70",
+        "  PASS prerequisite_knowledge: basic-domain",
+        "  PASS expiry: current",
+        "  PASS usage_depth: feed"
       ]
     },
     {
       "id": 14,
       "dims": 9,
-      "matches": 3,
-      "accuracy": 0.333,
+      "matches": 6,
+      "accuracy": 0.667,
       "details": [
         "  FAIL chunk_type: gold=definition auto=synthesis",
         "  PASS method_family: thinking-tool",
         "  PASS audience: developer",
         "  PASS perspective: professional",
-        "  FAIL platform: gold=general auto=<missing>",
-        "  FAIL confidence: gold=0.75 auto=<missing>",
-        "  FAIL prerequisite_knowledge: gold=basic-domain auto=<missing>",
-        "  FAIL expiry: gold=current auto=<missing>",
-        "  FAIL usage_depth: gold=feed auto=<missing>"
+        "  PASS platform: general",
+        "  FAIL confidence: gold=0.75 auto=0.70",
+        "  FAIL prerequisite_knowledge: gold=basic-domain auto=intermediate-method",
+        "  PASS expiry: current",
+        "  PASS usage_depth: feed"
       ]
     },
     {
       "id": 15,
       "dims": 9,
-      "matches": 2,
-      "accuracy": 0.222,
+      "matches": 5,
+      "accuracy": 0.556,
       "details": [
         "  FAIL chunk_type: gold=question auto=claim",
-        "  PASS method_family: knowledge-engineering",
+        "  FAIL method_family: gold=knowledge-engineering auto=thinking-tool",
         "  PASS audience: developer",
-        "  FAIL perspective: gold=professional auto=general",
-        "  FAIL platform: gold=general auto=<missing>",
-        "  FAIL confidence: gold=0.70 auto=<missing>",
-        "  FAIL prerequisite_knowledge: gold=basic-domain auto=<missing>",
-        "  FAIL expiry: gold=current auto=<missing>",
-        "  FAIL usage_depth: gold=feed auto=<missing>"
+        "  PASS perspective: professional",
+        "  PASS platform: general",
+        "  FAIL confidence: gold=0.70 auto=0.50",
+        "  FAIL prerequisite_knowledge: gold=basic-domain auto=intermediate-method",
+        "  PASS expiry: current",
+        "  PASS usage_depth: feed"
       ]
     }
   ]
