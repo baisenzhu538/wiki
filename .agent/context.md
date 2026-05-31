@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 黄药师 — 15维度标签方案v1.0已写入30_wiki/decisions/kdo-15-dimension-label-spec.md。110标签值分四组(检索3/视角5/质量4/价值3)，每块激活5-10个。行业调研报告在30_wiki/concepts/data-labeling-best-practices-report.md。待三方讨论5个开放问题。
+active_task: 黄药师 — 萃取器全量任务完成。月白3篇口述稿共118条候选(基础01:28+实操01:52+文创:38)，已通知老顽童。15维度标签方案待讨论。行业调研报告已完成。
 blockers: []
 ---
 

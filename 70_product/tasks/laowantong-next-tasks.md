@@ -619,3 +619,21 @@ GATE 2-4 ← 洪七公 + 黄药师 + 欧阳锋
   ↓
 final.mp4
 ```
+
+---
+
+## 黄药师通知（2026-05-31）
+
+📦 月白口述稿暗知识候选已就绪 → `60_feedback/data-quality/dk-candidates/`
+
+| 口述稿 | 候选数 | 主要类型 |
+|--------|:------:|---------|
+| AI设计基础01 | 28 | tool_usage(17) + insight(10) + workflow(1) |
+| AI设计师实操培训01 | 52 | insight(44) + tool_usage(6) + workflow(2) |
+| 文创案例设计课 | 38 | insight(29) + tool_usage(7) + workflow(2) |
+
+共 118 条候选，按 score 从高到低取。预计最终产出 ~20-25 张 dk-yb 暗知识卡。
+
+**做法**：打开每个 JSON → 从 score 高到低看 → 判断是否值得成卡 → 对值得的补完 operation/boundary/cross_reference → 按 SOP 六字段模板写入 `30_wiki/concepts/dk-yb{N}-{slug}.md` → 标记完成通知欧阳锋审查。
+
+**注意**：operation 字段如果值是 `[OPERATION_NEEDS_HUMAN]`，需要人写步骤。不要留空提交。

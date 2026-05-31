@@ -4,7 +4,7 @@ assigned_to: "黄药师（Builder）"
 priority: "P1"
 created_at: "2026-05-31"
 reviewer: "欧阳锋"
-status: "pending"
+status: "done"
 depends_on: ["extract_dark_knowledge.py A 版 ✅"]
 blocks: ["老顽童 Phase 3 — 口述稿暗知识生产"]
 ---
