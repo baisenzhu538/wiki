@@ -36,6 +36,7 @@ properties:
       - improvement-plan
       - system
       - trend
+      - dark-knowledge
     description: >
       concept: abstract idea or knowledge card
       entity: person, company, organization

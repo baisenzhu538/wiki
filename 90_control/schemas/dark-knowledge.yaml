@@ -1,0 +1,171 @@
+# Dark Knowledge Card JSON Schema
+# Used by AI agents to validate frontmatter before creating/updating dark-knowledge cards.
+# File: 90_control/schemas/dark-knowledge.yaml
+# Reference: plan_20260531_data-curator-v1.3.md (Dual-track capture)
+
+$id: "kdo://schemas/dark-knowledge"
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "KDO Dark Knowledge Card"
+description: >
+  Schema for dark-knowledge cards stored in 30_wiki/concepts/ alongside concept cards.
+  Dark knowledge = knowledge NOT in any AI training corpus: process data, error records,
+  personal workflow insights, expert heuristics, impromptu professional judgments.
+  Captured via 6-field template (not 3-step compilation).
+
+type: object
+required:
+  - title
+  - type
+  - dark_knowledge_type
+  - status
+  - source_person
+  - source_context
+  - source_refs
+  - created_at
+  - updated_at
+
+properties:
+  title:
+    type: string
+    minLength: 1
+    maxLength: 120
+    description: "Human-readable title. Convention: C-N: succinct description. Example: 'C-10: 基础设施工具改后直接跑批量→71张卡被清空'"
+
+  type:
+    type: string
+    const: dark-knowledge
+    description: "Must be 'dark-knowledge'. This distinguishes it from concept/entity/comparison/etc."
+
+  dark_knowledge_type:
+    type: string
+    enum:
+      - failure
+      - workflow
+      - tool_usage
+      - learning_path
+      - insight
+      - comparison
+    description: >
+      failure: verified error/correction with root cause analysis
+      workflow: personal/professional workflow or method discovered in practice
+      tool_usage: specific tool usage pattern, configuration, or integration trick
+      learning_path: how someone went from zero to proficiency in a domain
+      insight: impromptu professional judgment, aphorism, or heuristic
+      comparison: before/after contrast of versions, approaches, or outcomes
+
+  status:
+    type: string
+    enum:
+      - draft
+      - reviewed
+      - stable
+    description: >
+      draft: initial creation, pending review
+      reviewed: passed Architect review
+      stable: validated as useful dark knowledge, may be upgraded to concept card
+
+  source_person:
+    type: string
+    minLength: 1
+    description: "Who provided this dark knowledge? Name or role. Example: '欧阳锋', 'Truman', '月白'"
+
+  source_context:
+    type: string
+    minLength: 1
+    description: >
+      In what context was this knowledge shared?
+      Example: 'Sprint 6 终审发现，2026-05-20', 'AIGC设计基础线上分享'
+
+  source_refs:
+    type: array
+    minItems: 1
+    items:
+      type: string
+    description: >
+      Array of source references. Can include corrections.md anchors,
+      inbox file paths, or standard src_* references.
+      Example: ['20_memory/corrections.md#C-10']
+
+  created_at:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+
+  updated_at:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+
+  domain:
+    type: array
+    items:
+      type: string
+      enum:
+        - master
+        - ai-saas
+        - healthcare
+        - yitang
+    description: "Knowledge domain classification. Same enum as concept cards."
+
+  tags:
+    type: array
+    items:
+      type: string
+      pattern: "^#[a-z0-9-/]+$"
+    description: >
+      Tags for filtering. Should include at minimum:
+      - #source_type/error or #source_type/process or #source_type/diverse
+      - domain tag and method tag as applicable
+
+  related:
+    type: array
+    items:
+      type: string
+    description: >
+      Links to related concept cards or other dark-knowledge cards.
+      Direction: dark-knowledge → concept (one-way, not bidirectional).
+      Format: dk-c10-batch-tool-no-dry-run, master-decision-hygiene
+
+  trust_level:
+    type: string
+    enum:
+      - high
+      - medium
+      - low
+    description: >
+      high: firsthand observation by source_person
+      medium: secondhand but well-documented
+      low: anecdotal or unverified
+
+  reviewed_by:
+    type: string
+    description: "Architect who reviewed this dark-knowledge card."
+
+  review_date:
+    type: string
+    format: date
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+
+additionalProperties: false
+
+# --- 6-field body template (not in frontmatter, enforced by review) ---
+#
+# Body structure (MUST follow this order):
+#
+# ## 原始表述
+# > [Direct quote from source_person. Verbatim, not paraphrased.]
+#
+# ## 使用场景
+# [When to use this knowledge? Be specific, not generic. What situation triggers it?]
+#
+# ## 操作方法
+# [How to apply it? Step-level. Standard: another person/AI can reproduce from these steps.]
+#
+# ## 适用边界
+# [When does it NOT work? What are the counter-examples? What are the preconditions?]
+#
+# ## 为什么值钱
+# [Why is this NOT in any AI training corpus? Why does having it give an edge?]
+#
+# ## 与其他知识的关联
+# [Links to related concept cards or other dark-knowledge cards. One-way: dk → concept.]
