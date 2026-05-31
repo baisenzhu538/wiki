@@ -147,23 +147,49 @@ def parse_frontmatter(text: str) -> tuple[dict, str]:
 
 
 def load_valid_tags() -> set[str]:
-    """Load valid tags from registry."""
+    """Load valid tags from registry.
+
+    Parses nested YAML: namespaces → <ns> → values → list items.
+    Returns tags in #namespace/value format.
+    """
     if not TAG_REGISTRY_PATH.exists():
         return set()
 
     text = TAG_REGISTRY_PATH.read_text(encoding="utf-8")
     valid_tags = set()
+
+    current_namespace = None
     in_values = False
 
     for line in text.split("\n"):
         stripped = line.strip()
-        if stripped.startswith("values:"):
-            in_values = True
+        if not stripped or stripped.startswith("#"):
             continue
-        if in_values:
-            if stripped.startswith("- ") and stripped[2:].startswith("#"):
-                valid_tags.add(stripped[2:].strip())
-            elif not stripped.startswith("- ") and ":" in stripped and not stripped.startswith("#"):
+
+        leading_spaces = len(line) - len(line.lstrip(" "))
+
+        if stripped.endswith(":") and not stripped.startswith("- "):
+            key = stripped.rstrip(":")
+            if leading_spaces == 2 and key not in ("description", "values", "version", "created_at", "updated_at", "namespaces", "inference_map"):
+                current_namespace = key
+                in_values = False
+            elif leading_spaces == 4 and key == "values" and current_namespace:
+                in_values = True
+            elif leading_spaces in (0, 2) and key in ("namespaces", "description"):
+                pass
+            else:
+                if in_values and leading_spaces <= 2:
+                    in_values = False
+            continue
+
+        if in_values and current_namespace:
+            if stripped.startswith("- "):
+                raw_val = stripped[2:].strip()
+                if "#" in raw_val:
+                    raw_val = raw_val.split("#")[0].strip()
+                if raw_val:
+                    valid_tags.add(f"#{current_namespace}/{raw_val}")
+            elif leading_spaces <= 2:
                 in_values = False
 
     return valid_tags

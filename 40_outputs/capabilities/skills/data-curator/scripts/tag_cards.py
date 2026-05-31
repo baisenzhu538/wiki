@@ -78,7 +78,21 @@ KEYWORD_TAG_MAP = {
 
 
 def load_tag_registry() -> set[str]:
-    """Load all valid tag values from the tag registry."""
+    """Load all valid tag values from the tag registry.
+
+    Parses the nested YAML structure:
+      namespaces:
+        method:
+          values:
+            - thinking-tool
+            - decision-framework
+        domain:
+          values:
+            - healthcare-it
+            ...
+
+    Returns tags in #namespace/value format.
+    """
     if not TAG_REGISTRY_PATH.exists():
         print(f"WARNING: Tag registry not found at {TAG_REGISTRY_PATH}")
         return set()
@@ -86,18 +100,46 @@ def load_tag_registry() -> set[str]:
     text = TAG_REGISTRY_PATH.read_text(encoding="utf-8")
     valid_tags = set()
 
-    # Simple YAML parsing (avoid dependency on PyYAML)
+    current_namespace = None
     in_values = False
+    indent_level = 0
+
     for line in text.split("\n"):
         stripped = line.strip()
-        if stripped.startswith("values:"):
-            in_values = True
+        if not stripped or stripped.startswith("#"):
             continue
-        if in_values:
-            if stripped.startswith("- ") and stripped[2:].startswith("#"):
-                tag_val = stripped[2:].strip()
-                valid_tags.add(tag_val)
-            elif not stripped.startswith("- ") and ":" in stripped and not stripped.startswith("#"):
+
+        # Detect indent level
+        leading_spaces = len(line) - len(line.lstrip(" "))
+
+        # Top-level keys under namespaces:
+        if stripped.endswith(":") and not stripped.startswith("- "):
+            key = stripped.rstrip(":")
+            # Check if this is a namespace definition (indented 2 spaces under namespaces:)
+            if leading_spaces == 2 and key not in ("description", "values", "version", "created_at", "updated_at", "namespaces", "inference_map"):
+                current_namespace = key
+                in_values = False
+            elif leading_spaces == 4 and key == "values" and current_namespace:
+                in_values = True
+            elif leading_spaces in (0, 2) and key in ("namespaces", "description"):
+                pass  # Structural keys
+            else:
+                # Any other key: end current values block
+                if in_values and leading_spaces <= 2:
+                    in_values = False
+            continue
+
+        # Collect values inside a namespace's values: block
+        if in_values and current_namespace:
+            if stripped.startswith("- "):
+                # Extract value name (strip inline comment after #)
+                raw_val = stripped[2:].strip()
+                if "#" in raw_val:
+                    raw_val = raw_val.split("#")[0].strip()
+                if raw_val:
+                    valid_tags.add(f"#{current_namespace}/{raw_val}")
+            elif leading_spaces <= 2:
+                # End of values block
                 in_values = False
 
     return valid_tags
