@@ -1,9 +1,8 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 老顽童 Phase 2.2 (failure-modes→12 dk-f) + 2.3 (pitfalls→15 dk-p) 全部审查通过 ✅ A级。总计38张暗知识卡入库（11 dk-c + 12 dk-f + 15 dk-p）。黄药师 Data Curator Clean D ⚠️ — parse_frontmatter bug 修复方案已写入 30_wiki/decisions/fix-data-curator-parse-bug.md，待黄药师执行。
-blockers:
-  - "Data Curator Clean parse_frontmatter bug 阻塞 Pilot 启动"
+active_task: 今日完结。① workspace.py parse_frontmatter + yaml_scalar 已修复（yaml.safe_load + yaml.dump）✅ ② auto_label 准确率基线：34.8%（vs Gold Standard 15条）— 黄药师待调prompt ③ 萃取器LLM升级方案已写入 ④ 三段式审查框架 v2 已更新到toolkit.md ⑤ YAML安全操作指南已入库。
+blockers: []
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。

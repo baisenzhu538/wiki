@@ -233,3 +233,21 @@
 - **短期**：修改后必须同时更新 state.json（用 Python 脚本 or `kdo` 命令）
 - **长治**：validate 应以文件 frontmatter 为 source of truth，state.json 和 registry 只做缓存/索引。发现不一致时自动同步或报 warning
 - **优先级**：P1——每次手动改文件都要记住还有state.json，极易遗忘
+
+---
+
+## P-17: auto_label 声称"85%准确率"——实测34.8%，差距来自被忽略的5个维度
+
+**症状**：黄药师说"提示词调优后准确率做到了85%"。欧阳锋用 Gold Standard（15条手工标注 chunk）独立验证，实测34.8%（47/135）。差距巨大。黄药师的"85%"只算了管线实际在标的 4 个维度（chunk_type/method_family/audience/perspective），忽略了另外 5 个维度（platform/confidence/prerequisite_knowledge/expiry/usage_depth）全线 `<missing>`。
+
+**根因（2层）**：
+1. **测量口径不同**：黄药师测的是部分维度局部准确率，欧阳锋测的是全维度全样本准确率。双方没有约定统一的测量方法和数据集。
+2. **缺少gold standard基线比对流程**：没有在调 prompt 之前先跑一遍 baseline 确认当前准确率，导致"进步"和"绝对水平"被混淆。
+
+**对策**：
+- **任何"准确率"声明必须附带测量方法**：用了什么数据集？覆盖哪些维度？计算方式？
+- **Gold Standard 必须跑 full comparison**：不能只挑管线能标的维度算——缺标的维度也要报告
+- **调 prompt 前先跑 baseline**：改 prompt 之前先跑一遍 `_verify_gold_standard.py`，确认起点
+- **所有自动标注管线的性能评估以 Gold Standard 为唯一基准**：`30_wiki/decisions/gold-standard-manual-labels.md`（15 条 chunk，含理由说明）
+
+**关联**：P-15（声称完成未验证）的同一种病的不同表现——这次不是"没做"，而是"测了但测的是错的指标"。
