@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 黄药师 — Sprint 2026-05-31 全部完成 ✅。交付：auto_label_chunk(88.3%) + tag-registry v1.1 + Clean 424卡 + 萃取器LLM升级 + parse_frontmatter修复 + 复盘+3 Skill沉淀。下一步：全量跑萃取器→老顽童接暗知识生产。欧阳锋 90_control/ 全量更新：9文件19处修改（PROTOCOL/BRIDGE/routing/debate/AGENT_TESTS/failure-modes v更新 + AGENTS/kdo-industrialization-manual 续更）。
+active_task: 新任务已下达。老顽童：3项 — ① Phase C文章修复 ② T6/T7/T8 A-→A ③ **AI数据第一课产出**（4份口述稿→ingest→三步编译→文章）。黄药师：全量跑萃取器LLM模式（3篇设计口述稿→候选JSON）。
 blockers: []
 ---
 
