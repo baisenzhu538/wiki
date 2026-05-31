@@ -109,3 +109,19 @@ wiki_refs: ["ai-data-lesson-1"]
 ### 顺序建议
 
 先做任务 1（快修），再做任务 3（AI数据第一课），任务 2（工具箱升级）穿插作为换脑用途。
+
+---
+
+📦 **AI设计口述稿暗知识候选已就绪（LLM 模式）** → `60_feedback/data-quality/dk-candidates/`
+
+| 口述稿 | 候选数 | 主要类型 | title率 | score范围 |
+|--------|:------:|---------|:------:|:--:|
+| AI设计基础01 | 140 | tool_usage(48) + insight(43) + workflow(42) + failure(7) | 91% | 0.45-0.85 |
+| AI设计师实操培训01 | 238 | insight(102) + workflow(67) + tool_usage(50) + failure(19) | 92% | 0.45-0.85 |
+| 文创案例设计课 | 255 | insight(134) + workflow(55) + tool_usage(44) + failure(22) | 95% | 0.46-0.89 |
+
+共 **633** 条候选，按 score 从高到低取。每条含完整 6 字段（title / original_quote / use_case / operation / boundary / why_valuable / cross_reference）。预计最终产出 ~30-40 张 dk-yb 暗知识卡。
+
+**做法**：打开每个 JSON → 从 score 高到低看 → 判断是否值得成卡 → 补完六字段 → 写入 `30_wiki/concepts/dk-yb{N}-{slug}.md` → 通知欧阳锋审查。
+
+*黄药师 · 2026-06-01*
