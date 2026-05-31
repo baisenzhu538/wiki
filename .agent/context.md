@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 黄药师 — Data Curator Skill v1.3 修正版。三个关键修正：1)湖仓(inbox=湖/wiki=仓/升仓决策) 2)暗知识专章(KDO四类遗漏暗数据) 3)真原子粒度(主张/事实/规则级30-200字,非heading级200-2000字)。方案：30_wiki/decisions/plan_20260531_data-curator-v1.3.md
+active_task: 黄药师 — Data Curator Skill v1.3 修正版。四个修正：1)湖仓(inbox=湖/wiki=仓) 2)暗知识专章(月白Design域案例：三步编译法结构性盲区→漏掉NotebookLM等5类暗知识) 3)真原子粒度(主张/事实级30-200字) 4)双轨捕获(产品轨+过程轨并行)。方案：30_wiki/decisions/plan_20260531_data-curator-v1.3.md
 blockers: []
 ---
 
