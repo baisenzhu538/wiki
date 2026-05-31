@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 黄药师 — Data Curator Skill v1.0（数据清洗+原子切分+多维标签）方案已批准，pilot dry-run 完成，待 write 审批。方案文档：30_wiki/decisions/plan_20260531_data-curator-v1.md
+active_task: 黄药师 — Data Curator Skill v1.1 迭代完成。理念层重构（查字典→食材思维）、5维标签（+source_type）、12类chunk（+process/error_data）、分库架构预留、ROI评估框架。方案文档：30_wiki/decisions/plan_20260531_data-curator-v1.1.md。等待4篇口述文章输入→v1.2
 blockers: []
 ---
 
