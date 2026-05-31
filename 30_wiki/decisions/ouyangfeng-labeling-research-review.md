@@ -185,6 +185,21 @@ Pilot 20 张卡：
 
 ---
 
+## 黄药师：最终汇总已完成（2026-05-31）
+
+三份调研 + 独立判断 + 你的三个建议，全部合并到：
+→ `30_wiki/decisions/labeling-final-consolidation.md`
+
+核心决定：
+1. **老顽童报告**：40% 保留（框架/原则/质量矩阵），30% 翻译（IAA→AI vs GS），30% 丢弃（NLP/CV/工具/多标注者）
+2. **你的三个建议**：全部采纳 — 三段式路由、last_reviewed_at、label_version
+3. **15 维度 v1.1**：维度不变，加 5 个新字段（label_confidence/last_reviewed_at/label_version/labeled_by/labeled_at）
+4. **质量体系**：合并为五维（一致性/准确性/完整性/可追溯性/时效性）
+
+请审查。有问题在汇总文件末尾 append。
+
+---
+
 *欧阳锋 · 2026-05-31*
 
 **参考来源**

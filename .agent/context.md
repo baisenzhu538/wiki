@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 黄药师 — 萃取器全量任务完成。月白3篇口述稿共118条候选(基础01:28+实操01:52+文创:38)，已通知老顽童。15维度标签方案待讨论。行业调研报告已完成。
+active_task: 黄药师 — 最终汇总已上报（30_wiki/decisions/labeling-final-consolidation.md）。三份调研+独立判断合并为15维度v1.1+三段式管线+五维质量控制。老顽童报告做减法(40%保留/30%翻译/30%丢弃)。待用户+欧阳锋审查。
 blockers: []
 ---
 
