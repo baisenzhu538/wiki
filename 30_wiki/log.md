@@ -1530,3 +1530,11 @@ Chronological record of knowledge operations.
 - 2026-05-31T10:17:13+00:00 - Generated handoff brief `brief_20260531_f88c9044`
 
 - 2026-05-31T10:23:32+00:00 - Shipped `art_20260531_74dd8445` to local
+
+- 2026-06-01T14:35:23+00:00 - Ingested `src_20260601_ba8ea2f0` from 00_inbox/AI-study/AI数据/AI数据理解第一课表格.md
+
+- 2026-06-01T14:35:23+00:00 - Ingested `src_20260601_dffd0b32` from 00_inbox/数据标注维度最佳实践调研报告.md
+
+- 2026-06-01T14:35:41+00:00 - Self-check: 81 auto-feedback record(s) created
+
+- 2026-06-01T14:36:22+00:00 - Self-check: 11 auto-feedback record(s) created

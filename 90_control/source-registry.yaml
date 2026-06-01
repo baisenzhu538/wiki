@@ -4848,3 +4848,31 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/design/AI设计-文创案例设计课口述.md"
   content_sha256: "a582787a936daf9050b887f12bece08ca89b34d95423dbb40e28ebcc6bf7acb0"
+
+- id: "src_20260601_ba8ea2f0"
+  title: "AI数据理解第一课"
+  type: "other"
+  location: "10_raw/sources/src_20260601_ba8ea2f0-ai数据理解第一课.md"
+  captured_at: "2026-06-01T14:35:23+00:00"
+  registered_at: "2026-06-01T14:35:23+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/ai数据理解第一课.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/AI-study/AI数据/AI数据理解第一课表格.md"
+  content_sha256: "8320a6ec5080b56fd725568c6870a2144641af312c501c34e89afe5ee7598d44"
+
+- id: "src_20260601_dffd0b32"
+  title: "数据标注维度最佳实践调研报告"
+  type: "other"
+  location: "10_raw/sources/src_20260601_dffd0b32-数据标注维度最佳实践调研报告.md"
+  captured_at: "2026-06-01T14:35:23+00:00"
+  registered_at: "2026-06-01T14:35:23+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/数据标注维度最佳实践调研报告.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/数据标注维度最佳实践调研报告.md"
+  content_sha256: "2fff744ce2ffeb833725243de49a6cd2d275bb38c828f8b6dabf95fcdebf4177"
