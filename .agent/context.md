@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 黄药师深度合成文章 A+ ✅。四个死刑诊断：L2残废/L4死亡/L5断裂/A为空，11h可翻盘。建议落地Sprint 6工单。
+active_task: 桌面待办。提示词自动注入提案 → 30_wiki/decisions/proposal-prompt-injection-infrastructure。下次讨论：Level 1（kdo prompt）vs Level 2（Skill→Prompt）优先级。
 blockers: []
 ---
 
