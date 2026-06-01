@@ -1,0 +1,4646 @@
+{
+  "cards": 20,
+  "chunks": 320,
+  "dim_distribution": {
+    "chunk_type": {
+      "procedure": 51,
+      "critique": 43,
+      "reference/example/use_case/process_data/error_data": 40,
+      "constraint": 36,
+      "cross_reference": 35,
+      "claim": 29,
+      "action_trigger": 26,
+      "definition": 24,
+      "synthesis": 16,
+      "reference": 4,
+      "question": 4,
+      "evaluation-method": 3,
+      "reference/example/use_case/process_data": 3,
+      "example/use_case": 3,
+      "use_case": 2,
+      "analysis": 1
+    },
+    "method_family": {
+      "thinking-tool": 130,
+      "knowledge-engineering": 111,
+      "decision-framework": 35,
+      "evaluation-method": 28,
+      "learning-method": 7,
+      "developer": 3,
+      "prompt-engineering": 3,
+      "expression": 1,
+      "research-method": 1,
+      "product-design": 1
+    },
+    "audience": {
+      "general": 181,
+      "developer": 76,
+      "manager": 51,
+      "ceo/executor": 9,
+      "beginner": 2,
+      "designer": 1
+    },
+    "perspective": {
+      "general": 185,
+      "professional": 91,
+      "roi": 11
+    },
+    "confidence": {
+      "0.70": 191,
+      "0.85": 68,
+      "0.90": 41,
+      "0.50": 8,
+      "0.80": 4,
+      "0.30": 3,
+      "0.75": 3,
+      "0.60": 2
+    },
+    "platform": {
+      "general": 320
+    },
+    "expiry": {
+      "current": 196,
+      "stable": 121,
+      "volatile": 3
+    },
+    "prerequisite_knowledge": {
+      "intermediate-method": 173,
+      "basic-domain": 125,
+      "none": 22
+    },
+    "usage_depth": {
+      "feed": 247,
+      "retrieval": 41,
+      "packaged": 32
+    }
+  },
+  "results": [
+    {
+      "card": "yt-system-course-catalog",
+      "domain": "yitang",
+      "chunks": [
+        {
+          "heading": "Summary",
+          "labels": {
+            "chunk_type": "reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "课程总览",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "预判阶段",
+          "labels": {
+            "chunk_type": "reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "起盘阶段",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "增长阶段",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "底层逻辑",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "管项目",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "管团队",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "manager",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "管业务",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "管公司",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "不断提认知",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "不断练能力",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "learning-method",
+            "audience": "beginner",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "形成竞争力",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "搞砸之夜（失败复盘）",
+          "labels": {
+            "chunk_type": "reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "最佳实践",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "落地之夜",
+          "labels": {
+            "chunk_type": "reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "开源之夜",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "选课说明",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "learning-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "volatile",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "外部攻击",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "内部局限",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "knowledge-engineering",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "knowledge-engineering",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "learning-method",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "关联卡片",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "知识体系定位",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "retrieval"
+          }
+        }
+      ]
+    },
+    {
+      "card": "truman-perspective-skill",
+      "domain": "['master']",
+      "chunks": [
+        {
+          "heading": "Summary",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "四层设计",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "Truman 式回答工作流（Agentic Protocol）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "五个核心心智模型",
+          "labels": {
+            "chunk_type": "synthesis",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "七条决策启发式",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "表达DNA",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "expression",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "调研结构（6 Agent 并行）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "前提假设",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.50",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "边界与反例",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "ceo/executor",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "关键矛盾",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "可靠性",
+          "labels": {
+            "chunk_type": "evaluation-method",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Synthesis",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "互补与冲突",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "可迁移到 KDO 的改进",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Skill 文件清单",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "Open Questions",
+          "labels": {
+            "chunk_type": "question",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.30",
+            "platform": "general",
+            "expiry": "volatile",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Output Opportunities",
+          "labels": {
+            "chunk_type": "synthesis",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    },
+    {
+      "card": "ec工业化规范手册-v2.8.0",
+      "domain": "healthcare",
+      "chunks": [
+        {
+          "heading": "一、EC卡核心定位",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "二、20条核心铁律（CF-001~020）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "evaluation-method",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "三、四角色循环体系（v2.4.0）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "四、工业化防呆机制（六大支柱）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "五、Step 0 四步前置校验",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "六、三层质量防护体系",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "七、失败模式库（14种已识别模式）",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "evaluation-method",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "八、全书结构（36章 + 附录）",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "Q1: 规范的执行成本与收益是否匹配？",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "evaluation-method",
+            "audience": "developer",
+            "perspective": "roi",
+            "confidence": "0.50",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Q2: 四角色体系的扩展性",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.50",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Q3: 失败模式库的维护可持续性",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "evaluation-method",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Q4: 规范与KDO方法论的关系未定义",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Q5: 安全编码红线（Ch31）与工业级标准的差距",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "evaluation-method",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "与 wiki 内其他知识卡片的关系",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "跨领域对标",
+          "labels": {
+            "chunk_type": "synthesis",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "核心洞察",
+          "labels": {
+            "chunk_type": "synthesis",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "evaluation-method",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    },
+    {
+      "card": "tinyfish-agentic-web-infrastructure",
+      "domain": "['master']",
+      "chunks": [
+        {
+          "heading": "Summary",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "四产品体系（一套 API Key）",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "使用策略（轻到重）",
+          "labels": {
+            "chunk_type": "synthesis",
+            "method_family": "thinking-tool",
+            "audience": "developer",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "安装与认证",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "四工具命令速览",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "developer",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "常见组合模式",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "thinking-tool",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "与我们现有工具栈的定位",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "前提假设",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "thinking-tool",
+            "audience": "developer",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "边界与反例",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "developer",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "与 business-research Skill 的关系",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "可靠性",
+          "labels": {
+            "chunk_type": "evaluation-method",
+            "method_family": "evaluation-method",
+            "audience": "developer",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Synthesis",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Skill 类型体系（至此形成三个品类）",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "可迁移到 KDO 的改进",
+          "labels": {
+            "chunk_type": "synthesis",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.60",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.80",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Open Questions",
+          "labels": {
+            "chunk_type": "question",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.30",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Output Opportunities",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "evaluation-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    },
+    {
+      "card": "yt-unit-model-benchmark",
+      "domain": "entrepreneur",
+      "chunks": [
+        {
+          "heading": "Summary",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "进入标准：什么时候需要用本工具",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "核心观点 1：科学类比——为关键变量找到基准值",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "perspective": "roi",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "核心观点 2：三点预测——管理不确定性",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "perspective": "roi",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "核心观点 3：基准值共建——与利益相关方的对齐",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "外部攻击",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "内部局限",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "关联卡片",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "confidence": "0.75",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "基准值",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "外部对抗地图",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "壁垒预判",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "对抗小抄 A（升级人工策略）",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "对抗小抄 B（升级管理策略）",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "对抗小抄 C（升级业务策略）",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "规模对抗实操难点",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "规模经济对抗武器库",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    },
+    {
+      "card": "paddleocr-skill",
+      "domain": "['master']",
+      "chunks": [
+        {
+          "heading": "Summary",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "生产部署（本地 ONNX Runtime）",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "技术栈",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "已知 Bug 教训（dict 索引偏移）",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "developer",
+            "audience": "developer",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "使用方式（三种调用路径）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "前提假设",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "developer",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "边界与反例",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "developer",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "关键约束",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "可靠性",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "thinking-tool",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Synthesis",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "补充：WSL 侧 Python PaddleOCR",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "补充：云端 API Skill",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "Skill 体系（至此 5 个 Skill）",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Open Questions",
+          "labels": {
+            "chunk_type": "question",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.50",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Output Opportunities",
+          "labels": {
+            "chunk_type": "use_case",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "evaluation-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    },
+    {
+      "card": "anthropic-官方发布创始人手册打造-ai-原生初创公司",
+      "domain": "entrepreneur",
+      "chunks": [
+        {
+          "heading": "Summary",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "thinking-tool",
+            "audience": "ceo/executor",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Claim 1: 创始人角色从执行者变为 AI 指挥家",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "volatile",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Claim 2: 创业四阶段被从\"季\"压缩到\"周\"",
+          "labels": {
+            "chunk_type": "synthesis",
+            "method_family": "decision-framework",
+            "audience": "ceo/executor",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Claim 3: 新瓶颈是\"选择造什么\"而非\"能造什么\"",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "thinking-tool",
+            "audience": "developer",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Claim 4: 构思阶段的三个致命陷阱",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Claim 5: MVP 阶段的四个风险",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "developer",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "外部攻击",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "与已有概念的关联",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "与现有概念的冲突",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "decision-framework",
+            "audience": "ceo/executor",
+            "perspective": "roi",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "AT-1: 48 小时假设压力测试",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "decision-framework",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "AT-2: CLAUDE.md 项目记忆桦",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "decision-framework",
+            "audience": "developer",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "AT-3: 虚假 PMF 检查清单",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "evaluation-method",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "AT-4: 范围蔓延防御机制",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "decision-framework",
+            "audience": "ceo/executor",
+            "confidence": "0.75",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "AT-5: 数据复利与护城河审计",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "decision-framework",
+            "audience": "ceo/executor",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    },
+    {
+      "card": "business-research-skill-oscar-13-weapon-system",
+      "domain": "['yitang']",
+      "chunks": [
+        {
+          "heading": "Summary",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "16 步流程全景",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "research-method",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "五大核心机制",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "信源五级评分",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "evaluation-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "前提假设",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "evaluation-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "边界与反例",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "evaluation-method",
+            "audience": "manager",
+            "perspective": "roi",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "关键矛盾",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "evaluation-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "可靠性",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "evaluation-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Synthesis",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "互补与冲突",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "可迁移到 KDO 的改进",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Skill 文件清单",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "Open Questions",
+          "labels": {
+            "chunk_type": "question",
+            "method_family": "evaluation-method",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.30",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Output Opportunities",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "evaluation-method",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    },
+    {
+      "card": "data-labeling-best-practices-report",
+      "domain": "master",
+      "chunks": [
+        {
+          "heading": "一、行业现状：标注不再是预处理，是持续运营",
+          "labels": {
+            "chunk_type": "synthesis",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "roi",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "核心原则（五个，按 KDO 适用性排序）",
+          "labels": {
+            "chunk_type": "synthesis",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "IS-A 替代测试",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "混合管线（当前最佳实践）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "为什么是混合而不是纯 LLM",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "每块标多少标签",
+          "labels": {
+            "chunk_type": "synthesis",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "行业标准",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "evaluation-method",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "KDO 映射",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "五、标签版本控制",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "六、分块策略：页面级最优",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "七、KDO 方案 vs 行业最佳实践：差距评估",
+          "labels": {
+            "chunk_type": "synthesis",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "改进 1：每个标签加\"包含/排除\"描述（P1）",
+          "labels": {
+            "chunk_type": "synthesis",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "改进 2：做一次 IS-A 替代测试（P1）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "改进 3：标注管线从纯规则升级为 Embedding + 规则（P0）",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "九、关键教训：不要犯的三个行业常见错误",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "十、总结",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "knowledge-engineering",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    },
+    {
+      "card": "master-decision-hygiene",
+      "domain": "master",
+      "chunks": [
+        {
+          "heading": "一、为什么需要这张卡",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "与现有卡的关系",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "二、核心概念：偏差 vs 噪声",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "三、核心模型：五步法",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Step 1：分解判断（Break It Down）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Step 2：外部视角（Outside View）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Step 3：独立评估（Independent Judgment）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "evaluation-method",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Step 4：聚合（Aggregate）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "decision-framework",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Step 5：延迟直觉（Delay Intuition）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "四、完整流程示例",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "五、Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "攻击者 1：Gary Klein（自然决策/专家直觉）—— 结构化流程扼杀专家能力",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "攻击者 2：Taleb（反脆弱/黑天鹅）—— 结构化流程制造\"伪稳定\"",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "七、Constraints",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Critique",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    },
+    {
+      "card": "yt-model-agent-architecture",
+      "domain": "ai-models",
+      "chunks": [
+        {
+          "heading": "Summary",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "PEAS：描述任何任务环境的四元组",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "任务环境的7个维度",
+          "labels": {
+            "chunk_type": "synthesis",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "五层Agent架构：一张自我诊断地图",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "理性 = 在已知信息下最大化预期效用",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "学习 = 让Agent的某个部件随经验更新",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "1. PEAS在P模糊领域失效",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "2. 五层架构不完全适用于神经网络时代",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "3. 贝叶斯偏向",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "4. 源材料限制",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.50",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "5. 外部攻击：Gary Klein的识别启动决策（RPD）",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "developer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "关联卡片",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "与已有框架的互补",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "使用场景",
+          "labels": {
+            "chunk_type": "use_case",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "thinking-tool",
+            "audience": "developer",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        }
+      ]
+    },
+    {
+      "card": "yt-model-dual-triangle-competitiveness",
+      "domain": "yitang",
+      "chunks": [
+        {
+          "heading": "Summary",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.60",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "人类三角 × AI 三角",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "双螺旋增强回路",
+          "labels": {
+            "chunk_type": "synthesis",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "基础层",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Visual Analysis",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.50",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "空间层级",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.50",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "分组逻辑",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "阅读路径",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "视觉强调",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "留白含义",
+          "labels": {
+            "chunk_type": "synthesis",
+            "method_family": "knowledge-engineering",
+            "audience": "designer",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "提炼要点：原图 vs 现有卡片差异",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "外部攻击",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Synthesis",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "perspective": "professional",
+            "confidence": "0.75",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    },
+    {
+      "card": "yt-model-personal-pitch-toolkit",
+      "domain": "personal",
+      "chunks": [
+        {
+          "heading": "核心命题：价值 vs 价值感",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "十指模型：双向拉伸框架",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "三大原则",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "四层修炼路径",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "与火箭模型的关系",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "与动力阻力模型的关系",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "外部攻击",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "子工具卡",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "关联框架",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "关联概念",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Synthesis",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "讲香十指模型-超级武器库",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "讲香十指模型-修炼地图",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    },
+    {
+      "card": "master-first-principles",
+      "domain": "master",
+      "chunks": [
+        {
+          "heading": "一、为什么需要这张卡",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "马斯克造火箭：第一性原理 vs 类比思维的对比",
+          "labels": {
+            "chunk_type": "example/use_case",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "与现有卡的关系",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "二、核心模型：三层拆解法",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Layer 1：列出——识别隐形假设",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Layer 2：拆解——区分\"事实\"与\"假设\"",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Layer 3：重建——从零设计最优解",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "三、常见陷阱：三层拆解法的三大失败模式",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "四、Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "攻击者 1：Kuhn（科学哲学）—— 范式转换不是拆解，是整体跃迁",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.80",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "攻击者 2：Weick（组织心理学）—— 意义建构先于逻辑拆解",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "六、Constraints",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Critique",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    },
+    {
+      "card": "yt-decision-full-process",
+      "domain": "yitang",
+      "chunks": [
+        {
+          "heading": "Summary",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "五阶段全景流程",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "阶段一：有意识（发现与转化决策）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "perspective": "roi",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "阶段二：写初版（画出第一版ROI）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "附录：财务算账能力六级模型（源于源图像结构化提取）",
+          "labels": {
+            "chunk_type": "evaluation-method",
+            "method_family": "decision-framework",
+            "audience": "ceo/executor",
+            "perspective": "roi",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "阶段三：细打磨（三维度优化方案）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "perspective": "roi",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "阶段四：有共识（团队逐层对齐）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "阶段五：复盘（无限进步）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "新手 vs 高手两条路径",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "内部局限",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "外部攻击",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "关联表",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        }
+      ]
+    },
+    {
+      "card": "yt-entrepreneur-needs-analysis",
+      "domain": "yitang",
+      "chunks": [
+        {
+          "heading": "Summary",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "为什么需求分析是创业的起点",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "三步剥离法（由粗到细）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "decision-framework",
+            "audience": "ceo/executor",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "JTBD 核心理念",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "麦当劳奶昔案例（JTBD 经典）",
+          "labels": {
+            "chunk_type": "example/use_case",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "四字诀：拆推评算",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "decision-framework",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "六层冰山模型（推演的完整过程）",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "product-design",
+            "audience": "ceo/executor",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "核心概念",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "AI 辅助",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "decision-framework",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "银发育儿案例推演",
+          "labels": {
+            "chunk_type": "example/use_case",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "外部攻击",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Synthesis",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    },
+    {
+      "card": "yt-prompt-engineering-andrew-ng",
+      "domain": "yitang",
+      "chunks": [
+        {
+          "heading": "核心命题：提示词不该被学",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "learning-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "AI的四大缺陷（必须用提示词规避）",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "learning-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "迭代是第一性原理",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "prompt-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "头脑风暴是AI最高价值的场景",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "反谄媚机制",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "decision-framework",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "AI写作：结构化思考而非文字生成",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "learning-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.80",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "AI辅助判断：先设标准再打分",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "prompt-engineering",
+            "audience": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "创业者的AI工作流总模型（七层）",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "decision-framework",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "AI使用体感：持续训练模型敏感度",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "learning-method",
+            "audience": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "外部攻击",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "beginner",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "关联概念",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "关联卡片",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "prompt-engineering",
+            "audience": "manager",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    },
+    {
+      "card": "yt-unit-model-construction",
+      "domain": "entrepreneur",
+      "chunks": [
+        {
+          "heading": "Summary",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "进入标准：什么时候需要用本工具",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "核心观点：拆推评算四步法",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "perspective": "roi",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "ABCD 模型分类：根据确定性选择建模深度",
+          "labels": {
+            "chunk_type": "synthesis",
+            "method_family": "decision-framework",
+            "audience": "manager",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "外部攻击",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "内部局限",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "关联卡片",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "retrieval"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "perspective": "roi",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "找单元模型实操难点",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "找全成本实操难点",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "找基准值实操难点",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "示例（Before vs 正确姿势）",
+          "labels": {
+            "chunk_type": "analysis",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.50",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "示例01（扭蛋机单元模型）",
+          "labels": {
+            "chunk_type": "reference/example/use_case/process_data/error_data",
+            "method_family": "thinking-tool",
+            "audience": "manager",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    },
+    {
+      "card": "master-ai-info-literacy",
+      "domain": "master",
+      "chunks": [
+        {
+          "heading": "一、为什么需要这张卡",
+          "labels": {
+            "chunk_type": "claim",
+            "method_family": "evaluation-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "与现有卡的关系",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "knowledge-engineering",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "二、核心模型：三层防护",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "第一层：辨别 Detect－\"这是幻觉吗？\"",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "evaluation-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "第二层：验证 Verify－\"这是真的吗？\"",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "evaluation-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "第三层：追溯 Trace－\"来源在哪？\"",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "evaluation-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "三、常见陷阱：三个\"看起来对\"的错觉",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "evaluation-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "四、Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "evaluation-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "攻击者 1：Epstein（通才 vs 专才）——信息深度跟不上幻觉风险",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "攻击者 2：Floridi（信息哲学）——真理与似真性的混淆",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "六、Constraints",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "current",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Critique",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    },
+    {
+      "card": "master-antifragile-checklist",
+      "domain": "master",
+      "chunks": [
+        {
+          "heading": "一、为什么需要这张卡",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "与现有卡的关系",
+          "labels": {
+            "chunk_type": "cross_reference",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "二、核心模型：脆弱→坚韧→反脆弱",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.90",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "支柱一：杠铃策略（Barbell Strategy）",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "支柱二：冗余（Redundancy）",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "支柱三：选择权（Optionality）",
+          "labels": {
+            "chunk_type": "definition",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "none",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "四、反脆弱决策五问",
+          "labels": {
+            "chunk_type": "procedure",
+            "method_family": "evaluation-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "五、Action Triggers",
+          "labels": {
+            "chunk_type": "action_trigger",
+            "method_family": "evaluation-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "packaged"
+          }
+        },
+        {
+          "heading": "攻击者1：Popper（证伪主义/科学哲学）—— 反脆弱无法被证伪",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.80",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "攻击者2：索罗斯（反身性/市场哲学）—— 反脆弱策略在极端压力下互相踩踏",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "confidence": "0.70",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "七、Constraints",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "Critique",
+          "labels": {
+            "chunk_type": "critique",
+            "method_family": "thinking-tool",
+            "audience": "general",
+            "perspective": "professional",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "intermediate-method",
+            "usage_depth": "feed"
+          }
+        },
+        {
+          "heading": "不要用的场景",
+          "labels": {
+            "chunk_type": "constraint",
+            "method_family": "evaluation-method",
+            "audience": "general",
+            "perspective": "general",
+            "confidence": "0.85",
+            "platform": "general",
+            "expiry": "stable",
+            "prerequisite_knowledge": "basic-domain",
+            "usage_depth": "feed"
+          }
+        }
+      ]
+    }
+  ]
+}
