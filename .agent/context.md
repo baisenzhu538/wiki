@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 标注准确率双轨标准已对齐（AGENTS.md + 决策文件）。老顽童：3项 — ① Phase C文章修复 ② T6/T7/T8 A-→A ③ AI数据第一课产出（00_inbox/AI-study/AI数据/ 4份口述稿）。黄药师：全量跑萃取器LLM模式（3篇设计口述稿→候选JSON）。
+active_task: 老顽童三项任务审查通过 ✅。① Phase C文章修复 ✅ ② T6/T7/T8升级 ✅ ③ AI数据第一课产出——文章双三角错误已修正、概念卡三步编译已补完、表格已填充。全量交付完成。
 blockers: []
 ---
 
