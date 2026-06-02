@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-02
 active_branch: main
-active_task: 飞轮日结束。黄药师：Sprint 6 四断裂点已修复 + RAG Pilot 已验证 + kdo prompt 命令在建中（pending commit）。老顽童：两篇深度文章通过（rag_judgment A + 待审），飞轮第二圈指令已下。桌面待办：proposal-prompt-injection-infrastructure、proposal-ai-domain-mastery-pipeline、proposal-kdo-flywheel-infrastructure。
+active_task: Sprint 6 全部完成。交付：kdo prompt + coverage + 四断裂点 + scan_feedback + capabilities 五类补齐 + 老顽童 18 条 Feedback 工单。飞轮第一圈闭环。复盘：20_memory/sprint-20260602-retrospective.md。
 blockers: []
 ---
 
