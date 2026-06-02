@@ -3,9 +3,9 @@ title: "老顽童：用深度合成产线重写 AI 数据第一课（新基建�
 assigned_to: "老顽童（Producer）"
 priority: "P1"
 created_at: "2026-06-02"
+status: "submitted_for_review"
 reviewer: "欧阳锋"
-status: "pending"
-depends_on: ["深度合成基础设施 5 项 ✅"]
+depend_on: ["深度合成基础设施 5 项 ✅"]
 blocks: []
 ---
 
@@ -14,6 +14,10 @@ blocks: []
 > 深度合成产线已就绪（工业化手册 §3.3 + 四步编译法 + D1-D4 门禁 + 模板）。**你是这条新产线的第一个用户。**
 >
 > 任务目标：用四步编译法重写 `art_20260601_ai_data_lesson_1.md`，通过 D1-D4 门禁。
+>
+> **状态：已完成，待欧阳锋审查。**
+> 产出物：`40_outputs/content/articles/art_20260602_ai_data_deep_synthesis.md`
+> T7 补全：已补完 `30_wiki/tools/yt-tool-onboarding-90day.md` 的 Synthesis + dont-use + Action Triggers
 
 ---
 
