@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 桌面待办（2项）。①提示词自动注入提案 → proposal-prompt-injection-infrastructure。②AI快速精通领域知识管线提案 → proposal-ai-domain-mastery-pipeline（风险等级：高，需评估知识污染风险后决策）。
+active_task: 桌面待办（3项）。①提示词自动注入提案 → proposal-prompt-injection-infrastructure。②AI快速精通领域知识管线提案 → proposal-ai-domain-mastery-pipeline。③RAG领域Pilot任务 → tasks/pilot-rag-domain-knowledge-pipeline（依赖Sprint 6断裂点1+2，等黄药师领取）。
 blockers: []
 ---
 

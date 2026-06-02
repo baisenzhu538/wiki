@@ -35,7 +35,7 @@
       },
       {
         "dimension": "audience",
-        "value": "general",
+        "value": "manager",
         "decision": "APPLY",
         "confidence": 0.8,
         "reasoning": ""
@@ -97,7 +97,7 @@
         },
         {
           "dimension": "audience",
-          "value": "general",
+          "value": "manager",
           "confidence": 0.8
         },
         {
@@ -167,28 +167,21 @@
       },
       {
         "dimension": "method_family",
-        "value": "knowledge-engineering",
+        "value": "decision-framework",
         "decision": "APPLY",
         "confidence": 0.8,
         "reasoning": ""
       },
       {
         "dimension": "audience",
-        "value": "general",
-        "decision": "APPLY",
-        "confidence": 0.8,
-        "reasoning": ""
-      },
-      {
-        "dimension": "perspective",
-        "value": "general",
+        "value": "manager",
         "decision": "APPLY",
         "confidence": 0.8,
         "reasoning": ""
       },
       {
         "dimension": "confidence",
-        "value": "0.90",
+        "value": "0.85",
         "decision": "APPLY",
         "confidence": 0.8,
         "reasoning": ""
@@ -216,7 +209,7 @@
       },
       {
         "dimension": "usage_depth",
-        "value": "retrieval",
+        "value": "feed",
         "decision": "APPLY",
         "confidence": 0.8,
         "reasoning": ""
@@ -231,22 +224,17 @@
         },
         {
           "dimension": "method_family",
-          "value": "knowledge-engineering",
+          "value": "decision-framework",
           "confidence": 0.8
         },
         {
           "dimension": "audience",
-          "value": "general",
-          "confidence": 0.8
-        },
-        {
-          "dimension": "perspective",
-          "value": "general",
+          "value": "manager",
           "confidence": 0.8
         },
         {
           "dimension": "confidence",
-          "value": "0.90",
+          "value": "0.85",
           "confidence": 0.8
         },
         {
@@ -266,15 +254,15 @@
         },
         {
           "dimension": "usage_depth",
-          "value": "retrieval",
+          "value": "feed",
           "confidence": 0.8
         }
       ],
       "routing": "review_pool",
       "min_confidence": 0.8,
       "avg_confidence": 0.8,
-      "label_count": 9,
-      "summary": "9 labels, min_conf=0.80 -> review_pool"
+      "label_count": 8,
+      "summary": "8 labels, min_conf=0.80 -> review_pool"
     }
   },
   {
@@ -1284,7 +1272,7 @@
       },
       {
         "dimension": "prerequisite_knowledge",
-        "value": "intermediate-method",
+        "value": "basic-domain",
         "decision": "APPLY",
         "confidence": 0.8,
         "reasoning": ""
@@ -1336,7 +1324,7 @@
         },
         {
           "dimension": "prerequisite_knowledge",
-          "value": "intermediate-method",
+          "value": "basic-domain",
           "confidence": 0.8
         },
         {
@@ -1394,8 +1382,15 @@
         "reasoning": ""
       },
       {
+        "dimension": "perspective",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
         "dimension": "confidence",
-        "value": "0.75",
+        "value": "0.70",
         "decision": "APPLY",
         "confidence": 0.8,
         "reasoning": ""
@@ -1447,8 +1442,13 @@
           "confidence": 0.8
         },
         {
+          "dimension": "perspective",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
           "dimension": "confidence",
-          "value": "0.75",
+          "value": "0.70",
           "confidence": 0.8
         },
         {
@@ -1475,8 +1475,8 @@
       "routing": "review_pool",
       "min_confidence": 0.8,
       "avg_confidence": 0.8,
-      "label_count": 8,
-      "summary": "8 labels, min_conf=0.80 -> review_pool"
+      "label_count": 9,
+      "summary": "9 labels, min_conf=0.80 -> review_pool"
     }
   },
   {
@@ -1848,6 +1848,13 @@
         "reasoning": ""
       },
       {
+        "dimension": "perspective",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
         "dimension": "confidence",
         "value": "0.85",
         "decision": "APPLY",
@@ -1901,6 +1908,11 @@
           "confidence": 0.8
         },
         {
+          "dimension": "perspective",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
           "dimension": "confidence",
           "value": "0.85",
           "confidence": 0.8
@@ -1929,8 +1941,8 @@
       "routing": "review_pool",
       "min_confidence": 0.8,
       "avg_confidence": 0.8,
-      "label_count": 8,
-      "summary": "8 labels, min_conf=0.80 -> review_pool"
+      "label_count": 9,
+      "summary": "9 labels, min_conf=0.80 -> review_pool"
     }
   },
   {
