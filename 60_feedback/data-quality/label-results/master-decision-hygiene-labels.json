@@ -1,0 +1,2242 @@
+[
+  {
+    "heading": "一、为什么需要这张卡",
+    "chunk_text": "`yt-decision-y-model` 里的 Kahneman 批判一针见血：**框架减少偏差但不减少噪声**。同一个 Y 模型画布，分析师 A 估计\"员工士气提升带来 2% 营收增长\"，分析师 B 估计\"0.5%\"——这个差异不是偏差，是噪声。\n\n但 Y 模型本身不提供降噪机制。这张卡把 Kahneman《噪声》中的\"决策卫生\"独立出来，成为**跨所有决策工具的元流程**——不管你用 Y 模型、画布、还是直觉，团队判断前都该走这五步。",
+    "candidates": [
+      {
+        "dimension": "domain",
+        "value": "yitang",
+        "score": 0.2105,
+        "includes": "一堂课程体系, 双三角模型, 五步法, entrepreneurship education methodology, Truman's frameworks",
+        "excludes": "generic entrepreneurship advice, non-一堂 startup content"
+      },
+      {
+        "dimension": "audience",
+        "value": "developer",
+        "score": 0.1667,
+        "includes": "developer, engineer, 工程师, code, API, technical architecture, system design, programming",
+        "excludes": "non-technical architecture, general software description"
+      }
+    ],
+    "decisions": [
+      {
+        "dimension": "chunk_type",
+        "value": "critique",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "method_family",
+        "value": "decision-framework",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "audience",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "perspective",
+        "value": "professional",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "confidence",
+        "value": "0.85",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "platform",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "expiry",
+        "value": "stable",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "intermediate-method",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "usage_depth",
+        "value": "feed",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      }
+    ],
+    "result": {
+      "labels": [
+        {
+          "dimension": "chunk_type",
+          "value": "critique",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "method_family",
+          "value": "decision-framework",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "audience",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "perspective",
+          "value": "professional",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "confidence",
+          "value": "0.85",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "platform",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "expiry",
+          "value": "stable",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "prerequisite_knowledge",
+          "value": "intermediate-method",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "usage_depth",
+          "value": "feed",
+          "confidence": 0.8
+        }
+      ],
+      "routing": "review_pool",
+      "min_confidence": 0.8,
+      "avg_confidence": 0.8,
+      "label_count": 9,
+      "summary": "9 labels, min_conf=0.80 -> review_pool"
+    }
+  },
+  {
+    "heading": "与现有卡的关系",
+    "chunk_text": "| 现有工具 | 关系 | 说明 |\n|---------|------|------|\n| yt-decision-y-model | **补充** | Y 模型提供结构化框架，本卡提供\"框架使用者的判断一致性保障\" |\n| yt-decision-canvas | **并行** | 画布是单人/双人工具，本卡是团队流程。可以先用画布各自填，再用本卡聚合 |\n| yt-decision-consensus-iceberg | **补充** | 共识冰山关注\"说服→共识\"的对话技术，本卡关注\"独立判断→聚合\"的降噪流程 |\n| yt-decision-full-process | **深入** | 全流程是\"有意识→写初版→细打磨→有共识→复盘\"，本卡是\"有共识\"环节的深度展开 |\n| master-cognitive-bias-checklist | **先后** | 先个人自检偏差（#1），再团队减少噪声（#2） |\n\n---",
+    "candidates": [
+      {
+        "dimension": "domain",
+        "value": "yitang",
+        "score": 0.1842,
+        "includes": "一堂课程体系, 双三角模型, 五步法, entrepreneurship education methodology, Truman's frameworks",
+        "excludes": "generic entrepreneurship advice, non-一堂 startup content"
+      },
+      {
+        "dimension": "method_family",
+        "value": "prompt-engineering",
+        "score": 0.16,
+        "includes": "prompt design, AI interaction pattern, chain-of-thought, few-shot prompting, system prompt design, AI collaboration workflow",
+        "excludes": "AI底层技术, model architecture, training methodology"
+      }
+    ],
+    "decisions": [
+      {
+        "dimension": "chunk_type",
+        "value": "cross_reference",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "method_family",
+        "value": "knowledge-engineering",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "audience",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "perspective",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "confidence",
+        "value": "0.90",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "platform",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "expiry",
+        "value": "stable",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "intermediate-method",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "usage_depth",
+        "value": "retrieval",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      }
+    ],
+    "result": {
+      "labels": [
+        {
+          "dimension": "chunk_type",
+          "value": "cross_reference",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "method_family",
+          "value": "knowledge-engineering",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "audience",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "perspective",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "confidence",
+          "value": "0.90",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "platform",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "expiry",
+          "value": "stable",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "prerequisite_knowledge",
+          "value": "intermediate-method",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "usage_depth",
+          "value": "retrieval",
+          "confidence": 0.8
+        }
+      ],
+      "routing": "review_pool",
+      "min_confidence": 0.8,
+      "avg_confidence": 0.8,
+      "label_count": 9,
+      "summary": "9 labels, min_conf=0.80 -> review_pool"
+    }
+  },
+  {
+    "heading": "二、核心概念：偏差 vs 噪声",
+    "chunk_text": "| 维度 | 偏差（Bias） | 噪声（Noise） |\n|------|-------------|--------------|\n| **是什么** | 系统性倾向，总是往同一方向偏 | 随机波动，不同人/不同时刻往不同方向偏 |\n| **类比** | 枪靶总是偏右上方 | 枪靶散布很大但中心是对的 |\n| **例子** | 所有人都高估自己团队的产出 20% | 分析师 A 估计 2%，分析师 B 估计 0.5%，分析师 C 估计 5% |\n| **解决方式** | 认知偏差清单（#1）、结构化框架 | 决策卫生五步法（本卡） |\n| **错误认知** | \"我们没有偏见\" | \"我们意见不一致是因为信息不对称\"——不，可能是噪声 |\n\n**金句**：偏差是\"枪总打偏\"，噪声是\"枪到处乱飞\"。框架修的是\"偏\"，卫生修的是\"散\"。\n\n---",
+    "candidates": [
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "intermediate-method",
+        "score": 0.2692,
+        "includes": "specific methodology prerequisite,例如'理解五步法', requires mastery of a named framework",
+        "excludes": "general domain awareness, basic familiarity"
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "basic-domain",
+        "score": 0.2143,
+        "includes": "basic domain awareness needed,例如'知道什么是 RAG', general familiarity with the field",
+        "excludes": "specific methodology required, deep expertise"
+      },
+      {
+        "dimension": "domain",
+        "value": "yitang",
+        "score": 0.1842,
+        "includes": "一堂课程体系, 双三角模型, 五步法, entrepreneurship education methodology, Truman's frameworks",
+        "excludes": "generic entrepreneurship advice, non-一堂 startup content"
+      }
+    ],
+    "decisions": [
+      {
+        "dimension": "chunk_type",
+        "value": "definition",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "method_family",
+        "value": "thinking-tool",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "audience",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "perspective",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "confidence",
+        "value": "0.90",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "platform",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "expiry",
+        "value": "stable",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "none",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "usage_depth",
+        "value": "feed",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      }
+    ],
+    "result": {
+      "labels": [
+        {
+          "dimension": "chunk_type",
+          "value": "definition",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "method_family",
+          "value": "thinking-tool",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "audience",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "perspective",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "confidence",
+          "value": "0.90",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "platform",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "expiry",
+          "value": "stable",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "prerequisite_knowledge",
+          "value": "none",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "usage_depth",
+          "value": "feed",
+          "confidence": 0.8
+        }
+      ],
+      "routing": "review_pool",
+      "min_confidence": 0.8,
+      "avg_confidence": 0.8,
+      "label_count": 9,
+      "summary": "9 labels, min_conf=0.80 -> review_pool"
+    }
+  },
+  {
+    "heading": "三、核心模型：五步法",
+    "chunk_text": "```\n┌─────────────────────────────────────────────────┐\n│  Step 5: 延迟直觉                                │\n│  \"不要过早下结论，让判断多飞一会儿\"              │\n├─────────────────────────────────────────────────┤\n│  Step 4: 聚合                                    │\n│  \"汇总独立判断，取平均或中位数\"                  │\n├─────────────────────────────────────────────────┤\n│  Step 3: 独立评估                                │\n│  \"每个人独立判断，不互相影响\"                    │\n├─────────────────────────────────────────────────┤\n│  Step 2: 外部视角                                │\n│  \"先看基础概率，再看具体案例\"                    │\n├─────────────────────────────────────────────────┤\n│  Step 1: 分解判断                                │\n│  \"把复杂判断拆成简单子判断\"                      │\n└─────────────────────────────────────────────────┘\n```",
+    "candidates": [],
+    "decisions": [
+      {
+        "dimension": "chunk_type",
+        "value": "procedure",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "method_family",
+        "value": "decision-framework",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "audience",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "perspective",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "confidence",
+        "value": "0.85",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "platform",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "expiry",
+        "value": "stable",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "basic-domain",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "usage_depth",
+        "value": "feed",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      }
+    ],
+    "result": {
+      "labels": [
+        {
+          "dimension": "chunk_type",
+          "value": "procedure",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "method_family",
+          "value": "decision-framework",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "audience",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "perspective",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "confidence",
+          "value": "0.85",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "platform",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "expiry",
+          "value": "stable",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "prerequisite_knowledge",
+          "value": "basic-domain",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "usage_depth",
+          "value": "feed",
+          "confidence": 0.8
+        }
+      ],
+      "routing": "review_pool",
+      "min_confidence": 0.8,
+      "avg_confidence": 0.8,
+      "label_count": 9,
+      "summary": "9 labels, min_conf=0.80 -> review_pool"
+    }
+  },
+  {
+    "heading": "Step 1：分解判断（Break It Down）",
+    "chunk_text": "**核心操作**：把\"这个项目能成吗？\"拆成\"市场规模→竞争强度→团队能力→资金需求→执行风险\"五个子判断。\n\n**为什么有效**：复杂判断的噪声 > 简单判断的噪声之和。人对\"整体\"的估计充满噪声，但对\"子部分\"的估计更稳定。\n\n**具体做法**：\n1. 列出决策涉及的所有维度（≥3 个）\n2. 每个维度给一个独立评分（1-10 或具体数值）\n3. **禁止**在分解前就给出整体判断\n\n**陷阱**：分解维度本身也可能有噪声——不同的人拆出不同的维度。对策：用同一套维度模板（如 Y 模型的五步法画布）。",
+    "candidates": [
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "intermediate-method",
+        "score": 0.2692,
+        "includes": "specific methodology prerequisite,例如'理解五步法', requires mastery of a named framework",
+        "excludes": "general domain awareness, basic familiarity"
+      },
+      {
+        "dimension": "domain",
+        "value": "yitang",
+        "score": 0.2632,
+        "includes": "一堂课程体系, 双三角模型, 五步法, entrepreneurship education methodology, Truman's frameworks",
+        "excludes": "generic entrepreneurship advice, non-一堂 startup content"
+      }
+    ],
+    "decisions": [
+      {
+        "dimension": "chunk_type",
+        "value": "procedure",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "method_family",
+        "value": "decision-framework",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "audience",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "perspective",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "confidence",
+        "value": "0.85",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "platform",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "expiry",
+        "value": "stable",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "basic-domain",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "usage_depth",
+        "value": "feed",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      }
+    ],
+    "result": {
+      "labels": [
+        {
+          "dimension": "chunk_type",
+          "value": "procedure",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "method_family",
+          "value": "decision-framework",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "audience",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "perspective",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "confidence",
+          "value": "0.85",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "platform",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "expiry",
+          "value": "stable",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "prerequisite_knowledge",
+          "value": "basic-domain",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "usage_depth",
+          "value": "feed",
+          "confidence": 0.8
+        }
+      ],
+      "routing": "review_pool",
+      "min_confidence": 0.8,
+      "avg_confidence": 0.8,
+      "label_count": 9,
+      "summary": "9 labels, min_conf=0.80 -> review_pool"
+    }
+  },
+  {
+    "heading": "Step 2：外部视角（Outside View）",
+    "chunk_text": "**核心操作**：在分析\"这个特定案例\"之前，先看\"同类案例的历史统计\"。\n\n**为什么有效**：人对具体案例的估计充满噪声，但对同类案例的基率（base rate）判断更稳定。\n\n**具体做法**：\n1. 问自己：\"在过去 5 年里，有多少个类似的项目成功了？比例是多少？\"\n2. 如果找不到历史数据，问：\"行业平均成功率是多少？\"\n3. 把基率作为起点，再用具体案例的信息调整\n\n**金句**：\"先外部，后内部。先基率，后特性。\"\n\n**陷阱**：外部视角容易被\"我们的项目不一样\"绕过。对策：强制要求写出\"我们的项目和同类案例的三个关键差异\"，再判断差异是否足以推翻基率。",
+    "candidates": [
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "basic-domain",
+        "score": 0.2143,
+        "includes": "basic domain awareness needed,例如'知道什么是 RAG', general familiarity with the field",
+        "excludes": "specific methodology required, deep expertise"
+      }
+    ],
+    "decisions": [
+      {
+        "dimension": "chunk_type",
+        "value": "procedure",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "method_family",
+        "value": "decision-framework",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "audience",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "perspective",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "confidence",
+        "value": "0.85",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "platform",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "expiry",
+        "value": "stable",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "basic-domain",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "usage_depth",
+        "value": "feed",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      }
+    ],
+    "result": {
+      "labels": [
+        {
+          "dimension": "chunk_type",
+          "value": "procedure",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "method_family",
+          "value": "decision-framework",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "audience",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "perspective",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "confidence",
+          "value": "0.85",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "platform",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "expiry",
+          "value": "stable",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "prerequisite_knowledge",
+          "value": "basic-domain",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "usage_depth",
+          "value": "feed",
+          "confidence": 0.8
+        }
+      ],
+      "routing": "review_pool",
+      "min_confidence": 0.8,
+      "avg_confidence": 0.8,
+      "label_count": 9,
+      "summary": "9 labels, min_conf=0.80 -> review_pool"
+    }
+  },
+  {
+    "heading": "Step 3：独立评估（Independent Judgment）",
+    "chunk_text": "**核心操作**：每个人在**不知道别人答案**的情况下，独立给出自己的判断。\n\n**为什么有效**：一旦你知道了别人的答案，你的判断会被锚定——即使你不认同，也会不自觉地向中间靠拢。\n\n**具体做法**：\n1. 先分发问题清单（分解后的子判断）\n2. 每个人独立填写，**禁止讨论**\n3. 收集所有答案后，再开始讨论\n\n**关键规则**：如果讨论前已经有人说了自己的看法，这轮独立评估已经失效——必须重新来过。",
+    "candidates": [
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "basic-domain",
+        "score": 0.25,
+        "includes": "basic domain awareness needed,例如'知道什么是 RAG', general familiarity with the field",
+        "excludes": "specific methodology required, deep expertise"
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "card:<id>",
+        "score": 0.16,
+        "includes": "specific card prerequisite,必须先读某张卡, linked dependency, sequential reading order",
+        "excludes": "general prerequisites without specific card reference"
+      }
+    ],
+    "decisions": [
+      {
+        "dimension": "chunk_type",
+        "value": "procedure",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "method_family",
+        "value": "evaluation-method",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "audience",
+        "value": "manager",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "perspective",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "confidence",
+        "value": "0.85",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "platform",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "expiry",
+        "value": "stable",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "basic-domain",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "usage_depth",
+        "value": "feed",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      }
+    ],
+    "result": {
+      "labels": [
+        {
+          "dimension": "chunk_type",
+          "value": "procedure",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "method_family",
+          "value": "evaluation-method",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "audience",
+          "value": "manager",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "perspective",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "confidence",
+          "value": "0.85",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "platform",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "expiry",
+          "value": "stable",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "prerequisite_knowledge",
+          "value": "basic-domain",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "usage_depth",
+          "value": "feed",
+          "confidence": 0.8
+        }
+      ],
+      "routing": "review_pool",
+      "min_confidence": 0.8,
+      "avg_confidence": 0.8,
+      "label_count": 9,
+      "summary": "9 labels, min_conf=0.80 -> review_pool"
+    }
+  },
+  {
+    "heading": "Step 4：聚合（Aggregate）",
+    "chunk_text": "**核心操作**：汇总所有独立判断，用统计方法减少噪声。\n\n**为什么有效**：独立判断的平均值比任何一个人的判断都更准确（\"群体智慧\"的数学基础）。\n\n**具体做法**：\n\n| 判断类型 | 聚合方法 | 例子 |\n|---------|---------|------|\n| 数值估计 | 取**中位数**（比平均数更抗极端值） | 三个人的估计：2%, 5%, 10% → 中位数 5% |\n| 是非判断 | 取**多数票** | 3 人认为\"该做\"，2 人认为\"不该做\" → \"该做\" |\n| 排序判断 | 取**Borda 计数** | 每个人对选项排序，综合得分最高者胜出 |\n\n**陷阱**：聚合前没有确保\"独立性\"→ 聚合结果仍然有噪声。对策：Step 3 的独立评估必须严格执行。",
+    "candidates": [
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "basic-domain",
+        "score": 0.1786,
+        "includes": "basic domain awareness needed,例如'知道什么是 RAG', general familiarity with the field",
+        "excludes": "specific methodology required, deep expertise"
+      }
+    ],
+    "decisions": [
+      {
+        "dimension": "chunk_type",
+        "value": "procedure",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "method_family",
+        "value": "decision-framework",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "audience",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "perspective",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "confidence",
+        "value": "0.85",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "platform",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "expiry",
+        "value": "stable",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "basic-domain",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "usage_depth",
+        "value": "feed",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      }
+    ],
+    "result": {
+      "labels": [
+        {
+          "dimension": "chunk_type",
+          "value": "procedure",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "method_family",
+          "value": "decision-framework",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "audience",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "perspective",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "confidence",
+          "value": "0.85",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "platform",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "expiry",
+          "value": "stable",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "prerequisite_knowledge",
+          "value": "basic-domain",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "usage_depth",
+          "value": "feed",
+          "confidence": 0.8
+        }
+      ],
+      "routing": "review_pool",
+      "min_confidence": 0.8,
+      "avg_confidence": 0.8,
+      "label_count": 9,
+      "summary": "9 labels, min_conf=0.80 -> review_pool"
+    }
+  },
+  {
+    "heading": "Step 5：延迟直觉（Delay Intuition）",
+    "chunk_text": "**核心操作**：不要在做完前四步后立即拍板——让判断\"多飞一会儿\"。\n\n**为什么有效**：直觉（系统 1）太快、太自信、太容易被最近的信息污染。延迟让系统 2 有机会检查系统 1 的结论。\n\n**具体做法**：\n1. 走完前四步后，强制等待至少 24 小时（重大决策等 1 周）\n2. 等待期间：不要主动想这个决策，让大脑\"孵化\"\n3. 重新审视时问：\"24 小时前的判断，我现在还同意吗？有什么不同？\"\n\n**金句**：\"你的第一反应不是你的最佳反应，只是你最快的反应。\"\n\n---",
+    "candidates": [],
+    "decisions": [
+      {
+        "dimension": "chunk_type",
+        "value": "procedure",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "method_family",
+        "value": "decision-framework",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "audience",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "perspective",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "confidence",
+        "value": "0.85",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "platform",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "expiry",
+        "value": "stable",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "basic-domain",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "usage_depth",
+        "value": "feed",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      }
+    ],
+    "result": {
+      "labels": [
+        {
+          "dimension": "chunk_type",
+          "value": "procedure",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "method_family",
+          "value": "decision-framework",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "audience",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "perspective",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "confidence",
+          "value": "0.85",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "platform",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "expiry",
+          "value": "stable",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "prerequisite_knowledge",
+          "value": "basic-domain",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "usage_depth",
+          "value": "feed",
+          "confidence": 0.8
+        }
+      ],
+      "routing": "review_pool",
+      "min_confidence": 0.8,
+      "avg_confidence": 0.8,
+      "label_count": 9,
+      "summary": "9 labels, min_conf=0.80 -> review_pool"
+    }
+  },
+  {
+    "heading": "四、完整流程示例",
+    "chunk_text": "**场景**：团队要决定是否投资一个新项目。\n\n```\nStep 1 分解判断：\n  - 市场规模（1-10）：A=7, B=6, C=8\n  - 竞争强度（1-10）：A=8, B=7, C=9  \n  - 团队能力（1-10）：A=5, B=6, C=4\n  - 资金需求（百万）：A=3, B=5, C=4\n  - 执行风险（1-10）：A=7, B=6, C=8\n\nStep 2 外部视角：\n  - 同类项目过去 3 年成功率：30%\n  - 行业平均 ROI：1.5 倍\n  - 调整：我们的团队能力低于行业平均，成功率可能更低\n\nStep 3 独立评估：\n  - 三人分别独立打分，提交前不知道彼此的答案\n\nStep 4 聚合：\n  - 市场规模中位数：7\n  - 竞争强度中位数：8\n  - 团队能力中位数：5\n  - 资金需求中位数：4 百万\n  - 执行风险中位数：7\n  - 综合判断：市场规模 OK，但竞争强+团队弱+风险高 → 不建议投资\n\nStep 5 延迟直觉：\n  - 24 小时后重新审视：\"我还同意'不建议投资'吗？\"\n  - 如果同意 → 拍板\n  - 如果不同意 → 回到 Step 1，找出分歧来源\n```\n\n---",
+    "candidates": [
+      {
+        "dimension": "expiry",
+        "value": "current",
+        "score": 0.2414,
+        "includes": "currently valid,可能需要 2-3 年内审查, contemporary practice, current tool recommendation, recent methodology",
+        "excludes": "timeless principles, already-obsolete information"
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "basic-domain",
+        "score": 0.1786,
+        "includes": "basic domain awareness needed,例如'知道什么是 RAG', general familiarity with the field",
+        "excludes": "specific methodology required, deep expertise"
+      }
+    ],
+    "decisions": [
+      {
+        "dimension": "chunk_type",
+        "value": "procedure",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "method_family",
+        "value": "decision-framework",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "audience",
+        "value": "manager",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "perspective",
+        "value": "roi",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "confidence",
+        "value": "0.70",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "platform",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "expiry",
+        "value": "stable",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "intermediate-method",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "usage_depth",
+        "value": "feed",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      }
+    ],
+    "result": {
+      "labels": [
+        {
+          "dimension": "chunk_type",
+          "value": "procedure",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "method_family",
+          "value": "decision-framework",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "audience",
+          "value": "manager",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "perspective",
+          "value": "roi",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "confidence",
+          "value": "0.70",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "platform",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "expiry",
+          "value": "stable",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "prerequisite_knowledge",
+          "value": "intermediate-method",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "usage_depth",
+          "value": "feed",
+          "confidence": 0.8
+        }
+      ],
+      "routing": "review_pool",
+      "min_confidence": 0.8,
+      "avg_confidence": 0.8,
+      "label_count": 9,
+      "summary": "9 labels, min_conf=0.80 -> review_pool"
+    }
+  },
+  {
+    "heading": "五、Action Triggers",
+    "chunk_text": "| 触发场景 | 具体操作 | 成功标志 |\n|---------|---------|---------|\n| **团队要对同一问题做判断** | 强制执行五步法：分解→外部→独立→聚合→延迟 | 最终聚合结果与最初个人判断的差异 ≥20%（证明噪声被降低了） |\n| **团队对同一问题的判断差异巨大** | 回到 Step 1，检查分解维度是否一致；回到 Step 3，检查独立评估是否真正独立 | 能找出差异来源：是维度不同？基率不同？还是信息不同？ |\n| **一个人做重大决策** | 用\"虚拟团队\"法：扮演 3 个不同角色（乐观者/悲观者/中立者），分别独立评估，再聚合 | 三个角色的判断差异 ≥15%，证明噪声存在 |\n| **用 Y 模型/画布后仍有分歧** | 用本卡作为\"后处理\"：把画布输出输入五步法 | 聚合后的结论比任何一个人的画布更稳定 |\n\n---",
+    "candidates": [
+      {
+        "dimension": "domain",
+        "value": "yitang",
+        "score": 0.3158,
+        "includes": "一堂课程体系, 双三角模型, 五步法, entrepreneurship education methodology, Truman's frameworks",
+        "excludes": "generic entrepreneurship advice, non-一堂 startup content"
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "intermediate-method",
+        "score": 0.2692,
+        "includes": "specific methodology prerequisite,例如'理解五步法', requires mastery of a named framework",
+        "excludes": "general domain awareness, basic familiarity"
+      }
+    ],
+    "decisions": [
+      {
+        "dimension": "chunk_type",
+        "value": "action_trigger",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "method_family",
+        "value": "decision-framework",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "audience",
+        "value": "manager",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "confidence",
+        "value": "0.75",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "platform",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "expiry",
+        "value": "stable",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "intermediate-method",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "usage_depth",
+        "value": "feed",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      }
+    ],
+    "result": {
+      "labels": [
+        {
+          "dimension": "chunk_type",
+          "value": "action_trigger",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "method_family",
+          "value": "decision-framework",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "audience",
+          "value": "manager",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "confidence",
+          "value": "0.75",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "platform",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "expiry",
+          "value": "stable",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "prerequisite_knowledge",
+          "value": "intermediate-method",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "usage_depth",
+          "value": "feed",
+          "confidence": 0.8
+        }
+      ],
+      "routing": "review_pool",
+      "min_confidence": 0.8,
+      "avg_confidence": 0.8,
+      "label_count": 8,
+      "summary": "8 labels, min_conf=0.80 -> review_pool"
+    }
+  },
+  {
+    "heading": "攻击者 1：Gary Klein（自然决策/专家直觉）—— 结构化流程扼杀专家能力",
+    "chunk_text": "**Gary Klein**（\"Sources of Power\" 作者，自然决策理论创始人）基于数十年对消防员、急救医生、军事指挥官的田野观察，对\"决策卫生\"提出根本性质疑。Klein 的核心论证：**专家在真实场景中的直觉判断，往往优于耗时做的结构化分析**。\n\n- **核心挑战**：消防指挥官在秒级决策窗口中的直觉判断，事后分析往往优于耗时做效用计算的结果。五步法的\"分解→外部→独立→聚合→延迟\"在火灾现场根本不适用——等走完五步，楼已经烧完了。\n- **具体机制**：Klein 发现专家的直觉不是\"随机猜测\"，而是基于数千小时经验形成的\"模式识别\"——大脑在瞬间匹配当前情境与过往经验。五步法的\"延迟直觉\"直接否定了这种模式识别的价值。\n- **建议补充**：五步法只适用于\"有时间做结构化判断\"的场景。在紧急决策、时间压力、信息不完整的情况下，应该信任专家直觉——此时\"卫生\"不是减少噪声，是给直觉创造更好的信息环境。",
+    "candidates": [
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "intermediate-method",
+        "score": 0.3077,
+        "includes": "specific methodology prerequisite,例如'理解五步法', requires mastery of a named framework",
+        "excludes": "general domain awareness, basic familiarity"
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "advanced-specialist",
+        "score": 0.2222,
+        "includes": "domain expert level required, specialist knowledge,多年经验才能理解, advanced practitioner",
+        "excludes": "intermediate level, learnable within weeks"
+      },
+      {
+        "dimension": "domain",
+        "value": "yitang",
+        "score": 0.1842,
+        "includes": "一堂课程体系, 双三角模型, 五步法, entrepreneurship education methodology, Truman's frameworks",
+        "excludes": "generic entrepreneurship advice, non-一堂 startup content"
+      },
+      {
+        "dimension": "audience",
+        "value": "ceo",
+        "score": 0.1786,
+        "includes": "CEO, founder, 一号位, 创始人, top decision maker, strategy, vision, board-level, company direction",
+        "excludes": "execution details, operational specifics, line-level implementation"
+      },
+      {
+        "dimension": "perspective",
+        "value": "user-experience",
+        "score": 0.16,
+        "includes": "user experience, 用户体验, NPS, satisfaction, ease of use, usability, human-centered design, end-user feeling",
+        "excludes": "technical performance metrics, backend optimization"
+      }
+    ],
+    "decisions": [
+      {
+        "dimension": "chunk_type",
+        "value": "critique",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "method_family",
+        "value": "decision-framework",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "audience",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "perspective",
+        "value": "professional",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "confidence",
+        "value": "0.70",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "platform",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "expiry",
+        "value": "stable",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "intermediate-method",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "usage_depth",
+        "value": "feed",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      }
+    ],
+    "result": {
+      "labels": [
+        {
+          "dimension": "chunk_type",
+          "value": "critique",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "method_family",
+          "value": "decision-framework",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "audience",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "perspective",
+          "value": "professional",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "confidence",
+          "value": "0.70",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "platform",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "expiry",
+          "value": "stable",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "prerequisite_knowledge",
+          "value": "intermediate-method",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "usage_depth",
+          "value": "feed",
+          "confidence": 0.8
+        }
+      ],
+      "routing": "review_pool",
+      "min_confidence": 0.8,
+      "avg_confidence": 0.8,
+      "label_count": 9,
+      "summary": "9 labels, min_conf=0.80 -> review_pool"
+    }
+  },
+  {
+    "heading": "攻击者 2：Taleb（反脆弱/黑天鹅）—— 结构化流程制造\"伪稳定\"",
+    "chunk_text": "**Nassim Taleb**（《Antifragile》《黑天鹅》作者）对\"聚合→减少噪声\"的逻辑提出了\"元风险\"挑战。Taleb 的核心论证：**让不同人的判断趋向一致，不等于让判断更准确——可能只是让所有人犯了同一个错误**。\n\n- **核心挑战**：Kahneman 假设\"噪声 = 错误\"，但 Taleb 认为噪声中可能包含\"有益的多样性\"。聚合消除了\"不一致\"，但也可能消除了\"有人恰好是对的\"的可能性。群体智慧的数学基础假设判断误差是随机的——但如果误差是系统性的（比如所有人都被同一个框架误导），聚合只会放大错误。\n- **具体机制**：五步法的\"外部视角\"依赖历史基率——但 Taleb 认为\"历史基率\"本身就是脆弱的：过去 30 年的基率对未来 30 年没有预测力（黑天鹅事件会彻底改变基率）。用历史基率作为起点，等于假设\"未来和过去相似\"——这是最大的系统性偏差。\n- **建议补充**：在\"高度不确定性\"（Knightian uncertainty）场景下，五步法应该降级为\"启发式\"而非\"流程\"。聚合前应该强制检查：\"我们的判断中是否有人给出了显著不同的答案？那个不同的答案是否可能包含我们没有考虑到的信息？\"\n\n---",
+    "candidates": [
+      {
+        "dimension": "domain",
+        "value": "yitang",
+        "score": 0.2632,
+        "includes": "一堂课程体系, 双三角模型, 五步法, entrepreneurship education methodology, Truman's frameworks",
+        "excludes": "generic entrepreneurship advice, non-一堂 startup content"
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "intermediate-method",
+        "score": 0.2308,
+        "includes": "specific methodology prerequisite,例如'理解五步法', requires mastery of a named framework",
+        "excludes": "general domain awareness, basic familiarity"
+      },
+      {
+        "dimension": "expiry",
+        "value": "current",
+        "score": 0.1724,
+        "includes": "currently valid,可能需要 2-3 年内审查, contemporary practice, current tool recommendation, recent methodology",
+        "excludes": "timeless principles, already-obsolete information"
+      }
+    ],
+    "decisions": [
+      {
+        "dimension": "chunk_type",
+        "value": "critique",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "method_family",
+        "value": "thinking-tool",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "audience",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "perspective",
+        "value": "professional",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "confidence",
+        "value": "0.70",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "platform",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "expiry",
+        "value": "stable",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "intermediate-method",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "usage_depth",
+        "value": "feed",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      }
+    ],
+    "result": {
+      "labels": [
+        {
+          "dimension": "chunk_type",
+          "value": "critique",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "method_family",
+          "value": "thinking-tool",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "audience",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "perspective",
+          "value": "professional",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "confidence",
+          "value": "0.70",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "platform",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "expiry",
+          "value": "stable",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "prerequisite_knowledge",
+          "value": "intermediate-method",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "usage_depth",
+          "value": "feed",
+          "confidence": 0.8
+        }
+      ],
+      "routing": "review_pool",
+      "min_confidence": 0.8,
+      "avg_confidence": 0.8,
+      "label_count": 9,
+      "summary": "9 labels, min_conf=0.80 -> review_pool"
+    }
+  },
+  {
+    "heading": "七、Constraints",
+    "chunk_text": "1. **时间成本高**：完整五步法需要 1-3 天（含延迟直觉的等待时间），不适合日常小决策。建议只在\"高影响+不可逆\"决策前使用。\n2. **依赖团队独立性**：Step 3 的\"独立评估\"最难执行——团队成员可能已经通过各种渠道知道了彼此的倾向。必须在物理/数字上隔离。\n3. **不能消除系统性偏差**：五步法减少的是\"噪声\"（随机误差），不是\"偏差\"（系统性误差）。如果所有人都被同一个框架误导，五步法会让错误更一致。\n4. **外部视角可能过时**：历史基率只在\"环境稳定\"时有效。在技术变革、政策剧变、黑天鹅频发的时代，外部视角可能引入\"过时假设\"。\n5. **聚合方法有陷阱**：中位数对极端值不敏感——但如果极端值恰好包含了关键信息（Taleb 的\"肥尾\"），中位数会丢失这些信息。重大决策建议同时看\"中位数\"和\"最极端的两个估计\"。",
+    "candidates": [
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "intermediate-method",
+        "score": 0.2692,
+        "includes": "specific methodology prerequisite,例如'理解五步法', requires mastery of a named framework",
+        "excludes": "general domain awareness, basic familiarity"
+      },
+      {
+        "dimension": "domain",
+        "value": "yitang",
+        "score": 0.2105,
+        "includes": "一堂课程体系, 双三角模型, 五步法, entrepreneurship education methodology, Truman's frameworks",
+        "excludes": "generic entrepreneurship advice, non-一堂 startup content"
+      },
+      {
+        "dimension": "expiry",
+        "value": "current",
+        "score": 0.2069,
+        "includes": "currently valid,可能需要 2-3 年内审查, contemporary practice, current tool recommendation, recent methodology",
+        "excludes": "timeless principles, already-obsolete information"
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "basic-domain",
+        "score": 0.1786,
+        "includes": "basic domain awareness needed,例如'知道什么是 RAG', general familiarity with the field",
+        "excludes": "specific methodology required, deep expertise"
+      },
+      {
+        "dimension": "chunk_type",
+        "value": "extraction_guide",
+        "score": 0.1765,
+        "includes": "meta-methodology extracted from a group of cards,统领性方法论摘要, extraction guide for a card cluster, domain-wide principles",
+        "excludes": "single-card summary, individual card conclusion"
+      }
+    ],
+    "decisions": [
+      {
+        "dimension": "chunk_type",
+        "value": "constraint",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "method_family",
+        "value": "decision-framework",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "audience",
+        "value": "manager",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "confidence",
+        "value": "0.85",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "platform",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "expiry",
+        "value": "stable",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "intermediate-method",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "usage_depth",
+        "value": "feed",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      }
+    ],
+    "result": {
+      "labels": [
+        {
+          "dimension": "chunk_type",
+          "value": "constraint",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "method_family",
+          "value": "decision-framework",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "audience",
+          "value": "manager",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "confidence",
+          "value": "0.85",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "platform",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "expiry",
+          "value": "stable",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "prerequisite_knowledge",
+          "value": "intermediate-method",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "usage_depth",
+          "value": "feed",
+          "confidence": 0.8
+        }
+      ],
+      "routing": "review_pool",
+      "min_confidence": 0.8,
+      "avg_confidence": 0.8,
+      "label_count": 8,
+      "summary": "8 labels, min_conf=0.80 -> review_pool"
+    }
+  },
+  {
+    "heading": "Critique",
+    "chunk_text": "#### Nassim Taleb — 过度结构化与黑天鹅风险\n\n**Nassim Taleb** (《反脆弱性》《黑天鹅》作者) 对任何\"将复杂现实编码为结构化框架\"的尝试都持深切怀疑。他的核心论点：**我们过度估计了我们能理解的东西，而低估了我们理解不了的东西。** 任何模板、框架或方法论都是一种\"确定性幻觉\"——它们假设未来会像过去一样发展，忽视了那些不可预测、不可分类、不可量化的黑天鹅事件。\n\n> **为什么应该让你睡不着**：如果你正在依赖这张卡片做出关键决策，你已经在暗中排除了那些不可被编码为\"步骤\"的风险。这些\"残留风险\"不在框架内，但它们可能在一夜之间彻底改变一切。\n\n#### Herbert Simon — 有限理性与认知超载\n\n**Herbert Simon** (诺贝尔经济学奖得主、\"有限理性\"理论提出者) 从认知科学角度攻击：人类决策者的大脑处理信息的能力是有限的——复杂框架要求同时综合考虑多个维度，这对人类的工作记忆来说是超载的。\n\n> **为什么应该让你睡不着**：如果这张卡片的使用者无法在一次会议中保持全部维度的逻辑一致性，那么它的产出就是多个独立假设而非一个综合分析。这种\"分裂式分析\"会让团队产生\"每个维度都对但整体不对\"的错觉。",
+    "candidates": [
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "advanced-specialist",
+        "score": 0.2593,
+        "includes": "domain expert level required, specialist knowledge,多年经验才能理解, advanced practitioner",
+        "excludes": "intermediate level, learnable within weeks"
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "intermediate-method",
+        "score": 0.2308,
+        "includes": "specific methodology prerequisite,例如'理解五步法', requires mastery of a named framework",
+        "excludes": "general domain awareness, basic familiarity"
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "basic-domain",
+        "score": 0.2143,
+        "includes": "basic domain awareness needed,例如'知道什么是 RAG', general familiarity with the field",
+        "excludes": "specific methodology required, deep expertise"
+      },
+      {
+        "dimension": "chunk_type",
+        "value": "extraction_guide",
+        "score": 0.2059,
+        "includes": "meta-methodology extracted from a group of cards,统领性方法论摘要, extraction guide for a card cluster, domain-wide principles",
+        "excludes": "single-card summary, individual card conclusion"
+      },
+      {
+        "dimension": "error_root",
+        "value": "automation-blindness",
+        "score": 0.1724,
+        "includes": "trusted script, batch run without check, automated without human review, 一跑就过了, automation over-trust, blind批量",
+        "excludes": "human error, manual mistakes"
+      },
+      {
+        "dimension": "expiry",
+        "value": "current",
+        "score": 0.1724,
+        "includes": "currently valid,可能需要 2-3 年内审查, contemporary practice, current tool recommendation, recent methodology",
+        "excludes": "timeless principles, already-obsolete information"
+      },
+      {
+        "dimension": "domain",
+        "value": "yitang",
+        "score": 0.1579,
+        "includes": "一堂课程体系, 双三角模型, 五步法, entrepreneurship education methodology, Truman's frameworks",
+        "excludes": "generic entrepreneurship advice, non-一堂 startup content"
+      }
+    ],
+    "decisions": [
+      {
+        "dimension": "chunk_type",
+        "value": "critique",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "method_family",
+        "value": "thinking-tool",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "audience",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "perspective",
+        "value": "professional",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "confidence",
+        "value": "0.70",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "platform",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "expiry",
+        "value": "stable",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "intermediate-method",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "usage_depth",
+        "value": "feed",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      }
+    ],
+    "result": {
+      "labels": [
+        {
+          "dimension": "chunk_type",
+          "value": "critique",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "method_family",
+          "value": "thinking-tool",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "audience",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "perspective",
+          "value": "professional",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "confidence",
+          "value": "0.70",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "platform",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "expiry",
+          "value": "stable",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "prerequisite_knowledge",
+          "value": "intermediate-method",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "usage_depth",
+          "value": "feed",
+          "confidence": 0.8
+        }
+      ],
+      "routing": "review_pool",
+      "min_confidence": 0.8,
+      "avg_confidence": 0.8,
+      "label_count": 9,
+      "summary": "9 labels, min_conf=0.80 -> review_pool"
+    }
+  },
+  {
+    "heading": "不要用的场景",
+    "chunk_text": "| 场景 | 为什么失效 | 替代方案 |\n|------|-----------|---------|\n| 把这个框架/方法当成绝对真理执行 | 任何方法论都是时间截面，它们假设未来会像过去一样发展 | 每次使用前先问\"这个结论现在还成立吗？有没有新的反例出现？\" |\n| 在无专业背景的情况下做出重大决策 | 框架是信息输入，不是决策代理 | 结合自身业务场景做二次判断 |",
+    "candidates": [
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "basic-domain",
+        "score": 0.1786,
+        "includes": "basic domain awareness needed,例如'知道什么是 RAG', general familiarity with the field",
+        "excludes": "specific methodology required, deep expertise"
+      }
+    ],
+    "decisions": [
+      {
+        "dimension": "chunk_type",
+        "value": "constraint",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "method_family",
+        "value": "thinking-tool",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "audience",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "perspective",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "confidence",
+        "value": "0.85",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "platform",
+        "value": "general",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "expiry",
+        "value": "stable",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "prerequisite_knowledge",
+        "value": "basic-domain",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      },
+      {
+        "dimension": "usage_depth",
+        "value": "feed",
+        "decision": "APPLY",
+        "confidence": 0.8,
+        "reasoning": ""
+      }
+    ],
+    "result": {
+      "labels": [
+        {
+          "dimension": "chunk_type",
+          "value": "constraint",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "method_family",
+          "value": "thinking-tool",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "audience",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "perspective",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "confidence",
+          "value": "0.85",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "platform",
+          "value": "general",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "expiry",
+          "value": "stable",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "prerequisite_knowledge",
+          "value": "basic-domain",
+          "confidence": 0.8
+        },
+        {
+          "dimension": "usage_depth",
+          "value": "feed",
+          "confidence": 0.8
+        }
+      ],
+      "routing": "review_pool",
+      "min_confidence": 0.8,
+      "avg_confidence": 0.8,
+      "label_count": 9,
+      "summary": "9 labels, min_conf=0.80 -> review_pool"
+    }
+  }
+]
