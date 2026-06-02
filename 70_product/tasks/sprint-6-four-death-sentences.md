@@ -8,6 +8,7 @@ status: "pending"
 depends_on: []
 blocks: []
 origin: "art_20260602_kdo_data_autopsy_huangyaoshi — 四个死刑"
+status_note: "2026-06-02 关机前：Sprint 6 代码已改完（clipy/curation/feedback/delivery/quality/workspace），tests 413全绿。commands/prompt.py 新建中，未 commit。重启后需先 git add/commit 再继续。"
 related:
   - plan_20260531_data-curator-v1.3
   - labeling-final-consolidation

@@ -1,7 +1,7 @@
 ---
-updated: 2026-05-31
+updated: 2026-06-02
 active_branch: main
-active_task: 桌面待办（3项）。①提示词自动注入提案 → proposal-prompt-injection-infrastructure。②AI快速精通领域知识管线提案 → proposal-ai-domain-mastery-pipeline。③RAG领域Pilot任务 → tasks/pilot-rag-domain-knowledge-pipeline（依赖Sprint 6断裂点1+2，等黄药师领取）。
+active_task: 飞轮日结束。黄药师：Sprint 6 四断裂点已修复 + RAG Pilot 已验证 + kdo prompt 命令在建中（pending commit）。老顽童：两篇深度文章通过（rag_judgment A + 待审），飞轮第二圈指令已下。桌面待办：proposal-prompt-injection-infrastructure、proposal-ai-domain-mastery-pipeline、proposal-kdo-flywheel-infrastructure。
 blockers: []
 ---
 
