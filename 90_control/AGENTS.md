@@ -80,6 +80,22 @@ They orchestrate the built-in skills and define the standard operating cadence.
 
 Feedback routing rules live at `90_control/workflows/feedback-routing-rules.md`.
 
+## KDO 飞轮 — 核心操作系统
+
+KDO 不是静态知识库，是自进化的认知飞轮。每一圈都在提升下一圈的起点。
+
+```
+建造 → 使用 → 反思 → 实验 → 回到建造
+```
+
+详细定义：`[[30_wiki/concepts/kdo-flywheel]]`
+
+**每个角色的飞轮职责**：
+- **用户**：提判断、逼深度、说"不够深刻"
+- **欧阳锋**：对齐标准、审查、写工单
+- **黄药师**：建工具、自己先用、发现摩擦
+- **老顽童**：用工具产出真实内容、暴露使用中的问题
+
 ## 角色协作协议
 
 KDO 知识工厂五角色分工，协作规则定义在 `90_control/debate-protocol.md`：
