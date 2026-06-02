@@ -1,7 +1,7 @@
 ---
 updated: 2026-05-31
 active_branch: main
-active_task: 桌面待办。提示词自动注入提案 → 30_wiki/decisions/proposal-prompt-injection-infrastructure。下次讨论：Level 1（kdo prompt）vs Level 2（Skill→Prompt）优先级。
+active_task: 桌面待办（2项）。①提示词自动注入提案 → proposal-prompt-injection-infrastructure。②AI快速精通领域知识管线提案 → proposal-ai-domain-mastery-pipeline（风险等级：高，需评估知识污染风险后决策）。
 blockers: []
 ---
 
