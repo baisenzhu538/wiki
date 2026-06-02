@@ -1,0 +1,43 @@
+{
+  "cards_labeled": 10,
+  "total_chunks": 93,
+  "rag_topic_coverage": [
+    "评估/evaluation",
+    "知识管理/knowledge-mgmt",
+    "索引/indexing",
+    "管线/pipeline",
+    "分块/chunking",
+    "图谱/graph",
+    "向量/embedding",
+    "排序/ranking",
+    "检索/retrieval",
+    "标注/labeling"
+  ],
+  "coverage_pct": 100.0,
+  "label_distribution": {
+    "chunk_type": {
+      "cross_reference": 13,
+      "constraint": 12,
+      "procedure": 11,
+      "critique": 11,
+      "definition": 8
+    },
+    "method_family": {
+      "knowledge-engineering": 62,
+      "thinking-tool": 22,
+      "evaluation-method": 5,
+      "decision-framework": 4
+    },
+    "audience": {
+      "developer": 54,
+      "general": 33,
+      "manager": 4,
+      "ceo/executor": 2
+    },
+    "perspective": {
+      "general": 47,
+      "professional": 42,
+      "roi": 3
+    }
+  }
+}
