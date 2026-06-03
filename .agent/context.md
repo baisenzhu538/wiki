@@ -1,7 +1,7 @@
 ---
-updated: 2026-06-02
+updated: 2026-06-03
 active_branch: main
-active_task: Sprint 6 全部完成 ✅。4 个 CLI 命令已交付 (query --stats/--aggregate + inbox --count/--search)。欧阳锋已批准 Sprint 7 方向：produce --stats + flywheel status + 数据质量门三层。KDO repo 待 commit。飞轮第一圈闭环。复盘：20_memory/sprint-20260602-retrospective.md。
+active_task: "⚡ 飞轮加速复盘完成。核心发现：飞轮加速依赖人的判断力，不是自主运转。新建概念卡 [[knowledge-error-self-exposure]]——检测半径全域覆盖、修复半径靶向。拆解三个待建组件：矛盾检测器 / 陈旧标记规则 / 增量传播机制。老顽童任务板已清理，当前 Phase 2.2 🔨，新增 contradicts 字段习惯。"
 blockers: []
 ---
 

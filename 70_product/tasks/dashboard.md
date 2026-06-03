@@ -1,6 +1,6 @@
 ---
 title: 任务仪表盘
-updated: 2026-05-28
+updated: 2026-06-03
 ---
 
 # 任务仪表盘
@@ -14,18 +14,12 @@ updated: 2026-05-28
 
 | # | 任务 | 状态 | 备注 |
 |---|------|:--:|------|
-| 1-9 | 全部旧任务 | ✅ | 含工具箱B1-B3、设计域Skill、Anthropic手册、科学决策PNG等 |
-| 10 | 单元模型域编译 + VA 修复 | ✅ | Part A ✅。Part B VA 修复 14/14 ✅。审查通过 A- |
-| 11 | OCR Batch 4（15张） | ✅ | 7张手写✅ + 8张批量模板修补✅。欧阳锋审查通过 A- |
-| 12 | y-model validator 修复 | ✅ | `kdo validate --v15` exit 0 |
-| 13 | 单元模型域2处小修（overview id+typo / benchmark乱码） | ✅ | |
-| **14** | **管理工具箱 Batch 3（T6+T7+T8 精修）** | ✅ | A- ✅。见下方 Phase A 善后 |
-| **15** | **综合管线** | ✅ | Phase A ✅ / Phase B ✅ / **Phase C 🔨** |
-| **16** | **Phase C：文章 3 篇** | **🟡** | **有条件 PASS。需修 3 处 FAIL（缺 Audience/Core Thesis/错别字）** |
-| **17** | **Phase 2.1：corrections.md 暗知识卡批产** | ✅ | **11 张全部 PASS。质量 A** |
-| **18** | **Phase 2.2：failure-modes.md 暗知识卡批产** | **🔨 进行中** | **22 种失败模式，分 7-8 批产出。见 [[task-20260531-laowantong-phase2-dark-knowledge]]** |
-| **19** | **Phase 2.3：pitfalls.md 暗知识卡批产** | **⏳ 排队** | **15 条踩坑，沿用 failure-modes 模板** |
-| **20** | **Phase 3：口述稿暗知识萃取（月白→Truman）** | **⏳ 排队** | **~100 张。黄药师萃取器 A 版就绪后启动** |
+| 1-16 | 5 月全部旧任务（工具箱B1-B3/设计域Skill/Anthropic手册/科学决策PNG/单元模型域/OCR Batch/综合管线/Phase C文章等） | ✅ | 全部完成，已从任务文件清除 |
+| 17 | Phase 2.1：corrections.md 暗知识卡批产 | ✅ | 11 张全部 PASS。质量 A |
+| **18** | **Phase 2.2：failure-modes.md 暗知识卡批产** | **🔨** | **22 种失败模式，分 7-8 批。执行中 + 写 contradicts 字段** |
+| **19** | **Phase 2.3：pitfalls.md 暗知识卡批产** | **⏳** | **15 条踩坑，Phase 2.2 完成后启动** |
+| **20** | **Phase 3：口述稿暗知识萃取（月白→Truman）** | **⏳ 阻塞** | **~100 张。等黄药师萃取器 A 版就绪** |
+| **21** | **🆕 写卡时标注 contradicts** | **🔨** | **从 Phase 2.2 开始执行。每张新卡检查与已有卡片的矛盾** |
 
 ---
 
