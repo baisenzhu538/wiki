@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-03
 active_branch: main
-active_task: "Sprint 7 ✅ — kdo produce --stats + kdo flywheel status + 数据质量门三层全部交付。16 new tests, 430 pass。KDO commit d6a38dd。Sprint 8 方向待欧阳锋确认：digest --benchmark + 飞轮深入组件。"
+active_task: "Phase 2.2 审查通过 ✅（14 张 dk-f* 卡，评级 A）。黄药师 Sprint 7 ✅（produce --stats + flywheel status + 数据质量门三层，430 pass）。老顽童下一步：Phase 2.3（pitfalls 暗知识卡）+ contradicts 字段。Sprint 8 方向待欧阳锋确认。"
 blockers: []
 ---
 
