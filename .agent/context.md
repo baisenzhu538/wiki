@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-02
 active_branch: main
-active_task: Sprint 6 全部完成。交付：kdo prompt + coverage + 四断裂点 + scan_feedback + capabilities 五类补齐 + 老顽童 18 条 Feedback 工单。飞轮第一圈闭环。复盘：20_memory/sprint-20260602-retrospective.md。
+active_task: Sprint 6 全部完成 ✅。4 个 CLI 命令已交付 (query --stats/--aggregate + inbox --count/--search)。欧阳锋已批准 Sprint 7 方向：produce --stats + flywheel status + 数据质量门三层。KDO repo 待 commit。飞轮第一圈闭环。复盘：20_memory/sprint-20260602-retrospective.md。
 blockers: []
 ---
 
