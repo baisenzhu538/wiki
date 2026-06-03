@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-03
 active_branch: main
-active_task: "⚡ 飞轮加速复盘完成。核心发现：飞轮加速依赖人的判断力，不是自主运转。新建概念卡 [[knowledge-error-self-exposure]]——检测半径全域覆盖、修复半径靶向。拆解三个待建组件：矛盾检测器 / 陈旧标记规则 / 增量传播机制。老顽童任务板已清理，当前 Phase 2.2 🔨，新增 contradicts 字段习惯。"
+active_task: "Sprint 7 ✅ — kdo produce --stats + kdo flywheel status + 数据质量门三层全部交付。16 new tests, 430 pass。KDO commit d6a38dd。Sprint 8 方向待欧阳锋确认：digest --benchmark + 飞轮深入组件。"
 blockers: []
 ---
 

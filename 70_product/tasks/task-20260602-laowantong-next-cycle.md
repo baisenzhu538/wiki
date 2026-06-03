@@ -4,7 +4,7 @@ assigned_to: "老顽童"
 priority: "P0"
 created_at: "2026-06-02"
 reviewer: "欧阳锋"
-status: "pending"
+status: "in_progress"
 ---
 
 # 飞轮第二圈：继续写，不等人
