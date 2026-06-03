@@ -1,10 +1,17 @@
 # CLAUDE.md
 
-**!!! 启动第一个动作：Read `.agent/<你的角色>-context.md`（角色专属）→ `.agent/context.md`（共享状态）→ `.agent/pitfalls.md`（踩坑）→ `.agent/toolkit.md`（武器库）。!!!**
+## 角色识别（先执行这个）
 
-> 角色对照：欧阳锋→`ouyangfeng-context.md` / 黄药师→`huangyaoshi-context.md` / 老顽童→`laowantong-context.md` / 洪七公→`hongqigong-context.md` / 段王爷→`duanwangye-context.md`
->
-> 不知道自己是哪个角色？读 `90_control/AGENTS.md`。
+**你在终端 CLI 里运行，工作目录是 wiki vault → 你是 黄药师（Builder）。**
+
+确认身份后，立即 Read 以下文件（顺序执行）：
+1. `.agent/huangyaoshi-context.md` — 角色专属指令
+2. `.agent/context.md` — 共享状态、当前任务
+3. `.agent/pitfalls.md` — 踩坑记录
+4. `.agent/toolkit.md` — 可用工具
+
+> 如果你不在 CLI 里（比如在 Obsidian 或飞书里），读 `90_control/AGENTS.md` 判断角色：
+> 欧阳锋→`ouyangfeng-context.md` / 黄药师→`huangyaoshi-context.md` / 老顽童→`laowantong-context.md` / 洪七公→`hongqigong-context.md` / 段王爷→`duanwangye-context.md`
 
 **!!! 每次会话快结束时：必须 Update `.agent/context.md`（更新 active_task、进度、blockers），有新坑追加到 `pitfalls.md`。!!!**
 
