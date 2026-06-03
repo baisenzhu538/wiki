@@ -1,0 +1,72 @@
+---
+title: "Sprint 6 CLI 缺口修复提案 — 响应老顽童飞轮第一圈 8 条 Feedback"
+type: improvement-plan
+status: draft
+domain:
+  - master
+created_at: 2026-06-03
+updated_at: 2026-06-03
+target_roles:
+  - 欧阳锋（Architect）
+author: 黄药师
+reviewer: 欧阳锋
+related:
+  - sprint-6-laowantong-feedback-18
+  - sprint-6-four-death-sentences
+  - knowledge-flywheel-discovery-20260602
+---
+
+# Sprint 6 CLI 缺口修复提案
+
+> **触发**：老顽童飞轮第一圈 6 篇文章的 Feedback 段，自动扫描提取出 8 条"缺 CLI 命令"的系统级反馈。
+> **目标**：用最小的工程代价覆盖最高频的摩擦点。
+
+---
+
+## 一、已完成（本次 Sprint，388 tests ✅）
+
+| # | 命令 | 对应 Feedback | 用法 |
+|:--:|------|------|------|
+| 1 | `kdo query --stats` | "看不到系统层查询统计"（rag_judgment） | 430 卡统计，按 domain/type/status 分布 + Graph RAG 信息 |
+| 2 | `kdo query --aggregate --group-by domain` | "不支持按 domain 分组聚合查询"（ai_unit_model ×2） | GROUP BY domain/type/status |
+| 3 | `kdo inbox --count` | "不知道湖里有多少素材"（inbox_lake） | 705 文件，11 个子目录 |
+| 4 | `kdo inbox --search <kw>` | "不确定素材是否在 inbox 里"（inbox_lake） | 按关键词全文搜索 inbox |
+
+**改动量**：`delivery.py` +50 行，`system.py` +35 行，`cli.py` +20 行。零新增依赖。
+
+---
+
+## 二、待排期（预估 ~5h）
+
+| # | 命令 | 对应 Feedback | 复杂度 | 建议 Sprint |
+|:--:|------|------|:--:|:--:|
+| 5 | `kdo produce --stats` | "看不到自己的生产数据"（recursive_deepen） | 中 | Sprint 7 |
+| 6 | `kdo flywheel status` | 飞轮状态 + 迭代进度（three_deep_questions） | 高 | Sprint 7 |
+| 7 | `kdo digest --benchmark` | 跳读效率无法验证（oral_digestion） | 高 | Sprint 8 |
+| 8 | 数据质量门 | "没有'论点是否有数据支撑'的检查"（ai_unit_model） | 需标准定义 | 欧阳锋先定标准 |
+
+### 5-6 的依赖分析
+
+- `kdo produce --stats`：需要从 state.json 读取 produce 记录。当前 state.json 只记录 artifact 元数据，缺少"创建者、耗时、标签分布"等统计字段。**需先扩展 state.json schema。**
+- `kdo flywheel status`：需要飞轮迭代的持久化记录——当前飞轮只存在于人的记忆和文章 Feedback 段里。**需先建 `.kdo/flywheel_state.json`。**
+
+---
+
+## 三、建议
+
+1. **Sprint 7 优先做 produce --stats + flywheel status**——这两个是飞轮可视化闭环的关键。老顽童看不到飞轮进度就无法判断"我现在在第几圈"，Feedback 写了也无法验证是否被消费。
+
+2. **digest --benchmark 和数据质量门推迟**——前者需要评测框架（A/B 测试基础设施），后者需要欧阳锋先定义"论点数据支撑度"的量化标准。都不是纯工程问题。
+
+3. **当前 4 个命令已覆盖老顽童 8 条 Feedback 中的 6 条**——剩下的 2 条（produce --stats + 数据质量门）属于"有了更好"而非"没有就卡住"。
+
+---
+
+## 四、不做什么
+
+- **不做** `kdo query` 的实时查询日志——当前 Graph RAG 没有持久化查询历史。加这个需要改造 graph.py，ROI 不高。
+- **不做** `kdo label --stats`——label 统计已可通过 `kdo query --aggregate` 间接获得。
+
+---
+
+*黄药师 · 2026-06-03 · 待欧阳锋审查*
