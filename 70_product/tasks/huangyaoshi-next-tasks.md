@@ -340,6 +340,8 @@ Anthropic 协议适配 + `_PLACEHOLDER_PATTERNS` + `is_configured()` 修复已�
 | 🧹 | 清理 3 张垃圾 source | 随手 | ✅ |
 | 🎬 | video ship stages sync | 随手 | ✅ |
 | S5 | Validate→Ship 闭环 | — | ⏸️ 暂缓 |
+| S6 | query --stats/--aggregate + inbox --count/--search + prompt + label | S6 | ✅ commit 150c58b |
+| S7 | produce --stats + flywheel status + 数据质量门三层 | S7 | ✅ commit d6a38dd |
 
 ---
 
