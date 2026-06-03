@@ -4,14 +4,132 @@
 
 ## 状态
 
-**已完成**：Task 1-20 全部 ✅。P0+P1 整改令全部关闭。379 tests pass（+1 skipped）。
-- Batch 1-5: scaffold / clean-transcript / validate / watch / task / graph / RAG / quality-gate / skill-dir / build
-- 🔧 P0 整改令（`3026355` llm.py commit + 健康报告更正 + 方法学标注）✅
-- 🔧 P1 整改令（`c41bcfe` orphan all-files + `ee7c1ac` llm-check + heading 结构匹配）✅
-- 🔧 Batch 7 基础设施债（`2c7c04e` index.md wikilink + 源注册表垃圾清理 + auto-feedback cooldown）✅
-- 🍽️ **狗粮任务**：[[70_product/tasks/task-20260524-huangyaoshi-ai-study-dogfood]]（一次性体验式，不影响主要职责）
-- 欧阳锋终验：P0+P1 共 6 项整改全部通过。Batch 7 三项全部通过。
-- [[60_feedback/assessments/architect-20260523-huanyyaoshi-rectification]] 关闭。
+**已完成**：Task 1-20 全部 ✅。Sprint 1-7 全部 ✅。P0+P1 整改令全部关闭。
+- Sprint 6: `150c58b` — query --stats/--aggregate + inbox --count/--search + kdo prompt + label pipeline
+- Sprint 7: `d6a38dd` — produce --stats + flywheel status + data quality gate. 16 tests, 430 pass
+- Batch 1-7、P0/P1 整改令、视频管线 Task 15-17 等全部历史任务 ✅
+
+---
+
+## 🎯 当前任务（顺序执行，做完一个再开下一个）
+
+### Task A：陈旧标记规则（P0，估时 ~1 天）
+
+**背景**：知识库卡片不会自己变旧——它们只在被注意到已经陈旧时才被发现。需要根据域类型自动标记过期，在读者打开卡片时提示"本卡已 N 天未审查"。
+
+**前置**：以下阈值需欧阳锋确认后方可开工。
+
+#### 阈值草案（欧阳锋待确认 ✅/❌）
+
+| 域/类型 | 默认阈值 | 理由 | 欧阳锋确认 |
+|:--------|:--------:|:-----|:---------:|
+| master + core 框架概念 | 180 天 | 系统思考、飞轮这类不常变 | ⏳ |
+| yt-*（课程笔记） | 90 天 | 课程知识相对稳定 | ⏳ |
+| AI/工具/代码相关卡 | 30 天 | 变化快 | ⏳ |
+| dk-*（暗知识卡） | **永不过期** | 失败经验不会过时 | ⏳ |
+| 任何显式 `review_interval` 覆盖 | 按覆盖值 | 作者自己标记了节奏 | ⏳ |
+| 未归类卡片 | 90 天 | 默认值 | ⏳ |
+
+#### 实现要求
+
+**1. frontmatter 支持**（parser 层）
+
+```yaml
+review_interval: 90   # 天，覆盖该域默认值。不写 = 按域默认
+last_reviewed: 2026-06-01  # 上次人工审查日期。不写 = created_at
+```
+
+- 所有卡片自动获得 `review_interval`（无则继承域默认）
+- `last_reviewed` 无则用 `created_at`
+- 不破坏现有 frontmatter 解析
+
+**2. 扫描命令：`kdo stale [--domain] [--json]`**
+
+输出：
+```
+Stale Cards (threshold exceeded):
+  yt-management-scientific-decision (yt-*, 120d > 90d) — needs-review
+  ai-native-five-levels (AI/tool, 45d > 30d) — needs-review
+  ...
+
+Summary: 8 stale / 215 total
+```
+
+- 遍历所有卡片 frontmatter → 当前日期 - updated_at > review_interval → `status: needs-review`
+- 不自动改任何卡片内容，只输出标记建议
+- `--json` 输出结构化数据供 pipeline 消费
+- 不对 `dk-*` 卡做 stale 检查（永不过期）
+
+**3. 陈旧标记写入：`kdo stale --apply`**
+
+- 将检测到的 stale 卡 frontmatter `status` 修改为 `needs-review`
+- 幂等：已经是 needs-review 的不重复标记
+- dry-run 模式：`kdo stale --dry-run` 预览但不写入
+
+**4. 懒加载提示（可选，P1）**
+
+在 `kdo query`、`kdo cards` 等命令的输出中，对 `status: needs-review` 的卡片标注 `⚠️ 已陈旧`。
+
+#### 验收
+
+- `kdo stale` 对 dk-* 卡不报 stale（永不过期）
+- `kdo stale --dry-run` 不修改任何文件
+- `kdo stale --apply` 后卡片 frontmatter status 变为 needs-review
+- 幂等：重复跑不反复标记
+- 自定义 `review_interval` 覆盖域默认值
+- pytest ≥5 new tests
+- 430 现有 tests 无回归
+
+---
+
+### Task B：增量传播机制—反向引用索引（P0，估时 2-3 天）
+
+**⚠️ Task A 完成后才启动。不准并行。**
+
+**背景**：卡片 A 被标记为 stale 后，所有引用 A 的卡片 B/C/D 需要收到通知。当前 wiki-link 是单向的（`[[概念A]]` 只记录了 A 被引用，不记录谁引用 A）。
+
+#### 实现要求
+
+**1. 反向引用索引**
+
+```
+.kdo/ref_index.json
+  → 对每张卡，记录"谁引用了我"
+  → 写入时更新（不是读时扫描）
+  → 以 frontmatter 为真相源，索引只做缓存
+```
+
+**2. 传播规则**
+
+- 卡片 A 变 stale → 查 ref_index → 找到所有引用了 A 的卡 B/C/D
+- B/C/D 收到 `has_stale_dependency: true` 标记
+- **一跳传播**：只标记直接依赖，不递归到孙级
+- **去重**：同一卡不重复标记
+- **终止条件**：人工确认"已审查，没问题"后从传播链移除
+
+**3. 扫描命令：`kdo stale --propagate`**
+
+在 `kdo stale --apply` 之后运行，查找受影响的引用链卡片。
+
+#### 验收
+
+- `kdo stale --propagate` 正确标记直接依赖
+- 不递归（孙级不受影响）
+- 人工确认后不再提示
+- pytest ≥5 new tests
+
+---
+
+## 📋 待排期清单（欧阳锋记录，按优先级排序）
+
+| 优先级 | 项目 | 前置条件 | 谁做 | 状态 |
+|:------:|:-----|:---------|:----|:----:|
+| **P0** | Task A：陈旧标记规则 | 欧阳锋确认阈值 | 黄药师 | 🔜 排期中 |
+| **P0** | Task B：增量传播机制 | Task A 完成后 | 黄药师 | ⏳ 排队 |
+| **P1** | 矛盾检测器 Step 2（三元组提取 + Graph RAG 匹配） | 老顽童积累 contradicts 数据 + Task B 完成 | 黄药师 | ⏳ 待排期 |
+| **P2** | 矛盾检测器 Step 3（contradiction classifier） | Step 2 跑通 100 张卡后评估 | 黄药师 | 📅 远期 |
+| **P3** | `kdo produce --stats --diff`（增量统计） | — | 黄药师 | 📅 远期 |
+| **Px** | 飞轮深入组件 | Sprint 8 方向确认 | 待定 | ⏳ 待定 |
 
 ---
 

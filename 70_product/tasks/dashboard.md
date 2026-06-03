@@ -28,13 +28,10 @@ updated: 2026-06-03
 | # | 任务 | 状态 |
 |---|------|:--:|
 | 1-20 | scaffold / validate / video CLI / infrastructure 等全部旧任务 | ✅ |
-| Sprint 3 | produce 自动预填 | ✅ commit 6270360。欧阳锋审查通过 |
-| Sprint 4 | 数据卫生（断链/frontmatter/双格式） | ✅ | **S4-1/S4-2/S4-3 全部 PASS** ✅ 欧阳锋审查通过。A类断链83→0，frontmatter245→0，双格式134→0 |
-| **Sprint 5** | **Validate→Ship 闭环** | ✅ | **S5-1/S5-2/S5-3 全部 PASS** ✅ 欧阳锋审查通过。9/9 tests, 388 pytest |
-| **Sprint 5a** | **Article validator source_refs 修复** | ✅ | 欧阳锋审查通过 ✅。详见 [[task-20260528-huangyaoshi-sprint5a-article-validator-fix]] |
-| **Sprint 5b** | **🔨 萃取器跑通全部月白口述稿** | **🔨** | **3 篇口述稿过萃取器，产出候选 JSON。见 [[task-20260531-huangyaoshi-extractor-run-all]]** |
-| Sprint 6 | query --stats/--aggregate + inbox --count/--search + kdo prompt + label pipeline | ✅ | commit 150c58b。413 tests。飞轮第一圈 Feedback 驱动 |
-| Sprint 7 | produce --stats + flywheel status + 数据质量门三层 | ✅ | commit d6a38dd。16 new tests, 430 pass。飞轮可视化闭环 |
+| Sprint 3-7 | 全部交付（produce 预填/数据卫生/Validate→Ship/video CLI/Sprint 6-7） | ✅ | **全部欧阳锋审查通过。Sprint 7 评级 A** |
+| Sprint 5b | 萃取器跑通全部月白口述稿 | 🟡 | 已产出候选 JSON。待欧阳锋确认后续 |
+| **Task A** | **陈旧标记规则（`kdo stale`）** | **🔜** | **阈值待欧阳锋确认后开工。估时 ~1 天** |
+| **Task B** | **增量传播机制—反向引用索引（`kdo stale --propagate`）** | **⏳** | **Task A 完成后启动。估时 2-3 天** |
 
 ---
 

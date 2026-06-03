@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-03
 active_branch: main
-active_task: "Phase 2.2 审查通过 ✅（14 张 dk-f* 卡，评级 A）。黄药师 Sprint 7 ✅（produce --stats + flywheel status + 数据质量门三层，430 pass）。老顽童下一步：Phase 2.3（pitfalls 暗知识卡）+ contradicts 字段。Sprint 8 方向待欧阳锋确认。"
+active_task: "Sprint 7 审查通过 ✅（A 级）。飞轮 init → 推进到 Iteration 2 phase:build ✅。黄药师新工单：Task A 陈旧标记规则（阈值待欧阳锋确认）→ Task B 增量传播机制。待排期清单已建：矛盾检测器 Step 2/3、produce --stats --diff。"
 blockers: []
 ---
 
