@@ -33,6 +33,8 @@ updated: 2026-06-03
 | **Sprint 5** | **Validate→Ship 闭环** | ✅ | **S5-1/S5-2/S5-3 全部 PASS** ✅ 欧阳锋审查通过。9/9 tests, 388 pytest |
 | **Sprint 5a** | **Article validator source_refs 修复** | ✅ | 欧阳锋审查通过 ✅。详见 [[task-20260528-huangyaoshi-sprint5a-article-validator-fix]] |
 | **Sprint 5b** | **🔨 萃取器跑通全部月白口述稿** | **🔨** | **3 篇口述稿过萃取器，产出候选 JSON。见 [[task-20260531-huangyaoshi-extractor-run-all]]** |
+| Sprint 6 | query --stats/--aggregate + inbox --count/--search + kdo prompt + label pipeline | ✅ | commit 150c58b。413 tests。飞轮第一圈 Feedback 驱动 |
+| Sprint 7 | produce --stats + flywheel status + 数据质量门三层 | ✅ | commit d6a38dd。16 new tests, 430 pass。飞轮可视化闭环 |
 
 ---
 
