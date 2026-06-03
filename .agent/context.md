@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-03
 active_branch: main
-active_task: "Sprint 7 审查通过 ✅（A 级）。飞轮 init → 推进到 Iteration 2 phase:build ✅。黄药师新工单：Task A 陈旧标记规则 → Task B 增量传播机制。🆕 电子嵌入式域启动：用户明天拷入 10G 资料，用 KDO 飞轮方法论快速建立红外对射板调试知识。资料入 00_inbox/embedded/，AI 交叉验证 + 故障树诊断。"
+active_task: "Phase 2.3 审查 🟡 有条件 PASS。15 张重复旧卡已清除，19 张卡保留。待办：P-16 新版 + contradicts 补全。黄药师工单：Task A 陈旧标记规则（已拍板）。明日启动红外对射硬件调试——用户拷资料到 00_inbox/embedded/，用 KDO 方法论 + OCR 快速建立调试知识。"
 blockers: []
 ---
 
