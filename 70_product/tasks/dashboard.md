@@ -30,7 +30,7 @@ updated: 2026-06-03
 | 1-20 | scaffold / validate / video CLI / infrastructure 等全部旧任务 | ✅ |
 | Sprint 3-7 | 全部交付（produce 预填/数据卫生/Validate→Ship/video CLI/Sprint 6-7） | ✅ | **全部欧阳锋审查通过。Sprint 7 评级 A** |
 | Sprint 5b | 萃取器跑通全部月白口述稿 | 🟡 | 已产出候选 JSON。待欧阳锋确认后续 |
-| **Task A** | **陈旧标记规则（`kdo stale`）** | **🔜** | **阈值待欧阳锋确认后开工。估时 ~1 天** |
+| **Task A** | **陈旧标记规则（`kdo stale`）** | **🔜** | **阈值已拍板，可开工。估时 ~1 天** |
 | **Task B** | **增量传播机制—反向引用索引（`kdo stale --propagate`）** | **⏳** | **Task A 完成后启动。估时 2-3 天** |
 
 ---
