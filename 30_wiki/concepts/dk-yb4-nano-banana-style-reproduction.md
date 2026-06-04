@@ -16,8 +16,8 @@ tags:
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
-  - dk-yb18-zero-shot-style-transfer
-  - dk-yb11-visual-book-reverse
+  - — 暂无（待后续卡片补充关联）
+contradicts: []
 ---
 
 # Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o

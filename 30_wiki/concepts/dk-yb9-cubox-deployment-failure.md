@@ -16,8 +16,8 @@ tags:
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
-  - dk-yb19-small-shop-image-mismatch
-  - dk-yb27-pseudo-layer-evasion
+  - — 暂无（待后续卡片补充关联）
+contradicts: []
 ---
 
 # Cubox及AI协作工具的团队部署失败模式

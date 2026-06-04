@@ -18,7 +18,7 @@ updated_at: 2026-06-04
 related:
   - dk-yb5-style-asset-archive
   - dk-yb8-file-naming-eight-elements
-  - dk-yb15-prompt-length-constraint
+contradicts: []
 ---
 
 # 设计师AIGC工作流：先跑MVP再开PS

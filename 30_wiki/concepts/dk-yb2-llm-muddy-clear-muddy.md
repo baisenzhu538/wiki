@@ -18,6 +18,7 @@ updated_at: 2026-06-04
 related:
   - dk-yb3-diffusion-stepwise-vs-human-holistic
   - master-knowledge-compound
+contradicts: []
 ---
 
 # 大模型训练本质：浑水→清水→浑水的双向转换

@@ -17,7 +17,7 @@ created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - dk-yb2-llm-muddy-clear-muddy
-  - dk-yb14-prompt-migrate-copy-first
+contradicts: []
 ---
 
 # AI生图"抽卡"本质：逐步拆解 vs 人类整体构思

@@ -16,8 +16,8 @@ tags:
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
-  - dk-yb21-ecommerce-pricing-independent-model
-  - dk-yb25-solution-driven-visual-design
+  - — 暂无（待后续卡片补充关联）
+contradicts: []
 ---
 
 # 中国设计需求的80-10-10分层法则

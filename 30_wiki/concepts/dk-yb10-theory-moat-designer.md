@@ -16,8 +16,8 @@ tags:
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
-  - dk-yb13-taste-inward-aesthetic-outward
-  - dk-yb22-ai-eye-high-principle
+  - — 暂无（待后续卡片补充关联）
+contradicts: []
 ---
 
 # AI时代设计师的理论护城河

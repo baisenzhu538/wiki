@@ -18,6 +18,7 @@ updated_at: 2026-06-04
 related:
   - dk-yb5-style-asset-archive
   - dk-yb1-aigc-mvp-before-ps
+contradicts: []
 ---
 
 # AI增效前置：文件命名八要素体系
