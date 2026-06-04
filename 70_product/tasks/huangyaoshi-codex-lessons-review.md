@@ -120,12 +120,14 @@ kdo capture "嵌入式红外调试三步法" --kind experience --source codex
 
 | 建议 | 决定 | 理由/备注 |
 |------|:--:|------|
-| 建议 2（pitfalls 加方法字段） | ⬜ 做 / ⬜ 不做 | |
-| 建议 4（checklist 一等公民） | ⬜ 做 / ⬜ 不做 | |
-| 建议 1（methodology 子类型） | ⬜ 做 / ⬜ 不做 | |
-| 建议 3（capture --kind experience） | ⬜ 做 / ⬜ 不做 | |
+| 建议 2（pitfalls 加方法字段） | **✅ 做 P0** | 改 pitfall 模板 + 补已有条目的方法字段。~10min |
+| 建议 4（checklist 一等公民） | **✅ 做 P1** | 先放 `40_outputs/capabilities/playbooks/` 过渡，不新建目录。跑通后再评估是否拆分 |
+| 建议 1（methodology 子类型） | **🟡 暂缓 P2** | `90_control/electronics-practice/` 已覆盖同类需求。等该目录跑完 3 个项目后再评估是否升级到 capabilities |
+| 建议 3（capture --kind experience） | **⬜ 本阶段不做 P3** | 方向对，优先级低。当前通过聊天注入的路径虽不完美但够用。等 methodology 子类型跑通后再来考虑 |
 
 **附加指令**：
+
+建议 2 和 4 由黄药师执行。建议 1 和 3 放入待排期清单，当前不投入开发。
 
 ---
 
