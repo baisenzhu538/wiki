@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-04
 active_branch: main
-active_task: "广冷电子红外板调试 ✅ 完成 + 复盘已写。Codex 三阶段调试复盘（盲试→诊断→逻辑修正）已沉淀为 20_memory/embedded-debugging-retrospective-20260604.md。KDO 系统改进分析见 20_memory/kdo-lessons-from-codex-debug-20260604.md。新增 P-21（盲目调参反模式）。待办：提炼 embedded-ir-debugging playbook。黄药师工单仍为 Task A（陈旧标记规则）。"
+active_task: "广冷红外板调试 ✅ + 复盘已写。Codex 三阶段调试复盘已沉淀。P-21 已追加。Playbook embedded-ir-debugging 已提炼到 40_outputs/capabilities/playbooks/。KDO 改进 4 条建议已写入 70_product/tasks/huangyaoshi-codex-lessons-review.md 等欧阳锋审查。Task A — kdo stale 命令已实现（commands/stale.py + 25 tests pass），待欧阳锋审查后 commit。总测试 454 pass + 1 skip（1 pre-existing CSRF failure unrelated）。"
 blockers: []
 ---
 
@@ -45,9 +45,9 @@ blockers: []
 
 ### KDO CLI 状态
 - 47 .py 文件，~13,800 行，15 测试文件
-- **pytest**：354/354 passing（不含 flaky dashboard 网络测试）
+- **pytest**：454/456 passing + 1 skip（1 pre-existing CSRF failure）
 - **Graph RAG**：226 entities, 721 chunks, 1252 relations
-- **kdo video**：5 子命令，36 tests
+- **kdo stale**：25 tests pass，待欧阳锋审查后 commit
 - 坚果云备份 ✅
 
 ### Design 域
