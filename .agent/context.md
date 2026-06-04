@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-04
 active_branch: main
-active_task: "广冷红外板调试 ✅ + 复盘已写。Codex 三阶段调试复盘已沉淀。P-21 已追加。Playbook embedded-ir-debugging 已提炼到 40_outputs/capabilities/playbooks/。KDO 改进 4 条建议已写入 70_product/tasks/huangyaoshi-codex-lessons-review.md 等欧阳锋审查。Task A — kdo stale 命令已实现（commands/stale.py + 25 tests pass），待欧阳锋审查后 commit。总测试 454 pass + 1 skip（1 pre-existing CSRF failure unrelated）。"
+active_task: "广冷红外板调试 ✅ + 复盘已写。Task A (kdo stale) ✅ committed。Task B (stale --propagate) spec 已写 docs/superpowers/specs/2026-06-05-kdo-stale-propagate-design.md 等用户审批。电子工程域 KDO 化建议已写入 90_control/electronics-practice/huangyaoshi-kdo-electronics-proposal.md 供欧阳锋+用户对齐讨论。"
 blockers: []
 ---
 
