@@ -48,13 +48,17 @@ void Ir_Select_Send(u8 no,u8 enable)
 		 // 根据 位掩码 写数据到595芯片
 		if(mask&((u16)0x8000>>i)) // 从高位到低位依次输出(1个芯片扩展8个灯珠)
 		{
-			IR_595_QD1=1;// 输出高电平，开启对应发射灯珠（主控红外板-QD1通道）
-      IR_595_QD3=1;// 输出高电平，开启对应发射灯珠（红外板-QD1通道）（Q3<=>Q1）
+			IR_595_QD1=1;// A板595#1-QD1通道
+			IR_595_QD2=1;// A板595#2-QD2通道
+      IR_595_QD3=1;// B板595#1-QD3通道
+			IR_595_QD4=1;// B板595#2-QD4通道
 		}
 		else
 		{
-			IR_595_QD1=0;// 输出低电平，关闭QD1通道
+			IR_595_QD1=0;// 关闭QD1通道
+			IR_595_QD2=0;// 关闭QD2通道
 			IR_595_QD3=0;// 关闭QD3通道
+			IR_595_QD4=0;// 关闭QD4通道
 		}
 		Ir_Delay(15);// 确保数据稳定
 		
@@ -344,7 +348,7 @@ void Ir_Init(void)
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0|GPIO_Pin_1|GPIO_Pin_2;// 配置GPIOA的Pin0--A、Pin1--B、Pin2--C（A、B、C控制引脚）	 
 	GPIO_Init(GPIOA, &GPIO_InitStructure);
   // 配置GPIOC的Pin13--RCLK(595)、Pin14--SRCLK(595)   Pin15--QD3、Pin6--QD1 	
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_13|GPIO_Pin_14|GPIO_Pin_15|GPIO_Pin_6; 
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6|GPIO_Pin_7|GPIO_Pin_8|GPIO_Pin_13|GPIO_Pin_14|GPIO_Pin_15; 
 	GPIO_Init(GPIOC, &GPIO_InitStructure);	
 	
 	
@@ -361,4 +365,6 @@ void Ir_Init(void)
 	// 初始化595的时钟引脚为低电平（初始状态）
 	IR_595_RCLK=0; // 锁存时钟初始为低
 	IR_595_SRCLK=0;// 移位时钟初始为低
+	IR_595_QD2=0;  // QD2初始为低
+	IR_595_QD4=0;  // QD4初始为低
 }
