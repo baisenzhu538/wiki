@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-04
 active_branch: main
-active_task: "广冷电子红外板调试 ✅ 完成。根因：SN74LVC2G07 开漏输出导致 RCLK 上升沿变缓→595 锁存不可靠。修复：RCLK 后加 Ir_Delay(200) + 接收判断逻辑改用分段检测（no<8→IN1&&IN3, no>=8→IN2&&IN4）。报告已更新至 00_inbox/广冷电子/HX-SMJ故障分析报告.md。黄药师工单仍为 Task A（陈旧标记规则）。"
+active_task: "广冷电子红外板调试 ✅ 完成 + 复盘已写。Codex 三阶段调试复盘（盲试→诊断→逻辑修正）已沉淀为 20_memory/embedded-debugging-retrospective-20260604.md。KDO 系统改进分析见 20_memory/kdo-lessons-from-codex-debug-20260604.md。新增 P-21（盲目调参反模式）。待办：提炼 embedded-ir-debugging playbook。黄药师工单仍为 Task A（陈旧标记规则）。"
 blockers: []
 ---
 
