@@ -1,0 +1,11 @@
+5V/1AStepDownRegulators
+100nF
+
+4.7HH VIn
+24V VIN BST s 5333 Vout
+5V/1A
+1470 100KM 11.2K  JW5026 FB 1
+≥2.1k 10μF
+GD
+言
+止
