@@ -1,0 +1,17 @@
+..\obj\miscs.o: ..\DEV_SALVE_DRIVE\miscs.c
+..\obj\miscs.o: ..\DEV_SALVE_DRIVE\miscs.h
+..\obj\miscs.o: ..\CAN_MASTER_DRIVE\misc_control.h
+..\obj\miscs.o: ..\DRIVE\misc\misc_gpio.h
+..\obj\miscs.o: ..\SYSTEM\sys\sys.h
+..\obj\miscs.o: ..\USER\stm32f10x.h
+..\obj\miscs.o: ..\CORE\core_cm3.h
+..\obj\miscs.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\miscs.o: ..\USER\system_stm32f10x.h
+..\obj\miscs.o: ..\USER\stm32f10x_conf.h
+..\obj\miscs.o: ..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h
+..\obj\miscs.o: ..\USER\stm32f10x.h
+..\obj\miscs.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\obj\miscs.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\obj\miscs.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\obj\miscs.o: ..\STM32F10x_FWLib\inc\misc.h
+..\obj\miscs.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

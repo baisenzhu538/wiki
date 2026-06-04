@@ -1,0 +1,15 @@
+..\obj\lift_io_drive.o: ..\DRIVE\lift\lift_io_drive.c
+..\obj\lift_io_drive.o: ..\DRIVE\lift\lift_io_drive.h
+..\obj\lift_io_drive.o: ..\SYSTEM\sys\sys.h
+..\obj\lift_io_drive.o: ..\USER\stm32f10x.h
+..\obj\lift_io_drive.o: ..\CORE\core_cm3.h
+..\obj\lift_io_drive.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\lift_io_drive.o: ..\USER\system_stm32f10x.h
+..\obj\lift_io_drive.o: ..\USER\stm32f10x_conf.h
+..\obj\lift_io_drive.o: ..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h
+..\obj\lift_io_drive.o: ..\USER\stm32f10x.h
+..\obj\lift_io_drive.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\obj\lift_io_drive.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\obj\lift_io_drive.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\obj\lift_io_drive.o: ..\STM32F10x_FWLib\inc\misc.h
+..\obj\lift_io_drive.o: ..\STM32F10x_FWLib\inc\stm32f10x_tim.h

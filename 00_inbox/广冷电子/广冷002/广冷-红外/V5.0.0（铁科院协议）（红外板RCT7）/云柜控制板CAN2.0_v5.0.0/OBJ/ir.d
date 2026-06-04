@@ -1,0 +1,14 @@
+..\obj\ir.o: ..\DRIVE\ir\ir.c
+..\obj\ir.o: ..\DRIVE\ir\ir.h
+..\obj\ir.o: ..\SYSTEM\sys\sys.h
+..\obj\ir.o: ..\USER\stm32f10x.h
+..\obj\ir.o: ..\CORE\core_cm3.h
+..\obj\ir.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\ir.o: ..\USER\system_stm32f10x.h
+..\obj\ir.o: ..\USER\stm32f10x_conf.h
+..\obj\ir.o: ..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h
+..\obj\ir.o: ..\USER\stm32f10x.h
+..\obj\ir.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\obj\ir.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\obj\ir.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\obj\ir.o: ..\STM32F10x_FWLib\inc\misc.h

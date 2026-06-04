@@ -1,0 +1,40 @@
+
+T21C0 000:490 SEGGER J-Link V4.98e Log File (0001ms, 0292ms total)
+T21C0 000:490 DLL Compiled: May  5 2015 11:00:52 (0001ms, 0292ms total)
+T21C0 000:490 Logging started @ 2025-11-17 14:04 (0001ms, 0292ms total)
+T21C0 000:491 JLINK_SetWarnOutHandler(...) (0000ms, 0292ms total)
+T21C0 000:491 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled May  7 2021 16:26:12
+Hardware: V9.20
+S/N: 59800879
+Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash  returns O.K. (0270ms, 0562ms total)
+T21C0 000:761 JLINK_SetErrorOutHandler(...) (0000ms, 0562ms total)
+T21C0 000:761 JLINK_ExecCommand("ProjectFile = "D:\资料\广冷\固件-代码\新红外\V5.0.0（铁科院协议）（红外板RCT7）\云柜控制板CAN2.0_v5.0.0\USER\JLinkSettings.ini"", ...)  returns 0x00 (0016ms, 0578ms total)
+T21C0 000:777 JLINK_ExecCommand("Device = STM32F103RC", ...)Device "STM32F103RC" selected.  returns 0x00 (0001ms, 0579ms total)
+T21C0 000:778 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0580ms total)
+T21C0 000:779 JLINK_GetHardwareVersion()  returns 0x16760 (0000ms, 0580ms total)
+T21C0 000:779 JLINK_GetDLLVersion()  returns 49805 (0000ms, 0580ms total)
+T21C0 000:779 JLINK_GetFirmwareString(...) (0000ms, 0580ms total)
+T21C0 000:779 JLINK_GetDLLVersion()  returns 49805 (0000ms, 0580ms total)
+T21C0 000:779 JLINK_GetCompileDateTime() (0000ms, 0580ms total)
+T21C0 000:779 JLINK_GetFirmwareString(...) (0000ms, 0580ms total)
+T21C0 000:779 JLINK_GetHardwareVersion()  returns 0x16760 (0000ms, 0580ms total)
+T21C0 000:779 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 0581ms total)
+T21C0 000:780 JLINK_SetSpeed(500) (0000ms, 0581ms total)
+T21C0 000:780 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0581ms total)
+T21C0 000:780 JLINK_Reset() >0x108 TIF> >0x108 TIF>STM32Fxxxx: Cannot attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+              JLINK_GetId() >0x108 TIF> >0x108 TIF>STM32Fxxxx: Cannot attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+                returns 0x00000000 (6391ms, 13364ms total)
+T21C0 013:564 JLINK_GetId() >0x108 TIF> >0x108 TIF>STM32Fxxxx: Cannot attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+                returns 0x00000000 (3353ms, 16717ms total)
+T21C0 016:920 JLINK_GetFirmwareString(...) (0000ms, 16717ms total)
+T2AA0 016:920 
+  ***** Error: Connection to emulator lost! (86455ms, 103172ms total)
+T21C0 238:355 JLINK_Close() (0000ms, 16717ms total)
+T21C0 238:355  (0000ms, 16717ms total)
+T21C0 238:355 Closed (0000ms, 16717ms total)

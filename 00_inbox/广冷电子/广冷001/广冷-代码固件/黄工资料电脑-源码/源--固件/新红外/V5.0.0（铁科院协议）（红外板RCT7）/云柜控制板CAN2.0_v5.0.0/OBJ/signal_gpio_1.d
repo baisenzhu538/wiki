@@ -1,0 +1,14 @@
+..\obj\signal_gpio_1.o: ..\DRIVE\signal\signal_gpio.c
+..\obj\signal_gpio_1.o: ..\DRIVE\signal\signal_gpio.h
+..\obj\signal_gpio_1.o: ..\USER\stm32f10x.h
+..\obj\signal_gpio_1.o: ..\CORE\core_cm3.h
+..\obj\signal_gpio_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\signal_gpio_1.o: ..\USER\system_stm32f10x.h
+..\obj\signal_gpio_1.o: ..\USER\stm32f10x_conf.h
+..\obj\signal_gpio_1.o: ..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h
+..\obj\signal_gpio_1.o: ..\USER\stm32f10x.h
+..\obj\signal_gpio_1.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\obj\signal_gpio_1.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\obj\signal_gpio_1.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\obj\signal_gpio_1.o: ..\STM32F10x_FWLib\inc\misc.h
+..\obj\signal_gpio_1.o: ..\SYSTEM\sys\sys.h
