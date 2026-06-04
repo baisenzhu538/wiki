@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-04
 active_branch: main
-active_task: "广冷红外板调试 ✅ + 复盘已写。Task A (kdo stale) ✅ committed。Task B (stale --propagate) spec 已写 docs/superpowers/specs/2026-06-05-kdo-stale-propagate-design.md 等用户审批。电子工程域 KDO 化建议已写入 90_control/electronics-practice/huangyaoshi-kdo-electronics-proposal.md 供欧阳锋+用户对齐讨论。"
+active_task: "广冷红外板调试 ✅ + 复盘已写。Task A (kdo stale) ✅ committed。Task B (stale --propagate) spec 已写 docs/superpowers/specs/，等用户审批。电子工程域 KDO 化建议已写入 90_control/electronics-practice/huangyaoshi-kdo-electronics-proposal.md 供欧阳锋+用户对齐讨论。今日复盘 written: 20_memory/retrospective-20260605.md。新增 P-22（跨域迁移边界） + P-23（插件依赖链）。454 tests pass。"
 blockers: []
 ---
 
