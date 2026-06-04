@@ -19,8 +19,10 @@
 //#define	IR_595_SRCLK 	PCout(13)
 
 
-#define	IR_595_QD3		PCout(15)
 #define	IR_595_QD1		PCout(6)
+#define	IR_595_QD2		PCout(7)
+#define	IR_595_QD3		PCout(15)
+#define	IR_595_QD4		PCout(8)		/* TODO: verify QD4 GPIO on V2.2 PCB */
 
 #define	IR_LEVEL_OUT	PBout(1)
 #define	IR_LED_OUT		PBout(2)
