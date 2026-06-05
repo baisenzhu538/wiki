@@ -17,9 +17,9 @@ updated: 2026-06-03
 | 1-16 | 5 月全部旧任务（工具箱B1-B3/设计域Skill/Anthropic手册/科学决策PNG/单元模型域/OCR Batch/综合管线/Phase C文章等） | ✅ | 全部完成，已从任务文件清除 |
 | 17 | Phase 2.1：corrections.md 暗知识卡批产 | ✅ | 11 张全部 PASS。质量 A |
 | **18** | **Phase 2.2：failure-modes.md 暗知识卡批产** | **✅** | **14 种失败模式全部完成（dk-f1 ~ dk-f14）。欧阳锋审查 A** |
-| **19** | **Phase 2.3：pitfalls.md 暗知识卡批产** | **🟡** | **19 张 dk-p* 卡产出。新版 18 张 A-，P-16 旧卡待升级 + contradicts 待补** |
+| **19** | **Phase 2.3：pitfalls.md 暗知识卡批产** | **✅** | **19 张 dk-p* 卡产出。新版 18 张 A-，contradicts 已补** |
 | **20** | **Phase 3：口述稿暗知识萃取（月白→Truman）** | **🔨** | **30 张目标，首批 10 张已入库（B+）。待补 20 张 + contradicts 字段** |
-| **21** | **🆕 写卡时标注 contradicts** | **⏳** | **从 Phase 2.3 开始执行。每张新卡检查与已有卡片的矛盾** |
+| **21** | **🆕 写卡时标注 contradicts** | **✅** | **Phase 2.2+2.3 共 33 张卡（dk-f* + dk-p*）contradicts 已批量补完** |
 
 ---
 
@@ -72,6 +72,7 @@ updated: 2026-06-03
 
 | 日期 | 谁 | 任务 | 结果 |
 |------|-----|------|------|
+| **06-06** | **老顶童** | **33 张暗知识卡批量补 contradicts + 飞轮第三圈文章** | **✅ 33 张（dk-f1~f14 + dk-p1~p20）contradicts 已补。飞轮话题B《三步编译法 vs 深度合成的边界》已产出。待欧阳锋审查** |
 | 05-28 | 欧阳锋 | Design 域第一批编译（月白AIGC设计课程） | ✅ **PASS**。3 张概念卡全流程完成。源素材 ingest → enrich → index → graph rebuild |
 | 05-28 | 黄药师 | Sprint 5（Validate→Ship 闭环） | ✅ **全部 PASS**。9/9 tests, 388 pytest, S5-1/S5-2/S5-3 |
 | 05-28 | 老顽童 | Phase C 文章 3 篇 | 🟡 有条件 PASS。内容 A-/A，缺 Audience/Core Thesis 节，修复后无需再审 |
