@@ -18,6 +18,9 @@ created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
   - dk-p1-model-switch-env
+contradicts:
+  - [[master-systems-thinking]]
+  - [[master-first-principles]]
 ---
 
 # P-2：tmux session 缓存旧配置

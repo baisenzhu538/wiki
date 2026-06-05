@@ -19,6 +19,9 @@ updated_at: 2026-05-31
 related:
   - dk-c1-regex-on-cjk
   - master-systems-thinking
+contradicts:
+  - [[kdo-yaml-frontmatter-safety]]
+  - [[master-first-principles]]
 ---
 
 # F-KDO-013：手写 YAML 解析器导致嵌套数据丢失

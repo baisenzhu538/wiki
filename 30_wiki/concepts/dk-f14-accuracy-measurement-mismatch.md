@@ -19,6 +19,10 @@ updated_at: 2026-05-31
 related:
   - dk-p15-claimed-done-not-verified
   - master-systems-thinking
+contradicts:
+  - [[master-decision-hygiene]]
+  - [[master-ai-info-literacy]]
+  - [[master-systems-thinking]]
 ---
 
 # F-KDO-014：准确率声明的测量口径不一致

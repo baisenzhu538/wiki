@@ -18,6 +18,10 @@ created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
   - dk-p7-ocr-skip
+contradicts:
+  - [[master-knowledge-compound]]
+  - [[kdo-flywheel]]
+  - [[master-first-principles]]
 ---
 
 # P-8：欧阳锋忘记本地已有武器——重新调研已部署工具

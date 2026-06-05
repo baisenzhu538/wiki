@@ -20,6 +20,9 @@ related:
   - dk-p1-model-switch-env
   - dk-p2-tmux-cache
   - dk-p6-session-resume-fail
+contradicts:
+  - [[master-systems-thinking]]
+  - [[master-first-principles]]
 ---
 
 # P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹

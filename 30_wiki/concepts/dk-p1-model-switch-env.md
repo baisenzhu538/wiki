@@ -19,6 +19,9 @@ updated_at: 2026-06-03
 related:
   - dk-f4-wrong-workdir
   - dk-p3-auth-cache
+contradicts:
+  - [[master-systems-thinking]]
+  - [[master-first-principles]]
 ---
 
 # P-1：切模型改环境变量无效——Claude Code 走全局设置

@@ -18,6 +18,9 @@ created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
   - dk-p8-toolkit-forget
+contradicts:
+  - [[master-decision-hygiene]]
+  - [[master-ai-info-literacy]]
 ---
 
 # P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片

@@ -19,6 +19,9 @@ updated_at: 2026-06-03
 related:
   - dk-p1-model-switch-env
   - dk-p5-cc-connect-config
+contradicts:
+  - [[master-systems-thinking]]
+  - [[master-first-principles]]
 ---
 
 # P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env

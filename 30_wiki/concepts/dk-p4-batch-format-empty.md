@@ -19,6 +19,10 @@ updated_at: 2026-06-03
 related:
   - dk-c8-format-complete-mind-empty
   - dk-f7-surface-translation
+contradicts:
+  - [[master-knowledge-compound]]
+  - [[kdo-flywheel]]
+  - [[master-ai-info-literacy]]
 ---
 
 # P-4：批量格式升级产生“格式完整但思维空洞”卡片 (C-8)

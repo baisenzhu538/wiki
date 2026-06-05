@@ -19,6 +19,10 @@ updated_at: 2026-05-31
 related:
   - dk-c6-large-source-overflow
   - master-systems-thinking
+contradicts:
+  - [[master-first-principles]]
+  - [[kdo-flywheel]]
+  - [[master-systems-thinking]]
 ---
 
 # F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
