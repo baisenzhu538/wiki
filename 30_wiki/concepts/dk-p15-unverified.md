@@ -19,6 +19,9 @@ updated_at: 2026-06-03
 related:
   - dk-p10-oral-ban
   - dk-p17-accuracy-gap
+contradicts:
+  - [[master-ai-info-literacy]]
+  - [[master-decision-hygiene]]
 ---
 
 # P-15：执行者声称"完成"但实际未做——可测量指标必须独立验证

@@ -18,6 +18,9 @@ created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
   - dk-p18-yaml-parser
+contradicts:
+  - [[kdo-yaml-frontmatter-safety]]
+  - [[master-first-principles]]
 ---
 
 # P-19：花引号被YAML误解析为字符串定界符

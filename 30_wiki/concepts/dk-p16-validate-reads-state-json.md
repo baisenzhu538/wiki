@@ -19,6 +19,9 @@ updated_at: 2026-05-31
 related:
   - dk-p15-claimed-done-not-verified
   - master-systems-thinking
+contradicts:
+  - [[master-first-principles]]
+  - [[master-systems-thinking]]
 ---
 
 # P-16：validate 优先读取 state.json 而非文件 frontmatter

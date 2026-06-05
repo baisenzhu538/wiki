@@ -18,6 +18,9 @@ created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
   - dk-p15-unverified
+contradicts:
+  - [[master-decision-hygiene]]
+  - [[master-knowledge-compound]]
 ---
 
 # P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件

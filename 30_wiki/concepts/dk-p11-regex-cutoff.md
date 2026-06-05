@@ -18,6 +18,9 @@ created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
   - dk-f13-handwritten-yaml-parser
+contradicts:
+  - [[master-first-principles]]
+  - [[kdo-yaml-frontmatter-safety]]
 ---
 
 # P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效

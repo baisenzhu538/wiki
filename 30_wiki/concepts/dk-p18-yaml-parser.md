@@ -19,6 +19,9 @@ updated_at: 2026-06-03
 related:
   - dk-f13-handwritten-yaml-parser
   - dk-p11-regex-cutoff
+contradicts:
+  - [[kdo-yaml-frontmatter-safety]]
+  - [[master-first-principles]]
 ---
 
 # P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复

@@ -18,6 +18,9 @@ created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
   - dk-p8-toolkit-forget
+contradicts:
+  - [[master-first-principles]]
+  - [[master-ai-info-literacy]]
 ---
 
 # P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸

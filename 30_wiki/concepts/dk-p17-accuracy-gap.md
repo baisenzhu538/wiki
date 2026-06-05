@@ -18,6 +18,9 @@ created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
   - dk-p15-unverified
+contradicts:
+  - [[master-decision-hygiene]]
+  - [[master-ai-info-literacy]]
 ---
 
 # P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度

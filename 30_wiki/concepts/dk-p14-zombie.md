@@ -18,6 +18,9 @@ created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
   - dk-p13-token-burn
+contradicts:
+  - [[master-systems-thinking]]
+  - [[master-decision-hygiene]]
 ---
 
 # P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环

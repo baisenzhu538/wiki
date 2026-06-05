@@ -18,6 +18,9 @@ created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
   - dk-p14-zombie
+contradicts:
+  - [[master-systems-thinking]]
+  - [[master-decision-hygiene]]
 ---
 
 # P-13：长会话 = token黑洞 — 一晚上烧掉80元
