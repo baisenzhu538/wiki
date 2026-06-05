@@ -3,6 +3,7 @@
 .claude/
 .claudian/
 .kdo/
+.config/
 
 # OS junk
 .DS_Store
