@@ -20,3 +20,5 @@
 2026/06/05 22:09:20.008684 [Scheduler-Init] 多渠道调度器已初始化 (失败率阈值: 50%, 滑动窗口: 10, 连续失败阈值: 3)
 2026/06/05 22:09:20.008684 [Conversation-Init] 对话追踪器和覆盖管理器已初始化 (idle: 1h, expire: 2h, override TTL: 30m)
 2026/06/05 22:09:22.980628 [Auth-Failed] IP: 127.0.0.1 | Path: /api/health | Time: 2026-06-05T22:09:22+08:00 | Reason: 密钥缺失
+2026/06/05 22:10:32.155279 [Auth-Failed] IP: 127.0.0.1 | Path: /api/chat/channels | Time: 2026-06-05T22:10:32+08:00 | Reason: 密钥无效
+2026/06/05 22:10:41.046420 [Auth-Failed] IP: 127.0.0.1 | Path: /api/chat/channels | Time: 2026-06-05T22:10:41+08:00 | Reason: 密钥无效
