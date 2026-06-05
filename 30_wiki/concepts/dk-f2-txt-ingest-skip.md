@@ -19,6 +19,9 @@ updated_at: 2026-05-31
 related:
   - dk-c3-txt-ingest-skip
   - master-ai-info-literacy
+contradicts:
+  - [[dk-c3-txt-ingest-skip]]
+  - [[master-ai-info-literacy]]
 ---
 
 # F-KDO-002：非 .md 文件 ingest 静默跳过→state.json 无变化但用户以为成功

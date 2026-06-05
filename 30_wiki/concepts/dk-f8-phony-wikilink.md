@@ -19,6 +19,9 @@ updated_at: 2026-05-31
 related:
   - dk-c8-format-complete-mind-empty
   - master-decision-hygiene
+contradicts:
+  - [[dk-c8-format-complete-mind-empty]]
+  - [[master-decision-hygiene]]
 ---
 
 # F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数

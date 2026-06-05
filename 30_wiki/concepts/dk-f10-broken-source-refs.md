@@ -19,6 +19,9 @@ updated_at: 2026-05-31
 related:
   - dk-f7-surface-translation
   - master-first-principles
+contradicts:
+  - [[master-first-principles]]
+  - [[master-ai-info-literacy]]
 ---
 
 # F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料

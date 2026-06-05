@@ -19,6 +19,9 @@ updated_at: 2026-05-31
 related:
   - dk-c8-format-complete-mind-empty
   - master-cognitive-bias-checklist
+contradicts:
+  - [[master-cognitive-bias-checklist]]
+  - [[master-first-principles]]
 ---
 
 # F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上

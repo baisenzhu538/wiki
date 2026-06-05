@@ -19,6 +19,9 @@ updated_at: 2026-05-31
 related:
   - dk-c10-batch-tool-no-dry-run
   - master-systems-thinking
+contradicts:
+  - [[dk-c10-batch-tool-no-dry-run]]
+  - [[master-systems-thinking]]
 ---
 
 # F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失

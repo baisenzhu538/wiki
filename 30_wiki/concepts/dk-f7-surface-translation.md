@@ -19,6 +19,9 @@ updated_at: 2026-05-31
 related:
   - dk-c8-format-complete-mind-empty
   - master-first-principles
+contradicts:
+  - [[master-first-principles]]
+  - [[dk-c8-format-complete-mind-empty]]
 ---
 
 # F-KDO-007：表层翻译式提炼→Condense 段变成课程目录改写

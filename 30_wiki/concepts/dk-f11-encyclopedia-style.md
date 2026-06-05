@@ -19,6 +19,10 @@ updated_at: 2026-05-31
 related:
   - dk-f7-surface-translation
   - master-first-principles
+contradicts:
+  - [[master-first-principles]]
+  - [[dk-c8-format-complete-mind-empty]]
+  - [[kdo-flywheel]]
 ---
 
 # F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景

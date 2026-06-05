@@ -19,6 +19,9 @@ updated_at: 2026-05-31
 related:
   - dk-c4-selfcheck-superseded
   - master-systems-thinking
+contradicts:
+  - [[dk-c4-selfcheck-superseded]]
+  - [[master-systems-thinking]]
 ---
 
 # F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在

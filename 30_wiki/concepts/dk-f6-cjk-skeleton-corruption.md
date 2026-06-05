@@ -19,6 +19,9 @@ updated_at: 2026-05-31
 related:
   - dk-f1-regex-on-cjk
   - master-ai-info-literacy
+contradicts:
+  - [[dk-f1-regex-on-cjk]]
+  - [[master-ai-info-literacy]]
 ---
 
 # F-KDO-006：骨架页面 CJK 内容损毁→ingest 后中文摘要变成随机碎片

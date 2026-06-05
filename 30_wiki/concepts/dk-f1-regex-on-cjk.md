@@ -19,6 +19,9 @@ updated_at: 2026-05-31
 related:
   - dk-c1-cjk-regex-silent-fail
   - master-ai-info-literacy
+contradicts:
+  - [[dk-c1-cjk-regex-silent-fail]]
+  - [[master-ai-info-literacy]]
 ---
 
 # F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched

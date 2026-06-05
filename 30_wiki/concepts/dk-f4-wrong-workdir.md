@@ -19,6 +19,9 @@ updated_at: 2026-05-31
 related:
   - dk-c10-batch-tool-no-dry-run
   - master-decision-hygiene
+contradicts:
+  - [[dk-c10-batch-tool-no-dry-run]]
+  - [[master-decision-hygiene]]
 ---
 
 # F-KDO-004：错误工作目录执行 pipeline 命令→命令静默失败、无报错、无文件变更
