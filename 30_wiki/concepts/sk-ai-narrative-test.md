@@ -3,7 +3,7 @@ id: sk-ai-narrative-test
 type: tool
 status: draft
 source_refs:
-  - src_20260606_42e11f09
+    - 00_inbox/拆书会-《偶然》-水水-笔记.txt
 source_person: "水水"
 dark_knowledge_type: workflow
 contradicts: []

@@ -3,7 +3,7 @@ id: sk-ai-prd-for-ai
 type: tool
 status: draft
 source_refs:
-  - src_20260606_90b44191
+    - src_20260606_90b44191
 source_person: "半肥猫"
 dark_knowledge_type: workflow
 contradicts: []

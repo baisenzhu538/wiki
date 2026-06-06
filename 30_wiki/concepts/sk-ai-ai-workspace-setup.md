@@ -3,7 +3,7 @@ id: sk-ai-ai-workspace-setup
 type: tool
 status: draft
 source_refs:
-  - src_20260606_42e11f09
+    - src_20260606_42e11f09
 source_person: "纪浩"
 dark_knowledge_type: workflow
 contradicts: []

@@ -3,7 +3,7 @@ id: sk-ai-parallel-validation
 type: tool
 status: draft
 source_refs:
-  - src_20260606_42e11f09
+    - 00_inbox/AI俱乐部-AI落地场景识别-马易-笔记.txt
 source_person: "马易"
 dark_knowledge_type: workflow
 contradicts: []

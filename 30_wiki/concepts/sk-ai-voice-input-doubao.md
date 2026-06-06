@@ -3,7 +3,7 @@ id: sk-ai-voice-input-doubao
 type: tool
 status: draft
 source_refs:
-  - src_20260606_90b44191
+    - src_20260606_90b44191
 source_person: "半肥猫"
 dark_knowledge_type: tool_usage
 contradicts: []
