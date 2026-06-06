@@ -1,0 +1,91 @@
+# KDO Tag Schema — 合法标签定义
+# 新增标签前缀在此注册；有枚举值的必须在此列表内。
+
+prefixes:
+  "#domain":
+    description: 领域标签·全部卡型
+    closed: false
+    known:
+      - AI
+      - embedded
+      - knowledge-management
+      - design
+      - electronics
+      - master
+      - 提示词工程
+
+  "#skill-type":
+    description: 技能类型·skill 卡专用
+    closed: true
+    known:
+      - input-method
+      - setup
+      - validation
+      - execution
+      - evaluation
+      - documentation
+      - checklist
+
+  "#tool":
+    description: 工具依赖·skill/case 卡
+    closed: false
+    known:
+      - doubao-input
+      - AI对话工具
+      - 豆包输入法
+
+  "#method":
+    description: 方法论标签·全部卡型
+    closed: false
+    known:
+      - checklist
+      - evidence-check
+      - parallel-run
+      - narrative-test
+      - scenario-eval
+      - prd
+      - requirement-check
+      - bias-check
+      - question-classify
+      - redundancy-check
+      - oral-input
+      - 全网扫描
+      - 自动筛选
+
+  "#problem":
+    description: 问题域标签·case 卡核心
+    closed: false
+    known:
+      - 网上获客
+      - 商机发现
+      - 自动化跟进
+
+  "#industry":
+    description: 行业标签·case 卡
+    closed: false
+    known:
+      - 企业服务
+
+  "#case":
+    description: 案例类型标记·case 卡
+    closed: true
+    known:
+      - ""   # bare #case is valid
+
+  "#source":
+    description: 来源标记
+    closed: false
+    known:
+      - 褚勉
+      - 半肥猫
+      - 纪浩
+      - 马易
+      - 水水
+      - Truman
+      - 月白
+
+  "#source_type":
+    description: 来源类型
+    closed: false
+    known:
+      - error
