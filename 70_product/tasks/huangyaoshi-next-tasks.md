@@ -13,27 +13,26 @@
 
 ## 🎯 当前任务（顺序执行，做完一个再开下一个。⚠️ 不准并行）
 
-### Task C：技能点扫描器（P0，估时 ~1 天，插队执行）
+### Task D：E-FM 拆 dk-ef 卡（P0，~30min）
 
-**背景**：已 ingest 的口述稿/课程素材在 enrichment 时系统性遗漏了一类知识——具体可操作的技巧（如"图片不清晰怎么处理""口喷输入法"）。当前管线优先出"概念"和"洞见"，技能型知识被忽略。
+把 `90_control/electronics-practice/failure-modes-electronics.md` 中的 4 条失败模式拆成独立 dk 卡：
 
-**做什么**：
+```
+dk-ef-001-sn74lvc2g07-open-drain.md
+dk-ef-002-bom-version-async.md
+dk-ef-003-hand-soldering-bom-divergence.md
+dk-ef-004-missing-diagnostic-firmware.md
+```
 
-1. **扫描已有素材** — 遍历 `10_raw/sources/` 中已 ingest 的源文件，用关键词匹配检出可能的技能段落。关键词包括：
-   - 提示类："你试试""我一般""建议用""方法是""可以这样""技巧""踩过坑""后来发现"
-   - 操作类：含具体工具名 + 动作描述（"用豆包""打开某个功能""先 xxx 再 xxx"）
+前缀 `dk-ef-*`，`dark_knowledge_type: hardware-failure`。保留 E-FM 编号溯源。
 
-2. **输出候选清单** — 每条一项：
-   ```json
-   {"source": "src_xxx", "text": "原文段落...", "keyword": "我一般", "confidence": "high"}
-   ```
+### 标签 schema 注册（P1，Task D 完成后）
 
-3. **排优先级** — 按 confidence 从高到低排，老顽童直接挑高置信度的写卡
+定义标签字段的枚举值，让 `kdo validate` 可校验，避免自由标签导致检索混乱。
 
-**验收**：
-- 输出一份候选技能清单（JSON），覆盖所有已 ingest 素材
-- 在 10 条人工确认的技能段落上测试，recall ≥ 80%
-- 不破坏现有管线
+### case `--extract-cases`（P2）
+
+对标 `--extract-skills`，等技能卡积累到 50+ 后启动。不急。
 
 **背景**：知识库卡片不会自己变旧——它们只在被注意到已经陈旧时才被发现。需要一个按域类型自动提醒"该复查了"的机制。
 
