@@ -1,0 +1,72 @@
+---
+id: skill-Truman-AI辅助思考伙伴养成
+title: 技能：AI辅助思考伙伴养成
+type: skill
+status: draft
+domain: []
+source_person: Truman
+source_context: AI时代判断力
+source_refs: []
+wiki_refs: []
+definition_of_done:
+  - 操作步骤清晰可执行
+  - 适用场景有正反例
+  - 工具要求明确
+tags:
+  - "#domain/AI"
+tools_required: []
+prerequisite_skills: []
+related: []
+created_at: '2026-06-07'
+updated_at: '2026-06-07'
+---
+
+# 技能：AI辅助思考伙伴养成
+
+## 原始表述
+
+AI辅助思考伙伴养成是Truman在AI时代判断力中提出的实操方法。
+
+## 操作步骤
+
+1. 将日常通勤/碎片时间用于AI对话
+2. 用AI进行观点碰撞和初步推演
+3. 将AI结果用其他AI交叉校准
+4. 把AI作为'刻意练习'的陪练对象
+
+## 适用场景
+
+- 需要持续学习新领域时
+- 独立思考容易陷入情绪或偏见时
+- 需要快速验证想法时
+
+## 不适用场景
+
+- 涉及敏感隐私数据时
+- 需要深度创造性突破时
+
+## 工具/环境
+
+- 移动端AI应用（豆包等）
+- 多模型对比使用
+
+## 常见失败模式
+
+- 步骤跳过或省略 → 结果不完整 → **严格按步骤执行**
+- 未确认场景是否匹配 → 方法失效 → **先对照"适用场景"确认**
+
+## 为什么有效
+
+大脑同样存在认知偏差和情绪干扰，AI可提供稳定、可交互的思考陪练，弥补人类认知局限
+
+## 关联技能
+
+- 待补充
+
+## 来源
+
+- Truman，AI时代判断力
+
+## Feedback Path
+
+- 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
