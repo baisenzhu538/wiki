@@ -89,3 +89,37 @@ prefixes:
     closed: false
     known:
       - error
+
+  # --- Legacy prefixes (pre-schema, keep for backward compat) ---
+  "#ai":
+    description: 旧 AI 域标签·兼容
+    closed: false
+    known: []
+  "#yitang":
+    description: 一堂域标签·兼容
+    closed: false
+    known: []
+  "#entrepreneur":
+    description: 创业域标签·兼容
+    closed: false
+    known: []
+  "#business-analysis":
+    description: 商业分析标签·兼容
+    closed: false
+    known: []
+  "#unit-model":
+    description: 单元模型标签·兼容
+    closed: false
+    known: []
+  "#domain/entrepreneur":
+    description: 创业领域
+    closed: false
+    known: []
+  "#domain/management":
+    description: 管理领域
+    closed: false
+    known: []
+  "#domain/yitang":
+    description: 一堂域
+    closed: false
+    known: []
