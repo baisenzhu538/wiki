@@ -19,8 +19,8 @@ updated_at: 2026-06-03
 related:
   - dk-p13-token-burn
 contradicts:
-  - [[master-systems-thinking]]
-  - [[master-decision-hygiene]]
+  - master-systems-thinking
+  - master-decision-hygiene
 ---
 
 # P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环
@@ -90,8 +90,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-p13-token-burn]] — P-13 和 P-14 是账单的两大来源
-- [[dk-p6-session-resume-fail]] — 同样是"旧进程/旧状态未被清理"的问题
+- dk-p13-token-burn — P-13 和 P-14 是账单的两大来源
+- dk-p6-session-resume-fail — 同样是"旧进程/旧状态未被清理"的问题
 - `.agent/pitfalls.md` → P-14（原始记录）
 
 ## 老顽童疑问（2026-06-03）

@@ -19,8 +19,8 @@ updated_at: 2026-06-03
 related:
   - dk-p7-ocr-skip
 contradicts:
-  - [[master-ai-info-literacy]]
-  - [[master-first-principles]]
+  - master-ai-info-literacy
+  - master-first-principles
 ---
 
 # P-20：pre-screen bigram 匹配对中文文本完全失效
@@ -83,7 +83,7 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-p7-ocr-skip]] — 同样是"中文内容在自动化管线中被排斥"的问题
+- dk-p7-ocr-skip — 同样是"中文内容在自动化管线中被排斥"的问题
 - `.agent/pitfalls.md` → P-20（原始记录）
 
 ## 老顽童疑问（2026-06-03）

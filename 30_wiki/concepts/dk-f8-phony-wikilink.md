@@ -20,8 +20,8 @@ related:
   - dk-c8-format-complete-mind-empty
   - master-decision-hygiene
 contradicts:
-  - [[dk-c8-format-complete-mind-empty]]
-  - [[master-decision-hygiene]]
+  - dk-c8-format-complete-mind-empty
+  - master-decision-hygiene
 ---
 
 # F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数
@@ -38,7 +38,7 @@ contradicts:
 >
 > **防御措施**：① L2 Lint：检测 self-link（直接报 P0）② 审查时检查每个 wikilink 目标页面的内容是否与本卡有实质关联
 >
-> **关联案例**：[[yt-entrepreneur-scientific-method.md]] Synthesis 段 wikilink 了自己（2026-05-08 审查）
+> **关联案例**：yt-entrepreneur-scientific-method.md Synthesis 段 wikilink 了自己（2026-05-08 审查）
 
 ## 使用场景
 
@@ -51,7 +51,7 @@ contradicts:
 
 1. **禁止 self-link**：Synthesis 段绝对不能 wikilink 到当前卡片自身——这是 P0 级别的错误
 2. **逐个验证关联**：每写一个 wikilink，问自己"目标卡片的内容与当前卡片有什么实质的知识交叉？"
-3. **写关联说明**：不是只写 `[[card-name]]`，而是写 `[[card-name]] — 具体关联说明（≥30 字）`
+3. **写关联说明**：不是只写 `card-name`，而是写 `card-name — 具体关联说明（≥30 字）`
 4. **区分 domain 内和跨 domain 关联**：同一 domain 内的关联容易（如两张都是一堂的课），但价值低；跨 domain 的关联更难找，但价值更高
 5. **不满足宁可少写**：如果确实找不到 2 个有实质关联的卡片，宁可只写 1 个高质量的，也不要堆砌 2 个灌水的
 
@@ -72,8 +72,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-c8-format-complete-mind-empty]] — 同一模式："格式完整但思维空洞"。C-8 是 Constraints 节空洞，F-KDO-008 是 Synthesis 段空洞——两者都是"为满足格式要求而填充无价值内容"
-- [[master-decision-hygiene]] — 决策卫生 Step 3（独立评估）：每个 wikilink 都需要独立验证其关联的实质价值，不能让写卡的人自己判定"够了"
+- dk-c8-format-complete-mind-empty — 同一模式："格式完整但思维空洞"。C-8 是 Constraints 节空洞，F-KDO-008 是 Synthesis 段空洞——两者都是"为满足格式要求而填充无价值内容"
+- master-decision-hygiene — 决策卫生 Step 3（独立评估）：每个 wikilink 都需要独立验证其关联的实质价值，不能让写卡的人自己判定"够了"
 - `90_control/failure-modes.md` → F-KDO-008（原始记录）
 - `90_control/AGENTS.md` → 禁止清单 #8（不准在 Synthesis 中堆砌无实质关联的 wikilink）
 

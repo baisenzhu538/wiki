@@ -1,0 +1,411 @@
+{
+  "timestamp": "2026-06-06T11:48:31.500586",
+  "moved_count": 1653,
+  "skipped_count": 3683,
+  "remaining_files": 5347,
+  "remaining_dirs": 1151,
+  "moved_samples": [
+    {
+      "src": "HX_SMJ-03_红外光栅板设计分析.pdf",
+      "dst": "01_specs\\HX_SMJ-03_红外光栅板设计分析.pdf"
+    },
+    {
+      "src": "2025-11-26-PCB\\PCB采购清单.xlsx",
+      "dst": "05_docs\\采购\\PCB采购清单.xlsx"
+    },
+    {
+      "src": "2、HX-SMJ01B-12306_V2.0（主控板） PCBA生产文件（贴片焊接）（客户提供PCB板、MCU芯片）\\BOM_PCB_HX-SMJ01_主板V2.0 修改_2025-08-22.csv",
+      "dst": "02_pcb\\HX-SMJ-01B-主控板\\BOM_PCB_HX-SMJ01_主板V2.0 修改_2025-08-22.csv"
+    },
+    {
+      "src": "BOM采购报价表\\9-1F1BOM-采购.xlsx",
+      "dst": "05_docs\\采购\\9-1F1BOM-采购.xlsx"
+    },
+    {
+      "src": "BOM采购报价表\\BOM-采购.xlsx",
+      "dst": "05_docs\\采购\\BOM-采购.xlsx"
+    },
+    {
+      "src": "BOM采购报价表\\广冷订单20250215.xlsx",
+      "dst": "05_docs\\采购\\广冷订单20250215.xlsx"
+    },
+    {
+      "src": "BOM采购报价表\\物料表.xlsx",
+      "dst": "05_docs\\采购\\物料表.xlsx"
+    },
+    {
+      "src": "BOM采购报价表\\采购BOM_HX-SMJ01_主板V2.0 修改_2025-08-28.csv",
+      "dst": "05_docs\\采购\\采购BOM_HX-SMJ01_主板V2.0 修改_2025-08-28.csv"
+    },
+    {
+      "src": "BOM采购报价表\\采购BOM_HX-SMJ01_主板V2.0 修改_2025-08-28.xlsx",
+      "dst": "05_docs\\采购\\采购BOM_HX-SMJ01_主板V2.0 修改_2025-08-28.xlsx"
+    },
+    {
+      "src": "BOM采购报价表\\采购核对.xlsx",
+      "dst": "05_docs\\采购\\采购核对.xlsx"
+    },
+    {
+      "src": "HX-SMJ01B\\BOM_PCB_HX-SMJ01_主板V2.0 修改_2025-08-28.csv",
+      "dst": "02_pcb\\HX-SMJ-01B-主控板\\BOM_PCB_HX-SMJ01_主板V2.0 修改_2025-08-28.csv"
+    },
+    {
+      "src": "HX-SMJ01B\\Gerber_PCB_HX-SMJ01_主板V2.0 修改.zip",
+      "dst": "02_pcb\\HX-SMJ-01B-主控板\\Gerber_PCB_HX-SMJ01_主板V2.0 修改.zip"
+    },
+    {
+      "src": "HX-SMJ01B\\PickAndPlace_PCB_HX-SMJ01_主板V2.0 修改_2025-08-28.csv",
+      "dst": "02_pcb\\HX-SMJ-01B-主控板\\PickAndPlace_PCB_HX-SMJ01_主板V2.0 修改_2025-08-28.csv"
+    },
+    {
+      "src": "HX-SMJ01B\\元器件选型-注意事项.txt",
+      "dst": "01_specs\\元器件选型-注意事项.txt"
+    },
+    {
+      "src": "合同\\合同.pdf",
+      "dst": "05_docs\\合同\\合同.pdf"
+    },
+    {
+      "src": "广冷-红外\\Gerber_PCB_HX-SMJ-03-A_红外光栅（主控）V2.2.zip",
+      "dst": "02_pcb\\HX-SMJ-03B-A-红外板-A\\Gerber_PCB_HX-SMJ-03-A_红外光栅（主控）V2.2.zip"
+    },
+    {
+      "src": "采购\\2025-11.png",
+      "dst": "05_docs\\采购\\2025-11.png"
+    },
+    {
+      "src": "采购\\2025-11广冷订单.png",
+      "dst": "05_docs\\采购\\2025-11广冷订单.png"
+    },
+    {
+      "src": "采购\\BOM-物料采购.xlsx",
+      "dst": "05_docs\\采购\\BOM-物料采购.xlsx"
+    },
+    {
+      "src": "采购\\BOM-采购(5套).xlsx",
+      "dst": "05_docs\\采购\\BOM-采购(5套).xlsx"
+    },
+    {
+      "src": "采购\\BOM3.xlsx",
+      "dst": "05_docs\\采购\\BOM3.xlsx"
+    },
+    {
+      "src": "采购\\BOM采购-2套.xlsx",
+      "dst": "05_docs\\采购\\BOM采购-2套.xlsx"
+    },
+    {
+      "src": "采购\\定昌PCB采购.jpg",
+      "dst": "05_docs\\采购\\定昌PCB采购.jpg"
+    },
+    {
+      "src": "采购\\广冷-嘉立创价格表.xlsx",
+      "dst": "05_docs\\采购\\广冷-嘉立创价格表.xlsx"
+    },
+    {
+      "src": "采购\\广冷订单20250215.xlsx",
+      "dst": "05_docs\\采购\\广冷订单20250215.xlsx"
+    },
+    {
+      "src": "采购\\广冷订单需求物料.jpg",
+      "dst": "05_docs\\采购\\广冷订单需求物料.jpg"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-01-继电器板\\Gerber_HX-SMJ01-1_继电器板_HX-SMJ-01_2025-11-25.zip",
+      "dst": "02_pcb\\HX-SMJ-01-继电器板\\Gerber_HX-SMJ01-1_继电器板_HX-SMJ-01_2025-11-25.zip"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-01-继电器板\\PCB加工要求_HX-SMJ-01.docx",
+      "dst": "02_pcb\\HX-SMJ-01-继电器板\\PCB加工要求_HX-SMJ-01.docx"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-01-继电器板\\PickAndPlace_HX-SMJ-01_2025-11-25.csv",
+      "dst": "02_pcb\\HX-SMJ-01-继电器板\\PickAndPlace_HX-SMJ-01_2025-11-25.csv"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-01B-主控板\\BOM_HX-SMJ01_主板V2.0-修改_2025-11-25.csv",
+      "dst": "02_pcb\\HX-SMJ-01-继电器板\\BOM_HX-SMJ01_主板V2.0-修改_2025-11-25.csv"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-01B-主控板\\Gerber_HX-SMJ01_主板V2.0-修改_PCB_HX-SMJ01_主板V2.0-修改_2025-11-25.zip",
+      "dst": "02_pcb\\HX-SMJ-01-继电器板\\Gerber_HX-SMJ01_主板V2.0-修改_PCB_HX-SMJ01_主板V2.0-修改_2025-11-25.zip"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-01B-主控板\\PCB加工要求_HX-SMJ01主控板V2.0.docx",
+      "dst": "02_pcb\\HX-SMJ-01-继电器板\\PCB加工要求_HX-SMJ01主控板V2.0.docx"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-01B-主控板\\PickAndPlace_PCB_HX-SMJ01_主板V2.0-修改_2025-11-25.csv",
+      "dst": "02_pcb\\HX-SMJ-01-继电器板\\PickAndPlace_PCB_HX-SMJ01_主板V2.0-修改_2025-11-25.csv"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-03B-A_V2.2-红外板-A\\BOM_HX-SMJ-03-A_红外光栅（主控）V2.1-修改_2025-11-25.csv",
+      "dst": "02_pcb\\HX-SMJ-03B-A-红外板-A\\BOM_HX-SMJ-03-A_红外光栅（主控）V2.1-修改_2025-11-25.csv"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-03B-A_V2.2-红外板-A\\Gerber_HX-SMJ-03-A_红外光栅（主控）V2.1-修改_PCB_HX-SMJ-03-A_红外光栅（主控）V2.2_2025-11-25.zip",
+      "dst": "02_pcb\\HX-SMJ-03B-A-红外板-A\\Gerber_HX-SMJ-03-A_红外光栅（主控）V2.1-修改_PCB_HX-SMJ-03-A_红外光栅（主控）V2.2_2025-11-25.zip"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-03B-A_V2.2-红外板-A\\PCB加工要求_HX-SMJ-03B-A_V2.2.docx",
+      "dst": "02_pcb\\HX-SMJ-03B-A-红外板-A\\PCB加工要求_HX-SMJ-03B-A_V2.2.docx"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-03B-A_V2.2-红外板-A\\PickAndPlace_PCB_HX-SMJ-03-A_红外光栅（主控）V2.2_2025-11-25.csv",
+      "dst": "02_pcb\\HX-SMJ-03B-A-红外板-A\\PickAndPlace_PCB_HX-SMJ-03-A_红外光栅（主控）V2.2_2025-11-25.csv"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-03B-B_V2.2-红外板-B\\BOM_HX-SMJ-03-B_红外光栅（外设）V2.1-修改-copy_2025-11-25.csv",
+      "dst": "02_pcb\\HX-SMJ-03B-B-红外板-B\\BOM_HX-SMJ-03-B_红外光栅（外设）V2.1-修改-copy_2025-11-25.csv"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-03B-B_V2.2-红外板-B\\Gerber_HX-SMJ-03-B_红外光栅（外设）V2.1-修改-copy_PCB_HX-SMJ-03-B_红外光栅（外设）V2.2_2025-11-25.zip",
+      "dst": "02_pcb\\HX-SMJ-03B-B-红外板-B\\Gerber_HX-SMJ-03-B_红外光栅（外设）V2.1-修改-copy_PCB_HX-SMJ-03-B_红外光栅（外设）V2.2_2025-11-25.zip"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-03B-B_V2.2-红外板-B\\PCB加工要求_HX-SMJ-03B-B_V2.2.docx",
+      "dst": "02_pcb\\HX-SMJ-03B-B-红外板-B\\PCB加工要求_HX-SMJ-03B-B_V2.2.docx"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-03B-B_V2.2-红外板-B\\PickAndPlace_PCB_HX-SMJ-03-B_红外光栅（外设）V2.2_2025-11-25.csv",
+      "dst": "02_pcb\\HX-SMJ-03B-B-红外板-B\\PickAndPlace_PCB_HX-SMJ-03-B_红外光栅（外设）V2.2_2025-11-25.csv"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-04B\\BOM_HX-SMJ-04B_2025-11-25.csv",
+      "dst": "02_pcb\\HX-SMJ-04B-货道电机板\\BOM_HX-SMJ-04B_2025-11-25.csv"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-04B\\Gerber_HX-SMJ-04B_PCB_HX-SMJ-04B_2025-11-25.zip",
+      "dst": "02_pcb\\HX-SMJ-04B-货道电机板\\Gerber_HX-SMJ-04B_PCB_HX-SMJ-04B_2025-11-25.zip"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-04B\\PCB加工要求_HX-SMJ-04B.docx",
+      "dst": "02_pcb\\HX-SMJ-04B-货道电机板\\PCB加工要求_HX-SMJ-04B.docx"
+    },
+    {
+      "src": "2025-11-26-PCB\\HX-SMJ-04B\\PickAndPlace_PCB_HX-SMJ-04B_2025-11-25.csv",
+      "dst": "02_pcb\\HX-SMJ-04B-货道电机板\\PickAndPlace_PCB_HX-SMJ-04B_2025-11-25.csv"
+    },
+    {
+      "src": "2、HX-SMJ01B-12306_V2.0（主控板） PCBA生产文件（贴片焊接）（客户提供PCB板、MCU芯片）\\PCBA生产要求\\HX-SMJ-01_V1.0 PCBA加工要求.docx",
+      "dst": "02_pcb\\HX-SMJ-01-继电器板\\HX-SMJ-01_V1.0 PCBA加工要求.docx"
+    },
+    {
+      "src": "2、HX-SMJ01B-12306_V2.0（主控板） PCBA生产文件（贴片焊接）（客户提供PCB板、MCU芯片）\\元件位号图\\NUMBER_PCB_HX-SMJ01B-12306_V2.0.pdf",
+      "dst": "02_pcb\\HX-SMJ-01B-主控板\\NUMBER_PCB_HX-SMJ01B-12306_V2.0.pdf"
+    },
+    {
+      "src": "2、HX-SMJ01B-12306_V2.0（主控板） PCBA生产文件（贴片焊接）（客户提供PCB板、MCU芯片）\\坐标文件\\PickAndPlace_PCB_HX-SMJ01B-12306_V2.0.csv",
+      "dst": "02_pcb\\HX-SMJ-01B-主控板\\PickAndPlace_PCB_HX-SMJ01B-12306_V2.0.csv"
+    },
+    {
+      "src": "2、HX-SMJ01B-12306_V2.0（主控板） PCBA生产文件（贴片焊接）（客户提供PCB板、MCU芯片）\\未加密BOM\\BOM_PCB_HX-SMJ01_主板V2.0 修改_2025-08-22.csv",
+      "dst": "02_pcb\\HX-SMJ-01B-主控板\\BOM_PCB_HX-SMJ01_主板V2.0 修改_2025-08-22.csv"
+    },
+    {
+      "src": "固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\readme.txt",
+      "dst": "03_firmware\\主控板\\readme.txt"
+    }
+  ],
+  "skipped_samples": [
+    {
+      "path": "物料2.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "HX-SMJ01B\\BOM_PCB_HX-SMJ01B-12306_V2.0-.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-代码固件\\001.rar",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-代码固件\\20240923_1931_HXSMJ_V.bin",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-代码固件\\2025-12-23.hex",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-代码固件\\HXSMJ_V0.0.6_STM32F103ZE_20240104.hex",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-代码固件\\Template.hex",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-代码固件\\Template.rar",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-代码固件\\固件-代码.rar",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-红外\\嘉立创SMT订单核对_Gerber_PCB_HX-SMJ-03-A_红外光栅（主控）V2.2_2025-12-3.pdf",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷资料\\HX-SMJ01B(2).rar",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "资料\\售卖机板卡设计说明(1).docx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "资料\\售卖机板卡设计说明.docx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "资料\\售卖机板卡设计说明.pdf",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "资料\\固件设计说明.docx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "资料\\整体电控方案说明.docx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "资料\\硬件设计说明.docx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "资料\\高铁自助售货机-电控方案-广冷.docx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "2025-11-26-PCB\\4505018_V1.0\\BOM_PCB_4505018_V1.0_2025-11-18_2025-11-25.csv",
+      "reason": "移动失败: [WinError 3] 系统找不到指定的路径。"
+    },
+    {
+      "path": "2025-11-26-PCB\\4505018_V1.0\\Gerber_PCB_4505018_V1.0_2025-11-18_PCB_4505018_V1.0_2025-11-18_2025-11-25.zip",
+      "reason": "移动失败: [WinError 3] 系统找不到指定的路径。"
+    },
+    {
+      "path": "2025-11-26-PCB\\4505018_V1.0\\PCB加工要求_4505018_V1.0.doc",
+      "reason": "移动失败: [WinError 3] 系统找不到指定的路径。"
+    },
+    {
+      "path": "2025-11-26-PCB\\4505018_V1.0\\PickAndPlace_PCB_4505018_V1.0_2025-11-18_2025-11-25.csv",
+      "reason": "移动失败: [WinError 3] 系统找不到指定的路径。"
+    },
+    {
+      "path": "2025-11-26-PCB\\HX-SMJ-01-继电器板\\HX-SMJ-01-BOM表.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "2、HX-SMJ01B-12306_V2.0（主控板） PCBA生产文件（贴片焊接）（客户提供PCB板、MCU芯片）\\元件BOM\\BOM_PCB_HX-SMJ01B-12306_V2.0.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\广冷华旭-PCB板卡资料\\售卖机板卡设计说明.docx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\广冷华旭-PCB板卡资料\\售卖机板卡设计说明.pdf",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\广冷华旭-PCB板卡资料(1)(1)\\售卖机板卡设计说明.docx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\广冷华旭-PCB板卡资料(1)(1)\\售卖机板卡设计说明.pdf",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\1、HX-SMJ-01_V1.0 继电器板\\2、HX-SMJ-01_V1.0（继电器板） PCBA生产文件（贴片焊接）（客户提供PCB板）\\元件BOM\\BOM_PCB_HX-SMJ-01_V1.0.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\2、HX-SMJ01B-12306_V2.0 主控板\\2、HX-SMJ01B-12306_V2.0（主控板） PCBA生产文件（贴片焊接）（客户提供PCB板、MCU芯片）\\元件BOM\\BOM_PCB_HX-SMJ01B-12306_V2.0.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\3、HX-SMJ-02B 通信板\\1、HX-SMJ-02B_V2.0（通信板） PCB生产文件（光板）\\Gerber 文件\\Gerber_PCB_HX-SMJ-02B_V2.0.zip",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\3、HX-SMJ-02B 通信板\\1、HX-SMJ-02B_V2.0（通信板） PCB生产文件（光板）\\PCB 生产要求\\HX-SMJ-02B_V2.0 PCB加工要求.docx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\3、HX-SMJ-02B 通信板\\2、HX-SMJ-02B_V2.0（通信板） PCBA生产文件（贴片焊接）（客户提供PCB板）\\元件BOM\\BOM_PCB_HX-SMJ-02B_V2.0.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\3、HX-SMJ-02B 通信板\\2、HX-SMJ-02B_V2.0（通信板） PCBA生产文件（贴片焊接）（客户提供PCB板）\\元件位号图\\NUMBER_PCB_HX-SMJ-02B_V2.0.pdf",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\3、HX-SMJ-02B 通信板\\2、HX-SMJ-02B_V2.0（通信板） PCBA生产文件（贴片焊接）（客户提供PCB板）\\坐标文件\\PickAndPlace_PCB_HX-SMJ-02B_V2.0.csv",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\4、HX-SMJ-03B A红外板-主板\\2、HX-SMJ-03B-A_V2.0（红外板-主板） PCBA生产文件（贴片焊接）（客户提供PCB板、MCU芯片）\\元件BOM\\BOM_PCB_HX-SMJ-03B-A_V2.0.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\5、HX-SMJ-03B B红外板-副板\\2、HX-SMJ-03B-B_V2.0（红外板-副板） PCBA生产文件（贴片焊接）（客户提供PCB板）\\元件BOM\\BOM_PCB_HX-SMJ-03B-B_V2.0.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\PCBA生产资料-巨米智能-20220718（共5款PCB，PCB板与部分芯片由巨米提供）\\1、HX-SMJ-01_V1.0（继电器板） PCBA生产文件（贴片焊接）（客户提供PCB板）\\元件BOM\\BOM_PCB_HX-SMJ-01_V1.0.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\PCBA生产资料-巨米智能-20220718（共5款PCB，PCB板与部分芯片由巨米提供）\\2、HX-SMJ01B-12306_V2.0（主控板） PCBA生产文件（贴片焊接）（客户提供PCB板、MCU芯片）\\元件BOM\\BOM_PCB_HX-SMJ01B-12306_V2.0.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\PCBA生产资料-巨米智能-20220718（共5款PCB，PCB板与部分芯片由巨米提供）\\3、HX-SMJ-02B_V2.0（通信板） PCBA生产文件（贴片焊接）（客户提供PCB板）\\元件BOM\\BOM_PCB_HX-SMJ-02B_V2.0.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\PCBA生产资料-巨米智能-20220718（共5款PCB，PCB板与部分芯片由巨米提供）\\3、HX-SMJ-02B_V2.0（通信板） PCBA生产文件（贴片焊接）（客户提供PCB板）\\元件位号图\\NUMBER_PCB_HX-SMJ-02B_V2.0.pdf",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\PCBA生产资料-巨米智能-20220718（共5款PCB，PCB板与部分芯片由巨米提供）\\3、HX-SMJ-02B_V2.0（通信板） PCBA生产文件（贴片焊接）（客户提供PCB板）\\坐标文件\\PickAndPlace_PCB_HX-SMJ-02B_V2.0.csv",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\PCBA生产资料-巨米智能-20220718（共5款PCB，PCB板与部分芯片由巨米提供）\\4、HX-SMJ-03B-A_V2.0（红外板-主板） PCBA生产文件（贴片焊接）（客户提供PCB板、MCU芯片）\\元件BOM\\BOM_PCB_HX-SMJ-03B-A_V2.0.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\PCBA生产资料-巨米智能-20220718（共5款PCB，PCB板与部分芯片由巨米提供）\\5、HX-SMJ-03B-B_V2.0（红外板-副板） PCBA生产文件（贴片焊接）（客户提供PCB板）\\元件BOM\\BOM_PCB_HX-SMJ-03B-B_V2.0.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\PCB光板生产资料-巨米智能-20220624（共5款PCB）\\3、HX-SMJ-02B_V2.0（通信板） PCB生产文件（光板）\\Gerber 文件\\Gerber_PCB_HX-SMJ-02B_V2.0.zip",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\PCB光板生产资料-巨米智能-20220624（共5款PCB）\\3、HX-SMJ-02B_V2.0（通信板） PCB生产文件（光板）\\PCB 生产要求\\HX-SMJ-02B_V2.0 PCB加工要求.docx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\广冷外发电路板贴片文件2022.7.27\\1、HX-SMJ-01_V1.0（继电器板） PCBA生产文件（贴片焊接）（客户提供PCB板）\\元件BOM\\BOM_PCB_HX-SMJ-01_V1.0.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\广冷外发电路板贴片文件2022.7.27\\2、HX-SMJ01B-12306_V2.0（主控板） PCBA生产文件（贴片焊接）（客户提供PCB板、MCU芯片）\\元件BOM\\BOM_PCB_HX-SMJ01B-12306_V2.0.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\广冷外发电路板贴片文件2022.7.27\\3、HX-SMJ-02B_V2.0（通信板） PCBA生产文件（贴片焊接）（客户提供PCB板）\\元件BOM\\BOM_PCB_HX-SMJ-02B_V2.0.xlsx",
+      "reason": "无法自动分类"
+    },
+    {
+      "path": "广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\广冷外发电路板贴片文件2022.7.27\\3、HX-SMJ-02B_V2.0（通信板） PCBA生产文件（贴片焊接）（客户提供PCB板）\\元件位号图\\NUMBER_PCB_HX-SMJ-02B_V2.0.pdf",
+      "reason": "无法自动分类"
+    }
+  ]
+}

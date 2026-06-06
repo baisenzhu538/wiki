@@ -20,8 +20,8 @@ related:
   - dk-c10-batch-tool-no-dry-run
   - master-decision-hygiene
 contradicts:
-  - [[dk-c10-batch-tool-no-dry-run]]
-  - [[master-decision-hygiene]]
+  - dk-c10-batch-tool-no-dry-run
+  - master-decision-hygiene
 ---
 
 # F-KDO-004：错误工作目录执行 pipeline 命令→命令静默失败、无报错、无文件变更
@@ -73,8 +73,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-c10-batch-tool-no-dry-run]] — 同一深层模式：自动化操作前的环境确认缺失。C-10 是"跳过 dry-run 验证"，F-KDO-004 是"跳过工作目录确认"——两者都是"本应人工确认的节点被惯性跳过"
-- [[master-decision-hygiene]] — 决策卫生 Step 1：在执行任何操作前，先确认前提条件（此处是"我在正确的目录下吗？"）
+- dk-c10-batch-tool-no-dry-run — 同一深层模式：自动化操作前的环境确认缺失。C-10 是"跳过 dry-run 验证"，F-KDO-004 是"跳过工作目录确认"——两者都是"本应人工确认的节点被惯性跳过"
+- master-decision-hygiene — 决策卫生 Step 1：在执行任何操作前，先确认前提条件（此处是"我在正确的目录下吗？"）
 - `90_control/failure-modes.md` → F-KDO-004（原始记录）
 - `90_control/AGENTS.md` → 禁止清单 #2（不准在非 wiki 根目录执行 pipeline 命令）
 

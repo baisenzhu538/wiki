@@ -20,8 +20,8 @@ related:
   - dk-c1-cjk-regex-silent-fail
   - master-ai-info-literacy
 contradicts:
-  - [[dk-c1-cjk-regex-silent-fail]]
-  - [[master-ai-info-literacy]]
+  - dk-c1-cjk-regex-silent-fail
+  - master-ai-info-literacy
 ---
 
 # F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched
@@ -76,8 +76,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-c1-cjk-regex-silent-fail]] — corrections 层面的具体事故记录：2026-05-03 Builder 报告 enrich 对中文页面返回 0。F-KDO-001 是这个具体事故的模式化抽象
-- [[master-ai-info-literacy]] — AI 信息素养的核心能力：识别工具的盲区和系统性偏差。F-KDO-001 是"工具对非英文内容的盲区"的典型案例
+- dk-c1-cjk-regex-silent-fail — corrections 层面的具体事故记录：2026-05-03 Builder 报告 enrich 对中文页面返回 0。F-KDO-001 是这个具体事故的模式化抽象
+- master-ai-info-literacy — AI 信息素养的核心能力：识别工具的盲区和系统性偏差。F-KDO-001 是"工具对非英文内容的盲区"的典型案例
 - `90_control/failure-modes.md` → F-KDO-001（原始记录）
 - `90_control/AGENTS.md` → 禁止清单 #1（不准对中文内容执行 `kdo enrich`）
 

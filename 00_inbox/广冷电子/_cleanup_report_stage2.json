@@ -1,0 +1,2405 @@
+{
+  "timestamp": "2026-06-06T11:42:15.140867",
+  "deleted_files": [
+    {
+      "path": "_archive\\02_schematics\\微信图片_2026-06-04_142918_955.png",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "_archive\\02_schematics\\微信图片_2026-06-04_142947_266.png",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "_archive\\02_schematics\\微信图片_2026-06-04_142954_235.png",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "_archive\\02_schematics\\微信图片_2026-06-04_142959_922.png",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "_archive\\02_schematics\\微信图片_2026-06-04_143005_666.png",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "_archive\\02_schematics\\微信图片_2026-06-04_143011_161.png",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "_archive\\02_schematics\\微信图片_2026-06-04_143016_418.png",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "_archive\\02_schematics\\微信图片_2026-06-04_143021_484.png",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "_archive\\02_schematics\\微信图片_2026-06-04_143032_313.png",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "_archive\\02_schematics\\微信图片_2026-06-04_143045_050.png",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "_archive\\02_schematics\\微信图片_2026-06-04_143437_641.png",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "_archive\\02_schematics\\微信图片_2026-06-04_143442_801.png",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "_archive\\02_schematics\\微信图片_2026-06-04_143447_554.png",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "_archive\\02_schematics\\微信图片_2026-06-04_143452_048.png",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "_archive\\02_schematics\\微信图片_2026-06-04_143457_274.png",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\2、HX-SMJ01B-12306_V2.0（主控板） PCBA生产文件（贴片焊接）（客户提供PCB板、MCU芯片）\\元件BOM\\~$BOM_PCB_HX-SMJ01B-12306_V2.0.xlsx",
+      "reason": "Excel临时文件"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\1、HX-SMJ-01_V1.0 继电器板\\2、HX-SMJ-01_V1.0（继电器板） PCBA生产文件（贴片焊接）（客户提供PCB板）\\PCBA生产要求\\~$BA加工要求.docx",
+      "reason": "Excel临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\PCBA生产资料-巨米智能-20220718（共5款PCB，PCB板与部分芯片由巨米提供）\\1、HX-SMJ-01_V1.0（继电器板） PCBA生产文件（贴片焊接）（客户提供PCB板）\\PCBA生产要求\\~$BA加工要求.docx",
+      "reason": "Excel临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-PCB\\PCB资料\\广冷线路板V2\\线路板技术要求\\派高\\微信图片_20220601093550.jpg",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "广冷002\\广冷-PCB\\PCB资料\\广冷线路板V2\\线路板技术要求\\派高\\微信图片_20220601093556.jpg",
+      "reason": "微信传图副本"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+      "reason": "KEIL/系统临时文件"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+      "reason": "编译中间产物 (.axf)"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+      "reason": "编译中间产物 (.map)"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.Administrator",
+      "reason": "编译中间产物 (.administrator)"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.asus",
+      "reason": "编译中间产物 (.asus)"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvguix.OUSI",
+      "reason": "编译中间产物 (.ousi)"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.uvproj.saved_uv4",
+      "reason": "编译中间产物 (.saved_uv4)"
+    },
+    {
+      "path": "广冷001\\广冷-PCB-嘉立创.rar",
+      "reason": "与解压文件夹重复的压缩包"
+    },
+    {
+      "path": "广冷002\\HX-SMJ01B.rar",
+      "reason": "与解压文件夹重复的压缩包"
+    },
+    {
+      "path": "广冷002\\广冷-PCB-嘉立创.rar",
+      "reason": "与解压文件夹重复的压缩包"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.6_20210623_STM32F103VCT6.rar",
+      "reason": "与解压文件夹重复的压缩包"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\主控板-固件.rar",
+      "reason": "与解压文件夹重复的压缩包"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.6_20210623_STM32F103VCT6.rar",
+      "reason": "与解压文件夹重复的压缩包"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\主控板-固件.rar",
+      "reason": "与解压文件夹重复的压缩包"
+    },
+    {
+      "path": "广冷002\\广冷-PCB\\PCB资料\\广冷线路板V2.rar",
+      "reason": "与解压文件夹重复的压缩包"
+    },
+    {
+      "path": "广冷002\\广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\PCBA生产资料-巨米智能-20220718（共5款PCB，PCB板与部分芯片由巨米提供）.rar",
+      "reason": "与解压文件夹重复的压缩包"
+    },
+    {
+      "path": "广冷002\\广冷-PCB\\PCB资料\\广冷线路板V2\\外发加工\\PCB光板生产资料-巨米智能-20220624（共5款PCB）.rar",
+      "reason": "与解压文件夹重复的压缩包"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.6_20210623_STM32F103VCT6.rar",
+      "reason": "与解压文件夹重复的压缩包"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\HXSMJ_V0.0.6_STM32F103ZE_20240104.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\Template.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工-找到的固件\\HXSMJ_V0.0.6_STM32F103ZE_20240104(1).hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.10_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.6_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.8_20210624_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.9_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.0_20210704_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.1_20210705_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.0_20210714_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.1_20210722_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.2_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.3_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.4_20210730_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.6_20210826_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.7_20210831_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHZ_ZKB_V4.1.7_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\固件\\源文件\\BootLoad_V1.2.2.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.10_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.6_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.8_20210624_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.9_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.0_20210704_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.1_20210705_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.0_20210714_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.1_20210722_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.2_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.3_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.4_20210730_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.6_20210826_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.7_20210831_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHZ_ZKB_V4.1.7_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\固件\\源文件\\BootLoad_V1.2.2.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.10_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.6_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.8_20210624_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.9_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.0_20210704_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.1_20210705_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.0_20210714_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.1_20210722_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.2_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.3_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.4_20210730_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.6_20210826_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.7_20210831_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHZ_ZKB_V4.1.7_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\固件\\源文件\\BootLoad_V1.2.2.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\现场主控板固件\\主控板固件测试\\ZK1.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.10_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.6_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.8_20210624_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.9_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.0_20210704_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.1_20210705_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.0_20210714_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.1_20210722_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.2_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.3_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.4_20210730_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.6_20210826_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.7_20210831_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHZ_ZKB_V4.1.7_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\固件\\源文件\\BootLoad_V1.2.2.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.10_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.6_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.8_20210624_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.9_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.0_20210704_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.1_20210705_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.0_20210714_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.1_20210722_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.2_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.3_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.4_20210730_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.6_20210826_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.7_20210831_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHZ_ZKB_V4.1.7_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\固件\\源文件\\BootLoad_V1.2.2.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.10_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.6_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.8_20210624_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.9_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.0_20210704_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.1_20210705_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.0_20210714_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.1_20210722_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.2_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.3_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.4_20210730_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.6_20210826_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.7_20210831_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHZ_ZKB_V4.1.7_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\固件\\源文件\\BootLoad_V1.2.2.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.10_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.6_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.8_20210624_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.9_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.0_20210704_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.1_20210705_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.0_20210714_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.1_20210722_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.2_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.3_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.4_20210730_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.6_20210826_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.7_20210831_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\GLHZ_ZKB_V4.1.7_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\固件\\源文件\\BootLoad_V1.2.2.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.10_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.6_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.8_20210624_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.9_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.0_20210704_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.1_20210705_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.0_20210714_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.1_20210722_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.2_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.3_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.4_20210730_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.6_20210826_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.7_20210831_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHZ_ZKB_V4.1.7_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\固件\\源文件\\BootLoad_V1.2.2.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.10_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.6_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.8_20210624_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.1.9_20210630_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.0_20210704_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.3.1_20210705_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.0_20210714_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.1_20210722_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.2_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.3_20210725_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.4_20210730_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.6_20210826_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHX_ZKB_V4.4.7_20210831_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\GLHZ_ZKB_V4.1.7_20210623_STM32F103VCT6.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\固件\\源文件\\BootLoad_V1.2.2.hex",
+      "reason": "旧版固件hex（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\固件\\源文件\\BootLoad_V1.2.2.bin",
+      "reason": "旧版固件bin（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\固件\\源文件\\BootLoad_V1.2.2.bin",
+      "reason": "旧版固件bin（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\固件\\源文件\\BootLoad_V1.2.2.bin",
+      "reason": "旧版固件bin（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\现场主控板固件\\主控板固件测试\\ZK1.bin",
+      "reason": "旧版固件bin（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\固件\\源文件\\BootLoad_V1.2.2.bin",
+      "reason": "旧版固件bin（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\固件\\源文件\\BootLoad_V1.2.2.bin",
+      "reason": "旧版固件bin（保留最新）"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\固件\\源文件\\BootLoad_V1.2.2.bin",
+      "reason": "旧版固件bin（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\固件\\源文件\\BootLoad_V1.2.2.bin",
+      "reason": "旧版固件bin（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\固件\\源文件\\BootLoad_V1.2.2.bin",
+      "reason": "旧版固件bin（保留最新）"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\固件\\源文件\\BootLoad_V1.2.2.bin",
+      "reason": "旧版固件bin（保留最新）"
+    }
+  ],
+  "deleted_dirs": [
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ",
+      "reason": "OBJ编译输出目录"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷001\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\固件-代码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-代码固件\\黄工资料电脑-源码\\源--固件\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig",
+      "reason": "KEIL工程配置临时目录"
+    },
+    {
+      "path": "广冷002\\广冷-红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE",
+      "reason": "KEIL工程配置临时目录"
+    }
+  ],
+  "remaining_files": 9459,
+  "remaining_dirs": 1889
+}

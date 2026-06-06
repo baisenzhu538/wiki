@@ -19,8 +19,8 @@ updated_at: 2026-06-03
 related:
   - dk-p8-toolkit-forget
 contradicts:
-  - [[master-decision-hygiene]]
-  - [[master-ai-info-literacy]]
+  - master-decision-hygiene
+  - master-ai-info-literacy
 ---
 
 # P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片
@@ -90,8 +90,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-p8-toolkit-forget]] — P-7 和 P-8 是同一事件的两个维度：P-7 是"跳过了图片"，P-8 是"忘了有 OCR 工具可以处理图片"。如果当时想起 toolkit.md 里的 OCR 工具，P-7 可能不会发生
-- [[dk-f7-surface-translation]] — 表层翻译式提炼的另一种表现：只看文本不看图，等于只提取了"表层"信息
+- dk-p8-toolkit-forget — P-7 和 P-8 是同一事件的两个维度：P-7 是"跳过了图片"，P-8 是"忘了有 OCR 工具可以处理图片"。如果当时想起 toolkit.md 里的 OCR 工具，P-7 可能不会发生
+- dk-f7-surface-translation — 表层翻译式提炼的另一种表现：只看文本不看图，等于只提取了"表层"信息
 - `90_control/failure-modes.md` → F-KDO-006（骨架页面 CJK 内容损毁）— 同样是"图文信息处理"相关的失败模式
 - `.agent/pitfalls.md` → P-7（原始记录）
 

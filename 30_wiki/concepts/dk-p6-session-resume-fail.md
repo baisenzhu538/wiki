@@ -20,8 +20,8 @@ related:
   - dk-p5-cc-connect-config
   - dk-p2-tmux-cache
 contradicts:
-  - [[master-systems-thinking]]
-  - [[master-first-principles]]
+  - master-systems-thinking
+  - master-first-principles
 ---
 
 # P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session ID
@@ -88,9 +88,9 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-p5-cc-connect-config]] — P-6 是 P-5 的事故链延伸：工作目录错 → env.conf 错 → API Key 修复 → work_dir 修正 → session 缓存 → 空响应。完整的五环事故链
-- [[dk-p2-tmux-cache]] — 同一模式在不同工具上的复现：tmux session 缓存环境 vs cc-connect session 缓存 Claude Code 身份
-- [[dk-p1-model-switch-env]] — 事故链的起点：切换模型配置
+- dk-p5-cc-connect-config — P-6 是 P-5 的事故链延伸：工作目录错 → env.conf 错 → API Key 修复 → work_dir 修正 → session 缓存 → 空响应。完整的五环事故链
+- dk-p2-tmux-cache — 同一模式在不同工具上的复现：tmux session 缓存环境 vs cc-connect session 缓存 Claude Code 身份
+- dk-p1-model-switch-env — 事故链的起点：切换模型配置
 - `.agent/pitfalls.md` → P-6（原始记录）
 
 ## 老顽童疑问（2026-06-03）

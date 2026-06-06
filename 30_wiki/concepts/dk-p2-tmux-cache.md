@@ -19,8 +19,8 @@ updated_at: 2026-06-03
 related:
   - dk-p1-model-switch-env
 contradicts:
-  - [[master-systems-thinking]]
-  - [[master-first-principles]]
+  - master-systems-thinking
+  - master-first-principles
 ---
 
 # P-2：tmux session 缓存旧配置
@@ -74,8 +74,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-p1-model-switch-env]] — P-1 和 P-2 是同一事故链：改模型配置 → 改 `.bashrc` → tmux 缓存旧配置 → 配置不生效。理解 P-2 才能完整诊断"为什么我改了配置但 Claude Code 没变化"
-- [[dk-p5-cc-connect-config]] — P-5 的 session 缓存（P-6）是 P-2 在 systemd/cc-connect 链路的变体：都是"旧运行时状态阻碍新配置生效"
+- dk-p1-model-switch-env — P-1 和 P-2 是同一事故链：改模型配置 → 改 `.bashrc` → tmux 缓存旧配置 → 配置不生效。理解 P-2 才能完整诊断"为什么我改了配置但 Claude Code 没变化"
+- dk-p5-cc-connect-config — P-5 的 session 缓存（P-6）是 P-2 在 systemd/cc-connect 链路的变体：都是"旧运行时状态阻碍新配置生效"
 - `90_control/failure-modes.md` → F-KDO-004（错误工作目录）— 配置类问题的另一维度
 - `.agent/pitfalls.md` → P-2（原始记录）
 

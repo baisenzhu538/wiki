@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-04
 active_branch: main
-active_task: "广冷红外板调试 ✅。Task A (kdo stale) ✅ committed。Task B spec 已写。电子工程域 KDO 化建议已写。Codex + Kimi 配置完成（代理方案），复盘文档: 20_memory/codex-kimi-setup-20260606.md。454 tests pass。"
+active_task: "广冷红外板调试 ✅。Task A (kdo stale) ✅。Task B spec 已写。电子工程域 KDO 化建议已写。Codex + Kimi 安装受 Win10 沙箱阻断，复盘已写。🆕 KDO 技能提取基础设施设计完成：huangyaoshi/skill-extraction-infrastructure-design.md。四个新主题在 inbox，老顽童处理中。"
 blockers: []
 ---
 

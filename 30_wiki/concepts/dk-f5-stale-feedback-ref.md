@@ -20,8 +20,8 @@ related:
   - dk-c4-selfcheck-superseded
   - master-systems-thinking
 contradicts:
-  - [[dk-c4-selfcheck-superseded]]
-  - [[master-systems-thinking]]
+  - dk-c4-selfcheck-superseded
+  - master-systems-thinking
 ---
 
 # F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在
@@ -74,8 +74,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-c4-selfcheck-superseded]] — 同一模式：自检工具报告的状态与实际情况不一致。C-4 是"self-check 误报 superseded 为未 enrich"，F-KDO-005 是"lint 报错已删除的 feedback"——两者都是"内部状态与实际文件系统不同步"
-- [[master-systems-thinking]] — 系统思维中的"状态一致性"原则：当元数据（state.json）与实体数据（文件系统）分离存储时，任何清理操作都必须同步更新两边，否则会产生不一致
+- dk-c4-selfcheck-superseded — 同一模式：自检工具报告的状态与实际情况不一致。C-4 是"self-check 误报 superseded 为未 enrich"，F-KDO-005 是"lint 报错已删除的 feedback"——两者都是"内部状态与实际文件系统不同步"
+- master-systems-thinking — 系统思维中的"状态一致性"原则：当元数据（state.json）与实体数据（文件系统）分离存储时，任何清理操作都必须同步更新两边，否则会产生不一致
 - `90_control/failure-modes.md` → F-KDO-005（原始记录）
 - `90_control/AGENTS.md` → 禁止清单 #4（不准删除 feedback 文件不同步清理 state.json）
 

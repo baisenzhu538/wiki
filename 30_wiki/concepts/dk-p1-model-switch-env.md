@@ -20,8 +20,8 @@ related:
   - dk-f4-wrong-workdir
   - dk-p3-auth-cache
 contradicts:
-  - [[master-systems-thinking]]
-  - [[master-first-principles]]
+  - master-systems-thinking
+  - master-first-principles
 ---
 
 # P-1：切模型改环境变量无效——Claude Code 走全局设置
@@ -84,9 +84,9 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-f4-wrong-workdir]] — 配置类失败模式的双杀。P-1 是"改配置不生效"，F-KDO-004 是"在错误目录执行命令"——两者都是"配置/环境假设与实际行为不一致"
-- [[dk-p3-auth-cache]] — P-1 和 P-3 是同一事故链的前两环：模型配置不对 → 401 → 换 Key → Key 被缓存覆盖。理解 P-1 才能正确诊断 P-3
-- [[dk-p5-cc-connect-config]] — P-5 是 P-1 在飞书链路的精确复现：cc-connect 的 systemd drop-in 就是飞书链路的"全局设置"
+- dk-f4-wrong-workdir — 配置类失败模式的双杀。P-1 是"改配置不生效"，F-KDO-004 是"在错误目录执行命令"——两者都是"配置/环境假设与实际行为不一致"
+- dk-p3-auth-cache — P-1 和 P-3 是同一事故链的前两环：模型配置不对 → 401 → 换 Key → Key 被缓存覆盖。理解 P-1 才能正确诊断 P-3
+- dk-p5-cc-connect-config — P-5 是 P-1 在飞书链路的精确复现：cc-connect 的 systemd drop-in 就是飞书链路的"全局设置"
 - `.agent/pitfalls.md` → P-1（原始记录）
 
 ## 老顽童疑问（2026-06-03）

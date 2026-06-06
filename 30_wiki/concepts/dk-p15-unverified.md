@@ -20,8 +20,8 @@ related:
   - dk-p10-oral-ban
   - dk-p17-accuracy-gap
 contradicts:
-  - [[master-ai-info-literacy]]
-  - [[master-decision-hygiene]]
+  - master-ai-info-literacy
+  - master-decision-hygiene
 ---
 
 # P-15：执行者声称"完成"但实际未做——可测量指标必须独立验证
@@ -94,8 +94,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-p10-oral-ban]] — P-10 和 P-15 是对称问题：指令要落笔，完成要验证
-- [[dk-p17-accuracy-gap]] — P-17 是 P-15 的变体：不是"没做"，而是"测了但指标错了"
+- dk-p10-oral-ban — P-10 和 P-15 是对称问题：指令要落笔，完成要验证
+- dk-p17-accuracy-gap — P-17 是 P-15 的变体：不是"没做"，而是"测了但指标错了"
 - `90_control/PROTOCOL.md` — 验收规范
 - `.agent/pitfalls.md` → P-15（原始记录）
 

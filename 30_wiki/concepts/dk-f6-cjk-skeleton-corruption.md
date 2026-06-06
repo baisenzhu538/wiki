@@ -20,8 +20,8 @@ related:
   - dk-f1-regex-on-cjk
   - master-ai-info-literacy
 contradicts:
-  - [[dk-f1-regex-on-cjk]]
-  - [[master-ai-info-literacy]]
+  - dk-f1-regex-on-cjk
+  - master-ai-info-literacy
 ---
 
 # F-KDO-006：骨架页面 CJK 内容损毁→ingest 后中文摘要变成随机碎片
@@ -74,8 +74,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-f1-regex-on-cjk]] — 同一根因的不同阶段表现。F-KDO-001 是 enrich 阶段的 `\b` 失效，F-KDO-006 是 ingest 阶段的 `\b` 失效——两者共同构成 CJK 内容在 KDO 自动化管线中的系统性盲区
-- [[master-ai-info-literacy]] — AI 信息素养要求使用者了解工具的系统性盲区和设计约束。F-KDO-006 明确告知"CJK 骨架不可信，必须人工重写"
+- dk-f1-regex-on-cjk — 同一根因的不同阶段表现。F-KDO-001 是 enrich 阶段的 `\b` 失效，F-KDO-006 是 ingest 阶段的 `\b` 失效——两者共同构成 CJK 内容在 KDO 自动化管线中的系统性盲区
+- master-ai-info-literacy — AI 信息素养要求使用者了解工具的系统性盲区和设计约束。F-KDO-006 明确告知"CJK 骨架不可信，必须人工重写"
 - `90_control/failure-modes.md` → F-KDO-006（原始记录）
 - `20_memory/corrections.md` → C-1（同一根因的具体事故记录）
 

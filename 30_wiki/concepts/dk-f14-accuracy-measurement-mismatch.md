@@ -20,9 +20,9 @@ related:
   - dk-p15-claimed-done-not-verified
   - master-systems-thinking
 contradicts:
-  - [[master-decision-hygiene]]
-  - [[master-ai-info-literacy]]
-  - [[master-systems-thinking]]
+  - master-decision-hygiene
+  - master-ai-info-literacy
+  - master-systems-thinking
 ---
 
 # F-KDO-014：准确率声明的测量口径不一致
@@ -78,8 +78,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-p15-claimed-done-not-verified]] — 同一模式："声称了一个没有验证方法的数字"。P-15 是"完工报告中的数字不可信"，F-14 是"准确率声明中的数字不可比"——两者都是"数字需要验证方法才有意义"
-- [[master-systems-thinking]] — 系统思维中的"反馈循环"：如果测量方法不一致，反馈循环就会失效——你以为在改进，实际上在比较两个不同的东西
+- dk-p15-claimed-done-not-verified — 同一模式："声称了一个没有验证方法的数字"。P-15 是"完工报告中的数字不可信"，F-14 是"准确率声明中的数字不可比"——两者都是"数字需要验证方法才有意义"
+- master-systems-thinking — 系统思维中的"反馈循环"：如果测量方法不一致，反馈循环就会失效——你以为在改进，实际上在比较两个不同的东西
 - `90_control/failure-modes.md` → F-KDO-014（原始记录）
 
 ## 老顽童疑问（2026-05-31）

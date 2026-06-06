@@ -20,8 +20,8 @@ related:
   - dk-c8-format-complete-mind-empty
   - master-cognitive-bias-checklist
 contradicts:
-  - [[master-cognitive-bias-checklist]]
-  - [[master-first-principles]]
+  - master-cognitive-bias-checklist
+  - master-first-principles
 ---
 
 # F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上
@@ -72,8 +72,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-c8-format-complete-mind-empty]] — 同一模式："格式完整但思维空洞"。C-8 是批处理导致的内容空洞，F-KDO-009 是人工编译时的思维懒惰——两者都是"有段落标题但没有实质内容"
-- [[master-cognitive-bias-checklist]] — 认知偏差中的"确认偏误"：人倾向于寻找支持自己观点的证据，而回避反面证据。无质疑接受是确认偏误在知识生产中的具体表现
+- dk-c8-format-complete-mind-empty — 同一模式："格式完整但思维空洞"。C-8 是批处理导致的内容空洞，F-KDO-009 是人工编译时的思维懒惰——两者都是"有段落标题但没有实质内容"
+- master-cognitive-bias-checklist — 认知偏差中的"确认偏误"：人倾向于寻找支持自己观点的证据，而回避反面证据。无质疑接受是确认偏误在知识生产中的具体表现
 - `90_control/failure-modes.md` → F-KDO-009（原始记录）
 - `90_control/AGENTS.md` → 禁止清单 #9（不准用通用质疑模板替代针对性质疑）
 

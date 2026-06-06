@@ -21,8 +21,8 @@ related:
   - dk-p2-tmux-cache
   - dk-p6-session-resume-fail
 contradicts:
-  - [[master-systems-thinking]]
-  - [[master-first-principles]]
+  - master-systems-thinking
+  - master-first-principles
 ---
 
 # P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
@@ -91,9 +91,9 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-p1-model-switch-env]] — P-1 是单一链路的配置层级问题，P-5 是多链路的配置层级问题。两者组合起来构成完整的"切换模型时的配置集"
-- [[dk-p2-tmux-cache]] — P-2 是 CLI 链路的缓存问题，P-5 是飞书链路的配置问题。两者是同一事故的不同表现
-- [[dk-p6-session-resume-fail]] — P-6 是 P-5 的事故链延伸：配置修复后仍然失败，因为旧 session 缓存了旧配置
+- dk-p1-model-switch-env — P-1 是单一链路的配置层级问题，P-5 是多链路的配置层级问题。两者组合起来构成完整的"切换模型时的配置集"
+- dk-p2-tmux-cache — P-2 是 CLI 链路的缓存问题，P-5 是飞书链路的配置问题。两者是同一事故的不同表现
+- dk-p6-session-resume-fail — P-6 是 P-5 的事故链延伸：配置修复后仍然失败，因为旧 session 缓存了旧配置
 - `.agent/pitfalls.md` → P-5（原始记录）
 
 ## 老顽童疑问（2026-06-03）

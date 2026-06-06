@@ -19,9 +19,9 @@ updated_at: 2026-06-03
 related:
   - dk-p7-ocr-skip
 contradicts:
-  - [[master-knowledge-compound]]
-  - [[kdo-flywheel]]
-  - [[master-first-principles]]
+  - master-knowledge-compound
+  - kdo-flywheel
+  - master-first-principles
 ---
 
 # P-8：欧阳锋忘记本地已有武器——重新调研已部署工具
@@ -92,8 +92,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-p7-ocr-skip]] — P-7 和 P-8 是同一事件的两个维度。如果当时查了 toolkit.md 发现 OCR 工具已部署，P-7 可能不会发生
-- [[dk-p1-model-switch-env]] — 同样是"启动时信息缺口"导致的问题：不知道配置层级优先级 → 改了配置不生效
+- dk-p7-ocr-skip — P-7 和 P-8 是同一事件的两个维度。如果当时查了 toolkit.md 发现 OCR 工具已部署，P-7 可能不会发生
+- dk-p1-model-switch-env — 同样是"启动时信息缺口"导致的问题：不知道配置层级优先级 → 改了配置不生效
 - `90_control/AGENTS.md` — Agent 启动指令规范
 - `.agent/toolkit.md` — 武器库文件（如果存在）
 - `.agent/pitfalls.md` → P-8（原始记录）

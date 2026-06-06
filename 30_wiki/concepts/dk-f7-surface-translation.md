@@ -20,8 +20,8 @@ related:
   - dk-c8-format-complete-mind-empty
   - master-first-principles
 contradicts:
-  - [[master-first-principles]]
-  - [[dk-c8-format-complete-mind-empty]]
+  - master-first-principles
+  - dk-c8-format-complete-mind-empty
 ---
 
 # F-KDO-007：表层翻译式提炼→Condense 段变成课程目录改写
@@ -38,7 +38,7 @@ contradicts:
 >
 > **防御措施**：① L2 Lint：检测 Condense 段是否含 ≥3 条课程特有的核心结论（非目录描述）② Concept Card Step 0 前置检查：Builder 必须回答「源材料的 3 条核心洞见是什么」
 >
-> **关联案例**：[[yt-entrepreneur-five-step-method.md]]、[[yt-entrepreneur-scientific-method.md]]、[[yt-entrepreneur-fundraising.md]] — 三张模式 A 卡（2026-05-08 审查）
+> **关联案例**：yt-entrepreneur-five-step-method.md、yt-entrepreneur-scientific-method.md、yt-entrepreneur-fundraising.md — 三张模式 A 卡（2026-05-08 审查）
 >
 > **关联**：与 F-KDO-011（百科词条化）有重叠——表层翻译式提炼是百科词条化的 Condense 段表现形态
 
@@ -74,8 +74,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-c8-format-complete-mind-empty]] — 同一模式："格式完整但思维空洞"。C-8 是批处理升级导致的内容空洞，F-KDO-007 是人工编译时因阅读深度不足导致的内容空洞——两者都是"有结构无实质"
-- [[master-first-principles]] — 第一性原理：回到源材料的核心洞见，而非其组织结构。Condense 的目标是提取"本质"，而非"目录"
+- dk-c8-format-complete-mind-empty — 同一模式："格式完整但思维空洞"。C-8 是批处理升级导致的内容空洞，F-KDO-007 是人工编译时因阅读深度不足导致的内容空洞——两者都是"有结构无实质"
+- master-first-principles — 第一性原理：回到源材料的核心洞见，而非其组织结构。Condense 的目标是提取"本质"，而非"目录"
 - `90_control/failure-modes.md` → F-KDO-007（原始记录）
 - `90_control/AGENTS.md` → 禁止清单 #6（不准用目录结构替代核心结论提取）
 

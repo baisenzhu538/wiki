@@ -66,6 +66,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[after-action-review-aar]]
 - [[30_wiki/concepts/yt-decision-review.md]]
 
+## [[ai-native-五层进阶从答案到效率到作品到产品到系统]]
+- [[30_wiki/concepts/ai数据理解第一课.md]]
+
 ## [[aigc设计基础01ai生图原理与提示词基本功]]
 - [[30_wiki/concepts/aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md]]
 
@@ -90,9 +93,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/systems/kdo-protocol.md]]
 - [[30_wiki/systems/一堂方法论体系总图.md]]
 
-## [[card-name]]
-- [[30_wiki/concepts/dk-f8-phony-wikilink.md]]
-
 ## [[checklist-manifesto-gawande]]
 - [[30_wiki/concepts/yt-decision-width-method.md]]
 
@@ -107,11 +107,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-c1-cjk-regex-silent-fail]]
 - [[30_wiki/concepts/dk-c3-txt-ingest-skip.md]]
-- [[30_wiki/concepts/dk-f1-regex-on-cjk.md]]
-
-## [[dk-c1-regex-on-cjk]]
-- [[30_wiki/concepts/dk-f13-handwritten-yaml-parser.md]]
-- [[30_wiki/concepts/dk-p11-validator-regex-truncation.md]]
 
 ## [[dk-c10-batch-tool-no-dry-run]]
 - [[30_wiki/concepts/dk-c1-cjk-regex-silent-fail.md]]
@@ -120,66 +115,129 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/dk-c6-large-source-overflow.md]]
 - [[30_wiki/concepts/dk-c7-auto-backup-conflict.md]]
 - [[30_wiki/concepts/dk-c8-format-complete-mind-empty.md]]
-- [[30_wiki/concepts/dk-f3-state-json-race-condition.md]]
-- [[30_wiki/concepts/dk-f4-wrong-workdir.md]]
-- [[30_wiki/concepts/dk-p10-oral-ban-vs-written.md]]
-- [[30_wiki/concepts/dk-p7-ocr-skip-check.md]]
-
-## [[dk-c3-txt-ingest-skip]]
-- [[30_wiki/concepts/dk-f2-txt-ingest-skip.md]]
 
 ## [[dk-c4-selfcheck-superseded]]
 - [[30_wiki/concepts/dk-c5-todo-false-positive.md]]
-- [[30_wiki/concepts/dk-f5-stale-feedback-ref.md]]
 
 ## [[dk-c5-todo-false-positive]]
 - [[30_wiki/concepts/dk-c4-selfcheck-superseded.md]]
 
-## [[dk-c6-large-source-overflow]]
-- [[30_wiki/concepts/dk-f12-builder-context-deadlock.md]]
-
 ## [[dk-c8-format-complete-mind-empty]]
 - [[30_wiki/concepts/dk-c10-batch-tool-no-dry-run.md]]
 - [[30_wiki/concepts/dk-c9-batch-trigger-garbage.md]]
-- [[30_wiki/concepts/dk-f7-surface-translation.md]]
-- [[30_wiki/concepts/dk-f8-phony-wikilink.md]]
-- [[30_wiki/concepts/dk-f9-generic-critique.md]]
-- [[30_wiki/concepts/dk-p4-batch-upgrade-mind-empty.md]]
+- [[30_wiki/concepts/knowledge-error-self-exposure.md]]
 
-## [[dk-f1-regex-on-cjk]]
-- [[30_wiki/concepts/dk-f6-cjk-skeleton-corruption.md]]
+## [[dk-yb1-aigc-mvp-before-ps]]
+- [[30_wiki/concepts/dk-yb23-ai-pre-screen-three-minutes.md]]
+- [[30_wiki/concepts/dk-yb29-prompt-migrate-copy-first.md]]
+- [[30_wiki/concepts/dk-yb31-style-first-controlnet.md]]
+- [[30_wiki/concepts/dk-yb5-style-asset-archive.md]]
+- [[30_wiki/concepts/dk-yb8-file-naming-eight-elements.md]]
 
-## [[dk-f7-surface-translation]]
-- [[30_wiki/concepts/dk-f10-broken-source-refs.md]]
-- [[30_wiki/concepts/dk-f11-encyclopedia-style.md]]
+## [[dk-yb10-theory-moat-designer]]
+- [[30_wiki/concepts/dk-yb20-ai-eye-high-principle.md]]
 
-## [[dk-p1-model-switch-env-var]]
-- [[30_wiki/concepts/dk-p2-tmux-session-cache.md]]
-- [[30_wiki/concepts/dk-p3-auth-json-cache-override.md]]
-- [[30_wiki/concepts/dk-p5-cc-connect-config-cascade.md]]
+## [[dk-yb11-visual-book-reverse]]
+- [[30_wiki/concepts/dk-yb12-ai-image-analysis-replace-training.md]]
+- [[30_wiki/concepts/dk-yb13-zero-shot-style-transfer.md]]
+- [[30_wiki/concepts/dk-yb4-nano-banana-style-reproduction.md]]
 
-## [[dk-p10-oral-ban-vs-written]]
-- [[30_wiki/concepts/dk-p15-claimed-done-not-verified.md]]
+## [[dk-yb12-ai-image-analysis-replace-training]]
+- [[30_wiki/concepts/dk-yb11-visual-book-reverse.md]]
+- [[30_wiki/concepts/dk-yb13-zero-shot-style-transfer.md]]
+- [[30_wiki/concepts/dk-yb14-multi-image-commonality.md]]
 
-## [[dk-p13-long-session-token-blackhole]]
-- [[30_wiki/concepts/dk-p14-zombie-process-burn-money.md]]
+## [[dk-yb13-taste-inward-aesthetic-outward]]
+- [[30_wiki/concepts/dk-yb10-theory-moat-designer.md]]
 
-## [[dk-p14-zombie-process-burn-money]]
-- [[30_wiki/concepts/dk-p13-long-session-token-blackhole.md]]
+## [[dk-yb13-zero-shot-style-transfer]]
+- [[30_wiki/concepts/dk-yb11-visual-book-reverse.md]]
+- [[30_wiki/concepts/dk-yb12-ai-image-analysis-replace-training.md]]
 
-## [[dk-p15-claimed-done-not-verified]]
-- [[30_wiki/concepts/dk-f14-accuracy-measurement-mismatch.md]]
-- [[30_wiki/concepts/dk-p16-validate-reads-state-json.md]]
+## [[dk-yb14-multi-image-commonality]]
+- [[30_wiki/concepts/dk-yb15-reverse-image-description.md]]
 
-## [[dk-p5-cc-connect-config-cascade]]
-- [[30_wiki/concepts/dk-p1-model-switch-env-var.md]]
-- [[30_wiki/concepts/dk-p6-session-cache-resume-fail.md]]
+## [[dk-yb14-prompt-migrate-copy-first]]
+- [[30_wiki/concepts/dk-yb3-diffusion-stepwise-vs-human-holistic.md]]
 
-## [[dk-p8-forget-local-toolkit]]
-- [[30_wiki/concepts/dk-p9-glob-miss-subdir.md]]
+## [[dk-yb15-prompt-length-constraint]]
+- [[30_wiki/concepts/dk-yb1-aigc-mvp-before-ps.md]]
 
-## [[dk-p9-glob-miss-subdir]]
-- [[30_wiki/concepts/dk-p8-forget-local-toolkit.md]]
+## [[dk-yb15-reverse-image-description]]
+- [[30_wiki/concepts/dk-yb14-multi-image-commonality.md]]
+
+## [[dk-yb16-ecommerce-product-image-vs-lucky-draw]]
+- [[30_wiki/concepts/dk-yb17-product-lifestyle-photography.md]]
+- [[30_wiki/concepts/dk-yb18-small-shop-image-mismatch.md]]
+- [[30_wiki/concepts/dk-yb27-pseudo-layer-evasion.md]]
+
+## [[dk-yb17-product-lifestyle-photography]]
+- [[30_wiki/concepts/dk-yb26-chinese-food-photography-props.md]]
+
+## [[dk-yb18-small-shop-image-mismatch]]
+- [[30_wiki/concepts/dk-yb16-ecommerce-product-image-vs-lucky-draw.md]]
+- [[30_wiki/concepts/dk-yb19-visual-strategy-price-match.md]]
+- [[30_wiki/concepts/dk-yb22-visual-presentation-scene-match.md]]
+
+## [[dk-yb18-zero-shot-style-transfer]]
+- [[30_wiki/concepts/dk-yb4-nano-banana-style-reproduction.md]]
+
+## [[dk-yb19-small-shop-image-mismatch]]
+- [[30_wiki/concepts/dk-yb9-cubox-deployment-failure.md]]
+
+## [[dk-yb19-visual-strategy-price-match]]
+- [[30_wiki/concepts/dk-yb17-product-lifestyle-photography.md]]
+- [[30_wiki/concepts/dk-yb18-small-shop-image-mismatch.md]]
+- [[30_wiki/concepts/dk-yb21-ecommerce-pricing-independent-model.md]]
+- [[30_wiki/concepts/dk-yb22-visual-presentation-scene-match.md]]
+- [[30_wiki/concepts/dk-yb26-chinese-food-photography-props.md]]
+
+## [[dk-yb2-llm-muddy-clear-muddy]]
+- [[30_wiki/concepts/dk-yb3-diffusion-stepwise-vs-human-holistic.md]]
+
+## [[dk-yb20-ai-eye-high-principle]]
+- [[30_wiki/concepts/dk-yb24-ai-poster-de-ai-feeling.md]]
+
+## [[dk-yb21-ecommerce-pricing-independent-model]]
+- [[30_wiki/concepts/dk-yb19-visual-strategy-price-match.md]]
+- [[30_wiki/concepts/dk-yb30-ecommerce-channel-version.md]]
+- [[30_wiki/concepts/dk-yb7-design-demand-80-10-10.md]]
+
+## [[dk-yb22-ai-eye-high-principle]]
+- [[30_wiki/concepts/dk-yb10-theory-moat-designer.md]]
+
+## [[dk-yb23-ai-pre-screen-three-minutes]]
+- [[30_wiki/concepts/dk-yb32-doubao-size-composition.md]]
+
+## [[dk-yb25-solution-driven-visual-design]]
+- [[30_wiki/concepts/dk-yb7-design-demand-80-10-10.md]]
+
+## [[dk-yb26-chinese-food-photography-props]]
+- [[30_wiki/concepts/dk-yb16-ecommerce-product-image-vs-lucky-draw.md]]
+
+## [[dk-yb27-pseudo-layer-evasion]]
+- [[30_wiki/concepts/dk-yb9-cubox-deployment-failure.md]]
+
+## [[dk-yb3-diffusion-stepwise-vs-human-holistic]]
+- [[30_wiki/concepts/dk-yb2-llm-muddy-clear-muddy.md]]
+
+## [[dk-yb4-nano-banana-style-reproduction]]
+- [[30_wiki/concepts/dk-yb6-midjourney-chinese-text-fix.md]]
+
+## [[dk-yb5-style-asset-archive]]
+- [[30_wiki/concepts/dk-yb1-aigc-mvp-before-ps.md]]
+- [[30_wiki/concepts/dk-yb8-file-naming-eight-elements.md]]
+
+## [[dk-yb6-midjourney-chinese-text-fix]]
+- [[30_wiki/concepts/dk-yb28-prompt-expiration-management.md]]
+
+## [[dk-yb7-design-demand-80-10-10]]
+- [[30_wiki/concepts/dk-yb21-ecommerce-pricing-independent-model.md]]
+- [[30_wiki/concepts/dk-yb25-solution-driven-visual-design.md]]
+
+## [[dk-yb8-file-naming-eight-elements]]
+- [[30_wiki/concepts/dk-yb1-aigc-mvp-before-ps.md]]
+- [[30_wiki/concepts/dk-yb5-style-asset-archive.md]]
 
 ## [[double-loop-learning-argyris]]
 - [[30_wiki/concepts/yt-decision-review.md]]
@@ -216,6 +274,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[jtbd-framework]]
 - [[30_wiki/concepts/yt-decision-y-model.md]]
+
+## [[kdo-flywheel]]
+- [[30_wiki/concepts/knowledge-error-self-exposure.md]]
 
 ## [[kdo-protocol]]
 - [[30_wiki/concepts/EC工业化规范手册.md]]
@@ -262,17 +323,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[master-ai-info-literacy]]
 - [[30_wiki/concepts/dk-c1-cjk-regex-silent-fail.md]]
 - [[30_wiki/concepts/dk-c3-txt-ingest-skip.md]]
-- [[30_wiki/concepts/dk-f1-regex-on-cjk.md]]
-- [[30_wiki/concepts/dk-f2-txt-ingest-skip.md]]
-- [[30_wiki/concepts/dk-f6-cjk-skeleton-corruption.md]]
 - [[30_wiki/concepts/学会提问在信息洪流中锻造批判性思维的利刃.md]]
 
 ## [[master-cognitive-bias-checklist]]
 - [[30_wiki/concepts/dk-c4-selfcheck-superseded.md]]
 - [[30_wiki/concepts/dk-c5-todo-false-positive.md]]
-- [[30_wiki/concepts/dk-f9-generic-critique.md]]
-- [[30_wiki/concepts/dk-p15-claimed-done-not-verified.md]]
-- [[30_wiki/concepts/dk-p4-batch-upgrade-mind-empty.md]]
 - [[30_wiki/concepts/yt-tool-hiring-scorecard.md]]
 - [[30_wiki/concepts/yt-tool-meeting-designer.md]]
 - [[30_wiki/concepts/学会提问在信息洪流中锻造批判性思维的利刃.md]]
@@ -284,13 +339,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/dk-c11-hongqigong-skip-review.md]]
 - [[30_wiki/concepts/dk-c8-format-complete-mind-empty.md]]
 - [[30_wiki/concepts/dk-c9-batch-trigger-garbage.md]]
-- [[30_wiki/concepts/dk-f4-wrong-workdir.md]]
-- [[30_wiki/concepts/dk-f8-phony-wikilink.md]]
-- [[30_wiki/concepts/dk-p10-oral-ban-vs-written.md]]
-- [[30_wiki/concepts/dk-p2-tmux-session-cache.md]]
-- [[30_wiki/concepts/dk-p7-ocr-skip-check.md]]
-- [[30_wiki/concepts/dk-p8-forget-local-toolkit.md]]
-- [[30_wiki/concepts/dk-p9-glob-miss-subdir.md]]
 - [[30_wiki/concepts/ocr-一堂-科学决策-roi决策评估画布-案例01.md]]
 - [[30_wiki/concepts/ocr-一堂-科学决策-roi决策评估画布-案例02.md]]
 - [[30_wiki/concepts/ocr-一堂-科学决策-roi决策评估画布-案例03.md]]
@@ -335,9 +383,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[master-first-principles]]
 - [[30_wiki/concepts/dk-c6-large-source-overflow.md]]
-- [[30_wiki/concepts/dk-f10-broken-source-refs.md]]
-- [[30_wiki/concepts/dk-f11-encyclopedia-style.md]]
-- [[30_wiki/concepts/dk-f7-surface-translation.md]]
 - [[30_wiki/frameworks/yt-unit-model-overview.md]]
 - [[30_wiki/tools/yt-tool-unit-model-construction.md]]
 - [[30_wiki/tools/yt-tool-unit-model-dynamic.md]]
@@ -346,6 +391,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/ai-native-五层进阶从答案到效率到作品到产品到系统.md]]
 - [[30_wiki/concepts/ai时代判断力口述-3.md]]
 - [[30_wiki/concepts/dk-c7-auto-backup-conflict.md]]
+- [[30_wiki/concepts/dk-yb2-llm-muddy-clear-muddy.md]]
 - [[30_wiki/concepts/yt-management-toolkit-overview.md]]
 - [[30_wiki/concepts/yt-tool-hiring-scorecard.md]]
 - [[30_wiki/concepts/yt-tool-knowledge-extraction.md]]
@@ -357,19 +403,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[master-systems-thinking]]
 - [[30_wiki/concepts/ai-native-五层进阶从答案到效率到作品到产品到系统.md]]
 - [[30_wiki/concepts/dk-c2-dual-status-machine.md]]
-- [[30_wiki/concepts/dk-f12-builder-context-deadlock.md]]
-- [[30_wiki/concepts/dk-f13-handwritten-yaml-parser.md]]
-- [[30_wiki/concepts/dk-f14-accuracy-measurement-mismatch.md]]
-- [[30_wiki/concepts/dk-f3-state-json-race-condition.md]]
-- [[30_wiki/concepts/dk-f5-stale-feedback-ref.md]]
-- [[30_wiki/concepts/dk-p1-model-switch-env-var.md]]
-- [[30_wiki/concepts/dk-p11-validator-regex-truncation.md]]
-- [[30_wiki/concepts/dk-p13-long-session-token-blackhole.md]]
-- [[30_wiki/concepts/dk-p14-zombie-process-burn-money.md]]
-- [[30_wiki/concepts/dk-p16-validate-reads-state-json.md]]
-- [[30_wiki/concepts/dk-p3-auth-json-cache-override.md]]
-- [[30_wiki/concepts/dk-p5-cc-connect-config-cascade.md]]
-- [[30_wiki/concepts/dk-p6-session-cache-resume-fail.md]]
 - [[30_wiki/tools/yt-tool-unit-model-dynamic.md]]
 
 ## [[nonviolent-communication-rosenberg]]
@@ -1072,17 +1105,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/frameworks/yt-unit-model-overview.md]]
 - [[30_wiki/tools/yt-tool-unit-model-dynamic.md]]
 
-## [[yt-entrepreneur-five-step-method.md]]
-- [[30_wiki/concepts/dk-f7-surface-translation.md]]
-
 ## [[yt-entrepreneur-five-step-method|五步法]]
 - [[30_wiki/entities/一堂.md]]
 
 ## [[yt-entrepreneur-fundraising]]
 - [[30_wiki/concepts/ocr-一堂-科学决策-宽度-个人.md]]
-
-## [[yt-entrepreneur-fundraising.md]]
-- [[30_wiki/concepts/dk-f7-surface-translation.md]]
 
 ## [[yt-entrepreneur-growth-flywheel]]
 - [[30_wiki/concepts/yt-model-conversion-optimization.md]]
@@ -1206,10 +1233,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-personal-y-model-exploration-2.md]]
 - [[30_wiki/concepts/yt-personal-y-model-practice.md]]
 - [[30_wiki/entities/一堂.md]]
-
-## [[yt-entrepreneur-scientific-method.md]]
-- [[30_wiki/concepts/dk-f7-surface-translation.md]]
-- [[30_wiki/concepts/dk-f8-phony-wikilink.md]]
 
 ## [[yt-entrepreneur-scientific-method|科学决策/Y 模型]]
 - [[30_wiki/concepts/yt-personal-deep-review.md]]
@@ -2641,6 +2664,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/tools/yt-tool-strategy-workshop.md]]
 
 ## [[yt-unit-model-ai-assisted]]
+- [[30_wiki/concepts/ai数据理解第一课.md]]
 - [[30_wiki/concepts/yt-unit-model-dynamic.md]]
 
 ## [[yt-unit-model-benchmark]]
@@ -2851,6 +2875,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/projects/互联网医院项目.md]]
 - [[30_wiki/projects/诊所O2O项目.md]]
 
+## [[人机协作决策-双三角模型]]
+- [[30_wiki/concepts/ai数据理解第一课.md]]
+
 ## [[保达云诊所深度调研报告]]
 - [[30_wiki/concepts/HIS系统开发实现方案-架构师指南.md]]
 - [[30_wiki/concepts/HIS系统深度调研.md]]
@@ -2862,6 +2889,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[开源HIS系统代码深度分析报告]]
 - [[30_wiki/concepts/HIS系统开发实现方案-架构师指南.md]]
+
+## [[数据标注维度最佳实践调研报告]]
+- [[30_wiki/concepts/ai数据理解第一课.md]]
 
 ## [[紫鲸AI_智能体工作流平台_深度分析与产品设计]]
 - [[30_wiki/entities/紫鲸AI.md]]

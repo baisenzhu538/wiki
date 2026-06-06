@@ -19,8 +19,8 @@ updated_at: 2026-06-03
 related:
   - dk-p18-yaml-parser
 contradicts:
-  - [[kdo-yaml-frontmatter-safety]]
-  - [[master-first-principles]]
+  - kdo-yaml-frontmatter-safety
+  - master-first-principles
 ---
 
 # P-19：花引号被YAML误解析为字符串定界符
@@ -82,7 +82,7 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-p18-yaml-parser]] — 同样是 YAML 处理问题
+- dk-p18-yaml-parser — 同样是 YAML 处理问题
 - `.agent/pitfalls.md` → P-19（原始记录）
 
 ## 老顽童疑问（2026-06-03）

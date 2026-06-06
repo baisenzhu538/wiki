@@ -20,8 +20,8 @@ related:
   - dk-c3-txt-ingest-skip
   - master-ai-info-literacy
 contradicts:
-  - [[dk-c3-txt-ingest-skip]]
-  - [[master-ai-info-literacy]]
+  - dk-c3-txt-ingest-skip
+  - master-ai-info-literacy
 ---
 
 # F-KDO-002：非 .md 文件 ingest 静默跳过→state.json 无变化但用户以为成功
@@ -74,8 +74,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-c3-txt-ingest-skip]] — corrections 层面的具体事故记录：2026-05-03 Builder 报告 .txt 被 ingest 静默跳过。F-KDO-002 是这个具体事故的模式化抽象
-- [[master-ai-info-literacy]] — AI 信息素养要求使用者了解工具的输入格式白名单和盲区。F-KDO-002 是"ingest 工具扩展名白名单盲区"的具体案例
+- dk-c3-txt-ingest-skip — corrections 层面的具体事故记录：2026-05-03 Builder 报告 .txt 被 ingest 静默跳过。F-KDO-002 是这个具体事故的模式化抽象
+- master-ai-info-literacy — AI 信息素养要求使用者了解工具的输入格式白名单和盲区。F-KDO-002 是"ingest 工具扩展名白名单盲区"的具体案例
 - `90_control/failure-modes.md` → F-KDO-002（原始记录）
 - `90_control/AGENTS.md` → 禁止清单 #3（不准用 `kdo ingest` 处理 .txt 文件）
 

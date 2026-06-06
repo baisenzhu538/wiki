@@ -20,8 +20,8 @@ related:
   - dk-c1-regex-on-cjk
   - master-systems-thinking
 contradicts:
-  - [[kdo-yaml-frontmatter-safety]]
-  - [[master-first-principles]]
+  - kdo-yaml-frontmatter-safety
+  - master-first-principles
 ---
 
 # F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
@@ -73,8 +73,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-c1-regex-on-cjk]] — 同一模式："手写解析器忽视了格式的复杂性"。C-1 是"regex `\b` 不识别 CJK"，F-13 是"手写 YAML 解析器不处理嵌套结构"——两者都是"轻视已有库函数的复杂性，试图用简单方法替代"
-- [[master-systems-thinking]] — 系统思维中的"抽象漏洞"：YAML 解析是一个已经被高度抽象化的问题，手写解析器就是重新发明轮子
+- dk-c1-regex-on-cjk — 同一模式："手写解析器忽视了格式的复杂性"。C-1 是"regex `\b` 不识别 CJK"，F-13 是"手写 YAML 解析器不处理嵌套结构"——两者都是"轻视已有库函数的复杂性，试图用简单方法替代"
+- master-systems-thinking — 系统思维中的"抽象漏洞"：YAML 解析是一个已经被高度抽象化的问题，手写解析器就是重新发明轮子
 - `90_control/failure-modes.md` → F-KDO-013（原始记录）
 
 ## 老顽童疑问（2026-05-31）

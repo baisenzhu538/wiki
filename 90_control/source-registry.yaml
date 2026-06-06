@@ -4876,3 +4876,1095 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/数据标注维度最佳实践调研报告.md"
   content_sha256: "2fff744ce2ffeb833725243de49a6cd2d275bb38c828f8b6dabf95fcdebf4177"
+
+- id: "src_20260606_26ef7021"
+  title: "AI\\u6570\\u636e\\u7406\\u89e3\\u7b2c\\u4e00\\u8bfe"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_26ef7021-ai-u6570-u636e-u7406-u89e3-u7b2c-u4e00-u8bfe.md"
+  captured_at: "2026-06-06T06:31:08+00:00"
+  registered_at: "2026-06-06T06:31:08+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/ai-u6570-u636e-u7406-u89e3-u7b2c-u4e00-u8bfe.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/AI-study/AI\\u6570\\u636e/AI\\u6570\\u636e\\u7406\\u89e3\\u7b2c\\u4e00\\u8bfe\\u8868\\u683c.md"
+  content_sha256: "c8b19398e4e04d9136bb062cbb921c0f188954ef39210d6694b90c7629bb26c8"
+
+- id: "src_20260606_90b44191"
+  title: "没有人呀，现在。"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_90b44191-没有人呀现在.md"
+  captured_at: "2026-06-06T06:31:08+00:00"
+  registered_at: "2026-06-06T06:31:08+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/没有人呀现在.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/半肥猫-AI学习落地-口述.md"
+  content_sha256: "696f794334d7985aa36e051e840f3888c28fc186ee681d75d63ac3451a12a2dd"
+
+- id: "src_20260606_c49e4e04"
+  title: "广冷电子 — HX-SMJ 红外光栅故障分析报告"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_c49e4e04-广冷电子-hx-smj-红外光栅故障分析报告.md"
+  captured_at: "2026-06-06T06:31:08+00:00"
+  registered_at: "2026-06-06T06:31:08+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/广冷电子-hx-smj-红外光栅故障分析报告.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/_archive/07_logs/HX-SMJ故障分析报告.md"
+  content_sha256: "1d12a382c6f9ef5cbf48ac9aa825a3156a04823c70ceefdc7895f551dcc301b4"
+
+- id: "src_20260606_64d12a04"
+  title: "广冷电子 — HX-SMJ 红外光栅项目底册"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_64d12a04-广冷电子-hx-smj-红外光栅项目底册.md"
+  captured_at: "2026-06-06T06:31:08+00:00"
+  registered_at: "2026-06-06T06:31:08+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/广冷电子-hx-smj-红外光栅项目底册.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/_archive/07_logs/PROJECT_CATALOG.md"
+  content_sha256: "2ab931b8a34e6c3f4987d75921b2a8287bf8158d75d4dd6d2c64afa8e0cd348d"
+
+- id: "src_20260606_1a629341"
+  title: "广冷电子 — HX-SMJ 红外光栅板"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_1a629341-广冷电子-hx-smj-红外光栅板.md"
+  captured_at: "2026-06-06T06:31:08+00:00"
+  registered_at: "2026-06-06T06:31:08+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/广冷电子-hx-smj-红外光栅板.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/_archive/README.md"
+  content_sha256: "fb2ed8096eb234de5d6472c61e5bf0540a47c3843d91f022a23f1bdfc150ba1f"
+
+- id: "src_20260606_3e1e905b"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_3e1e905b-hx-smj-01_v1.0-pcba加工要求.md"
+  captured_at: "2026-06-06T06:31:08+00:00"
+  registered_at: "2026-06-06T06:31:08+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求.md"
+  content_sha256: "4a535a7627b17d921b32450bb4e1a82cb890c04dcedabfd6749e18fec74c1f38"
+
+- id: "src_20260606_801eb17e"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_1"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_801eb17e-hx-smj-01_v1.0-pcba加工要求_1.md"
+  captured_at: "2026-06-06T06:31:09+00:00"
+  registered_at: "2026-06-06T06:31:09+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_1.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_1.md"
+  content_sha256: "31ee8196f1a645ad887e571770f03a927ed91f06d880219e68ee464dfe456575"
+
+- id: "src_20260606_134821af"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_10"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_134821af-hx-smj-01_v1.0-pcba加工要求_10.md"
+  captured_at: "2026-06-06T06:31:09+00:00"
+  registered_at: "2026-06-06T06:31:09+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_10.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_10.md"
+  content_sha256: "54aea46fc5ab2cf412266b034b20e75616bfa7751d7ec6f559b2f131cd1187ed"
+
+- id: "src_20260606_e7d55b93"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_11"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_e7d55b93-hx-smj-01_v1.0-pcba加工要求_11.md"
+  captured_at: "2026-06-06T06:31:09+00:00"
+  registered_at: "2026-06-06T06:31:09+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_11.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_11.md"
+  content_sha256: "da899f028d27972382c624ed29eb8b22b79bdc89a96cbbeea7d81f8599cc3b59"
+
+- id: "src_20260606_050f35d5"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_12"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_050f35d5-hx-smj-01_v1.0-pcba加工要求_12.md"
+  captured_at: "2026-06-06T06:31:09+00:00"
+  registered_at: "2026-06-06T06:31:09+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_12.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_12.md"
+  content_sha256: "0e41b6efe5461e15af6df4e022c385ed5105c6be0c9db9e39d44c0f90e5aadfb"
+
+- id: "src_20260606_ea10da08"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_13"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_ea10da08-hx-smj-01_v1.0-pcba加工要求_13.md"
+  captured_at: "2026-06-06T06:31:09+00:00"
+  registered_at: "2026-06-06T06:31:09+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_13.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_13.md"
+  content_sha256: "872955c6a1812a1950e9885c9fe38ddc889ee537a506875ee28a85386a7664d3"
+
+- id: "src_20260606_f7da33d3"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_14"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_f7da33d3-hx-smj-01_v1.0-pcba加工要求_14.md"
+  captured_at: "2026-06-06T06:31:09+00:00"
+  registered_at: "2026-06-06T06:31:09+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_14.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_14.md"
+  content_sha256: "1a10545eb10a125dca95f49b5780ec02df07113457b8aa09b9aa76cc0572ae72"
+
+- id: "src_20260606_6dad71f1"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_15"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_6dad71f1-hx-smj-01_v1.0-pcba加工要求_15.md"
+  captured_at: "2026-06-06T06:31:09+00:00"
+  registered_at: "2026-06-06T06:31:09+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_15.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_15.md"
+  content_sha256: "6637673de3f2a8128ff59215119dcb5732ae24e8697345e33e49e2feec4ef793"
+
+- id: "src_20260606_5e8b0ea3"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_16"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_5e8b0ea3-hx-smj-01_v1.0-pcba加工要求_16.md"
+  captured_at: "2026-06-06T06:31:10+00:00"
+  registered_at: "2026-06-06T06:31:10+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_16.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_16.md"
+  content_sha256: "b8be1187839562cb592064a31c9ba3dd4fea7f0680542ea8161fecf7d9a24a54"
+
+- id: "src_20260606_424a86d4"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_17"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_424a86d4-hx-smj-01_v1.0-pcba加工要求_17.md"
+  captured_at: "2026-06-06T06:31:10+00:00"
+  registered_at: "2026-06-06T06:31:10+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_17.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_17.md"
+  content_sha256: "9b936809038237ee03c1cb2097deb2f4fada2cf16326e6d64a35395c01ef816c"
+
+- id: "src_20260606_14cf6b5b"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_2"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_14cf6b5b-hx-smj-01_v1.0-pcba加工要求_2.md"
+  captured_at: "2026-06-06T06:31:10+00:00"
+  registered_at: "2026-06-06T06:31:10+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_2.md"
+  content_sha256: "dcf4a90aefc8a3c4710afbd8d1304e094961eddf3ea65ef003b47e79ebb6bb60"
+
+- id: "src_20260606_2c74c15d"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_3"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_2c74c15d-hx-smj-01_v1.0-pcba加工要求_3.md"
+  captured_at: "2026-06-06T06:31:10+00:00"
+  registered_at: "2026-06-06T06:31:10+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_3.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_3.md"
+  content_sha256: "2fcfe85b232dc4b744fc73f79c9a2430efe4b09a6cb02bf42fd27323cda17a6b"
+
+- id: "src_20260606_7655a39d"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_4"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_7655a39d-hx-smj-01_v1.0-pcba加工要求_4.md"
+  captured_at: "2026-06-06T06:31:10+00:00"
+  registered_at: "2026-06-06T06:31:10+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_4.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_4.md"
+  content_sha256: "1ed9e9fcab6f9d6e4bc85c165876718f3f2ec348eb79a62205ed40cadc1bcd47"
+
+- id: "src_20260606_ea7161f4"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_5"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_ea7161f4-hx-smj-01_v1.0-pcba加工要求_5.md"
+  captured_at: "2026-06-06T06:31:10+00:00"
+  registered_at: "2026-06-06T06:31:10+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_5.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_5.md"
+  content_sha256: "c8edd721df64bb3647224d93ae36067e4f36909fd0753b647532bed91c78272b"
+
+- id: "src_20260606_3b3a5a29"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_6"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_3b3a5a29-hx-smj-01_v1.0-pcba加工要求_6.md"
+  captured_at: "2026-06-06T06:31:10+00:00"
+  registered_at: "2026-06-06T06:31:10+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_6.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_6.md"
+  content_sha256: "6e8091585526ac28bc27956250a03c57473203ec447be067322b62eb887ff315"
+
+- id: "src_20260606_bdd2b3a4"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_7"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_bdd2b3a4-hx-smj-01_v1.0-pcba加工要求_7.md"
+  captured_at: "2026-06-06T06:31:10+00:00"
+  registered_at: "2026-06-06T06:31:10+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_7.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_7.md"
+  content_sha256: "9b988bd1afe236d4f1e43a4e42f2920cd6cb2c7345771d443f3236123af3f0e7"
+
+- id: "src_20260606_aeb06c78"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_8"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_aeb06c78-hx-smj-01_v1.0-pcba加工要求_8.md"
+  captured_at: "2026-06-06T06:31:10+00:00"
+  registered_at: "2026-06-06T06:31:10+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_8.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_8.md"
+  content_sha256: "e1bbdf02ae2b31fad8d49d5ac5740d23d16ba26a9d5f4d595b62a70442f325a4"
+
+- id: "src_20260606_98a8cef1"
+  title: "HX-SMJ-01_V1.0 PCBA加工要求_9"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_98a8cef1-hx-smj-01_v1.0-pcba加工要求_9.md"
+  captured_at: "2026-06-06T06:31:11+00:00"
+  registered_at: "2026-06-06T06:31:11+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcba加工要求_9.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCBA加工要求_9.md"
+  content_sha256: "cdebe75c4fa42b3d9859ba0caa43f5474e0a98d6b69f0ff437fcdc6069418a05"
+
+- id: "src_20260606_a4d91b7e"
+  title: "HX-SMJ-01_V1.0 PCB加工要求"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_a4d91b7e-hx-smj-01_v1.0-pcb加工要求.md"
+  captured_at: "2026-06-06T06:31:11+00:00"
+  registered_at: "2026-06-06T06:31:11+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcb加工要求.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCB加工要求.md"
+  content_sha256: "cf88c17e11bdbeda4145e4bbaca551434e533515b6c32e22773de2118a1b3a79"
+
+- id: "src_20260606_419169b8"
+  title: "HX-SMJ-01_V1.0 PCB加工要求_1"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_419169b8-hx-smj-01_v1.0-pcb加工要求_1.md"
+  captured_at: "2026-06-06T06:31:11+00:00"
+  registered_at: "2026-06-06T06:31:11+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcb加工要求_1.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCB加工要求_1.md"
+  content_sha256: "46c851f5a277e2db2b28a5d7d7b0f6c645894804467b927d5ca4211eece29150"
+
+- id: "src_20260606_1fe784cf"
+  title: "HX-SMJ-01_V1.0 PCB加工要求_2"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_1fe784cf-hx-smj-01_v1.0-pcb加工要求_2.md"
+  captured_at: "2026-06-06T06:31:11+00:00"
+  registered_at: "2026-06-06T06:31:11+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-01_v1.0-pcb加工要求_2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/HX-SMJ-01_V1.0 PCB加工要求_2.md"
+  content_sha256: "998b71b240140ea4578b7371d5f871cddf65fe89a694bdd3acc098252e514c5e"
+
+- id: "src_20260606_53cceeba"
+  title: "PCB加工要求_HX-SMJ-01"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_53cceeba-pcb加工要求_hx-smj-01.md"
+  captured_at: "2026-06-06T06:31:11+00:00"
+  registered_at: "2026-06-06T06:31:11+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/pcb加工要求_hx-smj-01.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/PCB加工要求_HX-SMJ-01.md"
+  content_sha256: "4aae379a612ddd8a42d22c2808a6ebfc3ed82437b413a49a603d2d00cea53001"
+
+- id: "src_20260606_2263f351"
+  title: "PCB加工要求_HX-SMJ-01_1"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_2263f351-pcb加工要求_hx-smj-01_1.md"
+  captured_at: "2026-06-06T06:31:11+00:00"
+  registered_at: "2026-06-06T06:31:11+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/pcb加工要求_hx-smj-01_1.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/PCB加工要求_HX-SMJ-01_1.md"
+  content_sha256: "aeff03ae3d04bee0e92f6d91103157744c829c5e6012fc1d279f7c0772546236"
+
+- id: "src_20260606_48e6a328"
+  title: "PCB加工要求_HX-SMJ01主控板V2.0"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_48e6a328-pcb加工要求_hx-smj01主控板v2.0.md"
+  captured_at: "2026-06-06T06:31:11+00:00"
+  registered_at: "2026-06-06T06:31:11+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/pcb加工要求_hx-smj01主控板v2.0.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01-继电器板/PCB加工要求_HX-SMJ01主控板V2.0.md"
+  content_sha256: "07ef27b2afae741158683a81b9300d59566a9b4675bc986b118bb789fd722af0"
+
+- id: "src_20260606_fb6eac9b"
+  title: "HX-SMJ01B-12306_V2.0 PCB加工要求"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_fb6eac9b-hx-smj01b-12306_v2.0-pcb加工要求.md"
+  captured_at: "2026-06-06T06:31:11+00:00"
+  registered_at: "2026-06-06T06:31:11+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj01b-12306_v2.0-pcb加工要求.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01B-主控板/HX-SMJ01B-12306_V2.0 PCB加工要求.md"
+  content_sha256: "5e16d39bac70d82e779456daadd4d2116c993cd466e8f6f8157c305b3b07ce9c"
+
+- id: "src_20260606_c4238a0f"
+  title: "HX-SMJ01B-12306_V2.0 PCB加工要求_1"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_c4238a0f-hx-smj01b-12306_v2.0-pcb加工要求_1.md"
+  captured_at: "2026-06-06T06:31:11+00:00"
+  registered_at: "2026-06-06T06:31:11+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj01b-12306_v2.0-pcb加工要求_1.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01B-主控板/HX-SMJ01B-12306_V2.0 PCB加工要求_1.md"
+  content_sha256: "4a596a50b978ed6ff381a0c93c7e7c2bec260a1c6f176aaadfbae2bb97915772"
+
+- id: "src_20260606_fc3fbd0c"
+  title: "HX-SMJ01B-12306_V2.0 PCB加工要求_2"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_fc3fbd0c-hx-smj01b-12306_v2.0-pcb加工要求_2.md"
+  captured_at: "2026-06-06T06:31:11+00:00"
+  registered_at: "2026-06-06T06:31:11+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj01b-12306_v2.0-pcb加工要求_2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01B-主控板/HX-SMJ01B-12306_V2.0 PCB加工要求_2.md"
+  content_sha256: "6022ea18c89777874066be7576c63ad442f6d2519c5ee6f9feeaa8cef93a06be"
+
+- id: "src_20260606_95466683"
+  title: "PCB加工要求_HX-SMJ01主控板V2.0"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_95466683-pcb加工要求_hx-smj01主控板v2.0.md"
+  captured_at: "2026-06-06T06:31:12+00:00"
+  registered_at: "2026-06-06T06:31:12+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/pcb加工要求_hx-smj01主控板v2.0-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-01B-主控板/PCB加工要求_HX-SMJ01主控板V2.0.md"
+  content_sha256: "07ef27b2afae741158683a81b9300d59566a9b4675bc986b118bb789fd722af0"
+
+- id: "src_20260606_63b0df71"
+  title: "HX-SMJ-03B-A_V2.0 PCB加工要求"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_63b0df71-hx-smj-03b-a_v2.0-pcb加工要求.md"
+  captured_at: "2026-06-06T06:31:12+00:00"
+  registered_at: "2026-06-06T06:31:12+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-03b-a_v2.0-pcb加工要求.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-03B-A-红外板-A/HX-SMJ-03B-A_V2.0 PCB加工要求.md"
+  content_sha256: "e63dfadb9a9f2b66a24bdaa1550d0bc86501082439fd6f930f652fa152544e19"
+
+- id: "src_20260606_a5a16463"
+  title: "HX-SMJ-03B-A_V2.0 PCB加工要求_1"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_a5a16463-hx-smj-03b-a_v2.0-pcb加工要求_1.md"
+  captured_at: "2026-06-06T06:31:12+00:00"
+  registered_at: "2026-06-06T06:31:12+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-03b-a_v2.0-pcb加工要求_1.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-03B-A-红外板-A/HX-SMJ-03B-A_V2.0 PCB加工要求_1.md"
+  content_sha256: "84e5412c2caf871dbb111229c1b622d0905c9a9020aad4dd3447739c75f506a1"
+
+- id: "src_20260606_6cf859ab"
+  title: "HX-SMJ-03B-A_V2.0 PCB加工要求_2"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_6cf859ab-hx-smj-03b-a_v2.0-pcb加工要求_2.md"
+  captured_at: "2026-06-06T06:31:12+00:00"
+  registered_at: "2026-06-06T06:31:12+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-03b-a_v2.0-pcb加工要求_2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-03B-A-红外板-A/HX-SMJ-03B-A_V2.0 PCB加工要求_2.md"
+  content_sha256: "c1bc3b9cd83b17c07d1894d15e355533c1708f2b388f6b02464816775cb8cd9e"
+
+- id: "src_20260606_42d19137"
+  title: "PCB加工要求_HX-SMJ-03B-A_V2.2"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_42d19137-pcb加工要求_hx-smj-03b-a_v2.2.md"
+  captured_at: "2026-06-06T06:31:12+00:00"
+  registered_at: "2026-06-06T06:31:12+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/pcb加工要求_hx-smj-03b-a_v2.2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-03B-A-红外板-A/PCB加工要求_HX-SMJ-03B-A_V2.2.md"
+  content_sha256: "9c6b386450a83e695244bd98dfd8f7ca0b5dd41d164908380f58f6453d0341fb"
+
+- id: "src_20260606_3d110779"
+  title: "PCB加工要求_HX-SMJ-03B-A_V2.2_1"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_3d110779-pcb加工要求_hx-smj-03b-a_v2.2_1.md"
+  captured_at: "2026-06-06T06:31:12+00:00"
+  registered_at: "2026-06-06T06:31:12+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/pcb加工要求_hx-smj-03b-a_v2.2_1.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-03B-A-红外板-A/PCB加工要求_HX-SMJ-03B-A_V2.2_1.md"
+  content_sha256: "5e66813b0a9de9fdb3925e153eb92b6cd33d7d15b60a6697eb18a4d5c66b72ac"
+
+- id: "src_20260606_0a6129bc"
+  title: "HX-SMJ-03B-B_V2.0 PCB加工要求"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_0a6129bc-hx-smj-03b-b_v2.0-pcb加工要求.md"
+  captured_at: "2026-06-06T06:31:12+00:00"
+  registered_at: "2026-06-06T06:31:12+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-03b-b_v2.0-pcb加工要求.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-03B-B-红外板-B/HX-SMJ-03B-B_V2.0 PCB加工要求.md"
+  content_sha256: "ddcd01ebe6fec6531760369c4d377610a394f5c313154033ab5641d6da468841"
+
+- id: "src_20260606_83b42d92"
+  title: "HX-SMJ-03B-B_V2.0 PCB加工要求_1"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_83b42d92-hx-smj-03b-b_v2.0-pcb加工要求_1.md"
+  captured_at: "2026-06-06T06:31:12+00:00"
+  registered_at: "2026-06-06T06:31:12+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-03b-b_v2.0-pcb加工要求_1.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-03B-B-红外板-B/HX-SMJ-03B-B_V2.0 PCB加工要求_1.md"
+  content_sha256: "36913691594de28b9f956b201935de1fa15982fc24e6309cac63323dc47f2848"
+
+- id: "src_20260606_01aee309"
+  title: "HX-SMJ-03B-B_V2.0 PCB加工要求_2"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_01aee309-hx-smj-03b-b_v2.0-pcb加工要求_2.md"
+  captured_at: "2026-06-06T06:31:12+00:00"
+  registered_at: "2026-06-06T06:31:12+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-03b-b_v2.0-pcb加工要求_2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-03B-B-红外板-B/HX-SMJ-03B-B_V2.0 PCB加工要求_2.md"
+  content_sha256: "c9720221ec273a162f367d1a5782eae36488bb248c8e686bcdc0a31c183d3e05"
+
+- id: "src_20260606_263f7c2b"
+  title: "PCB加工要求_HX-SMJ-03B-B_V2.2"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_263f7c2b-pcb加工要求_hx-smj-03b-b_v2.2.md"
+  captured_at: "2026-06-06T06:31:13+00:00"
+  registered_at: "2026-06-06T06:31:13+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/pcb加工要求_hx-smj-03b-b_v2.2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-03B-B-红外板-B/PCB加工要求_HX-SMJ-03B-B_V2.2.md"
+  content_sha256: "7bf43f1e8c9ea429990cf5a829e6d0085bbd78b5a9aa0055be2927f54e93b2f9"
+
+- id: "src_20260606_32dd14d5"
+  title: "PCB加工要求_HX-SMJ-03B-B_V2.2_1"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_32dd14d5-pcb加工要求_hx-smj-03b-b_v2.2_1.md"
+  captured_at: "2026-06-06T06:31:13+00:00"
+  registered_at: "2026-06-06T06:31:13+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/pcb加工要求_hx-smj-03b-b_v2.2_1.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-03B-B-红外板-B/PCB加工要求_HX-SMJ-03B-B_V2.2_1.md"
+  content_sha256: "50b515753b45a705caaca6a5a2858c95f639b864f7492854c4f32a180ac0d4a4"
+
+- id: "src_20260606_c4112bce"
+  title: "PCB加工要求_HX-SMJ-04B"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_c4112bce-pcb加工要求_hx-smj-04b.md"
+  captured_at: "2026-06-06T06:31:13+00:00"
+  registered_at: "2026-06-06T06:31:13+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/pcb加工要求_hx-smj-04b.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-04B-货道电机板/PCB加工要求_HX-SMJ-04B.md"
+  content_sha256: "50a7050f1ced6a00297a2252d19fca9b88e5d19eca5b159ff6085b6f4c0c1af4"
+
+- id: "src_20260606_d692ea5a"
+  title: "PCB加工要求_HX-SMJ-04B_1"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_d692ea5a-pcb加工要求_hx-smj-04b_1.md"
+  captured_at: "2026-06-06T06:31:13+00:00"
+  registered_at: "2026-06-06T06:31:13+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/pcb加工要求_hx-smj-04b_1.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/02_pcb/HX-SMJ-04B-货道电机板/PCB加工要求_HX-SMJ-04B_1.md"
+  content_sha256: "f16b9189697eafecb2a0bb964c27b4d892decad14750e0c466bf175606254f3b"
+
+- id: "src_20260606_3ecd9b84"
+  title: "BOM差异分析报告"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_3ecd9b84-bom差异分析报告.md"
+  captured_at: "2026-06-06T06:31:13+00:00"
+  registered_at: "2026-06-06T06:31:13+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/bom差异分析报告.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/06_logs/BOM差异分析报告.md"
+  content_sha256: "e23528d0e20210ec36846b7cd823bd3abe1d28ed844655b67e175d3292ee63e3"
+
+- id: "src_20260606_5809b496"
+  title: "广冷电子资料交叉验证综合报告"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_5809b496-广冷电子资料交叉验证综合报告.md"
+  captured_at: "2026-06-06T06:31:13+00:00"
+  registered_at: "2026-06-06T06:31:13+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/广冷电子资料交叉验证综合报告.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/06_logs/交叉验证综合报告.md"
+  content_sha256: "e22b51ab1c45af95d209f05c4e9bf3858bebdad0983db7e5a2a31f292528061c"
+
+- id: "src_20260606_04f43d43"
+  title: "原理图与BOM交叉验证报告"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_04f43d43-原理图与bom交叉验证报告.md"
+  captured_at: "2026-06-06T06:31:13+00:00"
+  registered_at: "2026-06-06T06:31:13+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/原理图与bom交叉验证报告.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/06_logs/原理图BOM交叉验证报告.md"
+  content_sha256: "7d9fc5cc21a5fb114f24785ee154cec0d74451a321f96f7e0975d96ced4ee2f0"
+
+- id: "src_20260606_d7abcc6f"
+  title: "广冷红外板原理图独立验证报告"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_d7abcc6f-广冷红外板原理图独立验证报告.md"
+  captured_at: "2026-06-06T06:31:13+00:00"
+  registered_at: "2026-06-06T06:31:13+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/广冷红外板原理图独立验证报告.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/06_logs/原理图独立验证报告.md"
+  content_sha256: "77312783acc0d4701f11fc92921cf9e46b284f3f1157e0ede5e5175b9444ddee"
+
+- id: "src_20260606_fcf9b01b"
+  title: "广冷电子红外板固件源码分析报告"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_fcf9b01b-广冷电子红外板固件源码分析报告.md"
+  captured_at: "2026-06-06T06:31:13+00:00"
+  registered_at: "2026-06-06T06:31:13+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/广冷电子红外板固件源码分析报告.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/06_logs/固件源码分析报告.md"
+  content_sha256: "d84ecd7f7e6bcc34cd21c46d5528a13df3885dc111bd721fe1eec76da88557f4"
+
+- id: "src_20260606_5fc888d6"
+  title: "坐标一致性验证报告"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_5fc888d6-坐标一致性验证报告.md"
+  captured_at: "2026-06-06T06:31:14+00:00"
+  registered_at: "2026-06-06T06:31:14+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/坐标一致性验证报告.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/06_logs/坐标一致性验证报告.md"
+  content_sha256: "4af117a8b12edd41cf31e85b97f65635979976e5a713c244f965fb9bbe9a66b4"
+
+- id: "src_20260606_66c22d5d"
+  title: "广冷电子 — HX-SMJ 红外光栅故障分析报告"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_66c22d5d-广冷电子-hx-smj-红外光栅故障分析报告.md"
+  captured_at: "2026-06-06T06:31:14+00:00"
+  registered_at: "2026-06-06T06:31:14+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/广冷电子-hx-smj-红外光栅故障分析报告-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/HX-SMJ故障分析报告.md"
+  content_sha256: "1d12a382c6f9ef5cbf48ac9aa825a3156a04823c70ceefdc7895f551dcc301b4"
+
+- id: "src_20260606_a7788168"
+  title: "广冷电子 — HX-SMJ 红外光栅项目底册"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_a7788168-广冷电子-hx-smj-红外光栅项目底册.md"
+  captured_at: "2026-06-06T06:31:14+00:00"
+  registered_at: "2026-06-06T06:31:14+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/广冷电子-hx-smj-红外光栅项目底册-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/PROJECT_CATALOG.md"
+  content_sha256: "2ab931b8a34e6c3f4987d75921b2a8287bf8158d75d4dd6d2c64afa8e0cd348d"
+
+- id: "src_20260606_7937a5d9"
+  title: "广冷电子 — HX-SMJ 红外光栅项目资料库"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_7937a5d9-广冷电子-hx-smj-红外光栅项目资料库.md"
+  captured_at: "2026-06-06T06:31:14+00:00"
+  registered_at: "2026-06-06T06:31:14+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/广冷电子-hx-smj-红外光栅项目资料库.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/README.md"
+  content_sha256: "5af9a82ff74e5d15f71e8eb8b37d2b1592ff64cc8815ae4a14a9c16320b128f6"
+
+- id: "src_20260606_28270247"
+  title: "HX-SMJ-02B_V2.0 PCB加工要求"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_28270247-hx-smj-02b_v2.0-pcb加工要求.md"
+  captured_at: "2026-06-06T06:31:14+00:00"
+  registered_at: "2026-06-06T06:31:14+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-02b_v2.0-pcb加工要求.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/广冷-PCB/PCB资料/广冷线路板V2/外发加工/3、HX-SMJ-02B 通信板/1、HX-SMJ-02B_V2.0（通信板） PCB生产文件（光板）/PCB 生产要求/HX-SMJ-02B_V2.0 PCB加工要求.md"
+  content_sha256: "a2783223f27125fe415579ba6854c89602d3d472acb1fef7f72bcff841e36edf"
+
+- id: "src_20260606_e17f809d"
+  title: "HX-SMJ-02B_V2.0 PCB加工要求"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_e17f809d-hx-smj-02b_v2.0-pcb加工要求.md"
+  captured_at: "2026-06-06T06:31:14+00:00"
+  registered_at: "2026-06-06T06:31:14+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-02b_v2.0-pcb加工要求-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/广冷-PCB/PCB资料/广冷线路板V2/外发加工/PCB光板生产资料-巨米智能-20220624（共5款PCB）/3、HX-SMJ-02B_V2.0（通信板） PCB生产文件（光板）/PCB 生产要求/HX-SMJ-02B_V2.0 PCB加工要求.md"
+  content_sha256: "c996ec7f7b306085f01002c9b1e0ba3b9ca5aa2070761d4af4d8c85e4135b24a"
+
+- id: "src_20260606_76979b8f"
+  title: "售卖机板卡设计说明"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_76979b8f-售卖机板卡设计说明.md"
+  captured_at: "2026-06-06T06:31:14+00:00"
+  registered_at: "2026-06-06T06:31:14+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/售卖机板卡设计说明.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/广冷-PCB/广冷PCBA/广冷华旭-PCB板卡资料-加密/售卖机板卡设计说明.md"
+  content_sha256: "08e040fd1b7298b580fc2c7fabe1fc52f9f32c4759b82e10e637fcdac29f9c27"
+
+- id: "src_20260606_abd9142c"
+  title: "售卖机板卡设计说明"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_abd9142c-售卖机板卡设计说明.md"
+  captured_at: "2026-06-06T06:31:14+00:00"
+  registered_at: "2026-06-06T06:31:14+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/售卖机板卡设计说明-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/广冷-PCB/广冷华旭-PCB板卡资料/售卖机板卡设计说明.md"
+  content_sha256: "08e040fd1b7298b580fc2c7fabe1fc52f9f32c4759b82e10e637fcdac29f9c27"
+
+- id: "src_20260606_684e8dba"
+  title: "售卖机板卡设计说明"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_684e8dba-售卖机板卡设计说明.md"
+  captured_at: "2026-06-06T06:31:15+00:00"
+  registered_at: "2026-06-06T06:31:15+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/售卖机板卡设计说明-3.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/广冷-PCB/广冷华旭-PCB板卡资料(1)(1)/售卖机板卡设计说明.md"
+  content_sha256: "08e040fd1b7298b580fc2c7fabe1fc52f9f32c4759b82e10e637fcdac29f9c27"
+
+- id: "src_20260606_72713a00"
+  title: "1.系统功能概述"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_72713a00-1.系统功能概述.md"
+  captured_at: "2026-06-06T06:31:15+00:00"
+  registered_at: "2026-06-06T06:31:15+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/1.系统功能概述.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/广冷-PCB/广冷评审文件 - V1.1/1.系统功能概述/1.系统功能概述.md"
+  content_sha256: "a160395b75b1072a442ad8c60bc97ce9bc4771ae6c7bb4ec50dd025b2eeff8be"
+
+- id: "src_20260606_45cb92c0"
+  title: "2.原理主要参数计算"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_45cb92c0-2.原理主要参数计算.md"
+  captured_at: "2026-06-06T06:31:15+00:00"
+  registered_at: "2026-06-06T06:31:15+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/2.原理主要参数计算.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/广冷-PCB/广冷评审文件 - V1.1/2.原理主要参数计算/2.原理主要参数计算.md"
+  content_sha256: "90e376ee6af4eeb67b3c8101a66386cdb66aa778c64ba2db6c9449f6b550f780"
+
+- id: "src_20260606_bd879d0d"
+  title: "HX-SMJ-02B_V2.0 PCB加工要求"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_bd879d0d-hx-smj-02b_v2.0-pcb加工要求.md"
+  captured_at: "2026-06-06T06:31:15+00:00"
+  registered_at: "2026-06-06T06:31:15+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/hx-smj-02b_v2.0-pcb加工要求-3.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/广冷-PCB制板-2025年/广冷-PCB制版要求/HX-SMJ-02B_V2.0 PCB加工要求.md"
+  content_sha256: "a2783223f27125fe415579ba6854c89602d3d472acb1fef7f72bcff841e36edf"
+
+- id: "src_20260606_67330e7f"
+  title: "巨米串口通讯协议"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_67330e7f-巨米串口通讯协议.md"
+  captured_at: "2026-06-06T06:31:15+00:00"
+  registered_at: "2026-06-06T06:31:15+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/巨米串口通讯协议.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/广冷2/串口设备通信/串口一级通讯协议/巨米串口通讯协议.md"
+  content_sha256: "3eab28581e49784a28765a2aa9e039f8903687c317d9b2cbac4a9835ca63ded6"
+
+- id: "src_20260606_e270bc91"
+  title: "指令CMD使用一览"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_e270bc91-指令cmd使用一览.md"
+  captured_at: "2026-06-06T06:31:15+00:00"
+  registered_at: "2026-06-06T06:31:15+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/指令cmd使用一览.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/广冷2/串口设备通信/串口协议应用/指令CMD使用一览.md"
+  content_sha256: "822b01ceda9f68cb4d04f50eb2fadd371902a3894824d066454e42f4b5668b1c"
+
+- id: "src_20260606_79c6a640"
+  title: "自动售货机二级专用协议 - 20201230"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_79c6a640-自动售货机二级专用协议-20201230.md"
+  captured_at: "2026-06-06T06:31:15+00:00"
+  registered_at: "2026-06-06T06:31:15+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/自动售货机二级专用协议-20201230.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/广冷2/串口设备通信/串口协议应用/自动售货机二级专用协议 - 20201230.md"
+  content_sha256: "efdafde6f42e953dbfa182b11d6101ffbc127d58b20f5a1cd9d0ee413b21d843"
+
+- id: "src_20260606_b1d89b43"
+  title: "巨米设备通讯协议"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_b1d89b43-巨米设备通讯协议.md"
+  captured_at: "2026-06-06T06:31:16+00:00"
+  registered_at: "2026-06-06T06:31:16+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/巨米设备通讯协议.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/广冷2/串口设备通信/二级通用设备协议/巨米设备通讯协议.md"
+  content_sha256: "d420dce1146575e6a0e9722def2c4a80381725e84fe65d708cce9d83a5d611d3"
+
+- id: "src_20260606_e9945462"
+  title: "自动售货机二级专用协议"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_e9945462-自动售货机二级专用协议.md"
+  captured_at: "2026-06-06T06:31:16+00:00"
+  registered_at: "2026-06-06T06:31:16+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/自动售货机二级专用协议.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/广冷2/串口设备通信/自动售货机二级专用协议/自动售货机二级专用协议.md"
+  content_sha256: "7bc7e5b6c167b4a2add0148dba07a74a8396f848f5f49b31bb512f2f35789193"
+
+- id: "src_20260606_913341fe"
+  title: "b\u0014#e\u0000�\u0001\u0000\u0000\u0000\u0001E-SafeNet\u0000\u0000\u0000LOCK\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000YQSF�\u001fH+�\u0006"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_913341fe-bee-safenetlockyqsf-h.md"
+  captured_at: "2026-06-06T06:31:16+00:00"
+  registered_at: "2026-06-06T06:31:16+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/bee-safenetlockyqsf-h.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/广冷2/串口设备通信/错误码规则及错误码列表.md"
+  content_sha256: "225fd10c878218569ab14f590918910538772fbd08c663c9d7c281fe3217b40a"
+
+- id: "src_20260606_0c59a4a8"
+  title: "欧阳锋对电子资料归档整理及学习迭代的建议书"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_0c59a4a8-欧阳锋对电子资料归档整理及学习迭代的建议书.md"
+  captured_at: "2026-06-06T06:31:16+00:00"
+  registered_at: "2026-06-06T06:31:16+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/欧阳锋对电子资料归档整理及学习迭代的建议书.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/欧阳锋建议书.md"
+  content_sha256: "2b81e93f9a0b6a20a7eee5ec71460a40a49b6d653d8ef8ee815cd899da2653ac"
+
+- id: "src_20260606_fba206f0"
+  title: "售卖机板卡设计说明(1)"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_fba206f0-售卖机板卡设计说明1.md"
+  captured_at: "2026-06-06T06:31:16+00:00"
+  registered_at: "2026-06-06T06:31:16+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/售卖机板卡设计说明1.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/资料/售卖机板卡设计说明(1).md"
+  content_sha256: "bcdd929ec02b9be29e4e58f11f9163947fc3b79405bbdaab23c0d4a8180afaa4"
+
+- id: "src_20260606_755bd7c8"
+  title: "售卖机板卡设计说明"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_755bd7c8-售卖机板卡设计说明.md"
+  captured_at: "2026-06-06T06:31:16+00:00"
+  registered_at: "2026-06-06T06:31:16+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/售卖机板卡设计说明-4.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/资料/售卖机板卡设计说明.md"
+  content_sha256: "08e040fd1b7298b580fc2c7fabe1fc52f9f32c4759b82e10e637fcdac29f9c27"
+
+- id: "src_20260606_05de2e5a"
+  title: "整体电控方案说明"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_05de2e5a-整体电控方案说明.md"
+  captured_at: "2026-06-06T06:31:16+00:00"
+  registered_at: "2026-06-06T06:31:16+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/整体电控方案说明.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/资料/整体电控方案说明.md"
+  content_sha256: "53d23d750a9d050a184c38771b883fb3708b363b1b92c679d3c77b54fd758113"
+
+- id: "src_20260606_9b7baa71"
+  title: "高铁自助售货机-电控方案-广冷"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_9b7baa71-高铁自助售货机-电控方案-广冷.md"
+  captured_at: "2026-06-06T06:31:16+00:00"
+  registered_at: "2026-06-06T06:31:16+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/高铁自助售货机-电控方案-广冷.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/资料/高铁自助售货机-电控方案-广冷.md"
+  content_sha256: "37b7d9de65ebe48cebdcb3332aaf4e4859bb1405ea5473abeeb1aed8c976d2b3"
+
+- id: "src_20260606_5032c756"
+  title: "广冷电子资料整理方案"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_5032c756-广冷电子资料整理方案.md"
+  captured_at: "2026-06-06T06:31:16+00:00"
+  registered_at: "2026-06-06T06:31:16+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/广冷电子资料整理方案.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/资料整理方案.md"
+  content_sha256: "d51d954ad3f8d4d9c6963cf1826f5d9befaf8092e4b49a6994beebe240192428"
+
+- id: "src_20260606_c57ed589"
+  title: "广冷电子资料整理方案（执行版）"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_c57ed589-广冷电子资料整理方案执行版.md"
+  captured_at: "2026-06-06T06:31:17+00:00"
+  registered_at: "2026-06-06T06:31:17+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/广冷电子资料整理方案执行版.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/广冷电子/广冷001/资料整理方案_执行版.md"
+  content_sha256: "e9853899468f618c8510eb9032751a4440fc6ae83b664ea69b8c951ccfa1cae9"
+
+- id: "src_20260606_cde17edd"
+  title: "大的事件它可能是必然的，它是被计划的。"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_cde17edd-大的事件它可能是必然的它是被计划的.md"
+  captured_at: "2026-06-06T06:31:17+00:00"
+  registered_at: "2026-06-06T06:31:17+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/大的事件它可能是必然的它是被计划的.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/水水-拆书会偶然-口述.md"
+  content_sha256: "b805b6830746c50a474b129bd0f9cc7e2bb2c7920628c75cb1776928f006080e"
+
+- id: "src_20260606_42e11f09"
+  title: "AI需要练那个AI时代要不要练笔记？"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md"
+  captured_at: "2026-06-06T06:31:17+00:00"
+  registered_at: "2026-06-06T06:31:17+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/ai需要练那个ai时代要不要练笔记.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/纪浩-AI协作方法论-口述.md"
+  content_sha256: "24c9fa8fb033a416a286e57f285735601d30cc978ea19813687b7caef0b457c6"
+
+- id: "src_20260606_ef4877d0"
+  title: "所以90%的核心问题。"
+  type: "transcript"
+  location: "10_raw/sources/src_20260606_ef4877d0-所以90的核心问题.md"
+  captured_at: "2026-06-06T06:31:17+00:00"
+  registered_at: "2026-06-06T06:31:17+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/所以90的核心问题.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/马易-AI落地场景识别-口述.md"
+  content_sha256: "78b22773ef67a3b5f73bd5682c973d1bb8bcf714183b475d622caf3f364e60e9"

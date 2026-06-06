@@ -1,0 +1,555 @@
+{
+  "timestamp": "2026-06-06T11:39:35.683001",
+  "total_files": 10057,
+  "total_dirs": 2015,
+  "backup_file": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子_整理前备份_20260605.zip",
+  "backup_size_mb": 391.84,
+  "extension_counts": {
+    ".h": 4343,
+    ".c": 3989,
+    ".hex": 440,
+    ".bin": 122,
+    ".csv": 117,
+    ".pdf": 89,
+    ".xlsx": 86,
+    ".zip": 72,
+    ".docx": 72,
+    ".txt": 64,
+    ".tmp": 42,
+    ".s": 42,
+    ".ini": 42,
+    ".bat": 42,
+    ".map": 42,
+    ".administrator": 42,
+    ".asus": 42,
+    ".ousi": 42,
+    ".saved_uv4": 42,
+    ".uvprojx": 42,
+    ".dbgconf": 42,
+    ".axf": 41,
+    ".006": 32,
+    ".json": 25,
+    ".scvd": 20,
+    ".png": 19,
+    ".rar": 17,
+    ".jpg": 14,
+    ".doc": 14,
+    ".md": 9,
+    ".pcbdoc": 5,
+    ".xls": 3,
+    ".py": 2
+  },
+  "delete_candidates": {
+    "total": 271,
+    "by_type": {
+      "微信传图副本": 17,
+      "KEIL/系统临时文件": 42,
+      "编译中间产物": 83,
+      "OBJ编译输出": 42,
+      "KEIL工程配置临时文件": 84,
+      "Excel临时文件": 3
+    },
+    "files": [
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\02_schematics\\微信图片_2026-06-04_142918_955.png",
+        "reason": "微信传图副本",
+        "ext": ".png"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\02_schematics\\微信图片_2026-06-04_142947_266.png",
+        "reason": "微信传图副本",
+        "ext": ".png"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\02_schematics\\微信图片_2026-06-04_142954_235.png",
+        "reason": "微信传图副本",
+        "ext": ".png"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\02_schematics\\微信图片_2026-06-04_142959_922.png",
+        "reason": "微信传图副本",
+        "ext": ".png"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\02_schematics\\微信图片_2026-06-04_143005_666.png",
+        "reason": "微信传图副本",
+        "ext": ".png"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\02_schematics\\微信图片_2026-06-04_143011_161.png",
+        "reason": "微信传图副本",
+        "ext": ".png"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\02_schematics\\微信图片_2026-06-04_143016_418.png",
+        "reason": "微信传图副本",
+        "ext": ".png"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\02_schematics\\微信图片_2026-06-04_143021_484.png",
+        "reason": "微信传图副本",
+        "ext": ".png"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\02_schematics\\微信图片_2026-06-04_143032_313.png",
+        "reason": "微信传图副本",
+        "ext": ".png"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\02_schematics\\微信图片_2026-06-04_143045_050.png",
+        "reason": "微信传图副本",
+        "ext": ".png"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\02_schematics\\微信图片_2026-06-04_143437_641.png",
+        "reason": "微信传图副本",
+        "ext": ".png"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\02_schematics\\微信图片_2026-06-04_143442_801.png",
+        "reason": "微信传图副本",
+        "ext": ".png"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\02_schematics\\微信图片_2026-06-04_143447_554.png",
+        "reason": "微信传图副本",
+        "ext": ".png"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\02_schematics\\微信图片_2026-06-04_143452_048.png",
+        "reason": "微信传图副本",
+        "ext": ".png"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\02_schematics\\微信图片_2026-06-04_143457_274.png",
+        "reason": "微信传图副本",
+        "ext": ".png"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+        "reason": "KEIL/系统临时文件",
+        "ext": ".tmp"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+        "reason": "编译中间产物",
+        "ext": ".axf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.hex",
+        "reason": "OBJ编译输出",
+        "ext": ".hex"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+        "reason": "编译中间产物",
+        "ext": ".map"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig\\Template_STM32F103C8_1.0.0.dbgconf",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".dbgconf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE\\RTE_Components.h",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".h"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+        "reason": "KEIL/系统临时文件",
+        "ext": ".tmp"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+        "reason": "编译中间产物",
+        "ext": ".axf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.hex",
+        "reason": "OBJ编译输出",
+        "ext": ".hex"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+        "reason": "编译中间产物",
+        "ext": ".map"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig\\Template_STM32F103VC_1.0.0.dbgconf",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".dbgconf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\_archive\\05_firmware\\archive\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE\\RTE_Components.h",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".h"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+        "reason": "KEIL/系统临时文件",
+        "ext": ".tmp"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+        "reason": "编译中间产物",
+        "ext": ".axf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\BootLoad_v1.2.3\\OBJ\\Template.hex",
+        "reason": "OBJ编译输出",
+        "ext": ".hex"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\Template.map",
+        "reason": "编译中间产物",
+        "ext": ".map"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\DebugConfig\\Template_STM32F103C8_1.0.0.dbgconf",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".dbgconf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\BootLoad_v1.2.3\\USER\\RTE\\RTE_Components.h",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".h"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+        "reason": "KEIL/系统临时文件",
+        "ext": ".tmp"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+        "reason": "编译中间产物",
+        "ext": ".axf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.hex",
+        "reason": "OBJ编译输出",
+        "ext": ".hex"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+        "reason": "编译中间产物",
+        "ext": ".map"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig\\Template_STM32F103C8_1.0.0.dbgconf",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".dbgconf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE\\RTE_Components.h",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".h"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+        "reason": "KEIL/系统临时文件",
+        "ext": ".tmp"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+        "reason": "编译中间产物",
+        "ext": ".axf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.hex",
+        "reason": "OBJ编译输出",
+        "ext": ".hex"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+        "reason": "编译中间产物",
+        "ext": ".map"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig\\Template_STM32F103VC_1.0.0.dbgconf",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".dbgconf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE\\RTE_Components.h",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".h"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+        "reason": "KEIL/系统临时文件",
+        "ext": ".tmp"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+        "reason": "编译中间产物",
+        "ext": ".axf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.hex",
+        "reason": "OBJ编译输出",
+        "ext": ".hex"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+        "reason": "编译中间产物",
+        "ext": ".map"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig\\Template_STM32F103C8_1.0.0.dbgconf",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".dbgconf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE\\RTE_Components.h",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".h"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+        "reason": "KEIL/系统临时文件",
+        "ext": ".tmp"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+        "reason": "编译中间产物",
+        "ext": ".axf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.hex",
+        "reason": "OBJ编译输出",
+        "ext": ".hex"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+        "reason": "编译中间产物",
+        "ext": ".map"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig\\Template_STM32F103VC_1.0.0.dbgconf",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".dbgconf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE\\RTE_Components.h",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".h"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+        "reason": "KEIL/系统临时文件",
+        "ext": ".tmp"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+        "reason": "编译中间产物",
+        "ext": ".axf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.hex",
+        "reason": "OBJ编译输出",
+        "ext": ".hex"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+        "reason": "编译中间产物",
+        "ext": ".map"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig\\Template_STM32F103C8_1.0.0.dbgconf",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".dbgconf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE\\RTE_Components.h",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".h"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+        "reason": "KEIL/系统临时文件",
+        "ext": ".tmp"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+        "reason": "编译中间产物",
+        "ext": ".axf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.hex",
+        "reason": "OBJ编译输出",
+        "ext": ".hex"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+        "reason": "编译中间产物",
+        "ext": ".map"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig\\Template_STM32F103VC_1.0.0.dbgconf",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".dbgconf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\修改测试\\新修改-测试\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE\\RTE_Components.h",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".h"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+        "reason": "KEIL/系统临时文件",
+        "ext": ".tmp"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+        "reason": "编译中间产物",
+        "ext": ".axf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.hex",
+        "reason": "OBJ编译输出",
+        "ext": ".hex"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+        "reason": "编译中间产物",
+        "ext": ".map"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig\\Template_STM32F103C8_1.0.0.dbgconf",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".dbgconf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE\\RTE_Components.h",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".h"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+        "reason": "KEIL/系统临时文件",
+        "ext": ".tmp"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+        "reason": "编译中间产物",
+        "ext": ".axf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.hex",
+        "reason": "OBJ编译输出",
+        "ext": ".hex"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+        "reason": "编译中间产物",
+        "ext": ".map"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig\\Template_STM32F103VC_1.0.0.dbgconf",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".dbgconf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\广冷-现场调试-红外代码\\广冷红外板--现场调试成功版\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE\\RTE_Components.h",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".h"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+        "reason": "KEIL/系统临时文件",
+        "ext": ".tmp"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+        "reason": "编译中间产物",
+        "ext": ".axf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\OBJ\\Template.hex",
+        "reason": "OBJ编译输出",
+        "ext": ".hex"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\Template.map",
+        "reason": "编译中间产物",
+        "ext": ".map"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\DebugConfig\\Template_STM32F103C8_1.0.0.dbgconf",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".dbgconf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\BootLoad_v1.2.3\\USER\\RTE\\RTE_Components.h",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".h"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+        "reason": "KEIL/系统临时文件",
+        "ext": ".tmp"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.axf",
+        "reason": "编译中间产物",
+        "ext": ".axf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\OBJ\\Template.hex",
+        "reason": "OBJ编译输出",
+        "ext": ".hex"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\Template.map",
+        "reason": "编译中间产物",
+        "ext": ".map"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\DebugConfig\\Template_STM32F103VC_1.0.0.dbgconf",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".dbgconf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\主控板\\V5.0.0（铁科院协议）（基于V4.4.6，新板，ZET7）\\云柜控制板CAN2.0_v5.0.0\\USER\\RTE\\RTE_Components.h",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".h"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\CAN_BUS\\malloc.h~RF768103.TMP",
+        "reason": "KEIL/系统临时文件",
+        "ext": ".tmp"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.axf",
+        "reason": "编译中间产物",
+        "ext": ".axf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\OBJ\\Template.hex",
+        "reason": "OBJ编译输出",
+        "ext": ".hex"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\Template.map",
+        "reason": "编译中间产物",
+        "ext": ".map"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\DebugConfig\\Template_STM32F103C8_1.0.0.dbgconf",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".dbgconf"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\BootLoad_v1.2.3\\USER\\RTE\\RTE_Components.h",
+        "reason": "KEIL工程配置临时文件",
+        "ext": ".h"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\wiki\\00_inbox\\广冷电子\\广冷001\\广冷-代码固件\\黄工资料电脑-源码\\新红外\\V5.0.0（铁科院协议）（红外板RCT7）\\云柜控制板CAN2.0_v5.0.0\\CAN_BUS\\malloc.h~RF768103.TMP",
+        "reason": "KEIL/系统临时文件",
+        "ext": ".tmp"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-06-06T11:45:21.264084",
+  "files_001_count": 3670,
+  "same_files": 3645,
+  "diff_files": 10,
+  "unique_files": 1667,
+  "deleted_same": 3643,
+  "failed_delete": 2,
+  "merged": 1667,
+  "failed_merge": 0,
+  "diff_moved": 10,
+  "remaining_in_002": 2,
+  "remaining_files": 5810,
+  "remaining_dirs": 1218
+}

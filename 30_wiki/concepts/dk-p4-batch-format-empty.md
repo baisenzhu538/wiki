@@ -20,9 +20,9 @@ related:
   - dk-c8-format-complete-mind-empty
   - dk-f7-surface-translation
 contradicts:
-  - [[master-knowledge-compound]]
-  - [[kdo-flywheel]]
-  - [[master-ai-info-literacy]]
+  - master-knowledge-compound
+  - kdo-flywheel
+  - master-ai-info-literacy
 ---
 
 # P-4：批量格式升级产生“格式完整但思维空洞”卡片 (C-8)
@@ -85,8 +85,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-c8-format-complete-mind-empty]] — P-4 是 C-8 的模式化版本。C-8 是具体事故（哪两张卡被发现空洞），P-4 是普遍模式（任何批量升级都可能出现）
-- [[dk-f7-surface-translation]] — 表层翻译式提炼和批量格式空洞是同一病的两种表现：人工编译时的阅读深度不足 → F-KDO-007；批量自动化时的理解加工缺失 → P-4
+- dk-c8-format-complete-mind-empty — P-4 是 C-8 的模式化版本。C-8 是具体事故（哪两张卡被发现空洞），P-4 是普遍模式（任何批量升级都可能出现）
+- dk-f7-surface-translation — 表层翻译式提炼和批量格式空洞是同一病的两种表现：人工编译时的阅读深度不足 → F-KDO-007；批量自动化时的理解加工缺失 → P-4
 - `90_control/failure-modes.md` → F-KDO-007（表层翻译式提炼）— 内容空洞的另一类型
 - `90_control/kdo-industrialization-manual.md` → v1.5 理解门禁规则
 - `.agent/pitfalls.md` → P-4（原始记录）

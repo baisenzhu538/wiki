@@ -18,8 +18,9 @@ updated: 2026-06-03
 | 17 | Phase 2.1：corrections.md 暗知识卡批产 | ✅ | 11 张全部 PASS。质量 A |
 | **18** | **Phase 2.2：failure-modes.md 暗知识卡批产** | **✅** | **14 种失败模式全部完成（dk-f1 ~ dk-f14）。欧阳锋审查 A** |
 | **19** | **Phase 2.3：pitfalls.md 暗知识卡批产** | **✅** | **19 张 dk-p* 卡产出。新版 18 张 A-，contradicts 已补** |
-| **20** | **Phase 3：口述稿暗知识萃取（月白→Truman）** | **🔨** | **30 张目标，首批 10 张已入库（B+）。待补 20 张 + contradicts 字段** |
-| **21** | **🆕 写卡时标注 contradicts** | **✅** | **Phase 2.2+2.3 共 33 张卡（dk-f* + dk-p*）contradicts 已批量补完** |
+| **20** | **Phase 3：口述稿暗知识萃取（月白→Truman）** | **⏳** | **30 张目标，首批 10 张已入库。暂停，先处理 AI 俱乐部四篇** |
+| **21** | **🆕 写卡时标注 contradicts** | **✅** | **33 张卡已补完。格式待统一（wikilink→纯文本 id）** |
+| **22** | **🆕 AI俱乐部四篇文章（纪浩/马易/半肥猫/水水）** | **🔜** | **素材在 00_inbox/，按顺序处理。见 laowantong-next-tasks.md** |
 
 ---
 
@@ -30,8 +31,9 @@ updated: 2026-06-03
 | 1-20 | scaffold / validate / video CLI / infrastructure 等全部旧任务 | ✅ |
 | Sprint 3-7 | 全部交付（produce 预填/数据卫生/Validate→Ship/video CLI/Sprint 6-7） | ✅ | **全部欧阳锋审查通过。Sprint 7 评级 A** |
 | Sprint 5b | 萃取器跑通全部月白口述稿 | 🟡 | 已产出候选 JSON。待欧阳锋确认后续 |
-| **Task A** | **陈旧标记规则（`kdo stale`）** | **🔜** | **阈值已拍板，可开工。估时 ~1 天** |
-| **Task B** | **增量传播机制—反向引用索引（`kdo stale --propagate`）** | **⏳** | **Task A 完成后启动。估时 2-3 天** |
+| **Task A** | **陈旧标记规则（`kdo stale`）** | **🔜** | **已实现，待欧阳锋审查后 commit** |
+| **Task B** | **增量传播机制—反向引用索引（`kdo stale --propagate`）** | **⏳** | **Task A 完成后启动** |
+| **🆕 Task C** | **技能点扫描器（扫描已有素材的遗漏技巧）** | **🔜** | **识别所有已 ingest 素材中被遗漏的可操作技巧，输出候选清单** |
 
 ---
 

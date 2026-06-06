@@ -20,8 +20,8 @@ related:
   - dk-p1-model-switch-env
   - dk-p5-cc-connect-config
 contradicts:
-  - [[master-systems-thinking]]
-  - [[master-first-principles]]
+  - master-systems-thinking
+  - master-first-principles
 ---
 
 # P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env
@@ -85,8 +85,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-p1-model-switch-env]] — P-1 和 P-3 是同一模式在不同工具上的复现：都是"配置改了但不生效，因为有更高优先级的缓存层"。Claude Code 用全局设置覆盖 .env，Hermes 用 auth.json 覆盖 .env
-- [[dk-p5-cc-connect-config]] — P-5 的 systemd drop-in 是 cc-connect 的"全局设置"，与 P-3 的 auth.json 缓存是同一模式的不同表现
+- dk-p1-model-switch-env — P-1 和 P-3 是同一模式在不同工具上的复现：都是"配置改了但不生效，因为有更高优先级的缓存层"。Claude Code 用全局设置覆盖 .env，Hermes 用 auth.json 覆盖 .env
+- dk-p5-cc-connect-config — P-5 的 systemd drop-in 是 cc-connect 的"全局设置"，与 P-3 的 auth.json 缓存是同一模式的不同表现
 - `90_control/failure-modes.md` → F-KDO-003（state.json 覆盖写竞态）— 同样是"状态文件与配置不一致导致的问题"
 - `.agent/pitfalls.md` → P-3（原始记录）
 

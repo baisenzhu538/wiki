@@ -20,9 +20,9 @@ related:
   - dk-f7-surface-translation
   - master-first-principles
 contradicts:
-  - [[master-first-principles]]
-  - [[dk-c8-format-complete-mind-empty]]
-  - [[kdo-flywheel]]
+  - master-first-principles
+  - dk-c8-format-complete-mind-empty
+  - kdo-flywheel
 ---
 
 # F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景
@@ -76,8 +76,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-f7-surface-translation]] — 交叉模式：百科词条化的卡片往往同时有表层翻译式提炼的 Condense——两者都是"用信息整理替代知识萃取"
-- [[master-first-principles]] — 第一性原理：回到"知识卡片的目的"。如果目的是"萃取洞见"，那么百科词条结构就是错误的起点
+- dk-f7-surface-translation — 交叉模式：百科词条化的卡片往往同时有表层翻译式提炼的 Condense——两者都是"用信息整理替代知识萃取"
+- master-first-principles — 第一性原理：回到"知识卡片的目的"。如果目的是"萃取洞见"，那么百科词条结构就是错误的起点
 - `90_control/failure-modes.md` → F-KDO-011（原始记录）
 - `90_control/AGENTS.md` → 禁止清单 #11（不准用百科词条结构写概念卡）
 

@@ -19,8 +19,8 @@ updated_at: 2026-06-03
 related:
   - dk-p14-zombie
 contradicts:
-  - [[master-systems-thinking]]
-  - [[master-decision-hygiene]]
+  - master-systems-thinking
+  - master-decision-hygiene
 ---
 
 # P-13：长会话 = token黑洞 — 一晚上烧掉80元
@@ -92,8 +92,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-p14-zombie]] — P-13 和 P-14 是账单的两大来源：主动高消耗 + 僵尸进程消耗
-- [[dk-p15-unverified]] — P-15 的"虚假完工报告"可能掩盖了 P-13 的高消耗
+- dk-p14-zombie — P-13 和 P-14 是账单的两大来源：主动高消耗 + 僵尸进程消耗
+- dk-p15-unverified — P-15 的"虚假完工报告"可能掩盖了 P-13 的高消耗
 - `90_control/AGENTS.md` — Agent 会话管理规范
 - `.agent/pitfalls.md` → P-13（原始记录）
 

@@ -19,8 +19,8 @@ updated_at: 2026-06-03
 related:
   - dk-p8-toolkit-forget
 contradicts:
-  - [[master-first-principles]]
-  - [[master-ai-info-literacy]]
+  - master-first-principles
+  - master-ai-info-literacy
 ---
 
 # P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
@@ -90,8 +90,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-p8-toolkit-forget]] — P-8 和 P-9 是同一事件的两种失败：P-8 是"忘了用 OCR 工具"，P-9 是"用了 Glob 工具但盲目信任其 negative result"。如果当时先用 PowerShell 验证，就不会误判
-- [[dk-p15-unverified]] — P-15 是"声称完成但实际未做"，P-9 是"声称不存在但实际存在"——两者都是"未经独立验证就下结论"
+- dk-p8-toolkit-forget — P-8 和 P-9 是同一事件的两种失败：P-8 是"忘了用 OCR 工具"，P-9 是"用了 Glob 工具但盲目信任其 negative result"。如果当时先用 PowerShell 验证，就不会误判
+- dk-p15-unverified — P-15 是"声称完成但实际未做"，P-9 是"声称不存在但实际存在"——两者都是"未经独立验证就下结论"
 - `.agent/pitfalls.md` → P-9（原始记录）
 
 ## 老顽童疑问（2026-06-03）

@@ -20,8 +20,8 @@ related:
   - dk-c10-batch-tool-no-dry-run
   - master-systems-thinking
 contradicts:
-  - [[dk-c10-batch-tool-no-dry-run]]
-  - [[master-systems-thinking]]
+  - dk-c10-batch-tool-no-dry-run
+  - master-systems-thinking
 ---
 
 # F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失
@@ -74,8 +74,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-c10-batch-tool-no-dry-run]] — 同一深层模式：自动化/批量操作中的隐蔽风险。C-10 是"批量写入导致内容被覆盖"，F-KDO-003 是"多个写入点导致 state 记录丢失"——两者都是"自动化操作中的写入风险"
-- [[master-systems-thinking]] — 系统思维中的"涌现性"原则：单个组件各自工作时没问题，但组件间交互时产生意想不到的故障。F-KDO-003 是这一原则在 state 管理中的具体体现
+- dk-c10-batch-tool-no-dry-run — 同一深层模式：自动化/批量操作中的隐蔽风险。C-10 是"批量写入导致内容被覆盖"，F-KDO-003 是"多个写入点导致 state 记录丢失"——两者都是"自动化操作中的写入风险"
+- master-systems-thinking — 系统思维中的"涌现性"原则：单个组件各自工作时没问题，但组件间交互时产生意想不到的故障。F-KDO-003 是这一原则在 state 管理中的具体体现
 - `90_control/failure-modes.md` → F-KDO-003（原始记录）
 - `90_control/AGENTS.md` → 禁止清单 #5（不准在 state.json 被其他进程持有时执行写操作）
 

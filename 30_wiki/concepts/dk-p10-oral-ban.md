@@ -19,8 +19,8 @@ updated_at: 2026-06-03
 related:
   - dk-p15-unverified
 contradicts:
-  - [[master-decision-hygiene]]
-  - [[master-knowledge-compound]]
+  - master-decision-hygiene
+  - master-knowledge-compound
 ---
 
 # P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件
@@ -87,8 +87,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-p15-unverified]] — P-10 和 P-15 是对称问题：P-10 是"指令未落笔"，P-15 是"完成未验证"。两者共同构成"信息失真"的完整图谱
-- [[dk-f9-generic-critique]] — F-KDO-009 是"审查时的思维懒惰"，P-10 是"审查时的记录懒惰"——两者都是审查质量问题的不同表现
+- dk-p15-unverified — P-10 和 P-15 是对称问题：P-10 是"指令未落笔"，P-15 是"完成未验证"。两者共同构成"信息失真"的完整图谱
+- dk-f9-generic-critique — F-KDO-009 是"审查时的思维懒惰"，P-10 是"审查时的记录懒惰"——两者都是审查质量问题的不同表现
 - `90_control/AGENTS.md` — Agent 协作规范
 - `.agent/pitfalls.md` → P-10（原始记录）
 

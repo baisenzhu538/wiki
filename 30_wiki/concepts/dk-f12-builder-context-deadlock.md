@@ -20,9 +20,9 @@ related:
   - dk-c6-large-source-overflow
   - master-systems-thinking
 contradicts:
-  - [[master-first-principles]]
-  - [[kdo-flywheel]]
-  - [[master-systems-thinking]]
+  - master-first-principles
+  - kdo-flywheel
+  - master-systems-thinking
 ---
 
 # F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
@@ -73,8 +73,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-c6-large-source-overflow]] — 同一模式：上下文容量过载。C-6 是"大源文件导致 session 装不下"，F-KDO-012 是"多任务+多规范文件导致 session 装不下"——两者都是"上下文窗口硬约束被突破"
-- [[master-systems-thinking]] — 系统思维中的"涌现性"原则：单独看每个任务都不大，但任务+规范+文件的组合会涌现出"卡死"这一意外行为
+- dk-c6-large-source-overflow — 同一模式：上下文容量过载。C-6 是"大源文件导致 session 装不下"，F-KDO-012 是"多任务+多规范文件导致 session 装不下"——两者都是"上下文窗口硬约束被突破"
+- master-systems-thinking — 系统思维中的"涌现性"原则：单独看每个任务都不大，但任务+规范+文件的组合会涌现出"卡死"这一意外行为
 - `90_control/failure-modes.md` → F-KDO-012（原始记录）
 - `90_control/AGENTS.md` → 禁止清单 #7（不准给黄药师一次性派发 ≥3 个独立任务或引用 ≥2 个规范文件）
 

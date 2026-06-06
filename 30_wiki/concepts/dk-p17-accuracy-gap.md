@@ -19,8 +19,8 @@ updated_at: 2026-06-03
 related:
   - dk-p15-unverified
 contradicts:
-  - [[master-decision-hygiene]]
-  - [[master-ai-info-literacy]]
+  - master-decision-hygiene
+  - master-ai-info-literacy
 ---
 
 # P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度
@@ -92,7 +92,7 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-p15-unverified]] — P-15 和 P-17 是同一种病的不同表现：一个是"未做"，一个是"测错了"
+- dk-p15-unverified — P-15 和 P-17 是同一种病的不同表现：一个是"未做"，一个是"测错了"
 - `30_wiki/decisions/gold-standard-manual-labels.md` — Gold Standard 基准
 - `.agent/pitfalls.md` → P-17（原始记录）
 

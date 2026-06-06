@@ -20,8 +20,8 @@ related:
   - dk-f7-surface-translation
   - master-first-principles
 contradicts:
-  - [[master-first-principles]]
-  - [[master-ai-info-literacy]]
+  - master-first-principles
+  - master-ai-info-literacy
 ---
 
 # F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料
@@ -74,8 +74,8 @@ contradicts:
 
 ## 与其他知识的关联
 
-- [[dk-f7-surface-translation]] — 互为因果：溯源断裂 → 无法用源材料验证 → 只能用目录填充 → 表层翻译式提炼。修复 F-KDO-010 是预防 F-KDO-007 的关键手段
-- [[master-first-principles]] — 第一性原理：知识的可靠性建立在其可追溯性上。source_refs 是"这条知识从哪来"的第一性答案
+- dk-f7-surface-translation — 互为因果：溯源断裂 → 无法用源材料验证 → 只能用目录填充 → 表层翻译式提炼。修复 F-KDO-010 是预防 F-KDO-007 的关键手段
+- master-first-principles — 第一性原理：知识的可靠性建立在其可追溯性上。source_refs 是"这条知识从哪来"的第一性答案
 - `90_control/failure-modes.md` → F-KDO-010（原始记录）
 - `90_control/AGENTS.md` → 禁止清单 #10（不准标记 enriched 如果 source_refs 为空）
 

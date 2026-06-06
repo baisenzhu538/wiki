@@ -347,3 +347,24 @@
 - 优先用 HTTPS 而非 SSH（Windows Git 的 SSH 配置最脆弱）
 - 插件安装失败先用 `git ls-remote <repo-url>` 测试 Git 层是否通
 - 如果 Git 能通但插件安装仍失败 → 问题在 Claude Code 的 git 调用环境（可能走了不同的 Git 实例或 SSL 后端）
+
+---
+
+## P-24: Win10 Codex sandbox 阻断 localhost 连接——换端口/换协议/换代理均无效
+
+**症状**：Codex v0.137.0 在 Windows 10 上，无论怎么配置，都无法连接本地代理（127.0.0.1:任意端口）。curl/PowerShell 测试完全正常，但 Codex 的请求从未到达代理日志。
+
+**排除了**：
+- sandbox_mode / 沙箱配置（elevated/unelevated/完全移除均无效）
+- 端口号（8787/80/9876）
+- 代理实现（aiohttp / Python stdlib http.server）
+- 代理位置（Windows / WSL）
+- Codex 安装（重装无效）
+- Windows 防火墙（无相关规则）
+
+**根因**：Windows 10 的 Codex sandbox 进程（即使 unelevated）创建了网络隔离，阻断了向 host localhost 的出站连接。Win11 上没有此问题。
+
+**对策**：
+- Win10 上 Codex 需要通过**外部代理**（如另一台机器或 WSL 的端口转发）而非 localhost
+- 或者使用 CCX/CC Switch 等自带网络通道的完整代理方案
+- Win11 无此问题——升级系统或换电脑是最简单的解法

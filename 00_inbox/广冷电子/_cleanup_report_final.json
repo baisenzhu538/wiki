@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-06-06T11:54:08.244405",
+  "original_files": 10057,
+  "original_dirs": 2015,
+  "final_files": 5363,
+  "final_dirs": 1152,
+  "files_removed": 4694,
+  "dirs_removed": 863,
+  "leftover_temp": 0,
+  "unclassified": 3682,
+  "status": "整理完成，待实物验证"
+}

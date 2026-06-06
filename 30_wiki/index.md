@@ -1,13 +1,16 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-01T14:36:05+00:00_
+_Last updated: 2026-06-06T06:31:20+00:00_
 
+- [[concepts/1.系统功能概述.md|1.系统功能概述]] — source `src_20260606_72713a00`
+- [[concepts/2.原理主要参数计算.md|2.原理主要参数计算]] — source `src_20260606_45cb92c0`
 - [[concepts/2026-05-17-深夜感想.md|2026-05-17 深夜感想]] — source `src_20260522_390d75a8`
 - [[concepts/EC工业化规范手册.md|EC工业化规范手册]] — source `src_20260503_dadc7838`
 - [[concepts/HIS系统开发实现方案-架构师指南.md|HIS系统开发实现方案-架构师指南]] — source `src_20260503_1a1f0312`
 - [[concepts/HIS系统深度调研.md|HIS系统深度调研]] — source `src_20260503_968e0210`
 - [[concepts/ai-native-五层进阶从答案到效率到作品到产品到系统.md|“AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统”]] — source `[“src_20260524_3cadf228”]`
+- [[concepts/ai-u6570-u636e-u7406-u89e3-u7b2c-u4e00-u8bfe.md|AI\u6570\u636e\u7406\u89e3\u7b2c\u4e00\u8bfe]] — source `src_20260606_26ef7021`
 - [[concepts/aigc文创案例设计课leo文创ip从0到1全流程.md|AIGC文创案例设计课：Leo文创IP从0到1全流程]] — source `src_20260528_4277c6be`
 - [[concepts/aigc设计基础01ai生图原理与提示词基本功.md|AIGC设计基础01：AI生图原理与提示词基本功]] — source `src_20260528_2ba8539f`
 - [[concepts/aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md|AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程]] — source `src_20260528_04be660c`
@@ -17,7 +20,10 @@ _Last updated: 2026-06-01T14:36:05+00:00_
 - [[concepts/ai时代判断力口述-2.md|AI时代判断力口述]] — source `src_20260525_6748cc27`
 - [[concepts/ai时代判断力口述-3.md|AI时代判断力口述（国帅）]] — source `src_20260525_66059442`
 - [[concepts/ai时代判断力口述.md|AI时代判断力口述]] — source `src_20260525_7ee2bba2`
+- [[concepts/ai需要练那个ai时代要不要练笔记.md|AI需要练那个AI时代要不要练笔记？]] — source `src_20260606_42e11f09`
 - [[concepts/anthropic-官方发布创始人手册打造-ai-原生初创公司.md|AI 原生创业四阶段模型（Anthropic 创始人手册）]] — source `10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md`
+- [[concepts/bee-safenetlockyqsf-h.md|bee-safenetlockyqsf-h]] — source no source
+- [[concepts/bom差异分析报告.md|BOM差异分析报告]] — source `src_20260606_3ecd9b84`
 - [[concepts/business-analysis.md|Business Analysis]] — source `src_20260522_9d98d526`
 - [[concepts/business-research-skill-oscar-13-weapon-system.md|Business Research Skill — OSCAR 13武器体系 Claude Code 实现]] — source no source
 - [[concepts/data-labeling-best-practices-report.md|数据标注最佳实践调研报告]] — source `HILTS框架（ScienceDirect, 2026）`
@@ -48,27 +54,98 @@ _Last updated: 2026-06-01T14:36:05+00:00_
 - [[concepts/dk-f7-surface-translation.md|F-KDO-007：表层翻译式提炼→Condense 段变成课程目录改写]] — source `90_control/failure-modes.md#F-KDO-007`
 - [[concepts/dk-f8-phony-wikilink.md|F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数]] — source `90_control/failure-modes.md#F-KDO-008`
 - [[concepts/dk-f9-generic-critique.md|F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上]] — source `90_control/failure-modes.md#F-KDO-009`
-- [[concepts/dk-p1-model-switch-env-var.md|P-1：切模型改环境变量无效——Claude Code 走全局设置]] — source `.agent/pitfalls.md#P-1`
-- [[concepts/dk-p10-oral-ban-vs-written.md|P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件]] — source `.agent/pitfalls.md#P-10`
-- [[concepts/dk-p11-validator-regex-truncation.md|P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效]] — source `.agent/pitfalls.md#P-11`
-- [[concepts/dk-p13-long-session-token-blackhole.md|P-13：长会话 = token黑洞 — 一晚上烧掉80元]] — source `.agent/pitfalls.md#P-13`
-- [[concepts/dk-p14-zombie-process-burn-money.md|P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环]] — source `.agent/pitfalls.md#P-14`
-- [[concepts/dk-p15-claimed-done-not-verified.md|P-15：执行者声称“完成”但实际未做——可测量指标必须独立验证]] — source `.agent/pitfalls.md#P-15`
+- [[concepts/dk-p1-model-switch-env.md|P-1：切模型改环境变量无效——Claude Code 走全局设置]] — source `.agent/pitfalls.md#P-1`
+- [[concepts/dk-p10-oral-ban.md|P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件]] — source `.agent/pitfalls.md#P-10`
+- [[concepts/dk-p11-regex-cutoff.md|P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效]] — source `.agent/pitfalls.md#P-11`
+- [[concepts/dk-p13-token-burn.md|P-13：长会话 = token黑洞 — 一晚上烧掉80元]] — source `.agent/pitfalls.md#P-13`
+- [[concepts/dk-p14-zombie.md|P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环]] — source `.agent/pitfalls.md#P-14`
+- [[concepts/dk-p15-unverified.md|dk-p15-unverified]] — source no source
 - [[concepts/dk-p16-validate-reads-state-json.md|P-16：validate 优先读取 state.json 而非文件 frontmatter]] — source `.agent/pitfalls.md#P-16`
-- [[concepts/dk-p2-tmux-session-cache.md|P-2：tmux session 缓存旧配置——改了 .bashrc 但行为不变]] — source `.agent/pitfalls.md#P-2`
-- [[concepts/dk-p3-auth-json-cache-override.md|P-3：Hermes 换 API Key 后仍然 401——auth.json 缓存覆盖 .env]] — source `.agent/pitfalls.md#P-3`
-- [[concepts/dk-p4-batch-upgrade-mind-empty.md|P-4：批量格式升级产生“格式完整但思维空洞”卡片]] — source `.agent/pitfalls.md#P-4`
-- [[concepts/dk-p5-cc-connect-config-cascade.md|P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹]] — source `.agent/pitfalls.md#P-5`
-- [[concepts/dk-p6-session-cache-resume-fail.md|P-6：cc-connect 修好配置后仍然空响应——session 缓存了失效的 Claude Code session ID]] — source `.agent/pitfalls.md#P-6`
-- [[concepts/dk-p7-ocr-skip-check.md|P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片]] — source `.agent/pitfalls.md#P-7`
-- [[concepts/dk-p8-forget-local-toolkit.md|P-8：欧阳锋忘记本地已有武器——重新调研已部署工具]] — source `.agent/pitfalls.md#P-8`
-- [[concepts/dk-p9-glob-miss-subdir.md|P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸]] — source `.agent/pitfalls.md#P-9`
+- [[concepts/dk-p17-accuracy-gap.md|P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度]] — source `.agent/pitfalls.md#P-17`
+- [[concepts/dk-p18-yaml-parser.md|P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复]] — source `.agent/pitfalls.md#P-18`
+- [[concepts/dk-p19-quote-yaml.md|P-19：花引号被YAML误解析为字符串定界符]] — source `.agent/pitfalls.md#P-19`
+- [[concepts/dk-p2-tmux-cache.md|P-2：tmux session 缓存旧配置]] — source `.agent/pitfalls.md#P-2`
+- [[concepts/dk-p20-bigram-fail.md|P-20：pre-screen bigram 匹配对中文文本完全失效]] — source `.agent/pitfalls.md#P-20`
+- [[concepts/dk-p3-auth-cache.md|P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env]] — source `.agent/pitfalls.md#P-3`
+- [[concepts/dk-p4-batch-format-empty.md|P-4：批量格式升级产生“格式完整但思维空洞”卡片 (C-8)]] — source `.agent/pitfalls.md#P-4`
+- [[concepts/dk-p5-cc-connect-config.md|P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹]] — source `.agent/pitfalls.md#P-5`
+- [[concepts/dk-p6-session-resume-fail.md|P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session ID]] — source `.agent/pitfalls.md#P-6`
+- [[concepts/dk-p7-ocr-skip.md|P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片]] — source `.agent/pitfalls.md#P-7`
+- [[concepts/dk-p8-toolkit-forget.md|P-8：欧阳锋忘记本地已有武器——重新调研已部署工具]] — source `.agent/pitfalls.md#P-8`
+- [[concepts/dk-p9-glob-miss.md|P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸]] — source `.agent/pitfalls.md#P-9`
+- [[concepts/dk-yb1-aigc-mvp-before-ps.md|设计师AIGC工作流：先跑MVP再开PS]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
+- [[concepts/dk-yb10-theory-moat-designer.md|AI时代设计师的理论护城河]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
+- [[concepts/dk-yb11-visual-book-reverse.md|不训练模型锁定风格的逆向视觉书法]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb12-ai-image-analysis-replace-training.md|AI图像分析替代模型训练：快速提取参考图共性]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb13-zero-shot-style-transfer.md|零训练风格迁移：三要素描述法]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb14-multi-image-commonality.md|AI生图：用多图共性替代语言描述]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb15-reverse-image-description.md|AI逆向反推图片描述法]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb16-ecommerce-product-image-vs-lucky-draw.md|AI电商产品图：抽卡图≠产品图，白底图才是交付标准]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb17-product-lifestyle-photography.md|产品场景化拍摄：从商品到生活方式的升维]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb18-small-shop-image-mismatch.md|小店图片错配陷阱：精致摄影反而吓跑客户]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb19-visual-strategy-price-match.md|餐饮图片视觉策略与价格定位的匹配法则]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb2-llm-muddy-clear-muddy.md|大模型训练本质：浑水→清水→浑水的双向转换]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
+- [[concepts/dk-yb20-ai-eye-high-principle.md|AIGC眼高原则：审美先于技术]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb21-ecommerce-pricing-independent-model.md|电商定价：线上价格带需独立建模]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb22-visual-presentation-scene-match.md|视觉呈现方式与消费场景的匹配原则]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb23-ai-pre-screen-three-minutes.md|AI出图前置筛选：三分钟十套方案定风格]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb24-ai-poster-de-ai-feeling.md|AI海报去AI感：图标+质感人物双要素]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb25-solution-driven-visual-design.md|解决方案驱动视觉设计，非门店风格导向]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb26-chinese-food-photography-props.md|中式食物摄影低成本氛围道具搭配]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb27-pseudo-layer-evasion.md|伪图层叠加规避平台图像识别]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb28-prompt-expiration-management.md|提示词有效期预期管理]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
+- [[concepts/dk-yb29-prompt-migrate-copy-first.md|AIGC提示词迁移：先照搬再微调的务实策略]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
+- [[concepts/dk-yb3-diffusion-stepwise-vs-human-holistic.md|AI生图'抽卡'本质：逐步拆解 vs 人类整体构思]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
+- [[concepts/dk-yb30-ecommerce-channel-version.md|电商渠道专版区分：淘宝≠拼多多]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
+- [[concepts/dk-yb31-style-first-controlnet.md|AI绘图工作流：先锁风格再开ControlNet]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
+- [[concepts/dk-yb32-doubao-size-composition.md|豆包AIGC生图：尺寸是唯一关键排版影响因素]] — source `00_inbox/design/AI设计-AI设计师实操培训01.txt`
+- [[concepts/dk-yb4-nano-banana-style-reproduction.md|Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
+- [[concepts/dk-yb5-style-asset-archive.md|AI绘图降本的前提：风格资产工程化归档]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
+- [[concepts/dk-yb6-midjourney-chinese-text-fix.md|Midjourney中文文字修复极简提示词]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
+- [[concepts/dk-yb7-design-demand-80-10-10.md|中国设计需求的80-10-10分层法则]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
+- [[concepts/dk-yb8-file-naming-eight-elements.md|AI增效前置：文件命名八要素体系]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
+- [[concepts/dk-yb9-cubox-deployment-failure.md|Cubox及AI协作工具的团队部署失败模式]] — source `00_inbox/design/AI设计-AI设计基础01.txt`
 - [[concepts/ec工业化规范手册-v2.8.0.md|EC工业化规范手册 v2.8.0]] — source `src_20260503_feab72b2`
 - [[concepts/graph-rag.md|Graph RAG — Knowledge-Graph-Powered Retrieval]] — source no source
+- [[concepts/hx-smj-01_v1.0-pcba加工要求.md|HX-SMJ-01_V1.0 PCBA加工要求]] — source `src_20260606_3e1e905b`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_1.md|HX-SMJ-01_V1.0 PCBA加工要求_1]] — source `src_20260606_801eb17e`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_10.md|HX-SMJ-01_V1.0 PCBA加工要求_10]] — source `src_20260606_134821af`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_11.md|HX-SMJ-01_V1.0 PCBA加工要求_11]] — source `src_20260606_e7d55b93`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_12.md|HX-SMJ-01_V1.0 PCBA加工要求_12]] — source `src_20260606_050f35d5`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_13.md|HX-SMJ-01_V1.0 PCBA加工要求_13]] — source `src_20260606_ea10da08`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_14.md|HX-SMJ-01_V1.0 PCBA加工要求_14]] — source `src_20260606_f7da33d3`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_15.md|HX-SMJ-01_V1.0 PCBA加工要求_15]] — source `src_20260606_6dad71f1`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_16.md|HX-SMJ-01_V1.0 PCBA加工要求_16]] — source `src_20260606_5e8b0ea3`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_17.md|HX-SMJ-01_V1.0 PCBA加工要求_17]] — source `src_20260606_424a86d4`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_2.md|HX-SMJ-01_V1.0 PCBA加工要求_2]] — source `src_20260606_14cf6b5b`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_3.md|HX-SMJ-01_V1.0 PCBA加工要求_3]] — source `src_20260606_2c74c15d`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_4.md|HX-SMJ-01_V1.0 PCBA加工要求_4]] — source `src_20260606_7655a39d`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_5.md|HX-SMJ-01_V1.0 PCBA加工要求_5]] — source `src_20260606_ea7161f4`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_6.md|HX-SMJ-01_V1.0 PCBA加工要求_6]] — source `src_20260606_3b3a5a29`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_7.md|HX-SMJ-01_V1.0 PCBA加工要求_7]] — source `src_20260606_bdd2b3a4`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_8.md|HX-SMJ-01_V1.0 PCBA加工要求_8]] — source `src_20260606_aeb06c78`
+- [[concepts/hx-smj-01_v1.0-pcba加工要求_9.md|HX-SMJ-01_V1.0 PCBA加工要求_9]] — source `src_20260606_98a8cef1`
+- [[concepts/hx-smj-01_v1.0-pcb加工要求.md|HX-SMJ-01_V1.0 PCB加工要求]] — source `src_20260606_a4d91b7e`
+- [[concepts/hx-smj-01_v1.0-pcb加工要求_1.md|HX-SMJ-01_V1.0 PCB加工要求_1]] — source `src_20260606_419169b8`
+- [[concepts/hx-smj-01_v1.0-pcb加工要求_2.md|HX-SMJ-01_V1.0 PCB加工要求_2]] — source `src_20260606_1fe784cf`
+- [[concepts/hx-smj-02b_v2.0-pcb加工要求-2.md|HX-SMJ-02B_V2.0 PCB加工要求]] — source `src_20260606_e17f809d`
+- [[concepts/hx-smj-02b_v2.0-pcb加工要求-3.md|HX-SMJ-02B_V2.0 PCB加工要求]] — source `src_20260606_bd879d0d`
+- [[concepts/hx-smj-02b_v2.0-pcb加工要求.md|HX-SMJ-02B_V2.0 PCB加工要求]] — source `src_20260606_28270247`
+- [[concepts/hx-smj-03b-a_v2.0-pcb加工要求.md|HX-SMJ-03B-A_V2.0 PCB加工要求]] — source `src_20260606_63b0df71`
+- [[concepts/hx-smj-03b-a_v2.0-pcb加工要求_1.md|HX-SMJ-03B-A_V2.0 PCB加工要求_1]] — source `src_20260606_a5a16463`
+- [[concepts/hx-smj-03b-a_v2.0-pcb加工要求_2.md|HX-SMJ-03B-A_V2.0 PCB加工要求_2]] — source `src_20260606_6cf859ab`
+- [[concepts/hx-smj-03b-b_v2.0-pcb加工要求.md|HX-SMJ-03B-B_V2.0 PCB加工要求]] — source `src_20260606_0a6129bc`
+- [[concepts/hx-smj-03b-b_v2.0-pcb加工要求_1.md|HX-SMJ-03B-B_V2.0 PCB加工要求_1]] — source `src_20260606_83b42d92`
+- [[concepts/hx-smj-03b-b_v2.0-pcb加工要求_2.md|HX-SMJ-03B-B_V2.0 PCB加工要求_2]] — source `src_20260606_01aee309`
+- [[concepts/hx-smj01b-12306_v2.0-pcb加工要求.md|HX-SMJ01B-12306_V2.0 PCB加工要求]] — source `src_20260606_fb6eac9b`
+- [[concepts/hx-smj01b-12306_v2.0-pcb加工要求_1.md|HX-SMJ01B-12306_V2.0 PCB加工要求_1]] — source `src_20260606_c4238a0f`
+- [[concepts/hx-smj01b-12306_v2.0-pcb加工要求_2.md|HX-SMJ01B-12306_V2.0 PCB加工要求_2]] — source `src_20260606_fc3fbd0c`
+- [[concepts/kdo-flywheel.md|KDO 飞轮 — 建造→使用→反思→实验]] — source no source
 - [[concepts/kdo-yaml-frontmatter-safety.md|KDO YAML Frontmatter 安全操作指南]] — source no source
 - [[concepts/kdo_product_design_agent_final.md|Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)]] — source `src_20260503_52ae08ba`
 - [[concepts/kimi-深度调研集群方法论-deep-research-swarm.md|Kimi 深度调研集群方法论 (Deep-Research-Swarm)]] — source `src_20260502_7d7c1b7c`
 - [[concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md|Knowledge Delivery OS 快速体验指南 - 飞书云文档]] — source `src_20260501_6a491b80`
+- [[concepts/knowledge-error-self-exposure.md|知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向]] — source no source
 - [[concepts/learning-thinking.md|Learning Thinking]] — source `src_20260522_0af1f6dd`
 - [[concepts/master-ai-info-literacy.md|AI时代信息素养框架]] — source `{'来源': '一堂 (Truman)'}`
 - [[concepts/master-antifragile-checklist.md|反脆弱决策检查清单]] — source no source
@@ -216,6 +293,16 @@ _Last updated: 2026-06-01T14:36:05+00:00_
 - [[concepts/ocr-项目背景问题思考的8个维度.md|OCR: 项目背景问题思考的8个维度]] — source `src_20260522_4af61500`
 - [[concepts/ocr-预判模型.md|OCR: 预判模型]] — source `src_20260522_e71d89ff`
 - [[concepts/paddleocr-skill.md|PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill]] — source no source
+- [[concepts/pcb加工要求_hx-smj-01.md|PCB加工要求_HX-SMJ-01]] — source `src_20260606_53cceeba`
+- [[concepts/pcb加工要求_hx-smj-01_1.md|PCB加工要求_HX-SMJ-01_1]] — source `src_20260606_2263f351`
+- [[concepts/pcb加工要求_hx-smj-03b-a_v2.2.md|PCB加工要求_HX-SMJ-03B-A_V2.2]] — source `src_20260606_42d19137`
+- [[concepts/pcb加工要求_hx-smj-03b-a_v2.2_1.md|PCB加工要求_HX-SMJ-03B-A_V2.2_1]] — source `src_20260606_3d110779`
+- [[concepts/pcb加工要求_hx-smj-03b-b_v2.2.md|PCB加工要求_HX-SMJ-03B-B_V2.2]] — source `src_20260606_263f7c2b`
+- [[concepts/pcb加工要求_hx-smj-03b-b_v2.2_1.md|PCB加工要求_HX-SMJ-03B-B_V2.2_1]] — source `src_20260606_32dd14d5`
+- [[concepts/pcb加工要求_hx-smj-04b.md|PCB加工要求_HX-SMJ-04B]] — source `src_20260606_c4112bce`
+- [[concepts/pcb加工要求_hx-smj-04b_1.md|PCB加工要求_HX-SMJ-04B_1]] — source `src_20260606_d692ea5a`
+- [[concepts/pcb加工要求_hx-smj01主控板v2.0-2.md|PCB加工要求_HX-SMJ01主控板V2.0]] — source `src_20260606_95466683`
+- [[concepts/pcb加工要求_hx-smj01主控板v2.0.md|PCB加工要求_HX-SMJ01主控板V2.0]] — source `src_20260606_48e6a328`
 - [[concepts/pilot-atomic-chunk-comparison.md|Pilot：master-decision-hygiene 真原子切分对比]] — source `30_wiki/concepts/master-decision-hygiene.md`
 - [[concepts/product-ux.md|Product Ux]] — source `src_20260522_404f58a2`
 - [[concepts/research_methodology.md|Kimi 深度调研集群方法论 (Deep-Research-Swarm)]] — source no source
@@ -418,20 +505,49 @@ _Last updated: 2026-06-01T14:36:05+00:00_
 - [[concepts/互联网医院模式深度调研报告.md|互联网医院模式深度调研报告]] — source `src_20260501_9962715b`
 - [[concepts/人机协作决策-双三角模型.md|人机协作决策——双三角模型]] — source no source
 - [[concepts/保达云诊所深度调研报告.md|保达云诊所深度调研报告]] — source `src_20260503_ae1921d5`
+- [[concepts/原理图与bom交叉验证报告.md|原理图与BOM交叉验证报告]] — source `src_20260606_04f43d43`
+- [[concepts/售卖机板卡设计说明-2.md|售卖机板卡设计说明]] — source `src_20260606_abd9142c`
+- [[concepts/售卖机板卡设计说明-3.md|售卖机板卡设计说明]] — source `src_20260606_684e8dba`
+- [[concepts/售卖机板卡设计说明-4.md|售卖机板卡设计说明]] — source `src_20260606_755bd7c8`
+- [[concepts/售卖机板卡设计说明.md|售卖机板卡设计说明]] — source `src_20260606_76979b8f`
+- [[concepts/售卖机板卡设计说明1.md|售卖机板卡设计说明(1)]] — source `src_20260606_fba206f0`
 - [[concepts/在设计小伙伴的反馈还挺好的.md|在设计小伙伴的反馈还挺好的。]] — source `src_20260522_fef0b51b`
+- [[concepts/坐标一致性验证报告.md|坐标一致性验证报告]] — source `src_20260606_5fc888d6`
+- [[concepts/大的事件它可能是必然的它是被计划的.md|大的事件它可能是必然的，它是被计划的。]] — source `src_20260606_cde17edd`
 - [[concepts/存储策略.md|存储策略]] — source `src_20260522_42622b63`
 - [[concepts/学会提问在信息洪流中锻造批判性思维的利刃.md|《学会提问》：在信息洪流中锻造批判性思维的利刃]] — source `src_20260524_836ad51c`
+- [[concepts/巨米串口通讯协议.md|巨米串口通讯协议]] — source `src_20260606_67330e7f`
+- [[concepts/巨米设备通讯协议.md|巨米设备通讯协议]] — source `src_20260606_b1d89b43`
+- [[concepts/广冷电子-hx-smj-红外光栅故障分析报告-2.md|广冷电子 — HX-SMJ 红外光栅故障分析报告]] — source `src_20260606_66c22d5d`
+- [[concepts/广冷电子-hx-smj-红外光栅故障分析报告.md|广冷电子 — HX-SMJ 红外光栅故障分析报告]] — source `src_20260606_c49e4e04`
+- [[concepts/广冷电子-hx-smj-红外光栅板.md|广冷电子 — HX-SMJ 红外光栅板]] — source `src_20260606_1a629341`
+- [[concepts/广冷电子-hx-smj-红外光栅项目底册-2.md|广冷电子 — HX-SMJ 红外光栅项目底册]] — source `src_20260606_a7788168`
+- [[concepts/广冷电子-hx-smj-红外光栅项目底册.md|广冷电子 — HX-SMJ 红外光栅项目底册]] — source `src_20260606_64d12a04`
+- [[concepts/广冷电子-hx-smj-红外光栅项目资料库.md|广冷电子 — HX-SMJ 红外光栅项目资料库]] — source `src_20260606_7937a5d9`
+- [[concepts/广冷电子红外板固件源码分析报告.md|广冷电子红外板固件源码分析报告]] — source `src_20260606_fcf9b01b`
+- [[concepts/广冷电子资料交叉验证综合报告.md|广冷电子资料交叉验证综合报告]] — source `src_20260606_5809b496`
+- [[concepts/广冷电子资料整理方案.md|广冷电子资料整理方案]] — source `src_20260606_5032c756`
+- [[concepts/广冷电子资料整理方案执行版.md|广冷电子资料整理方案（执行版）]] — source `src_20260606_c57ed589`
+- [[concepts/广冷红外板原理图独立验证报告.md|广冷红外板原理图独立验证报告]] — source `src_20260606_d7abcc6f`
 - [[concepts/开源HIS系统代码深度分析报告.md|开源HIS系统代码深度分析报告]] — source `src_20260503_f4891888`
+- [[concepts/所以90的核心问题.md|所以90%的核心问题。]] — source `src_20260606_ef4877d0`
+- [[concepts/指令cmd使用一览.md|指令CMD使用一览]] — source `src_20260606_e270bc91`
 - [[concepts/数据标注维度最佳实践调研报告.md|数据标注维度最佳实践调研报告]] — source `src_20260601_dffd0b32`
+- [[concepts/整体电控方案说明.md|整体电控方案说明]] — source `src_20260606_05de2e5a`
+- [[concepts/欧阳锋对电子资料归档整理及学习迭代的建议书.md|欧阳锋对电子资料归档整理及学习迭代的建议书]] — source `src_20260606_0c59a4a8`
+- [[concepts/没有人呀现在.md|没有人呀，现在。]] — source `src_20260606_90b44191`
 - [[concepts/紫鲸ai_智能体工作流平台_深度分析与产品设计.md|紫鲸AI_智能体工作流平台_深度分析与产品设计]] — source `src_20260501_4eee4e95`
 - [[concepts/紫鲸ai智能体工作流平台.md|紫鲸AI智能体工作流平台]] — source `src_20260428_29929c1f`
 - [[concepts/老朱的水感-2026年5月.md|老朱的水感 — 2026年5月]] — source `src_20260522_d3a621b8`
+- [[concepts/自动售货机二级专用协议-20201230.md|自动售货机二级专用协议 - 20201230]] — source `src_20260606_79c6a640`
+- [[concepts/自动售货机二级专用协议.md|自动售货机二级专用协议]] — source `src_20260606_e9945462`
 - [[concepts/街顺app全面调研报告.md|街顺APP全面调研报告]] — source `src_20260427_970eb338`
 - [[concepts/视觉prompt三层操作系统-srom-visual-os.md|视觉Prompt三层操作系统 (SROM Visual OS)]] — source `src_20260522_1ede9202`
 - [[concepts/诊所o2o外卖平台业务深度调研报告.md|诊所O2O外卖平台业务深度调研报告]] — source no source
 - [[concepts/轻量级诊所HIS调研全清单.md|轻量级诊所HIS调研全清单]] — source `src_20260503_5c91e867`
 - [[concepts/那今天不会.md|那今天不会。]] — source `src_20260522_642ab512`
 - [[concepts/鑫港湾his系统分阶段整改报告.md|鑫港湾HIS系统分阶段整改报告]] — source `src_20260428_db49a647`
+- [[concepts/高铁自助售货机-电控方案-广冷.md|高铁自助售货机-电控方案-广冷]] — source `src_20260606_9b7baa71`
 - [[entities/Kimi-月之暗面.md|Kimi（月之暗面）]] — source no source
 - [[entities/YC-Y-Combinator.md|Y Combinator]] — source no source
 - [[entities/一堂.md|一堂]] — source `src_20260503_5f268da2`

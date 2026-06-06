@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-06-06T11:51:43.710242",
+  "dir_stats": {
+    "00_photos": 8,
+    "01_specs": 13,
+    "02_pcb": 170,
+    "03_firmware": 1306,
+    "04_bom": 0,
+    "05_docs": 22,
+    "06_logs": 22,
+    "99_pending_verify": 0,
+    "_archive": 131
+  },
+  "unclassified": 3683,
+  "total_files": 5355,
+  "photo_count": 8
+}
