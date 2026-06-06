@@ -9,10 +9,10 @@ problem_domains:
   - 自动化跟进
 industry: 企业服务
 scale: 平台级
-source_person: 褚勉
+source_person: Truman
 source_context: 一堂课程，规模经济章节
 source_refs:
-  - 一堂课程-规模经济章节（褚勉口述）
+  - 一堂课程-规模经济章节（Truman口述）
 wiki_refs:
   - 规模经济
 definition_of_done:
@@ -27,7 +27,7 @@ tags:
   - "#industry/企业服务"
   - "#method/全网扫描"
   - "#method/自动筛选"
-  - "#source/褚勉"
+  - "#source/Truman"
 related_skills: []
 related_concepts:
   - 规模经济
@@ -40,7 +40,7 @@ updated_at: 2026-06-06
 
 ## 原始表述
 
-> 褚勉在讲解"规模经济"时提到：以太可以利用全网的调研能力，快速获得一些新上的项目并自动化跟进。
+> Truman在讲解"规模经济"时提到：以太可以利用全网的调研能力，快速获得一些新上的项目并自动化跟进。
 
 （话只有一句，但极其值钱。）
 
@@ -81,7 +81,7 @@ updated_at: 2026-06-06
 
 ## 来源
 
-- 褚勉，一堂课程，规模经济章节
+- Truman，一堂课程，规模经济章节
 
 ## Feedback Path
 
