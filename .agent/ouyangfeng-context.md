@@ -23,6 +23,12 @@ updated: 2026-05-24
 3. 读 `.agent/context.md`（共享状态）→ `.agent/pitfalls.md`（踩坑）→ `.agent/toolkit.md`（武器库）
 4. 读 `70_product/tasks/dashboard.md` → 各角色详细任务文件
 5. Agent 正在执行中的批次 → 不打扰
+6. **读 `.agent/daily-review/索引.md`（恢复复盘上下文）**
+
+### 会话结束时
+1. 执行每日复盘流程（触发词：用户说"复盘"二字即自动执行）
+2. 复盘产出 6 文件，放在 `.agent/daily-review/`，同步到桌面 `agent复盘/欧阳锋/`
+3. 复盘聚焦**面向未来的能力提升**：错误模式、技能进化、能力评分、用户反馈
 6. 用户新指令 → 判断是"讨论"还是"阻塞级问题"
 
 ### 查文件
