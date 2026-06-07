@@ -595,3 +595,6 @@ _Last updated: 2026-06-06T06:31:20+00:00_
 - [[concepts/dk-ef-002-bom-version-async.md|BOM多版本不同步]] — source E-FM-002
 - [[concepts/dk-ef-003-hand-soldering-bom-divergence.md|手焊板的隐性修改]] — source E-FM-003
 - [[concepts/dk-ef-004-missing-diagnostic-firmware.md|没有诊断固件就是盲调]] — source E-FM-004
+
+- [[concepts/case-纪浩-skills-market.md|案例：一堂 Skills 分发平台]] — from 纪浩 AI协作方法论
+- [[concepts/case-truman-ai-partner.md|案例：Truman AI Partner 设计]] — from Truman 清单体笔记课程
