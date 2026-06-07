@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-07
 active_branch: main
-active_task: "审查老顽童清单体笔记批次 ✅（审查报告+OCR补充+AI Partner设计反推+note-coach Skill）。KDO Infra backlog 已更新。用户要求复盘 KDO 基础设施现状 + 清单体笔记对 KDO 的启发。"
+active_task: "🆕 审查老顽童纪浩批次（25张skill卡，C+，需重工）。P角色vsC角色实测验证。案例库待启动。"
 blockers: []
-next_session_hint: "用户说'继续'→ 继续讨论 KDO 基础设施优化，或推进 note-coach 部署"
+next_session_hint: "用户说'继续'→ ① 纪浩批次重工方向确认 ② 案例库启动标准 ③ Agent-facing Skill分类层设计"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
