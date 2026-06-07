@@ -1,40 +1,50 @@
 ---
-id: yt-note-ai-human-division
-title: AI时代笔记分工边界：人在哪里，AI在哪里
-type: concept
-status: draft
+id: "yt-note-ai-human-division"
+title: "AI时代笔记分工边界：人在哪里，AI在哪里"
+type: "concept"
+status: "draft"
 domain:
-  - yitang
-  - ai
-language: zh-CN
+  - "yitang"
+  - "ai"
+language: "zh-CN"
 version: 1
-difficulty: intermediate
+difficulty: "intermediate"
 confidence: 0.85
 related:
-  - yt-note-checklist-concept
-  - yt-note-five-levels-training
-  - yt-note-live-field-skill
-  - yt-concept-ai-guard-brain
+  - "yt-note-checklist-concept"
+  - "yt-note-five-levels-training"
+  - "yt-note-live-field-skill"
+  - "yt-concept-ai-guard-brain"
 prerequisites:
-  - yt-note-checklist-concept
+  - "yt-note-checklist-concept"
 source_refs:
-  - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
-  - 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
+  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
+  - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
 query_triggers:
-  - AI笔记分工
-  - 清单体与AI协作
-  - AI时代还要记笔记吗
-  - 阿蕊老师怎么用
-  - 新人AI陷阱
-  - 笔记数据资产
-  - AI最大公约数
+  - "AI笔记分工"
+  - "清单体与AI协作"
+  - "AI时代还要记笔记吗"
+  - "阿蕊老师怎么用"
+  - "新人AI陷阱"
+  - "笔记数据资产"
+  - "AI最大公约数"
 tags:
-  - '#yitang'
-  - '#note-taking'
-  - '#ai-collaboration'
-  - '#human-ai-division'
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
+  - "#ai-collaboration"
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#human-ai-division"
+  - "#note-taking"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+  - "#yitang"
+created_at: "2026-06-07"
+updated_at: "2026-06-07"
 estimated_tokens: 3800
 ---
 

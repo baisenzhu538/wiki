@@ -1,26 +1,37 @@
 ---
-id: case-半肥猫-course-to-skill
+id: "case-半肥猫-course-to-skill"
 title: "案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具"
-type: case
-status: draft
+type: "case"
+status: "draft"
 domain:
-  - skill-engineering
-  - yitang
-source_person: 半肥猫
+  - "skill-engineering"
+  - "yitang"
+source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享——真实案例：将一堂《转化率黑客五组合落地》课程转化为 Skill"
 source_refs:
-  - 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
-  - 00_inbox/AI俱乐部-AI学习落地-半肥猫-笔记.txt
+  - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
+  - "00_inbox/AI俱乐部-AI学习落地-半肥猫-笔记.txt"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#confidence/verified-by-test"
   - "#domain/skill-engineering"
   - "#domain/yitang"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
   - "#type/case"
 created_at: 2026-06-08
 updated_at: 2026-06-08
 related:
-  - case-纪浩-skills-market
-  - case-truman-ai-partner
-  - case-纪浩-focus-prompt-design
+  - "case-纪浩-skills-market"
+  - "case-truman-ai-partner"
+  - "case-纪浩-focus-prompt-design"
 ---
 
 # 案例：半肥猫的课程转 Skill 八步法

@@ -1,27 +1,35 @@
 ---
-id: dk-f8-phony-wikilink
+id: "dk-f8-phony-wikilink"
 title: "F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数"
-type: dark-knowledge
-dark_knowledge_type: failure
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "failure"
+status: "draft"
 domain:
-  - master
-source_person: system
+  - "master"
+source_person: "system"
 source_context: "failure-modes.md F-KDO-008"
 source_refs:
-  - 90_control/failure-modes.md#F-KDO-008
+  - "90_control/failure-modes.md#F-KDO-008"
 tags:
-  - "#source_type/error"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
-  - dk-c8-format-complete-mind-empty
-  - master-decision-hygiene
+  - "dk-c8-format-complete-mind-empty"
+  - "master-decision-hygiene"
 contradicts:
-  - dk-c8-format-complete-mind-empty
-  - master-decision-hygiene
+  - "dk-c8-format-complete-mind-empty"
+  - "master-decision-hygiene"
 ---
 
 # F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数

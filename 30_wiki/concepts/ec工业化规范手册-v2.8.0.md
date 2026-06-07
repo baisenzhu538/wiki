@@ -1,17 +1,26 @@
 ---
-id: ec工业化规范手册-v2.8.0
+id: "ec工业化规范手册-v2.8.0"
 created_at: 2026-05-03
 domain:
-  - healthcare
+  - "healthcare"
 review_date: 2026-05-03
-reviewed_by: Claude
+reviewed_by: "Claude"
 source_refs:
-  - src_20260503_feab72b2
-status: enriched
-title: EC工业化规范手册 v2.8.0
-trust_level: high
-type: concept
+  - "src_20260503_feab72b2"
+status: "enriched"
+title: "EC工业化规范手册 v2.8.0"
+trust_level: "high"
+type: "concept"
 updated_at: 2026-05-03
+tags:
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
 
 # EC工业化规范手册 v2.8.0

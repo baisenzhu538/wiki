@@ -1,41 +1,41 @@
 ---
-id: yt-model-y-organization
-component_of: []
+id: "yt-model-y-organization"
+component_of:
 confidence: 0.85
 created_at: 2026-05-07
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1635
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - Y 型创业模型
-  - Y 型结构
-  - 三条认知路径
-  - 关联卡片
-  - 型创业模型
-  - 核心要素
-  - 知识体系定位
-related:
-  level: foundational
-reviewed_by: 黄药师
+  - "Y 型创业模型"
+  - "Y 型结构"
+  - "三条认知路径"
+  - "关联卡片"
+  - "型创业模型"
+  - "核心要素"
+  - "知识体系定位"
+related: {'level': 'foundational'}
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂-个人修炼-Y模型.jpg
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+  - "10_raw/assets/yitang/一堂-个人修炼-Y模型.jpg"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#methodology"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
   - "#core-model"
-title: Y 型创业模型
-type: framework
+  - "#methodology"
+  - "#scene/skill-engineering"
+  - "#yitang"
+title: "Y 型创业模型"
+type: "framework"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: system
-  module: 方法论总纲
-  course_type: model
+yitang: {'map': 'system', 'module': '方法论总纲', 'course_type': 'model'}
 ---
 
 # Y 型创业模型 (Y Model for Startups)

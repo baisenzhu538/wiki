@@ -1,26 +1,29 @@
 ---
-id: yt-research-action-camp-launch
+id: "yt-research-action-camp-launch"
 title: "一堂调研行动营 · 启动课（LLM 精炼）"
-type: concept
-status: reviewed
+type: "concept"
+status: "reviewed"
 source_refs:
-  - src_20260506_e4634e13
-  - src_20260507_67cb7ed2
+  - "src_20260506_e4634e13"
+  - "src_20260507_67cb7ed2"
 created_at: "2026-05-05"
 updated_at: "2026-05-18"
 domain:
-  - yitang
-yitang:
-  map: entrepreneur
-  module: "调研方法论"
-  course_id: "yt-research-camp-001"
-  course_type: method
-  level: foundational
+  - "yitang"
+yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-camp-001', 'course_type': 'method', 'level': 'foundational'}
 reviewed_by: "黄药师"
 review_date: "2026-05-06"
 estimated_tokens: 3400
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
-
 
 # 一堂调研行动营 · 启动课（LLM 精炼）
 

@@ -1,14 +1,21 @@
 ---
-id: knowledge-delivery-os-快速体验指南-飞书云文档
+id: "knowledge-delivery-os-快速体验指南-飞书云文档"
 created_at: 2026-04-30
 domain:
   - "['master']"
 source_refs:
-  - src_20260501_6a491b80
-status: enriched
-title: Knowledge Delivery OS 快速体验指南 - 飞书云文档
-type: concept
+  - "src_20260501_6a491b80"
+status: "enriched"
+title: "Knowledge Delivery OS 快速体验指南 - 飞书云文档"
+type: "concept"
 updated_at: 2026-05-04
+tags:
+  - "#boundary/not-for-beginners"
+  - "#confidence/source-cited"
+  - "#scene/agent-infrastructure"
+  - "#scene/knowledge-management"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
 
 # Knowledge Delivery OS 快速体验指南
@@ -89,4 +96,3 @@ updated_at: 2026-05-04
 | 触发场景 | 第一个动作 | 成功指标 |
 |---------|-----------|---------|
 | 需要基于这份调研/框架做出关键决策前 | 先问自己"这个结论现在还成立吗？有没有新的反例出现？" | 每次使用前都能说出至少一个可能影响结论有效性的新变化因素 |
-

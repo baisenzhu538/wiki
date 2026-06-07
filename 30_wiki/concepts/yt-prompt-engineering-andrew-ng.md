@@ -1,45 +1,57 @@
 ---
-id: yt-prompt-engineering-andrew-ng
-component_of: []
-confidence: 0.90
+id: "yt-prompt-engineering-andrew-ng"
+component_of:
+confidence: 0.9
 created_at: 2026-05-13
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
-  - ai
+  - "yitang"
+  - "ai"
 estimated_tokens: 3600
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-model-prompt-engineering
+  - "yt-model-prompt-engineering"
 query_triggers:
-  - 吴恩达
-  - 提示词课程
-  - 一堂拆书
-  - AI合伙人
-  - 反谄媚
-  - 谄媚倾向
-  - 七层工作流
+  - "吴恩达"
+  - "提示词课程"
+  - "一堂拆书"
+  - "AI合伙人"
+  - "反谄媚"
+  - "谄媚倾向"
+  - "七层工作流"
 related:
-  - yt-model-prompt-engineering
-  - yt-model-personal-pitch-toolkit
-  - yt-model-ipo-learning-strategy
-  - yt-panproduct-demand-motivation-resistance
-reviewed_by: 黄药师
+  - "yt-model-prompt-engineering"
+  - "yt-model-personal-pitch-toolkit"
+  - "yt-model-ipo-learning-strategy"
+  - "yt-panproduct-demand-motivation-resistance"
+reviewed_by: "黄药师"
 source_of:
-  - yt-model-prompt-engineering
+  - "yt-model-prompt-engineering"
 source_refs:
-  - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
-  - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
+  - "10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
+  - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
   - "https://www.deeplearning.ai/courses/ai-prompting-for-everyone/"
   - "https://www.bilibili.com/video/BV1UT9qBDET7/"
-status: enriched
+status: "enriched"
 tags:
-  - "#yitang"
   - "#ai"
-  - "#prompt-engineering"
+  - "#boundary/not-for-beginners"
+  - "#boundary/not-for-creative"
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#entrepreneur"
-title: 吴恩达提示词课程·一堂拆书精华
-type: course_notes
+  - "#prompt-engineering"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+  - "#yitang"
+title: "吴恩达提示词课程·一堂拆书精华"
+type: "course_notes"
 updated_at: 2026-05-13
 version: 1
 ---
@@ -146,4 +158,3 @@ Gebru 会指出反谄媚机制的深层问题：AI 谄媚不是一个技术 bug�
 | 让AI写方案但输出总是"看起来对但用不上" | 停止修改提示词。先用一句话写下你的业务约束（"我的产品面向X用户，目前阶段是Y，不能做Z"），再让AI重新回答 | AI的第二次回答中至少1个具体建议能直接转化为明天的行动，而不是"泛泛而谈的策略" |
 | AI的方案太"正确"让人不安——感觉像在被谄媚 | 新开对话窗口，给AI一个反对者角色（"你是一个对这个方案最怀疑的投资人"），让它列出至少3个可能失败原因 | 能说出"这个方案最可能失败的地方是X"，且X是之前没想到的。如果AI列出的失败原因你都想过了——提示词需要更具体的反对者角色 |
 | 团队里有人用AI、有人不用，决策质量两极分化 | 在团队会议中公开演示一次AI协助决策的完整流程（从背景喂养到反驳质疑到最终决策），让所有人看到"AI不是魔法是工具" | 团队中至少再有1人能独立完成一次类似的AI协助决策流程 |
-

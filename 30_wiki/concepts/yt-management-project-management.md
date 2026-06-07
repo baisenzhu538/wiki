@@ -1,46 +1,42 @@
 ---
-title: 项目管理
-type: concept
-status: enriched
-domain:
-id: yt-management-project-management
-  - yitang
-yitang:
-  map: management
-  module: 项目管理
-  course_id: '421'
-  course_type: method
-  level: core
-  series: true
+title: "项目管理"
+type: "concept"
+status: "enriched"
+domain: ""
+id: "yt-management-project-management - yitang"
+yitang: {'map': 'management', 'module': '项目管理', 'course_id': '421', 'course_type': 'method', 'level': 'core', 'series': True}
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-18'
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+created_at: "2026-05-06"
+updated_at: "2026-05-18"
 estimated_tokens: 3500
-reviewed_by: 黄药师
-review_date: '2026-05-08'
-trust_level: medium
+reviewed_by: "黄药师"
+review_date: "2026-05-08"
+trust_level: "medium"
 related:
-  - yt-entrepreneur-lean-validation
-  - yt-management-basic-skills
-  - yt-management-goal-management
-  - yt-management-scientific-decision
-  - yt-management-scientific-meetings
-  - yt-management-team-knowledge
-  - yt-tool-project-health-radar
+  - "yt-entrepreneur-lean-validation"
+  - "yt-management-basic-skills"
+  - "yt-management-goal-management"
+  - "yt-management-scientific-decision"
+  - "yt-management-scientific-meetings"
+  - "yt-management-team-knowledge"
+  - "yt-tool-project-health-radar"
 query_triggers:
-  - 项目管理方法
-  - WBS任务拆解
-  - 项目五步闭环
-  - 甘特图怎么画
-  - 项目复盘模板
-  - 项目执行跟踪
-  - 风险前置管理
-  - 极简方案设计
-  - 项目过程管理
+  - "项目管理方法"
+  - "WBS任务拆解"
+  - "项目五步闭环"
+  - "甘特图怎么画"
+  - "项目复盘模板"
+  - "项目执行跟踪"
+  - "风险前置管理"
+  - "极简方案设计"
+  - "项目过程管理"
 tags:
-  - '#yitang'
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#yitang"
 ---
+
 # 项目管理
 
 > 来源：一堂管理必修课「管项目」模块，共5节系列课（提认知/定方案/拆计划/管执行/做复盘）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

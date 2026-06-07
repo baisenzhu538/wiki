@@ -1,19 +1,27 @@
 ---
-id: structured-ai-workspace
-type: tool
-status: draft
+id: "structured-ai-workspace"
+type: "tool"
+status: "draft"
 source_refs:
-  - src_20260606_42e11f09
+  - "src_20260606_42e11f09"
 component_of:
-  - ai-collaboration-mindset-shift
+  - "ai-collaboration-mindset-shift"
 related:
-  - ai-collaboration-mindset-shift
-  - prd-as-ai-instruction
+  - "ai-collaboration-mindset-shift"
+  - "prd-as-ai-instruction"
 query_triggers:
   - "AI工作空间怎么搭建"
   - "和AI协作文件怎么管理"
   - "AI任务越来越乱"
-reviewed_by: ''
+reviewed_by: ""
+tags:
+  - "#boundary/single-use-only"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/skill-engineering"
 ---
 
 # 结构化AI工作空间搭建

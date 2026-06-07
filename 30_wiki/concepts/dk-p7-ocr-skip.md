@@ -1,26 +1,32 @@
 ---
-id: dk-p7-ocr-skip
+id: "dk-p7-ocr-skip"
 title: "P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片"
-type: dark-knowledge
-dark_knowledge_type: failure
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "failure"
+status: "draft"
 domain:
-  - master
-source_person: system
+  - "master"
+source_person: "system"
 source_context: "pitfalls.md P-7"
 source_refs:
-  - .agent/pitfalls.md#P-7
+  - ".agent/pitfalls.md#P-7"
 tags:
-  - "#source_type/error"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
-  - dk-p8-toolkit-forget
+  - "dk-p8-toolkit-forget"
 contradicts:
-  - master-decision-hygiene
-  - master-ai-info-literacy
+  - "master-decision-hygiene"
+  - "master-ai-info-literacy"
 ---
 
 # P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片

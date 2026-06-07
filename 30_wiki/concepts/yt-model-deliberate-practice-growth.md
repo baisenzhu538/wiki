@@ -1,40 +1,42 @@
 ---
-id: yt-model-deliberate-practice-growth
-component_of: []
+id: "yt-model-deliberate-practice-growth"
+component_of:
 confidence: 0.85
 created_at: 2026-05-11
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2397
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 与泛产品十年爬山地图的关系
-  - 为什么有人一年顶十年
-  - 刻意练习十年成长指数
-  - 刻意练习十年成长指数：为什么有人一年顶十年
-  - 四要素诊断矩阵
-  - 成长曲线三种状态
-related:
-  level: foundational
-reviewed_by: 黄药师
+  - "与泛产品十年爬山地图的关系"
+  - "为什么有人一年顶十年"
+  - "刻意练习十年成长指数"
+  - "刻意练习十年成长指数：为什么有人一年顶十年"
+  - "四要素诊断矩阵"
+  - "成长曲线三种状态"
+related: {'level': 'foundational'}
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/一堂刻意练习十年成长指数.png
-status: enriched
+  - "10_raw/assets/yitang/一堂刻意练习十年成长指数.png"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#personal-growth"
+  - "#boundary/not-for-beginners"
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
   - "#deliberate-practice"
   - "#growth-index"
-title: 刻意练习十年成长指数：为什么有人一年顶十年
-type: framework
+  - "#personal-growth"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#yitang"
+title: "刻意练习十年成长指数：为什么有人一年顶十年"
+type: "framework"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: personal
-  module: 个人修炼
-  course_type: framework
+yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'framework'}
 ---
 
 # 刻意练习十年成长指数：为什么有人一年顶十年

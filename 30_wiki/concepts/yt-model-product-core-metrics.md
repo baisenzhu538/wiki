@@ -1,40 +1,43 @@
 ---
-id: yt-model-product-core-metrics
-component_of: []
+id: "yt-model-product-core-metrics"
+component_of:
 confidence: 0.85
 created_at: 2026-05-11
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2352
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 与产品内核的关系
-  - 产品内核十大典型指标
-  - 产品内核十大典型指标：从获客到推荐的度量框架
-  - 从获客到推荐的度量框架
-  - 使用原则
-  - 四大环节 × 十大指标
-related:
-  level: intermediate
-reviewed_by: 黄药师
+  - "与产品内核的关系"
+  - "产品内核十大典型指标"
+  - "产品内核十大典型指标：从获客到推荐的度量框架"
+  - "从获客到推荐的度量框架"
+  - "使用原则"
+  - "四大环节 × 十大指标"
+related: {'level': 'intermediate'}
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/一堂产品内核-十大典型指标.png
-status: enriched
+  - "10_raw/assets/yitang/一堂产品内核-十大典型指标.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
   - "#entrepreneurship"
   - "#product-metrics"
+  - "#scene/agent-infrastructure"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
   - "#unit-model"
-title: 产品内核十大典型指标：从获客到推荐的度量框架
-type: framework
+  - "#yitang"
+title: "产品内核十大典型指标：从获客到推荐的度量框架"
+type: "framework"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: entrepreneur
-  module: 创业必修
-  course_type: framework
+yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'framework'}
 ---
 
 # 产品内核十大典型指标：从获客到推荐的度量框架

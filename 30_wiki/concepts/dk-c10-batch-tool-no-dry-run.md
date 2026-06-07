@@ -1,24 +1,28 @@
 ---
-id: dk-c10-batch-tool-no-dry-run
+id: "dk-c10-batch-tool-no-dry-run"
 title: "C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空"
-type: dark-knowledge
-dark_knowledge_type: failure
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "failure"
+status: "draft"
 domain:
-  - master
-source_person: 欧阳锋
+  - "master"
+source_person: "欧阳锋"
 source_context: "Sprint 6 终审发现，2026-05-20"
 source_refs:
-  - 20_memory/corrections.md#C-10
+  - "20_memory/corrections.md#C-10"
 tags:
-  - "#source_type/error"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/learning-methodology"
+  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
-  - dk-c8-format-complete-mind-empty
-  - master-decision-hygiene
+  - "dk-c8-format-complete-mind-empty"
+  - "master-decision-hygiene"
 ---
 
 # C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空

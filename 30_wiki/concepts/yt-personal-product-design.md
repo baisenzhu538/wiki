@@ -1,46 +1,47 @@
 ---
-id: yt-personal-product-design
-component_of: []
-confidence: 0.80
+id: "yt-personal-product-design"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3000
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 泛产品设计
-  - 产品思维
-  - 用户场景分析
-  - 最小交付物
-  - 产品审美
-  - 解决方案设计
-  - 迭代验证
-  - 用户任务分析
-  - 职业发展路径设计
-  - 产品设计方法论
-related:
-  series: true
+  - "泛产品设计"
+  - "产品思维"
+  - "用户场景分析"
+  - "最小交付物"
+  - "产品审美"
+  - "解决方案设计"
+  - "迭代验证"
+  - "用户任务分析"
+  - "职业发展路径设计"
+  - "产品设计方法论"
+related: {'series': True}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
   - "#yitang"
-title: 泛产品设计
-trust_level: medium
-type: tool
+title: "泛产品设计"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: personal
-  module: 泛产品设计
-  course_id: yt-personal-product-design
-  course_type: method
-  level: core
+yitang: {'map': 'personal', 'module': '泛产品设计', 'course_id': 'yt-personal-product-design', 'course_type': 'method', 'level': 'core'}
 ---
+
 # 泛产品设计
 
 > 来源：一堂个人必修课"形成竞争力"模块——泛产品设计力系列课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

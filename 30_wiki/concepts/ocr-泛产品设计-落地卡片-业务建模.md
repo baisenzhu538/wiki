@@ -1,17 +1,23 @@
 ---
-id: ocr-泛产品设计-落地卡片-业务建模
+id: "ocr-泛产品设计-落地卡片-业务建模"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_f5a0f2e1
-status: enriched
+  - "src_20260522_f5a0f2e1"
+status: "enriched"
 title: "OCR: 泛产品设计-落地卡片-业务建模"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 泛产品设计-落地卡片-业务建模
 

@@ -1,40 +1,47 @@
 ---
-id: yt-concept-peas-insight
+id: "yt-concept-peas-insight"
 confidence: 0.85
 created_at: 2026-05-18
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - master
+  - "master"
 estimated_tokens: 3200
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-model-agent-architecture
+  - "yt-model-agent-architecture"
 query_triggers:
-  - 为什么目标总是达不成
-  - OKR失败原因
-  - 决策系统设计
-  - 拖延的本质
-  - 架构错配
-  - 什么是PEAS
-  - 升级本质是换架构
+  - "为什么目标总是达不成"
+  - "OKR失败原因"
+  - "决策系统设计"
+  - "拖延的本质"
+  - "架构错配"
+  - "什么是PEAS"
+  - "升级本质是换架构"
 related:
-  - yt-tool-peas-agent-analysis
-  - yt-model-agent-architecture
-  - yt-model-cognitive-upgrade-framework
-  - yt-decision-habit-shift
-  - yt-decision-y-model
-reviewed_by: 黄药师
+  - "yt-tool-peas-agent-analysis"
+  - "yt-model-agent-architecture"
+  - "yt-model-cognitive-upgrade-framework"
+  - "yt-decision-habit-shift"
+  - "yt-decision-y-model"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/aima-ai-thinking-card-20260515.html
-status: enriched
+  - "10_raw/sources/aima-ai-thinking-card-20260515.html"
+status: "enriched"
 tags:
   - "#ai"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
   - "#decision-making"
   - "#mental-models"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
   - "#systems-thinking"
-title: PEAS核心洞察：决策系统的四槽诊断法
-trust_level: medium
-type: concept
+title: "PEAS核心洞察：决策系统的四槽诊断法"
+trust_level: "medium"
+type: "concept"
 updated_at: 2026-05-18
 version: 1
 ---

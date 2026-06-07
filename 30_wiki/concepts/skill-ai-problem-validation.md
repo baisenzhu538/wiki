@@ -1,23 +1,26 @@
 ---
-id: skill-ai-problem-validation
-title: 技能：问题验证三维度法
-type: skill
-status: draft
-domain: []
-source_person: 纪浩
-source_context: AI俱乐部-AI协作方法论分享，2026-06
-source_refs: []
-wiki_refs: []
+id: "skill-ai-problem-validation"
+title: "技能：问题验证三维度法"
+type: "skill"
+status: "draft"
+domain:
+source_person: "纪浩"
+source_context: "AI俱乐部-AI协作方法论分享，2026-06"
+source_refs:
+wiki_refs:
 definition_of_done:
-  - 操作步骤清晰可执行
-  - 适用场景有正反例
-  - 工具要求明确
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
 tags:
+  - "#confidence/draft"
   - "#domain/AI"
+  - "#scene/ai-collaboration"
+  - "#scene/note-taking"
   - "#skill-type/evaluation"
-tools_required: []
-prerequisite_skills: []
-related: []
+tools_required:
+prerequisite_skills:
+related:
 created_at: 2026-06-06
 updated_at: 2026-06-06
 ---

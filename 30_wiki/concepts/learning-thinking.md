@@ -1,16 +1,21 @@
 ---
-id: learning-thinking
+id: "learning-thinking"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - "ai-saas"
 source_refs:
-  - src_20260522_0af1f6dd
-status: enriched
-title: Learning Thinking
-type: concept
+  - "src_20260522_0af1f6dd"
+status: "enriched"
+title: "Learning Thinking"
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
-
 
 # Learning Thinking
 

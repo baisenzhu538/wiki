@@ -1,21 +1,25 @@
 ---
-id: tinyfish-agentic-web-infrastructure
+id: "tinyfish-agentic-web-infrastructure"
 created_at: 2026-05-06
 domain:
   - "['master']"
 review_date: 2026-05-06
-reviewed_by: 黄药师
-source_refs: []
-status: enriched
+reviewed_by: "黄药师"
+source_refs:
+status: "enriched"
 tags:
-  - "#skill"
-  - "#web-infrastructure"
   - "#agentic-web"
-  - "#tool"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/skill-engineering"
+  - "#skill"
   - "#tinyfish"
-title: TinyFish — Agentic Web 基础设施建设层 Skill
-trust_level: high
-type: concept
+  - "#tool"
+  - "#web-infrastructure"
+title: "TinyFish — Agentic Web 基础设施建设层 Skill"
+trust_level: "high"
+type: "concept"
 updated_at: 2026-05-06
 ---
 
@@ -163,4 +167,3 @@ tinyfish browser session create --url "https://example.com"
 | 触发场景 | 第一个动作 | 成功指标 |
 |---------|-----------|---------|
 | 需要基于这份调研/框架做出关键决策前 | 先问自己"这个结论现在还成立吗？有没有新的反例出现？" | 每次使用前都能说出至少一个可能影响结论有效性的新变化因素 |
-

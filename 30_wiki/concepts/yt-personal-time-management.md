@@ -1,46 +1,46 @@
 ---
-id: yt-personal-time-management
-component_of: []
-confidence: 0.80
+id: "yt-personal-time-management"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3000
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 时间管理
-  - 优先级思维
-  - 能量管理
-  - 深度工作
-  - 时间块管理
-  - 日计划方法
-  - 周计划管理
-  - 高能量窗口
-  - 保护整块时间
-  - 如何管理时间
-related:
-  series: false
+  - "时间管理"
+  - "优先级思维"
+  - "能量管理"
+  - "深度工作"
+  - "时间块管理"
+  - "日计划方法"
+  - "周计划管理"
+  - "高能量窗口"
+  - "保护整块时间"
+  - "如何管理时间"
+related: {'series': False}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
   - "#yitang"
-title: 时间管理
-trust_level: medium
-type: tool
+title: "时间管理"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: personal
-  module: 时间管理
-  course_id: 401
-  course_type: method
-  level: foundational
+yitang: {'map': 'personal', 'module': '时间管理', 'course_id': 401, 'course_type': 'method', 'level': 'foundational'}
 ---
+
 # 时间管理
 
 > 来源：一堂个人必修课"提认知"模块——时间管理必修课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

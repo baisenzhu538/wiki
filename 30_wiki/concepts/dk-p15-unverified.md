@@ -1,27 +1,7 @@
 ---
-id: dk-p15-unverified
-title: "P-15：执行者声称"完成"但实际未做——可测量指标必须独立验证"
-type: dark-knowledge
-dark_knowledge_type: failure
-status: draft
-domain:
-  - master
-source_person: system
-source_context: "pitfalls.md P-15"
-source_refs:
-  - .agent/pitfalls.md#P-15
 tags:
-  - "#source_type/error"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-created_at: 2026-06-03
-updated_at: 2026-06-03
-related:
-  - dk-p10-oral-ban
-  - dk-p17-accuracy-gap
-contradicts:
-  - master-ai-info-literacy
-  - master-decision-hygiene
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
 ---
 
 # P-15：执行者声称"完成"但实际未做——可测量指标必须独立验证

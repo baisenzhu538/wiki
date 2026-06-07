@@ -1,17 +1,24 @@
 ---
-id: ocr-一堂-科学决策-深度-案例05
+id: "ocr-一堂-科学决策-深度-案例05"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_7344d957
-status: enriched
+  - "src_20260522_7344d957"
+status: "enriched"
 title: "OCR: 一堂-科学决策-深度-案例05"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 一堂-科学决策-深度-案例05
 

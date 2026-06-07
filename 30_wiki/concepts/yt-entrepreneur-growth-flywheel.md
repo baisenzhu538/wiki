@@ -1,45 +1,44 @@
 ---
-id: yt-entrepreneur-growth-flywheel
-component_of: []
-confidence: 0.80
+id: "yt-entrepreneur-growth-flywheel"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1812
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 增长飞轮
-  - 飞轮地图
-  - 正反馈闭环
-  - 驱动因子拆解
-  - 飞轮阻塞诊断
-  - 亚马逊飞轮
-  - 系统化增长
-  - 飞轮效应
-  - 投入产出再投入
-  - 增长结构
-related:
-  series: false
+  - "增长飞轮"
+  - "飞轮地图"
+  - "正反馈闭环"
+  - "驱动因子拆解"
+  - "飞轮阻塞诊断"
+  - "亚马逊飞轮"
+  - "系统化增长"
+  - "飞轮效应"
+  - "投入产出再投入"
+  - "增长结构"
+related: {'series': False}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
   - "#yitang"
-title: 增长飞轮
-trust_level: medium
-type: tool
+title: "增长飞轮"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: entrepreneur
-  module: 增长飞轮
-  course_id: 489
-  course_type: method
-  level: advanced
+yitang: {'map': 'entrepreneur', 'module': '增长飞轮', 'course_id': 489, 'course_type': 'method', 'level': 'advanced'}
 ---
 
 # 增长飞轮

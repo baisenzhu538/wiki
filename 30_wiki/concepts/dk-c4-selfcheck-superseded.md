@@ -1,24 +1,28 @@
 ---
-id: dk-c4-selfcheck-superseded
+id: "dk-c4-selfcheck-superseded"
 title: "C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich"
-type: dark-knowledge
-dark_knowledge_type: failure
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "failure"
+status: "draft"
 domain:
-  - master
-source_person: Builder
+  - "master"
+source_person: "Builder"
 source_context: "2026-05-03"
 source_refs:
-  - 20_memory/corrections.md#C-4
+  - "20_memory/corrections.md#C-4"
 tags:
-  - "#source_type/error"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/skill-engineering"
+  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
-  - dk-c5-todo-false-positive
-  - master-cognitive-bias-checklist
+  - "dk-c5-todo-false-positive"
+  - "master-cognitive-bias-checklist"
 ---
 
 # C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich

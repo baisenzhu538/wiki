@@ -1,13 +1,18 @@
 ---
-id: research_methodology
+id: "research_methodology"
 created_at: 2026-05-03
 domain:
-  - ai-saas
-status: superseded
-superseded_by: 30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md
-title: Kimi 深度调研集群方法论 (Deep-Research-Swarm)
-type: concept
+  - "ai-saas"
+status: "superseded"
+superseded_by: "30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md"
+title: "Kimi 深度调研集群方法论 (Deep-Research-Swarm)"
+type: "concept"
 updated_at: 2026-05-03
+tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
 ---
 
 # Kimi 深度调研集群方法论 (Deep-Research-Swarm)

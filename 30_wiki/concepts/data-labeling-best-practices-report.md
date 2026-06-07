@@ -1,18 +1,23 @@
 ---
-id: data-labeling-best-practices-report
+id: "data-labeling-best-practices-report"
 title: "数据标注最佳实践调研报告"
-type: concept
-status: draft
+type: "concept"
+status: "draft"
 domain:
-  - master
+  - "master"
 tags:
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/agent-infrastructure"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
 source_refs:
-  - HILTS框架（ScienceDirect, 2026）
-  - NVIDIA分块策略基准（2025）
-  - KGC 2022 Taxonomy Design Tutorial
-  - Gruber本体设计五原则
+  - "HILTS框架（ScienceDirect, 2026）"
+  - "NVIDIA分块策略基准（2025）"
+  - "KGC 2022 Taxonomy Design Tutorial"
+  - "Gruber本体设计五原则"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 ---

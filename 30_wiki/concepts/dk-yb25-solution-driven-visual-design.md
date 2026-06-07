@@ -1,23 +1,26 @@
 ---
-id: dk-yb25-solution-driven-visual-design
+id: "dk-yb25-solution-driven-visual-design"
 title: "解决方案驱动视觉设计，非门店风格导向"
-type: dark-knowledge
-dark_knowledge_type: insight
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "insight"
+status: "draft"
 domain:
-  - design
-source_person: 月白
+  - "design"
+source_person: "月白"
 source_context: "口述稿: AI设计-AI设计师实操培训01"
 source_refs:
-  - 00_inbox/design/AI设计-AI设计师实操培训01.txt
+  - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
 tags:
-  - "#source_type/dark-knowledge"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/business-analysis"
+  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
-  - dk-yb7-design-demand-80-10-10
-contradicts: []
+  - "dk-yb7-design-demand-80-10-10"
+contradicts:
 ---
 
 # 解决方案驱动视觉设计，非门店风格导向

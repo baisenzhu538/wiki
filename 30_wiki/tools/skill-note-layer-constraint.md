@@ -1,21 +1,31 @@
 ---
-id: skill-note-layer-constraint
+id: "skill-note-layer-constraint"
 title: "清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准"
-type: tool
-status: draft
+type: "tool"
+status: "draft"
 domain:
-  - yitang
-  - note-taking
-language: zh-CN
+  - "yitang"
+  - "note-taking"
+language: "zh-CN"
 version: 1
-difficulty: beginner
+difficulty: "beginner"
 confidence: 0.92
 related:
-  - yt-note-checklist-concept
-  - skill-note-keyword-bolding
-  - skill-note-one-line-one-point
+  - "yt-note-checklist-concept"
+  - "skill-note-keyword-bolding"
+  - "skill-note-one-line-one-point"
 source_refs:
   - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
+tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
 
 # 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准

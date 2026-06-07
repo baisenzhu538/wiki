@@ -1,17 +1,30 @@
 ---
-id: dk-纪浩-pdca-starts-from-do
+id: "dk-纪浩-pdca-starts-from-do"
 title: "暗知识：PDCA 从 Do 开始，不是从 Plan 开始"
-type: dark-knowledge
-dark_knowledge_type: insight
-status: draft
-domain: [ai-collaboration, yitang]
-source_person: 纪浩
+type: "dark-knowledge"
+dark_knowledge_type: "insight"
+status: "draft"
+domain:
+  - "ai-collaboration"
+  - "yitang"
+source_person: "纪浩"
 source_context: "AI俱乐部-AI协作方法论 分享——UI设计Skill的迭代过程"
-source_refs: [00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt]
-tags: ["#source_type/dark-knowledge", "#domain/ai-collaboration"]
+source_refs:
+  - "00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt"
+tags:
+  - "#boundary/single-use-only"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#domain/ai-collaboration"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
+  - "#source_type/dark-knowledge"
 created_at: 2026-06-07
 updated_at: 2026-06-07
-related: [concept-纪浩-ai-collaboration-methodology, skill-纪浩-dofirst-pdca]
+related:
+  - "concept-纪浩-ai-collaboration-methodology"
+  - "skill-纪浩-dofirst-pdca"
 ---
 
 # 暗知识：PDCA 从 Do 开始

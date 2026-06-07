@@ -1,16 +1,24 @@
 ---
-id: ocr-一堂-个人修炼-课程清单
+id: "ocr-一堂-个人修炼-课程清单"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_a94d8057
-status: enriched
+  - "src_20260522_a94d8057"
+status: "enriched"
 title: "OCR: 一堂-个人修炼-课程清单"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
 ---
-
 
 # OCR: 一堂-个人修炼-课程清单
 

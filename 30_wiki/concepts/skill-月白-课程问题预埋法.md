@@ -1,25 +1,28 @@
 ---
-id: skill-月白-课程问题预埋法
-title: 技能：课程问题预埋法
-type: skill
-status: draft
-domain: []
-source_person: 月白
-source_context: AI设计基础
-source_refs: []
-wiki_refs: []
+id: "skill-月白-课程问题预埋法"
+title: "技能：课程问题预埋法"
+type: "skill"
+status: "draft"
+domain:
+source_person: "月白"
+source_context: "AI设计基础"
+source_refs:
+wiki_refs:
 definition_of_done:
-  - 操作步骤清晰可执行
-  - 适用场景有正反例
-  - 工具要求明确
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
 tags:
+  - "#confidence/draft"
+  - "#confidence/verified-by-case"
   - "#domain/AI"
   - "#domain/design"
-tools_required: []
-prerequisite_skills: []
-related: []
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
+  - "#scene/learning-methodology"
+tools_required:
+prerequisite_skills:
+related:
+created_at: "2026-06-07"
+updated_at: "2026-06-07"
 ---
 
 # 技能：课程问题预埋法

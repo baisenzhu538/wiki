@@ -1,46 +1,49 @@
 ---
-id: yt-personal-ai-capability
-component_of: []
-confidence: 0.80
+id: "yt-personal-ai-capability"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3000
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - AI能力
-  - 双模型框架
-  - 提示词工程
-  - 人机协同
-  - AI认知模型
-  - 任务分解
-  - 验证闭环
-  - AI时代竞争力
-  - 如何与AI协作
-  - 提示词怎么写
-related:
-  series: false
+  - "AI能力"
+  - "双模型框架"
+  - "提示词工程"
+  - "人机协同"
+  - "AI认知模型"
+  - "任务分解"
+  - "验证闭环"
+  - "AI时代竞争力"
+  - "如何与AI协作"
+  - "提示词怎么写"
+related: {'series': False}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
   - "#yitang"
-title: AI 能力（双模型）
-trust_level: medium
-type: tool
+title: "AI 能力（双模型）"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: personal
-  module: AI 能力（双模型）
-  course_id: yt-personal-ai-capability
-  course_type: method
-  level: advanced
+yitang: {'map': 'personal', 'module': 'AI 能力（双模型）', 'course_id': 'yt-personal-ai-capability', 'course_type': 'method', 'level': 'advanced'}
 ---
+
 # AI 能力（双模型）
 
 > 来源：一堂个人必修课，属于"形成竞争力"子模块。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

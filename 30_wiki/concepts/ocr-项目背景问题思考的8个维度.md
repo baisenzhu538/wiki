@@ -1,17 +1,24 @@
 ---
-id: ocr-项目背景问题思考的8个维度
+id: "ocr-项目背景问题思考的8个维度"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_4af61500
-status: enriched
+  - "src_20260522_4af61500"
+status: "enriched"
 title: "OCR: 项目背景问题思考的8个维度"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 项目背景问题思考的8个维度
 

@@ -1,17 +1,23 @@
 ---
-id: ocr-一堂产品内核-十大典型指标
+id: "ocr-一堂产品内核-十大典型指标"
 created_at: 2026-05-21
 domain:
-  - healthcare
+  - "healthcare"
 source_refs:
-  - src_20260522_32e4318a
-status: enriched
+  - "src_20260522_32e4318a"
+status: "enriched"
 title: "OCR: 一堂产品内核-十大典型指标"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 一堂产品内核-十大典型指标
 

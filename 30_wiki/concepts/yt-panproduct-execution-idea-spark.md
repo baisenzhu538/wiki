@@ -1,49 +1,50 @@
 ---
-id: yt-panproduct-execution-idea-spark
+id: "yt-panproduct-execution-idea-spark"
 component_of:
-  - yt-model-pan-product-execution-toolkit
-confidence: 0.80
+  - "yt-model-pan-product-execution-toolkit"
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: advanced
+difficulty: "advanced"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1177
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-composite-pan-product-methodology
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
+  - "yt-composite-pan-product-methodology"
+  - "yt-model-pan-product-demand-toolkit"
+  - "yt-model-pan-product-aesthetic-toolkit"
 query_triggers:
-  - 产品落地
-  - 产品迭代
-  - 执行方法
-  - 泛产品设计
-  - 泛产品设计·落地卡片：灵感闪现
-  - 灵感闪现
-  - 落地卡片
-  - 落地执行
+  - "产品落地"
+  - "产品迭代"
+  - "执行方法"
+  - "泛产品设计"
+  - "泛产品设计·落地卡片：灵感闪现"
+  - "灵感闪现"
+  - "落地卡片"
+  - "落地执行"
 related:
-  - yt-panproduct-execution-war-room
-  - yt-panproduct-execution-liberate-thinking
-  - yt-panproduct-aesthetic-imagination
-reviewed_by: 黄药师
+  - "yt-panproduct-execution-war-room"
+  - "yt-panproduct-execution-liberate-thinking"
+  - "yt-panproduct-aesthetic-imagination"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/泛产品设计-落地卡片-灵感闪现.png
-status: enriched
+  - "10_raw/assets/yitang/泛产品设计-落地卡片-灵感闪现.png"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#execution"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
   - "#creativity"
-title: 泛产品设计·落地卡片：灵感闪现
-type: tool
+  - "#execution"
+  - "#pan-product-design"
+  - "#scene/product-design"
+  - "#yitang"
+title: "泛产品设计·落地卡片：灵感闪现"
+type: "tool"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: personal
-  module: 泛产品设计
-  course_type: card
-  level: advanced
+yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
 ---
 
 # 灵感闪现：如何激发大量idea
@@ -134,4 +135,3 @@ yitang:
 |------|-----------|---------|
 | 把这个框架/方法当成绝对真理执行 | 任何方法论都是时间截面，它们假设未来会像过去一样发展 | 每次使用前先问"这个结论现在还成立吗？有没有新的反例出现？" |
 | 在无专业背景的情况下做出重大决策 | 框架是信息输入，不是决策代理 | 结合自身业务场景做二次判断 |
-

@@ -1,62 +1,64 @@
 ---
-id: yt-decision-height-toolkit
+id: "yt-decision-height-toolkit"
 component_of:
-  - yt-decision-y-model
-confidence: 0.80
+  - "yt-decision-y-model"
+confidence: 0.8
 created_at: 2026-05-17
-difficulty: advanced
+difficulty: "advanced"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2800
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-decision-y-model
-  - yt-decision-width-method
-  - yt-decision-depth-ladder
+  - "yt-decision-y-model"
+  - "yt-decision-width-method"
+  - "yt-decision-depth-ladder"
 query_triggers:
-  - 高度分析
-  - 上帝视角
-  - 长期视角
-  - 机会成本
-  - 时间窗口
-  - 加一思考
-  - 共识曲线
-  - 团队对齐
+  - "高度分析"
+  - "上帝视角"
+  - "长期视角"
+  - "机会成本"
+  - "时间窗口"
+  - "加一思考"
+  - "共识曲线"
+  - "团队对齐"
 related:
-  - yt-decision-canvas
-  - yt-decision-consensus-iceberg
-  - yt-decision-ai-partner
-  - yt-model-liberate-thinking-layers
-reviewed_by: 
+  - "yt-decision-canvas"
+  - "yt-decision-consensus-iceberg"
+  - "yt-decision-ai-partner"
+  - "yt-model-liberate-thinking-layers"
+reviewed_by: ""
 source_refs:
-  - 00_inbox/科学决策/一堂-科学决策-ROI决策高度实操课口述04.txt
-  - 00_inbox/科学决策/一堂-科学决策-高度-两种典型的思考习惯.png
-  - 00_inbox/科学决策/一堂-科学决策-稀缺资源清单.png
-  - 00_inbox/科学决策/一堂-科学决策-稀缺机会窗口.png
-  - 00_inbox/科学决策/一堂-科学决策-高水平共识曲线（重要）.png
-status: enriched
+  - "00_inbox/科学决策/一堂-科学决策-ROI决策高度实操课口述04.txt"
+  - "00_inbox/科学决策/一堂-科学决策-高度-两种典型的思考习惯.png"
+  - "00_inbox/科学决策/一堂-科学决策-稀缺资源清单.png"
+  - "00_inbox/科学决策/一堂-科学决策-稀缺机会窗口.png"
+  - "00_inbox/科学决策/一堂-科学决策-高水平共识曲线（重要）.png"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#decision-making"
-  - "#tool"
-  - "#height"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#consensus"
-title: 高度分析工具：上帝视角四维提升法 + 高水平共识曲线
-trust_level: medium
-type: tool
+  - "#decision-making"
+  - "#height"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+  - "#tool"
+  - "#yitang"
+title: "高度分析工具：上帝视角四维提升法 + 高水平共识曲线"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-17
 version: 1
 visual_analysis:
-  - {'image': '一堂-科学决策-高度-两种典型的思考习惯.png', 'dimensions': [{'色彩语义': '左半冷色(眼前/局部)=短视；右半暖色(全局/长期)=高维；中间分割线=认知边界'}, {'空间结构': '左右对比结构，左窄右宽暗示"升级后视野更开阔"'}, {'信息层级': 'L1 思考习惯标签 → L2 典型表现 → L3 决策后果 → L4 升级路径'}, {'负形利用': '中间分割线=楚河汉界；左侧留白少=思维拥挤；右侧留白多=思维舒展'}, {'视觉隐喻': '望远镜=从局部 zoom out 到全局；登高=视角提升的物理化'}]}
-  - {'image': '一堂-科学决策-稀缺资源清单.png', 'dimensions': [{'色彩语义': '暖黄底色=警示与珍惜；深灰标题栏=权威正式；黑字=最高可读性；黄刺激警觉但不引发焦虑'}, {'空间结构': '单栏列表6+1行；标题:内容≈1:7；左侧序号对齐+冒号第二锚点；细白线分隔=货架意象'}, {'信息层级': 'L1主类别(序号+粗体名词)→L2子维度(冒号后首项)→L3细分项(顿号并列场景)'}, {'负形利用': '黑色背景=聚光灯效应；行间白线=认知分段；黄色基底=需被记住的内容标记'}, {'视觉隐喻': '容器隐喻(有边界容量有限)；清单隐喻(可枚举可结构化)；黄金隐喻(价值高储量少)；货架隐喻(库存分配决策)'}]}
-  - {'image': '一堂-科学决策-稀缺机会窗口.png', 'dimensions': [{'色彩语义': '深灰标题栏=规则框架；金黄色主体=稀缺性与价值感；白边框=窗口边界意象；黑字=决策紧迫性'}, {'空间结构': '居中对称布局；标题全宽压制=屋顶权威；编号列窄宽=顺序性/优先级；分类:实例≈1:2=概念→应用'}, {'信息层级': 'L1框架层(标题)→L2类型层(5类窗口)→L3实例层(融资/房租/假期等具象锚定)'}, {'负形利用': '外围黑色=聚光灯效应+墙的存在(窗口因墙而有意义)；单元格内40%留白=视觉着陆舒适度'}, {'视觉隐喻': '窗口隐喻(有限时空内可见机会)；表格即框架(复杂可被结构化)；黑金=矿石/黄金(挖掘机会)；1-5序列=完备性承诺'}]}
-  - {'image': '一堂-科学决策-高水平共识曲线（重要）.png', 'dimensions': [{'色彩语义': '左红橙(爬山/推进)→右蓝紫(冰山/挖掘)；红色弧线=共识深度温度曲线'}, {'空间结构': '双隐喻——左爬山(自下而上)+右冰山(自上而下)；海平面=可见/隐藏分界'}, {'信息层级': 'L1行动(水面)→L2判断→L3逻辑→L4信息(冰山底)'}, {'负形利用': '海平面下90%=隐藏认知深度；水面线=日常讨论可见边界'}, {'视觉隐喻': '爬山=决策"推出来"；冰山=说服"挖出来"；海平面=10%可见/90%隐藏'}]}
-yitang:
-  course_id: yt-decision-height-toolkit
-  course_type: tool
-  level: advanced
-  map: entrepreneur
-  module: 科学决策
+  - {"image": "一堂-科学决策-高度-两种典型的思考习惯.png", "dimensions": [{"色彩语义": "左半冷色(眼前/局部)=短视；右半暖色(全局/长期)=高维；中间分割线=认知边界"}, {"空间结构": "左右对比结构，左窄右宽暗示\"升级后视野更开阔\""}, {"信息层级": "L1 思考习惯标签 → L2 典型表现 → L3 决策后果 → L4 升级路径"}, {"负形利用": "中间分割线=楚河汉界；左侧留白少=思维拥挤；右侧留白多=思维舒展"}, {"视觉隐喻": "望远镜=从局部 zoom out 到全局；登高=视角提升的物理化"}]}
+  - {"image": "一堂-科学决策-稀缺资源清单.png", "dimensions": [{"色彩语义": "暖黄底色=警示与珍惜；深灰标题栏=权威正式；黑字=最高可读性；黄刺激警觉但不引发焦虑"}, {"空间结构": "单栏列表6+1行；标题:内容≈1:7；左侧序号对齐+冒号第二锚点；细白线分隔=货架意象"}, {"信息层级": "L1主类别(序号+粗体名词)→L2子维度(冒号后首项)→L3细分项(顿号并列场景)"}, {"负形利用": "黑色背景=聚光灯效应；行间白线=认知分段；黄色基底=需被记住的内容标记"}, {"视觉隐喻": "容器隐喻(有边界容量有限)；清单隐喻(可枚举可结构化)；黄金隐喻(价值高储量少)；货架隐喻(库存分配决策)"}]}
+  - {"image": "一堂-科学决策-稀缺机会窗口.png", "dimensions": [{"色彩语义": "深灰标题栏=规则框架；金黄色主体=稀缺性与价值感；白边框=窗口边界意象；黑字=决策紧迫性"}, {"空间结构": "居中对称布局；标题全宽压制=屋顶权威；编号列窄宽=顺序性/优先级；分类:实例≈1:2=概念→应用"}, {"信息层级": "L1框架层(标题)→L2类型层(5类窗口)→L3实例层(融资/房租/假期等具象锚定)"}, {"负形利用": "外围黑色=聚光灯效应+墙的存在(窗口因墙而有意义)；单元格内40%留白=视觉着陆舒适度"}, {"视觉隐喻": "窗口隐喻(有限时空内可见机会)；表格即框架(复杂可被结构化)；黑金=矿石/黄金(挖掘机会)；1-5序列=完备性承诺"}]}
+  - {"image": "一堂-科学决策-高水平共识曲线（重要）.png", "dimensions": [{"色彩语义": "左红橙(爬山/推进)→右蓝紫(冰山/挖掘)；红色弧线=共识深度温度曲线"}, {"空间结构": "双隐喻——左爬山(自下而上)+右冰山(自上而下)；海平面=可见/隐藏分界"}, {"信息层级": "L1行动(水面)→L2判断→L3逻辑→L4信息(冰山底)"}, {"负形利用": "海平面下90%=隐藏认知深度；水面线=日常讨论可见边界"}, {"视觉隐喻": "爬山=决策\"推出来\"；冰山=说服\"挖出来\"；海平面=10%可见/90%隐藏"}]}
+yitang: {'course_id': 'yt-decision-height-toolkit', 'course_type': 'tool', 'level': 'advanced', 'map': 'entrepreneur', 'module': '科学决策'}
 ---
 
 # 高度分析工具：上帝视角四维提升法 + 高水平共识曲线

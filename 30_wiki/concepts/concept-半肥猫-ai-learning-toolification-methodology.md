@@ -1,36 +1,49 @@
 ---
-id: concept-半肥猫-ai-learning-toolification-methodology
+id: "concept-半肥猫-ai-learning-toolification-methodology"
 title: "半肥猫 AI 学习落地方法论：从听课到造工具的三层递进"
-type: concept
-status: draft
+type: "concept"
+status: "draft"
 domain:
-  - ai-collaboration
-  - yitang
-  - learning
-source_person: 半肥猫
+  - "ai-collaboration"
+  - "yitang"
+  - "learning"
+source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享（2026-06）"
 source_refs:
-  - 00_inbox/半肥猫-AI学习落地-口述.md
-  - 00_inbox/AI俱乐部-AI学习落地-半肥猫-笔记.txt
+  - "00_inbox/半肥猫-AI学习落地-口述.md"
+  - "00_inbox/AI俱乐部-AI学习落地-半肥猫-笔记.txt"
 tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#confidence/verified-by-test"
   - "#domain/ai-collaboration"
-  - "#domain/yitang"
   - "#domain/learning"
+  - "#domain/yitang"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
-  - skill-半肥猫-边学边练边沉淀的AI学习法
-  - skill-半肥猫-课程Skill化的八步工作流
-  - skill-半肥猫-清洗资料为Markdown格式喂给AI
-  - skill-半肥猫-追问AI证据并标注信源
-  - skill-半肥猫-用YAML格式做知识库原子化标签
-  - skill-半肥猫-动态读取-向量化管理迭代知识
-  - case-半肥猫-conversion-hacker-skill
-  - case-半肥猫-skill-ab-test
-  - dk-半肥猫-silky-answer-warning
-  - dk-半肥猫-skill-rejection-value
-  - dk-半肥猫-atomic-no-standard
-  - concept-纪浩-ai-collaboration-methodology
+  - "skill-半肥猫-边学边练边沉淀的AI学习法"
+  - "skill-半肥猫-课程Skill化的八步工作流"
+  - "skill-半肥猫-清洗资料为Markdown格式喂给AI"
+  - "skill-半肥猫-追问AI证据并标注信源"
+  - "skill-半肥猫-用YAML格式做知识库原子化标签"
+  - "skill-半肥猫-动态读取-向量化管理迭代知识"
+  - "case-半肥猫-conversion-hacker-skill"
+  - "case-半肥猫-skill-ab-test"
+  - "dk-半肥猫-silky-answer-warning"
+  - "dk-半肥猫-skill-rejection-value"
+  - "dk-半肥猫-atomic-no-standard"
+  - "concept-纪浩-ai-collaboration-methodology"
 ---
 
 # 半肥猫 AI 学习落地方法论

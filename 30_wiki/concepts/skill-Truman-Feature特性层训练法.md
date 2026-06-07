@@ -1,24 +1,29 @@
 ---
-id: skill-Truman-Feature特性层训练法
-title: 技能：Feature特性层训练法
-type: skill
-status: draft
-domain: []
-source_person: Truman
-source_context: AI工具应用AMA
-source_refs: []
-wiki_refs: []
+id: "skill-Truman-Feature特性层训练法"
+title: "技能：Feature特性层训练法"
+type: "skill"
+status: "draft"
+domain:
+source_person: "Truman"
+source_context: "AI工具应用AMA"
+source_refs:
+wiki_refs:
 definition_of_done:
-  - 操作步骤清晰可执行
-  - 适用场景有正反例
-  - 工具要求明确
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
 tags:
+  - "#boundary/single-use-only"
+  - "#confidence/draft"
   - "#domain/AI"
-tools_required: []
-prerequisite_skills: []
-related: []
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
+tools_required:
+prerequisite_skills:
+related:
+created_at: "2026-06-07"
+updated_at: "2026-06-07"
 ---
 
 # 技能：Feature特性层训练法

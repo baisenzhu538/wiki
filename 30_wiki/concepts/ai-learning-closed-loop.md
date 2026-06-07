@@ -1,20 +1,31 @@
 ---
-id: ai-learning-closed-loop
-type: concept
-status: draft
+id: "ai-learning-closed-loop"
+type: "concept"
+status: "draft"
 source_refs:
-  - src_20260606_90b44191
-component_of: []
+  - "src_20260606_90b44191"
+component_of:
 related:
-  - course-to-skill-conversion
-  - voice-input-doubao
-  - prd-as-ai-instruction
+  - "course-to-skill-conversion"
+  - "voice-input-doubao"
+  - "prd-as-ai-instruction"
 query_triggers:
   - "AI时代如何学习"
   - "课程怎么转化为能力"
   - "学了忘怎么办"
   - "AI生成内容可靠吗"
-reviewed_by: ''
+reviewed_by: ""
+tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
 
 # AI学习闭环：从"听懂"到"能力"的转化路径

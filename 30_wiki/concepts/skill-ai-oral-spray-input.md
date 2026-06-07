@@ -1,24 +1,29 @@
 ---
-id: skill-ai-oral-spray-input
-title: 技能：用口喷输入法生成高质量 AI 提示词
-type: skill
-status: draft
-domain: []
-source_person: 半肥猫
-source_context: AI俱乐部-AI学习落地分享，2026-06
-source_refs: []
-wiki_refs: []
+id: "skill-ai-oral-spray-input"
+title: "技能：用口喷输入法生成高质量 AI 提示词"
+type: "skill"
+status: "draft"
+domain:
+source_person: "半肥猫"
+source_context: "AI俱乐部-AI学习落地分享，2026-06"
+source_refs:
+wiki_refs:
 definition_of_done:
-  - 操作步骤清晰可执行
-  - 适用场景有正反例
-  - 工具要求明确
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
 tags:
+  - "#confidence/draft"
   - "#domain/AI"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
   - "#skill-type/input-method"
   - "#tool/doubao-input"
-tools_required: []
-prerequisite_skills: []
-related: []
+tools_required:
+prerequisite_skills:
+related:
 created_at: 2026-06-06
 updated_at: 2026-06-06
 ---
@@ -83,4 +88,3 @@ updated_at: 2026-06-06
 ## Feedback Path
 
 - 60_feedback/comments/ — 使用此技能后有任何反馈，提交到这里
-

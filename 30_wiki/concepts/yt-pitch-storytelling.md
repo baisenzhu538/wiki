@@ -1,40 +1,46 @@
 ---
-id: yt-pitch-storytelling
+id: "yt-pitch-storytelling"
 component_of:
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-personal-pitch-toolkit"
 confidence: 0.85
 created_at: 2026-05-13
-difficulty: advanced
+difficulty: "advanced"
 domain:
-  - personal
-  - yitang
+  - "personal"
+  - "yitang"
 estimated_tokens: 1600
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-personal-pitch-toolkit"
 query_triggers:
-  - 故事化
-  - 讲故事
-  - 真实故事
-  - 品牌故事
-  - 幕后故事
-  - 初心故事
+  - "故事化"
+  - "讲故事"
+  - "真实故事"
+  - "品牌故事"
+  - "幕后故事"
+  - "初心故事"
 related:
-  - yt-concept-weapon-arsenal
-reviewed_by: 黄药师
+  - "yt-concept-weapon-arsenal"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
-  - 10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png
-status: enriched
+  - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
+  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-medical"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#pitch"
+  - "#scene/business-analysis"
+  - "#scene/note-taking"
+  - "#yitang"
   - "#具象化"
-title: 讲香·故事化
-type: tool
+title: "讲香·故事化"
+type: "tool"
 updated_at: 2026-05-13
 version: 1
 ---
+
 # 讲香·故事化
 
 > 十指模型左手第四指——向下具象。一讲故事用户耳朵就支棱起来——故事是比道理好用十倍的论证武器。

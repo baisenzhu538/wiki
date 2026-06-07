@@ -1,17 +1,25 @@
 ---
-id: ocr-审美提升的层级
+id: "ocr-审美提升的层级"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_7d2a79f8
-status: enriched
+  - "src_20260522_7d2a79f8"
+status: "enriched"
 title: "OCR: 审美提升的层级"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 审美提升的层级
 

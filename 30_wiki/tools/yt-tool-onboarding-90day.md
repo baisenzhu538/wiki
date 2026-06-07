@@ -1,53 +1,51 @@
 ---
-id: yt-tool-onboarding-90day
-title: '新人 90 天融入加速器'
-type: tool
-status: enriched
+id: "yt-tool-onboarding-90day"
+title: "新人 90 天融入加速器"
+type: "tool"
+status: "enriched"
 domain:
-  - yitang
-language: zh-CN
+  - "yitang"
+language: "zh-CN"
 version: 1
-difficulty: intermediate
+difficulty: "intermediate"
 confidence: 0.75
 prerequisites:
-  - yt-management-team-knowledge
+  - "yt-management-team-knowledge"
 component_of:
-  - yt-management-toolkit-overview
+  - "yt-management-toolkit-overview"
 related:
-  - yt-management-team-knowledge
-  - yt-tool-okr-cycle
-  - yt-management-goal-management
-  - yt-management-scientific-meetings
-contradicts: []
+  - "yt-management-team-knowledge"
+  - "yt-tool-okr-cycle"
+  - "yt-management-goal-management"
+  - "yt-management-scientific-meetings"
+contradicts:
 query_triggers:
-  - 新人融入
-  - 新人培训
-  - 90天融入计划
-  - 新员工 onboarding
-  - 团队融入
-  - 新人导师制
-  - 组织社会化
-  - 新人快速上手
-  - 团队文化传递
-  - 新人留存
+  - "新人融入"
+  - "新人培训"
+  - "90天融入计划"
+  - "新员工 onboarding"
+  - "团队融入"
+  - "新人导师制"
+  - "组织社会化"
+  - "新人快速上手"
+  - "团队文化传递"
+  - "新人留存"
 tags:
-  - '#yitang'
-  - '#management'
-  - '#tool'
-  - '#team'
-trust_level: medium
-yitang:
-  map: management
-  module: 团队管理
-  course_id: yt-tool-onboarding-90day
-  course_type: tool
-  level: core
+  - "#confidence/source-cited"
+  - "#management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#team"
+  - "#tool"
+  - "#yitang"
+trust_level: "medium"
+yitang: {'map': 'management', 'module': '团队管理', 'course_id': 'yt-tool-onboarding-90day', 'course_type': 'tool', 'level': 'core'}
 source_refs:
-  - 30_wiki/concepts/yt-management-team-knowledge.md
-created_at: '2026-05-20'
-updated_at: '2026-05-20'
+  - "30_wiki/concepts/yt-management-team-knowledge.md"
+created_at: "2026-05-20"
+updated_at: "2026-05-20"
 estimated_tokens: 3200
-reviewed_by: ''
+reviewed_by: ""
 ---
 
 # 新人 90 天融入加速器
@@ -259,4 +257,3 @@ reviewed_by: ''
 | 90 天后 | 根据复盘结果调整第 4 个月目标 | 直属上级 |
 
 > **核心触发点提醒**：外部视角萃取会议和 90 天复盘是本工具的两个"不可省略节点"。前者决定了新人是否能够保留“外部人视角”，后者决定了整个融入流程是否有效。如果这两个节点被跳过，整个工具就退化成了"形式主义 checklist"。
-

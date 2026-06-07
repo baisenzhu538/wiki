@@ -1,23 +1,26 @@
 ---
-id: dk-yb29-prompt-migrate-copy-first
+id: "dk-yb29-prompt-migrate-copy-first"
 title: "AIGC提示词迁移：先照搬再微调的务实策略"
-type: dark-knowledge
-dark_knowledge_type: workflow
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "workflow"
+status: "draft"
 domain:
-  - design
-source_person: 月白
+  - "design"
+source_person: "月白"
 source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
-  - 00_inbox/design/AI设计-AI设计基础01.txt
+  - "00_inbox/design/AI设计-AI设计基础01.txt"
 tags:
-  - "#source_type/dark-knowledge"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/learning-methodology"
+  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
-  - dk-yb1-aigc-mvp-before-ps
-contradicts: []
+  - "dk-yb1-aigc-mvp-before-ps"
+contradicts:
 ---
 
 # AIGC提示词迁移：先照搬再微调的务实策略

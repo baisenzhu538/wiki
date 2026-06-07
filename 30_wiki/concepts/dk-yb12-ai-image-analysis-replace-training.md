@@ -1,24 +1,28 @@
 ---
-id: dk-yb12-ai-image-analysis-replace-training
+id: "dk-yb12-ai-image-analysis-replace-training"
 title: "AI图像分析替代模型训练：快速提取参考图共性"
-type: dark-knowledge
-dark_knowledge_type: workflow
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "workflow"
+status: "draft"
 domain:
-  - design
-source_person: 月白
+  - "design"
+source_person: "月白"
 source_context: "口述稿: AI设计-AI设计师实操培训01"
 source_refs:
-  - 00_inbox/design/AI设计-AI设计师实操培训01.txt
+  - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
 tags:
-  - "#source_type/dark-knowledge"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
+  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
-  - dk-yb11-visual-book-reverse
-  - dk-yb13-zero-shot-style-transfer
-contradicts: []
+  - "dk-yb11-visual-book-reverse"
+  - "dk-yb13-zero-shot-style-transfer"
+contradicts:
 ---
 
 # AI图像分析替代模型训练：快速提取参考图共性

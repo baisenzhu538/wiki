@@ -1,17 +1,20 @@
 ---
-id: ocr-泛产品设计-落地卡片-灵感闪现
+id: "ocr-泛产品设计-落地卡片-灵感闪现"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_e861d61d
-status: enriched
+  - "src_20260522_e861d61d"
+status: "enriched"
 title: "OCR: 泛产品设计-落地卡片-灵感闪现"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 泛产品设计-落地卡片-灵感闪现
 

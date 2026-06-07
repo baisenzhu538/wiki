@@ -1,47 +1,55 @@
 ---
-id: yt-tool-best-practice-learning
+id: "yt-tool-best-practice-learning"
 component_of:
-  - yt-model-pan-product-aesthetic-toolkit
+  - "yt-model-pan-product-aesthetic-toolkit"
 confidence: 0.88
 created_at: 2026-06-06
-deprecation_reason: 
-difficulty: intermediate
+deprecation_reason: ""
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3200
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-model-pan-product-aesthetic-toolkit
+  - "yt-model-pan-product-aesthetic-toolkit"
 query_triggers:
-  - 最佳实践
-  - 如何学习最佳实践
-  - 建模
-  - 案例池子
-  - 如何快速入门新领域
-  - 如何超越竞品
-  - 体感培养
-  - 如何提升审美
-  - 设计感培养
+  - "最佳实践"
+  - "如何学习最佳实践"
+  - "建模"
+  - "案例池子"
+  - "如何快速入门新领域"
+  - "如何超越竞品"
+  - "体感培养"
+  - "如何提升审美"
+  - "设计感培养"
 related:
-  - yt-model-pan-product-aesthetic-toolkit
-  - yt-personal-pan-product-aesthetics
-  - yt-tool-mental-model-refinement
+  - "yt-model-pan-product-aesthetic-toolkit"
+  - "yt-personal-pan-product-aesthetics"
+  - "yt-tool-mental-model-refinement"
 review_by: 2026-12-06
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 00_inbox/一堂-个人修身-泛产品设计审美口述.md
-status: enriched
-superseded_by: 
+  - "00_inbox/一堂-个人修身-泛产品设计审美口述.md"
+status: "enriched"
+superseded_by: ""
 tags:
-  - 最佳实践
-  - 学习方法
-  - 建模
-  - 案例分析
-  - 产品设计
-  - 一堂
-title: 最佳实践学习四步法：从收集到超越
-
-type: tool
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#confidence/verified-by-test"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
+  - "一堂"
+  - "产品设计"
+  - "学习方法"
+  - "建模"
+  - "最佳实践"
+  - "案例分析"
+title: "最佳实践学习四步法：从收集到超越"
+type: "tool"
 updated_at: 2026-06-06
 version: 1
 ---

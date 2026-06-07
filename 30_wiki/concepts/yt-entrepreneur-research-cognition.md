@@ -1,45 +1,46 @@
 ---
-id: yt-entrepreneur-research-cognition
-component_of: []
-confidence: 0.80
+id: "yt-entrepreneur-research-cognition"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1821
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 调研认知
-  - 创业调研方法
-  - 调研黑客
-  - 调研武器库
-  - OSCAR框架
-  - 行业调研
-  - 用户访谈技巧
-  - 专家访谈方法
-  - 竞争情报搜集
-  - 上市报告分析
-related:
-  series: true
+  - "调研认知"
+  - "创业调研方法"
+  - "调研黑客"
+  - "调研武器库"
+  - "OSCAR框架"
+  - "行业调研"
+  - "用户访谈技巧"
+  - "专家访谈方法"
+  - "竞争情报搜集"
+  - "上市报告分析"
+related: {'series': True}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
   - "#yitang"
-title: 调研认知
-trust_level: medium
-type: tool
+title: "调研认知"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: entrepreneur
-  module: 调研认知
-  course_id: yt-entrepreneur-research-cognition
-  course_type: method
-  level: core
+yitang: {'map': 'entrepreneur', 'module': '调研认知', 'course_id': 'yt-entrepreneur-research-cognition', 'course_type': 'method', 'level': 'core'}
 ---
 
 # 调研认知

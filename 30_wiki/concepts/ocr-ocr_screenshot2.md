@@ -1,18 +1,21 @@
 ---
-id: ocr-ocr_screenshot2
+id: "ocr-ocr_screenshot2"
 created_at: 2026-05-21
 domain:
-  - healthcare
+  - "healthcare"
 source_refs:
-  - src_20260522_4fa28ed8
-status: enriched
+  - "src_20260522_4fa28ed8"
+status: "enriched"
 title: "OCR: ocr_screenshot2"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
-
-
-
 
 # OCR: ocr_screenshot2
 

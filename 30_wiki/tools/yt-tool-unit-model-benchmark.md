@@ -4,19 +4,16 @@ date: "2026-05-24"
 type: "tool"
 status: "enriched"
 domain: "decision-science"
-source_refs: []
+source_refs:
 author: "一堂科学决策课程"
 component_of: "yt-decision-full-process"
-related:
-id: yt-tool-unit-model-benchmark
-  - "yt-unit-model-overview"
-  - "yt-unit-model-ladder"
-  - "yt-unit-model-construction"
-  - "yt-unit-model-dynamic"
-  - "yt-management-scientific-decision"
-  - "master-cognitive-bias-checklist"
-  - "master-systems-thinking"
-  - "yt-decision-review"
+related: ""
+id: "yt-tool-unit-model-benchmark - "yt-unit-model-overview" - "yt-unit-model-ladder" - "yt-unit-model-construction" - "yt-unit-model-dynamic" - "yt-management-scientific-decision" - "master-cognitive-bias-checklist" - "master-systems-thinking" - "yt-decision-review""
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/skill-engineering"
 ---
 
 ## Reusable Knowledge

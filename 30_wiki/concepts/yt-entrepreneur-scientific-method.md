@@ -1,44 +1,43 @@
 ---
-id: yt-entrepreneur-scientific-method
-component_of: []
-confidence: 0.80
+id: "yt-entrepreneur-scientific-method"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1833
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - Y模型
-  - 科学创业方法
-  - 假设驱动
-  - 可证伪性
-  - 商业假设验证
-  - 数据决策
-  - 证伪思维
-  - 科学方法论创业
-  - 迭代验证
-  - 经验主义替代
-related:
-  series: false
-reviewed_by: 黄药师
+  - "Y模型"
+  - "科学创业方法"
+  - "假设驱动"
+  - "可证伪性"
+  - "商业假设验证"
+  - "数据决策"
+  - "证伪思维"
+  - "科学方法论创业"
+  - "迭代验证"
+  - "经验主义替代"
+related: {'series': False}
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
   - "#yitang"
-title: Y模型/科学方法
-trust_level: medium
-type: tool
+title: "Y模型/科学方法"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-09
 version: 1
-yitang:
-  map: entrepreneur
-  module: Y模型/科学方法
-  course_id: yt-entrepreneur-scientific-method
-  course_type: method
-  level: foundational
+yitang: {'map': 'entrepreneur', 'module': 'Y模型/科学方法', 'course_id': 'yt-entrepreneur-scientific-method', 'course_type': 'method', 'level': 'foundational'}
 ---
 
 # Y模型/科学方法

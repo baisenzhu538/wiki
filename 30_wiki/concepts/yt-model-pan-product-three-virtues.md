@@ -1,44 +1,49 @@
 ---
-id: yt-model-pan-product-three-virtues
+id: "yt-model-pan-product-three-virtues"
 component_of:
-  - yt-composite-pan-product-methodology
-confidence: 0.90
+  - "yt-composite-pan-product-methodology"
+confidence: 0.9
 created_at: 2026-05-11
-deprecation_reason: 
-difficulty: foundational
+deprecation_reason: ""
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1800
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-composite-pan-product-methodology
+  - "yt-composite-pan-product-methodology"
 query_triggers:
-  - 三大修养
-  - 产品设计心法
-  - 产品经理修养
-  - 产品设计底层价值观
-  - 用户价值最佳实践无限进步
-  - 产品设计第一性原理
+  - "三大修养"
+  - "产品设计心法"
+  - "产品经理修养"
+  - "产品设计底层价值观"
+  - "用户价值最佳实践无限进步"
+  - "产品设计第一性原理"
 related:
-  - yt-model-pan-product-36-strategies
-  - yt-model-pan-product-climbing-map
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
-  - yt-model-pan-product-execution-toolkit
+  - "yt-model-pan-product-36-strategies"
+  - "yt-model-pan-product-climbing-map"
+  - "yt-model-pan-product-demand-toolkit"
+  - "yt-model-pan-product-aesthetic-toolkit"
+  - "yt-model-pan-product-execution-toolkit"
 review_by: 2026-11-11
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/泛产品设计者的三大自我修养.png
-status: enriched
-superseded_by: 
+  - "10_raw/assets/yitang/泛产品设计者的三大自我修养.png"
+status: "enriched"
+superseded_by: ""
 tags:
-  - 三大修养
-  - 价值观
-  - 一堂
-  - 泛产品设计
-  - 心法
-title: 泛产品三大自我修养：用户价值×最佳实践×无限进步
-type: framework
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "一堂"
+  - "三大修养"
+  - "价值观"
+  - "心法"
+  - "泛产品设计"
+title: "泛产品三大自我修养：用户价值×最佳实践×无限进步"
+type: "framework"
 updated_at: 2026-05-11
 version: 1
 ---

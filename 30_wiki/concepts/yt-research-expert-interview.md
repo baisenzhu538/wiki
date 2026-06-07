@@ -1,51 +1,50 @@
 ---
-id: yt-research-expert-interview
-component_of: []
+id: "yt-research-expert-interview"
+component_of:
 confidence: 0.85
 created_at: 2026-05-18
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2400
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-research-osl-framework
-  - yt-research-intelligence-map
+  - "yt-research-osl-framework"
+  - "yt-research-intelligence-map"
 query_triggers:
-  - 专家访谈
-  - 行业共识
-  - 怎么找专家
-  - 访谈流程
-  - 访谈技巧
-  - 访谈提纲
+  - "专家访谈"
+  - "行业共识"
+  - "怎么找专家"
+  - "访谈流程"
+  - "访谈技巧"
+  - "访谈提纲"
 related:
-  - yt-research-osl-framework
-  - yt-research-intelligence-map
-  - yt-research-hypothesis-test
-  - yt-research-competitor-toolkit
-  - yt-research-industry-canvas
-  - yt-research-user-jtbd
-  - yt-entrepreneur-key-hypotheses
-reviewed_by: 
+  - "yt-research-osl-framework"
+  - "yt-research-intelligence-map"
+  - "yt-research-hypothesis-test"
+  - "yt-research-competitor-toolkit"
+  - "yt-research-industry-canvas"
+  - "yt-research-user-jtbd"
+  - "yt-entrepreneur-key-hypotheses"
+reviewed_by: ""
 source_refs:
-  - 00_inbox/ideas/一堂-创业必修-调研武器库.md
-  - 00_inbox/ideas/一堂-创业必修-调研行动营.md
-status: reviewed
+  - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
+  - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
+status: "reviewed"
 tags:
-  - "#yitang"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
   - "#research"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
   - "#tool"
-title: 专家访谈工具：2小时获取行业共识的标准流程
-trust_level: medium
-type: tool
+  - "#yitang"
+title: "专家访谈工具：2小时获取行业共识的标准流程"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-18
 version: 1
-yitang:
-  map: entrepreneur
-  module: 调研方法论
-  course_id: yt-research-expert-interview
-  course_type: tool
-  level: intermediate
+yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-expert-interview', 'course_type': 'tool', 'level': 'intermediate'}
 ---
 
 # 专家访谈工具：2小时获取行业共识的标准流程

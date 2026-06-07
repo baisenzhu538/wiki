@@ -1,45 +1,47 @@
 ---
-id: yt-entrepreneur-channel-exploration
-component_of: []
-confidence: 0.80
+id: "yt-entrepreneur-channel-exploration"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1822
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 渠道探索
-  - 获客渠道
-  - 低成本获客
-  - 渠道假设
-  - 渠道筛选
-  - 小预算测试
-  - 渠道验证
-  - 起盘阶段
-  - 创业获客
-  - 渠道漏斗
-related:
-  series: false
+  - "渠道探索"
+  - "获客渠道"
+  - "低成本获客"
+  - "渠道假设"
+  - "渠道筛选"
+  - "小预算测试"
+  - "渠道验证"
+  - "起盘阶段"
+  - "创业获客"
+  - "渠道漏斗"
+related: {'series': False}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/agent-infrastructure"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
   - "#yitang"
-title: 渠道探索
-trust_level: medium
-type: tool
+title: "渠道探索"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: entrepreneur
-  module: 渠道探索
-  course_id: yt-entrepreneur-channel-exploration
-  course_type: method
-  level: core
+yitang: {'map': 'entrepreneur', 'module': '渠道探索', 'course_id': 'yt-entrepreneur-channel-exploration', 'course_type': 'method', 'level': 'core'}
 ---
 
 # 渠道探索

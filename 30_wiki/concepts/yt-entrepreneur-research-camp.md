@@ -1,41 +1,45 @@
 ---
-id: yt-entrepreneur-research-camp
-component_of: []
-confidence: 0.80
+id: "yt-entrepreneur-research-camp"
+component_of:
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1863
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 三轮学习设计
-  - 从调研认知到AI调研武器库
-  - 第0期的特殊性
-  - 调研段位
-  - 调研行动营
-  - 调研行动营：从调研认知到AI调研武器库
-  - 调研黑客五步曲
-related:
-  level: intermediate
-reviewed_by: 黄药师
+  - "三轮学习设计"
+  - "从调研认知到AI调研武器库"
+  - "第0期的特殊性"
+  - "调研段位"
+  - "调研行动营"
+  - "调研行动营：从调研认知到AI调研武器库"
+  - "调研黑客五步曲"
+related: {'level': 'intermediate'}
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-创业-调研行动营口述01.md
-status: enriched
+  - "10_raw/sources/一堂-创业-调研行动营口述01.md"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-beginners"
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#entrepreneurship"
-  - "#research"
   - "#market-research"
-title: 调研行动营：从调研认知到AI调研武器库
-type: tool
+  - "#research"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+  - "#yitang"
+title: "调研行动营：从调研认知到AI调研武器库"
+type: "tool"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: entrepreneur
-  module: 创业必修
-  course_type: action_camp
+yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'action_camp'}
 ---
 
 # 调研行动营：从调研认知到AI调研武器库

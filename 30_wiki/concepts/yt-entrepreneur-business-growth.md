@@ -1,45 +1,44 @@
 ---
-id: yt-entrepreneur-business-growth
-component_of: []
-confidence: 0.80
+id: "yt-entrepreneur-business-growth"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1878
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 业务增长
-  - 增长引擎
-  - 增长飞轮
-  - 增长实验
-  - 规模化增长
-  - 增长单元模型
-  - 增长渠道矩阵
-  - 可复制增长
-  - 五步法第四步
-  - 增长假设
-related:
-  series: false
+  - "业务增长"
+  - "增长引擎"
+  - "增长飞轮"
+  - "增长实验"
+  - "规模化增长"
+  - "增长单元模型"
+  - "增长渠道矩阵"
+  - "可复制增长"
+  - "五步法第四步"
+  - "增长假设"
+related: {'series': False}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
   - "#yitang"
-title: 业务增长
-trust_level: medium
-type: tool
+title: "业务增长"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: entrepreneur
-  module: 业务增长
-  course_id: yt-entrepreneur-business-growth
-  course_type: method
-  level: core
+yitang: {'map': 'entrepreneur', 'module': '业务增长', 'course_id': 'yt-entrepreneur-business-growth', 'course_type': 'method', 'level': 'core'}
 ---
 
 # 业务增长

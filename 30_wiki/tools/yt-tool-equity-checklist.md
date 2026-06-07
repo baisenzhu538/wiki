@@ -1,54 +1,53 @@
 ---
-id: yt-tool-equity-checklist
-title: '股权设计检查清单'
-type: tool
-status: enriched
+id: "yt-tool-equity-checklist"
+title: "股权设计检查清单"
+type: "tool"
+status: "enriched"
 domain:
-  - yitang
-language: zh-CN
+  - "yitang"
+language: "zh-CN"
 version: 1
-difficulty: advanced
+difficulty: "advanced"
 confidence: 0.75
 prerequisites:
-  - yt-management-business-formula
+  - "yt-management-business-formula"
 component_of:
-  - yt-management-toolkit-overview
+  - "yt-management-toolkit-overview"
 related:
-  - yt-management-business-formula
-  - yt-entrepreneur-lean-validation
-  - yt-management-goal-management
-  - yt-tool-strategy-workshop
-contradicts: []
+  - "yt-management-business-formula"
+  - "yt-entrepreneur-lean-validation"
+  - "yt-management-goal-management"
+  - "yt-tool-strategy-workshop"
+contradicts:
 query_triggers:
-  - 股权设计
-  - 股权分配
-  - 创业股权
-  - 股东协议
-  - 股权激励
-  - 联合创始人
-  - 股权退出机制
-  - vesting 机制
-  - 股权回购
-  - 投资前股权检查
+  - "股权设计"
+  - "股权分配"
+  - "创业股权"
+  - "股东协议"
+  - "股权激励"
+  - "联合创始人"
+  - "股权退出机制"
+  - "vesting 机制"
+  - "股权回购"
+  - "投资前股权检查"
 tags:
-  - '#yitang'
-  - '#management'
-  - '#tool'
-  - '#equity'
-  - '#startup'
-trust_level: medium
-yitang:
-  map: management
-  module: 管公司
-  course_id: yt-tool-equity-checklist
-  course_type: tool
-  level: advanced
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#equity"
+  - "#management"
+  - "#scene/note-taking"
+  - "#startup"
+  - "#tool"
+  - "#yitang"
+trust_level: "medium"
+yitang: {'map': 'management', 'module': '管公司', 'course_id': 'yt-tool-equity-checklist', 'course_type': 'tool', 'level': 'advanced'}
 source_refs:
-  - 30_wiki/concepts/yt-management-business-formula.md
-created_at: '2026-05-20'
-updated_at: '2026-05-20'
+  - "30_wiki/concepts/yt-management-business-formula.md"
+created_at: "2026-05-20"
+updated_at: "2026-05-20"
 estimated_tokens: 3400
-reviewed_by: ''
+reviewed_by: ""
 ---
 
 # 股权设计检查清单

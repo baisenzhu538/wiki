@@ -1,17 +1,24 @@
 ---
-id: ocr-萃取总结
+id: "ocr-萃取总结"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_4310e409
-status: enriched
+  - "src_20260522_4310e409"
+status: "enriched"
 title: "OCR: 萃取总结"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 萃取总结
 

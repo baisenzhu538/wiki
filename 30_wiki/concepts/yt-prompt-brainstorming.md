@@ -1,39 +1,44 @@
 ---
-id: yt-prompt-brainstorming
-title: AI头脑风暴工作流
-type: tool
-status: enriched
+id: "yt-prompt-brainstorming"
+title: "AI头脑风暴工作流"
+type: "tool"
+status: "enriched"
 domain:
-  - yitang
-  - ai
-language: zh-CN
+  - "yitang"
+  - "ai"
+language: "zh-CN"
 version: 1
-difficulty: intermediate
+difficulty: "intermediate"
 confidence: 0.85
 prerequisites:
-  - yt-model-prompt-engineering
+  - "yt-model-prompt-engineering"
 component_of:
-  - yt-model-prompt-engineering
+  - "yt-model-prompt-engineering"
 source_refs:
-  - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
-  - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
+  - "10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
+  - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
 query_triggers:
-  - 头脑风暴
-  - AI创意
-  - 独特资源
-  - 独特约束
-  - 发散收敛
-  - 选项生成
-  - AI杀手应用
-
+  - "头脑风暴"
+  - "AI创意"
+  - "独特资源"
+  - "独特约束"
+  - "发散收敛"
+  - "选项生成"
+  - "AI杀手应用"
 tags:
-  - '#yitang'
-  - '#ai'
-  - '#prompt-engineering'
-  - '#brainstorming'
-  - '#creativity'
-created_at: '2026-05-13'
-updated_at: '2026-05-13'
+  - "#ai"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#brainstorming"
+  - "#confidence/source-cited"
+  - "#creativity"
+  - "#prompt-engineering"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/skill-engineering"
+  - "#yitang"
+created_at: "2026-05-13"
+updated_at: "2026-05-13"
 estimated_tokens: 2000
 ---
 

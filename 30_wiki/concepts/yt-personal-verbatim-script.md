@@ -1,46 +1,45 @@
 ---
-id: yt-personal-verbatim-script
-component_of: []
-confidence: 0.80
+id: "yt-personal-verbatim-script"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3000
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 逐字稿
-  - 演讲稿写作
-  - 演讲准备方法
-  - 口语化写作
-  - 表达精确化
-  - 脱稿演讲技巧
-  - 演讲练习方法
-  - 结构化表达
-  - 如何写逐字稿
-  - 公开演讲准备
-related:
-  series: false
+  - "逐字稿"
+  - "演讲稿写作"
+  - "演讲准备方法"
+  - "口语化写作"
+  - "表达精确化"
+  - "脱稿演讲技巧"
+  - "演讲练习方法"
+  - "结构化表达"
+  - "如何写逐字稿"
+  - "公开演讲准备"
+related: {'series': False}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#confidence/source-cited"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
   - "#yitang"
-title: 逐字稿
-trust_level: medium
-type: tool
+title: "逐字稿"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: personal
-  module: 逐字稿
-  course_id: 408
-  course_type: method
-  level: core
+yitang: {'map': 'personal', 'module': '逐字稿', 'course_id': 408, 'course_type': 'method', 'level': 'core'}
 ---
+
 # 逐字稿
 
 > 来源：一堂个人必修课"练能力"模块——逐字稿实操课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

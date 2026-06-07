@@ -1,42 +1,44 @@
 ---
-id: yt-personal-pan-product-exploration
+id: "yt-personal-pan-product-exploration"
 component_of:
-  - yt-composite-pan-product-methodology
-confidence: 0.80
+  - "yt-composite-pan-product-methodology"
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3100
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 个人修炼
-  - 产品思维
-  - 案例启发与认知重构
-  - 泛产品设计
-  - 泛产品设计探索营
-  - 泛产品设计探索营：案例启发与认知重构
+  - "个人修炼"
+  - "产品思维"
+  - "案例启发与认知重构"
+  - "泛产品设计"
+  - "泛产品设计探索营"
+  - "泛产品设计探索营：案例启发与认知重构"
 related:
-  - yt-personal-pan-product-concepts
-  - yt-personal-pan-product-tools
-reviewed_by: 黄药师
+  - "yt-personal-pan-product-concepts"
+  - "yt-personal-pan-product-tools"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-个人修炼-泛产品设计探索营口述版.md
-status: enriched
+  - "10_raw/sources/一堂-个人修炼-泛产品设计探索营口述版.md"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#pan-product-design"
+  - "#boundary/not-for-creative"
   - "#case-study"
-title: 泛产品设计探索营：案例启发与认知重构
-type: concept
+  - "#confidence/source-cited"
+  - "#pan-product-design"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
+  - "#yitang"
+title: "泛产品设计探索营：案例启发与认知重构"
+type: "concept"
 updated_at: 2026-05-18
 version: 1
-yitang:
-  map: personal
-  module: 个人修炼
-  course_type: explore_camp
-  level: foundational
+yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'explore_camp', 'level': 'foundational'}
 ---
 
 # 泛产品设计探索营：案例启发与认知重构

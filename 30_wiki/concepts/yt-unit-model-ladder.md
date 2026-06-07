@@ -1,56 +1,61 @@
 ---
-id: yt-unit-model-ladder
-component_of: []
+id: "yt-unit-model-ladder"
+component_of:
 confidence: 0.85
 created_at: 2026-05-24
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - entrepreneur
-  - master
+  - "entrepreneur"
+  - "master"
 estimated_tokens: 3200
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-unit-model-overview
+  - "yt-unit-model-overview"
 query_triggers:
-  - 单元模型段位
-  - L1 L2 L3 L4 L5 L6
-  - 单元模型进阶
-  - 不会算账到动态预判
-  - 单元模型段位标准
-  - 单元模型常见错误
-  - 商业分析段位
+  - "单元模型段位"
+  - "L1 L2 L3 L4 L5 L6"
+  - "单元模型进阶"
+  - "不会算账到动态预判"
+  - "单元模型段位标准"
+  - "单元模型常见错误"
+  - "商业分析段位"
 related:
-  - yt-unit-model-selection
-  - yt-unit-model-construction
-  - yt-unit-model-benchmark
-  - yt-unit-model-dynamic
-  - yt-unit-model-ai-assisted
-  - yt-entrepreneur-five-step-method
-  - yt-decision-y-model
-reviewed_by: 
+  - "yt-unit-model-selection"
+  - "yt-unit-model-construction"
+  - "yt-unit-model-benchmark"
+  - "yt-unit-model-dynamic"
+  - "yt-unit-model-ai-assisted"
+  - "yt-entrepreneur-five-step-method"
+  - "yt-decision-y-model"
+reviewed_by: ""
 source_refs:
-  - src_20260524_8a3b1c2d-一堂-单元模型01口述
-  - src_20260524_9f4e5d6a-一堂-单元模型02口述
-  - src_20260524_7c8d9e0f-一堂-单元模型03口述
-  - src_20260524_6b5a4c3d-一堂-单元模型04口述
-  - src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述
-status: draft
+  - "src_20260524_8a3b1c2d-一堂-单元模型01口述"
+  - "src_20260524_9f4e5d6a-一堂-单元模型02口述"
+  - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
+  - "src_20260524_6b5a4c3d-一堂-单元模型04口述"
+  - "src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述"
+status: "draft"
 tags:
-  - "#yitang"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#entrepreneur"
   - "#framework"
-  - "#unit-model"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
   - "#skill-ladder"
-title: 单元模型六段进阶：从不会算账到动态预判
-trust_level: high
-type: framework
+  - "#unit-model"
+  - "#yitang"
+title: "单元模型六段进阶：从不会算账到动态预判"
+trust_level: "high"
+type: "framework"
 updated_at: 2026-05-24
 version: 1
-yitang:
-  map: entrepreneur
-  module: 创业必修
-  course_type: framework
-  level: intermediate
+yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'framework', 'level': 'intermediate'}
 ---
 
 # 单元模型六段进阶：从不会算账到动态预判

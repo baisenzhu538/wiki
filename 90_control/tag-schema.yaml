@@ -1,7 +1,51 @@
 # KDO Tag Schema — 合法标签定义
 # 新增标签前缀在此注册；有枚举值的必须在此列表内。
+#
+# 标签设计原则（半肥猫 + 纪浩启发）：
+# 标签不是给人看的归档分类——是给 Agent 的路由信号。
+# Agent 接到任务 → 用标签收缩候选卡片 → 只读命中的几张。
+# 三个核心维度：场景（什么时候用）/ 边界（什么时候不能用）/ 可靠性（能不能信）
 
 prefixes:
+  # ── Agent 路由信号（核心）────────────────
+  "#scene":
+    description: 场景标签——Agent 在什么任务下应该读这张卡。回答"我什么时候取这篇文章"
+    closed: false
+    known:
+      - ai-collaboration
+      - note-taking
+      - skill-engineering
+      - agent-infrastructure
+      - product-design
+      - hardware-debugging
+      - knowledge-management
+      - business-analysis
+      - learning-methodology
+
+  "#boundary":
+    description: 边界标签——Agent 在什么场景下不应该用这张卡。回答"我什么时候跳过这篇文章"
+    closed: false
+    known:
+      - not-for-beginners
+      - not-for-production
+      - not-for-creative
+      - not-for-medical
+      - requires-human-judgment
+      - context-dependent
+      - single-use-only
+
+  "#confidence":
+    description: 可靠性标签——这张卡的内容经过什么程度的验证。回答"我能不能信这篇文章"
+    closed: true
+    known:
+      - verified-by-test    # 有量化测试数据（如 36 vs 8）
+      - verified-by-case    # 有真实案例验证
+      - source-cited        # 有源文件引用
+      - expert-reviewed     # 经过专家审查
+      - draft               # 草稿，未验证
+      - template-only       # 仅模板，无实质内容
+
+  # ── 已有前缀（保留）────────────────────
   "#domain":
     description: 领域标签·全部卡型
     closed: false

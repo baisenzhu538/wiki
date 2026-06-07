@@ -1,17 +1,20 @@
 ---
-id: 视觉prompt三层操作系统-srom-visual-os
+id: "视觉prompt三层操作系统-srom-visual-os"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - "ai-saas"
 source_refs:
-  - src_20260522_1ede9202
-status: enriched
-title: 视觉Prompt三层操作系统 (SROM Visual OS)
-type: concept
+  - "src_20260522_1ede9202"
+status: "enriched"
+title: "视觉Prompt三层操作系统 (SROM Visual OS)"
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # 视觉Prompt三层操作系统 (SROM Visual OS)
 

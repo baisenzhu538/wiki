@@ -1,17 +1,23 @@
 ---
-id: ocr-一堂-科学决策-roi决策评估画布-案例03
+id: "ocr-一堂-科学决策-roi决策评估画布-案例03"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_01bac741
-status: enriched
+  - "src_20260522_01bac741"
+status: "enriched"
 title: "OCR: 一堂-科学决策-ROI决策评估画布-案例03"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
 ---
-
-
 
 # OCR: 一堂-科学决策-ROI决策评估画布-案例03
 

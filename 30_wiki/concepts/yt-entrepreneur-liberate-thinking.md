@@ -1,45 +1,45 @@
 ---
-id: yt-entrepreneur-liberate-thinking
-component_of: []
-confidence: 0.80
+id: "yt-entrepreneur-liberate-thinking"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1873
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 解放思想
-  - 创业认知边界
-  - 隐含假设识别
-  - 思维定式突破
-  - 行业惯例反思
-  - 认知升级方法论
-  - 公理化建模
-  - 假设驱动验证
-  - 创业思维转换
-  - 从零到一思维方式
-related:
-  series: false
+  - "解放思想"
+  - "创业认知边界"
+  - "隐含假设识别"
+  - "思维定式突破"
+  - "行业惯例反思"
+  - "认知升级方法论"
+  - "公理化建模"
+  - "假设驱动验证"
+  - "创业思维转换"
+  - "从零到一思维方式"
+related: {'series': False}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
   - "#yitang"
-title: 解放思想
-trust_level: medium
-type: tool
+title: "解放思想"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: entrepreneur
-  module: 解放思想
-  course_id: yt-entrepreneur-liberate-thinking
-  course_type: method
-  level: foundational
+yitang: {'map': 'entrepreneur', 'module': '解放思想', 'course_id': 'yt-entrepreneur-liberate-thinking', 'course_type': 'method', 'level': 'foundational'}
 ---
 
 # 解放思想

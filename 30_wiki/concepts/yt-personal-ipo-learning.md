@@ -1,44 +1,48 @@
 ---
-id: yt-personal-ipo-learning
-component_of: []
-confidence: 0.80
+id: "yt-personal-ipo-learning"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3000
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - IPO 科学学习
-  - 世界学习法与四大渠道
-  - 分层学习法六级
-  - 处理
-  - 模型总览
-  - 科学学习
-  - 质变点与四大联系练习
-  - 输入
-  - 输出
-related:
-  series: true
+  - "IPO 科学学习"
+  - "世界学习法与四大渠道"
+  - "分层学习法六级"
+  - "处理"
+  - "模型总览"
+  - "科学学习"
+  - "质变点与四大联系练习"
+  - "输入"
+  - "输出"
+related: {'series': True}
 review_date: 2026-05-07
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - src_20260507_85c9ae50
-  - src_20260507_31a7f2df
-status: enriched
+  - "src_20260507_85c9ae50"
+  - "src_20260507_31a7f2df"
+status: "enriched"
 tags:
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/hardware-debugging"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
   - "#yitang"
-title: IPO 科学学习
-type: tool
+title: "IPO 科学学习"
+type: "tool"
 updated_at: 2026-05-07
 version: 1
-yitang:
-  map: personal
-  module: IPO 科学学习
-  course_id: 402
-  course_type: method
-  level: foundational
+yitang: {'map': 'personal', 'module': 'IPO 科学学习', 'course_id': 402, 'course_type': 'method', 'level': 'foundational'}
 ---
 
 # IPO 科学学习

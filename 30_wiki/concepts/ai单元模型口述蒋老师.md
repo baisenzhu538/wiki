@@ -1,32 +1,39 @@
 ---
-id: ai单元模型口述蒋老师
+id: "ai单元模型口述蒋老师"
 confidence: 0.85
 created_at: 2026-05-25
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - healthcare
-event: 一堂AI落地行动营第三期（最后一期内测），2026-05
-language: zh-CN
+  - "healthcare"
+event: "一堂AI落地行动营第三期（最后一期内测），2026-05"
+language: "zh-CN"
 related:
-  - yt-unit-model-overview
-  - yt-unit-model-construction
-  - yt-unit-model-ladder
-  - yt-unit-model-dynamic
-  - yt-model-dual-triangle-competitiveness
-  - yt-decision-y-model
-  - ai时代判断力口述-3
+  - "yt-unit-model-overview"
+  - "yt-unit-model-construction"
+  - "yt-unit-model-ladder"
+  - "yt-unit-model-dynamic"
+  - "yt-model-dual-triangle-competitiveness"
+  - "yt-decision-y-model"
+  - "ai时代判断力口述-3"
 source_refs:
-  - src_20260525_92ea6173
-speaker: 蒋老师（磊哥），一堂合伙人、教练
-status: enriched
+  - "src_20260525_92ea6173"
+speaker: "蒋老师（磊哥），一堂合伙人、教练"
+status: "enriched"
 tags:
-  - "#entrepreneur"
   - "#ai"
+  - "#boundary/requires-human-judgment"
+  - "#business-analysis"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#entrepreneur"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
   - "#unit-model"
   - "#yitang"
-  - "#business-analysis"
-title: AI+单元模型口述（蒋老师/磊哥）
-type: concept
+title: "AI+单元模型口述（蒋老师/磊哥）"
+type: "concept"
 updated_at: 2026-05-25
 ---
 

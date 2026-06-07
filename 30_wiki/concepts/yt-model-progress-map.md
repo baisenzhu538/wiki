@@ -1,42 +1,42 @@
 ---
-id: yt-model-progress-map
-component_of: []
+id: "yt-model-progress-map"
+component_of:
 confidence: 0.85
 created_at: 2026-05-07
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1881
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 五段式架构
-  - 关联卡片
-  - 四种辩证思考
-  - 底层逻辑
-  - 无限进步大地图
-  - 核心口号
-  - 知识体系定位
-related:
-  level: foundational
-reviewed_by: 黄药师
+  - "五段式架构"
+  - "关联卡片"
+  - "四种辩证思考"
+  - "底层逻辑"
+  - "无限进步大地图"
+  - "核心口号"
+  - "知识体系定位"
+related: {'level': 'foundational'}
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂进步大地图.png
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+  - "10_raw/assets/yitang/一堂进步大地图.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#core-model"
   - "#methodology"
   - "#progress-map"
-  - "#core-model"
-title: 无限进步大地图
-type: framework
+  - "#scene/knowledge-management"
+  - "#yitang"
+title: "无限进步大地图"
+type: "framework"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: system
-  module: 方法论总纲
-  course_type: model
+yitang: {'map': 'system', 'module': '方法论总纲', 'course_type': 'model'}
 ---
 
 # 一堂无限进步大地图·十年收藏版

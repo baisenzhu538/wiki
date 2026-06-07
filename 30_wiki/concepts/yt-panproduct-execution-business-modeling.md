@@ -1,49 +1,52 @@
 ---
-id: yt-panproduct-execution-business-modeling
+id: "yt-panproduct-execution-business-modeling"
 component_of:
-  - yt-model-pan-product-execution-toolkit
-confidence: 0.80
+  - "yt-model-pan-product-execution-toolkit"
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: advanced
+difficulty: "advanced"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1065
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-composite-pan-product-methodology
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
+  - "yt-composite-pan-product-methodology"
+  - "yt-model-pan-product-demand-toolkit"
+  - "yt-model-pan-product-aesthetic-toolkit"
 query_triggers:
-  - 业务建模
-  - 产品落地
-  - 产品迭代
-  - 执行方法
-  - 泛产品设计
-  - 泛产品设计·落地卡片：业务建模
-  - 落地卡片
-  - 落地执行
+  - "业务建模"
+  - "产品落地"
+  - "产品迭代"
+  - "执行方法"
+  - "泛产品设计"
+  - "泛产品设计·落地卡片：业务建模"
+  - "落地卡片"
+  - "落地执行"
 related:
-  - yt-panproduct-execution-roi-analysis
-  - yt-panproduct-execution-logic-mece
-  - yt-panproduct-demand-five-step-method
-reviewed_by: 黄药师
+  - "yt-panproduct-execution-roi-analysis"
+  - "yt-panproduct-execution-logic-mece"
+  - "yt-panproduct-demand-five-step-method"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/泛产品设计-落地卡片-业务建模.png
-status: enriched
+  - "10_raw/assets/yitang/泛产品设计-落地卡片-业务建模.png"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#pan-product-design"
-  - "#execution"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
   - "#business-modeling"
-title: 泛产品设计·落地卡片：业务建模
-type: tool
+  - "#confidence/source-cited"
+  - "#execution"
+  - "#pan-product-design"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
+  - "#yitang"
+title: "泛产品设计·落地卡片：业务建模"
+type: "tool"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: personal
-  module: 泛产品设计
-  course_type: card
-  level: advanced
+yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
 ---
 
 # 业务建模：学习拆解业务公式
@@ -134,4 +137,3 @@ yitang:
 | 公式中的某个关键变量无法被测量——只能靠直觉或经验估计 | 做"变量采集可行性评估"——把公式中的所有变量按"可采集性"分为能直接测量/可间接估算/仅经验判断三档。对于"仅经验判断"的变量，评估"如果这个变量的实际值比我的估计差50%，业务后果会是什么" | 如果存在一个仅经验判断的变量且当它恶化50%后整个公式的输出从正变负→这个变量是当前的最高优先级——所有努力应该集中在将它升级为可测量变量上 |
 | 团队中有多人对"业务最重要的变量是什么"有不同看法 | 做"共识业务公式"——不是争论谁的公式对，而是让每个人各自画出自己认为的业务公式，然后把所有公式放在一起找差异——差异点（某人在公式中包含了另一个人完全没放的变量）往往就是认知分歧的真正所在 | 发现≥2个"唯一出现"的变量——即只有一个版本的公式中包含了某个变量而其他人完全没提的。这些单一来源变量是团队认知分歧的真正焦点——讨论由此展开 |
 | 业务遇到重大挫折——现有的业务公式预测"应该是好的"但实际是坏的 | 做"公式失效模式审计"——挫折可能来自：(a)变量本身值变了但你没察觉；(b)变量之间的关系变了（原来独立的变量开始相互影响）；(c)一个从未被纳入公式的外部变量突然成为决定性变量 | 定位失效类型——如果是(b)或(c)→最大的收获不是修复公式而是发现了一个"之前你从未知道存在但你业务实际依赖"的结构性关系——这是进化。如果是(a)→这是监控失效，需要建立变量监控的节奏 |
-

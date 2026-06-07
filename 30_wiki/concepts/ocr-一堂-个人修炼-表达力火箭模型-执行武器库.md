@@ -1,17 +1,25 @@
 ---
-id: ocr-一堂-个人修炼-表达力火箭模型-执行武器库
+id: "ocr-一堂-个人修炼-表达力火箭模型-执行武器库"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_e60a7ec8
-status: enriched
+  - "src_20260522_e60a7ec8"
+status: "enriched"
 title: "OCR: 一堂-个人修炼-表达力火箭模型-执行武器库"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-medical"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 一堂-个人修炼-表达力火箭模型-执行武器库
 
@@ -110,4 +118,3 @@ Capability: 逐字稿段位评审Agent（60/70/85分自动诊断+口语化改写
 |---------|-----------|---------|
 | 准备一次重要演讲（融资路演/晋升答辩/客户拜访） | 先做“技巧做减法”——从火箭模型的全部技巧中选出最适合本次场景的不超过2个，其余全部放弃 | 能用1句话说出本次演讲的“唯一核心信息”和“最适合的1个增强技巧”，其余技巧全部放弃 |
 | 演讲后反馈"讲得不够有感染力” | 检查逐字稿：是否有“每个句子都在用力”的症状？如果是——这恰恰是“没有重点”的信号 | 能找到逐字稿中至少一个“可以完全删掉而不影响核心信息”的句子，并在下一版中删除 |
-

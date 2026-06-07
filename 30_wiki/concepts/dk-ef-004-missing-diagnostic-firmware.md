@@ -1,23 +1,27 @@
 ---
-id: dk-ef-004-missing-diagnostic-firmware
+id: "dk-ef-004-missing-diagnostic-firmware"
 title: "没有诊断固件就是盲调：你不知道信号卡在哪一级"
-type: dark-knowledge
-dark_knowledge_type: hardware-failure
-source_person: 黄药师
+type: "dark-knowledge"
+dark_knowledge_type: "hardware-failure"
+source_person: "黄药师"
 source_context: "复杂信号链路调试（MCU→电平转换→595→MOSFET→LED→接收管→MUX→运放→MCU）——不知道哪一级出了问题"
 source_refs:
-  - 90_control/electronics-practice/failure-modes-electronics.md
+  - "90_control/electronics-practice/failure-modes-electronics.md"
 tags:
-  - "#source_type/dark-knowledge"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
   - "#domain/electronics"
-  - "#hardware/debugging"
   - "#firmware/diagnostics"
+  - "#hardware/debugging"
+  - "#scene/business-analysis"
+  - "#scene/hardware-debugging"
+  - "#source_type/dark-knowledge"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
-  - dk-ef-001-sn74lvc2g07-open-drain
-  - dk-ef-002-bom-version-async
-  - dk-ef-003-hand-soldering-bom-divergence
+  - "dk-ef-001-sn74lvc2g07-open-drain"
+  - "dk-ef-002-bom-version-async"
+  - "dk-ef-003-hand-soldering-bom-divergence"
 ---
 
 # 没有诊断固件就是盲调：你不知道信号卡在哪一级

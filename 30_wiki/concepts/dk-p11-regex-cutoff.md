@@ -1,26 +1,30 @@
 ---
-id: dk-p11-regex-cutoff
+id: "dk-p11-regex-cutoff"
 title: "P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效"
-type: dark-knowledge
-dark_knowledge_type: failure
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "failure"
+status: "draft"
 domain:
-  - master
-source_person: system
+  - "master"
+source_person: "system"
 source_context: "pitfalls.md P-11"
 source_refs:
-  - .agent/pitfalls.md#P-11
+  - ".agent/pitfalls.md#P-11"
 tags:
-  - "#source_type/error"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
-  - dk-f13-handwritten-yaml-parser
+  - "dk-f13-handwritten-yaml-parser"
 contradicts:
-  - master-first-principles
-  - kdo-yaml-frontmatter-safety
+  - "master-first-principles"
+  - "kdo-yaml-frontmatter-safety"
 ---
 
 # P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效

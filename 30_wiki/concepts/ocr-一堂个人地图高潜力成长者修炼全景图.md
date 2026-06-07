@@ -1,17 +1,26 @@
 ---
-id: ocr-一堂个人地图高潜力成长者修炼全景图
+id: "ocr-一堂个人地图高潜力成长者修炼全景图"
 created_at: 2026-05-21
 domain:
-  - healthcare
+  - "healthcare"
 source_refs:
-  - src_20260522_9cb1d9d6
-status: enriched
+  - "src_20260522_9cb1d9d6"
+status: "enriched"
 title: "OCR: 一堂个人地图：高潜力成长者修炼全景图"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
 ---
-
-
 
 # OCR: 一堂个人地图：高潜力成长者修炼全景图
 

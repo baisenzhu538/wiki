@@ -1,25 +1,26 @@
 ---
-id: skill-月白-文创产品AI设计到生产的卡点预判
-title: 技能：文创产品AI设计到生产的卡点预判
-type: skill
-status: draft
-domain: []
-source_person: 月白
-source_context: 文创案例
-source_refs: []
-wiki_refs: []
+id: "skill-月白-文创产品AI设计到生产的卡点预判"
+title: "技能：文创产品AI设计到生产的卡点预判"
+type: "skill"
+status: "draft"
+domain:
+source_person: "月白"
+source_context: "文创案例"
+source_refs:
+wiki_refs:
 definition_of_done:
-  - 操作步骤清晰可执行
-  - 适用场景有正反例
-  - 工具要求明确
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
 tags:
-  - "#domain/design"
+  - "#confidence/draft"
   - "#domain/creative"
-tools_required: []
-prerequisite_skills: []
-related: []
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
+  - "#domain/design"
+tools_required:
+prerequisite_skills:
+related:
+created_at: "2026-06-07"
+updated_at: "2026-06-07"
 ---
 
 # 技能：文创产品AI设计到生产的卡点预判

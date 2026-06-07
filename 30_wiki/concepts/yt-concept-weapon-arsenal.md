@@ -1,41 +1,50 @@
 ---
-id: yt-concept-weapon-arsenal
-component_of: []
+id: "yt-concept-weapon-arsenal"
+component_of:
 confidence: 0.85
 created_at: 2026-05-13
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - master
+  - "master"
 estimated_tokens: 2800
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 超级武器库
-  - 武器库
-  - 小抄
-  - 速查表
-  - 执行武器库
-  - 策略集合
-  - 即查即用
-  - 战术集合
+  - "超级武器库"
+  - "武器库"
+  - "小抄"
+  - "速查表"
+  - "执行武器库"
+  - "策略集合"
+  - "即查即用"
+  - "战术集合"
 related:
-  - yt-model-personal-pitch-toolkit
-  - yt-personal-scientific-expression
-  - yt-model-prompt-engineering
-reviewed_by: 黄药师
+  - "yt-model-personal-pitch-toolkit"
+  - "yt-personal-scientific-expression"
+  - "yt-model-prompt-engineering"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png
-  - 10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型-执行武器库.png
-status: enriched
+  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+  - "10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型-执行武器库.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#meta-concept"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+  - "#yitang"
   - "#框架设计"
-title: 超级武器库（元概念）
-type: concept
+title: "超级武器库（元概念）"
+type: "concept"
 updated_at: 2026-05-13
 version: 1
 ---
+
 # 超级武器库（元概念）
 
 > 跨域通用概念：一种"即查即用、实战验证、自由排列组合"的战术集合形态。不附属于任何单一方法论域。

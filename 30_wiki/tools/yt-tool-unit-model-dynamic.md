@@ -4,17 +4,16 @@ date: "2026-05-24"
 type: "tool"
 status: "enriched"
 domain: "decision-science"
-source_refs: []
+source_refs:
 author: "一堂科学决策课程"
 component_of: "yt-decision-full-process"
-related:
-id: yt-tool-unit-model-dynamic
-  - "yt-unit-model-overview"
-  - "yt-unit-model-ladder"
-  - "yt-unit-model-benchmark"
-  - "yt-entrepreneur-five-step-method"
-  - "master-systems-thinking"
-  - "master-first-principles"
+related: ""
+id: "yt-tool-unit-model-dynamic - "yt-unit-model-overview" - "yt-unit-model-ladder" - "yt-unit-model-benchmark" - "yt-entrepreneur-five-step-method" - "master-systems-thinking" - "master-first-principles""
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
 ---
 
 ## Reusable Knowledge

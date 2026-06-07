@@ -1,46 +1,47 @@
 ---
-id: yt-panproduct-demand-multi-perspective
+id: "yt-panproduct-demand-multi-perspective"
 component_of:
-  - yt-model-pan-product-demand-toolkit
-confidence: 0.80
+  - "yt-model-pan-product-demand-toolkit"
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1204
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-composite-pan-product-methodology
+  - "yt-composite-pan-product-methodology"
 query_triggers:
-  - 多视角思考
-  - 泛产品设计
-  - 泛产品设计·用户卡片：多视角思考
-  - 用户卡片
-  - 用户研究
-  - 用户需求
-  - 需求分析
-  - 需求洞察
+  - "多视角思考"
+  - "泛产品设计"
+  - "泛产品设计·用户卡片：多视角思考"
+  - "用户卡片"
+  - "用户研究"
+  - "用户需求"
+  - "需求分析"
+  - "需求洞察"
 related:
-  - yt-panproduct-demand-project-background
-  - yt-panproduct-demand-user-segmentation
-reviewed_by: 黄药师
+  - "yt-panproduct-demand-project-background"
+  - "yt-panproduct-demand-user-segmentation"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/泛产品设计-用户卡片-多视角思考.png
-status: enriched
+  - "10_raw/assets/yitang/泛产品设计-用户卡片-多视角思考.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
   - "#pan-product-design"
-  - "#user-research"
   - "#perspective-taking"
-title: 泛产品设计·用户卡片：多视角思考
-type: tool
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#user-research"
+  - "#yitang"
+title: "泛产品设计·用户卡片：多视角思考"
+type: "tool"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: personal
-  module: 泛产品设计
-  course_type: card
-  level: intermediate
+yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
 ---
 
 # 多视角思考：综合内部/外部/角色考量

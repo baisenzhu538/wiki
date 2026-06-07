@@ -1,27 +1,37 @@
 ---
-id: case-半肥猫-conversion-hacker-skill
+id: "case-半肥猫-conversion-hacker-skill"
 title: "案例：一堂转化率黑客课→Skill ——从拿到资料到测试通过的完整历程"
-type: case
-status: draft
+type: "case"
+status: "draft"
 domain:
-  - ai-collaboration
-  - yitang
-source_person: 半肥猫
+  - "ai-collaboration"
+  - "yitang"
+source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
-  - 00_inbox/半肥猫-AI学习落地-口述.md
+  - "00_inbox/半肥猫-AI学习落地-口述.md"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#confidence/verified-by-test"
   - "#domain/ai-collaboration"
   - "#domain/yitang"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
   - "#type/case"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
-  - concept-半肥猫-ai-learning-toolification-methodology
-  - skill-半肥猫-课程Skill化的八步工作流
-  - skill-半肥猫-判断课程是否值得做成Skill
-  - skill-半肥猫-设计Skill的评分规则与风险边界
-  - case-半肥猫-skill-ab-test
+  - "concept-半肥猫-ai-learning-toolification-methodology"
+  - "skill-半肥猫-课程Skill化的八步工作流"
+  - "skill-半肥猫-判断课程是否值得做成Skill"
+  - "skill-半肥猫-设计Skill的评分规则与风险边界"
+  - "case-半肥猫-skill-ab-test"
 ---
 
 # 案例：一堂转化率黑客课→Skill

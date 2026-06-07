@@ -1,15 +1,23 @@
 ---
-id: yitang-huazong-ama-summary
+id: "yitang-huazong-ama-summary"
 created_at: 2026-05-29
 domain:
-  - healthcare
+  - "healthcare"
 source_refs:
-  - src_20260529_huazong_ama
-status: stable
+  - "src_20260529_huazong_ama"
+status: "stable"
 tags:
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/hardware-debugging"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
   - "[AI落地, 一堂, 花总, 商业突破, 多行业AI, 摘要]"
-title: 花总AMA精华摘要（商业突破大航海）
-type: concept
+title: "花总AMA精华摘要（商业突破大航海）"
+type: "concept"
 updated_at: 2026-05-29
 ---
 

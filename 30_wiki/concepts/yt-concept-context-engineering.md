@@ -1,36 +1,45 @@
 ---
-id: yt-concept-context-engineering
-title: 上下文工程：充分≠越多越好
-type: concept
-status: enriched
+id: "yt-concept-context-engineering"
+title: "上下文工程：充分≠越多越好"
+type: "concept"
+status: "enriched"
 domain:
-  - yitang
-  - ai
-language: zh-CN
+  - "yitang"
+  - "ai"
+language: "zh-CN"
 version: 1
-difficulty: intermediate
+difficulty: "intermediate"
 confidence: 0.85
 prerequisites:
-  - yt-model-prompt-engineering
+  - "yt-model-prompt-engineering"
 source_refs:
-  - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
-  - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
+  - "10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
+  - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
 query_triggers:
-  - 上下文工程
-  - 背景信息
-  - 充分不等于越多越好
-  - 信息干扰
-  - 脱敏处理
-  - 对话窗口隔离
-  - 复述验证
-
+  - "上下文工程"
+  - "背景信息"
+  - "充分不等于越多越好"
+  - "信息干扰"
+  - "脱敏处理"
+  - "对话窗口隔离"
+  - "复述验证"
 tags:
-  - '#yitang'
-  - '#ai'
-  - '#prompt-engineering'
-  - '#context'
-created_at: '2026-05-13'
-updated_at: '2026-05-13'
+  - "#ai"
+  - "#boundary/not-for-creative"
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#context"
+  - "#prompt-engineering"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
+  - "#yitang"
+created_at: "2026-05-13"
+updated_at: "2026-05-13"
 estimated_tokens: 3400
 ---
 

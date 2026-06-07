@@ -1,11 +1,11 @@
 ---
-id: yt-unit-model-overview
+id: "yt-unit-model-overview"
 title: "单元模型概述：从最小经济单元到商业判断框架"
-type: framework
+type: "framework"
 domain:
-  - entrepreneur
-  - master
-status: draft
+  - "entrepreneur"
+  - "master"
+status: "draft"
 source_refs:
   - "src_20260524_8a3b1c2d-一堂-单元模型01口述"
   - "src_20260524_9f4e5d6a-一堂-单元模型02口述"
@@ -17,15 +17,23 @@ updated_at: "2026-05-24"
 author: "老顽童"
 reviewed_by: ""
 related:
-  - yt-unit-model-ladder
-  - yt-unit-model-selection
-  - yt-unit-model-construction
-  - yt-unit-model-benchmark
-  - yt-unit-model-dynamic
-  - yt-unit-model-ai-assisted
-  - yt-entrepreneur-five-step-method
-  - yt-decision-y-model
-  - yt-entrepreneur-key-hypotheses
+  - "yt-unit-model-ladder"
+  - "yt-unit-model-selection"
+  - "yt-unit-model-construction"
+  - "yt-unit-model-benchmark"
+  - "yt-unit-model-dynamic"
+  - "yt-unit-model-ai-assisted"
+  - "yt-entrepreneur-five-step-method"
+  - "yt-decision-y-model"
+  - "yt-entrepreneur-key-hypotheses"
+tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
 ---
 
 # 单元模型概述：从最小经济单元到商业判断框架

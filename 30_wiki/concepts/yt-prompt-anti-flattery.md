@@ -1,40 +1,44 @@
 ---
-id: yt-prompt-anti-flattery
-title: 反谄媚机制：让AI说真话
-type: tool
-status: enriched
+id: "yt-prompt-anti-flattery"
+title: "反谄媚机制：让AI说真话"
+type: "tool"
+status: "enriched"
 domain:
-  - yitang
-  - ai
-language: zh-CN
+  - "yitang"
+  - "ai"
+language: "zh-CN"
 version: 1
-difficulty: intermediate
-confidence: 0.90
+difficulty: "intermediate"
+confidence: 0.9
 prerequisites:
-  - yt-model-prompt-engineering
+  - "yt-model-prompt-engineering"
 component_of:
-  - yt-model-prompt-engineering
+  - "yt-model-prompt-engineering"
 source_refs:
-  - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
-  - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
+  - "10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
+  - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
 query_triggers:
-  - 反谄媚
-  - AI迎合
-  - 确认偏误
-  - 反对者角色
-  - 交叉验证
-  - 去正向形容词
-  - 先问缺点
-  - 证伪实验
-  - 认知泡泡
-
+  - "反谄媚"
+  - "AI迎合"
+  - "确认偏误"
+  - "反对者角色"
+  - "交叉验证"
+  - "去正向形容词"
+  - "先问缺点"
+  - "证伪实验"
+  - "认知泡泡"
 tags:
-  - '#yitang'
-  - '#ai'
-  - '#prompt-engineering'
-  - '#cognitive-bias'
-created_at: '2026-05-13'
-updated_at: '2026-05-13'
+  - "#ai"
+  - "#boundary/requires-human-judgment"
+  - "#cognitive-bias"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#prompt-engineering"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#yitang"
+created_at: "2026-05-13"
+updated_at: "2026-05-13"
 estimated_tokens: 2200
 ---
 

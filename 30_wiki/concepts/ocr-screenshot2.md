@@ -1,18 +1,21 @@
 ---
-id: ocr-screenshot2
+id: "ocr-screenshot2"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - "ai-saas"
 source_refs:
-  - src_20260522_961e1d68
-status: enriched
+  - "src_20260522_961e1d68"
+status: "enriched"
 title: "OCR: screenshot2"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
-
-
-
 
 # OCR: screenshot2
 

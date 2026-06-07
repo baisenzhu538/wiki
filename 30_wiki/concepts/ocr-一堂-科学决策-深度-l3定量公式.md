@@ -1,17 +1,20 @@
 ---
-id: ocr-一堂-科学决策-深度-l3定量公式
+id: "ocr-一堂-科学决策-深度-l3定量公式"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_80e1b943
-status: enriched
+  - "src_20260522_80e1b943"
+status: "enriched"
 title: "OCR: 一堂-科学决策-深度-L3定量公式"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
 ---
-
-
 
 # OCR: 一堂-科学决策-深度-L3定量公式
 

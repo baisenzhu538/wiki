@@ -1,53 +1,58 @@
 ---
-id: yt-unit-model-construction
-component_of: []
+id: "yt-unit-model-construction"
+component_of:
 confidence: 0.85
 created_at: 2026-05-24
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - entrepreneur
-  - master
+  - "entrepreneur"
+  - "master"
 estimated_tokens: 2800
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-unit-model-overview
-  - yt-unit-model-selection
+  - "yt-unit-model-overview"
+  - "yt-unit-model-selection"
 query_triggers:
-  - 拆推评算
-  - 练推借查
-  - 单元模型构建
-  - ABCD模型
-  - 成本收入项清单
-  - 单元模型公式
+  - "拆推评算"
+  - "练推借查"
+  - "单元模型构建"
+  - "ABCD模型"
+  - "成本收入项清单"
+  - "单元模型公式"
 related:
-  - yt-unit-model-ladder
-  - yt-unit-model-selection
-  - yt-unit-model-benchmark
-  - yt-unit-model-dynamic
-  - yt-entrepreneur-five-step-method
-  - yt-decision-y-model
-reviewed_by: 
+  - "yt-unit-model-ladder"
+  - "yt-unit-model-selection"
+  - "yt-unit-model-benchmark"
+  - "yt-unit-model-dynamic"
+  - "yt-entrepreneur-five-step-method"
+  - "yt-decision-y-model"
+reviewed_by: ""
 source_refs:
-  - src_20260524_9f4e5d6a-一堂-单元模型02口述
-  - src_20260524_7c8d9e0f-一堂-单元模型03口述
-  - src_20260524_6b5a4c3d-一堂-单元模型04口述
-status: draft
+  - "src_20260524_9f4e5d6a-一堂-单元模型02口述"
+  - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
+  - "src_20260524_6b5a4c3d-一堂-单元模型04口述"
+status: "draft"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#entrepreneur"
+  - "#financial-modeling"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
   - "#tool"
   - "#unit-model"
-  - "#financial-modeling"
-title: 单元模型构建法：拆推评算与ABCD模型分类
-trust_level: high
-type: tool
+  - "#yitang"
+title: "单元模型构建法：拆推评算与ABCD模型分类"
+trust_level: "high"
+type: "tool"
 updated_at: 2026-05-25
 version: 1
-yitang:
-  map: entrepreneur
-  module: 创业必修
-  course_type: tool
-  level: intermediate
+yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'tool', 'level': 'intermediate'}
 ---
 
 # 单元模型构建法：拆推评算与ABCD模型分类

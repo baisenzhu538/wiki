@@ -1,18 +1,23 @@
 ---
-id: ocr-预判模型
+id: "ocr-预判模型"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - "ai-saas"
 source_refs:
-  - src_20260522_e71d89ff
-status: enriched
+  - "src_20260522_e71d89ff"
+status: "enriched"
 title: "OCR: 预判模型"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
 ---
-
-
-
 
 # OCR: 预判模型
 
@@ -95,4 +100,3 @@ Capability: playbook
 |---------|-----------|---------|
 | 面对一个新场景需要快速做出预判 | 先用N要素最糙版（2-3个核心要素）快速定性——如果2分钟内说不出3个要素，说明你对这个场景还不够熟悉，需要先做更多研究 | N要素版在2分钟内完成，且至少3个要素中有一个是“非常意外”的（不是“质量好”“用户多”这种毫无信息量的常见词） |
 | 已经用预判模型得出了“推荐”结论 | 停下来做“反例审计”——如果这个预判是错的，最可能的原因是什么？我是否排除了某些关键维度？ | 能说出至少1个“如果这个预判失败，最可能的原因”，并确认这个原因不在你的预判框架中 |
-

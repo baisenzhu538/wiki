@@ -1,45 +1,44 @@
 ---
-id: yt-entrepreneur-industrial-production
-component_of: []
-confidence: 0.80
+id: "yt-entrepreneur-industrial-production"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1874
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 工业化生产
-  - 标准化流程
-  - 创业SOP
-  - 可复制性
-  - 规模化前提
-  - 手工转工业化
-  - 流程标准化
-  - 创业效率
-  - 工具链自动化
-  - 内容产品化
-related:
-  series: false
+  - "工业化生产"
+  - "标准化流程"
+  - "创业SOP"
+  - "可复制性"
+  - "规模化前提"
+  - "手工转工业化"
+  - "流程标准化"
+  - "创业效率"
+  - "工具链自动化"
+  - "内容产品化"
+related: {'series': False}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
   - "#yitang"
-title: 工业化生产
-trust_level: medium
-type: tool
+title: "工业化生产"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: entrepreneur
-  module: 工业化生产
-  course_id: yt-entrepreneur-industrial-production
-  course_type: method
-  level: advanced
+yitang: {'map': 'entrepreneur', 'module': '工业化生产', 'course_id': 'yt-entrepreneur-industrial-production', 'course_type': 'method', 'level': 'advanced'}
 ---
 
 # 工业化生产

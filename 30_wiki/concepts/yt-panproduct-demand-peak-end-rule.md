@@ -1,47 +1,51 @@
 ---
-id: yt-panproduct-demand-peak-end-rule
+id: "yt-panproduct-demand-peak-end-rule"
 component_of:
-  - yt-model-pan-product-demand-toolkit
-confidence: 0.80
+  - "yt-model-pan-product-demand-toolkit"
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2500
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-composite-pan-product-methodology
+  - "yt-composite-pan-product-methodology"
 query_triggers:
-  - 峰终定律
-  - 泛产品设计
-  - 泛产品设计·用户卡片：峰终定律
-  - 用户卡片
-  - 用户研究
-  - 用户需求
-  - 需求分析
-  - 需求洞察
+  - "峰终定律"
+  - "泛产品设计"
+  - "泛产品设计·用户卡片：峰终定律"
+  - "用户卡片"
+  - "用户研究"
+  - "用户需求"
+  - "需求分析"
+  - "需求洞察"
 related:
-  - yt-panproduct-demand-surprise-formula
-  - yt-panproduct-demand-motivation-resistance
-  - yt-model-conversion-optimization
-reviewed_by: 黄药师
+  - "yt-panproduct-demand-surprise-formula"
+  - "yt-panproduct-demand-motivation-resistance"
+  - "yt-model-conversion-optimization"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/泛产品设计-用户卡片-峰终定律.png
-status: enriched
+  - "10_raw/assets/yitang/泛产品设计-用户卡片-峰终定律.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-beginners"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#pan-product-design"
-  - "#user-experience"
   - "#peak-end-rule"
-title: 泛产品设计·用户卡片：峰终定律
-type: tool
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
+  - "#user-experience"
+  - "#yitang"
+title: "泛产品设计·用户卡片：峰终定律"
+type: "tool"
 updated_at: 2026-05-13
 version: 1
-yitang:
-  map: personal
-  module: 泛产品设计
-  course_type: card
-  level: intermediate
+yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
 ---
 
 # 峰终定律：用户体验的二八定律

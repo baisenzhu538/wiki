@@ -1,54 +1,53 @@
 ---
-id: yt-research-mindset
-component_of: []
+id: "yt-research-mindset"
+component_of:
 confidence: 0.85
 created_at: 2026-05-18
-difficulty: advanced
+difficulty: "advanced"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2200
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-research-osl-framework
-  - yt-research-hypothesis-test
+  - "yt-research-osl-framework"
+  - "yt-research-hypothesis-test"
 query_triggers:
-  - 调研思维
-  - 调研认知
-  - 调研方法论
-  - 假设驱动
-  - 调研方式
-  - 怎么做调研
+  - "调研思维"
+  - "调研认知"
+  - "调研方法论"
+  - "假设驱动"
+  - "调研方式"
+  - "怎么做调研"
 related:
-  - yt-research-osl-framework
-  - yt-research-hypothesis-test
-  - yt-research-competitor-toolkit
-  - yt-research-user-jtbd
-  - yt-research-intelligence-map
-  - yt-research-expert-interview
-  - yt-research-industry-canvas
-  - yt-decision-y-model
-  - yt-entrepreneur-key-hypotheses
-reviewed_by: 
+  - "yt-research-osl-framework"
+  - "yt-research-hypothesis-test"
+  - "yt-research-competitor-toolkit"
+  - "yt-research-user-jtbd"
+  - "yt-research-intelligence-map"
+  - "yt-research-expert-interview"
+  - "yt-research-industry-canvas"
+  - "yt-decision-y-model"
+  - "yt-entrepreneur-key-hypotheses"
+reviewed_by: ""
 source_refs:
-  - 00_inbox/ideas/一堂-创业必修-调研武器库.md
-  - 00_inbox/ideas/一堂-创业必修-调研行动营.md
-  - 00_inbox/ideas/一堂-创业必修-需求分析.md
-status: reviewed
+  - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
+  - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
+  - "00_inbox/ideas/一堂-创业必修-需求分析.md"
+status: "reviewed"
 tags:
-  - "#yitang"
-  - "#research"
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
   - "#concept"
-title: 调研认知升级：从"找答案"到"拆解假设"
-trust_level: medium
-type: concept
+  - "#confidence/source-cited"
+  - "#research"
+  - "#scene/learning-methodology"
+  - "#yitang"
+title: "调研认知升级：从"找答案"到"拆解假设""
+trust_level: "medium"
+type: "concept"
 updated_at: 2026-05-18
 version: 1
-yitang:
-  map: entrepreneur
-  module: 调研方法论
-  course_id: yt-research-mindset
-  course_type: concept
-  level: advanced
+yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-mindset', 'course_type': 'concept', 'level': 'advanced'}
 ---
 
 # 调研认知升级：从"找答案"到"拆解假设"

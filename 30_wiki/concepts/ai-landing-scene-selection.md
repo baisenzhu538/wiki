@@ -1,20 +1,30 @@
 ---
-id: ai-landing-scene-selection
-type: concept
-status: draft
+id: "ai-landing-scene-selection"
+type: "concept"
+status: "draft"
 source_refs:
-  - src_20260606_ef4877d0
-component_of: []
+  - "src_20260606_ef4877d0"
+component_of:
 related:
-  - find-old-do-small
-  - ai-learning-closed-loop
-  - course-to-skill-conversion
+  - "find-old-do-small"
+  - "ai-learning-closed-loop"
+  - "course-to-skill-conversion"
 query_triggers:
   - "AI怎么落地"
   - "什么场景适合AI"
   - "AI项目为什么失败"
   - "业务人员怎么用AI"
-reviewed_by: ''
+reviewed_by: ""
+tags:
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
 
 # AI落地场景识别：从"找老的干小的"开始

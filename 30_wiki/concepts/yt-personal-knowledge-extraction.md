@@ -1,44 +1,49 @@
 ---
-id: yt-personal-knowledge-extraction
-component_of: []
-confidence: 0.80
+id: "yt-personal-knowledge-extraction"
+component_of:
+confidence: 0.8
 created_at: 2026-05-07
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3000
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 知识萃取
-  - 经验萃取方法论
-  - 案例大爆炸
-  - 辩证式讨论
-  - 专家访谈技巧
-  - 方法论建模
-  - 知行合一验证
-  - 全网调研
-  - PRD自查清单
-  - 知识体系搭建
-related:
-  level: advanced
-reviewed_by: 黄药师
+  - "知识萃取"
+  - "经验萃取方法论"
+  - "案例大爆炸"
+  - "辩证式讨论"
+  - "专家访谈技巧"
+  - "方法论建模"
+  - "知行合一验证"
+  - "全网调研"
+  - "PRD自查清单"
+  - "知识体系搭建"
+related: {'level': 'advanced'}
+reviewed_by: "黄药师"
 source_refs:
-  - 00_inbox/一堂-个人修炼-知识萃取探索营口述版.txt
-status: enriched
+  - "00_inbox/一堂-个人修炼-知识萃取探索营口述版.txt"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#knowledge-extraction"
   - "#methodology"
   - "#personal-growth"
-title: 知识萃取方法论
-type: tool
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
+  - "#yitang"
+title: "知识萃取方法论"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: personal
-  module: 个人修炼
-  course_type: explore_camp
+yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'explore_camp'}
 ---
 
 # 一堂知识萃取探索营：从碎片经验到确定模型

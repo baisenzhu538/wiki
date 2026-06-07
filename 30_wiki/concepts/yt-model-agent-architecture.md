@@ -1,43 +1,49 @@
 ---
-id: yt-model-agent-architecture
-component_of: []
+id: "yt-model-agent-architecture"
+component_of:
 confidence: 0.85
 created_at: 2026-05-15
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - ai-models
-language: zh-CN
-prerequisites: []
+  - "ai-models"
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - PEAS框架
-  - 智能体架构
-  - agent架构层级
-  - 理性智能体
-  - 效用最大化决策
-  - 简单反射agent
-  - 学习型agent
-  - 五层agent模型
-  - 任务环境分类
-  - 智能体设计
+  - "PEAS框架"
+  - "智能体架构"
+  - "agent架构层级"
+  - "理性智能体"
+  - "效用最大化决策"
+  - "简单反射agent"
+  - "学习型agent"
+  - "五层agent模型"
+  - "任务环境分类"
+  - "智能体设计"
 related:
-  - yt-concept-ai-guard-brain
-  - yt-personal-ai-capability
-  - yt-model-prompt-engineering
-  - yt-personal-deliberate-practice
-  - yt-model-deep-review-iceberg
+  - "yt-concept-ai-guard-brain"
+  - "yt-personal-ai-capability"
+  - "yt-model-prompt-engineering"
+  - "yt-personal-deliberate-practice"
+  - "yt-model-deep-review-iceberg"
 review_date: 2026-05-15
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/aima-ai-thinking-card-20260515.html
-status: enriched
+  - "10_raw/sources/aima-ai-thinking-card-20260515.html"
+status: "enriched"
 tags:
   - "#ai"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
   - "#decision-making"
   - "#mental-models"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
   - "#systems-thinking"
-title: 智能体架构：PEAS与五层Agent模型
-trust_level: medium
-type: framework
+title: "智能体架构：PEAS与五层Agent模型"
+trust_level: "medium"
+type: "framework"
 updated_at: 2026-05-15
 version: 1
 ---

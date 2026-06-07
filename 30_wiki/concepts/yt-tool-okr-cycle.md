@@ -1,65 +1,67 @@
 ---
-id: yt-tool-okr-cycle
+id: "yt-tool-okr-cycle"
 component_of:
-  - yt-management-toolkit-overview
+  - "yt-management-toolkit-overview"
 confidence: 0.82
 created_at: 2026-05-19
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3300
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-management-toolkit-overview
+  - "yt-management-toolkit-overview"
 query_triggers:
-  - OKR制定
-  - OKR复盘
-  - 目标管理工具
-  - 关键结果量化
-  - OKR与KPI区别
-  - 目标对齐
-  - 周度OKR追踪
-  - 季度复盘
-  - OKR模板
-  - OKR落地
-  - 团队目标管理
-  - OKR设定流程
-  - OKR评分
-  - OKR工具
-  - 目标拆解
-  - 关键结果设定
-  - OKR周会
-  - OKR季度复盘
-  - 目标追踪工具
-  - OKR实施指南
+  - "OKR制定"
+  - "OKR复盘"
+  - "目标管理工具"
+  - "关键结果量化"
+  - "OKR与KPI区别"
+  - "目标对齐"
+  - "周度OKR追踪"
+  - "季度复盘"
+  - "OKR模板"
+  - "OKR落地"
+  - "团队目标管理"
+  - "OKR设定流程"
+  - "OKR评分"
+  - "OKR工具"
+  - "目标拆解"
+  - "关键结果设定"
+  - "OKR周会"
+  - "OKR季度复盘"
+  - "目标追踪工具"
+  - "OKR实施指南"
 related:
-  - yt-management-goal-management
-  - yt-management-business-formula
-  - yt-management-project-management
-  - yt-management-scientific-meetings
-  - yt-tool-meeting-designer
-  - yt-decision-canvas
-  - yt-decision-habit-shift
-  - master-decision-hygiene
+  - "yt-management-goal-management"
+  - "yt-management-business-formula"
+  - "yt-management-project-management"
+  - "yt-management-scientific-meetings"
+  - "yt-tool-meeting-designer"
+  - "yt-decision-canvas"
+  - "yt-decision-habit-shift"
+  - "master-decision-hygiene"
 source_refs:
-  - 30_wiki/concepts/yt-management-goal-management.md
-status: draft
+  - "30_wiki/concepts/yt-management-goal-management.md"
+status: "draft"
 tags:
-  - "#yitang"
-  - "#management"
-  - "#tool"
-  - "#okr"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#goal-management"
-title: OKR 制定与复盘罗盘
-trust_level: medium
-type: tool
+  - "#management"
+  - "#okr"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+  - "#tool"
+  - "#yitang"
+title: "OKR 制定与复盘罗盘"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-19
 version: 1
-yitang:
-  map: management
-  module: 管业务
-  course_type: tool
-  level: core
+yitang: {'map': 'management', 'module': '管业务', 'course_type': 'tool', 'level': 'core'}
 ---
 
 # OKR 制定与复盘罗盘

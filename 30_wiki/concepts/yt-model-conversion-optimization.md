@@ -1,44 +1,46 @@
 ---
-id: yt-model-conversion-optimization
-component_of: []
+id: "yt-model-conversion-optimization"
+component_of:
 confidence: 0.85
 created_at: 2026-05-11
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3000
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - FAB 核心说服
-  - 两者联合使用
-  - 动力三曲线
-  - 动力三曲线图
-  - 动力三曲线模型
-  - 十大浪费触点
-  - 十大浪费触点清单
-  - 转化率优化
-  - 转化率优化：动力三曲线 × 十大浪费触点
-related:
-  level: intermediate
-reviewed_by: 黄药师
+  - "FAB 核心说服"
+  - "两者联合使用"
+  - "动力三曲线"
+  - "动力三曲线图"
+  - "动力三曲线模型"
+  - "十大浪费触点"
+  - "十大浪费触点清单"
+  - "转化率优化"
+  - "转化率优化：动力三曲线 × 十大浪费触点"
+related: {'level': 'intermediate'}
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/一堂最佳转化率动力曲线图.png
-  - 10_raw/assets/yitang/一堂转化率-10大容易浪费的触点.png
-status: enriched
+  - "10_raw/assets/yitang/一堂最佳转化率动力曲线图.png"
+  - "10_raw/assets/yitang/一堂转化率-10大容易浪费的触点.png"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#management"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-test"
   - "#conversion-optimization"
   - "#growth"
-title: 转化率优化：动力三曲线 × 十大浪费触点
-type: framework
+  - "#management"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+  - "#yitang"
+title: "转化率优化：动力三曲线 × 十大浪费触点"
+type: "framework"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: management
-  module: 管理必修
-  course_type: framework
+yitang: {'map': 'management', 'module': '管理必修', 'course_type': 'framework'}
 ---
 
 # 转化率优化：动力三曲线 × 十大浪费触点

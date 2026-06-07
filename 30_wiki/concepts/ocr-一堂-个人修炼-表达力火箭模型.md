@@ -1,17 +1,20 @@
 ---
-id: ocr-一堂-个人修炼-表达力火箭模型
+id: "ocr-一堂-个人修炼-表达力火箭模型"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_f6f8f8eb
-status: enriched
+  - "src_20260522_f6f8f8eb"
+status: "enriched"
 title: "OCR: 一堂-个人修炼-表达力火箭模型"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/learning-methodology"
 ---
-
-
 
 # OCR: 一堂-个人修炼-表达力火箭模型
 

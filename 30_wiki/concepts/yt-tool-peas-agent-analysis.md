@@ -1,45 +1,50 @@
 ---
-id: yt-tool-peas-agent-analysis
+id: "yt-tool-peas-agent-analysis"
 component_of:
-  - yt-model-cognitive-upgrade-framework
+  - "yt-model-cognitive-upgrade-framework"
 confidence: 0.85
 created_at: 2026-05-15
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - master
-language: zh-CN
+  - "master"
+language: "zh-CN"
 prerequisites:
-  - yt-model-agent-architecture
+  - "yt-model-agent-architecture"
 query_triggers:
-  - PEAS分析
-  - 智能体自我诊断
-  - 用AI思维分析问题
-  - 如何定义成功指标
-  - 决策系统设计
-  - 五层agent诊断
-  - 效用函数怎么写
-  - 任务环境分析
-  - 架构错配诊断
-  - 理性决策框架
+  - "PEAS分析"
+  - "智能体自我诊断"
+  - "用AI思维分析问题"
+  - "如何定义成功指标"
+  - "决策系统设计"
+  - "五层agent诊断"
+  - "效用函数怎么写"
+  - "任务环境分析"
+  - "架构错配诊断"
+  - "理性决策框架"
 related:
-  - yt-model-agent-architecture
-  - yt-concept-ai-guard-brain
-  - yt-personal-ai-capability
+  - "yt-model-agent-architecture"
+  - "yt-concept-ai-guard-brain"
+  - "yt-personal-ai-capability"
 review_date: 2026-05-15
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/aima-ai-thinking-card-20260515.html
-  - 10_raw/sources/aima-ai-thinking-card-20260515.md
-status: enriched
+  - "10_raw/sources/aima-ai-thinking-card-20260515.html"
+  - "10_raw/sources/aima-ai-thinking-card-20260515.md"
+status: "enriched"
 tags:
   - "#ai"
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
   - "#decision-making"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
   - "#self-diagnosis"
   - "#systems-thinking"
   - "#tools"
-title: PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统
-trust_level: medium
-type: tool
+title: "PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-15
 version: 1
 ---

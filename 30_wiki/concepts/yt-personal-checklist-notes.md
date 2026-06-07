@@ -1,51 +1,56 @@
 ---
-id: yt-personal-checklist-notes
-component_of: []
+id: "yt-personal-checklist-notes"
+component_of:
 confidence: 0.85
 created_at: 2026-05-06
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 4500
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 清单体笔记
-  - 清单式笔记
-  - 检查清单
-  - 步骤清单
-  - 诊断清单
-  - 三阶清单体系
-  - 可执行清单
-  - 销冠小抄
-  - 复盘四步法
-  - 如何做笔记
-  - 一堂笔记法
-  - 笔记进阶
-  - 笔记五阶段
-  - 刻意练习记笔记
-related:
-  series: false
+  - "清单体笔记"
+  - "清单式笔记"
+  - "检查清单"
+  - "步骤清单"
+  - "诊断清单"
+  - "三阶清单体系"
+  - "可执行清单"
+  - "销冠小抄"
+  - "复盘四步法"
+  - "如何做笔记"
+  - "一堂笔记法"
+  - "笔记进阶"
+  - "笔记五阶段"
+  - "刻意练习记笔记"
+related: {'series': False}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
-  - 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
+  - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
+status: "enriched"
 tags:
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
   - "#yitang"
-title: 清单体笔记（一堂笔记法）
-trust_level: medium
-type: tool
+title: "清单体笔记（一堂笔记法）"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-06-07
 version: 2
-yitang:
-  map: personal
-  module: 清单体笔记
-  course_id: 407
-  course_type: method
-  level: core
+yitang: {'map': 'personal', 'module': '清单体笔记', 'course_id': 407, 'course_type': 'method', 'level': 'core'}
 ---
 
 # 清单体笔记（一堂笔记法）

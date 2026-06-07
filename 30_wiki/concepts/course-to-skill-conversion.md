@@ -1,20 +1,31 @@
 ---
-id: course-to-skill-conversion
-type: tool
-status: draft
+id: "course-to-skill-conversion"
+type: "tool"
+status: "draft"
 source_refs:
-  - src_20260606_90b44191
+  - "src_20260606_90b44191"
 component_of:
-  - ai-learning-closed-loop
+  - "ai-learning-closed-loop"
 related:
-  - ai-learning-closed-loop
-  - prd-as-ai-instruction
-  - structured-ai-workspace
+  - "ai-learning-closed-loop"
+  - "prd-as-ai-instruction"
+  - "structured-ai-workspace"
 query_triggers:
   - "怎么把课程变成skill"
   - "AI skill怎么开发"
   - "课程作业怎么升级成工具"
-reviewed_by: ''
+reviewed_by: ""
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#confidence/verified-by-test"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
 
 # 课程→Skill转化：将知识变成AI可执行的能力模块

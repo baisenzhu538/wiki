@@ -1,54 +1,51 @@
 ---
-id: yt-entrepreneur-product-core
-component_of: []
+id: "yt-entrepreneur-product-core"
+component_of:
 confidence: 0.85
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 4800
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
+  - "yt-entrepreneur-five-step-method"
+  - "yt-entrepreneur-key-hypotheses"
 query_triggers:
-  - 产品内核
-  - 产品定义
-  - 最小解决方案
-  - 内核迭代
-  - 内核验证
-  - 关键转化率
-  - 六个段位
-  - 过早细化
-  - 做而不信
-  - 用户视角
-related:
-  series: false
+  - "产品内核"
+  - "产品定义"
+  - "最小解决方案"
+  - "内核迭代"
+  - "内核验证"
+  - "关键转化率"
+  - "六个段位"
+  - "过早细化"
+  - "做而不信"
+  - "用户视角"
+related: {'series': False}
 review_date: 2026-06-06
-reviewed_by: ''
+reviewed_by: ""
 source_refs:
-  - 00_inbox/一堂-产品内核迭代课-Truman-口述.txt
-  - 00_inbox/一堂-产品内核验证课-Truman-口述.txt
-  - 00_inbox/一堂-产品内核实操课-truman-口述.txt
-  - 00_inbox/一堂-产品内核迭代课-Truman-笔记.txt
-  - 00_inbox/一堂-产品内核验证课-truman-笔记.txt
-  - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
-status: enriched
+  - "00_inbox/一堂-产品内核迭代课-Truman-口述.txt"
+  - "00_inbox/一堂-产品内核验证课-Truman-口述.txt"
+  - "00_inbox/一堂-产品内核实操课-truman-口述.txt"
+  - "00_inbox/一堂-产品内核迭代课-Truman-笔记.txt"
+  - "00_inbox/一堂-产品内核验证课-truman-笔记.txt"
+  - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
+status: "enriched"
 tags:
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/skill-engineering"
   - "#yitang"
   - "#产品内核"
   - "#创业"
-title: 产品内核定义、迭代与验证方法论
-trust_level: medium
-type: tool
+title: "产品内核定义、迭代与验证方法论"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-06-06
 version: 2
-yitang:
-  map: entrepreneur
-  module: 产品内核
-  course_id: yt-entrepreneur-product-core
-  course_type: method
-  level: foundational
+yitang: {'map': 'entrepreneur', 'module': '产品内核', 'course_id': 'yt-entrepreneur-product-core', 'course_type': 'method', 'level': 'foundational'}
 ---
 
 # 产品内核定义、迭代与验证方法论

@@ -1,14 +1,20 @@
 ---
-id: meta-prompt-eng
+id: "meta-prompt-eng"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - "ai-saas"
 source_refs:
-  - src_20260522_a89ab860
-status: draft
-title: Meta Prompt Eng
-type: concept
+  - "src_20260522_a89ab860"
+status: "draft"
+title: "Meta Prompt Eng"
+type: "concept"
 updated_at: 2026-05-21
+tags:
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
 ---
 
 # Meta Prompt Eng

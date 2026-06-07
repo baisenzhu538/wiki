@@ -1,44 +1,44 @@
 ---
-title: 转化率黑客
-type: concept
-status: enriched
-domain:
-id: yt-management-conversion-hacking
-  - yitang
-yitang:
-  map: management
-  module: 转化率黑客
-  course_id: yt-management-conversion-hacking
-  course_type: method
-  level: core
-  series: true
+title: "转化率黑客"
+type: "concept"
+status: "enriched"
+domain: ""
+id: "yt-management-conversion-hacking - yitang"
+yitang: {'map': 'management', 'module': '转化率黑客', 'course_id': 'yt-management-conversion-hacking', 'course_type': 'method', 'level': 'core', 'series': True}
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-18'
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+created_at: "2026-05-06"
+updated_at: "2026-05-18"
 estimated_tokens: 3400
-reviewed_by: 黄药师
-review_date: '2026-05-08'
-trust_level: medium
+reviewed_by: "黄药师"
+review_date: "2026-05-08"
+trust_level: "medium"
 related:
-  - yt-entrepreneur-lean-validation
-  - yt-management-business-formula
-  - yt-management-goal-management
-  - yt-management-scientific-decision
+  - "yt-entrepreneur-lean-validation"
+  - "yt-management-business-formula"
+  - "yt-management-goal-management"
+  - "yt-management-scientific-decision"
 query_triggers:
-  - 转化率优化
-  - 转化率提升方法
-  - CRO转化率优化
-  - A/B测试
-  - 转化漏斗分析
-  - 用户为什么不下单
-  - 动力阻力触点模型
-  - 着陆页优化
-  - 降低购买摩擦
-  - 增长转化
+  - "转化率优化"
+  - "转化率提升方法"
+  - "CRO转化率优化"
+  - "A/B测试"
+  - "转化漏斗分析"
+  - "用户为什么不下单"
+  - "动力阻力触点模型"
+  - "着陆页优化"
+  - "降低购买摩擦"
+  - "增长转化"
 tags:
-  - '#yitang'
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#confidence/verified-by-test"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
+  - "#yitang"
 ---
+
 # 转化率黑客
 
 > 来源：一堂管理必修课「管业务」模块，共5节系列课（认知篇/动力实操/阻力实操/触点实操/组合落地）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

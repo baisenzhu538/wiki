@@ -1,38 +1,44 @@
 ---
-id: yt-prompt-iterative-prompting
-title: 迭代式提示词工作流（5步法）
-type: tool
-status: enriched
+id: "yt-prompt-iterative-prompting"
+title: "迭代式提示词工作流（5步法）"
+type: "tool"
+status: "enriched"
 domain:
-  - yitang
-  - ai
-language: zh-CN
+  - "yitang"
+  - "ai"
+language: "zh-CN"
 version: 1
-difficulty: intermediate
-confidence: 0.90
+difficulty: "intermediate"
+confidence: 0.9
 prerequisites:
-  - yt-model-prompt-engineering
+  - "yt-model-prompt-engineering"
 component_of:
-  - yt-model-prompt-engineering
+  - "yt-model-prompt-engineering"
 source_refs:
-  - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
-  - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
+  - "10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
+  - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
 query_triggers:
-  - 迭代提示词
-  - 五步迭代法
-  - 提示词迭代
-  - 多轮对话
-  - AI反馈
-  - 连续对话
-  - 提示词工作流
-
+  - "迭代提示词"
+  - "五步迭代法"
+  - "提示词迭代"
+  - "多轮对话"
+  - "AI反馈"
+  - "连续对话"
+  - "提示词工作流"
 tags:
-  - '#yitang'
-  - '#ai'
-  - '#prompt-engineering'
-  - '#iteration'
-created_at: '2026-05-13'
-updated_at: '2026-05-13'
+  - "#ai"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#iteration"
+  - "#prompt-engineering"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/skill-engineering"
+  - "#yitang"
+created_at: "2026-05-13"
+updated_at: "2026-05-13"
 estimated_tokens: 2000
 ---
 

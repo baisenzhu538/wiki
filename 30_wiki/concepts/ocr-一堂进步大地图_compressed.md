@@ -1,17 +1,25 @@
 ---
-id: ocr-一堂进步大地图_compressed
+id: "ocr-一堂进步大地图_compressed"
 created_at: 2026-05-21
 domain:
-  - healthcare
+  - "healthcare"
 source_refs:
-  - src_20260522_2250865e
-status: enriched
+  - "src_20260522_2250865e"
+status: "enriched"
 title: "OCR: 一堂进步大地图_compressed"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 一堂进步大地图_compressed
 

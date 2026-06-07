@@ -1,21 +1,28 @@
 ---
-id: yt-note-l4-internalization
+id: "yt-note-l4-internalization"
 title: "清单体L4内化阶段：从“让别人看懂”到“让自己想清楚”的跳跃"
-domain: yitang
-type: concept
-status: draft
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
+domain: "yitang"
+type: "concept"
+status: "draft"
+created_at: "2026-06-07"
+updated_at: "2026-06-07"
 estimated_tokens: 3200
 source_refs:
   - "00_inbox/一堂-AI清单体笔记（训练段位图）-truman-图片02_paddle_ocr.txt"
   - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt"
 related:
-  - yt-note-checklist-concept
-  - yt-note-five-levels-training
-  - yt-note-live-field-skill
-  - dk-note-surplus-brainpower
-  - dk-note-rookie-disaster-veteran-heaven
+  - "yt-note-checklist-concept"
+  - "yt-note-five-levels-training"
+  - "yt-note-live-field-skill"
+  - "dk-note-surplus-brainpower"
+  - "dk-note-rookie-disaster-veteran-heaven"
+tags:
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
 
 # 清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃

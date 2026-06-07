@@ -1,17 +1,22 @@
 ---
-id: ocr-一堂-地图-管理地图_conv
+id: "ocr-一堂-地图-管理地图_conv"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_e2244f17
-status: enriched
+  - "src_20260522_e2244f17"
+status: "enriched"
 title: "OCR: 一堂-地图-管理地图_conv"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
+  - "#scene/agent-infrastructure"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
 ---
-
-
 
 # OCR: 一堂-地图-管理地图_conv
 

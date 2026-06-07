@@ -1,27 +1,34 @@
 ---
-id: dk-f3-state-json-race-condition
+id: "dk-f3-state-json-race-condition"
 title: "F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失"
-type: dark-knowledge
-dark_knowledge_type: failure
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "failure"
+status: "draft"
 domain:
-  - master
-source_person: system
+  - "master"
+source_person: "system"
 source_context: "failure-modes.md F-KDO-003"
 source_refs:
-  - 90_control/failure-modes.md#F-KDO-003
+  - "90_control/failure-modes.md#F-KDO-003"
 tags:
-  - "#source_type/error"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
-  - dk-c10-batch-tool-no-dry-run
-  - master-systems-thinking
+  - "dk-c10-batch-tool-no-dry-run"
+  - "master-systems-thinking"
 contradicts:
-  - dk-c10-batch-tool-no-dry-run
-  - master-systems-thinking
+  - "dk-c10-batch-tool-no-dry-run"
+  - "master-systems-thinking"
 ---
 
 # F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失

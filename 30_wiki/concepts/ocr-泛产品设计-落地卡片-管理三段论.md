@@ -1,17 +1,22 @@
 ---
-id: ocr-泛产品设计-落地卡片-管理三段论
+id: "ocr-泛产品设计-落地卡片-管理三段论"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_8d5cc8b0
-status: enriched
+  - "src_20260522_8d5cc8b0"
+status: "enriched"
 title: "OCR: 泛产品设计-落地卡片-管理三段论"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
 ---
-
-
 
 # OCR: 泛产品设计-落地卡片-管理三段论
 

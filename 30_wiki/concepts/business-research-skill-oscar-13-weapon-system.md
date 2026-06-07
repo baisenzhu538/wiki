@@ -1,22 +1,31 @@
 ---
-id: business-research-skill-oscar-13-weapon-system
+id: "business-research-skill-oscar-13-weapon-system"
 created_at: 2026-05-04
 domain:
   - "['yitang']"
 review_date: 2026-05-04
-reviewed_by: 黄药师
-source_refs: []
-status: enriched
+reviewed_by: "黄药师"
+source_refs:
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#research"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
   - "#business-analysis"
-  - "#skill"
   - "#methodology"
   - "#oscar"
-title: Business Research Skill — OSCAR 13武器体系 Claude Code 实现
-trust_level: high
-type: concept
+  - "#research"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+  - "#skill"
+  - "#yitang"
+title: "Business Research Skill — OSCAR 13武器体系 Claude Code 实现"
+trust_level: "high"
+type: "concept"
 updated_at: 2026-05-04
 ---
 
@@ -155,4 +164,3 @@ updated_at: 2026-05-04
 | 触发场景 | 第一个动作 | 成功指标 |
 |---------|-----------|---------|
 | 需要基于这份调研/框架做出关键决策前 | 先问自己"这个结论现在还成立吗？有没有新的反例出现？" | 每次使用前都能说出至少一个可能影响结论有效性的新变化因素 |
-

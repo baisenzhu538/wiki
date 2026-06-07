@@ -1,43 +1,47 @@
 ---
-id: yt-model-entrepreneur-map
-component_of: []
+id: "yt-model-entrepreneur-map"
+component_of:
 confidence: 0.85
 created_at: 2026-05-07
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2009
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 三阶段结构
-  - 关联卡片
-  - 创业修炼地图
-  - 增长阶段核心模块
-  - 底层逻辑
-  - 核心追求
-  - 知识体系定位
-  - 科学专项工具箱
-  - 起盘阶段双轨并行
-related:
-  level: foundational
-reviewed_by: 黄药师
+  - "三阶段结构"
+  - "关联卡片"
+  - "创业修炼地图"
+  - "增长阶段核心模块"
+  - "底层逻辑"
+  - "核心追求"
+  - "知识体系定位"
+  - "科学专项工具箱"
+  - "起盘阶段双轨并行"
+related: {'level': 'foundational'}
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂-地图-创业地图.webp
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+  - "10_raw/assets/yitang/一堂-地图-创业地图.webp"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#entrepreneurship"
+  - "#boundary/not-for-beginners"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#core-model"
-title: 创业修炼地图
-type: framework
+  - "#entrepreneurship"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
+  - "#yitang"
+title: "创业修炼地图"
+type: "framework"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: entrepreneur
-  module: 方法论总纲
-  course_type: model
+yitang: {'map': 'entrepreneur', 'module': '方法论总纲', 'course_type': 'model'}
 ---
 
 # 一堂创业地图：高潜力创业者修炼全景图

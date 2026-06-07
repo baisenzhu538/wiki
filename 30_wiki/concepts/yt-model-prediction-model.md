@@ -1,40 +1,41 @@
 ---
-id: yt-model-prediction-model
-component_of: []
+id: "yt-model-prediction-model"
+component_of:
 confidence: 0.85
 created_at: 2026-05-11
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2226
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 三种预判范式
-  - 从最糙版到复杂版的三种预判范式
-  - 使用原则
-  - 常见角度
-  - 预判模型
-  - 预判模型：从最糙版到复杂版的三种预判范式
-related:
-  level: intermediate
-reviewed_by: 黄药师
+  - "三种预判范式"
+  - "从最糙版到复杂版的三种预判范式"
+  - "使用原则"
+  - "常见角度"
+  - "预判模型"
+  - "预判模型：从最糙版到复杂版的三种预判范式"
+related: {'level': 'intermediate'}
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/预判模型.png
-status: enriched
+  - "10_raw/assets/yitang/预判模型.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#decision-making"
   - "#entrepreneurship"
   - "#prediction"
-  - "#decision-making"
-title: 预判模型：从最糙版到复杂版的三种预判范式
-type: framework
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#yitang"
+title: "预判模型：从最糙版到复杂版的三种预判范式"
+type: "framework"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: entrepreneur
-  module: 创业必修
-  course_type: framework
+yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'framework'}
 ---
 
 # 预判模型：从最糙版到复杂版的三种预判范式

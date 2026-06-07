@@ -1,24 +1,29 @@
 ---
-id: skill-Truman-低质量动作识别与拒绝
-title: 技能：低质量动作识别与拒绝
-type: skill
-status: draft
-domain: []
-source_person: Truman
-source_context: AI时代判断力
-source_refs: []
-wiki_refs: []
+id: "skill-Truman-低质量动作识别与拒绝"
+title: "技能：低质量动作识别与拒绝"
+type: "skill"
+status: "draft"
+domain:
+source_person: "Truman"
+source_context: "AI时代判断力"
+source_refs:
+wiki_refs:
 definition_of_done:
-  - 操作步骤清晰可执行
-  - 适用场景有正反例
-  - 工具要求明确
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
 tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
   - "#domain/AI"
-tools_required: []
-prerequisite_skills: []
-related: []
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
+  - "#scene/learning-methodology"
+tools_required:
+prerequisite_skills:
+related:
+created_at: "2026-06-07"
+updated_at: "2026-06-07"
 ---
 
 # 技能：低质量动作识别与拒绝

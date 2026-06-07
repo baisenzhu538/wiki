@@ -1,24 +1,29 @@
 ---
-id: dk-c9-batch-trigger-garbage
+id: "dk-c9-batch-trigger-garbage"
 title: "C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没"
-type: dark-knowledge
-dark_knowledge_type: failure
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "failure"
+status: "draft"
 domain:
-  - master
-source_person: 欧阳锋
+  - "master"
+source_person: "欧阳锋"
 source_context: "Sprint 6 终审发现，2026-05-13"
 source_refs:
-  - 20_memory/corrections.md#C-9
+  - "20_memory/corrections.md#C-9"
 tags:
-  - "#source_type/error"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
-  - dk-c8-format-complete-mind-empty
-  - master-decision-hygiene
+  - "dk-c8-format-complete-mind-empty"
+  - "master-decision-hygiene"
 ---
 
 # C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没

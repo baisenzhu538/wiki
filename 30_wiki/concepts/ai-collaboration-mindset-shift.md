@@ -1,20 +1,28 @@
 ---
-id: ai-collaboration-mindset-shift
-type: concept
-status: draft
+id: "ai-collaboration-mindset-shift"
+type: "concept"
+status: "draft"
 source_refs:
-  - src_20260606_42e11f09
-component_of: []
+  - "src_20260606_42e11f09"
+component_of:
 related:
-  - structured-ai-workspace
-  - ai-learning-closed-loop
-  - ai-landing-scene-selection
+  - "structured-ai-workspace"
+  - "ai-learning-closed-loop"
+  - "ai-landing-scene-selection"
 query_triggers:
   - "怎么和AI协作"
   - "AI输出质量怎么判断"
   - "用AI越用越爛"
   - "新手怎么用AI"
-reviewed_by: ''
+reviewed_by: ""
+tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
 ---
 
 # AI协作思维转变：从"新手"到"管理者"

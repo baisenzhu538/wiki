@@ -1,46 +1,47 @@
 ---
-title: Y模型/科学决策
-type: concept
-status: enriched
-domain:
-id: yt-management-scientific-decision
-  - yitang
-yitang:
-  map: management
-  module: Y模型/科学决策
-  course_id: yt-management-scientific-decision
-  course_type: method
-  level: core
-  series: true
+title: "Y模型/科学决策"
+type: "concept"
+status: "enriched"
+domain: ""
+id: "yt-management-scientific-decision - yitang"
+yitang: {'map': 'management', 'module': 'Y模型/科学决策', 'course_id': 'yt-management-scientific-decision', 'course_type': 'method', 'level': 'core', 'series': True}
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-17'
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+created_at: "2026-05-06"
+updated_at: "2026-05-17"
 estimated_tokens: 3200
-reviewed_by: 黄药师
-review_date: '2026-05-08'
-trust_level: medium
+reviewed_by: "黄药师"
+review_date: "2026-05-08"
+trust_level: "medium"
 related:
-  - yt-entrepreneur-key-hypotheses
-  - yt-management-business-formula
-  - yt-management-conversion-hacking
-  - yt-management-finance-basics
-  - yt-management-goal-management
-  - yt-management-strategy-meeting
+  - "yt-entrepreneur-key-hypotheses"
+  - "yt-management-business-formula"
+  - "yt-management-conversion-hacking"
+  - "yt-management-finance-basics"
+  - "yt-management-goal-management"
+  - "yt-management-strategy-meeting"
 query_triggers:
-  - 科学决策方法
-  - Y模型决策
-  - 决策矩阵
-  - 10-10-10法则
-  - 二阶思考
-  - 预期价值计算
-  - 决策陷阱
-  - 沉没成本
-  - 确认偏差
-  - 创业决策框架
+  - "科学决策方法"
+  - "Y模型决策"
+  - "决策矩阵"
+  - "10-10-10法则"
+  - "二阶思考"
+  - "预期价值计算"
+  - "决策陷阱"
+  - "沉没成本"
+  - "确认偏差"
+  - "创业决策框架"
 tags:
-  - '#yitang'
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#yitang"
 ---
+
 # Y模型/科学决策
 
 > 来源：一堂管理必修课「管业务」模块，共4节系列课（审美篇/宽度篇/深度篇/高度篇）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

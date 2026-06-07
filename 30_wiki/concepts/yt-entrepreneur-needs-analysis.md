@@ -1,46 +1,47 @@
 ---
-id: yt-entrepreneur-needs-analysis
-component_of: []
-confidence: 0.80
+id: "yt-entrepreneur-needs-analysis"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3000
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 需求分析
-  - JTBD
-  - 拆推评算
-  - 六层冰山模型
-  - 用户需求挖掘
-  - 任务地图
-  - 四种力量模型
-  - 微观体感
-  - 伪需求识别
-  - 需求剥离法
-related:
-  series: false
+  - "需求分析"
+  - "JTBD"
+  - "拆推评算"
+  - "六层冰山模型"
+  - "用户需求挖掘"
+  - "任务地图"
+  - "四种力量模型"
+  - "微观体感"
+  - "伪需求识别"
+  - "需求剥离法"
+related: {'series': False}
 review_date: 2026-05-07
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - src_20260507_0872c7b3
-  - src_20260507_3120ec58
-status: enriched
+  - "src_20260507_0872c7b3"
+  - "src_20260507_3120ec58"
+status: "enriched"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
   - "#yitang"
-title: 需求分析
-trust_level: high
-type: tool
+title: "需求分析"
+trust_level: "high"
+type: "tool"
 updated_at: 2026-05-07
 version: 1
-yitang:
-  map: entrepreneur
-  module: 需求分析
-  course_id: yt-entrepreneur-needs-analysis
-  course_type: method
-  level: foundational
+yitang: {'map': 'entrepreneur', 'module': '需求分析', 'course_id': 'yt-entrepreneur-needs-analysis', 'course_type': 'method', 'level': 'foundational'}
 ---
 
 # 需求分析

@@ -1,7 +1,7 @@
 ---
-id: graph-rag
+id: "graph-rag"
 aliases:
-  - Graph RAG
+  - "Graph RAG"
 created_at: 2026-05-03
 domain:
   - "['ai-saas']"
@@ -10,16 +10,23 @@ related:
   - "[[index]]"
   - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
 review_date: 2026-05-04
-reviewed_by: 黄药师
-status: enriched
+reviewed_by: "黄药师"
+status: "enriched"
 tags:
   - "#ai"
-  - "#rag"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/verified-by-case"
   - "#knowledge-graph"
+  - "#rag"
   - "#retrieval"
-title: Graph RAG — Knowledge-Graph-Powered Retrieval
-trust_level: medium
-type: concept
+  - "#scene/knowledge-management"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+title: "Graph RAG — Knowledge-Graph-Powered Retrieval"
+trust_level: "medium"
+type: "concept"
 updated_at: 2026-05-03
 ---
 
@@ -150,4 +157,3 @@ edges:
 | 需要基于这份框架/方法做出关键决策前 | 先问自己"这个结论现在还成立吗？有没有新的反例出现？" | 每次使用前都能说出至少一个可能影响结论有效性的新变化因素 |
 | 结构化分析后感觉"都对但整体不对" | 停下来检查是否忽视了框架之外的因素——团队、时机、技术债务 | 能指出至少一个被框架排除但实际影响很大的因素 |
 | 使用过程中感到信息过载 | 不要一次性尝试应用整个框架——选择其中一个最直接相关的模块先用 | 在一个具体项目中成功应用了≥1个模块 |
-

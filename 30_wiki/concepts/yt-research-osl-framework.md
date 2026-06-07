@@ -1,51 +1,51 @@
 ---
-id: yt-research-osl-framework
-component_of: []
+id: "yt-research-osl-framework"
+component_of:
 confidence: 0.85
 created_at: 2026-05-18
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2500
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 调研方法
-  - OSL五步法
-  - 商业调研
-  - 调研流程
-  - 系统式调研
-  - 调研框架
+  - "调研方法"
+  - "OSL五步法"
+  - "商业调研"
+  - "调研流程"
+  - "系统式调研"
+  - "调研框架"
 related:
-  - yt-research-intelligence-map
-  - yt-research-competitor-toolkit
-  - yt-research-expert-interview
-  - yt-research-hypothesis-test
-  - yt-research-industry-canvas
-  - yt-research-user-jtbd
-  - yt-research-mindset
-  - yt-decision-y-model
-  - yt-entrepreneur-key-hypotheses
-reviewed_by: 
+  - "yt-research-intelligence-map"
+  - "yt-research-competitor-toolkit"
+  - "yt-research-expert-interview"
+  - "yt-research-hypothesis-test"
+  - "yt-research-industry-canvas"
+  - "yt-research-user-jtbd"
+  - "yt-research-mindset"
+  - "yt-decision-y-model"
+  - "yt-entrepreneur-key-hypotheses"
+reviewed_by: ""
 source_refs:
-  - 00_inbox/ideas/一堂-创业必修-调研行动营.md
-  - 00_inbox/ideas/一堂-创业-调研行动营口述01.md
-status: reviewed
+  - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
+  - "00_inbox/ideas/一堂-创业-调研行动营口述01.md"
+status: "reviewed"
 tags:
-  - "#yitang"
-  - "#research"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
   - "#framework"
-title: OSL调研五步法：一堂通用商业调研框架
-trust_level: medium
-type: framework
+  - "#research"
+  - "#scene/business-analysis"
+  - "#scene/note-taking"
+  - "#yitang"
+title: "OSL调研五步法：一堂通用商业调研框架"
+trust_level: "medium"
+type: "framework"
 updated_at: 2026-05-18
 version: 1
-yitang:
-  map: entrepreneur
-  module: 调研方法论
-  course_id: yt-research-osl-framework
-  course_type: framework
-  level: foundational
+yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-osl-framework', 'course_type': 'framework', 'level': 'foundational'}
 ---
 
 # OSL调研五步法：一堂通用商业调研框架

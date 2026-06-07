@@ -1,17 +1,22 @@
 ---
-id: ocr-一堂y模型实操工作流
+id: "ocr-一堂y模型实操工作流"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_53341e5a
-status: enriched
+  - "src_20260522_53341e5a"
+status: "enriched"
 title: "OCR: 一堂Y模型实操工作流"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
 ---
-
-
 
 # OCR: 一堂Y模型实操工作流
 

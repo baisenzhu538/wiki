@@ -1,14 +1,20 @@
 ---
-id: pilot-atomic-chunk-comparison
+id: "pilot-atomic-chunk-comparison"
 title: "Pilot：master-decision-hygiene 真原子切分对比"
-type: comparison
-status: draft
+type: "comparison"
+status: "draft"
 created_at: 2026-05-31
 source_refs:
-  - 30_wiki/concepts/master-decision-hygiene.md
+  - "30_wiki/concepts/master-decision-hygiene.md"
 tags:
-  - "#quality/high-signal"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/knowledge-management"
+  - "#quality/high-signal"
+  - "#scene/agent-infrastructure"
+  - "#scene/knowledge-management"
+  - "#scene/note-taking"
 ---
 
 # Pilot：master-decision-hygiene 真原子切分对比

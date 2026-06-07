@@ -1,45 +1,52 @@
 ---
-id: yt-model-cognitive-upgrade-framework
-component_of: []
+id: "yt-model-cognitive-upgrade-framework"
+component_of:
 confidence: 0.85
 created_at: 2026-05-15
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - master
-language: zh-CN
-prerequisites: []
+  - "master"
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 认知升级框架
-  - 深度阅读方法论
-  - 如何把书读成能力
-  - 结构化读书笔记模板
-  - 十步阅读法
-  - 知识内化框架
-  - 读书转化为行动
-  - AI思维卡模板
-  - 认知补丁
-  - ICAP学习层级
+  - "认知升级框架"
+  - "深度阅读方法论"
+  - "如何把书读成能力"
+  - "结构化读书笔记模板"
+  - "十步阅读法"
+  - "知识内化框架"
+  - "读书转化为行动"
+  - "AI思维卡模板"
+  - "认知补丁"
+  - "ICAP学习层级"
 related:
-  - yt-model-agent-architecture
-  - yt-model-ipo-learning-strategy
-  - yt-personal-ai-thinking-card
-  - yt-personal-knowledge-extraction
-  - yt-personal-deep-review
+  - "yt-model-agent-architecture"
+  - "yt-model-ipo-learning-strategy"
+  - "yt-personal-ai-thinking-card"
+  - "yt-personal-knowledge-extraction"
+  - "yt-personal-deep-review"
 review_date: 2026-05-15
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/aima-ai-thinking-card-20260515.html
-  - 10_raw/sources/aima-ai-thinking-card-20260515.md
-status: enriched
+  - "10_raw/sources/aima-ai-thinking-card-20260515.html"
+  - "10_raw/sources/aima-ai-thinking-card-20260515.md"
+status: "enriched"
 tags:
-  - "#reading"
-  - "#knowledge-management"
+  - "#boundary/requires-human-judgment"
   - "#cognitive-science"
+  - "#confidence/source-cited"
+  - "#knowledge-management"
   - "#learning"
   - "#master"
-title: 认知升级十步框架：从「读书」到「安装认知补丁」
-trust_level: medium
-type: framework
+  - "#reading"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+title: "认知升级十步框架：从「读书」到「安装认知补丁」"
+trust_level: "medium"
+type: "framework"
 updated_at: 2026-05-15
 version: 1
 ---

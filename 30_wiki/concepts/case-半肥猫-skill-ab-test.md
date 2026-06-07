@@ -1,27 +1,34 @@
 ---
-id: case-半肥猫-skill-ab-test
+id: "case-半肥猫-skill-ab-test"
 title: "案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比"
-type: case
-status: draft
+type: "case"
+status: "draft"
 domain:
-  - ai-collaboration
-  - yitang
-source_person: 半肥猫
+  - "ai-collaboration"
+  - "yitang"
+source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
-  - 00_inbox/半肥猫-AI学习落地-口述.md
+  - "00_inbox/半肥猫-AI学习落地-口述.md"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-test"
   - "#domain/ai-collaboration"
   - "#domain/yitang"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/skill-engineering"
   - "#type/case"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
-  - concept-半肥猫-ai-learning-toolification-methodology
-  - case-半肥猫-conversion-hacker-skill
-  - skill-半肥猫-用Skill做对比测试验证效果
-  - skill-半肥猫-设计Skill的评分规则与风险边界
-  - dk-半肥猫-skill-rejection-value
+  - "concept-半肥猫-ai-learning-toolification-methodology"
+  - "case-半肥猫-conversion-hacker-skill"
+  - "skill-半肥猫-用Skill做对比测试验证效果"
+  - "skill-半肥猫-设计Skill的评分规则与风险边界"
+  - "dk-半肥猫-skill-rejection-value"
 ---
 
 # 案例：Skill A/B 测试

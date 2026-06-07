@@ -1,67 +1,68 @@
 ---
-id: yt-tool-strategy-workshop
+id: "yt-tool-strategy-workshop"
 component_of:
-  - yt-management-toolkit-overview
-confidence: 0.80
+  - "yt-management-toolkit-overview"
+confidence: 0.8
 created_at: 2026-05-19
-difficulty: advanced
+difficulty: "advanced"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3400
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-management-toolkit-overview
+  - "yt-management-toolkit-overview"
 query_triggers:
-  - 战略会怎么开
-  - 战略研讨会引导
-  - 战略会流程设计
-  - 战略共识达成方法
-  - 年度战略会工具
-  - 战略决策机制
-  - 务虚会方法
-  - 战略会模板
-  - 战略会 facilitator
-  - 战略讨论框架
-  - 战略会产出
-  - 战略会设计
-  - 战略会主持
-  - 战略方向选择工具
-  - 战略共识工具
-  - 战略会会议纪要
-  - 战略会准备工作
-  - 战略会三阶段
-  - 战略会常见错误
-  - 战略会最佳实践
+  - "战略会怎么开"
+  - "战略研讨会引导"
+  - "战略会流程设计"
+  - "战略共识达成方法"
+  - "年度战略会工具"
+  - "战略决策机制"
+  - "务虚会方法"
+  - "战略会模板"
+  - "战略会 facilitator"
+  - "战略讨论框架"
+  - "战略会产出"
+  - "战略会设计"
+  - "战略会主持"
+  - "战略方向选择工具"
+  - "战略共识工具"
+  - "战略会会议纪要"
+  - "战略会准备工作"
+  - "战略会三阶段"
+  - "战略会常见错误"
+  - "战略会最佳实践"
 related:
-  - yt-management-strategy-meeting
-  - yt-management-scientific-decision
-  - yt-management-goal-management
-  - yt-management-company-culture
-  - yt-tool-meeting-designer
-  - yt-decision-y-model
-  - yt-decision-full-process
-  - yt-tool-okr-cycle
-  - master-decision-hygiene
-  - master-knowledge-compound
+  - "yt-management-strategy-meeting"
+  - "yt-management-scientific-decision"
+  - "yt-management-goal-management"
+  - "yt-management-company-culture"
+  - "yt-tool-meeting-designer"
+  - "yt-decision-y-model"
+  - "yt-decision-full-process"
+  - "yt-tool-okr-cycle"
+  - "master-decision-hygiene"
+  - "master-knowledge-compound"
 source_refs:
-  - 30_wiki/concepts/yt-management-strategy-meeting.md
-status: draft
+  - "30_wiki/concepts/yt-management-strategy-meeting.md"
+status: "draft"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#management"
-  - "#tool"
-  - "#strategy"
   - "#meeting-facilitation"
-title: 战略研讨会引导手册
-trust_level: medium
-type: tool
+  - "#scene/skill-engineering"
+  - "#strategy"
+  - "#tool"
+  - "#yitang"
+title: "战略研讨会引导手册"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-19
 version: 1
-yitang:
-  map: management
-  module: 管公司
-  course_type: tool
-  level: advanced
+yitang: {'map': 'management', 'module': '管公司', 'course_type': 'tool', 'level': 'advanced'}
 ---
 
 # 战略研讨会引导手册

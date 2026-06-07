@@ -1,47 +1,50 @@
 ---
-id: yt-panproduct-demand-motivation-resistance
+id: "yt-panproduct-demand-motivation-resistance"
 component_of:
-  - yt-model-pan-product-demand-toolkit
-confidence: 0.80
+  - "yt-model-pan-product-demand-toolkit"
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2400
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-composite-pan-product-methodology
+  - "yt-composite-pan-product-methodology"
 query_triggers:
-  - 动力阻力
-  - 泛产品设计
-  - 泛产品设计·用户卡片：动力阻力
-  - 用户卡片
-  - 用户研究
-  - 用户需求
-  - 需求分析
-  - 需求洞察
+  - "动力阻力"
+  - "泛产品设计"
+  - "泛产品设计·用户卡片：动力阻力"
+  - "用户卡片"
+  - "用户研究"
+  - "用户需求"
+  - "需求分析"
+  - "需求洞察"
 related:
-  - yt-model-conversion-optimization
-  - yt-panproduct-demand-peak-end-rule
-  - yt-panproduct-demand-surprise-formula
-reviewed_by: 黄药师
+  - "yt-model-conversion-optimization"
+  - "yt-panproduct-demand-peak-end-rule"
+  - "yt-panproduct-demand-surprise-formula"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/泛产品设计-用户卡片-动力阻力.png
-status: enriched
+  - "10_raw/assets/yitang/泛产品设计-用户卡片-动力阻力.png"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#pan-product-design"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#conversion"
+  - "#pan-product-design"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
   - "#user-behavior"
-title: 泛产品设计·用户卡片：动力阻力
-type: tool
+  - "#yitang"
+title: "泛产品设计·用户卡片：动力阻力"
+type: "tool"
 updated_at: 2026-05-13
 version: 1
-yitang:
-  map: personal
-  module: 泛产品设计
-  course_type: card
-  level: intermediate
+yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
 ---
 
 # 动力阻力：理解转化率的本质

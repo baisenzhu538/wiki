@@ -1,44 +1,42 @@
 ---
-id: yt-entrepreneur-fundraising
-component_of: []
-confidence: 0.80
+id: "yt-entrepreneur-fundraising"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1826
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 融资认知
-  - 创业融资
-  - 融资时机
-  - 估值逻辑
-  - Term Sheet
-  - 投资人沟通
-  - BP怎么写
-  - 融资节奏
-  - 融资是放大器
-  - 融资执行
-related:
-  series: true
-reviewed_by: 黄药师
+  - "融资认知"
+  - "创业融资"
+  - "融资时机"
+  - "估值逻辑"
+  - "Term Sheet"
+  - "投资人沟通"
+  - "BP怎么写"
+  - "融资节奏"
+  - "融资是放大器"
+  - "融资执行"
+related: {'series': True}
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
   - "#yitang"
-title: 融资认知
-trust_level: medium
-type: tool
+title: "融资认知"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-09
 version: 1
-yitang:
-  map: entrepreneur
-  module: 融资认知
-  course_id: yt-entrepreneur-fundraising
-  course_type: method
-  level: advanced
+yitang: {'map': 'entrepreneur', 'module': '融资认知', 'course_id': 'yt-entrepreneur-fundraising', 'course_type': 'method', 'level': 'advanced'}
 ---
 
 # 融资认知

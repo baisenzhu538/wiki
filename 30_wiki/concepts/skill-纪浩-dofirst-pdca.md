@@ -1,16 +1,28 @@
 ---
-id: skill-纪浩-dofirst-pdca
+id: "skill-纪浩-dofirst-pdca"
 title: "技能：Do-first PDCA——从行动开始的迭代循环"
-type: skill
-status: draft
-domain: [ai-collaboration, yitang]
-source_person: 纪浩
+type: "skill"
+status: "draft"
+domain:
+  - "ai-collaboration"
+  - "yitang"
+source_person: "纪浩"
 source_context: "AI俱乐部-AI协作方法论 分享"
-source_refs: [00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt]
-tags: ["#domain/ai-collaboration"]
+source_refs:
+  - "00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt"
+tags:
+  - "#boundary/single-use-only"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#domain/ai-collaboration"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
 created_at: 2026-06-07
 updated_at: 2026-06-07
-related: [concept-纪浩-ai-collaboration-methodology, dk-纪浩-pdca-starts-from-do]
+related:
+  - "concept-纪浩-ai-collaboration-methodology"
+  - "dk-纪浩-pdca-starts-from-do"
 ---
 
 # 技能：Do-first PDCA

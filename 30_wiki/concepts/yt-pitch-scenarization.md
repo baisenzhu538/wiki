@@ -1,40 +1,47 @@
 ---
-id: yt-pitch-scenarization
+id: "yt-pitch-scenarization"
 component_of:
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-personal-pitch-toolkit"
 confidence: 0.85
 created_at: 2026-05-13
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - personal
-  - yitang
+  - "personal"
+  - "yitang"
 estimated_tokens: 1500
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-personal-pitch-toolkit"
 query_triggers:
-  - 场景化
-  - 讲香场景
-  - 场景代入
-  - 场景触发
-  - 用户场景
+  - "场景化"
+  - "讲香场景"
+  - "场景代入"
+  - "场景触发"
+  - "用户场景"
 related:
-  - yt-panproduct-demand-scenario-walkthrough
-  - yt-concept-weapon-arsenal
-reviewed_by: 黄药师
+  - "yt-panproduct-demand-scenario-walkthrough"
+  - "yt-concept-weapon-arsenal"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
-  - 10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png
-status: enriched
+  - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
+  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#pitch"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#yitang"
   - "#具象化"
-title: 讲香·场景化
-type: tool
+title: "讲香·场景化"
+type: "tool"
 updated_at: 2026-05-13
 version: 1
 ---
+
 # 讲香·场景化
 
 > 十指模型左手第一指——向下具象。在产品/服务与用户之间架一座场景的桥，让用户从「与我无关」到「我正需要」。

@@ -1,49 +1,50 @@
 ---
-id: yt-tool-product-core-canvas
-component_of: []
+id: "yt-tool-product-core-canvas"
+component_of:
 confidence: 0.85
 created_at: 2026-06-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3800
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-entrepreneur-product-core
+  - "yt-entrepreneur-product-core"
 query_triggers:
-  - 产品内核画布
-  - 产品内核分析
-  - 内核剥离
-  - 关键转化率
-  - 用户视角
-  - 强迫取舍
-  - 做而不信
-  - 成本敏感
-  - 螺旋拆解
-  - 独立交付
-related:
-  series: false
+  - "产品内核画布"
+  - "产品内核分析"
+  - "内核剥离"
+  - "关键转化率"
+  - "用户视角"
+  - "强迫取舍"
+  - "做而不信"
+  - "成本敏感"
+  - "螺旋拆解"
+  - "独立交付"
+related: {'series': False}
 review_date: 2026-06-06
-reviewed_by: ''
+reviewed_by: ""
 source_refs:
-  - 00_inbox/一堂-产品内核实操课-truman-口述.txt
-  - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
-status: enriched
+  - "00_inbox/一堂-产品内核实操课-truman-口述.txt"
+  - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
+status: "enriched"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#scene/agent-infrastructure"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
   - "#yitang"
   - "#产品内核"
   - "#工具"
-title: 产品内核画布与九大原则
-trust_level: medium
-type: tool
+title: "产品内核画布与九大原则"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-06-06
 version: 1
-yitang:
-  map: entrepreneur
-  module: 产品内核
-  course_id: yt-tool-product-core-canvas
-  course_type: tool
-  level: foundational
+yitang: {'map': 'entrepreneur', 'module': '产品内核', 'course_id': 'yt-tool-product-core-canvas', 'course_type': 'tool', 'level': 'foundational'}
 ---
 
 # 产品内核画布与九大原则

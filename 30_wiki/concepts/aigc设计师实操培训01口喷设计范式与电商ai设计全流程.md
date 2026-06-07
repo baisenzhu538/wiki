@@ -1,15 +1,20 @@
 ---
-id: aigc设计师实操培训01口喷设计范式与电商ai设计全流程
+id: "aigc设计师实操培训01口喷设计范式与电商ai设计全流程"
 created_at: 2026-05-28
 domain:
-  - ai-saas
+  - "ai-saas"
 source_refs:
-  - src_20260528_04be660c
-status: draft
+  - "src_20260528_04be660c"
+status: "draft"
 tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#scene/learning-methodology"
   - "[design, aigc, ecommerce, workflow]"
-title: AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程
-type: concept
+title: "AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程"
+type: "concept"
 updated_at: 2026-05-28
 ---
 

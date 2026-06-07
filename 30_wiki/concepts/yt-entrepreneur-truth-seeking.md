@@ -1,45 +1,44 @@
 ---
-id: yt-entrepreneur-truth-seeking
-component_of: []
-confidence: 0.80
+id: "yt-entrepreneur-truth-seeking"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1817
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 实事求是
-  - 创业求真
-  - 红队蓝队辩论
-  - 魔鬼代言人
-  - 反面证据搜索
-  - 自我欺骗识别
-  - 创业客观分析
-  - 认知偏差纠正
-  - 事实与愿望区分
-  - 数据逻辑决策
-related:
-  series: false
+  - "实事求是"
+  - "创业求真"
+  - "红队蓝队辩论"
+  - "魔鬼代言人"
+  - "反面证据搜索"
+  - "自我欺骗识别"
+  - "创业客观分析"
+  - "认知偏差纠正"
+  - "事实与愿望区分"
+  - "数据逻辑决策"
+related: {'series': False}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
   - "#yitang"
-title: 实事求是
-trust_level: medium
-type: tool
+title: "实事求是"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: entrepreneur
-  module: 实事求是
-  course_id: yt-entrepreneur-truth-seeking
-  course_type: method
-  level: foundational
+yitang: {'map': 'entrepreneur', 'module': '实事求是', 'course_id': 'yt-entrepreneur-truth-seeking', 'course_type': 'method', 'level': 'foundational'}
 ---
 
 # 实事求是

@@ -1,53 +1,49 @@
 ---
-id: yt-tool-meeting-designer
-title: '会议设计师：一页纸会议蓝图'
-type: tool
-status: enriched
+id: "yt-tool-meeting-designer"
+title: "会议设计师：一页纸会议蓝图"
+type: "tool"
+status: "enriched"
 domain:
-  - yitang
-language: zh-CN
+  - "yitang"
+language: "zh-CN"
 version: 1
-difficulty: foundational
+difficulty: "foundational"
 confidence: 0.85
-prerequisites: []
+prerequisites:
 component_of:
-  - yt-management-toolkit-overview
+  - "yt-management-toolkit-overview"
 related:
-  - yt-management-scientific-meetings
-  - yt-management-goal-management
-  - yt-management-project-management
-  - yt-management-strategy-meeting
-  - yt-decision-y-model
-  - master-decision-hygiene
-contradicts: []
+  - "yt-management-scientific-meetings"
+  - "yt-management-goal-management"
+  - "yt-management-project-management"
+  - "yt-management-strategy-meeting"
+  - "yt-decision-y-model"
+  - "master-decision-hygiene"
+contradicts:
 query_triggers:
-  - 会议设计
-  - 会议议程模板
-  - 高效会议
-  - 会前三问
-  - 会议角色分工
-  - 会议纪要模板
-  - 决策会怎么开
-  - 会议时间盒
-  - 减少无效会议
-  - 会议设计师
+  - "会议设计"
+  - "会议议程模板"
+  - "高效会议"
+  - "会前三问"
+  - "会议角色分工"
+  - "会议纪要模板"
+  - "决策会怎么开"
+  - "会议时间盒"
+  - "减少无效会议"
+  - "会议设计师"
 tags:
-  - '#yitang'
-  - '#management'
-  - '#tool'
-trust_level: medium
-yitang:
-  map: management
-  module: 科学开会
-  course_id: yt-tool-meeting-designer
-  course_type: tool
-  level: core
+  - "#confidence/source-cited"
+  - "#management"
+  - "#tool"
+  - "#yitang"
+trust_level: "medium"
+yitang: {'map': 'management', 'module': '科学开会', 'course_id': 'yt-tool-meeting-designer', 'course_type': 'tool', 'level': 'core'}
 source_refs:
-  - 30_wiki/concepts/yt-management-scientific-meetings.md
-created_at: '2026-05-19'
-updated_at: '2026-05-19'
+  - "30_wiki/concepts/yt-management-scientific-meetings.md"
+created_at: "2026-05-19"
+updated_at: "2026-05-19"
 estimated_tokens: 3200
-reviewed_by: 周伯通
+reviewed_by: "周伯通"
 ---
 
 # 会议设计师：一页纸会议蓝图

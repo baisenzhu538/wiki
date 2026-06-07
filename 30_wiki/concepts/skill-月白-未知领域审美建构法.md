@@ -1,25 +1,29 @@
 ---
-id: skill-月白-未知领域审美建构法
-title: 技能：未知领域审美建构法
-type: skill
-status: draft
-domain: []
-source_person: 月白
-source_context: AI设计师实操
-source_refs: []
-wiki_refs: []
+id: "skill-月白-未知领域审美建构法"
+title: "技能：未知领域审美建构法"
+type: "skill"
+status: "draft"
+domain:
+source_person: "月白"
+source_context: "AI设计师实操"
+source_refs:
+wiki_refs:
 definition_of_done:
-  - 操作步骤清晰可执行
-  - 适用场景有正反例
-  - 工具要求明确
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
   - "#domain/AI"
   - "#domain/design"
-tools_required: []
-prerequisite_skills: []
-related: []
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
+  - "#scene/business-analysis"
+  - "#scene/skill-engineering"
+tools_required:
+prerequisite_skills:
+related:
+created_at: "2026-06-07"
+updated_at: "2026-06-07"
 ---
 
 # 技能：未知领域审美建构法

@@ -1,15 +1,23 @@
 ---
-id: 紫鲸ai_智能体工作流平台_深度分析与产品设计
+id: "紫鲸ai_智能体工作流平台_深度分析与产品设计"
 created_at: 2026-04-30
 domain:
   - "['ai-saas']"
 source_refs:
-  - src_20260501_4eee4e95
-status: superseded
+  - "src_20260501_4eee4e95"
+status: "superseded"
 superseded_by: "[[紫鲸AI智能体工作流平台]]"
-title: 紫鲸AI_智能体工作流平台_深度分析与产品设计
-type: concept
+title: "紫鲸AI_智能体工作流平台_深度分析与产品设计"
+type: "concept"
 updated_at: 2026-05-03
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
 
 > **Status**: superseded by `[[紫鲸AI智能体工作流平台]]`（内容完全覆盖本页面，此页面为 initial ingest 产生的骨架，保留 frontmatter 以维护 source_ref 追溯链）
@@ -56,4 +64,3 @@ updated_at: 2026-05-03
 | 需要基于这份框架/方法做出关键决策前 | 先问自己"这个结论现在还成立吗？有没有新的反例出现？" | 每次使用前都能说出至少一个可能影响结论有效性的新变化因素 |
 | 结构化分析后感觉"都对但整体不对" | 停下来检查是否忽视了框架之外的因素——团队、时机、技术债务 | 能指出至少一个被框架排除但实际影响很大的因素 |
 | 使用过程中感到信息过载 | 不要一次性尝试应用整个框架——选择其中一个最直接相关的模块先用 | 在一个具体项目中成功应用了≥1个模块 |
-

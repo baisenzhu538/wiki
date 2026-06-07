@@ -1,42 +1,44 @@
 ---
-id: yt-personal-y-model-practice
-component_of: []
-confidence: 0.80
+id: "yt-personal-y-model-practice"
+component_of:
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2024
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - Y模型四最
-  - Y模型实操
-  - Y模型实操：科学成事的底层操作系统
-  - Y模型的实操工作流
-  - Y模型的核心结构
-  - 为什么Y模型难学
-  - 核心动词
-  - 科学成事的底层操作系统
-related:
-  level: advanced
-reviewed_by: 黄药师
+  - "Y模型四最"
+  - "Y模型实操"
+  - "Y模型实操：科学成事的底层操作系统"
+  - "Y模型的实操工作流"
+  - "Y模型的核心结构"
+  - "为什么Y模型难学"
+  - "核心动词"
+  - "科学成事的底层操作系统"
+related: {'level': 'advanced'}
+reviewed_by: "黄药师"
 source_refs:
-  - 00_inbox/一堂-个人修炼-Y模型实操口述版.md
-status: enriched
+  - "00_inbox/一堂-个人修炼-Y模型实操口述版.md"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#y-model"
-  - "#scientific-method"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
   - "#meta-skill"
-title: Y模型实操：科学成事的底层操作系统
-type: tool
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scientific-method"
+  - "#y-model"
+  - "#yitang"
+title: "Y模型实操：科学成事的底层操作系统"
+type: "tool"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: personal
-  module: 个人修炼
-  course_type: explore_camp
+yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'explore_camp'}
 ---
 
 # Y模型实操：科学成事的底层操作系统

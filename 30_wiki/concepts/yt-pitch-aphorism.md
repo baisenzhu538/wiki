@@ -1,40 +1,47 @@
 ---
-id: yt-pitch-aphorism
+id: "yt-pitch-aphorism"
 component_of:
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-personal-pitch-toolkit"
 confidence: 0.85
 created_at: 2026-05-13
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - personal
-  - yitang
+  - "personal"
+  - "yitang"
 estimated_tokens: 1500
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-personal-pitch-toolkit"
 query_triggers:
-  - 金句化
-  - 金句
-  - slogan
-  - 断言
-  - 押韵文案
-  - 洞察对比
+  - "金句化"
+  - "金句"
+  - "slogan"
+  - "断言"
+  - "押韵文案"
+  - "洞察对比"
 related:
-  - yt-concept-weapon-arsenal
-reviewed_by: 黄药师
+  - "yt-concept-weapon-arsenal"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
-  - 10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png
-status: enriched
+  - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
+  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#pitch"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#yitang"
   - "#抽象化"
-title: 讲香·金句化
-type: tool
+title: "讲香·金句化"
+type: "tool"
 updated_at: 2026-05-13
 version: 1
 ---
+
 # 讲香·金句化
 
 > 十指模型右手第二指——向上抽象。把核心观点压缩成一句话，让用户想记下来、想发朋友圈——金句让人暂时放下理性判断，直接被打动。

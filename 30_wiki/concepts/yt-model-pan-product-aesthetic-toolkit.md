@@ -1,50 +1,57 @@
 ---
-id: yt-model-pan-product-aesthetic-toolkit
+id: "yt-model-pan-product-aesthetic-toolkit"
 component_of:
-  - yt-composite-pan-product-methodology
+  - "yt-composite-pan-product-methodology"
 confidence: 0.85
 created_at: 2026-05-11
-deprecation_reason: 
-difficulty: intermediate
+deprecation_reason: ""
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1600
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-composite-pan-product-methodology
-  - yt-model-pan-product-demand-toolkit
+  - "yt-composite-pan-product-methodology"
+  - "yt-model-pan-product-demand-toolkit"
 query_triggers:
-  - 审美能力
-  - 最佳实践
-  - 审美工具箱
-  - 怎么提升审美
-  - 怎么找对标案例
-  - 审美建模方法
-  - 如何建立审美标准
+  - "审美能力"
+  - "最佳实践"
+  - "审美工具箱"
+  - "怎么提升审美"
+  - "怎么找对标案例"
+  - "审美建模方法"
+  - "如何建立审美标准"
 related:
-  - yt-model-pan-product-36-strategies
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-execution-toolkit
-  - yt-model-ipo-learning-strategy
+  - "yt-model-pan-product-36-strategies"
+  - "yt-model-pan-product-demand-toolkit"
+  - "yt-model-pan-product-execution-toolkit"
+  - "yt-model-ipo-learning-strategy"
 review_by: 2026-11-11
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/泛产品设计-审美工具箱指南.png
-  - 10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践收集.png
-  - 10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践池子.png
-  - 10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践建模.png
-  - 10_raw/assets/yitang/泛产品设计-审美卡片-美好作品想象.png
-  - 10_raw/sources/一堂-个人修身-泛产品设计审美口述.md
-status: enriched
-superseded_by: 
+  - "10_raw/assets/yitang/泛产品设计-审美工具箱指南.png"
+  - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践收集.png"
+  - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践池子.png"
+  - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践建模.png"
+  - "10_raw/assets/yitang/泛产品设计-审美卡片-美好作品想象.png"
+  - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
+status: "enriched"
+superseded_by: ""
 tags:
-  - 审美
-  - 最佳实践
-  - 工具箱
-  - 一堂
-  - 泛产品设计
-title: 泛产品设计·审美工具箱（4张卡牌）
-type: framework
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "一堂"
+  - "审美"
+  - "工具箱"
+  - "最佳实践"
+  - "泛产品设计"
+title: "泛产品设计·审美工具箱（4张卡牌）"
+type: "framework"
 updated_at: 2026-05-11
 version: 1
 ---

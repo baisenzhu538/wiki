@@ -1,49 +1,54 @@
 ---
-id: yt-panproduct-execution-design-principles
+id: "yt-panproduct-execution-design-principles"
 component_of:
-  - yt-model-pan-product-execution-toolkit
-confidence: 0.80
+  - "yt-model-pan-product-execution-toolkit"
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1128
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-composite-pan-product-methodology
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
+  - "yt-composite-pan-product-methodology"
+  - "yt-model-pan-product-demand-toolkit"
+  - "yt-model-pan-product-aesthetic-toolkit"
 query_triggers:
-  - 产品落地
-  - 产品迭代
-  - 执行方法
-  - 泛产品设计
-  - 泛产品设计·落地卡片：设计原则
-  - 落地卡片
-  - 落地执行
-  - 设计原则
+  - "产品落地"
+  - "产品迭代"
+  - "执行方法"
+  - "泛产品设计"
+  - "泛产品设计·落地卡片：设计原则"
+  - "落地卡片"
+  - "落地执行"
+  - "设计原则"
 related:
-  - yt-panproduct-aesthetic-modeling
-  - yt-panproduct-aesthetic-pool
-  - yt-panproduct-execution-realistic-simulation
-reviewed_by: 黄药师
+  - "yt-panproduct-aesthetic-modeling"
+  - "yt-panproduct-aesthetic-pool"
+  - "yt-panproduct-execution-realistic-simulation"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/泛产品设计-落地卡片-设计原则.png
-status: enriched
+  - "10_raw/assets/yitang/泛产品设计-落地卡片-设计原则.png"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#pan-product-design"
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#execution"
+  - "#pan-product-design"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
   - "#ui-ux"
-title: 泛产品设计·落地卡片：设计原则
-type: tool
+  - "#yitang"
+title: "泛产品设计·落地卡片：设计原则"
+type: "tool"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: personal
-  module: 泛产品设计
-  course_type: card
-  level: foundational
+yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
 ---
 
 # 设计原则：掌握基本的UI/UE审美原则
@@ -136,4 +141,3 @@ yitang:
 | 做产品页面/界面设计——想从"靠感觉做设计"升到"有判断标准地做设计" | 读一本设计原则入门书（如《写给大家看的设计书》），然后立即用书上的一组术语重新看待你的产品——给你的主页面一个"用排版四原则逐条评价"的评分 | 能对你产品的每个界面给出"在哪个原则上是强的、哪个原则上是弱的"的判断——不是形容词（好看/不好看）而是结构原因（对齐一致/对比不够导致层次模糊） |
 | 向设计师/外部设计合作伙伴提反馈——但只能说出"我觉得不好看"或"专业一点" | 把反馈翻译成设计原则的语言——"左侧标签和输入框的对比强度不够，信息层次看过去是平的"比"不够专业"有用100倍。设计原则是你的"反馈词汇库"——你用它们能说出对方可执行的修改 | 每次设计反馈至少有1条来自一个具体的设计原则术语（对比/重复/对齐/亲密性/交互规范）——而非全是用感觉词汇。反馈的可执行性在于术的可翻译性 |
 | 产品视觉风格基本稳定——想打磨细节让体验感更好 | 做"交互摩擦审计"——以用户身份走完主流程，每一步记录"这一步我的大脑在做操作之外的工作（理解/搜寻/迷惑/返回）吗？"。任何一个"Yes"对应一个可能的交互设计原则违反——去那两本推荐书中找对应的解决方法 | 主流程中≥3个可改善的摩擦点被识别并被修复。修复后的可测量效果——如转化率/任务完成率/用户困惑型支持请求减少 |
-

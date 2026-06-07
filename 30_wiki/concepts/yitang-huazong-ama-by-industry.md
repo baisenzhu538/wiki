@@ -1,15 +1,22 @@
 ---
-id: yitang-huazong-ama-by-industry
+id: "yitang-huazong-ama-by-industry"
 created_at: 2026-05-29
 domain:
-  - healthcare
+  - "healthcare"
 source_refs:
-  - src_20260529_huazong_ama
-status: stable
+  - "src_20260529_huazong_ama"
+status: "stable"
 tags:
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
   - "[AI落地, 一堂, 花总, 行业分类, 对照表]"
-title: 花总AMA按行业分类整理（商业突破大航海）
-type: concept
+title: "花总AMA按行业分类整理（商业突破大航海）"
+type: "concept"
 updated_at: 2026-05-29
 ---
 
@@ -186,4 +193,3 @@ updated_at: 2026-05-29
 **花总回答精要：** 看看一号怎么做运营、用了哪些AI。
 
 ---
-

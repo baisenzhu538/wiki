@@ -1,45 +1,43 @@
 ---
-title: 科学开会
-type: concept
-status: enriched
-domain:
-id: yt-management-scientific-meetings
-  - yitang
-yitang:
-  map: management
-  module: 科学开会
-  course_id: yt-management-scientific-meetings
-  course_type: method
-  level: core
-  series: true
+title: "科学开会"
+type: "concept"
+status: "enriched"
+domain: ""
+id: "yt-management-scientific-meetings - yitang"
+yitang: {'map': 'management', 'module': '科学开会', 'course_id': 'yt-management-scientific-meetings', 'course_type': 'method', 'level': 'core', 'series': True}
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-18'
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+created_at: "2026-05-06"
+updated_at: "2026-05-18"
 estimated_tokens: 3400
-reviewed_by: 黄药师
-review_date: '2026-05-08'
-trust_level: medium
+reviewed_by: "黄药师"
+review_date: "2026-05-08"
+trust_level: "medium"
 related:
-  - yt-management-basic-skills
-  - yt-management-goal-management
-  - yt-management-project-management
-  - yt-management-scientific-decision
-  - yt-management-strategy-meeting
-  - yt-tool-meeting-designer
+  - "yt-management-basic-skills"
+  - "yt-management-goal-management"
+  - "yt-management-project-management"
+  - "yt-management-scientific-decision"
+  - "yt-management-strategy-meeting"
+  - "yt-tool-meeting-designer"
 query_triggers:
-  - 高效开会方法
-  - 减少无效会议
-  - 会议设计框架
-  - 会议主持技巧
-  - 异步沟通替代
-  - 会议纪要模板
-  - 决策会怎么开
-  - 会议角色分工
-  - 科学开会
+  - "高效开会方法"
+  - "减少无效会议"
+  - "会议设计框架"
+  - "会议主持技巧"
+  - "异步沟通替代"
+  - "会议纪要模板"
+  - "决策会怎么开"
+  - "会议角色分工"
+  - "科学开会"
 tags:
-  - '#yitang'
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/note-taking"
+  - "#yitang"
 ---
+
 # 科学开会
 
 > 来源：一堂管理必修课「管团队」模块，含认知篇+实操篇。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

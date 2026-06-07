@@ -1,26 +1,33 @@
 ---
-id: skill-半肥猫-告诉AI当前日期限制数据时效
+id: "skill-半肥猫-告诉AI当前日期限制数据时效"
 title: "技能：告诉 AI 当前日期限制数据时效"
-type: skill
-status: draft
+type: "skill"
+status: "draft"
 domain:
-  - ai-collaboration
-source_person: 半肥猫
+  - "ai-collaboration"
+source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
-  - 00_inbox/半肥猫-AI学习落地-口述.md
+  - "00_inbox/半肥猫-AI学习落地-口述.md"
 tags:
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#confidence/verified-by-test"
   - "#domain/ai-collaboration"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
 tools_required:
-  - AIGC大模型
+  - "AIGC大模型"
 prerequisite_skills:
-  - skill-半肥猫-追问AI证据并标注信源
+  - "skill-半肥猫-追问AI证据并标注信源"
 related:
-  - concept-半肥猫-ai-learning-toolification-methodology
-  - skill-半肥猫-优先使用官方权威信源做证据
-  - dk-半肥猫-silky-answer-warning
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
+  - "concept-半肥猫-ai-learning-toolification-methodology"
+  - "skill-半肥猫-优先使用官方权威信源做证据"
+  - "dk-半肥猫-silky-answer-warning"
+created_at: "2026-06-07"
+updated_at: "2026-06-07"
 ---
 
 # 技能：告诉 AI 当前日期限制数据时效

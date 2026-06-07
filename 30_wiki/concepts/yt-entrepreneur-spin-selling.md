@@ -1,42 +1,42 @@
 ---
-id: yt-entrepreneur-spin-selling
-component_of: []
-confidence: 0.80
+id: "yt-entrepreneur-spin-selling"
+component_of:
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2236
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - SPIN四步法
-  - SPIN销售法
-  - SPIN销售法：顾问式销售的奠基之作
-  - 与传统销售的关键区分
-  - 书籍地位
-  - 核心洞见
-  - 读书会结构
-  - 顾问式销售的奠基之作
-related:
-  level: intermediate
-reviewed_by: 黄药师
+  - "SPIN四步法"
+  - "SPIN销售法"
+  - "SPIN销售法：顾问式销售的奠基之作"
+  - "与传统销售的关键区分"
+  - "书籍地位"
+  - "核心洞见"
+  - "读书会结构"
+  - "顾问式销售的奠基之作"
+related: {'level': 'intermediate'}
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-读书会-SPIN销售法口述.md
-status: enriched
+  - "10_raw/sources/一堂-读书会-SPIN销售法口述.md"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#confidence/source-cited"
   - "#entrepreneurship"
   - "#sales"
+  - "#scene/business-analysis"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
   - "#spin-selling"
-title: SPIN销售法：顾问式销售的奠基之作
-type: tool
+  - "#yitang"
+title: "SPIN销售法：顾问式销售的奠基之作"
+type: "tool"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: entrepreneur
-  module: 创业必修
-  course_type: book_club
+yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'book_club'}
 ---
 
 # SPIN销售法：顾问式销售的奠基之作

@@ -1,17 +1,20 @@
 ---
-id: ocr-一堂-科学决策-项目方案评估三角形
+id: "ocr-一堂-科学决策-项目方案评估三角形"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_e31b26dd
-status: enriched
+  - "src_20260522_e31b26dd"
+status: "enriched"
 title: "OCR: 一堂-科学决策-项目方案评估三角形"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
 ---
-
-
 
 # OCR: 一堂-科学决策-项目方案评估三角形
 

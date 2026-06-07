@@ -1,17 +1,20 @@
 ---
-id: ocr-一堂-科学决策-深度-决策经验值
+id: "ocr-一堂-科学决策-深度-决策经验值"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_4f3415a1
-status: enriched
+  - "src_20260522_4f3415a1"
+status: "enriched"
 title: "OCR: 一堂-科学决策-深度-决策经验值"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 一堂-科学决策-深度-决策经验值
 

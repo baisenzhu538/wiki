@@ -3,21 +3,29 @@ title: "AI数据理解第一课"
 type: "concept"
 status: "enriched"
 domain:
-  - yitang
-source_refs: ["src_20260601_ba8ea2f0"]
+  - "yitang"
+source_refs:
+  - "src_20260601_ba8ea2f0"
 created_at: "2026-06-01"
 updated_at: "2026-06-01"
 related:
-  - 人机协作决策-双三角模型
-  - 数据标注维度最佳实践调研报告
-  - ai-native-五层进阶从答案到效率到作品到产品到系统
-  - yt-unit-model-ai-assisted
+  - "人机协作决策-双三角模型"
+  - "数据标注维度最佳实践调研报告"
+  - "ai-native-五层进阶从答案到效率到作品到产品到系统"
+  - "yt-unit-model-ai-assisted"
 query_triggers:
-  - 数据使用层次
-  - AI数据类型
-  - DIKW模型
-  - 数据复利
-  - 投喂检索训练
+  - "数据使用层次"
+  - "AI数据类型"
+  - "DIKW模型"
+  - "数据复利"
+  - "投喂检索训练"
+tags:
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
 ---
 
 # AI数据理解第一课

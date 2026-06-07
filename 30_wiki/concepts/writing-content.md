@@ -1,16 +1,19 @@
 ---
-id: writing-content
+id: "writing-content"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - "ai-saas"
 source_refs:
-  - src_20260522_5819659f
-status: enriched
-title: Writing Content
-type: concept
+  - "src_20260522_5819659f"
+status: "enriched"
+title: "Writing Content"
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
 ---
-
 
 # Writing Content
 

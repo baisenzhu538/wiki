@@ -1,13 +1,20 @@
 ---
-id: yt-decision-depth-ladder
-type: concept
-status: enriched
-title: 
-created_at: 
-updated_at: 
+id: "yt-decision-depth-ladder"
+type: "concept"
+status: "enriched"
+title: ""
+created_at: ""
+updated_at: ""
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
 
-     1|---
+1|---
      2|
      3|id: yt-decision-depth-ladder
      4|

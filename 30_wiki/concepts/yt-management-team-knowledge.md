@@ -1,47 +1,49 @@
 ---
-title: 团队知识管理
-type: concept
-status: enriched
-domain:
-id: yt-management-team-knowledge
-  - yitang
-yitang:
-  map: management
-  module: 团队知识管理
-  course_id: yt-management-team-knowledge
-  course_type: method
-  level: core
-  series: false
+title: "团队知识管理"
+type: "concept"
+status: "enriched"
+domain: ""
+id: "yt-management-team-knowledge - yitang"
+yitang: {'map': 'management', 'module': '团队知识管理', 'course_id': 'yt-management-team-knowledge', 'course_type': 'method', 'level': 'core', 'series': False}
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-18'
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+created_at: "2026-05-06"
+updated_at: "2026-05-18"
 estimated_tokens: 3400
-reviewed_by: 黄药师
-review_date: '2026-05-08'
-trust_level: medium
+reviewed_by: "黄药师"
+review_date: "2026-05-08"
+trust_level: "medium"
 related:
-  - yt-management-basic-skills
-  - yt-management-company-culture
-  - yt-management-leadership-levels
-  - yt-management-onboarding
-  - yt-management-project-management
-  - yt-personal-knowledge-management
-  - yt-tool-knowledge-extraction
+  - "yt-management-basic-skills"
+  - "yt-management-company-culture"
+  - "yt-management-leadership-levels"
+  - "yt-management-onboarding"
+  - "yt-management-project-management"
+  - "yt-personal-knowledge-management"
+  - "yt-tool-knowledge-extraction"
 query_triggers:
-  - 团队知识管理
-  - 知识库搭建方法
-  - 隐性知识萃取
-  - 知识沉淀体系
-  - 团队经验传承
-  - 项目复盘知识化
-  - SECI模型
-  - 知识管理系统
-  - 新人FAQ沉淀
-  - 组织记忆力
+  - "团队知识管理"
+  - "知识库搭建方法"
+  - "隐性知识萃取"
+  - "知识沉淀体系"
+  - "团队经验传承"
+  - "项目复盘知识化"
+  - "SECI模型"
+  - "知识管理系统"
+  - "新人FAQ沉淀"
+  - "组织记忆力"
 tags:
-  - '#yitang'
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+  - "#yitang"
 ---
+
 # 团队知识管理
 
 > 来源：一堂管理必修课「管团队」模块，《知识库：团队知识管理必修课》。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

@@ -1,19 +1,22 @@
 ---
-id: contingency-decision-making
-type: concept
-status: draft
+id: "contingency-decision-making"
+type: "concept"
+status: "draft"
 source_refs:
-  - src_20260606_cde17edd
-component_of: []
+  - "src_20260606_cde17edd"
+component_of:
 related:
-  - ai-collaboration-mindset-shift
-  - ai-landing-scene-selection
+  - "ai-collaboration-mindset-shift"
+  - "ai-landing-scene-selection"
 query_triggers:
   - "决策为什么总是出错"
   - "偶然性怎么应对"
   - "为什么计划赶不上变化"
   - "专家预测为什么不准"
-reviewed_by: ''
+reviewed_by: ""
+tags:
+  - "#confidence/draft"
+  - "#confidence/source-cited"
 ---
 
 # 偶然性与决策：承认"我不知道"比虚假确定性更明智

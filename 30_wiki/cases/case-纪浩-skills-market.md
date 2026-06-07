@@ -1,23 +1,31 @@
 ---
-id: case-纪浩-skills-market
+id: "case-纪浩-skills-market"
 title: "案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助"
-type: case
-status: draft
+type: "case"
+status: "draft"
 domain:
-  - agent-infrastructure
-  - yitang
-source_person: 纪浩
+  - "agent-infrastructure"
+  - "yitang"
+source_person: "纪浩"
 source_context: "AI俱乐部-AI协作方法论 分享"
 source_refs:
-  - 00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt
+  - "00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#domain/agent-infrastructure"
   - "#domain/yitang"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
   - "#type/case"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
-  - case-truman-ai-partner
+  - "case-truman-ai-partner"
 ---
 
 # 案例：一堂内部 Skills 分发平台

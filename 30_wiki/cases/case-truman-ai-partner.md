@@ -1,28 +1,39 @@
 ---
-id: case-truman-ai-partner
+id: "case-truman-ai-partner"
 title: "案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent"
-type: case
-status: draft
+type: "case"
+status: "draft"
 domain:
-  - agent-infrastructure
-  - yitang
-source_person: Truman
+  - "agent-infrastructure"
+  - "yitang"
+source_person: "Truman"
 source_context: "一堂《AI时代清单体笔记》课程"
 source_refs:
-  - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
-  - 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
-  - 00_inbox/Truman的个人成长五步法.png
-  - 00_inbox/truman的选择：两条职业成长路线.png
+  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
+  - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
+  - "00_inbox/Truman的个人成长五步法.png"
+  - "00_inbox/truman的选择：两条职业成长路线.png"
 tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#domain/agent-infrastructure"
   - "#domain/yitang"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
   - "#type/case"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
-  - case-纪浩-skills-market
-  - yt-note-ai-human-division
-  - 30_wiki/decisions/truman-ai-partner-design-analysis.md
+  - "case-纪浩-skills-market"
+  - "yt-note-ai-human-division"
+  - "30_wiki/decisions/truman-ai-partner-design-analysis.md"
 ---
 
 # 案例：Truman AI Partner（阿蕊老师）

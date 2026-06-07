@@ -1,39 +1,46 @@
 ---
-id: yt-pitch-quantification
+id: "yt-pitch-quantification"
 component_of:
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-personal-pitch-toolkit"
 confidence: 0.85
 created_at: 2026-05-13
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - personal
-  - yitang
+  - "personal"
+  - "yitang"
 estimated_tokens: 1500
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-personal-pitch-toolkit"
 query_triggers:
-  - 数字化
-  - 数字策略
-  - 用数字
-  - 对比数字
-  - 巧用数字
+  - "数字化"
+  - "数字策略"
+  - "用数字"
+  - "对比数字"
+  - "巧用数字"
 related:
-  - yt-concept-weapon-arsenal
-reviewed_by: 黄药师
+  - "yt-concept-weapon-arsenal"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
-  - 10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png
-status: enriched
+  - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
+  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#pitch"
+  - "#scene/business-analysis"
+  - "#scene/skill-engineering"
+  - "#yitang"
   - "#具象化"
-title: 讲香·数字化
-type: tool
+title: "讲香·数字化"
+type: "tool"
 updated_at: 2026-05-13
 version: 1
 ---
+
 # 讲香·数字化
 
 > 十指模型左手第三指——向下具象。客观的数字让用户默认「这就是事实」，在用户犹豫反复时一锤定音。

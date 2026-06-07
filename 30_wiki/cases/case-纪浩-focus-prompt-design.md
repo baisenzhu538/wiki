@@ -1,27 +1,38 @@
 ---
-id: case-纪浩-focus-prompt-design
+id: "case-纪浩-focus-prompt-design"
 title: "案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接"
-type: case
-status: draft
+type: "case"
+status: "draft"
 domain:
-  - prompt-engineering
-  - yitang
-source_person: 纪浩
+  - "prompt-engineering"
+  - "yitang"
+source_person: "纪浩"
 source_context: "AI俱乐部-AI协作方法论 分享 + 真实项目 /focus 功能的产品设计提示词"
 source_refs:
-  - 00_inbox/AI俱乐部-人和AI协作-纪浩-提示词案例01.txt
-  - 00_inbox/AI俱乐部-人和AI协作-纪浩-提示词案例02.txt
-  - 00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-图片01.png
-  - 00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-图片02.png
+  - "00_inbox/AI俱乐部-人和AI协作-纪浩-提示词案例01.txt"
+  - "00_inbox/AI俱乐部-人和AI协作-纪浩-提示词案例02.txt"
+  - "00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-图片01.png"
+  - "00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-图片02.png"
 tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#domain/prompt-engineering"
   - "#domain/yitang"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
   - "#type/case"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
-  - case-纪浩-skills-market
-  - case-truman-ai-partner
+  - "case-纪浩-skills-market"
+  - "case-truman-ai-partner"
 ---
 
 # 案例：纪浩的 AI 协作产品设计

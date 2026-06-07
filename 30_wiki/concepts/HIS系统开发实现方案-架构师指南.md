@@ -1,14 +1,20 @@
 ---
-id: HIS系统开发实现方案-架构师指南
+id: "HIS系统开发实现方案-架构师指南"
 created_at: 2026-05-03
 domain:
-  - healthcare
+  - "healthcare"
 source_refs:
-  - src_20260503_1a1f0312
-status: enriched
-title: HIS系统开发实现方案-架构师指南
-type: concept
+  - "src_20260503_1a1f0312"
+status: "enriched"
+title: "HIS系统开发实现方案-架构师指南"
+type: "concept"
 updated_at: 2026-05-03
+tags:
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
 ---
 
 # HIS系统开发实现方案-架构师指南

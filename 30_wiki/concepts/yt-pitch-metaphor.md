@@ -1,39 +1,45 @@
 ---
-id: yt-pitch-metaphor
+id: "yt-pitch-metaphor"
 component_of:
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-personal-pitch-toolkit"
 confidence: 0.85
 created_at: 2026-05-13
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - personal
-  - yitang
+  - "personal"
+  - "yitang"
 estimated_tokens: 1600
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-personal-pitch-toolkit"
 query_triggers:
-  - 比喻化
-  - 比喻
-  - 类比
-  - 形象比喻
-  - 高级比喻
+  - "比喻化"
+  - "比喻"
+  - "类比"
+  - "形象比喻"
+  - "高级比喻"
 related:
-  - yt-concept-weapon-arsenal
-reviewed_by: 黄药师
+  - "yt-concept-weapon-arsenal"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
-  - 10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png
-status: enriched
+  - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
+  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
   - "#pitch"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#yitang"
   - "#抽象化"
-title: 讲香·比喻化
-type: tool
+title: "讲香·比喻化"
+type: "tool"
 updated_at: 2026-05-13
 version: 1
 ---
+
 # 讲香·比喻化
 
 > 十指模型右手第一指——向上抽象。用已知解释未知，帮用户建立一个关联的心理锚点，让难理解的东西瞬间变清晰。
@@ -97,4 +103,3 @@ version: 1
 | 想为一个新卖点设计比喻——盯着产品想不出好的喻体 | 做"跨域扫描"——不看你的产品，看你目标用户的生活：他们日常生活中最熟悉的10个东西/场景/体验是什么？他们做什么工作？用什么东西？有什么反复出现的痛点？好的喻体一定来自用户已有的体感，而非来自你的产品。从用户的生活中找喻体，而不是从产品中"硬想"出一个比喻 | 从用户生活扫描中生成≥5个候选喻体。测试标准：随便找一个人说喻体，他能在1秒内理解是什么——如果还需要解释喻体是什么，说明这个喻体本身也需要比喻来理解，这不是好喻体 |
 | 发现自己在用被"过度使用到贬值"的比喻（"XX界的爱马仕""行业里的苹果"） | 做"喻体新鲜度审计"——列出你最近10个比喻的喻体。如果你在同一个产品/讲香中用了≥2个"行业通用比喻"（爱马仕/劳斯莱斯/苹果/保姆式服务）→听众已经对这些喻体"脱敏"了。这些比喻不但不起作用，还会让用户把你的品牌归入"没创意地用通用比喻的平庸品牌" | 下一次讲香中≥1个比喻来自用户生活中的非商业体验——不是"像XX品牌"而是"像你第一次自己组装好家具的那种成就感"。非商业体验喻体没有人能用"行业通用比喻免疫"来抵抗，因为每个具体生活中的体验都是新鲜的 |
 | 讲完带比喻的讲香后不确定用户"理解是否准确"——你说"像火箭"但用户理解成了"会爆炸" | 做"比喻回译测试"——讲完后单独问听众："如果让你用你自己的话跟别人解释我们这个东西是什么，你会怎么说？"如果用户用自己的话重新表达了——且没有用到你的比喻本身——说明比喻已经完成了它的工作（理解发生，喻体被内化后丢弃了）。如果用户直接重复了你的比喻（"它就是XX界的劳斯莱斯"）→用户记住了比喻但未必理解产品——比喻成了替代品而非桥梁 | ≥50%的测试听众在解释产品时用了自己的话而非你的比喻——比喻是渡河的船，过了河要学会下船 |
-

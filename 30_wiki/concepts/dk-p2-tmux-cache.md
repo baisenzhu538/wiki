@@ -1,26 +1,31 @@
 ---
-id: dk-p2-tmux-cache
+id: "dk-p2-tmux-cache"
 title: "P-2：tmux session 缓存旧配置"
-type: dark-knowledge
-dark_knowledge_type: failure
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "failure"
+status: "draft"
 domain:
-  - master
-source_person: system
+  - "master"
+source_person: "system"
 source_context: "pitfalls.md P-2"
 source_refs:
-  - .agent/pitfalls.md#P-2
+  - ".agent/pitfalls.md#P-2"
 tags:
-  - "#source_type/error"
+  - "#boundary/single-use-only"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
-  - dk-p1-model-switch-env
+  - "dk-p1-model-switch-env"
 contradicts:
-  - master-systems-thinking
-  - master-first-principles
+  - "master-systems-thinking"
+  - "master-first-principles"
 ---
 
 # P-2：tmux session 缓存旧配置

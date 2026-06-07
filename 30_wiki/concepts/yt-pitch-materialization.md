@@ -1,40 +1,45 @@
 ---
-id: yt-pitch-materialization
+id: "yt-pitch-materialization"
 component_of:
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-personal-pitch-toolkit"
 confidence: 0.85
 created_at: 2026-05-13
-difficulty: advanced
+difficulty: "advanced"
 domain:
-  - personal
-  - yitang
+  - "personal"
+  - "yitang"
 estimated_tokens: 1500
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-personal-pitch-toolkit"
 query_triggers:
-  - 素材化
-  - 素材
-  - 图片展现
-  - 感官展现
-  - 夸张测试
-  - 一图胜千言
+  - "素材化"
+  - "素材"
+  - "图片展现"
+  - "感官展现"
+  - "夸张测试"
+  - "一图胜千言"
 related:
-  - yt-concept-weapon-arsenal
-reviewed_by: 黄药师
+  - "yt-concept-weapon-arsenal"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
-  - 10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png
-status: enriched
+  - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
+  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#pitch"
+  - "#scene/note-taking"
+  - "#yitang"
   - "#具象化"
-title: 讲香·素材化
-type: tool
+title: "讲香·素材化"
+type: "tool"
 updated_at: 2026-05-13
 version: 1
 ---
+
 # 讲香·素材化
 
 > 十指模型左手第五指——向下具象。论证不充分时往里面加素材——图片一放、声音一响、视频一播，说服力天然比语言强一个量级。

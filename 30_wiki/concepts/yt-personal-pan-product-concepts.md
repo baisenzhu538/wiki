@@ -1,46 +1,47 @@
 ---
-id: yt-personal-pan-product-concepts
+id: "yt-personal-pan-product-concepts"
 component_of:
-  - yt-composite-pan-product-methodology
-confidence: 0.80
+  - "yt-composite-pan-product-methodology"
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3300
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 个人修炼
-  - 产品思维
-  - 泛产品设计
-  - 泛产品设计认知篇
-  - 泛产品设计认知篇：重新理解泛化产品能力
-  - 重新理解泛化产品能力
+  - "个人修炼"
+  - "产品思维"
+  - "泛产品设计"
+  - "泛产品设计认知篇"
+  - "泛产品设计认知篇：重新理解泛化产品能力"
+  - "重新理解泛化产品能力"
 related:
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
-  - yt-model-pan-product-execution-toolkit
-  - yt-model-pan-product-climbing-map
-  - yt-model-pan-product-three-virtues
-reviewed_by: 黄药师
+  - "yt-model-pan-product-demand-toolkit"
+  - "yt-model-pan-product-aesthetic-toolkit"
+  - "yt-model-pan-product-execution-toolkit"
+  - "yt-model-pan-product-climbing-map"
+  - "yt-model-pan-product-three-virtues"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-个人修炼-泛产品设计概念口述版.md
-status: enriched
+  - "10_raw/sources/一堂-个人修炼-泛产品设计概念口述版.md"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
   - "#pan-product-design"
   - "#personal-growth"
-title: 泛产品设计认知篇：重新理解泛化产品能力
-type: concept
+  - "#scene/hardware-debugging"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#yitang"
+title: "泛产品设计认知篇：重新理解泛化产品能力"
+type: "concept"
 updated_at: 2026-05-18
 version: 1
-yitang:
-  map: personal
-  module: 个人修炼
-  course_type: required
-  course_id: yt-personal-pan-product-concepts
-  level: foundational
+yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'required', 'course_id': 'yt-personal-pan-product-concepts', 'level': 'foundational'}
 ---
 
 # 泛产品设计认知篇：重新理解泛化产品能力

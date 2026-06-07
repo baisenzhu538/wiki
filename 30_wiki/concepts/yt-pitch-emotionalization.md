@@ -1,40 +1,47 @@
 ---
-id: yt-pitch-emotionalization
+id: "yt-pitch-emotionalization"
 component_of:
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-personal-pitch-toolkit"
 confidence: 0.85
 created_at: 2026-05-13
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - personal
-  - yitang
+  - "personal"
+  - "yitang"
 estimated_tokens: 1600
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-personal-pitch-toolkit"
 query_triggers:
-  - 情绪化
-  - 唤起情绪
-  - 恐惧营销
-  - 向往情绪
-  - 好奇情绪
-  - 认同情绪
+  - "情绪化"
+  - "唤起情绪"
+  - "恐惧营销"
+  - "向往情绪"
+  - "好奇情绪"
+  - "认同情绪"
 related:
-  - yt-concept-weapon-arsenal
-reviewed_by: 黄药师
+  - "yt-concept-weapon-arsenal"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
-  - 10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png
-status: enriched
+  - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
+  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-medical"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
   - "#pitch"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
+  - "#yitang"
   - "#抽象化"
-title: 讲香·情绪化
-type: tool
+title: "讲香·情绪化"
+type: "tool"
 updated_at: 2026-05-13
 version: 1
 ---
+
 # 讲香·情绪化
 
 > 十指模型右手第三指——向上抽象。让用户从波澜不惊到涌现情绪——恐惧、向往、好奇、认同，一旦情绪被唤起，理性防线就不再坚固。

@@ -1,17 +1,22 @@
 ---
-id: ocr-泛产品设计-用户卡片-动力阻力
+id: "ocr-泛产品设计-用户卡片-动力阻力"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - "ai-saas"
 source_refs:
-  - src_20260522_1ec27760
-status: enriched
+  - "src_20260522_1ec27760"
+status: "enriched"
 title: "OCR: 泛产品设计-用户卡片-动力阻力"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 泛产品设计-用户卡片-动力阻力
 

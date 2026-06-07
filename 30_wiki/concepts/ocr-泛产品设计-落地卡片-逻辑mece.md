@@ -1,17 +1,21 @@
 ---
-id: ocr-泛产品设计-落地卡片-逻辑mece
+id: "ocr-泛产品设计-落地卡片-逻辑mece"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_8d990f3c
-status: enriched
+  - "src_20260522_8d990f3c"
+status: "enriched"
 title: "OCR: 泛产品设计-落地卡片-逻辑MECE"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/note-taking"
+  - "#scene/product-design"
 ---
-
-
 
 # OCR: 泛产品设计-落地卡片-逻辑MECE
 

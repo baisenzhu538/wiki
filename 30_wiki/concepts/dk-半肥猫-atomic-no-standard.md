@@ -1,27 +1,34 @@
 ---
-id: dk-半肥猫-atomic-no-standard
+id: "dk-半肥猫-atomic-no-standard"
 title: "暗知识：原子化没有固定标准"
-type: dark-knowledge
-status: draft
+type: "dark-knowledge"
+status: "draft"
 domain:
-  - ai-collaboration
-  - yitang
-source_person: 半肥猫
+  - "ai-collaboration"
+  - "yitang"
+source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
-  - 00_inbox/半肥猫-AI学习落地-口述.md
+  - "00_inbox/半肥猫-AI学习落地-口述.md"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/ai-collaboration"
   - "#domain/yitang"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
   - "#type/dark-knowledge"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
-  - concept-半肥猫-ai-learning-toolification-methodology
-  - skill-半肥猫-用YAML格式做知识库原子化标签
-  - skill-半肥猫-清洗资料为Markdown格式喂给AI
-  - skill-半肥猫-动态读取-向量化管理迭代知识
-  - dk-半肥猫-skill-rejection-value
+  - "concept-半肥猫-ai-learning-toolification-methodology"
+  - "skill-半肥猫-用YAML格式做知识库原子化标签"
+  - "skill-半肥猫-清洗资料为Markdown格式喂给AI"
+  - "skill-半肥猫-动态读取-向量化管理迭代知识"
+  - "dk-半肥猫-skill-rejection-value"
 ---
 
 # 暗知识：原子化没有固定标准

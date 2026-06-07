@@ -1,17 +1,26 @@
 ---
-id: ocr-泛产品设计落地篇
+id: "ocr-泛产品设计落地篇"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - "ai-saas"
 source_refs:
-  - src_20260522_e4b635ac
-status: enriched
+  - "src_20260522_e4b635ac"
+status: "enriched"
 title: "OCR: 泛产品设计落地篇"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 泛产品设计落地篇
 
@@ -96,4 +105,3 @@ Capability: <workflow: "OCR-KDO 双校验知识入库流程" — 定义从Paddle
 |---------|-----------|---------|
 | 接到一个新的“泛产品设计”任务（如设计一门课、规划一次旅行、设计一个AI Agent） | 先判断该任务属于“磨设计”/“磨方案”/“磨创新”中的哪一圈层——独立完成的作品？需要协作的复杂产品？还是高难度创新？ | 在1分钟内用一句话说清任务的复杂度层级，并说出该层级下最关键的两个设计挑战 |
 | 在设计过程中遇到“填充色块区”（最有挑战的部分） | 停下来检查：这个色块区对应的是“不可逆决策”还是“可迭代验证”？如果是不可逆的——先做“最小认知验证”而不是直接开工 | 能说出该色块区的至少两个“如果走错了会怎么样”的场景，并有一个3个月内的“止损信号” |
-

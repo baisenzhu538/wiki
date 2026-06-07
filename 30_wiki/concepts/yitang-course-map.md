@@ -1,13 +1,21 @@
 ---
 title: "一堂课程大地图"
-type: concept
-subtype: hub
-domain: ["yitang"]
-status: stable
-tags: ["yitang", "course-map", "index", "dataview"]
+type: "concept"
+subtype: "hub"
+domain:
+  - "yitang"
+status: "stable"
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#scene/learning-methodology"
+  - "course-map"
+  - "dataview"
+  - "index"
+  - "yitang"
 created_at: "2026-05-06"
 updated_at: "2026-05-06"
-id: yitang-course-map
+id: "yitang-course-map"
 ---
 
 # 一堂课程大地图
@@ -94,4 +102,3 @@ SORT yitang.map ASC, yitang.module ASC, file.name ASC
 | 需要基于这份框架/方法做出关键决策前 | 先问自己"这个结论现在还成立吗？有没有新的反例出现？" | 每次使用前都能说出至少一个可能影响结论有效性的新变化因素 |
 | 结构化分析后感觉"都对但整体不对" | 停下来检查是否忽视了框架之外的因素——团队、时机、技术债务 | 能指出至少一个被框架排除但实际影响很大的因素 |
 | 使用过程中感到信息过载 | 不要一次性尝试应用整个框架——选择其中一个最直接相关的模块先用 | 在一个具体项目中成功应用了≥1个模块 |
-

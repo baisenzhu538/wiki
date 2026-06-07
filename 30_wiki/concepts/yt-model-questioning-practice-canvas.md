@@ -1,39 +1,38 @@
 ---
-id: yt-model-questioning-practice-canvas
-component_of: []
+id: "yt-model-questioning-practice-canvas"
+component_of:
 confidence: 0.85
 created_at: 2026-05-07
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1832
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 使用场景矩阵
-  - 关联卡片
-  - 四层提问能力框架
-  - 提问刻意练习提升画布
-  - 核心方法论要素
-  - 知识体系定位
-related:
-  level: foundational
-reviewed_by: 黄药师
+  - "使用场景矩阵"
+  - "关联卡片"
+  - "四层提问能力框架"
+  - "提问刻意练习提升画布"
+  - "核心方法论要素"
+  - "知识体系定位"
+related: {'level': 'foundational'}
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂-个人修炼-提问刻意练习画布.png
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+  - "10_raw/assets/yitang/一堂-个人修炼-提问刻意练习画布.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#confidence/source-cited"
   - "#questioning"
-title: 提问刻意练习提升画布
-type: framework
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#yitang"
+title: "提问刻意练习提升画布"
+type: "framework"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: personal
-  module: 提问能力
-  course_type: model
+yitang: {'map': 'personal', 'module': '提问能力', 'course_type': 'model'}
 ---
 
 # 提问刻意练习提升画布 (By YITANG)

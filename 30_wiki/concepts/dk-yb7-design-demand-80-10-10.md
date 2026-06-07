@@ -1,23 +1,27 @@
 ---
-id: dk-yb7-design-demand-80-10-10
+id: "dk-yb7-design-demand-80-10-10"
 title: "中国设计需求的80-10-10分层法则"
-type: dark-knowledge
-dark_knowledge_type: insight
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "insight"
+status: "draft"
 domain:
-  - design
-source_person: 月白
+  - "design"
+source_person: "月白"
 source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
-  - 00_inbox/design/AI设计-AI设计基础01.txt
+  - "00_inbox/design/AI设计-AI设计基础01.txt"
 tags:
-  - "#source_type/dark-knowledge"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/business-analysis"
+  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
-  - — 暂无（待后续卡片补充关联）
-contradicts: []
+  - "— 暂无（待后续卡片补充关联）"
+contradicts:
 ---
 
 # 中国设计需求的80-10-10分层法则

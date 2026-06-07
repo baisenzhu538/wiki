@@ -1,47 +1,53 @@
 ---
-id: yt-tool-fab-persuasion
+id: "yt-tool-fab-persuasion"
 component_of:
-  - yt-model-pan-product-demand-toolkit
+  - "yt-model-pan-product-demand-toolkit"
 confidence: 0.85
 created_at: 2026-06-06
-deprecation_reason: 
-difficulty: foundational
+deprecation_reason: ""
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2800
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-model-conversion-optimization
+  - "yt-model-conversion-optimization"
 query_triggers:
-  - 如何写FAB
-  - FAB说服法
-  - 产品说服文案
-  - 特性优点利益
-  - 如何写产品介绍
-  - 核心说服点
-  - 转化文案怎么写
-  - 用户价值描述
+  - "如何写FAB"
+  - "FAB说服法"
+  - "产品说服文案"
+  - "特性优点利益"
+  - "如何写产品介绍"
+  - "核心说服点"
+  - "转化文案怎么写"
+  - "用户价值描述"
 related:
-  - yt-model-conversion-optimization
-  - yt-panproduct-demand-motivation-resistance
-  - yt-entrepreneur-needs-analysis
-  - yt-tool-copywriting-framework
+  - "yt-model-conversion-optimization"
+  - "yt-panproduct-demand-motivation-resistance"
+  - "yt-entrepreneur-needs-analysis"
+  - "yt-tool-copywriting-framework"
 review_by: 2026-12-06
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 00_inbox/一堂-个人修炼-泛产品设计工具篇口述版.md
-status: enriched
-superseded_by: 
+  - "00_inbox/一堂-个人修炼-泛产品设计工具篇口述版.md"
+status: "enriched"
+superseded_by: ""
 tags:
-  - FAB
-  - 说服
-  - 转化
-  - 产品设计
-  - 一堂
-  - 文案
-title: FAB核心说服：从产品特性到用户利益的转化法
-
-type: tool
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
+  - "FAB"
+  - "一堂"
+  - "产品设计"
+  - "文案"
+  - "说服"
+  - "转化"
+title: "FAB核心说服：从产品特性到用户利益的转化法"
+type: "tool"
 updated_at: 2026-06-06
 version: 1
 ---

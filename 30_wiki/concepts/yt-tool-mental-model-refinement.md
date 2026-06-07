@@ -1,50 +1,56 @@
 ---
-id: yt-tool-mental-model-refinement
+id: "yt-tool-mental-model-refinement"
 component_of:
-  - yt-model-personal-map
+  - "yt-model-personal-map"
 confidence: 0.85
 created_at: 2026-06-06
-deprecation_reason: 
-difficulty: advanced
+deprecation_reason: ""
+difficulty: "advanced"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3200
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-model-deliberate-practice-growth
-  - yt-composite-pan-product-methodology
+  - "yt-model-deliberate-practice-growth"
+  - "yt-composite-pan-product-methodology"
 query_triggers:
-  - 如何提炼自己的思维模型
-  - 模型提炼方法
-  - CEO核心能力模型提炼
-  - 从经验到模型
-  - 体感模型怎么建
-  - 避免低水平重复
-  - 以周为单位的迭代模型
-  - 躬身入局建模
+  - "如何提炼自己的思维模型"
+  - "模型提炼方法"
+  - "CEO核心能力模型提炼"
+  - "从经验到模型"
+  - "体感模型怎么建"
+  - "避免低水平重复"
+  - "以周为单位的迭代模型"
+  - "躬身入局建模"
 related:
-  - yt-model-cognitive-upgrade-framework
-  - yt-model-deliberate-practice-growth
-  - yt-composite-pan-product-methodology
-  - yt-concept-peas-insight
-  - master-first-principles
-  - yt-decision-habit-shift
+  - "yt-model-cognitive-upgrade-framework"
+  - "yt-model-deliberate-practice-growth"
+  - "yt-composite-pan-product-methodology"
+  - "yt-concept-peas-insight"
+  - "master-first-principles"
+  - "yt-decision-habit-shift"
 review_by: 2026-12-06
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 00_inbox/一堂-个人修身-思维模型口述版.md
-status: enriched
-superseded_by: 
+  - "00_inbox/一堂-个人修身-思维模型口述版.md"
+status: "enriched"
+superseded_by: ""
 tags:
-  - 思维模型
-  - 提炼方法
-  - 一堂
-  - CEO能力
-  - 建模
-  - 复盘
-title: 思维模型提炼：从体感经验到可复用武器库
-
-type: tool
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
+  - "CEO能力"
+  - "一堂"
+  - "复盘"
+  - "建模"
+  - "思维模型"
+  - "提炼方法"
+title: "思维模型提炼：从体感经验到可复用武器库"
+type: "tool"
 updated_at: 2026-06-06
 version: 1
 ---

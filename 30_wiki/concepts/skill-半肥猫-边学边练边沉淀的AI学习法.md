@@ -1,35 +1,47 @@
 ---
-id: skill-半肥猫-边学边练边沉淀的AI学习法
+id: "skill-半肥猫-边学边练边沉淀的AI学习法"
 title: "技能：边学边练边沉淀的 AI 学习法"
-type: skill
-status: draft
+type: "skill"
+status: "draft"
 domain:
-  - ai-collaboration
-  - learning
-source_person: 半肥猫
+  - "ai-collaboration"
+  - "learning"
+source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
-  - 00_inbox/半肥猫-AI学习落地-口述.md
+  - "00_inbox/半肥猫-AI学习落地-口述.md"
 tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#domain/ai-collaboration"
   - "#domain/learning"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 tools_required:
-  - AIGC大模型
-  - 真实业务项目
-  - 文档沉淀工具
+  - "AIGC大模型"
+  - "真实业务项目"
+  - "文档沉淀工具"
 prerequisite_skills:
-  - skill-半肥猫-追问AI证据并标注信源
-  - skill-半肥猫-将学习成果沉淀为PRD文档
+  - "skill-半肥猫-追问AI证据并标注信源"
+  - "skill-半肥猫-将学习成果沉淀为PRD文档"
 related:
-  - concept-半肥猫-ai-learning-toolification-methodology
-  - skill-半肥猫-课程Skill化的八步工作流
-  - case-半肥猫-conversion-hacker-skill
-  - dk-半肥猫-silky-answer-warning
-  - dk-半肥猫-skill-rejection-value
-  - concept-纪浩-ai-collaboration-methodology
-  - skill-纪浩-dofirst-pdca
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
+  - "concept-半肥猫-ai-learning-toolification-methodology"
+  - "skill-半肥猫-课程Skill化的八步工作流"
+  - "case-半肥猫-conversion-hacker-skill"
+  - "dk-半肥猫-silky-answer-warning"
+  - "dk-半肥猫-skill-rejection-value"
+  - "concept-纪浩-ai-collaboration-methodology"
+  - "skill-纪浩-dofirst-pdca"
+created_at: "2026-06-07"
+updated_at: "2026-06-07"
 ---
 
 # 技能：边学边练边沉淀的 AI 学习法

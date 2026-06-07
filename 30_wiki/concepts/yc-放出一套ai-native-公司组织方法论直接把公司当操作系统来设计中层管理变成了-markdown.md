@@ -1,17 +1,26 @@
 ---
-id: yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
+id: "yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown"
 created_at: 2026-04-29
 domain:
   - "['ai-saas']"
 review_date: 2026-05-04
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - src_20260430_8cc84e5b
-status: enriched
-title: YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN
-trust_level: medium
-type: concept
+  - "src_20260430_8cc84e5b"
+status: "enriched"
+title: "YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN"
+trust_level: "medium"
+type: "concept"
 updated_at: 2026-05-04
+tags:
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
 
 # YC 放出一套「AI-NATIVE 公司」组织方法论
@@ -105,4 +114,3 @@ updated_at: 2026-05-04
 | 触发场景 | 第一个动作 | 成功指标 |
 |---------|-----------|---------|
 | 需要基于这份调研/框架做出关键决策前 | 先问自己"这个结论现在还成立吗？有没有新的反例出现？" | 每次使用前都能说出至少一个可能影响结论有效性的新变化因素 |
-

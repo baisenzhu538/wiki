@@ -1,42 +1,45 @@
 ---
-id: yt-model-personal-map
-component_of: []
+id: "yt-model-personal-map"
+component_of:
 confidence: 0.85
 created_at: 2026-05-07
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1825
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 个人修炼地图
-  - 关联卡片
-  - 四层金字塔
-  - 核心追求
-  - 知识体系定位
-  - 迭代层的双螺旋
-  - 领先层六大能力
+  - "个人修炼地图"
+  - "关联卡片"
+  - "四层金字塔"
+  - "核心追求"
+  - "知识体系定位"
+  - "迭代层的双螺旋"
+  - "领先层六大能力"
 related:
-  - yt-model-personal-pitch-toolkit
-reviewed_by: 黄药师
+  - "yt-model-personal-pitch-toolkit"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂-地图-个人地图.webp
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+  - "10_raw/assets/yitang/一堂-地图-个人地图.webp"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#personal-growth"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
   - "#core-model"
-title: 个人修炼地图
-type: framework
+  - "#personal-growth"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#yitang"
+title: "个人修炼地图"
+type: "framework"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: personal
-  module: 方法论总纲
-  course_type: model
-  level: foundational
+yitang: {'map': 'personal', 'module': '方法论总纲', 'course_type': 'model', 'level': 'foundational'}
 ---
 
 # 一堂个人地图：高潜力成长者修炼全景图

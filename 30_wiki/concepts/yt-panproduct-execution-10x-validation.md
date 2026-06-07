@@ -1,48 +1,50 @@
 ---
-id: yt-panproduct-execution-10x-validation
+id: "yt-panproduct-execution-10x-validation"
 component_of:
-  - yt-model-pan-product-execution-toolkit
-confidence: 0.80
+  - "yt-model-pan-product-execution-toolkit"
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: advanced
+difficulty: "advanced"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1189
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-composite-pan-product-methodology
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
+  - "yt-composite-pan-product-methodology"
+  - "yt-model-pan-product-demand-toolkit"
+  - "yt-model-pan-product-aesthetic-toolkit"
 query_triggers:
-  - 产品落地
-  - 产品迭代
-  - 十倍速验证
-  - 执行方法
-  - 泛产品设计
-  - 泛产品设计·落地卡片：十倍速验证
-  - 落地卡片
-  - 落地执行
+  - "产品落地"
+  - "产品迭代"
+  - "十倍速验证"
+  - "执行方法"
+  - "泛产品设计"
+  - "泛产品设计·落地卡片：十倍速验证"
+  - "落地卡片"
+  - "落地执行"
 related:
-  - yt-panproduct-execution-low-cost-mvp
-  - yt-panproduct-execution-hypothesis-decomposition
-reviewed_by: 黄药师
+  - "yt-panproduct-execution-low-cost-mvp"
+  - "yt-panproduct-execution-hypothesis-decomposition"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/泛产品设计-落地卡片-十倍速验证.png
-status: enriched
+  - "10_raw/assets/yitang/泛产品设计-落地卡片-十倍速验证.png"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#pan-product-design"
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
   - "#execution"
+  - "#pan-product-design"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
   - "#validation"
-title: 泛产品设计·落地卡片：十倍速验证
-type: tool
+  - "#yitang"
+title: "泛产品设计·落地卡片：十倍速验证"
+type: "tool"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: personal
-  module: 泛产品设计
-  course_type: card
-  level: advanced
+yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
 ---
 
 # 十倍速验证：训练用1块钱学到1000块钱的认知
@@ -135,4 +137,3 @@ yitang:
 | 完成了L2（市场调查）验证——数据看起来支持方向但不确定是否该继续投入做L3 | 做"L2信度审计"——问："如果在L2数据中看到的支持信号是因为(a)样本偏差(b)受访者的社交期望(c)时点效应，它在L3中消失的概率有多大？" | L2→L3的决策条件：至少有一个在L2中观察到的核心信号不能被以上三个替代解释消解。如果三个替代解释至少有一个无法排除→不做L3，修复L2的设计缺陷重新测试 |
 | 用L3实验（MVP）得到了正向反馈——想直接跳到L4全量投入 | 做"L3至L4的差距审计"——列出在L4全量场景中会出现但在L3实验中被排除的要素（规模化后的基础设施成本、用户多样性、运维复杂度、竞争反应） | 为每一个L3-L4差距写出"这个差距在什么条件下会成为致命问题"。如果≥1个差距在当前认知下无法给出合理回答→别跳，先设计一个针对该差距的补充验证再考虑进入L4 |
 | 验证结果表明"方向可能不对"——在考虑要不要pivot | 做"层级错配诊断"——方向不对的信号可能来自(a)真实的负向信号（产品确实不行），或(b)你选错了验证层级（如用一个粗糙的L1专家意见来判断一个需要L3真实行为反馈的假设） | 在pivot之前先排除"层级错配"这个替代解释——如果是层级错配，用更高的验证层级在同一方向上重新测试；如果更高的层级仍然给出负信号→pivot在理 |
-

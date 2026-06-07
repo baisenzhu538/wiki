@@ -1,24 +1,29 @@
 ---
-id: dk-c11-hongqigong-skip-review
+id: "dk-c11-hongqigong-skip-review"
 title: "C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过"
-type: dark-knowledge
-dark_knowledge_type: failure
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "failure"
+status: "draft"
 domain:
-  - master
-source_person: 欧阳锋
+  - "master"
+source_person: "欧阳锋"
 source_context: "2026-05-20"
 source_refs:
-  - 20_memory/corrections.md#C-11
+  - "20_memory/corrections.md#C-11"
 tags:
-  - "#source_type/error"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
-  - dk-c10-batch-tool-no-dry-run
-  - master-decision-hygiene
+  - "dk-c10-batch-tool-no-dry-run"
+  - "master-decision-hygiene"
 ---
 
 # C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过

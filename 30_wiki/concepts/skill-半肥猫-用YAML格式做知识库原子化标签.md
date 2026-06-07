@@ -1,28 +1,35 @@
 ---
-id: skill-半肥猫-用YAML格式做知识库原子化标签
+id: "skill-半肥猫-用YAML格式做知识库原子化标签"
 title: "技能：用 YAML 格式做知识库原子化标签"
-type: skill
-status: draft
+type: "skill"
+status: "draft"
 domain:
-  - ai-collaboration
-source_person: 半肥猫
+  - "ai-collaboration"
+source_person: "半肥猫"
 source_context: "AI俱学乐部-AI学习落地 分享"
 source_refs:
-  - 00_inbox/半肥猫-AI学习落地-口述.md
+  - "00_inbox/半肥猫-AI学习落地-口述.md"
 tags:
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/ai-collaboration"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 tools_required:
-  - 文本编辑工具
-  - 知识库管理工具
+  - "文本编辑工具"
+  - "知识库管理工具"
 prerequisite_skills:
-  - skill-半肥猫-清洗资料为Markdown格式喂给AI
+  - "skill-半肥猫-清洗资料为Markdown格式喂给AI"
 related:
-  - concept-半肥猫-ai-learning-toolification-methodology
-  - skill-半肥猫-课程Skill化的八步工作流
-  - skill-半肥猫-按语义切分文档做向量化
-  - dk-半肥猫-atomic-no-standard
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
+  - "concept-半肥猫-ai-learning-toolification-methodology"
+  - "skill-半肥猫-课程Skill化的八步工作流"
+  - "skill-半肥猫-按语义切分文档做向量化"
+  - "dk-半肥猫-atomic-no-standard"
+created_at: "2026-06-07"
+updated_at: "2026-06-07"
 ---
 
 # 技能：用 YAML 格式做知识库原子化标签

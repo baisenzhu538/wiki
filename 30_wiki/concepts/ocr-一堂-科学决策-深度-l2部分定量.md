@@ -1,17 +1,20 @@
 ---
-id: ocr-一堂-科学决策-深度-l2部分定量
+id: "ocr-一堂-科学决策-深度-l2部分定量"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_ad937c9c
-status: enriched
+  - "src_20260522_ad937c9c"
+status: "enriched"
 title: "OCR: 一堂-科学决策-深度-L2部分定量"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
 ---
-
-
 
 # OCR: 一堂-科学决策-深度-L2部分定量
 

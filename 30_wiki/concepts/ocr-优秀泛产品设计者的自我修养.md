@@ -1,17 +1,23 @@
 ---
-id: ocr-优秀泛产品设计者的自我修养
+id: "ocr-优秀泛产品设计者的自我修养"
 created_at: 2026-05-21
 domain:
-  - healthcare
+  - "healthcare"
 source_refs:
-  - src_20260522_91948770
-status: enriched
+  - "src_20260522_91948770"
+status: "enriched"
 title: "OCR: 优秀泛产品设计者的自我修养"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/not-for-medical"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
 ---
-
-
 
 # OCR: 优秀泛产品设计者的自我修养
 

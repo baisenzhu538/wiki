@@ -1,24 +1,28 @@
 ---
-id: dk-c5-todo-false-positive
+id: "dk-c5-todo-false-positive"
 title: "C-5：TODO 字符串匹配过宽→正文中的 TODOs/TODOable 被误报为占位符"
-type: dark-knowledge
-dark_knowledge_type: failure
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "failure"
+status: "draft"
 domain:
-  - master
-source_person: Builder
+  - "master"
+source_person: "Builder"
 source_context: "2026-05-03"
 source_refs:
-  - 20_memory/corrections.md#C-5
+  - "20_memory/corrections.md#C-5"
 tags:
-  - "#source_type/error"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/learning-methodology"
+  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
-  - dk-c4-selfcheck-superseded
-  - master-cognitive-bias-checklist
+  - "dk-c4-selfcheck-superseded"
+  - "master-cognitive-bias-checklist"
 ---
 
 # C-5：TODO 字符串匹配过宽→正文中的 TODOs/TODOable 被误报为占位符

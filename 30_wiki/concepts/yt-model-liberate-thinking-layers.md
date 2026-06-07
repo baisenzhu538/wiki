@@ -1,39 +1,42 @@
 ---
-id: yt-model-liberate-thinking-layers
-component_of: []
+id: "yt-model-liberate-thinking-layers"
+component_of:
 confidence: 0.85
 created_at: 2026-05-07
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1591
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 六层认知模型
-  - 关联卡片
-  - 关键洞察
-  - 核心梯度
-  - 知识体系定位
-  - 解放思想五层模型
-related:
-  level: foundational
-reviewed_by: 黄药师
+  - "六层认知模型"
+  - "关联卡片"
+  - "关键洞察"
+  - "核心梯度"
+  - "知识体系定位"
+  - "解放思想五层模型"
+related: {'level': 'foundational'}
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂-个人修炼-解放思想.png
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+  - "10_raw/assets/yitang/一堂-个人修炼-解放思想.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-beginners"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
   - "#thinking-model"
-title: 解放思想五层模型
-type: framework
+  - "#yitang"
+title: "解放思想五层模型"
+type: "framework"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: personal
-  module: 底层方法论
-  course_type: model
+yitang: {'map': 'personal', 'module': '底层方法论', 'course_type': 'model'}
 ---
 
 # 解放思想五层模型

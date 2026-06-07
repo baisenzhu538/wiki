@@ -1,45 +1,47 @@
 ---
-title: 目标管理
-type: concept
-status: enriched
-domain:
-id: yt-management-goal-management
-  - yitang
-yitang:
-  map: management
-  module: 目标管理
-  course_id: yt-management-goal-management
-  course_type: method
-  level: core
-  series: false
-source_refs: ["10_raw/sources/一堂-课程地图精华串讲.md"]
-created_at: '2026-05-06'
-updated_at: '2026-05-17'
+title: "目标管理"
+type: "concept"
+status: "enriched"
+domain: ""
+id: "yt-management-goal-management - yitang"
+yitang: {'map': 'management', 'module': '目标管理', 'course_id': 'yt-management-goal-management', 'course_type': 'method', 'level': 'core', 'series': False}
+source_refs:
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+created_at: "2026-05-06"
+updated_at: "2026-05-17"
 estimated_tokens: 3300
-reviewed_by: 黄药师
-review_date: '2026-05-08'
-trust_level: medium
+reviewed_by: "黄药师"
+review_date: "2026-05-08"
+trust_level: "medium"
 related:
-  - yt-management-business-formula
-  - yt-management-project-management
-  - yt-management-scientific-decision
-  - yt-management-scientific-meetings
-  - yt-management-strategy-meeting
-  - yt-personal-ipo-learning
+  - "yt-management-business-formula"
+  - "yt-management-project-management"
+  - "yt-management-scientific-decision"
+  - "yt-management-scientific-meetings"
+  - "yt-management-strategy-meeting"
+  - "yt-personal-ipo-learning"
 query_triggers:
-  - OKR
-  - 目标管理
-  - OKR和KPI区别
-  - 怎么定团队目标
-  - OKR怎么写
-  - 目标拆解方法
-  - OKR落地执行
-  - KPI考核
-  - 员工目标管理
-  - OKR和绩效挂钩吗
+  - "OKR"
+  - "目标管理"
+  - "OKR和KPI区别"
+  - "怎么定团队目标"
+  - "OKR怎么写"
+  - "目标拆解方法"
+  - "OKR落地执行"
+  - "KPI考核"
+  - "员工目标管理"
+  - "OKR和绩效挂钩吗"
 tags:
-  - '#yitang'
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+  - "#yitang"
 ---
+
 # 目标管理
 
 > 来源：一堂管理必修课「管业务」模块，含认知篇+OKR工具篇。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

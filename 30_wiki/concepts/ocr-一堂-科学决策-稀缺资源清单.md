@@ -1,17 +1,21 @@
 ---
-id: ocr-一堂-科学决策-稀缺资源清单
+id: "ocr-一堂-科学决策-稀缺资源清单"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_d067a6ba
-status: enriched
+  - "src_20260522_d067a6ba"
+status: "enriched"
 title: "OCR: 一堂-科学决策-稀缺资源清单"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
 ---
-
-
 
 # OCR: 一堂-科学决策-稀缺资源清单
 

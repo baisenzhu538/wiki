@@ -1,46 +1,51 @@
 ---
-id: yt-personal-knowledge-management
-component_of: []
-confidence: 0.80
+id: "yt-personal-knowledge-management"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3000
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 知识管理
-  - 第二大脑
-  - 内容地图
-  - 双向链接笔记
-  - 知识树结构
-  - 零摩擦捕获
-  - 检索练习
-  - 如何整理笔记
-  - 知识组织
-  - 知识激活
-related:
-  series: false
+  - "知识管理"
+  - "第二大脑"
+  - "内容地图"
+  - "双向链接笔记"
+  - "知识树结构"
+  - "零摩擦捕获"
+  - "检索练习"
+  - "如何整理笔记"
+  - "知识组织"
+  - "知识激活"
+related: {'series': False}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
   - "#yitang"
-title: 知识管理
-trust_level: medium
-type: tool
+title: "知识管理"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: personal
-  module: 知识管理
-  course_id: 405
-  course_type: method
-  level: core
+yitang: {'map': 'personal', 'module': '知识管理', 'course_id': 405, 'course_type': 'method', 'level': 'core'}
 ---
+
 # 知识管理
 
 > 来源：一堂个人必修课"提认知"模块——知识管理必修课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

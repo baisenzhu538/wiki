@@ -1,25 +1,23 @@
 ---
 title: "一堂案例必修课"
-type: concept
-status: reviewed
-source_refs:
-id: yt-case-mandatory-cases
-  - src_20260506_9b4788a6
-  - src_20260507_857c7ed4
+type: "concept"
+status: "reviewed"
+source_refs: ""
+id: "yt-case-mandatory-cases - src_20260506_9b4788a6 - src_20260507_857c7ed4"
 created_at: "2026-05-05"
 updated_at: "2026-05-06"
 domain:
-  - yitang
-yitang:
-  map: entrepreneur
-  module: "案例学习"
-  course_id: "yt-case-001"
-  course_type: method
-  level: foundational
+  - "yitang"
+yitang: {'map': 'entrepreneur', 'module': '案例学习', 'course_id': 'yt-case-001', 'course_type': 'method', 'level': 'foundational'}
 reviewed_by: "黄药师"
 review_date: "2026-05-06"
+tags:
+  - "#boundary/not-for-creative"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
-
 
 # 一堂案例必修课
 

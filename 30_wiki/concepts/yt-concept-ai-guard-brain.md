@@ -1,39 +1,46 @@
 ---
-id: yt-concept-ai-guard-brain
-title: 守脑如玉：AI时代保持大脑锋利
-type: concept
-status: enriched
+id: "yt-concept-ai-guard-brain"
+title: "守脑如玉：AI时代保持大脑锋利"
+type: "concept"
+status: "enriched"
 domain:
-  - yitang
-  - ai
-language: zh-CN
+  - "yitang"
+  - "ai"
+language: "zh-CN"
 version: 1
-difficulty: intermediate
+difficulty: "intermediate"
 confidence: 0.85
 related:
-  - yt-model-cognitive-upgrade-framework
+  - "yt-model-cognitive-upgrade-framework"
 prerequisites:
-  - yt-model-prompt-engineering
+  - "yt-model-prompt-engineering"
 source_refs:
-  - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
-  - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
+  - "10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
+  - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
 query_triggers:
-  - 守脑如玉
-  - 四遍学习法
-  - AI依赖
-  - 大脑锋利
-  - AI体感
-  - 手写笔记
-  - 模型敏感度
-  - 学习内化
-
+  - "守脑如玉"
+  - "四遍学习法"
+  - "AI依赖"
+  - "大脑锋利"
+  - "AI体感"
+  - "手写笔记"
+  - "模型敏感度"
+  - "学习内化"
 tags:
-  - '#yitang'
-  - '#ai'
-  - '#learning'
-  - '#cognitive-fitness'
-created_at: '2026-05-13'
-updated_at: '2026-05-13'
+  - "#ai"
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#cognitive-fitness"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#learning"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#yitang"
+created_at: "2026-05-13"
+updated_at: "2026-05-13"
 estimated_tokens: 3400
 ---
 

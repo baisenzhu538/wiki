@@ -1,27 +1,32 @@
 ---
-id: dk-p16-validate-reads-state-json
+id: "dk-p16-validate-reads-state-json"
 title: "P-16：validate 优先读取 state.json 而非文件 frontmatter"
-type: dark-knowledge
-dark_knowledge_type: failure
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "failure"
+status: "draft"
 domain:
-  - master
-source_person: system
+  - "master"
+source_person: "system"
 source_context: "pitfalls.md P-16"
 source_refs:
-  - .agent/pitfalls.md#P-16
+  - ".agent/pitfalls.md#P-16"
 tags:
-  - "#source_type/error"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
-  - dk-p15-claimed-done-not-verified
-  - master-systems-thinking
+  - "dk-p15-claimed-done-not-verified"
+  - "master-systems-thinking"
 contradicts:
-  - master-first-principles
-  - master-systems-thinking
+  - "master-first-principles"
+  - "master-systems-thinking"
 ---
 
 # P-16：validate 优先读取 state.json 而非文件 frontmatter

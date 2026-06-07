@@ -1,17 +1,25 @@
 ---
-id: ocr-一堂泛产品设计-多出牌多练习
+id: "ocr-一堂泛产品设计-多出牌多练习"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_4754d8fd
-status: enriched
+  - "src_20260522_4754d8fd"
+status: "enriched"
 title: "OCR: 一堂泛产品设计-多出牌多练习"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 一堂泛产品设计-多出牌多练习
 

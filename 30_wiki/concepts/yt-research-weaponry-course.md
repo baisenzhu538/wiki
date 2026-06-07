@@ -1,26 +1,29 @@
 ---
-id: yt-research-weaponry-course
+id: "yt-research-weaponry-course"
 title: "一堂调研武器库课程"
-type: concept
-status: reviewed
+type: "concept"
+status: "reviewed"
 source_refs:
-  - src_20260506_bb9048a6
-  - src_20260507_debc47be
+  - "src_20260506_bb9048a6"
+  - "src_20260507_debc47be"
 created_at: "2026-05-05"
 updated_at: "2026-05-18"
 domain:
-  - yitang
-yitang:
-  map: entrepreneur
-  module: "调研方法论"
-  course_id: "yt-research-003"
-  course_type: method
-  level: core
+  - "yitang"
+yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-003', 'course_type': 'method', 'level': 'core'}
 reviewed_by: "黄药师"
 review_date: "2026-05-06"
 estimated_tokens: 3300
+tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
-
 
 # 一堂调研武器库课程
 

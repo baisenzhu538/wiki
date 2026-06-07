@@ -1,48 +1,57 @@
 ---
-id: yt-composite-pan-product-methodology
+id: "yt-composite-pan-product-methodology"
 component_of:
-  - yt-model-personal-map
+  - "yt-model-personal-map"
 confidence: 0.85
 created_at: 2026-05-11
-deprecation_reason: 
-difficulty: intermediate
+deprecation_reason: ""
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2800
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 泛产品设计
-  - 泛产品方法论
-  - 产品设计方法
-  - 如何做产品设计
-  - 产品经理能力泛化
-  - 怎么做产品
+  - "泛产品设计"
+  - "泛产品方法论"
+  - "产品设计方法"
+  - "如何做产品设计"
+  - "产品经理能力泛化"
+  - "怎么做产品"
 related:
-  - yt-model-pan-product-36-strategies
-  - yt-model-pan-product-three-virtues
-  - yt-model-pan-product-climbing-map
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
-  - yt-model-pan-product-execution-toolkit
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-pan-product-36-strategies"
+  - "yt-model-pan-product-three-virtues"
+  - "yt-model-pan-product-climbing-map"
+  - "yt-model-pan-product-demand-toolkit"
+  - "yt-model-pan-product-aesthetic-toolkit"
+  - "yt-model-pan-product-execution-toolkit"
+  - "yt-model-personal-pitch-toolkit"
 review_by: 2026-11-11
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-个人修炼-泛产品设计探索营口述版.md
-  - 10_raw/sources/一堂-个人修炼-泛产品设计概念口述版.md
-  - 10_raw/sources/一堂-个人修炼-泛产品设计工具篇口述版.md
-  - 10_raw/sources/一堂-个人修身-泛产品设计审美口述.md
-  - 10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md
-status: enriched
-superseded_by: 
+  - "10_raw/sources/一堂-个人修炼-泛产品设计探索营口述版.md"
+  - "10_raw/sources/一堂-个人修炼-泛产品设计概念口述版.md"
+  - "10_raw/sources/一堂-个人修炼-泛产品设计工具篇口述版.md"
+  - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
+  - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
+status: "enriched"
+superseded_by: ""
 tags:
-  - 泛产品设计
-  - 方法论
-  - 一堂
-  - 产品设计
-title: 泛产品设计方法论
-type: composite-concept
+  - "#boundary/not-for-beginners"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "一堂"
+  - "产品设计"
+  - "方法论"
+  - "泛产品设计"
+title: "泛产品设计方法论"
+type: "composite-concept"
 updated_at: 2026-05-11
 version: 2
 ---

@@ -1,17 +1,23 @@
 ---
-id: ocr-泛产品设计-审美卡片-最佳实践建模
+id: "ocr-泛产品设计-审美卡片-最佳实践建模"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_89529426
-status: enriched
+  - "src_20260522_89529426"
+status: "enriched"
 title: "OCR: 泛产品设计-审美卡片-最佳实践建模"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 泛产品设计-审美卡片-最佳实践建模
 

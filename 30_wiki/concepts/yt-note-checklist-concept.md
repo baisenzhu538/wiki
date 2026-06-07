@@ -1,41 +1,51 @@
 ---
-id: yt-note-checklist-concept
-title: 一堂笔记法：清单体笔记的核心概念与原理
-type: concept
-status: draft
+id: "yt-note-checklist-concept"
+title: "一堂笔记法：清单体笔记的核心概念与原理"
+type: "concept"
+status: "draft"
 domain:
-  - yitang
-  - personal-growth
-language: zh-CN
+  - "yitang"
+  - "personal-growth"
+language: "zh-CN"
 version: 1
-difficulty: beginner
+difficulty: "beginner"
 confidence: 0.88
 related:
-  - yt-note-five-levels-training
-  - yt-note-ai-human-division
-  - yt-note-live-field-skill
+  - "yt-note-five-levels-training"
+  - "yt-note-ai-human-division"
+  - "yt-note-live-field-skill"
 prerequisites:
-  - yt-model-ipo-learning-strategy
+  - "yt-model-ipo-learning-strategy"
 source_refs:
-  - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
-  - 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
-  - 00_inbox/Truman的个人成长五步法.png
+  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
+  - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
+  - "00_inbox/Truman的个人成长五步法.png"
 query_triggers:
-  - 清单体笔记
-  - 一堂笔记法
-  - 笔记方法对比
-  - 为什么清单体优于脑图
-  - AI时代笔记形式
-  - 笔记的六大优点
-  - 结构化笔记
-  - 笔记审美
+  - "清单体笔记"
+  - "一堂笔记法"
+  - "笔记方法对比"
+  - "为什么清单体优于脑图"
+  - "AI时代笔记形式"
+  - "笔记的六大优点"
+  - "结构化笔记"
+  - "笔记审美"
 tags:
-  - '#yitang'
-  - '#note-taking'
-  - '#checklist'
-  - '#cognitive-tool'
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#checklist"
+  - "#cognitive-tool"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#note-taking"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
+  - "#yitang"
+created_at: "2026-06-07"
+updated_at: "2026-06-07"
 estimated_tokens: 4200
 ---
 

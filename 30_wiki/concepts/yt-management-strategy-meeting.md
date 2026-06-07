@@ -1,45 +1,45 @@
 ---
-title: 战略会
-type: concept
-status: enriched
-domain:
-id: yt-management-strategy-meeting
-  - yitang
-yitang:
-  map: management
-  module: 战略会
-  course_id: '452'
-  course_type: method
-  level: advanced
-  series: false
+title: "战略会"
+type: "concept"
+status: "enriched"
+domain: ""
+id: "yt-management-strategy-meeting - yitang"
+yitang: {'map': 'management', 'module': '战略会', 'course_id': '452', 'course_type': 'method', 'level': 'advanced', 'series': False}
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-18'
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+created_at: "2026-05-06"
+updated_at: "2026-05-18"
 estimated_tokens: 3500
-reviewed_by: 黄药师
-review_date: '2026-05-08'
-trust_level: medium
+reviewed_by: "黄药师"
+review_date: "2026-05-08"
+trust_level: "medium"
 related:
-  - yt-management-company-culture
-  - yt-management-finance-basics
-  - yt-management-founder-role
-  - yt-management-goal-management
-  - yt-management-scientific-decision
-  - yt-management-scientific-meetings
+  - "yt-management-company-culture"
+  - "yt-management-finance-basics"
+  - "yt-management-founder-role"
+  - "yt-management-goal-management"
+  - "yt-management-scientific-decision"
+  - "yt-management-scientific-meetings"
 query_triggers:
-  - 战略会怎么开
-  - 创业战略规划
-  - 战略讨论框架
-  - 战略共识达成
-  - 战略方向选择
-  - 务虚会方法
-  - 战略决策纪要
-  - disagree and commit
-  - 年度战略会
+  - "战略会怎么开"
+  - "创业战略规划"
+  - "战略讨论框架"
+  - "战略共识达成"
+  - "战略方向选择"
+  - "务虚会方法"
+  - "战略决策纪要"
+  - "disagree and commit"
+  - "年度战略会"
 tags:
-  - '#yitang'
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
+  - "#yitang"
 ---
+
 # 战略会
 
 > 来源：一堂管理必修课「管公司」模块，《经营必修：重新理解"战略会"》。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

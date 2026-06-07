@@ -1,55 +1,54 @@
 ---
-id: yt-tool-strategy-workshop
-title: '战略研讨会引导手册'
-type: tool
-status: enriched
+id: "yt-tool-strategy-workshop"
+title: "战略研讨会引导手册"
+type: "tool"
+status: "enriched"
 domain:
-  - yitang
-language: zh-CN
+  - "yitang"
+language: "zh-CN"
 version: 1
-difficulty: foundational
+difficulty: "foundational"
 confidence: 0.85
-prerequisites: []
+prerequisites:
 component_of:
-  - yt-management-toolkit-overview
+  - "yt-management-toolkit-overview"
 related:
-  - yt-management-strategy-meeting
-  - yt-management-scientific-decision
-  - yt-management-goal-management
-  - yt-management-scientific-meetings
-  - yt-management-founder-role
-  - yt-management-company-culture
-  - yt-concept-weapon-arsenal
-  - yt-model-personal-pitch-toolkit
-contradicts: []
+  - "yt-management-strategy-meeting"
+  - "yt-management-scientific-decision"
+  - "yt-management-goal-management"
+  - "yt-management-scientific-meetings"
+  - "yt-management-founder-role"
+  - "yt-management-company-culture"
+  - "yt-concept-weapon-arsenal"
+  - "yt-model-personal-pitch-toolkit"
+contradicts:
 query_triggers:
-  - 战略会怎么开
-  - 创业战略规划
-  - 年度战略会
-  - 战略研讨
-  - 战略对齐
-  - 战略决策
-  - 战略复盘
-  - disagree and commit
-  - 战略会模板
-  - 战略导引
+  - "战略会怎么开"
+  - "创业战略规划"
+  - "年度战略会"
+  - "战略研讨"
+  - "战略对齐"
+  - "战略决策"
+  - "战略复盘"
+  - "disagree and commit"
+  - "战略会模板"
+  - "战略导引"
 tags:
-  - '#yitang'
-  - '#management'
-  - '#tool'
-trust_level: medium
-yitang:
-  map: management
-  module: 战略会
-  course_id: yt-tool-strategy-workshop
-  course_type: tool
-  level: advanced
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#management"
+  - "#scene/skill-engineering"
+  - "#tool"
+  - "#yitang"
+trust_level: "medium"
+yitang: {'map': 'management', 'module': '战略会', 'course_id': 'yt-tool-strategy-workshop', 'course_type': 'tool', 'level': 'advanced'}
 source_refs:
-  - 30_wiki/concepts/yt-management-strategy-meeting.md
-created_at: '2026-05-19'
-updated_at: '2026-05-19'
+  - "30_wiki/concepts/yt-management-strategy-meeting.md"
+created_at: "2026-05-19"
+updated_at: "2026-05-19"
 estimated_tokens: 3300
-reviewed_by: 周伯通
+reviewed_by: "周伯通"
 ---
 
 # 战略研讨会引导手册

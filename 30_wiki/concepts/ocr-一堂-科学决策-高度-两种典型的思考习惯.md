@@ -1,17 +1,22 @@
 ---
-id: ocr-一堂-科学决策-高度-两种典型的思考习惯
+id: "ocr-一堂-科学决策-高度-两种典型的思考习惯"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_23b5714d
-status: enriched
+  - "src_20260522_23b5714d"
+status: "enriched"
 title: "OCR: 一堂-科学决策-高度-两种典型的思考习惯"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
 ---
-
-
 
 # OCR: 一堂-科学决策-高度-两种典型的思考习惯
 

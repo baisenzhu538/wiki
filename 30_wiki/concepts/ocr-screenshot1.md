@@ -1,18 +1,20 @@
 ---
-id: ocr-screenshot1
+id: "ocr-screenshot1"
 created_at: 2026-05-21
 domain:
-  - healthcare
+  - "healthcare"
 source_refs:
-  - src_20260522_64727b82
-status: enriched
+  - "src_20260522_64727b82"
+status: "enriched"
 title: "OCR: screenshot1"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#confidence/source-cited"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
 ---
-
-
-
 
 # OCR: screenshot1
 

@@ -1,18 +1,23 @@
 ---
-id: yt-tool-ai-ppt-maker
+id: "yt-tool-ai-ppt-maker"
 title: "AI对话式PPT生成器：把排版变成说话"
-domain: personal
-author: 老顽童
-created_at: '2026-05-29'
+domain: "personal"
+author: "老顽童"
+created_at: "2026-05-29"
 version: 1
 source_refs:
-  - 00_inbox/design/AI设计-文创案例设计课口述.txt
-status: draft
+  - "00_inbox/design/AI设计-文创案例设计课口述.txt"
+status: "draft"
 tags:
-  - tool
-  - aigc
-  - productivity
-  - presentation
+  - "#boundary/not-for-creative"
+  - "#boundary/single-use-only"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "aigc"
+  - "presentation"
+  - "productivity"
+  - "tool"
 ---
 
 # AI对话式PPT生成器：把排版变成说话

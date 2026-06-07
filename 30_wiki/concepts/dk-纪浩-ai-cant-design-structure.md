@@ -1,17 +1,28 @@
 ---
-id: dk-纪浩-ai-cant-design-structure
+id: "dk-纪浩-ai-cant-design-structure"
 title: "暗知识：AI 不会自己搞结构设计，必须帮它搭"
-type: dark-knowledge
-dark_knowledge_type: insight
-status: draft
-domain: [ai-collaboration, yitang]
-source_person: 纪浩
+type: "dark-knowledge"
+dark_knowledge_type: "insight"
+status: "draft"
+domain:
+  - "ai-collaboration"
+  - "yitang"
+source_person: "纪浩"
 source_context: "AI俱乐部-AI协作方法论 分享——Agent Workspace 五大模块的来源"
-source_refs: [00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt]
-tags: ["#source_type/dark-knowledge", "#domain/ai-collaboration"]
+source_refs:
+  - "00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt"
+tags:
+  - "#boundary/single-use-only"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#domain/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#source_type/dark-knowledge"
 created_at: 2026-06-07
 updated_at: 2026-06-07
-related: [concept-纪浩-ai-collaboration-methodology, skill-纪浩-agent-workspace]
+related:
+  - "concept-纪浩-ai-collaboration-methodology"
+  - "skill-纪浩-agent-workspace"
 ---
 
 # 暗知识：AI 不会自己搞结构设计

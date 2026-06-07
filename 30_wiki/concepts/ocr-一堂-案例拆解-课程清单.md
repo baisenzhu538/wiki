@@ -1,16 +1,26 @@
 ---
-id: ocr-一堂-案例拆解-课程清单
+id: "ocr-一堂-案例拆解-课程清单"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_1e654244
-status: enriched
+  - "src_20260522_1e654244"
+status: "enriched"
 title: "OCR: 一堂-案例拆解-课程清单"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/not-for-medical"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/ai-collaboration"
+  - "#scene/hardware-debugging"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
-
 
 # OCR: 一堂-案例拆解-课程清单
 

@@ -1,51 +1,56 @@
 ---
-id: yt-unit-model-selection
-component_of: []
+id: "yt-unit-model-selection"
+component_of:
 confidence: 0.85
 created_at: 2026-05-24
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - entrepreneur
-  - master
+  - "entrepreneur"
+  - "master"
 estimated_tokens: 2600
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-unit-model-overview
+  - "yt-unit-model-overview"
 query_triggers:
-  - 复制哪个算哪个
-  - 找单元模型
-  - 核心单元判断
-  - 单元模型选择
-  - 十大单元模型
+  - "复制哪个算哪个"
+  - "找单元模型"
+  - "核心单元判断"
+  - "单元模型选择"
+  - "十大单元模型"
 related:
-  - yt-unit-model-ladder
-  - yt-unit-model-construction
-  - yt-unit-model-benchmark
-  - yt-unit-model-dynamic
-  - yt-entrepreneur-five-step-method
-  - yt-decision-key-hypotheses
-  - yt-decision-y-model
-reviewed_by: 
+  - "yt-unit-model-ladder"
+  - "yt-unit-model-construction"
+  - "yt-unit-model-benchmark"
+  - "yt-unit-model-dynamic"
+  - "yt-entrepreneur-five-step-method"
+  - "yt-decision-key-hypotheses"
+  - "yt-decision-y-model"
+reviewed_by: ""
 source_refs:
-  - src_20260524_9f4e5d6a-一堂-单元模型02口述
-  - src_20260524_7c8d9e0f-一堂-单元模型03口述
-status: draft
+  - "src_20260524_9f4e5d6a-一堂-单元模型02口述"
+  - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
+status: "draft"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#business-analysis"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#entrepreneur"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
   - "#tool"
   - "#unit-model"
-  - "#business-analysis"
-title: 单元模型选择法：复制哪个算哪个，找到核心经济单元
-trust_level: high
-type: tool
+  - "#yitang"
+title: "单元模型选择法：复制哪个算哪个，找到核心经济单元"
+trust_level: "high"
+type: "tool"
 updated_at: 2026-05-25
 version: 1
-yitang:
-  map: entrepreneur
-  module: 创业必修
-  course_type: tool
-  level: intermediate
+yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'tool', 'level': 'intermediate'}
 ---
 
 # 单元模型选择法：复制哪个算哪个，找到核心经济单元

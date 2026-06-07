@@ -1,16 +1,27 @@
 ---
-id: skill-纪浩-dual-triangle
+id: "skill-纪浩-dual-triangle"
 title: "技能：双三角协同法——人让AI变强 ≠ AI让人变强"
-type: skill
-status: draft
-domain: [ai-collaboration, yitang]
-source_person: 纪浩
+type: "skill"
+status: "draft"
+domain:
+  - "ai-collaboration"
+  - "yitang"
+source_person: "纪浩"
 source_context: "AI俱乐部-AI协作方法论 分享"
-source_refs: [00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt]
-tags: ["#domain/ai-collaboration"]
+source_refs:
+  - "00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt"
+tags:
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#domain/ai-collaboration"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
 created_at: 2026-06-07
 updated_at: 2026-06-07
-related: [concept-纪浩-ai-collaboration-methodology]
+related:
+  - "concept-纪浩-ai-collaboration-methodology"
 ---
 
 # 技能：双三角协同法

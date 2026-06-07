@@ -1,25 +1,27 @@
 ---
-id: skill-纪浩-AI工具脚本化约束
-title: 技能：AI工具脚本化约束
-type: skill
-status: draft
-domain: []
-source_person: 纪浩
-source_context: AI协作方法论
-source_refs: []
-wiki_refs: []
+id: "skill-纪浩-AI工具脚本化约束"
+title: "技能：AI工具脚本化约束"
+type: "skill"
+status: "draft"
+domain:
+source_person: "纪浩"
+source_context: "AI协作方法论"
+source_refs:
+wiki_refs:
 definition_of_done:
-  - 操作步骤清晰可执行
-  - 适用场景有正反例
-  - 工具要求明确
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
 tags:
+  - "#confidence/draft"
   - "#domain/AI"
   - "#domain/collaboration"
-tools_required: []
-prerequisite_skills: []
-related: []
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
+  - "#scene/ai-collaboration"
+tools_required:
+prerequisite_skills:
+related:
+created_at: "2026-06-07"
+updated_at: "2026-06-07"
 ---
 
 # 技能：AI工具脚本化约束

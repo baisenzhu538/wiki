@@ -1,45 +1,44 @@
 ---
-title: 公司文化
-type: concept
-status: enriched
-domain:
-id: yt-management-company-culture
-  - yitang
-yitang:
-  map: management
-  module: 公司文化
-  course_id: yt-management-company-culture
-  course_type: method
-  level: advanced
-  series: false
+title: "公司文化"
+type: "concept"
+status: "enriched"
+domain: ""
+id: "yt-management-company-culture - yitang"
+yitang: {'map': 'management', 'module': '公司文化', 'course_id': 'yt-management-company-culture', 'course_type': 'method', 'level': 'advanced', 'series': False}
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-created_at: '2026-05-06'
-updated_at: '2026-05-17'
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+created_at: "2026-05-06"
+updated_at: "2026-05-17"
 estimated_tokens: 3300
-reviewed_by: 黄药师
-review_date: '2026-05-08'
-trust_level: medium
+reviewed_by: "黄药师"
+review_date: "2026-05-08"
+trust_level: "medium"
 related:
-  - yt-management-founder-role
-  - yt-management-onboarding
-  - yt-management-partnership-equity
-  - yt-management-scientific-hiring
-  - yt-management-strategy-meeting
+  - "yt-management-founder-role"
+  - "yt-management-onboarding"
+  - "yt-management-partnership-equity"
+  - "yt-management-scientific-hiring"
+  - "yt-management-strategy-meeting"
 query_triggers:
-  - 公司文化建设
-  - 企业文化怎么落地
-  - 价值观考核
-  - 创业公司文化
-  - 团队文化打造
-  - 文化面试
-  - 员工行为规范
-  - 组织文化建设
-  - 小公司需要文化吗
-  - 企业文化不是口号
+  - "公司文化建设"
+  - "企业文化怎么落地"
+  - "价值观考核"
+  - "创业公司文化"
+  - "团队文化打造"
+  - "文化面试"
+  - "员工行为规范"
+  - "组织文化建设"
+  - "小公司需要文化吗"
+  - "企业文化不是口号"
 tags:
-  - '#yitang'
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+  - "#yitang"
 ---
+
 # 公司文化
 
 > 来源：一堂管理必修课「管公司」模块。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

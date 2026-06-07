@@ -1,17 +1,25 @@
 ---
-id: ocr-一堂-地图-创业地图
+id: "ocr-一堂-地图-创业地图"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_c1935261
-status: enriched
+  - "src_20260522_c1935261"
+status: "enriched"
 title: "OCR: 一堂-地图-创业地图"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 一堂-地图-创业地图
 

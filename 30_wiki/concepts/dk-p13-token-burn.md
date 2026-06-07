@@ -1,26 +1,30 @@
 ---
-id: dk-p13-token-burn
+id: "dk-p13-token-burn"
 title: "P-13：长会话 = token黑洞 — 一晚上烧掉80元"
-type: dark-knowledge
-dark_knowledge_type: failure
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "failure"
+status: "draft"
 domain:
-  - master
-source_person: system
+  - "master"
+source_person: "system"
 source_context: "pitfalls.md P-13"
 source_refs:
-  - .agent/pitfalls.md#P-13
+  - ".agent/pitfalls.md#P-13"
 tags:
-  - "#source_type/error"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
-  - dk-p14-zombie
+  - "dk-p14-zombie"
 contradicts:
-  - master-systems-thinking
-  - master-decision-hygiene
+  - "master-systems-thinking"
+  - "master-decision-hygiene"
 ---
 
 # P-13：长会话 = token黑洞 — 一晚上烧掉80元

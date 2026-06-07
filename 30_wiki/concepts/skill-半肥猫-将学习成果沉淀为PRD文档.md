@@ -1,30 +1,40 @@
 ---
-id: skill-半肥猫-将学习成果沉淀为PRD文档
+id: "skill-半肥猫-将学习成果沉淀为PRD文档"
 title: "技能：将学习成果沉淀为 PRD 文档"
-type: skill
-status: draft
+type: "skill"
+status: "draft"
 domain:
-  - ai-collaboration
-  - learning
-source_person: 半肥猫
+  - "ai-collaboration"
+  - "learning"
+source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
-  - 00_inbox/半肥猫-AI学习落地-口述.md
+  - "00_inbox/半肥猫-AI学习落地-口述.md"
 tags:
+  - "#boundary/not-for-creative"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#domain/ai-collaboration"
   - "#domain/learning"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 tools_required:
-  - AIGC大模型
-  - 文档编辑工具
+  - "AIGC大模型"
+  - "文档编辑工具"
 prerequisite_skills:
-  - skill-半肥猫-边学边练边沉淀的AI学习法
+  - "skill-半肥猫-边学边练边沉淀的AI学习法"
 related:
-  - concept-半肥猫-ai-learning-toolification-methodology
-  - skill-半肥猫-课程Skill化的八步工作流
-  - skill-半肥猫-用YAML格式做知识库原子化标签
-  - dk-半肥猫-atomic-no-standard
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
+  - "concept-半肥猫-ai-learning-toolification-methodology"
+  - "skill-半肥猫-课程Skill化的八步工作流"
+  - "skill-半肥猫-用YAML格式做知识库原子化标签"
+  - "dk-半肥猫-atomic-no-standard"
+created_at: "2026-06-07"
+updated_at: "2026-06-07"
 ---
 
 # 技能：将学习成果沉淀为 PRD 文档

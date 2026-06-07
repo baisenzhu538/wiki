@@ -1,49 +1,48 @@
 ---
-id: yt-research-user-jtbd
-component_of: []
-confidence: 0.80
+id: "yt-research-user-jtbd"
+component_of:
+confidence: 0.8
 created_at: 2026-05-18
-difficulty: advanced
+difficulty: "advanced"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2600
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-research-osl-framework
-  - yt-research-expert-interview
+  - "yt-research-osl-framework"
+  - "yt-research-expert-interview"
 query_triggers:
-  - 用户访谈
-  - JTBD
-  - 用户需求
-  - 用户调研
-  - 需求分析
+  - "用户访谈"
+  - "JTBD"
+  - "用户需求"
+  - "用户调研"
+  - "需求分析"
   - "用户说谎tags:"
   - "#yitang"
   - "#research"
   - "#tool"
 related:
-  - yt-research-osl-framework
-  - yt-research-expert-interview
-  - yt-research-hypothesis-test
-  - yt-research-intelligence-map
-  - yt-research-competitor-toolkit
-  - yt-research-industry-canvas
-  - yt-entrepreneur-key-hypotheses
-reviewed_by: 
+  - "yt-research-osl-framework"
+  - "yt-research-expert-interview"
+  - "yt-research-hypothesis-test"
+  - "yt-research-intelligence-map"
+  - "yt-research-competitor-toolkit"
+  - "yt-research-industry-canvas"
+  - "yt-entrepreneur-key-hypotheses"
+reviewed_by: ""
 source_refs:
-  - 00_inbox/ideas/一堂-创业必修-需求分析.md
-status: reviewed
-title: 用户JTBD访谈工具：区分"说的"和"真正要的"
-trust_level: medium
-type: tool
+  - "00_inbox/ideas/一堂-创业必修-需求分析.md"
+status: "reviewed"
+title: "用户JTBD访谈工具：区分"说的"和"真正要的""
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-18
 version: 1
-yitang:
-  map: entrepreneur
-  module: 调研方法论
-  course_id: yt-research-user-jtbd
-  course_type: tool
-  level: advanced
+yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-user-jtbd', 'course_type': 'tool', 'level': 'advanced'}
+tags:
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
+  - "#scene/skill-engineering"
 ---
 
 # 用户JTBD访谈工具：区分"说的"和"真正要的"

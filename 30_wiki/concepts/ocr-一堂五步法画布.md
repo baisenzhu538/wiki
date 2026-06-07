@@ -1,17 +1,20 @@
 ---
-id: ocr-一堂五步法画布
+id: "ocr-一堂五步法画布"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_2a547df5
-status: enriched
+  - "src_20260522_2a547df5"
+status: "enriched"
 title: "OCR: 一堂五步法画布"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
 ---
-
-
 
 # OCR: 一堂五步法画布
 

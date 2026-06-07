@@ -1,54 +1,53 @@
 ---
-id: yt-tool-hiring-scorecard
-title: '结构化面试打分卡'
-type: tool
-status: enriched
+id: "yt-tool-hiring-scorecard"
+title: "结构化面试打分卡"
+type: "tool"
+status: "enriched"
 domain:
-  - yitang
-language: zh-CN
+  - "yitang"
+language: "zh-CN"
 version: 1
-difficulty: foundational
+difficulty: "foundational"
 confidence: 0.85
-prerequisites: []
+prerequisites:
 component_of:
-  - yt-management-toolkit-overview
+  - "yt-management-toolkit-overview"
 related:
-  - yt-management-scientific-hiring
-  - yt-management-onboarding
-  - yt-management-company-culture
-  - yt-management-goal-management
-  - yt-decision-width-method
-  - master-decision-hygiene
-contradicts: []
+  - "yt-management-scientific-hiring"
+  - "yt-management-onboarding"
+  - "yt-management-company-culture"
+  - "yt-management-goal-management"
+  - "yt-decision-width-method"
+  - "master-decision-hygiene"
+contradicts:
 query_triggers:
-  - 结构化面试
-  - 面试打分卡
-  - STAR 追问法
-  - 行为面试
-  - 招聘决策
-  - 产品经理面试
-  - 面试评估维度
-  - 光环效应面试
-  - 多人面试打分
-  - 招对人
-  - 面试偏见防治
+  - "结构化面试"
+  - "面试打分卡"
+  - "STAR 追问法"
+  - "行为面试"
+  - "招聘决策"
+  - "产品经理面试"
+  - "面试评估维度"
+  - "光环效应面试"
+  - "多人面试打分"
+  - "招对人"
+  - "面试偏见防治"
 tags:
-  - '#yitang'
-  - '#management'
-  - '#tool'
-trust_level: medium
-yitang:
-  map: management
-  module: 科学招聘
-  course_id: yt-tool-hiring-scorecard
-  course_type: tool
-  level: core
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#management"
+  - "#scene/learning-methodology"
+  - "#tool"
+  - "#yitang"
+trust_level: "medium"
+yitang: {'map': 'management', 'module': '科学招聘', 'course_id': 'yt-tool-hiring-scorecard', 'course_type': 'tool', 'level': 'core'}
 source_refs:
-  - 30_wiki/concepts/yt-management-scientific-hiring.md
-created_at: '2026-05-19'
-updated_at: '2026-05-19'
+  - "30_wiki/concepts/yt-management-scientific-hiring.md"
+created_at: "2026-05-19"
+updated_at: "2026-05-19"
 estimated_tokens: 3400
-reviewed_by: 周伯通
+reviewed_by: "周伯通"
 ---
 
 # 结构化面试打分卡

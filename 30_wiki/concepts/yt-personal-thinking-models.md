@@ -1,43 +1,47 @@
 ---
-id: yt-personal-thinking-models
-component_of: []
-confidence: 0.80
+id: "yt-personal-thinking-models"
+component_of:
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1853
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 一堂做课供应链模型
-  - 为什么提炼模型是最核心的能力
-  - 从碎片经验到稳定模型
-  - 做课模型演化史
-  - 思维模型
-  - 思维模型：从碎片经验到稳定模型
-  - 教学创新
-  - 脱敏版
-  - 角色推演法
-related:
-  level: advanced
-reviewed_by: 黄药师
+  - "一堂做课供应链模型"
+  - "为什么提炼模型是最核心的能力"
+  - "从碎片经验到稳定模型"
+  - "做课模型演化史"
+  - "思维模型"
+  - "思维模型：从碎片经验到稳定模型"
+  - "教学创新"
+  - "脱敏版"
+  - "角色推演法"
+related: {'level': 'advanced'}
+reviewed_by: "黄药师"
 source_refs:
-  - 00_inbox/一堂-个人修身-思维模型口述版.md
-status: enriched
+  - "00_inbox/一堂-个人修身-思维模型口述版.md"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#mental-models"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#knowledge-extraction"
+  - "#mental-models"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
   - "#thinking"
-title: 思维模型：从碎片经验到稳定模型
-type: tool
+  - "#yitang"
+title: "思维模型：从碎片经验到稳定模型"
+type: "tool"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: personal
-  module: 个人修炼
-  course_type: explore_camp
+yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'explore_camp'}
 ---
 
 # 思维模型：从碎片经验到稳定模型

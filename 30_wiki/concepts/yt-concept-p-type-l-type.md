@@ -1,49 +1,49 @@
 ---
-id: yt-concept-p-type-l-type
-component_of: []
-confidence: 0.80
+id: "yt-concept-p-type-l-type"
+component_of:
+confidence: 0.8
 created_at: 2026-06-06
-difficulty: beginner
+difficulty: "beginner"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2800
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-entrepreneur-industry-forecast
+  - "yt-entrepreneur-industry-forecast"
 query_triggers:
-  - P型创业者
-  - L型创业者
-  - 创业者类型
-  - 热情驱动
-  - 逻辑驱动
-  - 预判能力
-  - 创业失败根源
-  - 创业者认知
-  - 创业心态
-  - 创业段位
-related:
-  series: false
+  - "P型创业者"
+  - "L型创业者"
+  - "创业者类型"
+  - "热情驱动"
+  - "逻辑驱动"
+  - "预判能力"
+  - "创业失败根源"
+  - "创业者认知"
+  - "创业心态"
+  - "创业段位"
+related: {'series': False}
 review_date: 2026-06-06
-reviewed_by: ''
+reviewed_by: ""
 source_refs:
-  - 00_inbox/一堂-商业预判课-Truman-口述.txt
-  - 00_inbox/一堂-商业预判课-truman-笔记.txt
-status: enriched
+  - "00_inbox/一堂-商业预判课-Truman-口述.txt"
+  - "00_inbox/一堂-商业预判课-truman-笔记.txt"
+status: "enriched"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
   - "#yitang"
   - "#创业者类型"
   - "#概念"
-title: P型与L型创业者
-trust_level: medium
-type: concept
+title: "P型与L型创业者"
+trust_level: "medium"
+type: "concept"
 updated_at: 2026-06-06
 version: 1
-yitang:
-  map: entrepreneur
-  module: 商业预判
-  course_id: yt-concept-p-type-l-type
-  course_type: concept
-  level: foundational
+yitang: {'map': 'entrepreneur', 'module': '商业预判', 'course_id': 'yt-concept-p-type-l-type', 'course_type': 'concept', 'level': 'foundational'}
 ---
 
 # P型与L型创业者

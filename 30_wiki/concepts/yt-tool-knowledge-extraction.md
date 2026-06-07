@@ -1,54 +1,60 @@
 ---
-id: yt-tool-knowledge-extraction
+id: "yt-tool-knowledge-extraction"
 component_of:
-  - yt-management-toolkit-overview
-confidence: 0.80
+  - "yt-management-toolkit-overview"
+confidence: 0.8
 created_at: 2026-05-19
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3400
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-management-toolkit-overview
+  - "yt-management-toolkit-overview"
 query_triggers:
-  - 团队知识萃取
-  - 隐性知识转化
-  - 经验沉淀方法
-  - 最佳实践萃取
-  - 团队知识库建设
-  - 知识萃取SOP
-  - 专家经验提取
-  - 知识文档化
-  - 复盘知识化
-  - 新人FAQ沉淀
+  - "团队知识萃取"
+  - "隐性知识转化"
+  - "经验沉淀方法"
+  - "最佳实践萃取"
+  - "团队知识库建设"
+  - "知识萃取SOP"
+  - "专家经验提取"
+  - "知识文档化"
+  - "复盘知识化"
+  - "新人FAQ沉淀"
 related:
-  - yt-management-team-knowledge
-  - yt-management-project-management
-  - yt-management-onboarding
-  - yt-personal-knowledge-extraction
-  - yt-personal-knowledge-management
-  - master-knowledge-compound
-  - yt-decision-review
-  - yt-concept-weapon-arsenal
+  - "yt-management-team-knowledge"
+  - "yt-management-project-management"
+  - "yt-management-onboarding"
+  - "yt-personal-knowledge-extraction"
+  - "yt-personal-knowledge-management"
+  - "master-knowledge-compound"
+  - "yt-decision-review"
+  - "yt-concept-weapon-arsenal"
 source_refs:
-  - 30_wiki/concepts/yt-management-team-knowledge.md
-status: draft
+  - "30_wiki/concepts/yt-management-team-knowledge.md"
+status: "draft"
 tags:
-  - "#yitang"
-  - "#management"
-  - "#tool"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#knowledge-management"
-title: 团队知识萃取器
-trust_level: medium
-type: tool
+  - "#management"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+  - "#tool"
+  - "#yitang"
+title: "团队知识萃取器"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-19
 version: 1
-yitang:
-  map: management
-  module: 管团队
-  course_type: tool
-  level: core
+yitang: {'map': 'management', 'module': '管团队', 'course_type': 'tool', 'level': 'core'}
 ---
 
 # 团队知识萃取器

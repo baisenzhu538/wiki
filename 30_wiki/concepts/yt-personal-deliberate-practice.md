@@ -1,46 +1,50 @@
 ---
-id: yt-personal-deliberate-practice
-component_of: []
-confidence: 0.80
+id: "yt-personal-deliberate-practice"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3000
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 刻意练习
-  - 科学成长
-  - 一万小时定律
-  - 天真的练习
-  - 即时反馈
-  - 舒适区拉伸
-  - 心理表征
-  - 案例拆解练习
-  - 能力培养方法
-  - 如何有效练习
-related:
-  series: false
+  - "刻意练习"
+  - "科学成长"
+  - "一万小时定律"
+  - "天真的练习"
+  - "即时反馈"
+  - "舒适区拉伸"
+  - "心理表征"
+  - "案例拆解练习"
+  - "能力培养方法"
+  - "如何有效练习"
+related: {'series': False}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
   - "#yitang"
-title: 科学成长（刻意练习）
-trust_level: medium
-type: tool
+title: "科学成长（刻意练习）"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: personal
-  module: 科学成长（刻意练习）
-  course_id: 406
-  course_type: method
-  level: foundational
+yitang: {'map': 'personal', 'module': '科学成长（刻意练习）', 'course_id': 406, 'course_type': 'method', 'level': 'foundational'}
 ---
+
 # 科学成长（刻意练习）
 
 > 来源：一堂个人必修课"练能力"模块——刻意练习认知课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

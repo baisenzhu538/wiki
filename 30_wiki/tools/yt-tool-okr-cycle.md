@@ -1,53 +1,53 @@
 ---
-id: yt-tool-okr-cycle
-title: 'OKR 制定与复盘罗盘'
-type: tool
-status: enriched
+id: "yt-tool-okr-cycle"
+title: "OKR 制定与复盘罗盘"
+type: "tool"
+status: "enriched"
 domain:
-  - yitang
-language: zh-CN
+  - "yitang"
+language: "zh-CN"
 version: 1
-difficulty: foundational
+difficulty: "foundational"
 confidence: 0.85
-prerequisites: []
+prerequisites:
 component_of:
-  - yt-management-toolkit-overview
+  - "yt-management-toolkit-overview"
 related:
-  - yt-management-goal-management
-  - yt-management-scientific-meetings
-  - yt-management-project-management
-  - yt-management-business-formula
-  - yt-decision-y-model
-  - yt-concept-weapon-arsenal
-contradicts: []
+  - "yt-management-goal-management"
+  - "yt-management-scientific-meetings"
+  - "yt-management-project-management"
+  - "yt-management-business-formula"
+  - "yt-decision-y-model"
+  - "yt-concept-weapon-arsenal"
+contradicts:
 query_triggers:
-  - OKR 制定
-  - OKR 复盘
-  - 季度目标设定
-  - 目标对齐
-  - 关键结果量化
-  - OKR 落地
-  - 度脉机制
-  - OKR 模板
-  - OKR 与 KPI 区别
-  - 目标管理工具
+  - "OKR 制定"
+  - "OKR 复盘"
+  - "季度目标设定"
+  - "目标对齐"
+  - "关键结果量化"
+  - "OKR 落地"
+  - "度脉机制"
+  - "OKR 模板"
+  - "OKR 与 KPI 区别"
+  - "目标管理工具"
 tags:
-  - '#yitang'
-  - '#management'
-  - '#tool'
-trust_level: medium
-yitang:
-  map: management
-  module: 目标管理
-  course_id: yt-tool-okr-cycle
-  course_type: tool
-  level: core
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
+  - "#management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+  - "#tool"
+  - "#yitang"
+trust_level: "medium"
+yitang: {'map': 'management', 'module': '目标管理', 'course_id': 'yt-tool-okr-cycle', 'course_type': 'tool', 'level': 'core'}
 source_refs:
-  - 30_wiki/concepts/yt-management-goal-management.md
-created_at: '2026-05-19'
-updated_at: '2026-05-19'
+  - "30_wiki/concepts/yt-management-goal-management.md"
+created_at: "2026-05-19"
+updated_at: "2026-05-19"
 estimated_tokens: 3300
-reviewed_by: 周伯通
+reviewed_by: "周伯通"
 ---
 
 # OKR 制定与复盘罗盘

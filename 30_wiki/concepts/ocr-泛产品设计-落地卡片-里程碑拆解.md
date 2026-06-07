@@ -1,17 +1,20 @@
 ---
-id: ocr-泛产品设计-落地卡片-里程碑拆解
+id: "ocr-泛产品设计-落地卡片-里程碑拆解"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_4be84945
-status: enriched
+  - "src_20260522_4be84945"
+status: "enriched"
 title: "OCR: 泛产品设计-落地卡片-里程碑拆解"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
 ---
-
-
 
 # OCR: 泛产品设计-落地卡片-里程碑拆解
 

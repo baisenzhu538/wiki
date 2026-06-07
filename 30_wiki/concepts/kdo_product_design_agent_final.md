@@ -1,14 +1,22 @@
 ---
-id: kdo_product_design_agent_final
+id: "kdo_product_design_agent_final"
 created_at: 2026-05-03
 domain:
-  - ai-saas
+  - "ai-saas"
 source_refs:
-  - src_20260503_52ae08ba
-status: enriched
-title: Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)
-type: concept
+  - "src_20260503_52ae08ba"
+status: "enriched"
+title: "Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)"
+type: "concept"
 updated_at: 2026-05-03
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
 ---
 
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)

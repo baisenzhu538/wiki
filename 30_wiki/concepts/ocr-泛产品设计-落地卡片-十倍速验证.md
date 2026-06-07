@@ -1,17 +1,24 @@
 ---
-id: ocr-泛产品设计-落地卡片-十倍速验证
+id: "ocr-泛产品设计-落地卡片-十倍速验证"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - "ai-saas"
 source_refs:
-  - src_20260522_5bd37e0d
-status: enriched
+  - "src_20260522_5bd37e0d"
+status: "enriched"
 title: "OCR: 泛产品设计-落地卡片-十倍速验证"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
 ---
-
-
 
 # OCR: 泛产品设计-落地卡片-十倍速验证
 

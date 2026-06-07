@@ -1,48 +1,51 @@
 ---
-id: yt-panproduct-execution-core-and-boundary
+id: "yt-panproduct-execution-core-and-boundary"
 component_of:
-  - yt-model-pan-product-execution-toolkit
-confidence: 0.80
+  - "yt-model-pan-product-execution-toolkit"
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1111
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-composite-pan-product-methodology
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
+  - "yt-composite-pan-product-methodology"
+  - "yt-model-pan-product-demand-toolkit"
+  - "yt-model-pan-product-aesthetic-toolkit"
 query_triggers:
-  - 产品落地
-  - 产品迭代
-  - 内核和边界
-  - 执行方法
-  - 泛产品设计
-  - 泛产品设计·落地卡片：内核和边界
-  - 落地卡片
-  - 落地执行
+  - "产品落地"
+  - "产品迭代"
+  - "内核和边界"
+  - "执行方法"
+  - "泛产品设计"
+  - "泛产品设计·落地卡片：内核和边界"
+  - "落地卡片"
+  - "落地执行"
 related:
-  - yt-panproduct-execution-logic-mece
-  - yt-panproduct-execution-management-trilogy
-reviewed_by: 黄药师
+  - "yt-panproduct-execution-logic-mece"
+  - "yt-panproduct-execution-management-trilogy"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/泛产品设计-落地卡片-内核和边界.png
-status: enriched
+  - "10_raw/assets/yitang/泛产品设计-落地卡片-内核和边界.png"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#pan-product-design"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
   - "#execution"
+  - "#pan-product-design"
+  - "#scene/knowledge-management"
+  - "#scene/note-taking"
+  - "#scene/product-design"
   - "#scope"
-title: 泛产品设计·落地卡片：内核和边界
-type: tool
+  - "#yitang"
+title: "泛产品设计·落地卡片：内核和边界"
+type: "tool"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: personal
-  module: 泛产品设计
-  course_type: card
-  level: foundational
+yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
 ---
 
 # 内核和边界：剥离中心思想和边界
@@ -133,4 +136,3 @@ yitang:
 | 产品功能开始膨胀——每一个新请求都"好像有道理"团队逐渐失去对"什么属于这个产品"的判断力 | 做"内核回归练习"——用一句话写下这个产品最核心要表达的一个东西（不是功能是一个意图），然后审视每一个现有功能和每个新请求：这个功能是否帮助用户体验那个核心意图？如果没有任何助益→标注为边界外 | 功能清单中至少30%被标注为"可剥离但不紧急"或"可在其他产品中实现"。如果你说"所有功能都直接服务核心意图"→你的内核定义太宽泛——再缩小 |
 | 向团队/合作方/用户解释"这个产品是什么"——发现描述很长或描述后对方表情仍然困惑 | 做"内核一语测试"——如果你只有一句话可以向一个陌生人说清这个产品，那一句话应该是产品的内核。不是功能列表、不是价值主张、不是市场定位——就是内核 | 内核一语说给一个非你行业的人听后，对方能在10秒内用他自己的话复述回来且核心不偏。如果所有测试对象复述出的东西都偏离核心→你的内核还没有被澄清成可分享的粒度 |
 | 做一个关键的scope决定——一个大型客户要求加一个重要功能，但它可能把你拉离核心方向 | 做"边界压测"——不在冷静的会议室决定，而把这个请求放到三个时间尺度上看：①做了之后6个月后产品会变成什么样子？②如果这家客户一年后流失了，留下的功能对产品是资产还是债务？③拒绝这个客户后损失的营收能不能在6个月内从更接近内核的方向补回来？ | 如果②的答案是"债务"且③的答案是"能"→坚决拒绝。边界工具最有价值的时刻不是你感觉坚定的时候——是你犹豫、对方给很多钱、大家都在看你的时刻——这个时候"边界"两个字是你唯一的防御 |
-

@@ -1,17 +1,25 @@
 ---
-id: HIS系统深度调研
+id: "HIS系统深度调研"
 created_at: 2026-05-03
 domain:
-  - healthcare
+  - "healthcare"
 review_date: 2026-05-03
-reviewed_by: Claude
+reviewed_by: "Claude"
 source_refs:
-  - src_20260503_968e0210
-status: reviewed
-title: HIS系统深度调研
-trust_level: medium
-type: concept
+  - "src_20260503_968e0210"
+status: "reviewed"
+title: "HIS系统深度调研"
+trust_level: "medium"
+type: "concept"
 updated_at: 2026-05-03
+tags:
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
 ---
 
 # HIS系统深度调研

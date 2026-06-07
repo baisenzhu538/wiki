@@ -1,17 +1,22 @@
 ---
-id: ocr-一堂y模型steps策略集
+id: "ocr-一堂y模型steps策略集"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_0bb1cb6e
-status: enriched
+  - "src_20260522_0bb1cb6e"
+status: "enriched"
 title: "OCR: 一堂Y模型steps策略集"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 一堂Y模型steps策略集
 

@@ -1,45 +1,43 @@
 ---
-id: yt-entrepreneur-259-milestone
-component_of: []
-confidence: 0.80
+id: "yt-entrepreneur-259-milestone"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1851
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 259里程碑
-  - 业务里程碑
-  - 预判阶段
-  - 假设增长
-  - 假设验证
-  - 科学创业
-  - 创业里程碑
-  - 关键假设优先
-  - 最小成本验证
-  - 259框架
-related:
-  series: false
+  - "259里程碑"
+  - "业务里程碑"
+  - "预判阶段"
+  - "假设增长"
+  - "假设验证"
+  - "科学创业"
+  - "创业里程碑"
+  - "关键假设优先"
+  - "最小成本验证"
+  - "259框架"
+related: {'series': False}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
   - "#yitang"
-title: 259里程碑
-trust_level: medium
-type: tool
+title: "259里程碑"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: entrepreneur
-  module: 259里程碑
-  course_id: 259
-  course_type: method
-  level: foundational
+yitang: {'map': 'entrepreneur', 'module': '259里程碑', 'course_id': 259, 'course_type': 'method', 'level': 'foundational'}
 ---
 
 # 259里程碑

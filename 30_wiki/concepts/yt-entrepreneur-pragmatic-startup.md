@@ -1,45 +1,45 @@
 ---
-id: yt-entrepreneur-pragmatic-startup
-component_of: []
-confidence: 0.80
+id: "yt-entrepreneur-pragmatic-startup"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1843
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 务实创业
-  - 实事求是创业
-  - 创业现实主义
-  - 反风口创业
-  - 科学创业方法
-  - 低成本验证
-  - 数据驱动创业
-  - 创业方法论
-  - 理性创业
-  - 创业反直觉思维
-related:
-  series: false
+  - "务实创业"
+  - "实事求是创业"
+  - "创业现实主义"
+  - "反风口创业"
+  - "科学创业方法"
+  - "低成本验证"
+  - "数据驱动创业"
+  - "创业方法论"
+  - "理性创业"
+  - "创业反直觉思维"
+related: {'series': False}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
   - "#yitang"
-title: 务实创业
-trust_level: medium
-type: tool
+title: "务实创业"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: entrepreneur
-  module: 务实创业
-  course_id: yt-entrepreneur-pragmatic-startup
-  course_type: method
-  level: advanced
+yitang: {'map': 'entrepreneur', 'module': '务实创业', 'course_id': 'yt-entrepreneur-pragmatic-startup', 'course_type': 'method', 'level': 'advanced'}
 ---
 
 # 务实创业

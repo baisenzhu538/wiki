@@ -1,23 +1,25 @@
 ---
-id: dk-yb30-ecommerce-channel-version
+id: "dk-yb30-ecommerce-channel-version"
 title: "电商渠道专版区分：淘宝≠拼多多"
-type: dark-knowledge
-dark_knowledge_type: insight
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "insight"
+status: "draft"
 domain:
-  - design
-source_person: 月白
+  - "design"
+source_person: "月白"
 source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
-  - 00_inbox/design/AI设计-AI设计基础01.txt
+  - "00_inbox/design/AI设计-AI设计基础01.txt"
 tags:
-  - "#source_type/dark-knowledge"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/design"
+  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
-  - dk-yb21-ecommerce-pricing-independent-model
-contradicts: []
+  - "dk-yb21-ecommerce-pricing-independent-model"
+contradicts:
 ---
 
 # 电商渠道专版区分：淘宝≠拼多多

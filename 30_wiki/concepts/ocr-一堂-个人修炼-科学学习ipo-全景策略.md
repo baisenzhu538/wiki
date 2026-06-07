@@ -1,18 +1,23 @@
 ---
-id: ocr-一堂-个人修炼-科学学习ipo-全景策略
+id: "ocr-一堂-个人修炼-科学学习ipo-全景策略"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_dee56cff
-status: enriched
+  - "src_20260522_dee56cff"
+status: "enriched"
 title: "OCR: 一堂-个人修炼-科学学习IPO-全景策略"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
 ---
-
-
-
 
 # OCR: 一堂-个人修炼-科学学习IPO-全景策略
 
@@ -99,4 +104,3 @@ Capability: <playbook>
 |---------|-----------|---------|
 | 每天学习前 | 停下来问：今天的学习内容属于“知识树”的哪一层？是存储记忆（知道即可）、建立联系（举一反三）、动手建模（整理框架）还是复盘推演（应用实战）？ | 能在1分钟内说出今天学习内容在知识树中的位置，并且这个位置不是“只是存储记忆”（因为这层的价值最低） |
 | 学完一个内容后感觉"学懂了” | 强制输出——用自己的话重新讲一遍或写一遍，如果讲不出来/写不出来，说明没真懂 | 能在学完后30分钟内产出一个“费曼输出”（一段话/一张图/一个案例），并能在不看原文的情况下复现 |
-

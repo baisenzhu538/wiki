@@ -1,23 +1,27 @@
 ---
-id: dk-yb10-theory-moat-designer
+id: "dk-yb10-theory-moat-designer"
 title: "AI时代设计师的理论护城河"
-type: dark-knowledge
-dark_knowledge_type: insight
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "insight"
+status: "draft"
 domain:
-  - design
-source_person: 月白
+  - "design"
+source_person: "月白"
 source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
-  - 00_inbox/design/AI设计-AI设计基础01.txt
+  - "00_inbox/design/AI设计-AI设计基础01.txt"
 tags:
-  - "#source_type/dark-knowledge"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/skill-engineering"
+  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
-  - — 暂无（待后续卡片补充关联）
-contradicts: []
+  - "— 暂无（待后续卡片补充关联）"
+contradicts:
 ---
 
 # AI时代设计师的理论护城河

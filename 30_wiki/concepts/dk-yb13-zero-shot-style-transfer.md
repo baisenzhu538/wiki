@@ -1,24 +1,27 @@
 ---
-id: dk-yb13-zero-shot-style-transfer
+id: "dk-yb13-zero-shot-style-transfer"
 title: "零训练风格迁移：三要素描述法"
-type: dark-knowledge
-dark_knowledge_type: workflow
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "workflow"
+status: "draft"
 domain:
-  - design
-source_person: 月白
+  - "design"
+source_person: "月白"
 source_context: "口述稿: AI设计-AI设计师实操培训01"
 source_refs:
-  - 00_inbox/design/AI设计-AI设计师实操培训01.txt
+  - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
 tags:
-  - "#source_type/dark-knowledge"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/learning-methodology"
+  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
-  - dk-yb11-visual-book-reverse
-  - dk-yb12-ai-image-analysis-replace-training
-contradicts: []
+  - "dk-yb11-visual-book-reverse"
+  - "dk-yb12-ai-image-analysis-replace-training"
+contradicts:
 ---
 
 # 零训练风格迁移：三要素描述法

@@ -1,14 +1,18 @@
 ---
-id: business-analysis
+id: "business-analysis"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - "ai-saas"
 source_refs:
-  - src_20260522_9d98d526
-status: draft
-title: Business Analysis
-type: concept
+  - "src_20260522_9d98d526"
+status: "draft"
+title: "Business Analysis"
+type: "concept"
 updated_at: 2026-05-21
+tags:
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
 ---
 
 # Business Analysis

@@ -1,51 +1,50 @@
 ---
-id: yt-personal-deep-review
-component_of: []
-confidence: 0.80
+id: "yt-personal-deep-review"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3000
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 小抄"与"必修课"的互锁
-  - 与一堂其他核心课程的关系
-  - 五层深度理解
-  - 冰山复盘模型
-  - 双向链接
-  - 商业模式隐忧
-  - 复盘可能强化既有偏见
-  - 对"天赋/素质"的回避造成逻辑断层
-  - 搭建个人
-  - 操作步骤
+  - "小抄\"与\"必修课\"的互锁"
+  - "与一堂其他核心课程的关系"
+  - "五层深度理解"
+  - "冰山复盘模型"
+  - "双向链接"
+  - "商业模式隐忧"
+  - "复盘可能强化既有偏见"
+  - "对\"天赋/素质\"的回避造成逻辑断层"
+  - "搭建个人"
+  - "操作步骤"
 related:
-  - yt-entrepreneur-scientific-method
-  - yt-personal-deliberate-practice
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-management
-  - yt-personal-time-management
-  - yt-system-course-map-lecture
+  - "yt-entrepreneur-scientific-method"
+  - "yt-personal-deliberate-practice"
+  - "yt-personal-ipo-learning"
+  - "yt-personal-knowledge-management"
+  - "yt-personal-time-management"
+  - "yt-system-course-map-lecture"
 review_date: 2026-05-07
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - src_20260507_9dd09688
-  - src_20260507_df666081
-status: enriched
+  - "src_20260507_9dd09688"
+  - "src_20260507_df666081"
+status: "enriched"
 tags:
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
   - "#yitang"
-title: 深度复盘
-type: tool
+title: "深度复盘"
+type: "tool"
 updated_at: 2026-05-07
 version: 1
-yitang:
-  map: personal
-  module: 深度复盘
-  course_id: 404
-  course_type: method
-  level: core
-  series: false
+yitang: {'map': 'personal', 'module': '深度复盘', 'course_id': 404, 'course_type': 'method', 'level': 'core', 'series': False}
 ---
 
 # 深度复盘

@@ -1,23 +1,29 @@
 ---
-id: yt-system-course-catalog
+id: "yt-system-course-catalog"
 title: "一堂全课程目录索引"
-type: concept
-status: enriched
+type: "concept"
+status: "enriched"
 domain:
-  - yitang
-yitang:
-  map: system
-  module: "课程体系"
-  course_type: reference
-  level: foundational
+  - "yitang"
+yitang: {'map': 'system', 'module': '课程体系', 'course_type': 'reference', 'level': 'foundational'}
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
 created_at: "2026-05-07"
 updated_at: "2026-05-18"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-creative"
+  - "#boundary/not-for-medical"
+  - "#confidence/source-cited"
   - "#course-catalog"
   - "#index"
+  - "#scene/business-analysis"
+  - "#scene/hardware-debugging"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
+  - "#yitang"
 estimated_tokens: 3200
 ---
 

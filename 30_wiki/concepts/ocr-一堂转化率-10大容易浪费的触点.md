@@ -1,17 +1,24 @@
 ---
-id: ocr-一堂转化率-10大容易浪费的触点
+id: "ocr-一堂转化率-10大容易浪费的触点"
 created_at: 2026-05-21
 domain:
-  - healthcare
+  - "healthcare"
 source_refs:
-  - src_20260522_037af20f
-status: enriched
+  - "src_20260522_037af20f"
+status: "enriched"
 title: "OCR: 一堂转化率-10大容易浪费的触点"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 一堂转化率-10大容易浪费的触点
 

@@ -1,16 +1,17 @@
 ---
-id: sprint-2-门禁举证验收
+id: "sprint-2-门禁举证验收"
 created_at: 2026-05-09
 domain:
-  - master
+  - "master"
 source_refs:
-  - src_20260510_9e98a292
-status: enriched
-title: Sprint 2 门禁举证验收
-type: concept
+  - "src_20260510_9e98a292"
+status: "enriched"
+title: "Sprint 2 门禁举证验收"
+type: "concept"
 updated_at: 2026-05-09
+tags:
+  - "#confidence/source-cited"
 ---
-
 
 # Sprint 2 门禁举证验收
 

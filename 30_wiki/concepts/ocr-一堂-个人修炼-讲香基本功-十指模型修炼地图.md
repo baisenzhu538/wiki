@@ -1,17 +1,23 @@
 ---
-id: ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图
+id: "ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_ecb6ee97
-status: enriched
+  - "src_20260522_ecb6ee97"
+status: "enriched"
 title: "OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图
 

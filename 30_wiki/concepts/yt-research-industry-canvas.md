@@ -1,51 +1,49 @@
 ---
-id: yt-research-industry-canvas
-component_of: []
+id: "yt-research-industry-canvas"
+component_of:
 confidence: 0.85
 created_at: 2026-05-18
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2400
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-research-osl-framework
-  - yt-research-intelligence-map
+  - "yt-research-osl-framework"
+  - "yt-research-intelligence-map"
 query_triggers:
-  - 行业分析
-  - 行业调研
-  - 要不要进这个行业
-  - 行业选择
-  - 行业画布
-  - 行业扫描
+  - "行业分析"
+  - "行业调研"
+  - "要不要进这个行业"
+  - "行业选择"
+  - "行业画布"
+  - "行业扫描"
 related:
-  - yt-research-osl-framework
-  - yt-research-intelligence-map
-  - yt-research-competitor-toolkit
-  - yt-research-user-jtbd
-  - yt-research-expert-interview
-  - yt-research-hypothesis-test
-  - yt-entrepreneur-key-hypotheses
-reviewed_by: 
+  - "yt-research-osl-framework"
+  - "yt-research-intelligence-map"
+  - "yt-research-competitor-toolkit"
+  - "yt-research-user-jtbd"
+  - "yt-research-expert-interview"
+  - "yt-research-hypothesis-test"
+  - "yt-entrepreneur-key-hypotheses"
+reviewed_by: ""
 source_refs:
-  - 00_inbox/ideas/一堂-创业必修-调研武器库.md
-  - 00_inbox/ideas/一堂-创业必修-调研行动营.md
-status: reviewed
+  - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
+  - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
+status: "reviewed"
 tags:
-  - "#yitang"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
   - "#research"
+  - "#scene/note-taking"
   - "#tool"
-title: 行业分析画布：五维快速扫描+二维定位
-trust_level: medium
-type: tool
+  - "#yitang"
+title: "行业分析画布：五维快速扫描+二维定位"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-18
 version: 1
-yitang:
-  map: entrepreneur
-  module: 调研方法论
-  course_id: yt-research-industry-canvas
-  course_type: tool
-  level: intermediate
+yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-industry-canvas', 'course_type': 'tool', 'level': 'intermediate'}
 ---
 
 # 行业分析画布：五维快速扫描+二维定位

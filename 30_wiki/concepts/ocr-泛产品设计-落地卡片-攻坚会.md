@@ -1,17 +1,23 @@
 ---
-id: ocr-泛产品设计-落地卡片-攻坚会
+id: "ocr-泛产品设计-落地卡片-攻坚会"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_cbb3b77d
-status: enriched
+  - "src_20260522_cbb3b77d"
+status: "enriched"
 title: "OCR: 泛产品设计-落地卡片-攻坚会"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 泛产品设计-落地卡片-攻坚会
 

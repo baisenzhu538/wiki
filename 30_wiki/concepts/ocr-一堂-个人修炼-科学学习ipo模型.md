@@ -1,17 +1,20 @@
 ---
-id: ocr-一堂-个人修炼-科学学习ipo模型
+id: "ocr-一堂-个人修炼-科学学习ipo模型"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_6199c6b7
-status: enriched
+  - "src_20260522_6199c6b7"
+status: "enriched"
 title: "OCR: 一堂-个人修炼-科学学习IPO模型"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#confidence/source-cited"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
 ---
-
-
 
 # OCR: 一堂-个人修炼-科学学习IPO模型
 

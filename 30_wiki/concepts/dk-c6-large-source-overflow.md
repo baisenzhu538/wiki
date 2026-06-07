@@ -1,24 +1,30 @@
 ---
-id: dk-c6-large-source-overflow
+id: "dk-c6-large-source-overflow"
 title: "C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去"
-type: dark-knowledge
-dark_knowledge_type: failure
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "failure"
+status: "draft"
 domain:
-  - master
-source_person: Builder
+  - "master"
+source_person: "Builder"
 source_context: "2026-05-03"
 source_refs:
-  - 20_memory/corrections.md#C-6
+  - "20_memory/corrections.md#C-6"
 tags:
-  - "#source_type/error"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
+  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
-  - dk-c10-batch-tool-no-dry-run
-  - master-first-principles
+  - "dk-c10-batch-tool-no-dry-run"
+  - "master-first-principles"
 ---
 
 # C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去

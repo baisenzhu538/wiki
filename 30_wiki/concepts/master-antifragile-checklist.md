@@ -1,31 +1,33 @@
 ---
-id: master-antifragile-checklist
-component_of: 
+id: "master-antifragile-checklist"
+component_of: ""
 confidence: 0.88
 created_at: 2026-05-18
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - master
+  - "master"
 estimated_tokens: 1144
-language: zh-CN
-prerequisites: 
+language: "zh-CN"
+prerequisites: ""
 query_triggers:
-  - 反脆弱决策
-  - 杠铃策略
-  - 反脆弱清单
-  - Taleb决策
-related: 
-reviewed_by: 
-source_refs: 
-status: enriched
+  - "反脆弱决策"
+  - "杠铃策略"
+  - "反脆弱清单"
+  - "Taleb决策"
+related: ""
+reviewed_by: ""
+source_refs: ""
+status: "enriched"
 tags:
-  - None
-title: 反脆弱决策检查清单
-type: tool
+  - "#boundary/requires-human-judgment"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+title: "反脆弱决策检查清单"
+type: "tool"
 updated_at: 2026-05-18
 version: 1
 ---
-
 
 # 反脆弱决策检查清单
 

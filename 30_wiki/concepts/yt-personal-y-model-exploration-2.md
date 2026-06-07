@@ -1,43 +1,46 @@
 ---
-id: yt-personal-y-model-exploration-2
-component_of: []
-confidence: 0.80
+id: "yt-personal-y-model-exploration-2"
+component_of:
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1885
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 牵"的深层含义
-  - 12345口诀
-  - Y模型探索营2
-  - Y模型探索营2：五次质变与科学推演
-  - 五次质变
-  - 五次质变与科学推演
-  - 关键区分
-  - 解释
-  - 预测
-related:
-  level: advanced
-reviewed_by: 黄药师
+  - "牵\"的深层含义"
+  - "12345口诀"
+  - "Y模型探索营2"
+  - "Y模型探索营2：五次质变与科学推演"
+  - "五次质变"
+  - "五次质变与科学推演"
+  - "关键区分"
+  - "解释"
+  - "预测"
+related: {'level': 'advanced'}
+reviewed_by: "黄药师"
 source_refs:
-  - 00_inbox/一堂-个人修身-Y模型探索营2口述版.md
-status: enriched
+  - "00_inbox/一堂-个人修身-Y模型探索营2口述版.md"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#y-model"
-  - "#scientific-method"
+  - "#boundary/not-for-creative"
+  - "#boundary/single-use-only"
   - "#cognitive-leap"
-title: Y模型探索营2：五次质变与科学推演
-type: tool
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scientific-method"
+  - "#y-model"
+  - "#yitang"
+title: "Y模型探索营2：五次质变与科学推演"
+type: "tool"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: personal
-  module: 个人修炼
-  course_type: explore_camp
+yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'explore_camp'}
 ---
 
 # Y模型探索营2：五次质变与科学推演

@@ -1,41 +1,44 @@
 ---
-id: master-first-principles
-component_of: 
+id: "master-first-principles"
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-18
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - master
+  - "master"
 estimated_tokens: 1622
-language: zh-CN
-prerequisites: 
+language: "zh-CN"
+prerequisites: ""
 query_triggers:
-  - 第一性原理
-  - 拆到不可拆
-  - 本质思维
-  - 底层逻辑拆解
+  - "第一性原理"
+  - "拆到不可拆"
+  - "本质思维"
+  - "底层逻辑拆解"
 related:
-  - yt-entrepreneur-liberate-thinking
-  - yt-personal-y-model-exploration-2
-  - yt-entrepreneur-liberate-thinking
-  - yt-panproduct-execution-core-and-boundary
-  - yt-personal-deep-review
-  - master-systems-thinking
-  - yt-unit-model-ladder
-  - yt-unit-model-construction
-  - yt-unit-model-dynamic
-reviewed_by: 
+  - "yt-entrepreneur-liberate-thinking"
+  - "yt-personal-y-model-exploration-2"
+  - "yt-entrepreneur-liberate-thinking"
+  - "yt-panproduct-execution-core-and-boundary"
+  - "yt-personal-deep-review"
+  - "master-systems-thinking"
+  - "yt-unit-model-ladder"
+  - "yt-unit-model-construction"
+  - "yt-unit-model-dynamic"
+reviewed_by: ""
 source_refs:
-  - {'来源': 'Aristotle, Elon Musk'}
-status: enriched
+  - {"来源": "Aristotle, Elon Musk"}
+status: "enriched"
 tags:
-  - None
-title: 第一性原理拆解器
-type: tool
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+title: "第一性原理拆解器"
+type: "tool"
 updated_at: 2026-05-18
 version: 1
 ---
-
 
 # 第一性原理拆解器
 

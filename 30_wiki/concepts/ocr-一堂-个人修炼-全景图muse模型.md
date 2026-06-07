@@ -1,18 +1,22 @@
 ---
-id: ocr-一堂-个人修炼-全景图muse模型
+id: "ocr-一堂-个人修炼-全景图muse模型"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_20c9fda8
-status: enriched
+  - "src_20260522_20c9fda8"
+status: "enriched"
 title: "OCR: 一堂-个人修炼-全景图MUSE模型"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
 ---
-
-
-
 
 # OCR: 一堂-个人修炼-全景图MUSE模型
 
@@ -98,4 +102,3 @@ Capability: <workflow>
 |---------|-----------|---------|
 | 每季度个人能力规划 | 用MUSE四层做“能力实质”审计——我的时间在M/U/S/E四层中的分配是否与我的职业目标匹配 | 能用一张饼图或柱状图展示上一季度的时间分配，并识别出至少1个“明显偏离目标”的层级 |
 | 发现新技术趋势（如AI Agent、多模态大模型） | 停下来问：这个趋势属于MUSE的哪一层？如果它是"奇迹层"——先做观察而不是投入，因为"奇迹层"的东西变化最快 | 能对新趋势做出MUSE层级判断，并根据层级决定“观察/小规模试验/大规模投入”的行动策略 |
-

@@ -1,49 +1,48 @@
 ---
-id: yt-entrepreneur-industry-forecast
-component_of: []
+id: "yt-entrepreneur-industry-forecast"
+component_of:
 confidence: 0.85
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 4500
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-entrepreneur-five-step-method
+  - "yt-entrepreneur-five-step-method"
 query_triggers:
-  - 商业预判
-  - 创业方向选择
-  - 15字诀
-  - 光谱模型
-  - P型创业者
-  - L型创业者
-  - 行业硬伤
-  - 选项池
-  - 预判能力
-  - 创业成功率
-related:
-  series: false
+  - "商业预判"
+  - "创业方向选择"
+  - "15字诀"
+  - "光谱模型"
+  - "P型创业者"
+  - "L型创业者"
+  - "行业硬伤"
+  - "选项池"
+  - "预判能力"
+  - "创业成功率"
+related: {'series': False}
 review_date: 2026-06-06
-reviewed_by: ''
+reviewed_by: ""
 source_refs:
-  - 00_inbox/一堂-商业预判课-Truman-口述.txt
-  - 00_inbox/一堂-商业预判课-truman-笔记.txt
-status: enriched
+  - "00_inbox/一堂-商业预判课-Truman-口述.txt"
+  - "00_inbox/一堂-商业预判课-truman-笔记.txt"
+status: "enriched"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
   - "#yitang"
-  - "#商业预判"
   - "#创业"
-title: 商业预判15字诀
-trust_level: medium
-type: tool
+  - "#商业预判"
+title: "商业预判15字诀"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-06-06
 version: 2
-yitang:
-  map: entrepreneur
-  module: 商业预判
-  course_id: yt-entrepreneur-industry-forecast
-  course_type: method
-  level: foundational
+yitang: {'map': 'entrepreneur', 'module': '商业预判', 'course_id': 'yt-entrepreneur-industry-forecast', 'course_type': 'method', 'level': 'foundational'}
 ---
 
 # 商业预判15字诀

@@ -1,20 +1,24 @@
 ---
-id: web-scraping-三剑客-scrapling-crawl4ai-firecrawl
+id: "web-scraping-三剑客-scrapling-crawl4ai-firecrawl"
 created_at: 2026-05-04
 domain:
   - "['ai-saas']"
 review_date: 2026-05-04
-reviewed_by: 黄药师
-source_refs: []
-status: enriched
+reviewed_by: "黄药师"
+source_refs:
+status: "enriched"
 tags:
-  - "#web-scraping"
   - "#ai-tools"
-  - "#rag"
   - "#anti-bot"
-title: Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl
-trust_level: high
-type: concept
+  - "#boundary/requires-human-judgment"
+  - "#rag"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
+  - "#web-scraping"
+title: "Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl"
+trust_level: "high"
+type: "concept"
 updated_at: 2026-05-04
 ---
 
@@ -184,4 +188,3 @@ data = page.css('.product', auto_save=True)  # DOM变化后自动重定位!
 | 触发场景 | 第一个动作 | 成功指标 |
 |---------|-----------|---------|
 | 需要基于这份调研/框架做出关键决策前 | 先问自己"这个结论现在还成立吗？有没有新的反例出现？" | 每次使用前都能说出至少一个可能影响结论有效性的新变化因素 |
-

@@ -1,17 +1,23 @@
 ---
-id: ocr-一堂-科学决策-宽度-个人
+id: "ocr-一堂-科学决策-宽度-个人"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_45957066
-status: enriched
+  - "src_20260522_45957066"
+status: "enriched"
 title: "OCR: 一堂-科学决策-宽度-个人"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
 ---
-
-
 
 # OCR: 一堂-科学决策-宽度-个人
 

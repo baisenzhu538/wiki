@@ -1,17 +1,24 @@
 ---
-id: ocr-一堂-科学决策-人机协作决策
+id: "ocr-一堂-科学决策-人机协作决策"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_33c40d41
-status: enriched
+  - "src_20260522_33c40d41"
+status: "enriched"
 title: "OCR: 一堂-科学决策-人机协作决策"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 一堂-科学决策-人机协作决策
 

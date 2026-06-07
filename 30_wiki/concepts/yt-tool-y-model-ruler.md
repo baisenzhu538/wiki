@@ -1,50 +1,55 @@
 ---
-id: yt-tool-y-model-ruler
+id: "yt-tool-y-model-ruler"
 component_of:
-  - yt-personal-y-model-exploration-2
+  - "yt-personal-y-model-exploration-2"
 confidence: 0.85
 created_at: 2026-06-06
-deprecation_reason: 
-difficulty: advanced
+deprecation_reason: ""
+difficulty: "advanced"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3400
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-personal-y-model-exploration-2
-  - yt-entrepreneur-needs-analysis
+  - "yt-personal-y-model-exploration-2"
+  - "yt-entrepreneur-needs-analysis"
 query_triggers:
-  - 尺子刻度
-  - 评估模型
-  - 科学选品
-  - 科学招人
-  - 尺子刻度基准权重
-  - 定量评估
-  - 决策模型
-  - 投资评估框架
-  - Y模型实操
-  - 因果规律
+  - "尺子刻度"
+  - "评估模型"
+  - "科学选品"
+  - "科学招人"
+  - "尺子刻度基准权重"
+  - "定量评估"
+  - "决策模型"
+  - "投资评估框架"
+  - "Y模型实操"
+  - "因果规律"
 related:
-  - yt-personal-y-model-exploration-2
-  - yt-personal-y-model-practice
-  - yt-entrepreneur-needs-analysis
-  - yt-tool-best-practice-learning
+  - "yt-personal-y-model-exploration-2"
+  - "yt-personal-y-model-practice"
+  - "yt-entrepreneur-needs-analysis"
+  - "yt-tool-best-practice-learning"
 review_by: 2026-12-06
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 00_inbox/一堂-个人修炼-Y模型实操口述版.md
-status: enriched
-superseded_by: 
+  - "00_inbox/一堂-个人修炼-Y模型实操口述版.md"
+status: "enriched"
+superseded_by: ""
 tags:
-  - Y模型
-  - 评估
-  - 决策
-  - 定量
-  - 一堂
-  - 科学方法
-title: Y模型尺子刻度法：从模糊经验到可复用评估模型
-
-type: tool
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#confidence/verified-by-test"
+  - "#scene/learning-methodology"
+  - "Y模型"
+  - "一堂"
+  - "决策"
+  - "定量"
+  - "科学方法"
+  - "评估"
+title: "Y模型尺子刻度法：从模糊经验到可复用评估模型"
+type: "tool"
 updated_at: 2026-06-06
 version: 1
 ---

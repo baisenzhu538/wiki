@@ -1,48 +1,50 @@
 ---
-id: yt-panproduct-aesthetic-imagination
+id: "yt-panproduct-aesthetic-imagination"
 component_of:
-  - yt-model-pan-product-aesthetic-toolkit
-confidence: 0.80
+  - "yt-model-pan-product-aesthetic-toolkit"
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: advanced
+difficulty: "advanced"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1426
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-composite-pan-product-methodology
-  - yt-model-pan-product-demand-toolkit
+  - "yt-composite-pan-product-methodology"
+  - "yt-model-pan-product-demand-toolkit"
 query_triggers:
-  - 产品审美
-  - 审美
-  - 审美卡片
-  - 最佳实践
-  - 泛产品设计
-  - 泛产品设计·审美卡片：美好作品想象
-  - 美好作品想象
-  - 设计标准
+  - "产品审美"
+  - "审美"
+  - "审美卡片"
+  - "最佳实践"
+  - "泛产品设计"
+  - "泛产品设计·审美卡片：美好作品想象"
+  - "美好作品想象"
+  - "设计标准"
 related:
-  - yt-panproduct-aesthetic-modeling
-  - yt-model-product-excellence
-  - yt-model-aesthetic-progression
-reviewed_by: 黄药师
+  - "yt-panproduct-aesthetic-modeling"
+  - "yt-model-product-excellence"
+  - "yt-model-aesthetic-progression"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/泛产品设计-审美卡片-美好作品想象.png
-status: enriched
+  - "10_raw/assets/yitang/泛产品设计-审美卡片-美好作品想象.png"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#pan-product-design"
   - "#aesthetics"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
   - "#creativity"
-title: 泛产品设计·审美卡片：美好作品想象
-type: tool
+  - "#pan-product-design"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#yitang"
+title: "泛产品设计·审美卡片：美好作品想象"
+type: "tool"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: personal
-  module: 泛产品设计
-  course_type: card
-  level: advanced
+yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
 ---
 
 # 美好作品想象：缺对标就自己想象

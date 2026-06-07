@@ -1,40 +1,47 @@
 ---
-id: yt-pitch-sublimation
+id: "yt-pitch-sublimation"
 component_of:
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-personal-pitch-toolkit"
 confidence: 0.85
 created_at: 2026-05-13
-difficulty: advanced
+difficulty: "advanced"
 domain:
-  - personal
-  - yitang
+  - "personal"
+  - "yitang"
 estimated_tokens: 1600
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-model-personal-pitch-toolkit
+  - "yt-model-personal-pitch-toolkit"
 query_triggers:
-  - 升华化
-  - 升华
-  - 上价值
-  - 挖价值
-  - 更高意义
-  - 情怀
+  - "升华化"
+  - "升华"
+  - "上价值"
+  - "挖价值"
+  - "更高意义"
+  - "情怀"
 related:
-  - yt-concept-weapon-arsenal
-reviewed_by: 黄药师
+  - "yt-concept-weapon-arsenal"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
-  - 10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png
-status: enriched
+  - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
+  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#pitch"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
+  - "#yitang"
   - "#抽象化"
-title: 讲香·升华化
-type: tool
+title: "讲香·升华化"
+type: "tool"
 updated_at: 2026-05-13
 version: 1
 ---
+
 # 讲香·升华化
 
 > 十指模型右手第五指——向上抽象。表层的价值不够强时，往上挖一到两层——把产品优势升华为用户的生命意义，用户就不再跟你算性价比了。

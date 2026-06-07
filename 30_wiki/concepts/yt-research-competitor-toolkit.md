@@ -1,50 +1,52 @@
 ---
-id: yt-research-competitor-toolkit
-component_of: []
+id: "yt-research-competitor-toolkit"
+component_of:
 confidence: 0.85
 created_at: 2026-05-18
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2200
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-research-osl-framework
-  - yt-research-intelligence-map
+  - "yt-research-osl-framework"
+  - "yt-research-intelligence-map"
 query_triggers:
-  - 竞品分析
-  - 竞品拆解
-  - 对标分析
-  - 竞争格局
-  - 竞争象限
+  - "竞品分析"
+  - "竞品拆解"
+  - "对标分析"
+  - "竞争格局"
+  - "竞争象限"
 related:
-  - yt-research-osl-framework
-  - yt-research-intelligence-map
-  - yt-research-hypothesis-test
-  - yt-research-expert-interview
-  - yt-research-industry-canvas
-  - yt-research-user-jtbd
-  - yt-decision-width-method
-reviewed_by: 
+  - "yt-research-osl-framework"
+  - "yt-research-intelligence-map"
+  - "yt-research-hypothesis-test"
+  - "yt-research-expert-interview"
+  - "yt-research-industry-canvas"
+  - "yt-research-user-jtbd"
+  - "yt-decision-width-method"
+reviewed_by: ""
 source_refs:
-  - 00_inbox/ideas/一堂-创业必修-调研武器库.md
-  - 00_inbox/ideas/一堂-创业必修-需求分析.md
-status: reviewed
+  - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
+  - "00_inbox/ideas/一堂-创业必修-需求分析.md"
+status: "reviewed"
 tags:
-  - "#yitang"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
   - "#research"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
   - "#tool"
-title: 竞品拆解工具包：三层分类+内核边界+单元模型对标
-trust_level: medium
-type: tool
+  - "#yitang"
+title: "竞品拆解工具包：三层分类+内核边界+单元模型对标"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-18
 version: 1
-yitang:
-  map: entrepreneur
-  module: 调研方法论
-  course_id: yt-research-competitor-toolkit
-  course_type: tool
-  level: intermediate
+yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-competitor-toolkit', 'course_type': 'tool', 'level': 'intermediate'}
 ---
 
 # 竞品拆解工具包：三层分类+内核边界+单元模型对标

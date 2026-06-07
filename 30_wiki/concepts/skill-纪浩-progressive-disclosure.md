@@ -1,16 +1,28 @@
 ---
-id: skill-纪浩-progressive-disclosure
+id: "skill-纪浩-progressive-disclosure"
 title: "技能：渐进式披露——按场景聚合、四层递进的信息组织法"
-type: skill
-status: draft
-domain: [ai-collaboration, yitang]
-source_person: 纪浩
+type: "skill"
+status: "draft"
+domain:
+  - "ai-collaboration"
+  - "yitang"
+source_person: "纪浩"
 source_context: "AI俱乐部-AI协作方法论 分享"
-source_refs: [00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt]
-tags: ["#domain/ai-collaboration"]
+source_refs:
+  - "00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt"
+tags:
+  - "#boundary/single-use-only"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#domain/ai-collaboration"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/skill-engineering"
 created_at: 2026-06-07
 updated_at: 2026-06-07
-related: [concept-纪浩-ai-collaboration-methodology, skill-纪浩-agent-workspace]
+related:
+  - "concept-纪浩-ai-collaboration-methodology"
+  - "skill-纪浩-agent-workspace"
 ---
 
 # 技能：渐进式披露

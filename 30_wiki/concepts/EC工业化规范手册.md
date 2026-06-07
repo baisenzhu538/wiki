@@ -1,14 +1,21 @@
 ---
-id: EC工业化规范手册
+id: "EC工业化规范手册"
 created_at: 2026-05-03
 domain:
-  - healthcare
+  - "healthcare"
 source_refs:
-  - src_20260503_dadc7838
-status: enriched
-title: EC工业化规范手册
-type: concept
+  - "src_20260503_dadc7838"
+status: "enriched"
+title: "EC工业化规范手册"
+type: "concept"
 updated_at: 2026-05-03
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/product-design"
 ---
 
 # EC工业化规范手册

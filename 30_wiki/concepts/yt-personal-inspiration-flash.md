@@ -1,46 +1,47 @@
 ---
-id: yt-personal-inspiration-flash
-component_of: []
-confidence: 0.80
+id: "yt-personal-inspiration-flash"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 3000
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 灵感闪现
-  - 灵感捕捉
-  - 潜意识思考
-  - 顿悟时刻
-  - 跨领域模式识别
-  - 信息浸泡
-  - 灵感触发方法
-  - 创造力培养
-  - 如何产生灵感
-  - 暂停显意识
-related:
-  series: true
+  - "灵感闪现"
+  - "灵感捕捉"
+  - "潜意识思考"
+  - "顿悟时刻"
+  - "跨领域模式识别"
+  - "信息浸泡"
+  - "灵感触发方法"
+  - "创造力培养"
+  - "如何产生灵感"
+  - "暂停显意识"
+related: {'series': True}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
   - "#yitang"
-title: 灵感闪现（认知篇）
-trust_level: medium
-type: tool
+title: "灵感闪现（认知篇）"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: personal
-  module: 灵感闪现（认知篇）
-  course_id: 518
-  course_type: method
-  level: advanced
+yitang: {'map': 'personal', 'module': '灵感闪现（认知篇）', 'course_id': 518, 'course_type': 'method', 'level': 'advanced'}
 ---
+
 # 灵感闪现（认知篇）
 
 > 来源：一堂个人必修课"练能力"模块，灵感闪现的认知基础课（系列课上半部分）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

@@ -1,45 +1,45 @@
 ---
-id: yt-entrepreneur-opportunity-selection
-component_of: []
-confidence: 0.80
+id: "yt-entrepreneur-opportunity-selection"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1849
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 机会选择
-  - 创业机会评估
-  - 机会评估矩阵
-  - 创业方向筛选
-  - 市场机会判断
-  - 伪机会排除
-  - 时机窗口判断
-  - 创业赛道选择
-  - 竞争强度分析
-  - 市场大小评估
-related:
-  series: false
+  - "机会选择"
+  - "创业机会评估"
+  - "机会评估矩阵"
+  - "创业方向筛选"
+  - "市场机会判断"
+  - "伪机会排除"
+  - "时机窗口判断"
+  - "创业赛道选择"
+  - "竞争强度分析"
+  - "市场大小评估"
+related: {'series': False}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
   - "#yitang"
-title: 机会选择
-trust_level: medium
-type: tool
+title: "机会选择"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: entrepreneur
-  module: 机会选择
-  course_id: yt-entrepreneur-opportunity-selection
-  course_type: method
-  level: core
+yitang: {'map': 'entrepreneur', 'module': '机会选择', 'course_id': 'yt-entrepreneur-opportunity-selection', 'course_type': 'method', 'level': 'core'}
 ---
 
 # 机会选择

@@ -1,15 +1,24 @@
 ---
-id: obsidian-kdo-内容产出工作流-产品设计大纲
+id: "obsidian-kdo-内容产出工作流-产品设计大纲"
 created_at: 2026-05-01
 domain:
-  - ai-saas
+  - "ai-saas"
 source_refs:
-  - src_20260501_58b6edef
-status: superseded
-superseded_by: 30_wiki/concepts/kdo_product_design_agent_final.md
-title: Obsidian + KDO 内容产出工作流 — 产品设计大纲
-type: concept
+  - "src_20260501_58b6edef"
+status: "superseded"
+superseded_by: "30_wiki/concepts/kdo_product_design_agent_final.md"
+title: "Obsidian + KDO 内容产出工作流 — 产品设计大纲"
+type: "concept"
 updated_at: 2026-05-03
+tags:
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
 
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲
@@ -99,4 +108,3 @@ KDO（Knowledge Delivery Orchestrator）是一款面向内容创作者和知识�
 | 触发场景 | 第一个动作 | 成功指标 |
 |---------|-----------|---------|
 | 需要基于这份调研/框架做出关键决策前 | 先问自己"这个结论现在还成立吗？有没有新的反例出现？" | 每次使用前都能说出至少一个可能影响结论有效性的新变化因素 |
-

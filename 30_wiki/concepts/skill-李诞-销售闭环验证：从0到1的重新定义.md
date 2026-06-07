@@ -1,24 +1,28 @@
 ---
-id: skill-李诞-销售闭环验证：从0到1的重新定义
-title: 技能：销售闭环验证：从0到1的重新定义
-type: skill
-status: draft
-domain: []
-source_person: 李诞
-source_context: 创作分享
-source_refs: []
-wiki_refs: []
+id: "skill-李诞-销售闭环验证：从0到1的重新定义"
+title: "技能：销售闭环验证：从0到1的重新定义"
+type: "skill"
+status: "draft"
+domain:
+source_person: "李诞"
+source_context: "创作分享"
+source_refs:
+wiki_refs:
 definition_of_done:
-  - 操作步骤清晰可执行
-  - 适用场景有正反例
-  - 工具要求明确
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
 tags:
+  - "#boundary/not-for-creative"
+  - "#confidence/draft"
   - "#domain/creative"
-tools_required: []
-prerequisite_skills: []
-related: []
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
+  - "#scene/business-analysis"
+  - "#scene/skill-engineering"
+tools_required:
+prerequisite_skills:
+related:
+created_at: "2026-06-07"
+updated_at: "2026-06-07"
 ---
 
 # 技能：销售闭环验证：从0到1的重新定义

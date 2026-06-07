@@ -1,45 +1,43 @@
 ---
-id: yt-entrepreneur-unit-model
-component_of: []
-confidence: 0.80
+id: "yt-entrepreneur-unit-model"
+component_of:
+confidence: 0.8
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1868
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 单元模型
-  - Unit Economics
-  - LTV/CAC
-  - 单位经济模型
-  - 回本周期计算
-  - 商业模式拆解
-  - 最小交易单元
-  - 创业经济可行性
-  - 毛利分析
-  - 单客经济模型
-related:
-  series: true
+  - "单元模型"
+  - "Unit Economics"
+  - "LTV/CAC"
+  - "单位经济模型"
+  - "回本周期计算"
+  - "商业模式拆解"
+  - "最小交易单元"
+  - "创业经济可行性"
+  - "毛利分析"
+  - "单客经济模型"
+related: {'series': True}
 review_date: 2026-05-08
-reviewed_by: 黄药师
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+status: "enriched"
 tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
   - "#yitang"
-title: 单元模型
-trust_level: medium
-type: tool
+title: "单元模型"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: entrepreneur
-  module: 单元模型
-  course_id: yt-entrepreneur-unit-model
-  course_type: method
-  level: core
+yitang: {'map': 'entrepreneur', 'module': '单元模型', 'course_id': 'yt-entrepreneur-unit-model', 'course_type': 'method', 'level': 'core'}
 ---
 
 # 单元模型

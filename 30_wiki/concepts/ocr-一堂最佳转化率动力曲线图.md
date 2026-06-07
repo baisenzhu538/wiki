@@ -1,17 +1,21 @@
 ---
-id: ocr-一堂最佳转化率动力曲线图
+id: "ocr-一堂最佳转化率动力曲线图"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_9557e4cb
-status: enriched
+  - "src_20260522_9557e4cb"
+status: "enriched"
 title: "OCR: 一堂最佳转化率动力曲线图"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 一堂最佳转化率动力曲线图
 

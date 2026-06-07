@@ -1,18 +1,21 @@
 ---
-id: ocr-truman的选择两条职业成长路线
+id: "ocr-truman的选择两条职业成长路线"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - "ai-saas"
 source_refs:
-  - src_20260522_9cbdf4fd
-status: enriched
+  - "src_20260522_9cbdf4fd"
+status: "enriched"
 title: "OCR: truman的选择：两条职业成长路线"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
 ---
-
-
-
 
 # OCR: truman的选择：两条职业成长路线
 

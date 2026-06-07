@@ -1,20 +1,33 @@
 ---
-id: skill-纪浩-agent-workspace
+id: "skill-纪浩-agent-workspace"
 title: "技能：Agent Workspace 搭建法——AI 的工作环境设计"
-type: skill
-status: draft
-domain: [ai-collaboration, yitang]
-source_person: 纪浩
+type: "skill"
+status: "draft"
+domain:
+  - "ai-collaboration"
+  - "yitang"
+source_person: "纪浩"
 source_context: "AI俱乐部-AI协作方法论 分享"
 source_refs:
-  - 00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt
-tags: ["#domain/ai-collaboration"]
+  - "00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt"
+tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/single-use-only"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#domain/ai-collaboration"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
-  - concept-纪浩-ai-collaboration-methodology
-  - skill-纪浩-progressive-disclosure
-  - dk-纪浩-ai-cant-design-structure
+  - "concept-纪浩-ai-collaboration-methodology"
+  - "skill-纪浩-progressive-disclosure"
+  - "dk-纪浩-ai-cant-design-structure"
 ---
 
 # 技能：Agent Workspace 搭建法

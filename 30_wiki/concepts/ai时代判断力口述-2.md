@@ -1,16 +1,23 @@
 ---
-id: ai时代判断力口述-2
+id: "ai时代判断力口述-2"
 created_at: 2026-05-25
 domain:
-  - healthcare
+  - "healthcare"
 source_refs:
-  - src_20260525_6748cc27
-status: enriched
-title: AI时代判断力口述
-type: concept
+  - "src_20260525_6748cc27"
+status: "enriched"
+title: "AI时代判断力口述"
+type: "concept"
 updated_at: 2026-05-28
+tags:
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#scene/ai-collaboration"
+  - "#scene/skill-engineering"
 ---
-
 
 # AI时代判断力口述
 

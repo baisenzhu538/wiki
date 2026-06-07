@@ -1,42 +1,44 @@
 ---
-id: yt-model-ipo-complete-checklist
-component_of: []
+id: "yt-model-ipo-complete-checklist"
+component_of:
 confidence: 0.85
 created_at: 2026-05-07
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2614
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - IPO 科学学习完整清单
-  - 关联卡片
-  - 处理 Process
-  - 目标 Goal：培养长期渴望
-  - 知识体系定位
-  - 科学学习完整清单
-  - 输入 Input
-  - 输出 Output
-related:
-  level: foundational
-reviewed_by: 黄药师
+  - "IPO 科学学习完整清单"
+  - "关联卡片"
+  - "处理 Process"
+  - "目标 Goal：培养长期渴望"
+  - "知识体系定位"
+  - "科学学习完整清单"
+  - "输入 Input"
+  - "输出 Output"
+related: {'level': 'foundational'}
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂-个人修炼-科学学习IPO完整清单.jpg
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+  - "10_raw/assets/yitang/一堂-个人修炼-科学学习IPO完整清单.jpg"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#learning-model"
+  - "#boundary/not-for-creative"
   - "#catalog"
-title: IPO 科学学习完整清单
-type: framework
+  - "#confidence/source-cited"
+  - "#learning-model"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#yitang"
+title: "IPO 科学学习完整清单"
+type: "framework"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: personal
-  module: 科学学习
-  course_type: reference
+yitang: {'map': 'personal', 'module': '科学学习', 'course_type': 'reference'}
 ---
 
 # IPO 科学学习完整清单 (Complete List)

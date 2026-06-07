@@ -1,49 +1,50 @@
 ---
-id: yt-panproduct-execution-logic-mece
+id: "yt-panproduct-execution-logic-mece"
 component_of:
-  - yt-model-pan-product-execution-toolkit
-confidence: 0.80
+  - "yt-model-pan-product-execution-toolkit"
+confidence: 0.8
 created_at: 2026-05-11
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1183
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-composite-pan-product-methodology
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
+  - "yt-composite-pan-product-methodology"
+  - "yt-model-pan-product-demand-toolkit"
+  - "yt-model-pan-product-aesthetic-toolkit"
 query_triggers:
-  - 产品落地
-  - 产品迭代
-  - 执行方法
-  - 泛产品设计
-  - 泛产品设计·落地卡片：逻辑MECE
-  - 落地卡片
-  - 落地执行
-  - 逻辑MECE
+  - "产品落地"
+  - "产品迭代"
+  - "执行方法"
+  - "泛产品设计"
+  - "泛产品设计·落地卡片：逻辑MECE"
+  - "落地卡片"
+  - "落地执行"
+  - "逻辑MECE"
 related:
-  - yt-panproduct-execution-core-and-boundary
-  - yt-panproduct-execution-hypothesis-decomposition
-  - yt-model-prediction-model
-reviewed_by: 黄药师
+  - "yt-panproduct-execution-core-and-boundary"
+  - "yt-panproduct-execution-hypothesis-decomposition"
+  - "yt-model-prediction-model"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/泛产品设计-落地卡片-逻辑MECE.png
-status: enriched
+  - "10_raw/assets/yitang/泛产品设计-落地卡片-逻辑MECE.png"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#pan-product-design"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
   - "#execution"
+  - "#pan-product-design"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
   - "#structured-thinking"
-title: 泛产品设计·落地卡片：逻辑MECE
-type: tool
+  - "#yitang"
+title: "泛产品设计·落地卡片：逻辑MECE"
+type: "tool"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: personal
-  module: 泛产品设计
-  course_type: card
-  level: foundational
+yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
 ---
 
 # 逻辑MECE：做个有逻辑的人

@@ -1,34 +1,47 @@
 ---
-id: concept-纪浩-ai-collaboration-methodology
+id: "concept-纪浩-ai-collaboration-methodology"
 title: "纪浩 AI 协作方法论：从判断到规模复用的五层体系"
-type: concept
-status: draft
+type: "concept"
+status: "draft"
 domain:
-  - ai-collaboration
-  - yitang
-source_person: 纪浩
+  - "ai-collaboration"
+  - "yitang"
+source_person: "纪浩"
 source_context: "AI俱乐部-AI协作方法论 分享（第三次分享，2026-06）"
 source_refs:
-  - 00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt
-  - 00_inbox/AI俱乐部-AI协作方法论-纪浩-笔记.txt
-  - 00_inbox/AI俱乐部-人和AI协作-纪浩-提示词案例01.txt
-  - 00_inbox/AI俱乐部-人和AI协作-纪浩-提示词案例02.txt
+  - "00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt"
+  - "00_inbox/AI俱乐部-AI协作方法论-纪浩-笔记.txt"
+  - "00_inbox/AI俱乐部-人和AI协作-纪浩-提示词案例01.txt"
+  - "00_inbox/AI俱乐部-人和AI协作-纪浩-提示词案例02.txt"
 tags:
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#domain/ai-collaboration"
   - "#domain/yitang"
+  - "#scene/agent-infrastructure"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
-  - skill-纪浩-four-elements-validation
-  - skill-纪浩-agent-workspace
-  - skill-纪浩-dofirst-pdca
-  - skill-纪浩-dual-triangle
-  - skill-纪浩-progressive-disclosure
-  - dk-纪浩-pdca-starts-from-do
-  - dk-纪浩-ai-cant-design-structure
-  - dk-纪浩-newbie-can-validate
-  - case-纪浩-skills-market
-  - case-纪浩-focus-prompt-design
+  - "skill-纪浩-four-elements-validation"
+  - "skill-纪浩-agent-workspace"
+  - "skill-纪浩-dofirst-pdca"
+  - "skill-纪浩-dual-triangle"
+  - "skill-纪浩-progressive-disclosure"
+  - "dk-纪浩-pdca-starts-from-do"
+  - "dk-纪浩-ai-cant-design-structure"
+  - "dk-纪浩-newbie-can-validate"
+  - "case-纪浩-skills-market"
+  - "case-纪浩-focus-prompt-design"
 ---
 
 # 纪浩 AI 协作方法论

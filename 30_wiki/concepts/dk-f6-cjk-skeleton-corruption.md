@@ -1,27 +1,33 @@
 ---
-id: dk-f6-cjk-skeleton-corruption
+id: "dk-f6-cjk-skeleton-corruption"
 title: "F-KDO-006：骨架页面 CJK 内容损毁→ingest 后中文摘要变成随机碎片"
-type: dark-knowledge
-dark_knowledge_type: failure
-status: draft
+type: "dark-knowledge"
+dark_knowledge_type: "failure"
+status: "draft"
 domain:
-  - master
-source_person: system
+  - "master"
+source_person: "system"
 source_context: "failure-modes.md F-KDO-006"
 source_refs:
-  - 90_control/failure-modes.md#F-KDO-006
+  - "90_control/failure-modes.md#F-KDO-006"
 tags:
-  - "#source_type/error"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/skill-engineering"
+  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
-  - dk-f1-regex-on-cjk
-  - master-ai-info-literacy
+  - "dk-f1-regex-on-cjk"
+  - "master-ai-info-literacy"
 contradicts:
-  - dk-f1-regex-on-cjk
-  - master-ai-info-literacy
+  - "dk-f1-regex-on-cjk"
+  - "master-ai-info-literacy"
 ---
 
 # F-KDO-006：骨架页面 CJK 内容损毁→ingest 后中文摘要变成随机碎片

@@ -1,40 +1,40 @@
 ---
-id: yt-model-scientific-questioning-map
-component_of: []
+id: "yt-model-scientific-questioning-map"
+component_of:
 confidence: 0.85
 created_at: 2026-05-07
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 1667
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 关联卡片
-  - 四领域 × 三级难度矩阵
-  - 提问的核心维度
-  - 知识体系定位
-  - 科学提问刻意练习地图
-  - 通用工具箱
-related:
-  level: foundational
-reviewed_by: 黄药师
+  - "关联卡片"
+  - "四领域 × 三级难度矩阵"
+  - "提问的核心维度"
+  - "知识体系定位"
+  - "科学提问刻意练习地图"
+  - "通用工具箱"
+related: {'level': 'foundational'}
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂-个人修炼-科学提问刻意练习.png
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+  - "10_raw/assets/yitang/一堂-个人修炼-科学提问刻意练习.png"
+status: "enriched"
 tags:
-  - "#yitang"
-  - "#questioning"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
   - "#deliberate-practice"
-title: 科学提问刻意练习地图
-type: framework
+  - "#questioning"
+  - "#scene/learning-methodology"
+  - "#yitang"
+title: "科学提问刻意练习地图"
+type: "framework"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: personal
-  module: 提问能力
-  course_type: model
+yitang: {'map': 'personal', 'module': '提问能力', 'course_type': 'model'}
 ---
 
 # 科学提问刻意练习地图

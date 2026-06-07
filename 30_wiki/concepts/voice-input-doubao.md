@@ -1,20 +1,29 @@
 ---
-id: voice-input-doubao
-type: tool
-status: draft
+id: "voice-input-doubao"
+type: "tool"
+status: "draft"
 source_refs:
-  - src_20260606_90b44191
+  - "src_20260606_90b44191"
 component_of:
-  - ai-learning-closed-loop
+  - "ai-learning-closed-loop"
 related:
-  - course-to-skill-conversion
-  - prd-as-ai-instruction
+  - "course-to-skill-conversion"
+  - "prd-as-ai-instruction"
 query_triggers:
   - "语音输入怎么用"
   - "豆包输入法"
   - "手机语音输入AI"
   - "语音输入工具推荐"
-reviewed_by: ''
+reviewed_by: ""
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
 ---
 
 # 豆包输入法：语音输入的最低成本实践

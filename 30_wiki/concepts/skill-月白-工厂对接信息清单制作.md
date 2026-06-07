@@ -1,24 +1,26 @@
 ---
-id: skill-月白-工厂对接信息清单制作
-title: 技能：工厂对接信息清单制作
-type: skill
-status: draft
-domain: []
-source_person: 月白
-source_context: 文创案例
-source_refs: []
-wiki_refs: []
+id: "skill-月白-工厂对接信息清单制作"
+title: "技能：工厂对接信息清单制作"
+type: "skill"
+status: "draft"
+domain:
+source_person: "月白"
+source_context: "文创案例"
+source_refs:
+wiki_refs:
 definition_of_done:
-  - 操作步骤清晰可执行
-  - 适用场景有正反例
-  - 工具要求明确
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
 tags:
+  - "#confidence/draft"
   - "#domain/general"
-tools_required: []
-prerequisite_skills: []
-related: []
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
+  - "#scene/note-taking"
+tools_required:
+prerequisite_skills:
+related:
+created_at: "2026-06-07"
+updated_at: "2026-06-07"
 ---
 
 # 技能：工厂对接信息清单制作

@@ -1,40 +1,50 @@
 ---
-id: yt-model-prompt-engineering
-title: 人机协作操作系统：提示词工程总框架
-type: framework
-status: enriched
+id: "yt-model-prompt-engineering"
+title: "人机协作操作系统：提示词工程总框架"
+type: "framework"
+status: "enriched"
 domain:
-  - yitang
-  - ai
-language: zh-CN
+  - "yitang"
+  - "ai"
+language: "zh-CN"
 version: 1
-difficulty: intermediate
-confidence: 0.90
+difficulty: "intermediate"
+confidence: 0.9
 related:
-  - yt-model-cognitive-upgrade-framework
+  - "yt-model-cognitive-upgrade-framework"
 source_refs:
-  - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
-  - 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
-  - https://www.deeplearning.ai/courses/ai-prompting-for-everyone/
+  - "10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
+  - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
+  - "https://www.deeplearning.ai/courses/ai-prompting-for-everyone/"
 query_triggers:
-  - 提示词工程
-  - 人机协作
-  - AI合伙人
-  - 七层工作流
-  - 范式转换
-  - AI管理
-  - 迭代提示词
-  - 反谄媚
-  - 上下文工程
-
+  - "提示词工程"
+  - "人机协作"
+  - "AI合伙人"
+  - "七层工作流"
+  - "范式转换"
+  - "AI管理"
+  - "迭代提示词"
+  - "反谄媚"
+  - "上下文工程"
 tags:
-  - '#yitang'
-  - '#ai'
-  - '#prompt-engineering'
-  - '#human-ai-collaboration'
-created_at: '2026-05-13'
-updated_at: '2026-05-13'
-reviewed_by: 黄药师
+  - "#ai"
+  - "#boundary/not-for-creative"
+  - "#boundary/not-for-medical"
+  - "#boundary/requires-human-judgment"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
+  - "#human-ai-collaboration"
+  - "#prompt-engineering"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+  - "#yitang"
+created_at: "2026-05-13"
+updated_at: "2026-05-13"
+reviewed_by: "黄药师"
 estimated_tokens: 2500
 ---
 

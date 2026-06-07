@@ -1,17 +1,24 @@
 ---
-id: ocr-泛产品设计-落地卡片-设计原则
+id: "ocr-泛产品设计-落地卡片-设计原则"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_9eaf7399
-status: enriched
+  - "src_20260522_9eaf7399"
+status: "enriched"
 title: "OCR: 泛产品设计-落地卡片-设计原则"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 泛产品设计-落地卡片-设计原则
 

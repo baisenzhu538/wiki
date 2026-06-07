@@ -1,49 +1,50 @@
 ---
-id: yt-entrepreneur-key-hypotheses
-component_of: []
+id: "yt-entrepreneur-key-hypotheses"
+component_of:
 confidence: 0.85
 created_at: 2026-05-06
-difficulty: intermediate
+difficulty: "intermediate"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 4200
-language: zh-CN
+language: "zh-CN"
 prerequisites:
-  - yt-entrepreneur-five-step-method
+  - "yt-entrepreneur-five-step-method"
 query_triggers:
-  - 关键假设
-  - 假设验证
-  - 假设驱动
-  - 259工具
-  - X型创业者
-  - Y型创业者
-  - 价值假设
-  - 增长假设
-  - 最小成本验证
-  - 五步法
-related:
-  series: false
+  - "关键假设"
+  - "假设验证"
+  - "假设驱动"
+  - "259工具"
+  - "X型创业者"
+  - "Y型创业者"
+  - "价值假设"
+  - "增长假设"
+  - "最小成本验证"
+  - "五步法"
+related: {'series': False}
 review_date: 2026-06-06
-reviewed_by: ''
+reviewed_by: ""
 source_refs:
-  - 00_inbox/一堂-关键假设课-truman-口述.txt
-  - 00_inbox/一堂-关键假设课-truman-笔记.txt
-status: enriched
+  - "00_inbox/一堂-关键假设课-truman-口述.txt"
+  - "00_inbox/一堂-关键假设课-truman-笔记.txt"
+status: "enriched"
 tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/single-use-only"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
   - "#yitang"
   - "#关键假设"
   - "#创业"
-title: 关键假设259工具与假设验证三板斧
-trust_level: medium
-type: tool
+title: "关键假设259工具与假设验证三板斧"
+trust_level: "medium"
+type: "tool"
 updated_at: 2026-06-06
 version: 2
-yitang:
-  map: entrepreneur
-  module: 关键假设
-  course_id: yt-entrepreneur-key-hypotheses
-  course_type: method
-  level: foundational
+yitang: {'map': 'entrepreneur', 'module': '关键假设', 'course_id': 'yt-entrepreneur-key-hypotheses', 'course_type': 'method', 'level': 'foundational'}
 ---
 
 # 关键假设259工具与假设验证三板斧

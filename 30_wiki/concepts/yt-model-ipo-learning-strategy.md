@@ -1,44 +1,49 @@
 ---
-id: yt-model-ipo-learning-strategy
-component_of: []
+id: "yt-model-ipo-learning-strategy"
+component_of:
 confidence: 0.85
 created_at: 2026-05-07
-difficulty: foundational
+difficulty: "foundational"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2214
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - 6 要素闭环
-  - IPO 科学学习全景策略
-  - 三大学习法
-  - 关联卡片
-  - 常见误区
-  - 知识体系定位
-  - 科学学习全景策略
-  - 输入质量六维度
+  - "6 要素闭环"
+  - "IPO 科学学习全景策略"
+  - "三大学习法"
+  - "关联卡片"
+  - "常见误区"
+  - "知识体系定位"
+  - "科学学习全景策略"
+  - "输入质量六维度"
 related:
-  - yt-model-cognitive-upgrade-framework
-  - yt-model-personal-pitch-toolkit
-  - yt-model-prompt-engineering
-reviewed_by: 黄药师
+  - "yt-model-cognitive-upgrade-framework"
+  - "yt-model-personal-pitch-toolkit"
+  - "yt-model-prompt-engineering"
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/sources/一堂-课程地图精华串讲.md
-  - 10_raw/assets/yitang/一堂-个人修炼-科学学习IPO模型.jpg
-status: enriched
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+  - "10_raw/assets/yitang/一堂-个人修炼-科学学习IPO模型.jpg"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
+  - "#confidence/source-cited"
+  - "#confidence/verified-by-case"
   - "#learning-model"
-title: IPO 科学学习全景策略
-type: framework
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/note-taking"
+  - "#scene/skill-engineering"
+  - "#yitang"
+title: "IPO 科学学习全景策略"
+type: "framework"
 updated_at: 2026-05-08
 version: 1
-yitang:
-  map: personal
-  module: 科学学习
-  course_type: model
-  level: foundational
+yitang: {'map': 'personal', 'module': '科学学习', 'course_type': 'model', 'level': 'foundational'}
 ---
 
 # IPO 科学学习全景策略 (Yitang Scientific Learning IPO V2.0)

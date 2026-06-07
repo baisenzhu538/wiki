@@ -1,14 +1,19 @@
 ---
-id: product-ux
+id: "product-ux"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - "ai-saas"
 source_refs:
-  - src_20260522_404f58a2
-status: draft
-title: Product Ux
-type: concept
+  - "src_20260522_404f58a2"
+status: "draft"
+title: "Product Ux"
+type: "concept"
 updated_at: 2026-05-21
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#scene/ai-collaboration"
 ---
 
 # Product Ux

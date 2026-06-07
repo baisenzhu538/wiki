@@ -1,41 +1,46 @@
 ---
-id: yt-model-truman-career-routes
-component_of: []
+id: "yt-model-truman-career-routes"
+component_of:
 confidence: 0.85
 created_at: 2026-05-11
-difficulty: advanced
+difficulty: "advanced"
 domain:
-  - yitang
+  - "yitang"
 estimated_tokens: 2777
-language: zh-CN
-prerequisites: []
+language: "zh-CN"
+prerequisites:
 query_triggers:
-  - X vs Y 七维对比
-  - 与十年爬山地图的对应
-  - 两条职业成长路线
-  - 两条路线的底层逻辑
-  - 关键选择框架
-  - 楚门的选择
-  - 楚门的选择：两条职业成长路线 X vs Y
-related:
-  level: advanced
-reviewed_by: 黄药师
+  - "X vs Y 七维对比"
+  - "与十年爬山地图的对应"
+  - "两条职业成长路线"
+  - "两条路线的底层逻辑"
+  - "关键选择框架"
+  - "楚门的选择"
+  - "楚门的选择：两条职业成长路线 X vs Y"
+related: {'level': 'advanced'}
+reviewed_by: "黄药师"
 source_refs:
-  - 10_raw/assets/yitang/truman的选择：两条职业成长路线.png
-status: enriched
+  - "10_raw/assets/yitang/truman的选择：两条职业成长路线.png"
+status: "enriched"
 tags:
-  - "#yitang"
+  - "#boundary/not-for-beginners"
+  - "#boundary/not-for-creative"
+  - "#boundary/requires-human-judgment"
   - "#career-planning"
-  - "#pan-product-design"
+  - "#confidence/source-cited"
   - "#deliberate-practice"
-title: 楚门的选择：两条职业成长路线 X vs Y
-type: framework
+  - "#pan-product-design"
+  - "#scene/business-analysis"
+  - "#scene/knowledge-management"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
+  - "#yitang"
+title: "楚门的选择：两条职业成长路线 X vs Y"
+type: "framework"
 updated_at: 2026-05-11
 version: 1
-yitang:
-  map: personal
-  module: 个人修炼
-  course_type: framework
+yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'framework'}
 ---
 
 # 楚门的选择：两条职业成长路线 X vs Y

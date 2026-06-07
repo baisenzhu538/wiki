@@ -1,17 +1,20 @@
 ---
-id: ocr-泛产品设计-落地卡片-假设拆解
+id: "ocr-泛产品设计-落地卡片-假设拆解"
 created_at: 2026-05-21
 domain:
-  - yitang
+  - "yitang"
 source_refs:
-  - src_20260522_eb90d179
-status: enriched
+  - "src_20260522_eb90d179"
+status: "enriched"
 title: "OCR: 泛产品设计-落地卡片-假设拆解"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
+  - "#scene/product-design"
+  - "#scene/skill-engineering"
 ---
-
-
 
 # OCR: 泛产品设计-落地卡片-假设拆解
 

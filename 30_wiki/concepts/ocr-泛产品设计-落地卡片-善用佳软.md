@@ -1,17 +1,23 @@
 ---
-id: ocr-泛产品设计-落地卡片-善用佳软
+id: "ocr-泛产品设计-落地卡片-善用佳软"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - "ai-saas"
 source_refs:
-  - src_20260522_7ddf8bf2
-status: enriched
+  - "src_20260522_7ddf8bf2"
+status: "enriched"
 title: "OCR: 泛产品设计-落地卡片-善用佳软"
-type: concept
+type: "concept"
 updated_at: 2026-05-22
+tags:
+  - "#boundary/not-for-beginners"
+  - "#boundary/not-for-creative"
+  - "#confidence/source-cited"
+  - "#scene/business-analysis"
+  - "#scene/hardware-debugging"
+  - "#scene/learning-methodology"
+  - "#scene/product-design"
 ---
-
-
 
 # OCR: 泛产品设计-落地卡片-善用佳软
 
