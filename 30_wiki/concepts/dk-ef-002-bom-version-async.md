@@ -6,7 +6,7 @@ dark_knowledge_type: hardware-failure
 source_person: 黄药师
 source_context: "多人交接的硬件项目——原理图/BOM/PCB/Gerber/固件散落在多台电脑，版本混乱"
 source_refs:
-  - 90_control/electronics-practice/failure-modes-electronics.md#E-FM-002
+  - 90_control/electronics-practice/failure-modes-electronics.md
 tags:
   - "#source_type/dark-knowledge"
   - "#domain/electronics"

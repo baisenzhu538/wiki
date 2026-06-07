@@ -6,7 +6,7 @@ dark_knowledge_type: hardware-failure
 source_person: 黄药师
 source_context: "原型阶段工程师手焊调通→量产机贴后参数无效——手工焊接中的飞线/替换元件/跳线未记录"
 source_refs:
-  - 90_control/electronics-practice/failure-modes-electronics.md#E-FM-003
+  - 90_control/electronics-practice/failure-modes-electronics.md
 tags:
   - "#source_type/dark-knowledge"
   - "#domain/electronics"

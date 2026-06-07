@@ -6,7 +6,7 @@ dark_knowledge_type: hardware-failure
 source_person: 黄药师
 source_context: "复杂信号链路调试（MCU→电平转换→595→MOSFET→LED→接收管→MUX→运放→MCU）——不知道哪一级出了问题"
 source_refs:
-  - 90_control/electronics-practice/failure-modes-electronics.md#E-FM-004
+  - 90_control/electronics-practice/failure-modes-electronics.md
 tags:
   - "#source_type/dark-knowledge"
   - "#domain/electronics"
