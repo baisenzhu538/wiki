@@ -18,7 +18,7 @@ related:
   - "yt-tool-okr-cycle"
   - "yt-management-goal-management"
   - "yt-management-scientific-meetings"
-contradicts:
+contradicts: ""
 query_triggers:
   - "新人融入"
   - "新人培训"
@@ -33,8 +33,9 @@ query_triggers:
 tags:
   - "#confidence/source-cited"
   - "#management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
+  - "#scene/skill-engineering/manifest-design"
   - "#team"
   - "#tool"
   - "#yitang"

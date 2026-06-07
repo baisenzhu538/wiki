@@ -1,6 +1,6 @@
 ---
 id: "yt-personal-product-design"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 3000
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "泛产品设计"
   - "产品思维"
@@ -30,8 +30,11 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/note-taking/live-field"
   - "#scene/product-design"
   - "#yitang"
 title: "泛产品设计"

@@ -1,6 +1,6 @@
 ---
 id: "yt-model-management-map"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2225
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "五阶成长路径"
   - "关联卡片"
@@ -32,11 +32,11 @@ tags:
   - "#confidence/source-cited"
   - "#core-model"
   - "#management"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/conversion-rate"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/skill-engineering/course-to-skill"
   - "#yitang"
 title: "管理修炼地图"
 type: "framework"

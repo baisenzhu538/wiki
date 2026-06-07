@@ -1,6 +1,6 @@
 ---
 id: "yt-concept-weapon-arsenal"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "master"
 estimated_tokens: 2800
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "超级武器库"
   - "武器库"
@@ -34,8 +34,9 @@ tags:
   - "#confidence/verified-by-case"
   - "#meta-concept"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/level-diagnosis"
   - "#scene/skill-engineering"
   - "#yitang"
   - "#框架设计"

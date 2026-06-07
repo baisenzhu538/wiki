@@ -1,13 +1,13 @@
 ---
 id: "yt-model-cognitive-upgrade-framework"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-15
 difficulty: "intermediate"
 domain:
   - "master"
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "认知升级框架"
   - "深度阅读方法论"
@@ -40,10 +40,11 @@ tags:
   - "#master"
   - "#reading"
   - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/knowledge-management/atomization"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/manifest-design"
 title: "认知升级十步框架：从「读书」到「安装认知补丁」"
 trust_level: "medium"
 type: "framework"

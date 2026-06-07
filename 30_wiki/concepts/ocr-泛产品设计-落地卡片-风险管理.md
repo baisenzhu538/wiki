@@ -16,7 +16,7 @@ tags:
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 泛产品设计-落地卡片-风险管理

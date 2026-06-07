@@ -12,7 +12,7 @@ updated_at: 2026-05-21
 tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/prompt-engineering"
 ---
 
 # Business Analysis

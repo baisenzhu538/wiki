@@ -52,6 +52,8 @@ tags:
   - "#management"
   - "#meeting"
   - "#productivity"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/skill-engineering"
   - "#tool"
   - "#yitang"

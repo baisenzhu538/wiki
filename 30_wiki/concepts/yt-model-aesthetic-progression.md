@@ -1,6 +1,6 @@
 ---
 id: "yt-model-aesthetic-progression"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2330
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "从看不见到大胆想象的进化路径"
   - "升级策略"
@@ -34,7 +34,7 @@ tags:
   - "#confidence/source-cited"
   - "#personal-growth"
   - "#scene/agent-infrastructure"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/product-design"
   - "#scene/skill-engineering"
   - "#yitang"

@@ -18,7 +18,7 @@ tags:
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/mental-models"
   - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03

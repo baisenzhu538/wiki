@@ -14,8 +14,10 @@ review_date: "2026-05-06"
 tags:
   - "#boundary/not-for-creative"
   - "#scene/business-analysis"
+  - "#scene/knowledge-management/case-library"
   - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
 ---
 

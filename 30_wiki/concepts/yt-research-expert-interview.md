@@ -1,6 +1,6 @@
 ---
 id: "yt-research-expert-interview"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-18
 difficulty: "intermediate"
@@ -35,8 +35,9 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#research"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
   - "#tool"
   - "#yitang"
 title: "专家访谈工具：2小时获取行业共识的标准流程"

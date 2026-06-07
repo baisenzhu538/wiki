@@ -15,7 +15,10 @@ tags:
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/level-diagnosis"
   - "#scene/skill-engineering"
 ---
 

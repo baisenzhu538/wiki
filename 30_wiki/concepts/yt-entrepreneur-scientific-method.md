@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-scientific-method"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1833
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "Y模型"
   - "科学创业方法"
@@ -30,7 +30,8 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/live-field"
   - "#yitang"
 title: "Y模型/科学方法"
 trust_level: "medium"

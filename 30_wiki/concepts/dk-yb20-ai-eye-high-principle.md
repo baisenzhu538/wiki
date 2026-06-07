@@ -15,13 +15,14 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/design"
-  - "#scene/skill-engineering"
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/skill-engineering/publish-deploy"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb10-theory-moat-designer"
-contradicts:
+contradicts: ""
 ---
 
 # AIGC眼高原则：审美先于技术

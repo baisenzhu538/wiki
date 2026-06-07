@@ -13,7 +13,8 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/skill-engineering"
 ---
 

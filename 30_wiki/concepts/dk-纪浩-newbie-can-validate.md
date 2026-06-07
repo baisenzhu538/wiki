@@ -17,6 +17,8 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/ai-collaboration"
+  - "#scene/ai-collaboration/problem-validation"
+  - "#scene/hardware-debugging/prototyping"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-07
 updated_at: 2026-06-07

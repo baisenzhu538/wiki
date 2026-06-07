@@ -14,7 +14,8 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 一堂-科学决策-深度-你的业务是一次抽样实验

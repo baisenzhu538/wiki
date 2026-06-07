@@ -14,6 +14,7 @@ tags:
   - "#confidence/source-cited"
   - "#scene/learning-methodology"
   - "#scene/product-design"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 泛产品设计-落地卡片-里程碑拆解

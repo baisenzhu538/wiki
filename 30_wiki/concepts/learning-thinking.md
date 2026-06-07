@@ -11,10 +11,12 @@ type: "concept"
 updated_at: 2026-05-22
 tags:
   - "#confidence/source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/ai-collaboration/pdca-execution"
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # Learning Thinking

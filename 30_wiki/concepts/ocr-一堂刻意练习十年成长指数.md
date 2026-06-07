@@ -15,9 +15,11 @@ tags:
   - "#confidence/source-cited"
   - "#scene/business-analysis"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 一堂刻意练习十年成长指数

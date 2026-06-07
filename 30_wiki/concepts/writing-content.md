@@ -11,8 +11,10 @@ type: "concept"
 updated_at: 2026-05-22
 tags:
   - "#confidence/source-cited"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/checklist-method"
 ---
 
 # Writing Content

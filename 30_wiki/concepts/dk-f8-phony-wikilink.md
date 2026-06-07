@@ -20,7 +20,7 @@ tags:
   - "#scene/knowledge-management"
   - "#scene/learning-methodology"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/manifest-design"
   - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31

@@ -32,7 +32,9 @@ tags:
   - "#confidence/verified-by-case"
   - "#scene/agent-infrastructure"
   - "#scene/business-analysis"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/live-field"
 title: "决策卫生五步法"
 type: "framework"
 updated_at: 2026-05-18

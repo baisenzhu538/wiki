@@ -15,12 +15,13 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb1-aigc-mvp-before-ps"
-contradicts:
+contradicts: ""
 ---
 
 # AI绘图工作流：先锁风格再开ControlNet

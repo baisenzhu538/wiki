@@ -1,6 +1,6 @@
 ---
 id: "yt-personal-ai-capability"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 3000
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "AI能力"
   - "双模型框架"
@@ -31,7 +31,9 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/human-ai-division"
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/ai-collaboration/workspace-design"
   - "#scene/business-analysis"
   - "#scene/learning-methodology"
   - "#scene/product-design"

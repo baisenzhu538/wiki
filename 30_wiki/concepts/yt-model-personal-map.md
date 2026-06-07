@@ -1,6 +1,6 @@
 ---
 id: "yt-model-personal-map"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1825
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "个人修炼地图"
   - "关联卡片"
@@ -31,9 +31,12 @@ tags:
   - "#personal-growth"
   - "#scene/business-analysis"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
   - "#scene/product-design"
+  - "#scene/skill-engineering/publish-deploy"
   - "#yitang"
 title: "个人修炼地图"
 type: "framework"

@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-lean-validation"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1851
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "低成本验证"
   - "MVP"
@@ -30,8 +30,9 @@ tags:
   - "#boundary/not-for-medical"
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/customer-acquisition"
   - "#scene/learning-methodology"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
   - "#yitang"
 title: "低成本验证/MVP"

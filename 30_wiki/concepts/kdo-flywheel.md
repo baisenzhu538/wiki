@@ -24,9 +24,9 @@ tags:
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/eval-testing"
 ---
 
 # KDO 飞轮 — 建造→使用→反思→实验

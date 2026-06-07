@@ -17,6 +17,7 @@ tags:
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/ai-collaboration"
+  - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology"
   - "#scene/note-taking"
   - "#scene/skill-engineering"

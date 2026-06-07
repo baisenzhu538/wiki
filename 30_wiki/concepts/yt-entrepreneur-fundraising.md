@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-fundraising"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1826
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "融资认知"
   - "创业融资"
@@ -29,7 +29,8 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/live-field"
   - "#yitang"
 title: "融资认知"
 trust_level: "medium"

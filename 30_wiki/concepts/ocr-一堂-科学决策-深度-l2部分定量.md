@@ -13,7 +13,9 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/checklist-method"
 ---
 
 # OCR: 一堂-科学决策-深度-L2部分定量

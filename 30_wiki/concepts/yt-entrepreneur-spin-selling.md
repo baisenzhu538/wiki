@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-spin-selling"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2236
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "SPIN四步法"
   - "SPIN销售法"
@@ -28,7 +28,8 @@ tags:
   - "#entrepreneurship"
   - "#sales"
   - "#scene/business-analysis"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
   - "#spin-selling"
   - "#yitang"

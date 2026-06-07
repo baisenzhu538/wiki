@@ -32,7 +32,10 @@ tags:
   - "#boundary/single-use-only"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
+  - "#scene/skill-engineering/manifest-design"
 title: "认知偏差快速诊断清单"
 type: "tool"
 updated_at: 2026-05-18

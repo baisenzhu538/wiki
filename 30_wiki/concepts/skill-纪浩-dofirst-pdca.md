@@ -15,9 +15,11 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/ai-collaboration"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/pdca-execution"
+  - "#scene/ai-collaboration/problem-validation"
   - "#scene/learning-methodology"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/course-to-skill"
+  - "#scene/skill-engineering/publish-deploy"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:

@@ -14,7 +14,7 @@ tags:
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
   - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/note-taking/checklist-method"
 ---
 
 # Meta Prompt Eng

@@ -15,12 +15,13 @@ tags:
   - "#confidence/source-cited"
   - "#domain/design"
   - "#scene/business-analysis"
+  - "#scene/note-taking/checklist-method"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb7-design-demand-80-10-10"
-contradicts:
+contradicts: ""
 ---
 
 # 解决方案驱动视觉设计，非门店风格导向

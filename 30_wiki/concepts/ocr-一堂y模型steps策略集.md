@@ -13,9 +13,11 @@ tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
-  - "#scene/learning-methodology"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 一堂Y模型steps策略集

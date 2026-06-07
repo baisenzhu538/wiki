@@ -17,7 +17,8 @@ tags:
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/skill-engineering/eval-testing"
   - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31

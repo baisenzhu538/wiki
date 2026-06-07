@@ -13,9 +13,11 @@ tags:
   - "#boundary/not-for-creative"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/ai-collaboration/pdca-execution"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/live-field"
 ---
 
 # OCR: 一堂Y模型实操工作流

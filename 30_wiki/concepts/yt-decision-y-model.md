@@ -1,6 +1,6 @@
 ---
 id: "yt-decision-y-model"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-17
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2100
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "科学决策"
   - "Y模型"
@@ -41,9 +41,12 @@ tags:
   - "#confidence/verified-by-case"
   - "#decision-making"
   - "#framework"
+  - "#scene/ai-collaboration/human-ai-division"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/note-taking/live-field"
   - "#scene/product-design"
   - "#scene/skill-engineering"
   - "#yitang"

@@ -18,8 +18,10 @@ tags:
   - "#domain/ai-collaboration"
   - "#domain/yitang"
   - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
-  - "#scene/skill-engineering"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/skill-engineering/course-to-skill"
+  - "#scene/skill-engineering/eval-testing"
+  - "#scene/skill-engineering/publish-deploy"
   - "#type/case"
 created_at: 2026-06-07
 updated_at: 2026-06-07

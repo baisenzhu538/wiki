@@ -13,9 +13,11 @@ tags:
   - "#boundary/not-for-medical"
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
+  - "#scene/ai-collaboration/human-ai-division"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/skill-engineering"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 一堂-个人修炼-双三角模型

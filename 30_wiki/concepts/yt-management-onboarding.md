@@ -34,7 +34,7 @@ query_triggers:
 tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
   - "#yitang"
 ---

@@ -17,8 +17,9 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/draft"
   - "#confidence/source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
+  - "#scene/ai-collaboration/problem-validation"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
   - "#scene/skill-engineering"
 ---

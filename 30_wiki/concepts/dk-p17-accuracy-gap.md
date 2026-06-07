@@ -16,7 +16,7 @@ tags:
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/learning-methodology"
   - "#source_type/error"
 created_at: 2026-06-03

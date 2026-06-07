@@ -14,9 +14,11 @@ tags:
   - "#boundary/not-for-creative"
   - "#confidence/source-cited"
   - "#scene/business-analysis"
-  - "#scene/hardware-debugging"
-  - "#scene/learning-methodology"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/note-taking/checklist-method"
   - "#scene/product-design"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 泛产品设计-落地卡片-善用佳软

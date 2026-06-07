@@ -14,7 +14,7 @@ tags:
   - "#confidence/source-cited"
   - "#scene/agent-infrastructure"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
 ---
 

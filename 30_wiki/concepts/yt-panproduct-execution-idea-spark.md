@@ -38,6 +38,8 @@ tags:
   - "#creativity"
   - "#execution"
   - "#pan-product-design"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/product-design"
   - "#yitang"
 title: "泛产品设计·落地卡片：灵感闪现"

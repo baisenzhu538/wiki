@@ -36,9 +36,10 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
   - "#yitang"
 ---
 

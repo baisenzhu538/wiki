@@ -9,7 +9,7 @@ domain:
   - "yitang"
 estimated_tokens: 2800
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "管理工具"
   - "管理者工具箱"
@@ -53,8 +53,9 @@ tags:
   - "#management"
   - "#scene/business-analysis"
   - "#scene/knowledge-management"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
-  - "#scene/product-design"
+  - "#scene/product-design/design-freeze"
   - "#scene/skill-engineering"
   - "#toolkit"
   - "#yitang"

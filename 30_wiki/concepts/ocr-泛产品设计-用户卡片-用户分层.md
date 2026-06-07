@@ -12,6 +12,9 @@ updated_at: 2026-05-22
 tags:
   - "#confidence/source-cited"
   - "#scene/business-analysis"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
   - "#scene/product-design"
   - "#scene/skill-engineering"
 ---

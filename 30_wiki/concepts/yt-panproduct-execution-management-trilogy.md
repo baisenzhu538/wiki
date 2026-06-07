@@ -39,7 +39,7 @@ tags:
   - "#management"
   - "#pan-product-design"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
   - "#scene/product-design"
   - "#scene/skill-engineering"

@@ -14,6 +14,7 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/learning-methodology"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
@@ -21,7 +22,7 @@ updated_at: 2026-06-04
 related:
   - "dk-yb12-ai-image-analysis-replace-training"
   - "dk-yb15-reverse-image-description"
-contradicts:
+contradicts: ""
 ---
 
 # AI生图：用多图共性替代语言描述

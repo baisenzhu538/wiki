@@ -1,6 +1,6 @@
 ---
 id: "yt-model-ipo-complete-checklist"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2614
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "IPO 科学学习完整清单"
   - "关联卡片"
@@ -29,10 +29,13 @@ tags:
   - "#catalog"
   - "#confidence/source-cited"
   - "#learning-model"
-  - "#scene/business-analysis"
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/business-analysis/conversion-rate"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/level-diagnosis"
   - "#yitang"
 title: "IPO 科学学习完整清单"
 type: "framework"

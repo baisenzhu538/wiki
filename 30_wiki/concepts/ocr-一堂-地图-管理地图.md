@@ -15,9 +15,9 @@ tags:
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 一堂-地图-管理地图

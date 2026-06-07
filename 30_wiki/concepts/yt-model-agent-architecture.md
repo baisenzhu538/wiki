@@ -1,13 +1,13 @@
 ---
 id: "yt-model-agent-architecture"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-15
 difficulty: "intermediate"
 domain:
   - "ai-models"
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "PEAS框架"
   - "智能体架构"
@@ -37,8 +37,11 @@ tags:
   - "#confidence/source-cited"
   - "#decision-making"
   - "#mental-models"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
+  - "#scene/ai-collaboration/human-ai-division"
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
   - "#systems-thinking"
 title: "智能体架构：PEAS与五层Agent模型"

@@ -16,6 +16,7 @@ tags:
   - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology"
   - "#scene/skill-engineering"
   - "#source_type/error"

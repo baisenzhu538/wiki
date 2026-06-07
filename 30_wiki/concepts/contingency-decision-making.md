@@ -4,7 +4,7 @@ type: "concept"
 status: "draft"
 source_refs:
   - "src_20260606_cde17edd"
-component_of:
+component_of: ""
 related:
   - "ai-collaboration-mindset-shift"
   - "ai-landing-scene-selection"
@@ -17,6 +17,8 @@ reviewed_by: ""
 tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/skill-engineering/manifest-design"
 ---
 
 # 偶然性与决策：承认"我不知道"比虚假确定性更明智

@@ -19,7 +19,7 @@ related:
   - "yt-management-scientific-meetings"
   - "yt-management-project-management"
   - "yt-panproduct-execution-risk-management"
-contradicts:
+contradicts: ""
 query_triggers:
   - "项目健康度检查"
   - "项目风险评估"
@@ -38,7 +38,10 @@ tags:
   - "#confidence/source-cited"
   - "#management"
   - "#project"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
+  - "#scene/skill-engineering/manifest-design"
   - "#tool"
   - "#yitang"
 trust_level: "medium"

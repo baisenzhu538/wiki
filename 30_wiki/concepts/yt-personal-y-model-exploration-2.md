@@ -1,6 +1,6 @@
 ---
 id: "yt-personal-y-model-exploration-2"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1885
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "牵\"的深层含义"
   - "12345口诀"
@@ -31,8 +31,8 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/live-field"
   - "#scientific-method"
   - "#y-model"
   - "#yitang"

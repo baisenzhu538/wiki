@@ -14,11 +14,13 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/level-diagnosis"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 一堂泛产品设计-十年修炼爬山地图

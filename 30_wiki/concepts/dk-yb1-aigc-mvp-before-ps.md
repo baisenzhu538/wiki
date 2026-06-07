@@ -16,14 +16,15 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/design"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/hardware-debugging/bom-management"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb5-style-asset-archive"
   - "dk-yb8-file-naming-eight-elements"
-contradicts:
+contradicts: ""
 ---
 
 # 设计师AIGC工作流：先跑MVP再开PS

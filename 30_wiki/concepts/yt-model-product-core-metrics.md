@@ -1,6 +1,6 @@
 ---
 id: "yt-model-product-core-metrics"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2352
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "与产品内核的关系"
   - "产品内核十大典型指标"
@@ -28,8 +28,11 @@ tags:
   - "#entrepreneurship"
   - "#product-metrics"
   - "#scene/agent-infrastructure"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/hardware-debugging/prototyping"
   - "#scene/learning-methodology"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
   - "#unit-model"
   - "#yitang"

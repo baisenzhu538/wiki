@@ -13,7 +13,8 @@ tags:
   - "#domain/electronics"
   - "#process/bom-management"
   - "#process/version-control"
-  - "#scene/hardware-debugging"
+  - "#scene/hardware-debugging/bom-management"
+  - "#scene/hardware-debugging/prototyping"
   - "#scene/skill-engineering"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-07

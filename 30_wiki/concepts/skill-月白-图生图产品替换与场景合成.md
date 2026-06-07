@@ -3,11 +3,11 @@ id: "skill-月白-图生图产品替换与场景合成"
 title: "技能：图生图产品替换与场景合成"
 type: "skill"
 status: "draft"
-domain:
+domain: ""
 source_person: "月白"
 source_context: "文创案例"
-source_refs:
-wiki_refs:
+source_refs: ""
+wiki_refs: ""
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -16,9 +16,11 @@ tags:
   - "#boundary/not-for-creative"
   - "#confidence/draft"
   - "#domain/scene-analysis"
-tools_required:
-prerequisite_skills:
-related:
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/learning-methodology/feedback-loop"
+tools_required: ""
+prerequisite_skills: ""
+related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 ---

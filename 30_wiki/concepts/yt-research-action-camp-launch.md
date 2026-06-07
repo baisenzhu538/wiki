@@ -20,8 +20,9 @@ tags:
   - "#confidence/verified-by-case"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
 ---
 

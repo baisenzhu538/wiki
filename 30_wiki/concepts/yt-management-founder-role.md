@@ -34,6 +34,7 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#scene/learning-methodology"
+  - "#scene/note-taking/level-diagnosis"
   - "#scene/product-design"
   - "#scene/skill-engineering"
   - "#yitang"

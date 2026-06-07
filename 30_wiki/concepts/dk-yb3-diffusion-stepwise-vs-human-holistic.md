@@ -14,14 +14,14 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/design"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/learning-methodology"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb2-llm-muddy-clear-muddy"
-contradicts:
+contradicts: ""
 ---
 
 # AI生图"抽卡"本质：逐步拆解 vs 人类整体构思

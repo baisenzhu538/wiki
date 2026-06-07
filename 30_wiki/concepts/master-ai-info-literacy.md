@@ -27,8 +27,12 @@ tags:
   - "#boundary/not-for-medical"
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/ai-collaboration/workspace-design"
   - "#scene/knowledge-management"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/skill-engineering/manifest-design"
 title: "AI时代信息素养框架"
 type: "framework"
 updated_at: 2026-05-18

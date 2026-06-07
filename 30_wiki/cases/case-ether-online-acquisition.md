@@ -30,14 +30,15 @@ tags:
   - "#problem/网上获客"
   - "#problem/自动化跟进"
   - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/skill-engineering"
   - "#source/Truman"
-related_skills:
+related_skills: ""
 related_concepts:
   - "规模经济"
-related_cases:
+related_cases: ""
 created_at: 2026-06-06
 updated_at: 2026-06-06
 ---

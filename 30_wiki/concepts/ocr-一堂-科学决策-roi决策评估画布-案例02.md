@@ -16,6 +16,8 @@ tags:
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
   - "#scene/learning-methodology"
+  - "#scene/note-taking/live-field"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 一堂-科学决策-ROI决策评估画布-案例02

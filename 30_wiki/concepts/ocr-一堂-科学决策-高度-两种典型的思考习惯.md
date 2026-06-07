@@ -15,7 +15,8 @@ tags:
   - "#confidence/verified-by-case"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
-  - "#scene/knowledge-management"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/mental-models"
 ---
 
 # OCR: 一堂-科学决策-高度-两种典型的思考习惯

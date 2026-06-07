@@ -13,7 +13,7 @@ tags:
   - "#boundary/not-for-creative"
   - "#confidence/source-cited"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
 ---
 

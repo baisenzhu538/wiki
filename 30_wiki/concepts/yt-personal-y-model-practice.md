@@ -1,6 +1,6 @@
 ---
 id: "yt-personal-y-model-practice"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2024
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "Y模型四最"
   - "Y模型实操"
@@ -30,7 +30,7 @@ tags:
   - "#meta-skill"
   - "#scene/knowledge-management"
   - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/note-taking/live-field"
   - "#scientific-method"
   - "#y-model"
   - "#yitang"

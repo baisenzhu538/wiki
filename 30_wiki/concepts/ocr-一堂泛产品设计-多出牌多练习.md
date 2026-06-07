@@ -15,10 +15,12 @@ tags:
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 一堂泛产品设计-多出牌多练习

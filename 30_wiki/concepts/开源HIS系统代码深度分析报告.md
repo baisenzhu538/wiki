@@ -14,7 +14,8 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#scene/business-analysis"
-  - "#scene/note-taking"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # 开源HIS系统代码深度分析报告

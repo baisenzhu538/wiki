@@ -20,9 +20,10 @@ source_refs: ""
 status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/manifest-design"
 title: "反脆弱决策检查清单"
 type: "tool"
 updated_at: 2026-05-18

@@ -1,6 +1,6 @@
 ---
 id: "yt-unit-model-dynamic"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-24
 difficulty: "advanced"
@@ -38,8 +38,10 @@ tags:
   - "#dynamic-modeling"
   - "#entrepreneur"
   - "#scaling"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/level-diagnosis"
   - "#tool"
   - "#unit-model"
   - "#yitang"

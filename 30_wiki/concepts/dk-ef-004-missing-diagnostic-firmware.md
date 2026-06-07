@@ -14,7 +14,8 @@ tags:
   - "#firmware/diagnostics"
   - "#hardware/debugging"
   - "#scene/business-analysis"
-  - "#scene/hardware-debugging"
+  - "#scene/hardware-debugging/diagnostics"
+  - "#scene/hardware-debugging/level-shift"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-07
 updated_at: 2026-06-07

@@ -18,7 +18,7 @@ tags:
   - "#method/evaluation-method"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
   - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03

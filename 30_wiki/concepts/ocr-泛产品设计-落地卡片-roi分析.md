@@ -15,7 +15,7 @@ tags:
   - "#scene/business-analysis"
   - "#scene/learning-methodology"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 泛产品设计-落地卡片-ROI分析

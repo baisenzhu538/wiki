@@ -18,7 +18,7 @@ tags:
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
   - "#scene/skill-engineering"
   - "#source_type/error"

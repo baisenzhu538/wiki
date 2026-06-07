@@ -38,7 +38,7 @@ tags:
   - "#framework"
   - "#personal"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/deliberate-practice"
   - "#scene/note-taking"
   - "#scene/product-design"
   - "#scene/skill-engineering"

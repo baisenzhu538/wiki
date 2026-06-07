@@ -16,7 +16,8 @@ tags:
   - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/skill-engineering/eval-testing"
   - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31

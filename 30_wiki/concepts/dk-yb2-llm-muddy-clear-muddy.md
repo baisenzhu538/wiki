@@ -14,6 +14,7 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/learning-methodology"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
@@ -21,7 +22,7 @@ updated_at: 2026-06-04
 related:
   - "dk-yb3-diffusion-stepwise-vs-human-holistic"
   - "master-knowledge-compound"
-contradicts:
+contradicts: ""
 ---
 
 # 大模型训练本质：浑水→清水→浑水的双向转换

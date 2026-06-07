@@ -13,7 +13,9 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/skill-engineering"
 ---
 

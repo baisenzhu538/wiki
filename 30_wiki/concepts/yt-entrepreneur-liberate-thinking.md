@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-liberate-thinking"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1873
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "解放思想"
   - "创业认知边界"
@@ -31,8 +31,8 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/live-field"
   - "#yitang"
 title: "解放思想"
 trust_level: "medium"

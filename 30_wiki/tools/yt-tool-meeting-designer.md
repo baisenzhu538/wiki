@@ -9,7 +9,7 @@ language: "zh-CN"
 version: 1
 difficulty: "foundational"
 confidence: 0.85
-prerequisites:
+prerequisites: ""
 component_of:
   - "yt-management-toolkit-overview"
 related:
@@ -19,7 +19,7 @@ related:
   - "yt-management-strategy-meeting"
   - "yt-decision-y-model"
   - "master-decision-hygiene"
-contradicts:
+contradicts: ""
 query_triggers:
   - "会议设计"
   - "会议议程模板"
@@ -34,6 +34,8 @@ query_triggers:
 tags:
   - "#confidence/source-cited"
   - "#management"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#tool"
   - "#yitang"
 trust_level: "medium"

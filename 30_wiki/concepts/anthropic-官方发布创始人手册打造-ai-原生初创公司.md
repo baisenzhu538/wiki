@@ -1,13 +1,13 @@
 ---
 id: "anthropic-官方发布创始人手册打造-ai-原生初创公司"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-19
 difficulty: "foundational"
 domain:
   - "entrepreneur"
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "AI 原生创业"
   - "创业四阶段"
@@ -31,9 +31,13 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#entrepreneurship"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
+  - "#scene/ai-collaboration/human-ai-division"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
+  - "#scene/skill-engineering/publish-deploy"
   - "#startup"
 title: "AI 原生创业四阶段模型（Anthropic 创始人手册）"
 type: "concept"

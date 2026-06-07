@@ -13,7 +13,8 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
-  - "#scene/skill-engineering"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 婚礼规划

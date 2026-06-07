@@ -14,12 +14,13 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
+  - "#scene/ai-collaboration/workspace-design"
   - "#scene/business-analysis"
   - "#scene/hardware-debugging"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/product-design/design-freeze"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 泛产品设计的应用场景示意图

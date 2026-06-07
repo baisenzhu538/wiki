@@ -15,9 +15,11 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#scene/agent-infrastructure"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/live-field"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 一堂五步法-产品内核画布

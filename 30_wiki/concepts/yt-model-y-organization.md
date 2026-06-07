@@ -1,6 +1,6 @@
 ---
 id: "yt-model-y-organization"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1635
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "Y 型创业模型"
   - "Y 型结构"
@@ -29,6 +29,8 @@ tags:
   - "#confidence/source-cited"
   - "#core-model"
   - "#methodology"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/level-diagnosis"
   - "#scene/skill-engineering"
   - "#yitang"
 title: "Y 型创业模型"

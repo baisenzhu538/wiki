@@ -16,8 +16,10 @@ tags:
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
   - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/product-design"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/note-taking/live-field"
+  - "#scene/product-design/design-freeze"
   - "#scene/skill-engineering"
 ---
 

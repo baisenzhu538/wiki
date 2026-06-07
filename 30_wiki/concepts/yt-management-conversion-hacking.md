@@ -33,9 +33,10 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#confidence/verified-by-test"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/conversion-rate"
   - "#scene/learning-methodology"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/course-to-skill"
+  - "#scene/skill-engineering/eval-testing"
   - "#yitang"
 ---
 

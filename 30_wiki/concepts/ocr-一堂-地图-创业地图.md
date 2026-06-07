@@ -18,7 +18,7 @@ tags:
   - "#scene/knowledge-management"
   - "#scene/learning-methodology"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 一堂-地图-创业地图

@@ -13,13 +13,15 @@ tags:
   - "#boundary/not-for-beginners"
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/pdca-execution"
   - "#scene/business-analysis"
+  - "#scene/hardware-debugging/prototyping"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 泛产品设计落地工具篇指南

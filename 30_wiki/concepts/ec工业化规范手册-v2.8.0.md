@@ -19,8 +19,10 @@ tags:
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
   - "#scene/knowledge-management"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # EC工业化规范手册 v2.8.0

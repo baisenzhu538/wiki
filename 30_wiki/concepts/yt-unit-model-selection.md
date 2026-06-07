@@ -1,6 +1,6 @@
 ---
 id: "yt-unit-model-selection"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-24
 difficulty: "intermediate"
@@ -37,10 +37,10 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#entrepreneur"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
   - "#tool"
   - "#unit-model"

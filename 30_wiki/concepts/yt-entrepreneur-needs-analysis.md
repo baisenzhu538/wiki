@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-needs-analysis"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 3000
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "需求分析"
   - "JTBD"
@@ -31,8 +31,14 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
+  - "#scene/ai-collaboration/problem-validation"
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/live-field"
   - "#scene/product-design"
   - "#scene/skill-engineering"
   - "#yitang"

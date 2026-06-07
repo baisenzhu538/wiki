@@ -14,9 +14,12 @@ tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
   - "#scene/product-design"
 ---
 

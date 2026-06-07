@@ -1,6 +1,6 @@
 ---
 id: "yt-personal-verbatim-script"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 3000
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "逐字稿"
   - "演讲稿写作"
@@ -28,8 +28,8 @@ source_refs:
 status: "enriched"
 tags:
   - "#confidence/source-cited"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/note-taking/checklist-method"
   - "#scene/skill-engineering"
   - "#yitang"
 title: "逐字稿"

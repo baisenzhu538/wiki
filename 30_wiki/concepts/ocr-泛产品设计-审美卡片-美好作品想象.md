@@ -14,7 +14,8 @@ tags:
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/product-design"
   - "#scene/skill-engineering"
 ---

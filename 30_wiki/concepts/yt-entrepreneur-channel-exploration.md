@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-channel-exploration"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1822
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "渠道探索"
   - "获客渠道"
@@ -31,9 +31,10 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#scene/agent-infrastructure"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/business-analysis/customer-acquisition"
   - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
   - "#yitang"
 title: "渠道探索"

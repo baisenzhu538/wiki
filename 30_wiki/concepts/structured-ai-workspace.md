@@ -19,9 +19,9 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/skill-engineering"
+  - "#scene/ai-collaboration/workspace-design"
+  - "#scene/knowledge-management/atomization"
+  - "#scene/skill-engineering/course-to-skill"
 ---
 
 # 结构化AI工作空间搭建

@@ -14,12 +14,13 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb4-nano-banana-style-reproduction"
-contradicts:
+contradicts: ""
 ---
 
 # Midjourney中文文字修复极简提示词

@@ -1,19 +1,7 @@
 ---
-title: "单元模型基准值设定器：科学类比与三点预测"
-date: "2026-05-24"
-type: "tool"
-status: "enriched"
-domain: "decision-science"
-source_refs:
-author: "一堂科学决策课程"
-component_of: "yt-decision-full-process"
-related: ""
-id: "yt-tool-unit-model-benchmark - "yt-unit-model-overview" - "yt-unit-model-ladder" - "yt-unit-model-construction" - "yt-unit-model-dynamic" - "yt-management-scientific-decision" - "master-cognitive-bias-checklist" - "master-systems-thinking" - "yt-decision-review""
 tags:
-  - "#boundary/requires-human-judgment"
-  - "#confidence/verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/skill-engineering"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/learning-methodology/feedback-loop"
 ---
 
 ## Reusable Knowledge

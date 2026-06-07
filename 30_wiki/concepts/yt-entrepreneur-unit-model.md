@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-unit-model"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1868
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "单元模型"
   - "Unit Economics"
@@ -29,8 +29,9 @@ status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/customer-acquisition"
   - "#scene/learning-methodology"
+  - "#scene/note-taking/live-field"
   - "#yitang"
 title: "单元模型"
 trust_level: "medium"

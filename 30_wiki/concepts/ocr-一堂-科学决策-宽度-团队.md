@@ -13,7 +13,7 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/customer-acquisition"
   - "#scene/note-taking"
 ---
 

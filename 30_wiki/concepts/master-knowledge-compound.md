@@ -26,9 +26,9 @@ source_refs: ""
 status: "enriched"
 tags:
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 title: "知识复利：IPO+萃取+管理的上位整合"
 type: "concept"
 updated_at: 2026-05-18

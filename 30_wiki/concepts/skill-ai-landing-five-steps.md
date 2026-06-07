@@ -3,11 +3,11 @@ id: "skill-ai-landing-five-steps"
 title: "技能：AI落地五步执行清单"
 type: "skill"
 status: "draft"
-domain:
+domain: ""
 source_person: "马易"
 source_context: "AI俱乐部-AI落地场景识别分享，2026-06"
-source_refs:
-wiki_refs:
+source_refs: ""
+wiki_refs: ""
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -20,11 +20,12 @@ tags:
   - "#method/checklist"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
   - "#skill-type/execution"
-tools_required:
-prerequisite_skills:
-related:
+tools_required: ""
+prerequisite_skills: ""
+related: ""
 created_at: 2026-06-06
 updated_at: 2026-06-06
 ---

@@ -13,6 +13,7 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 一堂-科学决策-稀缺机会窗口

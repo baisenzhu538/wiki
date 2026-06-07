@@ -12,6 +12,7 @@ tags:
   - "#method/quality"
   - "#scene/ai-collaboration"
   - "#scene/knowledge-management"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/skill-engineering"
 related:
   - "kdo-flywheel"

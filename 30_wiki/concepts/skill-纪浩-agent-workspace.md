@@ -17,11 +17,12 @@ tags:
   - "#confidence/source-cited"
   - "#domain/ai-collaboration"
   - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/ai-collaboration/pdca-execution"
+  - "#scene/ai-collaboration/workspace-design"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/manifest-design"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:

@@ -20,6 +20,7 @@ tags:
   - "#scene/business-analysis"
   - "#scene/learning-methodology"
   - "#scene/note-taking"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # HIS系统深度调研

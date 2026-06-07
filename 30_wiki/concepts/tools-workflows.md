@@ -14,8 +14,9 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/knowledge-management"
+  - "#scene/note-taking/checklist-method"
   - "#scene/skill-engineering"
 ---
 

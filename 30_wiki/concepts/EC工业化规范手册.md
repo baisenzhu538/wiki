@@ -15,7 +15,7 @@ tags:
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
   - "#scene/knowledge-management"
-  - "#scene/product-design"
+  - "#scene/product-design/design-freeze"
 ---
 
 # EC工业化规范手册

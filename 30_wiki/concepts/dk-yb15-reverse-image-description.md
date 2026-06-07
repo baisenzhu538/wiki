@@ -15,13 +15,13 @@ tags:
   - "#confidence/source-cited"
   - "#domain/design"
   - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
+  - "#scene/knowledge-management/tagging"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb14-multi-image-commonality"
-contradicts:
+contradicts: ""
 ---
 
 # AI逆向反推图片描述法

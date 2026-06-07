@@ -16,6 +16,7 @@ tags:
   - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/agent-infrastructure/skill-registry"
   - "#scene/ai-collaboration"
   - "#scene/learning-methodology"
   - "#source_type/error"

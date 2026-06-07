@@ -16,6 +16,7 @@ tags:
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/ai-collaboration"
+  - "#scene/hardware-debugging/prototyping"
   - "#scene/learning-methodology"
   - "#scene/note-taking"
   - "#source_type/error"

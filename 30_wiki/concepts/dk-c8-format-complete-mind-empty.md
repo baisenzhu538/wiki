@@ -17,7 +17,9 @@ tags:
   - "#confidence/verified-by-case"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
-  - "#scene/knowledge-management"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/skill-engineering/manifest-design"
   - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31

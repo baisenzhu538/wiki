@@ -13,7 +13,9 @@ tags:
   - "#confidence/source-cited"
   - "#scene/agent-infrastructure"
   - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/skill-engineering/eval-testing"
 ---
 
 # OCR: screenshot1

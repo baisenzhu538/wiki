@@ -16,7 +16,7 @@ component_of:
   - "yt-model-personal-pitch-toolkit"
 related:
   - "yt-concept-weapon-arsenal"
-contradicts:
+contradicts: ""
 query_triggers:
   - "故事化"
   - "讲故事"
@@ -31,6 +31,7 @@ tags:
   - "#confidence/verified-by-case"
   - "#pitch"
   - "#scene/business-analysis"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/skill-engineering"
   - "#yitang"
   - "#具象化"

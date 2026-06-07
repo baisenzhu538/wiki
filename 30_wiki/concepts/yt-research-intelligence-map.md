@@ -1,6 +1,6 @@
 ---
 id: "yt-research-intelligence-map"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-18
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2800
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "情报获取"
   - "调研渠道"
@@ -36,7 +36,9 @@ tags:
   - "#research"
   - "#scene/business-analysis"
   - "#scene/hardware-debugging"
-  - "#scene/skill-engineering"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/live-field"
+  - "#scene/skill-engineering/publish-deploy"
   - "#yitang"
 title: "情报获取全景地图：13+渠道穷尽手段"
 trust_level: "medium"

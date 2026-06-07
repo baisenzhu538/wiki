@@ -18,8 +18,9 @@ tags:
   - "#method/evaluation-method"
   - "#scene/agent-infrastructure"
   - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
+  - "#scene/skill-engineering/eval-testing"
   - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31

@@ -10,7 +10,7 @@ domain:
   - "yitang"
 estimated_tokens: 2800
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "泛产品设计"
   - "泛产品方法论"
@@ -42,9 +42,13 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/level-diagnosis"
   - "#scene/product-design"
   - "一堂"
   - "产品设计"

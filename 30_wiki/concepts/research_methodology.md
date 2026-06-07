@@ -11,7 +11,7 @@ updated_at: 2026-05-03
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/human-ai-division"
   - "#scene/business-analysis"
 ---
 

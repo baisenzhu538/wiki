@@ -5,14 +5,15 @@ domain:
   - "['master']"
 review_date: 2026-05-06
 reviewed_by: "黄药师"
-source_refs:
+source_refs: ""
 status: "enriched"
 tags:
   - "#agentic-web"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
+  - "#scene/hardware-debugging/prototyping"
   - "#scene/knowledge-management"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
   - "#skill"
   - "#tinyfish"
   - "#tool"

@@ -14,8 +14,9 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
-  - "#scene/hardware-debugging"
+  - "#scene/hardware-debugging/prototyping"
   - "#scene/product-design"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 泛产品设计-落地卡片-努力仿真

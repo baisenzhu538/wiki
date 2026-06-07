@@ -1,6 +1,6 @@
 ---
 id: "yt-unit-model-benchmark"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-24
 difficulty: "intermediate"
@@ -41,8 +41,10 @@ tags:
   - "#confidence/source-cited"
   - "#entrepreneur"
   - "#forecasting"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/level-diagnosis"
   - "#scene/skill-engineering"
   - "#tool"
   - "#unit-model"

@@ -9,7 +9,7 @@ language: "zh-CN"
 version: 1
 difficulty: "foundational"
 confidence: 0.85
-prerequisites:
+prerequisites: ""
 component_of:
   - "yt-management-toolkit-overview"
 related:
@@ -19,7 +19,7 @@ related:
   - "yt-management-business-formula"
   - "yt-decision-y-model"
   - "yt-concept-weapon-arsenal"
-contradicts:
+contradicts: ""
 query_triggers:
   - "OKR 制定"
   - "OKR 复盘"
@@ -35,9 +35,9 @@ tags:
   - "#boundary/not-for-creative"
   - "#confidence/source-cited"
   - "#management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
   - "#tool"
   - "#yitang"
 trust_level: "medium"

@@ -14,6 +14,7 @@ tags:
   - "#boundary/single-use-only"
   - "#confidence/source-cited"
   - "#scene/business-analysis"
+  - "#scene/hardware-debugging/prototyping"
   - "#scene/learning-methodology"
   - "#scene/product-design"
   - "#scene/skill-engineering"

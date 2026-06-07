@@ -15,7 +15,7 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/design"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/conversion-rate"
   - "#scene/skill-engineering"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
@@ -23,7 +23,7 @@ updated_at: 2026-06-04
 related:
   - "dk-yb16-ecommerce-product-image-vs-lucky-draw"
   - "dk-yb19-visual-strategy-price-match"
-contradicts:
+contradicts: ""
 ---
 
 # 产品场景化拍摄：从商品到生活方式的升维

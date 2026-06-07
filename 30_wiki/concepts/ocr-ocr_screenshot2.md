@@ -12,7 +12,8 @@ updated_at: 2026-05-22
 tags:
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
   - "#scene/skill-engineering"
 ---

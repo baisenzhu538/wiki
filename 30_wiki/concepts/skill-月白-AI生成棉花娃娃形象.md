@@ -3,11 +3,11 @@ id: "skill-月白-AI生成棉花娃娃形象"
 title: "技能：AI生成棉花娃娃形象"
 type: "skill"
 status: "draft"
-domain:
+domain: ""
 source_person: "月白"
 source_context: "文创案例"
-source_refs:
-wiki_refs:
+source_refs: ""
+wiki_refs: ""
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -15,11 +15,14 @@ definition_of_done:
 tags:
   - "#confidence/draft"
   - "#domain/general"
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/product-design"
   - "#scene/skill-engineering"
-tools_required:
-prerequisite_skills:
-related:
+tools_required: ""
+prerequisite_skills: ""
+related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 ---

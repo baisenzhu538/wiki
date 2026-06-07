@@ -14,8 +14,12 @@ tags:
   - "#boundary/not-for-creative"
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/skill-engineering"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/live-field"
+  - "#scene/skill-engineering/eval-testing"
+  - "#scene/skill-engineering/manifest-design"
 ---
 
 # OCR: Truman的个人成长五步法

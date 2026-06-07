@@ -1,6 +1,6 @@
 ---
 id: "yt-model-deep-review-iceberg"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2454
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "与解放思想层级的关系"
   - "五层冰山"
@@ -28,8 +28,9 @@ tags:
   - "#deep-review"
   - "#deliberate-practice"
   - "#personal-growth"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/level-diagnosis"
   - "#yitang"
 title: "深度复盘冰山图：从主观感受到能力建设的五层穿透"
 type: "framework"

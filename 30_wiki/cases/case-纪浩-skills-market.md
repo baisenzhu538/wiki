@@ -17,10 +17,14 @@ tags:
   - "#confidence/verified-by-case"
   - "#domain/agent-infrastructure"
   - "#domain/yitang"
-  - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration"
+  - "#scene/agent-infrastructure/discovery-chain"
+  - "#scene/agent-infrastructure/skill-registry"
+  - "#scene/ai-collaboration/problem-validation"
+  - "#scene/ai-collaboration/skill-market"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/manifest-design"
+  - "#scene/skill-engineering/publish-deploy"
   - "#type/case"
 created_at: 2026-06-07
 updated_at: 2026-06-07

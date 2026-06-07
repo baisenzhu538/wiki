@@ -19,9 +19,10 @@ tags:
   - "#domain/ai-collaboration"
   - "#domain/yitang"
   - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/conversion-rate"
   - "#scene/learning-methodology"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/course-to-skill"
+  - "#scene/skill-engineering/eval-testing"
   - "#type/dark-knowledge"
 created_at: 2026-06-07
 updated_at: 2026-06-07

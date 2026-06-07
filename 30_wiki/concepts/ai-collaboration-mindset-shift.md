@@ -4,7 +4,7 @@ type: "concept"
 status: "draft"
 source_refs:
   - "src_20260606_42e11f09"
-component_of:
+component_of: ""
 related:
   - "structured-ai-workspace"
   - "ai-learning-closed-loop"
@@ -21,8 +21,14 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
+  - "#scene/ai-collaboration/human-ai-division"
+  - "#scene/ai-collaboration/problem-validation"
+  - "#scene/ai-collaboration/workspace-design"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/skill-engineering/course-to-skill"
+  - "#scene/skill-engineering/manifest-design"
 ---
 
 # AI协作思维转变：从"新手"到"管理者"

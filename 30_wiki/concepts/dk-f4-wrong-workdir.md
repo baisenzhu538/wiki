@@ -19,6 +19,7 @@ tags:
   - "#scene/ai-collaboration"
   - "#scene/learning-methodology"
   - "#scene/note-taking"
+  - "#scene/skill-engineering/eval-testing"
   - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31

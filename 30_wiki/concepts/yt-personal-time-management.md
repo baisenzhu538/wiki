@@ -1,6 +1,6 @@
 ---
 id: "yt-personal-time-management"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 3000
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "时间管理"
   - "优先级思维"
@@ -30,7 +30,9 @@ tags:
   - "#boundary/not-for-creative"
   - "#confidence/source-cited"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
   - "#yitang"
 title: "时间管理"

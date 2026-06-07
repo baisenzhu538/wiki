@@ -17,8 +17,11 @@ tags:
   - "#confidence/verified-by-test"
   - "#domain/ai-collaboration"
   - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/skill-engineering"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/skill-engineering/course-to-skill"
+  - "#scene/skill-engineering/eval-testing"
+  - "#scene/skill-engineering/publish-deploy"
 tools_required:
   - "AIGC大模型（支持 Skill 挂载的客户端）"
 prerequisite_skills:

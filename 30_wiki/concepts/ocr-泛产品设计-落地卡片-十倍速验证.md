@@ -18,6 +18,7 @@ tags:
   - "#scene/learning-methodology"
   - "#scene/note-taking"
   - "#scene/product-design"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 泛产品设计-落地卡片-十倍速验证

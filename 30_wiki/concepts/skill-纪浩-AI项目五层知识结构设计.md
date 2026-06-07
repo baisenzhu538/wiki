@@ -3,11 +3,11 @@ id: "skill-纪浩-AI项目五层知识结构设计"
 title: "技能：AI项目五层知识结构设计"
 type: "skill"
 status: "draft"
-domain:
+domain: ""
 source_person: "纪浩"
 source_context: "AI协作方法论"
-source_refs:
-wiki_refs:
+source_refs: ""
+wiki_refs: ""
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -18,12 +18,12 @@ tags:
   - "#domain/AI"
   - "#domain/collaboration"
   - "#domain/design"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/workspace-design"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-tools_required:
-prerequisite_skills:
-related:
+  - "#scene/learning-methodology/feedback-loop"
+tools_required: ""
+prerequisite_skills: ""
+related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 ---

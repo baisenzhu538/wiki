@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-pragmatic-startup"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1843
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "务实创业"
   - "实事求是创业"
@@ -33,6 +33,7 @@ tags:
   - "#confidence/source-cited"
   - "#scene/business-analysis"
   - "#scene/learning-methodology"
+  - "#scene/note-taking/live-field"
   - "#yitang"
 title: "务实创业"
 trust_level: "medium"

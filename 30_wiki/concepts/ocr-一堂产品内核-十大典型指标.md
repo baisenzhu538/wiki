@@ -13,10 +13,12 @@ tags:
   - "#boundary/not-for-beginners"
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 一堂产品内核-十大典型指标

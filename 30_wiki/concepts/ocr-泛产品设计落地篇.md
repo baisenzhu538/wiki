@@ -15,11 +15,13 @@ tags:
   - "#confidence/verified-by-case"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 泛产品设计落地篇

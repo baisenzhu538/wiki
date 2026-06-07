@@ -1,6 +1,6 @@
 ---
 id: "yt-personal-knowledge-extraction"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-07
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 3000
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "知识萃取"
   - "经验萃取方法论"
@@ -34,10 +34,13 @@ tags:
   - "#methodology"
   - "#personal-growth"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/note-taking/live-field"
+  - "#scene/product-design/design-freeze"
+  - "#scene/skill-engineering/publish-deploy"
   - "#yitang"
 title: "知识萃取方法论"
 type: "tool"

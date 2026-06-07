@@ -16,6 +16,7 @@ tags:
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/product-design"
   - "#scene/skill-engineering"
 ---

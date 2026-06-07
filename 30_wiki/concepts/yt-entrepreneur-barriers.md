@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-barriers"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1845
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "项目壁垒"
   - "护城河"
@@ -31,6 +31,7 @@ tags:
   - "#confidence/source-cited"
   - "#scene/business-analysis"
   - "#scene/learning-methodology"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
   - "#yitang"
 title: "项目壁垒"

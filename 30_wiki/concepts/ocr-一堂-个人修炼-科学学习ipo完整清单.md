@@ -17,8 +17,9 @@ tags:
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/level-diagnosis"
   - "#scene/skill-engineering"
 ---
 

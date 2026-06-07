@@ -23,8 +23,9 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
   - "#scene/skill-engineering"
 ---

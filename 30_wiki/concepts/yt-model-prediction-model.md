@@ -1,6 +1,6 @@
 ---
 id: "yt-model-prediction-model"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2226
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "三种预判范式"
   - "从最糙版到复杂版的三种预判范式"
@@ -28,7 +28,8 @@ tags:
   - "#decision-making"
   - "#entrepreneurship"
   - "#prediction"
-  - "#scene/learning-methodology"
+  - "#scene/knowledge-management/case-library"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
   - "#yitang"
 title: "预判模型：从最糙版到复杂版的三种预判范式"

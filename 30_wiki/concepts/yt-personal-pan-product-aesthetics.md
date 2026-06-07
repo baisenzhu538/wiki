@@ -9,7 +9,7 @@ domain:
   - "yitang"
 estimated_tokens: 3200
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "个人修炼"
   - "产品思维"
@@ -33,8 +33,11 @@ tags:
   - "#confidence/verified-by-case"
   - "#confidence/verified-by-test"
   - "#pan-product-design"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
   - "#scene/product-design"
+  - "#scene/skill-engineering/eval-testing"
   - "#yitang"
 title: "泛产品设计审美篇：最佳实践与审美建模"
 type: "concept"

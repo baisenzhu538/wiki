@@ -15,9 +15,9 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/conversion-rate"
   - "#scene/knowledge-management"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # 紫鲸AI智能体工作流平台

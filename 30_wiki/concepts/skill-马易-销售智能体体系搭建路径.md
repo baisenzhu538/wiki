@@ -3,11 +3,11 @@ id: "skill-马易-销售智能体体系搭建路径"
 title: "技能：销售智能体体系搭建路径"
 type: "skill"
 status: "draft"
-domain:
+domain: ""
 source_person: "马易"
 source_context: "AI落地场景识别"
-source_refs:
-wiki_refs:
+source_refs: ""
+wiki_refs: ""
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -17,11 +17,11 @@ tags:
   - "#domain/AI"
   - "#domain/scene-analysis"
   - "#scene/hardware-debugging"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/skill-engineering"
-tools_required:
-prerequisite_skills:
-related:
+tools_required: ""
+prerequisite_skills: ""
+related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 ---

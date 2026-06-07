@@ -19,11 +19,12 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/draft"
   - "#confidence/source-cited"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/ai-collaboration/skill-market"
   - "#scene/business-analysis"
   - "#scene/learning-methodology"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/course-to-skill"
 ---
 
 # 豆包输入法：语音输入的最低成本实践

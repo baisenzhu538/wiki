@@ -17,9 +17,11 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/ai-collaboration"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/pdca-execution"
+  - "#scene/ai-collaboration/problem-validation"
+  - "#scene/hardware-debugging/prototyping"
   - "#scene/learning-methodology"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/eval-testing"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:

@@ -34,6 +34,7 @@ tags:
   - "#pan-product-design"
   - "#project-management"
   - "#scene/business-analysis"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
   - "#scene/product-design"
   - "#stakeholder-analysis"

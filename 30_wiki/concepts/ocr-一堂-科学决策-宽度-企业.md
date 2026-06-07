@@ -13,7 +13,7 @@ tags:
   - "#boundary/not-for-creative"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/customer-acquisition"
   - "#scene/learning-methodology"
   - "#scene/note-taking"
 ---

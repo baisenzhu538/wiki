@@ -38,6 +38,7 @@ tags:
   - "#execution"
   - "#pan-product-design"
   - "#scene/agent-infrastructure"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/product-design"
   - "#scene/skill-engineering"
   - "#yitang"

@@ -16,8 +16,10 @@ tags:
   - "#confidence/verified-by-case"
   - "#domain/ai-collaboration"
   - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
+  - "#scene/ai-collaboration/human-ai-division"
+  - "#scene/ai-collaboration/workspace-design"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:

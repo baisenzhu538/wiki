@@ -18,13 +18,14 @@ tags:
   - "#domain/ai-collaboration"
   - "#domain/yitang"
   - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/course-to-skill"
 tools_required:
   - "AIGC大模型"
   - "课程资料"
-prerequisite_skills:
+prerequisite_skills: ""
 related:
   - "concept-半肥猫-ai-learning-toolification-methodology"
   - "skill-半肥猫-课程Skill化的八步工作流"

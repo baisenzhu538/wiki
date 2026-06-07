@@ -19,10 +19,14 @@ tags:
   - "#domain/ai-collaboration"
   - "#domain/yitang"
   - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/knowledge-management/case-library"
   - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/skill-engineering/course-to-skill"
+  - "#scene/skill-engineering/eval-testing"
+  - "#scene/skill-engineering/manifest-design"
+  - "#scene/skill-engineering/publish-deploy"
   - "#type/case"
 created_at: 2026-06-07
 updated_at: 2026-06-07

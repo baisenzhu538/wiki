@@ -16,7 +16,8 @@ tags:
   - "#confidence/source-cited"
   - "#domain/ai-collaboration"
   - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/workspace-design"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/skill-engineering"
 created_at: 2026-06-07
 updated_at: 2026-06-07

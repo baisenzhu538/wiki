@@ -13,7 +13,8 @@ tags:
   - "#domain/electronics"
   - "#hardware/manufacturing"
   - "#hardware/prototyping"
-  - "#scene/hardware-debugging"
+  - "#scene/hardware-debugging/bom-management"
+  - "#scene/hardware-debugging/prototyping"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-07
 updated_at: 2026-06-07

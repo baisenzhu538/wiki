@@ -20,9 +20,10 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/training-plan"
+  - "#scene/skill-engineering/manifest-design"
 ---
 
 # 清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃

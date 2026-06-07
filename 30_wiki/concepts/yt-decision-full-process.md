@@ -53,7 +53,7 @@ tags:
   - "#framework"
   - "#process"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
   - "#scene/skill-engineering"
   - "#workflow"

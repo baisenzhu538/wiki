@@ -32,6 +32,8 @@ tags:
   - "#confidence/source-cited"
   - "#need-discovery"
   - "#pan-product-design"
+  - "#scene/ai-collaboration/problem-validation"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/product-design"
   - "#user-research"
   - "#yitang"

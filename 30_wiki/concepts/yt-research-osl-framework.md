@@ -1,6 +1,6 @@
 ---
 id: "yt-research-osl-framework"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-18
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2500
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "调研方法"
   - "OSL五步法"
@@ -37,8 +37,10 @@ tags:
   - "#confidence/source-cited"
   - "#framework"
   - "#research"
+  - "#scene/ai-collaboration/human-ai-division"
   - "#scene/business-analysis"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/live-field"
   - "#yitang"
 title: "OSL调研五步法：一堂通用商业调研框架"
 trust_level: "medium"

@@ -13,7 +13,7 @@ tags:
   - "#boundary/not-for-beginners"
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/deliberate-practice"
   - "#scene/skill-engineering"
 ---
 

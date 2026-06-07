@@ -12,8 +12,9 @@ updated_at: 2026-05-22
 tags:
   - "#boundary/not-for-creative"
   - "#confidence/source-cited"
+  - "#scene/ai-collaboration/pdca-execution"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 泛产品设计-落地卡片-假设拆解

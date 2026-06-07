@@ -1,6 +1,6 @@
 ---
 id: "yt-model-truman-five-step-growth"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: "advanced"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2678
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "Truman的个人成长五步法"
   - "Truman的个人成长五步法：用一页纸解释全部人生规划"
@@ -32,9 +32,10 @@ tags:
   - "#five-step-method"
   - "#personal-growth"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/note-taking/live-field"
+  - "#scene/skill-engineering/manifest-design"
   - "#yitang"
 title: "Truman的个人成长五步法：用一页纸解释全部人生规划"
 type: "framework"

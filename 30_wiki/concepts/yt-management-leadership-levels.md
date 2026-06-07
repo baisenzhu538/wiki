@@ -37,8 +37,9 @@ tags:
   - "#confidence/verified-by-case"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/level-diagnosis"
   - "#scene/skill-engineering"
   - "#yitang"
 ---

@@ -37,7 +37,7 @@ tags:
   - "#pan-product-design"
   - "#roi"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/product-design"
   - "#yitang"
 title: "泛产品设计·落地卡片：ROI分析"

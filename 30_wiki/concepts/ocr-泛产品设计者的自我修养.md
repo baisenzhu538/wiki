@@ -14,8 +14,11 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#scene/business-analysis"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
   - "#scene/product-design"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 泛产品设计者的自我修养

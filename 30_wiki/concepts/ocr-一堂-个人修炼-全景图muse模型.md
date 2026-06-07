@@ -12,10 +12,12 @@ updated_at: 2026-05-22
 tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/ai-collaboration/human-ai-division"
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
+  - "#scene/skill-engineering/manifest-design"
 ---
 
 # OCR: 一堂-个人修炼-全景图MUSE模型

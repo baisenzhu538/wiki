@@ -13,8 +13,11 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/live-field"
   - "#scene/product-design"
 ---
 

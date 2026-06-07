@@ -36,7 +36,7 @@ tags:
   - "#confidence/source-cited"
   - "#execution"
   - "#pan-product-design"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/product-design"
   - "#structured-thinking"
   - "#yitang"

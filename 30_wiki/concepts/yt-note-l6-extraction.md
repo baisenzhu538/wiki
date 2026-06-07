@@ -19,11 +19,14 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/note-taking/live-field"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/manifest-design"
 ---
 
 # 清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品

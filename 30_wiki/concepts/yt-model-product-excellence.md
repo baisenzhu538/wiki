@@ -1,6 +1,6 @@
 ---
 id: "yt-model-product-excellence"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: "advanced"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2473
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "与泛产品审美工具箱的对应"
   - "乔布斯的品味公式"
@@ -31,7 +31,9 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#product-design"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/level-diagnosis"
   - "#scene/product-design"
   - "#yitang"
 title: "顶级产品追求：品味、最佳实践与乔布斯的审美哲学"

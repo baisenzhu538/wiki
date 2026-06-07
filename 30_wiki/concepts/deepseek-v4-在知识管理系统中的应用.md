@@ -14,6 +14,7 @@ tags:
   - "#boundary/single-use-only"
   - "#confidence/source-cited"
   - "#scene/knowledge-management"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/skill-engineering"
 ---
 

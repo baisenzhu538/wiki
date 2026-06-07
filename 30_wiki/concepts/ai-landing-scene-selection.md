@@ -4,7 +4,7 @@ type: "concept"
 status: "draft"
 source_refs:
   - "src_20260606_ef4877d0"
-component_of:
+component_of: ""
 related:
   - "find-old-do-small"
   - "ai-learning-closed-loop"
@@ -21,10 +21,11 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/course-to-skill"
+  - "#scene/skill-engineering/manifest-design"
 ---
 
 # AI落地场景识别：从"找老的干小的"开始

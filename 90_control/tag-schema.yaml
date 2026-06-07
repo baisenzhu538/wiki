@@ -9,18 +9,57 @@
 prefixes:
   # ── Agent 路由信号（核心）────────────────
   "#scene":
-    description: 场景标签——Agent 在什么任务下应该读这张卡。回答"我什么时候取这篇文章"
+    description: 场景标签——Agent 在什么任务下应该读这张卡。回答"我什么时候取这篇文章"。用 / 做二级分类以增加路由精度。
     closed: false
     known:
+      # ai-collaboration 子场景
       - ai-collaboration
+      - ai-collaboration/problem-validation
+      - ai-collaboration/workspace-design
+      - ai-collaboration/pdca-execution
+      - ai-collaboration/prompt-engineering
+      - ai-collaboration/human-ai-division
+      - ai-collaboration/skill-market
+      # note-taking 子场景
       - note-taking
+      - note-taking/checklist-method
+      - note-taking/level-diagnosis
+      - note-taking/live-field
+      - note-taking/training-plan
+      # skill-engineering 子场景
       - skill-engineering
+      - skill-engineering/course-to-skill
+      - skill-engineering/manifest-design
+      - skill-engineering/eval-testing
+      - skill-engineering/publish-deploy
+      # agent-infrastructure 子场景
       - agent-infrastructure
+      - agent-infrastructure/skill-registry
+      - agent-infrastructure/discovery-chain
+      # product-design 子场景
       - product-design
+      - product-design/focus-workbench
+      - product-design/design-freeze
+      # hardware-debugging 子场景
       - hardware-debugging
+      - hardware-debugging/level-shift
+      - hardware-debugging/bom-management
+      - hardware-debugging/diagnostics
+      - hardware-debugging/prototyping
+      # knowledge-management 子场景
       - knowledge-management
+      - knowledge-management/tagging
+      - knowledge-management/atomization
+      - knowledge-management/case-library
+      # business-analysis 子场景
       - business-analysis
+      - business-analysis/conversion-rate
+      - business-analysis/customer-acquisition
+      # learning-methodology 子场景
       - learning-methodology
+      - learning-methodology/deliberate-practice
+      - learning-methodology/feedback-loop
+      - learning-methodology/mental-models
 
   "#boundary":
     description: 边界标签——Agent 在什么场景下不应该用这张卡。回答"我什么时候跳过这篇文章"

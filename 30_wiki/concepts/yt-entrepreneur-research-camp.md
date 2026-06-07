@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-research-camp"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1863
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "三轮学习设计"
   - "从调研认知到AI调研武器库"
@@ -31,8 +31,11 @@ tags:
   - "#entrepreneurship"
   - "#market-research"
   - "#research"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
   - "#yitang"
 title: "调研行动营：从调研认知到AI调研武器库"

@@ -1,6 +1,6 @@
 ---
 id: "yt-model-questioning-practice-canvas"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1832
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "使用场景矩阵"
   - "关联卡片"
@@ -26,7 +26,8 @@ tags:
   - "#confidence/source-cited"
   - "#questioning"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
   - "#yitang"
 title: "提问刻意练习提升画布"
 type: "framework"

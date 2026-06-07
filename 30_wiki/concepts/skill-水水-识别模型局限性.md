@@ -3,11 +3,11 @@ id: "skill-水水-识别模型局限性"
 title: "技能：识别模型局限性"
 type: "skill"
 status: "draft"
-domain:
+domain: ""
 source_person: "水水"
 source_context: "拆书会-偶然"
-source_refs:
-wiki_refs:
+source_refs: ""
+wiki_refs: ""
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -15,9 +15,10 @@ definition_of_done:
 tags:
   - "#confidence/draft"
   - "#domain/general"
-tools_required:
-prerequisite_skills:
-related:
+  - "#scene/learning-methodology/feedback-loop"
+tools_required: ""
+prerequisite_skills: ""
+related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 ---

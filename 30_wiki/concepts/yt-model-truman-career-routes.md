@@ -1,6 +1,6 @@
 ---
 id: "yt-model-truman-career-routes"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: "advanced"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2777
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "X vs Y 七维对比"
   - "与十年爬山地图的对应"
@@ -31,8 +31,11 @@ tags:
   - "#deliberate-practice"
   - "#pan-product-design"
   - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/note-taking/live-field"
   - "#scene/product-design"
   - "#scene/skill-engineering"
   - "#yitang"

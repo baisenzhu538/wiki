@@ -9,7 +9,7 @@ domain:
   - "yitang"
 estimated_tokens: 3400
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "个人修炼"
   - "产品思维"
@@ -32,6 +32,7 @@ tags:
   - "#confidence/source-cited"
   - "#pan-product-design"
   - "#pedagogy"
+  - "#scene/note-taking/live-field"
   - "#scene/product-design"
   - "#toolkit"
   - "#yitang"

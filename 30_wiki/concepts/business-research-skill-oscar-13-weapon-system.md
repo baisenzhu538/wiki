@@ -5,7 +5,7 @@ domain:
   - "['yitang']"
 review_date: 2026-05-04
 reviewed_by: "黄药师"
-source_refs:
+source_refs: ""
 status: "enriched"
 tags:
   - "#boundary/not-for-creative"
@@ -19,8 +19,10 @@ tags:
   - "#scene/business-analysis"
   - "#scene/knowledge-management"
   - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/note-taking/live-field"
+  - "#scene/skill-engineering/eval-testing"
+  - "#scene/skill-engineering/manifest-design"
+  - "#scene/skill-engineering/publish-deploy"
   - "#skill"
   - "#yitang"
 title: "Business Research Skill — OSCAR 13武器体系 Claude Code 实现"

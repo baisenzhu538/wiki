@@ -1,6 +1,6 @@
 ---
 id: "yt-model-deliberate-practice-growth"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2397
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "与泛产品十年爬山地图的关系"
   - "为什么有人一年顶十年"
@@ -30,7 +30,9 @@ tags:
   - "#personal-growth"
   - "#scene/business-analysis"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/level-diagnosis"
   - "#yitang"
 title: "刻意练习十年成长指数：为什么有人一年顶十年"
 type: "framework"

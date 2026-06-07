@@ -13,9 +13,13 @@ tags:
   - "#boundary/not-for-beginners"
   - "#confidence/source-cited"
   - "#scene/agent-infrastructure"
-  - "#scene/knowledge-management"
+  - "#scene/ai-collaboration/workspace-design"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/eval-testing"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # Knowledge Delivery OS 快速体验指南

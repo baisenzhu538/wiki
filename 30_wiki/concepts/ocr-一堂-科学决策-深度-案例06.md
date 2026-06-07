@@ -13,8 +13,10 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/conversion-rate"
   - "#scene/learning-methodology"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
 ---
 

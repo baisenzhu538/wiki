@@ -17,8 +17,11 @@ tags:
   - "#confidence/source-cited"
   - "#domain/ai-ethics"
   - "#domain/note-taking"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/note-taking/training-plan"
   - "#source_type/insight"
 created_at: 2026-06-07
 updated_at: 2026-06-07

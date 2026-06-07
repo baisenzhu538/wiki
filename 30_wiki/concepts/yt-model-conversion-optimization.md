@@ -1,6 +1,6 @@
 ---
 id: "yt-model-conversion-optimization"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 3000
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "FAB 核心说服"
   - "两者联合使用"
@@ -32,9 +32,11 @@ tags:
   - "#growth"
   - "#management"
   - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/note-taking/live-field"
+  - "#scene/skill-engineering/course-to-skill"
+  - "#scene/skill-engineering/eval-testing"
   - "#yitang"
 title: "转化率优化：动力三曲线 × 十大浪费触点"
 type: "framework"

@@ -15,6 +15,7 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
+  - "#scene/knowledge-management/case-library"
   - "#scene/learning-methodology"
   - "#scene/product-design"
   - "#scene/skill-engineering"

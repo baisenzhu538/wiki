@@ -3,11 +3,11 @@ id: "skill-月白-Token智甲比控制法"
 title: "技能：Token智甲比控制法"
 type: "skill"
 status: "draft"
-domain:
+domain: ""
 source_person: "月白"
 source_context: "AI设计师实操"
-source_refs:
-wiki_refs:
+source_refs: ""
+wiki_refs: ""
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -18,11 +18,12 @@ tags:
   - "#confidence/draft"
   - "#domain/AI"
   - "#domain/design"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-tools_required:
-prerequisite_skills:
-related:
+  - "#scene/learning-methodology/feedback-loop"
+tools_required: ""
+prerequisite_skills: ""
+related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 ---

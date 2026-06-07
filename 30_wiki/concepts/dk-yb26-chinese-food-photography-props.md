@@ -15,13 +15,14 @@ tags:
   - "#confidence/source-cited"
   - "#domain/design"
   - "#scene/learning-methodology"
+  - "#scene/note-taking/checklist-method"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb17-product-lifestyle-photography"
   - "dk-yb19-visual-strategy-price-match"
-contradicts:
+contradicts: ""
 ---
 
 # 中式食物摄影低成本氛围道具搭配

@@ -16,7 +16,8 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/ai-collaboration"
-  - "#scene/skill-engineering"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # AI时代判断力口述

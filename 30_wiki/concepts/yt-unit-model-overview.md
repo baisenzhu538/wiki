@@ -31,9 +31,10 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/draft"
   - "#confidence/source-cited"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology"
+  - "#scene/note-taking/live-field"
 ---
 
 # 单元模型概述：从最小经济单元到商业判断框架

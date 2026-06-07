@@ -14,12 +14,13 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb23-ai-pre-screen-three-minutes"
-contradicts:
+contradicts: ""
 ---
 
 # 豆包AIGC生图：尺寸是唯一关键排版影响因素

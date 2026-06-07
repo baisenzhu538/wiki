@@ -23,9 +23,9 @@ tags:
   - "#confidence/verified-by-case"
   - "#scene/agent-infrastructure"
   - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/product-design"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/product-design/design-freeze"
   - "#scene/skill-engineering"
 ---
 

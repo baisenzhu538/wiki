@@ -16,9 +16,10 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/human-ai-division"
   - "#scene/business-analysis"
   - "#scene/learning-methodology"
+  - "#scene/product-design/design-freeze"
 ---
 
 # OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步

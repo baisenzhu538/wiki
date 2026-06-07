@@ -14,13 +14,14 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/note-taking/checklist-method"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb19-visual-strategy-price-match"
   - "dk-yb7-design-demand-80-10-10"
-contradicts:
+contradicts: ""
 ---
 
 # 电商定价：线上价格带需独立建模

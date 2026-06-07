@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-research-cognition"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1821
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "调研认知"
   - "创业调研方法"
@@ -31,8 +31,9 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
+  - "#scene/business-analysis/conversion-rate"
   - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
   - "#yitang"
 title: "调研认知"

@@ -1,19 +1,8 @@
 ---
-title: "单元模型构建器：拆推评算八字诀"
-date: "2026-05-24"
-type: "tool"
-status: "enriched"
-domain: "decision-science"
-source_refs:
-author: "一堂科学决策课程"
-component_of: "yt-decision-full-process"
-related: ""
-id: "yt-tool-unit-model-construction - "yt-unit-model-overview" - "yt-unit-model-ladder" - "yt-unit-model-selection" - "yt-unit-model-benchmark" - "yt-entrepreneur-five-step-method" - "yt-decision-y-model" - "master-first-principles" - "master-systems-thinking""
 tags:
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/knowledge-management/atomization"
 ---
 
 ## Reusable Knowledge

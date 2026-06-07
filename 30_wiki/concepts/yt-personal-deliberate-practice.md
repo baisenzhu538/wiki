@@ -1,6 +1,6 @@
 ---
 id: "yt-personal-deliberate-practice"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 3000
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "刻意练习"
   - "科学成长"
@@ -30,10 +30,12 @@ tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/level-diagnosis"
   - "#scene/product-design"
   - "#scene/skill-engineering"
   - "#yitang"

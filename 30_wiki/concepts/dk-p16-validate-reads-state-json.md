@@ -15,9 +15,11 @@ tags:
   - "#confidence/source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
+  - "#scene/agent-infrastructure/skill-registry"
   - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
+  - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology"
+  - "#scene/skill-engineering/eval-testing"
   - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31

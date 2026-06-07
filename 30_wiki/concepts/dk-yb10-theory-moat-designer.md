@@ -15,13 +15,14 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/skill-engineering"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "— 暂无（待后续卡片补充关联）"
-contradicts:
+contradicts: ""
 ---
 
 # AI时代设计师的理论护城河

@@ -14,14 +14,16 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/learning-methodology"
-  - "#scene/product-design"
+  - "#scene/product-design/design-freeze"
+  - "#scene/skill-engineering/publish-deploy"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb6-midjourney-chinese-text-fix"
-contradicts:
+contradicts: ""
 ---
 
 # 提示词有效期预期管理

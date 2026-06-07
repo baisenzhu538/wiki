@@ -15,10 +15,11 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 泛产品设计-需求工具箱指南

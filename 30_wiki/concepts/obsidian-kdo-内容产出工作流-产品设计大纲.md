@@ -15,10 +15,11 @@ tags:
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/checklist-method"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/eval-testing"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲

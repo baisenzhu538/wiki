@@ -1,6 +1,6 @@
 ---
 id: "yt-model-dual-triangle-competitiveness"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1915
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "人类三角 × AI 三角"
   - "关联卡片"
@@ -32,8 +32,14 @@ tags:
   - "#boundary/not-for-creative"
   - "#competitiveness"
   - "#confidence/source-cited"
+  - "#scene/ai-collaboration/human-ai-division"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/skill-engineering/manifest-design"
+  - "#scene/skill-engineering/publish-deploy"
   - "#yitang"
 title: "双三角竞争力模型"
 type: "framework"

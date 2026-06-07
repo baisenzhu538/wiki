@@ -37,6 +37,8 @@ tags:
   - "#execution"
   - "#hypothesis"
   - "#pan-product-design"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/live-field"
   - "#scene/product-design"
   - "#yitang"
 title: "泛产品设计·落地卡片：假设拆解"

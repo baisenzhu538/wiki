@@ -1,6 +1,6 @@
 ---
 id: "yt-research-industry-canvas"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-18
 difficulty: "intermediate"
@@ -35,6 +35,7 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#research"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
   - "#tool"
   - "#yitang"

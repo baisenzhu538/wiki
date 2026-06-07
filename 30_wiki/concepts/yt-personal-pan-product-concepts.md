@@ -9,7 +9,7 @@ domain:
   - "yitang"
 estimated_tokens: 3300
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "个人修炼"
   - "产品思维"
@@ -34,8 +34,9 @@ tags:
   - "#pan-product-design"
   - "#personal-growth"
   - "#scene/hardware-debugging"
-  - "#scene/learning-methodology"
-  - "#scene/product-design"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/product-design/design-freeze"
   - "#yitang"
 title: "泛产品设计认知篇：重新理解泛化产品能力"
 type: "concept"

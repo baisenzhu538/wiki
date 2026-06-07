@@ -14,13 +14,14 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/learning-methodology"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb1-aigc-mvp-before-ps"
-contradicts:
+contradicts: ""
 ---
 
 # AIGC提示词迁移：先照搬再微调的务实策略

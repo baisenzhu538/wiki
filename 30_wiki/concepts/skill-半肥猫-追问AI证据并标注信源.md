@@ -18,12 +18,14 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#domain/ai-collaboration"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/problem-validation"
   - "#scene/business-analysis"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/course-to-skill"
+  - "#scene/skill-engineering/publish-deploy"
 tools_required:
   - "AIGC大模型"
 prerequisite_skills:

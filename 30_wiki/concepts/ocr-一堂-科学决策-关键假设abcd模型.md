@@ -13,7 +13,9 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#scene/business-analysis"
-  - "#scene/skill-engineering"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/live-field"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 一堂-科学决策-关键假设ABCD模型

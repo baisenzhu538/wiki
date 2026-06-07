@@ -15,9 +15,9 @@ tags:
   - "#scene/agent-infrastructure"
   - "#scene/ai-collaboration"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
-  - "#scene/product-design"
+  - "#scene/product-design/design-freeze"
   - "#scene/skill-engineering"
 ---
 

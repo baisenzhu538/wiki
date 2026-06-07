@@ -12,7 +12,7 @@ tags:
   - "#domain/electronics"
   - "#hardware/level-shift"
   - "#hardware/open-drain"
-  - "#scene/hardware-debugging"
+  - "#scene/hardware-debugging/level-shift"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-07
 updated_at: 2026-06-07

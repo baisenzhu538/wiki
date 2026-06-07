@@ -3,11 +3,11 @@ id: "skill-水水-降低故事逻辑要求"
 title: "技能：降低故事逻辑要求"
 type: "skill"
 status: "draft"
-domain:
+domain: ""
 source_person: "水水"
 source_context: "拆书会-偶然"
-source_refs:
-wiki_refs:
+source_refs: ""
+wiki_refs: ""
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -16,9 +16,10 @@ tags:
   - "#confidence/draft"
   - "#domain/general"
   - "#scene/business-analysis"
-tools_required:
-prerequisite_skills:
-related:
+  - "#scene/learning-methodology/feedback-loop"
+tools_required: ""
+prerequisite_skills: ""
+related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 ---

@@ -17,9 +17,13 @@ tags:
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/product-design"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/product-design/design-freeze"
+  - "#scene/skill-engineering/eval-testing"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 一堂个人地图：高潜力成长者修炼全景图

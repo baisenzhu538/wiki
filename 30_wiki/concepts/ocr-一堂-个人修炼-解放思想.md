@@ -16,7 +16,8 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
 ---
 
 # OCR: 一堂-个人修炼-解放思想

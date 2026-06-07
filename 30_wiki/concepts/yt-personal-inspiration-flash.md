@@ -1,6 +1,6 @@
 ---
 id: "yt-personal-inspiration-flash"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 3000
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "灵感闪现"
   - "灵感捕捉"
@@ -30,9 +30,10 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/skill-engineering/publish-deploy"
   - "#yitang"
 title: "灵感闪现（认知篇）"
 trust_level: "medium"

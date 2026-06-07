@@ -37,6 +37,7 @@ tags:
   - "#boundary/single-use-only"
   - "#confidence/source-cited"
   - "#pan-product-design"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/product-design"
   - "#yitang"
 title: "泛产品设计·审美卡片：最佳实践池子"

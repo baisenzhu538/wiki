@@ -1,6 +1,6 @@
 ---
 id: "yt-model-entrepreneur-map"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2009
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "三阶段结构"
   - "关联卡片"
@@ -33,8 +33,10 @@ tags:
   - "#confidence/verified-by-case"
   - "#core-model"
   - "#entrepreneurship"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
   - "#yitang"
 title: "创业修炼地图"

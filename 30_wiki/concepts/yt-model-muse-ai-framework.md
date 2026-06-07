@@ -1,6 +1,6 @@
 ---
 id: "yt-model-muse-ai-framework"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1476
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "MUSE 人工智能全景图"
   - "人工智能全景图"
@@ -27,9 +27,11 @@ tags:
   - "#ai-model"
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/ai-collaboration/human-ai-division"
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
   - "#yitang"
 title: "MUSE 人工智能全景图"
 type: "framework"

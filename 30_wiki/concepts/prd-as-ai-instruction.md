@@ -18,11 +18,13 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/ai-collaboration/workspace-design"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/course-to-skill"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # PRD文档作为AI可执行指令

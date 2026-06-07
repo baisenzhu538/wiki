@@ -38,6 +38,8 @@ tags:
   - "#execution"
   - "#pan-product-design"
   - "#risk-management"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
   - "#scene/product-design"
   - "#yitang"

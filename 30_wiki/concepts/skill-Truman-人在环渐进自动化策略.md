@@ -3,11 +3,11 @@ id: "skill-Truman-人在环渐进自动化策略"
 title: "技能：人在环渐进自动化策略"
 type: "skill"
 status: "draft"
-domain:
+domain: ""
 source_person: "Truman"
 source_context: "AI工具应用AMA"
-source_refs:
-wiki_refs:
+source_refs: ""
+wiki_refs: ""
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -16,9 +16,11 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/draft"
   - "#domain/AI"
-tools_required:
-prerequisite_skills:
-related:
+  - "#scene/ai-collaboration/human-ai-division"
+  - "#scene/learning-methodology/feedback-loop"
+tools_required: ""
+prerequisite_skills: ""
+related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 ---

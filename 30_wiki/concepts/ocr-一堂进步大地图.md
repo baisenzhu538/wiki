@@ -13,8 +13,8 @@ tags:
   - "#boundary/not-for-creative"
   - "#confidence/source-cited"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/level-diagnosis"
 ---
 
 # OCR: 一堂进步大地图

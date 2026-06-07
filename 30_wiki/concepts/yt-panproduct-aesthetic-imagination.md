@@ -37,7 +37,7 @@ tags:
   - "#confidence/source-cited"
   - "#creativity"
   - "#pan-product-design"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/product-design"
   - "#yitang"
 title: "泛产品设计·审美卡片：美好作品想象"

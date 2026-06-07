@@ -34,6 +34,7 @@ tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
   - "#scene/product-design"
   - "#scene/skill-engineering"

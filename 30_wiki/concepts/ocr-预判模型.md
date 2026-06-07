@@ -14,8 +14,9 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/knowledge-management/case-library"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
 ---
 

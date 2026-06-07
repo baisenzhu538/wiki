@@ -18,7 +18,11 @@ tags:
   - "#boundary/single-use-only"
   - "#confidence/verified-by-case"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
 ---
 

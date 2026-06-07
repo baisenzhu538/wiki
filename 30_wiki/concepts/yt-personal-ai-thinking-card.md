@@ -1,13 +1,13 @@
 ---
 id: "yt-personal-ai-thinking-card"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-15
 difficulty: "intermediate"
 domain:
   - "personal-methods"
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "AI思维卡"
   - "认知升级系统"
@@ -40,8 +40,9 @@ tags:
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
   - "#scene/skill-engineering"
 title: "AI思维卡：从「读书」到「安装认知补丁」"
 trust_level: "medium"

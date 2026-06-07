@@ -14,9 +14,9 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#scene/business-analysis"
-  - "#scene/knowledge-management"
+  - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/note-taking/checklist-method"
   - "#scene/skill-engineering"
 ---
 

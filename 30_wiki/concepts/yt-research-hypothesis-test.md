@@ -1,6 +1,6 @@
 ---
 id: "yt-research-hypothesis-test"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-18
 difficulty: "advanced"
@@ -37,7 +37,7 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#research"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/customer-acquisition"
   - "#scene/skill-engineering"
   - "#tool"
   - "#yitang"

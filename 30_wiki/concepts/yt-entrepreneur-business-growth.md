@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-business-growth"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1878
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "业务增长"
   - "增长引擎"
@@ -29,8 +29,9 @@ status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
   - "#yitang"
 title: "业务增长"

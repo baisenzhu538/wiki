@@ -16,7 +16,7 @@ tags:
   - "#scene/ai-collaboration"
   - "#scene/knowledge-management"
   - "#scene/learning-methodology"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # Kimi 深度调研集群方法论 (Deep-Research-Swarm)

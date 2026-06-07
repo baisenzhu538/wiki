@@ -13,10 +13,10 @@ tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 泛产品设计-落地卡片-复盘迭代

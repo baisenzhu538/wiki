@@ -15,8 +15,9 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/design"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis"
+  - "#scene/hardware-debugging/bom-management"
   - "#scene/learning-methodology"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
@@ -24,7 +25,7 @@ updated_at: 2026-06-04
 related:
   - "dk-yb5-style-asset-archive"
   - "dk-yb1-aigc-mvp-before-ps"
-contradicts:
+contradicts: ""
 ---
 
 # AI增效前置：文件命名八要素体系

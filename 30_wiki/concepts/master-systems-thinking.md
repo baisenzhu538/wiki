@@ -35,8 +35,10 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
+  - "#scene/skill-engineering/manifest-design"
 title: "系统思考：反馈循环与杠杆点"
 type: "concept"
 updated_at: 2026-05-18

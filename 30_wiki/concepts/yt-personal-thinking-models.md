@@ -1,6 +1,6 @@
 ---
 id: "yt-personal-thinking-models"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1853
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "一堂做课供应链模型"
   - "为什么提炼模型是最核心的能力"
@@ -32,9 +32,11 @@ tags:
   - "#confidence/verified-by-case"
   - "#knowledge-extraction"
   - "#mental-models"
-  - "#scene/learning-methodology"
+  - "#scene/knowledge-management/case-library"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
-  - "#scene/product-design"
+  - "#scene/product-design/design-freeze"
   - "#thinking"
   - "#yitang"
 title: "思维模型：从碎片经验到稳定模型"

@@ -14,6 +14,7 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/learning-methodology"
+  - "#scene/note-taking/checklist-method"
 ---
 
 # OCR: 一堂-个人修炼-表达力火箭模型

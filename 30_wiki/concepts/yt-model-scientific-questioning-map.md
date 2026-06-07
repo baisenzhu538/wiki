@@ -1,6 +1,6 @@
 ---
 id: "yt-model-scientific-questioning-map"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1667
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "关联卡片"
   - "四领域 × 三级难度矩阵"
@@ -28,7 +28,9 @@ tags:
   - "#confidence/source-cited"
   - "#deliberate-practice"
   - "#questioning"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/checklist-method"
   - "#yitang"
 title: "科学提问刻意练习地图"
 type: "framework"

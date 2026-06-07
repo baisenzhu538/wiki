@@ -9,7 +9,7 @@ language: "zh-CN"
 version: 1
 difficulty: "foundational"
 confidence: 0.85
-prerequisites:
+prerequisites: ""
 component_of:
   - "yt-management-toolkit-overview"
 related:
@@ -21,7 +21,7 @@ related:
   - "yt-management-company-culture"
   - "yt-concept-weapon-arsenal"
   - "yt-model-personal-pitch-toolkit"
-contradicts:
+contradicts: ""
 query_triggers:
   - "战略会怎么开"
   - "创业战略规划"
@@ -38,7 +38,8 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#management"
-  - "#scene/skill-engineering"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/skill-engineering/publish-deploy"
   - "#tool"
   - "#yitang"
 trust_level: "medium"

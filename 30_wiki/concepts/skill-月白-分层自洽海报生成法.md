@@ -3,11 +3,11 @@ id: "skill-月白-分层自洽海报生成法"
 title: "技能：分层自洽海报生成法"
 type: "skill"
 status: "draft"
-domain:
+domain: ""
 source_person: "月白"
 source_context: "文创案例"
-source_refs:
-wiki_refs:
+source_refs: ""
+wiki_refs: ""
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -15,10 +15,13 @@ definition_of_done:
 tags:
   - "#confidence/draft"
   - "#domain/general"
-  - "#scene/knowledge-management"
-tools_required:
-prerequisite_skills:
-related:
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/checklist-method"
+tools_required: ""
+prerequisite_skills: ""
+related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 ---

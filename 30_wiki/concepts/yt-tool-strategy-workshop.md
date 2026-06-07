@@ -53,6 +53,8 @@ tags:
   - "#confidence/source-cited"
   - "#management"
   - "#meeting-facilitation"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/skill-engineering"
   - "#strategy"
   - "#tool"

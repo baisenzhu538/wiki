@@ -16,7 +16,10 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/hardware-debugging/bom-management"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/live-field"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 一堂-科学决策-ROI决策评估画布-案例03

@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-opportunity-selection"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1849
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "机会选择"
   - "创业机会评估"
@@ -33,6 +33,7 @@ tags:
   - "#scene/business-analysis"
   - "#scene/knowledge-management"
   - "#scene/learning-methodology"
+  - "#scene/note-taking/live-field"
   - "#yitang"
 title: "机会选择"
 trust_level: "medium"

@@ -17,9 +17,11 @@ tags:
   - "#domain/ai-collaboration"
   - "#domain/yitang"
   - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
+  - "#scene/knowledge-management/atomization"
+  - "#scene/knowledge-management/case-library"
+  - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/course-to-skill"
   - "#type/dark-knowledge"
 created_at: 2026-06-07
 updated_at: 2026-06-07

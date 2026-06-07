@@ -13,11 +13,13 @@ tags:
   - "#boundary/not-for-creative"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/human-ai-division"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 一堂-科学决策-人机协作决策

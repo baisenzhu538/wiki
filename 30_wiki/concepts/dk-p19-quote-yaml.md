@@ -16,6 +16,7 @@ tags:
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/ai-collaboration"
+  - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology"
   - "#source_type/error"
 created_at: 2026-06-03

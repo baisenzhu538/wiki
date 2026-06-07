@@ -1,6 +1,6 @@
 ---
 id: "yt-model-ipo-learning-strategy"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2214
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "6 要素闭环"
   - "IPO 科学学习全景策略"
@@ -35,8 +35,10 @@ tags:
   - "#learning-model"
   - "#scene/ai-collaboration"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
   - "#scene/skill-engineering"
   - "#yitang"
 title: "IPO 科学学习全景策略"

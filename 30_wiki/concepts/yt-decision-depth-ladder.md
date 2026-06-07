@@ -7,10 +7,11 @@ created_at: ""
 updated_at: ""
 tags:
   - "#boundary/requires-human-judgment"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology"
-  - "#scene/product-design"
+  - "#scene/product-design/design-freeze"
+  - "#scene/product-design/focus-workbench"
   - "#scene/skill-engineering"
 ---
 

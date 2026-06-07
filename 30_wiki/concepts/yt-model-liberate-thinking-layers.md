@@ -1,6 +1,6 @@
 ---
 id: "yt-model-liberate-thinking-layers"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1591
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "六层认知模型"
   - "关联卡片"
@@ -29,7 +29,9 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#thinking-model"
   - "#yitang"
 title: "解放思想五层模型"

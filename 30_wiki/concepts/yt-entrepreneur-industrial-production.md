@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-industrial-production"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1874
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "工业化生产"
   - "标准化流程"
@@ -30,8 +30,9 @@ tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/live-field"
   - "#yitang"
 title: "工业化生产"
 trust_level: "medium"

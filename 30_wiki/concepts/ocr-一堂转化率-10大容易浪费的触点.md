@@ -14,9 +14,9 @@ tags:
   - "#boundary/not-for-medical"
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/level-diagnosis"
   - "#scene/skill-engineering"
 ---
 

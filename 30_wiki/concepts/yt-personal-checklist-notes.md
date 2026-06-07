@@ -1,6 +1,6 @@
 ---
 id: "yt-personal-checklist-notes"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 4500
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "清单体笔记"
   - "清单式笔记"
@@ -38,12 +38,17 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/conversion-rate"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/note-taking/live-field"
+  - "#scene/product-design/design-freeze"
+  - "#scene/skill-engineering/manifest-design"
+  - "#scene/skill-engineering/publish-deploy"
   - "#yitang"
 title: "清单体笔记（一堂笔记法）"
 trust_level: "medium"

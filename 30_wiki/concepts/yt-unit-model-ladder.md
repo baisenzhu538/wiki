@@ -1,6 +1,6 @@
 ---
 id: "yt-unit-model-ladder"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-24
 difficulty: "intermediate"
@@ -42,10 +42,12 @@ tags:
   - "#confidence/verified-by-case"
   - "#entrepreneur"
   - "#framework"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
   - "#skill-ladder"
   - "#unit-model"

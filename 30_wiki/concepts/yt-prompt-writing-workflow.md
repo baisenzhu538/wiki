@@ -31,7 +31,7 @@ tags:
   - "#boundary/single-use-only"
   - "#confidence/source-cited"
   - "#prompt-engineering"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis"
   - "#writing"
   - "#yitang"

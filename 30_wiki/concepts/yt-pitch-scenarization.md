@@ -31,7 +31,7 @@ tags:
   - "#confidence/verified-by-case"
   - "#pitch"
   - "#scene/business-analysis"
-  - "#scene/knowledge-management"
+  - "#scene/knowledge-management/tagging"
   - "#scene/note-taking"
   - "#scene/product-design"
   - "#yitang"

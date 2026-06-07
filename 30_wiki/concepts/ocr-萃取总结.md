@@ -16,8 +16,8 @@ tags:
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
   - "#scene/knowledge-management"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/product-design/design-freeze"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 萃取总结

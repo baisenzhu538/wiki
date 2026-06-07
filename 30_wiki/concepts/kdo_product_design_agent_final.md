@@ -13,10 +13,12 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
+  - "#scene/hardware-debugging/prototyping"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
   - "#scene/product-design"
+  - "#scene/skill-engineering/eval-testing"
 ---
 
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)

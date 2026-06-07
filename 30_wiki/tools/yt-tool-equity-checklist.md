@@ -18,7 +18,7 @@ related:
   - "yt-entrepreneur-lean-validation"
   - "yt-management-goal-management"
   - "yt-tool-strategy-workshop"
-contradicts:
+contradicts: ""
 query_triggers:
   - "股权设计"
   - "股权分配"
@@ -37,6 +37,7 @@ tags:
   - "#equity"
   - "#management"
   - "#scene/note-taking"
+  - "#scene/skill-engineering/manifest-design"
   - "#startup"
   - "#tool"
   - "#yitang"

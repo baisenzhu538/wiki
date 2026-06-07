@@ -9,7 +9,7 @@ language: "zh-CN"
 version: 1
 difficulty: "foundational"
 confidence: 0.85
-prerequisites:
+prerequisites: ""
 component_of:
   - "yt-management-toolkit-overview"
 related:
@@ -19,7 +19,7 @@ related:
   - "yt-management-goal-management"
   - "yt-decision-width-method"
   - "master-decision-hygiene"
-contradicts:
+contradicts: ""
 query_triggers:
   - "结构化面试"
   - "面试打分卡"
@@ -37,7 +37,9 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#management"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/skill-engineering/publish-deploy"
   - "#tool"
   - "#yitang"
 trust_level: "medium"

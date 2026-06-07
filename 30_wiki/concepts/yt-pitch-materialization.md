@@ -31,6 +31,7 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#pitch"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
   - "#yitang"
   - "#具象化"

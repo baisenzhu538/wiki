@@ -13,7 +13,10 @@ tags:
   - "#boundary/single-use-only"
   - "#confidence/verified-by-case"
   - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
   - "#scene/skill-engineering"
 ---
 

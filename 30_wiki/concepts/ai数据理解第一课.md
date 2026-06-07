@@ -22,10 +22,13 @@ query_triggers:
 tags:
   - "#boundary/not-for-creative"
   - "#confidence/source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
+  - "#scene/agent-infrastructure/skill-registry"
+  - "#scene/ai-collaboration/human-ai-division"
+  - "#scene/knowledge-management/atomization"
+  - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology"
-  - "#scene/skill-engineering"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # AI数据理解第一课

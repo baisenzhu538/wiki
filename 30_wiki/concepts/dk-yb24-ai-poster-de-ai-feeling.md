@@ -15,13 +15,14 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb20-ai-eye-high-principle"
-contradicts:
+contradicts: ""
 ---
 
 # AI海报去AI感：图标+质感人物双要素

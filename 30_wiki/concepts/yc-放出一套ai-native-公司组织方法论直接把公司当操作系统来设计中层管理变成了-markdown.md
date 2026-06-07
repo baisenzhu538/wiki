@@ -18,7 +18,8 @@ tags:
   - "#boundary/single-use-only"
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
   - "#scene/skill-engineering"
 ---

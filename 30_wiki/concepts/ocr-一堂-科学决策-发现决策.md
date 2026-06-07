@@ -13,6 +13,7 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
+  - "#scene/note-taking/checklist-method"
 ---
 
 # OCR: 一堂-科学决策-发现决策

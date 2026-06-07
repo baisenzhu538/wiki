@@ -8,7 +8,7 @@ status: "stable"
 tags:
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/mental-models"
   - "course-map"
   - "dataview"
   - "index"

@@ -1,6 +1,6 @@
 ---
 id: "yt-prompt-engineering-andrew-ng"
-component_of:
+component_of: ""
 confidence: 0.9
 created_at: 2026-05-13
 difficulty: "intermediate"
@@ -44,9 +44,9 @@ tags:
   - "#confidence/verified-by-case"
   - "#entrepreneur"
   - "#prompt-engineering"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
   - "#scene/skill-engineering"
   - "#yitang"

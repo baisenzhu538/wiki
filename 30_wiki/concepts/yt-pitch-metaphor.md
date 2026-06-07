@@ -32,6 +32,8 @@ tags:
   - "#pitch"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/level-diagnosis"
   - "#yitang"
   - "#抽象化"
 title: "讲香·比喻化"

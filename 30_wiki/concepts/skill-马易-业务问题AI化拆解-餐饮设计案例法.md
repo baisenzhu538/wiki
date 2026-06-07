@@ -3,11 +3,11 @@ id: "skill-马易-业务问题AI化拆解-餐饮设计案例法"
 title: "技能：业务问题AI化拆解-餐饮设计案例法"
 type: "skill"
 status: "draft"
-domain:
+domain: ""
 source_person: "马易"
 source_context: "AI落地场景识别"
-source_refs:
-wiki_refs:
+source_refs: ""
+wiki_refs: ""
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -18,10 +18,12 @@ tags:
   - "#domain/AI"
   - "#domain/design"
   - "#domain/scene-analysis"
+  - "#scene/knowledge-management/atomization"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
-tools_required:
-prerequisite_skills:
-related:
+tools_required: ""
+prerequisite_skills: ""
+related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 ---

@@ -1,6 +1,6 @@
 ---
 id: "yt-model-progress-map"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: "foundational"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1881
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "五段式架构"
   - "关联卡片"
@@ -31,6 +31,7 @@ tags:
   - "#methodology"
   - "#progress-map"
   - "#scene/knowledge-management"
+  - "#scene/note-taking/level-diagnosis"
   - "#yitang"
 title: "无限进步大地图"
 type: "framework"

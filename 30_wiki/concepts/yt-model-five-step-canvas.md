@@ -1,6 +1,6 @@
 ---
 id: "yt-model-five-step-canvas"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 2531
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "两个画布的联合使用"
   - "五步法画布"
@@ -30,7 +30,9 @@ tags:
   - "#five-step-method"
   - "#product-core"
   - "#scene/business-analysis"
-  - "#scene/knowledge-management"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
   - "#yitang"
 title: "五步法画布 × 产品内核画布：从假设到壁垒的实操工具"

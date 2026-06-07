@@ -14,6 +14,8 @@ tags:
   - "#confidence/source-cited"
   - "#scene/business-analysis"
   - "#scene/hardware-debugging"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/note-taking/live-field"
 ---
 
 # OCR: 一堂-科学决策-商业模式-完整财务公式决策

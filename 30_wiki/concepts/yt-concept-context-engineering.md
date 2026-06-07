@@ -33,7 +33,7 @@ tags:
   - "#confidence/verified-by-case"
   - "#context"
   - "#prompt-engineering"
-  - "#scene/ai-collaboration"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis"
   - "#scene/learning-methodology"
   - "#scene/skill-engineering"

@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-key-hypotheses"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -32,10 +32,12 @@ tags:
   - "#boundary/not-for-beginners"
   - "#boundary/single-use-only"
   - "#confidence/source-cited"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/ai-collaboration/pdca-execution"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/live-field"
+  - "#scene/skill-engineering/manifest-design"
   - "#yitang"
   - "#关键假设"
   - "#创业"

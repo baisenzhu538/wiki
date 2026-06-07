@@ -13,10 +13,11 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
-  - "#scene/knowledge-management"
+  - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/eval-testing"
+  - "#scene/skill-engineering/manifest-design"
 ---
 
 # OCR: 一堂Y模型-科学成事道理

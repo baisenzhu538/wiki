@@ -16,6 +16,7 @@ tags:
   - "#scene/hardware-debugging"
   - "#scene/knowledge-management"
   - "#scene/product-design"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 泛产品设计-落地卡片-低成本测试MVP

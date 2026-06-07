@@ -15,8 +15,8 @@ related:
   - "gold-standard-manual-labels"
 tags:
   - "#confidence/draft"
-  - "#scene/agent-infrastructure"
-  - "#scene/knowledge-management"
+  - "#scene/agent-infrastructure/skill-registry"
+  - "#scene/knowledge-management/tagging"
 ---
 
 # KDO YAML Frontmatter 安全操作指南

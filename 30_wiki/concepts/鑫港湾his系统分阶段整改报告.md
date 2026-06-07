@@ -18,8 +18,9 @@ tags:
   - "#confidence/source-cited"
   - "#scene/agent-infrastructure"
   - "#scene/knowledge-management"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # 鑫港湾HIS系统分阶段整改报告

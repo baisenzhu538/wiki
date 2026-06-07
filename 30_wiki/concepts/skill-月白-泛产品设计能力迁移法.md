@@ -3,11 +3,11 @@ id: "skill-月白-泛产品设计能力迁移法"
 title: "技能：泛产品设计能力迁移法"
 type: "skill"
 status: "draft"
-domain:
+domain: ""
 source_person: "月白"
 source_context: "AI设计师实操"
-source_refs:
-wiki_refs:
+source_refs: ""
+wiki_refs: ""
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -17,12 +17,12 @@ tags:
   - "#domain/AI"
   - "#domain/design"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
-tools_required:
-prerequisite_skills:
-related:
+  - "#scene/skill-engineering/publish-deploy"
+tools_required: ""
+prerequisite_skills: ""
+related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 ---

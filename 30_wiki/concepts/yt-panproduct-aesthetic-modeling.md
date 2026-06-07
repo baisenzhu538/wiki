@@ -38,6 +38,8 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#pan-product-design"
+  - "#scene/hardware-debugging/prototyping"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
   - "#scene/product-design"
   - "#yitang"

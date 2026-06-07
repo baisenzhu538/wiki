@@ -21,7 +21,8 @@ tags:
   - "#scene/business-analysis"
   - "#scene/knowledge-management"
   - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/level-diagnosis"
   - "#scene/skill-engineering"
   - "#source_type/insight"
 created_at: 2026-06-07

@@ -14,11 +14,13 @@ tags:
   - "#confidence/source-cited"
   - "#domain/ai-collaboration"
   - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/knowledge-management/atomization"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
   - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/course-to-skill"
 tools_required:
   - "文本编辑工具"
 prerequisite_skills:

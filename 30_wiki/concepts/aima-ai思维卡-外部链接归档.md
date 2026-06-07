@@ -11,6 +11,7 @@ type: "concept"
 updated_at: 2026-05-22
 tags:
   - "#confidence/source-cited"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # AIMA AI思维卡 — 外部链接归档

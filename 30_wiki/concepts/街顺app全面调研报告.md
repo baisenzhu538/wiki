@@ -19,6 +19,8 @@ tags:
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
   - "#scene/hardware-debugging"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # 街顺APP全面调研报告

@@ -1,6 +1,6 @@
 ---
 id: "yt-unit-model-ai-assisted"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-24
 difficulty: "intermediate"
@@ -35,10 +35,10 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#entrepreneur"
-  - "#scene/business-analysis"
+  - "#scene/business-analysis/conversion-rate"
   - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/skill-engineering/publish-deploy"
   - "#tool"
   - "#unit-model"
   - "#yitang"

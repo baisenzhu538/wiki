@@ -16,8 +16,8 @@ tags:
   - "#confidence/verified-by-case"
   - "#domain/ai-collaboration"
   - "#domain/yitang"
-  - "#scene/ai-collaboration"
-  - "#scene/skill-engineering"
+  - "#scene/ai-collaboration/problem-validation"
+  - "#scene/skill-engineering/course-to-skill"
   - "#type/dark-knowledge"
 created_at: 2026-06-07
 updated_at: 2026-06-07

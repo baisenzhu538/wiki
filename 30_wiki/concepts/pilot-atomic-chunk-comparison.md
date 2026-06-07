@@ -13,8 +13,10 @@ tags:
   - "#domain/knowledge-management"
   - "#quality/high-signal"
   - "#scene/agent-infrastructure"
-  - "#scene/knowledge-management"
-  - "#scene/note-taking"
+  - "#scene/knowledge-management/atomization"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/live-field"
 ---
 
 # Pilot：master-decision-hygiene 真原子切分对比

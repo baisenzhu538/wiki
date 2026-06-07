@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-concentration-analysis"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1849
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "集中度分析"
   - "行业集中度"
@@ -31,7 +31,8 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/live-field"
   - "#yitang"
 title: "集中度分析"
 trust_level: "medium"

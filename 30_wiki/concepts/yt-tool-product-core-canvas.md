@@ -1,6 +1,6 @@
 ---
 id: "yt-tool-product-core-canvas"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-06-06
 difficulty: "intermediate"
@@ -33,9 +33,10 @@ tags:
   - "#boundary/single-use-only"
   - "#confidence/source-cited"
   - "#scene/agent-infrastructure"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/skill-engineering"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/skill-engineering/manifest-design"
   - "#yitang"
   - "#产品内核"
   - "#工具"

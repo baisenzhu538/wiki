@@ -1,6 +1,6 @@
 ---
 id: "yt-concept-p-type-l-type"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-06-06
 difficulty: "beginner"
@@ -33,8 +33,10 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/skill-engineering/manifest-design"
   - "#yitang"
   - "#创业者类型"
   - "#概念"

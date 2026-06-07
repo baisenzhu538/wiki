@@ -1,19 +1,9 @@
 ---
-title: "单元模型动态预测器：规模经济与拐点判断"
-date: "2026-05-24"
-type: "tool"
-status: "enriched"
-domain: "decision-science"
-source_refs:
-author: "一堂科学决策课程"
-component_of: "yt-decision-full-process"
-related: ""
-id: "yt-tool-unit-model-dynamic - "yt-unit-model-overview" - "yt-unit-model-ladder" - "yt-unit-model-benchmark" - "yt-entrepreneur-five-step-method" - "master-systems-thinking" - "master-first-principles""
 tags:
-  - "#boundary/requires-human-judgment"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/live-field"
 ---
 
 ## Reusable Knowledge

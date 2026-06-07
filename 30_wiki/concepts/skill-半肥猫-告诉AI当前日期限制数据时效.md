@@ -15,9 +15,11 @@ tags:
   - "#confidence/verified-by-case"
   - "#confidence/verified-by-test"
   - "#domain/ai-collaboration"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/skill-engineering"
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/skill-engineering/course-to-skill"
+  - "#scene/skill-engineering/eval-testing"
 tools_required:
   - "AIGC大模型"
 prerequisite_skills:

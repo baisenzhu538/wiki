@@ -19,8 +19,11 @@ tags:
   - "#domain/cognitive-science"
   - "#domain/note-taking"
   - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/note-taking/live-field"
+  - "#scene/note-taking/training-plan"
   - "#scene/skill-engineering"
   - "#source_type/insight"
 created_at: 2026-06-07

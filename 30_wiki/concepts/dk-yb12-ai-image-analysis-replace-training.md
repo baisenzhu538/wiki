@@ -14,6 +14,7 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#domain/design"
+  - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/learning-methodology"
   - "#scene/skill-engineering"
   - "#source_type/dark-knowledge"
@@ -22,7 +23,7 @@ updated_at: 2026-06-04
 related:
   - "dk-yb11-visual-book-reverse"
   - "dk-yb13-zero-shot-style-transfer"
-contradicts:
+contradicts: ""
 ---
 
 # AI图像分析替代模型训练：快速提取参考图共性

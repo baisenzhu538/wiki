@@ -4,7 +4,7 @@ type: "concept"
 status: "draft"
 source_refs:
   - "src_20260606_90b44191"
-component_of:
+component_of: ""
 related:
   - "course-to-skill-conversion"
   - "voice-input-doubao"
@@ -21,11 +21,15 @@ tags:
   - "#confidence/draft"
   - "#confidence/source-cited"
   - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
+  - "#scene/ai-collaboration/prompt-engineering"
+  - "#scene/ai-collaboration/workspace-design"
+  - "#scene/knowledge-management/atomization"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/course-to-skill"
+  - "#scene/skill-engineering/manifest-design"
 ---
 
 # AI学习闭环：从"听懂"到"能力"的转化路径

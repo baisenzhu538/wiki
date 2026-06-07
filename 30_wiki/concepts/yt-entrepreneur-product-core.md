@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-product-core"
-component_of:
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -35,8 +35,12 @@ source_refs:
 status: "enriched"
 tags:
   - "#confidence/source-cited"
-  - "#scene/business-analysis"
-  - "#scene/skill-engineering"
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/note-taking/live-field"
+  - "#scene/skill-engineering/manifest-design"
   - "#yitang"
   - "#产品内核"
   - "#创业"

@@ -1,6 +1,6 @@
 ---
 id: "yt-entrepreneur-growth-flywheel"
-component_of:
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: "intermediate"
@@ -8,7 +8,7 @@ domain:
   - "yitang"
 estimated_tokens: 1812
 language: "zh-CN"
-prerequisites:
+prerequisites: ""
 query_triggers:
   - "增长飞轮"
   - "飞轮地图"
@@ -29,8 +29,9 @@ status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
   - "#confidence/source-cited"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
   - "#yitang"
 title: "增长飞轮"

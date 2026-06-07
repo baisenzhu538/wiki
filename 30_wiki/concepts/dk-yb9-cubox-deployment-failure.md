@@ -16,12 +16,13 @@ tags:
   - "#domain/design"
   - "#scene/ai-collaboration"
   - "#scene/knowledge-management"
+  - "#scene/skill-engineering/publish-deploy"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "— 暂无（待后续卡片补充关联）"
-contradicts:
+contradicts: ""
 ---
 
 # Cubox及AI协作工具的团队部署失败模式

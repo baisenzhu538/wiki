@@ -21,9 +21,10 @@ tags:
   - "#confidence/verified-by-case"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/learning-methodology/deliberate-practice"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/skill-engineering/manifest-design"
 ---
 
 # 四要素诊断模型——刻意练习的笔记落地框架

@@ -22,7 +22,7 @@ tags:
   - "#scene/business-analysis"
   - "#scene/knowledge-management"
   - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/skill-engineering/course-to-skill"
 ---
 
 # 一堂调研武器库课程

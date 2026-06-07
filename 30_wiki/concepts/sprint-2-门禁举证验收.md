@@ -11,6 +11,7 @@ type: "concept"
 updated_at: 2026-05-09
 tags:
   - "#confidence/source-cited"
+  - "#scene/knowledge-management/tagging"
 ---
 
 # Sprint 2 门禁举证验收

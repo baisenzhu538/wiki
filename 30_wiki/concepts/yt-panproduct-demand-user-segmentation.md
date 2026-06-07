@@ -33,6 +33,8 @@ tags:
   - "#confidence/source-cited"
   - "#confidence/verified-by-case"
   - "#pan-product-design"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/checklist-method"
   - "#scene/product-design"
   - "#segmentation"
   - "#user-research"

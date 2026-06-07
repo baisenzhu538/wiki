@@ -14,8 +14,9 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
   - "#confidence/source-cited"
-  - "#scene/learning-methodology"
+  - "#scene/learning-methodology/feedback-loop"
   - "#scene/product-design"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # OCR: 泛产品设计-落地卡片-管理三段论

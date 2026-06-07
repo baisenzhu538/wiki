@@ -23,9 +23,10 @@ tags:
   - "#confidence/source-cited"
   - "#scene/ai-collaboration"
   - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/note-taking/checklist-method"
+  - "#scene/note-taking/live-field"
+  - "#scene/skill-engineering/publish-deploy"
 ---
 
 # 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准

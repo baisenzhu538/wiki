@@ -16,7 +16,7 @@ component_of:
   - "yt-model-personal-pitch-toolkit"
 related:
   - "yt-concept-weapon-arsenal"
-contradicts:
+contradicts: ""
 query_triggers:
   - "比喻化"
   - "比喻"
@@ -29,7 +29,8 @@ tags:
   - "#confidence/verified-by-case"
   - "#pitch"
   - "#scene/business-analysis"
-  - "#scene/knowledge-management"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/mental-models"
   - "#yitang"
   - "#抽象化"
 source_refs:

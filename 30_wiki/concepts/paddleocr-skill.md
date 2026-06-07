@@ -5,7 +5,7 @@ domain:
   - "['master']"
 review_date: 2026-05-07
 reviewed_by: "黄药师"
-source_refs:
+source_refs: ""
 status: "enriched"
 tags:
   - "#ocr"
@@ -13,8 +13,9 @@ tags:
   - "#paddleocr"
   - "#scene/ai-collaboration"
   - "#scene/knowledge-management"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - "#scene/product-design/design-freeze"
+  - "#scene/skill-engineering/manifest-design"
+  - "#scene/skill-engineering/publish-deploy"
   - "#skill"
   - "#tool"
 title: "PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill"

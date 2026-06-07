@@ -5,7 +5,7 @@ domain:
   - "['master']"
 review_date: 2026-05-06
 reviewed_by: "黄药师"
-source_refs:
+source_refs: ""
 status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
@@ -15,9 +15,10 @@ tags:
   - "#persona"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - "#scene/knowledge-management/tagging"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/level-diagnosis"
+  - "#scene/note-taking/live-field"
   - "#scene/skill-engineering"
   - "#skill"
   - "#truman"
