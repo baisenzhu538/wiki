@@ -584,3 +584,9 @@ _Last updated: 2026-06-06T06:31:20+00:00_
 - [[tools/yt-tool-unit-model-construction.md|单元模型构建器：拆推评算八字诀]] — source no source
 - [[tools/yt-tool-unit-model-dynamic.md|单元模型动态预测器：规模经济与拐点判断]] — source no source
 - [[tools/yt-tool-unit-model-selection.md|单元模型选择器：复制哪个算哪个]] — source no source
+- [[concepts/dk-note-maximum-common-divisor.md|清单体是人与AI的"最大公约数"：结构降级即认知升级]] — source `00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt`
+- [[concepts/dk-note-rookie-disaster-veteran-heaven.md|“新人灾难，老人天堂"：AI时代笔记基本功的幻灭危机]] — source `00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt`
+- [[concepts/dk-note-surplus-brainpower.md|“剩余脑力"是清单体的真正标准：从“写完”到“写对”的跳跃]] — source `00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt`
+- [[tools/skill-note-layer-constraint.md|清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准]] — source `00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt`
+- [[tools/skill-note-keyword-bolding.md|关键词加粗法：用视觉层级替代认知层级的清单体练习]] — source `00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt`
+- [[tools/skill-note-one-line-one-point.md|一行一点法：清单体的极致压缩与认知筛选]] — source `00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt`
