@@ -590,3 +590,8 @@ _Last updated: 2026-06-06T06:31:20+00:00_
 - [[tools/skill-note-layer-constraint.md|清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准]] — source `00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt`
 - [[tools/skill-note-keyword-bolding.md|关键词加粗法：用视觉层级替代认知层级的清单体练习]] — source `00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt`
 - [[tools/skill-note-one-line-one-point.md|一行一点法：清单体的极致压缩与认知筛选]] — source `00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt`
+
+- [[concepts/dk-ef-001-sn74lvc2g07-open-drain.md|��©��������壺��������̫��]] �� source E-FM-001
+- [[concepts/dk-ef-002-bom-version-async.md|BOM��汾��ͬ��]] �� source E-FM-002
+- [[concepts/dk-ef-003-hand-soldering-bom-divergence.md|�ֺ���������޸�]] �� source E-FM-003
+- [[concepts/dk-ef-004-missing-diagnostic-firmware.md|û����Ϲ̼�����ä��]] �� source E-FM-004
