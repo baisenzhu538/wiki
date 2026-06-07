@@ -7,6 +7,9 @@ status: draft
 created_at: '2026-06-07'
 updated_at: '2026-06-07'
 estimated_tokens: 4500
+source_refs:
+  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
+  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt"
 ---
 
 # 从清单体到AI时代的认知重构——一堂Truman笔记法的三个核心洞察
