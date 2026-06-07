@@ -13,31 +13,10 @@ skill:
     生成个性化进阶训练计划。
   tagline: "不探讨，不说教，直接干活。"
 
-# ── 知识注入 ──────────────────────────────────
+# ── 知识注入（渐进式披露，四层递进）────────────────
 
 knowledge:
-  # 静态注入：从 wiki 卡片编译的核心知识
-  cards:
-    - id: yt-note-checklist-concept
-      title: 清单体笔记核心概念
-      role: 定义层——四个特征、六大优势、与其他笔记形式的对比
-    - id: yt-note-ai-human-division
-      title: AI时代笔记分工边界
-      role: 边界层——L1-L6能力模型、AI接管梯度、新人陷阱
-    - id: yt-note-five-levels-training
-      title: 五阶进阶训练法
-      role: 训练层——L1→L5通关路径、暗知识（剩余脑力/笔记即练习/问题系统/立flag）
-    - id: yt-note-live-field-skill
-      title: 现场笔记完成度五步法
-      role: 实战层——现场建模、如厕大法、灵感捕捉、剩余脑力分配
-
-  # 动态检索：Graph RAG 补充语义匹配
-  graph_rag_queries:
-    - "清单体笔记 训练方法 AI分工 剩余脑力"
-    - "笔记能力诊断 刻意练习 现场建模"
-    - "IPO学习模型 守脑如玉"
-
-  # 设计哲学（从 Truman AI Partner 反推）
+  # 设计哲学（所有层级共享）
   design_principles:
     - id: constraint-as-capability
       statement: "P角色 + L1-L2边界 + 清单体I/O，三个约束让AI成为'最能让人成长的AI'"
@@ -45,6 +24,83 @@ knowledge:
       statement: "清单体是人类认知与AI数据结构之间的适配层——不需要中间的翻译步骤"
     - id: context-determines-ceiling
       statement: "用户提供的上下文质量直接决定输出质量。好输入=好输出。"
+
+  # 渐进式披露：四层递进
+  # 纪浩模式——导诊台→工作手册→经验库→领域知识。知识越来越深。
+  progressive_disclosure:
+
+    # L1 导诊台：必加载。Agent 身份 + 任务路由。
+    # 所有能力共享这一层。没有 L1，Agent 不知道自己是干什么的。
+    triage:
+      description: "Agent 身份认知 + 任务分类路由。所有对话默认加载。"
+      cards:
+        - id: yt-note-checklist-concept
+          title: 清单体笔记核心概念
+          role: "定义什么是清单体——四个特征、六大优势、对比表。Agent 的'我是谁'认知来源"
+
+    # L2 工作手册：按能力按需加载。具体怎么做。
+    # 不同能力加载不同的 cards。
+    work_manual:
+      description: "标准操作流程。按触发的能力，只注入与当前任务相关的 cards。"
+      capability_routing:
+        - capability: structure-raw-material
+          cards: []  # 结构化整理只需 L1 导诊台知识
+        - capability: diagnose-note-level
+          cards:
+            - id: yt-note-five-levels-training
+              title: 五阶进阶训练法
+              role: "诊断依据——每阶段的'上台阶标准'和'关键练习方法'"
+        - capability: generate-training-plan
+          cards:
+            - id: yt-note-five-levels-training
+              title: 五阶进阶训练法
+              role: "训练计划模板——每日练习、通过标准、预估周期、失败模式"
+            - id: yt-note-live-field-skill
+              title: 现场笔记完成度五步法
+              role: "高阶练习参考——L4-L5阶段的训练方法"
+        - capability: quality-check
+          cards:
+            - id: yt-note-checklist-concept
+              title: 清单体笔记核心概念
+              role: "质量标准的来源——分点/分层/独立行/原创占比/可行动性"
+
+    # L3 经验库：失败时按需加载。踩过的坑。
+    # 当 Agent 或用户的输出出现已知失败模式时，查这一层。
+    experience:
+      description: "已知失败模式和边界情况。检测到对应信号时注入。"
+      triggers:
+        - signal: "用户连续多次使用同一能力但进步停滞"
+          cards:
+            - id: yt-note-ai-human-division
+              title: AI时代笔记分工边界
+              role: "提醒用户：AI 是磨刀石不是拐杖。L1-L2 被 AI 接管后，人必须主动投向 L4-L5"
+        - signal: "用户问'怎么快速到L5'或类似捷径问题"
+          cards:
+            - id: yt-note-ai-human-division
+              title: AI时代笔记分工边界
+              role: "新人陷阱——'新人的灾难，老人的天堂'。跳过基本功的代价"
+        - signal: "用户笔记结构完整但原创占比低（<30%）"
+          cards:
+            - id: yt-note-ai-human-division
+              title: AI时代笔记分工边界
+              role: "L3内化——AI可以做格式，但'内化'必须人自己做"
+
+    # L4 领域知识：深层原理。概念不清楚时查这一层。
+    domain:
+      description: "底层方法论和跨域连接。当任务涉及概念澄清或方法论溯源时注入。"
+      cards:
+        - id: yt-model-ipo-learning-strategy
+          title: IPO学习模型
+          role: "笔记在IPO闭环中的位置——清单体是Output端的外化形式，也是Process端的存储工具"
+        - id: yt-concept-ai-guard-brain
+          title: 守脑如玉
+          role: "AI可以做笔记，但不能替你思考。与AI分工边界的哲学互补"
+
+  # 动态检索：当 L1-L4 静态注入不足以覆盖用户问题时，查 Graph RAG
+  graph_rag_queries:
+    - "清单体笔记 训练方法 AI分工 剩余脑力"
+    - "笔记能力诊断 刻意练习 现场建模"
+    - "IPO学习模型 守脑如玉"
 
 # ── 能力清单 ──────────────────────────────────
 
