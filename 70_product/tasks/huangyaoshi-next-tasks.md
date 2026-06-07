@@ -29,6 +29,39 @@ dk-ef-004-missing-diagnostic-firmware.md
 
 前缀 `dk-ef-*`，`dark_knowledge_type: hardware-failure`。保留 E-FM 编号溯源。
 
+### Task E：note-coach Agent 正式部署（P1，待 欧阳锋审查后启动）
+
+> 顶层思考见 `40_outputs/capabilities/skills/note-coach/SKILL.md` + `manifest.yaml` + `30_wiki/decisions/truman-ai-partner-design-analysis.md`
+
+**背景**：已完成 Skill 定义（manifest + system-prompt）、kdo encapsulate 编译命令、Hermes profile 骨架。2026-06-07 实测一堂 P 角色 vs C 角色后确认方向。
+
+**实测验证的核心结论**：
+1. **P 角色定位正确**——用户给了高质量输入（半结构化深度复盘），AI 一轮就产出完整清单体。输入好 → 输出好，跟 system prompt 里的设计哲学完全吻合
+2. **C 角色不是我们要的方向**——54 轮对话、45 分钟，虽然深度够但交互成本太高。我们是自己用，追求效率，不需要"点燃追求"那套
+3. **Truman 的 P 角色和我们的 note-coach 设计高度同构**——我们的四个能力（整理/诊断/训练/检查）覆盖了 P 角色场景，硬约束（不探讨/不说教/不替人判断）完全正确
+
+**部署路径（三步）**：
+
+| 步骤 | 内容 | 状态 |
+|:--|:---|:--:|
+| 1 | Skill 定义完整（manifest + system-prompt + SKILL.md） | ✅ |
+| 2 | `kdo encapsulate` 编译命令可用 | ✅ |
+| 3 | 生产部署：飞书 bot 或本地 CLI | 🔜 待启动 |
+
+**Step 3 具体做法**：
+- 方案 A（飞书 bot）：Hermes profile `note-coach` 已创建骨架（SOUL.md + config.yaml + start-note-coach.ps1）→ 需要飞书开放平台注册 webhook + cc-connect 对接
+- 方案 B（本地 CLI）：直接用 `kdo encapsulate note-coach` 编译 → 复制 system prompt 到 Claude/DeepSeek 窗口 → 开始用
+- 方案 C（KDO 内置）：把 note-coach 注册为 KDO 内置 Skill，kdo CLI 可以直接 `kdo note-coach "帮我整理这段..."`
+
+**建议**：先用方案 B 跑起来（零配置，现在就能用），方案 A 等飞书 bot 基础设施稳定后再搞。
+
+**关键设计原则（从实测中确认的）**：
+- P 角色——直接干活，不探讨不说教
+- 清单体 I/O——输入越结构化，输出越好
+- L1-L2 硬边界——不做 L4-L5 建模建议
+- 好输入=好输出——不猜测用户水平
+- 约束即能力——AI 的"弱"是故意的
+
 ### 标签 schema 注册（P1，Task D 完成后）
 
 定义标签字段的枚举值，让 `kdo validate` 可校验，避免自由标签导致检索混乱。
