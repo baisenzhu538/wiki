@@ -1,9 +1,9 @@
 ---
-updated: 2026-06-07
+updated: 2026-06-08
 active_branch: main
-active_task: "KDO 效能升级三阶段全部完成 ✅。新任务 F/G/H 已写入：角色编译 / 产出模板+checklist / 案例库建设。从知识宝库到内容工厂基础设施。"
+active_task: "纪浩样板批次完成（9+3卡，四卡体系示范）。案例库独立化完成（5条case+索引+CLI）。半肥猫case入库。kdo skill validate 完成。"
 blockers: []
-next_session_hint: "用户说'继续'→ ① 选一个 Task F/G/H 开始 ② 或继续纪浩批次重工 ③ 或 note-coach 飞书部署"
+next_session_hint: "用户说'继续'→ ① 老顽童重工纪浩批次 ② note-coach飞书部署 ③ Task F/G/H（角色编译/产出模板/案例库扩充）"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
