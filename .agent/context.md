@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-07
 active_branch: main
-active_task: "🆕 审查老顽童纪浩批次（25张skill卡，C+，需重工）。P角色vsC角色实测验证。案例库待启动。"
+active_task: "🆕 Phase 1 执行中：case 卡模板 + 纪浩 Skills 市场案例入库 + kdo skill list。KDO 效能升级规划已审批。欧阳锋三份讨论稿已对齐。"
 blockers: []
-next_session_hint: "用户说'继续'→ ① 纪浩批次重工方向确认 ② 案例库启动标准 ③ Agent-facing Skill分类层设计"
+next_session_hint: "用户说'继续'→ 接 Phase 1 剩余任务 或 进入 Phase 2（Agent 发现链路 + 深度检测）"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
