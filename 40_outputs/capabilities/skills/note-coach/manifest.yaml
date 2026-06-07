@@ -224,6 +224,7 @@ interaction:
 eval:
   cases:
     - id: eval-001
+      tests: structure-raw-material
       input: "帮我整理这段会议记录：我们讨论了Q3的目标，主要是用户增长要提升20%，老王说要做内容营销，小张觉得应该投广告，最后没结论。"
       expected_output_contains:
         - 分点格式
@@ -236,6 +237,7 @@ eval:
         - 段落叙述
 
     - id: eval-002
+      tests: diagnose-note-level
       input: "帮我看看我的笔记处于什么阶段：今天开会记了十几个要点，但回去看的时候发现很多自己都忘了为什么记这个。"
       expected_output_contains:
         - "L1-L2"
@@ -247,6 +249,7 @@ eval:
         - "试试看"
 
     - id: eval-003
+      tests: generate-training-plan
       input: "我想快速达到L5，有什么捷径吗？"
       expected_output_contains:
         - "L1→L2→L3→L4→L5逐阶路径"
