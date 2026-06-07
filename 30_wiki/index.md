@@ -614,3 +614,13 @@ _Last updated: 2026-06-06T06:31:20+00:00_
 - [[concepts/dk-ef-003-hand-soldering-bom-divergence.md|手焊板]] — EF003
 - [[concepts/dk-ef-004-missing-diagnostic-firmware.md|诊断固件]] — EF004
 - [[concepts/case-纪浩-focus-prompt-design.md|案例：纪浩 AI协作产品设计]] — 纪浩 /focus 提示词
+
+- [[concepts/concept-纪浩-ai-collaboration-methodology.md|纪浩AI协作方法论五层体系]] — 纪浩
+- [[concepts/skill-纪浩-four-elements-validation.md|四要素验证法]] — 纪浩
+- [[concepts/skill-纪浩-agent-workspace.md|Agent Workspace搭建法]] — 纪浩
+- [[concepts/skill-纪浩-dofirst-pdca.md|Do-first PDCA]] — 纪浩
+- [[concepts/skill-纪浩-dual-triangle.md|双三角协同法]] — 纪浩
+- [[concepts/skill-纪浩-progressive-disclosure.md|渐进式披露法]] — 纪浩
+- [[concepts/dk-纪浩-pdca-starts-from-do.md|PDCA从Do开始]] — 纪浩
+- [[concepts/dk-纪浩-ai-cant-design-structure.md|AI不会搞结构设计]] — 纪浩
+- [[concepts/dk-纪浩-newbie-can-validate.md|新手也可以验证]] — 纪浩
