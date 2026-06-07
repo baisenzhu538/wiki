@@ -1,4 +1,5 @@
-# Wiki Index
+ï»¿#
+# Wiki Index
 
 
 _Last updated: 2026-06-06T06:31:20+00:00_
@@ -591,17 +592,17 @@ _Last updated: 2026-06-06T06:31:20+00:00_
 - [[tools/skill-note-keyword-bolding.md|å…³é”®è¯åŠ ç²—æ³•ï¼šç”¨è§†è§‰å±‚çº§æ›¿ä»£è®¤çŸ¥å±‚çº§çš„æ¸…å•ä½“ç»ƒä¹ ]] â€” source `00_inbox/ä¸€å ‚-AIæ—¶ä»£æ¸…å•ä½“ç¬”è®°-Truman-å£è¿°-01.txt`
 - [[tools/skill-note-one-line-one-point.md|ä¸€è¡Œä¸€ç‚¹æ³•ï¼šæ¸…å•ä½“çš„æè‡´å‹ç¼©ä¸è®¤çŸ¥ç­›é€‰]] â€” source `00_inbox/ä¸€å ‚-AIæ—¶ä»£æ¸…å•ä½“ç¬”è®°-Truman-å£è¿°-01.txt`
 
-- [[concepts/dk-ef-001-sn74lvc2g07-open-drain.md|¿ªÂ©Êä³öµÄÏİÚå£ºÉÏÀ­µç×èÌ«´ó]] ¡ª source E-FM-001
-- [[concepts/dk-ef-002-bom-version-async.md|BOM¶à°æ±¾²»Í¬²½]] ¡ª source E-FM-002
-- [[concepts/dk-ef-003-hand-soldering-bom-divergence.md|ÊÖº¸°åµÄÒşĞÔĞŞ¸Ä]] ¡ª source E-FM-003
-- [[concepts/dk-ef-004-missing-diagnostic-firmware.md|Ã»ÓĞÕï¶Ï¹Ì¼ş¾ÍÊÇÃ¤µ÷]] ¡ª source E-FM-004
+- [[concepts/dk-ef-001-sn74lvc2g07-open-dra n.md|ï¿½ï¿½Â©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å£ºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì«ï¿½ï¿½]] ï¿½ï¿½ source E-FM-001
+- [[concepts/dk-ef-002-bom-version-async.md|BOMï¿½ï¿½æ±¾ï¿½ï¿½Í¬ï¿½ï¿½]] ï¿½ï¿½ source E-FM-002
+- [[concepts/dk-ef-003-hand-soldering-bom-divergence.md|ï¿½Öºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ş¸ï¿½]] ï¿½ï¿½ source E-FM-003
+- [[concepts/dk-ef-004-missing-diagnostic-firmware.md|Ã»ï¿½ï¿½ï¿½ï¿½Ï¹Ì¼ï¿½ï¿½ï¿½ï¿½ï¿½Ã¤ï¿½ï¿½]] ï¿½ï¿½ source E-FM-004
 
-- [[concepts/case-¼ÍºÆ-skills-market.md|°¸Àı£ºÒ»ÌÃ Skills ·Ö·¢Æ½Ì¨]] ¡ª from ¼ÍºÆ AIĞ­×÷·½·¨ÂÛ
-- [[concepts/case-truman-ai-partner.md|°¸Àı£ºTruman AI Partner Éè¼Æ]] ¡ª from Truman Çåµ¥Ìå±Ê¼Ç¿Î³Ì
+- [[concepts/case-ï¿½Íºï¿½-skills-market.md|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ Skills ï¿½Ö·ï¿½Æ½Ì¨]] ï¿½ï¿½ from ï¿½Íºï¿½ AIĞ­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+- [[concepts/case-truman-ai-partner.md|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Truman AI Partner ï¿½ï¿½ï¿½]] ï¿½ï¿½ from Truman ï¿½åµ¥ï¿½ï¿½Ê¼Ç¿Î³ï¿½
 
-- [[concepts/case-¼ÍºÆ-skills-market.md|°¸Àı£ºSkills·Ö·¢Æ½Ì¨]] ¡ª ¼ÍºÆ
-- [[concepts/case-truman-ai-partner.md|°¸Àı£ºAI Partner]] ¡ª Truman
-- [[concepts/dk-ef-001-sn74lvc2g07-open-drain.md|¿ªÂ©Êä³ö]] ¡ª EF001
-- [[concepts/dk-ef-002-bom-version-async.md|BOM²»Í¬²½]] ¡ª EF002
-- [[concepts/dk-ef-003-hand-soldering-bom-divergence.md|ÊÖº¸°å]] ¡ª EF003
-- [[concepts/dk-ef-004-missing-diagnostic-firmware.md|Õï¶Ï¹Ì¼ş]] ¡ª EF004
+- [[concepts/case-ï¿½Íºï¿½-skills-market.md|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Skillsï¿½Ö·ï¿½Æ½Ì¨]] ï¿½ï¿½ ï¿½Íºï¿½
+- [[concepts/case-truman-ai-partner.md|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½AI Partner]] ï¿½ï¿½ Truman
+- [[concepts/dk-ef-001-sn74lvc2g07-open-drain.md|ï¿½ï¿½Â©ï¿½ï¿½ï¿½]] ï¿½ï¿½ EF001
+- [[concepts/dk-ef-002-bom-version-async.md|BOMï¿½ï¿½Í¬ï¿½ï¿½]] ï¿½ï¿½ EF002
+- [[concepts/dk-ef-003-hand-soldering-bom-divergence.md|ï¿½Öºï¿½ï¿½ï¿½]] ï¿½ï¿½ EF003
+- [[concepts/dk-ef-004-missing-diagnostic-firmware.md|ï¿½ï¿½Ï¹Ì¼ï¿½]] ï¿½ï¿½ EF004
