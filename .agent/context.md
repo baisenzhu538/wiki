@@ -1,8 +1,9 @@
 ---
-updated: 2026-06-04
+updated: 2026-06-07
 active_branch: main
-active_task: "广冷红外板调试 ✅。Task A (kdo stale) ✅。Task B spec 已写。电子工程域 KDO 化建议已写。Codex + Kimi 安装受 Win10 沙箱阻断，复盘已写。🆕 KDO 技能提取基础设施设计完成：huangyaoshi/skill-extraction-infrastructure-design.md。四个新主题在 inbox，老顽童处理中。"
+active_task: "🆕 审查老顽童清单体笔记 KDO 产出（4卡+1文章+1dk+1旧卡更新）。审查基本完成，深度问题待与用户继续探讨。"
 blockers: []
+next_session_hint: "用户说'继续'→ 继续探讨老顽童清单体笔记审查中的深度不足问题"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
@@ -37,10 +38,10 @@ blockers: []
 ## 当前共享状态
 
 ### 各角色当前任务
-- **黄药师**：Sprint 4 ✅。Sprint 5（Validate→Ship 闭环）✅ 审查通过。**新任务：** Sprint 5a — Article validator source_refs 识别修复
-- **欧阳锋**：本会话完成三轮审查（老顽童单元模型域 ✅ / 洪七公VA ✅ / 黄药师Sprint 3 ✅），写入 Batch 4 修补标准至任务文件。
-- **老顽童**：管理工具箱 Batch 3 ✅ A-。路演工具箱 Batch 1 ✅ 审查通过。Phase C 文章 3 篇 🟡 有条件 PASS — 需修 3 处（缺 Audience/Core Thesis 节 + 错别字），修复后无需再审
-- **洪七公**：单元模型域 VA 补齐 ✅ A-。路演域 VA 补齐 🟡 有条件 PASS — ladder L207 1 处颜色残留待修（修完即结）
+- **黄药师**：审查老顽童清单体笔记批次（进行中，深度问题待续）。Infra backlog 新增 5 项（tool卡校验/synthesis死链检测/artifact孤儿检测/dk卡结构校验/source_refs fuzzy match）。Claude Code 2.1.168 viewport bug 导致无法鼠标/键盘滚动。
+- **欧阳锋**：本会话无动作。
+- **老顽童**：🆕 清单体笔记 KDO 批次已完成（4 新卡+1文章+1dk卡+1旧卡更新）。黄药师审查 A-，P0 项待修（article未注册管线+缺source_refs），深度问题待用户反馈。管理工具箱+路演+Phase C 均已完成。
+- **洪七公**：路演域 VA 补齐 🟡 有条件 PASS — ladder L207 1 处颜色残留待修（修完即结）
 - **段王爷**：本会话无动作。
 
 ### KDO CLI 状态
@@ -59,7 +60,36 @@ blockers: []
 ### 攻击者多样性规则（软约束）
 - 同一域内，每5张卡至少引入1位新攻击者。纯 Kahneman+Taleb 组合需替换一位。
 
-## 最近决策
+## 🆕 2026-06-07：黄药师审查老顽童清单体笔记批次
+
+### 交付物
+- 新增：`yt-note-checklist-concept` / `yt-note-ai-human-division` / `yt-note-five-levels-training` / `yt-note-live-field-skill` / `dk-yt-checklist-max-common-divisor`
+- 更新：`yt-personal-checklist-notes`（v1→v2）
+- 文章：`从清单体到AI时代的认知重构——一堂Truman笔记法的三个核心洞察`
+
+### 自动门结果
+- V1.5：2 张 concept 卡 PASS，2 张 tool 卡未覆盖
+- Lint：1 warning（dk 卡未入 index）
+- Wikilink：文章 6/6 有效，Synthesis 3 个死链
+
+### 技术债务（P0-P2）
+- P0：article 未注册 kdo state.json → validate 不可用；article 缺 source_refs → 溯源链断
+- P1：3 个 Synthesis 死链；dk 卡未入 index；source_refs 中"请单"→应为"清单"
+- P2：文章与 dk 卡内容重叠未区分；yt-personal-checklist-notes status 仍是 enriched
+
+### 深度不足（待与用户探讨）
+1. **文章是"读后感"而非"知识合成"**——第一人称体验（"听完后我的感觉是"）占主导，缺少结构化知识创造。读者知道作者感受深，不知道怎么做
+2. **暗知识与概念卡重叠未桥接**——文章第四节与 dk-yt-checklist-max-common-divisor 主题相同（最大公约数/AI分工），但无相互引用或层次区分
+3. **攻击者论证在文章中降级为"提及"**——卡片 Critique 有真正的 Kahneman/Taleb 对话，文章只写"Kahneman在[[卡片]]中提醒我们"——是引用卡片而非与攻击者对话
+4. **Synthesis 有免责式死链**——"如果存在这张卡片"是免责声明，不是负责任的 Synthesis。写卡时不验证目标存在，等于画空中楼阁
+5. **文章缺少"边界与反例"**——概念卡有 Critique（内部局限+外部攻击+不要用），文章只有正面论证，变成推广文
+
+### Infra 暴露的系统性缺口
+1. Tool 卡 v1.5 校验缺失
+2. Synthesis wikilink 无自动死链检测
+3. Article 可绕过 kdo produce 管线创建
+4. 暗知识卡（dk-*）无标准结构校验
+5. source_refs 文件名无 fuzzy match 检测
 
 ### 2026-05-28：管理工具箱 Batch 3 下达
 - y-model ✅ + 单元模型域小修 ✅ — 老顽童上批任务全部完成
@@ -96,4 +126,5 @@ blockers: []
 - [x] 更新 `updated:` 日期
 - [x] 更新 `active_task` 和 `blockers`
 - [x] 有新坑？追加到 `pitfalls.md` ✅ P-15（虚假完成报告）
+- [ ] P-25：Claude Code 2.1.168 viewport 初始化 bug（(0/0) 不可滚动，鼠标键盘均失效） — 待确认是否已修复
 - [ ] **禁止用 `/memory` 替代上述更新**
