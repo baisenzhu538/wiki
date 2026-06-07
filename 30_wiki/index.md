@@ -613,3 +613,4 @@ _Last updated: 2026-06-06T06:31:20+00:00_
 - [[concepts/dk-ef-002-bom-version-async.md|BOM不同步]] — EF002
 - [[concepts/dk-ef-003-hand-soldering-bom-divergence.md|手焊板]] — EF003
 - [[concepts/dk-ef-004-missing-diagnostic-firmware.md|诊断固件]] — EF004
+- [[concepts/case-纪浩-focus-prompt-design.md|案例：纪浩 AI协作产品设计]] — 纪浩 /focus 提示词
