@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-07
 active_branch: main
-active_task: "🆕 审查老顽童清单体笔记 KDO 产出（4卡+1文章+1dk+1旧卡更新）。审查基本完成，深度问题待与用户继续探讨。"
+active_task: "审查老顽童清单体笔记批次 ✅（审查报告+OCR补充+AI Partner设计反推+note-coach Skill）。KDO Infra backlog 已更新。用户要求复盘 KDO 基础设施现状 + 清单体笔记对 KDO 的启发。"
 blockers: []
-next_session_hint: "用户说'继续'→ 继续探讨老顽童清单体笔记审查中的深度不足问题"
+next_session_hint: "用户说'继续'→ 继续讨论 KDO 基础设施优化，或推进 note-coach 部署"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
