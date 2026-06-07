@@ -13,6 +13,7 @@
 | [[case-纪浩-skills-market]] | 纪浩 AI协作方法论 | 一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助下载 |
 | [[case-truman-ai-partner]] | Truman 清单体笔记课程 | Truman 用十年笔记封装 AI Partner——"约束即能力" |
 | [[case-纪浩-focus-prompt-design]] | 纪浩 真实项目 | 结构化 prompt 做产品设计——S1-S5 冻结到 S7 实现交接 |
+| [[case-半肥猫-course-to-skill]] | 半肥猫 AI学习落地 | 课程转 Skill 八步法——A/B测试：用Skill 36分 vs 不用 8分 |
 
 ### 商业案例
 

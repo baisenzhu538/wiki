@@ -624,3 +624,4 @@ _Last updated: 2026-06-06T06:31:20+00:00_
 - [[concepts/dk-纪浩-pdca-starts-from-do.md|PDCA从Do开始]] — 纪浩
 - [[concepts/dk-纪浩-ai-cant-design-structure.md|AI不会搞结构设计]] — 纪浩
 - [[concepts/dk-纪浩-newbie-can-validate.md|新手也可以验证]] — 纪浩
+- [[cases/case-半肥猫-course-to-skill.md|案例：课程转Skill八步法]] — 半肥猫
