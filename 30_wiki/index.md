@@ -598,7 +598,10 @@ _Last updated: 2026-06-06T06:31:20+00:00_
 
 - [[concepts/case-纪浩-skills-market.md|案例：一堂 Skills 分发平台]] — from 纪浩 AI协作方法论
 - [[concepts/case-truman-ai-partner.md|案例：Truman AI Partner 设计]] — from Truman 清单体笔记课程
-- [[concepts/dk-ef-001-sn74lvc2g07-open-drain.md|开漏输出的陷阱]] — E-FM-001
-- [[concepts/dk-ef-002-bom-version-async.md|BOM多版本不同步]] — E-FM-002
-- [[concepts/dk-ef-003-hand-soldering-bom-divergence.md|手焊板的隐性修改]] — E-FM-003
-- [[concepts/dk-ef-004-missing-diagnostic-firmware.md|没有诊断固件就是盲调]] — E-FM-004
+
+- [[concepts/case-纪浩-skills-market.md|案例：Skills分发平台]] — 纪浩
+- [[concepts/case-truman-ai-partner.md|案例：AI Partner]] — Truman
+- [[concepts/dk-ef-001-sn74lvc2g07-open-drain.md|开漏输出]] — EF001
+- [[concepts/dk-ef-002-bom-version-async.md|BOM不同步]] — EF002
+- [[concepts/dk-ef-003-hand-soldering-bom-divergence.md|手焊板]] — EF003
+- [[concepts/dk-ef-004-missing-diagnostic-firmware.md|诊断固件]] — EF004
