@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-08
 active_branch: main
-active_task: "KDO 系统说明书 v1.0.0 已入库（90_control/kdo-system-manual.md，版本管理+changelog）。等待下一步指令。"
+active_task: "标签体系升级完成：从归档分类→Agent路由信号（38个二级场景标签+5边界+4可靠性）。KDO说明书已迭代。"
 blockers: []
-next_session_hint: "用户说'继续'→ ① 老顽童重工纪浩批次 ② note-coach飞书部署 ③ Task F/G/H ④ 说明书迭代"
+next_session_hint: "用户说'继续'→ ① 老顽童重工纪浩批次 ② note-coach飞书部署 ③ Task F/G/H"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。

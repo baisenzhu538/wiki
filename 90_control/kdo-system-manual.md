@@ -2,10 +2,11 @@
 title: "KDO 系统说明书"
 type: manual
 status: active
-version: "1.0.0"
+version: "1.1.0"
 created_at: "2026-06-08"
 updated_at: "2026-06-08"
 changelog:
+  - "1.1.0 (2026-06-08): 标签体系升级——二级场景标签(38个)+边界标签(5个)+可靠性标签(4个)，Agent路由精度从47张/标签提升至22张/标签。tag-schema.yaml重构"
   - "1.0.0 (2026-06-08): 初始版本——完整管线/命令/四卡体系/lint规则/Skill体系/案例库/架构"
 ---
 
