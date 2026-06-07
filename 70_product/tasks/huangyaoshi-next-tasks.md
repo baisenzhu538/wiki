@@ -4,16 +4,19 @@
 
 ## 状态
 
-**已完成**：Task 1-20 全部 ✅。Sprint 1-7 全部 ✅。P0+P1 整改令全部关闭。
+**已完成**：Task 1-20 全部 ✅。Sprint 1-7 全部 ✅。P0+P1 整改令全部关闭。Task D ✅。I-1~I-6 lint 规则 ✅。kdo encapsulate ✅。
 - Sprint 6: `150c58b` — query --stats/--aggregate + inbox --count/--search + kdo prompt + label pipeline
 - Sprint 7: `d6a38dd` — produce --stats + flywheel status + data quality gate. 16 tests, 430 pass
 - Batch 1-7、P0/P1 整改令、视频管线 Task 15-17 等全部历史任务 ✅
+- **Task D**：E-FM 拆 4 张 dk-ef 卡 ✅（`dk-ef-001` ~ `dk-ef-004`，dark_knowledge_type: hardware-failure）
+- **I-1~I-6 lint 规则**：artifact孤儿/OCR强制/Synthesis死链/dk卡结构/tool卡质量/source_refs fuzzy ✅（全部 455 tests pass）
+- **kdo encapsulate**：skill manifest → 编译 system prompt ✅（4/4 卡解析，`kdo encapsulate note-coach` 跑通）
 
 ---
 
 ## 🎯 当前任务（顺序执行，做完一个再开下一个。⚠️ 不准并行）
 
-### Task D：E-FM 拆 dk-ef 卡（P0，~30min）
+### ~~Task D：E-FM 拆 dk-ef 卡~~ ✅ 已完成
 
 把 `90_control/electronics-practice/failure-modes-electronics.md` 中的 4 条失败模式拆成独立 dk 卡：
 
