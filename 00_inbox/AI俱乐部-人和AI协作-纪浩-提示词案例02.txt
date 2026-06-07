@@ -1,0 +1,632 @@
+# Daily V1 /focus S6-S7 Final Design Handoff
+
+状态：S6/S7 终版设计交接文档
+日期：2026-05-14
+依据：[Daily V1 /focus S1-S5 Frozen Decisions](./daily-v1-focus-rewrite-s1-s5-decisions.md)
+范围：封闭 `/focus/[timeNodeId]` 的 UI 结构、验证脚本、实现切分、projection 需求、命令复用、日志追踪与索引检查；以 [focus-s7-static.html](./prototypes/focus-s7-static.html) 作为 HTML 终版视觉/交互依据；不做浏览器验证。
+
+## 0. Discussion Status
+
+S1-S5 已冻结。S6/S7 已完成终版 HTML 原型并回填到本文档。
+
+本轮终版产物是静态 HTML 视觉/交互模拟，不包含后半部分表单模拟，不执行浏览器验证。
+
+## 0.1 Closed Decisions
+
+以下是本轮已讨论通过并封闭的 S6/S7 决策：
+
+1. 首版实现目标采用：
+
+```text
+FocusExecutionScene
+  = Current Problem Selector
+  + Current Progress Panel
+  + Capture Dock
+  + Flow Board
+  + Material Accordion
+  + Context Drawer
+  + Recent Important Info
+```
+
+2. Capture Mode 作为一等输入控件，不作为默认新增 schema。
+
+3. Capture Dock 只记录现场材料，不承担“推进”动作。
+   - `推进` 属于 `CurrentProgressPanel`，直接触发状态变化确认。
+   - Capture Dock 默认继承全局选中的 `Problem / ProblemState`。
+   - 默认模式建议为 `ImportantInfo`；若 lens 是 `researcher`，优先 `Explore`；若当前现场来自实验/探索，可保持上次模式。
+
+4. Capture Mode 采用“结构化字段 + 自由文本”混合。
+
+5. `Explore` 和 `Experiment` 完全分成两个模式。
+   - `Explore` 是外部收集信息、确定问题边界。
+   - `Experiment` 是动手拿结论进行剪枝。
+   - 二者的思维模式、行为模式和目标不同。
+   - 二者都应表现为可重入、可多次编辑的任务对象，而不是一次性长表单。
+
+6. 状态可流转对象使用三栏 `Flow Board`，支持拖动 item 改变状态。
+
+7. 拖动 item 发生状态变化时触发 modal 补充必要信息。
+
+8. Context 相关能力优先放入独立 Context Drawer，不进入主区。
+
+9. 不可流转材料使用 `Material Accordion`。
+   - 状态可流转：`Active / Blocked / ReviewReady`。
+   - 不可流转材料：`Inbox / Logged / Context`。
+   - 不再做六栏对称分栏，也不保留左侧重复状态导航。
+
+10. 拖到 `ReviewReady` 时弹 modal，review scope 默认继承当前 `TimeBlock + focus object`，用户可改。
+
+11. `ContextEdit` 首版写成 event，payload 标记 `captureMode: ContextEdit`。
+
+12. `Meeting` 是轻量会议对象，可补挂多个对象。
+    - 不做成临时长表单等待用户一次性填完。
+    - 首版可用 event/payload + 关联关系承载，不强制新增 `NodeKind`。
+
+13. `SubProblem` 用 edge 表达。
+    - `SubProblem` 的目的主要是在 review 阶段构建跨节点、更抽象/宏观的视角。
+    - 子问题可能关联到另一个独立 `CoreObject`，例如 Agent 系统依赖第三方 LLM 接口。
+    - 因此首版不新增 `NodeKind`，用 `problem` 节点和 parent/related edge 表达分工、依赖和抽象层级。
+    - 增加 edge type：`problem.has_sub_problem.problem`。
+
+14. `State` 转化：
+    - 主体是 `problem` 时转为 `ProblemState`。
+    - 其它主体先写一般 `StateSummary` event。
+
+15. 日志追踪存文件，优先写 `.data/focus-execution-trace.ndjson`。
+    - `.data/` 已被 `.gitignore` 忽略。
+    - 日志不写业务 event，避免污染事实流。
+
+16. 首版补低风险基础索引：
+    - `events(time_node_id, occurred_at)`
+    - `events(subject_id, occurred_at)`
+    - `events(kind, occurred_at)`
+    - `focus_records(time_node_id)`
+
+17. 移动端降级策略：
+    - `Flow Board` 从三栏变为垂直堆叠。
+    - `Material Accordion` 保持手风琴。
+
+18. `RecentImportantInfo` 默认显示最近 10 条。
+
+19. S6/S7 封版前不让 AI 做浏览器验证。
+    - 本轮已生成 HTML 呈现，但不执行 AI 浏览器验证。
+    - 后续若实现成 React 页面，再用人工/协作方式走一轮视觉优化。
+
+20. 首版尽量复用现有 command 与 `events.payload_json`。
+
+21. 日志追踪先于 schema migration；只有出现高频查询、噪音或性能信号时，再考虑索引/生成列/专表/FTS。
+
+22. 如果实现必须新增 indexed/generated fields、专表、FTS 或 DB migration，必须停下进入 schema/data contract gate。
+
+23. `CurrentProgressPanel` 展示密度：
+    - 主区显示 primary + 最多 2 个并行 `Active` 摘要。
+    - 其余进入三栏 `Flow Board`。
+
+24. 日志文件 schema：
+    - `.data/focus-execution-trace.ndjson` 每行最小字段采用：`at`、`timeNodeId`、`event`、`counts`、`queryMs`、`captureMode`、`flowLane`、`materialGroup`、`noiseFeedback`。
+
+25. 会议记录需要支持补挂多个对象。
+    - 可关联当前 `Problem / ProblemState / CoreObject / Explore / Experiment` 等对象。
+    - 不再把会议强制塞进单个 `ProblemState`。
+
+26. 当前 `Problem / ProblemState` 的选中或切换只在一个全局位置展示。
+    - 其它区域只表达“继承全局选择”。
+    - 不在每个 box 重复展示当前问题，避免制造多套选择心智。
+
+27. `CurrentProgressPanel` 内的 `推进状态` 是状态变化动作。
+    - 它应映射到 `RecordObjectStateChange / CreateProblemState`。
+    - 它不是 Capture Dock 里的记录项，也不需要“挂载到行动”。
+
+28. “挂载到行动”不作为主交互。
+    - 行动可以作为 event 被记录。
+    - 若未来需要追踪某条行动，可作为可选引用字段或 event edge，而不是主路径。
+
+29. 终版 HTML 原型路径：
+    - `docs/prototypes/focus-s7-static.html`
+    - 该文件是 S7 实现交接的视觉/交互基准。
+
+## 0.2 Closed Open Questions
+
+S6/S7 开放问题本轮已关闭：
+
+- `CurrentProgressPanel` 展示密度：已定。
+- 日志文件 schema：已定。
+- `SubProblem` edge type：已定，新增 `problem.has_sub_problem.problem`。
+- meeting state 区分字段：已定，需要。
+- S7 HTML：已完成，作为终版视觉/交互依据。
+- 浏览器验证：本轮不做。
+
+后续若进入实现阶段，再另起实现计划与验证计划。
+
+## 0.3 Final HTML Structure
+
+终版 HTML 将 `/focus/[timeNodeId]` 收敛为一个 Problem-centric execution workbench：
+
+```text
+Top Bar
+  - 时间路径
+  - 返回时间页 / 打开对象 / 进入复盘页
+
+Workspace
+  - Current Progress Panel
+  - Current Problem Selector
+  - Capture Dock
+  - Flow Board + Material Accordion
+  - Recent Important Info
+  - Context Drawer
+  - State Transition Modal
+```
+
+关键布局冻结：
+
+1. 不保留左侧状态 rail。
+   - `推进中 / 收件箱 / 阻塞 / 上下文 / 已记录 / 待复盘` 的左侧导航已取消。
+   - 状态数量在看板或手风琴内部展示即可。
+
+2. `Current Problem Selector` 是唯一的问题选择/切换位置。
+   - 展示当前 `Problem`、当前 `ProblemState`、关联核心对象、子问题数量和状态历史入口。
+   - 其它面板只继承它，不重复展示当前问题。
+
+3. `Current Progress Panel` 是推进状态的主入口。
+   - 主推进 + 最多 2 个并行摘要。
+   - 每个推进卡片提供 `推进状态`。
+   - `推进状态` 触发状态变化确认，不进入 Capture Dock。
+
+4. `Capture Dock` 是现场材料记录器。
+   - 模式组：`认知` 与 `现场`。
+   - `认知`：`ImportantInfo / Explore / Experiment`。
+   - `现场`：`Blocker / Inbox / Meeting / HumanSignal / ContextEdit`。
+   - 保存动作是“保存材料”，默认继承全局选中的 `Problem / ProblemState`。
+
+5. `Flow Board` 只承载可流转对象。
+   - 三栏：`Active / Blocked / ReviewReady`。
+   - item 可拖动。
+   - 拖动改变状态时打开 `StateTransitionModal`。
+
+6. `Material Accordion` 只承载不可流转材料。
+   - 手风琴组：`Inbox / Logged / Context`。
+   - 这些材料用于记录、查询、整理，不作为状态卡片拖动。
+
+7. `Context Drawer` 与主区选中项联动。
+   - 展示当前选中推进项的关联 `Problem / ProblemState / SubProblem / CoreObject / Meeting / history`。
+   - 支持大量关联对象滚动，不假设只有少量上下文。
+
+## 0.4 Confirmation Flow And Control Set
+
+终版 HTML 增补 `确认流程与控件样式` 区域，用于评估 `/focus` 首轮需要的表单负担。该区域是静态表单，不提交，不新增 schema。
+
+表单/控件样式参考 `/time` HTML 的控件实验区：
+
+- `form-card`：分为普通、`lean`、`heavy`。
+- `form-fields`：两列字段，移动端降级为单列。
+- `stepper`：用于低频确认流程，显示步骤进度。
+- `choice-row / choice`：用于可选引用、复盘候选、生成后续项等 checkbox 控件。
+- `select / input / textarea`：用于状态、优先级、去向、摘要、总结、验收约束。
+
+本轮 HTML 中先补齐 4 类确认/上下文表单样式：
+
+1. 状态变化确认。
+   - 入口：`推进状态` 按钮或 `Flow Board` 拖动。
+   - 字段：目标状态。
+   - 说明：原状态、主体、时间块、相关引用自动继承，不要求用户补长文本。
+   - 写入：`RecordObjectStateChange / CreateProblemState`。
+
+2. 保存现场材料。
+   - 入口：`CaptureDock`。
+   - 字段：模式、自动关联、摘要、内容。
+   - 说明：默认自动关联当前行动；没有行动时关联全局选择，用户只在必要时改关联。
+   - 写入：`RecordObservation / RecordHumanState / recordEvent` 等记录类 command。
+
+3. 阻塞转化。
+   - 入口：`Blocker` capture 或 `Blocked` lane item。
+   - 字段：阻塞描述、转化类型、处理优先级、下一步。
+   - 结果：转 `Question`、`SubProblem edge`、`ProblemState` 或独立 `Problem`。
+
+4. 切换全局选择。
+   - 入口：`CurrentProblemSelector`。
+   - 字段：选择主体、自动结果提示。
+   - 说明：选择即自动保存并刷新关联面板，不弹表单确认，不默认写业务 event。
+
+同时新增 `记录工作台模式字段` 区域，补齐 Capture Dock 各模式的差异字段：
+
+1. `ImportantInfo`。
+   - 字段：信息类型、重要度、一句话摘要、详细内容、保存去向、引用。
+   - 目的：最高频低摩擦记录，进入最近重要信息或已记录材料。
+
+2. `Explore`。
+   - 字段：探索任务、阶段、下一次更新、本次更新。
+   - 目的：先创建可重入探索任务，后续多次更新线索和边界，不直接形成稳定结论。
+
+3. `Experiment`。
+   - 字段：实验任务、实验状态、下一步、本次结果。
+   - 目的：先创建可重入实验任务，随着试验过程持续追加结果。
+
+4. `Meeting`。
+   - 字段：会议标题、快速摘要、补挂对象。
+   - 目的：快速保存轻量会议对象，再按需补挂多个对象。
+
+5. `HumanSignal`。
+   - 字段：能量、清晰度、阻力、情绪、备注。
+   - 目的：记录人的状态信号，不改变问题状态。
+
+6. `ContextEdit`。
+   - 字段：整理对象、整理动作、当前内容、整理结果。
+   - 目的：明确整理背景摘要、设计决策、关联对象、查询线索或材料归档，不重构任务本体。
+
+7. 快速收集 `Inbox / Problem`。
+   - 字段：内容、创建为、是否影响当前推进。
+   - 目的：突发不是独立概念，本质是添加一个 `Inbox` 或 `Problem`，再决定是否影响当前推进。
+
+右下角 `StateTransitionModal` 也升级为三步确认：
+
+```text
+拖动 -> 补充 -> 写入
+```
+
+它默认继承当前 `TimeBlock + 全局选择`，只允许在确认前调整目标状态。
+
+## 1. S6 Journey Test Script
+
+### Script A: 进入现场并推进多个并行项
+
+目标：验证 `/focus` 不假设纯线性执行。
+
+步骤：
+
+1. 从 `/time` 点击一个 `TimeBlock` 进入 `/focus/[timeNodeId]`。
+2. 页面显示 primary progress item。
+3. 用户查看 `Flow Board`。
+4. 用户看到多个 `Active` item，其中一个标记为 primary。
+5. 用户在主推进卡片点击 `推进状态`。
+6. 系统打开状态变化确认 modal。
+7. 用户确认后写入新的 `ProblemState`。
+
+通过条件：
+
+- 当前推进不被记录表单淹没。
+- 多个并行推进项可见但不抢主区。
+- 状态变化进入当前问题状态历史。
+- Recent Important Info 只更新相关重要材料，不承担推进状态本体。
+
+### Script B: 快速收集到 Inbox / Problem
+
+目标：验证突发事项不会形成独立概念，而是进入 Inbox 或 Problem。
+
+步骤：
+
+1. 用户使用快速收集入口。
+2. 用户输入内容。
+3. 用户选择创建为 `Inbox` 或 `Problem`。
+4. 系统自动保存。
+5. 若用户标记影响当前推进，再把它转为阻塞或切换全局选择。
+
+通过条件：
+
+- 突发默认不抢占当前推进。
+- 新增对象可追踪、可稍后处理。
+- 只有明确影响当前推进时才改变状态或选择。
+
+### Script C: 阻塞转化
+
+目标：验证阻塞能按需转成合适对象。
+
+步骤：
+
+1. 用户使用 Capture Mode `Blocker`。
+2. 用户填写阻塞原因和影响。
+3. 用户选择转化类型：`Question`、`SubProblem`、`State` 或 `Problem`。
+4. 系统弹出对应 modal 补充必要字段。
+5. 写入后 item 进入 `Blocked` 或 `ReviewReady`。
+
+通过条件：
+
+- 阻塞不是死文本。
+- 转化类型不强迫提前建模。
+- 后续对象能从相关工作区或 review 找回。
+
+### Script D: Explore / Experiment 支撑 Plan
+
+目标：验证探索/实验不是 observation 的附属。
+
+步骤：
+
+1. 用户创建或打开一个 `Explore` 任务。
+2. 追加本次线索、边界判断或开放问题。
+3. 用户创建或打开一个 `Experiment` 任务。
+4. 追加本次试验结果或剪枝结论。
+5. 用户在后续状态变化确认或 `/review` 中引用这些任务对象。
+
+通过条件：
+
+- Explore / Experiment 是可重入、可多次编辑的任务对象。
+- 结果不直接变成稳定知识。
+- 它们能支撑后续 Plan 或 review。
+
+### Script E: 会议记录与关联主体
+
+目标：验证会议能形成可追踪材料。
+
+步骤：
+
+1. 用户创建轻量 `Meeting` 对象。
+2. 先快速记录标题和摘要。
+3. 用户按需补挂多个对象。
+4. 写入后可从相关对象、Recent Important Info 或 review 找回。
+
+通过条件：
+
+- 会议不只是长文本。
+- 会议对象可补挂多个对象，可追踪。
+- follow-up 能进入 `Flow Board`、`Material Accordion` 或 review。
+
+### Script F: Context Drawer 整理上下文
+
+目标：验证持续任务背景能被继承、查询、编辑、沉淀、重组。
+
+步骤：
+
+1. 用户打开 Context Drawer。
+2. 查看 inherited context summary。
+3. 按 subject、mode、state 或 lens 查询历史材料。
+4. 使用 `ContextEdit` 修改背景摘要或重组上下文。
+5. 返回主推进区继续执行。
+
+通过条件：
+
+- Context 不污染主区。
+- 编辑的是上下文和背景知识，不是重构任务本身。
+- 编辑结果后续可重入。
+
+### Script G: 状态转变总结确认
+
+目标：验证状态变更不只是随手覆盖。
+
+步骤：
+
+1. 用户在 `CurrentProgressPanel` 或 `Flow Board` 触发状态变化。
+2. 系统展示相关 action / important info 作为可选引用。
+3. 用户填写状态转变总结。
+4. 用户确认状态转变。
+
+通过条件：
+
+- 状态变化需要总结和确认。
+- 证据/action 绑定可选但可见。
+- 结果写入 `ProblemState`，并进入状态投影或 review-ready。
+
+## 2. S7 Implementation Target
+
+首版实现目标：
+
+```text
+FocusExecutionScene
+  = Current Problem Selector
+  + Current Progress Panel
+  + Capture Dock
+  + Flow Board
+  + Material Accordion
+  + Context Drawer
+  + Recent Important Info
+```
+
+不要把旧 `/focus` 还原为：
+
+- `SurfaceBrief` 可见说明。
+- 多个并列 command form。
+- 常驻重型 inspector。
+- 关系、timeline、review candidate 平铺。
+- 左侧重复状态 rail。
+- 六栏等宽分栏式 lanes。
+
+## 3. Component Handoff
+
+建议新增或改造以下组件：
+
+- `FocusExecutionScene`：替代当前 `FocusScene` 的页面编排。
+- `CurrentProblemSelector`：唯一展示和切换当前 `Problem / ProblemState` 的位置。
+- `CurrentProgressPanel`：显示 primary progress item 和 parallel progress items。
+- `CaptureDock`：承载 Capture Mode switcher 与模式字段。
+- `FlowBoard`：三栏状态看板，承载可流转对象，支持拖动和状态 modal。
+- `MaterialAccordion`：承载不可流转材料，使用手风琴展示 `Inbox / Logged / Context`。
+- `FocusContextDrawer`：继承、查询、编辑、沉淀、重组上下文。
+- `RecentImportantInfo`：显示最新重要信息和后续入口。
+- `StateTransitionModal`：状态总结与确认。
+- `QuickCapturePanel`：快速新增 `Inbox` 或 `Problem`。
+- `BlockerTransformModal`：阻塞转 `Question` / `SubProblem` / `State` / `Problem`。
+
+可复用现有资源：
+
+- `CommandComposer` 的提交逻辑可被拆给 `CaptureDock`。
+- `EventTimeline` 可作为 Recent Important Info 的底层展示资源。
+- `RelationSlot` 和 `AttentionIndex` 降级到 Context Drawer 或 supporting panel。
+- `buildFocusScene` 继续作为数据入口，但需要扩展 projection。
+
+## 4. Projection Handoff
+
+`FocusSceneProjection` 首版建议扩展为：
+
+```ts
+interface FocusExecutionProjection {
+  currentProblem: CurrentProblemProjection | null;
+  progressItems: FocusProgressItem[];
+  primaryProgressItemId: string | null;
+  captureModes: CaptureModeProjection[];
+  flowBoard: FlowBoardProjection;
+  materialAccordion: MaterialAccordionProjection;
+  contextSummary: FocusContextSummary;
+  contextItems: FocusContextItem[];
+  recentImportantInfo: ImportantInfoItem[];
+  queryTrace: FocusQueryTrace;
+}
+```
+
+候选字段：
+
+```ts
+type CaptureMode =
+  | "ImportantInfo"
+  | "HumanSignal"
+  | "Blocker"
+  | "Inbox"
+  | "Meeting"
+  | "Explore"
+  | "Experiment"
+  | "ContextEdit";
+
+type FlowBoardLane =
+  | "Active"
+  | "Blocked"
+  | "ReviewReady";
+
+type MaterialAccordionGroup =
+  | "Inbox"
+  | "Logged"
+  | "Context";
+```
+
+状态推进不进入 `CaptureMode`。它由 `CurrentProgressPanel` / `FlowBoard` 触发 `RecordObjectStateChange` 或 `CreateProblemState`。
+
+## 5. Command Handoff
+
+优先复用现有命令：
+
+- `RecordAction`
+- `RecordObservation`
+- `RecordHumanState`
+- `RecordObjectStateChange`
+- `RaiseQuestion`
+- `createReview`
+- `node.create`
+- `edge.create`
+
+首版 typed payload 建议：
+
+```json
+{
+  "captureMode": "Experiment",
+  "itemStatus": "Logged",
+  "importance": "high",
+  "linkedActionEventId": null,
+  "sourceGroup": "Inbox",
+  "targetGroup": "Logged",
+  "reviewReadiness": "candidate"
+}
+```
+
+说明：
+
+- `linkedActionEventId` 只是可选引用，不是主交互。
+- 记录材料默认以当前全局选择的 `Problem / ProblemState` 为主体。
+- 状态变化不写 `captureMode: StateSummary`，而是通过 `RecordObjectStateChange / CreateProblemState` 写入 `ProblemState + Event`。
+
+模式特有字段留在 payload：
+
+- `Explore`: `taskTitle`、`stage`、`nextUpdate`、`updateNote`
+- `Experiment`: `taskTitle`、`experimentStatus`、`nextStep`、`resultNote`
+- `Meeting`: `title`、`quickSummary`、`attachedObjectIds`
+- `Blocker`: `reason`、`impact`、`resolutionType`
+- `Inbox`: `content`、`createAs`、`impactDecision`
+- `ContextEdit`: `contextItemType`、`before`、`after`、`rationale`
+
+状态变化字段进入 `CreateProblemState / RecordObjectStateChange`：
+
+- `fromState`
+- `currentState`
+- `expectedChange`
+- `summary` / `note`
+- `steps`
+- `acceptanceConstraints`
+- `confirmed`
+
+## 6. Logging And Index Check
+
+### Log Trace
+
+实现阶段必须先记录查询和交互日志，用来判断是否需要索引或交互降噪。
+
+日志落点：
+
+```text
+.data/focus-execution-trace.ndjson
+```
+
+`.data/` 已被 `.gitignore` 忽略。该日志是开发与优化 trace，不写入业务 event，不作为稳定事实。
+
+最低追踪项：
+
+- `at`
+- `timeNodeId`
+- `event`
+- `counts`
+- `captureMode`
+- `flowLane`
+- `materialGroup`
+- `queryMs`
+- `noiseFeedback`
+
+可选扩展项：
+
+- `filterKeys`
+- `dragSourceFlowLane`
+- `dragTargetFlowLane`
+- `modalType`
+
+### Generic Index Check
+
+实现前检查是否已有索引覆盖：
+
+- `events(time_node_id, occurred_at)`
+- `events(subject_id, occurred_at)`
+- `events(kind, occurred_at)`
+- `events(lens, occurred_at)`
+- `focus_records(time_node_id)`
+- `edges(time_node_id)`
+- `edges(source_kind, source_id)`
+- `edges(target_kind, target_id)`
+
+如果没有，不一定立刻迁移；但需要在 S7 risk 中记录。
+
+### Migration Stop Point
+
+若实现发现必须新增 indexed/generated fields、专表、FTS 或 DB migration，必须停下并单独做 schema/data contract gate。
+
+## 7. Validation Commands
+
+实现后至少运行：
+
+```bash
+npm run lint
+npm run test
+npm run build
+git diff --check
+```
+
+本轮已生成 HTML 终版呈现，不执行 AI 浏览器验证。
+
+若后续进入 React 实现封版，可基于 HTML 终版走人工/协作视觉优化。
+
+检查点：
+
+- 首屏不是信息墙。
+- Capture Mode 可见。
+- Explore / Experiment 是一等模式。
+- 状态可流转对象使用三栏 Flow Board。
+- 不可流转材料使用 Material Accordion。
+- Context Drawer 不污染主区。
+- 状态变化有总结确认入口。
+- 突发事项通过快速新增 `Inbox / Problem` 处理，不作为独立概念。
+- 左侧不保留重复状态 rail。
+
+## 8. Knowledge Retention Plan
+
+当进入实现阶段并完成一个可验证变更批次后，写 workflow evidence：
+
+- when：完成 `/focus` 页面结构或核心 projection 扩展后。
+- do：记录 Do/Check 结果。
+- command：`kbl workflow write --json --stage Check --task-id focus-time-e62b5bb845ae4cdd-rewrite --summary "<中文验证摘要>"`
+- inputs：S1-S5 冻结稿、S6/S7 封闭文档、实现 diff、验证命令结果。
+- evidence：通过/失败命令、未解决 gap。
+- write target：`.codex/kbl/workflow/<date>/<id>.kbl`。
+- granularity：一个可验证页面重构批次。
+- acceptance：验证命令通过，journey scripts 不被破坏，未执行 schema migration 或 stable promotion。
+- Act boundary：不执行 Act，不 apply `.kbp`，不修改 stable `.kb`；如需 schema migration 先停下。

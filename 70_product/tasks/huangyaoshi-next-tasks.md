@@ -4,13 +4,14 @@
 
 ## 状态
 
-**已完成**：Task 1-20 全部 ✅。Sprint 1-7 全部 ✅。P0+P1 整改令全部关闭。Task D ✅。I-1~I-6 lint 规则 ✅。kdo encapsulate ✅。
+**已完成**：Task 1-20 全部 ✅。Sprint 1-7 全部 ✅。P0+P1 整改令全部关闭。Task D ✅。I-1~I-6 lint 规则 ✅。kdo encapsulate ✅。Phase 1-3 KDO 效能升级全部 ✅。
 - Sprint 6: `150c58b` — query --stats/--aggregate + inbox --count/--search + kdo prompt + label pipeline
 - Sprint 7: `d6a38dd` — produce --stats + flywheel status + data quality gate. 16 tests, 430 pass
 - Batch 1-7、P0/P1 整改令、视频管线 Task 15-17 等全部历史任务 ✅
 - **Task D**：E-FM 拆 4 张 dk-ef 卡 ✅（`dk-ef-001` ~ `dk-ef-004`，dark_knowledge_type: hardware-failure）
-- **I-1~I-6 lint 规则**：artifact孤儿/OCR强制/Synthesis死链/dk卡结构/tool卡质量/source_refs fuzzy ✅（全部 455 tests pass）
-- **kdo encapsulate**：skill manifest → 编译 system prompt ✅（4/4 卡解析，`kdo encapsulate note-coach` 跑通）
+- **I-1~I-6 lint 规则**：artifact孤儿/OCR强制/Synthesis死链/dk卡结构/tool卡质量/source_refs fuzzy ✅
+- **kdo encapsulate**：skill manifest → 编译 system prompt ✅
+- **Phase 1-3**：case 卡模板 + 2 条案例 + kdo skill list/publish/install + kdo quick + 深度检测 ✅
 
 ---
 
@@ -28,6 +29,46 @@ dk-ef-004-missing-diagnostic-firmware.md
 ```
 
 前缀 `dk-ef-*`，`dark_knowledge_type: hardware-failure`。保留 E-FM 编号溯源。
+
+### 🆕 Task F：角色编译 — `kdo role <agent>`（P1）
+
+**问题**：洪七公/段王爷等 agent 进 vault 时，角色上下文分散在 `.agent/*-context.md` / `AGENTS.md` / `toolkit.md` 等多处，需要手工拼装。没有编译成 agent 可直接加载的 role profile。
+
+**方案**：扩展 `kdo encapsulate` 的编译逻辑到角色编译：
+- 读取 `.agent/<role>-context.md`（身份、职责、质量要求）
+- 合并 `.agent/toolkit.md`（可用工具）
+- 合并 `90_control/AGENTS.md` 中该角色的能力边界
+- 编译为一份 role system prompt
+
+**用法**：`kdo role hongqigong` → 输出洪七公的完整角色上下文（身份 + 输入目录 + 输出格式 + 质量标准 + 可用工具）
+
+**规模**：~80 行代码（复用 encapsulate 编译逻辑）
+
+### 🆕 Task G：产出模板 — template + checklist（P1）
+
+**问题**：同一篇素材，老顽童和老朱产出的质量差距很大。每类产出缺少标准化的 template + checklist。
+
+**方案**：为每类产出定义 template + checklist 两张卡，放在 `40_outputs/capabilities/templates/`：
+- `template-article.md`（文章骨架：Audience / Core Thesis / Claims / Critique / Action Triggers）
+- `checklist-article.md`（文章质量检查单：缺 Audience? 缺 source_refs? 攻击者只提及不对话？）
+- `template-proposal.md`（提案骨架：问题 / 方案 / 规模 / 验收）
+- `checklist-proposal.md`（提案质量检查单）
+
+agent 动手前先 `kdo template article` 拉骨架，产出后 `kdo checklist article` 自检。
+
+**规模**：4 张卡 + `kdo template <type>` / `kdo checklist <type>` 两个小命令（~40 行）
+
+### 🆕 Task H：案例库建设（P1，已启动，持续扩充）
+
+**问题**：agent 产出靠"自己脑子里有什么"，不是"仓库里有什么类似产出可参考"。下限不可控。
+
+**当前状态**：case 卡模板 + lint 规则已就绪。2 条案例已入库（纪浩 Skills 市场 + Truman AI Partner）。
+
+**下一步**：
+- 每个新域投产时，先写 1 张 case 卡（这个域里最有代表性的案例）
+- 关键案例：老顽童 Truman 批次 A- → 纪浩批次 C+ 的质量对比（作为"什么时候该用什么模板"的活教材）
+- 关键案例：黄药师广冷红外板调试全流程（诊断固件从 0 到 1 的完整故事）
+- `kdo query "case:xxx"` → agent 产出前先看类似案例
 
 ### Task E：note-coach Agent 正式部署（P1，待 欧阳锋审查后启动）
 

@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-07
 active_branch: main
-active_task: "KDO 效能升级三阶段全部完成 ✅。全天产出：审查 2 批次 + AI Partner 设计 + 6 lint 规则 + kdo encapsulate/skill list/publish/install/quick + 2 case 卡 + 4 dk-ef 卡 + note-coach Skill。"
+active_task: "KDO 效能升级三阶段全部完成 ✅。新任务 F/G/H 已写入：角色编译 / 产出模板+checklist / 案例库建设。从知识宝库到内容工厂基础设施。"
 blockers: []
-next_session_hint: "用户说'继续'→ 全部基础设施可用。待办：纪浩批次重工、note-coach飞书部署、案例库扩充、工业化手册 L5 更新"
+next_session_hint: "用户说'继续'→ ① 选一个 Task F/G/H 开始 ② 或继续纪浩批次重工 ③ 或 note-coach 飞书部署"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
