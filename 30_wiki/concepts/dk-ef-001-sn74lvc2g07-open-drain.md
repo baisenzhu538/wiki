@@ -6,7 +6,7 @@ dark_knowledge_type: hardware-failure
 source_person: 黄药师
 source_context: "广冷红外板 V2.2 调试——SN74LVC2G07 驱动 595 移位寄存器时数据不稳定"
 source_refs:
-  - 90_control/electronics-practice/failure-modes-electronics.md#E-FM-001
+  - 90_control/electronics-practice/failure-modes-electronics.md
 tags:
   - "#source_type/dark-knowledge"
   - "#domain/electronics"
