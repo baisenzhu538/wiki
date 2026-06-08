@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-09
 active_branch: main
-active_task: "马易水水审查完成。欧阳锋裁定：C+合理，精选5-8张核心卡深度重做。标签分工确认：黄药师定schema，老顽童选值，validate把关。"
+active_task: "基础设施三项完成（硬门禁+标签建议+弱结构骨架）。正在做 Task G：产出模板 template + checklist。"
 blockers: []
-next_session_hint: "用户说'继续'→ ① 老顽童精选核心卡重做 ② 标签选值工具 ③ Task G产出模板（解决弱结构素材提取问题）"
+next_session_hint: "用户说'继续'→ ① Task G 完成情况 ② 老顽童精选核心卡重做 ③ 其他待办"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
