@@ -70,6 +70,59 @@ agent 动手前先 `kdo template article` 拉骨架，产出后 `kdo checklist a
 - 关键案例：黄药师广冷红外板调试全流程（诊断固件从 0 到 1 的完整故事）
 - `kdo query "case:xxx"` → agent 产出前先看类似案例
 
+### 🆕 Task I：中文文本提取修复（P0，~2h）
+
+> 来源：`60_feedback/kdo-infrastructure-audit-2026-06-10.md` + 欧阳锋审查意见
+
+**问题**：`kdo/extractors.py` 句分割正则基于英文 NLP 假设，中文句号"。"几乎不受支持。KDO 内容 99% 为中文 → 摘要/断言/概念卡生成系统性受损。
+
+**方案**：引入 jieba 分词 + 中文句分割逻辑，保留纯标准库 fallback。
+- 有 jieba → 用中文语义分割
+- 无 jieba → 降级到纯标准库方案（`re.split(r"[。！？!?]", text)`）
+- jieba 作为 `pip install kdo[zh]` 可选依赖，不破零依赖承诺
+
+**验收**：中文段落分割准确率 > 90%（用 10 篇 wiki 中文卡片做人工标注测试集）
+
+### 🆕 Task J：编译溯源 Build Provenance（P1，~1.5h）
+
+> 来源：同上审计报告 + 欧阳锋审查意见
+
+**问题**：文章出错无法判断"卡片错了还是编译错了"。知识卡更新后没有机制触发关联文章重编。反馈无效（改错了地方）。
+
+**方案**：每次 `kdo produce` / `kdo encapsulate` 生成 `.build-manifest.json`：
+```json
+{
+  "artifact_id": "article-xxx",
+  "built_at": "2026-06-10T...",
+  "builder": "kdo produce v0.2.0",
+  "input_cards": ["card-a", "card-b"],
+  "template": "template-article",
+  "card_versions": {"card-a": "d41d8cd9..."}
+}
+```
+新增 `kdo trace <artifact_id>` 命令：读取 manifest，列出原料清单 + 每张卡的当前版本 vs 编译时版本。如果卡片有更新 → flag "可能需要重编"。
+
+**验收**：`kdo trace article-xxx` 输出原料清单。`kdo lint` 检测过期 artifact（卡片已更新但文章未重编）→ WARNING。
+
+### 🆕 Task K：降低反馈摩擦（P0，~1h）
+
+> 来源：同上审计报告 + 欧阳锋审查意见
+
+**问题**：人类给反馈需要"打开文件→写 YAML→手动链接源"，门槛太高导致闭环断裂。
+
+**方案**：
+1. `kdo produce` 产出文章末尾自动附加反馈模板（人类只需填空）：
+```yaml
+## 反馈
+- [ ] 论点准确：________
+- [ ] 证据可靠：________
+- [ ] 遗漏了什么：________
+```
+2. `kdo feedback "自然语言"` 升级——支持自然语言输入，自动路由到 `60_feedback/` 正确子目录
+3. 不做 Obsidian 批注扫描（复杂度高，先做前两个）
+
+**验收**：人类在 Obsidian 打开文章 → 滚动到底部 → 在模板上填反馈 → 保存。（不需要离开 Obsidian，不需要记 YAML 格式）
+
 ### Task E：note-coach Agent 正式部署（P1，待 欧阳锋审查后启动）
 
 > 顶层思考见 `40_outputs/capabilities/skills/note-coach/SKILL.md` + `manifest.yaml` + `30_wiki/decisions/truman-ai-partner-design-analysis.md`

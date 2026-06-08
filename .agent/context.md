@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-09
 active_branch: main
-active_task: "Task F 角色编译完成 ✅。Tasks F/G/H 全部完成。KDO 三缺口补齐（角色编译/产出模板/案例库）。"
+active_task: "审计报告已对齐。Task I/J/K 已写入：中文提取修复/编译溯源/反馈摩擦降低。Tasks A-H 全部完成。"
 blockers: []
-next_session_hint: "用户说'继续'→ ① 老顽童精选核心卡重做 ② 标签建议模式实际使用 ③ note-coach飞书部署 ④ 其他"
+next_session_hint: "用户说'继续'→ ① 开始 Task I ② 或老顽童重做马易水水 ③ note-coach部署"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
