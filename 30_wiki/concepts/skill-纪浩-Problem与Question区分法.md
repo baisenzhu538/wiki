@@ -33,7 +33,7 @@ updated_at: "2026-06-07"
 
 ## 原始表述
 
-Problem与Question区分法是纪浩在AI协作方法论中提出的实操方法。
+Problem与Question区分法是纪浩在AI协作方法论分享中提出的具体方法，用于Problem与Question区分法。
 
 ## 操作步骤
 
