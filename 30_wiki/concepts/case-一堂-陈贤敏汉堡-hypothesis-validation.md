@@ -93,6 +93,8 @@ definition_of_done:
 4. 实验结果是否支持扩张？还需要什么附加验证？
 5. 如果实验结果不理想，我的Plan B是什么？
 
+- 使用本案例后有反馈，提交至 `60_feedback/cases/case-一堂-陈贤敏汉堡-hypothesis-validation`。
+
 ## 失败模式
 
 - **Copy-before-validation（先复制后验证）**：看到风口就想快速规模化，忽视了单店模型未跑通的事实。

@@ -88,6 +88,8 @@ definition_of_done:
 3. 验证这个假设的最小成本实验是什么？
 4. 实验结果是否推翻了我最初的"美好愿望"？
 
+- 使用本案例后有反馈，提交至 `60_feedback/cases/case-一堂-无人餐厅-hypothesis-failure`。
+
 ## 失败模式
 
 - **Wishful-thinking trap（愿望思维陷阱）**：把"我希望它成立"当成"它已经成立"。
