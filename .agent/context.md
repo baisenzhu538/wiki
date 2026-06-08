@@ -1,9 +1,9 @@
 ---
-updated: 2026-06-08
+updated: 2026-06-09
 active_branch: main
-active_task: "标签体系升级完成：从归档分类→Agent路由信号（38个二级场景标签+5边界+4可靠性）。KDO说明书已迭代。"
+active_task: "马易水水审查完成。欧阳锋裁定：C+合理，精选5-8张核心卡深度重做。标签分工确认：黄药师定schema，老顽童选值，validate把关。"
 blockers: []
-next_session_hint: "用户说'继续'→ ① 老顽童重工纪浩批次 ② note-coach飞书部署 ③ Task F/G/H"
+next_session_hint: "用户说'继续'→ ① 老顽童精选核心卡重做 ② 标签选值工具 ③ Task G产出模板（解决弱结构素材提取问题）"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
