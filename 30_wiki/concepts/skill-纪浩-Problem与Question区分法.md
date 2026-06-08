@@ -6,7 +6,8 @@ status: "draft"
 domain: ""
 source_person: "纪浩"
 source_context: "AI协作方法论"
-source_refs: ""
+source_refs:
+  - "00_inbox/纪浩-AI协作方法论-口述.md"
 wiki_refs: ""
 definition_of_done:
   - "操作步骤清晰可执行"
