@@ -1,0 +1,123 @@
+---
+id: "skill-纪浩-Agent技能市场设计法"
+title: "技能：Agent技能市场设计法"
+type: "skill"
+status: "draft"
+domain:
+  - "ai-collaboration"
+  - "yitang"
+source_person: "纪浩"
+source_context: "AI俱乐部·人和AI协作（第三次分享，2026-06）"
+source_refs:
+  - "00_inbox/纪浩-AI协作方法论-口述.md"
+  - "00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md"
+tags:
+  - "#boundary/requires-human-judgment"
+  - "#confidence/draft"
+  - "#confidence/source-cited"
+  - "#domain/ai-collaboration"
+  - "#domain/yitang"
+  - "#scene/ai-collaboration/skill-market"
+  - "#scene/agent-infrastructure"
+tools_required: "Web平台或内部系统、Skill封装规范"
+prerequisite_skills: "skill-纪浩-Do-first-PDCA渐进迭代法"
+related:
+  - "concept-纪浩-ai-collaboration-methodology"
+  - "case-纪浩-from-zip-to-five-layers"
+  - "skill-纪浩-Do-first-PDCA渐进迭代法"
+created_at: "2026-06-08"
+updated_at: "2026-06-08"
+---
+
+# 技能：Agent技能市场设计法
+
+## 原始表述
+
+纪浩在AI协作方法论中提出：Skills市场不是给人用的，是给Agent用的。Agent按分类+capability匹配 → 自己下载安装 → 自己上报反馈。平台的分类不是为了"人好找"，是为了"按任务类型精确命中"。写用法、使用场景不要让人填，让人跟AI说清楚，AI去补全信息。
+
+## 操作步骤
+
+1. **验证需求真实性**——用四要素检验确认Skills市场是否是真需求：Before-After、真实锚点、受益人、可解性。没有真实场景，需求会无限放飞
+2. **设计Agent接口**——平台提供给Agent的API，而不是给人的UI。Agent能够：按任务类型搜索Skill → 自动下载 → 自动安装 → 自动上报使用情况
+3. **设计分类层**——分类的目的是"路由"（让Agent按任务类型精确命中），不是"导航"（让人浏览体验好）。每个Skill需要标记：适用任务类型、能力范围、版本号、兼容性声明
+4. **自动化信息补全**——Skill的描述、使用场景、限制条件不要让人填写。让人用自然语言告诉AI自己的需求，AI自动生成标准化的Skill描述和元信息
+5. **建立反馈闭环**——Agent使用Skill后自动上报使用情况和效果。维护者通过反馈数据判断Skill质量，决定是否更新或下架
+6. **验证自动化流程**——测试一个新Agent能否无人干预地完成“搜索→下载→安装→上报”的全流程
+
+## 适用场景
+
+- 团队内部有多个AI Skill需要统一管理和分发
+- 需要在多个项目或多个Agent之间复用同一套AI能力
+- Skill的版本更新频繁，需要自动化的版本管理
+- 需要基于使用反馈持续优化Skill质量
+
+## 不适用场景
+
+- 只有1-2个Skill、只有1-2个用户的超小团队（微信传zip更快）
+- Skill使用频率极低（一年用一次，没必要建平台）
+- 需要严格人工审批的场景（如涉及安全审计的Skill）
+
+## 工具/环境
+
+- Web服务或内部系统（提供API接口）
+- Skill封装规范（定义Skill的结构、元数据、版本控制）
+- Agent自动化框架（支持自动下载、安装、上报）
+
+## 常见失败模式
+
+- **设计成人用的"应用商店"**——结果是Agent无法自动消费，人还得手动管理 → **检查标准：平台是否提供给Agent的API接口**
+- **分类是为了人好看**——结果是Agent在大量Skill中盲目搜索，命中率低 → **检查标准：分类是否基于任务类型和能力范围，而不是品牌或场景**
+- **人填写Skill信息**——结果是信息不规范、不完整，Agent无法理解 → **检查标准：Skill描述是否由AI根据人的自然语言输入自动生成**
+- **没有反馈闭环**——结果是维护者不知道Skill的真实使用情况，无法持续优化 → **检查标准：Agent使用后是否自动上报效果数据**
+
+## 为什么有效
+
+技能市场的核心机制是**把人工分发的机械工作自动化**。当Skill数量超过3个、用户超过2个时，微信传zip的方式就会暴露出存储分散、版本混乱、反馈无上下文、安装靠人四大痛点。Agent-facing的设计让这些机械工作交给Agent自己完成。
+
+## Critique
+
+### 内部局限
+
+- **需要一定的技术基础设施。**Skills市场不是一个文档夹或表格能解决的，需要API、数据库、自动化框架。小团队可能觉得成本过高
+- **Agent的能力边界不确定。**"让Agent自己下载安装"假设了Agent有足够的能力。如果Agent连自己的工具都管不好，这个设计就是建空楼阁
+- **安全和审计问题。**Agent自动下载和安装意味着自动执行代码，如果Skill来源不可靠，风险很大
+
+### 外部攻击
+
+#### Nicholas Carr 的"自动化让人变笨"批评
+
+**Nicholas Carr**（《不要总是用Google》作者，技术批评家）会质问：**当技能市场让Agent自动化了所有的技能获取和安装，人就会逐渐忘记这些技能是什么、如何工作、什么时候不该用**。Carr 的研究表明，当人们依赖外部工具进行记忆和思考时，他们自己的认知能力会退化。Skills市场越方便，人对技能本身的理解就越浅。
+
+> **Carr 的敛命敲响**："你设计了一个让Agent自动管理技能的系统，这很棒。但三年之后，你的团队里还有多少人能说清楚这些技能的底层逻辑？如果系统出故障，你们是能自己修，还是只能等Agent自己恢复？"
+
+#### Tim O'Reilly 的"平台经济学"批评
+
+**Tim O'Reilly**（O'Reilly Media创始人，"平台经济学"概念提出者）会追问：**Skills市场虽然叫"市场"，但它可能不会自然演化成一个健康的生态系统**。真正的市场需要：充足的供给（大量高质量Skill）、充足的需求（大量活跃Agent）、有效的价格信号（让好Skill被发现）、信任机制（让用户放心使用）。如果团队只有一两个Agent和三五个Skill，这不是市场，是一个共享文件夹。
+
+> **O'Reilly 的敛命敲响**："你说这是一个Skills市场。但一个真正的市场需要生态系统——供给、需求、信任、发现。你的团队有多少人在积极创建Skill？有多少Agent在活跃使用？如果答案都是'不多'，你的市场可能只是一个共享目录。"
+
+## Action Triggers
+
+- 当你发现团队里有多个AI Skill在微信传zip时 → 考虑建立Skills市场，让Agent自己管理
+- 当你的AI配置需要在多个项目间复用时 → 把配置封装成Skill放到市场，让Agent自动拉取
+- 当你想基于使用反馈持续优化AI能力时 → 设计自动上报机制，让数据驱动优化
+
+## Synthesis
+
+### 不要用的场景
+
+| 场景 | 为什么失效 | 替代方案 |
+|:---|:---|:---|
+| 只有1-2个Skill的小团队 | 市场的建设和维护成本远超过微信传zip的效率损失 | 直接用Git仓库或共享文件夹管理 |
+| Skill涉及敏感信息或安全审计 | Agent自动下载安装可能导致泄露或误用 | 人工审批+手动分发，不走自动化流程 |
+| 需要跨组织共享的公开市场 | 信任机制、使用协议、版权问题复杂度暴增 | 使用成熟的开源生态或商业平台（如GitHub Marketplace、OpenAI Plugin Store） |
+
+### 关联说明
+
+- [[concept-纪浩-ai-collaboration-methodology]] —— Skills市场是纪浩五层体系的L5，是规模复用的基础设施。前四层都是为了让L5有东西可以封装和复用
+- [[case-纪浩-from-zip-to-five-layers]] —— 纪浩团队的Skills市场是从微信传zip的痛点中长出来的，是一个典型的Agent-facing设计
+- [[skill-纪浩-Do-first-PDCA渐进迭代法]] —— Skill本身是用Do-first PDCA迭代出来的，市场只是让这个迭代成果能被复用
+
+## Feedback Path
+
+- 60_feedback/comments/ —— 使用此技能后有任何反馈，提交到这里
