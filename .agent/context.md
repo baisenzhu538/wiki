@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-09
 active_branch: main
-active_task: "基础设施三项完成（硬门禁+标签建议+弱结构骨架）。正在做 Task G：产出模板 template + checklist。"
+active_task: "广冷经验工业化完成（交叉验证检查单+case卡+项目标准升级）。KDO说明书v1.2.0。Codex Win10沙箱问题确认(P-24)。继续执行中。"
 blockers: []
-next_session_hint: "用户说'继续'→ ① Task G 完成情况 ② 老顽童精选核心卡重做 ③ 其他待办"
+next_session_hint: "用户说'继续'→ ① Win11升级评估 ② 老顽童精选核心卡重做 ③ Task F(角色编译) ④ 其他待办"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
