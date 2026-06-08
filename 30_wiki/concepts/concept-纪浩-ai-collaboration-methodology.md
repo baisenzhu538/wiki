@@ -9,10 +9,9 @@ domain:
 source_person: "纪浩"
 source_context: "AI俱乐部-AI协作方法论 分享（第三次分享，2026-06）"
 source_refs:
-  - "00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt"
-  - "00_inbox/AI俱乐部-AI协作方法论-纪浩-笔记.txt"
-  - "00_inbox/AI俱乐部-人和AI协作-纪浩-提示词案例01.txt"
-  - "00_inbox/AI俱乐部-人和AI协作-纪浩-提示词案例02.txt"
+  - "00_inbox/纪浩-AI协作方法论-口述.md"
+  - "00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md"
+  - "00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md"
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
@@ -41,16 +40,16 @@ tags:
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
-  - "skill-纪浩-four-elements-validation"
-  - "skill-纪浩-agent-workspace"
-  - "skill-纪浩-dofirst-pdca"
-  - "skill-纪浩-dual-triangle"
-  - "skill-纪浩-progressive-disclosure"
-  - "dk-纪浩-pdca-starts-from-do"
+  - "skill-纪浩-真需求四要素验证法"
+  - "skill-纪浩-AI工作空间与导诊台设计法"
+  - "skill-纪浩-Do-first-PDCA渐进迭代法"
+  - "skill-纪浩-Agent技能市场设计法"
+  - "skill-纪浩-日志驱动排查法"
   - "dk-纪浩-ai-cant-design-structure"
-  - "dk-纪浩-newbie-can-validate"
-  - "case-纪浩-skills-market"
-  - "case-纪浩-focus-prompt-design"
+  - "dk-纪浩-simple-complex-routing"
+  - "dk-纪浩-pdca-starts-from-do"
+  - "dk-纪浩-logs-fastest-ignored"
+  - "case-纪浩-from-zip-to-five-layers"
 ---
 
 # 纪浩 AI 协作方法论
