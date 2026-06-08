@@ -2,7 +2,7 @@
 id: "dk-一堂-wishful-thinking-kills-startups"
 title: "暗知：'愿望思维'是创业最大的陷阱"
 type: "dk"
-status: "draft"
+status: "published"
 domain:
   - "yitang"
   - "business-strategy"
@@ -20,7 +20,7 @@ tags:
   - "#topic/cognitive-bias"
   - "#topic/decision-making"
 created_at: "2026-06-08"
-updated_at: "2026-06-08"
+updated_at: "2026-06-09"
 related:
   - "concept-一堂-hypothesis-driven-business-methodology"
   - "case-一堂-无人餐厅-hypothesis-failure"
@@ -101,4 +101,8 @@ definition_of_done:
 - **[[concept-一堂-hypothesis-driven-business-methodology]]** — 这张暗知卡是方法论的心理基础。假设驱动型方法论之所以有效，不是因为它提供了神奇的工具，而是因为它强制创业者抵抗"愿望思维"这个天性。没有这张暗知卡，259工具会变成另一个"被美化的愿景——用正确的词汇表达错误的假设。
 - **[[case-一堂-无人餐厅-hypothesis-failure]]** — 这是"技术可行=商业必然"走偏模式的典型案例。无人餐厅的创业者不是能力不够，而是在"愿望思维"中把"机器人能送餐"等同于"机器人能创造经营价值"。这也说明了暗知的第一个纠偏动作——把"技术能做到"和"用户愿意付费"分开。
 - **[[case-一堂-AI高考志愿-kernel-mismatch]]** — 这是"自己需要=市场需要"走偏模式的典型案例。产品团队觉得"智能问答"是核心卖点，因为他们自己是技术背景，觉得智能功能很酷。但家长作出的是高风险决策，"酷"远没有"稳"重要。
-- **[[skill-一堂-product-kernel-canvas]]** — 内核画布是抗击"愿望思维"的实操工具。它通过"去掉这个要素，用户还会选择吗？"这个问题，强迫团队从用户视角而非自己视角出发。这是一种"窋序化"的纠偏机制——用结构化问题抵抗人的认知偏差。
+- **[[skill-一堂-product-kernel-canvas]]** — 内核画布是抗击"愿望思维"的实操工具。它通过"去掉这个要素，用户还会选择吗？"这个问题，强迫团队从用户视角而非自己视角出发。这是一种"窟序化"的纠偏机制——用结构化问题抵抗人的认知偏差。
+
+## Feedback Path
+
+- 应用本暗知后有反馈，提交至 `60_feedback/dks/dk-一堂-wishful-thinking-kills-startups`。

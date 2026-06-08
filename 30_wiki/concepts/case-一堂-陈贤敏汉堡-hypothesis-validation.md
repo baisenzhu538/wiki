@@ -2,7 +2,7 @@
 id: "case-一堂-陈贤敏汉堡-hypothesis-validation"
 title: "案例：陈贤敏中式汉堡先开实验店验证关键假设"
 type: "case"
-status: "draft"
+status: "published"
 domain:
   - "yitang"
   - "business-strategy"
@@ -18,7 +18,7 @@ tags:
   - "#scene/startup/hypothesis-validation"
   - "#scene/success-pattern/minimum-experiment"
 created_at: "2026-06-08"
-updated_at: "2026-06-08"
+updated_at: "2026-06-09"
 related:
   - "case-一堂-无人餐厅-hypothesis-failure"
   - "concept-一堂-hypothesis-driven-business-methodology"

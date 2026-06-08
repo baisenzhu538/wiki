@@ -2,7 +2,7 @@
 id: "case-一堂-AI高考志愿-kernel-mismatch"
 title: "案例：AI高考志愿填报产品因内核错位而失敗"
 type: "case"
-status: "draft"
+status: "published"
 domain:
   - "yitang"
   - "product-strategy"
@@ -18,7 +18,7 @@ tags:
   - "#scene/failure-mode/kernel-mismatch"
   - "#scene/ai-product/value-proposition"
 created_at: "2026-06-08"
-updated_at: "2026-06-08"
+updated_at: "2026-06-09"
 related:
   - "concept-一堂-hypothesis-driven-business-methodology"
   - "skill-一堂-product-kernel-canvas"

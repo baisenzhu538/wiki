@@ -2,7 +2,7 @@
 id: "skill-一堂-product-kernel-canvas"
 title: "一堂产品内核画布应用技能"
 type: "skill"
-status: "draft"
+status: "published"
 domain:
   - "yitang"
   - "product-strategy"
@@ -20,7 +20,7 @@ tags:
   - "#topic/product-kernel"
   - "#topic/value-proposition"
 created_at: "2026-06-08"
-updated_at: "2026-06-08"
+updated_at: "2026-06-09"
 related:
   - "concept-一堂-hypothesis-driven-business-methodology"
   - "case-一堂-AI高考志愿-kernel-mismatch"

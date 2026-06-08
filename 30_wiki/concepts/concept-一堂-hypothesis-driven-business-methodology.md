@@ -2,7 +2,7 @@
 id: "concept-一堂-hypothesis-driven-business-methodology"
 title: "一堂假设驱动型创业分析方法论"
 type: "concept"
-status: "draft"
+status: "published"
 domain:
   - "yitang"
   - "business-strategy"
@@ -22,7 +22,7 @@ tags:
   - "#topic/hypothesis-driven"
   - "#topic/product-kernel"
 created_at: "2026-06-08"
-updated_at: "2026-06-08"
+updated_at: "2026-06-09"
 related:
   - "case-一堂-无人餐厅-hypothesis-failure"
   - "case-一堂-陈贤敏汉堡-hypothesis-validation"
