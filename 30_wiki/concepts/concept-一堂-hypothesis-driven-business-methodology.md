@@ -130,3 +130,7 @@ n
 - **[[case-一堂-AI高考志愿-kernel-mismatch]]** — 边界案例，提醒假设驱动方法论的使用者：即使你用259工具拆出了假设，如果不能从用户决策心理出发识别决定性要素，假设验证会偏离方向。这也是为什么方法论需要"内核画布"这一层。
 - **[[skill-一堂-product-kernel-canvas]]** — 内核画布是假设驱动方法论在产品层面的落地工具。它将抽象的"用户需求"转化为具体的"用户选择逻辑"，确保产品内核承接需求、支撑商业模式。
 - **[[dk-一堂-wishful-thinking-kills-startups]]** — 这张暗知卡直击方法论的心理对手：人类天生倾向于相信"我们能成"。方法论的价值不仅是提供工具，更是一套"制度化态度"——默认失败，需要验证。
+
+## Feedback Path
+
+- 应用本概念后有反馈，提交至 `60_feedback/concepts/concept-一堂-hypothesis-driven-business-methodology`。
