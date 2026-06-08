@@ -24,6 +24,17 @@ related:
   - "case-半肥猫-course-to-skill"
   - "skill-纪浩-真需求四要素验证法"
   - "dk-半肥猫-silky-answers-are-dangerous"
+wiki_refs:
+  - "case-半肥猫-course-to-skill"
+  - "skill-纪浩-真需求四要素验证法"
+  - "dk-半肥猫-silky-answers-are-dangerous"
+definition_of_done:
+  - "原始表述、问题、方案、可迁移、Feedback Path 均已填写"
+  - "关键数据和纠偏过程已记录"
+  - "可迁移条件和不可复制场景已明确"
+  - "实际应用后收集反馈并更新案例"
+created_at: "2026-06-08"
+updated_at: "2026-06-08"
 ---
 
 # 案例：半肥猫把一堂课程作业变成可复用调研工具
@@ -90,6 +101,19 @@ related:
 **关键转折点**：
 
 > 最难的不是让AI给答案，而是自己有没有真实的问题、有没有判别的标准、有没有持续纠偏的能力。
+
+## Wiki References
+
+- [[case-半肥猫-course-to-skill]] —— 另一个半肥猫案例，展示了从课程到Skill的八步工作流
+- [[skill-纪浩-真需求四要素验证法]] —— 确保工具化的前提是真实需求
+- [[dk-半肥猫-silky-answers-are-dangerous]] —— 为什么必须连续纠偏AI的回答
+
+## Definition of Done
+
+- [x] 原始表述、问题、方案、可迁移、Feedback Path 均已填写
+- [x] 关键数据和纠偏过程已记录
+- [x] 可迁移条件和不可复制场景已明确
+- [ ] 实际应用后收集反馈并更新案例
 
 ## Feedback Path
 

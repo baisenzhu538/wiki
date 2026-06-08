@@ -23,6 +23,17 @@ updated_at: "2026-06-08"
 related:
   - "case-半肥猫-from-assignment-to-tool"
   - "skill-半肥猫-course-to-skill-workflow"
+wiki_refs:
+  - "case-半肥猫-from-assignment-to-tool"
+  - "skill-半肥猫-course-to-skill-workflow"
+  - "dk-半肥猫-silky-answers-are-dangerous"
+definition_of_done:
+  - "原始表述、问题、方案、可迁移、Feedback Path 均已填写"
+  - "八步工作流和12维度评分标准已记录"
+  - "测试数据（正向/反向/高风险）已填写"
+  - "实际应用后收集反馈并更新案例"
+created_at: "2026-06-08"
+updated_at: "2026-06-08"
 ---
 
 # 案例：半肥猫把一堂课程转化为AI Skill——八步工作流与12维度评分标准
@@ -107,6 +118,19 @@ related:
 **关键转折点**：
 
 > Skill相比裸模型的最大价值差异，不在内容生成，而在**边界守护与拒绝能力**。
+
+## Wiki References
+
+- [[case-半肥猫-from-assignment-to-tool]] —— 另一个半肥猫案例，展示了从课程作业到可复用工具的转化
+- [[skill-半肥猫-course-to-skill-workflow]] —— 八步工作流的具体操作指南
+- [[dk-半肥猫-silky-answers-are-dangerous]] —— 为什么必须连续纠偏AI的回答
+
+## Definition of Done
+
+- [x] 原始表述、问题、方案、可迁移、Feedback Path 均已填写
+- [x] 八步工作流和12维度评分标准已记录
+- [x] 测试数据（正向/反向/高风险）已填写
+- [ ] 实际应用后收集反馈并更新案例
 
 ## Feedback Path
 
