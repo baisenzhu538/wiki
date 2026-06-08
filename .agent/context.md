@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-09
 active_branch: main
-active_task: "广冷经验工业化完成（交叉验证检查单+case卡+项目标准升级）。KDO说明书v1.2.0。Codex Win10沙箱问题确认(P-24)。继续执行中。"
+active_task: "Task F 角色编译完成 ✅。Tasks F/G/H 全部完成。KDO 三缺口补齐（角色编译/产出模板/案例库）。"
 blockers: []
-next_session_hint: "用户说'继续'→ ① Win11升级评估 ② 老顽童精选核心卡重做 ③ Task F(角色编译) ④ 其他待办"
+next_session_hint: "用户说'继续'→ ① 老顽童精选核心卡重做 ② 标签建议模式实际使用 ③ note-coach飞书部署 ④ 其他"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
