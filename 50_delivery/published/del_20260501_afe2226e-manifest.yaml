@@ -1,0 +1,35 @@
+---
+delivery_id: "del_20260501_afe2226e"
+artifact_id: "art_20260501_cc0af2d7"
+artifact_path: "40_outputs/content/articles/art_20260501_cc0af2d7-诊所o2o外卖平台业务深度调研报告.md"
+channel: "local"
+url: ""
+shipped_at: "2026-05-01T05:27:16+00:00"
+feedback_deadline: "2026-05-15T05:27:16+00:00"
+---
+
+# Delivery Manifest: del_20260501_afe2226e
+
+## Validation Snapshot
+
+- passed: 12
+- failed: 0
+- warnings: 0
+
+## Artifact Info
+
+- title: 诊所O2O外卖平台业务深度调研报告
+- type: content/article
+- status: shipped
+- target_user: 产品决策团队
+
+## Feedback Collection
+
+- method: 60_feedback/comments/
+- deadline: 2026-05-15T05:27:16+00:00
+- status: pending
+- collected: []
+
+## Notes
+
+N/A

@@ -1,0 +1,35 @@
+---
+delivery_id: "del_20260501_18a33ada"
+artifact_id: "art_20260430_447f2eea"
+artifact_path: "40_outputs/content/articles/art_20260430_447f2eea-ai-native公司组织方法论公司即操作系统.md"
+channel: "local"
+url: ""
+shipped_at: "2026-05-01T05:27:32+00:00"
+feedback_deadline: "2026-05-15T05:27:32+00:00"
+---
+
+# Delivery Manifest: del_20260501_18a33ada
+
+## Validation Snapshot
+
+- passed: 12
+- failed: 0
+- warnings: 0
+
+## Artifact Info
+
+- title: AI-Native公司组织方法论：公司即操作系统
+- type: content/article
+- status: shipped
+- target_user: AI创业者与组织设计者
+
+## Feedback Collection
+
+- method: 60_feedback/comments/
+- deadline: 2026-05-15T05:27:32+00:00
+- status: pending
+- collected: []
+
+## Notes
+
+N/A

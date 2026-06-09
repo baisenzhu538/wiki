@@ -1,0 +1,35 @@
+---
+delivery_id: "del_20260430_4d5f1f23"
+artifact_id: "kdo_builtin_knowledge_curator_v1"
+artifact_path: "40_outputs/capabilities/skills/knowledge-curator/SKILL.md"
+channel: "test"
+url: ""
+shipped_at: "2026-04-30T15:45:07+00:00"
+feedback_deadline: "2026-05-14T15:45:07+00:00"
+---
+
+# Delivery Manifest: del_20260430_4d5f1f23
+
+## Validation Snapshot
+
+- passed: 10
+- failed: 0
+- warnings: 0
+
+## Artifact Info
+
+- title: Knowledge Curator Skill
+- type: capability/skill
+- status: shipped
+- target_user: AI agent or human operating a KDO workspace
+
+## Feedback Collection
+
+- method: N/A (test delivery)
+- deadline: 2026-05-14T15:45:07+00:00
+- status: pending
+- collected: []
+
+## Notes
+
+N/A

@@ -1,0 +1,35 @@
+---
+delivery_id: "del_20260529_3d718d74"
+artifact_id: "art_20260529_100d27de"
+artifact_path: "40_outputs/content/articles/art_20260529_100d27de-花总ai落地ama精华.md"
+channel: "local"
+url: ""
+shipped_at: "2026-05-29T04:43:21+00:00"
+feedback_deadline: "2026-06-12T04:43:21+00:00"
+---
+
+# Delivery Manifest: del_20260529_3d718d74
+
+## Validation Snapshot
+
+- passed: 12
+- failed: 0
+- warnings: 0
+
+## Artifact Info
+
+- title: 花总AI落地AMA精华
+- type: content/article
+- status: shipped
+- target_user: 非技术背景的AI初学者
+
+## Feedback Collection
+
+- method: 60_feedback/comments/
+- deadline: 2026-06-12T04:43:21+00:00
+- status: pending
+- collected: []
+
+## Notes
+
+N/A

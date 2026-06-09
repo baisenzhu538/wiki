@@ -1,0 +1,35 @@
+---
+delivery_id: "del_20260531_08b374a3"
+artifact_id: "art_20260531_74dd8445"
+artifact_path: "40_outputs/content/articles/art_20260531_74dd8445-李诞脱口秀工作手册读书分享会后感.md"
+channel: "local"
+url: ""
+shipped_at: "2026-05-31T10:23:32+00:00"
+feedback_deadline: "2026-06-14T10:23:32+00:00"
+---
+
+# Delivery Manifest: del_20260531_08b374a3
+
+## Validation Snapshot
+
+- passed: 12
+- failed: 0
+- warnings: 0
+
+## Artifact Info
+
+- title: 李诞《脱口秀工作手册》读书分享会后感
+- type: content/article
+- status: shipped
+- target_user: 正在探索AI落地的创业者、产研负责人、行业决策者
+
+## Feedback Collection
+
+- method: 60_feedback/comments/
+- deadline: 2026-06-14T10:23:32+00:00
+- status: pending
+- collected: []
+
+## Notes
+
+N/A
