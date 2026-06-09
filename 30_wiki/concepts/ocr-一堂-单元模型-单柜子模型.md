@@ -1,0 +1,34 @@
+---
+title: "OCR: 一堂-单元模型-单柜子模型"
+type: "concept"
+status: "draft"
+source_refs: [src_20260609_2e27ff75]
+created_at: "2026-06-09T14:04:56+00:00"
+updated_at: "2026-06-09T14:04:56+00:00"
+---
+
+# OCR: 一堂-单元模型-单柜子模型
+
+## Summary
+
+原图: `一堂-单元模型-单柜子模型.
+
+*` 一堂十大单元模型之七：单柜子模型 句话解释 按每个柜子为物理空间，来计算单元模型 常见变种 单机柜模型(租单台设备），单设备模型，单充电桩模型 典型类型 扭蛋机，无人货柜，无人打印机，无人按摩椅 建议要用 柜子类业务的，建议都要算 - 本文件由 PaddleOCR ONNX pipeline 自动提取 - 可能存在连字/误识，需要人工校对 - 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
+
+## Source Refs
+
+- `src_20260609_2e27ff75` -> `10_raw/sources/src_20260609_2e27ff75-ocr-一堂-单元模型-单柜子模型.md`
+
+## Reusable Knowledge
+
+- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+
+## Open Questions
+
+- TODO: What open questions does this source raise?
+
+## Output Opportunities
+
+- Content:
+- Code:
+- Capability: workflow or playbook

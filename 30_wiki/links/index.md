@@ -63,8 +63,42 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/entities/鑫港湾.md]]
 - [[30_wiki/projects/鑫港湾HIS项目.md]]
 
+## [[Kahneman]]
+- [[30_wiki/concepts/concept-半肥猫-learning-toolification-methodology.md]]
+
 ## [[after-action-review-aar]]
 - [[30_wiki/concepts/yt-decision-review.md]]
+
+## [[ai-coaching-loop]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-evidence-check.md]]
+- [[30_wiki/concepts/skill-ai-evidence-check.md]]
+
+## [[ai-collaboration-mindset-shift]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-problem-validation.md]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-question-problem-checklist.md]]
+- [[30_wiki/concepts/ai-landing-scene-selection.md]]
+- [[30_wiki/concepts/ai-learning-closed-loop.md]]
+- [[30_wiki/concepts/contingency-decision-making.md]]
+- [[30_wiki/concepts/skill-ai-problem-validation.md]]
+- [[30_wiki/concepts/skill-ai-question-problem-checklist.md]]
+- [[30_wiki/concepts/structured-ai-workspace.md]]
+- [[30_wiki/dark-knowledges/dk-ai-judgment-human-responsibility.md]]
+
+## [[ai-landing-scene-selection]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-old-small-checklist.md]]
+- [[30_wiki/concepts/ai-collaboration-mindset-shift.md]]
+- [[30_wiki/concepts/ai-learning-closed-loop.md]]
+- [[30_wiki/concepts/contingency-decision-making.md]]
+- [[30_wiki/concepts/course-to-skill-conversion.md]]
+- [[30_wiki/concepts/find-old-do-small.md]]
+- [[30_wiki/concepts/skill-ai-old-small-checklist.md]]
+
+## [[ai-learning-closed-loop]]
+- [[30_wiki/concepts/ai-collaboration-mindset-shift.md]]
+- [[30_wiki/concepts/ai-landing-scene-selection.md]]
+- [[30_wiki/concepts/course-to-skill-conversion.md]]
+- [[30_wiki/concepts/find-old-do-small.md]]
+- [[30_wiki/concepts/structured-ai-workspace.md]]
 
 ## [[ai-native-五层进阶从答案到效率到作品到产品到系统]]
 - [[30_wiki/concepts/ai数据理解第一课.md]]
@@ -75,8 +109,15 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[aigc设计师实操培训01口喷设计范式与电商ai设计全流程]]
 - [[30_wiki/concepts/aigc文创案例设计课leo文创ip从0到1全流程.md]]
 
+## [[ai时代判断力口述]]
+- [[30_wiki/concepts/concept-ai-native-organization-five-steps.md]]
+
+## [[ai时代判断力口述-2]]
+- [[30_wiki/concepts/concept-ai-native-organization-five-steps.md]]
+
 ## [[ai时代判断力口述-3]]
 - [[30_wiki/concepts/ai单元模型口述蒋老师.md]]
+- [[30_wiki/concepts/concept-ai-native-organization-five-steps.md]]
 
 ## [[blue-ocean-strategy]]
 - [[30_wiki/concepts/yt-decision-height-toolkit.md]]
@@ -90,11 +131,146 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/truman-perspective-skill.md]]
 - [[30_wiki/concepts/yt-research-action-camp-launch.md]]
 - [[30_wiki/concepts/yt-research-weaponry-course.md]]
+- [[30_wiki/concepts/yt-tool-mental-model-refinement.md]]
 - [[30_wiki/systems/kdo-protocol.md]]
 - [[30_wiki/systems/一堂方法论体系总图.md]]
 
+## [[case-truman-ai-partner]]
+- [[30_wiki/concepts/concept-纪浩-ai-collaboration-methodology.md]]
+
+## [[case-一堂-AI高考志愿-kernel-mismatch]]
+- [[30_wiki/concepts/concept-一堂-hypothesis-driven-business-methodology.md]]
+- [[30_wiki/concepts/concept-一堂-product-kernel.md]]
+- [[30_wiki/concepts/dk-一堂-wishful-thinking-kills-startups.md]]
+- [[30_wiki/concepts/skill-一堂-product-kernel-canvas.md]]
+
+## [[case-一堂-无人餐厅-hypothesis-failure]]
+- [[30_wiki/concepts/concept-一堂-hypothesis-driven-business-methodology.md]]
+- [[30_wiki/concepts/concept-一堂-key-assumptions.md]]
+- [[30_wiki/concepts/dk-一堂-wishful-thinking-kills-startups.md]]
+- [[30_wiki/concepts/yt-entrepreneur-lean-validation.md]]
+
+## [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
+- [[30_wiki/concepts/concept-一堂-hypothesis-driven-business-methodology.md]]
+- [[30_wiki/concepts/concept-一堂-key-assumptions.md]]
+- [[30_wiki/concepts/yt-entrepreneur-lean-validation.md]]
+
+## [[case-半肥猫-conversion-hacker-skill]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-判断课程是否值得做成Skill.md]]
+- [[30_wiki/concepts/skill-半肥猫-将学习成果沉淀为PRD文档.md]]
+- [[30_wiki/concepts/skill-半肥猫-课程Skill化的八步工作流.md]]
+- [[30_wiki/concepts/skill-半肥猫-边学边练边沉淀的AI学习法.md]]
+- [[30_wiki/concepts/skill-半肥猫-追问AI证据并标注信源.md]]
+- [[30_wiki/concepts/skill-半肥猫-飞书多维表格-自建机器人做团队数据协同.md]]
+
+## [[case-半肥猫-course-to-skill]]
+- [[30_wiki/concepts/case-半肥猫-from-assignment-to-tool.md]]
+- [[30_wiki/concepts/concept-半肥猫-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-course-to-skill-workflow.md]]
+
+## [[case-半肥猫-from-assignment-to-tool]]
+- [[30_wiki/concepts/case-半肥猫-course-to-skill.md]]
+- [[30_wiki/concepts/concept-半肥猫-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/dk-半肥猫-real-business-is-the-engine.md]]
+- [[30_wiki/concepts/dk-半肥猫-silky-answers-are-dangerous.md]]
+- [[30_wiki/concepts/skill-半肥猫-ai-research-validation.md]]
+
+## [[case-半肥猫-skill-ab-test]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-告诉AI当前日期限制数据时效.md]]
+- [[30_wiki/concepts/skill-半肥猫-用Skill做对比测试验证效果.md]]
+- [[30_wiki/concepts/skill-半肥猫-设计Skill的评分规则与风险边界.md]]
+- [[30_wiki/concepts/skill-半肥猫-课程Skill化的八步工作流.md]]
+
+## [[case-纪浩-ai-workspace-chaos]]
+- [[30_wiki/concepts/concept-纪浩-ai-collaboration-five-layer.md]]
+- [[30_wiki/concepts/dk-纪浩-novice-mindset-advantage.md]]
+
+## [[case-纪浩-from-zip-to-five-layers]]
+- [[30_wiki/concepts/case-jh-yitang-vs-sqlhelper.md]]
+- [[30_wiki/concepts/concept-纪浩-ai-collaboration-methodology.md]]
+- [[30_wiki/concepts/skill-纪浩-Agent技能市场设计法.md]]
+- [[30_wiki/concepts/skill-纪浩-Do-first-PDCA渐进迭代法.md]]
+- [[30_wiki/concepts/skill-纪浩-真需求四要素验证法.md]]
+
+## [[case-纪浩-skill-market-problem-validation]]
+- [[30_wiki/concepts/dk-纪浩-problem-vs-question.md]]
+- [[30_wiki/concepts/skill-纪浩-problem-validation-four-checks.md]]
+
+## [[case-纪浩-ui-design-constraint-evolution]]
+- [[30_wiki/concepts/dk-纪浩-constraint-beats-talent.md]]
+- [[30_wiki/concepts/dk-纪浩-novice-mindset-advantage.md]]
+- [[30_wiki/concepts/dk-纪浩-problem-vs-question.md]]
+
 ## [[checklist-manifesto-gawande]]
 - [[30_wiki/concepts/yt-decision-width-method.md]]
+
+## [[concept-一堂-business-prediction]]
+- [[30_wiki/concepts/concept-一堂-product-kernel.md]]
+
+## [[concept-一堂-hypothesis-driven-business-methodology]]
+- [[30_wiki/concepts/concept-一堂-key-assumptions.md]]
+- [[30_wiki/concepts/dk-一堂-wishful-thinking-kills-startups.md]]
+- [[30_wiki/concepts/yt-decision-y-model.md]]
+- [[30_wiki/concepts/yt-entrepreneur-key-hypotheses.md]]
+
+## [[concept-一堂-kernel-validation]]
+- [[30_wiki/concepts/concept-一堂-kernel-iteration.md]]
+
+## [[concept-一堂-key-assumptions]]
+- [[30_wiki/concepts/concept-一堂-business-prediction.md]]
+- [[30_wiki/concepts/concept-一堂-kernel-validation.md]]
+- [[30_wiki/concepts/concept-一堂-product-kernel.md]]
+
+## [[concept-一堂-product-kernel]]
+- [[30_wiki/concepts/concept-一堂-business-prediction.md]]
+- [[30_wiki/concepts/concept-一堂-kernel-iteration.md]]
+- [[30_wiki/concepts/concept-一堂-kernel-validation.md]]
+- [[30_wiki/concepts/concept-一堂-key-assumptions.md]]
+
+## [[concept-半肥猫-ai-learning-toolification-methodology]]
+- [[30_wiki/concepts/skill-半肥猫-优先使用官方权威信源做证据.md]]
+- [[30_wiki/concepts/skill-半肥猫-告诉AI当前日期限制数据时效.md]]
+- [[30_wiki/concepts/skill-半肥猫-将学习成果沉淀为PRD文档.md]]
+- [[30_wiki/concepts/skill-半肥猫-课程Skill化的八步工作流.md]]
+- [[30_wiki/concepts/skill-半肥猫-边学边练边沉淀的AI学习法.md]]
+- [[30_wiki/concepts/skill-半肥猫-追问AI证据并标注信源.md]]
+
+## [[concept-半肥猫-learning-toolification-methodology]]
+- [[30_wiki/concepts/dk-半肥猫-real-business-is-the-engine.md]]
+
+## [[concept-纪浩-ai-collaboration-five-layer]]
+- [[30_wiki/concepts/case-jh-yitang-vs-sqlhelper.md]]
+- [[30_wiki/concepts/dk-纪浩-constraint-beats-talent.md]]
+- [[30_wiki/dark-knowledges/dk-ai-judgment-human-responsibility.md]]
+- [[30_wiki/dark-knowledges/dk-jh-llm-time-blindness.md]]
+
+## [[concept-纪浩-ai-collaboration-methodology]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/dk-纪浩-ai-cant-design-structure.md]]
+- [[30_wiki/concepts/dk-纪浩-logs-fastest-ignored.md]]
+- [[30_wiki/concepts/dk-纪浩-pdca-starts-from-do.md]]
+- [[30_wiki/concepts/dk-纪浩-simple-complex-routing.md]]
+- [[30_wiki/concepts/skill-半肥猫-边学边练边沉淀的AI学习法.md]]
+- [[30_wiki/concepts/skill-纪浩-AI工作空间与导诊台设计法.md]]
+- [[30_wiki/concepts/skill-纪浩-Agent技能市场设计法.md]]
+- [[30_wiki/concepts/skill-纪浩-Do-first-PDCA渐进迭代法.md]]
+- [[30_wiki/concepts/skill-纪浩-日志驱动排查法.md]]
+- [[30_wiki/concepts/skill-纪浩-真需求四要素验证法.md]]
+- [[30_wiki/dark-knowledges/dk-my-ai-landing-three-barriers.md]]
+
+## [[contingency-decision-making]]
+- [[30_wiki/concepts/ai-learning-closed-loop.md]]
+
+## [[course-to-skill-conversion]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-voice-input-doubao.md]]
+- [[30_wiki/concepts/ai-landing-scene-selection.md]]
+- [[30_wiki/concepts/ai-learning-closed-loop.md]]
+- [[30_wiki/concepts/find-old-do-small.md]]
+- [[30_wiki/concepts/prd-as-ai-instruction.md]]
+- [[30_wiki/concepts/skill-ai-voice-input-doubao.md]]
+- [[30_wiki/concepts/voice-input-doubao.md]]
 
 ## [[design-ai-image-generation]]
 - [[30_wiki/concepts/aigc设计基础01ai生图原理与提示词基本功.md]]
@@ -126,6 +302,46 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/dk-c10-batch-tool-no-dry-run.md]]
 - [[30_wiki/concepts/dk-c9-batch-trigger-garbage.md]]
 - [[30_wiki/concepts/knowledge-error-self-exposure.md]]
+
+## [[dk-jh-llm-time-blindness]]
+- [[30_wiki/concepts/case-jh-yitang-vs-sqlhelper.md]]
+- [[30_wiki/dark-knowledges/dk-ai-judgment-human-responsibility.md]]
+
+## [[dk-my-ai-landing-three-barriers]]
+- [[30_wiki/concepts/case-jh-yitang-vs-sqlhelper.md]]
+- [[30_wiki/dark-knowledges/dk-jh-llm-time-blindness.md]]
+
+## [[dk-note-growth-paradox]]
+- [[30_wiki/dark-knowledges/yt-note-three-level-evolution.md]]
+
+## [[dk-note-human-creativity-ai-data]]
+- [[30_wiki/dark-knowledges/yt-note-ai-p-role-not-c-role.md]]
+- [[30_wiki/skills/yt-skill-checklist-as-ai-protocol.md]]
+- [[30_wiki/skills/yt-skill-storyline-contrast-analysis.md]]
+
+## [[dk-note-maximum-common-divisor]]
+- [[30_wiki/concepts/dk-note-rookie-disaster-veteran-heaven.md]]
+- [[30_wiki/concepts/dk-note-surplus-brainpower.md]]
+- [[30_wiki/skills/yt-skill-checklist-as-ai-protocol.md]]
+- [[30_wiki/tools/skill-note-one-line-one-point.md]]
+
+## [[dk-note-rookie-disaster-veteran-heaven]]
+- [[30_wiki/concepts/dk-note-maximum-common-divisor.md]]
+- [[30_wiki/concepts/dk-note-surplus-brainpower.md]]
+- [[30_wiki/skills/yt-skill-storyline-problem-solving.md]]
+
+## [[dk-note-surplus-brainpower]]
+- [[30_wiki/concepts/dk-note-maximum-common-divisor.md]]
+- [[30_wiki/concepts/dk-note-rookie-disaster-veteran-heaven.md]]
+- [[30_wiki/concepts/yt-note-l4-internalization.md]]
+- [[30_wiki/concepts/yt-note-l6-extraction.md]]
+- [[30_wiki/skills/yt-skill-storyline-target-tradeoff.md]]
+- [[30_wiki/tools/skill-note-keyword-bolding.md]]
+- [[30_wiki/tools/skill-note-layer-constraint.md]]
+- [[30_wiki/tools/skill-note-one-line-one-point.md]]
+
+## [[dk-truman-iteration-to-aesthetic-ceiling]]
+- [[30_wiki/concepts/case-truman-motivation-map-12-versions.md]]
 
 ## [[dk-yb1-aigc-mvp-before-ps]]
 - [[30_wiki/concepts/dk-yb23-ai-pre-screen-three-minutes.md]]
@@ -239,6 +455,72 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/dk-yb1-aigc-mvp-before-ps.md]]
 - [[30_wiki/concepts/dk-yb5-style-asset-archive.md]]
 
+## [[dk-一堂-wishful-thinking-kills-startups]]
+- [[30_wiki/concepts/concept-一堂-hypothesis-driven-business-methodology.md]]
+- [[30_wiki/concepts/yt-decision-y-model.md]]
+- [[30_wiki/dark-knowledges/dk-my-ai-landing-three-barriers.md]]
+
+## [[dk-半肥猫-atomic-no-standard]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-动态读取-向量化管理迭代知识.md]]
+- [[30_wiki/concepts/skill-半肥猫-将学习成果沉淀为PRD文档.md]]
+- [[30_wiki/concepts/skill-半肥猫-按语义切分文档做向量化.md]]
+- [[30_wiki/concepts/skill-半肥猫-清洗资料为Markdown格式喂给AI.md]]
+- [[30_wiki/concepts/skill-半肥猫-用YAML格式做知识库原子化标签.md]]
+- [[30_wiki/concepts/skill-半肥猫-飞书多维表格-自建机器人做团队数据协同.md]]
+
+## [[dk-半肥猫-real-business-is-the-engine]]
+- [[30_wiki/concepts/dk-半肥猫-silky-answers-are-dangerous.md]]
+- [[30_wiki/concepts/skill-半肥猫-ai-research-validation.md]]
+- [[30_wiki/concepts/skill-半肥猫-course-to-skill-workflow.md]]
+
+## [[dk-半肥猫-silky-answer-warning]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-优先使用官方权威信源做证据.md]]
+- [[30_wiki/concepts/skill-半肥猫-用AI做结构化用户调研.md]]
+- [[30_wiki/concepts/skill-半肥猫-边学边练边沉淀的AI学习法.md]]
+- [[30_wiki/concepts/skill-半肥猫-追问AI证据并标注信源.md]]
+
+## [[dk-半肥猫-silky-answers-are-dangerous]]
+- [[30_wiki/concepts/case-半肥猫-course-to-skill.md]]
+- [[30_wiki/concepts/case-半肥猫-from-assignment-to-tool.md]]
+- [[30_wiki/concepts/concept-半肥猫-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/dk-半肥猫-real-business-is-the-engine.md]]
+- [[30_wiki/concepts/skill-半肥猫-ai-research-validation.md]]
+- [[30_wiki/concepts/skill-半肥猫-course-to-skill-workflow.md]]
+
+## [[dk-半肥猫-skill-rejection-value]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-判断课程是否值得做成Skill.md]]
+- [[30_wiki/concepts/skill-半肥猫-用Skill做对比测试验证效果.md]]
+- [[30_wiki/concepts/skill-半肥猫-设计Skill的评分规则与风险边界.md]]
+- [[30_wiki/concepts/skill-半肥猫-课程Skill化的八步工作流.md]]
+- [[30_wiki/concepts/skill-半肥猫-边学边练边沉淀的AI学习法.md]]
+
+## [[dk-纪浩-ai-cant-design-structure]]
+- [[30_wiki/concepts/concept-纪浩-ai-collaboration-methodology.md]]
+- [[30_wiki/dark-knowledges/dk-jh-llm-time-blindness.md]]
+
+## [[dk-纪浩-constraint-beats-talent]]
+- [[30_wiki/concepts/concept-纪浩-ai-collaboration-five-layer.md]]
+- [[30_wiki/concepts/dk-纪浩-novice-mindset-advantage.md]]
+- [[30_wiki/dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md]]
+
+## [[dk-纪浩-list-body-note-dual-system]]
+- [[30_wiki/concepts/concept-半肥猫-learning-toolification-methodology.md]]
+
+## [[dk-纪浩-logs-fastest-ignored]]
+- [[30_wiki/concepts/concept-纪浩-ai-collaboration-methodology.md]]
+
+## [[dk-纪浩-pdca-starts-from-do]]
+- [[30_wiki/concepts/concept-纪浩-ai-collaboration-methodology.md]]
+
+## [[dk-纪浩-problem-vs-question]]
+- [[30_wiki/concepts/skill-纪浩-problem-validation-four-checks.md]]
+
+## [[dk-纪浩-simple-complex-routing]]
+- [[30_wiki/concepts/concept-纪浩-ai-collaboration-methodology.md]]
+
 ## [[double-loop-learning-argyris]]
 - [[30_wiki/concepts/yt-decision-review.md]]
 
@@ -253,6 +535,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[facilitation-technology]]
 - [[30_wiki/concepts/yt-decision-consensus-iceberg.md]]
+
+## [[find-old-do-small]]
+- [[30_wiki/concepts/ai-landing-scene-selection.md]]
+- [[30_wiki/concepts/contingency-decision-making.md]]
 
 ## [[graph-rag]]
 - [[30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md]]
@@ -274,6 +560,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[jtbd-framework]]
 - [[30_wiki/concepts/yt-decision-y-model.md]]
+
+## [[kdo-encapsulate]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-课程Skill化的八步工作流.md]]
 
 ## [[kdo-flywheel]]
 - [[30_wiki/concepts/knowledge-error-self-exposure.md]]
@@ -383,6 +673,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[master-first-principles]]
 - [[30_wiki/concepts/dk-c6-large-source-overflow.md]]
+- [[30_wiki/concepts/yt-tool-mental-model-refinement.md]]
 - [[30_wiki/frameworks/yt-unit-model-overview.md]]
 - [[30_wiki/tools/yt-tool-unit-model-construction.md]]
 - [[30_wiki/tools/yt-tool-unit-model-dynamic.md]]
@@ -404,6 +695,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/ai-native-五层进阶从答案到效率到作品到产品到系统.md]]
 - [[30_wiki/concepts/dk-c2-dual-status-machine.md]]
 - [[30_wiki/tools/yt-tool-unit-model-dynamic.md]]
+
+## [[narrative-bias]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-narrative-test.md]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-purpose-bias-check.md]]
+- [[30_wiki/concepts/skill-ai-narrative-test.md]]
+- [[30_wiki/concepts/skill-ai-purpose-bias-check.md]]
 
 ## [[nonviolent-communication-rosenberg]]
 - [[30_wiki/concepts/yt-decision-consensus-iceberg.md]]
@@ -432,6 +729,13 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[porter-five-forces]]
 - [[30_wiki/concepts/yt-decision-height-toolkit.md]]
 
+## [[prd-as-ai-instruction]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-prd-for-ai.md]]
+- [[30_wiki/concepts/course-to-skill-conversion.md]]
+- [[30_wiki/concepts/skill-ai-prd-for-ai.md]]
+- [[30_wiki/concepts/structured-ai-workspace.md]]
+- [[30_wiki/concepts/voice-input-doubao.md]]
+
 ## [[psychological-safety-edmondson]]
 - [[30_wiki/concepts/yt-decision-consensus-iceberg.md]]
 
@@ -441,8 +745,229 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[second-curve-handy]]
 - [[30_wiki/concepts/yt-decision-height-toolkit.md]]
 
+## [[self-organized-criticality]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-purpose-bias-check.md]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-system-redundancy.md]]
+- [[30_wiki/concepts/skill-ai-purpose-bias-check.md]]
+- [[30_wiki/concepts/skill-ai-system-redundancy.md]]
+
+## [[sk-ai-ai-workspace-setup]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-voice-input-doubao.md]]
+- [[30_wiki/concepts/skill-ai-voice-input-doubao.md]]
+
+## [[sk-ai-landing-five-steps]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-old-small-checklist.md]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-parallel-validation.md]]
+- [[30_wiki/concepts/skill-ai-old-small-checklist.md]]
+- [[30_wiki/concepts/skill-ai-parallel-validation.md]]
+
+## [[sk-ai-old-small-checklist]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-landing-five-steps.md]]
+- [[30_wiki/concepts/skill-ai-landing-five-steps.md]]
+
+## [[sk-ai-parallel-validation]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-landing-five-steps.md]]
+- [[30_wiki/concepts/skill-ai-landing-five-steps.md]]
+
+## [[sk-ai-problem-validation]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-ai-workspace-setup.md]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-prd-for-ai.md]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-question-problem-checklist.md]]
+- [[30_wiki/concepts/skill-ai-ai-workspace-setup.md]]
+- [[30_wiki/concepts/skill-ai-prd-for-ai.md]]
+- [[30_wiki/concepts/skill-ai-question-problem-checklist.md]]
+
+## [[sk-ai-purpose-bias-check]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-narrative-test.md]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-system-redundancy.md]]
+- [[30_wiki/concepts/skill-ai-narrative-test.md]]
+- [[30_wiki/concepts/skill-ai-system-redundancy.md]]
+
+## [[sk-ai-question-problem-checklist]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-evidence-check.md]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-problem-validation.md]]
+- [[30_wiki/concepts/skill-ai-evidence-check.md]]
+- [[30_wiki/concepts/skill-ai-problem-validation.md]]
+
+## [[skill-ai-evidence-check]]
+- [[30_wiki/cases/case-ether-online-acquisition.md]]
+
+## [[skill-ai-image-text-fix]]
+- [[30_wiki/concepts/skill-ai-oral-spray-input.md]]
+
+## [[skill-ai-prompt-iteration]]
+- [[30_wiki/concepts/skill-ai-oral-spray-input.md]]
+
+## [[skill-note-keyword-bolding]]
+- [[30_wiki/tools/skill-note-layer-constraint.md]]
+- [[30_wiki/tools/skill-note-one-line-one-point.md]]
+
+## [[skill-note-layer-constraint]]
+- [[30_wiki/tools/skill-note-keyword-bolding.md]]
+- [[30_wiki/tools/skill-note-one-line-one-point.md]]
+
+## [[skill-一堂-product-kernel-canvas]]
+- [[30_wiki/concepts/concept-一堂-hypothesis-driven-business-methodology.md]]
+- [[30_wiki/concepts/concept-一堂-product-kernel.md]]
+- [[30_wiki/concepts/dk-一堂-wishful-thinking-kills-startups.md]]
+
+## [[skill-半肥猫-ai-research-validation]]
+- [[30_wiki/concepts/dk-半肥猫-silky-answers-are-dangerous.md]]
+- [[30_wiki/concepts/skill-半肥猫-course-to-skill-workflow.md]]
+
+## [[skill-半肥猫-course-to-skill-workflow]]
+- [[30_wiki/concepts/case-半肥猫-course-to-skill.md]]
+- [[30_wiki/concepts/concept-半肥猫-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-ai-research-validation.md]]
+
+## [[skill-半肥猫-优先使用官方权威信源做证据]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-告诉AI当前日期限制数据时效.md]]
+- [[30_wiki/concepts/skill-半肥猫-用AI做结构化用户调研.md]]
+- [[30_wiki/concepts/skill-半肥猫-追问AI证据并标注信源.md]]
+
+## [[skill-半肥猫-判断课程是否值得做成Skill]]
+- [[30_wiki/concepts/skill-半肥猫-课程Skill化的八步工作流.md]]
+
+## [[skill-半肥猫-动态读取-向量化管理迭代知识]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-按语义切分文档做向量化.md]]
+
+## [[skill-半肥猫-告诉AI当前日期限制数据时效]]
+- [[30_wiki/concepts/skill-半肥猫-优先使用官方权威信源做证据.md]]
+- [[30_wiki/concepts/skill-半肥猫-动态读取-向量化管理迭代知识.md]]
+
+## [[skill-半肥猫-将学习成果沉淀为PRD文档]]
+- [[30_wiki/concepts/skill-半肥猫-边学边练边沉淀的AI学习法.md]]
+
+## [[skill-半肥猫-按语义切分文档做向量化]]
+- [[30_wiki/concepts/skill-半肥猫-动态读取-向量化管理迭代知识.md]]
+- [[30_wiki/concepts/skill-半肥猫-清洗资料为Markdown格式喂给AI.md]]
+- [[30_wiki/concepts/skill-半肥猫-用YAML格式做知识库原子化标签.md]]
+
+## [[skill-半肥猫-清洗资料为Markdown格式喂给AI]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-按语义切分文档做向量化.md]]
+- [[30_wiki/concepts/skill-半肥猫-用YAML格式做知识库原子化标签.md]]
+- [[30_wiki/concepts/skill-半肥猫-课程Skill化的八步工作流.md]]
+
+## [[skill-半肥猫-用Skill做对比测试验证效果]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-设计Skill的评分规则与风险边界.md]]
+- [[30_wiki/concepts/skill-半肥猫-课程Skill化的八步工作流.md]]
+
+## [[skill-半肥猫-用YAML格式做知识库原子化标签]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-将学习成果沉淀为PRD文档.md]]
+- [[30_wiki/concepts/skill-半肥猫-按语义切分文档做向量化.md]]
+- [[30_wiki/concepts/skill-半肥猫-清洗资料为Markdown格式喂给AI.md]]
+- [[30_wiki/concepts/skill-半肥猫-课程Skill化的八步工作流.md]]
+- [[30_wiki/concepts/skill-半肥猫-飞书多维表格-自建机器人做团队数据协同.md]]
+
+## [[skill-半肥猫-设计Skill的评分规则与风险边界]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-用Skill做对比测试验证效果.md]]
+- [[30_wiki/concepts/skill-半肥猫-课程Skill化的八步工作流.md]]
+
+## [[skill-半肥猫-课程Skill化的八步工作流]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-判断课程是否值得做成Skill.md]]
+- [[30_wiki/concepts/skill-半肥猫-将学习成果沉淀为PRD文档.md]]
+- [[30_wiki/concepts/skill-半肥猫-按语义切分文档做向量化.md]]
+- [[30_wiki/concepts/skill-半肥猫-清洗资料为Markdown格式喂给AI.md]]
+- [[30_wiki/concepts/skill-半肥猫-用Skill做对比测试验证效果.md]]
+- [[30_wiki/concepts/skill-半肥猫-用YAML格式做知识库原子化标签.md]]
+- [[30_wiki/concepts/skill-半肥猫-设计Skill的评分规则与风险边界.md]]
+- [[30_wiki/concepts/skill-半肥猫-边学边练边沉淀的AI学习法.md]]
+
+## [[skill-半肥猫-边学边练边沉淀的AI学习法]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+
+## [[skill-半肥猫-追问AI证据并标注信源]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-优先使用官方权威信源做证据.md]]
+- [[30_wiki/concepts/skill-半肥猫-判断课程是否值得做成Skill.md]]
+- [[30_wiki/concepts/skill-半肥猫-告诉AI当前日期限制数据时效.md]]
+- [[30_wiki/concepts/skill-半肥猫-用AI做结构化用户调研.md]]
+- [[30_wiki/concepts/skill-半肥猫-边学边练边沉淀的AI学习法.md]]
+
+## [[skill-纪浩-AI工作空间与导诊台设计法]]
+- [[30_wiki/concepts/case-jh-yitang-vs-sqlhelper.md]]
+- [[30_wiki/concepts/concept-纪浩-ai-collaboration-methodology.md]]
+- [[30_wiki/concepts/dk-纪浩-ai-cant-design-structure.md]]
+- [[30_wiki/concepts/dk-纪浩-simple-complex-routing.md]]
+- [[30_wiki/concepts/skill-纪浩-Do-first-PDCA渐进迭代法.md]]
+- [[30_wiki/concepts/skill-纪浩-日志驱动排查法.md]]
+
+## [[skill-纪浩-Agent技能市场设计法]]
+- [[30_wiki/concepts/concept-纪浩-ai-collaboration-methodology.md]]
+
+## [[skill-纪浩-Do-first-PDCA渐进迭代法]]
+- [[30_wiki/concepts/concept-纪浩-ai-collaboration-methodology.md]]
+- [[30_wiki/concepts/dk-纪浩-pdca-starts-from-do.md]]
+- [[30_wiki/concepts/skill-纪浩-AI工作空间与导诊台设计法.md]]
+- [[30_wiki/concepts/skill-纪浩-Agent技能市场设计法.md]]
+- [[30_wiki/concepts/skill-纪浩-日志驱动排查法.md]]
+- [[30_wiki/concepts/skill-纪浩-真需求四要素验证法.md]]
+
+## [[skill-纪浩-dofirst-pdca]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-边学边练边沉淀的AI学习法.md]]
+
+## [[skill-纪浩-four-elements-validation]]
+- [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/skill-半肥猫-追问AI证据并标注信源.md]]
+
+## [[skill-纪浩-problem-validation-four-checks]]
+- [[30_wiki/concepts/dk-纪浩-constraint-beats-talent.md]]
+- [[30_wiki/concepts/dk-纪浩-problem-vs-question.md]]
+
+## [[skill-纪浩-日志驱动排查法]]
+- [[30_wiki/concepts/concept-纪浩-ai-collaboration-methodology.md]]
+- [[30_wiki/concepts/dk-纪浩-logs-fastest-ignored.md]]
+
+## [[skill-纪浩-真需求四要素验证法]]
+- [[30_wiki/concepts/case-半肥猫-from-assignment-to-tool.md]]
+- [[30_wiki/concepts/concept-半肥猫-learning-toolification-methodology.md]]
+- [[30_wiki/concepts/concept-纪浩-ai-collaboration-methodology.md]]
+- [[30_wiki/concepts/skill-纪浩-AI工作空间与导诊台设计法.md]]
+
+## [[skill-纪浩-里程碑验证法]]
+- [[30_wiki/dark-knowledges/dk-ai-judgment-human-responsibility.md]]
+- [[30_wiki/dark-knowledges/dk-jh-llm-time-blindness.md]]
+
+## [[skill-马易-需求创造验证法]]
+- [[30_wiki/dark-knowledges/dk-my-ai-landing-three-barriers.md]]
+
+## [[skill-马易-风口痛点识别法]]
+- [[30_wiki/dark-knowledges/dk-my-ai-landing-three-barriers.md]]
+
+## [[src_20260606_42e11f09]]
+- [[30_wiki/concepts/ai-collaboration-mindset-shift.md]]
+- [[30_wiki/concepts/structured-ai-workspace.md]]
+
+## [[src_20260606_90b44191]]
+- [[30_wiki/concepts/ai-learning-closed-loop.md]]
+- [[30_wiki/concepts/course-to-skill-conversion.md]]
+- [[30_wiki/concepts/prd-as-ai-instruction.md]]
+- [[30_wiki/concepts/voice-input-doubao.md]]
+
+## [[src_20260606_cde17edd]]
+- [[30_wiki/concepts/contingency-decision-making.md]]
+
+## [[src_20260606_ef4877d0]]
+- [[30_wiki/concepts/ai-landing-scene-selection.md]]
+- [[30_wiki/concepts/find-old-do-small.md]]
+
 ## [[status-quo-bias-samuelson]]
 - [[30_wiki/concepts/yt-decision-habit-shift.md]]
+
+## [[structured-ai-workspace]]
+- [[30_wiki/concepts/.sk-backup/sk-ai-ai-workspace-setup.md]]
+- [[30_wiki/concepts/ai-collaboration-mindset-shift.md]]
+- [[30_wiki/concepts/ai-learning-closed-loop.md]]
+- [[30_wiki/concepts/prd-as-ai-instruction.md]]
+- [[30_wiki/concepts/skill-ai-ai-workspace-setup.md]]
 
 ## [[system-thinking-senge]]
 - [[30_wiki/concepts/yt-decision-y-model.md]]
@@ -457,14 +982,23 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[tinyfish-agentic-web-infrastructure]]
 - [[30_wiki/concepts/paddleocr-skill.md]]
 
+## [[truman-ai-partner-design-analysis]]
+- [[30_wiki/dark-knowledges/yt-note-ai-p-role-not-c-role.md]]
+- [[30_wiki/skills/yt-skill-checklist-as-ai-protocol.md]]
+
 ## [[truman-perspective-skill]]
 - [[30_wiki/concepts/tinyfish-agentic-web-infrastructure.md]]
+
+## [[voice-input-doubao]]
+- [[30_wiki/concepts/course-to-skill-conversion.md]]
+- [[30_wiki/concepts/prd-as-ai-instruction.md]]
 
 ## [[web-scraping-三剑客-scrapling-crawl4ai-firecrawl]]
 - [[30_wiki/concepts/paddleocr-skill.md]]
 - [[30_wiki/concepts/tinyfish-agentic-web-infrastructure.md]]
 
 ## [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]
+- [[30_wiki/concepts/concept-ai-native-organization-five-steps.md]]
 - [[30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md]]
 - [[30_wiki/concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md]]
 - [[30_wiki/concepts/诊所o2o外卖平台业务深度调研报告.md]]
@@ -472,6 +1006,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/entities/紫鲸AI.md]]
 
 ## [[yitang-course-map]]
+- [[30_wiki/concepts/yt-concept-p-type-l-type.md]]
 - [[30_wiki/concepts/yt-entrepreneur-259-milestone.md]]
 - [[30_wiki/concepts/yt-entrepreneur-barriers.md]]
 - [[30_wiki/concepts/yt-entrepreneur-business-growth.md]]
@@ -521,6 +1056,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-personal-time-management.md]]
 - [[30_wiki/concepts/yt-personal-verbatim-script.md]]
 - [[30_wiki/concepts/yt-system-course-map-lecture.md]]
+- [[30_wiki/concepts/yt-tool-product-core-canvas.md]]
 - [[30_wiki/systems/一堂方法论体系总图.md]]
 
 ## [[yitang-course-map|一堂课程大地图]]
@@ -538,6 +1074,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yitang-huazong-ama-by-industry.md]]
 
 ## [[yt-case-mandatory-cases]]
+- [[30_wiki/concepts/yt-concept-p-type-l-type.md]]
+- [[30_wiki/concepts/yt-entrepreneur-industry-forecast.md]]
 - [[30_wiki/concepts/yt-system-course-catalog.md]]
 - [[30_wiki/concepts/yt-system-course-map-lecture.md]]
 - [[30_wiki/systems/一堂方法论体系总图.md]]
@@ -551,6 +1089,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-model-pan-product-execution-toolkit.md]]
 - [[30_wiki/concepts/yt-model-pan-product-three-virtues.md]]
 - [[30_wiki/concepts/yt-model-personal-pitch-toolkit.md]]
+- [[30_wiki/concepts/yt-note-checklist-concept.md]]
 - [[30_wiki/concepts/yt-panproduct-aesthetic-collection.md]]
 - [[30_wiki/concepts/yt-panproduct-aesthetic-imagination.md]]
 - [[30_wiki/concepts/yt-panproduct-aesthetic-modeling.md]]
@@ -590,6 +1129,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-personal-pan-product-exploration.md]]
 - [[30_wiki/concepts/yt-personal-pan-product-practice.md]]
 - [[30_wiki/concepts/yt-personal-pan-product-tools.md]]
+- [[30_wiki/concepts/yt-tool-mental-model-refinement.md]]
 - [[30_wiki/entities/一堂.md]]
 
 ## [[yt-composite-pan-product-methodology|泛产品设计方法论（总纲）]]
@@ -598,6 +1138,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-concept-ai-guard-brain]]
 - [[30_wiki/concepts/yt-model-agent-architecture.md]]
 - [[30_wiki/concepts/yt-model-prompt-engineering.md]]
+- [[30_wiki/concepts/yt-note-ai-human-division.md]]
+- [[30_wiki/concepts/yt-note-checklist-concept.md]]
 - [[30_wiki/concepts/yt-prompt-writing-workflow.md]]
 - [[30_wiki/concepts/yt-tool-peas-agent-analysis.md]]
 
@@ -605,6 +1147,18 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-model-prompt-engineering.md]]
 - [[30_wiki/concepts/yt-prompt-brainstorming.md]]
 - [[30_wiki/concepts/yt-prompt-iterative-prompting.md]]
+
+## [[yt-concept-p-type-l-type]]
+- [[30_wiki/concepts/yt-entrepreneur-industry-forecast.md]]
+
+## [[yt-concept-peas-insight]]
+- [[30_wiki/concepts/yt-tool-mental-model-refinement.md]]
+
+## [[yt-concept-product-core-iteration]]
+- [[30_wiki/concepts/yt-entrepreneur-product-core.md]]
+
+## [[yt-concept-user-perspective]]
+- [[30_wiki/concepts/yt-tool-product-core-canvas.md]]
 
 ## [[yt-concept-weapon-arsenal]]
 - [[30_wiki/concepts/ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md]]
@@ -653,6 +1207,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/tools/yt-pitch-storytelling.md]]
 - [[30_wiki/tools/yt-tool-strategy-workshop.md]]
 
+## [[yt-concept-x-type-y-type]]
+- [[30_wiki/concepts/yt-concept-p-type-l-type.md]]
+- [[30_wiki/concepts/yt-entrepreneur-key-hypotheses.md]]
+
 ## [[yt-decision-abcd-model]]
 - [[30_wiki/concepts/ocr-一堂-地图-创业地图.md]]
 - [[30_wiki/concepts/yt-decision-full-process.md]]
@@ -678,9 +1236,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-decision-height-toolkit.md]]
 - [[30_wiki/concepts/yt-decision-width-method.md]]
 - [[30_wiki/concepts/yt-decision-y-model.md]]
+- [[30_wiki/concepts/yt-note-ai-human-division.md]]
 - [[30_wiki/concepts/yt-unit-model-ai-assisted.md]]
 - [[30_wiki/concepts/人机协作决策-双三角模型.md]]
+- [[30_wiki/dark-knowledges/dk-my-ai-landing-three-barriers.md]]
 - [[30_wiki/frameworks/yt-decision-abcd-model.md]]
+- [[30_wiki/tools/yt-note-five-levels-training.md]]
 
 ## [[yt-decision-assumption-hypothesis]]
 - [[30_wiki/concepts/ocr-一堂五步法画布.md]]
@@ -824,6 +1385,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-decision-review.md]]
 - [[30_wiki/concepts/yt-decision-width-method.md]]
 - [[30_wiki/concepts/yt-tool-hiring-scorecard.md]]
+- [[30_wiki/concepts/yt-tool-mental-model-refinement.md]]
 - [[30_wiki/concepts/yt-tool-okr-cycle.md]]
 - [[30_wiki/concepts/人机协作决策-双三角模型.md]]
 
@@ -960,6 +1522,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-decision-system1-system2]]
 - [[30_wiki/concepts/yt-unit-model-ai-assisted.md]]
 - [[30_wiki/concepts/yt-unit-model-dynamic.md]]
+- [[30_wiki/dark-knowledges/dk-jh-llm-time-blindness.md]]
 
 ## [[yt-decision-touchpoint-10waste]]
 - [[30_wiki/concepts/ocr-一堂最佳转化率动力曲线图.md]]
@@ -1015,6 +1578,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-decision-y-model]]
 - [[30_wiki/concepts/ai单元模型口述蒋老师.md]]
+- [[30_wiki/concepts/concept-一堂-hypothesis-driven-business-methodology.md]]
+- [[30_wiki/concepts/dk-一堂-wishful-thinking-kills-startups.md]]
 - [[30_wiki/concepts/ocr-一堂-个人修炼-y模型.md]]
 - [[30_wiki/concepts/ocr-一堂-个人修炼-双三角模型.md]]
 - [[30_wiki/concepts/ocr-一堂-个人修炼-讲香十指模型-超级武器库.md]]
@@ -1058,6 +1623,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-entrepreneur-barriers.md]]
 
 ## [[yt-entrepreneur-five-step-method]]
+- [[30_wiki/concepts/concept-一堂-hypothesis-driven-business-methodology.md]]
 - [[30_wiki/concepts/ocr-一堂-科学决策-roi决策评估画布-案例02.md]]
 - [[30_wiki/concepts/ocr-一堂-科学决策-roi决策评估画布-案例03.md]]
 - [[30_wiki/concepts/ocr-一堂-科学决策-关键假设abcd模型.md]]
@@ -1117,11 +1683,15 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-entrepreneur-industry-forecast]]
 - [[30_wiki/concepts/ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md]]
 - [[30_wiki/concepts/ocr-一堂-科学决策-深度-决策经验值.md]]
+- [[30_wiki/concepts/yt-concept-p-type-l-type.md]]
 - [[30_wiki/concepts/yt-entrepreneur-barriers.md]]
+- [[30_wiki/concepts/yt-entrepreneur-key-hypotheses.md]]
 - [[30_wiki/concepts/yt-model-prediction-model.md]]
 
 ## [[yt-entrepreneur-key-hypotheses]]
 - [[30_wiki/concepts/anthropic-官方发布创始人手册打造-ai-原生初创公司.md]]
+- [[30_wiki/concepts/concept-一堂-hypothesis-driven-business-methodology.md]]
+- [[30_wiki/concepts/yt-concept-p-type-l-type.md]]
 - [[30_wiki/concepts/yt-decision-ai-partner.md]]
 - [[30_wiki/concepts/yt-decision-canvas.md]]
 - [[30_wiki/concepts/yt-decision-y-model.md]]
@@ -1135,7 +1705,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-entrepreneur-growth-flywheel.md]]
 - [[30_wiki/concepts/yt-entrepreneur-industrial-production.md]]
 - [[30_wiki/concepts/yt-entrepreneur-industry-forecast.md]]
-- [[30_wiki/concepts/yt-entrepreneur-key-hypotheses.md]]
 - [[30_wiki/concepts/yt-entrepreneur-lean-validation.md]]
 - [[30_wiki/concepts/yt-entrepreneur-liberate-thinking.md]]
 - [[30_wiki/concepts/yt-entrepreneur-needs-analysis.md]]
@@ -1157,6 +1726,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-research-mindset.md]]
 - [[30_wiki/concepts/yt-research-osl-framework.md]]
 - [[30_wiki/concepts/yt-research-user-jtbd.md]]
+- [[30_wiki/concepts/yt-tool-product-core-canvas.md]]
 - [[30_wiki/frameworks/yt-unit-model-overview.md]]
 - [[30_wiki/tools/yt-tool-equity-checklist.md]]
 - [[30_wiki/tools/yt-tool-hiring-scorecard.md]]
@@ -1168,6 +1738,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-decision-y-model.md]]
 
 ## [[yt-entrepreneur-lean-validation]]
+- [[30_wiki/concepts/case-一堂-无人餐厅-hypothesis-failure.md]]
+- [[30_wiki/concepts/case-一堂-陈贤敏汉堡-hypothesis-validation.md]]
+- [[30_wiki/concepts/dk-一堂-wishful-thinking-kills-startups.md]]
 - [[30_wiki/concepts/yt-entrepreneur-needs-analysis.md]]
 - [[30_wiki/concepts/yt-management-conversion-hacking.md]]
 - [[30_wiki/concepts/yt-management-project-management.md]]
@@ -1182,6 +1755,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-entrepreneur-needs-analysis]]
 - [[30_wiki/concepts/yt-personal-ai-capability.md]]
 - [[30_wiki/concepts/yt-personal-product-design.md]]
+- [[30_wiki/concepts/yt-tool-fab-persuasion.md]]
+- [[30_wiki/concepts/yt-tool-y-model-ruler.md]]
 
 ## [[yt-entrepreneur-opportunity-selection]]
 - [[30_wiki/concepts/ocr-一堂-科学决策-宽度-企业.md]]
@@ -1191,12 +1766,17 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-model-liberate-thinking-layers.md]]
 
 ## [[yt-entrepreneur-product-core]]
+- [[30_wiki/concepts/case-一堂-AI高考志愿-kernel-mismatch.md]]
+- [[30_wiki/concepts/skill-一堂-product-kernel-canvas.md]]
+- [[30_wiki/concepts/yt-entrepreneur-key-hypotheses.md]]
 - [[30_wiki/concepts/yt-model-five-step-canvas.md]]
 - [[30_wiki/concepts/yt-model-product-core-metrics.md]]
+- [[30_wiki/concepts/yt-tool-product-core-canvas.md]]
 - [[30_wiki/entities/一堂.md]]
 
 ## [[yt-entrepreneur-research-camp]]
 - [[30_wiki/concepts/yt-panproduct-demand-industry-canvas.md]]
+- [[30_wiki/concepts/yt-tool-mental-model-refinement.md]]
 - [[30_wiki/entities/一堂.md]]
 
 ## [[yt-entrepreneur-research-camp|调研行动营]]
@@ -1216,13 +1796,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-entrepreneur-fundraising.md]]
 - [[30_wiki/concepts/yt-entrepreneur-growth-flywheel.md]]
 - [[30_wiki/concepts/yt-entrepreneur-industrial-production.md]]
-- [[30_wiki/concepts/yt-entrepreneur-industry-forecast.md]]
-- [[30_wiki/concepts/yt-entrepreneur-key-hypotheses.md]]
 - [[30_wiki/concepts/yt-entrepreneur-lean-validation.md]]
 - [[30_wiki/concepts/yt-entrepreneur-liberate-thinking.md]]
 - [[30_wiki/concepts/yt-entrepreneur-opportunity-selection.md]]
 - [[30_wiki/concepts/yt-entrepreneur-pragmatic-startup.md]]
-- [[30_wiki/concepts/yt-entrepreneur-product-core.md]]
 - [[30_wiki/concepts/yt-entrepreneur-research-cognition.md]]
 - [[30_wiki/concepts/yt-entrepreneur-spin-selling.md]]
 - [[30_wiki/concepts/yt-entrepreneur-truth-seeking.md]]
@@ -1250,10 +1827,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-entrepreneur-scientific-method.md]]
 
 ## [[yt-entrepreneur-unit-model]]
+- [[30_wiki/concepts/yt-entrepreneur-industry-forecast.md]]
+- [[30_wiki/concepts/yt-entrepreneur-key-hypotheses.md]]
 - [[30_wiki/concepts/yt-entrepreneur-needs-analysis.md]]
+- [[30_wiki/concepts/yt-entrepreneur-product-core.md]]
 - [[30_wiki/concepts/yt-management-business-formula.md]]
 - [[30_wiki/concepts/yt-management-finance-basics.md]]
 - [[30_wiki/concepts/yt-model-product-core-metrics.md]]
+- [[30_wiki/concepts/yt-tool-product-core-canvas.md]]
 
 ## [[yt-forecast-timing-window]]
 - [[30_wiki/concepts/yt-decision-height-toolkit.md]]
@@ -1483,12 +2064,18 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-tool-peas-agent-analysis.md]]
 
 ## [[yt-model-cognitive-upgrade-framework]]
+- [[30_wiki/concepts/yt-concept-p-type-l-type.md]]
 - [[30_wiki/concepts/yt-concept-peas-insight.md]]
+- [[30_wiki/concepts/yt-entrepreneur-industry-forecast.md]]
+- [[30_wiki/concepts/yt-entrepreneur-key-hypotheses.md]]
+- [[30_wiki/concepts/yt-entrepreneur-product-core.md]]
+- [[30_wiki/concepts/yt-tool-mental-model-refinement.md]]
 - [[30_wiki/concepts/yt-tool-peas-agent-analysis.md]]
 
 ## [[yt-model-conversion-optimization]]
 - [[30_wiki/concepts/yt-panproduct-demand-motivation-resistance.md]]
 - [[30_wiki/concepts/yt-panproduct-demand-peak-end-rule.md]]
+- [[30_wiki/concepts/yt-tool-fab-persuasion.md]]
 - [[30_wiki/entities/一堂.md]]
 
 ## [[yt-model-conversion-optimization|转化率优化]]
@@ -1509,6 +2096,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-model-truman-career-routes.md]]
 - [[30_wiki/concepts/yt-model-truman-five-step-growth.md]]
 - [[30_wiki/concepts/yt-panproduct-execution-review-iteration.md]]
+- [[30_wiki/concepts/yt-tool-mental-model-refinement.md]]
 - [[30_wiki/entities/一堂.md]]
 
 ## [[yt-model-deliberate-practice-growth|刻意练习十年成长指数]]
@@ -1537,13 +2125,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-entrepreneur-fundraising.md]]
 - [[30_wiki/concepts/yt-entrepreneur-growth-flywheel.md]]
 - [[30_wiki/concepts/yt-entrepreneur-industrial-production.md]]
-- [[30_wiki/concepts/yt-entrepreneur-industry-forecast.md]]
-- [[30_wiki/concepts/yt-entrepreneur-key-hypotheses.md]]
 - [[30_wiki/concepts/yt-entrepreneur-lean-validation.md]]
 - [[30_wiki/concepts/yt-entrepreneur-liberate-thinking.md]]
 - [[30_wiki/concepts/yt-entrepreneur-opportunity-selection.md]]
 - [[30_wiki/concepts/yt-entrepreneur-pragmatic-startup.md]]
-- [[30_wiki/concepts/yt-entrepreneur-product-core.md]]
 - [[30_wiki/concepts/yt-entrepreneur-research-cognition.md]]
 - [[30_wiki/concepts/yt-entrepreneur-scientific-method.md]]
 - [[30_wiki/concepts/yt-entrepreneur-truth-seeking.md]]
@@ -1557,6 +2142,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/entities/一堂.md]]
 
 ## [[yt-model-five-step-canvas]]
+- [[30_wiki/concepts/skill-一堂-product-kernel-canvas.md]]
 - [[30_wiki/concepts/yitang-huazong-ama-by-industry.md]]
 - [[30_wiki/concepts/yitang-huazong-ama-summary.md]]
 - [[30_wiki/concepts/yt-model-product-core-metrics.md]]
@@ -1584,11 +2170,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-model-personal-map.md]]
 - [[30_wiki/concepts/yt-model-personal-pitch-toolkit.md]]
 - [[30_wiki/concepts/yt-model-prompt-engineering.md]]
+- [[30_wiki/concepts/yt-note-ai-human-division.md]]
+- [[30_wiki/concepts/yt-note-checklist-concept.md]]
 - [[30_wiki/concepts/yt-personal-knowledge-extraction.md]]
 - [[30_wiki/concepts/yt-personal-thinking-models.md]]
 - [[30_wiki/concepts/yt-personal-y-model-practice.md]]
 - [[30_wiki/concepts/yt-prompt-engineering-andrew-ng.md]]
 - [[30_wiki/entities/一堂.md]]
+- [[30_wiki/tools/yt-note-five-levels-training.md]]
 
 ## [[yt-model-ipo-learning-strategy|IPO学习策略]]
 - [[30_wiki/entities/一堂.md]]
@@ -1687,6 +2276,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-panproduct-aesthetic-pool.md]]
 - [[30_wiki/concepts/yt-personal-pan-product-aesthetics.md]]
 - [[30_wiki/concepts/yt-personal-pan-product-concepts.md]]
+- [[30_wiki/concepts/yt-tool-best-practice-learning.md]]
 - [[30_wiki/entities/一堂.md]]
 - [[30_wiki/systems/agent-native-card-design.md]]
 
@@ -1935,6 +2525,58 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-model-y-organization|Y模型组织版]]
 - [[30_wiki/entities/一堂.md]]
 
+## [[yt-note-ai-human-division]]
+- [[30_wiki/concepts/concept-纪浩-ai-collaboration-methodology.md]]
+- [[30_wiki/concepts/dk-note-maximum-common-divisor.md]]
+- [[30_wiki/concepts/dk-note-rookie-disaster-veteran-heaven.md]]
+- [[30_wiki/concepts/yt-note-checklist-concept.md]]
+- [[30_wiki/tools/yt-note-five-levels-training.md]]
+- [[30_wiki/tools/yt-note-live-field-skill.md]]
+
+## [[yt-note-ai-p-role-not-c-role]]
+- [[30_wiki/concepts/yt-note-deliberate-practice-four-elements.md]]
+- [[30_wiki/dark-knowledges/yt-note-p-c-role-boundary-realworld.md]]
+- [[30_wiki/skills/yt-skill-p-role-prompt-design.md]]
+
+## [[yt-note-checklist-concept]]
+- [[30_wiki/concepts/case-truman-motivation-map-12-versions.md]]
+- [[30_wiki/concepts/dk-note-maximum-common-divisor.md]]
+- [[30_wiki/concepts/yt-note-ai-human-division.md]]
+- [[30_wiki/concepts/yt-note-l4-internalization.md]]
+- [[30_wiki/concepts/yt-note-l6-extraction.md]]
+- [[30_wiki/dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md]]
+- [[30_wiki/skills/yt-skill-storyline-timeline.md]]
+- [[30_wiki/tools/skill-note-keyword-bolding.md]]
+- [[30_wiki/tools/skill-note-layer-constraint.md]]
+- [[30_wiki/tools/yt-note-five-levels-training.md]]
+- [[30_wiki/tools/yt-note-live-field-skill.md]]
+
+## [[yt-note-deliberate-practice-four-elements]]
+- [[30_wiki/dark-knowledges/yt-note-p-c-role-boundary-realworld.md]]
+
+## [[yt-note-five-levels-training]]
+- [[30_wiki/concepts/dk-note-rookie-disaster-veteran-heaven.md]]
+- [[30_wiki/concepts/dk-note-surplus-brainpower.md]]
+- [[30_wiki/concepts/yt-note-ai-human-division.md]]
+- [[30_wiki/concepts/yt-note-checklist-concept.md]]
+- [[30_wiki/concepts/yt-note-l4-internalization.md]]
+- [[30_wiki/dark-knowledges/yt-note-ai-p-role-not-c-role.md]]
+- [[30_wiki/dark-knowledges/yt-note-three-level-evolution.md]]
+- [[30_wiki/skills/yt-skill-storyline-timeline.md]]
+- [[30_wiki/tools/yt-note-live-field-skill.md]]
+
+## [[yt-note-l4-internalization]]
+- [[30_wiki/concepts/yt-note-deliberate-practice-four-elements.md]]
+- [[30_wiki/concepts/yt-note-l6-extraction.md]]
+- [[30_wiki/dark-knowledges/yt-note-three-level-evolution.md]]
+- [[30_wiki/skills/yt-skill-p-role-prompt-design.md]]
+
+## [[yt-note-live-field-skill]]
+- [[30_wiki/concepts/dk-note-surplus-brainpower.md]]
+- [[30_wiki/concepts/yt-note-ai-human-division.md]]
+- [[30_wiki/concepts/yt-note-checklist-concept.md]]
+- [[30_wiki/tools/yt-note-five-levels-training.md]]
+
 ## [[yt-panproduct-aesthetic-collection]]
 - [[30_wiki/concepts/yt-panproduct-aesthetic-pool.md]]
 
@@ -1985,6 +2627,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-panproduct-demand-peak-end-rule.md]]
 - [[30_wiki/concepts/yt-prompt-anti-flattery.md]]
 - [[30_wiki/concepts/yt-prompt-engineering-andrew-ng.md]]
+- [[30_wiki/concepts/yt-tool-fab-persuasion.md]]
 
 ## [[yt-panproduct-demand-motivation-resistance|动力阻力]]
 - [[30_wiki/entities/一堂.md]]
@@ -2034,10 +2677,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/entities/一堂.md]]
 
 ## [[yt-panproduct-demand-user-perspective]]
+- [[30_wiki/concepts/case-truman-motivation-map-12-versions.md]]
 - [[30_wiki/concepts/yt-panproduct-demand-need-discovery.md]]
 - [[30_wiki/concepts/yt-panproduct-demand-project-background.md]]
 - [[30_wiki/concepts/yt-panproduct-demand-scenario-walkthrough.md]]
 - [[30_wiki/concepts/yt-panproduct-demand-user-segmentation.md]]
+- [[30_wiki/dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md]]
 
 ## [[yt-panproduct-demand-user-perspective|用户视角]]
 - [[30_wiki/entities/一堂.md]]
@@ -2065,6 +2710,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-panproduct-execution-core-and-boundary]]
 - [[30_wiki/concepts/ai-native-五层进阶从答案到效率到作品到产品到系统.md]]
+- [[30_wiki/concepts/case-一堂-AI高考志愿-kernel-mismatch.md]]
+- [[30_wiki/concepts/skill-一堂-product-kernel-canvas.md]]
 - [[30_wiki/concepts/yt-panproduct-execution-logic-mece.md]]
 - [[30_wiki/concepts/yt-panproduct-execution-management-trilogy.md]]
 
@@ -2082,6 +2729,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/entities/一堂.md]]
 
 ## [[yt-panproduct-execution-hypothesis-decomposition]]
+- [[30_wiki/concepts/concept-一堂-hypothesis-driven-business-methodology.md]]
 - [[30_wiki/concepts/yt-panproduct-execution-10x-validation.md]]
 - [[30_wiki/concepts/yt-panproduct-execution-liberate-thinking.md]]
 - [[30_wiki/concepts/yt-panproduct-execution-logic-mece.md]]
@@ -2188,6 +2836,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-personal-ai-thinking-card]]
 - [[30_wiki/concepts/yt-model-cognitive-upgrade-framework.md]]
+
+## [[yt-personal-checklist-ai-data-paradigm]]
+- [[30_wiki/concepts/yt-personal-checklist-notes.md]]
+
+## [[yt-personal-checklist-interview-notes]]
+- [[30_wiki/concepts/yt-personal-checklist-notes.md]]
 
 ## [[yt-personal-checklist-notes]]
 - [[30_wiki/concepts/yt-model-cognitive-upgrade-framework.md]]
@@ -2305,6 +2959,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-model-product-excellence.md]]
 - [[30_wiki/concepts/yt-personal-pan-product-02.md]]
 - [[30_wiki/concepts/yt-personal-pan-product-practice.md]]
+- [[30_wiki/concepts/yt-tool-best-practice-learning.md]]
 
 ## [[yt-personal-pan-product-concepts]]
 - [[30_wiki/concepts/yt-composite-pan-product-methodology.md]]
@@ -2322,8 +2977,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-personal-pan-product-02.md]]
 
 ## [[yt-personal-pan-product-tools]]
+- [[30_wiki/concepts/case-truman-motivation-map-12-versions.md]]
 - [[30_wiki/concepts/ocr-泛产品设计落地篇.md]]
 - [[30_wiki/concepts/yt-personal-pan-product-exploration.md]]
+- [[30_wiki/dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md]]
 
 ## [[yt-personal-product-design]]
 - [[30_wiki/concepts/ocr-一堂-泛产品设计-十年苦练30招.md]]
@@ -2382,6 +3039,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-personal-scientific-expression.md]]
 
 ## [[yt-personal-y-model-exploration-2]]
+- [[30_wiki/concepts/yt-tool-y-model-ruler.md]]
 - [[30_wiki/entities/一堂.md]]
 
 ## [[yt-personal-y-model-practice]]
@@ -2389,6 +3047,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-panproduct-execution-liberate-thinking.md]]
 - [[30_wiki/concepts/yt-personal-thinking-models.md]]
 - [[30_wiki/concepts/yt-personal-y-model-exploration-2.md]]
+- [[30_wiki/concepts/yt-tool-y-model-ruler.md]]
 - [[30_wiki/entities/一堂.md]]
 
 ## [[yt-personal-y-model-practice|Y模型实操]]
@@ -2474,6 +3133,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-research-user-jtbd.md]]
 
 ## [[yt-research-hypothesis-test]]
+- [[30_wiki/concepts/case-一堂-无人餐厅-hypothesis-failure.md]]
+- [[30_wiki/concepts/case-一堂-陈贤敏汉堡-hypothesis-validation.md]]
 - [[30_wiki/concepts/yt-research-competitor-toolkit.md]]
 - [[30_wiki/concepts/yt-research-expert-interview.md]]
 - [[30_wiki/concepts/yt-research-industry-canvas.md]]
@@ -2525,6 +3186,33 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-research-weaponry-course]]
 - [[30_wiki/concepts/yt-system-course-map-lecture.md]]
 - [[30_wiki/systems/一堂方法论体系总图.md]]
+
+## [[yt-skill-checklist-as-ai-protocol]]
+- [[30_wiki/concepts/yt-note-deliberate-practice-four-elements.md]]
+- [[30_wiki/dark-knowledges/yt-note-p-c-role-boundary-realworld.md]]
+- [[30_wiki/skills/yt-skill-p-role-prompt-design.md]]
+
+## [[yt-skill-p-role-prompt-design]]
+- [[30_wiki/dark-knowledges/yt-note-p-c-role-boundary-realworld.md]]
+
+## [[yt-skill-storyline-contrast-analysis]]
+- [[30_wiki/skills/yt-skill-storyline-key-elements.md]]
+- [[30_wiki/skills/yt-skill-storyline-target-tradeoff.md]]
+
+## [[yt-skill-storyline-key-elements]]
+- [[30_wiki/skills/yt-skill-p-role-prompt-design.md]]
+- [[30_wiki/skills/yt-skill-storyline-target-tradeoff.md]]
+
+## [[yt-skill-storyline-problem-solving]]
+- [[30_wiki/skills/yt-skill-storyline-key-elements.md]]
+
+## [[yt-skill-storyline-target-tradeoff]]
+- [[30_wiki/concepts/yt-note-deliberate-practice-four-elements.md]]
+- [[30_wiki/skills/yt-skill-storyline-key-elements.md]]
+
+## [[yt-skill-storyline-timeline]]
+- [[30_wiki/skills/yt-skill-storyline-contrast-analysis.md]]
+- [[30_wiki/skills/yt-skill-storyline-problem-solving.md]]
 
 ## [[yt-startup-business-plan]]
 - [[30_wiki/concepts/yt-decision-canvas.md]]
@@ -2613,8 +3301,19 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-system-course-map-lecture|一堂课程地图精华串讲]]
 - [[30_wiki/concepts/yitang-course-map.md]]
 
+## [[yt-tool-best-practice-learning]]
+- [[30_wiki/concepts/yt-tool-y-model-ruler.md]]
+
+## [[yt-tool-copywriting-framework]]
+- [[30_wiki/concepts/yt-tool-fab-persuasion.md]]
+
 ## [[yt-tool-equity-checklist]]
 - [[30_wiki/concepts/yt-management-toolkit-overview.md]]
+
+## [[yt-tool-fab-persuasion]]
+- [[30_wiki/concepts/case-truman-motivation-map-12-versions.md]]
+- [[30_wiki/concepts/yt-tool-best-practice-learning.md]]
+- [[30_wiki/dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md]]
 
 ## [[yt-tool-hiring-scorecard]]
 - [[30_wiki/concepts/yt-management-toolkit-overview.md]]
@@ -2631,9 +3330,13 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/anthropic-官方发布创始人手册打造-ai-原生初创公司.md]]
 - [[30_wiki/concepts/yt-management-toolkit-overview.md]]
 - [[30_wiki/concepts/yt-tool-okr-cycle.md]]
+- [[30_wiki/concepts/yt-tool-product-core-canvas.md]]
 - [[30_wiki/concepts/yt-tool-strategy-workshop.md]]
 - [[30_wiki/tools/yt-tool-meeting-designer.md]]
 - [[30_wiki/tools/yt-tool-project-health-radar.md]]
+
+## [[yt-tool-mental-model-refinement]]
+- [[30_wiki/concepts/yt-tool-best-practice-learning.md]]
 
 ## [[yt-tool-okr-cycle]]
 - [[30_wiki/concepts/yt-management-goal-management.md]]
@@ -2649,6 +3352,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-tool-peas-agent-analysis]]
 - [[30_wiki/concepts/yt-concept-peas-insight.md]]
+
+## [[yt-tool-product-core-canvas]]
+- [[30_wiki/concepts/skill-一堂-product-kernel-canvas.md]]
+- [[30_wiki/concepts/yt-entrepreneur-product-core.md]]
 
 ## [[yt-tool-project-health-radar]]
 - [[30_wiki/concepts/yt-management-toolkit-overview.md]]
@@ -2887,6 +3594,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/projects/互联网医院项目.md]]
 - [[30_wiki/projects/诊所O2O项目.md]]
 
+## [[口喷设计范式]]
+- [[30_wiki/concepts/skill-ai-oral-spray-input.md]]
+
 ## [[开源HIS系统代码深度分析报告]]
 - [[30_wiki/concepts/HIS系统开发实现方案-架构师指南.md]]
 
@@ -2911,6 +3621,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/紫鲸ai智能体工作流平台.md]]
 - [[30_wiki/concepts/诊所o2o外卖平台业务深度调研报告.md]]
 - [[30_wiki/projects/诊所O2O项目.md]]
+
+## [[规模经济]]
+- [[30_wiki/cases/case-ether-online-acquisition.md]]
 
 ## [[诊所O2O外卖平台业务深度调研报告]]
 - [[30_wiki/concepts/ec工业化规范手册-v2.8.0.md]]

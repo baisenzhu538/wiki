@@ -1698,3 +1698,173 @@ Chronological record of knowledge operations.
 - 2026-06-06T06:31:17+00:00 - Ingested `src_20260606_ef4877d0` from 00_inbox/马易-AI落地场景识别-口述.md
 
 - 2026-06-06T06:31:51+00:00 - Self-check: 201 auto-feedback record(s) created
+
+- 2026-06-09T14:03:49+00:00 - Ingested `src_20260609_8e64b361` from 00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md
+
+- 2026-06-09T14:03:49+00:00 - Ingested `src_20260609_dade3353` from 00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md
+
+- 2026-06-09T14:03:49+00:00 - Ingested `src_20260609_8c00cb42` from 00_inbox/paddle_batch/AI俱乐部-人和AI协作-纪浩-五层结构-图片01_paddle_ocr.md
+
+- 2026-06-09T14:03:49+00:00 - Ingested `src_20260609_9223aac2` from 00_inbox/paddle_batch/AI俱乐部-人和AI协作-纪浩-参考案例-图片02_paddle_ocr.md
+
+- 2026-06-09T14:03:49+00:00 - Ingested `src_20260609_f80bff88` from 00_inbox/paddle_batch/ocr_Snipaste_2026-05-15_21-39-40_paddle_ocr.md
+
+- 2026-06-09T14:03:49+00:00 - Ingested `src_20260609_03491271` from 00_inbox/paddle_batch/一堂-AI学习-truman自用的AI FeatureSet_paddle_ocr.md
+
+- 2026-06-09T14:03:49+00:00 - Ingested `src_20260609_62f76551` from 00_inbox/paddle_batch/一堂-AI学习-提问工程化_paddle_ocr.md
+
+- 2026-06-09T14:03:49+00:00 - Ingested `src_20260609_cb13ebc8` from 00_inbox/paddle_batch/一堂-AI学习-提问进化路线图_paddle_ocr.md
+
+- 2026-06-09T14:03:49+00:00 - Ingested `src_20260609_a7f2ae2e` from 00_inbox/paddle_batch/一堂-AI清单体笔记（系统故事线）-truman-图片01_paddle_ocr.md
+
+- 2026-06-09T14:03:49+00:00 - Ingested `src_20260609_6809033f` from 00_inbox/paddle_batch/一堂-AI清单体笔记（训练段位图）-truman-图片02_paddle_ocr.md
+
+- 2026-06-09T14:03:49+00:00 - Ingested `src_20260609_818119f0` from 00_inbox/paddle_batch/一堂-TCPR模型-皇冠模型_paddle_ocr.md
+
+- 2026-06-09T14:03:50+00:00 - Ingested `src_20260609_230d54f4` from 00_inbox/paddle_batch/一堂-个人修炼-Y模型_paddle_ocr.md
+
+- 2026-06-09T14:03:50+00:00 - Ingested `src_20260609_d3f2b57b` from 00_inbox/paddle_batch/一堂-个人修炼-全景图MUSE模型_paddle_ocr.md
+
+- 2026-06-09T14:03:50+00:00 - Ingested `src_20260609_a7dca35a` from 00_inbox/paddle_batch/一堂-个人修炼-双三角模型_paddle_ocr.md
+
+- 2026-06-09T14:03:50+00:00 - Ingested `src_20260609_cfb87136` from 00_inbox/paddle_batch/一堂-个人修炼-提问刻意练习画布_paddle_ocr.md
+
+- 2026-06-09T14:03:50+00:00 - Ingested `src_20260609_06580bb9` from 00_inbox/paddle_batch/一堂-个人修炼-科学学习IPO-全景策略_paddle_ocr.md
+
+- 2026-06-09T14:03:50+00:00 - Ingested `src_20260609_bfe4fef4` from 00_inbox/paddle_batch/一堂-个人修炼-科学学习IPO完整清单_paddle_ocr.md
+
+- 2026-06-09T14:03:50+00:00 - Ingested `src_20260609_e3a27299` from 00_inbox/paddle_batch/一堂-个人修炼-科学学习IPO模型_paddle_ocr.md
+
+- 2026-06-09T14:03:50+00:00 - Ingested `src_20260609_e13d29d9` from 00_inbox/paddle_batch/一堂-个人修炼-科学提问刻意练习_paddle_ocr.md
+
+- 2026-06-09T14:03:50+00:00 - Ingested `src_20260609_bb221484` from 00_inbox/paddle_batch/一堂-个人修炼-表达力火箭模型-执行武器库_paddle_ocr.md
+
+- 2026-06-09T14:04:55+00:00 - Ingested `src_20260609_8f36d0f4` from 00_inbox/paddle_batch/一堂-个人修炼-表达力火箭模型_paddle_ocr.md
+
+- 2026-06-09T14:04:55+00:00 - Ingested `src_20260609_d22e1266` from 00_inbox/paddle_batch/一堂-个人修炼-解放思想_paddle_ocr.md
+
+- 2026-06-09T14:04:55+00:00 - Ingested `src_20260609_93e2df35` from 00_inbox/paddle_batch/一堂-个人修炼-讲香十指模型-超级武器库_paddle_ocr.md
+
+- 2026-06-09T14:04:55+00:00 - Ingested `src_20260609_93705394` from 00_inbox/paddle_batch/一堂-个人修炼-讲香基本功-十指模型修炼地图_paddle_ocr.md
+
+- 2026-06-09T14:04:55+00:00 - Ingested `src_20260609_5722254f` from 00_inbox/paddle_batch/一堂-个人修炼-讲香基本功_paddle_ocr.md
+
+- 2026-06-09T14:04:55+00:00 - Ingested `src_20260609_c607a5a5` from 00_inbox/paddle_batch/一堂-个人修炼-课程清单_paddle_ocr.md
+
+- 2026-06-09T14:04:55+00:00 - Ingested `src_20260609_11f9c13b` from 00_inbox/paddle_batch/一堂-人机协作-双三角模型_paddle_ocr.md
+
+- 2026-06-09T14:04:55+00:00 - Ingested `src_20260609_a8ead237` from 00_inbox/paddle_batch/一堂-创业必修-课程清单_paddle_ocr.md
+
+- 2026-06-09T14:04:55+00:00 - Ingested `src_20260609_07b851fb` from 00_inbox/paddle_batch/一堂-单元模型-ABCD策略模型_paddle_ocr.md
+
+- 2026-06-09T14:04:55+00:00 - Ingested `src_20260609_189cf93b` from 00_inbox/paddle_batch/一堂-单元模型-TCPR底层网络协议_paddle_ocr.md
+
+- 2026-06-09T14:04:55+00:00 - Ingested `src_20260609_71152485` from 00_inbox/paddle_batch/一堂-单元模型-修炼地图_paddle_ocr.md
+
+- 2026-06-09T14:04:55+00:00 - Ingested `src_20260609_9fd664f5` from 00_inbox/paddle_batch/一堂-单元模型-动态预测_paddle_ocr.md
+
+- 2026-06-09T14:04:55+00:00 - Ingested `src_20260609_70068960` from 00_inbox/paddle_batch/一堂-单元模型-单sku模型_paddle_ocr.md
+
+- 2026-06-09T14:04:55+00:00 - Ingested `src_20260609_d7fb11e1` from 00_inbox/paddle_batch/一堂-单元模型-单商圈模型_paddle_ocr.md
+
+- 2026-06-09T14:04:56+00:00 - Ingested `src_20260609_d0a5e9b4` from 00_inbox/paddle_batch/一堂-单元模型-单城市模型_paddle_ocr.md
+
+- 2026-06-09T14:04:56+00:00 - Ingested `src_20260609_59f0b2a5` from 00_inbox/paddle_batch/一堂-单元模型-单客户模型_paddle_ocr.md
+
+- 2026-06-09T14:04:56+00:00 - Ingested `src_20260609_4244803c` from 00_inbox/paddle_batch/一堂-单元模型-单履约模型_paddle_ocr.md
+
+- 2026-06-09T14:04:56+00:00 - Ingested `src_20260609_2e27ff75` from 00_inbox/paddle_batch/一堂-单元模型-单柜子模型_paddle_ocr.md
+
+- 2026-06-09T14:04:56+00:00 - Ingested `src_20260609_d193f920` from 00_inbox/paddle_batch/一堂-单元模型-单用户模型_paddle_ocr.md
+
+- 2026-06-09T14:04:56+00:00 - Ingested `src_20260609_285df010` from 00_inbox/paddle_batch/一堂-单元模型-单订单模型_paddle_ocr.md
+
+- 2026-06-09T14:05:27+00:00 - Ingested `src_20260609_dff0633d` from 00_inbox/paddle_batch/一堂-单元模型-单销售模型_paddle_ocr.md
+
+- 2026-06-09T14:05:27+00:00 - Ingested `src_20260609_f2aa0632` from 00_inbox/paddle_batch/一堂-单元模型-单门店模型_paddle_ocr.md
+
+- 2026-06-09T14:05:27+00:00 - Ingested `src_20260609_dd7075c2` from 00_inbox/paddle_batch/一堂-单元模型-基准值_paddle_ocr.md
+
+- 2026-06-09T14:05:27+00:00 - Ingested `src_20260609_1fa94850` from 00_inbox/paddle_batch/一堂-单元模型-壁垒预判_paddle_ocr.md
+
+- 2026-06-09T14:05:27+00:00 - Ingested `src_20260609_7dbbefd0` from 00_inbox/paddle_batch/一堂-单元模型-外部对抗地图_paddle_ocr.md
+
+- 2026-06-09T14:05:27+00:00 - Ingested `src_20260609_a3880f88` from 00_inbox/paddle_batch/一堂-单元模型-多模型情况_paddle_ocr.md
+
+- 2026-06-09T14:05:27+00:00 - Ingested `src_20260609_bcbbb2ed` from 00_inbox/paddle_batch/一堂-单元模型-学练用_paddle_ocr.md
+
+- 2026-06-09T14:05:27+00:00 - Ingested `src_20260609_624d303b` from 00_inbox/paddle_batch/一堂-单元模型-对抗小抄01_paddle_ocr.md
+
+- 2026-06-09T14:05:27+00:00 - Ingested `src_20260609_6f5c7abd` from 00_inbox/paddle_batch/一堂-单元模型-对抗小抄02_paddle_ocr.md
+
+- 2026-06-09T14:05:27+00:00 - Ingested `src_20260609_bf7b2da7` from 00_inbox/paddle_batch/一堂-单元模型-对抗小抄_paddle_ocr.md
+
+- 2026-06-09T14:05:27+00:00 - Ingested `src_20260609_31712e1d` from 00_inbox/paddle_batch/一堂-单元模型-扭蛋机案例_paddle_ocr.md
+
+- 2026-06-09T14:05:28+00:00 - Ingested `src_20260609_0770a578` from 00_inbox/paddle_batch/一堂-单元模型-找全成本实操难点_paddle_ocr.md
+
+- 2026-06-09T14:05:28+00:00 - Ingested `src_20260609_c1af5767` from 00_inbox/paddle_batch/一堂-单元模型-找单元模型实操难点_paddle_ocr.md
+
+- 2026-06-09T14:05:28+00:00 - Ingested `src_20260609_e79bff0e` from 00_inbox/paddle_batch/一堂-单元模型-找基准值实操难点_paddle_ocr.md
+
+- 2026-06-09T14:05:28+00:00 - Ingested `src_20260609_e54e85be` from 00_inbox/paddle_batch/一堂-单元模型-斧子、尺子、梯子_paddle_ocr.md
+
+- 2026-06-09T14:05:28+00:00 - Ingested `src_20260609_3659a538` from 00_inbox/paddle_batch/一堂-单元模型-斧子尺子梯子详解_paddle_ocr.md
+
+- 2026-06-09T14:05:28+00:00 - Ingested `src_20260609_acdcf6e3` from 00_inbox/paddle_batch/一堂-单元模型-最简单元模型_paddle_ocr.md
+
+- 2026-06-09T14:05:28+00:00 - Ingested `src_20260609_c31a1173` from 00_inbox/paddle_batch/一堂-单元模型-段位专家_paddle_ocr.md
+
+- 2026-06-09T14:05:28+00:00 - Ingested `src_20260609_0cfcfa9e` from 00_inbox/paddle_batch/一堂-单元模型-示例01_paddle_ocr.md
+
+- 2026-06-09T14:05:28+00:00 - Ingested `src_20260609_99032bf9` from 00_inbox/paddle_batch/一堂-单元模型-示例_paddle_ocr.md
+
+- 2026-06-09T14:05:51+00:00 - Ingested `src_20260609_1c8b4d0e` from 00_inbox/paddle_batch/一堂-单元模型-规模对抗实操难点_paddle_ocr.md
+
+- 2026-06-09T14:05:51+00:00 - Ingested `src_20260609_cef13c36` from 00_inbox/paddle_batch/一堂-单元模型-规模经济对抗武器库_paddle_ocr.md
+
+- 2026-06-09T14:05:51+00:00 - Ingested `src_20260609_e5bcd951` from 00_inbox/paddle_batch/一堂-单元模型-象限分析法_paddle_ocr.md
+
+- 2026-06-09T14:05:51+00:00 - Ingested `src_20260609_37e674a0` from 00_inbox/paddle_batch/一堂-科学决策-ROI决策评估画布-案例01_paddle_ocr.md
+
+- 2026-06-09T14:05:51+00:00 - Ingested `src_20260609_f00cad16` from 00_inbox/paddle_batch/一堂-科学决策-ROI决策评估画布-案例02_paddle_ocr.md
+
+- 2026-06-09T14:05:51+00:00 - Ingested `src_20260609_4ea1fba2` from 00_inbox/paddle_batch/一堂-科学决策-ROI决策评估画布-案例03_paddle_ocr.md
+
+- 2026-06-09T14:05:51+00:00 - Ingested `src_20260609_6c8f4f64` from 00_inbox/paddle_batch/一堂-科学决策-ROI决策评估画布-案例04_paddle_ocr.md
+
+- 2026-06-09T14:05:51+00:00 - Ingested `src_20260609_d2582199` from 00_inbox/paddle_batch/一堂-科学决策-ROI决策评估画布_paddle_ocr.md
+
+- 2026-06-09T14:05:51+00:00 - Ingested `src_20260609_60edc284` from 00_inbox/paddle_batch/一堂-科学决策-ROI高阶训练全景图_paddle_ocr.md
+
+- 2026-06-09T14:05:51+00:00 - Ingested `src_20260609_c86cd9a0` from 00_inbox/paddle_batch/一堂-科学决策-X型Y型决策习惯对比_paddle_ocr.md
+
+- 2026-06-09T14:05:51+00:00 - Ingested `src_20260609_76e76298` from 00_inbox/paddle_batch/一堂-科学决策-关键假设ABCD模型_paddle_ocr.md
+
+- 2026-06-09T14:05:51+00:00 - Ingested `src_20260609_44a9e79a` from 00_inbox/paddle_batch/一堂-科学决策-关键训练清单（重要））_paddle_ocr.md
+
+- 2026-06-09T14:05:51+00:00 - Ingested `src_20260609_485bc00d` from 00_inbox/paddle_batch/一堂-科学决策-决策三角形_paddle_ocr.md
+
+- 2026-06-09T14:05:52+00:00 - Ingested `src_20260609_84d2d52b` from 00_inbox/paddle_batch/一堂-科学决策-深度-L1优先级定性_paddle_ocr.md
+
+- 2026-06-09T14:05:52+00:00 - Ingested `src_20260609_b791433c` from 00_inbox/paddle_batch/一堂-科学决策-深度-L2部分定量_paddle_ocr.md
+
+- 2026-06-09T14:05:52+00:00 - Ingested `src_20260609_390396bf` from 00_inbox/paddle_batch/一堂-科学决策-深度-L3定量公式_paddle_ocr.md
+
+- 2026-06-09T14:05:52+00:00 - Ingested `src_20260609_3c0ef894` from 00_inbox/paddle_batch/一堂-科学决策-深度-L4-案例01_paddle_ocr.md
+
+- 2026-06-09T14:05:52+00:00 - Ingested `src_20260609_6e0e9fdf` from 00_inbox/paddle_batch/一堂-科学决策-深度-L4严格财务公式_paddle_ocr.md
+
+- 2026-06-09T14:05:52+00:00 - Ingested `src_20260609_006cb9b3` from 00_inbox/paddle_batch/一堂-科学决策-高水平共识曲线（重要）_paddle_ocr.md
+
+- 2026-06-09T14:05:52+00:00 - Ingested `src_20260609_b32e7bb8` from 00_inbox/paddle_batch/一堂-高阶体系探索营-三种咨询可能性_paddle_ocr.md
+
+- 2026-06-09T14:05:52+00:00 - Ingested `src_20260609_112b88f7` from 00_inbox/paddle_batch/一堂DOC-单元模型-十大单元模型_paddle_ocr.md
+
+- 2026-06-09T14:05:52+00:00 - Ingested `src_20260609_3dea4712` from 00_inbox/paddle_batch/一堂Y模型-科学成事道理_paddle_ocr.md
+
+- 2026-06-09T14:05:52+00:00 - Ingested `src_20260609_30219516` from 00_inbox/paddle_batch/泛产品设计-落地卡片-ROI分析_paddle_ocr.md
+
+- 2026-06-09T14:05:52+00:00 - Ingested `src_20260609_9168476b` from 00_inbox/paddle_batch/泛产品设计-落地卡片-低成本测试MVP_paddle_ocr.md
+
+- 2026-06-09T14:05:52+00:00 - Ingested `src_20260609_e9aa385a` from 00_inbox/paddle_batch/泛产品设计-落地卡片-逻辑MECE_paddle_ocr.md

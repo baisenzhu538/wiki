@@ -1,0 +1,36 @@
+---
+title: "OCR: 一堂-单元模型-示例"
+type: "concept"
+status: "draft"
+source_refs: [src_20260609_99032bf9]
+created_at: "2026-06-09T14:05:28+00:00"
+updated_at: "2026-06-09T14:05:28+00:00"
+---
+
+# OCR: 一堂-单元模型-示例
+
+## Summary
+
+原图: `一堂-单元模型-示例.
+
+*` 对应关系 算的成本收益Before 正确姿势√ 时间 某健身房： 把收入摊入未来的每个月，才符合模型现实 1．1月刚开张，会员费100万，成本40万 不要光为了一个月的大额收入高兴，要注意成本会 在未来几个月陆续支出。
+
+2．2月还不错，会员费70万，成本40万 3．3月会员费10万，成本40万 4.
+
+## Source Refs
+
+- `src_20260609_99032bf9` -> `10_raw/sources/src_20260609_99032bf9-ocr-一堂-单元模型-示例.md`
+
+## Reusable Knowledge
+
+- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+
+## Open Questions
+
+- SAAS工具： 按月份做成本收入计划，可以反映什么问题呢？
+
+## Output Opportunities
+
+- Content:
+- Code:
+- Capability: workflow or playbook

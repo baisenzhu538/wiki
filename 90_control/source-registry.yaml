@@ -5968,3 +5968,1193 @@ sources:
   derived_outputs: []
   inbox_path: "00_inbox/马易-AI落地场景识别-口述.md"
   content_sha256: "78b22773ef67a3b5f73bd5682c973d1bb8bcf714183b475d622caf3f364e60e9"
+
+- id: "src_20260609_8e64b361"
+  title: "AI 俱乐部·人和 AI 协作 — 五层结构"
+  type: "other"
+  location: "10_raw/sources/src_20260609_8e64b361-ai-俱乐部人和-ai-协作-五层结构.md"
+  captured_at: "2026-06-09T14:03:49+00:00"
+  registered_at: "2026-06-09T14:03:49+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/ai-俱乐部人和-ai-协作-五层结构.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md"
+  content_sha256: "93de2755681c122cf08547a473d9fb21c997be3ac34c554cd98f67e2a5d5cf2f"
+
+- id: "src_20260609_dade3353"
+  title: "AI 俱乐部·人和 AI 协作 — 参考案例对比（一堂 vs SQL-Helper）"
+  type: "other"
+  location: "10_raw/sources/src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md"
+  captured_at: "2026-06-09T14:03:49+00:00"
+  registered_at: "2026-06-09T14:03:49+00:00"
+  trust_level: "unknown"
+  freshness: "unknown"
+  rights: "unknown"
+  related_wiki: [30_wiki/concepts/ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md"
+  content_sha256: "9a22cfe4db8bec02358c0f8843b2e251d36953c8777c0c2f660156331606d763"
+
+- id: "src_20260609_8c00cb42"
+  title: "OCR: AI俱乐部-人和AI协作-纪浩-五层结构-图片01"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:03:49+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/AI俱乐部-人和AI协作-纪浩-五层结构-图片01_paddle_ocr.md"
+  content_sha256: "fe0b80af3dd34990ee4c3fd07f0b384e9df1c6429733b32a91c763990fe06996"
+
+- id: "src_20260609_9223aac2"
+  title: "OCR: AI俱乐部-人和AI协作-纪浩-参考案例-图片02"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_9223aac2-ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:03:49+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/AI俱乐部-人和AI协作-纪浩-参考案例-图片02_paddle_ocr.md"
+  content_sha256: "2ff266527c36d64754bb59ce5048512c8220785e7e52cbc526264d458bb9d5a5"
+
+- id: "src_20260609_f80bff88"
+  title: "OCR: ocr_Snipaste_2026-05-15_21-39-40"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_f80bff88-ocr-ocr_snipaste_2026-05-15_21-39-40.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:03:49+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-ocr_snipaste_2026-05-15_21-39-40-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/ocr_Snipaste_2026-05-15_21-39-40_paddle_ocr.md"
+  content_sha256: "a7e22b0fe695f47166215c9ca5c60139e5700e5a6142de5f5b69544dc14c75ec"
+
+- id: "src_20260609_03491271"
+  title: "OCR: 一堂-AI学习-truman自用的AI FeatureSet"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:03:49+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-ai学习-truman自用的ai-featureset.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-AI学习-truman自用的AI FeatureSet_paddle_ocr.md"
+  content_sha256: "b9b82ed434a54966fc119038b24602446dff3765105260165a9ea80f2c2b0f6f"
+
+- id: "src_20260609_62f76551"
+  title: "OCR: 一堂-AI学习-提问工程化"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_62f76551-ocr-一堂-ai学习-提问工程化.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:03:49+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-ai学习-提问工程化.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-AI学习-提问工程化_paddle_ocr.md"
+  content_sha256: "bdc7926988ea6f3eb753dc8dcfa8dc67203b3a570d03d43efb4d3c8eb22cdba7"
+
+- id: "src_20260609_cb13ebc8"
+  title: "OCR: 一堂-AI学习-提问进化路线图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_cb13ebc8-ocr-一堂-ai学习-提问进化路线图.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:03:49+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-ai学习-提问进化路线图.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-AI学习-提问进化路线图_paddle_ocr.md"
+  content_sha256: "f55672122b3151ddf3f2710e14b975feb6a0f109d804e45f2d0393159c0640d1"
+
+- id: "src_20260609_a7f2ae2e"
+  title: "OCR: 一堂-AI清单体笔记（系统故事线）-truman-图片01"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:03:49+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-ai清单体笔记系统故事线-truman-图片01.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-AI清单体笔记（系统故事线）-truman-图片01_paddle_ocr.md"
+  content_sha256: "ce690c65c4c291b9d0d2ad0d893ec4c6b62e333dc7225fcfe49291894974de08"
+
+- id: "src_20260609_6809033f"
+  title: "OCR: 一堂-AI清单体笔记（训练段位图）-truman-图片02"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:03:49+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-AI清单体笔记（训练段位图）-truman-图片02_paddle_ocr.md"
+  content_sha256: "53015b6bf6827de08e2e61fdcb3afad6b87da389315ad977ed061ba1fe8527c2"
+
+- id: "src_20260609_818119f0"
+  title: "OCR: 一堂-TCPR模型-皇冠模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_818119f0-ocr-一堂-tcpr模型-皇冠模型.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:03:49+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-tcpr模型-皇冠模型.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-TCPR模型-皇冠模型_paddle_ocr.md"
+  content_sha256: "05e37d503cd64a8ce597ed7c242ef9932f022108cb3131acc1e36852362a5e58"
+
+- id: "src_20260609_230d54f4"
+  title: "OCR: 一堂-个人修炼-Y模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_230d54f4-ocr-一堂-个人修炼-y模型.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:03:49+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-个人修炼-y模型-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-个人修炼-Y模型_paddle_ocr.md"
+  content_sha256: "cda118cb8a0d4aff3e91c29b7d7bc092729e5aa9404f03373d188656a2fbc31b"
+
+- id: "src_20260609_d3f2b57b"
+  title: "OCR: 一堂-个人修炼-全景图MUSE模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_d3f2b57b-ocr-一堂-个人修炼-全景图muse模型.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:03:50+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-个人修炼-全景图muse模型-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-个人修炼-全景图MUSE模型_paddle_ocr.md"
+  content_sha256: "8ef34df228beeade2b4b589b73191bee5c0f3afc5151e1edfe9a2ccb63aae6cb"
+
+- id: "src_20260609_a7dca35a"
+  title: "OCR: 一堂-个人修炼-双三角模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_a7dca35a-ocr-一堂-个人修炼-双三角模型.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:03:50+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-个人修炼-双三角模型-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-个人修炼-双三角模型_paddle_ocr.md"
+  content_sha256: "e23c194a5c61db25d7c36e7df12be1f460b8455f65b9f5ddbf179fadb0f3dee0"
+
+- id: "src_20260609_cfb87136"
+  title: "OCR: 一堂-个人修炼-提问刻意练习画布"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_cfb87136-ocr-一堂-个人修炼-提问刻意练习画布.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:03:50+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-个人修炼-提问刻意练习画布-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-个人修炼-提问刻意练习画布_paddle_ocr.md"
+  content_sha256: "0ef05c713f86b64cdaf5ea0613d5e12bad6df1082b81606148c855a2c7b876bd"
+
+- id: "src_20260609_06580bb9"
+  title: "OCR: 一堂-个人修炼-科学学习IPO-全景策略"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:03:50+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-个人修炼-科学学习ipo-全景策略-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-个人修炼-科学学习IPO-全景策略_paddle_ocr.md"
+  content_sha256: "11d57893b49a22bf11eb4b87ca3714757862236e849790d3b4d21d527e2fd102"
+
+- id: "src_20260609_bfe4fef4"
+  title: "OCR: 一堂-个人修炼-科学学习IPO完整清单"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_bfe4fef4-ocr-一堂-个人修炼-科学学习ipo完整清单.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:03:50+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-个人修炼-科学学习ipo完整清单-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-个人修炼-科学学习IPO完整清单_paddle_ocr.md"
+  content_sha256: "1d5e44e3545a334eedf0f8ec86a568f6cf465fced8cd53907de3ddaf7bd0a2e2"
+
+- id: "src_20260609_e3a27299"
+  title: "OCR: 一堂-个人修炼-科学学习IPO模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:03:50+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-个人修炼-科学学习ipo模型-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-个人修炼-科学学习IPO模型_paddle_ocr.md"
+  content_sha256: "5a169dcf89861ea70b77f46b33a32198a27f38bc596c8f10a78ad5701a222002"
+
+- id: "src_20260609_e13d29d9"
+  title: "OCR: 一堂-个人修炼-科学提问刻意练习"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:03:50+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-个人修炼-科学提问刻意练习-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-个人修炼-科学提问刻意练习_paddle_ocr.md"
+  content_sha256: "5e9172e4a4c18d4da13a2822e0fdecacec28f10e8d004b103a2803cf124679fe"
+
+- id: "src_20260609_bb221484"
+  title: "OCR: 一堂-个人修炼-表达力火箭模型-执行武器库"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_bb221484-ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:03:50+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-个人修炼-表达力火箭模型-执行武器库-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-个人修炼-表达力火箭模型-执行武器库_paddle_ocr.md"
+  content_sha256: "8c6732fae4165bf026c6d6b6670f666f8f06ff635350e021701e50ba7100867a"
+
+- id: "src_20260609_8f36d0f4"
+  title: "OCR: 一堂-个人修炼-表达力火箭模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_8f36d0f4-ocr-一堂-个人修炼-表达力火箭模型.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:04:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-个人修炼-表达力火箭模型-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-个人修炼-表达力火箭模型_paddle_ocr.md"
+  content_sha256: "8f6cca702a17e6a0a21e00768e6a0f50112f9d7302bca92596ae67f73cbae0bb"
+
+- id: "src_20260609_d22e1266"
+  title: "OCR: 一堂-个人修炼-解放思想"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_d22e1266-ocr-一堂-个人修炼-解放思想.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:04:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-个人修炼-解放思想-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-个人修炼-解放思想_paddle_ocr.md"
+  content_sha256: "725c1d616a1c908c19043032657baa3cbcdb9fa173539daf326bddc37f3b3908"
+
+- id: "src_20260609_93e2df35"
+  title: "OCR: 一堂-个人修炼-讲香十指模型-超级武器库"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:04:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-个人修炼-讲香十指模型-超级武器库-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-个人修炼-讲香十指模型-超级武器库_paddle_ocr.md"
+  content_sha256: "0f859d8701452a03e96d4354049a9475bb981f9f5d1d5e91a468932de5b8a878"
+
+- id: "src_20260609_93705394"
+  title: "OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_93705394-ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:04:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-个人修炼-讲香基本功-十指模型修炼地图_paddle_ocr.md"
+  content_sha256: "9cd6788ebbd3879569e6ae86a9c6e132e89fec3db1105235104b4b58949c39c9"
+
+- id: "src_20260609_5722254f"
+  title: "OCR: 一堂-个人修炼-讲香基本功"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_5722254f-ocr-一堂-个人修炼-讲香基本功.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:04:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-个人修炼-讲香基本功-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-个人修炼-讲香基本功_paddle_ocr.md"
+  content_sha256: "4469d52c61459ce4cf2a8bee66e4abf12d17e772396483f4368ca687f5958a02"
+
+- id: "src_20260609_c607a5a5"
+  title: "OCR: 一堂-个人修炼-课程清单"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_c607a5a5-ocr-一堂-个人修炼-课程清单.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:04:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-个人修炼-课程清单-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-个人修炼-课程清单_paddle_ocr.md"
+  content_sha256: "9e164d4b361f250c8355217b845f36807907e99e02e8f0434a05f52f1c2bf786"
+
+- id: "src_20260609_11f9c13b"
+  title: "OCR: 一堂-人机协作-双三角模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_11f9c13b-ocr-一堂-人机协作-双三角模型.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:04:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-人机协作-双三角模型.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-人机协作-双三角模型_paddle_ocr.md"
+  content_sha256: "ea6e4599849ddcda6b1292083134cafc1c276d92b39f7cc752bfa6353066d4bc"
+
+- id: "src_20260609_a8ead237"
+  title: "OCR: 一堂-创业必修-课程清单"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_a8ead237-ocr-一堂-创业必修-课程清单.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:04:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-创业必修-课程清单-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-创业必修-课程清单_paddle_ocr.md"
+  content_sha256: "8f3da4c4d98e61f72d51f8e68f976b9cee938ec185d2d55cf5474f3c609a2154"
+
+- id: "src_20260609_07b851fb"
+  title: "OCR: 一堂-单元模型-ABCD策略模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_07b851fb-ocr-一堂-单元模型-abcd策略模型.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:04:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-abcd策略模型.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-ABCD策略模型_paddle_ocr.md"
+  content_sha256: "2d4bd2dafa77d643e598e1557f0c7f4713ce7278839d5469f4d8305b69be53d3"
+
+- id: "src_20260609_189cf93b"
+  title: "OCR: 一堂-单元模型-TCPR底层网络协议"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_189cf93b-ocr-一堂-单元模型-tcpr底层网络协议.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:04:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-tcpr底层网络协议.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-TCPR底层网络协议_paddle_ocr.md"
+  content_sha256: "35571ac1cfb5c4d3a0d4a68f5a9755c5835cc324bedc2f7d2fe209048bc11ea5"
+
+- id: "src_20260609_71152485"
+  title: "OCR: 一堂-单元模型-修炼地图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_71152485-ocr-一堂-单元模型-修炼地图.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:04:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-修炼地图.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-修炼地图_paddle_ocr.md"
+  content_sha256: "517c1d81c4fa98b8efb0db2bdab4b1ca1051bb6f96f2eecc3b2780b0efdae02d"
+
+- id: "src_20260609_9fd664f5"
+  title: "OCR: 一堂-单元模型-动态预测"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_9fd664f5-ocr-一堂-单元模型-动态预测.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:04:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-动态预测.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-动态预测_paddle_ocr.md"
+  content_sha256: "2ad410050e4e074d52998768bc76b3b6f48f2122845da083206eeec884f6d892"
+
+- id: "src_20260609_70068960"
+  title: "OCR: 一堂-单元模型-单sku模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_70068960-ocr-一堂-单元模型-单sku模型.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:04:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-单sku模型.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-单sku模型_paddle_ocr.md"
+  content_sha256: "d75822a2c905d63a1d3d59e193b4f17c99b723a572bb525315e6ef76bb53d428"
+
+- id: "src_20260609_d7fb11e1"
+  title: "OCR: 一堂-单元模型-单商圈模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_d7fb11e1-ocr-一堂-单元模型-单商圈模型.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:04:55+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-单商圈模型.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-单商圈模型_paddle_ocr.md"
+  content_sha256: "b7c4c0ab9f35489fb0d703696b999fca6c0339d3259ca7eef826842d24c3864a"
+
+- id: "src_20260609_d0a5e9b4"
+  title: "OCR: 一堂-单元模型-单城市模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_d0a5e9b4-ocr-一堂-单元模型-单城市模型.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:04:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-单城市模型.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-单城市模型_paddle_ocr.md"
+  content_sha256: "ccd6634e0dd8f28d510fb4018005fd6edd41d8957695f3fa03a5fa57cdd8dfab"
+
+- id: "src_20260609_59f0b2a5"
+  title: "OCR: 一堂-单元模型-单客户模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_59f0b2a5-ocr-一堂-单元模型-单客户模型.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:04:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-单客户模型.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-单客户模型_paddle_ocr.md"
+  content_sha256: "c767b521337a15410984a409227a3098b87964cc818ddbde5d6af8eb49e36485"
+
+- id: "src_20260609_4244803c"
+  title: "OCR: 一堂-单元模型-单履约模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_4244803c-ocr-一堂-单元模型-单履约模型.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:04:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-单履约模型.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-单履约模型_paddle_ocr.md"
+  content_sha256: "deaead6c3d362c81920006e290f0358bd637481887fd08b724cd8e4f417c2f83"
+
+- id: "src_20260609_2e27ff75"
+  title: "OCR: 一堂-单元模型-单柜子模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_2e27ff75-ocr-一堂-单元模型-单柜子模型.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:04:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-单柜子模型.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-单柜子模型_paddle_ocr.md"
+  content_sha256: "abf5fce586e4e23dc914df26c532be0c55619d0e5f06ddc3386493dfcaa33541"
+
+- id: "src_20260609_d193f920"
+  title: "OCR: 一堂-单元模型-单用户模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_d193f920-ocr-一堂-单元模型-单用户模型.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:04:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-单用户模型.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-单用户模型_paddle_ocr.md"
+  content_sha256: "26c3474b8e28084d2a34cb0149ba821f8015123c4f2b8a0803909d9ad707142d"
+
+- id: "src_20260609_285df010"
+  title: "OCR: 一堂-单元模型-单订单模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_285df010-ocr-一堂-单元模型-单订单模型.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:04:56+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-单订单模型.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-单订单模型_paddle_ocr.md"
+  content_sha256: "087c68e9d88fa3c99cfa918846fde741267c9dd1a4743f82b6797c61e18d31f8"
+
+- id: "src_20260609_dff0633d"
+  title: "OCR: 一堂-单元模型-单销售模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_dff0633d-ocr-一堂-单元模型-单销售模型.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:27+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-单销售模型.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-单销售模型_paddle_ocr.md"
+  content_sha256: "4037935f5999f82ac59e014c7007d37114f527d362733ffec5aa82d237e86bb7"
+
+- id: "src_20260609_f2aa0632"
+  title: "OCR: 一堂-单元模型-单门店模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_f2aa0632-ocr-一堂-单元模型-单门店模型.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:27+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-单门店模型.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-单门店模型_paddle_ocr.md"
+  content_sha256: "55a397dc89a5dd91fa44b85eaec631e5ec4f4d3c4974dd8f01ae85f2bbd1be17"
+
+- id: "src_20260609_dd7075c2"
+  title: "OCR: 一堂-单元模型-基准值"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_dd7075c2-ocr-一堂-单元模型-基准值.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:27+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-基准值.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-基准值_paddle_ocr.md"
+  content_sha256: "cb7640994aa15403e29bf3745170db2ec6dd1bc9808df3f42692978884645861"
+
+- id: "src_20260609_1fa94850"
+  title: "OCR: 一堂-单元模型-壁垒预判"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_1fa94850-ocr-一堂-单元模型-壁垒预判.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:27+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-壁垒预判.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-壁垒预判_paddle_ocr.md"
+  content_sha256: "9d11b2e834146903cf2368607f9f6e5c1b44ccc66fa3a2a3b915273c08528d29"
+
+- id: "src_20260609_7dbbefd0"
+  title: "OCR: 一堂-单元模型-外部对抗地图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_7dbbefd0-ocr-一堂-单元模型-外部对抗地图.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:27+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-外部对抗地图.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-外部对抗地图_paddle_ocr.md"
+  content_sha256: "8de9312ea5c827c8cb7b78c36cdfe8e319b6aed8d850b1b487025ec98c4d333c"
+
+- id: "src_20260609_a3880f88"
+  title: "OCR: 一堂-单元模型-多模型情况"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_a3880f88-ocr-一堂-单元模型-多模型情况.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:27+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-多模型情况.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-多模型情况_paddle_ocr.md"
+  content_sha256: "e1a72e54b8a052b6dda677273c7f9bef14330b803685167cc26b6cb793576664"
+
+- id: "src_20260609_bcbbb2ed"
+  title: "OCR: 一堂-单元模型-学练用"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_bcbbb2ed-ocr-一堂-单元模型-学练用.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:27+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-学练用.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-学练用_paddle_ocr.md"
+  content_sha256: "10871d5608e4a95c5458ad3976846f65f3a0d79c132e17a4feb310a1af4e12f8"
+
+- id: "src_20260609_624d303b"
+  title: "OCR: 一堂-单元模型-对抗小抄01"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_624d303b-ocr-一堂-单元模型-对抗小抄01.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:27+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-对抗小抄01.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-对抗小抄01_paddle_ocr.md"
+  content_sha256: "7ded5ed7e07819fb133abd48c22ca86eb707af083abb1be8003e247a34271ebe"
+
+- id: "src_20260609_6f5c7abd"
+  title: "OCR: 一堂-单元模型-对抗小抄02"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_6f5c7abd-ocr-一堂-单元模型-对抗小抄02.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:27+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-对抗小抄02.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-对抗小抄02_paddle_ocr.md"
+  content_sha256: "5b897012c7084d65357afe0e4e953cae3eef0e9577029a5a950f67c09689beff"
+
+- id: "src_20260609_bf7b2da7"
+  title: "OCR: 一堂-单元模型-对抗小抄"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_bf7b2da7-ocr-一堂-单元模型-对抗小抄.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:27+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-对抗小抄.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-对抗小抄_paddle_ocr.md"
+  content_sha256: "225c1fb5a5bffa645b5e7a22251e4b1e806c90b32027cab8764cb7c0581b4bf1"
+
+- id: "src_20260609_31712e1d"
+  title: "OCR: 一堂-单元模型-扭蛋机案例"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_31712e1d-ocr-一堂-单元模型-扭蛋机案例.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:27+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-扭蛋机案例.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-扭蛋机案例_paddle_ocr.md"
+  content_sha256: "b0679d8c092469ff463544ecff6d0296018adc7dca89c329d88ffc1e8db69daa"
+
+- id: "src_20260609_0770a578"
+  title: "OCR: 一堂-单元模型-找全成本实操难点"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_0770a578-ocr-一堂-单元模型-找全成本实操难点.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:27+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-找全成本实操难点.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-找全成本实操难点_paddle_ocr.md"
+  content_sha256: "29b443790dd4784a0888c9548a9280b673954effe21fe63d86c91846b84b83c8"
+
+- id: "src_20260609_c1af5767"
+  title: "OCR: 一堂-单元模型-找单元模型实操难点"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_c1af5767-ocr-一堂-单元模型-找单元模型实操难点.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:28+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-找单元模型实操难点.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-找单元模型实操难点_paddle_ocr.md"
+  content_sha256: "7d55c62da777ecb9f21970584605736c489f09c8a3db76ae855e28536cbf10c1"
+
+- id: "src_20260609_e79bff0e"
+  title: "OCR: 一堂-单元模型-找基准值实操难点"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_e79bff0e-ocr-一堂-单元模型-找基准值实操难点.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:28+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-找基准值实操难点.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-找基准值实操难点_paddle_ocr.md"
+  content_sha256: "33a5239ec35473c6709541033737f1c95f9e961a708b1524f45806fcbb4e41ac"
+
+- id: "src_20260609_e54e85be"
+  title: "OCR: 一堂-单元模型-斧子、尺子、梯子"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_e54e85be-ocr-一堂-单元模型-斧子尺子梯子.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:28+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-斧子尺子梯子.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-斧子、尺子、梯子_paddle_ocr.md"
+  content_sha256: "377dcafc7145233df6ade427d828146f2aa3a70f64007f9f8fc9bb6674d6933a"
+
+- id: "src_20260609_3659a538"
+  title: "OCR: 一堂-单元模型-斧子尺子梯子详解"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_3659a538-ocr-一堂-单元模型-斧子尺子梯子详解.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:28+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-斧子尺子梯子详解.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-斧子尺子梯子详解_paddle_ocr.md"
+  content_sha256: "80b76182a742f726971b00919a8a205746a1e4b5580c46c3b9deff420bc10134"
+
+- id: "src_20260609_acdcf6e3"
+  title: "OCR: 一堂-单元模型-最简单元模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_acdcf6e3-ocr-一堂-单元模型-最简单元模型.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:28+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-最简单元模型.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-最简单元模型_paddle_ocr.md"
+  content_sha256: "a3f8d30c9fa774fb496076d804dba7f11939c268d00139b48f3ac02a09a2092b"
+
+- id: "src_20260609_c31a1173"
+  title: "OCR: 一堂-单元模型-段位专家"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_c31a1173-ocr-一堂-单元模型-段位专家.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:28+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-段位专家.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-段位专家_paddle_ocr.md"
+  content_sha256: "c627d7c7bb0827810ccbb3e7d1bb5e7abf5837f177e50bdd6d26c18d0d396294"
+
+- id: "src_20260609_0cfcfa9e"
+  title: "OCR: 一堂-单元模型-示例01"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_0cfcfa9e-ocr-一堂-单元模型-示例01.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:28+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-示例01.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-示例01_paddle_ocr.md"
+  content_sha256: "36520750a166f818d35b5ca268a43f274f7cfbe68155003ca924c16d8fbf0e01"
+
+- id: "src_20260609_99032bf9"
+  title: "OCR: 一堂-单元模型-示例"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_99032bf9-ocr-一堂-单元模型-示例.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:28+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-示例.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-示例_paddle_ocr.md"
+  content_sha256: "7c3b9da09c4adc7ccd7f15afb3af7603597a417f0f487865bbbd3d1cf4fb30d0"
+
+- id: "src_20260609_1c8b4d0e"
+  title: "OCR: 一堂-单元模型-规模对抗实操难点"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-规模对抗实操难点.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-规模对抗实操难点_paddle_ocr.md"
+  content_sha256: "32758ce204661cf4311a47c876b5bce19b8323a3fe0b12c1aa3bd501b46b1f8b"
+
+- id: "src_20260609_cef13c36"
+  title: "OCR: 一堂-单元模型-规模经济对抗武器库"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_cef13c36-ocr-一堂-单元模型-规模经济对抗武器库.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-规模经济对抗武器库.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-规模经济对抗武器库_paddle_ocr.md"
+  content_sha256: "b2683e9f9caa37922dfdb15451974d37d2920c18fdfbe034005d5c2afb140705"
+
+- id: "src_20260609_e5bcd951"
+  title: "OCR: 一堂-单元模型-象限分析法"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_e5bcd951-ocr-一堂-单元模型-象限分析法.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-单元模型-象限分析法.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-单元模型-象限分析法_paddle_ocr.md"
+  content_sha256: "899cebea5d878f617c5637fe4d821d904499e624eb953b053122c4bcab03bccf"
+
+- id: "src_20260609_37e674a0"
+  title: "OCR: 一堂-科学决策-ROI决策评估画布-案例01"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_37e674a0-ocr-一堂-科学决策-roi决策评估画布-案例01.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-科学决策-roi决策评估画布-案例01-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-科学决策-ROI决策评估画布-案例01_paddle_ocr.md"
+  content_sha256: "9375fd050f4cb76b5285014bb7a80b34674a91976ab557ed757c092c4860a775"
+
+- id: "src_20260609_f00cad16"
+  title: "OCR: 一堂-科学决策-ROI决策评估画布-案例02"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-科学决策-roi决策评估画布-案例02-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-科学决策-ROI决策评估画布-案例02_paddle_ocr.md"
+  content_sha256: "ad3d16096740979632731cd197c42d1cc9c5340823d2141b7e93b34a6b5f5dd5"
+
+- id: "src_20260609_4ea1fba2"
+  title: "OCR: 一堂-科学决策-ROI决策评估画布-案例03"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-科学决策-roi决策评估画布-案例03-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-科学决策-ROI决策评估画布-案例03_paddle_ocr.md"
+  content_sha256: "40f5e40eabe580a997bdcc580f8cbe4306c561dd8b85882e166fbb1aec2e9f5c"
+
+- id: "src_20260609_6c8f4f64"
+  title: "OCR: 一堂-科学决策-ROI决策评估画布-案例04"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_6c8f4f64-ocr-一堂-科学决策-roi决策评估画布-案例04.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-科学决策-roi决策评估画布-案例04-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-科学决策-ROI决策评估画布-案例04_paddle_ocr.md"
+  content_sha256: "9c693d8d28b4a5a9594c177845aee11b3dd5298f0c1fd59192cbfa8053414198"
+
+- id: "src_20260609_d2582199"
+  title: "OCR: 一堂-科学决策-ROI决策评估画布"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_d2582199-ocr-一堂-科学决策-roi决策评估画布.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-科学决策-roi决策评估画布-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-科学决策-ROI决策评估画布_paddle_ocr.md"
+  content_sha256: "975704cf90b1193be1a4e1f67a0626c0cd2925f22d87455952a934c6a55cd0f7"
+
+- id: "src_20260609_60edc284"
+  title: "OCR: 一堂-科学决策-ROI高阶训练全景图"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_60edc284-ocr-一堂-科学决策-roi高阶训练全景图.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-科学决策-roi高阶训练全景图.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-科学决策-ROI高阶训练全景图_paddle_ocr.md"
+  content_sha256: "4d50da344c6abf3148d10fa41ca6832bb788a9f9187b1985f7f861a512a6f4d5"
+
+- id: "src_20260609_c86cd9a0"
+  title: "OCR: 一堂-科学决策-X型Y型决策习惯对比"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_c86cd9a0-ocr-一堂-科学决策-x型y型决策习惯对比.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-科学决策-x型y型决策习惯对比.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-科学决策-X型Y型决策习惯对比_paddle_ocr.md"
+  content_sha256: "4517ad67a73b8db526ed59911620950e24d00fb3daa6e0b45eeadc42f5966719"
+
+- id: "src_20260609_76e76298"
+  title: "OCR: 一堂-科学决策-关键假设ABCD模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_76e76298-ocr-一堂-科学决策-关键假设abcd模型.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-科学决策-关键假设abcd模型-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-科学决策-关键假设ABCD模型_paddle_ocr.md"
+  content_sha256: "e26bee55faa6427455e910b7317506cbf561aa923cbac16baee5fd855924b931"
+
+- id: "src_20260609_44a9e79a"
+  title: "OCR: 一堂-科学决策-关键训练清单（重要））"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-科学决策-关键训练清单重要-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-科学决策-关键训练清单（重要））_paddle_ocr.md"
+  content_sha256: "da23783bcaca1f058e1d0a7a3548c39fecbde8a5eeef561741aa8f693b5faaed"
+
+- id: "src_20260609_485bc00d"
+  title: "OCR: 一堂-科学决策-决策三角形"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_485bc00d-ocr-一堂-科学决策-决策三角形.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-科学决策-决策三角形.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-科学决策-决策三角形_paddle_ocr.md"
+  content_sha256: "439791cceb001149727dbdb38678760e478ac61943760bb4bf99df684e1a752b"
+
+- id: "src_20260609_84d2d52b"
+  title: "OCR: 一堂-科学决策-深度-L1优先级定性"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_84d2d52b-ocr-一堂-科学决策-深度-l1优先级定性.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:51+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-科学决策-深度-l1优先级定性-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-科学决策-深度-L1优先级定性_paddle_ocr.md"
+  content_sha256: "8f6a672ec7bf3160fa0233784a735968a3601a0c1ce25794b6caaeac96ac82a9"
+
+- id: "src_20260609_b791433c"
+  title: "OCR: 一堂-科学决策-深度-L2部分定量"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_b791433c-ocr-一堂-科学决策-深度-l2部分定量.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-科学决策-深度-l2部分定量-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-科学决策-深度-L2部分定量_paddle_ocr.md"
+  content_sha256: "43f7ff46fa93e07c77d28dbe94aabf09b43ae1c621e42fca017083ae603b350f"
+
+- id: "src_20260609_390396bf"
+  title: "OCR: 一堂-科学决策-深度-L3定量公式"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_390396bf-ocr-一堂-科学决策-深度-l3定量公式.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-科学决策-深度-l3定量公式-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-科学决策-深度-L3定量公式_paddle_ocr.md"
+  content_sha256: "b9da6685f3b045322cbc5de642dd0f8b25adf7912ecb22ca4d8ede4e0c586a2c"
+
+- id: "src_20260609_3c0ef894"
+  title: "OCR: 一堂-科学决策-深度-L4-案例01"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_3c0ef894-ocr-一堂-科学决策-深度-l4-案例01.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-科学决策-深度-l4-案例01-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-科学决策-深度-L4-案例01_paddle_ocr.md"
+  content_sha256: "c968844db5c6e610a07e68f7f97f4658d6c998435d73ff68a11026a0c2669f52"
+
+- id: "src_20260609_6e0e9fdf"
+  title: "OCR: 一堂-科学决策-深度-L4严格财务公式"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_6e0e9fdf-ocr-一堂-科学决策-深度-l4严格财务公式.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-科学决策-深度-l4严格财务公式-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-科学决策-深度-L4严格财务公式_paddle_ocr.md"
+  content_sha256: "dd93976b5fad2c4c9e3f1483b031ed8092ac32e302890997d047b3cf85aca189"
+
+- id: "src_20260609_006cb9b3"
+  title: "OCR: 一堂-科学决策-高水平共识曲线（重要）"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_006cb9b3-ocr-一堂-科学决策-高水平共识曲线重要.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-科学决策-高水平共识曲线重要.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-科学决策-高水平共识曲线（重要）_paddle_ocr.md"
+  content_sha256: "eab2c97290b2a2f6bbf905af3b928ccf2caafdd3b4bd907e245182579129e3be"
+
+- id: "src_20260609_b32e7bb8"
+  title: "OCR: 一堂-高阶体系探索营-三种咨询可能性"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_b32e7bb8-ocr-一堂-高阶体系探索营-三种咨询可能性.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂-高阶体系探索营-三种咨询可能性.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂-高阶体系探索营-三种咨询可能性_paddle_ocr.md"
+  content_sha256: "86d3984c7ff2b22e2b990b51e1e9e1cde6dfc11b366c96bef175f6e456ee545a"
+
+- id: "src_20260609_112b88f7"
+  title: "OCR: 一堂DOC-单元模型-十大单元模型"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_112b88f7-ocr-一堂doc-单元模型-十大单元模型.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂doc-单元模型-十大单元模型.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂DOC-单元模型-十大单元模型_paddle_ocr.md"
+  content_sha256: "e8928774973f7e0d993bc0ce975b3946a73c1ecccd18048590858162db9f7b67"
+
+- id: "src_20260609_3dea4712"
+  title: "OCR: 一堂Y模型-科学成事道理"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_3dea4712-ocr-一堂y模型-科学成事道理.md"
+  captured_at: "2026-06-09T14:03:03"
+  registered_at: "2026-06-09T14:05:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-一堂y模型-科学成事道理-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/一堂Y模型-科学成事道理_paddle_ocr.md"
+  content_sha256: "9a8674ca7a524f4e9e590f2295efb3ae6ac6d5e6860eed663d672fecc811bd96"
+
+- id: "src_20260609_30219516"
+  title: "OCR: 泛产品设计-落地卡片-ROI分析"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_30219516-ocr-泛产品设计-落地卡片-roi分析.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-泛产品设计-落地卡片-roi分析-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/泛产品设计-落地卡片-ROI分析_paddle_ocr.md"
+  content_sha256: "0ed25d5ccc965c106d2cb751e7551ec176c84067d6a682a71da7814280b1799b"
+
+- id: "src_20260609_9168476b"
+  title: "OCR: 泛产品设计-落地卡片-低成本测试MVP"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_9168476b-ocr-泛产品设计-落地卡片-低成本测试mvp.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-泛产品设计-落地卡片-低成本测试mvp-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/泛产品设计-落地卡片-低成本测试MVP_paddle_ocr.md"
+  content_sha256: "70bf984e5ddef57ec4b25111838b22a052b76110eb581a0d4fc83936edbec302"
+
+- id: "src_20260609_e9aa385a"
+  title: "OCR: 泛产品设计-落地卡片-逻辑MECE"
+  type: "image_ocr"
+  location: "10_raw/sources/src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece.md"
+  captured_at: "2026-06-09T14:03:04"
+  registered_at: "2026-06-09T14:05:52+00:00"
+  trust_level: "medium"
+  freshness: "2026-05"
+  rights: "yitang_course_material"
+  related_wiki: [30_wiki/concepts/ocr-泛产品设计-落地卡片-逻辑mece-2.md]
+  derived_outputs: []
+  inbox_path: "00_inbox/paddle_batch/泛产品设计-落地卡片-逻辑MECE_paddle_ocr.md"
+  content_sha256: "a6f0d386e1f2ed0b0411ca90916f964740a7343fcbdcfbf11e817e7db71e3edb"
