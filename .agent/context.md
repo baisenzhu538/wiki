@@ -41,7 +41,7 @@ next_session_hint: "用户说'继续'→ 检查老顽童是否已修好WSL问题
 - **黄药师**：审查老顽童清单体笔记批次（进行中，深度问题待续）。Infra backlog 新增 5 项（tool卡校验/synthesis死链检测/artifact孤儿检测/dk卡结构校验/source_refs fuzzy match）。Claude Code 2.1.168 viewport bug 导致无法鼠标/键盘滚动。
 - **欧阳锋**：本会话无动作。
 - **老顽童**：🆕 清单体笔记 KDO 批次已完成（4 新卡+1文章+1dk卡+1旧卡更新）。黄药师审查 A-，P0 项待修（article未注册管线+缺source_refs），深度问题待用户反馈。管理工具箱+路演+Phase C 均已完成。
-- **洪七公**：路演域 VA 补齐 🟡 有条件 PASS — ladder L207 1 处颜色残留待修（修完即结）
+- **洪七公**：🆕 20张skill卡VA审查通过（欧阳锋）。20/20全过，6维中5维95%+。唯一弱项"适用场景正反例"8/20→根因在黄药师扫描器prompt，已入backlog。路演域 L207 1处颜色残留待修。
 - **段王爷**：本会话无动作。
 
 ### KDO CLI 状态

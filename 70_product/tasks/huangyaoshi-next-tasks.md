@@ -263,6 +263,7 @@ Summary: 8 stale / 215 total
 
 | 优先级 | 项目 | 前置条件 | 谁做 |
 |:------:|:-----|:---------|:----|
+| **P1** | **🆕 extract-skills prompt 强化：when_to_use 正反例** — 欧阳锋审查洪七公20张skill卡发现唯一弱项"适用场景正反例"8/20（其余5维95%+），根因是扫描器prompt未强制要求正反例。改 `--extract-skills` 的 system prompt 加 `when_to_use` + `when_not_to_use` 强制字段 | — | 黄药师 |
 | **P1** | 矛盾检测器 Step 2（三元组提取 + Graph RAG 匹配） | 老顽童积累 contradicts 数据 + Task B 完成 | 黄药师 |
 | **P2** | 矛盾检测器 Step 3（contradiction classifier） | Step 2 跑通 100 张卡后评估 | 黄药师 |
 | **P3** | `kdo produce --stats --diff`（增量统计） | — | 黄药师 |
