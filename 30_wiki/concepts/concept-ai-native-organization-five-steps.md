@@ -26,7 +26,7 @@ related:
   - "yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown"
 reviewed_by: ""
 source_refs:
-  - "00_inbox/AI时代自进化组组形式.md"
+  - "00_inbox/AI时代自进化组织形式.md"
 status: "draft"
 tags:
   - "#ai-native"
