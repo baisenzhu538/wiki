@@ -634,3 +634,8 @@ _Last updated: 2026-06-06T06:31:20+00:00_
 - [[concepts/dk-纪浩-novice-mindset-advantage.md|暗知识：新手心态的五个保护期]] — 纪浩 AI俱乐部
 - [[concepts/dk-纪浩-problem-vs-question.md|暗知识：Problem vs Question]] — 纪浩 AI俱乐部
 - [[concepts/skill-纪浩-problem-validation-four-checks.md|四问验证法：判断需求是Problem还是Question]] — 纪浩 AI俱乐部
+- [[concepts/concept-一堂-product-kernel.md|产品内核：用户愿意选择你的最小解决方案]] — Truman 产品内核系列
+- [[concepts/concept-一堂-kernel-iteration.md|产品内核迭代：从静态到动态的五方向演化]] — Truman 产品内核系列
+- [[concepts/concept-一堂-kernel-validation.md|产品内核验证：三维度评估+六策略验证]] — Truman 产品内核系列
+- [[concepts/concept-一堂-key-assumptions.md|关键假设思维：259工具与假设驱动的创业方法]] — Truman 关键假设课
+- [[concepts/concept-一堂-business-prediction.md|商业预判：15字诀与光谱模型]] — Truman 商业预判课
