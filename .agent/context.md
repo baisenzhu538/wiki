@@ -3,7 +3,7 @@ updated: 2026-06-10
 active_branch: main
 active_task: "产品内核域5张concept卡审查完成(A-)。#4 key-assumptions由黄药师补充完成。全5张达标。老顽童下一步：修WSL路径→继续挖知识萃取口述稿。"
 blockers: []
-next_session_hint: "用户说'继续'→ 检查老顽童进度；黄药师侧Task G/J/K 或扫描器prompt强化"
+next_session_hint: "用户说'继续'→ Agent体系建设待欧阳锋裁决（Q1数量/Q2分发/Q3颗粒度）。方案见 decisions/agent-ecosystem-design.md。黄药师侧可继续 Task G/J/K"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
