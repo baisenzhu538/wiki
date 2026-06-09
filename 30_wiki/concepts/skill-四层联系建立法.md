@@ -1,20 +1,34 @@
 ---
-id: "skill-四层联系建立法"
-title: "技能：四层联系建立法"
-type: "skill"
-status: "draft"
-domain: []
-source_person: "一堂课程"
-source_context: "src_20260609_06580bb9"
-source_refs: [src_20260609_06580bb9]
-wiki_refs: []
-definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工具要求明确]
-tools_required: [分析框架, 对比表格]
+id: skill-四层联系建立法
+title: 技能：四层联系建立法
+type: skill
+status: draft
+domain:
+- learning-methodology
+- yitang
+source_person: 一堂课程
+source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
+source_refs:
+- 10_raw\sources\src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
+wiki_refs: &id001
+- skill-动手建模法
+- skill-专题笔记脑图整理法
+- skill-知识树存储记忆法
+definition_of_done:
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
+tools_required:
+- 分析框架
+- 对比表格
 prerequisite_skills: []
-related: []
-tags: ['#skill']
-created_at: "2026-06-09T14:44:23+00:00"
-updated_at: "2026-06-09T14:44:23+00:00"
+related: *id001
+tags:
+- '#domain/learning-methodology'
+- '#domain/yitang'
+- '#scene/connection'
+created_at: '2026-06-09'
+updated_at: '2026-06-09'
 ---
 
 # 技能：四层联系建立法

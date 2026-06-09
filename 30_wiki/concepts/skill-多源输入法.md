@@ -1,20 +1,36 @@
 ---
-id: "skill-多源输入法"
-title: "技能：多源输入法"
-type: "skill"
-status: "draft"
-domain: []
-source_person: "一堂课程"
-source_context: "src_20260609_06580bb9"
-source_refs: [src_20260609_06580bb9]
-wiki_refs: []
-definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工具要求明确]
-tools_required: [书籍/论文数据库, 课程平台, 搜索引擎, AI工具（ChatGPT/Claude等）]
+id: skill-多源输入法
+title: 技能：多源输入法
+type: skill
+status: draft
+domain:
+- learning-methodology
+- yitang
+source_person: 一堂课程
+source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
+source_refs:
+- 10_raw\sources\src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
+wiki_refs: &id001
+- skill-寻找学习教练法
+- skill-从案例中学习正反案例法
+- skill-知识树存储记忆法
+definition_of_done:
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
+tools_required:
+- 书籍/论文数据库
+- 课程平台
+- 搜索引擎
+- AI工具（ChatGPT/Claude等）
 prerequisite_skills: []
-related: []
-tags: ['#skill']
-created_at: "2026-06-09T14:44:23+00:00"
-updated_at: "2026-06-09T14:44:23+00:00"
+related: *id001
+tags:
+- '#domain/learning-methodology'
+- '#domain/yitang'
+- '#scene/input'
+created_at: '2026-06-09'
+updated_at: '2026-06-09'
 ---
 
 # 技能：多源输入法
