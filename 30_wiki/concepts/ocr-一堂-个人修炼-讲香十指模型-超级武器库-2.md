@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_93e2df35]
 created_at: "2026-06-09T14:04:55+00:00"
-updated_at: "2026-06-09T14:10:45+00:00"
+updated_at: "2026-06-09T15:52:57+00:00"
 ---
+
+
 
 
 
@@ -25,7 +27,13 @@ updated_at: "2026-06-09T14:10:45+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 使用数字 D1
+- 图片展现
+·高频场景 ·调整语序 ·性能参数 ·用户故事 ·场景照片
+B ·经典场景 ·多使用逗号 生产工序 ·用户感言
+·图表素材 D ·普遍场景 ·使用并列连词分句 ·价值金额 ·员工故事 ·美好细节 ·用户口碑 ·打印材料
+E A2
+- 增加对象感 C2
 
 ## Open Questions
 

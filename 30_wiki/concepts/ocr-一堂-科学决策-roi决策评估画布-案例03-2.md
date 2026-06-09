@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_4ea1fba2]
 created_at: "2026-06-09T14:05:51+00:00"
-updated_at: "2026-06-09T14:10:46+00:00"
+updated_at: "2026-06-09T15:52:58+00:00"
 ---
+
+
 
 
 
@@ -25,7 +27,12 @@ updated_at: "2026-06-09T14:10:46+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 】
+基础ROI ·确定建模，形成公司的标准装备，收录进标准装备库
+- 4、试错成本：
+极大提升自建效率
+- 先在
+总部范围内形成最佳实践，再带向全国
 
 ## Open Questions
 

@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_3659a538]
 created_at: "2026-06-09T14:05:28+00:00"
-updated_at: "2026-06-09T14:10:46+00:00"
+updated_at: "2026-06-09T15:52:58+00:00"
 ---
+
+
 
 
 
@@ -25,7 +27,13 @@ updated_at: "2026-06-09T14:10:46+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 拿
+预判工具：在没花钱之
+核心定义 到最能说明问题的真实数 经营工具：规模起来后持续调
+前
+- 判断关键假设是否接近 优模型
+- 优化和提升
+要回答的核心 "这个能做吗
 
 ## Open Questions
 

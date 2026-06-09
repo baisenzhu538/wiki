@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_dff0633d]
 created_at: "2026-06-09T14:05:27+00:00"
-updated_at: "2026-06-09T14:10:46+00:00"
+updated_at: "2026-06-09T15:52:58+00:00"
 ---
+
+
 
 
 
@@ -23,7 +25,15 @@ updated_at: "2026-06-09T14:10:46+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 专家销售
+1）给产品定价时
+建议要用 2) 需要电销、面销时
+4) ）考虑专家/咨询式销售时
+
+- 本文件由 PaddleOCR ONNX pipeline 自动提取
+- 可能存在连字/误识
+- 需要人工校对
+- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
 
 ## Open Questions
 

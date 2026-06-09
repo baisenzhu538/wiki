@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_3dea4712]
 created_at: "2026-06-09T14:05:52+00:00"
-updated_at: "2026-06-09T14:10:47+00:00"
+updated_at: "2026-06-09T15:52:58+00:00"
 ---
+
+
 
 
 
@@ -23,7 +25,21 @@ updated_at: "2026-06-09T14:10:47+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- *`
+
+一堂Y模型：科学成事道路 堂
+YitangYModel:ScientificPathToSuccess
+理论
+事实
+我的认知
+实事求是解放思想
+知行合一
+
+解决真正向题
+一堂・坚持只做必修课
+扫码辛苦学3天
+- 需要人工校对
+- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
 
 ## Open Questions
 

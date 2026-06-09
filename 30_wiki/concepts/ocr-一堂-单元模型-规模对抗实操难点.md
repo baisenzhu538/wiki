@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_1c8b4d0e]
 created_at: "2026-06-09T14:05:51+00:00"
-updated_at: "2026-06-09T14:10:46+00:00"
+updated_at: "2026-06-09T15:52:58+00:00"
 ---
+
+
 
 
 
@@ -25,7 +27,16 @@ updated_at: "2026-06-09T14:10:46+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 常遗漏隐性要素（非标环 ：按B2B/B2C/平台/连锁等模
+节、用户密度稀释、跨区域管理等），导致 式分类
+- 课程提供的「对抗地图」小抄虽含95%
+要素，但用户缺乏将其与自身业务逐一对
+照、关联分析的能力
+1
+- 往往等到问题严重时才被动应 核心不利要素设置量化警戒线
+对 (如客服响应时间超过X分钟/人
+效低于Y)，触发自动复盘
+2
 
 ## Open Questions
 

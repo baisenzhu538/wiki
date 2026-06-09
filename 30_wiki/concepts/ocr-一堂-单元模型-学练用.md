@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_bcbbb2ed]
 created_at: "2026-06-09T14:05:27+00:00"
-updated_at: "2026-06-09T14:10:46+00:00"
+updated_at: "2026-06-09T15:52:58+00:00"
 ---
+
+
 
 
 
@@ -23,7 +25,20 @@ updated_at: "2026-06-09T14:10:46+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 解决不同问题
+学 练 用
+一个人坐在电脑前 一群人讨论碰撞 回到真实业务场景
+把概念学清楚 把方法练熟练顺 用数据做决策
+知识吃透 训练到位
+进入训练 进入实践
+人学习 人训练 人使用
+直播课/录播课/逐字稿 笔记/作业/城市活动/训战营/集训营 团队落地/S级私董会
+和AI一起学 和AI一起训练 和AI一起用
+T-Partner/AI答疑 AI习题集/AI案例集 C-Partner/P-Partner
+听懂·看懂·问懂 多练·多反馈·多沉淀 真用·真迭代·拿结果
+先用「学打底，再用「练校准
+- 需要人工校对
+- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
 
 ## Open Questions
 

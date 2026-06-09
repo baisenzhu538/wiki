@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_37e674a0]
 created_at: "2026-06-09T14:05:51+00:00"
-updated_at: "2026-06-09T14:10:46+00:00"
+updated_at: "2026-06-09T15:52:58+00:00"
 ---
+
+
 
 
 
@@ -25,7 +27,12 @@ updated_at: "2026-06-09T14:10:46+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 线上引流：走秀当日天猫引流增加流量 鞋配词料与制作成本、聘请外籍顾问、工
+基础ROI 2
+- 现下引流：当目门店可做活动增加流量 作人员差旅费
+3
+- 产品表现：短时间设计+开发能否完成
+1
 
 ## Open Questions
 

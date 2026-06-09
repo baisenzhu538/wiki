@@ -4,8 +4,11 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_a7dca35a]
 created_at: "2026-06-09T14:03:50+00:00"
-updated_at: "2026-06-09T14:10:45+00:00"
+updated_at: "2026-06-09T15:52:57+00:00"
 ---
+
+
+
 
 
 
@@ -25,7 +28,18 @@ updated_at: "2026-06-09T14:10:45+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 调教更强AI
+人类三角XAI三角
+持续让自己变强 持续使用AI更强
+有了强AI
+- 辅助人变得更强
+审美 体系 基本功 数据
+√专业见识 √科学体系思维 √基础：LLM提示词/智能体 √非结构化数据
+√最佳实践 √假设验证模型 √宽度：多模态/AI具库(∞) √结构化数据
+√评价标准 √稳定知识结构 √深度：模型微调训练/工程化 √形成资产
+版本更新于：2025
+- 需要人工校对
+- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
 
 ## Open Questions
 

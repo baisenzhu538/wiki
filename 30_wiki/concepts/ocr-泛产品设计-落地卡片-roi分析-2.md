@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_30219516]
 created_at: "2026-06-09T14:05:52+00:00"
-updated_at: "2026-06-09T14:10:47+00:00"
+updated_at: "2026-06-09T15:52:58+00:00"
 ---
+
+
 
 
 
@@ -23,7 +25,24 @@ updated_at: "2026-06-09T14:10:47+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- *`
+
+泛产品设计・落地卡片
+ROI分析
+擅做投产比分析
+关键收益项 高 长期视角
+关键成本项 度 公司视角
+机会成本
+时间窗□
+深 优先级定性
+度 部分定量
+定量公式
+适合场景：需要重投入设计资源或成本敏感的场景
+进步方式：学一堂课「ROI」系列课
+堂
+/没有什么不是一堂课解决不了的，如果不行
+- 需要人工校对
+- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
 
 ## Open Questions
 

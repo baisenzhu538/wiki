@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_e9aa385a]
 created_at: "2026-06-09T14:05:52+00:00"
-updated_at: "2026-06-09T14:10:47+00:00"
+updated_at: "2026-06-09T15:52:58+00:00"
 ---
+
+
 
 
 
@@ -25,7 +27,14 @@ updated_at: "2026-06-09T14:10:47+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 不重不漏MECE
+有推理的逻辑链MECE
+适合场景：所有的复杂/重要的/需要协作的工作场景
+进步方式：养成“重要事情不MECE就闹心”的习惯
+堂
+/没有什么不是一堂课解决不了的，如果不行
+- 需要人工校对
+- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
 
 ## Open Questions
 

@@ -82,8 +82,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/skill-ai-problem-validation.md]]
 - [[30_wiki/concepts/skill-ai-question-problem-checklist.md]]
 - [[30_wiki/concepts/structured-ai-workspace.md]]
-- [[30_wiki/dark-knowledges/dk-ai-judgment-human-responsibility.md]]
-- [[30_wiki/dark-knowledges/dk-ai-judgment-programmer-paradox.md]]
+- [[30_wiki/dark-knowledges/dk-lz-ai-native-organization.md]]
 
 ## [[ai-landing-scene-selection]]
 - [[30_wiki/concepts/.sk-backup/sk-ai-old-small-checklist.md]]
@@ -97,9 +96,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[ai-learning-closed-loop]]
 - [[30_wiki/concepts/ai-collaboration-mindset-shift.md]]
 - [[30_wiki/concepts/ai-landing-scene-selection.md]]
+- [[30_wiki/concepts/case-truman-prd-checklist-evolution.md]]
 - [[30_wiki/concepts/course-to-skill-conversion.md]]
 - [[30_wiki/concepts/find-old-do-small.md]]
 - [[30_wiki/concepts/structured-ai-workspace.md]]
+- [[30_wiki/dark-knowledges/dk-truman-document-is-real-project-is-fake.md]]
+- [[30_wiki/dark-knowledges/dk-truman-knowledge-extraction-three-schools.md]]
 
 ## [[ai-native-五层进阶从答案到效率到作品到产品到系统]]
 - [[30_wiki/concepts/ai数据理解第一课.md]]
@@ -207,6 +209,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[checklist-manifesto-gawande]]
 - [[30_wiki/concepts/yt-decision-width-method.md]]
 
+## [[concept-ai-native-organization-five-steps]]
+- [[30_wiki/concepts/skill-三层目标对齐法.md]]
+
+## [[concept-yitang-product-first-principles]]
+- [[30_wiki/dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md]]
+
 ## [[concept-一堂-business-prediction]]
 - [[30_wiki/concepts/concept-一堂-product-kernel.md]]
 
@@ -245,7 +253,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/case-jh-yitang-vs-sqlhelper.md]]
 - [[30_wiki/concepts/dk-纪浩-constraint-beats-talent.md]]
 - [[30_wiki/dark-knowledges/dk-ai-judgment-human-responsibility.md]]
-- [[30_wiki/dark-knowledges/dk-jh-llm-time-blindness.md]]
+- [[30_wiki/dark-knowledges/dk-lz-ai-native-organization.md]]
+- [[30_wiki/dark-knowledges/dk-lz-code-is-disposable.md]]
 
 ## [[concept-纪浩-ai-collaboration-methodology]]
 - [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
@@ -259,7 +268,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/skill-纪浩-Do-first-PDCA渐进迭代法.md]]
 - [[30_wiki/concepts/skill-纪浩-日志驱动排查法.md]]
 - [[30_wiki/concepts/skill-纪浩-真需求四要素验证法.md]]
-- [[30_wiki/dark-knowledges/dk-my-ai-landing-three-barriers.md]]
 
 ## [[contingency-decision-making]]
 - [[30_wiki/concepts/ai-learning-closed-loop.md]]
@@ -284,6 +292,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-ai-judgment-human-responsibility]]
 - [[30_wiki/dark-knowledges/dk-ai-judgment-programmer-paradox.md]]
+- [[30_wiki/dark-knowledges/dk-jh-llm-time-blindness.md]]
 
 ## [[dk-c1-cjk-regex-silent-fail]]
 - [[30_wiki/concepts/dk-c3-txt-ingest-skip.md]]
@@ -310,10 +319,19 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[dk-jh-llm-time-blindness]]
 - [[30_wiki/concepts/case-jh-yitang-vs-sqlhelper.md]]
 - [[30_wiki/dark-knowledges/dk-ai-judgment-human-responsibility.md]]
+- [[30_wiki/dark-knowledges/dk-lz-code-is-disposable.md]]
+
+## [[dk-lz-ai-native-organization]]
+- [[30_wiki/dark-knowledges/dk-lz-code-is-disposable.md]]
+
+## [[dk-lz-code-is-disposable]]
+- [[30_wiki/dark-knowledges/dk-lz-ai-native-organization.md]]
 
 ## [[dk-my-ai-landing-three-barriers]]
+- [[30_wiki/cases/case-jh-yitang-vs-sqlhelper.md]]
 - [[30_wiki/concepts/case-jh-yitang-vs-sqlhelper.md]]
-- [[30_wiki/dark-knowledges/dk-jh-llm-time-blindness.md]]
+- [[30_wiki/dark-knowledges/dk-lz-ai-native-organization.md]]
+- [[30_wiki/dark-knowledges/dk-lz-code-is-disposable.md]]
 
 ## [[dk-note-growth-paradox]]
 - [[30_wiki/dark-knowledges/yt-note-three-level-evolution.md]]
@@ -344,9 +362,24 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/tools/skill-note-layer-constraint.md]]
 - [[30_wiki/tools/skill-note-one-line-one-point.md]]
 
+## [[dk-truman-document-is-real-project-is-fake]]
+- [[30_wiki/concepts/case-truman-prd-checklist-evolution.md]]
+
 ## [[dk-truman-iteration-to-aesthetic-ceiling]]
+- [[30_wiki/cases/case-truman-motivation-map-12-versions.md]]
+- [[30_wiki/cases/case-truman-poker-deck-roi.md]]
 - [[30_wiki/concepts/case-truman-motivation-map-12-versions.md]]
 - [[30_wiki/concepts/case-truman-poker-deck-roi.md]]
+- [[30_wiki/dark-knowledges/dk-lz-code-is-disposable.md]]
+- [[30_wiki/dark-knowledges/dk-truman-document-is-real-project-is-fake.md]]
+- [[30_wiki/dark-knowledges/dk-truman-knowledge-extraction-three-schools.md]]
+
+## [[dk-truman-knowledge-extraction-three-schools]]
+- [[30_wiki/concepts/case-truman-prd-checklist-evolution.md]]
+- [[30_wiki/dark-knowledges/dk-truman-document-is-real-project-is-fake.md]]
+
+## [[dk-truman-motivation-map-12-versions]]
+- [[30_wiki/dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md]]
 
 ## [[dk-yb1-aigc-mvp-before-ps]]
 - [[30_wiki/concepts/dk-yb23-ai-pre-screen-three-minutes.md]]
@@ -463,7 +496,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[dk-一堂-wishful-thinking-kills-startups]]
 - [[30_wiki/concepts/concept-一堂-hypothesis-driven-business-methodology.md]]
 - [[30_wiki/concepts/yt-decision-y-model.md]]
-- [[30_wiki/dark-knowledges/dk-my-ai-landing-three-barriers.md]]
 
 ## [[dk-半肥猫-atomic-no-standard]]
 - [[30_wiki/concepts/concept-半肥猫-ai-learning-toolification-methodology.md]]
@@ -504,12 +536,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-纪浩-ai-cant-design-structure]]
 - [[30_wiki/concepts/concept-纪浩-ai-collaboration-methodology.md]]
-- [[30_wiki/dark-knowledges/dk-jh-llm-time-blindness.md]]
+- [[30_wiki/dark-knowledges/dk-lz-ai-native-organization.md]]
 
 ## [[dk-纪浩-constraint-beats-talent]]
 - [[30_wiki/concepts/concept-纪浩-ai-collaboration-five-layer.md]]
 - [[30_wiki/concepts/dk-纪浩-novice-mindset-advantage.md]]
-- [[30_wiki/dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md]]
+- [[30_wiki/dark-knowledges/dk-truman-knowledge-extraction-three-schools.md]]
 
 ## [[dk-纪浩-list-body-note-dual-system]]
 - [[30_wiki/concepts/concept-半肥猫-learning-toolification-methodology.md]]
@@ -794,8 +826,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/skill-ai-evidence-check.md]]
 - [[30_wiki/concepts/skill-ai-problem-validation.md]]
 
-## [[skill-Truman-个人判断力系统建设（达克效应应对）]]
+## [[skill-Truman-个人判断力系统建设]]
 - [[30_wiki/dark-knowledges/dk-ai-judgment-programmer-paradox.md]]
+
+## [[skill-Truman-泛产品设计工具箱]]
+- [[30_wiki/dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md]]
 
 ## [[skill-ai-evidence-check]]
 - [[30_wiki/cases/case-ether-online-acquisition.md]]
@@ -805,6 +840,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[skill-ai-prompt-iteration]]
 - [[30_wiki/concepts/skill-ai-oral-spray-input.md]]
+
+## [[skill-mece体系框架法]]
+- [[30_wiki/concepts/skill-动手建模法.md]]
+- [[30_wiki/concepts/skill-清单小抄工具箱法.md]]
 
 ## [[skill-note-keyword-bolding]]
 - [[30_wiki/tools/skill-note-layer-constraint.md]]
@@ -818,6 +857,32 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/concept-一堂-hypothesis-driven-business-methodology.md]]
 - [[30_wiki/concepts/concept-一堂-product-kernel.md]]
 - [[30_wiki/concepts/dk-一堂-wishful-thinking-kills-startups.md]]
+
+## [[skill-三层目标对齐法]]
+- [[30_wiki/concepts/skill-复盘推演法.md]]
+- [[30_wiki/concepts/skill-立即实践转化法.md]]
+
+## [[skill-专题笔记脑图整理法]]
+- [[30_wiki/concepts/skill-mece体系框架法.md]]
+- [[30_wiki/concepts/skill-动手建模法.md]]
+- [[30_wiki/concepts/skill-四层联系建立法.md]]
+- [[30_wiki/concepts/skill-知识树存储记忆法.md]]
+
+## [[skill-从案例中学习正反案例法]]
+- [[30_wiki/concepts/skill-复盘推演法.md]]
+- [[30_wiki/concepts/skill-多源输入法.md]]
+- [[30_wiki/concepts/skill-辩证讨论法.md]]
+
+## [[skill-分享输出检验法]]
+- [[30_wiki/concepts/skill-寻找学习教练法.md]]
+- [[30_wiki/concepts/skill-费曼简单提炼法.md]]
+- [[30_wiki/concepts/skill-辩证讨论法.md]]
+
+## [[skill-动手建模法]]
+- [[30_wiki/concepts/skill-mece体系框架法.md]]
+- [[30_wiki/concepts/skill-专题笔记脑图整理法.md]]
+- [[30_wiki/concepts/skill-四层联系建立法.md]]
+- [[30_wiki/concepts/skill-知识树存储记忆法.md]]
 
 ## [[skill-半肥猫-ai-research-validation]]
 - [[30_wiki/concepts/dk-半肥猫-silky-answers-are-dangerous.md]]
@@ -899,6 +964,39 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/skill-半肥猫-用AI做结构化用户调研.md]]
 - [[30_wiki/concepts/skill-半肥猫-边学边练边沉淀的AI学习法.md]]
 
+## [[skill-四层联系建立法]]
+- [[30_wiki/concepts/skill-专题笔记脑图整理法.md]]
+- [[30_wiki/concepts/skill-动手建模法.md]]
+- [[30_wiki/concepts/skill-知识树存储记忆法.md]]
+
+## [[skill-复盘推演法]]
+- [[30_wiki/concepts/skill-三层目标对齐法.md]]
+- [[30_wiki/concepts/skill-从案例中学习正反案例法.md]]
+- [[30_wiki/concepts/skill-立即实践转化法.md]]
+
+## [[skill-多源输入法]]
+- [[30_wiki/concepts/skill-从案例中学习正反案例法.md]]
+- [[30_wiki/concepts/skill-寻找学习教练法.md]]
+
+## [[skill-寻找学习教练法]]
+- [[30_wiki/concepts/skill-多源输入法.md]]
+- [[30_wiki/concepts/skill-辩证讨论法.md]]
+
+## [[skill-清单小抄工具箱法]]
+- [[30_wiki/concepts/skill-mece体系框架法.md]]
+- [[30_wiki/concepts/skill-费曼简单提炼法.md]]
+
+## [[skill-知识树存储记忆法]]
+- [[30_wiki/concepts/skill-专题笔记脑图整理法.md]]
+- [[30_wiki/concepts/skill-四层联系建立法.md]]
+- [[30_wiki/concepts/skill-多源输入法.md]]
+
+## [[skill-立即实践转化法]]
+- [[30_wiki/concepts/skill-分享输出检验法.md]]
+- [[30_wiki/concepts/skill-复盘推演法.md]]
+- [[30_wiki/concepts/skill-清单小抄工具箱法.md]]
+- [[30_wiki/concepts/skill-费曼简单提炼法.md]]
+
 ## [[skill-纪浩-AI工作空间与导诊台设计法]]
 - [[30_wiki/concepts/case-jh-yitang-vs-sqlhelper.md]]
 - [[30_wiki/concepts/concept-纪浩-ai-collaboration-methodology.md]]
@@ -942,12 +1040,21 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[skill-纪浩-里程碑验证法]]
 - [[30_wiki/dark-knowledges/dk-ai-judgment-human-responsibility.md]]
-- [[30_wiki/dark-knowledges/dk-jh-llm-time-blindness.md]]
-
-## [[skill-马易-需求创造验证法]]
 - [[30_wiki/dark-knowledges/dk-my-ai-landing-three-barriers.md]]
 
+## [[skill-费曼简单提炼法]]
+- [[30_wiki/concepts/skill-三层目标对齐法.md]]
+- [[30_wiki/concepts/skill-分享输出检验法.md]]
+- [[30_wiki/concepts/skill-清单小抄工具箱法.md]]
+- [[30_wiki/concepts/skill-立即实践转化法.md]]
+
+## [[skill-辩证讨论法]]
+- [[30_wiki/concepts/skill-从案例中学习正反案例法.md]]
+- [[30_wiki/concepts/skill-分享输出检验法.md]]
+- [[30_wiki/concepts/skill-寻找学习教练法.md]]
+
 ## [[skill-马易-风口痛点识别法]]
+- [[30_wiki/dark-knowledges/dk-jh-llm-time-blindness.md]]
 - [[30_wiki/dark-knowledges/dk-my-ai-landing-three-barriers.md]]
 
 ## [[src_20260606_42e11f09]]
@@ -1247,7 +1354,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-note-ai-human-division.md]]
 - [[30_wiki/concepts/yt-unit-model-ai-assisted.md]]
 - [[30_wiki/concepts/人机协作决策-双三角模型.md]]
-- [[30_wiki/dark-knowledges/dk-my-ai-landing-three-barriers.md]]
 - [[30_wiki/frameworks/yt-decision-abcd-model.md]]
 - [[30_wiki/tools/yt-note-five-levels-training.md]]
 
@@ -1324,6 +1430,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/ocr-一堂-管理必修-课程清单.md]]
 
 ## [[yt-decision-depth-ladder]]
+- [[30_wiki/cases/case-truman-poker-deck-roi.md]]
 - [[30_wiki/concepts/case-truman-poker-deck-roi.md]]
 - [[30_wiki/concepts/ocr-truman的个人成长五步法.md]]
 - [[30_wiki/concepts/ocr-一堂-个人修炼-解放思想.md]]
@@ -1399,6 +1506,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/人机协作决策-双三角模型.md]]
 
 ## [[yt-decision-height-toolkit]]
+- [[30_wiki/cases/case-truman-poker-deck-roi.md]]
 - [[30_wiki/concepts/case-truman-poker-deck-roi.md]]
 - [[30_wiki/concepts/ocr-项目背景问题思考的8个维度.md]]
 - [[30_wiki/concepts/yt-decision-consensus-iceberg.md]]
@@ -1532,7 +1640,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-decision-system1-system2]]
 - [[30_wiki/concepts/yt-unit-model-ai-assisted.md]]
 - [[30_wiki/concepts/yt-unit-model-dynamic.md]]
-- [[30_wiki/dark-knowledges/dk-jh-llm-time-blindness.md]]
 
 ## [[yt-decision-touchpoint-10waste]]
 - [[30_wiki/concepts/ocr-一堂最佳转化率动力曲线图.md]]
@@ -1562,6 +1669,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/ocr-screenshot2.md]]
 
 ## [[yt-decision-width-method]]
+- [[30_wiki/cases/case-truman-poker-deck-roi.md]]
 - [[30_wiki/concepts/case-truman-poker-deck-roi.md]]
 - [[30_wiki/concepts/ocr-一堂-个人修炼-解放思想.md]]
 - [[30_wiki/concepts/ocr-一堂-地图-管理地图.md]]
@@ -1588,6 +1696,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/tools/yt-tool-okr-cycle.md]]
 
 ## [[yt-decision-y-model]]
+- [[30_wiki/cases/case-truman-poker-deck-roi.md]]
 - [[30_wiki/concepts/ai单元模型口述蒋老师.md]]
 - [[30_wiki/concepts/case-truman-poker-deck-roi.md]]
 - [[30_wiki/concepts/concept-一堂-hypothesis-driven-business-methodology.md]]
@@ -2552,11 +2661,13 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-note-checklist-concept]]
 - [[30_wiki/concepts/case-truman-motivation-map-12-versions.md]]
+- [[30_wiki/concepts/case-truman-prd-checklist-evolution.md]]
 - [[30_wiki/concepts/dk-note-maximum-common-divisor.md]]
 - [[30_wiki/concepts/yt-note-ai-human-division.md]]
 - [[30_wiki/concepts/yt-note-l4-internalization.md]]
 - [[30_wiki/concepts/yt-note-l6-extraction.md]]
-- [[30_wiki/dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md]]
+- [[30_wiki/dark-knowledges/dk-truman-document-is-real-project-is-fake.md]]
+- [[30_wiki/dark-knowledges/dk-truman-knowledge-extraction-three-schools.md]]
 - [[30_wiki/skills/yt-skill-storyline-timeline.md]]
 - [[30_wiki/tools/skill-note-keyword-bolding.md]]
 - [[30_wiki/tools/skill-note-layer-constraint.md]]
@@ -2694,7 +2805,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/yt-panproduct-demand-project-background.md]]
 - [[30_wiki/concepts/yt-panproduct-demand-scenario-walkthrough.md]]
 - [[30_wiki/concepts/yt-panproduct-demand-user-segmentation.md]]
-- [[30_wiki/dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md]]
 
 ## [[yt-panproduct-demand-user-perspective|用户视角]]
 - [[30_wiki/entities/一堂.md]]
@@ -2990,9 +3100,11 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-personal-pan-product-tools]]
 - [[30_wiki/concepts/case-truman-motivation-map-12-versions.md]]
+- [[30_wiki/concepts/case-truman-prd-checklist-evolution.md]]
 - [[30_wiki/concepts/ocr-泛产品设计落地篇.md]]
 - [[30_wiki/concepts/yt-personal-pan-product-exploration.md]]
-- [[30_wiki/dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md]]
+- [[30_wiki/dark-knowledges/dk-truman-document-is-real-project-is-fake.md]]
+- [[30_wiki/dark-knowledges/dk-truman-knowledge-extraction-three-schools.md]]
 
 ## [[yt-personal-product-design]]
 - [[30_wiki/concepts/ocr-一堂-泛产品设计-十年苦练30招.md]]
@@ -3325,7 +3437,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-tool-fab-persuasion]]
 - [[30_wiki/concepts/case-truman-motivation-map-12-versions.md]]
 - [[30_wiki/concepts/yt-tool-best-practice-learning.md]]
-- [[30_wiki/dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md]]
 
 ## [[yt-tool-hiring-scorecard]]
 - [[30_wiki/concepts/yt-management-toolkit-overview.md]]

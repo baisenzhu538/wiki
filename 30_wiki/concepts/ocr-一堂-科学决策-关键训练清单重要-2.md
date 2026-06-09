@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_44a9e79a]
 created_at: "2026-06-09T14:05:51+00:00"
-updated_at: "2026-06-09T14:10:47+00:00"
+updated_at: "2026-06-09T15:52:58+00:00"
 ---
+
+
 
 
 
@@ -25,7 +27,18 @@ updated_at: "2026-06-09T14:10:47+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- source_id: "src_20260609_44a9e79a"
+title: "OCR: 一堂-科学决策-关键训练清单（重要））"
+captured_at: "2026-06-09T14:05:51+00:00"
+kind: "raw-source"
+
+原图: `一堂-科学决策-关键训练清单（重要））
+- *`
+
+科学决策ROI·关键训练清单Checklist
+ROI决策维度 关键思考和心态 具体做事清单
+列：有哪些关键的成本/收益项
+- 这个决策有哪些关键要素
 
 ## Open Questions
 

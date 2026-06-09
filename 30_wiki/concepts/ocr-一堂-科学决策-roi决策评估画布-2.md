@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_d2582199]
 created_at: "2026-06-09T14:05:51+00:00"
-updated_at: "2026-06-09T14:10:46+00:00"
+updated_at: "2026-06-09T15:52:58+00:00"
 ---
+
+
 
 
 
@@ -23,7 +25,20 @@ updated_at: "2026-06-09T14:10:46+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- *`
+
+ROI决策评估画布
+维度 收益项 成本项
+基础ROI
+长期视角
+公司视角
+机会成本 时间窗口
+最终结论
+
+- 本文件由 PaddleOCR ONNX pipeline 自动提取
+- 可能存在连字/误识
+- 需要人工校对
+- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
 
 ## Open Questions
 

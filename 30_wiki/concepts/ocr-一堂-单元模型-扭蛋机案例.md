@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_31712e1d]
 created_at: "2026-06-09T14:05:27+00:00"
-updated_at: "2026-06-09T14:10:46+00:00"
+updated_at: "2026-06-09T15:52:58+00:00"
 ---
+
+
 
 
 
@@ -25,7 +27,13 @@ updated_at: "2026-06-09T14:10:46+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- ②点位之间差距(好点位长什 程SOP化
+么样） ③标准化点位选择标准降低BD成 一年回本要多久
+- 直接不进场
+BD、损耗全算进去）
+判断标准 最乐观都不能在合理周期回 全年下来扣完所有成本还能赚 单台ROI有没有在持续提升
+- 需要人工校对
+- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
 
 ## Open Questions
 

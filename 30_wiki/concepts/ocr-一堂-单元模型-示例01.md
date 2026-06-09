@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_0cfcfa9e]
 created_at: "2026-06-09T14:05:28+00:00"
-updated_at: "2026-06-09T14:10:46+00:00"
+updated_at: "2026-06-09T15:52:58+00:00"
 ---
+
+
 
 
 
@@ -25,7 +27,15 @@ updated_at: "2026-06-09T14:10:46+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 备选单元 单柜+单商圈
+核心模型 单柜子模型（每月)
+单元模型-收入
+指标 你的值 占收入比例
+每月销售收入 3600 100%
+每月收入 每月订单数 210
+每单sku数 1
+- 需要人工校对
+- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
 
 ## Open Questions
 

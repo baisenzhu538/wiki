@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-单元模型-TCPR底层网络协议"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: [src_20260609_189cf93b]
 created_at: "2026-06-09T14:04:55+00:00"
-updated_at: "2026-06-09T14:04:55+00:00"
+updated_at: "2026-06-09T15:52:57+00:00"
 ---
+
 
 # OCR: 一堂-单元模型-TCPR底层网络协议
 
@@ -23,7 +24,19 @@ updated_at: "2026-06-09T14:04:55+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- *`
+
+TCP-R模型：商业管理世界的底层网络协议
+商业管理世界的底层网络协议
+0 C
+T-教学(Teach) C-咨询(consult) D -实践(Practice) R-研究(Research)
+关键词：规模化、降门 关键词：探究、解题、 关键词：解题、躬身入局、 关键词：统筹、建模、
+槛、改变认知
+- 帮助他人解决卡点
+- 園 M mQ
+88
+核心场景：演讲、路演、 核心场景：私董会、1V1 核心场景：创业、操盘业 核心场景：做课、写书、
+内训、产品发布
 
 ## Open Questions
 

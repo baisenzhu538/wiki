@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_485bc00d]
 created_at: "2026-06-09T14:05:51+00:00"
-updated_at: "2026-06-09T14:10:47+00:00"
+updated_at: "2026-06-09T15:52:58+00:00"
 ---
+
+
 
 
 
@@ -23,7 +25,19 @@ updated_at: "2026-06-09T14:10:47+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- *`
+
+一堂·科学决策三角形 堂
+ScientificDecisionTrianglebyYitang
+资 关键收益项 高 长期视角 关键成本项 公司视角 机会成本
+时间窗□
+深 优先级定性 部分定量
+定量公式
+一堂・坚持只做必修课
+
+扫码辛苦学3天
+- 需要人工校对
+- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
 
 ## Open Questions
 

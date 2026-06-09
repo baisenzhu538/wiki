@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_b32e7bb8]
 created_at: "2026-06-09T14:05:52+00:00"
-updated_at: "2026-06-09T14:10:47+00:00"
+updated_at: "2026-06-09T15:52:58+00:00"
 ---
+
+
 
 
 
@@ -25,7 +27,24 @@ updated_at: "2026-06-09T14:10:47+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- *`
+
+堂
+一堂高阶体系探索营：第三种咨询可能性
+Ahigh-levelsystemexplorationcamp:TheThirdPossibilityofConsulting
+向左 平衡 向右
+方案式咨询 出口式咨询 教练式询问
+直接交付方案 激发一起解题 激发客户思考
+擅长:
+①聚焦具体话题
+B 擅长：
+①擅长激发提问
+②非常专业懂行 ②通用性非常强
+③大量同行案例 ③懂得深入挖掘
+④直给解决方案
+一堂的追求
+- 需要人工校对
+- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
 
 ## Open Questions
 

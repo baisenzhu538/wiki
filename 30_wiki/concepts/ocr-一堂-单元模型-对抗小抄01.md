@@ -4,8 +4,10 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_624d303b]
 created_at: "2026-06-09T14:05:27+00:00"
-updated_at: "2026-06-09T14:10:46+00:00"
+updated_at: "2026-06-09T15:52:58+00:00"
 ---
+
+
 
 
 
@@ -25,7 +27,12 @@ updated_at: "2026-06-09T14:10:46+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 做目标管理 让员工清晰理解目标，更好完成业绩 OKR制度/KPI制度/OGSM制度
+B5
+- 做薪酬绩效 公平的收入制度，激励员工持续提升自己 职级划分/岗位晋升/绩效制度
+B6
+- 搭建IT系统 用系统搭建业务流，提升业务效率 分解任务节点/流程化和数据化
+B7
 
 ## Open Questions
 
