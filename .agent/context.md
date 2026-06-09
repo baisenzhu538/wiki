@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-10
 active_branch: main
-active_task: "老顽童10张新卡审查完成(A-)。P0三项已由黄药师修复并commit (b9363cad)。老顽童下一步：修WSL路径问题→继续挖知识萃取口述稿(后面4阶段)。洪七公并行扫OCR。"
+active_task: "产品内核域5张concept卡审查完成(A-)。#4 key-assumptions由黄药师补充完成。全5张达标。老顽童下一步：修WSL路径→继续挖知识萃取口述稿。"
 blockers: []
-next_session_hint: "用户说'继续'→ 检查老顽童是否已修好WSL问题+继续挖口述稿；黄药师侧可继续Task G/J/K"
+next_session_hint: "用户说'继续'→ 检查老顽童进度；黄药师侧Task G/J/K 或扫描器prompt强化"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
