@@ -1,11 +1,12 @@
 ---
 title: "AI 俱乐部·人和 AI 协作 — 五层结构"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: [src_20260609_8e64b361]
 created_at: "2026-06-09T14:03:49+00:00"
-updated_at: "2026-06-09T14:03:49+00:00"
+updated_at: "2026-06-09T14:07:16+00:00"
 ---
+
 
 # AI 俱乐部·人和 AI 协作 — 五层结构
 

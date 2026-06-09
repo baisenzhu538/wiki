@@ -83,6 +83,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/skill-ai-question-problem-checklist.md]]
 - [[30_wiki/concepts/structured-ai-workspace.md]]
 - [[30_wiki/dark-knowledges/dk-ai-judgment-human-responsibility.md]]
+- [[30_wiki/dark-knowledges/dk-ai-judgment-programmer-paradox.md]]
 
 ## [[ai-landing-scene-selection]]
 - [[30_wiki/concepts/.sk-backup/sk-ai-old-small-checklist.md]]
@@ -280,6 +281,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[distributed-cognition-hutchins]]
 - [[30_wiki/concepts/yt-decision-ai-partner.md]]
+
+## [[dk-ai-judgment-human-responsibility]]
+- [[30_wiki/dark-knowledges/dk-ai-judgment-programmer-paradox.md]]
 
 ## [[dk-c1-cjk-regex-silent-fail]]
 - [[30_wiki/concepts/dk-c3-txt-ingest-skip.md]]
@@ -788,6 +792,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/.sk-backup/sk-ai-problem-validation.md]]
 - [[30_wiki/concepts/skill-ai-evidence-check.md]]
 - [[30_wiki/concepts/skill-ai-problem-validation.md]]
+
+## [[skill-Truman-个人判断力系统建设（达克效应应对）]]
+- [[30_wiki/dark-knowledges/dk-ai-judgment-programmer-paradox.md]]
 
 ## [[skill-ai-evidence-check]]
 - [[30_wiki/cases/case-ether-online-acquisition.md]]

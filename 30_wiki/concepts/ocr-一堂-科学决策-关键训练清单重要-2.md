@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-科学决策-关键训练清单（重要））"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: [src_20260609_44a9e79a]
 created_at: "2026-06-09T14:05:51+00:00"
-updated_at: "2026-06-09T14:05:51+00:00"
+updated_at: "2026-06-09T14:07:18+00:00"
 ---
+
 
 # OCR: 一堂-科学决策-关键训练清单（重要））
 

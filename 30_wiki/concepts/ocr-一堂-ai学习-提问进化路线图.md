@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-AI学习-提问进化路线图"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: [src_20260609_cb13ebc8]
 created_at: "2026-06-09T14:03:49+00:00"
-updated_at: "2026-06-09T14:03:49+00:00"
+updated_at: "2026-06-09T14:07:16+00:00"
 ---
+
 
 # OCR: 一堂-AI学习-提问进化路线图
 

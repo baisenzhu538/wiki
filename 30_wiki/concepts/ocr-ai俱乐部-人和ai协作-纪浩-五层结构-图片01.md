@@ -1,11 +1,12 @@
 ---
 title: "OCR: AI俱乐部-人和AI协作-纪浩-五层结构-图片01"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: [src_20260609_8c00cb42]
 created_at: "2026-06-09T14:03:49+00:00"
-updated_at: "2026-06-09T14:03:49+00:00"
+updated_at: "2026-06-09T14:07:16+00:00"
 ---
+
 
 # OCR: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 

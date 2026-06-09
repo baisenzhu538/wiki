@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-09T14:03:51+00:00_
+_Last updated: 2026-06-09T14:07:19+00:00_
 
 - [[cases/case-ether-online-acquisition.md|案例：以太利用全网调研能力快速获客]] — source `一堂课程-规模经济章节（Truman口述）`
 - [[cases/case-truman-ai-partner.md|案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent]] — source `00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt`
@@ -219,15 +219,58 @@ _Last updated: 2026-06-09T14:03:51+00:00_
 - [[concepts/ocr-一堂-个人修炼-科学学习ipo模型.md|OCR: 一堂-个人修炼-科学学习IPO模型]] — source `src_20260522_6199c6b7`
 - [[concepts/ocr-一堂-个人修炼-科学提问刻意练习-2.md|OCR: 一堂-个人修炼-科学提问刻意练习]] — source `src_20260609_e13d29d9`
 - [[concepts/ocr-一堂-个人修炼-科学提问刻意练习.md|OCR: 一堂-个人修炼-科学提问刻意练习]] — source `src_20260522_f70d7a7d`
+- [[concepts/ocr-一堂-个人修炼-表达力火箭模型-2.md|OCR: 一堂-个人修炼-表达力火箭模型]] — source `src_20260609_8f36d0f4`
 - [[concepts/ocr-一堂-个人修炼-表达力火箭模型-执行武器库-2.md|OCR: 一堂-个人修炼-表达力火箭模型-执行武器库]] — source `src_20260609_bb221484`
 - [[concepts/ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md|OCR: 一堂-个人修炼-表达力火箭模型-执行武器库]] — source `src_20260522_e60a7ec8`
 - [[concepts/ocr-一堂-个人修炼-表达力火箭模型.md|OCR: 一堂-个人修炼-表达力火箭模型]] — source `src_20260522_f6f8f8eb`
+- [[concepts/ocr-一堂-个人修炼-解放思想-2.md|OCR: 一堂-个人修炼-解放思想]] — source `src_20260609_d22e1266`
 - [[concepts/ocr-一堂-个人修炼-解放思想.md|OCR: 一堂-个人修炼-解放思想]] — source `src_20260522_33346186`
+- [[concepts/ocr-一堂-个人修炼-讲香十指模型-超级武器库-2.md|OCR: 一堂-个人修炼-讲香十指模型-超级武器库]] — source `src_20260609_93e2df35`
 - [[concepts/ocr-一堂-个人修炼-讲香十指模型-超级武器库.md|OCR: 一堂-个人修炼-讲香十指模型-超级武器库]] — source `src_20260522_ad373a9b`
+- [[concepts/ocr-一堂-个人修炼-讲香基本功-2.md|OCR: 一堂-个人修炼-讲香基本功]] — source `src_20260609_5722254f`
+- [[concepts/ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图-2.md|OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图]] — source `src_20260609_93705394`
 - [[concepts/ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md|OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图]] — source `src_20260522_ecb6ee97`
 - [[concepts/ocr-一堂-个人修炼-讲香基本功.md|OCR: 一堂-个人修炼-讲香基本功]] — source `src_20260522_98db1d35`
+- [[concepts/ocr-一堂-个人修炼-课程清单-2.md|OCR: 一堂-个人修炼-课程清单]] — source `src_20260609_c607a5a5`
 - [[concepts/ocr-一堂-个人修炼-课程清单.md|OCR: 一堂-个人修炼-课程清单]] — source `src_20260522_a94d8057`
+- [[concepts/ocr-一堂-人机协作-双三角模型.md|OCR: 一堂-人机协作-双三角模型]] — source `src_20260609_11f9c13b`
+- [[concepts/ocr-一堂-创业必修-课程清单-2.md|OCR: 一堂-创业必修-课程清单]] — source `src_20260609_a8ead237`
 - [[concepts/ocr-一堂-创业必修-课程清单.md|OCR: 一堂-创业必修-课程清单]] — source `src_20260522_67aa4e2a`
+- [[concepts/ocr-一堂-单元模型-abcd策略模型.md|OCR: 一堂-单元模型-ABCD策略模型]] — source `src_20260609_07b851fb`
+- [[concepts/ocr-一堂-单元模型-tcpr底层网络协议.md|OCR: 一堂-单元模型-TCPR底层网络协议]] — source `src_20260609_189cf93b`
+- [[concepts/ocr-一堂-单元模型-修炼地图.md|OCR: 一堂-单元模型-修炼地图]] — source `src_20260609_71152485`
+- [[concepts/ocr-一堂-单元模型-动态预测.md|OCR: 一堂-单元模型-动态预测]] — source `src_20260609_9fd664f5`
+- [[concepts/ocr-一堂-单元模型-单sku模型.md|OCR: 一堂-单元模型-单sku模型]] — source `src_20260609_70068960`
+- [[concepts/ocr-一堂-单元模型-单商圈模型.md|OCR: 一堂-单元模型-单商圈模型]] — source `src_20260609_d7fb11e1`
+- [[concepts/ocr-一堂-单元模型-单城市模型.md|OCR: 一堂-单元模型-单城市模型]] — source `src_20260609_d0a5e9b4`
+- [[concepts/ocr-一堂-单元模型-单客户模型.md|OCR: 一堂-单元模型-单客户模型]] — source `src_20260609_59f0b2a5`
+- [[concepts/ocr-一堂-单元模型-单履约模型.md|OCR: 一堂-单元模型-单履约模型]] — source `src_20260609_4244803c`
+- [[concepts/ocr-一堂-单元模型-单柜子模型.md|OCR: 一堂-单元模型-单柜子模型]] — source `src_20260609_2e27ff75`
+- [[concepts/ocr-一堂-单元模型-单用户模型.md|OCR: 一堂-单元模型-单用户模型]] — source `src_20260609_d193f920`
+- [[concepts/ocr-一堂-单元模型-单订单模型.md|OCR: 一堂-单元模型-单订单模型]] — source `src_20260609_285df010`
+- [[concepts/ocr-一堂-单元模型-单销售模型.md|OCR: 一堂-单元模型-单销售模型]] — source `src_20260609_dff0633d`
+- [[concepts/ocr-一堂-单元模型-单门店模型.md|OCR: 一堂-单元模型-单门店模型]] — source `src_20260609_f2aa0632`
+- [[concepts/ocr-一堂-单元模型-基准值.md|OCR: 一堂-单元模型-基准值]] — source `src_20260609_dd7075c2`
+- [[concepts/ocr-一堂-单元模型-壁垒预判.md|OCR: 一堂-单元模型-壁垒预判]] — source `src_20260609_1fa94850`
+- [[concepts/ocr-一堂-单元模型-外部对抗地图.md|OCR: 一堂-单元模型-外部对抗地图]] — source `src_20260609_7dbbefd0`
+- [[concepts/ocr-一堂-单元模型-多模型情况.md|OCR: 一堂-单元模型-多模型情况]] — source `src_20260609_a3880f88`
+- [[concepts/ocr-一堂-单元模型-学练用.md|OCR: 一堂-单元模型-学练用]] — source `src_20260609_bcbbb2ed`
+- [[concepts/ocr-一堂-单元模型-对抗小抄.md|OCR: 一堂-单元模型-对抗小抄]] — source `src_20260609_bf7b2da7`
+- [[concepts/ocr-一堂-单元模型-对抗小抄01.md|OCR: 一堂-单元模型-对抗小抄01]] — source `src_20260609_624d303b`
+- [[concepts/ocr-一堂-单元模型-对抗小抄02.md|OCR: 一堂-单元模型-对抗小抄02]] — source `src_20260609_6f5c7abd`
+- [[concepts/ocr-一堂-单元模型-扭蛋机案例.md|OCR: 一堂-单元模型-扭蛋机案例]] — source `src_20260609_31712e1d`
+- [[concepts/ocr-一堂-单元模型-找全成本实操难点.md|OCR: 一堂-单元模型-找全成本实操难点]] — source `src_20260609_0770a578`
+- [[concepts/ocr-一堂-单元模型-找单元模型实操难点.md|OCR: 一堂-单元模型-找单元模型实操难点]] — source `src_20260609_c1af5767`
+- [[concepts/ocr-一堂-单元模型-找基准值实操难点.md|OCR: 一堂-单元模型-找基准值实操难点]] — source `src_20260609_e79bff0e`
+- [[concepts/ocr-一堂-单元模型-斧子尺子梯子.md|OCR: 一堂-单元模型-斧子、尺子、梯子]] — source `src_20260609_e54e85be`
+- [[concepts/ocr-一堂-单元模型-斧子尺子梯子详解.md|OCR: 一堂-单元模型-斧子尺子梯子详解]] — source `src_20260609_3659a538`
+- [[concepts/ocr-一堂-单元模型-最简单元模型.md|OCR: 一堂-单元模型-最简单元模型]] — source `src_20260609_acdcf6e3`
+- [[concepts/ocr-一堂-单元模型-段位专家.md|OCR: 一堂-单元模型-段位专家]] — source `src_20260609_c31a1173`
+- [[concepts/ocr-一堂-单元模型-示例.md|OCR: 一堂-单元模型-示例]] — source `src_20260609_99032bf9`
+- [[concepts/ocr-一堂-单元模型-示例01.md|OCR: 一堂-单元模型-示例01]] — source `src_20260609_0cfcfa9e`
+- [[concepts/ocr-一堂-单元模型-规模对抗实操难点.md|OCR: 一堂-单元模型-规模对抗实操难点]] — source `src_20260609_1c8b4d0e`
+- [[concepts/ocr-一堂-单元模型-规模经济对抗武器库.md|OCR: 一堂-单元模型-规模经济对抗武器库]] — source `src_20260609_cef13c36`
+- [[concepts/ocr-一堂-单元模型-象限分析法.md|OCR: 一堂-单元模型-象限分析法]] — source `src_20260609_e5bcd951`
 - [[concepts/ocr-一堂-地图-个人地图.md|OCR: 一堂-地图-个人地图]] — source `src_20260522_40d2aee5`
 - [[concepts/ocr-一堂-地图-个人地图_conv.md|OCR: 一堂-地图-个人地图_conv]] — source `src_20260522_bd0dca98`
 - [[concepts/ocr-一堂-地图-创业地图.md|OCR: 一堂-地图-创业地图]] — source `src_20260522_c1935261`
@@ -236,24 +279,39 @@ _Last updated: 2026-06-09T14:03:51+00:00_
 - [[concepts/ocr-一堂-地图-管理地图_conv.md|OCR: 一堂-地图-管理地图_conv]] — source `src_20260522_e2244f17`
 - [[concepts/ocr-一堂-案例拆解-课程清单.md|OCR: 一堂-案例拆解-课程清单]] — source `src_20260522_1e654244`
 - [[concepts/ocr-一堂-泛产品设计-十年苦练30招.md|OCR: 一堂-泛产品设计-十年苦练30招]] — source `src_20260522_604eae9b`
+- [[concepts/ocr-一堂-科学决策-roi决策评估画布-2.md|OCR: 一堂-科学决策-ROI决策评估画布]] — source `src_20260609_d2582199`
+- [[concepts/ocr-一堂-科学决策-roi决策评估画布-案例01-2.md|OCR: 一堂-科学决策-ROI决策评估画布-案例01]] — source `src_20260609_37e674a0`
 - [[concepts/ocr-一堂-科学决策-roi决策评估画布-案例01.md|OCR: 一堂-科学决策-ROI决策评估画布-案例01]] — source `src_20260522_6bb74b4e`
+- [[concepts/ocr-一堂-科学决策-roi决策评估画布-案例02-2.md|OCR: 一堂-科学决策-ROI决策评估画布-案例02]] — source `src_20260609_f00cad16`
 - [[concepts/ocr-一堂-科学决策-roi决策评估画布-案例02.md|OCR: 一堂-科学决策-ROI决策评估画布-案例02]] — source `src_20260522_bf298e46`
+- [[concepts/ocr-一堂-科学决策-roi决策评估画布-案例03-2.md|OCR: 一堂-科学决策-ROI决策评估画布-案例03]] — source `src_20260609_4ea1fba2`
 - [[concepts/ocr-一堂-科学决策-roi决策评估画布-案例03.md|OCR: 一堂-科学决策-ROI决策评估画布-案例03]] — source `src_20260522_01bac741`
+- [[concepts/ocr-一堂-科学决策-roi决策评估画布-案例04-2.md|OCR: 一堂-科学决策-ROI决策评估画布-案例04]] — source `src_20260609_6c8f4f64`
 - [[concepts/ocr-一堂-科学决策-roi决策评估画布-案例04.md|OCR: 一堂-科学决策-ROI决策评估画布-案例04]] — source `src_20260522_94699fa0`
 - [[concepts/ocr-一堂-科学决策-roi决策评估画布.md|OCR: 一堂-科学决策-ROI决策评估画布]] — source `src_20260522_c78c1f2e`
+- [[concepts/ocr-一堂-科学决策-roi高阶训练全景图.md|OCR: 一堂-科学决策-ROI高阶训练全景图]] — source `src_20260609_60edc284`
+- [[concepts/ocr-一堂-科学决策-x型y型决策习惯对比.md|OCR: 一堂-科学决策-X型Y型决策习惯对比]] — source `src_20260609_c86cd9a0`
 - [[concepts/ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md|OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步]] — source `src_20260522_d96543bb`
 - [[concepts/ocr-一堂-科学决策-人机协作决策.md|OCR: 一堂-科学决策-人机协作决策]] — source `src_20260522_33c40d41`
+- [[concepts/ocr-一堂-科学决策-关键假设abcd模型-2.md|OCR: 一堂-科学决策-关键假设ABCD模型]] — source `src_20260609_76e76298`
 - [[concepts/ocr-一堂-科学决策-关键假设abcd模型.md|OCR: 一堂-科学决策-关键假设ABCD模型]] — source `src_20260522_3261e6bd`
+- [[concepts/ocr-一堂-科学决策-关键训练清单重要-2.md|OCR: 一堂-科学决策-关键训练清单（重要））]] — source `src_20260609_44a9e79a`
 - [[concepts/ocr-一堂-科学决策-关键训练清单重要.md|OCR: 一堂-科学决策-关键训练清单（重要））]] — source `src_20260522_ac7f8874`
+- [[concepts/ocr-一堂-科学决策-决策三角形.md|OCR: 一堂-科学决策-决策三角形]] — source `src_20260609_485bc00d`
 - [[concepts/ocr-一堂-科学决策-发现决策.md|OCR: 一堂-科学决策-发现决策]] — source `src_20260522_1a2ffc3e`
 - [[concepts/ocr-一堂-科学决策-商业模式-完整财务公式决策.md|OCR: 一堂-科学决策-商业模式-完整财务公式决策]] — source `src_20260522_c59acefd`
 - [[concepts/ocr-一堂-科学决策-宽度-个人.md|OCR: 一堂-科学决策-宽度-个人]] — source `src_20260522_45957066`
 - [[concepts/ocr-一堂-科学决策-宽度-企业.md|OCR: 一堂-科学决策-宽度-企业]] — source `src_20260522_b4ebba42`
 - [[concepts/ocr-一堂-科学决策-宽度-团队.md|OCR: 一堂-科学决策-宽度-团队]] — source `src_20260522_97242832`
+- [[concepts/ocr-一堂-科学决策-深度-l1优先级定性-2.md|OCR: 一堂-科学决策-深度-L1优先级定性]] — source `src_20260609_84d2d52b`
 - [[concepts/ocr-一堂-科学决策-深度-l1优先级定性.md|OCR: 一堂-科学决策-深度-L1优先级定性]] — source `src_20260522_22cb5729`
+- [[concepts/ocr-一堂-科学决策-深度-l2部分定量-2.md|OCR: 一堂-科学决策-深度-L2部分定量]] — source `src_20260609_b791433c`
 - [[concepts/ocr-一堂-科学决策-深度-l2部分定量.md|OCR: 一堂-科学决策-深度-L2部分定量]] — source `src_20260522_ad937c9c`
+- [[concepts/ocr-一堂-科学决策-深度-l3定量公式-2.md|OCR: 一堂-科学决策-深度-L3定量公式]] — source `src_20260609_390396bf`
 - [[concepts/ocr-一堂-科学决策-深度-l3定量公式.md|OCR: 一堂-科学决策-深度-L3定量公式]] — source `src_20260522_80e1b943`
+- [[concepts/ocr-一堂-科学决策-深度-l4-案例01-2.md|OCR: 一堂-科学决策-深度-L4-案例01]] — source `src_20260609_3c0ef894`
 - [[concepts/ocr-一堂-科学决策-深度-l4-案例01.md|OCR: 一堂-科学决策-深度-L4-案例01]] — source `src_20260522_5323822f`
+- [[concepts/ocr-一堂-科学决策-深度-l4严格财务公式-2.md|OCR: 一堂-科学决策-深度-L4严格财务公式]] — source `src_20260609_6e0e9fdf`
 - [[concepts/ocr-一堂-科学决策-深度-l4严格财务公式.md|OCR: 一堂-科学决策-深度-L4严格财务公式]] — source `src_20260522_26271f58`
 - [[concepts/ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md|OCR: 一堂-科学决策-深度-你的业务是一次抽样实验]] — source `src_20260522_3693c090`
 - [[concepts/ocr-一堂-科学决策-深度-决策经验值.md|OCR: 一堂-科学决策-深度-决策经验值]] — source `src_20260522_4f3415a1`
@@ -267,7 +325,11 @@ _Last updated: 2026-06-09T14:03:51+00:00_
 - [[concepts/ocr-一堂-科学决策-稀缺资源清单.md|OCR: 一堂-科学决策-稀缺资源清单]] — source `src_20260522_d067a6ba`
 - [[concepts/ocr-一堂-科学决策-项目方案评估三角形.md|OCR: 一堂-科学决策-项目方案评估三角形]] — source `src_20260522_e31b26dd`
 - [[concepts/ocr-一堂-科学决策-高度-两种典型的思考习惯.md|OCR: 一堂-科学决策-高度-两种典型的思考习惯]] — source `src_20260522_23b5714d`
+- [[concepts/ocr-一堂-科学决策-高水平共识曲线重要.md|OCR: 一堂-科学决策-高水平共识曲线（重要）]] — source `src_20260609_006cb9b3`
 - [[concepts/ocr-一堂-管理必修-课程清单.md|OCR: 一堂-管理必修-课程清单]] — source `src_20260522_4c9a911f`
+- [[concepts/ocr-一堂-高阶体系探索营-三种咨询可能性.md|OCR: 一堂-高阶体系探索营-三种咨询可能性]] — source `src_20260609_b32e7bb8`
+- [[concepts/ocr-一堂doc-单元模型-十大单元模型.md|OCR: 一堂DOC-单元模型-十大单元模型]] — source `src_20260609_112b88f7`
+- [[concepts/ocr-一堂y模型-科学成事道理-2.md|OCR: 一堂Y模型-科学成事道理]] — source `src_20260609_3dea4712`
 - [[concepts/ocr-一堂y模型-科学成事道理.md|OCR: 一堂Y模型-科学成事道理]] — source `src_20260522_32462c98`
 - [[concepts/ocr-一堂y模型steps策略集.md|OCR: 一堂Y模型steps策略集]] — source `src_20260522_0bb1cb6e`
 - [[concepts/ocr-一堂y模型实操工作流.md|OCR: 一堂Y模型实操工作流]] — source `src_20260522_53341e5a`
@@ -314,8 +376,10 @@ _Last updated: 2026-06-09T14:03:51+00:00_
 - [[concepts/ocr-泛产品设计-用户卡片-行业分析画布.md|OCR: 泛产品设计-用户卡片-行业分析画布]] — source `src_20260522_78d5f0a4`
 - [[concepts/ocr-泛产品设计-用户卡片-需求挖掘.md|OCR: 泛产品设计-用户卡片-需求挖掘]] — source `src_20260522_11af6cd2`
 - [[concepts/ocr-泛产品设计-用户卡片-项目背景分析.md|OCR: 泛产品设计-用户卡片-项目背景分析]] — source `src_20260522_115e8827`
+- [[concepts/ocr-泛产品设计-落地卡片-roi分析-2.md|OCR: 泛产品设计-落地卡片-ROI分析]] — source `src_20260609_30219516`
 - [[concepts/ocr-泛产品设计-落地卡片-roi分析.md|OCR: 泛产品设计-落地卡片-ROI分析]] — source `src_20260522_1b5af0b6`
 - [[concepts/ocr-泛产品设计-落地卡片-业务建模.md|OCR: 泛产品设计-落地卡片-业务建模]] — source `src_20260522_f5a0f2e1`
+- [[concepts/ocr-泛产品设计-落地卡片-低成本测试mvp-2.md|OCR: 泛产品设计-落地卡片-低成本测试MVP]] — source `src_20260609_9168476b`
 - [[concepts/ocr-泛产品设计-落地卡片-低成本测试mvp.md|OCR: 泛产品设计-落地卡片-低成本测试MVP]] — source `src_20260522_4d086230`
 - [[concepts/ocr-泛产品设计-落地卡片-假设拆解.md|OCR: 泛产品设计-落地卡片-假设拆解]] — source `src_20260522_eb90d179`
 - [[concepts/ocr-泛产品设计-落地卡片-内核和边界.md|OCR: 泛产品设计-落地卡片-内核和边界]] — source `src_20260522_f3072399`
@@ -328,6 +392,7 @@ _Last updated: 2026-06-09T14:03:51+00:00_
 - [[concepts/ocr-泛产品设计-落地卡片-管理三段论.md|OCR: 泛产品设计-落地卡片-管理三段论]] — source `src_20260522_8d5cc8b0`
 - [[concepts/ocr-泛产品设计-落地卡片-解放思想.md|OCR: 泛产品设计-落地卡片-解放思想]] — source `src_20260522_c2c6b487`
 - [[concepts/ocr-泛产品设计-落地卡片-设计原则.md|OCR: 泛产品设计-落地卡片-设计原则]] — source `src_20260522_9eaf7399`
+- [[concepts/ocr-泛产品设计-落地卡片-逻辑mece-2.md|OCR: 泛产品设计-落地卡片-逻辑MECE]] — source `src_20260609_e9aa385a`
 - [[concepts/ocr-泛产品设计-落地卡片-逻辑mece.md|OCR: 泛产品设计-落地卡片-逻辑MECE]] — source `src_20260522_8d990f3c`
 - [[concepts/ocr-泛产品设计-落地卡片-酝酿式打磨.md|OCR: 泛产品设计-落地卡片-酝酿式打磨]] — source `src_20260522_2bcc3531`
 - [[concepts/ocr-泛产品设计-落地卡片-里程碑拆解.md|OCR: 泛产品设计-落地卡片-里程碑拆解]] — source `src_20260522_4be84945`
@@ -918,6 +983,7 @@ _Last updated: 2026-06-09T14:03:51+00:00_
 - [[concepts/那今天不会.md|那今天不会。]] — source `src_20260522_642ab512`
 - [[concepts/鑫港湾his系统分阶段整改报告.md|鑫港湾HIS系统分阶段整改报告]] — source `src_20260428_db49a647`
 - [[dark-knowledges/dk-ai-judgment-human-responsibility.md|人做判断AI做生产：核心不是'会不会用AI'，而是'敢不敢点这个头承担后果'——AI时代人类的最终责任]] — source `00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt`
+- [[dark-knowledges/dk-ai-judgment-programmer-paradox.md|程序员的AI悖论：写AI工具的人最晚享受到AI红利——技术创作者的价值捕获盲区]] — source `00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt`
 - [[dark-knowledges/dk-jh-llm-time-blindness.md|LLM时间盲症：AI不知道今天几号——训练数据陈旧只是症状，推理替代事实才是病根]] — source `00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt`
 - [[dark-knowledges/dk-my-ai-landing-three-barriers.md|AI落地三大盲区：不懂原理×不知边界×没有审美——90%的落地失败在动手前就已注定]] — source `00_inbox/AI俱乐部-AI落地场景识别-马易-口述.txt`
 - [[dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md|迭代到审美上限：某些交付物必须一次做对——因为发布后的迭代成本呈指数级上升]] — source `00_inbox/ideas/一堂-个人修炼-泛产品设计工具篇口述版.md`
@@ -972,133 +1038,3 @@ _Last updated: 2026-06-09T14:03:51+00:00_
 - [[tools/yt-tool-unit-model-construction.md|yt-tool-unit-model-construction]] — source no source
 - [[tools/yt-tool-unit-model-dynamic.md|yt-tool-unit-model-dynamic]] — source no source
 - [[tools/yt-tool-unit-model-selection.md|yt-tool-unit-model-selection]] — source no source
-
-- [OCR: 一堂-个人修炼-表达力火箭模型](concepts/ocr-一堂-个人修炼-表达力火箭模型-2.md) - source `src_20260609_8f36d0f4`
-
-- [OCR: 一堂-个人修炼-解放思想](concepts/ocr-一堂-个人修炼-解放思想-2.md) - source `src_20260609_d22e1266`
-
-- [OCR: 一堂-个人修炼-讲香十指模型-超级武器库](concepts/ocr-一堂-个人修炼-讲香十指模型-超级武器库-2.md) - source `src_20260609_93e2df35`
-
-- [OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图](concepts/ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图-2.md) - source `src_20260609_93705394`
-
-- [OCR: 一堂-个人修炼-讲香基本功](concepts/ocr-一堂-个人修炼-讲香基本功-2.md) - source `src_20260609_5722254f`
-
-- [OCR: 一堂-个人修炼-课程清单](concepts/ocr-一堂-个人修炼-课程清单-2.md) - source `src_20260609_c607a5a5`
-
-- [OCR: 一堂-人机协作-双三角模型](concepts/ocr-一堂-人机协作-双三角模型.md) - source `src_20260609_11f9c13b`
-
-- [OCR: 一堂-创业必修-课程清单](concepts/ocr-一堂-创业必修-课程清单-2.md) - source `src_20260609_a8ead237`
-
-- [OCR: 一堂-单元模型-ABCD策略模型](concepts/ocr-一堂-单元模型-abcd策略模型.md) - source `src_20260609_07b851fb`
-
-- [OCR: 一堂-单元模型-TCPR底层网络协议](concepts/ocr-一堂-单元模型-tcpr底层网络协议.md) - source `src_20260609_189cf93b`
-
-- [OCR: 一堂-单元模型-修炼地图](concepts/ocr-一堂-单元模型-修炼地图.md) - source `src_20260609_71152485`
-
-- [OCR: 一堂-单元模型-动态预测](concepts/ocr-一堂-单元模型-动态预测.md) - source `src_20260609_9fd664f5`
-
-- [OCR: 一堂-单元模型-单sku模型](concepts/ocr-一堂-单元模型-单sku模型.md) - source `src_20260609_70068960`
-
-- [OCR: 一堂-单元模型-单商圈模型](concepts/ocr-一堂-单元模型-单商圈模型.md) - source `src_20260609_d7fb11e1`
-
-- [OCR: 一堂-单元模型-单城市模型](concepts/ocr-一堂-单元模型-单城市模型.md) - source `src_20260609_d0a5e9b4`
-
-- [OCR: 一堂-单元模型-单客户模型](concepts/ocr-一堂-单元模型-单客户模型.md) - source `src_20260609_59f0b2a5`
-
-- [OCR: 一堂-单元模型-单履约模型](concepts/ocr-一堂-单元模型-单履约模型.md) - source `src_20260609_4244803c`
-
-- [OCR: 一堂-单元模型-单柜子模型](concepts/ocr-一堂-单元模型-单柜子模型.md) - source `src_20260609_2e27ff75`
-
-- [OCR: 一堂-单元模型-单用户模型](concepts/ocr-一堂-单元模型-单用户模型.md) - source `src_20260609_d193f920`
-
-- [OCR: 一堂-单元模型-单订单模型](concepts/ocr-一堂-单元模型-单订单模型.md) - source `src_20260609_285df010`
-
-- [OCR: 一堂-单元模型-单销售模型](concepts/ocr-一堂-单元模型-单销售模型.md) - source `src_20260609_dff0633d`
-
-- [OCR: 一堂-单元模型-单门店模型](concepts/ocr-一堂-单元模型-单门店模型.md) - source `src_20260609_f2aa0632`
-
-- [OCR: 一堂-单元模型-基准值](concepts/ocr-一堂-单元模型-基准值.md) - source `src_20260609_dd7075c2`
-
-- [OCR: 一堂-单元模型-壁垒预判](concepts/ocr-一堂-单元模型-壁垒预判.md) - source `src_20260609_1fa94850`
-
-- [OCR: 一堂-单元模型-外部对抗地图](concepts/ocr-一堂-单元模型-外部对抗地图.md) - source `src_20260609_7dbbefd0`
-
-- [OCR: 一堂-单元模型-多模型情况](concepts/ocr-一堂-单元模型-多模型情况.md) - source `src_20260609_a3880f88`
-
-- [OCR: 一堂-单元模型-学练用](concepts/ocr-一堂-单元模型-学练用.md) - source `src_20260609_bcbbb2ed`
-
-- [OCR: 一堂-单元模型-对抗小抄01](concepts/ocr-一堂-单元模型-对抗小抄01.md) - source `src_20260609_624d303b`
-
-- [OCR: 一堂-单元模型-对抗小抄02](concepts/ocr-一堂-单元模型-对抗小抄02.md) - source `src_20260609_6f5c7abd`
-
-- [OCR: 一堂-单元模型-对抗小抄](concepts/ocr-一堂-单元模型-对抗小抄.md) - source `src_20260609_bf7b2da7`
-
-- [OCR: 一堂-单元模型-扭蛋机案例](concepts/ocr-一堂-单元模型-扭蛋机案例.md) - source `src_20260609_31712e1d`
-
-- [OCR: 一堂-单元模型-找全成本实操难点](concepts/ocr-一堂-单元模型-找全成本实操难点.md) - source `src_20260609_0770a578`
-
-- [OCR: 一堂-单元模型-找单元模型实操难点](concepts/ocr-一堂-单元模型-找单元模型实操难点.md) - source `src_20260609_c1af5767`
-
-- [OCR: 一堂-单元模型-找基准值实操难点](concepts/ocr-一堂-单元模型-找基准值实操难点.md) - source `src_20260609_e79bff0e`
-
-- [OCR: 一堂-单元模型-斧子、尺子、梯子](concepts/ocr-一堂-单元模型-斧子尺子梯子.md) - source `src_20260609_e54e85be`
-
-- [OCR: 一堂-单元模型-斧子尺子梯子详解](concepts/ocr-一堂-单元模型-斧子尺子梯子详解.md) - source `src_20260609_3659a538`
-
-- [OCR: 一堂-单元模型-最简单元模型](concepts/ocr-一堂-单元模型-最简单元模型.md) - source `src_20260609_acdcf6e3`
-
-- [OCR: 一堂-单元模型-段位专家](concepts/ocr-一堂-单元模型-段位专家.md) - source `src_20260609_c31a1173`
-
-- [OCR: 一堂-单元模型-示例01](concepts/ocr-一堂-单元模型-示例01.md) - source `src_20260609_0cfcfa9e`
-
-- [OCR: 一堂-单元模型-示例](concepts/ocr-一堂-单元模型-示例.md) - source `src_20260609_99032bf9`
-
-- [OCR: 一堂-单元模型-规模对抗实操难点](concepts/ocr-一堂-单元模型-规模对抗实操难点.md) - source `src_20260609_1c8b4d0e`
-
-- [OCR: 一堂-单元模型-规模经济对抗武器库](concepts/ocr-一堂-单元模型-规模经济对抗武器库.md) - source `src_20260609_cef13c36`
-
-- [OCR: 一堂-单元模型-象限分析法](concepts/ocr-一堂-单元模型-象限分析法.md) - source `src_20260609_e5bcd951`
-
-- [OCR: 一堂-科学决策-ROI决策评估画布-案例01](concepts/ocr-一堂-科学决策-roi决策评估画布-案例01-2.md) - source `src_20260609_37e674a0`
-
-- [OCR: 一堂-科学决策-ROI决策评估画布-案例02](concepts/ocr-一堂-科学决策-roi决策评估画布-案例02-2.md) - source `src_20260609_f00cad16`
-
-- [OCR: 一堂-科学决策-ROI决策评估画布-案例03](concepts/ocr-一堂-科学决策-roi决策评估画布-案例03-2.md) - source `src_20260609_4ea1fba2`
-
-- [OCR: 一堂-科学决策-ROI决策评估画布-案例04](concepts/ocr-一堂-科学决策-roi决策评估画布-案例04-2.md) - source `src_20260609_6c8f4f64`
-
-- [OCR: 一堂-科学决策-ROI决策评估画布](concepts/ocr-一堂-科学决策-roi决策评估画布-2.md) - source `src_20260609_d2582199`
-
-- [OCR: 一堂-科学决策-ROI高阶训练全景图](concepts/ocr-一堂-科学决策-roi高阶训练全景图.md) - source `src_20260609_60edc284`
-
-- [OCR: 一堂-科学决策-X型Y型决策习惯对比](concepts/ocr-一堂-科学决策-x型y型决策习惯对比.md) - source `src_20260609_c86cd9a0`
-
-- [OCR: 一堂-科学决策-关键假设ABCD模型](concepts/ocr-一堂-科学决策-关键假设abcd模型-2.md) - source `src_20260609_76e76298`
-
-- [OCR: 一堂-科学决策-关键训练清单（重要））](concepts/ocr-一堂-科学决策-关键训练清单重要-2.md) - source `src_20260609_44a9e79a`
-
-- [OCR: 一堂-科学决策-决策三角形](concepts/ocr-一堂-科学决策-决策三角形.md) - source `src_20260609_485bc00d`
-
-- [OCR: 一堂-科学决策-深度-L1优先级定性](concepts/ocr-一堂-科学决策-深度-l1优先级定性-2.md) - source `src_20260609_84d2d52b`
-
-- [OCR: 一堂-科学决策-深度-L2部分定量](concepts/ocr-一堂-科学决策-深度-l2部分定量-2.md) - source `src_20260609_b791433c`
-
-- [OCR: 一堂-科学决策-深度-L3定量公式](concepts/ocr-一堂-科学决策-深度-l3定量公式-2.md) - source `src_20260609_390396bf`
-
-- [OCR: 一堂-科学决策-深度-L4-案例01](concepts/ocr-一堂-科学决策-深度-l4-案例01-2.md) - source `src_20260609_3c0ef894`
-
-- [OCR: 一堂-科学决策-深度-L4严格财务公式](concepts/ocr-一堂-科学决策-深度-l4严格财务公式-2.md) - source `src_20260609_6e0e9fdf`
-
-- [OCR: 一堂-科学决策-高水平共识曲线（重要）](concepts/ocr-一堂-科学决策-高水平共识曲线重要.md) - source `src_20260609_006cb9b3`
-
-- [OCR: 一堂-高阶体系探索营-三种咨询可能性](concepts/ocr-一堂-高阶体系探索营-三种咨询可能性.md) - source `src_20260609_b32e7bb8`
-
-- [OCR: 一堂DOC-单元模型-十大单元模型](concepts/ocr-一堂doc-单元模型-十大单元模型.md) - source `src_20260609_112b88f7`
-
-- [OCR: 一堂Y模型-科学成事道理](concepts/ocr-一堂y模型-科学成事道理-2.md) - source `src_20260609_3dea4712`
-
-- [OCR: 泛产品设计-落地卡片-ROI分析](concepts/ocr-泛产品设计-落地卡片-roi分析-2.md) - source `src_20260609_30219516`
-
-- [OCR: 泛产品设计-落地卡片-低成本测试MVP](concepts/ocr-泛产品设计-落地卡片-低成本测试mvp-2.md) - source `src_20260609_9168476b`
-
-- [OCR: 泛产品设计-落地卡片-逻辑MECE](concepts/ocr-泛产品设计-落地卡片-逻辑mece-2.md) - source `src_20260609_e9aa385a`

@@ -1,11 +1,12 @@
 ---
 title: "OCR: 泛产品设计-落地卡片-低成本测试MVP"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: [src_20260609_9168476b]
 created_at: "2026-06-09T14:05:52+00:00"
-updated_at: "2026-06-09T14:05:52+00:00"
+updated_at: "2026-06-09T14:07:19+00:00"
 ---
+
 
 # OCR: 泛产品设计-落地卡片-低成本测试MVP
 

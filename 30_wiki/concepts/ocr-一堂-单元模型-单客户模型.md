@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-单元模型-单客户模型"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: [src_20260609_59f0b2a5]
 created_at: "2026-06-09T14:04:56+00:00"
-updated_at: "2026-06-09T14:04:56+00:00"
+updated_at: "2026-06-09T14:07:17+00:00"
 ---
+
 
 # OCR: 一堂-单元模型-单客户模型
 

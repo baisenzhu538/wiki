@@ -1,0 +1,24 @@
+---
+feedback_id: "fb_20260609_2f2a643f"
+kind: "auto"
+title: "Near-duplicate wiki pages (slug: ocr-一堂-科学决策-深度-l1优先级定性)"
+artifact_id: ""
+source: "kdo self-check"
+captured_at: "2026-06-09T14:07:36+00:00"
+path: "60_feedback/auto/fb_20260609_2f2a643f-near-duplicate-wiki-pages-slug-ocr-一堂-科学决策-深度-l1优先级定性.md"
+---
+
+# Near-duplicate wiki pages (slug: ocr-一堂-科学决策-深度-l1优先级定性)
+
+## Kind
+
+auto
+
+## Duplicate Group (slug=`ocr-一堂-科学决策-深度-l1优先级定性`)
+
+- `30_wiki/concepts/ocr-一堂-科学决策-深度-l1优先级定性-2.md` — OCR: 一堂-科学决策-深度-L1优先级定性
+- `30_wiki/concepts/ocr-一堂-科学决策-深度-l1优先级定性.md` — OCR: 一堂-科学决策-深度-L1优先级定性
+
+## Follow-up
+
+- TODO: Merge duplicate pages or disambiguate titles.

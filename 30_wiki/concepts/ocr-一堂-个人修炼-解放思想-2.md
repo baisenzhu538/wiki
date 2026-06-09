@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-个人修炼-解放思想"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: [src_20260609_d22e1266]
 created_at: "2026-06-09T14:04:55+00:00"
-updated_at: "2026-06-09T14:04:55+00:00"
+updated_at: "2026-06-09T14:07:17+00:00"
 ---
+
 
 # OCR: 一堂-个人修炼-解放思想
 

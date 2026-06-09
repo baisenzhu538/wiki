@@ -1,11 +1,12 @@
 ---
 title: "OCR: 一堂-个人修炼-Y模型"
 type: "concept"
-status: "draft"
+status: "enriched"
 source_refs: [src_20260609_230d54f4]
 created_at: "2026-06-09T14:03:49+00:00"
-updated_at: "2026-06-09T14:03:49+00:00"
+updated_at: "2026-06-09T14:07:16+00:00"
 ---
+
 
 # OCR: 一堂-个人修炼-Y模型
 
