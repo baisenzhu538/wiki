@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_62f76551]
 created_at: "2026-06-09T14:03:49+00:00"
-updated_at: "2026-06-09T14:10:44+00:00"
+updated_at: "2026-06-09T14:26:18+00:00"
 ---
+
 
 
 
@@ -23,14 +24,24 @@ updated_at: "2026-06-09T14:10:44+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- ProblemOS / Question Engineering is a framework for structuring questions systematically, analogous to how engineers design products.
+- The framework progresses through six stages: fuzzy confusion → descriptive symptoms → clear objectives → given environment → actions already taken → solvable problem unit.
+- Effective problem formulation requires moving from vague discomfort to a precisely defined, actionable problem statement.
+- A well-engineered question must explicitly specify the environment/context in which the problem occurs.
+- Documenting "already tried" solutions prevents redundant advice and accelerates problem-solving.
+- The final output should be a "solvable problem unit" — a discrete, addressable chunk rather than an open-ended complaint.
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- What distinguishes a "solvable problem unit" from merely a well-defined question—does the framework include criteria for assessing solvability before attempting solution?
+- Is the six-stage progression strictly linear, or can stages be revisited iteratively; what guidance exists for navigating backward when earlier stages prove inadequate?
+- What empirical evidence or case studies demonstrate that this engineering-inspired framework produces measurably better problem-solving outcomes than unstructured questioning?
+- How does the framework handle problems where environment specification is itself uncertain or contested—does it accommodate epistemic humility about context boundaries?
+- Are there domain-specific adaptations of this framework, or is the claim of universality (implied by the engineering analogy) actually tested across diverse problem types?
+- What role does the questioner's cognitive or emotional state play in stage progression, particularly in moving from "fuzzy confusion" to "descriptive symptoms"?
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: article
+Code: script
+Capability: playbook
