@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-09
 active_branch: main
-active_task: "黄药师审查老顽童纪浩批次(已完成P0修复)+产品内核域预处理(已完成骨架)。老顽童需填5张concept卡+产skill/case/dk卡。"
+active_task: "Task F (kdo role) 完成 ✅。Next: Task G (产出模板 template+checklist) 或 Task I (中文文本提取修复 P0)"
 blockers: []
-next_session_hint: "用户说'继续'→ 产品内核域或老顽童协作"
+next_session_hint: "用户说'继续'→ Task G (产出模板) 或 Task I (中文文本提取修复 P0，优先级更高)"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。

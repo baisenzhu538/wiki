@@ -30,19 +30,13 @@ dk-ef-004-missing-diagnostic-firmware.md
 
 前缀 `dk-ef-*`，`dark_knowledge_type: hardware-failure`。保留 E-FM 编号溯源。
 
-### 🆕 Task F：角色编译 — `kdo role <agent>`（P1）
+### ~~Task F：角色编译 — `kdo role <agent>`（P1）~~ ✅ 已完成
 
-**问题**：洪七公/段王爷等 agent 进 vault 时，角色上下文分散在 `.agent/*-context.md` / `AGENTS.md` / `toolkit.md` 等多处，需要手工拼装。没有编译成 agent 可直接加载的 role profile。
-
-**方案**：扩展 `kdo encapsulate` 的编译逻辑到角色编译：
-- 读取 `.agent/<role>-context.md`（身份、职责、质量要求）
-- 合并 `.agent/toolkit.md`（可用工具）
-- 合并 `90_control/AGENTS.md` 中该角色的能力边界
-- 编译为一份 role system prompt
-
-**用法**：`kdo role hongqigong` → 输出洪七公的完整角色上下文（身份 + 输入目录 + 输出格式 + 质量标准 + 可用工具）
-
-**规模**：~80 行代码（复用 encapsulate 编译逻辑）
+**实现**：`kdo role <agent>` 命令（`commands/encapsulate.py:cmd_role`）。编译 `.agent/<role>-context.md` + `.agent/toolkit.md` + `90_control/AGENTS.md` → agent-loadable role profile。
+- `kdo role huangyaoshi` / `hongqigong` / `laowantong` / `duanwangye` / `ouyangfeng` 全部可用
+- `--output <path>` 写入文件
+- 15 tests, 469 total tests pass（无回归）
+- 修复：GBK 编码容错（`sys.stdout.buffer.write`）、`import re as _re` 作用域 bug
 
 ### 🆕 Task G：产出模板 — template + checklist（P1）
 
