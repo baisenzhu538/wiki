@@ -7,6 +7,7 @@ url: ""
 notes: ""
 shipped_at: "2026-04-30T15:45:07+00:00"
 path: "50_delivery/published/del_20260430_4d5f1f23-kdo_builtin_knowledge_curator_v1-test.md"
+validation_snapshot: "{"passed": 10, "failed": 0, "warnings": 0}"
 ---
 
 # Delivery Record: kdo_builtin_knowledge_curator_v1
