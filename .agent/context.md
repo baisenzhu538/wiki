@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-09
 active_branch: main
-active_task: "Task F (kdo role) 完成 ✅。Next: Task G (产出模板 template+checklist) 或 Task I (中文文本提取修复 P0)"
+active_task: "Task F (kdo role) ✅ + Task I (中文文本提取修复 P0) ✅。KDO 502 tests pass。Next: Task G (产出模板 template+checklist) 或 Task J (编译溯源) 或 Task K (降低反馈摩擦)"
 blockers: []
-next_session_hint: "用户说'继续'→ Task G (产出模板) 或 Task I (中文文本提取修复 P0，优先级更高)"
+next_session_hint: "用户说'继续'→ Task G/J/K 按需。核心管线类 Task F/I 已完成"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。

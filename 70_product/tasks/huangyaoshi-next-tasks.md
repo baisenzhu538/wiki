@@ -64,18 +64,14 @@ agent 动手前先 `kdo template article` 拉骨架，产出后 `kdo checklist a
 - 关键案例：黄药师广冷红外板调试全流程（诊断固件从 0 到 1 的完整故事）
 - `kdo query "case:xxx"` → agent 产出前先看类似案例
 
-### 🆕 Task I：中文文本提取修复（P0，~2h）
+### ~~Task I：中文文本提取修复（P0，~2h）~~ ✅ 已完成
 
-> 来源：`60_feedback/kdo-infrastructure-audit-2026-06-10.md` + 欧阳锋审查意见
-
-**问题**：`kdo/extractors.py` 句分割正则基于英文 NLP 假设，中文句号"。"几乎不受支持。KDO 内容 99% 为中文 → 摘要/断言/概念卡生成系统性受损。
-
-**方案**：引入 jieba 分词 + 中文句分割逻辑，保留纯标准库 fallback。
-- 有 jieba → 用中文语义分割
-- 无 jieba → 降级到纯标准库方案（`re.split(r"[。！？!?]", text)`）
-- jieba 作为 `pip install kdo[zh]` 可选依赖，不破零依赖承诺
-
-**验收**：中文段落分割准确率 > 90%（用 10 篇 wiki 中文卡片做人工标注测试集）
+**修复内容**（`kdo/extractors.py`）：
+1. **双路径中文分句**：`_split_sentences_zh_pure`（纯 stdlib）+ `_split_sentences_zh_jieba`（jieba 增强）。硬边界（`。！？；!?.`）→ 软边界（`，,` 长句拆分）
+2. **`_clean_body_for_extraction` 重写**：保留段落结构（双换行），不再把全文 join 成一团——这对中文分句至关重要
+3. **`_ASSERTION_VERBS` 修复**：`\b` 对 CJK 字符无效——拆为 `_EN_ASSERTION_VERBS`（含 `\b`）+ `_ZH_ASSERTION_VERBS`（不含 `\b`）+ 统一 `_HAS_ASSERTION`
+4. **jieba 可选依赖**：`pyproject.toml` `[project.optional-dependencies] zh = ["jieba>=0.42"]`。`_HAS_JIEBA` flag，无 jieba 自动降级
+5. **33 tests**，502 total pass（0 回归）
 
 ### 🆕 Task J：编译溯源 Build Provenance（P1，~1.5h）
 
