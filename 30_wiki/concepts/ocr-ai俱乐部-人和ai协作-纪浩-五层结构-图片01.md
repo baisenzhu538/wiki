@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_8c00cb42]
 created_at: "2026-06-09T14:03:49+00:00"
-updated_at: "2026-06-09T14:10:44+00:00"
+updated_at: "2026-06-09T14:23:11+00:00"
 ---
+
 
 
 
@@ -23,14 +24,32 @@ updated_at: "2026-06-09T14:10:44+00:00"
 
 ## Reusable Knowledge
 
-- TODO: Extract stable concepts, claims, decisions, and reusable patterns.
+- 人机协作的五层结构模型包含：项目、问题域、问题约束/工具/经验、任务状态、日志。
+- **项目层**：由人定义目标形态，负责所有关键决策和结构定义。
+- **问题域层**：独立垂直，必须遵循客观规律，作为"现实锚点"存在。
+- **问题约束/工具/经验层**：Agent直接关注和使用的知识与工具，提供因果链和能力支持。
+- **任务状态层**：关注前后状态的变化。
+- **日志层**：记录执行过程中的大量事实，用于排查问题。
+- 该模型强调**边界划分**：人在高层（项目）主导决策，AI在低层（约束/工具/状态/日志）执行与反馈。
+- 五层结构与Problem澄清过程存在关联关系（具体关联需结合原图理解）。
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
+- 五层结构的具体上下关系或层级依赖关系是什么？OCR文本中的排列顺序是否对应实际的层级高低？
+- "任务状态"层的描述"前后状态对变化"存在明显的OCR识别错误，原文是"前后状态的变化"还是"前后状态的对齐/对比"？
+- "边界与Problem澄清过程的关联关系"是五层结构之外的第六个维度，还是贯穿五层的设计原则？其与各层的具体交互机制是什么？
+- "问题域"层标注为"现实锚点"，但"独立垂直"的表述模糊——是指问题域之间互不干涉，还是指问题域与上下层隔离？
+- 人在"项目层"定义"所有关键决策"，但"问题约束/工具/经验"层由Agent直接使用——当Agent发现工具/经验不足以解决问题时，人是否介入以及如何反馈到项目层？
+- 五层结构中缺少"结果/输出"或"验证"层，任务完成后的评估与迭代如何纳入该模型？
+- "日志"层仅用于"排查问题"，是否也承担知识沉淀、经验回灌到"问题约束/工具/经验"层的功能？
+- 该模型与Problem澄清过程的具体关联方式因缺少原图而无法确定：是逐层映射、双向校验，还是澄清过程本身作为前置步骤？
 
 ## Output Opportunities
 
-- Content:
-- Code:
-- Capability: workflow or playbook
+Content: <article/tutorial/report/analysis or empty>
+Code: <script/tool/template or empty>
+Capability: <workflow/playbook/skill/agent or empty>
+
+Content: analysis
+Code: script
+Capability: playbook
