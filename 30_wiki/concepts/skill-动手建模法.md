@@ -9,8 +9,8 @@ domain:
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
-- 10_raw\sources\src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
-wiki_refs: &id001
+- 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
+wiki_refs:
 - skill-mece体系框架法
 - skill-四层联系建立法
 - skill-专题笔记脑图整理法
@@ -22,7 +22,7 @@ tools_required:
 - 流程图工具
 - 框架模板
 prerequisite_skills: []
-related: *id001
+related:
 tags:
 - '#domain/learning-methodology'
 - '#domain/yitang'

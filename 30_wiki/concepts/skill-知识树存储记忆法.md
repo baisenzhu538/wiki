@@ -9,8 +9,8 @@ domain:
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
-- 10_raw\sources\src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
-wiki_refs: &id001
+- 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
+wiki_refs:
 - skill-专题笔记脑图整理法
 - skill-四层联系建立法
 - skill-动手建模法
@@ -22,7 +22,7 @@ tools_required:
 - 知识管理工具（Notion/印象笔记/飞书文档等）
 - 知识树结构
 prerequisite_skills: []
-related: *id001
+related:
 tags:
 - '#domain/learning-methodology'
 - '#domain/yitang'

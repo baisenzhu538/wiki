@@ -9,8 +9,8 @@ domain:
 source_person: 一堂课程（费曼学习法）
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
-- 10_raw\sources\src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
-wiki_refs: &id001
+- 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
+wiki_refs:
 - skill-分享输出检验法
 - skill-清单小抄工具箱法
 - skill-立即实践转化法
@@ -22,7 +22,7 @@ tools_required:
 - 标记工具
 - 三句话模板
 prerequisite_skills: []
-related: *id001
+related:
 tags:
 - '#domain/learning-methodology'
 - '#domain/yitang'

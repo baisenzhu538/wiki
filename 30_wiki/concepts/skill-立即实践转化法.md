@@ -9,8 +9,8 @@ domain:
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
-- 10_raw\sources\src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
-wiki_refs: &id001
+- 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
+wiki_refs:
 - skill-复盘推演法
 - skill-费曼简单提炼法
 - skill-三层目标对齐法
@@ -23,7 +23,7 @@ tools_required:
 - 练习设计框架
 - 反馈机制
 prerequisite_skills: []
-related: *id001
+related:
 tags:
 - '#domain/learning-methodology'
 - '#domain/yitang'
