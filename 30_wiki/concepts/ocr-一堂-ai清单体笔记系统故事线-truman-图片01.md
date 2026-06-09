@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_a7f2ae2e]
 created_at: "2026-06-09T14:03:49+00:00"
-updated_at: "2026-06-09T14:07:16+00:00"
+updated_at: "2026-06-09T14:10:44+00:00"
 ---
+
 
 
 # OCR: 一堂-AI清单体笔记（系统故事线）-truman-图片01

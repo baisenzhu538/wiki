@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_a7dca35a]
 created_at: "2026-06-09T14:03:50+00:00"
-updated_at: "2026-06-09T14:07:16+00:00"
+updated_at: "2026-06-09T14:10:45+00:00"
 ---
+
 
 
 # OCR: 一堂-个人修炼-双三角模型

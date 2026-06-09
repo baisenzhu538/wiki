@@ -346,6 +346,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-truman-iteration-to-aesthetic-ceiling]]
 - [[30_wiki/concepts/case-truman-motivation-map-12-versions.md]]
+- [[30_wiki/concepts/case-truman-poker-deck-roi.md]]
 
 ## [[dk-yb1-aigc-mvp-before-ps]]
 - [[30_wiki/concepts/dk-yb23-ai-pre-screen-three-minutes.md]]
@@ -1323,6 +1324,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/ocr-一堂-管理必修-课程清单.md]]
 
 ## [[yt-decision-depth-ladder]]
+- [[30_wiki/concepts/case-truman-poker-deck-roi.md]]
 - [[30_wiki/concepts/ocr-truman的个人成长五步法.md]]
 - [[30_wiki/concepts/ocr-一堂-个人修炼-解放思想.md]]
 - [[30_wiki/concepts/ocr-一堂-地图-个人地图.md]]
@@ -1397,6 +1399,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/人机协作决策-双三角模型.md]]
 
 ## [[yt-decision-height-toolkit]]
+- [[30_wiki/concepts/case-truman-poker-deck-roi.md]]
 - [[30_wiki/concepts/ocr-项目背景问题思考的8个维度.md]]
 - [[30_wiki/concepts/yt-decision-consensus-iceberg.md]]
 - [[30_wiki/concepts/yt-decision-full-process.md]]
@@ -1559,6 +1562,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki/concepts/ocr-screenshot2.md]]
 
 ## [[yt-decision-width-method]]
+- [[30_wiki/concepts/case-truman-poker-deck-roi.md]]
 - [[30_wiki/concepts/ocr-一堂-个人修炼-解放思想.md]]
 - [[30_wiki/concepts/ocr-一堂-地图-管理地图.md]]
 - [[30_wiki/concepts/ocr-一堂-科学决策-roi决策评估画布.md]]
@@ -1585,6 +1589,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-decision-y-model]]
 - [[30_wiki/concepts/ai单元模型口述蒋老师.md]]
+- [[30_wiki/concepts/case-truman-poker-deck-roi.md]]
 - [[30_wiki/concepts/concept-一堂-hypothesis-driven-business-methodology.md]]
 - [[30_wiki/concepts/dk-一堂-wishful-thinking-kills-startups.md]]
 - [[30_wiki/concepts/ocr-一堂-个人修炼-y模型.md]]

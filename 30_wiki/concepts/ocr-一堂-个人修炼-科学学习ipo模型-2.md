@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_e3a27299]
 created_at: "2026-06-09T14:03:50+00:00"
-updated_at: "2026-06-09T14:07:17+00:00"
+updated_at: "2026-06-09T14:10:45+00:00"
 ---
+
 
 
 # OCR: 一堂-个人修炼-科学学习IPO模型

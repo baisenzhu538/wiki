@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_2e27ff75]
 created_at: "2026-06-09T14:04:56+00:00"
-updated_at: "2026-06-09T14:07:17+00:00"
+updated_at: "2026-06-09T14:10:45+00:00"
 ---
+
 
 
 # OCR: 一堂-单元模型-单柜子模型

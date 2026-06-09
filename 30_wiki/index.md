@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-09T14:07:19+00:00_
+_Last updated: 2026-06-09T14:10:47+00:00_
 
 - [[cases/case-ether-online-acquisition.md|案例：以太利用全网调研能力快速获客]] — source `一堂课程-规模经济章节（Truman口述）`
 - [[cases/case-truman-ai-partner.md|案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent]] — source `00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt`
@@ -45,6 +45,7 @@ _Last updated: 2026-06-09T14:07:19+00:00_
 - [[concepts/business-research-skill-oscar-13-weapon-system.md|Business Research Skill — OSCAR 13武器体系 Claude Code 实现]] — source no source
 - [[concepts/case-jh-yitang-vs-sqlhelper.md|一堂 vs SQL-Helper：复杂系统必须导诊台，封闭任务可以跳过——Agent架构选型的边界判断]] — source `00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md`
 - [[concepts/case-truman-motivation-map-12-versions.md|动力阻力触点图的12版迭代：从'口诀编译'到'双三角小抄'——知识产品的用户视角转换]] — source `00_inbox/ideas/一堂-个人修炼-泛产品设计工具篇口述版.md`
+- [[concepts/case-truman-poker-deck-roi.md|case-truman-poker-deck-roi]] — source no source
 - [[concepts/case-一堂-AI高考志愿-kernel-mismatch.md|案例：AI高考志愿填报产品因内核错位而失敗]] — source `00_inbox/一堂-产品内核实操课-truman-笔记.txt`
 - [[concepts/case-一堂-无人餐厅-hypothesis-failure.md|案例：一堂无人餐厅项目因忽视关键假设而失败]] — source `00_inbox/一堂-关键假设课-truman-笔记.txt`
 - [[concepts/case-一堂-陈贤敏汉堡-hypothesis-validation.md|案例：陈贤敏中式汉堡先开实验店验证关键假设]] — source `00_inbox/一堂-关键假设课-truman-笔记.txt`

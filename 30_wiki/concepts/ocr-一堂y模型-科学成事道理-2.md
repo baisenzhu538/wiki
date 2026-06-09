@@ -4,8 +4,9 @@ type: "concept"
 status: "enriched"
 source_refs: [src_20260609_3dea4712]
 created_at: "2026-06-09T14:05:52+00:00"
-updated_at: "2026-06-09T14:07:19+00:00"
+updated_at: "2026-06-09T14:10:47+00:00"
 ---
+
 
 
 # OCR: 一堂Y模型-科学成事道理
