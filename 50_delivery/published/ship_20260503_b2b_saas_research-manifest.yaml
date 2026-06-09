@@ -1,0 +1,31 @@
+---
+delivery_id: "ship_20260503_b2b_saas_research"
+shipped_at: "2026-05-03T05:56:55+00:00"
+channel: "internal"
+artifacts:
+  - artifact_id: "cap_20260503_b2b_saas_research"
+    type: "capability"
+    subtype: "workflow"
+    path: "40_outputs/capabilities/workflows/b2b-saas-competitive-research-playbook.md"
+  - artifact_id: "art_20260503_2705ecb6"
+    type: "content"
+    subtype: "article"
+    path: "40_outputs/content/articles/art_20260503_2705ecb6-诊所HIS竞品选型决策框架.md"
+---
+
+# Delivery Manifest: ship_20260503_b2b_saas_research
+
+## Note
+
+This is a manual shipment record (pre-dating standardized `kdo ship`).
+Contains 2 artifacts shipped together as a batch.
+
+## Validation Snapshot
+
+N/A (manual record)
+
+## Feedback Collection
+
+- method: 60_feedback/comments/
+- status: pending
+- collected: []

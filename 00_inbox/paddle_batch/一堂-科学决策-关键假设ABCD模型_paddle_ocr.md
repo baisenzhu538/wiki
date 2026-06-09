@@ -1,0 +1,32 @@
+---
+title: "OCR: 一堂-科学决策-关键假设ABCD模型"
+kind: "image_ocr"
+captured_at: "2026-06-09T14:03:04"
+original_image: ""
+ocr_engine: "paddleocr_onnx"
+trust_level: "medium"
+freshness: "2026-05"
+rights: "yitang_course_material"
+---
+
+# OCR: 一堂-科学决策-关键假设ABCD模型
+
+原图: `一堂-科学决策-关键假设ABCD模型.*`
+
+## OCR 原文
+
+一堂·关键假设ABC口模型
+yitangABCDStrategyModel
+成败问题
+A.商业场景 B.决策场景
+策略：一堂五步法 策略：投产比ROI
+宏观 微观 1
+C.增长场景 D.转化场景
+策略：增长公式 策略：动力阻力触点
+效率问题
+
+## 备注
+
+- 本文件由 PaddleOCR ONNX pipeline 自动提取
+- 可能存在连字/误识，需要人工校对
+- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解

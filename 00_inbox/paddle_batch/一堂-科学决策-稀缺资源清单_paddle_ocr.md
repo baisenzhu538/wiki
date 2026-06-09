@@ -1,0 +1,30 @@
+---
+title: "OCR: 一堂-科学决策-稀缺资源清单"
+kind: "image_ocr"
+captured_at: "2026-06-09T14:03:04"
+original_image: ""
+ocr_engine: "paddleocr_onnx"
+trust_level: "medium"
+freshness: "2026-05"
+rights: "yitang_course_material"
+---
+
+# OCR: 一堂-科学决策-稀缺资源清单
+
+原图: `一堂-科学决策-稀缺资源清单.*`
+
+## OCR 原文
+
+常见的稀缺资源清单
+1.CEO时间和注意力
+2.管理精力：管理者时间、内部会议/流程
+3.团队成员：产品、研发、销售、运营
+4.成本预算：投资款、投放成本、营销预算
+5.物理空间：货柜、场地、橱窗
+6.用户接触：销售时间、宣讲会、共建会、电销时间
+
+## 备注
+
+- 本文件由 PaddleOCR ONNX pipeline 自动提取
+- 可能存在连字/误识，需要人工校对
+- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解
