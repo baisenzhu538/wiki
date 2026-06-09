@@ -36,7 +36,7 @@ query_triggers:
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#management"
   - "#scene/learning-methodology/feedback-loop"
   - "#scene/skill-engineering/publish-deploy"

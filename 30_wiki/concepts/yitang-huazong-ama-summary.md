@@ -9,7 +9,7 @@ status: "stable"
 tags:
   - "#boundary/not-for-medical"
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration/human-ai-division"
   - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis/customer-acquisition"

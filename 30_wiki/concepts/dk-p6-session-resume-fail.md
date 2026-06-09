@@ -12,8 +12,8 @@ source_refs:
   - ".agent/pitfalls.md#P-6"
 tags:
   - "#boundary/single-use-only"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/ai-collaboration"

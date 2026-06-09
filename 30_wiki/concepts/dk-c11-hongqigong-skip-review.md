@@ -11,8 +11,8 @@ source_context: "2026-05-20"
 source_refs:
   - "20_memory/corrections.md#C-11"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/ai-collaboration"

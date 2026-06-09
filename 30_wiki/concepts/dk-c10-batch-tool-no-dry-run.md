@@ -12,8 +12,8 @@ source_refs:
   - "20_memory/corrections.md#C-10"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/learning-methodology/mental-models"

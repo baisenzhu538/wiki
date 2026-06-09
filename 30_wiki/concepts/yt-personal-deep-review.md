@@ -34,8 +34,8 @@ source_refs:
   - "src_20260507_df666081"
 status: "enriched"
 tags:
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/knowledge-management"
   - "#scene/learning-methodology/deliberate-practice"
   - "#scene/learning-methodology/feedback-loop"

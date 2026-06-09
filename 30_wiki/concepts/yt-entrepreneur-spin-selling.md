@@ -24,7 +24,7 @@ source_refs:
   - "10_raw/sources/一堂-读书会-SPIN销售法口述.md"
 status: "enriched"
 tags:
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#entrepreneurship"
   - "#sales"
   - "#scene/business-analysis"

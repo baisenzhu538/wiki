@@ -47,8 +47,8 @@ source_refs:
 status: "draft"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#management"
   - "#meeting"
   - "#productivity"

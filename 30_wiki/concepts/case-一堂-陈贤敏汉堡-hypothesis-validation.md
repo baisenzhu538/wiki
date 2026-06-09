@@ -2,7 +2,7 @@
 id: "case-一堂-陈贤敏汉堡-hypothesis-validation"
 title: "案例：陈贤敏中式汉堡先开实验店验证关键假设"
 type: "case"
-status: "published"
+status: "draft"
 domain:
   - "yitang"
   - "business-strategy"
@@ -11,8 +11,8 @@ source_context: "一堂-关键假设课-truman-笔记.txt"
 source_refs:
   - "00_inbox/一堂-关键假设课-truman-笔记.txt"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/yitang"
   - "#domain/business-strategy"
   - "#scene/startup/hypothesis-validation"

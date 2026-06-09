@@ -13,7 +13,7 @@ tags:
   - "#boundary/not-for-beginners"
   - "#boundary/not-for-medical"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/business-analysis"
   - "#scene/learning-methodology/mental-models"
   - "#scene/product-design"

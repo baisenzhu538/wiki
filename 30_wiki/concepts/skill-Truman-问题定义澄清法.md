@@ -14,7 +14,7 @@ definition_of_done:
   - "工具要求明确"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
+  - "confidence-draft"
   - "#domain/general"
   - "#scene/ai-collaboration/human-ai-division"
   - "#scene/learning-methodology/feedback-loop"

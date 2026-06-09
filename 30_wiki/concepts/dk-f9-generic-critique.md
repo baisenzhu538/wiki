@@ -12,9 +12,9 @@ source_refs:
   - "90_control/failure-modes.md#F-KDO-009"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/ai-collaboration"

@@ -16,9 +16,9 @@ related:
   - "yt-note-ai-p-role-not-c-role"
   - "yt-skill-storyline-target-tradeoff"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
   - "#scene/learning-methodology/deliberate-practice"

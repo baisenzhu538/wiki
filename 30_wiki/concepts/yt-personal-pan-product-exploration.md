@@ -27,7 +27,7 @@ status: "enriched"
 tags:
   - "#boundary/not-for-creative"
   - "#case-study"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#pan-product-design"
   - "#scene/business-analysis/conversion-rate"
   - "#scene/hardware-debugging/prototyping"

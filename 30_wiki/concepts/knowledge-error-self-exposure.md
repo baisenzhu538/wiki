@@ -7,7 +7,7 @@ domain:
   - "master"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
+  - "confidence-draft"
   - "#domain/knowledge-management"
   - "#method/quality"
   - "#scene/ai-collaboration"

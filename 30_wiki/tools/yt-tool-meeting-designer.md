@@ -32,7 +32,7 @@ query_triggers:
   - "减少无效会议"
   - "会议设计师"
 tags:
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#management"
   - "#scene/learning-methodology/feedback-loop"
   - "#scene/learning-methodology/mental-models"

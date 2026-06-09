@@ -14,7 +14,7 @@ definition_of_done:
   - "工具要求明确"
 tags:
   - "#boundary/single-use-only"
-  - "#confidence/draft"
+  - "confidence-draft"
   - "#domain/general"
   - "#scene/ai-collaboration"
   - "#scene/learning-methodology/feedback-loop"

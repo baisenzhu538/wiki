@@ -34,7 +34,7 @@ status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
   - "#cognitive-science"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#knowledge-management"
   - "#learning"
   - "#master"

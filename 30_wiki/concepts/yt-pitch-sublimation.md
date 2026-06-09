@@ -28,8 +28,8 @@ source_refs:
 status: "enriched"
 tags:
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#pitch"
   - "#scene/business-analysis/conversion-rate"
   - "#scene/learning-methodology/feedback-loop"

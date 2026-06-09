@@ -23,7 +23,7 @@ source_refs:
   - "10_raw/assets/yitang/一堂-个人修炼-提问刻意练习画布.png"
 status: "enriched"
 tags:
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#questioning"
   - "#scene/knowledge-management"
   - "#scene/learning-methodology/deliberate-practice"

@@ -29,7 +29,7 @@ status: "enriched"
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/learning-methodology/deliberate-practice"
   - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking/live-field"

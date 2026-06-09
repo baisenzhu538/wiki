@@ -12,8 +12,8 @@ updated_at: 2026-05-22
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/not-for-medical"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/ai-collaboration"
   - "#scene/hardware-debugging"
   - "#scene/knowledge-management"

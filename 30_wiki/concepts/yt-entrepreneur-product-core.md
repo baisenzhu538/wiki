@@ -34,7 +34,7 @@ source_refs:
   - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
 status: "enriched"
 tags:
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/business-analysis/conversion-rate"
   - "#scene/learning-methodology/feedback-loop"
   - "#scene/learning-methodology/mental-models"

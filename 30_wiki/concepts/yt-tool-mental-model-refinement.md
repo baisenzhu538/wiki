@@ -36,8 +36,8 @@ source_refs:
 status: "enriched"
 superseded_by: ""
 tags:
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
   - "#scene/learning-methodology/deliberate-practice"

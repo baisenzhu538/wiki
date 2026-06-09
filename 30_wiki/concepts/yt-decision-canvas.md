@@ -38,7 +38,7 @@ status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
   - "#canvas"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#decision-making"
   - "#scene/business-analysis"
   - "#scene/knowledge-management/tagging"

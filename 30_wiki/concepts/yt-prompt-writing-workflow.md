@@ -29,7 +29,7 @@ tags:
   - "#ai"
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#prompt-engineering"
   - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis"

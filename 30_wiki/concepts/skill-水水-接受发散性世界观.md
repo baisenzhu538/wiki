@@ -15,7 +15,7 @@ definition_of_done:
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
+  - "confidence-draft"
   - "#domain/general"
   - "#scene/learning-methodology/feedback-loop"
 tools_required: ""

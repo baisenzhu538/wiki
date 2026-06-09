@@ -2,7 +2,7 @@
 id: "concept-纪浩-ai-collaboration-five-layer"
 title: "概念：纪浩AI协作五层工作空间法"
 type: "concept"
-status: "published"
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -11,12 +11,12 @@ source_context: "AI俱乐部·AI协作方法论分享（2026年）"
 source_refs:
   - "00_inbox/纪浩-AI协作方法论-口述.md"
 tags:
-  - "#confidence/published"
-  - "#confidence/source-cited"
+  - "confidence-published"
+  - "confidence-source-cited"
   - "#domain/ai-collaboration"
-  - "#topic/agent-management"
-  - "#topic/workspace-design"
-  - "#topic/knowledge-management"
+  - "#agent-management"
+  - "#workspace-design"
+  - "#knowledge-management"
 created_at: "2026-06-09"
 updated_at: "2026-06-09"
 related:

@@ -36,7 +36,7 @@ tags:
   - "#boundary/not-for-beginners"
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"

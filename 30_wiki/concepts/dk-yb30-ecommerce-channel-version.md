@@ -11,8 +11,8 @@ source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计基础01.txt"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/design"
   - "#source_type/dark-knowledge"
 created_at: 2026-06-04

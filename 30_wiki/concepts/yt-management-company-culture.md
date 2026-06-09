@@ -32,8 +32,8 @@ query_triggers:
   - "企业文化不是口号"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/note-taking"
   - "#scene/skill-engineering"
   - "#yitang"

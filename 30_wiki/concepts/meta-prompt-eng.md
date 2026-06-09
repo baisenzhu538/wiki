@@ -10,8 +10,8 @@ title: "Meta Prompt Eng"
 type: "concept"
 updated_at: 2026-05-21
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration"
   - "#scene/learning-methodology"
   - "#scene/note-taking/checklist-method"

@@ -11,8 +11,8 @@ source_context: "pitfalls.md P-17"
 source_refs:
   - ".agent/pitfalls.md#P-17"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/agent-infrastructure"

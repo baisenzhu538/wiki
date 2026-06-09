@@ -12,8 +12,8 @@ updated_at: 2026-04-28
 tags:
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis/conversion-rate"
   - "#scene/knowledge-management"

@@ -13,7 +13,7 @@ tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/learning-methodology/feedback-loop"
   - "#scene/product-design"
   - "#scene/skill-engineering/publish-deploy"

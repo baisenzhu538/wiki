@@ -8,7 +8,7 @@ source_context: "广冷红外板 V2.2 调试——SN74LVC2G07 驱动 595 移位�
 source_refs:
   - "90_control/electronics-practice/failure-modes-electronics.md"
 tags:
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#domain/electronics"
   - "#hardware/level-shift"
   - "#hardware/open-drain"

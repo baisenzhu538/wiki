@@ -32,7 +32,7 @@ source_refs:
 status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#execution"
   - "#pan-product-design"
   - "#roi"

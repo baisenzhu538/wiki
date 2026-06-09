@@ -8,8 +8,8 @@ source_refs:
 status: "draft"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis"
   - "#scene/knowledge-management"

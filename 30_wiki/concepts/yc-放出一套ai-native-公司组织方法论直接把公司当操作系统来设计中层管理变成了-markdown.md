@@ -16,7 +16,7 @@ tags:
   - "#boundary/not-for-medical"
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration"
   - "#scene/hardware-debugging/prototyping"
   - "#scene/learning-methodology/feedback-loop"

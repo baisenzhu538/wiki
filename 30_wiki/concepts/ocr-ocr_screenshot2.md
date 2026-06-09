@@ -10,7 +10,7 @@ title: "OCR: ocr_screenshot2"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration"
   - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology/mental-models"

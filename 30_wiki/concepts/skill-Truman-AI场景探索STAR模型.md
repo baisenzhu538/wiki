@@ -15,7 +15,7 @@ definition_of_done:
 tags:
   - "#boundary/not-for-beginners"
   - "#boundary/not-for-creative"
-  - "#confidence/draft"
+  - "confidence-draft"
   - "#domain/AI"
   - "#domain/scene-analysis"
   - "#scene/learning-methodology/feedback-loop"

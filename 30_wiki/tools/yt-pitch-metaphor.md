@@ -25,8 +25,8 @@ query_triggers:
   - "高级比喻"
 tags:
   - "#boundary/not-for-creative"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#pitch"
   - "#scene/business-analysis"
   - "#scene/knowledge-management/tagging"

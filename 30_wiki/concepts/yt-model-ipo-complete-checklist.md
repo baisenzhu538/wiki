@@ -27,7 +27,7 @@ status: "enriched"
 tags:
   - "#boundary/not-for-creative"
   - "#catalog"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#learning-model"
   - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis/conversion-rate"

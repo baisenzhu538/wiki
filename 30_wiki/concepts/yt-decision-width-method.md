@@ -40,7 +40,7 @@ tags:
   - "#boundary/requires-human-judgment"
   - "#breadth"
   - "#checklist"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#decision-making"
   - "#scene/business-analysis/conversion-rate"
   - "#scene/business-analysis/customer-acquisition"

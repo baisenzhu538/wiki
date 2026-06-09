@@ -12,9 +12,9 @@ source_refs:
   - "20_memory/corrections.md#C-8"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/hardware-debugging/prototyping"

@@ -14,8 +14,8 @@ source_refs:
 tags:
   - "#boundary/not-for-beginners"
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/ai-collaboration"
   - "#scene/ai-collaboration/problem-validation"
   - "#scene/hardware-debugging/prototyping"

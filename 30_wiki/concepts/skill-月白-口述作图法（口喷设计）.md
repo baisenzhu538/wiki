@@ -13,7 +13,7 @@ definition_of_done:
   - "适用场景有正反例"
   - "工具要求明确"
 tags:
-  - "#confidence/draft"
+  - "confidence-draft"
   - "#domain/design"
   - "#scene/learning-methodology/feedback-loop"
 tools_required: ""

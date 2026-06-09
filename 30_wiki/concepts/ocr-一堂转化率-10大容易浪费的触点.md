@@ -13,7 +13,7 @@ tags:
   - "#boundary/not-for-beginners"
   - "#boundary/not-for-medical"
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/business-analysis/conversion-rate"
   - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking/level-diagnosis"

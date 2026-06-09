@@ -2,7 +2,7 @@
 id: "dk-一堂-wishful-thinking-kills-startups"
 title: "暗知：'愿望思维'是创业最大的陷阱"
 type: "dk"
-status: "published"
+status: "draft"
 domain:
   - "yitang"
   - "business-strategy"
@@ -13,12 +13,12 @@ source_refs:
   - "00_inbox/一堂-商业预判课-truman-笔记.txt"
   - "00_inbox/一堂-产品内核迭代课-Truman-笔记.txt"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/yitang"
   - "#domain/business-strategy"
-  - "#topic/cognitive-bias"
-  - "#topic/decision-making"
+  - "#cognitive-bias"
+  - "#decision-making"
 created_at: "2026-06-08"
 updated_at: "2026-06-09"
 related:

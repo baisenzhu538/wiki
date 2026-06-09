@@ -12,8 +12,8 @@ updated_at: 2026-05-22
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/business-analysis"
   - "#scene/learning-methodology"
   - "#scene/note-taking/live-field"

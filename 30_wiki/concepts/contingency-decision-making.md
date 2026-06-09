@@ -15,8 +15,8 @@ query_triggers:
   - "专家预测为什么不准"
 reviewed_by: ""
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#scene/learning-methodology/mental-models"
   - "#scene/skill-engineering/manifest-design"
 ---

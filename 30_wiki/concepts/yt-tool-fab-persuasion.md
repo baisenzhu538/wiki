@@ -33,8 +33,8 @@ source_refs:
 status: "enriched"
 superseded_by: ""
 tags:
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/business-analysis/conversion-rate"
   - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"

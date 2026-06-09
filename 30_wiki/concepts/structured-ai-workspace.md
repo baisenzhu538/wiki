@@ -16,8 +16,8 @@ query_triggers:
 reviewed_by: ""
 tags:
   - "#boundary/single-use-only"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#scene/agent-infrastructure"
   - "#scene/ai-collaboration/workspace-design"
   - "#scene/knowledge-management/atomization"

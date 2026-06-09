@@ -27,8 +27,8 @@ query_triggers:
 tags:
   - "#boundary/not-for-medical"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#pitch"
   - "#scene/business-analysis"
   - "#scene/learning-methodology/feedback-loop"

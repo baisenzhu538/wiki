@@ -11,8 +11,8 @@ source_context: "failure-modes.md F-KDO-004"
 source_refs:
   - "90_control/failure-modes.md#F-KDO-004"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/agent-infrastructure"

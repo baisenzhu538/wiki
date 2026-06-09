@@ -15,8 +15,8 @@ updated_at: 2026-05-03
 tags:
   - "#boundary/not-for-medical"
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/business-analysis"
   - "#scene/learning-methodology"
   - "#scene/note-taking"

@@ -12,8 +12,8 @@ updated_at: 2026-05-22
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/hardware-debugging/prototyping"
   - "#scene/product-design"
   - "#scene/skill-engineering/publish-deploy"

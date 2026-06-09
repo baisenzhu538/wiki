@@ -6,8 +6,8 @@ status: "draft"
 domain:
   - "master"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/agent-infrastructure/skill-registry"

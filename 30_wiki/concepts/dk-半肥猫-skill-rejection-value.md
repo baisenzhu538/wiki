@@ -13,9 +13,9 @@ source_refs:
 tags:
   - "#boundary/not-for-medical"
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-test"
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-test"
   - "#domain/ai-collaboration"
   - "#domain/yitang"
   - "#scene/ai-collaboration"

@@ -34,7 +34,7 @@ status: "enriched"
 tags:
   - "#ai"
   - "#boundary/not-for-creative"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#decision-making"
   - "#scene/ai-collaboration/human-ai-division"
   - "#scene/learning-methodology/feedback-loop"

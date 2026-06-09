@@ -25,7 +25,7 @@ status: "enriched"
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#deliberate-practice"
   - "#questioning"
   - "#scene/learning-methodology/deliberate-practice"

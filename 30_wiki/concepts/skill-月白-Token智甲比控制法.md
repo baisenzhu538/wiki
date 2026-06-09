@@ -15,7 +15,7 @@ definition_of_done:
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
+  - "confidence-draft"
   - "#domain/AI"
   - "#domain/design"
   - "#scene/ai-collaboration/prompt-engineering"

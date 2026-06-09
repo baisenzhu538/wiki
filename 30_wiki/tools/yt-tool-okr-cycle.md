@@ -33,7 +33,7 @@ query_triggers:
   - "目标管理工具"
 tags:
   - "#boundary/not-for-creative"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#management"
   - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"

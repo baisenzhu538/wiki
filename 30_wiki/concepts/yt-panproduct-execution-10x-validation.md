@@ -33,7 +33,7 @@ tags:
   - "#boundary/not-for-medical"
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#execution"
   - "#pan-product-design"
   - "#scene/learning-methodology/feedback-loop"

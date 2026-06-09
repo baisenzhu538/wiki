@@ -35,7 +35,7 @@ tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#pan-product-design"
   - "#scene/learning-methodology/mental-models"
   - "#scene/product-design"

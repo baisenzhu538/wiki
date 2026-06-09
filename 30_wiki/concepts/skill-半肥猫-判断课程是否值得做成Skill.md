@@ -12,9 +12,9 @@ source_refs:
   - "00_inbox/半肥猫-AI学习落地-口述.md"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#domain/ai-collaboration"
   - "#domain/yitang"
   - "#scene/ai-collaboration"

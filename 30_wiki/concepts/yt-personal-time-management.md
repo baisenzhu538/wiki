@@ -28,7 +28,7 @@ source_refs:
 status: "enriched"
 tags:
   - "#boundary/not-for-creative"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/knowledge-management"
   - "#scene/learning-methodology/deliberate-practice"
   - "#scene/learning-methodology/feedback-loop"

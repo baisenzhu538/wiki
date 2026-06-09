@@ -15,8 +15,8 @@ query_triggers:
 reviewed_by: ""
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration/problem-validation"
   - "#scene/learning-methodology/feedback-loop"
   - "#scene/learning-methodology/mental-models"

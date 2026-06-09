@@ -19,8 +19,8 @@ source_refs:
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration"
   - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking/checklist-method"

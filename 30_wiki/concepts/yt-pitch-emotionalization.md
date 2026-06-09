@@ -29,7 +29,7 @@ status: "enriched"
 tags:
   - "#boundary/not-for-medical"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#pitch"
   - "#scene/business-analysis/conversion-rate"
   - "#scene/learning-methodology/mental-models"

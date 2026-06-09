@@ -26,8 +26,8 @@ source_refs:
   - "10_raw/assets/yitang/一堂转化率-10大容易浪费的触点.png"
 status: "enriched"
 tags:
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-test"
+  - "confidence-source-cited"
+  - "confidence-verified-by-test"
   - "#conversion-optimization"
   - "#growth"
   - "#management"

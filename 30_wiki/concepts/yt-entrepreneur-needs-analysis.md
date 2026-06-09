@@ -29,8 +29,8 @@ source_refs:
 status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/ai-collaboration/problem-validation"
   - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis/customer-acquisition"

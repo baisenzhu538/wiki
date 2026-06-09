@@ -28,7 +28,7 @@ status: "enriched"
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#pitch"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"

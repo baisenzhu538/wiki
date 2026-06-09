@@ -11,7 +11,7 @@ tags:
   - "#boundary/not-for-medical"
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/verified-by-case"
+  - "confidence-verified-by-case"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis/customer-acquisition"
   - "#scene/learning-methodology/feedback-loop"

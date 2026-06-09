@@ -12,7 +12,7 @@ updated_at: 2026-05-22
 tags:
   - "#boundary/not-for-beginners"
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration/pdca-execution"
   - "#scene/business-analysis"
   - "#scene/hardware-debugging/prototyping"

@@ -12,8 +12,8 @@ source_refs:
   - "00_inbox/design/AI设计-AI设计基础01.txt"
 tags:
   - "#boundary/not-for-creative"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/design"
   - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/hardware-debugging/bom-management"

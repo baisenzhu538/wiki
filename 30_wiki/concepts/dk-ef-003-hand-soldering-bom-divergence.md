@@ -9,7 +9,7 @@ source_refs:
   - "90_control/electronics-practice/failure-modes-electronics.md"
 tags:
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#domain/electronics"
   - "#hardware/manufacturing"
   - "#hardware/prototyping"

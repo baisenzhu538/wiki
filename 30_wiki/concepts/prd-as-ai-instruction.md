@@ -15,8 +15,8 @@ query_triggers:
   - "产品需求文档AI"
 reviewed_by: ""
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#scene/agent-infrastructure"
   - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/ai-collaboration/workspace-design"

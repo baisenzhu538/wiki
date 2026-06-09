@@ -31,7 +31,7 @@ tags:
   - "#ai-model"
   - "#boundary/not-for-creative"
   - "#competitiveness"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration/human-ai-division"
   - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis"

@@ -12,8 +12,8 @@ source_refs:
   - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/design"
   - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/skill-engineering/publish-deploy"

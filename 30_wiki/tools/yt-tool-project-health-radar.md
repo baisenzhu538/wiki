@@ -35,7 +35,7 @@ tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#management"
   - "#project"
   - "#scene/hardware-debugging/prototyping"

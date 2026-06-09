@@ -30,7 +30,7 @@ tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
   - "#brainstorming"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#creativity"
   - "#prompt-engineering"
   - "#scene/ai-collaboration/prompt-engineering"

@@ -32,7 +32,7 @@ query_triggers:
   - "创始人角色"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/learning-methodology"
   - "#scene/note-taking/level-diagnosis"
   - "#scene/product-design"

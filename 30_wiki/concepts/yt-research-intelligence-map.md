@@ -30,8 +30,8 @@ source_refs:
 status: "reviewed"
 tags:
   - "#boundary/not-for-medical"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#framework"
   - "#research"
   - "#scene/business-analysis"

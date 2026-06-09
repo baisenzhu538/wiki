@@ -32,8 +32,8 @@ source_refs:
   - {"来源": "Jay Forrester, Donella Meadows, Peter Senge"}
 status: "enriched"
 tags:
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/business-analysis"
   - "#scene/learning-methodology/deliberate-practice"
   - "#scene/learning-methodology/feedback-loop"

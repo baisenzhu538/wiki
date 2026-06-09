@@ -34,8 +34,8 @@ query_triggers:
 tags:
   - "#boundary/not-for-beginners"
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/business-analysis"
   - "#scene/learning-methodology/feedback-loop"
   - "#scene/learning-methodology/mental-models"

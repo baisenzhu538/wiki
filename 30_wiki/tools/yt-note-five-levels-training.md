@@ -33,8 +33,8 @@ query_triggers:
   - "刻意练习笔记"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#deliberate-practice"
   - "#note-taking"
   - "#scene/learning-methodology/deliberate-practice"

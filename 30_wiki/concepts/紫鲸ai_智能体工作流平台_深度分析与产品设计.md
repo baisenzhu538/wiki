@@ -13,7 +13,7 @@ updated_at: 2026-05-03
 tags:
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
   - "#scene/learning-methodology/mental-models"

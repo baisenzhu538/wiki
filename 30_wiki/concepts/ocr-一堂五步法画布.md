@@ -10,7 +10,7 @@ title: "OCR: 一堂五步法画布"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration/pdca-execution"
   - "#scene/business-analysis"
   - "#scene/knowledge-management"

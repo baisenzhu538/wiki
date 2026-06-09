@@ -34,7 +34,7 @@ tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
   - "#collaboration"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#execution"
   - "#pan-product-design"
   - "#scene/agent-infrastructure"

@@ -28,8 +28,8 @@ source_refs:
 status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#pitch"
   - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"

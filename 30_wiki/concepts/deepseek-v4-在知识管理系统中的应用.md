@@ -12,7 +12,7 @@ updated_at: 2026-05-05
 tags:
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/knowledge-management"
   - "#scene/learning-methodology/mental-models"
   - "#scene/skill-engineering"

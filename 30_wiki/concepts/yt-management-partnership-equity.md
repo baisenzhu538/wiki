@@ -26,7 +26,7 @@ status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/verified-by-case"
+  - "confidence-verified-by-case"
   - "#scene/learning-methodology"
   - "#scene/note-taking"
   - "#scene/skill-engineering"

@@ -11,8 +11,8 @@ source_context: "failure-modes.md F-KDO-013"
 source_refs:
   - "90_control/failure-modes.md#F-KDO-013"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/knowledge-management/tagging"

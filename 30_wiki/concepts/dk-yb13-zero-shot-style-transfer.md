@@ -11,8 +11,8 @@ source_context: "口述稿: AI设计-AI设计师实操培训01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/design"
   - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/learning-methodology"

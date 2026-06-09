@@ -10,7 +10,7 @@ title: "OCR: 泛产品设计-用户卡片-动力阻力"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis/conversion-rate"
   - "#scene/learning-methodology/feedback-loop"

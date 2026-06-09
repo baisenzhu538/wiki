@@ -10,8 +10,8 @@ title: "OCR: 婚礼规划"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/business-analysis"
   - "#scene/learning-methodology/mental-models"
   - "#scene/skill-engineering/publish-deploy"

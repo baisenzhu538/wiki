@@ -31,7 +31,7 @@ status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#pan-product-design"
   - "#scene/business-analysis"
   - "#scene/learning-methodology/deliberate-practice"

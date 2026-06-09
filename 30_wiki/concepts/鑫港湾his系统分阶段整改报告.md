@@ -15,7 +15,7 @@ updated_at: 2026-05-03
 tags:
   - "#boundary/not-for-medical"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/agent-infrastructure"
   - "#scene/knowledge-management"
   - "#scene/learning-methodology/mental-models"

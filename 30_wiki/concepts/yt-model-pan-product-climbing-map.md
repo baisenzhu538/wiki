@@ -35,7 +35,7 @@ superseded_by: ""
 tags:
   - "#boundary/not-for-beginners"
   - "#boundary/not-for-creative"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology/deliberate-practice"
   - "#scene/learning-methodology/feedback-loop"

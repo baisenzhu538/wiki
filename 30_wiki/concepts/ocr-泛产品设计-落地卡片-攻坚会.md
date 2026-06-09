@@ -12,7 +12,7 @@ updated_at: 2026-05-22
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/agent-infrastructure"
   - "#scene/ai-collaboration"
   - "#scene/hardware-debugging/prototyping"

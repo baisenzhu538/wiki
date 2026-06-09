@@ -10,7 +10,7 @@ title: "OCR: 泛产品设计-用户卡片-需求挖掘"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/business-analysis"
   - "#scene/learning-methodology/feedback-loop"
   - "#scene/learning-methodology/mental-models"

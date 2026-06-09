@@ -12,9 +12,9 @@ source_refs:
   - ".agent/pitfalls.md#P-10"
 tags:
   - "#boundary/single-use-only"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/ai-collaboration"

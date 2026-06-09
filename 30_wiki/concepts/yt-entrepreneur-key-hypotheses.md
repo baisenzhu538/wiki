@@ -31,7 +31,7 @@ status: "enriched"
 tags:
   - "#boundary/not-for-beginners"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration/pdca-execution"
   - "#scene/business-analysis/conversion-rate"
   - "#scene/business-analysis/customer-acquisition"

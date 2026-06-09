@@ -34,7 +34,7 @@ query_triggers:
 tags:
   - "#boundary/not-for-beginners"
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration"
   - "#scene/learning-methodology/deliberate-practice"
   - "#scene/learning-methodology/feedback-loop"

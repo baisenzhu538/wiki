@@ -20,7 +20,7 @@ query_triggers:
   - "知识挖掘飞轮"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/verified-by-test"
+  - "confidence-verified-by-test"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
   - "#scene/knowledge-management"

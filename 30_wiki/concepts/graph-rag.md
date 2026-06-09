@@ -17,7 +17,7 @@ tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/verified-by-case"
+  - "confidence-verified-by-case"
   - "#knowledge-graph"
   - "#rag"
   - "#retrieval"

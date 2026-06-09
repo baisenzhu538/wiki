@@ -11,8 +11,8 @@ type: "concept"
 updated_at: 2026-05-21
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration/prompt-engineering"
 ---
 

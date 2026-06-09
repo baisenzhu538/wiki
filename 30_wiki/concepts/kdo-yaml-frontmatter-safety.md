@@ -14,7 +14,7 @@ related:
   - "fix-data-curator-parse-bug"
   - "gold-standard-manual-labels"
 tags:
-  - "#confidence/draft"
+  - "confidence-draft"
   - "#scene/agent-infrastructure/skill-registry"
   - "#scene/knowledge-management/tagging"
 ---

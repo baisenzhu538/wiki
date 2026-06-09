@@ -12,7 +12,7 @@ updated_at: 2026-05-22
 tags:
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/business-analysis"
   - "#scene/hardware-debugging/prototyping"
   - "#scene/learning-methodology"

@@ -11,7 +11,7 @@ type: "concept"
 updated_at: 2026-05-22
 tags:
   - "#boundary/not-for-creative"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis"
   - "#scene/knowledge-management"

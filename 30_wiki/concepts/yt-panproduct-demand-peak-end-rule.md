@@ -30,8 +30,8 @@ source_refs:
 status: "enriched"
 tags:
   - "#boundary/not-for-beginners"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#pan-product-design"
   - "#peak-end-rule"
   - "#scene/business-analysis/conversion-rate"

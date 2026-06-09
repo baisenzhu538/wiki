@@ -15,7 +15,7 @@ definition_of_done:
 tags:
   - "#boundary/not-for-beginners"
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
+  - "confidence-draft"
   - "#domain/general"
   - "#scene/business-analysis"
   - "#scene/learning-methodology/feedback-loop"

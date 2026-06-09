@@ -12,7 +12,7 @@ updated_at: 2026-05-22
 tags:
   - "#boundary/not-for-beginners"
   - "#boundary/not-for-creative"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/business-analysis"
   - "#scene/hardware-debugging/prototyping"
   - "#scene/learning-methodology/deliberate-practice"

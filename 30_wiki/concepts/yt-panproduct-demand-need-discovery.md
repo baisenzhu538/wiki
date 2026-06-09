@@ -29,7 +29,7 @@ source_refs:
 status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#need-discovery"
   - "#pan-product-design"
   - "#scene/ai-collaboration/problem-validation"

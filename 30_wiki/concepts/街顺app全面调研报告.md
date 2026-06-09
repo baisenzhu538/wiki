@@ -15,8 +15,8 @@ updated_at: 2026-05-03
 tags:
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/business-analysis"
   - "#scene/hardware-debugging"
   - "#scene/note-taking/checklist-method"

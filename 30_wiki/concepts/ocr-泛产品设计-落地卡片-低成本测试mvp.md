@@ -12,7 +12,7 @@ updated_at: 2026-05-22
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/hardware-debugging"
   - "#scene/knowledge-management"
   - "#scene/product-design"

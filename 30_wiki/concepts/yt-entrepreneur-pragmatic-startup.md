@@ -30,7 +30,7 @@ tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/business-analysis"
   - "#scene/learning-methodology"
   - "#scene/note-taking/live-field"

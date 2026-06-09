@@ -33,7 +33,7 @@ query_triggers:
 tags:
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#equity"
   - "#management"
   - "#scene/note-taking"

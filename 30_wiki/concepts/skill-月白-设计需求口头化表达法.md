@@ -14,7 +14,7 @@ definition_of_done:
   - "工具要求明确"
 tags:
   - "#boundary/not-for-creative"
-  - "#confidence/draft"
+  - "confidence-draft"
   - "#domain/AI"
   - "#domain/design"
   - "#scene/ai-collaboration/prompt-engineering"

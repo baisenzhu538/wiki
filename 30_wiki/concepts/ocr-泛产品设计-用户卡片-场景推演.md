@@ -11,7 +11,7 @@ type: "concept"
 updated_at: 2026-05-22
 tags:
   - "#boundary/not-for-beginners"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration/problem-validation"
   - "#scene/business-analysis"
   - "#scene/learning-methodology/feedback-loop"

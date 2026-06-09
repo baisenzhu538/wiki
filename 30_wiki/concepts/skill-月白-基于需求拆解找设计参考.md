@@ -14,7 +14,7 @@ definition_of_done:
   - "工具要求明确"
 tags:
   - "#boundary/not-for-creative"
-  - "#confidence/draft"
+  - "confidence-draft"
   - "#domain/design"
   - "#scene/learning-methodology/feedback-loop"
 tools_required: ""

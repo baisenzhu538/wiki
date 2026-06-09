@@ -31,7 +31,7 @@ status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/agent-infrastructure"
   - "#scene/business-analysis/conversion-rate"
   - "#scene/learning-methodology/feedback-loop"

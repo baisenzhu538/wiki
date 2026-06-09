@@ -8,9 +8,9 @@ source_refs:
 status: "draft"
 tags:
   - "#boundary/not-for-creative"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/business-analysis"
   - "#scene/hardware-debugging/prototyping"

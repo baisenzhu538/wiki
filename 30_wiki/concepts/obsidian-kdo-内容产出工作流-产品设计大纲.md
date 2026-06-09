@@ -12,7 +12,7 @@ type: "concept"
 updated_at: 2026-05-03
 tags:
   - "#boundary/not-for-creative"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration"
   - "#scene/knowledge-management"
   - "#scene/learning-methodology/feedback-loop"

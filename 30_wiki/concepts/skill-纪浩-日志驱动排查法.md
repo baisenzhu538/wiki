@@ -13,8 +13,8 @@ source_refs:
   - "00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/ai-collaboration"
   - "#domain/yitang"
   - "#scene/ai-collaboration/workspace-design"

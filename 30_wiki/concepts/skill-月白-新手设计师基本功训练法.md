@@ -15,7 +15,7 @@ definition_of_done:
 tags:
   - "#boundary/not-for-beginners"
   - "#boundary/single-use-only"
-  - "#confidence/draft"
+  - "confidence-draft"
   - "#domain/design"
   - "#scene/learning-methodology/deliberate-practice"
   - "#scene/learning-methodology/feedback-loop"

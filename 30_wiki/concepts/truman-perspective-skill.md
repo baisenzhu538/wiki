@@ -10,7 +10,7 @@ status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/verified-by-case"
+  - "confidence-verified-by-case"
   - "#entrepreneurship"
   - "#persona"
   - "#scene/ai-collaboration"

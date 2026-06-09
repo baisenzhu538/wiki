@@ -15,7 +15,7 @@ definition_of_done:
 tags:
   - "#boundary/requires-human-judgment"
   - "#boundary/single-use-only"
-  - "#confidence/draft"
+  - "confidence-draft"
   - "#domain/AI"
   - "#domain/scene-analysis"
   - "#scene/hardware-debugging"

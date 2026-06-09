@@ -12,8 +12,8 @@ source_refs:
   - "00_inbox/纪浩-AI协作方法论-口述.md"
   - "00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/ai-collaboration"
   - "#domain/yitang"
 related:

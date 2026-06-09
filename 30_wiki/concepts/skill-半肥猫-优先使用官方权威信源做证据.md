@@ -12,9 +12,9 @@ source_refs:
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/not-for-medical"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#domain/ai-collaboration"
   - "#scene/ai-collaboration"
   - "#scene/business-analysis/conversion-rate"

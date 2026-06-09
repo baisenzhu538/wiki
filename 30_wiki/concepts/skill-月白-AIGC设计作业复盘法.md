@@ -14,8 +14,8 @@ definition_of_done:
   - "工具要求明确"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/verified-by-case"
+  - "confidence-draft"
+  - "confidence-verified-by-case"
   - "#domain/design"
   - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/knowledge-management/case-library"

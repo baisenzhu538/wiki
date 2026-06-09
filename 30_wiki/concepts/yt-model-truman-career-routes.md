@@ -27,7 +27,7 @@ tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
   - "#career-planning"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#deliberate-practice"
   - "#pan-product-design"
   - "#scene/business-analysis"

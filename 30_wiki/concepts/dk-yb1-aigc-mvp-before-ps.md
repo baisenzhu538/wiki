@@ -13,8 +13,8 @@ source_refs:
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/design"
   - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/hardware-debugging/bom-management"

@@ -26,7 +26,7 @@ status: "enriched"
 tags:
   - "#boundary/not-for-beginners"
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#core-model"
   - "#methodology"
   - "#progress-map"

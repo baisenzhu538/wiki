@@ -2,7 +2,7 @@
 id: "dk-纪浩-problem-vs-question"
 title: "暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem"
 type: "dk"
-status: "published"
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -11,11 +11,11 @@ source_context: "AI俱乐部·AI协作方法论分享（2026年）"
 source_refs:
   - "00_inbox/纪浩-AI协作方法论-口述.md"
 tags:
-  - "#confidence/published"
-  - "#confidence/source-cited"
+  - "confidence-published"
+  - "confidence-source-cited"
   - "#domain/ai-collaboration"
-  - "#topic/problem-identification"
-  - "#topic/agent-capability"
+  - "#problem-identification"
+  - "#agent-capability"
 created_at: "2026-06-09"
 updated_at: "2026-06-09"
 related:

@@ -31,7 +31,7 @@ query_triggers:
   - "团队文化传递"
   - "新人留存"
 tags:
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#management"
   - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"

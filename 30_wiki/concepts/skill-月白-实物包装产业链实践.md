@@ -14,8 +14,8 @@ definition_of_done:
   - "工具要求明确"
 tags:
   - "#boundary/not-for-beginners"
-  - "#confidence/draft"
-  - "#confidence/verified-by-case"
+  - "confidence-draft"
+  - "confidence-verified-by-case"
   - "#domain/general"
   - "#scene/hardware-debugging/prototyping"
   - "#scene/learning-methodology/feedback-loop"

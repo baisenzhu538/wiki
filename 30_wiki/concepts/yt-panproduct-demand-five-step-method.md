@@ -30,7 +30,7 @@ status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
   - "#business-model"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#five-step-method"
   - "#pan-product-design"
   - "#scene/business-analysis/customer-acquisition"

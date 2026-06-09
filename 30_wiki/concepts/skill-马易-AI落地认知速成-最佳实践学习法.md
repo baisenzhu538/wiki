@@ -15,8 +15,8 @@ definition_of_done:
 tags:
   - "#boundary/not-for-medical"
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/verified-by-case"
+  - "confidence-draft"
+  - "confidence-verified-by-case"
   - "#domain/AI"
   - "#domain/learning"
   - "#domain/scene-analysis"

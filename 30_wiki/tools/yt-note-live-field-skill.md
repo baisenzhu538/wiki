@@ -33,8 +33,8 @@ query_triggers:
 tags:
   - "#action-driven"
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#live-field"
   - "#note-taking"
   - "#scene/learning-methodology/mental-models"

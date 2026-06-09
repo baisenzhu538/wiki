@@ -10,7 +10,7 @@ title: "Learning Thinking"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration/pdca-execution"
   - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/learning-methodology/feedback-loop"

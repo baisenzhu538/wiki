@@ -31,7 +31,7 @@ tags:
   - "#boundary/not-for-beginners"
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#personal-growth"
   - "#scene/agent-infrastructure"
   - "#scene/learning-methodology/feedback-loop"

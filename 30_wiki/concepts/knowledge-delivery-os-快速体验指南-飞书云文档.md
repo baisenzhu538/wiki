@@ -11,7 +11,7 @@ type: "concept"
 updated_at: 2026-05-04
 tags:
   - "#boundary/not-for-beginners"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/agent-infrastructure"
   - "#scene/ai-collaboration/workspace-design"
   - "#scene/hardware-debugging/prototyping"

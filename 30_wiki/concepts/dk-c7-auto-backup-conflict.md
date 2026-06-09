@@ -12,8 +12,8 @@ source_refs:
   - "20_memory/corrections.md#C-7"
 tags:
   - "#boundary/single-use-only"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/knowledge-management"

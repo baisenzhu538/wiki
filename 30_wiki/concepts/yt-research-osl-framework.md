@@ -34,7 +34,7 @@ status: "reviewed"
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#framework"
   - "#research"
   - "#scene/ai-collaboration/human-ai-division"

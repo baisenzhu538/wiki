@@ -28,8 +28,8 @@ source_refs:
 status: "enriched"
 tags:
   - "#boundary/not-for-medical"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#pitch"
   - "#scene/business-analysis"
   - "#scene/learning-methodology/feedback-loop"

@@ -10,8 +10,8 @@ title: "OCR: 一堂Y模型-科学成事道理"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/business-analysis"
   - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology"

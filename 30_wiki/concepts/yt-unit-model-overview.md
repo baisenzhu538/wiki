@@ -29,8 +29,8 @@ related:
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#scene/business-analysis/customer-acquisition"
   - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology"

@@ -17,8 +17,8 @@ query_triggers:
 reviewed_by: ""
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/ai-collaboration/skill-market"
   - "#scene/business-analysis"

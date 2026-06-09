@@ -24,7 +24,7 @@ status: "enriched"
 tags:
   - "#boundary/not-for-beginners"
   - "#boundary/not-for-creative"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#deliberate-practice"
   - "#growth-index"
   - "#personal-growth"

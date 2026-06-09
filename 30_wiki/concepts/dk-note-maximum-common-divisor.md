@@ -13,8 +13,8 @@ source_refs:
   - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/ai-collaboration"
   - "#domain/note-taking"
   - "#scene/ai-collaboration"

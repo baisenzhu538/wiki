@@ -8,8 +8,8 @@ source_refs:
   - "30_wiki/concepts/master-decision-hygiene.md"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/knowledge-management"
   - "#quality/high-signal"
   - "#scene/agent-infrastructure"

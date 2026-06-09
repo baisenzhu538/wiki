@@ -18,9 +18,9 @@ source_refs:
   - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/agent-infrastructure"
   - "#scene/ai-collaboration"
   - "#scene/learning-methodology/feedback-loop"

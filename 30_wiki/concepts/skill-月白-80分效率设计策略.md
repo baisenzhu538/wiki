@@ -13,8 +13,8 @@ definition_of_done:
   - "适用场景有正反例"
   - "工具要求明确"
 tags:
-  - "#confidence/draft"
-  - "#confidence/verified-by-case"
+  - "confidence-draft"
+  - "confidence-verified-by-case"
   - "#domain/design"
   - "#scene/business-analysis"
   - "#scene/learning-methodology/feedback-loop"

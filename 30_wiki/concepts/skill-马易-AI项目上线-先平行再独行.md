@@ -14,8 +14,8 @@ definition_of_done:
   - "工具要求明确"
 tags:
   - "#boundary/single-use-only"
-  - "#confidence/draft"
-  - "#confidence/verified-by-case"
+  - "confidence-draft"
+  - "confidence-verified-by-case"
   - "#domain/AI"
   - "#domain/scene-analysis"
   - "#scene/hardware-debugging/prototyping"

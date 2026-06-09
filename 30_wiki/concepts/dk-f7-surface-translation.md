@@ -11,8 +11,8 @@ source_context: "failure-modes.md F-KDO-007"
 source_refs:
   - "90_control/failure-modes.md#F-KDO-007"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
   - "#scene/ai-collaboration"

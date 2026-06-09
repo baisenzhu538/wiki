@@ -11,8 +11,8 @@ source_context: "AI俱乐部·AI学习落地（2026-06分享）"
 source_refs:
   - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/ai-collaboration"
   - "#domain/yitang"
   - "#scene/skill-engineering/course-to-skill"

@@ -16,9 +16,9 @@ related:
   - "yt-note-l4-internalization"
   - "dk-note-surplus-brainpower"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/knowledge-management/tagging"
   - "#scene/learning-methodology/deliberate-practice"
   - "#scene/learning-methodology/mental-models"

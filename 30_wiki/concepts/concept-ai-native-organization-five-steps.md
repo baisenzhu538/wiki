@@ -32,8 +32,8 @@ tags:
   - "#ai-native"
   - "#organization"
   - "#management"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#scene/startup/ai-native"
   - "#scene/management/structure"
 ---

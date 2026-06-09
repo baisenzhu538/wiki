@@ -16,7 +16,7 @@ tags:
   - "#boundary/not-for-beginners"
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
+  - "confidence-draft"
   - "#domain/AI"
   - "#scene/learning-methodology/feedback-loop"
 tools_required: ""

@@ -10,8 +10,8 @@ source_context: "AI俱学乐部-AI学习落地 分享"
 source_refs:
   - "00_inbox/半肥猫-AI学习落地-口述.md"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/ai-collaboration"
   - "#scene/ai-collaboration"
   - "#scene/knowledge-management/atomization"

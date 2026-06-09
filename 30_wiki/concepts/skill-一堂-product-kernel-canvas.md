@@ -2,7 +2,7 @@
 id: "skill-一堂-product-kernel-canvas"
 title: "一堂产品内核画布应用技能"
 type: "skill"
-status: "published"
+status: "draft"
 domain:
   - "yitang"
   - "product-strategy"
@@ -13,12 +13,12 @@ source_refs:
   - "00_inbox/一堂-产品内核验证课-truman-笔记.txt"
   - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/yitang"
   - "#domain/product-strategy"
-  - "#topic/product-kernel"
-  - "#topic/value-proposition"
+  - "#product-kernel"
+  - "#value-proposition"
 created_at: "2026-06-08"
 updated_at: "2026-06-09"
 related:

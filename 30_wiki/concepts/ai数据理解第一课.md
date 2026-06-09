@@ -21,7 +21,7 @@ query_triggers:
   - "投喂检索训练"
 tags:
   - "#boundary/not-for-creative"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/agent-infrastructure/skill-registry"
   - "#scene/ai-collaboration/human-ai-division"
   - "#scene/knowledge-management/atomization"

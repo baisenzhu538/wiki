@@ -27,7 +27,7 @@ source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
 status: "enriched"
 tags:
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/learning-methodology/deliberate-practice"
   - "#scene/note-taking/checklist-method"
   - "#scene/skill-engineering"

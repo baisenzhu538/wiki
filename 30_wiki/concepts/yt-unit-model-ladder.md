@@ -37,9 +37,9 @@ source_refs:
 status: "draft"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#entrepreneur"
   - "#framework"
   - "#scene/business-analysis/conversion-rate"

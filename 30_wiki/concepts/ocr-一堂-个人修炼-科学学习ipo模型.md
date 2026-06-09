@@ -10,7 +10,7 @@ title: "OCR: 一堂-个人修炼-科学学习IPO模型"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/knowledge-management"
   - "#scene/learning-methodology"
   - "#scene/note-taking"

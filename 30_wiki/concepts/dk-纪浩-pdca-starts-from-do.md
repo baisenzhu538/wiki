@@ -11,8 +11,8 @@ source_context: "AI俱乐部·人和AI协作（第三次分享，2026-06）"
 source_refs:
   - "00_inbox/纪浩-AI协作方法论-口述.md"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
+  - "confidence-draft"
+  - "confidence-source-cited"
   - "#domain/ai-collaboration"
   - "#domain/yitang"
 related:

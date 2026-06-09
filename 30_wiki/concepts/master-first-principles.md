@@ -30,8 +30,8 @@ source_refs:
 status: "enriched"
 tags:
   - "#boundary/single-use-only"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/learning-methodology/feedback-loop"
   - "#scene/note-taking"
 title: "第一性原理拆解器"

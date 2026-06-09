@@ -21,7 +21,7 @@ type: "“framework”"
 updated_at: "“2026-05-24T00:00:00+00:00”"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#scene/ai-collaboration"
   - "#scene/hardware-debugging/prototyping"
   - "#scene/knowledge-management/tagging"

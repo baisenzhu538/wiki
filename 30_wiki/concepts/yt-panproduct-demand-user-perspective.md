@@ -30,7 +30,7 @@ source_refs:
 status: "enriched"
 tags:
   - "#boundary/requires-human-judgment"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#empathy"
   - "#pan-product-design"
   - "#scene/learning-methodology/deliberate-practice"

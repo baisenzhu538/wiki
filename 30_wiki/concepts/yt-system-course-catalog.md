@@ -13,7 +13,7 @@ updated_at: "2026-05-18"
 tags:
   - "#boundary/not-for-creative"
   - "#boundary/not-for-medical"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#course-catalog"
   - "#index"
   - "#scene/ai-collaboration/prompt-engineering"

@@ -11,8 +11,8 @@ type: "concept"
 updated_at: 2026-05-22
 tags:
   - "#boundary/not-for-creative"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/learning-methodology/mental-models"
   - "#scene/product-design"
   - "#scene/skill-engineering/publish-deploy"

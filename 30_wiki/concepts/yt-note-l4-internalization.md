@@ -17,9 +17,9 @@ related:
   - "dk-note-surplus-brainpower"
   - "dk-note-rookie-disaster-veteran-heaven"
 tags:
-  - "#confidence/draft"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#scene/learning-methodology/mental-models"
   - "#scene/note-taking/checklist-method"
   - "#scene/note-taking/training-plan"

@@ -28,7 +28,7 @@ tags:
   - "#boundary/not-for-creative"
   - "#boundary/requires-human-judgment"
   - "#career-planning"
-  - "#confidence/source-cited"
+  - "confidence-source-cited"
   - "#five-step-method"
   - "#personal-growth"
   - "#scene/business-analysis"

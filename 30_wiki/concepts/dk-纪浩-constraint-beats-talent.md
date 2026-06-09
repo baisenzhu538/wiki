@@ -2,7 +2,7 @@
 id: "dk-纪浩-constraint-beats-talent"
 title: "暗知识：约束的力量 —— 600行文档让AI输出吊打人类手动设计"
 type: "dk"
-status: "published"
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -11,11 +11,11 @@ source_context: "AI俱乐部·AI协作方法论分享（2026年）"
 source_refs:
   - "00_inbox/纪浩-AI协作方法论-口述.md"
 tags:
-  - "#confidence/published"
-  - "#confidence/source-cited"
+  - "confidence-published"
+  - "confidence-source-cited"
   - "#domain/ai-collaboration"
-  - "#topic/constraint-design"
-  - "#topic/prompt-engineering"
+  - "#constraint-design"
+  - "#prompt-engineering"
 created_at: "2026-06-09"
 updated_at: "2026-06-09"
 related:

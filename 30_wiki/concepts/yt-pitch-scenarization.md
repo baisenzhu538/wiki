@@ -27,8 +27,8 @@ source_refs:
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
 status: "enriched"
 tags:
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
   - "#pitch"
   - "#scene/business-analysis"
   - "#scene/knowledge-management/tagging"

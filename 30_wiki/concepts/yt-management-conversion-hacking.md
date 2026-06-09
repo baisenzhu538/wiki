@@ -30,9 +30,9 @@ query_triggers:
   - "降低购买摩擦"
   - "增长转化"
 tags:
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
-  - "#confidence/verified-by-test"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+  - "confidence-verified-by-test"
   - "#scene/business-analysis/conversion-rate"
   - "#scene/learning-methodology"
   - "#scene/skill-engineering/course-to-skill"
