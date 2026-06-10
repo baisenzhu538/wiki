@@ -1,0 +1,90 @@
+---
+id: "yt-three-dimension-opportunity-matrix"
+component_of: ""
+confidence: 0.8
+created_at: 2026-06-10
+difficulty: "intermediate"
+domain:
+  - "yitang"
+estimated_tokens: 1000
+language: "zh-CN"
+prerequisites: ""
+query_triggers:
+  - "三维排列组合"
+  - "找机会"
+  - "新行业"
+  - "新模式"
+  - "新能力"
+  - "机会矩阵"
+related: {'series': False}
+review_date: 2026-06-10
+reviewed_by: "洪七公"
+source_refs:
+  - "00_inbox/一堂-机会预判-三维排列组合01.png"
+status: "enriched"
+tags:
+  - "#scene/business-analysis"
+  - "#scene/ideation"
+  - "#yitang"
+title: "三维排列组合找机会"
+trust_level: "medium"
+type: "tool"
+updated_at: 2026-06-10
+version: 1
+yitang: {'map': 'entrepreneur', 'module': '机会预判', 'course_id': 'yt-three-dimension-opportunity-matrix', 'course_type': 'tool', 'level': 'core'}
+---
+
+# 三维排列组合找机会
+
+> 来源：一堂课程体系 | [[yt-foresight-business-spectrum]] | [[yt-ai-trend-12-signals]]
+
+## Summary
+
+一堂提出的机会生成工具。通过"新行业（场景需求）× 新模式（产品形态）× 新能力（技术供给）"三维交叉乘积，系统性地生成商业机会清单。
+
+## Claims
+
+### 三维模型
+
+**公式：新行业 × 新模式 × 新能力**
+
+| 维度 | 副标题 | 要素示例 |
+|:---|:---|:---|
+| **新行业** | 新的场景和需求 | 老人陪护、儿童陪玩、商业私教、虚拟女友、辅助编程、私人律师 |
+| **新模式** | 新的产品和模式 | 私人助理、企业助理、定制老师、虚拟好友、机器人化 |
+| **新能力** | 新的能力和生产力 | 极低成本专业服务、24小时随时待命、多模态理解/表达、海量信息整合/推理、自然语言处理/表达 |
+
+### 使用方法
+
+1. **分别列出三个维度的候选要素**（每维至少5个）
+2. **做全排列组合**（5×5×5=125个交叉点）
+3. **筛选可行性**：对每个交叉点快速评估"需求是否存在"+"能力是否支撑"+"模式是否跑通"
+4. **保留Top 5-10个可行交叉点**做深度调研
+
+### 关键认知
+
+- 三维中的任意两维组合只能产生"改进型机会"，只有**三维同时交叉**才可能产生"颠覆型机会"
+- "新能力"是当前AI时代最大的变量——同样的场景和需求，因AI能力而可能产生全新的商业模式
+
+## Critique
+
+### 风险：组合爆炸
+
+全排列组合会产生大量低质量机会（如"老人陪护×机器人化×自然语言处理"看起来合理，但实际执行中可能面临伦理、安全、成本等多重障碍）。建议增加**过滤层**：每个交叉点必须通过"一堂五步法"的初步预判才能进入候选池。
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|------|---------|------|
+| 关联框架 | [[yt-foresight-business-spectrum]] | 终局光谱图——判断交叉点的机会规模 |
+| 关联框架 | [[yt-ai-trend-12-signals]] | AI趋势12大变化——为"新能力"维度提供信号输入 |
+| 关联工具 | [[yt-entrepreneur-five-step-method]] | 五步法——交叉点的过滤和验证工具 |
+
+## Action Triggers
+
+| 触发场景 | 第一个动作 | 成功指标 |
+|---------|-----------|---------|
+| 想创业但不知道做什么 | 用三维法各自 brainstorm 15个要素，做全排列 | 2小时内生成≥50个交叉点 |
+| 已有技术能力想寻找应用场景 | 固定"新能力"维度，变化"新行业"和"新模式" | 识别出≥3个高匹配场景 |
+
+> 视觉标记语义：原图为三列横向并列结构，以"×"符号衔接三列。每列顶部红色副标题，下方浅黄绿色要素清单。
