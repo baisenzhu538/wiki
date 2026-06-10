@@ -36,7 +36,8 @@ updated: 2026-06-09
 | Task A | 陈旧标记规则（`kdo stale`） | 🔜 | 已实现，待欧阳锋审查 |
 | Task B | 增量传播机制（`kdo stale --propagate`） | ⏳ | Task A 完成后启动 |
 | Task C | 技能点扫描器 | ✅ | **100 候选技能已输出。马易/半肥猫/水水/Truman 四批 skill 卡已批量产出** |
-| **Task D** | **🆕 协助老顽童处理产品内核域素材** | **🔜** | **5 篇 Truman 产品内核课：实操/迭代/验证/关键假设/商业预判。预处理+扫描器+概念卡骨架** |
+| **Task D** | 协助老顽童处理产品内核域素材 | ✅ | 已完成 |
+| **Task E** | **🆕 诊断基础设施 v1** | **🔜** | **E1 目录注册→E2 diagnostic_signals schema+校验→E3 Graph RAG diagnostic_relations→E4 kdo diagnose（暂缓）** |
 
 ---
 

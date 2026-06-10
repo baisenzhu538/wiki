@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-11
 active_branch: main
-active_task: "欧阳锋审查机会预判域8张新卡（B+）。发现P0（18图未OCR）+P1（3旧卡未清理）+P3（index不精确）。已代修：OCR全部完成+旧卡已标superseded_by+index已修正。纠正记录写入60_feedback/corrections/。待老顽童/洪七公回归后阅读。"
+active_task: "用户确认 KDO 进化方向：从知识仓库→诊断伙伴。已发黄药师工单 Task E（诊断基础设施v1：diagnostic_signals schema+校验+Graph RAG边类型）。60_feedback/diagnosis/已创建。待黄药师启动 E1。"
 blockers: []
-next_session_hint: "用户说'继续'→ Agent体系建设待欧阳锋裁决（Q1数量/Q2分发/Q3颗粒度）。方案见 decisions/agent-ecosystem-design.md。黄药师侧可继续 Task G/J/K"
+next_session_hint: "用户说'继续'→ Agent体系建设待欧阳锋裁决（Q1数量/Q2分发/Q3颗粒度）。方案见 decisions/agent-ecosystem-design.md。黄药师已领 Task E（诊断基础设施v1）。老顽童回归后读纠正文件。洪七公回归后读流程建议。"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
