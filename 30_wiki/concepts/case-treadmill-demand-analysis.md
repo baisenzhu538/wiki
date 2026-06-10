@@ -16,10 +16,10 @@ query_triggers:
   - "需求分析图"
 related: {'series': False}
 review_date: 2026-06-10
-reviewed_by: "洪七公"
+reviewed_by: "老顷童（精修）"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-需求-跑步机案例-需求分析图.png"
-status: "enriched"
+status: "reviewed"
 tags:
   - "confidence-source-cited"
   - "#scene/business-analysis"

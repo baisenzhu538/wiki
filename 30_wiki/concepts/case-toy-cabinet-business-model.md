@@ -17,11 +17,11 @@ query_triggers:
   - "单元模型案例"
 related: {'series': False}
 review_date: 2026-06-10
-reviewed_by: "洪七公"
+reviewed_by: "老顷童（精修）"
 source_refs:
   - "00_inbox/一堂五步法/一堂=一堂五步法-商业模型-线下玩具柜案例.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt"
-status: "enriched"
+status: "reviewed"
 tags:
   - "confidence-source-cited"
   - "#scene/business-analysis"

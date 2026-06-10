@@ -20,14 +20,14 @@ query_triggers:
   - "一堂增长获客"
 related: {'series': False}
 review_date: 2026-06-10
-reviewed_by: "洪七公"
+reviewed_by: "老顷童（精修）"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-增长-推荐获客小抄.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-增长-线上获客小抄.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-增长-线下获客小抄.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-增长-获客转化小抄.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-增长-科学销售五步法.png"
-status: "enriched"
+status: "reviewed"
 tags:
   - "confidence-source-cited"
   - "#scene/growth"

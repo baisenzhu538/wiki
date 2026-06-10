@@ -22,13 +22,13 @@ query_triggers:
   - "成本优势"
 related: {'series': False}
 review_date: 2026-06-10
-reviewed_by: "洪七公"
+reviewed_by: "老顷童（精修）"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-一堂壁垒分析结果.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-假的壁垒.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-打造壁垒完整cheatsheet.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-规模经济分析武器库.png"
-status: "enriched"
+status: "reviewed"
 tags:
   - "confidence-source-cited"
   - "#scene/strategy"
