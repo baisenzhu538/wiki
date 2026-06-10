@@ -11,7 +11,7 @@
 4. `.agent/toolkit.md` — 可用工具
 
 > 如果你不在 CLI 里（比如在 Obsidian 或飞书里），读 `90_control/AGENTS.md` 判断角色：
-> 欧阳锋→`ouyangfeng-context.md` / 黄药师→`huangyaoshi-context.md` / 老顽童→`laowantong-context.md` / 洪七公→`hongqigong-context.md` / 段王爷→`duanwangye-context.md`
+> 欧阳锋→`ouyangfeng-context.md` / 黄药师→`huangyaoshi-context.md` / 王语嫣→`wangyuyan-context.md` / 老顽童→`laowantong-context.md` / 洪七公→`hongqigong-context.md` / 段王爷→`duanwangye-context.md`
 
 **!!! 每次会话快结束时：必须 Update `.agent/context.md`（更新 active_task、进度、blockers），有新坑追加到 `pitfalls.md`。!!!**
 
