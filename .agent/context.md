@@ -16,11 +16,12 @@ next_session_hint: "用户说'继续'→ E4(kdo diagnose命令原型)待老顽�
 |------|---------|------|
 | 欧阳锋（Architect） | Obsidian Claudian 插件 | 协调/审查/拍板 |
 | 黄药师（Builder） | Windows 终端（PowerShell） | KDO CLI 开发 |
-| 老顽童（Producer） | Hermes agent → 飞书 | 卡片/文章量产 |
+| 王语嫣（Consultant） | Hermes agent → 飞书 | 诊断咨询/反馈 |
+| 老顽童（Producer） | **WSL tmux claude（主力）** / Hermes 备用 | 卡片/文章量产 |
 | 洪七公（Multimodal） | Hermes agent → 飞书 | 视觉/设计/prompt |
 | 段王爷（Publisher） | Hermes agent → 飞书 | 发布/反馈/版本 |
 
-> 角色专属 context 见 `.agent/ouyangfeng-context.md`、`.agent/huangyaoshi-context.md`、`.agent/laowantong-context.md`、`.agent/hongqigong-context.md`、`.agent/duanwangye-context.md`。
+> 角色专属 context 见 `.agent/ouyangfeng-context.md`、`.agent/huangyaoshi-context.md`、`.agent/wangyuyan-context.md`、`.agent/laowantong-context.md`、`.agent/hongqigong-context.md`、`.agent/duanwangye-context.md`。
 
 ## 关键路径
 
