@@ -191,18 +191,15 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\concept-一堂-kernel-iteration.md]]
 - [[30_wiki\concepts\concept-一堂-product-kernel.md]]
 - [[30_wiki\concepts\dk-一堂-wishful-thinking-kills-startups.md]]
-- [[30_wiki\skills\skill-一堂-product-kernel-add-subtract.md]]
-- [[30_wiki\skills\skill-一堂-product-kernel-canvas.md]]
+- [[30_wiki\concepts\skill-一堂-product-kernel-add-subtract.md]]
+- [[30_wiki\concepts\skill-一堂-product-kernel-canvas.md]]
 
 ## [[case-一堂-milk-tea-business-prediction]]
 - [[30_wiki\concepts\skill-一堂-business-prediction-15-char.md]]
 - [[30_wiki\concepts\skill-一堂-spectrum-positioning.md]]
 
 ## [[case-一堂-shampoo-kernel-validation]]
-- [[30_wiki\skills\skill-一堂-kernel-three-questions.md]]
-
-## [[case-一堂-奶茶店创业]]
-- [[30_wiki\skills\skill-一堂-business-prediction-15-char.md]]
+- [[30_wiki\concepts\skill-一堂-kernel-three-questions.md]]
 
 ## [[case-一堂-无人餐厅-hypothesis-failure]]
 - [[30_wiki\concepts\concept-一堂-business-prediction.md]]
@@ -211,14 +208,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\dk-一堂-wishful-thinking-kills-startups.md]]
 - [[30_wiki\concepts\skill-一堂-hypothesis-validation-three-axe.md]]
 - [[30_wiki\concepts\yt-entrepreneur-lean-validation.md]]
-- [[30_wiki\skills\skill-一堂-hypothesis-validation-three-axe.md]]
 
 ## [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
 - [[30_wiki\concepts\concept-一堂-hypothesis-driven-business-methodology.md]]
+- [[30_wiki\concepts\skill-一堂-five-step-validation.md]]
 - [[30_wiki\concepts\skill-一堂-hypothesis-validation-three-axe.md]]
 - [[30_wiki\concepts\yt-entrepreneur-lean-validation.md]]
-- [[30_wiki\skills\skill-一堂-five-step-validation.md]]
-- [[30_wiki\skills\skill-一堂-hypothesis-validation-three-axe.md]]
 
 ## [[case-半肥猫-conversion-hacker-skill]]
 - [[30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md]]
@@ -276,7 +271,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[concept-一堂-business-prediction]]
 - [[30_wiki\concepts\skill-一堂-business-prediction-15-char.md]]
-- [[30_wiki\skills\skill-一堂-business-prediction-15-char.md]]
 
 ## [[concept-一堂-hypothesis-driven-business-methodology]]
 - [[30_wiki\concepts\concept-一堂-business-prediction.md]]
@@ -299,16 +293,15 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\concept-一堂-kernel-validation.md]]
 - [[30_wiki\concepts\concept-一堂-product-kernel.md]]
 - [[30_wiki\concepts\skill-一堂-hypothesis-validation-three-axe.md]]
-- [[30_wiki\skills\skill-一堂-hypothesis-validation-three-axe.md]]
 
 ## [[concept-一堂-product-kernel]]
 - [[30_wiki\concepts\concept-一堂-business-prediction.md]]
 - [[30_wiki\concepts\concept-一堂-kernel-iteration.md]]
 - [[30_wiki\concepts\concept-一堂-kernel-validation.md]]
 - [[30_wiki\concepts\concept-一堂-key-assumptions.md]]
-- [[30_wiki\skills\skill-一堂-five-step-validation.md]]
-- [[30_wiki\skills\skill-一堂-kernel-three-questions.md]]
-- [[30_wiki\skills\skill-一堂-product-kernel-add-subtract.md]]
+- [[30_wiki\concepts\skill-一堂-five-step-validation.md]]
+- [[30_wiki\concepts\skill-一堂-kernel-three-questions.md]]
+- [[30_wiki\concepts\skill-一堂-product-kernel-add-subtract.md]]
 
 ## [[concept-半肥猫-ai-learning-toolification-methodology]]
 - [[30_wiki\concepts\skill-半肥猫-优先使用官方权威信源做证据.md]]
@@ -363,20 +356,20 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-decision-ai-partner.md]]
 
 ## [[dk-ai-four-elements-solvability-overestimate]]
-- [[30_wiki\skills\skill-ai-four-elements-validation.md]]
+- [[30_wiki\concepts\skill-ai-four-elements-validation.md]]
 
 ## [[dk-ai-judgment-human-responsibility]]
+- [[30_wiki\concepts\skill-ai-problem-question-check.md]]
 - [[30_wiki\dark-knowledges\dk-ai-judgment-programmer-paradox.md]]
 - [[30_wiki\dark-knowledges\dk-jh-llm-time-blindness.md]]
-- [[30_wiki\skills\skill-ai-problem-question-check.md]]
 
 ## [[dk-ai-only-do-what-you-know]]
-- [[30_wiki\skills\skill-ai-landing-five-steps.md]]
-- [[30_wiki\skills\skill-ai-scene-four-elements.md]]
+- [[30_wiki\concepts\skill-ai-landing-five-steps.md]]
+- [[30_wiki\concepts\skill-ai-scene-four-elements.md]]
 
 ## [[dk-ai-silky-answer-danger]]
-- [[30_wiki\skills\skill-ai-info-literacy-three-layer.md]]
-- [[30_wiki\skills\skill-ai-research-five-steps.md]]
+- [[30_wiki\concepts\skill-ai-info-literacy-three-layer.md]]
+- [[30_wiki\concepts\skill-ai-research-five-steps.md]]
 
 ## [[dk-c1-cjk-regex-silent-fail]]
 - [[30_wiki\concepts\dk-c3-txt-ingest-skip.md]]
@@ -401,16 +394,16 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\knowledge-error-self-exposure.md]]
 
 ## [[dk-cognitive-bias-checklist-illusion]]
-- [[30_wiki\skills\skill-cognitive-bias-12-check.md]]
+- [[30_wiki\concepts\skill-cognitive-bias-12-check.md]]
 
 ## [[dk-decision-first-reaction-not-best]]
-- [[30_wiki\skills\skill-decision-delay-intuition.md]]
+- [[30_wiki\concepts\skill-decision-delay-intuition.md]]
 
 ## [[dk-decision-noise-vs-bias]]
-- [[30_wiki\skills\skill-decision-outside-view.md]]
+- [[30_wiki\concepts\skill-decision-outside-view.md]]
 
 ## [[dk-first-principles-difficulty-vs-impossible]]
-- [[30_wiki\skills\skill-first-principles-assumption-classify.md]]
+- [[30_wiki\concepts\skill-first-principles-assumption-classify.md]]
 
 ## [[dk-jh-llm-time-blindness]]
 - [[30_wiki\dark-knowledges\dk-ai-judgment-human-responsibility.md]]
@@ -431,28 +424,28 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\dark-knowledges\yt-note-three-level-evolution.md]]
 
 ## [[dk-note-human-creativity-ai-data]]
+- [[30_wiki\concepts\yt-skill-checklist-as-ai-protocol.md]]
+- [[30_wiki\concepts\yt-skill-storyline-contrast-analysis.md]]
 - [[30_wiki\dark-knowledges\yt-note-ai-p-role-not-c-role.md]]
-- [[30_wiki\skills\yt-skill-checklist-as-ai-protocol.md]]
-- [[30_wiki\skills\yt-skill-storyline-contrast-analysis.md]]
 
 ## [[dk-note-maximum-common-divisor]]
 - [[30_wiki\concepts\dk-note-rookie-disaster-veteran-heaven.md]]
 - [[30_wiki\concepts\dk-note-surplus-brainpower.md]]
-- [[30_wiki\skills\yt-skill-checklist-as-ai-protocol.md]]
+- [[30_wiki\concepts\yt-skill-checklist-as-ai-protocol.md]]
 - [[30_wiki\tools\skill-note-one-line-one-point.md]]
 
 ## [[dk-note-rookie-disaster-veteran-heaven]]
 - [[30_wiki\concepts\dk-foresight-source-material-blindness.md]]
 - [[30_wiki\concepts\dk-note-maximum-common-divisor.md]]
 - [[30_wiki\concepts\dk-note-surplus-brainpower.md]]
-- [[30_wiki\skills\yt-skill-storyline-problem-solving.md]]
+- [[30_wiki\concepts\yt-skill-storyline-problem-solving.md]]
 
 ## [[dk-note-surplus-brainpower]]
 - [[30_wiki\concepts\dk-note-maximum-common-divisor.md]]
 - [[30_wiki\concepts\dk-note-rookie-disaster-veteran-heaven.md]]
 - [[30_wiki\concepts\yt-note-l4-internalization.md]]
 - [[30_wiki\concepts\yt-note-l6-extraction.md]]
-- [[30_wiki\skills\yt-skill-storyline-target-tradeoff.md]]
+- [[30_wiki\concepts\yt-skill-storyline-target-tradeoff.md]]
 - [[30_wiki\tools\skill-note-keyword-bolding.md]]
 - [[30_wiki\tools\skill-note-layer-constraint.md]]
 - [[30_wiki\tools\skill-note-one-line-one-point.md]]
@@ -596,18 +589,16 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-foresight-ten-fatal-flaws.md]]
 
 ## [[dk-一堂-kernel-is-hypothesis]]
+- [[30_wiki\concepts\skill-一堂-five-step-validation.md]]
 - [[30_wiki\concepts\skill-一堂-hypothesis-validation-three-axe.md]]
-- [[30_wiki\skills\skill-一堂-five-step-validation.md]]
-- [[30_wiki\skills\skill-一堂-hypothesis-validation-three-axe.md]]
-- [[30_wiki\skills\skill-一堂-product-kernel-add-subtract.md]]
+- [[30_wiki\concepts\skill-一堂-product-kernel-add-subtract.md]]
 
 ## [[dk-一堂-p-type-vs-l-type]]
 - [[30_wiki\concepts\skill-一堂-business-prediction-15-char.md]]
 - [[30_wiki\concepts\skill-一堂-spectrum-positioning.md]]
-- [[30_wiki\skills\skill-一堂-business-prediction-15-char.md]]
 
 ## [[dk-一堂-premature-refinement-trap]]
-- [[30_wiki\skills\skill-一堂-kernel-three-questions.md]]
+- [[30_wiki\concepts\skill-一堂-kernel-three-questions.md]]
 
 ## [[dk-一堂-wishful-thinking-kills-startups]]
 - [[30_wiki\concepts\concept-一堂-business-prediction.md]]
@@ -922,11 +913,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[sk-ai-old-small-checklist]]
 - [[30_wiki\concepts\.sk-backup\sk-ai-landing-five-steps.md]]
-- [[30_wiki\concepts\skill-ai-landing-five-steps.md]]
 
 ## [[sk-ai-parallel-validation]]
 - [[30_wiki\concepts\.sk-backup\sk-ai-landing-five-steps.md]]
-- [[30_wiki\concepts\skill-ai-landing-five-steps.md]]
 
 ## [[sk-ai-problem-validation]]
 - [[30_wiki\concepts\.sk-backup\sk-ai-ai-workspace-setup.md]]
@@ -955,57 +944,57 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\cases\case-ether-online-acquisition.md]]
 
 ## [[skill-ai-four-elements-validation]]
-- [[30_wiki\skills\skill-ai-problem-question-check.md]]
-- [[30_wiki\skills\skill-ai-scene-four-elements.md]]
+- [[30_wiki\concepts\skill-ai-problem-question-check.md]]
+- [[30_wiki\concepts\skill-ai-scene-four-elements.md]]
 
 ## [[skill-ai-image-text-fix]]
 - [[30_wiki\concepts\skill-ai-oral-spray-input.md]]
 
 ## [[skill-ai-info-literacy-three-layer]]
-- [[30_wiki\skills\skill-ai-research-five-steps.md]]
+- [[30_wiki\concepts\skill-ai-research-five-steps.md]]
 
 ## [[skill-ai-landing-five-steps]]
-- [[30_wiki\skills\skill-ai-scene-four-elements.md]]
+- [[30_wiki\concepts\skill-ai-scene-four-elements.md]]
 
 ## [[skill-ai-landing-scene-selection]]
-- [[30_wiki\skills\skill-ai-four-elements-validation.md]]
-- [[30_wiki\skills\skill-ai-problem-question-check.md]]
+- [[30_wiki\concepts\skill-ai-four-elements-validation.md]]
+- [[30_wiki\concepts\skill-ai-problem-question-check.md]]
 
 ## [[skill-ai-problem-question-check]]
-- [[30_wiki\skills\skill-ai-four-elements-validation.md]]
+- [[30_wiki\concepts\skill-ai-four-elements-validation.md]]
 
 ## [[skill-ai-prompt-iteration]]
 - [[30_wiki\concepts\skill-ai-oral-spray-input.md]]
 
 ## [[skill-ai-research-five-steps]]
-- [[30_wiki\skills\skill-ai-info-literacy-three-layer.md]]
-- [[30_wiki\skills\skill-ai-landing-five-steps.md]]
+- [[30_wiki\concepts\skill-ai-info-literacy-three-layer.md]]
+- [[30_wiki\concepts\skill-ai-landing-five-steps.md]]
 
 ## [[skill-ai-scene-four-elements]]
-- [[30_wiki\skills\skill-ai-landing-five-steps.md]]
+- [[30_wiki\concepts\skill-ai-landing-five-steps.md]]
 
 ## [[skill-ai-timestamp-validation]]
-- [[30_wiki\skills\skill-ai-info-literacy-three-layer.md]]
-- [[30_wiki\skills\skill-ai-research-five-steps.md]]
+- [[30_wiki\concepts\skill-ai-info-literacy-three-layer.md]]
+- [[30_wiki\concepts\skill-ai-research-five-steps.md]]
 
 ## [[skill-cognitive-bias-12-check]]
-- [[30_wiki\skills\skill-decision-delay-intuition.md]]
-- [[30_wiki\skills\skill-decision-outside-view.md]]
+- [[30_wiki\concepts\skill-decision-delay-intuition.md]]
+- [[30_wiki\concepts\skill-decision-outside-view.md]]
 
 ## [[skill-cognitive-bias-4-quick]]
-- [[30_wiki\skills\skill-cognitive-bias-12-check.md]]
+- [[30_wiki\concepts\skill-cognitive-bias-12-check.md]]
 
 ## [[skill-decision-delay-intuition]]
-- [[30_wiki\skills\skill-cognitive-bias-12-check.md]]
-- [[30_wiki\skills\skill-decision-outside-view.md]]
+- [[30_wiki\concepts\skill-cognitive-bias-12-check.md]]
+- [[30_wiki\concepts\skill-decision-outside-view.md]]
 
 ## [[skill-decision-outside-view]]
-- [[30_wiki\skills\skill-cognitive-bias-12-check.md]]
-- [[30_wiki\skills\skill-decision-delay-intuition.md]]
-- [[30_wiki\skills\skill-first-principles-assumption-classify.md]]
+- [[30_wiki\concepts\skill-cognitive-bias-12-check.md]]
+- [[30_wiki\concepts\skill-decision-delay-intuition.md]]
+- [[30_wiki\concepts\skill-first-principles-assumption-classify.md]]
 
 ## [[skill-first-principles-rebuild]]
-- [[30_wiki\skills\skill-first-principles-assumption-classify.md]]
+- [[30_wiki\concepts\skill-first-principles-assumption-classify.md]]
 
 ## [[skill-mece体系框架法]]
 - [[30_wiki\concepts\skill-动手建模法.md]]
@@ -1024,29 +1013,27 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[skill-一堂-five-step-validation]]
 - [[30_wiki\concepts\skill-一堂-hypothesis-validation-three-axe.md]]
-- [[30_wiki\skills\skill-一堂-hypothesis-validation-three-axe.md]]
-- [[30_wiki\skills\skill-一堂-kernel-three-questions.md]]
+- [[30_wiki\concepts\skill-一堂-kernel-three-questions.md]]
 
 ## [[skill-一堂-hypothesis-validation-three-axe]]
-- [[30_wiki\skills\skill-一堂-five-step-validation.md]]
+- [[30_wiki\concepts\skill-一堂-five-step-validation.md]]
 
 ## [[skill-一堂-kernel-three-questions]]
-- [[30_wiki\skills\skill-一堂-five-step-validation.md]]
-- [[30_wiki\skills\skill-一堂-product-kernel-add-subtract.md]]
+- [[30_wiki\concepts\skill-一堂-five-step-validation.md]]
+- [[30_wiki\concepts\skill-一堂-product-kernel-add-subtract.md]]
 
 ## [[skill-一堂-product-kernel-add-subtract]]
-- [[30_wiki\skills\skill-一堂-kernel-three-questions.md]]
+- [[30_wiki\concepts\skill-一堂-kernel-three-questions.md]]
 
 ## [[skill-一堂-product-kernel-canvas]]
 - [[30_wiki\concepts\concept-一堂-hypothesis-driven-business-methodology.md]]
 - [[30_wiki\concepts\concept-一堂-kernel-iteration.md]]
 - [[30_wiki\concepts\concept-一堂-product-kernel.md]]
 - [[30_wiki\concepts\dk-一堂-wishful-thinking-kills-startups.md]]
-- [[30_wiki\skills\skill-一堂-product-kernel-add-subtract.md]]
+- [[30_wiki\concepts\skill-一堂-product-kernel-add-subtract.md]]
 
 ## [[skill-一堂-spectrum-positioning]]
 - [[30_wiki\concepts\skill-一堂-business-prediction-15-char.md]]
-- [[30_wiki\skills\skill-一堂-business-prediction-15-char.md]]
 
 ## [[skill-三层目标对齐法]]
 - [[30_wiki\concepts\skill-复盘推演法.md]]
@@ -1302,8 +1289,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\paddleocr-skill.md]]
 
 ## [[truman-ai-partner-design-analysis]]
+- [[30_wiki\concepts\yt-skill-checklist-as-ai-protocol.md]]
 - [[30_wiki\dark-knowledges\yt-note-ai-p-role-not-c-role.md]]
-- [[30_wiki\skills\yt-skill-checklist-as-ai-protocol.md]]
 
 ## [[truman-perspective-skill]]
 - [[30_wiki\concepts\tinyfish-agentic-web-infrastructure.md]]
@@ -2148,12 +2135,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-entrepreneur-product-core]]
 - [[30_wiki\concepts\case-一堂-AI高考志愿-kernel-mismatch.md]]
+- [[30_wiki\concepts\skill-一堂-product-kernel-canvas.md]]
 - [[30_wiki\concepts\yt-entrepreneur-key-hypotheses.md]]
 - [[30_wiki\concepts\yt-model-five-step-canvas.md]]
 - [[30_wiki\concepts\yt-model-product-core-metrics.md]]
 - [[30_wiki\concepts\yt-tool-product-core-canvas.md]]
 - [[30_wiki\entities\一堂.md]]
-- [[30_wiki\skills\skill-一堂-product-kernel-canvas.md]]
 
 ## [[yt-entrepreneur-research-camp]]
 - [[30_wiki\concepts\yt-panproduct-demand-industry-canvas.md]]
@@ -2610,12 +2597,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\entities\一堂.md]]
 
 ## [[yt-model-five-step-canvas]]
+- [[30_wiki\concepts\skill-一堂-product-kernel-canvas.md]]
 - [[30_wiki\concepts\yitang-huazong-ama-by-industry.md]]
 - [[30_wiki\concepts\yitang-huazong-ama-summary.md]]
 - [[30_wiki\concepts\yt-model-product-core-metrics.md]]
 - [[30_wiki\concepts\yt-panproduct-demand-five-step-method.md]]
 - [[30_wiki\entities\一堂.md]]
-- [[30_wiki\skills\skill-一堂-product-kernel-canvas.md]]
 
 ## [[yt-model-five-step-canvas|五步法画布]]
 - [[30_wiki\entities\一堂.md]]
@@ -3005,8 +2992,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-note-ai-p-role-not-c-role]]
 - [[30_wiki\concepts\yt-note-deliberate-practice-four-elements.md]]
+- [[30_wiki\concepts\yt-skill-p-role-prompt-design.md]]
 - [[30_wiki\dark-knowledges\yt-note-p-c-role-boundary-realworld.md]]
-- [[30_wiki\skills\yt-skill-p-role-prompt-design.md]]
 
 ## [[yt-note-checklist-concept]]
 - [[30_wiki\cases\case-truman-prd-checklist-evolution.md]]
@@ -3020,10 +3007,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-note-l4-internalization.md]]
 - [[30_wiki\concepts\yt-note-l6-extraction.md]]
 - [[30_wiki\concepts\yt-note-problem-solving-capability.md]]
+- [[30_wiki\concepts\yt-skill-storyline-timeline.md]]
 - [[30_wiki\dark-knowledges\dk-truman-document-is-real-project-is-fake.md]]
 - [[30_wiki\dark-knowledges\dk-truman-flag-note-taking.md]]
 - [[30_wiki\dark-knowledges\dk-truman-knowledge-extraction-three-schools.md]]
-- [[30_wiki\skills\yt-skill-storyline-timeline.md]]
 - [[30_wiki\tools\skill-note-keyword-bolding.md]]
 - [[30_wiki\tools\skill-note-layer-constraint.md]]
 - [[30_wiki\tools\yt-note-five-levels-training.md]]
@@ -3047,9 +3034,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-note-ai-human-division.md]]
 - [[30_wiki\concepts\yt-note-checklist-concept.md]]
 - [[30_wiki\concepts\yt-note-l4-internalization.md]]
+- [[30_wiki\concepts\yt-skill-storyline-timeline.md]]
 - [[30_wiki\dark-knowledges\yt-note-ai-p-role-not-c-role.md]]
 - [[30_wiki\dark-knowledges\yt-note-three-level-evolution.md]]
-- [[30_wiki\skills\yt-skill-storyline-timeline.md]]
 - [[30_wiki\tools\yt-note-live-field-skill.md]]
 
 ## [[yt-note-l4-internalization]]
@@ -3060,9 +3047,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-note-extensive-research-input.md]]
 - [[30_wiki\concepts\yt-note-l6-extraction.md]]
 - [[30_wiki\concepts\yt-note-problem-solving-capability.md]]
+- [[30_wiki\concepts\yt-skill-p-role-prompt-design.md]]
 - [[30_wiki\dark-knowledges\dk-truman-flag-note-taking.md]]
 - [[30_wiki\dark-knowledges\yt-note-three-level-evolution.md]]
-- [[30_wiki\skills\yt-skill-p-role-prompt-design.md]]
 
 ## [[yt-note-live-field-skill]]
 - [[30_wiki\concepts\dk-note-surplus-brainpower.md]]
@@ -3206,9 +3193,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-panproduct-execution-core-and-boundary]]
 - [[30_wiki\concepts\ai-native-五层进阶从答案到效率到作品到产品到系统.md]]
 - [[30_wiki\concepts\case-一堂-AI高考志愿-kernel-mismatch.md]]
+- [[30_wiki\concepts\skill-一堂-product-kernel-canvas.md]]
 - [[30_wiki\concepts\yt-panproduct-execution-logic-mece.md]]
 - [[30_wiki\concepts\yt-panproduct-execution-management-trilogy.md]]
-- [[30_wiki\skills\skill-一堂-product-kernel-canvas.md]]
 
 ## [[yt-panproduct-execution-core-and-boundary|内核和边界]]
 - [[30_wiki\entities\一堂.md]]
@@ -3697,30 +3684,30 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[yt-skill-checklist-as-ai-protocol]]
 - [[30_wiki\concepts\yt-note-deliberate-practice-four-elements.md]]
+- [[30_wiki\concepts\yt-skill-p-role-prompt-design.md]]
 - [[30_wiki\dark-knowledges\yt-note-p-c-role-boundary-realworld.md]]
-- [[30_wiki\skills\yt-skill-p-role-prompt-design.md]]
 
 ## [[yt-skill-p-role-prompt-design]]
 - [[30_wiki\dark-knowledges\yt-note-p-c-role-boundary-realworld.md]]
 
 ## [[yt-skill-storyline-contrast-analysis]]
-- [[30_wiki\skills\yt-skill-storyline-key-elements.md]]
-- [[30_wiki\skills\yt-skill-storyline-target-tradeoff.md]]
+- [[30_wiki\concepts\yt-skill-storyline-key-elements.md]]
+- [[30_wiki\concepts\yt-skill-storyline-target-tradeoff.md]]
 
 ## [[yt-skill-storyline-key-elements]]
-- [[30_wiki\skills\yt-skill-p-role-prompt-design.md]]
-- [[30_wiki\skills\yt-skill-storyline-target-tradeoff.md]]
+- [[30_wiki\concepts\yt-skill-p-role-prompt-design.md]]
+- [[30_wiki\concepts\yt-skill-storyline-target-tradeoff.md]]
 
 ## [[yt-skill-storyline-problem-solving]]
-- [[30_wiki\skills\yt-skill-storyline-key-elements.md]]
+- [[30_wiki\concepts\yt-skill-storyline-key-elements.md]]
 
 ## [[yt-skill-storyline-target-tradeoff]]
 - [[30_wiki\concepts\yt-note-deliberate-practice-four-elements.md]]
-- [[30_wiki\skills\yt-skill-storyline-key-elements.md]]
+- [[30_wiki\concepts\yt-skill-storyline-key-elements.md]]
 
 ## [[yt-skill-storyline-timeline]]
-- [[30_wiki\skills\yt-skill-storyline-contrast-analysis.md]]
-- [[30_wiki\skills\yt-skill-storyline-problem-solving.md]]
+- [[30_wiki\concepts\yt-skill-storyline-contrast-analysis.md]]
+- [[30_wiki\concepts\yt-skill-storyline-problem-solving.md]]
 
 ## [[yt-startup-business-plan]]
 - [[30_wiki\concepts\yt-decision-canvas.md]]
@@ -3867,8 +3854,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-concept-peas-insight.md]]
 
 ## [[yt-tool-product-core-canvas]]
+- [[30_wiki\concepts\skill-一堂-product-kernel-canvas.md]]
 - [[30_wiki\concepts\yt-entrepreneur-product-core.md]]
-- [[30_wiki\skills\skill-一堂-product-kernel-canvas.md]]
 
 ## [[yt-tool-project-health-radar]]
 - [[30_wiki\concepts\yt-management-toolkit-overview.md]]

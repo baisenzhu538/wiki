@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-10T18:04:00+00:00_
+_Last updated: 2026-06-10T18:12:31+00:00_
 
 - [[cases/case-ether-online-acquisition.md|案例：以太利用全网调研能力快速获客]] — source `一堂课程-规模经济章节（Truman口述）`
 - [[cases/case-jh-yitang-vs-sqlhelper.md|一堂数据库vs SQLHelper：同样的需求，两种产品策略——专业与通用的产品分岐]] — source `00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt`
@@ -428,18 +428,27 @@ _Last updated: 2026-06-10T18:04:00+00:00_
 - [[concepts/skill-1视角升级思考法.md|技能：+1视角升级思考法]] — source `src_20260609_44a9e79a`
 - [[concepts/skill-ai-ai-workspace-setup.md|技能：结构化AI工作空间搭建]] — source no source
 - [[concepts/skill-ai-evidence-check.md|技能：AI输出证据核查三问法]] — source no source
-- [[concepts/skill-ai-landing-five-steps.md|技能：AI落地五步执行清单]] — source no source
+- [[concepts/skill-ai-four-elements-validation.md|技能：真需求四要素验证法]] — source `src_20260606_42e11f09`
+- [[concepts/skill-ai-info-literacy-three-layer.md|技能：AI输出三层防护检查法]] — source `{'来源': '一堂 (Truman)'}`
+- [[concepts/skill-ai-landing-five-steps.md|技能：AI落地五步执行流程]] — source `src_20260606_ef4877d0`
 - [[concepts/skill-ai-narrative-test.md|技能：你的方案有叙事力吗？快速测试]] — source no source
 - [[concepts/skill-ai-old-small-checklist.md|技能：“找老的干小的”场景评估清单]] — source no source
 - [[concepts/skill-ai-oral-spray-input.md|技能：用口喷输入法生成高质量 AI 提示词]] — source no source
 - [[concepts/skill-ai-parallel-validation.md|技能：平行运行验证法]] — source no source
 - [[concepts/skill-ai-prd-for-ai.md|技能：把PRD写成AI能执行的指令]] — source no source
+- [[concepts/skill-ai-problem-question-check.md|技能：Problem vs Question 区分法]] — source `src_20260606_42e11f09`
 - [[concepts/skill-ai-problem-validation.md|技能：问题验证三维度法]] — source no source
 - [[concepts/skill-ai-purpose-bias-check.md|技能：目的论偏差快速识别法]] — source no source
 - [[concepts/skill-ai-question-problem-checklist.md|技能：提问题转化三问清单]] — source no source
+- [[concepts/skill-ai-research-five-steps.md|技能：AI调研五步法]] — source `src_20260606_90b44191`
+- [[concepts/skill-ai-scene-four-elements.md|技能：AI落地场景四要素评估法]] — source `src_20260606_ef4877d0`
 - [[concepts/skill-ai-system-redundancy.md|技能：系统冗余度快速检查清单]] — source no source
 - [[concepts/skill-ai-voice-input-doubao.md|技能：口喷式语音输入法]] — source no source
 - [[concepts/skill-ai辅助学习.md|技能：AI辅助学习]] — source `src_20260522_dee56cff`
+- [[concepts/skill-cognitive-bias-12-check.md|技能：12种认知偏差完整自检]] — source `{'来源': '消化全库后提炼'}`
+- [[concepts/skill-decision-delay-intuition.md|技能：延迟直觉法]] — source `{'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}`
+- [[concepts/skill-decision-outside-view.md|技能：团队决策外部视角法]] — source `{'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}`
+- [[concepts/skill-first-principles-assumption-classify.md|技能：假设分类法（第一性原理）]] — source `{'来源': 'Aristotle, Elon Musk'}`
 - [[concepts/skill-mece体系框架法.md|技能：MECE体系框架法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
 - [[concepts/skill-react行动推理循环.md|技能：ReACT行动推理循环]] — source `src_20260609_03491271`
 - [[concepts/skill-Truman-AI场景探索STAR模型.md|技能：AI场景探索STAR模型]] — source no source
@@ -473,7 +482,11 @@ _Last updated: 2026-06-10T18:04:00+00:00_
 - [[concepts/skill-Truman-语义对齐沟通法.md|技能：语义对齐沟通法]] — source no source
 - [[concepts/skill-Truman-问题定义澄清法.md|技能：问题定义澄清法]] — source no source
 - [[concepts/skill-一堂-business-prediction-15-char.md|技能：商业预判15字诀]] — source `00_inbox/一堂-商业预判课-Truman-口述.txt`
+- [[concepts/skill-一堂-five-step-validation.md|技能：聊问查测盘五步验证法]] — source `00_inbox/一堂-产品内核验证课-Truman-口述.txt`
 - [[concepts/skill-一堂-hypothesis-validation-three-axe.md|技能：假设验证三板斧]] — source `00_inbox/一堂-关键假设课-truman-口述.txt`
+- [[concepts/skill-一堂-kernel-three-questions.md|技能：内核要素三问验证法]] — source `00_inbox/一堂-产品内核验证课-Truman-口述.txt`
+- [[concepts/skill-一堂-product-kernel-add-subtract.md|技能：产品内核加减法]] — source `00_inbox/一堂-产品内核实操课-Truman-口述.txt`
+- [[concepts/skill-一堂-product-kernel-canvas.md|一堂产品内核画布应用技能]] — source `00_inbox/一堂-产品内核迭代课-Truman-笔记.txt`
 - [[concepts/skill-一堂-spectrum-positioning.md|技能：光谱模型定位法]] — source `00_inbox/一堂-商业预判课-Truman-口述.txt`
 - [[concepts/skill-三层目标对齐法.md|技能：三层目标对齐法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
 - [[concepts/skill-三阶追问法穷尽决策要素.md|技能：三阶追问法穷尽决策要素]] — source `src_20260609_44a9e79a`
@@ -1073,6 +1086,13 @@ _Last updated: 2026-06-10T18:04:00+00:00_
 - [[concepts/yt-research-user-jtbd.md|yt-research-user-jtbd]] — source no source
 - [[concepts/yt-research-weaponry-course.md|一堂调研武器库课程]] — source `src_20260506_bb9048a6`
 - [[concepts/yt-scale-economy-weapon-library.md|规模经济分析武器库]] — source `00_inbox/一堂五步法/一堂-一堂五步法-壁垒-规模经济分析武器库.png`
+- [[concepts/yt-skill-checklist-as-ai-protocol.md|清单体作为AI的I/O协议——用笔记替代prompt工程]] — source `30_wiki/decisions/truman-ai-partner-design-analysis.md`
+- [[concepts/yt-skill-p-role-prompt-design.md|P 角色 Prompt 设计——执行者型 AI 的交付规范]] — source `00_inbox/和AI请单体笔记专家P角色聊天内容.md`
+- [[concepts/yt-skill-storyline-contrast-analysis.md|清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度]] — source `00_inbox/系统故事线（10种故事线）_paddle_ocr.txt`
+- [[concepts/yt-skill-storyline-key-elements.md|清单体故事线⑥：关键要素线——用结构拆解‘什么才是真正重要的’]] — source `00_inbox/系统故事线（10种故事线）_paddle_ocr.txt`
+- [[concepts/yt-skill-storyline-problem-solving.md|清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链]] — source `00_inbox/系统故事线（10种故事线）_paddle_ocr.txt`
+- [[concepts/yt-skill-storyline-target-tradeoff.md|清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架]] — source `00_inbox/系统故事线（10种故事线）_paddle_ocr.txt`
+- [[concepts/yt-skill-storyline-timeline.md|清单体故事线①：严格时间线——用时间轴重构事件因果链]] — source `00_inbox/系统故事线（10种故事线）_paddle_ocr.txt`
 - [[concepts/yt-system-course-catalog.md|一堂全课程目录索引]] — source `10_raw/sources/一堂-课程地图精华串讲.md`
 - [[concepts/yt-system-course-map-lecture.md|一堂课程地图精华串讲]] — source no source
 - [[concepts/yt-three-dimension-opportunity-matrix.md|三维排列组合找机会]] — source `00_inbox/一堂-机会预判-三维排列组合01.png`
@@ -1144,29 +1164,6 @@ _Last updated: 2026-06-10T18:04:00+00:00_
 - [[projects/互联网医院项目.md|互联网医院项目]] — source no source
 - [[projects/诊所O2O项目.md|诊所O2O项目]] — source no source
 - [[projects/鑫港湾HIS项目.md|鑫港湾HIS项目]] — source no source
-- [[skills/skill-ai-four-elements-validation.md|技能：真需求四要素验证法]] — source `src_20260606_42e11f09`
-- [[skills/skill-ai-info-literacy-three-layer.md|技能：AI输出三层防护检查法]] — source `{'来源': '一堂 (Truman)'}`
-- [[skills/skill-ai-landing-five-steps.md|技能：AI落地五步执行流程]] — source `src_20260606_ef4877d0`
-- [[skills/skill-ai-problem-question-check.md|技能：Problem vs Question 区分法]] — source `src_20260606_42e11f09`
-- [[skills/skill-ai-research-five-steps.md|技能：AI调研五步法]] — source `src_20260606_90b44191`
-- [[skills/skill-ai-scene-four-elements.md|技能：AI落地场景四要素评估法]] — source `src_20260606_ef4877d0`
-- [[skills/skill-cognitive-bias-12-check.md|技能：12种认知偏差完整自检]] — source `{'来源': '消化全库后提炼'}`
-- [[skills/skill-decision-delay-intuition.md|技能：延迟直觉法]] — source `{'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}`
-- [[skills/skill-decision-outside-view.md|技能：团队决策外部视角法]] — source `{'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}`
-- [[skills/skill-first-principles-assumption-classify.md|技能：假设分类法（第一性原理）]] — source `{'来源': 'Aristotle, Elon Musk'}`
-- [[skills/skill-一堂-business-prediction-15-char.md|技能：商业预判15字诀]] — source `00_inbox/一堂-商业预判课-Truman-口述.txt`
-- [[skills/skill-一堂-five-step-validation.md|技能：聊问查测盘五步验证法]] — source `00_inbox/一堂-产品内核验证课-Truman-口述.txt`
-- [[skills/skill-一堂-hypothesis-validation-three-axe.md|技能：假设验证三板斧]] — source `00_inbox/一堂-关键假设课-truman-口述.txt`
-- [[skills/skill-一堂-kernel-three-questions.md|技能：内核要素三问验证法]] — source `00_inbox/一堂-产品内核验证课-Truman-口述.txt`
-- [[skills/skill-一堂-product-kernel-add-subtract.md|技能：产品内核加减法]] — source `00_inbox/一堂-产品内核实操课-Truman-口述.txt`
-- [[skills/skill-一堂-product-kernel-canvas.md|一堂产品内核画布应用技能]] — source `00_inbox/一堂-产品内核迭代课-Truman-笔记.txt`
-- [[skills/yt-skill-checklist-as-ai-protocol.md|清单体作为AI的I/O协议——用笔记替代prompt工程]] — source `30_wiki/decisions/truman-ai-partner-design-analysis.md`
-- [[skills/yt-skill-p-role-prompt-design.md|P 角色 Prompt 设计——执行者型 AI 的交付规范]] — source `00_inbox/和AI请单体笔记专家P角色聊天内容.md`
-- [[skills/yt-skill-storyline-contrast-analysis.md|清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度]] — source `00_inbox/系统故事线（10种故事线）_paddle_ocr.txt`
-- [[skills/yt-skill-storyline-key-elements.md|清单体故事线⑥：关键要素线——用结构拆解‘什么才是真正重要的’]] — source `00_inbox/系统故事线（10种故事线）_paddle_ocr.txt`
-- [[skills/yt-skill-storyline-problem-solving.md|清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链]] — source `00_inbox/系统故事线（10种故事线）_paddle_ocr.txt`
-- [[skills/yt-skill-storyline-target-tradeoff.md|清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架]] — source `00_inbox/系统故事线（10种故事线）_paddle_ocr.txt`
-- [[skills/yt-skill-storyline-timeline.md|清单体故事线①：严格时间线——用时间轴重构事件因果链]] — source `00_inbox/系统故事线（10种故事线）_paddle_ocr.txt`
 - [[systems/agent-external-brain-design.md|Agent 外挂大脑设计]] — source `project-continuity.md`
 - [[systems/agent-native-card-design.md|Agent 原生知识卡设计规范 v2]] — source no source
 - [[systems/graph-rag-retrieval-layer.md|Graph RAG 检索层技术说明]] — source no source
