@@ -24,7 +24,7 @@ reviewed_by: "洪七公"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-斧子尺子和梯子.png"
-status: "enriched"
+status: "reviewed"
 tags:
   - "confidence-source-cited"
   - "#scene/business-analysis"
