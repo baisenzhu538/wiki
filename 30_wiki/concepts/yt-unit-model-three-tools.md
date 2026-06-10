@@ -90,10 +90,10 @@ Eric Ries 的"构建-测量-学习"循环对"斧子"提出挑战：传统预判�
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 上位框架 | [[yt-five-step-method]] | 五步法总纲——第三步 |
-| 关联框架 | [[yt-growth-cycle-model]] | 增长周期模型——梯子阶段的实践框架 |
-| 关联案例 | [[case-toy-cabinet-business-model]] | 线下玩具柜单元模型案例 |
-| 关联案例 | [[case-treadmill-demand-analysis]] | 跑步机需求案例——需求到内核的跨越 |
+| 上位框架 | [[yt-five-step-method]] |  本卡是[[yt-five-step-method]]的重要组成部分，在五步法总纲中承担五步法总纲——第三步的具体落地工具，将上位概念转化为可执行的分析框架 |
+| 关联框架 | [[yt-growth-cycle-model]] |  本卡与[[yt-growth-cycle-model]]在方法论层面互为补充，后者专注于增长周期模型——梯子阶段的实践框架，两者结合可从不同角度拓展分析深度和广度 |
+| 关联案例 | [[case-toy-cabinet-business-model]] |  本卡与[[case-toy-cabinet-business-model]]紧密关联，后者通过线下玩具柜单元模型案例的具体业务场景，展示了本卡理论在真实世界中的应用方式 |
+| 关联案例 | [[case-treadmill-demand-analysis]] |  本卡与[[case-treadmill-demand-analysis]]紧密关联，后者通过跑步机需求案例——需求到内核的跨越的具体业务场景，展示了本卡理论在真实世界中的应用方式 |
 
 ## Action Triggers
 

@@ -118,12 +118,12 @@ Mauboussin 的财务分析框架强调，企业的**超额利润**来自于竞�
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 父框架 | [[yt-five-step-method]] | 单元模型是五步法第三步商业模式的核心分析工具 |
-| 应用工具 | [[yt-unit-model-build]] | 单元模型构建的具体操作方法，将概念落地为可复制的分析流程 |
+| 父框架 | [[yt-five-step-method]] |  本卡是[[yt-five-step-method]]在实践层面的延伸和补充，专门解决单元模型是五步法第三步商业模式的核心分析工具的问题，帮助使用者在父框架下做出更精细的分析 |
+| 应用工具 | [[yt-unit-model-build]] |  本卡是[[yt-unit-model-build]]的具体应用工具，将单元模型构建的具体操作方法，将概念落地为可复制的分析流程转化为可操作的分析步骤，降低了从理论到实践的门槛 |
 | 数据输入 | [[yt-market-size-estimation]] | 市场规模估算为单元模型提供收入上限的参数输入，两者需交叉验证 |
-| 案例应用 | [[case-unit-model-gashapon]] | 扭蛋机案例展示了从L2到L5的单元模型分析进阶过程 |
-| 质量输入 | [[yt-product-ten-metrics]] | 产品内核指标决定了单元模型中的转化率、留存率等关键参数 |
-| 增长前提 | [[yt-growth-cycle-model]] | 单元模型验证通过是进入增长阶段的必要条件 |
+| 案例应用 | [[case-unit-model-gashapon]] |  本卡与[[case-unit-model-gashapon]]在案例层面互为映射，后者通过扭蛋机案例展示了从L2到L5的单元模型分析进阶过程的具体业务展示了本卡理论的应用情境 |
+| 质量输入 | [[yt-product-ten-metrics]] |  本卡与[[yt-product-ten-metrics]]在质量层面互为支撑，后者为产品内核指标决定了单元模型中的转化率、留存率等关键参数提供了可量化的评估维度和数据标准 |
+| 增长前提 | [[yt-growth-cycle-model]] |  本卡与[[yt-growth-cycle-model]]在业务周期中互为前后置，单元模型验证通过是进入增长阶段的必要条件是进入增长阶段的必要条件，两者需交叉验证 |
 
 ## Action Triggers
 

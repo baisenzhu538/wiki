@@ -117,12 +117,12 @@ Porter 的五力模型强调从**行业结构**角度分析竞争，而五步法
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 子模块 | [[yt-demand-analysis-hiking-map]] | 第一步：需求分析 |
-| 子模块 | [[yt-product-kernel-cultivation]] | 第二步：产品内核 |
-| 子模块 | [[yt-unit-model-three-tools]] | 第三步：商业模式 |
-| 子模块 | [[yt-growth-cycle-model]] | 第四步：增长 |
-| 子模块 | [[yt-barrier-analysis-cheat-sheet]] | 第五步：壁垒 |
-| 关联框架 | [[yt-foresight-business-spectrum]] | 终局光谱图——判断每一步的目标区间 |
+| 子模块 | [[yt-demand-analysis-hiking-map]] |  本卡是[[yt-demand-analysis-hiking-map]]体系中的第需求分析，专注于该步骤的具体方法论和实操工具，是连接上位概念与场景应用的桥梁 |
+| 子模块 | [[yt-product-kernel-cultivation]] |  本卡是[[yt-product-kernel-cultivation]]体系中的第产品内核，专注于该步骤的具体方法论和实操工具，是连接上位概念与场景应用的桥梁 |
+| 子模块 | [[yt-unit-model-three-tools]] |  本卡是[[yt-unit-model-three-tools]]体系中的第商业模式，专注于该步骤的具体方法论和实操工具，是连接上位概念与场景应用的桥梁 |
+| 子模块 | [[yt-growth-cycle-model]] |  本卡是[[yt-growth-cycle-model]]体系中的第增长，专注于该步骤的具体方法论和实操工具，是连接上位概念与场景应用的桥梁 |
+| 子模块 | [[yt-barrier-analysis-cheat-sheet]] |  本卡是[[yt-barrier-analysis-cheat-sheet]]体系中的第壁垒，专注于该步骤的具体方法论和实操工具，是连接上位概念与场景应用的桥梁 |
+| 关联框架 | [[yt-foresight-business-spectrum]] |  本卡与[[yt-foresight-business-spectrum]]在方法论层面互为补充，后者专注于终局光谱图——判断每一步的目标区间，两者结合可从不同角度拓展分析深度和广度 |
 
 ## Action Triggers
 

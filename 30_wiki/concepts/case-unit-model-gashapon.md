@@ -148,11 +148,11 @@ Schultz 在扩张星巴克时强调，**每一家新店都必须在第一年实�
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 理论框架 | [[yt-unit-model-concept]] | 本案例是单元模型六个段位理论的具体展示 |
-| 实操方法 | [[yt-unit-model-build]] | 案例展示了如何用五步搭建法建立单元模型 |
-| 数据验证 | [[yt-market-size-estimation]] | 案例中的收入预测需要结合市场规模估算方法交叉验证 |
-| 产品输入 | [[yt-product-ten-metrics]] | 案例中的留存率、复购率等需要产品内核指标支撑 |
-| 增长前提 | [[yt-growth-cycle-model]] | 案例强调单元模型验证后才能规模扩张 |
+| 理论框架 | [[yt-unit-model-concept]] |  本卡与[[yt-unit-model-concept]]在理论层面互为补充，后者为本案例是单元模型六个段位理论的具体展示提供了系统性的概念框架和分析维度 |
+| 实操方法 | [[yt-unit-model-build]] |  本卡与[[yt-unit-model-build]]在实操层面互为补充，后者为案例展示了如何用五步搭建法建立单元模型提供了可复制的操作步骤和判断标准 |
+| 数据验证 | [[yt-market-size-estimation]] |  本卡与[[yt-market-size-estimation]]在数据层面互为支撑，后者为案例中的收入预测需要结合市场规模估算方法交叉验证提供了交叉验证的方法论，提升分析的可靠性 |
+| 产品输入 | [[yt-product-ten-metrics]] |  本卡与[[yt-product-ten-metrics]]在产品层面互为支撑，后者为案例中的留存率、复购率等需要产品内核指标支撑提供了系统性的评估框架和参考标准 |
+| 增长前提 | [[yt-growth-cycle-model]] |  本卡与[[yt-growth-cycle-model]]在业务周期中互为前后置，案例强调单元模型验证后才能规模扩张是进入增长阶段的必要条件，两者需交叉验证 |
 
 ## Action Triggers
 

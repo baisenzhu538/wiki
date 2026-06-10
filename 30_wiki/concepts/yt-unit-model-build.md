@@ -136,11 +136,11 @@ Kaufman 在《个人 MBA》中提出，商业模式分析有**四个维度**：�
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 父概念 | [[yt-unit-model-concept]] | 本卡是单元模型概念的具体操作方法和实施技能 |
-| 费务输入 | [[yt-market-size-estimation]] | 市场规模估算为单元模型提供收入上限的关键参数 |
-| 案例实操 | [[case-unit-model-gashapon]] | 扭蛋机案例展示了如何将五步搭建法应用于实际业务 |
-| 数据输入 | [[yt-product-ten-metrics]] | 产品内核指标决定了单元模型中的转化率、留存率等关键参数 |
-| 增长前提 | [[yt-growth-cycle-model]] | 单元模型验证通过是进入增长阶段的必要条件 |
+| 父概念 | [[yt-unit-model-concept]] |  本卡是[[yt-unit-model-concept]]的具体实操和应用延伸，将本卡是单元模型概念的具体操作方法和实施技能从概念层面转化为可复制的操作步骤和判断标准 |
+| 费务输入 | [[yt-market-size-estimation]] |  本卡与[[yt-market-size-estimation]]在财务层面互为支撑，后者为市场规模估算为单元模型提供收入上限的关键参数提供了关键的参数输入和上限参照 |
+| 案例实操 | [[case-unit-model-gashapon]] |  本卡与[[case-unit-model-gashapon]]结合，后者通过扭蛋机案例展示了如何将五步搭建法应用于实际业务的实战案例展示了本卡方法论在真实业务中的落地路径 |
+| 数据输入 | [[yt-product-ten-metrics]] |  本卡从[[yt-product-ten-metrics]]获取产品内核指标决定了单元模型中的转化率、留存率等关键参数的关键参数支撑，两者的结合能让分析从定性推断走向定量验证 |
+| 增长前提 | [[yt-growth-cycle-model]] |  本卡与[[yt-growth-cycle-model]]在业务周期中互为前后置，单元模型验证通过是进入增长阶段的必要条件是进入增长阶段的必要条件，两者需交叉验证 |
 
 ## Action Triggers
 

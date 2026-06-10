@@ -115,10 +115,10 @@ Ries 的 MVP 理论认为需求是猜测出来的，而非分析出来的。五�
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 上位框架 | [[yt-five-step-method]] | 五步法总纲 |
-| 关联工具 | [[yt-market-size-estimation]] | 市场规模估算四种方法 |
-| 关联案例 | [[case-treadmill-demand-analysis]] | 跑步机需求分析案例 |
-| 关联框架 | [[yt-foresight-business-spectrum]] | 终局光谱图——判断需求大小 |
+| 上位框架 | [[yt-five-step-method]] |  本卡是[[yt-five-step-method]]的重要组成部分，在五步法总纲中承担五步法总纲的具体落地工具，将上位概念转化为可执行的分析框架 |
+| 关联工具 | [[yt-market-size-estimation]] |  本卡与[[yt-market-size-estimation]]配合使用效果更佳，后者为市场规模估算四种方法提供专门的方法论和操作步骤，两者结合可形成从理论到实践的完整闭环 |
+| 关联案例 | [[case-treadmill-demand-analysis]] |  本卡与[[case-treadmill-demand-analysis]]紧密关联，后者通过跑步机需求分析案例的具体业务场景，展示了本卡理论在真实世界中的应用方式 |
+| 关联框架 | [[yt-foresight-business-spectrum]] |  本卡与[[yt-foresight-business-spectrum]]在方法论层面互为补充，后者专注于终局光谱图——判断需求大小，两者结合可从不同角度拓展分析深度和广度 |
 
 ## Action Triggers
 

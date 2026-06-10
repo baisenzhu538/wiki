@@ -126,13 +126,13 @@ Bezos 的"Day 1"理念强调公司必须永远保持创业第一天的敏捷和�
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 父框架 | [[yt-five-step-method]] | 落地实操是将五步法从理论转化为实践的完整路径 |
-| 第一步实操 | [[yt-demand-analysis-hiking-map]] | 需求分析画布是故事版和取舍版的核心输入 |
-| 第二步实操 | [[yt-product-kernel-cultivation]] | 产品内核分析在取舍版阶段需要做最艰难的减法 |
-| 第三步实操 | [[yt-unit-model-concept]] | 单元模型分析是定量版的重头戏，必须有数字支撑 |
-| 第四步实操 | [[yt-growth-cycle-model]] | 增长策略在分工版中需要明确各部门的获客职责 |
-| 第五步实操 | [[yt-barrier-analysis-cheat-sheet]] | 壁垒分析在分工版中需要指定长期建设的负责人 |
-| 暗知识 | [[yt-five-step-common-pitfalls]] | 常见误区卡补充了落地过程中最容易踩的坑 |
+| 父框架 | [[yt-five-step-method]] |  本卡是[[yt-five-step-method]]在实践层面的延伸和补充，专门解决落地实操是将五步法从理论转化为实践的完整路径的问题，帮助使用者在父框架下做出更精细的分析 |
+| 第一步实操 | [[yt-demand-analysis-hiking-map]] |  本卡与[[yt-demand-analysis-hiking-map]]在五步法落地中紧密关联，后者为需求分析画布是故事版和取舍版的核心输入提供了系统性的画布和分析框架，是故事版和取舍版的核心输入 |
+| 第二步实操 | [[yt-product-kernel-cultivation]] |  本卡与[[yt-product-kernel-cultivation]]在五步法落地中紧密关联，后者专注于产品内核分析在取舍版阶段需要做最艰难的减法，在取舍版阶段需要借助此工具做最艰难的减法 |
+| 第三步实操 | [[yt-unit-model-concept]] |  本卡与[[yt-unit-model-concept]]在五步法落地中紧密关联，后者专注于单元模型分析是定量版的重头戏，必须有数字支撑，是定量版中必须用数字验证的核心环节 |
+| 第四步实操 | [[yt-growth-cycle-model]] |  本卡与[[yt-growth-cycle-model]]在五步法落地中紧密关联，后者为增长策略在分工版中需要明确各部门的获客职责提供了系统性的分配框架，是分工版中团队协同的关键 |
+| 第五步实操 | [[yt-barrier-analysis-cheat-sheet]] |  本卡与[[yt-barrier-analysis-cheat-sheet]]在五步法落地中紧密关联，后者为壁垒分析在分工版中需要指定长期建设的负责人提供了结构化的分析工具，需要指定长期建设的责任人和路径 |
+| 暗知识 | [[yt-five-step-common-pitfalls]] |  本卡与[[yt-five-step-common-pitfalls]]在实践层面互为补充，后者专门补充了常见误区卡补充了落地过程中最容易踩的坑，两者配合使用能更有效地避坑 |
 
 ## Action Triggers
 

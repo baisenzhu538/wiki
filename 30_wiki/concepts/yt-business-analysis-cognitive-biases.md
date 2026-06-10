@@ -148,12 +148,12 @@ Annie Duke 在《对决定》中论证，好的决策不一定带来好的结果
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
 | 父框架 | [[yt-five-step-method]] | 认知偏差分析是正确使用五步法的前提，告诉使用者框架不能替代思维训练 |
-| 实践应用 | [[yt-five-step-implementation]] | 落地实操四阶段中的每个阶段都有不同的偏差陷阱 |
-| 误区补充 | [[yt-five-step-common-pitfalls]] | 常见误区卡从行为层面补充了本卡的认知层面，两者配合使用 |
-| 需求偏差 | [[yt-demand-analysis-hiking-map]] | 需求分析是证实性偏差最高发的环节，需要特别警惕 |
-| 财务偏差 | [[yt-unit-model-concept]] | 单元模型分析中的乐观预期是现在偏差和证实性偏差的混合体 |
-| 增长偏差 | [[yt-growth-cycle-model]] | 增长策略中的幸存者偏差会导致盲目跟风成功渠道 |
-| 壁垒偏差 | [[yt-barrier-analysis-cheat-sheet]] | 壁垒分析中的过度自信会导致误把"忙碌"当"壁垒" |
+| 实践应用 | [[yt-five-step-implementation]] |  本卡与[[yt-five-step-implementation]]在实践层面互为补充，后者为落地实操四阶段中的每个阶段都有不同的偏差陷阱提供了可操作的落地方法和阶段性路径 |
+| 误区补充 | [[yt-five-step-common-pitfalls]] |  本卡与[[yt-five-step-common-pitfalls]]在内容上互为补充，后者从常见误区卡从行为层面补充了本卡的认知层面，两者配合使用角度进一步完善了本卡未能究尽的部分，两者配合使用更全面 |
+| 需求偏差 | [[yt-demand-analysis-hiking-map]] |  本卡与[[yt-demand-analysis-hiking-map]]在需求分析中相互映射，需求分析是证实性偏差最高发的环节，需要特别警惕的认知偏差会让用户画像和场景定位严重偏离实际 |
+| 财务偏差 | [[yt-unit-model-concept]] |  本卡与[[yt-unit-model-concept]]在财务分析中相互映射，单元模型分析中的乐观预期是现在偏差和证实性偏差的混合体的认知偏差会直接影响单元经济模型的准确性和可靠性 |
+| 增长偏差 | [[yt-growth-cycle-model]] |  本卡与[[yt-growth-cycle-model]]在增长分析中相互映射，增长策略中的幸存者偏差会导致盲目跟风成功渠道的认知偏差会导致渠道选择和资源配置出现系统性偏离 |
+| 壁垒偏差 | [[yt-barrier-analysis-cheat-sheet]] |  本卡与[[yt-barrier-analysis-cheat-sheet]]在壁垒分析中相互映射，壁垒分析中的过度自信会导致误把"忙碌"当"壁垒"的认知偏差会让壁垒判断失去客观性 |
 
 ## Action Triggers
 

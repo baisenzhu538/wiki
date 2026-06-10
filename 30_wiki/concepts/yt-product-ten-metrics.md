@@ -107,11 +107,11 @@ Bogle 的投资理念强调"短期指标波动是噪音，长期价值才是信�
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 父框架 | [[yt-product-kernel-cultivation]] | 十大指标是评估产品内核质量的量化工具 |
-| 上游输入 | [[yt-demand-analysis-hiking-map]] | 需求分析决定了应该选择哪些指标作为北极星 |
-| 下游应用 | [[yt-unit-model-three-tools]] | 指标数据是单元模型中转化率、复购率等参数的来源 |
-| 关联工具 | [[yt-customer-acquisition-toolkit]] | 获客指标直接指导获客渠道的选择和优化 |
-| 关联概念 | [[yt-growth-cycle-model]] | 增长周期模型需要基于留存率、推荐率等指标判断阶段 |
+| 父框架 | [[yt-product-kernel-cultivation]] |  本卡是[[yt-product-kernel-cultivation]]在实践层面的延伸和补充，专门解决十大指标是评估产品内核质量的量化工具的问题，帮助使用者在父框架下做出更精细的分析 |
+| 上游输入 | [[yt-demand-analysis-hiking-map]] |  本卡与[[yt-demand-analysis-hiking-map]]在数据流中互为前后置，后者为需求分析决定了应该选择哪些指标作为北极星提供了关键的输入参数，是本卡分析的重要前提条件 |
+| 下游应用 | [[yt-unit-model-three-tools]] |  本卡与[[yt-unit-model-three-tools]]在业务流中互为前后置，后者为指标数据是单元模型中转化率、复购率等参数的来源提供了具体的落地场景和应用方法 |
+| 关联工具 | [[yt-customer-acquisition-toolkit]] |  本卡与[[yt-customer-acquisition-toolkit]]配合使用效果更佳，后者为获客指标直接指导获客渠道的选择和优化提供专门的方法论和操作步骤，两者结合可形成从理论到实践的完整闭环 |
+| 关联概念 | [[yt-growth-cycle-model]] |  本卡与[[yt-growth-cycle-model]]在关联概念层面紧密关联，后者专注于增长周期模型需要基于留存率、推荐率等指标判断阶段，两者结合可从多角度拓展分析的深度和广度 |
 
 ## Action Triggers
 

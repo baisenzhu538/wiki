@@ -167,11 +167,11 @@ Gawande 在《清单革命》中论证，即使是顶尖专家也需要清单来
 |------|---------|------|
 | 父框架 | [[yt-five-step-method]] | 本卡揭示了五步法框架使用中不为人知的认知陷阱，是对主框架的必要补充 |
 | 落地方法 | [[yt-five-step-implementation]] | 落地实操四阶段是避免静态工具化的具体路径，两卡配合使用效果更佳 |
-| 需求陷阱 | [[yt-demand-analysis-hiking-map]] | 需求分析是最容易陷入"见识不足"和"表述模糊"的环节 |
+| 需求陷阱 | [[yt-demand-analysis-hiking-map]] |  本卡与[[yt-demand-analysis-hiking-map]]在需求分析中互为补充，需求分析是最容易陷入"见识不足"和"表述模糊"的环节是需求分析中最容易踩的认知坑 |
 | 产品陷阱 | [[yt-product-kernel-cultivation]] | 产品内核分析最容易出现"过度自信"——创始人觉得自己最懂用户 |
-| 商业模式陷阱 | [[yt-unit-model-concept]] | 单元模型分析最容易"表述模糊"——用感觉数字替代真实数据 |
-| 增长陷阱 | [[yt-growth-cycle-model]] | 增长策略最容易静态工具化——市场变化了但策略不变 |
-| 壁垒陷阱 | [[yt-barrier-analysis-cheat-sheet]] | 壁垒分析最容易见识不足——没见过真正的壁垒长什么样 |
+| 商业模式陷阱 | [[yt-unit-model-concept]] |  本卡与[[yt-unit-model-concept]]在商业模式分析中互为补充，单元模型分析最容易"表述模糊"——用感觉数字替代真实数据是单元模型分析中最常见的认知陷阱之一 |
+| 增长陷阱 | [[yt-growth-cycle-model]] |  本卡与[[yt-growth-cycle-model]]在增长分析中互为警示，增长策略最容易静态工具化——市场变化了但策略不变是增长策略中最常见且危害最大的认知陷阱之一 |
+| 壁垒陷阱 | [[yt-barrier-analysis-cheat-sheet]] |  本卡与[[yt-barrier-analysis-cheat-sheet]]在壁垒分析中互为补充，壁垒分析最容易见识不足——没见过真正的壁垒长什么样是壁垒分析中最容易被忽视的认知盲点 |
 
 ## Action Triggers
 

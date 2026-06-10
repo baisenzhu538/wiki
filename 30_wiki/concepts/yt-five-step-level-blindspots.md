@@ -126,13 +126,13 @@ Ericsson 在故意练习理论中发现，专家和新手的差距不在于"天�
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 父框架 | [[yt-five-step-method]] | 段位盲区分析是理解五步法学习曲线的必要补充 |
-| 具体案例 | [[yt-unit-model-concept]] | 单元模型六个段位是本卡"段位盲区"理论的核心参照 |
-| 落地路径 | [[yt-five-step-implementation]] | 落地实操四阶段为段位进阶提供了可实操的践踪 |
-| 认知基础 | [[yt-business-analysis-cognitive-biases]] | 认知偏差是导致自评高估的深层原因 |
-| 需求段位 | [[yt-demand-analysis-hiking-map]] | 需求分析有独特的段位进阶路径（标签化→场景化→量化） |
-| 增长段位 | [[yt-growth-cycle-model]] | 增长策略的段位从"随机尝试"到"系统复制" |
-| 壁垒段位 | [[yt-barrier-analysis-cheat-sheet]] | 壁垒分析的段位从"假壁垒"到"结构性壁垒" |
+| 父框架 | [[yt-five-step-method]] |  本卡是[[yt-five-step-method]]在实践层面的延伸和补充，专门解决段位盲区分析是理解五步法学习曲线的必要补充的问题，帮助使用者在父框架下做出更精细的分析 |
+| 具体案例 | [[yt-unit-model-concept]] |  本卡以[[yt-unit-model-concept]]为核心参照，后者通过单元模型六个段位是本卡"段位盲区"理论的核心参照的具体业务场景，演示了本卡理论的实际应用 |
+| 落地路径 | [[yt-five-step-implementation]] |  本卡与[[yt-five-step-implementation]]在实践层面互为补充，后者为落地实操四阶段为段位进阶提供了可实操的践踪提供了可实操的阶段性践踪和进阶路径 |
+| 认知基础 | [[yt-business-analysis-cognitive-biases]] |  本卡与[[yt-business-analysis-cognitive-biases]]在认知层面互为基础，后者展示了认知偏差是导致自评高估的深层原因，为本卡的分析提供了必要的心理学和决策科学基础 |
+| 需求段位 | [[yt-demand-analysis-hiking-map]] |  本卡与[[yt-demand-analysis-hiking-map]]在段位进阶中互为参照，后者展示了需求分析有独特的段位进阶路径（标签化→场景化→量化）的完整进阶路径，帮助识别当前水平和下一步突破点 |
+| 增长段位 | [[yt-growth-cycle-model]] |  本卡与[[yt-growth-cycle-model]]在段位进阶中互为参照，后者展示了从增长策略的段位从"随机尝试"到"系统复制"的完整进阶路径，帮助定位当前水平 |
+| 壁垒段位 | [[yt-barrier-analysis-cheat-sheet]] |  本卡与[[yt-barrier-analysis-cheat-sheet]]在段位进阶中互为参照，后者展示了从壁垒分析的段位从"假壁垒"到"结构性壁垒"的认知深度进化，是段位评估的重要维度 |
 
 ## Action Triggers
 

@@ -118,10 +118,10 @@ Arthur 的增殊经济理论认为，在高技术行业中，先发优势和路�
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 上位框架 | [[yt-five-step-method]] | 五步法总纲——第五步 |
-| 关联工具 | [[yt-scale-economy-weapon-library]] | 规模经济武器库——壁垒分析的子工具 |
-| 关联框架 | [[yt-unit-model-three-tools]] | 单元模型三工具——梯子阶段必须考虑壁垒 |
-| 关联案例 | [[case-toy-cabinet-business-model]] | 线下玩具柜案例——壁垒分析实战 |
+| 上位框架 | [[yt-five-step-method]] |  本卡是[[yt-five-step-method]]的重要组成部分，在五步法总纲中承担五步法总纲——第五步的具体落地工具，将上位概念转化为可执行的分析框架 |
+| 关联工具 | [[yt-scale-economy-weapon-library]] |  本卡与[[yt-scale-economy-weapon-library]]配合使用效果更佳，后者为规模经济武器库——壁垒分析的子工具提供专门的方法论和操作步骤，两者结合可形成从理论到实践的完整闭环 |
+| 关联框架 | [[yt-unit-model-three-tools]] |  本卡与[[yt-unit-model-three-tools]]在方法论层面互为补充，后者专注于单元模型三工具——梯子阶段必须考虑壁垒，两者结合可从不同角度拓展分析深度和广度 |
+| 关联案例 | [[case-toy-cabinet-business-model]] |  本卡与[[case-toy-cabinet-business-model]]紧密关联，后者通过线下玩具柜案例——壁垒分析实战的具体业务场景，展示了本卡理论在真实世界中的应用方式 |
 
 ## Action Triggers
 

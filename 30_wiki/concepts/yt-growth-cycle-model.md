@@ -108,10 +108,10 @@ Ellis 的产品-市场匹配理论（PMF）认为，在达到 PMF 之前任何�
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 上位框架 | [[yt-five-step-method]] | 五步法总纲——第四步 |
-| 关联框架 | [[yt-unit-model-three-tools]] | 单元模型三工具——增长的财务基础 |
-| 关联工具 | [[yt-customer-acquisition-toolkit]] | 获客工具合集——获客增长的具体方法 |
-| 关联工具 | [[yt-barrier-analysis-cheat-sheet]] | 壁垒分析——对抗增长的竞争基础 |
+| 上位框架 | [[yt-five-step-method]] |  本卡是[[yt-five-step-method]]的重要组成部分，在五步法总纲中承担五步法总纲——第四步的具体落地工具，将上位概念转化为可执行的分析框架 |
+| 关联框架 | [[yt-unit-model-three-tools]] |  本卡与[[yt-unit-model-three-tools]]在方法论层面互为补充，后者专注于单元模型三工具——增长的财务基础，两者结合可从不同角度拓展分析深度和广度 |
+| 关联工具 | [[yt-customer-acquisition-toolkit]] |  本卡与[[yt-customer-acquisition-toolkit]]配合使用效果更佳，后者为获客工具合集——获客增长的具体方法提供专门的方法论和操作步骤，两者结合可形成从理论到实践的完整闭环 |
+| 关联工具 | [[yt-barrier-analysis-cheat-sheet]] |  本卡与[[yt-barrier-analysis-cheat-sheet]]配合使用效果更佳，后者为壁垒分析——对抗增长的竞争基础提供专门的方法论和操作步骤，两者结合可形成从理论到实践的完整闭环 |
 
 ## Action Triggers
 

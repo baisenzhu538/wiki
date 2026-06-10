@@ -124,9 +124,9 @@ Sierra 在《了不起的产品》中强调，用户选择产品的真正原因�
 
 | 关系 | 目标节点 | 说明 |
 |------|---------|------|
-| 上位框架 | [[yt-five-step-method]] | 五步法总纲——第二步 |
-| 关联案例 | [[case-shampoo-product-kernel]] | 洗发水产品内核案例 |
-| 关联案例 | [[case-treadmill-demand-analysis]] | 跑步机需求分析案例 |
+| 上位框架 | [[yt-five-step-method]] |  本卡是[[yt-five-step-method]]的重要组成部分，在五步法总纲中承担五步法总纲——第二步的具体落地工具，将上位概念转化为可执行的分析框架 |
+| 关联案例 | [[case-shampoo-product-kernel]] |  本卡与[[case-shampoo-product-kernel]]紧密关联，后者通过洗发水产品内核案例的具体业务场景，展示了本卡理论在真实世界中的应用方式 |
+| 关联案例 | [[case-treadmill-demand-analysis]] |  本卡与[[case-treadmill-demand-analysis]]紧密关联，后者通过跑步机需求分析案例的具体业务场景，展示了本卡理论在真实世界中的应用方式 |
 
 ## Action Triggers
 
