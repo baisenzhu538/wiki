@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-11
 active_branch: main
-active_task: "用户确认 KDO 进化方向：从知识仓库→诊断伙伴。已发黄药师工单 Task E（诊断基础设施v1：diagnostic_signals schema+校验+Graph RAG边类型）。60_feedback/diagnosis/已创建。待黄药师启动 E1。"
+active_task: "机会预判域补充完成：基于189KB口述稿新增11张卡(6 concept+3 case+1 tool+1 dk)。黄药师Task J/K已完成。待黄药师启动Task E（诊断基础设施v1）。老顽童回归后读纠正文件。"
 blockers: []
 next_session_hint: "用户说'继续'→ Agent体系建设待欧阳锋裁决（Q1数量/Q2分发/Q3颗粒度）。方案见 decisions/agent-ecosystem-design.md。黄药师已领 Task E（诊断基础设施v1）。老顽童回归后读纠正文件。洪七公回归后读流程建议。"
 ---
@@ -38,7 +38,7 @@ next_session_hint: "用户说'继续'→ Agent体系建设待欧阳锋裁决（Q
 ## 当前共享状态
 
 ### 各角色当前任务
-- **黄药师**：Task G ✅（template + checklist）。Task J ✅（build provenance + trace + lint stale 检测）commit `1995f59`。Task K ✅（反馈模板挂载 produce + NL auto-routing）commit `1995f59`。
+- **黄药师**：Task G/J/K 全部完成（commit `1995f59`）。🆕 机会预判域补齐：发现189KB口述稿被遗漏（文件名"商业预判课"≠"机会预判"），代老顽童完成完整编译——新增11张卡（6 concept + 3 case + 1 tool + 1 dk），全量基于口述稿+幻灯片，三步编译法+多攻击者论证。commit `d341679c`。
 - **欧阳锋**：本会话无动作。
 - **老顽童**：🆕 清单体笔记 KDO 批次已完成（4 新卡+1文章+1dk卡+1旧卡更新）。黄药师审查 A-，P0 项待修（article未注册管线+缺source_refs），深度问题待用户反馈。管理工具箱+路演+Phase C 均已完成。
 - **洪七公**：🆕 20张skill卡VA审查通过（欧阳锋）。20/20全过，6维中5维95%+。唯一弱项"适用场景正反例"8/20→根因在黄药师扫描器prompt，已入backlog。路演域 L207 1处颜色残留待修。
@@ -46,7 +46,7 @@ next_session_hint: "用户说'继续'→ Agent体系建设待欧阳锋裁决（Q
 
 ### KDO CLI 状态
 - 47 .py 文件，~13,800 行，15 测试文件
-- **pytest**：454/456 passing + 1 skip（1 pre-existing CSRF failure）
+- **pytest**：519/520 passing + 1 skip（1 pre-existing CSRF failure）
 - **Graph RAG**：226 entities, 721 chunks, 1252 relations
 - **kdo stale**：25 tests pass，待欧阳锋审查后 commit
 - 坚果云备份 ✅
