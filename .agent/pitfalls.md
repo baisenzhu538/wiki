@@ -368,3 +368,19 @@
 - Win10 上 Codex 需要通过**外部代理**（如另一台机器或 WSL 的端口转发）而非 localhost
 - 或者使用 CCX/CC Switch 等自带网络通道的完整代理方案
 - Win11 无此问题——升级系统或换电脑是最简单的解法
+
+---
+
+## P-26: Hermes 环境缺 kdo 包 → ModuleNotFoundError: No module named 'kdo'
+
+**症状**：Hermes（飞书 agent）运行老顽童/洪七公/段王爷的 agent 时，`import kdo` 报 `ModuleNotFoundError: No module named 'kdo'`。
+
+**根因**：Hermes 的 Python 虚拟环境（venv）没有安装 kdo 包。kdo 源码在 `C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\`，但 Hermes 的 Python 环境没有指向它。
+
+**对策**（二选一）：
+1. **pip install -e**（推荐）：激活 Hermes 的 venv 后运行 `pip install -e "C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo"`
+2. **PYTHONPATH**：在 Hermes 的启动脚本或 systemd env 中加 `PYTHONPATH=C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo`
+
+**为什么之前没暴露**：老顽童之前写卡时可以手动操作 Obsidian，不需要 kdo CLI。现在管线越来越依赖 kdo 命令（validate/lint/cards），Hermes 侧没有 kdo 就无法跑。
+
+**关联**：P-5（改配置漏了一处）的同模式——KDO 部署了但 Hermes 环境独立，两边的 Python 环境不共享。
