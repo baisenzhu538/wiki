@@ -1127,3 +1127,15 @@ _Last updated: 2026-06-09T15:48:41+00:00_
 - [[concepts/case-escort-service-tiered-growth.md|案例：陪诊业务七级演进——保2争4的实务决策]] — source `00_inbox/一堂-机会预判-陪诊案例（2张PNG+1张案例预判图，详见卡片source_refs）`
 - [[concepts/case-coffee-shop-foresight.md|案例：咖啡馆创业预判——五步法+A选项池3.0]] — source `00_inbox/一堂-机会预判-咖啡案例（3张PNG，详见卡片source_refs）`
 - [[concepts/case-ai-time-management-tiered-growth.md|案例：AI时间管理App七级演进——保4争6的产品创业路径]] — source `00_inbox/一堂-机会预判-AI时间管理案例（2张PNG，详见卡片source_refs）`
+- [[concepts/yt-five-step-method.md|一堂五步法总纲]] — source `00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt`
+- [[concepts/yt-demand-analysis-hiking-map.md|需求分析爬山地图]] — source `00_inbox/一堂五步法/一堂-一堂五步法-需求-分析段位图.png`
+- [[concepts/yt-product-kernel-cultivation.md|产品内核修炼段位图]] — source `00_inbox/一堂五步法/一堂-一堂五步法-产品内核-修炼段位图.png`
+- [[concepts/yt-unit-model-three-tools.md|单元模型三工具：斧子尺子梯子]] — source `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-斧子尺子和梯子.png`
+- [[concepts/yt-growth-cycle-model.md|增长周期模型]] — source `00_inbox/一堂五步法/一堂-一堂五步法-增长-增长周期模型.png`
+- [[concepts/yt-scale-economy-weapon-library.md|规模经济分析武器库]] — source `00_inbox/一堂五步法/一堂-一堂五步法-壁垒-规模经济分析武器库.png`
+- [[concepts/yt-customer-acquisition-toolkit.md|获客工具合集]] — source `00_inbox/一堂五步法/一堂-一堂五步法-增长-推荐获客小抄.png`
+- [[concepts/yt-barrier-analysis-cheat-sheet.md|壁垒分析完整cheatsheet]] — source `00_inbox/一堂五步法/一堂-一堂五步法-打造壁垒完整cheatsheet.png`
+- [[concepts/yt-market-size-estimation.md|市场规模估算四种方法]] — source `00_inbox/一堂五步法/一堂-一堂五步法-需求-市场规模估算四种方法.png`
+- [[concepts/case-treadmill-demand-analysis.md|案例：跑步机需求分析]] — source `00_inbox/一堂五步法/一堂-一堂五步法-需求-跑步机案例-需求分析图.png`
+- [[concepts/case-shampoo-product-kernel.md|案例：洗发水产品内核]] — source `00_inbox/一堂五步法/一堂-一堂五步法-产品内核-洗发水案例.png`
+- [[concepts/case-toy-cabinet-business-model.md|案例：线下玩具柜商业模式]] — source `00_inbox/一堂五步法/一堂=一堂五步法-商业模型-线下玩具柜案例.png`
