@@ -17,6 +17,8 @@ query_triggers:
   - "预判模型"
   - "预判模型：从最糙版到复杂版的三种预判范式"
 related: {'level': 'intermediate'}
+superseded_by:
+  - "yt-foresight-model-taxonomy"
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/预判模型.png"
@@ -42,6 +44,8 @@ yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'framew
 # 预判模型：从最糙版到复杂版的三种预判范式
 
 > 来源：一堂知识地图《预判模型》。[[yt-entrepreneur-industry-forecast]] | [[yt-entrepreneur-key-hypotheses]] | [[一堂]]
+>
+> ⚠️ **本卡已被 [[yt-foresight-model-taxonomy]]（预判模型分类）替代。** 两卡同源（同一张 `预判模型.png`），新卡结构更完整（含 Action Triggers、Critique、Synthesis）。本卡保留仅作历史参考。
 
 ## Summary
 
@@ -102,6 +106,7 @@ yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'framew
 | 关联工具 | [[yt-entrepreneur-opportunity-selection]] | 机会选择（用预判模型筛选机会） |
 | 关联 | [[yt-management-scientific-decision]] | 科学决策（预判模型是决策工具的一种） |
 | 实体页 | [[一堂]] | 一堂实体页 |
+| ⏩ 被替代 | [[yt-foresight-model-taxonomy]] | 新版本预判模型分类——本卡内容已被更完整的结构替代 |
 
 ### 不要用的场景
 

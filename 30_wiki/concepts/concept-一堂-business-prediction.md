@@ -2,7 +2,11 @@
 id: "concept-一堂-business-prediction"
 title: "商业预判：15字诀与光谱模型——从拍脑袋到科学决策"
 type: "concept"
-status: "draft"
+status: "deprecated"
+superseded_by:
+  - "yt-foresight-business-spectrum"
+  - "yt-foresight-model-taxonomy"
+  - "yt-entrepreneur-industry-forecast"
 domain:
   - "product"
   - "yitang"
@@ -17,7 +21,7 @@ tags:
   - "#domain/yitang"
   - "#scene/business-analysis/prediction"
 created_at: "2026-06-09"
-updated_at: "2026-06-09"
+updated_at: "2026-06-11"
 related:
   - "concept-一堂-product-kernel"
   - "concept-一堂-key-assumptions"
@@ -27,6 +31,13 @@ wiki_refs:
 ---
 
 # 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
+
+> ⚠️ **本卡已废弃。** 本卡为旧格式的早期版本（draft），已被以下新卡替代：
+> - [[yt-foresight-business-spectrum]]（终局光谱图）—— 同域的升级版框架卡
+> - [[yt-foresight-model-taxonomy]]（预判模型分类）—— 同域的升级版工具卡
+> - [[yt-entrepreneur-industry-forecast]]（商业预判15字诀）—— 同域的中期版本，也包含重叠内容
+> 
+> 保留本卡仅作历史参考。新读者请直接阅读上方三张替代卡。
 
 > **商业预判的本质：在动手之前，通过系统性分析排除硬伤、聚焦高概率方向，将成功率从10%提升到30%以上。**
 > 

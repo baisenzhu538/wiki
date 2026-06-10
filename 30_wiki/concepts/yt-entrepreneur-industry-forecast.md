@@ -22,12 +22,14 @@ query_triggers:
   - "预判能力"
   - "创业成功率"
 related: {'series': False}
-review_date: 2026-06-06
+review_date: 2026-06-11
 reviewed_by: ""
 source_refs:
   - "00_inbox/一堂-商业预判课-Truman-口述.txt"
   - "00_inbox/一堂-商业预判课-truman-笔记.txt"
 status: "enriched"
+superseded_by:
+  - "yt-foresight-business-spectrum"
 tags:
   - "#boundary/requires-human-judgment"
   - "confidence-source-cited"
@@ -52,6 +54,8 @@ yitang: {'map': 'entrepreneur', 'module': '商业预判', 'course_id': 'yt-entre
 # 商业预判15字诀
 
 > 来源：一堂课程体系 | 阶段：预判阶段/核心框架。主动定中局→充分做加法→专业做减法，将创业成功率从10%提升至30%以上。[[yitang-course-map]] | [[yt-system-course-catalog]]
+>
+> ⚠️ **本卡部分内容已被 [[yt-foresight-business-spectrum]]（终局光谱图）替代。** 本卡保留作为 15 字诀的独立参考，但光谱模型的 7 级划分和商业预判框架请以终局光谱图为准。
 
 ## Summary
 
@@ -156,6 +160,7 @@ Porter的五力模型揭示了竞争格局的动态性。一堂的商业预判�
 | 关联框架 | [[yt-model-cognitive-upgrade-framework]] | 认知升级框架，从P型到L型的认知跃迁路径 |
 | 关联工具 | [[yt-entrepreneur-unit-model]] | 单元模型，预判的最终落点——单单元盈利逻辑 |
 | 关联案例 | [[yt-case-mandatory-cases]] | 必修课案例集，预判案例的详细拆解 |
+| ⏩ 被替代 | [[yt-foresight-business-spectrum]] | 新版本的终局光谱图——本卡的光谱模型部分已被此卡替代 |
 
 ### 不要用的场景
 

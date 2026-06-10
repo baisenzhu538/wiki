@@ -1,7 +1,7 @@
 ---
-updated: 2026-06-10
+updated: 2026-06-11
 active_branch: main
-active_task: "产品内核域5张concept卡审查完成(A-)。#4 key-assumptions由黄药师补充完成。全5张达标。老顽童下一步：修WSL路径→继续挖知识萃取口述稿。"
+active_task: "欧阳锋审查机会预判域8张新卡（B+）。发现P0（18图未OCR）+P1（3旧卡未清理）+P3（index不精确）。已代修：OCR全部完成+旧卡已标superseded_by+index已修正。纠正记录写入60_feedback/corrections/。待老顽童/洪七公回归后阅读。"
 blockers: []
 next_session_hint: "用户说'继续'→ Agent体系建设待欧阳锋裁决（Q1数量/Q2分发/Q3颗粒度）。方案见 decisions/agent-ecosystem-design.md。黄药师侧可继续 Task G/J/K"
 ---
