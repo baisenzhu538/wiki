@@ -1119,3 +1119,11 @@ _Last updated: 2026-06-09T15:48:41+00:00_
 - [[tools/yt-tool-unit-model-construction.md|yt-tool-unit-model-construction]] — source no source
 - [[tools/yt-tool-unit-model-dynamic.md|yt-tool-unit-model-dynamic]] — source no source
 - [[tools/yt-tool-unit-model-selection.md|yt-tool-unit-model-selection]] — source no source
+- [[concepts/yt-foresight-business-spectrum.md|终局光谱图——从副业到上市的7级商业规模光谱]] — source `00_inbox/一堂-机会预判-终局光谱图系列`
+- [[concepts/yt-ai-trend-12-signals.md|AI趋势12大变化模型——五维个变化信号预判框架]] — source `00_inbox/一堂-机会预判-AI趋势12大变化模型.png`
+- [[concepts/yt-foresight-model-taxonomy.md|预判模型分类——N要素→雷达图→Checklist三层级]] — source `00_inbox/预判模型.png`
+- [[concepts/yt-three-dimension-opportunity-matrix.md|三维排列组合找机会——新行业×新模式×新能力]] — source `00_inbox/一堂-机会预判-三维排列组合01.png`
+- [[concepts/yt-ai-startup-20-risky-hypotheses.md|AI创业20个高风险假设清单——五维排雷区]] — source `00_inbox/一堂-机会预判-AI创业案例-20个高风险假设清单.png`
+- [[concepts/case-escort-service-tiered-growth.md|案例：陪诊业务七级演进——保2争4的实务决策]] — source `00_inbox/一堂-机会预判-陪诊案例`
+- [[concepts/case-coffee-shop-foresight.md|案例：咖啡馆创业预判——五步法+A选项池3.0]] — source `00_inbox/一堂-机会预判-咖啡案例`
+- [[concepts/case-ai-time-management-tiered-growth.md|案例：AI时间管理App七级演进——保4争6的产品创业路径]] — source `00_inbox/一堂-机会预判-AI时间管理案例`
