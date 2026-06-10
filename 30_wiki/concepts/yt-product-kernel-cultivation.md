@@ -24,6 +24,7 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-解决方案（产品内核）-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-产品内核-修炼段位图.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-产品内核-十大典型指标.png"
+  - "00_inbox/ocr_ingest/src_ocr_一堂产品内核_十大典型指标.md"
 status: "enriched"
 tags:
   - "confidence-source-cited"
@@ -41,7 +42,7 @@ yitang: {'map': 'entrepreneur', 'module': '五步法', 'course_id': 'yt-product-
 
 # 产品内核修炼段位图
 
-> 来源：一堂五步法·解决方案篇 | [[yt-five-step-method]] | [[yt-product-ten-metrics]] | [[case-shampoo-product-kernel]]
+> 来源：一堂五步法·解决方案篇 | 视觉来源：`00_inbox/ocr_ingest/src_ocr_一堂产品内核_十大典型指标.md`（洪七公 OCR 整合） | [[yt-five-step-method]] | [[yt-product-ten-metrics]] | [[case-shampoo-product-kernel]]
 
 ## Summary
 
