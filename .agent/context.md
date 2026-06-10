@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-11
 active_branch: main
-active_task: "Task E（诊断基础设施v1）E1-E3全部完成。commit 4ee5d42。终局光谱图卡已加3条diagnostic_signals+3条diagnostic_relations作为试金石。下一步：等老顽童在5张+卡上补diagnostic_signals后可启动E4(kdo diagnose)。"
-blockers: []
-next_session_hint: "用户说'继续'→ E4(kdo diagnose命令原型)待老顽童积累5+卡diagnostic_signals后启动。黄药师可继续Infra backlog或等欧阳锋裁决Agent体系建设。"
+active_task: "王语嫣上线（飞书）+ CLI老顽童SOUL恢复。Task E/J/K完成。机会预判域补充完成。Skill卡质量审计完成（440张/73%骨架）。老顽童P0:扫描器审核精选。"
+blockers: ["GitHub push 全网不通，待网络恢复"]
+next_session_hint: "用户说'继续'→ 黄药师可继续Infra backlog或等欧阳锋新工单。老顽童P0:扫描器审核精选。王语嫣:积累诊断记录。"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
