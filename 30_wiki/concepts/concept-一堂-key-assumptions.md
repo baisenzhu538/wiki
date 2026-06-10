@@ -21,7 +21,7 @@ updated_at: "2026-06-09"
 related:
   - "concept-一堂-hypothesis-driven-business-methodology"
   - "concept-一堂-product-kernel"
-  - "concept-一堂-business-prediction"
+  - "yt-foresight-15-char-mantra"
 wiki_refs:
   - "concept-一堂-hypothesis-driven-business-methodology"
   - "concept-一堂-product-kernel"
@@ -152,7 +152,7 @@ Truman 用《孙子兵法》总结差异："胜兵先胜尔后求战，败兵先
 
 - [[concept-一堂-product-kernel]] —— 产品内核是259五步中"解决方案"层的核心概念。关键假设思维告诉你"产品内核本身是一个假设"，产品内核卡告诉你"这个假设具体怎么定义和验证"。
 
-- [[concept-一堂-business-prediction]] —— 商业预判和关键假设是同一个思维的两面：预判帮你收敛方向（"做哪个"），关键假设帮你验证前提（"这个方向能不能成"）。P型创业者跳过两者，L型创业者两者都做。
+- [[yt-foresight-15-char-mantra]] —— 十五字法诀和关键假设是同一个思维的两面：预判帮你收敛方向（"做哪个"），关键假设帮你验证前提（"这个方向能不能成"）。P型创业者跳过两者，L型创业者两者都做。
 
 - [[concept-一堂-kernel-validation]] —— 本卡提供"假设验证三板斧"的宏观框架，验证卡提供"六策略阶梯"的具体方法。从"聊问查测盘赌"中选择合适的策略来验证你的关键假设。
 

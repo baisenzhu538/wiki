@@ -22,14 +22,16 @@ tools_required:
   - "纸笔/白板/文档（用于拆解题库）"
   - "行业报告或数据库（可选）"
 prerequisite_skills:
-  - "concept-一堂-business-prediction"
+  - "yt-foresight-15-char-mantra"
 related:
-  - "concept-一堂-business-prediction"
+  - "yt-foresight-15-char-mantra"
+  - "yt-foresight-business-spectrum"
   - "skill-一堂-spectrum-positioning"
   - "dk-一堂-p-type-vs-l-type"
-  - "case-一堂-milk-tea-business-prediction"
+  - "case-gudong-tea-shop-foresight"
 wiki_refs:
-  - "concept-一堂-business-prediction"
+  - "yt-foresight-15-char-mantra"
+  - "yt-foresight-business-spectrum"
   - "skill-一堂-spectrum-positioning"
 created_at: "2026-06-10"
 updated_at: "2026-06-10"

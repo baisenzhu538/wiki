@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-10T17:11:27+00:00_
+_Last updated: 2026-06-10T18:04:00+00:00_
 
 - [[cases/case-ether-online-acquisition.md|案例：以太利用全网调研能力快速获客]] — source `一堂课程-规模经济章节（Truman口述）`
 - [[cases/case-jh-yitang-vs-sqlhelper.md|一堂数据库vs SQLHelper：同样的需求，两种产品策略——专业与通用的产品分岐]] — source `00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt`
@@ -474,6 +474,7 @@ _Last updated: 2026-06-10T17:11:27+00:00_
 - [[concepts/skill-Truman-问题定义澄清法.md|技能：问题定义澄清法]] — source no source
 - [[concepts/skill-一堂-business-prediction-15-char.md|技能：商业预判15字诀]] — source `00_inbox/一堂-商业预判课-Truman-口述.txt`
 - [[concepts/skill-一堂-hypothesis-validation-three-axe.md|技能：假设验证三板斧]] — source `00_inbox/一堂-关键假设课-truman-口述.txt`
+- [[concepts/skill-一堂-spectrum-positioning.md|技能：光谱模型定位法]] — source `00_inbox/一堂-商业预判课-Truman-口述.txt`
 - [[concepts/skill-三层目标对齐法.md|技能：三层目标对齐法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
 - [[concepts/skill-三阶追问法穷尽决策要素.md|技能：三阶追问法穷尽决策要素]] — source `src_20260609_44a9e79a`
 - [[concepts/skill-专家访谈十步法.md|技能：专家访谈十步法]] — source `src_20260522_e139c9e9`
@@ -786,7 +787,7 @@ _Last updated: 2026-06-10T17:11:27+00:00_
 - [[concepts/skill-纪浩-Agent开工检查单制作法.md|技能：Agent开工检查单制作法]] — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - [[concepts/skill-纪浩-Agent技能市场设计法.md|技能：Agent技能市场设计法]] — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - [[concepts/skill-纪浩-AI使用边界管理法.md|技能：AI使用边界管理法]] — source `00_inbox/纪浩-AI协作方法论-口述.md`
-- [[concepts/skill-纪浩-AI对话上下文隔离.md|技能：AI对话上下文隔离]] — source `00_inbox/纪浩-AI协作方法论-口述.md`
+- [[concepts/skill-纪浩-AI对话上下文隔离.md|技能：AI 对话上下文隔离]] — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - [[concepts/skill-纪浩-AI工作空间与导诊台设计法.md|技能：AI工作空间与导诊台设计法]] — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - [[concepts/skill-纪浩-AI工具脚本化约束.md|技能：AI工具脚本化约束]] — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - [[concepts/skill-纪浩-Do-first-PDCA渐进迭代法.md|技能：Do-first PDCA渐进迭代法]] — source `00_inbox/纪浩-AI协作方法论-口述.md`
@@ -1115,12 +1116,16 @@ _Last updated: 2026-06-10T17:11:27+00:00_
 - [[concepts/轻量级诊所HIS调研全清单.md|轻量级诊所HIS调研全清单]] — source `src_20260503_5c91e867`
 - [[concepts/那今天不会.md|那今天不会。]] — source `src_20260522_642ab512`
 - [[concepts/鑫港湾his系统分阶段整改报告.md|鑫港湾HIS系统分阶段整改报告]] — source `src_20260428_db49a647`
+- [[dark-knowledges/dk-ai-entrepreneur-technical-blindspot.md|暗知：AI创业者最大的盲区——'我们能做出来'≠'用户需要这个']] — source `[[yt-three-dimension-opportunity-matrix]]`
 - [[dark-knowledges/dk-ai-judgment-human-responsibility.md|人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果]] — source `00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt`
 - [[dark-knowledges/dk-ai-judgment-programmer-paradox.md|程序员的AI悖论：写AI工具的人最晚享受到AI红利]] — source `00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt`
+- [[dark-knowledges/dk-foresight-tier-skip-illusion.md|暗知：终局光谱图的'跳级幻觉'——为什么看到第7级就忽视了第3级的人，死得最快]] — source `[[yt-foresight-business-spectrum]]`
 - [[dark-knowledges/dk-jh-llm-time-blindness.md|LLM时间盲症：AI不知道现在是什么时候——纪浩的隐形风险识别]] — source `00_inbox/AI俱乐部/纪浩-AI实操落地工具籍和案例分享（第六期AI共创社）.md`
 - [[dark-knowledges/dk-lz-ai-native-organization.md|AI原生组织：罗马军团正在被自进化有机体取代——中层管理的全部存在理由是人脑带宽不足]] — source `00_inbox/AI时代自进化组织形式.md`
 - [[dark-knowledges/dk-lz-code-is-disposable.md|代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产]] — source `00_inbox/AI时代自进化组织形式.md`
 - [[dark-knowledges/dk-my-ai-landing-three-barriers.md|AI落地三大壁垒：从“会用”到“用好”的黑洞]] — source `00_inbox/AI俱乐部/马易-2026年-AI实操落地工具籍和案例分享（第六期AI共创社）.md`
+- [[dark-knowledges/dk-pseudo-demand-trap.md|暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地]] — source `[[yt-ai-startup-20-risky-hypotheses]]`
+- [[dark-knowledges/dk-signal-cluster-illusion.md|暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕]] — source `[[yt-ai-trend-12-signals]]`
 - [[dark-knowledges/dk-truman-document-is-real-project-is-fake.md|文档是真的，项目是假的——面向过去建模型，面向未来解决问题]] — source `00_inbox/ideas/一堂-个人修炼-知识萃取探索营口述版.md`
 - [[dark-knowledges/dk-truman-flag-note-taking.md|立flag记笔法：用量化目标倒逼笔记中的真实思考量]] — source `00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt`
 - [[dark-knowledges/dk-truman-iteration-to-aesthetic-ceiling.md|迭代到审美上限：一张图的隐形成本远超显示器——Truman的泛产品设计第一性原则]] — source `00_inbox/ideas/一堂-个人修炼-泛产品设计工具篇口述版.md`
@@ -1139,6 +1144,16 @@ _Last updated: 2026-06-10T17:11:27+00:00_
 - [[projects/互联网医院项目.md|互联网医院项目]] — source no source
 - [[projects/诊所O2O项目.md|诊所O2O项目]] — source no source
 - [[projects/鑫港湾HIS项目.md|鑫港湾HIS项目]] — source no source
+- [[skills/skill-ai-four-elements-validation.md|技能：真需求四要素验证法]] — source `src_20260606_42e11f09`
+- [[skills/skill-ai-info-literacy-three-layer.md|技能：AI输出三层防护检查法]] — source `{'来源': '一堂 (Truman)'}`
+- [[skills/skill-ai-landing-five-steps.md|技能：AI落地五步执行流程]] — source `src_20260606_ef4877d0`
+- [[skills/skill-ai-problem-question-check.md|技能：Problem vs Question 区分法]] — source `src_20260606_42e11f09`
+- [[skills/skill-ai-research-five-steps.md|技能：AI调研五步法]] — source `src_20260606_90b44191`
+- [[skills/skill-ai-scene-four-elements.md|技能：AI落地场景四要素评估法]] — source `src_20260606_ef4877d0`
+- [[skills/skill-cognitive-bias-12-check.md|技能：12种认知偏差完整自检]] — source `{'来源': '消化全库后提炼'}`
+- [[skills/skill-decision-delay-intuition.md|技能：延迟直觉法]] — source `{'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}`
+- [[skills/skill-decision-outside-view.md|技能：团队决策外部视角法]] — source `{'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}`
+- [[skills/skill-first-principles-assumption-classify.md|技能：假设分类法（第一性原理）]] — source `{'来源': 'Aristotle, Elon Musk'}`
 - [[skills/skill-一堂-business-prediction-15-char.md|技能：商业预判15字诀]] — source `00_inbox/一堂-商业预判课-Truman-口述.txt`
 - [[skills/skill-一堂-five-step-validation.md|技能：聊问查测盘五步验证法]] — source `00_inbox/一堂-产品内核验证课-Truman-口述.txt`
 - [[skills/skill-一堂-hypothesis-validation-three-axe.md|技能：假设验证三板斧]] — source `00_inbox/一堂-关键假设课-truman-口述.txt`

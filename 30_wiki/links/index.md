@@ -81,6 +81,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\contingency-decision-making.md]]
 - [[30_wiki\concepts\skill-ai-problem-validation.md]]
 - [[30_wiki\concepts\skill-ai-question-problem-checklist.md]]
+- [[30_wiki\concepts\skill-纪浩-AI对话上下文隔离.md]]
 - [[30_wiki\concepts\structured-ai-workspace.md]]
 - [[30_wiki\dark-knowledges\dk-lz-ai-native-organization.md]]
 
@@ -92,6 +93,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\course-to-skill-conversion.md]]
 - [[30_wiki\concepts\find-old-do-small.md]]
 - [[30_wiki\concepts\skill-ai-old-small-checklist.md]]
+- [[30_wiki\concepts\skill-马易-业务为先的AI中台建设.md]]
 
 ## [[ai-learning-closed-loop]]
 - [[30_wiki\cases\case-truman-prd-checklist-evolution.md]]
@@ -141,17 +143,20 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[case-ai-time-management-tiered-growth]]
 - [[30_wiki\concepts\case-escort-service-tiered-growth.md]]
 - [[30_wiki\concepts\yt-foresight-business-spectrum.md]]
+- [[30_wiki\dark-knowledges\dk-ai-entrepreneur-technical-blindspot.md]]
 
 ## [[case-coffee-shop-foresight]]
 - [[30_wiki\concepts\case-ai-time-management-tiered-growth.md]]
 - [[30_wiki\concepts\case-escort-service-tiered-growth.md]]
 - [[30_wiki\concepts\yt-foresight-business-spectrum.md]]
 - [[30_wiki\concepts\yt-tool-foresight-canvas.md]]
+- [[30_wiki\dark-knowledges\dk-foresight-tier-skip-illusion.md]]
 
 ## [[case-escort-service-tiered-growth]]
 - [[30_wiki\concepts\case-ai-time-management-tiered-growth.md]]
 - [[30_wiki\concepts\case-coffee-shop-foresight.md]]
 - [[30_wiki\concepts\yt-foresight-business-spectrum.md]]
+- [[30_wiki\dark-knowledges\dk-foresight-tier-skip-illusion.md]]
 
 ## [[case-gudong-tea-shop-foresight]]
 - [[30_wiki\concepts\case-truman-yitang-foresight.md]]
@@ -189,11 +194,14 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\skills\skill-一堂-product-kernel-add-subtract.md]]
 - [[30_wiki\skills\skill-一堂-product-kernel-canvas.md]]
 
+## [[case-一堂-milk-tea-business-prediction]]
+- [[30_wiki\concepts\skill-一堂-business-prediction-15-char.md]]
+- [[30_wiki\concepts\skill-一堂-spectrum-positioning.md]]
+
 ## [[case-一堂-shampoo-kernel-validation]]
 - [[30_wiki\skills\skill-一堂-kernel-three-questions.md]]
 
 ## [[case-一堂-奶茶店创业]]
-- [[30_wiki\concepts\skill-一堂-business-prediction-15-char.md]]
 - [[30_wiki\skills\skill-一堂-business-prediction-15-char.md]]
 
 ## [[case-一堂-无人餐厅-hypothesis-failure]]
@@ -252,6 +260,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[case-纪浩-skill-market-problem-validation]]
 - [[30_wiki\concepts\dk-纪浩-problem-vs-question.md]]
+- [[30_wiki\concepts\skill-纪浩-AI对话上下文隔离.md]]
 - [[30_wiki\concepts\skill-纪浩-problem-validation-four-checks.md]]
 
 ## [[case-纪浩-ui-design-constraint-evolution]]
@@ -266,9 +275,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\skill-三层目标对齐法.md]]
 
 ## [[concept-一堂-business-prediction]]
-- [[30_wiki\concepts\concept-一堂-kernel-validation.md]]
-- [[30_wiki\concepts\concept-一堂-key-assumptions.md]]
-- [[30_wiki\concepts\concept-一堂-product-kernel.md]]
 - [[30_wiki\concepts\skill-一堂-business-prediction-15-char.md]]
 - [[30_wiki\skills\skill-一堂-business-prediction-15-char.md]]
 
@@ -356,9 +362,21 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[distributed-cognition-hutchins]]
 - [[30_wiki\concepts\yt-decision-ai-partner.md]]
 
+## [[dk-ai-four-elements-solvability-overestimate]]
+- [[30_wiki\skills\skill-ai-four-elements-validation.md]]
+
 ## [[dk-ai-judgment-human-responsibility]]
 - [[30_wiki\dark-knowledges\dk-ai-judgment-programmer-paradox.md]]
 - [[30_wiki\dark-knowledges\dk-jh-llm-time-blindness.md]]
+- [[30_wiki\skills\skill-ai-problem-question-check.md]]
+
+## [[dk-ai-only-do-what-you-know]]
+- [[30_wiki\skills\skill-ai-landing-five-steps.md]]
+- [[30_wiki\skills\skill-ai-scene-four-elements.md]]
+
+## [[dk-ai-silky-answer-danger]]
+- [[30_wiki\skills\skill-ai-info-literacy-three-layer.md]]
+- [[30_wiki\skills\skill-ai-research-five-steps.md]]
 
 ## [[dk-c1-cjk-regex-silent-fail]]
 - [[30_wiki\concepts\dk-c3-txt-ingest-skip.md]]
@@ -381,6 +399,18 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\dk-c10-batch-tool-no-dry-run.md]]
 - [[30_wiki\concepts\dk-c9-batch-trigger-garbage.md]]
 - [[30_wiki\concepts\knowledge-error-self-exposure.md]]
+
+## [[dk-cognitive-bias-checklist-illusion]]
+- [[30_wiki\skills\skill-cognitive-bias-12-check.md]]
+
+## [[dk-decision-first-reaction-not-best]]
+- [[30_wiki\skills\skill-decision-delay-intuition.md]]
+
+## [[dk-decision-noise-vs-bias]]
+- [[30_wiki\skills\skill-decision-outside-view.md]]
+
+## [[dk-first-principles-difficulty-vs-impossible]]
+- [[30_wiki\skills\skill-first-principles-assumption-classify.md]]
 
 ## [[dk-jh-llm-time-blindness]]
 - [[30_wiki\dark-knowledges\dk-ai-judgment-human-responsibility.md]]
@@ -573,6 +603,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[dk-一堂-p-type-vs-l-type]]
 - [[30_wiki\concepts\skill-一堂-business-prediction-15-char.md]]
+- [[30_wiki\concepts\skill-一堂-spectrum-positioning.md]]
 - [[30_wiki\skills\skill-一堂-business-prediction-15-char.md]]
 
 ## [[dk-一堂-premature-refinement-trap]]
@@ -742,6 +773,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[master-cognitive-bias-checklist]]
 - [[30_wiki\concepts\dk-c4-selfcheck-superseded.md]]
 - [[30_wiki\concepts\dk-c5-todo-false-positive.md]]
+- [[30_wiki\concepts\skill-使用一页纸速查卡快速调用框架.md]]
+- [[30_wiki\concepts\skill-水水-管理决策权重偏差.md]]
 - [[30_wiki\concepts\yt-tool-hiring-scorecard.md]]
 - [[30_wiki\concepts\yt-tool-meeting-designer.md]]
 - [[30_wiki\concepts\学会提问在信息洪流中锻造批判性思维的利刃.md]]
@@ -781,6 +814,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\ocr-一堂-科学决策-稀缺机会窗口.md]]
 - [[30_wiki\concepts\ocr-一堂-科学决策-稀缺资源清单.md]]
 - [[30_wiki\concepts\ocr-一堂-科学决策-高度-两种典型的思考习惯.md]]
+- [[30_wiki\concepts\skill-水水-管理决策权重偏差.md]]
 - [[30_wiki\concepts\yt-management-toolkit-overview.md]]
 - [[30_wiki\concepts\yt-tool-hiring-scorecard.md]]
 - [[30_wiki\concepts\yt-tool-meeting-designer.md]]
@@ -920,11 +954,58 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[skill-ai-evidence-check]]
 - [[30_wiki\cases\case-ether-online-acquisition.md]]
 
+## [[skill-ai-four-elements-validation]]
+- [[30_wiki\skills\skill-ai-problem-question-check.md]]
+- [[30_wiki\skills\skill-ai-scene-four-elements.md]]
+
 ## [[skill-ai-image-text-fix]]
 - [[30_wiki\concepts\skill-ai-oral-spray-input.md]]
 
+## [[skill-ai-info-literacy-three-layer]]
+- [[30_wiki\skills\skill-ai-research-five-steps.md]]
+
+## [[skill-ai-landing-five-steps]]
+- [[30_wiki\skills\skill-ai-scene-four-elements.md]]
+
+## [[skill-ai-landing-scene-selection]]
+- [[30_wiki\skills\skill-ai-four-elements-validation.md]]
+- [[30_wiki\skills\skill-ai-problem-question-check.md]]
+
+## [[skill-ai-problem-question-check]]
+- [[30_wiki\skills\skill-ai-four-elements-validation.md]]
+
 ## [[skill-ai-prompt-iteration]]
 - [[30_wiki\concepts\skill-ai-oral-spray-input.md]]
+
+## [[skill-ai-research-five-steps]]
+- [[30_wiki\skills\skill-ai-info-literacy-three-layer.md]]
+- [[30_wiki\skills\skill-ai-landing-five-steps.md]]
+
+## [[skill-ai-scene-four-elements]]
+- [[30_wiki\skills\skill-ai-landing-five-steps.md]]
+
+## [[skill-ai-timestamp-validation]]
+- [[30_wiki\skills\skill-ai-info-literacy-three-layer.md]]
+- [[30_wiki\skills\skill-ai-research-five-steps.md]]
+
+## [[skill-cognitive-bias-12-check]]
+- [[30_wiki\skills\skill-decision-delay-intuition.md]]
+- [[30_wiki\skills\skill-decision-outside-view.md]]
+
+## [[skill-cognitive-bias-4-quick]]
+- [[30_wiki\skills\skill-cognitive-bias-12-check.md]]
+
+## [[skill-decision-delay-intuition]]
+- [[30_wiki\skills\skill-cognitive-bias-12-check.md]]
+- [[30_wiki\skills\skill-decision-outside-view.md]]
+
+## [[skill-decision-outside-view]]
+- [[30_wiki\skills\skill-cognitive-bias-12-check.md]]
+- [[30_wiki\skills\skill-decision-delay-intuition.md]]
+- [[30_wiki\skills\skill-first-principles-assumption-classify.md]]
+
+## [[skill-first-principles-rebuild]]
+- [[30_wiki\skills\skill-first-principles-assumption-classify.md]]
 
 ## [[skill-mece体系框架法]]
 - [[30_wiki\concepts\skill-动手建模法.md]]
@@ -937,6 +1018,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[skill-note-layer-constraint]]
 - [[30_wiki\tools\skill-note-keyword-bolding.md]]
 - [[30_wiki\tools\skill-note-one-line-one-point.md]]
+
+## [[skill-一堂-business-prediction-15-char]]
+- [[30_wiki\concepts\skill-一堂-spectrum-positioning.md]]
 
 ## [[skill-一堂-five-step-validation]]
 - [[30_wiki\concepts\skill-一堂-hypothesis-validation-three-axe.md]]
@@ -1029,6 +1113,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\skill-半肥猫-按语义切分文档做向量化.md]]
 - [[30_wiki\concepts\skill-半肥猫-用YAML格式做知识库原子化标签.md]]
 - [[30_wiki\concepts\skill-半肥猫-课程Skill化的八步工作流.md]]
+- [[30_wiki\concepts\skill-纪浩-AI对话上下文隔离.md]]
 
 ## [[skill-半肥猫-用Skill做对比测试验证效果]]
 - [[30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md]]
@@ -1109,6 +1194,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md]]
 - [[30_wiki\concepts\dk-纪浩-ai-cant-design-structure.md]]
 - [[30_wiki\concepts\dk-纪浩-simple-complex-routing.md]]
+- [[30_wiki\concepts\skill-纪浩-AI对话上下文隔离.md]]
 - [[30_wiki\concepts\skill-纪浩-Do-first-PDCA渐进迭代法.md]]
 - [[30_wiki\concepts\skill-纪浩-日志驱动排查法.md]]
 
@@ -1167,6 +1253,9 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-note-fact-pattern-insight.md]]
 - [[30_wiki\concepts\yt-note-problem-solving-capability.md]]
 - [[30_wiki\dark-knowledges\dk-truman-flag-note-taking.md]]
+
+## [[skill-马易-数据存储架构选择]]
+- [[30_wiki\concepts\skill-马易-业务为先的AI中台建设.md]]
 
 ## [[skill-马易-风口痛点识别法]]
 - [[30_wiki\dark-knowledges\dk-jh-llm-time-blindness.md]]
@@ -1308,6 +1397,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-ai-trend-12-signals.md]]
 - [[30_wiki\concepts\yt-foresight-model-taxonomy.md]]
 - [[30_wiki\concepts\yt-foresight-ten-fatal-flaws.md]]
+- [[30_wiki\dark-knowledges\dk-ai-entrepreneur-technical-blindspot.md]]
+- [[30_wiki\dark-knowledges\dk-pseudo-demand-trap.md]]
 
 ## [[yt-ai-trend-12-signals]]
 - [[30_wiki\concepts\case-ai-time-management-tiered-growth.md]]
@@ -1315,6 +1406,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-foresight-ab-steady-state.md]]
 - [[30_wiki\concepts\yt-foresight-business-spectrum.md]]
 - [[30_wiki\concepts\yt-three-dimension-opportunity-matrix.md]]
+- [[30_wiki\dark-knowledges\dk-signal-cluster-illusion.md]]
 
 ## [[yt-barrier-analysis-cheat-sheet]]
 - [[30_wiki\concepts\case-toy-cabinet-business-model.md]]
@@ -1850,6 +1942,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\ocr-一堂y模型实操工作流.md]]
 - [[30_wiki\concepts\ocr-一堂五步法画布.md]]
 - [[30_wiki\concepts\ocr-一堂提炼过的因果模型.md]]
+- [[30_wiki\concepts\skill-水水-管理决策权重偏差.md]]
 - [[30_wiki\concepts\yt-concept-peas-insight.md]]
 - [[30_wiki\concepts\yt-decision-ai-partner.md]]
 - [[30_wiki\concepts\yt-decision-canvas.md]]
@@ -1938,6 +2031,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-unit-model-ladder.md]]
 - [[30_wiki\concepts\yt-unit-model-overview.md]]
 - [[30_wiki\concepts\yt-unit-model-selection.md]]
+- [[30_wiki\dark-knowledges\dk-foresight-tier-skip-illusion.md]]
 - [[30_wiki\entities\一堂.md]]
 - [[30_wiki\frameworks\yt-unit-model-overview.md]]
 - [[30_wiki\tools\yt-tool-unit-model-dynamic.md]]
@@ -2007,6 +2101,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-research-osl-framework.md]]
 - [[30_wiki\concepts\yt-research-user-jtbd.md]]
 - [[30_wiki\concepts\yt-tool-product-core-canvas.md]]
+- [[30_wiki\dark-knowledges\dk-pseudo-demand-trap.md]]
 - [[30_wiki\frameworks\yt-unit-model-overview.md]]
 - [[30_wiki\tools\yt-tool-equity-checklist.md]]
 - [[30_wiki\tools\yt-tool-hiring-scorecard.md]]
@@ -2038,6 +2133,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-personal-product-design.md]]
 - [[30_wiki\concepts\yt-tool-fab-persuasion.md]]
 - [[30_wiki\concepts\yt-tool-y-model-ruler.md]]
+- [[30_wiki\dark-knowledges\dk-pseudo-demand-trap.md]]
 
 ## [[yt-entrepreneur-opportunity-selection]]
 - [[30_wiki\concepts\case-escort-service-tiered-growth.md]]
@@ -2047,6 +2143,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-model-prediction-model.md]]
 
 ## [[yt-entrepreneur-pragmatic-startup]]
+- [[30_wiki\concepts\skill-马易-业务为先的AI中台建设.md]]
 - [[30_wiki\concepts\yt-model-liberate-thinking-layers.md]]
 
 ## [[yt-entrepreneur-product-core]]
@@ -2125,6 +2222,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\case-toy-cabinet-business-model.md]]
 - [[30_wiki\concepts\case-treadmill-demand-analysis.md]]
 - [[30_wiki\concepts\case-truman-yitang-foresight.md]]
+- [[30_wiki\concepts\skill-使用一页纸速查卡快速调用框架.md]]
 - [[30_wiki\concepts\yt-barrier-analysis-cheat-sheet.md]]
 - [[30_wiki\concepts\yt-customer-acquisition-toolkit.md]]
 - [[30_wiki\concepts\yt-demand-analysis-hiking-map.md]]
@@ -2145,6 +2243,10 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-foresight-15-char-mantra]]
 - [[30_wiki\concepts\case-gudong-tea-shop-foresight.md]]
 - [[30_wiki\concepts\case-xiaolong-ecommerce-foresight.md]]
+- [[30_wiki\concepts\concept-一堂-kernel-validation.md]]
+- [[30_wiki\concepts\concept-一堂-key-assumptions.md]]
+- [[30_wiki\concepts\concept-一堂-product-kernel.md]]
+- [[30_wiki\concepts\skill-一堂-spectrum-positioning.md]]
 - [[30_wiki\concepts\yt-foresight-ab-steady-state.md]]
 - [[30_wiki\concepts\yt-foresight-addition-subtraction.md]]
 - [[30_wiki\concepts\yt-foresight-deliverables-four-levels.md]]
@@ -2165,6 +2267,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\case-escort-service-tiered-growth.md]]
 - [[30_wiki\concepts\case-gudong-tea-shop-foresight.md]]
 - [[30_wiki\concepts\concept-一堂-business-prediction.md]]
+- [[30_wiki\concepts\skill-一堂-spectrum-positioning.md]]
 - [[30_wiki\concepts\yt-ai-startup-20-risky-hypotheses.md]]
 - [[30_wiki\concepts\yt-ai-trend-12-signals.md]]
 - [[30_wiki\concepts\yt-demand-analysis-hiking-map.md]]
@@ -2174,6 +2277,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\yt-foresight-ab-steady-state.md]]
 - [[30_wiki\concepts\yt-foresight-model-taxonomy.md]]
 - [[30_wiki\concepts\yt-three-dimension-opportunity-matrix.md]]
+- [[30_wiki\dark-knowledges\dk-foresight-tier-skip-illusion.md]]
 
 ## [[yt-foresight-deliverables-four-levels]]
 - [[30_wiki\concepts\case-truman-yitang-foresight.md]]
@@ -2188,6 +2292,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\case-truman-yitang-foresight.md]]
 - [[30_wiki\concepts\yt-foresight-15-char-mantra.md]]
 - [[30_wiki\concepts\yt-foresight-deliverables-four-levels.md]]
+- [[30_wiki\dark-knowledges\dk-signal-cluster-illusion.md]]
 
 ## [[yt-foresight-ten-fatal-flaws]]
 - [[30_wiki\concepts\yt-foresight-15-char-mantra.md]]
@@ -3707,6 +3812,8 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[yt-three-dimension-opportunity-matrix]]
 - [[30_wiki\concepts\yt-ai-trend-12-signals.md]]
 - [[30_wiki\concepts\yt-foresight-addition-subtraction.md]]
+- [[30_wiki\dark-knowledges\dk-ai-entrepreneur-technical-blindspot.md]]
+- [[30_wiki\dark-knowledges\dk-signal-cluster-illusion.md]]
 
 ## [[yt-tool-best-practice-learning]]
 - [[30_wiki\concepts\yt-tool-y-model-ruler.md]]

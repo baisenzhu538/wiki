@@ -23,7 +23,7 @@ updated_at: "2026-06-09"
 related:
   - "concept-一堂-hypothesis-driven-business-methodology"
   - "concept-一堂-key-assumptions"
-  - "concept-一堂-business-prediction"
+  - "yt-foresight-15-char-mantra"
   - "case-一堂-AI高考志愿-kernel-mismatch"
 wiki_refs:
   - "concept-一堂-hypothesis-driven-business-methodology"
@@ -159,7 +159,7 @@ Truman 在三门课中汇总了产品内核分析的九大原则：
 
 - [[concept-一堂-key-assumptions]] —— 产品内核本身就是一个关键假设："用户愿意选择我的最小解决方案"。这张卡解释了如何用259工具拆解并验证这个假设。
 
-- [[concept-一堂-business-prediction]] —— 商业预判帮你找到方向，产品内核帮你在这个方向上找到最小解决方案。没有预判，你可能在错误的方向上找到了一个"完美的最小解决方案"。
+- [[yt-foresight-15-char-mantra]] —— 十五字法诀帮你找到方向，产品内核帮你在这个方向上找到最小解决方案。没有预判，你可能在错误的方向上找到了一个"完美的最小解决方案"。
 
 - [[skill-一堂-product-kernel-canvas]] —— 内核画布是本概念卡的实操落地工具。它将抽象的"用户需求"转化为具体的"用户选择逻辑"，确保产品内核承接需求、支撑商业模式。
 

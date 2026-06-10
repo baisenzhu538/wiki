@@ -21,14 +21,16 @@ tags:
 tools_required:
   - "纸笔/文档（用于绘制光谱）"
 prerequisite_skills:
-  - "concept-一堂-business-prediction"
+  - "yt-foresight-business-spectrum"
   - "skill-一堂-business-prediction-15-char"
 related:
-  - "concept-一堂-business-prediction"
+  - "yt-foresight-15-char-mantra"
+  - "yt-foresight-business-spectrum"
   - "skill-一堂-business-prediction-15-char"
   - "dk-一堂-p-type-vs-l-type"
 wiki_refs:
-  - "concept-一堂-business-prediction"
+  - "yt-foresight-15-char-mantra"
+  - "yt-foresight-business-spectrum"
   - "skill-一堂-business-prediction-15-char"
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
@@ -127,7 +129,8 @@ updated_at: "2026-06-10"
 
 | 关系 | 目标节点 | 说明 |
 |------|----------|------|
-| 上位 | [[concept-一堂-business-prediction]] | 光谱模型是商业预判概念的阶段化工具 |
+| 上位 | [[yt-foresight-15-char-mantra]] | 光谱模型是十五字法诀中"主动定中局"的视觉化工具 |
+| 上位 | [[yt-foresight-business-spectrum]] | 光谱图提供了7级终局区间的具体定位 |
 | 前序 | [[skill-一堂-business-prediction-15-char]] | 15字诀的"定中局"需要光谱模型来具体化 |
 | 暗知识 | [[dk-一堂-p-type-vs-l-type]] | P型创业者常犯的错误就是阶段定位不清 |
 | 案例 | [[case-一堂-milk-tea-business-prediction]] | 从阶段2到阶段5的十年路径实例 |
