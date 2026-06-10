@@ -1,7 +1,7 @@
 ---
-source_id: "src_ocr_泛产品设计_落地卡片_roi分析"
+source_id: "src_ocr_泛产品设计_落地卡片_ROI分析"
 kind: "image_ocr"
-captured_at: "2026-05-22T04:13:08.338822"
+captured_at: "2026-05-10T15:32:28.062"
 original_image: "00_inbox/泛产品设计-落地卡片-ROI分析.png"
 ocr_engine: "paddleocr_onnx"
 char_count: 152

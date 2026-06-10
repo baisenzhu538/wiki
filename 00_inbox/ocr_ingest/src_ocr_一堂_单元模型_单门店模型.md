@@ -1,0 +1,34 @@
+---
+source_id: "src_ocr_一堂_单元模型_单门店模型"
+kind: "image_ocr"
+captured_at: "2026-05-23T19:25:05.962"
+original_image: "00_inbox/单元模型/一堂-单元模型-单门店模型.png"
+ocr_engine: "paddleocr_onnx"
+char_count: 133
+trust_level: "medium"
+freshness: "2026-05"
+rights: "yitang_course_material"
+---
+
+# OCR: 一堂-单元模型-单门店模型
+
+原图: `00_inbox/单元模型/一堂-单元模型-单门店模型.png`
+
+## OCR 原文
+
+-
+堂十大单元模型之八：单门店模型
+句话解释 按每个门店为物理空间，来计算单元模型
+单足球场模型，单幼儿园模型，单学校模型，
+常见变种
+单医院模型，单办公楼模型，单商场模型
+典型类型 服装店，奶茶店，餐饮店，便利店
+建议要用
+打算开连锁门店的，建议都要算
+#触发条件
+
+## 备注
+
+- 本文件由 PaddleOCR ONNX pipeline 自动提取
+- 可能存在连字/误识，需要人工校对
+- 视觉结构信息（标题/正文/表格分块）未在 OCR 中体现，需要结合原图理解

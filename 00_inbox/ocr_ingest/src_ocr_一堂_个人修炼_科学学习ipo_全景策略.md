@@ -1,7 +1,7 @@
 ---
-source_id: "src_ocr_一堂_个人修炼_科学学习ipo_全景策略"
+source_id: "src_ocr_一堂_个人修炼_科学学习IPO_全景策略"
 kind: "image_ocr"
-captured_at: "2026-05-22T04:13:07.175362"
+captured_at: "2026-05-06T18:54:12.584"
 original_image: "00_inbox/一堂-个人修炼-科学学习IPO-全景策略.jpg"
 ocr_engine: "paddleocr_onnx"
 char_count: 1467

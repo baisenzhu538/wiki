@@ -1,7 +1,7 @@
 ---
-source_id: "src_ocr_一堂_科学决策_深度_l4严格财务公式"
+source_id: "src_ocr_一堂_科学决策_深度_L4严格财务公式"
 kind: "image_ocr"
-captured_at: "2026-05-22T04:13:08.648108"
+captured_at: "2026-05-16T18:10:39.753"
 original_image: "00_inbox/科学决策/一堂-科学决策-深度-L4严格财务公式.png"
 ocr_engine: "paddleocr_onnx"
 char_count: 41

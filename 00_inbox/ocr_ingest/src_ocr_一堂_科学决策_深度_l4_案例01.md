@@ -1,7 +1,7 @@
 ---
-source_id: "src_ocr_一堂_科学决策_深度_l4_案例01"
+source_id: "src_ocr_一堂_科学决策_深度_L4_案例01"
 kind: "image_ocr"
-captured_at: "2026-05-22T04:13:08.641751"
+captured_at: "2026-05-16T18:10:37.079"
 original_image: "00_inbox/科学决策/一堂-科学决策-深度-L4-案例01.png"
 ocr_engine: "paddleocr_onnx"
 char_count: 85

@@ -1,7 +1,7 @@
 ---
-source_id: "src_ocr_一堂_科学决策_roi决策评估画布_案例02"
+source_id: "src_ocr_一堂_科学决策_ROI决策评估画布_案例02"
 kind: "image_ocr"
-captured_at: "2026-05-22T04:13:08.528597"
+captured_at: "2026-05-16T18:09:24.911"
 original_image: "00_inbox/科学决策/一堂-科学决策-ROI决策评估画布-案例02.png"
 ocr_engine: "paddleocr_onnx"
 char_count: 284

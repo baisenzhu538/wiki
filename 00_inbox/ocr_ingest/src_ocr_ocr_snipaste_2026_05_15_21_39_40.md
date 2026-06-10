@@ -1,7 +1,7 @@
 ---
-source_id: "src_ocr_ocr_snipaste_2026_05_15_21_39_40"
+source_id: "src_ocr_ocr_Snipaste_2026_05_15_21_39_40"
 kind: "image_ocr"
-captured_at: "2026-05-22T04:13:07.132612"
+captured_at: "2026-05-21T20:04:28.338"
 original_image: "00_inbox/ocr_Snipaste_2026-05-15_21-39-40.png"
 ocr_engine: "paddleocr_onnx"
 char_count: 96

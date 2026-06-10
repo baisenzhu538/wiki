@@ -1,7 +1,7 @@
 ---
-source_id: "src_ocr_泛产品设计_落地卡片_逻辑mece"
+source_id: "src_ocr_泛产品设计_落地卡片_逻辑MECE"
 kind: "image_ocr"
-captured_at: "2026-05-22T04:13:08.401185"
+captured_at: "2026-05-10T15:33:03.245"
 original_image: "00_inbox/泛产品设计-落地卡片-逻辑MECE.png"
 ocr_engine: "paddleocr_onnx"
 char_count: 197

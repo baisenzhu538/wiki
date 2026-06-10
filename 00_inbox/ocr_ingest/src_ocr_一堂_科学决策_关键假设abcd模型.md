@@ -1,7 +1,7 @@
 ---
-source_id: "src_ocr_一堂_科学决策_关键假设abcd模型"
+source_id: "src_ocr_一堂_科学决策_关键假设ABCD模型"
 kind: "image_ocr"
-captured_at: "2026-05-22T04:13:08.575136"
+captured_at: "2026-05-16T18:10:02.827"
 original_image: "00_inbox/科学决策/一堂-科学决策-关键假设ABCD模型.png"
 ocr_engine: "paddleocr_onnx"
 char_count: 120

@@ -1,7 +1,7 @@
 ---
-source_id: "src_ocr_一堂_科学决策_x型y型决策习惯对比"
+source_id: "src_ocr_一堂_科学决策_X型Y型决策习惯对比"
 kind: "image_ocr"
-captured_at: "2026-05-22T04:13:08.557909"
+captured_at: "2026-05-16T18:09:52.809"
 original_image: "00_inbox/科学决策/一堂-科学决策-X型Y型决策习惯对比.png"
 ocr_engine: "paddleocr_onnx"
 char_count: 120

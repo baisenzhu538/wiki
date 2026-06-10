@@ -1,7 +1,7 @@
 ---
-source_id: "src_ocr_truman的个人成长五步法"
+source_id: "src_ocr_Truman的个人成长五步法"
 kind: "image_ocr"
-captured_at: "2026-05-22T04:13:07.147187"
+captured_at: "2026-05-10T15:30:52.751"
 original_image: "00_inbox/Truman的个人成长五步法.png"
 ocr_engine: "paddleocr_onnx"
 char_count: 211

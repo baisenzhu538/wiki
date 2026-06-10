@@ -1,7 +1,7 @@
 ---
-source_id: "src_ocr_一堂_个人修炼_科学学习ipo完整清单"
+source_id: "src_ocr_一堂_个人修炼_科学学习IPO完整清单"
 kind: "image_ocr"
-captured_at: "2026-05-22T04:13:07.181263"
+captured_at: "2026-05-06T18:55:27.659"
 original_image: "00_inbox/一堂-个人修炼-科学学习IPO完整清单.jpg"
 ocr_engine: "paddleocr_onnx"
 char_count: 2177

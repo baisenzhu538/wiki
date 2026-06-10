@@ -1,7 +1,7 @@
 ---
-source_id: "src_ocr_一堂_个人修炼_科学学习ipo模型"
+source_id: "src_ocr_一堂_个人修炼_科学学习IPO模型"
 kind: "image_ocr"
-captured_at: "2026-05-22T04:13:07.185744"
+captured_at: "2026-05-06T19:11:45.715"
 original_image: "00_inbox/一堂-个人修炼-科学学习IPO模型.jpg"
 ocr_engine: "paddleocr_onnx"
 char_count: 18

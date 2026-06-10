@@ -1,7 +1,7 @@
 ---
-source_id: "src_ocr_泛产品设计_落地卡片_低成本测试mvp"
+source_id: "src_ocr_泛产品设计_落地卡片_低成本测试MVP"
 kind: "image_ocr"
-captured_at: "2026-05-22T04:13:08.347745"
+captured_at: "2026-05-10T15:32:32.439"
 original_image: "00_inbox/泛产品设计-落地卡片-低成本测试MVP.png"
 ocr_engine: "paddleocr_onnx"
 char_count: 238
