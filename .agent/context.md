@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-11
 active_branch: main
-active_task: "机会预判域补充完成：基于189KB口述稿新增11张卡(6 concept+3 case+1 tool+1 dk)。黄药师Task J/K已完成。待黄药师启动Task E（诊断基础设施v1）。老顽童回归后读纠正文件。"
+active_task: "Task E（诊断基础设施v1）E1-E3全部完成。commit 4ee5d42。终局光谱图卡已加3条diagnostic_signals+3条diagnostic_relations作为试金石。下一步：等老顽童在5张+卡上补diagnostic_signals后可启动E4(kdo diagnose)。"
 blockers: []
-next_session_hint: "用户说'继续'→ Agent体系建设待欧阳锋裁决（Q1数量/Q2分发/Q3颗粒度）。方案见 decisions/agent-ecosystem-design.md。黄药师已领 Task E（诊断基础设施v1）。老顽童回归后读纠正文件。洪七公回归后读流程建议。"
+next_session_hint: "用户说'继续'→ E4(kdo diagnose命令原型)待老顽童积累5+卡diagnostic_signals后启动。黄药师可继续Infra backlog或等欧阳锋裁决Agent体系建设。"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
@@ -46,7 +46,7 @@ next_session_hint: "用户说'继续'→ Agent体系建设待欧阳锋裁决（Q
 
 ### KDO CLI 状态
 - 47 .py 文件，~13,800 行，15 测试文件
-- **pytest**：519/520 passing + 1 skip（1 pre-existing CSRF failure）
+- **pytest**：526/528 passing + 2 pre-existing CSRF failures + 1 skip
 - **Graph RAG**：226 entities, 721 chunks, 1252 relations
 - **kdo stale**：25 tests pass，待欧阳锋审查后 commit
 - 坚果云备份 ✅
