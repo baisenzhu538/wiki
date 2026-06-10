@@ -1,4 +1,5 @@
 ---
+type: "concept"
 tags:
   - "#scene/learning-methodology/mental-models"
 ---

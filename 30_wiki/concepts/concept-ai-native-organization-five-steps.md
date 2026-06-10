@@ -1,5 +1,6 @@
 ---
 id: "concept-ai-native-organization-five-steps"
+type: "concept"
 component_of: ""
 confidence: 0.8
 created_at: "2026-06-09"

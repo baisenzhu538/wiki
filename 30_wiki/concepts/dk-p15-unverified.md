@@ -1,4 +1,5 @@
 ---
+type: "dark-knowledge"
 tags:
   - "#scene/ai-collaboration"
   - "#scene/learning-methodology"

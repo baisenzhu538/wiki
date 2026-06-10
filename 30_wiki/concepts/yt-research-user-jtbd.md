@@ -1,4 +1,5 @@
 ---
+type: "concept"
 tags:
   - "#scene/note-taking/checklist-method"
 ---
