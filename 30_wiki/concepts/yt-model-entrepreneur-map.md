@@ -141,7 +141,7 @@ yitang: {'map': 'entrepreneur', 'module': '方法论总纲', 'course_type': 'mod
 
 ## Synthesis
 
-### 不要用的场景
+## Constraints & Boundaries
 
 适用性判断：本地图在以下场景中可能失效，建议采用替代方案。
 

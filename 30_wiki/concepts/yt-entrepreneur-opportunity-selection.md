@@ -95,7 +95,7 @@ yitang: {'map': 'entrepreneur', 'module': '机会选择', 'course_id': 'yt-entre
 | 关联工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设方法论 |
 | 关联框架 | [[yt-model-entrepreneur-map]] | 创业地图总模型 |
 
-### 不要用的场景
+## Constraints & Boundaries
 
 | 场景 | 为什么失效 | 替代方案 |
 |------|-----------|---------|
