@@ -89,3 +89,34 @@ wiki_subdirs = [
 ## 洪七公
 
 **当前无任务。** 待命。
+
+---
+
+# 老顿童（laowantong）完成记录 · 2026-06-11
+
+## 完成汇总
+
+| 任务 | 状态 | 产出物 |
+|:-----|:----:|:--------|
+| 桥接卡量产：Hypothesis-Driven 系列 | ✅ | `30_wiki/frameworks/concept-mckinsey-hypothesis-driven.md`<br>`30_wiki/tools/skill-mckinsey-hypothesis-driven-workflow.md`<br>`30_wiki/concepts/dk-mckinsey-hypothesis-driven-pitfalls.md` |
+| 桥接卡量产：5 Whys | ✅ | `30_wiki/tools/concept-toyota-5-whys.md` |
+| 课转卡自查 | ✅ | 30 张课转技能卡全部补上"判断标准"小节（`skill-一堂-*` 7 张 + `skill-纪浩-*` 23 张） |
+| 旧卡补互链 | ✅ 部分 | 已补 28 张核心卡片（`skill-纪浩-*` 16 张 + `frameworks/` 3 张 + `tools/` 9 张）；全库仍有约 800+ 张卡缺 related，后续按"有空时逐步补" |
+
+## 质量门槛
+
+- 4 张桥接卡全部通过三条红线：Bridge 节 ✓、bridges_to ≥1 条 ✓、Synthesis 链接 ≥5 个且同域横向 ≥2 个 ✓
+- Hypothesis-Driven 攻击者：Kahneman（确认偏误）+ Eric Ries（精益创业）
+- 5 Whys 攻击者：Taleb（过度简化）+ Senge（系统思考）
+
+## 额外修复
+
+- 修复 `30_wiki/tools/concept-mckinsey-issue-tree.md` frontmatter YAML 引号嵌套错误
+- 修复 `30_wiki/concepts/case-truman-poker-deck-roi.md` title YAML 引号嵌套错误
+- 全库 YAML 解析错误从 2 个降至 0 个
+
+## 待后续处理
+
+- 全库约 800+ 张卡片仍缺 related 或 related<2，建议按优先级（frameworks → tools → concepts → skills/cases）分批补充
+- 部分纪浩技能卡的 related 采用了"通用相关——纪浩体系总纲+真需求四要素"，后续可根据各卡主题精细化
+
