@@ -6,15 +6,18 @@ dark_knowledge_type: "failure"
 status: "draft"
 domain:
   - "design"
+  - "yitang"
+  - "business-strategy"
 source_person: "月白"
 source_context: "口述稿: AI设计-AI设计师实操培训01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
 created_at: 2026-06-04
-updated_at: 2026-06-04
+updated_at: 2026-06-11
 related:
   - "dk-yb16-ecommerce-product-image-vs-lucky-draw"
   - "dk-yb19-visual-strategy-price-match"
+  - "yt-foresight-ten-fatal-flaws"
 contradicts:
 tags:
   - #domain/design

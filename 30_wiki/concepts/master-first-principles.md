@@ -24,6 +24,7 @@ related:
   - "yt-unit-model-ladder"
   - "yt-unit-model-construction"
   - "yt-unit-model-dynamic"
+  - "dk-yb20-ai-eye-high-principle"
 reviewed_by: ""
 source_refs:
   - {"来源": "Aristotle, Elon Musk"}

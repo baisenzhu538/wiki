@@ -23,7 +23,8 @@ query_triggers:
   - "行业硬伤"
   - "创业风险清单"
   - "项目致命缺陷"
-related: {'series': False}
+related:
+  - "dk-yb18-small-shop-image-mismatch"
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-addition-subtraction.md"

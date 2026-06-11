@@ -6,15 +6,17 @@ dark_knowledge_type: "workflow"
 status: "draft"
 domain:
   - "design"
+  - "ai-collaboration"
 source_person: "月白"
 source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计基础01.txt"
 created_at: 2026-06-04
-updated_at: 2026-06-04
+updated_at: 2026-06-11
 related:
   - "dk-yb5-style-asset-archive"
   - "dk-yb8-file-naming-eight-elements"
+  - "yt-entrepreneur-lean-validation"
 contradicts: ""
 tags:
   - #domain/design

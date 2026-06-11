@@ -25,6 +25,7 @@ related:
   - "dk-纪浩-pdca-starts-from-do"
   - "dk-纪浩-logs-fastest-ignored"
   - "case-纪浩-from-zip-to-five-layers"
+  - "dk-yb5-style-asset-archive"
 tags:
   - #domain/ai-collaboration
   - #domain/yitang

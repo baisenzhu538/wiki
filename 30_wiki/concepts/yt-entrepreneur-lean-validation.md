@@ -20,7 +20,8 @@ query_triggers:
   - "创业实验矩阵"
   - "数据驱动决策"
   - "关键假设测试"
-related: {'series': True}
+related:
+  - "dk-yb1-aigc-mvp-before-ps"
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
