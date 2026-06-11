@@ -42,11 +42,6 @@ tags:
   - #scene/learning-methodology/feedback-loop
   - #scene/note-taking/level-diagnosis
   - #scene/product-design
-  - 一堂
-  - 成长路径
-  - 段位
-  - 泛产品设计
-  - 爬山地图
 pipeline:
   - #boundary/not-for-beginners
   - #boundary/not-for-creative

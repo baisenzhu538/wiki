@@ -19,12 +19,6 @@ tags:
   - #scene/note-taking/checklist-method
   - #scene/note-taking/live-field
   - #scene/skill-engineering/publish-deploy
-  - AI落地
-  - 一堂
-  - 花总
-  - 商业突破
-  - 多行业AI
-  - 摘要
 pipeline:
   - #boundary/not-for-medical
   - #boundary/requires-human-judgment

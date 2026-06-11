@@ -46,12 +46,6 @@ tags:
   - #scene/product-design
   - #scene/skill-engineering/eval-testing
   - #scene/skill-engineering/manifest-design
-  - 一堂
-  - 产品设计
-  - 学习方法
-  - 建模
-  - 最佳实践
-  - 案例分析
 pipeline:
   - #boundary/not-for-beginners
   - #boundary/requires-human-judgment

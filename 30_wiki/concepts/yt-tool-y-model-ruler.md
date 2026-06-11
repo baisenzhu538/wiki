@@ -44,12 +44,6 @@ tags:
   - #scene/note-taking/level-diagnosis
   - #scene/skill-engineering/eval-testing
   - #scene/skill-engineering/manifest-design
-  - Y模型
-  - 一堂
-  - 决策
-  - 定量
-  - 科学方法
-  - 评估
 pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment

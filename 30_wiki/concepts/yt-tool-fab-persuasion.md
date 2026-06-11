@@ -43,11 +43,6 @@ tags:
   - #scene/product-design
   - #scene/skill-engineering/manifest-design
   - FAB
-  - 一堂
-  - 产品设计
-  - 文案
-  - 说服
-  - 转化
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case

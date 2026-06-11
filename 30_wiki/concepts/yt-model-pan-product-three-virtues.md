@@ -39,11 +39,6 @@ tags:
   - #scene/learning-methodology/deliberate-practice
   - #scene/note-taking/level-diagnosis
   - #scene/product-design
-  - 一堂
-  - 三大修养
-  - 价值观
-  - 心法
-  - 泛产品设计
 pipeline:
   - #boundary/not-for-beginners
   - #boundary/requires-human-judgment

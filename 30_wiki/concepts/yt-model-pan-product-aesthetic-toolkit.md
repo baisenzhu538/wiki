@@ -46,11 +46,6 @@ tags:
   - #scene/learning-methodology/feedback-loop
   - #scene/note-taking
   - #scene/product-design
-  - 一堂
-  - 审美
-  - 工具箱
-  - 最佳实践
-  - 泛产品设计
 pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment

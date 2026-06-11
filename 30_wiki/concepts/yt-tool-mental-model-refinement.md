@@ -47,12 +47,6 @@ tags:
   - #scene/learning-methodology/mental-models
   - #scene/product-design
   - #scene/skill-engineering/manifest-design
-  - CEO能力
-  - 一堂
-  - 复盘
-  - 建模
-  - 思维模型
-  - 提炼方法
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case

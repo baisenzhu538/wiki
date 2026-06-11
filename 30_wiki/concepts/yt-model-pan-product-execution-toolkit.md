@@ -47,11 +47,6 @@ tags:
   - #scene/note-taking/checklist-method
   - #scene/product-design
   - #scene/skill-engineering/manifest-design
-  - 一堂
-  - 工具箱
-  - 泛产品设计
-  - 落地执行
-  - 迭代
 pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment

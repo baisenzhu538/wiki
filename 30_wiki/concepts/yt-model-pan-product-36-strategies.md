@@ -46,11 +46,6 @@ tags:
   - #scene/note-taking/checklist-method
   - #scene/product-design
   - #scene/skill-engineering
-  - 36计
-  - 一堂
-  - 产品设计
-  - 工具箱
-  - 泛产品设计
 pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment

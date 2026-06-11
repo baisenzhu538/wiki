@@ -42,11 +42,6 @@ tags:
   - #scene/note-taking/live-field
   - #scene/product-design
   - #scene/skill-engineering
-  - 一堂
-  - 工具箱
-  - 泛产品设计
-  - 用户研究
-  - 需求分析
 pipeline:
   - #boundary/not-for-beginners
   - #boundary/not-for-creative

@@ -49,10 +49,6 @@ tags:
   - #scene/note-taking/checklist-method
   - #scene/note-taking/level-diagnosis
   - #scene/product-design
-  - 一堂
-  - 产品设计
-  - 方法论
-  - 泛产品设计
 pipeline:
   - #boundary/not-for-beginners
   - #boundary/not-for-creative
