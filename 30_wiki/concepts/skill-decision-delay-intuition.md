@@ -33,6 +33,7 @@ tags:
   - #tool/brain
 pipeline:
   - #skill-type/execution
+reviewed_by: "laowantong"
 ---
 
 # 技能：延迟直觉法

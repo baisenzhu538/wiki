@@ -29,6 +29,7 @@ tags:
   - #tool/brain
 pipeline:
   - #skill-type/validation
+reviewed_by: "laowantong"
 ---
 
 # 技能：Problem vs Question 区分法

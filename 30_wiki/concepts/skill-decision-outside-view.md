@@ -32,6 +32,7 @@ tags:
   - #tool/brain
 pipeline:
   - #skill-type/validation
+reviewed_by: "laowantong"
 ---
 
 # 技能：团队决策外部视角法

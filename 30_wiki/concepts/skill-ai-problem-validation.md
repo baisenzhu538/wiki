@@ -2,7 +2,7 @@
 id: "skill-ai-problem-validation"
 title: "技能：问题验证三维度法"
 type: "skill"
-status: "draft"
+status: needs-review
 domain: ""
 source_person: "纪浩"
 source_context: "AI俱乐部-AI协作方法论分享，2026-06"
@@ -25,6 +25,7 @@ tags:
 pipeline:
   - #skill-type/evaluation
   - confidence-draft
+superseded_by: "skill-ai-four-elements-validation"
 ---
 
 # 技能：问题验证三维度法

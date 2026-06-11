@@ -27,6 +27,7 @@ tags:
 pipeline:
   - #skill-type/input-method
   - confidence-draft
+reviewed_by: "laowantong"
 ---
 
 # 技能：用口喷输入法生成高质量 AI 提示词

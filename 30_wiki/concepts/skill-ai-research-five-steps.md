@@ -31,6 +31,7 @@ tags:
   - #tool/LLM
 pipeline:
   - #skill-type/execution
+reviewed_by: "laowantong"
 ---
 
 # 技能：AI调研五步法

@@ -2,7 +2,7 @@
 id: "skill-ai-voice-input-doubao"
 title: "技能：口喷式语音输入法"
 type: "skill"
-status: "draft"
+status: needs-review
 domain: ""
 source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地分享，2026-06"
@@ -29,6 +29,7 @@ tags:
 pipeline:
   - #skill-type/input-method
   - confidence-draft
+superseded_by: "skill-ai-oral-spray-input"
 ---
 
 # 技能：口喷式语音输入法

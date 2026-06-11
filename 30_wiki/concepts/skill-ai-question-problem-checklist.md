@@ -2,7 +2,7 @@
 id: "skill-ai-question-problem-checklist"
 title: "技能：提问题转化三问清单"
 type: "skill"
-status: "draft"
+status: needs-review
 domain: ""
 source_person: "纪浩"
 source_context: "AI俱乐部-AI协作方法论分享，2026-06"
@@ -27,6 +27,7 @@ pipeline:
   - #boundary/requires-human-judgment
   - #skill-type/checklist
   - confidence-draft
+superseded_by: "skill-ai-problem-question-check"
 ---
 
 # 技能：提问题转化三问清单

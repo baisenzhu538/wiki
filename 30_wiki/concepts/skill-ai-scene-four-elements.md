@@ -31,6 +31,7 @@ tags:
   - #tool/brain
 pipeline:
   - #skill-type/validation
+reviewed_by: "laowantong"
 ---
 
 # 技能：AI落地场景四要素评估法
