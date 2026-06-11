@@ -113,6 +113,61 @@ bridges_to:
 
 以上三条缺一不可。不满足直接退回。
 
+---
+
+## 🔴 执行规范：domain 标注规则（强制）
+
+> 王语嫣诊断发现 design 域 32 张卡全部因"按出身不按内容"标注而被锁成孤岛。
+> 此规范即日起强制执行，适用于所有新卡和旧卡修改。
+
+### 核心原则
+
+**标内容，不标出身。**
+
+`domain` 字段标注的依据是**卡片内容讨论了什么域**，而不是**来源是谁**。
+
+### 判定方法
+
+读卡片的 **Summary + 第一个 Claim + Critique 第一句话**。如果这三处中出现了另一个域的核心概念，就应加上那个域的 domain。
+
+### 示例
+
+| 卡片 | 旧 domain（出身） | 新 domain（内容） |
+|:----|:-----------------|:-----------------|
+| dk-yb7（中国设计需求分层） | design | **design, yitang, business-strategy** |
+| dk-yb19（视觉价格匹配） | design | **design, yitang** |
+| dk-yb21（电商定价建模） | design | **design, business-strategy** |
+
+### 已有域列表（`90_control/schemas/concept.yaml` 中完整定义）
+
+| domain | 用途 |
+|:-------|:-----|
+| master | 元方法/元认知（PEAS、认知升级等跨域通用框架） |
+| yitang | 一堂创业/管理/个人修炼方法论 |
+| design | 设计方法、AIGC 工作流、审美 |
+| consulting | 管理咨询经典工具（MECE、Issue Tree 等） |
+| ai | AI 技术概念 |
+| ai-collaboration | 人机协作方法论（纪浩、半肥猫等） |
+| business-strategy | 商业战略、壁垒、增长 |
+| product | 产品设计与产品内核 |
+| entrepreneur | 创业 |
+| management | 团队管理与组织 |
+| personal-growth | 个人修炼、学习、笔记 |
+
+### 典型错误
+
+- ❌ `domain: ["design"]` 因为"月白是设计师"——不对，要看内容讲的是设计还是商业
+- ❌ `domain: ["yitang"]` 因为"这是堂课的内容"——不对，如果内容讲的是设计方法，应该标 design
+- ✅ 多 domain 是推荐做法——卡片讨论到几个域就标几个
+
+### 谁执行
+
+**老顽童**：产新卡时执行新规则。改旧卡（如 design 域 P0 的 5 张桥接）时一并修正 domain。
+**王语嫣**：诊断中抽查 domain 标注质量，反馈给欧阳锋。
+**欧阳锋**：审查时检查 domain 是否按内容标注，不通过则退回。
+
+---
+
 ### 两步走
 
 1. 试点产出 MECE + Issue Tree → 通知欧阳锋审查

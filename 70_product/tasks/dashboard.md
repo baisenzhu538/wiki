@@ -30,7 +30,7 @@ updated: 2026-06-11
 | **29** | **🆕 纪浩体系完整萃取** | **🟡** | **case卡产出2张，skill卡批量处理。需确认concept全景卡是否到位** |
 | **30** | **🆕 课转技能卡补判断标准** | **❌ 未完成** | **抽检 skill-寻找学习教练法.md 未加"判断标准"小节，需补** |
 | **31** | **王语嫣自迭代提案** | **🟡** | **proposal-self-learning-cron.md 已出，定位准确，待完整审查** |
-| **32** | **🆕 Design域孤岛桥接（王语嫣诊断）** | **🔜** | **P0 5对桥接需执行：改domain+补related。源材料：diag_20250611_design-island-bridge-analysis.md** |
+| **32** | **Design域孤岛桥接（王语嫣诊断）** | **🔜** | **P0 5对桥接：改domain+补related。domain标注规则已写入 laowantong-next-tasks.md 和 concept.yaml schema。标内容不标出身，强制执行** |
 
 ---
 
