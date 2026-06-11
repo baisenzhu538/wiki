@@ -52,11 +52,13 @@ properties:
       - draft
       - reviewed
       - stable
+      - deprecated
       - needs-review
     description: >
       draft: initial creation, may contain TODOs
       reviewed: passed human or AI review
       stable: widely referenced, unlikely to change
+      deprecated: superseded by newer card(s). See 'superseded_by' field.
       needs-review: contradictions found or source questioned
 
   source_refs:
@@ -100,19 +102,54 @@ properties:
 
   domain:
     type: array
+    minItems: 1
     items:
       type: string
       enum:
         - master
-        - ai-saas
-        - healthcare
         - yitang
+        - design
+        - consulting
+        - ai
+        - ai-collaboration
+        - business-strategy
+        - product
+        - entrepreneur
+        - management
+        - personal-growth
+        - learning-methodology
+        - lean-manufacturing
+        - ai-models
+        - healthcare
+        - ai-saas
     description: >
       Knowledge domain classification. Multiple domains allowed.
-      master: general methodology (KDO, OSCAR, universal frameworks)
-      ai-saas: AI products and companies
-      healthcare: healthcare industry
-      yitang: 一堂 (Yitang) entrepreneurship/management education methodology
+
+      ⚠️ 标注规则：标内容，不标出身。
+      第一个 domain = 主要话题域（卡片内容主要属于哪个领域）
+      第二及以后 = 涉及的关联域（卡片讨论到了哪个域的概念）
+      不是"来源是谁"而是"内容关于什么"。
+
+      判定方法：读 Summary + 第一个 Claim + Critique 第一句话。
+      如果这三处中出现了另一个域的核心概念，就应加上那个域的 domain。
+
+      已有 domain 说明：
+      master: 元方法/元认知（PEAS、认知升级、反脆弱等跨域通用框架）
+      yitang: 一堂创业/管理/个人修炼方法论
+      design: 设计方法、AIGC 工作流、审美
+      consulting: 管理咨询经典工具（MECE、Issue Tree 等）
+      ai: AI 技术概念
+      ai-collaboration: 人机协作方法论（纪浩、半肥猫等）
+      business-strategy: 商业战略、壁垒、增长
+      product: 产品设计与产品内核
+      entrepreneur: 创业
+      management: 团队管理与组织
+      personal-growth: 个人修炼、学习、笔记
+      learning-methodology: 学习方法论
+      lean-manufacturing: 精益制造（5 Whys 等）
+      ai-models: AI 模型架构
+      healthcare: 医疗健康
+      ai-saas: AI 产品和公司
 
   yitang:
     type: object
@@ -191,6 +228,83 @@ properties:
     format: date
     pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
     description: "Date of last review. Required if status is reviewed or stable."
+
+  superseded_by:
+    type: array
+    items:
+      type: string
+    description: >
+      Optional. IDs of newer cards that replace this card.
+      When adding a new card that covers the same topic as an old card,
+      add this field to the old card pointing to the new one, and set
+      status to 'deprecated'.
+
+  diagnostic_signals:
+    type: array
+    items:
+      type: object
+      required:
+        - signal
+        - framework_lens
+        - follow_up_question
+      properties:
+        signal:
+          type: string
+          description: "触发场景——用户说什么话/什么情境时触发"
+        framework_lens:
+          type: string
+          description: "框架视角——这个信号下框架提供什么视角"
+        follow_up_question:
+          type: string
+          description: "第一个追问"
+    description: >
+      Optional. Diagnostic signals for framework/tool/case cards.
+      Each signal describes a triggering scenario, the framework's lens,
+      and the first follow-up question. Enables dialogue-based diagnosis.
+
+  bridges_to:
+    type: array
+    items:
+      type: object
+      required:
+        - target
+        - relation
+        - description
+      properties:
+        target:
+          type: string
+          description: "目标卡 ID"
+        relation:
+          type: string
+          description: "关系类型（如 provides_foundation_for / applies_to / complements）"
+        description:
+          type: string
+          description: "桥接说明"
+        context:
+          type: string
+          description: "上下文背景"
+    description: >
+      Optional. Cross-system bridge links. Use only for cross-domain/cross-system
+      connections (e.g. 一堂体系 ↔ 经典商业框架). Intra-yitang relationships
+      should use the existing 'related' field.
+
+  diagnostic_relations:
+    type: array
+    items:
+      type: object
+      properties:
+        target:
+          type: string
+          description: "目标卡 ID"
+        relation:
+          type: string
+          description: "关系类型（applies_when / contrasts_with / requires_input）"
+        description:
+          type: string
+          description: "描述在什么场景下触发"
+    description: >
+      Optional. Diagnostic graph edges for Graph RAG.
+      Used for query-time diagnostic candidate matching.
 
 dependencies:
   reviewed_by:
