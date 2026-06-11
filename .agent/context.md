@@ -1,9 +1,10 @@
 ---
 updated: 2026-06-11
 active_branch: main
-active_task: "王语嫣首秀完成（A，识别8概念缺口）。欧阳锋已更新全部角色任务文件：老顽童（桥接卡试点MECE+Issue Tree / CLI批量卡审核精修 / 课转技能卡补深）、黄药师（Task E扩展：bridges_to + E5文献目录）、王语嫣（持续诊断+Gap标注）。各角色任务就绪，待用户通知领取。"
-blockers: []
-next_session_hint: "用户说'继续'→ 各角色已领取任务后的下一步。老顽童：MECE+Issue Tree试点。黄药师：启动Task E。王语嫣：持续诊断。"
+active_task: "老顽童已完成Design域P0 5对孤岛桥接：5张design卡按内容重标domain并补related，5张目标卡反向链接已建立。纠正记录在 60_feedback/corrections/corr_20260611_laowantong-design-domain-island-bridges.md。待欧阳锋抽检。"
+blockers:
+  - "欧阳锋抽检Design域P0 5对桥接结果"
+next_session_hint: "用户说'继续'→ 若抽检通过，启动P1 4对桥接（dk-yb1/yb5/yb20/yb18）。否则按欧阳锋意见修复。"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
@@ -42,7 +43,7 @@ next_session_hint: "用户说'继续'→ 各角色已领取任务后的下一步
 - **黄药师**：Task G/J/K 全部完成（commit `1995f59`）。🆕 机会预判域补齐：发现189KB口述稿被遗漏（文件名"商业预判课"≠"机会预判"），代老顽童完成完整编译——新增11张卡（6 concept + 3 case + 1 tool + 1 dk），全量基于口述稿+幻灯片，三步编译法+多攻击者论证。commit `d341679c`。
 - **欧阳锋**：本会话无动作。
 - **老顽童**：🆕 清单体笔记 KDO 批次已完成（4 新卡+1文章+1dk卡+1旧卡更新）。黄药师审查 A-，P0 项待修（article未注册管线+缺source_refs），深度问题待用户反馈。管理工具箱+路演+Phase C 均已完成。
-- **洪七公**：🆕 **一堂五步法39张图片OCR解析全部完成**（2026-06-11）。`ocr_ingest/`新增39份结构化OCR文件，全部包含source_id/frontmatter/original_image引用。广冷电子12张图片用户指示不用处理。待命。
+- **洪七公**：🆕 **临时支援老顽童任务已启动**（2026-06-11）。桥接卡#1 `concept-mckinsey-7s` 已产出到 `30_wiki/frameworks/`，待欧阳锋审查。审完后产 #2 `concept-maister-trusted-advisor`。
 - **段王爷**：本会话无动作。
 
 ### KDO CLI 状态

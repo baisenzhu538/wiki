@@ -1,0 +1,169 @@
+---
+id: "concept-mckinsey-7s"
+title: "7-S Framework：组织诊断的七维模型"
+type: "framework"
+status: "draft"
+domain:
+  - "consulting"
+  - "yitang"
+source_refs:
+  - "Peters, T. J., & Waterman, R. H. (1982). *In Search of Excellence*. Harper & Row."
+  - "Waterman, R. H., Peters, T. J., & Phillips, J. R. (1980). 'Structure is not organization.' *Business Horizons*, 23(3), 14-26."
+bridges_to:
+  - target: "yt-model-entrepreneur-map"
+    relation: "provides_foundation_for"
+    description: "7-S 提供了组织诊断的完整维度框架"
+    context: "一堂的'创业修炼地图'和'管理修炼地图'涉及组织能力评估，但缺少系统性的诊断维度。7-S 补充了这个缺口"
+  - target: "yt-management-toolkit-overview"
+    relation: "complements"
+    description: "管理工具箱中的 tool 卡可以与 7-S 各维度对应"
+    context: "在搭建管理体系时，用 7-S 检查是否每个维度都有工具覆盖，避免只调结构、不调系统"
+  - target: "concept-mckinsey-mece"
+    relation: "uses"
+    description: "7-S 是 MECE 原则在组织诊断中的具体应用"
+    context: "7 个维度相互独立、共同构成组织整体，符合 MECE 原则"
+diagnostic_signals:
+  - signal: "用户说'我们团队好像出了问题，但不知道是哪里'"
+    framework_lens: "7-S 检查：从 7 个维度逐一排查，识别哪个维度是薄弱环节"
+    follow_up_question: "如果用一句话说你们团队最痛的地方，是战略不清、结构不对、还是人不对？"
+  - signal: "用户说'我们做了组织调整但问题还在'"
+    framework_lens: "7-S 检查：组织调整是否只动了结构（Structure），忽略了共享价值观（Shared Values）等软要素"
+    follow_up_question: "你们做组织调整的时候，有没有同步调整考核方式（Systems）和人员配置（Staff）？"
+  - signal: "用户说'我们公司战略很清晰，但执行总是变形'"
+    framework_lens: "7-S 检查：战略（Strategy）与系统（Systems）、风格（Style）、技能（Skills）是否一致"
+    follow_up_question: "你的考核系统、领导风格和核心团队能力，是在奖励战略方向的行为，还是在奖励相反的行为？"
+related:
+  - "concept-mckinsey-mece"
+  - "concept-mckinsey-issue-tree"
+  - "yt-model-entrepreneur-map"
+  - "yt-management-toolkit-overview"
+  - "yt-tool-hiring-scorecard"
+  - "yt-tool-okr-cycle"
+tags:
+  - "#scene/business-analysis"
+  - "#scene/entrepreneurship"
+  - "#scene/team-management"
+  - "#consulting"
+  - "#method/checklist"
+created_at: "2026-06-11"
+updated_at: "2026-06-11"
+---
+
+# 7-S Framework：组织诊断的七维模型
+
+> 来源：Peters & Waterman (1982). *In Search of Excellence*; Waterman, Peters & Phillips (1980). "Structure is not organization"
+> 核心：组织效能不取决于单一要素，而取决于 7 个要素（3 硬 + 3 软 + 1 核心）是否相互匹配。
+
+## Summary
+
+7-S Framework 是麦肯锡经典的组织诊断框架。它把组织拆分为 7 个相互关联的要素：**3 个硬件要素**（Strategy 战略、Structure 结构、Systems 系统）、**3 个软件要素**（Style 风格、Staff 人员、Skills 技能），以及居于中心的**Shared Values（共享价值观）**。
+
+这个框架的颠覆性在于：它反对"组织变革就是改结构图"的简单化思维。Peters 和 Waterman 通过研究美国卓越企业发现，**真正决定组织成败的不是结构，而是硬要素与软要素之间的匹配度**。当 7 个要素彼此强化时，组织形成"一致性"（alignment）；当某个要素与其他要素冲突时，就会出现"我们明明调整了结构，为什么问题还在"的典型困境。
+
+一堂体系强调创业者需要在不同阶段修炼不同能力（创业修炼地图、管理修炼地图），但没有给出"如何系统诊断组织能力"的框架。7-S 填补这个缺口：它让创业者从"凭直觉感觉团队有问题"升级为"用 7 个维度做组织体检"。
+
+## Claims
+
+### 7 个维度与核心问题
+
+| 分类 | 维度 | 核心问题 |
+|:----|:-----|:---------|
+| 硬件要素 | **Strategy（战略）** | 我们要去哪里？竞争定位是什么？ |
+| 硬件要素 | **Structure（结构）** | 谁向谁汇报？部门/团队如何划分？ |
+| 硬件要素 | **Systems（系统）** | 用什么流程、制度、考核来驱动行为？ |
+| 软件要素 | **Style（风格）** | 领导层和管理层的行为模式是什么？ |
+| 软件要素 | **Staff（人员）** | 我们有什么样的人？需要什么样的人？ |
+| 软件要素 | **Skills（技能）** | 组织层面的核心能力是什么？缺什么？ |
+| 核心要素 | **Shared Values（共享价值观）** | 什么被认为是组织最重要的？什么行为会被奖励/惩罚？ |
+
+### 为什么硬要素不够？
+
+结构（Structure）是最容易看到的，也是最容易调整的。但 Waterman 等人提出的核心论断是：**Structure is not organization**。只调整结构而忽略系统、风格、共享价值观，就像只换汽车的仪表盘而不修发动机——看起来变了，跑起来还是老样子。
+
+### 7-S 的一致性检验
+
+用 7-S 诊断组织时，核心不是单独评价每个维度的好坏，而是检查它们之间是否一致：
+
+1. **战略 → 结构**：战略要求快速响应，结构却是多层审批？
+2. **结构 → 系统**：结构要求跨部门协作，考核却只奖励部门 KPI？
+3. **系统 → 风格**：系统鼓励创新容错，领导风格却是 micromanagement？
+4. **风格 → 人员**：公司宣称要招创新人才，面试却只看执行力？
+5. **人员 → 技能**：招了很多人，但组织层面缺乏核心技能的沉淀？
+6. **所有要素 → 共享价值观**：嘴上说的价值观，和实际考核/晋升标准是否一致？
+
+## Bridge to 一堂体系
+
+| 桥接目标 | 桥接关系 | 使用场景 |
+|:---------|:---------|:---------|
+| [[yt-model-entrepreneur-map]] | 7-S 提供了组织诊断的维度框架 | 创业者在评估团队能力时，用 7-S 逐一扫描七个维度，而不是只凭直觉说"我们团队还行" |
+| [[yt-management-toolkit-overview]] | 管理工具箱中的 tool 卡可以与 7-S 各维度对应 | 在搭建管理体系时，用 7-S 检查是否每个维度都有工具覆盖 |
+| [[yt-tool-hiring-scorecard]] | Staff/Skills 维度的具体工具 | 用招聘评分卡解决"我们缺什么样的人"和"现在的人能力是否匹配" |
+| [[yt-tool-okr-cycle]] | Systems 维度的具体工具 | 用 OKR 把战略翻译成可衡量的系统和行为 |
+
+**案例：**
+一堂的"创业修炼地图"把组织能力列为起盘阶段的核心能力，但没有给出"怎么诊断组织能力"的方法。7-S 可以补这个缺口：当创业者说"我们团队需要加强管理"时，先不急着上 OKR 或招 HR，先用 7-S 做一次组织体检——薄弱环节在策略、结构还是人员？不同薄弱环节对应不同的管理工具箱 tool 卡。
+
+## Critique
+
+### Henry Mintzberg：战略不是结构，也不是 7 个盒子的游戏
+
+**Henry Mintzberg**（战略管理学者，*The Rise and Fall of Strategic Planning* 作者）从两个方向攻击 7-S：
+
+1. **战略不是被"设计"出来的，而是从实践中涌现的。** 7-S 假设组织可以被拆解成 7 个维度并系统调整，但 Mintzberg 认为有效的战略往往是组织在应对具体情境时"偶然形成"的（emergent strategy），而不是高管在会议室里画出来的。如果创业者用 7-S 强行对齐所有要素，可能把组织锁死在一个过早固化的战略里。
+
+2. **7-S 的"软要素"仍然过于结构化。** Mintzberg 认为真正的组织文化、权力关系和政治动态无法被简化为 Style/Staff/Skills 三个标签。组织生活中的大量行为由非正式网络、隐性权力和未言明的规则驱动，7-S 的七维框架可能给人一种"我已经理解了组织"的错觉。
+
+> **Mintzberg 的警告**："7-S 是一个有用的简化工具，但组织的真相往往在第 8 个 S、第 9 个 S 里——那些没有被框进去的阴影地带。"
+
+### Jeffrey Pfeffer：权力视角缺失
+
+**Jeffrey Pfeffer**（斯坦福商学院教授，*Power: Why Some People Have It and Others Don't* 作者）从组织政治角度攻击 7-S：
+
+7-S 的假设是：如果 7 个要素对齐了，组织就会高效运转。但 Pfeffer 指出，**组织首先是权力和利益的战场**。结构调整之所以经常失败，不是因为 7-S 没对齐，而是因为调整触动了某些人的权力基础，他们有能力暗中抵制。
+
+Pfeffer 的批评对创业者特别 relevant：当你调整一个创业团队的结构或考核时，如果你不问"谁会因此失去影响力""谁在暗中维护旧系统"，7-S 诊断就会漏掉最关键的阻力来源。
+
+> **Pfeffer 的修正**："在诊断组织之前，先画一张权力地图。7-S 告诉你组织'应该'是什么样子，权力分析告诉你组织'实际'是怎么运作的。"
+
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| **组织规模 ≥ 5 人** | 7-S 对极小团队（如 2-3 人）过度复杂，直接沟通比框架诊断更有效 |
+| **问题涉及组织层面** | 适合诊断"团队/公司怎么运转"，不适合解决纯产品或市场问题 |
+| **有意愿直面软要素** | 如果团队只想改结构、不想碰价值观/风格，7-S 只会暴露矛盾而无法解决 |
+
+### 常见失败模式
+
+| 失败模式 | 典型症状 | 修复方法 |
+|:---------|:---------|:---------|
+| **"只调结构不调系统"** | 调整后 3 个月回到原状 | 每次结构调整同步检查 Systems/Staff/Skills 是否需要配套改变 |
+| **"把价值观当标语"** | Shared Values 写的是"创新"，考核奖励的是"不出错" | 用"晋升/奖励标准反推法"验证价值观是否被真实执行 |
+| **"一次性对齐 7 个维度"** | 试图同时改所有维度，导致组织休克 | 先定位 1-2 个最冲突的维度，小步迭代 |
+| **"忽视权力动态"** | 诊断很完整，执行被抵制 | 配合权力地图分析，识别谁会因变革受损 |
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|:-----|:---------|:-----|
+| 同域横向 | [[yt-model-entrepreneur-map]] | 创业修炼地图把组织能力列为核心能力，7-S 提供系统诊断方法 |
+| 同域横向 | [[yt-management-toolkit-overview]] | 管理工具箱中的 OKR、招聘评分卡、会议设计等工具可映射到 7-S 的具体维度 |
+| 同域横向 | [[yt-tool-hiring-scorecard]] | Staff 维度的落地工具，解决"人是否匹配组织需求" |
+| 同域横向 | [[yt-tool-okr-cycle]] | Systems 维度的落地工具，把战略转化为可衡量的执行系统 |
+| 跨域桥接 | [[concept-mckinsey-mece]] | 7-S 是 MECE 原则在组织诊断中的应用——7 个维度相互独立、共同穷尽组织的核心要素 |
+| 跨域桥接 | [[concept-mckinsey-issue-tree]] | 当 7-S 定位到某个薄弱维度后，可用 Issue Tree 进一步拆解该维度的子问题 |
+| 跨域对比 | [[concept-maister-trusted-advisor]] | 诊断组织时，顾问/创始人的信任度决定了 7-S 诊断能否触达真实的软要素 |
+
+## Action Triggers
+
+| 触发场景 | 第一个动作 | 成功指标 |
+|:---------|:----------|:---------|
+| 创业者说"我们团队好像有问题" | 用 7-S 七维清单逐一扫描，标记"正常/黄灯/红灯" | 30 分钟内完成团队体检，定位 1-2 个最短板 |
+| 组织调整后 3 个月内问题复发 | 用 7-S 检查调整是否只动了 Structure，忽略了 Systems/Style/Shared Values | 找出至少 1 个与结构调整相冲突的维度 |
+| 战略很清晰但执行总是变形 | 检查 Systems（考核/流程）、Style（领导行为）、Skills（团队能力）是否与战略一致 | 发现 1 个"奖励相反行为"的具体机制 |
+| 新员工融入困难，老员工抵触 | 用 Staff/Skills/Shared Values 三维度检查：新人需要的能力和文化，组织是否真的有 | 明确是需要调整招聘标准，还是调整文化落地方式 |
+| 准备从 0-1 进入规模化阶段 | 用 7-S 做一次"组织体检"，识别哪些要素还停在创业早期模式 | 形成一份优先改进清单，按影响排序 |
+
+> 核心心法：7-S 不是让你一次性修好 7 个维度，而是帮你避免"头痛医头、脚痛医脚"——在调整任何一个维度之前，先看清它与其他 6 个维度的关系。

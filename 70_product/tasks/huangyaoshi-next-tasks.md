@@ -335,3 +335,27 @@ wiki_subdirs = [
 **优先级**：P2（不阻塞，等老顽童先执行 P0 桥接补 domain 后再上线，否则旧卡会大量报 WARN 制造噪音）
 
 **工作量估计**：约 0.5h
+
+---
+
+## 🔴 例行维护：Hermes / cc-connect 掉线重启
+
+**来源**：P-6 已知问题——飞书 Hermes 和 cc-connect 的 WebSocket keepalive 会不定期超时（已复现多次）。
+
+**症状**：
+- 王语嫣/老顽童/洪七公在飞书发消息后 bot 无响应
+- 日志显示 ping timeout
+
+**操作**：
+```bash
+# 重启 Hermes（王语嫣/老顽童/洪七公/段王爷用）
+systemctl --user restart hermes-gateway-*
+
+# 如果上述无效，重启 cc-connect（背后的 Claude Code 桥接）
+systemctl --user restart cc-connect
+```
+
+**重启后验证**：
+在飞书发一条消息测试响应。
+
+**频率**：收到掉线报告时执行。不需要定期重启。
