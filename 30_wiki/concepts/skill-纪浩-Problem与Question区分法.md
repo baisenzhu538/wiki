@@ -1,35 +1,36 @@
 ---
-id: "skill-纪浩-Problem与Question区分法"
-title: "技能：Problem与Question区分法"
-type: "skill"
-status: "draft"
-domain: ""
-source_person: "纪浩"
-source_context: "AI协作方法论"
+id: skill-纪浩-Problem与Question区分法
+title: 技能：Problem与Question区分法
+type: skill
+status: draft
+domain: ''
+source_person: 纪浩
+source_context: AI协作方法论
 source_refs:
-  - "00_inbox/纪浩-AI协作方法论-口述.md"
-wiki_refs: ""
+- 00_inbox/纪浩-AI协作方法论-口述.md
+wiki_refs: ''
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
-tools_required: ""
-prerequisite_skills: ""
-related: ""
-created_at: "2026-06-07"
-updated_at: "2026-06-07"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
+tools_required: ''
+prerequisite_skills: ''
+related:
+- concept-纪浩-ai-collaboration-methodology
+- skill-纪浩-真需求四要素验证法
+created_at: '2026-06-07'
+updated_at: '2026-06-07'
 tags:
-  - #domain/AI
-  - #domain/collaboration
-  - #scene/ai-collaboration/problem-validation
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
+- null
+- null
+- null
+- null
+- null
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-draft
+- null
+- null
+- confidence-draft
 ---
-
 # 技能：Problem与Question区分法
 
 - **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲

@@ -12,7 +12,7 @@ source_refs:
 bridges_to:
   - target: "yt-entrepreneur-five-step-method"
     relation: "provides_foundation_for"
-    description: "Issue Tree 是五步法"充分做加法"步骤的底层工具"
+    description: "Issue Tree 是五步法'充分做加法'步骤的底层工具"
     context: "一堂有选项池构建的做法，但缺少 Issue Tree 这个系统性工具卡"
 diagnostic_signals:
   - signal: "用户说'我知道问题很大，但不知道从哪里下手'"

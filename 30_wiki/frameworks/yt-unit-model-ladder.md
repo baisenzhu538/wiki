@@ -1,26 +1,20 @@
 ---
-title: "单元模型六段进阶：从拍脑袋到动态预测"
-date: "2026-05-24"
-type: "framework"
-status: "enriched"
-domain: "decision-science"
+title: 单元模型六段进阶：从拍脑袋到动态预测
+date: '2026-05-24'
+type: framework
+status: enriched
+domain: decision-science
 source_refs: []
-author: "一堂科学决策课程"
-component_of: "yt-decision-full-process"
+author: 一堂科学决策课程
+component_of: yt-decision-full-process
 related:
-id: yt-unit-model-ladder
-  - "yt-unit-model-overview"
-  - "yt-unit-model-selection"
-  - "yt-unit-model-construction"
-  - "yt-unit-model-benchmark"
-  - "yt-unit-model-dynamic"
-  - "yt-management-scientific-decision"
-  - "master-cognitive-bias-checklist"
-  - "yt-entrepreneur-five-step-method"
-  - "master-systems-thinking"
-  - "yt-decision-review"
+- yt-unit-model-overview
+- yt-unit-model-construction
+id: yt-unit-model-ladder - "yt-unit-model-overview" - "yt-unit-model-selection" -
+  "yt-unit-model-construction" - "yt-unit-model-benchmark" - "yt-unit-model-dynamic"
+  - "yt-management-scientific-decision" - "master-cognitive-bias-checklist" - "yt-entrepreneur-five-step-method"
+  - "master-systems-thinking" - "yt-decision-review"
 ---
-
 ## Reusable Knowledge
 
 ### 六段进阶路径

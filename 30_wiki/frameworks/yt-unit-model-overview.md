@@ -1,26 +1,20 @@
 ---
-title: "单元模型概览：十大单元模型与三角色分工"
-date: "2026-05-24"
-type: "framework"
-status: "enriched"
-domain: "decision-science"
+title: 单元模型概览：十大单元模型与三角色分工
+date: '2026-05-24'
+type: framework
+status: enriched
+domain: decision-science
 source_refs: []
-author: "一堂科学决策课程"
-component_of: "yt-decision-full-process"
+author: 一堂科学决策课程
+component_of: yt-decision-full-process
 related:
-id: yt-unit-model-overview
-  - "yt-unit-model-ladder"
-  - "yt-unit-model-selection"
-  - "yt-unit-model-construction"
-  - "yt-entrepreneur-five-step-method"
-  - "yt-decision-y-model"
-  - "yt-entrepreneur-key-hypotheses"
-  - "yt-management-scientific-decision"
-  - "master-decision-hygiene"
-  - "master-first-principles"
-  - "master-systems-thinking"
+- yt-entrepreneur-five-step-method
+- yt-decision-y-model
+id: yt-unit-model-overview - "yt-unit-model-ladder" - "yt-unit-model-selection" -
+  "yt-unit-model-construction" - "yt-entrepreneur-five-step-method" - "yt-decision-y-model"
+  - "yt-entrepreneur-key-hypotheses" - "yt-management-scientific-decision" - "master-decision-hygiene"
+  - "master-first-principles" - "master-systems-thinking"
 ---
-
 ## Reusable Knowledge
 
 ### 核心定义
