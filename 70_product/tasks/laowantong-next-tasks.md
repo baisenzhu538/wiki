@@ -80,6 +80,20 @@ diagnostic_signals:
     follow_up_question: "你列的这几个原因之间，有没有哪个其实可以合并？有没有哪个维度被落下了？"
 ```
 
+#### 4. bridges_to frontmatter（每张至少 1 条）
+
+**Bridge 节**是正文给人读的，**`bridges_to`** 是 frontmatter 给 Graph RAG 吃的。两个都写，缺一不可。
+
+```yaml
+bridges_to:
+  - target: "yt-foresight-model-taxonomy"
+    relation: "provides_foundation_for"
+    description: "MECE 是预判维度选择的底层原则"
+    context: "一堂体系未显式命名 MECE，但它隐含在维度设计中"
+```
+
+这直接决定图谱能不能长出跨域边——你不写这个字段，图里就没有"bridges to"边，放射状结构就修不好。
+
 #### 4. 攻击者（每张至少 2 位，不同范式）
 
 从以下池中选择，优先选与桥接场景相关的：
@@ -88,6 +102,15 @@ diagnostic_signals:
 - **Christensen**（颠覆式创新、过度分析陷阱）
 - **Mintzberg**（战略即实践、反对过度结构化）
 - **Eric Ries**（精益创业、快速实验 vs 完美分析）
+
+### 审查标准（欧阳锋审查时强制执行）
+
+每张桥接卡必须满足以下三条才能通过：
+1. **Bridge 节**已写（正文内，阐述与一堂体系的桥接关系）
+2. **`bridges_to`** frontmatter 已填（至少 1 条，给 Graph RAG 吃）
+3. **Synthesis 链接 ≥5 个**，其中至少 2 个是**同域横向链接**（即指向同样属于"一堂"体系的其他卡，而非仅指向目录/入口卡）
+
+以上三条缺一不可。不满足直接退回。
 
 ### 两步走
 
