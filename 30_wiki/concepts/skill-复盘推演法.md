@@ -29,6 +29,10 @@ tags:
 - '#scene/review'
 created_at: '2026-06-09'
 updated_at: '2026-06-09'
+tags:
+  - #scene/skill-engineering
+  - #domain/learning-methodology
+  - #yitang
 ---
 
 # 技能：复盘推演法

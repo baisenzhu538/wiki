@@ -5,6 +5,8 @@ status: "draft"
 source_refs: [src_20260609_e79bff0e]
 created_at: "2026-06-09T14:05:28+00:00"
 updated_at: "2026-06-09T14:05:28+00:00"
+tags:
+  - #domain/general
 ---
 
 # OCR: 一堂-单元模型-找基准值实操难点

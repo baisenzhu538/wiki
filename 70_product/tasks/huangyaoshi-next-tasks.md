@@ -35,20 +35,26 @@
 
 **完成标志**：`kdo init` 后 `60_feedback/diagnosis/` 自动存在。
 
-### E2：概念卡 frontmatter 增加 diagnostic_signals 字段（2h）
+### E2：概念卡 frontmatter 增加 diagnostic_signals + bridges_to 字段（2h）
 
-**背景**：要让 LLM 能做"用框架看你的问题"而非"检索框架描述"，框架/工具/案例类卡片需要预填诊断规则——什么信号触发哪个框架视角、怎么追问。
+**背景**：要让 LLM 能做"用框架看你的问题"而非"检索框架描述"，框架/工具/案例类卡片需要预填诊断规则。同时新增的概念"桥接卡"（bridge cards，连接一堂体系与经典商业框架）需要 bridges_to 字段标记跨域桥接关系。
 
 **操作**：
 
 1. **在 `90_control/schemas/` 下定义概念卡 frontmatter 规范**（如果已有 schema，直接改）：
    - framework / tool / case 类型卡增加可选字段 `diagnostic_signals`
+   - 所有类型卡增加可选字段 `bridges_to`（标注跨体系桥接关系）
    - 格式：
      ```yaml
      diagnostic_signals:
        - signal: "触发场景的描述"          # 用户说什么话/什么情境时触发
          framework_lens: "框架会怎么看"     # 这个信号下框架提供什么视角
          follow_up_question: "追问问题"     # 第一个追问
+     bridges_to:
+       - target: "yt-foresight-model-taxonomy"  # 目标卡ID
+         relation: "provides_foundation_for"    # 关系类型
+         description: "MECE 是预判维度选择的底层原则"
+         context: "一堂体系未显式命名 MECE，但它隐含在维度设计中"
      ```
 
 2. **在 `kdo validate --v15` 中增加校验**（可选验证，非强制）：
@@ -63,15 +69,16 @@
 - `kdo validate --v15 --card some-framework-card` 对缺 diagnostic_signals 的 framework/tool/case 卡报 WARN
 - `kdo enrich` 对新 framework/tool/case 卡在骨架中预填 diagnostic_signals TODO 占位
 
-### E3：Graph RAG 增加 diagnostic_relations 边类型（2h）
+### E3：Graph RAG 增加 diagnostic_relations + bridges_to 边类型（2h）
 
-**背景**：当前 Graph RAG 只支持 wikilink 和 `related/component_of/prerequisites/contradicts` 四种关系。要支持"这个框架在什么场景下被触发"的诊断查询，需要新增边类型。
+**背景**：当前 Graph RAG 只支持 wikilink 和 `related/component_of/prerequisites/contradicts` 四种关系。要支持诊断查询和跨域桥接查询，需要新增两种边类型。
 
 **操作**：
 
 1. **在 `graph.py` 的 `_build_custom_kg` 中**（约 line 179-208 的 fm_relation_fields 字典），增加：
    ```python
    "diagnostic_relations": "diagnostic trigger",
+   "bridges_to": "bridges to",
    ```
    
 2. **frontmatter 格式**（概念卡中可选字段）：
@@ -94,10 +101,32 @@
 
 **⚠️ 这个现在不启动**。等 E1-E3 完成 + 老顽童在 5 张以上的卡中填了 diagnostic_signals 后，再评估是否需要做。
 
+### E5：新增 `10_raw/literature/` 目录 + source_refs 规范（0.5h）
+
+**背景**：王语嫣识别出知识库需要引入经典商业文献（麦肯锡、明托、丰田等）作为概念卡来源。当前 `source_refs` 只支持 inbox 文件和 10_raw/sources 文件路径，没有引用出版物的标准格式。
+
+**操作**：
+
+1. **`templates.py` 的 `REQUIRED_DIRS` 中追加 `10_raw/literature`**
+2. **在 `90_control/schemas/` 下写一个 `source_refs 规范.md`**，定义引用出版物的标准格式：
+   ```yaml
+   # 引用格式
+   - "Author, I. (Year). *Title*. Edition. Publisher."
+   # 示例
+   - "Rasiel, E. (1999). *The McKinsey Way*. McGraw-Hill."
+   - "Minto, B. (2009). *The Pyramid Principle*. 3rd ed. FT Press."
+   ```
+3. **`10_raw/literature/README.md`** 中记录已引用过的著作清单，避免同一本书被不同卡以不同格式引用
+
+**完成标志**：
+- `kdo init` 后 `10_raw/literature/` 自动存在
+- `90_control/schemas/source-refs-standard.md` 已写入引用格式规范
+
 ---
 
 ## 总体原则
 
 - **先单后全**：先在 1 张卡（终局光谱图）上手动填 diagnostic_signals 做验证，再批量铺开
 - **不破坏现有功能**：diagnostic_signals 和 diagnostic_relations 都是可选字段，缺省时所有现有行为不变
+- **bridges_to 只用于跨域桥接**：一堂体系内部的关系用已有的 `related`/`component_of` 字段，bridges_to 专门用于连接不同知识体系（如一堂体系↔经典商业框架）
 - **读纠正记录**：`60_feedback/corrections/corr_20260611_laowantong-机会预判域-OCR遗漏+旧卡未清理.md` 理解 P-7 教训

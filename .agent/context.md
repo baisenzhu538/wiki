@@ -1,9 +1,9 @@
 ---
 updated: 2026-06-11
 active_branch: main
-active_task: "王语嫣上线（飞书）+ CLI老顽童SOUL恢复。Task E/J/K完成。机会预判域补充完成。Skill卡质量审计完成（440张/73%骨架）。老顽童P0:扫描器审核精选。"
-blockers: ["GitHub push 全网不通，待网络恢复"]
-next_session_hint: "用户说'继续'→ 黄药师可继续Infra backlog或等欧阳锋新工单。老顽童P0:扫描器审核精选。王语嫣:积累诊断记录。"
+active_task: "王语嫣首秀完成（A，识别8概念缺口）。欧阳锋已更新全部角色任务文件：老顽童（桥接卡试点MECE+Issue Tree / CLI批量卡审核精修 / 课转技能卡补深）、黄药师（Task E扩展：bridges_to + E5文献目录）、王语嫣（持续诊断+Gap标注）。各角色任务就绪，待用户通知领取。"
+blockers: []
+next_session_hint: "用户说'继续'→ 各角色已领取任务后的下一步。老顽童：MECE+Issue Tree试点。黄药师：启动Task E。王语嫣：持续诊断。"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。

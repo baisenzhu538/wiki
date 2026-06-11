@@ -29,6 +29,10 @@ tags:
 - '#scene/goal-setting'
 created_at: '2026-06-09'
 updated_at: '2026-06-09'
+tags:
+  - #scene/skill-engineering
+  - #domain/learning-methodology
+  - #yitang
 ---
 
 # 技能：三层目标对齐法

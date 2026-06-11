@@ -9,6 +9,8 @@ type: "tool"
 updated_at: 2026-05-31
 tags:
   - "#scene/note-taking"
+tags:
+  - #yitang
 ---
 
 > 本卡已迁移至 [[30_wiki/tools/yt-tool-equity-checklist]]。

@@ -33,6 +33,8 @@ title: "知识复利：IPO+萃取+管理的上位整合"
 type: "concept"
 updated_at: 2026-05-18
 version: 1
+tags:
+  - #domain/general
 ---
 
 # 知识复利：IPO+萃取+管理的上位整合

@@ -14,6 +14,8 @@ related:
   - yt-skill-storyline-contrast-analysis
   - yt-skill-storyline-problem-solving
   - yt-skill-storyline-target-tradeoff
+tags:
+  - #yitang
 ---
 
 # 清单体故事线⑥：关键要素线——用结构拆解‘什么才是真正重要的’

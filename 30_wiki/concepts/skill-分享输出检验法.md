@@ -30,6 +30,10 @@ tags:
 - '#scene/output-feedback'
 created_at: '2026-06-09'
 updated_at: '2026-06-09'
+tags:
+  - #scene/skill-engineering
+  - #domain/learning-methodology
+  - #yitang
 ---
 
 # 技能：分享输出检验法

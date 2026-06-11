@@ -14,6 +14,8 @@ related:
   - yt-skill-storyline-timeline
   - yt-skill-storyline-key-elements
   - dk-note-rookie-disaster-veteran-heaven
+tags:
+  - #yitang
 ---
 
 # 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链

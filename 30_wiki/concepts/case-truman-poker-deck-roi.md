@@ -16,6 +16,8 @@ related:
   - "yt-decision-y-model"
 created_at: "2026-06-09"
 updated_at: "2026-06-09"
+tags:
+  - #yitang
 ---
 
 # 扑克牌案例：同样的任务，两个同学评估结果截然相反

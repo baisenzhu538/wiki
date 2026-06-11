@@ -3,6 +3,8 @@ type: "dark-knowledge"
 tags:
   - "#scene/ai-collaboration"
   - "#scene/learning-methodology"
+tags:
+  - #dk/process-failure
 ---
 
 # P-15：执行者声称"完成"但实际未做——可测量指标必须独立验证

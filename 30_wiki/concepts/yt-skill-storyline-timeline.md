@@ -14,6 +14,8 @@ related:
   - yt-note-checklist-concept
   - yt-note-five-levels-training
   - dk-note-surplus-brainpower
+tags:
+  - #yitang
 ---
 
 # 清单体故事线①：严格时间线——用时间轴重构事件因果链

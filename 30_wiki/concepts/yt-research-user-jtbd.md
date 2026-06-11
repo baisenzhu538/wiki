@@ -2,6 +2,8 @@
 type: "concept"
 tags:
   - "#scene/note-taking/checklist-method"
+tags:
+  - #yitang
 ---
 
 # 用户JTBD访谈工具：区分"说的"和"真正要的"

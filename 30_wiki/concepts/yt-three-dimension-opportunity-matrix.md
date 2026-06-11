@@ -32,6 +32,8 @@ type: "tool"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '机会预判', 'course_id': 'yt-three-dimension-opportunity-matrix', 'course_type': 'tool', 'level': 'core'}
+tags:
+  - #yitang
 ---
 
 # 三维排列组合找机会

@@ -7,6 +7,8 @@ status: redirect
 title: 新人90天融入加速器
 type: tool
 updated_at: 2026-05-31
+tags:
+  - #yitang
 ---
 
 > 本卡已迁移至 [[30_wiki/tools/yt-tool-onboarding-90day]]。

@@ -29,6 +29,9 @@ related:
   - "dk-半肥猫-atomic-no-standard"
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #scene/skill-engineering
+  - #domain/AI
 ---
 
 # 技能：动态读取 + 向量化管理迭代知识

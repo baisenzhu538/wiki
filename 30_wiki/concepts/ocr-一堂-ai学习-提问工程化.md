@@ -5,6 +5,8 @@ status: "enriched"
 source_refs: [src_20260609_62f76551]
 created_at: "2026-06-09T14:03:49+00:00"
 updated_at: "2026-06-09T14:26:18+00:00"
+tags:
+  - #domain/general
 ---
 
 

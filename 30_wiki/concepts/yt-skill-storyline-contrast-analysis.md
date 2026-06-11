@@ -14,6 +14,8 @@ related:
   - yt-skill-storyline-timeline
   - yt-skill-storyline-problem-solving
   - dk-note-human-creativity-ai-data
+tags:
+  - #yitang
 ---
 
 # 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度

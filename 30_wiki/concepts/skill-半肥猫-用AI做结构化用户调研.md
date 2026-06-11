@@ -24,6 +24,9 @@ related:
   - "dk-半肥猫-silky-answer-warning"
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #scene/skill-engineering
+  - #domain/AI
 ---
 
 # 技能：用 AI 做结构化用户调研

@@ -1,14 +1,13 @@
 # Wiki Index
 
 
-last_updated: "2026-06-11T05:30:00+00:00"
+_Last updated: 2026-06-11T10:00:22+00:00_
 
 - [[cases/case-ether-online-acquisition.md|案例：以太利用全网调研能力快速获客]] — source `一堂课程-规模经济章节（Truman口述）`
 - [[cases/case-jh-yitang-vs-sqlhelper.md|一堂数据库vs SQLHelper：同样的需求，两种产品策略——专业与通用的产品分岐]] — source `00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt`
 - [[cases/case-truman-ai-partner.md|案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent]] — source `00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt`
 - [[cases/case-truman-motivation-map-12-versions.md|动机地图12版迭代：先观察再设计——Truman的用户行为驱动迭代法]] — source `00_inbox/ideas/一堂-个人修炼-泛产品设计工具篇口述版.md`
 - [[cases/case-truman-poker-deck-roi.md|扑克牌案例：同样的任务，两个同学评估结果截然相反]] — source `00_inbox/科学决策/一堂-科学决策-ROI决策高度实操课口述04.txt`
-- [[cases/case-unit-model-gashapon.md|案例：扭蛋机单元模型分析——从最小单元到动态预判]] — source `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt`
 - [[cases/case-truman-prd-checklist-evolution.md|Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平]] — source `00_inbox/ideas/一堂-个人修炼-知识萃取探索营口述版.md`
 - [[cases/case-半肥猫-course-to-skill.md|案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具]] — source `00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt`
 - [[cases/case-广冷电子-hx-smj.md|案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线]] — source `90_control/electronics-practice/failure-modes-electronics.md`
@@ -50,11 +49,12 @@ last_updated: "2026-06-11T05:30:00+00:00"
 - [[concepts/case-escort-service-tiered-growth.md|案例：陪诊业务七级演进]] — source `00_inbox/一堂-机会预判-陪诊案例01.png`
 - [[concepts/case-gudong-tea-shop-foresight.md|古董奶茶店：五层筛选的加法减法实战]] — source `00_inbox/一堂-机会预判课-Truman-口述.txt`
 - [[concepts/case-shampoo-product-kernel.md|案例：洗发水产品内核]] — source `00_inbox/一堂五步法/一堂-一堂五步法-产品内核-洗发水案例.png`
-- [[concepts/case-toy-cabinet-business-model.md|案例：线下玩具柜商业模式]] — source `00_inbox/一堂五步法/一堂=一堂五步法-商业模型-线下玩具柜案例.png`
 - [[concepts/case-toy-cabinet-barrier.md|案例：线下玩具柜的壁垒困局与突围路径]] — source `00_inbox/一堂五步法/一堂=一堂五步法-商业模型-线下玩具柜案例.png`
-- [[concepts/case-treadmill-demand-analysis.md|案例：跑步机需求分析]] — source `00_inbox/一堂五步法/一堂-一堂五步法-需求-跑步机案例-需求分析图.png`
+- [[concepts/case-toy-cabinet-business-model.md|案例：线下玩具柜商业模式]] — source `00_inbox/一堂五步法/一堂=一堂五步法-商业模型-线下玩具柜案例.png`
+- [[concepts/case-treadmill-demand-analysis.md|跑步机需求分析：在家健身场景的需求拆解与替代方案博弈]] — source `00_inbox/一堂五步法/一堂-一堂五步法-需求-跑步机案例-需求分析图.png`
 - [[concepts/case-truman-poker-deck-roi.md|case-truman-poker-deck-roi]] — source no source
 - [[concepts/case-truman-yitang-foresight.md|Truman一堂：市场扫描→六方向→Plan ABC试错]] — source `00_inbox/一堂-机会预判课-Truman-口述.txt`
+- [[concepts/case-unit-model-gashapon.md|案例：扭蛋机/抓娃娃机的单元模型段位进阶]] — source `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt`
 - [[concepts/case-xiaolong-ecommerce-foresight.md|小龙电商：四层剥离——从服装到正装裤]] — source `00_inbox/一堂-机会预判课-Truman-口述.txt`
 - [[concepts/case-zhihu-vs-degetao-network-effect.md|案例：知乎vs得到——网络效应壁垒的对比分析]] — source `00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt`
 - [[concepts/case-一堂-AI高考志愿-kernel-mismatch.md|案例：AI高考志愿填报产品因内核错位而失敗]] — source `00_inbox/一堂-产品内核实操课-truman-笔记.txt`
@@ -69,6 +69,7 @@ last_updated: "2026-06-11T05:30:00+00:00"
 - [[concepts/case-纪浩-skill-market-problem-validation.md|案例：一堂Skill市场从伪需求到真实需求的四问验证]] — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - [[concepts/case-纪浩-ui-design-constraint-evolution.md|案例：纪浩从'求你了'到1100行约束文档的UI设计迭代]] — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - [[concepts/concept-ai-native-organization-five-steps.md|concept-ai-native-organization-five-steps]] — source `00_inbox/AI时代自进化组织形式.md`
+- [[concepts/concept-mckinsey-mece.md|MECE 原则：相互独立、完全究尽]] — source `Minto, B. (2009). The Pyramid Principle: Logic in Writing and Thinking. Pearson.`
 - [[concepts/concept-一堂-business-prediction.md|商业预判：15字诀与光谱模型——从拍脑袋到科学决策]] — source `00_inbox/一堂-商业预判课-Truman-口述.txt`
 - [[concepts/concept-一堂-hypothesis-driven-business-methodology.md|一堂假设驱动型创业分析方法论]] — source `00_inbox/一堂-关键假设课-truman-笔记.txt`
 - [[concepts/concept-一堂-kernel-iteration.md|产品内核迭代：从静态到动态的五方向演化]] — source `00_inbox/一堂-产品内核迭代课-Truman-口述.txt`
@@ -897,7 +898,7 @@ last_updated: "2026-06-11T05:30:00+00:00"
 - [[concepts/yt-ai-trend-12-signals.md|AI趋势12大变化模型]] — source `00_inbox/一堂-机会预判-AI趋势12大变化模型.png`
 - [[concepts/yt-barrier-analysis-cheat-sheet.md|壁垒分析完整cheatsheet]] — source `00_inbox/一堂五步法/一堂-一堂五步法-壁垒-一堂壁垒分析结果.png`
 - [[concepts/yt-barrier-identification-skill.md|壁垒识别与构建技能：从真假壁垒到护城河建设]] — source `00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt`
-- [[concepts/yt-business-analysis-cognitive-biases.md|暗知识：五步法中的主要认知偏差]] — source `00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt`
+- [[concepts/yt-business-analysis-cognitive-biases.md|暗知识：五步法中的主要认知偏差]] — source `00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt`
 - [[concepts/yt-case-mandatory-cases.md|一堂案例必修课]] — source no source
 - [[concepts/yt-composite-pan-product-methodology.md|泛产品设计方法论]] — source `10_raw/sources/一堂-个人修炼-泛产品设计探索营口述版.md`
 - [[concepts/yt-concept-ai-guard-brain.md|守脑如玉：AI时代保持大脑锋利]] — source `10_raw/sources/一堂-拆书会-吴恩达提示词课程.md`
@@ -940,10 +941,10 @@ last_updated: "2026-06-11T05:30:00+00:00"
 - [[concepts/yt-entrepreneur-spin-selling.md|SPIN销售法：顾问式销售的奠基之作]] — source `10_raw/sources/一堂-读书会-SPIN销售法口述.md`
 - [[concepts/yt-entrepreneur-truth-seeking.md|实事求是]] — source `10_raw/sources/一堂-课程地图精华串讲.md`
 - [[concepts/yt-entrepreneur-unit-model.md|单元模型]] — source `10_raw/sources/一堂-课程地图精华串讲.md`
-- [[concepts/yt-five-step-method.md|一堂五步法总纲]] — source `00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt`
 - [[concepts/yt-five-step-common-pitfalls.md|暗知识：五步法常见误区与认知陷阱]] — source `00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt`
 - [[concepts/yt-five-step-implementation.md|五步法落地实操：从故事版到分工版]] — source `00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt`
 - [[concepts/yt-five-step-level-blindspots.md|暗知识：五步法的段位盲区与自评陷阱]] — source `00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt`
+- [[concepts/yt-five-step-method.md|一堂五步法总纲]] — source `00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt`
 - [[concepts/yt-foresight-15-char-mantra.md|十五字黄金法诀：机会预判的核心框架]] — source `00_inbox/一堂-商业预判课-Truman-口述.txt`
 - [[concepts/yt-foresight-ab-steady-state.md|AB点稳态模型：行业预判的核心框架]] — source `00_inbox/一堂-机会预判课-Truman-口述.txt`
 - [[concepts/yt-foresight-addition-subtraction.md|加法减法实操：从100个选项到3个高概率方向]] — source `00_inbox/一堂-商业预判课-Truman-口述.txt`
@@ -1122,8 +1123,8 @@ last_updated: "2026-06-11T05:30:00+00:00"
 - [[concepts/yt-tool-y-model-ruler.md|Y模型尺子刻度法：从模糊经验到可复用评估模型]] — source `00_inbox/一堂-个人修炼-Y模型实操口述版.md`
 - [[concepts/yt-unit-model-ai-assisted.md|AI+单元模型：TCP-R双导师与出口式咨询实践]] — source `src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述`
 - [[concepts/yt-unit-model-benchmark.md|单元模型基准值：科学类比、三点预测与基准值共建]] — source `src_20260524_7c8d9e0f-一堂-单元模型03口述`
-- [[concepts/yt-unit-model-build.md|单元模型构建技能：从找单元到定基准值的四步法]] — source `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-笔记.txt`
-- [[concepts/yt-unit-model-concept.md|单元模型概念：从最小经济单元到商业判断框架的六段进阶]] — source `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-笔记.txt`
+- [[concepts/yt-unit-model-build.md|单元模型搭建五步法]] — source `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt`
+- [[concepts/yt-unit-model-concept.md|单元模型：商业模式评估的核心工具]] — source `00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt`
 - [[concepts/yt-unit-model-construction.md|单元模型构建法：拆推评算与ABCD模型分类]] — source `src_20260524_9f4e5d6a-一堂-单元模型02口述`
 - [[concepts/yt-unit-model-dynamic.md|动态单元模型：规模变量、拐点预判与规模经济对抗]] — source `src_20260524_6b5a4c3d-一堂-单元模型04口述`
 - [[concepts/yt-unit-model-ladder.md|单元模型六段进阶：从不会算账到动态预判]] — source `src_20260524_8a3b1c2d-一堂-单元模型01口述`

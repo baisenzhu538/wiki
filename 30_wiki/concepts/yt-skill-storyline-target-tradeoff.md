@@ -14,6 +14,8 @@ related:
   - yt-skill-storyline-key-elements
   - yt-skill-storyline-contrast-analysis
   - dk-note-surplus-brainpower
+tags:
+  - #yitang
 ---
 
 # 清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架

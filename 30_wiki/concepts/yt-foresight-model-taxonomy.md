@@ -32,6 +32,8 @@ type: "tool"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '机会预判', 'course_id': 'yt-foresight-model-taxonomy', 'course_type': 'tool', 'level': 'core'}
+tags:
+  - #yitang
 ---
 
 # 预判模型分类

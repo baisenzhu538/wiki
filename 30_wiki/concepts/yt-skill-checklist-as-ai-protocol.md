@@ -15,6 +15,8 @@ related:
   - yt-note-checklist-concept
   - dk-note-human-creativity-ai-data
   - dk-note-maximum-common-divisor
+tags:
+  - #yitang
 ---
 
 # 清单体作为AI的I/O协议——用笔记替代prompt工程

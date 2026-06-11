@@ -15,6 +15,8 @@ related:
   - yt-skill-checklist-as-ai-protocol
   - yt-skill-storyline-key-elements
   - yt-note-l4-internalization
+tags:
+  - #yitang
 ---
 
 # P 角色 Prompt 设计——执行者型 AI 的交付规范
