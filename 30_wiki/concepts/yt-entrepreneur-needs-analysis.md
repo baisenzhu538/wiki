@@ -20,7 +20,8 @@ query_triggers:
   - "微观体感"
   - "伪需求识别"
   - "需求剥离法"
-related: {'series': False}
+related:
+  - "dk-yb7-design-demand-80-10-10"
 review_date: 2026-05-07
 reviewed_by: "黄药师"
 source_refs:

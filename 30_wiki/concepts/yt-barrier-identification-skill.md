@@ -18,7 +18,9 @@ query_triggers:
   - "如何构建壁垒"
   - "一堂壁垒"
   - "壁垒评估"
-related: {'series': False}
+related:
+  - "dk-yb7-design-demand-80-10-10"
+  - "dk-yb10-theory-moat-designer"
 review_date: 2026-06-11
 reviewed_by: "周伯通"
 source_refs:

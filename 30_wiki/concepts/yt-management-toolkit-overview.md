@@ -42,6 +42,7 @@ related:
   - "yt-tool-equity-checklist"
   - "yt-model-management-map"
   - "yt-model-y-organization"
+  - "dk-yb9-cubox-deployment-failure"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "30_wiki/concepts/yt-model-management-map.md"

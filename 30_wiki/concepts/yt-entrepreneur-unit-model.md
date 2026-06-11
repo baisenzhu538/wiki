@@ -20,7 +20,8 @@ query_triggers:
   - "创业经济可行性"
   - "毛利分析"
   - "单客经济模型"
-related: {'series': True}
+related:
+  - "dk-yb21-ecommerce-pricing-independent-model"
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

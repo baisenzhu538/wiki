@@ -19,7 +19,8 @@ query_triggers:
   - "十大浪费触点清单"
   - "转化率优化"
   - "转化率优化：动力三曲线 × 十大浪费触点"
-related: {'level': 'intermediate'}
+related:
+  - "dk-yb19-visual-strategy-price-match"
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂最佳转化率动力曲线图.png"
