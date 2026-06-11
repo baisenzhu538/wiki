@@ -47,6 +47,7 @@ updated: 2026-06-11
 | Task C | 技能点扫描器 | ✅ | **100 候选技能已输出。马易/半肥猫/水水/Truman 四批 skill 卡已批量产出** |
 | **Task D** | 协助老顽童处理产品内核域素材 | ✅ | 已完成 |
 | **Task E** | **诊断基础设施 v1** | **✅ 已关闭** | **E1-E5全部完成（E4暂缓），commit 72a7d60。526/528 tests pass** |
+| **Task F** | **🆕 生产者体验 + 五步法审计** | **🔜** | **黄药师临时当一次Producer，审计五步法覆盖缺口+动手产1张卡+记录工具链摩擦点。产出→60_feedback/diagnosis/huangyaoshi-producer-experience.md** |
 
 ---
 
