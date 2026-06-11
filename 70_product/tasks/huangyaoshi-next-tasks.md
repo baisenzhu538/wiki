@@ -136,3 +136,24 @@
 - **不破坏现有功能**：diagnostic_signals 和 diagnostic_relations 都是可选字段，缺省时所有现有行为不变
 - **bridges_to 只用于跨域桥接**：一堂体系内部的关系用已有的 `related`/`component_of` 字段，bridges_to 专门用于连接不同知识体系（如一堂体系↔经典商业框架）
 - **读纠正记录**：`60_feedback/corrections/corr_20260611_laowantong-机会预判域-OCR遗漏+旧卡未清理.md` 理解 P-7 教训
+
+---
+
+## ⏸️ 待欧阳锋确认（回复后继续）
+
+以下两项不需要立即做，等欧阳锋确认后再动：
+
+### Pending 1：Task E 整体进度确认
+
+当前已知 E3（graph.py 过滤+边类型）已完成 `commit 72a7d60`。请回复：
+- E2（diagnostic_signals + bridges_to schema + `kdo validate --v15` WARN 校验）是否已完成？
+- E5（`10_raw/literature/` 目录 + source_refs 规范）是否已完成？
+- 如果全部完成 → Task E 关门。如果还有剩余 → 欧阳锋调整优先级。
+
+### Pending 2：将来 `kdo validate` 增加链接密度校验
+
+欧阳锋新增了三条审查标准（Bridge 节 / bridges_to / Synthesis ≥5 链接），目前靠人工审查。长远看如果 `kdo validate` 能对以下情况报 WARN 会更高效：
+1. framework/tool/case 卡缺 `bridges_to` 字段（如果它的 domain 包含跨域标签）
+2. Synthesis 节 wikilink 数量 < 5
+
+这不是当前优先级。等 E2/E3/E5 全部稳定后再评估是否需要做。
