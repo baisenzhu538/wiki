@@ -1,0 +1,179 @@
+---
+id: "concept-maister-trusted-advisor"
+title: "Trusted Advisor：可信顾问信任模型"
+type: "framework"
+status: "draft"
+domain:
+  - "consulting"
+  - "yitang"
+source_refs:
+  - "Maister, D. H., Green, C. H., & Galford, R. M. (2000). *The Trusted Advisor*. Free Press."
+  - "Maister, D. H. (1997). 'True Professionalism'. Free Press."
+bridges_to:
+  - target: "diag_20250611_consulting-skills-research"
+    relation: "provides_foundation_for"
+    description: "Trusted Advisor 是王语嬏'可信顾问'角色定位的理论支撑"
+    context: "王语嬏诊断记录认为 KDO 知识工厂缺少可信顾问理论支撑卡，本卡填补这个缺口"
+  - target: "yt-product-kernel-three-questions"
+    relation: "complements"
+    description: "产品内核三问需要诊断者获得用户信任，Trusted Advisor 提供建立信任的具体路径"
+    context: "产品内核诊断中，用户不愿意说出真实痛点，Trusted Advisor 模型能解释为什么"
+  - target: "yt-entrepreneur-five-step-method"
+    relation: "applies_to"
+    description: "五步法的需求分析环节需要创业者成为自己团队的 Trusted Advisor"
+    context: "创始人在团队内部做需求调研，同样需要信任关系，否则得不到真实反馈"
+diagnostic_signals:
+  - signal: "用户说'我该怎么做？'但其实连自己的真实困境都没说清楚"
+    framework_lens: "Trusted Advisor 检查：信任度还不足以支撑建议输出"
+    follow_up_question: "目前我们还在了解情况的阶段，为什么这个问题对你来说是最紧急的？"
+  - signal: "用户说'你说的我都懂，但我还是想自己做'"
+    framework_lens: "Trusted Advisor 检查：Self-Orientation 可能过高，对方感觉你在推销而非帮忙"
+    follow_up_question: "如果我现在完全站在你的立场，你会怎么做？这和我刚才的建议相比，差在哪里？"
+  - signal: "用户一开始就问'我该买什么服务/课程？'"
+    framework_lens: "Trusted Advisor 检查：关系还在最低层次（Vendor/Seller），需要先抬升到诊断和信任层次"
+    follow_up_question: "在讨论解决方案之前，我们能先花 10 分钟把你的具体情况和目标理清吗？"
+related:
+  - "concept-mckinsey-mece"
+  - "concept-mckinsey-issue-tree"
+  - "concept-mckinsey-hypothesis-driven"
+  - "yt-product-kernel-three-questions"
+  - "yt-entrepreneur-five-step-method"
+  - "yt-entrepreneur-key-hypotheses"
+tags:
+  - "#scene/consulting"
+  - "#scene/diagnosis"
+  - "#scene/relationship-management"
+  - "#consulting"
+  - "#method/checklist"
+created_at: "2026-06-11"
+updated_at: "2026-06-11"
+---
+
+# Trusted Advisor：可信顾问信任模型
+
+> 来源：Maister, Green & Galford (2000). *The Trusted Advisor*
+> 核心：信任 = 可信度（Credibility）+ 可靠度（Reliability）+ 亲近度（Intimacy），除以自我导向（Self-Orientation）。专业服务的终极竞争力不是"更会说服"，而是"更被信任"。
+
+## Summary
+
+Trusted Advisor（可信顾问）是由麦肯锡前合伙人 David Maister 等人提出的专业服务信任模型。它为企业咨询、法律、会计等专业服务领域提供了一套可复制的信任建设框架，同时也是 KDO 知识工厂中王语嬏角色的理论基座。
+
+这个模型的核心论断是：**专业服务者的最高境界不是卖出服务，而是成为客户愿意拖延、愿意接受建议的“可信顾问”**。信任不是一个抽象的“感觉”，而是可以被拆解为四个可操作维度的函数。
+
+一堂体系深度依赖"痛点诊断"和"建议输出"，但业务场景中很多创业者对顾问/教练的信任度远不足以支撑深度诊断。Trusted Advisor 模型填补这个缺口：它让你明白，在提供任何专业建议之前，需要先过信任这一关。
+
+## Claims
+
+### 信任公式
+
+$$
+Trust = \frac{Credibility + Reliability + Intimacy}{Self\text{-}Orientation}
+$$
+
+| 维度 | 含义 | 提升方法 | 典型失误 |
+|:----|:-----|:---------|:---------|
+| **Credibility（可信度）** | 我相信你说的话 | 准备充分、数据支撑、专业主张 | 空谈大道理，没有具体见解 |
+| **Reliability（可靠度）** | 你能稳定交付 | 守时、守约、一言九鼎 | 承诺多、兑现少；说到做不到 |
+| **Intimacy（亲近度）** | 我愿意告诉你真实情况 | 表达同理心、询问敏感信息、创造安全感 | 过早给建议，让对方觉得被判断 |
+| **Self-Orientation（自我导向）** | 你是否只关心自己的利益 | 先问对方的利益，再说自己的方案 | 急于推销产品/服务，让人感觉被销售 |
+
+公式的重要性质：**Self-Orientation 是分母**。即使 Credibility、Reliability、Intimacy 都很高，只要 Self-Orientation 偏高，信任就会被大幅抹杀。这也是专业服务者最容易踩的坑：**越是证明自己厉害，越像在销售，信任度反而越低**。
+
+### 客户关系的五个层次
+
+| 层次 | 名称 | 特征 | 客户对你的期望 |
+|:----|:-----|:---------|:---------|
+| 1 | **Vendor（供应商）** | 交易基于产品/价格 | "你有什么，多少钱？" |
+| 2 | **Seller（销售者）** | 交易基于需求匹配 | "你能不能解决我的问题？" |
+| 3 | **Consultant（顾问）** | 建议基于专业能力 | "你对这个问题有什么看法？" |
+| 4 | **Trusted Advisor（可信顾问）** | 建议基于信任关系 | "如果是你，你会怎么做？" |
+| 5 | **Trusted Partner（可信伙伴）** | 战略性合作伙伴 | "我们一起解决问题" |
+
+**层次递进的关键：**从 Seller 到 Consultant，需要提升 Credibility；从 Consultant 到 Trusted Advisor，需要提升 Intimacy 并降低 Self-Orientation；从 Trusted Advisor 到 Trusted Partner，需要将利益完全绑定在客户成功上。
+
+### 信任建设的三个关键行为
+
+1. **先理解，后建议**：在证明你的方案之前，先让对方感觉你真的理解他的困境。
+2. **守时守约**：小事的可靠度会积累成大信任。一次迟到或食言，可能抹杀多次专业展示带来的信任。
+3. **先利他，后利己**：每次交互都让对方感觉到你关心的是他的利益，而不是你的提成/合同/业绩。
+
+## Bridge to 一堂体系
+
+| 桥接目标 | 桥接关系 | 使用场景 |
+|:---------|:---------|:---------|
+| [[yt-product-kernel-three-questions]] | 产品内核三问需要诊断者获得用户信任，Trusted Advisor 提供建立信任的路径 | 在做产品内核诊断时，用户不愿意说出真实痛点，先用信任公式识别是可信度不足还是亲近度不足 |
+| [[yt-entrepreneur-five-step-method]] | 五步法的需求分析环节需要创业者成为自己团队的 Trusted Advisor | 创始人在团队内部做需求调研，如果团队不信任你的动机，就得不到真实反馈 |
+| [[yt-entrepreneur-key-hypotheses]] | 关键假设验证需要用户/团队披露真实信息，信任是前提 | 在验证会不会死的假设时，如果用户觉得你只想证明自己对，他会保留关键信息 |
+| [[diag_20250611_consulting-skills-research]] | 王语嬏角色的可信顾问定位需要理论支撑 | 王语嬏在做诊断时，用 Trusted Advisor 模型确保自己不潜入 Seller 模式（过早推销解决方案） |
+
+**案例：**
+一堂的"产品内核三问"要求诊断者问出"你的用户是谁、他们的痛点是什么、你的解决方案是什么"。但很多创业者在实际调研时发现，用户不愿意说出真实痛点。这通常不是问题问得不对，而是**信任度还不足以支撑这么敏感的诊断**。Trusted Advisor 模型告诉你：先停止提问，先用 5 分钟建立亲近度（表达同理心、分享类似案例），用户才愿意披露真实痛点。
+
+## Critique
+
+### Daniel Kahneman：信任是系统 1 的产物，而不是公式的产物
+
+**Daniel Kahneman**（*Thinking, Fast and Slow* 作者，诺贝尔经济学奖得主）从认知心理学角度攻击 Trusted Advisor 的理性假设：
+
+1. **信任主要由系统 1 决定，不是系统 2 计算出来的。** Maister 的信任公式看起来很精确，但 Kahneman 的研究表明，人类对专家/顾问的信任判断在很大程度上是在几毫秒内完成的“快思考”，而不是“可信度 + 可靠度 + 亲近度 除以自我导向”的计算。第一印象、语言习惯、身体语言对信任的影响，远超公式中的四个维度。
+
+2. **“自我导向”很难被佣量也很难被隐藏。** 专业服务者可以在意识层面真诚地相信“我是在帮对方”，但潜意识中仍在追求合同、提成或被认可。Kahneman 的警告：人类善于自我欺骗，“我没有自我导向”本身就可能是最大的自我导向。
+
+3. **信任一旦破裂，几乎不可恢复。** 公式暗示信任可以被“管理”，但 Kahneman 的实验表明，负面信息的权重远超正面信息。一次明显的自利行为（即使只是“看起来像”自利）可能摧毁多年积累的信任。
+
+> **Kahneman 的论断**："Trusted Advisor 模型是一个优秀的‘信任残溢’提醒——它提醒你信任有多弱。但它不是信任的‘生成式算法’。信任更多来自于人类的快思考机制，而不是分析。"
+
+### Clayton Christensen：过度依赖信任会导致“关系缺口”
+
+**Clayton Christensen**（*飘渺的创新者*，飘渺理论提出者）从竞争战略和过度适应角度攻击 Trusted Advisor：
+
+1. **信任关系可能成为“能力陷阱”。** 当专业服务者与客户建立了深厚信任后，客户可能会过度依赖你，停止自己思考和学习。Christensen 认为这种依赖会创造“关系缺口”：你解决了客户的问题，但也抹杀了客户建立自己能力的机会。
+
+2. **信任可能延迟必要的“飘渺”。** 企业顾问和传统企业之间的信任关系，会让传统企业对新竞争者的威胁视而不见。Christensen 的论断延伸到专业服务：一位被高度信任的顾问可能因为"太了解客户"而失去客观视角，忽视了市场中正在发生的结构性变化。
+
+3. **“先利他”可能过度理想化。** Christensen 警告，在商业世界中，“先利他”有时候会导致顾问回避必要的冲突和坏消息。比如，当客户的核心假设明显错误时，Trusted Advisor 可能因为太想维护关系而选择“年糟的好”，最终害了客户。
+
+> **Christensen 的修正**："Trusted Advisor 的目标不是让客户喜欢你，而是让客户因为你而更强大。如果信任变成了依赖，你就从顾问变成了安慰剂。"
+
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| **需要长期互动场景** | Trusted Advisor 信任需要时间积累，不适合一次性交易或纯信息检索场景 |
+| **双方利益存在正和** | 如果顾问和客户的利益根本冲突（如推销高佣金产品），信任公式不会生效 |
+| **专业能力是前提** | 信任不能完全补偿能力不足，Credibility 仍然是公式的基础项 |
+
+### 常见失败模式
+
+| 失败模式 | 典型症状 | 修复方法 |
+|:---------|:---------|:---------|
+| **"空有信任，没有专业"** | 客户很喜欢你，但不采纳你的建议 | 先补 Credibility，用实际成果/案例建立专业权威 |
+| **"专业但不可亲"** | 客户认可你的能力，但不愿意告诉你真实情况 | 先停止给建议，花时间建立 Intimacy |
+| **"可靠但自利"** | 每次交付都准时，但客户觉得你只关心自己的 KPI | 降低 Self-Orientation，每次交互先问对方的利益 |
+| **"信任破裂后强行补救"** | 一次失诚后急于“解释”和“补偿” | 先承认并承担责任，用行为不是语言重建信任 |
+
+## Synthesis
+
+| 关系 | 目标节点 | 说明 |
+|:-----|:---------|:-----|
+| 同域横向 | [[yt-product-kernel-three-questions]] | 产品内核诊断的效果取决于用户是否愿意披露真实痛点，Trusted Advisor 提供建立信任的路径 |
+| 同域横向 | [[yt-entrepreneur-five-step-method]] | 五步法中需求分析和团队内部诊断同样需要信任关系，否则获取不到真实信息 |
+| 同域横向 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证需要用户/团队披露真实信息，信任是前提条件 |
+| 跨域桥接 | [[concept-mckinsey-mece]] | 信任诊断可以用 MECE 检查：是可信度不足、可靠度不足、亲近度不足，还是自我导向过高？ |
+| 跨域桥接 | [[concept-mckinsey-hypothesis-driven]] | 假设驱动工作法需要用户接受"先形成假设再验证"的工作方式，信任低时会被视为"拍脑袋" |
+| 跨域桥接 | [[concept-mckinsey-7s]] | 组织诊断往往涉及敏感信息，受诊者是否愿意说出真话取决于你的信任度 |
+| 跨域对比 | [[diag_20250611_consulting-skills-research]] | 王语嬏角色的可信顾问定位需要本卡作为理论支撑，同时本卡也需要实际诊断记录来验证 |
+
+## Action Triggers
+
+| 触发场景 | 第一个动作 | 成功指标 |
+|:---------|:----------|:---------|
+| 用户明显在说膜化话，不愿意说出真实痛点 | 停止提问，先用 3 分钟表达同理心（“我理解这个问题很难搞”） | 用户主动补充一个之前没提到的关键细节 |
+| 用户对你的建议表示"再想想" | 用信任公式自检：是 Self-Orientation 过高（你在推销）还是 Intimacy 不足（他不信你） | 能够分清是"建议本身有问题"还是"关系还不到位" |
+| 你说完建议后，用户反问"你为什么这么帮我？" | 这是信任度上升的信号，回答要显式体现"先利你" | 用户接受你的动机解释，关系从 Consultant 向 Trusted Advisor 迁移 |
+| 用户第一次交流就问"你们能做什么/多少钱" | 关系还在 Vendor/Seller 层，需要先移到 Consultant 层 | 5 分钟内将对话从"产品介绍"转向"情况了解" |
+| 你得到一个非常好的合同机会，但客户的体量或准备并不充分 | 主动告诉对方"这个合同可能不适合你现在的阶段" | 用户感受到你关心的是他的利益，信任度大幅提升 |
+
+> 核心心法：Trusted Advisor 不是要你"更会说”，而是要你"更被信”。信任不是技巧，是一系列小行为的积累——先理解，后建议；先守约，后交付；先利他，后利己。

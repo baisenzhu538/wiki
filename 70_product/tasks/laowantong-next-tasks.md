@@ -13,7 +13,7 @@
 || **2** | **增加卡间互链密度** | **✅ 已完成** | **新卡已达标（Synthesis ≥5），纪浩体系22张卡已补链** |
 || **3** | **纪浩体系完整萃取** | **✅ 已完成** | **37张纪浩卡全部回链methodology总纲** |
 || **4** | **课转技能卡补"判断标准"** | **✅ 已完成** | **MECE框架法+寻找学习教练法已补，清单小抄原已有** |
-|| **5** | **Design域孤岛桥接** | **🟡 已完成，待欧阳锋抽检** | **P0 5对桥接已执行：5张design卡按内容重标domain并补related，5张目标卡反向链接已建立。纠正记录见 60_feedback/corrections/corr_20260611_laowantong-design-domain-island-bridges.md** |
+|| **5** | **Design域孤岛桥接** | **✅ 已完成** | **P0 5对+P1 4对共 9 对桥接已执行。老朿审核通过。纠正记录见 60_feedback/corrections/corr_20260611_laowantong-design-domain-island-bridges.md** |
 
 ---
 

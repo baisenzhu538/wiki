@@ -409,3 +409,63 @@ kdo graph rebuild --full                                #（如果改了图相�
 ### 谁检查
 
 欧阳锋审查时，会看 commit message 里是否标注了 `dogfood-tested`。没有标注的，默认打回重新验证。
+
+---
+
+## Task G（新增）：`kdo scaffold --new` 创建新概念卡骨架
+
+**来源**：你 Task F 亲手踩出来的摩擦点 #1。Producer 写卡全是手写 YAML frontmatter，没有 CLI 支持。
+
+### 背景
+
+当前 `kdo scaffold` 只能补缺失信号（Critique/Synthesis），不能创建新卡。老顽童和洪七公每次产新卡都要手写 30 多行 frontmatter：id、title、type、domain、source_refs、bridges_to、diagnostic_signals、related、tags......一个格式错就 validate 报错。
+
+### 需求
+
+新增 `kdo scaffold --new` 子命令，能交互式或半交互式创建概念卡骨架：
+
+```bash
+# 最小用法：交互式提问
+kdo scaffold --new
+  → 问：卡片类型？（framework / tool / case / concept / dk / skill）
+  → 问：卡片标题？
+  → 问：主要 domain？
+  → 问：关联 domain？（逗号分隔，可选）
+  → 问：源材料来源？
+  → 吐出一个完整的 frontmatter + 章节骨架文件
+
+# 高级用法：命令行参数
+kdo scaffold --new \
+  --card concept-mckinsey-7s \
+  --type framework \
+  --title "7-S Framework" \
+  --domain "consulting, yitang" \
+  --source "Peters & Waterman (1982). In Search of Excellence"
+
+# 输出位置
+→ 自动判断存放目录：framework → 30_wiki/frameworks/
+                              tool → 30_wiki/tools/
+                              case → 30_wiki/cases/
+                              concept/skill/dk → 30_wiki/concepts/
+```
+
+### 骨架模板参考
+
+参考 `30_wiki/frameworks/concept-mckinsey-7s.md` 或 `30_wiki/tools/concept-toyota-5-whys.md` 的 frontmatter 结构。所有字段定义在 `90_control/schemas/concept.yaml` 中。
+
+骨架必须包含的章节（按类型不同）：
+
+| 类型 | 必含章节 |
+|:----|:---------|
+| framework | Summary → Claims → Bridge → Critique → Constraints → Synthesis → Action Triggers |
+| tool | Summary → Claims → Bridge → Critique → Constraints → Synthesis → Action Triggers |
+| case | Summary → Case Details → Lessons → Synthesis → Action Triggers |
+| concept | Summary → Claims → Critique → Synthesis |
+| dk | 核心本质 → 走偏模式 → 纠偏动作 |
+
+### 完成标准
+
+1. `kdo scaffold --new` 能吐出一个语法正确的 `.md` 文件（可用 `yaml.safe_load` 校验 frontmatter）
+2. 吐出的文件可以直接 `kdo validate --v15` 通过（骨架阶段允许有 TODO，但不报格式错误）
+3. commit 标注 `dogfood-tested`——你自己用 scaffold --new 产一张测试卡，走完 validate，确认可用
+4. 更新 `kdo scaffold --help` 帮助信息
