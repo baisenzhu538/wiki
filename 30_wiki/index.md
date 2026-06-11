@@ -49,6 +49,7 @@ _Last updated: 2026-06-11T10:00:22+00:00_
 - [[concepts/case-escort-service-tiered-growth.md|案例：陪诊业务七级演进]] — source `00_inbox/一堂-机会预判-陪诊案例01.png`
 - [[concepts/case-gudong-tea-shop-foresight.md|古董奶茶店：五层筛选的加法减法实战]] — source `00_inbox/一堂-机会预判课-Truman-口述.txt`
 - [[concepts/case-shampoo-product-kernel.md|案例：洗发水产品内核]] — source `00_inbox/一堂五步法/一堂-一堂五步法-产品内核-洗发水案例.png`
+- [[concepts/case-milktea-five-step.md|奶茶店五步法：从九死一生到十年百店的科学创业之路]] — source `00_inbox/ideas/一堂-案例拆解-串讲口述.md`
 - [[concepts/case-toy-cabinet-barrier.md|案例：线下玩具柜的壁垒困局与突围路径]] — source `00_inbox/一堂五步法/一堂=一堂五步法-商业模型-线下玩具柜案例.png`
 - [[concepts/case-toy-cabinet-business-model.md|案例：线下玩具柜商业模式]] — source `00_inbox/一堂五步法/一堂=一堂五步法-商业模型-线下玩具柜案例.png`
 - [[concepts/case-treadmill-demand-analysis.md|跑步机需求分析：在家健身场景的需求拆解与替代方案博弈]] — source `00_inbox/一堂五步法/一堂-一堂五步法-需求-跑步机案例-需求分析图.png`
