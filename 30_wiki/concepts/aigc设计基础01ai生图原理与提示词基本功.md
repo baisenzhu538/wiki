@@ -3,12 +3,13 @@ id: "aigc设计基础01ai生图原理与提示词基本功"
 created_at: 2026-05-28
 domain:
   - "ai-saas"
+  - "design"
 source_refs:
   - "src_20260528_2ba8539f"
 status: "draft"
 title: "AIGC设计基础01：AI生图原理与提示词基本功"
 type: "concept"
-updated_at: 2026-05-28
+updated_at: 2026-06-12
 tags:
   - #scene/ai-collaboration/prompt-engineering
   - #scene/business-analysis

@@ -1,7 +1,9 @@
 ---
 id: yt-tool-ai-ppt-maker
 title: AI对话式PPT生成器：把排版变成说话
-domain: personal
+domain:
+- design
+- personal-growth
 author: 老顽童
 created_at: '2026-05-29'
 version: 1

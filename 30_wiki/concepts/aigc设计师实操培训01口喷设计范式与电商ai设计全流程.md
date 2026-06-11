@@ -3,12 +3,14 @@ id: "aigc设计师实操培训01口喷设计范式与电商ai设计全流程"
 created_at: 2026-05-28
 domain:
   - "ai-saas"
+  - "design"
+  - "business-strategy"
 source_refs:
   - "src_20260528_04be660c"
 status: "draft"
 title: "AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程"
 type: "concept"
-updated_at: 2026-05-28
+updated_at: 2026-06-12
 tags:
   - #scene/ai-collaboration/prompt-engineering
   - #scene/hardware-debugging/prototyping

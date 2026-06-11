@@ -3,7 +3,9 @@ id: "skill-马易-工作流优先于AIGC的决策方法"
 title: "技能：工作流优先于AIGC的决策方法"
 type: "skill"
 status: "draft"
-domain: ""
+domain:
+- ai-collaboration
+- business-strategy
 source_person: "马易"
 source_context: "AI落地场景识别"
 source_refs: ""
@@ -16,7 +18,7 @@ tools_required: ""
 prerequisite_skills: ""
 related: ""
 created_at: "2026-06-07"
-updated_at: "2026-06-07"
+updated_at: 2026-06-12
 tags:
   - #domain/AI
   - #domain/scene-analysis

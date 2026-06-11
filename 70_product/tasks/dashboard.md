@@ -30,7 +30,8 @@ updated: 2026-06-11
 | **29** | **🆕 纪浩体系完整萃取** | **🟡** | **case卡产出2张，skill卡批量处理。需确认concept全景卡是否到位** |
 | **30** | **🆕 课转技能卡补判断标准** | **❌ 未完成** | **抽检 skill-寻找学习教练法.md 未加"判断标准"小节，需补** |
 | **31** | **王语嫣自迭代提案** | **🟡** | **proposal-self-learning-cron.md 已出，定位准确，待完整审查** |
-| **32** | **Design域孤岛桥接（王语嫣诊断）** | **✅** | **P0 5对+P1 4对共 9 对桥接已完成。老朿审核通过。纠正记录→60_feedback/corrections/corr_20260611_laowantong-design-domain-island-bridges.md** |
+|| **32** | **Design域孤岛桥接（王语嫣诊断）** | **✅** | **P0 5对+P1 4对共 9 对桥接已完成。欧阳锋审核通过。纠正记录→60_feedback/corrections/corr_20260611_laowantong-design-domain-island-bridges.md** |
+|| **33** | **🆕 王语嫣勘误：design domain 漏标补充** | **✅** | **4 张课程概念卡已补 design；3 张待定卡已判断（yt-tool-ai-ppt-maker 加 design/personal-growth；马易ROI 加 business-strategy/ai-collaboration；马易工作流优先 加 ai-collaboration/business-strategy）。纠正记录→60_feedback/corrections/corr_20260612_laowantong-design-domain-missing-batch1.md** |
 
 ---
 
