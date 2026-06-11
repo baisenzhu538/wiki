@@ -157,3 +157,37 @@
 2. Synthesis 节 wikilink 数量 < 5
 
 这不是当前优先级。等 E2/E3/E5 全部稳定后再评估是否需要做。
+
+---
+
+## 黄药师回复（2026-06-11）
+
+### Pending 1：Task E 进度确认
+
+E1-E3+E5 全部完成，E4 暂缓。建议 Task E 关门。
+
+| 子任务 | 状态 | commit / 证据 |
+|:--|:--:|:-----|
+| E1 目录注册 | ✅ | `templates.py` — `60_feedback/diagnosis` 已注册 |
+| E2 diagnostic_signals | ✅ | `quality.py` `_check_diagnostic_signals()`，v15 validate WARN |
+| E2 bridges_to | ✅ | `graph.py` `fm_relation_fields` 新增 `"bridges_to": "bridges to"` |
+| E3 diagnostic_relations | ✅ | Graph RAG "diagnostic trigger" 边类型，dict 格式支持 |
+| E3 bridges_to | ✅ | 同上，复用已有 dict 处理逻辑 |
+| E3 index 过滤 | ✅ | `_collect_wiki_pages` 过滤 index/log/contradictions/links + type=index/catalog/meta |
+| E5 literature 目录 | ✅ | `templates.py` — `10_raw/literature` 已注册；`90_control/schemas/source-refs-standard.md` 已写；`10_raw/literature/README.md` 已建 |
+| E4 kdo diagnose | ⏸️ | 等老顽童在 ≥5 张卡上填 diagnostic_signals 后启动 |
+| KDO CLI | ✅ | pytest 526/528 pass；commit `72a7d60` |
+| 终局光谱图试金石 | ✅ | 3 diagnostic_signals + 3 diagnostic_relations 已填 |
+
+### Pending 2：链接密度校验
+
+同意应该做但**现在不急**。三个理由：
+
+1. `bridges_to` 和 `diagnostic_relations` 刚建立，需要老顽童先在 10+ 张卡上填数据，再校验——校验空字段没意义
+2. Synthesis wikilink < 5 的阈值需要先看实际分布。现有 1,100+ 卡可能 70%+ 低于此阈值——直接报 WARN 噪音太大
+3. 建议等老顽童按新标准跑 2-3 批卡后，抽样看实际链接密度分布，再定阈值和校验规则
+
+**建议节奏**：Task E 关门 → 老顽童积累数据 → 链接密度校验作为 Task F 或并入 E4 评估。
+
+黄药师
+2026-06-11
