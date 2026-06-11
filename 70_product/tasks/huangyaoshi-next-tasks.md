@@ -69,9 +69,9 @@
 - `kdo validate --v15 --card some-framework-card` 对缺 diagnostic_signals 的 framework/tool/case 卡报 WARN
 - `kdo enrich` 对新 framework/tool/case 卡在骨架中预填 diagnostic_signals TODO 占位
 
-### E3：Graph RAG 增加 diagnostic_relations + bridges_to 边类型（2h）
+### E3：Graph RAG 增加 diagnostic_relations + bridges_to 边类型 + 过滤元页面（2.5h）
 
-**背景**：当前 Graph RAG 只支持 wikilink 和 `related/component_of/prerequisites/contradicts` 四种关系。要支持诊断查询和跨域桥接查询，需要新增两种边类型。
+**背景**：当前 Graph RAG 只支持 wikilink 和 `related/component_of/prerequisites/contradicts` 四种关系。要支持诊断查询和跨域桥接查询，需要新增两种边类型。另外，用户发现知识图谱呈现放射状星形——根因是 `yt-system-course-catalog` 等目录类卡片被当成普通实体摄入，成为引力中心。
 
 **操作**：
 
@@ -80,6 +80,12 @@
    "diagnostic_relations": "diagnostic trigger",
    "bridges_to": "bridges to",
    ```
+
+2. **过滤元页面**（`_collect_wiki_pages`，line 78-99）：
+   - 增加过滤逻辑，跳过 index.md、log.md、contradictions.md
+   - 跳过以 `yt-system-` 开头的文件（系统级索引卡）
+   - 参考 `search_index.py` line 88-90 的现有过滤逻辑
+   - 详细方案见 `30_wiki/decisions/proposal-graph-rag-star-fix.md`
    
 2. **frontmatter 格式**（概念卡中可选字段）：
    ```yaml
