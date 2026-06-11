@@ -9,7 +9,7 @@
 | 顺序 | 任务 | 状态 | 参考 |
 |:----:|------|:----:|:----:|
 || **0** | **CLI 批量卡审核精选** | **✅ 已完成** | **见下方汇总** |
-| **1** | **🔴 桥接卡试点：MECE + Issue Tree** | **🔜** | **王语嫣识别缺口的首批试点。见下方详细要求** |
+|| **1** | **桥接卡试点：MECE + Issue Tree** | **✅ 已完成，待欧阳锋审查** | **见下方汇总** |
 | **2** | **🔴 增加卡间互链密度** | **🔜** | **修复图谱放射状。新卡 Synthesis ≥5-10 链接，避免只连目录卡。提案见 decisions/proposal-graph-rag-star-fix.md** |
 | **3** | 纪浩体系完整萃取 | ⏳ | 旧任务，桥接卡试点通过后再做 |
 | **4** | 课转技能卡补"判断标准" | ⏳ | 清单小抄/MECE法等，内容偏薄需补深 |
@@ -121,6 +121,32 @@ bridges_to:
    - P1: Pyramid Principle → 7-S → Trusted Advisor
 
 **80/20 法则不做卡**——各已有卡中已隐性使用，溯源链断不需要补卡解决。
+
+---
+
+## 任务 0 审核汇总
+
+共审核 22 张批量卡（skill-ai-* ×18 + skill-decision-* ×2 + skill-cognitive-bias-* ×1 + skill-first-principles-* ×1）：
+
+| 等级 | 数量 | 操作 | 代表卡片 |
+|:-----|:----:|:-----|:---------|
+| **A级**（达标） | 10 | 直接加 `reviewed_by: "laowantong"` | skill-decision-delay-intuition, cognitive-bias-12-check, first-principles-assumption-classify, ai-landing-five-steps, ai-four-elements-validation, ai-info-literacy-three-layer, ai-research-five-steps, ai-scene-four-elements, ai-problem-question-check, decision-outside-view |
+| **B级**（格式精修后达标） | 7 | 修复表格/编号格式后加 reviewed_by | ai-old-small-checklist, ai-evidence-check, ai-system-redundancy, ai-purpose-bias-check, ai-parallel-validation, ai-narrative-test, ai-oral-spray-input |
+| **C级**（不达标） | 2 | 改 `status: needs-review` | ai-ai-workspace-setup（编号混乱）, ai-prd-for-ai（内容缺失） |
+| **重复卡** | 3 | 加 `superseded_by` + 改 needs-review | ai-voice-input-doubao→oral-spray-input, ai-problem-validation→four-elements-validation, ai-question-problem-checklist→problem-question-check |
+
+---
+
+## 任务 1 桥接卡试点汇总
+
+产出 2 张桥接卡，均满足审查标准：
+
+| 卡片 | 类型 | 桥接目标 | 攻击者 | 状态 |
+|:-----|:-----|:---------|:---------|:-----|
+| `concept-mckinsey-mece` | framework | yt-foresight-model-taxonomy, yt-entrepreneur-five-step-method, skill-mece体系框架法 | Kahneman（认知偏差）, Taleb（过度结构化） | 待欧阳锋审查 |
+| `concept-mckinsey-issue-tree` | tool | yt-entrepreneur-five-step-method, yt-entrepreneur-key-hypotheses, skill-mece体系框架法 | Christensen（过度分析陷阱）, Mintzberg（战略即实践） | 待欧阳锋审查 |
+
+**两张卡均满足三条审查标准：Bridge 节已写、bridges_to 已填、Synthesis 链接 ≥5 个（含 2+ 同域横向链接）。**
 
 ---
 

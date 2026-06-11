@@ -41,7 +41,7 @@ updated: 2026-06-11
 | Task B | 增量传播机制（`kdo stale --propagate`） | ⏳ | Task A 完成后启动 |
 | Task C | 技能点扫描器 | ✅ | **100 候选技能已输出。马易/半肥猫/水水/Truman 四批 skill 卡已批量产出** |
 | **Task D** | 协助老顽童处理产品内核域素材 | ✅ | 已完成 |
-| **Task E** | **🆕 诊断基础设施 v1** | **🔜** | **E1 目录注册→E2 diagnostic_signals+bridges_to schema+校验→E3 Graph RAG 新增边类型+过滤元页面（修复图谱放射状）→E5 文献目录。提案见 decisions/proposal-graph-rag-star-fix.md** |
+| **Task E** | **诊断基础设施 v1** | **✅ 已关闭** | **E1-E5全部完成（E4暂缓），commit 72a7d60。526/528 tests pass** |
 
 ---
 
