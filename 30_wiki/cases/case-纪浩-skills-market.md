@@ -106,3 +106,7 @@ KDO 已经有了 `kdo encapsulate`（编译）和 `40_outputs/capabilities/skill
 ```
 
 中间缺的那一层就是一个 **task→skill 路由表**——不是给人看的，是给 Agent 的 function call 用的。
+
+## Synthesis
+
+- **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲

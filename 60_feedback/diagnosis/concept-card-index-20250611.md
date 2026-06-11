@@ -390,3 +390,78 @@ status: "completed"
 | 377 | case-unit-model-gashapon.md | case-unit-model-gashapon | 案例：扭蛋机/抓娃娃机的单元模型段位进阶 | case | yitang |  | 11 | 本案例以**扭蛋机/抓娃娃机**业务为例，展示了从 **L1（不算账）到 L5（动态预判）**的单元模型段位进阶过程。通过这个案例可以看到：同样的业务，不同段位的分析者会得出截然不同的结论。 |
 | 378 | case-xiaolong-ecommerce-foresight.md | case-xiaolong-ecommerce-foresight | 小龙电商：四层剥离——从服装到正装裤 | case | yitang |  | 4 | 小龙，互联网运营和技术背景，十几年前组了一个几个人的小团队创业。团队配置：他自己技术和数据分析熟、一个合伙人对阿里巴巴平台熟、另一人在淘宝卖过衣服有点经验。**线下业务完全不懂。** |
 | 379 | case-zhihu-vs-degetao-network-effect.md | case-zhihu-vs-degetao-network-effect | 案例：知乎vs得到——网络效应壁垒的对比分析 | case | yitang |  | 11 | 知乎和得到都是知识内容平台，但两者的壁垒类型截然不同。Truman在课堂上用这个案例说明：**同为"双边平台"，网络效应的强度可以天差地别**。知乎被巨头砸重金抄袭却守住了阵地，得到的核心壁垒其实是品 |
+
+
+---
+
+## 分析层：从“电话号码本”到“城市交通图”
+
+> 本节由王语嬳基于概念卡索引的原始数据进行聚合分析产出，回答欧阳锋审查中提出的四个问题。
+
+### 1. 按 Domain 聚合
+
+| Domain | 卡片数 | 占比 | 性质 |
+|:---|---:|---:|:---|
+| yitang | 255 | 67.3% | 一堂专有方法论，绝对主体 |
+| master | 61 | 16.1% | 跨域通用概念/框架 |
+| design | 32 | 8.4% | 设计方法论 |
+| ai-collaboration | 25 | 6.6% | AI 协作方法论 |
+| ai | 13 | 3.4% | AI 技术/趋势 |
+| personal | 11 | 2.9% | 个人效率/成长 |
+| entrepreneur | 7 | 1.8% | 创业方法论 |
+| product | 6 | 1.6% | 产品管理 |
+| personal-growth | 5 | 1.3% | 个人成长 |
+| business-strategy | 5 | 1.3% | 商业战略 |
+| consulting | 2 | 0.5% | 咨询方法论（新导入） |
+| structured-thinking | 2 | 0.5% | 结构化思维（新导入） |
+| 其他零星 | 7 | 1.8% | 单张或跨域附属 |
+
+**判断：** yitang 一家独大（255张，占三分之二），master 次之（通用框架层）。咨询域（consulting）和结构化思维域（structured-thinking）刚被老顶童/王语嬳导入，仅各 2 张，处于起步期。
+
+### 2. 跨域卡分析
+
+- **跨域卡总数：** 75 张（19.8%）
+- **单域卡总数：** 282 张（有 domain标注）+ 22 张（domain 为空）
+- **最频繁的跨域组合：**
+  1. ai-collaboration + yitang：23 张（一堂的 AI 协作实践录，如纪浩、半肥猫案例）
+  2. ai + yitang：12 张
+  3. personal + yitang：10 张
+  4. entrepreneur + master：6 张（创业通用概念，如 PEAS、十年成长指数）
+  5. product + yitang：6 张
+
+**判断：** 一堂是最大的跨域节点——几乎所有跨域组合都包含 yitang。master 作为第二大节点，主要与 entrepreneur、ai 交叉。但 master 与 yitang 之间的直接连接较少（仅通过少量的 ai + entrepreneur + master 三域卡）。
+
+### 3. 孤岛判断
+
+**明确孤岛：**
+- **design 域：32 张卡片全部为单域，从未与任何其他 domain 交叉。** 这是维度最高、最明显的知识孤岛。设计方法论与一堂商业分析、master 决策框架、ai 协作体系之间没有任何桥接。
+
+**潜在孤岛：**
+- **personal-growth 域：** 5 张全部为单域。但数量较少，尚不构成结构性影响。
+- **note-taking 域：** 3 张全部为单域，且仅与 yitang 有少量交叉。
+
+**结论：** 如果要优先打通一条桥接，design → yitang/master 是回报最高的选择——32 张卡片的知识孤岛，一旦桥接可以提升 8.4% 卡片的可用性。
+
+### 4. 咨询概念缺口追踪
+
+**原识别的 8 个概念缺口：**
+1. MECE 原则 → ✅ 已入库（`concept-mckinsey-mece`）
+2. Issue Tree → ✅ 已入库（`concept-mckinsey-issue-tree`）
+3. Hypothesis-Driven Approach → ⏳ 待编译（P0 批量生产）
+4. 5 Whys → ⏳ 待编译（P0 批量生产）
+5. 80/20 法则 → ❌ 欧阳锋明确放弃，不单独建卡
+6. Pyramid Principle → ⏳ 待编译（P1 批次）
+7. 7-S Framework → ⏳ 待编译（P1 批次）
+8. Trusted Advisor → ⏳ 待编译（P1 批次）
+
+**当前进度：** 2/7 完成（28.6%），剩余 5 张卡片按 P0/P1 批次排队。
+
+### 5. diagnostic_signals 覆盖率
+
+- **当前带 DS 字段的卡片：** 3 张 / 379 张 = **0.8%**
+- **已有 DS 的卡片：**
+  1. `yt-foresight-business-spectrum`（终局光谱图，一堂内部）
+  2. `concept-mckinsey-issue-tree`（新导入的咨询框架）
+  3. `concept-mckinsey-mece`（新导入的咨询框架）
+
+**判断：** 0.8% 的覆盖率意味着 KDO 知识库目前几乎不具备“自动诊断能力”——当用户面对某类问题时，系统无法通过 DS 字段快速匹配到该调用哪些卡片。这是一个结构性漏洞，不是单纯的数据填充问题。

@@ -32,6 +32,8 @@ pipeline:
 
 # 技能：Problem与Question区分法
 
+- **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+
 ## 原始表述
 
 Problem与Question区分法是纪浩在AI协作方法论分享中提出的具体方法，用于Problem与Question区分法。

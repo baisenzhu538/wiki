@@ -120,6 +120,8 @@ pipeline:
 - **关于 [[dk-纪浩-problem-vs-question]]：** 四问验证法是将Question转化为Problem的具体工具。它解决了"我知道要验证，但不知道怎么验证"的问题。
 - **关于 [[case-纪浩-skill-market-problem-validation]]：** 这个案例展示了四问在实际中的应用过程。特别是"真实锚点"这一问，帮助团队避免了从"做一个Skill市场"放大到"做一个生态系统"的陷阱。
 
+- **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+
 ## Constraints / 局限性
 
 1. **需要一定的信息收集时间：** 如果对业务不够了解，四问可能回答不出来。需要先做调研。

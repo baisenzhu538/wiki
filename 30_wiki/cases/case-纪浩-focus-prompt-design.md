@@ -126,3 +126,7 @@ related:
 纪浩的 S1-S5 冻结稿本质上就是一个"产品设计的 manifest"——定义了边界（不是什么）、组件（Capture Mode×10）、交互（Flow Board + Material Accordion）、质量门（Migration Stop Point）。KDO 的 manifest.yaml 完全可以对接到这种级别的产品设计 prompt 编译。
 
 > ⚠️ 洪七公 OCR 的两张图（五层结构图 + 参考案例图）待补充后更新本卡。
+
+## Synthesis
+
+- **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲

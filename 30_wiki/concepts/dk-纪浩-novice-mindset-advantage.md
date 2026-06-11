@@ -81,3 +81,7 @@ pipeline:
 - [[case-纪浩-ui-design-constraint-evolution]] — 纪浩作为后端工程师（新手领域），用新手心态接受多轮迭代，最终产出了超出预期的UI设计。如果他以"高手"自居，就会陷入"一次性完美"的陷阱
 - [[case-纪浩-ai-workspace-chaos]] — 当任务变复杂后，保护期消失——纪浩开始在乎效率、害怕失败、容易放弃。证明新手心态需要主动维护
 - [[dk-纪浩-constraint-beats-talent]] — 约束文档+新手心态是一个组合：约束提供结构，新手心态提供迭代意愿。两者缺一不可
+
+## Synthesis
+
+- **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
