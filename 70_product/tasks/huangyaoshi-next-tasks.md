@@ -469,3 +469,22 @@ kdo scaffold --new \
 2. 吐出的文件可以直接 `kdo validate --v15` 通过（骨架阶段允许有 TODO，但不报格式错误）
 3. commit 标注 `dogfood-tested`——你自己用 scaffold --new 产一张测试卡，走完 validate，确认可用
 4. 更新 `kdo scaffold --help` 帮助信息
+
+---
+
+## 紧急小任务：批量补 127 张月白技能卡的 domain（脚本 5 分钟）
+
+**来源**：王语嫣勘误发现 127 张 `skill-月白-*` 卡的 `domain` 为空数组，Graph RAG 查不到。
+
+**操作**：写一个一次性 Python 脚本，遍历 `30_wiki/concepts/skill-月白-*.md`：
+1. 读取 frontmatter
+2. 如果 `domain` 为空或 `[""]`，改为 `["design"]`
+3. 写入回文件
+
+**注意**：
+- 只改 `domain` 字段，不动其他内容
+- 改之前全量备份（`git stash` 或复制目录）
+- 改完跑 `kdo lint` 确认没有 YAML 损坏
+- 不要碰 `skill-月白-` 以外的卡
+
+**完成后通知欧阳锋**。不需要审查，批量操作确认 YAML 无损即可。
