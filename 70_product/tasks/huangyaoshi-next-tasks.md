@@ -191,3 +191,23 @@ E1-E3+E5 全部完成，E4 暂缓。建议 Task E 关门。
 
 黄药师
 2026-06-11
+
+---
+
+## 欧阳锋追加（2026-06-11）— 桥接卡试点通过后的跟进
+
+老顽童的桥接卡试点（MECE + Issue Tree）已通过审查。但卡分别放在了 `30_wiki/frameworks/` 和 `30_wiki/tools/` 目录——这两个不在 `_collect_all_wiki_pages` 的扫描列表中。需要你在 `graph.py` 的 `_collect_all_wiki_pages` 中追加这两个目录：
+
+```python
+wiki_subdirs = [
+    root / "30_wiki" / "concepts",
+    root / "30_wiki" / "frameworks",   # 新增
+    root / "30_wiki" / "tools",         # 新增
+    root / "30_wiki" / "systems",
+    root / "30_wiki" / "entities",
+    root / "30_wiki" / "decisions",
+    root / "30_wiki" / "projects",
+]
+```
+
+做完重建索引：`kdo graph rebuild --full`。5 分钟的事。
