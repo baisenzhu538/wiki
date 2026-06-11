@@ -10,16 +10,6 @@ source_person: "system"
 source_context: "pitfalls.md P-20"
 source_refs:
   - ".agent/pitfalls.md#P-20"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/agent-infrastructure/skill-registry"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
@@ -27,6 +17,17 @@ related:
 contradicts:
   - "master-ai-info-literacy"
   - "master-first-principles"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/agent-infrastructure/skill-registry
+  - #scene/ai-collaboration
+  - #scene/learning-methodology
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # P-20：pre-screen bigram 匹配对中文文本完全失效

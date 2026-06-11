@@ -24,18 +24,19 @@ query_triggers:
   - "问题当入口源"
   - "怎么在听课时记笔记"
   - "剩余脑力"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#note-taking"
-  - "#learning-methodology"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/research/cross-validation"
-  - "#yitang"
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
 estimated_tokens: 4200
+tags:
+  - #note-taking
+  - #learning-methodology
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/research/cross-validation
+  - #yitang
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 广泛涉猎式笔记：以问题为入口的多源交叉认知法

@@ -12,18 +12,19 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "工具要求明确"
-tags:
-  - "confidence-draft"
-  - "confidence-verified-by-case"
-  - "#domain/AI"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#skill-type/validation"
 tools_required: ""
 prerequisite_skills: ""
 related: ""
 created_at: 2026-06-06
 updated_at: 2026-06-06
+tags:
+  - #domain/AI
+  - #scene/learning-methodology/feedback-loop
+  - #scene/skill-engineering/course-to-skill
+pipeline:
+  - #skill-type/validation
+  - confidence-draft
+  - confidence-verified-by-case
 ---
 
 # 技能：AI输出证据核查三问法

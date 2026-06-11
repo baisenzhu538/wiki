@@ -31,23 +31,24 @@ source_refs:
   - "10_raw/sources/aima-ai-thinking-card-20260515.html"
   - "10_raw/sources/aima-ai-thinking-card-20260515.md"
 status: "enriched"
-tags:
-  - "#ai"
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "#decision-making"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering"
-  - "#self-diagnosis"
-  - "#systems-thinking"
-  - "#tools"
 title: "PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-15
 version: 1
+tags:
+  - #ai
+  - #decision-making
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering
+  - #self-diagnosis
+  - #systems-thinking
+  - #tools
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 # PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统

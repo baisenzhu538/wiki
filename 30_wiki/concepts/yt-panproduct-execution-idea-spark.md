@@ -30,23 +30,24 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-灵感闪现.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#creativity"
-  - "#execution"
-  - "#pan-product-design"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/product-design"
-  - "#yitang"
 title: "泛产品设计·落地卡片：灵感闪现"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
+tags:
+  - #creativity
+  - #execution
+  - #pan-product-design
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/mental-models
+  - #scene/product-design
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
 ---
 
 # 灵感闪现：如何激发大量idea

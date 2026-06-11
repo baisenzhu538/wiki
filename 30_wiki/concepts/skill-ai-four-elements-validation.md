@@ -18,11 +18,6 @@ definition_of_done:
   - 每次验证4个要素全部回答
   - 至少1个要素触发"需要补充信息"的警觉
   - 能判断"这个需求是否值得投入资源"
-tags:
-  - "#domain/AI"
-  - "#skill-type/validation"
-  - "#method/checklist"
-  - "#tool/brain"
 tools_required:
   - 无（纯思维工具）
 prerequisite_skills:
@@ -30,6 +25,12 @@ prerequisite_skills:
 related: []
 created_at: 2026-06-11
 updated_at: 2026-06-11
+tags:
+  - #domain/AI
+  - #method/checklist
+  - #tool/brain
+pipeline:
+  - #skill-type/validation
 ---
 
 # 技能：真需求四要素验证法

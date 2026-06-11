@@ -10,16 +10,17 @@ source_person: "纪浩"
 source_context: "AI俱乐部·人和AI协作（第三次分享，2026-06）"
 source_refs:
   - "00_inbox/纪浩-AI协作方法论-口述.md"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/ai-collaboration"
-  - "#domain/yitang"
 related:
   - "concept-纪浩-ai-collaboration-methodology"
   - "skill-纪浩-Do-first-PDCA渐进迭代法"
 created_at: "2026-06-08"
 updated_at: "2026-06-08"
+tags:
+  - #domain/ai-collaboration
+  - #domain/yitang
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 暗知识：PDCA从Do开始不是从Plan开始

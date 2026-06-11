@@ -27,25 +27,26 @@ source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-科学学习IPO模型.jpg"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#learning-model"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "IPO 科学学习全景策略"
 type: "framework"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '科学学习', 'course_type': 'model', 'level': 'foundational'}
+tags:
+  - #learning-model
+  - #scene/ai-collaboration
+  - #scene/knowledge-management
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # IPO 科学学习全景策略 (Yitang Scientific Learning IPO V2.0)

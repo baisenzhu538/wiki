@@ -23,18 +23,19 @@ reviewed_by: "洪七公"
 source_refs:
   - "00_inbox/一堂-机会预判-AI趋势12大变化模型.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/ai"
-  - "#yitang"
 title: "AI趋势12大变化模型"
 trust_level: "medium"
 type: "framework"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '机会预判', 'course_id': 'yt-ai-trend-12-signals', 'course_type': 'framework', 'level': 'core'}
+tags:
+  - #scene/business-analysis
+  - #scene/ai
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # AI趋势12大变化模型

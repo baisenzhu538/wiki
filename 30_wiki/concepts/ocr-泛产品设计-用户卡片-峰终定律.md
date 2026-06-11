@@ -10,12 +10,13 @@ title: "OCR: 泛产品设计-用户卡片-峰终定律"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/product-design"
+  - #scene/business-analysis
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/product-design
+pipeline:
+  - confidence-source-cited
 ---
 
 # OCR: 泛产品设计-用户卡片-峰终定律

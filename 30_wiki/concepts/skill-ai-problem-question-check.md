@@ -17,17 +17,18 @@ definition_of_done:
   - 每次提问前能3秒内分类
   - 分类准确率>80%（自我评估）
   - 能说出"这道题是problem还是question"
-tags:
-  - "#domain/AI"
-  - "#skill-type/validation"
-  - "#method/cognitive-check"
-  - "#tool/brain"
 tools_required:
   - 无（纯思维工具）
 prerequisite_skills: []
 related: []
 created_at: 2026-06-11
 updated_at: 2026-06-11
+tags:
+  - #domain/AI
+  - #method/cognitive-check
+  - #tool/brain
+pipeline:
+  - #skill-type/validation
 ---
 
 # 技能：Problem vs Question 区分法

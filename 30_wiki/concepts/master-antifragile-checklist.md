@@ -18,16 +18,17 @@ related: ""
 reviewed_by: ""
 source_refs: ""
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/manifest-design"
 title: "反脆弱决策检查清单"
 type: "tool"
 updated_at: 2026-05-18
 version: 1
+tags:
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/skill-engineering/manifest-design
+pipeline:
+  - #boundary/requires-human-judgment
 ---
 
 # 反脆弱决策检查清单

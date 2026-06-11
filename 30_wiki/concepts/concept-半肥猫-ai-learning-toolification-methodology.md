@@ -12,29 +12,6 @@ source_context: "AI俱乐部-AI学习落地 分享（2026-06）"
 source_refs:
   - "00_inbox/半肥猫-AI学习落地-口述.md"
   - "00_inbox/AI俱乐部-AI学习落地-半肥猫-笔记.txt"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "confidence-verified-by-test"
-  - "#domain/ai-collaboration"
-  - "#domain/learning"
-  - "#domain/yitang"
-  - "#scene/agent-infrastructure/skill-registry"
-  - "#scene/ai-collaboration/pdca-execution"
-  - "#scene/ai-collaboration/problem-validation"
-  - "#scene/ai-collaboration/workspace-design"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/knowledge-management/atomization"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#scene/skill-engineering/eval-testing"
-  - "#scene/skill-engineering/publish-deploy"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
@@ -50,6 +27,30 @@ related:
   - "dk-半肥猫-skill-rejection-value"
   - "dk-半肥猫-atomic-no-standard"
   - "concept-纪浩-ai-collaboration-methodology"
+tags:
+  - #domain/ai-collaboration
+  - #domain/learning
+  - #domain/yitang
+  - #scene/agent-infrastructure/skill-registry
+  - #scene/ai-collaboration/pdca-execution
+  - #scene/ai-collaboration/problem-validation
+  - #scene/ai-collaboration/workspace-design
+  - #scene/business-analysis/conversion-rate
+  - #scene/knowledge-management/atomization
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/skill-engineering/course-to-skill
+  - #scene/skill-engineering/eval-testing
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+  - confidence-verified-by-test
 ---
 
 # 半肥猫 AI 学习落地方法论

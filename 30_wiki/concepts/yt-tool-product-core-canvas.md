@@ -29,24 +29,25 @@ source_refs:
   - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
   - "00_inbox/ocr_ingest/src_ocr_一堂五步法_产品内核画布.md"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#scene/agent-infrastructure"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/skill-engineering/manifest-design"
-  - "#yitang"
-  - "#产品内核"
-  - "#工具"
 title: "产品内核画布与九大原则"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-06-06
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '产品内核', 'course_id': 'yt-tool-product-core-canvas', 'course_type': 'tool', 'level': 'foundational'}
+tags:
+  - #scene/agent-infrastructure
+  - #scene/business-analysis/conversion-rate
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/level-diagnosis
+  - #scene/skill-engineering/manifest-design
+  - #yitang
+  - #产品内核
+  - #工具
+pipeline:
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
 ---
 
 # 产品内核画布与九大原则

@@ -28,16 +28,17 @@ reviewed_by: ""
 source_refs:
   - {"来源": "Aristotle, Elon Musk"}
 status: "enriched"
-tags:
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
 title: "第一性原理拆解器"
 type: "tool"
 updated_at: 2026-05-18
 version: 1
+tags:
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+pipeline:
+  - #boundary/single-use-only
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 第一性原理拆解器

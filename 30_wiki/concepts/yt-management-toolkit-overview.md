@@ -46,25 +46,26 @@ source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "30_wiki/concepts/yt-model-management-map.md"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#framework"
-  - "#management"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/product-design/design-freeze"
-  - "#scene/skill-engineering"
-  - "#toolkit"
-  - "#yitang"
 title: "管理工具箱总览"
 trust_level: "medium"
 type: "framework"
 updated_at: 2026-05-19
 version: 1
 yitang: {'map': 'management', 'module': '方法论总纲', 'course_type': 'framework', 'level': 'foundational'}
+tags:
+  - #management
+  - #scene/business-analysis
+  - #scene/knowledge-management
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/product-design/design-freeze
+  - #scene/skill-engineering
+  - #toolkit
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #framework
+  - confidence-source-cited
 ---
 
 # 管理工具箱总览

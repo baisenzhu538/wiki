@@ -10,18 +10,19 @@ source_person: "月白"
 source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计基础01.txt"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/design"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb1-aigc-mvp-before-ps"
 contradicts: ""
+tags:
+  - #domain/design
+  - #scene/ai-collaboration/prompt-engineering
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/dark-knowledge
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # AI绘图工作流：先锁风格再开ControlNet

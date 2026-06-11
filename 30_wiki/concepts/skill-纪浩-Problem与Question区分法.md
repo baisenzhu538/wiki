@@ -13,20 +13,21 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "工具要求明确"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "#domain/AI"
-  - "#domain/collaboration"
-  - "#scene/ai-collaboration/problem-validation"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
 tools_required: ""
 prerequisite_skills: ""
 related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #domain/AI
+  - #domain/collaboration
+  - #scene/ai-collaboration/problem-validation
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-draft
 ---
 
 # 技能：Problem与Question区分法

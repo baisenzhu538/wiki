@@ -10,14 +10,6 @@ source_person: "半肥猫"
 source_context: "AI俱乐部·AI学习落地（2026-06分享）"
 source_refs:
   - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/ai-collaboration"
-  - "#domain/yitang"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#scene/product-design/mvp"
-  - "#scene/ai-collaboration/prompt-engineering"
 created_at: "2026-06-08"
 updated_at: "2026-06-08"
 related:
@@ -33,6 +25,15 @@ definition_of_done:
   - "12维度评分标准已提供"
   - "测试模板（正向/反向/高风险）已完成"
   - "维护手册已设计"
+tags:
+  - #domain/ai-collaboration
+  - #domain/yitang
+  - #scene/skill-engineering/course-to-skill
+  - #scene/product-design/mvp
+  - #scene/ai-collaboration/prompt-engineering
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化

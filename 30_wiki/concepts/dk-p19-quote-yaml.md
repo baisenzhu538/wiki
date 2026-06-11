@@ -10,15 +10,6 @@ source_person: "system"
 source_context: "pitfalls.md P-19"
 source_refs:
   - ".agent/pitfalls.md#P-19"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology"
-  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
@@ -26,6 +17,16 @@ related:
 contradicts:
   - "kdo-yaml-frontmatter-safety"
   - "master-first-principles"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology
+pipeline:
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # P-19：花引号被YAML误解析为字符串定界符

@@ -18,11 +18,6 @@ definition_of_done:
   - 每次团队决策前执行
   - 独立评估结果差异≥20%
   - 聚合后的结论比任何个人更稳定
-tags:
-  - "#domain/decision"
-  - "#skill-type/validation"
-  - "#method/checklist"
-  - "#tool/brain"
 tools_required:
   - 无（纯思维工具）
   - 投票/评分工具（聚合用）
@@ -31,6 +26,12 @@ prerequisite_skills:
 related: []
 created_at: 2026-06-11
 updated_at: 2026-06-11
+tags:
+  - #domain/decision
+  - #method/checklist
+  - #tool/brain
+pipeline:
+  - #skill-type/validation
 ---
 
 # 技能：团队决策外部视角法

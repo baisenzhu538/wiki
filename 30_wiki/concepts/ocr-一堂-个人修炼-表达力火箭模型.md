@@ -10,11 +10,12 @@ title: "OCR: 一堂-个人修炼-表达力火箭模型"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/checklist-method"
+  - #scene/learning-methodology
+  - #scene/note-taking/checklist-method
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 一堂-个人修炼-表达力火箭模型

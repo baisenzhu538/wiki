@@ -10,12 +10,13 @@ title: "OCR: 一堂-科学决策-深度-你的业务是一次抽样实验"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 一堂-科学决策-深度-你的业务是一次抽样实验

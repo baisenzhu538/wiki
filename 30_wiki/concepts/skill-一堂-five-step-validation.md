@@ -11,13 +11,6 @@ source_context: "一堂产品内核验证课"
 source_refs:
   - "00_inbox/一堂-产品内核验证课-Truman-口述.txt"
   - "00_inbox/一堂-产品内核验证课-truman-笔记.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/product"
-  - "#domain/yitang"
-  - "#scene/startup/hypothesis-validation"
-  - "#scene/business-analysis/research"
 tools_required:
   - "用户访谈或问卷工具"
   - "竞品分析模板（可选）"
@@ -35,6 +28,14 @@ wiki_refs:
   - "skill-一堂-hypothesis-validation-three-axe"
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
+tags:
+  - #domain/product
+  - #domain/yitang
+  - #scene/startup/hypothesis-validation
+  - #scene/business-analysis/research
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 技能：聊问查测盘五步验证法

@@ -32,11 +32,12 @@ query_triggers:
   - "试用期管理"
   - "文化融入方法"
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#yitang"
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 新人落地

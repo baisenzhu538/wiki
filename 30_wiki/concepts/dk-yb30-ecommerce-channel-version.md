@@ -10,16 +10,17 @@ source_person: "月白"
 source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计基础01.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/design"
-  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb21-ecommerce-pricing-independent-model"
 contradicts:
+tags:
+  - #domain/design
+pipeline:
+  - #source_type/dark-knowledge
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 电商渠道专版区分：淘宝≠拼多多

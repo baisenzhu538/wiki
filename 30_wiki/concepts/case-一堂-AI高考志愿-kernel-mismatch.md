@@ -10,13 +10,6 @@ source_person: "一堂·Truman"
 source_context: "一堂-产品内核实操课-truman-笔记.txt"
 source_refs:
   - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/yitang"
-  - "#domain/product-strategy"
-  - "#scene/failure-mode/kernel-mismatch"
-  - "#scene/ai-product/value-proposition"
 created_at: "2026-06-08"
 updated_at: "2026-06-09"
 related:
@@ -32,6 +25,14 @@ definition_of_done:
   - "内核错位点和纠正过程已记录"
   - "可迁移条件和不可复制场景已明确"
   - "实际应用后收集反馈并更新案例"
+tags:
+  - #domain/yitang
+  - #domain/product-strategy
+  - #scene/failure-mode/kernel-mismatch
+  - #scene/ai-product/value-proposition
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 案例：AI高考志愿填报产品因内核错位而失敗

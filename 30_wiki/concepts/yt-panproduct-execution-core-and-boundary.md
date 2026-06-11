@@ -29,26 +29,27 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-内核和边界.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#execution"
-  - "#pan-product-design"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/product-design"
-  - "#scope"
-  - "#yitang"
 title: "泛产品设计·落地卡片：内核和边界"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
+tags:
+  - #execution
+  - #pan-product-design
+  - #scene/hardware-debugging/prototyping
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/product-design
+  - #scope
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
 ---
 
 # 内核和边界：剥离中心思想和边界

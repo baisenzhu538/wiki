@@ -12,12 +12,6 @@ source_refs:
   - "00_inbox/一堂-产品内核实操课-Truman-口述.txt"
   - "00_inbox/一堂-产品内核迭代课-Truman-口述.txt"
   - "00_inbox/一堂-产品内核验证课-Truman-口述.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/product"
-  - "#domain/yitang"
-  - "#scene/business-analysis/product-design"
 created_at: "2026-06-09"
 updated_at: "2026-06-09"
 related:
@@ -28,6 +22,13 @@ related:
 wiki_refs:
   - "concept-一堂-hypothesis-driven-business-methodology"
   - "skill-一堂-product-kernel-canvas"
+tags:
+  - #domain/product
+  - #domain/yitang
+  - #scene/business-analysis/product-design
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 产品内核：用户愿意选择你的最小解决方案

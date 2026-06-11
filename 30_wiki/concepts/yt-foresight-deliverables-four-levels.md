@@ -22,14 +22,15 @@ query_triggers:
   - "关键画布"
   - "Plan A Plan B"
   - "预判结束的标志"
-tags:
-  - "#yitang"
-  - "#scene/business-analysis"
-  - "confidence-source-cited"
 related: {'series': False}
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-probability-engineering.md"
+tags:
+  - #yitang
+  - #scene/business-analysis
+pipeline:
+  - confidence-source-cited
 ---
 
 # 预判交付物四层级：从模糊想法到Plan ABC

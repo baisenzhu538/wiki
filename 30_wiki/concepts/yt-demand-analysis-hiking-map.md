@@ -26,18 +26,19 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-需求-分析段位图.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-需求-市场规模估算四种方法.png"
 status: "reviewed"
-tags:
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/product-management"
-  - "#yitang"
 title: "需求分析爬山地图"
 trust_level: "medium"
 type: "framework"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '五步法', 'course_id': 'yt-demand-analysis-hiking-map', 'course_type': 'framework', 'level': 'core'}
+tags:
+  - #scene/business-analysis
+  - #scene/product-management
+  - #yitang
+pipeline:
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 需求分析爬山地图

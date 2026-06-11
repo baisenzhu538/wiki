@@ -10,11 +10,12 @@ title: "OCR: 一堂-科学决策-关键训练清单（重要））"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # OCR: 一堂-科学决策-关键训练清单（重要））

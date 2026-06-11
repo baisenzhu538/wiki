@@ -25,19 +25,20 @@ query_triggers:
   - "内容空洞"
   - "AI填充"
   - "自上而下构建"
-tags:
-  - "#ai"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#prompt-engineering"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/business-analysis"
-  - "#writing"
-  - "#yitang"
 created_at: "2026-05-13"
 updated_at: "2026-05-13"
 estimated_tokens: 2000
+tags:
+  - #ai
+  - #prompt-engineering
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/business-analysis
+  - #writing
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
 ---
 
 # AI 写作工作流：大纲→要点→全文

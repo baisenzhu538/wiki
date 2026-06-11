@@ -22,18 +22,19 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-笔记.txt"
 status: "reviewed"
-tags:
-  - "confidence-source-cited"
-  - "#scene/business-model"
-  - "#scene/finance"
-  - "#scene/entrepreneurship"
-  - "#yitang"
 title: "单元模型搭建五步法"
 trust_level: "medium"
 type: "skill"
 updated_at: "2026-06-11"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '单元模型', 'course_id': 'yt-unit-model-build', 'course_type': 'skill', 'level': 'core'}
+tags:
+  - #scene/business-model
+  - #scene/finance
+  - #scene/entrepreneurship
+  - #yitang
+pipeline:
+  - confidence-source-cited
 ---
 
 # 单元模型搭建五步法

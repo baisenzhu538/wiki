@@ -12,23 +12,24 @@ related:
 review_date: 2026-05-04
 reviewed_by: "黄药师"
 status: "enriched"
-tags:
-  - "#ai"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-verified-by-case"
-  - "#knowledge-graph"
-  - "#rag"
-  - "#retrieval"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/product-design"
 title: "Graph RAG — Knowledge-Graph-Powered Retrieval"
 trust_level: "medium"
 type: "concept"
 updated_at: 2026-05-03
+tags:
+  - #ai
+  - #knowledge-graph
+  - #rag
+  - #retrieval
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/product-design
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-verified-by-case
 ---
 
 # Graph RAG — Knowledge-Graph-Powered Retrieval

@@ -10,20 +10,21 @@ source_person: "月白"
 source_context: "口述稿: AI设计-AI设计师实操培训01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
-tags:
-  - "#boundary/not-for-medical"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/design"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/skill-engineering"
-  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb16-ecommerce-product-image-vs-lucky-draw"
   - "dk-yb19-visual-strategy-price-match"
 contradicts: ""
+tags:
+  - #domain/design
+  - #scene/business-analysis/conversion-rate
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/not-for-medical
+  - #source_type/dark-knowledge
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 产品场景化拍摄：从商品到生活方式的升维

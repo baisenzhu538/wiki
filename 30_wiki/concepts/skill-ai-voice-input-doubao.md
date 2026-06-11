@@ -12,22 +12,23 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "工具要求明确"
-tags:
-  - "confidence-draft"
-  - "#domain/AI"
-  - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/ai-collaboration/skill-market"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#skill-type/input-method"
-  - "#tool/doubao-input"
 tools_required: ""
 prerequisite_skills: ""
 related: ""
 created_at: 2026-06-06
 updated_at: 2026-06-06
+tags:
+  - #domain/AI
+  - #scene/agent-infrastructure
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/ai-collaboration/skill-market
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+  - #scene/skill-engineering/course-to-skill
+  - #tool/doubao-input
+pipeline:
+  - #skill-type/input-method
+  - confidence-draft
 ---
 
 # 技能：口喷式语音输入法

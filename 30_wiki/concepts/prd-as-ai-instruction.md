@@ -15,16 +15,17 @@ query_triggers:
   - "产品需求文档AI"
 reviewed_by: ""
 tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/ai-collaboration/workspace-design"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/agent-infrastructure
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/ai-collaboration/workspace-design
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/course-to-skill
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # PRD文档作为AI可执行指令

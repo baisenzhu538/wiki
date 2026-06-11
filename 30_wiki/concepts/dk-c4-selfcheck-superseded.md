@@ -10,19 +10,20 @@ source_person: "Builder"
 source_context: "2026-05-03"
 source_refs:
   - "20_memory/corrections.md#C-4"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/skill-engineering"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
   - "dk-c5-todo-false-positive"
   - "master-cognitive-bias-checklist"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich

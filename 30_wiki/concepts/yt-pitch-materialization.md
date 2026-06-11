@@ -26,19 +26,20 @@ source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#pitch"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#yitang"
-  - "#具象化"
 title: "讲香·素材化"
 type: "tool"
 updated_at: 2026-05-13
 version: 1
+tags:
+  - #pitch
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #yitang
+  - #具象化
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 讲香·素材化

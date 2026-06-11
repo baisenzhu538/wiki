@@ -31,22 +31,23 @@ source_refs:
   - "10_raw/assets/yitang/泛产品设计者的三大自我修养.png"
 status: "enriched"
 superseded_by: ""
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/product-design"
-  - "一堂"
-  - "三大修养"
-  - "价值观"
-  - "心法"
-  - "泛产品设计"
 title: "泛产品三大自我修养：用户价值×最佳实践×无限进步"
 type: "framework"
 updated_at: 2026-05-11
 version: 1
+tags:
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/note-taking/level-diagnosis
+  - #scene/product-design
+  - 一堂
+  - 三大修养
+  - 价值观
+  - 心法
+  - 泛产品设计
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 ## Claims

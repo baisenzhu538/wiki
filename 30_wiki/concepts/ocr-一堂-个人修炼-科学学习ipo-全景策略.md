@@ -10,16 +10,17 @@ title: "OCR: 一堂-个人修炼-科学学习IPO-全景策略"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/note-taking/live-field"
+  - #scene/business-analysis
+  - #scene/knowledge-management
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/level-diagnosis
+  - #scene/note-taking/live-field
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 一堂-个人修炼-科学学习IPO-全景策略

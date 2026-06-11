@@ -12,16 +12,17 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "工具要求明确"
-tags:
-  - "#boundary/not-for-creative"
-  - "confidence-draft"
-  - "#domain/AI"
-  - "#scene/learning-methodology/feedback-loop"
 tools_required: ""
 prerequisite_skills: ""
 related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #domain/AI
+  - #scene/learning-methodology/feedback-loop
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-draft
 ---
 
 # 技能：数学题与语文题区分法

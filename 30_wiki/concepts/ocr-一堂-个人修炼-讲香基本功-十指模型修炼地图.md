@@ -10,16 +10,17 @@ title: "OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/skill-engineering"
+  - #scene/ai-collaboration
+  - #scene/business-analysis
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/level-diagnosis
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图

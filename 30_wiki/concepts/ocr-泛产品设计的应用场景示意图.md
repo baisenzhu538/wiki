@@ -10,17 +10,18 @@ title: "OCR: 泛产品设计的应用场景示意图"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/ai-collaboration/workspace-design"
-  - "#scene/business-analysis"
-  - "#scene/hardware-debugging"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/product-design/design-freeze"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/ai-collaboration/workspace-design
+  - #scene/business-analysis
+  - #scene/hardware-debugging
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/mental-models
+  - #scene/product-design/design-freeze
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 泛产品设计的应用场景示意图

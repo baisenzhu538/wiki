@@ -32,24 +32,25 @@ source_refs:
   - "00_inbox/一堂-个人修炼-泛产品设计工具篇口述版.md"
 status: "enriched"
 superseded_by: ""
-tags:
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/manifest-design"
-  - "FAB"
-  - "一堂"
-  - "产品设计"
-  - "文案"
-  - "说服"
-  - "转化"
 title: "FAB核心说服：从产品特性到用户利益的转化法"
 type: "tool"
 updated_at: 2026-06-06
 version: 1
+tags:
+  - #scene/business-analysis/conversion-rate
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/product-design
+  - #scene/skill-engineering/manifest-design
+  - FAB
+  - 一堂
+  - 产品设计
+  - 文案
+  - 说服
+  - 转化
+pipeline:
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 ## Summary

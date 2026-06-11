@@ -18,11 +18,6 @@ definition_of_done:
   - 每次调研走完5步
   - 输出含"事实/推理"标注
   - 至少1处被标注为"推理待验证"
-tags:
-  - "#domain/AI"
-  - "#skill-type/execution"
-  - "#method/checklist"
-  - "#tool/LLM"
 tools_required:
   - 任意AI对话工具（Claude/ChatGPT/Kimi）
   - 搜索引擎（交叉验证用）
@@ -30,6 +25,12 @@ prerequisite_skills: []
 related: []
 created_at: 2026-06-11
 updated_at: 2026-06-11
+tags:
+  - #domain/AI
+  - #method/checklist
+  - #tool/LLM
+pipeline:
+  - #skill-type/execution
 ---
 
 # 技能：AI调研五步法

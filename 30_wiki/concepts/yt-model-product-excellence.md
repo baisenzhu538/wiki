@@ -23,24 +23,25 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/顶级产品追求的方向-乔布斯.png"
 status: "enriched"
-tags:
-  - "#aesthetics"
-  - "#best-practices"
-  - "#boundary/not-for-creative"
-  - "#boundary/not-for-medical"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#product-design"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/product-design"
-  - "#yitang"
 title: "顶级产品追求：品味、最佳实践与乔布斯的审美哲学"
 type: "framework"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'framework'}
+tags:
+  - #aesthetics
+  - #best-practices
+  - #product-design
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/level-diagnosis
+  - #scene/product-design
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/not-for-medical
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 顶级产品追求：品味、最佳实践与乔布斯的审美哲学

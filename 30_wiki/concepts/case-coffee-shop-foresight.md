@@ -24,18 +24,19 @@ source_refs:
   - "00_inbox/一堂-机会预判-咖啡案例02.png"
   - "00_inbox/一堂-机会预判-案例预判02.png"
 status: "enriched"
-tags:
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/entrepreneurship"
-  - "#yitang"
 title: "案例：咖啡馆创业预判"
 trust_level: "medium"
 type: "case"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '机会预判', 'course_type': 'case', 'level': 'core'}
+tags:
+  - #scene/business-analysis
+  - #scene/entrepreneurship
+  - #yitang
+pipeline:
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 案例：咖啡馆创业预判

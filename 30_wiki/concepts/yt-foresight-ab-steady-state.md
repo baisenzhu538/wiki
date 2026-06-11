@@ -24,16 +24,17 @@ query_triggers:
   - "产业链分析"
   - "集中度"
   - "行业天花板"
-tags:
-  - "#yitang"
-  - "#scene/industry-analysis"
-  - "#scene/strategic-planning"
-  - "confidence-source-cited"
 related: {'series': False}
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-entrepreneur-industry-forecast.md"
   - "30_wiki/concepts/yt-foresight-ten-fatal-flaws.md"
+tags:
+  - #yitang
+  - #scene/industry-analysis
+  - #scene/strategic-planning
+pipeline:
+  - confidence-source-cited
 ---
 
 # AB点稳态模型：行业预判的核心框架

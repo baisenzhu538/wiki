@@ -28,27 +28,28 @@ query_triggers:
   - "新人AI陷阱"
   - "笔记数据资产"
   - "AI最大公约数"
-tags:
-  - "#ai-collaboration"
-  - "#boundary/not-for-beginners"
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#human-ai-division"
-  - "#note-taking"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering"
-  - "#yitang"
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 estimated_tokens: 3800
+tags:
+  - #ai-collaboration
+  - #human-ai-division
+  - #note-taking
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/knowledge-management
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/level-diagnosis
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/requires-human-judgment
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # AI时代笔记分工边界：人在哪里，AI在哪里

@@ -29,17 +29,18 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-打造壁垒完整cheatsheet.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-规模经济分析武器库.png"
 status: "reviewed"
-tags:
-  - "confidence-source-cited"
-  - "#scene/strategy"
-  - "#scene/business-analysis"
-  - "#yitang"
 title: "壁垒分析完整cheatsheet"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '壁垒', 'course_id': 'yt-barrier-analysis-cheat-sheet', 'course_type': 'tool', 'level': 'core'}
+tags:
+  - #scene/strategy
+  - #scene/business-analysis
+  - #yitang
+pipeline:
+  - confidence-source-cited
 ---
 
 # 壁垒分析完整cheatsheet

@@ -10,12 +10,13 @@ title: "HIS系统开发实现方案-架构师指南"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/product-design/focus-workbench"
+  - #scene/learning-methodology
+  - #scene/note-taking
+  - #scene/product-design/focus-workbench
+pipeline:
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # HIS系统开发实现方案-架构师指南

@@ -10,13 +10,14 @@ title: "OCR: 泛产品设计-用户卡片-场景推演"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-beginners"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration/problem-validation"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/product-design"
+  - #scene/ai-collaboration/problem-validation
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/product-design
+pipeline:
+  - #boundary/not-for-beginners
+  - confidence-source-cited
 ---
 
 # OCR: 泛产品设计-用户卡片-场景推演

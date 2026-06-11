@@ -10,15 +10,6 @@ source_person: "system"
 source_context: "pitfalls.md P-2"
 source_refs:
   - ".agent/pitfalls.md#P-2"
-tags:
-  - "#boundary/single-use-only"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
@@ -26,6 +17,16 @@ related:
 contradicts:
   - "master-systems-thinking"
   - "master-first-principles"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/learning-methodology
+pipeline:
+  - #boundary/single-use-only
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # P-2：tmux session 缓存旧配置

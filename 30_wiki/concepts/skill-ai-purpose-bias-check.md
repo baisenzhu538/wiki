@@ -12,18 +12,19 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "工具要求明确"
-tags:
-  - "confidence-draft"
-  - "#domain/AI"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#skill-type/evaluation"
 tools_required: ""
 prerequisite_skills: ""
 related: ""
 created_at: 2026-06-06
 updated_at: 2026-06-06
+tags:
+  - #domain/AI
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+pipeline:
+  - #skill-type/evaluation
+  - confidence-draft
 ---
 
 # 技能：目的论偏差快速识别法

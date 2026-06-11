@@ -10,15 +10,16 @@ title: "OCR: 一堂进步大地图_compressed"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/product-design/design-freeze"
-  - "#scene/skill-engineering"
+  - #scene/agent-infrastructure
+  - #scene/ai-collaboration
+  - #scene/knowledge-management
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/product-design/design-freeze
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 # OCR: 一堂进步大地图_compressed

@@ -12,9 +12,10 @@ definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工�
 tools_required: [模型路由层/网关, 负载均衡器, 多模型API密钥]
 prerequisite_skills: []
 related: []
-tags: ['#skill']
 created_at: "2026-06-09T14:38:36+00:00"
 updated_at: "2026-06-09T14:38:36+00:00"
+pipeline:
+  - #skill
 ---
 
 # 技能：模型匹配调度

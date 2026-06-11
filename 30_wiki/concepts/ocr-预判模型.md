@@ -10,14 +10,15 @@ title: "OCR: 预判模型"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management/case-library"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
+  - #scene/business-analysis
+  - #scene/knowledge-management/case-library
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 预判模型

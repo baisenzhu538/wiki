@@ -10,17 +10,18 @@ title: "OCR: 一堂提炼过的因果模型"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/business-analysis/conversion-rate
+  - #scene/knowledge-management
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/product-design
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 # OCR: 一堂提炼过的因果模型

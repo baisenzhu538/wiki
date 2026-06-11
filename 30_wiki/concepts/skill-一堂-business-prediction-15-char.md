@@ -11,13 +11,6 @@ source_context: "一堂商业预判课"
 source_refs:
   - "00_inbox/一堂-商业预判课-Truman-口述.txt"
   - "00_inbox/一堂-商业预判课-truman-笔记.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/product"
-  - "#domain/yitang"
-  - "#scene/startup/strategy"
-  - "#scene/business-analysis/decision-making"
 tools_required:
   - "纸笔或文档工具"
   - "行业报告或公开数据（可选）"
@@ -33,6 +26,14 @@ wiki_refs:
   - "skill-一堂-spectrum-positioning"
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
+tags:
+  - #domain/product
+  - #domain/yitang
+  - #scene/startup/strategy
+  - #scene/business-analysis/decision-making
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 技能：商业预判15字诀

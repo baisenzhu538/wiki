@@ -25,23 +25,24 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "一堂五步法"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-09
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '一堂五步法', 'course_id': 'yt-entrepreneur-five-step-method', 'course_type': 'method', 'level': 'foundational'}
+tags:
+  - #scene/business-analysis
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 一堂五步法

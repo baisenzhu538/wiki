@@ -27,22 +27,23 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-多视角思考.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#pan-product-design"
-  - "#perspective-taking"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/product-design"
-  - "#user-research"
-  - "#yitang"
 title: "泛产品设计·用户卡片：多视角思考"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
+tags:
+  - #pan-product-design
+  - #perspective-taking
+  - #scene/business-analysis
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/product-design
+  - #user-research
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 多视角思考：综合内部/外部/角色考量

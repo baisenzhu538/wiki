@@ -32,21 +32,22 @@ source_refs:
   - "10_raw/assets/yitang/一堂-个人修炼-讲香基本功-十指模型修炼地图.png"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#framework"
-  - "#personal"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/note-taking"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "十指讲香模型（框架）"
 type: "framework"
 updated_at: 2026-05-13
 version: 1
+tags:
+  - #personal
+  - #scene/business-analysis
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/note-taking
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #framework
+  - confidence-source-cited
 ---
 
 # 十指讲香模型（框架）

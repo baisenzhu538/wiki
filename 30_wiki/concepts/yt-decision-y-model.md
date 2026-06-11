@@ -35,21 +35,6 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-关键假设ABCD模型.png"
   - "00_inbox/科学决策/一堂-科学决策-项目方案评估三角形.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#decision-making"
-  - "#framework"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/note-taking/live-field"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "Y模型科学决策框架（广义ROI）"
 trust_level: "medium"
 type: "framework"
@@ -62,6 +47,22 @@ visual_analysis:
   - {"image": "一堂-科学决策-项目方案评估三角形.png", "dimensions": [{"色彩语义": "黑=权威专业；玫红=品牌识别；浅灰=隐形标尺；青蓝=数据驱动评估结果"}, {"空间结构": "等边三角形=三要素均衡张力；同心嵌套=理想边界渐进参照；中心空洞=系统性偏差"}, {"信息层级": "L1主题锚定→L2品牌背书→L3维度命名→L4数据映射→L5参照系统"}, {"负形利用": "三角形外部留白=画框效应+更广阔语境；青色与理想边界间隙=改进空间；中心空白=未达均衡态"}, {"视觉隐喻": "雷达图=多维评估可视化；铁三角=不可能三角经典隐喻；重心偏移=低成本保守型；同心圆=成熟度等级；青色=热成像诊断"}]}
   - {"image": "一堂-科学决策-ROI高阶训练全景图.png", "dimensions": [{"色彩语义": "四象限色块区分场景（暖色=商业/决策，冷色=增长/转化）"}, {"空间结构": "2×2矩阵，对角线互补；中心留白=假设思维原点"}, {"信息层级": "L1 场景标签 → L2 核心问题 → L3 展开维度 → L4 统一原点"}, {"负形利用": "矩阵交叉线=场景组合锚点；象限间留白=场景切换校准区"}, {"视觉隐喻": "\"四套操作系统\"=可切换的决策runtime"}]}
 yitang: {'course_id': 'yt-decision-y-model', 'course_type': 'framework', 'level': 'foundational', 'map': 'entrepreneur', 'module': '科学决策'}
+tags:
+  - #decision-making
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/level-diagnosis
+  - #scene/note-taking/live-field
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #framework
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # Y模型科学决策框架（广义ROI）

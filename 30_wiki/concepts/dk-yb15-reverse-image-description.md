@@ -10,18 +10,19 @@ source_person: "月白"
 source_context: "口述稿: AI设计-AI设计师实操培训01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/design"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management/tagging"
-  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb14-multi-image-commonality"
 contradicts: ""
+tags:
+  - #domain/design
+  - #scene/ai-collaboration
+  - #scene/knowledge-management/tagging
+pipeline:
+  - #source_type/dark-knowledge
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # AI逆向反推图片描述法

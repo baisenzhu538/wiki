@@ -11,13 +11,6 @@ source_context: "一堂产品内核实操课"
 source_refs:
   - "00_inbox/一堂-产品内核实操课-Truman-口述.txt"
   - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/product"
-  - "#domain/yitang"
-  - "#scene/business-analysis/product-design"
-  - "#scene/startup/kernel-design"
 tools_required:
   - "产品内核画布（纸笔/白板/文档均可）"
   - "用户访谈或问卷工具（可选）"
@@ -33,6 +26,14 @@ wiki_refs:
   - "skill-一堂-product-kernel-canvas"
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
+tags:
+  - #domain/product
+  - #domain/yitang
+  - #scene/business-analysis/product-design
+  - #scene/startup/kernel-design
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 技能：产品内核加减法

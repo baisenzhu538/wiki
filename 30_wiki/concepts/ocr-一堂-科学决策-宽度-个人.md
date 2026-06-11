@@ -10,13 +10,14 @@ title: "OCR: 一堂-科学决策-宽度-个人"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - #scene/business-analysis
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology
+  - #scene/note-taking
+pipeline:
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # OCR: 一堂-科学决策-宽度-个人

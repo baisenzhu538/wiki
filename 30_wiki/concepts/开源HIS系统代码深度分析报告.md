@@ -10,12 +10,13 @@ title: "开源HIS系统代码深度分析报告"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/business-analysis
+  - #scene/note-taking/checklist-method
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 开源HIS系统代码深度分析报告

@@ -26,20 +26,21 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "增长飞轮"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '增长飞轮', 'course_id': 489, 'course_type': 'method', 'level': 'advanced'}
+tags:
+  - #scene/business-analysis/customer-acquisition
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 增长飞轮

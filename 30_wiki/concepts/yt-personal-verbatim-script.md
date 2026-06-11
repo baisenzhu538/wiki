@@ -26,18 +26,19 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
 status: "enriched"
-tags:
-  - "confidence-source-cited"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "逐字稿"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '逐字稿', 'course_id': 408, 'course_type': 'method', 'level': 'core'}
+tags:
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/note-taking/checklist-method
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - confidence-source-cited
 ---
 
 # 逐字稿

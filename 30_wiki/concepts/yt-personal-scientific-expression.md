@@ -29,21 +29,22 @@ source_refs:
   - "10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型.png"
   - "10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型-执行武器库.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "科学表达（火箭模型）"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '科学表达（火箭模型）', 'course_id': 410, 'course_type': 'method', 'level': 'core', 'series': True}
+tags:
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 科学表达（火箭模型）

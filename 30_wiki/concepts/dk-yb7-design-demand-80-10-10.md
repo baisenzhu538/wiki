@@ -10,19 +10,20 @@ source_person: "月白"
 source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计基础01.txt"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/design"
-  - "#scene/business-analysis"
-  - "#scene/note-taking/checklist-method"
-  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "— 暂无（待后续卡片补充关联）"
 contradicts: ""
+tags:
+  - #domain/design
+  - #scene/business-analysis
+  - #scene/note-taking/checklist-method
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/dark-knowledge
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 中国设计需求的80-10-10分层法则

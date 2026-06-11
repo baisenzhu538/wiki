@@ -10,18 +10,6 @@ source_person: "system"
 source_context: "failure-modes.md F-KDO-003"
 source_refs:
   - "90_control/failure-modes.md#F-KDO-003"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/eval-testing"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
@@ -30,6 +18,19 @@ related:
 contradicts:
   - "dk-c10-batch-tool-no-dry-run"
   - "master-systems-thinking"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/agent-infrastructure
+  - #scene/ai-collaboration
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/eval-testing
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失

@@ -10,13 +10,14 @@ title: "OCR: 泛产品设计-落地卡片-管理三段论"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/learning-methodology/feedback-loop
+  - #scene/product-design
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
 ---
 
 # OCR: 泛产品设计-落地卡片-管理三段论

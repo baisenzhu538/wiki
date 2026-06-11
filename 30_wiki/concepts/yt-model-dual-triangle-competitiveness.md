@@ -27,25 +27,26 @@ source_refs:
   - "40_outputs/content/images/infographics/dual-triangle-competitiveness.excalidraw"
   - "40_outputs/content/images/infographics/dual-triangle-visual-analysis.md"
 status: "enriched"
-tags:
-  - "#ai-model"
-  - "#boundary/not-for-creative"
-  - "#competitiveness"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/business-analysis"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/skill-engineering/manifest-design"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#yitang"
 title: "双三角竞争力模型"
 type: "framework"
 updated_at: 2026-05-19
 version: 1
 yitang: {'map': 'personal', 'module': 'AI 思维模型', 'course_type': 'model', 'level': 'foundational'}
+tags:
+  - #ai-model
+  - #competitiveness
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/business-analysis
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/mental-models
+  - #scene/skill-engineering/manifest-design
+  - #scene/skill-engineering/publish-deploy
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 # 双三角竞争力模型 (Yitang Dual Triangle Model)

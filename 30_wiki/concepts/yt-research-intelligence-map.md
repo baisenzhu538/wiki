@@ -28,24 +28,25 @@ reviewed_by: ""
 source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
 status: "reviewed"
-tags:
-  - "#boundary/not-for-medical"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#framework"
-  - "#research"
-  - "#scene/business-analysis"
-  - "#scene/hardware-debugging"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#yitang"
 title: "情报获取全景地图：13+渠道穷尽手段"
 trust_level: "medium"
 type: "framework"
 updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-intelligence-map', 'course_type': 'framework', 'level': 'foundational'}
+tags:
+  - #research
+  - #scene/business-analysis
+  - #scene/hardware-debugging
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering/publish-deploy
+  - #yitang
+pipeline:
+  - #boundary/not-for-medical
+  - #framework
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 情报获取全景地图：13+渠道穷尽手段

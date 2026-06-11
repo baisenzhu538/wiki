@@ -13,14 +13,15 @@ trust_level: "medium"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/hardware-debugging"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/business-analysis
+  - #scene/hardware-debugging
+  - #scene/note-taking/checklist-method
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 街顺APP全面调研报告

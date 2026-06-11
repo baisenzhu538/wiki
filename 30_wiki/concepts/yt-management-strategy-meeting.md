@@ -31,14 +31,15 @@ query_triggers:
   - "disagree and commit"
   - "年度战略会"
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#yitang"
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 战略会

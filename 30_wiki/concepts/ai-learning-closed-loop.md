@@ -16,20 +16,21 @@ query_triggers:
   - "AI生成内容可靠吗"
 reviewed_by: ""
 tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/ai-collaboration/workspace-design"
-  - "#scene/knowledge-management/atomization"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#scene/skill-engineering/manifest-design"
+  - #scene/agent-infrastructure
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/ai-collaboration/workspace-design
+  - #scene/knowledge-management/atomization
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/skill-engineering/course-to-skill
+  - #scene/skill-engineering/manifest-design
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/requires-human-judgment
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # AI学习闭环：从"听懂"到"能力"的转化路径

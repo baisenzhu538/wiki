@@ -10,17 +10,18 @@ title: "OCR: 一堂-个人修炼-科学学习IPO完整清单"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/skill-engineering"
+  - #scene/business-analysis
+  - #scene/knowledge-management
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/level-diagnosis
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 一堂-个人修炼-科学学习IPO完整清单

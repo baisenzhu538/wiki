@@ -30,24 +30,25 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践建模.png"
 status: "enriched"
-tags:
-  - "#aesthetics"
-  - "#best-practices"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#pan-product-design"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/product-design"
-  - "#yitang"
 title: "泛产品设计·审美卡片：最佳实践建模"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
+tags:
+  - #aesthetics
+  - #best-practices
+  - #pan-product-design
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/product-design
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 最佳实践建模：用评价维度打磨产品

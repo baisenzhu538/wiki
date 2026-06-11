@@ -29,24 +29,6 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-AI协助决策行动营口述06.txt"
   - "00_inbox/科学决策/一堂-科学决策-人机协作决策.png"
 status: "enriched"
-tags:
-  - "#AI"
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#decision-making"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/business-analysis"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#tool"
-  - "#yitang"
 title: "AI决策Partner对话法"
 trust_level: "medium"
 type: "tool"
@@ -55,6 +37,25 @@ version: 1
 visual_analysis:
   - {"image": "一堂-科学决策-人机协作决策.png", "dimensions": [{"色彩语义": "人侧暖色(橙黄)=创造力/审美；AI侧冷色(蓝紫)=计算/数据；交界区渐变=协作融合"}, {"空间结构": "左右对称但非镜像——人侧略大暗示\"人主导AI辅助\""}, {"信息层级": "L1 双三角标签 → L2 各自三能力 → L3 协作界面 → L4 共同输出"}, {"负形利用": "中间交界区=协作的\"灰色地带\"；留白=尚未定义的协作规则"}, {"视觉隐喻": "双三角=人的三角(审美/体系/判断力)+AI的三角(场景/数据/基本功)；双向箭头=增强回路"}]}
 yitang: {'course_id': 'yt-decision-ai-partner', 'course_type': 'tool', 'level': 'intermediate', 'map': 'entrepreneur', 'module': '科学决策'}
+tags:
+  - #AI
+  - #decision-making
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/business-analysis
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology
+  - #scene/note-taking/level-diagnosis
+  - #scene/skill-engineering/publish-deploy
+  - #yitang
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - #tool
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # AI决策Partner对话法

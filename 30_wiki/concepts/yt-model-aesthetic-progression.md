@@ -25,24 +25,25 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/审美提升的层级.png"
 status: "enriched"
-tags:
-  - "#aesthetics"
-  - "#best-practices"
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#personal-growth"
-  - "#scene/agent-infrastructure"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "审美提升的层级：从看不见到大胆想象的进化路径"
 type: "framework"
 updated_at: 2026-05-11
 version: 1
 yitang: {'course_type': 'framework', 'map': 'personal', 'module': '个人修炼'}
+tags:
+  - #aesthetics
+  - #best-practices
+  - #personal-growth
+  - #scene/agent-infrastructure
+  - #scene/learning-methodology/feedback-loop
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 审美提升的层级：从看不见到大胆想象的进化路径

@@ -22,27 +22,28 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-创业-调研行动营口述01.md"
 status: "enriched"
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#entrepreneurship"
-  - "#market-research"
-  - "#research"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "调研行动营：从调研认知到AI调研武器库"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'action_camp'}
+tags:
+  - #entrepreneurship
+  - #market-research
+  - #research
+  - #scene/business-analysis/conversion-rate
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/level-diagnosis
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 调研行动营：从调研认知到AI调研武器库

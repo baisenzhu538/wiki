@@ -22,18 +22,19 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt"
 status: "reviewed"
-tags:
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/cognitive-bias"
-  - "#scene/decision-making"
-  - "#yitang"
 title: "暗知识：五步法中的主要认知偏差"
 trust_level: "medium"
 type: "dk"
 updated_at: "2026-06-11"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '落地实操', 'course_id': 'yt-business-analysis-cognitive-biases', 'course_type': 'dk', 'level': 'core'}
+tags:
+  - #scene/business-analysis
+  - #scene/cognitive-bias
+  - #scene/decision-making
+  - #yitang
+pipeline:
+  - confidence-source-cited
 ---
 
 # 暗知识：五步法中的主要认知偏差

@@ -11,20 +11,21 @@ source_person: "纪浩"
 source_context: "AI俱乐部-AI协作方法论 分享——四要素验证法的补充说明"
 source_refs:
   - "00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt"
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/ai-collaboration"
-  - "#scene/ai-collaboration/problem-validation"
-  - "#scene/hardware-debugging/prototyping"
-  - "#source_type/dark-knowledge"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
   - "concept-纪浩-ai-collaboration-methodology"
   - "skill-纪浩-four-elements-validation"
+tags:
+  - #domain/ai-collaboration
+  - #scene/ai-collaboration/problem-validation
+  - #scene/hardware-debugging/prototyping
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/requires-human-judgment
+  - #source_type/dark-knowledge
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 暗知识：新手也可以用四要素验证

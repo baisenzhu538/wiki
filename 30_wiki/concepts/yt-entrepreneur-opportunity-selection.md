@@ -26,21 +26,22 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/live-field"
-  - "#yitang"
 title: "机会选择"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '机会选择', 'course_id': 'yt-entrepreneur-opportunity-selection', 'course_type': 'method', 'level': 'core'}
+tags:
+  - #scene/business-analysis
+  - #scene/knowledge-management
+  - #scene/learning-methodology
+  - #scene/note-taking/live-field
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 机会选择

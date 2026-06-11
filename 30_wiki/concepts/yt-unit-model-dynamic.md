@@ -30,27 +30,28 @@ source_refs:
   - "src_20260524_6b5a4c3d-一堂-单元模型04口述"
   - "src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述"
 status: "draft"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#dynamic-modeling"
-  - "#entrepreneur"
-  - "#scaling"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/level-diagnosis"
-  - "#tool"
-  - "#unit-model"
-  - "#yitang"
 title: "动态单元模型：规模变量、拐点预判与规模经济对抗"
 trust_level: "high"
 type: "tool"
 updated_at: 2026-05-24
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'tool', 'level': 'advanced'}
+tags:
+  - #dynamic-modeling
+  - #entrepreneur
+  - #scaling
+  - #scene/business-analysis/customer-acquisition
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/level-diagnosis
+  - #unit-model
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 动态单元模型：规模变量、拐点预判与规模经济对抗

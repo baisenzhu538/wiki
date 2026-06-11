@@ -10,14 +10,15 @@ title: "OCR: 项目背景问题思考的8个维度"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/skill-engineering"
+  - #scene/business-analysis
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology
+  - #scene/note-taking/checklist-method
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # OCR: 项目背景问题思考的8个维度

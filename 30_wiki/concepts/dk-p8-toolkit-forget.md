@@ -10,16 +10,6 @@ source_person: "system"
 source_context: "pitfalls.md P-8"
 source_refs:
   - ".agent/pitfalls.md#P-8"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
@@ -28,6 +18,17 @@ contradicts:
   - "master-knowledge-compound"
   - "kdo-flywheel"
   - "master-first-principles"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/learning-methodology
+  - #scene/note-taking
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # P-8：欧阳锋忘记本地已有武器——重新调研已部署工具

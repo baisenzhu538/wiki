@@ -24,23 +24,24 @@ reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修身-Y模型探索营2口述版.md"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/single-use-only"
-  - "#cognitive-leap"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/live-field"
-  - "#scientific-method"
-  - "#y-model"
-  - "#yitang"
 title: "Y模型探索营2：五次质变与科学推演"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'explore_camp'}
+tags:
+  - #cognitive-leap
+  - #scene/business-analysis
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/live-field
+  - #scientific-method
+  - #y-model
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/single-use-only
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # Y模型探索营2：五次质变与科学推演

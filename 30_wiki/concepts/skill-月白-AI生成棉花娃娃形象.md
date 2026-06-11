@@ -12,19 +12,20 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "工具要求明确"
-tags:
-  - "confidence-draft"
-  - "#domain/general"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
 tools_required: ""
 prerequisite_skills: ""
 related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #domain/general
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/feedback-loop
+  - #scene/product-design
+  - #scene/skill-engineering
+pipeline:
+  - confidence-draft
 ---
 
 # 技能：AI生成棉花娃娃形象

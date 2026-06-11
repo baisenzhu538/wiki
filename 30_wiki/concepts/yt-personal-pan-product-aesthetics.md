@@ -25,25 +25,26 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
 status: "enriched"
-tags:
-  - "#aesthetics"
-  - "#best-practice"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "confidence-verified-by-test"
-  - "#pan-product-design"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/eval-testing"
-  - "#yitang"
 title: "泛产品设计审美篇：最佳实践与审美建模"
 type: "concept"
 updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'required', 'level': 'intermediate'}
+tags:
+  - #aesthetics
+  - #best-practice
+  - #pan-product-design
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/product-design
+  - #scene/skill-engineering/eval-testing
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
+  - confidence-verified-by-test
 ---
 
 # 泛产品设计审美篇：永远以最佳实践为追求

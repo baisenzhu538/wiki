@@ -12,18 +12,19 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "工具要求明确"
-tags:
-  - "confidence-draft"
-  - "confidence-verified-by-case"
-  - "#domain/design"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/skill-engineering"
 tools_required: ""
 prerequisite_skills: ""
 related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #domain/design
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/learning-methodology/feedback-loop
+  - #scene/skill-engineering
+pipeline:
+  - confidence-draft
+  - confidence-verified-by-case
 ---
 
 # 技能：微信公众号封面AI设计-尺寸强约束法

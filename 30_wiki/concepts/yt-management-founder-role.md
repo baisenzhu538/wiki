@@ -31,13 +31,14 @@ query_triggers:
   - "老板怎么定方向"
   - "创始人角色"
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#yitang"
+  - #scene/learning-methodology
+  - #scene/note-taking/level-diagnosis
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 一号位

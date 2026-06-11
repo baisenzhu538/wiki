@@ -46,18 +46,6 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-发现决策.png"
   - "00_inbox/科学决策/一堂-科学决策-商业模式-完整财务公式决策.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#decision-making"
-  - "#framework"
-  - "#process"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
-  - "#workflow"
-  - "#yitang"
 title: "科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型"
 trust_level: "medium"
 type: "framework"
@@ -70,6 +58,19 @@ visual_analysis:
   - {"image": "一堂-科学决策-商业模式-完整财务公式决策.png", "dimensions": [{"色彩语义": "蓝=未达标(L1-L3)；红=及格/突破(L4-L6)；黑=框架主干；灰=辅助分隔"}, {"空间结构": "垂直三层(导航锚点→能力轴→诊断矩阵)；T型结构(商业模式箭头穿透)"}, {"信息层级": "P0商业模式→P1及格线+L4-L6→P2 L1-L3→P3错误矩阵→P4顶级认知空白"}, {"负形利用": "L6右侧延伸=无上限成长；顶级认知空白=不可言说需顿悟；标题呼吸带"}, {"视觉隐喻": "时间轴=能力成熟度；蓝→红=认知跃迁；及格线=可习得技能；箭头=重力源；空白=默会知识"}]}
   - {"image": "一堂-科学决策-关键训练清单（重要））.png", "dimensions": [{"色彩语义": "深灰标题栏=权威容器；黑字=信息主体；蓝字=维度标签；红字=心态提示；绿字=行动要点"}, {"空间结构": "三列矩阵表格(决策维度/关键思考和心态/具体做事清单)；行=不同高度子维度"}, {"信息层级": "L1 主标题 → L2 维度标签(宽度/深度/高度) → L3 子维度标签 → L4 具体问句和行动项"}, {"负形利用": "右侧空白区=给使用者留下自己的补充；行间距=高密度信息的呼吸感"}, {"视觉隐喻": "清单=checklist可复制执行；#默认我会...是心态突破点；三列式=从思维到行动的完整闭环"}]}
 yitang: {'course_id': 'yt-decision-full-process', 'course_type': 'framework', 'level': 'intermediate', 'map': 'entrepreneur', 'module': '科学决策'}
+tags:
+  - #decision-making
+  - #process
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering
+  - #workflow
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #framework
+  - confidence-source-cited
 ---
 
 # 科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型

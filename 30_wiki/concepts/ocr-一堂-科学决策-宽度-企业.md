@@ -10,12 +10,13 @@ title: "OCR: 一堂-科学决策-宽度-企业"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
+  - #scene/business-analysis/customer-acquisition
+  - #scene/learning-methodology
+  - #scene/note-taking
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 一堂-科学决策-宽度-企业

@@ -7,16 +7,17 @@ created_at: 2026-05-31
 source_refs:
   - "30_wiki/concepts/master-decision-hygiene.md"
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#quality/high-signal"
-  - "#scene/agent-infrastructure"
-  - "#scene/knowledge-management/atomization"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/live-field"
+  - #domain/knowledge-management
+  - #quality/high-signal
+  - #scene/agent-infrastructure
+  - #scene/knowledge-management/atomization
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/live-field
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # Pilot：master-decision-hygiene 真原子切分对比

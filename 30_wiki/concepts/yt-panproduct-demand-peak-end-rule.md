@@ -28,25 +28,26 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-峰终定律.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-beginners"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#pan-product-design"
-  - "#peak-end-rule"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#user-experience"
-  - "#yitang"
 title: "泛产品设计·用户卡片：峰终定律"
 type: "tool"
 updated_at: 2026-05-13
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
+tags:
+  - #pan-product-design
+  - #peak-end-rule
+  - #scene/business-analysis/conversion-rate
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #user-experience
+  - #yitang
+pipeline:
+  - #boundary/not-for-beginners
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 峰终定律：用户体验的二八定律

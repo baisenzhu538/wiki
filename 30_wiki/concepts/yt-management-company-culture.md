@@ -31,12 +31,13 @@ query_triggers:
   - "小公司需要文化吗"
   - "企业文化不是口号"
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
-  - "#yitang"
+  - #scene/note-taking
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 公司文化

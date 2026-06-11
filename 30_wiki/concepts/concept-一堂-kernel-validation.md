@@ -10,12 +10,6 @@ source_person: "Truman"
 source_context: "一堂产品内核验证课（2026年）"
 source_refs:
   - "00_inbox/一堂-产品内核验证课-Truman-口述.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/product"
-  - "#domain/yitang"
-  - "#scene/business-analysis/validation"
 created_at: "2026-06-09"
 updated_at: "2026-06-09"
 related:
@@ -25,6 +19,13 @@ related:
 wiki_refs:
   - "concept-一堂-product-kernel"
   - "concept-一堂-key-assumptions"
+tags:
+  - #domain/product
+  - #domain/yitang
+  - #scene/business-analysis/validation
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 产品内核验证：三维度评估 + 六策略验证

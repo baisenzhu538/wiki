@@ -23,16 +23,17 @@ query_triggers:
   - "行业硬伤"
   - "创业风险清单"
   - "项目致命缺陷"
-tags:
-  - "#yitang"
-  - "#scene/business-analysis"
-  - "#scene/risk-assessment"
-  - "confidence-source-cited"
 related: {'series': False}
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-addition-subtraction.md"
   - "30_wiki/concepts/yt-ai-startup-20-risky-hypotheses.md"
+tags:
+  - #yitang
+  - #scene/business-analysis
+  - #scene/risk-assessment
+pipeline:
+  - confidence-source-cited
 ---
 
 # 十大硬伤：商业机会的致死缺陷清单

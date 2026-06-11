@@ -25,20 +25,21 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/live-field"
-  - "#yitang"
 title: "Y模型/科学方法"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-09
 version: 1
 yitang: {'map': 'entrepreneur', 'module': 'Y模型/科学方法', 'course_id': 'yt-entrepreneur-scientific-method', 'course_type': 'method', 'level': 'foundational'}
+tags:
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/live-field
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # Y模型/科学方法

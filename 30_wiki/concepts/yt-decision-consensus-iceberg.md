@@ -33,19 +33,6 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt"
   - "00_inbox/科学决策/一堂-科学决策-高水平共识曲线（重要）.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#consensus"
-  - "#decision-making"
-  - "#leadership"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/checklist-method"
-  - "#tool"
-  - "#yitang"
 title: "共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问"
 trust_level: "medium"
 type: "tool"
@@ -54,6 +41,20 @@ version: 1
 visual_analysis:
   - {"image": "一堂-科学决策-高水平共识曲线（重要）.png", "dimensions": [{"色彩语义": "左半红橙暖色（爬山/决策推进）→右半蓝紫冷色（冰山/说服挖掘）；红色弧线=共识深度的温度曲线"}, {"空间结构": "双隐喻结构——左爬山（自下而上推进）+右冰山（自上而下挖掘）；海平面线=可见/隐藏分界"}, {"信息层级": "L1 行动共识（水面之上）→L2 判断共识→L3 逻辑共识→L4 信息共识（冰山底部）"}, {"负形利用": "海平面下90%体积=隐藏的认知深度；水面线=日常讨论的可见边界"}, {"视觉隐喻": "爬山=决策是\"推出来\"的（信息→逻辑→判断→行动）；冰山=说服是\"挖出来\"的（行动→判断→逻辑→信息）；海平面=10%可见/90%隐藏"}, {"关键洞察": "Step1-4与Level4-1的反向对应——决策从下往上推，说服从上往下挖"}]}
 yitang: {'course_id': 'yt-decision-consensus-iceberg', 'course_type': 'tool', 'level': 'advanced', 'map': 'entrepreneur', 'module': '科学决策'}
+tags:
+  - #consensus
+  - #decision-making
+  - #leadership
+  - #scene/business-analysis
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/checklist-method
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问

@@ -23,22 +23,23 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/预判模型.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#decision-making"
-  - "#entrepreneurship"
-  - "#prediction"
-  - "#scene/knowledge-management/case-library"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#yitang"
 title: "预判模型：从最糙版到复杂版的三种预判范式"
 type: "framework"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'framework'}
+tags:
+  - #decision-making
+  - #entrepreneurship
+  - #prediction
+  - #scene/knowledge-management/case-library
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 预判模型：从最糙版到复杂版的三种预判范式

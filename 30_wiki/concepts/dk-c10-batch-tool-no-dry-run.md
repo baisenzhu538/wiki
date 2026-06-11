@@ -10,20 +10,21 @@ source_person: "欧阳锋"
 source_context: "Sprint 6 终审发现，2026-05-20"
 source_refs:
   - "20_memory/corrections.md#C-10"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/skill-engineering/eval-testing"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
   - "dk-c8-format-complete-mind-empty"
   - "master-decision-hygiene"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/learning-methodology/mental-models
+  - #scene/skill-engineering/eval-testing
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空

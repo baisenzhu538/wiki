@@ -12,31 +12,6 @@ source_refs:
   - "00_inbox/纪浩-AI协作方法论-口述.md"
   - "00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md"
   - "00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#domain/ai-collaboration"
-  - "#domain/yitang"
-  - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/ai-collaboration/pdca-execution"
-  - "#scene/ai-collaboration/problem-validation"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/ai-collaboration/skill-market"
-  - "#scene/ai-collaboration/workspace-design"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/product-design/focus-workbench"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#scene/skill-engineering/eval-testing"
-  - "#scene/skill-engineering/publish-deploy"
 created_at: "2026-06-07"
 updated_at: "2026-06-08"
 related:
@@ -50,6 +25,32 @@ related:
   - "dk-纪浩-pdca-starts-from-do"
   - "dk-纪浩-logs-fastest-ignored"
   - "case-纪浩-from-zip-to-five-layers"
+tags:
+  - #domain/ai-collaboration
+  - #domain/yitang
+  - #scene/agent-infrastructure
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/ai-collaboration/pdca-execution
+  - #scene/ai-collaboration/problem-validation
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/ai-collaboration/skill-market
+  - #scene/ai-collaboration/workspace-design
+  - #scene/knowledge-management
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/product-design/focus-workbench
+  - #scene/skill-engineering/course-to-skill
+  - #scene/skill-engineering/eval-testing
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 纪浩 AI 协作方法论

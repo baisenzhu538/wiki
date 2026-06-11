@@ -18,11 +18,6 @@ definition_of_done:
   - 每次列出至少10条假设
   - 至少3条被分类为"历史惯性"或"人为约定"
   - 新方案与现状差异≥30%
-tags:
-  - "#domain/innovation"
-  - "#skill-type/validation"
-  - "#method/checklist"
-  - "#tool/brain"
 tools_required:
   - 无（纯思维工具）
   - 纸/白板（列出假设用）
@@ -30,6 +25,12 @@ prerequisite_skills: []
 related: []
 created_at: 2026-06-11
 updated_at: 2026-06-11
+tags:
+  - #domain/innovation
+  - #method/checklist
+  - #tool/brain
+pipeline:
+  - #skill-type/validation
 ---
 
 # 技能：假设分类法（第一性原理）

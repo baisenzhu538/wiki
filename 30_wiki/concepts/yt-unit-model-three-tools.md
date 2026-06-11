@@ -25,17 +25,18 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-斧子尺子和梯子.png"
 status: "reviewed"
-tags:
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/entrepreneurship"
-  - "#yitang"
 title: "单元模型三工具：斧子尺子梯子"
 trust_level: "medium"
 type: "framework"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '五步法', 'course_id': 'yt-unit-model-three-tools', 'course_type': 'framework', 'level': 'core'}
+tags:
+  - #scene/business-analysis
+  - #scene/entrepreneurship
+  - #yitang
+pipeline:
+  - confidence-source-cited
 ---
 
 # 单元模型三工具：斧子尺子梯子

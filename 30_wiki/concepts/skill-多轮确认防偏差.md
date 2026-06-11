@@ -12,9 +12,10 @@ definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工�
 tools_required: [对话式LLM]
 prerequisite_skills: []
 related: []
-tags: ['#skill']
 created_at: "2026-06-09T14:38:36+00:00"
 updated_at: "2026-06-09T14:38:36+00:00"
+pipeline:
+  - #skill
 ---
 
 # 技能：多轮确认防偏差

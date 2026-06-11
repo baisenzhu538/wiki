@@ -33,28 +33,29 @@ source_refs:
   - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
   - "src_20260524_6b5a4c3d-一堂-单元模型04口述"
 status: "draft"
-tags:
-  - "#benchmarking"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#entrepreneur"
-  - "#forecasting"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/skill-engineering"
-  - "#tool"
-  - "#unit-model"
-  - "#yitang"
 title: "单元模型基准值：科学类比、三点预测与基准值共建"
 trust_level: "high"
 type: "tool"
 updated_at: 2026-05-25
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'tool', 'level': 'intermediate'}
+tags:
+  - #benchmarking
+  - #entrepreneur
+  - #forecasting
+  - #scene/business-analysis/conversion-rate
+  - #scene/business-analysis/customer-acquisition
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/level-diagnosis
+  - #scene/skill-engineering
+  - #unit-model
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - #tool
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 单元模型基准值：科学类比、三点预测与基准值共建

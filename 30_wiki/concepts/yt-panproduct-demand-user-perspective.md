@@ -28,23 +28,24 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-用户视角.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#empathy"
-  - "#pan-product-design"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#user-research"
-  - "#yitang"
 title: "泛产品设计·用户卡片：用户视角"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
+tags:
+  - #empathy
+  - #pan-product-design
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #user-research
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 用户视角：一秒转化用户视角

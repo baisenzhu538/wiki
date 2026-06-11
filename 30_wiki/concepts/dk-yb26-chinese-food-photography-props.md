@@ -10,19 +10,20 @@ source_person: "月白"
 source_context: "口述稿: AI设计-AI设计师实操培训01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/design"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/checklist-method"
-  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb17-product-lifestyle-photography"
   - "dk-yb19-visual-strategy-price-match"
 contradicts: ""
+tags:
+  - #domain/design
+  - #scene/learning-methodology
+  - #scene/note-taking/checklist-method
+pipeline:
+  - #source_type/dark-knowledge
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 中式食物摄影低成本氛围道具搭配

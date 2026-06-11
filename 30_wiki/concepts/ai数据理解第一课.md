@@ -20,15 +20,16 @@ query_triggers:
   - "数据复利"
   - "投喂检索训练"
 tags:
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "#scene/agent-infrastructure/skill-registry"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/knowledge-management/atomization"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/agent-infrastructure/skill-registry
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/knowledge-management/atomization
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology
+  - #scene/note-taking/level-diagnosis
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 # AI数据理解第一课

@@ -12,9 +12,10 @@ definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工�
 tools_required: [标准化能力模块, 城市合伙人合作协议]
 prerequisite_skills: []
 related: []
-tags: ['#skill']
 created_at: "2026-06-09T15:07:29+00:00"
 updated_at: "2026-06-09T15:07:29+00:00"
+pipeline:
+  - #skill
 ---
 
 # 技能：城市合伙人模式复制能力

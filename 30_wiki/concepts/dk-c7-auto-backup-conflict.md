@@ -10,20 +10,21 @@ source_person: "Builder"
 source_context: "2026-05-03"
 source_refs:
   - "20_memory/corrections.md#C-7"
-tags:
-  - "#boundary/single-use-only"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
   - "dk-c10-batch-tool-no-dry-run"
   - "master-knowledge-compound"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/knowledge-management
+  - #scene/learning-methodology
+pipeline:
+  - #boundary/single-use-only
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交

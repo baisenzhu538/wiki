@@ -24,24 +24,25 @@ source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-科学学习IPO完整清单.jpg"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#catalog"
-  - "confidence-source-cited"
-  - "#learning-model"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/level-diagnosis"
-  - "#yitang"
 title: "IPO 科学学习完整清单"
 type: "framework"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '科学学习', 'course_type': 'reference'}
+tags:
+  - #catalog
+  - #learning-model
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/business-analysis/conversion-rate
+  - #scene/knowledge-management
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/level-diagnosis
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 # IPO 科学学习完整清单 (Complete List)

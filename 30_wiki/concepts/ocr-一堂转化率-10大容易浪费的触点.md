@@ -10,14 +10,15 @@ title: "OCR: 一堂转化率-10大容易浪费的触点"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/skill-engineering"
+  - #scene/business-analysis/conversion-rate
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/level-diagnosis
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # OCR: 一堂转化率-10大容易浪费的触点

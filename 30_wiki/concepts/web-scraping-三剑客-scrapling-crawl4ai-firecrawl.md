@@ -7,19 +7,20 @@ review_date: 2026-05-04
 reviewed_by: "黄药师"
 source_refs: ""
 status: "enriched"
-tags:
-  - "#ai-tools"
-  - "#anti-bot"
-  - "#boundary/requires-human-judgment"
-  - "#rag"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#web-scraping"
 title: "Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl"
 trust_level: "high"
 type: "concept"
 updated_at: 2026-05-04
+tags:
+  - #ai-tools
+  - #anti-bot
+  - #rag
+  - #scene/ai-collaboration
+  - #scene/learning-methodology
+  - #scene/skill-engineering/publish-deploy
+  - #web-scraping
+pipeline:
+  - #boundary/requires-human-judgment
 ---
 
 # Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl

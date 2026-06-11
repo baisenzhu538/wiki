@@ -10,16 +10,6 @@ source_person: "system"
 source_context: "pitfalls.md P-6"
 source_refs:
   - ".agent/pitfalls.md#P-6"
-tags:
-  - "#boundary/single-use-only"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
@@ -28,6 +18,17 @@ related:
 contradicts:
   - "master-systems-thinking"
   - "master-first-principles"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/learning-methodology
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/single-use-only
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session ID

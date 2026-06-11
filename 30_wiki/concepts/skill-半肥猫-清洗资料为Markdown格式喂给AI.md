@@ -9,18 +9,6 @@ source_person: "半肥猫"
 source_context: "AI俱学乐部-AI学习落地 分享"
 source_refs:
   - "00_inbox/半肥猫-AI学习落地-口述.md"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/ai-collaboration"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management/atomization"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/course-to-skill"
 tools_required:
   - "文本编辑工具"
 prerequisite_skills:
@@ -33,6 +21,19 @@ related:
   - "dk-半肥猫-atomic-no-standard"
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #domain/ai-collaboration
+  - #scene/ai-collaboration
+  - #scene/knowledge-management/atomization
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/product-design
+  - #scene/skill-engineering/course-to-skill
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 技能：清洗资料为 Markdown 格式喂给 AI

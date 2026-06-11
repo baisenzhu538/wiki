@@ -33,23 +33,24 @@ source_refs:
   - "00_inbox/一堂-产品内核验证课-truman-笔记.txt"
   - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
 status: "enriched"
-tags:
-  - "confidence-source-cited"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering/manifest-design"
-  - "#yitang"
-  - "#产品内核"
-  - "#创业"
 title: "产品内核定义、迭代与验证方法论"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-06-06
 version: 2
 yitang: {'map': 'entrepreneur', 'module': '产品内核', 'course_id': 'yt-entrepreneur-product-core', 'course_type': 'method', 'level': 'foundational'}
+tags:
+  - #scene/business-analysis/conversion-rate
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/level-diagnosis
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering/manifest-design
+  - #yitang
+  - #产品内核
+  - #创业
+pipeline:
+  - confidence-source-cited
 ---
 
 # 产品内核定义、迭代与验证方法论

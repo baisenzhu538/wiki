@@ -31,21 +31,22 @@ source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
   - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
 status: "reviewed"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#research"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#tool"
-  - "#yitang"
 title: "专家访谈工具：2小时获取行业共识的标准流程"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-expert-interview', 'course_type': 'tool', 'level': 'intermediate'}
+tags:
+  - #research
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/publish-deploy
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-source-cited
 ---
 
 # 专家访谈工具：2小时获取行业共识的标准流程

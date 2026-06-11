@@ -10,11 +10,12 @@ title: "OCR: 泛产品设计-审美卡片-最佳实践池子"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/product-design"
+  - #scene/business-analysis
+  - #scene/knowledge-management/tagging
+  - #scene/product-design
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # OCR: 泛产品设计-审美卡片-最佳实践池子

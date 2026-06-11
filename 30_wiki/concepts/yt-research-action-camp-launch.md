@@ -15,15 +15,16 @@ reviewed_by: "黄药师"
 review_date: "2026-05-06"
 estimated_tokens: 3400
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering"
+  - #scene/ai-collaboration
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 一堂调研行动营 · 启动课（LLM 精炼）

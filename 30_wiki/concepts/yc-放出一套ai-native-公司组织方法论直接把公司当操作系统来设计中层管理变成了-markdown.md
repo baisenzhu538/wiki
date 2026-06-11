@@ -13,15 +13,16 @@ trust_level: "medium"
 type: "concept"
 updated_at: 2026-05-04
 tags:
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - #scene/ai-collaboration
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
 ---
 
 # YC 放出一套「AI-NATIVE 公司」组织方法论

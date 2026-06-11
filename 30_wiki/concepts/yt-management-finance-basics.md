@@ -31,11 +31,12 @@ query_triggers:
   - "毛利率怎么算"
   - "创业财务基础"
 tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#yitang"
+  - #yitang
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 财务入门

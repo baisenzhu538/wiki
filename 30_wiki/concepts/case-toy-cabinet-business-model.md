@@ -22,16 +22,17 @@ source_refs:
   - "00_inbox/一堂五步法/一堂=一堂五步法-商业模型-线下玩具柜案例.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt"
 status: "reviewed"
-tags:
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#yitang"
 title: "案例：线下玩具柜商业模式"
 trust_level: "medium"
 type: "case"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '商业模式', 'course_id': 'case-toy-cabinet-business-model', 'course_type': 'case', 'level': 'core'}
+tags:
+  - #scene/business-analysis
+  - #yitang
+pipeline:
+  - confidence-source-cited
 ---
 
 # 案例：线下玩具柜商业模式

@@ -31,18 +31,19 @@ reviewed_by: ""
 source_refs:
   - {"来源": "Jay Forrester, Donella Meadows, Peter Senge"}
 status: "enriched"
-tags:
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/manifest-design"
 title: "系统思考：反馈循环与杠杆点"
 type: "concept"
 updated_at: 2026-05-18
 version: 1
+tags:
+  - #scene/business-analysis
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/manifest-design
+pipeline:
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 系统思考：反馈循环与杠杆点

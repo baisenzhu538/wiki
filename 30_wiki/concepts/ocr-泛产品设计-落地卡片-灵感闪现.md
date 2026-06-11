@@ -10,12 +10,13 @@ title: "OCR: 泛产品设计-落地卡片-灵感闪现"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration/pdca-execution"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/ai-collaboration/pdca-execution
+  - #scene/learning-methodology/feedback-loop
+  - #scene/product-design
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 # OCR: 泛产品设计-落地卡片-灵感闪现

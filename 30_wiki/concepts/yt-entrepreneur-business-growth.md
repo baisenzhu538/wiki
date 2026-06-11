@@ -26,20 +26,21 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "业务增长"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '业务增长', 'course_id': 'yt-entrepreneur-business-growth', 'course_type': 'method', 'level': 'core'}
+tags:
+  - #scene/business-analysis/conversion-rate
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 业务增长

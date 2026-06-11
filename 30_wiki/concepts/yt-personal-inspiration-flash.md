@@ -26,21 +26,22 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#yitang"
 title: "灵感闪现（认知篇）"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '灵感闪现（认知篇）', 'course_id': 518, 'course_type': 'method', 'level': 'advanced'}
+tags:
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/skill-engineering/publish-deploy
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 灵感闪现（认知篇）

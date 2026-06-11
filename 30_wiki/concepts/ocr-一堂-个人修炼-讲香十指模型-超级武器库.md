@@ -10,12 +10,13 @@ title: "OCR: 一堂-个人修炼-讲香十指模型-超级武器库"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology"
+  - #scene/business-analysis
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology
+pipeline:
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # OCR: 一堂-个人修炼-讲香十指模型-超级武器库

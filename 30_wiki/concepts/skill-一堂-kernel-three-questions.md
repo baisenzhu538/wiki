@@ -11,13 +11,6 @@ source_context: "一堂产品内核验证课"
 source_refs:
   - "00_inbox/一堂-产品内核验证课-Truman-口述.txt"
   - "00_inbox/一堂-产品内核验证课-truman-笔记.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/product"
-  - "#domain/yitang"
-  - "#scene/business-analysis/product-design"
-  - "#scene/startup/hypothesis-validation"
 tools_required:
   - "产品内核画布（已完成加减法后的版本）"
   - "用户访谈或问卷工具（可选）"
@@ -34,6 +27,14 @@ wiki_refs:
   - "skill-一堂-five-step-validation"
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
+tags:
+  - #domain/product
+  - #domain/yitang
+  - #scene/business-analysis/product-design
+  - #scene/startup/hypothesis-validation
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 技能：内核要素三问验证法

@@ -5,17 +5,6 @@ type: "concept"
 status: "draft"
 domain:
   - "master"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/agent-infrastructure/skill-registry"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/live-field"
 source_refs:
   - "HILTS框架（ScienceDirect, 2026）"
   - "NVIDIA分块策略基准（2025）"
@@ -23,6 +12,18 @@ source_refs:
   - "Gruber本体设计五原则"
 created_at: 2026-05-31
 updated_at: 2026-05-31
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/agent-infrastructure/skill-registry
+  - #scene/business-analysis
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/live-field
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 数据标注最佳实践调研报告

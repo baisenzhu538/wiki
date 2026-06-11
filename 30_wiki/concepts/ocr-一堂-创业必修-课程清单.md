@@ -10,14 +10,15 @@ title: "OCR: 一堂-创业必修-课程清单"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/live-field"
+  - #scene/business-analysis/conversion-rate
+  - #scene/knowledge-management
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/live-field
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # OCR: 一堂-创业必修-课程清单

@@ -12,13 +12,14 @@ yitang: {'map': 'entrepreneur', 'module': '案例学习', 'course_id': 'yt-case-
 reviewed_by: "黄药师"
 review_date: "2026-05-06"
 tags:
-  - "#boundary/not-for-creative"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management/case-library"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering"
+  - #scene/business-analysis
+  - #scene/knowledge-management/case-library
+  - #scene/learning-methodology
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/not-for-creative
 ---
 
 # 一堂案例必修课

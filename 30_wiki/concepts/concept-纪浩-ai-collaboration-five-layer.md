@@ -10,13 +10,6 @@ source_person: "纪浩"
 source_context: "AI俱乐部·AI协作方法论分享（2026年）"
 source_refs:
   - "00_inbox/纪浩-AI协作方法论-口述.md"
-tags:
-  - "confidence-published"
-  - "confidence-source-cited"
-  - "#domain/ai-collaboration"
-  - "#agent-management"
-  - "#workspace-design"
-  - "#knowledge-management"
 created_at: "2026-06-09"
 updated_at: "2026-06-09"
 related:
@@ -32,6 +25,14 @@ definition_of_done:
   - "有演变或派生"
   - "有关联案例"
   - "有关联与这个概念相关的其他概念"
+tags:
+  - #domain/ai-collaboration
+  - #agent-management
+  - #workspace-design
+  - #knowledge-management
+pipeline:
+  - confidence-published
+  - confidence-source-cited
 ---
 
 # 概念：纪浩AI协作五层工作空间法

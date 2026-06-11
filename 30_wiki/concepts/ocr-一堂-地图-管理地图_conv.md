@@ -10,12 +10,13 @@ title: "OCR: 一堂-地图-管理地图_conv"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "#scene/agent-infrastructure"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
+  - #scene/agent-infrastructure
+  - #scene/knowledge-management
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 # OCR: 一堂-地图-管理地图_conv

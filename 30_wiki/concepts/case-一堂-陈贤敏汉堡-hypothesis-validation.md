@@ -10,13 +10,6 @@ source_person: "一堂·Truman"
 source_context: "一堂-关键假设课-truman-笔记.txt"
 source_refs:
   - "00_inbox/一堂-关键假设课-truman-笔记.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/yitang"
-  - "#domain/business-strategy"
-  - "#scene/startup/hypothesis-validation"
-  - "#scene/success-pattern/minimum-experiment"
 created_at: "2026-06-08"
 updated_at: "2026-06-09"
 related:
@@ -32,6 +25,14 @@ definition_of_done:
   - "关键假设验证过程和数据已记录"
   - "可迁移条件和不可复制场景已明确"
   - "实际应用后收集反馈并更新案例"
+tags:
+  - #domain/yitang
+  - #domain/business-strategy
+  - #scene/startup/hypothesis-validation
+  - #scene/success-pattern/minimum-experiment
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 案例：陈贤敏中式汉堡先开实验店验证关键假设

@@ -22,21 +22,22 @@ source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-科学提问刻意练习.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#deliberate-practice"
-  - "#questioning"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/checklist-method"
-  - "#yitang"
 title: "科学提问刻意练习地图"
 type: "framework"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '提问能力', 'course_type': 'model'}
+tags:
+  - #deliberate-practice
+  - #questioning
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/checklist-method
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 科学提问刻意练习地图

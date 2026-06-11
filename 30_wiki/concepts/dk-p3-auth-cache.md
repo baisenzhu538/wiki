@@ -10,15 +10,6 @@ source_person: "system"
 source_context: "pitfalls.md P-3"
 source_refs:
   - ".agent/pitfalls.md#P-3"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology"
-  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
@@ -27,6 +18,16 @@ related:
 contradicts:
   - "master-systems-thinking"
   - "master-first-principles"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology
+pipeline:
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env

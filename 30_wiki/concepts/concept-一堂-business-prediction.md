@@ -14,12 +14,6 @@ source_person: "Truman"
 source_context: "一堂商业预判课（2026年）"
 source_refs:
   - "00_inbox/一堂-商业预判课-Truman-口述.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/product"
-  - "#domain/yitang"
-  - "#scene/business-analysis/prediction"
 created_at: "2026-06-09"
 updated_at: "2026-06-11"
 related:
@@ -28,6 +22,13 @@ related:
 wiki_refs:
   - "concept-一堂-key-assumptions"
   - "concept-一堂-product-kernel"
+tags:
+  - #domain/product
+  - #domain/yitang
+  - #scene/business-analysis/prediction
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 商业预判：15字诀与光谱模型——从拍脑袋到科学决策

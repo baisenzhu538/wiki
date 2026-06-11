@@ -27,25 +27,26 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/aima-ai-thinking-card-20260515.html"
 status: "enriched"
-tags:
-  - "#ai"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#decision-making"
-  - "#mental-models"
-  - "#scene/ai-collaboration"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
-  - "#systems-thinking"
 title: "PEAS核心洞察：决策系统的四槽诊断法"
 trust_level: "medium"
 type: "concept"
 updated_at: 2026-05-18
 version: 1
+tags:
+  - #ai
+  - #decision-making
+  - #mental-models
+  - #scene/ai-collaboration
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/skill-engineering
+  - #systems-thinking
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # PEAS核心洞察：决策系统的四槽诊断法

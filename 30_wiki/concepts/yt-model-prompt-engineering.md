@@ -26,26 +26,27 @@ query_triggers:
   - "迭代提示词"
   - "反谄媚"
   - "上下文工程"
-tags:
-  - "#ai"
-  - "#boundary/not-for-creative"
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#human-ai-collaboration"
-  - "#prompt-engineering"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
-  - "#yitang"
 created_at: "2026-05-13"
 updated_at: "2026-05-13"
 reviewed_by: "黄药师"
 estimated_tokens: 2500
+tags:
+  - #ai
+  - #human-ai-collaboration
+  - #prompt-engineering
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/knowledge-management
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 人机协作操作系统：提示词工程总框架

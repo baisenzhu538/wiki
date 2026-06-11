@@ -25,24 +25,25 @@ source_refs:
   - "10_raw/assets/yitang/一堂最佳转化率动力曲线图.png"
   - "10_raw/assets/yitang/一堂转化率-10大容易浪费的触点.png"
 status: "enriched"
-tags:
-  - "confidence-source-cited"
-  - "confidence-verified-by-test"
-  - "#conversion-optimization"
-  - "#growth"
-  - "#management"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#scene/skill-engineering/eval-testing"
-  - "#yitang"
 title: "转化率优化：动力三曲线 × 十大浪费触点"
 type: "framework"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'management', 'module': '管理必修', 'course_type': 'framework'}
+tags:
+  - #conversion-optimization
+  - #growth
+  - #management
+  - #scene/ai-collaboration
+  - #scene/business-analysis/conversion-rate
+  - #scene/business-analysis/customer-acquisition
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering/course-to-skill
+  - #scene/skill-engineering/eval-testing
+  - #yitang
+pipeline:
+  - confidence-source-cited
+  - confidence-verified-by-test
 ---
 
 # 转化率优化：动力三曲线 × 十大浪费触点

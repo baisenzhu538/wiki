@@ -34,27 +34,28 @@ related:
 source_refs:
   - "30_wiki/concepts/yt-management-team-knowledge.md"
 status: "draft"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#knowledge-management"
-  - "#management"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering"
-  - "#tool"
-  - "#yitang"
 title: "团队知识萃取器"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-19
 version: 1
 yitang: {'map': 'management', 'module': '管团队', 'course_type': 'tool', 'level': 'core'}
+tags:
+  - #knowledge-management
+  - #management
+  - #scene/business-analysis
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 团队知识萃取器

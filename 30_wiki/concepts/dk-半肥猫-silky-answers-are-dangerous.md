@@ -9,12 +9,6 @@ source_person: "半肥猫"
 source_context: "AI俱乐部·AI学习落地（2026-06分享）"
 source_refs:
   - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/ai-collaboration"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/research/evidence-review"
 created_at: "2026-06-08"
 updated_at: "2026-06-08"
 related:
@@ -29,6 +23,13 @@ definition_of_done:
   - "常见走偏模式已列出"
   - "识别方法已提供"
   - "案例已验证"
+tags:
+  - #domain/ai-collaboration
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/research/evidence-review
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 暗知：AI给的回答越丝滑，问题越大——“完全不等于可靠”陷阱

@@ -22,13 +22,13 @@ query_triggers:
   - "搜索盲区"
   - "口述稿没找到"
   - "文件名搜索"
-tags:
-  - "#dk/process-failure"
-  - "confidence-source-cited"
-  - "confidence-verified-by-incident"
 related: {'series': False}
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
+pipeline:
+  - #dk/process-failure
+  - confidence-source-cited
+  - confidence-verified-by-incident
 ---
 
 # 暗知识：素材命名不一致导致完整口述稿被遗漏

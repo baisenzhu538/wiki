@@ -10,16 +10,17 @@ title: "OCR: 一堂五步法-产品内核画布"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/agent-infrastructure"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/live-field"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/agent-infrastructure
+  - #scene/business-analysis/conversion-rate
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/live-field
+  - #scene/product-design
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # OCR: 一堂五步法-产品内核画布

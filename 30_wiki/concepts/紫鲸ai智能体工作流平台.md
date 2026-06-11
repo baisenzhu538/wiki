@@ -10,14 +10,15 @@ title: "紫鲸AI智能体工作流平台"
 type: "concept"
 updated_at: 2026-04-28
 tags:
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/knowledge-management"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/ai-collaboration
+  - #scene/business-analysis/conversion-rate
+  - #scene/knowledge-management
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 紫鲸AI智能体工作流平台

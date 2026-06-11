@@ -10,15 +10,6 @@ source_person: "system"
 source_context: "pitfalls.md P-5"
 source_refs:
   - ".agent/pitfalls.md#P-5"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
@@ -28,6 +19,16 @@ related:
 contradicts:
   - "master-systems-thinking"
   - "master-first-principles"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/learning-methodology
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹

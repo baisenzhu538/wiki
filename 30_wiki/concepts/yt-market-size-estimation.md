@@ -24,17 +24,18 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-需求-市场规模估算四种方法.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-需求-口述.txt"
 status: "reviewed"
-tags:
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/entrepreneurship"
-  - "#yitang"
 title: "市场规模估算四种方法"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '需求', 'course_id': 'yt-market-size-estimation', 'course_type': 'tool', 'level': 'core'}
+tags:
+  - #scene/business-analysis
+  - #scene/entrepreneurship
+  - #yitang
+pipeline:
+  - confidence-source-cited
 ---
 
 # 市场规模估算四种方法

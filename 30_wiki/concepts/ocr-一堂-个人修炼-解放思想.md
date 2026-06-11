@@ -10,14 +10,15 @@ title: "OCR: 一堂-个人修炼-解放思想"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
+  - #scene/business-analysis
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 一堂-个人修炼-解放思想

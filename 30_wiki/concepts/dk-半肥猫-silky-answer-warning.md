@@ -10,15 +10,6 @@ source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
   - "00_inbox/半肥猫-AI学习落地-口述.md"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#domain/ai-collaboration"
-  - "#domain/yitang"
-  - "#scene/ai-collaboration/problem-validation"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#type/dark-knowledge"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
@@ -26,6 +17,16 @@ related:
   - "skill-半肥猫-追问AI证据并标注信源"
   - "skill-半肥猫-边学边练边沉淀的AI学习法"
   - "concept-纪浩-ai-collaboration-methodology"
+tags:
+  - #domain/ai-collaboration
+  - #domain/yitang
+  - #scene/ai-collaboration/problem-validation
+  - #scene/skill-engineering/course-to-skill
+pipeline:
+  - #type/dark-knowledge
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 暗知识：AI 回答越丝滑，问题越大

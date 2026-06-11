@@ -14,11 +14,6 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "有真实失败案例"
-tags:
-  - "#domain/AI"
-  - "#scene/ai-collaboration"
-  - "#scene/ai-implementation"
-  - "confidence-source-cited"
 tools_required: ["基础AI工具（ChatGPT/Claude等）", "现有业务系统", "简单自动化脚本"]
 prerequisite_skills: []
 related:
@@ -28,6 +23,12 @@ created_at: "2026-06-07"
 updated_at: "2026-06-11"
 reviewed_by: "黄药师"
 confidence: 0.85
+tags:
+  - #domain/AI
+  - #scene/ai-collaboration
+  - #scene/ai-implementation
+pipeline:
+  - confidence-source-cited
 ---
 
 # 技能：业务为先的AI中台建设

@@ -23,24 +23,25 @@ query_triggers:
   - "脱敏处理"
   - "对话窗口隔离"
   - "复述验证"
-tags:
-  - "#ai"
-  - "#boundary/not-for-creative"
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#context"
-  - "#prompt-engineering"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/skill-engineering"
-  - "#yitang"
 created_at: "2026-05-13"
 updated_at: "2026-05-13"
 estimated_tokens: 3400
+tags:
+  - #ai
+  - #context
+  - #prompt-engineering
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/business-analysis
+  - #scene/learning-methodology
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 上下文工程：充分≠越多越好

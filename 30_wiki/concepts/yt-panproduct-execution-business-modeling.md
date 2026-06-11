@@ -30,25 +30,26 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-业务建模.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#business-modeling"
-  - "confidence-source-cited"
-  - "#execution"
-  - "#pan-product-design"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/live-field"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "泛产品设计·落地卡片：业务建模"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
+tags:
+  - #business-modeling
+  - #execution
+  - #pan-product-design
+  - #scene/business-analysis/conversion-rate
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/live-field
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 业务建模：学习拆解业务公式

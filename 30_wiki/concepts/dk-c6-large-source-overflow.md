@@ -10,21 +10,22 @@ source_person: "Builder"
 source_context: "2026-05-03"
 source_refs:
   - "20_memory/corrections.md#C-6"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/skill-engineering"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
   - "dk-c10-batch-tool-no-dry-run"
   - "master-first-principles"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/learning-methodology/feedback-loop
+  - #scene/skill-engineering
+pipeline:
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去

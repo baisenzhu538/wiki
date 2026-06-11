@@ -23,18 +23,19 @@ query_triggers:
   - "笔记怎么有洞察"
   - "往深了挖"
   - "三段论笔记"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#note-taking"
-  - "#critical-thinking"
-  - "#cognitive-tool"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/learning-methodology/deep-thinking"
-  - "#yitang"
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
 estimated_tokens: 4200
+tags:
+  - #note-taking
+  - #critical-thinking
+  - #cognitive-tool
+  - #scene/note-taking/checklist-method
+  - #scene/learning-methodology/deep-thinking
+  - #yitang
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 事实→规律→见解：深度思考笔记的三段论结构

@@ -12,18 +12,19 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "工具要求明确"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "#domain/AI"
-  - "#domain/scene-analysis"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/learning-methodology/feedback-loop"
 tools_required: ""
 prerequisite_skills: ""
 related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #domain/AI
+  - #domain/scene-analysis
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/learning-methodology/feedback-loop
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-draft
 ---
 
 # 技能：AI落地场景筛选-四有新人法则

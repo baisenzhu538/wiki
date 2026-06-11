@@ -26,28 +26,29 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/knowledge-management/atomization"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/product-design/design-freeze"
-  - "#scene/product-design/focus-workbench"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "知识管理"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '知识管理', 'course_id': 405, 'course_type': 'method', 'level': 'core'}
+tags:
+  - #scene/knowledge-management/atomization
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/level-diagnosis
+  - #scene/product-design/design-freeze
+  - #scene/product-design/focus-workbench
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 知识管理

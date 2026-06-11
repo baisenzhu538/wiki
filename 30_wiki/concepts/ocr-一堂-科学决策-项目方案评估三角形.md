@@ -10,10 +10,11 @@ title: "OCR: 一堂-科学决策-项目方案评估三角形"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - #scene/business-analysis
+  - #scene/learning-methodology
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 # OCR: 一堂-科学决策-项目方案评估三角形

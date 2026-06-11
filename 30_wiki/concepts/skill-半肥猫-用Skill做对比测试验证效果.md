@@ -9,19 +9,6 @@ source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
   - "00_inbox/半肥猫-AI学习落地-口述.md"
-tags:
-  - "#boundary/not-for-medical"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "confidence-verified-by-test"
-  - "#domain/ai-collaboration"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#scene/skill-engineering/eval-testing"
-  - "#scene/skill-engineering/publish-deploy"
 tools_required:
   - "AIGC大模型（支持 Skill 挂载的客户端）"
 prerequisite_skills:
@@ -33,6 +20,20 @@ related:
   - "dk-半肥猫-skill-rejection-value"
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #domain/ai-collaboration
+  - #scene/ai-collaboration
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/skill-engineering/course-to-skill
+  - #scene/skill-engineering/eval-testing
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-medical
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+  - confidence-verified-by-test
 ---
 
 # 技能：用 Skill 做对比测试验证效果

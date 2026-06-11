@@ -30,25 +30,26 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-酝酿式打磨.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#execution"
-  - "#iteration"
-  - "#pan-product-design"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/product-design"
-  - "#yitang"
 title: "泛产品设计·落地卡片：酝酿式打磨"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
+tags:
+  - #execution
+  - #iteration
+  - #pan-product-design
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/product-design
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 酝酿式打磨：科学式的灵感管理

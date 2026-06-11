@@ -10,23 +10,24 @@ source_person: "Builder"
 source_context: "2026-05-03"
 source_refs:
   - "20_memory/corrections.md#C-1"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
   - "dk-c10-batch-tool-no-dry-run"
   - "master-ai-info-literacy"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology
+  - #scene/note-taking
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # C-1：enrich 中文内容不能用 CLI regex→0 pages enriched 静默失败

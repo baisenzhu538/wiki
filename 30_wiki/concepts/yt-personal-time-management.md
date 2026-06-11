@@ -26,21 +26,22 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#yitang"
 title: "时间管理"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '时间管理', 'course_id': 401, 'course_type': 'method', 'level': 'foundational'}
+tags:
+  - #scene/knowledge-management
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 # 时间管理

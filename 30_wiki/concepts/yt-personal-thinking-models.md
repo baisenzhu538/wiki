@@ -24,26 +24,27 @@ reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修身-思维模型口述版.md"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#knowledge-extraction"
-  - "#mental-models"
-  - "#scene/knowledge-management/case-library"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/product-design/design-freeze"
-  - "#thinking"
-  - "#yitang"
 title: "思维模型：从碎片经验到稳定模型"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'explore_camp'}
+tags:
+  - #knowledge-extraction
+  - #mental-models
+  - #scene/knowledge-management/case-library
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/product-design/design-freeze
+  - #thinking
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 思维模型：从碎片经验到稳定模型

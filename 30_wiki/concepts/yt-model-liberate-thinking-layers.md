@@ -22,23 +22,24 @@ source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-解放思想.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#thinking-model"
-  - "#yitang"
 title: "解放思想五层模型"
 type: "framework"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '底层方法论', 'course_type': 'model'}
+tags:
+  - #scene/business-analysis
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #thinking-model
+  - #yitang
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 解放思想五层模型

@@ -21,24 +21,25 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂刻意练习十年成长指数.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "#deliberate-practice"
-  - "#growth-index"
-  - "#personal-growth"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/level-diagnosis"
-  - "#yitang"
 title: "刻意练习十年成长指数：为什么有人一年顶十年"
 type: "framework"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'framework'}
+tags:
+  - #deliberate-practice
+  - #growth-index
+  - #personal-growth
+  - #scene/business-analysis
+  - #scene/knowledge-management
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/level-diagnosis
+  - #yitang
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 # 刻意练习十年成长指数：为什么有人一年顶十年

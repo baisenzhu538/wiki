@@ -14,9 +14,10 @@ related:
   - "fix-data-curator-parse-bug"
   - "gold-standard-manual-labels"
 tags:
-  - "confidence-draft"
-  - "#scene/agent-infrastructure/skill-registry"
-  - "#scene/knowledge-management/tagging"
+  - #scene/agent-infrastructure/skill-registry
+  - #scene/knowledge-management/tagging
+pipeline:
+  - confidence-draft
 ---
 
 # KDO YAML Frontmatter 安全操作指南

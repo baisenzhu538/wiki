@@ -6,13 +6,14 @@ title: ""
 created_at: ""
 updated_at: ""
 tags:
-  - "#boundary/requires-human-judgment"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology"
-  - "#scene/product-design/design-freeze"
-  - "#scene/product-design/focus-workbench"
-  - "#scene/skill-engineering"
+  - #scene/business-analysis/conversion-rate
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology
+  - #scene/product-design/design-freeze
+  - #scene/product-design/focus-workbench
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/requires-human-judgment
 ---
 
 1|---

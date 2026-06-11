@@ -16,19 +16,20 @@ query_triggers:
   - "新手怎么用AI"
 reviewed_by: ""
 tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/ai-collaboration/problem-validation"
-  - "#scene/ai-collaboration/workspace-design"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#scene/skill-engineering/manifest-design"
+  - #scene/agent-infrastructure
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/ai-collaboration/problem-validation
+  - #scene/ai-collaboration/workspace-design
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/skill-engineering/course-to-skill
+  - #scene/skill-engineering/manifest-design
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/requires-human-judgment
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # AI协作思维转变：从"新手"到"管理者"

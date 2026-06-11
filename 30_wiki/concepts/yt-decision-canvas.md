@@ -35,18 +35,6 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-ROI决策评估画布-案例03.png"
   - "00_inbox/科学决策/一堂-科学决策-ROI决策评估画布-案例04.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "#canvas"
-  - "confidence-source-cited"
-  - "#decision-making"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#tool"
-  - "#yitang"
 title: "Y模型决策画布（一页纸工具）"
 trust_level: "medium"
 type: "tool"
@@ -59,6 +47,19 @@ visual_analysis:
   - {"image": "一堂-科学决策-ROI决策评估画布-案例03.png", "dimensions": [{"色彩语义": "深灰蓝标题栏=严肃基调；浅青收益端=增长正向；红数字=关键计算结果需关注；蓝字=口语化注释区分"}, {"空间结构": "三纵三横矩阵；基础ROI占55%视觉重心；非对称平衡(收益4项vs成本5项)"}, {"信息层级": "L1框架层→L2维度层→L3条目层→L4数据层(精确→估算→区间→定性递减)"}, {"负形利用": "长期成本留白=诚实面对不可预估；单元格行间距=高密度呼吸感；T形隐性结构"}, {"视觉隐喻": "画布=可绘制修改的创作；天平=收益成本博弈；旅程=从启程到归航的五阶段"}]}
   - {"image": "一堂-科学决策-ROI决策评估画布-案例04.png", "dimensions": [{"色彩语义": "深灰标题栏=正式容器；浅青维度列=理性氛围；红字=生死存亡紧迫感；橙结论=非理性决策跃迁"}, {"空间结构": "经典ROI二元结构→底部约束条件→全宽结论突破格律；结论获得视觉特权"}, {"信息层级": "P0标题→P1最终结论(反讽焦点)→P2红色情绪转折→P3支撑论据→P4背景约束"}, {"负形利用": "外部黑背景=决策黑暗(信息不完备)；引号=认知缓冲带；逻辑跳跃空白=教学暴露点"}, {"视觉隐喻": "画布=主观建构；红色=血液/生存恐惧；赌一把=赌场隐喻(ROI工具证明ROI局限)"}]}
 yitang: {'course_id': 'yt-decision-canvas', 'course_type': 'tool', 'level': 'intermediate', 'map': 'entrepreneur', 'module': '科学决策'}
+tags:
+  - #canvas
+  - #decision-making
+  - #scene/business-analysis
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/publish-deploy
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-source-cited
 ---
 
 # Y模型决策画布（一页纸工具）

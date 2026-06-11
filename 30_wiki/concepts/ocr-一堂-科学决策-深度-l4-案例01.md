@@ -10,14 +10,15 @@ title: "OCR: 一堂-科学决策-深度-L4-案例01"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/learning-methodology"
-  - "#scene/skill-engineering"
+  - #scene/ai-collaboration
+  - #scene/business-analysis/conversion-rate
+  - #scene/business-analysis/customer-acquisition
+  - #scene/learning-methodology
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 一堂-科学决策-深度-L4-案例01

@@ -15,25 +15,26 @@ source_refs:
   - "src_20260525_66059442"
 speaker: "国帅（胡帅），一堂联合创始人兼CTO"
 status: "enriched"
-tags:
-  - "#ai"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#ipo"
-  - "#judgment"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/eval-testing"
-  - "#webcoding"
-  - "#yitang"
 title: "AI时代判断力口述（国帅）"
 type: "concept"
 updated_at: 2026-05-25
+tags:
+  - #ai
+  - #ipo
+  - #judgment
+  - #scene/ai-collaboration
+  - #scene/knowledge-management
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/eval-testing
+  - #webcoding
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # AI时代判断力口述（国帅）

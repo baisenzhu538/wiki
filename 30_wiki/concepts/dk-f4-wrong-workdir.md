@@ -10,17 +10,6 @@ source_person: "system"
 source_context: "failure-modes.md F-KDO-004"
 source_refs:
   - "90_control/failure-modes.md#F-KDO-004"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/eval-testing"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
@@ -29,6 +18,18 @@ related:
 contradicts:
   - "dk-c10-batch-tool-no-dry-run"
   - "master-decision-hygiene"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/agent-infrastructure
+  - #scene/ai-collaboration
+  - #scene/learning-methodology
+  - #scene/note-taking
+  - #scene/skill-engineering/eval-testing
+pipeline:
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # F-KDO-004：错误工作目录执行 pipeline 命令→命令静默失败、无报错、无文件变更

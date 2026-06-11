@@ -10,13 +10,6 @@ source_person: "一堂·Truman"
 source_context: "一堂-关键假设课-truman-笔记.txt"
 source_refs:
   - "00_inbox/一堂-关键假设课-truman-笔记.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/yitang"
-  - "#domain/business-strategy"
-  - "#scene/startup/hypothesis-validation"
-  - "#scene/failure-mode/wishful-thinking"
 created_at: "2026-06-08"
 updated_at: "2026-06-09"
 related:
@@ -32,6 +25,14 @@ definition_of_done:
   - "关键假设失误点和验证路径已记录"
   - "可迁移条件和不可复制场景已明确"
   - "实际应用后收集反馈并更新案例"
+tags:
+  - #domain/yitang
+  - #domain/business-strategy
+  - #scene/startup/hypothesis-validation
+  - #scene/failure-mode/wishful-thinking
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 案例：一堂无人餐厅项目因忽视关键假设而失败

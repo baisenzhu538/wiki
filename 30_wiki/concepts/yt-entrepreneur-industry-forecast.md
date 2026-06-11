@@ -30,25 +30,26 @@ source_refs:
 status: "enriched"
 superseded_by:
   - "yt-foresight-business-spectrum"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/ai-collaboration/problem-validation"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering/manifest-design"
-  - "#yitang"
-  - "#创业"
-  - "#商业预判"
 title: "商业预判15字诀"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-06-06
 version: 2
 yitang: {'map': 'entrepreneur', 'module': '商业预判', 'course_id': 'yt-entrepreneur-industry-forecast', 'course_type': 'method', 'level': 'foundational'}
+tags:
+  - #scene/ai-collaboration/problem-validation
+  - #scene/business-analysis/customer-acquisition
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/level-diagnosis
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering/manifest-design
+  - #yitang
+  - #创业
+  - #商业预判
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 商业预判15字诀

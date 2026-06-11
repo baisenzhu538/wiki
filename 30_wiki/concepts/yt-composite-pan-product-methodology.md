@@ -36,28 +36,29 @@ source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
 status: "enriched"
 superseded_by: ""
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/product-design"
-  - "一堂"
-  - "产品设计"
-  - "方法论"
-  - "泛产品设计"
 title: "泛产品设计方法论"
 type: "composite-concept"
 updated_at: 2026-05-11
 version: 2
+tags:
+  - #scene/hardware-debugging/prototyping
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/level-diagnosis
+  - #scene/product-design
+  - 一堂
+  - 产品设计
+  - 方法论
+  - 泛产品设计
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 ## Claims

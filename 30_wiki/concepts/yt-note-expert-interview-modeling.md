@@ -26,19 +26,20 @@ query_triggers:
   - "现场萃取专家经验"
   - "用户访谈笔记"
   - "磨课笔记"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#note-taking"
-  - "#cognitive-tool"
-  - "#scene/research/expert-interview"
-  - "#scene/note-taking/live-field"
-  - "#scene/knowledge-management/extraction"
-  - "#scene/skill-engineering"
-  - "#yitang"
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
 estimated_tokens: 4500
+tags:
+  - #note-taking
+  - #cognitive-tool
+  - #scene/research/expert-interview
+  - #scene/note-taking/live-field
+  - #scene/knowledge-management/extraction
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 专家访谈式笔记：边聊边建模的高阶认知工作流

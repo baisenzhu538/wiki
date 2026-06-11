@@ -10,16 +10,6 @@ source_person: "system"
 source_context: "pitfalls.md P-11"
 source_refs:
   - ".agent/pitfalls.md#P-11"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/skill-engineering/eval-testing"
-  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
@@ -27,6 +17,17 @@ related:
 contradicts:
   - "master-first-principles"
   - "kdo-yaml-frontmatter-safety"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/skill-engineering/eval-testing
+pipeline:
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效

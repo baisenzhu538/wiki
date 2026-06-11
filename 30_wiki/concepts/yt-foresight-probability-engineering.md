@@ -23,16 +23,17 @@ query_triggers:
   - "四次试错"
   - "0.7的4次方"
   - "试错策略"
-tags:
-  - "#yitang"
-  - "#scene/decision-making"
-  - "#scene/strategic-planning"
-  - "confidence-source-cited"
 related: {'series': False}
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-decision-y-model.md"
   - "30_wiki/concepts/yt-entrepreneur-key-hypotheses.md"
+tags:
+  - #yitang
+  - #scene/decision-making
+  - #scene/strategic-planning
+pipeline:
+  - confidence-source-cited
 ---
 
 # 概率工程：把小概率变成大概率的方法论

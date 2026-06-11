@@ -30,14 +30,15 @@ query_triggers:
   - "降低购买摩擦"
   - "增长转化"
 tags:
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "confidence-verified-by-test"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/learning-methodology"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#scene/skill-engineering/eval-testing"
-  - "#yitang"
+  - #scene/business-analysis/conversion-rate
+  - #scene/learning-methodology
+  - #scene/skill-engineering/course-to-skill
+  - #scene/skill-engineering/eval-testing
+  - #yitang
+pipeline:
+  - confidence-source-cited
+  - confidence-verified-by-case
+  - confidence-verified-by-test
 ---
 
 # 转化率黑客

@@ -12,14 +12,6 @@ source_refs:
   - "00_inbox/纪浩-AI协作方法论-口述.md"
   - "00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md"
   - "00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/ai-collaboration"
-  - "#domain/yitang"
-  - "#scene/ai-collaboration/workspace-design"
-  - "#scene/agent-infrastructure"
 tools_required: "文件目录、Markdown编辑器、版本控制工具"
 prerequisite_skills: "skill-纪浩-真需求四要素验证法"
 related:
@@ -29,6 +21,15 @@ related:
   - "skill-纪浩-Do-first-PDCA渐进迭代法"
 created_at: "2026-06-08"
 updated_at: "2026-06-08"
+tags:
+  - #domain/ai-collaboration
+  - #domain/yitang
+  - #scene/ai-collaboration/workspace-design
+  - #scene/agent-infrastructure
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 技能：AI工作空间与导诊台设计法

@@ -23,14 +23,15 @@ query_triggers:
   - "选项池"
   - "预判步骤"
   - "如何排除选项"
-tags:
-  - "#yitang"
-  - "#scene/business-analysis"
-  - "confidence-source-cited"
 related: {'series': False}
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-ten-fatal-flaws.md"
+tags:
+  - #yitang
+  - #scene/business-analysis
+pipeline:
+  - confidence-source-cited
 ---
 
 # 加法减法实操：从100个选项到3个高概率方向

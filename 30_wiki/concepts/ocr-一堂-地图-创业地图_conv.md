@@ -10,11 +10,12 @@ title: "OCR: 一堂-地图-创业地图_conv"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
+  - #scene/knowledge-management
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 # OCR: 一堂-地图-创业地图_conv

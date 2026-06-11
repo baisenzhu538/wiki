@@ -10,10 +10,11 @@ title: "视觉Prompt三层操作系统 (SROM Visual OS)"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/skill-engineering"
+  - #scene/ai-collaboration
+  - #scene/knowledge-management/tagging
+  - #scene/skill-engineering
+pipeline:
+  - confidence-source-cited
 ---
 
 # 视觉Prompt三层操作系统 (SROM Visual OS)

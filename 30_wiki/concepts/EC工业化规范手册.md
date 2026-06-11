@@ -10,12 +10,13 @@ title: "EC工业化规范手册"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/product-design/design-freeze"
+  - #scene/ai-collaboration
+  - #scene/business-analysis
+  - #scene/knowledge-management
+  - #scene/product-design/design-freeze
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # EC工业化规范手册

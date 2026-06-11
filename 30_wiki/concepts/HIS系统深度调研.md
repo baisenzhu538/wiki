@@ -13,14 +13,15 @@ trust_level: "medium"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/business-analysis
+  - #scene/learning-methodology
+  - #scene/note-taking
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # HIS系统深度调研

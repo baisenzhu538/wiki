@@ -12,18 +12,19 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "工具要求明确"
-tags:
-  - "confidence-draft"
-  - "#domain/AI"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/product-design"
-  - "#skill-type/evaluation"
 tools_required: ""
 prerequisite_skills: ""
 related: ""
 created_at: 2026-06-06
 updated_at: 2026-06-06
+tags:
+  - #domain/AI
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/product-design
+pipeline:
+  - #skill-type/evaluation
+  - confidence-draft
 ---
 
 # 技能：系统冗余度快速检查清单

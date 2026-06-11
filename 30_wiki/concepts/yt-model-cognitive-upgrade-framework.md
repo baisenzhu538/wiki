@@ -31,25 +31,26 @@ source_refs:
   - "10_raw/sources/aima-ai-thinking-card-20260515.html"
   - "10_raw/sources/aima-ai-thinking-card-20260515.md"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "#cognitive-science"
-  - "confidence-source-cited"
-  - "#knowledge-management"
-  - "#learning"
-  - "#master"
-  - "#reading"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management/atomization"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/manifest-design"
 title: "认知升级十步框架：从「读书」到「安装认知补丁」"
 trust_level: "medium"
 type: "framework"
 updated_at: 2026-05-15
 version: 1
+tags:
+  - #cognitive-science
+  - #knowledge-management
+  - #learning
+  - #master
+  - #reading
+  - #scene/ai-collaboration
+  - #scene/knowledge-management/atomization
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/manifest-design
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 认知升级十步框架：从「读书」到「安装认知补丁」

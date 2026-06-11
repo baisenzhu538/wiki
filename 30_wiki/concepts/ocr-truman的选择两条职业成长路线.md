@@ -10,11 +10,12 @@ title: "OCR: truman的选择：两条职业成长路线"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/note-taking"
-  - "#scene/product-design"
+  - #scene/business-analysis
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/note-taking
+  - #scene/product-design
+pipeline:
+  - confidence-source-cited
 ---
 
 # OCR: truman的选择：两条职业成长路线

@@ -12,20 +12,21 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "工具要求明确"
-tags:
-  - "#boundary/single-use-only"
-  - "confidence-draft"
-  - "confidence-verified-by-case"
-  - "#domain/AI"
-  - "#domain/scene-analysis"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/skill-engineering/publish-deploy"
 tools_required: ""
 prerequisite_skills: ""
 related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #domain/AI
+  - #domain/scene-analysis
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/feedback-loop
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/single-use-only
+  - confidence-draft
+  - confidence-verified-by-case
 ---
 
 # 技能：AI项目上线-先平行再独行

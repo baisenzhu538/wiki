@@ -20,16 +20,17 @@ reviewed_by: "老顷童（精修）"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-需求-跑步机案例-需求分析图.png"
 status: "reviewed"
-tags:
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#yitang"
 title: "案例：跑步机需求分析"
 trust_level: "medium"
 type: "case"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '需求', 'course_id': 'case-treadmill-demand-analysis', 'course_type': 'case', 'level': 'core'}
+tags:
+  - #scene/business-analysis
+  - #yitang
+pipeline:
+  - confidence-source-cited
 ---
 
 # 案例：跑步机需求分析

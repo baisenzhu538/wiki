@@ -10,13 +10,6 @@ source_person: "纪浩"
 source_context: "AI俱乐部·AI协作方法论分享（2026年）"
 source_refs:
   - "00_inbox/纪浩-AI协作方法论-口述.md"
-tags:
-  - "confidence-published"
-  - "confidence-source-cited"
-  - "#domain/ai-collaboration"
-  - "#domain/yitang"
-  - "#problem-validation"
-  - "#pseudo-demand"
 created_at: "2026-06-09"
 updated_at: "2026-06-09"
 related:
@@ -31,6 +24,14 @@ definition_of_done:
   - "案例有明确的原始表述、问题、方案和反馈路径"
   - "案例有可迁移条件和失败模式"
   - "案例区分度≥2类型（成功/失败/边界/反常识）"
+tags:
+  - #domain/ai-collaboration
+  - #domain/yitang
+  - #problem-validation
+  - #pseudo-demand
+pipeline:
+  - confidence-published
+  - confidence-source-cited
 ---
 
 # 案例：一堂Skill市场从伪需求到真实需求的四问验证

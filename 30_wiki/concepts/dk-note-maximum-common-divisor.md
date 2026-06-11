@@ -11,26 +11,27 @@ source_person: "Truman"
 source_context: "一堂-AI时代清单体笔记-Truman-口述-01.txt"
 source_refs:
   - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/ai-collaboration"
-  - "#domain/note-taking"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/skill-engineering"
-  - "#source_type/insight"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
   - "yt-note-checklist-concept"
   - "yt-note-ai-human-division"
   - "dk-note-surplus-brainpower"
+tags:
+  - #domain/ai-collaboration
+  - #domain/note-taking
+  - #scene/ai-collaboration
+  - #scene/business-analysis
+  - #scene/knowledge-management
+  - #scene/learning-methodology
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/level-diagnosis
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/insight
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 清单体是人与AI的"最大公约数"：结构降级即认知升级

@@ -14,13 +14,6 @@ source_refs:
   - "00_inbox/一堂-产品内核迭代课-Truman-笔记.txt"
   - "00_inbox/一堂-产品内核验证课-truman-笔记.txt"
   - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/yitang"
-  - "#domain/business-strategy"
-  - "#hypothesis-driven"
-  - "#product-kernel"
 created_at: "2026-06-08"
 updated_at: "2026-06-09"
 related:
@@ -40,6 +33,14 @@ definition_of_done:
   - "外部攻击者以及对应的 Constraints 已明确"
   - "Synthesis 中每个 wikilink 后配有≥30字关联说明"
   - "案例区分度≥2类型"
+tags:
+  - #domain/yitang
+  - #domain/business-strategy
+  - #hypothesis-driven
+  - #product-kernel
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 一堂假设驱动型创业分析方法论

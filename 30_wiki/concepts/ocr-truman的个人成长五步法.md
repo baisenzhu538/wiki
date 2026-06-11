@@ -10,16 +10,17 @@ title: "OCR: Truman的个人成长五步法"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering/eval-testing"
-  - "#scene/skill-engineering/manifest-design"
+  - #scene/ai-collaboration
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering/eval-testing
+  - #scene/skill-engineering/manifest-design
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 # OCR: Truman的个人成长五步法

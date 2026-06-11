@@ -10,15 +10,16 @@ title: "OCR: 泛产品设计-落地卡片-攻坚会"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/agent-infrastructure
+  - #scene/ai-collaboration
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/feedback-loop
+  - #scene/product-design
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # OCR: 泛产品设计-落地卡片-攻坚会

@@ -16,15 +16,16 @@ query_triggers:
   - "语音输入工具推荐"
 reviewed_by: ""
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/ai-collaboration/skill-market"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/course-to-skill"
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/ai-collaboration/skill-market
+  - #scene/business-analysis
+  - #scene/learning-methodology
+  - #scene/note-taking
+  - #scene/skill-engineering/course-to-skill
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 豆包输入法：语音输入的最低成本实践

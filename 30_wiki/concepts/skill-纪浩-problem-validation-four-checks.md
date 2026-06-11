@@ -10,12 +10,6 @@ source_person: "纪浩"
 source_context: "AI俱乐部·AI协作方法论分享（2026年）"
 source_refs:
   - "00_inbox/纪浩-AI协作方法论-口述.md"
-tags:
-  - "confidence-published"
-  - "confidence-source-cited"
-  - "#domain/ai-collaboration"
-  - "#problem-validation"
-  - "#decision-making"
 created_at: "2026-06-09"
 updated_at: "2026-06-09"
 related:
@@ -33,6 +27,13 @@ definition_of_done:
   - "有关联其他skill"
   - "Constraints或局限性"
   - "≥2位外部攻击者"
+tags:
+  - #domain/ai-collaboration
+  - #problem-validation
+  - #decision-making
+pipeline:
+  - confidence-published
+  - confidence-source-cited
 ---
 
 # 技能：四问验证法

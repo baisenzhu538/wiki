@@ -11,13 +11,6 @@ source_context: "一堂商业预判课"
 source_refs:
   - "00_inbox/一堂-商业预判课-Truman-口述.txt"
   - "00_inbox/一堂-商业预判课-truman-笔记.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/product"
-  - "#domain/yitang"
-  - "#scene/startup/strategy"
-  - "#scene/business-analysis/positioning"
 tools_required:
   - "纸笔或文档工具"
 prerequisite_skills:
@@ -31,6 +24,14 @@ wiki_refs:
   - "skill-一堂-business-prediction-15-char"
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
+tags:
+  - #domain/product
+  - #domain/yitang
+  - #scene/startup/strategy
+  - #scene/business-analysis/positioning
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 技能：光谱模型定位法

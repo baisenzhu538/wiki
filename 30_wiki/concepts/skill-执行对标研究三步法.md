@@ -12,9 +12,10 @@ definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工�
 tools_required: [财报数据库, 招股书, 行研报告, 专家访谈清单, 跨行业对标分析框架]
 prerequisite_skills: []
 related: []
-tags: ['#skill']
 created_at: "2026-06-09T15:06:23+00:00"
 updated_at: "2026-06-09T15:06:23+00:00"
+pipeline:
+  - #skill
 ---
 
 # 技能：执行对标研究三步法

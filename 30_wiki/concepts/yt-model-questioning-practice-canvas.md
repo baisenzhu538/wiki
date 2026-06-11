@@ -22,18 +22,19 @@ source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-提问刻意练习画布.png"
 status: "enriched"
-tags:
-  - "confidence-source-cited"
-  - "#questioning"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#yitang"
 title: "提问刻意练习提升画布"
 type: "framework"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '提问能力', 'course_type': 'model'}
+tags:
+  - #questioning
+  - #scene/knowledge-management
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #yitang
+pipeline:
+  - confidence-source-cited
 ---
 
 # 提问刻意练习提升画布 (By YITANG)

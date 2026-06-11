@@ -24,18 +24,19 @@ source_refs:
   - "00_inbox/一堂-机会预判-AI时间管理案例02.png"
   - "00_inbox/一堂-机会预判-案例预判03.png"
 status: "enriched"
-tags:
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/ai"
-  - "#yitang"
 title: "案例：AI时间管理App七级演进"
 trust_level: "medium"
 type: "case"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '机会预判', 'course_type': 'case', 'level': 'core'}
+tags:
+  - #scene/business-analysis
+  - #scene/ai
+  - #yitang
+pipeline:
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 案例：AI时间管理App七级演进

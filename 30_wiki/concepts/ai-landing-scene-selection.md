@@ -16,16 +16,17 @@ query_triggers:
   - "业务人员怎么用AI"
 reviewed_by: ""
 tags:
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#scene/skill-engineering/manifest-design"
+  - #scene/ai-collaboration
+  - #scene/business-analysis/conversion-rate
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/course-to-skill
+  - #scene/skill-engineering/manifest-design
+pipeline:
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # AI落地场景识别：从"找老的干小的"开始

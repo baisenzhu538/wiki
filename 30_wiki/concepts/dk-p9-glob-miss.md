@@ -10,15 +10,6 @@ source_person: "system"
 source_context: "pitfalls.md P-9"
 source_refs:
   - ".agent/pitfalls.md#P-9"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
@@ -26,6 +17,16 @@ related:
 contradicts:
   - "master-first-principles"
   - "master-ai-info-literacy"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/learning-methodology
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸

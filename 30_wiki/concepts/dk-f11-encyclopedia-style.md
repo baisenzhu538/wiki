@@ -10,17 +10,6 @@ source_person: "system"
 source_context: "failure-modes.md F-KDO-011"
 source_refs:
   - "90_control/failure-modes.md#F-KDO-011"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
@@ -30,6 +19,18 @@ contradicts:
   - "master-first-principles"
   - "dk-c8-format-complete-mind-empty"
   - "kdo-flywheel"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/learning-methodology
+  - #scene/note-taking
+  - #scene/skill-engineering
+pipeline:
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景

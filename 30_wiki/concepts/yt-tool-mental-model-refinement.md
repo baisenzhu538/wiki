@@ -35,26 +35,27 @@ source_refs:
   - "00_inbox/一堂-个人修身-思维模型口述版.md"
 status: "enriched"
 superseded_by: ""
-tags:
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/manifest-design"
-  - "CEO能力"
-  - "一堂"
-  - "复盘"
-  - "建模"
-  - "思维模型"
-  - "提炼方法"
 title: "思维模型提炼：从体感经验到可复用武器库"
 type: "tool"
 updated_at: 2026-06-06
 version: 1
+tags:
+  - #scene/ai-collaboration
+  - #scene/business-analysis
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/product-design
+  - #scene/skill-engineering/manifest-design
+  - CEO能力
+  - 一堂
+  - 复盘
+  - 建模
+  - 思维模型
+  - 提炼方法
+pipeline:
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 ## Summary

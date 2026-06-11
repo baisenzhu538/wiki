@@ -24,25 +24,26 @@ reviewed_by: "欧阳锋"
 source_refs:
   - "10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md"
 status: "enriched"
-tags:
-  - "#ai-native"
-  - "#anthropic"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#entrepreneurship"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#startup"
 title: "AI 原生创业四阶段模型（Anthropic 创始人手册）"
 type: "concept"
 updated_at: 2026-05-19
 version: 1
+tags:
+  - #ai-native
+  - #anthropic
+  - #entrepreneurship
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/business-analysis/conversion-rate
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/skill-engineering/publish-deploy
+  - #startup
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # AI 原生创业四阶段模型（Anthropic 创始人手册）

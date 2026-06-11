@@ -12,18 +12,19 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "工具要求明确"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "#domain/general"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/live-field"
 tools_required: ""
 prerequisite_skills: ""
 related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #domain/general
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/live-field
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-draft
 ---
 
 # 技能：问题定义澄清法

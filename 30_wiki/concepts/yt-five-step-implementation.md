@@ -22,18 +22,19 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-落地实操-笔记.txt"
 status: "reviewed"
-tags:
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/implementation"
-  - "#scene/team-management"
-  - "#yitang"
 title: "五步法落地实操：从故事版到分工版"
 trust_level: "medium"
 type: "skill"
 updated_at: "2026-06-11"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '落地实操', 'course_id': 'yt-five-step-implementation', 'course_type': 'skill', 'level': 'core'}
+tags:
+  - #scene/business-analysis
+  - #scene/implementation
+  - #scene/team-management
+  - #yitang
+pipeline:
+  - confidence-source-cited
 ---
 
 # 五步法落地实操：从故事版到分工版

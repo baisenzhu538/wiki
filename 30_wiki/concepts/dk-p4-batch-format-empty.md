@@ -10,16 +10,6 @@ source_person: "system"
 source_context: "pitfalls.md P-4"
 source_refs:
   - ".agent/pitfalls.md#P-4"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology"
-  - "#scene/skill-engineering/manifest-design"
-  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
@@ -29,6 +19,17 @@ contradicts:
   - "master-knowledge-compound"
   - "kdo-flywheel"
   - "master-ai-info-literacy"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology
+  - #scene/skill-engineering/manifest-design
+pipeline:
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # P-4：批量格式升级产生“格式完整但思维空洞”卡片 (C-8)

@@ -26,20 +26,21 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/live-field"
-  - "#yitang"
 title: "工业化生产"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '工业化生产', 'course_id': 'yt-entrepreneur-industrial-production', 'course_type': 'method', 'level': 'advanced'}
+tags:
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/live-field
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 工业化生产

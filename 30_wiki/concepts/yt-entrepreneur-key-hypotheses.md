@@ -28,25 +28,26 @@ source_refs:
   - "00_inbox/一堂-关键假设课-truman-口述.txt"
   - "00_inbox/一堂-关键假设课-truman-笔记.txt"
 status: "enriched"
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration/pdca-execution"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering/manifest-design"
-  - "#yitang"
-  - "#关键假设"
-  - "#创业"
 title: "关键假设259工具与假设验证三板斧"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-06-06
 version: 2
 yitang: {'map': 'entrepreneur', 'module': '关键假设', 'course_id': 'yt-entrepreneur-key-hypotheses', 'course_type': 'method', 'level': 'foundational'}
+tags:
+  - #scene/ai-collaboration/pdca-execution
+  - #scene/business-analysis/conversion-rate
+  - #scene/business-analysis/customer-acquisition
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering/manifest-design
+  - #yitang
+  - #关键假设
+  - #创业
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/single-use-only
+  - confidence-source-cited
 ---
 
 # 关键假设259工具与假设验证三板斧

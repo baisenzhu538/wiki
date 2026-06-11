@@ -10,12 +10,13 @@ title: "OCR: 泛产品设计-落地卡片-解放思想"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/learning-methodology/mental-models
+  - #scene/product-design
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 泛产品设计-落地卡片-解放思想

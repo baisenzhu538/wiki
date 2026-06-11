@@ -10,13 +10,14 @@ title: "OCR: 优秀泛产品设计者的自我修养"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-medical"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/product-design"
+  - #scene/business-analysis
+  - #scene/learning-methodology/mental-models
+  - #scene/product-design
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-medical
+  - #boundary/single-use-only
+  - confidence-source-cited
 ---
 
 # OCR: 优秀泛产品设计者的自我修养

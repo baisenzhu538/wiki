@@ -33,20 +33,21 @@ source_refs:
   - "src_20260507_9dd09688"
   - "src_20260507_df666081"
 status: "enriched"
-tags:
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/live-field"
-  - "#yitang"
 title: "深度复盘"
 type: "tool"
 updated_at: 2026-05-07
 version: 1
 yitang: {'map': 'personal', 'module': '深度复盘', 'course_id': 404, 'course_type': 'method', 'level': 'core', 'series': False}
+tags:
+  - #scene/knowledge-management
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/live-field
+  - #yitang
+pipeline:
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 深度复盘

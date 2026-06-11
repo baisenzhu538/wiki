@@ -18,11 +18,6 @@ definition_of_done:
   - 每次重大决策强制等待24小时
   - 重新审视时至少发现1个不同
   - 能说出"24小时前我的判断是X，现在我认为Y"
-tags:
-  - "#domain/decision"
-  - "#skill-type/execution"
-  - "#method/checklist"
-  - "#tool/brain"
 tools_required:
   - 无（纯思维工具）
   - 日历/提醒工具（设置延迟提醒）
@@ -32,6 +27,12 @@ prerequisite_skills:
 related: []
 created_at: 2026-06-11
 updated_at: 2026-06-11
+tags:
+  - #domain/decision
+  - #method/checklist
+  - #tool/brain
+pipeline:
+  - #skill-type/execution
 ---
 
 # 技能：延迟直觉法

@@ -44,25 +44,26 @@ related:
 source_refs:
   - "30_wiki/concepts/yt-management-goal-management.md"
 status: "draft"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#goal-management"
-  - "#management"
-  - "#okr"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#tool"
-  - "#yitang"
 title: "OKR 制定与复盘罗盘"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-19
 version: 1
 yitang: {'map': 'management', 'module': '管业务', 'course_type': 'tool', 'level': 'core'}
+tags:
+  - #goal-management
+  - #management
+  - #okr
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/publish-deploy
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # OKR 制定与复盘罗盘

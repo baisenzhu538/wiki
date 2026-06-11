@@ -22,24 +22,25 @@ source_refs:
   - "10_raw/assets/yitang/一堂五步法画布.png"
   - "10_raw/assets/yitang/一堂五步法-产品内核画布.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#entrepreneurship"
-  - "#five-step-method"
-  - "#product-core"
-  - "#scene/business-analysis"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "五步法画布 × 产品内核画布：从假设到壁垒的实操工具"
 type: "framework"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'framework'}
+tags:
+  - #entrepreneurship
+  - #five-step-method
+  - #product-core
+  - #scene/business-analysis
+  - #scene/hardware-debugging/prototyping
+  - #scene/knowledge-management/tagging
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 五步法画布 × 产品内核画布：从假设到壁垒的实操工具

@@ -28,22 +28,23 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-项目背景分析.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#pan-product-design"
-  - "#project-management"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/product-design"
-  - "#stakeholder-analysis"
-  - "#yitang"
 title: "泛产品设计·用户卡片：项目背景分析"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
+tags:
+  - #pan-product-design
+  - #project-management
+  - #scene/business-analysis
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/product-design
+  - #stakeholder-analysis
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 项目背景分析：综合用户/场景/商业考量

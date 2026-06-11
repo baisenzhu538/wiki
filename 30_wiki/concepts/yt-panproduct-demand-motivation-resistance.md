@@ -28,23 +28,24 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-动力阻力.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#conversion"
-  - "#pan-product-design"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#user-behavior"
-  - "#yitang"
 title: "泛产品设计·用户卡片：动力阻力"
 type: "tool"
 updated_at: 2026-05-13
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
+tags:
+  - #conversion
+  - #pan-product-design
+  - #scene/business-analysis/conversion-rate
+  - #scene/knowledge-management/tagging
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #user-behavior
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 动力阻力：理解转化率的本质

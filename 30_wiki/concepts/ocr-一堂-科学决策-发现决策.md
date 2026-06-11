@@ -10,10 +10,11 @@ title: "OCR: 一堂-科学决策-发现决策"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/note-taking/checklist-method"
+  - #scene/note-taking/checklist-method
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 一堂-科学决策-发现决策

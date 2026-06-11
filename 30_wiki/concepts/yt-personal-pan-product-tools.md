@@ -26,21 +26,22 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-泛产品设计工具篇口述版.md"
 status: "enriched"
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#pan-product-design"
-  - "#pedagogy"
-  - "#scene/note-taking/live-field"
-  - "#scene/product-design"
-  - "#toolkit"
-  - "#yitang"
 title: "泛产品设计工具篇：出牌教学法与30张卡牌"
 type: "concept"
 updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'required', 'level': 'intermediate'}
+tags:
+  - #pan-product-design
+  - #pedagogy
+  - #scene/note-taking/live-field
+  - #scene/product-design
+  - #toolkit
+  - #yitang
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 泛产品设计工具篇：出牌教学法与30张卡牌

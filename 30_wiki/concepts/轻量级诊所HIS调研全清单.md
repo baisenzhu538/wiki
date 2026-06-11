@@ -10,11 +10,12 @@ title: "轻量级诊所HIS调研全清单"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/checklist-method"
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/checklist-method
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 轻量级诊所HIS调研全清单

@@ -10,8 +10,9 @@ title: "Sprint 2 门禁举证验收"
 type: "concept"
 updated_at: 2026-05-09
 tags:
-  - "confidence-source-cited"
-  - "#scene/knowledge-management/tagging"
+  - #scene/knowledge-management/tagging
+pipeline:
+  - confidence-source-cited
 ---
 
 # Sprint 2 门禁举证验收

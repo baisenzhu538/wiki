@@ -10,13 +10,14 @@ title: "OCR: 泛产品设计-落地卡片-酝酿式打磨"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/ai-collaboration
+  - #scene/learning-methodology
+  - #scene/product-design
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/single-use-only
+  - confidence-source-cited
 ---
 
 # OCR: 泛产品设计-落地卡片-酝酿式打磨

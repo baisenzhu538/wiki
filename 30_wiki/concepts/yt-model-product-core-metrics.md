@@ -21,26 +21,27 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂产品内核-十大典型指标.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#entrepreneurship"
-  - "#product-metrics"
-  - "#scene/agent-infrastructure"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering"
-  - "#unit-model"
-  - "#yitang"
 title: "产品内核十大典型指标：从获客到推荐的度量框架"
 type: "framework"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'framework'}
+tags:
+  - #entrepreneurship
+  - #product-metrics
+  - #scene/agent-infrastructure
+  - #scene/business-analysis/conversion-rate
+  - #scene/business-analysis/customer-acquisition
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering
+  - #unit-model
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 产品内核十大典型指标：从获客到推荐的度量框架

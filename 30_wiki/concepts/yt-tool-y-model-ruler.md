@@ -35,26 +35,27 @@ source_refs:
   - "00_inbox/一堂-个人修炼-Y模型实操口述版.md"
 status: "enriched"
 superseded_by: ""
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "confidence-verified-by-test"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/skill-engineering/eval-testing"
-  - "#scene/skill-engineering/manifest-design"
-  - "Y模型"
-  - "一堂"
-  - "决策"
-  - "定量"
-  - "科学方法"
-  - "评估"
 title: "Y模型尺子刻度法：从模糊经验到可复用评估模型"
 type: "tool"
 updated_at: 2026-06-06
 version: 1
+tags:
+  - #scene/learning-methodology
+  - #scene/note-taking/level-diagnosis
+  - #scene/skill-engineering/eval-testing
+  - #scene/skill-engineering/manifest-design
+  - Y模型
+  - 一堂
+  - 决策
+  - 定量
+  - 科学方法
+  - 评估
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
+  - confidence-verified-by-test
 ---
 
 ## Summary

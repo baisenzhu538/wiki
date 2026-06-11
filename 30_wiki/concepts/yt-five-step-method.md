@@ -23,18 +23,19 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-序言-笔记.txt"
 status: "reviewed"
-tags:
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/entrepreneurship"
-  - "#scene/strategy"
-  - "#yitang"
 title: "一堂五步法总纲"
 trust_level: "medium"
 type: "framework"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '五步法', 'course_id': 'yt-five-step-method', 'course_type': 'framework', 'level': 'core'}
+tags:
+  - #scene/business-analysis
+  - #scene/entrepreneurship
+  - #scene/strategy
+  - #yitang
+pipeline:
+  - confidence-source-cited
 ---
 
 # 一堂五步法总纲

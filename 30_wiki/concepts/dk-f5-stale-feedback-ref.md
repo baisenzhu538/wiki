@@ -10,16 +10,6 @@ source_person: "system"
 source_context: "failure-modes.md F-KDO-005"
 source_refs:
   - "90_control/failure-modes.md#F-KDO-005"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
@@ -28,6 +18,17 @@ related:
 contradicts:
   - "dk-c4-selfcheck-superseded"
   - "master-systems-thinking"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/knowledge-management
+  - #scene/learning-methodology
+  - #scene/note-taking
+pipeline:
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在

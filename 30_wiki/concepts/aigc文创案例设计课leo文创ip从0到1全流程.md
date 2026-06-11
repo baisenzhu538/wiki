@@ -6,19 +6,20 @@ domain:
 source_refs:
   - "src_20260528_4277c6be"
 status: "draft"
-tags:
-  - "#boundary/not-for-creative"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/business-analysis"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/product-design"
-  - "[design, aigc, cultural-creative, ip, case-study]"
 title: "AIGC文创案例设计课：Leo文创IP从0到1全流程"
 type: "concept"
 updated_at: 2026-05-28
+tags:
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/business-analysis
+  - #scene/hardware-debugging/prototyping
+  - #scene/product-design
+  - [design, aigc, cultural-creative, ip, case-study]
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # AIGC文创案例设计课：Leo文创IP从0到1全流程

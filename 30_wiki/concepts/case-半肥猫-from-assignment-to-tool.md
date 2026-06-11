@@ -10,14 +10,6 @@ source_person: "半肥猫"
 source_context: "AI俱乐部·AI学习落地（2026-06分享）"
 source_refs:
   - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/ai-collaboration"
-  - "#domain/yitang"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/product-design/requirement-analysis"
-  - "#scene/skill-engineering/course-to-skill"
 created_at: "2026-06-08"
 updated_at: "2026-06-08"
 related:
@@ -35,6 +27,15 @@ definition_of_done:
   - "实际应用后收集反馈并更新案例"
 created_at: "2026-06-08"
 updated_at: "2026-06-08"
+tags:
+  - #domain/ai-collaboration
+  - #domain/yitang
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/product-design/requirement-analysis
+  - #scene/skill-engineering/course-to-skill
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 案例：半肥猫把一堂课程作业变成可复用调研工具

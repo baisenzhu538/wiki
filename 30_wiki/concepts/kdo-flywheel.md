@@ -19,14 +19,15 @@ query_triggers:
   - "认知飞轮"
   - "知识挖掘飞轮"
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-verified-by-test"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/eval-testing"
+  - #scene/ai-collaboration
+  - #scene/business-analysis
+  - #scene/knowledge-management
+  - #scene/learning-methodology/feedback-loop
+  - #scene/product-design
+  - #scene/skill-engineering/eval-testing
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-verified-by-test
 ---
 
 # KDO 飞轮 — 建造→使用→反思→实验

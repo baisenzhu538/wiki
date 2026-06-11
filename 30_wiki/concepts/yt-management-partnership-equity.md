@@ -23,19 +23,20 @@ related:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-verified-by-case"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "合伙股权"
 trust_level: "medium"
 type: "concept"
 updated_at: 2026-05-19
 yitang: {'map': 'management', 'module': '合伙股权', 'course_id': 'yt-management-partnership-equity', 'course_type': 'method', 'level': 'foundational', 'series': False}
+tags:
+  - #scene/learning-methodology
+  - #scene/note-taking
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-verified-by-case
 ---
 
 # 合伙股权

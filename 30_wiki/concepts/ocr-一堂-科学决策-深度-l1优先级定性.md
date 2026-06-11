@@ -10,10 +10,11 @@ title: "OCR: 一堂-科学决策-深度-L1优先级定性"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # OCR: 一堂-科学决策-深度-L1优先级定性

@@ -12,9 +12,10 @@ definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工�
 tools_required: [旗舰店选址（高端小区和高校区）, 5-7天深度考察接待流程设计]
 prerequisite_skills: []
 related: []
-tags: ['#skill']
 created_at: "2026-06-09T15:07:29+00:00"
 updated_at: "2026-06-09T15:07:29+00:00"
+pipeline:
+  - #skill
 ---
 
 # 技能：用旗舰店替代纯招商投入

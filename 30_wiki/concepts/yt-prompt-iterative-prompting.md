@@ -25,22 +25,23 @@ query_triggers:
   - "AI反馈"
   - "连续对话"
   - "提示词工作流"
-tags:
-  - "#ai"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#iteration"
-  - "#prompt-engineering"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/skill-engineering"
-  - "#yitang"
 created_at: "2026-05-13"
 updated_at: "2026-05-13"
 estimated_tokens: 2000
+tags:
+  - #ai
+  - #iteration
+  - #prompt-engineering
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
 ---
 
 # 迭代式提示词工作流（5步法）

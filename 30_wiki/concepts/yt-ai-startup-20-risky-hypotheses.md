@@ -23,18 +23,19 @@ reviewed_by: "洪七公"
 source_refs:
   - "00_inbox/一堂-机会预判-AI创业案例-20个高风险假设清单.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/ai"
-  - "#yitang"
 title: "AI创业20个高风险假设清单"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '机会预判', 'course_id': 'yt-ai-startup-20-risky-hypotheses', 'course_type': 'tool', 'level': 'core'}
+tags:
+  - #scene/business-analysis
+  - #scene/ai
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # AI创业20个高风险假设清单

@@ -10,16 +10,6 @@ source_person: "system"
 source_context: "failure-modes.md F-KDO-014"
 source_refs:
   - "90_control/failure-modes.md#F-KDO-014"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/skill-engineering/eval-testing"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
@@ -29,6 +19,17 @@ contradicts:
   - "master-decision-hygiene"
   - "master-ai-info-literacy"
   - "master-systems-thinking"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/learning-methodology/feedback-loop
+  - #scene/skill-engineering/eval-testing
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # F-KDO-014：准确率声明的测量口径不一致

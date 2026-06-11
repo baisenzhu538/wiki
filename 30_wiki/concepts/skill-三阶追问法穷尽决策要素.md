@@ -12,9 +12,10 @@ definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工�
 tools_required: [纸笔/白板, 决策清单模板]
 prerequisite_skills: []
 related: []
-tags: ['#skill']
 created_at: "2026-06-09T15:09:00+00:00"
 updated_at: "2026-06-09T15:09:00+00:00"
+pipeline:
+  - #skill
 ---
 
 # 技能：三阶追问法穷尽决策要素

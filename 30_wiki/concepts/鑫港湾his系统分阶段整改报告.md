@@ -13,14 +13,15 @@ trust_level: "high"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - "#boundary/not-for-medical"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#scene/agent-infrastructure"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/agent-infrastructure
+  - #scene/knowledge-management
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-medical
+  - #boundary/single-use-only
+  - confidence-source-cited
 ---
 
 # 鑫港湾HIS系统分阶段整改报告

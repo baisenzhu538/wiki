@@ -10,13 +10,14 @@ title: "OCR: 一堂最佳转化率动力曲线图"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/skill-engineering"
+  - #scene/ai-collaboration
+  - #scene/business-analysis/conversion-rate
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/mental-models
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # OCR: 一堂最佳转化率动力曲线图

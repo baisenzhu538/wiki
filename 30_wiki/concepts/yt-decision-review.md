@@ -33,20 +33,6 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt"
   - "00_inbox/科学决策/一堂-科学决策-ROI高阶训练全景图.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#decision-making"
-  - "#feedback-loop"
-  - "#review"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/skill-engineering"
-  - "#tool"
-  - "#yitang"
 title: "决策复盘工具：L1-L4深度复盘法 + 假设验证闭环"
 trust_level: "medium"
 type: "tool"
@@ -55,6 +41,21 @@ version: 1
 visual_analysis:
   - {"image": "一堂-科学决策-ROI高阶训练全景图.png", "dimensions": [{"色彩语义": "绿=复盘阶段(成长/循环)；与全景图中第5阶段呼应"}, {"空间结构": "五阶段流程的末端，从复盘指向\"变聪明\"的循环箭头"}, {"信息层级": "L1 复盘标签 → L2 四层深度 → L3 假设验证 → L4 认知资产"}, {"负形利用": "循环箭头=非线性回归；箭头留白=复盘的\"呼吸空间\""}, {"视觉隐喻": "螺旋上升=每次复盘都带来认知升级；闭环=假设验证的完整性"}]}
 yitang: {'course_id': 'yt-decision-review', 'course_type': 'tool', 'level': 'advanced', 'map': 'entrepreneur', 'module': '科学决策'}
+tags:
+  - #decision-making
+  - #feedback-loop
+  - #review
+  - #scene/business-analysis/conversion-rate
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-source-cited
 ---
 
 # 决策复盘工具：L1-L4深度复盘法 + 假设验证闭环

@@ -22,28 +22,29 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/truman的选择：两条职业成长路线.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#career-planning"
-  - "confidence-source-cited"
-  - "#deliberate-practice"
-  - "#pan-product-design"
-  - "#scene/business-analysis"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/note-taking/live-field"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "楚门的选择：两条职业成长路线 X vs Y"
 type: "framework"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'framework'}
+tags:
+  - #career-planning
+  - #deliberate-practice
+  - #pan-product-design
+  - #scene/business-analysis
+  - #scene/hardware-debugging/prototyping
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/note-taking/level-diagnosis
+  - #scene/note-taking/live-field
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 楚门的选择：两条职业成长路线 X vs Y

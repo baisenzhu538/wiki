@@ -24,18 +24,19 @@ query_triggers:
   - "笔记怎么提升思考量"
   - "学完课没有自己的东西"
   - "3到5个问题"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#note-taking"
-  - "#learning-methodology"
-  - "#cognitive-tool"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/note-taking/checklist-method"
-  - "#yitang"
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
 estimated_tokens: 4800
+tags:
+  - #note-taking
+  - #learning-methodology
+  - #cognitive-tool
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/note-taking/checklist-method
+  - #yitang
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 问题驱动式深度思考笔记：用真问题取代真记录

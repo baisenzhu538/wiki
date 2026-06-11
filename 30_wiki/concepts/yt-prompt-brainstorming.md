@@ -25,21 +25,22 @@ query_triggers:
   - "发散收敛"
   - "选项生成"
   - "AI杀手应用"
-tags:
-  - "#ai"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#brainstorming"
-  - "confidence-source-cited"
-  - "#creativity"
-  - "#prompt-engineering"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/skill-engineering"
-  - "#yitang"
 created_at: "2026-05-13"
 updated_at: "2026-05-13"
 estimated_tokens: 2000
+tags:
+  - #ai
+  - #brainstorming
+  - #creativity
+  - #prompt-engineering
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/business-analysis/customer-acquisition
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # AI 头脑风暴工作流

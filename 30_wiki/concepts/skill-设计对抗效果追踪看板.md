@@ -12,9 +12,10 @@ definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工�
 tools_required: [效果追踪看板, 核心指标监控工具]
 prerequisite_skills: []
 related: []
-tags: ['#skill']
 created_at: "2026-06-09T15:06:23+00:00"
 updated_at: "2026-06-09T15:06:23+00:00"
+pipeline:
+  - #skill
 ---
 
 # 技能：设计对抗效果追踪看板

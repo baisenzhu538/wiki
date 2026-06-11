@@ -10,16 +10,17 @@ title: "OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限�
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/product-design/design-freeze"
+  - #scene/agent-infrastructure
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/business-analysis
+  - #scene/learning-methodology
+  - #scene/product-design/design-freeze
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步

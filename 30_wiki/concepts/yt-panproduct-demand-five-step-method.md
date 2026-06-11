@@ -27,23 +27,24 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-一堂五步法.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "#business-model"
-  - "confidence-source-cited"
-  - "#five-step-method"
-  - "#pan-product-design"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/live-field"
-  - "#scene/product-design"
-  - "#yitang"
 title: "泛产品设计·用户卡片：一堂五步法"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
+tags:
+  - #business-model
+  - #five-step-method
+  - #pan-product-design
+  - #scene/business-analysis/customer-acquisition
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/live-field
+  - #scene/product-design
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 一堂五步法：善于分析商业成败假设

@@ -12,9 +12,10 @@ definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工�
 tools_required: [调研差旅预算约1200元/家, 假扮潜在加盟商的身份准备]
 prerequisite_skills: []
 related: []
-tags: ['#skill']
 created_at: "2026-06-09T15:07:29+00:00"
 updated_at: "2026-06-09T15:07:29+00:00"
+pipeline:
+  - #skill
 ---
 
 # 技能：快招品牌总部模拟调研

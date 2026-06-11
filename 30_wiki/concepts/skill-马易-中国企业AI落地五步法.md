@@ -12,18 +12,19 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "工具要求明确"
-tags:
-  - "confidence-draft"
-  - "#domain/AI"
-  - "#domain/scene-analysis"
-  - "#scene/knowledge-management/case-library"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/live-field"
 tools_required: ""
 prerequisite_skills: ""
 related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #domain/AI
+  - #domain/scene-analysis
+  - #scene/knowledge-management/case-library
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/live-field
+pipeline:
+  - confidence-draft
 ---
 
 # 技能：中国企业AI落地五步法

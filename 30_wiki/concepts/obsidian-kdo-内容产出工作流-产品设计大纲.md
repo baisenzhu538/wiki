@@ -11,15 +11,16 @@ title: "Obsidian + KDO 内容产出工作流 — 产品设计大纲"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/eval-testing"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/ai-collaboration
+  - #scene/knowledge-management
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/checklist-method
+  - #scene/product-design
+  - #scene/skill-engineering/eval-testing
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲

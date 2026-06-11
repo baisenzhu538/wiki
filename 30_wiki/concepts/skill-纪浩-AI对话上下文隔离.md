@@ -15,12 +15,6 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "有真实失败案例"
-tags:
-  - "#domain/AI"
-  - "#domain/collaboration"
-  - "#scene/ai-collaboration"
-  - "#scene/prompt-engineering"
-  - "confidence-source-cited"
 tools_required: ["AI对话工具（ChatGPT/Claude等）", "知识库片段管理"]
 prerequisite_skills: []
 related:
@@ -31,6 +25,13 @@ created_at: "2026-06-07"
 updated_at: "2026-06-11"
 reviewed_by: "黄药师"
 confidence: 0.90
+tags:
+  - #domain/AI
+  - #domain/collaboration
+  - #scene/ai-collaboration
+  - #scene/prompt-engineering
+pipeline:
+  - confidence-source-cited
 ---
 
 # 技能：AI 对话上下文隔离

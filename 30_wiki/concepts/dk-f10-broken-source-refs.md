@@ -10,17 +10,6 @@ source_person: "system"
 source_context: "failure-modes.md F-KDO-010"
 source_refs:
   - "90_control/failure-modes.md#F-KDO-010"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
@@ -29,6 +18,18 @@ related:
 contradicts:
   - "master-first-principles"
   - "master-ai-info-literacy"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/knowledge-management
+  - #scene/learning-methodology
+  - #scene/note-taking
+  - #scene/skill-engineering
+pipeline:
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料

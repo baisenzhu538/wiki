@@ -27,23 +27,24 @@ source_refs:
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
   - "10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型-执行武器库.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#meta-concept"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/skill-engineering"
-  - "#yitang"
-  - "#框架设计"
 title: "超级武器库（元概念）"
 type: "concept"
 updated_at: 2026-05-13
 version: 1
+tags:
+  - #meta-concept
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/level-diagnosis
+  - #scene/skill-engineering
+  - #yitang
+  - #框架设计
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 超级武器库（元概念）

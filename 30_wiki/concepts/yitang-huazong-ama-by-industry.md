@@ -6,20 +6,21 @@ domain:
 source_refs:
   - "src_20260529_huazong_ama"
 status: "stable"
-tags:
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering/publish-deploy"
-  - "[AI落地, 一堂, 花总, 行业分类, 对照表]"
 title: "花总AMA按行业分类整理（商业突破大航海）"
 type: "concept"
 updated_at: 2026-05-29
+tags:
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/business-analysis/customer-acquisition
+  - #scene/learning-methodology
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering/publish-deploy
+  - [AI落地, 一堂, 花总, 行业分类, 对照表]
+pipeline:
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 花总AMA按行业分类整理

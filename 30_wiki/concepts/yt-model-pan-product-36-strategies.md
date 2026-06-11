@@ -35,26 +35,27 @@ source_refs:
   - "10_raw/assets/yitang/泛产品设计落地工具篇指南.png"
 status: "enriched"
 superseded_by: ""
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "36计"
-  - "一堂"
-  - "产品设计"
-  - "工具箱"
-  - "泛产品设计"
 title: "泛产品设计36计·全套官方工具箱"
 type: "framework"
 updated_at: 2026-05-11
 version: 1
+tags:
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/product-design
+  - #scene/skill-engineering
+  - 36计
+  - 一堂
+  - 产品设计
+  - 工具箱
+  - 泛产品设计
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 ## Claims

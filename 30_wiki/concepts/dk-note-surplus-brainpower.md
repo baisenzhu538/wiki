@@ -12,26 +12,27 @@ source_context: "一堂-AI时代清单体笔记-Truman-口述-01.txt + 口述-02
 source_refs:
   - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
   - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/cognitive-science"
-  - "#domain/note-taking"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/note-taking/live-field"
-  - "#scene/note-taking/training-plan"
-  - "#scene/skill-engineering"
-  - "#source_type/insight"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
   - "yt-note-five-levels-training"
   - "dk-note-maximum-common-divisor"
   - "dk-note-rookie-disaster-veteran-heaven"
+tags:
+  - #domain/cognitive-science
+  - #domain/note-taking
+  - #scene/ai-collaboration
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/level-diagnosis
+  - #scene/note-taking/live-field
+  - #scene/note-taking/training-plan
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/insight
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # “剩余脑力”：高阶笔记的唯一货币与分水岭

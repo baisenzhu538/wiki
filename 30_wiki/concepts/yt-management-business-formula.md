@@ -32,15 +32,16 @@ query_triggers:
   - "用数据管业务"
   - "业务逻辑关系图"
 tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#yitang"
+  - #scene/business-analysis/conversion-rate
+  - #scene/business-analysis/customer-acquisition
+  - #scene/note-taking
+  - #scene/skill-engineering/course-to-skill
+  - #yitang
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 业务公式

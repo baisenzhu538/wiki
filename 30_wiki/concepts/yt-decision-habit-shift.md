@@ -30,20 +30,6 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-审美拉升01口述.txt"
   - "00_inbox/科学决策/一堂-科学决策-X型Y型决策习惯对比.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#decision-making"
-  - "#habit-change"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/product-design"
-  - "#tool"
-  - "#yitang"
 title: "X型→Y型决策者习惯诊断与转换"
 trust_level: "medium"
 type: "tool"
@@ -52,6 +38,21 @@ version: 1
 visual_analysis:
   - {"image": "一堂-科学决策-X型Y型决策习惯对比.png", "dimensions": [{"色彩语义": "X型灰度=思维扁平缺乏层次；Y型暖色渐变=思维立体温度与理性并存；红色=共同底线/高线"}, {"空间结构": "X型完整三角锥(纪念碑式)vs Y型阶梯金字塔(建筑式可攀登)；X型顶部压迫vs Y型中下部稳定"}, {"信息层级": "P0 标题 → P1 X/Y标签 → P2 五维度文字(横向贯穿强制对比) → P3 图形本体 → P4 品牌信息"}, {"负形利用": "两金字塔间留白=对话空间+互斥选择性；X型\"缺失的中间\"=以缺席在场成为最强烈负形"}, {"视觉隐喻": "X型=断裂悬崖/跳台(认知断裂)；Y型=漏斗/过滤器(渐进过滤)；灰色=未切割岩石；阶梯=可居住可攀登"}]}
 yitang: {'course_id': 'yt-decision-habit-shift', 'course_type': 'tool', 'level': 'foundational', 'map': 'entrepreneur', 'module': '科学决策'}
+tags:
+  - #decision-making
+  - #habit-change
+  - #scene/business-analysis
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/product-design
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-source-cited
 ---
 
 # X型→Y型决策者习惯诊断与转换

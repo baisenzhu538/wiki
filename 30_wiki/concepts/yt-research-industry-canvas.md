@@ -31,20 +31,21 @@ source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
   - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
 status: "reviewed"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#research"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#tool"
-  - "#yitang"
 title: "行业分析画布：五维快速扫描+二维定位"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-industry-canvas', 'course_type': 'tool', 'level': 'intermediate'}
+tags:
+  - #research
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-source-cited
 ---
 
 # 行业分析画布：五维快速扫描+二维定位

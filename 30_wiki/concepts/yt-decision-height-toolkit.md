@@ -35,20 +35,6 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-稀缺机会窗口.png"
   - "00_inbox/科学决策/一堂-科学决策-高水平共识曲线（重要）.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#consensus"
-  - "#decision-making"
-  - "#height"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
-  - "#tool"
-  - "#yitang"
 title: "高度分析工具：上帝视角四维提升法 + 高水平共识曲线"
 trust_level: "medium"
 type: "tool"
@@ -60,6 +46,21 @@ visual_analysis:
   - {"image": "一堂-科学决策-稀缺机会窗口.png", "dimensions": [{"色彩语义": "深灰标题栏=规则框架；金黄色主体=稀缺性与价值感；白边框=窗口边界意象；黑字=决策紧迫性"}, {"空间结构": "居中对称布局；标题全宽压制=屋顶权威；编号列窄宽=顺序性/优先级；分类:实例≈1:2=概念→应用"}, {"信息层级": "L1框架层(标题)→L2类型层(5类窗口)→L3实例层(融资/房租/假期等具象锚定)"}, {"负形利用": "外围黑色=聚光灯效应+墙的存在(窗口因墙而有意义)；单元格内40%留白=视觉着陆舒适度"}, {"视觉隐喻": "窗口隐喻(有限时空内可见机会)；表格即框架(复杂可被结构化)；黑金=矿石/黄金(挖掘机会)；1-5序列=完备性承诺"}]}
   - {"image": "一堂-科学决策-高水平共识曲线（重要）.png", "dimensions": [{"色彩语义": "左红橙(爬山/推进)→右蓝紫(冰山/挖掘)；红色弧线=共识深度温度曲线"}, {"空间结构": "双隐喻——左爬山(自下而上)+右冰山(自上而下)；海平面=可见/隐藏分界"}, {"信息层级": "L1行动(水面)→L2判断→L3逻辑→L4信息(冰山底)"}, {"负形利用": "海平面下90%=隐藏认知深度；水面线=日常讨论可见边界"}, {"视觉隐喻": "爬山=决策\"推出来\"；冰山=说服\"挖出来\"；海平面=10%可见/90%隐藏"}]}
 yitang: {'course_id': 'yt-decision-height-toolkit', 'course_type': 'tool', 'level': 'advanced', 'map': 'entrepreneur', 'module': '科学决策'}
+tags:
+  - #consensus
+  - #decision-making
+  - #height
+  - #scene/business-analysis/conversion-rate
+  - #scene/business-analysis/customer-acquisition
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 高度分析工具：上帝视角四维提升法 + 高水平共识曲线

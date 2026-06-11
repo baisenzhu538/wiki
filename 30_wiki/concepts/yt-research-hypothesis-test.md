@@ -32,21 +32,22 @@ source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
   - "00_inbox/ideas/一堂-创业-调研行动营口述01.md"
 status: "reviewed"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#research"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/skill-engineering"
-  - "#tool"
-  - "#yitang"
 title: "假设验证调研工具：关键假设→可证伪问题→最小实验"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-hypothesis-test', 'course_type': 'tool', 'level': 'advanced'}
+tags:
+  - #research
+  - #scene/business-analysis/customer-acquisition
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-source-cited
 ---
 
 # 假设验证调研工具：关键假设→可证伪问题→最小实验

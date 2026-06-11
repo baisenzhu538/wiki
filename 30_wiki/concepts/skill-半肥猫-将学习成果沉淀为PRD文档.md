@@ -10,20 +10,6 @@ source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
   - "00_inbox/半肥猫-AI学习落地-口述.md"
-tags:
-  - "#boundary/not-for-creative"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#domain/ai-collaboration"
-  - "#domain/learning"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/knowledge-management/atomization"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/course-to-skill"
 tools_required:
   - "AIGC大模型"
   - "文档编辑工具"
@@ -36,6 +22,21 @@ related:
   - "dk-半肥猫-atomic-no-standard"
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #domain/ai-collaboration
+  - #domain/learning
+  - #scene/ai-collaboration
+  - #scene/business-analysis/conversion-rate
+  - #scene/knowledge-management/atomization
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/course-to-skill
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 技能：将学习成果沉淀为 PRD 文档

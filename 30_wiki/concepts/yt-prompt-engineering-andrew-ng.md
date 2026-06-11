@@ -33,27 +33,28 @@ source_refs:
   - "https://www.deeplearning.ai/courses/ai-prompting-for-everyone/"
   - "https://www.bilibili.com/video/BV1UT9qBDET7/"
 status: "enriched"
-tags:
-  - "#ai"
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#entrepreneur"
-  - "#prompt-engineering"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "吴恩达提示词课程·一堂拆书精华"
 type: "course_notes"
 updated_at: 2026-05-13
 version: 1
+tags:
+  - #ai
+  - #entrepreneur
+  - #prompt-engineering
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 吴恩达提示词课程·一堂拆书精华

@@ -5,17 +5,18 @@ subtype: "hub"
 domain:
   - "yitang"
 status: "stable"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "#scene/learning-methodology/mental-models"
-  - "course-map"
-  - "dataview"
-  - "index"
-  - "yitang"
 created_at: "2026-05-06"
 updated_at: "2026-05-06"
 id: "yitang-course-map"
+tags:
+  - #scene/learning-methodology/mental-models
+  - course-map
+  - dataview
+  - index
+  - yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
 ---
 
 # 一堂课程大地图

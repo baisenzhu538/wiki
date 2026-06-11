@@ -10,14 +10,15 @@ title: "OCR: 一堂-个人修炼-全景图MUSE模型"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/manifest-design"
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/manifest-design
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # OCR: 一堂-个人修炼-全景图MUSE模型

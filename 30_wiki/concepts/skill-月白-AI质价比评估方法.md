@@ -12,17 +12,18 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "工具要求明确"
-tags:
-  - "confidence-draft"
-  - "confidence-verified-by-case"
-  - "#domain/general"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology/feedback-loop"
 tools_required: ""
 prerequisite_skills: ""
 related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #domain/general
+  - #scene/ai-collaboration
+  - #scene/learning-methodology/feedback-loop
+pipeline:
+  - confidence-draft
+  - confidence-verified-by-case
 ---
 
 # 技能：AI质价比评估方法

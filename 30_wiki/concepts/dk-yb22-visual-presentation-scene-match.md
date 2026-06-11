@@ -10,19 +10,20 @@ source_person: "月白"
 source_context: "口述稿: AI设计-AI设计师实操培训01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/design"
-  - "#scene/business-analysis"
-  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb18-small-shop-image-mismatch"
   - "dk-yb19-visual-strategy-price-match"
 contradicts:
+tags:
+  - #domain/design
+  - #scene/business-analysis
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/dark-knowledge
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 视觉呈现方式与消费场景的匹配原则

@@ -10,17 +10,6 @@ source_person: "system"
 source_context: "pitfalls.md P-16"
 source_refs:
   - ".agent/pitfalls.md#P-16"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/agent-infrastructure/skill-registry"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology"
-  - "#scene/skill-engineering/eval-testing"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
@@ -29,6 +18,18 @@ related:
 contradicts:
   - "master-first-principles"
   - "master-systems-thinking"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/agent-infrastructure/skill-registry
+  - #scene/ai-collaboration
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology
+  - #scene/skill-engineering/eval-testing
+pipeline:
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # P-16：validate 优先读取 state.json 而非文件 frontmatter

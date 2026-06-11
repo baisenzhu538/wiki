@@ -44,25 +44,26 @@ related:
 source_refs:
   - "30_wiki/concepts/yt-management-scientific-hiring.md"
 status: "draft"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#hiring"
-  - "#interview"
-  - "#management"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/skill-engineering"
-  - "#tool"
-  - "#yitang"
 title: "结构化面试打分卡"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-19
 version: 1
 yitang: {'map': 'management', 'module': '管团队', 'course_type': 'tool', 'level': 'core'}
+tags:
+  - #hiring
+  - #interview
+  - #management
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 结构化面试打分卡

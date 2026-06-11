@@ -37,24 +37,25 @@ source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
 status: "enriched"
 superseded_by: ""
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/product-design"
-  - "一堂"
-  - "审美"
-  - "工具箱"
-  - "最佳实践"
-  - "泛产品设计"
 title: "泛产品设计·审美工具箱（4张卡牌）"
 type: "framework"
 updated_at: 2026-05-11
 version: 1
+tags:
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/product-design
+  - 一堂
+  - 审美
+  - 工具箱
+  - 最佳实践
+  - 泛产品设计
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 ## Claims

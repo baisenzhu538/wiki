@@ -10,18 +10,6 @@ source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
   - "00_inbox/半肥猫-AI学习落地-口述.md"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#domain/ai-collaboration"
-  - "#domain/yitang"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/course-to-skill"
 tools_required:
   - "AIGC大模型"
   - "课程资料"
@@ -33,6 +21,19 @@ related:
   - "dk-半肥猫-skill-rejection-value"
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #domain/ai-collaboration
+  - #domain/yitang
+  - #scene/ai-collaboration
+  - #scene/business-analysis/conversion-rate
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/course-to-skill
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 技能：判断课程是否值得做成Skill

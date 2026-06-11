@@ -10,17 +10,6 @@ source_person: "system"
 source_context: "failure-modes.md F-KDO-001"
 source_refs:
   - "90_control/failure-modes.md#F-KDO-001"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
@@ -29,6 +18,18 @@ related:
 contradicts:
   - "dk-c1-cjk-regex-silent-fail"
   - "master-ai-info-literacy"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/learning-methodology
+  - #scene/note-taking
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched

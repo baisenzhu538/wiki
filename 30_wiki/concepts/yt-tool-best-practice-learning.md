@@ -32,31 +32,32 @@ source_refs:
   - "00_inbox/一堂-个人修身-泛产品设计审美口述.md"
 status: "enriched"
 superseded_by: ""
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "confidence-verified-by-test"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/eval-testing"
-  - "#scene/skill-engineering/manifest-design"
-  - "一堂"
-  - "产品设计"
-  - "学习方法"
-  - "建模"
-  - "最佳实践"
-  - "案例分析"
 title: "最佳实践学习四步法：从收集到超越"
 type: "tool"
 updated_at: 2026-06-06
 version: 1
+tags:
+  - #scene/business-analysis/conversion-rate
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/product-design
+  - #scene/skill-engineering/eval-testing
+  - #scene/skill-engineering/manifest-design
+  - 一堂
+  - 产品设计
+  - 学习方法
+  - 建模
+  - 最佳实践
+  - 案例分析
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
+  - confidence-verified-by-test
 ---
 
 ## Summary

@@ -18,11 +18,6 @@ definition_of_done:
   - 每次检查走完3层
   - 至少1处被标记为"待验证"
   - 能说出"这个结论的脆弱点是X"
-tags:
-  - "#domain/AI"
-  - "#skill-type/validation"
-  - "#method/checklist"
-  - "#tool/brain"
 tools_required:
   - 无（纯思维工具）
   - 搜索引擎（第三层追溯用）
@@ -31,6 +26,12 @@ prerequisite_skills:
 related: []
 created_at: 2026-06-11
 updated_at: 2026-06-11
+tags:
+  - #domain/AI
+  - #method/checklist
+  - #tool/brain
+pipeline:
+  - #skill-type/validation
 ---
 
 # 技能：AI输出三层防护检查法

@@ -23,22 +23,23 @@ reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修炼-Y模型实操口述版.md"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#meta-skill"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/live-field"
-  - "#scientific-method"
-  - "#y-model"
-  - "#yitang"
 title: "Y模型实操：科学成事的底层操作系统"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'explore_camp'}
+tags:
+  - #meta-skill
+  - #scene/knowledge-management
+  - #scene/learning-methodology
+  - #scene/note-taking/live-field
+  - #scientific-method
+  - #y-model
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # Y模型实操：科学成事的底层操作系统

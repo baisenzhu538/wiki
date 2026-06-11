@@ -30,25 +30,26 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/aima-ai-thinking-card-20260515.html"
 status: "enriched"
-tags:
-  - "#ai"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#decision-making"
-  - "#mental-models"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#systems-thinking"
 title: "智能体架构：PEAS与五层Agent模型"
 trust_level: "medium"
 type: "framework"
 updated_at: 2026-05-15
 version: 1
+tags:
+  - #ai
+  - #decision-making
+  - #mental-models
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #systems-thinking
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 智能体架构：PEAS与五层Agent模型

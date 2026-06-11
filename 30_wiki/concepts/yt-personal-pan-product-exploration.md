@@ -24,23 +24,24 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-泛产品设计探索营口述版.md"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#case-study"
-  - "confidence-source-cited"
-  - "#pan-product-design"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/live-field"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "泛产品设计探索营：案例启发与认知重构"
 type: "concept"
 updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'explore_camp', 'level': 'foundational'}
+tags:
+  - #case-study
+  - #pan-product-design
+  - #scene/business-analysis/conversion-rate
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/live-field
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 # 泛产品设计探索营：案例启发与认知重构

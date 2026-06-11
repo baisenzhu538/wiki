@@ -10,14 +10,15 @@ title: "OCR: 一堂Y模型实操工作流"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/ai-collaboration/pdca-execution"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/live-field"
+  - #scene/ai-collaboration/pdca-execution
+  - #scene/hardware-debugging/prototyping
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/live-field
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 一堂Y模型实操工作流

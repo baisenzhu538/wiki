@@ -31,26 +31,27 @@ source_refs:
   - "10_raw/sources/一堂-个人修炼-泛产品设计概念口述版.md"
 status: "enriched"
 superseded_by: ""
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/live-field"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "一堂"
-  - "工具箱"
-  - "泛产品设计"
-  - "用户研究"
-  - "需求分析"
 title: "泛产品设计·需求工具箱（13张卡牌）"
 type: "framework"
 updated_at: 2026-05-11
 version: 1
+tags:
+  - #scene/business-analysis/conversion-rate
+  - #scene/learning-methodology
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/live-field
+  - #scene/product-design
+  - #scene/skill-engineering
+  - 一堂
+  - 工具箱
+  - 泛产品设计
+  - 用户研究
+  - 需求分析
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 ## Claims

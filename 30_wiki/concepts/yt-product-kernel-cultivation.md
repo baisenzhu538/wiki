@@ -26,18 +26,19 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-产品内核-十大典型指标.png"
   - "00_inbox/ocr_ingest/src_ocr_一堂产品内核_十大典型指标.md"
 status: "reviewed"
-tags:
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/product-management"
-  - "#scene/business-analysis"
-  - "#yitang"
 title: "产品内核修炼段位图"
 trust_level: "medium"
 type: "framework"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '五步法', 'course_id': 'yt-product-kernel-cultivation', 'course_type': 'framework', 'level': 'core'}
+tags:
+  - #scene/product-management
+  - #scene/business-analysis
+  - #yitang
+pipeline:
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 产品内核修炼段位图

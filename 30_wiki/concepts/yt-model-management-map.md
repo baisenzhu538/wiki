@@ -25,24 +25,25 @@ source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-地图-管理地图.webp"
 status: "enriched"
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#core-model"
-  - "#management"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#yitang"
 title: "管理修炼地图"
 type: "framework"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'management', 'module': '方法论总纲', 'course_type': 'model'}
+tags:
+  - #core-model
+  - #management
+  - #scene/business-analysis/conversion-rate
+  - #scene/knowledge-management
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/level-diagnosis
+  - #scene/skill-engineering/course-to-skill
+  - #yitang
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 一堂管理地图：高潜力管理者修炼全景图

@@ -24,24 +24,25 @@ source_refs:
   - "00_inbox/Truman的个人成长五步法.png  # 源图像，经 deep-image-parser 深度解析"
   - "00_inbox/Truman的个人成长五步法_paddle_ocr.txt  # PaddleOCR基线对比"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#career-planning"
-  - "confidence-source-cited"
-  - "#five-step-method"
-  - "#personal-growth"
-  - "#scene/business-analysis"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering/manifest-design"
-  - "#yitang"
 title: "Truman的个人成长五步法：用一页纸解释全部人生规划"
 type: "framework"
 updated_at: 2026-05-22
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'framework'}
+tags:
+  - #career-planning
+  - #five-step-method
+  - #personal-growth
+  - #scene/business-analysis
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering/manifest-design
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # Truman的个人成长五步法：用一页纸解释全部人生规划

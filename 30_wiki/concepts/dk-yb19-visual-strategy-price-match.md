@@ -10,19 +10,20 @@ source_person: "月白"
 source_context: "口述稿: AI设计-AI设计师实操培训01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/design"
-  - "#scene/product-design"
-  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb18-small-shop-image-mismatch"
   - "dk-yb21-ecommerce-pricing-independent-model"
 contradicts:
+tags:
+  - #domain/design
+  - #scene/product-design
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/dark-knowledge
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 餐饮图片视觉策略与价格定位的匹配法则

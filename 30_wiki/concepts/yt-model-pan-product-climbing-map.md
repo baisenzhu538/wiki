@@ -32,24 +32,25 @@ source_refs:
   - "10_raw/assets/yitang/一堂泛产品设计-十年修炼爬山地图.png"
 status: "enriched"
 superseded_by: ""
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/product-design"
-  - "一堂"
-  - "成长路径"
-  - "段位"
-  - "泛产品设计"
-  - "爬山地图"
 title: "泛产品十年爬山地图：L1-L6成长路径"
 type: "framework"
 updated_at: 2026-05-11
 version: 1
+tags:
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/level-diagnosis
+  - #scene/product-design
+  - 一堂
+  - 成长路径
+  - 段位
+  - 泛产品设计
+  - 爬山地图
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 ## Claims

@@ -20,14 +20,15 @@ title: "“AI Native 五层进阶：从答案，到效率，到作品，到产�
 type: "“framework”"
 updated_at: "“2026-05-24T00:00:00+00:00”"
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - #scene/ai-collaboration
+  - #scene/hardware-debugging/prototyping
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统

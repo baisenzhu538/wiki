@@ -10,16 +10,6 @@ source_person: "system"
 source_context: "failure-modes.md F-KDO-012"
 source_refs:
   - "90_control/failure-modes.md#F-KDO-012"
-tags:
-  - "#boundary/single-use-only"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
@@ -29,6 +19,17 @@ contradicts:
   - "master-first-principles"
   - "kdo-flywheel"
   - "master-systems-thinking"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/learning-methodology
+  - #scene/note-taking
+pipeline:
+  - #boundary/single-use-only
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出

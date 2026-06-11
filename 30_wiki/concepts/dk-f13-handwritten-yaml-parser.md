@@ -10,14 +10,6 @@ source_person: "system"
 source_context: "failure-modes.md F-KDO-013"
 source_refs:
   - "90_control/failure-modes.md#F-KDO-013"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
@@ -26,6 +18,15 @@ related:
 contradicts:
   - "kdo-yaml-frontmatter-safety"
   - "master-first-principles"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology
+pipeline:
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # F-KDO-013：手写 YAML 解析器导致嵌套数据丢失

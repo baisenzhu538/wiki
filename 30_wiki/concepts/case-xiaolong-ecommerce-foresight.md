@@ -24,16 +24,17 @@ query_triggers:
   - "四层剥离"
   - "供应链搞定"
   - "切口越小越准"
-tags:
-  - "#yitang"
-  - "#case/foresight"
-  - "confidence-source-cited"
-  - "confidence-verified-by-outcome"
 related: {'series': False}
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-addition-subtraction.md"
   - "30_wiki/concepts/case-gudong-tea-shop-foresight.md"
+tags:
+  - #yitang
+  - #case/foresight
+pipeline:
+  - confidence-source-cited
+  - confidence-verified-by-outcome
 ---
 
 # 小龙电商：四层剥离——从服装到正装裤

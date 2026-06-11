@@ -30,21 +30,22 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-逻辑MECE.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#execution"
-  - "#pan-product-design"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/product-design"
-  - "#structured-thinking"
-  - "#yitang"
 title: "泛产品设计·落地卡片：逻辑MECE"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
+tags:
+  - #execution
+  - #pan-product-design
+  - #scene/learning-methodology/mental-models
+  - #scene/product-design
+  - #structured-thinking
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 逻辑MECE：做个有逻辑的人

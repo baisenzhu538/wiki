@@ -8,16 +8,17 @@ title: "诊所O2O外卖平台业务深度调研报告"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-verified-by-case"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/skill-engineering"
+  - #scene/ai-collaboration
+  - #scene/business-analysis/customer-acquisition
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-verified-by-case
 ---
 
 # 诊所O2O外卖平台业务深度调研报告

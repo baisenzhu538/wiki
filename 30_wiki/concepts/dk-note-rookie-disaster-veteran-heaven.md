@@ -11,24 +11,25 @@ source_person: "Truman"
 source_context: "一堂-AI时代请单体笔记-Truman-口述-02.txt"
 source_refs:
   - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/ai-ethics"
-  - "#domain/note-taking"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/note-taking/training-plan"
-  - "#source_type/insight"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
   - "yt-note-five-levels-training"
   - "dk-note-surplus-brainpower"
   - "dk-note-maximum-common-divisor"
+tags:
+  - #domain/ai-ethics
+  - #domain/note-taking
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/level-diagnosis
+  - #scene/note-taking/training-plan
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/insight
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机

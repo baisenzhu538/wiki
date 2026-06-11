@@ -10,19 +10,20 @@ source_person: "月白"
 source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计基础01.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/design"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "— 暂无（待后续卡片补充关联）"
 contradicts: ""
+tags:
+  - #domain/design
+  - #scene/ai-collaboration
+  - #scene/knowledge-management
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #source_type/dark-knowledge
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # Cubox及AI协作工具的团队部署失败模式

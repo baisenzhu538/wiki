@@ -10,8 +10,9 @@ title: "AIMA AI思维卡 — 外部链接归档"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "confidence-source-cited"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - confidence-source-cited
 ---
 
 # AIMA AI思维卡 — 外部链接归档

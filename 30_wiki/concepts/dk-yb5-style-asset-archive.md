@@ -10,22 +10,23 @@ source_person: "月白"
 source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计基础01.txt"
-tags:
-  - "#boundary/not-for-creative"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/design"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/hardware-debugging/bom-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/checklist-method"
-  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb1-aigc-mvp-before-ps"
   - "dk-yb8-file-naming-eight-elements"
 contradicts: ""
+tags:
+  - #domain/design
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/hardware-debugging/bom-management
+  - #scene/learning-methodology
+  - #scene/note-taking/checklist-method
+pipeline:
+  - #boundary/not-for-creative
+  - #source_type/dark-knowledge
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # AI绘图降本的前提：风格资产工程化归档

@@ -27,19 +27,20 @@ reviewed_by: ""
 source_refs:
   - {"来源": "消化全库后提炼"}
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/manifest-design"
 title: "认知偏差快速诊断清单"
 type: "tool"
 updated_at: 2026-05-18
 version: 1
+tags:
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/skill-engineering/manifest-design
+pipeline:
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 认知偏差快速诊断清单

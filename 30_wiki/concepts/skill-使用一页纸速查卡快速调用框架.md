@@ -14,11 +14,6 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "有真实失败案例"
-tags:
-  - "#domain/knowledge-management"
-  - "#scene/decision-making"
-  - "#scene/learning-methodology"
-  - "confidence-source-cited"
 tools_required: ["A4 纸", "打印机", "核心框架的原始素材"]
 prerequisite_skills: []
 related:
@@ -28,6 +23,12 @@ created_at: "2026-06-09"
 updated_at: "2026-06-11"
 reviewed_by: "黄药师"
 confidence: 0.80
+tags:
+  - #domain/knowledge-management
+  - #scene/decision-making
+  - #scene/learning-methodology
+pipeline:
+  - confidence-source-cited
 ---
 
 # 技能：使用一页纸速查卡快速调用框架

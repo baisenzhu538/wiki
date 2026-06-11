@@ -10,16 +10,6 @@ source_person: "system"
 source_context: "pitfalls.md P-10"
 source_refs:
   - ".agent/pitfalls.md#P-10"
-tags:
-  - "#boundary/single-use-only"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology/mental-models"
-  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
@@ -27,6 +17,17 @@ related:
 contradicts:
   - "master-decision-hygiene"
   - "master-knowledge-compound"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/learning-methodology/mental-models
+pipeline:
+  - #boundary/single-use-only
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件

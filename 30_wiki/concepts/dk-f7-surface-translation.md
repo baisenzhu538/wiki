@@ -10,16 +10,6 @@ source_person: "system"
 source_context: "failure-modes.md F-KDO-007"
 source_refs:
   - "90_control/failure-modes.md#F-KDO-007"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
@@ -28,6 +18,17 @@ related:
 contradicts:
   - "master-first-principles"
   - "dk-c8-format-complete-mind-empty"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/learning-methodology
+  - #scene/note-taking
+  - #scene/skill-engineering
+pipeline:
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # F-KDO-007：表层翻译式提炼→Condense 段变成课程目录改写

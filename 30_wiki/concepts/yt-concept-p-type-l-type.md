@@ -28,24 +28,25 @@ source_refs:
   - "00_inbox/一堂-商业预判课-Truman-口述.txt"
   - "00_inbox/一堂-商业预判课-truman-笔记.txt"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/skill-engineering/manifest-design"
-  - "#yitang"
-  - "#创业者类型"
-  - "#概念"
 title: "P型与L型创业者"
 trust_level: "medium"
 type: "concept"
 updated_at: 2026-06-06
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '商业预判', 'course_id': 'yt-concept-p-type-l-type', 'course_type': 'concept', 'level': 'foundational'}
+tags:
+  - #scene/business-analysis
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/level-diagnosis
+  - #scene/skill-engineering/manifest-design
+  - #yitang
+  - #创业者类型
+  - #概念
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # P型与L型创业者

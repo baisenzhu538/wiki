@@ -10,20 +10,21 @@ source_person: "月白"
 source_context: "口述稿: AI设计-AI设计师实操培训01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/design"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/learning-methodology"
-  - "#scene/skill-engineering"
-  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb11-visual-book-reverse"
   - "dk-yb13-zero-shot-style-transfer"
 contradicts: ""
+tags:
+  - #domain/design
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/learning-methodology
+  - #scene/skill-engineering
+pipeline:
+  - #source_type/dark-knowledge
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # AI图像分析替代模型训练：快速提取参考图共性

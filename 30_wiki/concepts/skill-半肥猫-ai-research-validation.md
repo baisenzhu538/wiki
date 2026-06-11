@@ -10,14 +10,6 @@ source_person: "半肥猫"
 source_context: "AI俱乐部·AI学习落地（2026-06分享）"
 source_refs:
   - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/ai-collaboration"
-  - "#domain/yitang"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/research/evidence-review"
-  - "#scene/product-design/requirement-analysis"
 created_at: "2026-06-08"
 updated_at: "2026-06-08"
 related:
@@ -33,6 +25,15 @@ definition_of_done:
   - "纠偏模板已提供"
   - "证据质量标准已明确"
   - "实际测试通过"
+tags:
+  - #domain/ai-collaboration
+  - #domain/yitang
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/research/evidence-review
+  - #scene/product-design/requirement-analysis
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # AI调研纠偏与验证技能：从“丝滑回答”到“证据决策”的六步闭环

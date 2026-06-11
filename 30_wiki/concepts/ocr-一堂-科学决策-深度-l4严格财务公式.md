@@ -10,9 +10,10 @@ title: "OCR: 一堂-科学决策-深度-L4严格财务公式"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
+  - #scene/business-analysis
+  - #scene/learning-methodology
+pipeline:
+  - confidence-source-cited
 ---
 
 # OCR: 一堂-科学决策-深度-L4严格财务公式

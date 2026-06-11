@@ -31,12 +31,13 @@ query_triggers:
   - "会议角色分工"
   - "科学开会"
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#yitang"
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 科学开会

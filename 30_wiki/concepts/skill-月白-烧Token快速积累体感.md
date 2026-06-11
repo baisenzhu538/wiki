@@ -12,19 +12,20 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "工具要求明确"
-tags:
-  - "#boundary/not-for-beginners"
-  - "confidence-draft"
-  - "#domain/AI"
-  - "#domain/design"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
 tools_required: ""
 prerequisite_skills: ""
 related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #domain/AI
+  - #domain/design
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+pipeline:
+  - #boundary/not-for-beginners
+  - confidence-draft
 ---
 
 # 技能：烧Token快速积累体感

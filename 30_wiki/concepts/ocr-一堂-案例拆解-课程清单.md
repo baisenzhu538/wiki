@@ -10,18 +10,19 @@ title: "OCR: 一堂-案例拆解-课程清单"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/not-for-medical"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/ai-collaboration"
-  - "#scene/hardware-debugging"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering"
+  - #scene/ai-collaboration
+  - #scene/hardware-debugging
+  - #scene/knowledge-management
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/not-for-medical
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 一堂-案例拆解-课程清单

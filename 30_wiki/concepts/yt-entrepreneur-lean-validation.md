@@ -26,21 +26,22 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
 status: "enriched"
-tags:
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "低成本验证/MVP"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '低成本验证/MVP', 'course_id': 'yt-entrepreneur-lean-validation', 'course_type': 'method', 'level': 'core'}
+tags:
+  - #scene/business-analysis/customer-acquisition
+  - #scene/learning-methodology
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 低成本验证/MVP

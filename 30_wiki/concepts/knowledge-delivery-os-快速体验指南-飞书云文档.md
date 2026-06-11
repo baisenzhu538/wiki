@@ -10,16 +10,17 @@ title: "Knowledge Delivery OS 快速体验指南 - 飞书云文档"
 type: "concept"
 updated_at: 2026-05-04
 tags:
-  - "#boundary/not-for-beginners"
-  - "confidence-source-cited"
-  - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration/workspace-design"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/eval-testing"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/agent-infrastructure
+  - #scene/ai-collaboration/workspace-design
+  - #scene/hardware-debugging/prototyping
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/eval-testing
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-beginners
+  - confidence-source-cited
 ---
 
 # Knowledge Delivery OS 快速体验指南

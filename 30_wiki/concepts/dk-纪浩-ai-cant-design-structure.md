@@ -11,16 +11,17 @@ source_context: "AI俱乐部·人和AI协作（第三次分享，2026-06）"
 source_refs:
   - "00_inbox/纪浩-AI协作方法论-口述.md"
   - "00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/ai-collaboration"
-  - "#domain/yitang"
 related:
   - "concept-纪浩-ai-collaboration-methodology"
   - "skill-纪浩-AI工作空间与导诊台设计法"
 created_at: "2026-06-08"
 updated_at: "2026-06-08"
+tags:
+  - #domain/ai-collaboration
+  - #domain/yitang
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 暗知识：AI不会自己搞结构设计

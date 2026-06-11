@@ -21,22 +21,23 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂深度复盘冰山图.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#deep-review"
-  - "#deliberate-practice"
-  - "#personal-growth"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/level-diagnosis"
-  - "#yitang"
 title: "深度复盘冰山图：从主观感受到能力建设的五层穿透"
 type: "framework"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'framework'}
+tags:
+  - #deep-review
+  - #deliberate-practice
+  - #personal-growth
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/level-diagnosis
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 深度复盘冰山图：从主观感受到能力建设的五层穿透

@@ -27,27 +27,28 @@ source_refs:
   - "src_20260507_0872c7b3"
   - "src_20260507_3120ec58"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/ai-collaboration/problem-validation"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/live-field"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "需求分析"
 trust_level: "high"
 type: "tool"
 updated_at: 2026-05-07
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '需求分析', 'course_id': 'yt-entrepreneur-needs-analysis', 'course_type': 'method', 'level': 'foundational'}
+tags:
+  - #scene/ai-collaboration/problem-validation
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/business-analysis/customer-acquisition
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/live-field
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 需求分析

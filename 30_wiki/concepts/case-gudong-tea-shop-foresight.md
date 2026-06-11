@@ -23,16 +23,17 @@ query_triggers:
   - "青岛奶茶"
   - "五层筛选"
   - "加盟预判"
-tags:
-  - "#yitang"
-  - "#case/foresight"
-  - "confidence-source-cited"
-  - "confidence-verified-by-outcome"
 related: {'series': False}
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-addition-subtraction.md"
   - "30_wiki/concepts/yt-foresight-business-spectrum.md"
+tags:
+  - #yitang
+  - #case/foresight
+pipeline:
+  - confidence-source-cited
+  - confidence-verified-by-outcome
 ---
 
 # 古董奶茶店：五层筛选的加法减法实战

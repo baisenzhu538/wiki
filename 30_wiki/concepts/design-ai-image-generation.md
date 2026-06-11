@@ -10,9 +10,10 @@ title: "Design / Ai Image Generation"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "confidence-source-cited"
-  - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration"
+  - #scene/agent-infrastructure
+  - #scene/ai-collaboration
+pipeline:
+  - confidence-source-cited
 ---
 
 # Design / Ai Image Generation

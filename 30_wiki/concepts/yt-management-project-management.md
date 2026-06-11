@@ -32,11 +32,12 @@ query_triggers:
   - "极简方案设计"
   - "项目过程管理"
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/live-field"
-  - "#yitang"
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/live-field
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 项目管理

@@ -26,23 +26,24 @@ query_triggers:
   - "手写笔记"
   - "模型敏感度"
   - "学习内化"
-tags:
-  - "#ai"
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "#cognitive-fitness"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#learning"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#yitang"
 created_at: "2026-05-13"
 updated_at: "2026-05-13"
 estimated_tokens: 3400
+tags:
+  - #ai
+  - #cognitive-fitness
+  - #learning
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/publish-deploy
+  - #yitang
+pipeline:
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 守脑如玉：AI 时代保持大脑锋利

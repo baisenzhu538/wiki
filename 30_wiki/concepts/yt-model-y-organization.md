@@ -23,21 +23,22 @@ source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-Y模型.jpg"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#core-model"
-  - "#methodology"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "Y 型创业模型"
 type: "framework"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'system', 'module': '方法论总纲', 'course_type': 'model'}
+tags:
+  - #core-model
+  - #methodology
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/level-diagnosis
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # Y 型创业模型 (Y Model for Startups)

@@ -10,16 +10,6 @@ source_person: "system"
 source_context: "pitfalls.md P-7"
 source_refs:
   - ".agent/pitfalls.md#P-7"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
@@ -27,6 +17,17 @@ related:
 contradicts:
   - "master-decision-hygiene"
   - "master-ai-info-literacy"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片

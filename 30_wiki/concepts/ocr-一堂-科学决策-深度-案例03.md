@@ -10,13 +10,14 @@ title: "OCR: 一堂-科学决策-深度-案例03"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering"
+  - #scene/business-analysis
+  - #scene/note-taking
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 一堂-科学决策-深度-案例03

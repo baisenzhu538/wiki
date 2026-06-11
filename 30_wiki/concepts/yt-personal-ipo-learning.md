@@ -26,25 +26,26 @@ source_refs:
   - "src_20260507_85c9ae50"
   - "src_20260507_31a7f2df"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/hardware-debugging"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/live-field"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "IPO 科学学习"
 type: "tool"
 updated_at: 2026-05-07
 version: 1
 yitang: {'map': 'personal', 'module': 'IPO 科学学习', 'course_id': 402, 'course_type': 'method', 'level': 'foundational'}
+tags:
+  - #scene/business-analysis
+  - #scene/hardware-debugging
+  - #scene/knowledge-management
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/live-field
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # IPO 科学学习

@@ -12,9 +12,10 @@ definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工�
 tools_required: [日历/计划工具, MECE等思维模型]
 prerequisite_skills: []
 related: []
-tags: ['#skill']
 created_at: "2026-06-09T14:40:41+00:00"
 updated_at: "2026-06-09T14:40:41+00:00"
+pipeline:
+  - #skill
 ---
 
 # 技能：提升笔记练习频次的方法

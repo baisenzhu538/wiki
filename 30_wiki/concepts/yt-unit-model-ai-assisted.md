@@ -28,26 +28,27 @@ reviewed_by: ""
 source_refs:
   - "src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述"
 status: "draft"
-tags:
-  - "#ai"
-  - "#boundary/requires-human-judgment"
-  - "#coaching"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#entrepreneur"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#tool"
-  - "#unit-model"
-  - "#yitang"
 title: "AI+单元模型：TCP-R双导师与出口式咨询实践"
 trust_level: "high"
 type: "tool"
 updated_at: 2026-05-24
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'tool', 'level': 'intermediate'}
+tags:
+  - #ai
+  - #coaching
+  - #entrepreneur
+  - #scene/business-analysis/conversion-rate
+  - #scene/learning-methodology
+  - #scene/note-taking/level-diagnosis
+  - #scene/skill-engineering/publish-deploy
+  - #unit-model
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # AI+单元模型：TCP-R双导师与出口式咨询实践

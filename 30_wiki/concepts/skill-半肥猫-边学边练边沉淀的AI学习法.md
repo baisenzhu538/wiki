@@ -10,24 +10,6 @@ source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
   - "00_inbox/半肥猫-AI学习落地-口述.md"
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#domain/ai-collaboration"
-  - "#domain/learning"
-  - "#scene/ai-collaboration/pdca-execution"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#scene/skill-engineering/publish-deploy"
 tools_required:
   - "AIGC大模型"
   - "真实业务项目"
@@ -45,6 +27,25 @@ related:
   - "skill-纪浩-dofirst-pdca"
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #domain/ai-collaboration
+  - #domain/learning
+  - #scene/ai-collaboration/pdca-execution
+  - #scene/business-analysis/conversion-rate
+  - #scene/knowledge-management
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/skill-engineering/course-to-skill
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 技能：边学边练边沉淀的 AI 学习法

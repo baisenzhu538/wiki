@@ -18,11 +18,6 @@ definition_of_done:
   - 每次自检12个问题全部回答
   - 至少发现1个"是"并执行了修复
   - 能说出"我可能的偏差是X"
-tags:
-  - "#domain/decision"
-  - "#skill-type/validation"
-  - "#method/checklist"
-  - "#tool/brain"
 tools_required:
   - 无（纯思维工具）
   - 一张纸/电子表格（记录用）
@@ -30,6 +25,12 @@ prerequisite_skills: []
 related: []
 created_at: 2026-06-11
 updated_at: 2026-06-11
+tags:
+  - #domain/decision
+  - #method/checklist
+  - #tool/brain
+pipeline:
+  - #skill-type/validation
 ---
 
 # 技能：12种认知偏差完整自检

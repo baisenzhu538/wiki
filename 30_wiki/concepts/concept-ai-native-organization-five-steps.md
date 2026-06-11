@@ -30,13 +30,14 @@ source_refs:
   - "00_inbox/AI时代自进化组织形式.md"
 status: "draft"
 tags:
-  - "#ai-native"
-  - "#organization"
-  - "#management"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#scene/startup/ai-native"
-  - "#scene/management/structure"
+  - #ai-native
+  - #organization
+  - #management
+  - #scene/startup/ai-native
+  - #scene/management/structure
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # AI原生组织五步搭建法：从罗马军团到自进化有机体

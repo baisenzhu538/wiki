@@ -10,13 +10,6 @@ source_person: "半肥猫"
 source_context: "AI俱乐部·AI学习落地（2026-06分享）"
 source_refs:
   - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/ai-collaboration"
-  - "#domain/yitang"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/product-design/requirement-analysis"
 created_at: "2026-06-08"
 updated_at: "2026-06-08"
 related:
@@ -31,6 +24,14 @@ definition_of_done:
   - "打工心态 vs 老板心态的差异已分析"
   - "常见失败模式已列出"
   - "案例已验证"
+tags:
+  - #domain/ai-collaboration
+  - #domain/yitang
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/product-design/requirement-analysis
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁

@@ -31,14 +31,15 @@ query_triggers:
   - "招聘评估维度"
   - "面试评分标准"
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#yitang"
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 科学招聘

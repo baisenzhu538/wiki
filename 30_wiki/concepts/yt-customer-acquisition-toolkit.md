@@ -28,17 +28,18 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-增长-获客转化小抄.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-增长-科学销售五步法.png"
 status: "reviewed"
-tags:
-  - "confidence-source-cited"
-  - "#scene/growth"
-  - "#scene/marketing"
-  - "#yitang"
 title: "获客工具合集"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '增长', 'course_id': 'yt-customer-acquisition-toolkit', 'course_type': 'tool', 'level': 'core'}
+tags:
+  - #scene/growth
+  - #scene/marketing
+  - #yitang
+pipeline:
+  - confidence-source-cited
 ---
 
 # 获客工具合集

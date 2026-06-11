@@ -17,13 +17,14 @@ related:
   - "dk-note-surplus-brainpower"
   - "dk-note-rookie-disaster-veteran-heaven"
 tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/training-plan"
-  - "#scene/skill-engineering/manifest-design"
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/training-plan
+  - #scene/skill-engineering/manifest-design
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃

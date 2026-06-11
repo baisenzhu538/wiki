@@ -27,19 +27,20 @@ query_triggers:
   - "先问缺点"
   - "证伪实验"
   - "认知泡泡"
-tags:
-  - "#ai"
-  - "#boundary/requires-human-judgment"
-  - "#cognitive-bias"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#prompt-engineering"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#yitang"
 created_at: "2026-05-13"
 updated_at: "2026-05-13"
 estimated_tokens: 2200
+tags:
+  - #ai
+  - #cognitive-bias
+  - #prompt-engineering
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/learning-methodology/feedback-loop
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 反谄媚机制：让 AI 说真话

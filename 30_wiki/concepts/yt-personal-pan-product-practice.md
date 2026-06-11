@@ -24,26 +24,27 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#demand-analysis"
-  - "#pan-product-design"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/live-field"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#user-research"
-  - "#yitang"
 title: "泛产品设计实操篇：需求分析与用户洞察"
 type: "concept"
 updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'required', 'level': 'intermediate'}
+tags:
+  - #demand-analysis
+  - #pan-product-design
+  - #scene/business-analysis
+  - #scene/learning-methodology
+  - #scene/note-taking/live-field
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #user-research
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 泛产品设计实操篇：需求分析与用户洞察

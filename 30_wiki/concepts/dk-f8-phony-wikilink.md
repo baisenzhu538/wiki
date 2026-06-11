@@ -10,18 +10,6 @@ source_person: "system"
 source_context: "failure-modes.md F-KDO-008"
 source_refs:
   - "90_control/failure-modes.md#F-KDO-008"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/manifest-design"
-  - "#source_type/error"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
@@ -30,6 +18,19 @@ related:
 contradicts:
   - "dk-c8-format-complete-mind-empty"
   - "master-decision-hygiene"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/knowledge-management
+  - #scene/learning-methodology
+  - #scene/note-taking
+  - #scene/skill-engineering/manifest-design
+pipeline:
+  - #boundary/requires-human-judgment
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数

@@ -9,10 +9,11 @@ title: "Kimi 深度调研集群方法论 (Deep-Research-Swarm)"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/business-analysis"
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/business-analysis
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
 ---
 
 # Kimi 深度调研集群方法论 (Deep-Research-Swarm)

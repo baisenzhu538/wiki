@@ -12,9 +12,10 @@ definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工�
 tools_required: [餐饮预算<1000元]
 prerequisite_skills: []
 related: []
-tags: ['#skill']
 created_at: "2026-06-09T15:07:28+00:00"
 updated_at: "2026-06-09T15:07:28+00:00"
+pipeline:
+  - #skill
 ---
 
 # 技能：通过请吃饭获取行业内部资料

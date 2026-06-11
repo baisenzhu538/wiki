@@ -23,21 +23,22 @@ source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-全景图MUSE模型.jpg"
 status: "enriched"
-tags:
-  - "#ai-model"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#yitang"
 title: "MUSE 人工智能全景图"
 type: "framework"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': 'AI 思维模型', 'course_type': 'model'}
+tags:
+  - #ai-model
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)

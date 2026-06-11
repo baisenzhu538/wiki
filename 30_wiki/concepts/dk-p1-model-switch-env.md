@@ -10,15 +10,6 @@ source_person: "system"
 source_context: "pitfalls.md P-1"
 source_refs:
   - ".agent/pitfalls.md#P-1"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
@@ -27,6 +18,16 @@ related:
 contradicts:
   - "master-systems-thinking"
   - "master-first-principles"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/ai-collaboration
+  - #scene/learning-methodology
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # P-1：切模型改环境变量无效——Claude Code 走全局设置

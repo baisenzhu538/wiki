@@ -10,12 +10,6 @@ source_person: "Truman"
 source_context: "一堂关键假设课（2026年）"
 source_refs:
   - "00_inbox/一堂-关键假设课-truman-口述.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/product"
-  - "#domain/yitang"
-  - "#scene/business-analysis/hypothesis"
 created_at: "2026-06-09"
 updated_at: "2026-06-09"
 related:
@@ -25,6 +19,13 @@ related:
 wiki_refs:
   - "concept-一堂-hypothesis-driven-business-methodology"
   - "concept-一堂-product-kernel"
+tags:
+  - #domain/product
+  - #domain/yitang
+  - #scene/business-analysis/hypothesis
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 关键假设思维：259工具与假设驱动的创业方法

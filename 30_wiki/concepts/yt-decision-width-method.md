@@ -35,21 +35,6 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-宽度-企业.png"
   - "00_inbox/科学决策/一堂-科学决策-关键训练清单（重要））.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#breadth"
-  - "#checklist"
-  - "confidence-source-cited"
-  - "#decision-making"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/manifest-design"
-  - "#tool"
-  - "#yitang"
 title: "宽度分析工具：列推建查四步法+三层盲区清单"
 trust_level: "medium"
 type: "tool"
@@ -61,6 +46,22 @@ visual_analysis:
   - {"image": "一堂-科学决策-宽度-企业.png", "dimensions": [{"色彩语义": "深灰/藏青=战略严肃性，红色点缀=风险警示"}, {"空间结构": "双栏列表(价值盲区/成本盲区)+底部通栏(常见决策场景)，上部双栏对称+底部通栏横跨"}, {"信息层级": "L1 战略级标签 → L2 价值盲区 → L3 成本盲区 → L4 底部场景通栏"}, {"负形利用": "栏间分割线=组织边界隐喻；底部通栏横跨=跨部门视角"}, {"视觉隐喻": "棋盘隐喻=企业决策的多维博弈；深底色=深水区/高风险区"}]}
   - {"image": "一堂-科学决策-关键训练清单（重要））.png", "dimensions": [{"色彩语义": "红黄绿交通灯系统=优先级编码，黑色=必须完成"}, {"空间结构": "纵向清单+横向进度条，T型结构"}, {"信息层级": "L1 训练模块 → L2 关键动作 → L3 完成标记 → L4 时间锚点"}, {"负形利用": "未完成项的空白框=待填充的认知债务"}, {"视觉隐喻": "进度条=能力积累的视觉化；交通灯=决策质量的通行权限"}]}
 yitang: {'course_id': 'yt-decision-width-method', 'course_type': 'tool', 'level': 'intermediate', 'map': 'entrepreneur', 'module': '科学决策'}
+tags:
+  - #breadth
+  - #checklist
+  - #decision-making
+  - #scene/business-analysis/conversion-rate
+  - #scene/business-analysis/customer-acquisition
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking
+  - #scene/skill-engineering/manifest-design
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-source-cited
 ---
 
 # 宽度分析工具：列推建查四步法+三层盲区清单

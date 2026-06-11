@@ -24,17 +24,18 @@ query_triggers:
   - "笔记分层"
   - "笔记标颜色"
   - "思维导图 vs 清单体"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#note-taking"
-  - "#information-design"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/product-design/readability"
-  - "#yitang"
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
 estimated_tokens: 4200
+tags:
+  - #note-taking
+  - #information-design
+  - #scene/note-taking/checklist-method
+  - #scene/product-design/readability
+  - #yitang
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦

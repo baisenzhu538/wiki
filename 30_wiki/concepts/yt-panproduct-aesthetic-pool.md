@@ -29,22 +29,23 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践池子.png"
 status: "enriched"
-tags:
-  - "#aesthetics"
-  - "#best-practices"
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#pan-product-design"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/product-design"
-  - "#yitang"
 title: "泛产品设计·审美卡片：最佳实践池子"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
+tags:
+  - #aesthetics
+  - #best-practices
+  - #pan-product-design
+  - #scene/learning-methodology/mental-models
+  - #scene/product-design
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
 ---
 
 # 最佳实践池子：用一堆最佳实践打磨产品

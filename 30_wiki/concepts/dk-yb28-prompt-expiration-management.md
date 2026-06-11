@@ -10,20 +10,21 @@ source_person: "月白"
 source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计基础01.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/design"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/learning-methodology"
-  - "#scene/product-design/design-freeze"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb6-midjourney-chinese-text-fix"
 contradicts: ""
+tags:
+  - #domain/design
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/learning-methodology
+  - #scene/product-design/design-freeze
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #source_type/dark-knowledge
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 提示词有效期预期管理

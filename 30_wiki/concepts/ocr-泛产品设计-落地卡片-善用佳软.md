@@ -10,15 +10,16 @@ title: "OCR: 泛产品设计-落地卡片-善用佳软"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/business-analysis
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/note-taking/checklist-method
+  - #scene/product-design
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - confidence-source-cited
 ---
 
 # OCR: 泛产品设计-落地卡片-善用佳软

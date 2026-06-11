@@ -10,17 +10,18 @@ title: "OCR: 一堂-个人修炼-表达力火箭模型-执行武器库"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-medical"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/note-taking/live-field"
-  - "#scene/product-design/design-freeze"
-  - "#scene/skill-engineering"
+  - #scene/ai-collaboration
+  - #scene/business-analysis
+  - #scene/learning-methodology
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/level-diagnosis
+  - #scene/note-taking/live-field
+  - #scene/product-design/design-freeze
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/not-for-medical
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 一堂-个人修炼-表达力火箭模型-执行武器库

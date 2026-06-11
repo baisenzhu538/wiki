@@ -11,13 +11,6 @@ source_context: "一堂关键假设课"
 source_refs:
   - "00_inbox/一堂-关键假设课-truman-口述.txt"
   - "00_inbox/一堂-关键假设课-truman-笔记.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/product"
-  - "#domain/yitang"
-  - "#scene/startup/hypothesis-validation"
-  - "#scene/business-analysis/strategy"
 tools_required:
   - "259商业分析画布（可用纸笔/文档代替）"
   - "用户访谈或问卷工具（可选）"
@@ -36,6 +29,14 @@ wiki_refs:
   - "skill-一堂-five-step-validation"
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
+tags:
+  - #domain/product
+  - #domain/yitang
+  - #scene/startup/hypothesis-validation
+  - #scene/business-analysis/strategy
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 技能：假设验证三板斧

@@ -15,13 +15,14 @@ query_triggers:
   - "AI任务越来越乱"
 reviewed_by: ""
 tags:
-  - "#boundary/single-use-only"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration/workspace-design"
-  - "#scene/knowledge-management/atomization"
-  - "#scene/skill-engineering/course-to-skill"
+  - #scene/agent-infrastructure
+  - #scene/ai-collaboration/workspace-design
+  - #scene/knowledge-management/atomization
+  - #scene/skill-engineering/course-to-skill
+pipeline:
+  - #boundary/single-use-only
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 结构化AI工作空间搭建

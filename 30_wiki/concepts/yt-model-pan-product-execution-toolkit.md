@@ -36,25 +36,26 @@ source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
 status: "enriched"
 superseded_by: ""
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/manifest-design"
-  - "一堂"
-  - "工具箱"
-  - "泛产品设计"
-  - "落地执行"
-  - "迭代"
 title: "泛产品设计·落地工具箱（19张卡牌）"
 type: "framework"
 updated_at: 2026-05-11
 version: 1
+tags:
+  - #scene/business-analysis
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/checklist-method
+  - #scene/product-design
+  - #scene/skill-engineering/manifest-design
+  - 一堂
+  - 工具箱
+  - 泛产品设计
+  - 落地执行
+  - 迭代
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 ## Claims

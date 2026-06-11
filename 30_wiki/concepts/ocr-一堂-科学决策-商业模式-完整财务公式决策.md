@@ -10,12 +10,13 @@ title: "OCR: 一堂-科学决策-商业模式-完整财务公式决策"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/hardware-debugging"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/note-taking/live-field"
+  - #scene/business-analysis
+  - #scene/hardware-debugging
+  - #scene/note-taking/level-diagnosis
+  - #scene/note-taking/live-field
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # OCR: 一堂-科学决策-商业模式-完整财务公式决策

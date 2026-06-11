@@ -10,9 +10,10 @@ title: "OCR: 一堂-科学决策-深度-案例02"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/skill-engineering"
+  - #scene/skill-engineering
+pipeline:
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 一堂-科学决策-深度-案例02

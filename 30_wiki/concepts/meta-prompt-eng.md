@@ -10,11 +10,12 @@ title: "Meta Prompt Eng"
 type: "concept"
 updated_at: 2026-05-21
 tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/checklist-method"
+  - #scene/ai-collaboration
+  - #scene/learning-methodology
+  - #scene/note-taking/checklist-method
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # Meta Prompt Eng

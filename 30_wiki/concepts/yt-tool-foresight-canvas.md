@@ -24,16 +24,17 @@ query_triggers:
   - "预判工作台"
   - "加法减法模板"
   - "预判工具"
-tags:
-  - "#yitang"
-  - "#tool/foresight"
-  - "confidence-source-cited"
 related: {'series': False}
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-addition-subtraction.md"
   - "30_wiki/concepts/yt-foresight-ten-fatal-flaws.md"
   - "30_wiki/concepts/yt-five-step-method.md"
+tags:
+  - #yitang
+  - #tool/foresight
+pipeline:
+  - confidence-source-cited
 ---
 
 # 预判画布：从加法到减法的标准化工作台

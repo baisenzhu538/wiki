@@ -10,12 +10,6 @@ source_person: "Truman"
 source_context: "一堂产品内核迭代课（2026年）"
 source_refs:
   - "00_inbox/一堂-产品内核迭代课-Truman-口述.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/product"
-  - "#domain/yitang"
-  - "#scene/business-analysis/product-iteration"
 created_at: "2026-06-09"
 updated_at: "2026-06-09"
 related:
@@ -24,6 +18,13 @@ related:
 wiki_refs:
   - "concept-一堂-product-kernel"
   - "concept-一堂-kernel-validation"
+tags:
+  - #domain/product
+  - #domain/yitang
+  - #scene/business-analysis/product-iteration
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 产品内核迭代：从静态到动态的五方向演化

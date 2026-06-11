@@ -29,26 +29,27 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/aima-ai-thinking-card-20260515.html"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#deep-work"
-  - "#knowledge-management"
-  - "#personal-growth"
-  - "#reading"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/skill-engineering"
 title: "AI思维卡：从「读书」到「安装认知补丁」"
 trust_level: "medium"
 type: "method"
 updated_at: 2026-05-15
 version: 1
+tags:
+  - #deep-work
+  - #knowledge-management
+  - #personal-growth
+  - #reading
+  - #scene/ai-collaboration
+  - #scene/business-analysis
+  - #scene/knowledge-management
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # AI思维卡：从「读书」到「安装认知补丁」

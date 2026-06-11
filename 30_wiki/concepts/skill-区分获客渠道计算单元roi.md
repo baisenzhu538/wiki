@@ -12,9 +12,10 @@ definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工�
 tools_required: [渠道追踪系统（UTM/推广码）, CRM或用户来源标记]
 prerequisite_skills: []
 related: []
-tags: ['#skill']
 created_at: "2026-06-09T15:04:59+00:00"
 updated_at: "2026-06-09T15:04:59+00:00"
+pipeline:
+  - #skill
 ---
 
 # 技能：区分获客渠道计算单元ROI

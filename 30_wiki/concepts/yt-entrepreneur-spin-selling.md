@@ -23,21 +23,22 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-读书会-SPIN销售法口述.md"
 status: "enriched"
-tags:
-  - "confidence-source-cited"
-  - "#entrepreneurship"
-  - "#sales"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering"
-  - "#spin-selling"
-  - "#yitang"
 title: "SPIN销售法：顾问式销售的奠基之作"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'book_club'}
+tags:
+  - #entrepreneurship
+  - #sales
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering
+  - #spin-selling
+  - #yitang
+pipeline:
+  - confidence-source-cited
 ---
 
 # SPIN销售法：顾问式销售的奠基之作

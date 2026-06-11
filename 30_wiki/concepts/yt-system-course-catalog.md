@@ -10,24 +10,25 @@ source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
 created_at: "2026-05-07"
 updated_at: "2026-05-18"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/not-for-medical"
-  - "confidence-source-cited"
-  - "#course-catalog"
-  - "#index"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/hardware-debugging"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/note-taking/live-field"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#yitang"
 estimated_tokens: 3200
+tags:
+  - #course-catalog
+  - #index
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/business-analysis/conversion-rate
+  - #scene/hardware-debugging
+  - #scene/knowledge-management
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/level-diagnosis
+  - #scene/note-taking/live-field
+  - #scene/product-design
+  - #scene/skill-engineering/course-to-skill
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/not-for-medical
+  - confidence-source-cited
 ---
 
 # 一堂全课程目录索引

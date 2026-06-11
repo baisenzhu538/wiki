@@ -29,27 +29,28 @@ query_triggers:
   - "笔记的六大优点"
   - "结构化笔记"
   - "笔记审美"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#checklist"
-  - "#cognitive-tool"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#note-taking"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management/atomization"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/live-field"
-  - "#scene/product-design/design-freeze"
-  - "#scene/skill-engineering"
-  - "#yitang"
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 estimated_tokens: 4200
+tags:
+  - #checklist
+  - #cognitive-tool
+  - #note-taking
+  - #scene/ai-collaboration
+  - #scene/knowledge-management/atomization
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/live-field
+  - #scene/product-design/design-freeze
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 一堂笔记法：清单体笔记的核心概念与原理

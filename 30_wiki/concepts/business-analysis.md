@@ -10,9 +10,10 @@ title: "Business Analysis"
 type: "concept"
 updated_at: 2026-05-21
 tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration/prompt-engineering"
+  - #scene/ai-collaboration/prompt-engineering
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # Business Analysis

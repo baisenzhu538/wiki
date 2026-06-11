@@ -23,18 +23,19 @@ query_triggers:
   - "遇到问题开一篇笔记"
   - "笔记的价值"
   - "为什么记笔记"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#note-taking"
-  - "#problem-solving"
-  - "#cognitive-tool"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/productivity/systematic-thinking"
-  - "#yitang"
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
 estimated_tokens: 4200
+tags:
+  - #note-taking
+  - #problem-solving
+  - #cognitive-tool
+  - #scene/note-taking/checklist-method
+  - #scene/productivity/systematic-thinking
+  - #yitang
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 笔记能力=解决问题能力：从备忘工具到问题解决系统

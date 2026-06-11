@@ -10,13 +10,14 @@ title: "OCR: 泛产品设计-落地卡片-低成本测试MVP"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#scene/hardware-debugging"
-  - "#scene/knowledge-management"
-  - "#scene/product-design"
-  - "#scene/skill-engineering/publish-deploy"
+  - #scene/hardware-debugging
+  - #scene/knowledge-management
+  - #scene/product-design
+  - #scene/skill-engineering/publish-deploy
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/single-use-only
+  - confidence-source-cited
 ---
 
 # OCR: 泛产品设计-落地卡片-低成本测试MVP

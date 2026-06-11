@@ -12,9 +12,10 @@ definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工�
 tools_required: [行动计划表, 刻意练习设计模板, 练习反馈机制]
 prerequisite_skills: []
 related: []
-tags: ['#skill']
 created_at: "2026-06-09T15:59:56+00:00"
 updated_at: "2026-06-09T15:59:56+00:00"
+pipeline:
+  - #skill
 ---
 
 # 技能：立即实践转化

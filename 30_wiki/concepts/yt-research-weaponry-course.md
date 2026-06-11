@@ -15,14 +15,15 @@ reviewed_by: "黄药师"
 review_date: "2026-05-06"
 estimated_tokens: 3300
 tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/course-to-skill"
+  - #scene/ai-collaboration
+  - #scene/business-analysis
+  - #scene/knowledge-management
+  - #scene/note-taking
+  - #scene/skill-engineering/course-to-skill
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 一堂调研武器库课程

@@ -18,11 +18,6 @@ definition_of_done:
   - 走完5步流程
   - 有"平行运行"记录
   - 有"上线效果"数据
-tags:
-  - "#domain/AI"
-  - "#skill-type/execution"
-  - "#method/checklist"
-  - "#tool/LLM"
 tools_required:
   - 任意AI对话工具
   - 数据记录工具（Excel/Notion/表格）
@@ -31,6 +26,12 @@ prerequisite_skills:
 related: []
 created_at: 2026-06-11
 updated_at: 2026-06-11
+tags:
+  - #domain/AI
+  - #method/checklist
+  - #tool/LLM
+pipeline:
+  - #skill-type/execution
 ---
 
 # 技能：AI落地五步执行流程

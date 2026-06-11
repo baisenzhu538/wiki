@@ -6,23 +6,24 @@ domain:
 source_refs:
   - "src_20260529_huazong_ama"
 status: "stable"
-tags:
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/hardware-debugging"
-  - "#scene/knowledge-management/atomization"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering/publish-deploy"
-  - "[AI落地, 一堂, 花总, 商业突破, 多行业AI, 摘要]"
 title: "花总AMA精华摘要（商业突破大航海）"
 type: "concept"
 updated_at: 2026-05-29
+tags:
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/business-analysis/customer-acquisition
+  - #scene/hardware-debugging
+  - #scene/knowledge-management/atomization
+  - #scene/learning-methodology
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering/publish-deploy
+  - [AI落地, 一堂, 花总, 商业突破, 多行业AI, 摘要]
+pipeline:
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 花总AMA精华摘要

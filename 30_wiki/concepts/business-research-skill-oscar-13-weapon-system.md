@@ -7,28 +7,29 @@ review_date: 2026-05-04
 reviewed_by: "黄药师"
 source_refs: ""
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#business-analysis"
-  - "#methodology"
-  - "#oscar"
-  - "#research"
-  - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering/eval-testing"
-  - "#scene/skill-engineering/manifest-design"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#skill"
-  - "#yitang"
 title: "Business Research Skill — OSCAR 13武器体系 Claude Code 实现"
 trust_level: "high"
 type: "concept"
 updated_at: 2026-05-04
+tags:
+  - #business-analysis
+  - #methodology
+  - #oscar
+  - #research
+  - #scene/agent-infrastructure
+  - #scene/ai-collaboration
+  - #scene/business-analysis
+  - #scene/knowledge-management
+  - #scene/learning-methodology
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering/eval-testing
+  - #scene/skill-engineering/manifest-design
+  - #scene/skill-engineering/publish-deploy
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #skill
 ---
 
 # Business Research Skill — OSCAR 13武器体系 Claude Code 实现

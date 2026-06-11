@@ -10,14 +10,6 @@ source_person: "半肥猫"
 source_context: "AI俱乐部·AI学习落地（2026-06分享）"
 source_refs:
   - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/ai-collaboration"
-  - "#domain/yitang"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#scene/product-design/mvp"
 created_at: "2026-06-08"
 updated_at: "2026-06-08"
 related:
@@ -27,6 +19,15 @@ related:
   - "dk-半肥猫-silky-answers-are-dangerous"
   - "dk-纪浩-清单体笔记-3层循环"
   - "skill-半肥猫-course-to-skill-workflow"
+tags:
+  - #domain/ai-collaboration
+  - #domain/yitang
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/skill-engineering/course-to-skill
+  - #scene/product-design/mvp
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 学习成果工具化方法论：从课程作业到可复用能力的转化框架

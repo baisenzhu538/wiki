@@ -23,18 +23,19 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt"
 status: "reviewed"
-tags:
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/cognitive-bias"
-  - "#scene/self-awareness"
-  - "#yitang"
 title: "暗知识：五步法的段位盲区与自评陷阱"
 trust_level: "medium"
 type: "dk"
 updated_at: "2026-06-11"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '落地实操', 'course_id': 'yt-five-step-level-blindspots', 'course_type': 'dk', 'level': 'core'}
+tags:
+  - #scene/business-analysis
+  - #scene/cognitive-bias
+  - #scene/self-awareness
+  - #yitang
+pipeline:
+  - confidence-source-cited
 ---
 
 # 暗知识：五步法的段位盲区与自评陷阱

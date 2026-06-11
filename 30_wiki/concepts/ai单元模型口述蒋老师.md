@@ -19,24 +19,25 @@ source_refs:
   - "src_20260525_92ea6173"
 speaker: "蒋老师（磊哥），一堂合伙人、教练"
 status: "enriched"
-tags:
-  - "#ai"
-  - "#boundary/requires-human-judgment"
-  - "#business-analysis"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#entrepreneur"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/note-taking/live-field"
-  - "#unit-model"
-  - "#yitang"
 title: "AI+单元模型口述（蒋老师/磊哥）"
 type: "concept"
 updated_at: 2026-05-25
+tags:
+  - #ai
+  - #business-analysis
+  - #entrepreneur
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/business-analysis/customer-acquisition
+  - #scene/knowledge-management
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/level-diagnosis
+  - #scene/note-taking/live-field
+  - #unit-model
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # AI+单元模型口述（蒋老师/磊哥）

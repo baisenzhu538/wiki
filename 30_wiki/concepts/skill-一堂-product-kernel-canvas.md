@@ -12,13 +12,6 @@ source_refs:
   - "00_inbox/一堂-产品内核迭代课-Truman-笔记.txt"
   - "00_inbox/一堂-产品内核验证课-truman-笔记.txt"
   - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/yitang"
-  - "#domain/product-strategy"
-  - "#product-kernel"
-  - "#value-proposition"
 created_at: "2026-06-08"
 updated_at: "2026-06-09"
 related:
@@ -34,6 +27,14 @@ definition_of_done:
   - "每个步骤配有输入/输出或检查清单"
   - "外部攻击者和 Constraints 已明确"
   - "实际应用后收集反馈并更新技能"
+tags:
+  - #domain/yitang
+  - #domain/product-strategy
+  - #product-kernel
+  - #value-proposition
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 一堂产品内核画布应用技能

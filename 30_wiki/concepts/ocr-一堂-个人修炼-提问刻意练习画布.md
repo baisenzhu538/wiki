@@ -10,11 +10,12 @@ title: "OCR: 一堂-个人修炼-提问刻意练习画布"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-beginners"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/skill-engineering"
+  - #scene/ai-collaboration
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/not-for-beginners
+  - confidence-source-cited
 ---
 
 # OCR: 一堂-个人修炼-提问刻意练习画布

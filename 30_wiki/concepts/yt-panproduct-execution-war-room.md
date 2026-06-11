@@ -30,23 +30,24 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-攻坚会.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#collaboration"
-  - "confidence-source-cited"
-  - "#execution"
-  - "#pan-product-design"
-  - "#scene/agent-infrastructure"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "泛产品设计·落地卡片：攻坚会"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
+tags:
+  - #collaboration
+  - #execution
+  - #pan-product-design
+  - #scene/agent-infrastructure
+  - #scene/learning-methodology/mental-models
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 攻坚会：重点课题all-in攻坚

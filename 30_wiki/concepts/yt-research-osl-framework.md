@@ -31,23 +31,24 @@ source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
   - "00_inbox/ideas/一堂-创业-调研行动营口述01.md"
 status: "reviewed"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#framework"
-  - "#research"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/live-field"
-  - "#yitang"
 title: "OSL调研五步法：一堂通用商业调研框架"
 trust_level: "medium"
 type: "framework"
 updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-osl-framework', 'course_type': 'framework', 'level': 'foundational'}
+tags:
+  - #research
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking/live-field
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #framework
+  - confidence-source-cited
 ---
 
 # OSL调研五步法：一堂通用商业调研框架

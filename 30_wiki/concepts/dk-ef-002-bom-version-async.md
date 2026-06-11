@@ -7,22 +7,23 @@ source_person: "黄药师"
 source_context: "多人交接的硬件项目——原理图/BOM/PCB/Gerber/固件散落在多台电脑，版本混乱"
 source_refs:
   - "90_control/electronics-practice/failure-modes-electronics.md"
-tags:
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#domain/electronics"
-  - "#process/bom-management"
-  - "#process/version-control"
-  - "#scene/hardware-debugging/bom-management"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/skill-engineering"
-  - "#source_type/dark-knowledge"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
   - "dk-ef-001-sn74lvc2g07-open-drain"
   - "dk-ef-003-hand-soldering-bom-divergence"
   - "dk-ef-004-missing-diagnostic-firmware"
+tags:
+  - #domain/electronics
+  - #process/bom-management
+  - #process/version-control
+  - #scene/hardware-debugging/bom-management
+  - #scene/hardware-debugging/prototyping
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/single-use-only
+  - #source_type/dark-knowledge
+  - confidence-source-cited
 ---
 
 # BOM 多版本不同步：你手里的文件和产线手里的不是同一份

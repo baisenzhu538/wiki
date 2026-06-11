@@ -10,12 +10,13 @@ title: "DeepSeek V4 在知识管理系统中的应用"
 type: "concept"
 updated_at: 2026-05-05
 tags:
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/skill-engineering"
+  - #scene/knowledge-management
+  - #scene/learning-methodology/mental-models
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
 ---
 
 # DeepSeek V4 在知识管理系统中的应用

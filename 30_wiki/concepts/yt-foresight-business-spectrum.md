@@ -49,19 +49,20 @@ diagnostic_relations:
   - target: "yt-foresight-ten-fatal-flaws"
     relation: "requires_input"
     description: "光谱定位后，需要用十大硬伤清单逐条检查该位置是否有致命硬伤"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/entrepreneurship"
-  - "#yitang"
 title: "终局光谱图"
 trust_level: "medium"
 type: "framework"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '机会预判', 'course_id': 'yt-foresight-business-spectrum', 'course_type': 'framework', 'level': 'core'}
+tags:
+  - #scene/business-analysis
+  - #scene/entrepreneurship
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 终局光谱图

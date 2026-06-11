@@ -6,19 +6,20 @@ domain:
 source_refs:
   - "src_20260528_2ba8539f"
 status: "draft"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology"
-  - "#scene/skill-engineering"
-  - "[design, aigc, prompt-engineering]"
 title: "AIGC设计基础01：AI生图原理与提示词基本功"
 type: "concept"
 updated_at: 2026-05-28
+tags:
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/business-analysis
+  - #scene/knowledge-management
+  - #scene/learning-methodology
+  - #scene/skill-engineering
+  - [design, aigc, prompt-engineering]
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # AIGC设计基础01：AI生图原理与提示词基本功

@@ -30,23 +30,24 @@ source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
   - "00_inbox/ideas/一堂-创业必修-需求分析.md"
 status: "reviewed"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#research"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#tool"
-  - "#yitang"
 title: "竞品拆解工具包：三层分类+内核边界+单元模型对标"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-competitor-toolkit', 'course_type': 'tool', 'level': 'intermediate'}
+tags:
+  - #research
+  - #scene/business-analysis
+  - #scene/learning-methodology
+  - #scene/note-taking
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-source-cited
 ---
 
 # 竞品拆解工具包：三层分类+内核边界+单元模型对标

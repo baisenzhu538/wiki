@@ -15,11 +15,6 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "有真实失败案例"
-tags:
-  - "#domain/decision-making"
-  - "#scene/career-planning"
-  - "#scene/investment"
-  - "confidence-source-cited"
 tools_required: ["决策矩阵（纸笔或电子表格）", "外部咨询（信任的朋友/导师）"]
 prerequisite_skills: []
 related:
@@ -30,6 +25,12 @@ created_at: "2026-06-07"
 updated_at: "2026-06-11"
 reviewed_by: "黄药师"
 confidence: 0.85
+tags:
+  - #domain/decision-making
+  - #scene/career-planning
+  - #scene/investment
+pipeline:
+  - confidence-source-cited
 ---
 
 # 技能：管理决策权重偏差

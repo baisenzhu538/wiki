@@ -10,18 +10,19 @@ source_person: "月白"
 source_context: "口述稿: AI设计-AI设计师实操培训01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/design"
-  - "#scene/business-analysis"
-  - "#scene/note-taking/checklist-method"
-  - "#source_type/dark-knowledge"
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb7-design-demand-80-10-10"
 contradicts: ""
+tags:
+  - #domain/design
+  - #scene/business-analysis
+  - #scene/note-taking/checklist-method
+pipeline:
+  - #source_type/dark-knowledge
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 解决方案驱动视觉设计，非门店风格导向

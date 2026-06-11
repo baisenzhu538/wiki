@@ -23,21 +23,22 @@ source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂进步大地图.png"
 status: "enriched"
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#core-model"
-  - "#methodology"
-  - "#progress-map"
-  - "#scene/knowledge-management"
-  - "#scene/note-taking/level-diagnosis"
-  - "#yitang"
 title: "无限进步大地图"
 type: "framework"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'system', 'module': '方法论总纲', 'course_type': 'model'}
+tags:
+  - #core-model
+  - #methodology
+  - #progress-map
+  - #scene/knowledge-management
+  - #scene/note-taking/level-diagnosis
+  - #yitang
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 一堂无限进步大地图·十年收藏版

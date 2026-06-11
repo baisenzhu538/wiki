@@ -46,25 +46,26 @@ related:
 source_refs:
   - "30_wiki/concepts/yt-management-strategy-meeting.md"
 status: "draft"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#management"
-  - "#meeting-facilitation"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/skill-engineering"
-  - "#strategy"
-  - "#tool"
-  - "#yitang"
 title: "战略研讨会引导手册"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-19
 version: 1
 yitang: {'map': 'management', 'module': '管公司', 'course_type': 'tool', 'level': 'advanced'}
+tags:
+  - #management
+  - #meeting-facilitation
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/skill-engineering
+  - #strategy
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 战略研讨会引导手册

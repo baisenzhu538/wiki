@@ -26,24 +26,25 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
 status: "enriched"
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/ai-collaboration/human-ai-division"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/ai-collaboration/workspace-design"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#scene/product-design"
-  - "#yitang"
 title: "AI 能力（双模型）"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': 'AI 能力（双模型）', 'course_id': 'yt-personal-ai-capability', 'course_type': 'method', 'level': 'advanced'}
+tags:
+  - #scene/ai-collaboration/human-ai-division
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/ai-collaboration/workspace-design
+  - #scene/business-analysis
+  - #scene/learning-methodology
+  - #scene/product-design
+  - #yitang
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # AI 能力（双模型）

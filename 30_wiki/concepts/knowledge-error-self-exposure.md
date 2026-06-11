@@ -5,15 +5,6 @@ type: "concept"
 status: "draft"
 domain:
   - "master"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "#domain/knowledge-management"
-  - "#method/quality"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/skill-engineering"
 related:
   - "kdo-flywheel"
   - "dk-c8-format-complete-mind-empty"
@@ -26,6 +17,16 @@ query_triggers:
   - "知识库腐败"
 created_at: 2026-06-03
 updated_at: 2026-06-03
+tags:
+  - #domain/knowledge-management
+  - #method/quality
+  - #scene/ai-collaboration
+  - #scene/knowledge-management
+  - #scene/learning-methodology/feedback-loop
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-draft
 ---
 
 # 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向

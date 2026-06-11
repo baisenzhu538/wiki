@@ -12,16 +12,17 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "工具要求明确"
-tags:
-  - "#boundary/not-for-beginners"
-  - "confidence-draft"
-  - "#domain/creative"
-  - "#scene/learning-methodology/feedback-loop"
 tools_required: ""
 prerequisite_skills: ""
 related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
+tags:
+  - #domain/creative
+  - #scene/learning-methodology/feedback-loop
+pipeline:
+  - #boundary/not-for-beginners
+  - confidence-draft
 ---
 
 # 技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱

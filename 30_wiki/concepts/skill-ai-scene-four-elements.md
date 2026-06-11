@@ -18,11 +18,6 @@ definition_of_done:
   - 每次评估4个要素全部回答
   - 至少1个要素触发"不适合AI"的警觉
   - 能判断"这个场景是否适合AI落地"
-tags:
-  - "#domain/AI"
-  - "#skill-type/validation"
-  - "#method/checklist"
-  - "#tool/brain"
 tools_required:
   - 无（纯思维工具）
 prerequisite_skills:
@@ -30,6 +25,12 @@ prerequisite_skills:
 related: []
 created_at: 2026-06-11
 updated_at: 2026-06-11
+tags:
+  - #domain/AI
+  - #method/checklist
+  - #tool/brain
+pipeline:
+  - #skill-type/validation
 ---
 
 # 技能：AI落地场景四要素评估法

@@ -32,30 +32,31 @@ source_refs:
   - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
   - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
 status: "enriched"
-tags:
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/note-taking/live-field"
-  - "#scene/product-design/design-freeze"
-  - "#scene/skill-engineering/manifest-design"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#yitang"
 title: "清单体笔记（一堂笔记法）"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-06-07
 version: 2
 yitang: {'map': 'personal', 'module': '清单体笔记', 'course_id': 407, 'course_type': 'method', 'level': 'core'}
+tags:
+  - #scene/ai-collaboration
+  - #scene/business-analysis/conversion-rate
+  - #scene/knowledge-management
+  - #scene/learning-methodology/deliberate-practice
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/checklist-method
+  - #scene/note-taking/level-diagnosis
+  - #scene/note-taking/live-field
+  - #scene/product-design/design-freeze
+  - #scene/skill-engineering/manifest-design
+  - #scene/skill-engineering/publish-deploy
+  - #yitang
+pipeline:
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 清单体笔记（一堂笔记法）

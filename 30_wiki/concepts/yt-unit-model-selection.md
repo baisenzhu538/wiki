@@ -30,27 +30,28 @@ source_refs:
   - "src_20260524_9f4e5d6a-一堂-单元模型02口述"
   - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
 status: "draft"
-tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#business-analysis"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#entrepreneur"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering"
-  - "#tool"
-  - "#unit-model"
-  - "#yitang"
 title: "单元模型选择法：复制哪个算哪个，找到核心经济单元"
 trust_level: "high"
 type: "tool"
 updated_at: 2026-05-25
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'tool', 'level': 'intermediate'}
+tags:
+  - #business-analysis
+  - #entrepreneur
+  - #scene/business-analysis/customer-acquisition
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology
+  - #scene/note-taking/live-field
+  - #scene/skill-engineering
+  - #unit-model
+  - #yitang
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #tool
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 单元模型选择法：复制哪个算哪个，找到核心经济单元

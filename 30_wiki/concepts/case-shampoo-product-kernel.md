@@ -20,16 +20,17 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-产品内核-洗发水案例.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-解决方案（产品内核）-口述.txt"
 status: "reviewed"
-tags:
-  - "confidence-source-cited"
-  - "#scene/product-management"
-  - "#yitang"
 title: "案例：洗发水产品内核"
 trust_level: "medium"
 type: "case"
 updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '产品内核', 'course_id': 'case-shampoo-product-kernel', 'course_type': 'case', 'level': 'core'}
+tags:
+  - #scene/product-management
+  - #yitang
+pipeline:
+  - confidence-source-cited
 ---
 
 # 案例：洗发水产品内核

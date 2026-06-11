@@ -15,10 +15,11 @@ query_triggers:
   - "专家预测为什么不准"
 reviewed_by: ""
 tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/skill-engineering/manifest-design"
+  - #scene/learning-methodology/mental-models
+  - #scene/skill-engineering/manifest-design
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 偶然性与决策：承认"我不知道"比虚假确定性更明智

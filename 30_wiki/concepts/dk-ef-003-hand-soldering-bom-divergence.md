@@ -7,21 +7,22 @@ source_person: "黄药师"
 source_context: "原型阶段工程师手焊调通→量产机贴后参数无效——手工焊接中的飞线/替换元件/跳线未记录"
 source_refs:
   - "90_control/electronics-practice/failure-modes-electronics.md"
-tags:
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#domain/electronics"
-  - "#hardware/manufacturing"
-  - "#hardware/prototyping"
-  - "#scene/hardware-debugging/bom-management"
-  - "#scene/hardware-debugging/prototyping"
-  - "#source_type/dark-knowledge"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
   - "dk-ef-001-sn74lvc2g07-open-drain"
   - "dk-ef-002-bom-version-async"
   - "dk-ef-004-missing-diagnostic-firmware"
+tags:
+  - #domain/electronics
+  - #hardware/manufacturing
+  - #hardware/prototyping
+  - #scene/hardware-debugging/bom-management
+  - #scene/hardware-debugging/prototyping
+pipeline:
+  - #boundary/single-use-only
+  - #source_type/dark-knowledge
+  - confidence-source-cited
 ---
 
 # 手焊板的隐性修改：原型调通了但量产就是不行

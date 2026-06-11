@@ -10,14 +10,6 @@ source_person: "纪浩"
 source_context: "AI俱乐部·人和AI协作（第三次分享，2026-06）"
 source_refs:
   - "00_inbox/纪浩-AI协作方法论-口述.md"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/ai-collaboration"
-  - "#domain/yitang"
-  - "#scene/ai-collaboration/problem-validation"
-  - "#scene/product-design/requirement-analysis"
 tools_required: "纸笔或文档、具体场景描述"
 prerequisite_skills: ""
 related:
@@ -26,6 +18,15 @@ related:
   - "skill-纪浩-Do-first-PDCA渐进迭代法"
 created_at: "2026-06-08"
 updated_at: "2026-06-08"
+tags:
+  - #domain/ai-collaboration
+  - #domain/yitang
+  - #scene/ai-collaboration/problem-validation
+  - #scene/product-design/requirement-analysis
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 技能：真需求四要素验证法

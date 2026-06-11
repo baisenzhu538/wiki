@@ -10,15 +10,6 @@ source_person: "system"
 source_context: "pitfalls.md P-17"
 source_refs:
   - ".agent/pitfalls.md#P-17"
-tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
-  - "#scene/agent-infrastructure"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/learning-methodology"
-  - "#source_type/error"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
@@ -26,6 +17,16 @@ related:
 contradicts:
   - "master-decision-hygiene"
   - "master-ai-info-literacy"
+tags:
+  - #domain/knowledge-management
+  - #method/evaluation-method
+  - #scene/agent-infrastructure
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/learning-methodology
+pipeline:
+  - #source_type/error
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度

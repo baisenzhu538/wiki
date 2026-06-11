@@ -28,26 +28,27 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计02口述.md"
 status: "enriched"
-tags:
-  - "#boundary/not-for-beginners"
-  - "#boundary/not-for-creative"
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#execution"
-  - "#iteration"
-  - "#pan-product-design"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
-  - "#yitang"
 title: "泛产品设计落地篇：无限进步与持续打磨"
 type: "concept"
 updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'required', 'level': 'advanced'}
+tags:
+  - #execution
+  - #iteration
+  - #pan-product-design
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology
+  - #scene/note-taking/checklist-method
+  - #scene/product-design
+  - #scene/skill-engineering
+  - #yitang
+pipeline:
+  - #boundary/not-for-beginners
+  - #boundary/not-for-creative
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 泛产品设计落地篇：无限进步与持续打磨

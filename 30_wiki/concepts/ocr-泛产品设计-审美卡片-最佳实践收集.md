@@ -10,15 +10,16 @@ title: "OCR: 泛产品设计-审美卡片-最佳实践收集"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management/case-library"
-  - "#scene/learning-methodology"
-  - "#scene/product-design"
-  - "#scene/skill-engineering"
+  - #scene/business-analysis
+  - #scene/knowledge-management/case-library
+  - #scene/learning-methodology
+  - #scene/product-design
+  - #scene/skill-engineering
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # OCR: 泛产品设计-审美卡片-最佳实践收集

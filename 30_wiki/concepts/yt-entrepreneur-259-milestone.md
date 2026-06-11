@@ -26,19 +26,20 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/live-field"
-  - "#yitang"
 title: "259里程碑"
 trust_level: "medium"
 type: "tool"
 updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '259里程碑', 'course_id': 259, 'course_type': 'method', 'level': 'foundational'}
+tags:
+  - #scene/business-analysis
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/live-field
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 259里程碑

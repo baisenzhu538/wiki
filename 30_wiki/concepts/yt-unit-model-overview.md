@@ -27,14 +27,15 @@ related:
   - "yt-decision-y-model"
   - "yt-entrepreneur-key-hypotheses"
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking/live-field"
+  - #scene/business-analysis/customer-acquisition
+  - #scene/knowledge-management/tagging
+  - #scene/learning-methodology
+  - #scene/note-taking/live-field
+pipeline:
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - confidence-draft
+  - confidence-source-cited
 ---
 
 # 单元模型概述：从最小经济单元到商业判断框架

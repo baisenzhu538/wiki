@@ -25,12 +25,6 @@ query_triggers:
   - "预判框架"
   - "15字黄金法则"
   - "机会预判方法论"
-tags:
-  - "#yitang"
-  - "#scene/business-analysis"
-  - "#scene/decision-making"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
 related: {'series': False}
 supersedes:
   - "concept-一堂-business-prediction"
@@ -38,6 +32,13 @@ wiki_refs:
   - "30_wiki/concepts/yt-foresight-business-spectrum.md"
   - "30_wiki/concepts/yt-entrepreneur-key-hypotheses.md"
   - "30_wiki/concepts/yt-concept-p-type-l-type.md"
+tags:
+  - #yitang
+  - #scene/business-analysis
+  - #scene/decision-making
+pipeline:
+  - confidence-source-cited
+  - confidence-verified-by-case
 ---
 
 # 十五字黄金法诀：机会预判的核心框架

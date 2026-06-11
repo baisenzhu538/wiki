@@ -23,20 +23,21 @@ reviewed_by: ""
 source_refs:
   - {"来源": "一堂 (Truman)"}
 status: "enriched"
-tags:
-  - "#boundary/not-for-medical"
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/ai-collaboration/workspace-design"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/level-diagnosis"
-  - "#scene/skill-engineering/manifest-design"
 title: "AI时代信息素养框架"
 type: "framework"
 updated_at: 2026-05-18
 version: 1
+tags:
+  - #scene/ai-collaboration/prompt-engineering
+  - #scene/ai-collaboration/workspace-design
+  - #scene/knowledge-management
+  - #scene/learning-methodology/mental-models
+  - #scene/note-taking/level-diagnosis
+  - #scene/skill-engineering/manifest-design
+pipeline:
+  - #boundary/not-for-medical
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # AI时代信息素养框架

@@ -27,21 +27,22 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-需求挖掘.png"
 status: "enriched"
-tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "#need-discovery"
-  - "#pan-product-design"
-  - "#scene/ai-collaboration/problem-validation"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/product-design"
-  - "#user-research"
-  - "#yitang"
 title: "泛产品设计·用户卡片：需求挖掘"
 type: "tool"
 updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
+tags:
+  - #need-discovery
+  - #pan-product-design
+  - #scene/ai-collaboration/problem-validation
+  - #scene/learning-methodology/mental-models
+  - #scene/product-design
+  - #user-research
+  - #yitang
+pipeline:
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
 ---
 
 # 需求挖掘：理解背后的深层原因
