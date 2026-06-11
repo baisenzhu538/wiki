@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-11T04:30:00+00:00_
+_Last updated: 2026-06-11T05:00:00+00:00_
 
 - [[cases/case-ether-online-acquisition.md|案例：以太利用全网调研能力快速获客]] — source `一堂课程-规模经济章节（Truman口述）`
 - [[cases/case-jh-yitang-vs-sqlhelper.md|一堂数据库vs SQLHelper：同样的需求，两种产品策略——专业与通用的产品分岐]] — source `00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt`
@@ -51,10 +51,12 @@ _Last updated: 2026-06-11T04:30:00+00:00_
 - [[concepts/case-gudong-tea-shop-foresight.md|古董奶茶店：五层筛选的加法减法实战]] — source `00_inbox/一堂-机会预判课-Truman-口述.txt`
 - [[concepts/case-shampoo-product-kernel.md|案例：洗发水产品内核]] — source `00_inbox/一堂五步法/一堂-一堂五步法-产品内核-洗发水案例.png`
 - [[concepts/case-toy-cabinet-business-model.md|案例：线下玩具柜商业模式]] — source `00_inbox/一堂五步法/一堂=一堂五步法-商业模型-线下玩具柜案例.png`
+- [[concepts/case-toy-cabinet-barrier.md|案例：线下玩具柜的壁垒困局与突围路径]] — source `00_inbox/一堂五步法/一堂=一堂五步法-商业模型-线下玩具柜案例.png`
 - [[concepts/case-treadmill-demand-analysis.md|案例：跑步机需求分析]] — source `00_inbox/一堂五步法/一堂-一堂五步法-需求-跑步机案例-需求分析图.png`
 - [[concepts/case-truman-poker-deck-roi.md|case-truman-poker-deck-roi]] — source no source
 - [[concepts/case-truman-yitang-foresight.md|Truman一堂：市场扫描→六方向→Plan ABC试错]] — source `00_inbox/一堂-机会预判课-Truman-口述.txt`
 - [[concepts/case-xiaolong-ecommerce-foresight.md|小龙电商：四层剥离——从服装到正装裤]] — source `00_inbox/一堂-机会预判课-Truman-口述.txt`
+- [[concepts/case-zhihu-vs-degetao-network-effect.md|案例：知乎vs得到——网络效应壁垒的对比分析]] — source `00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt`
 - [[concepts/case-一堂-AI高考志愿-kernel-mismatch.md|案例：AI高考志愿填报产品因内核错位而失敗]] — source `00_inbox/一堂-产品内核实操课-truman-笔记.txt`
 - [[concepts/case-一堂-无人餐厅-hypothesis-failure.md|案例：一堂无人餐厅项目因忽视关键假设而失败]] — source `00_inbox/一堂-关键假设课-truman-笔记.txt`
 - [[concepts/case-一堂-陈贤敏汉堡-hypothesis-validation.md|案例：陈贤敏中式汉堡先开实验店验证关键假设]] — source `00_inbox/一堂-关键假设课-truman-笔记.txt`
@@ -894,7 +896,8 @@ _Last updated: 2026-06-11T04:30:00+00:00_
 - [[concepts/yt-ai-startup-20-risky-hypotheses.md|AI创业20个高风险假设清单]] — source `00_inbox/一堂-机会预判-AI创业案例-20个高风险假设清单.png`
 - [[concepts/yt-ai-trend-12-signals.md|AI趋势12大变化模型]] — source `00_inbox/一堂-机会预判-AI趋势12大变化模型.png`
 - [[concepts/yt-barrier-analysis-cheat-sheet.md|壁垒分析完整cheatsheet]] — source `00_inbox/一堂五步法/一堂-一堂五步法-壁垒-一堂壁垒分析结果.png`
-- [[concepts/yt-business-analysis-cognitive-biases.md|暗知识：五步法中的主要认知偏差]] — source `00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt`
+- [[concepts/yt-barrier-identification-skill.md|壁垒识别与构建技能：从真假壁垒到护城河建设]] — source `00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt`
+- [[concepts/yt-business-analysis-cognitive-biases.md|暗知识：五步法中的主要认知偏差]] — source `00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt`
 - [[concepts/yt-case-mandatory-cases.md|一堂案例必修课]] — source no source
 - [[concepts/yt-composite-pan-product-methodology.md|泛产品设计方法论]] — source `10_raw/sources/一堂-个人修炼-泛产品设计探索营口述版.md`
 - [[concepts/yt-concept-ai-guard-brain.md|守脑如玉：AI时代保持大脑锋利]] — source `10_raw/sources/一堂-拆书会-吴恩达提示词课程.md`
