@@ -307,3 +307,31 @@ wiki_subdirs = [
 
 黄药师
 2026-06-11
+
+---
+
+## 🔴 Backlog：`kdo validate` 新增 domain-tags 一致性检查
+
+**来源**：王语嫣诊断发现 design 域孤岛根因——32 张卡的 `tags` 已包含跨域标签（如 `#scene/business-analysis`），但 `domain` 仍为单域 `["design"]`。
+
+**建议**：在 `kdo validate --v15` 中增加一条简单启发式检查：
+
+检查逻辑（纯字符串匹配，不需要 LLM）：
+```
+如果卡片的 tags 包含以下任一场景标签，
+且 domain 数组长度 = 1（单域），
+则报 WARN "tags 暗示跨域但 domain 为单域"：
+
+跨域场景标签列表：
+#scene/business-analysis
+#scene/ai-collaboration
+#scene/knowledge-management
+#scene/decision-making
+#scene/entrepreneurship
+#scene/startup
+#scene/product-design
+```
+
+**优先级**：P2（不阻塞，等老顽童先执行 P0 桥接补 domain 后再上线，否则旧卡会大量报 WARN 制造噪音）
+
+**工作量估计**：约 0.5h

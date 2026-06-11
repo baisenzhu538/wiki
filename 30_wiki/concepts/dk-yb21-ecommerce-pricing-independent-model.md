@@ -6,15 +6,17 @@ dark_knowledge_type: "insight"
 status: "draft"
 domain:
   - "design"
+  - "business-strategy"
 source_person: "月白"
 source_context: "口述稿: AI设计-AI设计师实操培训01"
 source_refs:
   - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
 created_at: 2026-06-04
-updated_at: 2026-06-04
+updated_at: 2026-06-11
 related:
   - "dk-yb19-visual-strategy-price-match"
   - "dk-yb7-design-demand-80-10-10"
+  - "yt-entrepreneur-unit-model"
 contradicts: ""
 tags:
   - #domain/design
