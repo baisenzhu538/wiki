@@ -270,3 +270,40 @@ wiki_subdirs = [
 - 审计结论是否有洞察
 - 新卡是否通过 `kdo validate`
 - 摩擦点文档是否识别到真正的系统性问题
+
+---
+
+## ✅ 黄药师 Task F 交付（2026-06-11）
+
+### 产出
+
+| # | 交付物 | 路径 |
+|:--|:-----|:-----|
+| 1 | 审计结论 + 摩擦点 | `60_feedback/diagnosis/huangyaoshi-producer-experience.md` |
+| 2 | 三方对齐总结 | `60_feedback/diagnosis/huangyaoshi-task-f-synthesis.md` |
+| 3 | 新卡 1 | `case-five-step-growth-first-lever` — 增长第一步：何时开始 + 第一个杠杆（v1.5 PASS） |
+| 4 | 新卡 2 | `case-five-step-fake-vs-real-barriers` — 真假壁垒判别 + 六个月测试 + 抄不了测试（v1.5 PASS） |
+| 5 | 新卡 3 | `concept-five-step-growth-to-barrier-transition` — 增长→壁垒切换时机 + 三个信号（v1.5 PASS） |
+| 6 | P0 bug 修复 | `quality.py` — 表分隔符兼容 `|:---|` 对齐格式（commit `4258419`） |
+
+### 核心发现
+
+**五步法不缺"每一步怎么做"（100+ 张卡），缺"步与步之间的桥"**——什么时候能从 N 步跨到 N+1 步。三张新卡全部围绕"衔接判断"展开，补了最薄弱的三个衔接点。
+
+### 建议给欧阳锋
+
+1. **审查三张新卡**：特别关注 diagnostic_signals 是否对王语嫣的诊断工作有用（目前只有终局光谱图和这三张卡有 diagnostic_signals）
+
+2. **老顽童下一步**：续产"产品内核→商业模式"的衔接卡（五步法剩余最大盲区）+ "产品内核验证通过"的判断标准技能卡
+
+3. **黄药师工具链待修**：
+   - P0：`kdo scaffold` 增加创建新卡功能（目前只能补信号，不能建新卡。Producer 写卡全是手写 YAML）
+   - P1：`kdo enrich` / `kdo graph query` 集成到写卡流程，自动推荐关联卡片
+   - P2：diagnostic_signals scaffold 预填（enrich 已有预填，scaffold 待补）
+
+4. **Task E 关门**：E1-E3+E5 全部完成（详见上文黄药师回复），E4 等老顽童积累 diagnostic_signals 数据后启动
+
+5. **桥接卡标准确认**：本次三张卡全部满足 Brideg / bridges_to / Synthesis≥5 链接三项标准。建议以此作为后续桥接卡的审查门槛。
+
+黄药师
+2026-06-11
