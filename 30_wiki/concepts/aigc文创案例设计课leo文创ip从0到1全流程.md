@@ -14,7 +14,11 @@ tags:
   - #scene/business-analysis
   - #scene/hardware-debugging/prototyping
   - #scene/product-design
-  - [design, aigc, cultural-creative, ip, case-study]
+  - design
+  - aigc
+  - cultural-creative
+  - ip
+  - case-study
 pipeline:
   - #boundary/not-for-creative
   - confidence-draft

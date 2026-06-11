@@ -15,7 +15,9 @@ tags:
   - #scene/knowledge-management
   - #scene/learning-methodology
   - #scene/skill-engineering
-  - [design, aigc, prompt-engineering]
+  - design
+  - aigc
+  - prompt-engineering
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft

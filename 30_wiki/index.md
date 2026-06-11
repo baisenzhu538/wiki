@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-11T05:00:00+00:00_
+last_updated: "2026-06-11T05:30:00+00:00"
 
 - [[cases/case-ether-online-acquisition.md|案例：以太利用全网调研能力快速获客]] — source `一堂课程-规模经济章节（Truman口述）`
 - [[cases/case-jh-yitang-vs-sqlhelper.md|一堂数据库vs SQLHelper：同样的需求，两种产品策略——专业与通用的产品分岐]] — source `00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt`

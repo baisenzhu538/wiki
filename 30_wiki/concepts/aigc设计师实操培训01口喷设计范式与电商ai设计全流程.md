@@ -14,7 +14,10 @@ tags:
   - #scene/hardware-debugging/prototyping
   - #scene/learning-methodology
   - #scene/note-taking/live-field
-  - [design, aigc, ecommerce, workflow]
+  - design
+  - aigc
+  - ecommerce
+  - workflow
 pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment

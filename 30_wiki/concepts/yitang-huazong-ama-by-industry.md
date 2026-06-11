@@ -15,7 +15,11 @@ tags:
   - #scene/learning-methodology
   - #scene/note-taking/live-field
   - #scene/skill-engineering/publish-deploy
-  - [AI落地, 一堂, 花总, 行业分类, 对照表]
+  - AI落地
+  - 一堂
+  - 花总
+  - 行业分类
+  - 对照表
 pipeline:
   - #boundary/not-for-medical
   - #boundary/requires-human-judgment
