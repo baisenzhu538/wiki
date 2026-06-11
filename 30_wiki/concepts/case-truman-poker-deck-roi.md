@@ -1,6 +1,6 @@
 ---
 id: "case-truman-poker-deck-roi"
-title: "扑克牌案例：同样的任务，两个同学评估结果截然相反——“同行都做"是最危险的决策理由"
+title: "扑克牌案例：同样的任务，两个同学评估结果截然相反——'同行都做'是最危险的决策理由"
 type: "case"
 status: "draft"
 domain:

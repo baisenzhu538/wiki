@@ -1,46 +1,46 @@
 ---
-id: "yt-pitch-quantification"
-title: "讲香·数字化"
-type: "tool"
-status: "enriched"
+id: yt-pitch-quantification
+title: 讲香·数字化
+type: tool
+status: enriched
 domain:
-  - "personal"
-  - "yitang"
-language: "zh-CN"
+- personal
+- yitang
+language: zh-CN
 version: 1
-difficulty: "intermediate"
+difficulty: intermediate
 confidence: 0.85
 prerequisites:
-  - "yt-model-personal-pitch-toolkit"
+- yt-model-personal-pitch-toolkit
 component_of:
-  - "yt-model-personal-pitch-toolkit"
+- yt-model-personal-pitch-toolkit
 related:
-  - "yt-concept-weapon-arsenal"
-contradicts:
+- yt-concept-weapon-arsenal
+- yt-model-personal-pitch-toolkit
+contradicts: null
 query_triggers:
-  - "数字化"
-  - "数字策略"
-  - "用数字"
-  - "对比数字"
-  - "巧用数字"
+- 数字化
+- 数字策略
+- 用数字
+- 对比数字
+- 巧用数字
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#pitch"
-  - "#scene/business-analysis"
-  - "#scene/skill-engineering"
-  - "#yitang"
-  - "#具象化"
+- '#boundary/requires-human-judgment'
+- confidence-source-cited
+- confidence-verified-by-case
+- '#pitch'
+- '#scene/business-analysis'
+- '#scene/skill-engineering'
+- '#yitang'
+- '#具象化'
 source_refs:
-  - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
-  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
-created_at: "2026-05-13"
-updated_at: "2026-05-28"
+- 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
+- 10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png
+created_at: '2026-05-13'
+updated_at: '2026-05-28'
 estimated_tokens: 2500
-reviewed_by: ""
+reviewed_by: ''
 ---
-
 # 讲香·数字化
 
 > 十指模型左手第三指——向下具象。客观的数字让用户默认「这就是事实」，在用户犹豫反复时一锤定音。

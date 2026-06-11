@@ -1,47 +1,47 @@
 ---
-id: "yt-pitch-metaphor"
-title: "讲香·比喻化"
-type: "tool"
-status: "enriched"
+id: yt-pitch-metaphor
+title: 讲香·比喻化
+type: tool
+status: enriched
 domain:
-  - "personal"
-  - "yitang"
-language: "zh-CN"
+- personal
+- yitang
+language: zh-CN
 version: 1
-difficulty: "foundational"
+difficulty: foundational
 confidence: 0.85
 prerequisites:
-  - "yt-model-personal-pitch-toolkit"
+- yt-model-personal-pitch-toolkit
 component_of:
-  - "yt-model-personal-pitch-toolkit"
+- yt-model-personal-pitch-toolkit
 related:
-  - "yt-concept-weapon-arsenal"
-contradicts: ""
+- yt-concept-weapon-arsenal
+- yt-model-personal-pitch-toolkit
+contradicts: ''
 query_triggers:
-  - "比喻化"
-  - "比喻"
-  - "类比"
-  - "形象比喻"
-  - "高级比喻"
+- 比喻化
+- 比喻
+- 类比
+- 形象比喻
+- 高级比喻
 tags:
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#pitch"
-  - "#scene/business-analysis"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/mental-models"
-  - "#yitang"
-  - "#抽象化"
+- '#boundary/not-for-creative'
+- confidence-source-cited
+- confidence-verified-by-case
+- '#pitch'
+- '#scene/business-analysis'
+- '#scene/knowledge-management/tagging'
+- '#scene/learning-methodology/mental-models'
+- '#yitang'
+- '#抽象化'
 source_refs:
-  - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
-  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
-created_at: "2026-05-13"
-updated_at: "2026-05-28"
+- 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
+- 10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png
+created_at: '2026-05-13'
+updated_at: '2026-05-28'
 estimated_tokens: 2500
-reviewed_by: ""
+reviewed_by: ''
 ---
-
 # 讲香·比喻化
 
 > 十指模型右手第一指——向上抽象。用已知解释未知，帮用户建立一个关联的心理锚点，让难理解的东西瞬间变清晰。

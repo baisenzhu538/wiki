@@ -1,9 +1,11 @@
 ---
 tags:
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/learning-methodology/feedback-loop"
+- '#scene/business-analysis/conversion-rate'
+- '#scene/learning-methodology/feedback-loop'
+related:
+- yt-unit-model-construction
+- yt-unit-model-dynamic
 ---
-
 ## Reusable Knowledge
 
 ### 科学类比法
