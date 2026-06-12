@@ -19,7 +19,9 @@ query_triggers:
   - "知识体系定位"
   - "科学专项工具箱"
   - "起盘阶段双轨并行"
-related: {'level': 'foundational'}
+related:
+  - "yt-entrepreneur-five-step-method"
+  - "yt-entrepreneur-key-hypotheses"
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"

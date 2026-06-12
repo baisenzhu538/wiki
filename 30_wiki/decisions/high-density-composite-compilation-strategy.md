@@ -1,22 +1,11 @@
 ---
+
 title: "高密度素材编译策略（修订）"
 type: decision
 status: revised
 version: "2.0"
 supersedes: "v1.0（复合编译方案，已废弃）"
-domain:
-id: high-density-composite-compilation-strategy
-  - kdo
-source_refs:
-  - "30_wiki/decisions/kdo-ec-industrialization-migration-proposal.md"
-created_at: "2026-05-10"
-updated_at: "2026-05-11"
-tags:
-  - "#kdo"
-  - "#enrichment"
-  - "#methodology"
-  - "#agent-native-design"
----
+domain: []---
 
 # 高密度素材编译策略 v2.0
 

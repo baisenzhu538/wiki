@@ -1,4 +1,5 @@
 ---
+
 title: "紫鲸AI"
 type: entity
 status: reviewed
@@ -23,7 +24,8 @@ tags:
 trust_level: medium
 reviewed_by: "黄药师"
 review_date: "2026-05-04"
----
+
+domain: []---
 
 # 紫鲸AI
 

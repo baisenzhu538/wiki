@@ -1,4 +1,5 @@
 ---
+
 title: "kdo watch 定时巡检层技术说明"
 author: "审查者欧阳锋"
 role: "知识架构师 (Knowledge Architect)"
@@ -8,7 +9,8 @@ implementor: "黄药师 (Builder)"
 dependency: "已有 kdo watch（inbox 监听 + 自动 ingest → enrich → 重建索引）"
 id: kdo-watch-health-check-layer
 type: concept
----
+
+domain: []---
 
 # kdo watch 定时巡检层技术说明
 

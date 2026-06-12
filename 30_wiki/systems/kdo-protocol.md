@@ -1,4 +1,5 @@
 ---
+
 title: "KDO Protocol — AI-Agent Operating Contract"
 type: system
 status: draft
@@ -20,7 +21,8 @@ tags:
 trust_level: medium
 reviewed_by: "Claude"
 review_date: "2026-05-03"
----
+
+domain: []---
 
 # KDO Protocol — AI-Agent Operating Contract
 

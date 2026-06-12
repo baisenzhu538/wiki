@@ -1,48 +1,9 @@
 ---
+
 title: "基本功认知"
 type: "concept"
 status: "enriched"
-domain: ""
-id: "yt-management-basic-skills - yitang"
-yitang: {'map': 'management', 'module': '基本功认知', 'course_id': 'yt-management-basic-skills', 'course_type': 'method', 'level': 'foundational', 'series': True}
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-created_at: "2026-05-06"
-updated_at: "2026-05-17"
-estimated_tokens: 3300
-reviewed_by: "黄药师"
-review_date: "2026-05-08"
-trust_level: "medium"
-related:
-  - "yt-management-goal-management"
-  - "yt-management-leadership-levels"
-  - "yt-management-onboarding"
-  - "yt-management-scientific-hiring"
-  - "yt-management-scientific-meetings"
-  - "yt-personal-ipo-learning"
-query_triggers:
-  - "管理基本功"
-  - "新经理怎么带团队"
-  - "管理能力提升"
-  - "管理者入门培训"
-  - "能力意愿矩阵"
-  - "STAR反馈模型"
-  - "授权管理方法"
-  - "科学管理观"
-  - "从执行到管理"
-  - "管理工具包"
-tags:
-  - #scene/ai-collaboration
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/skill-engineering
-  - #yitang
-pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
----
+domain: []---
 
 # 基本功认知
 

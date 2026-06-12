@@ -1,4 +1,5 @@
 ---
+
 id: "ai-learning-closed-loop"
 type: "concept"
 status: "draft"
@@ -31,7 +32,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
   - confidence-source-cited
----
+
+domain: []---
 
 # AI学习闭环：从"听懂"到"能力"的转化路径
 

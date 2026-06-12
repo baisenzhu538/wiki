@@ -1,24 +1,9 @@
 ---
+
 title: "EC工业化规范 → KDO管线迁移方案"
 type: decision
 status: draft
-domain:
-id: kdo-ec-industrialization-migration-proposal
-  - kdo
-decision_type: proposal
-authors:
-  - 黄药师
-reviewers:
-  - 欧阳锋
-  - 老朱
-created_at: "2026-05-09"
-updated_at: "2026-05-09"
-tags:
-  - "#kdo"
-  - "#quality"
-  - "#pipeline"
-  - "#industrialization"
----
+domain: []---
 
 # EC工业化规范 → KDO管线迁移方案（征求意见稿）
 

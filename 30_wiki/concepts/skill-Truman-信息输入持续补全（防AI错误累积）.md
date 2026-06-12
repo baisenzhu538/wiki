@@ -1,30 +1,10 @@
 ---
+
 id: "skill-Truman-信息输入持续补全（防AI错误累积）"
 title: "技能：信息输入持续补全（防AI错误累积）"
 type: "skill"
 status: "draft"
-domain: ""
-source_person: "Truman"
-source_context: "AI时代判断力"
-source_refs: ""
-wiki_refs: ""
-definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
-tools_required: ""
-prerequisite_skills: ""
-related: ""
-created_at: "2026-06-07"
-updated_at: "2026-06-07"
-tags:
-  - #domain/AI
-  - #scene/ai-collaboration/workspace-design
-  - #scene/learning-methodology/feedback-loop
-pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-draft
----
+domain: []---
 
 # 技能：信息输入持续补全（防AI错误累积）
 

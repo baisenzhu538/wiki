@@ -1,34 +1,8 @@
 ---
+
 id: "yt-note-l6-extraction"
 title: "清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品"
-domain: "yitang"
-type: "concept"
-status: "draft"
-created_at: "2026-06-07"
-updated_at: "2026-06-07"
-estimated_tokens: 3200
-source_refs:
-  - "00_inbox/一堂-AI清单体笔记（训练段位图）-truman-图片02_paddle_ocr.txt"
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt"
-related:
-  - "yt-note-checklist-concept"
-  - "yt-note-five-levels-training"
-  - "yt-note-l4-internalization"
-  - "dk-note-surplus-brainpower"
-tags:
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/note-taking/level-diagnosis
-  - #scene/note-taking/live-field
-  - #scene/product-design
-  - #scene/skill-engineering/manifest-design
-pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
----
+domain: [yitang]---
 
 # 清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品
 

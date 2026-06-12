@@ -1,10 +1,12 @@
 ---
+
 type: "concept"
 tags:
   - "#scene/learning-methodology/mental-models"
 tags:
   - #yitang
----
+
+domain: []---
 
 # 调研认知升级：从"找答案"到"拆解假设"
 

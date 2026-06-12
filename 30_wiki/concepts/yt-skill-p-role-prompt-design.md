@@ -1,23 +1,8 @@
 ---
+
 id: yt-skill-p-role-prompt-design
 title: P 角色 Prompt 设计——执行者型 AI 的交付规范
-domain: yitang
-type: skill
-status: draft
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
-estimated_tokens: 5200
-source_refs:
-  - '00_inbox/和AI请单体笔记专家P角色聊天内容.md'
-  - '30_wiki/dark-knowledges/yt-note-ai-p-role-not-c-role.md'
-related:
-  - yt-note-ai-p-role-not-c-role
-  - yt-skill-checklist-as-ai-protocol
-  - yt-skill-storyline-key-elements
-  - yt-note-l4-internalization
-tags:
-  - #yitang
----
+domain: [yitang]---
 
 # P 角色 Prompt 设计——执行者型 AI 的交付规范
 

@@ -20,7 +20,9 @@ query_triggers:
   - "创业方法论"
   - "五步法框架"
   - "关键假设优先"
-related: {'series': True}
+related:
+  - "yt-foresight-business-spectrum"
+  - "yt-model-entrepreneur-map"
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"

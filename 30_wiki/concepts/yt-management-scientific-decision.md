@@ -1,48 +1,9 @@
 ---
+
 title: "Y模型/科学决策"
 type: "concept"
 status: "enriched"
-domain: ""
-id: "yt-management-scientific-decision - yitang"
-yitang: {'map': 'management', 'module': 'Y模型/科学决策', 'course_id': 'yt-management-scientific-decision', 'course_type': 'method', 'level': 'core', 'series': True}
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-created_at: "2026-05-06"
-updated_at: "2026-05-17"
-estimated_tokens: 3200
-reviewed_by: "黄药师"
-review_date: "2026-05-08"
-trust_level: "medium"
-related:
-  - "yt-entrepreneur-key-hypotheses"
-  - "yt-management-business-formula"
-  - "yt-management-conversion-hacking"
-  - "yt-management-finance-basics"
-  - "yt-management-goal-management"
-  - "yt-management-strategy-meeting"
-query_triggers:
-  - "科学决策方法"
-  - "Y模型决策"
-  - "决策矩阵"
-  - "10-10-10法则"
-  - "二阶思考"
-  - "预期价值计算"
-  - "决策陷阱"
-  - "沉没成本"
-  - "确认偏差"
-  - "创业决策框架"
-tags:
-  - #scene/business-analysis
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #yitang
-pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
----
+domain: []---
 
 # Y模型/科学决策
 

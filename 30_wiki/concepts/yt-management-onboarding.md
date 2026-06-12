@@ -1,44 +1,9 @@
 ---
+
 title: "新人落地"
 type: "concept"
 status: "enriched"
-domain: ""
-id: "yt-management-onboarding - yitang"
-yitang: {'map': 'management', 'module': '新人落地', 'course_id': 'yt-management-onboarding', 'course_type': 'method', 'level': 'core', 'series': False}
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-created_at: "2026-05-06"
-updated_at: "2026-05-19"
-estimated_tokens: 3400
-reviewed_by: "黄药师"
-review_date: "2026-05-08"
-trust_level: "medium"
-related:
-  - "yt-management-basic-skills"
-  - "yt-management-company-culture"
-  - "yt-management-goal-management"
-  - "yt-management-scientific-hiring"
-  - "yt-management-team-knowledge"
-  - "yt-tool-onboarding-90day"
-query_triggers:
-  - "新人入职培训"
-  - "新员工融入计划"
-  - "新人90天软着陆"
-  - "新员工导师制度"
-  - "buddy机制"
-  - "新人landing框架"
-  - "新员工留存"
-  - "入职流程设计"
-  - "试用期管理"
-  - "文化融入方法"
-tags:
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #yitang
-pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
----
+domain: []---
 
 # 新人落地
 

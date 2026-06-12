@@ -1,4 +1,5 @@
 ---
+
 id: "prd-as-ai-instruction"
 type: "tool"
 status: "draft"
@@ -26,7 +27,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
----
+
+domain: []---
 
 # PRD文档作为AI可执行指令
 

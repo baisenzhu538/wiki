@@ -1,4 +1,5 @@
 ---
+
 title: "OCR: 泛产品设计-落地卡片-低成本测试MVP"
 type: "concept"
 status: "enriched"
@@ -7,7 +8,8 @@ created_at: "2026-06-09T14:05:52+00:00"
 updated_at: "2026-06-09T15:52:58+00:00"
 tags:
   - #domain/general
----
+
+domain: []---
 
 
 

@@ -1,14 +1,10 @@
 ---
+
 id: "sys-agent-native-card-design"
 title: "Agent 原生知识卡设计规范 v2"
 type: "system"
 status: "active"
-domain: "kdo"
-version: 2
-created_at: "2026-05-11"
-updated_at: "2026-05-11"
-reviewed_by: "欧阳锋"
----
+domain: [kdo]---
 
 # Agent 原生知识卡设计规范 v2
 

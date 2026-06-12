@@ -1,48 +1,9 @@
 ---
+
 type: framework
 id: yt-decision-abcd-model
 status: enriched
-domain: 一堂·科学决策
-source_refs:
-- source_id: 一堂-科学决策-关键假设ABCD模型.png
-  source_type: infographic
-  visual_dimensions:
-  - 色彩语义
-  - 空间结构
-  - 信息层级
-  - 负形利用
-  - 视觉隐喻
-- source_id: 一堂-科学决策-ROI决策实践实操课口述05.txt
-  source_type: transcript
-  page_range: line 3808-3812, 3786-3804
-aliases:
-- ABCD模型
-- 假设思维体系
-- 四套框架
-- 关键假设操作系统
-tags:
-- 科学决策
-- 假设思维
-- ROI
-- Y模型
-- 一堂五步法
-- 转化率
-- 决策框架
-created: 2026-05-21
-author: 替代老顽童完成
-review_status: pending_ouyangfeng
-visual_analysis:
-- image: 一堂-科学决策-关键假设ABCD模型.png
-  dimensions:
-  - 色彩语义: 四象限色块区分A/B/C/D场景；暖色=商业/决策，冷色=增长/转化
-  - 空间结构: 2×2矩阵布局；横纵两轴正交分解；中心留白暗示共同原点
-  - 信息层级: L1场景标签→L2核心问题→L3展开维度→L4统一原点
-  - 负形利用: 矩阵交叉线形成十字锚点；场景间留白暗示切换需重新校准
-  - 视觉隐喻: 操作系统隐喻暗示可切换runtime；展开/折叠隐喻从模糊到清晰
-related:
-- yt-decision-y-model
-- yt-decision-width-method
----
+domain: [一堂·科学决策]---
 # 一堂·关键假设ABCD模型
 
 

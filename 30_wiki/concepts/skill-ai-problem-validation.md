@@ -1,32 +1,10 @@
 ---
+
 id: "skill-ai-problem-validation"
 title: "技能：问题验证三维度法"
 type: "skill"
 status: needs-review
-domain: ""
-source_person: "纪浩"
-source_context: "AI俱乐部-AI协作方法论分享，2026-06"
-source_refs: ""
-wiki_refs: ""
-definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
-tools_required: ""
-prerequisite_skills: ""
-related: ""
-created_at: 2026-06-06
-updated_at: 2026-06-06
-tags:
-  - #domain/AI
-  - #scene/ai-collaboration
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-pipeline:
-  - #skill-type/evaluation
-  - confidence-draft
-superseded_by: "skill-ai-four-elements-validation"
----
+domain: []---
 
 # 技能：问题验证三维度法
 

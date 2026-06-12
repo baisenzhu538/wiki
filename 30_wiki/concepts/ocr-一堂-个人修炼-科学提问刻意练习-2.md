@@ -1,4 +1,5 @@
 ---
+
 title: "OCR: 一堂-个人修炼-科学提问刻意练习"
 type: "concept"
 status: "enriched"
@@ -7,7 +8,8 @@ created_at: "2026-06-09T14:03:50+00:00"
 updated_at: "2026-06-09T15:52:57+00:00"
 tags:
   - #domain/general
----
+
+domain: []---
 
 
 # OCR: 一堂-个人修炼-科学提问刻意练习

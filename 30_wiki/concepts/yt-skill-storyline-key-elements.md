@@ -1,22 +1,8 @@
 ---
+
 id: yt-skill-storyline-key-elements
 title: "清单体故事线⑥：关键要素线——用结构拆解‘什么才是真正重要的’"
-domain: yitang
-type: skill
-status: draft
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
-estimated_tokens: 3200
-source_refs:
-  - "00_inbox/系统故事线（10种故事线）_paddle_ocr.txt"
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt"
-related:
-  - yt-skill-storyline-contrast-analysis
-  - yt-skill-storyline-problem-solving
-  - yt-skill-storyline-target-tradeoff
-tags:
-  - #yitang
----
+domain: [yitang]---
 
 # 清单体故事线⑥：关键要素线——用结构拆解‘什么才是真正重要的’
 

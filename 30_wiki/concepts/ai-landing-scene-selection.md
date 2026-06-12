@@ -1,4 +1,5 @@
 ---
+
 id: "ai-landing-scene-selection"
 type: "concept"
 status: "draft"
@@ -27,7 +28,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
   - confidence-source-cited
----
+
+domain: []---
 
 # AI落地场景识别：从"找老的干小的"开始
 

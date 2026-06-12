@@ -1,4 +1,5 @@
 ---
+
 id: "voice-input-doubao"
 type: "tool"
 status: "draft"
@@ -26,7 +27,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
   - confidence-source-cited
----
+
+domain: []---
 
 # 豆包输入法：语音输入的最低成本实践
 

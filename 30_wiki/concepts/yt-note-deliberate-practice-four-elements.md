@@ -1,32 +1,8 @@
 ---
+
 id: "yt-note-deliberate-practice-four-elements"
 title: "四要素诊断模型——刻意练习的笔记落地框架"
-domain: "yitang"
-type: "concept"
-status: "draft"
-created_at: "2026-06-07"
-updated_at: "2026-06-07"
-estimated_tokens: 4800
-source_refs:
-  - "00_inbox/和AI清单体笔记专家C角色聊天内容.md"
-  - "30_wiki/decisions/2026-05-18-yitang-master-domain-cards.md"
-related:
-  - "yt-note-l4-internalization"
-  - "yt-skill-checklist-as-ai-protocol"
-  - "yt-note-ai-p-role-not-c-role"
-  - "yt-skill-storyline-target-tradeoff"
-tags:
-  - #scene/ai-collaboration
-  - #scene/business-analysis
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/checklist-method
-  - #scene/skill-engineering/manifest-design
-pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
----
+domain: [yitang]---
 
 # 四要素诊断模型——刻意练习的笔记落地框架
 

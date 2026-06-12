@@ -1,22 +1,8 @@
 ---
+
 id: yt-skill-storyline-timeline
 title: "清单体故事线①：严格时间线——用时间轴重构事件因果链"
-domain: yitang
-type: skill
-status: draft
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
-estimated_tokens: 3200
-source_refs:
-  - "00_inbox/系统故事线（10种故事线）_paddle_ocr.txt"
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt"
-related:
-  - yt-note-checklist-concept
-  - yt-note-five-levels-training
-  - dk-note-surplus-brainpower
-tags:
-  - #yitang
----
+domain: [yitang]---
 
 # 清单体故事线①：严格时间线——用时间轴重构事件因果链
 

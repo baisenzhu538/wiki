@@ -1,7 +1,7 @@
 ---
 updated: 2026-06-11
 active_branch: main
-active_task: "老顽童已完成Design域P0 5对孤岛桥接：5张design卡按内容重标domain并补related，5张目标卡反向链接已建立。纠正记录在 60_feedback/corrections/corr_20260611_laowantong-design-domain-island-bridges.md。待欧阳锋抽检。"
+active_task: "洪七公已完成两批：①Pyramid Principle桥接卡（Taleb+Eric Ries，15.8KB）；②旧卡补互链P0 3对（yt-foresight↔five-step↔entrepreneur-map↔key-hypotheses）。待欧阳锋统一审查。"
 blockers:
   - "欧阳锋抽检Design域P0 5对桥接结果"
 next_session_hint: "用户说'继续'→ 若抽检通过，启动P1 4对桥接（dk-yb1/yb5/yb20/yb18）。否则按欧阳锋意见修复。"

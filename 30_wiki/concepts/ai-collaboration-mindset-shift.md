@@ -1,4 +1,5 @@
 ---
+
 id: "ai-collaboration-mindset-shift"
 type: "concept"
 status: "draft"
@@ -30,7 +31,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
   - confidence-source-cited
----
+
+domain: []---
 
 # AI协作思维转变：从"新手"到"管理者"
 

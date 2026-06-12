@@ -1,4 +1,5 @@
 ---
+
 id: "structured-ai-workspace"
 type: "tool"
 status: "draft"
@@ -23,7 +24,8 @@ pipeline:
   - #boundary/single-use-only
   - confidence-draft
   - confidence-source-cited
----
+
+domain: []---
 
 # 结构化AI工作空间搭建
 

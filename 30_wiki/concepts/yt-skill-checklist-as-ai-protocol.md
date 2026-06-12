@@ -1,23 +1,8 @@
 ---
+
 id: yt-skill-checklist-as-ai-protocol
 title: "清单体作为AI的I/O协议——用笔记替代prompt工程"
-domain: yitang
-type: skill
-status: draft
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
-estimated_tokens: 3200
-source_refs:
-  - "30_wiki/decisions/truman-ai-partner-design-analysis.md"
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt"
-related:
-  - truman-ai-partner-design-analysis
-  - yt-note-checklist-concept
-  - dk-note-human-creativity-ai-data
-  - dk-note-maximum-common-divisor
-tags:
-  - #yitang
----
+domain: [yitang]---
 
 # 清单体作为AI的I/O协议——用笔记替代prompt工程
 

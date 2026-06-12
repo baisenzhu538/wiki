@@ -1,45 +1,9 @@
 ---
+
 title: "转化率黑客"
 type: "concept"
 status: "enriched"
-domain: ""
-id: "yt-management-conversion-hacking - yitang"
-yitang: {'map': 'management', 'module': '转化率黑客', 'course_id': 'yt-management-conversion-hacking', 'course_type': 'method', 'level': 'core', 'series': True}
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-created_at: "2026-05-06"
-updated_at: "2026-05-18"
-estimated_tokens: 3400
-reviewed_by: "黄药师"
-review_date: "2026-05-08"
-trust_level: "medium"
-related:
-  - "yt-entrepreneur-lean-validation"
-  - "yt-management-business-formula"
-  - "yt-management-goal-management"
-  - "yt-management-scientific-decision"
-query_triggers:
-  - "转化率优化"
-  - "转化率提升方法"
-  - "CRO转化率优化"
-  - "A/B测试"
-  - "转化漏斗分析"
-  - "用户为什么不下单"
-  - "动力阻力触点模型"
-  - "着陆页优化"
-  - "降低购买摩擦"
-  - "增长转化"
-tags:
-  - #scene/business-analysis/conversion-rate
-  - #scene/learning-methodology
-  - #scene/skill-engineering/course-to-skill
-  - #scene/skill-engineering/eval-testing
-  - #yitang
-pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
-  - confidence-verified-by-test
----
+domain: []---
 
 # 转化率黑客
 

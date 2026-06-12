@@ -1,4 +1,5 @@
 ---
+
 id: "dk-ef-004-missing-diagnostic-firmware"
 title: "没有诊断固件就是盲调：你不知道信号卡在哪一级"
 type: "dark-knowledge"
@@ -24,7 +25,8 @@ pipeline:
   - #boundary/single-use-only
   - #source_type/dark-knowledge
   - confidence-source-cited
----
+
+domain: []---
 
 # 没有诊断固件就是盲调：你不知道信号卡在哪一级
 

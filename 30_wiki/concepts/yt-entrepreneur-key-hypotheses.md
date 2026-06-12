@@ -21,7 +21,8 @@ query_triggers:
   - "增长假设"
   - "最小成本验证"
   - "五步法"
-related: {'series': False}
+related:
+  - "yt-model-entrepreneur-map"
 review_date: 2026-06-06
 reviewed_by: ""
 source_refs:

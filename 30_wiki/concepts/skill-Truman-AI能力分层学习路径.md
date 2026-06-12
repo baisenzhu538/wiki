@@ -1,33 +1,10 @@
 ---
+
 id: "skill-Truman-AI能力分层学习路径"
 title: "技能：AI能力分层学习路径"
 type: "skill"
 status: "draft"
-domain: ""
-source_person: "Truman"
-source_context: "AI工具应用AMA"
-source_refs: ""
-wiki_refs: ""
-definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
-tools_required: ""
-prerequisite_skills: ""
-related: ""
-created_at: "2026-06-07"
-updated_at: "2026-06-07"
-tags:
-  - #domain/AI
-  - #domain/learning
-  - #scene/ai-collaboration/human-ai-division
-  - #scene/knowledge-management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/checklist-method
-  - #scene/skill-engineering
-pipeline:
-  - confidence-draft
----
+domain: []---
 
 # 技能：AI能力分层学习路径
 

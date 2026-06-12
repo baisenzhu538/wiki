@@ -1,33 +1,10 @@
 ---
+
 id: "skill-马易-隐性知识萃取与模型化"
 title: "技能：隐性知识萃取与模型化"
 type: "skill"
 status: "draft"
-domain: ""
-source_person: "马易"
-source_context: "AI落地场景识别"
-source_refs: ""
-wiki_refs: ""
-definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
-tools_required: ""
-prerequisite_skills: ""
-related: ""
-created_at: "2026-06-07"
-updated_at: "2026-06-07"
-tags:
-  - #domain/AI
-  - #domain/scene-analysis
-  - #scene/ai-collaboration/human-ai-division
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/skill-engineering
-pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-draft
----
+domain: []---
 
 # 技能：隐性知识萃取与模型化
 

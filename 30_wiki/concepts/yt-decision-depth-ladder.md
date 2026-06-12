@@ -1,4 +1,5 @@
 ---
+
 id: "yt-decision-depth-ladder"
 type: "concept"
 status: "enriched"
@@ -14,7 +15,8 @@ tags:
   - #scene/skill-engineering
 pipeline:
   - #boundary/requires-human-judgment
----
+
+domain: []---
 
 1|---
      2|

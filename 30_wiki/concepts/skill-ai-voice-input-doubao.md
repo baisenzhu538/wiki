@@ -1,36 +1,10 @@
 ---
+
 id: "skill-ai-voice-input-doubao"
 title: "技能：口喷式语音输入法"
 type: "skill"
 status: needs-review
-domain: ""
-source_person: "半肥猫"
-source_context: "AI俱乐部-AI学习落地分享，2026-06"
-source_refs: ""
-wiki_refs: ""
-definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
-tools_required: ""
-prerequisite_skills: ""
-related: ""
-created_at: 2026-06-06
-updated_at: 2026-06-06
-tags:
-  - #domain/AI
-  - #scene/agent-infrastructure
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/ai-collaboration/skill-market
-  - #scene/business-analysis
-  - #scene/learning-methodology/feedback-loop
-  - #scene/skill-engineering/course-to-skill
-  - #tool/doubao-input
-pipeline:
-  - #skill-type/input-method
-  - confidence-draft
-superseded_by: "skill-ai-oral-spray-input"
----
+domain: []---
 
 # 技能：口喷式语音输入法
 

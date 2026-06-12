@@ -1,43 +1,9 @@
 ---
+
 title: "财务入门"
 type: "concept"
 status: "enriched"
-domain: ""
-id: "yt-management-finance-basics - yitang"
-yitang: {'map': 'management', 'module': '财务入门', 'course_id': '459', 'course_type': 'method', 'level': 'advanced', 'series': False}
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-created_at: "2026-05-06"
-updated_at: "2026-05-18"
-estimated_tokens: 3300
-reviewed_by: "黄药师"
-review_date: "2026-05-08"
-trust_level: "medium"
-related:
-  - "yt-entrepreneur-unit-model"
-  - "yt-management-business-formula"
-  - "yt-management-goal-management"
-  - "yt-management-scientific-decision"
-  - "yt-management-strategy-meeting"
-query_triggers:
-  - "创业者财务入门"
-  - "老板怎么看财务报表"
-  - "三张报表"
-  - "现金流管理"
-  - "烧钱速度"
-  - "创业公司能撑多久"
-  - "利润和现金区别"
-  - "不懂财务怎么管公司"
-  - "毛利率怎么算"
-  - "创业财务基础"
-tags:
-  - #yitang
-pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
----
+domain: []---
 
 # 财务入门
 

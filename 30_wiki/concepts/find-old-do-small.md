@@ -1,4 +1,5 @@
 ---
+
 id: "find-old-do-small"
 type: "tool"
 status: "draft"
@@ -23,7 +24,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
   - confidence-source-cited
----
+
+domain: []---
 
 # "找老的干小的"场景评估框架
 

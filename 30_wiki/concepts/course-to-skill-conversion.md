@@ -1,4 +1,5 @@
 ---
+
 id: "course-to-skill-conversion"
 type: "tool"
 status: "draft"
@@ -28,7 +29,8 @@ pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
   - confidence-verified-by-test
----
+
+domain: []---
 
 # 课程→Skill转化：将知识变成AI可执行的能力模块
 

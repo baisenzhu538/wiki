@@ -1,31 +1,10 @@
 ---
+
 id: "skill-ai-narrative-test"
 title: "技能：你的方案有叙事力吗？快速测试"
 type: "skill"
 status: "draft"
-domain: ""
-source_person: "水水"
-source_context: "拆书会《偶然》分享，2026-06"
-source_refs: ""
-wiki_refs: ""
-definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
-tools_required: ""
-prerequisite_skills: ""
-related: ""
-created_at: 2026-06-06
-updated_at: 2026-06-06
-tags:
-  - #domain/AI
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-pipeline:
-  - #skill-type/evaluation
-  - confidence-draft
-reviewed_by: "laowantong"
----
+domain: []---
 
 # 技能：你的方案有叙事力吗？快速测试
 

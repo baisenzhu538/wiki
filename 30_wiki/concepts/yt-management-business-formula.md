@@ -1,48 +1,9 @@
 ---
+
 title: "业务公式"
 type: "concept"
 status: "enriched"
-domain: ""
-id: "yt-management-business-formula - yitang"
-yitang: {'map': 'management', 'module': '业务公式', 'course_id': 'yt-management-business-formula', 'course_type': 'method', 'level': 'core', 'series': True}
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-created_at: "2026-05-06"
-updated_at: "2026-05-17"
-estimated_tokens: 3200
-reviewed_by: "黄药师"
-review_date: "2026-05-08"
-trust_level: "medium"
-related:
-  - "yt-entrepreneur-key-hypotheses"
-  - "yt-entrepreneur-unit-model"
-  - "yt-management-conversion-hacking"
-  - "yt-management-finance-basics"
-  - "yt-management-goal-management"
-  - "yt-management-scientific-decision"
-query_triggers:
-  - "业务公式"
-  - "业务拆解方法"
-  - "营收公式怎么拆"
-  - "业务量化管理"
-  - "MECE分析"
-  - "数据驱动业务增长"
-  - "变量驱动因子"
-  - "增长飞轮"
-  - "用数据管业务"
-  - "业务逻辑关系图"
-tags:
-  - #scene/business-analysis/conversion-rate
-  - #scene/business-analysis/customer-acquisition
-  - #scene/note-taking
-  - #scene/skill-engineering/course-to-skill
-  - #yitang
-pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
----
+domain: []---
 
 # 业务公式
 

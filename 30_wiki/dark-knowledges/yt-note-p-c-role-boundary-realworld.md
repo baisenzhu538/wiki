@@ -1,22 +1,8 @@
 ---
+
 id: yt-note-p-c-role-boundary-realworld
 title: P/C 角色真实场景边界与切换条件（基于聊天记录案例）
-domain: yitang
-type: dark-knowledge
-status: draft
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
-estimated_tokens: 5500
-source_refs:
-  - '00_inbox/和AI清单体笔记专家C角色聊天内容.md'
-  - '00_inbox/和AI请单体笔记专家P角色聊天内容.md'
-  - '30_wiki/dark-knowledges/yt-note-ai-p-role-not-c-role.md'
-related:
-  - yt-note-ai-p-role-not-c-role
-  - yt-skill-p-role-prompt-design
-  - yt-note-deliberate-practice-four-elements
-  - yt-skill-checklist-as-ai-protocol
----
+domain: [yitang]---
 
 # P/C 角色真实场景边界与切换条件（基于聊天记录案例）
 

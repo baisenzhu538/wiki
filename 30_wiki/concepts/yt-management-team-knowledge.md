@@ -1,49 +1,9 @@
 ---
+
 title: "团队知识管理"
 type: "concept"
 status: "enriched"
-domain: ""
-id: "yt-management-team-knowledge - yitang"
-yitang: {'map': 'management', 'module': '团队知识管理', 'course_id': 'yt-management-team-knowledge', 'course_type': 'method', 'level': 'core', 'series': False}
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-created_at: "2026-05-06"
-updated_at: "2026-05-18"
-estimated_tokens: 3400
-reviewed_by: "黄药师"
-review_date: "2026-05-08"
-trust_level: "medium"
-related:
-  - "yt-management-basic-skills"
-  - "yt-management-company-culture"
-  - "yt-management-leadership-levels"
-  - "yt-management-onboarding"
-  - "yt-management-project-management"
-  - "yt-personal-knowledge-management"
-  - "yt-tool-knowledge-extraction"
-query_triggers:
-  - "团队知识管理"
-  - "知识库搭建方法"
-  - "隐性知识萃取"
-  - "知识沉淀体系"
-  - "团队经验传承"
-  - "项目复盘知识化"
-  - "SECI模型"
-  - "知识管理系统"
-  - "新人FAQ沉淀"
-  - "组织记忆力"
-tags:
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/skill-engineering
-  - #yitang
-pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
----
+domain: []---
 
 # 团队知识管理
 

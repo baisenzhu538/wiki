@@ -1,31 +1,10 @@
 ---
+
 id: "skill-马易-公寓获客自跑通原则"
 title: "技能：公寓获客自跑通原则"
 type: "skill"
 status: "draft"
-domain: ""
-source_person: "马易"
-source_context: "AI落地场景识别"
-source_refs: ""
-wiki_refs: ""
-definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
-tools_required: ""
-prerequisite_skills: ""
-related: ""
-created_at: "2026-06-07"
-updated_at: "2026-06-07"
-tags:
-  - #domain/AI
-  - #domain/scene-analysis
-  - #scene/business-analysis/customer-acquisition
-  - #scene/learning-methodology/feedback-loop
-  - #scene/skill-engineering/publish-deploy
-pipeline:
-  - confidence-draft
----
+domain: []---
 
 # 技能：公寓获客自跑通原则
 

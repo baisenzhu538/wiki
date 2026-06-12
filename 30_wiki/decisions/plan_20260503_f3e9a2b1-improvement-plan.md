@@ -1,4 +1,5 @@
 ---
+
 plan_id: "plan_20260503_f3e9a2b1"
 type: "improvement-plan"
 status: "draft"
@@ -8,7 +9,8 @@ artifact_count: 10
 source_count: 12
 assessment_ref: "60_feedback/assessments/claude-20260503-kdo仓库遍历与健康度评估.md"
 id: plan_20260503_f3e9a2b1-improvement-plan
----
+
+domain: []---
 
 # Improvement Plan plan_20260503_f3e9a2b1
 

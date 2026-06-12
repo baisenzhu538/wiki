@@ -1,4 +1,5 @@
 ---
+
 title: "AI 俱乐部·人和 AI 协作 — 参考案例对比（一堂 vs SQL-Helper）"
 type: "concept"
 status: "enriched"
@@ -7,7 +8,8 @@ created_at: "2026-06-09T14:03:49+00:00"
 updated_at: "2026-06-09T14:22:37+00:00"
 tags:
   - #domain/AI
----
+
+domain: []---
 
 
 

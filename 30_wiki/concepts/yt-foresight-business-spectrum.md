@@ -19,7 +19,8 @@ query_triggers:
   - "保A争B"
   - "终局预判"
   - "创业段位"
-related: {'series': False}
+related:
+  - "yt-entrepreneur-five-step-method"
 review_date: 2026-06-10
 reviewed_by:
   - "黄药师"

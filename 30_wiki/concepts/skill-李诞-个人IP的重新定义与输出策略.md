@@ -1,28 +1,10 @@
 ---
+
 id: "skill-李诞-个人IP的重新定义与输出策略"
 title: "技能：个人IP的重新定义与输出策略"
 type: "skill"
 status: "draft"
-domain: ""
-source_person: "李诞"
-source_context: "创作分享"
-source_refs: ""
-wiki_refs: ""
-definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
-tools_required: ""
-prerequisite_skills: ""
-related: ""
-created_at: "2026-06-07"
-updated_at: "2026-06-07"
-tags:
-  - #domain/creative
-  - #scene/learning-methodology/feedback-loop
-pipeline:
-  - confidence-draft
----
+domain: []---
 
 # 技能：个人IP的重新定义与输出策略
 

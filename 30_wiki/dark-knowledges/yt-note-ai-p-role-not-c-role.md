@@ -1,22 +1,8 @@
 ---
+
 id: yt-note-ai-p-role-not-c-role
 title: "AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考"
-domain: yitang
-type: dark-knowledge
-status: draft
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
-estimated_tokens: 3200
-source_refs:
-  - "30_wiki/decisions/truman-ai-partner-design-analysis.md"
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt"
-related:
-  - truman-ai-partner-design-analysis
-  - yt-note-checklist-concept
-  - yt-note-five-levels-training
-  - dk-note-human-creativity-ai-data
-  - dk-note-rookie-disaster-veteran-heaven
----
+domain: [yitang]---
 
 # AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考
 

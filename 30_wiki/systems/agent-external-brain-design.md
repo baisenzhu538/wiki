@@ -1,17 +1,9 @@
 ---
+
 title: "Agent 外挂大脑设计"
 type: system
 status: enriched
-domain: master
-created_at: 2026-05-16
-source_refs: ["project-continuity.md", "corrections.md", "operating-principles.md"]
-tags:
-id: agent-external-brain-design
-  - agent-memory
-  - context-management
-  - token-efficiency
-  - cross-tool
----
+domain: [master]---
 
 # Agent 外挂大脑设计
 

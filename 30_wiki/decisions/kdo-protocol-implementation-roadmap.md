@@ -1,4 +1,5 @@
 ---
+
 title: "KDO Protocol Implementation Roadmap — Detailed Recommendation Report"
 type: improvement-plan
 status: draft
@@ -19,7 +20,8 @@ tags:
 trust_level: high
 reviewed_by: "Claude"
 review_date: "2026-05-03"
----
+
+domain: []---
 
 # KDO Protocol Implementation Roadmap
 

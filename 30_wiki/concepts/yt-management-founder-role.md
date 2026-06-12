@@ -1,45 +1,9 @@
 ---
+
 title: "一号位"
 type: "concept"
 status: "enriched"
-domain: ""
-id: "yt-management-founder-role - yitang"
-yitang: {'map': 'management', 'module': '一号位', 'course_id': 'yt-management-founder-role', 'course_type': 'method', 'level': 'advanced', 'series': False}
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-created_at: "2026-05-06"
-updated_at: "2026-05-17"
-estimated_tokens: 3200
-reviewed_by: "黄药师"
-review_date: "2026-05-08"
-trust_level: "medium"
-related:
-  - "yt-management-company-culture"
-  - "yt-management-goal-management"
-  - "yt-management-leadership-levels"
-  - "yt-management-partnership-equity"
-  - "yt-management-strategy-meeting"
-query_triggers:
-  - "创始人职责"
-  - "一号位"
-  - "老板该管什么不该管什么"
-  - "创始人时间管理"
-  - "创业CEO做什么"
-  - "创始人怎么授权"
-  - "CEO核心职责"
-  - "创业者自我管理"
-  - "老板怎么定方向"
-  - "创始人角色"
-tags:
-  - #scene/learning-methodology
-  - #scene/note-taking/level-diagnosis
-  - #scene/product-design
-  - #scene/skill-engineering
-  - #yitang
-pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
----
+domain: []---
 
 # 一号位
 

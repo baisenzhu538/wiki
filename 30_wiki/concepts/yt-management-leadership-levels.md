@@ -1,49 +1,9 @@
 ---
+
 title: "管理段位"
 type: "concept"
 status: "enriched"
-domain: ""
-id: "yt-management-leadership-levels - yitang"
-yitang: {'map': 'management', 'module': '管理段位', 'course_id': 'yt-management-leadership-levels', 'course_type': 'method', 'level': 'core', 'series': False}
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-created_at: "2026-05-06"
-updated_at: "2026-05-17"
-estimated_tokens: 3200
-reviewed_by: "黄药师"
-review_date: "2026-05-08"
-trust_level: "medium"
-related:
-  - "yt-management-basic-skills"
-  - "yt-management-founder-role"
-  - "yt-management-goal-management"
-  - "yt-management-scientific-hiring"
-  - "yt-management-team-knowledge"
-  - "yt-personal-ipo-learning"
-query_triggers:
-  - "管理段位"
-  - "管理者成长阶段"
-  - "领导力层级"
-  - "管理者怎么晋升"
-  - "新经理成长"
-  - "管理能力分级"
-  - "从执行到管理"
-  - "领导力提升"
-  - "管理晋升路径"
-  - "管理者段位测评"
-tags:
-  - #scene/ai-collaboration
-  - #scene/business-analysis
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/level-diagnosis
-  - #scene/skill-engineering
-  - #yitang
-pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
----
+domain: []---
 
 # 管理段位
 

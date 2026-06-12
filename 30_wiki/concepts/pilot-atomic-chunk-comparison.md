@@ -1,4 +1,5 @@
 ---
+
 id: "pilot-atomic-chunk-comparison"
 title: "Pilot：master-decision-hygiene 真原子切分对比"
 type: "comparison"
@@ -18,7 +19,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
   - confidence-source-cited
----
+
+domain: []---
 
 # Pilot：master-decision-hygiene 真原子切分对比
 

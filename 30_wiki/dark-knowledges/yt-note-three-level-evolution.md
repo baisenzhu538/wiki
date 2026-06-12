@@ -1,22 +1,8 @@
 ---
+
 id: yt-note-three-level-evolution
 title: "碎片化→结构化→体系化：笔记认知的三级进化跃迁"
-domain: yitang
-type: dark-knowledge
-status: draft
-created_at: '2026-06-07'
-updated_at: '2026-06-07'
-estimated_tokens: 3200
-source_refs:
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt"
-  - "00_inbox/一堂-AI清单体笔记（训练段位图）-truman-图片02_paddle_ocr.txt"
-related:
-  - yt-note-checklist-concept
-  - yt-note-five-levels-training
-  - yt-note-l4-internalization
-  - yt-note-l6-extraction
-  - dk-note-growth-paradox
----
+domain: [yitang]---
 
 # 碎片化→结构化→体系化：笔记认知的三级进化跃迁
 

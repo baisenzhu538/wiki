@@ -1,34 +1,10 @@
 ---
+
 id: "skill-ai-ai-workspace-setup"
 title: "技能：结构化AI工作空间搭建"
 type: "skill"
 status: needs-review
-domain: ""
-source_person: "纪浩"
-source_context: "AI俱乐部-AI协作方法论分享，2026-06"
-source_refs: ""
-wiki_refs: ""
-definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
-tools_required: ""
-prerequisite_skills: ""
-related: ""
-created_at: 2026-06-06
-updated_at: 2026-06-06
-tags:
-  - #domain/AI
-  - #scene/agent-infrastructure
-  - #scene/ai-collaboration/workspace-design
-  - #scene/knowledge-management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/skill-engineering
-pipeline:
-  - #skill-type/setup
-  - confidence-draft
----
+domain: []---
 
 # 技能：结构化AI工作空间搭建
 

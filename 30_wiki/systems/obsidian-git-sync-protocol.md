@@ -1,4 +1,5 @@
 ---
+
 title: "Obsidian Git Multi-Device Sync Protocol"
 type: system
 status: draft
@@ -18,7 +19,8 @@ tags:
 trust_level: high
 reviewed_by: "Claude"
 review_date: "2026-05-03"
----
+
+domain: []---
 
 # Obsidian Git Multi-Device Sync Protocol
 
