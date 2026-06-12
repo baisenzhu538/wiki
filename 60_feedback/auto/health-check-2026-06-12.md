@@ -1,4 +1,4 @@
-KDO 健康巡检 — 2026-06-12 16:23
+KDO 健康巡检 — 2026-06-12 16:43
 ┌────────────────────────────────────────────────┐
 │ ⚠️  TODO 残留: 81                                     │
 │ ⚠️  孤立页面: 590                                    │
@@ -11,7 +11,8 @@ KDO 健康巡检 — 2026-06-12 16:23
 │ Task M — 自迭代检测器 Phase 1                    │
 │ ⚠️  新卡健康度: 318 issues (275F/43W)      │
 │ ✅  Domain 审计: 24 issues                         │
-│ ⚠️  索引更新: 1/2 ok                         │
+│ ✅  索引更新: 1/1 ok                         │
+│ ⚠️  链接密度: 338 findings                         │
 └────────────────────────────────────────────────┘
 综合评分: 5/7 项异常，建议关注。
 
@@ -3550,5 +3551,48 @@ KDO 健康巡检 — 2026-06-12 16:23
   [WARN] dk-纪浩-simple-complex-routing.md: type=dk in dir=dark-knowledges/ (expected dark-knowledge)
 
 ## Detector D: 索引更新
-  • Graph RAG index: failed: cannot import name '_build_full_index' from 'kdo.commands.graph' (C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\commands\graph.py)
   • Card index file: updated (946 cards)
+
+## Detector N: 链接密度扫描
+
+### bridges_to 缺失 (多域卡) (158 cards)
+  [WARN] aigc文创案例设计课leo文创ip从0到1全流程.md: bridges_to empty (multi-domain: ['ai-saas', 'design'])
+  [WARN] aigc设计基础01ai生图原理与提示词基本功.md: bridges_to empty (multi-domain: ['ai-saas', 'design'])
+  [WARN] aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md: bridges_to empty (multi-domain: ['ai-saas', 'design', 'business-strategy'])
+  [WARN] concept-ai-native-organization-five-steps.md: bridges_to empty (multi-domain: ['ai-native', 'management'])
+  [WARN] concept-一堂-business-prediction.md: bridges_to empty (multi-domain: ['product', 'yitang'])
+  [WARN] concept-一堂-hypothesis-driven-business-methodology.md: bridges_to empty (multi-domain: ['yitang', 'business-strategy'])
+  [WARN] concept-一堂-kernel-iteration.md: bridges_to empty (multi-domain: ['product', 'yitang'])
+  [WARN] concept-一堂-kernel-validation.md: bridges_to empty (multi-domain: ['product', 'yitang'])
+  [WARN] concept-一堂-key-assumptions.md: bridges_to empty (multi-domain: ['product', 'yitang'])
+  [WARN] concept-一堂-product-kernel.md: bridges_to empty (multi-domain: ['product', 'yitang'])
+  ... and 148 more
+
+### Hub-spoke 失衡 (1 cards)
+  [INFO] master-decision-hygiene.md: hub node: 46 inbound links but only 0 outbound (ratio 46.0:1)
+
+### related 字段为空 (73 cards)
+  [WARN] yt-ai-startup-20-risky-hypotheses.md: related field is empty
+  [WARN] yt-ai-trend-12-signals.md: related field is empty
+  [WARN] yt-barrier-analysis-cheat-sheet.md: related field is empty
+  [WARN] yt-customer-acquisition-toolkit.md: related field is empty
+  [WARN] yt-demand-analysis-hiking-map.md: related field is empty
+  [WARN] yt-entrepreneur-259-milestone.md: related field is empty
+  [WARN] yt-entrepreneur-barriers.md: related field is empty
+  [WARN] yt-entrepreneur-business-growth.md: related field is empty
+  [WARN] yt-entrepreneur-channel-exploration.md: related field is empty
+  [WARN] yt-entrepreneur-concentration-analysis.md: related field is empty
+  ... and 63 more
+
+### Synthesis 链接不足 (<5) (106 cards)
+  [WARN] master-ai-info-literacy.md: Synthesis has 0 wikilinks (threshold: 5)
+  [WARN] master-antifragile-checklist.md: Synthesis has 0 wikilinks (threshold: 5)
+  [WARN] master-cognitive-bias-checklist.md: Synthesis has 0 wikilinks (threshold: 5)
+  [WARN] master-decision-hygiene.md: Synthesis has 0 wikilinks (threshold: 5)
+  [WARN] master-first-principles.md: Synthesis has 0 wikilinks (threshold: 5)
+  [WARN] yt-ai-startup-20-risky-hypotheses.md: Synthesis has 3 wikilinks (threshold: 5)
+  [WARN] yt-ai-trend-12-signals.md: Synthesis has 3 wikilinks (threshold: 5)
+  [WARN] yt-customer-acquisition-toolkit.md: Synthesis has 3 wikilinks (threshold: 5)
+  [WARN] yt-decision-ai-partner.md: Synthesis has 0 wikilinks (threshold: 5)
+  [WARN] yt-decision-canvas.md: Synthesis has 0 wikilinks (threshold: 5)
+  ... and 96 more
