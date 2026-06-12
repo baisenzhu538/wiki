@@ -384,3 +384,34 @@
 **为什么之前没暴露**：老顽童之前写卡时可以手动操作 Obsidian，不需要 kdo CLI。现在管线越来越依赖 kdo 命令（validate/lint/cards），Hermes 侧没有 kdo 就无法跑。
 
 **关联**：P-5（改配置漏了一处）的同模式——KDO 部署了但 Hermes 环境独立，两边的 Python 环境不共享。
+
+---
+
+## P-27: Provider 迁移时协议不匹配——Anthropic URL 配了 OpenAI SDK
+
+**症状**：Hermes 切到 DeepSeek 后能对话但工作深度不够，且模型显示为 `deepseek-chat` 而非配置的 `deepseek-v4-pro`。
+
+**根因**：Hermes 的 `deepseek` provider 在 models_dev_cache 里标记为 `@ai-sdk/openai-compatible`（走 OpenAI 协议），但 config 配了 Anthropic 端点 `https://api.deepseek.com/anthropic`。SDK 发 OpenAI 格式请求到 Anthropic 端点 → 能通但不完全兼容 → 功能降级。
+
+**对策**：
+- 改 provider 前先查 `models_dev_cache.json` 确认 SDK 类型
+- `npm: @ai-sdk/anthropic` → base_url 用 `/anthropic`
+- `npm: @ai-sdk/openai-compatible` → base_url 用 `https://api.deepseek.com`（不带路径后缀）
+- 永远不要猜 base_url，查文档 + 查缓存
+
+**关联**：P-1（配置优先级混乱）的同模式——改了一处漏了另一处，这次是改了 provider 没改协议 endpoint。
+
+---
+
+## P-28: 模型发布日不查公告——K2.7 折腾 3 小时
+
+**症状**：Kimi API 突然全线 400 报 temperature 错误，且 tool call 截断为 48 字符。花费 3 小时改 model 名、改 temperature、改 base_url、换 DeepSeek——最终发现是 Kimi K2.7 当天发布，Anthropic 协议 tool call 兼容未就绪。
+
+**根因**：API 报错后直接调参，没有第一时间查提供商公告。`WebSearch` 在第 30 步才触发，应该在第 3 步就触发。
+
+**对策**：
+- API 大规模异常（多个 agent 同时挂）→ 第一步查公告，不是调参
+- `WebSearch "<provider> update <date>"` 应该在诊断流程的前 3 步内
+- 诊断流程：查公告 → 查日志 → 查 API console → 最后才改配置
+
+**关联**：P-21（无诊断手段时盲目调参）——同样的病，不同症状。这次是"有诊断手段但不用"。

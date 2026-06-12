@@ -210,7 +210,10 @@
 ```
 model: deepseek-v4-pro
 provider: deepseek
-base_url: https://api.deepseek.com/anthropic
+base_url: https://api.deepseek.com              ← 注意：deepseek provider 走 OpenAI 协议，不用 /anthropic
+# ⚠️ 改 provider 前先查 models_dev_cache.json 确认 npm 字段：
+#    npm: @ai-sdk/anthropic → base_url 用 /anthropic
+#    npm: @ai-sdk/openai-compatible → base_url 用根路径
 env: DEEPSEEK_API_KEY=sk-...
 ```
 
