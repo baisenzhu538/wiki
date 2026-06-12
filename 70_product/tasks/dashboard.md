@@ -32,8 +32,8 @@ updated: 2026-06-11
 | **31** | **王语嫣自迭代提案** | **🟡** | **proposal-self-learning-cron.md 已出，定位准确，待完整审查** |
 || **32** | **Design域孤岛桥接（王语嫣诊断）** | **✅** | **P0 5对+P1 4对共 9 对桥接已完成。欧阳锋审核通过。纠正记录→60_feedback/corrections/corr_20260611_laowantong-design-domain-island-bridges.md** |
 || **33** | **王语嫣勘误：design domain 漏标补充** | **✅** | **4 张课程概念卡已补 design；3 张待定卡已判断。纠正记录→60_feedback/corrections/corr_20260612_laowantong-design-domain-missing-batch1.md** |
-|| **34** | **🆕 Pyramid Principle 桥接卡** | **🔜** | **最后一张经典桥接卡。30_wiki/frameworks/concept-minto-pyramid-principle.md** |
-|| **35** | **🆕 旧卡补互链 P0** | **🔜** | **7 对深黑节点互连（foresight-spectrum ↔ five-step-method 等）** |
+|| **34** | **Pyramid Principle 桥接卡** | **✅** | **洪七公完成，审查 A** |
+|| **35** | **旧卡补互链 P0** | **🟡 5/7** | **老顽童完成5对。剩余2对（yt-five-step-method + yt-model-progress-map）需先修 related dict 旧格式再加链** |
 
 ---
 
