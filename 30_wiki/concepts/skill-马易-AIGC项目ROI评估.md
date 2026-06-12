@@ -2,7 +2,7 @@
 id: "skill-马易-AIGC项目ROI评估"
 title: "技能：AIGC项目ROI评估"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain:
 - business-strategy
 - ai-collaboration

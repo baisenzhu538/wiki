@@ -3,7 +3,7 @@
 id: "skill-马易-需求创造验证法"
 title: "技能：需求创造验证法"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：需求创造验证法

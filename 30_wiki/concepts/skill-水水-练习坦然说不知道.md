@@ -3,7 +3,7 @@
 id: "skill-水水-练习坦然说不知道"
 title: "技能：练习坦然说不知道"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：练习坦然说不知道

@@ -3,7 +3,7 @@
 id: "skill-马易-痛点驱动的数字化"
 title: "技能：痛点驱动的数字化"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：痛点驱动的数字化

@@ -3,7 +3,7 @@
 id: "skill-马易-工作流拆解找场景"
 title: "技能：工作流拆解找场景"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：工作流拆解找场景

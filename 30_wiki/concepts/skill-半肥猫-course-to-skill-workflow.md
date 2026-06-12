@@ -11,6 +11,8 @@ source_context: "AI俱乐部·AI学习落地（2026-06分享）"
 source_refs:
   - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
 created_at: "2026-06-08"
+
+reviewed_by: "laowantong"
 updated_at: "2026-06-08"
 related:
   - "case-半肥猫-course-to-skill"

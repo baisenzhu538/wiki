@@ -3,7 +3,7 @@
 id: "skill-马易-AI落地场景识别与拆分"
 title: "技能：AI落地场景识别与拆分"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：AI落地场景识别与拆分

@@ -3,7 +3,7 @@
 id: "skill-马易-时间序列大模型场景识别"
 title: "技能：时间序列大模型场景识别"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：时间序列大模型场景识别

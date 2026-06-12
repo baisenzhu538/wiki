@@ -3,7 +3,7 @@
 id: "skill-水水-构建自利叙事"
 title: "技能：构建自利叙事"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：构建自利叙事

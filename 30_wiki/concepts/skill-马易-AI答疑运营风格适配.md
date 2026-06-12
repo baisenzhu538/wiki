@@ -3,7 +3,7 @@
 id: "skill-马易-AI答疑运营风格适配"
 title: "技能：AI答疑运营风格适配"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：AI答疑运营风格适配

@@ -3,7 +3,7 @@
 id: "skill-水水-利用基因漂变视角"
 title: "技能：利用基因漂变视角"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：利用基因漂变视角

@@ -3,7 +3,7 @@
 id: "skill-马易-AI落地场景筛选-四有新人法则"
 title: "技能：AI落地场景筛选-四有新人法则"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：AI落地场景筛选-四有新人法则

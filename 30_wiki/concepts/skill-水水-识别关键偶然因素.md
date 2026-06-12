@@ -3,7 +3,7 @@
 id: "skill-水水-识别关键偶然因素"
 title: "技能：识别关键偶然因素"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：识别关键偶然因素

@@ -3,7 +3,7 @@
 id: "skill-马易-AI落地认知速成-最佳实践学习法"
 title: "技能：AI落地认知速成-最佳实践学习法"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：AI落地认知速成-最佳实践学习法

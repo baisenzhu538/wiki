@@ -3,7 +3,7 @@
 id: "skill-马易-数字员工FD拆解落地"
 title: "技能：数字员工FD拆解落地"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：数字员工FD拆解落地

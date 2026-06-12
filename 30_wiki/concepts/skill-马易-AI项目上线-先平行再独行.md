@@ -3,7 +3,7 @@
 id: "skill-马易-AI项目上线-先平行再独行"
 title: "技能：AI项目上线-先平行再独行"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：AI项目上线-先平行再独行

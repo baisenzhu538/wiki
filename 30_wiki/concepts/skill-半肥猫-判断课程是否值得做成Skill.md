@@ -20,6 +20,8 @@ related:
   - "skill-半肥猫-追问AI证据并标注信源"
   - "dk-半肥猫-skill-rejection-value"
 created_at: "2026-06-07"
+
+reviewed_by: "laowantong"
 updated_at: "2026-06-07"
 tags:
   - #domain/ai-collaboration

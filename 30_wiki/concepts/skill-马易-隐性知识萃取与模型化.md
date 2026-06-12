@@ -3,7 +3,7 @@
 id: "skill-马易-隐性知识萃取与模型化"
 title: "技能：隐性知识萃取与模型化"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：隐性知识萃取与模型化

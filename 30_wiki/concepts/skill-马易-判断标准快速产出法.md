@@ -3,7 +3,7 @@
 id: "skill-马易-判断标准快速产出法"
 title: "技能：判断标准快速产出法"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：判断标准快速产出法

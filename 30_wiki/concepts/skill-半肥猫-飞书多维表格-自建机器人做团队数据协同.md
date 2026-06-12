@@ -26,6 +26,8 @@ related:
   - "skill-半肥猫-用YAML格式做知识库原子化标签"
   - "dk-半肥猫-atomic-no-standard"
 created_at: "2026-06-07"
+
+reviewed_by: "laowantong"
 updated_at: "2026-06-07"
 tags:
   - #scene/skill-engineering

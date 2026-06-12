@@ -3,7 +3,7 @@
 id: "skill-马易-知识库-回答技巧双建设"
 title: "技能：知识库+回答技巧双建设"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：知识库+回答技巧双建设

@@ -3,7 +3,7 @@
 id: "skill-马易-减少输入噪音法"
 title: "技能：减少输入噪音法"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：减少输入噪音法

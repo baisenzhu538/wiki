@@ -3,7 +3,7 @@
 id: "skill-马易-深度沉浸需求挖掘"
 title: "技能：深度沉浸需求挖掘"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：深度沉浸需求挖掘

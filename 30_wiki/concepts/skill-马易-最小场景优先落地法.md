@@ -3,7 +3,7 @@
 id: "skill-马易-最小场景优先落地法"
 title: "技能：最小场景优先落地法"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：最小场景优先落地法

@@ -3,7 +3,7 @@
 id: "skill-水水-警惕错误归因"
 title: "技能：警惕错误归因"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：警惕错误归因

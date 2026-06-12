@@ -3,7 +3,7 @@
 id: "skill-马易-AI能力团队复制"
 title: "技能：AI能力团队复制"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：AI能力团队复制

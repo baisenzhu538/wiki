@@ -3,7 +3,7 @@
 id: "skill-马易-平台模式验证法"
 title: "技能：平台模式验证法"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：平台模式验证法

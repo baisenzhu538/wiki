@@ -3,7 +3,7 @@
 id: "skill-马易-成为首位F工程师"
 title: "技能：成为首位F工程师"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：成为首位F工程师

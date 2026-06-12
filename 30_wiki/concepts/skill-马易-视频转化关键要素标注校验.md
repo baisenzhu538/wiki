@@ -3,7 +3,7 @@
 id: "skill-马易-视频转化关键要素标注校验"
 title: "技能：视频转化关键要素标注校验"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：视频转化关键要素标注校验

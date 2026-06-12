@@ -3,7 +3,7 @@
 id: "skill-马易-销售智能体体系搭建路径"
 title: "技能：销售智能体体系搭建路径"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：销售智能体体系搭建路径

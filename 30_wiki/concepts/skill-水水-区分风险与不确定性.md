@@ -3,7 +3,7 @@
 id: "skill-水水-区分风险与不确定性"
 title: "技能：区分风险与不确定性"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：区分风险与不确定性

@@ -3,7 +3,7 @@
 id: "skill-马易-公寓获客自跑通原则"
 title: "技能：公寓获客自跑通原则"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：公寓获客自跑通原则

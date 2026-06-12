@@ -3,7 +3,7 @@
 id: "skill-水水-识别超级传播者风险"
 title: "技能：识别超级传播者风险"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：识别超级传播者风险

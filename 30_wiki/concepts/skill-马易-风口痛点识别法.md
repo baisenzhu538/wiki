@@ -3,7 +3,7 @@
 id: "skill-马易-风口痛点识别法"
 title: "技能：风口痛点识别法"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：风口痛点识别法

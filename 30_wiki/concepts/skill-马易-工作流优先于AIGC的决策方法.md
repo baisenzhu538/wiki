@@ -2,7 +2,7 @@
 id: "skill-马易-工作流优先于AIGC的决策方法"
 title: "技能：工作流优先于AIGC的决策方法"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain:
 - ai-collaboration
 - business-strategy

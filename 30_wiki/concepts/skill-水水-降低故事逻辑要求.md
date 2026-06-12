@@ -3,7 +3,7 @@
 id: "skill-水水-降低故事逻辑要求"
 title: "技能：降低故事逻辑要求"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：降低故事逻辑要求

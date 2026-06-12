@@ -3,7 +3,7 @@
 id: "skill-水水-识别饥饿效应"
 title: "技能：识别饥饿效应"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：识别饥饿效应

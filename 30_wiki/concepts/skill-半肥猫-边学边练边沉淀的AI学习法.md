@@ -26,6 +26,8 @@ related:
   - "concept-纪浩-ai-collaboration-methodology"
   - "skill-纪浩-dofirst-pdca"
 created_at: "2026-06-07"
+
+reviewed_by: "laowantong"
 updated_at: "2026-06-07"
 tags:
   - #domain/ai-collaboration

@@ -3,7 +3,7 @@
 id: "skill-水水-识别模型局限性"
 title: "技能：识别模型局限性"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：识别模型局限性

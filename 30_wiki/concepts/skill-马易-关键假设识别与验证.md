@@ -3,7 +3,7 @@
 id: "skill-马易-关键假设识别与验证"
 title: "技能：关键假设识别与验证"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：关键假设识别与验证

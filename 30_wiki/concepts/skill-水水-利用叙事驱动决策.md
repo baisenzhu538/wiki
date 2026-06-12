@@ -3,7 +3,7 @@
 id: "skill-水水-利用叙事驱动决策"
 title: "技能：利用叙事驱动决策"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：利用叙事驱动决策

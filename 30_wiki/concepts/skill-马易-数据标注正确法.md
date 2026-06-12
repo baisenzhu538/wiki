@@ -3,7 +3,7 @@
 id: "skill-马易-数据标注正确法"
 title: "技能：数据标注正确法"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：数据标注正确法

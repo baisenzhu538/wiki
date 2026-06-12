@@ -3,7 +3,7 @@
 id: "skill-马易-数据存储架构选择"
 title: "技能：数据存储架构选择"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：数据存储架构选择

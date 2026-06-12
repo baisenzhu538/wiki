@@ -3,7 +3,7 @@
 id: "skill-马易-AI落地能力内化训练"
 title: "技能：AI落地能力内化训练"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：AI落地能力内化训练

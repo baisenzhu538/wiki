@@ -3,7 +3,7 @@
 id: "skill-水水-保持系统冗余"
 title: "技能：保持系统冗余"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：保持系统冗余

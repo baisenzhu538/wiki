@@ -3,7 +3,7 @@
 id: "skill-马易-AI项目需求拆解筛选"
 title: "技能：AI项目需求拆解筛选"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：AI项目需求拆解筛选

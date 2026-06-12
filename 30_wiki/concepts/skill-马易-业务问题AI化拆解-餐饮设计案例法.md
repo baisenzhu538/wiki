@@ -3,7 +3,7 @@
 id: "skill-马易-业务问题AI化拆解-餐饮设计案例法"
 title: "技能：业务问题AI化拆解-餐饮设计案例法"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：业务问题AI化拆解-餐饮设计案例法

@@ -3,7 +3,7 @@
 id: "skill-马易-RPA数据整合法"
 title: "技能：RPA数据整合法"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：RPA数据整合法

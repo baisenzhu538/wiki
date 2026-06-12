@@ -3,7 +3,7 @@
 id: "skill-水水-用感性维度构建溢价"
 title: "技能：用感性维度构建溢价"
 type: "skill"
-status: "draft"
+status: "needs-review"
 domain: []---
 
 # 技能：用感性维度构建溢价
