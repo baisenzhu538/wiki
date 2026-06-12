@@ -23,6 +23,7 @@ query_triggers:
 related:
   - "yt-entrepreneur-scientific-method"
   - "yt-personal-deliberate-practice"
+  - "master-first-principles"
   - "yt-personal-ipo-learning"
   - "yt-personal-knowledge-extraction"
   - "yt-personal-knowledge-management"

@@ -50,6 +50,10 @@ updated: 2026-06-11
 | **Task D** | 协助老顽童处理产品内核域素材 | ✅ | 已完成 |
 | **Task E** | **诊断基础设施 v1** | **✅ 已关闭** | **E1-E5全部完成（E4暂缓），commit 72a7d60。526/528 tests pass** |
 | **Task F** | **生产者体验 + 五步法审计** | **✅ A** | **真缺口（3→4步衔接）+ 4条摩擦（P0 validate regex bug已确认）** |
+| **Task I** | **王语嫣v2审计 — 目录结构+Domain批量修复** | **✅** | **I-1~I-4全部完成。commit `5651100d`** |
+| **Task J** | **`kdo scaffold --new` 生产化** | **✅** | **6类型dogfood-tested, yaml+v15通过。KDO commit `7360c56`** |
+| **Task K** | **diagnostic_signals 批量填充** | **✅** | **47张卡补TODO占位。commit `a5d818c4`** |
+| **Task L** | **王语嫣掉线+身份串号排查** | **🔴** | **频繁掉线，调研时被识别为老顽童。需查WSL Hermes部署** |
 
 ---
 

@@ -1,11 +1,11 @@
 ---
 updated: 2026-06-12
 active_branch: main
-active_task: "黄药师 Task I 全部完成：domain格式统一(899 valid)、dk/case目录迁移(113+35)、sk-backup清理(12)、Graph RAG重建(1140 entities)。"
+active_task: "黄药师 Task J+K 全部完成：kdo scaffold --new 生产化(dogfood-tested 6类型, yaml+v15通过)、diagnostic_signals批量补TODO(47张)。"
 blockers:
-  - "Kimi K2.7 Anthropic协议tool call全挂，Hermes agent暂切DeepSeek。等Kimi修复后切回。"
-  - "欧阳锋待审查Task I + 洪七公桥接 + 老顽童Design域P0桥接"
-next_session_hint: "用户说'继续'→ ① 确认Kimi K2.7 Anthropic协议是否恢复，恢复后Hermes切回kimi-for-coding；② Task J：kdo validate domain-tags一致性检查"
+  - "Hermes agent已切DeepSeek (deepseek-v4-pro, OpenAI协议, api.deepseek.com)。Kimi K2.7 Anthropic tool call待修复。"
+  - "欧阳锋待审查Task I+J+K + 洪七公桥接 + 老顽童Design域P0桥接"
+next_session_hint: "用户说'继续'→ ① 确认Kimi K2.7 Anthropic协议是否恢复；② 等欧阳锋分配新任务"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。

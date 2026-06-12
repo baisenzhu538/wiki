@@ -24,6 +24,7 @@ query_triggers:
 related:
   - "yt-model-entrepreneur-map"
   - "yt-panproduct-execution-hypothesis-decomposition"
+  - "master-antifragile-checklist"
 review_date: 2026-06-06
 reviewed_by: ""
 source_refs:

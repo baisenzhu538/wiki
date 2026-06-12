@@ -20,7 +20,8 @@ query_triggers:
   - "假设驱动验证"
   - "创业思维转换"
   - "从零到一思维方式"
-related: {'series': False}
+related:
+  - "master-first-principles"
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

@@ -14,6 +14,8 @@ yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-re
 reviewed_by: "黄药师"
 review_date: "2026-05-06"
 estimated_tokens: 3300
+related:
+  - "master-ai-info-literacy"
 tags:
   - #scene/ai-collaboration
   - #scene/business-analysis

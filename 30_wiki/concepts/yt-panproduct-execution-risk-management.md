@@ -26,6 +26,7 @@ related:
   - "yt-panproduct-execution-milestone-breakdown"
   - "yt-panproduct-execution-hypothesis-decomposition"
   - "yt-model-deep-review-iceberg"
+  - "master-antifragile-checklist"
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-风险管理.png"

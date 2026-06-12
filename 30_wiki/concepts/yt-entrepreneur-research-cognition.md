@@ -20,7 +20,8 @@ query_triggers:
   - "专家访谈方法"
   - "竞争情报搜集"
   - "上市报告分析"
-related: {'series': True}
+related:
+  - "master-ai-info-literacy"
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

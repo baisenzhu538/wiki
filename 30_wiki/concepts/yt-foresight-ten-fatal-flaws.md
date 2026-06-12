@@ -27,6 +27,7 @@ query_triggers:
   - "项目致命缺陷"
 related:
   - "dk-yb18-small-shop-image-mismatch"
+  - "master-antifragile-checklist"
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-addition-subtraction.md"

@@ -20,7 +20,8 @@ query_triggers:
   - "AI时代竞争力"
   - "如何与AI协作"
   - "提示词怎么写"
-related: {'series': False}
+related:
+  - "master-ai-info-literacy"
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

@@ -88,6 +88,81 @@ yt-model-progress-map 的 related: {'level': 'foundational'}  ← 非法格式
 
 ---
 
-## 任务 2：旧卡补互链 — P1 批次
+## 🔴 任务 2：旧卡补互链 — P2 批次
 
-等 P0 修正完成并通知欧阳锋后，再给 P1 列表。
+**来源**：王语嫣 master 域巡查发现——master 卡的 related 向下链已填，但 yt- 卡的反向引用缺失。
+
+### 操作
+
+以下 4 张 master 卡需要补 yt- 反向引用：
+
+| master 卡 | 问题 | 需要补反向引用的 yt- 卡 |
+|:----------|:-----|:----------------------|
+| `master-antifragile-checklist` | related 为空字符串，完全孤岛 | 先修 related 空串为 `[]`，再加 `"yt-decision-antifragile"`, `"yt-entrepreneur-risk-management"` 等 |
+| `master-ai-info-literacy` | 向下有 related 但 0 个 yt- 引用回来 | 找到 related 中引用的 yt- 卡，逐一检查，缺反向的补上 |
+| `master-first-principles` | 6 个 yt- related 但仅 1 个反向引用 | 补至少 3 个反向链接（在对应的 yt- 卡 related 中加） |
+| `master-systems-thinking` | 8 个 yt- related 但仅 1 个反向引用 | 同上，补至少 3 个反向链接 |
+
+**方法**：先修 empty-related 格式，再逐对补反向链接。跟 P0/P1 一样，双向。
+
+### 来源参考
+
+王语嫣巡查报告：`60_feedback/diagnosis/diag_20260612_master-domain-island-patrol.md`
+
+---
+
+## 🔴 任务 3：核心桥接卡精修 — 深度提升
+
+**背景**：王语嫣三次审计确认了同一个问题——卡片广度够了，深度没到。
+当前 frameworks/ 下 7 张桥接卡（MECE、Issue Tree、Hypothesis-Driven、5 Whys、7-S、Trusted Advisor、Pyramid Principle）是"诊断召回的第一站"，但大部分停在 **L1（框架描述层）**，需要拉升到 **L2/L3（诊断可用层）**。
+
+### 深度分级标准
+
+| 级别 | 含义 | 内容特征 |
+|:----|:-----|:---------|
+| L1 搬运 | 框架描述 | "MECE 是相互独立完全穷尽" — 搬运百科 |
+| L2 理解 | 核心洞察 + 边界 | "MECE 在信息匮乏时强制使用会制造虚假确定感" |
+| L3 诊断 | 失效模式 + 触发信号 | "当用户说'列了很多但感觉漏了什么'→ 穷尽性检验触发" |
+
+### 操作
+
+按以下顺序，逐张精修 7 张桥接卡：
+
+1. **MECE** → L2：加"什么情况下 MECE 会失效"段落（参考已有 Critique 但展开到 Constraints）
+2. **Issue Tree** → L2：加"树的深度 vs 行动力"的权衡判断标准
+3. **Hypothesis-Driven** → L2/L3：diagnostic_signals 已有，重点强化 Constraints 和"什么时候不该用"
+4. **5 Whys** → L3：diagnostic_signals 已有，加"5 Whys 追不到根因的 3 种典型情况"
+5. **7-S** → L2：加"7 个维度之间的冲突模式"案例
+6. **Trusted Advisor** → L3：加"信任公式失效的典型场景"
+7. **Pyramid Principle** → L2：加"金字塔结构在探索阶段 vs 汇报阶段的不同用法"
+
+### Constraints 精修模板
+
+每个 Constraints 节至少包含：
+
+```markdown
+## Constraints & Boundaries
+
+### 适用边界
+| 边界 | 说明 |
+|:-----|:------|
+| （场景） | （为什么在这不能用） |
+
+### 常见失败模式
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| （模式名） | （用户会看到什么） | （怎么修） |
+```
+
+每条失败模式必须是**从真实案例中提炼的**，不是"理论上可能会有"的通用描述。
+
+### 完成标准
+
+精修后每张卡应满足：
+1. Constraints 节有 ≥2 条适用边界 + ≥2 条常见失败模式
+2. diagnostic_signals 有 ≥2 条具体内容（不是 TODO）
+3. Critique 中的攻击者与卡的内容紧密相关，不是"通用批判"
+
+### 优先级
+
+P2 互链 > 本任务。先做完 P2，再回来精修卡。

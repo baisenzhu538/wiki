@@ -575,6 +575,37 @@ I-1 → I-2 → I-3 → I-4，顺序执行，不准并行。
 
 ---
 
+## 🔴 Task L（紧急）：为王语嫣建立独立 Hermes 身份
+
+**背景**：王语嫣当前跑在老顽童的 Hermes gateway（`hermes-gateway-laowantong.service`）上。老顽童的 gateway 默认人格是"周伯通（中神通）"。王语嫣能对话是因为会话上下文中注入了"你是王语嫣"的 prompt。但 gateway 一重启，上下文清空，她就变回老顽童。这是 P-6 同类问题——身份绑定在易失的会话上而非固定的配置上。
+
+**操作**：
+
+1. 参考已有 Hermes profile（`~/.hermes/profiles/beikai/`、`~/.hermes/profiles/laowantong/` 等），为王语嫣新建 profile：
+   ```
+   ~/.hermes/profiles/wangyuyan/
+   ├── config.yaml    # 角色名、人格设置
+   └── .env           # API Key（复用已有 Key）
+   ```
+
+2. 参考已有 gateway service，新建 service 文件：
+   ```
+   ~/.config/systemd/user/hermes-gateway-wangyuyan.service
+   ```
+   复制 `hermes-gateway-laowantong.service` 的内容，把其中的 `laowantong` 替换为 `wangyuyan`。
+
+3. 注册到 hub——在 `five_heroes_hub/hub.py` 中添加王语嫣条目
+
+4. 启动：
+   ```bash
+   systemctl --user daemon-reload
+   systemctl --user start hermes-gateway-wangyuyan.service
+   ```
+
+5. 验证：飞书发消息给王语嫣，确认她以"王语嫣"身份回复而非"周伯通"
+
+**完成后通知欧阳锋**。老顽童的 gateway 不再携带王语嫣身份，重启也不会冲突。
+
 ## 🔴 Task J（新）：`kdo scaffold --new` 生产化
 
 **来源**：Task F 摩擦 #1。Producer 写卡全是手写 YAML frontmatter。你已完成原型设计，现在是生产化。
