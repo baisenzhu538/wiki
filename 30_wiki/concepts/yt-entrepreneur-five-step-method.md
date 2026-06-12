@@ -24,6 +24,22 @@ related:
   - "yt-foresight-business-spectrum"
   - "yt-model-entrepreneur-map"
   - "yt-five-step-method"
+  - "yt-entrepreneur-key-hypotheses"
+  - "yt-demand-analysis-hiking-map"
+  - "yt-entrepreneur-needs-analysis"
+  - "yt-product-kernel-cultivation"
+  - "yt-unit-model-overview"
+  - "yt-entrepreneur-lean-validation"
+  - "yt-research-osl-framework"
+  - "yt-growth-cycle-model"
+  - "yt-entrepreneur-growth-flywheel"
+  - "yt-barrier-analysis-cheat-sheet"
+  - "yt-entrepreneur-barriers"
+  - "yt-barrier-identification-skill"
+  - "yt-decision-y-model"
+  - "yt-five-step-common-pitfalls"
+  - "yt-five-step-implementation"
+  - "yt-model-five-step-canvas"
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
@@ -97,8 +113,24 @@ pipeline:
 | 关联 | [[yt-system-course-catalog]] | 全量课程目录与选课口令 |
 | 关联工具 | [[yt-entrepreneur-five-step-method]] | 一堂五步法总纲 |
 | 关联工具 | [[yt-entrepreneur-scientific-method]] | 科学理念，底层世界观 |
-| 关联工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设方法论 |
+| 关联工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设方法论，五步法核心驱动原则 |
 | 关联框架 | [[yt-model-entrepreneur-map]] | 创业地图总模型 |
+| 子概念 | [[yt-entrepreneur-key-hypotheses]] | 五步法以关键假设优先为驱动，此卡详述假设拆解与优先级判断方法 |
+| 分解 | [[yt-demand-analysis-hiking-map]] | 五步法第一步"需求分析"的实操工具，用徒步地图法结构化探索用户真实需求 |
+| 分解 | [[yt-entrepreneur-needs-analysis]] | 五步法第一步需求分析的完整课程展开，含用户访谈与痛点验证核心方法 |
+| 分解 | [[yt-product-kernel-cultivation]] | 五步法第二步"产品定义"的核心方法，将需求转化为可验证的产品内核方案 |
+| 关联框架 | [[yt-unit-model-overview]] | 五步法第二步方案定义的后置框架，提炼最小经济单元以判断商业可行性 |
+| 分解 | [[yt-entrepreneur-lean-validation]] | 五步法第三步验证环节的核心课程，覆盖MVP设计与实验框架的关键方法 |
+| 关联工具 | [[yt-research-osl-framework]] | 五步法验证环节的调研支撑方法论，提供Observe-Synthesize-Learn闭环框架 |
+| 分解 | [[yt-growth-cycle-model]] | 五步法第四步增长环节的核心模型，解释规模化增长不同阶段的规律特征 |
+| 分解 | [[yt-entrepreneur-growth-flywheel]] | 五步法增长环节的飞轮效应分析，描述从获客到自增长的闭环增长机制 |
+| 分解 | [[yt-barrier-analysis-cheat-sheet]] | 五步法第五步壁垒环节的速查工具，系统识别七类竞争壁垒的关键维度 |
+| 分解 | [[yt-entrepreneur-barriers]] | 五步法第五步壁垒护城河的完整课程展开，含壁垒识别诊断与构建策略 |
+| 关联工具 | [[yt-barrier-identification-skill]] | 五步法第五步壁垒识别的专项技能卡，训练发现隐性竞争壁垒的实战能力 |
+| 关联框架 | [[yt-decision-y-model]] | 五步法各环节需要大量前置判断，Y模型提供决策结构化的底层方法论 |
+| 关联 | [[yt-five-step-common-pitfalls]] | 五步法实践中的典型失败模式归纳，帮助团队避开已知常见认知执行陷阱 |
+| 关联 | [[yt-five-step-implementation]] | 五步法从框架到落地执行的具体指引，包含各步骤检查清单与关键产出物 |
+| 关联框架 | [[yt-model-five-step-canvas]] | 五步法的可视化画布工具，将五个维度关键信息整合为一张战略决策视图 |
 
 ### 不要用的场景
 

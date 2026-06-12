@@ -24,6 +24,21 @@ related:
   - "yt-entrepreneur-key-hypotheses"
   - "yt-model-progress-map"
   - "yt-model-cognitive-upgrade-framework"
+  - "yt-personal-deep-review"
+  - "yt-personal-knowledge-extraction"
+  - "yt-personal-ipo-learning"
+  - "yt-personal-ai-capability"
+  - "yt-personal-deliberate-practice"
+  - "yt-personal-y-model-exploration-2"
+  - "yt-model-personal-map"
+  - "yt-model-management-map"
+  - "yt-model-y-organization"
+  - "yt-management-toolkit-overview"
+  - "yt-tool-okr-cycle"
+  - "yt-tool-meeting-designer"
+  - "yt-tool-hiring-scorecard"
+  - "yt-foresight-business-spectrum"
+  - "yt-entrepreneur-barriers"
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
@@ -146,9 +161,9 @@ pipeline:
 
 ## Synthesis
 
-## Constraints & Boundaries
+创业修炼地图以「概率」为核，与个人修炼域（刻意练习、深度复盘、知识萃取、IPO学习、AI能力、Y模型探索）形成「内功→外功」闭环——前者训练创业者个体认知与技能，后者将这些能力投射到创业场景的具体决策与执行中。管理修炼域（管理地图、工具箱总览、OKR、会议设计、招聘打分卡）覆盖团队放大阶段的组织能力，是创业地图中「增长阶段」的进阶支撑。终局光谱图与项目壁垒提供预判阶段的行业格局分析工具，Y模型提供底层思维引擎。六大域协同构成创业者从个体能力→创业实战→组织管理的完整修炼链。
 
-适用性判断：本地图在以下场景中可能失效，建议采用替代方案。
+## Constraints & Boundaries
 
 | 场景 | 失效机制 | 替代方案 |
 |------|---------|---------|
@@ -165,6 +180,19 @@ pipeline:
 | 关联框架 | [[yt-model-management-map]] | 管理地图（姊妹篇：管理必修） |
 | 关联 | [[yt-system-course-catalog#创业必修]] | 创业必修课程目录 |
 | 实体页 | [[一堂]] | 一堂实体页 |
+| 关联框架 | [[yt-model-personal-map]] | 个人修炼地图，与创业地图互为「内外双修」——前者磨砺创业者个体认知与技能，后者将能力投射到创业实战场景，二者共同构成一堂修炼体系的两大支柱 |
+| 关联框架 | [[yt-personal-deep-review]] | 深度复盘是创业地图「增长阶段」组织复盘与个人反思的核心工具，帮助创业者从经验中提炼可复用的决策模式 |
+| 关联框架 | [[yt-personal-knowledge-extraction]] | 知识萃取方法论为创业地图预判阶段提供从行业经验与案例中提取结构化洞见的能力，支撑高水准选择 |
+| 关联框架 | [[yt-personal-ipo-learning]] | IPO科学学习框架（输入→处理→输出）对应创业地图中「科学专项工具箱」的学习路径，是创业者持续成长的方法论保障 |
+| 关联框架 | [[yt-personal-ai-capability]] | AI双模型能力在创业地图各阶段均可嵌入——预判阶段辅助行业分析，起盘阶段加速情报调研，增长阶段驱动数据决策 |
+| 关联框架 | [[yt-personal-deliberate-practice]] | 刻意练习是创业地图底层「实事求是」的个体执行版本，将科学方法论落实到创业者每日的技能打磨与反馈循环中 |
+| 关联框架 | [[yt-personal-y-model-exploration-2]] | Y模型探索营是创业地图所依赖的底层思维引擎「Y模型」的实操训练，帮助创业者掌握科学推演与假设拆解的核心心法 |
+| 关联框架 | [[yt-management-toolkit-overview]] | 管理工具箱总览是创业地图增长阶段的进阶配套，涵盖OKR、会议、招聘等组织放大所需的核心管理工具 |
+| 关联框架 | [[yt-tool-okr-cycle]] | OKR制定与复盘罗盘对应创业地图增长阶段的「战略取舍」模块，帮助创业者将战略目标拆解为可追踪的组织执行节奏 |
+| 关联框架 | [[yt-tool-meeting-designer]] | 会议设计师工具解决创业地图增长阶段「学习型组织」建设中常见的会议效率问题，将会议从消耗转化为生产力 |
+| 关联框架 | [[yt-tool-hiring-scorecard]] | 结构化面试打分卡是创业地图增长阶段「打造文化」与组织建设的落地工具，确保人才选拔与公司价值观对齐 |
+| 关联框架 | [[yt-foresight-business-spectrum]] | 终局光谱图为创业地图预判阶段提供行业终局格局的分析框架，帮助创业者判断长期集中度与自身定位 |
+| 关联框架 | [[yt-entrepreneur-barriers]] | 项目壁垒框架对应创业地图增长阶段的「构建壁垒」模块，提供五步法分析项目护城河的系统方法 |
 
 ## Action Triggers
 

@@ -22,6 +22,21 @@ query_triggers:
 related:
   - "yt-entrepreneur-five-step-method"
   - "yt-tool-foresight-canvas"
+  - "yt-foresight-model-taxonomy"
+  - "yt-foresight-ten-fatal-flaws"
+  - "yt-foresight-15-char-mantra"
+  - "yt-foresight-addition-subtraction"
+  - "yt-foresight-probability-engineering"
+  - "yt-foresight-deliverables-four-levels"
+  - "yt-foresight-ab-steady-state"
+  - "yt-ai-startup-20-risky-hypotheses"
+  - "yt-ai-trend-12-signals"
+  - "yt-decision-y-model"
+  - "yt-entrepreneur-key-hypotheses"
+  - "yt-panproduct-demand-industry-canvas"
+  - "yt-panproduct-demand-five-step-method"
+  - "yt-panproduct-demand-need-discovery"
+  - "yt-panproduct-demand-user-segmentation"
 review_date: 2026-06-10
 reviewed_by:
   - "黄药师"
@@ -181,6 +196,21 @@ Paul Graham（Y Combinator）的"How to Get Startup Ideas"对所有机会评估�
 | 应用案例 | [[case-escort-service-tiered-growth]] | 陪诊业务七级演进 |
 | 应用案例 | [[case-coffee-shop-foresight]] | 咖啡馆创业预判 |
 | 应用案例 | [[case-ai-time-management-tiered-growth]] | AI时间管理App七级演进 |
+| 关联框架 | [[yt-foresight-model-taxonomy]] | 预判模型分类体系，光谱图是其中核心工具之一 |
+| 关联框架 | [[yt-foresight-ten-fatal-flaws]] | 光谱定位后，用十大硬伤清单逐条检查该位置是否有致命硬伤 |
+| 关联框架 | [[yt-foresight-15-char-mantra]] | "保A争B"区间选择与15字真言的底层逻辑互通 |
+| 关联框架 | [[yt-foresight-addition-subtraction]] | L2段位"加减法"训练为光谱图终局意识奠定基础 |
+| 关联框架 | [[yt-foresight-probability-engineering]] | 光谱图各层级的概率判断需概率工程方法支撑 |
+| 关联框架 | [[yt-foresight-deliverables-four-levels]] | 不同光谱层级对应不同深度的预判交付物标准 |
+| 关联框架 | [[yt-foresight-ab-steady-state]] | AB稳态模型与"保A争B"区间选择策略直接对应 |
+| 关联框架 | [[yt-ai-startup-20-risky-hypotheses]] | 光谱L5-L7行业预判层需补充AI创业的20个危险假设检查 |
+| 关联框架 | [[yt-ai-trend-12-signals]] | AI趋势12信号为光谱图行业预判层提供宏观趋势输入 |
+| 关联框架 | [[yt-decision-y-model]] | Y型决策模型为光谱定位后的落地决策提供结构化方法 |
+| 关联框架 | [[yt-entrepreneur-key-hypotheses]] | 光谱图"保A争B"区间选择背后需澄清的关键假设清单 |
+| 关联框架 | [[yt-panproduct-demand-industry-canvas]] | 行业画布是光谱L5行业预判层的核心分析工具 |
+| 关联框架 | [[yt-panproduct-demand-five-step-method]] | 光谱图左端"短期利润"方向的需求调研方法支撑 |
+| 关联框架 | [[yt-panproduct-demand-need-discovery]] | 需求发现方法论帮助验证光谱不同层级的目标市场假设 |
+| 关联框架 | [[yt-panproduct-demand-user-segmentation]] | 用户分层模型辅助光谱图各层级的目标用户定位与规模估算 |
 
 ## Action Triggers
 
