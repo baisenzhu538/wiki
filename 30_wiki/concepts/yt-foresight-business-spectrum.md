@@ -21,7 +21,9 @@ query_triggers:
   - "创业段位"
 related: {'series': False}
 review_date: 2026-06-10
-reviewed_by: "洪七公"
+reviewed_by:
+  - "黄药师"
+  - "laowantong"
 source_refs:
   - "00_inbox/一堂-机会预判-终局光谱图-truman-图01.png"
   - "00_inbox/一堂-机会预判-终局光谱图-truman-图02.png"

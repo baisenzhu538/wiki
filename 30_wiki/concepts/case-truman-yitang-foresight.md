@@ -11,7 +11,9 @@ estimated_tokens: 2800
 language: "zh-CN"
 created_at: 2026-06-11
 review_date: 2026-06-11
-reviewed_by: "黄药师"
+reviewed_by:
+  - "黄药师"
+  - "laowantong"
 source_refs:
   - "00_inbox/一堂-机会预判课-Truman-口述.txt"
   - "00_inbox/一堂-机会预判课-truman-笔记.txt"

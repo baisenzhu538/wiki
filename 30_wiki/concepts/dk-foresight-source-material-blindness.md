@@ -12,7 +12,9 @@ estimated_tokens: 1200
 language: "zh-CN"
 created_at: 2026-06-11
 review_date: 2026-06-11
-reviewed_by: "黄药师"
+reviewed_by:
+  - "黄药师"
+  - "laowantong"
 source_refs:
   - "60_feedback/corrections/corr_20260611_laowantong-机会预判域-OCR遗漏+旧卡未清理.md"
   - "60_feedback/corrections/corr_20260611_hongqigong-机会预判域-OCR流程盲区.md"
