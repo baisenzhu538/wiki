@@ -566,3 +566,46 @@ I-1 → I-2 → I-3 → I-4，顺序执行，不准并行。
 ### 警告
 
 **这是批量操作，先备份再动手。** 每批迁移后跑 `kdo lint`，确认断链数量没有异常增长再继续下一批。
+
+---
+
+## ✅ Task I 已完成
+
+黄药师 2026-06-12 全部完成。
+
+---
+
+## 🔴 Task J（新）：`kdo scaffold --new` 生产化
+
+**来源**：Task F 摩擦 #1。Producer 写卡全是手写 YAML frontmatter。你已完成原型设计，现在是生产化。
+
+**要求**：`kdo scaffold --new` 支持交互式创建概念卡骨架，吐出可直接填充的 `.md` 文件。参考 `90_control/schemas/concept.yaml` 字段定义。
+
+**完成标准：**
+1. 支持 `--card`、`--type`、`--title`、`--domain` 参数
+2. 自动判断存放目录（framework→frameworks/，tool→tools/，case→cases/ 等）
+3. 产出的 frontmatter 可被 `yaml.safe_load` 解析
+4. 产出的文件可通过 `kdo validate --v15` 骨架检查
+5. commit 标注 `dogfood-tested`
+
+---
+
+## 🔴 Task K（新）：diagnostic_signals 批量填充脚本
+
+**来源**：王语嫣深度审计发现 diagnostic_signals 覆盖率仅 0.6%（7/1258）。这是她做诊断的核心武器。
+
+**操作**：写一次性 Python 脚本，为以下优先批次的卡片填充空的 diagnostic_signals 占位：
+1. `frameworks/` 全部 7 张 — 缺的 3 张补 TODO 骨架
+2. `tools/` 全部 36 张 — 缺的 33 张补 TODO 骨架
+3. `concept-*` 全部 14 张 — 缺的 12 张补 TODO 骨架
+
+**注意**：只填 TODO 占位，不填具体内容。具体内容由老顽童补充。格式参考：
+
+```yaml
+diagnostic_signals:
+  - signal: "TODO: 用户说什么场景时触发"
+    framework_lens: "TODO: 框架提供什么视角"
+    follow_up_question: "TODO: 第一个追问"
+```
+
+**工作量**：30 分钟脚本 + 10 分钟验证。
