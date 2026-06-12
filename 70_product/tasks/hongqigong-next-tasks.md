@@ -1,12 +1,59 @@
 # 洪七公后续任务
 
-> **更新：2026-06-11**
-> **性质：临时支援老顽童。** 老顽童一个人扛全部内容产出，管线卡在他这里。
-> 你临时帮他产 2 张桥接卡。做完后回归待命。
+> **更新：2026-06-12**
+> **性质：第二轮临时支援老顽童。** 老顽童管线还是堵着，你分担两张卡。
 
 ---
 
-## 🎯 任务：产 2 张桥接卡（7-S Framework + Trusted Advisor）
+## 🎯 任务
+
+| 顺序 | 任务 | 状态 | 估算 |
+|:----:|:-----|:----:|:----:|
+| **1** | **🔴 Pyramid Principle 桥接卡** | **🔜** | **2h** |
+| **2** | **旧卡补互链 P0 — 3 对** | ⏳ | 1h |
+
+---
+
+## 任务 1：Pyramid Principle 桥接卡
+
+### 基础信息
+
+| 字段 | 内容 |
+|:----|:------|
+| 卡名 | `concept-minto-pyramid-principle` |
+| 标题 | "金字塔原理：结论先行的结构化沟通框架" |
+| 类型 | `framework` |
+| 存放路径 | `30_wiki/frameworks/concept-minto-pyramid-principle.md` |
+| domain | `["consulting", "yitang"]` |
+
+### 格式要求
+
+跟 7-S、Trusted Advisor 完全一样。三个硬条件：
+
+1. **Bridge 节**已写 ↔ 与一堂体系的桥接关系
+2. **`bridges_to`** frontmatter 已填（至少 1 条）
+3. **Synthesis 链接 ≥5 个**（含至少 2 个同域横向链接）
+
+### 攻击者
+
+不要跟 7-S（Mintzberg+Pfeffer）和 Trusted Advisor（Kahneman+Christensen）重复。
+
+建议组合：**Taleb**（金字塔结构在不确定性下脆弱）+ **Eric Ries**（精益创业反对过度计划）
+或者：**Mintzberg**（沟通不是控制）+ 任选另一位
+
+### 源材料
+
+`60_feedback/diagnosis/diag_20250611_consulting-skills-research.md` — 王语嫣的 Gap 说明中有 Pyramid Principle 的桥接建议。
+
+### 参考模版
+
+直接复制你刚写的 `30_wiki/frameworks/concept-maister-trusted-advisor.md` 的 frontmatter 结构，替换内容。
+
+---
+
+## 任务 2：旧卡补互链 P0 — 3 对
+
+等任务 1 完成后再来领具体配对清单。
 
 ### 背景
 
