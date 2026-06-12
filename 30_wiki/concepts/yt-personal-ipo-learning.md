@@ -19,7 +19,8 @@ query_triggers:
   - "质变点与四大联系练习"
   - "输入"
   - "输出"
-related: {'series': True}
+related:
+  - "master-systems-thinking"
 review_date: 2026-05-07
 reviewed_by: "黄药师"
 source_refs:

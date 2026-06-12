@@ -23,6 +23,7 @@ query_triggers:
 related:
   - "yt-unit-model-ladder"
   - "yt-unit-model-ai-assisted"
+  - "master-systems-thinking"
   - "yt-decision-forecasting-accuracy"
   - "yt-decision-system1-system2"
 reviewed_by: ""

@@ -20,7 +20,8 @@ query_triggers:
   - "飞轮效应"
   - "投入产出再投入"
   - "增长结构"
-related: {'series': False}
+related:
+  - "master-systems-thinking"
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
