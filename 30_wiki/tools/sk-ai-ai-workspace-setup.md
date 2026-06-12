@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-ai-workspace-setup
 title: 技能：结构化AI工作空间搭建
 type: skill
@@ -27,7 +28,7 @@ prerequisite_skills: []
 related:
 - structured-ai-workspace
 - sk-ai-problem-validation
----
+domain: [ai-collaboration]---
 
 # 技能：结构化AI工作空间搭建
 

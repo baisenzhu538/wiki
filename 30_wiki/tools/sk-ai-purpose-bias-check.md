@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-purpose-bias-check
 title: 技能：目的论偏差快速识别法
 type: skill
@@ -27,7 +28,7 @@ prerequisite_skills: []
 related:
 - narrative-bias
 - self-organized-criticality
----
+domain: [ai-collaboration]---
 
 # 技能：目的论偏差快速识别法
 

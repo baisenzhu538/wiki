@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-landing-five-steps
 title: 技能：AI落地五步执行清单
 type: skill
@@ -27,7 +28,7 @@ prerequisite_skills: []
 related:
 - sk-ai-old-small-checklist
 - sk-ai-parallel-validation
----
+domain: [ai-collaboration]---
 
 # 技能：AI落地五步执行清单
 

@@ -16,7 +16,8 @@ query_triggers:
   - "需求解决方案商业模式增长壁垒"
   - "创业分析工具"
   - "全局分析"
-related: {'series': False}
+related:
+  - "yt-entrepreneur-five-step-method"
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:

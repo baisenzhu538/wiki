@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-system-redundancy
 title: 技能：系统冗余度快速检查清单
 type: skill
@@ -28,7 +29,7 @@ prerequisite_skills: []
 related:
 - self-organized-criticality
 - sk-ai-purpose-bias-check
----
+domain: [ai-collaboration]---
 
 # 技能：系统冗余度快速检查清单
 

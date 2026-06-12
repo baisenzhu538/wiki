@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-prd-for-ai
 title: 技能：把PRD写成AI能执行的指令
 type: skill
@@ -27,7 +28,7 @@ prerequisite_skills: []
 related:
 - sk-ai-problem-validation
 - prd-as-ai-instruction
----
+domain: [ai-collaboration]---
 
 # 技能：把PRD写成AI能执行的指令
 

@@ -17,7 +17,10 @@ query_triggers:
   - "无限进步大地图"
   - "核心口号"
   - "知识体系定位"
-related: {'level': 'foundational'}
+related:
+  - "yt-model-entrepreneur-map"
+  - "yt-model-management-map"
+  - "yt-model-personal-map"
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"

@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-narrative-test
 title: 技能：你的方案有叙事力吗？快速测试
 type: skill
@@ -27,7 +28,7 @@ prerequisite_skills: []
 related:
 - narrative-bias
 - sk-ai-purpose-bias-check
----
+domain: [ai-collaboration]---
 
 # 技能：你的方案有叙事力吗？快速测试
 

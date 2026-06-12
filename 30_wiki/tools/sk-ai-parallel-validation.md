@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-parallel-validation
 title: 技能：平行运行验证法
 type: skill
@@ -25,7 +26,7 @@ tools_required:
 prerequisite_skills: []
 related:
 - sk-ai-landing-five-steps
----
+domain: [ai-collaboration]---
 
 # 技能：平行运行验证法
 

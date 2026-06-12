@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-voice-input-doubao
 title: 技能：口喷式语音输入法
 type: skill
@@ -29,7 +30,7 @@ prerequisite_skills: []
 related:
 - sk-ai-ai-workspace-setup
 - course-to-skill-conversion
----
+domain: [ai-collaboration]---
 
 # 技能：口喷式语音输入法
 

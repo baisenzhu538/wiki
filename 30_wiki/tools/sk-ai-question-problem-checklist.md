@@ -1,4 +1,5 @@
 ---
+
 id: sk-ai-question-problem-checklist
 title: 技能：提问题转化三问清单
 type: skill
@@ -27,7 +28,7 @@ prerequisite_skills: []
 related:
 - sk-ai-problem-validation
 - ai-collaboration-mindset-shift
----
+domain: [ai-collaboration]---
 
 # 技能：提问题转化三问清单
 
