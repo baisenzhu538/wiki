@@ -26,7 +26,19 @@
 - **🎉 视频试点管线正式关闭**：6 个 Gate 全部通过，4 个角色全部参与。end-to-end 流程跑通
 - **活跃任务**：全员待命。等下一批任务
 
-## 2026-05-24：单元模型域全量编译 + OCR Batch 2+3 终验通过
+## 2026-06-12：王语嫣概念卡地图 + 自迭代方案 v2
+
+- **✅ 任务1：KDO 概念卡地图完成** → `60_feedback/diagnosis/kdo-concept-map-20260612.md`
+  - 全库 1258 文件逐项扫描（directory/type/domain/related/bridge 四维分析）
+  - 发现：concepts/ 目录混存 90% 全库、domain 标签 97% 空置、5 种格式变体、design 域完全孤岛
+  - 真概念卡仅 14 张，frameworks/ 仅 7 张 bridge 卡覆盖 2 个外部域
+  - **gap 发现**：5 个知识空白（consulting tool 卡缺、design framework 缺、跨域同构未卡片化、sk-backup 未整合、yt- 卡缺子域标签）
+- **✅ 任务2：自迭代方案 v2 更新完成** → `60_feedback/diagnosis/proposal-self-learning-cron.md`（v2）
+  - 新增**检测器 E**（Domain 标签一致性审计）
+  - 数据基于今日扫描而非旧版估算
+  - 优先级标注：A/D/E 为 P0，B 为 P1，C 为 P2
+- **待审查**：两份文档均待欧阳锋审查后确定黄药师实施排期
+- **活跃角色**：王语嫣（诊断完成，等待下一轮指令）
 
 - **✅ OCR Batch 2+3 完成**：31 张科学决策域纯文本卡已补完 Critique + Synthesis，欧阳锋终验全部通过（平均 A-，攻击者多样性 A+，21 位学者）
 - **⏳ OCR Batch 4**：50 张视觉卡等待洪七公 VA 前置交付
