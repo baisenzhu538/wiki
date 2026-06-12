@@ -1,7 +1,7 @@
-KDO 健康巡检 — 2026-06-12 16:43
+KDO 健康巡检 — 2026-06-12 18:07
 ┌────────────────────────────────────────────────┐
 │ ⚠️  TODO 残留: 81                                     │
-│ ⚠️  孤立页面: 590                                    │
+│ ⚠️  孤立页面: 589                                    │
 │ ✅  矛盾未解决: 0                                      │
 │ ⚠️  重复页面: 792                                    │
 │ ⚠️  记忆文件过期: 3                                      │
@@ -9,7 +9,7 @@ KDO 健康巡检 — 2026-06-12 16:43
 │ ✅  低信任源: 0                                      │
 ├────────────────────────────────────────────────┤
 │ Task M — 自迭代检测器 Phase 1                    │
-│ ⚠️  新卡健康度: 318 issues (275F/43W)      │
+│ ⚠️  新卡健康度: 326 issues (275F/51W)      │
 │ ✅  Domain 审计: 24 issues                         │
 │ ✅  索引更新: 1/1 ok                         │
 │ ⚠️  链接密度: 338 findings                         │
@@ -593,7 +593,6 @@ KDO 健康巡检 — 2026-06-12 16:43
   • 30_wiki/concepts/yt-entrepreneur-channel-exploration.md  (yt-entrepreneur-channel-exploration)
   • 30_wiki/concepts/yt-entrepreneur-industrial-production.md  (yt-entrepreneur-industrial-production)
   • 30_wiki/concepts/yt-five-step-level-blindspots.md  (yt-five-step-level-blindspots)
-  • 30_wiki/concepts/yt-foresight-ab-steady-state.md  (yt-foresight-ab-steady-state)
   • 30_wiki/concepts/yt-note-fact-pattern-insight.md  (yt-note-fact-pattern-insight)
   • 30_wiki/concepts/yt-note-l6-extraction.md  (yt-note-l6-extraction)
   • 30_wiki/concepts/yt-personal-pan-product-02.md  (yt-personal-pan-product-02)
@@ -692,13 +691,13 @@ KDO 健康巡检 — 2026-06-12 16:43
   • 30_wiki/tools/yt-tool-unit-model-selection.md  (yt-tool-unit-model-selection)
 
 --- 超期未更新 (>30d) ---
+  • 30_wiki/concepts/EC工业化规范手册.md  (40d since 2026-05-03)
+  • 30_wiki/concepts/HIS系统开发实现方案-架构师指南.md  (40d since 2026-05-03)
+  • 30_wiki/concepts/HIS系统深度调研.md  (40d since 2026-05-03)
   • 30_wiki/concepts/business-research-skill-oscar-13-weapon-system.md  (39d since 2026-05-04)
   • 30_wiki/concepts/deepseek-v4-在知识管理系统中的应用.md  (38d since 2026-05-05)
   • 30_wiki/concepts/ec工业化规范手册-v2.8.0.md  (40d since 2026-05-03)
-  • 30_wiki/concepts/EC工业化规范手册.md  (40d since 2026-05-03)
   • 30_wiki/concepts/graph-rag.md  (40d since 2026-05-03)
-  • 30_wiki/concepts/HIS系统开发实现方案-架构师指南.md  (40d since 2026-05-03)
-  • 30_wiki/concepts/HIS系统深度调研.md  (40d since 2026-05-03)
   • 30_wiki/concepts/kdo_product_design_agent_final.md  (40d since 2026-05-03)
   • 30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md  (39d since 2026-05-04)
   • 30_wiki/concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md  (39d since 2026-05-04)
@@ -2841,12 +2840,6 @@ KDO 健康巡检 — 2026-06-12 16:43
   • "OCR: 泛产品设计落地工具篇指南"  ≈  "OCR: 泛产品设计落地篇"  (dist=4)
     30_wiki/concepts/ocr-泛产品设计落地工具篇指南.md
     30_wiki/concepts/ocr-泛产品设计落地篇.md
-  • "技能：真需求四要素验证法"  ≈  "技能：真需求四要素验证法"  (dist=0)
-    30_wiki/concepts/skill-ai-four-elements-validation.md
-    30_wiki/concepts/skill-纪浩-真需求四要素验证法.md
-  • "skill-ai-parallel-validation"  ≈  "skill-ai-problem-validation"  (dist=4)
-    30_wiki/concepts/skill-ai-parallel-validation.md
-    30_wiki/concepts/skill-ai-problem-validation.md
   • "skill-Truman-AI时代IPO模型重构"  ≈  "skill-Truman-AI时代提示词优化法"  (dist=7)
     30_wiki/concepts/skill-Truman-AI时代IPO模型重构.md
     30_wiki/concepts/skill-Truman-AI时代提示词优化法.md
@@ -2859,6 +2852,12 @@ KDO 健康巡检 — 2026-06-12 16:43
   • "skill-Truman-科学提问法"  ≈  "skill-Truman-职场异步协作提问法"  (dist=6)
     30_wiki/concepts/skill-Truman-科学提问法.md
     30_wiki/concepts/skill-Truman-职场异步协作提问法.md
+  • "技能：真需求四要素验证法"  ≈  "技能：真需求四要素验证法"  (dist=0)
+    30_wiki/concepts/skill-ai-four-elements-validation.md
+    30_wiki/concepts/skill-纪浩-真需求四要素验证法.md
+  • "skill-ai-parallel-validation"  ≈  "skill-ai-problem-validation"  (dist=4)
+    30_wiki/concepts/skill-ai-parallel-validation.md
+    30_wiki/concepts/skill-ai-problem-validation.md
   • "技能：商业预判15字诀"  ≈  "商业预判15字诀"  (dist=3)
     30_wiki/concepts/skill-一堂-business-prediction-15-char.md
     30_wiki/concepts/yt-entrepreneur-industry-forecast.md
@@ -3197,10 +3196,10 @@ KDO 健康巡检 — 2026-06-12 16:43
     30_wiki/concepts/yt-skill-storyline-timeline.md
 
 --- 记忆文件过期 ---
-  • corrections.md  (23d old, max 14d)
-    建议: 审查纠正记录：是否有已修复的 bug 可以标记为已解决
   • LATEST_SESSION.md  (35d old, max 2d)
     建议: 更新最近会话摘要（上次任务、待办清单、关键决策）
+  • corrections.md  (23d old, max 14d)
+    建议: 审查纠正记录：是否有已修复的 bug 可以标记为已解决
   • user-preferences.md  (35d old, max 30d)
     建议: 审查用户偏好：是否有新偏好、新工具、新工作流需要记录
 
@@ -3427,6 +3426,8 @@ KDO 健康巡检 — 2026-06-12 16:43
   [FAIL] skill-马易-风口痛点识别法.md: missing or unparseable frontmatter
   [FAIL] structured-ai-workspace.md: missing or unparseable frontmatter
   [FAIL] voice-input-doubao.md: missing or unparseable frontmatter
+  [WARN] yt-decision-ai-partner.md: diagnostic_signals missing (type=tool)
+  [WARN] yt-decision-canvas.md: diagnostic_signals missing (type=tool)
   [FAIL] yt-decision-depth-ladder.md: missing or unparseable frontmatter
   [WARN] yt-decision-width-method.md: diagnostic_signals missing (type=tool)
   [WARN] yt-entrepreneur-five-step-method.md: diagnostic_signals missing (type=tool)
@@ -3434,6 +3435,7 @@ KDO 健康巡检 — 2026-06-12 16:43
   [WARN] yt-entrepreneur-key-hypotheses.md: diagnostic_signals missing (type=tool)
   [WARN] yt-entrepreneur-liberate-thinking.md: diagnostic_signals missing (type=tool)
   [WARN] yt-entrepreneur-research-cognition.md: diagnostic_signals missing (type=tool)
+  [WARN] yt-entrepreneur-unit-model.md: diagnostic_signals missing (type=tool)
   [WARN] yt-five-step-method.md: diagnostic_signals missing (type=framework)
   [WARN] yt-foresight-ten-fatal-flaws.md: diagnostic_signals missing (type=tool)
   [FAIL] yt-management-basic-skills.md: missing or unparseable frontmatter
@@ -3466,6 +3468,8 @@ KDO 健康巡检 — 2026-06-12 16:43
   [WARN] yt-personal-deep-review.md: diagnostic_signals missing (type=tool)
   [WARN] yt-personal-ipo-learning.md: diagnostic_signals missing (type=tool)
   [WARN] yt-personal-knowledge-extraction.md: diagnostic_signals missing (type=tool)
+  [WARN] yt-research-expert-interview.md: diagnostic_signals missing (type=tool)
+  [WARN] yt-research-industry-canvas.md: diagnostic_signals missing (type=tool)
   [FAIL] yt-research-mindset.md: missing or unparseable frontmatter
   [WARN] yt-research-osl-framework.md: diagnostic_signals missing (type=framework)
   [FAIL] yt-research-user-jtbd.md: missing or unparseable frontmatter
@@ -3477,6 +3481,9 @@ KDO 健康巡检 — 2026-06-12 16:43
   [FAIL] yt-skill-storyline-target-tradeoff.md: missing or unparseable frontmatter
   [FAIL] yt-skill-storyline-timeline.md: missing or unparseable frontmatter
   [WARN] yt-tool-foresight-canvas.md: diagnostic_signals missing (type=tool)
+  [WARN] yt-tool-hiring-scorecard.md: diagnostic_signals missing (type=tool)
+  [WARN] yt-tool-meeting-designer.md: diagnostic_signals missing (type=tool)
+  [WARN] yt-tool-okr-cycle.md: diagnostic_signals missing (type=tool)
   [WARN] yt-tool-product-core-canvas.md: diagnostic_signals missing (type=tool)
   [WARN] yt-unit-model-dynamic.md: diagnostic_signals missing (type=tool)
   [WARN] yt-unit-model-selection.md: diagnostic_signals missing (type=tool)
