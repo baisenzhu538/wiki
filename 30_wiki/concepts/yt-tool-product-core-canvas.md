@@ -21,7 +21,9 @@ query_triggers:
   - "成本敏感"
   - "螺旋拆解"
   - "独立交付"
-related: {'series': False}
+related:
+  - "yt-five-step-implementation"
+  - "yt-model-five-step-canvas"
 review_date: 2026-06-06
 reviewed_by: ""
 source_refs:

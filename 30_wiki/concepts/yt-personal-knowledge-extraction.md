@@ -20,7 +20,8 @@ query_triggers:
   - "全网调研"
   - "PRD自查清单"
   - "知识体系搭建"
-related: {'level': 'advanced'}
+related:
+  - "yt-personal-deep-review"
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修炼-知识萃取探索营口述版.txt"

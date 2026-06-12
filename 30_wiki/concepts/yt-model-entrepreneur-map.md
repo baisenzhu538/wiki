@@ -23,6 +23,7 @@ related:
   - "yt-entrepreneur-five-step-method"
   - "yt-entrepreneur-key-hypotheses"
   - "yt-model-progress-map"
+  - "yt-model-cognitive-upgrade-framework"
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"

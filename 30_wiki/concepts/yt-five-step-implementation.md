@@ -15,7 +15,8 @@ query_triggers:
   - "五步法实施步骤"
   - "故事版 取舍版 定量版 分工版"
   - "五步法迭代"
-related: {'series': False}
+related:
+  - "yt-tool-product-core-canvas"
 review_date: 2026-06-11
 reviewed_by: "老顷童"
 source_refs:

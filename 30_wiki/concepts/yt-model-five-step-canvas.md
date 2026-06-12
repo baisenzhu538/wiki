@@ -16,7 +16,8 @@ query_triggers:
   - "产品内核画布"
   - "产品内核画布（三栏结构）"
   - "从假设到壁垒的实操工具"
-related: {'level': 'intermediate'}
+related:
+  - "yt-tool-product-core-canvas"
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂五步法画布.png"

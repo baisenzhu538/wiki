@@ -21,6 +21,7 @@ query_triggers:
   - "创业段位"
 related:
   - "yt-entrepreneur-five-step-method"
+  - "yt-tool-foresight-canvas"
 review_date: 2026-06-10
 reviewed_by:
   - "黄药师"

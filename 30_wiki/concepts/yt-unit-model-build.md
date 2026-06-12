@@ -15,7 +15,8 @@ query_triggers:
   - "算账方法"
   - "成本清单"
   - "三点预测"
-related: {'series': False}
+related:
+  - "yt-unit-model-selection"
 review_date: 2026-06-11
 reviewed_by: "老顽童"
 source_refs:

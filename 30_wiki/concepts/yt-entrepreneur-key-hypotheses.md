@@ -23,6 +23,7 @@ query_triggers:
   - "五步法"
 related:
   - "yt-model-entrepreneur-map"
+  - "yt-panproduct-execution-hypothesis-decomposition"
 review_date: 2026-06-06
 reviewed_by: ""
 source_refs:

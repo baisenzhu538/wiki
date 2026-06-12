@@ -25,6 +25,7 @@ query_triggers:
 related:
   - "yt-panproduct-execution-10x-validation"
   - "yt-panproduct-execution-low-cost-mvp"
+  - "yt-entrepreneur-key-hypotheses"
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-假设拆解.png"

@@ -50,8 +50,8 @@ domain: []---
     30|
     31|  - yt-decision-y-model
     32|
-    33|related:
-    34|
+related:
+  - "yt-decision-width-method"
     35|  - yt-decision-canvas
     36|
     37|  - yt-decision-height-toolkit

@@ -26,7 +26,8 @@ query_triggers:
   - "预判工作台"
   - "加法减法模板"
   - "预判工具"
-related: {'series': False}
+related:
+  - "yt-foresight-business-spectrum"
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-addition-subtraction.md"

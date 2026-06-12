@@ -21,6 +21,7 @@ related:
   - "yt-unit-model-ladder"
   - "yt-unit-model-construction"
   - "yt-unit-model-benchmark"
+  - "yt-unit-model-build"
   - "yt-unit-model-dynamic"
   - "yt-entrepreneur-five-step-method"
   - "yt-decision-key-hypotheses"

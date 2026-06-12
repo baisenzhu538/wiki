@@ -20,6 +20,7 @@ related:
   - "yt-research-intelligence-map"
   - "yt-research-competitor-toolkit"
   - "yt-research-expert-interview"
+  - "yt-research-industry-canvas"
   - "yt-research-hypothesis-test"
   - "yt-research-industry-canvas"
   - "yt-research-user-jtbd"

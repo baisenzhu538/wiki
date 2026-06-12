@@ -23,6 +23,7 @@ related:
   - "yt-model-agent-architecture"
   - "yt-model-ipo-learning-strategy"
   - "yt-personal-ai-thinking-card"
+  - "yt-model-entrepreneur-map"
   - "yt-personal-knowledge-extraction"
   - "yt-personal-deep-review"
 review_date: 2026-05-15

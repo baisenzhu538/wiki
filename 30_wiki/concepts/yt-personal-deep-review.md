@@ -24,6 +24,7 @@ related:
   - "yt-entrepreneur-scientific-method"
   - "yt-personal-deliberate-practice"
   - "yt-personal-ipo-learning"
+  - "yt-personal-knowledge-extraction"
   - "yt-personal-knowledge-management"
   - "yt-personal-time-management"
   - "yt-system-course-map-lecture"
