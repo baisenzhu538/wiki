@@ -40,6 +40,25 @@
 - **待审查**：两份文档均待欧阳锋审查后确定黄药师实施排期
 - **活跃角色**：王语嫣（诊断完成，等待下一轮指令）
 
+## 2026-06-12（续）：王语嫣深度质量审计 — 7 维全扫
+
+- **✅ 深度质量审计完成** → `60_feedback/diagnosis/kdo-deep-quality-audit-20260612.md`
+- **7 个维度全部扫描**：diagnostic_signals / attacker / constraints / type-dir 匹配 / 陈旧度 / source_refs / 断链
+  
+  | 发现 | 优先级 |
+  |:-----|:------:|
+  | diagnostic_signals 覆盖率 **0.6%**（1258 张中仅 7 张） | 🚨 P0 |
+  | attacker 字段 **全空**（0/1258） | 🚨 P0 |
+  | constraints 字段 **全空**（0/57 bridge 卡） | 🚨 P0 |
+  | type-dir 错配：171 张 yt- 卡在 concepts/ 但内在 type 是 tool/framework | 🟡 P1 |
+  | 审查阻塞：49% 卡片卡在 draft | 🟡 P1 |
+  | ~15 条断链 | 🟡 P1 |
+  | 33 张 yt- 缺 source_refs | 🟡 P1 |
+
+- **核心判断**：KDO vault "广度够了，深度没到"——agent-native 关键字段大面积缺失，诊断可召回链路断裂
+- **产出文件**：`60_feedback/diagnosis/kdo-deep-quality-audit-20260612.md`
+- **待审查**：两份诊断文档均待欧阳锋审查
+
 - **✅ OCR Batch 2+3 完成**：31 张科学决策域纯文本卡已补完 Critique + Synthesis，欧阳锋终验全部通过（平均 A-，攻击者多样性 A+，21 位学者）
 - **⏳ OCR Batch 4**：50 张视觉卡等待洪七公 VA 前置交付
 - **⏳ OCR Batch 5**：41 张低价值/OCR失败卡待评估

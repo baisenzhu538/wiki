@@ -1,10 +1,11 @@
 ---
-updated: 2026-06-11
+updated: 2026-06-12
 active_branch: main
-active_task: "洪七公已完成两批：①Pyramid Principle桥接卡（Taleb+Eric Ries，15.8KB）；②旧卡补互链P0 3对（yt-foresight↔five-step↔entrepreneur-map↔key-hypotheses）。待欧阳锋统一审查。"
+active_task: "黄药师 Task I 全部完成：domain格式统一(899 valid)、dk/case目录迁移(113+35)、sk-backup清理(12)、Graph RAG重建(1140 entities)。"
 blockers:
-  - "欧阳锋抽检Design域P0 5对桥接结果"
-next_session_hint: "用户说'继续'→ 若抽检通过，启动P1 4对桥接（dk-yb1/yb5/yb20/yb18）。否则按欧阳锋意见修复。"
+  - "Kimi K2.7 Anthropic协议tool call全挂，Hermes agent暂切DeepSeek。等Kimi修复后切回。"
+  - "欧阳锋待审查Task I + 洪七公桥接 + 老顽童Design域P0桥接"
+next_session_hint: "用户说'继续'→ ① 确认Kimi K2.7 Anthropic协议是否恢复，恢复后Hermes切回kimi-for-coding；② Task J：kdo validate domain-tags一致性检查"
 ---
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
