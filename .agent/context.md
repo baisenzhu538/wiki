@@ -1,12 +1,27 @@
 ---
 updated: 2026-06-12
 active_branch: main
-active_task: "黄药师 Task J+K 全部完成：kdo scaffold --new 生产化(dogfood-tested 6类型, yaml+v15通过)、diagnostic_signals批量补TODO(47张)。"
+active_task: "黄药师 Task I+J+K+L 全部完成。Task M(自迭代检测器 Phase 1) 已入队列。"
 blockers:
-  - "Hermes agent已切DeepSeek (deepseek-v4-pro, OpenAI协议, api.deepseek.com)。Kimi K2.7 Anthropic tool call待修复。"
-  - "欧阳锋待审查Task I+J+K + 洪七公桥接 + 老顽童Design域P0桥接"
-next_session_hint: "用户说'继续'→ ① 确认Kimi K2.7 Anthropic协议是否恢复；② 等欧阳锋分配新任务"
+  - "Hermes agent已切DeepSeek (deepseek-v4-pro, OpenAI协议)。Kimi K2.7 Anthropic tool call待修复。"
+  - "欧阳锋待审查批量任务"
+next_session_hint: "用户说'继续'→ Task M: 三个检测器(A新卡健康+D索引更新+E domain审计)，写入 kdo-vault-self-learning-loop cron job"
 ---
+
+## 2026-06-12 变更
+
+### Hermes 全貌（最终态）
+| Agent | WSL Service | Feishu Channel | Model |
+|:--|:--|:--|:--|
+| 洪七公 | hermes-gateway-beikai | oc_71fc... | deepseek-v4-pro |
+| 段王爷 | hermes-gateway-duanwangye | oc_f3a9... | deepseek-v4-pro |
+| 王语嫣 | hermes-gateway-wangyuyan 🆕 | oc_b8bf... | deepseek-v4-pro |
+| 老顽童 | CLI `hermes` | 无 | deepseek-v4-pro |
+
+### 关键教训
+- P-27: Provider迁移先查 models_dev_cache 确认 SDK 协议
+- P-28: API大规模异常先查公告再调参
+- 黄药师铁律: 先诊断后动手，用户说别改就冻结
 
 > ⚠️ **角色中立文件** — 只放共享状态。不写 "你是谁" 类身份描述。
 > 各角色的身份定义、SOP、启动指令在 `.agent/<role>-context.md`。
