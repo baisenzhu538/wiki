@@ -187,3 +187,47 @@
 - ✅ 备份：坚果云 sandbox（`C:\Users\Administrator\Nutstore\1\我的坚果云\`）
 - ✅ Graph RAG 依赖：纯本地 sklearn，零外部 API
 - ✅ 权限：`.claude/settings.json` vault 全路径免批
+
+---
+
+## 八、Hermes Provider 迁移 SOP（P-5/P-6 教训）
+
+> 切 API（如 Kimi→DeepSeek）必须同步更新三层，漏一层就全挂。
+
+### 迁移检查表
+
+| # | 层 | 路径 | 操作 |
+|:--|:--|:--|:--|
+| 1 | .env | `~/.hermes/.env` + `~/.hermes/profiles/*/.env` | 换 `API_KEY` 环境变量 |
+| 2 | auth.json ⚠️ | `~/.hermes/profiles/*/auth.json` | **删掉或清空 credential_pool 中旧 provider 条目**（P-3 教训：Hermes 优先读缓存，认为旧 key 已死就跳过） |
+| 3 | config.yaml | `~/.hermes/config.yaml` + profiles | 改 `model.default`、`provider`、`base_url` |
+| 4 | 清 session | `~/.hermes/profiles/*/sessions/` | 删旧 session（P-6 教训：残留旧 session ID 导致静默空响应） |
+| 5 | 重启 | `systemctl --user restart hermes-gateway-*` | |
+| 6 | 验证 | `journalctl --user -u hermes-gateway-* --no-pager -n 20 \| grep -i "401\|auth\|error"` | 确认无认证错误 |
+
+### DeepSeek（Anthropic 协议）
+
+```
+model: deepseek-v4-pro
+provider: deepseek
+base_url: https://api.deepseek.com/anthropic
+env: DEEPSEEK_API_KEY=sk-...
+```
+
+### Kimi（Anthropic 协议，注意 Base URL）
+
+```
+model: kimi-for-coding
+provider: kimi-coding
+base_url: https://api.kimi.com/coding/v1       ← 这是 Anthropic endpoint
+# Anthropic Base URL 实际是 https://api.kimi.com/coding/，但在 Hermes 中写 /v1 才能正确拼接 /messages
+env: KIMI_API_KEY=sk-kimi-...
+```
+
+> ⚠️ 2026-06-12：K2.7 发布首日 Anthropic 协议 tool call 全挂（`finish_reason='length'`）。症状：纯对话正常，一调用工具就 `Model generated invalid tool call`。官方 Kimi CLI（Node.js 新版）正常。临时方案：切 DeepSeek。等 Kimi 修复后切回 `kimi-for-coding`。
+
+### 禁止事项
+
+- 不要只改 .env 不改 auth.json
+- 不要混用 Kimi 和 DeepSeek 的 key（一个 profile 一个 provider）
+- 不要同时跑两个同 channel 的 gateway（飞书消息会被抢）
