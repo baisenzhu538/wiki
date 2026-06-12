@@ -1,11 +1,11 @@
 ---
-updated: 2026-06-12
+updated: 2026-06-13
 active_branch: main
-active_task: "黄药师 Task I+J+K+L 全部完成。Task M(自迭代检测器 Phase 1) 已入队列。"
+active_task: "黄药师 I/J/K/L/M/N 全部完成。KDO CL I +~700行(v15扩展+scaffold --new+健康检测器A/D/E+链接密度+hub降权)。Vault 重构(domain统一+目录迁移+ds补位+王语嫣WSL化)。"
 blockers:
-  - "Hermes agent已切DeepSeek (deepseek-v4-pro, OpenAI协议)。Kimi K2.7 Anthropic tool call待修复。"
-  - "欧阳锋待审查批量任务"
-next_session_hint: "用户说'继续'→ Task M: 三个检测器(A新卡健康+D索引更新+E domain审计)，写入 kdo-vault-self-learning-loop cron job"
+  - "Kimi K2.7 Anthropic tool call待修复"
+  - "欧阳锋待审查 I/J/K/L/M/N 批量任务"
+next_session_hint: "用户说'继续'→ 等欧阳锋审查结果或新任务分配"
 ---
 
 ## 2026-06-12 变更
