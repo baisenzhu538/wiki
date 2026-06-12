@@ -640,3 +640,77 @@ diagnostic_signals:
 ```
 
 **工作量**：30 分钟脚本 + 10 分钟验证。
+
+---
+
+## ✅ Task J 已完成
+
+commit `7360c56`（KDO CLI）。
+
+## ✅ Task K 已完成
+
+commit `a5d818c4`，47 张卡已补 DS TODO。
+
+## ✅ Task L 已完成
+
+`~/.hermes/profiles/wangyuyan/` 已建 + gateway active。
+
+---
+
+## 🔴 Task M（新）：自迭代检测器 Phase 1 — A + D + E
+
+**来源**：王语嫣自迭代提案 `proposal-self-learning-cron.md`。
+**目标**：实现三个自动化检测器，每天凌晨自动跑，产出健康报告。
+
+### 背景
+
+当前全库质量全靠欧阳锋人工审查。王语嫣设计了四个检测器（A/B/C/D/E），Phase 1 实现三个 P0 检测器。
+
+### 检测器 A：新卡入库健康度检查
+
+**触发**：每天凌晨 02:00（cron job）
+**扫描**：`30_wiki/` 下 24h 内新增/修改的 `.md` 文件
+
+**检测规则：**
+
+| 检查项 | 失败条件 |
+|:-------|:---------|
+| frontmatter 完整性 | id / title / type / domain 任一为空 |
+| domain 格式 | domain 不是 YAML list 格式 |
+| source_refs 完整性 | source_refs 为空或指向不存在的文件 |
+| related 填充 | framework/tool/case 卡 related 为空的 |
+| diagnostic_signals 覆盖率 | 新卡但未填 DS（仅 WARN，不 FAIL）|
+
+**产出**：`60_feedback/auto/health-check-YYYY-MM-DD.md`
+
+### 检测器 D：索引自动更新
+
+**触发**：检测器 A 完成后自动触发
+**动作**：如果有新卡/修改卡，重新运行索引更新
+**产出**：更新 `concept-card-index-latest.md`
+
+### 检测器 E：Domain 标签一致性审计
+
+**触发**：检测器 A 完成后自动触发
+**检测规则：**
+
+| 检查项 | 失败条件 |
+|:-------|:---------|
+| domain 格式统一 | 非 YAML list 格式的 report |
+| 目录与类型一致 | concepts/ 中出现 type: tool / case / dk |
+| domain 空置率 | 全库 domain 空置 > 20% 时告警 |
+
+### 技术方案
+
+写入现有 cron job（王语嫣已创建了一个简化版 `kdo-vault-self-learning-loop`）。在现有 job 的 prompt/脚本中追加检测器 A + D + E 的逻辑，新增一个"报告格式化"步骤。
+
+### 完成标准
+
+1. 每天早上 02:00 自动产出 `60_feedback/auto/health-check-YYYY-MM-DD.md`
+2. 报告包含：新增卡列表、每张卡的检查结果（通过/失败项）
+3. domain 一致性报告包含：格式异常卡列表
+4. 不需要人工触发
+
+### 优先级
+
+Phase 1（A+D+E）= P0。Phase 2（B + C）= P1/P2，暂缓。
