@@ -1,5 +1,6 @@
 ---
 
+
 tags:
 - '#scene/business-analysis/customer-acquisition'
 - '#scene/learning-methodology/feedback-loop'
@@ -9,7 +10,12 @@ related:
 - yt-unit-model-benchmark
 - yt-unit-model-ladder
 
-domain: []---
+domain: []
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
+---
 ## Reusable Knowledge
 
 ### 规模经济的本质

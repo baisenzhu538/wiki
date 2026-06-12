@@ -1,4 +1,5 @@
 ---
+
 id: "yt-tool-okr-cycle"
 title: "OKR 制定与复盘罗盘"
 type: "tool"
@@ -48,6 +49,10 @@ created_at: "2026-05-19"
 updated_at: "2026-05-19"
 estimated_tokens: 3300
 reviewed_by: "周伯通"
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # OKR 制定与复盘罗盘

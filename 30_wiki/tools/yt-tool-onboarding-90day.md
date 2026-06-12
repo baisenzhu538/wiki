@@ -1,4 +1,5 @@
 ---
+
 id: "yt-tool-onboarding-90day"
 title: "新人 90 天融入加速器"
 type: "tool"
@@ -47,6 +48,10 @@ created_at: "2026-05-20"
 updated_at: "2026-05-20"
 estimated_tokens: 3200
 reviewed_by: ""
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 新人 90 天融入加速器

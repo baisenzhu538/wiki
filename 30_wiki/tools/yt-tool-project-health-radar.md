@@ -1,4 +1,5 @@
 ---
+
 id: "yt-tool-project-health-radar"
 title: "项目健康度雷达"
 type: "tool"
@@ -52,6 +53,10 @@ created_at: "2026-05-20"
 updated_at: "2026-05-20"
 estimated_tokens: 3500
 reviewed_by: ""
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 项目健康度雷达

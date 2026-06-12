@@ -1,4 +1,5 @@
 ---
+
 id: "concept-ai-native-organization-five-steps"
 type: "concept"
 component_of: ""
@@ -38,6 +39,10 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # AI原生组织五步搭建法：从罗马军团到自进化有机体

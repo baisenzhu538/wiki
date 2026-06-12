@@ -1,4 +1,5 @@
 ---
+
 id: "concept-一堂-kernel-validation"
 title: "产品内核验证：三维度评估 + 六策略验证"
 type: "concept"
@@ -27,6 +28,10 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 产品内核验证：三维度评估 + 六策略验证

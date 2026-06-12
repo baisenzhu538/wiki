@@ -1,12 +1,18 @@
 ---
 
+
 tags:
 - '#scene/business-analysis/customer-acquisition'
 related:
 - yt-unit-model-overview
 - yt-unit-model-construction
 
-domain: []---
+domain: []
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
+---
 ## Reusable Knowledge
 
 ### 核心心法：复制哪个算哪个，哪个最需盯紧哪个

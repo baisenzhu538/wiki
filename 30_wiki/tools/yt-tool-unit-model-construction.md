@@ -1,5 +1,6 @@
 ---
 
+
 tags:
 - '#scene/business-analysis/conversion-rate'
 - '#scene/business-analysis/customer-acquisition'
@@ -8,7 +9,12 @@ related:
 - yt-unit-model-overview
 - yt-unit-model-ladder
 
-domain: []---
+domain: []
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
+---
 ## Reusable Knowledge
 
 ### 四字诀：拆推评算

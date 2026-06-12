@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-ai-ppt-maker
 title: AI对话式PPT生成器：把排版变成说话
 domain:
@@ -25,6 +26,10 @@ tags:
 related:
 - yt-pitch-storytelling
 - yt-pitch-quantification
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
 ---
 # AI对话式PPT生成器：把排版变成说话
 

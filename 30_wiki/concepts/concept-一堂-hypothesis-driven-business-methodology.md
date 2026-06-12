@@ -1,4 +1,5 @@
 ---
+
 id: "concept-一堂-hypothesis-driven-business-methodology"
 title: "一堂假设驱动型创业分析方法论"
 type: "concept"
@@ -42,6 +43,10 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 一堂假设驱动型创业分析方法论

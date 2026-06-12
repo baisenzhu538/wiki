@@ -1,5 +1,6 @@
 ---
 
+
 id: sk-ai-voice-input-doubao
 title: 技能：口喷式语音输入法
 type: skill
@@ -30,7 +31,12 @@ prerequisite_skills: []
 related:
 - sk-ai-ai-workspace-setup
 - course-to-skill-conversion
-domain: [ai-collaboration]---
+domain: [ai-collaboration]
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
+---
 
 # 技能：口喷式语音输入法
 

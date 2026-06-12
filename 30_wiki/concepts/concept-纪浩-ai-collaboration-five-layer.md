@@ -1,4 +1,5 @@
 ---
+
 id: "concept-纪浩-ai-collaboration-five-layer"
 title: "概念：纪浩AI协作五层工作空间法"
 type: "concept"
@@ -33,6 +34,10 @@ tags:
 pipeline:
   - confidence-published
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 概念：纪浩AI协作五层工作空间法

@@ -1,5 +1,6 @@
 ---
 
+
 tags:
 - '#scene/ai-collaboration/prompt-engineering'
 - '#scene/learning-methodology/feedback-loop'
@@ -7,7 +8,12 @@ related:
 - yt-unit-model-overview
 - yt-unit-model-ladder
 
-domain: []---
+domain: []
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
+---
 ## Reusable Knowledge
 
 ### TCP-R 双导师模型

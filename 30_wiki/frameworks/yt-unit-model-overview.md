@@ -1,10 +1,16 @@
 ---
 
+
 title: 单元模型概览：十大单元模型与三角色分工
 date: '2026-05-24'
 type: framework
 status: enriched
-domain: [decision-science]---
+domain: [decision-science]
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
+---
 ## Reusable Knowledge
 
 ### 核心定义

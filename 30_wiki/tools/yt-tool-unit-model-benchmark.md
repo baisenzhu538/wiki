@@ -1,5 +1,6 @@
 ---
 
+
 tags:
 - '#scene/business-analysis/conversion-rate'
 - '#scene/learning-methodology/feedback-loop'
@@ -7,7 +8,12 @@ related:
 - yt-unit-model-construction
 - yt-unit-model-dynamic
 
-domain: []---
+domain: []
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
+---
 ## Reusable Knowledge
 
 ### 科学类比法

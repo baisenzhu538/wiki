@@ -1,4 +1,5 @@
 ---
+
 id: "skill-note-one-line-one-point"
 title: "一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作"
 type: "tool"
@@ -26,6 +27,10 @@ tags:
   - "#scene/note-taking/checklist-method"
   - "#scene/product-design/design-freeze"
   - "#scene/skill-engineering"
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作

@@ -1,4 +1,5 @@
 ---
+
 id: "yt-note-five-levels-training"
 title: "清单体笔记五阶进阶训练法：从理论到现场的完整通关路径"
 type: "tool"
@@ -47,6 +48,10 @@ tags:
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 estimated_tokens: 4200
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 清单体笔记五阶进阶训练法：从理论到现场的完整通关路径

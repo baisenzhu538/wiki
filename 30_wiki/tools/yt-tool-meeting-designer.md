@@ -1,4 +1,5 @@
 ---
+
 id: "yt-tool-meeting-designer"
 title: "会议设计师：一页纸会议蓝图"
 type: "tool"
@@ -46,6 +47,10 @@ created_at: "2026-05-19"
 updated_at: "2026-05-19"
 estimated_tokens: 3200
 reviewed_by: "周伯通"
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 会议设计师：一页纸会议蓝图

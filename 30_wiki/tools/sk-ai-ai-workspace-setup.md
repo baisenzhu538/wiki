@@ -1,5 +1,6 @@
 ---
 
+
 id: sk-ai-ai-workspace-setup
 title: 技能：结构化AI工作空间搭建
 type: skill
@@ -28,7 +29,12 @@ prerequisite_skills: []
 related:
 - structured-ai-workspace
 - sk-ai-problem-validation
-domain: [ai-collaboration]---
+domain: [ai-collaboration]
+diagnostic_signals:
+  - signal: "TODO: User scenario that triggers this diagnostic"
+    framework_lens: "TODO: What perspective the framework provides"
+    follow_up_question: "TODO: The first follow-up question"
+---
 
 # 技能：结构化AI工作空间搭建
 
