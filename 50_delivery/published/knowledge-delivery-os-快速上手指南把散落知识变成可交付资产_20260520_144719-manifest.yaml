@@ -3,22 +3,70 @@ video_id: "knowledge-delivery-os-快速上手指南把散落知识变成可交�
 title: "Knowledge Delivery OS 快速上手指南：把散落知识变成可交付资产"
 format: "mp4"
 channel: "local"
-shipped_at: "2026-05-21 05:02"
+shipped_at: "2026-05-21T05:02:00+08:00"
+updated_at: "2026-06-12T20:00:00+08:00"
 source_article: "40_outputs/content/articles/art_20260504_02b8c4d6-kdo-quickstart-guide.md"
+status: "shipped"
 ---
 
-# Delivery Manifest: knowledge-delivery-os-快速上手指南把散落知识变成可交付资产_20260520_144719
+# Delivery Manifest: KDO 快速上手指南视频
 
-## Note
+## 审批链（Approval Chain）
 
-This is a video asset delivery record (JSON format).
+| 阶段 | 完成时间 | 审批人 | 审批状态 | kdo验证 |
+|------|---------|--------|:--------:|:-------:|
+| 7a 分镜修订 (Gate 1) | 2026-05-20 | 欧阳锋 | ✅ 已审批 | storyboard PASS |
+| 7b Seg1 画面 | 2026-05-20 | 欧阳锋 | ✅ 已审批 | frames PASS |
+| 7c Seg2 画面 (Gate 2) | 2026-05-20 | 欧阳锋 | ✅ 已审批 | frames PASS |
+| 7d Seg3 画面 (Gate 2) | 2026-05-20 | 欧阳锋 | ✅ 已审批 | frames PASS |
+| 7e Seg4 画面 | 2026-05-20 | 欧阳锋 | ✅ 已审批 | frames PASS |
+| 7f Seg5 画面 | 2026-05-20 | 欧阳锋 | ✅ 已审批 | frames PASS |
+| 7g 音画对位 (Gate 4) | 2026-05-20 | 欧阳锋 | 🟡 有条件通过 B+ | compose PASS |
 
-## Validation Snapshot
+> **Gate 4 欧阳锋审查结论（2026-05-20）：** 有条件通过 B+。不阻塞ship。
+> 3项待修：①提取timing.md ②补逐段时长表 ③Seg5 TTS异常标注。
+> 等timing.md修正后放行ship。
 
-N/A (video asset)
+## 门禁状态（Validation Gates）
 
-## Feedback Collection
+| # | 门禁项 | 结果 |
+|:-:|--------|:---:|
+| 1 | draft.mp4 存在且可播放 | ✅ 11810 KB, H.264/AAC, 1920×1080 |
+| 2 | 视频时长 8-10 分钟 | ✅ 500.1s (8.3min) |
+| 3 | `kdo video validate` PASS | ✅ 全部阶段通过 |
+| 4 | 音画同步修正标注 | ✅ 4处已标注（均匀帧时长/Seg5异常/帧-句对位/缺动态时长分配） |
+| 5 | 40帧全部通过QA审查 | ✅ 100%通过 |
+| 6 | 分辨率/编码/色彩规范 | ✅ 1920×1080 H.264/AAC 琥珀/黑 Bauhaus |
+
+## 贡献者（Contributors）
+
+| 角色 | 职责 | 贡献 |
+|------|------|------|
+| 洪七公（北丐） | 视频制作 | 帧渲染 x40、TTS音频、ffmpeg合成、QA报告 |
+| 欧阳锋（西毒） | 审批/QA | Gate 1~4 审批、QA审查、有条件通过结论 |
+| 黄药师（东邪） | 工具支持 | KDO CLI video管线开发、TTS异常修复 |
+| 段王爷（南帝） | 交付执行 | 交付记录补全、ship执行 |
+
+## 产物信息
+
+- **规格参数:** 1920×1080, H.264, AAC, ~500s
+- **文件路径:** `40_outputs/content/videos/knowledge-delivery-os-快速上手指南把散落知识变成可交付资产/final/final.mp4`
+- **备份路径（临时）:** `tmp_video/final.mp4` (4.3MB, 低质量旧版)
+- **配套文件:**
+  - `01-script.md` — 口播脚本 (2219字)
+  - `02-storyboard.md` — 分镜v2 (40帧)
+  - `03-qa-report.md` — QA全流程报告
+  - `07-production-flow-summary.md` — 全流程工序总结
+  - `timing.md` — 逐段时长表
+
+## 反馈收集
 
 - method: 60_feedback/comments/
+- deadline: 未设定（试点ship）
 - status: pending
 - collected: []
+
+## 备注
+
+试点ship。7g Gate 4 欧阳锋审查为"有条件通过 B+"，3项待修不阻塞ship。
+后续建议：①剪辑软件精调帧-句对位 ②补充烹饪比喻等视觉资产

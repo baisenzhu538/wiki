@@ -1,8 +1,49 @@
 {
+  "delivery_id": "del_20260520_kdo_quickstart_video",
   "video_id": "knowledge-delivery-os-快速上手指南把散落知识变成可交付资产_20260520_144719",
   "title": "Knowledge Delivery OS 快速上手指南：把散落知识变成可交付资产",
+  "type": "video",
   "format": "mp4",
   "channel": "local",
-  "shipped_at": "2026-05-21 05:02",
-  "source_article": "40_outputs/content/articles/art_20260504_02b8c4d6-kdo-quickstart-guide.md"
+  "shipped_at": "2026-05-21T05:02:00+08:00",
+  "updated_at": "2026-06-12T20:00:00+08:00",
+  "status": "shipped",
+  "gate_status": "conditional_pass_b_plus",
+  "gate_reviewer": "欧阳锋",
+  "gate_note": "有条件通过 B+，不阻塞ship。3项待修：①提取timing.md ②补逐段时长表 ③Seg5 TTS异常标注",
+  "file_size_kb": 11810,
+  "duration_seconds": 500.1,
+  "resolution": "1920×1080",
+  "video_codec": "H.264",
+  "audio_codec": "AAC",
+  "frames": 40,
+  "contributors": {
+    "洪七公": "视频制作：帧渲染×40、TTS音频、ffmpeg合成、QA报告",
+    "欧阳锋": "审批/QA：Gate 1~4 审批、QA审查、有条件通过结论",
+    "黄药师": "工具支持：KDO CLI video管线开发、TTS异常修复",
+    "段王爷": "交付执行：交付记录补全、ship执行"
+  },
+  "approval_chain": [
+    {"stage": "7a 分镜修订 (Gate 1)", "approver": "欧阳锋", "result": "approved", "date": "2026-05-20"},
+    {"stage": "7b Seg1 画面", "approver": "欧阳锋", "result": "approved", "date": "2026-05-20"},
+    {"stage": "7c Seg2 画面 (Gate 2)", "approver": "欧阳锋", "result": "approved", "date": "2026-05-20"},
+    {"stage": "7d Seg3 画面 (Gate 2)", "approver": "欧阳锋", "result": "approved", "date": "2026-05-20"},
+    {"stage": "7e Seg4 画面", "approver": "欧阳锋", "result": "approved", "date": "2026-05-20"},
+    {"stage": "7f Seg5 画面", "approver": "欧阳锋", "result": "approved", "date": "2026-05-20"},
+    {"stage": "7g 音画对位 (Gate 4)", "approver": "欧阳锋", "result": "conditional_pass_b_plus", "date": "2026-05-20"}
+  ],
+  "validation_gates": [
+    {"check": "draft.mp4存在且可播放", "result": "pass", "detail": "11810 KB, H.264/AAC, 1920×1080"},
+    {"check": "视频时长8-10分钟", "result": "pass", "detail": "500.1s (8.3min)"},
+    {"check": "kdo video validate", "result": "pass", "detail": "全部阶段通过"},
+    {"check": "音画同步修正标注", "result": "pass", "detail": "4处已标注"},
+    {"check": "40帧QA审查", "result": "pass", "detail": "100%通过"},
+    {"check": "分辨率/编码/色彩规范", "result": "pass", "detail": "琥珀/黑 Bauhaus 1920×1080 H.264/AAC"}
+  ],
+  "feedback_collection": {
+    "method": "60_feedback/comments/",
+    "deadline": null,
+    "status": "pending",
+    "collected": []
+  }
 }

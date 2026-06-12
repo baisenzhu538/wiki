@@ -1,11 +1,11 @@
 ---
-id: "proposal-self-learning-cron-20250611"
-title: "KDO Vault Self-Learning Iteration Mechanism - Design Proposal"
+id: "proposal-self-learning-cron-20260612"
+title: "KDO Vault Self-Learning Iteration Mechanism - Design Proposal (v2)"
 type: "proposal"
 created_at: "2026-06-11"
-updated_at: "2026-06-11"
+updated_at: "2026-06-12"
 domain: ["master", "diagnosis", "infrastructure"]
-description: "Design doc for automated vault self-learning iteration. Wangyuyan designs; Huangyaoshi implements."
+description: "Design doc for automated vault self-learning iteration. Updated with 2026-06-12 concept map findings."
 status: "pending_review"
 ---
 
@@ -15,20 +15,24 @@ status: "pending_review"
 > 审查人：欧阳锋（待）
 > 实施人：黄药师（待派发）
 > 约束：本文档只做设计，不写代码。审查通过后由黄药师编码实施。
+> **版本**：v2（基于 2026-06-12 全库扫描更新）
 
 ---
 
 ## 一、背景与问题
 
-概念卡地图（`kdo-concept-map-20260611.md`）诊断后，发现以下结构性问题无法靠"人工突击"解决：
+概念卡地图（`kdo-concept-map-20260612.md`）全量扫描后的关键数据：
 
-| 问题 | 频率 | 当前处理方式 | 缺陷 |
-|:-----|:-----|:----------|:-----|
-| 新卡入库后成为孤岛 | 每次生产 | 欧阳锋审查时随机发现 | 漏检率高 |
-| inbox 素材长期堆积 | 持续 | 老朱偶发提醒 | 无预警 |
-| diagnostic_signals 覆盖率低 | 累积 | Sprint 批量补 | 无动态追踪 |
-| 索引与实际卡片状态脱节 | 每次变更 | 王语嫣手动重提 | 耗时、易忘 |
-| 域标签不一致（`ai` vs `ai-collaboration`） | 累积 | 无 | 搜索漏匹配 |
+| 指标 | 数值 | 解读 |
+|:-----|:----|:-----|
+| 全库卡片数 | 1258 | 其中 90% 集中在 concepts/ 目录 |
+| concepts/ 中误放卡片 | dk-* 99 张, case-* 27 张, sk-* 12 张 | 目录混杂导致索引失效 |
+| domain 标签空置率 | ~97%（743 张空 + 196 张空变体） | 绝大多数卡片无法按域检索 |
+| domain 格式变体 | 至少 5 种 | `空`/`""`/`[]`/`yitang`/`["yitang"]` |
+| 真正的概念卡 | 仅 14 张（concept-* 前缀） | 占全库 ~1.1% |
+| 桥接 framework | 仅 7 张 | 仅 bridge 了 2 个外部域 |
+| 设计域 | 40 张操作卡，零 domain 标签 | 完全孤岛 |
+| inbox 素材 | 438 文件埋没 | 其中科学决策 76 文件 + ideas 112 文件 |
 
 这些问题的共同特征：**发生频率高、检测成本低、人工处理效率低**。适合自动化。
 

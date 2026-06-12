@@ -1,20 +1,85 @@
 # 老顽童后续任务
 
-> **更新：2026-06-11** — 欧阳锋审查 CLI 批次 + 王语嫣首批产出完成。纠正记录见 `60_feedback/corrections/corr_20260611_laowantong-机会预判域-OCR遗漏+旧卡未清理.md`。**回归后先读该文件。**
+> **更新：2026-06-12** — 全量任务已下达。从上到下逐个做，做完一个再开下一个。
 
 ---
 
-## 🎯 当前执行顺序（从上到下，做完再开下一个）
+## 🎯 当前执行顺序
 
 | 顺序 | 任务 | 状态 | 参考 |
-|:----:|------|:----:|:----:|
-|| **0** | **CLI 批量卡审核精选** | **✅ 已完成** | **见下方汇总** |
-|| **1** | **桥接卡试点：MECE + Issue Tree** | **✅ 已完成，待欧阳锋审查** | **见下方汇总** |
-|| **2** | **增加卡间互链密度** | **✅ 已完成** | **新卡已达标（Synthesis ≥5），纪浩体系22张卡已补链** |
-|| **3** | **纪浩体系完整萃取** | **✅ 已完成** | **37张纪浩卡全部回链methodology总纲** |
-|| **4** | **课转技能卡补"判断标准"** | **✅ 已完成** | **MECE框架法+寻找学习教练法已补，清单小抄原已有** |
-|| **5** | **Design域孤岛桥接** | **✅ 已完成** | **P0 5对+P1 4对共 9 对桥接已执行。欧阳锋审核通过。纠正记录见 60_feedback/corrections/corr_20260611_laowantong-design-domain-island-bridges.md** |
-|| **6** | **王语嫣勘误：补充 design domain 漏标** | **✅ 已完成** | **4 张课程卡已补 design domain；3 张待定卡已判断并修正。源材料：60_feedback/corrections/correction_20250611_design-domain-missing.md；纠正记录：60_feedback/corrections/corr_20260612_laowantong-design-domain-missing-batch1.md** |
+|:----:|:-----|:----:|:-----|
+| **1** | **🔴 Pyramid Principle 桥接卡** | **🔜** | 仅剩的最后一张经典桥接卡 |
+| **2** | **🔴 旧卡补互链 — P0 批次** | **🔜** | 提升图谱密度，优先修深黑节点 |
+| **3** | **旧卡补互链 — P1 批次** | ⏳ | 上批完成后 |
+| **4** | **王语嫣下一轮 Bridge 执行** | ⏳ | 等王语嫣 master 域巡查产出后再动 |
+| — | 旧任务均已关闭 | ✅ | 0-6 全部完成 |
+
+---
+
+## 🔴 任务 1：Pyramid Principle 桥接卡
+
+### 格式
+
+这是 8 张经典桥接卡中最后一张未产的。格式跟 MECE、7-S 完全一样。
+
+**存放路径：** `30_wiki/frameworks/concept-minto-pyramid-principle.md`
+
+**三个条件（缺一不可，欧阳锋审查时强制执行）：**
+1. Bridge 节已写 ↔ 与一堂体系的桥接关系
+2. `bridges_to` frontmatter 已填（至少 1 条）
+3. Synthesis 链接 ≥5 个（含至少 2 个同域横向链接）
+
+### 攻击者选择
+
+建议：参考 7-S 的 Mintzberg + Pfeffer、Trusted Advisor 的 Kahneman + Christensen。
+不要跟已有桥接卡重复相同的攻击者组合。
+
+可选组合：Taleb（金字塔结构在不确定性下的脆弱性）+ Eric Ries（精益创业反对过度计划）
+
+### 源材料
+
+`60_feedback/diagnosis/diag_20250611_consulting-skills-research.md` 中 Pyramid Principle 的 Gap 说明。
+
+---
+
+## 🔴 任务 2：旧卡补互链 — P0 批次
+
+### 为什么
+
+图谱放射状的根本原因之一是卡间互链稀疏。新卡已达标（Synthesis ≥5），但旧卡大多只有 1-2 个链接指向入口卡。
+
+### 目标
+
+在已有卡中，优先修被大量引用的**深黑节点**的 `related` 字段——让它们之间也有链接。
+
+### P0 批次：深黑节点互连（约 15 张）
+
+这些卡是图谱中的深黑色节点（被大量引用），但彼此之间几乎没有 `related` 链接：
+
+```
+1. yt-foresight-business-spectrum      ↔ yt-entrepreneur-five-step-method
+2. yt-entrepreneur-five-step-method     ↔ yt-model-entrepreneur-map
+3. yt-model-entrepreneur-map            ↔ yt-entrepreneur-key-hypotheses
+4. yt-entrepreneur-key-hypotheses       ↔ yt-entrepreneur-unit-model
+5. yt-entrepreneur-unit-model           ↔ yt-model-five-step-canvas
+6. yt-five-step-method                  ↔ yt-entrepreneur-five-step-method
+7. yt-model-progress-map                ↔ yt-model-entrepreneur-map
+```
+
+**操作方法：**
+每对卡互相在 `related` 中加上对方。例如 `yt-foresight-business-spectrum` 的 `related` 加 `"yt-entrepreneur-five-step-method"`，反之亦然。
+
+**完成标志：** 以上 7 对共 14 张卡全部补完双向 `related`。
+
+### P1 批次：核心工具卡互连（约 20 张）
+
+P0 完成后通知欧阳锋，再给 P1 列表。
+
+---
+
+## 任务 3：王语嫣下一轮 Bridge 执行
+
+等王语嫣 master 域巡查结束后，按她的报告执行桥接。不急。
 
 ---
 
