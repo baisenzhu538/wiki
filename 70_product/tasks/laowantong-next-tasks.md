@@ -8,9 +8,11 @@
 
 | 顺序 | 任务 | 状态 | 参考 |
 |:----:|:-----|:----:|:-----|
-| **1** | **🔴 P1 旧卡补互链 — 核心工具卡 20 张** | **✅ 已完成** | 10对20张全部修复旧dict格式+补双向链 |
-| **2** | **🔴 旧卡补互链 — P2 批次** | **🔜** | 补 master 域反向引用 + 完成 P1 剩余卡 |
-| — | Pyramid Principle（已由洪七公完成） | ✅ | 不重复做 |
+| 顺序 | 任务 | 状态 | 参考 |
+|:----:|:-----|:----:|:-----|
+| **🔴** | **核心工具卡精修 — tools/ 下 18 张** | **🔜 今晚/明早** | Constraints + 常见失败模式 + DS 具体内容。参考 5 Whys 的精修标准 |
+| — | 桥接卡精修 7 张 | ✅ 已完成 | 已通过审查 |
+| — | P0-P2 旧卡补互链 | ✅ 全部完成 | 已通过审查 |
 | — | P0 互链前 5 对 | ✅ | 已确认双向链接 |
 
 ---
@@ -166,3 +168,61 @@ yt-model-progress-map 的 related: {'level': 'foundational'}  ← 非法格式
 ### 优先级
 
 P2 互链 > 本任务。先做完 P2，再回来精修卡。
+
+---
+
+## 🔴 今晚任务：核心工具卡精修 — tools/ 下 18 张
+
+**标准**：每张卡精修到 L2（Constraints 表 + 常见失败模式 + diagnostic_signals 具体内容）。
+参考 5 Whys 的精修质量——3 层架构（适用边界 → 使用限制 → 常见误用场景）。
+
+### P0（先做，6 张诊断高频卡）
+
+| 卡 | 精修重点 |
+|:---|:--------|
+| `yt-decision-width-method` | 加"宽度陷阱"——越宽越不行动 |
+| `yt-decision-depth-ladder` | 加"深度幻觉"——挖太深忘了行动 |
+| `yt-entrepreneur-key-hypotheses` | 加假设验证中最常见的 3 个坑 |
+| `yt-tool-product-core-canvas` | 加"画布填完但没用"的失败模式 |
+| `yt-five-step-implementation` | 加落地中最常见的 3 个断裂点 |
+| `yt-research-osl-framework` | 加"调研做了但没用"的失败模式 |
+
+### P1（后做，12 张次高频卡）
+
+| 卡 | 精修重点 |
+|:---|:--------|
+| `yt-decision-ai-partner` | 加 AI 替代判断的失效场景 |
+| `yt-decision-canvas` | 加"填了画布但决策没变" |
+| `yt-entrepreneur-unit-model` | 加"算对了但没用" |
+| `yt-tool-foresight-canvas` | 加"预判了但没行动" |
+| `yt-barrier-identification-skill` | 加假壁垒判断的失败模式 |
+| `yt-unit-model-build` | 加"搭建了但算不准" |
+| `yt-unit-model-selection` | 加"选错了单元" |
+| `yt-research-industry-canvas` | 加"画布太泛" |
+| `yt-research-expert-interview` | 加"访谈了但没收获" |
+| `yt-tool-meeting-designer` | 加"设计了但没人执行" |
+| `yt-tool-okr-cycle` | 加"OKR 写了但没用" |
+| `yt-tool-hiring-scorecard` | 加"打分卡填了但招错人" |
+
+### Constraints 模板
+
+```markdown
+### 适用边界
+| 场景 | 说明 |
+|:-----|:------|
+| ✅ 适合 | 什么时候效果最好 |
+| ❌ 不适合 | 什么时候会失效 |
+
+### 常见失败模式
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+```
+每条失败模式必须是**实战中会真实发生的**。
+
+### DS
+
+把之前 Task K 填的 TODO 全部替换为具体内容。至少 2 条。
+
+### 节奏
+
+做完 P0 的 6 张就先通知我，我边审你做 P1。不等全部做完。
