@@ -33,7 +33,6 @@ status: "enriched"
 title: "智能体架构：PEAS与五层Agent模型"
 trust_level: "medium"
 type: "framework"
-updated_at: 2026-05-15
 version: 1
 tags:
   - #ai
@@ -50,6 +49,14 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "学了PEAS框架，但设计AI应用时还是用简单prompt"
+    framework_lens: "理论与设计脱节——框架需要转化为具体架构选择"
+    follow_up_question: "你的任务环境是哪种类型？完全可观察还是部分可观察？确定性还是随机性？这些特征决定了该用哪层agent"
+  - signal: "Agent设计过度复杂，一个小任务用了五层架构"
+    framework_lens: "过度工程化——智能体层级应与任务复杂度匹配"
+    follow_up_question: "这个任务真的需要学习和规划吗？如果只是简单响应，用反射型agent就够了"
+updated_at: '2026-06-13'
 ---
 
 # 智能体架构：PEAS与五层Agent模型
@@ -139,6 +146,27 @@ Gary Klein（认知心理学家，Macrocognition学派创始人，著有《Sourc
 
 对PEAS/Agent架构的冲击：如果专家的最佳决策路径不是"定义P → 计算效用 → 选最大期望值"，而是"识别模式 → 心理模拟 → 执行首个可行解"，那么五层架构隐含的"层级越高越好"的价值判断需要被质疑。RPD不是reflex agent的退化，而是一种AIMA框架未能充分建模的认知架构——它利用压缩的经验模式实现了在极端约束下的高速自适应决策。
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 任务环境可定义 | 知道输入、输出、目标、动作空间 |
+| ✅ 需要一定程度的自主决策 | 如果只是单次问答，不需要agent |
+| ✅ 有反馈机制 | agent需要知道动作结果才能学习 |
+| ❌ 一次性创意任务 | 不需要agent架构 |
+| ❌ 环境完全不可预测且无反馈 | 学习型agent也无法学习 |
+| ❌ 团队无工程能力 | 复杂agent需要实现和迭代能力 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"过度设计"** | 小任务用五层架构 | 从最简单的反射型开始，复杂度逐步升级 |
+| **"忽视环境定义"** | 没明确任务环境就设计agent | 先用PEAS四要素定义任务环境 |
+| **"没有反馈闭环"** | agent行动后不知道好坏 | 设计奖励/评估函数，让agent能学习 |
+| **"混淆agent类型"** | 所有任务都用同一种agent | 根据环境特征选择反射/基于模型/基于目标/基于效用/学习型 |
 ## Synthesis
 
 ### 关联卡片

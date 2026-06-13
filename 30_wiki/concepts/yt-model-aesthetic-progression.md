@@ -27,7 +27,6 @@ source_refs:
 status: "enriched"
 title: "审美提升的层级：从看不见到大胆想象的进化路径"
 type: "framework"
-updated_at: 2026-05-11
 version: 1
 yitang: {'course_type': 'framework', 'map': 'personal', 'module': '个人修炼'}
 tags:
@@ -44,6 +43,14 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户看了审美层级图，但还是说不出什么是好设计"
+    framework_lens: "案例输入不足——审美提升需要大量高质量案例浸泡"
+    follow_up_question: "过去一个月你认真看过多少个优秀设计案例？如果<30个，你的审美数据库太薄"
+  - signal: "用户直接跳到"解放思想"层，但连优秀案例都没看过几个"
+    framework_lens: "跨层学习——审美提升有阶段顺序，跳过基础层会空中楼阁"
+    follow_up_question: "你能说出你所在领域里3个被广泛认可的最佳实践吗？如果不能，先回到L1-L2"
+updated_at: '2026-06-13'
 ---
 
 # 审美提升的层级：从看不见到大胆想象的进化路径
@@ -115,6 +122,27 @@ pipeline:
 - [[yt-model-pan-product-three-virtues]]
 - [[yt-model-product-excellence]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意大量看案例 | 审美是浸泡出来的 |
+| ✅ 能接受渐进提升 | 从看不见到大胆想象需要长期积累 |
+| ✅ 有具体审美对象 | 产品设计/视觉/内容等具体领域 |
+| ❌ 追求速成 | 审美没有速成法 |
+| ❌ 没有审美对象 | 泛泛而谈无法提升 |
+| ❌ 纯主观抵抗 | 认为审美无法学习和讨论 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"跳级学习"** | 没看案例就谈解放思想 | 按层级推进：先积累案例→再理性衡量→再提炼模型 |
+| **"只看不做"** | 收藏很多案例但自己不创作 | 每看10个案例至少做1个模仿/改造练习 |
+| **"审美鄙视链"** | 只看小众先锋，忽视经典最佳实践 | 先理解为什么经典是经典，再谈突破 |
+| **"把审美当玄学"** | 说"感觉对了"但说不出为什么 | 强迫自己用3句话说清楚一个设计为什么好 |
 ## Synthesis
 
 ### 不要用的场景

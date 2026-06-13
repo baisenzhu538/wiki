@@ -28,7 +28,6 @@ source_refs:
 status: "enriched"
 title: "转化率优化：动力三曲线 × 十大浪费触点"
 type: "framework"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'management', 'module': '管理必修', 'course_type': 'framework'}
 tags:
@@ -45,6 +44,14 @@ tags:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-test
+diagnostic_signals:
+  - signal: "团队优化了十个触点，但转化率没有提升"
+    framework_lens: "优化点过多——同时改多个变量无法判断哪个有效"
+    follow_up_question: "这十个触点中，哪个对用户决策影响最大？如果不知道，先做单变量实验"
+  - signal: "用户只优化动力，不优化阻力（浪费触点）"
+    framework_lens: "动力-阻力失衡——转化率=动力/阻力，只加动力不减阻力效果有限"
+    follow_up_question: "用户旅程中哪些环节在消耗信任或增加成本？这些阻力点有没有被优化？"
+updated_at: '2026-06-13'
 ---
 
 # 转化率优化：动力三曲线 × 十大浪费触点
@@ -136,6 +143,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-product-core-metrics]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有转化数据可追踪 | 能看漏斗和转化率 |
+| ✅ 有实验条件 | 能做A/B测试或小流量验证 |
+| ✅ 能区分动力和阻力 | 理解用户为什么买和为什么不买 |
+| ❌ 没有流量 | 无法验证优化效果 |
+| ❌ 没有明确转化目标 | 优化什么 unclear |
+| ❌ 无法做A/B测试 | 只能凭感觉判断 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"同时优化太多点"** | 十个触点一起改，不知道哪个有效 | 一次只改1-2个变量，控制实验 |
+| **"忽视用户旅程"** | 只优化 landing page 不优化后续流程 | 画出完整用户旅程，找出最大流失点 |
+| **"只加动力不减阻力"** | 一味强调好处，不降低行动成本 | 同时检查动力曲线和十大浪费触点 |
+| **"一次性项目"** | 优化一次就停止 | 转化率优化是持续迭代，建立实验节奏 |
 ## Synthesis
 
 ### 不要用的场景

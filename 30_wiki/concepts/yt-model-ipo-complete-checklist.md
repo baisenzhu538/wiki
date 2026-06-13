@@ -26,7 +26,6 @@ source_refs:
 status: "enriched"
 title: "IPO 科学学习完整清单"
 type: "framework"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '科学学习', 'course_type': 'reference'}
 tags:
@@ -43,6 +42,14 @@ tags:
 pipeline:
   - #boundary/not-for-creative
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户对着清单选课，但学完后能力没提升"
+    framework_lens: "清单当导航但没执行——选课不等于学习"
+    follow_up_question: "你选课后完成了多少作业/练习/输出？如果<50%，清单只是选课工具"
+  - signal: "用户只选输入类课程，不选输出和反馈类课程"
+    framework_lens: "偏科学习——IPO闭环需要各环节均衡"
+    follow_up_question: "你的选课清单中，输出类和反馈类课程占比多少？如果<30%，IPO失衡"
+updated_at: '2026-06-13'
 ---
 
 # IPO 科学学习完整清单 (Complete List)
@@ -121,6 +128,27 @@ IPO 完整清单将科学学习 6 要素映射到一堂全部课程、服务和�
 ### 关联框架卡
 - [[yt-model-ipo-learning-strategy]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意系统学习 | 不是碎片化尝试 |
+| ✅ 能按清单规划 | 有执行力 |
+| ✅ 有明确能力目标 | 知道要提升什么 |
+| ❌ 碎片化学习者 | 无法按计划执行 |
+| ❌ 只收藏不行动 | 清单变成 wishlist |
+| ❌ 没有学习目标 | 盲目选课 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"清单当收藏"** | 选了课但不学 | 每选课必须配学习时间和输出承诺 |
+| **"偏科学习"** | 只上输入课不上输出课 | 按IPO六要素比例选课 |
+| **"只上课不实践"** | 学完不应用到工作 | 每门课必须设计一个工作场景实验 |
+| **"不复盘"** | 学完不评估效果 | 每季度对照清单评估能力提升情况 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

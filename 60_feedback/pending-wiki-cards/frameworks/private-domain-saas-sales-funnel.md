@@ -20,7 +20,7 @@ tags:
   - "#private-domain-ecommerce"
   - "#saas-sales"
   - "#distribution"
-trust_level: medium
+trust_level: high
 confidence: 0.82
 
 ---

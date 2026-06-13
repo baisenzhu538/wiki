@@ -58,6 +58,14 @@ pipeline:
 - null
 - confidence-draft
 - confidence-source-cited
+diagnostic_signals:
+  - signal: "团队对不同单元模型争论不休，各说各话"
+    framework_lens: "单元口径不统一——不同单元看到不同的商业真相"
+    follow_up_question: "你们争论的是"哪个单元更本质"还是"哪个单元更容易算"？前者是业务问题，后者是偷懒"
+  - signal: "选了一个单元模型，但算出来的结论和业务感觉完全相反"
+    framework_lens: "单元选择错配——单元不能代表业务核心经济逻辑"
+    follow_up_question: "这个单元是否能独立运营？是否能反映你最关心的那个商业问题？"
+updated_at: '2026-06-13'
 ---
 
 # 单元模型选择法：复制哪个算哪个，找到核心经济单元

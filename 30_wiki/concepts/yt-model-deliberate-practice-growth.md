@@ -23,7 +23,6 @@ source_refs:
 status: "enriched"
 title: "刻意练习十年成长指数：为什么有人一年顶十年"
 type: "framework"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'framework'}
 tags:
@@ -40,6 +39,14 @@ pipeline:
   - #boundary/not-for-beginners
   - #boundary/not-for-creative
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户每天都在练习，但十年没有明显进步"
+    framework_lens: "低端重复——练习不在能力边界，只是熟练度重复"
+    follow_up_question: "你最近三个月的练习内容，有多少是"已经会了的"？如果>70%，你在低端重复"
+  - signal: "用户只学新套路，从不在非舒适区练习"
+    framework_lens: "套路囤积——固定套路需要配合非舒适区才能转化为成长"
+    follow_up_question: "你最近一次练习时感到"有点难但还能完成"是什么时候？如果超过两周，说明没进非舒适区"
+updated_at: '2026-06-13'
 ---
 
 # 刻意练习十年成长指数：为什么有人一年顶十年
@@ -139,6 +146,27 @@ pipeline:
 - [[yt-model-deep-review-iceberg]]
 - [[yt-model-pan-product-climbing-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有固定套路可练 | 有SOP/模型/方法 |
+| ✅ 能获得反馈 | 有人或系统告诉对错 |
+| ✅ 愿意进入非舒适区 | 成长发生在能力边界外 |
+| ❌ 没有明确技能目标 | 不知道练什么 |
+| ❌ 没有反馈源 | 练了也不知道对错 |
+| ❌ 只追求舒适 | 不愿意面对失败 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"低端重复"** | 十年做同样难度的事 | 每次练习增加5%-10%难度 |
+| **"没有反馈"** | 练完无人点评 | 找到导师、同伴或客观标准 |
+| **"从不挑战舒适区"** | 只做有把握的事 | 每周至少一次"有点难"的练习 |
+| **"套路太多不深入"** | 学了很多方法都不精通 | 同一时期只练1-2个套路到自动化 |
 ## Synthesis
 
 ### 不要用的场景

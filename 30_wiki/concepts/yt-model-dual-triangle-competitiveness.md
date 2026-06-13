@@ -29,7 +29,6 @@ source_refs:
 status: "enriched"
 title: "双三角竞争力模型"
 type: "framework"
-updated_at: 2026-05-19
 version: 1
 yitang: {'map': 'personal', 'module': 'AI 思维模型', 'course_type': 'model', 'level': 'foundational'}
 tags:
@@ -47,6 +46,14 @@ tags:
 pipeline:
   - #boundary/not-for-creative
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户AI工具用得很溜，但业务结果一般"
+    framework_lens: "AI三角强但人类三角弱——工具能力强不等于业务判断力强"
+    follow_up_question: "你能分辨AI输出中哪些是高质量分析、哪些是漂亮废话吗？如果不能，人类三角中的审美和判断力需要补"
+  - signal: "用户业务能力强，但AI不会用"
+    framework_lens: "人类三角强但AI三角弱——工具效率没有放大业务能力"
+    follow_up_question: "你处理一个常规业务任务，AI能帮你省多少时间？如果<20%，AI基本功需要补"
+updated_at: '2026-06-13'
 ---
 
 # 双三角竞争力模型 (Yitang Dual Triangle Model)
@@ -171,6 +178,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-muse-ai-framework]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 同时提升人类三角和AI三角 | 两者相乘才有竞争力 |
+| ✅ 有真实业务场景 | 能验证AI应用效果 |
+| ✅ 愿意持续迭代 | AI能力变化快 |
+| ❌ 只练一个三角 | 瘸腿竞争力 |
+| ❌ 没有业务场景 | 无法形成乘积效应 |
+| ❌ 期待AI替代思考 | 人类判断力是底线 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"只练AI基本功"** | 提示词很溜但审美和体系弱 | 把30%精力放回人类三角：审美、体系、判断力 |
+| **"忽视场景适配"** | 什么任务都用同一套AI工具 | 根据任务特征选择AI使用方式 |
+| **"把AI当万能工具"** | 让AI做超出能力范围的事 | 了解AI能力边界，人类负责最终判断 |
+| **"人类三角薄弱"** | 不会识别AI错误输出 | 训练批判性思维和事实核查能力 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

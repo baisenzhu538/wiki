@@ -24,7 +24,6 @@ source_refs:
 status: "enriched"
 title: "解放思想五层模型"
 type: "framework"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '底层方法论', 'course_type': 'model'}
 tags:
@@ -40,6 +39,14 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "创业者总说"我要颠覆行业"，但连L1最佳实践都没学过"
+    framework_lens: "L0盲目创新——没有经验积累的创新是空想"
+    follow_up_question: "你能说出你行业里3个最成功的案例及其关键成功因素吗？如果不能，创新缺乏基础"
+  - signal: "用户沉迷于学学科经典，但解决不了具体业务问题"
+    framework_lens: "过度抽象——L5经典需要经过L3-L4才能落地"
+    follow_up_question: "你最近用学科经典解决了一个什么具体问题？如果没有，经典只是知识装饰"
+updated_at: '2026-06-13'
 ---
 
 # 解放思想五层模型
@@ -88,6 +95,27 @@ pipeline:
 
 ### 关联框架卡
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有具体业务问题 | 抽象层级服务于问题解决 |
+| ✅ 愿意从L1开始积累 | 不鄙视经验和最佳实践 |
+| ✅ 能理解抽象层级 | 知道不同层级的价值 |
+| ❌ 空谈创新 | 没有任何经验基础 |
+| ❌ 鄙视经验 | 认为L1-L2太低级 |
+| ❌ 没有落地场景 | 学了经典无处用 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"L0盲目创新"** | 没有经验就谈颠覆 | 先学习L1最佳实践，再谈差异化 |
+| **"只学经验不建模型"** | 看了很多案例但无提炼 | 每学一个案例，抽象出1条可迁移原则 |
+| **"过度抽象不落地"** | 学了模型但用不到业务 | 强制要求每个抽象模型对应一个业务场景 |
+| **"鄙视低层级"** | 看不起对标和经验 | 承认L1-L2是大多数人的工作基础 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

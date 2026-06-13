@@ -64,6 +64,14 @@ pipeline:
   - #tool
   - confidence-draft
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用了打分卡，但面试官之间打分差距巨大"
+    framework_lens: "评分标准未对齐——打分卡需要校准会议统一标准"
+    follow_up_question: "面试前有没有做校准会议？大家对每个维度的"3分"定义是否一致？"
+  - signal: "候选人面试分数很高，但入职后表现一般"
+    framework_lens: "面试场景与真实工作场景脱节——打分卡测的是面试表现，不是工作表现"
+    follow_up_question: "打分卡里的维度能不能对应到该岗位3个月后的真实产出？"
+updated_at: '2026-06-13'
 ---
 
 # 结构化面试打分卡

@@ -5,7 +5,6 @@ status: "reviewed"
 source_refs: ""
 id: "yt-case-mandatory-cases - src_20260506_9b4788a6 - src_20260507_857c7ed4"
 created_at: "2026-05-05"
-updated_at: "2026-05-06"
 domain:
   - "yitang"
 yitang: {'map': 'entrepreneur', 'module': '案例学习', 'course_id': 'yt-case-001', 'course_type': 'method', 'level': 'foundational'}
@@ -20,6 +19,14 @@ tags:
   - #scene/skill-engineering
 pipeline:
   - #boundary/not-for-creative
+diagnostic_signals:
+  - signal: "用户看了很多案例，但做决策时还是凭直觉"
+    framework_lens: "案例没有转化为决策标准——学习没有迁移"
+    follow_up_question: "你最近一次做决策时，明确用到了哪个案例的什么教训？如果没有，案例只是故事"
+  - signal: "用户只喜欢看成功案例，不愿研究失败案例"
+    framework_lens: "学习偏科——失败案例的避坑价值更高"
+    follow_up_question: "你最近研究的10个案例中，失败案例占几个？如果<5个，你的样本有偏"
+updated_at: '2026-06-13'
 ---
 
 # 一堂案例必修课
@@ -75,6 +82,27 @@ Capability: playbook
 
 ### 内部局限
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有真实决策场景 | 案例能指导工作 |
+| ✅ 愿意研究失败 | 避坑是核心价值 |
+| ✅ 能提炼 transferable lessons | 从案例到原则 |
+| ❌ 没有决策场景 | 学了用不上 |
+| ❌ 只追求励志故事 | 喜欢成功案例 |
+| ❌ 不能抽象 | 停留在故事层面 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"只看成功不看失败"** | 失败案例占比低 | 强制3+1模式：3个失败+1个成功 |
+| **"收藏案例不应用"** | 看完就忘 | 每个案例写一条可迁移原则 |
+| **"把案例当故事"** | 只记住情节 | 用商业决策分层模型重构案例 |
+| **"过度归因到个人"** | 成功是因为CEO厉害 | 分析系统因素和可复制的条件 |
 ## Synthesis
 
 - [[一堂调研武器库13招]] — 调研与案例学习互补：调研获取一手情报，案例学习从二手经验提炼模式

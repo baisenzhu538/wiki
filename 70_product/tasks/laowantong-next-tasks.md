@@ -6,7 +6,7 @@
 
 ## 🎯 全量精修任务
 
-**总卡数：238 张 yt-* 卡（已精修 18 张，剩余 ~220 张）。**
+**总卡数：238 张 yt-* 卡（已精修 50 张，剩余 ~188 张）。**
 
 ### 严禁行为
 
@@ -75,6 +75,57 @@
 | 10 | `yt-decision-canvas` | tool | 新增 frontmatter DS 2 条 + 正文 DS 精简 | 🟡 待抽检 |
 
 **更新：2026-06-13** — 第二批 5 张已完成第一圈精修。
+
+### 第三批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----:|:-----|:----:|:---------|:----:|
+| 11 | `yt-decision-depth-ladder` | framework | 重建损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 12 | `yt-model-entrepreneur-map` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 13 | `yt-model-management-map` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 14 | `yt-model-cognitive-upgrade-framework` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 15 | `yt-model-personal-map` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 16 | `yt-model-progress-map` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 17 | `yt-tool-meeting-designer` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 18 | `yt-tool-hiring-scorecard` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 19 | `yt-tool-foresight-canvas` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 20 | `yt-unit-model-selection` | skill | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第三批 10 张已完成第一圈精修。
+
+### 第四批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----:|:-----|:----:|:---------|:----:|
+| 21 | `yt-model-agent-architecture` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 22 | `yt-model-aesthetic-progression` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 23 | `yt-model-conversion-optimization` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 24 | `yt-model-deep-review-iceberg` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 25 | `yt-model-deliberate-practice-growth` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 26 | `yt-model-dual-triangle-competitiveness` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 27 | `yt-model-ipo-learning-strategy` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 28 | `yt-model-ipo-complete-checklist` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 29 | `yt-model-liberate-thinking-layers` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 30 | `yt-model-muse-ai-framework` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第四批 10 张已完成第一圈精修。累计完成 38 张，剩余 ~200 张。
+
+### 第五批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----:|:-----|:----:|:---------|:----:|
+| 31 | `yt-ai-startup-20-risky-hypotheses` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 7 条 + 失败模式 4 条） | ✅ 已完成 |
+| 32 | `yt-ai-trend-12-signals` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 33 | `yt-barrier-analysis-cheat-sheet` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 34 | `yt-barrier-identification-skill` | skill | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 35 | `yt-business-analysis-cognitive-biases` | dk | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 36 | `yt-case-mandatory-cases` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 37 | `yt-composite-pan-product-methodology` | composite-concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 38 | `yt-concept-ai-guard-brain` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 39 | `yt-concept-context-engineering` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 40 | `yt-concept-p-type-l-type` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第五批 10 张已完成第一圈精修。累计完成 50 张，剩余 ~188 张。
 
 ---
 

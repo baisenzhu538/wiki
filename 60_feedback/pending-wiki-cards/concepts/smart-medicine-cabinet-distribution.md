@@ -18,7 +18,7 @@ tags:
   - "#pharmacy-distribution"
   - "#campus-retail"
   - "#cold-chain"
-trust_level: medium
+trust_level: high
 confidence: 0.80
 
 ---

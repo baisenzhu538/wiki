@@ -25,7 +25,6 @@ status: "reviewed"
 title: "暗知识：五步法中的主要认知偏差"
 trust_level: "medium"
 type: "dk"
-updated_at: "2026-06-11"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '落地实操', 'course_id': 'yt-business-analysis-cognitive-biases', 'course_type': 'dk', 'level': 'core'}
 tags:
@@ -35,6 +34,14 @@ tags:
   - #yitang
 pipeline:
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户用五步法做了完整分析，但结论和最初直觉一模一样"
+    framework_lens: "框架被偏差绑架——五步法不能自动克服认知偏差"
+    follow_up_question: "如果这个结论最终被证明是错的，你会看到哪些证据？这些证据你认真找过吗？"
+  - signal: "用户只收集支持自己假设的证据"
+    framework_lens: "证实性偏差——分析成了自我证明"
+    follow_up_question: "你最近一周主动找过几个反例？如果答案是0，你的分析很可能在自我强化"
+updated_at: '2026-06-13'
 ---
 
 # 暗知识：五步法中的主要认知偏差

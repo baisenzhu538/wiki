@@ -25,7 +25,6 @@ source_refs:
 status: "enriched"
 title: "MUSE 人工智能全景图"
 type: "framework"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': 'AI 思维模型', 'course_type': 'model'}
 tags:
@@ -39,6 +38,14 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户看了AI全景图后更焦虑，觉得自己什么都要学"
+    framework_lens: "全景图焦虑——四层都有价值，但当前阶段只需要聚焦一层"
+    follow_up_question: "你当前的工作主要在哪一层？如果还在使用层，不要同时学创业层和奇迹层"
+  - signal: "用户只关注奇迹层，不愿从使用层开始"
+    framework_lens: "跳级学习——MUSE四层需要循序渐进"
+    follow_up_question: "你日常工作中AI工具的使用效率如何？如果还没提升，奇迹层与你无关"
+updated_at: '2026-06-13'
 ---
 
 # MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
@@ -87,6 +94,27 @@ MUSE 是「AI 共存的未来世界」的四层认知框架：从底层技术变
 ### 关联框架卡
 - [[yt-model-dual-triangle-competitiveness]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意从使用层开始 | 先把AI用好 |
+| ✅ 有长期学习心态 | AI能力持续演进 |
+| ✅ 能选择当前阶段重点 | 不试图同时学好四层 |
+| ❌ 追求速成 | 想直接到奇迹层 |
+| ❌ 只看顶层概念 | 不落地使用 |
+| ❌ 没有实际AI使用场景 | 学了用不上 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"全景图焦虑"** | 觉得什么都要学 | 明确当前阶段只聚焦一层 |
+| **"跳级学习"** | 还没用好AI就想创业 | 使用层扎实后再进入创业层 |
+| **"只看不练"** | 知道很多概念但不操作 | 每周至少用AI完成一个真实工作任务 |
+| **"把奇迹层当当前目标"** | 日常工作没变化就想AGI | 把奇迹层当远景，当前聚焦使用层能力提升 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

@@ -27,7 +27,6 @@ query_triggers:
   - "模型敏感度"
   - "学习内化"
 created_at: "2026-05-13"
-updated_at: "2026-05-13"
 estimated_tokens: 3400
 tags:
   - #ai
@@ -44,6 +43,14 @@ pipeline:
   - #boundary/single-use-only
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "用户所有工作都交给AI，自己不再思考"
+    framework_lens: "大脑外包——AI是磨刀石不是拐杖"
+    follow_up_question: "你最近一次完全不用AI、独立解决一个复杂问题是什么时候？如果超过两周，你的大脑可能在退化"
+  - signal: "用户坚持手写笔记、不用AI，效率低下"
+    framework_lens: "另一极端——拒绝AI的能力放大"
+    follow_up_question: "你手写笔记的内容中，哪些其实可以让AI帮你整理、检索、关联？"
+updated_at: '2026-06-13'
 ---
 
 # 守脑如玉：AI 时代保持大脑锋利
@@ -128,6 +135,27 @@ Stiegler 的"无产阶级化"（proletarianization）概念：每一项技术工
 - [[yt-concept-weapon-arsenal]]（master域）— 武器库元概念：武器库追求即查即用（外存），守脑如玉追求肌肉记忆（内化）。真正的专家知道什么时候查武器库、什么时候靠肌肉
 - [[yt-model-personal-pitch-toolkit]]（personal域）— 讲香十指框架：讲香的最高境界不是查武器库，是用自己的话讲——与四遍学习法同构：输入→消化→用自己的话输出
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意主动思考 | 不只是执行AI输出 |
+| ✅ 能判断AI输出质量 | 有分辨好坏的能力 |
+| ✅ 有具体使用场景 | 知道什么时候用AI |
+| ❌ 完全不想思考 | 只想让AI替自己做 |
+| ❌ 对AI盲目崇拜 | 认为AI永远正确 |
+| ❌ 对AI有恐惧 | 拒绝合理使用 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"大脑外包"** | 所有思考都交给AI | 保留独立思考和判断的环节 |
+| **"拒绝AI"** | 坚持所有事手工做 | 识别适合AI的重复性任务 |
+| **"不会反馈"** | 接受AI第一次输出 | 训练给AI高质量反馈的能力 |
+| **"不再记忆"** | 认为有AI就不需要记 | 关键知识和体感要内化 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

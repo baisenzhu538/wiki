@@ -38,6 +38,14 @@ tags:
   - #tool/foresight
 pipeline:
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户做了加法列出20个选项，但减法阶段一个都舍不得删"
+    framework_lens: "加法容易减法难——充分做加法的目的是为专业减法提供素材"
+    follow_up_question: "如果只能选3个选项继续，你选哪3个？选择标准是什么？"
+  - signal: "预判画布填完，但用户还是选择了最初直觉想要的选项"
+    framework_lens: "预判工具被用来做合理化——画布分析只是为已有偏好找理由"
+    follow_up_question: "如果没有预判画布，你会不会选同一个选项？如果会，说明画布没有真正影响决策"
+updated_at: '2026-06-13'
 ---
 
 # 预判画布：从加法到减法的标准化工作台

@@ -31,7 +31,6 @@ status: "enriched"
 title: "P型与L型创业者"
 trust_level: "medium"
 type: "concept"
-updated_at: 2026-06-06
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '商业预判', 'course_id': 'yt-concept-p-type-l-type', 'course_type': 'concept', 'level': 'foundational'}
 tags:
@@ -47,6 +46,14 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "P型创业者一直在动手，但十年后项目失败"
+    framework_lens: "热情不能替代预判"
+    follow_up_question: "你在动手之前，有没有用2个月时间做过行业预判和关键假设验证？如果没有，你在用热情赌运气"
+  - signal: "L型创业者分析过度，永远不起步"
+    framework_lens: "分析瘫痪——逻辑驱动也需要行动"
+    follow_up_question: "你的分析是否已经覆盖了80%的关键不确定性？如果是，剩下的20%需要在行动中验证"
+updated_at: '2026-06-13'
 ---
 
 # P型与L型创业者

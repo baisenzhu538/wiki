@@ -23,7 +23,6 @@ source_refs:
 status: "enriched"
 title: "深度复盘冰山图：从主观感受到能力建设的五层穿透"
 type: "framework"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'framework'}
 tags:
@@ -38,6 +37,14 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "复盘会大家情绪很激动，但只停在"我觉得不好""
+    framework_lens: "复盘停在主观感受层——没有进入客观事实和原因分析"
+    follow_up_question: "我们能找到哪些数据或事实支撑"不好"？如果没有，今天不是复盘是吐槽"
+  - signal: "复盘挖到了底层模型，但没有转化成能力建设计划"
+    framework_lens: "复盘没有闭环——发现规律但不建设能力"
+    follow_up_question: "这个底层模型对应到哪个具体能力缺失？下个月谁会负责提升这个能力？"
+updated_at: '2026-06-13'
 ---
 
 # 深度复盘冰山图：从主观感受到能力建设的五层穿透
@@ -105,6 +112,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-liberate-thinking-layers]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意面对真实问题 | 不回避失败和错误 |
+| ✅ 有数据支撑 | 不只是主观感受 |
+| ✅ 有改进意愿 | 复盘是为了下次更好 |
+| ❌ 情绪低谷期 | 容易变成互相指责 |
+| ❌ 没有数据 | 只能空谈经验 |
+| ❌ 只为追责 | 复盘变成了批斗会 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"停在主观感受"** | 大家说"我觉得不好"但无事实 | 强制要求每个观点配一个数据或事实 |
+| **"挖太深不行动"** | 分析了很多原因但没有下一步 | 每层分析必须对应一个改进行动 |
+| **"把复盘当批斗"** | 追究个人责任而非系统原因 | 先处理情绪，强调"对事不对人" |
+| **"没有能力建设"** | 找到了模型但不培养能力 | 每个底层模型缺失对应到具体学习/招聘/流程 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

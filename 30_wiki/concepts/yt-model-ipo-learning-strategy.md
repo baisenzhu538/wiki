@@ -29,7 +29,6 @@ source_refs:
 status: "enriched"
 title: "IPO 科学学习全景策略"
 type: "framework"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '科学学习', 'course_type': 'model', 'level': 'foundational'}
 tags:
@@ -47,6 +46,14 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "用户输入很多课程，但输出很少"
+    framework_lens: "IPO失衡——输入处理输出比例失调，学习变成囤积"
+    follow_up_question: "你最近一个月输入了几小时内容？产出了几小时内容/行动？如果输入:输出>10:1，IPO失衡"
+  - signal: "用户有目标有输入，但没有反馈闭环"
+    framework_lens: "反馈缺失——没有反馈的学习无法迭代"
+    follow_up_question: "你的输出有没有人看、有人评、有人用？如果没有，你在 closed loop 里练习"
+updated_at: '2026-06-13'
 ---
 
 # IPO 科学学习全景策略 (Yitang Scientific Learning IPO V2.0)
@@ -106,6 +113,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-ipo-complete-checklist]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有明确学习目标 | 知道为什么要学 |
+| ✅ 能投入处理时间 | 不是只收藏不消化 |
+| ✅ 有输出渠道 | 能写/说/做/教 |
+| ❌ casual learning | 随便听听不需要IPO |
+| ❌ 只输入不输出 | 无法形成闭环 |
+| ❌ 没有反馈源 | 不知道自己学得如何 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"只输入不处理"** | 听了很多课但不做笔记/思考 | 每输入1小时至少处理15分钟 |
+| **"只处理不输出"** | 笔记很多但没人看到 | 每周至少输出1篇笔记/分享/实践报告 |
+| **"没有反馈"** | 输出后没有回应 | 找到反馈源：导师、同伴、市场数据 |
+| **"目标不清晰"** | 学什么由平台推荐决定 | 先写学习目标卡，再匹配输入 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |
