@@ -6,7 +6,7 @@
 
 ## 🎯 全量精修任务
 
-**总卡数：238 张 yt-* 卡（已精修 178 张含 DS，剩余 ~60 张）。**
+**总卡数：238 张 yt-* 卡（已精修 188 张含 DS，剩余 ~50 张）。**
 
 > 注：历史批次表格中部分卡片重复出现，导致序号累加高于实际；后续累计数以「frontmatter 中已写入 diagnostic_signals」的真实卡数为准。
 
@@ -366,6 +366,23 @@
 | 180 | `yt-personal-y-model-exploration-2` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
 
 **更新：2026-06-13** — 第十九批 10 张已完成第一圈精修。实际累计完成 178 张含 DS，剩余 ~60 张。
+
+### 第二十批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----|:----|:----|:----|:----|
+| 181 | `yt-personal-y-model-practice` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 182 | `yt-pitch-aphorism` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 183 | `yt-pitch-colloquialization` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 184 | `yt-pitch-conflict` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 185 | `yt-pitch-emotionalization` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 186 | `yt-pitch-materialization` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 187 | `yt-pitch-metaphor` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 188 | `yt-pitch-quantification` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 189 | `yt-pitch-scenarization` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 190 | `yt-pitch-storytelling` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第二十批 10 张已完成第一圈精修。实际累计完成 188 张含 DS，剩余 ~50 张。
 
 ---
 

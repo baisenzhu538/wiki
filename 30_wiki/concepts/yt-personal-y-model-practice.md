@@ -25,7 +25,6 @@ source_refs:
 status: "enriched"
 title: "Y模型实操：科学成事的底层操作系统"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'explore_camp'}
 tags:
@@ -40,11 +39,49 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "遇到具体问题时会用Y模型作为元框架，牵出已有知识并生成可验证方案"
+    framework_lens: "Y模型是底层操作系统"
+    follow_up_question: "你最近一次用Y模型解决的具体问题是什么？"
+  - signal: "能区分Y模型用于‘事前推演’和‘事后解释’，更重视事前推演"
+    framework_lens: "Y模型的价值在预测"
+    follow_up_question: "这个Y模型是在行动前画的，还是成功后补的？"
+  - signal: "能把Y模型应用到至少两个不同领域，并发现通用结构"
+    framework_lens: "Y模型跨域迁移"
+    follow_up_question: "这个Y模型在另一个领域中如何表达？"
+updated_at: '2026-06-13'
 ---
 
 # Y模型实操：科学成事的底层操作系统
 
 > 来源：一堂MBA专属Y模型实操探索营（Truman口述）。[[yt-model-y-organization]] | [[yt-entrepreneur-scientific-method]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 需要解决复杂、跨域问题，且有一定经验积累的人 |
+| **适合** | 希望把碎片认知整合成操作系统的高阶学习者 |
+| **不适合** | 问题简单、用具体工具即可解决的场景 |
+| **不适合** | 完全没有实践经验、无法‘牵’出任何认知的新手 |
+
+### 失败模式
+
+1. **用Y模型解释已经发生的事，自圆其说**
+   - **原因**：事后解释偏差
+   - **修复**：每次使用Y模型必须包含‘接下来会发生什么’的可验证预测
+
+2. **Y模型画得很漂亮，但没有落地行动**
+   - **原因**：过度抽象
+   - **修复**：从Y模型导出至少3个具体下一步行动
+
+3. **强行把不适合的问题塞进Y模型**
+   - **原因**：模型滥用
+   - **修复**：先判断问题是否适合用Y模型，不适合时换具体工具
+
+4. **Y模型只停留在个人顿悟，无法向他人解释**
+   - **原因**：缺乏外化
+   - **修复**：把Y模型表达成他人能理解的图或步骤
 
 ## Summary
 
