@@ -34,7 +34,6 @@ status: "enriched"
 superseded_by: ""
 title: "泛产品十年爬山地图：L1-L6成长路径"
 type: "framework"
-updated_at: 2026-05-11
 version: 1
 tags:
   - #scene/knowledge-management/tagging
@@ -46,8 +45,37 @@ pipeline:
   - #boundary/not-for-beginners
   - #boundary/not-for-creative
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户想直接跳到L6创新领先"
+    framework_lens: "跳级"
+    follow_up_question: "你现在处于L1-L6的哪个段位？如果不到L4，谈L6为时过早"
+  - signal: "用户一直在L2狭义设计，不扩展场景"
+    framework_lens: "卡在舒适区"
+    follow_up_question: "你过去一年在多少个新场景应用过产品设计思维？如果<3个，你在舒适区"
+updated_at: '2026-06-13'
 ---
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有长期提升意愿 | 愿意十年修炼 |
+| ✅ 愿意从所在段位开始 | 不跳级 |
+| ✅ 能识别当前段位 | 有自知之明 |
+| ❌ 追求速成 | 无法 climbing |
+| ❌ 不愿扩展场景 | 只守一亩三分地 |
+| ❌ 拒绝段位诊断 | 不知道自己不知道 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"跳级"** | 直接谈创新 | 按段位逐步提升 |
+| **"卡段位"** | 在一个段位待太久 | 识别升级条件并刻意练习 |
+| **"不刻意练习"** | 靠经验自然成长 | 设计练习计划 |
+| **"忽视场景迁移"** | 只在一个领域 | 把方法应用到新场景 |
 ## Claims
 
 ### 六段位全景

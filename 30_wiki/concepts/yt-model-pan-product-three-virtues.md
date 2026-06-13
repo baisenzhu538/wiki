@@ -33,7 +33,6 @@ status: "enriched"
 superseded_by: ""
 title: "泛产品三大自我修养：用户价值×最佳实践×无限进步"
 type: "framework"
-updated_at: 2026-05-11
 version: 1
 tags:
   - #scene/learning-methodology/deliberate-practice
@@ -43,8 +42,37 @@ pipeline:
   - #boundary/not-for-beginners
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户只强调用户价值但产品很粗糙"
+    framework_lens: "修养失衡（有方向无标准）"
+    follow_up_question: "你的产品在同类最佳实践中处于什么水平？如果没有对标，标准缺失"
+  - signal: "用户审美很好但没人用"
+    framework_lens: "修养失衡（有标准无方向）"
+    follow_up_question: "这个产品解决了什么真实用户需求？如果需求不清，审美是自恋"
+updated_at: '2026-06-13'
 ---
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意平衡三方面修养 | 不偏执 |
+| ✅ 有长期修炼心态 | 不速成 |
+| ✅ 能识别短板 | 有自知之明 |
+| ❌ 只想学技巧 | 不重视价值观 |
+| ❌ 忽视价值观 | 只追工具 |
+| ❌ 拒绝自我修炼 | 向外求 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"只修一个"** | 忽视其他两个 | 定期评估三方面 |
+| **"价值观口号化"** | 只说不做 | 把价值观转化为具体行为 |
+| **"不落地"** | 修养停留在口头 | 每个项目检查三方面 |
+| **"三角变形"** | 某一边太短 | 补齐最短边 |
 ## Claims
 
 ### 三大修养定义

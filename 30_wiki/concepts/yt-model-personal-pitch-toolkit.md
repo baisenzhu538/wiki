@@ -34,7 +34,6 @@ source_refs:
 status: "enriched"
 title: "十指讲香模型（框架）"
 type: "framework"
-updated_at: 2026-05-13
 version: 1
 tags:
   - #personal
@@ -48,12 +47,41 @@ pipeline:
   - #boundary/requires-human-judgment
   - #framework
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户讲了半天但听众无感"
+    framework_lens: "价值感没有建立"
+    follow_up_question: "你说的内容是价值点还是价值感？听众能立刻感受到好处吗？"
+  - signal: "用户只会具象不会抽象，或只会抽象不会具象"
+    framework_lens: "十指不均衡"
+    follow_up_question: "你的表达中具象细节和抽象升华各占多少？如果一边倒，十指没打开"
+updated_at: '2026-06-13'
 ---
 
 # 十指讲香模型（框架）
 
 > 将干瘪的价值点转化为饱满的价值感的微观战术框架——用双手十指向下具象、向上抽象，双向拉伸。
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有具体价值点 | 有东西可讲 |
+| ✅ 能具象描述 | 有细节 |
+| ✅ 能抽象升华 | 有高度 |
+| ❌ 没有价值点 | 无物可讲 |
+| ❌ 只会套模板 | 没有灵魂 |
+| ❌ 不愿练习表达 | 无法内化 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"价值干瘪"** | 只讲功能 | 用十指双向拉伸 |
+| **"十指不均衡"** | 只有细节或只有概念 | 刻意练习弱的手指 |
+| **"过度包装"** | 只有价值感没有价值 | 确保有真实价值 |
+| **"不练习"** | 只在脑中想 | 每周演练一次 |
 ## Claims
 
 ### 核心命题：价值 vs 价值感

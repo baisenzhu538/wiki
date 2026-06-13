@@ -33,7 +33,6 @@ status: "enriched"
 superseded_by: ""
 title: "泛产品设计·需求工具箱（13张卡牌）"
 type: "framework"
-updated_at: 2026-05-11
 version: 1
 tags:
   - #scene/business-analysis/conversion-rate
@@ -47,8 +46,37 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户学了13张需求卡牌但不会选"
+    framework_lens: "工具选择困难"
+    follow_up_question: "你的项目复杂度是小产品、复杂产品还是商业产品？不同复杂度对应不同卡牌"
+  - signal: "用户只关注高阶卡牌，不练初阶"
+    framework_lens: "基础不牢"
+    follow_up_question: "你做过多少个小产品的需求分析？如果<5个，先练初阶卡牌"
+updated_at: '2026-06-13'
 ---
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有产品设计基础 | 不是零基础 |
+| ✅ 能判断项目复杂度 | 会选卡 |
+| ✅ 愿意从初阶练起 | 先建立手感 |
+| ❌ 零基础 | 不会设计 |
+| ❌ 只做复杂项目 | 不练手感 |
+| ❌ 不愿动手 | 只收藏卡牌 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"不会选卡"** | 13张随便用 | 按项目复杂度选级 |
+| **"跳级"** | 初阶没练直接高阶 | 从下往上修能力 |
+| **"只分析不落地"** | 需求分析完不做 | 每个分析配一个实验 |
+| **"脱离用户场景"** | 为了用工具而用 | 回到用户任务 |
 ## Claims
 
 ### 定位与结构

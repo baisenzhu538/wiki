@@ -39,7 +39,6 @@ status: "enriched"
 superseded_by: ""
 title: "泛产品设计·审美工具箱（4张卡牌）"
 type: "framework"
-updated_at: 2026-05-11
 version: 1
 tags:
   - #scene/hardware-debugging/prototyping
@@ -51,8 +50,37 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "用户看了审美卡牌但还是做不出好设计"
+    framework_lens: "只看不练"
+    follow_up_question: "你最近一个月认真分析了多少个最佳实践案例？又模仿/改造了几个？"
+  - signal: "用户直接套用审美模型，不找最佳实践"
+    framework_lens: "缺少案例输入"
+    follow_up_question: "你这个设计领域的最佳实践案例在哪里？如果没有，模型只是空壳"
+updated_at: '2026-06-13'
 ---
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意大量看案例 | 审美需要浸泡 |
+| ✅ 能抽象审美原则 | 不只是看热闹 |
+| ✅ 有具体设计对象 | 能应用 |
+| ❌ 不看案例 | 无法提升审美 |
+| ❌ 只套模型 | 不结合实际 |
+| ❌ 没有设计场景 | 学了用不上 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"只看不练"** | 看了很多但不做 | 每看10个案例做1个 |
+| **"不找最佳实践"** | 凭空谈审美 | 建立最佳实践池 |
+| **"审美脱离功能"** | 好看不好用 | 审美服务于用户价值 |
+| **"不迭代"** | 一次定稿 | 持续打磨 |
 ## Claims
 
 ### 定位与核心洞见

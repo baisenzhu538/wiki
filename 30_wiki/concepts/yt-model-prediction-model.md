@@ -25,7 +25,6 @@ source_refs:
 status: "enriched"
 title: "预判模型：从最糙版到复杂版的三种预判范式"
 type: "framework"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'framework'}
 tags:
@@ -40,6 +39,14 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "用户用旧版预判模型做重要决策"
+    framework_lens: "已被替代"
+    follow_up_question: "你知道 [[yt-foresight-model-taxonomy]] 已经替代了本卡吗？重要决策应参考新版"
+  - signal: "用户只用最糙版处理复杂决策"
+    framework_lens: "工具不足"
+    follow_up_question: "这个决策失败的代价是什么？如果高，N要素不够"
+updated_at: '2026-06-13'
 ---
 
 # 预判模型：从最糙版到复杂版的三种预判范式
@@ -48,6 +55,26 @@ pipeline:
 >
 > ⚠️ **本卡已被 [[yt-foresight-model-taxonomy]]（预判模型分类）替代。** 两卡同源（同一张 `预判模型.png`），新卡结构更完整（含 Action Triggers、Critique、Synthesis）。本卡保留仅作历史参考。
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 作为历史参考 | 理解范式基础 |
+| ✅ 理解三种范式基础 | 有基础 |
+| ✅ 不用于当前重要决策 | 知道新版存在 |
+| ❌ 替代新版 | 用旧版做决策 |
+| ❌ 复杂决策只用N要素 | 工具不足 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"用旧版做决策"** | 不看新版 | 切换到 [[yt-foresight-model-taxonomy]] |
+| **"大决策用小工具"** | 复杂决策用N要素 | 根据风险选工具 |
+| **"不更新"** | 停留在旧版 | 关注新版更新 |
+| **"混淆新旧"** | 把旧版当完整版 | 明确替代关系 |
 ## Summary
 
 预判模型是一堂对"提前判断能力"的结构化拆解——将预判分为三种范式，从简单到复杂逐级递进：**N 要素（最糙版）**——用 2-3 个基本要素做快速判断；**雷达图（常用版）**——用 5-7 个维度做系统评估，配套案例和打分；**Checklist（复杂版）**——用完整检查清单做全面审计。核心理念：预判不是神秘直觉，而是一套可以外化、迭代、教给别人的认知模型。

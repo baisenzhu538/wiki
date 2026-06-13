@@ -38,7 +38,6 @@ status: "enriched"
 superseded_by: ""
 title: "泛产品设计·落地工具箱（19张卡牌）"
 type: "framework"
-updated_at: 2026-05-11
 version: 1
 tags:
   - #scene/business-analysis
@@ -51,8 +50,37 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户工具很多但产品迭代慢"
+    framework_lens: "工具没有形成工作流"
+    follow_up_question: "你的落地工具箱中，哪些工具已经融入日常工作流？如果大部分只是收藏，没有形成闭环"
+  - signal: "用户只打磨不验证"
+    framework_lens: "缺乏反馈闭环"
+    follow_up_question: "你打磨的每个版本有没有人看、有人用、有人反馈？"
+updated_at: '2026-06-13'
 ---
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有产品可迭代 | 不是空中楼阁 |
+| ✅ 能获得用户反馈 | 有反馈源 |
+| ✅ 愿意持续打磨 | 不追求完美 |
+| ❌ 产品没上线 | 无法迭代 |
+| ❌ 没有反馈源 | 不知道好坏 |
+| ❌ 追求完美不发布 | 迭代不起来 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"工具堆砌"** | 收藏19张都用 | 按阶段选3-5张核心 |
+| **"只打磨不验证"** | 自我感觉良好 | 每个版本找用户测 |
+| **"不迭代"** | 一次到位 | 小步快跑 |
+| **"脱离内核"** | 打磨偏离核心价值 | 回到产品内核 |
 ## Claims
 
 ### 定位与结构
