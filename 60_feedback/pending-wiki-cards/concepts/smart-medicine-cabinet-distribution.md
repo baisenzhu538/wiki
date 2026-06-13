@@ -1,7 +1,11 @@
 ---
 title: "智能药柜分销的行业特殊壁垒"
 type: concept
-status: draft
+status: reviewed
+review_grade: "A"
+reviewed_by: "欧阳锋"
+review_date: "2026-06-13"
+review_note: "🟢放行。客户真实痛点提取，信号质量高。"
 domain: [医药零售, 自动售货, 分销渠道]
 source_refs:
   - "src_20260613_qishijian_transcript"

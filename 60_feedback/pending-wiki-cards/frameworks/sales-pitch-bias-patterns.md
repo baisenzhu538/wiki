@@ -1,7 +1,11 @@
 ---
 title: "销售话术偏误识别模式库"
 type: framework
-status: draft
+status: reviewed
+review_grade: "A"
+reviewed_by: "欧阳锋"
+review_date: "2026-06-13"
+review_note: "🟢放行。方法论资产，可复用于任何供应商评估。"
 domain: [商业分析, 尽职调查, 供应商评估]
 source_refs:
   - "src_20260613_qishijian_transcript"

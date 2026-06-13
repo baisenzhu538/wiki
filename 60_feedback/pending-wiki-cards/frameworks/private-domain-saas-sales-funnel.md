@@ -1,7 +1,11 @@
 ---
 title: "私域电商SaaS销售漏斗：四步法"
 type: framework
-status: draft
+status: reviewed
+review_grade: "A"
+reviewed_by: "欧阳锋"
+review_date: "2026-06-13"
+review_note: "🟢放行。销售流程框架，可用于交叉验证。"
 domain: [私域电商, SaaS, 销售流程]
 source_refs:
   - "src_20260613_qishijian_transcript"

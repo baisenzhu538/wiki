@@ -87,6 +87,14 @@ pipeline:
 - null
 - confidence-source-cited
 - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "创业者把创业地图收藏后，三个月没打开过，遇到决策还是凭直觉"
+    framework_lens: "地图成了收藏品——地图的价值在导航，不在占有"
+    follow_up_question: "你最近一次做创业决策时，有没有对照地图定位自己处在哪个阶段？如果没有，地图没有进入工作流"
+  - signal: "创业者刚学完起盘阶段，就跳到壁垒阶段学习，结果什么都用不上"
+    framework_lens: "跨阶段跳跃——创业地图有阶段顺序，跳过当前阶段的工具会消化不良"
+    follow_up_question: "你当前业务最大的问题在哪个阶段？是需求验证、商业模式、增长还是壁垒？先锁定当前阶段"
+updated_at: '2026-06-13'
 ---
 
 # 一堂创业地图：高潜力创业者修炼全景图
