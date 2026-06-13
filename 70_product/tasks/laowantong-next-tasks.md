@@ -44,7 +44,9 @@
 
 ### 节奏
 
-逐张开工。每批做完通知我审查。第一批不通过不开始第二批。
+**先做 5 张，停下来等审查。** 5 张全部通过后，再做剩下的 ~215 张。
+
+逐张开工，禁止批量。改完一张自查 → 改下一张。凑满 5 张 → 通知欧阳锋审查。5 张全部通过之前，不动第 6 张。
 
 ---
 
@@ -334,16 +336,21 @@ yt-entrepreneur-five-step-method 的 related 中加：
 
 ## 🔴 任务 3：重复页面去重 — 107 对
 
+**状态**：✅ 已完成（2026-06-13）。
+
 **来源**：健康报告发现 792 个重复页面。107 对文件名相似度 >80%。
 
-**操作**：逐对判断：
-- 完全重复（旧版/新版）→ 删旧留新
-- 角度不同（各有价值）→ 互链 related，不删
-- 内容重叠（一张可覆盖另一张）→ 合并到更完整的，另一张标记 superseded_by
+**实际处理**：基于 `60_feedback/auto/cleanup-2026-06-13.md` 重新核对，31 对进入疑似重复清单：
+- **20 对**的干净版/`-2` 版已不存在，仅保留 `ocr-*` 版，无需操作
+- **1 对**为报告占位行，忽略
+- **6 对**为 ROI 画布案例 01/02/03/04 的交叉组合，内容分别是纽约时装周 / 虚拟影棚 / 自建招商体系 / 员工共学，属于同系列不同案例，非重复，保留
+- **4 对真正重复**：合并并删除旧版
+  1. `concept-半肥猫-learning-toolification-methodology` → 合并到 `concept-半肥猫-ai-learning-toolification-methodology`，删除旧版，更新 `30_wiki/index.md` 与 `dk-半肥猫-real-business-is-the-engine`
+  2. `skill-分享输出检验` → 合并到 `skill-分享输出检验法`，删除旧版
+  3. `skill-立即实践转化` → 合并到 `skill-立即实践转化法`，删除旧版
+  4. `skill-ai-question-problem-checklist` → 合并到 `skill-ai-problem-question-check`（新增"快速对照表"），删除旧版
 
-**优先**：OCR 卡和命名含 `-2` 后缀的卡。
-
-**数据**：`60_feedback/auto/cleanup-2026-06-13.md`
+**后续**：已同步更新 `30_wiki/index.md`、`30_wiki/concept-card-index-latest.md`、`30_wiki/links/index.md` 中的入链，无死链残留。
 
 ---
 
