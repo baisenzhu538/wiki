@@ -6,7 +6,9 @@
 
 ## 🎯 全量精修任务
 
-**总卡数：238 张 yt-* 卡（已精修 140 张，剩余 ~98 张）。**
+**总卡数：238 张 yt-* 卡（已精修 128 张含 DS，剩余 ~110 张）。**
+
+> 注：历史批次表格中部分卡片重复出现，导致序号累加高于实际；后续累计数以「frontmatter 中已写入 diagnostic_signals」的真实卡数为准。
 
 ### 严禁行为
 
@@ -278,7 +280,7 @@
 | 129 | `yt-panproduct-demand-five-step-method` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
 | 130 | `yt-panproduct-demand-industry-canvas` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
 
-**更新：2026-06-13** — 第十四批 10 张已完成第一圈精修。累计完成 140 张，剩余 ~98 张。
+**更新：2026-06-13** — 第十四批 10 张已完成第一圈精修。实际累计完成 128 张含 DS，剩余 ~110 张。
 
 ---
 
