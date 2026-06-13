@@ -30,7 +30,6 @@ status: "enriched"
 title: "解放思想"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '解放思想', 'course_id': 'yt-entrepreneur-liberate-thinking', 'course_type': 'method', 'level': 'foundational'}
 tags:
@@ -42,6 +41,14 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户为了创新而创新，忽视基本商业规律"
+    framework_lens: "解放过度"
+    follow_up_question: "你质疑的这个行业惯例，是否有坚实的底层逻辑？如果有，你的新方案是否绕开了它？"
+  - signal: "用户只会模仿，从不敢质疑行业惯例"
+    framework_lens: "没有解放"
+    follow_up_question: "你所在行业有哪些"向来如此"的做法？它们背后的假设在今天还成立吗？"
+updated_at: '2026-06-13'
 ---
 
 # 解放思想
@@ -85,6 +92,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-entrepreneur-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有行业经验基础 | 知道惯例是什么 |
+| ✅ 能识别隐含假设 | 会追问为什么 |
+| ✅ 愿意验证新假设 | 不空想 |
+| ❌ 零基础空谈 | 没有实践基础 |
+| ❌ 拒绝验证 | 只想与众不同 |
+| ❌ 只想与众不同 | 为创新而创新 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"为创新而创新"** | 忽视商业规律 | 创新要服务于用户价值 |
+| **"忽视规律"** | 以为惯例都是错的 | 区分"假设"和"规律" |
+| **"不验证"** | 新想法不测试 | 用低成本实验验证 |
+| **"脱离实际"** | 解放了但落不了地 | 每个新想法要有实施路径 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

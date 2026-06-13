@@ -30,7 +30,6 @@ status: "enriched"
 title: "增长飞轮"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '增长飞轮', 'course_id': 489, 'course_type': 'method', 'level': 'advanced'}
 tags:
@@ -42,6 +41,14 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户画了飞轮但飞不起来"
+    framework_lens: "飞轮各环节之间没有真实因果关系"
+    follow_up_question: "你飞轮的每一个环节，都能用数据证明它推动下一环节吗？"
+  - signal: "用户有多个飞轮但资源分散"
+    framework_lens: "没有核心飞轮"
+    follow_up_question: "如果只能推动一个飞轮，你选哪个？为什么？"
+updated_at: '2026-06-13'
 ---
 
 # 增长飞轮
@@ -85,6 +92,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-entrepreneur-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 业务有重复交易 | 能产生循环 |
+| ✅ 各环节可量化 | 能量化因果关系 |
+| ✅ 有耐心 | 飞轮启动慢 |
+| ❌ 一次性交易 | 没有循环 |
+| ❌ 环节之间无关联 | 只是愿望清单 |
+| ❌ 急于求成 | 飞轮需要持续推动 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"伪飞轮"** | 环节之间没有真实因果 | 用数据验证每个环节的推动力 |
+| **"飞轮太多"** | 资源分散 | 先聚焦一个核心飞轮 |
+| **"不量化"** | 飞轮只是概念图 | 给每个环节设指标 |
+| **"不维护"** | 建好就不管 | 定期检查飞轮转速和阻塞点 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

@@ -29,7 +29,6 @@ status: "enriched"
 title: "工业化生产"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '工业化生产', 'course_id': 'yt-entrepreneur-industrial-production', 'course_type': 'method', 'level': 'advanced'}
 tags:
@@ -41,6 +40,14 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户还没验证需求就搞SOP"
+    framework_lens: "过早标准化——在错误的事情上提高效率"
+    follow_up_question: "这个流程已经被验证是对的吗？如果流程本身有问题，SOP只会放大错误"
+  - signal: "用户把一切都标准化，扼杀创新"
+    framework_lens: "过度工业化"
+    follow_up_question: "哪些环节需要创造力，哪些需要标准化？你是否把该创新的地方也SOP了？"
+updated_at: '2026-06-13'
 ---
 
 # 工业化生产
@@ -84,6 +91,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-entrepreneur-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 流程已验证 | 知道什么是对的 |
+| ✅ 需要规模化 | 有复制需求 |
+| ✅ 团队能执行 | 有人能落地 |
+| ❌ 探索期 | 流程还在变 |
+| ❌ 创意型工作 | 无法完全标准化 |
+| ❌ 团队不稳定 | SOP需要人来执行 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"过早SOP"** | 没验证就标准化 | 先跑通再SOP |
+| **"过度标准化"** | 扼杀创新 | 保留创意空间 |
+| **"忽视人的判断"** | 完全依赖流程 | 关键节点保留人决策 |
+| **"工具迷信"** | 买了工具就以为工业化 | 工具是载体，流程和人才是核心 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

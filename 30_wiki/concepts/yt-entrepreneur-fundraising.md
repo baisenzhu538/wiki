@@ -28,7 +28,6 @@ status: "enriched"
 title: "融资认知"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-09
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '融资认知', 'course_id': 'yt-entrepreneur-fundraising', 'course_type': 'method', 'level': 'advanced'}
 tags:
@@ -39,6 +38,14 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户认为融资越多越成功"
+    framework_lens: "融资是放大器不是成功指标"
+    follow_up_question: "如果不融资，你的商业模式能独立跑通吗？如果不能，融资只是续命"
+  - signal: "用户没有PMF就着急融资"
+    framework_lens: "时机错配——融资加速验证过的东西"
+    follow_up_question: "你的关键假设验证了多少？如果还不到50%，投资人不会为你的探索买单"
+updated_at: '2026-06-13'
 ---
 
 # 融资认知
@@ -82,6 +89,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-entrepreneur-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有验证过的商业模式 | 不是纯想法 |
+| ✅ 有增长数据 | 能证明趋势 |
+| ✅ 知道融资用途 | 资金有明确去向 |
+| ❌ 没产品 | 只有PPT |
+| ❌ 没数据 | 无法说服投资人 |
+| ❌ 只为融钱而融 | 没有战略目的 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"融资当目标"** | 把融资额当成功标准 | 回归业务基本面 |
+| **"没PMF就融"** | 用钱买验证 | 先小成本验证PMF |
+| **"估值至上"** | 只追求高估值 | 估值要匹配业务阶段和条款 |
+| **"条款不看"** | 只看估值不看控制权 | 请专业的人看Term Sheet |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

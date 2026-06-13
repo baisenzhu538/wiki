@@ -31,7 +31,6 @@ status: "enriched"
 title: "需求分析"
 trust_level: "high"
 type: "tool"
-updated_at: 2026-05-07
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '需求分析', 'course_id': 'yt-entrepreneur-needs-analysis', 'course_type': 'method', 'level': 'foundational'}
 tags:
@@ -50,6 +49,14 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "用户只问用户要什么，不分析任务场景"
+    framework_lens: "JTBD方法误用"
+    follow_up_question: "用户在什么场景下要解决这个问题？他们现在用什么替代方案？"
+  - signal: "用户把少数用户反馈当普遍需求"
+    framework_lens: "样本偏差"
+    follow_up_question: "这个反馈来自几个用户？他们代表多大的用户群体？"
+updated_at: '2026-06-13'
 ---
 
 # 需求分析
@@ -159,6 +166,27 @@ pipeline:
 
 ### 关联框架卡
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 能接触真实用户 | 有一手信息 |
+| ✅ 会做定性研究 | 能深入访谈 |
+| ✅ 能区分真伪需求 | 不被表面说法迷惑 |
+| ❌ 只看数据 | 不接触用户 |
+| ❌ 不接触用户 | 无法获得真实洞察 |
+| ❌ 急于下结论 | 需求分析需要耐心 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"直接问用户要什么"** | 用户说不出真实需求 | 用JTBD分析任务场景 |
+| **"样本偏差"** | 把少数反馈当普遍 | 扩大样本并分层 |
+| **"忽视六层冰山"** | 只看表面需求 | 深挖情感和社会动机 |
+| **"把解决方案当需求"** | 用户说想要某个功能 | 追问背后的任务和动机 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

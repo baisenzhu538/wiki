@@ -30,7 +30,6 @@ status: "enriched"
 title: "低成本验证/MVP"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '低成本验证/MVP', 'course_id': 'yt-entrepreneur-lean-validation', 'course_type': 'method', 'level': 'core'}
 tags:
@@ -43,6 +42,14 @@ pipeline:
   - #boundary/not-for-medical
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户把MVP做成完整产品"
+    framework_lens: "混淆MVP与产品"
+    follow_up_question: "你的MVP是为了验证哪个具体假设？如果砍掉一半功能，还能验证吗？"
+  - signal: "用户验证了一个点但没有继续迭代"
+    framework_lens: "MVP没有闭环"
+    follow_up_question: "验证结果如何改变了你的下一步行动？如果没有任何改变，验证只是形式主义"
+updated_at: '2026-06-13'
 ---
 
 # 低成本验证/MVP
@@ -87,6 +94,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-entrepreneur-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有明确假设 | 知道验证什么 |
+| ✅ 能低成本实验 | 资源约束 |
+| ✅ 愿意快速迭代 | 能接受Pivot |
+| ❌ 假设不清晰 | 不知道验证什么 |
+| ❌ 无法低成本验证 | MVP成本太高 |
+| ❌ 不愿Pivot | 固守原方案 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"MVP太完整"** | 功能太多 | 只保留验证假设必需的功能 |
+| **"不迭代"** | 验证完不行动 | 每个验证结果必须对应决策 |
+| **"验证无关假设"** | 做了一堆实验但没验证核心 | 聚焦关键假设 |
+| **"害怕失败"** | 不敢面对负面结果 | 把证伪当学习 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

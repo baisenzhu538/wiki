@@ -29,7 +29,6 @@ status: "enriched"
 title: "机会选择"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '机会选择', 'course_id': 'yt-entrepreneur-opportunity-selection', 'course_type': 'method', 'level': 'core'}
 tags:
@@ -42,6 +41,14 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "用户凭感觉选机会，不做系统评估"
+    framework_lens: "缺乏评估框架"
+    follow_up_question: "你用什么标准在比较这些机会？如果没有明确标准，选择是情绪化的"
+  - signal: "用户只看市场大小，不看自己和时机"
+    framework_lens: "评估维度单一"
+    follow_up_question: "这个市场大，但你的能力匹配吗？现在进入时机对吗？"
+updated_at: '2026-06-13'
 ---
 
 # 机会选择

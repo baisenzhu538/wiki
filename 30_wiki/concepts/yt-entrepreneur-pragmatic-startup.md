@@ -29,7 +29,6 @@ status: "enriched"
 title: "务实创业"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '务实创业', 'course_id': 'yt-entrepreneur-pragmatic-startup', 'course_type': 'method', 'level': 'advanced'}
 tags:
@@ -42,6 +41,14 @@ pipeline:
   - #boundary/requires-human-judgment
   - #boundary/single-use-only
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户追风口而不看自身能力"
+    framework_lens: "不务实"
+    follow_up_question: "这个风口和你的核心能力有什么关系？如果没有，你只是旁观者"
+  - signal: "用户过度保守，什么都不敢试"
+    framework_lens: "务实≠不行动"
+    follow_up_question: "你最近一次基于数据做决策并快速验证是什么时候？如果很久没有，务实变成了不作为"
+updated_at: '2026-06-13'
 ---
 
 # 务实创业
@@ -85,6 +92,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-entrepreneur-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意实事求是 | 面对现实 |
+| ✅ 能客观评估 | 不被情绪左右 |
+| ✅ 有行动勇气 | 愿意验证 |
+| ❌ 只想风口 | 不看自己 |
+| ❌ 逃避现实 | 不愿看数据 |
+| ❌ 过度保守 | 什么都不敢试 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"追风口"** | 什么热做什么 | 结合自身能力选择 |
+| **"自我欺骗"** | 只看好消息 | 主动寻找反例 |
+| **"数据美容"** | 报喜不报忧 | 建立真实数据看板 |
+| **"不行动"** | 分析很多但不验证 | 设定行动触发条件 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

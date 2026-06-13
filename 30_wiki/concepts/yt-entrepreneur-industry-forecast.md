@@ -33,7 +33,6 @@ superseded_by:
 title: "商业预判15字诀"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-06-06
 version: 2
 yitang: {'map': 'entrepreneur', 'module': '商业预判', 'course_id': 'yt-entrepreneur-industry-forecast', 'course_type': 'method', 'level': 'foundational'}
 tags:
@@ -50,6 +49,14 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "用户用15字诀快速否定一个机会"
+    framework_lens: "简化成口诀但缺少深度分析"
+    follow_up_question: "你除了念口诀，还做了哪些定量或定性的分析？"
+  - signal: "用户只做减法不做加法"
+    framework_lens: "违背"充分做加法""
+    follow_up_question: "在减法之前，你的选项池里有多少个经过初步分析的机会？如果<10个，加法不充分"
+updated_at: '2026-06-13'
 ---
 
 # 商业预判15字诀
