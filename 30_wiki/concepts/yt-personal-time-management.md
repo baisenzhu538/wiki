@@ -20,7 +20,7 @@ query_triggers:
   - "高能量窗口"
   - "保护整块时间"
   - "如何管理时间"
-related: {'series': False}
+related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

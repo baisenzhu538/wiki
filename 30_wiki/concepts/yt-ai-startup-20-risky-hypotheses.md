@@ -17,7 +17,7 @@ query_triggers:
   - "AI创业清单"
   - "关键假设"
   - "AI失败"
-related: {'series': False}
+related: []
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:

@@ -20,7 +20,7 @@ query_triggers:
   - "科学方法论创业"
   - "迭代验证"
   - "经验主义替代"
-related: {'series': False}
+related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"

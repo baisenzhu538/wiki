@@ -16,7 +16,7 @@ query_triggers:
   - "壁垒案例分析"
   - "一堂玩具柜"
   - "商业模式壁垒"
-related: {'series': False}
+related: []
 review_date: 2026-06-11
 reviewed_by: "周伯通"
 source_refs:

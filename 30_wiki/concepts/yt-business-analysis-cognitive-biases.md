@@ -15,7 +15,7 @@ query_triggers:
   - "常见认知陷阱"
   - "一堂五步法 偏差"
   - "创业者认知盲区"
-related: {'series': False}
+related: []
 review_date: 2026-06-11
 reviewed_by: "老顽童"
 source_refs:

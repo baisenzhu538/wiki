@@ -26,7 +26,7 @@ query_triggers:
   - "产业链分析"
   - "集中度"
   - "行业天花板"
-related: {'series': False}
+related: []
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-entrepreneur-industry-forecast.md"

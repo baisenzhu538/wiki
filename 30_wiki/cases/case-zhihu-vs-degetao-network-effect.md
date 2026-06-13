@@ -18,7 +18,7 @@ query_triggers:
   - "巨头抄袭"
   - "知乎被抄"
   - "网络效应判断"
-related: {'series': False}
+related: []
 review_date: 2026-06-11
 reviewed_by: "周伯通"
 source_refs:

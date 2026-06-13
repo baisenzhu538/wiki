@@ -24,7 +24,7 @@ query_triggers:
   - "笔记进阶"
   - "笔记五阶段"
   - "刻意练习记笔记"
-related: {'series': False}
+related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

@@ -21,7 +21,7 @@ query_triggers:
   - "创业者认知"
   - "创业心态"
   - "创业段位"
-related: {'series': False}
+related: []
 review_date: 2026-06-06
 reviewed_by: ""
 source_refs:

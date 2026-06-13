@@ -15,7 +15,7 @@ query_triggers:
   - "商业分析水平"
   - "认知盲区"
   - "我们不知道我们不知道"
-related: {'series': False}
+related: []
 review_date: 2026-06-11
 reviewed_by: "老顽童"
 source_refs:

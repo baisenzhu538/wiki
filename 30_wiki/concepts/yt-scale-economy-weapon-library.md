@@ -16,7 +16,7 @@ query_triggers:
   - "金字塔"
   - "一堂壁垒"
   - "规模经济武器库"
-related: {'series': False}
+related: []
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:

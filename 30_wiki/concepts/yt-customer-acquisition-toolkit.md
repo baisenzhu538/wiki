@@ -18,7 +18,7 @@ query_triggers:
   - "客户转化"
   - "营销小抄"
   - "一堂增长获客"
-related: {'series': False}
+related: []
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:

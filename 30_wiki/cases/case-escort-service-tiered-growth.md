@@ -16,7 +16,7 @@ query_triggers:
   - "保2争4"
   - "七级演进"
   - "陪诊案例"
-related: {'series': False}
+related: []
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:

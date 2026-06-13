@@ -18,7 +18,7 @@ query_triggers:
   - "一堂增长"
   - "科学销售"
   - "增长飞轮"
-related: {'series': False}
+related: []
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:

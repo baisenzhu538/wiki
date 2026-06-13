@@ -15,7 +15,7 @@ query_triggers:
   - "单元模型案例"
   - "算错账案例"
   - "L2 L3 L4 L5 段位"
-related: {'series': False}
+related: []
 review_date: 2026-06-11
 reviewed_by: "老顽童"
 source_refs:

@@ -22,7 +22,7 @@ query_triggers:
   - "过早细化"
   - "做而不信"
   - "用户视角"
-related: {'series': False}
+related: []
 review_date: 2026-06-06
 reviewed_by: ""
 source_refs:

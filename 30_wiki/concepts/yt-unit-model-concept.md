@@ -16,7 +16,7 @@ query_triggers:
   - "单店模型"
   - "单SKU模型"
   - "LTV CAC"
-related: {'series': False}
+related: []
 review_date: 2026-06-11
 reviewed_by: "老顽童"
 source_refs:

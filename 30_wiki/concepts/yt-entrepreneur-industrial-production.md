@@ -20,7 +20,7 @@ query_triggers:
   - "创业效率"
   - "工具链自动化"
   - "内容产品化"
-related: {'series': False}
+related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

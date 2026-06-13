@@ -24,7 +24,7 @@ query_triggers:
   - "关键画布"
   - "Plan A Plan B"
   - "预判结束的标志"
-related: {'series': False}
+related: []
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-probability-engineering.md"

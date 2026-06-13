@@ -20,7 +20,7 @@ query_triggers:
   - "规模经济边界"
   - "市场格局分析"
   - "差异化空间"
-related: {'series': False}
+related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

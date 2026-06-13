@@ -17,7 +17,7 @@ query_triggers:
   - "产品内核四要素"
   - "产品力"
   - "留存率转化率复购率"
-related: {'series': False}
+related: []
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:

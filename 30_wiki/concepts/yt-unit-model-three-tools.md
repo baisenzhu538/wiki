@@ -18,7 +18,7 @@ query_triggers:
   - "尺子测量"
   - "梯子增长"
   - "一堂单元模型"
-related: {'series': False}
+related: []
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:

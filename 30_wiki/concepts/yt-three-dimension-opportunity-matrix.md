@@ -16,7 +16,7 @@ query_triggers:
   - "新模式"
   - "新能力"
   - "机会矩阵"
-related: {'series': False}
+related: []
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:

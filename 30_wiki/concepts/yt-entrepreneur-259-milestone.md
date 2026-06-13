@@ -20,7 +20,7 @@ query_triggers:
   - "关键假设优先"
   - "最小成本验证"
   - "259框架"
-related: {'series': False}
+related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

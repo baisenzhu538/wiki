@@ -25,7 +25,7 @@ query_triggers:
   - "四次试错"
   - "0.7的4次方"
   - "试错策略"
-related: {'series': False}
+related: []
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-decision-y-model.md"

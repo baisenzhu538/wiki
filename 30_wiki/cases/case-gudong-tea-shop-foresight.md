@@ -25,7 +25,7 @@ query_triggers:
   - "青岛奶茶"
   - "五层筛选"
   - "加盟预判"
-related: {'series': False}
+related: []
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-addition-subtraction.md"

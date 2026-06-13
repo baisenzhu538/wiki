@@ -15,7 +15,7 @@ query_triggers:
   - "保3争5"
   - "回老家开咖啡馆"
   - "咖啡开店"
-related: {'series': False}
+related: []
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:

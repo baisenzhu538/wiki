@@ -16,7 +16,7 @@ query_triggers:
   - "保4争6"
   - "AI时间管理案例"
   - "七级演进"
-related: {'series': False}
+related: []
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:

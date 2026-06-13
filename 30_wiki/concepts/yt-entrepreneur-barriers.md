@@ -20,7 +20,7 @@ query_triggers:
   - "五步法壁垒"
   - "创业护城河"
   - "行业准入"
-related: {'series': False}
+related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

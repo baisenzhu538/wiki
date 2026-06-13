@@ -60,33 +60,37 @@ P1 完成后通知欧阳锋。
 
 **当前状态：**
 ```
-yt-five-step-method 的 related: {'series': False}  ← 非法格式
+✅ 已修复（2026-06-13）
+yt-five-step-method 的 related 已改为 YAML list 格式
+yt-entrepreneur-five-step-method 已有反向引用
 ```
 
 **修正操作：**
-1. 在 `yt-five-step-method.md` 的 frontmatter 中，把 `related: {'series': False}` 改为：
+1. ✅ 在 `yt-five-step-method.md` 的 frontmatter 中，把 `related: {'series': False}` 改为：
    ```yaml
    related:
      - "yt-entrepreneur-five-step-method"
    ```
-2. 确认 `yt-entrepreneur-five-step-method` 的 `related` 已有 `yt-five-step-method`（如果没有就加上）
+2. ✅ 确认 `yt-entrepreneur-five-step-method` 的 `related` 已有 `yt-five-step-method`
 
 #### 对 ⑦：`yt-model-progress-map` ↔ `yt-model-entrepreneur-map`
 
 **当前状态：**
 ```
-yt-model-progress-map 的 related: {'level': 'foundational'}  ← 非法格式
+✅ 已修复（2026-06-13）
+yt-model-progress-map 的 related 已改为 YAML list 格式
+yt-model-entrepreneur-map 已有反向引用
 ```
 
 **修正操作：**
-1. 在 `yt-model-progress-map.md` 的 frontmatter 中，把 `related: {'level': 'foundational'}` 改为：
+1. ✅ 在 `yt-model-progress-map.md` 的 frontmatter 中，把 `related: {'level': 'foundational'}` 改为：
    ```yaml
    related:
      - "yt-model-entrepreneur-map"
      - "yt-model-management-map"
      - "yt-model-personal-map"
    ```
-2. 确认 `yt-model-entrepreneur-map` 的 `related` 已有 `yt-model-progress-map`（如果没有就加上）
+2. ✅ 确认 `yt-model-entrepreneur-map` 的 `related` 已有 `yt-model-progress-map`
 
 ### 为什么要修
 

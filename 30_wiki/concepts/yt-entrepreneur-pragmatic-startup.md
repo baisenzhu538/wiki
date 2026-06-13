@@ -20,7 +20,7 @@ query_triggers:
   - "创业方法论"
   - "理性创业"
   - "创业反直觉思维"
-related: {'series': False}
+related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

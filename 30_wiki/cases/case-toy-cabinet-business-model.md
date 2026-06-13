@@ -15,7 +15,7 @@ query_triggers:
   - "一堂案例"
   - "线下玩具柜"
   - "单元模型案例"
-related: {'series': False}
+related: []
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:

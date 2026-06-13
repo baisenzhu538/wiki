@@ -26,7 +26,7 @@ query_triggers:
   - "内部创业"
   - "Plan ABC"
   - "六方向三选项"
-related: {'series': False}
+related: []
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-probability-engineering.md"

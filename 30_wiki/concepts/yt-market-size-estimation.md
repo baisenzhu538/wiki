@@ -17,7 +17,7 @@ query_triggers:
   - "自底向上"
   - "对标估算"
   - "第三方数据"
-related: {'series': False}
+related: []
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:

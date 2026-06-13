@@ -20,7 +20,7 @@ query_triggers:
   - "结构化表达"
   - "如何写逐字稿"
   - "公开演讲准备"
-related: {'series': False}
+related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

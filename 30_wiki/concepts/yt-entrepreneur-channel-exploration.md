@@ -20,7 +20,7 @@ query_triggers:
   - "起盘阶段"
   - "创业获客"
   - "渠道漏斗"
-related: {'series': False}
+related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

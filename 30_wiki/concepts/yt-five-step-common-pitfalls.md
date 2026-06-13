@@ -15,7 +15,7 @@ query_triggers:
   - "五步法为什么没用"
   - "五步法失败原因"
   - "商业分析常见错误"
-related: {'series': False}
+related: []
 review_date: 2026-06-11
 reviewed_by: "老顷童"
 source_refs:

@@ -24,7 +24,7 @@ query_triggers:
   - "搜索盲区"
   - "口述稿没找到"
   - "文件名搜索"
-related: {'series': False}
+related: []
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
 pipeline:

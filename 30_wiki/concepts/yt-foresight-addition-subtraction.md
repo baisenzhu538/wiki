@@ -25,7 +25,7 @@ query_triggers:
   - "选项池"
   - "预判步骤"
   - "如何排除选项"
-related: {'series': False}
+related: []
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-ten-fatal-flaws.md"

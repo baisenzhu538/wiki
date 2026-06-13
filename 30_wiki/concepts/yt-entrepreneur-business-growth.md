@@ -20,7 +20,7 @@ query_triggers:
   - "可复制增长"
   - "五步法第四步"
   - "增长假设"
-related: {'series': False}
+related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

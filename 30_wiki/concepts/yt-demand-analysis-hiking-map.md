@@ -18,7 +18,7 @@ query_triggers:
   - "需求三维度"
   - "市场估算"
   - "对标"
-related: {'series': False}
+related: []
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:

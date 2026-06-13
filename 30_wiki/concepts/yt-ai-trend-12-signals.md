@@ -17,7 +17,7 @@ query_triggers:
   - "12大变化模型"
   - "AI预判"
   - "AI商业机会"
-related: {'series': False}
+related: []
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:

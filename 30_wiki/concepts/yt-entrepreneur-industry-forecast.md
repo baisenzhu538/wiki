@@ -21,7 +21,7 @@ query_triggers:
   - "选项池"
   - "预判能力"
   - "创业成功率"
-related: {'series': False}
+related: []
 review_date: 2026-06-11
 reviewed_by: ""
 source_refs:

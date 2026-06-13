@@ -15,7 +15,7 @@ query_triggers:
   - "转化率 留存率 复购率"
   - "获客指标 服务指标 复购指标"
   - "产品数据指标"
-related: {'series': False}
+related: []
 review_date: 2026-06-11
 reviewed_by: "老顽童"
 source_refs:

@@ -26,7 +26,7 @@ query_triggers:
   - "四层剥离"
   - "供应链搞定"
   - "切口越小越准"
-related: {'series': False}
+related: []
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-addition-subtraction.md"

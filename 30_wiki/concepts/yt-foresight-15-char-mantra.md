@@ -27,7 +27,7 @@ query_triggers:
   - "预判框架"
   - "15字黄金法则"
   - "机会预判方法论"
-related: {'series': False}
+related: []
 supersedes:
   - "concept-一堂-business-prediction"
 wiki_refs:

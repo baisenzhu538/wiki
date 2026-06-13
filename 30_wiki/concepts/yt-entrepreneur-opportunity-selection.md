@@ -20,7 +20,7 @@ query_triggers:
   - "创业赛道选择"
   - "竞争强度分析"
   - "市场大小评估"
-related: {'series': False}
+related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

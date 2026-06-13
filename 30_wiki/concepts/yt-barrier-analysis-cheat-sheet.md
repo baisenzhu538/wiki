@@ -20,7 +20,7 @@ query_triggers:
   - "网络效应"
   - "转化成本"
   - "成本优势"
-related: {'series': False}
+related: []
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:

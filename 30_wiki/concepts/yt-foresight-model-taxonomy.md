@@ -16,7 +16,7 @@ query_triggers:
   - "Checklist"
   - "模型分类"
   - "创业工具"
-related: {'series': False}
+related: []
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
