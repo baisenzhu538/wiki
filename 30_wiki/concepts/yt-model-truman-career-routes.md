@@ -24,7 +24,6 @@ source_refs:
 status: "enriched"
 title: "楚门的选择：两条职业成长路线 X vs Y"
 type: "framework"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'framework'}
 tags:
@@ -45,12 +44,41 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户想走Y路线但不愿做大量刻意练习"
+    framework_lens: "Y路线需要高难度学习"
+    follow_up_question: "你准备好进行大量跨领域迁移练习了吗？如果没有，Y路线走不通"
+  - signal: "用户只羡慕Y路线迁移性，不看自己基础"
+    framework_lens: "基础不匹配"
+    follow_up_question: "你现在的产品设计能力和学习习惯，更适合X还是Y？"
+updated_at: '2026-06-13'
 ---
 
 # 楚门的选择：两条职业成长路线 X vs Y
 
 > 来源：Truman（许楚）的《楚门的选择：两条职业成长路线》。[[一堂]] | [[yt-model-truman-five-step-growth]] | [[yt-model-pan-product-36-strategies]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意长期投入 | Y路线需要十年 |
+| ✅ 能判断自己当前基础 | 有自知之明 |
+| ✅ 理解两条路线代价 | 不后悔 |
+| ❌ 追求短期回报 | 不适合Y |
+| ❌ 基础薄弱却想走Y | 会挫败 |
+| ❌ 不愿迁移练习 | Y的核心 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"选错路线"** | 跟风选Y或X | 根据基础和学习风格选 |
+| **"Y路线不练"** | 只看理论不迁移 | 强制跨领域练习 |
+| **"X路线不深耕"** | 浅尝辄止 | 在专长领域做深 |
+| **"频繁切换"** | X和Y来回换 | 选定后坚持足够长 |
 ## Summary
 
 楚门的两条职业成长路线图对比了产品设计能力的两条修炼路径：**X路线（传统产品设计）**——见过模型→看人用过→自己用过→少量刻意练习，相对简单、掌握数量百量级、使用频率偏低、可迁移性较弱；**Y路线（泛产品设计）**——思考底层→看大量迁移→自己迁移→大量刻意练习，相对困难、掌握数量十量级、使用频率偏高、可迁移性较强。关键选择：要不要用更底层/更难的学习，来换更长期、更强迁移、更笃定的核心能力？

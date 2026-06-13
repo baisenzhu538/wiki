@@ -32,7 +32,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·审美卡片：最佳实践建模"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
 tags:
@@ -49,11 +48,49 @@ pipeline:
   - #boundary/single-use-only
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "在评价任何案例前先列出评价维度，并说明每个维度为何重要"
+    framework_lens: "审美白盒化：从感觉变为可分析"
+    follow_up_question: "如果删掉其中一个维度，你对案例质量的判断会明显变弱吗？"
+  - signal: "用同一套维度对多个案例打分，能解释分数差异背后的设计选择"
+    framework_lens: "模型让比较产生结构"
+    follow_up_question: "两个得分相近的案例，在设计取舍上有什么不同？"
+  - signal: "模型能预测一个新设计大概会落在什么质量区间"
+    framework_lens: "评价模型应具备生成性"
+    follow_up_question: "用模型评估一个你还没做的方案，它暴露的最大风险点是什么？"
+updated_at: '2026-06-13'
 ---
 
 # 最佳实践建模：用评价维度打磨产品
 
 > 审美工具箱第 3 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-pool]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 有多个可比较案例、需要建立统一评审语言的场景 |
+| **适合** | 可重复出现的设计品类（如App首页、B端表单、硬件ID） |
+| **不适合** | 前卫艺术或高度情感化的作品——维度化会损失核心表达 |
+| **不适合** | 样本太少（<3个案例）——无法提炼稳定维度 |
+
+### 失败模式
+
+1. **维度从网上抄来，和当前产品目标无关**
+   - **原因**：评价模型脱离问题语境
+   - **修复**：每个维度必须通过‘目标对齐测试’：它能帮助当前产品解决什么问题？
+
+2. **打分普遍偏高，区分不出好坏**
+   - **原因**：评分标准过松或维度冗余
+   - **修复**：引入锚定案例：明确0分、5分、10分的具体样例，并限制满分比例
+
+3. **把模型当成万能检查表，忽略案例的独特上下文**
+   - **原因**：模型僵化使用
+   - **修复**：每次使用模型时先写‘本次评审的特殊上下文’，允许临时维度调整
+
+4. **模型维度太多，评审时间爆炸**
+   - **原因**：维度膨胀，抓不住关键
+   - **修复**：限制核心维度≤5个，其余作为可选扩展维度
 
 ## Summary
 

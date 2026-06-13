@@ -24,7 +24,6 @@ source_refs:
 status: "enriched"
 title: "提问刻意练习提升画布"
 type: "framework"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '提问能力', 'course_type': 'model'}
 tags:
@@ -35,12 +34,41 @@ tags:
   - #yitang
 pipeline:
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户看了四层框架但提问能力没提升"
+    framework_lens: "只看不练"
+    follow_up_question: "你最近一周在多少个真实场景中刻意练习了不同层级的提问？"
+  - signal: "用户只在业务分析层练习，不跨层"
+    framework_lens: "练习单一"
+    follow_up_question: "你最近一次在辅导团队或咨询教练场景中使用提问工具是什么时候？"
+updated_at: '2026-06-13'
 ---
 
 # 提问刻意练习提升画布 (By YITANG)
 
 > 来源：一堂《提问刻意练习提升画布》。[[一堂]] | [[yt-model-scientific-questioning-map]] | [[yt-personal-deliberate-practice]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意刻意练习 | 不是只看 |
+| ✅ 有真实提问场景 | 能应用 |
+| ✅ 能接受反馈 | 有人指正 |
+| ❌ 只看理论 | 不练习 |
+| ❌ 没有练习对象 | 无法应用 |
+| ❌ 不愿跨层 | 只待舒适区 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"只看不练"** | 看完画布就放下 | 每周至少3次刻意练习 |
+| **"只练一层"** | 只在业务分析层 | 主动挑战辅导/教练层 |
+| **"没有反馈"** | 自己练没人看 | 找导师或同伴点评 |
+| **"不迭代"** | 同一水平重复 | 每次挑战更难问题 |
 ## Summary
 
 一堂提问能力训练的实操画布，将提问分为四个层次（业务分析→辅导团队→咨询教练→萃取经验），每层有明确的提问目标、核心套路和工具箱。核心方法论要素包含：不断追问、对齐目标、SMART 原则、强迫思考、TopN 优先级等。

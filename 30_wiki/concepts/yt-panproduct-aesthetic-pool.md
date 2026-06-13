@@ -31,7 +31,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·审美卡片：最佳实践池子"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
 tags:
@@ -46,11 +45,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - #boundary/single-use-only
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "围绕一个产品设计目标，能快速调出≥10个相关最佳实践进行横向比较"
+    framework_lens: "池子=可反复调用的参照系"
+    follow_up_question: "这些案例是否覆盖了不同价位、不同用户群体和不同技术路径？"
+  - signal: "池中案例按设计维度（如信息层级、交互效率、视觉一致性）做了标签"
+    framework_lens: "从素材到结构化参照系"
+    follow_up_question: "当你卡在‘信息层级’问题时，能否只过滤出相关案例？"
+  - signal: "同一案例会在多个版本的方案评审中被反复引用，并推动迭代"
+    framework_lens: "池子的价值在于持续打磨"
+    follow_up_question: "上一次方案评审中，池子里的哪个案例直接促成了设计改动？"
+updated_at: '2026-06-13'
 ---
 
 # 最佳实践池子：用一堆最佳实践打磨产品
 
 > 审美工具箱第 2 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-collection]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 产品 redesign 或需要对标行业最佳水准的项目 |
+| **适合** | 团队对质量有共识，但缺少具象参照来推动迭代 |
+| **不适合** | 探索期问题空间还不清晰——池子会变成无目标素材堆 |
+| **不适合** | 资源极少、需要快速MVP验证——池子建设成本过高 |
+
+### 失败模式
+
+1. **池子很大，但做方案时只选自己喜欢的案例**
+   - **原因**：池子沦为证明已有偏好的工具
+   - **修复**：在调用案例前写明当前要解决的设计问题，强制按问题匹配而非偏好匹配
+
+2. **把案例和当前方案做表面比较，没有抽象出可迁移原则**
+   - **原因**：黑盒思维未激活
+   - **修复**：每次比较后输出一条‘可迁移原则’，并用[[yt-panproduct-aesthetic-modeling]]固化维度
+
+3. **池子一旦建成就不再更新，跟不上行业最佳实践变化**
+   - **原因**：把池子当静态资产
+   - **修复**：设定‘池子保鲜期’：每季度替换掉最旧的20%案例
+
+4. **案例数量不足，比较变成‘矬子里拔将军’**
+   - **原因**：样本偏差导致标准被拉低
+   - **修复**：明确‘最佳实践’准入门槛：必须是在某维度被公认优秀的案例，而非随手截图
 
 ## Summary
 

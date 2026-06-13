@@ -5,7 +5,7 @@ active_task: "黄药师 I/J/K/L/M/N 全部完成。KDO CL I +~700行(v15扩展+s
 blockers:
   - "Kimi K2.7 Anthropic tool call待修复"
   - "欧阳锋待审查 I/J/K/L/M/N 批量任务"
-next_session_hint: "用户说'继续'→ 等欧阳锋审查结果或新任务分配"
+next_session_hint: "用户说'继续'→ 等欧阳锋审查结果或新任务分配。若洪七公失忆，先读 20_memory/hongqigong-amnesia-recovery-20260613.md → .agent/hongqigong-context.md → dashboard.md 领任务。"
 ---
 
 ## 2026-06-12 变更

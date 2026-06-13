@@ -6,7 +6,7 @@
 
 ## 🎯 全量精修任务
 
-**总卡数：238 张 yt-* 卡（已精修 120 张，剩余 ~118 张）。**
+**总卡数：238 张 yt-* 卡（已精修 140 张，剩余 ~98 张）。**
 
 ### 严禁行为
 
@@ -245,6 +245,40 @@
 | 110 | `yt-model-prompt-engineering` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
 
 **更新：2026-06-13** — 第十二批 10 张已完成第一圈精修。累计完成 120 张，剩余 ~118 张。
+
+### 第十三批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----:|:-----|:----:|:---------|:----:|
+| 111 | `yt-model-questioning-practice-canvas` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 112 | `yt-model-scientific-questioning-map` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 113 | `yt-model-truman-career-routes` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 114 | `yt-model-truman-five-step-growth` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 115 | `yt-model-y-organization` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 116 | `yt-note-ai-human-division` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 117 | `yt-note-checklist-concept` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 118 | `yt-note-deliberate-practice-four-elements` | concept | 修复损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 7 条 + 失败模式 4 条） | ✅ 已完成 |
+| 119 | `yt-note-expert-interview-modeling` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 7 条 + 失败模式 4 条） | ✅ 已完成 |
+| 120 | `yt-note-extensive-research-input` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 7 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第十三批 10 张已完成第一圈精修。累计完成 130 张，剩余 ~108 张。
+
+### 第十四批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----|:----|:----|:----|:----|
+| 121 | `yt-note-fact-pattern-insight` | concept | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 122 | `yt-note-l4-internalization` | concept | 重建损坏 frontmatter，新增 DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 123 | `yt-note-l6-extraction` | concept | 重建损坏 frontmatter，新增 DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 124 | `yt-note-problem-solving-capability` | concept | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 125 | `yt-panproduct-aesthetic-collection` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 126 | `yt-panproduct-aesthetic-imagination` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 127 | `yt-panproduct-aesthetic-modeling` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 128 | `yt-panproduct-aesthetic-pool` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 129 | `yt-panproduct-demand-five-step-method` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 130 | `yt-panproduct-demand-industry-canvas` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第十四批 10 张已完成第一圈精修。累计完成 140 张，剩余 ~98 张。
 
 ---
 

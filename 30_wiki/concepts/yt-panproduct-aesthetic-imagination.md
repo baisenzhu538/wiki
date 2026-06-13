@@ -31,7 +31,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·审美卡片：美好作品想象"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
 tags:
@@ -46,11 +45,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - #boundary/single-use-only
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "在找不到直接对标时，团队能先写出‘理想体验’的3-5个关键画面"
+    framework_lens: "无对标时的目标态构建"
+    follow_up_question: "这些画面是基于用户需求的，还是基于个人偏好的？"
+  - signal: "想象前有明确的约束清单（用户、场景、技术、成本），而不是天马行空"
+    framework_lens: "创意在约束中才有价值"
+    follow_up_question: "如果预算减半、时间砍半，你想象的最佳体验还能保留哪些核心要素？"
+  - signal: "想象力产出会回到用户研究中验证，而不是直接作为最终方案"
+    framework_lens: "想象是假设，不是结论"
+    follow_up_question: "你能设计一个最小实验让用户验证这个想象吗？"
+updated_at: '2026-06-13'
 ---
 
 # 美好作品想象：缺对标就自己想象
 
 > 审美工具箱第 4 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-modeling]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 突破性创新或全新品类，市场上没有成熟对标 |
+| **适合** | 团队已经积累足够审美和实践经验，能够进行高质量脑补 |
+| **不适合** | 成熟品类的渐进优化——此时直接对标更高效 |
+| **不适合** | 数据/证据明显充足的决策——想象不能替代验证 |
+
+### 失败模式
+
+1. **想象变成自嗨，产品功能和真实用户需求脱节**
+   - **原因**：用内部偏好替代用户视角
+   - **修复**：每个想象画面都必须绑定一个用户场景和可观察的行为指标
+
+2. **以‘没有对标’为借口跳过研究，直接拍脑袋**
+   - **原因**：把想象力当作不调研的遮羞布
+   - **修复**：即使没有直接竞品，也要做间接替代方案分析和用户任务研究
+
+3. **团队讨论变成‘我觉得’大赛，无法收敛**
+   - **原因**：缺少评价标准
+   - **修复**：先建立‘美好作品’的评审维度，再让每个人按维度提交想象方案
+
+4. **想象过于超前，现有技术和资源无法落地**
+   - **原因**：约束清单缺失
+   - **修复**：在想象阶段同步列出‘必须满足的约束’，超出约束的创意进入愿景库而非当前方案
 
 ## Summary
 

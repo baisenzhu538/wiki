@@ -24,7 +24,6 @@ source_refs:
 status: "enriched"
 title: "科学提问刻意练习地图"
 type: "framework"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '提问能力', 'course_type': 'model'}
 tags:
@@ -38,12 +37,41 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户不知道自己在提问能力的哪个段位"
+    framework_lens: "无段位诊断"
+    follow_up_question: "按四领域×三级难度矩阵，你在哪个格子？如果答不出，没有段位意识"
+  - signal: "用户只在舒适区提问，不挑战更难场景"
+    framework_lens: "不进入非舒适区"
+    follow_up_question: "你最近一次处理Level 3难度的提问场景是什么时候？"
+updated_at: '2026-06-13'
 ---
 
 # 科学提问刻意练习地图
 
 > 来源：一堂《科学提问·刻意练习成长地图》（内部使用）。[[一堂]] | [[yt-personal-deliberate-practice]] | [[yt-personal-deep-review]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意段位诊断 | 有自知之明 |
+| ✅ 能识别当前水平 | 会定位 |
+| ✅ 愿意挑战更难场景 | 进非舒适区 |
+| ❌ 拒绝诊断 | 不知道自己不知道 |
+| ❌ 只想用现有水平 | 不升级 |
+| ❌ 不愿升级 | 安于现状 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"无段位诊断"** | 不知道自己位置 | 用矩阵自评 |
+| **"舒适区练习"** | 只做简单提问 | 逐级提升难度 |
+| **"不升级"** | 长期同一水平 | 设定升级目标 |
+| **"不看矩阵"** | 凭感觉练习 | 对照地图找差距 |
 ## Summary
 
 一堂将提问能力按四个领域（业务分析→辅导团队→咨询教练→萃取经验）和三级难度分层，提供了每层的目标、场景、套路和工具箱。核心主张：提问不是天赋，是可以通过结构化模型刻意练习获得的核心能力。

@@ -29,7 +29,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·用户卡片：行业分析画布"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
 tags:
@@ -44,11 +43,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "六步分析（产业链→规模→增速→集中度→替代→进入时机）都有数据或证据支撑"
+    framework_lens: "行业分析需要可验证的事实基础"
+    follow_up_question: "这六步中哪一步的证据最弱？如果它错了，结论会怎样变化？"
+  - signal: "结论不只是‘赛道好不好’，而是明确‘值不值得我们现在进入、以什么方式进入’"
+    framework_lens: "行业分析服务于进入决策"
+    follow_up_question: "根据画布结论，你是否应该进入、观望还是放弃？为什么？"
+  - signal: "分析中考虑了间接替代品和新进入者，而不仅仅是现有竞品"
+    framework_lens: "赛道边界大于直接竞品集合"
+    follow_up_question: "用户如果不选你，除了直接竞品还会怎么解决这个需求？"
+updated_at: '2026-06-13'
 ---
 
 # 行业分析画布：分析行业赛道的变化和机会
 
 > 需求工具箱高级卡牌。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 进入新行业、新赛道或评估投资组合机会 |
+| **适合** | 需要判断市场空间和进入时机的战略决策 |
+| **不适合** | 具体产品功能优先级排序——用需求优先级框架 |
+| **不适合** | 完全未知、无法获得任何行业数据的领域 |
+
+### 失败模式
+
+1. **行业规模数据很好看，就得出‘值得做’的结论**
+   - **原因**：把行业吸引力等同于企业机会
+   - **修复**：增加‘我们在该行业的可获胜位置’分析：价值链哪一环有议价权？
+
+2. **只分析产业链结构，忽视价值链权力分布**
+   - **原因**：静态看待行业
+   - **修复**：标注每个环节的关键玩家和利润池，找出真正的价值捕获点
+
+3. **过度依赖二手报告，没有一手验证**
+   - **原因**：数据惰性
+   - **修复**：至少补充3个一手信息源：专家访谈、客户访谈、供应链访谈
+
+4. **画布做完后束之高阁，没有和进入策略挂钩**
+   - **原因**：分析决策脱节
+   - **修复**：画布最后必须输出‘进入方式/时机/资源需求’三要素
 
 ## Summary
 

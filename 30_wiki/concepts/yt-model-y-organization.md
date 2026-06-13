@@ -25,7 +25,6 @@ source_refs:
 status: "enriched"
 title: "Y 型创业模型"
 type: "framework"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'system', 'module': '方法论总纲', 'course_type': 'model'}
 tags:
@@ -39,12 +38,41 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户只重视实事求是，不敢解放思想"
+    framework_lens: "一臂缺失"
+    follow_up_question: "你最近一次质疑行业惯例并提出新假设是什么时候？"
+  - signal: "用户只解放思想，不尊重事实"
+    framework_lens: "另一臂缺失"
+    follow_up_question: "你的新想法有没有经过事实验证？如果没有，只是空想"
+updated_at: '2026-06-13'
 ---
 
 # Y 型创业模型 (Y Model for Startups)
 
 > 来源：一堂《Y 型创业：一堂科学型组织》模型图。[[一堂]] | [[一堂方法论体系总图]] | [[yt-system-course-catalog]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意理论与实践结合 | 不偏执 |
+| ✅ 能反思认知 | 会提炼模型 |
+| ✅ 愿意知行合一 | 能落地 |
+| ❌ 只信理论 | 不验证 |
+| ❌ 只凭直觉 | 不实事求是 |
+| ❌ 不愿落地 | 空谈 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"只实事求是"** | 不敢突破 | 增加解放思想训练 |
+| **"只解放思想"** | 脱离现实 | 用实事求约束 |
+| **"知行脱节"** | 知道不做 | 把模型转化为行动 |
+| **"不提炼模型"** | 经验无法复用 | 从实践中提炼模型 |
 ## Summary
 
 Y 模型是一堂方法论的顶层哲学模型——Y 的两条臂分别代表「实事求是」（理论）和「解放思想」（验证），交汇于「科学类比→提炼模型→我的认知」的认知加工过程，最终以「知行合一」落地到「解决真正问题」。这是一堂"科学创业"理念的结构化表达。

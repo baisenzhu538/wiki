@@ -26,7 +26,6 @@ source_refs:
 status: "enriched"
 title: "Truman的个人成长五步法：用一页纸解释全部人生规划"
 type: "framework"
-updated_at: 2026-05-22
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'framework'}
 tags:
@@ -43,12 +42,41 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户只列能力资源，但没找到人生红点"
+    framework_lens: "方向缺失"
+    follow_up_question: "你的人生红点是什么？如果答不出，五步法第一步就错了"
+  - signal: "用户倒推能力但不练习"
+    framework_lens: "知行脱节"
+    follow_up_question: "你为了红点，最近三个月刻意练习了哪些能力？"
+updated_at: '2026-06-13'
 ---
 
 # Truman的个人成长五步法：用一页纸解释全部人生规划
 
 > 来源：Truman（许楚）的个人成长框架。[[一堂]] | [[yt-entrepreneur-five-step-method]] | [[yt-model-personal-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意做人生规划 | 有规划意愿 |
+| ✅ 能明确红点 | 有方向 |
+| ✅ 愿意刻意练习 | 不空想 |
+| ❌ 没有人生目标 | 无法应用 |
+| ❌ 不愿盘点 | 逃避现实 |
+| ❌ 不行动 | 计划变废纸 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"无红点"** | 不知道要什么 | 先找到人生红点 |
+| **"不倒推"** | 列一堆能力无方向 | 从红点倒推所需能力 |
+| **"倒推不练"** | 有计划无行动 | 把能力变成练习计划 |
+| **"计划不更新"** | 一成不变 | 每年回顾更新 |
 ## Summary
 
 Truman的个人成长五步法是创业五步法在个人发展领域的迁移应用——将人生规划压缩到五个核心要素：**能力→资源→进步方式→路径→人生红点**。这是一套"一页纸解释全部人生规划"的极简框架：列出你已有的能力，盘点你拥有的资源，选择进步方式，规划发展路径，最终指向人生红点。核心心法：不是"先有能力再做事"，而是"找到红点→倒推所需能力→用正确方式刻意练习→积累资源→逼近红点"。
