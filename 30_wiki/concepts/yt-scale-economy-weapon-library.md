@@ -25,7 +25,6 @@ status: "enriched"
 title: "规模经济分析武器库"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '壁垒', 'course_id': 'yt-scale-economy-weapon-library', 'course_type': 'tool', 'level': 'core'}
 tags:
@@ -34,11 +33,49 @@ tags:
   - #yitang
 pipeline:
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "能画出业务的费用结构金字塔，区分固定/变动/半变动成本"
+    framework_lens: "成本结构是规模经济的基础"
+    follow_up_question: "随规模扩大，哪类成本会被摊薄？"
+  - signal: "能识别业务中随规模变好、变差、不变的环节"
+    framework_lens: "规模效应是环节级现象"
+    follow_up_question: "你的业务链条上，哪个环节规模效应最强？"
+  - signal: "会与同行业或相似行业对比，判断自身规模效应位置"
+    framework_lens: "规模效应需要参照"
+    follow_up_question: "与行业龙头相比，你的单位成本曲线差距在哪里？"
+updated_at: '2026-06-13'
 ---
 
 # 规模经济分析武器库
 
 > 来源：一堂五步法·壁垒篇 | [[yt-barrier-analysis-cheat-sheet]] | [[yt-unit-model-three-tools]] | [[case-toy-cabinet-business-model]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 评估业务是否具备规模经济壁垒 |
+| **适合** | 需要向投资人解释成本结构和扩张逻辑 |
+| **不适合** | 业务规模极小、成本结构不稳定 |
+| **不适合** | 服务行业或人力密集型业务，规模效应有限 |
+
+### 失败模式
+
+1. **认为‘规模大=规模经济’**
+   - **原因**：概念混淆
+   - **修复**：证明单位成本随规模下降，而不是只看总收入
+
+2. **忽视边际成本，只看固定成本摊薄**
+   - **原因**：成本视角不全
+   - **修复**：同时分析边际成本、获客成本、履约成本的变化
+
+3. **行业对比对象选错**
+   - **原因**：参照系错误
+   - **修复**：选择商业模式相似的同阶段公司对比
+
+4. **静态分析，不考虑产能瓶颈和管理复杂度**
+   - **原因**：忽视规模不经济
+   - **修复**：分析规模扩大后管理、协调、质量的边际变化
 
 ## Summary
 

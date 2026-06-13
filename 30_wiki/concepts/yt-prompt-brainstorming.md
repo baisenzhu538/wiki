@@ -26,7 +26,6 @@ query_triggers:
   - "选项生成"
   - "AI杀手应用"
 created_at: "2026-05-13"
-updated_at: "2026-05-13"
 estimated_tokens: 2000
 tags:
   - #ai
@@ -41,11 +40,49 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "头脑风暴前会明确写出自己独特的资源、约束和目标"
+    framework_lens: "AI头脑风暴的价值来自独特输入"
+    follow_up_question: "这次 brainstorm 中，有哪些输入是只有你能提供的？"
+  - signal: "一次会话会生成≥5个不同方向的选项，再进入筛选"
+    framework_lens: "发散先于收敛"
+    follow_up_question: "AI给出的第一个方案是不是你最可能的默认答案？"
+  - signal: "最终选择由人做出，并对选中方案进行深化"
+    framework_lens: "人是决策者"
+    follow_up_question: "你最后选择的方案与AI最初建议相比，改动有多大？"
+updated_at: '2026-06-13'
 ---
 
 # AI 头脑风暴工作流
 
 > [[yt-model-prompt-engineering]] 的子工具。写作是 AI 最高频场景（24.5%），但头脑风暴（仅 3.9%）才是 AI 最强的用法。AI 应该用来拔高你的上限，而不是抬高你的下限。
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 需要突破常规思路、探索新方案的问题 |
+| **适合** | 个人有独特资源或约束，AI可以帮忙组合 |
+| **不适合** | 问题已经有明确最优解——直接执行更高效 |
+| **不适合** | 没有判断力、无法筛选AI建议的人 |
+
+### 失败模式
+
+1. **给AI的输入太 generic，出来的方案也是大路货**
+   - **原因**：独特输入缺失
+   - **修复**：强制列出：我的资源、约束、过去的成功案例、用户反馈
+
+2. **AI给第一个方案就停止**
+   - **原因**：过早收敛
+   - **修复**：要求AI至少生成5个方向迥异的选项
+
+3. **对AI方案不加判断全盘接受**
+   - **原因**：决策 abdication
+   - **修复**：为每个方案列出‘可行/不可行/需验证’三列
+
+4. **头脑风暴没有明确目标，变成闲聊**
+   - **原因**：目标缺失
+   - **修复**：开始前写清楚：‘我要解决什么问题’和‘好方案的标准’
 
 ## Claims
 

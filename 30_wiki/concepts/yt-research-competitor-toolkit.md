@@ -33,7 +33,6 @@ status: "reviewed"
 title: "竞品拆解工具包：三层分类+内核边界+单元模型对标"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-competitor-toolkit', 'course_type': 'tool', 'level': 'intermediate'}
 tags:
@@ -48,11 +47,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - #tool
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "能区分直接竞品、间接竞品和可借鉴产品三类"
+    framework_lens: "竞品不只是同赛道"
+    follow_up_question: "用户如果不选你，还会怎么解决这个需求？"
+  - signal: "分析时会识别竞品的内核（不可复制）与边界（可攻破）"
+    framework_lens: "内核-边界模型看懂竞品"
+    follow_up_question: "竞品的哪一部分是你最难复制的？哪一部分是它的软肋？"
+  - signal: "竞品分析会输出对自己产品的战略启示"
+    framework_lens: "竞品分析服务于自身决策"
+    follow_up_question: "基于竞品分析，你要调整自己的定位、功能还是商业模式？"
+updated_at: '2026-06-13'
 ---
 
 # 竞品拆解工具包：三层分类+内核边界+单元模型对标
 
 > 来源：一堂《调研武器库》课程、《需求分析》课程 | 独立可用的竞品分析套件：帮你系统性地"看懂"一家竞品，而不是只看到"它有什么功能"。
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 进入市场前、产品定位阶段或战略复盘 |
+| **适合** | 需要理解竞争格局、找到差异化空间 |
+| **不适合** | 没有明确自身目标、纯粹做行业扫描 |
+| **不适合** | 竞品信息公开度极低、无法获取有效情报 |
+
+### 失败模式
+
+1. **只对比功能清单，看不到战略差异**
+   - **原因**：表层分析
+   - **修复**：每个功能背后追问：它服务什么用户、解决什么问题、怎么赚钱
+
+2. **忽视间接竞品和替代品**
+   - **原因**：视野狭窄
+   - **修复**：列出至少2个间接竞品和1个替代品
+
+3. **看到竞品做什么就抄什么**
+   - **原因**：盲目跟随
+   - **修复**：每个借鉴点必须结合自己内核和用户需求评估
+
+4. **竞品分析做完后束之高阁**
+   - **原因**：分析决策脱节
+   - **修复**：输出‘我们应该差异化/跟随/避开’的明确建议
 
 ## Summary
 

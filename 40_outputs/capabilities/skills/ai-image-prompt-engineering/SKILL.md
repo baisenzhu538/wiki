@@ -224,6 +224,12 @@ prompts/
 Luxury cobalt blue glass serum bottle on white marble surface, clear water ripples around the base, soft morning diffused light, no harsh shadows, top-down 45-degree angle, product-centered composition, premium skincare commercial photography, ultra-detailed, photorealistic --ar 4:5 --style raw --no watermark, text, hands
 ```
 
+### 更多示例
+
+- **KDO 知识流水线概念图**：`40_outputs/content/images/generative/prompt-examples/kdo-knowledge-pipeline.md`
+  - 含 Midjourney / SD / Flux / DALL-E 三平台适配版本
+  - 含迭代建议
+
 ---
 
 ## 10. 常见错误

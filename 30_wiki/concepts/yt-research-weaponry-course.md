@@ -7,7 +7,6 @@ source_refs:
   - "src_20260506_bb9048a6"
   - "src_20260507_debc47be"
 created_at: "2026-05-05"
-updated_at: "2026-05-18"
 domain:
   - "yitang"
 yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-003', 'course_type': 'method', 'level': 'core'}
@@ -26,9 +25,47 @@ pipeline:
   - #boundary/not-for-beginners
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "会根据信息价值匹配调研投入力度"
+    framework_lens: "投入与价值匹配"
+    follow_up_question: "这条信息值多少钱？你愿意花多少成本获取？"
+  - signal: "会组合使用产品体验、用户访谈、公开数据、专家、财报等多种手段"
+    framework_lens: "情报获取需要组合拳"
+    follow_up_question: "你已经穷尽了多少个情报节点？"
+  - signal: "对非常规手段会评估法律和道德边界"
+    framework_lens: "调研有合规红线"
+    follow_up_question: "这个手段如果公开，是否会损害信任或触犯规则？"
+updated_at: '2026-06-13'
 ---
 
 # 一堂调研武器库课程
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 高价值商业决策需要深度情报支持 |
+| **适合** | 常规渠道已无法获取关键信息 |
+| **不适合** | 低 stakes 决策——常规调研足够 |
+| **不适合** | 团队缺乏基本调研体感时直接上技巧 |
+
+### 失败模式
+
+1. **浅尝辄止，还没穷尽常规手段就说找不到信息**
+   - **原因**：投入不足
+   - **修复**：对照情报地图检查每个节点是否已尝试
+
+2. **过度依赖非常规手段，损害品牌信任**
+   - **原因**：伦理失控
+   - **修复**：建立合规检查清单，非常规手段需多人审批
+
+3. **只收集信息不验证，来源可信度未知**
+   - **原因**：情报质量缺失
+   - **修复**：关键信息必须通过至少两个独立来源验证
+
+4. **调研投入远超信息价值**
+   - **原因**：成本失衡
+   - **修复**：调研前估算信息对决策的价值上限
 
 ## Summary
 

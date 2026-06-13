@@ -138,6 +138,38 @@ marker_single input.pdf --output_dir output_dir
 7. 最终输出一份完整的结构化 Markdown 文档，保留原始层级和逻辑关系。
 ```
 
+> ✅ **PaddleOCR.js 已验证**：作为现有 `image-ocr` skill 持续可用。
+>
+> ⚠️ **MinerU 2.5 安装验证**（2026-06-14，WSL Ubuntu 22.04）：
+> - `pip install magic-pdf[full]` 可成功安装（magic-pdf 1.3.12）
+> - Windows 直接运行会报 `onnxruntime_pybind11_state` DLL 加载失败，建议在 WSL 下使用
+> - WSL 下运行需要 `~/magic-pdf.json` 配置文件（模板见下方）
+> - **阻塞点**：模型权重文件需单独下载，未在本会话完成
+>
+> ⚠️ **PaddleOCR-VL**：2026 年新模型，pip 包名和安装方式待官方稳定后验证。
+
+### MinerU 配置模板（`~/magic-pdf.json`）
+
+```json
+{
+    "models-dir": "/home/<user>/.cache/magic-pdf/models",
+    "layoutreader-model-dir": "/home/<user>/.cache/magic-pdf/layoutreader",
+    "device-mode": "cpu",
+    "layout-config": { "model": "doclayout_yolo" },
+    "formula-config": {
+        "mfd_model": "yolo_v8_mfd",
+        "mfr_model": "unimernet_small",
+        "enable": true
+    },
+    "table-config": { "model": "rapid_table", "enable": false, "max_time": 400 },
+    "config_version": "1.0.0"
+}
+```
+
+### 模型下载
+
+MinerU 模型需从 HuggingFace `opendatalab/PDF-Extract-Kit` 或 ModelScope 下载到 `models-dir` 目录。模型总大小约 **2-4GB**，建议单独安排下载时间。
+
 ---
 
 ## 4. 选型决策树

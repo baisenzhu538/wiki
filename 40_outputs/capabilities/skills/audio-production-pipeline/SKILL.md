@@ -2,7 +2,7 @@
 name: audio-production-pipeline
 title: 音频生产管线 — TTS / 配音 / 音乐 / 音频后期工作流
 type: capability/skill
-status: draft
+status: stable
 description: >
   把文字内容（文章/卡片/脚本）转化为音频资产的完整管线：
   TTS（edge-tts 免费、ElevenLabs 高真实感）、AI 音乐生成（Suno/Udio）、
@@ -87,6 +87,10 @@ edge-tts --voice zh-CN-XiaoxiaoNeural --text "你好，这是测试" --write-med
 # 生成音频 + 字幕
 edge-tts --voice zh-CN-XiaoxiaoNeural --text "你好，这是测试" --write-media output.mp3 --write-subtitles output.srt
 ```
+
+> ✅ **本地验证通过**（2026-06-14）：在 Windows Python 3.12 环境，`pip install edge-tts` 后可直接使用。已生成测试文件：
+> - `40_outputs/content/audio/test-edge-tts.mp3`
+> - `40_outputs/content/audio/test-edge-tts.srt`
 
 ### 3.3 Python 批量脚本
 

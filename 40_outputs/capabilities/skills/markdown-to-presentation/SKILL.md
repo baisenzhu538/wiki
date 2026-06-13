@@ -2,7 +2,7 @@
 name: markdown-to-presentation
 title: Markdown → 演示文稿 — Marp / Slidev / reveal.js 选型与工作流
 type: capability/skill
-status: draft
+status: stable
 description: >
   把 Markdown 知识卡片/文章转换为可演示幻灯片的工具链：
   Marp（最简 PPT 导出）、Slidev（开发者友好）、reveal.js（最灵活网页幻灯片）。
@@ -109,6 +109,12 @@ marp slide.md --pptx
 # HTML
 marp slide.md --html
 ```
+
+> ✅ **Marp 本地验证通过**（2026-06-14，Windows）：
+> - `npm install -g @marp-team/marp-cli` 安装成功（v4.4.0）
+> - 已将文章 `你的知识，睡了吗？` 转为幻灯片并导出 PDF
+> - 源文件：`40_outputs/content/presentations/kdo-quickstart-slides/slides.md`
+> - 输出：`40_outputs/content/presentations/kdo-quickstart-slides/slides.pdf`
 
 ---
 

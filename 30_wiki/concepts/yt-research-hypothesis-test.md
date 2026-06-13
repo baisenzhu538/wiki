@@ -35,7 +35,6 @@ status: "reviewed"
 title: "假设验证调研工具：关键假设→可证伪问题→最小实验"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-hypothesis-test', 'course_type': 'tool', 'level': 'advanced'}
 tags:
@@ -48,11 +47,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - #tool
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "每个关键假设都被写成可证伪的陈述"
+    framework_lens: "可证伪是科学调研的核心"
+    follow_up_question: "什么样的证据会让你放弃这个假设？"
+  - signal: "为每个假设设计了最小成本验证实验"
+    framework_lens: "调研也要讲投入产出"
+    follow_up_question: "验证这个假设的最便宜方式是什么？"
+  - signal: "验证结果会更新假设优先级和下一步计划"
+    framework_lens: "调研是贝叶斯更新"
+    follow_up_question: "这个验证结果改变了你对哪个假设的信心？"
+updated_at: '2026-06-13'
 ---
 
 # 假设验证调研工具：关键假设→可证伪问题→最小实验
 
 > 来源：一堂《调研行动营》《调研行动营口述01》课程 | 独立可用的假设验证套件：将"关键假设"转化为可调研验证的问题，设计最小成本证伪路径——与[[yt-entrepreneur-key-hypotheses]]直接联动。
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 创业或决策中存在高风险未验证假设 |
+| **适合** | 需要在有限资源下优先验证最危险假设 |
+| **不适合** | 假设已经过充分验证或显而易见的场景 |
+| **不适合** | 无法设计任何可观察指标的概念阶段 |
+
+### 失败模式
+
+1. **假设写成‘用户会喜欢’这类无法证伪的话**
+   - **原因**：假设不具体
+   - **修复**：改写成‘[用户群] 在 [场景] 下愿意 [可观察行为]’
+
+2. **验证实验成本过高，拖慢进度**
+   - **原因**：实验设计不当
+   - **修复**：用专家访谈、问卷、着陆页等低成本方式先做预验证
+
+3. **负面结果被忽视或解释掉**
+   - **原因**：确认偏误
+   - **修复**：实验前写下 kill 条件，达到后必须 pivot 或停止
+
+4. **假设太多，团队无法聚焦**
+   - **原因**：假设膨胀
+   - **修复**：只保留‘如果错了会导致项目失败’的关键假设
 
 ## Summary
 

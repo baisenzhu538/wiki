@@ -7,7 +7,6 @@ source_refs:
   - "src_20260506_e4634e13"
   - "src_20260507_67cb7ed2"
 created_at: "2026-05-05"
-updated_at: "2026-05-18"
 domain:
   - "yitang"
 yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-camp-001', 'course_type': 'method', 'level': 'foundational'}
@@ -25,9 +24,47 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "调研目标是一个具体决策或判断，而不是‘了解一下’"
+    framework_lens: "调研 = 解答题"
+    follow_up_question: "这次调研要回答的具体问题是什么？"
+  - signal: "使用OSL五步法（目标→范围→清单→获取→归一整合）系统推进"
+    framework_lens: "调研有操作流程"
+    follow_up_question: "你当前在OSL的哪一步？下一步的产出物是什么？"
+  - signal: "AI只作为辅助，人掌握方向盘和目标"
+    framework_lens: "人控AI"
+    follow_up_question: "这个调研结论中，哪些部分来自AI、哪些来自你的判断？"
+updated_at: '2026-06-13'
 ---
 
 # 一堂调研行动营 · 启动课（LLM 精炼）
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 需要系统提升调研能力、以行动为中心的学习者 |
+| **适合** | 希望用调研支撑具体商业决策的团队 |
+| **不适合** | 只想获取信息、不想动手实践的人 |
+| **不适合** | 决策时间极短、无法完成系统调研 |
+
+### 失败模式
+
+1. **调研目标模糊，收集一堆信息但无法决策**
+   - **原因**：目标缺失
+   - **修复**：把调研目标写成‘我要判断X，需要验证的假设是Y’
+
+2. **范围无限扩大，陷入信息过载**
+   - **原因**：范围失控
+   - **修复**：用内核-边界模型区分必须研究、可妥协、可舍弃的内容
+
+3. **把AI输出当最终结论，缺少人工判断**
+   - **原因**：AI autopilot
+   - **修复**：每个结论必须标注证据来源和人的置信度
+
+4. **调研完没有行动计划**
+   - **原因**：行动脱节
+   - **修复**：调研结束时必须输出‘决策/下一步验证/放弃’
 
 ## Summary
 

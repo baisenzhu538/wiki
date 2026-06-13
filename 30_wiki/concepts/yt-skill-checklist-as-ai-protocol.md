@@ -1,9 +1,47 @@
 ---
-
-id: yt-skill-checklist-as-ai-protocol
+id: "yt-skill-checklist-as-ai-protocol"
 title: "清单体作为AI的I/O协议——用笔记替代prompt工程"
-domain: [yitang]---
-
+type: "concept"
+status: "draft"
+domain:
+  - "yitang"
+language: "zh-CN"
+version: 1
+confidence: 0.85
+source_refs:
+  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt"
+related:
+  - "yt-note-checklist-concept"
+  - "yt-personal-ai-capability"
+  - "yt-model-prompt-engineering"
+  - "yt-personal-checklist-notes"
+query_triggers:
+  - "清单体"
+  - "AI协议"
+  - "prompt工程"
+  - "笔记即prompt"
+created_at: "2026-06-10"
+updated_at: "2026-06-13"
+estimated_tokens: 2500
+tags:
+  - #ai
+  - #note-taking
+  - #prompt-engineering
+  - #yitang
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
+diagnostic_signals:
+  - signal: "给AI的输入本身就是结构化的清单体，而不是大段自然语言"
+    framework_lens: "清单体降低AI理解成本"
+    follow_up_question: "你的笔记如果直接发给AI，它能否快速识别结构和优先级？"
+  - signal: "AI的输出也要求为清单体，便于直接接入下一轮输入"
+    framework_lens: "结构化输出实现无缝循环"
+    follow_up_question: "AI的输出是否需要你重新整理才能使用？"
+  - signal: "只在L1-L2任务中使用该协议，复杂任务仍用自然语言"
+    framework_lens: "协议有适用范围"
+    follow_up_question: "这个任务是信息整理还是创意策略？"
+---
 # 清单体作为AI的I/O协议——用笔记替代prompt工程
 
 ## Condense
@@ -55,10 +93,30 @@ domain: [yitang]---
 
 ## Constraints & Boundaries
 
-- **适用**：L1-L2级别的任务（信息整理、清单化、格式转换、数据提取）、需要反复交互、需要结构化输出的场景
-- **不适用**：L3+级别的任务（创意思考、情感共鸣、策略推演、洞察提炼）、一次性、非结构化的沟通场景
-- **警惕**：不要强迫所有AI交互都用清单体格式。清单体是一种“协议”，不是一种“限制”——对于复杂问题，自然语言往往更有效
-- **边界**：清单体I/O的效率与笔记质量正相关。如果输入的清单体质量低，输出的清单体也会低质——它是倒逼而非保护
+| 边界 | 说明 |
+|------|------|
+| **适合** | L1-L2任务：信息整理、清单化、数据提取、格式转换 |
+| **适合** | 需要与AI多轮交互、反复迭代的场景 |
+| **不适合** | L3+任务：创意思考、策略推演、情感共鸣 |
+| **不适合** | 一次性、非结构化的简单聊天 |
+
+### 失败模式
+
+1. **把复杂创意任务也硬套清单体协议**
+   - **原因**：协议滥用
+   - **修复**：判断任务层级，L3+任务允许自然语言输出
+
+2. **笔记本身质量差，导致AI输出也差**
+   - **原因**：输入 garbage in
+   - **修复**：先提升清单体笔记的分层、分点、独立性
+
+3. **完全依赖AI输出，不做人工判断**
+   - **原因**： abdication
+   - **修复**：人对清单体的场景使用和最终决策负责
+
+4. **把清单体协议当成唯一交互方式**
+   - **原因**：过度结构化
+   - **修复**：保留自然语言作为探索和高复杂度任务的备用方式
 
 ## Cases
 

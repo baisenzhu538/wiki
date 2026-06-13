@@ -1,16 +1,76 @@
 ---
-
+id: "yt-research-mindset"
+title: "调研认知升级：从"找答案"到"拆解假设""
 type: "concept"
+status: "draft"
+domain:
+  - "yitang"
+language: "zh-CN"
+version: 1
+confidence: 0.85
+source_refs:
+  - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
+related:
+  - "yt-research-osl-framework"
+  - "yt-research-hypothesis-test"
+  - "yt-research-intelligence-map"
+  - "yt-entrepreneur-key-hypotheses"
+query_triggers:
+  - "调研认知"
+  - "找答案到拆解假设"
+  - "调研升级"
+  - "反证调研"
+created_at: "2026-06-10"
+updated_at: "2026-06-13"
+estimated_tokens: 2500
 tags:
-  - "#scene/learning-methodology/mental-models"
-tags:
+  - #research
+  - #critical-thinking
   - #yitang
-
-domain: []---
-
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
+diagnostic_signals:
+  - signal: "调研前会先写下‘什么证据会让我放弃当前假设’"
+    framework_lens: "反证思维"
+    follow_up_question: "你有没有主动寻找过推翻自己的证据？"
+  - signal: "关注‘如果我错了会怎样’而不是只追求正确"
+    framework_lens: "风险管理视角"
+    follow_up_question: "这个方向最坏的结果是什么？你能承受吗？"
+  - signal: "会为调研设定‘够用就停’的阈值，而不是无限收集"
+    framework_lens: "决策效率"
+    follow_up_question: "多少信息足以支撑下一步行动？"
+---
 # 调研认知升级：从"找答案"到"拆解假设"
 
 > 来源：一堂《调研武器库》《调研行动营》《需求分析》课程合集 | 解决问题："做了很多调研但没有改变决策"——从认知层面建立调研如何服务于决策的核心原则。
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 团队或个人需要纠正调研中的认知偏差 |
+| **适合** | 调研经常陷入信息过载或确认偏误的人 |
+| **不适合** | 已经非常理性、已经有成熟调研习惯的专家 |
+| **不适合** | 紧急行动场景——先行动再复盘 |
+
+### 失败模式
+
+1. **调研只为证明自己是对的**
+   - **原因**：确认偏误
+   - **修复**：强制列出3个可能推翻假设的证据，并去验证
+
+2. **追求信息完整，迟迟不行动**
+   - **原因**：完美主义
+   - **修复**：设定‘最小可用信息’阈值，达到即决策
+
+3. **把调研当学术研究，不考虑决策价值**
+   - **原因**：目标错位
+   - **修复**：每次调研前写清：‘这个结论会影响哪个决策？’
+
+4. **反证过度，变得消极不作为**
+   - **原因**：悲观偏差
+   - **修复**：同时收集正反证据，做概率化判断而非二元否定
 
 ## Summary
 

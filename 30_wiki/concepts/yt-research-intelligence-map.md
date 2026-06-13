@@ -31,7 +31,6 @@ status: "reviewed"
 title: "情报获取全景地图：13+渠道穷尽手段"
 trust_level: "medium"
 type: "framework"
-updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-intelligence-map', 'course_type': 'framework', 'level': 'foundational'}
 tags:
@@ -47,11 +46,49 @@ pipeline:
   - #framework
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "面对信息缺口时，能主动调用地图上的多个渠道"
+    framework_lens: "多渠道三角验证"
+    follow_up_question: "这个问题你已经尝试了几个渠道？"
+  - signal: "会根据信息价值决定投入力度，而不是所有问题都穷尽"
+    framework_lens: "调研投入与决策价值匹配"
+    follow_up_question: "这个信息值多少钱？你愿意花多少精力去找？"
+  - signal: "获取的信息会标注来源和可信度"
+    framework_lens: "情报质量需要溯源"
+    follow_up_question: "这条信息的原始来源是什么？可信度如何？"
+updated_at: '2026-06-13'
 ---
 
 # 情报获取全景地图：13+渠道穷尽手段
 
 > 来源：一堂《调研武器库》课程核心内容 | 解决问题："信息在哪里？还能怎么找？"——将商业调研中95%的常用情报获取渠道系统化整理为"三端七点"框架，从内核到外围逐层拓展。
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 商业调研中需要穷尽信息获取渠道的场景 |
+| **适合** | 信息稀缺、需要多源交叉验证 |
+| **不适合** | 信息已经充分公开、单一来源足够 |
+| **不适合** | 信息价值低、不值得投入多渠道成本 |
+
+### 失败模式
+
+1. **只依赖搜索引擎或AI，缺少一手渠道**
+   - **原因**：渠道单一
+   - **修复**：每次调研至少使用一个用户端、一个合作方、一个公开数据渠道
+
+2. **为了穷尽而穷尽，调研成本超过信息价值**
+   - **原因**：投入失衡
+   - **修复**：先评估信息对决策的影响，再决定渠道深度
+
+3. **信息来源未标注，无法判断可信度**
+   - **原因**：溯源缺失
+   - **修复**：每条关键信息记录来源、时间和可信度
+
+4. **把情报收集当终点，不做整合**
+   - **原因**：缺少归一
+   - **修复**：多渠道信息必须在同一框架下对比、冲突点标注
 
 ## Summary
 

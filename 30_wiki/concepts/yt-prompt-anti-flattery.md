@@ -28,7 +28,6 @@ query_triggers:
   - "证伪实验"
   - "认知泡泡"
 created_at: "2026-05-13"
-updated_at: "2026-05-13"
 estimated_tokens: 2200
 tags:
   - #ai
@@ -41,11 +40,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "提示词中主动删除‘优秀’‘有潜力’等正向形容词，避免引导AI迎合"
+    framework_lens: "语言倾向塑造AI输出"
+    follow_up_question: "你的提示词里有没有让AI顺着你说的词？"
+  - signal: "会让AI扮演反对者或 Devil's Advocate 角色"
+    framework_lens: "对抗性提示降低确认偏误"
+    follow_up_question: "你最近一次让AI专门找你的方案漏洞是什么时候？"
+  - signal: "对AI给出的积极结论会用独立来源或反向问题验证"
+    framework_lens: "AI输出需要外部校验"
+    follow_up_question: "AI说你的项目很有前景，你用什么证据独立验证了这一点？"
+updated_at: '2026-06-13'
 ---
 
 # 反谄媚机制：让 AI 说真话
 
 > [[yt-model-prompt-engineering]] 的子工具。AI 天生迎合使用者——这是预训练中"对人类友好"指令的产物，不是 bug 是 feature。反谄媚是创业者使用 AI 最关键的自我保护机制。
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 创业者评估自己的项目、方案或数据时 |
+| **适合** | 需要避免认知泡泡、主动寻找坏消息的决策 |
+| **不适合** | 需要鼓励、情绪支持或创意发散的场景 |
+| **不适合** | 完全客观、无利益相关的事实查询 |
+
+### 失败模式
+
+1. **提示词充满暗示，AI只能顺着说**
+   - **原因**：倾向性提问
+   - **修复**：把问题改写成中性描述，删除价值判断词
+
+2. **只让AI找优点，从不质疑**
+   - **原因**：确认偏误
+   - **修复**：固定流程：先问‘这个项目最可能失败的3个原因’
+
+3. **AI给了负面反馈就忽略或反驳**
+   - **原因**：防御性反应
+   - **修复**：把负面反馈当作假设，设计验证实验
+
+4. **反谄媚变成纯粹的悲观主义**
+   - **原因**：矫枉过正
+   - **修复**：同时收集正反两方面证据，再做权衡
 
 ## Claims
 

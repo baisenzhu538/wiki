@@ -1,16 +1,76 @@
 ---
-
-type: "concept"
+id: "yt-research-user-jtbd"
+title: "用户JTBD访谈工具：区分"说的"和"真正要的""
+type: "tool"
+status: "draft"
+domain:
+  - "yitang"
+language: "zh-CN"
+version: 1
+confidence: 0.85
+source_refs:
+  - "00_inbox/ideas/一堂-创业必修-需求分析.md"
+related:
+  - "yt-research-osl-framework"
+  - "yt-panproduct-demand-need-discovery"
+  - "yt-research-hypothesis-test"
+query_triggers:
+  - "JTBD"
+  - "用户访谈"
+  - "真正要的"
+  - "任务访谈"
+created_at: "2026-06-10"
+updated_at: "2026-06-13"
+estimated_tokens: 2500
 tags:
-  - "#scene/note-taking/checklist-method"
-tags:
+  - #research
+  - #jtbd
+  - #user-research
   - #yitang
-
-domain: []---
-
+pipeline:
+  - confidence-draft
+  - confidence-source-cited
+diagnostic_signals:
+  - signal: "访谈中问‘用户想完成什么任务’而不是‘想要什么功能’"
+    framework_lens: "JTBD = 任务视角"
+    follow_up_question: "用户最近一次使用类似产品时，想解决什么任务？"
+  - signal: "会探索用户的动力、阻力、代理品和成功标准"
+    framework_lens: "任务地图完整画像"
+    follow_up_question: "如果不解决这个任务，用户会怎样？"
+  - signal: "访谈后能写出清晰的 Jobs Statement"
+    framework_lens: "JTBD的输出是任务陈述"
+    follow_up_question: "你能用‘当我想要____，以便____’描述用户任务吗？"
+---
 # 用户JTBD访谈工具：区分"说的"和"真正要的"
 
 > 来源：一堂《需求分析》课程、Clayton Christensen JTBD理论 | 独立可用的用户深度访谈套件：基于Jobs-to-be-Done理论，帮你穿越"用户说的"达到"用户真正需要的"。
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 需要理解用户真实动机、避免被功能请求误导 |
+| **适合** | 产品早期或创新阶段的需求探索 |
+| **不适合** | 用户已经明确表达需求、只需执行的成熟产品 |
+| **不适合** | 无法接触到真实用户或没有访谈能力 |
+
+### 失败模式
+
+1. **用户说要什么功能就记录什么**
+   - **原因**：把愿望当需求
+   - **修复**：每个功能请求后追问：‘你想用这个完成什么任务？’
+
+2. **忽视用户实际行为，只听口头回答**
+   - **原因**： stated preference bias
+   - **修复**：要求用户描述最近一次相关场景的具体行为
+
+3. **任务陈述过于宽泛，无法指导设计**
+   - **原因**：颗粒度不足
+   - **修复**：加入具体场景、触发条件和期望结果
+
+4. **访谈了很多用户但没有提炼出优先级**
+   - **原因**：缺少收敛
+   - **修复**：按任务频率、重要性、现有方案满意度排序
 
 ## Summary
 

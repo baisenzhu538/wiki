@@ -35,7 +35,6 @@ source_refs:
 status: "enriched"
 title: "吴恩达提示词课程·一堂拆书精华"
 type: "course_notes"
-updated_at: 2026-05-13
 version: 1
 tags:
   - #ai
@@ -55,6 +54,17 @@ pipeline:
   - #boundary/single-use-only
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "会把一个复杂任务拆成多轮提示，而不是期望一次完美输出"
+    framework_lens: "提示词工程的核心是迭代"
+    follow_up_question: "你最近一次用几轮对话才把提示词调到可用？"
+  - signal: "知道AI的边界（不能替代判断、可能幻觉、会谄媚），并设计防护"
+    framework_lens: "人与AI分工明确"
+    follow_up_question: "在这个任务中，哪些部分必须保留人类最终判断？"
+  - signal: "会根据任务类型选择合适子工具（写作、头脑风暴、反谄媚等）"
+    framework_lens: "提示词是工具箱"
+    follow_up_question: "这个任务更适合用哪个子工具？"
+updated_at: '2026-06-13'
 ---
 
 # 吴恩达提示词课程·一堂拆书精华
@@ -62,6 +72,33 @@ pipeline:
 > **此卡已展开为完整卡片树。** 本文是课程原始笔记（20条 claims），系统化架构见 [[yt-model-prompt-engineering]]（1 framework + 4 tool + 2 concept）。
 >
 > 拆书会第202期。吴恩达《AI Prompting for Everyone》（21节课，3小时） × 一堂创业场景深度应用。课程免费，B站有中文字幕版。
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 希望系统提升AI协作效率的知识工作者 |
+| **适合** | 已经用过AI但效果不稳定、想建立方法论的人 |
+| **不适合** | 完全没有AI使用经验的人——先实际操作再学理论 |
+| **不适合** | 期望AI完全替代人类判断的高 stakes 决策 |
+
+### 失败模式
+
+1. **写一个非常长非常复杂的提示词，期望一次出结果**
+   - **原因**：一次性思维
+   - **修复**：先给最小上下文生成初稿，再逐轮补充约束
+
+2. **盲目相信AI输出，不验证事实**
+   - **原因**：自动化偏差
+   - **修复**：对关键事实要求来源，并独立抽查
+
+3. **把所有问题都用同一个提示词模板套**
+   - **原因**：模板滥用
+   - **修复**：根据任务类型（写作/分析/创意）选择不同策略
+
+4. **只关注提示词技巧，忽视业务问题和判断力**
+   - **原因**：技巧至上
+   - **修复**：先明确要解决的问题，再设计提示词
 
 ## Claims
 

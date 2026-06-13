@@ -6,7 +6,7 @@
 
 ## 🎯 全量精修任务
 
-**总卡数：238 张 yt-* 卡（已精修 188 张含 DS，剩余 ~50 张）。**
+**总卡数：238 张 yt-* 卡（已精修 208 张含 DS，剩余 ~30 张）。**
 
 > 注：历史批次表格中部分卡片重复出现，导致序号累加高于实际；后续累计数以「frontmatter 中已写入 diagnostic_signals」的真实卡数为准。
 
@@ -52,7 +52,17 @@
 
 ### 审查结果
 
-✅ **第一批 5 张全部通过（2026-06-13）。** 继续做第二批。第二批完成后通知欧阳锋抽检。
+✅ **全量精修接近完成（208/238）。** 收尾完成后通知欧阳锋。
+
+---
+
+## 🎯 精修收尾后
+
+| 顺序 | 任务 | 说明 |
+|:----:|:-----|:------|
+| **1** | **七件事集团 🟢/🟡 入库** | 王语嫣准入清单，加工进 30_wiki/ |
+| **2** | **断言式标题** | 新卡强制执行，旧卡维护时顺手改 |
+| **3** | **录音素材加工** | 等王语嫣下一批评估后启动 |
 
 ### 第一批 5 张精修状态
 
@@ -383,6 +393,40 @@
 | 190 | `yt-pitch-storytelling` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
 
 **更新：2026-06-13** — 第二十批 10 张已完成第一圈精修。实际累计完成 188 张含 DS，剩余 ~50 张。
+
+### 第二十一批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----|:----|:----|:----|:----|
+| 191 | `yt-pitch-sublimation` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 192 | `yt-product-kernel-cultivation` | framework | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 193 | `yt-product-ten-metrics` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 194 | `yt-prompt-anti-flattery` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 195 | `yt-prompt-brainstorming` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 196 | `yt-prompt-engineering-andrew-ng` | course_notes | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 197 | `yt-prompt-iterative-prompting` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 198 | `yt-prompt-writing-workflow` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 199 | `yt-research-action-camp-launch` | concept | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 200 | `yt-research-competitor-toolkit` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第二十一批 10 张已完成第一圈精修。实际累计完成 198 张含 DS，剩余 ~40 张。
+
+### 第二十二批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----|:----|:----|:----|:----|
+| 201 | `yt-research-expert-interview` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 202 | `yt-research-hypothesis-test` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 203 | `yt-research-industry-canvas` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 204 | `yt-research-intelligence-map` | framework | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 205 | `yt-research-mindset` | concept | 重建损坏 frontmatter，新增 DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 206 | `yt-research-osl-framework` | framework | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 207 | `yt-research-user-jtbd` | tool | 重建损坏 frontmatter，新增 DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 208 | `yt-research-weaponry-course` | concept | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 209 | `yt-scale-economy-weapon-library` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 210 | `yt-skill-checklist-as-ai-protocol` | concept | 重建损坏 frontmatter，新增 DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第二十二批 10 张已完成第一圈精修。实际累计完成 208 张含 DS，剩余 ~30 张。
 
 ---
 
