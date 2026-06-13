@@ -48,6 +48,18 @@
 
 逐张开工，禁止批量。改完一张自查 → 改下一张。凑满 5 张 → 通知欧阳锋审查。5 张全部通过之前，不动第 6 张。
 
+### 第一批 5 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----:|:-----|:----:|:---------|:----:|
+| 1 | `yt-model-five-step-canvas` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | 🟡 待审查 |
+| 2 | `yt-decision-habit-shift` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | 🟡 待审查 |
+| 3 | `yt-decision-height-toolkit` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | 🟡 待审查 |
+| 4 | `yt-unit-model-build` | skill | 新增 frontmatter DS 2 条 + 正文 DS 精简 + 失败模式从 2 条补到 4 条 | 🟡 待审查 |
+| 5 | `yt-decision-review` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | 🟡 待审查 |
+
+**更新：2026-06-13** — 第一批 5 张已完成第一圈精修，等待欧阳锋审查。
+
 ---
 
 ## 🔴 任务 1：P1 旧卡补互链 — 核心工具卡 20 张
