@@ -148,10 +148,11 @@ pipeline:
 
 ### 局限性
 
-1. **真实运营数据缺失**：公开渠道无药柜运营商系统性披露的日均销售额和回本周期，本卡数据为估算。
+1. **真实运营数据缺失**：公开渠道无药柜运营商系统性披露的日均销售额和回本周期，本卡数据为估算。第八轮深挖确认：云央智能、巨米智能、智购科技、好药师、泉源堂、诺博医疗、艾隆科技、健麾信息等均未公开院外药柜真实运营数据；修正未来药房投资者实际收益从"月销 2.2 万元/一年回本"跌至"每月几元、十几元"。
 2. **场景差异大**：医院、社区、校园、企业园区的经济模型差异显著，不能用一个模型套所有场景。
-3. **未考虑隐性成本**：政策合规成本（执业药师远程服务、GSP 改造）、医保接入成本、消费者投诉处理成本等未完全计入。
+3. **未考虑隐性成本**：政策合规成本（执业药师远程服务、GSP 改造）、医保接入成本、消费者投诉处理成本、法律风险成本等未完全计入。
 4. **未考虑 O2O 抽成**：若作为 O2O 前置仓，平台抽成 15%–25% 会显著压缩毛利。
+5. **巨头未进入诊所+药柜场景**：阿里、京东、美团、饿了么、叮当、平安均未公开布局诊所+药柜，说明该模式在流量、履约、供应链、医保、合规、SKU 六个维度均不占优势。
 
 ### 与已有知识的联系
 
@@ -168,9 +169,13 @@ pipeline:
 
 ---
 
+
 ## Sources
 
 1. `corr_20260613_smart-medicine-cabinet-iteration-2-financial-model.md`
 2. `corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive.md`
 3. `corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive.md`
-4. 上市连锁药店年报（益丰、老百姓、大参林、一心堂、漱玉平民、健之佳）
+4. `corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape.md`
+5. `corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures.md`
+6. `corr_20260613_smart-medicine-cabinet-iteration-8-synthesis.md`
+7. 上市连锁药店年报（益丰、老百姓、大参林、一心堂、漱玉平民、健之佳）
