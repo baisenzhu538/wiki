@@ -1,15 +1,15 @@
 ---
-
-title: "OCR: 一堂-单元模型-找基准值实操难点"
-type: "concept"
-status: "draft"
-source_refs: [src_20260609_e79bff0e]
-created_at: "2026-06-09T14:05:28+00:00"
-updated_at: "2026-06-09T14:05:28+00:00"
+title: 'OCR: 一堂-单元模型-找基准值实操难点'
+type: concept
+status: draft
+source_refs:
+- src_20260609_e79bff0e
+created_at: '2026-06-09T14:05:28+00:00'
+updated_at: '2026-06-13'
 tags:
-  - #domain/general
-
-domain: []---
+- null
+domain: []
+---
 
 # OCR: 一堂-单元模型-找基准值实操难点
 
@@ -32,7 +32,6 @@ domain: []---
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
 
 ## Output Opportunities
 

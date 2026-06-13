@@ -1,15 +1,15 @@
 ---
-
-title: "OCR: 一堂-单元模型-学练用"
-type: "concept"
-status: "enriched"
-source_refs: [src_20260609_bcbbb2ed]
-created_at: "2026-06-09T14:05:27+00:00"
-updated_at: "2026-06-09T15:52:58+00:00"
+title: 'OCR: 一堂-单元模型-学练用'
+type: concept
+status: enriched
+source_refs:
+- src_20260609_bcbbb2ed
+created_at: '2026-06-09T14:05:27+00:00'
+updated_at: '2026-06-13'
 tags:
-  - #domain/general
-
-domain: []---
+- null
+domain: []
+---
 
 
 
@@ -46,7 +46,6 @@ T-Partner/AI答疑 AI习题集/AI案例集 C-Partner/P-Partner
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
 
 ## Output Opportunities
 

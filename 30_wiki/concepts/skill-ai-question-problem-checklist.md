@@ -1,10 +1,13 @@
 ---
-
-id: "skill-ai-question-problem-checklist"
-title: "技能：提问题转化三问清单"
-type: "skill"
+id: skill-ai-question-problem-checklist
+title: 技能：提问题转化三问清单
+type: skill
 status: needs-review
-domain: []---
+domain: []
+related:
+- skill-ai-problem-question-check
+updated_at: '2026-06-13'
+---
 
 # 技能：提问题转化三问清单
 

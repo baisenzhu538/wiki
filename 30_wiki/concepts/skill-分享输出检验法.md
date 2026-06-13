@@ -24,16 +24,13 @@ tools_required:
 - 演讲场合
 prerequisite_skills: []
 related:
+- skill-分享输出检验
 tags:
-- '#domain/learning-methodology'
-- '#domain/yitang'
-- '#scene/output-feedback'
+- null
+- null
+- null
 created_at: '2026-06-09'
-updated_at: '2026-06-09'
-tags:
-  - #scene/skill-engineering
-  - #domain/learning-methodology
-  - #yitang
+updated_at: '2026-06-13'
 ---
 
 # 技能：分享输出检验法

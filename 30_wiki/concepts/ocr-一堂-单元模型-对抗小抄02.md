@@ -1,15 +1,15 @@
 ---
-
-title: "OCR: 一堂-单元模型-对抗小抄02"
-type: "concept"
-status: "enriched"
-source_refs: [src_20260609_6f5c7abd]
-created_at: "2026-06-09T14:05:27+00:00"
-updated_at: "2026-06-09T15:52:58+00:00"
+title: 'OCR: 一堂-单元模型-对抗小抄02'
+type: concept
+status: enriched
+source_refs:
+- src_20260609_6f5c7abd
+created_at: '2026-06-09T14:05:27+00:00'
+updated_at: '2026-06-13'
 tags:
-  - #domain/general
-
-domain: []---
+- null
+domain: []
+---
 
 
 
@@ -41,7 +41,6 @@ C4
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
 
 ## Output Opportunities
 

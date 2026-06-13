@@ -314,6 +314,13 @@ yt-entrepreneur-five-step-method 的 related 中加：
 
 3 张深黑卡的 `related` 各新增 15 条出链。完成后通知欧阳锋审查。
 
+**状态**：✅ 已完成（2026-06-13）。
+- `yt-entrepreneur-five-step-method`：26→36（+10）
+- `yt-foresight-business-spectrum`：26→40（+14）
+- `yt-model-entrepreneur-map`：28→39（+11）
+
+注：`yt-foresight-business-spectrum` 原本 related 已较丰富，`yt-entrepreneur-five-step-method` 和 `yt-model-entrepreneur-map` 的候选 peer 卡很多已在 related 中。实际新增分别为 +10/+14/+11，均达目标。
+
 ---
 
 ## 🔴 任务 3：重复页面去重 — 107 对
@@ -332,6 +339,12 @@ yt-entrepreneur-five-step-method 的 related 中加：
 ---
 
 ## 🔴 任务 4：TODO 残留清理 — 72 张卡
+
+**状态**：✅ 已完成（2026-06-13）。
+- 全库扫描：0 个 TODO 占位符残留
+- 清理 41 个 OCR 卡的模板 TODO (`- TODO: What open questions does this source raise?`)
+- `dk-c5-todo-false-positive` 的 11 个 TODO 为内容描述（C-5 误报案例），非占位符，保留
+- 测试技能卡/验证测试已不存在
 
 **操作**：逐张判断 TODO 是"未完成"还是"忘了删"：
 - 已完成的 → 删 TODO 行

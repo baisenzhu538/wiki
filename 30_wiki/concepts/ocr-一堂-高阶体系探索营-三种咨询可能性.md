@@ -1,15 +1,15 @@
 ---
-
-title: "OCR: 一堂-高阶体系探索营-三种咨询可能性"
-type: "concept"
-status: "enriched"
-source_refs: [src_20260609_b32e7bb8]
-created_at: "2026-06-09T14:05:52+00:00"
-updated_at: "2026-06-09T15:52:58+00:00"
+title: 'OCR: 一堂-高阶体系探索营-三种咨询可能性'
+type: concept
+status: enriched
+source_refs:
+- src_20260609_b32e7bb8
+created_at: '2026-06-09T14:05:52+00:00'
+updated_at: '2026-06-13'
 tags:
-  - #domain/general
-
-domain: []---
+- null
+domain: []
+---
 
 
 
@@ -52,7 +52,6 @@ B 擅长：
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
 
 ## Output Opportunities
 

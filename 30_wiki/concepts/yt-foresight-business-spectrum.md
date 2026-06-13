@@ -1,95 +1,114 @@
 ---
-id: "yt-foresight-business-spectrum"
-type: "framework"
-component_of: ""
+id: yt-foresight-business-spectrum
+type: framework
+component_of: ''
 confidence: 0.9
 created_at: 2026-06-10
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+- yitang
 estimated_tokens: 2800
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: ''
 query_triggers:
-  - "终局光谱图"
-  - "商业规模光谱"
-  - "副业到上市"
-  - "创业七级"
-  - "质变点"
-  - "保A争B"
-  - "终局预判"
-  - "创业段位"
+- 终局光谱图
+- 商业规模光谱
+- 副业到上市
+- 创业七级
+- 质变点
+- 保A争B
+- 终局预判
+- 创业段位
 related:
-  - "yt-entrepreneur-five-step-method"
-  - "yt-tool-foresight-canvas"
-  - "yt-foresight-model-taxonomy"
-  - "yt-foresight-ten-fatal-flaws"
-  - "yt-foresight-15-char-mantra"
-  - "yt-foresight-addition-subtraction"
-  - "yt-foresight-probability-engineering"
-  - "yt-foresight-deliverables-four-levels"
-  - "yt-foresight-ab-steady-state"
-  - "yt-ai-startup-20-risky-hypotheses"
-  - "yt-ai-trend-12-signals"
-  - "yt-decision-y-model"
-  - "yt-entrepreneur-key-hypotheses"
-  - "yt-panproduct-demand-industry-canvas"
-  - "yt-panproduct-demand-five-step-method"
-  - "yt-panproduct-demand-need-discovery"
-  - "yt-panproduct-demand-user-segmentation"
-  - "case-coffee-shop-foresight"
-  - "case-gudong-tea-shop-foresight"
-  - "yt-entrepreneur-scientific-method"
-  - "yt-decision-width-method"
-  - "yt-decision-depth-ladder"
-  - "yt-tool-strategy-workshop"
-  - "yt-personal-deep-review"
-  - "yt-research-osl-framework"
+- yt-entrepreneur-five-step-method
+- yt-tool-foresight-canvas
+- yt-foresight-model-taxonomy
+- yt-foresight-ten-fatal-flaws
+- yt-foresight-15-char-mantra
+- yt-foresight-addition-subtraction
+- yt-foresight-probability-engineering
+- yt-foresight-deliverables-four-levels
+- yt-foresight-ab-steady-state
+- yt-ai-startup-20-risky-hypotheses
+- yt-ai-trend-12-signals
+- yt-decision-y-model
+- yt-entrepreneur-key-hypotheses
+- yt-panproduct-demand-industry-canvas
+- yt-panproduct-demand-five-step-method
+- yt-panproduct-demand-need-discovery
+- yt-panproduct-demand-user-segmentation
+- case-coffee-shop-foresight
+- case-gudong-tea-shop-foresight
+- yt-entrepreneur-scientific-method
+- yt-decision-width-method
+- yt-decision-depth-ladder
+- yt-tool-strategy-workshop
+- yt-personal-deep-review
+- yt-research-osl-framework
+- yt-entrepreneur-industry-forecast
+- case-truman-yitang-foresight
+- case-xiaolong-ecommerce-foresight
+- case-toy-cabinet-business-model
+- master-decision-hygiene
+- yt-decision-ai-partner
+- yt-decision-canvas
+- yt-decision-full-process
+- yt-decision-habit-shift
+- yt-entrepreneur-opportunity-selection
+- yt-entrepreneur-business-growth
+- yt-three-dimension-opportunity-matrix
+- yt-management-business-formula
+- yt-management-scientific-decision
+- dk-foresight-source-material-blindness
 review_date: 2026-06-10
 reviewed_by:
-  - "黄药师"
-  - "laowantong"
+- 黄药师
+- laowantong
 source_refs:
-  - "00_inbox/一堂-机会预判-终局光谱图-truman-图01.png"
-  - "00_inbox/一堂-机会预判-终局光谱图-truman-图02.png"
-  - "00_inbox/一堂-机会预判-终局光谱图-truman-图03.png"
-  - "00_inbox/一堂-机会预判-终局光谱图示例-truman-图01.png"
-  - "00_inbox/一堂-机会预判-终局光谱图解读-truman-02.png"
-status: "enriched"
+- 00_inbox/一堂-机会预判-终局光谱图-truman-图01.png
+- 00_inbox/一堂-机会预判-终局光谱图-truman-图02.png
+- 00_inbox/一堂-机会预判-终局光谱图-truman-图03.png
+- 00_inbox/一堂-机会预判-终局光谱图示例-truman-图01.png
+- 00_inbox/一堂-机会预判-终局光谱图解读-truman-02.png
+status: enriched
 diagnostic_signals:
-  - signal: "用户想开一个店/做一个项目，但说不清楚想做多大、目标模糊"
-    framework_lens: "用七级光谱帮用户定位当前想法在哪个层级，暴露目标模糊的问题"
-    follow_up_question: "你做这件事3-5年后，最低能接受做成什么程度（保A）？最理想做到什么程度（争B）？"
-  - signal: "用户在两个完全不同的商业模式之间纠结（如加盟vs自建、做品牌vs做白牌）"
-    framework_lens: "帮用户看到不同模式对应光谱的不同位置，以及每个位置的预判深度要求（L1-L6）"
-    follow_up_question: "这两个选项在光谱上分别落在哪个位置？你的能力和资源匹配哪个位置的预判要求？"
-  - signal: "用户想融资/做头部，但没做过任何行业预判"
-    framework_lens: "光谱右侧（L5-L7）强制要求行业预判——没有行业预判能力却追求头部位置=重大硬伤"
-    follow_up_question: "你的目标在光谱的L4-L7哪一级？这个级别要求的预判深度（商业/团队/行业）你做了吗？"
+- signal: 用户想开一个店/做一个项目，但说不清楚想做多大、目标模糊
+  framework_lens: 用七级光谱帮用户定位当前想法在哪个层级，暴露目标模糊的问题
+  follow_up_question: 你做这件事3-5年后，最低能接受做成什么程度（保A）？最理想做到什么程度（争B）？
+- signal: 用户在两个完全不同的商业模式之间纠结（如加盟vs自建、做品牌vs做白牌）
+  framework_lens: 帮用户看到不同模式对应光谱的不同位置，以及每个位置的预判深度要求（L1-L6）
+  follow_up_question: 这两个选项在光谱上分别落在哪个位置？你的能力和资源匹配哪个位置的预判要求？
+- signal: 用户想融资/做头部，但没做过任何行业预判
+  framework_lens: 光谱右侧（L5-L7）强制要求行业预判——没有行业预判能力却追求头部位置=重大硬伤
+  follow_up_question: 你的目标在光谱的L4-L7哪一级？这个级别要求的预判深度（商业/团队/行业）你做了吗？
 diagnostic_relations:
-  - target: "case-coffee-shop-foresight"
-    relation: "applies_when"
-    description: "用户想开线下实体店但对规模没有概念时，咖啡店案例展示了如何用光谱定位'保3争5'"
-  - target: "case-escort-service-tiered-growth"
-    relation: "applies_when"
-    description: "用户想做服务业创业时，陪诊案例展示了如何从'保2争4'开始光谱定位"
-  - target: "yt-foresight-ten-fatal-flaws"
-    relation: "requires_input"
-    description: "光谱定位后，需要用十大硬伤清单逐条检查该位置是否有致命硬伤"
-title: "终局光谱图"
-trust_level: "medium"
-type: "framework"
-updated_at: 2026-06-10
+- target: case-coffee-shop-foresight
+  relation: applies_when
+  description: 用户想开线下实体店但对规模没有概念时，咖啡店案例展示了如何用光谱定位'保3争5'
+- target: case-escort-service-tiered-growth
+  relation: applies_when
+  description: 用户想做服务业创业时，陪诊案例展示了如何从'保2争4'开始光谱定位
+- target: yt-foresight-ten-fatal-flaws
+  relation: requires_input
+  description: 光谱定位后，需要用十大硬伤清单逐条检查该位置是否有致命硬伤
+title: 终局光谱图
+trust_level: medium
+updated_at: '2026-06-13'
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '机会预判', 'course_id': 'yt-foresight-business-spectrum', 'course_type': 'framework', 'level': 'core'}
+yitang:
+  map: entrepreneur
+  module: 机会预判
+  course_id: yt-foresight-business-spectrum
+  course_type: framework
+  level: core
 tags:
-  - #scene/business-analysis
-  - #scene/entrepreneurship
-  - #yitang
+- null
+- null
+- null
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+- null
+- confidence-source-cited
+- confidence-verified-by-case
 ---
 
 # 终局光谱图

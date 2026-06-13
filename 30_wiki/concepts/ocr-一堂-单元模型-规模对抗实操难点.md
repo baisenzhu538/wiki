@@ -1,15 +1,15 @@
 ---
-
-title: "OCR: 一堂-单元模型-规模对抗实操难点"
-type: "concept"
-status: "enriched"
-source_refs: [src_20260609_1c8b4d0e]
-created_at: "2026-06-09T14:05:51+00:00"
-updated_at: "2026-06-09T15:52:58+00:00"
+title: 'OCR: 一堂-单元模型-规模对抗实操难点'
+type: concept
+status: enriched
+source_refs:
+- src_20260609_1c8b4d0e
+created_at: '2026-06-09T14:05:51+00:00'
+updated_at: '2026-06-13'
 tags:
-  - #domain/general
-
-domain: []---
+- null
+domain: []
+---
 
 
 
@@ -44,7 +44,6 @@ domain: []---
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
 
 ## Output Opportunities
 

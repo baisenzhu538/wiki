@@ -1,21 +1,30 @@
 ---
-id: "skill-分享输出检验"
-title: "技能：分享输出检验"
-type: "skill"
-status: "draft"
+id: skill-分享输出检验
+title: 技能：分享输出检验
+type: skill
+status: draft
 domain: []
-source_person: "一堂课程"
-source_context: "src_20260522_dee56cff"
-source_refs: [src_20260522_dee56cff]
+source_person: 一堂课程
+source_context: src_20260522_dee56cff
+source_refs:
+- src_20260522_dee56cff
 wiki_refs: []
-definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工具要求明确]
-tools_required: [写作平台, 短视频工具, 演讲场合, 社群平台]
+definition_of_done:
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
+tools_required:
+- 写作平台
+- 短视频工具
+- 演讲场合
+- 社群平台
 prerequisite_skills: []
-related: []
-created_at: "2026-06-09T15:59:56+00:00"
-updated_at: "2026-06-09T15:59:56+00:00"
+related:
+- skill-分享输出检验法
+created_at: '2026-06-09T15:59:56+00:00'
+updated_at: '2026-06-13'
 pipeline:
-  - #skill
+- null
 ---
 
 # 技能：分享输出检验

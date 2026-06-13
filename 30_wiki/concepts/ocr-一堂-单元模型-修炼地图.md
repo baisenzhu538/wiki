@@ -1,15 +1,15 @@
 ---
-
-title: "OCR: 一堂-单元模型-修炼地图"
-type: "concept"
-status: "enriched"
-source_refs: [src_20260609_71152485]
-created_at: "2026-06-09T14:04:55+00:00"
-updated_at: "2026-06-09T15:52:57+00:00"
+title: 'OCR: 一堂-单元模型-修炼地图'
+type: concept
+status: enriched
+source_refs:
+- src_20260609_71152485
+created_at: '2026-06-09T14:04:55+00:00'
+updated_at: '2026-06-13'
 tags:
-  - #domain/general
-
-domain: []---
+- null
+domain: []
+---
 
 
 
@@ -48,7 +48,6 @@ YitangUnitModelTrainingMap
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
 
 ## Output Opportunities
 

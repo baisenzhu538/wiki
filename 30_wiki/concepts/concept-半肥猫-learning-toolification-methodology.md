@@ -1,34 +1,34 @@
 ---
-
-id: "concept-半肥猫-learning-toolification-methodology"
-title: "学习成果工具化方法论：从课程作业到可复用能力的转化框架"
-type: "concept"
-status: "draft"
+id: concept-半肥猫-learning-toolification-methodology
+title: 学习成果工具化方法论：从课程作业到可复用能力的转化框架
+type: concept
+status: draft
 domain:
-  - "ai-collaboration"
-  - "yitang"
-source_person: "半肥猫"
-source_context: "AI俱乐部·AI学习落地（2026-06分享）"
+- ai-collaboration
+- yitang
+source_person: 半肥猫
+source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
-  - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
-created_at: "2026-06-08"
-updated_at: "2026-06-08"
+- 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
+created_at: '2026-06-08'
+updated_at: '2026-06-13'
 related:
-  - "case-半肥猫-from-assignment-to-tool"
-  - "case-半肥猫-course-to-skill"
-  - "skill-半肥猫-ai-research-validation"
-  - "dk-半肥猫-silky-answers-are-dangerous"
-  - "dk-纪浩-清单体笔记-3层循环"
-  - "skill-半肥猫-course-to-skill-workflow"
+- case-半肥猫-from-assignment-to-tool
+- case-半肥猫-course-to-skill
+- skill-半肥猫-ai-research-validation
+- dk-半肥猫-silky-answers-are-dangerous
+- dk-纪浩-清单体笔记-3层循环
+- skill-半肥猫-course-to-skill-workflow
+- concept-半肥猫-ai-learning-toolification-methodology
 tags:
-  - #domain/ai-collaboration
-  - #domain/yitang
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/skill-engineering/course-to-skill
-  - #scene/product-design/mvp
+- null
+- null
+- null
+- null
+- null
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 ---
 
 # 学习成果工具化方法论：从课程作业到可复用能力的转化框架

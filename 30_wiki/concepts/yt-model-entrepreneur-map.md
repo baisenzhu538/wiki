@@ -1,78 +1,92 @@
 ---
-id: "yt-model-entrepreneur-map"
-component_of: ""
+id: yt-model-entrepreneur-map
+component_of: ''
 confidence: 0.85
 created_at: 2026-05-07
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+- yitang
 estimated_tokens: 2009
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: ''
 query_triggers:
-  - "三阶段结构"
-  - "关联卡片"
-  - "创业修炼地图"
-  - "增长阶段核心模块"
-  - "底层逻辑"
-  - "核心追求"
-  - "知识体系定位"
-  - "科学专项工具箱"
-  - "起盘阶段双轨并行"
+- 三阶段结构
+- 关联卡片
+- 创业修炼地图
+- 增长阶段核心模块
+- 底层逻辑
+- 核心追求
+- 知识体系定位
+- 科学专项工具箱
+- 起盘阶段双轨并行
 related:
-  - "yt-entrepreneur-five-step-method"
-  - "yt-entrepreneur-key-hypotheses"
-  - "yt-model-progress-map"
-  - "yt-model-cognitive-upgrade-framework"
-  - "yt-personal-deep-review"
-  - "yt-personal-knowledge-extraction"
-  - "yt-personal-ipo-learning"
-  - "yt-personal-ai-capability"
-  - "yt-personal-deliberate-practice"
-  - "yt-personal-y-model-exploration-2"
-  - "yt-model-personal-map"
-  - "yt-model-management-map"
-  - "yt-model-y-organization"
-  - "yt-management-toolkit-overview"
-  - "yt-tool-okr-cycle"
-  - "yt-tool-meeting-designer"
-  - "yt-tool-hiring-scorecard"
-  - "yt-foresight-business-spectrum"
-  - "yt-entrepreneur-barriers"
-  - "yt-personal-time-management"
-  - "yt-personal-thinking-models"
-  - "yt-management-scientific-meetings"
-  - "yt-management-scientific-hiring"
-  - "yt-management-goal-management"
-  - "yt-entrepreneur-scientific-method"
-  - "yt-research-osl-framework"
-  - "yt-foresight-15-char-mantra"
-  - "yt-product-kernel-cultivation"
-reviewed_by: "黄药师"
+- yt-entrepreneur-five-step-method
+- yt-entrepreneur-key-hypotheses
+- yt-model-progress-map
+- yt-model-cognitive-upgrade-framework
+- yt-personal-deep-review
+- yt-personal-knowledge-extraction
+- yt-personal-ipo-learning
+- yt-personal-ai-capability
+- yt-personal-deliberate-practice
+- yt-personal-y-model-exploration-2
+- yt-model-personal-map
+- yt-model-management-map
+- yt-model-y-organization
+- yt-management-toolkit-overview
+- yt-tool-okr-cycle
+- yt-tool-meeting-designer
+- yt-tool-hiring-scorecard
+- yt-foresight-business-spectrum
+- yt-entrepreneur-barriers
+- yt-personal-time-management
+- yt-personal-thinking-models
+- yt-management-scientific-meetings
+- yt-management-scientific-hiring
+- yt-management-goal-management
+- yt-entrepreneur-scientific-method
+- yt-research-osl-framework
+- yt-foresight-15-char-mantra
+- yt-product-kernel-cultivation
+- yt-entrepreneur-259-milestone
+- yt-entrepreneur-business-growth
+- yt-entrepreneur-channel-exploration
+- yt-entrepreneur-concentration-analysis
+- yt-entrepreneur-fundraising
+- yt-entrepreneur-industrial-production
+- yt-entrepreneur-opportunity-selection
+- yt-entrepreneur-pragmatic-startup
+- yt-entrepreneur-spin-selling
+- yt-entrepreneur-truth-seeking
+- yt-tool-strategy-workshop
+reviewed_by: 黄药师
 source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-  - "10_raw/assets/yitang/一堂-地图-创业地图.webp"
-status: "enriched"
-title: "创业修炼地图"
-type: "framework"
-updated_at: 2026-05-08
+- 10_raw/sources/一堂-课程地图精华串讲.md
+- 10_raw/assets/yitang/一堂-地图-创业地图.webp
+status: enriched
+title: 创业修炼地图
+type: framework
+updated_at: '2026-06-13'
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '方法论总纲', 'course_type': 'model'}
+yitang:
+  map: entrepreneur
+  module: 方法论总纲
+  course_type: model
 tags:
-  - #core-model
-  - #entrepreneurship
-  - #scene/business-analysis/conversion-rate
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering
-  - #yitang
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+- null
+- null
+- null
+- confidence-source-cited
+- confidence-verified-by-case
 ---
 
 # 一堂创业地图：高潜力创业者修炼全景图

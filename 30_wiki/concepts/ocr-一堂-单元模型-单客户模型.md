@@ -1,15 +1,15 @@
 ---
-
-title: "OCR: 一堂-单元模型-单客户模型"
-type: "concept"
-status: "enriched"
-source_refs: [src_20260609_59f0b2a5]
-created_at: "2026-06-09T14:04:56+00:00"
-updated_at: "2026-06-09T15:52:58+00:00"
+title: 'OCR: 一堂-单元模型-单客户模型'
+type: concept
+status: enriched
+source_refs:
+- src_20260609_59f0b2a5
+created_at: '2026-06-09T14:04:56+00:00'
+updated_at: '2026-06-13'
 tags:
-  - #domain/general
-
-domain: []---
+- null
+domain: []
+---
 
 
 
@@ -42,7 +42,6 @@ domain: []---
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
 
 ## Output Opportunities
 

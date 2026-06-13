@@ -1,15 +1,15 @@
 ---
-
-title: "OCR: 一堂-创业必修-课程清单"
-type: "concept"
-status: "enriched"
-source_refs: [src_20260609_a8ead237]
-created_at: "2026-06-09T14:04:55+00:00"
-updated_at: "2026-06-09T15:52:57+00:00"
+title: 'OCR: 一堂-创业必修-课程清单'
+type: concept
+status: enriched
+source_refs:
+- src_20260609_a8ead237
+created_at: '2026-06-09T14:04:55+00:00'
+updated_at: '2026-06-13'
 tags:
-  - #domain/general
-
-domain: []---
+- null
+domain: []
+---
 
 
 # OCR: 一堂-创业必修-课程清单
@@ -97,7 +97,6 @@ YitangCourseSystemListbyStartUp
 
 ## Open Questions
 
-- TODO: What open questions does this source raise?
 
 ## Output Opportunities
 

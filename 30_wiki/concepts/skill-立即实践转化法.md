@@ -24,16 +24,13 @@ tools_required:
 - 反馈机制
 prerequisite_skills: []
 related:
+- skill-立即实践转化
 tags:
-- '#domain/learning-methodology'
-- '#domain/yitang'
-- '#scene/practice'
+- null
+- null
+- null
 created_at: '2026-06-09'
-updated_at: '2026-06-09'
-tags:
-  - #scene/skill-engineering
-  - #domain/learning-methodology
-  - #yitang
+updated_at: '2026-06-13'
 ---
 
 # 技能：立即实践转化法
