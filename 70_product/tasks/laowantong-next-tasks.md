@@ -64,6 +64,18 @@
 
 **更新：2026-06-13** — 第一批 5 张已通过审查。继续第二批。
 
+### 第二批 5 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----:|:-----|:----:|:---------|:----:|
+| 6 | `yt-decision-y-model` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | 🟡 待抽检 |
+| 7 | `yt-decision-full-process` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | 🟡 待抽检 |
+| 8 | `yt-decision-consensus-iceberg` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | 🟡 待抽检 |
+| 9 | `yt-decision-ai-partner` | tool | 新增 frontmatter DS 2 条 + 正文 DS 精简 | 🟡 待抽检 |
+| 10 | `yt-decision-canvas` | tool | 新增 frontmatter DS 2 条 + 正文 DS 精简 | 🟡 待抽检 |
+
+**更新：2026-06-13** — 第二批 5 张已完成第一圈精修，等待欧阳锋抽检。
+
 ---
 
 ## 🔴 任务 1：P1 旧卡补互链 — 核心工具卡 20 张
