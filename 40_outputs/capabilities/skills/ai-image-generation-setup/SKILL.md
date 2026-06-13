@@ -135,7 +135,47 @@ image.save("output.png")
 
 ---
 
-## 3. 快速选型建议
+## 3. 本机（KDO 运行环境）实测评估
+
+### 3.1 硬件信息
+
+| 项目 | 实测值 |
+|---|---|
+| GPU | NVIDIA GeForce GTX 1650 with Max-Q Design |
+| 显存 | **4 GB**（实测空闲约 3.95 GB） |
+| 驱动 | 546.33 |
+| 系统内存 | 16 GB |
+
+### 3.2 结论
+
+**本机 4GB 显存无法本地运行 FLUX.1。**
+
+FLUX.1 的最低门槛：
+- FLUX.1 schnell 量化版：约 **6 GB 显存** 起步
+- FLUX.1 dev FP8：约 **12 GB 显存** 起步
+- FLUX.1 dev FP16：约 **24 GB 显存**
+
+本机 GTX 1650 4GB 低于所有推荐下限，强行本地跑会 OOM 或频繁触发 CPU offload，生成一张图可能要数分钟到数十分钟，体验极差。
+
+### 3.3 针对本机的可行方案
+
+| 方案 | 说明 | 推荐度 |
+|---|---|---|
+| **云端 FLUX API** | fal.ai、Replicate、Together AI、Black Forest Labs 官方 API，按量付费 | ⭐⭐⭐⭐⭐ |
+| **Midjourney** | 订阅制，云端生成，无需本地显存 | ⭐⭐⭐⭐ |
+| **Stable Diffusion 1.5 / SDXL 轻量版** | 4GB 显存可跑 SD 1.5；SDXL 需进一步量化或 CPU 辅助 | ⭐⭐⭐ |
+| **WSL CPU 跑 FLUX** | 用 `enable_model_cpu_offload()` 把模型塞进 16GB 内存，极慢，仅适合验证 | ⭐ |
+| **Google Colab / Kaggle** | T4 16GB 可跑 FLUX schnell，适合偶尔批量生成 | ⭐⭐⭐ |
+
+### 3.4 给 KDO 的建议
+
+- **短期**：把 FLUX/Midjourney 放在云端 API 或在线服务，本地只负责 prompt 工程和结果归档。
+- **中期**：如果预算允许，升级到 12GB+ 显存的机器（如 RTX 3060 12GB、4060 Ti 16GB），即可本地跑 FLUX.1 dev FP8。
+- **长期**：KDO 流水线可设计成“本地 prompt + 云端生图 + 本地后处理”的混合架构，兼顾隐私与硬件成本。
+
+---
+
+## 5. 快速选型建议
 
 | 场景 | 推荐工具 | 理由 |
 |---|---|---|
@@ -143,10 +183,38 @@ image.save("output.png")
 | 本地隐私、批量、自动化 | FLUX.1 + ComfyUI | 开源可控，可脚本化 |
 | 低显存、想接近 A1111 体验 | FLUX.1 + Forge | 界面熟悉，量化友好 |
 | 程序化集成到 KDO 流水线 | FLUX.1 + diffusers | Python 原生，易调度 |
+| 本机 4GB 显存想跑图 | 云端 API / Midjourney / Colab | 本地硬件不满足 FLUX 最低要求 |
 
 ---
 
-## 4. 已知坑点
+## 6. 云端 API 价格对比（2026 年 6 月）
+
+由于本机无法本地跑 FLUX，云端 API 是最现实方案。下面按 **每图成本** 排序：
+
+| 服务商 | 模型 | 单价 | 备注 |
+|---|---|---|---|
+| **Runware** | FLUX.1 schnell | **$0.0013/张** | 目前最低，但公司较新、生态小 |
+| **fal.ai** | FLUX.1 schnell | **$0.003/张** | 速度快、接口统一，新用户送 $10-$20 |
+| **Replicate** | FLUX.1 schnell | **$0.003/张** | 社区模型多，文档好 |
+| **Together AI** | FLUX | **$0.003/张** | 部分模型比 Replicate 便宜 10-17 倍 |
+| fal.ai | FLUX.1 dev | $0.025/MP | 质量更高 |
+| Replicate | FLUX 1.1 Pro | $0.04/张 | 生产级质量 |
+| fal.ai | FLUX.1 Pro | $0.05/张 | 官方 Pro 质量 |
+
+> 注：$0.003/张 ≈ 1000 张图 $3，对 KDO 批量生成封面/信息图非常友好。
+
+### 推荐方案
+
+- **主力：fal.ai FLUX.1 [schnell]**
+  - 理由：价格与 Replicate 持平、速度更快、SDK 简洁、新账户有免费额度，适合 KDO 自动化流水线。
+- **备用：Replicate FLUX.1 [schnell]**
+  - 理由：文档完善、社区模型多，fal.ai 不可用时切换。
+- **超低价尝试：Runware**
+  - 如果预算极紧，可以先试，但需注意稳定性与账单透明度。
+
+---
+
+## 7. 已知坑点
 
 - Midjourney 的“私人服务器”并不等于隐私；图默认公开。
 - FLUX.1 dev 在 Windows 原生运行需 NVIDIA 驱动 + CUDA Toolkit 匹配 PyTorch 版本。
@@ -156,12 +224,14 @@ image.save("output.png")
 
 ---
 
-## 5. 下一步行动
+## 8. 下一步行动
 
-1. 评估本机 GPU 显存，决定跑哪个 FLUX 版本。
-2. 在 WSL 或 Windows 安装 ComfyUI / Forge。
-3. 下载一个 FLUX 模型（建议从 schnell 或 dev FP8 开始）。
-4. 用 KDO 文章标题/摘要生成第一批测试图，验证 prompt 工程。
+1. ✅ 评估本机 GPU 显存（结论：4GB，不满足 FLUX 本地最低要求）。
+2. ✅ 选择最便宜云端方案：fal.ai FLUX.1 [schnell]（$0.003/张，新用户 $10-$20 免费额度）。
+3. ✅ 已提供 Python 脚本：`40_outputs/code/scripts/generate-images-fal.py`，填入 FAL_KEY 即可跑。
+4. 注册 fal.ai 获取 API key，运行脚本生成 KDO 文章封面/信息图测试。
+5. 如需本地轻量生图，尝试 Stable Diffusion 1.5 + 4GB 优化配置。
+6. 如未来升级硬件（12GB+ 显存），再按本 skill 安装 ComfyUI + FLUX.1 dev FP8。
 
 ---
 

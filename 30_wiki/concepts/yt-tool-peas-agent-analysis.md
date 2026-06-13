@@ -34,7 +34,6 @@ status: "enriched"
 title: "PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-15
 version: 1
 tags:
   - #ai
@@ -49,6 +48,20 @@ tags:
 pipeline:
   - #boundary/not-for-creative
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "P(性能度量)是否至少 3 条且可第三方验证"
+    framework_lens: "目标清晰度 / 可测量"
+    follow_up_question: "P 格是否写满'做好''提升'等模糊词？"
+  - signal: "当前 agent 架构是否与环境复杂度匹配"
+    framework_lens: "架构匹配 / 复杂度"
+    follow_up_question: "是否在复杂动态战中使用 reflex agent？"
+  - signal: "效用函数是否暴露不可通约的价值冲突"
+    framework_lens: "价值多元 / 伦理边界"
+    follow_up_question: "是否把'家庭时间'与'职业成就'强行加权？"
+  - signal: "是否识别出 reflex 级 SOP 与 learning agent 的切换条件"
+    framework_lens: "危机响应 / 不确定性"
+    follow_up_question: "危机时是否还在慢慢拆解效用函数？"
+updated_at: '2026-06-13'
 ---
 
 # PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统
@@ -136,6 +149,21 @@ PEAS 默认性能度量可以被明确写出。但人生最难的问题恰恰是
 
 克莱因（Gary Klein）研究消防员、军人和急诊医生的真实决策过程后发现：专家在高压下根本不做什么"效用最大化"——他们靠**识别启动决策**（Recognition-Primed Decision）：看到情境 → 匹配脑内模式 → 模拟一个方案 → 如果可行就执行。他们不会列出选项比较效用。PEAS + 理性决策框架描述的是"学生做题"式的决策，不是真实世界专家的决策。
 
+## Constraints & Boundaries
+
+| 边界 | 适用 | 不适用 |
+|---|---|---|
+| 问题类型 | 可定义绩效度量的决策系统 | 价值在争议中、关系型决策 |
+| 时间压力 | 有分析时间 | 极反应性危机 |
+| 不确定性 | 反馈相对稳定 | 完全未知的探索期 |
+| 使用目的 | 诊断架构错配、设计改进方案 | 替代价值观拷问 |
+
+### Common Failure Modes
+1. **P 定义模糊** → 症状：P 格写'做好''提升'；原因：未量化成功标准；修复：P 格至少 3 条可第三方验证指标
+2. **架构错配** → 症状：用 reflex agent 处理复杂动态战；原因：未按环境选择 agent 架构；修复：先判断环境复杂度，再选 reflex/model-based/learning
+3. **效用函数暴力归约** → 症状：把不可通约价值加权计算；原因：忽视价值多元；修复：对不可通约价值单独列出定性权衡
+4. **危机时过度分析** → 症状：火灾/急救现场还在拆解效用；原因：未区分分析与执行模式；修复：事前建立 reflex 级 SOP，危机时执行不思考
+5. **忽略反馈延迟** → 症状：learning agent 学到错误模式；原因：探索期反馈嘈杂；修复：高不确定时切换为信息获取目标
 ## Synthesis
 
 ### 关联卡片

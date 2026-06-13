@@ -34,7 +34,6 @@ status: "enriched"
 superseded_by: ""
 title: "FAB核心说服：从产品特性到用户利益的转化法"
 type: "tool"
-updated_at: 2026-06-06
 version: 1
 tags:
   - #scene/business-analysis/conversion-rate
@@ -46,6 +45,20 @@ tags:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "产品描述是否从用户利益(B)出发，而非从特性(F)罗列开始"
+    framework_lens: "用户中心 / 转化文案"
+    follow_up_question: "用户看完第一句后能否立刻回答'这跟我有什么关系？'"
+  - signal: "每个 Advantage 是否对应可验证的用户收益，而非空泛修饰"
+    framework_lens: "可验证性 / 信任"
+    follow_up_question: "'快 10 倍''省 50% 时间'等说法是否有数据或场景支撑？"
+  - signal: "FAB 承诺是否与产品实际交付一致"
+    framework_lens: "期望管理 / NPS"
+    follow_up_question: "用户被说服后体验，是否会发现'说得比做得好'？"
+  - signal: "是否根据用户决策阶段选择 FAB 顺序（F→A→B vs B→A→F）"
+    framework_lens: "场景适配 / 说服节奏"
+    follow_up_question: "高客单价/低认知场景是否仍在用功能列表开场？"
+updated_at: '2026-06-13'
 ---
 
 ## Summary
@@ -138,6 +151,21 @@ FAB（Feature特性 → Advantage优点 → Benefit利益）不是填表格，�
 - **结果**：转化率比传统 F→A→B 顺序高出 **25%**
 - **反常识**：高客单价产品，用户不关心功能列表，关心的是"这个问题如果发生在我身上，我怎么办？”——**先打痛点，再给解药**
 
+## Constraints & Boundaries
+
+| 边界 | 适用 | 不适用 |
+|---|---|---|
+| 产品阶段 | 有明确产品/服务且能验证交付 | 概念模糊、无实际交付 |
+| 用户认知 | 用户已感知问题或需求 | 需要教育市场、用户无感 |
+| 决策场景 | 转化文案、产品介绍、销售话术 | 复杂谈判、关系型销售 |
+| 信息状态 | 特性和优势可被客观描述 | 夸大宣传、无数据支撑 |
+
+### Common Failure Modes
+1. **从特性(F)而非利益(B)开场** → 症状：用户看完无感，问'跟我有什么关系'；原因：假设用户会自己把特性翻译成利益；修复：强制先写 B，再反推 A 和 F
+2. **利益空泛不可验证** → 症状：'让你更高效''提升体验'等模糊表述；原因：缺少量化或场景化；修复：每个 B 必须附具体场景和可感知指标
+3. **承诺过度导致体验落差** → 症状：转化率高但 NPS 下降、负面口碑；原因：FAB 写了产品做不到的；修复：FAB 只写已验证的交付，标注边界条件
+4. **顺序一刀切** → 症状：高客单价产品用 F→A→B 效果差；原因：忽视用户决策阶段；修复：根据用户认知度和客单价选择 B→A→F 或 F→A→B
+5. **把 FAB 当文案模板而非思维训练** → 症状：每次只改词不改结构；原因：团队未内化利益导向思维；修复：定期做'用户原话反向映射'练习
 ## Synthesis
 
 ### Wikilinks

@@ -47,7 +47,6 @@ status: "draft"
 title: "OKR 制定与复盘罗盘"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-19
 version: 1
 yitang: {'map': 'management', 'module': '管业务', 'course_type': 'tool', 'level': 'core'}
 tags:
@@ -64,6 +63,20 @@ pipeline:
   - #tool
   - confidence-draft
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "OKR 是否与公司战略和日常管理节奏整合而非并行"
+    framework_lens: "系统整合 / 脱节诊断"
+    follow_up_question: "团队优先执行的是 KPI 还是 OKR？"
+  - signal: "是否建立周度脉搏机制并持续跟踪 KR 进度"
+    framework_lens: "节奏 / 反馈环"
+    follow_up_question: "季度初写的 OKR 是否在季度中再也没人看？"
+  - signal: "KR 是否真正反映用户/客户价值而非数字游戏"
+    framework_lens: "价值验证 / 反指标"
+    follow_up_question: "KR 完成 100% 但业务实际进展是否不明显？"
+  - signal: "首次推行 OKR 是否与绩效奖惩脱钩"
+    framework_lens: "信任建立 / 激励兼容"
+    follow_up_question: "OKR 是否变成变相 KPI？"
+updated_at: '2026-06-13'
 ---
 
 # OKR 制定与复盘罗盘
@@ -241,16 +254,6 @@ Ordonez 的核心发现：
 - **周度脉搏变成\"形式主义\"**：团队可能在脉搏时只报告\"好的\"信息，避开\"坏的\"信息——脉搏变成了\"演出\"。
 - **\"改进动作\"的执行率被低估**：季度复盘产出的\"改进动作\"很少被真正执行，因为下一季度开始时又被新的 OKR 覆盖了。
 - **KR 的\"基准值\"设定被忽视**：很多团队只设定\"目标值\"不设定\"基准值\"，导致无法判断\"是否真的进步了\"。
-
-## diagnostic_signals
-
-- signal: "用户说'我们每个季度都写OKR，但季度过了发现没人真的用它来指导工作'"
-  framework_lens: "OKR写了但没用——OKR最经典的失效模式：写的过程很认真，但写完了就放进了文件夹，团队该干什么还是干什么。OKR没有变成'工作指南针'，而是变成了'季度作业'。核心原因是OKR没有和日常执行节奏挂钩——缺少周度脉搏这个环节。"
-  follow_up_question: "你的OKR写完之后，团队每周有多少次会主动查看OKR来做优先级决策？上一次做决策时参考OKR是什么时候？"
-
-- signal: "用户说'我们的OKR和实际的KPI是两个体系，各走各的'"
-  framework_lens: "OKR和日常管理脱节——当OKR和KPI是两个并行体系时，团队会优先执行KPI（因为和考核挂钩），OKR变成'挂在天上的目标'。OKR要发挥作用，必须和现有的管理节奏（周会、绩效评估、资源分配）整合。"
-  follow_up_question: "你们的绩效考核指标和OKR是什么关系？如果冲突了，团队会优先执行哪个？"
 
 ## Constraints & Boundaries
 

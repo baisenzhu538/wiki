@@ -34,7 +34,6 @@ status: "enriched"
 title: "产品内核画布与九大原则"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-06-06
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '产品内核', 'course_id': 'yt-tool-product-core-canvas', 'course_type': 'tool', 'level': 'foundational'}
 tags:
@@ -50,6 +49,20 @@ pipeline:
   - #boundary/requires-human-judgment
   - #boundary/single-use-only
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "画布四格是否都基于用户视角而非创始人偏好"
+    framework_lens: "用户中心 / 取舍权"
+    follow_up_question: "绿色/红色判定是否只是创始人意志的可视化？"
+  - signal: "画布假设是否经过真实用户验证且更新频率 ≤30 天"
+    framework_lens: "持续发现 / 假设验证"
+    follow_up_question: "画布反映的是'一个月前的用户'还是现在的用户？"
+  - signal: "是否识别出'假绿色'要素（以为是内核其实不是）"
+    framework_lens: "内核诚实 / 反直觉"
+    follow_up_question: "转化率低时是否怪执行而非画布假设错误？"
+  - signal: "画布输出是否直接关联到单元模型和关键假设验证"
+    framework_lens: "落地闭环 / 五步法"
+    follow_up_question: "画布讨论后是否停留在可视化而不进入验证？"
+updated_at: '2026-06-13'
 ---
 
 # 产品内核画布与九大原则
@@ -181,6 +194,21 @@ Cagan在《启示录》中强调：伟大的产品来自**赋能产品团队**�
 
 > 如果Cagan观察你的产品内核画布会议，他会问你——你的产品经理在画布讨论中，有多少次成功说服你改变了颜色判定？如果答案是"很少"或"从来没有"，那你的画布可能只是创始人意志的可视化，而非用户价值的真实映射。
 
+## Constraints & Boundaries
+
+| 边界 | 适用 | 不适用 |
+|---|---|---|
+| 产品类型 | 用户需求驱动型产品 | 纯技术驱动型、平台型产品 |
+| 决策阶段 | 起盘/迭代期，需定义核心价值 | 极短窗口期 <1 周 |
+| 组织条件 | 创始人/有决策权者参与 | 创始人完全不参与 |
+| 团队基础 | 有一定产品思维基础 | 零基础团队 |
+
+### Common Failure Modes
+1. **创始人独断** → 症状：画布颜色只反映创始人偏好；原因：团队未参与或无法挑战；修复：引入独立用户证据，产品经理可改变颜色判定
+2. **画布成为静态快照** → 症状：超过 30 天未更新；原因：未建立持续发现机制；修复：每月至少验证 1 个画布假设
+3. **假绿色要素** → 症状：转化率低时仍以为内核正确；原因：未识别非决定性要素；修复：每次复盘强制找'假绿色'
+4. **画布与验证脱节** → 症状：讨论完不进入五步法验证；原因：画布只用于可视化；修复：画布输出必须链接关键假设和单元模型
+5. **忽视平台/技术产品差异** → 症状：用单用户画布分析双边市场；原因：工具边界不清晰；修复：平台型产品换用 Platform Canvas
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

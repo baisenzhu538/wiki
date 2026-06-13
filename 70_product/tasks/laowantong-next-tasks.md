@@ -6,7 +6,9 @@
 
 ## 🎯 全量精修任务
 
-**总卡数：238 张 yt-* 卡（已精修 218 张含 DS，剩余 20 张）。**
+**总卡数：238 张 yt-* 卡（已精修 237 张含 DS + Constraints & Boundaries，剩余 1 张空文件 `yt-management-conversion-hacking 1.md` 跳过）。**
+
+> 注：3 张 redirect 卡（yt-tool-equity-checklist / yt-tool-onboarding-90day / yt-tool-project-health-radar）已补充 redirect 专用 DS 与边界说明。
 
 > 注：历史批次表格中部分卡片重复出现，导致序号累加高于实际；后续累计数以「frontmatter 中已写入 diagnostic_signals」的真实卡数为准。
 
