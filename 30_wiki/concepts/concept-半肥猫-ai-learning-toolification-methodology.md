@@ -12,6 +12,7 @@ source_context: AI俱乐部-AI学习落地 分享（2026-06）
 source_refs:
 - 00_inbox/半肥猫-AI学习落地-口述.md
 - 00_inbox/AI俱乐部-AI学习落地-半肥猫-笔记.txt
+- 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
 created_at: 2026-06-07
 updated_at: '2026-06-13'
 related:
@@ -23,11 +24,13 @@ related:
 - skill-半肥猫-动态读取-向量化管理迭代知识
 - case-半肥猫-conversion-hacker-skill
 - case-半肥猫-skill-ab-test
+- case-半肥猫-from-assignment-to-tool
+- case-半肥猫-course-to-skill
 - dk-半肥猫-silky-answer-warning
 - dk-半肥猫-skill-rejection-value
 - dk-半肥猫-atomic-no-standard
+- dk-半肥猫-real-business-is-the-engine
 - concept-纪浩-ai-collaboration-methodology
-- concept-半肥猫-learning-toolification-methodology
 tags:
 - null
 - null
@@ -95,6 +98,10 @@ pipeline:
 - **八步工作流的维护成本被严重低估**。半肥猫花了一个晚上（到凌晨四点）把一堂的转化率黑客课做成 Skill，但这只是第一步。后续的版本迭代、案例补充、证据更新、反例积累——这些持续维护的工作量在分享中被快速带过了。一个 Skill 的"制作时间"可能只占生命周期的 20%，"维护时间"占 80%
 
 - **知识库管理的规模效应有门槛**。半肥猫说"原子化就是一篇文档只讲一件事"，但他同时有 5000+ 文档和 20 万+ 文件。对于普通用户，这种规模的知识库管理本身就是全职工作。半肥猫没讲的是：他的知识库管理方法是在"已经有团队帮他处理底层工作"的前提下才成立的
+
+- **基础判断力是纠偏环节的前提**。如果学习者无法区分 AI 回答中的"推理"和"证据"，也无法判断课程本身的结构化程度，那么三轮检查和八步工作流都会失效。工具化不是把低质量输入变成高质量输出的魔法
+
+- **课程质量是工具化的天花板**。如果课程本身缺乏结构化方法论，只有零散观点和案例，那么无论怎么工具化，最终也只是"高级搬运"。不是每门课都值得被 Skill 化
 
 ### 外部攻击
 
