@@ -74,6 +74,10 @@ type: memory/role-recovery
 | AI Design Assets | `ai-design-assets/SKILL.md` | 设计资产管理规范（8要素命名+PS四层+Moodboard） |
 | AI Design Fundamentals | `ai-design-fundamentals/SKILL.md` | 模型选型与提示词基本功 |
 | AI Design Prompts | `ai-design-prompts/SKILL.md` | AI 设计提示词技法 |
+| Document Parsing Toolkit | `document-parsing-toolkit/SKILL.md` | PDF/图片→结构化 Markdown 引擎选型 |
+| AI Image Prompt Engineering | `ai-image-prompt-engineering/SKILL.md` | 通用 AI 图像生成 prompt 工程 |
+| Markdown to Presentation | `markdown-to-presentation/SKILL.md` | Markdown → 幻灯片 |
+| Audio Production Pipeline | `audio-production-pipeline/SKILL.md` | TTS / 配音 / 音乐 / 音频后期 |
 
 ### 4.2 实际产出（已有肉身）
 
@@ -85,11 +89,11 @@ type: memory/role-recovery
   - `kdo-quickstart-video/index.html`
   - `knowledge-delivery-os-快速上手指南把散落知识变成可交付资产/`（含脚本、分镜、音频、final）
 
-### 4.3 尚未开张的能力路径
+### 4.3 已有 skill 但无实际产出的领域
 
-- `40_outputs/content/images/generative/` — 空
-- `40_outputs/content/audio/` — 空
-- `40_outputs/content/presentations/` — 空
+- `40_outputs/content/images/generative/` — AI 生图：有 `ai-image-prompt-engineering` skill，但无直接产出
+- `40_outputs/content/audio/` — 音频：有 `audio-production-pipeline` skill，但无实际作品
+- `40_outputs/content/presentations/` — PPT/幻灯片：有 `markdown-to-presentation` skill，但无实际作品
 
 ---
 

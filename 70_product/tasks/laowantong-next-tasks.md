@@ -316,6 +316,23 @@
 
 **更新：2026-06-13** — 第十六批 10 张已完成第一圈精修。实际累计完成 148 张含 DS，剩余 ~90 张。
 
+### 第十七批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----|:----|:----|:----|:----|
+| 151 | `yt-panproduct-execution-logic-mece` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 152 | `yt-panproduct-execution-low-cost-mvp` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 153 | `yt-panproduct-execution-management-trilogy` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 154 | `yt-panproduct-execution-milestone-breakdown` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 155 | `yt-panproduct-execution-realistic-simulation` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 156 | `yt-panproduct-execution-review-iteration` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 157 | `yt-panproduct-execution-risk-management` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 158 | `yt-panproduct-execution-roi-analysis` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 159 | `yt-panproduct-execution-war-room` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 160 | `yt-personal-ai-capability` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第十七批 10 张已完成第一圈精修。实际累计完成 158 张含 DS，剩余 ~80 张。
+
 ---
 
 ### 审批模式调整

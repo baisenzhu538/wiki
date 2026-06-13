@@ -31,6 +31,18 @@
 
 ## 可用工具
 
+| Skill | 路径 | 用途 |
+|:---|:---|:---|
+| Image OCR | `40_outputs/capabilities/skills/image-ocr/SKILL.md` | 本地 PaddleOCR.js 图片文字提取 |
+| Deep Image Parser | `40_outputs/capabilities/skills/deep-image-parser/SKILL.md` | 多模态 AI 深度解析图片 |
+| Document Parsing Toolkit | `40_outputs/capabilities/skills/document-parsing-toolkit/SKILL.md` | PDF/图片→结构化 Markdown 引擎选型 |
+| Design Prompt Iteration | `40_outputs/capabilities/skills/design-prompt-iteration/SKILL.md` | 设计师反馈 → prompt 修改 |
+| AI Image Prompt Engineering | `40_outputs/capabilities/skills/ai-image-prompt-engineering/SKILL.md` | 通用 AI 图像生成 prompt 工程 |
+| Visual Prompt System | `40_outputs/capabilities/skills/visual-prompt-system/SKILL.md` | SROM Visual OS |
+| Markdown to Presentation | `40_outputs/capabilities/skills/markdown-to-presentation/SKILL.md` | Markdown → 幻灯片 |
+| Audio Production Pipeline | `40_outputs/capabilities/skills/audio-production-pipeline/SKILL.md` | TTS / 配音 / 音乐 / 音频后期 |
+| AI Design Assets | `40_outputs/capabilities/skills/ai-design-assets/SKILL.md` | 设计资产管理规范 |
+
 ---
 
 ## 标准作业程序（SOP）
