@@ -32,7 +32,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·落地卡片：管理三段论"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
 tags:
@@ -50,11 +49,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "讨论资源前，目标和路径已经被明确写出并得到共识"
+    framework_lens: "目标→路径→资源的顺序约束"
+    follow_up_question: "如果资源减半，你会先调目标还是调路径？"
+  - signal: "当资源不足时，会回头调整目标或路径，而不是硬凑资源"
+    framework_lens: "资源是约束，不是起点"
+    follow_up_question: "现有资源是否能支撑你设定的路径？如果不能，哪一步需要改变？"
+  - signal: "在执行中会根据新信息重新审视目标，而不是一味线性推进"
+    framework_lens: "管理三段论需要反馈环"
+    follow_up_question: "最近是否有新信息让原来的目标不再合理？"
+updated_at: '2026-06-13'
 ---
 
 # 管理三段论：业务管理有章可循
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 重要项目或高资源投入的业务管理场景 |
+| **适合** | 目标相对清晰、路径可预判的中等确定性环境 |
+| **不适合** | 高度不确定、需要涌现式探索的早期创新 |
+| **不适合** | 纯创意或研究领域——目标本身需要在行动中浮现 |
+
+### 失败模式
+
+1. **还没搞清楚目标就开始讨论要招多少人、花多少钱**
+   - **原因**：跳过目标直接谈资源
+   - **修复**：任何资源请求必须先回答：‘为了哪个目标的哪条路径？’
+
+2. **有多少资源就定多大目标，导致目标被资源绑架**
+   - **原因**：资源反向决定目标
+   - **修复**：先确定必须达成的目标，再评估资源缺口，缺口大则调整路径
+
+3. **目标定了就不再调整，即使环境已明显变化**
+   - **原因**：线性执行僵化
+   - **修复**：设定目标复审节点，遇到重大变化时允许重新走一遍三段论
+
+4. **忽视环境感知，直接以目标为起点**
+   - **原因**：缺少 orient 环节
+   - **修复**：在三段论前加入‘环境扫描’：竞争、用户、技术、政策的新变化
 
 ## Summary
 

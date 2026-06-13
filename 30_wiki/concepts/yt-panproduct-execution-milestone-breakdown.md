@@ -32,7 +32,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·落地卡片：里程碑拆解"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
 tags:
@@ -48,11 +47,49 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "每个里程碑都有可验证的交付物和通过标准"
+    framework_lens: "里程碑是可验证的中间节点"
+    follow_up_question: "到达这个里程碑时，谁能仅凭交付物判断它是否完成？"
+  - signal: "里程碑之间的依赖关系被显式标注"
+    framework_lens: "顺序背后是约束"
+    follow_up_question: "如果前一个里程碑延迟，哪些后续里程碑必须顺延？"
+  - signal: "在关键里程碑处设置了风险缓冲或检查点"
+    framework_lens: "不确定性需要缓冲"
+    follow_up_question: "这个里程碑的日期是乐观估计还是包含缓冲？"
+updated_at: '2026-06-13'
 ---
 
 # 里程碑拆解：主动设定交付中间节点
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 跨多阶段、需要逐步验证的重要交付 |
+| **适合** | 团队对整体路径有基本共识，但细节会变化的项目 |
+| **不适合** | 非常小的任务——里程碑管理 overhead 过高 |
+| **不适合** | 研究方向完全未知、无法定义中间节点的探索 |
+
+### 失败模式
+
+1. **里程碑只是日期，没有交付物标准**
+   - **原因**：把里程碑当 deadline
+   - **修复**：每个里程碑必须包含‘交付什么、如何验收、谁验收’
+
+2. **里程碑划分太粗，无法及时发现问题**
+   - **原因**：颗粒度不足
+   - **修复**：相邻里程碑之间不超过2-4周，确保足够频繁的反馈
+
+3. **里程碑划分过细，团队疲于汇报**
+   - **原因**：过度管理
+   - **修复**：只保留对关键假设或关键交付有验证意义的节点
+
+4. **里程碑之间没有依赖分析，导致并行冲突**
+   - **原因**：缺少网络视角
+   - **修复**：画出里程碑依赖图，识别关键路径
 
 ## Summary
 

@@ -32,7 +32,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·落地卡片：逻辑MECE"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
 tags:
@@ -46,11 +45,49 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "拆解后的子项在同一层级，且任意两项之间不重叠、合起来覆盖全集"
+    framework_lens: "MECE = 互斥 + 穷尽"
+    follow_up_question: "有没有某个元素可以同时放进两个子项？有没有遗漏的大类？"
+  - signal: "MECE 用于重要决策或复杂沟通前，而不是所有日常小事"
+    framework_lens: "结构化思考的成本收益"
+    follow_up_question: "这个问题值得花费额外时间做 MECE 拆解吗？"
+  - signal: "拆解结果能被他人快速理解并发现遗漏"
+    framework_lens: "MECE 是协作语言"
+    follow_up_question: "一个不熟悉项目的人看了你的拆解后，能否在5分钟内提出一个合理质疑？"
+updated_at: '2026-06-13'
 ---
 
 # 逻辑MECE：做个有逻辑的人
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 复杂问题需要清晰结构、避免遗漏的决策或分析场景 |
+| **适合** | 需要向他人清晰传达复杂信息的报告或方案 |
+| **不适合** | 高度创意发散阶段——MECE 会抑制联想 |
+| **不适合** | 信息极度模糊、无法定义全集的探索早期 |
+
+### 失败模式
+
+1. **分类维度混杂，子项之间互相重叠**
+   - **原因**：分类标准不统一
+   - **修复**：每次拆解只用一个维度作为分类标准，先列维度再填内容
+
+2. **为了 MECE 而强行拆分，反而让问题更复杂**
+   - **原因**：过度结构化
+   - **修复**：判断问题重要性：不重要的问题用简单列表即可
+
+3. **子项看似穷尽，但遗漏了关键利益相关方或失败场景**
+   - **原因**：依赖个人经验，缺少外部检查
+   - **修复**：用‘如果我是反对者，会攻击哪个分类’来检验穷尽性
+
+4. **把 MECE 当成唯一正确答，忽视问题的动态变化**
+   - **原因**：结构僵化
+   - **修复**：标注每个分类的假设和可能变化，定期复审
 
 ## Summary
 

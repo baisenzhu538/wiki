@@ -32,7 +32,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·落地卡片：攻坚会"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
 tags:
@@ -48,11 +47,49 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "攻坚会前已经明确一个具体的攻坚问题，而不是泛泛讨论"
+    framework_lens: "聚焦是攻坚会的前提"
+    follow_up_question: "这个问题能否用一句话描述？如果做不到，就不适合开攻坚会"
+  - signal: "关键角色都在场，并且会前已做思考准备"
+    framework_lens: "攻坚会是高强度协作，不是信息同步"
+    follow_up_question: "缺席的这个人是否会导致决策无法落地？"
+  - signal: "会议结束时有明确决策、负责人和下一步行动"
+    framework_lens: "攻坚会必须产出结论"
+    follow_up_question: "如果会议超时仍未达成共识，谁来拍板？"
+updated_at: '2026-06-13'
 ---
 
 # 攻坚会：重点课题all-in攻坚
 
 > 落地工具箱卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 跨部门、高 stakes、需要在短时间内突破的复杂问题 |
+| **适合** | 常规流程无法解决、需要集中智慧攻关的场景 |
+| **不适合** | 日常例会或信息同步——用普通会议更高效 |
+| **不适合** | 问题定义不清、关键信息缺失——先调研再攻坚 |
+
+### 失败模式
+
+1. **什么问题都开攻坚会，导致团队疲劳**
+   - **原因**：滥用攻坚会
+   - **修复**：设立攻坚会门槛：必须满足高 stakes + 跨部门 + 时间紧迫
+
+2. **参会人不对，决策无法执行**
+   - **原因**：角色缺失
+   - **修复**：会前确认‘必须有谁’和‘可以旁听谁’，缺人则改期
+
+3. **会前没有准备，现场从零开始讨论**
+   - **原因**：准备不足
+   - **修复**：会前24小时发预读材料和各自立场，会议只做碰撞和决策
+
+4. **会议变成马拉松，没有决策截止**
+   - **原因**：缺少收敛机制
+   - **修复**：设定硬截止时间，最后30分钟必须进入决策和任务分配
 
 ## Summary
 

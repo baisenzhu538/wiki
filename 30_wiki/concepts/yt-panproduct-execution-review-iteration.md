@@ -32,7 +32,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·落地卡片：复盘迭代"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
 tags:
@@ -48,11 +47,49 @@ pipeline:
   - #boundary/not-for-beginners
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "复盘不只停留在事实层，而能挖掘到原因、模型和能力层"
+    framework_lens: "复盘深度决定学习质量"
+    follow_up_question: "这次复盘你提炼出了哪个可迁移的模型或原则？"
+  - signal: "每次复盘都产出可执行的改进行动，并指定负责人和截止时间"
+    framework_lens: "复盘必须产生行动"
+    follow_up_question: "上次复盘的行动项有多少在下次复盘前完成了？"
+  - signal: "复盘同时分析成功和失败，而不是只复盘失败"
+    framework_lens: "成功经验同样需要模型化"
+    follow_up_question: "这次成功中有哪些是偶然因素，哪些可以复制？"
+updated_at: '2026-06-13'
 ---
 
 # 复盘迭代：善于向自己的经验学习
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 迭代型项目、需要持续学习的团队 |
+| **适合** | 项目结束或关键里程碑后 |
+| **不适合** | 一次性、无后续行动的任务 |
+| **不适合** | 组织文化将复盘等同于追责的环境 |
+
+### 失败模式
+
+1. **复盘会变成批评大会，大家不敢讲真话**
+   - **原因**：心理不安全
+   - **修复**：明确复盘规则：对事不对人，重点找系统原因而非个人责任
+
+2. **复盘只描述发生了什么，没有深挖原因**
+   - **原因**：停留在事实层
+   - **修复**：用‘5 Whys’或‘冰山图’强制追问到模型/能力层
+
+3. **复盘产出一堆行动项，但没人跟进**
+   - **原因**：缺少闭环
+   - **修复**：每个行动项必须 owner + deadline，并在下次复盘首项检查
+
+4. **只复盘失败，导致成功经验流失**
+   - **原因**：偏差关注
+   - **修复**：每次复盘至少分析一个成功因素，并提取可复制做法
 
 ## Summary
 

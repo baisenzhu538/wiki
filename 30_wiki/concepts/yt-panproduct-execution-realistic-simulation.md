@@ -32,7 +32,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·落地卡片：努力仿真"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
 tags:
@@ -48,11 +47,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "测试环境与真实使用环境一致（设备、网络、场景、干扰）"
+    framework_lens: "假环境掩盖真问题"
+    follow_up_question: "你在测试时用的设备/网络/场景与用户真实使用时有何不同？"
+  - signal: "用真实用户而非内部员工做仿真测试"
+    framework_lens: "内部视角有偏差"
+    follow_up_question: "参与测试的人是否代表目标用户？他们的背景差异是什么？"
+  - signal: "仿真测试后能列出至少3个在假环境中不会发现的问题"
+    framework_lens: "仿真的价值在于发现真实摩擦"
+    follow_up_question: "这次仿真最大的意外发现是什么？"
+updated_at: '2026-06-13'
 ---
 
 # 努力仿真：在真实场景做真东西
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 用户体验强依赖物理环境、设备或真实流程的产品 |
+| **适合** | 已有原型或方案，需要高保真验证时 |
+| **不适合** | 非常早期的概念阶段——快速草图和访谈更经济 |
+| **不适合** | 真实环境无法进入或成本极高的场景 |
+
+### 失败模式
+
+1. **在办公室用电脑测试移动端体验**
+   - **原因**：环境不匹配
+   - **修复**：强制在目标设备、目标网络、目标场景下测试
+
+2. **用假数据或理想流程测试，掩盖异常路径**
+   - **原因**：流程不真实
+   - **修复**：使用真实或高度仿真的数据，包含异常和边界情况
+
+3. **原型过于精致，用户不好意思批评**
+   - **原因**： fidelity 过高
+   - **修复**：根据测试目的选择 fidelity：探索用低保真，流程验证用中保真
+
+4. **只观察用户操作，不询问真实情境中的干扰**
+   - **原因**：忽视情境因素
+   - **修复**：测试前后询问用户：‘你通常会在什么情况下使用？有什么干扰？’
 
 ## Summary
 

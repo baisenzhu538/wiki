@@ -131,7 +131,14 @@
 | Delivery Producer | `40_outputs/capabilities/skills/delivery-producer/SKILL.md` | Wiki → article/artifact |
 | System Linter | `40_outputs/capabilities/skills/system-linter/SKILL.md` | Vault 健康检查 |
 | Image OCR | `40_outputs/capabilities/skills/image-ocr/SKILL.md` | 图片文字提取 |
+| Deep Image Parser | `40_outputs/capabilities/skills/deep-image-parser/SKILL.md` | 多模态 AI 深度解析图片（表格/公式/视觉标记） |
+| Document Parsing Toolkit | `40_outputs/capabilities/skills/document-parsing-toolkit/SKILL.md` | PDF/图片→结构化 Markdown 引擎选型 |
 | Design Prompt Iteration | `40_outputs/capabilities/skills/design-prompt-iteration/SKILL.md` | 人反馈视觉问题 → agent 翻译为 prompt 修改 |
+| AI Image Prompt Engineering | `40_outputs/capabilities/skills/ai-image-prompt-engineering/SKILL.md` | 通用 AI 图像生成 prompt 工程 |
+| Visual Prompt System | `40_outputs/capabilities/skills/visual-prompt-system/SKILL.md` | SROM Visual OS：视角+美学宪章+拼贴海报 |
+| Markdown to Presentation | `40_outputs/capabilities/skills/markdown-to-presentation/SKILL.md` | Markdown → Marp/Slidev/reveal.js 幻灯片 |
+| Audio Production Pipeline | `40_outputs/capabilities/skills/audio-production-pipeline/SKILL.md` | TTS / 配音 / 音乐 / 音频后期 |
+| AI Design Assets | `40_outputs/capabilities/skills/ai-design-assets/SKILL.md` | 设计资产管理规范 |
 
 ---
 

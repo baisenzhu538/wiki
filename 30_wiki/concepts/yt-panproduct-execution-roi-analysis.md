@@ -32,7 +32,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·落地卡片：ROI分析"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
 tags:
@@ -46,11 +45,49 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "收益和成本都被尽可能量化，并标注置信度"
+    framework_lens: "ROI 是带不确定性的比较"
+    follow_up_question: "收益和成本中，哪个数字最不可靠？如果它偏差50%，结论会变吗？"
+  - signal: "分析中明确考虑了机会成本和时间窗口"
+    framework_lens: "资源有限，选择即放弃"
+    follow_up_question: "做这件事的同时，你放弃了什么？放弃的选项价值多大？"
+  - signal: "ROI 结论会触发明确的 go/no-go 或优先级调整"
+    framework_lens: "ROI 是决策工具"
+    follow_up_question: "这个 ROI 数字是否改变了你的投入计划？"
+updated_at: '2026-06-13'
 ---
 
 # ROI分析：擅做投产比分析
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 资源有限、需要在多个项目/功能间做取舍 |
+| **适合** | 投入成本可估计、收益可观察的决策 |
+| **不适合** | 涉及伦理、安全或品牌底线——这些不是 ROI 能衡量的 |
+| **不适合** | 数据极度匮乏、任何数字都是猜的早期概念 |
+
+### 失败模式
+
+1. **只算收益不算成本，尤其是隐性成本**
+   - **原因**：单向乐观
+   - **修复**：强制列出至少三类成本：直接成本、人力成本、机会成本
+
+2. **用一个固定 ROI 数字做决策，不做敏感性分析**
+   - **原因**：忽视不确定性
+   - **修复**：给出乐观/基准/悲观三种情景下的 ROI
+
+3. **把短期 ROI 当成唯一标准，忽视长期战略价值**
+   - **原因**：时间维度缺失
+   - **修复**：分别计算1年、3年 ROI，并说明战略价值的判断依据
+
+4. **对不可量化的价值强行赋值，导致数字游戏**
+   - **原因**：伪量化
+   - **修复**：不可量化价值单独列出，作为定性判断输入
 
 ## Summary
 

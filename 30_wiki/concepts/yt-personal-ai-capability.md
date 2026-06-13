@@ -30,7 +30,6 @@ status: "enriched"
 title: "AI 能力（双模型）"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': 'AI 能力（双模型）', 'course_id': 'yt-personal-ai-capability', 'course_type': 'method', 'level': 'advanced'}
 tags:
@@ -46,11 +45,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "能清晰说出 AI 在当前任务中的能力边界和典型错误模式"
+    framework_lens: "人机协同需要认知模型"
+    follow_up_question: "这个任务中，AI 最可能在哪一步出错？你如何发现？"
+  - signal: "复杂任务会先拆解再交给 AI，而不是一次性抛给 AI"
+    framework_lens: "任务分解提升可控性"
+    follow_up_question: "如果你把任务拆成3步，每一步的验收标准是什么？"
+  - signal: "AI 输出会被验证，关键决策保留人类最终判断"
+    framework_lens: "AI 是副驾驶，不是机长"
+    follow_up_question: "这个结论如果错了，代价是什么？你能承担吗？"
+updated_at: '2026-06-13'
 ---
 
 # AI 能力（双模型）
 
 > 来源：一堂个人必修课，属于"形成竞争力"子模块。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 知识工作、内容生成、数据分析、编程辅助等可分解任务 |
+| **适合** | 个人或小团队希望提升生产力 |
+| **不适合** | 高 stakes 决策（医疗、法律、安全）——必须有专业人类审核 |
+| **不适合** | 需要深度情感理解或复杂人际谈判的任务 |
+
+### 失败模式
+
+1. **无条件相信 AI 输出，不做事实核查**
+   - **原因**：自动化偏差
+   - **修复**：对关键事实要求 AI 提供来源，并独立抽查
+
+2. **不管什么任务都用 AI，反而降低效率**
+   - **原因**：工具滥用
+   - **修复**：先判断：这个任务用 AI 是否能显著更快或更好？不能则不用
+
+3. **提示词过于笼统，导致输出偏离需求**
+   - **原因**：提示工程不足
+   - **修复**：给 AI 明确的角色、任务、输出格式和约束条件
+
+4. **把 AI 输出直接作为最终交付，没有迭代反馈**
+   - **原因**：缺少闭环
+   - **修复**：建立‘生成→评审→修正→验证’的最小循环
 
 ## Summary
 

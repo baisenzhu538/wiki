@@ -33,7 +33,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·落地卡片：风险管理"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
 tags:
@@ -50,11 +49,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "风险清单在项目启动时建立，而不是等问题发生后再补"
+    framework_lens: "风险需要前置识别"
+    follow_up_question: "这个项目最大的三个风险是什么？你是什么时候识别出来的？"
+  - signal: "每个风险都有概率/影响评估和明确负责人"
+    framework_lens: "可管理的风险必须可归属"
+    follow_up_question: "如果某个风险发生，谁会第一个知道？谁负责应对？"
+  - signal: "对高影响风险有预案和触发条件，而不是只停留在监控"
+    framework_lens: "风险管理要降低不确定性"
+    follow_up_question: "针对最高影响的风险，你的 Plan B 是什么？"
+updated_at: '2026-06-13'
 ---
 
 # 风险管理：把风险从意外变成确定性
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 高投入、高不确定性或失败代价显著的项目 |
+| **适合** | 项目进入执行阶段前和执行中的关键节点 |
+| **不适合** | 低风险、小规模、可快速回滚的日常任务 |
+| **不适合** | 团队完全没有风险管理文化的初创期——先建立基本意识 |
+
+### 失败模式
+
+1. **风险清单列了很多，但没有 mitigation 措施**
+   - **原因**：识别不等于管理
+   - **修复**：每个风险必须配一个 owner 和至少一个降低概率或影响的措施
+
+2. **只关注高概率风险，忽视低概率高影响风险**
+   - **原因**：概率偏见
+   - **修复**：用影响×概率矩阵排序，特别关注高影响项
+
+3. **风险清单做一次后不再更新**
+   - **原因**：静态管理
+   - **修复**：每周/每里程碑复查风险状态，新增、关闭或降级
+
+4. **把风险管理变成悲观主义，导致团队裹足不前**
+   - **原因**：情绪失衡
+   - **修复**：区分‘需要预防的风险’和‘可接受的不确定性’，后者不分配资源
 
 ## Summary
 

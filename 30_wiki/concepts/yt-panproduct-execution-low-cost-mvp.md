@@ -32,7 +32,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·落地卡片：低成本测试MVP"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
 tags:
@@ -50,11 +49,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "MVP 只验证一个最关键、最危险的假设"
+    framework_lens: "MVP 是学习工具，不是缩小版产品"
+    follow_up_question: "如果只能验证一个假设，这个 MVP 验证的是哪一个？"
+  - signal: "MVP 的开发周期以天/周计，而不是月"
+    framework_lens: "低成本 = 快速迭代"
+    follow_up_question: "这个 MVP 能否在2周内上线并收集到真实反馈？"
+  - signal: "MVP 有明确的通过/不通过标准，而不是‘看看用户反应’"
+    framework_lens: "实验必须有 kill 条件"
+    follow_up_question: "多少用户采取什么行为，才算验证成功？"
+updated_at: '2026-06-13'
 ---
 
 # 低成本测试MVP：用实验思维10倍速验证假设
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 新产品/新功能方向高度不确定，需要快速学习 |
+| **适合** | 失败成本可控，可以快速 pivot 的场景 |
+| **不适合** | 医疗、安全、金融等受严格监管或错误代价极高的领域 |
+| **不适合** | 品牌敏感型产品——粗糙 MVP 可能永久损害品牌信任 |
+
+### 失败模式
+
+1. **把完整功能的第一个版本叫 MVP**
+   - **原因**：混淆 MVP 与产品首发
+   - **修复**：列出所有功能，只保留验证核心假设所必需的最小集合
+
+2. **MVP 上线后只看数据，不跟用户深度交流**
+   - **原因**：忽视定性学习
+   - **修复**：每个 MVP 配套至少3个用户访谈，理解‘为什么’
+
+3. **没有假设，只是为了‘试试’而做 MVP**
+   - **原因**：实验设计缺失
+   - **修复**：在动手前写下：‘我们要证明/证伪什么？需要观察什么信号？’
+
+4. **MVP 失败后继续加功能‘再试一次’**
+   - **原因**：沉没成本
+   - **修复**：达到 kill 条件后强制 pivot 或停止，复盘假设本身
 
 ## Summary
 
