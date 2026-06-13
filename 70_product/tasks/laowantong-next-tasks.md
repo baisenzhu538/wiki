@@ -6,23 +6,32 @@
 
 ## 🎯 全量精修任务
 
-**目标：全库 yt-* 概念卡拉到 L2 标准。不做 dk-* 和 skill-*。**
+**总卡数：238 张 yt-* 卡（已精修 18 张，剩余 ~220 张）。**
 
-### 每张卡必须做以下三件事
+### 严禁行为
 
-**1. Constraints & Boundaries（表格格式）**
+❌ 禁止批量扫。逐张开工，改完一张再下一张。
+❌ 禁止只改 `related` 不加 DS。那叫格式清理，不叫精修。
 
-加适用边界表和常见失败模式表。失败模式必须是实战中真实发生的。
+### 每张卡必做
 
-**2. diagnostic_signals（≥ 2 条）**
+1. **Constraints & Boundaries**：适用边界表（≥2行）+ 常见失败模式表（≥3条，有症状有修复）。表格格式。
+2. **diagnostic_signals**（≥2条）：加到 frontmatter，Signal → Lens → Follow-up 三元组完整。
+3. 按样板卡标准。低于标准的退回。
 
-加到 frontmatter（`---` 之间）。Signal → Lens → Follow-up 三元组完整。
+### 递归深挖法
 
-**3. 以上两项缺一不可。只改 `related` 不加 DS = 不合格。**
+不是一遍到位：
 
-### 正面参考
+```
+第一圈：加 Constraints 表 + 2 条 DS → 通知欧阳锋审查
+第二圈：根据反馈补失败模式、精修 DS → 通知欧阳锋审查
+第三圈：如需要，强化 Critique 或加 Action Triggers → 通知欧阳锋审查
+```
 
-`yt-decision-width-method` —— Constraints 表 + 失败模式 + DS 2条全部到位。
+### 样板卡
+
+`yt-decision-width-method`。以此为质量标准。
 
 ### 批次
 
@@ -35,7 +44,7 @@
 
 ### 节奏
 
-每批做完通知我审查，不等全部做完。第一批不通过不开始第二批。
+逐张开工。每批做完通知我审查。第一批不通过不开始第二批。
 
 ---
 

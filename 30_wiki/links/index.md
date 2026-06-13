@@ -64,7 +64,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\projects\鑫港湾HIS项目.md]]
 
 ## [[Kahneman]]
-- [[30_wiki\concepts\concept-半肥猫-learning-toolification-methodology.md]]
+- [[30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md]]
 
 ## [[after-action-review-aar]]
 - [[30_wiki\concepts\yt-decision-review.md]]
@@ -80,7 +80,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\ai-learning-closed-loop.md]]
 - [[30_wiki\concepts\contingency-decision-making.md]]
 - [[30_wiki\concepts\skill-ai-problem-validation.md]]
-- [[30_wiki\concepts\skill-ai-question-problem-checklist.md]]
+- [[30_wiki\concepts\skill-ai-problem-question-check.md]]
 - [[30_wiki\concepts\skill-纪浩-AI对话上下文隔离.md]]
 - [[30_wiki\concepts\structured-ai-workspace.md]]
 - [[30_wiki\dark-knowledges\dk-lz-ai-native-organization.md]]
@@ -239,12 +239,12 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[case-半肥猫-course-to-skill]]
 - [[30_wiki\concepts\case-半肥猫-from-assignment-to-tool.md]]
-- [[30_wiki\concepts\concept-半肥猫-learning-toolification-methodology.md]]
+- [[30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md]]
 - [[30_wiki\concepts\skill-半肥猫-course-to-skill-workflow.md]]
 
 ## [[case-半肥猫-from-assignment-to-tool]]
 - [[30_wiki\concepts\case-半肥猫-course-to-skill.md]]
-- [[30_wiki\concepts\concept-半肥猫-learning-toolification-methodology.md]]
+- [[30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md]]
 - [[30_wiki\concepts\dk-半肥猫-real-business-is-the-engine.md]]
 - [[30_wiki\concepts\dk-半肥猫-silky-answers-are-dangerous.md]]
 - [[30_wiki\concepts\skill-半肥猫-ai-research-validation.md]]
@@ -347,7 +347,6 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\skill-半肥猫-边学边练边沉淀的AI学习法.md]]
 - [[30_wiki\concepts\skill-半肥猫-追问AI证据并标注信源.md]]
 
-## [[concept-半肥猫-learning-toolification-methodology]]
 - [[30_wiki\concepts\dk-半肥猫-real-business-is-the-engine.md]]
 
 ## [[concept-纪浩-ai-collaboration-five-layer]]
@@ -664,7 +663,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 ## [[dk-半肥猫-silky-answers-are-dangerous]]
 - [[30_wiki\concepts\case-半肥猫-course-to-skill.md]]
 - [[30_wiki\concepts\case-半肥猫-from-assignment-to-tool.md]]
-- [[30_wiki\concepts\concept-半肥猫-learning-toolification-methodology.md]]
+- [[30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md]]
 - [[30_wiki\concepts\dk-半肥猫-real-business-is-the-engine.md]]
 - [[30_wiki\concepts\skill-半肥猫-ai-research-validation.md]]
 - [[30_wiki\concepts\skill-半肥猫-course-to-skill-workflow.md]]
@@ -688,7 +687,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\dark-knowledges\dk-truman-knowledge-extraction-three-schools.md]]
 
 ## [[dk-纪浩-list-body-note-dual-system]]
-- [[30_wiki\concepts\concept-半肥猫-learning-toolification-methodology.md]]
+- [[30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md]]
 
 ## [[dk-纪浩-logs-fastest-ignored]]
 - [[30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md]]
@@ -958,7 +957,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 - [[30_wiki\concepts\.sk-backup\sk-ai-question-problem-checklist.md]]
 - [[30_wiki\concepts\skill-ai-ai-workspace-setup.md]]
 - [[30_wiki\concepts\skill-ai-prd-for-ai.md]]
-- [[30_wiki\concepts\skill-ai-question-problem-checklist.md]]
+- [[30_wiki\concepts\skill-ai-problem-question-check.md]]
 
 ## [[sk-ai-purpose-bias-check]]
 - [[30_wiki\concepts\.sk-backup\sk-ai-narrative-test.md]]
@@ -1101,7 +1100,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[skill-半肥猫-course-to-skill-workflow]]
 - [[30_wiki\concepts\case-半肥猫-course-to-skill.md]]
-- [[30_wiki\concepts\concept-半肥猫-learning-toolification-methodology.md]]
+- [[30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md]]
 - [[30_wiki\concepts\skill-半肥猫-ai-research-validation.md]]
 
 ## [[skill-半肥猫-优先使用官方权威信源做证据]]
@@ -1248,7 +1247,7 @@ _Auto-generated index of `[[wikilink]]` references across wiki pages._
 
 ## [[skill-纪浩-真需求四要素验证法]]
 - [[30_wiki\concepts\case-半肥猫-from-assignment-to-tool.md]]
-- [[30_wiki\concepts\concept-半肥猫-learning-toolification-methodology.md]]
+- [[30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md]]
 - [[30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md]]
 - [[30_wiki\concepts\skill-纪浩-AI工作空间与导诊台设计法.md]]
 

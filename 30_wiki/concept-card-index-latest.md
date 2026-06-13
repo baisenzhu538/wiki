@@ -30,7 +30,6 @@
 | concept-一堂-key-assumptions | 关键假设思维：259工具与假设驱动的创业方法 | concept | product, yitang |
 | concept-一堂-product-kernel | 产品内核：用户愿意选择你的最小解决方案 | concept | product, yitang |
 | concept-半肥猫-ai-learning-toolification-methodology | 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进 | concept | ai-collaboration, yitang, learning |
-| concept-半肥猫-learning-toolification-methodology | 学习成果工具化方法论：从课程作业到可复用能力的转化框架 | concept | ai-collaboration, yitang |
 | concept-纪浩-ai-collaboration-five-layer | 概念：纪浩AI协作五层工作空间法 | concept | ai-collaboration, yitang |
 | concept-纪浩-ai-collaboration-methodology | 纪浩 AI 协作方法论：从判断到规模复用的五层体系 | concept | ai-collaboration, yitang |
 | data-labeling-best-practices-report | 数据标注最佳实践调研报告 | concept | master |
@@ -231,7 +230,6 @@
 | skill-使用优先级快筛卡锁定核心矛盾 | 技能：使用优先级快筛卡锁定核心矛盾 | skill |  |
 | skill-使用概念辨析卡区分易混淆概念 | 技能：使用概念辨析卡区分易混淆概念 | skill |  |
 | skill-六维窗口期扫描法 | 技能：六维窗口期扫描法 | skill |  |
-| skill-分享输出检验 | 技能：分享输出检验 | skill |  |
 | skill-分享输出检验法 | 技能：分享输出检验法 | skill | learning-methodology, yitang |
 | skill-分层标注重点信息 | 技能：分层标注重点信息 | skill |  |
 | skill-创始人二当家分工协作模式 | 技能：创始人+二当家分工协作模式 | skill |  |
@@ -496,7 +494,6 @@
 | skill-知识库团队管理 | 技能：知识库团队管理 | skill |  |
 | skill-知识树存储记忆法 | 技能：知识树存储记忆法 | skill | learning-methodology, yitang |
 | skill-稀缺资源机会成本比对法 | 技能：稀缺资源机会成本比对法 | skill |  |
-| skill-立即实践转化 | 技能：立即实践转化 | skill |  |
 | skill-立即实践转化法 | 技能：立即实践转化法 | skill | learning-methodology, yitang |
 | skill-纪浩-AI对话上下文隔离 | 技能：AI 对话上下文隔离 | skill | ai-collaboration |
 | skill-纪浩-AI工作空间与导诊台设计法 | 技能：AI工作空间与导诊台设计法 | skill | ai-collaboration, yitang |
