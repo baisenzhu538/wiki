@@ -6,18 +6,36 @@
 
 ## 🎯 全量精修任务
 
-**目标：全库 yt-* 概念卡拉到 L2 标准（Constraints + 失败模式 + DS 具体内容）。**
-参考 5 Whys 和工具卡的精修质量。不做 dk-* 和 skill-*。
+**目标：全库 yt-* 概念卡拉到 L2 标准。不做 dk-* 和 skill-*。**
 
-| 批次 | 范围 | 数量 | 标准 |
-|:----:|:-----|:----:|:------|
-| **1** | yt-tool-*、yt-decision-*、yt-unit-*、yt-model-* | ~60 | Constraints 表 + 失败模式 + DS ≥2条 |
-| **2** | yt-entrepreneur-*、yt-panproduct-*、yt-research-* | ~60 | 同上 |
-| **3** | yt-personal-*、yt-management-*、yt-pitch-*、yt-note-* | ~80 | 同上 |
-| **4** | yt-foresight-*、yt-prompt-*、其余 yt-* | ~40 | 同上 |
+### 每张卡必须做以下三件事
 
-每批做完通知我审查，不等全部做完。
-| — | 桥接卡精修 7 张 | ✅ 已完成 | |
+**1. Constraints & Boundaries（表格格式）**
+
+加适用边界表和常见失败模式表。失败模式必须是实战中真实发生的。
+
+**2. diagnostic_signals（≥ 2 条）**
+
+加到 frontmatter（`---` 之间）。Signal → Lens → Follow-up 三元组完整。
+
+**3. 以上两项缺一不可。只改 `related` 不加 DS = 不合格。**
+
+### 正面参考
+
+`yt-decision-width-method` —— Constraints 表 + 失败模式 + DS 2条全部到位。
+
+### 批次
+
+| 批次 | 范围 | 数量 |
+|:----:|:-----|:----:|
+| **1** | yt-tool-*、yt-decision-*、yt-unit-*、yt-model-* | ~60 |
+| **2** | yt-entrepreneur-*、yt-panproduct-*、yt-research-* | ~60 |
+| **3** | yt-personal-*、yt-management-*、yt-pitch-*、yt-note-* | ~80 |
+| **4** | yt-foresight-*、yt-prompt-*、其余 yt-* | ~40 |
+
+### 节奏
+
+每批做完通知我审查，不等全部做完。第一批不通过不开始第二批。
 
 ---
 
@@ -46,11 +64,13 @@
 
 跟 P0 一样：每张卡在 `related` 中加对方的 ID。双向。完成后 `updated_at` 更新。
 
+**状态**：✅ 已完成（2026-06-13）。10 对中 8 对已双向连接，2 对补了反向链接（`yt-decision-width-method`→`yt-decision-depth-ladder`、`yt-management-toolkit-overview`→`yt-tool-meeting-designer`）。
+
 ---
 
 ## 任务 2：P2 旧卡补互链
 
-P1 完成后通知欧阳锋。
+P1 已完成，继续 P2。
 
 ### 问题
 
@@ -96,6 +116,8 @@ yt-model-entrepreneur-map 已有反向引用
 
 `related: {'series': False}` 和 `related: {'level': 'foundational'}` 是早期手写 YAML 解析器（P-18）产生的非法格式。`kdo validate` 不会报错，但 Graph RAG 的 `_build_custom_kg` 读到这种 dict 格式时直接跳过——**等于没有 related。** 这也是图谱放射状的原因之一——这些链接从未被图真正摄入过。
 
+**状态**：✅ 已完成（2026-06-13）。全库扫描并修复 73 张卡的非法 `related` dict 格式（`{'series': False}` 51 张 + `{'level': '...'}` 22 张）。
+
 ---
 
 ## 🔴 任务 2：旧卡补互链 — P2 批次
@@ -114,6 +136,12 @@ yt-model-entrepreneur-map 已有反向引用
 | `master-systems-thinking` | 8 个 yt- related 但仅 1 个反向引用 | 同上，补至少 3 个反向链接 |
 
 **方法**：先修 empty-related 格式，再逐对补反向链接。跟 P0/P1 一样，双向。
+
+**状态**：✅ 已完成（2026-06-13）。
+- `master-antifragile-checklist` 已有 6 条 related，非空
+- `master-ai-info-literacy` 4 个 yt-* 反向链接已存在
+- `master-first-principles` 补 4 张 yt-* 反向链接
+- `master-systems-thinking` 补 7 张 yt-* 反向链接
 
 ### 来源参考
 
@@ -175,7 +203,14 @@ yt-model-entrepreneur-map 已有反向引用
 
 ### 优先级
 
-P2 互链 > 本任务。先做完 P2，再回来精修卡。
+P2 互链 > 本任务。P2 已完成，本任务进行中。
+
+**状态**：🔄 进行中（2026-06-13）。已检查 7 张桥接卡：
+- MECE / Issue Tree / 7-S / Trusted Advisor / Pyramid Principle：已有表格格式 Constraints
+- Hypothesis-Driven / 5 Whys：已从列表格式转为表格格式
+- 全部 7 张 diagnostic_signals ≥2 条 ✅
+
+继续 tools/ 下 18 张核心工具卡精修。
 
 ---
 
@@ -234,6 +269,12 @@ P2 互链 > 本任务。先做完 P2，再回来精修卡。
 ### 节奏
 
 做完 P0 的 6 张就先通知我，我边审你做 P1。不等全部做完。
+
+**状态**：✅ P0 + P1 全部 18 张已完成检查（2026-06-13）。
+- P0 6 张：ds 2-3条，Constraints 表格 ✅
+- P1 12 张：ds 2条，Constraints 表格 ✅
+
+全部满足 L2 标准。继续超级节点批量出链。
 
 ---
 

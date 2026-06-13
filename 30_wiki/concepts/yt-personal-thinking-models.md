@@ -19,7 +19,7 @@ query_triggers:
   - "教学创新"
   - "脱敏版"
   - "角色推演法"
-related: {'level': 'advanced'}
+related: []
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修身-思维模型口述版.md"

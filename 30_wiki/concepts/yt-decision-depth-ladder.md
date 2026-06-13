@@ -1,22 +1,23 @@
 ---
-
-id: "yt-decision-depth-ladder"
-type: "concept"
-status: "enriched"
-title: ""
-created_at: ""
-updated_at: ""
+id: yt-decision-depth-ladder
+type: concept
+status: enriched
+title: ''
+created_at: ''
+updated_at: '2026-06-13'
 tags:
-  - #scene/business-analysis/conversion-rate
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology
-  - #scene/product-design/design-freeze
-  - #scene/product-design/focus-workbench
-  - #scene/skill-engineering
+- null
+- null
+- null
+- null
+- null
+- null
 pipeline:
-  - #boundary/requires-human-judgment
-
-domain: []---
+- null
+domain: []
+related:
+- yt-decision-width-method
+---
 
 1|---
      2|

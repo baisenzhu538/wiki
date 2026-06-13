@@ -16,7 +16,7 @@ query_triggers:
   - "从主观感受到能力建设的五层穿透"
   - "深度复盘冰山图"
   - "深度复盘冰山图：从主观感受到能力建设的五层穿透"
-related: {'level': 'intermediate'}
+related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂深度复盘冰山图.png"

@@ -18,7 +18,7 @@ query_triggers:
   - "核心洞见"
   - "读书会结构"
   - "顾问式销售的奠基之作"
-related: {'level': 'intermediate'}
+related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-读书会-SPIN销售法口述.md"

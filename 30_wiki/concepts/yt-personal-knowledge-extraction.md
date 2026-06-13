@@ -1,54 +1,58 @@
 ---
-id: "yt-personal-knowledge-extraction"
-component_of: ""
+id: yt-personal-knowledge-extraction
+component_of: ''
 confidence: 0.8
 created_at: 2026-05-07
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+- yitang
 estimated_tokens: 3000
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: ''
 query_triggers:
-  - "知识萃取"
-  - "经验萃取方法论"
-  - "案例大爆炸"
-  - "辩证式讨论"
-  - "专家访谈技巧"
-  - "方法论建模"
-  - "知行合一验证"
-  - "全网调研"
-  - "PRD自查清单"
-  - "知识体系搭建"
+- 知识萃取
+- 经验萃取方法论
+- 案例大爆炸
+- 辩证式讨论
+- 专家访谈技巧
+- 方法论建模
+- 知行合一验证
+- 全网调研
+- PRD自查清单
+- 知识体系搭建
 related:
-  - "yt-personal-deep-review"
-reviewed_by: "黄药师"
+- yt-personal-deep-review
+- master-systems-thinking
+reviewed_by: 黄药师
 source_refs:
-  - "00_inbox/一堂-个人修炼-知识萃取探索营口述版.txt"
-status: "enriched"
-title: "知识萃取方法论"
-type: "tool"
-updated_at: 2026-05-08
+- 00_inbox/一堂-个人修炼-知识萃取探索营口述版.txt
+status: enriched
+title: 知识萃取方法论
+type: tool
+updated_at: '2026-06-13'
 version: 1
-yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'explore_camp'}
+yitang:
+  map: personal
+  module: 个人修炼
+  course_type: explore_camp
 tags:
-  - #knowledge-extraction
-  - #methodology
-  - #personal-growth
-  - #scene/knowledge-management
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/checklist-method
-  - #scene/note-taking/level-diagnosis
-  - #scene/note-taking/live-field
-  - #scene/product-design/design-freeze
-  - #scene/skill-engineering/publish-deploy
-  - #yitang
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+- null
+- null
+- confidence-source-cited
+- confidence-verified-by-case
 ---
 
 # 一堂知识萃取探索营：从碎片经验到确定模型

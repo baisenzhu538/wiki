@@ -19,7 +19,7 @@ query_triggers:
   - "管团队（L3）：五项基本功"
   - "管理修炼地图"
   - "管项目（L2）：四步闭环"
-related: {'level': 'foundational'}
+related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"

@@ -16,7 +16,7 @@ query_triggers:
   - "提问刻意练习提升画布"
   - "核心方法论要素"
   - "知识体系定位"
-related: {'level': 'foundational'}
+related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"

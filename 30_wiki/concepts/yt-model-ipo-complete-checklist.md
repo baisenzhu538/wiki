@@ -18,7 +18,7 @@ query_triggers:
   - "科学学习完整清单"
   - "输入 Input"
   - "输出 Output"
-related: {'level': 'foundational'}
+related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"

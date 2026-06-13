@@ -16,7 +16,7 @@ query_triggers:
   - "刻意练习十年成长指数：为什么有人一年顶十年"
   - "四要素诊断矩阵"
   - "成长曲线三种状态"
-related: {'level': 'foundational'}
+related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂刻意练习十年成长指数.png"

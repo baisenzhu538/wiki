@@ -20,7 +20,7 @@ query_triggers:
   - "用户任务分析"
   - "职业发展路径设计"
   - "产品设计方法论"
-related: {'series': True}
+related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

@@ -16,7 +16,7 @@ query_triggers:
   - "常见角度"
   - "预判模型"
   - "预判模型：从最糙版到复杂版的三种预判范式"
-related: {'level': 'intermediate'}
+related: []
 superseded_by:
   - "yt-foresight-model-taxonomy"
 reviewed_by: "黄药师"

@@ -17,7 +17,7 @@ query_triggers:
   - "调研行动营"
   - "调研行动营：从调研认知到AI调研武器库"
   - "调研黑客五步曲"
-related: {'level': 'intermediate'}
+related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-创业-调研行动营口述01.md"

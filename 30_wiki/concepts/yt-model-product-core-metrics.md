@@ -16,7 +16,7 @@ query_triggers:
   - "从获客到推荐的度量框架"
   - "使用原则"
   - "四大环节 × 十大指标"
-related: {'level': 'intermediate'}
+related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂产品内核-十大典型指标.png"

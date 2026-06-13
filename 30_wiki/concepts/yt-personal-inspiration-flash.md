@@ -20,7 +20,7 @@ query_triggers:
   - "创造力培养"
   - "如何产生灵感"
   - "暂停显意识"
-related: {'series': True}
+related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:

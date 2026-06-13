@@ -1,54 +1,59 @@
 ---
-id: "yt-unit-model-ai-assisted"
-component_of: ""
+id: yt-unit-model-ai-assisted
+component_of: ''
 confidence: 0.85
 created_at: 2026-05-24
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "entrepreneur"
-  - "master"
-  - "ai"
+- entrepreneur
+- master
+- ai
 estimated_tokens: 2600
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-unit-model-overview"
-  - "yt-unit-model-construction"
+- yt-unit-model-overview
+- yt-unit-model-construction
 query_triggers:
-  - "AI 单元模型"
-  - "TCP-R 双导师"
-  - "出口式咨询"
-  - "教学教练"
-  - "咨询教练"
-  - "AI 商业分析"
+- AI 单元模型
+- TCP-R 双导师
+- 出口式咨询
+- 教学教练
+- 咨询教练
+- AI 商业分析
 related:
-  - "yt-unit-model-ladder"
-  - "yt-unit-model-dynamic"
-  - "yt-decision-ai-innovation"
-reviewed_by: ""
+- yt-unit-model-ladder
+- yt-unit-model-dynamic
+- yt-decision-ai-innovation
+- master-systems-thinking
+reviewed_by: ''
 source_refs:
-  - "src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述"
-status: "reviewed"
-title: "AI+单元模型：TCP-R双导师与出口式咨询实践"
-trust_level: "high"
-type: "tool"
-updated_at: 2026-05-24
+- src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述
+status: reviewed
+title: AI+单元模型：TCP-R双导师与出口式咨询实践
+trust_level: high
+type: tool
+updated_at: '2026-06-13'
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'tool', 'level': 'intermediate'}
+yitang:
+  map: entrepreneur
+  module: 创业必修
+  course_type: tool
+  level: intermediate
 tags:
-  - #ai
-  - #coaching
-  - #entrepreneur
-  - #scene/business-analysis/conversion-rate
-  - #scene/learning-methodology
-  - #scene/note-taking/level-diagnosis
-  - #scene/skill-engineering/publish-deploy
-  - #unit-model
-  - #yitang
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
 pipeline:
-  - #boundary/requires-human-judgment
-  - #tool
-  - confidence-draft
-  - confidence-source-cited
+- null
+- null
+- confidence-draft
+- confidence-source-cited
 ---
 
 # AI+单元模型：TCP-R双导师与出口式咨询实践

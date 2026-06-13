@@ -18,7 +18,7 @@ query_triggers:
   - "为什么Y模型难学"
   - "核心动词"
   - "科学成事的底层操作系统"
-related: {'level': 'advanced'}
+related: []
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修炼-Y模型实操口述版.md"

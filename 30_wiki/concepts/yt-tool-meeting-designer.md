@@ -1,69 +1,74 @@
 ---
-id: "yt-tool-meeting-designer"
+id: yt-tool-meeting-designer
 component_of:
-  - "yt-management-toolkit-overview"
+- yt-management-toolkit-overview
 confidence: 0.82
 created_at: 2026-05-19
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+- yitang
 estimated_tokens: 3200
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-management-toolkit-overview"
+- yt-management-toolkit-overview
 query_triggers:
-  - "会议设计"
-  - "议程模板"
-  - "会议角色分工"
-  - "会前准备"
-  - "减少无效会议"
-  - "会议产出验收"
-  - "会议时间管理"
-  - "科学开会"
-  - "会议效率"
-  - "会议设计师"
-  - "会议蓝图"
-  - "会议流程"
-  - "会议觢决方案"
-  - "会议最佳实践"
-  - "会议管理工具"
-  - "会议记录模板"
-  - "会后行动项"
-  - "会议角色"
-  - "会议时间盒"
-  - "会议预读材料"
+- 会议设计
+- 议程模板
+- 会议角色分工
+- 会前准备
+- 减少无效会议
+- 会议产出验收
+- 会议时间管理
+- 科学开会
+- 会议效率
+- 会议设计师
+- 会议蓝图
+- 会议流程
+- 会议觢决方案
+- 会议最佳实践
+- 会议管理工具
+- 会议记录模板
+- 会后行动项
+- 会议角色
+- 会议时间盒
+- 会议预读材料
 related:
-  - "yt-management-scientific-meetings"
-  - "yt-management-goal-management"
-  - "yt-management-strategy-meeting"
-  - "yt-management-project-management"
-  - "yt-decision-canvas"
-  - "yt-decision-consensus-iceberg"
-  - "yt-tool-project-health-radar"
-  - "yt-tool-okr-cycle"
-  - "yt-tool-strategy-workshop"
+- yt-management-scientific-meetings
+- yt-management-goal-management
+- yt-management-strategy-meeting
+- yt-management-project-management
+- yt-decision-canvas
+- yt-decision-consensus-iceberg
+- yt-tool-project-health-radar
+- yt-tool-okr-cycle
+- yt-tool-strategy-workshop
+- yt-management-toolkit-overview
 source_refs:
-  - "30_wiki/concepts/yt-management-scientific-meetings.md"
-status: "draft"
-title: "会议设计师：一页纸会议蓝图"
-trust_level: "medium"
-type: "tool"
-updated_at: 2026-05-19
+- 30_wiki/concepts/yt-management-scientific-meetings.md
+status: draft
+title: 会议设计师：一页纸会议蓝图
+trust_level: medium
+type: tool
+updated_at: '2026-06-13'
 version: 1
-yitang: {'map': 'management', 'module': '管团队', 'course_type': 'tool', 'level': 'core'}
+yitang:
+  map: management
+  module: 管团队
+  course_type: tool
+  level: core
 tags:
-  - #management
-  - #meeting
-  - #productivity
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/skill-engineering
-  - #yitang
+- null
+- null
+- null
+- null
+- null
+- null
+- null
 pipeline:
-  - #boundary/requires-human-judgment
-  - #tool
-  - confidence-draft
-  - confidence-source-cited
+- null
+- null
+- confidence-draft
+- confidence-source-cited
 ---
 
 # 会议设计师：一页纸会议蓝图

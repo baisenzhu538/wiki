@@ -20,7 +20,7 @@ query_triggers:
   - "融资节奏"
   - "融资是放大器"
   - "融资执行"
-related: {'series': True}
+related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"

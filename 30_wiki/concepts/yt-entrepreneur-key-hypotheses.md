@@ -1,56 +1,62 @@
 ---
-id: "yt-entrepreneur-key-hypotheses"
-component_of: ""
+id: yt-entrepreneur-key-hypotheses
+component_of: ''
 confidence: 0.85
 created_at: 2026-05-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+- yitang
 estimated_tokens: 4200
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-entrepreneur-five-step-method"
+- yt-entrepreneur-five-step-method
 query_triggers:
-  - "关键假设"
-  - "假设验证"
-  - "假设驱动"
-  - "259工具"
-  - "X型创业者"
-  - "Y型创业者"
-  - "价值假设"
-  - "增长假设"
-  - "最小成本验证"
-  - "五步法"
+- 关键假设
+- 假设验证
+- 假设驱动
+- 259工具
+- X型创业者
+- Y型创业者
+- 价值假设
+- 增长假设
+- 最小成本验证
+- 五步法
 related:
-  - "yt-model-entrepreneur-map"
-  - "yt-panproduct-execution-hypothesis-decomposition"
-  - "master-antifragile-checklist"
+- yt-model-entrepreneur-map
+- yt-panproduct-execution-hypothesis-decomposition
+- master-antifragile-checklist
+- master-systems-thinking
 review_date: 2026-06-06
-reviewed_by: ""
+reviewed_by: ''
 source_refs:
-  - "00_inbox/一堂-关键假设课-truman-口述.txt"
-  - "00_inbox/一堂-关键假设课-truman-笔记.txt"
-status: "enriched"
-title: "关键假设259工具与假设验证三板斧"
-trust_level: "medium"
-type: "tool"
-updated_at: 2026-06-06
+- 00_inbox/一堂-关键假设课-truman-口述.txt
+- 00_inbox/一堂-关键假设课-truman-笔记.txt
+status: enriched
+title: 关键假设259工具与假设验证三板斧
+trust_level: medium
+type: tool
+updated_at: '2026-06-13'
 version: 2
-yitang: {'map': 'entrepreneur', 'module': '关键假设', 'course_id': 'yt-entrepreneur-key-hypotheses', 'course_type': 'method', 'level': 'foundational'}
+yitang:
+  map: entrepreneur
+  module: 关键假设
+  course_id: yt-entrepreneur-key-hypotheses
+  course_type: method
+  level: foundational
 tags:
-  - #scene/ai-collaboration/pdca-execution
-  - #scene/business-analysis/conversion-rate
-  - #scene/business-analysis/customer-acquisition
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering/manifest-design
-  - #yitang
-  - #关键假设
-  - #创业
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/single-use-only
-  - confidence-source-cited
+- null
+- null
+- confidence-source-cited
 ---
 
 # 关键假设259工具与假设验证三板斧

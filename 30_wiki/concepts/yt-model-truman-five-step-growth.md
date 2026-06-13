@@ -17,7 +17,7 @@ query_triggers:
   - "五要素模型"
   - "核心逻辑"
   - "用一页纸解释全部人生规划"
-related: {'level': 'advanced'}
+related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/Truman的个人成长五步法.png"

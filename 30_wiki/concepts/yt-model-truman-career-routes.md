@@ -17,7 +17,7 @@ query_triggers:
   - "关键选择框架"
   - "楚门的选择"
   - "楚门的选择：两条职业成长路线 X vs Y"
-related: {'level': 'advanced'}
+related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/truman的选择：两条职业成长路线.png"
