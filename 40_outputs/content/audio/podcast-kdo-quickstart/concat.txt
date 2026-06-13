@@ -1,0 +1,6 @@
+file '00-intro.mp3'
+file '01-story.mp3'
+file '02-problem.mp3'
+file '03-kdo-concept.mp3'
+file '04-workflow.mp3'
+file '05-outro.mp3'

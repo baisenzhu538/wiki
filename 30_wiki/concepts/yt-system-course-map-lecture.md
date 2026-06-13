@@ -5,7 +5,6 @@ status: "reviewed"
 source_refs: ""
 id: "yt-system-course-map-lecture - src_20260506_13e7bbca - src_20260507_3f2ac357"
 created_at: "2026-05-05"
-updated_at: "2026-05-06"
 domain:
   - "yitang"
 yitang: {'module': '课程体系总览', 'course_type': 'method', 'level': 'foundational', 'series': True}
@@ -25,7 +24,20 @@ pipeline:
   - #boundary/requires-human-judgment
   - #boundary/single-use-only
   - confidence-verified-by-case
----
+diagnostic_signals:
+  - signal: "使用地图前是否先用'全盘游戏'定位真实能力缺口"
+    framework_lens: "整合体验 / Perkins 全局游戏"
+    follow_up_question: "是否因为地图太完整而陷入'等我学完再开始'的拖延？"
+  - signal: "每次使用前是否检查框架是否仍然成立、是否有新反例"
+    framework_lens: "时效性 / 反脆弱"
+    follow_up_question: "方法论是否被当成绝对真理执行？"
+  - signal: "分析后是否仍能指出至少 1 个框架外的重要因素"
+    framework_lens: "边界意识 / Taleb 残留风险"
+    follow_up_question: "是否产生'每个维度都对但整体不对'的错觉？"
+  - signal: "学习路径是否按'具体项目问题→选 1 个最相关模块→应用'推进"
+    framework_lens: "最小可用 / 刻意练习"
+    follow_up_question: "是否一次性尝试应用整个十层框架导致信息过载？"
+updated_at: '2026-06-13'---
 
 # 一堂课程地图精华串讲
 
@@ -89,6 +101,21 @@ Capability: workflow
 
 ### 内部局限
 
+## Constraints & Boundaries
+
+| 边界 | 适用 | 不适用 |
+|---|---|---|
+| 使用目的 | 理解体系全貌、按需定位 | 直接按十层框架一次性执行 |
+| 用户状态 | 有具体项目经验，能判断模块相关性 | 纯新手、无业务上下文 |
+| 决策阶段 | 启发式框架输入 | 重大决策唯一依据 |
+| 更新频率 | 每次使用前检查时效性 | 当作一成不变的真理 |
+
+### Common Failure Modes
+1. **十层框架一次性应用** → 症状：信息过载、每个维度都对但整体不对；原因：未根据问题选择模块；修复：先选 1 个最直接相关模块用，再扩展
+2. **把地图当绝对真理** → 症状：忽视新反例和行业变化；原因：未质疑框架时效性；修复：每次使用前回答'这个结论现在还成立吗？'
+3. **忽视框架外因素** → 症状：分析完备但落地失败；原因：只考虑地图内维度；修复：强制列出 ≥1 个框架外重要因素
+4. **新手直接套用** → 症状：学完地图仍不知如何行动；原因：缺少'全盘游戏'和真实问题上下文；修复：先用 Perkins 式全盘游戏体验完整任务
+5. **打卡式学习** → 症状：追求地图打勾而非能力变化；原因：打勾机制激励浅层完成；修复：用行为改变率替代完成率
 ## Synthesis 对标
 
 - [[30_wiki/systems/一堂方法论体系总图]] — 一堂全部课程的权威 Hub，本卡为其核心源材料

@@ -1,41 +1,39 @@
 ---
-id: "yt-three-dimension-opportunity-matrix"
-component_of: ""
+id: yt-three-dimension-opportunity-matrix
+title: 三维排列组合找机会
+type: tool
+status: enriched
+component_of: 
 confidence: 0.8
 created_at: 2026-06-10
-difficulty: "intermediate"
-domain:
-  - "yitang"
+difficulty: intermediate
+domain: [yitang]
 estimated_tokens: 1000
-language: "zh-CN"
-prerequisites: ""
-query_triggers:
-  - "三维排列组合"
-  - "找机会"
-  - "新行业"
-  - "新模式"
-  - "新能力"
-  - "机会矩阵"
+language: zh-CN
+prerequisites: 
 related: []
 review_date: 2026-06-10
-reviewed_by: "洪七公"
-source_refs:
-  - "00_inbox/一堂-机会预判-三维排列组合01.png"
-status: "enriched"
-tags:
-  - "#scene/business-analysis"
-  - "#scene/ideation"
-  - "#yitang"
-title: "三维排列组合找机会"
-trust_level: "medium"
-type: "tool"
-updated_at: 2026-06-10
+reviewed_by: 洪七公
+source_refs: ["00_inbox/一堂-机会预判-三维排列组合01.png"]
+tags: ["#scene/business-analysis", "#scene/ideation", "#yitang"]
+trust_level: medium
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '机会预判', 'course_id': 'yt-three-dimension-opportunity-matrix', 'course_type': 'tool', 'level': 'core'}
-tags:
-  - #yitang
+diagnostic_signals:
+  - signal: "是否在 2 小时内生成 ≥50 个交叉点并快速收敛到 Top 5"
+    framework_lens: "发散-收敛 / 效率"
+    follow_up_question: "全排列是否导致 2-3 周仍无法收敛的选择瘫痪？"
+  - signal: "每个候选交叉点是否通过'一堂五步法'初步预判过滤"
+    framework_lens: "验证 / 低成本假设"
+    follow_up_question: "理论上可行但执行/监管/竞争不可行的组合是否进入候选池？"
+  - signal: "'新行业/新模式/新能力'清单是否定期更新以反映时效性"
+    framework_lens: "技术迭代 / 动态机会"
+    follow_up_question: "选定机会的 3-6 个月开发周期内，'新能力'是否已被巨头免费提供？"
+  - signal: "是否同时评估执行难度、资源约束、竞争格局和监管限制"
+    framework_lens: "可行性 / 落地诚实"
+    follow_up_question: "机会筛选是否只停留在需求-能力-模式三档匹配？"
+updated_at: '2026-06-13'
 ---
-
 # 三维排列组合找机会
 
 > 来源：一堂课程体系 | [[yt-foresight-business-spectrum]] | [[yt-ai-trend-12-signals]]
@@ -76,24 +74,19 @@ tags:
 
 ## Constraints & Boundaries
 
-### 场景1：组合爆炸与选择瘫痪
+| 边界 | 适用 | 不适用 |
+|---|---|---|
+| 使用阶段 | 机会发散、早期 brainstorm | 已有明确方向后的深度验证 |
+| 资源约束 | 有快速过滤机制（如五步法） | 无过滤时直接全排列评估 |
+| 时效要求 | 能快速迭代清单 | 长周期开发且技术变化快 |
+| 评估维度 | 仅生成候选 | 忽略执行/竞争/监管的决策依据 |
 
-| 场景 | 为什么失效 | 可验证的失败症状 |
-|------|-----------|----------------|
-| 严格按照5×5×5=125个交叉点做全排列并逐一评估 | 三维排列产生大量理论上可行、现实中不可行的组合。全排列评估会消耗巨量时间，且大多数组合在第一轮就会被淘汰 | 团队在排列组合阶段花费2-3周仍无法收敛到Top 5；或因组合太多而陷入"每个看起来都有点道理"的决策瘫痪，最终不做选择 |
-
-### 场景2："新"的时效性陷阱
-
-| 场景 | 为什么失效 | 可验证的失败症状 |
-|------|-----------|----------------|
-| 将列表中的"新行业/新模式/新能力"视为长期不变的机会源 | "新"的定义高度时效性。今天列出的"新能力"（如多模态理解）可能在6个月后成为标配，届时基于该能力的交叉点从"颠覆型"降级为"改进型" | 团队基于某个"新能力"切入，在产品开发周期（3-6个月）内该能力已被巨头免费提供（如OpenAI发布新功能），差异化消失 |
-
-### 场景3：忽视执行难度与资源约束
-
-| 场景 | 为什么失效 | 可验证的失败症状 |
-|------|-----------|----------------|
-| 仅通过"需求存在+能力支撑+模式跑通"三档筛选就认定机会可行 | 三维矩阵不考虑执行难度（需要多少人、多少钱、多长时间）、竞争格局（巨头是否已在布局）、监管限制（医疗/教育/金融的特殊要求） | 团队筛选出的"可行交叉点"在执行中发现需要10倍于预期的资金/时间；或因未考虑监管而卡在牌照/认证环节 |
-
+### Common Failure Modes
+1. **组合爆炸瘫痪** → 症状：2-3 周无法收敛到 Top 5；原因：严格按照全排列逐一评估；修复：先生成大量交叉点，再用硬性标准快速淘汰 80%
+2. **新能力时效性陷阱** → 症状：开发到一半差异化被巨头免费化；原因：把'新能力'当长期不变；修复：定期更新能力清单并评估窗口期
+3. **忽视执行与监管** → 症状：机会需要 10 倍资金或卡在牌照；原因：仅做需求-能力-模式匹配；修复：每个候选交叉点补充执行难度/竞争格局/监管检查
+4. **机会清单缺乏过滤** → 症状：大量理论上可行、现实中不可行的组合；原因：未接五步法预判；修复：每个交叉点必须通过低成本假设验证
+5. **把组合当结论** → 症状：看到交叉点就觉得能做；原因：混淆机会生成与机会验证；修复：明确三维矩阵只输出候选，不输出决策
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |
