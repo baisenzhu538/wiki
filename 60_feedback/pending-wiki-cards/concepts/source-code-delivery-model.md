@@ -1,7 +1,11 @@
 ---
 title: "源码交付模式的商业模式反噬"
 type: concept
-status: draft
+status: reviewed
+review_grade: "A"
+reviewed_by: "欧阳锋"
+review_date: "2026-06-13"
+review_note: "🟢放行。可复用框架，质量扎实。"
 domain: [SaaS, 商业模式, 软件交付]
 source_refs:
   - "src_20260613_qishijian_transcript"
