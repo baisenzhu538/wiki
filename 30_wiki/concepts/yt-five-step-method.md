@@ -27,7 +27,6 @@ status: "reviewed"
 title: "一堂五步法总纲"
 trust_level: "medium"
 type: "framework"
-updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '五步法', 'course_id': 'yt-five-step-method', 'course_type': 'framework', 'level': 'core'}
 tags:
@@ -37,6 +36,14 @@ tags:
   - #yitang
 pipeline:
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户知道五步，但做项目时只用其中一两步"
+    framework_lens: "框架使用不完整"
+    follow_up_question: "你最近一次完整走完了五步法的五个环节是什么时候？"
+  - signal: "用户把五步法当万能框架，不看行业差异"
+    framework_lens: "僵化套用"
+    follow_up_question: "你这个行业的特殊性是什么？五步法的哪一步需要特别调整？"
+updated_at: '2026-06-13'
 ---
 
 # 一堂五步法总纲

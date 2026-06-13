@@ -6,7 +6,7 @@
 
 ## 🎯 全量精修任务
 
-**总卡数：238 张 yt-* 卡（已精修 80 张，剩余 ~158 张）。**
+**总卡数：238 张 yt-* 卡（已精修 90 张，剩余 ~148 张）。**
 
 ### 严禁行为
 
@@ -177,6 +177,23 @@
 | 70 | `yt-five-step-level-blindspots` | dk | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
 
 **更新：2026-06-13** — 第八批 10 张已完成第一圈精修。累计完成 80 张，剩余 ~158 张。
+
+### 第九批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----:|:-----|:----:|:---------|:----:|
+| 71 | `yt-five-step-method` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 72 | `yt-foresight-15-char-mantra` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 73 | `yt-foresight-ab-steady-state` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 74 | `yt-foresight-addition-subtraction` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 75 | `yt-foresight-business-spectrum` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 76 | `yt-foresight-deliverables-four-levels` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 77 | `yt-foresight-model-taxonomy` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 5 条 + 失败模式 4 条） | ✅ 已完成 |
+| 78 | `yt-foresight-probability-engineering` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 79 | `yt-foresight-ten-fatal-flaws` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 80 | `yt-growth-cycle-model` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第九批 10 张已完成第一圈精修。累计完成 90 张，剩余 ~148 张。
 
 ---
 

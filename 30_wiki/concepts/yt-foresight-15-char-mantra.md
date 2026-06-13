@@ -41,6 +41,14 @@ tags:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "用户只背十五字，不做加法减法"
+    framework_lens: "口诀化"
+    follow_up_question: "你的选项池里有多少个经过拆解的选项？如果<10个，加法没做"
+  - signal: "用户做减法凭感觉，不识别硬伤"
+    framework_lens: "减法不专业"
+    follow_up_question: "你排除每个选项时，能说出具体的硬伤类型吗？"
+updated_at: '2026-06-13'
 ---
 
 # 十五字黄金法诀：机会预判的核心框架

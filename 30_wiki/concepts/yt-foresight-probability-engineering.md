@@ -36,6 +36,14 @@ tags:
   - #scene/strategic-planning
 pipeline:
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户只提高单次概率，不增加试错次数"
+    framework_lens: "只用了一个杠杆"
+    follow_up_question: "你一年能完成几次完整的试错循环？如果<2次，第二个杠杆没用上"
+  - signal: "用户把试错当赌博，不做预判"
+    framework_lens: "预判缺失"
+    follow_up_question: "你的试错方向是从多少个选项中筛选出来的？如果只有1个，试错是赌博"
+updated_at: '2026-06-13'
 ---
 
 # 概率工程：把小概率变成大概率的方法论

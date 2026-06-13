@@ -28,7 +28,6 @@ status: "reviewed"
 title: "增长周期模型"
 trust_level: "medium"
 type: "framework"
-updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '五步法', 'course_id': 'yt-growth-cycle-model', 'course_type': 'framework', 'level': 'core'}
 tags:
@@ -37,6 +36,14 @@ tags:
   - #yitang
 pipeline:
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户在获客增长期就做系统增长的事"
+    framework_lens: "周期错配"
+    follow_up_question: "你现在最重要的是找到可复制渠道，还是优化转化模型？"
+  - signal: "用户不知道当前处于哪个增长周期"
+    framework_lens: "没有周期判断"
+    follow_up_question: "你的业务现在最大风险是无法复制、现金流崩，还是越大越亏？"
+updated_at: '2026-06-13'
 ---
 
 # 增长周期模型
