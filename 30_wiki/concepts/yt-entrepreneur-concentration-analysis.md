@@ -29,7 +29,6 @@ status: "enriched"
 title: "集中度分析"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '集中度分析', 'course_id': 'yt-entrepreneur-concentration-analysis', 'course_type': 'method', 'level': 'core'}
 tags:
@@ -41,6 +40,14 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "用户用集中度判断行业好坏，但忽视自己定位"
+    framework_lens: "行业属性≠企业策略"
+    follow_up_question: "你选择的细分市场和差异化定位是什么？没有定位，集中度数据无法指导决策"
+  - signal: "用户认为高集中度行业就不能进"
+    framework_lens: "过度简化"
+    follow_up_question: "高集中度行业里有没有被忽视的细分市场或差异化角度？"
+updated_at: '2026-06-13'
 ---
 
 # 集中度分析
@@ -84,6 +91,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-entrepreneur-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 做行业预判 | 理解终局格局 |
+| ✅ 能区分不同细分市场 | 不做整体判断 |
+| ✅ 有差异化策略 | 知道怎么生存 |
+| ❌ 只看宏观数据 | 不做细分分析 |
+| ❌ 没有细分市场概念 | 把行业当整体 |
+| ❌ 不愿差异化 | 只想正面竞争 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"用集中度直接决策"** | 高就不进低就进 | 结合细分市场和定位判断 |
+| **"忽视细分市场"** | 行业整体下结论 | 找到可切入的细分 |
+| **"静态看格局"** | 认为格局不变 | 评估技术和模式变化对格局的影响 |
+| **"把终局当现在"** | 用未来格局指导当前行动 | 分阶段制定策略 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

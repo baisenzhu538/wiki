@@ -64,7 +64,6 @@ status: enriched
 title: 一堂五步法
 trust_level: medium
 type: tool
-updated_at: '2026-06-13'
 version: 1
 yitang:
   map: entrepreneur
@@ -84,6 +83,14 @@ pipeline:
 - null
 - confidence-source-cited
 - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "用户按五步法学了一遍，但做项目还是凭感觉"
+    framework_lens: "框架未转化为工作流"
+    follow_up_question: "你最近一次做项目时，明确使用了五步法的哪一步工具？"
+  - signal: "用户 rigidly 按顺序走五步，不做迭代"
+    framework_lens: "僵化使用——五步法需要循环迭代"
+    follow_up_question: "你的项目走到某一步时，有没有发现需要回到前一步修正？如果没有，可能没有在真实反馈中迭代"
+updated_at: '2026-06-13'
 ---
 
 # 一堂五步法
@@ -127,6 +134,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-entrepreneur-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有创业项目 | 有应用场景 |
+| ✅ 愿意系统分析 | 不凭感觉 |
+| ✅ 能接受迭代 | 根据反馈调整 |
+| ❌ 没有项目 | 空谈框架 |
+| ❌ 只想套模板 | 不做调整 |
+| ❌ 拒绝调整 | 僵化执行 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"学完不用"** | 学了五步法但实战不用 | 每个项目强制走一遍 |
+| **"僵化顺序"** | 必须按1-2-3-4-5 | 根据反馈循环调整 |
+| **"跳过验证"** | 直接跳到增长 | 关键假设必须验证 |
+| **"忽视反馈"** | 不与市场互动 | 每步设置反馈点 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

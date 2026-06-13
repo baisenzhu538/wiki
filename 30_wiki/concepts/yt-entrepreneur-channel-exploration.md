@@ -29,7 +29,6 @@ status: "enriched"
 title: "渠道探索"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '渠道探索', 'course_id': 'yt-entrepreneur-channel-exploration', 'course_type': 'method', 'level': 'core'}
 tags:
@@ -44,6 +43,14 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户只选一个渠道All in，不测试其他"
+    framework_lens: "渠道单一风险"
+    follow_up_question: "如果明天这个渠道失效（平台政策变化/成本翻倍），你有备选吗？"
+  - signal: "用户渠道很多，但不知道哪个有效"
+    framework_lens: "没有渠道验证机制"
+    follow_up_question: "每个渠道的CAC、转化率、LTV/CAC你算过吗？如果不知道，渠道选择是盲目的"
+updated_at: '2026-06-13'
 ---
 
 # 渠道探索
@@ -87,6 +94,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-entrepreneur-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 早期阶段 | 需要找渠道 |
+| ✅ 预算有限 | 能约束选择 |
+| ✅ 能快速测试 | 可低成本验证 |
+| ❌ 已有成熟渠道 | 不需要探索 |
+| ❌ 预算充足 | 容易铺太开 |
+| ❌ 不愿测试 | 只想直接知道答案 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"All in单一渠道"** | 不测试备选 | 至少同时测试2-3个渠道 |
+| **"渠道太多不聚焦"** | 每个都做一点 | 阶段性聚焦 |
+| **"不复盘ROI"** | 不知道哪个有效 | 建立渠道数据看板 |
+| **"复制别人渠道"** | 不看自身匹配度 | 结合自身产品/用户/资源 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

@@ -30,7 +30,6 @@ status: "enriched"
 title: "PEAS核心洞察：决策系统的四槽诊断法"
 trust_level: "medium"
 type: "concept"
-updated_at: 2026-05-18
 version: 1
 tags:
   - #ai
@@ -47,6 +46,14 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户定了很多OKR，但只写了目标数字，没定义怎么衡量"
+    framework_lens: "P填了但E/A/S空槽——PEAS四槽缺一不可"
+    follow_up_question: "你的目标对应的环境、可执行动作、反馈传感器分别是什么？如果答不上来，目标系统是残缺的"
+  - signal: "团队很努力但目标达不成"
+    framework_lens: "可能是架构错配，不是努力问题"
+    follow_up_question: "这个失败是因为不够努力，还是因为某个PEAS槽位为空或与环境不匹配？"
+updated_at: '2026-06-13'
 ---
 
 # PEAS核心洞察：决策系统的四槽诊断法
@@ -129,6 +136,28 @@ E（环境）是给定的。你不能选择环境，但你能选择：
 
 ### 内部局限
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有明确目标 | P可定义 |
+| ✅ 能定义环境 | 知道在哪里竞争 |
+| ✅ 知道执行手段 | A可调用 |
+| ✅ 有反馈传感器 | S能感知结果 |
+| ❌ P本身模糊 | 成功长什么样 unclear |
+| ❌ 创意探索期 | 目标快速变化 |
+| ❌ 无反馈 | 无法闭环 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"只填P"** | 只写目标数字 | 补全E/A/S三槽 |
+| **"E定义不清"** | 不知道竞争环境 | 明确环境边界和关键玩家 |
+| **"A和S缺失"** | 没有执行手段或反馈 | 设计动作集和评估指标 |
+| **"把架构错配当执行问题"** | 责怪团队不努力 | 先做PEAS诊断再谈执行 |
 ## Synthesis
 
 ### 关联卡片

@@ -29,7 +29,6 @@ status: "enriched"
 title: "259里程碑"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '259里程碑', 'course_id': 259, 'course_type': 'method', 'level': 'foundational'}
 tags:
@@ -40,6 +39,14 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户把259当项目计划表，但每个里程碑无法验证"
+    framework_lens: "里程碑没有验证标准——259的核心是假设验证"
+    follow_up_question: "你的9个里程碑中，每个对应什么验证实验？什么结果算通过？"
+  - signal: "用户只关注9个里程碑，忘了2个假设和5个步骤"
+    framework_lens: "割裂使用——259是一个整体系统"
+    follow_up_question: "你的里程碑是建立在哪两个核心假设之上？如果假设错了，里程碑还有意义吗？"
+updated_at: '2026-06-13'
 ---
 
 # 259里程碑
@@ -89,6 +96,27 @@ Nassim Nicholas Taleb（"The Black Swan"和"Antifragile"作者）的黑天鹅理
 ### 关联框架卡
 - [[yt-model-entrepreneur-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有创业想法 | 有东西可拆解 |
+| ✅ 能拆解假设 | 会抓关键假设 |
+| ✅ 愿意验证 | 不是空想 |
+| ❌ 没有想法 | 无法应用 |
+| ❌ 不愿验证 | 只想写计划 |
+| ❌ 只想要时间表 | 不理解假设驱动 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"当项目计划"** | 只排时间表 | 每个里程碑配验证标准 |
+| **"不验证"** | 里程碑只是目标数字 | 设计30天验证实验 |
+| **"忽视假设"** | 直接跳到步骤 | 先明确2个核心假设 |
+| **"milestones 之间无逻辑"** | 9个点孤立 | 确保每个里程碑是前一个的逻辑推进 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

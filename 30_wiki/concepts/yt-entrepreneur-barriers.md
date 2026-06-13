@@ -29,7 +29,6 @@ status: "enriched"
 title: "项目壁垒"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '项目壁垒', 'course_id': 'yt-entrepreneur-barriers', 'course_type': 'method', 'level': 'advanced'}
 tags:
@@ -41,6 +40,14 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户说"我规模大后有壁垒"，但现在什么都没有"
+    framework_lens: "事后壁垒幻想——壁垒需要提前设计"
+    follow_up_question: "在规模还小的时候，你现在能开始建的壁垒是什么？如果答不上来，壁垒只是幻想"
+  - signal: "用户把单一优势当护城河"
+    framework_lens: "壁垒维度单一"
+    follow_up_question: "如果竞争对手明天复制了你的这个优势，你还有什么？"
+updated_at: '2026-06-13'
 ---
 
 # 项目壁垒
@@ -90,6 +97,27 @@ Peter Thiel（"Zero to One"作者，PayPal联合创始人）的垄断论从另�
 ### 关联框架卡
 - [[yt-model-entrepreneur-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有商业模式 | 知道怎么赚钱 |
+| ✅ 愿意提前设计壁垒 | 不是做大再说 |
+| ✅ 有长期视角 | 愿意投入 |
+| ❌ 早期无产品 | 没有可保护的东西 |
+| ❌ 只想快速变现 | 不愿长期投入 |
+| ❌ 不愿投入 | 壁垒需要资源 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"事后补壁垒"** | 做大了才想护城河 | 从Day1设计壁垒路径 |
+| **"单一壁垒"** | 只靠技术或品牌 | 构建多维度壁垒组合 |
+| **"假壁垒"** | 把规模当壁垒 | 用真假壁垒四问验证 |
+| **"不维护"** | 建好就不管 | 定期评估壁垒强度 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

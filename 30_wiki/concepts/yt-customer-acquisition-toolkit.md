@@ -31,7 +31,6 @@ status: "reviewed"
 title: "获客工具合集"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-06-10
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '增长', 'course_id': 'yt-customer-acquisition-toolkit', 'course_type': 'tool', 'level': 'core'}
 tags:
@@ -40,6 +39,14 @@ tags:
   - #yitang
 pipeline:
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "团队试了所有渠道，但每个渠道都不深"
+    framework_lens: "渠道泛化——没有聚焦"
+    follow_up_question: "你们现在最能跑通的1-2个渠道是什么？如果说不清楚，说明没有聚焦"
+  - signal: "用户只复制别人的渠道打法，不考虑自己产品阶段"
+    framework_lens: "阶段错配"
+    follow_up_question: "这个打法对应的产品阶段和你现在一致吗？别人的裂变可能基于已有用户，你还没有"
+updated_at: '2026-06-13'
 ---
 
 # 获客工具合集

@@ -29,7 +29,6 @@ status: "enriched"
 title: "业务增长"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '业务增长', 'course_id': 'yt-entrepreneur-business-growth', 'course_type': 'method', 'level': 'core'}
 tags:
@@ -41,6 +40,14 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户验证完模式后立刻大规模投放"
+    framework_lens: "跳过增长单元模型验证"
+    follow_up_question: "你的增长单元模型（获客成本、转化率、客单价、LTV）已经稳定了吗？如果没有，规模化是烧钱"
+  - signal: "用户把增长等同于砸钱买量"
+    framework_lens: "增长理解狭隘"
+    follow_up_question: "除了买量，你的增长飞轮、裂变机制、渠道矩阵在哪里？"
+updated_at: '2026-06-13'
 ---
 
 # 业务增长
@@ -84,6 +91,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-entrepreneur-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 商业模式已验证 | 有人愿意付费 |
+| ✅ 有单元模型 | 知道单位经济 |
+| ✅ 能跑实验 | 可迭代 |
+| ❌ 模式未验证 | 还没找到PMF |
+| ❌ 没有可复制单元 | 每个客户获取方式不同 |
+| ❌ 现金流紧张 | 无法支撑增长投入 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"模式未熟就规模化"** | 验证一个点就放大 | 确保单元模型稳定 |
+| **"砸钱买量"** | 只投广告 | 构建多元增长引擎 |
+| **"忽视留存"** | 只拉新不看复购 | 增长=获客×留存 |
+| **"不做实验"** | 凭经验决定投放 | 每个增长动作A/B测试 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |
