@@ -29,10 +29,6 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
-diagnostic_signals:
-  - signal: "TODO: User scenario that triggers this diagnostic"
-    framework_lens: "TODO: What perspective the framework provides"
-    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 学习成果工具化方法论：从课程作业到可复用能力的转化框架

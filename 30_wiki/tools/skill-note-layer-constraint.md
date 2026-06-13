@@ -28,10 +28,6 @@ tags:
   - "#scene/note-taking/checklist-method"
   - "#scene/note-taking/live-field"
   - "#scene/skill-engineering/publish-deploy"
-diagnostic_signals:
-  - signal: "TODO: User scenario that triggers this diagnostic"
-    framework_lens: "TODO: What perspective the framework provides"
-    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准

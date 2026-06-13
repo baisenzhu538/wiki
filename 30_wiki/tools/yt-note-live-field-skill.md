@@ -46,10 +46,6 @@ tags:
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 estimated_tokens: 4000
-diagnostic_signals:
-  - signal: "TODO: User scenario that triggers this diagnostic"
-    framework_lens: "TODO: What perspective the framework provides"
-    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 现场笔记完成度五步法：从“到场”到“驱动行动”的实战手册

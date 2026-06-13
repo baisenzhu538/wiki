@@ -30,10 +30,6 @@ related:
 - ai-coaching-loop
 - sk-ai-question-problem-checklist
 domain: [ai-collaboration]
-diagnostic_signals:
-  - signal: "TODO: User scenario that triggers this diagnostic"
-    framework_lens: "TODO: What perspective the framework provides"
-    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 技能：AI输出证据核查三问法

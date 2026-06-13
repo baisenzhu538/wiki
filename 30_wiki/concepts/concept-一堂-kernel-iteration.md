@@ -27,10 +27,6 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
-diagnostic_signals:
-  - signal: "TODO: User scenario that triggers this diagnostic"
-    framework_lens: "TODO: What perspective the framework provides"
-    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 产品内核迭代：从静态到动态的五方向演化

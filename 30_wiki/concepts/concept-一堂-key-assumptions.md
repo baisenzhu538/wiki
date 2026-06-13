@@ -28,10 +28,6 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
-diagnostic_signals:
-  - signal: "TODO: User scenario that triggers this diagnostic"
-    framework_lens: "TODO: What perspective the framework provides"
-    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 关键假设思维：259工具与假设驱动的创业方法

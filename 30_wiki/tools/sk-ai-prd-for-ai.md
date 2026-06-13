@@ -30,10 +30,6 @@ related:
 - sk-ai-problem-validation
 - prd-as-ai-instruction
 domain: [ai-collaboration]
-diagnostic_signals:
-  - signal: "TODO: User scenario that triggers this diagnostic"
-    framework_lens: "TODO: What perspective the framework provides"
-    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 技能：把PRD写成AI能执行的指令

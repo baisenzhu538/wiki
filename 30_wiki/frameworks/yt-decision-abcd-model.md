@@ -5,10 +5,6 @@ type: framework
 id: yt-decision-abcd-model
 status: enriched
 domain: [一堂·科学决策]
-diagnostic_signals:
-  - signal: "TODO: User scenario that triggers this diagnostic"
-    framework_lens: "TODO: What perspective the framework provides"
-    follow_up_question: "TODO: The first follow-up question"
 ---
 # 一堂·关键假设ABCD模型
 

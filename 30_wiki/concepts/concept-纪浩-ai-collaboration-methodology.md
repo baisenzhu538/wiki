@@ -53,10 +53,6 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
   - confidence-verified-by-case
-diagnostic_signals:
-  - signal: "TODO: User scenario that triggers this diagnostic"
-    framework_lens: "TODO: What perspective the framework provides"
-    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 纪浩 AI 协作方法论

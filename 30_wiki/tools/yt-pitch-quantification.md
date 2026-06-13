@@ -41,10 +41,6 @@ created_at: '2026-05-13'
 updated_at: '2026-05-28'
 estimated_tokens: 2500
 reviewed_by: ''
-diagnostic_signals:
-  - signal: "TODO: User scenario that triggers this diagnostic"
-    framework_lens: "TODO: What perspective the framework provides"
-    follow_up_question: "TODO: The first follow-up question"
 ---
 # 讲香·数字化
 

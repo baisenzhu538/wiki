@@ -28,10 +28,6 @@ prerequisite_skills: []
 related:
 - sk-ai-landing-five-steps
 domain: [ai-collaboration]
-diagnostic_signals:
-  - signal: "TODO: User scenario that triggers this diagnostic"
-    framework_lens: "TODO: What perspective the framework provides"
-    follow_up_question: "TODO: The first follow-up question"
 ---
 
 # 技能：平行运行验证法
