@@ -6,7 +6,7 @@
 
 ## 🎯 全量精修任务
 
-**总卡数：238 张 yt-* 卡（已精修 158 张含 DS，剩余 ~80 张）。**
+**总卡数：238 张 yt-* 卡（已精修 178 张含 DS，剩余 ~60 张）。**
 
 > 注：历史批次表格中部分卡片重复出现，导致序号累加高于实际；后续累计数以「frontmatter 中已写入 diagnostic_signals」的真实卡数为准。
 
@@ -332,6 +332,40 @@
 | 160 | `yt-personal-ai-capability` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
 
 **更新：2026-06-13** — 第十七批 10 张已完成第一圈精修。实际累计完成 158 张含 DS，剩余 ~80 张。
+
+### 第十八批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----|:----|:----|:----|:----|
+| 161 | `yt-personal-ai-thinking-card` | method | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 162 | `yt-personal-checklist-notes` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 163 | `yt-personal-deep-review` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 164 | `yt-personal-deliberate-practice` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 165 | `yt-personal-inspiration-flash` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 166 | `yt-personal-ipo-learning` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 167 | `yt-personal-knowledge-extraction` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 168 | `yt-personal-knowledge-management` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 169 | `yt-personal-pan-product-02` | concept | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 170 | `yt-personal-pan-product-aesthetics` | concept | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第十八批 10 张已完成第一圈精修。实际累计完成 168 张含 DS，剩余 ~70 张。
+
+### 第十九批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----|:----|:----|:----|:----|
+| 171 | `yt-personal-pan-product-concepts` | concept | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 172 | `yt-personal-pan-product-exploration` | concept | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 173 | `yt-personal-pan-product-practice` | concept | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 174 | `yt-personal-pan-product-tools` | concept | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 175 | `yt-personal-product-design` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 176 | `yt-personal-scientific-expression` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 177 | `yt-personal-thinking-models` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 178 | `yt-personal-time-management` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 179 | `yt-personal-verbatim-script` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 180 | `yt-personal-y-model-exploration-2` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第十九批 10 张已完成第一圈精修。实际累计完成 178 张含 DS，剩余 ~60 张。
 
 ---
 

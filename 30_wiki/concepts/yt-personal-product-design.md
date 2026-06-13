@@ -29,7 +29,6 @@ status: "enriched"
 title: "泛产品设计"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_id': 'yt-personal-product-design', 'course_type': 'method', 'level': 'core'}
 tags:
@@ -44,11 +43,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "能把任何工作重新定义为‘为用户解决问题’的设计任务"
+    framework_lens: "泛产品 = 问题+用户+场景"
+    follow_up_question: "这件事的用户是谁？他真正想解决什么问题？"
+  - signal: "设计前先明确用户、场景、任务，再进入解决方案"
+    framework_lens: "问题定义先于方案"
+    follow_up_question: "在画第一个方案之前，你是否已经写清了用户-场景-任务？"
+  - signal: "方案会通过反馈迭代，而不是一次定稿"
+    framework_lens: "设计是循环"
+    follow_up_question: "这个方案上线后，你计划收集哪些反馈来驱动下一轮迭代？"
+updated_at: '2026-06-13'
 ---
 
 # 泛产品设计
 
 > 来源：一堂个人必修课"形成竞争力"模块——泛产品设计力系列课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 任何需要为他人创造价值的场景——不仅限于数字产品 |
+| **适合** | 希望提升问题定义和解决方案设计能力的职场人 |
+| **不适合** | 完全不需要考虑用户、只看内部规则的任务 |
+| **不适合** | 时间极短、无法做任何调研的快速响应 |
+
+### 失败模式
+
+1. **一开始就想方案，没有定义清楚问题**
+   - **原因**：方案先行
+   - **修复**：强制先写‘用户-场景-任务’三段，再进入方案
+
+2. **把产品设计狭隘理解为画原型或写PRD**
+   - **原因**：职能化理解
+   - **修复**：列举非数字产品的设计案例（如会议设计、流程设计）
+
+3. **追求一次完美交付，没有迭代计划**
+   - **原因**：瀑布思维
+   - **修复**：为每个方案设定反馈指标和迭代节奏
+
+4. **只关注用户满意，忽视可行性和可持续性**
+   - **原因**：视角失衡
+   - **修复**：同时评估用户价值、实现成本、商业可行性
 
 ## Summary
 

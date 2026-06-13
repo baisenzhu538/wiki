@@ -29,7 +29,6 @@ status: "enriched"
 title: "时间管理"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '时间管理', 'course_id': 401, 'course_type': 'method', 'level': 'foundational'}
 tags:
@@ -42,11 +41,49 @@ tags:
 pipeline:
   - #boundary/not-for-creative
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "时间分配以长期目标为锚点，而不是以任务紧急度为锚点"
+    framework_lens: "时间管理 = 优先级管理"
+    follow_up_question: "你今天做的事中，哪一件与3年目标直接相关？"
+  - signal: "能识别自己的高能量窗口，并把重要任务放在这些时段"
+    framework_lens: "能量管理 > 时间长度管理"
+    follow_up_question: "你一天中哪个时段效率最高？这个时段在做什么？"
+  - signal: "每周会回顾时间使用情况，并调整下周计划"
+    framework_lens: "时间管理需要反馈闭环"
+    follow_up_question: "上周实际时间分配与计划差异最大的地方是什么？"
+updated_at: '2026-06-13'
 ---
 
 # 时间管理
 
 > 来源：一堂个人必修课"提认知"模块——时间管理必修课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 任务多、容易陷入忙碌的职场人或创业者 |
+| **适合** | 有长期目标但总觉得没时间投入的人 |
+| **不适合** | 任务单一、时间自主权极低的环境 |
+| **不适合** | 处于高度不可预测的危机模式 |
+
+### 失败模式
+
+1. **把时间管理变成‘做更多事’，而不是‘做对的事’**
+   - **原因**：效率陷阱
+   - **修复**：每天先确定1-3件与长期目标相关的重要任务，再做紧急任务
+
+2. **计划排得太满，没有缓冲时间**
+   - **原因**：忽视不确定性
+   - **修复**：每天预留20-30%的缓冲时间应对突发
+
+3. **只管理时间，不管理精力**
+   - **原因**：能量视角缺失
+   - **修复**：记录能量曲线，把深度工作放在高能量窗口
+
+4. **计划做得很好，但从不回顾**
+   - **原因**：缺少闭环
+   - **修复**：每周日晚做10分钟时间复盘：计划 vs 实际 vs 目标
 
 ## Summary
 

@@ -26,7 +26,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计实操篇：需求分析与用户洞察"
 type: "concept"
-updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'required', 'level': 'intermediate'}
 tags:
@@ -45,11 +44,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "面对需求时能用‘拆/推/评/算’四字诀系统分析"
+    framework_lens: "需求分析有固定操作链"
+    follow_up_question: "这个需求的用户任务、场景、真实障碍分别是什么？"
+  - signal: "在动手设计前会用需求工具箱验证‘做对的事’"
+    framework_lens: "需求先于方案"
+    follow_up_question: "如果这个问题本身不值得解决，你的方案再好也没用——你验证过吗？"
+  - signal: "需求分析结论会直接影响方案范围和设计优先级"
+    framework_lens: "分析必须产生决策输入"
+    follow_up_question: "基于需求分析，你砍掉了哪些原计划的功能？"
+updated_at: '2026-06-13'
 ---
 
 # 泛产品设计实操篇：需求分析与用户洞察
 
 > 来源：一堂泛产品设计实操第一课·需求篇口述（Truman）。[[yt-model-pan-product-demand-toolkit]] | [[yt-personal-pan-product-concepts]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 已经进入具体产品设计、需要前置需求分析的场景 |
+| **适合** | 希望把需求分析从口号变成可操作流程的团队 |
+| **不适合** | 方向完全未知、需要先探索问题空间的阶段 |
+| **不适合** | 没有用户接触渠道、无法验证假设的环境 |
+
+### 失败模式
+
+1. **听了用户说什么就设计什么**
+   - **原因**：把需求当指令
+   - **修复**：用 JTBD 追问：‘用户真正想完成的任务是什么？’
+
+2. **需求分析做得很长，但对方案没有影响**
+   - **原因**：分析与设计脱节
+   - **修复**：每个分析结论必须对应一个设计决策或范围调整
+
+3. **过度分析，迟迟不进入方案**
+   - **原因**：分析瘫痪
+   - **修复**：设定需求分析的截止时间，到点必须产出最小方案
+
+4. **只关注用户视角，忽略商业可行性**
+   - **原因**：视角单一
+   - **修复**：需求分析同时考虑用户价值、商业价值和可实现性
 
 ## Summary
 

@@ -27,7 +27,6 @@ source_refs:
 status: enriched
 title: Y模型探索营2：五次质变与科学推演
 type: tool
-updated_at: '2026-06-13'
 version: 1
 yitang:
   map: personal
@@ -46,11 +45,49 @@ pipeline:
 - null
 - confidence-source-cited
 - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "使用Y模型时，关注的是事前推演而非事后解释"
+    framework_lens: "Y模型是预测引擎"
+    follow_up_question: "这个Y模型是在事件发生前画的，还是发生后补的？"
+  - signal: "能用Y模型牵出多个相关认知，形成完整推演链条"
+    framework_lens: "Y模型是认知线头"
+    follow_up_question: "这个Y模型牵出了你哪些原本分散的认知？"
+  - signal: "推演结论有明确可观察的验证指标"
+    framework_lens: "预测必须可证伪"
+    follow_up_question: "如果Y模型预测错了，你会在什么观察出现后承认它错了？"
+updated_at: '2026-06-13'
 ---
 
 # Y模型探索营2：五次质变与科学推演
 
 > 来源：一堂Y模型探索营第二课口述（Truman）。[[yt-personal-y-model-practice]] | [[yt-model-y-organization]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 需要对复杂决策做结构化推演的人 |
+| **适合** | 已经积累一定认知、希望用模型整合经验的人 |
+| **不适合** | 信息极少、无法进行任何推演的早期阶段 |
+| **不适合** | 把Y模型当万能解释框架、不进行验证的人 |
+
+### 失败模式
+
+1. **用Y模型解释已经发生的事件，自圆其说**
+   - **原因**：事后解释偏差
+   - **修复**：强制要求Y模型必须包含可验证的预测
+
+2. **强行把所有问题都塞进Y模型**
+   - **原因**：模型滥用
+   - **修复**：先判断问题是否适合用Y模型，不适合时换其他工具
+
+3. **Y模型牵出的链条很长，但缺少关键证据**
+   - **原因**：逻辑跳跃
+   - **修复**：每个节点必须标注证据来源或置信度
+
+4. **预测失败后不更新模型，而是找借口**
+   - **原因**：确认偏误
+   - **修复**：预测前写下‘如果错了我会怎样修正模型’
 
 ## Summary
 

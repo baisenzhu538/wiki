@@ -26,7 +26,6 @@ source_refs:
 status: "enriched"
 title: "思维模型：从碎片经验到稳定模型"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'explore_camp'}
 tags:
@@ -45,11 +44,49 @@ pipeline:
   - #boundary/single-use-only
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "能从自己的经验中提炼出可复用的判断框架"
+    framework_lens: "模型来自实践"
+    follow_up_question: "这个模型是你从多少个自己的案例中总结出来的？"
+  - signal: "模型会用新案例不断修正，而不是一成不变"
+    framework_lens: "模型是活的"
+    follow_up_question: "最近有没有一个案例让你的模型边界发生了变化？"
+  - signal: "模型能向他人清晰解释，并让他人也能使用"
+    framework_lens: "可传播才有价值"
+    follow_up_question: "别人用这个模型做判断时，是否需要你补充很多背景？"
+updated_at: '2026-06-13'
 ---
 
 # 思维模型：从碎片经验到稳定模型
 
 > 来源：一堂VIP思维模型案例营（Truman + 水水 + 子敬三人分享，Truman口述）。[[yt-personal-knowledge-extraction]] | [[yt-model-liberate-thinking-layers]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 需要把隐性经验显性化的专家、管理者或创业者 |
+| **适合** | 希望在团队内部复制成功模式的人 |
+| **不适合** | 经验过于单一、样本不足的新手 |
+| **不适合** | 领域变化极快、模型很快失效的环境 |
+
+### 失败模式
+
+1. **只收集别人的模型，没有自己的提炼**
+   - **原因**：模型囤积
+   - **修复**：每学一个模型，必须用自己的案例重新表述一遍
+
+2. **模型过于复杂，变量太多无法使用**
+   - **原因**：过度设计
+   - **修复**：限制核心变量≤5个，其他作为可选扩展
+
+3. **模型未经反例检验，适用范围被夸大**
+   - **原因**：确认偏误
+   - **修复**：主动寻找3个不符合模型的案例，修正边界
+
+4. **模型只停留在口头，没有写入笔记或流程**
+   - **原因**：缺少固化
+   - **修复**：把模型写成卡片，并链接到相关案例和决策
 
 ## Summary
 

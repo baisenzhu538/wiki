@@ -29,7 +29,6 @@ status: "enriched"
 title: "逐字稿"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '逐字稿', 'course_id': 408, 'course_type': 'method', 'level': 'core'}
 tags:
@@ -39,11 +38,49 @@ tags:
   - #yitang
 pipeline:
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "关键表达会先写逐字稿，把每个字都推敲清楚"
+    framework_lens: "逐字稿是思维检测工具"
+    follow_up_question: "这段逐字稿中有没有哪句话你其实还没想清楚？"
+  - signal: "逐字稿使用口语化表达，而不是书面语照念"
+    framework_lens: "演讲是口头语言"
+    follow_up_question: "你写下的这段话念出来自然吗？听众能像聊天一样听懂吗？"
+  - signal: "重要演讲会经过多次演练，直到可以不依赖稿件"
+    framework_lens: "逐字稿是练习工具，不是拐杖"
+    follow_up_question: "你能否在只带关键词提示的情况下完成这次演讲？"
+updated_at: '2026-06-13'
 ---
 
 # 逐字稿
 
 > 来源：一堂个人必修课"练能力"模块——逐字稿实操课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 重要公开演讲、汇报、课程讲授等关键表达场合 |
+| **适合** | 希望把表达从‘大概想说’提升到精确控制的人 |
+| **不适合** | 日常即兴交流——逐字稿会扼杀自然 |
+| **不适合** | 时间极短、无法排练的临时发言 |
+
+### 失败模式
+
+1. **写了逐字稿但现场照念，没有眼神交流**
+   - **原因**：把稿当脚本
+   - **修复**：排练到能脱稿，只带关键词上台
+
+2. **逐字稿过于书面化，听起来像读论文**
+   - **原因**：语体错位
+   - **修复**：写完后大声念一遍，把不顺口的书面语改成口语
+
+3. **每个小会议都写逐字稿，投入产出失衡**
+   - **原因**：滥用
+   - **修复**：只对高 stakes、可重复的重要表达写逐字稿
+
+4. **逐字稿写完后不演练，现场卡壳**
+   - **原因**：缺少肌肉记忆
+   - **修复**：至少完整演练3次，并录像复盘
 
 ## Summary
 

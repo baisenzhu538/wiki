@@ -28,7 +28,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计工具篇：出牌教学法与30张卡牌"
 type: "concept"
-updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'required', 'level': 'intermediate'}
 tags:
@@ -42,11 +41,49 @@ pipeline:
   - #boundary/not-for-beginners
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "能说出30张卡牌中每张属于需求、审美还是落地类别"
+    framework_lens: "工具箱需要结构记忆"
+    follow_up_question: "随机抽一张牌，你能在3秒内说出它属于哪组牌吗？"
+  - signal: "面对具体任务时，能组合使用多张卡牌而不是只出一张"
+    framework_lens: "出牌 = 组合能力"
+    follow_up_question: "这个任务需要哪几张牌配合？它们之间的顺序是什么？"
+  - signal: "使用卡牌后会对效果进行复盘，更新自己的‘出牌策略’"
+    framework_lens: "工具能力在反馈中进化"
+    follow_up_question: "上次用某张牌效果不好的原因是什么？是牌选错了还是用错了？"
+updated_at: '2026-06-13'
 ---
 
 # 泛产品设计工具篇：出牌教学法与30张卡牌
 
 > 来源：一堂泛产品设计框架篇口述（Truman）。[[yt-model-pan-product-36-strategies]] | [[yt-personal-pan-product-concepts]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 已经了解30张卡牌基本含义、需要在实践中熟练的人 |
+| **适合** | 需要把方法论转化为可操作流程的学习者 |
+| **不适合** | 尚未理解单张卡牌含义的初学者 |
+| **不适合** | 排斥结构化工具、偏好直觉决策的人 |
+
+### 失败模式
+
+1. **死记硬背卡牌名称，遇到真实问题想不起来用**
+   - **原因**：记忆脱离情境
+   - **修复**：每个卡牌至少配一个自己经历过的应用场景
+
+2. **只用自己最熟悉的几张牌，其他牌永远不出**
+   - **原因**：路径依赖
+   - **修复**：每个项目强制使用至少一张不常用的牌
+
+3. **为了用牌而用牌，增加不必要的流程**
+   - **原因**：形式化
+   - **修复**：根据任务复杂度选择牌数，简单任务1-2张即可
+
+4. **把卡牌当标准答案，不结合具体情境调整**
+   - **原因**：僵化使用
+   - **修复**：每次出牌前写明‘当前情境的特殊性’和‘调整方式’
 
 ## Summary
 

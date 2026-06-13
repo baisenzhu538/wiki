@@ -32,7 +32,6 @@ status: "enriched"
 title: "科学表达（火箭模型）"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '科学表达（火箭模型）', 'course_id': 410, 'course_type': 'method', 'level': 'core', 'series': True}
 tags:
@@ -45,11 +44,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "表达结构能清晰对应火箭模型的四个阶段"
+    framework_lens: "表达是逐级推进"
+    follow_up_question: "你的表达中，哪一部分负责建立认知？哪一部分推动行动？"
+  - signal: "能根据听众状态调整每个阶段的比重"
+    framework_lens: "表达服务于听众"
+    follow_up_question: "如果听众已经认同你，是否可以跳过或缩短某个阶段？"
+  - signal: "关键表达会经过逐字打磨和反复演练"
+    framework_lens: "精确表达需要刻意练习"
+    follow_up_question: "你为这次表达做了几次完整演练？"
+updated_at: '2026-06-13'
 ---
 
 # 科学表达（火箭模型）
 
 > 来源：一堂个人必修课"练能力"模块——科学表达必修课+公开演讲练习。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 需要结构化、有说服力的正式表达场合 |
+| **适合** | 希望把表达从天赋变成可训练能力的人 |
+| **不适合** | 日常闲聊或非正式沟通——过度结构会僵硬 |
+| **不适合** | 听众完全不需要被说服、只需要信息的场景 |
+
+### 失败模式
+
+1. **只有逻辑没有情感，听众无法产生共鸣**
+   - **原因**：阶段缺失
+   - **修复**：检查是否包含认知、逻辑、情感、行动四个要素
+
+2. **四个阶段平均用力，没有重点**
+   - **原因**：结构机械
+   - **修复**：根据目标听众判断哪个阶段需要强化
+
+3. **表达过于华丽但听众不知道要做什么**
+   - **原因**：缺少行动推进
+   - **修复**：结尾必须有明确的‘下一步’或‘改变’
+
+4. **把模型当模板，忽视真实听众反应**
+   - **原因**：僵化套用
+   - **修复**：演练时找真实听众反馈，根据反馈调整结构
 
 ## Summary
 

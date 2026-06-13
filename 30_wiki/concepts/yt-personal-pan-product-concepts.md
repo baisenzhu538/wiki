@@ -29,7 +29,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计认知篇：重新理解泛化产品能力"
 type: "concept"
-updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'required', 'course_id': 'yt-personal-pan-product-concepts', 'level': 'foundational'}
 tags:
@@ -44,11 +43,49 @@ pipeline:
   - #boundary/not-for-beginners
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "面对一个领域的新问题时，能先识别出它属于哪个通用产品设计任务类型"
+    framework_lens: "泛化能力 = 跨域映射"
+    follow_up_question: "这个问题与你已经熟悉的哪个领域的问题本质相同？"
+  - signal: "能调用需求/审美/落地三套工具箱中的至少一张卡牌来分析问题"
+    framework_lens: "泛产品能力是工具组合能力"
+    follow_up_question: "如果只能出一张牌，你会选哪张？为什么？"
+  - signal: "在跨域应用时，会补充该领域的特殊约束和专业知识"
+    framework_lens: "泛化不是取消专业化"
+    follow_up_question: "这个领域有哪些独特约束会让通用工具失效？"
+updated_at: '2026-06-13'
 ---
 
 # 泛产品设计认知篇：重新理解泛化产品能力
 
 > 来源：一堂《全员必修：泛产品设计认知篇》口述（Truman）。[[yt-model-pan-product-36-strategies]] | [[yt-personal-product-design]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 需要在多个领域解决产品/服务设计问题的人 |
+| **适合** | 希望从单一岗位视角升维到通用能力视角的产品人 |
+| **不适合** | 只需要在单一狭窄领域做到极致的专家 |
+| **不适合** | 完全没有产品实践经验、无法识别问题类型的新手 |
+
+### 失败模式
+
+1. **追求在每个领域都85分，结果在每个领域都平庸**
+   - **原因**：泛化误解为全面
+   - **修复**：明确泛化目标是‘稳定60-70分+快速迁移’，而非替代深度专家
+
+2. **用通用工具套所有领域，忽视行业know-how**
+   - **原因**：工具滥用
+   - **修复**：每次跨域应用前先列出‘该领域与通用假设不同的地方’
+
+3. **身份认同混乱，觉得自己什么都能做**
+   - **原因**：角色边界模糊
+   - **修复**：明确自己的主战场，泛产品能力是放大器而非替代品
+
+4. **学了很多工具但一个都不熟练**
+   - **原因**：广度无深度
+   - **修复**：先深度掌握3-5张核心卡牌，再逐步扩展
 
 ## Summary
 

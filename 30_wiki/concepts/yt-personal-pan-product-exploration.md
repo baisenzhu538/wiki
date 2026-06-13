@@ -26,7 +26,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计探索营：案例启发与认知重构"
 type: "concept"
-updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'explore_camp', 'level': 'foundational'}
 tags:
@@ -42,11 +41,49 @@ tags:
 pipeline:
   - #boundary/not-for-creative
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "能从案例中抽象出可迁移的认知，而不是只记住故事"
+    framework_lens: "案例是认知的载体"
+    follow_up_question: "这个案例如果去掉具体人名和公司，还剩下什么可复用的判断？"
+  - signal: "听完案例后会联想到自己经历的类似场景，并写出对应案例"
+    framework_lens: "案例学习需要个人化迁移"
+    follow_up_question: "你过去有没有遇到过类似困境？当时怎么处理的？"
+  - signal: "案例启发会转化为至少一个具体行动或研究问题"
+    framework_lens: "启发必须落地"
+    follow_up_question: "这个案例让你接下来要做什么不一样的事？"
+updated_at: '2026-06-13'
 ---
 
 # 泛产品设计探索营：案例启发与认知重构
 
 > 来源：一堂泛产品设计探索营（千人集体学习，Truman口述）。[[yt-personal-pan-product-concepts]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 需要打破‘产品能力只属于PM’认知定势的人 |
+| **适合** | 希望通过案例唤醒跨域产品思维的学习者 |
+| **不适合** | 已经系统学习过泛产品工具、需要实操的阶段 |
+| **不适合** | 追求具体可执行清单、不喜欢启发式内容的人 |
+
+### 失败模式
+
+1. **把案例当故事听，没有提取任何原则**
+   - **原因**：被动消费
+   - **修复**：每个案例后强制写‘3个可迁移原则 + 1个我的应用场景’
+
+2. **盲目模仿 Truman 的成长路径，忽视自身处境**
+   - **原因**：路径依赖复制
+   - **修复**：对比自己的资源、阶段和目标，提取可调整的原则而非照搬
+
+3. **案例很精彩，但学完后没有任何行动**
+   - **原因**：启发与行动脱节
+   - **修复**：在笔记中直接写‘72小时内要做的最小行动’
+
+4. **因为案例来自他人经验而过度怀疑其适用性**
+   - **原因**：否定迁移价值
+   - **修复**：用小规模实验验证：‘这个原则在我的场景中是否成立？’
 
 ## Summary
 
