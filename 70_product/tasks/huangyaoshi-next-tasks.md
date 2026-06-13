@@ -789,3 +789,32 @@ commit `9bcd2b2`。`_deweight_hub_nodes()` 阈值 30。
 2. 不通畅时回退到 `kdo query`
 
 **优先级**：P1（等 Task O 完成后做）。
+
+---
+
+## 🔴 Task Q（新）：出链门禁 — 新卡健康检查加强
+
+**来源**：王语嫣对标报告。新卡缺少最少出链数要求，孤岛知识是产能隐形杀手。
+
+**操作**：在自迭代检测器 A 中增加：
+
+| 检查项 | 失败条件 | 等级 |
+|:-------|:---------|:----:|
+| 出链数 ≥ 2 | Synthesis wikilink < 2 | WARN |
+| 有跨域链接 | 所有链接都在同一 domain | WARN |
+
+纯索引页面除外。0.5 小时。
+
+---
+
+## 🔴 Task R（新）：Queries 沉淀 + `kdo query --save`
+
+**来源**：王语嫣对标报告发现三——缺少问答沉淀，同一问题每次都重新检索。
+
+**操作**：
+
+1. `templates.py` 追加 `30_wiki/queries`
+2. `kdo query --save <title>`：将 query 输入输出保存到 `30_wiki/queries/<slug>.md`
+3. 查询时 queries/ 自动作为 top-level context
+
+**工作量**：2-3 小时。
