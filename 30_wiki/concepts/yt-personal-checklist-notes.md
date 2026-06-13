@@ -35,7 +35,6 @@ status: "enriched"
 title: "清单体笔记（一堂笔记法）"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-06-07
 version: 2
 yitang: {'map': 'personal', 'module': '清单体笔记', 'course_id': 407, 'course_type': 'method', 'level': 'core'}
 tags:
@@ -57,11 +56,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "每条笔记都以清单形式呈现，项与项之间相对独立、可逐条执行"
+    framework_lens: "清单体 = 可操作的认知结构"
+    follow_up_question: "这条笔记能否被拆成互不依赖的小任务？"
+  - signal: "清单项有明确层级，能一眼看出结构和重点"
+    framework_lens: "分层降低认知负荷"
+    follow_up_question: "如果只看前3个最高层级标题，能否把握核心？"
+  - signal: "笔记与具体问题和下一步行动挂钩，而不是纯粹信息存储"
+    framework_lens: "笔记服务于决策和行动"
+    follow_up_question: "这篇笔记不写，你的哪个行动会受影响？"
+updated_at: '2026-06-13'
 ---
 
 # 清单体笔记（一堂笔记法）
 
 > 来源：一堂个人必修课"练能力"模块——练记笔记专项训练（2026年AI时代新版）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 需要把复杂信息整理成可执行、可复查的结构化笔记 |
+| **适合** | 学习、复盘、方案设计等需要分点思考的场景 |
+| **不适合** | 需要自由联想的创意发散阶段 |
+| **不适合** | 非常私人、无需结构化的心情或灵感记录 |
+
+### 失败模式
+
+1. **把长段落切成短句就以为是清单体**
+   - **原因**：形式化理解
+   - **修复**：每条必须是一个完整判断或可执行动作，能单独回答‘那又怎样’
+
+2. **清单项之间层级混乱，重点被淹没**
+   - **原因**：缺少分层
+   - **修复**：使用‘总-分’结构，限制同一层级项数≤7
+
+3. **清单写完后不再使用，成为信息坟墓**
+   - **原因**：缺少行动链接
+   - **修复**：在清单末尾加‘下一步行动’，并设定复查时间
+
+4. **过度追求清单体，把不适合的内容硬塞成清单**
+   - **原因**：方法滥用
+   - **修复**：先判断内容是否适合分点，不适合则用叙述或模型
 
 ## Summary
 

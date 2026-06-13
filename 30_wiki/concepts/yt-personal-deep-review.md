@@ -37,7 +37,6 @@ source_refs:
 status: "enriched"
 title: "深度复盘"
 type: "tool"
-updated_at: 2026-05-07
 version: 1
 yitang: {'map': 'personal', 'module': '深度复盘', 'course_id': 404, 'course_type': 'method', 'level': 'core', 'series': False}
 tags:
@@ -50,11 +49,49 @@ tags:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "复盘从具体事件出发，而不是泛泛而谈"
+    framework_lens: "具体事件是复盘的锚"
+    follow_up_question: "如果复盘只保留一个关键事件，你会选哪一个？"
+  - signal: "复盘至少挖掘到原因层，并尝试提取可迁移的模型"
+    framework_lens: "冰山复盘模型"
+    follow_up_question: "这次事件背后的模式，在另外三个场景中是否也可能出现？"
+  - signal: "复盘后产出具体改进行动，并跟踪执行情况"
+    framework_lens: "复盘的价值在于改变未来行为"
+    follow_up_question: "上次深度复盘的行动项，现在完成了多少？"
+updated_at: '2026-06-13'
 ---
 
 # 深度复盘
 
 > 来源：src_20260507_9dd09688（周子敬讲授，2026年科学学习/深度复盘课程录音）。[[一堂方法论体系总图]] | [[yitang-course-map]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 重要项目结束、关键决策后或周期性自我提升 |
+| **适合** | 团队/个人希望从经验中系统学习时 |
+| **不适合** | 情绪尚未平复的创伤事件——先处理情绪 |
+| **不适合** | 完全随机、不可复制的偶发事件 |
+
+### 失败模式
+
+1. **复盘变成互相指责或自我批评**
+   - **原因**：心理不安全
+   - **修复**：明确规则：只讨论系统和行为，不评价人格
+
+2. **只描述发生了什么，没有追问为什么**
+   - **原因**：停留在事实层
+   - **修复**：用 5 Whys 或冰山图强制下挖到原因和模型层
+
+3. **提取的模型过于抽象，无法指导未来行动**
+   - **原因**：模型脱离情境
+   - **修复**：每个模型必须配一个‘下次遇到X情况时，我会Y’
+
+4. **只复盘失败，成功经验没有沉淀**
+   - **原因**：偏差关注
+   - **修复**：每次复盘至少分析一个成功案例，提炼可复制因素
 
 ## Summary
 

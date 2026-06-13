@@ -29,7 +29,6 @@ status: "enriched"
 title: "灵感闪现（认知篇）"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '灵感闪现（认知篇）', 'course_id': 518, 'course_type': 'method', 'level': 'advanced'}
 tags:
@@ -42,11 +41,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "主动、持续地浸泡在多样化信息中，而不是等待灵感"
+    framework_lens: "灵感需要信息营养"
+    follow_up_question: "过去一周你主动接触了哪些跨领域信息？"
+  - signal: "有固定机制捕获灵感（笔记、语音、画草图），不让它溜走"
+    framework_lens: "灵感易逝"
+    follow_up_question: "最近一次灵感出现后，你多久内完成了记录？"
+  - signal: "灵感会被主动与当前要解决的问题连接，而不是收藏起来"
+    framework_lens: "灵感的价值在于解决问题"
+    follow_up_question: "这个灵感能解决你当前哪个具体问题？"
+updated_at: '2026-06-13'
 ---
 
 # 灵感闪现（认知篇）
 
 > 来源：一堂个人必修课"练能力"模块，灵感闪现的认知基础课（系列课上半部分）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 需要创造性解决方案的问题 |
+| **适合** | 已经明确问题、进入酝酿阶段的场景 |
+| **不适合** | 纯逻辑推导可解决的封闭问题 |
+| **不适合** | 时间紧迫、无法给予酝酿期的任务 |
+
+### 失败模式
+
+1. **被动等待灵感，项目进度被拖慢**
+   - **原因**：灵感神秘化
+   - **修复**：建立‘信息浸泡 + 问题聚焦 + 放松触发’的主动流程
+
+2. **有了灵感但不记录，过后想不起来**
+   - **原因**：捕获机制缺失
+   - **修复**：随身携带捕获工具，24小时内把灵感整理进笔记
+
+3. **灵感很多，但都不解决问题**
+   - **原因**：缺少问题导向
+   - **修复**：每个灵感记录时写下：‘它能回答哪个问题？’
+
+4. **把灵感当结论，未经验证就执行**
+   - **原因**：过度信任顿悟
+   - **修复**：对灵感进行‘事实/逻辑/可行性’三问检验
 
 ## Summary
 

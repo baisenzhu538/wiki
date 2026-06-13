@@ -29,7 +29,6 @@ status: "enriched"
 title: "知识管理"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '知识管理', 'course_id': 405, 'course_type': 'method', 'level': 'core'}
 tags:
@@ -49,11 +48,49 @@ pipeline:
   - #boundary/single-use-only
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "笔记系统有明确的捕获→组织→激活三阶段流程"
+    framework_lens: "知识管理是流程，不是存储"
+    follow_up_question: "你最近一次‘激活’旧知识是什么时候？"
+  - signal: "笔记是原子化的，每张卡有一个独立主题，并与其他卡双向链接"
+    framework_lens: "网络结构优于树状结构"
+    follow_up_question: "这张卡能否独立理解？它与哪些卡互相关联？"
+  - signal: "会定期进行检索练习或知识复用，而不是只收集"
+    framework_lens: "知识的价值在于调取"
+    follow_up_question: "过去30天，你主动调取过多少张旧卡？"
+updated_at: '2026-06-13'
 ---
 
 # 知识管理
 
 > 来源：一堂个人必修课"提认知"模块——知识管理必修课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 长期学习、需要跨项目复用知识的个人或团队 |
+| **适合** | 信息输入量大、容易遗忘或找不到资料的场景 |
+| **不适合** | 只追求一次性消费的内容 |
+| **不适合** | 完全不愿意花时间维护和组织笔记的人 |
+
+### 失败模式
+
+1. **只收藏不整理，笔记变成垃圾堆**
+   - **原因**：捕获即终点
+   - **修复**：每次捕获后24小时内必须做初步加工：标题、标签、一句话总结
+
+2. **标签体系过于复杂，检索反而更慢**
+   - **原因**：过度组织
+   - **修复**：限制标签数量，优先使用双向链接和标题检索
+
+3. **笔记很多，但用的时候想不起来**
+   - **原因**：缺少激活机制
+   - **修复**：每周做一次‘检索练习’：随机抽3张卡，看能否复述核心
+
+4. **过度优化工具，忽视内容质量**
+   - **原因**：工具癖
+   - **修复**：设定工具使用上限：先写满100张卡再考虑换工具
 
 ## Summary
 

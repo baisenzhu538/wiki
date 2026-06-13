@@ -30,7 +30,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计落地篇：无限进步与持续打磨"
 type: "concept"
-updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'required', 'level': 'advanced'}
 tags:
@@ -49,11 +48,49 @@ pipeline:
   - #boundary/not-for-medical
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "把产品迭代看作从60分到85分再到90分的持续过程，而不是一次交付"
+    framework_lens: "无限进步 = 持续打磨"
+    follow_up_question: "你这个月的产品/作品比上个月好在哪？"
+  - signal: "每次迭代都有明确的反馈来源和改进标准"
+    framework_lens: "打磨需要方向"
+    follow_up_question: "这一轮的改动是基于用户反馈、数据还是自我审美判断？"
+  - signal: "能以长期心态（如10年）看待能力提升，而不是追求速成"
+    framework_lens: "真本事需要时间复利"
+    follow_up_question: "如果这件事要做10年，你现在的节奏是否可持续？"
+updated_at: '2026-06-13'
 ---
 
 # 泛产品设计落地篇：无限进步与持续打磨
 
 > 来源：一堂泛产品设计系列最后一课·落地篇口述（Truman）。[[yt-model-pan-product-execution-toolkit]] | [[yt-personal-pan-product-concepts]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 追求高质量作品、愿意长期打磨的产品/设计/创作 |
+| **适合** | 已经有基础版本、需要持续优化的场景 |
+| **不适合** | 需要快速验证方向的市场测试阶段——先求有再求精 |
+| **不适合** | 目标本身就是一次性交付、无需后续迭代的任务 |
+
+### 失败模式
+
+1. **追求完美第一版，迟迟不发布**
+   - **原因**：把打磨当拖延
+   - **修复**：设定‘60分发布线’，先上线再迭代
+
+2. **发布后就不管，没有后续迭代计划**
+   - **原因**：一次交付心态
+   - **修复**：上线时同步制定下一轮优化清单和时间表
+
+3. **只和自己比，忽视用户或市场的真实反馈**
+   - **原因**：自嗨式打磨
+   - **修复**：每次迭代至少纳入一个外部反馈来源
+
+4. **没有审美和标准，迭代方向混乱**
+   - **原因**：标准缺失
+   - **修复**：先建立评价维度，再按维度逐项打磨
 
 ## Summary
 

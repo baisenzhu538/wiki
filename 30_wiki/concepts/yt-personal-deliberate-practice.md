@@ -29,7 +29,6 @@ status: "enriched"
 title: "科学成长（刻意练习）"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'personal', 'module': '科学成长（刻意练习）', 'course_id': 406, 'course_type': 'method', 'level': 'foundational'}
 tags:
@@ -46,11 +45,49 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "每次练习都有明确、可衡量的子目标"
+    framework_lens: "刻意 = 目标导向"
+    follow_up_question: "今天的练习结束后，你希望自己能做到什么昨天做不到的事？"
+  - signal: "练习后能立即获得反馈，并能根据反馈调整"
+    framework_lens: "反馈闭环是进步的核心"
+    follow_up_question: "你如何知道自己这次做对了还是做错了？"
+  - signal: "练习内容处于舒适区边缘，既有挑战又可完成"
+    framework_lens: "拉伸区最利于成长"
+    follow_up_question: "这次练习有多难？如果轻松完成，是否该增加难度？"
+updated_at: '2026-06-13'
 ---
 
 # 科学成长（刻意练习）
 
 > 来源：一堂个人必修课"练能力"模块——刻意练习认知课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 技能可以通过重复训练提升，且存在明确标准的领域 |
+| **适合** | 学习者能够获得及时、准确反馈的环境 |
+| **不适合** | 纯创意或需要大量灵感迸发的领域——过度结构化会抑制创新 |
+| **不适合** | 没有导师、没有标准、没有反馈的自学初期 |
+
+### 失败模式
+
+1. **只是重复做，没有针对性改进**
+   - **原因**：天真的练习
+   - **修复**：每次练习前设定一个具体改进点，练习后评估该点
+
+2. **反馈延迟太久，错误习惯已经固化**
+   - **原因**：反馈不及时
+   - **修复**：尽量在练习过程中或结束后立即获得反馈
+
+3. **一直待在舒适区，练习没有挑战**
+   - **原因**：难度不匹配
+   - **修复**：当正确率>90%时提升难度，<60%时降低难度
+
+4. **只练已经会的，回避弱项**
+   - **原因**：回避不适
+   - **修复**：把练习时间按 60% 拉伸区 + 40% 巩固区分配
 
 ## Summary
 

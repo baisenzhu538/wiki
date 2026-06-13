@@ -29,7 +29,6 @@ source_refs:
 status: "enriched"
 title: "IPO 科学学习"
 type: "tool"
-updated_at: 2026-05-07
 version: 1
 yitang: {'map': 'personal', 'module': 'IPO 科学学习', 'course_id': 402, 'course_type': 'method', 'level': 'foundational'}
 tags:
@@ -47,11 +46,49 @@ pipeline:
   - #boundary/not-for-creative
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "学习过程能明确区分 Input、Process、Output 三个阶段"
+    framework_lens: "IPO 是学习的完整循环"
+    follow_up_question: "你最近的一次学习中，Output 是什么？"
+  - signal: "Output 层级≥3（如用自己的话重述、建立模型、解决实际问题）"
+    framework_lens: "输出深度反映内化程度"
+    follow_up_question: "你这次学习的输出，是复制原文还是自己的重构？"
+  - signal: "学习后会用反馈修正下一轮 Input 和 Process"
+    framework_lens: "学习是螺旋上升的闭环"
+    follow_up_question: "上一次输出后，你根据反馈调整了哪些学习方法？"
+updated_at: '2026-06-13'
 ---
 
 # IPO 科学学习
 
 > 来源：Truman (许楚) 周五直播课，course_id 402，IPO 科学学习实操篇（下）。[[一堂方法论体系总图]] | [[yitang-course-map]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 需要系统提升某个领域能力的长期学习 |
+| **适合** | 学习者已有一定基础，能进行自我反馈 |
+| **不适合** | 临时查资料解决具体问题——直接搜索更高效 |
+| **不适合** | 完全没有输出条件或反馈渠道的孤立学习 |
+
+### 失败模式
+
+1. **只输入不输出，读了很多书但用不出来**
+   - **原因**：IPO 断在 I
+   - **修复**：每学习一个单元，强制产出一个最小输出（笔记/模型/实践）
+
+2. **输出只是摘抄或转述，没有加工**
+   - **原因**：Process 缺失
+   - **修复**：输出前必须进行‘联系/质疑/迁移’中的至少一种加工
+
+3. **输出后没有反馈，一直重复低水平循环**
+   - **原因**：闭环断裂
+   - **修复**：为每个输出寻找反馈源：导师、同伴、真实场景、自我测试
+
+4. **Input 来源单一，视野狭窄**
+   - **原因**：信息偏食
+   - **修复**：刻意使用案例/资料/高手/实践四种渠道中的至少三种
 
 ## Summary
 

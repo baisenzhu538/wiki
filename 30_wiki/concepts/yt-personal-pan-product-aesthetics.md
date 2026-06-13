@@ -27,7 +27,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计审美篇：最佳实践与审美建模"
 type: "concept"
-updated_at: 2026-05-18
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'required', 'level': 'intermediate'}
 tags:
@@ -45,11 +44,49 @@ pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
   - confidence-verified-by-test
+diagnostic_signals:
+  - signal: "主动跨领域收集最佳实践，而不局限于自己所在行业"
+    framework_lens: "审美来自见识广度"
+    follow_up_question: "你最近研究的一个优秀作品来自哪个完全不相干的领域？"
+  - signal: "能把‘好’拆解成可讨论、可复现的评价维度"
+    framework_lens: "审美白盒化"
+    follow_up_question: "如果让你教别人判断这个作品的好坏，你会讲哪几个维度？"
+  - signal: "会把审美标准应用到自己的作品中，并迭代改进"
+    framework_lens: "审美必须落地"
+    follow_up_question: "你当前作品与最佳实践相比，最大差距在哪个维度？"
+updated_at: '2026-06-13'
 ---
 
 # 泛产品设计审美篇：永远以最佳实践为追求
 
 > 来源：一堂泛产品设计实操第二课·审美篇口述（Truman）。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-personal-pan-product-concepts]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 希望系统提升产品/设计审美能力的人 |
+| **适合** | 已经有一定实践经验，能欣赏但说不明白为什么好的人 |
+| **不适合** | 完全没有实践基础——审美训练需要大量观察和实践 |
+| **不适合** | 只追求功能、不 care 体验的项目 |
+
+### 失败模式
+
+1. **看了很多优秀作品，但自己作品没有进步**
+   - **原因**：只看不练
+   - **修复**：每个案例学习后，必须有一个到自己作品的迁移练习
+
+2. **只会说‘这个好看’，无法解释为什么**
+   - **原因**：审美黑盒化
+   - **修复**：强制用至少三个维度描述作品，并给出评分
+
+3. **盲目模仿最佳实践，忽视自身用户和场景**
+   - **原因**：脱离上下文
+   - **修复**：模仿前先写明：‘这个案例的成功依赖哪些条件？我的项目是否具备？’
+
+4. **审美标准过高，导致项目无法推进**
+   - **原因**：审美 paralysis
+   - **修复**：区分‘必须达到’和‘持续打磨’两个标准，先完成再完美
 
 ## Summary
 
