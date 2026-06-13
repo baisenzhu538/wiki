@@ -30,7 +30,6 @@ status: "enriched"
 title: "单元模型"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '单元模型', 'course_id': 'yt-entrepreneur-unit-model', 'course_type': 'method', 'level': 'core'}
 tags:
@@ -41,6 +40,14 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户LTV/CAC看起来很好，但数字是假设的"
+    framework_lens: "模型建立在空气上"
+    follow_up_question: "你的LTV和CAC中，有多少来自真实交易数据？如果<30%，这是沙盘推演"
+  - signal: "用户只看单元模型，不看真实现金流"
+    framework_lens: "模型脱离现实"
+    follow_up_question: "按当前现金流，你还能活几个月？单元模型好但现金流断了也没用"
+updated_at: '2026-06-13'
 ---
 
 # 单元模型

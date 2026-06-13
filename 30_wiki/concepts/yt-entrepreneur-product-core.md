@@ -36,7 +36,6 @@ status: "enriched"
 title: "产品内核定义、迭代与验证方法论"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-06-06
 version: 2
 yitang: {'map': 'entrepreneur', 'module': '产品内核', 'course_id': 'yt-entrepreneur-product-core', 'course_type': 'method', 'level': 'foundational'}
 tags:
@@ -51,6 +50,14 @@ tags:
   - #创业
 pipeline:
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户把产品内核越做越大，失去最小解决方案"
+    framework_lens: "过早细化/内核膨胀"
+    follow_up_question: "如果砍掉一半功能，还能解决用户最核心的那个问题吗？如果不能，内核过大了"
+  - signal: "用户有产品功能但没验证关键转化率"
+    framework_lens: "内核验证缺失"
+    follow_up_question: "你的产品内核对应的关键转化率指标是什么？现在数字是多少？"
+updated_at: '2026-06-13'
 ---
 
 # 产品内核定义、迭代与验证方法论

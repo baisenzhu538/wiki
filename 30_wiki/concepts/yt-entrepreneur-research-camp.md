@@ -24,7 +24,6 @@ source_refs:
 status: "enriched"
 title: "调研行动营：从调研认知到AI调研武器库"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'action_camp'}
 tags:
@@ -44,6 +43,14 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "用户上完行动营但调研能力没提升"
+    framework_lens: "课程没有转化为练习"
+    follow_up_question: "你上完行动营后做了几次真实调研练习？如果没有>3次，能力不会提升"
+  - signal: "用户只学AI工具，不提升调研认知"
+    framework_lens: "三轮学习失衡"
+    follow_up_question: "你能解释为什么要用这个AI工具吗？如果只是为了效率，调研认知没提升"
+updated_at: '2026-06-13'
 ---
 
 # 调研行动营：从调研认知到AI调研武器库
@@ -107,6 +114,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-ipo-learning-strategy]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意大量练习 | 行动营需要动手 |
+| ✅ 有真实调研场景 | 能应用所学 |
+| ✅ 能接受反馈 | 需要被点评 |
+| ❌ 不想动手 | 只看课不练习 |
+| ❌ 没有调研任务 | 学了用不上 |
+| ❌ 只想学工具 | 忽视认知升级 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"只学不练"** | 听完课不作业 | 每节课必须完成一个练习 |
+| **"工具依赖"** | 认为AI能解决一切 | 工具是放大器，认知是核心 |
+| **"忽视段位提升"** | 只追求技巧 | 对照L1-L6段位找差距 |
+| **"不迭代"** | 作业不改 | 根据反馈修改3遍以上 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

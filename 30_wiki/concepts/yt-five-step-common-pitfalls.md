@@ -25,7 +25,6 @@ status: "reviewed"
 title: "暗知识：五步法常见误区与认知陷阱"
 trust_level: "medium"
 type: "dk"
-updated_at: "2026-06-11"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '落地实操', 'course_id': 'yt-five-step-common-pitfalls', 'course_type': 'dk', 'level': 'core'}
 tags:
@@ -35,6 +34,14 @@ tags:
   - #yitang
 pipeline:
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户填完画布就放在一边"
+    framework_lens: "静态工具化"
+    follow_up_question: "你的五步法画布最近一次更新是什么时候？如果超过一个月，它已过时"
+  - signal: "用户学了五步法就觉得自己很牛"
+    framework_lens: "过度自信"
+    follow_up_question: "你最近一次被五步法分析结果 surprise 到是什么时候？如果没有，你可能在用框架确认偏见"
+updated_at: '2026-06-13'
 ---
 
 # 暗知识：五步法常见误区与认知陷阱

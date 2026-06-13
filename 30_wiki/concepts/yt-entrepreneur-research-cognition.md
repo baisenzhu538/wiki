@@ -30,7 +30,6 @@ status: "enriched"
 title: "调研认知"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '调研认知', 'course_id': 'yt-entrepreneur-research-cognition', 'course_type': 'method', 'level': 'core'}
 tags:
@@ -44,6 +43,14 @@ pipeline:
   - #boundary/not-for-beginners
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户用AI做了一堆调研，但结论不可靠"
+    framework_lens: "AI工具强但调研认知弱"
+    follow_up_question: "这些结论中，哪些经过了至少两个独立来源的交叉验证？"
+  - signal: "用户只收集信息，不形成洞察"
+    framework_lens: "调研≠信息收集"
+    follow_up_question: "你收集的信息中，有多少转化为了可指导决策的洞察？"
+updated_at: '2026-06-13'
 ---
 
 # 调研认知
@@ -87,6 +94,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-entrepreneur-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有调研问题 | 知道要找什么 |
+| ✅ 能评估信息质量 | 会判断来源 |
+| ✅ 会提炼洞察 | 不只是搬运信息 |
+| ❌ 没有问题 | 调研无目的 |
+| ❌ 只看信息不思考 | 信息堆砌 |
+| ❌ 不会判断来源 | 容易信假信息 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"信息堆砌"** | 收集很多但没有洞察 | 每份信息必须提炼一个洞察 |
+| **"来源不核"** | 直接引用未验证信息 | 关键信息至少两个独立来源 |
+| **"AI幻觉"** | 把AI生成的当事实 | AI输出必须人工核实 |
+| **"没有洞察"** | 只罗列数据 | 用SO WHAT追问到决策层面 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

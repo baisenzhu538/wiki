@@ -25,7 +25,6 @@ source_refs:
 status: "enriched"
 title: "SPIN销售法：顾问式销售的奠基之作"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'book_club'}
 tags:
@@ -39,6 +38,14 @@ tags:
   - #yitang
 pipeline:
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户学了SPIN但还在逼单"
+    framework_lens: "顾问式销售没有内化"
+    follow_up_question: "你最近一次销售对话中，问了几个启发式问题？如果没有，你还是在传统销售"
+  - signal: "用户在不合适的场景用SPIN"
+    framework_lens: "方法错配"
+    follow_up_question: "你的销售场景是大额复杂B2B，还是简单快速交易？后者不适合SPIN"
+updated_at: '2026-06-13'
 ---
 
 # SPIN销售法：顾问式销售的奠基之作
@@ -107,6 +114,27 @@ SPIN Selling 是1988年出版的现代销售奠基之作——首次将科学实
 ### 关联框架卡
 - [[yt-model-questioning-practice-canvas]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ B2B复杂销售 | 决策周期长 |
+| ✅ 有真实客户对话 | 能练习 |
+| ✅ 愿意倾听 | 不是只说 |
+| ❌ 简单交易 | 不需要SPIN |
+| ❌ 只想逼单 | 理念不匹配 |
+| ❌ 不愿花时间 | SPIN需要深度对话 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"逼单惯性"** | 还是急着成交 | 把目标从成交改为帮客户发现需求 |
+| **"提问不真诚"** | 问题像在审问 | 真正好奇客户的业务 |
+| **"忽视客户阶段"** | 每个客户都用同样问题 | 根据客户认知阶段调整 |
+| **"机械套SPIN"** | 按顺序问四个问题 | 自然对话中融入SPIN逻辑 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

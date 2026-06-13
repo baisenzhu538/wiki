@@ -29,7 +29,6 @@ status: "enriched"
 title: "实事求是"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-08
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '实事求是', 'course_id': 'yt-entrepreneur-truth-seeking', 'course_type': 'method', 'level': 'foundational'}
 tags:
@@ -41,6 +40,14 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "用户说要求真，但只找支持自己的数据"
+    framework_lens: "自我欺骗"
+    follow_up_question: "你最近一次主动搜索反面证据是什么时候？如果超过一周，求真只是口号"
+  - signal: "用户为了反对而反对，没有建设性"
+    framework_lens: "红队滥用"
+    follow_up_question: "你的反对是为了更接近真相，还是为了赢？"
+updated_at: '2026-06-13'
 ---
 
 # 实事求是
@@ -84,6 +91,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-entrepreneur-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意面对不愉快事实 | 不逃避 |
+| ✅ 能区分事实与愿望 | 客观 |
+| ✅ 有决策需要 | 求真服务于决策 |
+| ❌ 情绪化 | 无法客观 |
+| ❌ 只想赢 | 辩论而非求真 |
+| ❌ 没有具体问题 | 空谈 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"自我欺骗"** | 只看支持数据 | 强制找3个反例 |
+| **"数据选择"** | 挑有利数据 | 展示全部相关数据 |
+| **"红队滥用"** | 为反对而反对 | 红队目标是指向真相 |
+| **"陷入无限质疑"** | 永远不决策 | 设定质疑停止条件 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |

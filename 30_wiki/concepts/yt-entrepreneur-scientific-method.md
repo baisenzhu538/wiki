@@ -28,7 +28,6 @@ status: "enriched"
 title: "Y模型/科学方法"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-05-09
 version: 1
 yitang: {'map': 'entrepreneur', 'module': 'Y模型/科学方法', 'course_id': 'yt-entrepreneur-scientific-method', 'course_type': 'method', 'level': 'foundational'}
 tags:
@@ -40,6 +39,14 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户说"这是科学方法"，但假设不可证伪"
+    framework_lens: "伪科学——没有证伪条件"
+    follow_up_question: "什么证据会让你放弃这个假设？如果答不上来，这不是科学方法"
+  - signal: "用户只做验证自己假设的实验"
+    framework_lens: "证实偏差"
+    follow_up_question: "你最近设计的实验中，有几个是为了证伪而不是证实？"
+updated_at: '2026-06-13'
 ---
 
 # Y模型/科学方法
@@ -83,6 +90,27 @@ pipeline:
 ### 关联框架卡
 - [[yt-model-entrepreneur-map]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意提出可证伪假设 | 不是空话 |
+| ✅ 能设计对照实验 | 有实验设计能力 |
+| ✅ 接受失败 | 证伪是学习 |
+| ❌ 不可证伪命题 | 如"用户会喜欢" |
+| ❌ 只想证明 | 不愿证伪 |
+| ❌ 不愿迭代 | 失败就放弃 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"假设不可证伪"** | 没有失败条件 | 每个假设配一个证伪条件 |
+| **"只做支持实验"** | 验证性实验 | 主动设计证伪实验 |
+| **"忽视反例"** | 把反例当例外 | 认真分析每一个反例 |
+| **"把失败当例外"** | 不承认假设错误 | 用失败更新假设 |
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |
