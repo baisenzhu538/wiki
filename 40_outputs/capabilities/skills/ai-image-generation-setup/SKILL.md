@@ -214,7 +214,57 @@ FLUX.1 的最低门槛：
 
 ---
 
-## 7. 已知坑点
+## 7. fal.ai 注册与 API Key 获取（图文步骤）
+
+### 7.1 注册账号
+
+1. 打开 https://fal.ai
+2. 点击右上角 **Sign Up**
+3. 可用以下方式注册：
+   - Google 账号一键登录
+   - GitHub 账号登录
+   - 邮箱 + 密码注册
+4. 登录后进入 https://fal.ai/dashboard
+
+### 7.2 获取 API Key
+
+1. 进入 https://fal.ai/dashboard/keys
+2. 点击 **Create API Key**
+3. 给 key 起个名字，例如 `kdo-hongqigong`
+4. 复制生成的 key（以 `fal_` 开头的一串字符）
+5. **妥善保存**，fal.ai 只显示一次
+
+### 7.3 免费额度
+
+- 新注册用户通常会获得 **$10-$20** 的免费试用额度。
+- 使用企业邮箱/通过某些加速器/活动链接注册，可能拿到更高额度（最高 $500-$5000+）。
+- 免费额度用完后才需要绑卡充值。
+- 按 $0.003/张计算，$10 额度可以生成约 **3000 张** FLUX.1 schnell 图片。
+
+### 7.4 设置环境变量
+
+拿到 key 后，在运行脚本前先设置：
+
+**Windows CMD：**
+```cmd
+set FAL_KEY=你的fal_api_key
+```
+
+**Windows PowerShell：**
+```powershell
+$env:FAL_KEY="你的fal_api_key"
+```
+
+**Git Bash / WSL / Linux / Mac：**
+```bash
+export FAL_KEY=你的fal_api_key
+```
+
+> 建议把 key 写入系统的环境变量里，避免每次都要输入。
+
+---
+
+## 8. 已知坑点
 
 - Midjourney 的“私人服务器”并不等于隐私；图默认公开。
 - FLUX.1 dev 在 Windows 原生运行需 NVIDIA 驱动 + CUDA Toolkit 匹配 PyTorch 版本。
@@ -224,14 +274,15 @@ FLUX.1 的最低门槛：
 
 ---
 
-## 8. 下一步行动
+## 9. 下一步行动
 
 1. ✅ 评估本机 GPU 显存（结论：4GB，不满足 FLUX 本地最低要求）。
 2. ✅ 选择最便宜云端方案：fal.ai FLUX.1 [schnell]（$0.003/张，新用户 $10-$20 免费额度）。
 3. ✅ 已提供 Python 脚本：`40_outputs/code/scripts/generate-images-fal.py`，填入 FAL_KEY 即可跑。
-4. 注册 fal.ai 获取 API key，运行脚本生成 KDO 文章封面/信息图测试。
-5. 如需本地轻量生图，尝试 Stable Diffusion 1.5 + 4GB 优化配置。
-6. 如未来升级硬件（12GB+ 显存），再按本 skill 安装 ComfyUI + FLUX.1 dev FP8。
+4. ✅ 已整理 fal.ai 注册、取 key、设环境变量步骤。
+5. 注册 fal.ai 获取 API key，运行脚本生成 KDO 文章封面/信息图测试。
+6. 如需本地轻量生图，尝试 Stable Diffusion 1.5 + 4GB 优化配置。
+7. 如未来升级硬件（12GB+ 显存），再按本 skill 安装 ComfyUI + FLUX.1 dev FP8。
 
 ---
 
