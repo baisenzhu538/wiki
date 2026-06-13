@@ -26,7 +26,6 @@ status: "enriched"
 title: "合伙股权"
 trust_level: "medium"
 type: "concept"
-updated_at: 2026-05-19
 yitang: {'map': 'management', 'module': '合伙股权', 'course_id': 'yt-management-partnership-equity', 'course_type': 'method', 'level': 'foundational', 'series': False}
 tags:
   - #scene/learning-methodology
@@ -37,12 +36,41 @@ pipeline:
   - #boundary/requires-human-judgment
   - #boundary/single-use-only
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "合伙人平均分配股权"
+    framework_lens: "忽视贡献/风险/时间差异"
+    follow_up_question: "每位合伙人的贡献、承担风险、投入时间是否完全相同？如果不同，平均分配不公平"
+  - signal: "没有vesting/cliff机制"
+    framework_lens: "早期退出导致股权纠纷"
+    follow_up_question: "如果合伙人一年后离开，他的股权怎么处理？如果没有明确机制，公司可能埋下分裂种子"
+updated_at: '2026-06-13'
 ---
 
 # 合伙股权
 
 > 来源：一堂课程体系 | 阶段：管公司。[[yitang-course-map]] | [[yt-system-course-catalog]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有合伙人 | 多人创业 |
+| ✅ 愿意理性讨论 | 不情绪化 |
+| ✅ 能接受法律约束 | 签协议 |
+| ❌ 只有一个人 | 不需要分股 |
+| ❌ 情绪化分配 | 无法公平 |
+| ❌ 不愿签协议 | 口头约定 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"平均分配"** | 忽视差异 | 按贡献×风险×时间分配 |
+| **"静态股权"** | 一次分定 | 设置vesting/cliff |
+| **"无退出机制"** | 合伙人离开无约定 | 设计股权回购条款 |
+| **"控制权不清晰"** | 决策权模糊 | 明确控制权和否决权 |
 ## Summary
 
 合伙股权，一堂管公司的核心课程。讲创业合伙人股权分配的科学方法。

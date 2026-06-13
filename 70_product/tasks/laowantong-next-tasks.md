@@ -6,7 +6,7 @@
 
 ## 🎯 全量精修任务
 
-**总卡数：238 张 yt-* 卡（已精修 90 张，剩余 ~148 张）。**
+**总卡数：238 张 yt-* 卡（已精修 110 张，剩余 ~128 张）。**
 
 ### 严禁行为
 
@@ -194,6 +194,40 @@
 | 80 | `yt-growth-cycle-model` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
 
 **更新：2026-06-13** — 第九批 10 张已完成第一圈精修。累计完成 90 张，剩余 ~148 张。
+
+### 第十批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----:|:-----|:----:|:---------|:----:|
+| 81 | `yt-management-basic-skills` | concept | 修复损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 82 | `yt-management-business-formula` | concept | 修复损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 83 | `yt-management-company-culture` | concept | 修复损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 84 | `yt-management-conversion-hacking` | concept | 修复损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 85 | `yt-management-finance-basics` | concept | 修复损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 86 | `yt-management-founder-role` | concept | 修复损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 87 | `yt-management-goal-management` | concept | 修复损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 88 | `yt-management-leadership-levels` | concept | 修复损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 89 | `yt-management-onboarding` | concept | 修复损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 90 | `yt-management-conversion-hacking 1` | concept | 空文件（0 bytes），疑似重复/占位文件，本次跳过 | ⚠️ 跳过 |
+
+**更新：2026-06-13** — 第十批 10 张已完成第一圈精修（其中1张空文件跳过）。累计完成 100 张，剩余 ~138 张。
+
+### 第十一批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----:|:-----|:----:|:---------|:----:|
+| 91 | `yt-management-partnership-equity` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 92 | `yt-management-project-management` | concept | 修复损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 93 | `yt-management-scientific-decision` | concept | 修复损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 94 | `yt-management-scientific-hiring` | concept | 修复损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 95 | `yt-management-scientific-meetings` | concept | 修复损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 96 | `yt-management-strategy-meeting` | concept | 修复损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 97 | `yt-management-team-knowledge` | concept | 修复损坏 frontmatter，新增 DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 98 | `yt-management-toolkit-overview` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 5 条 + 失败模式 4 条） | ✅ 已完成 |
+| 99 | `yt-market-size-estimation` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 100 | `yt-model-pan-product-36-strategies` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第十一批 10 张已完成第一圈精修。累计完成 110 张，剩余 ~128 张。
 
 ---
 

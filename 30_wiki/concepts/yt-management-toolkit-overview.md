@@ -50,7 +50,6 @@ status: "enriched"
 title: "管理工具箱总览"
 trust_level: "medium"
 type: "framework"
-updated_at: 2026-05-19
 version: 1
 yitang: {'map': 'management', 'module': '方法论总纲', 'course_type': 'framework', 'level': 'foundational'}
 tags:
@@ -67,12 +66,40 @@ pipeline:
   - #boundary/requires-human-judgment
   - #framework
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "管理者什么工具都用，但什么场景都不深"
+    framework_lens: "工具泛化"
+    follow_up_question: "你最近一周最常用的3个管理工具是什么？如果超过5个，说明太泛"
+  - signal: "管理者不知道当前问题该用什么工具"
+    framework_lens: "工具选择困难"
+    follow_up_question: "你能用一个标签描述当前的管理问题吗？如果不能，无法匹配工具"
+updated_at: '2026-06-13'
 ---
 
 # 管理工具箱总览
 
 > 来源：一堂管理地图工具化升级。管理域原有 16 张 concept 卡讲"应该做什么"，本框架及配套 8 张 tool 卡回答"怎么做"——从"知道"到"做到"的最后一公里。
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 能识别管理场景 | 知道问题 |
+| ✅ 愿意学习工具 | 有开放心态 |
+| ✅ 能匹配工具与场景 | 会用 |
+| ❌ 拒绝工具化 | 只想靠经验 |
+| ❌ 场景不清 | 不知道问题 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"工具泛化"** | 什么都学 | 按场景精选 |
+| **"选择困难"** | 不知道用哪个 | 建立场景-工具映射 |
+| **"生搬硬套"** | 不看场景 | 根据问题特征选择 |
+| **"学了不用"** | 只收藏 | 每个工具配一个使用场景 |
 ## Summary
 
 管理工具箱是将一堂管理地图五阶模型（管自己→管项目→管团队→管业务→管公司）转化为可独立操作工具的导航系统。8 张 tool 卡覆盖管理者最高频的 8 个场景：会议设计、招聘面试、OKR 周期、战略研讨、知识萃取、项目监控、新人融入、股权设计。每张工具卡都包含进入标准→操作步骤→退出标准→常见陷阱，不依赖读完 concept 卡即可使用。

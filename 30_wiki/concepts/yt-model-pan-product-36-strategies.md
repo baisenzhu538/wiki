@@ -37,7 +37,6 @@ status: "enriched"
 superseded_by: ""
 title: "泛产品设计36计·全套官方工具箱"
 type: "framework"
-updated_at: 2026-05-11
 version: 1
 tags:
   - #scene/hardware-debugging/prototyping
@@ -51,8 +50,37 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "用户学了36计但做设计时还是用老方法"
+    framework_lens: "工具没有内化"
+    follow_up_question: "你最近一次做设计时主动调用了36计中的哪一张？如果从来没有，只是收藏"
+  - signal: "用户试图每张卡都用上"
+    framework_lens: "过度使用"
+    follow_up_question: "这个设计问题真的需要用到那么多工具吗？工具服务于问题"
+updated_at: '2026-06-13'
 ---
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 有产品设计基础 | 不是零基础 |
+| ✅ 理解泛产品方法论 | 有框架 |
+| ✅ 能根据场景选卡 | 会判断 |
+| ❌ 零基础 | 不会设计 |
+| ❌ 没有设计场景 | 用不上 |
+| ❌ 想套模板 | 不想思考 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"学了不用"** | 收藏卡牌 | 每个项目强制用1-2张 |
+| **"每张都用"** | 过度复杂 | 根据问题选卡 |
+| **"脱离用户场景"** | 为了用工具而用 | 回到用户任务 |
+| **"不迭代"** | 一套打法用到底 | 根据反馈更新工具选择 |
 ## Claims
 
 ### 定义与架构
