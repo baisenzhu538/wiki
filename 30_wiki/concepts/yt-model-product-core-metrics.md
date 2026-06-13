@@ -23,7 +23,6 @@ source_refs:
 status: "enriched"
 title: "产品内核十大典型指标：从获客到推荐的度量框架"
 type: "framework"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'framework'}
 tags:
@@ -42,12 +41,41 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "用户盯十大指标但不看业务阶段"
+    framework_lens: "指标与阶段错配"
+    follow_up_question: "你当前业务最大的瓶颈是获客、转化、复购还是推荐？如果不知道，指标盯错了"
+  - signal: "用户把所有指标都当核心指标"
+    framework_lens: "没有聚焦"
+    follow_up_question: "这十个指标中，你这个季度只看一个，你选哪个？"
+updated_at: '2026-06-13'
 ---
 
 # 产品内核十大典型指标：从获客到推荐的度量框架
 
 > 来源：一堂知识地图《产品内核·十大典型指标》。[[yt-entrepreneur-product-core]] | [[yt-entrepreneur-unit-model]] | [[一堂]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 产品有用户旅程 | 有数据流 |
+| ✅ 能追踪数据 | 有数据基础 |
+| ✅ 知道当前阶段重点 | 不平均用力 |
+| ❌ 没有产品 | 无数据 |
+| ❌ 数据无法获取 | 无法度量 |
+| ❌ 不分阶段 | 指标错配 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"指标与阶段错配"** | 早期盯复购 | 按阶段选核心指标 |
+| **"平均用力"** | 十个都盯 | 聚焦1-2个 |
+| **"只看数字不看原因"** | 数字涨跌不知为何 | 每个异常配根因分析 |
+| **"不行动"** | 看了不优化 | 指标必须驱动行动 |
 ## Summary
 
 十大典型指标是一堂产品内核体系的核心度量框架——按用户全生命周期分四个环节：获客→服务→复购→推荐，每个环节配置 2-3 个关键指标。这套指标不是"越多越好"的数据看板，而是"做产品只盯这十个就够了"的极简度量哲学。核心逻辑：产品内核的质量由少数关键转化率决定，找到它们、盯住它们、优化它们。

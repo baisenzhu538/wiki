@@ -25,7 +25,6 @@ source_refs:
 status: "enriched"
 title: "顶级产品追求：品味、最佳实践与乔布斯的审美哲学"
 type: "framework"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'framework'}
 tags:
@@ -42,12 +41,41 @@ pipeline:
   - #boundary/not-for-medical
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "用户只谈乔布斯品味，但不看最佳实践"
+    framework_lens: "空谈品味"
+    follow_up_question: "你最近一个月看过多少个不同领域的最佳实践案例？如果<10个，你在空谈"
+  - signal: "用户认为品味是天赋，不训练"
+    framework_lens: "天赋论"
+    follow_up_question: "你能说出品味=曝光×迁移中的两个变量分别怎么提升吗？"
+updated_at: '2026-06-13'
 ---
 
 # 顶级产品追求：品味、最佳实践与乔布斯的审美哲学
 
 > 来源：一堂知识地图《顶级产品追求的方向——乔布斯》。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-model-pan-product-three-virtues]] | [[一堂]]
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意大量接触最佳实践 | 有输入 |
+| ✅ 能迁移到自己的作品 | 有输出 |
+| ✅ 有长期审美训练 | 有耐心 |
+| ❌ 只想捷径 | 不愿积累 |
+| ❌ 不看案例 | 无法提升 |
+| ❌ 不实践 | 无法迁移 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"空谈品味"** | 只引用乔布斯 | 建立个人最佳实践库 |
+| **"天赋论"** | 认为不可学 | 按公式训练 |
+| **"只看苹果一家"** | 审美单一 | 跨领域看最佳实践 |
+| **"不迁移"** | 看了不用 | 每个案例写一条可迁移原则 |
 ## Summary
 
 这张知识地图以乔布斯的一句名言为锚点，概括了顶级产品追求的核心哲学：品味（taste）不是天赋，而是一个可训练的过程——**主动接触人类所做的最好的事物，然后将它们带入你正在做的事情**。这句话与泛产品设计的第二大修养"永远以最佳实践为追求"完全同构。核心公式：品味 = 曝光量（看过多少最好的）× 迁移力（能把多少带入自己做的事）。

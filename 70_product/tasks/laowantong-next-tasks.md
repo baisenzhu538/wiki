@@ -6,7 +6,7 @@
 
 ## 🎯 全量精修任务
 
-**总卡数：238 张 yt-* 卡（已精修 110 张，剩余 ~128 张）。**
+**总卡数：238 张 yt-* 卡（已精修 120 张，剩余 ~118 张）。**
 
 ### 严禁行为
 
@@ -228,6 +228,23 @@
 | 100 | `yt-model-pan-product-36-strategies` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
 
 **更新：2026-06-13** — 第十一批 10 张已完成第一圈精修。累计完成 110 张，剩余 ~128 张。
+
+### 第十二批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----:|:-----|:----:|:---------|:----:|
+| 101 | `yt-model-pan-product-aesthetic-toolkit` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 102 | `yt-model-pan-product-climbing-map` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 103 | `yt-model-pan-product-demand-toolkit` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 104 | `yt-model-pan-product-execution-toolkit` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 105 | `yt-model-pan-product-three-virtues` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 106 | `yt-model-personal-pitch-toolkit` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 107 | `yt-model-prediction-model` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 108 | `yt-model-product-core-metrics` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 109 | `yt-model-product-excellence` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 110 | `yt-model-prompt-engineering` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第十二批 10 张已完成第一圈精修。累计完成 120 张，剩余 ~118 张。
 
 ---
 

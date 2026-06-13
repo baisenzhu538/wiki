@@ -28,7 +28,6 @@ query_triggers:
   - "反谄媚"
   - "上下文工程"
 created_at: "2026-05-13"
-updated_at: "2026-05-13"
 reviewed_by: "黄药师"
 estimated_tokens: 2500
 tags:
@@ -48,12 +47,41 @@ pipeline:
   - #boundary/single-use-only
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "用户只会写简单prompt，不建工作流"
+    framework_lens: "停留在技巧层"
+    follow_up_question: "你的工作中有多少环节已经用AI工作流替代或增强？如果<20%，还停留在技巧层"
+  - signal: "用户让AI做所有决策，自己不思考"
+    framework_lens: "人类判断力缺失"
+    follow_up_question: "你最近一次对AI输出说了"这个不对，因为..."是什么时候？"
+updated_at: '2026-06-13'
 ---
 
 # 人机协作操作系统：提示词工程总框架
 
 > 基于吴恩达《AI Prompting for Everyone》（21节课） × 一堂拆书会第202期深度消化。提示词工程不是"写提示词的技巧"，而是**把 AI 纳入自己工作系统的管理能力**。
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 愿意把AI纳入工作系统 | 有开放心态 |
+| ✅ 能保持人类判断 | 不外包思考 |
+| ✅ 有具体使用场景 | 能落地 |
+| ❌ 完全不想思考 | 大脑外包 |
+| ❌ 没有具体工作场景 | 学了用不上 |
+| ❌ 期待AI替代一切 | 不现实 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **"只学技巧"** | 只写prompt | 设计AI工作流 |
+| **"人类判断力缺失"** | AI说什么信什么 | 保留最终判断 |
+| **"不迭代prompt"** | 一次成型 | 根据输出反馈迭代 |
+| **"不看上下文工程"** | 忽视背景信息 | 系统管理上下文 |
 ## Claims
 
 ### 核心范式转换
