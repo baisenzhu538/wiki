@@ -40,6 +40,13 @@ related:
   - "yt-five-step-common-pitfalls"
   - "yt-five-step-implementation"
   - "yt-model-five-step-canvas"
+  - "yt-management-scientific-meetings"
+  - "yt-management-scientific-hiring"
+  - "yt-management-goal-management"
+  - "yt-decision-width-method"
+  - "yt-decision-depth-ladder"
+  - "yt-decision-canvas"
+  - "yt-tool-strategy-workshop"
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"

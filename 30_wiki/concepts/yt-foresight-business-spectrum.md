@@ -37,6 +37,14 @@ related:
   - "yt-panproduct-demand-five-step-method"
   - "yt-panproduct-demand-need-discovery"
   - "yt-panproduct-demand-user-segmentation"
+  - "case-coffee-shop-foresight"
+  - "case-gudong-tea-shop-foresight"
+  - "yt-entrepreneur-scientific-method"
+  - "yt-decision-width-method"
+  - "yt-decision-depth-ladder"
+  - "yt-tool-strategy-workshop"
+  - "yt-personal-deep-review"
+  - "yt-research-osl-framework"
 review_date: 2026-06-10
 reviewed_by:
   - "黄药师"
