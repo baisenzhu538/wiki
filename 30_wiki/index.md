@@ -78,7 +78,7 @@ _Last updated: 2026-06-11T10:00:22+00:00_
 - [[concepts/concept-一堂-key-assumptions.md|关键假设思维：259工具与假设驱动的创业方法]] — source `00_inbox/一堂-关键假设课-truman-口述.txt`
 - [[concepts/concept-一堂-product-kernel.md|产品内核：用户愿意选择你的最小解决方案]] — source `00_inbox/一堂-产品内核实操课-Truman-口述.txt`
 - [[concepts/concept-半肥猫-ai-learning-toolification-methodology.md|半肥猫 AI 学习落地方法论：从听课到造工具的三层递进]] — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- [[concepts/concept-半肥猫-learning-toolification-methodology.md|学习成果工具化方法论：从课程作业到可复用能力的转化框架]] — source `00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt`
+- [[concepts/concept-半肥猫-ai-learning-toolification-methodology.md|半肥猫 AI 学习落地方法论：从听课到造工具的三层递进]] — source `00_inbox/半肥猫-AI学习落地-口述.md` / `00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt`
 - [[concepts/concept-纪浩-ai-collaboration-five-layer.md|概念：纪浩AI协作五层工作空间法]] — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - [[concepts/concept-纪浩-ai-collaboration-methodology.md|纪浩 AI 协作方法论：从判断到规模复用的五层体系]] — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - [[concepts/contingency-decision-making.md|contingency-decision-making]] — source `src_20260606_cde17edd`
@@ -444,7 +444,6 @@ _Last updated: 2026-06-11T10:00:22+00:00_
 - [[concepts/skill-ai-problem-question-check.md|技能：Problem vs Question 区分法]] — source `src_20260606_42e11f09`
 - [[concepts/skill-ai-problem-validation.md|技能：问题验证三维度法]] — source no source
 - [[concepts/skill-ai-purpose-bias-check.md|技能：目的论偏差快速识别法]] — source no source
-- [[concepts/skill-ai-question-problem-checklist.md|技能：提问题转化三问清单]] — source no source
 - [[concepts/skill-ai-research-five-steps.md|技能：AI调研五步法]] — source `src_20260606_90b44191`
 - [[concepts/skill-ai-scene-four-elements.md|技能：AI落地场景四要素评估法]] — source `src_20260606_ef4877d0`
 - [[concepts/skill-ai-system-redundancy.md|技能：系统冗余度快速检查清单]] — source no source
@@ -510,7 +509,6 @@ _Last updated: 2026-06-11T10:00:22+00:00_
 - [[concepts/skill-使用优先级快筛卡锁定核心矛盾.md|技能：使用优先级快筛卡锁定核心矛盾]] — source `src_20260609_1c8b4d0e`
 - [[concepts/skill-使用概念辨析卡区分易混淆概念.md|技能：使用概念辨析卡区分易混淆概念]] — source `src_20260609_1c8b4d0e`
 - [[concepts/skill-六维窗口期扫描法.md|技能：六维窗口期扫描法]] — source `src_20260609_44a9e79a`
-- [[concepts/skill-分享输出检验.md|技能：分享输出检验]] — source `src_20260522_dee56cff`
 - [[concepts/skill-分享输出检验法.md|技能：分享输出检验法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
 - [[concepts/skill-分层标注重点信息.md|技能：分层标注重点信息]] — source `src_20260609_03491271`
 - [[concepts/skill-创始人二当家分工协作模式.md|技能：创始人+二当家分工协作模式]] — source `src_20260609_4ea1fba2`
@@ -800,7 +798,6 @@ _Last updated: 2026-06-11T10:00:22+00:00_
 - [[concepts/skill-知识库团队管理.md|技能：知识库团队管理]] — source `src_20260522_e139c9e9`
 - [[concepts/skill-知识树存储记忆法.md|技能：知识树存储记忆法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
 - [[concepts/skill-稀缺资源机会成本比对法.md|技能：稀缺资源机会成本比对法]] — source `src_20260609_44a9e79a`
-- [[concepts/skill-立即实践转化.md|技能：立即实践转化]] — source `src_20260522_dee56cff`
 - [[concepts/skill-立即实践转化法.md|技能：立即实践转化法]] — source `10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md`
 - [[concepts/skill-纪浩-Agent开工检查单制作法.md|技能：Agent开工检查单制作法]] — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - [[concepts/skill-纪浩-Agent技能市场设计法.md|技能：Agent技能市场设计法]] — source `00_inbox/纪浩-AI协作方法论-口述.md`

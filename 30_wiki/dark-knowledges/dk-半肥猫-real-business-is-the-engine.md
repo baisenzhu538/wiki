@@ -14,10 +14,10 @@ created_at: "2026-06-08"
 updated_at: "2026-06-08"
 related:
   - "case-半肥猫-from-assignment-to-tool"
-  - "concept-半肥猫-learning-toolification-methodology"
+  - "concept-半肥猫-ai-learning-toolification-methodology"
 wiki_refs:
   - "case-半肥猫-from-assignment-to-tool"
-  - "concept-半肥猫-learning-toolification-methodology"
+  - "concept-半肥猫-ai-learning-toolification-methodology"
   - "dk-半肥猫-silky-answers-are-dangerous"
 definition_of_done:
   - "真实业务驱动的核心逻辑已描述"
@@ -99,7 +99,7 @@ pipeline:
 
 这个暗知与 [[case-半肥猫-from-assignment-to-tool]] 形成实践验证关系：案例展示了"真实业务驱动"的具体效果——半肥猫用自己的产品（4000+付费用户）做练习，动力和判断力完全不同，最终产出的调研工具具有真实复用价值。
 
-这个暗知与 [[concept-半肥猫-learning-toolification-methodology]] 形成理论基础关系：暗知是概念的精髓——“学习成果工具化方法论”建立在“真实业务是唯一燃料”这个前提上。没有这个前提，整个框架就是空中楼阁。
+这个暗知与 [[concept-半肥猫-ai-learning-toolification-methodology]] 形成理论基础关系：暗知是概念的精髓——“半肥猫 AI 学习落地方法论”（也称“学习成果工具化方法论”）建立在“真实业务是唯一燃料”这个前提上。没有这个前提，整个框架就是空中楼阁。
 
 这个暗知与 [[dk-半肥猫-silky-answers-are-dangerous]] 形成互补关系：“真实业务”是“丝滑回答”的解药。丝滑回答之所以危险，是因为它往往在没有真实业务可以验证的情况下被采信。如果有真实业务可以验证，丝滑回答很快就会被识破。
 
