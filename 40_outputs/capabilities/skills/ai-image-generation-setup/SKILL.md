@@ -231,14 +231,14 @@ FLUX.1 的最低门槛：
 1. 进入 https://fal.ai/dashboard/keys
 2. 点击 **Create API Key**
 3. 给 key 起个名字，例如 `kdo-hongqigong`
-4. 复制生成的 key（以 `fal_` 开头的一串字符）
+4. 复制生成的 key（格式类似 `3952c9e9-xxxx-xxxx-xxxx-xxxxxxxxxxxx:xxxxxxxx...`，即 `uuid:secret`）
 5. **妥善保存**，fal.ai 只显示一次
 
-### 7.3 免费额度
+### 7.3 免费额度与充值
 
 - 新注册用户通常会获得 **$10-$20** 的免费试用额度。
 - 使用企业邮箱/通过某些加速器/活动链接注册，可能拿到更高额度（最高 $500-$5000+）。
-- 免费额度用完后才需要绑卡充值。
+- **如果调用返回 `403 User is locked. Reason: Exhausted balance.`，说明免费额度已用完或账户未激活支付，需要前往 https://fal.ai/dashboard/billing 绑卡充值。**
 - 按 $0.003/张计算，$10 额度可以生成约 **3000 张** FLUX.1 schnell 图片。
 
 ### 7.4 设置环境变量
@@ -270,6 +270,7 @@ export FAL_KEY=你的fal_api_key
 - FLUX.1 dev 在 Windows 原生运行需 NVIDIA 驱动 + CUDA Toolkit 匹配 PyTorch 版本。
 - 低显存跑 FP16 会 OOM，务必先选择 FP8 / NF4 / GGUF 量化版。
 - AUTOMATIC1111 原版 **不支持** FLUX，请用 Forge 或 ComfyUI。
+- **fal.ai 返回 `403 User is locked. Reason: Exhausted balance.` 不代表 key 错了，而是余额耗尽，需要去 Billing 充值。**
 - Windows 11 的 Recall 功能可能截图保存本地生成的图；如在意隐私请关闭。
 
 ---

@@ -106,6 +106,17 @@ def call_fal_schnell(api_key: str, prompt: str, image_size: str = IMAGE_SIZE) ->
     }
 
     resp = requests.post(FAL_ENDPOINT, headers=headers, json=payload, timeout=120)
+
+    if resp.status_code == 403 and "Exhausted balance" in resp.text:
+        raise RuntimeError(
+            "fal.ai 账户余额不足或已被锁定。请前往 https://fal.ai/dashboard/billing "
+            "添加支付方式或充值后再试。"
+        )
+    if resp.status_code == 401:
+        raise RuntimeError(
+            "fal.ai API key 无效或格式错误。请检查 key 是否以 uuid:secret 格式完整复制。"
+        )
+
     resp.raise_for_status()
     data = resp.json()
 
@@ -162,7 +173,7 @@ def main(max_articles: int = MAX_ARTICLES, dry_run: bool = False):
             out_path.write_bytes(image_bytes)
             print(f"       已保存：{out_path} ({len(image_bytes)} bytes)\n")
         except Exception as e:
-            print(f"       ❌ 失败：{e}\n")
+            print(f"       [X] 失败：{e}\n")
 
     print(f"输出目录：{OUTPUT_DIR}")
 
