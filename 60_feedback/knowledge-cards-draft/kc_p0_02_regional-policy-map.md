@@ -20,6 +20,7 @@ query_triggers:
   - "黑龙江自助售药机"
 related:
   - "kc-p0-01-national-policy-redlines"
+  - "kc-p0-06-clinic-cabinet-risk-observation"
   - "kc-p1-05-electronic-prescription"
   - "kc-p1-06-remote-pharmacy-cabinet"
   - "master-decision-hygiene"
@@ -125,6 +126,13 @@ pipeline:
 2. **陕西省正式版未找到**：公开渠道仅检索到征求意见稿，建议电话咨询陕西省药监局确认。
 3. **医保支付落地情况不明**：重庆等地虽有原则性授权，但实际开通案例和结算数据未公开。
 4. **"正式文件"的效力仍需确认**：部分文件可能已被后续修订或废止，使用前建议索要最新正式文本。
+
+### 与已有知识的联系
+
+- **国家红线约束**：本卡所有地方政策都必须在 `kc-p0-01-national-policy-redlines` 的国家 48 号公告框架下理解；地方探索不能突破国家底线。
+- **远程药柜例外**：湖北省远程药柜是 `kc-p1-06-remote-pharmacy-cabinet` 的主题，本卡提示其不可泛化。
+- **诊所+药柜风险观察**：广东/广州的诊所信息化、追溯码、便民门诊等本地政策，是理解 `kc-p0-06-clinic-cabinet-risk-observation` 中推销方话术的地方背景。
+- **决策卫生视角**：进入新城市前必须电话确认政策，这是避免“用征求意见稿推断正式政策”错误的决策卫生实践。参考 `master-decision-hygiene`。
 
 ### 使用建议
 

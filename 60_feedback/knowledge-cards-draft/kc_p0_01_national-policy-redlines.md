@@ -20,6 +20,7 @@ query_triggers:
 related:
   - "kc-p0-02-regional-policy-map"
   - "kc-p0-04-fraud-detection"
+  - "kc-p0-06-clinic-cabinet-risk-observation"
   - "kc-p1-05-electronic-prescription"
   - "kc-p1-08-online-rx-regulation"
   - "master-decision-hygiene"
@@ -125,6 +126,13 @@ pipeline:
 1. **政策动态性**：医药监管政策变化较快，地方可能在国家框架下进一步收紧或探索例外模式，需定期复核。
 2. **"远程药柜"模式的可复制性不明**：湖北省的特殊模式是否能在其他省份复制，取决于当地药监局的审批态度和实施细则。
 3. **医保支付未明确**：国家层面未出台自助售药机医保支付的统一规定，地方探索（如重庆）的落地情况不明。
+
+### 与已有知识的联系
+
+- **电子处方与在线处方监管**：自助售药机禁售处方药，但医疗机构内智能取药机可凭本机构电子处方发药。本卡与 `kc-p1-05-electronic-prescription`、`kc-p1-08-online-rx-regulation` 共同构成"处方来源—流转—发药"的合规链条。
+- **远程药柜例外**：湖北省远程药柜是 `kc-p1-06-remote-pharmacy-cabinet` 的主题，本卡强调其为例外，不可泛化。
+- **决策卫生与系统思考**：政策红线是硬约束，不容谈判；在红线内探索商业模式是决策卫生的基本要求。参考 `master-decision-hygiene`、`master-systems-thinking`。
+- **诊所+药柜风险观察**：本卡关于诊所/医疗机构内药柜的红线，直接约束 `kc-p0-06-clinic-cabinet-risk-observation` 中推销方描述的商业模式。
 
 ### 使用建议
 

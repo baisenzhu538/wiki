@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-06-12 18:08 UTC
+# Concept Card Index — 2026-06-13 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -13,9 +13,8 @@
 | aima-ai思维卡-外部链接归档 | AIMA AI思维卡 — 外部链接归档 | concept | healthcare |
 | ai单元模型口述蒋老师 | AI+单元模型口述（蒋老师/磊哥） | concept | healthcare |
 | ai数据理解第一课 | AI数据理解第一课 | concept | yitang |
-| ai时代判断力口述-2 | AI时代判断力口述 | concept | healthcare |
 | ai时代判断力口述-3 | AI时代判断力口述（国帅） | concept | ai-saas |
-| ai时代判断力口述 | AI时代判断力口述 | concept | healthcare |
+| ai时代判断力口述-2 | AI时代判断力口述 | concept | healthcare |
 | anthropic-官方发布创始人手册打造-ai-原生初创公司 | AI 原生创业四阶段模型（Anthropic 创始人手册） | concept | entrepreneur |
 | business-analysis | Business Analysis | concept | ai-saas |
 | business-research-skill-oscar-13-weapon-system | Business Research Skill — OSCAR 13武器体系 Claude Code 实现 | concept | ['yitang'] |
@@ -74,7 +73,42 @@
 | ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图 | OCR: 一堂-个人修炼-讲香基本功-十指模型修炼地图 | concept | yitang |
 | ocr-一堂-个人修炼-讲香基本功 | OCR: 一堂-个人修炼-讲香基本功 | concept | yitang |
 | ocr-一堂-个人修炼-课程清单 | OCR: 一堂-个人修炼-课程清单 | concept | yitang |
-| ocr-一堂-创业必修-课程清单 | OCR: 一堂-创业必修-课程清单 | concept | yitang |
+| ocr-一堂-人机协作-双三角模型 | OCR: 一堂-人机协作-双三角模型 | concept |  |
+| ocr-一堂-创业必修-课程清单 | OCR: 一堂-创业必修-课程清单 | concept |  |
+| ocr-一堂-单元模型-abcd策略模型 | OCR: 一堂-单元模型-ABCD策略模型 | concept |  |
+| ocr-一堂-单元模型-tcpr底层网络协议 | OCR: 一堂-单元模型-TCPR底层网络协议 | concept |  |
+| ocr-一堂-单元模型-修炼地图 | OCR: 一堂-单元模型-修炼地图 | concept |  |
+| ocr-一堂-单元模型-动态预测 | OCR: 一堂-单元模型-动态预测 | concept |  |
+| ocr-一堂-单元模型-单sku模型 | OCR: 一堂-单元模型-单sku模型 | concept |  |
+| ocr-一堂-单元模型-单商圈模型 | OCR: 一堂-单元模型-单商圈模型 | concept |  |
+| ocr-一堂-单元模型-单城市模型 | OCR: 一堂-单元模型-单城市模型 | concept |  |
+| ocr-一堂-单元模型-单客户模型 | OCR: 一堂-单元模型-单客户模型 | concept |  |
+| ocr-一堂-单元模型-单履约模型 | OCR: 一堂-单元模型-单履约模型 | concept |  |
+| ocr-一堂-单元模型-单柜子模型 | OCR: 一堂-单元模型-单柜子模型 | concept |  |
+| ocr-一堂-单元模型-单用户模型 | OCR: 一堂-单元模型-单用户模型 | concept |  |
+| ocr-一堂-单元模型-单订单模型 | OCR: 一堂-单元模型-单订单模型 | concept |  |
+| ocr-一堂-单元模型-单销售模型 | OCR: 一堂-单元模型-单销售模型 | concept |  |
+| ocr-一堂-单元模型-单门店模型 | OCR: 一堂-单元模型-单门店模型 | concept |  |
+| ocr-一堂-单元模型-基准值 | OCR: 一堂-单元模型-基准值 | concept |  |
+| ocr-一堂-单元模型-壁垒预判 | OCR: 一堂-单元模型-壁垒预判 | concept |  |
+| ocr-一堂-单元模型-外部对抗地图 | OCR: 一堂-单元模型-外部对抗地图 | concept |  |
+| ocr-一堂-单元模型-多模型情况 | OCR: 一堂-单元模型-多模型情况 | concept |  |
+| ocr-一堂-单元模型-学练用 | OCR: 一堂-单元模型-学练用 | concept |  |
+| ocr-一堂-单元模型-对抗小抄 | OCR: 一堂-单元模型-对抗小抄 | concept |  |
+| ocr-一堂-单元模型-对抗小抄01 | OCR: 一堂-单元模型-对抗小抄01 | concept |  |
+| ocr-一堂-单元模型-对抗小抄02 | OCR: 一堂-单元模型-对抗小抄02 | concept |  |
+| ocr-一堂-单元模型-扭蛋机案例 | OCR: 一堂-单元模型-扭蛋机案例 | concept |  |
+| ocr-一堂-单元模型-找全成本实操难点 | OCR: 一堂-单元模型-找全成本实操难点 | concept |  |
+| ocr-一堂-单元模型-找单元模型实操难点 | OCR: 一堂-单元模型-找单元模型实操难点 | concept |  |
+| ocr-一堂-单元模型-找基准值实操难点 | OCR: 一堂-单元模型-找基准值实操难点 | concept |  |
+| ocr-一堂-单元模型-斧子尺子梯子 | OCR: 一堂-单元模型-斧子、尺子、梯子 | concept |  |
+| ocr-一堂-单元模型-斧子尺子梯子详解 | OCR: 一堂-单元模型-斧子尺子梯子详解 | concept |  |
+| ocr-一堂-单元模型-最简单元模型 | OCR: 一堂-单元模型-最简单元模型 | concept |  |
+| ocr-一堂-单元模型-段位专家 | OCR: 一堂-单元模型-段位专家 | concept |  |
+| ocr-一堂-单元模型-示例01 | OCR: 一堂-单元模型-示例01 | concept |  |
+| ocr-一堂-单元模型-规模对抗实操难点 | OCR: 一堂-单元模型-规模对抗实操难点 | concept |  |
+| ocr-一堂-单元模型-规模经济对抗武器库 | OCR: 一堂-单元模型-规模经济对抗武器库 | concept |  |
+| ocr-一堂-单元模型-象限分析法 | OCR: 一堂-单元模型-象限分析法 | concept |  |
 | ocr-一堂-地图-个人地图 | OCR: 一堂-地图-个人地图 | concept | yitang |
 | ocr-一堂-地图-个人地图_conv | OCR: 一堂-地图-个人地图_conv | concept | yitang |
 | ocr-一堂-地图-创业地图 | OCR: 一堂-地图-创业地图 | concept | yitang |
@@ -88,10 +122,12 @@
 | ocr-一堂-科学决策-roi决策评估画布-案例03 | OCR: 一堂-科学决策-ROI决策评估画布-案例03 | concept | yitang |
 | ocr-一堂-科学决策-roi决策评估画布-案例04 | OCR: 一堂-科学决策-ROI决策评估画布-案例04 | concept | yitang |
 | ocr-一堂-科学决策-roi决策评估画布 | OCR: 一堂-科学决策-ROI决策评估画布 | concept | yitang |
+| ocr-一堂-科学决策-x型y型决策习惯对比 | OCR: 一堂-科学决策-X型Y型决策习惯对比 | concept |  |
 | ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步 | OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步 | concept | yitang |
 | ocr-一堂-科学决策-人机协作决策 | OCR: 一堂-科学决策-人机协作决策 | concept | yitang |
 | ocr-一堂-科学决策-关键假设abcd模型 | OCR: 一堂-科学决策-关键假设ABCD模型 | concept | yitang |
 | ocr-一堂-科学决策-关键训练清单重要 | OCR: 一堂-科学决策-关键训练清单（重要）） | concept | yitang |
+| ocr-一堂-科学决策-决策三角形 | OCR: 一堂-科学决策-决策三角形 | concept |  |
 | ocr-一堂-科学决策-发现决策 | OCR: 一堂-科学决策-发现决策 | concept | yitang |
 | ocr-一堂-科学决策-商业模式-完整财务公式决策 | OCR: 一堂-科学决策-商业模式-完整财务公式决策 | concept | yitang |
 | ocr-一堂-科学决策-宽度-个人 | OCR: 一堂-科学决策-宽度-个人 | concept | yitang |
@@ -114,7 +150,10 @@
 | ocr-一堂-科学决策-稀缺资源清单 | OCR: 一堂-科学决策-稀缺资源清单 | concept | yitang |
 | ocr-一堂-科学决策-项目方案评估三角形 | OCR: 一堂-科学决策-项目方案评估三角形 | concept | yitang |
 | ocr-一堂-科学决策-高度-两种典型的思考习惯 | OCR: 一堂-科学决策-高度-两种典型的思考习惯 | concept | yitang |
+| ocr-一堂-科学决策-高水平共识曲线重要 | OCR: 一堂-科学决策-高水平共识曲线（重要） | concept |  |
 | ocr-一堂-管理必修-课程清单 | OCR: 一堂-管理必修-课程清单 | concept | yitang |
+| ocr-一堂-高阶体系探索营-三种咨询可能性 | OCR: 一堂-高阶体系探索营-三种咨询可能性 | concept |  |
+| ocr-一堂doc-单元模型-十大单元模型 | OCR: 一堂DOC-单元模型-十大单元模型 | concept |  |
 | ocr-一堂y模型-科学成事道理 | OCR: 一堂Y模型-科学成事道理 | concept | healthcare |
 | ocr-一堂y模型steps策略集 | OCR: 一堂Y模型steps策略集 | concept | yitang |
 | ocr-一堂y模型实操工作流 | OCR: 一堂Y模型实操工作流 | concept | yitang |
@@ -192,6 +231,7 @@
 | paddleocr-skill | PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill | concept | ['master'] |
 | product-ux | Product Ux | concept | ai-saas |
 | research_methodology | Kimi 深度调研集群方法论 (Deep-Research-Swarm) | concept | ai-saas |
+| sales-pitch-bias-patterns | 销售话术偏误模式库 | concept | 销售, 沟通分析, 供应商评估 |
 | skill-1视角升级思考法 | 技能：+1视角升级思考法 | skill |  |
 | skill-ai-four-elements-validation | 技能：真需求四要素验证法 | skill | AI, 决策, 产品 |
 | skill-ai-info-literacy-three-layer | 技能：AI输出三层防护检查法 | skill | AI, 信息素养, 质量检查 |
@@ -522,6 +562,8 @@
 | skill-马易-AIGC项目ROI评估 | 技能：AIGC项目ROI评估 | skill | business-strategy, ai-collaboration |
 | skill-马易-业务为先的AI中台建设 | 技能：业务为先的AI中台建设 | skill | ai-implementation |
 | skill-马易-工作流优先于AIGC的决策方法 | 技能：工作流优先于AIGC的决策方法 | skill | ai-collaboration, business-strategy |
+| smart-medicine-cabinet-distribution | 智能药柜分销业态洞察 | concept | 医药零售, 智能药柜, 分销系统 |
+| source-code-delivery-model | 源码交付模式 | concept | SaaS, 商业模式, 软件交付 |
 | sprint-2-门禁举证验收 | Sprint 2 门禁举证验收 | concept | master |
 | tinyfish-agentic-web-infrastructure | TinyFish — Agentic Web 基础设施建设层 Skill | concept | ['master'] |
 | tools-workflows | Tools Workflows | concept | healthcare |
@@ -548,6 +590,7 @@
 | yt-decision-ai-partner | AI决策Partner对话法 | tool | yitang |
 | yt-decision-canvas | Y模型决策画布（一页纸工具） | tool | yitang |
 | yt-decision-consensus-iceberg | 共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问 | tool | yitang |
+| yt-decision-depth-ladder | 深度阶梯工具：L1-L4停车场模型 + 三点预测法 | tool | yitang |
 | yt-decision-full-process | 科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型 | framework | yitang |
 | yt-decision-habit-shift | X型→Y型决策者习惯诊断与转换 | tool | yitang |
 | yt-decision-height-toolkit | 高度分析工具：上帝视角四维提升法 + 高水平共识曲线 | tool | yitang |
@@ -556,7 +599,6 @@
 | yt-decision-y-model | Y模型科学决策框架（广义ROI） | framework | yitang |
 | yt-demand-analysis-hiking-map | 需求分析爬山地图 | framework | yitang |
 | yt-entrepreneur-259-milestone | 259里程碑 | tool | yitang |
-| yt-entrepreneur-barriers | 项目壁垒 | tool | yitang |
 | yt-entrepreneur-business-growth | 业务增长 | tool | yitang |
 | yt-entrepreneur-channel-exploration | 渠道探索 | tool | yitang |
 | yt-entrepreneur-concentration-analysis | 集中度分析 | tool | yitang |
@@ -564,49 +606,52 @@
 | yt-entrepreneur-fundraising | 融资认知 | tool | yitang |
 | yt-entrepreneur-growth-flywheel | 增长飞轮 | tool | yitang |
 | yt-entrepreneur-industrial-production | 工业化生产 | tool | yitang |
-| yt-entrepreneur-industry-forecast | 商业预判15字诀 | tool | yitang |
 | yt-entrepreneur-key-hypotheses | 关键假设259工具与假设验证三板斧 | tool | yitang |
 | yt-entrepreneur-lean-validation | 低成本验证/MVP | tool | yitang |
-| yt-entrepreneur-liberate-thinking | 解放思想 | tool | yitang |
 | yt-entrepreneur-needs-analysis | 需求分析 | tool | yitang |
 | yt-entrepreneur-opportunity-selection | 机会选择 | tool | yitang |
 | yt-entrepreneur-pragmatic-startup | 务实创业 | tool | yitang |
 | yt-entrepreneur-product-core | 产品内核定义、迭代与验证方法论 | tool | yitang |
 | yt-entrepreneur-research-camp | 调研行动营：从调研认知到AI调研武器库 | tool | yitang |
 | yt-entrepreneur-research-cognition | 调研认知 | tool | yitang |
-| yt-entrepreneur-scientific-method | Y模型/科学方法 | tool | yitang |
 | yt-entrepreneur-spin-selling | SPIN销售法：顾问式销售的奠基之作 | tool | yitang |
 | yt-entrepreneur-truth-seeking | 实事求是 | tool | yitang |
 | yt-entrepreneur-unit-model | 单元模型 | tool | yitang |
 | yt-five-step-common-pitfalls | 暗知识：五步法常见误区与认知陷阱 | dk | yitang |
-| yt-five-step-implementation | 五步法落地实操：从故事版到分工版 | skill | yitang |
-| yt-five-step-level-blindspots | 暗知识：五步法的段位盲区与自评陷阱 | dk | yitang |
 | yt-five-step-method | 一堂五步法总纲 | framework | yitang |
 | yt-foresight-15-char-mantra | 十五字黄金法诀：机会预判的核心框架 | concept | yitang |
 | yt-foresight-ab-steady-state | AB点稳态模型：行业预判的核心框架 | concept | yitang |
-| yt-foresight-addition-subtraction | 加法减法实操：从100个选项到3个高概率方向 | concept | yitang |
 | yt-foresight-business-spectrum | 终局光谱图 | framework | yitang |
 | yt-foresight-deliverables-four-levels | 预判交付物四层级：从模糊想法到Plan ABC | concept | yitang |
 | yt-foresight-model-taxonomy | 预判模型分类 | tool | yitang |
 | yt-foresight-probability-engineering | 概率工程：把小概率变成大概率的方法论 | concept | yitang |
 | yt-foresight-ten-fatal-flaws | 十大硬伤：商业机会的致死缺陷清单 | tool | yitang |
 | yt-growth-cycle-model | 增长周期模型 | framework | yitang |
+| yt-management-basic-skills | 基本功认知 | concept |  |
+| yt-management-business-formula | 业务公式 | concept |  |
+| yt-management-company-culture | 公司文化 | concept |  |
+| yt-management-conversion-hacking | 转化率黑客 | concept |  |
+| yt-management-finance-basics | 财务入门 | concept |  |
+| yt-management-founder-role | 一号位 | concept |  |
+| yt-management-goal-management | 目标管理 | concept |  |
+| yt-management-leadership-levels | 管理段位 | concept |  |
+| yt-management-onboarding | 新人落地 | concept |  |
 | yt-management-partnership-equity | 合伙股权 | concept | ['yitang'] |
+| yt-management-project-management | 项目管理 | concept |  |
+| yt-management-scientific-decision | Y模型/科学决策 | concept |  |
+| yt-management-scientific-hiring | 科学招聘 | concept |  |
+| yt-management-scientific-meetings | 科学开会 | concept |  |
+| yt-management-strategy-meeting | 战略会 | concept |  |
+| yt-management-team-knowledge | 团队知识管理 | concept |  |
 | yt-management-toolkit-overview | 管理工具箱总览 | framework | yitang |
 | yt-market-size-estimation | 市场规模估算四种方法 | tool | yitang |
-| yt-model-aesthetic-progression | 审美提升的层级：从看不见到大胆想象的进化路径 | framework | yitang |
 | yt-model-agent-architecture | 智能体架构：PEAS与五层Agent模型 | framework | ai-models |
-| yt-model-cognitive-upgrade-framework | 认知升级十步框架：从「读书」到「安装认知补丁」 | framework | master |
 | yt-model-conversion-optimization | 转化率优化：动力三曲线 × 十大浪费触点 | framework | yitang |
-| yt-model-deep-review-iceberg | 深度复盘冰山图：从主观感受到能力建设的五层穿透 | framework | yitang |
-| yt-model-deliberate-practice-growth | 刻意练习十年成长指数：为什么有人一年顶十年 | framework | yitang |
 | yt-model-dual-triangle-competitiveness | 双三角竞争力模型 | framework | yitang |
 | yt-model-entrepreneur-map | 创业修炼地图 | framework | yitang |
 | yt-model-five-step-canvas | 五步法画布 × 产品内核画布：从假设到壁垒的实操工具 | framework | yitang |
 | yt-model-ipo-complete-checklist | IPO 科学学习完整清单 | framework | yitang |
 | yt-model-ipo-learning-strategy | IPO 科学学习全景策略 | framework | yitang |
-| yt-model-liberate-thinking-layers | 解放思想五层模型 | framework | yitang |
-| yt-model-management-map | 管理修炼地图 | framework | yitang |
 | yt-model-muse-ai-framework | MUSE 人工智能全景图 | framework | yitang |
 | yt-model-pan-product-36-strategies | 泛产品设计36计·全套官方工具箱 | framework | yitang |
 | yt-model-pan-product-aesthetic-toolkit | 泛产品设计·审美工具箱（4张卡牌） | framework | yitang |
@@ -614,13 +659,11 @@
 | yt-model-pan-product-demand-toolkit | 泛产品设计·需求工具箱（13张卡牌） | framework | yitang |
 | yt-model-pan-product-execution-toolkit | 泛产品设计·落地工具箱（19张卡牌） | framework | yitang |
 | yt-model-pan-product-three-virtues | 泛产品三大自我修养：用户价值×最佳实践×无限进步 | framework | yitang |
-| yt-model-personal-map | 个人修炼地图 | framework | yitang |
 | yt-model-personal-pitch-toolkit | 十指讲香模型（框架） | framework | personal |
 | yt-model-prediction-model | 预判模型：从最糙版到复杂版的三种预判范式 | framework | yitang |
 | yt-model-product-core-metrics | 产品内核十大典型指标：从获客到推荐的度量框架 | framework | yitang |
 | yt-model-product-excellence | 顶级产品追求：品味、最佳实践与乔布斯的审美哲学 | framework | yitang |
 | yt-model-progress-map | 无限进步大地图 | framework | yitang |
-| yt-model-prompt-engineering | 人机协作操作系统：提示词工程总框架 | framework | yitang, ai |
 | yt-model-questioning-practice-canvas | 提问刻意练习提升画布 | framework | yitang |
 | yt-model-scientific-questioning-map | 科学提问刻意练习地图 | framework | yitang |
 | yt-model-truman-career-routes | 楚门的选择：两条职业成长路线 X vs Y | framework | yitang |
@@ -628,9 +671,12 @@
 | yt-model-y-organization | Y 型创业模型 | framework | yitang |
 | yt-note-ai-human-division | AI时代笔记分工边界：人在哪里，AI在哪里 | concept | yitang, ai |
 | yt-note-checklist-concept | 一堂笔记法：清单体笔记的核心概念与原理 | concept | yitang, personal-growth |
+| yt-note-deliberate-practice-four-elements | 四要素诊断模型——刻意练习的笔记落地框架 | ? | yitang |
 | yt-note-expert-interview-modeling | 专家访谈式笔记：边聊边建模的高阶认知工作流 | concept | yitang, personal-growth |
 | yt-note-extensive-research-input | 广泛涉猎式笔记：以问题为入口的多源交叉认知法 | concept | yitang, personal-growth |
 | yt-note-fact-pattern-insight | 事实→规律→见解：深度思考笔记的三段论结构 | concept | yitang, personal-growth |
+| yt-note-l4-internalization | 清单体L4内化阶段：从“让别人看懂”到“让自己想清楚”的跳跃 | concept | yitang |
+| yt-note-l6-extraction | 清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品 | concept | yitang |
 | yt-note-problem-solving-capability | 笔记能力=解决问题能力：从备忘工具到问题解决系统 | concept | yitang, personal-growth |
 | yt-panproduct-aesthetic-collection | 泛产品设计·审美卡片：最佳实践收集 | tool | yitang |
 | yt-panproduct-aesthetic-imagination | 泛产品设计·审美卡片：美好作品想象 | tool | yitang |
@@ -713,6 +759,13 @@
 | yt-research-osl-framework | OSL调研五步法：一堂通用商业调研框架 | framework | yitang |
 | yt-research-weaponry-course | 一堂调研武器库课程 | concept | yitang |
 | yt-scale-economy-weapon-library | 规模经济分析武器库 | tool | yitang |
+| yt-skill-checklist-as-ai-protocol | 清单体作为AI的I/O协议——用笔记替代prompt工程 | concept | yitang |
+| yt-skill-p-role-prompt-design | P 角色 Prompt 设计——执行者型 AI 的交付规范 | ? | yitang |
+| yt-skill-storyline-contrast-analysis | 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度 | ? | yitang |
+| yt-skill-storyline-key-elements | 清单体故事线⑥：关键要素线——用结构拆解‘什么才是真正重要的’ | ? | yitang |
+| yt-skill-storyline-problem-solving | 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链 | ? | yitang |
+| yt-skill-storyline-target-tradeoff | 清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架 | ? | yitang |
+| yt-skill-storyline-timeline | 清单体故事线①：严格时间线——用时间轴重构事件因果链 | ? | yitang |
 | yt-system-course-catalog | 一堂全课程目录索引 | concept | yitang |
 | yt-system-course-map-lecture - src_20260506_13e7bbca - src_20260507_3f2ac357 | 一堂课程地图精华串讲 | concept | yitang |
 | yt-three-dimension-opportunity-matrix | 三维排列组合找机会 | tool | yitang |
@@ -720,9 +773,7 @@
 | yt-tool-equity-checklist | 股权设计检查清单 | tool | yitang |
 | yt-tool-fab-persuasion | FAB核心说服：从产品特性到用户利益的转化法 | tool | yitang |
 | yt-tool-foresight-canvas | 预判画布：从加法到减法的标准化工作台 | tool | yitang |
-| yt-tool-hiring-scorecard | 结构化面试打分卡 | tool | yitang |
 | yt-tool-knowledge-extraction | 团队知识萃取器 | tool | yitang |
-| yt-tool-meeting-designer | 会议设计师：一页纸会议蓝图 | tool | yitang |
 | yt-tool-mental-model-refinement | 思维模型提炼：从体感经验到可复用武器库 | tool | yitang |
 | yt-tool-okr-cycle | OKR 制定与复盘罗盘 | tool | yitang |
 | yt-tool-onboarding-90day | 新人90天融入加速器 | tool | yitang |
@@ -739,7 +790,6 @@
 | yt-unit-model-dynamic | 动态单元模型：规模变量、拐点预判与规模经济对抗 | tool | entrepreneur, master |
 | yt-unit-model-ladder | 单元模型六段进阶：从不会算账到动态预判 | framework | entrepreneur, master |
 | yt-unit-model-overview | 单元模型概述：从最小经济单元到商业判断框架 | framework | entrepreneur, master |
-| yt-unit-model-selection | 单元模型选择法：复制哪个算哪个，找到核心经济单元 | tool | entrepreneur, master |
 | yt-unit-model-three-tools | 单元模型三工具：斧子尺子梯子 | framework | yitang |
 | 互联网医院模式深度调研报告 | 互联网医院模式深度调研报告 | concept | ['healthcare'] |
 | 人机协作决策-双三角模型 | 人机协作决策——双三角模型 | concept | ai-saas |
@@ -748,7 +798,6 @@
 | 存储策略 | 存储策略 | concept | master |
 | 学会提问在信息洪流中锻造批判性思维的利刃 | 《学会提问》：在信息洪流中锻造批判性思维的利刃 | framework | ai-saas |
 | 开源HIS系统代码深度分析报告 | 开源HIS系统代码深度分析报告 | concept | healthcare |
-| 测试技能卡 | 测试技能卡 | skill | yitang |
 | 紫鲸ai_智能体工作流平台_深度分析与产品设计 | 紫鲸AI_智能体工作流平台_深度分析与产品设计 | concept | ['ai-saas'] |
 | 紫鲸ai智能体工作流平台 | 紫鲸AI智能体工作流平台 | concept | ['ai-saas'] |
 | 老朱的水感-2026年5月 | 老朱的水感 — 2026年5月 | concept | ai-saas |
@@ -758,12 +807,12 @@
 | 轻量级诊所HIS调研全清单 | 轻量级诊所HIS调研全清单 | concept | healthcare |
 | 那今天不会 | 那今天不会。 | concept | ai-saas |
 | 鑫港湾his系统分阶段整改报告 | 鑫港湾HIS系统分阶段整改报告 | concept | ['healthcare'] |
-| 验证测试 | 验证测试 | concept | yitang |
 | concept-maister-trusted-advisor | Trusted Advisor：可信顾问信任模型 | framework | consulting, yitang |
 | concept-mckinsey-7s | 7-S Framework：组织诊断的七维模型 | framework | consulting, yitang |
 | concept-mckinsey-hypothesis-driven | Hypothesis-Driven Approach：假设驱动工作法 | framework | consulting, yitang |
 | concept-mckinsey-mece | MECE 原则：相互独立、完全穷尽 | framework | consulting, yitang |
 | concept-minto-pyramid-principle | 金字塔原理：结论先行的结构化沟通框架 | framework | consulting, yitang |
+| private-domain-saas-sales-funnel | 私域 SaaS 销售四步法 | framework | SaaS, 私域电商, 销售流程 |
 | yt-decision-abcd-model | yt-decision-abcd-model | framework | 一堂·科学决策 |
 | yt-unit-model-ladder | 单元模型六段进阶：从拍脑袋到动态预测 | framework | decision-science |
 | yt-unit-model-overview | 单元模型概览：十大单元模型与三角色分工 | framework | decision-science |
