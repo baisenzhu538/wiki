@@ -6,7 +6,7 @@
 
 ## 🎯 全量精修任务
 
-**总卡数：238 张 yt-* 卡（已精修 50 张，剩余 ~188 张）。**
+**总卡数：238 张 yt-* 卡（已精修 60 张，剩余 ~178 张）。**
 
 ### 严禁行为
 
@@ -126,6 +126,23 @@
 | 40 | `yt-concept-p-type-l-type` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
 
 **更新：2026-06-13** — 第五批 10 张已完成第一圈精修。累计完成 50 张，剩余 ~188 张。
+
+### 第六批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----:|:-----|:----:|:---------|:----:|
+| 41 | `yt-concept-peas-insight` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 7 条 + 失败模式 4 条） | ✅ 已完成 |
+| 42 | `yt-concept-weapon-arsenal` | concept | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 43 | `yt-customer-acquisition-toolkit` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 44 | `yt-demand-analysis-hiking-map` | framework | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 45 | `yt-entrepreneur-259-milestone` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 46 | `yt-entrepreneur-barriers` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 47 | `yt-entrepreneur-business-growth` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 48 | `yt-entrepreneur-channel-exploration` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 49 | `yt-entrepreneur-concentration-analysis` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+| 50 | `yt-entrepreneur-five-step-method` | tool | 新增 frontmatter DS 2 条 + Constraints & Boundaries（适用边界 6 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第六批 10 张已完成第一圈精修。累计完成 60 张，剩余 ~178 张。
 
 ---
 
