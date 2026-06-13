@@ -23,8 +23,7 @@ tools_required:
 - 练习设计框架
 - 反馈机制
 prerequisite_skills: []
-related:
-- skill-立即实践转化
+related: []
 tags:
 - null
 - null

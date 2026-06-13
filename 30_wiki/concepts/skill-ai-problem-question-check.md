@@ -20,8 +20,7 @@ definition_of_done:
 tools_required:
 - 无（纯思维工具）
 prerequisite_skills: []
-related:
-- skill-ai-question-problem-checklist
+related: []
 created_at: 2026-06-11
 updated_at: '2026-06-13'
 tags:
@@ -73,6 +72,23 @@ reviewed_by: laowantong
 今日提问：Problem X个 / Question Y个
 浪费token的question：_____
 ```
+
+---
+
+## 快速对照表
+
+| 检查项 | Question（疑问） | Problem（问题） |
+|:---|:---|:---|
+| 触发点 | "我好奇" | "我疼" |
+| 结果要求 | 知道就行 | 必须改变现状 |
+| 时间敏感度 | 今天问和明天问没区别 | 今天不解决会有后果 |
+| 行动要求 | 不需要做什么 | 需要一个具体动作 |
+| 验收标准 | 满足好奇心 | 有 before/after 可验证 |
+
+**一句话判断**：这个问题能不能写出具体的 before/after？
+- 能 → 是 problem，继续提问
+- 不能 → 是 question，问自己"我真的需要现在知道答案吗？"
+- 如果是 question 但很想知道 → 放到"阅读清单"，不占用 AI 工作时间
 
 ---
 

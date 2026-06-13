@@ -23,8 +23,7 @@ tools_required:
 - 短视频工具
 - 演讲场合
 prerequisite_skills: []
-related:
-- skill-分享输出检验
+related: []
 tags:
 - null
 - null
