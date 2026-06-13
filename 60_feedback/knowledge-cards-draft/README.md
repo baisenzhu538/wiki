@@ -29,7 +29,19 @@
 
 ## 与 `30_wiki/` 的迁移关系
 
-本目录下的知识卡草稿采用与 `30_wiki/` 一致的 YAML frontmatter 格式，可直接用于迁移。迁移前建议：
+本目录下的知识卡草稿采用与 `30_wiki/` 一致的 YAML frontmatter 格式，可直接用于迁移。
+
+每张 P0 知识卡的 `related` 字段已补充与现有 `30_wiki/` 知识库的关联：
+
+| 知识卡 | 关联的现有知识库卡片 |
+|---|---|
+| `kc_p0_01_national-policy-redlines` | `master-decision-hygiene`、`master-systems-thinking` |
+| `kc_p0_02_regional-policy-map` | `master-decision-hygiene` |
+| `kc_p0_03_financial_model` | `yt-unit-model-three-tools`、`yt-five-step-method`、`master-cognitive-bias-checklist`、`master-antifragile-checklist` |
+| `kc_p0_04_fraud_detection` | `master-cognitive-bias-checklist`、`master-decision-hygiene` |
+| `kc_p0_05_o2o_cost_structure` | `yt-unit-model-three-tools`、`master-antifragile-checklist` |
+
+迁移前建议：
 
 1. 由熟悉医药监管的同事复核 P0-1、P0-2 政策合规内容。
 2. 由财务/投资背景的同事复核 P0-3 财务模型假设和测算。

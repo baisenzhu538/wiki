@@ -33,7 +33,7 @@ status: "draft"
 title: "医药 O2O 成本与毛利结构"
 trust_level: "medium"
 type: "concept"
-updated_at: 2026-06-13
+updated_at: 2026-06-13T16:00:00
 version: 1
 tags:
   - #scene/healthcare/pharmaceutical-retail

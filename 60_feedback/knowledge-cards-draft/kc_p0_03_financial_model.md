@@ -35,7 +35,7 @@ status: "draft"
 title: "智能药柜单点财务模型与回本测算表"
 trust_level: "medium"
 type: "tool"
-updated_at: 2026-06-13
+updated_at: 2026-06-13T16:00:00
 version: 1
 tags:
   - #scene/healthcare/pharmaceutical-retail

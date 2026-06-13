@@ -32,7 +32,7 @@ status: "draft"
 title: "智能药柜/智慧药房招商骗局识别清单"
 trust_level: "high"
 type: "tool"
-updated_at: 2026-06-13
+updated_at: 2026-06-13T16:00:00
 version: 1
 tags:
   - #scene/healthcare/pharmaceutical-retail

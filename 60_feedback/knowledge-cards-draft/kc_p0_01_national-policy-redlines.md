@@ -34,7 +34,7 @@ status: "draft"
 title: "自助售药机国家政策与红线（2024 年第 48 号公告解读）"
 trust_level: "high"
 type: "concept"
-updated_at: 2026-06-13
+updated_at: 2026-06-13T16:00:00
 version: 1
 tags:
   - #scene/healthcare/pharmaceutical-retail
