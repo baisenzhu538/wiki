@@ -50,9 +50,12 @@ updated_at: "2026-05-19"
 estimated_tokens: 3300
 reviewed_by: "周伯通"
 diagnostic_signals:
-  - signal: "TODO: User scenario that triggers this diagnostic"
-    framework_lens: "TODO: What perspective the framework provides"
-    follow_up_question: "TODO: The first follow-up question"
+  - signal: "季度末到了，团队打开OKR文档——发现上一次更新是3个月前"
+    framework_lens: "写了但没用——OKR是'季度初写一次、季度末看一眼'的文档，而非实时引导工具。OKR的真正价值在追踪过程中，而非在设定时"
+    follow_up_question: "你们上一次在周会上讨论OKR是什么时候？如果答案是'记不清了'，OKR已经是一个形式而非工具"
+  - signal: "团队的OKR完成率90%+，但业务实际进展很差——完成了目标但没达成目的"
+    framework_lens: "写了但没用——全绿的OKR和全红的OKR一样危险。可能是KR设成了任务清单（做了=完成了），也可能是团队在'挑软柿子'——只完成容易量化的KR，回避了真正重要但难量化的突破"
+    follow_up_question: "完成的KR里，去掉'按流程完成'类的、挑出真正创造了用户/客户价值的——还剩几个？"
 ---
 
 # OKR 制定与复盘罗盘
@@ -210,7 +213,16 @@ Q5：上个季度 OKR 的关键教训是什么？_____
 | **O 太多 = 没有突破点** | 一个团队有 8 个 O | 公司级 ≤3-5 个 O，部门级 ≤3 个 O，10 个 O = 0 个 O |
 | **季度复盘变成"打分考核"** | 复盘会上给 KR 打分、排名次 | 复盘四问中没有"打分"——只有"达成率"、"价值审计"、"学习"、"调整" |
 
----
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 团队方向基本清晰、处于执行/扩张期 | OKR的前提是"知道要往哪走"。探索期应改用假设驱动 |
+| ✅ 团队≥5人、有跨部门协作需求 | 少于5人的团队直接对齐即可，OKR的形式成本大于收益 |
+| ❌ 业务高度不确定（每周都在pivot） | 方向不确定时OKR是建在流沙上的——锁定错误方向比没有方向更糟 |
+| ❌ 创造性工作占主导、产出质量优于数量 | 量化型OKR会挤出内在动机，导致"做得多但质量差" |
 
 ## 外部攻击
 
