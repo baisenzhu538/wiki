@@ -141,12 +141,12 @@ Marcus让AI决策Partner使用者睡不着觉的问题是：**当你让AI做L3/L
 
 ## diagnostic_signals
 
-- signal: "用户问AI'你觉得该怎么做'，AI给了一个看起来非常完整的分析，用户直接照做了"
-  framework_lens: "AI替代判断失效——AI的完整输出不代表正确输出，结构化不等于可信"
+- signal: "用户问AI'你觉得该怎么做'，AI给了完整分析，用户直接照做"
+  framework_lens: "AI替代判断失效——结构化输出不等于可信输出"
   follow_up_question: "AI分析里哪些是事实、哪些是假设？如果AI假设错了，你的决策翻不翻？"
 - signal: "用户说'我让AI帮我分析，它列了10个维度，我感觉很全面了'"
-  framework_lens: "AI替代判断失效——AI的结构化输出制造了'全面感'，但可能只是一个看起来不错的框架而已"
-  follow_up_question: "AI列出的维度里，有没有你根本不知道它怎么得出的？如果有，你先去验证这个维度再往下走"
+  framework_lens: "全面感幻觉——AI的结构化框架可能只是看起来不错"
+  follow_up_question: "AI列出的维度里，有没有你根本不知道它怎么得出的？如果有，先验证这个维度再往下走"
 
 ## AI替代判断的失效场景
 
