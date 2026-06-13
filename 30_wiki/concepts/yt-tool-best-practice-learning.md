@@ -64,7 +64,8 @@ diagnostic_signals:
   - signal: "设计决策是否先问'用户需要什么'再问'最佳实践怎么做'"
     framework_lens: "用户中心 / 参考≠目标"
     follow_up_question: "是否把'不比竞品差'当成设计目标？"
-updated_at: '2026-06-13'---
+updated_at: '2026-06-13'
+---
 
 ## Summary
 

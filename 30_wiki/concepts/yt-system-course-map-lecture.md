@@ -37,7 +37,8 @@ diagnostic_signals:
   - signal: "学习路径是否按'具体项目问题→选 1 个最相关模块→应用'推进"
     framework_lens: "最小可用 / 刻意练习"
     follow_up_question: "是否一次性尝试应用整个十层框架导致信息过载？"
-updated_at: '2026-06-13'---
+updated_at: '2026-06-13'
+---
 
 # 一堂课程地图精华串讲
 
