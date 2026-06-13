@@ -32,7 +32,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·落地卡片：内核和边界"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
 tags:
@@ -51,11 +50,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - #boundary/single-use-only
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "能清晰说出产品的‘内核’是什么，且团队成员理解一致"
+    framework_lens: "内核是产品存在的根本价值"
+    follow_up_question: "如果去掉这个内核，产品还是同一个产品吗？"
+  - signal: "边界上的功能需求会被评估是否损害内核，而不是一律接受或拒绝"
+    framework_lens: "边界是围绕内核的可协商区域"
+    follow_up_question: "这个功能如果做了，会强化、稀释还是模糊内核？"
+  - signal: "在面对资源冲突时，能用内核作为取舍标准"
+    framework_lens: "内核提供决策优先级"
+    follow_up_question: "过去一个月里，有哪次排期是依据内核做出的取舍？"
+updated_at: '2026-06-13'
 ---
 
 # 内核和边界：剥离中心思想和边界
 
 > 落地工具箱第 1 张卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 产品定位需要清晰、团队对范围有分歧时 |
+| **适合** | 需要在功能扩张中保持产品一致性的阶段 |
+| **不适合** | 完全探索期、内核尚未形成的早期概念 |
+| **不适合** | 平台型产品需要广泛兼容的场景——边界定义需要更灵活 |
+
+### 失败模式
+
+1. **把很多功能都列为内核，导致没有取舍空间**
+   - **原因**：内核膨胀
+   - **修复**：限制内核≤3条，每条必须通过‘删除测试’：去掉后产品失去灵魂
+
+2. **边界不断扩张，内核被稀释**
+   - **原因**：边界管理失效
+   - **修复**：每个边界功能上线前回答：它是否在不损害内核的前提下服务核心用户？
+
+3. **内核描述过于抽象，无法指导具体决策**
+   - **原因**：内核空洞
+   - **修复**：把内核改写成用户可感知的产品特性或体验标准
+
+4. **内核过于僵化，错过合理进化**
+   - **原因**：把边界当禁区
+   - **修复**：设定内核复审周期，当市场或用户需求发生质变时允许调整内核
 
 ## Summary
 

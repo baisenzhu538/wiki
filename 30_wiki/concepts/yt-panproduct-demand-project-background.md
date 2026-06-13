@@ -30,7 +30,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·用户卡片：项目背景分析"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
 tags:
@@ -45,11 +44,49 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "在项目启动前，八个落差维度中至少前五项被明确回答"
+    framework_lens: "背景分析是项目成功的前提"
+    follow_up_question: "如果去掉‘战略’或‘老板’维度，项目目标会不会出现隐性冲突？"
+  - signal: "背景分析结果直接转化为项目范围和优先级，而不是停留在报告"
+    framework_lens: "分析必须产生决策输入"
+    follow_up_question: "背景分析后，有哪些原定的功能被砍掉或推迟了？"
+  - signal: "项目中期会重新审视背景假设，而不是一次性分析后束之高阁"
+    framework_lens: "背景会随环境变化"
+    follow_up_question: "过去一个月里，八个维度中有哪些假设被新信息推翻？"
+updated_at: '2026-06-13'
 ---
 
 # 项目背景分析：综合用户/场景/商业考量
 
 > 需求工具箱第 5 张卡片（★建议第一张出牌）。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 投入资源较多、跨部门协作、目标复杂的中大型项目 |
+| **适合** | 项目启动前或关键节点复盘 |
+| **不适合** | 非常小范围、单人可完成的修修补补 |
+| **不适合** | 背景完全清晰、没有任何歧义的执行性任务 |
+
+### 失败模式
+
+1. **跳过背景分析，直接进入方案设计**
+   - **原因**：急于产出
+   - **修复**：在项目 kickoff 中强制加入‘背景对齐’环节，未通过不进入方案
+
+2. **背景分析面面俱到，但没有识别出核心矛盾**
+   - **原因**：缺乏合成
+   - **修复**：八个维度填完后，输出‘核心冲突’和‘关键假设’两行结论
+
+3. **忽视老板/战略维度，只关注用户和市场**
+   - **原因**：视角片面
+   - **修复**：把老板/战略维度作为‘一票否决项’：目标与公司方向是否一致？
+
+4. **背景分析做一次就再也不更新**
+   - **原因**：把背景当静态
+   - **修复**：设定里程碑评审：每到一个关键节点，回顾哪些背景假设已被验证或推翻
 
 ## Summary
 

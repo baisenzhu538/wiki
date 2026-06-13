@@ -6,7 +6,7 @@
 
 ## 🎯 全量精修任务
 
-**总卡数：238 张 yt-* 卡（已精修 128 张含 DS，剩余 ~110 张）。**
+**总卡数：238 张 yt-* 卡（已精修 148 张含 DS，剩余 ~90 张）。**
 
 > 注：历史批次表格中部分卡片重复出现，导致序号累加高于实际；后续累计数以「frontmatter 中已写入 diagnostic_signals」的真实卡数为准。
 
@@ -281,6 +281,40 @@
 | 130 | `yt-panproduct-demand-industry-canvas` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
 
 **更新：2026-06-13** — 第十四批 10 张已完成第一圈精修。实际累计完成 128 张含 DS，剩余 ~110 张。
+
+### 第十五批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----|:----|:----|:----|:----|
+| 131 | `yt-decision-width-method` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 132 | `yt-foresight-model-taxonomy` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 133 | `yt-panproduct-demand-motivation-resistance` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 134 | `yt-panproduct-demand-multi-perspective` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 135 | `yt-panproduct-demand-need-discovery` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 136 | `yt-panproduct-demand-peak-end-rule` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 137 | `yt-panproduct-demand-project-background` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 138 | `yt-panproduct-demand-scenario-walkthrough` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 139 | `yt-panproduct-demand-surprise-formula` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 140 | `yt-panproduct-demand-user-perspective` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第十五批 10 张已完成第一圈精修。实际累计完成 138 张含 DS，剩余 ~100 张。
+
+### 第十六批 10 张精修状态
+
+| 序号 | 卡片 | 类型 | 精修内容 | 状态 |
+|:----|:----|:----|:----|:----|
+| 141 | `yt-panproduct-demand-user-segmentation` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 142 | `yt-panproduct-execution-10x-validation` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 143 | `yt-panproduct-execution-business-modeling` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 144 | `yt-panproduct-execution-core-and-boundary` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 145 | `yt-panproduct-execution-design-principles` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 146 | `yt-panproduct-execution-good-tools` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 147 | `yt-panproduct-execution-hypothesis-decomposition` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 148 | `yt-panproduct-execution-idea-spark` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 149 | `yt-panproduct-execution-incubation-polish` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+| 150 | `yt-panproduct-execution-liberate-thinking` | tool | 新增 frontmatter DS 3 条 + Constraints & Boundaries（适用边界 4 条 + 失败模式 4 条） | ✅ 已完成 |
+
+**更新：2026-06-13** — 第十六批 10 张已完成第一圈精修。实际累计完成 148 张含 DS，剩余 ~90 张。
 
 ---
 

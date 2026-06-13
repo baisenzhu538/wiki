@@ -32,7 +32,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·落地卡片：假设拆解"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
 tags:
@@ -48,11 +47,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - #boundary/single-use-only
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "产品成功被拆解成≤5个关键假设，而不是模糊的一个大目标"
+    framework_lens: "关键假设是验证的锚点"
+    follow_up_question: "如果这5个假设中有一个错了，产品会失败吗？"
+  - signal: "每个关键假设都有可观察的证伪指标和验证方法"
+    framework_lens: "假设必须可证伪"
+    follow_up_question: "什么样的证据会让你放弃这个假设？"
+  - signal: "验证结果会更新假设优先级和下一步计划"
+    framework_lens: "贝叶斯迭代"
+    follow_up_question: "最近一次的验证结果改变了你的假设排序吗？"
+updated_at: '2026-06-13'
 ---
 
 # 假设拆解：拆解出影响产品成败的关键假设
 
 > 落地工具箱卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 创新型产品或新业务，成功路径充满不确定性 |
+| **适合** | 需要向投资人/团队清晰展示风险点的场景 |
+| **不适合** | 成熟产品的日常优化——假设已经相对稳定 |
+| **不适合** | 完全没有可验证指标的概念阶段 |
+
+### 失败模式
+
+1. **假设写成‘用户会喜欢我们的产品’这种无法证伪的陈述**
+   - **原因**：假设不够具体
+   - **修复**：把假设改写成‘[具体用户群] 在 [场景] 中愿意 [可观察行为]’
+
+2. **关键假设太多，团队无法聚焦**
+   - **原因**：假设膨胀
+   - **修复**：只保留‘如果错了会导致项目失败’的假设，其余放入观察清单
+
+3. **验证指标是弱代理，不能反映假设本身**
+   - **原因**：指标错位
+   - **修复**：为每个假设设计‘黄金指标’，并说明为什么它能证伪假设
+
+4. **负面结果出现后仍坚持原假设，继续投入**
+   - **原因**：确认偏误
+   - **修复**：实验前写下‘放弃条件’，达到条件后必须强制 pivot 或停止
 
 ## Summary
 

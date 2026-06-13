@@ -31,7 +31,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·落地卡片：善用佳软"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
 tags:
@@ -50,11 +49,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "选择工具时先明确要完成的任务和输出标准，而不是先看工具功能"
+    framework_lens: "工具服务于任务"
+    follow_up_question: "这个任务用现有工具能不能完成到80分？"
+  - signal: "团队使用工具后，协作效率或输出质量有可观察的提升"
+    framework_lens: "工具价值需要验证"
+    follow_up_question: "引入新工具后，哪个环节的速度或质量改善了？"
+  - signal: "会定期清理不再使用的工具，避免工具堆叠"
+    framework_lens: "工具栈需要保鲜"
+    follow_up_question: "最近半年有没有停用某个工具？为什么？"
+updated_at: '2026-06-13'
 ---
 
 # 善用佳软：多学习一些简单产品工具
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 设计、原型、协作、项目管理等需要工具支撑的执行环节 |
+| **适合** | 团队工具使用混乱、效率低下时 |
+| **不适合** | 核心工程问题——应由技术栈决定 |
+| **不适合** | 工具学习成本高于任务本身价值的低频任务 |
+
+### 失败模式
+
+1. **追逐新工具，频繁更换导致流程不稳定**
+   - **原因**：工具癖
+   - **修复**：设定工具引入门槛：新工具必须解决现有工具无法解决的明确问题
+
+2. **用复杂工具做简单任务，投入产出失衡**
+   - **原因**：工具与任务不匹配
+   - **修复**：按任务复杂度分级：简单任务用轻量工具，复杂任务才用专业工具
+
+3. **只考虑个人效率，忽视团队协作和文件兼容**
+   - **原因**：局部优化
+   - **修复**：工具选型必须通过‘团队交接测试’：别人能否无缝接手你的文件？
+
+4. **买了工具没人用，或用法五花八门**
+   - **原因**：缺少培训和规范
+   - **修复**：引入新工具时配套最小使用规范和1次团队培训
 
 ## Summary
 

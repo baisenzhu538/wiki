@@ -29,7 +29,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·用户卡片：用户分层"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
 tags:
@@ -45,11 +44,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "分层维度基于行为、需求或任务差异，而不是仅按年龄/性别等人口统计"
+    framework_lens: "有效分层必须导向不同设计决策"
+    follow_up_question: "这两个群体是否需要不同的功能、信息架构或运营策略？"
+  - signal: "分层数量控制在能管理的范围内（通常 3-5 个核心群体），并有明确的优先级"
+    framework_lens: "分层的价值在于聚焦，而非无限细分"
+    follow_up_question: "如果只能为一个群体优化，你会选哪个？为什么？"
+  - signal: "每个分层都有真实数据或访谈证据支撑，而不是拍脑袋画像"
+    framework_lens: "分层是假设，需要验证"
+    follow_up_question: "你最近一次用什么数据验证了某个分层的存在？"
+updated_at: '2026-06-13'
 ---
 
 # 用户分层：分层理解用户差异
 
 > 需求工具箱第 2 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 用户群体异质性强，不同群体需求和行为差异明显 |
+| **适合** | 需要为不同群体设计差异化体验或运营策略 |
+| **不适合** | 用户高度同质化、功能单一的工具 |
+| **不适合** | 完全没有用户数据且无法接触用户的场景 |
+
+### 失败模式
+
+1. **分了很多群体，但每个群体的产品设计几乎一样**
+   - **原因**：分层维度没有影响设计
+   - **修复**：强制要求每个群体至少对应一个独特的设计决策或功能优先级
+
+2. **画像基于刻板印象，如‘90后喜欢炫酷’**
+   - **原因**：用人口统计替代行为洞察
+   - **修复**：用‘用户在什么任务中遇到什么障碍’替换年龄/性别描述
+
+3. **群体划分过细，团队无法聚焦**
+   - **原因**：过度细分导致行动力分散
+   - **修复**：合并差异小的群体，只保留对业务目标影响最大的 3-5 个分层
+
+4. **分层做完后没有优先级，资源平均分配**
+   - **原因**：缺少战略聚焦
+   - **修复**：用‘市场规模×需求强度×可服务性’给分层排序，明确主攻群体
 
 ## Summary
 

@@ -32,7 +32,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·落地卡片：酝酿式打磨"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
 tags:
@@ -50,11 +49,49 @@ pipeline:
   - #boundary/single-use-only
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "在重要方案上主动安排‘冷却期’，而不是连续冲刺"
+    framework_lens: "酝酿利用潜意识加工"
+    follow_up_question: "你最近一个方案在搁置一段时间后，再看时发现了什么问题？"
+  - signal: "每次 revisit 都对照明确的标准检查，而不是凭感觉改"
+    framework_lens: "打磨需要验收标准"
+    follow_up_question: "这个版本的改动解决了上一次评审中的哪个具体问题？"
+  - signal: "能区分‘真正需要打磨’和‘用打磨逃避决策’"
+    framework_lens: "打磨是手段不是目的"
+    follow_up_question: "如果明天必须上线，你现在做的打磨还重要吗？"
+updated_at: '2026-06-13'
 ---
 
 # 酝酿式打磨：科学式的灵感管理
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 复杂设计、策略方案或创意作品，需要多轮迭代 |
+| **适合** | 初期方案不满意、直觉上还有提升空间时 |
+| **不适合** | 紧急 bug 修复或安全事件——需要立即行动 |
+| **不适合** | 已经验证方向错误——应 pivot 而非继续打磨 |
+
+### 失败模式
+
+1. **无限打磨，永远没有‘够好’的时候**
+   - **原因**：完美主义
+   - **修复**：设定明确的完成标准和 deadline，达到即停止
+
+2. **冷却期后只是重复看，没有记录新发现**
+   - **原因**：酝酿流于形式
+   - **修复**：每次 revisit 必须产出至少一条具体修改意见或停止决策
+
+3. **在方向未验证前就开始精细打磨**
+   - **原因**：过早优化
+   - **修复**：先验证核心方向，再进入精细打磨阶段
+
+4. **用‘再想想’作为逃避决策的借口**
+   - **原因**：决策拖延
+   - **修复**：为每个酝酿阶段设定决策截止点，到期必须选择继续、停止或 pivot
 
 ## Summary
 

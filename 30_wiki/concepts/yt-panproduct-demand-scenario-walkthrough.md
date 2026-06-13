@@ -30,7 +30,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·用户卡片：场景推演"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
 tags:
@@ -45,11 +44,49 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "每个需求都用‘[细分用户] 在 [场景] 下遇到了 [真实问题]’句式表达"
+    framework_lens: "场景化是需求落地的基础"
+    follow_up_question: "去掉场景后，这个需求还成立吗？"
+  - signal: "覆盖了主路径、异常路径和边界场景，而不只是理想流程"
+    framework_lens: "真实世界充满噪声"
+    follow_up_question: "网络中断、用户分心、时间紧迫时，方案还能用吗？"
+  - signal: "场景被用来评估和迭代设计方案，而不是只在需求阶段出现"
+    framework_lens: "场景是贯穿设计全程的参照"
+    follow_up_question: "上一次方案评审中，是否有场景推动了设计改动？"
+updated_at: '2026-06-13'
 ---
 
 # 场景推演：细颗粒度推演
 
 > 需求工具箱第 3 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 面向用户、有明确时空情境的产品功能设计 |
+| **适合** | 团队对用户实际使用环境理解不足时 |
+| **不适合** | 纯后台逻辑或算法优化——场景对核心问题帮助有限 |
+| **不适合** | 用户行为高度不可预测、几乎没有稳定模式的产品 |
+
+### 失败模式
+
+1. **场景描述过于宽泛，如‘用户在App上买东西’**
+   - **原因**：颗粒度不足
+   - **修复**：强制补充：时间、地点、设备、伴随任务、情绪状态、干扰因素
+
+2. **只写 happy path，忽略异常和边界**
+   - **原因**：乐观偏差
+   - **修复**：每个主场景必须配至少一个异常场景和一个边界条件
+
+3. **场景很多，但没有优先级**
+   - **原因**：场景泛滥
+   - **修复**：用频率×影响矩阵排序，只深入高优先级场景
+
+4. **场景和需求混为一谈，场景描述里直接包含解决方案**
+   - **原因**：需求与方案未分离
+   - **修复**：场景句中禁止出现产品功能名词，只允许描述用户行为和问题
 
 ## Summary
 

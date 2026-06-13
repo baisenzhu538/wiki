@@ -31,7 +31,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·落地卡片：十倍速验证"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
 tags:
@@ -48,11 +47,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - #boundary/single-use-only
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "根据假设置信度和 stakes 选择最便宜的验证手段，而不是一上来就做 MVP"
+    framework_lens: "验证成本应与认知价值匹配"
+    follow_up_question: "这个假设用专家访谈或市场调查能否证伪？"
+  - signal: "每个验证实验都有明确的通过/不通过标准和下一步动作"
+    framework_lens: "验证是决策工具"
+    follow_up_question: "如果实验结果是否定的，你会放弃、调整还是换一种验证方式？"
+  - signal: "验证投入随信心螺旋上升，而不是一次性 all-in"
+    framework_lens: "贝叶斯式渐进投入"
+    follow_up_question: "在这个假设上，你已经花了多少钱？下一步投入的触发条件是什么？"
+updated_at: '2026-06-13'
 ---
 
 # 十倍速验证：训练用1块钱学到1000块钱的认知
 
 > 落地工具箱卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 高不确定性、需要快速学习的创新项目 |
+| **适合** | 资源有限、需要通过小实验降低大错误成本 |
+| **不适合** | 已经被充分验证、只需执行的成熟方案 |
+| **不适合** | 医疗、安全等受严格监管领域——简化验证可能带来不可接受风险 |
+
+### 失败模式
+
+1. **跳过常识和情报，直接做高成本 MVP**
+   - **原因**：验证层级选择不当
+   - **修复**：建立验证阶梯：常识→情报→实验→全量投入，每级都有升级标准
+
+2. **做实验只为‘看看数据’，没有假设和 kill 条件**
+   - **原因**：把验证当探索
+   - **修复**：实验前写下：‘如果结果X，则放弃/调整；如果结果Y，则升级投入’
+
+3. **一次验证失败后继续加大投入‘再试一次’**
+   - **原因**：沉没成本驱动
+   - **修复**：预先设定终止预算和终止条件，达到即强制复盘
+
+4. **为了‘十倍速’而只做廉价验证，始终不敢做真实实验**
+   - **原因**：验证层级停留过低
+   - **修复**：当情报无法降低关键不确定性时，必须升级到可控实验
 
 ## Summary
 

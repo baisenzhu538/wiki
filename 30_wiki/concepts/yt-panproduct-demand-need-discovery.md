@@ -29,7 +29,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·用户卡片：需求挖掘"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
 tags:
@@ -43,11 +42,49 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "每个用户需求背后都至少追问一次‘为什么’，并记录到第三层动机"
+    framework_lens: "5 Whys / 任务层级理论"
+    follow_up_question: "用户说的需求如果完全满足，是否能解决他真正想完成的任务？"
+  - signal: "需求描述中包含具体的用户、场景和期望结果，而不是抽象名词"
+    framework_lens: "需求必须可验证"
+    follow_up_question: "这个需求能否用一句‘谁在什么情况下想达成什么’讲清楚？"
+  - signal: "挖掘出的需求会通过观察或实验验证，而不是只依赖用户口述"
+    framework_lens: " stated need ≠ actual need"
+    follow_up_question: "用户嘴上说的和实际行为之间有没有不一致？"
+updated_at: '2026-06-13'
 ---
 
 # 需求挖掘：理解背后的深层原因
 
 > 需求工具箱基础卡牌。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 新产品或新功能的概念阶段，需要确定问题空间 |
+| **适合** | 用户对现状有明显痛点但解决方案不明确时 |
+| **不适合** | 需求已经非常明确、只需执行优化的成熟功能 |
+| **不适合** | 用户无法接触或无法表达真实行为的场景 |
+
+### 失败模式
+
+1. **直接把用户提出的功能请求当需求，立刻进入方案设计**
+   - **原因**：混淆解决方案与需求
+   - **修复**：对每个功能请求追问：‘用户想通过这个功能完成什么任务？’
+
+2. **用马斯洛需求理论套所有需求，解释过于宏大**
+   - **原因**：理论滥用，失去操作性
+   - **修复**：把马斯洛层级转化为具体行为指标：‘这个需求对应用户愿意付出什么行动？’
+
+3. **只挖掘了一个用户群体的需求，忽略了其他关键群体**
+   - **原因**：样本单一
+   - **修复**：明确至少3类用户画像，并对比他们的需求冲突
+
+4. **需求挖掘做得很深，但没有收敛到可设计的问题陈述**
+   - **原因**：缺乏问题框架
+   - **修复**：用‘[用户] 在 [场景] 下想要 [结果]，但受限于 [障碍]’格式输出最终需求陈述
 
 ## Summary
 

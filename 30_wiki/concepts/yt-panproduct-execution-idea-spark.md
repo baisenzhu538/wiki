@@ -32,7 +32,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·落地卡片：灵感闪现"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
 tags:
@@ -48,11 +47,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - #boundary/single-use-only
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "创意生成有明确流程和触发条件，而不是等灵感降临"
+    framework_lens: "灵感可工程化"
+    follow_up_question: "你最近一次系统生成创意是在什么情况下触发的？"
+  - signal: "创意数量足够多后，才进入筛选和收敛阶段"
+    framework_lens: "发散先于收敛"
+    follow_up_question: "在评价任何 idea 之前，你生成了多少个候选方案？"
+  - signal: "每个候选创意都能追溯到要解决的问题或要满足的需求"
+    framework_lens: "创意必须对准问题"
+    follow_up_question: "这个创意解决了哪个用户的哪个具体问题？"
+updated_at: '2026-06-13'
 ---
 
 # 灵感闪现：如何激发大量idea
 
 > 落地工具箱卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 需要大量备选方案的创新设计或策略问题 |
+| **适合** | 团队陷入单一思路、需要突破时 |
+| **不适合** | 已经有明确最优解的执行性任务 |
+| **不适合** | 时间压力极大、无法承担发散成本的场景 |
+
+### 失败模式
+
+1. **等待灵感降临，项目进度被拖延**
+   - **原因**：把创意神秘化
+   - **修复**：设定固定创意工作坊时间，用‘压-看-聚-拆-再’五字诀强制产出
+
+2. **刚生成几个 idea 就开始批评，导致创意流产**
+   - **原因**：过早收敛
+   - **修复**：明确区分发散和收敛阶段，发散阶段禁止评判
+
+3. **创意天马行空，但与要解决的问题无关**
+   - **原因**：问题框架缺失
+   - **修复**：在创意前写出‘我们试图解决什么问题’和‘好创意的标准’
+
+4. **团队陷入群体思维，创意趋同**
+   - **原因**：缺乏多样性刺激
+   - **修复**：引入跨领域案例、外部视角或匿名提交机制
 
 ## Summary
 

@@ -30,7 +30,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·用户卡片：用户视角"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
 tags:
@@ -46,11 +45,49 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "设计讨论中能用具体用户的话或行为来挑战假设，而不是只引用内部观点"
+    framework_lens: "用户视角是外部证据"
+    follow_up_question: "你这个判断如果让用户本人听，他会认同吗？"
+  - signal: "能区分‘用户想要’和‘用户需要’，并解释为什么有时不满足用户的直接要求"
+    framework_lens: "用户视角 ≠ 用户说什么要什么"
+    follow_up_question: "用户要求的功能如果做了，会不会损害他的长期目标？"
+  - signal: "团队中有人扮演‘用户代言人’角色，并在关键决策时发言"
+    framework_lens: "用户视角需要制度化"
+    follow_up_question: "最近一次方案评审中，有人专门从用户角度提出反对意见吗？"
+updated_at: '2026-06-13'
 ---
 
 # 用户视角：一秒转化用户视角
 
 > 需求工具箱第 1 张卡片（★建议第一张出牌）。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 面向终端用户的产品设计，尤其是 B2C 和 SaaS 用户端 |
+| **适合** | 团队内部对产品方向存在‘我觉得用户会喜欢’的争论时 |
+| **不适合** | 基础设施、纯算法或没有直接用户的产品 |
+| **不适合** | 法律、合规、安全等硬性约束优先于用户偏好的场景 |
+
+### 失败模式
+
+1. **产品经理说‘我就是用户’，用个人偏好替代用户研究**
+   - **原因**：自我投射偏差
+   - **修复**：强制引入至少3个真实用户访谈或行为数据点，才能推翻用户研究结论
+
+2. **用户视角只停留在 persona 海报，没有进入设计评审**
+   - **原因**：形式化
+   - **修复**：每次评审设‘用户代言人’角色，专门用用户目标/痛点/场景提问
+
+3. **完全听从用户要求，导致产品失去一致性**
+   - **原因**：把用户视角等同于用户指令
+   - **修复**：区分‘用户目标’和‘用户建议’，只采纳能实现目标且符合产品原则的建议
+
+4. **为了用户视角忽视商业可行性**
+   - **原因**：视角失衡
+   - **修复**：同时列出用户价值、商业成本、技术可行性三列，再做权衡
 
 ## Summary
 

@@ -32,7 +32,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·落地卡片：业务建模"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
 tags:
@@ -50,11 +49,49 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "能把业务拆解成可量化的公式和关键变量"
+    framework_lens: "业务模型 = 变量之间的关系"
+    follow_up_question: "公式中哪个变量变动10%会对结果影响最大？"
+  - signal: "模型同时包含收入端和成本端，而不是只看增长"
+    framework_lens: "单位经济模型需要双向审视"
+    follow_up_question: "如果收入翻倍，哪些成本会以相同或更高速度增长？"
+  - signal: "模型会被真实数据更新，而不是只做一次静态推演"
+    framework_lens: "业务模型是活的假设集合"
+    follow_up_question: "最近一个月，模型的哪个假设被数据证伪或证实了？"
+updated_at: '2026-06-13'
 ---
 
 # 业务建模：学习拆解业务公式
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 需要设计或评估商业模式、单元经济模型的项目 |
+| **适合** | 产品决策与财务结果直接挂钩的场景 |
+| **不适合** | 纯用户体验问题，与商业变量关系不大 |
+| **不适合** | 数据极度匮乏、无法估计任何变量的早期探索 |
+
+### 失败模式
+
+1. **模型变量过多，无法获取数据或解释关系**
+   - **原因**：复杂度超过可用信息
+   - **修复**：从最小公式开始（如 收入=流量×转化率×客单价），逐步添加变量
+
+2. **只关注收入变量，忽略获客成本、履约成本等**
+   - **原因**：单向乐观
+   - **修复**：强制列出与每个收入变量对应的成本变量，并计算单位经济模型
+
+3. **把模型当成预测工具，追求精确数字**
+   - **原因**：混淆模型与预言
+   - **修复**：用模型做敏感性分析和方向判断，而不是精确预测
+
+4. **模型 beautiful，但与实际运营动作脱节**
+   - **原因**：分析与执行脱节
+   - **修复**：每个变量必须对应一个可操作的杠杆和一个负责人
 
 ## Summary
 

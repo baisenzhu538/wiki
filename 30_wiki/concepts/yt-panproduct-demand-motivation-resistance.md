@@ -30,7 +30,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·用户卡片：动力阻力"
 type: "tool"
-updated_at: 2026-05-13
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
 tags:
@@ -46,11 +45,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "能同时写出用户转化的动力、阻力和触点，而不是只优化其中一项"
+    framework_lens: "转化率 = 动力 − 阻力 + 触点设计"
+    follow_up_question: "如果只提升动力而不减少阻力，转化率上限在哪里？"
+  - signal: "对同一用户旅程中的多个触点分别标注动力和阻力大小"
+    framework_lens: "转化是旅程中的连续博弈"
+    follow_up_question: "哪个触点的阻力最大？砍掉它是否比优化其他触点更有效？"
+  - signal: "干预方案上线后会分别测量动力、阻力、触点三者的变化"
+    framework_lens: "诊断性指标优于结果性指标"
+    follow_up_question: "转化率涨了，但你知道是动力提升还是阻力下降导致的吗？"
+updated_at: '2026-06-13'
 ---
 
 # 动力阻力：理解转化率的本质
 
 > 需求工具箱第 7 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 用户激活、注册转化、付费转化、 onboarding 等需要推动用户完成特定行为的场景 |
+| **适合** | 已有用户行为数据，能够识别流失/卡点位置 |
+| **不适合** | 品牌认知或情感偏好为主的营销阶段——动力和阻力概念模糊 |
+| **不适合** | 完全没有用户触点的内部系统 |
+
+### 失败模式
+
+1. **只增加优惠和激励，忽略注册/支付流程中的摩擦**
+   - **原因**：过度依赖动力端，未识别阻力端
+   - **修复**：先做漏斗分析，找出最大阻力触点，优先减阻再考虑加动力
+
+2. **把‘阻力’简单等同于产品 bug，忽视心理阻力（信任、学习成本）**
+   - **原因**：阻力分类不细
+   - **修复**：将阻力拆分为功能阻力、认知阻力、情感阻力、社会阻力四类分别处理
+
+3. **触点设计很炫，但动力本身不足**
+   - **原因**：触点优化掩盖了价值主张问题
+   - **修复**：用‘如果没有任何提醒/引导，用户还会转化吗？’测试真实动力
+
+4. **对所有用户用同一套动力−阻力假设**
+   - **原因**：忽视用户分群差异
+   - **修复**：按新用户/老用户/高价值用户拆分旅程，分别绘制动力阻力图
 
 ## Claims
 

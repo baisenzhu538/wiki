@@ -30,7 +30,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·用户卡片：惊喜公式"
 type: "tool"
-updated_at: 2026-05-11
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
 tags:
@@ -48,11 +47,49 @@ pipeline:
   - #boundary/requires-human-judgment
   - #boundary/single-use-only
   - confidence-source-cited
+diagnostic_signals:
+  - signal: "能明确写出用户对当前体验的预期基线"
+    framework_lens: "惊喜 = 交付 − 预期"
+    follow_up_question: "如果没有特别设计，用户原本预期会得到什么？"
+  - signal: "惊喜设计同时考虑‘提升交付’和‘管理预期’两条路径"
+    framework_lens: "惊喜有两种杠杆"
+    follow_up_question: "你是通过超预期交付，还是通过巧妙管理预期来创造惊喜？"
+  - signal: "惊喜方案有可衡量的情感或行为指标，而不是凭感觉"
+    framework_lens: " delight 必须被验证"
+    follow_up_question: "用户复购率、推荐率或满意度中，哪个指标能反映惊喜效果？"
+updated_at: '2026-06-13'
 ---
 
 # 惊喜公式：理解惊喜的本质
 
 > 需求工具箱第 8 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 希望建立品牌忠诚度和口碑的产品/服务 |
+| **适合** | 市场竞争激烈、需要通过差异化体验突围的场景 |
+| **不适合** | 用户只关注功能和价格的 commodity 产品 |
+| **不适合** | 受严格监管或安全合规约束的领域——惊喜可能引入不可控风险 |
+
+### 失败模式
+
+1. **把随机赠送当作惊喜，没有稳定的惊喜机制**
+   - **原因**：惊喜不可持续
+   - **修复**：把惊喜设计进关键旅程节点，并建立可复制的设计模式
+
+2. **过度承诺导致用户预期过高，交付后反而失望**
+   - **原因**：管理预期失败
+   - **修复**：营销/传播与产品交付同步设计，避免宣传透支用户预期
+
+3. **为惊喜投入大量成本，但用户并不在意**
+   - **原因**：惊喜与用户核心任务无关
+   - **修复**：惊喜必须绑定用户旅程中的高价值时刻，而非边缘体验
+
+4. **把新奇当惊喜，用户新鲜感消退后没有长期价值**
+   - **原因**：混淆 novelty 与 delight
+   - **修复**：评估惊喜是否建立在可持续的产品能力上，而不是一次性 gimmick
 
 ## Summary
 

@@ -30,7 +30,6 @@ source_refs:
 status: "enriched"
 title: "泛产品设计·用户卡片：峰终定律"
 type: "tool"
-updated_at: 2026-05-13
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
 tags:
@@ -48,11 +47,49 @@ pipeline:
   - #boundary/not-for-beginners
   - confidence-source-cited
   - confidence-verified-by-case
+diagnostic_signals:
+  - signal: "能画出用户旅程中的峰值点和结束点，并标注情绪强度"
+    framework_lens: "体验记忆由峰值和终点决定"
+    follow_up_question: "旅程中情绪最高的点和最后的点，哪个更可能被用户记住？"
+  - signal: "设计方案时主动管理用户预期，而不仅仅是提升交付"
+    framework_lens: "惊喜 = 交付 − 预期"
+    follow_up_question: "如果用户预期已经很高，你还能创造惊喜吗？"
+  - signal: "用户满意度调研包含‘记忆型’问题，而不只是平均打分"
+    framework_lens: "峰值终值影响推荐和复购"
+    follow_up_question: "用户向别人推荐时，最可能提到的三个瞬间是什么？"
+updated_at: '2026-06-13'
 ---
 
 # 峰终定律：用户体验的二八定律
 
 > 需求工具箱第 9 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
+
+## Constraints & Boundaries
+
+| 边界 | 说明 |
+|------|------|
+| **适合** | 服务流程、用户旅程、消费体验等具有情绪记忆的产品 |
+| **适合** | 希望通过口碑和复购获得增长的产品 |
+| **不适合** | 纯工具型、功能性极强的任务——用户只关心能否完成 |
+| **不适合** | 安全/医疗/金融等错误代价极高的场景——必须保证全程稳定，不能只在峰值和终点下功夫 |
+
+### 失败模式
+
+1. **把资源平均分配到每个触点，峰值平淡无奇**
+   - **原因**：忽视记忆的非线性特征
+   - **修复**：识别1-2个关键峰值点，集中资源打造难忘体验，其他触点保持基准线
+
+2. **结尾体验很差，用户带着负面情绪离开**
+   - **原因**：未把终点作为设计重点
+   - **修复**：为每个旅程设计一个正向结束动作：确认、总结、感谢或下一步价值预告
+
+3. **为制造峰值牺牲核心功能稳定性**
+   - **原因**：峰值设计越界
+   - **修复**：设定‘峰值不能损害基本可用性’的硬约束，先稳后惊喜
+
+4. **只提升交付质量，不管理用户预期**
+   - **原因**：把惊喜等同于投入
+   - **修复**：同步设计预期管理：哪些信息要提前告知，哪些可以保留为正向偏差
 
 ## Claims
 
