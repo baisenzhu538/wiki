@@ -1,0 +1,15 @@
+{
+  "name": "itingnao-kit",
+  "version": "1.0.0",
+  "description": "Kimi Code CLI 适配的听脑 API 工具包：批量拉取录音元数据、原文、纪要",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "list": "node src/list-records.js",
+    "detail": "node src/get-record-detail.js",
+    "batch": "node src/batch-fetch.js",
+    "test": "node src/test-connection.js"
+  },
+  "keywords": ["itingnao", "transcription", "kimi", "batch"],
+  "license": "MIT-0"
+}
