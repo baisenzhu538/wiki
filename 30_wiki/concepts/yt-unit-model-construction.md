@@ -74,6 +74,7 @@ diagnostic_signals:
     framework_lens: "业务分类 / 阶段适配"
     follow_up_question: "是否把 C/D 类复杂业务当成 A/B 类简单业务建模？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 单元模型构建法：拆推评算与ABCD模型分类

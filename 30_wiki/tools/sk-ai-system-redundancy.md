@@ -31,6 +31,8 @@ related:
 - self-organized-criticality
 - sk-ai-purpose-bias-check
 domain: [ai-collaboration]
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：系统冗余度快速检查清单

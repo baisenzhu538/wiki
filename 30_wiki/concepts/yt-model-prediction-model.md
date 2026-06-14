@@ -22,7 +22,7 @@ superseded_by:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/预判模型.png"
-status: "enriched"
+status: enriched
 title: "预判模型：从最糙版到复杂版的三种预判范式"
 type: "framework"
 version: 1
@@ -47,6 +47,7 @@ diagnostic_signals:
     framework_lens: "工具不足"
     follow_up_question: "这个决策失败的代价是什么？如果高，N要素不够"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 预判模型：从最糙版到复杂版的三种预判范式

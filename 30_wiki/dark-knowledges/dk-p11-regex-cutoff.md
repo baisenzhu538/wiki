@@ -3,7 +3,7 @@ id: "dk-p11-regex-cutoff"
 title: "P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -28,6 +28,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效

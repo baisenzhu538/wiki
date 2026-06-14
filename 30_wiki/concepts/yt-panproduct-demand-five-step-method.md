@@ -26,7 +26,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-一堂五步法.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·用户卡片：一堂五步法"
 type: "tool"
 version: 1
@@ -55,6 +55,7 @@ diagnostic_signals:
     framework_lens: "画布是决策工具，不是填写练习"
     follow_up_question: "填完画布后，团队是否据此取消或推迟了某个计划？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 一堂五步法：善于分析商业成败假设

@@ -5,7 +5,7 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_0af1f6dd"
-status: "enriched"
+status: enriched
 title: "Learning Thinking"
 type: "concept"
 updated_at: 2026-05-22
@@ -18,6 +18,8 @@ tags:
   - #scene/skill-engineering/publish-deploy
 pipeline:
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # Learning Thinking

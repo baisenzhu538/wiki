@@ -2,7 +2,7 @@
 id: "skill-1视角升级思考法"
 title: "技能：+1视角升级思考法"
 type: "skill"
-status: "draft"
+status: draft
 domain: []
 source_person: "一堂课程"
 source_context: "src_20260609_44a9e79a"
@@ -16,6 +16,8 @@ created_at: "2026-06-09T15:09:00+00:00"
 updated_at: "2026-06-09T15:09:00+00:00"
 pipeline:
   - #skill
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：+1视角升级思考法

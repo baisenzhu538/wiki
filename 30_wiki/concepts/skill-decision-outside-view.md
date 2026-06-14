@@ -33,6 +33,7 @@ tags:
 pipeline:
   - #skill-type/validation
 reviewed_by: "laowantong"
+author: legacy
 ---
 
 # 技能：团队决策外部视角法

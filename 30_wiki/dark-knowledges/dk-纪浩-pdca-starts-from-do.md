@@ -2,7 +2,7 @@
 id: "dk-纪浩-pdca-starts-from-do"
 title: "暗知识：PDCA从Do开始不是从Plan开始"
 type: "dk"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -21,6 +21,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 暗知识：PDCA从Do开始不是从Plan开始

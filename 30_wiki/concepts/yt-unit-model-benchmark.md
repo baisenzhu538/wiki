@@ -74,6 +74,7 @@ diagnostic_signals:
     framework_lens: "边界意识 / 类比有效性"
     follow_up_question: "是否把别人的基准直接套用到自己的业务？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 单元模型基准值：科学类比、三点预测与基准值共建

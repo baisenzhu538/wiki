@@ -25,9 +25,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "知识管理"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'personal', 'module': '知识管理', 'course_id': 405, 'course_type': 'method', 'level': 'core'}
@@ -59,6 +59,7 @@ diagnostic_signals:
     framework_lens: "知识的价值在于调取"
     follow_up_question: "过去30天，你主动调取过多少张旧卡？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 知识管理

@@ -29,7 +29,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-低成本测试MVP.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：低成本测试MVP"
 type: "tool"
 version: 1
@@ -60,6 +60,7 @@ diagnostic_signals:
     framework_lens: "实验必须有 kill 条件"
     follow_up_question: "多少用户采取什么行为，才算验证成功？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 低成本测试MVP：用实验思维10倍速验证假设

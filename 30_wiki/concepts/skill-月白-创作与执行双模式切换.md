@@ -2,7 +2,7 @@
 id: "skill-月白-创作与执行双模式切换"
 title: "技能：创作与执行双模式切换"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -27,6 +27,8 @@ tags:
 pipeline:
   - #boundary/not-for-creative
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：创作与执行双模式切换

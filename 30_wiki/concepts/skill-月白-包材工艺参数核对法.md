@@ -2,7 +2,7 @@
 id: "skill-月白-包材工艺参数核对法"
 title: "技能：包材工艺参数核对法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -24,6 +24,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：包材工艺参数核对法

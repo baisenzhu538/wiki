@@ -2,7 +2,7 @@
 id: "yt-research-weaponry-course"
 title: "一堂调研武器库课程"
 type: "concept"
-status: "reviewed"
+status: reviewed
 source_refs:
   - "src_20260506_bb9048a6"
   - "src_20260507_debc47be"
@@ -36,6 +36,7 @@ diagnostic_signals:
     framework_lens: "调研有合规红线"
     follow_up_question: "这个手段如果公开，是否会损害信任或触犯规则？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 一堂调研武器库课程

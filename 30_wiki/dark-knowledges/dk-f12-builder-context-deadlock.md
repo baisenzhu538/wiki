@@ -3,7 +3,7 @@ id: "dk-f12-builder-context-deadlock"
 title: "F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -30,6 +30,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出

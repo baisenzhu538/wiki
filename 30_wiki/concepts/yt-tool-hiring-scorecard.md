@@ -43,9 +43,9 @@ related:
   - "master-decision-hygiene"
 source_refs:
   - "30_wiki/concepts/yt-management-scientific-hiring.md"
-status: "draft"
+status: draft
 title: "结构化面试打分卡"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 updated_at: 2026-05-19
 version: 1
@@ -72,6 +72,8 @@ diagnostic_signals:
     framework_lens: "面试场景与真实工作场景脱节——打分卡测的是面试表现，不是工作表现"
     follow_up_question: "打分卡里的维度能不能对应到该岗位3个月后的真实产出？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # 结构化面试打分卡

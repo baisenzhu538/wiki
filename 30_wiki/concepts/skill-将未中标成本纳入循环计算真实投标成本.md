@@ -2,7 +2,7 @@
 id: "skill-将未中标成本纳入循环计算真实投标成本"
 title: "技能：将未中标成本纳入循环计算真实投标成本"
 type: "skill"
-status: "draft"
+status: draft
 domain: []
 source_person: "一堂课程（未具名讲师）"
 source_context: "src_20260609_99032bf9"
@@ -16,6 +16,8 @@ created_at: "2026-06-09T15:04:59+00:00"
 updated_at: "2026-06-09T15:04:59+00:00"
 pipeline:
   - #skill
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：将未中标成本纳入循环计算真实投标成本

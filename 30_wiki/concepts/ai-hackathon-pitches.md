@@ -19,6 +19,7 @@ source_refs:
 - src_20260614_6463da99
 - src_20260614_489554e9
 - src_20260614_ef4f24d7
+- src_20260614_8bd357d3
 tags:
 - "#ai-hackathon"
 - "#pitch"

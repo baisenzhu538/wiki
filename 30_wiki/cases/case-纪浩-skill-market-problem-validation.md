@@ -2,7 +2,7 @@
 id: "case-纪浩-skill-market-problem-validation"
 title: "案例：一堂Skill市场从伪需求到真实需求的四问验证"
 type: "case"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -32,6 +32,8 @@ tags:
 pipeline:
   - confidence-published
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 案例：一堂Skill市场从伪需求到真实需求的四问验证

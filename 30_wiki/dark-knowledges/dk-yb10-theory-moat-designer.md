@@ -3,7 +3,7 @@ id: "dk-yb10-theory-moat-designer"
 title: "AI时代设计师的理论护城河"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: "draft"
+status: draft
 domain:
   - "design"
   - "business-strategy"
@@ -25,6 +25,8 @@ pipeline:
   - #source_type/dark-knowledge
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # AI时代设计师的理论护城河

@@ -45,9 +45,9 @@ related:
   - "master-knowledge-compound"
 source_refs:
   - "30_wiki/concepts/yt-management-strategy-meeting.md"
-status: "draft"
+status: draft
 title: "战略研讨会引导手册"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'management', 'module': '管公司', 'course_type': 'tool', 'level': 'advanced'}
@@ -79,6 +79,8 @@ diagnostic_signals:
     framework_lens: "传达闭环 / 组织对齐"
     follow_up_question: "战略会成果是否只停留在参会者脑中？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # 战略研讨会引导手册

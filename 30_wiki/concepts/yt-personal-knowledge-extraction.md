@@ -64,6 +64,7 @@ diagnostic_signals:
     framework_lens: "萃取物需要进入知识网络"
     follow_up_question: "这个模型与你已有的哪个认知冲突或互补？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 一堂知识萃取探索营：从碎片经验到确定模型

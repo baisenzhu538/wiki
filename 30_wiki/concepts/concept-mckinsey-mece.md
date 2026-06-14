@@ -2,7 +2,7 @@
 id: "concept-mckinsey-mece"
 title: "MECE 原则：相互独立、完全究尽"
 type: "concept"
-status: "draft"
+status: draft
 domain:
   - "consulting"
   - "structured-thinking"
@@ -41,6 +41,8 @@ tags:
   - #evergreen
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # MECE 原则：相互独立、完全究尽

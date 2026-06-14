@@ -2,7 +2,7 @@
 id: "concept-mckinsey-7s"
 title: "7-S Framework：组织诊断的七维模型"
 type: "framework"
-status: "draft"
+status: draft
 domain:
   - "consulting"
   - "yitang"
@@ -47,6 +47,8 @@ tags:
   - "#method/checklist"
 created_at: "2026-06-11"
 updated_at: "2026-06-11"
+author: legacy
+reviewed_by: pending
 ---
 
 # 7-S Framework：组织诊断的七维模型

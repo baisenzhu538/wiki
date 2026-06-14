@@ -31,9 +31,9 @@ source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
   - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
-status: "enriched"
+status: enriched
 title: "清单体笔记（一堂笔记法）"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 2
 yitang: {'map': 'personal', 'module': '清单体笔记', 'course_id': 407, 'course_type': 'method', 'level': 'core'}
@@ -67,6 +67,7 @@ diagnostic_signals:
     framework_lens: "笔记服务于决策和行动"
     follow_up_question: "这篇笔记不写，你的哪个行动会受影响？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 清单体笔记（一堂笔记法）

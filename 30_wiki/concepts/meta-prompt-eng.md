@@ -5,7 +5,7 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_a89ab860"
-status: "draft"
+status: draft
 title: "Meta Prompt Eng"
 type: "concept"
 updated_at: 2026-05-21
@@ -16,6 +16,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # Meta Prompt Eng

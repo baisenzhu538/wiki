@@ -2,7 +2,7 @@
 id: "skill-半肥猫-用Skill做对比测试验证效果"
 title: "技能：用 Skill 做对比测试验证效果"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
 source_person: "半肥猫"
@@ -36,6 +36,7 @@ pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
   - confidence-verified-by-test
+author: legacy
 ---
 
 # 技能：用 Skill 做对比测试验证效果

@@ -22,7 +22,7 @@ related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-读书会-SPIN销售法口述.md"
-status: "enriched"
+status: enriched
 title: "SPIN销售法：顾问式销售的奠基之作"
 type: "tool"
 version: 1
@@ -46,6 +46,7 @@ diagnostic_signals:
     framework_lens: "方法错配"
     follow_up_question: "你的销售场景是大额复杂B2B，还是简单快速交易？后者不适合SPIN"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # SPIN销售法：顾问式销售的奠基之作

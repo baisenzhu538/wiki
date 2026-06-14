@@ -3,7 +3,7 @@
 id: "pilot-atomic-chunk-comparison"
 title: "Pilot：master-decision-hygiene 真原子切分对比"
 type: "comparison"
-status: "draft"
+status: draft
 created_at: 2026-05-31
 source_refs:
   - "30_wiki/concepts/master-decision-hygiene.md"
@@ -20,7 +20,10 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
 
-domain: []---
+domain: []
+author: legacy
+reviewed_by: pending
+---
 
 # Pilot：master-decision-hygiene 真原子切分对比
 

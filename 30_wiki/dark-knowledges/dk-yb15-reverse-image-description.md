@@ -3,7 +3,7 @@ id: "dk-yb15-reverse-image-description"
 title: "AI逆向反推图片描述法"
 type: "dark-knowledge"
 dark_knowledge_type: "tool_usage"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -23,6 +23,8 @@ pipeline:
   - #source_type/dark-knowledge
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # AI逆向反推图片描述法

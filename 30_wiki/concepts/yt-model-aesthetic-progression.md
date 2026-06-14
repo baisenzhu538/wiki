@@ -24,7 +24,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/审美提升的层级.png"
-status: "enriched"
+status: enriched
 title: "审美提升的层级：从看不见到大胆想象的进化路径"
 type: "framework"
 version: 1
@@ -51,6 +51,7 @@ diagnostic_signals:
     framework_lens: "跨层学习——审美提升有阶段顺序，跳过基础层会空中楼阁"
     follow_up_question: "你能说出你所在领域里3个被广泛认可的最佳实践吗？如果不能，先回到L1-L2"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 审美提升的层级：从看不见到大胆想象的进化路径

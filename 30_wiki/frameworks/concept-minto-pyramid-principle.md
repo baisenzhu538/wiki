@@ -2,7 +2,7 @@
 id: "concept-minto-pyramid-principle"
 title: "金字塔原理：结论先行的结构化沟通框架"
 type: "framework"
-status: "draft"
+status: draft
 domain:
   - "consulting"
   - "yitang"
@@ -47,6 +47,8 @@ tags:
   - "#method/structure"
 created_at: "2026-06-12"
 updated_at: "2026-06-12"
+author: legacy
+reviewed_by: pending
 ---
 
 # 金字塔原理：结论先行的结构化沟通框架

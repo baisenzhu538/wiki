@@ -3,8 +3,12 @@
 id: "skill-马易-AI能力团队复制"
 title: "技能：AI能力团队复制"
 type: "skill"
-status: "needs-review"
-domain: []---
+status: needs-review
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：AI能力团队复制
 

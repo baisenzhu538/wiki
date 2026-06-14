@@ -2,7 +2,7 @@
 id: "skill-月白-印刷DPI标准设置"
 title: "技能：印刷DPI标准设置"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -24,6 +24,8 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：印刷DPI标准设置

@@ -5,6 +5,9 @@ type: framework
 id: yt-decision-abcd-model
 status: enriched
 domain: [一堂·科学决策]
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 # 一堂·关键假设ABCD模型
 

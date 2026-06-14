@@ -2,7 +2,7 @@
 id: "yt-system-course-catalog"
 title: "一堂全课程目录索引"
 type: "concept"
-status: "enriched"
+status: enriched
 domain:
   - "yitang"
 yitang: {'map': 'system', 'module': '课程体系', 'course_type': 'reference', 'level': 'foundational'}
@@ -42,6 +42,8 @@ diagnostic_signals:
     framework_lens: "组织绩效 / Perkins 元素症"
     follow_up_question: "课程采购后，实际工作方式发生了什么改变？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # 一堂全课程目录索引

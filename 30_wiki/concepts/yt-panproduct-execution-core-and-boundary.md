@@ -29,7 +29,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-内核和边界.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：内核和边界"
 type: "tool"
 version: 1
@@ -61,6 +61,7 @@ diagnostic_signals:
     framework_lens: "内核提供决策优先级"
     follow_up_question: "过去一个月里，有哪次排期是依据内核做出的取舍？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 内核和边界：剥离中心思想和边界

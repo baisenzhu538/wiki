@@ -27,7 +27,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-场景推演.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·用户卡片：场景推演"
 type: "tool"
 version: 1
@@ -55,6 +55,7 @@ diagnostic_signals:
     framework_lens: "场景是贯穿设计全程的参照"
     follow_up_question: "上一次方案评审中，是否有场景推动了设计改动？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 场景推演：细颗粒度推演

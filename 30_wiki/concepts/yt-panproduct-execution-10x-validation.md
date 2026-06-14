@@ -28,7 +28,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-十倍速验证.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：十倍速验证"
 type: "tool"
 version: 1
@@ -58,6 +58,7 @@ diagnostic_signals:
     framework_lens: "贝叶斯式渐进投入"
     follow_up_question: "在这个假设上，你已经花了多少钱？下一步投入的触发条件是什么？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 十倍速验证：训练用1块钱学到1000块钱的认知

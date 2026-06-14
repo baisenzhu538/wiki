@@ -3,7 +3,7 @@ id: "dk-yb16-ecommerce-product-image-vs-lucky-draw"
 title: "AI电商产品图：抽卡图≠产品图，白底图才是交付标准"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -24,6 +24,8 @@ pipeline:
   - #source_type/dark-knowledge
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # AI电商产品图：抽卡图≠产品图，白底图才是交付标准

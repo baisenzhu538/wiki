@@ -29,6 +29,8 @@ tags:
   - #saas
   - #private-domain
   - #framework
+author: legacy
+reviewed_by: pending
 ---
 
 # 私域 SaaS 销售四步法

@@ -2,7 +2,7 @@
 id: "case-纪浩-ui-design-constraint-evolution"
 title: "案例：纪浩从'求你了'到1100行约束文档的UI设计迭代"
 type: "case"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -32,6 +32,8 @@ tags:
 pipeline:
   - confidence-published
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 案例：纪浩从"求你了"到1100行约束文档的UI设计迭代

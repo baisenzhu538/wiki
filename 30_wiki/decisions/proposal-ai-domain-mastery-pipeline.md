@@ -18,6 +18,9 @@ related:
   - three-party-data-alignment
 risk_level: high
 decision_needed: "是否启动此方向？若启动，第一阶段的范围是什么？"
+id: "proposal-ai-domain-mastery-pipeline"
+author: legacy
+reviewed_by: pending
 ---
 
 # 提案：AI 快速精通领域知识管线

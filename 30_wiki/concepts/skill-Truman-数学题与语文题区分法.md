@@ -3,8 +3,12 @@
 id: "skill-Truman-数学题与语文题区分法"
 title: "技能：数学题与语文题区分法"
 type: "skill"
-status: "draft"
-domain: []---
+status: draft
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：数学题与语文题区分法
 

@@ -10,6 +10,10 @@ related:
 - yt-unit-model-ladder
 
 domain: []
+id: "yt-tool-unit-model-construction"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 ## Reusable Knowledge
 

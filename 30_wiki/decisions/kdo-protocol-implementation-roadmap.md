@@ -21,7 +21,9 @@ trust_level: high
 reviewed_by: "Claude"
 review_date: "2026-05-03"
 
-domain: []---
+domain: []
+author: legacy
+---
 
 # KDO Protocol Implementation Roadmap
 

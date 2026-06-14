@@ -2,7 +2,7 @@
 id: "dk-foresight-tier-skip-illusion"
 title: "暗知：终局光谱图的'跳级幻觉'——为什么看到第7级就忽视了第3级的人，死得最快"
 type: "dk"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "business-strategy"
@@ -21,6 +21,8 @@ related:
   - "yt-entrepreneur-five-step-method"
   - "case-coffee-shop-foresight"
   - "case-escort-service-tiered-growth"
+author: legacy
+reviewed_by: pending
 ---
 
 # 暗知：终局光谱图的"跳级幻觉"

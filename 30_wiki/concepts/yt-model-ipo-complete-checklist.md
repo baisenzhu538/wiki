@@ -23,7 +23,7 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-科学学习IPO完整清单.jpg"
-status: "enriched"
+status: enriched
 title: "IPO 科学学习完整清单"
 type: "framework"
 version: 1
@@ -50,6 +50,7 @@ diagnostic_signals:
     framework_lens: "偏科学习——IPO闭环需要各环节均衡"
     follow_up_question: "你的选课清单中，输出类和反馈类课程占比多少？如果<30%，IPO失衡"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # IPO 科学学习完整清单 (Complete List)

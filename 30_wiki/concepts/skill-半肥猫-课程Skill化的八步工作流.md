@@ -2,7 +2,7 @@
 id: "skill-半肥猫-课程Skill化的八步工作流"
 title: "技能：课程Skill化的八步工作流"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -46,6 +46,7 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
 ---
 
 # 技能：课程Skill化的八步工作流

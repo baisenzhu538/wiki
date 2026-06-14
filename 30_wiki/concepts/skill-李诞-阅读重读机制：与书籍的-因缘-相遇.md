@@ -3,8 +3,12 @@
 id: "skill-李诞-阅读重读机制：与书籍的-因缘-相遇"
 title: "技能：阅读重读机制：与书籍的'因缘'相遇"
 type: "skill"
-status: "draft"
-domain: []---
+status: draft
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：阅读重读机制：与书籍的'因缘'相遇
 

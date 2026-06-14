@@ -30,6 +30,8 @@ related:
 - sk-ai-old-small-checklist
 - sk-ai-parallel-validation
 domain: [ai-collaboration]
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：AI落地五步执行清单

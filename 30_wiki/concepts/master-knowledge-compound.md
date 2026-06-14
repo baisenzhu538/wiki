@@ -23,7 +23,7 @@ related:
   - "master-first-principles"
 reviewed_by: ""
 source_refs: ""
-status: "enriched"
+status: enriched
 tags:
   - "#scene/knowledge-management"
   - "#scene/learning-methodology/feedback-loop"
@@ -35,6 +35,7 @@ updated_at: 2026-05-18
 version: 1
 tags:
   - #domain/general
+author: legacy
 ---
 
 # 知识复利：IPO+萃取+管理的上位整合

@@ -28,9 +28,9 @@ review_date: 2026-05-15
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/aima-ai-thinking-card-20260515.html"
-status: "enriched"
+status: enriched
 title: "AI思维卡：从「读书」到「安装认知补丁」"
-trust_level: "medium"
+trust_level: medium
 type: "method"
 version: 1
 tags:
@@ -60,6 +60,7 @@ diagnostic_signals:
     framework_lens: "孤立的补丁价值有限"
     follow_up_question: "这张卡与已有哪张卡冲突或互补？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # AI思维卡：从「读书」到「安装认知补丁」

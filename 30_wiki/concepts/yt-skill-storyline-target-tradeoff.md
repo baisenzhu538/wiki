@@ -16,6 +16,9 @@ diagnostic_signals:
     framework_lens: "杠杆识别 / 聚焦"
     follow_up_question: "平均分配权重是否回避了真正的优先级判断？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 # 清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架
 

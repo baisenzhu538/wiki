@@ -2,7 +2,7 @@
 id: "skill-月白-一抽流长提示词写作法"
 title: "技能：一抽流长提示词写作法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -27,6 +27,8 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/single-use-only
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：一抽流长提示词写作法

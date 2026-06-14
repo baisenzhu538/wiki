@@ -2,7 +2,7 @@
 id: "yt-prompt-writing-workflow"
 title: "AI写作工作流：大纲→要点→全文"
 type: "tool"
-status: "enriched"
+status: enriched
 domain:
   - "yitang"
   - "ai"
@@ -49,6 +49,8 @@ diagnostic_signals:
     framework_lens: "AI出骨架，人出灵魂"
     follow_up_question: "你在这篇文章中加入的独家信息占多少比例？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # AI 写作工作流：大纲→要点→全文

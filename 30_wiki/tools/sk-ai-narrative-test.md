@@ -30,6 +30,8 @@ related:
 - narrative-bias
 - sk-ai-purpose-bias-check
 domain: [ai-collaboration]
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：你的方案有叙事力吗？快速测试

@@ -3,7 +3,7 @@ id: "dk-yb24-ai-poster-de-ai-feeling"
 title: "AI海报去AI感：图标+质感人物双要素"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -24,6 +24,8 @@ pipeline:
   - #source_type/dark-knowledge
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # AI海报去AI感：图标+质感人物双要素

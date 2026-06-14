@@ -5,7 +5,7 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_622b8a41"
-status: "enriched"
+status: enriched
 title: "OCR: 泛产品设计-用户卡片-惊喜公式"
 type: "concept"
 updated_at: 2026-05-22
@@ -19,6 +19,8 @@ tags:
   - #scene/skill-engineering
 pipeline:
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 泛产品设计-用户卡片-惊喜公式

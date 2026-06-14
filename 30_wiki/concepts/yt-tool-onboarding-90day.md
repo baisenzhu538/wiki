@@ -16,6 +16,8 @@ diagnostic_signals:
     framework_lens: "信息时效 / 单点真相"
     follow_up_question: "是否有人仍在引用本 redirect 卡的旧内容做决策？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 > 本卡已迁移至 [[30_wiki/tools/yt-tool-onboarding-90day]]。

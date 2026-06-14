@@ -30,7 +30,7 @@ review_by: 2026-12-06
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修身-泛产品设计审美口述.md"
-status: "enriched"
+status: enriched
 superseded_by: ""
 title: "最佳实践学习四步法：从收集到超越"
 type: "tool"
@@ -65,6 +65,7 @@ diagnostic_signals:
     framework_lens: "用户中心 / 参考≠目标"
     follow_up_question: "是否把'不比竞品差'当成设计目标？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 ## Summary

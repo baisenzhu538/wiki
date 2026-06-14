@@ -6,9 +6,9 @@ domain:
 review_date: 2026-05-06
 reviewed_by: "黄药师"
 source_refs: ""
-status: "enriched"
+status: enriched
 title: "Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现"
-trust_level: "high"
+trust_level: high
 type: "concept"
 updated_at: 2026-05-06
 tags:
@@ -28,6 +28,7 @@ pipeline:
   - #boundary/single-use-only
   - #skill
   - confidence-verified-by-case
+author: legacy
 ---
 
 # Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现

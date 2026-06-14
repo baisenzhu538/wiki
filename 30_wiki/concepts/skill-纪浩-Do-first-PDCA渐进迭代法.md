@@ -2,7 +2,7 @@
 id: "skill-纪浩-Do-first-PDCA渐进迭代法"
 title: "技能：Do-first PDCA渐进迭代法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -27,6 +27,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：Do-first PDCA渐进迭代法

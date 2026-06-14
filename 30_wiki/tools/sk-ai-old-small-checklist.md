@@ -30,6 +30,8 @@ related:
 - sk-ai-landing-five-steps
 - ai-landing-scene-selection
 domain: [ai-collaboration]
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：“找老的干小的”场景评估清单

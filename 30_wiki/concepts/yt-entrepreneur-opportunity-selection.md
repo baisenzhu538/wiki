@@ -25,9 +25,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "机会选择"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '机会选择', 'course_id': 'yt-entrepreneur-opportunity-selection', 'course_type': 'method', 'level': 'core'}
@@ -49,6 +49,7 @@ diagnostic_signals:
     framework_lens: "评估维度单一"
     follow_up_question: "这个市场大，但你的能力匹配吗？现在进入时机对吗？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 机会选择

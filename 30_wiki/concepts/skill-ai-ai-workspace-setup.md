@@ -4,7 +4,11 @@ id: "skill-ai-ai-workspace-setup"
 title: "技能：结构化AI工作空间搭建"
 type: "skill"
 status: needs-review
-domain: []---
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：结构化AI工作空间搭建
 

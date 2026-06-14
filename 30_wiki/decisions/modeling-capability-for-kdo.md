@@ -2,7 +2,7 @@
 id: "modeling-capability-for-kdo"
 title: "KDO 内容路线决策：建模能力在知识库建设中的应用"
 type: "decision"
-status: "stable"
+status: stable
 confidence: 0.78
 domain:
   - "kdo"
@@ -32,6 +32,8 @@ tags:
 reviewed_by: "黄药师"
 review_date: "2026-06-14"
 promoted_from: "60_feedback/itingnao/kcards-v3/"
+author: legacy
+created_at: "2026-06-15"
 ---
 
 # 概念卡：建模能力在 kdo/wiki 知识库建设中的应用

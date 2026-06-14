@@ -3,7 +3,7 @@
 id: "skill-note-layer-constraint"
 title: "清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准"
 type: "tool"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "note-taking"
@@ -28,6 +28,9 @@ tags:
   - "#scene/note-taking/checklist-method"
   - "#scene/note-taking/live-field"
   - "#scene/skill-engineering/publish-deploy"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准

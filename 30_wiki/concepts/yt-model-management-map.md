@@ -24,7 +24,7 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-地图-管理地图.webp"
-status: "enriched"
+status: enriched
 title: "管理修炼地图"
 type: "framework"
 updated_at: 2026-05-08
@@ -52,6 +52,7 @@ diagnostic_signals:
     framework_lens: "阶段错配——管理地图的段位与组织规模不匹配"
     follow_up_question: "你的团队当前处于什么规模？10人团队和1000人团队需要的管理杠杆完全不同"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 一堂管理地图：高潜力管理者修炼全景图

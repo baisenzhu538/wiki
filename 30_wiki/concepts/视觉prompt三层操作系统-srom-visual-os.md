@@ -6,7 +6,7 @@ domain:
   - "design"
 source_refs:
   - "src_20260522_1ede9202"
-status: "enriched"
+status: enriched
 title: "视觉Prompt三层操作系统 (SROM Visual OS)"
 type: "concept"
 updated_at: 2026-06-12
@@ -16,6 +16,8 @@ tags:
   - #scene/skill-engineering
 pipeline:
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 视觉Prompt三层操作系统 (SROM Visual OS)

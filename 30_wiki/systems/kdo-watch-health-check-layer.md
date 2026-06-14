@@ -10,7 +10,9 @@ dependency: "已有 kdo watch（inbox 监听 + 自动 ingest → enrich → 重�
 id: kdo-watch-health-check-layer
 type: concept
 
-domain: []---
+domain: []
+reviewed_by: pending
+---
 
 # kdo watch 定时巡检层技术说明
 

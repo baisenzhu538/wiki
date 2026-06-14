@@ -2,7 +2,7 @@
 id: "skill-月白-AI抽卡效率控制法"
 title: "技能：AI抽卡效率控制法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -26,6 +26,8 @@ tags:
 pipeline:
   - #boundary/not-for-creative
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：AI抽卡效率控制法

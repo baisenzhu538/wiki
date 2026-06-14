@@ -2,7 +2,7 @@
 id: "skill-月白-卖点可视化海报设计法"
 title: "技能：卖点可视化海报设计法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -25,6 +25,8 @@ tags:
   - #scene/skill-engineering
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：卖点可视化海报设计法

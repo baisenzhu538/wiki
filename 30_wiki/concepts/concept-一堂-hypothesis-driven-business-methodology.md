@@ -3,7 +3,7 @@
 id: "concept-一堂-hypothesis-driven-business-methodology"
 title: "一堂假设驱动型创业分析方法论"
 type: "concept"
-status: "reviewed"
+status: reviewed
 reviewed_by: "周伯通"
 domain:
   - "yitang"
@@ -56,6 +56,7 @@ diagnostic_signals:
   - signal: "做了一年多业务，发现方向越走越偏"
     framework_lens: "假设驱动检查：是否定期做过假设回顾？是否有些原始假设已经变化但没有被发现？"
     follow_up_question: "你最初启动项目时最重要的 3 个假设，到现在为止，哪些被验证了，哪些被证伪了？"
+author: legacy
 ---
 
 # 一堂假设驱动型创业分析方法论

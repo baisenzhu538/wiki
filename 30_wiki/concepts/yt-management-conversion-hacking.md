@@ -2,7 +2,7 @@
 
 title: "转化率黑客"
 type: "concept"
-status: "enriched"
+status: enriched
 domain: []
 pipeline:
   - confidence-source-cited
@@ -14,6 +14,10 @@ diagnostic_signals:
     framework_lens: "抄袭论"
     follow_up_question: "这个方案在你的用户场景下验证过吗？竞品的用户和你的用户可能不一样"
 updated_at: '2026-06-13'
+id: "yt-management-conversion-hacking"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # 转化率黑客

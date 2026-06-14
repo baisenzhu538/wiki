@@ -24,9 +24,9 @@ reviewed_by: "老顷童（精修）"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-增长-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-增长-增长周期模型.png"
-status: "reviewed"
+status: reviewed
 title: "增长周期模型"
-trust_level: "medium"
+trust_level: medium
 type: "framework"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '五步法', 'course_id': 'yt-growth-cycle-model', 'course_type': 'framework', 'level': 'core'}
@@ -44,6 +44,7 @@ diagnostic_signals:
     framework_lens: "没有周期判断"
     follow_up_question: "你的业务现在最大风险是无法复制、现金流崩，还是越大越亏？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 增长周期模型

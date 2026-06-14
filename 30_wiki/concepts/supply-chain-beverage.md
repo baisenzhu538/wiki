@@ -12,6 +12,7 @@ source_refs:
 - src_20260614_d6ab6fb6
 - src_20260614_9b574611
 - 90_control/itingnao-kit/work/theme-supply-chain-beverage-summary.md
+- src_20260614_95352714
 tags:
 - "#beverage"
 - "#supply-chain"

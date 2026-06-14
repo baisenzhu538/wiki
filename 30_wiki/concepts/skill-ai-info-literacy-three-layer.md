@@ -33,6 +33,7 @@ tags:
 pipeline:
   - #skill-type/validation
 reviewed_by: "laowantong"
+author: legacy
 ---
 
 # 技能：AI输出三层防护检查法

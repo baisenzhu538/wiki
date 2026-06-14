@@ -4,7 +4,7 @@ title: "五步法衔接：什么时候从增长切换到壁垒建设"
 type: "concept"
 domain:
   - "yitang"
-status: "enriched"
+status: enriched
 confidence: 0.85
 difficulty: "intermediate"
 estimated_tokens: 2200
@@ -48,6 +48,7 @@ wiki_refs:
   - "30_wiki/concepts/yt-entrepreneur-barriers.md"
   - "30_wiki/concepts/case-five-step-growth-first-lever.md"
   - "30_wiki/concepts/case-five-step-fake-vs-real-barriers.md"
+author: legacy
 ---
 
 # 五步法衔接：什么时候从增长切换到壁垒建设

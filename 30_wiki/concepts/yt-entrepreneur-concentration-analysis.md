@@ -25,9 +25,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "集中度分析"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '集中度分析', 'course_id': 'yt-entrepreneur-concentration-analysis', 'course_type': 'method', 'level': 'core'}
@@ -48,6 +48,7 @@ diagnostic_signals:
     framework_lens: "过度简化"
     follow_up_question: "高集中度行业里有没有被忽视的细分市场或差异化角度？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 集中度分析

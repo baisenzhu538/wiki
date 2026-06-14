@@ -2,7 +2,7 @@
 
 title: "管理段位"
 type: "concept"
-status: "enriched"
+status: enriched
 domain: []
 pipeline:
   - confidence-source-cited
@@ -14,6 +14,10 @@ diagnostic_signals:
     framework_lens: "认知偏差"
     follow_up_question: "你的下属和同级认为你在哪个段位？如果和你自评差2段，你在高估自己"
 updated_at: '2026-06-13'
+id: "yt-management-leadership-levels"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # 管理段位

@@ -29,7 +29,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-设计原则.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：设计原则"
 type: "tool"
 version: 1
@@ -61,6 +61,7 @@ diagnostic_signals:
     framework_lens: "原则的价值在于裁决"
     follow_up_question: "最近一次设计争议中，是哪条原则打破了平局？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 设计原则：掌握基本的UI/UE审美原则

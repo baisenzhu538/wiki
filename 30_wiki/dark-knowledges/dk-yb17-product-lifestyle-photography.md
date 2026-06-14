@@ -3,7 +3,7 @@ id: "dk-yb17-product-lifestyle-photography"
 title: "产品场景化拍摄：从商品到生活方式的升维"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -25,6 +25,8 @@ pipeline:
   - #source_type/dark-knowledge
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 产品场景化拍摄：从商品到生活方式的升维

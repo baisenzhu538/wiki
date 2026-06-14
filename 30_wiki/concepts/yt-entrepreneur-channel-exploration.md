@@ -25,9 +25,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "渠道探索"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '渠道探索', 'course_id': 'yt-entrepreneur-channel-exploration', 'course_type': 'method', 'level': 'core'}
@@ -51,6 +51,7 @@ diagnostic_signals:
     framework_lens: "没有渠道验证机制"
     follow_up_question: "每个渠道的CAC、转化率、LTV/CAC你算过吗？如果不知道，渠道选择是盲目的"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 渠道探索

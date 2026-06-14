@@ -29,7 +29,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-业务建模.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：业务建模"
 type: "tool"
 version: 1
@@ -60,6 +60,7 @@ diagnostic_signals:
     framework_lens: "业务模型是活的假设集合"
     follow_up_question: "最近一个月，模型的哪个假设被数据证伪或证实了？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 业务建模：学习拆解业务公式

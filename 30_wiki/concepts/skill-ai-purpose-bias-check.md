@@ -3,8 +3,12 @@
 id: "skill-ai-purpose-bias-check"
 title: "技能：目的论偏差快速识别法"
 type: "skill"
-status: "draft"
-domain: []---
+status: draft
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：目的论偏差快速识别法
 

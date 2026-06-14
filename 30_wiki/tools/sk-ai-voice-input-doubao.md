@@ -32,6 +32,8 @@ related:
 - sk-ai-ai-workspace-setup
 - course-to-skill-conversion
 domain: [ai-collaboration]
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：口喷式语音输入法

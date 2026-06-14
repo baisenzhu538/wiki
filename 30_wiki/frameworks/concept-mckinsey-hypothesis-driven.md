@@ -2,7 +2,7 @@
 id: "concept-mckinsey-hypothesis-driven"
 title: "Hypothesis-Driven Approach：假设驱动工作法"
 type: "framework"
-status: "enriched"
+status: enriched
 domain:
   - "consulting"
   - "yitang"
@@ -43,6 +43,7 @@ version: 1
 created_at: "2026-06-11"
 updated_at: "2026-06-13"
 reviewed_by: "laowantong"
+author: legacy
 ---
 
 # Hypothesis-Driven Approach：假设驱动工作法

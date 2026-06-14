@@ -24,9 +24,9 @@ related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "融资认知"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '融资认知', 'course_id': 'yt-entrepreneur-fundraising', 'course_type': 'method', 'level': 'advanced'}
@@ -46,6 +46,7 @@ diagnostic_signals:
     framework_lens: "时机错配——融资加速验证过的东西"
     follow_up_question: "你的关键假设验证了多少？如果还不到50%，投资人不会为你的探索买单"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 融资认知

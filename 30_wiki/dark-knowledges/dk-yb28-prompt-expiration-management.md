@@ -3,7 +3,7 @@ id: "dk-yb28-prompt-expiration-management"
 title: "提示词有效期预期管理"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -25,6 +25,8 @@ pipeline:
   - #source_type/dark-knowledge
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 提示词有效期预期管理

@@ -2,7 +2,7 @@
 id: "skill-半肥猫-追问AI证据并标注信源"
 title: "技能：追问 AI 证据并标注信源"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
 source_person: "半肥猫"
@@ -40,6 +40,7 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
 ---
 
 # 技能：追问 AI 证据并标注信源

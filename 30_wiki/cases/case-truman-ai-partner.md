@@ -2,7 +2,7 @@
 id: "case-truman-ai-partner"
 title: "案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent"
 type: "case"
-status: "draft"
+status: draft
 domain:
   - "agent-infrastructure"
   - "yitang"
@@ -37,6 +37,8 @@ related:
   - "case-纪浩-skills-market"
   - "yt-note-ai-human-division"
   - "30_wiki/decisions/truman-ai-partner-design-analysis.md"
+author: legacy
+reviewed_by: pending
 ---
 
 # 案例：Truman AI Partner（阿蕊老师）

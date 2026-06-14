@@ -2,7 +2,7 @@
 
 title: "业务公式"
 type: "concept"
-status: "enriched"
+status: enriched
 domain:
   - yitang
   - master
@@ -28,6 +28,10 @@ diagnostic_signals:
     framework_lens: "静态公式"
     follow_up_question: "你的业务公式最近一次更新是什么时候？如果超过一个季度，公式可能已经过时"
 updated_at: '2026-06-14'
+id: "yt-management-business-formula"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # 业务公式

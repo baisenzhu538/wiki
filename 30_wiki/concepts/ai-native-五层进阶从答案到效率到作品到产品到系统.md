@@ -15,7 +15,7 @@ related:
   - "yt-panproduct-execution-core-and-boundary"
 source_refs:
   - "[“src_20260524_3cadf228”]"
-status: "“enriched”"
+status: “enriched”
 title: "“AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统”"
 type: "“framework”"
 updated_at: "“2026-05-24T00:00:00+00:00”"
@@ -29,6 +29,8 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统

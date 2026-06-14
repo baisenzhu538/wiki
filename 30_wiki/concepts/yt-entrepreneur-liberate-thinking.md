@@ -26,9 +26,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "解放思想"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '解放思想', 'course_id': 'yt-entrepreneur-liberate-thinking', 'course_type': 'method', 'level': 'foundational'}
@@ -49,6 +49,7 @@ diagnostic_signals:
     framework_lens: "没有解放"
     follow_up_question: '你所在行业有哪些"向来如此"的做法？它们背后的假设在今天还成立吗？'
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 解放思想

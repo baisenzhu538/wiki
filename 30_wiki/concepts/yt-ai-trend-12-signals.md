@@ -22,9 +22,9 @@ review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
   - "00_inbox/一堂-机会预判-AI趋势12大变化模型.png"
-status: "enriched"
+status: enriched
 title: "AI趋势12大变化模型"
-trust_level: "medium"
+trust_level: medium
 type: "framework"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '机会预判', 'course_id': 'yt-ai-trend-12-signals', 'course_type': 'framework', 'level': 'core'}
@@ -43,6 +43,7 @@ diagnostic_signals:
     framework_lens: "层级误判——趋势机会往往来自下层突破"
     follow_up_question: "你关注的需求变化，背后依赖的模型能力、算力成本、数据基础设施是否已经成熟？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # AI趋势12大变化模型

@@ -28,9 +28,9 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-假的壁垒.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-打造壁垒完整cheatsheet.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-规模经济分析武器库.png"
-status: "reviewed"
+status: reviewed
 title: "壁垒分析完整cheatsheet"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '壁垒', 'course_id': 'yt-barrier-analysis-cheat-sheet', 'course_type': 'tool', 'level': 'core'}
@@ -48,6 +48,7 @@ diagnostic_signals:
     framework_lens: "清单化——知道分类不等于能执行"
     follow_up_question: "你当前阶段最关键的一个壁垒是什么？为了建它需要投入什么资源？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 壁垒分析完整cheatsheet

@@ -2,7 +2,7 @@
 id: "dk-半肥猫-atomic-no-standard"
 title: "暗知识：原子化没有固定标准"
 type: "dark-knowledge"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -32,6 +32,8 @@ pipeline:
   - #type/dark-knowledge
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 暗知识：原子化没有固定标准

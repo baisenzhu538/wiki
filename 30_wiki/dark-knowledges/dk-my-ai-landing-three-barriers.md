@@ -2,12 +2,14 @@
 id: "dk-my-ai-landing-three-barriers"
 title: "AI落地三大壁垒：从“会用”到“用好”的黑洞"
 type: "dark-knowledge"
-status: "draft"
+status: draft
 domain:
   - "ai-saas"
 source_refs:
   - "00_inbox/AI俱乐部/马易-2026年-AI实操落地工具籍和案例分享（第六期AI共创社）.md"
 created_at: "2026-06-09"
+author: legacy
+reviewed_by: pending
 ---
 
 # AI落地三大壁垒

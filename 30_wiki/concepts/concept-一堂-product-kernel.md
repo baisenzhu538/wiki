@@ -3,7 +3,7 @@
 id: "concept-一堂-product-kernel"
 title: "产品内核：用户愿意选择你的最小解决方案"
 type: "concept"
-status: "reviewed"
+status: reviewed
 reviewed_by: "周伯通"
 domain:
   - "product"
@@ -31,6 +31,7 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
 ---
 
 # 产品内核：用户愿意选择你的最小解决方案

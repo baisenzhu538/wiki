@@ -23,7 +23,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
-status: "enriched"
+status: enriched
 title: "泛产品设计实操篇：需求分析与用户洞察"
 type: "concept"
 version: 1
@@ -55,6 +55,7 @@ diagnostic_signals:
     framework_lens: "分析必须产生决策输入"
     follow_up_question: "基于需求分析，你砍掉了哪些原计划的功能？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 泛产品设计实操篇：需求分析与用户洞察

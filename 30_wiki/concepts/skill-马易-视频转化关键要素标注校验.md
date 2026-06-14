@@ -3,8 +3,12 @@
 id: "skill-马易-视频转化关键要素标注校验"
 title: "技能：视频转化关键要素标注校验"
 type: "skill"
-status: "needs-review"
-domain: []---
+status: needs-review
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：视频转化关键要素标注校验
 

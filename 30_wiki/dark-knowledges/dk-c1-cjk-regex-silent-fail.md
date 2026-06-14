@@ -3,7 +3,7 @@ id: "dk-c1-cjk-regex-silent-fail"
 title: "C-1：enrich 中文内容不能用 CLI regex→0 pages enriched 静默失败"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "Builder"
@@ -28,6 +28,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # C-1：enrich 中文内容不能用 CLI regex→0 pages enriched 静默失败

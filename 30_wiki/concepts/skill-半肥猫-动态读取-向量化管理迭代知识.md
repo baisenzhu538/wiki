@@ -2,7 +2,7 @@
 id: "skill-半肥猫-动态读取-向量化管理迭代知识"
 title: "技能：动态读取 + 向量化管理迭代知识"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
 source_person: "半肥猫"
@@ -34,6 +34,7 @@ updated_at: "2026-06-07"
 tags:
   - #scene/skill-engineering
   - #domain/AI
+author: legacy
 ---
 
 # 技能：动态读取 + 向量化管理迭代知识

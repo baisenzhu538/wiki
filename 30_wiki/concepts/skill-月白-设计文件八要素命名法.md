@@ -2,7 +2,7 @@
 id: "skill-月白-设计文件八要素命名法"
 title: "技能：设计文件八要素命名法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -26,6 +26,8 @@ tags:
 pipeline:
   - #boundary/single-use-only
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：设计文件八要素命名法

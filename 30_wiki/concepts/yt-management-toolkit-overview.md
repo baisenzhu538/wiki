@@ -46,9 +46,9 @@ related:
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "30_wiki/concepts/yt-model-management-map.md"
-status: "enriched"
+status: enriched
 title: "管理工具箱总览"
-trust_level: "medium"
+trust_level: medium
 type: "framework"
 version: 1
 yitang: {'map': 'management', 'module': '方法论总纲', 'course_type': 'framework', 'level': 'foundational'}
@@ -74,6 +74,8 @@ diagnostic_signals:
     framework_lens: "工具选择困难"
     follow_up_question: "你能用一个标签描述当前的管理问题吗？如果不能，无法匹配工具"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # 管理工具箱总览

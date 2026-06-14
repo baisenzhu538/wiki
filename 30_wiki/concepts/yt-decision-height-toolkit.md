@@ -34,9 +34,9 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-稀缺资源清单.png"
   - "00_inbox/科学决策/一堂-科学决策-稀缺机会窗口.png"
   - "00_inbox/科学决策/一堂-科学决策-高水平共识曲线（重要）.png"
-status: "enriched"
+status: enriched
 title: "高度分析工具：上帝视角四维提升法 + 高水平共识曲线"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 updated_at: 2026-05-17
 version: 1
@@ -69,6 +69,7 @@ diagnostic_signals:
     framework_lens: "加一思考的信息天花板——工具假设信息透明，但组织中信息天然分层"
     follow_up_question: "员工能做加一思考所需的关键信息，目前能获取多少？如果<50%，工具只能退回到'个人/项目视角'使用"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 高度分析工具：上帝视角四维提升法 + 高水平共识曲线

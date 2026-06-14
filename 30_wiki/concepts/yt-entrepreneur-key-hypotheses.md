@@ -64,6 +64,7 @@ diagnostic_signals:
     framework_lens: "两类假设失衡"
     follow_up_question: "你的验证计划中，价值假设和增长假设各占多少比例？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 关键假设259工具与假设验证三板斧

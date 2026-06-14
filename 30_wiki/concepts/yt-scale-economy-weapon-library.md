@@ -21,9 +21,9 @@ review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-规模经济分析武器库.png"
-status: "enriched"
+status: enriched
 title: "规模经济分析武器库"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '壁垒', 'course_id': 'yt-scale-economy-weapon-library', 'course_type': 'tool', 'level': 'core'}
@@ -44,6 +44,7 @@ diagnostic_signals:
     framework_lens: "规模效应需要参照"
     follow_up_question: "与行业龙头相比，你的单位成本曲线差距在哪里？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 规模经济分析武器库

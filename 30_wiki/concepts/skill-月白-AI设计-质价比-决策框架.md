@@ -2,7 +2,7 @@
 id: "skill-月白-AI设计-质价比-决策框架"
 title: "技能：AI设计'质价比'决策框架"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -28,6 +28,8 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：AI设计'质价比'决策框架

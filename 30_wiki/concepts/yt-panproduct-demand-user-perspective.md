@@ -27,7 +27,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-用户视角.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·用户卡片：用户视角"
 type: "tool"
 version: 1
@@ -56,6 +56,7 @@ diagnostic_signals:
     framework_lens: "用户视角需要制度化"
     follow_up_question: "最近一次方案评审中，有人专门从用户角度提出反对意见吗？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 用户视角：一秒转化用户视角

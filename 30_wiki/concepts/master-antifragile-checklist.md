@@ -23,7 +23,7 @@ related:
   - "yt-panproduct-execution-risk-management"
 reviewed_by: ""
 source_refs: ""
-status: "enriched"
+status: enriched
 title: "反脆弱决策检查清单"
 type: "tool"
 updated_at: 2026-05-18
@@ -35,6 +35,7 @@ tags:
   - #scene/skill-engineering/manifest-design
 pipeline:
   - #boundary/requires-human-judgment
+author: legacy
 ---
 
 # 反脆弱决策检查清单

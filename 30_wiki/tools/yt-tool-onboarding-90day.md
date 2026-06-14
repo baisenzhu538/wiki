@@ -3,7 +3,7 @@
 id: "yt-tool-onboarding-90day"
 title: "新人 90 天融入加速器"
 type: "tool"
-status: "enriched"
+status: enriched
 domain:
   - "yitang"
 language: "zh-CN"
@@ -40,7 +40,7 @@ tags:
   - "#team"
   - "#tool"
   - "#yitang"
-trust_level: "medium"
+trust_level: medium
 yitang: {'map': 'management', 'module': '团队管理', 'course_id': 'yt-tool-onboarding-90day', 'course_type': 'tool', 'level': 'core'}
 source_refs:
   - "30_wiki/concepts/yt-management-team-knowledge.md"
@@ -48,6 +48,7 @@ created_at: "2026-05-20"
 updated_at: "2026-05-20"
 estimated_tokens: 3200
 reviewed_by: ""
+author: legacy
 ---
 
 # 新人 90 天融入加速器

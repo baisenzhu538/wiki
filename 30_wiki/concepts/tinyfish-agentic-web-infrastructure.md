@@ -6,9 +6,9 @@ domain:
 review_date: 2026-05-06
 reviewed_by: "黄药师"
 source_refs: ""
-status: "enriched"
+status: enriched
 title: "TinyFish — Agentic Web 基础设施建设层 Skill"
-trust_level: "high"
+trust_level: high
 type: "concept"
 updated_at: 2026-05-06
 tags:
@@ -23,6 +23,7 @@ tags:
 pipeline:
   - #skill
   - #tool
+author: legacy
 ---
 
 # TinyFish — Agentic Web 基础设施建设层 Skill

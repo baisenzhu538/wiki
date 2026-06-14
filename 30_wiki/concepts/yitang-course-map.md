@@ -4,7 +4,7 @@ type: "concept"
 subtype: "hub"
 domain:
   - "yitang"
-status: "stable"
+status: stable
 created_at: "2026-05-06"
 updated_at: "2026-05-06"
 id: "yitang-course-map"
@@ -17,6 +17,8 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - #boundary/single-use-only
+author: legacy
+reviewed_by: pending
 ---
 
 # 一堂课程大地图

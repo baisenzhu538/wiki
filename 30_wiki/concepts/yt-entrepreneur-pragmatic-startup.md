@@ -25,9 +25,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "务实创业"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '务实创业', 'course_id': 'yt-entrepreneur-pragmatic-startup', 'course_type': 'method', 'level': 'advanced'}
@@ -49,6 +49,7 @@ diagnostic_signals:
     framework_lens: "务实≠不行动"
     follow_up_question: "你最近一次基于数据做决策并快速验证是什么时候？如果很久没有，务实变成了不作为"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 务实创业

@@ -3,7 +3,7 @@
 id: "yt-tool-equity-checklist"
 title: "股权设计检查清单"
 type: "tool"
-status: "enriched"
+status: enriched
 domain:
   - "yitang"
 language: "zh-CN"
@@ -42,7 +42,7 @@ tags:
   - "#startup"
   - "#tool"
   - "#yitang"
-trust_level: "medium"
+trust_level: medium
 yitang: {'map': 'management', 'module': '管公司', 'course_id': 'yt-tool-equity-checklist', 'course_type': 'tool', 'level': 'advanced'}
 source_refs:
   - "30_wiki/concepts/yt-management-business-formula.md"
@@ -50,6 +50,7 @@ created_at: "2026-05-20"
 updated_at: "2026-05-20"
 estimated_tokens: 3400
 reviewed_by: ""
+author: legacy
 ---
 
 # 股权设计检查清单

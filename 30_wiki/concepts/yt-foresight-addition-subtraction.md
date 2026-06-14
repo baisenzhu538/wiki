@@ -4,7 +4,7 @@ title: "加法减法实操：从100个选项到3个高概率方向"
 type: "concept"
 domain:
   - "yitang"
-status: "enriched"
+status: enriched
 confidence: 0.9
 difficulty: "intermediate"
 estimated_tokens: 2800
@@ -42,6 +42,7 @@ diagnostic_signals:
     framework_lens: "减法太粗糙"
     follow_up_question: "你的减法是分了几层进行的？如果只有一层，会漏掉潜在好选项"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 加法减法实操：从100个选项到3个高概率方向

@@ -14,6 +14,8 @@ related:
   - plan_20260531_data-curator-v1.3
   - tag-registry
   - data-curator-role-division
+author: legacy
+reviewed_by: pending
 ---
 
 # 标签方案 + 暗知识全量范围

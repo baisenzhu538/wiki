@@ -30,9 +30,9 @@ source_refs:
   - "00_inbox/一堂-产品内核实操课-truman-口述.txt"
   - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
   - "00_inbox/ocr_ingest/src_ocr_一堂五步法_产品内核画布.md"
-status: "enriched"
+status: enriched
 title: "产品内核画布与九大原则"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '产品内核', 'course_id': 'yt-tool-product-core-canvas', 'course_type': 'tool', 'level': 'foundational'}
@@ -63,6 +63,7 @@ diagnostic_signals:
     framework_lens: "落地闭环 / 五步法"
     follow_up_question: "画布讨论后是否停留在可视化而不进入验证？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 产品内核画布与九大原则

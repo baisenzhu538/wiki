@@ -3,7 +3,7 @@
 id: "concept-一堂-kernel-iteration"
 title: "产品内核迭代：从静态到动态的五方向演化"
 type: "concept"
-status: "reviewed"
+status: reviewed
 reviewed_by: "周伯通"
 domain:
   - "product"
@@ -27,6 +27,7 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
 ---
 
 # 产品内核迭代：从静态到动态的五方向演化

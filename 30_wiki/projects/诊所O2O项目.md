@@ -18,6 +18,8 @@ tags:
   - "#o2o"
   - "#clinic"
   - "#delivery"
+author: legacy
+reviewed_by: pending
 ---
 
 # 诊所O2O项目

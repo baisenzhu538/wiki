@@ -2,7 +2,7 @@
 id: "skill-月白-AI自动生成多语种专业名词提示词"
 title: "技能：AI自动生成多语种专业名词提示词"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -24,6 +24,8 @@ tags:
   - #scene/learning-methodology/feedback-loop
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：AI自动生成多语种专业名词提示词

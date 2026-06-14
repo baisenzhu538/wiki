@@ -3,7 +3,7 @@ id: "dk-c5-todo-false-positive"
 title: "C-5：TODO 字符串匹配过宽→正文中的 TODOs/TODOable 被误报为占位符"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "Builder"
@@ -24,6 +24,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # C-5：TODO 字符串匹配过宽→正文中的 TODOs/TODOable 被误报为占位符

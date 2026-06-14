@@ -26,9 +26,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "AI 能力（双模型）"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'personal', 'module': 'AI 能力（双模型）', 'course_id': 'yt-personal-ai-capability', 'course_type': 'method', 'level': 'advanced'}
@@ -56,6 +56,7 @@ diagnostic_signals:
     framework_lens: "AI 是副驾驶，不是机长"
     follow_up_question: "这个结论如果错了，代价是什么？你能承担吗？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # AI 能力（双模型）

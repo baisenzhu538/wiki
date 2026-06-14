@@ -26,7 +26,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-需求挖掘.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·用户卡片：需求挖掘"
 type: "tool"
 version: 1
@@ -53,6 +53,7 @@ diagnostic_signals:
     framework_lens: " stated need ≠ actual need"
     follow_up_question: "用户嘴上说的和实际行为之间有没有不一致？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 需求挖掘：理解背后的深层原因

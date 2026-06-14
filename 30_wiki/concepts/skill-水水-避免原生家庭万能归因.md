@@ -3,8 +3,12 @@
 id: "skill-水水-避免原生家庭万能归因"
 title: "技能：避免原生家庭万能归因"
 type: "skill"
-status: "needs-review"
-domain: []---
+status: needs-review
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：避免原生家庭万能归因
 

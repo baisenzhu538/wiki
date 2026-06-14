@@ -2,7 +2,7 @@
 id: "skill-使用一页纸速查卡快速调用框架"
 title: "技能：使用一页纸速查卡快速调用框架"
 type: "skill"
-status: "enriched"
+status: enriched
 domain: ["knowledge-management"]
 source_person: "课程设计者"
 source_context: "src_20260609_1c8b4d0e"
@@ -29,6 +29,7 @@ tags:
   - #scene/learning-methodology
 pipeline:
   - confidence-source-cited
+author: legacy
 ---
 
 # 技能：使用一页纸速查卡快速调用框架

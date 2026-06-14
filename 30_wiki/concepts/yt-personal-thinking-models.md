@@ -23,7 +23,7 @@ related: []
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修身-思维模型口述版.md"
-status: "enriched"
+status: enriched
 title: "思维模型：从碎片经验到稳定模型"
 type: "tool"
 version: 1
@@ -55,6 +55,7 @@ diagnostic_signals:
     framework_lens: "可传播才有价值"
     follow_up_question: "别人用这个模型做判断时，是否需要你补充很多背景？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 思维模型：从碎片经验到稳定模型

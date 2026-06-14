@@ -5,7 +5,7 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_77b6cdaf"
-status: "enriched"
+status: enriched
 title: "OCR: 一堂提炼过的因果模型"
 type: "concept"
 updated_at: 2026-05-22
@@ -22,6 +22,8 @@ tags:
 pipeline:
   - #boundary/not-for-creative
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 一堂提炼过的因果模型

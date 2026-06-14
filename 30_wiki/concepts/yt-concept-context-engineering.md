@@ -2,7 +2,7 @@
 id: "yt-concept-context-engineering"
 title: "上下文工程：充分≠越多越好"
 type: "concept"
-status: "enriched"
+status: enriched
 domain:
   - "yitang"
   - "ai"
@@ -49,6 +49,8 @@ diagnostic_signals:
     framework_lens: "上下文不足——没有独特约束就没有独特答案"
     follow_up_question: "这个问题涉及的 业务阶段/目标用户/当前约束/不可接受方案 是什么？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # 上下文工程：充分≠越多越好

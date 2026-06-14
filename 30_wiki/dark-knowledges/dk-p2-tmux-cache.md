@@ -3,7 +3,7 @@ id: "dk-p2-tmux-cache"
 title: "P-2：tmux session 缓存旧配置"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -27,6 +27,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # P-2：tmux session 缓存旧配置

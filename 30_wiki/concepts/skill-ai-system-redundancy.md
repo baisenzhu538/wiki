@@ -3,8 +3,12 @@
 id: "skill-ai-system-redundancy"
 title: "技能：系统冗余度快速检查清单"
 type: "skill"
-status: "draft"
-domain: []---
+status: draft
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：系统冗余度快速检查清单
 

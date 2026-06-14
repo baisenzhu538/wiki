@@ -25,7 +25,7 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂进步大地图.png"
-status: "enriched"
+status: enriched
 title: "无限进步大地图"
 type: "framework"
 updated_at: 2026-05-08
@@ -50,6 +50,7 @@ diagnostic_signals:
     framework_lens: "阶段焦虑——把终局视角当成当前要求"
     follow_up_question: "你进入这个体系多久了？如果<6个月，你的任务不是无限修炼，而是先跑通个人修炼的一个小闭环"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 一堂无限进步大地图·十年收藏版

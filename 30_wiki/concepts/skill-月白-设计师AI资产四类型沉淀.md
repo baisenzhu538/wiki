@@ -2,7 +2,7 @@
 id: "skill-月白-设计师AI资产四类型沉淀"
 title: "技能：设计师AI资产四类型沉淀"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -28,6 +28,8 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：设计师AI资产四类型沉淀

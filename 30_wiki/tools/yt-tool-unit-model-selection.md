@@ -15,6 +15,10 @@ diagnostic_signals:
   - signal: "用户说'我选了单SKU作为核心单元，但算完后发现和实际差很远'"
     framework_lens: "选错了单元——可能业务的最大风险驱动因素不在SKU层面，而在订单层面（退换货率）或用户层面（留存率）"
     follow_up_question: "回头看，当时选择单元的标准是什么？是按什么选的——最容易算的？还是最可能出问题的？"
+id: "yt-tool-unit-model-selection"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 ## Reusable Knowledge
 

@@ -4,7 +4,7 @@ title: "案例：五步法中从产品内核到增长的第一次跨越"
 type: "case"
 domain:
   - "yitang"
-status: "enriched"
+status: enriched
 confidence: 0.85
 difficulty: "intermediate"
 estimated_tokens: 2800
@@ -50,6 +50,7 @@ wiki_refs:
   - "30_wiki/concepts/yt-entrepreneur-five-step-method.md"
   - "30_wiki/concepts/yt-product-kernel-cultivation.md"
   - "30_wiki/concepts/yt-unit-model-three-tools.md"
+author: legacy
 ---
 
 # 案例：五步法中从产品内核到增长的第一次跨越

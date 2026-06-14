@@ -14,6 +14,8 @@ related:
   - data-curator-role-division
   - plan_20260531_data-curator-v1.3
   - dark-knowledge-card-sop
+author: legacy
+reviewed_by: pending
 ---
 
 # 暗知识萃取器 B+→A 升级报告

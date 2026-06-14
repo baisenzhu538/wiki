@@ -3,7 +3,7 @@
 id: "yt-tool-project-health-radar"
 title: "项目健康度雷达"
 type: "tool"
-status: "enriched"
+status: enriched
 domain:
   - "yitang"
 language: "zh-CN"
@@ -45,7 +45,7 @@ tags:
   - "#scene/skill-engineering/manifest-design"
   - "#tool"
   - "#yitang"
-trust_level: "medium"
+trust_level: medium
 yitang: {'map': 'management', 'module': '项目管理', 'course_id': 'yt-tool-project-health-radar', 'course_type': 'tool', 'level': 'core'}
 source_refs:
   - "30_wiki/concepts/yt-management-project-management.md"
@@ -53,6 +53,7 @@ created_at: "2026-05-20"
 updated_at: "2026-05-20"
 estimated_tokens: 3500
 reviewed_by: ""
+author: legacy
 ---
 
 # 项目健康度雷达

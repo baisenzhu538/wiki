@@ -21,7 +21,7 @@ related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-创业-调研行动营口述01.md"
-status: "enriched"
+status: enriched
 title: "调研行动营：从调研认知到AI调研武器库"
 type: "tool"
 version: 1
@@ -51,6 +51,7 @@ diagnostic_signals:
     framework_lens: "三轮学习失衡"
     follow_up_question: "你能解释为什么要用这个AI工具吗？如果只是为了效率，调研认知没提升"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 调研行动营：从调研认知到AI调研武器库

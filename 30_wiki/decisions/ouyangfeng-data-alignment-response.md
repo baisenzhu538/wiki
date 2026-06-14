@@ -17,6 +17,8 @@ supersedes: []
 related:
   - three-party-data-alignment
   - plan_20260531_data-curator-v1.3
+author: legacy
+reviewed_by: pending
 ---
 
 # 欧阳锋对齐回应：6+1 框架理解 + 补充意见

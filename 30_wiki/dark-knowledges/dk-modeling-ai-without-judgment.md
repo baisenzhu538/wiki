@@ -3,7 +3,7 @@ id: "dk-modeling-ai-without-judgment"
 title: "AI 能生成'看着很厉害'的模型，但如果你没有逻辑洁癖，它只会加速你跑偏"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "ai-saas"
@@ -26,9 +26,10 @@ tags:
   - "#domain/ai-saas"
   - "#method/ai-collaboration"
   - "#method/logical-rigor"
-trust_level: "high"
+trust_level: high
 reviewed_by: "老顽童"
 review_date: "2026-06-14"
+author: legacy
 ---
 
 # AI 能生成“看着很厉害”的模型，但如果你没有逻辑洁癖，它只会加速你跑偏

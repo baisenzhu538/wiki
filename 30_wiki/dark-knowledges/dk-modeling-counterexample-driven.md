@@ -3,7 +3,7 @@ id: "dk-modeling-counterexample-driven"
 title: "建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "master"
@@ -25,9 +25,10 @@ tags:
   - "#domain/yitang"
   - "#method/model-validation"
   - "#method/critical-thinking"
-trust_level: "high"
+trust_level: high
 reviewed_by: "老顽童"
 review_date: "2026-06-14"
+author: legacy
 ---
 
 # 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止

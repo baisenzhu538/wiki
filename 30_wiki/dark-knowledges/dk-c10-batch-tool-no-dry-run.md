@@ -3,7 +3,7 @@ id: "dk-c10-batch-tool-no-dry-run"
 title: "C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "欧阳锋"
@@ -25,6 +25,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空

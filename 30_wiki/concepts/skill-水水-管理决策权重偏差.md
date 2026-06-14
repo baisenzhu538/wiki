@@ -2,7 +2,7 @@
 id: "skill-水水-管理决策权重偏差"
 title: "技能：管理决策权重偏差"
 type: "skill"
-status: "enriched"
+status: enriched
 domain: ["decision-making"]
 source_person: "水水"
 source_context: "拆书会-偶然"
@@ -31,6 +31,7 @@ tags:
   - #scene/investment
 pipeline:
   - confidence-source-cited
+author: legacy
 ---
 
 # 技能：管理决策权重偏差

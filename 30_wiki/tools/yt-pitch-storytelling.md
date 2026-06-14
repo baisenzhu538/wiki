@@ -44,6 +44,7 @@ created_at: '2026-05-13'
 updated_at: '2026-05-28'
 estimated_tokens: 2500
 reviewed_by: ''
+author: legacy
 ---
 # 讲香·故事化
 

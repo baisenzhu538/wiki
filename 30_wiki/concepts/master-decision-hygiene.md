@@ -25,7 +25,7 @@ related:
 reviewed_by: ""
 source_refs:
   - {"来源": "Daniel Kahneman, Olivier Sibony, Cass Sunstein"}
-status: "enriched"
+status: enriched
 title: "决策卫生五步法"
 type: "framework"
 updated_at: 2026-05-18
@@ -40,6 +40,7 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
 ---
 
 # 决策卫生五步法

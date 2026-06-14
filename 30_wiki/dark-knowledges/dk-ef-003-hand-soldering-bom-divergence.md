@@ -25,7 +25,10 @@ pipeline:
   - #source_type/dark-knowledge
   - confidence-source-cited
 
-domain: []---
+domain: []
+author: legacy
+reviewed_by: pending
+---
 
 # 手焊板的隐性修改：原型调通了但量产就是不行
 

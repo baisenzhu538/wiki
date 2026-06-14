@@ -2,7 +2,7 @@
 id: "skill-月白-普通人AI快速上手法"
 title: "技能：普通人AI快速上手法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -28,6 +28,8 @@ pipeline:
   - #boundary/not-for-beginners
   - #boundary/not-for-creative
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：普通人AI快速上手法

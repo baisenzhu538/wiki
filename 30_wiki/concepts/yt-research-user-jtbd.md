@@ -2,7 +2,7 @@
 id: "yt-research-user-jtbd"
 title: '用户JTBD访谈工具：区分"说的"和"真正要的"'
 type: "tool"
-status: "draft"
+status: draft
 domain:
   - "yitang"
 language: "zh-CN"
@@ -40,6 +40,8 @@ diagnostic_signals:
   - signal: "访谈后能写出清晰的 Jobs Statement"
     framework_lens: "JTBD的输出是任务陈述"
     follow_up_question: "你能用‘当我想要____，以便____’描述用户任务吗？"
+author: legacy
+reviewed_by: pending
 ---
 # 用户JTBD访谈工具：区分"说的"和"真正要的"
 

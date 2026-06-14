@@ -25,9 +25,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "业务增长"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '业务增长', 'course_id': 'yt-entrepreneur-business-growth', 'course_type': 'method', 'level': 'core'}
@@ -48,6 +48,7 @@ diagnostic_signals:
     framework_lens: "增长理解狭隘"
     follow_up_question: "除了买量，你的增长飞轮、裂变机制、渠道矩阵在哪里？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 业务增长

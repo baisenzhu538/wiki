@@ -3,7 +3,7 @@ id: "dk-c8-format-complete-mind-empty"
 title: "C-8：批处理格式升级产生格式完整但思维空洞的卡片"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "欧阳锋"
@@ -27,6 +27,8 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # C-8：批处理格式升级产生格式完整但思维空洞的卡片

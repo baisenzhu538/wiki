@@ -22,9 +22,9 @@ reviewed_by: "老顽童"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-笔记.txt"
-status: "reviewed"
+status: reviewed
 title: "单元模型：商业模式评估的核心工具"
-trust_level: "medium"
+trust_level: medium
 type: "framework"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '单元模型', 'course_id': 'yt-unit-model-concept', 'course_type': 'framework', 'level': 'core'}
@@ -49,6 +49,7 @@ diagnostic_signals:
     framework_lens: "阶段顺序 / 反脆弱"
     follow_up_question: "是否在单元模型未跑通前就开始扩张？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 单元模型：商业模式评估的核心工具

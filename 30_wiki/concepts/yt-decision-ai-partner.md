@@ -28,9 +28,9 @@ reviewed_by: "周伯通"
 source_refs:
   - "00_inbox/科学决策/一堂-科学决策-AI协助决策行动营口述06.txt"
   - "00_inbox/科学决策/一堂-科学决策-人机协作决策.png"
-status: "enriched"
+status: enriched
 title: "AI决策Partner对话法"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 updated_at: 2026-06-13
 version: 1
@@ -64,6 +64,7 @@ diagnostic_signals:
     framework_lens: "全面感幻觉——AI的结构化框架可能只是看起来不错"
     follow_up_question: "AI列出的维度里，有没有你根本不知道它怎么得出的？如果有，先验证这个维度再往下走"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # AI决策Partner对话法

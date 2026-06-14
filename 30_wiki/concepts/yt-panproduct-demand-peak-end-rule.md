@@ -27,7 +27,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-峰终定律.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·用户卡片：峰终定律"
 type: "tool"
 version: 1
@@ -58,6 +58,7 @@ diagnostic_signals:
     framework_lens: "峰值终值影响推荐和复购"
     follow_up_question: "用户向别人推荐时，最可能提到的三个瞬间是什么？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 峰终定律：用户体验的二八定律

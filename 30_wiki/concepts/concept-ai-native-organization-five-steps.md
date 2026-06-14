@@ -29,7 +29,7 @@ related:
 reviewed_by: ""
 source_refs:
   - "00_inbox/AI时代自进化组织形式.md"
-status: "draft"
+status: draft
 tags:
   - #ai-native
   - #organization
@@ -39,6 +39,7 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
 ---
 
 # AI原生组织五步搭建法：从罗马军团到自进化有机体

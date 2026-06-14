@@ -2,7 +2,7 @@
 id: "concept-mckinsey-mece"
 title: "MECE 原则：相互独立、完全穷尽"
 type: "framework"
-status: "enriched"
+status: enriched
 domain:
   - "consulting"
   - "yitang"
@@ -35,6 +35,7 @@ version: 1
 created_at: "2026-06-11"
 updated_at: "2026-06-11"
 reviewed_by: "laowantong"
+author: legacy
 ---
 
 # MECE 原则：相互独立、完全穷尽

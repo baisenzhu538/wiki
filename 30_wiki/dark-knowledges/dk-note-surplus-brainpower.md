@@ -3,7 +3,7 @@ id: "dk-note-surplus-brainpower"
 title: "“剩余脑力”：高阶笔记的唯一货币与分水岭"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "note-taking"
@@ -33,6 +33,8 @@ pipeline:
   - #source_type/insight
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # “剩余脑力”：高阶笔记的唯一货币与分水岭

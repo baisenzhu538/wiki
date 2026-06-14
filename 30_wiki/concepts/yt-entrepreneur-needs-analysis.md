@@ -27,9 +27,9 @@ reviewed_by: "黄药师"
 source_refs:
   - "src_20260507_0872c7b3"
   - "src_20260507_3120ec58"
-status: "enriched"
+status: enriched
 title: "需求分析"
-trust_level: "high"
+trust_level: high
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '需求分析', 'course_id': 'yt-entrepreneur-needs-analysis', 'course_type': 'method', 'level': 'foundational'}
@@ -57,6 +57,7 @@ diagnostic_signals:
     framework_lens: "样本偏差"
     follow_up_question: "这个反馈来自几个用户？他们代表多大的用户群体？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 需求分析

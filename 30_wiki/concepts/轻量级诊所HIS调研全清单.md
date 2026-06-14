@@ -5,7 +5,7 @@ domain:
   - "healthcare"
 source_refs:
   - "src_20260503_5c91e867"
-status: "enriched"
+status: enriched
 title: "轻量级诊所HIS调研全清单"
 type: "concept"
 updated_at: 2026-05-03
@@ -16,6 +16,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # 轻量级诊所HIS调研全清单

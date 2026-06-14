@@ -29,7 +29,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-酝酿式打磨.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：酝酿式打磨"
 type: "tool"
 version: 1
@@ -60,6 +60,7 @@ diagnostic_signals:
     framework_lens: "打磨是手段不是目的"
     follow_up_question: "如果明天必须上线，你现在做的打磨还重要吗？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 酝酿式打磨：科学式的灵感管理

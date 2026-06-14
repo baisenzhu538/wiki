@@ -24,7 +24,7 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
-status: "enriched"
+status: enriched
 title: "讲香·比喻化"
 type: "tool"
 version: 1
@@ -51,6 +51,7 @@ diagnostic_signals:
     framework_lens: "比喻有适用范围"
     follow_up_question: "这个比喻在哪个方面会失效？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 讲香·比喻化

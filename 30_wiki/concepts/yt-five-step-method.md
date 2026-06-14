@@ -23,9 +23,9 @@ reviewed_by: "洪七公"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-序言-笔记.txt"
-status: "reviewed"
+status: reviewed
 title: "一堂五步法总纲"
-trust_level: "medium"
+trust_level: medium
 type: "framework"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '五步法', 'course_id': 'yt-five-step-method', 'course_type': 'framework', 'level': 'core'}
@@ -44,6 +44,7 @@ diagnostic_signals:
     framework_lens: "僵化套用"
     follow_up_question: "你这个行业的特殊性是什么？五步法的哪一步需要特别调整？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 一堂五步法总纲

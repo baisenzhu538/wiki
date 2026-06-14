@@ -21,9 +21,9 @@ reviewed_by: "老顽童"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-笔记.txt"
-status: "reviewed"
+status: reviewed
 title: "案例：扭蛋机/抓娃娃机的单元模型段位进阶"
-trust_level: "medium"
+trust_level: medium
 type: "case"
 updated_at: "2026-06-11"
 version: 1
@@ -35,6 +35,7 @@ tags:
   - #yitang
 pipeline:
   - confidence-source-cited
+author: legacy
 ---
 
 # 案例：扭蛋机/抓娃娃机的单元模型段位进阶

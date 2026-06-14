@@ -29,9 +29,9 @@ review_date: 2026-05-15
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/aima-ai-thinking-card-20260515.html"
-status: "enriched"
+status: enriched
 title: "智能体架构：PEAS与五层Agent模型"
-trust_level: "medium"
+trust_level: medium
 type: "framework"
 version: 1
 tags:
@@ -57,6 +57,7 @@ diagnostic_signals:
     framework_lens: "过度工程化——智能体层级应与任务复杂度匹配"
     follow_up_question: "这个任务真的需要学习和规划吗？如果只是简单响应，用反射型agent就够了"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 智能体架构：PEAS与五层Agent模型

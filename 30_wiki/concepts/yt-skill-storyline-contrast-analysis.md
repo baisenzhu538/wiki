@@ -16,6 +16,9 @@ diagnostic_signals:
     framework_lens: "可审计性 / 组织政治"
     follow_up_question: "对比是否被用作 justify 已有决策的修辞武器？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 # 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度
 

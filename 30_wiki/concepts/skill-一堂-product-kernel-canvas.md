@@ -2,7 +2,7 @@
 id: "skill-一堂-product-kernel-canvas"
 title: "一堂产品内核画布应用技能"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "product-strategy"
@@ -35,6 +35,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 一堂产品内核画布应用技能

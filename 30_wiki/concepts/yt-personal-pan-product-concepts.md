@@ -26,7 +26,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-泛产品设计概念口述版.md"
-status: "enriched"
+status: enriched
 title: "泛产品设计认知篇：重新理解泛化产品能力"
 type: "concept"
 version: 1
@@ -54,6 +54,7 @@ diagnostic_signals:
     framework_lens: "泛化不是取消专业化"
     follow_up_question: "这个领域有哪些独特约束会让通用工具失效？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 泛产品设计认知篇：重新理解泛化产品能力

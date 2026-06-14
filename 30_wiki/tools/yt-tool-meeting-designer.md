@@ -3,7 +3,7 @@
 id: "yt-tool-meeting-designer"
 title: "会议设计师：一页纸会议蓝图"
 type: "tool"
-status: "enriched"
+status: enriched
 domain:
   - "yitang"
 language: "zh-CN"
@@ -39,7 +39,7 @@ tags:
   - "#scene/learning-methodology/mental-models"
   - "#tool"
   - "#yitang"
-trust_level: "medium"
+trust_level: medium
 yitang: {'map': 'management', 'module': '科学开会', 'course_id': 'yt-tool-meeting-designer', 'course_type': 'tool', 'level': 'core'}
 source_refs:
   - "30_wiki/concepts/yt-management-scientific-meetings.md"
@@ -54,6 +54,7 @@ diagnostic_signals:
   - signal: "CEO用会议设计师开了三次会后说'形式感太重了，我们团队不需要这个'"
     framework_lens: "设计了但没人执行——工具适配度问题。蓝图对5人以下快速对齐型团队的认知负担大于收益。当工具带来的'可控感'没超过'仪式感的不适'时，团队会暗中抵制"
     follow_up_question: "团队现在开会最大的痛点是什么——是太散漫？还是太冗长？还是产出不清？只保留解决那个痛点的最小工具，其余全删"
+author: legacy
 ---
 
 # 会议设计师：一页纸会议蓝图

@@ -2,7 +2,7 @@
 
 id: "voice-input-doubao"
 type: "tool"
-status: "draft"
+status: draft
 source_refs:
   - "src_20260606_90b44191"
 component_of:
@@ -28,7 +28,10 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
 
-domain: []---
+domain: []
+author: legacy
+created_at: "2026-06-15"
+---
 
 # 豆包输入法：语音输入的最低成本实践
 

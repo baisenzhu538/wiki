@@ -3,7 +3,7 @@
 id: "yt-tool-strategy-workshop"
 title: "战略研讨会引导手册"
 type: "tool"
-status: "enriched"
+status: enriched
 domain:
   - "yitang"
 language: "zh-CN"
@@ -43,7 +43,7 @@ tags:
   - "#scene/skill-engineering/publish-deploy"
   - "#tool"
   - "#yitang"
-trust_level: "medium"
+trust_level: medium
 yitang: {'map': 'management', 'module': '战略会', 'course_id': 'yt-tool-strategy-workshop', 'course_type': 'tool', 'level': 'advanced'}
 source_refs:
   - "30_wiki/concepts/yt-management-strategy-meeting.md"
@@ -51,6 +51,7 @@ created_at: "2026-05-19"
 updated_at: "2026-05-19"
 estimated_tokens: 3300
 reviewed_by: "周伯通"
+author: legacy
 ---
 
 # 战略研讨会引导手册

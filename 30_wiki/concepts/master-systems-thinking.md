@@ -30,7 +30,7 @@ related:
 reviewed_by: ""
 source_refs:
   - {"来源": "Jay Forrester, Donella Meadows, Peter Senge"}
-status: "enriched"
+status: enriched
 title: "系统思考：反馈循环与杠杆点"
 type: "concept"
 updated_at: 2026-05-18
@@ -44,6 +44,7 @@ tags:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
 ---
 
 # 系统思考：反馈循环与杠杆点

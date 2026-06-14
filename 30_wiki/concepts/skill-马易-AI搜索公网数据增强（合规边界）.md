@@ -3,8 +3,12 @@
 id: "skill-马易-AI搜索公网数据增强（合规边界）"
 title: "技能：AI搜索公网数据增强（合规边界）"
 type: "skill"
-status: "needs-review"
-domain: []---
+status: needs-review
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：AI搜索公网数据增强（合规边界）
 

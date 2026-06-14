@@ -15,6 +15,9 @@ related:
   - judge-three-questions-prompt
   - label-prompt-v10-final
   - plan_20260531_data-curator-v1.3
+id: "proposal-prompt-injection-infrastructure"
+author: legacy
+reviewed_by: pending
 ---
 
 # 提案：提示词自动注入体系

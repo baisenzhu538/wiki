@@ -22,9 +22,9 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt"
-status: "reviewed"
+status: reviewed
 title: "暗知识：五步法的段位盲区与自评陷阱"
-trust_level: "medium"
+trust_level: medium
 type: "dk"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '落地实操', 'course_id': 'yt-five-step-level-blindspots', 'course_type': 'dk', 'level': 'core'}
@@ -43,6 +43,7 @@ diagnostic_signals:
     framework_lens: "目标模糊"
     follow_up_question: '你最近看过一个让你感到"原来还能这样想"的五步法案例吗？如果没有，你的目标不清晰'
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 暗知识：五步法的段位盲区与自评陷阱

@@ -5,7 +5,7 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_7e8d10c4"
-status: "enriched"
+status: enriched
 title: "OCR: 一堂泛产品设计36计-全套地图"
 type: "concept"
 updated_at: 2026-05-22
@@ -22,6 +22,8 @@ pipeline:
   - #boundary/not-for-beginners
   - #boundary/requires-human-judgment
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 一堂泛产品设计36计-全套地图

@@ -29,7 +29,7 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-需求工具箱指南.png"
   - "10_raw/sources/一堂-个人修炼-泛产品设计概念口述版.md"
-status: "enriched"
+status: enriched
 superseded_by: ""
 title: "泛产品设计·需求工具箱（13张卡牌）"
 type: "framework"
@@ -54,6 +54,7 @@ diagnostic_signals:
     framework_lens: "基础不牢"
     follow_up_question: "你做过多少个小产品的需求分析？如果<5个，先练初阶卡牌"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 ## Constraints & Boundaries

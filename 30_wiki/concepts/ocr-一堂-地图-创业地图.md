@@ -5,7 +5,7 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_c1935261"
-status: "enriched"
+status: enriched
 title: "OCR: 一堂-地图-创业地图"
 type: "concept"
 updated_at: 2026-05-22
@@ -20,6 +20,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - #boundary/single-use-only
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 一堂-地图-创业地图

@@ -2,7 +2,7 @@
 id: "skill-一堂-kernel-three-questions"
 title: "技能：内核要素三问验证法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "product"
   - "yitang"
@@ -35,6 +35,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：内核要素三问验证法

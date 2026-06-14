@@ -2,7 +2,7 @@
 id: "skill-马易-AIGC项目ROI评估"
 title: "技能：AIGC项目ROI评估"
 type: "skill"
-status: "needs-review"
+status: needs-review
 domain:
 - business-strategy
 - ai-collaboration
@@ -28,6 +28,8 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：AIGC项目ROI评估

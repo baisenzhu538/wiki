@@ -5,7 +5,7 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_c2c6b487"
-status: "enriched"
+status: enriched
 title: "OCR: 泛产品设计-落地卡片-解放思想"
 type: "concept"
 updated_at: 2026-05-22
@@ -17,6 +17,8 @@ pipeline:
   - #boundary/not-for-creative
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 泛产品设计-落地卡片-解放思想

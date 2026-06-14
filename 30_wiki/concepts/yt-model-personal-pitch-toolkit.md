@@ -31,7 +31,7 @@ source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香基本功-十指模型修炼地图.png"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
-status: "enriched"
+status: enriched
 title: "十指讲香模型（框架）"
 type: "framework"
 version: 1
@@ -55,6 +55,7 @@ diagnostic_signals:
     framework_lens: "十指不均衡"
     follow_up_question: "你的表达中具象细节和抽象升华各占多少？如果一边倒，十指没打开"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 十指讲香模型（框架）

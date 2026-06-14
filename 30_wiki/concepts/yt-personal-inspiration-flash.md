@@ -25,9 +25,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "灵感闪现（认知篇）"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'personal', 'module': '灵感闪现（认知篇）', 'course_id': 518, 'course_type': 'method', 'level': 'advanced'}
@@ -52,6 +52,7 @@ diagnostic_signals:
     framework_lens: "灵感的价值在于解决问题"
     follow_up_question: "这个灵感能解决你当前哪个具体问题？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 灵感闪现（认知篇）

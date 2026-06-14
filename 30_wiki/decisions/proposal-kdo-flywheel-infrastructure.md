@@ -15,6 +15,8 @@ related:
   - sprint-6-four-death-sentences
   - kdo-industrialization-manual
   - proposal-deep-synthesis-infrastructure
+id: "proposal-kdo-flywheel-infrastructure"
+reviewed_by: pending
 ---
 
 # 飞轮基础设施提案

@@ -27,9 +27,9 @@ reviewed_by: ""
 source_refs:
   - "00_inbox/一堂-商业预判课-Truman-口述.txt"
   - "00_inbox/一堂-商业预判课-truman-笔记.txt"
-status: "enriched"
+status: enriched
 title: "P型与L型创业者"
-trust_level: "medium"
+trust_level: medium
 type: "concept"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '商业预判', 'course_id': 'yt-concept-p-type-l-type', 'course_type': 'concept', 'level': 'foundational'}
@@ -54,6 +54,7 @@ diagnostic_signals:
     framework_lens: "分析瘫痪——逻辑驱动也需要行动"
     follow_up_question: "你的分析是否已经覆盖了80%的关键不确定性？如果是，剩下的20%需要在行动中验证"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # P型与L型创业者

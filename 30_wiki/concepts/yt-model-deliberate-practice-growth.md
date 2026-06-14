@@ -20,7 +20,7 @@ related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂刻意练习十年成长指数.png"
-status: "enriched"
+status: enriched
 title: "刻意练习十年成长指数：为什么有人一年顶十年"
 type: "framework"
 version: 1
@@ -47,6 +47,7 @@ diagnostic_signals:
     framework_lens: "套路囤积——固定套路需要配合非舒适区才能转化为成长"
     follow_up_question: '你最近一次练习时感到"有点难但还能完成"是什么时候？如果超过两周，说明没进非舒适区'
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 刻意练习十年成长指数：为什么有人一年顶十年

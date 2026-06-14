@@ -5,7 +5,7 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_1e654244"
-status: "enriched"
+status: enriched
 title: "OCR: 一堂-案例拆解-课程清单"
 type: "concept"
 updated_at: 2026-05-22
@@ -23,6 +23,8 @@ pipeline:
   - #boundary/not-for-medical
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 一堂-案例拆解-课程清单

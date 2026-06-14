@@ -2,7 +2,7 @@
 id: "skill-纪浩-problem-validation-four-checks"
 title: "技能：四问验证法 —— 判断需求是真实Problem还是伪需求"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -34,6 +34,8 @@ tags:
 pipeline:
   - confidence-published
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：四问验证法

@@ -16,6 +16,8 @@ related:
   - labeling-final-consolidation
   - kdo-15-dimension-label-spec
   - label-prompt-v10-final
+id: "label-accuracy-standard-alignment"
+reviewed_by: pending
 ---
 
 # 标注准确率标准对齐

@@ -2,7 +2,7 @@
 id: "skill-问题驱动式深度思考笔记"
 title: "问题驱动式深度思考笔记：用真问题取代真记录"
 type: "concept"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "personal-growth"
@@ -37,6 +37,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 问题驱动式深度思考笔记：用真问题取代真记录

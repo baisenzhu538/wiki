@@ -3,7 +3,7 @@ id: "dk-纪浩-constraint-beats-talent"
 title: "暗知识：约束的力量 —— 600行文档让AI输出吊打人类手动设计"
 type: "dark-knowledge"
 dark_knowledge_type: "principle"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -26,6 +26,8 @@ tags:
 pipeline:
   - confidence-published
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 暗知识：约束的力量

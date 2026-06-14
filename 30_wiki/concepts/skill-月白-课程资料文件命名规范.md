@@ -2,7 +2,7 @@
 id: "skill-月白-课程资料文件命名规范"
 title: "技能：课程资料文件命名规范"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -26,6 +26,8 @@ tags:
   - #scene/note-taking
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：课程资料文件命名规范

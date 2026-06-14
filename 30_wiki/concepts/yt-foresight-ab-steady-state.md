@@ -4,7 +4,7 @@ title: "AB点稳态模型：行业预判的核心框架"
 type: "concept"
 domain:
   - "yitang"
-status: "enriched"
+status: enriched
 confidence: 0.85
 difficulty: "advanced"
 estimated_tokens: 2600
@@ -45,6 +45,7 @@ diagnostic_signals:
     framework_lens: "只完成一半"
     follow_up_question: "变化后的行业新格局（稳态B）可能长什么样？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # AB点稳态模型：行业预判的核心框架

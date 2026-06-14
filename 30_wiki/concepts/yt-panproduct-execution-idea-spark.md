@@ -29,7 +29,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-灵感闪现.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：灵感闪现"
 type: "tool"
 version: 1
@@ -58,6 +58,7 @@ diagnostic_signals:
     framework_lens: "创意必须对准问题"
     follow_up_question: "这个创意解决了哪个用户的哪个具体问题？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 灵感闪现：如何激发大量idea

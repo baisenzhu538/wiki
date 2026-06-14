@@ -5,7 +5,7 @@ domain:
   - "healthcare"
 source_refs:
   - "src_20260522_074c72ae"
-status: "enriched"
+status: enriched
 title: "OCR: Truman的个人成长五步法"
 type: "concept"
 updated_at: 2026-05-22
@@ -21,6 +21,8 @@ pipeline:
   - #boundary/not-for-beginners
   - #boundary/not-for-creative
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: Truman的个人成长五步法

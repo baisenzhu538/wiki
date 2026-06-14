@@ -3,7 +3,7 @@ id: "dk-p1-model-switch-env"
 title: "P-1：切模型改环境变量无效——Claude Code 走全局设置"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -28,6 +28,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # P-1：切模型改环境变量无效——Claude Code 走全局设置

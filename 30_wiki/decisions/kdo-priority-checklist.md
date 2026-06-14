@@ -17,7 +17,10 @@ tags:
   - #checklist
 trust_level: high
 
-domain: []---
+domain: []
+author: legacy
+reviewed_by: pending
+---
 
 # KDO Protocol Priority Checklist
 

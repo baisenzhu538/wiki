@@ -5,7 +5,7 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_1b5af0b6"
-status: "enriched"
+status: enriched
 title: "OCR: 泛产品设计-落地卡片-ROI分析"
 type: "concept"
 updated_at: 2026-05-22
@@ -17,6 +17,8 @@ tags:
 pipeline:
   - #boundary/not-for-creative
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 泛产品设计-落地卡片-ROI分析

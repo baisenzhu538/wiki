@@ -26,7 +26,7 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-科学学习IPO模型.jpg"
-status: "enriched"
+status: enriched
 title: "IPO 科学学习全景策略"
 type: "framework"
 version: 1
@@ -54,6 +54,7 @@ diagnostic_signals:
     framework_lens: "反馈缺失——没有反馈的学习无法迭代"
     follow_up_question: "你的输出有没有人看、有人评、有人用？如果没有，你在 closed loop 里练习"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # IPO 科学学习全景策略 (Yitang Scientific Learning IPO V2.0)

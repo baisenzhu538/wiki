@@ -33,9 +33,9 @@ related:
   - "yt-concept-weapon-arsenal"
 source_refs:
   - "30_wiki/concepts/yt-management-team-knowledge.md"
-status: "draft"
+status: draft
 title: "团队知识萃取器"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'management', 'module': '管团队', 'course_type': 'tool', 'level': 'core'}
@@ -69,6 +69,8 @@ diagnostic_signals:
     framework_lens: "激励机制 / 人力因素"
     follow_up_question: "专家是否因担心价值被替代而隐藏关键判断？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # 团队知识萃取器

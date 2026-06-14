@@ -5,7 +5,7 @@ domain:
   - "healthcare"
 source_refs:
   - "src_20260522_64727b82"
-status: "enriched"
+status: enriched
 title: "OCR: screenshot1"
 type: "concept"
 updated_at: 2026-05-22
@@ -17,6 +17,8 @@ tags:
   - #scene/skill-engineering/eval-testing
 pipeline:
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: screenshot1

@@ -3,8 +3,12 @@
 id: "skill-Truman-开源模型与商业模型融合方案"
 title: "技能：开源模型与商业模型融合方案"
 type: "skill"
-status: "draft"
-domain: []---
+status: draft
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：开源模型与商业模型融合方案
 

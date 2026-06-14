@@ -27,9 +27,9 @@ related:
 reviewed_by: ""
 source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
-status: "reviewed"
+status: reviewed
 title: "情报获取全景地图：13+渠道穷尽手段"
-trust_level: "medium"
+trust_level: medium
 type: "framework"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-intelligence-map', 'course_type': 'framework', 'level': 'foundational'}
@@ -57,6 +57,7 @@ diagnostic_signals:
     framework_lens: "情报质量需要溯源"
     follow_up_question: "这条信息的原始来源是什么？可信度如何？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 情报获取全景地图：13+渠道穷尽手段

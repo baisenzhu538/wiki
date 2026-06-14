@@ -29,7 +29,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-ROI分析.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：ROI分析"
 type: "tool"
 version: 1
@@ -56,6 +56,7 @@ diagnostic_signals:
     framework_lens: "ROI 是决策工具"
     follow_up_question: "这个 ROI 数字是否改变了你的投入计划？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # ROI分析：擅做投产比分析

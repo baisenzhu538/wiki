@@ -26,9 +26,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "调研认知"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '调研认知', 'course_id': 'yt-entrepreneur-research-cognition', 'course_type': 'method', 'level': 'core'}
@@ -51,6 +51,7 @@ diagnostic_signals:
     framework_lens: "调研≠信息收集"
     follow_up_question: "你收集的信息中，有多少转化为了可指导决策的洞察？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 调研认知

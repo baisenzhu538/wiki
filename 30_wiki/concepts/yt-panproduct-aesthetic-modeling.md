@@ -29,7 +29,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践建模.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·审美卡片：最佳实践建模"
 type: "tool"
 version: 1
@@ -59,6 +59,7 @@ diagnostic_signals:
     framework_lens: "评价模型应具备生成性"
     follow_up_question: "用模型评估一个你还没做的方案，它暴露的最大风险点是什么？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 最佳实践建模：用评价维度打磨产品

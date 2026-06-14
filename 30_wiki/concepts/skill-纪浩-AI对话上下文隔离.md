@@ -2,7 +2,7 @@
 id: "skill-纪浩-AI对话上下文隔离"
 title: "技能：AI 对话上下文隔离"
 type: "skill"
-status: "enriched"
+status: enriched
 domain: ["ai-collaboration"]
 source_person: "纪浩"
 source_context: "AI协作方法论"
@@ -32,6 +32,7 @@ tags:
   - #scene/prompt-engineering
 pipeline:
   - confidence-source-cited
+author: legacy
 ---
 
 # 技能：AI 对话上下文隔离

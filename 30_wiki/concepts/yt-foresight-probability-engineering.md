@@ -4,7 +4,7 @@ title: "概率工程：把小概率变成大概率的方法论"
 type: "concept"
 domain:
   - "yitang"
-status: "enriched"
+status: enriched
 confidence: 0.9
 difficulty: "intermediate"
 estimated_tokens: 2400
@@ -44,6 +44,7 @@ diagnostic_signals:
     framework_lens: "预判缺失"
     follow_up_question: "你的试错方向是从多少个选项中筛选出来的？如果只有1个，试错是赌博"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 概率工程：把小概率变成大概率的方法论

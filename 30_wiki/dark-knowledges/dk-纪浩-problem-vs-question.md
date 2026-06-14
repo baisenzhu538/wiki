@@ -3,7 +3,7 @@ id: "dk-纪浩-problem-vs-question"
 title: "暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem"
 type: "dark-knowledge"
 dark_knowledge_type: "principle"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -26,6 +26,8 @@ tags:
 pipeline:
   - confidence-published
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 暗知识：Problem vs Question

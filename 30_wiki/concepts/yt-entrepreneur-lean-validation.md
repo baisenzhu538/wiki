@@ -26,9 +26,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "低成本验证/MVP"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '低成本验证/MVP', 'course_id': 'yt-entrepreneur-lean-validation', 'course_type': 'method', 'level': 'core'}
@@ -50,6 +50,7 @@ diagnostic_signals:
     framework_lens: "MVP没有闭环"
     follow_up_question: "验证结果如何改变了你的下一步行动？如果没有任何改变，验证只是形式主义"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 低成本验证/MVP

@@ -22,7 +22,7 @@ related:
 reviewed_by: ""
 source_refs:
   - {"来源": "一堂 (Truman)"}
-status: "enriched"
+status: enriched
 title: "AI时代信息素养框架"
 type: "framework"
 updated_at: 2026-05-18
@@ -38,6 +38,7 @@ pipeline:
   - #boundary/not-for-medical
   - #boundary/requires-human-judgment
   - confidence-source-cited
+author: legacy
 ---
 
 # AI时代信息素养框架

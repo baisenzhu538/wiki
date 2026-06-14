@@ -5,7 +5,7 @@ domain:
   - "master"
 source_refs:
   - "src_20260510_9e98a292"
-status: "enriched"
+status: enriched
 title: "Sprint 2 门禁举证验收"
 type: "concept"
 updated_at: 2026-05-09
@@ -13,6 +13,8 @@ tags:
   - #scene/knowledge-management/tagging
 pipeline:
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # Sprint 2 门禁举证验收

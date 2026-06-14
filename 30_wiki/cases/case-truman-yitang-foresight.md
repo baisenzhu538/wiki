@@ -4,7 +4,7 @@ title: "Truman一堂：市场扫描→六方向→Plan ABC试错"
 type: "case"
 domain:
   - "yitang"
-status: "enriched"
+status: enriched
 confidence: 0.9
 difficulty: "intermediate"
 estimated_tokens: 2800
@@ -38,6 +38,7 @@ tags:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-outcome
+author: legacy
 ---
 
 # Truman一堂：市场扫描→六方向→Plan ABC试错

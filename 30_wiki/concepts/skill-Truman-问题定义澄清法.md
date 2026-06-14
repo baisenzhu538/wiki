@@ -3,8 +3,12 @@
 id: "skill-Truman-问题定义澄清法"
 title: "技能：问题定义澄清法"
 type: "skill"
-status: "draft"
-domain: []---
+status: draft
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：问题定义澄清法
 

@@ -2,7 +2,7 @@
 id: "skill-月白-电商白底图生成与场景图匹配"
 title: "技能：电商白底图生成与场景图匹配"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -27,6 +27,8 @@ tags:
   - #scene/skill-engineering
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：电商白底图生成与场景图匹配

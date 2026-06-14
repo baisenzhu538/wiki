@@ -1,7 +1,7 @@
 ---
 title: "一堂课程地图精华串讲"
 type: "concept"
-status: "reviewed"
+status: reviewed
 source_refs: ""
 id: "yt-system-course-map-lecture - src_20260506_13e7bbca - src_20260507_3f2ac357"
 created_at: "2026-05-05"
@@ -38,6 +38,7 @@ diagnostic_signals:
     framework_lens: "最小可用 / 刻意练习"
     follow_up_question: "是否一次性尝试应用整个十层框架导致信息过载？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 一堂课程地图精华串讲

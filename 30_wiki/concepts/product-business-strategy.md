@@ -12,6 +12,7 @@ source_refs:
 - src_20260614_0e07078e
 - src_20260614_8a0317f1
 - theme-product-business-summary
+- src_20260614_0e6fd2e7
 tags:
 - "#product-strategy"
 - "#business-strategy"

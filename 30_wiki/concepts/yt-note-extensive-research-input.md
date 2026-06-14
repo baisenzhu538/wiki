@@ -2,7 +2,7 @@
 id: "yt-note-extensive-research-input"
 title: "广泛涉猎式笔记：以问题为入口的多源交叉认知法"
 type: "concept"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "personal-growth"
@@ -44,6 +44,8 @@ diagnostic_signals:
     framework_lens: "误解"
     follow_up_question: "你听完课后输出的认知结构，比讲者原内容丰富了多少？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # 广泛涉猎式笔记：以问题为入口的多源交叉认知法

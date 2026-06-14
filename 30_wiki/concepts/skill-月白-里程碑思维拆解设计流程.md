@@ -2,7 +2,7 @@
 id: "skill-月白-里程碑思维拆解设计流程"
 title: "技能：里程碑思维拆解设计流程"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -26,6 +26,8 @@ pipeline:
   - #boundary/not-for-creative
   - confidence-draft
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：里程碑思维拆解设计流程

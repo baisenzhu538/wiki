@@ -2,7 +2,7 @@
 
 id: "ai-collaboration-mindset-shift"
 type: "concept"
-status: "draft"
+status: draft
 source_refs:
   - "src_20260606_42e11f09"
 component_of: ""
@@ -32,7 +32,10 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
 
-domain: []---
+domain: []
+author: legacy
+created_at: "2026-06-15"
+---
 
 # AI协作思维转变：从"新手"到"管理者"
 

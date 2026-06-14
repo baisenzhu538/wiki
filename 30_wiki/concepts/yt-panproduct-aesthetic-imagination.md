@@ -28,7 +28,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-审美卡片-美好作品想象.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·审美卡片：美好作品想象"
 type: "tool"
 version: 1
@@ -56,6 +56,7 @@ diagnostic_signals:
     framework_lens: "想象是假设，不是结论"
     follow_up_question: "你能设计一个最小实验让用户验证这个想象吗？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 美好作品想象：缺对标就自己想象

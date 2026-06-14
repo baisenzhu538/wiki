@@ -2,7 +2,7 @@
 id: "skill-深度分层学习"
 title: "技能：深度分层学习"
 type: "skill"
-status: "draft"
+status: draft
 domain: []
 source_person: "一堂课程"
 source_context: "src_20260522_dee56cff"
@@ -16,6 +16,8 @@ created_at: "2026-06-09T15:59:56+00:00"
 updated_at: "2026-06-09T15:59:56+00:00"
 pipeline:
   - #skill
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：深度分层学习

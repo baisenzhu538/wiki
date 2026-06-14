@@ -29,7 +29,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-管理三段论.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：管理三段论"
 type: "tool"
 version: 1
@@ -60,6 +60,7 @@ diagnostic_signals:
     framework_lens: "管理三段论需要反馈环"
     follow_up_question: "最近是否有新信息让原来的目标不再合理？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 管理三段论：业务管理有章可循

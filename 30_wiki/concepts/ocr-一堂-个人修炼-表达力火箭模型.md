@@ -5,7 +5,7 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_f6f8f8eb"
-status: "enriched"
+status: enriched
 title: "OCR: 一堂-个人修炼-表达力火箭模型"
 type: "concept"
 updated_at: 2026-05-22
@@ -16,6 +16,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 一堂-个人修炼-表达力火箭模型

@@ -27,7 +27,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计02口述.md"
-status: "enriched"
+status: enriched
 title: "泛产品设计落地篇：无限进步与持续打磨"
 type: "concept"
 version: 1
@@ -59,6 +59,7 @@ diagnostic_signals:
     framework_lens: "真本事需要时间复利"
     follow_up_question: "如果这件事要做10年，你现在的节奏是否可持续？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 泛产品设计落地篇：无限进步与持续打磨

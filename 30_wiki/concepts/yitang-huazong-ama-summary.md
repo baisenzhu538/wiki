@@ -5,7 +5,7 @@ domain:
   - "healthcare"
 source_refs:
   - "src_20260529_huazong_ama"
-status: "stable"
+status: stable
 title: "花总AMA精华摘要（商业突破大航海）"
 type: "concept"
 updated_at: 2026-05-29
@@ -23,6 +23,8 @@ pipeline:
   - #boundary/not-for-medical
   - #boundary/requires-human-judgment
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 花总AMA精华摘要

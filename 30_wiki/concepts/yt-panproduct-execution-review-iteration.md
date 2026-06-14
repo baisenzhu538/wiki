@@ -29,7 +29,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-复盘迭代.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：复盘迭代"
 type: "tool"
 version: 1
@@ -58,6 +58,7 @@ diagnostic_signals:
     framework_lens: "成功经验同样需要模型化"
     follow_up_question: "这次成功中有哪些是偶然因素，哪些可以复制？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 复盘迭代：善于向自己的经验学习

@@ -26,7 +26,7 @@ reviewed_by: "黄药师"
 source_refs:
   - "src_20260507_85c9ae50"
   - "src_20260507_31a7f2df"
-status: "enriched"
+status: enriched
 title: "IPO 科学学习"
 type: "tool"
 version: 1
@@ -57,6 +57,7 @@ diagnostic_signals:
     framework_lens: "学习是螺旋上升的闭环"
     follow_up_question: "上一次输出后，你根据反馈调整了哪些学习方法？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # IPO 科学学习

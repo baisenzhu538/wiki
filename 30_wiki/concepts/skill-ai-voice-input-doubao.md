@@ -4,7 +4,11 @@ id: "skill-ai-voice-input-doubao"
 title: "技能：口喷式语音输入法"
 type: "skill"
 status: needs-review
-domain: []---
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：口喷式语音输入法
 

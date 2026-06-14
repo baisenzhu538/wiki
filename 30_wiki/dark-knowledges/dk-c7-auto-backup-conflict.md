@@ -3,7 +3,7 @@ id: "dk-c7-auto-backup-conflict"
 title: "C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "Builder"
@@ -25,6 +25,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交

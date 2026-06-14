@@ -33,7 +33,7 @@ review_by: 2026-12-06
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修炼-Y模型实操口述版.md"
-status: "enriched"
+status: enriched
 superseded_by: ""
 title: "Y模型尺子刻度法：从模糊经验到可复用评估模型"
 type: "tool"
@@ -63,6 +63,7 @@ diagnostic_signals:
     framework_lens: "系统配置 / 资源匹配"
     follow_up_question: "均衡型与偏科型选项是否被差异化决策？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 ## Summary

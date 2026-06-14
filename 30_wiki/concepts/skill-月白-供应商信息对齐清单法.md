@@ -2,7 +2,7 @@
 id: "skill-月白-供应商信息对齐清单法"
 title: "技能：供应商信息对齐清单法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -25,6 +25,8 @@ tags:
   - #scene/note-taking
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：供应商信息对齐清单法

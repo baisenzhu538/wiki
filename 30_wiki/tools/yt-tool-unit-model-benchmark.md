@@ -9,6 +9,10 @@ related:
 - yt-unit-model-dynamic
 
 domain: []
+id: "yt-tool-unit-model-benchmark"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 ## Reusable Knowledge
 

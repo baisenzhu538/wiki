@@ -2,7 +2,7 @@
 id: "skill-月白-海报文字错误修复法"
 title: "技能：海报文字错误修复法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -25,6 +25,8 @@ tags:
   - #scene/learning-methodology/feedback-loop
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：海报文字错误修复法

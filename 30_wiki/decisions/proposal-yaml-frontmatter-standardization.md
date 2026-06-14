@@ -8,7 +8,11 @@ source_refs:
 created_at: 2026-06-06
 updated_at: 2026-06-06
 
-domain: []---
+domain: []
+id: "proposal-yaml-frontmatter-standardization"
+author: legacy
+reviewed_by: pending
+---
 
 # YAML 标注对 KDO 知识库的启发
 

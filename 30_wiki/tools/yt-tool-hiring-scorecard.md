@@ -3,7 +3,7 @@
 id: "yt-tool-hiring-scorecard"
 title: "结构化面试打分卡"
 type: "tool"
-status: "enriched"
+status: enriched
 domain:
   - "yitang"
 language: "zh-CN"
@@ -43,7 +43,7 @@ tags:
   - "#scene/skill-engineering/publish-deploy"
   - "#tool"
   - "#yitang"
-trust_level: "medium"
+trust_level: medium
 yitang: {'map': 'management', 'module': '科学招聘', 'course_id': 'yt-tool-hiring-scorecard', 'course_type': 'tool', 'level': 'core'}
 source_refs:
   - "30_wiki/concepts/yt-management-scientific-hiring.md"
@@ -58,6 +58,7 @@ diagnostic_signals:
   - signal: "团队说'打分卡我们都填了，流程很规范'——但半年后回溯，没有一个面试预测被验证过"
     framework_lens: "打分卡填了但招错人——流程完善≠准确预测。Tetlock证明了'专家预测'的低准确率。如果你从未系统性回溯过'面试评分'和'入职后实际表现'的相关性，你的打分卡只是一个漂亮的置信度幻觉"
     follow_up_question: "过去一年录用的5个人，面试打分和6个月后实际表现的差距是多少？如果不知道这个数字——你的结构化流程是科学的仪式，不是科学的工具"
+author: legacy
 ---
 
 # 结构化面试打分卡

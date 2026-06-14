@@ -4,7 +4,7 @@ title: "十五字黄金法诀：机会预判的核心框架"
 type: "concept"
 domain:
   - "yitang"
-status: "enriched"
+status: enriched
 confidence: 0.9
 difficulty: "beginner"
 estimated_tokens: 3200
@@ -49,6 +49,7 @@ diagnostic_signals:
     framework_lens: "减法不专业"
     follow_up_question: "你排除每个选项时，能说出具体的硬伤类型吗？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 十五字黄金法诀：机会预判的核心框架

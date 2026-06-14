@@ -35,7 +35,7 @@ source_refs:
   - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践建模.png"
   - "10_raw/assets/yitang/泛产品设计-审美卡片-美好作品想象.png"
   - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
-status: "enriched"
+status: enriched
 superseded_by: ""
 title: "泛产品设计·审美工具箱（4张卡牌）"
 type: "framework"
@@ -58,6 +58,7 @@ diagnostic_signals:
     framework_lens: "缺少案例输入"
     follow_up_question: "你这个设计领域的最佳实践案例在哪里？如果没有，模型只是空壳"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 ## Constraints & Boundaries

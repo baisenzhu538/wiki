@@ -5,7 +5,7 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_115e8827"
-status: "enriched"
+status: enriched
 title: "OCR: 泛产品设计-用户卡片-项目背景分析"
 type: "concept"
 updated_at: 2026-05-22
@@ -18,6 +18,8 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 泛产品设计-用户卡片-项目背景分析

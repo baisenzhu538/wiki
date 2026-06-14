@@ -31,9 +31,9 @@ reviewed_by: ""
 source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
   - "00_inbox/ideas/一堂-创业-调研行动营口述01.md"
-status: "reviewed"
+status: reviewed
 title: "假设验证调研工具：关键假设→可证伪问题→最小实验"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-hypothesis-test', 'course_type': 'tool', 'level': 'advanced'}
@@ -58,6 +58,7 @@ diagnostic_signals:
     framework_lens: "调研是贝叶斯更新"
     follow_up_question: "这个验证结果改变了你对哪个假设的信心？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 假设验证调研工具：关键假设→可证伪问题→最小实验

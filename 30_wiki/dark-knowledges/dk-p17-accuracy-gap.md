@@ -3,7 +3,7 @@ id: "dk-p17-accuracy-gap"
 title: "P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -27,6 +27,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度

@@ -3,7 +3,7 @@ id: "dk-p14-zombie"
 title: "P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -27,6 +27,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环

@@ -3,7 +3,7 @@ id: "dk-f4-wrong-workdir"
 title: "F-KDO-004：错误工作目录执行 pipeline 命令→命令静默失败、无报错、无文件变更"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -30,6 +30,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # F-KDO-004：错误工作目录执行 pipeline 命令→命令静默失败、无报错、无文件变更

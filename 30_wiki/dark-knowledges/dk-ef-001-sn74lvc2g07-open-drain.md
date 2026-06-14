@@ -23,7 +23,10 @@ pipeline:
   - #source_type/dark-knowledge
   - confidence-source-cited
 
-domain: []---
+domain: []
+author: legacy
+reviewed_by: pending
+---
 
 # 开漏输出的陷阱：上拉电阻太大导致信号边沿变缓
 

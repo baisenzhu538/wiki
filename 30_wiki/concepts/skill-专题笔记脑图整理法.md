@@ -33,6 +33,8 @@ tags:
   - #scene/skill-engineering
   - #domain/learning-methodology
   - #yitang
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：专题笔记/脑图整理法

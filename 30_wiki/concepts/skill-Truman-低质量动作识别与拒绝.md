@@ -3,8 +3,12 @@
 id: "skill-Truman-低质量动作识别与拒绝"
 title: "技能：低质量动作识别与拒绝"
 type: "skill"
-status: "draft"
-domain: []---
+status: draft
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：低质量动作识别与拒绝
 

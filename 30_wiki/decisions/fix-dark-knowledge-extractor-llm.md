@@ -13,6 +13,8 @@ reviewer: 欧阳锋（Architect）
 related:
   - task-20260531-huangyaoshi-extractor-run-all
   - plan_20260531_data-curator-v1.3
+author: legacy
+reviewed_by: pending
 ---
 
 # 萃取器升级：regex → LLM-based 暗知识提取

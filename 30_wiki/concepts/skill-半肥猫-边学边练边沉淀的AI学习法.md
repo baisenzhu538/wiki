@@ -2,7 +2,7 @@
 id: "skill-半肥猫-边学边练边沉淀的AI学习法"
 title: "技能：边学边练边沉淀的 AI 学习法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "learning"
@@ -48,6 +48,7 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
 ---
 
 # 技能：边学边练边沉淀的 AI 学习法

@@ -33,6 +33,7 @@ diagnostic_signals:
     framework_lens: "可行性 / 落地诚实"
     follow_up_question: "机会筛选是否只停留在需求-能力-模式三档匹配？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 # 三维排列组合找机会
 

@@ -5,7 +5,7 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_1b95114b"
-status: "enriched"
+status: enriched
 title: "OCR: 一堂-个人修炼-双三角模型"
 type: "concept"
 updated_at: 2026-05-22
@@ -19,6 +19,8 @@ pipeline:
   - #boundary/not-for-medical
   - #boundary/requires-human-judgment
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 一堂-个人修炼-双三角模型

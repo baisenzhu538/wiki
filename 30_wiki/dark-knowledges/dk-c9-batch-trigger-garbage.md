@@ -3,7 +3,7 @@ id: "dk-c9-batch-trigger-garbage"
 title: "C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "欧阳锋"
@@ -26,6 +26,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没

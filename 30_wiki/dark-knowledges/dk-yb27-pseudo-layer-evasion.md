@@ -3,7 +3,7 @@ id: "dk-yb27-pseudo-layer-evasion"
 title: "伪图层叠加规避平台图像识别"
 type: "dark-knowledge"
 dark_knowledge_type: "tool_usage"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -21,6 +21,8 @@ pipeline:
   - #source_type/dark-knowledge
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 伪图层叠加规避平台图像识别

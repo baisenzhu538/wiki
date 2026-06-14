@@ -2,7 +2,7 @@
 id: "skill-半肥猫-飞书多维表格-自建机器人做团队数据协同"
 title: "技能：飞书多维表格 + 自建机器人做团队数据协同"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
 source_person: "半肥猫"
@@ -32,6 +32,7 @@ updated_at: "2026-06-07"
 tags:
   - #scene/skill-engineering
   - #domain/AI
+author: legacy
 ---
 
 # 技能：飞书多维表格 + 自建机器人做团队数据协同

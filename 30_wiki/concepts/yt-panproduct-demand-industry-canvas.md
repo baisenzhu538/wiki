@@ -26,7 +26,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-行业分析画布.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·用户卡片：行业分析画布"
 type: "tool"
 version: 1
@@ -54,6 +54,7 @@ diagnostic_signals:
     framework_lens: "赛道边界大于直接竞品集合"
     follow_up_question: "用户如果不选你，除了直接竞品还会怎么解决这个需求？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 行业分析画布：分析行业赛道的变化和机会

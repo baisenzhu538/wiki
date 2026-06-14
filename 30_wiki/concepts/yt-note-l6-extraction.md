@@ -2,7 +2,7 @@
 id: "yt-note-l6-extraction"
 title: "清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品"
 type: "concept"
-status: "draft"
+status: draft
 domain:
   - "yitang"
 language: "zh-CN"
@@ -41,6 +41,8 @@ diagnostic_signals:
   - signal: "同一份萃取物在3个以上不同情境中被复用并产生价值"
     framework_lens: "资产价值=复用次数×每次收益"
     follow_up_question: "这个模型最近一次被调用是什么时候？解决了什么问题？"
+author: legacy
+reviewed_by: pending
 ---
 # 清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品
 

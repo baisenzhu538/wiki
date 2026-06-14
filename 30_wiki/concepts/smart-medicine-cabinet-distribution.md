@@ -32,6 +32,8 @@ tags:
   - #pharma-retail
   - #distribution
   - #policy
+author: legacy
+reviewed_by: pending
 ---
 
 # 智能药柜分销业态洞察

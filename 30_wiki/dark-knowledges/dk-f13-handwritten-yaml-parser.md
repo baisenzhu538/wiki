@@ -3,7 +3,7 @@ id: "dk-f13-handwritten-yaml-parser"
 title: "F-KDO-013：手写 YAML 解析器导致嵌套数据丢失"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -27,6 +27,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # F-KDO-013：手写 YAML 解析器导致嵌套数据丢失

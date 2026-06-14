@@ -2,7 +2,7 @@
 id: "case-一堂-AI高考志愿-kernel-mismatch"
 title: "案例：AI高考志愿填报产品因内核错位而失敗"
 type: "case"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "product-strategy"
@@ -33,6 +33,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 案例：AI高考志愿填报产品因内核错位而失敗

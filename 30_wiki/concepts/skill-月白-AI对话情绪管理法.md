@@ -2,7 +2,7 @@
 id: "skill-月白-AI对话情绪管理法"
 title: "技能：AI对话情绪管理法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -25,6 +25,8 @@ tags:
 pipeline:
   - #boundary/single-use-only
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：AI对话情绪管理法

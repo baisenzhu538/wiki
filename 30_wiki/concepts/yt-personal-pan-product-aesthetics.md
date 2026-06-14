@@ -24,7 +24,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
-status: "enriched"
+status: enriched
 title: "泛产品设计审美篇：最佳实践与审美建模"
 type: "concept"
 version: 1
@@ -55,6 +55,7 @@ diagnostic_signals:
     framework_lens: "审美必须落地"
     follow_up_question: "你当前作品与最佳实践相比，最大差距在哪个维度？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 泛产品设计审美篇：永远以最佳实践为追求

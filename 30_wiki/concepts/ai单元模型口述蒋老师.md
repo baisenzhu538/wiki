@@ -18,7 +18,7 @@ related:
 source_refs:
   - "src_20260525_92ea6173"
 speaker: "蒋老师（磊哥），一堂合伙人、教练"
-status: "enriched"
+status: enriched
 title: "AI+单元模型口述（蒋老师/磊哥）"
 type: "concept"
 updated_at: 2026-05-25
@@ -38,6 +38,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # AI+单元模型口述（蒋老师/磊哥）

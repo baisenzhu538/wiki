@@ -22,7 +22,7 @@ related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/顶级产品追求的方向-乔布斯.png"
-status: "enriched"
+status: enriched
 title: "顶级产品追求：品味、最佳实践与乔布斯的审美哲学"
 type: "framework"
 version: 1
@@ -49,6 +49,7 @@ diagnostic_signals:
     framework_lens: "天赋论"
     follow_up_question: "你能说出品味=曝光×迁移中的两个变量分别怎么提升吗？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 顶级产品追求：品味、最佳实践与乔布斯的审美哲学

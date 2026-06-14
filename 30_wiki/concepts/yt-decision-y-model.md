@@ -34,9 +34,9 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-一堂双三角磨合追求.png"
   - "00_inbox/科学决策/一堂-科学决策-关键假设ABCD模型.png"
   - "00_inbox/科学决策/一堂-科学决策-项目方案评估三角形.png"
-status: "enriched"
+status: enriched
 title: "Y模型科学决策框架（广义ROI）"
-trust_level: "medium"
+trust_level: medium
 type: "framework"
 updated_at: 2026-05-22
 version: 1
@@ -71,6 +71,7 @@ diagnostic_signals:
     framework_lens: "框架覆盖边界——Y模型对不可通约的品味型决策失效"
     follow_up_question: "这个决策的核心分歧在'可量化的ROI'还是'不可通约的品味'？如果是后者，退出Y模型，换品味仲裁者"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # Y模型科学决策框架（广义ROI）

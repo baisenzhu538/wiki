@@ -2,7 +2,7 @@
 id: "case-truman-poker-deck-roi"
 title: "扑克牌案例：同样的任务，两个同学评估结果截然相反"
 type: "case"
-status: "draft"
+status: draft
 domain:
   - "yitang"
 source_person: "Truman"
@@ -12,6 +12,8 @@ source_refs:
 related:
   - "yt-decision-height-toolkit"
 created_at: "2026-06-09"
+author: legacy
+reviewed_by: pending
 ---
 
 # 扑克牌案例：同样的任务，两个同学评估结果截然相反

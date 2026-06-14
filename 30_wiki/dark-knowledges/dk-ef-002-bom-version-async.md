@@ -26,7 +26,10 @@ pipeline:
   - #source_type/dark-knowledge
   - confidence-source-cited
 
-domain: []---
+domain: []
+author: legacy
+reviewed_by: pending
+---
 
 # BOM 多版本不同步：你手里的文件和产线手里的不是同一份
 

@@ -34,7 +34,7 @@ reviewed_by: "黄药师"
 source_refs:
   - "src_20260507_9dd09688"
   - "src_20260507_df666081"
-status: "enriched"
+status: enriched
 title: "深度复盘"
 type: "tool"
 version: 1
@@ -60,6 +60,7 @@ diagnostic_signals:
     framework_lens: "复盘的价值在于改变未来行为"
     follow_up_question: "上次深度复盘的行动项，现在完成了多少？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 深度复盘

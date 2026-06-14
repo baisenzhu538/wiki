@@ -3,8 +3,12 @@
 id: "skill-Truman-职场异步协作提问法"
 title: "技能：职场异步协作提问法"
 type: "skill"
-status: "draft"
-domain: []---
+status: draft
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：职场异步协作提问法
 

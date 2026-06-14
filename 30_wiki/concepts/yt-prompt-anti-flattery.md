@@ -2,7 +2,7 @@
 id: "yt-prompt-anti-flattery"
 title: "反谄媚机制：让AI说真话"
 type: "tool"
-status: "enriched"
+status: enriched
 domain:
   - "yitang"
   - "ai"
@@ -51,6 +51,8 @@ diagnostic_signals:
     framework_lens: "AI输出需要外部校验"
     follow_up_question: "AI说你的项目很有前景，你用什么证据独立验证了这一点？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # 反谄媚机制：让 AI 说真话

@@ -2,7 +2,7 @@
 id: "skill-月白-新媒体热点物料快速迭代法"
 title: "技能：新媒体热点物料快速迭代法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -25,6 +25,8 @@ tags:
   - #scene/skill-engineering/publish-deploy
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：新媒体热点物料快速迭代法

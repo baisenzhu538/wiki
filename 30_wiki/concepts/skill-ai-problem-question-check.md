@@ -30,6 +30,7 @@ tags:
 pipeline:
 - null
 reviewed_by: laowantong
+author: legacy
 ---
 
 # 技能：Problem vs Question 区分法

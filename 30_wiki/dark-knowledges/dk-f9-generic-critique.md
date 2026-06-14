@@ -3,7 +3,7 @@ id: "dk-f9-generic-critique"
 title: "F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -31,6 +31,8 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上

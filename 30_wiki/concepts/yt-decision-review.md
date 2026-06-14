@@ -32,9 +32,9 @@ reviewed_by: ""
 source_refs:
   - "00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt"
   - "00_inbox/科学决策/一堂-科学决策-ROI高阶训练全景图.png"
-status: "enriched"
+status: enriched
 title: "决策复盘工具：L1-L4深度复盘法 + 假设验证闭环"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 updated_at: 2026-05-17
 version: 1
@@ -64,6 +64,7 @@ diagnostic_signals:
     framework_lens: "迁移规则没有接入决策流程——经验教训停留在文档里，没有变成下次决策的强制检查点"
     follow_up_question: "这十几条教训中，有多少条已经被写入了'决策手册'或SOP？下次做同类决策时，决策者会不会自动看到这些规则？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 决策复盘工具：L1-L4深度复盘法 + 假设验证闭环

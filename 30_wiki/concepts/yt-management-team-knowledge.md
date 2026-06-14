@@ -2,7 +2,7 @@
 
 title: "团队知识管理"
 type: "concept"
-status: "enriched"
+status: enriched
 domain: []
 pipeline:
   - confidence-source-cited
@@ -14,6 +14,10 @@ diagnostic_signals:
     framework_lens: "一次性构建"
     follow_up_question: "你的知识库最近一次更新是什么时候？如果超过一个月，知识在腐化"
 updated_at: '2026-06-13'
+id: "yt-management-team-knowledge"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # 团队知识管理

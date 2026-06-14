@@ -2,7 +2,7 @@
 id: "skill-月白-精准共用提示词撰写"
 title: "技能：精准共用提示词撰写"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -25,6 +25,8 @@ tags:
 pipeline:
   - #boundary/not-for-creative
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：精准共用提示词撰写

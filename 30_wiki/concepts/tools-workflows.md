@@ -5,7 +5,7 @@ domain:
   - "healthcare"
 source_refs:
   - "src_20260522_9d322e81"
-status: "enriched"
+status: enriched
 title: "Tools Workflows"
 type: "concept"
 updated_at: 2026-05-22
@@ -19,6 +19,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # Tools Workflows

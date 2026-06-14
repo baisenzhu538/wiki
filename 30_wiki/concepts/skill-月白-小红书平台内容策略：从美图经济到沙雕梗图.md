@@ -2,7 +2,7 @@
 id: "skill-月白-小红书平台内容策略：从美图经济到沙雕梗图"
 title: "技能：小红书平台内容策略：从美图经济到沙雕梗图"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -26,6 +26,8 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：小红书平台内容策略：从美图经济到沙雕梗图

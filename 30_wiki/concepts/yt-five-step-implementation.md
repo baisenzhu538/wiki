@@ -22,9 +22,9 @@ reviewed_by: "老顷童"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-落地实操-笔记.txt"
-status: "reviewed"
+status: reviewed
 title: "五步法落地实操：从故事版到分工版"
-trust_level: "medium"
+trust_level: medium
 type: "skill"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '落地实操', 'course_id': 'yt-five-step-implementation', 'course_type': 'skill', 'level': 'core'}
@@ -43,6 +43,7 @@ diagnostic_signals:
     framework_lens: "跳级"
     follow_up_question: "5分钟内能把商业模式讲清楚吗？如果不能，不要急着定量"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 五步法落地实操：从故事版到分工版

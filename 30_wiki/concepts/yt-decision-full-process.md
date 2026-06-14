@@ -45,9 +45,9 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.png"
   - "00_inbox/科学决策/一堂-科学决策-发现决策.png"
   - "00_inbox/科学决策/一堂-科学决策-商业模式-完整财务公式决策.png"
-status: "enriched"
+status: enriched
 title: "科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型"
-trust_level: "medium"
+trust_level: medium
 type: "framework"
 updated_at: 2026-05-22
 version: 1
@@ -79,6 +79,7 @@ diagnostic_signals:
     framework_lens: "涌现战略被压抑——很多机会是'做出来才知道'，不是'分析出来'的"
     follow_up_question: "这个机会最初是怎么被识别的？是通过流程分析发现的，还是通过一个小实验、一次偶然反馈发现的？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型

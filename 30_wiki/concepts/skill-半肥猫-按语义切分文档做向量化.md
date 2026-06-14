@@ -2,7 +2,7 @@
 id: "skill-半肥猫-按语义切分文档做向量化"
 title: "技能：按语义切分文档做向量化"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
 source_person: "半肥猫"
@@ -38,6 +38,7 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
 ---
 
 # 技能：按语义切分文档做向量化

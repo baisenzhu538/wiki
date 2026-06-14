@@ -32,6 +32,7 @@ tags:
 pipeline:
   - #skill-type/execution
 reviewed_by: "laowantong"
+author: legacy
 ---
 
 # 技能：AI调研五步法

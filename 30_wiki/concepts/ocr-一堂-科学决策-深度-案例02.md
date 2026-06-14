@@ -5,7 +5,7 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_e60022cc"
-status: "enriched"
+status: enriched
 title: "OCR: 一堂-科学决策-深度-案例02"
 type: "concept"
 updated_at: 2026-05-22
@@ -14,6 +14,8 @@ tags:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 一堂-科学决策-深度-案例02

@@ -3,8 +3,12 @@
 id: "skill-Truman-双三角模型应用"
 title: "技能：双三角模型应用"
 type: "skill"
-status: "draft"
-domain: []---
+status: draft
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：双三角模型应用
 

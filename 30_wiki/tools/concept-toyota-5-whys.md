@@ -2,7 +2,7 @@
 id: "concept-toyota-5-whys"
 title: "5 Whys：追问到根本原因"
 type: "tool"
-status: "enriched"
+status: enriched
 domain:
   - "lean-manufacturing"
   - "yitang"
@@ -39,6 +39,7 @@ version: 1
 created_at: "2026-06-11"
 updated_at: "2026-06-13"
 reviewed_by: "laowantong"
+author: legacy
 ---
 
 # 5 Whys：追问到根本原因

@@ -2,7 +2,7 @@
 id: "skill-提升笔记练习频次的方法"
 title: "技能：提升笔记练习频次的方法"
 type: "skill"
-status: "draft"
+status: draft
 domain: []
 source_person: "一堂"
 source_context: "src_20260609_6809033f"
@@ -16,6 +16,8 @@ created_at: "2026-06-09T14:40:41+00:00"
 updated_at: "2026-06-09T14:40:41+00:00"
 pipeline:
   - #skill
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：提升笔记练习频次的方法

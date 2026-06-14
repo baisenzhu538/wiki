@@ -3,8 +3,12 @@
 id: "skill-Truman-AI输出审慎判断与交付确认"
 title: "技能：AI输出审慎判断与交付确认"
 type: "skill"
-status: "draft"
-domain: []---
+status: draft
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：AI输出审慎判断与交付确认
 

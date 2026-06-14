@@ -3,7 +3,7 @@ id: "dk-f3-state-json-race-condition"
 title: "F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -31,6 +31,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失

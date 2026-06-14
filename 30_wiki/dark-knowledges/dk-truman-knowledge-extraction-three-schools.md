@@ -2,7 +2,7 @@
 id: "dk-truman-knowledge-extraction-three-schools"
 title: "知识萃取三流派：99%的知识付费只是A，一堂做B+C——为什么你学的大多数课只是“听个响”"
 type: "dark-knowledge"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "personal-growth"
@@ -15,6 +15,8 @@ related:
   - "dk-纪浩-constraint-beats-talent"
 created_at: "2026-06-09"
 updated_at: "2026-06-09"
+author: legacy
+reviewed_by: pending
 ---
 
 # 知识萃取三流派：99%的知识付费只是A，一堂做B+C

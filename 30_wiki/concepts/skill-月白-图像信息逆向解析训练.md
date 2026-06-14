@@ -2,7 +2,7 @@
 id: "skill-月白-图像信息逆向解析训练"
 title: "技能：图像信息逆向解析训练"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -27,6 +27,8 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：图像信息逆向解析训练

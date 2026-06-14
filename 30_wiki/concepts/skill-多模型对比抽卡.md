@@ -2,7 +2,7 @@
 id: "skill-多模型对比抽卡"
 title: "技能：多模型对比抽卡"
 type: "skill"
-status: "draft"
+status: draft
 domain: []
 source_person: "Truman"
 source_context: "src_20260609_03491271"
@@ -16,6 +16,8 @@ created_at: "2026-06-09T14:38:36+00:00"
 updated_at: "2026-06-09T14:38:36+00:00"
 pipeline:
   - #skill
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：多模型对比抽卡

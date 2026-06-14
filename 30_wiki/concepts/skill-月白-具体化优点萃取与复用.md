@@ -2,7 +2,7 @@
 id: "skill-月白-具体化优点萃取与复用"
 title: "技能：具体化优点萃取与复用"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -25,6 +25,8 @@ tags:
 pipeline:
   - #boundary/single-use-only
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：具体化优点萃取与复用

@@ -2,7 +2,7 @@
 id: "skill-一堂-business-prediction-15-char"
 title: "技能：商业预判15字诀"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "product"
   - "yitang"
@@ -34,6 +34,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：商业预判15字诀

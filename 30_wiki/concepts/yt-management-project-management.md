@@ -2,7 +2,7 @@
 
 title: "项目管理"
 type: "concept"
-status: "enriched"
+status: enriched
 domain: []
 pipeline:
   - confidence-source-cited
@@ -14,6 +14,10 @@ diagnostic_signals:
     framework_lens: "范围蔓延"
     follow_up_question: "这个项目最初的交付物是什么？现在增加了多少不在原始范围内的内容？"
 updated_at: '2026-06-13'
+id: "yt-management-project-management"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # 项目管理

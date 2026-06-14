@@ -3,7 +3,7 @@ id: "dk-yb8-file-naming-eight-elements"
 title: "AI增效前置：文件命名八要素体系"
 type: "dark-knowledge"
 dark_knowledge_type: "workflow"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -27,6 +27,8 @@ pipeline:
   - #source_type/dark-knowledge
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # AI增效前置：文件命名八要素体系

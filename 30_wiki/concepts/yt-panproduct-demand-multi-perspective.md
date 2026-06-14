@@ -26,7 +26,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-多视角思考.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·用户卡片：多视角思考"
 type: "tool"
 version: 1
@@ -54,6 +54,7 @@ diagnostic_signals:
     framework_lens: "多视角的价值在于合成"
     follow_up_question: "如果只满足决策者的诉求，用户的体验会恶化到什么程度？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 多视角思考：综合内部/外部/角色考量

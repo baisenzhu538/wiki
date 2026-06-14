@@ -3,7 +3,7 @@
 id: "concept-一堂-business-prediction"
 title: "商业预判：15字诀与光谱模型——从拍脑袋到科学决策"
 type: "concept"
-status: "deprecated"
+status: deprecated
 superseded_by:
   - "yt-foresight-business-spectrum"
   - "yt-foresight-model-taxonomy"
@@ -30,6 +30,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 商业预判：15字诀与光谱模型——从拍脑袋到科学决策

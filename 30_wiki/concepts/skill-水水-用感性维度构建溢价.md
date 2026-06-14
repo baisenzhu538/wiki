@@ -3,8 +3,12 @@
 id: "skill-水水-用感性维度构建溢价"
 title: "技能：用感性维度构建溢价"
 type: "skill"
-status: "needs-review"
-domain: []---
+status: needs-review
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：用感性维度构建溢价
 

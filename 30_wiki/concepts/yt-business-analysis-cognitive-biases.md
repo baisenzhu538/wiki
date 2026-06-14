@@ -21,9 +21,9 @@ reviewed_by: "老顽童"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt"
-status: "reviewed"
+status: reviewed
 title: "暗知识：五步法中的主要认知偏差"
-trust_level: "medium"
+trust_level: medium
 type: "dk"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '落地实操', 'course_id': 'yt-business-analysis-cognitive-biases', 'course_type': 'dk', 'level': 'core'}
@@ -42,6 +42,7 @@ diagnostic_signals:
     framework_lens: "证实性偏差——分析成了自我证明"
     follow_up_question: "你最近一周主动找过几个反例？如果答案是0，你的分析很可能在自我强化"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 暗知识：五步法中的主要认知偏差

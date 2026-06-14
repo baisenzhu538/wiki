@@ -2,7 +2,7 @@
 
 title: "一号位"
 type: "concept"
-status: "enriched"
+status: enriched
 domain: []
 pipeline:
   - confidence-source-cited
@@ -14,6 +14,10 @@ diagnostic_signals:
     framework_lens: "甩手掌柜论"
     follow_up_question: "公司的战略方向由谁最终负责？如果答案是投资人或顾问，你失职了"
 updated_at: '2026-06-13'
+id: "yt-management-founder-role"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # 一号位

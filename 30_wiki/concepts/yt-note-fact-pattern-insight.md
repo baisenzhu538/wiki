@@ -2,7 +2,7 @@
 id: "yt-note-fact-pattern-insight"
 title: "事实→规律→见解：深度思考笔记的三段论结构"
 type: "concept"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "personal-growth"
@@ -46,6 +46,8 @@ diagnostic_signals:
     framework_lens: "见解必须产生行动或判断差异"
     follow_up_question: "如果这个见解是错误的，你会在什么观察出现后放弃它？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # 事实→规律→见解：深度思考笔记的三段论结构

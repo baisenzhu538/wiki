@@ -32,9 +32,9 @@ source_refs:
   - "00_inbox/一堂-产品内核迭代课-Truman-笔记.txt"
   - "00_inbox/一堂-产品内核验证课-truman-笔记.txt"
   - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
-status: "enriched"
+status: enriched
 title: "产品内核定义、迭代与验证方法论"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 2
 yitang: {'map': 'entrepreneur', 'module': '产品内核', 'course_id': 'yt-entrepreneur-product-core', 'course_type': 'method', 'level': 'foundational'}
@@ -58,6 +58,7 @@ diagnostic_signals:
     framework_lens: "内核验证缺失"
     follow_up_question: "你的产品内核对应的关键转化率指标是什么？现在数字是多少？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 产品内核定义、迭代与验证方法论

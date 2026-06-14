@@ -34,9 +34,9 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-宽度-团队.png"
   - "00_inbox/科学决策/一堂-科学决策-宽度-企业.png"
   - "00_inbox/科学决策/一堂-科学决策-关键训练清单（重要））.png"
-status: "enriched"
+status: enriched
 title: "宽度分析工具：列推建查四步法+三层盲区清单"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 visual_analysis:
@@ -72,6 +72,7 @@ diagnostic_signals:
     framework_lens: "系统性扫描 > 自我启发式回忆"
     follow_up_question: "这个决策属于个人、团队还是企业层级？你是否使用了对应清单？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 宽度分析工具：列推建查四步法+三层盲区清单

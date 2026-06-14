@@ -26,7 +26,7 @@ source_refs:
   - "10_raw/assets/yitang/一堂-个人修炼-双三角模型.jpg"
   - "40_outputs/content/images/infographics/dual-triangle-competitiveness.excalidraw"
   - "40_outputs/content/images/infographics/dual-triangle-visual-analysis.md"
-status: "enriched"
+status: enriched
 title: "双三角竞争力模型"
 type: "framework"
 version: 1
@@ -54,6 +54,7 @@ diagnostic_signals:
     framework_lens: "人类三角强但AI三角弱——工具效率没有放大业务能力"
     follow_up_question: "你处理一个常规业务任务，AI能帮你省多少时间？如果<20%，AI基本功需要补"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 双三角竞争力模型 (Yitang Dual Triangle Model)

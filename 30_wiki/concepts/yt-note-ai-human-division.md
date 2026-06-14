@@ -2,7 +2,7 @@
 id: "yt-note-ai-human-division"
 title: "AI时代笔记分工边界：人在哪里，AI在哪里"
 type: "concept"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "ai"
@@ -57,6 +57,8 @@ diagnostic_signals:
     framework_lens: "效率低"
     follow_up_question: "你手写笔记中有多少是AI可以帮你整理检索的？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # AI时代笔记分工边界：人在哪里，AI在哪里

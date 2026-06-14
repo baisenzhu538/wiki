@@ -5,7 +5,7 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_e71d89ff"
-status: "enriched"
+status: enriched
 title: "OCR: 预判模型"
 type: "concept"
 updated_at: 2026-05-22
@@ -19,6 +19,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 预判模型

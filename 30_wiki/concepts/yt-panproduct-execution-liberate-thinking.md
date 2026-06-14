@@ -28,7 +28,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-解放思想.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：解放思想"
 type: "tool"
 version: 1
@@ -57,6 +57,7 @@ diagnostic_signals:
     framework_lens: "解放思想不是无视约束"
     follow_up_question: "如果明天要验证这个想法，你最便宜的第一步是什么？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 解放思想：敢于提出新解法/挑战新问题

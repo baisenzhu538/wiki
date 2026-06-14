@@ -3,7 +3,7 @@ id: "dk-modeling-sop-execution-locks"
 title: "SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%"
 type: "dark-knowledge"
 dark_knowledge_type: "workflow"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "master"
@@ -24,9 +24,10 @@ tags:
   - "#domain/yitang"
   - "#method/sop"
   - "#method/execution-management"
-trust_level: "high"
+trust_level: high
 reviewed_by: "老顽童"
 review_date: "2026-06-14"
+author: legacy
 ---
 
 # SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%

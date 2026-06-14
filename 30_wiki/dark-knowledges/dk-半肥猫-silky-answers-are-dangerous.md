@@ -2,7 +2,7 @@
 id: "dk-半肥猫-silky-answers-are-dangerous"
 title: "暗知：AI给的回答越丝滑，问题越大——“完全不等于可靠”陷阱"
 type: "dk"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
 source_person: "半肥猫"
@@ -30,6 +30,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 暗知：AI给的回答越丝滑，问题越大——“完全不等于可靠”陷阱

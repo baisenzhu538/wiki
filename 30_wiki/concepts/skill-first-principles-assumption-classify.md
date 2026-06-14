@@ -32,6 +32,7 @@ tags:
 pipeline:
   - #skill-type/validation
 reviewed_by: "laowantong"
+author: legacy
 ---
 
 # 技能：假设分类法（第一性原理）

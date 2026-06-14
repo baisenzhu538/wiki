@@ -2,7 +2,7 @@
 id: "skill-月白-行业配色快速确定法"
 title: "技能：行业配色快速确定法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -25,6 +25,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：行业配色快速确定法

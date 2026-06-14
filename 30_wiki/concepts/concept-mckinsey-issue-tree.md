@@ -2,7 +2,7 @@
 id: "concept-mckinsey-issue-tree"
 title: "Issue Tree：问题树拆解"
 type: "concept"
-status: "draft"
+status: draft
 domain:
   - "consulting"
   - "problem-solving"
@@ -39,6 +39,8 @@ tags:
   - #evergreen
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # Issue Tree：问题树拆解

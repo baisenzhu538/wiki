@@ -1,7 +1,7 @@
 ---
 title: "一堂案例必修课"
 type: "concept"
-status: "reviewed"
+status: reviewed
 source_refs: ""
 id: "yt-case-mandatory-cases - src_20260506_9b4788a6 - src_20260507_857c7ed4"
 created_at: "2026-05-05"
@@ -27,6 +27,7 @@ diagnostic_signals:
     framework_lens: "学习偏科——失败案例的避坑价值更高"
     follow_up_question: "你最近研究的10个案例中，失败案例占几个？如果<5个，你的样本有偏"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 一堂案例必修课

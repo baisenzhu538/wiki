@@ -22,9 +22,9 @@ reviewed_by: "老顽童"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-笔记.txt"
-status: "reviewed"
+status: reviewed
 title: "单元模型搭建五步法"
-trust_level: "medium"
+trust_level: medium
 type: "skill"
 updated_at: "2026-06-11"
 version: 1
@@ -44,6 +44,7 @@ diagnostic_signals:
     framework_lens: "隐形成本遗漏——模型算的是理想情况，实际业务有模型未覆盖的随机因素"
     follow_up_question: "实际成本和模型成本之间最大的缺口在哪里？有没有哪项成本'忘了'放进模型？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 单元模型搭建五步法

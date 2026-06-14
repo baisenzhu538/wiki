@@ -2,7 +2,7 @@
 id: "dk-纪浩-logs-fastest-ignored"
 title: "暗知识：日志增长最快但最容易被忽视"
 type: "dk"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -22,6 +22,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 暗知识：日志增长最快但最容易被忽视

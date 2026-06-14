@@ -25,9 +25,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "项目壁垒"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '项目壁垒', 'course_id': 'yt-entrepreneur-barriers', 'course_type': 'method', 'level': 'advanced'}
@@ -48,6 +48,7 @@ diagnostic_signals:
     framework_lens: "壁垒维度单一"
     follow_up_question: "如果竞争对手明天复制了你的这个优势，你还有什么？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 项目壁垒

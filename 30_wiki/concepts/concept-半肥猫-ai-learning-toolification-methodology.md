@@ -55,6 +55,8 @@ pipeline:
 - confidence-source-cited
 - confidence-verified-by-case
 - confidence-verified-by-test
+author: legacy
+reviewed_by: pending
 ---
 
 # 半肥猫 AI 学习落地方法论

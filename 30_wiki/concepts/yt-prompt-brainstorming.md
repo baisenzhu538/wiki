@@ -2,7 +2,7 @@
 id: "yt-prompt-brainstorming"
 title: "AI头脑风暴工作流"
 type: "tool"
-status: "enriched"
+status: enriched
 domain:
   - "yitang"
   - "ai"
@@ -51,6 +51,8 @@ diagnostic_signals:
     framework_lens: "人是决策者"
     follow_up_question: "你最后选择的方案与AI最初建议相比，改动有多大？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # AI 头脑风暴工作流

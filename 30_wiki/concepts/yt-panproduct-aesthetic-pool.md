@@ -28,7 +28,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践池子.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·审美卡片：最佳实践池子"
 type: "tool"
 version: 1
@@ -56,6 +56,7 @@ diagnostic_signals:
     framework_lens: "池子的价值在于持续打磨"
     follow_up_question: "上一次方案评审中，池子里的哪个案例直接促成了设计改动？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 最佳实践池子：用一堆最佳实践打磨产品

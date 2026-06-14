@@ -2,7 +2,7 @@
 
 id: "ai-landing-scene-selection"
 type: "concept"
-status: "draft"
+status: draft
 source_refs:
   - "src_20260606_ef4877d0"
 component_of: ""
@@ -29,7 +29,10 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
 
-domain: []---
+domain: []
+author: legacy
+created_at: "2026-06-15"
+---
 
 # AI落地场景识别：从"找老的干小的"开始
 

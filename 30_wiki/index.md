@@ -8,7 +8,20 @@ _Last updated: 2026-06-15T00:05:00+00:00_
 - [智能药柜单点财务模型与回本测算表](tools/smart-medicine-cabinet-financial-model.md) — source src_20260613_0e40f3cd src_20260613_26c69f98 src_20260613_6ed8df4b
 - [智能药柜/智慧药房招商骗局识别清单](tools/smart-medicine-cabinet-fraud-detection.md) — source src_20260613_3b5c7fdb src_20260613_26c69f98 src_20260613_6ed8df4b
 - [医药 O2O 成本与毛利结构](concepts/smart-medicine-cabinet-o2o-cost-structure.md) — source src_20260613_0e40f3cd src_20260613_26c69f98 src_20260613_6ed8df4b
-- [诊所 + 智能药柜协同模式：一线观察与风险提示](cases/smart-medicine-cabinet-clinic-risk-observation.md) — source src_20260613_1deb50c8 src_20260613_5f96c5bb src_20260613_420e8085 src_20260613_309b7b52 src_20260613_36a21181 src_20260613_dafb968a
+- [诊所 + 智能药柜协同模式：一线观察与风险提示](cases/smart-medicine-cabinet-clinic-risk-observation.md)
+- [智能药柜推广项目：录音商业模式命题交叉验证](cases/case-smart-medicine-cabinet-business-model-validation.md) — source src_20260613_732d251f
+- [智能药柜/医药项目合规快速校验清单](tools/tool-smart-medicine-cabinet-compliance-checklist.md) — source src_20260613_2286ccfb
+- [智能药柜推广项目：公司/股权/资金风险诊断](cases/case-smart-medicine-cabinet-corporate-risk.md) — source src_20260613_fc2124d8
+- [智能药柜/数字药房项目诊断：大院处方、小院续方模式](concepts/concept-smart-medicine-cabinet-digital-pharmacy-diagnosis.md) — source src_20260613_98aa19d4
+- [智能药柜平台合作命题交叉验证（美团/饿了么/阿里健康/京东）](concepts/concept-smart-medicine-cabinet-platform-cooperation-validation.md) — source src_20260613_945a21d7
+- [智能药柜供应链/技术方案交叉验证](concepts/concept-smart-medicine-cabinet-supply-chain-validation.md) — source src_20260613_90085bca
+- [巨头为何不做诊所+智能药柜：竞争格局与壁垒分析](concepts/concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet.md) — source src_20260613_7cfd7b89 src_20260613_9a2b289e
+- [诊所医疗短视频/个人 IP 合规边界 checklist](tools/tool-clinic-medical-shortvideo-compliance.md) — source src_20260613_ccf533f9 src_20260613_9a2b289e
+- [诊所+智能药柜合作的法律关系与合同要点](tools/tool-clinic-cabinet-legal-contract-guide.md) — source src_20260613_f3aecb2d src_20260613_9a2b289e
+- [智能药柜选址深度指南：场景、指标与验证方法](tools/tool-smart-medicine-cabinet-site-selection-guide.md) — source src_20260613_0e40f3cd src_20260613_59270720 src_20260613_9a2b289e src_20260613_fb0e6521 src_20260613_c5f5a7ce
+- [智能药柜失败模式案例库](cases/case-smart-medicine-cabinet-failure-patterns-library.md) — source src_20260613_3b5c7fdb src_20260613_26c69f98 src_20260613_6ed8df4b src_20260613_59270720 src_20260613_9a2b289e src_20260613_f23b86fa src_20260613_c5f5a7ce
+- [消费者购药行为与智能药柜接受度](concepts/concept-smart-medicine-cabinet-consumer-acceptance.md) — source src_20260613_b0cac5a3 src_20260613_c5f5a7ce
+- [国际自动取药机/药房模式经验与启示](concepts/concept-smart-medicine-cabinet-international-models.md) — source src_20260613_f23b86fa src_20260613_c5f5a7ce — source src_20260613_1deb50c8 src_20260613_5f96c5bb src_20260613_420e8085 src_20260613_309b7b52 src_20260613_36a21181 src_20260613_dafb968a
 - [智能药柜分销业态洞察](concepts/smart-medicine-cabinet-distribution.md) — source 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
 - [销售话术偏误识别模式库](frameworks/sales-pitch-bias-patterns.md) — source src_20260613_96e45c45
 - [业务公式 ABC 模型（Ambition-Basis-Connection）](frameworks/yt-business-formula-abc-model.md) — source src_20260613_6edbf0af src_20260613_91f90839 src_20260614_6d9f7671
@@ -16,15 +29,22 @@ _Last updated: 2026-06-15T00:05:00+00:00_
 - [业务公式参数冰山（L1-L6）](concepts/yt-business-formula-parameter-iceberg.md) — source src_20260613_fa7b370d src_20260613_6edbf0af
 - [业务公式六层逻辑关系（L1 模糊 → L6 动态）](concepts/yt-business-formula-six-level-logic.md) — source src_20260613_0ab21e5e src_20260613_6edbf0af
 - [案例：ToC 消费品电商业务公式拆解误判导致放量亏损](cases/case-toc-ecommerce-formula-misjudgment.md) — source src_20260613_6b939d2b src_20260613_a8bcfd38 src_20260613_6edbf0af
-- [AI 大航海项目路演：主题综合知识卡](concepts/ai-hackathon-pitches.md) — source src_20260614_3b46ff78 src_20260614_1d4cc0e0 src_20260614_852f9158 src_20260614_67a2b760 src_20260614_35e5c7a5 src_20260614_32622548 src_20260614_cc542987 src_20260614_507e4b9a src_20260614_6463da99 src_20260614_489554e9 src_20260614_ef4f24d7
-- [AI 方法论与工具栈：主题综合知识卡](frameworks/ai-methodology-tools.md) — source src_20260614_071928f4 src_20260614_dec1c1fe src_20260614_5f13a66f src_20260614_d5cc92d2 src_20260614_cafcbbac src_20260614_c5115d2c src_20260614_b3686a84 src_20260614_144d986e src_20260614_c1430e21 src_20260614_4b226b4f src_20260614_d78e7c7b
-- [企业财务-法务-商务运营实务](concepts/finance-legal-business-operations.md) — source src_20260614_ccba327a src_20260614_d1166483 src_20260614_83ed5758 src_20260614_6e91528d src_20260614_fbe4a480
-- [产业 AI 落地案例集（非药柜）](concepts/industry-ai-cases.md) — source src_20260614_07a9fc2a src_20260614_3cefab90 src_20260614_eca9f5b3 src_20260614_b85c364e src_20260614_4b3b6427 src_20260614_eed6d83c src_20260614_45ab8b35 src_20260614_5e47c1c5 src_20260614_b9ae158f
-- [AI 时代的业务验证、商业模式与组织协作](concepts/business-validation-models-collaboration.md) — source src_20260614_606a631d src_20260614_cb61aeca src_20260614_fd0f5a00 src_20260614_ab09af1c src_20260614_909802bd src_20260614_d79b42d1 src_20260614_e38d86d9 src_20260614_350272ef src_20260614_086550ab src_20260614_1a0a6efa
-- [个人成长：复杂系统、消除模糊与 AI 时代个体系统](concepts/personal-growth-complex-systems.md) — source src_20260614_fb753683 src_20260614_8d349c5b src_20260614_82a4fdb9 src_20260614_6fb509a4 src_20260614_7963c2f2
-- [产品-商业战略综合：设备运营、方向取舍与产品开发](concepts/product-business-strategy.md) — source src_20260614_5f74ed61 src_20260614_0e07078e src_20260614_8a0317f1
-- [餐饮渠道饮料产品成本-口感-供应链综合洞察](concepts/supply-chain-beverage.md) — source src_20260614_16c4bf0d src_20260614_d6ab6fb6 src_20260614_9b574611
-- [一堂方法论体系：从科学做事到无限进步](concepts/yitang-methodology-system.md) — source src_20260614_6d9f7671 src_20260614_a25ca678 src_20260614_64015d4d src_20260614_1be3d76f src_20260614_faa8021d src_20260614_842be4c9 src_20260614_239c9f4e src_20260614_b65be94b src_20260614_c944bda5 src_20260614_8f80cb0f src_20260614_2e2a1e9c src_20260614_a3ae193a src_20260614_93ffa2b0 src_20260614_b23e9ae3 src_20260614_70cde3fb src_20260614_610cbfc3 src_20260614_f2578dfb src_20260614_6b2c4f5b src_20260614_ea308189 src_20260614_aceef535 src_20260614_dcf9d023 src_20260614_4ff08501 src_20260614_22f103f0 src_20260614_3501eb39 src_20260614_78622699 src_20260614_46bc4b82
+- [案例：私域电商 10W 人社群——从“拉人发广告”到“信任 × 用户升级路径”](cases/case-private-domain-ecommerce-formula.md) — source src_20260613_6b939d2b src_20260613_a8bcfd38 src_20260613_6edbf0af
+- [案例：ToB 企业培训 SaaS 续费率 50%→80%——让客户“用起来”](cases/case-saas-renewal-formula.md) — source src_20260613_6b939d2b src_20260613_a8bcfd38 src_20260613_6edbf0af
+- [案例：ToC 连锁口腔诊所——成交率 30% 背后的“危机感知”公式](cases/case-dental-clinic-formula.md) — source src_20260613_6b939d2b src_20260613_a8bcfd38 src_20260613_6edbf0af
+- [案例：线下连锁餐饮——同店增长 30% 的盲区在会员复购与场景绑定](cases/case-offline-catering-formula.md) — source src_20260613_6b939d2b src_20260613_a8bcfd38 src_20260613_6edbf0af
+- [案例：线下连锁健身——把“到店频率”变成“到店习惯”](cases/case-gym-membership-formula.md) — source src_20260613_6b939d2b src_20260613_a8bcfd38 src_20260613_6edbf0af
+- [业务公式 L6 魔法参数：跨行业本质公式集锦](concepts/yt-business-formula-l6-essence-formulas.md) — source src_20260613_6b939d2b src_20260613_a8bcfd38 src_20260613_6edbf0af
+- [暗知识：业务公式拆解——先切分再拆转化，+ 与 × 写错会误导决策](dark-knowledges/dk-yitang-business-formula-plus-times-trap.md) — source src_20260613_6b939d2b src_20260613_a8bcfd38 src_20260613_6edbf0af
+- [AI 大航海项目路演：主题综合知识卡](concepts/ai-hackathon-pitches.md) — source src_20260614_3b46ff78 src_20260614_1d4cc0e0 src_20260614_852f9158 src_20260614_67a2b760 src_20260614_35e5c7a5 src_20260614_32622548 src_20260614_cc542987 src_20260614_507e4b9a src_20260614_6463da99 src_20260614_489554e9 src_20260614_ef4f24d7 src_20260614_8bd357d3
+- [AI 方法论与工具栈：主题综合知识卡](frameworks/ai-methodology-tools.md) — source src_20260614_071928f4 src_20260614_dec1c1fe src_20260614_5f13a66f src_20260614_d5cc92d2 src_20260614_cafcbbac src_20260614_c5115d2c src_20260614_b3686a84 src_20260614_144d986e src_20260614_c1430e21 src_20260614_4b226b4f src_20260614_d78e7c7b src_20260614_329d0e0c
+- [企业财务-法务-商务运营实务](concepts/finance-legal-business-operations.md) — source src_20260614_ccba327a src_20260614_d1166483 src_20260614_83ed5758 src_20260614_6e91528d src_20260614_fbe4a480 src_20260614_40afd886
+- [产业 AI 落地案例集（非药柜）](concepts/industry-ai-cases.md) — source src_20260614_07a9fc2a src_20260614_3cefab90 src_20260614_eca9f5b3 src_20260614_b85c364e src_20260614_4b3b6427 src_20260614_eed6d83c src_20260614_45ab8b35 src_20260614_5e47c1c5 src_20260614_b9ae158f src_20260614_b9fbfc2b
+- [AI 时代的业务验证、商业模式与组织协作](concepts/business-validation-models-collaboration.md) — source src_20260614_606a631d src_20260614_cb61aeca src_20260614_fd0f5a00 src_20260614_ab09af1c src_20260614_909802bd src_20260614_d79b42d1 src_20260614_e38d86d9 src_20260614_350272ef src_20260614_086550ab src_20260614_1a0a6efa src_20260614_7e8857b8
+- [个人成长：复杂系统、消除模糊与 AI 时代个体系统](concepts/personal-growth-complex-systems.md) — source src_20260614_fb753683 src_20260614_8d349c5b src_20260614_82a4fdb9 src_20260614_6fb509a4 src_20260614_7963c2f2 src_20260614_720e62a1
+- [产品-商业战略综合：设备运营、方向取舍与产品开发](concepts/product-business-strategy.md) — source src_20260614_5f74ed61 src_20260614_0e07078e src_20260614_8a0317f1 src_20260614_0e6fd2e7
+- [餐饮渠道饮料产品成本-口感-供应链综合洞察](concepts/supply-chain-beverage.md) — source src_20260614_16c4bf0d src_20260614_d6ab6fb6 src_20260614_9b574611 src_20260614_95352714
+- [一堂方法论体系：从科学做事到无限进步](concepts/yitang-methodology-system.md) — source src_20260614_6d9f7671 src_20260614_a25ca678 src_20260614_64015d4d src_20260614_1be3d76f src_20260614_faa8021d src_20260614_842be4c9 src_20260614_239c9f4e src_20260614_b65be94b src_20260614_c944bda5 src_20260614_8f80cb0f src_20260614_2e2a1e9c src_20260614_a3ae193a src_20260614_93ffa2b0 src_20260614_b23e9ae3 src_20260614_70cde3fb src_20260614_610cbfc3 src_20260614_f2578dfb src_20260614_6b2c4f5b src_20260614_ea308189 src_20260614_aceef535 src_20260614_dcf9d023 src_20260614_4ff08501 src_20260614_22f103f0 src_20260614_3501eb39 src_20260614_78622699 src_20260614_46bc4b82 src_20260614_9ca806cd
 - [Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式](concepts/fd-forward-deployment.md) — source src_20260614_ab09af1c
 - [餐饮渠道饮料开发：草本浓缩饮品的渠道-产品-工艺框架](frameworks/beverage-foodservice-channel.md) — source src_20260614_8a0317f1 src_20260614_16c4bf0d src_20260614_d6ab6fb6 src_20260614_9b574611
 - [AI 原生 IM：让 Agent 成为一等公民的协作基础设施](concepts/ai-native-im-multi-agent.md) — source src_20260614_c5115d2c

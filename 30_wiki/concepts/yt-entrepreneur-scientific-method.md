@@ -24,9 +24,9 @@ related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "Y模型/科学方法"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': 'Y模型/科学方法', 'course_id': 'yt-entrepreneur-scientific-method', 'course_type': 'method', 'level': 'foundational'}
@@ -47,6 +47,7 @@ diagnostic_signals:
     framework_lens: "证实偏差"
     follow_up_question: "你最近设计的实验中，有几个是为了证伪而不是证实？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # Y模型/科学方法

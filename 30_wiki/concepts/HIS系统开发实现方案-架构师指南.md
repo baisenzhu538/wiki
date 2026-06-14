@@ -5,7 +5,7 @@ domain:
   - "healthcare"
 source_refs:
   - "src_20260503_1a1f0312"
-status: "enriched"
+status: enriched
 title: "HIS系统开发实现方案-架构师指南"
 type: "concept"
 updated_at: 2026-05-03
@@ -17,6 +17,8 @@ pipeline:
   - #boundary/not-for-medical
   - #boundary/requires-human-judgment
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # HIS系统开发实现方案-架构师指南

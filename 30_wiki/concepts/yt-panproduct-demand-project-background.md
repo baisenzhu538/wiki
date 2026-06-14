@@ -27,7 +27,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-项目背景分析.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·用户卡片：项目背景分析"
 type: "tool"
 version: 1
@@ -55,6 +55,7 @@ diagnostic_signals:
     framework_lens: "背景会随环境变化"
     follow_up_question: "过去一个月里，八个维度中有哪些假设被新信息推翻？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 项目背景分析：综合用户/场景/商业考量

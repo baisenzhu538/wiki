@@ -2,7 +2,7 @@
 
 title: "基本功认知"
 type: "concept"
-status: "enriched"
+status: enriched
 domain: []
 pipeline:
   - confidence-source-cited
@@ -14,6 +14,10 @@ diagnostic_signals:
     framework_lens: "天赋论"
     follow_up_question: "你能说出管理行为的3个可训练动作单元吗？如果不能，你在用天赋当挡箭牌"
 updated_at: '2026-06-13'
+id: "yt-management-basic-skills"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # 基本功认知

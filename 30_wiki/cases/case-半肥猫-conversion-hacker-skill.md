@@ -2,7 +2,7 @@
 id: "case-半肥猫-conversion-hacker-skill"
 title: "案例：一堂转化率黑客课→Skill ——从拿到资料到测试通过的完整历程"
 type: "case"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -37,6 +37,8 @@ pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
   - confidence-verified-by-test
+author: legacy
+reviewed_by: pending
 ---
 
 # 案例：一堂转化率黑客课→Skill

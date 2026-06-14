@@ -26,7 +26,7 @@ related:
 reviewed_by: ""
 source_refs:
   - {"来源": "消化全库后提炼"}
-status: "enriched"
+status: enriched
 title: "认知偏差快速诊断清单"
 type: "tool"
 updated_at: 2026-05-18
@@ -41,6 +41,7 @@ pipeline:
   - #boundary/single-use-only
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
 ---
 
 # 认知偏差快速诊断清单

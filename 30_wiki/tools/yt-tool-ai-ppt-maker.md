@@ -26,6 +26,7 @@ tags:
 related:
 - yt-pitch-storytelling
 - yt-pitch-quantification
+reviewed_by: pending
 ---
 # AI对话式PPT生成器：把排版变成说话
 

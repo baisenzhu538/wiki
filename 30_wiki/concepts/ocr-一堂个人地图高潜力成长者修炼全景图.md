@@ -5,7 +5,7 @@ domain:
   - "healthcare"
 source_refs:
   - "src_20260522_9cb1d9d6"
-status: "enriched"
+status: enriched
 title: "OCR: 一堂个人地图：高潜力成长者修炼全景图"
 type: "concept"
 updated_at: 2026-05-22
@@ -25,6 +25,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 一堂个人地图：高潜力成长者修炼全景图

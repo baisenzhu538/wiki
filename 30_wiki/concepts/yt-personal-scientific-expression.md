@@ -28,9 +28,9 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型.png"
   - "10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型-执行武器库.png"
-status: "enriched"
+status: enriched
 title: "科学表达（火箭模型）"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'personal', 'module': '科学表达（火箭模型）', 'course_id': 410, 'course_type': 'method', 'level': 'core', 'series': True}
@@ -55,6 +55,7 @@ diagnostic_signals:
     framework_lens: "精确表达需要刻意练习"
     follow_up_question: "你为这次表达做了几次完整演练？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 科学表达（火箭模型）

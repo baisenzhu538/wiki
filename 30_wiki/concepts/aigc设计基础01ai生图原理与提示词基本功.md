@@ -6,7 +6,7 @@ domain:
   - "design"
 source_refs:
   - "src_20260528_2ba8539f"
-status: "draft"
+status: draft
 title: "AIGC设计基础01：AI生图原理与提示词基本功"
 type: "concept"
 updated_at: 2026-06-12
@@ -20,6 +20,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # AIGC设计基础01：AI生图原理与提示词基本功

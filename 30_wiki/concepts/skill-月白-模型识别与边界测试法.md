@@ -2,7 +2,7 @@
 id: "skill-月白-模型识别与边界测试法"
 title: "技能：模型识别与边界测试法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -25,6 +25,8 @@ tags:
   - #scene/note-taking
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：模型识别与边界测试法

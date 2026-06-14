@@ -4,7 +4,7 @@ title: "预判画布：从加法到减法的标准化工作台"
 type: "tool"
 domain:
   - "yitang"
-status: "enriched"
+status: enriched
 confidence: 0.9
 difficulty: "intermediate"
 estimated_tokens: 1600
@@ -46,6 +46,7 @@ diagnostic_signals:
     framework_lens: "预判工具被用来做合理化——画布分析只是为已有偏好找理由"
     follow_up_question: "如果没有预判画布，你会不会选同一个选项？如果会，说明画布没有真正影响决策"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 预判画布：从加法到减法的标准化工作台

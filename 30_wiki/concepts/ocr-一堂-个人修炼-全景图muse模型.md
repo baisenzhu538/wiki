@@ -5,7 +5,7 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_20c9fda8"
-status: "enriched"
+status: enriched
 title: "OCR: 一堂-个人修炼-全景图MUSE模型"
 type: "concept"
 updated_at: 2026-05-22
@@ -19,6 +19,8 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 一堂-个人修炼-全景图MUSE模型

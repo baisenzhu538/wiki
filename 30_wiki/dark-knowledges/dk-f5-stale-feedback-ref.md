@@ -3,7 +3,7 @@ id: "dk-f5-stale-feedback-ref"
 title: "F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -29,6 +29,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在

@@ -2,7 +2,7 @@
 id: "skill-月白-新手设计师基本功训练法"
 title: "技能：新手设计师基本功训练法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -26,6 +26,8 @@ pipeline:
   - #boundary/not-for-beginners
   - #boundary/single-use-only
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：新手设计师基本功训练法

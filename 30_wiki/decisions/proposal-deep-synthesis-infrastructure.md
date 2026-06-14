@@ -15,6 +15,8 @@ related:
   - labeling-final-consolidation
   - plan_20260531_data-curator-v1.3
   - content-quality-gate
+id: "proposal-deep-synthesis-infrastructure"
+reviewed_by: pending
 ---
 
 # 基础设施升级提案：深度合成产线

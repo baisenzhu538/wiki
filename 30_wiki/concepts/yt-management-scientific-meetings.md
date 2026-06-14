@@ -2,7 +2,7 @@
 
 title: "科学开会"
 type: "concept"
-status: "enriched"
+status: enriched
 domain: []
 pipeline:
   - confidence-source-cited
@@ -14,6 +14,10 @@ diagnostic_signals:
     framework_lens: "结论模糊"
     follow_up_question: "散会后每个人都知道自己要做什么吗？如果有人不清楚，会议失败"
 updated_at: '2026-06-13'
+id: "yt-management-scientific-meetings"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # 科学开会

@@ -26,9 +26,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "单元模型"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '单元模型', 'course_id': 'yt-entrepreneur-unit-model', 'course_type': 'method', 'level': 'core'}
@@ -48,6 +48,7 @@ diagnostic_signals:
     framework_lens: "模型脱离现实"
     follow_up_question: "按当前现金流，你还能活几个月？单元模型好但现金流断了也没用"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 单元模型

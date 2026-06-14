@@ -5,7 +5,7 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260501_58b6edef"
-status: "superseded"
+status: superseded
 superseded_by: "30_wiki/concepts/kdo_product_design_agent_final.md"
 title: "Obsidian + KDO 内容产出工作流 — 产品设计大纲"
 type: "concept"
@@ -21,6 +21,8 @@ tags:
 pipeline:
   - #boundary/not-for-creative
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲

@@ -25,9 +25,9 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-需求-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-需求-分析段位图.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-需求-市场规模估算四种方法.png"
-status: "reviewed"
+status: reviewed
 title: "需求分析爬山地图"
-trust_level: "medium"
+trust_level: medium
 type: "framework"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '五步法', 'course_id': 'yt-demand-analysis-hiking-map', 'course_type': 'framework', 'level': 'core'}
@@ -46,6 +46,7 @@ diagnostic_signals:
     framework_lens: "停留在L1——需求分析需要爬山进阶"
     follow_up_question: "你能描述目标用户典型的一天中，会在什么具体场景使用你的产品吗？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 需求分析爬山地图

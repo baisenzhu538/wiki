@@ -16,6 +16,9 @@ diagnostic_signals:
     framework_lens: "边界控制 / C 角色降级"
     follow_up_question: "失败时是否出现'模糊问题被套上漂亮框架'的低价值输出？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 # P 角色 Prompt 设计——执行者型 AI 的交付规范
 

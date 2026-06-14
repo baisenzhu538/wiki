@@ -2,7 +2,7 @@
 
 title: "战略会"
 type: "concept"
-status: "enriched"
+status: enriched
 domain: []
 pipeline:
   - confidence-source-cited
@@ -14,6 +14,10 @@ diagnostic_signals:
     framework_lens: "开完就算了"
     follow_up_question: "战略会结束后72小时内有没有发出决策纪要和下一步行动？"
 updated_at: '2026-06-13'
+id: "yt-management-strategy-meeting"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # 战略会

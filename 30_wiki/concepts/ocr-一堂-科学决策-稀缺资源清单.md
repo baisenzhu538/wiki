@@ -5,7 +5,7 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_d067a6ba"
-status: "enriched"
+status: enriched
 title: "OCR: 一堂-科学决策-稀缺资源清单"
 type: "concept"
 updated_at: 2026-05-22
@@ -16,6 +16,8 @@ tags:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 一堂-科学决策-稀缺资源清单

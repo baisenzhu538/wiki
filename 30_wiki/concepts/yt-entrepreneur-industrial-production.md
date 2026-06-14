@@ -25,9 +25,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "工业化生产"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '工业化生产', 'course_id': 'yt-entrepreneur-industrial-production', 'course_type': 'method', 'level': 'advanced'}
@@ -48,6 +48,7 @@ diagnostic_signals:
     framework_lens: "过度工业化"
     follow_up_question: "哪些环节需要创造力，哪些需要标准化？你是否把该创新的地方也SOP了？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 工业化生产

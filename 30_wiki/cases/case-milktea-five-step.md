@@ -2,7 +2,7 @@
 id: "case-milktea-five-step"
 title: "奶茶店五步法：从九死一生到十年百店的科学创业之路"
 type: "case"
-status: "reviewed"
+status: reviewed
 domain:
   - "product"
   - "yitang"
@@ -26,6 +26,8 @@ tags:
 pipeline:
   - confidence-source-cited
   - confidence-case-verified
+author: legacy
+reviewed_by: pending
 ---
 
 # 奶茶店五步法：从九死一生到十年百店的科学创业之路

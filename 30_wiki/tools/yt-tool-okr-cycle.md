@@ -3,7 +3,7 @@
 id: "yt-tool-okr-cycle"
 title: "OKR 制定与复盘罗盘"
 type: "tool"
-status: "enriched"
+status: enriched
 domain:
   - "yitang"
 language: "zh-CN"
@@ -41,7 +41,7 @@ tags:
   - "#scene/skill-engineering/publish-deploy"
   - "#tool"
   - "#yitang"
-trust_level: "medium"
+trust_level: medium
 yitang: {'map': 'management', 'module': '目标管理', 'course_id': 'yt-tool-okr-cycle', 'course_type': 'tool', 'level': 'core'}
 source_refs:
   - "30_wiki/concepts/yt-management-goal-management.md"
@@ -56,6 +56,7 @@ diagnostic_signals:
   - signal: "团队的OKR完成率90%+，但业务实际进展很差——完成了目标但没达成目的"
     framework_lens: "写了但没用——全绿的OKR和全红的OKR一样危险。可能是KR设成了任务清单（做了=完成了），也可能是团队在'挑软柿子'——只完成容易量化的KR，回避了真正重要但难量化的突破"
     follow_up_question: "完成的KR里，去掉'按流程完成'类的、挑出真正创造了用户/客户价值的——还剩几个？"
+author: legacy
 ---
 
 # OKR 制定与复盘罗盘

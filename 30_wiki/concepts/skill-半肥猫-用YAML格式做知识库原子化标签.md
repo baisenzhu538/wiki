@@ -2,7 +2,7 @@
 id: "skill-半肥猫-用YAML格式做知识库原子化标签"
 title: "技能：用 YAML 格式做知识库原子化标签"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
 source_person: "半肥猫"
@@ -34,6 +34,7 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
 ---
 
 # 技能：用 YAML 格式做知识库原子化标签

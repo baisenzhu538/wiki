@@ -30,7 +30,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-风险管理.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：风险管理"
 type: "tool"
 version: 1
@@ -60,6 +60,7 @@ diagnostic_signals:
     framework_lens: "风险管理要降低不确定性"
     follow_up_question: "针对最高影响的风险，你的 Plan B 是什么？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 风险管理：把风险从意外变成确定性

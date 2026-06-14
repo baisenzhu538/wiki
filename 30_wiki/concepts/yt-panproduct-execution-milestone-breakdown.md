@@ -29,7 +29,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-里程碑拆解.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：里程碑拆解"
 type: "tool"
 version: 1
@@ -58,6 +58,7 @@ diagnostic_signals:
     framework_lens: "不确定性需要缓冲"
     follow_up_question: "这个里程碑的日期是乐观估计还是包含缓冲？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 里程碑拆解：主动设定交付中间节点

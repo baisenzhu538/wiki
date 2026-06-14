@@ -26,7 +26,9 @@ trust_level: medium
 reviewed_by: "黄药师"
 review_date: "2026-05-04"
 
-domain: []---
+domain: []
+author: legacy
+---
 
 # Kimi（月之暗面）
 

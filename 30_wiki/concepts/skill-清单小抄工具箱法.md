@@ -34,6 +34,8 @@ tags:
   - #scene/skill-engineering
   - #domain/learning-methodology
   - #yitang
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：清单小抄工具箱法

@@ -23,9 +23,9 @@ source_refs:
   - "00_inbox/一堂-机会预判-咖啡案例01.png"
   - "00_inbox/一堂-机会预判-咖啡案例02.png"
   - "00_inbox/一堂-机会预判-案例预判02.png"
-status: "enriched"
+status: enriched
 title: "案例：咖啡馆创业预判"
-trust_level: "medium"
+trust_level: medium
 type: "case"
 updated_at: 2026-06-10
 version: 1
@@ -37,6 +37,7 @@ tags:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
 ---
 
 # 案例：咖啡馆创业预判

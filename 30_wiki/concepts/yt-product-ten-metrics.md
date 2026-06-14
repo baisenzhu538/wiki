@@ -21,9 +21,9 @@ reviewed_by: "老顽童"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-产品内核-十大典型指标_paddle_ocr.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-解决方案（产品内核）-口述.txt"
-status: "reviewed"
+status: reviewed
 title: "产品内核十大典型指标"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '产品内核', 'course_id': 'yt-product-ten-metrics', 'course_type': 'tool', 'level': 'core'}
@@ -44,6 +44,7 @@ diagnostic_signals:
     framework_lens: "指标驱动决策"
     follow_up_question: "如果复购率下降5%，你的标准应对流程是什么？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 产品内核十大典型指标

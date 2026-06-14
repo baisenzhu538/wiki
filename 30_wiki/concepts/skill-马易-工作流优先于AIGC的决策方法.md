@@ -2,7 +2,7 @@
 id: "skill-马易-工作流优先于AIGC的决策方法"
 title: "技能：工作流优先于AIGC的决策方法"
 type: "skill"
-status: "needs-review"
+status: needs-review
 domain:
 - ai-collaboration
 - business-strategy
@@ -28,6 +28,8 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：工作流优先于AIGC的决策方法

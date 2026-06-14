@@ -22,6 +22,8 @@ related:
   - plan_20260531_data-curator-v1.3
   - huangyaoshi-data-alignment-response
   - ouyangfeng-data-alignment-response
+author: legacy
+reviewed_by: pending
 ---
 
 # Data Curator Skill — 五角色分工方案

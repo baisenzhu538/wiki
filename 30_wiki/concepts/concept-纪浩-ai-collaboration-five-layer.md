@@ -3,7 +3,7 @@
 id: "concept-纪浩-ai-collaboration-five-layer"
 title: "概念：纪浩AI协作五层工作空间法"
 type: "concept"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -34,6 +34,8 @@ tags:
 pipeline:
   - confidence-published
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 概念：纪浩AI协作五层工作空间法

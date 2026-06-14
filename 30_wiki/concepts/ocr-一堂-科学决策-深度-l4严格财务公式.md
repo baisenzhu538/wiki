@@ -5,7 +5,7 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_26271f58"
-status: "enriched"
+status: enriched
 title: "OCR: 一堂-科学决策-深度-L4严格财务公式"
 type: "concept"
 updated_at: 2026-05-22
@@ -14,6 +14,8 @@ tags:
   - #scene/learning-methodology
 pipeline:
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 一堂-科学决策-深度-L4严格财务公式

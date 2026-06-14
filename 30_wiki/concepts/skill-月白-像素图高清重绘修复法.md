@@ -2,7 +2,7 @@
 id: "skill-月白-像素图高清重绘修复法"
 title: "技能：像素图高清重绘修复法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -25,6 +25,8 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：像素图高清重绘修复法

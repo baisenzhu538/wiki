@@ -14,7 +14,9 @@ type: concept
   - ".kdo/graph_index/（LightRAG 产出物）"
 superseded_design: "v0.1 keyword-based — 原计划基于 index.json 的纯标准库方案，因黄药师已完成 LightRAG MVP 且检索质量更优，该方案已废弃"
 
-domain: []---
+domain: []
+reviewed_by: pending
+---
 
 # Graph RAG 检索层技术说明
 

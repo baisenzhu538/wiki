@@ -33,7 +33,7 @@ source_refs:
   - "10_raw/assets/yitang/泛产品设计-需求工具箱指南.png"
   - "10_raw/assets/yitang/泛产品设计-审美工具箱指南.png"
   - "10_raw/assets/yitang/泛产品设计落地工具篇指南.png"
-status: "enriched"
+status: enriched
 superseded_by: ""
 title: "泛产品设计36计·全套官方工具箱"
 type: "framework"
@@ -58,6 +58,7 @@ diagnostic_signals:
     framework_lens: "过度使用"
     follow_up_question: "这个设计问题真的需要用到那么多工具吗？工具服务于问题"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 ## Constraints & Boundaries

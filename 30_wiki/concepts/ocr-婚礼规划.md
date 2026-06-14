@@ -5,7 +5,7 @@ domain:
   - "master"
 source_refs:
   - "src_20260522_b29a6b98"
-status: "enriched"
+status: enriched
 title: "OCR: 婚礼规划"
 type: "concept"
 updated_at: 2026-05-22
@@ -16,6 +16,8 @@ tags:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 婚礼规划

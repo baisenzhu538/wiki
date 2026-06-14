@@ -21,7 +21,7 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-解放思想.png"
-status: "enriched"
+status: enriched
 title: "解放思想五层模型"
 type: "framework"
 version: 1
@@ -47,6 +47,7 @@ diagnostic_signals:
     framework_lens: "过度抽象——L5经典需要经过L3-L4才能落地"
     follow_up_question: "你最近用学科经典解决了一个什么具体问题？如果没有，经典只是知识装饰"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 解放思想五层模型

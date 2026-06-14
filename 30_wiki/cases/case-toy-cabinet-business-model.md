@@ -21,9 +21,9 @@ reviewed_by: "老顷童（精修）"
 source_refs:
   - "00_inbox/一堂五步法/一堂=一堂五步法-商业模型-线下玩具柜案例.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt"
-status: "reviewed"
+status: reviewed
 title: "案例：线下玩具柜商业模式"
-trust_level: "medium"
+trust_level: medium
 type: "case"
 updated_at: 2026-06-10
 version: 1
@@ -33,6 +33,7 @@ tags:
   - #yitang
 pipeline:
   - confidence-source-cited
+author: legacy
 ---
 
 # 案例：线下玩具柜商业模式

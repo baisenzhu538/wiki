@@ -2,7 +2,7 @@
 id: "skill-半肥猫-清洗资料为Markdown格式喂给AI"
 title: "技能：清洗资料为 Markdown 格式喂给 AI"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
 source_person: "半肥猫"
@@ -36,6 +36,7 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
 ---
 
 # 技能：清洗资料为 Markdown 格式喂给 AI

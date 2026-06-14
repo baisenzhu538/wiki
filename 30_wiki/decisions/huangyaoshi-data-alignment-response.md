@@ -18,6 +18,8 @@ related:
   - three-party-data-alignment
   - ouyangfeng-data-alignment-response
   - plan_20260531_data-curator-v1.3
+author: legacy
+reviewed_by: pending
 ---
 
 # 黄药师对齐回应：对欧阳锋补充的意见 + 4 个分歧

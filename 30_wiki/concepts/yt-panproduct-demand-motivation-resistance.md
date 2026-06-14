@@ -27,7 +27,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-动力阻力.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·用户卡片：动力阻力"
 type: "tool"
 version: 1
@@ -56,6 +56,7 @@ diagnostic_signals:
     framework_lens: "诊断性指标优于结果性指标"
     follow_up_question: "转化率涨了，但你知道是动力提升还是阻力下降导致的吗？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 动力阻力：理解转化率的本质

@@ -2,7 +2,7 @@
 id: "skill-月白-AI设计落地文件标准生成"
 title: "技能：AI设计落地文件标准生成"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -24,6 +24,8 @@ tags:
   - #scene/skill-engineering/publish-deploy
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：AI设计落地文件标准生成

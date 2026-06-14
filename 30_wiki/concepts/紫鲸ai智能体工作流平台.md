@@ -5,7 +5,7 @@ domain:
   - "['ai-saas']"
 source_refs:
   - "src_20260428_29929c1f"
-status: "enriched"
+status: enriched
 title: "紫鲸AI智能体工作流平台"
 type: "concept"
 updated_at: 2026-04-28
@@ -19,6 +19,8 @@ pipeline:
   - #boundary/single-use-only
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # 紫鲸AI智能体工作流平台

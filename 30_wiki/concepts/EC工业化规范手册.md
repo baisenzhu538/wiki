@@ -5,7 +5,7 @@ domain:
   - "healthcare"
 source_refs:
   - "src_20260503_dadc7838"
-status: "enriched"
+status: enriched
 title: "EC工业化规范手册"
 type: "concept"
 updated_at: 2026-05-03
@@ -17,6 +17,8 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # EC工业化规范手册

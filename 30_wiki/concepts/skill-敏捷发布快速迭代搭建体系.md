@@ -2,7 +2,7 @@
 id: "skill-敏捷发布快速迭代搭建体系"
 title: "技能：敏捷发布快速迭代搭建体系"
 type: "skill"
-status: "draft"
+status: draft
 domain: []
 source_person: "案例讲述者"
 source_context: "src_20260609_4ea1fba2"
@@ -16,6 +16,8 @@ created_at: "2026-06-09T15:07:29+00:00"
 updated_at: "2026-06-09T15:07:29+00:00"
 pipeline:
   - #skill
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：敏捷发布快速迭代搭建体系

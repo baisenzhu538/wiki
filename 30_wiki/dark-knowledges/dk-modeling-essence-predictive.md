@@ -3,7 +3,7 @@ id: "dk-modeling-essence-predictive"
 title: "'解释性本质'是高级鸡汤：真正值钱的本质必须能指导下一次真实决策"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "master"
@@ -24,9 +24,10 @@ tags:
   - "#domain/yitang"
   - "#method/essence-modeling"
   - "#method/decision-quality"
-trust_level: "high"
+trust_level: high
 reviewed_by: "老顽童"
 review_date: "2026-06-14"
+author: legacy
 ---
 
 # “解释性本质”是高级鸡汤：真正值钱的本质必须能指导下一次真实决策

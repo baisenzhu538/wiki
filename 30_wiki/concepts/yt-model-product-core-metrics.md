@@ -20,7 +20,7 @@ related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂产品内核-十大典型指标.png"
-status: "enriched"
+status: enriched
 title: "产品内核十大典型指标：从获客到推荐的度量框架"
 type: "framework"
 version: 1
@@ -49,6 +49,7 @@ diagnostic_signals:
     framework_lens: "没有聚焦"
     follow_up_question: "这十个指标中，你这个季度只看一个，你选哪个？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 产品内核十大典型指标：从获客到推荐的度量框架

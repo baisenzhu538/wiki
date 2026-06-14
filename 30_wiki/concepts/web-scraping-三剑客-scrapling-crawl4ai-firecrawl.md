@@ -6,9 +6,9 @@ domain:
 review_date: 2026-05-04
 reviewed_by: "黄药师"
 source_refs: ""
-status: "enriched"
+status: enriched
 title: "Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl"
-trust_level: "high"
+trust_level: high
 type: "concept"
 updated_at: 2026-05-04
 tags:
@@ -21,6 +21,7 @@ tags:
   - #web-scraping
 pipeline:
   - #boundary/requires-human-judgment
+author: legacy
 ---
 
 # Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl

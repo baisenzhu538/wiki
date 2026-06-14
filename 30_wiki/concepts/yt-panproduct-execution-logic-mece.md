@@ -29,7 +29,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-逻辑MECE.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：逻辑MECE"
 type: "tool"
 version: 1
@@ -56,6 +56,7 @@ diagnostic_signals:
     framework_lens: "MECE 是协作语言"
     follow_up_question: "一个不熟悉项目的人看了你的拆解后，能否在5分钟内提出一个合理质疑？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 逻辑MECE：做个有逻辑的人

@@ -23,7 +23,7 @@ source_refs:
   - "10_raw/assets/yitang/Truman的个人成长五步法.png"
   - "00_inbox/Truman的个人成长五步法.png  # 源图像，经 deep-image-parser 深度解析"
   - "00_inbox/Truman的个人成长五步法_paddle_ocr.txt  # PaddleOCR基线对比"
-status: "enriched"
+status: enriched
 title: "Truman的个人成长五步法：用一页纸解释全部人生规划"
 type: "framework"
 version: 1
@@ -50,6 +50,7 @@ diagnostic_signals:
     framework_lens: "知行脱节"
     follow_up_question: "你为了红点，最近三个月刻意练习了哪些能力？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # Truman的个人成长五步法：用一页纸解释全部人生规划

@@ -6,6 +6,10 @@ date: '2026-05-24'
 type: framework
 status: enriched
 domain: [decision-science]
+id: "yt-unit-model-overview"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 ## Reusable Knowledge
 

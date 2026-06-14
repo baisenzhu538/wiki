@@ -3,7 +3,12 @@
 title: "Agent 外挂大脑设计"
 type: system
 status: enriched
-domain: [master]---
+domain: [master]
+id: "agent-external-brain-design"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # Agent 外挂大脑设计
 

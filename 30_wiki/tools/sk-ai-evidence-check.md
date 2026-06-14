@@ -30,6 +30,8 @@ related:
 - ai-coaching-loop
 - sk-ai-question-problem-checklist
 domain: [ai-collaboration]
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：AI输出证据核查三问法

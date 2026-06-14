@@ -5,7 +5,7 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_0bb1cb6e"
-status: "enriched"
+status: enriched
 title: "OCR: 一堂Y模型steps策略集"
 type: "concept"
 updated_at: 2026-05-22
@@ -19,6 +19,8 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 一堂Y模型steps策略集

@@ -23,9 +23,9 @@ review_date: 2026-06-11
 reviewed_by: "周伯通"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt"
-status: "reviewed"
+status: reviewed
 title: "案例：知乎vs得到——网络效应壁垒的对比分析"
-trust_level: "medium"
+trust_level: medium
 type: "case"
 updated_at: 2026-06-11
 version: 1
@@ -36,6 +36,7 @@ tags:
   - #yitang
 pipeline:
   - confidence-source-cited
+author: legacy
 ---
 
 # 案例：知乎vs得到——网络效应壁垒的对比分析

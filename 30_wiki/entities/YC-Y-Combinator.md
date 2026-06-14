@@ -26,7 +26,9 @@ trust_level: high
 reviewed_by: "黄药师"
 review_date: "2026-05-04"
 
-domain: []---
+domain: []
+author: legacy
+---
 
 # Y Combinator
 

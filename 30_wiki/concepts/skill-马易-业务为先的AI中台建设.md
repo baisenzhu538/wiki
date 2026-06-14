@@ -2,7 +2,7 @@
 id: "skill-马易-业务为先的AI中台建设"
 title: "技能：业务为先的AI中台建设"
 type: "skill"
-status: "enriched"
+status: enriched
 domain: ["ai-implementation"]
 source_person: "马易"
 source_context: "AI落地场景识别"
@@ -29,6 +29,7 @@ tags:
   - #scene/ai-implementation
 pipeline:
   - confidence-source-cited
+author: legacy
 ---
 
 # 技能：业务为先的AI中台建设

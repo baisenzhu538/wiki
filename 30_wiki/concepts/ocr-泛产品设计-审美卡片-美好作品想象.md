@@ -5,7 +5,7 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_6697adcb"
-status: "enriched"
+status: enriched
 title: "OCR: 泛产品设计-审美卡片-美好作品想象"
 type: "concept"
 updated_at: 2026-05-22
@@ -19,6 +19,8 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 泛产品设计-审美卡片-美好作品想象

@@ -3,7 +3,7 @@ id: "dk-yb21-ecommerce-pricing-independent-model"
 title: "电商定价：线上价格带需独立建模"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: "draft"
+status: draft
 domain:
   - "design"
   - "business-strategy"
@@ -25,6 +25,8 @@ pipeline:
   - #source_type/dark-knowledge
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 电商定价：线上价格带需独立建模

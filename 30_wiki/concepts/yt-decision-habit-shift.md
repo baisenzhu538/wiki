@@ -29,9 +29,9 @@ reviewed_by: ""
 source_refs:
   - "00_inbox/科学决策/一堂-科学决策-审美拉升01口述.txt"
   - "00_inbox/科学决策/一堂-科学决策-X型Y型决策习惯对比.png"
-status: "enriched"
+status: enriched
 title: "X型→Y型决策者习惯诊断与转换"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 updated_at: 2026-05-22
 version: 1
@@ -61,6 +61,7 @@ diagnostic_signals:
     framework_lens: "社会成本被低估——工具的使用受制于权力结构和组织文化，不是个人习惯问题"
     follow_up_question: "在这个组织里，一个需要15分钟分析的决策，决策者通常有多少耐心？如果<5分钟，Y型工具需要改变使用场景（私下分析+公开汇报）"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # X型→Y型决策者习惯诊断与转换

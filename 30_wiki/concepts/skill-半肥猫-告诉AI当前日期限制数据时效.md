@@ -2,7 +2,7 @@
 id: "skill-半肥猫-告诉AI当前日期限制数据时效"
 title: "技能：告诉 AI 当前日期限制数据时效"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
 source_person: "半肥猫"
@@ -33,6 +33,7 @@ pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
   - confidence-verified-by-test
+author: legacy
 ---
 
 # 技能：告诉 AI 当前日期限制数据时效

@@ -30,9 +30,9 @@ reviewed_by: ""
 source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
   - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
-status: "reviewed"
+status: reviewed
 title: "行业分析画布：五维快速扫描+二维定位"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-industry-canvas', 'course_type': 'tool', 'level': 'intermediate'}
@@ -56,6 +56,7 @@ diagnostic_signals:
     framework_lens: "行业分析服务于进入决策"
     follow_up_question: "根据画布结论，你是进入、观望还是放弃？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 行业分析画布：五维快速扫描+二维定位

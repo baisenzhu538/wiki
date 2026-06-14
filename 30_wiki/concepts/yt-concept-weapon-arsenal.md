@@ -26,7 +26,7 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
   - "10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型-执行武器库.png"
-status: "enriched"
+status: enriched
 title: "超级武器库（元概念）"
 type: "concept"
 version: 1
@@ -52,6 +52,7 @@ diagnostic_signals:
     framework_lens: "误用——武器库是即查即用，不是教材"
     follow_up_question: "你现在是想系统学习这个方法，还是想在具体场景中快速调用？如果是前者，不要从武器库开始"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 超级武器库（元概念）

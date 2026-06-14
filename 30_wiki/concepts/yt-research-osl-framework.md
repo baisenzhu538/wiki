@@ -31,9 +31,9 @@ reviewed_by: ""
 source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
   - "00_inbox/ideas/一堂-创业-调研行动营口述01.md"
-status: "reviewed"
+status: reviewed
 title: "OSL调研五步法：一堂通用商业调研框架"
-trust_level: "medium"
+trust_level: medium
 type: "framework"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-osl-framework', 'course_type': 'framework', 'level': 'foundational'}
@@ -60,6 +60,7 @@ diagnostic_signals:
     framework_lens: "调研的终点是整合"
     follow_up_question: "多源信息之间的矛盾你是如何处理的？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # OSL调研五步法：一堂通用商业调研框架

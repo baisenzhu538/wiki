@@ -7,9 +7,9 @@ review_date: 2026-05-03
 reviewed_by: "Claude"
 source_refs:
   - "src_20260503_feab72b2"
-status: "enriched"
+status: enriched
 title: "EC工业化规范手册 v2.8.0"
-trust_level: "high"
+trust_level: high
 type: "concept"
 updated_at: 2026-05-03
 tags:
@@ -24,6 +24,7 @@ pipeline:
   - #boundary/requires-human-judgment
   - #boundary/single-use-only
   - confidence-source-cited
+author: legacy
 ---
 
 # EC工业化规范手册 v2.8.0

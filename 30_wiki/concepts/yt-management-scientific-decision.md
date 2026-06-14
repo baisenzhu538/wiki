@@ -2,7 +2,7 @@
 
 title: "Y模型/科学决策"
 type: "concept"
-status: "enriched"
+status: enriched
 domain: []
 pipeline:
   - confidence-source-cited
@@ -14,6 +14,10 @@ diagnostic_signals:
     framework_lens: "决策窗口关闭"
     follow_up_question: "你现在的信息已经够做决策了吗？如果等100%信息，机会可能已过"
 updated_at: '2026-06-13'
+id: "yt-management-scientific-decision"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # Y模型/科学决策

@@ -2,7 +2,7 @@
 id: "concept-mckinsey-issue-tree"
 title: "Issue Tree：结构化问题拆解"
 type: "tool"
-status: "enriched"
+status: enriched
 domain:
   - "consulting"
   - "yitang"
@@ -35,6 +35,7 @@ version: 1
 created_at: "2026-06-11"
 updated_at: "2026-06-11"
 reviewed_by: "laowantong"
+author: legacy
 ---
 
 # Issue Tree：结构化问题拆解

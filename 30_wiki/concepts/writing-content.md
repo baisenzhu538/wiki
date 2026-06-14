@@ -5,7 +5,7 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_5819659f"
-status: "enriched"
+status: enriched
 title: "Writing Content"
 type: "concept"
 updated_at: 2026-05-22
@@ -16,6 +16,8 @@ tags:
   - #scene/note-taking/checklist-method
 pipeline:
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # Writing Content

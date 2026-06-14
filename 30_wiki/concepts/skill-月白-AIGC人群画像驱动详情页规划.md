@@ -2,7 +2,7 @@
 id: "skill-月白-AIGC人群画像驱动详情页规划"
 title: "技能：AIGC人群画像驱动详情页规划"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -25,6 +25,8 @@ tags:
   - #scene/skill-engineering
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：AIGC人群画像驱动详情页规划

@@ -30,6 +30,8 @@ related:
 - sk-ai-problem-validation
 - ai-collaboration-mindset-shift
 domain: [ai-collaboration]
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：提问题转化三问清单

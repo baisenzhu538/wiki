@@ -26,9 +26,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "增长飞轮"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '增长飞轮', 'course_id': 489, 'course_type': 'method', 'level': 'advanced'}
@@ -49,6 +49,7 @@ diagnostic_signals:
     framework_lens: "没有核心飞轮"
     follow_up_question: "如果只能推动一个飞轮，你选哪个？为什么？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 增长飞轮

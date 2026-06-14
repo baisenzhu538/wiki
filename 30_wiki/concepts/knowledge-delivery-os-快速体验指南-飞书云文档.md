@@ -5,7 +5,7 @@ domain:
   - "['master']"
 source_refs:
   - "src_20260501_6a491b80"
-status: "enriched"
+status: enriched
 title: "Knowledge Delivery OS 快速体验指南 - 飞书云文档"
 type: "concept"
 updated_at: 2026-05-04
@@ -21,6 +21,8 @@ tags:
 pipeline:
   - #boundary/not-for-beginners
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # Knowledge Delivery OS 快速体验指南

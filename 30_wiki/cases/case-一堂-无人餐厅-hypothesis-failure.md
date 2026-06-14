@@ -2,7 +2,7 @@
 id: "case-一堂-无人餐厅-hypothesis-failure"
 title: "案例：一堂无人餐厅项目因忽视关键假设而失败"
 type: "case"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "business-strategy"
@@ -33,6 +33,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 案例：一堂无人餐厅项目因忽视关键假设而失败

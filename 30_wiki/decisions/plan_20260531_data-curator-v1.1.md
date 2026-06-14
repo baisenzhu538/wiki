@@ -20,6 +20,8 @@ related:
   - kdo-industrialization-manual
   - tool-card-excellence-standard
   - AGENTS
+author: legacy
+reviewed_by: pending
 ---
 
 # Data Curator Skill 实施方案 v1.1

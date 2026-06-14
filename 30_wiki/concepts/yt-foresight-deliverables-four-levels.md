@@ -4,7 +4,7 @@ title: "预判交付物四层级：从模糊想法到Plan ABC"
 type: "concept"
 domain:
   - "yitang"
-status: "enriched"
+status: enriched
 confidence: 0.9
 difficulty: "beginner"
 estimated_tokens: 1800
@@ -41,6 +41,7 @@ diagnostic_signals:
     framework_lens: "预判深度不足"
     follow_up_question: "你完成了五步法画布和硬伤排除记录吗？如果没有，你还在L1/L2"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 预判交付物四层级：从模糊想法到Plan ABC

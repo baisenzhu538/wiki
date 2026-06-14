@@ -5,7 +5,7 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_e31b26dd"
-status: "enriched"
+status: enriched
 title: "OCR: 一堂-科学决策-项目方案评估三角形"
 type: "concept"
 updated_at: 2026-05-22
@@ -15,6 +15,8 @@ tags:
 pipeline:
   - #boundary/not-for-creative
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 一堂-科学决策-项目方案评估三角形

@@ -23,7 +23,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-泛产品设计探索营口述版.md"
-status: "enriched"
+status: enriched
 title: "泛产品设计探索营：案例启发与认知重构"
 type: "concept"
 version: 1
@@ -52,6 +52,7 @@ diagnostic_signals:
     framework_lens: "启发必须落地"
     follow_up_question: "这个案例让你接下来要做什么不一样的事？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 泛产品设计探索营：案例启发与认知重构

@@ -2,7 +2,7 @@
 
 id: "course-to-skill-conversion"
 type: "tool"
-status: "draft"
+status: draft
 source_refs:
   - "src_20260606_90b44191"
 component_of:
@@ -30,7 +30,10 @@ pipeline:
   - confidence-verified-by-case
   - confidence-verified-by-test
 
-domain: []---
+domain: []
+author: legacy
+created_at: "2026-06-15"
+---
 
 # 课程→Skill转化：将知识变成AI可执行的能力模块
 

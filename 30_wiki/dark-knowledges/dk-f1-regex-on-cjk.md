@@ -3,7 +3,7 @@ id: "dk-f1-regex-on-cjk"
 title: "F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -30,6 +30,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched

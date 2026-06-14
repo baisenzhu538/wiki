@@ -14,6 +14,8 @@ target_roles:
   - 欧阳锋（Architect）
   - 黄药师（Builder）
   - 用户（决策者）
+author: legacy
+reviewed_by: pending
 ---
 
 # 三方认知对齐：KDO 数据管线 6+1 框架

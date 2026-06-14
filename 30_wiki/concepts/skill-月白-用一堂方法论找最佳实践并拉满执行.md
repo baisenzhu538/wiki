@@ -2,7 +2,7 @@
 id: "skill-月白-用一堂方法论找最佳实践并拉满执行"
 title: "技能：用一堂方法论找最佳实践并拉满执行"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -26,6 +26,8 @@ tags:
   - #scene/skill-engineering
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：用一堂方法论找最佳实践并拉满执行

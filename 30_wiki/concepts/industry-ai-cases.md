@@ -17,6 +17,7 @@ source_refs:
 - src_20260614_45ab8b35
 - src_20260614_5e47c1c5
 - src_20260614_b9ae158f
+- src_20260614_b9fbfc2b
 tags:
 - "#industry-ai"
 - "#business-model"

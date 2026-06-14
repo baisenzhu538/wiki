@@ -2,7 +2,7 @@
 id: "case-jh-yitang-vs-sqlhelper"
 title: "一堂数据库vs SQLHelper：同样的需求，两种产品策略——专业与通用的产品分岐"
 type: "case"
-status: "draft"
+status: draft
 domain:
   - "ai-saas"
 source_person: "纪浩"
@@ -12,6 +12,8 @@ source_refs:
   - "00_inbox/AI俱乐部-AI协作方法论-纪浩-笔记.txt"
 created_at: "2026-06-09"
 updated_at: "2026-06-10"
+author: legacy
+reviewed_by: pending
 ---
 
 # 一堂数据库vs SQLHelper

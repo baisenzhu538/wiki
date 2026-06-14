@@ -2,7 +2,7 @@
 id: "yt-note-checklist-concept"
 title: "一堂笔记法：清单体笔记的核心概念与原理"
 type: "concept"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "personal-growth"
@@ -58,6 +58,8 @@ diagnostic_signals:
     framework_lens: "形式主义"
     follow_up_question: "你收藏了多少模板？最近一周实际用来加工了几个概念？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # 一堂笔记法：清单体笔记的核心概念与原理

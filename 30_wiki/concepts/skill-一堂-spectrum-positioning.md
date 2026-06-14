@@ -2,7 +2,7 @@
 id: "skill-一堂-spectrum-positioning"
 title: "技能：光谱模型定位法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "product"
   - "yitang"
@@ -32,6 +32,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：光谱模型定位法

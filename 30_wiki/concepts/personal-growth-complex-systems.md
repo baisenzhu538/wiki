@@ -14,6 +14,7 @@ source_refs:
 - src_20260614_6fb509a4
 - src_20260614_7963c2f2
 - theme-personal-growth-summary
+- src_20260614_720e62a1
 tags:
 - "#personal-growth"
 - "#complex-systems"

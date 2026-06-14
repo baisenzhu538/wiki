@@ -34,6 +34,7 @@ tags:
 pipeline:
   - #skill-type/execution
 reviewed_by: "laowantong"
+author: legacy
 ---
 
 # 技能：延迟直觉法

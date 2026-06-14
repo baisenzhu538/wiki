@@ -26,9 +26,9 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/aima-ai-thinking-card-20260515.html"
-status: "enriched"
+status: enriched
 title: "PEAS核心洞察：决策系统的四槽诊断法"
-trust_level: "medium"
+trust_level: medium
 type: "concept"
 version: 1
 tags:
@@ -54,6 +54,7 @@ diagnostic_signals:
     framework_lens: "可能是架构错配，不是努力问题"
     follow_up_question: "这个失败是因为不够努力，还是因为某个PEAS槽位为空或与环境不匹配？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # PEAS核心洞察：决策系统的四槽诊断法

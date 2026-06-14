@@ -2,7 +2,7 @@
 id: "case-半肥猫-from-assignment-to-tool"
 title: "案例：半肥猫把一堂课程作业变成可复用调研工具"
 type: "case"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -36,6 +36,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 案例：半肥猫把一堂课程作业变成可复用调研工具

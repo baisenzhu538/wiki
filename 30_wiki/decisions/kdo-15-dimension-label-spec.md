@@ -18,6 +18,8 @@ related:
   - data-labeling-best-practices-report
   - huangyaoshi-tagging-and-scope-proposal
   - plan_20260531_data-curator-v1.3
+author: legacy
+reviewed_by: pending
 ---
 
 # KDO 标签体系：15 维度完整定义 v1.0

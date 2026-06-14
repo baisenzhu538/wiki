@@ -2,7 +2,7 @@
 
 id: "contingency-decision-making"
 type: "concept"
-status: "draft"
+status: draft
 source_refs:
   - "src_20260606_cde17edd"
 component_of: ""
@@ -22,7 +22,10 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
 
-domain: []---
+domain: []
+author: legacy
+created_at: "2026-06-15"
+---
 
 # 偶然性与决策：承认"我不知道"比虚假确定性更明智
 

@@ -2,7 +2,7 @@
 id: "concept-maister-trusted-advisor"
 title: "Trusted Advisor：可信顾问信任模型"
 type: "framework"
-status: "draft"
+status: draft
 domain:
   - "consulting"
   - "yitang"
@@ -47,6 +47,8 @@ tags:
   - "#method/checklist"
 created_at: "2026-06-11"
 updated_at: "2026-06-11"
+author: legacy
+reviewed_by: pending
 ---
 
 # Trusted Advisor：可信顾问信任模型

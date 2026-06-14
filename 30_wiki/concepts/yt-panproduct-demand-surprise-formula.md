@@ -27,7 +27,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-惊喜公式.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·用户卡片：惊喜公式"
 type: "tool"
 version: 1
@@ -58,6 +58,7 @@ diagnostic_signals:
     framework_lens: " delight 必须被验证"
     follow_up_question: "用户复购率、推荐率或满意度中，哪个指标能反映惊喜效果？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 惊喜公式：理解惊喜的本质

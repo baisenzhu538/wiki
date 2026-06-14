@@ -4,7 +4,7 @@ title: "古董奶茶店：五层筛选的加法减法实战"
 type: "case"
 domain:
   - "yitang"
-status: "enriched"
+status: enriched
 confidence: 0.9
 difficulty: "beginner"
 estimated_tokens: 2400
@@ -36,6 +36,7 @@ tags:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-outcome
+author: legacy
 ---
 
 # 古董奶茶店：五层筛选的加法减法实战

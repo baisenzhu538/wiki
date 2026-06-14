@@ -14,6 +14,8 @@ target_roles:
 related:
   - data-labeling-best-practices-report
   - kdo-15-dimension-label-spec
+author: legacy
+reviewed_by: pending
 ---
 
 # 两份标注调研的对齐：黄药师 × 老顽童

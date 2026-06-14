@@ -3,7 +3,7 @@ id: "dk-p18-yaml-parser"
 title: "P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -28,6 +28,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复

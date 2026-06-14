@@ -14,6 +14,8 @@ related:
   - kdo-15-dimension-label-spec
   - labeling-research-alignment
   - data-labeling-best-practices-report
+author: legacy
+reviewed_by: pending
 ---
 
 # 欧阳锋：数据标注全网调研 + 对 15 维度方案的补充建议

@@ -2,7 +2,7 @@
 id: "skill-一堂-product-kernel-add-subtract"
 title: "技能：产品内核加减法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "product"
   - "yitang"
@@ -34,6 +34,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：产品内核加减法

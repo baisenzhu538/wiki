@@ -25,9 +25,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "泛产品设计"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'personal', 'module': '泛产品设计', 'course_id': 'yt-personal-product-design', 'course_type': 'method', 'level': 'core'}
@@ -54,6 +54,7 @@ diagnostic_signals:
     framework_lens: "设计是循环"
     follow_up_question: "这个方案上线后，你计划收集哪些反馈来驱动下一轮迭代？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 泛产品设计

@@ -2,7 +2,7 @@
 id: "skill-一堂-five-step-validation"
 title: "技能：聊问查测盘五步验证法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "product"
   - "yitang"
@@ -36,6 +36,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：聊问查测盘五步验证法

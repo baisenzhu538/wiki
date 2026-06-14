@@ -25,7 +25,7 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂最佳转化率动力曲线图.png"
   - "10_raw/assets/yitang/一堂转化率-10大容易浪费的触点.png"
-status: "enriched"
+status: enriched
 title: "转化率优化：动力三曲线 × 十大浪费触点"
 type: "framework"
 version: 1
@@ -52,6 +52,7 @@ diagnostic_signals:
     framework_lens: "动力-阻力失衡——转化率=动力/阻力，只加动力不减阻力效果有限"
     follow_up_question: "用户旅程中哪些环节在消耗信任或增加成本？这些阻力点有没有被优化？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 转化率优化：动力三曲线 × 十大浪费触点

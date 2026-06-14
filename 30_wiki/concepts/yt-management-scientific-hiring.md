@@ -2,7 +2,7 @@
 
 title: "科学招聘"
 type: "concept"
-status: "enriched"
+status: enriched
 domain: []
 pipeline:
   - confidence-source-cited
@@ -14,6 +14,10 @@ diagnostic_signals:
     framework_lens: "越快越好论"
     follow_up_question: "招错一个人的成本你算过吗？如果算过，不会急着随便招"
 updated_at: '2026-06-13'
+id: "yt-management-scientific-hiring"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # 科学招聘

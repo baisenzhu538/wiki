@@ -3,7 +3,7 @@ id: "dk-p20-bigram-fail"
 title: "P-20：pre-screen bigram 匹配对中文文本完全失效"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -28,6 +28,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # P-20：pre-screen bigram 匹配对中文文本完全失效

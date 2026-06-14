@@ -2,7 +2,11 @@
 
 id: yt-note-ai-p-role-not-c-role
 title: "AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考"
-domain: [yitang]---
+domain: [yitang]
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考
 

@@ -2,14 +2,18 @@
 
 title: "OCR: 一堂-AI学习-truman自用的AI FeatureSet"
 type: "concept"
-status: "enriched"
+status: enriched
 source_refs: [src_20260609_03491271]
 created_at: "2026-06-09T14:03:49+00:00"
 updated_at: "2026-06-09T14:25:32+00:00"
 tags:
   - #domain/general
 
-domain: []---
+domain: []
+id: "ocr-一堂-ai学习-truman自用的ai-featureset"
+author: legacy
+reviewed_by: pending
+---
 
 
 

@@ -2,7 +2,7 @@
 
 title: "公司文化"
 type: "concept"
-status: "enriched"
+status: enriched
 domain: []
 pipeline:
   - confidence-source-cited
@@ -14,6 +14,10 @@ diagnostic_signals:
     framework_lens: "三层不一致"
     follow_up_question: "如果员工按制度做会违反价值观，他会怎么选？如果选制度，文化没落地"
 updated_at: '2026-06-13'
+id: "yt-management-company-culture"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # 公司文化

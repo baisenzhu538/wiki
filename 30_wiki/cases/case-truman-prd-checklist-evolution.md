@@ -2,7 +2,7 @@
 id: "case-truman-prd-checklist-evolution"
 title: "Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平"
 type: "case"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "personal-growth"
@@ -17,6 +17,8 @@ related:
   - "ai-learning-closed-loop"
 created_at: "2026-06-09"
 updated_at: "2026-06-09"
+author: legacy
+reviewed_by: pending
 ---
 
 # Truman的PRD清单进化

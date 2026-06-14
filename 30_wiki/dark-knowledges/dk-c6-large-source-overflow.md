@@ -3,7 +3,7 @@ id: "dk-c6-large-source-overflow"
 title: "C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "Builder"
@@ -26,6 +26,8 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去

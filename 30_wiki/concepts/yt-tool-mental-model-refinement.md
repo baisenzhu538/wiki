@@ -33,7 +33,7 @@ review_by: 2026-12-06
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修身-思维模型口述版.md"
-status: "enriched"
+status: enriched
 superseded_by: ""
 title: "思维模型提炼：从体感经验到可复用武器库"
 type: "tool"
@@ -63,6 +63,7 @@ diagnostic_signals:
     framework_lens: "体感 / 抽象风险"
     follow_up_question: "没有体感的抽象模型是否导致战略误判？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 ## Summary

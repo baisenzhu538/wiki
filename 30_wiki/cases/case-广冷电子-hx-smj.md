@@ -22,6 +22,8 @@ related:
   - dk-ef-002-bom-version-async
   - dk-ef-003-hand-soldering-bom-divergence
   - dk-ef-004-missing-diagnostic-firmware
+author: legacy
+reviewed_by: pending
 ---
 
 # 案例：广冷电子 HX-SMJ 红外光栅项目

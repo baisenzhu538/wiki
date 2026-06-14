@@ -2,7 +2,7 @@
 id: "skill-月白-AIGC产品白底图制作"
 title: "技能：AIGC产品白底图制作"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -24,6 +24,8 @@ tags:
   - #scene/learning-methodology/feedback-loop
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：AIGC产品白底图制作

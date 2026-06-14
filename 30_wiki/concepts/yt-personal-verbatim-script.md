@@ -25,9 +25,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "逐字稿"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'personal', 'module': '逐字稿', 'course_id': 408, 'course_type': 'method', 'level': 'core'}
@@ -49,6 +49,7 @@ diagnostic_signals:
     framework_lens: "逐字稿是练习工具，不是拐杖"
     follow_up_question: "你能否在只带关键词提示的情况下完成这次演讲？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 逐字稿

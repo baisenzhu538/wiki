@@ -25,9 +25,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "259里程碑"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '259里程碑', 'course_id': 259, 'course_type': 'method', 'level': 'foundational'}
@@ -47,6 +47,7 @@ diagnostic_signals:
     framework_lens: "割裂使用——259是一个整体系统"
     follow_up_question: "你的里程碑是建立在哪两个核心假设之上？如果假设错了，里程碑还有意义吗？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 259里程碑

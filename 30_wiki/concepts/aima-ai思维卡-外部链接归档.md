@@ -5,7 +5,7 @@ domain:
   - "healthcare"
 source_refs:
   - "src_20260522_a8e05d98"
-status: "enriched"
+status: enriched
 title: "AIMA AI思维卡 — 外部链接归档"
 type: "concept"
 updated_at: 2026-05-22
@@ -13,6 +13,8 @@ tags:
   - #scene/skill-engineering/publish-deploy
 pipeline:
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # AIMA AI思维卡 — 外部链接归档

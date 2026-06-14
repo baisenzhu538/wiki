@@ -30,6 +30,8 @@ related:
 - narrative-bias
 - self-organized-criticality
 domain: [ai-collaboration]
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：目的论偏差快速识别法

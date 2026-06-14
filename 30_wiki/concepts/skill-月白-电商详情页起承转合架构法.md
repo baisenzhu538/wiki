@@ -2,7 +2,7 @@
 id: "skill-月白-电商详情页起承转合架构法"
 title: "技能：电商详情页起承转合架构法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -26,6 +26,8 @@ tags:
   - #scene/skill-engineering
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：电商详情页起承转合架构法

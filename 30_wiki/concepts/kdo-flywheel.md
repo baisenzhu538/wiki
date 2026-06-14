@@ -1,7 +1,7 @@
 ---
 title: "KDO 飞轮 — 建造→使用→反思→实验"
 type: "concept"
-status: "stable"
+status: stable
 domain:
   - "master"
 created_at: 2026-06-02
@@ -28,6 +28,9 @@ tags:
 pipeline:
   - #boundary/requires-human-judgment
   - confidence-verified-by-test
+id: "kdo-flywheel"
+author: legacy
+reviewed_by: pending
 ---
 
 # KDO 飞轮 — 建造→使用→反思→实验

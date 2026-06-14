@@ -3,7 +3,7 @@
 id: "concept-一堂-kernel-validation"
 title: "产品内核验证：三维度评估 + 六策略验证"
 type: "concept"
-status: "reviewed"
+status: reviewed
 reviewed_by: "周伯通"
 domain:
   - "product"
@@ -28,6 +28,7 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
 ---
 
 # 产品内核验证：三维度评估 + 六策略验证

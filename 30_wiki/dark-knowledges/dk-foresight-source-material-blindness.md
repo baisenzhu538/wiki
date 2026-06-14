@@ -5,7 +5,7 @@ type: "dark-knowledge"
 dark_knowledge_type: "process-failure"
 domain:
   - "yitang"
-status: "enriched"
+status: enriched
 confidence: 0.95
 difficulty: "beginner"
 estimated_tokens: 1200
@@ -31,6 +31,7 @@ pipeline:
   - #dk/process-failure
   - confidence-source-cited
   - confidence-verified-by-incident
+author: legacy
 ---
 
 # 暗知识：素材命名不一致导致完整口述稿被遗漏

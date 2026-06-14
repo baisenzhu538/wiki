@@ -2,7 +2,7 @@
 id: "yt-research-action-camp-launch"
 title: "一堂调研行动营 · 启动课（LLM 精炼）"
 type: "concept"
-status: "reviewed"
+status: reviewed
 source_refs:
   - "src_20260506_e4634e13"
   - "src_20260507_67cb7ed2"
@@ -35,6 +35,7 @@ diagnostic_signals:
     framework_lens: "人控AI"
     follow_up_question: "这个调研结论中，哪些部分来自AI、哪些来自你的判断？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 一堂调研行动营 · 启动课（LLM 精炼）

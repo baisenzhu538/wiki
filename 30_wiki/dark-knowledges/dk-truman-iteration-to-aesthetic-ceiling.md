@@ -2,7 +2,7 @@
 id: "dk-truman-iteration-to-aesthetic-ceiling"
 title: "迭代到审美上限：一张图的隐形成本远超显示器——Truman的泛产品设计第一性原则"
 type: "dark-knowledge"
-status: "draft"
+status: draft
 domain:
   - "product-design"
   - "yitang"
@@ -10,6 +10,8 @@ source_refs:
   - "00_inbox/ideas/一堂-个人修炼-泛产品设计工具篇口述版.md"
 created_at: "2026-06-09"
 updated_at: "2026-06-09"
+author: legacy
+reviewed_by: pending
 ---
 
 # 迭代到审美上限：一张图的隐形成本远超显示器

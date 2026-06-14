@@ -109,6 +109,7 @@ pipeline:
 - null
 - confidence-source-cited
 - confidence-verified-by-case
+author: legacy
 ---
 
 # 终局光谱图

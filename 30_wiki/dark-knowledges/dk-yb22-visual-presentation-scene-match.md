@@ -3,7 +3,7 @@ id: "dk-yb22-visual-presentation-scene-match"
 title: "视觉呈现方式与消费场景的匹配原则"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -24,6 +24,8 @@ pipeline:
   - #source_type/dark-knowledge
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 视觉呈现方式与消费场景的匹配原则

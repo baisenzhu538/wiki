@@ -13,6 +13,9 @@ diagnostic_signals:
     framework_lens: "顺序错误"
     follow_up_question: "你的笔记有没有一个固定套路？如果没有，先建套路再谈非舒适区"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # 四要素诊断模型——刻意练习的笔记落地框架

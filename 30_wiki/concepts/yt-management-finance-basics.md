@@ -2,7 +2,7 @@
 
 title: "财务入门"
 type: "concept"
-status: "enriched"
+status: enriched
 domain: []
 pipeline:
   - confidence-source-cited
@@ -14,6 +14,10 @@ diagnostic_signals:
     framework_lens: "外包论"
     follow_up_question: "你最近一次亲自看过三表并理解数字含义是什么时候？"
 updated_at: '2026-06-13'
+id: "yt-management-finance-basics"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # 财务入门

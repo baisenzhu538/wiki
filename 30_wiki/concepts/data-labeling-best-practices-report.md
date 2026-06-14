@@ -2,7 +2,7 @@
 id: "data-labeling-best-practices-report"
 title: "数据标注最佳实践调研报告"
 type: "concept"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_refs:
@@ -24,6 +24,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 数据标注最佳实践调研报告

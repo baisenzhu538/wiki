@@ -3,7 +3,7 @@ id: "dk-f8-phony-wikilink"
 title: "F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -31,6 +31,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数

@@ -10,7 +10,9 @@ dependency: "22 篇 wiki 页面已完成 enrich，其中 12 篇尚无产出物"
 id: kdo-batch-produce-req014
 type: concept
 
-domain: []---
+domain: []
+reviewed_by: pending
+---
 
 # REQ-014 批量 Produce 12 篇 Enriched 页面
 

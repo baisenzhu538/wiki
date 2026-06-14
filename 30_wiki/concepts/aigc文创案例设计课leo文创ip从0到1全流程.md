@@ -6,7 +6,7 @@ domain:
   - "design"
 source_refs:
   - "src_20260528_4277c6be"
-status: "draft"
+status: draft
 title: "AIGC文创案例设计课：Leo文创IP从0到1全流程"
 type: "concept"
 updated_at: 2026-06-12
@@ -20,6 +20,8 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # AIGC文创案例设计课：Leo文创IP从0到1全流程

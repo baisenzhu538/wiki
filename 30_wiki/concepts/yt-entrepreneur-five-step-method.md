@@ -91,6 +91,7 @@ diagnostic_signals:
     framework_lens: "僵化使用——五步法需要循环迭代"
     follow_up_question: "你的项目走到某一步时，有没有发现需要回到前一步修正？如果没有，可能没有在真实反馈中迭代"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 一堂五步法

@@ -2,7 +2,7 @@
 id: "skill-月白-基于需求拆解找设计参考"
 title: "技能：基于需求拆解找设计参考"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -24,6 +24,8 @@ tags:
 pipeline:
   - #boundary/not-for-creative
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：基于需求拆解找设计参考

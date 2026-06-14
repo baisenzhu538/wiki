@@ -22,9 +22,9 @@ reviewed_by: "周伯通"
 source_refs:
   - "00_inbox/一堂五步法/一堂=一堂五步法-商业模型-线下玩具柜案例.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt"
-status: "reviewed"
+status: reviewed
 title: "案例：线下玩具柜的壁垒困局与突围路径"
-trust_level: "medium"
+trust_level: medium
 type: "case"
 updated_at: 2026-06-11
 version: 1
@@ -35,6 +35,7 @@ tags:
   - #yitang
 pipeline:
   - confidence-source-cited
+author: legacy
 ---
 
 # 案例：线下玩具柜的壁垒困局与突围路径

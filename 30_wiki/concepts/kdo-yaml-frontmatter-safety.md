@@ -2,7 +2,7 @@
 id: "kdo-yaml-frontmatter-safety"
 title: "KDO YAML Frontmatter 安全操作指南"
 type: "concept"
-status: "draft"
+status: draft
 domain:
   - "master"
 created_at: 2026-05-31
@@ -18,6 +18,8 @@ tags:
   - #scene/knowledge-management/tagging
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # KDO YAML Frontmatter 安全操作指南

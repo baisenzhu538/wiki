@@ -25,9 +25,9 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-产品内核-修炼段位图.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-产品内核-十大典型指标.png"
   - "00_inbox/ocr_ingest/src_ocr_一堂产品内核_十大典型指标.md"
-status: "reviewed"
+status: reviewed
 title: "产品内核修炼段位图"
-trust_level: "medium"
+trust_level: medium
 type: "framework"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '五步法', 'course_id': 'yt-product-kernel-cultivation', 'course_type': 'framework', 'level': 'core'}
@@ -49,6 +49,7 @@ diagnostic_signals:
     framework_lens: "内核是取舍标准"
     follow_up_question: "最近有没有一个功能因为不符合内核而被砍掉？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 产品内核修炼段位图

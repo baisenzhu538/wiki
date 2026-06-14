@@ -3,7 +3,7 @@ id: "dk-f10-broken-source-refs"
 title: "F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -30,6 +30,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料

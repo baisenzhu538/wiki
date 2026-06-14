@@ -2,7 +2,7 @@
 id: "case-一堂-陈贤敏汉堡-hypothesis-validation"
 title: "案例：陈贤敏中式汉堡先开实验店验证关键假设"
 type: "case"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "business-strategy"
@@ -33,6 +33,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 案例：陈贤敏中式汉堡先开实验店验证关键假设

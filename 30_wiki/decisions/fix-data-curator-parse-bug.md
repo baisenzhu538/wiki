@@ -14,6 +14,8 @@ related:
   - plan_20260531_data-curator-v1
   - gold-standard-manual-labels
   - kdo-15-dimension-label-spec
+author: legacy
+reviewed_by: pending
 ---
 
 # Data Curator Phase 2 Clean — parse_frontmatter 修复方案

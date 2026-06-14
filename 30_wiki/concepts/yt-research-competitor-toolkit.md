@@ -29,9 +29,9 @@ reviewed_by: ""
 source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
   - "00_inbox/ideas/一堂-创业必修-需求分析.md"
-status: "reviewed"
+status: reviewed
 title: "竞品拆解工具包：三层分类+内核边界+单元模型对标"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-competitor-toolkit', 'course_type': 'tool', 'level': 'intermediate'}
@@ -58,6 +58,7 @@ diagnostic_signals:
     framework_lens: "竞品分析服务于自身决策"
     follow_up_question: "基于竞品分析，你要调整自己的定位、功能还是商业模式？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 竞品拆解工具包：三层分类+内核边界+单元模型对标

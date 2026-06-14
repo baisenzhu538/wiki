@@ -2,7 +2,7 @@
 id: "case-shampoo-product-kernel"
 title: "洗发水产品内核：从卖点混淆到内核清晰的产品定义案例"
 type: "case"
-status: "reviewed"
+status: reviewed
 domain:
   - "product"
   - "yitang"
@@ -26,6 +26,8 @@ tags:
 pipeline:
   - confidence-source-cited
   - confidence-case-verified
+author: legacy
+reviewed_by: pending
 ---
 
 # 洗发水产品内核：从卖点混淆到内核清晰的产品定义案例

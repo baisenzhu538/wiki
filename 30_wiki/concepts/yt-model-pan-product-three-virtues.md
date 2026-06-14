@@ -29,7 +29,7 @@ review_by: 2026-11-11
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计者的三大自我修养.png"
-status: "enriched"
+status: enriched
 superseded_by: ""
 title: "泛产品三大自我修养：用户价值×最佳实践×无限进步"
 type: "framework"
@@ -50,6 +50,7 @@ diagnostic_signals:
     framework_lens: "修养失衡（有标准无方向）"
     follow_up_question: "这个产品解决了什么真实用户需求？如果需求不清，审美是自恋"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 ## Constraints & Boundaries

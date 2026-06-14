@@ -2,7 +2,7 @@
 id: "yt-prompt-iterative-prompting"
 title: "迭代式提示词工作流（5步法）"
 type: "tool"
-status: "enriched"
+status: enriched
 domain:
   - "yitang"
   - "ai"
@@ -52,6 +52,8 @@ diagnostic_signals:
     framework_lens: "迭代需要目标"
     follow_up_question: "你清楚下一轮希望AI在哪个维度改进吗？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # 迭代式提示词工作流（5步法）

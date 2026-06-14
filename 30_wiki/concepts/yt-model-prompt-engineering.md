@@ -2,7 +2,7 @@
 id: "yt-model-prompt-engineering"
 title: "人机协作操作系统：提示词工程总框架"
 type: "framework"
-status: "enriched"
+status: enriched
 domain:
   - "yitang"
   - "ai"
@@ -55,6 +55,7 @@ diagnostic_signals:
     framework_lens: "人类判断力缺失"
     follow_up_question: '你最近一次对AI输出说了"这个不对，因为..."是什么时候？'
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 人机协作操作系统：提示词工程总框架

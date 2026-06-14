@@ -2,7 +2,7 @@
 id: "skill-纪浩-日志驱动排查法"
 title: "技能：日志驱动排查法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -29,6 +29,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：日志驱动排查法

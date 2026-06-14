@@ -5,7 +5,7 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_9cbdf4fd"
-status: "enriched"
+status: enriched
 title: "OCR: truman的选择：两条职业成长路线"
 type: "concept"
 updated_at: 2026-05-22
@@ -16,6 +16,8 @@ tags:
   - #scene/product-design
 pipeline:
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: truman的选择：两条职业成长路线

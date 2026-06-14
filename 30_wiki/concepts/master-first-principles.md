@@ -28,7 +28,7 @@ related:
 reviewed_by: ""
 source_refs:
   - {"来源": "Aristotle, Elon Musk"}
-status: "enriched"
+status: enriched
 title: "第一性原理拆解器"
 type: "tool"
 updated_at: 2026-05-18
@@ -40,6 +40,7 @@ pipeline:
   - #boundary/single-use-only
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
 ---
 
 # 第一性原理拆解器

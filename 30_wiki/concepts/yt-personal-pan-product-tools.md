@@ -25,7 +25,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-泛产品设计工具篇口述版.md"
-status: "enriched"
+status: enriched
 title: "泛产品设计工具篇：出牌教学法与30张卡牌"
 type: "concept"
 version: 1
@@ -52,6 +52,7 @@ diagnostic_signals:
     framework_lens: "工具能力在反馈中进化"
     follow_up_question: "上次用某张牌效果不好的原因是什么？是牌选错了还是用错了？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 泛产品设计工具篇：出牌教学法与30张卡牌

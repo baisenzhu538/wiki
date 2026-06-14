@@ -2,7 +2,7 @@
 id: "skill-月白-AI一句话改图尺寸"
 title: "技能：AI一句话改图尺寸"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -24,6 +24,8 @@ tags:
   - #scene/skill-engineering/publish-deploy
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：AI一句话改图尺寸

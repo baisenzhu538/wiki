@@ -5,7 +5,7 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_4754d8fd"
-status: "enriched"
+status: enriched
 title: "OCR: 一堂泛产品设计-多出牌多练习"
 type: "concept"
 updated_at: 2026-05-22
@@ -22,6 +22,8 @@ pipeline:
   - #boundary/not-for-beginners
   - #boundary/requires-human-judgment
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # OCR: 一堂泛产品设计-多出牌多练习

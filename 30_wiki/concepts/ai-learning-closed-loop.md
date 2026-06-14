@@ -2,7 +2,7 @@
 
 id: "ai-learning-closed-loop"
 type: "concept"
-status: "draft"
+status: draft
 source_refs:
   - "src_20260606_90b44191"
 component_of: ""
@@ -33,7 +33,10 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
 
-domain: []---
+domain: []
+author: legacy
+created_at: "2026-06-15"
+---
 
 # AI学习闭环：从"听懂"到"能力"的转化路径
 

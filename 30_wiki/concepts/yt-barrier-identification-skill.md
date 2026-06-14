@@ -27,9 +27,9 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-假的壁垒.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-规模经济分析武器库.png"
-status: "reviewed"
+status: reviewed
 title: "壁垒识别与构建技能：从真假壁垒到护城河建设"
-trust_level: "medium"
+trust_level: medium
 type: "skill"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '壁垒', 'course_id': 'yt-barrier-identification-skill', 'course_type': 'skill', 'level': 'core'}
@@ -47,6 +47,7 @@ diagnostic_signals:
     framework_lens: "识别≠建设——壁垒是长期工程"
     follow_up_question: "为了建立这个壁垒，你接下来90天要做什么具体动作？谁负责？花多少钱？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 壁垒识别与构建技能：从真假壁垒到护城河建设

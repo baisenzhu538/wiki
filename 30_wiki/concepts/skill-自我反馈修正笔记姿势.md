@@ -2,7 +2,7 @@
 id: "skill-自我反馈修正笔记姿势"
 title: "技能：自我反馈修正笔记姿势"
 type: "skill"
-status: "draft"
+status: draft
 domain: []
 source_person: "一堂"
 source_context: "src_20260609_6809033f"
@@ -16,6 +16,8 @@ created_at: "2026-06-09T14:40:41+00:00"
 updated_at: "2026-06-09T14:40:41+00:00"
 pipeline:
   - #skill
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：自我反馈修正笔记姿势

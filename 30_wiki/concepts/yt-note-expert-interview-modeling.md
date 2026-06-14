@@ -2,7 +2,7 @@
 id: "yt-note-expert-interview-modeling"
 title: "专家访谈式笔记：边聊边建模的高阶认知工作流"
 type: "concept"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "personal-growth"
@@ -47,6 +47,8 @@ diagnostic_signals:
     framework_lens: "关系张力处理不好"
     follow_up_question: "你建模时有没有和对方互动、确认、挑战？还是只顾自己写？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # 专家访谈式笔记：边聊边建模的高阶认知工作流

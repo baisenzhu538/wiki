@@ -3,7 +3,7 @@ id: "dk-c2-dual-status-machine"
 title: "C-2：Schema status 字段混用两个状态机→字段值互相污染"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "Builder"
@@ -26,6 +26,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # C-2：Schema status 字段混用两个状态机→字段值互相污染

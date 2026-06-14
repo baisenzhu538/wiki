@@ -3,8 +3,12 @@
 id: "skill-马易-AI项目上线-先平行再独行"
 title: "技能：AI项目上线-先平行再独行"
 type: "skill"
-status: "needs-review"
-domain: []---
+status: needs-review
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：AI项目上线-先平行再独行
 

@@ -25,9 +25,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "时间管理"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'personal', 'module': '时间管理', 'course_id': 401, 'course_type': 'method', 'level': 'foundational'}
@@ -52,6 +52,7 @@ diagnostic_signals:
     framework_lens: "时间管理需要反馈闭环"
     follow_up_question: "上周实际时间分配与计划差异最大的地方是什么？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 时间管理

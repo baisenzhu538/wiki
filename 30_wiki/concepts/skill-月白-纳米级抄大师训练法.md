@@ -2,7 +2,7 @@
 id: "skill-月白-纳米级抄大师训练法"
 title: "技能：纳米级抄大师训练法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -26,6 +26,8 @@ pipeline:
   - #boundary/not-for-beginners
   - #boundary/requires-human-judgment
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：纳米级抄大师训练法

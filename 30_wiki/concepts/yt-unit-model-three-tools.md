@@ -24,9 +24,9 @@ reviewed_by: "洪七公"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-斧子尺子和梯子.png"
-status: "reviewed"
+status: reviewed
 title: "单元模型三工具：斧子尺子梯子"
-trust_level: "medium"
+trust_level: medium
 type: "framework"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '五步法', 'course_id': 'yt-unit-model-three-tools', 'course_type': 'framework', 'level': 'core'}
@@ -50,6 +50,7 @@ diagnostic_signals:
     framework_lens: "护城河 / 规模经济对抗"
     follow_up_question: "是否只关注 ROI 而忽视竞争对手能否复制？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 单元模型三工具：斧子尺子梯子

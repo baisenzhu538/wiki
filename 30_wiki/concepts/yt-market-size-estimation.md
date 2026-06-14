@@ -23,9 +23,9 @@ reviewed_by: "老顷童（精修）"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-需求-市场规模估算四种方法.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-需求-口述.txt"
-status: "reviewed"
+status: reviewed
 title: "市场规模估算四种方法"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '需求', 'course_id': 'yt-market-size-estimation', 'course_type': 'tool', 'level': 'core'}
@@ -43,6 +43,7 @@ diagnostic_signals:
     framework_lens: "混淆TAM/SAM/SOM"
     follow_up_question: "TAM、SAM、SOM分别是多少？如果只有一个数字，概念混淆"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 市场规模估算四种方法

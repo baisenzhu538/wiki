@@ -4,7 +4,7 @@ title: "案例：五步法中识别真壁垒和假壁垒"
 type: "case"
 domain:
   - "yitang"
-status: "enriched"
+status: enriched
 confidence: 0.85
 difficulty: "intermediate"
 estimated_tokens: 2400
@@ -48,6 +48,7 @@ wiki_refs:
   - "30_wiki/concepts/yt-scale-economy-weapon-library.md"
   - "30_wiki/concepts/yt-five-step-method.md"
   - "30_wiki/concepts/case-five-step-growth-first-lever.md"
+author: legacy
 ---
 
 # 案例：五步法中识别真壁垒和假壁垒

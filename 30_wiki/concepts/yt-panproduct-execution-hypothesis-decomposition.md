@@ -29,7 +29,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-假设拆解.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：假设拆解"
 type: "tool"
 version: 1
@@ -58,6 +58,7 @@ diagnostic_signals:
     framework_lens: "贝叶斯迭代"
     follow_up_question: "最近一次的验证结果改变了你的假设排序吗？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 假设拆解：拆解出影响产品成败的关键假设

@@ -34,7 +34,7 @@ source_refs:
   - "10_raw/assets/yitang/泛产品设计落地工具篇指南.png"
   - "10_raw/assets/yitang/泛产品设计-落地卡片-内核和边界.png"
   - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
-status: "enriched"
+status: enriched
 superseded_by: ""
 title: "泛产品设计·落地工具箱（19张卡牌）"
 type: "framework"
@@ -58,6 +58,7 @@ diagnostic_signals:
     framework_lens: "缺乏反馈闭环"
     follow_up_question: "你打磨的每个版本有没有人看、有人用、有人反馈？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 ## Constraints & Boundaries

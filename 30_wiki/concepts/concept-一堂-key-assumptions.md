@@ -3,7 +3,7 @@
 id: "concept-一堂-key-assumptions"
 title: "关键假设思维：259工具与假设驱动的创业方法"
 type: "concept"
-status: "reviewed"
+status: reviewed
 reviewed_by: "周伯通"
 domain:
   - "product"
@@ -28,6 +28,7 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
 ---
 
 # 关键假设思维：259工具与假设驱动的创业方法

@@ -20,6 +20,7 @@ source_refs:
 - src_20260614_c1430e21
 - src_20260614_4b226b4f
 - src_20260614_d78e7c7b
+- src_20260614_329d0e0c
 tags:
 - "#ai-methodology"
 - "#tool-stack"

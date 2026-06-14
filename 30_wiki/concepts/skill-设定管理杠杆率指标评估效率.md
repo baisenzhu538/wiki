@@ -2,7 +2,7 @@
 id: "skill-设定管理杠杆率指标评估效率"
 title: "技能：设定管理杠杆率指标评估效率"
 type: "skill"
-status: "draft"
+status: draft
 domain: []
 source_person: "课程设计者"
 source_context: "src_20260609_1c8b4d0e"
@@ -16,6 +16,8 @@ created_at: "2026-06-09T15:06:23+00:00"
 updated_at: "2026-06-09T15:06:23+00:00"
 pipeline:
   - #skill
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：设定管理杠杆率指标评估效率

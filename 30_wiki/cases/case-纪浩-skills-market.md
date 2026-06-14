@@ -2,7 +2,7 @@
 id: "case-纪浩-skills-market"
 title: "案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助"
 type: "case"
-status: "draft"
+status: draft
 domain:
   - "agent-infrastructure"
   - "yitang"
@@ -30,6 +30,8 @@ created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
   - "case-truman-ai-partner"
+author: legacy
+reviewed_by: pending
 ---
 
 # 案例：一堂内部 Skills 分发平台

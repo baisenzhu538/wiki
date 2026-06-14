@@ -11,9 +11,9 @@ related:
   - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
 review_date: 2026-05-04
 reviewed_by: "黄药师"
-status: "enriched"
+status: enriched
 title: "Graph RAG — Knowledge-Graph-Powered Retrieval"
-trust_level: "medium"
+trust_level: medium
 type: "concept"
 updated_at: 2026-05-03
 tags:
@@ -30,6 +30,7 @@ pipeline:
   - #boundary/requires-human-judgment
   - #boundary/single-use-only
   - confidence-verified-by-case
+author: legacy
 ---
 
 # Graph RAG — Knowledge-Graph-Powered Retrieval

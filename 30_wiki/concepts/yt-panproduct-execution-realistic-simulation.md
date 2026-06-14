@@ -29,7 +29,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-努力仿真.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：努力仿真"
 type: "tool"
 version: 1
@@ -58,6 +58,7 @@ diagnostic_signals:
     framework_lens: "仿真的价值在于发现真实摩擦"
     follow_up_question: "这次仿真最大的意外发现是什么？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 努力仿真：在真实场景做真东西

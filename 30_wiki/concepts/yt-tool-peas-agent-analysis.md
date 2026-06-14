@@ -30,9 +30,9 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/aima-ai-thinking-card-20260515.html"
   - "10_raw/sources/aima-ai-thinking-card-20260515.md"
-status: "enriched"
+status: enriched
 title: "PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 tags:
@@ -62,6 +62,7 @@ diagnostic_signals:
     framework_lens: "危机响应 / 不确定性"
     follow_up_question: "危机时是否还在慢慢拆解效用函数？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统

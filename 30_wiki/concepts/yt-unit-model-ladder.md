@@ -78,6 +78,7 @@ diagnostic_signals:
     framework_lens: "实战 / 学习迁移"
     follow_up_question: "训练是否停留在纸面案例而非真实数据？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 单元模型六段进阶：从不会算账到动态预判

@@ -4,7 +4,7 @@ title: "十大硬伤：商业机会的致死缺陷清单"
 type: "tool"
 domain:
   - "yitang"
-status: "enriched"
+status: enriched
 confidence: 0.9
 difficulty: "intermediate"
 estimated_tokens: 2400
@@ -46,6 +46,7 @@ diagnostic_signals:
     framework_lens: "没有结合目标规模"
     follow_up_question: "你的项目目标规模是什么？这条硬伤对这个规模来说真的致命吗？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 十大硬伤：商业机会的致死缺陷清单

@@ -2,7 +2,7 @@
 id: "skill-半肥猫-判断课程是否值得做成Skill"
 title: "技能：判断课程是否值得做成Skill"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -36,6 +36,7 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
 ---
 
 # 技能：判断课程是否值得做成Skill

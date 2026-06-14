@@ -25,9 +25,9 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
-status: "enriched"
+status: enriched
 title: "科学成长（刻意练习）"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'personal', 'module': '科学成长（刻意练习）', 'course_id': 406, 'course_type': 'method', 'level': 'foundational'}
@@ -56,6 +56,7 @@ diagnostic_signals:
     framework_lens: "拉伸区最利于成长"
     follow_up_question: "这次练习有多难？如果轻松完成，是否该增加难度？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 科学成长（刻意练习）

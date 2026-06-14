@@ -2,7 +2,7 @@
 id: "case-半肥猫-skill-ab-test"
 title: "案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比"
 type: "case"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -32,6 +32,8 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
   - confidence-verified-by-test
+author: legacy
+reviewed_by: pending
 ---
 
 # 案例：Skill A/B 测试

@@ -30,7 +30,7 @@ review_by: 2026-12-06
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修炼-泛产品设计工具篇口述版.md"
-status: "enriched"
+status: enriched
 superseded_by: ""
 title: "FAB核心说服：从产品特性到用户利益的转化法"
 type: "tool"
@@ -59,6 +59,7 @@ diagnostic_signals:
     framework_lens: "场景适配 / 说服节奏"
     follow_up_question: "高客单价/低认知场景是否仍在用功能列表开场？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 ## Summary

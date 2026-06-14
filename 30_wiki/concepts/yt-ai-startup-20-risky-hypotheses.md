@@ -22,9 +22,9 @@ review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
   - "00_inbox/一堂-机会预判-AI创业案例-20个高风险假设清单.png"
-status: "enriched"
+status: enriched
 title: "AI创业20个高风险假设清单"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '机会预判', 'course_id': 'yt-ai-startup-20-risky-hypotheses', 'course_type': 'tool', 'level': 'core'}
@@ -43,6 +43,7 @@ diagnostic_signals:
     framework_lens: "五维失衡——清单是系统性的，不能只挑熟悉的看"
     follow_up_question: "你的商业模式假设和壁垒假设分别列了几条？如果少于需求类的一半，分析是失衡的"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # AI创业20个高风险假设清单

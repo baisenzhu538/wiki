@@ -32,6 +32,7 @@ tags:
 pipeline:
   - #skill-type/validation
 reviewed_by: "laowantong"
+author: legacy
 ---
 
 # 技能：真需求四要素验证法

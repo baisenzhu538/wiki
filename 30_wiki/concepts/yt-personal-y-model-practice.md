@@ -22,7 +22,7 @@ related: []
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修炼-Y模型实操口述版.md"
-status: "enriched"
+status: enriched
 title: "Y模型实操：科学成事的底层操作系统"
 type: "tool"
 version: 1
@@ -50,6 +50,7 @@ diagnostic_signals:
     framework_lens: "Y模型跨域迁移"
     follow_up_question: "这个Y模型在另一个领域中如何表达？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # Y模型实操：科学成事的底层操作系统

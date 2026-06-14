@@ -17,6 +17,8 @@ related:
   - labeling-research-alignment
   - ouyangfeng-labeling-research-review
   - 数据标注维度最佳实践调研报告（老顽童）
+author: legacy
+reviewed_by: pending
 ---
 
 # 数据标注方案最终汇总 — 三方调研 + 黄药师独立判断

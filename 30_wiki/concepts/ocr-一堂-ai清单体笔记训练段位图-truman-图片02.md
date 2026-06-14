@@ -2,14 +2,18 @@
 
 title: "OCR: 一堂-AI清单体笔记（训练段位图）-truman-图片02"
 type: "concept"
-status: "enriched"
+status: enriched
 source_refs: [src_20260609_6809033f]
 created_at: "2026-06-09T14:03:49+00:00"
 updated_at: "2026-06-09T14:28:40+00:00"
 tags:
   - #domain/general
 
-domain: []---
+domain: []
+id: "ocr-一堂-ai清单体笔记训练段位图-truman-图片02"
+author: legacy
+reviewed_by: pending
+---
 
 
 

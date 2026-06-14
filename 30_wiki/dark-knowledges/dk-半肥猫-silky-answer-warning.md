@@ -2,7 +2,7 @@
 id: "dk-半肥猫-silky-answer-warning"
 title: "暗知识：AI 回答越丝滑，问题越大"
 type: "dark-knowledge"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -27,6 +27,8 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # 暗知识：AI 回答越丝滑，问题越大

@@ -3,7 +3,7 @@ id: "dk-p16-validate-reads-state-json"
 title: "P-16：validate 优先读取 state.json 而非文件 frontmatter"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -30,6 +30,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # P-16：validate 优先读取 state.json 而非文件 frontmatter

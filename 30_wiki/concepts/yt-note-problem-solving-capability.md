@@ -2,7 +2,7 @@
 id: "yt-note-problem-solving-capability"
 title: "笔记能力=解决问题能力：从备忘工具到问题解决系统"
 type: "concept"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "personal-growth"
@@ -46,6 +46,8 @@ diagnostic_signals:
     framework_lens: "笔记是活的迭代系统"
     follow_up_question: "这篇笔记在最近一周内是否被修改或引用过？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # 笔记能力=解决问题能力：从备忘工具到问题解决系统

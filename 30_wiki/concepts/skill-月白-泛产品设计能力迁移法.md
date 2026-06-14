@@ -2,7 +2,7 @@
 id: "skill-月白-泛产品设计能力迁移法"
 title: "技能：泛产品设计能力迁移法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -27,6 +27,8 @@ tags:
   - #scene/skill-engineering/publish-deploy
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：泛产品设计能力迁移法

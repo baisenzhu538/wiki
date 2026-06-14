@@ -4,7 +4,11 @@ id: skill-纪浩-识别AI不可维护代码
 title: 技能：识别AI不可维护代码
 type: skill
 status: draft
-domain: []---
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 # 技能：识别AI不可维护代码
 
 - **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲

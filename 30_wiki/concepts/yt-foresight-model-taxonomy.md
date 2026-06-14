@@ -21,13 +21,13 @@ review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
   - "00_inbox/预判模型.png"
-status: "enriched"
+status: enriched
 tags:
   - "#scene/business-analysis"
   - "#scene/learning-methodology"
   - "#yitang"
 title: "预判模型分类"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '机会预判', 'course_id': 'yt-foresight-model-taxonomy', 'course_type': 'tool', 'level': 'core'}
@@ -44,6 +44,7 @@ diagnostic_signals:
     framework_lens: "工具分层需要决策规则，否则因人而异"
     follow_up_question: "如果两个人分别用 N要素 和 Checklist 评估同一机会，你们会如何裁决？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 预判模型分类

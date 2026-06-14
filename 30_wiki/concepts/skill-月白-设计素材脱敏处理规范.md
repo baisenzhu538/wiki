@@ -2,7 +2,7 @@
 id: "skill-月白-设计素材脱敏处理规范"
 title: "技能：设计素材脱敏处理规范"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -26,6 +26,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：设计素材脱敏处理规范

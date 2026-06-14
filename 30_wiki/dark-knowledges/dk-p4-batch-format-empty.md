@@ -3,7 +3,7 @@ id: "dk-p4-batch-format-empty"
 title: "P-4：批量格式升级产生“格式完整但思维空洞”卡片 (C-8)"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "system"
@@ -30,6 +30,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # P-4：批量格式升级产生“格式完整但思维空洞”卡片 (C-8)

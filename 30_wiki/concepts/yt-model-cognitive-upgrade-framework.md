@@ -31,9 +31,9 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/aima-ai-thinking-card-20260515.html"
   - "10_raw/sources/aima-ai-thinking-card-20260515.md"
-status: "enriched"
+status: enriched
 title: "认知升级十步框架：从「读书」到「安装认知补丁」"
-trust_level: "medium"
+trust_level: medium
 type: "framework"
 updated_at: 2026-05-15
 version: 1
@@ -60,6 +60,7 @@ diagnostic_signals:
     framework_lens: "框架过度使用——十步框架是深度阅读工具，不是所有书的标配"
     follow_up_question: "这本书对你的当前问题有多重要？如果不重要，用简化版或跳过某些步骤"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 认知升级十步框架：从「读书」到「安装认知补丁」

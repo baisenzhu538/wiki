@@ -9,6 +9,9 @@ updated_at: '2026-06-13'
 tags:
 - null
 domain: []
+id: "ocr-一堂-科学决策-决策三角形"
+author: legacy
+reviewed_by: pending
 ---
 
 

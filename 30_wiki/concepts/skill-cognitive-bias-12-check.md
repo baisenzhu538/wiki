@@ -32,6 +32,7 @@ tags:
 pipeline:
   - #skill-type/validation
 reviewed_by: "laowantong"
+author: legacy
 ---
 
 # 技能：12种认知偏差完整自检

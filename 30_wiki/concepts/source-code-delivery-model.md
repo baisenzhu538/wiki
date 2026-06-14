@@ -30,6 +30,8 @@ tags:
   - #saas
   - #source-code
   - #software-delivery
+author: legacy
+reviewed_by: pending
 ---
 
 # 源码交付模式

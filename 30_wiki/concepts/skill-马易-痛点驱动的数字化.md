@@ -3,8 +3,12 @@
 id: "skill-马易-痛点驱动的数字化"
 title: "技能：痛点驱动的数字化"
 type: "skill"
-status: "needs-review"
-domain: []---
+status: needs-review
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：痛点驱动的数字化
 

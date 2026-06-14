@@ -2,7 +2,7 @@
 id: "skill-半肥猫-course-to-skill-workflow"
 title: "课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -36,6 +36,7 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
 ---
 
 # 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化

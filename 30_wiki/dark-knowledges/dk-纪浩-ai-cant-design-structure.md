@@ -2,7 +2,7 @@
 id: "dk-纪浩-ai-cant-design-structure"
 title: "暗知识：AI不会自己搞结构设计"
 type: "dk"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -22,6 +22,8 @@ tags:
 pipeline:
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 暗知识：AI不会自己搞结构设计

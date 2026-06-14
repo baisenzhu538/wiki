@@ -43,9 +43,9 @@ related:
   - "master-decision-hygiene"
 source_refs:
   - "30_wiki/concepts/yt-management-goal-management.md"
-status: "draft"
+status: draft
 title: "OKR 制定与复盘罗盘"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'management', 'module': '管业务', 'course_type': 'tool', 'level': 'core'}
@@ -77,6 +77,8 @@ diagnostic_signals:
     framework_lens: "信任建立 / 激励兼容"
     follow_up_question: "OKR 是否变成变相 KPI？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # OKR 制定与复盘罗盘

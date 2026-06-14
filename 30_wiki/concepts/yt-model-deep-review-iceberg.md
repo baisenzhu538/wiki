@@ -20,7 +20,7 @@ related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂深度复盘冰山图.png"
-status: "enriched"
+status: enriched
 title: "深度复盘冰山图：从主观感受到能力建设的五层穿透"
 type: "framework"
 version: 1
@@ -45,6 +45,7 @@ diagnostic_signals:
     framework_lens: "复盘没有闭环——发现规律但不建设能力"
     follow_up_question: "这个底层模型对应到哪个具体能力缺失？下个月谁会负责提升这个能力？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 深度复盘冰山图：从主观感受到能力建设的五层穿透

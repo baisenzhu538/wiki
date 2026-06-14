@@ -3,8 +3,12 @@
 id: "skill-马易-时间序列大模型场景识别"
 title: "技能：时间序列大模型场景识别"
 type: "skill"
-status: "needs-review"
-domain: []---
+status: needs-review
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：时间序列大模型场景识别
 

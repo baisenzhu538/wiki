@@ -3,7 +3,7 @@ id: "dk-yb31-style-first-controlnet"
 title: "AI绘图工作流：先锁风格再开ControlNet"
 type: "dark-knowledge"
 dark_knowledge_type: "workflow"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -23,6 +23,8 @@ pipeline:
   - #source_type/dark-knowledge
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # AI绘图工作流：先锁风格再开ControlNet

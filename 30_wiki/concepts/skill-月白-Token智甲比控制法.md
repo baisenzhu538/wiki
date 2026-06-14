@@ -2,7 +2,7 @@
 id: "skill-月白-Token智甲比控制法"
 title: "技能：Token智甲比控制法"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -28,6 +28,8 @@ pipeline:
   - #boundary/not-for-creative
   - #boundary/requires-human-judgment
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：Token智甲比控制法

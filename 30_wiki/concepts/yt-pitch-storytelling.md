@@ -25,7 +25,7 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
-status: "enriched"
+status: enriched
 title: "讲香·故事化"
 type: "tool"
 version: 1
@@ -52,6 +52,7 @@ diagnostic_signals:
     framework_lens: "故事需要节奏"
     follow_up_question: "如果删掉故事的前30%，会影响效果吗？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 讲香·故事化

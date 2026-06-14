@@ -29,7 +29,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-攻坚会.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：攻坚会"
 type: "tool"
 version: 1
@@ -58,6 +58,7 @@ diagnostic_signals:
     framework_lens: "攻坚会必须产出结论"
     follow_up_question: "如果会议超时仍未达成共识，谁来拍板？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 攻坚会：重点课题all-in攻坚

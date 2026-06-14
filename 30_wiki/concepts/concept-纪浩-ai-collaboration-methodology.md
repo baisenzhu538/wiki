@@ -3,7 +3,7 @@
 id: "concept-纪浩-ai-collaboration-methodology"
 title: "纪浩 AI 协作方法论：从判断到规模复用的五层体系"
 type: "concept"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -53,6 +53,8 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # 纪浩 AI 协作方法论

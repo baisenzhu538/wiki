@@ -95,6 +95,7 @@ diagnostic_signals:
     framework_lens: "跨阶段跳跃——创业地图有阶段顺序，跳过当前阶段的工具会消化不良"
     follow_up_question: "你当前业务最大的问题在哪个阶段？是需求验证、商业模式、增长还是壁垒？先锁定当前阶段"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 一堂创业地图：高潜力创业者修炼全景图

@@ -66,6 +66,7 @@ diagnostic_signals:
     framework_lens: "单元选择错配——单元不能代表业务核心经济逻辑"
     follow_up_question: "这个单元是否能独立运营？是否能反映你最关心的那个商业问题？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 单元模型选择法：复制哪个算哪个，找到核心经济单元

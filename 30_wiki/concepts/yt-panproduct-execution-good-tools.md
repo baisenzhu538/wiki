@@ -28,7 +28,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-善用佳软.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：善用佳软"
 type: "tool"
 version: 1
@@ -60,6 +60,7 @@ diagnostic_signals:
     framework_lens: "工具栈需要保鲜"
     follow_up_question: "最近半年有没有停用某个工具？为什么？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 善用佳软：多学习一些简单产品工具

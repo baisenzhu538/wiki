@@ -31,6 +31,8 @@ related:
 - sk-ai-question-problem-checklist
 - ai-collaboration-mindset-shift
 domain: [ai-collaboration]
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：问题验证三维度法

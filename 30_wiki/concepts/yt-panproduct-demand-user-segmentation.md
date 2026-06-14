@@ -26,7 +26,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-用户分层.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·用户卡片：用户分层"
 type: "tool"
 version: 1
@@ -55,6 +55,7 @@ diagnostic_signals:
     framework_lens: "分层是假设，需要验证"
     follow_up_question: "你最近一次用什么数据验证了某个分层的存在？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 用户分层：分层理解用户差异

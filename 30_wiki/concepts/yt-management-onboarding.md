@@ -2,7 +2,7 @@
 
 title: "新人落地"
 type: "concept"
-status: "enriched"
+status: enriched
 domain: []
 pipeline:
   - confidence-source-cited
@@ -14,6 +14,10 @@ diagnostic_signals:
     framework_lens: "填鸭论"
     follow_up_question: "新人第一周结束后能记住多少培训内容？如果<30%，信息过载了"
 updated_at: '2026-06-13'
+id: "yt-management-onboarding"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # 新人落地

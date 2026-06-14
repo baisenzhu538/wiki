@@ -2,12 +2,14 @@
 id: "dk-jh-llm-time-blindness"
 title: "LLM时间盲症：AI不知道现在是什么时候——纪浩的隐形风险识别"
 type: "dark-knowledge"
-status: "draft"
+status: draft
 domain:
   - "ai-saas"
 source_refs:
   - "00_inbox/AI俱乐部/纪浩-AI实操落地工具籍和案例分享（第六期AI共创社）.md"
 created_at: "2026-06-09"
+author: legacy
+reviewed_by: pending
 ---
 
 # LLM时间盲症：AI不知道现在是什么时候

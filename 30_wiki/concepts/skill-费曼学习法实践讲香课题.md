@@ -2,7 +2,7 @@
 id: "skill-费曼学习法实践讲香课题"
 title: "技能：费曼学习法实践（讲香课题）"
 type: "skill"
-status: "draft"
+status: draft
 domain: []
 source_person: "一堂课程设计"
 source_context: "src_20260522_e139c9e9"
@@ -16,6 +16,8 @@ created_at: "2026-06-09T16:00:43+00:00"
 updated_at: "2026-06-09T16:00:43+00:00"
 pipeline:
   - #skill
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：费曼学习法实践（讲香课题）

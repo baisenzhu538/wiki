@@ -21,9 +21,9 @@ reviewed_by: "老顷童"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-落地实操-笔记.txt"
-status: "reviewed"
+status: reviewed
 title: "暗知识：五步法常见误区与认知陷阱"
-trust_level: "medium"
+trust_level: medium
 type: "dk"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '落地实操', 'course_id': 'yt-five-step-common-pitfalls', 'course_type': 'dk', 'level': 'core'}
@@ -42,6 +42,7 @@ diagnostic_signals:
     framework_lens: "过度自信"
     follow_up_question: "你最近一次被五步法分析结果 surprise 到是什么时候？如果没有，你可能在用框架确认偏见"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 暗知识：五步法常见误区与认知陷阱

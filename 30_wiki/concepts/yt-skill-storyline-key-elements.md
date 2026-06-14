@@ -16,6 +16,9 @@ diagnostic_signals:
     framework_lens: "复杂系统 / 边界诚实"
     follow_up_question: "在复杂适应系统中，移除单因素测试是否仍有效？"
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 # 清单体故事线⑥：关键要素线——用结构拆解‘什么才是真正重要的’
 

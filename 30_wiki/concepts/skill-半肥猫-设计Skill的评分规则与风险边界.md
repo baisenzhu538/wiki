@@ -2,7 +2,7 @@
 id: "skill-半肥猫-设计Skill的评分规则与风险边界"
 title: "技能：设计 Skill 的评分规则与风险边界"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
 source_person: "半肥猫"
@@ -40,6 +40,7 @@ pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
   - confidence-verified-by-test
+author: legacy
 ---
 
 # 技能：设计 Skill 的评分规则与风险边界

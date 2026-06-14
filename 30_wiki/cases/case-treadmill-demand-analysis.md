@@ -2,7 +2,7 @@
 id: "case-treadmill-demand-analysis"
 title: "跑步机需求分析：在家健身场景的需求拆解与替代方案博弈"
 type: "case"
-status: "reviewed"
+status: reviewed
 domain:
   - "product"
   - "yitang"
@@ -26,6 +26,8 @@ tags:
 pipeline:
   - confidence-source-cited
   - confidence-case-verified
+author: legacy
+reviewed_by: pending
 ---
 
 # 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈

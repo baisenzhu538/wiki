@@ -14,7 +14,7 @@ related:
 source_refs:
   - "src_20260525_66059442"
 speaker: "国帅（胡帅），一堂联合创始人兼CTO"
-status: "enriched"
+status: enriched
 title: "AI时代判断力口述（国帅）"
 type: "concept"
 updated_at: 2026-05-25
@@ -35,6 +35,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # AI时代判断力口述（国帅）

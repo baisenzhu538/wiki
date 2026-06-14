@@ -2,7 +2,7 @@
 id: "dk-半肥猫-skill-rejection-value"
 title: "暗知识：Skill 的最大价值不是生成，是拒绝"
 type: "dark-knowledge"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -33,6 +33,8 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
   - confidence-verified-by-test
+author: legacy
+reviewed_by: pending
 ---
 
 # 暗知识：Skill 的最大价值不是生成，是拒绝

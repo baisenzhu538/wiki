@@ -2,7 +2,7 @@
 id: "skill-月白-智能扩图-拓图双方案"
 title: "技能：智能扩图/拓图双方案"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -24,6 +24,8 @@ tags:
   - #scene/learning-methodology/feedback-loop
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：智能扩图/拓图双方案

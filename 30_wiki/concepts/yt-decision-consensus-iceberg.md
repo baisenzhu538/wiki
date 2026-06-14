@@ -32,9 +32,9 @@ reviewed_by: ""
 source_refs:
   - "00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt"
   - "00_inbox/科学决策/一堂-科学决策-高水平共识曲线（重要）.png"
-status: "enriched"
+status: enriched
 title: "共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 updated_at: 2026-05-17
 version: 1
@@ -63,6 +63,7 @@ diagnostic_signals:
     framework_lens: "教练式提问的隐性操控——信息选择和问题顺序可以引导团队'自然'得出预设结论"
     follow_up_question: "老板提供的信息里，有没有被隐藏的关键反例？如果团队知道那个反例，推导结果会不会变？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问

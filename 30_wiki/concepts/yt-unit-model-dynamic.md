@@ -71,6 +71,7 @@ diagnostic_signals:
     framework_lens: "迭代 / 时效性"
     follow_up_question: "动态模型是否建完后就束之高阁？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 动态单元模型：规模变量、拐点预判与规模经济对抗

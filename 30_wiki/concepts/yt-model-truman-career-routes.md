@@ -21,7 +21,7 @@ related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/truman的选择：两条职业成长路线.png"
-status: "enriched"
+status: enriched
 title: "楚门的选择：两条职业成长路线 X vs Y"
 type: "framework"
 version: 1
@@ -52,6 +52,7 @@ diagnostic_signals:
     framework_lens: "基础不匹配"
     follow_up_question: "你现在的产品设计能力和学习习惯，更适合X还是Y？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 楚门的选择：两条职业成长路线 X vs Y

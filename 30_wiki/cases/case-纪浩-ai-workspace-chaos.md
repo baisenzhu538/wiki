@@ -2,7 +2,7 @@
 id: "case-纪浩-ai-workspace-chaos"
 title: "案例：AI工作空间混乱导致'行为退化'而重来"
 type: "case"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -30,6 +30,8 @@ tags:
 pipeline:
   - confidence-published
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # 案例：AI工作空间混乱导致"行为退化"而重来

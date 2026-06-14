@@ -3,7 +3,7 @@ id: "dk-c11-hongqigong-skip-review"
 title: "C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: "draft"
+status: draft
 domain:
   - "master"
 source_person: "欧阳锋"
@@ -26,6 +26,8 @@ pipeline:
   - #source_type/error
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过

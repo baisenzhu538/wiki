@@ -24,6 +24,8 @@ tags:
   - "#his"
   - "#medical-software"
   - "#dotnet"
+author: legacy
+reviewed_by: pending
 ---
 
 # 鑫港湾HIS项目

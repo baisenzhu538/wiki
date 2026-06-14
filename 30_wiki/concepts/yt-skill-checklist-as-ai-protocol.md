@@ -2,7 +2,7 @@
 id: "yt-skill-checklist-as-ai-protocol"
 title: "清单体作为AI的I/O协议——用笔记替代prompt工程"
 type: "concept"
-status: "draft"
+status: draft
 domain:
   - "yitang"
 language: "zh-CN"
@@ -41,6 +41,8 @@ diagnostic_signals:
   - signal: "只在L1-L2任务中使用该协议，复杂任务仍用自然语言"
     framework_lens: "协议有适用范围"
     follow_up_question: "这个任务是信息整理还是创意策略？"
+author: legacy
+reviewed_by: pending
 ---
 # 清单体作为AI的I/O协议——用笔记替代prompt工程
 

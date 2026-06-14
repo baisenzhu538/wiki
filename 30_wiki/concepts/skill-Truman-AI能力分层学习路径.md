@@ -3,8 +3,12 @@
 id: "skill-Truman-AI能力分层学习路径"
 title: "技能：AI能力分层学习路径"
 type: "skill"
-status: "draft"
-domain: []---
+status: draft
+domain: []
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
+---
 
 # 技能：AI能力分层学习路径
 

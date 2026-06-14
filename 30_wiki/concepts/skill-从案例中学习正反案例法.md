@@ -33,6 +33,8 @@ tags:
   - #scene/skill-engineering
   - #domain/learning-methodology
   - #yitang
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：从案例中学习（正反案例法）

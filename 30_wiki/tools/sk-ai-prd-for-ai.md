@@ -30,6 +30,8 @@ related:
 - sk-ai-problem-validation
 - prd-as-ai-instruction
 domain: [ai-collaboration]
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：把PRD写成AI能执行的指令

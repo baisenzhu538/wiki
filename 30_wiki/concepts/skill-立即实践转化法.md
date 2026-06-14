@@ -30,6 +30,8 @@ tags:
 - null
 created_at: '2026-06-09'
 updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：立即实践转化法

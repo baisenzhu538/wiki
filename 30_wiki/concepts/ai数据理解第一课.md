@@ -1,7 +1,7 @@
 ---
 title: "AI数据理解第一课"
 type: "concept"
-status: "enriched"
+status: enriched
 domain:
   - "yitang"
 source_refs:
@@ -30,6 +30,9 @@ tags:
 pipeline:
   - #boundary/not-for-creative
   - confidence-source-cited
+id: "ai数据理解第一课"
+author: legacy
+reviewed_by: pending
 ---
 
 # AI数据理解第一课

@@ -26,7 +26,7 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践收集.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·审美卡片：最佳实践收集"
 type: "tool"
 version: 1
@@ -56,6 +56,7 @@ diagnostic_signals:
     framework_lens: "最佳实践有半衰期"
     follow_up_question: "最近3个月有没有删除过不再值得参考的案例？为什么？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 最佳实践收集：积极搜集最佳案例

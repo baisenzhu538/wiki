@@ -33,6 +33,7 @@ tags:
 pipeline:
   - #skill-type/execution
 reviewed_by: "laowantong"
+author: legacy
 ---
 
 # 技能：AI落地五步执行流程

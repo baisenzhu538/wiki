@@ -2,7 +2,7 @@
 id: "skill-半肥猫-优先使用官方权威信源做证据"
 title: "技能：优先使用官方权威信源做证据"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "ai-collaboration"
 source_person: "半肥猫"
@@ -39,6 +39,7 @@ pipeline:
   - confidence-draft
   - confidence-source-cited
   - confidence-verified-by-case
+author: legacy
 ---
 
 # 技能：优先使用官方权威信源做证据

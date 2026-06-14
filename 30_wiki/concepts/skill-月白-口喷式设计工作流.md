@@ -2,7 +2,7 @@
 id: "skill-月白-口喷式设计工作流"
 title: "技能：口喷式设计工作流"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -24,6 +24,8 @@ tags:
   - #scene/product-design/design-freeze
 pipeline:
   - confidence-draft
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：口喷式设计工作流

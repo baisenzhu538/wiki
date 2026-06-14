@@ -14,6 +14,7 @@ source_refs:
 - src_20260614_6e91528d
 - src_20260614_fbe4a480
 - theme-finance-legal-business-summary
+- src_20260614_40afd886
 tags:
 - "#finance"
 - "#legal"

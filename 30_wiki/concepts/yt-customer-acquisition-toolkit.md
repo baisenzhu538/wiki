@@ -27,9 +27,9 @@ source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-增长-线下获客小抄.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-增长-获客转化小抄.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-增长-科学销售五步法.png"
-status: "reviewed"
+status: reviewed
 title: "获客工具合集"
-trust_level: "medium"
+trust_level: medium
 type: "tool"
 version: 1
 yitang: {'map': 'entrepreneur', 'module': '增长', 'course_id': 'yt-customer-acquisition-toolkit', 'course_type': 'tool', 'level': 'core'}
@@ -47,6 +47,7 @@ diagnostic_signals:
     framework_lens: "阶段错配"
     follow_up_question: "这个打法对应的产品阶段和你现在一致吗？别人的裂变可能基于已有用户，你还没有"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 获客工具合集

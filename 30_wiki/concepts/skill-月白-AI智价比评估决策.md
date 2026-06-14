@@ -2,7 +2,7 @@
 id: "skill-月白-AI智价比评估决策"
 title: "技能：AI智价比评估决策"
 type: "skill"
-status: "draft"
+status: draft
 domain:
   - "design"
 source_person: "月白"
@@ -26,6 +26,8 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-draft
   - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：AI智价比评估决策

@@ -28,6 +28,8 @@ prerequisite_skills: []
 related:
 - sk-ai-landing-five-steps
 domain: [ai-collaboration]
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：平行运行验证法

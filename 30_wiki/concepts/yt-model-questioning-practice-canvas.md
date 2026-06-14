@@ -21,7 +21,7 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-提问刻意练习画布.png"
-status: "enriched"
+status: enriched
 title: "提问刻意练习提升画布"
 type: "framework"
 version: 1
@@ -42,6 +42,7 @@ diagnostic_signals:
     framework_lens: "练习单一"
     follow_up_question: "你最近一次在辅导团队或咨询教练场景中使用提问工具是什么时候？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 提问刻意练习提升画布 (By YITANG)

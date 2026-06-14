@@ -26,7 +26,10 @@ pipeline:
   - #source_type/dark-knowledge
   - confidence-source-cited
 
-domain: []---
+domain: []
+author: legacy
+reviewed_by: pending
+---
 
 # 没有诊断固件就是盲调：你不知道信号卡在哪一级
 

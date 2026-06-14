@@ -2,7 +2,7 @@
 id: "skill-mckinsey-hypothesis-driven-workflow"
 title: "技能：假设驱动工作流"
 type: "tool"
-status: "enriched"
+status: enriched
 domain:
   - "consulting"
   - "yitang"
@@ -40,6 +40,7 @@ version: 1
 created_at: "2026-06-11"
 updated_at: "2026-06-11"
 reviewed_by: "laowantong"
+author: legacy
 ---
 
 # 技能：假设驱动工作流

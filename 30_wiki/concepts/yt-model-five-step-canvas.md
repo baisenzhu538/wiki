@@ -22,7 +22,7 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂五步法画布.png"
   - "10_raw/assets/yitang/一堂五步法-产品内核画布.png"
-status: "enriched"
+status: enriched
 title: "五步法画布 × 产品内核画布：从假设到壁垒的实操工具"
 type: "framework"
 updated_at: 2026-05-11
@@ -50,6 +50,7 @@ diagnostic_signals:
     framework_lens: "两张画布的 zoom-in 关系没被激活——产品内核画布是解决方案模块的展开，但团队把它当成独立工具"
     follow_up_question: "产品内核画布上的3-5条内核假设，对应五步法画布上哪个模块的哪条假设？如果对应不上，说明两张画布没有打通"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 # 五步法画布 × 产品内核画布：从假设到壁垒的实操工具

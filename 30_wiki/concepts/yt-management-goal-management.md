@@ -2,7 +2,7 @@
 
 title: "目标管理"
 type: "concept"
-status: "enriched"
+status: enriched
 domain: []
 pipeline:
   - confidence-source-cited
@@ -14,6 +14,10 @@ diagnostic_signals:
     framework_lens: "假装有目标"
     follow_up_question: "你上一次Review目标进展是什么时候？如果超过两周，目标管理失效"
 updated_at: '2026-06-13'
+id: "yt-management-goal-management"
+author: legacy
+reviewed_by: pending
+created_at: "2026-06-15"
 ---
 
 # 目标管理

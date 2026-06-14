@@ -30,6 +30,8 @@ related:
 - structured-ai-workspace
 - sk-ai-problem-validation
 domain: [ai-collaboration]
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：结构化AI工作空间搭建

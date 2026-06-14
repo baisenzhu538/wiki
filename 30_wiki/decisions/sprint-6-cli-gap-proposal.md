@@ -14,6 +14,8 @@ related:
   - sprint-6-laowantong-feedback-18
   - sprint-6-four-death-sentences
   - knowledge-flywheel-discovery-20260602
+id: "sprint-6-cli-gap-proposal"
+reviewed_by: pending
 ---
 
 # Sprint 6 CLI 缺口修复提案

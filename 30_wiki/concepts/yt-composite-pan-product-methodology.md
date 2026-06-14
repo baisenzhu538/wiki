@@ -34,7 +34,7 @@ source_refs:
   - "10_raw/sources/一堂-个人修炼-泛产品设计工具篇口述版.md"
   - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
   - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
-status: "enriched"
+status: enriched
 superseded_by: ""
 title: "泛产品设计方法论"
 type: "composite-concept"
@@ -62,6 +62,7 @@ diagnostic_signals:
     framework_lens: "过度泛化——方法论有边界"
     follow_up_question: "这个产品的用户场景和约束有什么独特之处？泛产品方法论的哪部分需要调整？"
 updated_at: '2026-06-13'
+author: legacy
 ---
 
 ## Claims

@@ -35,6 +35,8 @@ tags:
   - #scene/skill-engineering
   - #domain/learning-methodology
   - #yitang
+author: legacy
+reviewed_by: pending
 ---
 
 # 技能：多源输入法

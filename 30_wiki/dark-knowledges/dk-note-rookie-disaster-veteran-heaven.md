@@ -3,7 +3,7 @@ id: "dk-note-rookie-disaster-veteran-heaven"
 title: "“新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: "draft"
+status: draft
 domain:
   - "yitang"
   - "note-taking"
@@ -30,6 +30,8 @@ pipeline:
   - #source_type/insight
   - confidence-draft
   - confidence-source-cited
+author: legacy
+reviewed_by: pending
 ---
 
 # “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机
