@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-06-14 06:01 UTC
+# Concept Card Index — 2026-06-14 06:03 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -818,6 +818,7 @@
 | yt-decision-abcd-model | yt-decision-abcd-model | framework | 一堂·科学决策 |
 | yt-unit-model-ladder | 单元模型六段进阶：从拍脑袋到动态预测 | framework | decision-science |
 | yt-unit-model-overview | 单元模型概览：十大单元模型与三角色分工 | framework | decision-science |
+| ai-short-drama-plot-three-axes | 剧情三板斧：短剧剧本的情节张力设计工具 | tool | yitang, ai-collaboration, product |
 | concept-mckinsey-issue-tree | Issue Tree：结构化问题拆解 | tool | consulting, yitang |
 | concept-toyota-5-whys | 5 Whys：追问到根本原因 | tool | lean-manufacturing, yitang |
 | sk-ai-ai-workspace-setup | 技能：结构化AI工作空间搭建 | skill | ai-collaboration |
