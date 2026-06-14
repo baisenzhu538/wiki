@@ -1,0 +1,4 @@
+# OCR deletion candidates
+# Total OCR cards: 186
+# Short content (<20 chars): 0
+# Exact duplicate groups: 0
