@@ -1,3 +1,24 @@
+---
+id: "concept-medical-cabinet-hardware-technology"
+title: "概念卡：智能药柜硬件技术架构与关键风险"
+type: "concept-card"
+status: "draft"
+confidence_score: 0.72
+trust_level: "medium"
+source_refs:
+  - "录音 6269640、4528361、6578799、7296034、7983893、1428540"
+  - "itingnao-deep-dive-supply-chain.md"
+related:
+  - "concept-medical-cabinet-his-system.md"
+  - "method-medical-cabinet-business-model-decomposition.md"
+tags:
+  - #medical-cabinet
+  - #hardware
+  - #STM32
+  - #CAN-bus
+  - #medical-insurance-terminal
+---
+
 # 智能药柜硬件技术架构与关键风险
 
 ## 一句话定义
