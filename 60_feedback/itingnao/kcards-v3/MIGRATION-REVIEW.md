@@ -37,7 +37,7 @@
 
 ---
 
-## 二、建议再核验后给老顽童审阅（18 张）
+## 二、建议再核验后给老顽童审阅（19 张）
 
 以下知识卡整体质量较好，但存在局部可信度不足或来源单一问题，建议补充核验后再迁移。
 
@@ -61,16 +61,16 @@
 | insight-ai-landing-high-value-scenes.md | 洞察卡 | 0.74 | 已补充 McKinsey/Google Cloud/Gartner 企业 AI 采纳和 ROI 数据，案例仍待独立审计 |
 | insight-ai-pitch-key-elements.md | 洞察卡 | 0.74 | 已补充 DeckAnalyst/CB Insights 投资评估维度，结构比例为经验建议 |
 | insight-stock-era-marketing-logic.md | 洞察卡 | 0.74 | 已补充 HKUST/CCAGM 中国百货报告和 Gartner CMO 调查，行业迁移需谨慎 |
+| insight-going-global-localization-trap.md | 洞察卡 | 0.74 | 已补充 CKGSB/INSEAD 中国企业出海案例（SHEIN/WeChat/小米/Lazada），框架仍为原创归纳 |
 
 ---
 
-## 三、建议暂留 60_feedback（3 张）
+## 三、建议暂留 60_feedback（2 张）
 
 以下知识卡以归纳、推断、原创框架或单一来源为主，需要更多证据支撑或打磨后再考虑迁移。
 
 | 文件名 | 类型 | 评分 | 暂不迁移原因 |
 |--------|------|------|-------------|
-| insight-going-global-localization-trap.md | 洞察卡 | 0.72 | 案例为概括性，未具体到企业 |
 | insight-super-individual-income-reality.md | 洞察卡 | 0.72 | 已补充德国/荷兰官方 solo self-employed 中位数，但中国本地数据仍不足 |
 | insight-super-individual-survivorship-bias.md | 洞察卡 | 0.70 | 已补充 Carta/Gusto 多源数据，但 Micro-SaaS 分布数据仍无权威来源 |
 
@@ -132,12 +132,12 @@
 16. `insight-ai-landing-high-value-scenes.md`
 17. `insight-ai-pitch-key-elements.md`
 18. `insight-stock-era-marketing-logic.md`
+19. `insight-going-global-localization-trap.md`
 
 ### 第三批（需较大完善）
 
-1. `insight-going-global-localization-trap.md`
-2. `insight-super-individual-income-reality.md`
-3. `insight-super-individual-survivorship-bias.md`
+1. `insight-super-individual-income-reality.md`
+2. `insight-super-individual-survivorship-bias.md`
 
 ---
 
