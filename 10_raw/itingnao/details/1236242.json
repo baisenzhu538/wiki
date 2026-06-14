@@ -1,0 +1,2713 @@
+{
+  "success": true,
+  "request": {
+    "id": 1236242,
+    "summary_new": "1"
+  },
+  "detail": {
+    "id": 1236242,
+    "name": "【示例】会议内容自动整理纪要和代办",
+    "folderId": 133462,
+    "duration": null,
+    "createdAt": null,
+    "updatedAt": null,
+    "status": {
+      "value": 4,
+      "text": "处理完成",
+      "done": true
+    },
+    "transcript": {
+      "data": [
+        {
+          "beginTime": 110,
+          "endTime": 20570,
+          "has_verify": false,
+          "id": 1,
+          "paragraph_id": "",
+          "remark_type": 0,
+          "sentence_id": 0,
+          "text": "大家好，你是不是也遇到过这样的情况，参加了一场重要的会议，回到办公室想要整理会议内容，却发现信息纷繁复杂难以整理。或在会议中主讲人的发言如同连珠炮，而你却在拼命进入，却总是感觉别遗漏了关键信息。现在快来试试我们的听到AI语音产品，这些问题都将迎刃而解。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "",
+          "userId": "1",
+          "userName": "发言人",
+          "words": [
+            {
+              "beginTime": 110,
+              "endTime": 710,
+              "sentence_id": 0,
+              "word": "大家好，"
+            },
+            {
+              "beginTime": 710,
+              "endTime": 1282,
+              "sentence_id": 0,
+              "word": "你是不是"
+            },
+            {
+              "beginTime": 1282,
+              "endTime": 1425,
+              "sentence_id": 0,
+              "word": "也"
+            },
+            {
+              "beginTime": 1425,
+              "endTime": 1711,
+              "sentence_id": 0,
+              "word": "遇到"
+            },
+            {
+              "beginTime": 1711,
+              "endTime": 1854,
+              "sentence_id": 0,
+              "word": "过"
+            },
+            {
+              "beginTime": 1854,
+              "endTime": 2283,
+              "sentence_id": 0,
+              "word": "这样的"
+            },
+            {
+              "beginTime": 2283,
+              "endTime": 2569,
+              "sentence_id": 0,
+              "word": "情况，"
+            },
+            {
+              "beginTime": 2870,
+              "endTime": 3305,
+              "sentence_id": 0,
+              "word": "参加了"
+            },
+            {
+              "beginTime": 3305,
+              "endTime": 3595,
+              "sentence_id": 0,
+              "word": "一场"
+            },
+            {
+              "beginTime": 3595,
+              "endTime": 3885,
+              "sentence_id": 0,
+              "word": "重要"
+            },
+            {
+              "beginTime": 3885,
+              "endTime": 4030,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 4030,
+              "endTime": 4320,
+              "sentence_id": 0,
+              "word": "会议，"
+            },
+            {
+              "beginTime": 4320,
+              "endTime": 4626,
+              "sentence_id": 0,
+              "word": "回到"
+            },
+            {
+              "beginTime": 4626,
+              "endTime": 5085,
+              "sentence_id": 0,
+              "word": "办公室"
+            },
+            {
+              "beginTime": 5085,
+              "endTime": 5391,
+              "sentence_id": 0,
+              "word": "想要"
+            },
+            {
+              "beginTime": 5391,
+              "endTime": 5697,
+              "sentence_id": 0,
+              "word": "整理"
+            },
+            {
+              "beginTime": 5697,
+              "endTime": 6003,
+              "sentence_id": 0,
+              "word": "会议"
+            },
+            {
+              "beginTime": 6003,
+              "endTime": 6309,
+              "sentence_id": 0,
+              "word": "内容，"
+            },
+            {
+              "beginTime": 6400,
+              "endTime": 6952,
+              "sentence_id": 0,
+              "word": "却发现"
+            },
+            {
+              "beginTime": 6952,
+              "endTime": 7320,
+              "sentence_id": 0,
+              "word": "信息"
+            },
+            {
+              "beginTime": 7320,
+              "endTime": 8056,
+              "sentence_id": 0,
+              "word": "纷繁复杂"
+            },
+            {
+              "beginTime": 8056,
+              "endTime": 8424,
+              "sentence_id": 0,
+              "word": "难以"
+            },
+            {
+              "beginTime": 8424,
+              "endTime": 8792,
+              "sentence_id": 0,
+              "word": "整理。"
+            },
+            {
+              "beginTime": 9170,
+              "endTime": 9341,
+              "sentence_id": 0,
+              "word": "或"
+            },
+            {
+              "beginTime": 9341,
+              "endTime": 9512,
+              "sentence_id": 0,
+              "word": "在"
+            },
+            {
+              "beginTime": 9512,
+              "endTime": 9854,
+              "sentence_id": 0,
+              "word": "会议"
+            },
+            {
+              "beginTime": 9854,
+              "endTime": 10025,
+              "sentence_id": 0,
+              "word": "中"
+            },
+            {
+              "beginTime": 10025,
+              "endTime": 10538,
+              "sentence_id": 0,
+              "word": "主讲人"
+            },
+            {
+              "beginTime": 10538,
+              "endTime": 10709,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 10709,
+              "endTime": 11051,
+              "sentence_id": 0,
+              "word": "发言"
+            },
+            {
+              "beginTime": 11051,
+              "endTime": 11393,
+              "sentence_id": 0,
+              "word": "如同"
+            },
+            {
+              "beginTime": 11393,
+              "endTime": 11906,
+              "sentence_id": 0,
+              "word": "连珠炮，"
+            },
+            {
+              "beginTime": 11920,
+              "endTime": 12082,
+              "sentence_id": 0,
+              "word": "而"
+            },
+            {
+              "beginTime": 12082,
+              "endTime": 12244,
+              "sentence_id": 0,
+              "word": "你"
+            },
+            {
+              "beginTime": 12244,
+              "endTime": 12568,
+              "sentence_id": 0,
+              "word": "却在"
+            },
+            {
+              "beginTime": 12568,
+              "endTime": 12892,
+              "sentence_id": 0,
+              "word": "拼命"
+            },
+            {
+              "beginTime": 12892,
+              "endTime": 13216,
+              "sentence_id": 0,
+              "word": "进入，"
+            },
+            {
+              "beginTime": 13220,
+              "endTime": 13381,
+              "sentence_id": 0,
+              "word": "却"
+            },
+            {
+              "beginTime": 13381,
+              "endTime": 13703,
+              "sentence_id": 0,
+              "word": "总是"
+            },
+            {
+              "beginTime": 13703,
+              "endTime": 14025,
+              "sentence_id": 0,
+              "word": "感觉"
+            },
+            {
+              "beginTime": 14025,
+              "endTime": 14186,
+              "sentence_id": 0,
+              "word": "别"
+            },
+            {
+              "beginTime": 14186,
+              "endTime": 14508,
+              "sentence_id": 0,
+              "word": "遗漏"
+            },
+            {
+              "beginTime": 14508,
+              "endTime": 14669,
+              "sentence_id": 0,
+              "word": "了"
+            },
+            {
+              "beginTime": 14669,
+              "endTime": 14991,
+              "sentence_id": 0,
+              "word": "关键"
+            },
+            {
+              "beginTime": 14991,
+              "endTime": 15313,
+              "sentence_id": 0,
+              "word": "信息。"
+            },
+            {
+              "beginTime": 15710,
+              "endTime": 16058,
+              "sentence_id": 0,
+              "word": "现在"
+            },
+            {
+              "beginTime": 16058,
+              "endTime": 16232,
+              "sentence_id": 0,
+              "word": "快"
+            },
+            {
+              "beginTime": 16232,
+              "endTime": 16406,
+              "sentence_id": 0,
+              "word": "来"
+            },
+            {
+              "beginTime": 16406,
+              "endTime": 16754,
+              "sentence_id": 0,
+              "word": "试试"
+            },
+            {
+              "beginTime": 16754,
+              "endTime": 17276,
+              "sentence_id": 0,
+              "word": "我们的"
+            },
+            {
+              "beginTime": 17276,
+              "endTime": 17624,
+              "sentence_id": 0,
+              "word": "听到"
+            },
+            {
+              "beginTime": 17624,
+              "endTime": 17798,
+              "sentence_id": 0,
+              "word": "A"
+            },
+            {
+              "beginTime": 17798,
+              "endTime": 17972,
+              "sentence_id": 0,
+              "word": "I"
+            },
+            {
+              "beginTime": 17972,
+              "endTime": 18320,
+              "sentence_id": 0,
+              "word": "语音"
+            },
+            {
+              "beginTime": 18320,
+              "endTime": 18668,
+              "sentence_id": 0,
+              "word": "产品，"
+            },
+            {
+              "beginTime": 18820,
+              "endTime": 19170,
+              "sentence_id": 0,
+              "word": "这些"
+            },
+            {
+              "beginTime": 19170,
+              "endTime": 19520,
+              "sentence_id": 0,
+              "word": "问题"
+            },
+            {
+              "beginTime": 19520,
+              "endTime": 19870,
+              "sentence_id": 0,
+              "word": "都将"
+            },
+            {
+              "beginTime": 19870,
+              "endTime": 20570,
+              "sentence_id": 0,
+              "word": "迎刃而解。"
+            }
+          ]
+        },
+        {
+          "beginTime": 21790,
+          "endTime": 45990,
+          "has_verify": false,
+          "id": 2,
+          "paragraph_id": "",
+          "remark_type": 0,
+          "sentence_id": 0,
+          "text": "首先您只需点击上传音视频按钮或点击开始录音，选择你想要转换的会议视频或会议录音。接着产品将自动进行语音识别和转换，将以视频内容转化为可编辑的文本。现在您可以看到转换后的文本内容，它不仅准确度高，而且支持多种编辑操作，方便您进行后续的整理和学习。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "",
+          "userId": "1",
+          "userName": "发言人",
+          "words": [
+            {
+              "beginTime": 21790,
+              "endTime": 22202,
+              "sentence_id": 0,
+              "word": "首先"
+            },
+            {
+              "beginTime": 22202,
+              "endTime": 22408,
+              "sentence_id": 0,
+              "word": "您"
+            },
+            {
+              "beginTime": 22408,
+              "endTime": 22820,
+              "sentence_id": 0,
+              "word": "只需"
+            },
+            {
+              "beginTime": 22820,
+              "endTime": 23232,
+              "sentence_id": 0,
+              "word": "点击"
+            },
+            {
+              "beginTime": 23232,
+              "endTime": 23644,
+              "sentence_id": 0,
+              "word": "上传"
+            },
+            {
+              "beginTime": 23644,
+              "endTime": 24262,
+              "sentence_id": 0,
+              "word": "音视频"
+            },
+            {
+              "beginTime": 24262,
+              "endTime": 24674,
+              "sentence_id": 0,
+              "word": "按钮"
+            },
+            {
+              "beginTime": 24674,
+              "endTime": 24880,
+              "sentence_id": 0,
+              "word": "或"
+            },
+            {
+              "beginTime": 24880,
+              "endTime": 25292,
+              "sentence_id": 0,
+              "word": "点击"
+            },
+            {
+              "beginTime": 25292,
+              "endTime": 25704,
+              "sentence_id": 0,
+              "word": "开始"
+            },
+            {
+              "beginTime": 25704,
+              "endTime": 26116,
+              "sentence_id": 0,
+              "word": "录音，"
+            },
+            {
+              "beginTime": 26350,
+              "endTime": 26714,
+              "sentence_id": 0,
+              "word": "选择"
+            },
+            {
+              "beginTime": 26714,
+              "endTime": 26896,
+              "sentence_id": 0,
+              "word": "你"
+            },
+            {
+              "beginTime": 26896,
+              "endTime": 27260,
+              "sentence_id": 0,
+              "word": "想要"
+            },
+            {
+              "beginTime": 27260,
+              "endTime": 27624,
+              "sentence_id": 0,
+              "word": "转换"
+            },
+            {
+              "beginTime": 27624,
+              "endTime": 27806,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 27806,
+              "endTime": 28170,
+              "sentence_id": 0,
+              "word": "会议"
+            },
+            {
+              "beginTime": 28170,
+              "endTime": 28534,
+              "sentence_id": 0,
+              "word": "视频"
+            },
+            {
+              "beginTime": 28534,
+              "endTime": 28716,
+              "sentence_id": 0,
+              "word": "或"
+            },
+            {
+              "beginTime": 28716,
+              "endTime": 29080,
+              "sentence_id": 0,
+              "word": "会议"
+            },
+            {
+              "beginTime": 29080,
+              "endTime": 29444,
+              "sentence_id": 0,
+              "word": "录音。"
+            },
+            {
+              "beginTime": 30130,
+              "endTime": 30526,
+              "sentence_id": 0,
+              "word": "接着"
+            },
+            {
+              "beginTime": 30526,
+              "endTime": 30922,
+              "sentence_id": 0,
+              "word": "产品"
+            },
+            {
+              "beginTime": 30922,
+              "endTime": 31120,
+              "sentence_id": 0,
+              "word": "将"
+            },
+            {
+              "beginTime": 31120,
+              "endTime": 31516,
+              "sentence_id": 0,
+              "word": "自动"
+            },
+            {
+              "beginTime": 31516,
+              "endTime": 31912,
+              "sentence_id": 0,
+              "word": "进行"
+            },
+            {
+              "beginTime": 31912,
+              "endTime": 32704,
+              "sentence_id": 0,
+              "word": "语音识别"
+            },
+            {
+              "beginTime": 32704,
+              "endTime": 32902,
+              "sentence_id": 0,
+              "word": "和"
+            },
+            {
+              "beginTime": 32902,
+              "endTime": 33298,
+              "sentence_id": 0,
+              "word": "转换，"
+            },
+            {
+              "beginTime": 33420,
+              "endTime": 33611,
+              "sentence_id": 0,
+              "word": "将"
+            },
+            {
+              "beginTime": 33611,
+              "endTime": 33802,
+              "sentence_id": 0,
+              "word": "以"
+            },
+            {
+              "beginTime": 33802,
+              "endTime": 34184,
+              "sentence_id": 0,
+              "word": "视频"
+            },
+            {
+              "beginTime": 34184,
+              "endTime": 34566,
+              "sentence_id": 0,
+              "word": "内容"
+            },
+            {
+              "beginTime": 34566,
+              "endTime": 34948,
+              "sentence_id": 0,
+              "word": "转化"
+            },
+            {
+              "beginTime": 34948,
+              "endTime": 35139,
+              "sentence_id": 0,
+              "word": "为"
+            },
+            {
+              "beginTime": 35139,
+              "endTime": 35330,
+              "sentence_id": 0,
+              "word": "可"
+            },
+            {
+              "beginTime": 35330,
+              "endTime": 35712,
+              "sentence_id": 0,
+              "word": "编辑"
+            },
+            {
+              "beginTime": 35712,
+              "endTime": 35903,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 35903,
+              "endTime": 36285,
+              "sentence_id": 0,
+              "word": "文本。"
+            },
+            {
+              "beginTime": 36290,
+              "endTime": 36710,
+              "sentence_id": 0,
+              "word": "现在"
+            },
+            {
+              "beginTime": 36710,
+              "endTime": 36920,
+              "sentence_id": 0,
+              "word": "您"
+            },
+            {
+              "beginTime": 36920,
+              "endTime": 37340,
+              "sentence_id": 0,
+              "word": "可以"
+            },
+            {
+              "beginTime": 37340,
+              "endTime": 37760,
+              "sentence_id": 0,
+              "word": "看到"
+            },
+            {
+              "beginTime": 37760,
+              "endTime": 38180,
+              "sentence_id": 0,
+              "word": "转换"
+            },
+            {
+              "beginTime": 38180,
+              "endTime": 38390,
+              "sentence_id": 0,
+              "word": "后"
+            },
+            {
+              "beginTime": 38390,
+              "endTime": 38600,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 38600,
+              "endTime": 39020,
+              "sentence_id": 0,
+              "word": "文本"
+            },
+            {
+              "beginTime": 39020,
+              "endTime": 39440,
+              "sentence_id": 0,
+              "word": "内容，"
+            },
+            {
+              "beginTime": 39670,
+              "endTime": 39875,
+              "sentence_id": 0,
+              "word": "它"
+            },
+            {
+              "beginTime": 39875,
+              "endTime": 40285,
+              "sentence_id": 0,
+              "word": "不仅"
+            },
+            {
+              "beginTime": 40285,
+              "endTime": 40900,
+              "sentence_id": 0,
+              "word": "准确度"
+            },
+            {
+              "beginTime": 40900,
+              "endTime": 41105,
+              "sentence_id": 0,
+              "word": "高，"
+            },
+            {
+              "beginTime": 41240,
+              "endTime": 41670,
+              "sentence_id": 0,
+              "word": "而且"
+            },
+            {
+              "beginTime": 41670,
+              "endTime": 42100,
+              "sentence_id": 0,
+              "word": "支持"
+            },
+            {
+              "beginTime": 42100,
+              "endTime": 42530,
+              "sentence_id": 0,
+              "word": "多种"
+            },
+            {
+              "beginTime": 42530,
+              "endTime": 42960,
+              "sentence_id": 0,
+              "word": "编辑"
+            },
+            {
+              "beginTime": 42960,
+              "endTime": 43390,
+              "sentence_id": 0,
+              "word": "操作，"
+            },
+            {
+              "beginTime": 43390,
+              "endTime": 43790,
+              "sentence_id": 0,
+              "word": "方便"
+            },
+            {
+              "beginTime": 43790,
+              "endTime": 43990,
+              "sentence_id": 0,
+              "word": "您"
+            },
+            {
+              "beginTime": 43990,
+              "endTime": 44390,
+              "sentence_id": 0,
+              "word": "进行"
+            },
+            {
+              "beginTime": 44390,
+              "endTime": 44790,
+              "sentence_id": 0,
+              "word": "后续"
+            },
+            {
+              "beginTime": 44790,
+              "endTime": 44990,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 44990,
+              "endTime": 45390,
+              "sentence_id": 0,
+              "word": "整理"
+            },
+            {
+              "beginTime": 45390,
+              "endTime": 45590,
+              "sentence_id": 0,
+              "word": "和"
+            },
+            {
+              "beginTime": 45590,
+              "endTime": 45990,
+              "sentence_id": 0,
+              "word": "学习。"
+            }
+          ]
+        },
+        {
+          "beginTime": 46500,
+          "endTime": 74158,
+          "has_verify": false,
+          "id": 3,
+          "paragraph_id": "",
+          "remark_type": 0,
+          "sentence_id": 0,
+          "text": "除了基本的语音文本转换功能外，我们的AI语音产品还能为您生成会议的纪要和摘要。这些摘要和纪要能够帮助您快速了解会议的核心内容和重点的同时，还能一键完成会议的记录工作，提高工作效率。Nice, 赶快行动。输入网站itingnao.com即可体验我们的AI语音产品，让我们一起开启智能AI语音的新篇章。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "",
+          "userId": "1",
+          "userName": "发言人",
+          "words": [
+            {
+              "beginTime": 46500,
+              "endTime": 46822,
+              "sentence_id": 0,
+              "word": "除了"
+            },
+            {
+              "beginTime": 46822,
+              "endTime": 47144,
+              "sentence_id": 0,
+              "word": "基本"
+            },
+            {
+              "beginTime": 47144,
+              "endTime": 47305,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 47305,
+              "endTime": 47627,
+              "sentence_id": 0,
+              "word": "语音"
+            },
+            {
+              "beginTime": 47627,
+              "endTime": 47949,
+              "sentence_id": 0,
+              "word": "文本"
+            },
+            {
+              "beginTime": 47949,
+              "endTime": 48271,
+              "sentence_id": 0,
+              "word": "转换"
+            },
+            {
+              "beginTime": 48271,
+              "endTime": 48593,
+              "sentence_id": 0,
+              "word": "功能"
+            },
+            {
+              "beginTime": 48593,
+              "endTime": 48754,
+              "sentence_id": 0,
+              "word": "外，"
+            },
+            {
+              "beginTime": 48760,
+              "endTime": 49273,
+              "sentence_id": 0,
+              "word": "我们的"
+            },
+            {
+              "beginTime": 49273,
+              "endTime": 49444,
+              "sentence_id": 0,
+              "word": "A"
+            },
+            {
+              "beginTime": 49444,
+              "endTime": 49615,
+              "sentence_id": 0,
+              "word": "I"
+            },
+            {
+              "beginTime": 49615,
+              "endTime": 49957,
+              "sentence_id": 0,
+              "word": "语音"
+            },
+            {
+              "beginTime": 49957,
+              "endTime": 50299,
+              "sentence_id": 0,
+              "word": "产品"
+            },
+            {
+              "beginTime": 50299,
+              "endTime": 50470,
+              "sentence_id": 0,
+              "word": "还"
+            },
+            {
+              "beginTime": 50470,
+              "endTime": 50812,
+              "sentence_id": 0,
+              "word": "能为"
+            },
+            {
+              "beginTime": 50812,
+              "endTime": 50983,
+              "sentence_id": 0,
+              "word": "您"
+            },
+            {
+              "beginTime": 50983,
+              "endTime": 51325,
+              "sentence_id": 0,
+              "word": "生成"
+            },
+            {
+              "beginTime": 51325,
+              "endTime": 51667,
+              "sentence_id": 0,
+              "word": "会议"
+            },
+            {
+              "beginTime": 51667,
+              "endTime": 51838,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 51838,
+              "endTime": 52180,
+              "sentence_id": 0,
+              "word": "纪要"
+            },
+            {
+              "beginTime": 52180,
+              "endTime": 52351,
+              "sentence_id": 0,
+              "word": "和"
+            },
+            {
+              "beginTime": 52351,
+              "endTime": 52693,
+              "sentence_id": 0,
+              "word": "摘要。"
+            },
+            {
+              "beginTime": 53130,
+              "endTime": 53492,
+              "sentence_id": 0,
+              "word": "这些"
+            },
+            {
+              "beginTime": 53492,
+              "endTime": 53854,
+              "sentence_id": 0,
+              "word": "摘要"
+            },
+            {
+              "beginTime": 53854,
+              "endTime": 54035,
+              "sentence_id": 0,
+              "word": "和"
+            },
+            {
+              "beginTime": 54035,
+              "endTime": 54397,
+              "sentence_id": 0,
+              "word": "纪要"
+            },
+            {
+              "beginTime": 54397,
+              "endTime": 54759,
+              "sentence_id": 0,
+              "word": "能够"
+            },
+            {
+              "beginTime": 54759,
+              "endTime": 55121,
+              "sentence_id": 0,
+              "word": "帮助"
+            },
+            {
+              "beginTime": 55121,
+              "endTime": 55302,
+              "sentence_id": 0,
+              "word": "您"
+            },
+            {
+              "beginTime": 55302,
+              "endTime": 55664,
+              "sentence_id": 0,
+              "word": "快速"
+            },
+            {
+              "beginTime": 55664,
+              "endTime": 56026,
+              "sentence_id": 0,
+              "word": "了解"
+            },
+            {
+              "beginTime": 56026,
+              "endTime": 56388,
+              "sentence_id": 0,
+              "word": "会议"
+            },
+            {
+              "beginTime": 56388,
+              "endTime": 56569,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 56569,
+              "endTime": 57293,
+              "sentence_id": 0,
+              "word": "核心内容"
+            },
+            {
+              "beginTime": 57293,
+              "endTime": 57474,
+              "sentence_id": 0,
+              "word": "和"
+            },
+            {
+              "beginTime": 57474,
+              "endTime": 57836,
+              "sentence_id": 0,
+              "word": "重点"
+            },
+            {
+              "beginTime": 57836,
+              "endTime": 58017,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 58017,
+              "endTime": 58379,
+              "sentence_id": 0,
+              "word": "同时，"
+            },
+            {
+              "beginTime": 58380,
+              "endTime": 58732,
+              "sentence_id": 0,
+              "word": "还能"
+            },
+            {
+              "beginTime": 58732,
+              "endTime": 59084,
+              "sentence_id": 0,
+              "word": "一键"
+            },
+            {
+              "beginTime": 59084,
+              "endTime": 59436,
+              "sentence_id": 0,
+              "word": "完成"
+            },
+            {
+              "beginTime": 59436,
+              "endTime": 59788,
+              "sentence_id": 0,
+              "word": "会议"
+            },
+            {
+              "beginTime": 59788,
+              "endTime": 59964,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 59964,
+              "endTime": 60316,
+              "sentence_id": 0,
+              "word": "记录"
+            },
+            {
+              "beginTime": 60316,
+              "endTime": 60668,
+              "sentence_id": 0,
+              "word": "工作，"
+            },
+            {
+              "beginTime": 60780,
+              "endTime": 61218,
+              "sentence_id": 0,
+              "word": "提高"
+            },
+            {
+              "beginTime": 61218,
+              "endTime": 62094,
+              "sentence_id": 0,
+              "word": "工作效率。"
+            },
+            {
+              "beginTime": 63980,
+              "endTime": 64760,
+              "sentence_id": 0,
+              "word": "Nice, "
+            },
+            {
+              "beginTime": 64860,
+              "endTime": 65274,
+              "sentence_id": 0,
+              "word": "赶快"
+            },
+            {
+              "beginTime": 65274,
+              "endTime": 65688,
+              "sentence_id": 0,
+              "word": "行动。"
+            },
+            {
+              "beginTime": 66460,
+              "endTime": 66832,
+              "sentence_id": 0,
+              "word": "输入"
+            },
+            {
+              "beginTime": 66832,
+              "endTime": 67204,
+              "sentence_id": 0,
+              "word": "网站"
+            },
+            {
+              "beginTime": 67204,
+              "endTime": 67576,
+              "sentence_id": 0,
+              "word": "it"
+            },
+            {
+              "beginTime": 67576,
+              "endTime": 67948,
+              "sentence_id": 0,
+              "word": "ingnao"
+            },
+            {
+              "beginTime": 67948,
+              "endTime": 68134,
+              "sentence_id": 0,
+              "word": ".com"
+            },
+            {
+              "beginTime": 68134,
+              "endTime": 68506,
+              "sentence_id": 0,
+              "word": "即可"
+            },
+            {
+              "beginTime": 68506,
+              "endTime": 68878,
+              "sentence_id": 0,
+              "word": "体验"
+            },
+            {
+              "beginTime": 68878,
+              "endTime": 69436,
+              "sentence_id": 0,
+              "word": "我们的"
+            },
+            {
+              "beginTime": 69436,
+              "endTime": 69622,
+              "sentence_id": 0,
+              "word": "A"
+            },
+            {
+              "beginTime": 69622,
+              "endTime": 69808,
+              "sentence_id": 0,
+              "word": "I"
+            },
+            {
+              "beginTime": 69808,
+              "endTime": 70180,
+              "sentence_id": 0,
+              "word": "语音"
+            },
+            {
+              "beginTime": 70180,
+              "endTime": 70552,
+              "sentence_id": 0,
+              "word": "产品，"
+            },
+            {
+              "beginTime": 71160,
+              "endTime": 72040,
+              "sentence_id": 0,
+              "word": "让我们一起"
+            },
+            {
+              "beginTime": 72040,
+              "endTime": 72392,
+              "sentence_id": 0,
+              "word": "开启"
+            },
+            {
+              "beginTime": 72392,
+              "endTime": 72744,
+              "sentence_id": 0,
+              "word": "智能"
+            },
+            {
+              "beginTime": 72744,
+              "endTime": 72920,
+              "sentence_id": 0,
+              "word": "A"
+            },
+            {
+              "beginTime": 72920,
+              "endTime": 73096,
+              "sentence_id": 0,
+              "word": "I"
+            },
+            {
+              "beginTime": 73096,
+              "endTime": 73448,
+              "sentence_id": 0,
+              "word": "语音"
+            },
+            {
+              "beginTime": 73448,
+              "endTime": 73624,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 73624,
+              "endTime": 74158,
+              "sentence_id": 0,
+              "word": "新篇章。"
+            }
+          ]
+        }
+      ],
+      "count": 3,
+      "status": {
+        "value": 1,
+        "text": "转写完成",
+        "done": true
+      }
+    },
+    "meetingSummary": {
+      "content": "# 会议总结\n\n## 会议基本信息\n\n* 会议主题：AI语音产品介绍\n* 会议目的：解决会议记录和信息整理问题\n\n## 会议议题\n\n### AI语音产品功能介绍\n\n* **讨论要点**：介绍了AI语音产品的基本功能，包括语音识别、转换和编辑。\n* **重要观点和意见**：产品能够将音视频内容转化为可编辑文本，提高信息整理效率。\n* **提出的问题和对应的解决方案**：解决了会议信息难以整理和关键信息遗漏的问题。\n* **决策和结论**：产品能够自动进行语音识别和转换，生成会议纪要和摘要，提高工作效率。\n\n### 产品操作流程\n\n* **讨论要点**：介绍了产品的使用流程，包括上传音视频、选择转换内容、查看转换后的文本。\n* **重要观点和意见**：产品支持多种编辑操作，方便后续整理和学习。\n* **提出的问题和对应的解决方案**：产品能够一键完成会议记录工作。\n* **决策和结论**：用户可以通过输入网站itingnao.com体验产品。\n\n## 会议决策\n\n* 推广AI语音产品，以提高会议记录和信息整理的效率。\n\n## 关键点和成果影响\n\n* 产品能够自动进行语音识别和转换，生成会议纪要和摘要，极大提高了工作效率。\n* 产品支持多种编辑操作，方便用户进行后续的整理和学习。\n\n## 重要数据\n\n* 产品支持音视频内容转化为可编辑文本。\n* 产品能够一键完成会议记录工作。\n",
+      "status": {
+        "value": 2,
+        "text": "纪要已生成",
+        "done": true
+      }
+    },
+    "raw": {
+      "id": 1236242,
+      "user_id": 240745,
+      "name": "【示例】会议内容自动整理纪要和代办",
+      "name_status": 1,
+      "ws_url": "",
+      "style": 2,
+      "file_path": "https://tnoss.itingnao.com/tmp/43a34ccc-2d3d-4b21-87a4-4a15fe669ca3.mp4?auth_key=1781418222-zqlssdcz1anvtxy2w1339x97rk0vlj1b-0-7b0a1e8bd47943b1bf00db79b65e4ba8",
+      "prepare_path": "tmp/2024-04-24-b80a70b1bf5b8e01fee1c95caaa2b7ff.pcm",
+      "pcm_to_mp3_status": 0,
+      "pcm_to_mp3_message": "",
+      "file_long": "01:14",
+      "file_duration": 74235,
+      "file_source_type": 2,
+      "text_polish": null,
+      "text_polish_status": 0,
+      "mind_map_summary": [
+        {
+          "Title": "听到AI语音产品介绍",
+          "Topic": [
+            {
+              "Title": "解决会议信息整理难题",
+              "Topic": []
+            },
+            {
+              "Title": "操作方式",
+              "Topic": [
+                {
+                  "Title": "点击上传或开始录音",
+                  "Topic": []
+                }
+              ]
+            },
+            {
+              "Title": "功能特点",
+              "Topic": [
+                {
+                  "Title": "语音识别转换为文本",
+                  "Topic": []
+                },
+                {
+                  "Title": "准确度高且支持编辑",
+                  "Topic": []
+                },
+                {
+                  "Title": "生成会议纪要摘要",
+                  "Topic": []
+                }
+              ]
+            },
+            {
+              "Title": "体验方式",
+              "Topic": [
+                {
+                  "Title": "输入itingnao.com体验",
+                  "Topic": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "mind_map_summary_status": 1,
+      "key_sentences": [],
+      "key_sentences_status": 0,
+      "data": [
+        {
+          "beginTime": 110,
+          "endTime": 20570,
+          "has_verify": false,
+          "id": 1,
+          "paragraph_id": "",
+          "remark_type": 0,
+          "sentence_id": 0,
+          "text": "大家好，你是不是也遇到过这样的情况，参加了一场重要的会议，回到办公室想要整理会议内容，却发现信息纷繁复杂难以整理。或在会议中主讲人的发言如同连珠炮，而你却在拼命进入，却总是感觉别遗漏了关键信息。现在快来试试我们的听到AI语音产品，这些问题都将迎刃而解。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "",
+          "userId": "1",
+          "userName": "发言人",
+          "words": [
+            {
+              "beginTime": 110,
+              "endTime": 710,
+              "sentence_id": 0,
+              "word": "大家好，"
+            },
+            {
+              "beginTime": 710,
+              "endTime": 1282,
+              "sentence_id": 0,
+              "word": "你是不是"
+            },
+            {
+              "beginTime": 1282,
+              "endTime": 1425,
+              "sentence_id": 0,
+              "word": "也"
+            },
+            {
+              "beginTime": 1425,
+              "endTime": 1711,
+              "sentence_id": 0,
+              "word": "遇到"
+            },
+            {
+              "beginTime": 1711,
+              "endTime": 1854,
+              "sentence_id": 0,
+              "word": "过"
+            },
+            {
+              "beginTime": 1854,
+              "endTime": 2283,
+              "sentence_id": 0,
+              "word": "这样的"
+            },
+            {
+              "beginTime": 2283,
+              "endTime": 2569,
+              "sentence_id": 0,
+              "word": "情况，"
+            },
+            {
+              "beginTime": 2870,
+              "endTime": 3305,
+              "sentence_id": 0,
+              "word": "参加了"
+            },
+            {
+              "beginTime": 3305,
+              "endTime": 3595,
+              "sentence_id": 0,
+              "word": "一场"
+            },
+            {
+              "beginTime": 3595,
+              "endTime": 3885,
+              "sentence_id": 0,
+              "word": "重要"
+            },
+            {
+              "beginTime": 3885,
+              "endTime": 4030,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 4030,
+              "endTime": 4320,
+              "sentence_id": 0,
+              "word": "会议，"
+            },
+            {
+              "beginTime": 4320,
+              "endTime": 4626,
+              "sentence_id": 0,
+              "word": "回到"
+            },
+            {
+              "beginTime": 4626,
+              "endTime": 5085,
+              "sentence_id": 0,
+              "word": "办公室"
+            },
+            {
+              "beginTime": 5085,
+              "endTime": 5391,
+              "sentence_id": 0,
+              "word": "想要"
+            },
+            {
+              "beginTime": 5391,
+              "endTime": 5697,
+              "sentence_id": 0,
+              "word": "整理"
+            },
+            {
+              "beginTime": 5697,
+              "endTime": 6003,
+              "sentence_id": 0,
+              "word": "会议"
+            },
+            {
+              "beginTime": 6003,
+              "endTime": 6309,
+              "sentence_id": 0,
+              "word": "内容，"
+            },
+            {
+              "beginTime": 6400,
+              "endTime": 6952,
+              "sentence_id": 0,
+              "word": "却发现"
+            },
+            {
+              "beginTime": 6952,
+              "endTime": 7320,
+              "sentence_id": 0,
+              "word": "信息"
+            },
+            {
+              "beginTime": 7320,
+              "endTime": 8056,
+              "sentence_id": 0,
+              "word": "纷繁复杂"
+            },
+            {
+              "beginTime": 8056,
+              "endTime": 8424,
+              "sentence_id": 0,
+              "word": "难以"
+            },
+            {
+              "beginTime": 8424,
+              "endTime": 8792,
+              "sentence_id": 0,
+              "word": "整理。"
+            },
+            {
+              "beginTime": 9170,
+              "endTime": 9341,
+              "sentence_id": 0,
+              "word": "或"
+            },
+            {
+              "beginTime": 9341,
+              "endTime": 9512,
+              "sentence_id": 0,
+              "word": "在"
+            },
+            {
+              "beginTime": 9512,
+              "endTime": 9854,
+              "sentence_id": 0,
+              "word": "会议"
+            },
+            {
+              "beginTime": 9854,
+              "endTime": 10025,
+              "sentence_id": 0,
+              "word": "中"
+            },
+            {
+              "beginTime": 10025,
+              "endTime": 10538,
+              "sentence_id": 0,
+              "word": "主讲人"
+            },
+            {
+              "beginTime": 10538,
+              "endTime": 10709,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 10709,
+              "endTime": 11051,
+              "sentence_id": 0,
+              "word": "发言"
+            },
+            {
+              "beginTime": 11051,
+              "endTime": 11393,
+              "sentence_id": 0,
+              "word": "如同"
+            },
+            {
+              "beginTime": 11393,
+              "endTime": 11906,
+              "sentence_id": 0,
+              "word": "连珠炮，"
+            },
+            {
+              "beginTime": 11920,
+              "endTime": 12082,
+              "sentence_id": 0,
+              "word": "而"
+            },
+            {
+              "beginTime": 12082,
+              "endTime": 12244,
+              "sentence_id": 0,
+              "word": "你"
+            },
+            {
+              "beginTime": 12244,
+              "endTime": 12568,
+              "sentence_id": 0,
+              "word": "却在"
+            },
+            {
+              "beginTime": 12568,
+              "endTime": 12892,
+              "sentence_id": 0,
+              "word": "拼命"
+            },
+            {
+              "beginTime": 12892,
+              "endTime": 13216,
+              "sentence_id": 0,
+              "word": "进入，"
+            },
+            {
+              "beginTime": 13220,
+              "endTime": 13381,
+              "sentence_id": 0,
+              "word": "却"
+            },
+            {
+              "beginTime": 13381,
+              "endTime": 13703,
+              "sentence_id": 0,
+              "word": "总是"
+            },
+            {
+              "beginTime": 13703,
+              "endTime": 14025,
+              "sentence_id": 0,
+              "word": "感觉"
+            },
+            {
+              "beginTime": 14025,
+              "endTime": 14186,
+              "sentence_id": 0,
+              "word": "别"
+            },
+            {
+              "beginTime": 14186,
+              "endTime": 14508,
+              "sentence_id": 0,
+              "word": "遗漏"
+            },
+            {
+              "beginTime": 14508,
+              "endTime": 14669,
+              "sentence_id": 0,
+              "word": "了"
+            },
+            {
+              "beginTime": 14669,
+              "endTime": 14991,
+              "sentence_id": 0,
+              "word": "关键"
+            },
+            {
+              "beginTime": 14991,
+              "endTime": 15313,
+              "sentence_id": 0,
+              "word": "信息。"
+            },
+            {
+              "beginTime": 15710,
+              "endTime": 16058,
+              "sentence_id": 0,
+              "word": "现在"
+            },
+            {
+              "beginTime": 16058,
+              "endTime": 16232,
+              "sentence_id": 0,
+              "word": "快"
+            },
+            {
+              "beginTime": 16232,
+              "endTime": 16406,
+              "sentence_id": 0,
+              "word": "来"
+            },
+            {
+              "beginTime": 16406,
+              "endTime": 16754,
+              "sentence_id": 0,
+              "word": "试试"
+            },
+            {
+              "beginTime": 16754,
+              "endTime": 17276,
+              "sentence_id": 0,
+              "word": "我们的"
+            },
+            {
+              "beginTime": 17276,
+              "endTime": 17624,
+              "sentence_id": 0,
+              "word": "听到"
+            },
+            {
+              "beginTime": 17624,
+              "endTime": 17798,
+              "sentence_id": 0,
+              "word": "A"
+            },
+            {
+              "beginTime": 17798,
+              "endTime": 17972,
+              "sentence_id": 0,
+              "word": "I"
+            },
+            {
+              "beginTime": 17972,
+              "endTime": 18320,
+              "sentence_id": 0,
+              "word": "语音"
+            },
+            {
+              "beginTime": 18320,
+              "endTime": 18668,
+              "sentence_id": 0,
+              "word": "产品，"
+            },
+            {
+              "beginTime": 18820,
+              "endTime": 19170,
+              "sentence_id": 0,
+              "word": "这些"
+            },
+            {
+              "beginTime": 19170,
+              "endTime": 19520,
+              "sentence_id": 0,
+              "word": "问题"
+            },
+            {
+              "beginTime": 19520,
+              "endTime": 19870,
+              "sentence_id": 0,
+              "word": "都将"
+            },
+            {
+              "beginTime": 19870,
+              "endTime": 20570,
+              "sentence_id": 0,
+              "word": "迎刃而解。"
+            }
+          ]
+        },
+        {
+          "beginTime": 21790,
+          "endTime": 45990,
+          "has_verify": false,
+          "id": 2,
+          "paragraph_id": "",
+          "remark_type": 0,
+          "sentence_id": 0,
+          "text": "首先您只需点击上传音视频按钮或点击开始录音，选择你想要转换的会议视频或会议录音。接着产品将自动进行语音识别和转换，将以视频内容转化为可编辑的文本。现在您可以看到转换后的文本内容，它不仅准确度高，而且支持多种编辑操作，方便您进行后续的整理和学习。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "",
+          "userId": "1",
+          "userName": "发言人",
+          "words": [
+            {
+              "beginTime": 21790,
+              "endTime": 22202,
+              "sentence_id": 0,
+              "word": "首先"
+            },
+            {
+              "beginTime": 22202,
+              "endTime": 22408,
+              "sentence_id": 0,
+              "word": "您"
+            },
+            {
+              "beginTime": 22408,
+              "endTime": 22820,
+              "sentence_id": 0,
+              "word": "只需"
+            },
+            {
+              "beginTime": 22820,
+              "endTime": 23232,
+              "sentence_id": 0,
+              "word": "点击"
+            },
+            {
+              "beginTime": 23232,
+              "endTime": 23644,
+              "sentence_id": 0,
+              "word": "上传"
+            },
+            {
+              "beginTime": 23644,
+              "endTime": 24262,
+              "sentence_id": 0,
+              "word": "音视频"
+            },
+            {
+              "beginTime": 24262,
+              "endTime": 24674,
+              "sentence_id": 0,
+              "word": "按钮"
+            },
+            {
+              "beginTime": 24674,
+              "endTime": 24880,
+              "sentence_id": 0,
+              "word": "或"
+            },
+            {
+              "beginTime": 24880,
+              "endTime": 25292,
+              "sentence_id": 0,
+              "word": "点击"
+            },
+            {
+              "beginTime": 25292,
+              "endTime": 25704,
+              "sentence_id": 0,
+              "word": "开始"
+            },
+            {
+              "beginTime": 25704,
+              "endTime": 26116,
+              "sentence_id": 0,
+              "word": "录音，"
+            },
+            {
+              "beginTime": 26350,
+              "endTime": 26714,
+              "sentence_id": 0,
+              "word": "选择"
+            },
+            {
+              "beginTime": 26714,
+              "endTime": 26896,
+              "sentence_id": 0,
+              "word": "你"
+            },
+            {
+              "beginTime": 26896,
+              "endTime": 27260,
+              "sentence_id": 0,
+              "word": "想要"
+            },
+            {
+              "beginTime": 27260,
+              "endTime": 27624,
+              "sentence_id": 0,
+              "word": "转换"
+            },
+            {
+              "beginTime": 27624,
+              "endTime": 27806,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 27806,
+              "endTime": 28170,
+              "sentence_id": 0,
+              "word": "会议"
+            },
+            {
+              "beginTime": 28170,
+              "endTime": 28534,
+              "sentence_id": 0,
+              "word": "视频"
+            },
+            {
+              "beginTime": 28534,
+              "endTime": 28716,
+              "sentence_id": 0,
+              "word": "或"
+            },
+            {
+              "beginTime": 28716,
+              "endTime": 29080,
+              "sentence_id": 0,
+              "word": "会议"
+            },
+            {
+              "beginTime": 29080,
+              "endTime": 29444,
+              "sentence_id": 0,
+              "word": "录音。"
+            },
+            {
+              "beginTime": 30130,
+              "endTime": 30526,
+              "sentence_id": 0,
+              "word": "接着"
+            },
+            {
+              "beginTime": 30526,
+              "endTime": 30922,
+              "sentence_id": 0,
+              "word": "产品"
+            },
+            {
+              "beginTime": 30922,
+              "endTime": 31120,
+              "sentence_id": 0,
+              "word": "将"
+            },
+            {
+              "beginTime": 31120,
+              "endTime": 31516,
+              "sentence_id": 0,
+              "word": "自动"
+            },
+            {
+              "beginTime": 31516,
+              "endTime": 31912,
+              "sentence_id": 0,
+              "word": "进行"
+            },
+            {
+              "beginTime": 31912,
+              "endTime": 32704,
+              "sentence_id": 0,
+              "word": "语音识别"
+            },
+            {
+              "beginTime": 32704,
+              "endTime": 32902,
+              "sentence_id": 0,
+              "word": "和"
+            },
+            {
+              "beginTime": 32902,
+              "endTime": 33298,
+              "sentence_id": 0,
+              "word": "转换，"
+            },
+            {
+              "beginTime": 33420,
+              "endTime": 33611,
+              "sentence_id": 0,
+              "word": "将"
+            },
+            {
+              "beginTime": 33611,
+              "endTime": 33802,
+              "sentence_id": 0,
+              "word": "以"
+            },
+            {
+              "beginTime": 33802,
+              "endTime": 34184,
+              "sentence_id": 0,
+              "word": "视频"
+            },
+            {
+              "beginTime": 34184,
+              "endTime": 34566,
+              "sentence_id": 0,
+              "word": "内容"
+            },
+            {
+              "beginTime": 34566,
+              "endTime": 34948,
+              "sentence_id": 0,
+              "word": "转化"
+            },
+            {
+              "beginTime": 34948,
+              "endTime": 35139,
+              "sentence_id": 0,
+              "word": "为"
+            },
+            {
+              "beginTime": 35139,
+              "endTime": 35330,
+              "sentence_id": 0,
+              "word": "可"
+            },
+            {
+              "beginTime": 35330,
+              "endTime": 35712,
+              "sentence_id": 0,
+              "word": "编辑"
+            },
+            {
+              "beginTime": 35712,
+              "endTime": 35903,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 35903,
+              "endTime": 36285,
+              "sentence_id": 0,
+              "word": "文本。"
+            },
+            {
+              "beginTime": 36290,
+              "endTime": 36710,
+              "sentence_id": 0,
+              "word": "现在"
+            },
+            {
+              "beginTime": 36710,
+              "endTime": 36920,
+              "sentence_id": 0,
+              "word": "您"
+            },
+            {
+              "beginTime": 36920,
+              "endTime": 37340,
+              "sentence_id": 0,
+              "word": "可以"
+            },
+            {
+              "beginTime": 37340,
+              "endTime": 37760,
+              "sentence_id": 0,
+              "word": "看到"
+            },
+            {
+              "beginTime": 37760,
+              "endTime": 38180,
+              "sentence_id": 0,
+              "word": "转换"
+            },
+            {
+              "beginTime": 38180,
+              "endTime": 38390,
+              "sentence_id": 0,
+              "word": "后"
+            },
+            {
+              "beginTime": 38390,
+              "endTime": 38600,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 38600,
+              "endTime": 39020,
+              "sentence_id": 0,
+              "word": "文本"
+            },
+            {
+              "beginTime": 39020,
+              "endTime": 39440,
+              "sentence_id": 0,
+              "word": "内容，"
+            },
+            {
+              "beginTime": 39670,
+              "endTime": 39875,
+              "sentence_id": 0,
+              "word": "它"
+            },
+            {
+              "beginTime": 39875,
+              "endTime": 40285,
+              "sentence_id": 0,
+              "word": "不仅"
+            },
+            {
+              "beginTime": 40285,
+              "endTime": 40900,
+              "sentence_id": 0,
+              "word": "准确度"
+            },
+            {
+              "beginTime": 40900,
+              "endTime": 41105,
+              "sentence_id": 0,
+              "word": "高，"
+            },
+            {
+              "beginTime": 41240,
+              "endTime": 41670,
+              "sentence_id": 0,
+              "word": "而且"
+            },
+            {
+              "beginTime": 41670,
+              "endTime": 42100,
+              "sentence_id": 0,
+              "word": "支持"
+            },
+            {
+              "beginTime": 42100,
+              "endTime": 42530,
+              "sentence_id": 0,
+              "word": "多种"
+            },
+            {
+              "beginTime": 42530,
+              "endTime": 42960,
+              "sentence_id": 0,
+              "word": "编辑"
+            },
+            {
+              "beginTime": 42960,
+              "endTime": 43390,
+              "sentence_id": 0,
+              "word": "操作，"
+            },
+            {
+              "beginTime": 43390,
+              "endTime": 43790,
+              "sentence_id": 0,
+              "word": "方便"
+            },
+            {
+              "beginTime": 43790,
+              "endTime": 43990,
+              "sentence_id": 0,
+              "word": "您"
+            },
+            {
+              "beginTime": 43990,
+              "endTime": 44390,
+              "sentence_id": 0,
+              "word": "进行"
+            },
+            {
+              "beginTime": 44390,
+              "endTime": 44790,
+              "sentence_id": 0,
+              "word": "后续"
+            },
+            {
+              "beginTime": 44790,
+              "endTime": 44990,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 44990,
+              "endTime": 45390,
+              "sentence_id": 0,
+              "word": "整理"
+            },
+            {
+              "beginTime": 45390,
+              "endTime": 45590,
+              "sentence_id": 0,
+              "word": "和"
+            },
+            {
+              "beginTime": 45590,
+              "endTime": 45990,
+              "sentence_id": 0,
+              "word": "学习。"
+            }
+          ]
+        },
+        {
+          "beginTime": 46500,
+          "endTime": 74158,
+          "has_verify": false,
+          "id": 3,
+          "paragraph_id": "",
+          "remark_type": 0,
+          "sentence_id": 0,
+          "text": "除了基本的语音文本转换功能外，我们的AI语音产品还能为您生成会议的纪要和摘要。这些摘要和纪要能够帮助您快速了解会议的核心内容和重点的同时，还能一键完成会议的记录工作，提高工作效率。Nice, 赶快行动。输入网站itingnao.com即可体验我们的AI语音产品，让我们一起开启智能AI语音的新篇章。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "",
+          "userId": "1",
+          "userName": "发言人",
+          "words": [
+            {
+              "beginTime": 46500,
+              "endTime": 46822,
+              "sentence_id": 0,
+              "word": "除了"
+            },
+            {
+              "beginTime": 46822,
+              "endTime": 47144,
+              "sentence_id": 0,
+              "word": "基本"
+            },
+            {
+              "beginTime": 47144,
+              "endTime": 47305,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 47305,
+              "endTime": 47627,
+              "sentence_id": 0,
+              "word": "语音"
+            },
+            {
+              "beginTime": 47627,
+              "endTime": 47949,
+              "sentence_id": 0,
+              "word": "文本"
+            },
+            {
+              "beginTime": 47949,
+              "endTime": 48271,
+              "sentence_id": 0,
+              "word": "转换"
+            },
+            {
+              "beginTime": 48271,
+              "endTime": 48593,
+              "sentence_id": 0,
+              "word": "功能"
+            },
+            {
+              "beginTime": 48593,
+              "endTime": 48754,
+              "sentence_id": 0,
+              "word": "外，"
+            },
+            {
+              "beginTime": 48760,
+              "endTime": 49273,
+              "sentence_id": 0,
+              "word": "我们的"
+            },
+            {
+              "beginTime": 49273,
+              "endTime": 49444,
+              "sentence_id": 0,
+              "word": "A"
+            },
+            {
+              "beginTime": 49444,
+              "endTime": 49615,
+              "sentence_id": 0,
+              "word": "I"
+            },
+            {
+              "beginTime": 49615,
+              "endTime": 49957,
+              "sentence_id": 0,
+              "word": "语音"
+            },
+            {
+              "beginTime": 49957,
+              "endTime": 50299,
+              "sentence_id": 0,
+              "word": "产品"
+            },
+            {
+              "beginTime": 50299,
+              "endTime": 50470,
+              "sentence_id": 0,
+              "word": "还"
+            },
+            {
+              "beginTime": 50470,
+              "endTime": 50812,
+              "sentence_id": 0,
+              "word": "能为"
+            },
+            {
+              "beginTime": 50812,
+              "endTime": 50983,
+              "sentence_id": 0,
+              "word": "您"
+            },
+            {
+              "beginTime": 50983,
+              "endTime": 51325,
+              "sentence_id": 0,
+              "word": "生成"
+            },
+            {
+              "beginTime": 51325,
+              "endTime": 51667,
+              "sentence_id": 0,
+              "word": "会议"
+            },
+            {
+              "beginTime": 51667,
+              "endTime": 51838,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 51838,
+              "endTime": 52180,
+              "sentence_id": 0,
+              "word": "纪要"
+            },
+            {
+              "beginTime": 52180,
+              "endTime": 52351,
+              "sentence_id": 0,
+              "word": "和"
+            },
+            {
+              "beginTime": 52351,
+              "endTime": 52693,
+              "sentence_id": 0,
+              "word": "摘要。"
+            },
+            {
+              "beginTime": 53130,
+              "endTime": 53492,
+              "sentence_id": 0,
+              "word": "这些"
+            },
+            {
+              "beginTime": 53492,
+              "endTime": 53854,
+              "sentence_id": 0,
+              "word": "摘要"
+            },
+            {
+              "beginTime": 53854,
+              "endTime": 54035,
+              "sentence_id": 0,
+              "word": "和"
+            },
+            {
+              "beginTime": 54035,
+              "endTime": 54397,
+              "sentence_id": 0,
+              "word": "纪要"
+            },
+            {
+              "beginTime": 54397,
+              "endTime": 54759,
+              "sentence_id": 0,
+              "word": "能够"
+            },
+            {
+              "beginTime": 54759,
+              "endTime": 55121,
+              "sentence_id": 0,
+              "word": "帮助"
+            },
+            {
+              "beginTime": 55121,
+              "endTime": 55302,
+              "sentence_id": 0,
+              "word": "您"
+            },
+            {
+              "beginTime": 55302,
+              "endTime": 55664,
+              "sentence_id": 0,
+              "word": "快速"
+            },
+            {
+              "beginTime": 55664,
+              "endTime": 56026,
+              "sentence_id": 0,
+              "word": "了解"
+            },
+            {
+              "beginTime": 56026,
+              "endTime": 56388,
+              "sentence_id": 0,
+              "word": "会议"
+            },
+            {
+              "beginTime": 56388,
+              "endTime": 56569,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 56569,
+              "endTime": 57293,
+              "sentence_id": 0,
+              "word": "核心内容"
+            },
+            {
+              "beginTime": 57293,
+              "endTime": 57474,
+              "sentence_id": 0,
+              "word": "和"
+            },
+            {
+              "beginTime": 57474,
+              "endTime": 57836,
+              "sentence_id": 0,
+              "word": "重点"
+            },
+            {
+              "beginTime": 57836,
+              "endTime": 58017,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 58017,
+              "endTime": 58379,
+              "sentence_id": 0,
+              "word": "同时，"
+            },
+            {
+              "beginTime": 58380,
+              "endTime": 58732,
+              "sentence_id": 0,
+              "word": "还能"
+            },
+            {
+              "beginTime": 58732,
+              "endTime": 59084,
+              "sentence_id": 0,
+              "word": "一键"
+            },
+            {
+              "beginTime": 59084,
+              "endTime": 59436,
+              "sentence_id": 0,
+              "word": "完成"
+            },
+            {
+              "beginTime": 59436,
+              "endTime": 59788,
+              "sentence_id": 0,
+              "word": "会议"
+            },
+            {
+              "beginTime": 59788,
+              "endTime": 59964,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 59964,
+              "endTime": 60316,
+              "sentence_id": 0,
+              "word": "记录"
+            },
+            {
+              "beginTime": 60316,
+              "endTime": 60668,
+              "sentence_id": 0,
+              "word": "工作，"
+            },
+            {
+              "beginTime": 60780,
+              "endTime": 61218,
+              "sentence_id": 0,
+              "word": "提高"
+            },
+            {
+              "beginTime": 61218,
+              "endTime": 62094,
+              "sentence_id": 0,
+              "word": "工作效率。"
+            },
+            {
+              "beginTime": 63980,
+              "endTime": 64760,
+              "sentence_id": 0,
+              "word": "Nice, "
+            },
+            {
+              "beginTime": 64860,
+              "endTime": 65274,
+              "sentence_id": 0,
+              "word": "赶快"
+            },
+            {
+              "beginTime": 65274,
+              "endTime": 65688,
+              "sentence_id": 0,
+              "word": "行动。"
+            },
+            {
+              "beginTime": 66460,
+              "endTime": 66832,
+              "sentence_id": 0,
+              "word": "输入"
+            },
+            {
+              "beginTime": 66832,
+              "endTime": 67204,
+              "sentence_id": 0,
+              "word": "网站"
+            },
+            {
+              "beginTime": 67204,
+              "endTime": 67576,
+              "sentence_id": 0,
+              "word": "it"
+            },
+            {
+              "beginTime": 67576,
+              "endTime": 67948,
+              "sentence_id": 0,
+              "word": "ingnao"
+            },
+            {
+              "beginTime": 67948,
+              "endTime": 68134,
+              "sentence_id": 0,
+              "word": ".com"
+            },
+            {
+              "beginTime": 68134,
+              "endTime": 68506,
+              "sentence_id": 0,
+              "word": "即可"
+            },
+            {
+              "beginTime": 68506,
+              "endTime": 68878,
+              "sentence_id": 0,
+              "word": "体验"
+            },
+            {
+              "beginTime": 68878,
+              "endTime": 69436,
+              "sentence_id": 0,
+              "word": "我们的"
+            },
+            {
+              "beginTime": 69436,
+              "endTime": 69622,
+              "sentence_id": 0,
+              "word": "A"
+            },
+            {
+              "beginTime": 69622,
+              "endTime": 69808,
+              "sentence_id": 0,
+              "word": "I"
+            },
+            {
+              "beginTime": 69808,
+              "endTime": 70180,
+              "sentence_id": 0,
+              "word": "语音"
+            },
+            {
+              "beginTime": 70180,
+              "endTime": 70552,
+              "sentence_id": 0,
+              "word": "产品，"
+            },
+            {
+              "beginTime": 71160,
+              "endTime": 72040,
+              "sentence_id": 0,
+              "word": "让我们一起"
+            },
+            {
+              "beginTime": 72040,
+              "endTime": 72392,
+              "sentence_id": 0,
+              "word": "开启"
+            },
+            {
+              "beginTime": 72392,
+              "endTime": 72744,
+              "sentence_id": 0,
+              "word": "智能"
+            },
+            {
+              "beginTime": 72744,
+              "endTime": 72920,
+              "sentence_id": 0,
+              "word": "A"
+            },
+            {
+              "beginTime": 72920,
+              "endTime": 73096,
+              "sentence_id": 0,
+              "word": "I"
+            },
+            {
+              "beginTime": 73096,
+              "endTime": 73448,
+              "sentence_id": 0,
+              "word": "语音"
+            },
+            {
+              "beginTime": 73448,
+              "endTime": 73624,
+              "sentence_id": 0,
+              "word": "的"
+            },
+            {
+              "beginTime": 73624,
+              "endTime": 74158,
+              "sentence_id": 0,
+              "word": "新篇章。"
+            }
+          ]
+        }
+      ],
+      "data_status": 1,
+      "key_word": [
+        "实时录音转写",
+        "会议纪要",
+        "Get核心事项"
+      ],
+      "key_word_status": 1,
+      "abstract": "这段对话介绍了一款AI语音产品，旨在解决会议内容复杂难以整理的问题。用户可以上传音视频或开始录音，将会议内容转化为可编辑的文本。该产品还支持生成会议纪要和摘要，帮助用户快速了解会议重点并提高工作效率。",
+      "abstract_status": 1,
+      "ai_abstract": "",
+      "ai_abstract_status": 0,
+      "part": [
+        {
+          "id": 1,
+          "start": 110,
+          "end": 74158,
+          "title": "AI语音产品解决会议整理难题",
+          "screen_short_img": "",
+          "abstract": "遇到会议内容复杂难以整理的情况吗？试试我们的AI语音产品，点击上传音视频或开始录音，即可将会议内容转化为可编辑的文本。产品还支持生成会议纪要和摘要，帮助您快速了解会议重点并提高工作效率。",
+          "start_time": "00:00"
+        }
+      ],
+      "part_status": 1,
+      "review": [
+        {
+          "answer": "在面对信息纷繁复杂的会议内容时，可以尝试使用我们的AI语音产品。通过上传音视频或开始录音，产品将自动进行语音识别和转换，将语音内容转化为可编辑的文本，方便用户进行后续整理和学习。",
+          "id": [
+            1
+          ],
+          "question": "遇到复杂会议信息难以整理的问题该如何解决？"
+        },
+        {
+          "answer": "除了基本的语音文本转换功能外，AI语音产品还能生成会议纪要和摘要，帮助用户快速了解会议核心内容和重点，从而实现一键完成会议记录工作，显著提高工作效率。用户可以通过访问网站itingnao.com来体验我们的AI语音产品。只需上传会议视频或录音，系统即可自动转换语音为文本，并提供丰富的编辑操作以供后续整理和学习。",
+          "id": [
+            3
+          ],
+          "question": "AI语音产品如何帮助提高会议记录效率？如何获取和使用AI语音产品？"
+        }
+      ],
+      "review_status": 1,
+      "summary": [],
+      "summary_status": 1,
+      "example_qa": "",
+      "file_md_5": "",
+      "handler_time": 0,
+      "progress_speed": 0,
+      "remark": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "id": "1",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "大家好，你是不是也遇到过这样的情况，参加了一场重要的会议，回到办公室想要整理会议内容，却发现信息纷繁复杂难以整理。或在会议中主讲人的发言如同连珠炮，而你却在拼命进入，却总是感觉别遗漏了关键信息。现在快来试试我们的听到AI语音产品，这些问题都将迎刃而解。"
+            }
+          ],
+          "id": "swuam",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "首先您只需点击上传音视频按钮或点击开始录音，选择你想要转换的会议视频或会议录音。接着产品将自动进行语音识别和转换，将以视频内容转化为可编辑的文本。现在您可以看到转换后的文本内容，它不仅准确度高，而且支持多种编辑操作，方便您进行后续的整理和学习。"
+            }
+          ],
+          "id": "37g4y",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "除了基本的语音文本转换功能外，我们的AI语音产品还能为您生成会议的纪要和摘要。这些摘要和纪要能够帮助您快速了解会议的核心内容和重点的同时，还能一键完成会议的记录工作，提高工作效率。Nice, 赶快行动。输入网站itingnao.com即可体验我们的AI语音产品，让我们一起开启智能AI语音的新篇章。"
+            }
+          ],
+          "id": "biwnz",
+          "type": "p"
+        },
+        {
+          "children": [
+            {
+              "text": "# 总结\n\n## 主题\nAI语音产品帮助用户解决会议记录和整理的难题。\n\n## 决策\n选择使用AI语音产品进行会议内容的语音识别和转换。\n\n## 关键点\n- 语音识别和转换功能。\n- 将音视频内容转化为可编辑文本。\n- 生成会议纪要和摘要。\n\n## 重要数字数据\n- 无具体数字数据提供。\n\n# 章节\n\n## 产品介绍\n- 针对问题：会议信息整理困难，关键信息遗漏。\n- 解决方案：AI语音产品，通过上传音视频或录音进行转换。\n\n## 功能特点\n- **语音识别**：自动将会议中的语音内容识别出来。\n- **文本转换**：将识别的语音转换成可编辑的文本格式。\n- **编辑操作**：支持多种文本编辑功能，便于整理和学习。\n\n## 附加价值\n- **会议纪要**：自动生成会议纪要，快速把握会议核心。\n- **摘要生成**：提供会议摘要，帮助用户了解重点。\n- **效率提升**：一键完成会议记录，提高工作效率。\n\n# 行动项目\n\n- 主题：体验AI语音产品\n- 下一步行动：访问网站itingnao.com\n- 时间表：立即行动，开始体验产品\n\n- 主题：整理会议记录\n- 下一步行动：上传音视频或录音至AI语音产品\n- 时间表：根据会议时间安排\n\n- 主题：编辑和学习会议内容\n- 下一步行动：利用产品提供的编辑功能整理会议文本\n- 时间表：会议结束后尽快进行\n\n- 主题：生成会议纪要和摘要\n- 下一步行动：使用AI产品自动生成会议纪要和摘要\n- 时间表：会议结束后立即生成，以便快速回顾和分发。"
+            }
+          ],
+          "id": "8hnze",
+          "type": "p"
+        }
+      ],
+      "embedding_status": 1,
+      "status": 4,
+      "delete_status": 0,
+      "language": 1,
+      "trans_type": 0,
+      "chat_num": 1,
+      "message": "录音任务异常，系统判断任务结束",
+      "scene_id": 3,
+      "source_type": 0,
+      "share_status": 1,
+      "team_id": "",
+      "folder_id": 133462,
+      "source_channel": 1,
+      "official": 2,
+      "screen_video": "",
+      "screen_audio": "",
+      "update_time": "2025-07-08 00:44:59",
+      "create_time": "2025-07-08 00:44:59",
+      "prepare_status": 0,
+      "is_free_type": 0,
+      "offline_tag": 0,
+      "retry_num": 0,
+      "is_temp": 0,
+      "platform": 1,
+      "is_knowledge": 0,
+      "last_view_at": "2025-10-22 09:50:17",
+      "last_edit_at": "",
+      "is_recording": 0,
+      "pagination": null,
+      "word_count": 397,
+      "secen_title": "会议记录",
+      "is_view": 1,
+      "download_url": "https://tingnao.oss-cn-hangzhou.aliyuncs.com/tmp%2F43a34ccc-2d3d-4b21-87a4-4a15fe669ca3.mp4?Expires=1781673822&OSSAccessKeyId=LTAI5t5Z88vjuh8XYhakB9Y8&Signature=O1mRXQvNXNrjTtPWNXyYmumRL4w%3D&response-content-disposition=attachment%3Bfilename%3D%E3%80%90%E7%A4%BA%E4%BE%8B%E3%80%91%E4%BC%9A%E8%AE%AE%E5%86%85%E5%AE%B9%E8%87%AA%E5%8A%A8%E6%95%B4%E7%90%86%E7%BA%AA%E8%A6%81%E5%92%8C%E4%BB%A3%E5%8A%9E.mp4",
+      "tran_status": {},
+      "meeting_summary": "# 会议总结\n\n## 会议基本信息\n\n* 会议主题：AI语音产品介绍\n* 会议目的：解决会议记录和信息整理问题\n\n## 会议议题\n\n### AI语音产品功能介绍\n\n* **讨论要点**：介绍了AI语音产品的基本功能，包括语音识别、转换和编辑。\n* **重要观点和意见**：产品能够将音视频内容转化为可编辑文本，提高信息整理效率。\n* **提出的问题和对应的解决方案**：解决了会议信息难以整理和关键信息遗漏的问题。\n* **决策和结论**：产品能够自动进行语音识别和转换，生成会议纪要和摘要，提高工作效率。\n\n### 产品操作流程\n\n* **讨论要点**：介绍了产品的使用流程，包括上传音视频、选择转换内容、查看转换后的文本。\n* **重要观点和意见**：产品支持多种编辑操作，方便后续整理和学习。\n* **提出的问题和对应的解决方案**：产品能够一键完成会议记录工作。\n* **决策和结论**：用户可以通过输入网站itingnao.com体验产品。\n\n## 会议决策\n\n* 推广AI语音产品，以提高会议记录和信息整理的效率。\n\n## 关键点和成果影响\n\n* 产品能够自动进行语音识别和转换，生成会议纪要和摘要，极大提高了工作效率。\n* 产品支持多种编辑操作，方便用户进行后续的整理和学习。\n\n## 重要数据\n\n* 产品支持音视频内容转化为可编辑文本。\n* 产品能够一键完成会议记录工作。\n",
+      "meeting_todo": [],
+      "meeting_summary_status": 2,
+      "meeting_todo_status": 1,
+      "queue_num": 0,
+      "waite_time": 0,
+      "free_task_status": 0,
+      "is_vip": 0,
+      "cover_img": "",
+      "create_time_time_stamp": 1751906699,
+      "meeting_summary_id": -1,
+      "example_name": "",
+      "example_id": 0,
+      "file_num": 0,
+      "view_num": 0,
+      "user_name": "广州老朱",
+      "parent_model": 0,
+      "ai_file_path": "",
+      "record_note": null,
+      "parse_content": "",
+      "parse_title": "",
+      "parse_images": null,
+      "parse_image_objs": null,
+      "parse_site": "",
+      "parse_elements": null,
+      "parse_url": "",
+      "parse_status": 0,
+      "ocr_img_list": null,
+      "tag": "",
+      "text_rewrite_status": 3,
+      "text_polish_processing": null,
+      "re_write_count": 0,
+      "is_read": 0,
+      "new_note": "",
+      "inspire_data": "404",
+      "width": 0,
+      "height": 0,
+      "file_size": 4511,
+      "jump_link": "",
+      "network_platform": "",
+      "network_platform_img_url": "",
+      "show_speaker": 1,
+      "show_timestamp": 1,
+      "merge_speaker": 0,
+      "text_polish_data_id": "",
+      "voice_checkbox": false,
+      "assistant_status": 0,
+      "assistant_status_text": "",
+      "task_id": 0,
+      "diff_time": 0
+    }
+  }
+}

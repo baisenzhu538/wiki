@@ -1,0 +1,267 @@
+{
+  "success": true,
+  "request": {
+    "id": 3111485,
+    "summary_new": "1"
+  },
+  "detail": {
+    "id": 3111485,
+    "name": "尼尔森-华润万家副总",
+    "folderId": 245320,
+    "duration": null,
+    "createdAt": null,
+    "updatedAt": null,
+    "status": {
+      "value": 4,
+      "text": "处理完成",
+      "done": true
+    },
+    "transcript": {
+      "data": [
+        {
+          "beginTime": 0,
+          "endTime": 3380,
+          "has_verify": true,
+          "id": 1,
+          "paragraph_id": "1764348061659500000",
+          "remark_type": 0,
+          "sentence_id": 1,
+          "text": "华润万家发展中心副总尼尔森。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "e5a1e01c41ac41fe9006e7559cad72b2",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 0,
+              "endTime": 1040,
+              "sentence_id": 1,
+              "word": "华润万家"
+            },
+            {
+              "beginTime": 1040,
+              "endTime": 1560,
+              "sentence_id": 1,
+              "word": "发展"
+            },
+            {
+              "beginTime": 1560,
+              "endTime": 2080,
+              "sentence_id": 1,
+              "word": "中心"
+            },
+            {
+              "beginTime": 2080,
+              "endTime": 2600,
+              "sentence_id": 1,
+              "word": "副总"
+            },
+            {
+              "beginTime": 2600,
+              "endTime": 3380,
+              "sentence_id": 1,
+              "word": "尼尔森。"
+            }
+          ]
+        }
+      ],
+      "count": 1,
+      "status": {
+        "value": 1,
+        "text": "转写完成",
+        "done": true
+      }
+    },
+    "meetingSummary": {
+      "content": "## 📌基本信息\n\n- **主题**:华润万家发展中心人员信息\n- **时间**:2025-11-29 00:40:12\n- **讨论人员**:尼尔森\n\n---\n\n## 一、人员基本信息\n\n- **姓名**：尼尔森\n- **职位**：华润万家发展中心副总",
+      "status": {
+        "value": 2,
+        "text": "纪要已生成",
+        "done": true
+      }
+    },
+    "raw": {
+      "id": 3111485,
+      "user_id": 240745,
+      "name": "尼尔森-华润万家副总",
+      "name_status": 0,
+      "ws_url": "wss://tingwu-realtime-cn-beijing.aliyuncs.com/api/ws/v1?mc=MxnKQulcdw1P7x3iSqjneUeJY4fHxjw8f5aAtDPfJXycYwLgOpMB54M1K8bGVzACl89jOkV23xwAf3SF0NPTyY5A0RjZ7iHV4xtKpAey-ADgWaYk2IfgFxg2uMosOhdV",
+      "style": 2,
+      "file_path": "https://tnoss.itingnao.com/tmp/240745_3111485/qmv54hm4czrkzsp389e70js648morom3.mp3?auth_key=1781418154-e51l8qsjmq5lz1diq299jndt5uyjdg0f-0-1ddcfd913b44bf9d9ead4c85927675f9",
+      "prepare_path": "tmp/240745_3111485/qmv54hm4czrkzsp389e70js648morom3.mp3",
+      "pcm_to_mp3_status": 3,
+      "pcm_to_mp3_message": "",
+      "file_long": "0:03",
+      "file_duration": 3000,
+      "file_source_type": 2,
+      "text_polish": null,
+      "text_polish_status": 0,
+      "mind_map_summary": [],
+      "mind_map_summary_status": 1,
+      "key_sentences": [],
+      "key_sentences_status": 0,
+      "data": [
+        {
+          "beginTime": 0,
+          "endTime": 3380,
+          "has_verify": true,
+          "id": 1,
+          "paragraph_id": "1764348061659500000",
+          "remark_type": 0,
+          "sentence_id": 1,
+          "text": "华润万家发展中心副总尼尔森。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "e5a1e01c41ac41fe9006e7559cad72b2",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 0,
+              "endTime": 1040,
+              "sentence_id": 1,
+              "word": "华润万家"
+            },
+            {
+              "beginTime": 1040,
+              "endTime": 1560,
+              "sentence_id": 1,
+              "word": "发展"
+            },
+            {
+              "beginTime": 1560,
+              "endTime": 2080,
+              "sentence_id": 1,
+              "word": "中心"
+            },
+            {
+              "beginTime": 2080,
+              "endTime": 2600,
+              "sentence_id": 1,
+              "word": "副总"
+            },
+            {
+              "beginTime": 2600,
+              "endTime": 3380,
+              "sentence_id": 1,
+              "word": "尼尔森。"
+            }
+          ]
+        }
+      ],
+      "data_status": 1,
+      "key_word": [],
+      "key_word_status": 0,
+      "abstract": "",
+      "abstract_status": 0,
+      "ai_abstract": "",
+      "ai_abstract_status": 0,
+      "part": [
+        {
+          "id": 0,
+          "start": 0,
+          "end": 3000,
+          "title": "人物介绍",
+          "screen_short_img": "",
+          "abstract": "该章节主要介绍了华润万家发展中心副总尼尔森这一人物信息。",
+          "start_time": "00:00"
+        }
+      ],
+      "part_status": 1,
+      "review": [],
+      "review_status": 1,
+      "summary": [],
+      "summary_status": 1,
+      "example_qa": "",
+      "file_md_5": "",
+      "handler_time": 53,
+      "progress_speed": 0,
+      "remark": [],
+      "embedding_status": 1,
+      "status": 4,
+      "delete_status": 0,
+      "language": 1,
+      "trans_type": 1,
+      "chat_num": 1,
+      "message": "ok",
+      "scene_id": 1,
+      "source_type": 0,
+      "share_status": 0,
+      "team_id": "",
+      "folder_id": 245320,
+      "source_channel": 0,
+      "official": 0,
+      "screen_video": "",
+      "screen_audio": "",
+      "update_time": "2025-12-21 15:53:53",
+      "create_time": "2025-11-29 00:40:12",
+      "prepare_status": 0,
+      "is_free_type": 0,
+      "offline_tag": 0,
+      "retry_num": 0,
+      "is_temp": 0,
+      "platform": 1,
+      "is_knowledge": 0,
+      "last_view_at": "2025-12-21 15:53:54",
+      "last_edit_at": "",
+      "is_recording": 0,
+      "pagination": null,
+      "word_count": 14,
+      "secen_title": "通用记录",
+      "is_view": 1,
+      "download_url": "https://tingnao.oss-cn-hangzhou.aliyuncs.com/tmp%2F240745_3111485%2Fqmv54hm4czrkzsp389e70js648morom3.mp3?Expires=1781673754&OSSAccessKeyId=LTAI5t5Z88vjuh8XYhakB9Y8&Signature=dO1SFQZeSl4mfh1VI7zGRoKm%2FSQ%3D&response-content-disposition=attachment%3Bfilename%3D%E5%B0%BC%E5%B0%94%E6%A3%AE-%E5%8D%8E%E6%B6%A6%E4%B8%87%E5%AE%B6%E5%89%AF%E6%80%BB.mp3",
+      "tran_status": {},
+      "meeting_summary": "## 📌基本信息\n\n- **主题**:华润万家发展中心人员信息\n- **时间**:2025-11-29 00:40:12\n- **讨论人员**:尼尔森\n\n---\n\n## 一、人员基本信息\n\n- **姓名**：尼尔森\n- **职位**：华润万家发展中心副总",
+      "meeting_todo": [],
+      "meeting_summary_status": 2,
+      "meeting_todo_status": 1,
+      "queue_num": 0,
+      "waite_time": 0,
+      "free_task_status": 0,
+      "is_vip": 0,
+      "cover_img": "",
+      "create_time_time_stamp": 1764348012,
+      "meeting_summary_id": -1,
+      "example_name": "",
+      "example_id": 0,
+      "file_num": 0,
+      "view_num": 0,
+      "user_name": "广州老朱",
+      "parent_model": 0,
+      "ai_file_path": "",
+      "record_note": null,
+      "parse_content": "",
+      "parse_title": "",
+      "parse_images": null,
+      "parse_image_objs": null,
+      "parse_site": "",
+      "parse_elements": null,
+      "parse_url": "",
+      "parse_status": 0,
+      "ocr_img_list": null,
+      "tag": "华润万家 尼尔森 华润万家 发展中心 副总",
+      "text_rewrite_status": 3,
+      "text_polish_processing": null,
+      "re_write_count": 0,
+      "is_read": 0,
+      "new_note": "",
+      "inspire_data": "404",
+      "width": 0,
+      "height": 0,
+      "file_size": 7,
+      "jump_link": "",
+      "network_platform": "",
+      "network_platform_img_url": "",
+      "show_speaker": 1,
+      "show_timestamp": 1,
+      "merge_speaker": 0,
+      "text_polish_data_id": "",
+      "voice_checkbox": true,
+      "assistant_status": 0,
+      "assistant_status_text": "",
+      "task_id": 0,
+      "diff_time": 0
+    }
+  }
+}

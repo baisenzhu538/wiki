@@ -23622,7 +23622,7 @@
       "name_status": 1,
       "ws_url": "wss://tingwu-realtime-cn-beijing.aliyuncs.com/api/ws/v1?mc=MxnKQulcdw1P7x3iSqjneUeJY4fHxjw8f5aAtDPfJXycYwLgOpMB54M1K8bGVzACUYRMKZYwZlR7ijhpKNPGffzMoZWaogffoJuNo-evFYbgWaYk2IfgFxg2uMosOhdV",
       "style": 2,
-      "file_path": "https://tnoss.itingnao.com/tmp/240745_4046714/lqovch9f3hxderpavqh850u999ibptfl.mp3?auth_key=1781417606-qjp1rm5j3c30qbl71mftkg87xi77yf3t-0-e67b3b5f87996670d444c6fd246013b4",
+      "file_path": "https://tnoss.itingnao.com/tmp/240745_4046714/lqovch9f3hxderpavqh850u999ibptfl.mp3?auth_key=1781417948-56lqfechqbc0008mgbltbuyr7l6y6cr2-0-58f86a7858b59e3b6574294e2ae55129",
       "prepare_path": "tmp/240745_4046714/lqovch9f3hxderpavqh850u999ibptfl.mp3",
       "pcm_to_mp3_status": 3,
       "pcm_to_mp3_message": "",
@@ -49768,7 +49768,7 @@
       "word_count": 6554,
       "secen_title": "通用记录",
       "is_view": 1,
-      "download_url": "https://tingnao.oss-cn-hangzhou.aliyuncs.com/tmp%2F240745_4046714%2Flqovch9f3hxderpavqh850u999ibptfl.mp3?Expires=1781673206&OSSAccessKeyId=LTAI5t5Z88vjuh8XYhakB9Y8&Signature=SkeCgph0ZsT3ACeX6XODNWJo9t4%3D&response-content-disposition=attachment%3Bfilename%3D%E4%B8%80%E5%A0%82%E6%AD%A6%E6%99%BA%E9%99%A2-%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D.mp3",
+      "download_url": "https://tingnao.oss-cn-hangzhou.aliyuncs.com/tmp%2F240745_4046714%2Flqovch9f3hxderpavqh850u999ibptfl.mp3?Expires=1781673548&OSSAccessKeyId=LTAI5t5Z88vjuh8XYhakB9Y8&Signature=gcY%2Bs11EXFEez0Fjrs7Lg8QO888%3D&response-content-disposition=attachment%3Bfilename%3D%E4%B8%80%E5%A0%82%E6%AD%A6%E6%99%BA%E9%99%A2-%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D.mp3",
       "tran_status": {},
       "meeting_summary": "## 📌基本信息\n\n- **主题**:怡航物质院项目成果分享\n- **时间**:2026-01-13 14:39:29\n- **参会人员**:发言人1\n\n---\n\n## 一、会议背景与目的\n\n本次会议分享了**怡航物质院**项目成果，该项目由创科技体共同完成，旨在通过构建**知识库**、开发**AI智能体**、开展**小镇实验**及撰写**贡献教程**，解决AI智能体在提取关键假设等方面效果欠佳的问题，最终形成可工业化转换的知识体系与产品原型。\n\n---\n\n## 二、📝会议内容\n\n### 1. 项目背景与目标\n\n- 项目起因：现有AI智能体在提取**关键假设**、**转化率假设**时效果欠佳，核心原因是缺乏足够清晰的知识体系支撑\n- 灵感来源：结合**斯坦福小镇**项目模式，思考其在商业分析中验证假设的低成本价值\n- 四大目标出口：\n  - 底层知识沉淀：将课程内容转化为**ECD知识库**及**提示词智能体系**\n  - 小镇实验：构建模拟环境验证商业假设\n  - 贡献教程：编写**y coding**项目实践书籍\n  - 工业化转换：形成课程内容转知识库的自动化流程\n\n### 2. 团队构成与招募\n\n- 招募情况：近70人报名，最终选定10位官方创客，另有几十位非官方创客参与\n- 分组情况：分为L1L2组（知识库构建）、L3组（小镇实验）、L4组（书籍撰写）\n\n### 3. L1L2组成果（知识库构建）\n\n- 核心工作：\n  - 产品经理：**谭政**\n  - 成果：实现课程内容工业化转换为AI友好型知识库，包括**逐字稿**、**图片解析**、**环保书内容**等\n  - 处理内容：涵盖**78个商业场景**、**6个决策场景**、**21个增长场景**、**25个转化率场景**等，共超100个场景\n  - 技术突破：开发自动化工具解析图片小抄，实现多模态内容结构化\n- 后续计划：继续拆解**Y30案例课**、**里程碑书籍**等内容至知识库\n\n### 4. L3组成果（小镇实验）\n\n- 核心工作：\n  - 产品经理：**于总**（首次负责产品管理，表现出色）\n  - 目标：构建MVP产品，探索AI协作与模拟环境验证假设\n- 技术挑战与解决方案：\n  - **y coding问题**：通过研讨制定**UML驱动的PMUML**开发流程\n  - **图片转代码**：先将图片转化为**Jason格式描述**，再交由AI生成代码\n  - **MVP定义**：第一阶段聚焦**假设ABCD智能体**，而非完整小镇形态\n- 团队成长：\n  - 远程团队磨合，角色涵盖产品、调研、设计、开发\n  - **于总**产品管理能力与AI掌控力显著提升，**伟强**、**金子骨头阴影教兵**等贡献突出\n- 产品进展：\n  - 当前界面为对话框形式，后续将迭代为小镇形态\n  - 已构建包含数十个场景的**假设库**，可支持商业决策、社会决策分析及数字员工假设\n- 未来计划：2026年继续推进项目，增加大量预判与假设场景\n\n### 5. L4组成果（书籍撰写）\n\n- 核心工作：\n  - 产品经理：**李海峰**（海峰老师）、姬秀\n  - 目标：记录项目过程，通过AI模拟团队成员写作风格生成文章，最终形成合集书籍\n- 进展：已收集大量素材，正在筛选与输出内容，后续将涵盖写作、出版、推广、变现全流程\n\n### 6. 项目总结与致谢\n\n- 项目口号：**当拥有梦想那一刻，我仿佛拥有了全世界**（展示于项目首页）\n- 致谢对象：\n  - 所有官方及非官方创客同学\n  - 娱乐、出卖、雪儿、李梅等一行工作人员\n  - 一行会员同学的关注与支持\n\n### 7. 后续安排与福利\n\n- 分享资源：内部**y coding研讨会**链接（后续补充）\n- 产品体验：提供MVP产品邀请码（限时有效）\n- 招募推广：微信直播间未加入一行的朋友可通过32个商店的**9.9元丰台课程**加入一行\n\n---",
       "meeting_todo": [

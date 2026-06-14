@@ -39309,7 +39309,7 @@
       "name_status": 0,
       "ws_url": "wss://tingwu-realtime-cn-beijing.aliyuncs.com/api/ws/v1?mc=MxnKQulcdw1P7x3iSqjneUeJY4fHxjw8f5aAtDPfJXycYwLgOpMB54M1K8bGVzACuX2DIrxpg1_xT9cWZhR6XxNaI8kj9T4xHNCRziBzWOngWaYk2IfgFxg2uMosOhdV",
       "style": 2,
-      "file_path": "https://tnoss.itingnao.com/tmp/240745_4023226/0b8tmqwo3fbfj8oifnti7i9e5umlr3lk.mp3?auth_key=1781417626-94ga2bvkm8t2w3kp4gekrw4pwn7v1wic-0-8245d34b3cd57d13f65e9088ce846bd6",
+      "file_path": "https://tnoss.itingnao.com/tmp/240745_4023226/0b8tmqwo3fbfj8oifnti7i9e5umlr3lk.mp3?auth_key=1781418071-wtdo7y486d96ck6o0j69z4a198up0gxq-0-a5d3f30e4a00f951f7d03dad9cf59b02",
       "prepare_path": "tmp/240745_4023226/0b8tmqwo3fbfj8oifnti7i9e5umlr3lk.mp3",
       "pcm_to_mp3_status": 3,
       "pcm_to_mp3_message": "",
@@ -78822,7 +78822,7 @@
       "word_count": 6581,
       "secen_title": "通用记录",
       "is_view": 0,
-      "download_url": "https://tingnao.oss-cn-hangzhou.aliyuncs.com/tmp%2F240745_4023226%2F0b8tmqwo3fbfj8oifnti7i9e5umlr3lk.mp3?Expires=1781673226&OSSAccessKeyId=LTAI5t5Z88vjuh8XYhakB9Y8&Signature=X%2FRerQhRp1Osb2g3AjAPO8MiwSU%3D&response-content-disposition=attachment%3Bfilename%3DAI%E6%97%8B%E9%A3%8E%E7%BB%84-%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D.mp3",
+      "download_url": "https://tingnao.oss-cn-hangzhou.aliyuncs.com/tmp%2F240745_4023226%2F0b8tmqwo3fbfj8oifnti7i9e5umlr3lk.mp3?Expires=1781673670&OSSAccessKeyId=LTAI5t5Z88vjuh8XYhakB9Y8&Signature=UReCrpWTQ1vXiS0edjNSaEMRQ4o%3D&response-content-disposition=attachment%3Bfilename%3DAI%E6%97%8B%E9%A3%8E%E7%BB%84-%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D.mp3",
       "tran_status": {},
       "meeting_summary": "## 📌基本信息\n\n- **主题**:AI 旋风组项目路演\n- **时间**:2026-01-12 15:33:55\n- **参会人员**:金科、王飞、老孙、神秘嘉宾\n\n---\n\n## 一、会议背景与目的\n\n本次会议由 **AI 旋风组** 进行项目路演，核心是基于公司内部培训、顾问咨询、学习反馈等场景痛点，提出利用 **AI 技术** 开发智能产品的解决方案，目前项目已大半落地，后续将在神秘嘉宾支持下进一步迭代优化。\n\n---\n\n## 二、📝会议内容\n\n### 项目团队与背景介绍\n\n- 团队名称为 **AI 旋风组**，发言人金科为一堂 MBA、一堂重庆中心主任，曾任职百度、阿里，目前经营棋牌线下连锁项目。\n- 团队成员包括产品合伙人 **王飞** 和北京合伙人 **老孙**（一堂 MBA）。\n- 项目契机源于银行提供的 **AI 大航海** 计划，推动公司全面开展 AI 项目。\n\n### 项目核心假设与目标\n\n- **三大核心问题**\n  - 公司 200 号员工学习一堂课程存在卡点，如课程过长、需提取关键内容，希望通过 AI 实现全员高效学习与真实反馈。\n  - 希望通过 AI 技术让一堂顾问（如出门）的专业知识随时可咨询，基于一堂科学体系解答管理、战略等问题。\n  - 解决学习一堂课程时正反馈不足、课程多且不知如何听的问题，实现随时随地学习并获得正反馈。\n\n### 项目实现进展\n\n- **已实现功能**\n  - 通过扣子和公益平台建立 **一堂知识库 Agent**。\n  - 硬件可调用 Agent 实现语音对话，并调用一堂实体知识库。\n  - 摄像头可分析环境并通过语音描述。\n  - 支持语音生成图片、文案等内容。\n  - 实现语音克隆，用于大模型回复。\n- **技术实现路径**\n  - 选用 **阿里云千问平台**，因其实现难度低且提供免费额度（100 万 Cookie）。\n  - 申请 API Key、Token，注册认证获取免费额度，选择合适大模型（如千问 Plus 模型处理图片）。\n  - 在 **百炼中心** 创建智能体，基于一堂五步法构建知识库，通过扫描环保书录入内容。\n  - 克隆出门声音，选用 **V3 Plus 模型** 实现较高相似度，获取声音 ID 用于硬件调用。\n  - 使用 **API Fox 或 Postman** 调试接口，实现硬件唤醒与语音回复（正向、反向回复均已设置）。\n- **硬件选择**\n  - 初期考虑低成本方案和树莓派方案，最终选择 **树莓派 5**，因其社区和文档丰富，本地已搭建大模型及软件，可快速调优。\n  - 采购主板、摄像头、语音模块等硬件，调用通义最新大模型及纹身图模型。\n  - 本地大模型因算力不足、响应时间长（几分钟到十几分钟）而未采用。\n\n### 项目测试与演示\n\n- **功能测试**\n  - 智能体可调用一堂方法论（如五步法）回答问题，例如解释五步法内容及应用于中餐店分析。\n  - 摄像头分析功能可描述环境（如人物手持黄色手机、穿着黑色衣物等）。\n  - 语音生成功能可生成 Q 版猪在天上飞的图片。\n- **当前状态**：项目虽不完美，但已按预期方向推进，需进一步模型调优和知识库搭建，量产仍需时间。\n\n### 项目未来规划\n\n- **神秘嘉宾支持**：邀请一堂 AI 领域知名专家加入，协助项目落地与迭代。\n- **迭代方向**：完善产品功能，探索更多应用场景（如企业内部、其他公司），提升产品价值。\n- **推广计划**：项目成熟后将赠送产品给支持的用户。",
       "meeting_todo": [

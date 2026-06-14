@@ -1,0 +1,30 @@
+{
+  "id": 6969289,
+  "name": "2026-05-06 13:07 录音",
+  "folderId": 245320,
+  "duration": "",
+  "status": {
+    "value": 90,
+    "text": "需手动生成转写",
+    "done": false
+  },
+  "transcript": {
+    "count": 0,
+    "status": {
+      "value": 0,
+      "text": "需手动生成转写",
+      "done": false
+    },
+    "text": ""
+  },
+  "meetingSummary": {
+    "content": "",
+    "status": {
+      "value": 0,
+      "text": "纪要生成中",
+      "done": false
+    }
+  },
+  "topics": [],
+  "tags": ""
+}

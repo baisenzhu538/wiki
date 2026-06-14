@@ -1,0 +1,30 @@
+{
+  "id": 3185113,
+  "name": "2025-12-03 14:35 录音",
+  "folderId": 245320,
+  "duration": "1:36:02",
+  "status": {
+    "value": 4,
+    "text": "处理完成",
+    "done": true
+  },
+  "transcript": {
+    "count": 0,
+    "status": {
+      "value": 1,
+      "text": "转写完成",
+      "done": true
+    },
+    "text": ""
+  },
+  "meetingSummary": {
+    "content": "全文内容太短，暂无纪要内容",
+    "status": {
+      "value": 2,
+      "text": "纪要已生成",
+      "done": true
+    }
+  },
+  "topics": [],
+  "tags": ""
+}

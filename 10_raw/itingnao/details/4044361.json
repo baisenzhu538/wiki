@@ -26545,7 +26545,7 @@
       "name_status": 0,
       "ws_url": "wss://tingwu-realtime-cn-beijing.aliyuncs.com/api/ws/v1?mc=MxnKQulcdw1P7x3iSqjneUeJY4fHxjw8f5aAtDPfJXycYwLgOpMB54M1K8bGVzACYZVeyHjYHa-RuilGG_rTykAr4yWe0WfwCs93pGrHKwLgWaYk2IfgFxg2uMosOhdV",
       "style": 2,
-      "file_path": "https://tnoss.itingnao.com/tmp/240745_4044361/ueroqalyh9snefsqt68s7zxu05bfsaix.mp3?auth_key=1781417611-el5nmvbfavd3mcf5ycon6hmhoeyh5zx8-0-33b7447fbbcf64c3089ed1db7e751e6b",
+      "file_path": "https://tnoss.itingnao.com/tmp/240745_4044361/ueroqalyh9snefsqt68s7zxu05bfsaix.mp3?auth_key=1781417954-ymkaqoz4nk0mbottca3abnc3rqc3ayvz-0-4b2c3bdeff1e13ca5b03fafbd2ec4549",
       "prepare_path": "tmp/240745_4044361/ueroqalyh9snefsqt68s7zxu05bfsaix.mp3",
       "pcm_to_mp3_status": 3,
       "pcm_to_mp3_message": "",
@@ -53444,7 +53444,7 @@
       "word_count": 7409,
       "secen_title": "通用记录",
       "is_view": 0,
-      "download_url": "https://tingnao.oss-cn-hangzhou.aliyuncs.com/tmp%2F240745_4044361%2Fueroqalyh9snefsqt68s7zxu05bfsaix.mp3?Expires=1781673211&OSSAccessKeyId=LTAI5t5Z88vjuh8XYhakB9Y8&Signature=nin9OsQwfnEShMw64jZLCWGZa6w%3D&response-content-disposition=attachment%3Bfilename%3D%E5%94%90%E4%B8%89%E8%B6%85-%E5%A5%B6%E7%B3%96%E9%A1%B9%E7%9B%AE%E6%B1%87%E6%8A%A5.mp3",
+      "download_url": "https://tingnao.oss-cn-hangzhou.aliyuncs.com/tmp%2F240745_4044361%2Fueroqalyh9snefsqt68s7zxu05bfsaix.mp3?Expires=1781673554&OSSAccessKeyId=LTAI5t5Z88vjuh8XYhakB9Y8&Signature=2OJ1%2F79uVKfIteTQjukiZeRCi9o%3D&response-content-disposition=attachment%3Bfilename%3D%E5%94%90%E4%B8%89%E8%B6%85-%E5%A5%B6%E7%B3%96%E9%A1%B9%E7%9B%AE%E6%B1%87%E6%8A%A5.mp3",
       "tran_status": {},
       "meeting_summary": "## 📌基本信息\n\n- **主题**:奶茶CP项目路演\n- **时间**:2026-01-13 13:36:27\n- **演讲人员**:唐三超\n\n---\n\n## 一、演讲背景与目的\n\n本次演讲是大航海项目路演的一部分，唐三超作为**硕果仅存的四个个人战队之一**（编号213），展示其最终汇报项目“奶茶CP”。该项目旨在打造AI时代的个性化工具库平台，目前已完成内测版开发，支持MCP服务调用，计划通过返佣机制、商业化广告等方式实现商业化，并面向一堂同学开放共建招募。\n\n---\n\n## 二、📝演讲内容\n\n### 1. 个人与团队介绍\n\n- **个人背景**：唐三超，曾获一堂复盘营MVT，大航海品鉴团成员（与伟强、奶爸、科斯拉共事）。\n- **团队情况**：个人战队（25支路演队伍中仅4支个人战队），项目海报由伟强协助制作。\n\n### 2. 项目背景与核心理念\n\n- **立项契机**：12月4日组队后未明确方向，基于对AI时代工具个性化趋势的预判，决定打造“奶糖”平台。\n- **核心假设**：AI时代人人都是开发者，工具应高度适配个人/业务场景，生成速度快且零代码化。\n\n### 3. 项目介绍：奶糖平台\n\n- **项目定位**：AI时代的**工具库**，目标成为“万能应用雏形”，支持在任何客户端调用个性化工具。\n- **核心功能**：\n  - 已实现：开发调用MDP服务，内测版（NT size域名）上线，支持代码隐藏/公开、MCP详情页“口味”互动功能。\n  - 短期规划：半个月至1个月内实现**零代码迁移code工作流至MCP平台**，扩展至客户端。\n- **技术架构**：基于MCP协议，通过API网关连接大模型与工具库，支持自动发现工具、权重调用（类SEO）。\n\n### 4. 商业化与运营思路\n\n- **盈利模式**：\n  - 商业化广告：在工具调用结果中植入赞助信息。\n  - 权重调用：控制工具排序权重，类似SEO优化。\n  - 返利机制：开发者返佣（账户开发中），支持微信支付购买套餐。\n- **用户激励**：通过GitHub式投卫机制吸引开发者，降低开发门槛。\n\n### 5. 项目进展与成果\n\n- **开发历程**：12月8日启动，完成**2万多行代码**、**80多个版本**（当前v6.7），功能实现度60%-70%。\n- **已上线功能**：文档中心、个人中心、API令牌管理、MCP市场（含阅历生成工具demo）。\n\n### 6. 未来规划与招募\n\n- **功能迭代**：开发大模型助手、海底账户、后台管理功能，开放更多客户端调用能力。\n- **共建招募**：招募作者、测试者及共建人员，为一堂同学提供专属邀请码及免费调用福利。\n\n### 7. 个人感悟与致谢\n\n- **大航海成果**：完成14份作业，13份入选，12份获雨露老师标记；参与评审上千份作业。\n- **致谢对象**：伟强（海报制作）、雨露老师（指导）、秦争、科森（品鉴团协作）及同学支持。\n\n---\n\n## 三、📊项目核心亮点总结\n\n| 类别        | 核心亮点                          |\n|-------------|-----------------------------------|\n| **定位**    | AI时代个性化工具库，零代码开发平台 |\n| **技术**    | 基于MCP协议，支持跨客户端调用     |\n| **商业化**  | 广告植入+权重调用+返利机制        |\n| **进展**    | 内测版上线，功能实现度60%-70%     |\n\n---\n\n## 四、呼吁行动\n\n- **投票支持**：编号213，欢迎感兴趣者投票。\n- **共建邀请**：通过招募令参与项目测试与开发，获取专属福利。",
       "meeting_todo": [

@@ -1,0 +1,30 @@
+{
+  "id": 3111485,
+  "name": "尼尔森-华润万家副总",
+  "folderId": 245320,
+  "duration": "0:03",
+  "status": {
+    "value": 4,
+    "text": "处理完成",
+    "done": true
+  },
+  "transcript": {
+    "count": 1,
+    "status": {
+      "value": 1,
+      "text": "转写完成",
+      "done": true
+    },
+    "text": "华润万家发展中心副总尼尔森。"
+  },
+  "meetingSummary": {
+    "content": "## 📌基本信息\n\n- **主题**:华润万家发展中心人员信息\n- **时间**:2025-11-29 00:40:12\n- **讨论人员**:尼尔森\n\n---\n\n## 一、人员基本信息\n\n- **姓名**：尼尔森\n- **职位**：华润万家发展中心副总",
+    "status": {
+      "value": 2,
+      "text": "纪要已生成",
+      "done": true
+    }
+  },
+  "topics": [],
+  "tags": "华润万家 尼尔森 华润万家 发展中心 副总"
+}

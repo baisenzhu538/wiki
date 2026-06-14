@@ -1,0 +1,5431 @@
+{
+  "success": true,
+  "request": {
+    "id": 2228530,
+    "summary_new": "1"
+  },
+  "detail": {
+    "id": 2228530,
+    "name": "刘长胜@136 0281 5868_20251008160644.m4a",
+    "folderId": null,
+    "duration": null,
+    "createdAt": null,
+    "updatedAt": null,
+    "status": {
+      "value": 4,
+      "text": "处理完成",
+      "done": true
+    },
+    "transcript": {
+      "data": [
+        {
+          "beginTime": 30,
+          "endTime": 35373,
+          "has_verify": true,
+          "id": 1,
+          "paragraph_id": "1759911185262500000",
+          "remark_type": 0,
+          "sentence_id": 1,
+          "text": "我们在推销那个饮料怎么做？然后干啥能有机会。对，这样就聊聊聊就聊到咱们那个那个润之美了。对，然后就聊到这个凉茶了。咱们不是有个润馨堂吗？对，是吧？还有一个非物，那个那个叫非物质化遗产。对，那个老板就在问说现在还做不做了？我说这一块好像没怎么做了，然后他就说说是能不能讨论一下怎么做一下。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "d8fbf1d1b442a702b9c45ff91765cf4d",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 30,
+              "endTime": 834,
+              "sentence_id": 1,
+              "word": "我们在"
+            },
+            {
+              "beginTime": 834,
+              "endTime": 1370,
+              "sentence_id": 1,
+              "word": "推销"
+            },
+            {
+              "beginTime": 1370,
+              "endTime": 1906,
+              "sentence_id": 1,
+              "word": "那个"
+            },
+            {
+              "beginTime": 1906,
+              "endTime": 2442,
+              "sentence_id": 1,
+              "word": "饮料"
+            },
+            {
+              "beginTime": 2442,
+              "endTime": 3246,
+              "sentence_id": 1,
+              "word": "怎么做？"
+            },
+            {
+              "beginTime": 4020,
+              "endTime": 4700,
+              "sentence_id": 2,
+              "word": "然后"
+            },
+            {
+              "beginTime": 4700,
+              "endTime": 5040,
+              "sentence_id": 2,
+              "word": "干"
+            },
+            {
+              "beginTime": 5040,
+              "endTime": 5380,
+              "sentence_id": 2,
+              "word": "啥"
+            },
+            {
+              "beginTime": 5380,
+              "endTime": 6060,
+              "sentence_id": 2,
+              "word": "能有"
+            },
+            {
+              "beginTime": 6060,
+              "endTime": 6740,
+              "sentence_id": 2,
+              "word": "机会。"
+            },
+            {
+              "beginTime": 7190,
+              "endTime": 7430,
+              "sentence_id": 3,
+              "word": "对，"
+            },
+            {
+              "beginTime": 7430,
+              "endTime": 8022,
+              "sentence_id": 3,
+              "word": "这样"
+            },
+            {
+              "beginTime": 8022,
+              "endTime": 8318,
+              "sentence_id": 3,
+              "word": "就"
+            },
+            {
+              "beginTime": 8318,
+              "endTime": 8614,
+              "sentence_id": 3,
+              "word": "聊"
+            },
+            {
+              "beginTime": 8614,
+              "endTime": 9206,
+              "sentence_id": 3,
+              "word": "聊聊"
+            },
+            {
+              "beginTime": 9206,
+              "endTime": 9502,
+              "sentence_id": 3,
+              "word": "就"
+            },
+            {
+              "beginTime": 9502,
+              "endTime": 10094,
+              "sentence_id": 3,
+              "word": "聊到"
+            },
+            {
+              "beginTime": 10094,
+              "endTime": 10686,
+              "sentence_id": 3,
+              "word": "咱们"
+            },
+            {
+              "beginTime": 10686,
+              "endTime": 11870,
+              "sentence_id": 3,
+              "word": "那个那个"
+            },
+            {
+              "beginTime": 11870,
+              "endTime": 12166,
+              "sentence_id": 3,
+              "word": "润"
+            },
+            {
+              "beginTime": 12166,
+              "endTime": 12462,
+              "sentence_id": 3,
+              "word": "之"
+            },
+            {
+              "beginTime": 12462,
+              "endTime": 12758,
+              "sentence_id": 3,
+              "word": "美"
+            },
+            {
+              "beginTime": 12758,
+              "endTime": 13054,
+              "sentence_id": 3,
+              "word": "了。"
+            },
+            {
+              "beginTime": 13320,
+              "endTime": 13660,
+              "sentence_id": 4,
+              "word": "对，"
+            },
+            {
+              "beginTime": 13660,
+              "endTime": 14066,
+              "sentence_id": 4,
+              "word": "然后"
+            },
+            {
+              "beginTime": 14066,
+              "endTime": 14269,
+              "sentence_id": 4,
+              "word": "就"
+            },
+            {
+              "beginTime": 14269,
+              "endTime": 14675,
+              "sentence_id": 4,
+              "word": "聊到"
+            },
+            {
+              "beginTime": 14675,
+              "endTime": 15081,
+              "sentence_id": 4,
+              "word": "这个"
+            },
+            {
+              "beginTime": 15081,
+              "endTime": 15487,
+              "sentence_id": 4,
+              "word": "凉茶"
+            },
+            {
+              "beginTime": 15487,
+              "endTime": 15690,
+              "sentence_id": 4,
+              "word": "了。"
+            },
+            {
+              "beginTime": 16430,
+              "endTime": 16778,
+              "sentence_id": 5,
+              "word": "咱们"
+            },
+            {
+              "beginTime": 16778,
+              "endTime": 17126,
+              "sentence_id": 5,
+              "word": "不是"
+            },
+            {
+              "beginTime": 17126,
+              "endTime": 17300,
+              "sentence_id": 5,
+              "word": "有"
+            },
+            {
+              "beginTime": 17300,
+              "endTime": 17474,
+              "sentence_id": 5,
+              "word": "个"
+            },
+            {
+              "beginTime": 17474,
+              "endTime": 17648,
+              "sentence_id": 5,
+              "word": "润"
+            },
+            {
+              "beginTime": 17648,
+              "endTime": 17822,
+              "sentence_id": 5,
+              "word": "馨"
+            },
+            {
+              "beginTime": 17822,
+              "endTime": 17996,
+              "sentence_id": 5,
+              "word": "堂"
+            },
+            {
+              "beginTime": 17996,
+              "endTime": 18170,
+              "sentence_id": 5,
+              "word": "吗？"
+            },
+            {
+              "beginTime": 18430,
+              "endTime": 18760,
+              "sentence_id": 6,
+              "word": "对，"
+            },
+            {
+              "beginTime": 19230,
+              "endTime": 19405,
+              "sentence_id": 6,
+              "word": "是"
+            },
+            {
+              "beginTime": 19405,
+              "endTime": 19580,
+              "sentence_id": 6,
+              "word": "吧？"
+            },
+            {
+              "beginTime": 19580,
+              "endTime": 20260,
+              "sentence_id": 7,
+              "word": "还有一个"
+            },
+            {
+              "beginTime": 20260,
+              "endTime": 20430,
+              "sentence_id": 7,
+              "word": "非"
+            },
+            {
+              "beginTime": 20430,
+              "endTime": 20600,
+              "sentence_id": 7,
+              "word": "物，"
+            },
+            {
+              "beginTime": 20600,
+              "endTime": 21280,
+              "sentence_id": 7,
+              "word": "那个那个"
+            },
+            {
+              "beginTime": 21280,
+              "endTime": 21450,
+              "sentence_id": 7,
+              "word": "叫"
+            },
+            {
+              "beginTime": 21450,
+              "endTime": 21620,
+              "sentence_id": 7,
+              "word": "非"
+            },
+            {
+              "beginTime": 21620,
+              "endTime": 22130,
+              "sentence_id": 7,
+              "word": "物质化"
+            },
+            {
+              "beginTime": 22130,
+              "endTime": 22470,
+              "sentence_id": 7,
+              "word": "遗产。"
+            },
+            {
+              "beginTime": 22980,
+              "endTime": 23590,
+              "sentence_id": 8,
+              "word": "对，"
+            },
+            {
+              "beginTime": 24690,
+              "endTime": 25026,
+              "sentence_id": 8,
+              "word": "那个"
+            },
+            {
+              "beginTime": 25026,
+              "endTime": 25362,
+              "sentence_id": 8,
+              "word": "老板"
+            },
+            {
+              "beginTime": 25362,
+              "endTime": 25698,
+              "sentence_id": 8,
+              "word": "就在"
+            },
+            {
+              "beginTime": 25698,
+              "endTime": 25866,
+              "sentence_id": 8,
+              "word": "问"
+            },
+            {
+              "beginTime": 25866,
+              "endTime": 26034,
+              "sentence_id": 8,
+              "word": "说"
+            },
+            {
+              "beginTime": 26034,
+              "endTime": 26370,
+              "sentence_id": 8,
+              "word": "现在"
+            },
+            {
+              "beginTime": 26370,
+              "endTime": 26538,
+              "sentence_id": 8,
+              "word": "还"
+            },
+            {
+              "beginTime": 26538,
+              "endTime": 26706,
+              "sentence_id": 8,
+              "word": "做"
+            },
+            {
+              "beginTime": 26706,
+              "endTime": 27042,
+              "sentence_id": 8,
+              "word": "不做"
+            },
+            {
+              "beginTime": 27042,
+              "endTime": 27210,
+              "sentence_id": 8,
+              "word": "了？"
+            },
+            {
+              "beginTime": 27810,
+              "endTime": 28120,
+              "sentence_id": 9,
+              "word": "我说"
+            },
+            {
+              "beginTime": 28120,
+              "endTime": 28275,
+              "sentence_id": 9,
+              "word": "这"
+            },
+            {
+              "beginTime": 28275,
+              "endTime": 28585,
+              "sentence_id": 9,
+              "word": "一块"
+            },
+            {
+              "beginTime": 28585,
+              "endTime": 28895,
+              "sentence_id": 9,
+              "word": "好像"
+            },
+            {
+              "beginTime": 28895,
+              "endTime": 29050,
+              "sentence_id": 9,
+              "word": "没"
+            },
+            {
+              "beginTime": 29050,
+              "endTime": 29360,
+              "sentence_id": 9,
+              "word": "怎么"
+            },
+            {
+              "beginTime": 29360,
+              "endTime": 29670,
+              "sentence_id": 9,
+              "word": "做了，"
+            },
+            {
+              "beginTime": 30490,
+              "endTime": 31004,
+              "sentence_id": 9,
+              "word": "然后"
+            },
+            {
+              "beginTime": 31004,
+              "endTime": 31261,
+              "sentence_id": 9,
+              "word": "他"
+            },
+            {
+              "beginTime": 31261,
+              "endTime": 31775,
+              "sentence_id": 9,
+              "word": "就说"
+            },
+            {
+              "beginTime": 31775,
+              "endTime": 32289,
+              "sentence_id": 9,
+              "word": "说是"
+            },
+            {
+              "beginTime": 32289,
+              "endTime": 33060,
+              "sentence_id": 9,
+              "word": "能不能"
+            },
+            {
+              "beginTime": 33060,
+              "endTime": 34088,
+              "sentence_id": 9,
+              "word": "讨论一下"
+            },
+            {
+              "beginTime": 34088,
+              "endTime": 34859,
+              "sentence_id": 9,
+              "word": "怎么做"
+            },
+            {
+              "beginTime": 34859,
+              "endTime": 35373,
+              "sentence_id": 9,
+              "word": "一下。"
+            }
+          ]
+        },
+        {
+          "beginTime": 36240,
+          "endTime": 69080,
+          "has_verify": true,
+          "id": 2,
+          "paragraph_id": "1759911221472500000",
+          "remark_type": 0,
+          "sentence_id": 10,
+          "text": "可以，我们现在是这样，就是你应该自己知道，传统那一块的，反正我是让他们去做了。我自己是之前的那些针对那些to b的一些餐饮的那些原料这部分，那部分是让别人去做了，反正我自己没太大兴趣。说实话这么多年我对这一块是没太大兴趣。那现在的话实际上重心还是要放到草本的这个板块来。你这个东西怎么说还是有点机会的。我。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "bbf8faccd450a5192a64cf2c4938838d",
+          "userId": "2",
+          "userName": "发言人2",
+          "words": [
+            {
+              "beginTime": 36240,
+              "endTime": 36580,
+              "sentence_id": 10,
+              "word": "可以，"
+            },
+            {
+              "beginTime": 36850,
+              "endTime": 37194,
+              "sentence_id": 10,
+              "word": "我们"
+            },
+            {
+              "beginTime": 37194,
+              "endTime": 37538,
+              "sentence_id": 10,
+              "word": "现在"
+            },
+            {
+              "beginTime": 37538,
+              "endTime": 37710,
+              "sentence_id": 10,
+              "word": "是"
+            },
+            {
+              "beginTime": 37710,
+              "endTime": 38054,
+              "sentence_id": 10,
+              "word": "这样，"
+            },
+            {
+              "beginTime": 38060,
+              "endTime": 38543,
+              "sentence_id": 10,
+              "word": "就是你"
+            },
+            {
+              "beginTime": 38543,
+              "endTime": 38865,
+              "sentence_id": 10,
+              "word": "应该"
+            },
+            {
+              "beginTime": 38865,
+              "endTime": 39187,
+              "sentence_id": 10,
+              "word": "自己"
+            },
+            {
+              "beginTime": 39187,
+              "endTime": 39509,
+              "sentence_id": 10,
+              "word": "知道，"
+            },
+            {
+              "beginTime": 40520,
+              "endTime": 40850,
+              "sentence_id": 10,
+              "word": "传统"
+            },
+            {
+              "beginTime": 40850,
+              "endTime": 41015,
+              "sentence_id": 10,
+              "word": "那"
+            },
+            {
+              "beginTime": 41015,
+              "endTime": 41345,
+              "sentence_id": 10,
+              "word": "一块"
+            },
+            {
+              "beginTime": 41345,
+              "endTime": 41510,
+              "sentence_id": 10,
+              "word": "的，"
+            },
+            {
+              "beginTime": 41510,
+              "endTime": 41890,
+              "sentence_id": 10,
+              "word": "反正"
+            },
+            {
+              "beginTime": 41890,
+              "endTime": 42270,
+              "sentence_id": 10,
+              "word": "我是"
+            },
+            {
+              "beginTime": 42270,
+              "endTime": 42460,
+              "sentence_id": 10,
+              "word": "让"
+            },
+            {
+              "beginTime": 42460,
+              "endTime": 42840,
+              "sentence_id": 10,
+              "word": "他们"
+            },
+            {
+              "beginTime": 42840,
+              "endTime": 43030,
+              "sentence_id": 10,
+              "word": "去"
+            },
+            {
+              "beginTime": 43030,
+              "endTime": 43410,
+              "sentence_id": 10,
+              "word": "做了。"
+            },
+            {
+              "beginTime": 43530,
+              "endTime": 44298,
+              "sentence_id": 11,
+              "word": "我自己"
+            },
+            {
+              "beginTime": 44298,
+              "endTime": 44554,
+              "sentence_id": 11,
+              "word": "是"
+            },
+            {
+              "beginTime": 44554,
+              "endTime": 45066,
+              "sentence_id": 11,
+              "word": "之前"
+            },
+            {
+              "beginTime": 45066,
+              "endTime": 45322,
+              "sentence_id": 11,
+              "word": "的"
+            },
+            {
+              "beginTime": 45322,
+              "endTime": 45834,
+              "sentence_id": 11,
+              "word": "那些"
+            },
+            {
+              "beginTime": 45834,
+              "endTime": 46346,
+              "sentence_id": 11,
+              "word": "针对"
+            },
+            {
+              "beginTime": 46346,
+              "endTime": 46858,
+              "sentence_id": 11,
+              "word": "那些"
+            },
+            {
+              "beginTime": 46858,
+              "endTime": 47626,
+              "sentence_id": 11,
+              "word": "to "
+            },
+            {
+              "beginTime": 47626,
+              "endTime": 47882,
+              "sentence_id": 11,
+              "word": "b"
+            },
+            {
+              "beginTime": 47882,
+              "endTime": 48138,
+              "sentence_id": 11,
+              "word": "的"
+            },
+            {
+              "beginTime": 48138,
+              "endTime": 48650,
+              "sentence_id": 11,
+              "word": "一些"
+            },
+            {
+              "beginTime": 48650,
+              "endTime": 49162,
+              "sentence_id": 11,
+              "word": "餐饮"
+            },
+            {
+              "beginTime": 49162,
+              "endTime": 49418,
+              "sentence_id": 11,
+              "word": "的"
+            },
+            {
+              "beginTime": 49418,
+              "endTime": 49930,
+              "sentence_id": 11,
+              "word": "那些"
+            },
+            {
+              "beginTime": 49930,
+              "endTime": 50442,
+              "sentence_id": 11,
+              "word": "原料"
+            },
+            {
+              "beginTime": 50442,
+              "endTime": 51210,
+              "sentence_id": 11,
+              "word": "这部分，"
+            },
+            {
+              "beginTime": 52570,
+              "endTime": 52719,
+              "sentence_id": 11,
+              "word": "那"
+            },
+            {
+              "beginTime": 52719,
+              "endTime": 53017,
+              "sentence_id": 11,
+              "word": "部分"
+            },
+            {
+              "beginTime": 53017,
+              "endTime": 53166,
+              "sentence_id": 11,
+              "word": "是"
+            },
+            {
+              "beginTime": 53166,
+              "endTime": 53315,
+              "sentence_id": 11,
+              "word": "让"
+            },
+            {
+              "beginTime": 53315,
+              "endTime": 53613,
+              "sentence_id": 11,
+              "word": "别人"
+            },
+            {
+              "beginTime": 53613,
+              "endTime": 53762,
+              "sentence_id": 11,
+              "word": "去"
+            },
+            {
+              "beginTime": 53762,
+              "endTime": 54060,
+              "sentence_id": 11,
+              "word": "做了，"
+            },
+            {
+              "beginTime": 54060,
+              "endTime": 54394,
+              "sentence_id": 11,
+              "word": "反正"
+            },
+            {
+              "beginTime": 54394,
+              "endTime": 54895,
+              "sentence_id": 11,
+              "word": "我自己"
+            },
+            {
+              "beginTime": 54895,
+              "endTime": 55062,
+              "sentence_id": 11,
+              "word": "没"
+            },
+            {
+              "beginTime": 55062,
+              "endTime": 55396,
+              "sentence_id": 11,
+              "word": "太大"
+            },
+            {
+              "beginTime": 55396,
+              "endTime": 55730,
+              "sentence_id": 11,
+              "word": "兴趣。"
+            },
+            {
+              "beginTime": 55730,
+              "endTime": 56174,
+              "sentence_id": 12,
+              "word": "说实话"
+            },
+            {
+              "beginTime": 56174,
+              "endTime": 56766,
+              "sentence_id": 12,
+              "word": "这么多年"
+            },
+            {
+              "beginTime": 56766,
+              "endTime": 56914,
+              "sentence_id": 12,
+              "word": "我"
+            },
+            {
+              "beginTime": 56914,
+              "endTime": 57062,
+              "sentence_id": 12,
+              "word": "对"
+            },
+            {
+              "beginTime": 57062,
+              "endTime": 57210,
+              "sentence_id": 12,
+              "word": "这"
+            },
+            {
+              "beginTime": 57210,
+              "endTime": 57506,
+              "sentence_id": 12,
+              "word": "一块"
+            },
+            {
+              "beginTime": 57506,
+              "endTime": 57654,
+              "sentence_id": 12,
+              "word": "是"
+            },
+            {
+              "beginTime": 57654,
+              "endTime": 57802,
+              "sentence_id": 12,
+              "word": "没"
+            },
+            {
+              "beginTime": 57802,
+              "endTime": 58098,
+              "sentence_id": 12,
+              "word": "太大"
+            },
+            {
+              "beginTime": 58098,
+              "endTime": 58394,
+              "sentence_id": 12,
+              "word": "兴趣。"
+            },
+            {
+              "beginTime": 59810,
+              "endTime": 60047,
+              "sentence_id": 13,
+              "word": "那"
+            },
+            {
+              "beginTime": 60047,
+              "endTime": 60521,
+              "sentence_id": 13,
+              "word": "现在"
+            },
+            {
+              "beginTime": 60521,
+              "endTime": 60995,
+              "sentence_id": 13,
+              "word": "的话"
+            },
+            {
+              "beginTime": 60995,
+              "endTime": 61706,
+              "sentence_id": 13,
+              "word": "实际上"
+            },
+            {
+              "beginTime": 61706,
+              "endTime": 62180,
+              "sentence_id": 13,
+              "word": "重心"
+            },
+            {
+              "beginTime": 62180,
+              "endTime": 62654,
+              "sentence_id": 13,
+              "word": "还是"
+            },
+            {
+              "beginTime": 62654,
+              "endTime": 62891,
+              "sentence_id": 13,
+              "word": "要"
+            },
+            {
+              "beginTime": 62891,
+              "endTime": 63365,
+              "sentence_id": 13,
+              "word": "放到"
+            },
+            {
+              "beginTime": 63365,
+              "endTime": 63839,
+              "sentence_id": 13,
+              "word": "草本"
+            },
+            {
+              "beginTime": 63839,
+              "endTime": 64076,
+              "sentence_id": 13,
+              "word": "的"
+            },
+            {
+              "beginTime": 64076,
+              "endTime": 64550,
+              "sentence_id": 13,
+              "word": "这个"
+            },
+            {
+              "beginTime": 64550,
+              "endTime": 65024,
+              "sentence_id": 13,
+              "word": "板块"
+            },
+            {
+              "beginTime": 65024,
+              "endTime": 65261,
+              "sentence_id": 13,
+              "word": "来。"
+            },
+            {
+              "beginTime": 65610,
+              "endTime": 65801,
+              "sentence_id": 14,
+              "word": "你"
+            },
+            {
+              "beginTime": 65801,
+              "endTime": 66183,
+              "sentence_id": 14,
+              "word": "这个"
+            },
+            {
+              "beginTime": 66183,
+              "endTime": 66565,
+              "sentence_id": 14,
+              "word": "东西"
+            },
+            {
+              "beginTime": 66565,
+              "endTime": 67138,
+              "sentence_id": 14,
+              "word": "怎么说"
+            },
+            {
+              "beginTime": 67138,
+              "endTime": 67520,
+              "sentence_id": 14,
+              "word": "还是"
+            },
+            {
+              "beginTime": 67520,
+              "endTime": 67902,
+              "sentence_id": 14,
+              "word": "有点"
+            },
+            {
+              "beginTime": 67902,
+              "endTime": 68284,
+              "sentence_id": 14,
+              "word": "机会"
+            },
+            {
+              "beginTime": 68284,
+              "endTime": 68475,
+              "sentence_id": 14,
+              "word": "的。"
+            },
+            {
+              "beginTime": 68560,
+              "endTime": 69080,
+              "sentence_id": 15,
+              "word": "我。"
+            }
+          ]
+        },
+        {
+          "beginTime": 69080,
+          "endTime": 71160,
+          "has_verify": true,
+          "id": 3,
+          "paragraph_id": "1759911254312500000",
+          "remark_type": 0,
+          "sentence_id": 16,
+          "text": "认为现在。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "8f7d3a62b18354de05977ee4970e2405",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 69080,
+              "endTime": 70120,
+              "sentence_id": 16,
+              "word": "认为"
+            },
+            {
+              "beginTime": 70120,
+              "endTime": 71160,
+              "sentence_id": 16,
+              "word": "现在。"
+            }
+          ]
+        },
+        {
+          "beginTime": 71160,
+          "endTime": 75320,
+          "has_verify": true,
+          "id": 4,
+          "paragraph_id": "1759911256392500000",
+          "remark_type": 0,
+          "sentence_id": 17,
+          "text": "就是这个考虑方向。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "2f91cf48a3f7fb8613f1dafd4e8a8356",
+          "userId": "2",
+          "userName": "发言人2",
+          "words": [
+            {
+              "beginTime": 71160,
+              "endTime": 72200,
+              "sentence_id": 17,
+              "word": "就是"
+            },
+            {
+              "beginTime": 72200,
+              "endTime": 73240,
+              "sentence_id": 17,
+              "word": "这个"
+            },
+            {
+              "beginTime": 73240,
+              "endTime": 74280,
+              "sentence_id": 17,
+              "word": "考虑"
+            },
+            {
+              "beginTime": 74280,
+              "endTime": 75320,
+              "sentence_id": 17,
+              "word": "方向。"
+            }
+          ]
+        },
+        {
+          "beginTime": 77890,
+          "endTime": 85036,
+          "has_verify": true,
+          "id": 5,
+          "paragraph_id": "1759911263122500000",
+          "remark_type": 0,
+          "sentence_id": 18,
+          "text": "也蛮不错的。那个谁小齐现在是在广州还是在在广西呢？",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "0095c420a8e330f4bc4426d1465327aa",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 77890,
+              "endTime": 78064,
+              "sentence_id": 18,
+              "word": "也"
+            },
+            {
+              "beginTime": 78064,
+              "endTime": 78238,
+              "sentence_id": 18,
+              "word": "蛮"
+            },
+            {
+              "beginTime": 78238,
+              "endTime": 78586,
+              "sentence_id": 18,
+              "word": "不错"
+            },
+            {
+              "beginTime": 78586,
+              "endTime": 78760,
+              "sentence_id": 18,
+              "word": "的。"
+            },
+            {
+              "beginTime": 80050,
+              "endTime": 80881,
+              "sentence_id": 19,
+              "word": "那个谁"
+            },
+            {
+              "beginTime": 80881,
+              "endTime": 81435,
+              "sentence_id": 19,
+              "word": "小齐"
+            },
+            {
+              "beginTime": 81435,
+              "endTime": 81989,
+              "sentence_id": 19,
+              "word": "现在"
+            },
+            {
+              "beginTime": 81989,
+              "endTime": 82543,
+              "sentence_id": 19,
+              "word": "是在"
+            },
+            {
+              "beginTime": 82543,
+              "endTime": 83097,
+              "sentence_id": 19,
+              "word": "广州"
+            },
+            {
+              "beginTime": 83097,
+              "endTime": 83651,
+              "sentence_id": 19,
+              "word": "还是"
+            },
+            {
+              "beginTime": 83651,
+              "endTime": 84205,
+              "sentence_id": 19,
+              "word": "在在"
+            },
+            {
+              "beginTime": 84205,
+              "endTime": 84759,
+              "sentence_id": 19,
+              "word": "广西"
+            },
+            {
+              "beginTime": 84759,
+              "endTime": 85036,
+              "sentence_id": 19,
+              "word": "呢？"
+            }
+          ]
+        },
+        {
+          "beginTime": 85630,
+          "endTime": 86218,
+          "has_verify": true,
+          "id": 6,
+          "paragraph_id": "1759911270862500000",
+          "remark_type": 0,
+          "sentence_id": 20,
+          "text": "他在广州。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "1ba9af2891a66f59c483f29256e39e63",
+          "userId": "2",
+          "userName": "发言人2",
+          "words": [
+            {
+              "beginTime": 85630,
+              "endTime": 85924,
+              "sentence_id": 20,
+              "word": "他在"
+            },
+            {
+              "beginTime": 85924,
+              "endTime": 86218,
+              "sentence_id": 20,
+              "word": "广州。"
+            }
+          ]
+        },
+        {
+          "beginTime": 86990,
+          "endTime": 91530,
+          "has_verify": true,
+          "id": 7,
+          "paragraph_id": "1759911272222500000",
+          "remark_type": 0,
+          "sentence_id": 21,
+          "text": "在广州。对，哦哦哦你在广州这边又弄厂了。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "279f62064d2397eccebd0a5e81f36160",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 86990,
+              "endTime": 87186,
+              "sentence_id": 21,
+              "word": "在"
+            },
+            {
+              "beginTime": 87186,
+              "endTime": 87578,
+              "sentence_id": 21,
+              "word": "广州。"
+            },
+            {
+              "beginTime": 88050,
+              "endTime": 88230,
+              "sentence_id": 22,
+              "word": "对，"
+            },
+            {
+              "beginTime": 88930,
+              "endTime": 89530,
+              "sentence_id": 22,
+              "word": "哦哦哦"
+            },
+            {
+              "beginTime": 89530,
+              "endTime": 89730,
+              "sentence_id": 22,
+              "word": "你"
+            },
+            {
+              "beginTime": 89730,
+              "endTime": 89930,
+              "sentence_id": 22,
+              "word": "在"
+            },
+            {
+              "beginTime": 89930,
+              "endTime": 90330,
+              "sentence_id": 22,
+              "word": "广州"
+            },
+            {
+              "beginTime": 90330,
+              "endTime": 90730,
+              "sentence_id": 22,
+              "word": "这边"
+            },
+            {
+              "beginTime": 90730,
+              "endTime": 90930,
+              "sentence_id": 22,
+              "word": "又"
+            },
+            {
+              "beginTime": 90930,
+              "endTime": 91130,
+              "sentence_id": 22,
+              "word": "弄"
+            },
+            {
+              "beginTime": 91130,
+              "endTime": 91330,
+              "sentence_id": 22,
+              "word": "厂"
+            },
+            {
+              "beginTime": 91330,
+              "endTime": 91530,
+              "sentence_id": 22,
+              "word": "了。"
+            }
+          ]
+        },
+        {
+          "beginTime": 92320,
+          "endTime": 112270,
+          "has_verify": true,
+          "id": 8,
+          "paragraph_id": "1759911277552500000",
+          "remark_type": 0,
+          "sentence_id": 23,
+          "text": "这厂不想搞了，没有意义。我就不想搞搞厂了，我想可能还是做草本这个板块，做把这一块摸索一下，想办法找点出路，在这个领域不要去搞工厂，搞工厂没有意义的。就像你之前说的，你不是当时也建议我不要搞工厂吗？",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "780cd6a13c2e2386a458b25d8d7f71a1",
+          "userId": "3",
+          "userName": "发言人3",
+          "words": [
+            {
+              "beginTime": 92320,
+              "endTime": 92506,
+              "sentence_id": 23,
+              "word": "这"
+            },
+            {
+              "beginTime": 92506,
+              "endTime": 92692,
+              "sentence_id": 23,
+              "word": "厂"
+            },
+            {
+              "beginTime": 92692,
+              "endTime": 93064,
+              "sentence_id": 23,
+              "word": "不想"
+            },
+            {
+              "beginTime": 93064,
+              "endTime": 93250,
+              "sentence_id": 23,
+              "word": "搞"
+            },
+            {
+              "beginTime": 93250,
+              "endTime": 93436,
+              "sentence_id": 23,
+              "word": "了，"
+            },
+            {
+              "beginTime": 93440,
+              "endTime": 93834,
+              "sentence_id": 23,
+              "word": "没有"
+            },
+            {
+              "beginTime": 93834,
+              "endTime": 94228,
+              "sentence_id": 23,
+              "word": "意义。"
+            },
+            {
+              "beginTime": 94230,
+              "endTime": 94426,
+              "sentence_id": 24,
+              "word": "我"
+            },
+            {
+              "beginTime": 94426,
+              "endTime": 94622,
+              "sentence_id": 24,
+              "word": "就"
+            },
+            {
+              "beginTime": 94622,
+              "endTime": 95014,
+              "sentence_id": 24,
+              "word": "不想"
+            },
+            {
+              "beginTime": 95014,
+              "endTime": 95406,
+              "sentence_id": 24,
+              "word": "搞搞"
+            },
+            {
+              "beginTime": 95406,
+              "endTime": 95602,
+              "sentence_id": 24,
+              "word": "厂"
+            },
+            {
+              "beginTime": 95602,
+              "endTime": 95798,
+              "sentence_id": 24,
+              "word": "了，"
+            },
+            {
+              "beginTime": 95800,
+              "endTime": 96428,
+              "sentence_id": 24,
+              "word": "我想"
+            },
+            {
+              "beginTime": 96428,
+              "endTime": 97056,
+              "sentence_id": 24,
+              "word": "可能"
+            },
+            {
+              "beginTime": 97056,
+              "endTime": 97684,
+              "sentence_id": 24,
+              "word": "还是"
+            },
+            {
+              "beginTime": 97684,
+              "endTime": 97998,
+              "sentence_id": 24,
+              "word": "做"
+            },
+            {
+              "beginTime": 97998,
+              "endTime": 98626,
+              "sentence_id": 24,
+              "word": "草本"
+            },
+            {
+              "beginTime": 98626,
+              "endTime": 99254,
+              "sentence_id": 24,
+              "word": "这个"
+            },
+            {
+              "beginTime": 99254,
+              "endTime": 99882,
+              "sentence_id": 24,
+              "word": "板块，"
+            },
+            {
+              "beginTime": 100210,
+              "endTime": 100573,
+              "sentence_id": 24,
+              "word": "做"
+            },
+            {
+              "beginTime": 100573,
+              "endTime": 100936,
+              "sentence_id": 24,
+              "word": "把"
+            },
+            {
+              "beginTime": 100936,
+              "endTime": 101299,
+              "sentence_id": 24,
+              "word": "这"
+            },
+            {
+              "beginTime": 101299,
+              "endTime": 102025,
+              "sentence_id": 24,
+              "word": "一块"
+            },
+            {
+              "beginTime": 102025,
+              "endTime": 102751,
+              "sentence_id": 24,
+              "word": "摸索"
+            },
+            {
+              "beginTime": 102751,
+              "endTime": 103477,
+              "sentence_id": 24,
+              "word": "一下，"
+            },
+            {
+              "beginTime": 103630,
+              "endTime": 104146,
+              "sentence_id": 24,
+              "word": "想办法"
+            },
+            {
+              "beginTime": 104146,
+              "endTime": 104318,
+              "sentence_id": 24,
+              "word": "找"
+            },
+            {
+              "beginTime": 104318,
+              "endTime": 104490,
+              "sentence_id": 24,
+              "word": "点"
+            },
+            {
+              "beginTime": 104490,
+              "endTime": 104834,
+              "sentence_id": 24,
+              "word": "出路，"
+            },
+            {
+              "beginTime": 104840,
+              "endTime": 105056,
+              "sentence_id": 24,
+              "word": "在"
+            },
+            {
+              "beginTime": 105056,
+              "endTime": 105488,
+              "sentence_id": 24,
+              "word": "这个"
+            },
+            {
+              "beginTime": 105488,
+              "endTime": 105920,
+              "sentence_id": 24,
+              "word": "领域"
+            },
+            {
+              "beginTime": 105920,
+              "endTime": 106352,
+              "sentence_id": 24,
+              "word": "不要"
+            },
+            {
+              "beginTime": 106352,
+              "endTime": 106568,
+              "sentence_id": 24,
+              "word": "去"
+            },
+            {
+              "beginTime": 106568,
+              "endTime": 106784,
+              "sentence_id": 24,
+              "word": "搞"
+            },
+            {
+              "beginTime": 106784,
+              "endTime": 107216,
+              "sentence_id": 24,
+              "word": "工厂，"
+            },
+            {
+              "beginTime": 107220,
+              "endTime": 107335,
+              "sentence_id": 24,
+              "word": "搞"
+            },
+            {
+              "beginTime": 107335,
+              "endTime": 107565,
+              "sentence_id": 24,
+              "word": "工厂"
+            },
+            {
+              "beginTime": 107565,
+              "endTime": 107795,
+              "sentence_id": 24,
+              "word": "没有"
+            },
+            {
+              "beginTime": 107795,
+              "endTime": 108025,
+              "sentence_id": 24,
+              "word": "意义"
+            },
+            {
+              "beginTime": 108025,
+              "endTime": 108140,
+              "sentence_id": 24,
+              "word": "的。"
+            },
+            {
+              "beginTime": 108140,
+              "endTime": 108315,
+              "sentence_id": 25,
+              "word": "就"
+            },
+            {
+              "beginTime": 108315,
+              "endTime": 108665,
+              "sentence_id": 25,
+              "word": "像你"
+            },
+            {
+              "beginTime": 108665,
+              "endTime": 109015,
+              "sentence_id": 25,
+              "word": "之前"
+            },
+            {
+              "beginTime": 109015,
+              "endTime": 109190,
+              "sentence_id": 25,
+              "word": "说"
+            },
+            {
+              "beginTime": 109190,
+              "endTime": 109365,
+              "sentence_id": 25,
+              "word": "的，"
+            },
+            {
+              "beginTime": 109900,
+              "endTime": 110058,
+              "sentence_id": 25,
+              "word": "你"
+            },
+            {
+              "beginTime": 110058,
+              "endTime": 110374,
+              "sentence_id": 25,
+              "word": "不是"
+            },
+            {
+              "beginTime": 110374,
+              "endTime": 110690,
+              "sentence_id": 25,
+              "word": "当时"
+            },
+            {
+              "beginTime": 110690,
+              "endTime": 110848,
+              "sentence_id": 25,
+              "word": "也"
+            },
+            {
+              "beginTime": 110848,
+              "endTime": 111164,
+              "sentence_id": 25,
+              "word": "建议"
+            },
+            {
+              "beginTime": 111164,
+              "endTime": 111638,
+              "sentence_id": 25,
+              "word": "我不要"
+            },
+            {
+              "beginTime": 111638,
+              "endTime": 111796,
+              "sentence_id": 25,
+              "word": "搞"
+            },
+            {
+              "beginTime": 111796,
+              "endTime": 112112,
+              "sentence_id": 25,
+              "word": "工厂"
+            },
+            {
+              "beginTime": 112112,
+              "endTime": 112270,
+              "sentence_id": 25,
+              "word": "吗？"
+            }
+          ]
+        },
+        {
+          "beginTime": 113610,
+          "endTime": 115176,
+          "has_verify": true,
+          "id": 9,
+          "paragraph_id": "1759911298842500000",
+          "remark_type": 0,
+          "sentence_id": 26,
+          "text": "但是你没听我的建议。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "df7c36c42e27dd3a86dd16c4db12d830",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 113610,
+              "endTime": 113958,
+              "sentence_id": 26,
+              "word": "但是"
+            },
+            {
+              "beginTime": 113958,
+              "endTime": 114132,
+              "sentence_id": 26,
+              "word": "你"
+            },
+            {
+              "beginTime": 114132,
+              "endTime": 114306,
+              "sentence_id": 26,
+              "word": "没"
+            },
+            {
+              "beginTime": 114306,
+              "endTime": 114654,
+              "sentence_id": 26,
+              "word": "听我"
+            },
+            {
+              "beginTime": 114654,
+              "endTime": 114828,
+              "sentence_id": 26,
+              "word": "的"
+            },
+            {
+              "beginTime": 114828,
+              "endTime": 115176,
+              "sentence_id": 26,
+              "word": "建议。"
+            }
+          ]
+        },
+        {
+          "beginTime": 117180,
+          "endTime": 118770,
+          "has_verify": true,
+          "id": 10,
+          "paragraph_id": "1759911302412500000",
+          "remark_type": 0,
+          "sentence_id": 27,
+          "text": "那个不说了。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "cadd975c906a76b5c35098d6c22a8bb6",
+          "userId": "3",
+          "userName": "发言人3",
+          "words": [
+            {
+              "beginTime": 117180,
+              "endTime": 117816,
+              "sentence_id": 27,
+              "word": "那个"
+            },
+            {
+              "beginTime": 117816,
+              "endTime": 118452,
+              "sentence_id": 27,
+              "word": "不说"
+            },
+            {
+              "beginTime": 118452,
+              "endTime": 118770,
+              "sentence_id": 27,
+              "word": "了。"
+            }
+          ]
+        },
+        {
+          "beginTime": 121280,
+          "endTime": 127129,
+          "has_verify": true,
+          "id": 11,
+          "paragraph_id": "1759911306512500000",
+          "remark_type": 0,
+          "sentence_id": 28,
+          "text": "也行呗，行呗。那那你要有兴趣的话，我回头我我我问一下那个老板。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "68214bd312fbc26604f9b796f3bb9269",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 121280,
+              "endTime": 121503,
+              "sentence_id": 28,
+              "word": "也"
+            },
+            {
+              "beginTime": 121503,
+              "endTime": 121726,
+              "sentence_id": 28,
+              "word": "行"
+            },
+            {
+              "beginTime": 121726,
+              "endTime": 121949,
+              "sentence_id": 28,
+              "word": "呗，"
+            },
+            {
+              "beginTime": 121950,
+              "endTime": 122220,
+              "sentence_id": 28,
+              "word": "行"
+            },
+            {
+              "beginTime": 122220,
+              "endTime": 122490,
+              "sentence_id": 28,
+              "word": "呗。"
+            },
+            {
+              "beginTime": 122660,
+              "endTime": 123066,
+              "sentence_id": 29,
+              "word": "那那"
+            },
+            {
+              "beginTime": 123066,
+              "endTime": 123269,
+              "sentence_id": 29,
+              "word": "你"
+            },
+            {
+              "beginTime": 123269,
+              "endTime": 123675,
+              "sentence_id": 29,
+              "word": "要有"
+            },
+            {
+              "beginTime": 123675,
+              "endTime": 124081,
+              "sentence_id": 29,
+              "word": "兴趣"
+            },
+            {
+              "beginTime": 124081,
+              "endTime": 124487,
+              "sentence_id": 29,
+              "word": "的话，"
+            },
+            {
+              "beginTime": 124490,
+              "endTime": 124693,
+              "sentence_id": 29,
+              "word": "我"
+            },
+            {
+              "beginTime": 124693,
+              "endTime": 125099,
+              "sentence_id": 29,
+              "word": "回头"
+            },
+            {
+              "beginTime": 125099,
+              "endTime": 125708,
+              "sentence_id": 29,
+              "word": "我我我"
+            },
+            {
+              "beginTime": 125708,
+              "endTime": 125911,
+              "sentence_id": 29,
+              "word": "问"
+            },
+            {
+              "beginTime": 125911,
+              "endTime": 126317,
+              "sentence_id": 29,
+              "word": "一下"
+            },
+            {
+              "beginTime": 126317,
+              "endTime": 126723,
+              "sentence_id": 29,
+              "word": "那个"
+            },
+            {
+              "beginTime": 126723,
+              "endTime": 127129,
+              "sentence_id": 29,
+              "word": "老板。"
+            }
+          ]
+        },
+        {
+          "beginTime": 127610,
+          "endTime": 127870,
+          "has_verify": true,
+          "id": 12,
+          "paragraph_id": "1759911312842500000",
+          "remark_type": 0,
+          "sentence_id": 30,
+          "text": "可以。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "75aacc14e3a6e8be83fa2607bb42ed92",
+          "userId": "2",
+          "userName": "发言人2",
+          "words": [
+            {
+              "beginTime": 127610,
+              "endTime": 127870,
+              "sentence_id": 30,
+              "word": "可以。"
+            }
+          ]
+        },
+        {
+          "beginTime": 127970,
+          "endTime": 144680,
+          "has_verify": true,
+          "id": 13,
+          "paragraph_id": "1759911313202500000",
+          "remark_type": 0,
+          "sentence_id": 31,
+          "text": "约个时间一起聊聊。来问一下，问一下。如果他要有兴趣的话，我就给你们牵个线儿，你们老板之间去聊去，我就纯粹热心肠。好啊，行呗，然后也给家里人问个好啊，这过几天出去溜达一下。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "24c63becd32c4628a92d44d5e5c91873",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 127970,
+              "endTime": 128120,
+              "sentence_id": 31,
+              "word": "约"
+            },
+            {
+              "beginTime": 128120,
+              "endTime": 128270,
+              "sentence_id": 31,
+              "word": "个"
+            },
+            {
+              "beginTime": 128270,
+              "endTime": 128570,
+              "sentence_id": 31,
+              "word": "时间"
+            },
+            {
+              "beginTime": 128570,
+              "endTime": 128870,
+              "sentence_id": 31,
+              "word": "一起"
+            },
+            {
+              "beginTime": 128870,
+              "endTime": 129170,
+              "sentence_id": 31,
+              "word": "聊聊。"
+            },
+            {
+              "beginTime": 129170,
+              "endTime": 129337,
+              "sentence_id": 32,
+              "word": "来"
+            },
+            {
+              "beginTime": 129337,
+              "endTime": 129504,
+              "sentence_id": 32,
+              "word": "问"
+            },
+            {
+              "beginTime": 129504,
+              "endTime": 129838,
+              "sentence_id": 32,
+              "word": "一下，"
+            },
+            {
+              "beginTime": 129840,
+              "endTime": 129976,
+              "sentence_id": 32,
+              "word": "问"
+            },
+            {
+              "beginTime": 129976,
+              "endTime": 130248,
+              "sentence_id": 32,
+              "word": "一下。"
+            },
+            {
+              "beginTime": 130250,
+              "endTime": 130560,
+              "sentence_id": 33,
+              "word": "如果"
+            },
+            {
+              "beginTime": 130560,
+              "endTime": 130715,
+              "sentence_id": 33,
+              "word": "他"
+            },
+            {
+              "beginTime": 130715,
+              "endTime": 131025,
+              "sentence_id": 33,
+              "word": "要有"
+            },
+            {
+              "beginTime": 131025,
+              "endTime": 131335,
+              "sentence_id": 33,
+              "word": "兴趣"
+            },
+            {
+              "beginTime": 131335,
+              "endTime": 131645,
+              "sentence_id": 33,
+              "word": "的话，"
+            },
+            {
+              "beginTime": 131650,
+              "endTime": 131772,
+              "sentence_id": 33,
+              "word": "我"
+            },
+            {
+              "beginTime": 131772,
+              "endTime": 131894,
+              "sentence_id": 33,
+              "word": "就"
+            },
+            {
+              "beginTime": 131894,
+              "endTime": 132260,
+              "sentence_id": 33,
+              "word": "给你们"
+            },
+            {
+              "beginTime": 132260,
+              "endTime": 132382,
+              "sentence_id": 33,
+              "word": "牵"
+            },
+            {
+              "beginTime": 132382,
+              "endTime": 132504,
+              "sentence_id": 33,
+              "word": "个"
+            },
+            {
+              "beginTime": 132504,
+              "endTime": 132748,
+              "sentence_id": 33,
+              "word": "线儿，"
+            },
+            {
+              "beginTime": 132750,
+              "endTime": 133144,
+              "sentence_id": 33,
+              "word": "你们"
+            },
+            {
+              "beginTime": 133144,
+              "endTime": 133538,
+              "sentence_id": 33,
+              "word": "老板"
+            },
+            {
+              "beginTime": 133538,
+              "endTime": 133932,
+              "sentence_id": 33,
+              "word": "之间"
+            },
+            {
+              "beginTime": 133932,
+              "endTime": 134129,
+              "sentence_id": 33,
+              "word": "去"
+            },
+            {
+              "beginTime": 134129,
+              "endTime": 134326,
+              "sentence_id": 33,
+              "word": "聊"
+            },
+            {
+              "beginTime": 134326,
+              "endTime": 134523,
+              "sentence_id": 33,
+              "word": "去，"
+            },
+            {
+              "beginTime": 134800,
+              "endTime": 135158,
+              "sentence_id": 33,
+              "word": "我"
+            },
+            {
+              "beginTime": 135158,
+              "endTime": 135516,
+              "sentence_id": 33,
+              "word": "就"
+            },
+            {
+              "beginTime": 135516,
+              "endTime": 136232,
+              "sentence_id": 33,
+              "word": "纯粹"
+            },
+            {
+              "beginTime": 136232,
+              "endTime": 137306,
+              "sentence_id": 33,
+              "word": "热心肠。"
+            },
+            {
+              "beginTime": 138840,
+              "endTime": 140090,
+              "sentence_id": 34,
+              "word": "好啊，"
+            },
+            {
+              "beginTime": 140330,
+              "endTime": 140550,
+              "sentence_id": 34,
+              "word": "行"
+            },
+            {
+              "beginTime": 140550,
+              "endTime": 140770,
+              "sentence_id": 34,
+              "word": "呗，"
+            },
+            {
+              "beginTime": 140770,
+              "endTime": 141138,
+              "sentence_id": 34,
+              "word": "然后"
+            },
+            {
+              "beginTime": 141138,
+              "endTime": 141322,
+              "sentence_id": 34,
+              "word": "也"
+            },
+            {
+              "beginTime": 141322,
+              "endTime": 141506,
+              "sentence_id": 34,
+              "word": "给"
+            },
+            {
+              "beginTime": 141506,
+              "endTime": 142058,
+              "sentence_id": 34,
+              "word": "家里人"
+            },
+            {
+              "beginTime": 142058,
+              "endTime": 142242,
+              "sentence_id": 34,
+              "word": "问"
+            },
+            {
+              "beginTime": 142242,
+              "endTime": 142426,
+              "sentence_id": 34,
+              "word": "个"
+            },
+            {
+              "beginTime": 142426,
+              "endTime": 142794,
+              "sentence_id": 34,
+              "word": "好啊，"
+            },
+            {
+              "beginTime": 142800,
+              "endTime": 142988,
+              "sentence_id": 34,
+              "word": "这"
+            },
+            {
+              "beginTime": 142988,
+              "endTime": 143176,
+              "sentence_id": 34,
+              "word": "过"
+            },
+            {
+              "beginTime": 143176,
+              "endTime": 143552,
+              "sentence_id": 34,
+              "word": "几天"
+            },
+            {
+              "beginTime": 143552,
+              "endTime": 143928,
+              "sentence_id": 34,
+              "word": "出去"
+            },
+            {
+              "beginTime": 143928,
+              "endTime": 144304,
+              "sentence_id": 34,
+              "word": "溜达"
+            },
+            {
+              "beginTime": 144304,
+              "endTime": 144680,
+              "sentence_id": 34,
+              "word": "一下。"
+            }
+          ]
+        },
+        {
+          "beginTime": 145180,
+          "endTime": 149270,
+          "has_verify": true,
+          "id": 14,
+          "paragraph_id": "1759911330412500000",
+          "remark_type": 0,
+          "sentence_id": 35,
+          "text": "谢好，好啊，溜达。现在才回来。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "bc3b36af16d8d5f0c2f09db0edb351b0",
+          "userId": "2",
+          "userName": "发言人2",
+          "words": [
+            {
+              "beginTime": 145180,
+              "endTime": 145870,
+              "sentence_id": 35,
+              "word": "谢好，"
+            },
+            {
+              "beginTime": 146050,
+              "endTime": 146630,
+              "sentence_id": 35,
+              "word": "好啊，"
+            },
+            {
+              "beginTime": 147090,
+              "endTime": 147490,
+              "sentence_id": 35,
+              "word": "溜达。"
+            },
+            {
+              "beginTime": 147820,
+              "endTime": 148400,
+              "sentence_id": 36,
+              "word": "现在"
+            },
+            {
+              "beginTime": 148400,
+              "endTime": 148690,
+              "sentence_id": 36,
+              "word": "才"
+            },
+            {
+              "beginTime": 148690,
+              "endTime": 149270,
+              "sentence_id": 36,
+              "word": "回来。"
+            }
+          ]
+        },
+        {
+          "beginTime": 150100,
+          "endTime": 160370,
+          "has_verify": true,
+          "id": 15,
+          "paragraph_id": "1759911335332500000",
+          "remark_type": 0,
+          "sentence_id": 37,
+          "text": "行呗，那就不多聊了。我回头我我我问一下那个老板，如果他要有兴趣的话，我就给你们牵个线儿。好好好OK好好，拜拜，好，拜拜。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "e4eac71137538e90a9e2fd025eb61cba",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 150100,
+              "endTime": 150365,
+              "sentence_id": 37,
+              "word": "行"
+            },
+            {
+              "beginTime": 150365,
+              "endTime": 150630,
+              "sentence_id": 37,
+              "word": "呗，"
+            },
+            {
+              "beginTime": 150990,
+              "endTime": 151282,
+              "sentence_id": 37,
+              "word": "那就"
+            },
+            {
+              "beginTime": 151282,
+              "endTime": 151574,
+              "sentence_id": 37,
+              "word": "不多"
+            },
+            {
+              "beginTime": 151574,
+              "endTime": 151720,
+              "sentence_id": 37,
+              "word": "聊"
+            },
+            {
+              "beginTime": 151720,
+              "endTime": 151866,
+              "sentence_id": 37,
+              "word": "了。"
+            },
+            {
+              "beginTime": 151870,
+              "endTime": 152020,
+              "sentence_id": 38,
+              "word": "我"
+            },
+            {
+              "beginTime": 152020,
+              "endTime": 152320,
+              "sentence_id": 38,
+              "word": "回头"
+            },
+            {
+              "beginTime": 152320,
+              "endTime": 152770,
+              "sentence_id": 38,
+              "word": "我我我"
+            },
+            {
+              "beginTime": 152770,
+              "endTime": 152920,
+              "sentence_id": 38,
+              "word": "问"
+            },
+            {
+              "beginTime": 152920,
+              "endTime": 153220,
+              "sentence_id": 38,
+              "word": "一下"
+            },
+            {
+              "beginTime": 153220,
+              "endTime": 153520,
+              "sentence_id": 38,
+              "word": "那个"
+            },
+            {
+              "beginTime": 153520,
+              "endTime": 153820,
+              "sentence_id": 38,
+              "word": "老板，"
+            },
+            {
+              "beginTime": 153830,
+              "endTime": 154098,
+              "sentence_id": 38,
+              "word": "如果"
+            },
+            {
+              "beginTime": 154098,
+              "endTime": 154232,
+              "sentence_id": 38,
+              "word": "他"
+            },
+            {
+              "beginTime": 154232,
+              "endTime": 154500,
+              "sentence_id": 38,
+              "word": "要有"
+            },
+            {
+              "beginTime": 154500,
+              "endTime": 154768,
+              "sentence_id": 38,
+              "word": "兴趣"
+            },
+            {
+              "beginTime": 154768,
+              "endTime": 155036,
+              "sentence_id": 38,
+              "word": "的话，"
+            },
+            {
+              "beginTime": 155470,
+              "endTime": 155575,
+              "sentence_id": 38,
+              "word": "我"
+            },
+            {
+              "beginTime": 155575,
+              "endTime": 155680,
+              "sentence_id": 38,
+              "word": "就"
+            },
+            {
+              "beginTime": 155680,
+              "endTime": 155995,
+              "sentence_id": 38,
+              "word": "给你们"
+            },
+            {
+              "beginTime": 155995,
+              "endTime": 156100,
+              "sentence_id": 38,
+              "word": "牵"
+            },
+            {
+              "beginTime": 156100,
+              "endTime": 156205,
+              "sentence_id": 38,
+              "word": "个"
+            },
+            {
+              "beginTime": 156205,
+              "endTime": 156415,
+              "sentence_id": 38,
+              "word": "线儿。"
+            },
+            {
+              "beginTime": 156780,
+              "endTime": 157866,
+              "sentence_id": 39,
+              "word": "好好好"
+            },
+            {
+              "beginTime": 157866,
+              "endTime": 158228,
+              "sentence_id": 39,
+              "word": "O"
+            },
+            {
+              "beginTime": 158228,
+              "endTime": 158590,
+              "sentence_id": 39,
+              "word": "K"
+            },
+            {
+              "beginTime": 158590,
+              "endTime": 159314,
+              "sentence_id": 39,
+              "word": "好好，"
+            },
+            {
+              "beginTime": 159320,
+              "endTime": 159650,
+              "sentence_id": 39,
+              "word": "拜拜，"
+            },
+            {
+              "beginTime": 159870,
+              "endTime": 160060,
+              "sentence_id": 39,
+              "word": "好，"
+            },
+            {
+              "beginTime": 160060,
+              "endTime": 160370,
+              "sentence_id": 39,
+              "word": "拜拜。"
+            }
+          ]
+        }
+      ],
+      "count": 15,
+      "status": {
+        "value": 1,
+        "text": "转写完成",
+        "done": true
+      }
+    },
+    "meetingSummary": {
+      "content": "## 📌基本信息\n- **主题**:润之美草本饮料合作沟通\n- **时间**:2025年4月12日 15:28:56\n- **沟通人员**:小齐、未提及姓名人员\n\n本次沟通围绕**润之美草本饮料**项目展开，涉及**润馨堂**品牌、**非物质化遗产**资质及**凉茶**产品的合作可能性。对方企业老板提出合作意向，沟通方表示当前重心已转向**草本板块**，认为该领域存在机会，并计划通过小齐牵线与对方老板进一步洽谈，同时明确表达了**不搞工厂**、专注草本板块摸索出路的思路。\n\n---\n\n## 📝沟通内容\n### 合作背景与契机\n- 双方从饮料推销话题切入，提及**润之美**品牌和**凉茶**产品，进而谈到沟通方拥有的**润馨堂**品牌及**非物质化遗产**资质\n- 对方企业老板询问上述品牌和资质相关业务是否仍在开展，在得知“没怎么做了”后，提出**讨论合作开展**的可能性\n\n---\n\n### 业务现状与重心调整\n- 沟通方现状说明：\n  - 传统业务板块已安排他人负责\n  - 此前针对**to b餐饮原料**的业务也交由他人处理，本人对此领域**无太大兴趣**\n- 当前明确**重心转向草本板块**，认为该领域“还是有点机会”，且“考虑方向蛮不错”\n\n---\n\n### 合作相关人员与资源\n- **小齐**目前在**广州**\n- 沟通方曾在广州设有工厂，但表示“厂不想搞了，没有意义”，明确**不搞工厂**，专注草本板块摸索出路\n\n---\n\n### 合作推进计划\n- 沟通方同意若对方老板有兴趣，将通过小齐进行**牵线**，安排双方老板直接沟通\n- 小齐表示“回头我问一下那个老板，如果他要有兴趣的话，我就给你们牵个线儿”",
+      "status": {
+        "value": 2,
+        "text": "纪要已生成",
+        "done": true
+      }
+    },
+    "raw": {
+      "id": 2228530,
+      "user_id": 240745,
+      "name": "刘长胜@136 0281 5868_20251008160644.m4a",
+      "name_status": 0,
+      "ws_url": "",
+      "style": 2,
+      "file_path": "https://tnoss.itingnao.com/tmp/029ba81c6547-4da3-a396-6b981ed225ac.m4a?auth_key=1781418191-u6tagpf29haykdm9wduksjq529prh3pf-0-80a0d58ee42a67165268928f320a4590",
+      "prepare_path": "tmp/029ba81c6547-4da3-a396-6b981ed225ac.m4a",
+      "pcm_to_mp3_status": 3,
+      "pcm_to_mp3_message": "",
+      "file_long": "0:02:41",
+      "file_duration": 161000,
+      "file_source_type": 1,
+      "text_polish": [
+        {
+          "beginTime": 30,
+          "endTime": 35373,
+          "has_verify": true,
+          "id": 1,
+          "paragraph_id": "1759911185262500000",
+          "sentence_id": 1,
+          "text": "我们在推销那个饮料怎么做？然后干啥能有机会。这样就聊聊聊就聊到咱们那个那个润之美了。然后就聊到这个凉茶了。咱们不是有个润馨堂吗？还有一个非物质文化遗产。那个老板就在问说现在还做不做了？我说这一块好像没怎么做了，然后他就说说是能不能讨论一下怎么做一下。",
+          "text_with_tag": "我们在推销那个饮料怎么做？然后干啥能有机会。<del>对，</del>这样就聊聊聊就聊到咱们那个那个润之美了。<del>对，</del>然后就聊到这个凉茶了。咱们不是有个润馨堂吗？<del>对，是吧？</del>还有一个<del>非物，那个那个叫</del>非物质文化遗产。<del>对，</del>那个老板就在问说现在还做不做了？我说这一块好像没怎么做了，然后他就说说是能不能讨论一下怎么做一下。",
+          "trans": "",
+          "userId": "1",
+          "userName": "发言人1"
+        },
+        {
+          "beginTime": 36240,
+          "endTime": 69080,
+          "has_verify": true,
+          "id": 2,
+          "paragraph_id": "1759911221472500000",
+          "sentence_id": 10,
+          "text": "可以，我们现在是这样，就是你应该自己知道，传统那一块的，反正我是让他们去做了。我自己是之前的那些针对那些to b的一些餐饮的那些原料这部分，那部分是让别人去做了，反正我自己没太大兴趣。说实话这么多年我对这一块是没太大兴趣。那现在的话实际上重心还是要放到草本的这个板块来。你这个东西怎么说还是有点机会的。",
+          "text_with_tag": "可以，我们现在是这样，就是你应该自己知道，传统那一块的，反正我是让他们去做了。我自己是之前的那些针对那些to b的一些餐饮的那些原料这部分，那部分是让别人去做了，反正我自己没太大兴趣。说实话这么多年我对这一块是没太大兴趣。那现在的话实际上重心还是要放到草本的这个板块来。你这个东西怎么说还是有点机会的。<del>我。</del>",
+          "trans": "",
+          "userId": "2",
+          "userName": "发言人2"
+        },
+        {
+          "beginTime": 69080,
+          "endTime": 71160,
+          "has_verify": true,
+          "id": 3,
+          "paragraph_id": "1759911254312500000",
+          "sentence_id": 16,
+          "text": "认为现在。",
+          "text_with_tag": "认为现在。",
+          "trans": "",
+          "userId": "1",
+          "userName": "发言人1"
+        },
+        {
+          "beginTime": 71160,
+          "endTime": 75320,
+          "has_verify": true,
+          "id": 4,
+          "paragraph_id": "1759911256392500000",
+          "sentence_id": 17,
+          "text": "就是这个考虑方向。",
+          "text_with_tag": "就是这个考虑方向。",
+          "trans": "",
+          "userId": "2",
+          "userName": "发言人2"
+        },
+        {
+          "beginTime": 77890,
+          "endTime": 85036,
+          "has_verify": true,
+          "id": 5,
+          "paragraph_id": "1759911263122500000",
+          "sentence_id": 18,
+          "text": "也蛮不错的。那个谁小齐现在是在广州还是在在广西呢？",
+          "text_with_tag": "也蛮不错的。那个谁小齐现在是在广州还是在在广西呢？",
+          "trans": "",
+          "userId": "1",
+          "userName": "发言人1"
+        },
+        {
+          "beginTime": 85630,
+          "endTime": 86218,
+          "has_verify": true,
+          "id": 6,
+          "paragraph_id": "1759911270862500000",
+          "sentence_id": 20,
+          "text": "他在广州。",
+          "text_with_tag": "他在广州。",
+          "trans": "",
+          "userId": "2",
+          "userName": "发言人2"
+        },
+        {
+          "beginTime": 86990,
+          "endTime": 91530,
+          "has_verify": true,
+          "id": 7,
+          "paragraph_id": "1759911272222500000",
+          "sentence_id": 21,
+          "text": "在广州。对，你在广州这边又弄厂了。",
+          "text_with_tag": "在广州。对，<del>哦哦哦</del>你在广州这边又弄厂了。",
+          "trans": "",
+          "userId": "1",
+          "userName": "发言人1"
+        },
+        {
+          "beginTime": 92320,
+          "endTime": 112270,
+          "has_verify": true,
+          "id": 8,
+          "paragraph_id": "1759911277552500000",
+          "sentence_id": 23,
+          "text": "这厂不想搞了，没有意义。我就不想厂了，我想可能还是做草本这个板块，把这一块摸索一下，想办法找点出路，在这个领域不要去搞工厂，搞工厂没有意义的。就像你之前说的，你不是当时也建议我不要搞工厂吗？",
+          "text_with_tag": "这厂不想搞了，没有意义。我就不想<del>搞</del>厂了，我想可能还是做草本这个板块，<del>做</del>把这一块摸索一下，想办法找点出路，在这个领域不要去搞工厂，搞工厂没有意义的。就像你之前说的，你不是当时也建议我不要搞工厂吗？",
+          "trans": "",
+          "userId": "3",
+          "userName": "发言人3"
+        },
+        {
+          "beginTime": 113610,
+          "endTime": 115176,
+          "has_verify": true,
+          "id": 9,
+          "paragraph_id": "1759911298842500000",
+          "sentence_id": 26,
+          "text": "但是你没听我的建议。",
+          "text_with_tag": "但是你没听我的建议。",
+          "trans": "",
+          "userId": "1",
+          "userName": "发言人1"
+        },
+        {
+          "beginTime": 117180,
+          "endTime": 118770,
+          "has_verify": true,
+          "id": 10,
+          "paragraph_id": "1759911302412500000",
+          "sentence_id": 27,
+          "text": "那个不说了。",
+          "text_with_tag": "那个不说了。",
+          "trans": "",
+          "userId": "3",
+          "userName": "发言人3"
+        },
+        {
+          "beginTime": 121280,
+          "endTime": 127129,
+          "has_verify": true,
+          "id": 11,
+          "paragraph_id": "1759911306512500000",
+          "sentence_id": 28,
+          "text": "也行呗，行呗。那你要有兴趣的话，我回头问一下那个老板。",
+          "text_with_tag": "也行呗，行呗。那<del>那</del>你要有兴趣的话，我回头<del>我我我</del>问一下那个老板。",
+          "trans": "",
+          "userId": "1",
+          "userName": "发言人1"
+        },
+        {
+          "beginTime": 127610,
+          "endTime": 127870,
+          "has_verify": true,
+          "id": 12,
+          "paragraph_id": "1759911312842500000",
+          "sentence_id": 30,
+          "text": "可以。",
+          "text_with_tag": "可以。",
+          "trans": "",
+          "userId": "2",
+          "userName": "发言人2"
+        },
+        {
+          "beginTime": 127970,
+          "endTime": 144680,
+          "has_verify": true,
+          "id": 13,
+          "paragraph_id": "1759911313202500000",
+          "sentence_id": 31,
+          "text": "约个时间一起聊聊。如果他要有兴趣的话，我就给你们牵个线儿，你们老板之间去聊去，我就纯粹热心肠。然后也给家里人问个好啊，过几天出去溜达一下。",
+          "text_with_tag": "约个时间一起聊聊。<del>来问一下，问一下。</del>如果他要有兴趣的话，我就给你们牵个线儿，你们老板之间去聊去，我就纯粹热心肠。<del>好啊，行呗，</del>然后也给家里人问个好啊，<del>这</del>过几天出去溜达一下。",
+          "trans": "",
+          "userId": "1",
+          "userName": "发言人1"
+        },
+        {
+          "beginTime": 145180,
+          "endTime": 149270,
+          "has_verify": true,
+          "id": 14,
+          "paragraph_id": "1759911330412500000",
+          "sentence_id": 35,
+          "text": "好啊，溜达。现在才回来。",
+          "text_with_tag": "<del>谢好，</del>好啊，溜达。现在才回来。",
+          "trans": "",
+          "userId": "2",
+          "userName": "发言人2"
+        },
+        {
+          "beginTime": 150100,
+          "endTime": 160370,
+          "has_verify": true,
+          "id": 15,
+          "paragraph_id": "1759911335332500000",
+          "sentence_id": 37,
+          "text": "行呗，那就不多聊了。我回头问一下那个老板，如果他要有兴趣的话，我就给你们牵个线儿。拜拜，拜拜。",
+          "text_with_tag": "行呗，那就不多聊了。我回头<del>我我我</del>问一下那个老板，如果他要有兴趣的话，我就给你们牵个线儿。<del>好好好OK好好，</del>拜拜，<del>好，</del>拜拜。",
+          "trans": "",
+          "userId": "1",
+          "userName": "发言人1"
+        }
+      ],
+      "text_polish_status": 1,
+      "mind_map_summary": [
+        {
+          "Title": "脑图摘要",
+          "Topic": [
+            {
+              "Title": "讨论主题与背景",
+              "Topic": [
+                {
+                  "Title": "润之美与凉茶的销售策略讨论",
+                  "Topic": []
+                },
+                {
+                  "Title": "润馨堂与非物质文化遗产提及",
+                  "Topic": []
+                }
+              ]
+            },
+            {
+              "Title": "销售与市场策略",
+              "Topic": [
+                {
+                  "Title": "探讨传统原料业务与草本板块的重心转移",
+                  "Topic": []
+                },
+                {
+                  "Title": "认为草本板块有市场机会",
+                  "Topic": []
+                }
+              ]
+            },
+            {
+              "Title": "工厂运营与决策",
+              "Topic": [
+                {
+                  "Title": "小齐在广州的工厂情况",
+                  "Topic": []
+                },
+                {
+                  "Title": "工厂运营被认为无意义，转向草本领域",
+                  "Topic": []
+                },
+                {
+                  "Title": "建议与未采纳建议回顾",
+                  "Topic": []
+                }
+              ]
+            },
+            {
+              "Title": "后续行动计划",
+              "Topic": [
+                {
+                  "Title": "牵线老板间交流，讨论合作机会",
+                  "Topic": []
+                },
+                {
+                  "Title": "家人问候与结束对话",
+                  "Topic": []
+                }
+              ]
+            },
+            {
+              "Title": "对话结束",
+              "Topic": [
+                {
+                  "Title": "确认后续行动与告别",
+                  "Topic": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "mind_map_summary_status": 0,
+      "key_sentences": [],
+      "key_sentences_status": 0,
+      "data": [
+        {
+          "beginTime": 30,
+          "endTime": 35373,
+          "has_verify": true,
+          "id": 1,
+          "paragraph_id": "1759911185262500000",
+          "remark_type": 0,
+          "sentence_id": 1,
+          "text": "我们在推销那个饮料怎么做？然后干啥能有机会。对，这样就聊聊聊就聊到咱们那个那个润之美了。对，然后就聊到这个凉茶了。咱们不是有个润馨堂吗？对，是吧？还有一个非物，那个那个叫非物质化遗产。对，那个老板就在问说现在还做不做了？我说这一块好像没怎么做了，然后他就说说是能不能讨论一下怎么做一下。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "d8fbf1d1b442a702b9c45ff91765cf4d",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 30,
+              "endTime": 834,
+              "sentence_id": 1,
+              "word": "我们在"
+            },
+            {
+              "beginTime": 834,
+              "endTime": 1370,
+              "sentence_id": 1,
+              "word": "推销"
+            },
+            {
+              "beginTime": 1370,
+              "endTime": 1906,
+              "sentence_id": 1,
+              "word": "那个"
+            },
+            {
+              "beginTime": 1906,
+              "endTime": 2442,
+              "sentence_id": 1,
+              "word": "饮料"
+            },
+            {
+              "beginTime": 2442,
+              "endTime": 3246,
+              "sentence_id": 1,
+              "word": "怎么做？"
+            },
+            {
+              "beginTime": 4020,
+              "endTime": 4700,
+              "sentence_id": 2,
+              "word": "然后"
+            },
+            {
+              "beginTime": 4700,
+              "endTime": 5040,
+              "sentence_id": 2,
+              "word": "干"
+            },
+            {
+              "beginTime": 5040,
+              "endTime": 5380,
+              "sentence_id": 2,
+              "word": "啥"
+            },
+            {
+              "beginTime": 5380,
+              "endTime": 6060,
+              "sentence_id": 2,
+              "word": "能有"
+            },
+            {
+              "beginTime": 6060,
+              "endTime": 6740,
+              "sentence_id": 2,
+              "word": "机会。"
+            },
+            {
+              "beginTime": 7190,
+              "endTime": 7430,
+              "sentence_id": 3,
+              "word": "对，"
+            },
+            {
+              "beginTime": 7430,
+              "endTime": 8022,
+              "sentence_id": 3,
+              "word": "这样"
+            },
+            {
+              "beginTime": 8022,
+              "endTime": 8318,
+              "sentence_id": 3,
+              "word": "就"
+            },
+            {
+              "beginTime": 8318,
+              "endTime": 8614,
+              "sentence_id": 3,
+              "word": "聊"
+            },
+            {
+              "beginTime": 8614,
+              "endTime": 9206,
+              "sentence_id": 3,
+              "word": "聊聊"
+            },
+            {
+              "beginTime": 9206,
+              "endTime": 9502,
+              "sentence_id": 3,
+              "word": "就"
+            },
+            {
+              "beginTime": 9502,
+              "endTime": 10094,
+              "sentence_id": 3,
+              "word": "聊到"
+            },
+            {
+              "beginTime": 10094,
+              "endTime": 10686,
+              "sentence_id": 3,
+              "word": "咱们"
+            },
+            {
+              "beginTime": 10686,
+              "endTime": 11870,
+              "sentence_id": 3,
+              "word": "那个那个"
+            },
+            {
+              "beginTime": 11870,
+              "endTime": 12166,
+              "sentence_id": 3,
+              "word": "润"
+            },
+            {
+              "beginTime": 12166,
+              "endTime": 12462,
+              "sentence_id": 3,
+              "word": "之"
+            },
+            {
+              "beginTime": 12462,
+              "endTime": 12758,
+              "sentence_id": 3,
+              "word": "美"
+            },
+            {
+              "beginTime": 12758,
+              "endTime": 13054,
+              "sentence_id": 3,
+              "word": "了。"
+            },
+            {
+              "beginTime": 13320,
+              "endTime": 13660,
+              "sentence_id": 4,
+              "word": "对，"
+            },
+            {
+              "beginTime": 13660,
+              "endTime": 14066,
+              "sentence_id": 4,
+              "word": "然后"
+            },
+            {
+              "beginTime": 14066,
+              "endTime": 14269,
+              "sentence_id": 4,
+              "word": "就"
+            },
+            {
+              "beginTime": 14269,
+              "endTime": 14675,
+              "sentence_id": 4,
+              "word": "聊到"
+            },
+            {
+              "beginTime": 14675,
+              "endTime": 15081,
+              "sentence_id": 4,
+              "word": "这个"
+            },
+            {
+              "beginTime": 15081,
+              "endTime": 15487,
+              "sentence_id": 4,
+              "word": "凉茶"
+            },
+            {
+              "beginTime": 15487,
+              "endTime": 15690,
+              "sentence_id": 4,
+              "word": "了。"
+            },
+            {
+              "beginTime": 16430,
+              "endTime": 16778,
+              "sentence_id": 5,
+              "word": "咱们"
+            },
+            {
+              "beginTime": 16778,
+              "endTime": 17126,
+              "sentence_id": 5,
+              "word": "不是"
+            },
+            {
+              "beginTime": 17126,
+              "endTime": 17300,
+              "sentence_id": 5,
+              "word": "有"
+            },
+            {
+              "beginTime": 17300,
+              "endTime": 17474,
+              "sentence_id": 5,
+              "word": "个"
+            },
+            {
+              "beginTime": 17474,
+              "endTime": 17648,
+              "sentence_id": 5,
+              "word": "润"
+            },
+            {
+              "beginTime": 17648,
+              "endTime": 17822,
+              "sentence_id": 5,
+              "word": "馨"
+            },
+            {
+              "beginTime": 17822,
+              "endTime": 17996,
+              "sentence_id": 5,
+              "word": "堂"
+            },
+            {
+              "beginTime": 17996,
+              "endTime": 18170,
+              "sentence_id": 5,
+              "word": "吗？"
+            },
+            {
+              "beginTime": 18430,
+              "endTime": 18760,
+              "sentence_id": 6,
+              "word": "对，"
+            },
+            {
+              "beginTime": 19230,
+              "endTime": 19405,
+              "sentence_id": 6,
+              "word": "是"
+            },
+            {
+              "beginTime": 19405,
+              "endTime": 19580,
+              "sentence_id": 6,
+              "word": "吧？"
+            },
+            {
+              "beginTime": 19580,
+              "endTime": 20260,
+              "sentence_id": 7,
+              "word": "还有一个"
+            },
+            {
+              "beginTime": 20260,
+              "endTime": 20430,
+              "sentence_id": 7,
+              "word": "非"
+            },
+            {
+              "beginTime": 20430,
+              "endTime": 20600,
+              "sentence_id": 7,
+              "word": "物，"
+            },
+            {
+              "beginTime": 20600,
+              "endTime": 21280,
+              "sentence_id": 7,
+              "word": "那个那个"
+            },
+            {
+              "beginTime": 21280,
+              "endTime": 21450,
+              "sentence_id": 7,
+              "word": "叫"
+            },
+            {
+              "beginTime": 21450,
+              "endTime": 21620,
+              "sentence_id": 7,
+              "word": "非"
+            },
+            {
+              "beginTime": 21620,
+              "endTime": 22130,
+              "sentence_id": 7,
+              "word": "物质化"
+            },
+            {
+              "beginTime": 22130,
+              "endTime": 22470,
+              "sentence_id": 7,
+              "word": "遗产。"
+            },
+            {
+              "beginTime": 22980,
+              "endTime": 23590,
+              "sentence_id": 8,
+              "word": "对，"
+            },
+            {
+              "beginTime": 24690,
+              "endTime": 25026,
+              "sentence_id": 8,
+              "word": "那个"
+            },
+            {
+              "beginTime": 25026,
+              "endTime": 25362,
+              "sentence_id": 8,
+              "word": "老板"
+            },
+            {
+              "beginTime": 25362,
+              "endTime": 25698,
+              "sentence_id": 8,
+              "word": "就在"
+            },
+            {
+              "beginTime": 25698,
+              "endTime": 25866,
+              "sentence_id": 8,
+              "word": "问"
+            },
+            {
+              "beginTime": 25866,
+              "endTime": 26034,
+              "sentence_id": 8,
+              "word": "说"
+            },
+            {
+              "beginTime": 26034,
+              "endTime": 26370,
+              "sentence_id": 8,
+              "word": "现在"
+            },
+            {
+              "beginTime": 26370,
+              "endTime": 26538,
+              "sentence_id": 8,
+              "word": "还"
+            },
+            {
+              "beginTime": 26538,
+              "endTime": 26706,
+              "sentence_id": 8,
+              "word": "做"
+            },
+            {
+              "beginTime": 26706,
+              "endTime": 27042,
+              "sentence_id": 8,
+              "word": "不做"
+            },
+            {
+              "beginTime": 27042,
+              "endTime": 27210,
+              "sentence_id": 8,
+              "word": "了？"
+            },
+            {
+              "beginTime": 27810,
+              "endTime": 28120,
+              "sentence_id": 9,
+              "word": "我说"
+            },
+            {
+              "beginTime": 28120,
+              "endTime": 28275,
+              "sentence_id": 9,
+              "word": "这"
+            },
+            {
+              "beginTime": 28275,
+              "endTime": 28585,
+              "sentence_id": 9,
+              "word": "一块"
+            },
+            {
+              "beginTime": 28585,
+              "endTime": 28895,
+              "sentence_id": 9,
+              "word": "好像"
+            },
+            {
+              "beginTime": 28895,
+              "endTime": 29050,
+              "sentence_id": 9,
+              "word": "没"
+            },
+            {
+              "beginTime": 29050,
+              "endTime": 29360,
+              "sentence_id": 9,
+              "word": "怎么"
+            },
+            {
+              "beginTime": 29360,
+              "endTime": 29670,
+              "sentence_id": 9,
+              "word": "做了，"
+            },
+            {
+              "beginTime": 30490,
+              "endTime": 31004,
+              "sentence_id": 9,
+              "word": "然后"
+            },
+            {
+              "beginTime": 31004,
+              "endTime": 31261,
+              "sentence_id": 9,
+              "word": "他"
+            },
+            {
+              "beginTime": 31261,
+              "endTime": 31775,
+              "sentence_id": 9,
+              "word": "就说"
+            },
+            {
+              "beginTime": 31775,
+              "endTime": 32289,
+              "sentence_id": 9,
+              "word": "说是"
+            },
+            {
+              "beginTime": 32289,
+              "endTime": 33060,
+              "sentence_id": 9,
+              "word": "能不能"
+            },
+            {
+              "beginTime": 33060,
+              "endTime": 34088,
+              "sentence_id": 9,
+              "word": "讨论一下"
+            },
+            {
+              "beginTime": 34088,
+              "endTime": 34859,
+              "sentence_id": 9,
+              "word": "怎么做"
+            },
+            {
+              "beginTime": 34859,
+              "endTime": 35373,
+              "sentence_id": 9,
+              "word": "一下。"
+            }
+          ]
+        },
+        {
+          "beginTime": 36240,
+          "endTime": 69080,
+          "has_verify": true,
+          "id": 2,
+          "paragraph_id": "1759911221472500000",
+          "remark_type": 0,
+          "sentence_id": 10,
+          "text": "可以，我们现在是这样，就是你应该自己知道，传统那一块的，反正我是让他们去做了。我自己是之前的那些针对那些to b的一些餐饮的那些原料这部分，那部分是让别人去做了，反正我自己没太大兴趣。说实话这么多年我对这一块是没太大兴趣。那现在的话实际上重心还是要放到草本的这个板块来。你这个东西怎么说还是有点机会的。我。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "bbf8faccd450a5192a64cf2c4938838d",
+          "userId": "2",
+          "userName": "发言人2",
+          "words": [
+            {
+              "beginTime": 36240,
+              "endTime": 36580,
+              "sentence_id": 10,
+              "word": "可以，"
+            },
+            {
+              "beginTime": 36850,
+              "endTime": 37194,
+              "sentence_id": 10,
+              "word": "我们"
+            },
+            {
+              "beginTime": 37194,
+              "endTime": 37538,
+              "sentence_id": 10,
+              "word": "现在"
+            },
+            {
+              "beginTime": 37538,
+              "endTime": 37710,
+              "sentence_id": 10,
+              "word": "是"
+            },
+            {
+              "beginTime": 37710,
+              "endTime": 38054,
+              "sentence_id": 10,
+              "word": "这样，"
+            },
+            {
+              "beginTime": 38060,
+              "endTime": 38543,
+              "sentence_id": 10,
+              "word": "就是你"
+            },
+            {
+              "beginTime": 38543,
+              "endTime": 38865,
+              "sentence_id": 10,
+              "word": "应该"
+            },
+            {
+              "beginTime": 38865,
+              "endTime": 39187,
+              "sentence_id": 10,
+              "word": "自己"
+            },
+            {
+              "beginTime": 39187,
+              "endTime": 39509,
+              "sentence_id": 10,
+              "word": "知道，"
+            },
+            {
+              "beginTime": 40520,
+              "endTime": 40850,
+              "sentence_id": 10,
+              "word": "传统"
+            },
+            {
+              "beginTime": 40850,
+              "endTime": 41015,
+              "sentence_id": 10,
+              "word": "那"
+            },
+            {
+              "beginTime": 41015,
+              "endTime": 41345,
+              "sentence_id": 10,
+              "word": "一块"
+            },
+            {
+              "beginTime": 41345,
+              "endTime": 41510,
+              "sentence_id": 10,
+              "word": "的，"
+            },
+            {
+              "beginTime": 41510,
+              "endTime": 41890,
+              "sentence_id": 10,
+              "word": "反正"
+            },
+            {
+              "beginTime": 41890,
+              "endTime": 42270,
+              "sentence_id": 10,
+              "word": "我是"
+            },
+            {
+              "beginTime": 42270,
+              "endTime": 42460,
+              "sentence_id": 10,
+              "word": "让"
+            },
+            {
+              "beginTime": 42460,
+              "endTime": 42840,
+              "sentence_id": 10,
+              "word": "他们"
+            },
+            {
+              "beginTime": 42840,
+              "endTime": 43030,
+              "sentence_id": 10,
+              "word": "去"
+            },
+            {
+              "beginTime": 43030,
+              "endTime": 43410,
+              "sentence_id": 10,
+              "word": "做了。"
+            },
+            {
+              "beginTime": 43530,
+              "endTime": 44298,
+              "sentence_id": 11,
+              "word": "我自己"
+            },
+            {
+              "beginTime": 44298,
+              "endTime": 44554,
+              "sentence_id": 11,
+              "word": "是"
+            },
+            {
+              "beginTime": 44554,
+              "endTime": 45066,
+              "sentence_id": 11,
+              "word": "之前"
+            },
+            {
+              "beginTime": 45066,
+              "endTime": 45322,
+              "sentence_id": 11,
+              "word": "的"
+            },
+            {
+              "beginTime": 45322,
+              "endTime": 45834,
+              "sentence_id": 11,
+              "word": "那些"
+            },
+            {
+              "beginTime": 45834,
+              "endTime": 46346,
+              "sentence_id": 11,
+              "word": "针对"
+            },
+            {
+              "beginTime": 46346,
+              "endTime": 46858,
+              "sentence_id": 11,
+              "word": "那些"
+            },
+            {
+              "beginTime": 46858,
+              "endTime": 47626,
+              "sentence_id": 11,
+              "word": "to "
+            },
+            {
+              "beginTime": 47626,
+              "endTime": 47882,
+              "sentence_id": 11,
+              "word": "b"
+            },
+            {
+              "beginTime": 47882,
+              "endTime": 48138,
+              "sentence_id": 11,
+              "word": "的"
+            },
+            {
+              "beginTime": 48138,
+              "endTime": 48650,
+              "sentence_id": 11,
+              "word": "一些"
+            },
+            {
+              "beginTime": 48650,
+              "endTime": 49162,
+              "sentence_id": 11,
+              "word": "餐饮"
+            },
+            {
+              "beginTime": 49162,
+              "endTime": 49418,
+              "sentence_id": 11,
+              "word": "的"
+            },
+            {
+              "beginTime": 49418,
+              "endTime": 49930,
+              "sentence_id": 11,
+              "word": "那些"
+            },
+            {
+              "beginTime": 49930,
+              "endTime": 50442,
+              "sentence_id": 11,
+              "word": "原料"
+            },
+            {
+              "beginTime": 50442,
+              "endTime": 51210,
+              "sentence_id": 11,
+              "word": "这部分，"
+            },
+            {
+              "beginTime": 52570,
+              "endTime": 52719,
+              "sentence_id": 11,
+              "word": "那"
+            },
+            {
+              "beginTime": 52719,
+              "endTime": 53017,
+              "sentence_id": 11,
+              "word": "部分"
+            },
+            {
+              "beginTime": 53017,
+              "endTime": 53166,
+              "sentence_id": 11,
+              "word": "是"
+            },
+            {
+              "beginTime": 53166,
+              "endTime": 53315,
+              "sentence_id": 11,
+              "word": "让"
+            },
+            {
+              "beginTime": 53315,
+              "endTime": 53613,
+              "sentence_id": 11,
+              "word": "别人"
+            },
+            {
+              "beginTime": 53613,
+              "endTime": 53762,
+              "sentence_id": 11,
+              "word": "去"
+            },
+            {
+              "beginTime": 53762,
+              "endTime": 54060,
+              "sentence_id": 11,
+              "word": "做了，"
+            },
+            {
+              "beginTime": 54060,
+              "endTime": 54394,
+              "sentence_id": 11,
+              "word": "反正"
+            },
+            {
+              "beginTime": 54394,
+              "endTime": 54895,
+              "sentence_id": 11,
+              "word": "我自己"
+            },
+            {
+              "beginTime": 54895,
+              "endTime": 55062,
+              "sentence_id": 11,
+              "word": "没"
+            },
+            {
+              "beginTime": 55062,
+              "endTime": 55396,
+              "sentence_id": 11,
+              "word": "太大"
+            },
+            {
+              "beginTime": 55396,
+              "endTime": 55730,
+              "sentence_id": 11,
+              "word": "兴趣。"
+            },
+            {
+              "beginTime": 55730,
+              "endTime": 56174,
+              "sentence_id": 12,
+              "word": "说实话"
+            },
+            {
+              "beginTime": 56174,
+              "endTime": 56766,
+              "sentence_id": 12,
+              "word": "这么多年"
+            },
+            {
+              "beginTime": 56766,
+              "endTime": 56914,
+              "sentence_id": 12,
+              "word": "我"
+            },
+            {
+              "beginTime": 56914,
+              "endTime": 57062,
+              "sentence_id": 12,
+              "word": "对"
+            },
+            {
+              "beginTime": 57062,
+              "endTime": 57210,
+              "sentence_id": 12,
+              "word": "这"
+            },
+            {
+              "beginTime": 57210,
+              "endTime": 57506,
+              "sentence_id": 12,
+              "word": "一块"
+            },
+            {
+              "beginTime": 57506,
+              "endTime": 57654,
+              "sentence_id": 12,
+              "word": "是"
+            },
+            {
+              "beginTime": 57654,
+              "endTime": 57802,
+              "sentence_id": 12,
+              "word": "没"
+            },
+            {
+              "beginTime": 57802,
+              "endTime": 58098,
+              "sentence_id": 12,
+              "word": "太大"
+            },
+            {
+              "beginTime": 58098,
+              "endTime": 58394,
+              "sentence_id": 12,
+              "word": "兴趣。"
+            },
+            {
+              "beginTime": 59810,
+              "endTime": 60047,
+              "sentence_id": 13,
+              "word": "那"
+            },
+            {
+              "beginTime": 60047,
+              "endTime": 60521,
+              "sentence_id": 13,
+              "word": "现在"
+            },
+            {
+              "beginTime": 60521,
+              "endTime": 60995,
+              "sentence_id": 13,
+              "word": "的话"
+            },
+            {
+              "beginTime": 60995,
+              "endTime": 61706,
+              "sentence_id": 13,
+              "word": "实际上"
+            },
+            {
+              "beginTime": 61706,
+              "endTime": 62180,
+              "sentence_id": 13,
+              "word": "重心"
+            },
+            {
+              "beginTime": 62180,
+              "endTime": 62654,
+              "sentence_id": 13,
+              "word": "还是"
+            },
+            {
+              "beginTime": 62654,
+              "endTime": 62891,
+              "sentence_id": 13,
+              "word": "要"
+            },
+            {
+              "beginTime": 62891,
+              "endTime": 63365,
+              "sentence_id": 13,
+              "word": "放到"
+            },
+            {
+              "beginTime": 63365,
+              "endTime": 63839,
+              "sentence_id": 13,
+              "word": "草本"
+            },
+            {
+              "beginTime": 63839,
+              "endTime": 64076,
+              "sentence_id": 13,
+              "word": "的"
+            },
+            {
+              "beginTime": 64076,
+              "endTime": 64550,
+              "sentence_id": 13,
+              "word": "这个"
+            },
+            {
+              "beginTime": 64550,
+              "endTime": 65024,
+              "sentence_id": 13,
+              "word": "板块"
+            },
+            {
+              "beginTime": 65024,
+              "endTime": 65261,
+              "sentence_id": 13,
+              "word": "来。"
+            },
+            {
+              "beginTime": 65610,
+              "endTime": 65801,
+              "sentence_id": 14,
+              "word": "你"
+            },
+            {
+              "beginTime": 65801,
+              "endTime": 66183,
+              "sentence_id": 14,
+              "word": "这个"
+            },
+            {
+              "beginTime": 66183,
+              "endTime": 66565,
+              "sentence_id": 14,
+              "word": "东西"
+            },
+            {
+              "beginTime": 66565,
+              "endTime": 67138,
+              "sentence_id": 14,
+              "word": "怎么说"
+            },
+            {
+              "beginTime": 67138,
+              "endTime": 67520,
+              "sentence_id": 14,
+              "word": "还是"
+            },
+            {
+              "beginTime": 67520,
+              "endTime": 67902,
+              "sentence_id": 14,
+              "word": "有点"
+            },
+            {
+              "beginTime": 67902,
+              "endTime": 68284,
+              "sentence_id": 14,
+              "word": "机会"
+            },
+            {
+              "beginTime": 68284,
+              "endTime": 68475,
+              "sentence_id": 14,
+              "word": "的。"
+            },
+            {
+              "beginTime": 68560,
+              "endTime": 69080,
+              "sentence_id": 15,
+              "word": "我。"
+            }
+          ]
+        },
+        {
+          "beginTime": 69080,
+          "endTime": 71160,
+          "has_verify": true,
+          "id": 3,
+          "paragraph_id": "1759911254312500000",
+          "remark_type": 0,
+          "sentence_id": 16,
+          "text": "认为现在。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "8f7d3a62b18354de05977ee4970e2405",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 69080,
+              "endTime": 70120,
+              "sentence_id": 16,
+              "word": "认为"
+            },
+            {
+              "beginTime": 70120,
+              "endTime": 71160,
+              "sentence_id": 16,
+              "word": "现在。"
+            }
+          ]
+        },
+        {
+          "beginTime": 71160,
+          "endTime": 75320,
+          "has_verify": true,
+          "id": 4,
+          "paragraph_id": "1759911256392500000",
+          "remark_type": 0,
+          "sentence_id": 17,
+          "text": "就是这个考虑方向。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "2f91cf48a3f7fb8613f1dafd4e8a8356",
+          "userId": "2",
+          "userName": "发言人2",
+          "words": [
+            {
+              "beginTime": 71160,
+              "endTime": 72200,
+              "sentence_id": 17,
+              "word": "就是"
+            },
+            {
+              "beginTime": 72200,
+              "endTime": 73240,
+              "sentence_id": 17,
+              "word": "这个"
+            },
+            {
+              "beginTime": 73240,
+              "endTime": 74280,
+              "sentence_id": 17,
+              "word": "考虑"
+            },
+            {
+              "beginTime": 74280,
+              "endTime": 75320,
+              "sentence_id": 17,
+              "word": "方向。"
+            }
+          ]
+        },
+        {
+          "beginTime": 77890,
+          "endTime": 85036,
+          "has_verify": true,
+          "id": 5,
+          "paragraph_id": "1759911263122500000",
+          "remark_type": 0,
+          "sentence_id": 18,
+          "text": "也蛮不错的。那个谁小齐现在是在广州还是在在广西呢？",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "0095c420a8e330f4bc4426d1465327aa",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 77890,
+              "endTime": 78064,
+              "sentence_id": 18,
+              "word": "也"
+            },
+            {
+              "beginTime": 78064,
+              "endTime": 78238,
+              "sentence_id": 18,
+              "word": "蛮"
+            },
+            {
+              "beginTime": 78238,
+              "endTime": 78586,
+              "sentence_id": 18,
+              "word": "不错"
+            },
+            {
+              "beginTime": 78586,
+              "endTime": 78760,
+              "sentence_id": 18,
+              "word": "的。"
+            },
+            {
+              "beginTime": 80050,
+              "endTime": 80881,
+              "sentence_id": 19,
+              "word": "那个谁"
+            },
+            {
+              "beginTime": 80881,
+              "endTime": 81435,
+              "sentence_id": 19,
+              "word": "小齐"
+            },
+            {
+              "beginTime": 81435,
+              "endTime": 81989,
+              "sentence_id": 19,
+              "word": "现在"
+            },
+            {
+              "beginTime": 81989,
+              "endTime": 82543,
+              "sentence_id": 19,
+              "word": "是在"
+            },
+            {
+              "beginTime": 82543,
+              "endTime": 83097,
+              "sentence_id": 19,
+              "word": "广州"
+            },
+            {
+              "beginTime": 83097,
+              "endTime": 83651,
+              "sentence_id": 19,
+              "word": "还是"
+            },
+            {
+              "beginTime": 83651,
+              "endTime": 84205,
+              "sentence_id": 19,
+              "word": "在在"
+            },
+            {
+              "beginTime": 84205,
+              "endTime": 84759,
+              "sentence_id": 19,
+              "word": "广西"
+            },
+            {
+              "beginTime": 84759,
+              "endTime": 85036,
+              "sentence_id": 19,
+              "word": "呢？"
+            }
+          ]
+        },
+        {
+          "beginTime": 85630,
+          "endTime": 86218,
+          "has_verify": true,
+          "id": 6,
+          "paragraph_id": "1759911270862500000",
+          "remark_type": 0,
+          "sentence_id": 20,
+          "text": "他在广州。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "1ba9af2891a66f59c483f29256e39e63",
+          "userId": "2",
+          "userName": "发言人2",
+          "words": [
+            {
+              "beginTime": 85630,
+              "endTime": 85924,
+              "sentence_id": 20,
+              "word": "他在"
+            },
+            {
+              "beginTime": 85924,
+              "endTime": 86218,
+              "sentence_id": 20,
+              "word": "广州。"
+            }
+          ]
+        },
+        {
+          "beginTime": 86990,
+          "endTime": 91530,
+          "has_verify": true,
+          "id": 7,
+          "paragraph_id": "1759911272222500000",
+          "remark_type": 0,
+          "sentence_id": 21,
+          "text": "在广州。对，哦哦哦你在广州这边又弄厂了。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "279f62064d2397eccebd0a5e81f36160",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 86990,
+              "endTime": 87186,
+              "sentence_id": 21,
+              "word": "在"
+            },
+            {
+              "beginTime": 87186,
+              "endTime": 87578,
+              "sentence_id": 21,
+              "word": "广州。"
+            },
+            {
+              "beginTime": 88050,
+              "endTime": 88230,
+              "sentence_id": 22,
+              "word": "对，"
+            },
+            {
+              "beginTime": 88930,
+              "endTime": 89530,
+              "sentence_id": 22,
+              "word": "哦哦哦"
+            },
+            {
+              "beginTime": 89530,
+              "endTime": 89730,
+              "sentence_id": 22,
+              "word": "你"
+            },
+            {
+              "beginTime": 89730,
+              "endTime": 89930,
+              "sentence_id": 22,
+              "word": "在"
+            },
+            {
+              "beginTime": 89930,
+              "endTime": 90330,
+              "sentence_id": 22,
+              "word": "广州"
+            },
+            {
+              "beginTime": 90330,
+              "endTime": 90730,
+              "sentence_id": 22,
+              "word": "这边"
+            },
+            {
+              "beginTime": 90730,
+              "endTime": 90930,
+              "sentence_id": 22,
+              "word": "又"
+            },
+            {
+              "beginTime": 90930,
+              "endTime": 91130,
+              "sentence_id": 22,
+              "word": "弄"
+            },
+            {
+              "beginTime": 91130,
+              "endTime": 91330,
+              "sentence_id": 22,
+              "word": "厂"
+            },
+            {
+              "beginTime": 91330,
+              "endTime": 91530,
+              "sentence_id": 22,
+              "word": "了。"
+            }
+          ]
+        },
+        {
+          "beginTime": 92320,
+          "endTime": 112270,
+          "has_verify": true,
+          "id": 8,
+          "paragraph_id": "1759911277552500000",
+          "remark_type": 0,
+          "sentence_id": 23,
+          "text": "这厂不想搞了，没有意义。我就不想搞搞厂了，我想可能还是做草本这个板块，做把这一块摸索一下，想办法找点出路，在这个领域不要去搞工厂，搞工厂没有意义的。就像你之前说的，你不是当时也建议我不要搞工厂吗？",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "780cd6a13c2e2386a458b25d8d7f71a1",
+          "userId": "3",
+          "userName": "发言人3",
+          "words": [
+            {
+              "beginTime": 92320,
+              "endTime": 92506,
+              "sentence_id": 23,
+              "word": "这"
+            },
+            {
+              "beginTime": 92506,
+              "endTime": 92692,
+              "sentence_id": 23,
+              "word": "厂"
+            },
+            {
+              "beginTime": 92692,
+              "endTime": 93064,
+              "sentence_id": 23,
+              "word": "不想"
+            },
+            {
+              "beginTime": 93064,
+              "endTime": 93250,
+              "sentence_id": 23,
+              "word": "搞"
+            },
+            {
+              "beginTime": 93250,
+              "endTime": 93436,
+              "sentence_id": 23,
+              "word": "了，"
+            },
+            {
+              "beginTime": 93440,
+              "endTime": 93834,
+              "sentence_id": 23,
+              "word": "没有"
+            },
+            {
+              "beginTime": 93834,
+              "endTime": 94228,
+              "sentence_id": 23,
+              "word": "意义。"
+            },
+            {
+              "beginTime": 94230,
+              "endTime": 94426,
+              "sentence_id": 24,
+              "word": "我"
+            },
+            {
+              "beginTime": 94426,
+              "endTime": 94622,
+              "sentence_id": 24,
+              "word": "就"
+            },
+            {
+              "beginTime": 94622,
+              "endTime": 95014,
+              "sentence_id": 24,
+              "word": "不想"
+            },
+            {
+              "beginTime": 95014,
+              "endTime": 95406,
+              "sentence_id": 24,
+              "word": "搞搞"
+            },
+            {
+              "beginTime": 95406,
+              "endTime": 95602,
+              "sentence_id": 24,
+              "word": "厂"
+            },
+            {
+              "beginTime": 95602,
+              "endTime": 95798,
+              "sentence_id": 24,
+              "word": "了，"
+            },
+            {
+              "beginTime": 95800,
+              "endTime": 96428,
+              "sentence_id": 24,
+              "word": "我想"
+            },
+            {
+              "beginTime": 96428,
+              "endTime": 97056,
+              "sentence_id": 24,
+              "word": "可能"
+            },
+            {
+              "beginTime": 97056,
+              "endTime": 97684,
+              "sentence_id": 24,
+              "word": "还是"
+            },
+            {
+              "beginTime": 97684,
+              "endTime": 97998,
+              "sentence_id": 24,
+              "word": "做"
+            },
+            {
+              "beginTime": 97998,
+              "endTime": 98626,
+              "sentence_id": 24,
+              "word": "草本"
+            },
+            {
+              "beginTime": 98626,
+              "endTime": 99254,
+              "sentence_id": 24,
+              "word": "这个"
+            },
+            {
+              "beginTime": 99254,
+              "endTime": 99882,
+              "sentence_id": 24,
+              "word": "板块，"
+            },
+            {
+              "beginTime": 100210,
+              "endTime": 100573,
+              "sentence_id": 24,
+              "word": "做"
+            },
+            {
+              "beginTime": 100573,
+              "endTime": 100936,
+              "sentence_id": 24,
+              "word": "把"
+            },
+            {
+              "beginTime": 100936,
+              "endTime": 101299,
+              "sentence_id": 24,
+              "word": "这"
+            },
+            {
+              "beginTime": 101299,
+              "endTime": 102025,
+              "sentence_id": 24,
+              "word": "一块"
+            },
+            {
+              "beginTime": 102025,
+              "endTime": 102751,
+              "sentence_id": 24,
+              "word": "摸索"
+            },
+            {
+              "beginTime": 102751,
+              "endTime": 103477,
+              "sentence_id": 24,
+              "word": "一下，"
+            },
+            {
+              "beginTime": 103630,
+              "endTime": 104146,
+              "sentence_id": 24,
+              "word": "想办法"
+            },
+            {
+              "beginTime": 104146,
+              "endTime": 104318,
+              "sentence_id": 24,
+              "word": "找"
+            },
+            {
+              "beginTime": 104318,
+              "endTime": 104490,
+              "sentence_id": 24,
+              "word": "点"
+            },
+            {
+              "beginTime": 104490,
+              "endTime": 104834,
+              "sentence_id": 24,
+              "word": "出路，"
+            },
+            {
+              "beginTime": 104840,
+              "endTime": 105056,
+              "sentence_id": 24,
+              "word": "在"
+            },
+            {
+              "beginTime": 105056,
+              "endTime": 105488,
+              "sentence_id": 24,
+              "word": "这个"
+            },
+            {
+              "beginTime": 105488,
+              "endTime": 105920,
+              "sentence_id": 24,
+              "word": "领域"
+            },
+            {
+              "beginTime": 105920,
+              "endTime": 106352,
+              "sentence_id": 24,
+              "word": "不要"
+            },
+            {
+              "beginTime": 106352,
+              "endTime": 106568,
+              "sentence_id": 24,
+              "word": "去"
+            },
+            {
+              "beginTime": 106568,
+              "endTime": 106784,
+              "sentence_id": 24,
+              "word": "搞"
+            },
+            {
+              "beginTime": 106784,
+              "endTime": 107216,
+              "sentence_id": 24,
+              "word": "工厂，"
+            },
+            {
+              "beginTime": 107220,
+              "endTime": 107335,
+              "sentence_id": 24,
+              "word": "搞"
+            },
+            {
+              "beginTime": 107335,
+              "endTime": 107565,
+              "sentence_id": 24,
+              "word": "工厂"
+            },
+            {
+              "beginTime": 107565,
+              "endTime": 107795,
+              "sentence_id": 24,
+              "word": "没有"
+            },
+            {
+              "beginTime": 107795,
+              "endTime": 108025,
+              "sentence_id": 24,
+              "word": "意义"
+            },
+            {
+              "beginTime": 108025,
+              "endTime": 108140,
+              "sentence_id": 24,
+              "word": "的。"
+            },
+            {
+              "beginTime": 108140,
+              "endTime": 108315,
+              "sentence_id": 25,
+              "word": "就"
+            },
+            {
+              "beginTime": 108315,
+              "endTime": 108665,
+              "sentence_id": 25,
+              "word": "像你"
+            },
+            {
+              "beginTime": 108665,
+              "endTime": 109015,
+              "sentence_id": 25,
+              "word": "之前"
+            },
+            {
+              "beginTime": 109015,
+              "endTime": 109190,
+              "sentence_id": 25,
+              "word": "说"
+            },
+            {
+              "beginTime": 109190,
+              "endTime": 109365,
+              "sentence_id": 25,
+              "word": "的，"
+            },
+            {
+              "beginTime": 109900,
+              "endTime": 110058,
+              "sentence_id": 25,
+              "word": "你"
+            },
+            {
+              "beginTime": 110058,
+              "endTime": 110374,
+              "sentence_id": 25,
+              "word": "不是"
+            },
+            {
+              "beginTime": 110374,
+              "endTime": 110690,
+              "sentence_id": 25,
+              "word": "当时"
+            },
+            {
+              "beginTime": 110690,
+              "endTime": 110848,
+              "sentence_id": 25,
+              "word": "也"
+            },
+            {
+              "beginTime": 110848,
+              "endTime": 111164,
+              "sentence_id": 25,
+              "word": "建议"
+            },
+            {
+              "beginTime": 111164,
+              "endTime": 111638,
+              "sentence_id": 25,
+              "word": "我不要"
+            },
+            {
+              "beginTime": 111638,
+              "endTime": 111796,
+              "sentence_id": 25,
+              "word": "搞"
+            },
+            {
+              "beginTime": 111796,
+              "endTime": 112112,
+              "sentence_id": 25,
+              "word": "工厂"
+            },
+            {
+              "beginTime": 112112,
+              "endTime": 112270,
+              "sentence_id": 25,
+              "word": "吗？"
+            }
+          ]
+        },
+        {
+          "beginTime": 113610,
+          "endTime": 115176,
+          "has_verify": true,
+          "id": 9,
+          "paragraph_id": "1759911298842500000",
+          "remark_type": 0,
+          "sentence_id": 26,
+          "text": "但是你没听我的建议。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "df7c36c42e27dd3a86dd16c4db12d830",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 113610,
+              "endTime": 113958,
+              "sentence_id": 26,
+              "word": "但是"
+            },
+            {
+              "beginTime": 113958,
+              "endTime": 114132,
+              "sentence_id": 26,
+              "word": "你"
+            },
+            {
+              "beginTime": 114132,
+              "endTime": 114306,
+              "sentence_id": 26,
+              "word": "没"
+            },
+            {
+              "beginTime": 114306,
+              "endTime": 114654,
+              "sentence_id": 26,
+              "word": "听我"
+            },
+            {
+              "beginTime": 114654,
+              "endTime": 114828,
+              "sentence_id": 26,
+              "word": "的"
+            },
+            {
+              "beginTime": 114828,
+              "endTime": 115176,
+              "sentence_id": 26,
+              "word": "建议。"
+            }
+          ]
+        },
+        {
+          "beginTime": 117180,
+          "endTime": 118770,
+          "has_verify": true,
+          "id": 10,
+          "paragraph_id": "1759911302412500000",
+          "remark_type": 0,
+          "sentence_id": 27,
+          "text": "那个不说了。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "cadd975c906a76b5c35098d6c22a8bb6",
+          "userId": "3",
+          "userName": "发言人3",
+          "words": [
+            {
+              "beginTime": 117180,
+              "endTime": 117816,
+              "sentence_id": 27,
+              "word": "那个"
+            },
+            {
+              "beginTime": 117816,
+              "endTime": 118452,
+              "sentence_id": 27,
+              "word": "不说"
+            },
+            {
+              "beginTime": 118452,
+              "endTime": 118770,
+              "sentence_id": 27,
+              "word": "了。"
+            }
+          ]
+        },
+        {
+          "beginTime": 121280,
+          "endTime": 127129,
+          "has_verify": true,
+          "id": 11,
+          "paragraph_id": "1759911306512500000",
+          "remark_type": 0,
+          "sentence_id": 28,
+          "text": "也行呗，行呗。那那你要有兴趣的话，我回头我我我问一下那个老板。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "68214bd312fbc26604f9b796f3bb9269",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 121280,
+              "endTime": 121503,
+              "sentence_id": 28,
+              "word": "也"
+            },
+            {
+              "beginTime": 121503,
+              "endTime": 121726,
+              "sentence_id": 28,
+              "word": "行"
+            },
+            {
+              "beginTime": 121726,
+              "endTime": 121949,
+              "sentence_id": 28,
+              "word": "呗，"
+            },
+            {
+              "beginTime": 121950,
+              "endTime": 122220,
+              "sentence_id": 28,
+              "word": "行"
+            },
+            {
+              "beginTime": 122220,
+              "endTime": 122490,
+              "sentence_id": 28,
+              "word": "呗。"
+            },
+            {
+              "beginTime": 122660,
+              "endTime": 123066,
+              "sentence_id": 29,
+              "word": "那那"
+            },
+            {
+              "beginTime": 123066,
+              "endTime": 123269,
+              "sentence_id": 29,
+              "word": "你"
+            },
+            {
+              "beginTime": 123269,
+              "endTime": 123675,
+              "sentence_id": 29,
+              "word": "要有"
+            },
+            {
+              "beginTime": 123675,
+              "endTime": 124081,
+              "sentence_id": 29,
+              "word": "兴趣"
+            },
+            {
+              "beginTime": 124081,
+              "endTime": 124487,
+              "sentence_id": 29,
+              "word": "的话，"
+            },
+            {
+              "beginTime": 124490,
+              "endTime": 124693,
+              "sentence_id": 29,
+              "word": "我"
+            },
+            {
+              "beginTime": 124693,
+              "endTime": 125099,
+              "sentence_id": 29,
+              "word": "回头"
+            },
+            {
+              "beginTime": 125099,
+              "endTime": 125708,
+              "sentence_id": 29,
+              "word": "我我我"
+            },
+            {
+              "beginTime": 125708,
+              "endTime": 125911,
+              "sentence_id": 29,
+              "word": "问"
+            },
+            {
+              "beginTime": 125911,
+              "endTime": 126317,
+              "sentence_id": 29,
+              "word": "一下"
+            },
+            {
+              "beginTime": 126317,
+              "endTime": 126723,
+              "sentence_id": 29,
+              "word": "那个"
+            },
+            {
+              "beginTime": 126723,
+              "endTime": 127129,
+              "sentence_id": 29,
+              "word": "老板。"
+            }
+          ]
+        },
+        {
+          "beginTime": 127610,
+          "endTime": 127870,
+          "has_verify": true,
+          "id": 12,
+          "paragraph_id": "1759911312842500000",
+          "remark_type": 0,
+          "sentence_id": 30,
+          "text": "可以。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "75aacc14e3a6e8be83fa2607bb42ed92",
+          "userId": "2",
+          "userName": "发言人2",
+          "words": [
+            {
+              "beginTime": 127610,
+              "endTime": 127870,
+              "sentence_id": 30,
+              "word": "可以。"
+            }
+          ]
+        },
+        {
+          "beginTime": 127970,
+          "endTime": 144680,
+          "has_verify": true,
+          "id": 13,
+          "paragraph_id": "1759911313202500000",
+          "remark_type": 0,
+          "sentence_id": 31,
+          "text": "约个时间一起聊聊。来问一下，问一下。如果他要有兴趣的话，我就给你们牵个线儿，你们老板之间去聊去，我就纯粹热心肠。好啊，行呗，然后也给家里人问个好啊，这过几天出去溜达一下。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "24c63becd32c4628a92d44d5e5c91873",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 127970,
+              "endTime": 128120,
+              "sentence_id": 31,
+              "word": "约"
+            },
+            {
+              "beginTime": 128120,
+              "endTime": 128270,
+              "sentence_id": 31,
+              "word": "个"
+            },
+            {
+              "beginTime": 128270,
+              "endTime": 128570,
+              "sentence_id": 31,
+              "word": "时间"
+            },
+            {
+              "beginTime": 128570,
+              "endTime": 128870,
+              "sentence_id": 31,
+              "word": "一起"
+            },
+            {
+              "beginTime": 128870,
+              "endTime": 129170,
+              "sentence_id": 31,
+              "word": "聊聊。"
+            },
+            {
+              "beginTime": 129170,
+              "endTime": 129337,
+              "sentence_id": 32,
+              "word": "来"
+            },
+            {
+              "beginTime": 129337,
+              "endTime": 129504,
+              "sentence_id": 32,
+              "word": "问"
+            },
+            {
+              "beginTime": 129504,
+              "endTime": 129838,
+              "sentence_id": 32,
+              "word": "一下，"
+            },
+            {
+              "beginTime": 129840,
+              "endTime": 129976,
+              "sentence_id": 32,
+              "word": "问"
+            },
+            {
+              "beginTime": 129976,
+              "endTime": 130248,
+              "sentence_id": 32,
+              "word": "一下。"
+            },
+            {
+              "beginTime": 130250,
+              "endTime": 130560,
+              "sentence_id": 33,
+              "word": "如果"
+            },
+            {
+              "beginTime": 130560,
+              "endTime": 130715,
+              "sentence_id": 33,
+              "word": "他"
+            },
+            {
+              "beginTime": 130715,
+              "endTime": 131025,
+              "sentence_id": 33,
+              "word": "要有"
+            },
+            {
+              "beginTime": 131025,
+              "endTime": 131335,
+              "sentence_id": 33,
+              "word": "兴趣"
+            },
+            {
+              "beginTime": 131335,
+              "endTime": 131645,
+              "sentence_id": 33,
+              "word": "的话，"
+            },
+            {
+              "beginTime": 131650,
+              "endTime": 131772,
+              "sentence_id": 33,
+              "word": "我"
+            },
+            {
+              "beginTime": 131772,
+              "endTime": 131894,
+              "sentence_id": 33,
+              "word": "就"
+            },
+            {
+              "beginTime": 131894,
+              "endTime": 132260,
+              "sentence_id": 33,
+              "word": "给你们"
+            },
+            {
+              "beginTime": 132260,
+              "endTime": 132382,
+              "sentence_id": 33,
+              "word": "牵"
+            },
+            {
+              "beginTime": 132382,
+              "endTime": 132504,
+              "sentence_id": 33,
+              "word": "个"
+            },
+            {
+              "beginTime": 132504,
+              "endTime": 132748,
+              "sentence_id": 33,
+              "word": "线儿，"
+            },
+            {
+              "beginTime": 132750,
+              "endTime": 133144,
+              "sentence_id": 33,
+              "word": "你们"
+            },
+            {
+              "beginTime": 133144,
+              "endTime": 133538,
+              "sentence_id": 33,
+              "word": "老板"
+            },
+            {
+              "beginTime": 133538,
+              "endTime": 133932,
+              "sentence_id": 33,
+              "word": "之间"
+            },
+            {
+              "beginTime": 133932,
+              "endTime": 134129,
+              "sentence_id": 33,
+              "word": "去"
+            },
+            {
+              "beginTime": 134129,
+              "endTime": 134326,
+              "sentence_id": 33,
+              "word": "聊"
+            },
+            {
+              "beginTime": 134326,
+              "endTime": 134523,
+              "sentence_id": 33,
+              "word": "去，"
+            },
+            {
+              "beginTime": 134800,
+              "endTime": 135158,
+              "sentence_id": 33,
+              "word": "我"
+            },
+            {
+              "beginTime": 135158,
+              "endTime": 135516,
+              "sentence_id": 33,
+              "word": "就"
+            },
+            {
+              "beginTime": 135516,
+              "endTime": 136232,
+              "sentence_id": 33,
+              "word": "纯粹"
+            },
+            {
+              "beginTime": 136232,
+              "endTime": 137306,
+              "sentence_id": 33,
+              "word": "热心肠。"
+            },
+            {
+              "beginTime": 138840,
+              "endTime": 140090,
+              "sentence_id": 34,
+              "word": "好啊，"
+            },
+            {
+              "beginTime": 140330,
+              "endTime": 140550,
+              "sentence_id": 34,
+              "word": "行"
+            },
+            {
+              "beginTime": 140550,
+              "endTime": 140770,
+              "sentence_id": 34,
+              "word": "呗，"
+            },
+            {
+              "beginTime": 140770,
+              "endTime": 141138,
+              "sentence_id": 34,
+              "word": "然后"
+            },
+            {
+              "beginTime": 141138,
+              "endTime": 141322,
+              "sentence_id": 34,
+              "word": "也"
+            },
+            {
+              "beginTime": 141322,
+              "endTime": 141506,
+              "sentence_id": 34,
+              "word": "给"
+            },
+            {
+              "beginTime": 141506,
+              "endTime": 142058,
+              "sentence_id": 34,
+              "word": "家里人"
+            },
+            {
+              "beginTime": 142058,
+              "endTime": 142242,
+              "sentence_id": 34,
+              "word": "问"
+            },
+            {
+              "beginTime": 142242,
+              "endTime": 142426,
+              "sentence_id": 34,
+              "word": "个"
+            },
+            {
+              "beginTime": 142426,
+              "endTime": 142794,
+              "sentence_id": 34,
+              "word": "好啊，"
+            },
+            {
+              "beginTime": 142800,
+              "endTime": 142988,
+              "sentence_id": 34,
+              "word": "这"
+            },
+            {
+              "beginTime": 142988,
+              "endTime": 143176,
+              "sentence_id": 34,
+              "word": "过"
+            },
+            {
+              "beginTime": 143176,
+              "endTime": 143552,
+              "sentence_id": 34,
+              "word": "几天"
+            },
+            {
+              "beginTime": 143552,
+              "endTime": 143928,
+              "sentence_id": 34,
+              "word": "出去"
+            },
+            {
+              "beginTime": 143928,
+              "endTime": 144304,
+              "sentence_id": 34,
+              "word": "溜达"
+            },
+            {
+              "beginTime": 144304,
+              "endTime": 144680,
+              "sentence_id": 34,
+              "word": "一下。"
+            }
+          ]
+        },
+        {
+          "beginTime": 145180,
+          "endTime": 149270,
+          "has_verify": true,
+          "id": 14,
+          "paragraph_id": "1759911330412500000",
+          "remark_type": 0,
+          "sentence_id": 35,
+          "text": "谢好，好啊，溜达。现在才回来。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "bc3b36af16d8d5f0c2f09db0edb351b0",
+          "userId": "2",
+          "userName": "发言人2",
+          "words": [
+            {
+              "beginTime": 145180,
+              "endTime": 145870,
+              "sentence_id": 35,
+              "word": "谢好，"
+            },
+            {
+              "beginTime": 146050,
+              "endTime": 146630,
+              "sentence_id": 35,
+              "word": "好啊，"
+            },
+            {
+              "beginTime": 147090,
+              "endTime": 147490,
+              "sentence_id": 35,
+              "word": "溜达。"
+            },
+            {
+              "beginTime": 147820,
+              "endTime": 148400,
+              "sentence_id": 36,
+              "word": "现在"
+            },
+            {
+              "beginTime": 148400,
+              "endTime": 148690,
+              "sentence_id": 36,
+              "word": "才"
+            },
+            {
+              "beginTime": 148690,
+              "endTime": 149270,
+              "sentence_id": 36,
+              "word": "回来。"
+            }
+          ]
+        },
+        {
+          "beginTime": 150100,
+          "endTime": 160370,
+          "has_verify": true,
+          "id": 15,
+          "paragraph_id": "1759911335332500000",
+          "remark_type": 0,
+          "sentence_id": 37,
+          "text": "行呗，那就不多聊了。我回头我我我问一下那个老板，如果他要有兴趣的话，我就给你们牵个线儿。好好好OK好好，拜拜，好，拜拜。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "e4eac71137538e90a9e2fd025eb61cba",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 150100,
+              "endTime": 150365,
+              "sentence_id": 37,
+              "word": "行"
+            },
+            {
+              "beginTime": 150365,
+              "endTime": 150630,
+              "sentence_id": 37,
+              "word": "呗，"
+            },
+            {
+              "beginTime": 150990,
+              "endTime": 151282,
+              "sentence_id": 37,
+              "word": "那就"
+            },
+            {
+              "beginTime": 151282,
+              "endTime": 151574,
+              "sentence_id": 37,
+              "word": "不多"
+            },
+            {
+              "beginTime": 151574,
+              "endTime": 151720,
+              "sentence_id": 37,
+              "word": "聊"
+            },
+            {
+              "beginTime": 151720,
+              "endTime": 151866,
+              "sentence_id": 37,
+              "word": "了。"
+            },
+            {
+              "beginTime": 151870,
+              "endTime": 152020,
+              "sentence_id": 38,
+              "word": "我"
+            },
+            {
+              "beginTime": 152020,
+              "endTime": 152320,
+              "sentence_id": 38,
+              "word": "回头"
+            },
+            {
+              "beginTime": 152320,
+              "endTime": 152770,
+              "sentence_id": 38,
+              "word": "我我我"
+            },
+            {
+              "beginTime": 152770,
+              "endTime": 152920,
+              "sentence_id": 38,
+              "word": "问"
+            },
+            {
+              "beginTime": 152920,
+              "endTime": 153220,
+              "sentence_id": 38,
+              "word": "一下"
+            },
+            {
+              "beginTime": 153220,
+              "endTime": 153520,
+              "sentence_id": 38,
+              "word": "那个"
+            },
+            {
+              "beginTime": 153520,
+              "endTime": 153820,
+              "sentence_id": 38,
+              "word": "老板，"
+            },
+            {
+              "beginTime": 153830,
+              "endTime": 154098,
+              "sentence_id": 38,
+              "word": "如果"
+            },
+            {
+              "beginTime": 154098,
+              "endTime": 154232,
+              "sentence_id": 38,
+              "word": "他"
+            },
+            {
+              "beginTime": 154232,
+              "endTime": 154500,
+              "sentence_id": 38,
+              "word": "要有"
+            },
+            {
+              "beginTime": 154500,
+              "endTime": 154768,
+              "sentence_id": 38,
+              "word": "兴趣"
+            },
+            {
+              "beginTime": 154768,
+              "endTime": 155036,
+              "sentence_id": 38,
+              "word": "的话，"
+            },
+            {
+              "beginTime": 155470,
+              "endTime": 155575,
+              "sentence_id": 38,
+              "word": "我"
+            },
+            {
+              "beginTime": 155575,
+              "endTime": 155680,
+              "sentence_id": 38,
+              "word": "就"
+            },
+            {
+              "beginTime": 155680,
+              "endTime": 155995,
+              "sentence_id": 38,
+              "word": "给你们"
+            },
+            {
+              "beginTime": 155995,
+              "endTime": 156100,
+              "sentence_id": 38,
+              "word": "牵"
+            },
+            {
+              "beginTime": 156100,
+              "endTime": 156205,
+              "sentence_id": 38,
+              "word": "个"
+            },
+            {
+              "beginTime": 156205,
+              "endTime": 156415,
+              "sentence_id": 38,
+              "word": "线儿。"
+            },
+            {
+              "beginTime": 156780,
+              "endTime": 157866,
+              "sentence_id": 39,
+              "word": "好好好"
+            },
+            {
+              "beginTime": 157866,
+              "endTime": 158228,
+              "sentence_id": 39,
+              "word": "O"
+            },
+            {
+              "beginTime": 158228,
+              "endTime": 158590,
+              "sentence_id": 39,
+              "word": "K"
+            },
+            {
+              "beginTime": 158590,
+              "endTime": 159314,
+              "sentence_id": 39,
+              "word": "好好，"
+            },
+            {
+              "beginTime": 159320,
+              "endTime": 159650,
+              "sentence_id": 39,
+              "word": "拜拜，"
+            },
+            {
+              "beginTime": 159870,
+              "endTime": 160060,
+              "sentence_id": 39,
+              "word": "好，"
+            },
+            {
+              "beginTime": 160060,
+              "endTime": 160370,
+              "sentence_id": 39,
+              "word": "拜拜。"
+            }
+          ]
+        }
+      ],
+      "data_status": 1,
+      "key_word": [],
+      "key_word_status": 0,
+      "abstract": "",
+      "abstract_status": 0,
+      "ai_abstract": "",
+      "ai_abstract_status": 0,
+      "part": [
+        {
+          "id": 1,
+          "start": 30,
+          "end": 160370,
+          "title": "草本饮料与非物质文化遗产结合的商业探讨",
+          "screen_short_img": "",
+          "abstract": "对话围绕草本饮料的市场潜力和非物质文化遗产的结合展开，提出放弃传统工厂模式，转而探索草本板块的商业机会，提议通过牵线搭桥促进相关合作。",
+          "start_time": "00:00"
+        }
+      ],
+      "part_status": 1,
+      "review": [
+        {
+          "answer": "现在让团队去做传统部分的工作，我个人对to b的餐饮原料这块没太大兴趣，重心还是放在草本板块。",
+          "id": [
+            2
+          ],
+          "question": "我们现在对于传统那部分的工作是如何安排的？"
+        },
+        {
+          "answer": "他在广州。",
+          "id": [
+            5
+          ],
+          "question": "小齐现在在广州还是广西？"
+        },
+        {
+          "answer": "不，不想再搞工厂了，认为没有意义。更倾向于在草本领域寻找出路，不建议通过开设工厂来发展业务。",
+          "id": [
+            6
+          ],
+          "question": "你是否还在广州那边考虑开办工厂？"
+        },
+        {
+          "answer": "如果对方有兴趣，可以约个时间一起聊聊，并且我愿意充当热心肠的角色，牵线搭桥让你们的老板之间进行沟通。",
+          "id": [
+            11
+          ],
+          "question": "是否有兴趣与某个老板讨论合作事宜？"
+        }
+      ],
+      "review_status": 1,
+      "summary": [],
+      "summary_status": 3,
+      "example_qa": "[\"润之美和润馨堂目前的经营情况如何？\",\"为什么不想搞工厂而想专注草本板块？\",\"如果老板有兴趣，后续会有怎样的安排？ \"]",
+      "file_md_5": "",
+      "handler_time": 57,
+      "progress_speed": 0,
+      "remark": [],
+      "embedding_status": 1,
+      "status": 4,
+      "delete_status": 0,
+      "language": 0,
+      "trans_type": 1,
+      "chat_num": 4,
+      "message": "ok",
+      "scene_id": 1,
+      "source_type": 0,
+      "share_status": 1,
+      "team_id": "",
+      "folder_id": 0,
+      "source_channel": 8,
+      "official": 0,
+      "screen_video": "",
+      "screen_audio": "",
+      "update_time": "2025-10-08 16:36:44",
+      "create_time": "2025-10-08 16:12:50",
+      "prepare_status": 0,
+      "is_free_type": 0,
+      "offline_tag": 0,
+      "retry_num": 0,
+      "is_temp": 0,
+      "platform": 0,
+      "is_knowledge": 0,
+      "last_view_at": "2025-10-22 09:50:17",
+      "last_edit_at": "",
+      "is_recording": 0,
+      "pagination": null,
+      "word_count": 668,
+      "secen_title": "通用记录",
+      "is_view": 1,
+      "download_url": "https://tingnao.oss-cn-hangzhou.aliyuncs.com/tmp%2F029ba81c6547-4da3-a396-6b981ed225ac.m4a?Expires=1781673791&OSSAccessKeyId=LTAI5t5Z88vjuh8XYhakB9Y8&Signature=19Ax9zyLoJsu1JH%2FcxmC0tHlSbc%3D&response-content-disposition=attachment%3Bfilename%3D%E5%88%98%E9%95%BF%E8%83%9C%40136%200281%205868_20251008160644.m4a",
+      "tran_status": {},
+      "meeting_summary": "## 📌基本信息\n- **主题**:润之美草本饮料合作沟通\n- **时间**:2025年4月12日 15:28:56\n- **沟通人员**:小齐、未提及姓名人员\n\n本次沟通围绕**润之美草本饮料**项目展开，涉及**润馨堂**品牌、**非物质化遗产**资质及**凉茶**产品的合作可能性。对方企业老板提出合作意向，沟通方表示当前重心已转向**草本板块**，认为该领域存在机会，并计划通过小齐牵线与对方老板进一步洽谈，同时明确表达了**不搞工厂**、专注草本板块摸索出路的思路。\n\n---\n\n## 📝沟通内容\n### 合作背景与契机\n- 双方从饮料推销话题切入，提及**润之美**品牌和**凉茶**产品，进而谈到沟通方拥有的**润馨堂**品牌及**非物质化遗产**资质\n- 对方企业老板询问上述品牌和资质相关业务是否仍在开展，在得知“没怎么做了”后，提出**讨论合作开展**的可能性\n\n---\n\n### 业务现状与重心调整\n- 沟通方现状说明：\n  - 传统业务板块已安排他人负责\n  - 此前针对**to b餐饮原料**的业务也交由他人处理，本人对此领域**无太大兴趣**\n- 当前明确**重心转向草本板块**，认为该领域“还是有点机会”，且“考虑方向蛮不错”\n\n---\n\n### 合作相关人员与资源\n- **小齐**目前在**广州**\n- 沟通方曾在广州设有工厂，但表示“厂不想搞了，没有意义”，明确**不搞工厂**，专注草本板块摸索出路\n\n---\n\n### 合作推进计划\n- 沟通方同意若对方老板有兴趣，将通过小齐进行**牵线**，安排双方老板直接沟通\n- 小齐表示“回头我问一下那个老板，如果他要有兴趣的话，我就给你们牵个线儿”",
+      "meeting_todo": [
+        {
+          "Id": 1,
+          "SentenceId": 7,
+          "Start": 19580,
+          "End": 22470,
+          "Text": "联系润之美与非物相关负责人，商讨非物质化遗产项目的具体做法和可能性，并约定时间进行详细讨论。"
+        }
+      ],
+      "meeting_summary_status": 2,
+      "meeting_todo_status": 1,
+      "queue_num": 0,
+      "waite_time": 0,
+      "free_task_status": 0,
+      "is_vip": 0,
+      "cover_img": "",
+      "create_time_time_stamp": 1759911170,
+      "meeting_summary_id": -1,
+      "example_name": "",
+      "example_id": 0,
+      "file_num": 0,
+      "view_num": 0,
+      "user_name": "广州老朱",
+      "parent_model": 247,
+      "ai_file_path": "",
+      "record_note": null,
+      "parse_content": "",
+      "parse_title": "",
+      "parse_images": null,
+      "parse_image_objs": null,
+      "parse_site": "",
+      "parse_elements": null,
+      "parse_url": "",
+      "parse_status": 0,
+      "ocr_img_list": null,
+      "tag": "广州 广西 润馨堂 润之美 凉茶 润馨堂 非物质文化遗产 草本板块 餐饮原料 to b 小齐 广州 广西",
+      "text_rewrite_status": 1,
+      "text_polish_processing": [
+        {
+          "beginTime": 30,
+          "endTime": 35373,
+          "has_verify": true,
+          "id": 1,
+          "paragraph_id": "1759911185262500000",
+          "sentence_id": 1,
+          "text": "我们在推销那个饮料怎么做？然后干啥能有机会。这样就聊聊聊就聊到咱们那个那个润之美了。然后就聊到这个凉茶了。咱们不是有个润馨堂吗？还有一个非物质文化遗产。那个老板就在问说现在还做不做了？我说这一块好像没怎么做了，然后他就说说是能不能讨论一下怎么做一下。",
+          "text_with_tag": "我们在推销那个饮料怎么做？然后干啥能有机会。<del>对，</del>这样就聊聊聊就聊到咱们那个那个润之美了。<del>对，</del>然后就聊到这个凉茶了。咱们不是有个润馨堂吗？<del>对，是吧？</del>还有一个<del>非物，那个那个叫</del>非物质文化遗产。<del>对，</del>那个老板就在问说现在还做不做了？我说这一块好像没怎么做了，然后他就说说是能不能讨论一下怎么做一下。",
+          "trans": "",
+          "userId": "1",
+          "userName": "发言人1"
+        },
+        {
+          "beginTime": 36240,
+          "endTime": 69080,
+          "has_verify": true,
+          "id": 2,
+          "paragraph_id": "1759911221472500000",
+          "sentence_id": 10,
+          "text": "可以，我们现在是这样，就是你应该自己知道，传统那一块的，反正我是让他们去做了。我自己是之前的那些针对那些to b的一些餐饮的那些原料这部分，那部分是让别人去做了，反正我自己没太大兴趣。说实话这么多年我对这一块是没太大兴趣。那现在的话实际上重心还是要放到草本的这个板块来。你这个东西怎么说还是有点机会的。",
+          "text_with_tag": "可以，我们现在是这样，就是你应该自己知道，传统那一块的，反正我是让他们去做了。我自己是之前的那些针对那些to b的一些餐饮的那些原料这部分，那部分是让别人去做了，反正我自己没太大兴趣。说实话这么多年我对这一块是没太大兴趣。那现在的话实际上重心还是要放到草本的这个板块来。你这个东西怎么说还是有点机会的。<del>我。</del>",
+          "trans": "",
+          "userId": "2",
+          "userName": "发言人2"
+        },
+        {
+          "beginTime": 69080,
+          "endTime": 71160,
+          "has_verify": true,
+          "id": 3,
+          "paragraph_id": "1759911254312500000",
+          "sentence_id": 16,
+          "text": "认为现在。",
+          "text_with_tag": "认为现在。",
+          "trans": "",
+          "userId": "1",
+          "userName": "发言人1"
+        },
+        {
+          "beginTime": 71160,
+          "endTime": 75320,
+          "has_verify": true,
+          "id": 4,
+          "paragraph_id": "1759911256392500000",
+          "sentence_id": 17,
+          "text": "就是这个考虑方向。",
+          "text_with_tag": "就是这个考虑方向。",
+          "trans": "",
+          "userId": "2",
+          "userName": "发言人2"
+        },
+        {
+          "beginTime": 77890,
+          "endTime": 85036,
+          "has_verify": true,
+          "id": 5,
+          "paragraph_id": "1759911263122500000",
+          "sentence_id": 18,
+          "text": "也蛮不错的。那个谁小齐现在是在广州还是在在广西呢？",
+          "text_with_tag": "也蛮不错的。那个谁小齐现在是在广州还是在在广西呢？",
+          "trans": "",
+          "userId": "1",
+          "userName": "发言人1"
+        },
+        {
+          "beginTime": 85630,
+          "endTime": 86218,
+          "has_verify": true,
+          "id": 6,
+          "paragraph_id": "1759911270862500000",
+          "sentence_id": 20,
+          "text": "他在广州。",
+          "text_with_tag": "他在广州。",
+          "trans": "",
+          "userId": "2",
+          "userName": "发言人2"
+        },
+        {
+          "beginTime": 86990,
+          "endTime": 91530,
+          "has_verify": true,
+          "id": 7,
+          "paragraph_id": "1759911272222500000",
+          "sentence_id": 21,
+          "text": "在广州。对，你在广州这边又弄厂了。",
+          "text_with_tag": "在广州。对，<del>哦哦哦</del>你在广州这边又弄厂了。",
+          "trans": "",
+          "userId": "1",
+          "userName": "发言人1"
+        },
+        {
+          "beginTime": 92320,
+          "endTime": 112270,
+          "has_verify": true,
+          "id": 8,
+          "paragraph_id": "1759911277552500000",
+          "sentence_id": 23,
+          "text": "这厂不想搞了，没有意义。我就不想厂了，我想可能还是做草本这个板块，把这一块摸索一下，想办法找点出路，在这个领域不要去搞工厂，搞工厂没有意义的。就像你之前说的，你不是当时也建议我不要搞工厂吗？",
+          "text_with_tag": "这厂不想搞了，没有意义。我就不想<del>搞</del>厂了，我想可能还是做草本这个板块，<del>做</del>把这一块摸索一下，想办法找点出路，在这个领域不要去搞工厂，搞工厂没有意义的。就像你之前说的，你不是当时也建议我不要搞工厂吗？",
+          "trans": "",
+          "userId": "3",
+          "userName": "发言人3"
+        },
+        {
+          "beginTime": 113610,
+          "endTime": 115176,
+          "has_verify": true,
+          "id": 9,
+          "paragraph_id": "1759911298842500000",
+          "sentence_id": 26,
+          "text": "但是你没听我的建议。",
+          "text_with_tag": "但是你没听我的建议。",
+          "trans": "",
+          "userId": "1",
+          "userName": "发言人1"
+        },
+        {
+          "beginTime": 117180,
+          "endTime": 118770,
+          "has_verify": true,
+          "id": 10,
+          "paragraph_id": "1759911302412500000",
+          "sentence_id": 27,
+          "text": "那个不说了。",
+          "text_with_tag": "那个不说了。",
+          "trans": "",
+          "userId": "3",
+          "userName": "发言人3"
+        },
+        {
+          "beginTime": 121280,
+          "endTime": 127129,
+          "has_verify": true,
+          "id": 11,
+          "paragraph_id": "1759911306512500000",
+          "sentence_id": 28,
+          "text": "也行呗，行呗。那你要有兴趣的话，我回头问一下那个老板。",
+          "text_with_tag": "也行呗，行呗。那<del>那</del>你要有兴趣的话，我回头<del>我我我</del>问一下那个老板。",
+          "trans": "",
+          "userId": "1",
+          "userName": "发言人1"
+        },
+        {
+          "beginTime": 127610,
+          "endTime": 127870,
+          "has_verify": true,
+          "id": 12,
+          "paragraph_id": "1759911312842500000",
+          "sentence_id": 30,
+          "text": "可以。",
+          "text_with_tag": "可以。",
+          "trans": "",
+          "userId": "2",
+          "userName": "发言人2"
+        },
+        {
+          "beginTime": 127970,
+          "endTime": 144680,
+          "has_verify": true,
+          "id": 13,
+          "paragraph_id": "1759911313202500000",
+          "sentence_id": 31,
+          "text": "约个时间一起聊聊。如果他要有兴趣的话，我就给你们牵个线儿，你们老板之间去聊去，我就纯粹热心肠。然后也给家里人问个好啊，过几天出去溜达一下。",
+          "text_with_tag": "约个时间一起聊聊。<del>来问一下，问一下。</del>如果他要有兴趣的话，我就给你们牵个线儿，你们老板之间去聊去，我就纯粹热心肠。<del>好啊，行呗，</del>然后也给家里人问个好啊，<del>这</del>过几天出去溜达一下。",
+          "trans": "",
+          "userId": "1",
+          "userName": "发言人1"
+        },
+        {
+          "beginTime": 145180,
+          "endTime": 149270,
+          "has_verify": true,
+          "id": 14,
+          "paragraph_id": "1759911330412500000",
+          "sentence_id": 35,
+          "text": "好啊，溜达。现在才回来。",
+          "text_with_tag": "<del>谢好，</del>好啊，溜达。现在才回来。",
+          "trans": "",
+          "userId": "2",
+          "userName": "发言人2"
+        },
+        {
+          "beginTime": 150100,
+          "endTime": 160370,
+          "has_verify": true,
+          "id": 15,
+          "paragraph_id": "1759911335332500000",
+          "sentence_id": 37,
+          "text": "行呗，那就不多聊了。我回头问一下那个老板，如果他要有兴趣的话，我就给你们牵个线儿。拜拜，拜拜。",
+          "text_with_tag": "行呗，那就不多聊了。我回头<del>我我我</del>问一下那个老板，如果他要有兴趣的话，我就给你们牵个线儿。<del>好好好OK好好，</del>拜拜，<del>好，</del>拜拜。",
+          "trans": "",
+          "userId": "1",
+          "userName": "发言人1"
+        }
+      ],
+      "re_write_count": 8,
+      "is_read": 1,
+      "new_note": "",
+      "inspire_data": "404",
+      "width": 0,
+      "height": 0,
+      "file_size": 1926,
+      "jump_link": "",
+      "network_platform": "",
+      "network_platform_img_url": "",
+      "show_speaker": 1,
+      "show_timestamp": 1,
+      "merge_speaker": 0,
+      "text_polish_data_id": "68e6216d7cfeb7781fbeaaf1",
+      "voice_checkbox": false,
+      "assistant_status": 0,
+      "assistant_status_text": "",
+      "task_id": 0,
+      "diff_time": 0
+    }
+  }
+}

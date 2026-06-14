@@ -1,0 +1,30 @@
+{
+  "id": 4028344,
+  "name": "2026-01-12 18:22 录音",
+  "folderId": 245320,
+  "duration": "0:00:44",
+  "status": {
+    "value": -2,
+    "text": "权益受限",
+    "done": false
+  },
+  "transcript": {
+    "count": 0,
+    "status": {
+      "value": 0,
+      "text": "权益受限",
+      "done": false
+    },
+    "text": ""
+  },
+  "meetingSummary": {
+    "content": "",
+    "status": {
+      "value": 0,
+      "text": "纪要生成中",
+      "done": false
+    }
+  },
+  "topics": [],
+  "tags": ""
+}

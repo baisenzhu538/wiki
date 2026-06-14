@@ -1,0 +1,30 @@
+{
+  "id": 7490653,
+  "name": "2026-05-22 20:58 录音",
+  "folderId": 245320,
+  "duration": "0:00:32",
+  "status": {
+    "value": 90,
+    "text": "需手动生成转写",
+    "done": false
+  },
+  "transcript": {
+    "count": 0,
+    "status": {
+      "value": 0,
+      "text": "需手动生成转写",
+      "done": false
+    },
+    "text": ""
+  },
+  "meetingSummary": {
+    "content": "",
+    "status": {
+      "value": 0,
+      "text": "纪要生成中",
+      "done": false
+    }
+  },
+  "topics": [],
+  "tags": ""
+}
