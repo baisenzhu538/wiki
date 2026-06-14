@@ -1889,3 +1889,7 @@ Chronological record of knowledge operations.
   - 更新索引: 30_wiki/index.md 已注册
 
 - 2026-06-11T13:38:10+00:00 - Produced `art_20260611_5c361d5c`: 40_outputs/content/articles/art_20260611_5c361d5c-增长第一步找到第一个增长杠杆的实操案例.md
+
+- 2026-06-14T11:43:36+00:00 - Generated handoff brief `brief_20260614_7bfc13be`
+
+- 2026-06-14T11:43:46+00:00 - Generated handoff brief `brief_20260614_acf13397`

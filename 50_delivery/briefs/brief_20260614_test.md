@@ -1,0 +1,63 @@
+---
+brief_id: "brief_20260614_acf13397"
+type: "handoff-brief"
+title: "Handoff Brief: 双三角"
+topic: "双三角"
+artifact_id: ""
+created_at: "2026-06-14T11:43:45+00:00"
+---
+
+# Handoff Brief: 双三角
+
+## Brief ID
+
+`brief_20260614_acf13397`
+
+## Mission
+
+Use the local context below to continue work on `双三角`. Preserve source traceability and update the workspace when new durable knowledge, outputs, or feedback are created.
+
+## Artifact
+
+- N/A
+
+## Operating Rules
+
+- Raw sources are the source of truth.
+- Wiki pages are compiled knowledge, not final truth.
+- Structural changes must be suggestion-first.
+- If you create or modify deliverables, keep source refs and feedback paths visible.
+- If you find gaps, record them as feedback, eval failures, or an improvement plan.
+
+## Local Context
+
+### `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`
+
+后重点是你可以猜一猜这个模型怎么出来的，你们也可以使劲猜，。 课程中我们给了大家一个本质定义，给了你们一个什么N步法，给了你们一个什么雷达图，给了你们一个什么双三角模型，你可以猜一下它怎么出来的。 猜一下猜一下，你们觉得它是某一天某一个人突然脑子灵光一闪出现的吗？ 还是背后依赖一个个什么样的建模方法出来的呢？ 你们使劲猜，看能猜到什么程度感受一下。 我这么多同学进来提Y模型，猜一下。 有同学说审美，有审美就够了吗？ 有什么就够了吗？ 头脑风暴聊出来了？ 有头
+
+### `30_wiki/concepts/人机协作决策-双三角模型.md`
+
+--- id: "人机协作决策-双三角模型" created_at: 2026-05-21 domain: - "ai-saas" status: "enriched" title: "人机协作决策——双三角模型" type: "concept" updated_at: 2026-05-22 tags: - #scene/agent-infrastructure - #scene/ai-collaboration/human-ai-division - #sc
+
+### `30_wiki/concepts/ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md`
+
+--- id: "ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步" created_at: 2026-05-21 domain: - "yitang" source_refs: - "src_20260522_d96543bb" status: "enriched" title: "OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步" type: "concept" updated_at: 2026-05-22 tags: - #scen
+
+### `10_raw/sources/src_20260510_2ba8671c-创业-调研行动营口述01.md`
+
+人类的三角，就初步给大家了这个调研的武器库工具包，还有18张的这个卡牌，以及给大家提供了两个AI的partner。 然后呢接下来的话大家来动手实现了这个调研的双三角模型，由人和AI一起来帮你完成调研的一个工作。 就大家带着的问题和AI对话，完成这样的一个调研。 截至目前两千多个同学已经完成了这个奥斯卡系统式调研的学习，初步体验了AI调研的范式。 大家已初步感受到了AIGC模型的这种一步步里程碑式的推理的价值，和过去一个人去做计划做调研，变成你跟AI协同来做的这种爽感。
+
+### `10_raw/sources/src_20260510_ad730a76-和知识封装成一个你自己的贴身的ai教练.md`
+
+人类的三角，就初步给大家了这个调研的武器库工具包，还有18张的这个卡牌，以及给大家提供了两个AI的partner。 然后呢接下来的话大家来动手实现了这个调研的双三角模型，由人和AI一起来帮你完成调研的一个工作。 就大家带着的问题和AI对话，完成这样的一个调研。 截至目前两千多个同学已经完成了这个奥斯卡系统式调研的学习，初步体验了AI调研的范式。 大家已初步感受到了AIGC模型的这种一步步里程碑式的推理的价值，和过去一个人去做计划做调研，变成你跟AI协同来做的这种爽感。
+
+### `10_raw/sources/一堂-创业-调研行动营口述01.md`
+
+人类的三角，就初步给大家了这个调研的武器库工具包，还有18张的这个卡牌，以及给大家提供了两个AI的partner。 然后呢接下来的话大家来动手实现了这个调研的双三角模型，由人和AI一起来帮你完成调研的一个工作。 就大家带着的问题和AI对话，完成这样的一个调研。 截至目前两千多个同学已经完成了这个奥斯卡系统式调研的学习，初步体验了AI调研的范式。 大家已初步感受到了AIGC模型的这种一步步里程碑式的推理的价值，和过去一个人去做计划做调研，变成你跟AI协同来做的这种爽感。
+
+## Expected Output
+
+- State what you changed or recommend changing.
+- Reference files by path.
+- Preserve source and artifact lineage.
+- Run or request the relevant validation command before shipping.
