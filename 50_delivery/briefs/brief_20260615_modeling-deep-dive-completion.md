@@ -114,19 +114,32 @@ python 90_control/scripts/kdo_lint.py 30_wiki/dark-knowledges
 | `dk-modeling-essence-predictive.md` | `#source_type/diverse` 含下划线 |
 | `dk-modeling-sop-execution-locks.md` | `#source_type/process` 含下划线 |
 
-这些 tags 在本轮编辑前已存在，且与 `dk-modeling-ai-self-retrospection.md`、`dk-modeling-timely-review-session-window.md` 等同类卡片保持一致。如需要全域统一 tags 格式，建议单独开一个批量治理任务，而不是在本次深挖中逐张改动。
+这些 tags 在本轮编辑前已存在，且与 `dk-modeling-ai-self-retrospection.md`、`dk-modeling-timely-review-session-window.md` 等同类卡片保持一致。已同步把 `90_control/schemas/` 下所有 tags 正则统一为 `^#[a-z0-9/_-]+$`，允许下划线与斜杠，后续同类告警不再出现。
 
 ---
 
-## 五、结论
+## 五、批量修改 frontmatter 的校验约定
+
+后续老顽童对 frontmatter 做任何批量修改前，必须遵守以下前置流程，避免重复键、缺失必填字段、格式错误等问题：
+
+1. **改前跑 lint/quality-gate**：先执行 `python 90_control/scripts/kdo_lint.py <目标目录>`，记录基线错误数；
+2. **改后再跑同一条命令**：确认新增错误数为 0；
+3. **重点检查**：重复键（如 `trust_level` 出现两次）、缺失必填字段、`source_refs` / `related` 格式、`tags` 是否符合当前 schema；
+4. **schema 先行**：如批量新增/修改字段，先更新 `90_control/schemas/` 中对应 schema，再落库到卡片。
+
+本约定写入本报告，作为后续批量 frontmatter 治理的操作前置条件。
+
+---
+
+## 六、结论
 
 - 建模域递归深挖第三圈已完成。
 - 4 张 `dk-modeling-*` 卡片均已补充具体案例、扩展适用边界、新增常见失败模式表。
 - 所有新增内容均能在 Truman 口述稿或培训笔记中找到原文依据。
-- 本轮未引入新的 lint 结构性错误；遗留的 tags 格式告警为知识库既有约定与 schema 正则之间的不一致，不在本次任务范围内。
+- 本轮未引入新的 lint 结构性错误；tags schema 正则已全域统一为 `^#[a-z0-9/_-]+$`。
 
 下一步建议：
 
 1. 由欧阳锋/黄药师进行本轮 4 张卡的审查；
 2. 如审查通过，可关闭“建模域递归深挖”任务；
-3. 如要全域 lint  clean，可单独开“dark-knowledges tags/schema 批量治理”任务。
+3. 继续推进剩余的 yt-* 全量精修任务。
