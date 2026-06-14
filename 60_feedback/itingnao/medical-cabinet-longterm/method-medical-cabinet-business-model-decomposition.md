@@ -244,8 +244,16 @@ L4 行为指标（可观测动作）
 
 ---
 
-## 八、相关卡片
+## 八、升级版本
 
+> **V2 升级**：本卡已升级至 `method-medical-cabinet-business-formula-v2.md`。V2 在 V1 基础上做了三件事：
+> 1. 从「收入−成本」升级为「需求密度 × 捕获效率 × 变现效率 − 三类成本」的本质公式；
+> 2. 建立医院、社区、O2O 履约三类场景化子模型；
+> 3. 补充药柜 vs 药店 vs O2O 的竞争替代公式和盈亏平衡临界点。
+
+## 九、相关卡片
+
+- `method-medical-cabinet-business-formula-v2.md`：**V2 本质公式与场景化模型族（升级版）**
 - `method-single-point-financial-model.md`：单点财务测算
 - `fact-o2o-cost-structure.md`：O2O 平台费用明细
 - `method-medical-cabinet-site-selection.md`：选址框架
