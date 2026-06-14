@@ -2,7 +2,9 @@
 
 ## 审核说明
 
-本次审核基于 `QUALITY-CONTROL.md` 中确立的标准，对 `kcards-v3/` 目录下所有知识卡进行评估，判断哪些可以进入 `30_wiki/`，哪些需要继续留在 `60_feedback/` 进一步打磨。
+本次审核基于 `QUALITY-CONTROL.md` 中确立的标准，对 `kcards-v3/` 目录下所有知识卡进行评估，判断哪些可以作为草案提交给老顽童审阅，哪些需要继续留在 `60_feedback/` 进一步打磨。
+
+**注意**：根据要求，本次不直接迁移至 `30_wiki/`，仅生成供老顽童审核的草案清单。
 
 ## 审核标准
 
@@ -55,7 +57,7 @@
 
 ---
 
-## 三、建议暂留 60_feedback（12 张）
+## 三、建议暂留 60_feedback（10 张）
 
 以下知识卡以归纳、推断、原创框架或单一来源为主，需要更多证据支撑或打磨后再考虑迁移。
 
@@ -66,8 +68,6 @@
 | insight-going-global-localization-trap.md | 洞察卡 | 0.72 | 案例为概括性，未具体到企业 |
 | insight-stock-era-marketing-logic.md | 洞察卡 | 0.72 | 奢侈品案例到大众品类的迁移需谨慎 |
 | method-ai-native-workflow-design.md | 方法卡 | 0.72 | 框架为原创组合，需与 HCI/流程再造文献对照 |
-| method-cost-taste-balance.md | 方法卡 | 0.70 | 行业经验，无公开数据支撑 |
-| method-eliminate-fuzziness.md | 方法卡 | 0.72 | 框架为原创组合，需与心理学研究对照 |
 | method-ipo-learning-loop.md | 方法卡 | 0.72 | 一堂课程资料，通用性待验证 |
 | insight-human-machine-replacement-path.md | 洞察卡 | 0.70 | 替代路径为理论框架，案例有限 |
 | method-ai-assisted-difficult-conversation.md | 方法卡 | 0.70 | AI 辅助沟通效果缺乏实证研究 |
@@ -98,7 +98,7 @@
 
 ## 六、推荐迁移顺序
 
-### 第一批（立即迁移）
+### 第一批（建议直接给老顽童审阅的草案）
 
 1. `concept-fde-model.md`
 2. `method-fde-implementation.md`
@@ -107,22 +107,30 @@
 5. `concept-narrative-fallacy.md`
 6. `concept-believability-weighted-decision.md`
 7. `concept-personal-company-boundary.md`
-8. `method-lean-startup-hypothesis-validation.md`
+8. `method-private-money-control.md`
+9. `method-lean-startup-hypothesis-validation.md`
 
-### 第二批（核验后迁移）
+### 第二批（再核验后可提交审阅）
 
 1. `concept-market-entry-mode.md`
 2. `concept-prompt-to-agent-evolution.md`
 3. `method-3min-pitch-structure.md`
 4. `method-ai-landing-impact-evaluation.md`
-5. `method-private-money-control.md`
+5. `method-eliminate-fuzziness.md`
 6. `concept-y-model-yitang.md`
 7. `method-strategic-direction-tradeoff.md`
+8. `fact-double-grapefruit-juice-cost-structure.md`
+9. `fact-smart-kitchen-device-roi.md`
+10. `method-cost-taste-balance.md`
+11. `concept-ai-landing-organizational-fit.md`
+12. `method-ai-landing-five-steps.md`
+13. `concept-multi-agent-system.md`
 
 ### 第三批（需较大完善）
 
-1. 两张事实卡：`fact-double-grapefruit-juice-cost-structure.md`、`fact-smart-kitchen-device-roi.md`
-2. 所有 0.72 及以下的洞察卡和方法卡
+1. `method-ai-native-workflow-design.md`
+2. `method-ipo-learning-loop.md`
+3. 所有洞察卡（insight-*.md）
 
 ---
 
