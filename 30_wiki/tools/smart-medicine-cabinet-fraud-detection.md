@@ -219,12 +219,12 @@ Thaler 的批判有三点：
 
 ---
 
-## Sources
+## 验证与参考
 
-1. `corr_20260613_smart-medicine-cabinet-iteration-3-failure-cases.md`
-2. `corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive.md`
-3. `corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive.md`
-4. `corr_20260613_clinic-interview-bias-correction-report.md`
-5. `corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures.md`
-6. `corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance.md`
-7. 黑猫投诉平台、企查查/天眼查、中国裁判文书网
+- 失败案例分析：`src_20260613_3b5c7fdb`
+- 补充深挖（迭代 6）：`src_20260613_26c69f98`
+- 补充深挖（迭代 7）：`src_20260613_6ed8df4b`
+- 诊所访谈纠偏报告：`src_20260613_5f96c5bb`
+- 运营数据与失败案例：`src_20260613_59270720`
+- 医疗短视频合规：`src_20260613_ccf533f9`
+- 黑猫投诉平台、企查查/天眼查、中国裁判文书网
