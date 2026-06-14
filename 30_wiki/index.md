@@ -3,6 +3,15 @@
 
 _Last updated: 2026-06-14T12:00:00+00:00_
 
+- [AI 大航海项目路演：主题综合知识卡](concepts/ai-hackathon-pitches.md) — source src_20260614_3b46ff78 src_20260614_1d4cc0e0 src_20260614_852f9158 src_20260614_67a2b760 src_20260614_35e5c7a5 src_20260614_32622548 src_20260614_cc542987 src_20260614_507e4b9a src_20260614_6463da99 src_20260614_489554e9 src_20260614_ef4f24d7
+- [AI 方法论与工具栈：主题综合知识卡](frameworks/ai-methodology-tools.md) — source src_20260614_071928f4 src_20260614_dec1c1fe src_20260614_5f13a66f src_20260614_d5cc92d2 src_20260614_cafcbbac src_20260614_c5115d2c src_20260614_b3686a84 src_20260614_144d986e src_20260614_c1430e21 src_20260614_4b226b4f src_20260614_d78e7c7b
+- [企业财务-法务-商务运营实务](concepts/finance-legal-business-operations.md) — source src_20260614_ccba327a src_20260614_d1166483 src_20260614_83ed5758 src_20260614_6e91528d src_20260614_fbe4a480
+- [产业 AI 落地案例集（非药柜）](concepts/industry-ai-cases.md) — source src_20260614_07a9fc2a src_20260614_3cefab90 src_20260614_eca9f5b3 src_20260614_b85c364e src_20260614_4b3b6427 src_20260614_eed6d83c src_20260614_45ab8b35 src_20260614_5e47c1c5 src_20260614_b9ae158f
+- [AI 时代的业务验证、商业模式与组织协作](concepts/business-validation-models-collaboration.md) — source src_20260614_606a631d src_20260614_cb61aeca src_20260614_fd0f5a00 src_20260614_ab09af1c src_20260614_909802bd src_20260614_d79b42d1 src_20260614_e38d86d9 src_20260614_350272ef src_20260614_086550ab src_20260614_1a0a6efa
+- [个人成长：复杂系统、消除模糊与 AI 时代个体系统](concepts/personal-growth-complex-systems.md) — source src_20260614_fb753683 src_20260614_8d349c5b src_20260614_82a4fdb9 src_20260614_6fb509a4 src_20260614_7963c2f2
+- [产品-商业战略综合：设备运营、方向取舍与产品开发](concepts/product-business-strategy.md) — source src_20260614_5f74ed61 src_20260614_0e07078e src_20260614_8a0317f1
+- [餐饮渠道饮料产品成本-口感-供应链综合洞察](concepts/supply-chain-beverage.md) — source src_20260614_16c4bf0d src_20260614_d6ab6fb6 src_20260614_9b574611
+- [一堂方法论体系：从科学做事到无限进步](concepts/yitang-methodology-system.md) — source src_20260614_6d9f7671 src_20260614_a25ca678 src_20260614_64015d4d src_20260614_1be3d76f src_20260614_faa8021d src_20260614_842be4c9 src_20260614_239c9f4e src_20260614_b65be94b src_20260614_c944bda5 src_20260614_8f80cb0f src_20260614_2e2a1e9c src_20260614_a3ae193a src_20260614_93ffa2b0 src_20260614_b23e9ae3 src_20260614_70cde3fb src_20260614_610cbfc3 src_20260614_f2578dfb src_20260614_6b2c4f5b src_20260614_ea308189 src_20260614_aceef535 src_20260614_dcf9d023 src_20260614_4ff08501 src_20260614_22f103f0 src_20260614_3501eb39 src_20260614_78622699 src_20260614_46bc4b82
 - [Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式](concepts/fd-forward-deployment.md) — source src_20260614_ab09af1c
 - [餐饮渠道饮料开发：草本浓缩饮品的渠道-产品-工艺框架](frameworks/beverage-foodservice-channel.md) — source src_20260614_8a0317f1 src_20260614_16c4bf0d src_20260614_d6ab6fb6 src_20260614_9b574611
 - [AI 原生 IM：让 Agent 成为一等公民的协作基础设施](concepts/ai-native-im-multi-agent.md) — source src_20260614_c5115d2c

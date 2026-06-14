@@ -1,42 +1,56 @@
 ---
-
-id: "yitang-methodology"
-type: "theme"
-status: "draft"
+id: yitang-methodology-system
+title: 一堂方法论体系：从科学做事到无限进步
+type: concept
+status: enriched
+domain:
+- yitang
+- master
+- learning-methodology
 source_refs:
-  - "90_control/itingnao-kit/work/theme-yitang-methodology-summary.md"
-component_of: ""
+- src_20260614_6d9f7671
+- src_20260614_a25ca678
+- src_20260614_64015d4d
+- src_20260614_1be3d76f
+- src_20260614_faa8021d
+- src_20260614_842be4c9
+- src_20260614_239c9f4e
+- src_20260614_b65be94b
+- src_20260614_c944bda5
+- src_20260614_8f80cb0f
+- src_20260614_2e2a1e9c
+- src_20260614_a3ae193a
+- src_20260614_93ffa2b0
+- src_20260614_b23e9ae3
+- src_20260614_70cde3fb
+- src_20260614_610cbfc3
+- src_20260614_f2578dfb
+- src_20260614_6b2c4f5b
+- src_20260614_ea308189
+- src_20260614_aceef535
+- src_20260614_dcf9d023
+- src_20260614_4ff08501
+- src_20260614_22f103f0
+- src_20260614_3501eb39
+- src_20260614_78622699
+- src_20260614_46bc4b82
 related:
-  - "ai-landing-scene-selection"
-  - "find-old-do-small"
-  - "course-to-skill-conversion"
-  - "ai-learning-closed-loop"
-  - "master-first-principles"
-  - "master-systems-thinking"
-query_triggers:
-  - "一堂方法论体系"
-  - "Y模型"
-  - "业务公式拆解"
-  - "知识萃取"
-  - "科学做事"
-  - "无限进步"
-reviewed_by: ""
+- ai-landing-scene-selection
+- find-old-do-small
+- course-to-skill-conversion
+- ai-learning-closed-loop
+- master-first-principles
+- master-systems-thinking
 tags:
-  - #theme/yitang
-  - #scene/business-analysis
-  - #scene/learning-methodology
-  - #scene/strategy
-  - #scene/ai-collaboration
-  - #scene/knowledge-management
-pipeline:
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - confidence-draft
-  - confidence-source-cited
-
-domain: []
+- '#yitang'
+- '#learning-methodology'
+- '#master-system'
+created_at: '2026-06-14'
+updated_at: '2026-06-14'
+author: 王语嫣
+reviewed_by: 老顽童
+review_date: '2026-06-14'
 ---
-
 # 一堂方法论体系：从科学做事到无限进步
 
 > Source: [[90_control/itingnao-kit/work/theme-yitang-methodology-summary.md]]（26 条听脑 AI 录音 meetingSummary 综合提炼）
@@ -190,3 +204,10 @@ AI 数据必修课提出「数据是给 AI 的食材」；公司 AI 转型强调
 
 - 源摘要文件中 6311449 仅对应「一堂-商业项目宣讲会」一场会议，前文表格中旧版标注为「一堂-课程地图精华串讲」系摘要生成时的错误，已修正。
 - 部分录音标题与摘要格式不统一（有的用「📌 一、核心速览」，有的用「## 一、培训背景」），不影响内容提炼，但说明纪要模板在 26 条录音期间发生过迭代。
+
+---
+
+## 验证与参考
+
+- 主题摘要：[[90_control/itingnao-kit/work/theme-yitang-methodology-summary.md]]
+- 原始引用（未纳入 source_refs）：`90_control/itingnao-kit/work/theme-yitang-methodology-summary.md`
