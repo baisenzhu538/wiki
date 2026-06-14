@@ -3,13 +3,15 @@ id: "method-ai-assisted-difficult-conversation"
 title: "方法卡：AI 辅助复杂沟通"
 type: "method-card"
 status: "draft"
-confidence_score: 0.70
+confidence_score: 0.74
 trust_level: "medium-high"
 source_refs:
   - "itingnao-5751598 AI复杂沟通落地案例"
   - "itingnao-5751616 AI复杂沟通落地案例"
-  - "沟通心理学"
-  - "AI 辅助沟通工具实践"
+  - "MIT 2025 thesis: Beyond serving as negotiating agents (dspace.mit.edu)"
+  - "Harvard PON 2026: How AI Negotiation Bots Can Deepen Classroom Learning"
+  - "ACM CUI 2024: How Managers Perceive AI-Assisted Conversational Training for Workplace Communication"
+  - "沟通心理学（NVC、利益vs立场）"
 related:
   - "kcard-other-draft"
   - "six-layer-validation-ai-complex-communication.md"
@@ -83,6 +85,17 @@ AI 辅助复杂沟通是指在进行高难度对话（如谈判、反馈、冲�
 1. **用 AI 生成的话术太机械**：缺乏人情味。
 2. **只准备自己的观点，没准备对方反应**：一旦对方不按剧本走就慌乱。
 3. **把 AI 建议当真理**：忽略具体情境和关系背景。
+
+## 深度核验说明
+
+### 已验证
+- **MIT 2025 论文**：AI 可作为谈判培训工具，模拟真实对手行为，帮助家庭照护者练习与医疗提供者/家庭成员的谈判。多数参与者认为 AI 辅助练习提升了有效性和自信心。
+- **Harvard PON 2026 文章**：MIT 在 Harborco 多利益方谈判模拟中使用 preparation bot、back-table bot、debriefing bot，82% 学生认为 bot 帮助更好准备，77% 认为有助于识别对方利益。
+- **ACM CUI 2024（CommCoach）**：研究验证了基于场景的 AI 角色扮演在管理工作场所艰难对话中的有效性，强调真实、可定制的场景对学习效果的重要性。
+
+### 待验证/降级
+- 本卡片的"四步准备法"为整合 NVC、谈判学、行动学习后的原创框架，非直接来自上述实证研究。
+- AI 辅助沟通的长期效果、跨文化适用性、情绪判断边界仍需更多研究。
 
 ## 与相关方法的关系
 

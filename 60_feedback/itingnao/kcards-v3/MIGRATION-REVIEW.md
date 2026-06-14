@@ -35,7 +35,7 @@
 
 ---
 
-## 二、建议再核验后给老顽童审阅（13 张）
+## 二、建议再核验后给老顽童审阅（15 张）
 
 以下知识卡整体质量较好，但存在局部可信度不足或来源单一问题，建议补充核验后再迁移。
 
@@ -47,6 +47,7 @@
 | method-ai-landing-impact-evaluation.md | 方法卡 | 0.76 | 补充企业 AI 评估的真实案例 |
 | method-eliminate-fuzziness.md | 方法卡 | 0.76 | 已补充决策疲劳研究，可进一步补充自我损耗实验证据 |
 | method-ai-native-workflow-design.md | 方法卡 | 0.76 | 已补充 CTO Academy 人机协作三阶段框架 |
+| method-ipo-learning-loop.md | 方法卡 | 0.76 | 已补充 IPO 培训评估模型学术来源，需核对一堂课程原文 |
 | concept-y-model-yitang.md | 概念卡 | 0.75 | 补充一堂课程原文或 JTBD 对照 |
 | method-strategic-direction-tradeoff.md | 方法卡 | 0.75 | 补充战略咨询经典框架对照 |
 | fact-double-grapefruit-juice-cost-structure.md | 事实卡 | 0.74 | **原料成本仍无公开来源，需进一步核验** |
@@ -54,10 +55,11 @@
 | method-cost-taste-balance.md | 方法卡 | 0.74 | 已补充食品饮料配方设计流程，可补充更多成本数据 |
 | insight-human-machine-replacement-path.md | 洞察卡 | 0.74 | 已补充餐饮自动化市场数据和 McDonald's/Chipotle/Starbucks 案例 |
 | method-ai-landing-five-steps.md | 方法卡 | 0.74 | 补充企业 AI 转型公开案例 |
+| method-ai-assisted-difficult-conversation.md | 方法卡 | 0.74 | 已补充 MIT/Harvard/ACM 实证研究，需核对一堂课程原文 |
 
 ---
 
-## 三、建议暂留 60_feedback（8 张）
+## 三、建议暂留 60_feedback（6 张）
 
 以下知识卡以归纳、推断、原创框架或单一来源为主，需要更多证据支撑或打磨后再考虑迁移。
 
@@ -67,10 +69,8 @@
 | insight-ai-pitch-key-elements.md | 洞察卡 | 0.72 | 基于观察和案例，缺乏投资人数据 |
 | insight-going-global-localization-trap.md | 洞察卡 | 0.72 | 案例为概括性，未具体到企业 |
 | insight-stock-era-marketing-logic.md | 洞察卡 | 0.72 | 奢侈品案例到大众品类的迁移需谨慎 |
-| method-ipo-learning-loop.md | 方法卡 | 0.72 | 一堂课程资料，通用性待验证 |
-| method-ai-assisted-difficult-conversation.md | 方法卡 | 0.70 | AI 辅助沟通效果缺乏实证研究 |
-| insight-super-individual-income-reality.md | 洞察卡 | 0.70 | 中国本地超级个体收入中位数数据不足 |
-| insight-super-individual-survivorship-bias.md | 洞察卡 | 0.65 | 主要为逻辑推理，缺乏具体收入数据 |
+| insight-super-individual-income-reality.md | 洞察卡 | 0.72 | 已补充德国/荷兰官方 solo self-employed 中位数，但中国本地数据仍不足 |
+| insight-super-individual-survivorship-bias.md | 洞察卡 | 0.70 | 已补充 Carta/Gusto 多源数据，但 Micro-SaaS 分布数据仍无权威来源 |
 
 ---
 
@@ -115,20 +115,25 @@
 3. `method-3min-pitch-structure.md`
 4. `method-ai-landing-impact-evaluation.md`
 5. `method-eliminate-fuzziness.md`
-6. `concept-y-model-yitang.md`
-7. `method-strategic-direction-tradeoff.md`
-8. `fact-double-grapefruit-juice-cost-structure.md`
-9. `fact-smart-kitchen-device-roi.md`
-10. `method-cost-taste-balance.md`
-11. `concept-ai-landing-organizational-fit.md`
-12. `method-ai-landing-five-steps.md`
-13. `concept-multi-agent-system.md`
+6. `method-ai-native-workflow-design.md`
+7. `method-ipo-learning-loop.md`
+8. `concept-y-model-yitang.md`
+9. `method-strategic-direction-tradeoff.md`
+10. `fact-double-grapefruit-juice-cost-structure.md`
+11. `fact-smart-kitchen-device-roi.md`
+12. `method-cost-taste-balance.md`
+13. `insight-human-machine-replacement-path.md`
+14. `method-ai-landing-five-steps.md`
+15. `method-ai-assisted-difficult-conversation.md`
 
 ### 第三批（需较大完善）
 
-1. `method-ai-native-workflow-design.md`
-2. `method-ipo-learning-loop.md`
-3. 所有洞察卡（insight-*.md）
+1. `insight-ai-landing-high-value-scenes.md`
+2. `insight-ai-pitch-key-elements.md`
+3. `insight-going-global-localization-trap.md`
+4. `insight-stock-era-marketing-logic.md`
+5. `insight-super-individual-income-reality.md`
+6. `insight-super-individual-survivorship-bias.md`
 
 ---
 

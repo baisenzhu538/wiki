@@ -3,12 +3,14 @@ id: "insight-super-individual-survivorship-bias"
 title: "洞察卡：超级个体/一人公司的幸存者偏差"
 type: "insight-card"
 status: "draft"
-confidence_score: 0.65
-trust_level: "medium"
+confidence_score: 0.70
+trust_level: "medium-high"
 source_refs:
   - "itingnao-6086372 超级个体-百万美元架构师"
-  - "Carta 2025 数据"
-  - "Micro-SaaS 收入分布分析"
+  - "Carta Solo Founders Report 2025 (carta.com/data/solo-founders-report/)"
+  - "Gusto 2025 New Business Formation Survey (gusto.com/resources/gusto-insights/new-business-formation-solopreneurs-2025)"
+  - "August Wheel 2026: The Rise of One-Person Companies"
+  - "Micro-SaaS 收入分布分析（二手概括，权威性较弱）"
   - "CB Insights 初创公司失败率研究"
 related:
   - "kcard-personal-growth-draft"
@@ -83,10 +85,25 @@ AI 时代一人公司确实降低了创业门槛，但公开讨论的"百万美�
 2. **超级个体可能加剧内部张力**
    - 当少数人借助 AI 完成大量工作时，薪酬、岗位定义、考核体系需要重新设计。
 
+## 深度核验说明
+
+### 已验证数据
+
+- **Carta 2025 Solo Founders Report**：2019 年 solo founder 占新公司 23.7%，2025 上半年升至 36.3%，多源（K4Northwest、August Wheel、Entrepreneur Loop）一致引用该报告，可信度高。
+- **Gusto 2025 New Business Formation Survey**：77% 的 solopreneurs 首年即盈利，84% 启动资金 <5000 美元，93% 预期 2025 年盈利。
+- **美国 SBA 口径**：超过 4/5 的小企业无雇员，与 solo business 趋势一致。
+
+### 未验证/需降级数据
+
+- **Micro-SaaS 收入分布**（<1000 美元 30%、1000-10000 美元 50% 等）来自二手概括，未找到原始权威报告，应作为"示意性分布"处理。
+- **"初创公司总体失败率约 90%"**：CB Insights 有失败原因研究，但"90%"口径因统计范围不同差异较大，需谨慎引用。
+- **Pieter Levels / Base44 案例**：为公开报道的极端幸存者，不能代表中位数。
+
 ## 局限性
 
 - 一人公司收入分布数据主要来自 Micro-SaaS 和西方市场，中国市场差异需进一步验证。
 - "创业成功率 5%-10%"统计口径不一，需结合行业、阶段、资金来源区分。
+- 中位数收入数据仍不足，难以精确评估"普通人做一人公司"的真实回报。
 
 ## 使用场景
 

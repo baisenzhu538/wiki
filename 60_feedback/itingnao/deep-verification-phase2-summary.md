@@ -254,7 +254,35 @@
 
 ---
 
-## 八、仍待深度核验的问题
+## 八、本轮低可信度知识卡核验结果（2026-06-13）
+
+本轮继续任务 2，对 `kcards-v3/` 中剩余低可信度知识卡进行外部交叉核验，共更新 4 张卡片。
+
+### 8.1 已更新卡片
+
+| 文件名 | 原评分 | 新评分 | 主要核验来源 | 关键结论 |
+|--------|--------|--------|-------------|---------|
+| insight-super-individual-survivorship-bias.md | 0.65 | 0.70 | Carta Solo Founders Report 2025; Gusto 2025 New Business Formation Survey; August Wheel 2026 | Carta 36.3%/23.7% 数据多源一致；Gusto 77% 首年盈利数据确认；Micro-SaaS 分布数据无权威来源需降级 |
+| insight-super-individual-income-reality.md | 0.68 | 0.72 | culta.ai 2026; 德国 Prognos AG 2024; 荷兰 CBS 2025 | 德国 solo self-employed 中位数 18,750 欧元；荷兰 17,400 欧元；与 culta.ai 形成地区对照，支持"中位数收入普通"结论 |
+| method-ai-assisted-difficult-conversation.md | 0.70 | 0.74 | MIT 2025 thesis; Harvard PON 2026; ACM CUI 2024 (CommCoach) | AI 角色扮演在谈判/艰难对话培训中的有效性有实证支持；四步准备法为原创整合，需标注边界 |
+| method-ipo-learning-loop.md | 0.72 | 0.76 | Bushnell 1990 (IPO training evaluation model); Kérivel et al. 2021 (IPO in team learning) | IPO 模型作为培训/学习评估框架有学术基础；"一堂 IPO 学习闭环"具体命名需核对课程原文 |
+
+### 8.2 迁移分层调整
+
+- **第一批（建议直接审阅）**：9 张（无变化）
+- **第二批（再核验后审阅）**：从 13 张增至 15 张，新增 `method-ipo-learning-loop.md`、`method-ai-assisted-difficult-conversation.md`
+- **第三批（暂留 60_feedback）**：从 8 张减至 6 张，剩余以洞察卡和未充分验证数据为主
+
+### 8.3 主要教训
+
+1. ** Carta 数据已被多源引用**，但需注意其统计范围为美国 Carta 平台上的初创公司，不等同于全球或中国。
+2. **欧洲官方 solo self-employed 数据**（德国、荷兰）为"中位数收入普通"提供了独立佐证，但中国与欧美市场结构差异大，不能直接套用。
+3. **AI 辅助沟通的实证研究**主要集中在谈判培训和职场沟通场景，效果变量（自信心、准备度、利益识别）可测量，但长期行为和实际结果仍需更多研究。
+4. **IPO 学习闭环**不能简单等同于"一堂原创"，Input-Process-Output 作为系统评估框架早有学术渊源。
+
+---
+
+## 九、仍待深度核验的问题
 
 1. **产业 AI 运营案例**：酒店标签审核、贝壳外呼、阿豪选品的具体项目数据是否可公开审计？
 2. **餐饮渠道饮料开发**：双柚汁成本 21.5 元/升、香精 33kg/吨等数字是否可在行业基准中找到对照？

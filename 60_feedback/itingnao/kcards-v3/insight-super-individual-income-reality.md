@@ -3,12 +3,14 @@ id: "insight-super-individual-income-reality"
 title: "洞察卡：超级个体/一人公司收入的真相"
 type: "insight-card"
 status: "draft"
-confidence_score: 0.68
-trust_level: "medium"
+confidence_score: 0.72
+trust_level: "medium-high"
 source_refs:
   - "itingnao-5548334 一堂课程方法论"
   - "itingnao-4984655 一堂课程方法论"
   - "culta.ai Freelancer & Solopreneur Income Benchmarks 2026"
+  - "德国联邦经济事务部/Prognos AG 2024：Kultur- und Kreativwirtschaft 中的 Solo-Selbstständige 收入研究"
+  - "荷兰 CBS 2024-2025 自雇人员收入统计"
   - "国家税务总局 2025 年个体工商户转型企业数据"
   - "Justin Welsh 等一人公司案例（幸存者偏差样本）"
 related:
@@ -50,6 +52,17 @@ tags:
 | 个转企数量（2025 年前 10 个月） | 6.1 万户，同比增长 134.4% | 国家税务总局 | 高 |
 | 个转企后申报收入同比增长 | 41.4% | 国家税务总局 | 高 |
 | 个转企后开票金额 | 257.8 亿元 | 国家税务总局 | 高 |
+
+## 欧洲官方 solo self-employed 收入中位数（核验补充）
+
+| 指标 | 数据 | 来源 | 可信度 |
+|------|------|------|--------|
+| 德国 solo self-employed 2023 年个人年收入中位数 | 18,750 欧元 | 德国联邦经济事务部/Prognos AG 2024 | 高 |
+| 德国 hybrid workers（兼职自雇+受雇）2023 年中位数 | 32,500 欧元 | 德国联邦经济事务部/Prognos AG 2024 | 高 |
+| 荷兰 solo self-employed 2024 年自雇收入中位数（全部收入） | 17,400 欧元 | 荷兰 CBS 2025 | 高 |
+| 荷兰 solo self-employed 2024 年自雇收入中位数（主业） | 40,800 欧元 | 荷兰 CBS 2025 | 高 |
+
+**说明**：荷兰两个数字差异大，是因为"全部收入"包含了大量兼职/副业自雇者；德国数据则显示纯 solo self-employed 收入明显低于有受雇收入的 hybrid 工作者。二者共同支持"一人公司中位数收入普通"的结论。
 
 ## 关键发现
 
@@ -95,6 +108,17 @@ tags:
 - 考虑辞职做自由职业或一人公司前评估真实收入预期。
 - 评估"超级个体"培训课程的价值。
 - 设计个人商业模式时参考。
+
+## 深度核验说明
+
+### 已验证
+- **culta.ai 2026 数据**：自由职业者/一人公司收入中位数 7.8 万美元，分布呈幂律，15% 高收入者占显著比例。该数据与德国、荷兰官方 solo self-employed 中位数形成地区对照。
+- **德国 Prognos 2024 研究**：纯 solo self-employed 中位数收入（18,750 欧元）显著低于 hybrid 工作者（32,500 欧元），说明"只靠一人公司"的收入中枢并不高。
+- **荷兰 CBS 2025**：solo self-employed 中位数自雇收入 17,400 欧元（全部收入口径），进一步验证中位数有限的结论。
+
+### 待验证/降级
+- **culta.ai 的具体百分比分布**为平台抽样数据，不能等同于全体自由职业者。
+- **Justin Welsh 等极端案例**为公开幸存者，不应作为收入预期基准。
 
 ## 局限
 

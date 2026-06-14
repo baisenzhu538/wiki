@@ -3,12 +3,14 @@ id: "method-ipo-learning-loop"
 title: "方法卡：一堂 IPO 学习闭环"
 type: "method-card"
 status: "draft"
-confidence_score: 0.72
+confidence_score: 0.76
 trust_level: "medium-high"
 source_refs:
   - "itingnao-5548334 一堂课程方法论"
   - "itingnao-4984655 一堂课程方法论"
   - "一堂公开课程资料"
+  - "Bushnell 1990: Input, Process, Output: a Model for Evaluating Training (IBM/TD 研究，被引 444 次)"
+  - "Kérivel et al. 2021: IPO model in team learning (PMC8120967)"
   - "行动学习（Action Learning）理论"
 related:
   - "kcard-yitang-methodology-draft"
@@ -94,6 +96,17 @@ Input（下一轮输入）
 - **费曼学习法**：强调用输出检验理解。
 - **刻意练习**：反馈是刻意练习的核心。
 - **OKR**：设定输出目标驱动输入。
+
+## 深度核验说明
+
+### 已验证
+- **IPO 模型有学术基础**：Bushnell (1990) 在 IBM/Training & Development 期刊提出 "Input-Process-Output: a Model for Evaluating Training"，被引 444 次，将 IPO 作为培训系统评估框架。
+- **IPO 在团队学习中的应用**：Kérivel et al. (2021) 在体育科学团队学习中实证检验 IPO 模型，验证 Input（如视频反馈）→ Process → Outcome 的链路。
+- **与行动学习/费曼学习法/PDCA 的关系**：这些均为成熟学习理论，本卡片的整合具有合理性。
+
+### 待验证/降级
+- "一堂 IPO 学习闭环"的具体命名和四环节划分是否为一堂原创，需核对一堂课程原文。
+- 该方法的跨领域迁移效果（如从技术学习到商业决策）缺乏独立实证。
 
 ## 适用场景
 

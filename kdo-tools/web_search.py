@@ -93,8 +93,35 @@ def search_duckduckgo(query: str) -> list[dict]:
         return [{"title": "DDG Error", "snippet": str(e), "url": ""}]
 
 
+def search_searx(query: str) -> list[dict]:
+    """SearXNG public instances. Free, no key, JSON API."""
+    # Try multiple public instances
+    instances = [
+        "https://searx.be",
+        "https://search.sapti.me",
+        "https://searx.tuxcloud.net",
+    ]
+    for base in instances:
+        try:
+            url = f"{base}/search?q={quote_plus(query)}&format=json&language=zh-CN"
+            req = Request(url, headers={"User-Agent": "KDO-Search/1.0"})
+            resp = json.loads(urlopen(req, timeout=8).read())
+            results = []
+            for item in resp.get("results", [])[:8]:
+                results.append({
+                    "title": item.get("title", ""),
+                    "url": item.get("url", ""),
+                    "snippet": (item.get("content", "") or "")[:300],
+                })
+            if results:
+                return results
+        except Exception:
+            continue
+    return [{"title": "SearXNG unavailable", "snippet": "All public instances unreachable", "url": ""}]
+
+
 def search_cn_bing(query: str) -> list[dict]:
-    """Scrape cn.bing.com search results. Zero config, works in China."""
+    """Scrape cn.bing.com search results. Zero config, works in China. Best-effort HTML parsing."""
     url = f"https://cn.bing.com/search?q={quote_plus(query)}&count=8"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
@@ -103,28 +130,21 @@ def search_cn_bing(query: str) -> list[dict]:
     try:
         req = Request(url, headers=headers)
         html = urlopen(req, timeout=10).read().decode("utf-8", errors="ignore")
-        # Simple extraction from Bing HTML
-        results = []
         import re
-        # Match Bing result blocks: <li class="b_algo"> ... <h2><a href="...">title</a></h2> ... <p>snippet</p>
-        blocks = re.findall(r'<li class="b_algo"[^>]*>(.*?)</li>', html, re.DOTALL)
-        for block in blocks[:8]:
-            link_match = re.search(r'<a[^>]*href="(https?://[^"]+)"[^>]*>(.*?)</a>', block, re.DOTALL)
-            snippet_match = re.search(r'<p[^>]*>(.*?)</p>', block, re.DOTALL)
-            if link_match:
-                title = re.sub(r'<[^>]+>', '', link_match.group(2))
-                # Clean up title prefixes like "baidu.comhttps://..."
-                title = re.sub(r'^[a-z]+\.[a-z]+https?://', 'https://', title)
-                title = title.strip()
-                snippet = re.sub(r'<[^>]+>', '', snippet_match.group(1)) if snippet_match else ""
-                results.append({
-                    "title": title.strip(),
-                    "url": link_match.group(1),
-                    "snippet": snippet.strip()[:300],
-                })
-        return results if results else [{"title": "No results", "snippet": "Bing returned no results for this query", "url": ""}]
+        results = []
+        # Find all h2+a link blocks (Bing's main result links)
+        links = re.findall(r'<h2[^>]*>.*?<a[^>]*href="(https?://[^"]+)"[^>]*>(.*?)</a>', html, re.DOTALL)
+        snippets = re.findall(r'<p[^>]*class="[^"]*b_lineclamp[^"]*"[^>]*>(.*?)</p>', html, re.DOTALL)
+        for i, (url_match, title_raw) in enumerate(links[:8]):
+            title = re.sub(r'<[^>]+>', '', title_raw).strip()
+            # Skip non-result links
+            if not title or len(title) < 5:
+                continue
+            snippet = re.sub(r'<[^>]+>', '', snippets[i][:300]) if i < len(snippets) else ""
+            results.append({"title": title, "url": url_match, "snippet": snippet.strip()[:300]})
+        return results if results else [{"title": "No results", "snippet": "Try a different query", "url": ""}]
     except Exception as e:
-        return [{"title": "Bing Scrape Error", "snippet": str(e), "url": ""}]
+        return [{"title": "Bing Error", "snippet": str(e), "url": ""}]
 
 
 def search(query: str, backend: str = "auto") -> list[dict]:
@@ -137,19 +157,15 @@ def search(query: str, backend: str = "auto") -> list[dict]:
 
     if backend == "bing":
         results = search_bing(query)
-    elif backend == "duckduckgo":
-        results = search_duckduckgo(query)
+    elif backend == "searx":
+        results = search_searx(query)
     elif backend == "cn_bing":
         results = search_cn_bing(query)
     elif backend == "auto":
-        # Try Bing API first (best results), then cn.bing.com scrape
-        bing_key = os.getenv("BING_API_KEY", "")
-        if bing_key:
-            results = search_bing(query)
-        if not results or "ERROR" in results[0].get("title", ""):
+        # SearXNG first (best quality free), then cn.bing.com, then Bing API
+        results = search_searx(query)
+        if not results or "unavailable" in results[0].get("title", "").lower():
             results = search_cn_bing(query)
-        if not results or "ERROR" in results[0].get("title", ""):
-            results = search_duckduckgo(query)
 
     if results:
         _cache_set(query, backend, results)
@@ -174,7 +190,7 @@ if __name__ == "__main__":
     import argparse
     p = argparse.ArgumentParser(description="KDO Web Search Tool")
     p.add_argument("query", help="Search query")
-    p.add_argument("--backend", default="auto", choices=["auto", "bing", "duckduckgo", "cn_bing"])
+    p.add_argument("--backend", default="auto", choices=["auto", "searx", "cn_bing", "bing"])
     p.add_argument("--json", action="store_true", help="Output as JSON")
     args = p.parse_args()
 
