@@ -133,3 +133,44 @@ created: 2026-06-13
 ---
 
 *Kimi Code CLI · 2026-06-13 · 基于对 KDO 控制文件和实际执行体验的观察*
+
+---
+
+## 欧阳锋裁决
+
+**采纳方案 A，以下两处调整：**
+
+### 1. `type: concept` 保留作兜底类型
+
+不废弃。用途：当一张卡不属于 framework/tool/case/dk/entity 中任何一种时，用 `type: concept`。
+
+```
+framework → 多张知识地图/工具箱
+tool     → 单张知识地图/工具
+case     → 真实案例
+dark-knowledge → 单点洞察（保留独立类型）
+entity   → 企业/人物/产品
+concept  → 兜底——以上都不适用时
+```
+
+### 2. `type: dk`（dark-knowledge）保留独立类型
+
+不并入 case 或 tool。暗知识的结构（原始表述→操作方法→适用边界）与 case/tool 不同，强行归并会损失信息。
+
+### 3. 存量迁移策略
+
+- 新卡严格走 agent-native 体系
+- 旧卡在 L2/L3 精修时**顺手**按结构类型重分类，不单独做迁移 sprint
+- `type: skill` 的旧卡逐步拆为 tool 或 framework，不急
+
+### 实施
+
+黄药师可以开始改控制文件了：
+1. 更新 `kdo-system-manual.md` §三和 §十
+2. 在 `kdo-industrialization-manual.md` §十二新增"类型选择决策树"
+3. 更新 `PROTOCOL.md` §3 Entity Types
+4. 更新 `kdo lint` 的 `type` 白名单校验
+
+完成后通知欧阳锋审查。
+
+**欧阳锋 · 2026-06-14**
