@@ -3,12 +3,15 @@ id: "concept-multi-agent-system"
 title: "概念卡：多智能体协作系统（Multi-Agent System）"
 type: "concept-card"
 status: "draft"
-confidence_score: 0.74
-trust_level: "medium-high"
+confidence_score: 0.78
+trust_level: "high"
 source_refs:
   - "itingnao-5549882 AI原生IM与多Agent协作"
   - "itingnao-5549864 AI原生IM与多Agent协作"
-  - "Multi-Agent Systems 研究文献"
+  - "Wooldridge (2009) An Introduction to MultiAgent Systems"
+  - "Shoham & Leyton-Brown (2008) Multiagent Systems"
+  - "Malone & Crowston (1994) Coordination Theory"
+  - "arXiv (2025) Multi-Agent Coordination across Diverse Applications"
   - "OpenAI/Anthropic Agent 技术文档"
 related:
   - "kcard-ai-methodology-tools-draft"
@@ -25,7 +28,25 @@ tags:
 
 ## 一句话定义
 
-多智能体协作系统是由多个具有不同角色、能力和目标的 AI Agent 组成，通过分工、通信和协调共同完成复杂任务的系统。
+多智能体协作系统（Multi-Agent System, MAS）是由多个独立交互的决策主体（Agent）组成，通过分工、通信和协调共同完成复杂任务的系统。
+
+## 学术定义
+
+| 来源 | 定义 |
+|------|------|
+| Wooldridge (2009) | MAS 中的核心问题是协调（coordination），即多个 Agent 如何有效协作。 |
+| Shoham & Leyton-Brown (2008) | MAS 是多个自主 Agent 的集合，这些 Agent 具有共同或冲突的利益和信息。 |
+| Russell & Norvig (2021) | 从 Agent 视角看，一个 Agent 的性能依赖于其他实体，这些实体可被视为 Agent。 |
+| Malone & Crowston (1994) | 协调是管理活动之间的依赖关系（coordination is managing dependencies between activities）。 |
+
+## MAS 中的核心问题：协调
+
+协调（Coordination）是 MAS 的核心机制，涉及四个基本问题：
+
+1. **What is coordination?** 协调是什么？
+2. **Why coordination?** 为什么需要协调？
+3. **Who to coordinate with?** 与谁协调？
+4. **How to coordinate?** 如何协调？
 
 ## 与单 Agent 的区别
 
@@ -46,6 +67,16 @@ tags:
 | 检索 Agent | 搜索和整理外部信息 |
 | 校验 Agent | 检查输出质量和一致性 |
 | 协调 Agent | 管理 Agent 间通信和冲突 |
+
+## 协调机制分类
+
+| 机制 | 说明 | 示例 |
+|------|------|------|
+| 涌现式（Emergent） | Agent 追求各自目标，通过环境交互产生协调行为 | 交通流、市场定价 |
+| 意图式（Intentional） | Agent 主动通信以避免冲突、协调任务 | 多数企业 MAS |
+| 市场式（Market-Based） | 通过拍卖/定价机制分配任务 | 云计算资源调度 |
+| 层级式（Hierarchical） | 严格层级结构，角色和任务集中定义 | 传统组织、CrewAI hierarchical mode |
+| 社交网络式（Social Networks） | 基于信任和社会关系协调 | 去中心化自治组织 |
 
 ## 协作模式
 

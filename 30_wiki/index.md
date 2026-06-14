@@ -1,7 +1,7 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-11T10:00:22+00:00_
+_Last updated: 2026-06-14T06:10:00+00:00_
 
 - [[cases/case-ether-online-acquisition.md|案例：以太利用全网调研能力快速获客]] — source `一堂课程-规模经济章节（Truman口述）`
 - [[cases/case-jh-yitang-vs-sqlhelper.md|一堂数据库vs SQLHelper：同样的需求，两种产品策略——专业与通用的产品分岐]] — source `00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt`
@@ -1216,3 +1216,7 @@ _Last updated: 2026-06-11T10:00:22+00:00_
 - [[tools/modeling-level-map|建模能力段位图：从 L1 到 L6 的十年爬山地图]] — source `src_20260614_bb892297`
 - [[tools/modeling-weapon-library|常见模型武器库：按问题难度调用模型]] — source `src_20260614_73352fa5`
 - [[tools/process-modeling|流程建模：用 SOP 与清单把经验变成稳定产出]] — source `src_20260614_623cfbfd`
+- [[concepts/dk-modeling-sop-execution-locks|SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%]] — source `src_20260614_8269ccdb`
+- [[concepts/dk-modeling-counterexample-driven|建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止]] — source `src_20260614_8269ccdb`
+- [[concepts/dk-modeling-ai-without-judgment|AI 能生成“看着很厉害”的模型，但如果你没有逻辑洁癖，它只会加速你跑偏]] — source `src_20260614_8269ccdb`
+- [[concepts/dk-modeling-essence-predictive|“解释性本质”是高级鸡汤：真正值钱的本质必须能指导下一次真实决策]] — source `src_20260614_8269ccdb`

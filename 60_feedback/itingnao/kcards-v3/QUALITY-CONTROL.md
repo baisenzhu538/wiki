@@ -55,6 +55,10 @@
 | method-ai-landing-impact-evaluation.md | 0.76 | 通用评估框架 |
 | method-lean-startup-hypothesis-validation.md | 0.78 | 经典理论 |
 | method-private-money-control.md | 0.80 | 已补充法律依据、9种合法情形、真实处罚案例 |
+| concept-ai-landing-organizational-fit.md | 0.78 | 已补充 TOE/TAM 理论框架对照 |
+| concept-multi-agent-system.md | 0.78 | 已补充 Wooldridge、Shoham & Leyton-Brown 等学术定义 |
+| method-eliminate-fuzziness.md | 0.76 | 已补充决策疲劳/自我损耗研究引用 |
+| method-ai-native-workflow-design.md | 0.76 | 已补充 CTO Academy 人机协作三阶段框架 |
 | method-strategic-direction-tradeoff.md | 0.75 | 通用战略框架 |
 | concept-y-model-yitang.md | 0.75 | 一堂课程资料 + JTBD |
 
@@ -62,22 +66,18 @@
 
 | 文件名 | 评分 | 待核验问题 | 优先级 |
 |--------|------|-----------|--------|
-| concept-ai-landing-organizational-fit.md | 0.74 | 评估表为原创框架，未经验证 | 中 |
-| concept-multi-agent-system.md | 0.74 | 模式分类为归纳，非严格学术定义 | 中 |
 | fact-double-grapefruit-juice-cost-structure.md | 0.74 | 价格数据已外部验证，成本数据仍无公开来源 | 高 |
+| method-ai-landing-five-steps.md | 0.74 | 通用框架，需要更多企业案例支撑 | 低 |
+| method-cost-taste-balance.md | 0.74 | 已补充食品饮料配方设计通用流程和优化策略 | 中 |
 | insight-ai-landing-high-value-scenes.md | 0.72 | 场景特征为案例归纳，非统计结论 | 中 |
 | insight-ai-pitch-key-elements.md | 0.72 | 基于观察和案例，非投资数据 | 低 |
 | insight-going-global-localization-trap.md | 0.72 | 案例为概括性，未具体到企业 | 低 |
-| insight-human-machine-replacement-path.md | 0.70 | 替代路径为理论框架，案例有限 | 中 |
 | insight-stock-era-marketing-logic.md | 0.72 | 奢侈品案例到大众品类的迁移需谨慎 | 中 |
+| method-ipo-learning-loop.md | 0.72 | 一堂课程资料，通用性待验证 | 中 |
+| insight-human-machine-replacement-path.md | 0.74 | 已补充餐饮自动化市场数据和 McDonald's/Chipotle/Starbucks 案例 | 中 |
 | insight-super-individual-income-reality.md | 0.70 | 中国本地数据不足，但已补充国外基准和中国个体户数据 | 高 |
 | insight-super-individual-survivorship-bias.md | 0.65 | 主要为逻辑推理，缺乏具体收入数据 | 高 |
 | method-ai-assisted-difficult-conversation.md | 0.70 | AI 辅助沟通效果缺乏实证研究 | 中 |
-| method-ai-landing-five-steps.md | 0.74 | 通用框架，需要更多企业案例支撑 | 低 |
-| method-ai-native-workflow-design.md | 0.72 | 框架为原创组合，需验证 | 中 |
-| method-cost-taste-balance.md | 0.74 | 已补充食品饮料配方设计通用流程和优化策略 | 中 |
-| method-eliminate-fuzziness.md | 0.76 | 已补充决策疲劳/自我损耗研究引用 | 中 |
-| method-ipo-learning-loop.md | 0.72 | 一堂课程资料，通用性待验证 | 中 |
 
 ### 3.4 中低可信度（0.40-0.59）
 

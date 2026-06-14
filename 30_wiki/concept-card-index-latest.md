@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-06-14 06:10 UTC
+# Concept Card Index — 2026-06-14 14:00 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -1001,3 +1001,7 @@
 | dk-纪浩-problem-vs-question | 暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem | dark-knowledge | ai-collaboration, yitang |
 | dk-纪浩-simple-complex-routing | 暗知识：简单系统跳过导诊台，复杂系统必须路由 | dk | ai-collaboration, yitang |
 | entity_qishijian_group | 七件事集团 | entity | 私域电商, SaaS, 分销系统 |
+| dk-modeling-sop-execution-locks | SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100% | dark-knowledge | yitang, master |
+| dk-modeling-counterexample-driven | 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止 | dark-knowledge | yitang, master |
+| dk-modeling-ai-without-judgment | AI 能生成“看着很厉害”的模型，但如果你没有逻辑洁癖，它只会加速你跑偏 | dark-knowledge | yitang, ai-saas |
+| dk-modeling-essence-predictive | “解释性本质”是高级鸡汤：真正值钱的本质必须能指导下一次真实决策 | dark-knowledge | yitang, master |

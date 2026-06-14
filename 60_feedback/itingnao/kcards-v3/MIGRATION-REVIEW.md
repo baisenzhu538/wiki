@@ -17,7 +17,7 @@
 
 ---
 
-## 一、建议直接迁移至 30_wiki（9 张）
+## 一、建议直接给老顽童审阅的草案（9 张）
 
 以下知识卡满足全部迁移标准，可信度较高，来源清晰，概念准确。
 
@@ -35,7 +35,7 @@
 
 ---
 
-## 二、建议再核验后迁移（13 张）
+## 二、建议再核验后给老顽童审阅（13 张）
 
 以下知识卡整体质量较好，但存在局部可信度不足或来源单一问题，建议补充核验后再迁移。
 
@@ -46,18 +46,18 @@
 | method-3min-pitch-structure.md | 方法卡 | 0.76 | 补充投资人/评委视角的反馈 |
 | method-ai-landing-impact-evaluation.md | 方法卡 | 0.76 | 补充企业 AI 评估的真实案例 |
 | method-eliminate-fuzziness.md | 方法卡 | 0.76 | 已补充决策疲劳研究，可进一步补充自我损耗实验证据 |
+| method-ai-native-workflow-design.md | 方法卡 | 0.76 | 已补充 CTO Academy 人机协作三阶段框架 |
 | concept-y-model-yitang.md | 概念卡 | 0.75 | 补充一堂课程原文或 JTBD 对照 |
 | method-strategic-direction-tradeoff.md | 方法卡 | 0.75 | 补充战略咨询经典框架对照 |
 | fact-double-grapefruit-juice-cost-structure.md | 事实卡 | 0.74 | **原料成本仍无公开来源，需进一步核验** |
 | fact-smart-kitchen-device-roi.md | 事实卡 | 0.74 | **回本周期厂商宣传与行业预期差异大，需进一步核验** |
 | method-cost-taste-balance.md | 方法卡 | 0.74 | 已补充食品饮料配方设计流程，可补充更多成本数据 |
-| concept-ai-landing-organizational-fit.md | 概念卡 | 0.74 | 与 TOE/TAM 学术框架对照 |
+| insight-human-machine-replacement-path.md | 洞察卡 | 0.74 | 已补充餐饮自动化市场数据和 McDonald's/Chipotle/Starbucks 案例 |
 | method-ai-landing-five-steps.md | 方法卡 | 0.74 | 补充企业 AI 转型公开案例 |
-| concept-multi-agent-system.md | 概念卡 | 0.74 | 与学术文献中的 MAS 定义对照 |
 
 ---
 
-## 三、建议暂留 60_feedback（10 张）
+## 三、建议暂留 60_feedback（8 张）
 
 以下知识卡以归纳、推断、原创框架或单一来源为主，需要更多证据支撑或打磨后再考虑迁移。
 
@@ -67,9 +67,7 @@
 | insight-ai-pitch-key-elements.md | 洞察卡 | 0.72 | 基于观察和案例，缺乏投资人数据 |
 | insight-going-global-localization-trap.md | 洞察卡 | 0.72 | 案例为概括性，未具体到企业 |
 | insight-stock-era-marketing-logic.md | 洞察卡 | 0.72 | 奢侈品案例到大众品类的迁移需谨慎 |
-| method-ai-native-workflow-design.md | 方法卡 | 0.72 | 框架为原创组合，需与 HCI/流程再造文献对照 |
 | method-ipo-learning-loop.md | 方法卡 | 0.72 | 一堂课程资料，通用性待验证 |
-| insight-human-machine-replacement-path.md | 洞察卡 | 0.70 | 替代路径为理论框架，案例有限 |
 | method-ai-assisted-difficult-conversation.md | 方法卡 | 0.70 | AI 辅助沟通效果缺乏实证研究 |
 | insight-super-individual-income-reality.md | 洞察卡 | 0.70 | 中国本地超级个体收入中位数数据不足 |
 | insight-super-individual-survivorship-bias.md | 洞察卡 | 0.65 | 主要为逻辑推理，缺乏具体收入数据 |
