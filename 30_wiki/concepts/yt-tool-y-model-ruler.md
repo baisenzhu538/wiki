@@ -4,7 +4,6 @@ component_of:
   - yt-personal-y-model-exploration-2
 confidence: 0.85
 created_at: 2026-06-06
-deprecation_reason: 
 difficulty: advanced
 domain:
   - yitang
@@ -34,7 +33,6 @@ reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修炼-Y模型实操口述版.md"
 status: enriched
-superseded_by: 
 title: "Y模型尺子刻度法：从模糊经验到可复用评估模型"
 type: tool
 version: 1
@@ -48,7 +46,7 @@ diagnostic_signals:
   - {'signal': '是否设置风险红线并用于一票否决', 'framework_lens': '风险管理 / 非线性', 'follow_up_question': '总分最高但存在致命缺陷的选项是否仍被选中？'}
   - {'signal': '是否同时关注分布形状与总分', 'framework_lens': '系统配置 / 资源匹配', 'follow_up_question': '均衡型与偏科型选项是否被差异化决策？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

@@ -37,7 +37,7 @@ diagnostic_signals:
   - {'signal': '用户定了很多OKR，但只写了目标数字，没定义怎么衡量', 'framework_lens': 'P填了但E/A/S空槽——PEAS四槽缺一不可', 'follow_up_question': '你的目标对应的环境、可执行动作、反馈传感器分别是什么？如果答不上来，目标系统是残缺的'}
   - {'signal': '团队很努力但目标达不成', 'framework_lens': '可能是架构错配，不是努力问题', 'follow_up_question': '这个失败是因为不够努力，还是因为某个PEAS槽位为空或与环境不匹配？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # PEAS核心洞察：决策系统的四槽诊断法

@@ -1,13 +1,11 @@
 ---
 id: yt-personal-ai-thinking-card
-component_of: 
 confidence: 0.8
 created_at: 2026-05-15
 difficulty: intermediate
 domain:
   - personal-methods
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "AI思维卡"
   - "认知升级系统"
@@ -40,7 +38,7 @@ diagnostic_signals:
   - {'signal': '卡中包含明确的适用边界和至少一个可执行的行动建议', 'framework_lens': '补丁必须能安装到具体场景', 'follow_up_question': '这个认知在什么情境下会失效？'}
   - {'signal': '新卡会与旧卡建立双向链接，形成可复用的认知网络', 'framework_lens': '孤立的补丁价值有限', 'follow_up_question': '这张卡与已有哪张卡冲突或互补？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # AI思维卡：从「读书」到「安装认知补丁」

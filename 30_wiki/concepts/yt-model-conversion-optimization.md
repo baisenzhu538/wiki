@@ -1,6 +1,5 @@
 ---
 id: yt-model-conversion-optimization
-component_of: 
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 3000
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "FAB 核心说服"
   - "两者联合使用"
@@ -40,7 +38,7 @@ diagnostic_signals:
   - {'signal': '团队优化了十个触点，但转化率没有提升', 'framework_lens': '优化点过多——同时改多个变量无法判断哪个有效', 'follow_up_question': '这十个触点中，哪个对用户决策影响最大？如果不知道，先做单变量实验'}
   - {'signal': '用户只优化动力，不优化阻力（浪费触点）', 'framework_lens': '动力-阻力失衡——转化率=动力/阻力，只加动力不减阻力效果有限', 'follow_up_question': '用户旅程中哪些环节在消耗信任或增加成本？这些阻力点有没有被优化？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

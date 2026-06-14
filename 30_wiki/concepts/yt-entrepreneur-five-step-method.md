@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-five-step-method
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1868
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "一堂五步法"
   - "需求分析"
@@ -78,7 +76,7 @@ diagnostic_signals:
   - {'signal': '用户按五步法学了一遍，但做项目还是凭感觉', 'framework_lens': '框架未转化为工作流', 'follow_up_question': '你最近一次做项目时，明确使用了五步法的哪一步工具？'}
   - {'signal': '用户 rigidly 按顺序走五步，不做迭代', 'framework_lens': '僵化使用——五步法需要循环迭代', 'follow_up_question': '你的项目走到某一步时，有没有发现需要回到前一步修正？如果没有，可能没有在真实反馈中迭代'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 一堂五步法

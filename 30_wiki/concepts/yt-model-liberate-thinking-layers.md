@@ -1,6 +1,5 @@
 ---
 id: yt-model-liberate-thinking-layers
-component_of: 
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1591
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "六层认知模型"
   - "关联卡片"
@@ -35,7 +33,7 @@ diagnostic_signals:
   - {'signal': '创业者总说"我要颠覆行业"，但连L1最佳实践都没学过', 'framework_lens': 'L0盲目创新——没有经验积累的创新是空想', 'follow_up_question': '你能说出你行业里3个最成功的案例及其关键成功因素吗？如果不能，创新缺乏基础'}
   - {'signal': '用户沉迷于学学科经典，但解决不了具体业务问题', 'framework_lens': '过度抽象——L5经典需要经过L3-L4才能落地', 'follow_up_question': '你最近用学科经典解决了一个什么具体问题？如果没有，经典只是知识装饰'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

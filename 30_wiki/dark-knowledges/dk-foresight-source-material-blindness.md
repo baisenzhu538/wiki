@@ -29,7 +29,7 @@ wiki_refs:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-incident
-author: legacy
+author: "欧阳锋"
 trust_level: medium-high
 ---
 

@@ -1,6 +1,5 @@
 ---
 id: yt-unit-model-three-tools
-component_of: 
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2600
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "单元模型"
   - "斧子尺子梯子"
@@ -42,7 +40,7 @@ diagnostic_signals:
   - {'signal': '尺子阶段是否有真实数据替代拍脑袋', 'framework_lens': '验证 / 小样本测试', 'follow_up_question': '是否凭几个用户反馈就下结论？'}
   - {'signal': '梯子阶段是否关注构造性壁垒和竞争复制', 'framework_lens': '护城河 / 规模经济对抗', 'follow_up_question': '是否只关注 ROI 而忽视竞争对手能否复制？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 单元模型三工具：斧子尺子梯子

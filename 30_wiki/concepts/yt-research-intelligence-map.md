@@ -1,6 +1,5 @@
 ---
 id: yt-research-intelligence-map
-component_of: 
 confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2800
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "情报获取"
   - "调研渠道"
@@ -24,7 +22,6 @@ related:
   - yt-research-industry-canvas
   - yt-research-user-jtbd
   - yt-research-mindset
-reviewed_by: 
 source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
 status: reviewed
@@ -46,7 +43,7 @@ diagnostic_signals:
   - {'signal': '会根据信息价值决定投入力度，而不是所有问题都穷尽', 'framework_lens': '调研投入与决策价值匹配', 'follow_up_question': '这个信息值多少钱？你愿意花多少精力去找？'}
   - {'signal': '获取的信息会标注来源和可信度', 'framework_lens': '情报质量需要溯源', 'follow_up_question': '这条信息的原始来源是什么？可信度如何？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 情报获取全景地图：13+渠道穷尽手段

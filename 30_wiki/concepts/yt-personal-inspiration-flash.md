@@ -1,6 +1,5 @@
 ---
 id: yt-personal-inspiration-flash
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 3000
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "灵感闪现"
   - "灵感捕捉"
@@ -43,7 +41,7 @@ diagnostic_signals:
   - {'signal': '有固定机制捕获灵感（笔记、语音、画草图），不让它溜走', 'framework_lens': '灵感易逝', 'follow_up_question': '最近一次灵感出现后，你多久内完成了记录？'}
   - {'signal': '灵感会被主动与当前要解决的问题连接，而不是收藏起来', 'framework_lens': '灵感的价值在于解决问题', 'follow_up_question': '这个灵感能解决你当前哪个具体问题？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 灵感闪现（认知篇）

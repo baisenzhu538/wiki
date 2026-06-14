@@ -5,16 +5,16 @@ domain:
   - ai-saas
 source_refs:
   - src_20260522_d75f0a0d
-status: enriched
+status: draft
 title: "OCR: 一堂进步大地图"
 type: concept
 updated_at: 2026-05-22
 pipeline:
   - confidence-source-cited
-author: legacy
+author: unknown
 reviewed_by: pending
-confidence: 0.8
-trust_level: medium
+confidence: 0.6
+trust_level: low
 ---
 
 # OCR: 一堂进步大地图

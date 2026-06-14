@@ -29,7 +29,7 @@ reviewed_by: "黄药师"
 confidence: 0.8
 pipeline:
   - confidence-source-cited
-author: legacy
+author: "纪浩"
 trust_level: medium-high
 ---
 

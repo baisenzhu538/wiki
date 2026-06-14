@@ -4,7 +4,6 @@ component_of:
   - yt-model-pan-product-demand-toolkit
 confidence: 0.85
 created_at: 2026-06-06
-deprecation_reason: 
 difficulty: foundational
 domain:
   - yitang
@@ -31,7 +30,6 @@ reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修炼-泛产品设计工具篇口述版.md"
 status: enriched
-superseded_by: 
 title: "FAB核心说服：从产品特性到用户利益的转化法"
 type: tool
 version: 1
@@ -46,7 +44,7 @@ diagnostic_signals:
   - {'signal': 'FAB 承诺是否与产品实际交付一致', 'framework_lens': '期望管理 / NPS', 'follow_up_question': "用户被说服后体验，是否会发现'说得比做得好'？"}
   - {'signal': '是否根据用户决策阶段选择 FAB 顺序（F→A→B vs B→A→F）', 'framework_lens': '场景适配 / 说服节奏', 'follow_up_question': '高客单价/低认知场景是否仍在用功能列表开场？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

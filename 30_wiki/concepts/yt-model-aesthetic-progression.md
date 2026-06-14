@@ -1,6 +1,5 @@
 ---
 id: yt-model-aesthetic-progression
-component_of: 
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2330
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "从看不见到大胆想象的进化路径"
   - "升级策略"
@@ -38,7 +36,7 @@ diagnostic_signals:
   - {'signal': '用户看了审美层级图，但还是说不出什么是好设计', 'framework_lens': '案例输入不足——审美提升需要大量高质量案例浸泡', 'follow_up_question': '过去一个月你认真看过多少个优秀设计案例？如果<30个，你的审美数据库太薄'}
   - {'signal': '用户直接跳到"解放思想"层，但连优秀案例都没看过几个', 'framework_lens': '跨层学习——审美提升有阶段顺序，跳过基础层会空中楼阁', 'follow_up_question': '你能说出你所在领域里3个被广泛认可的最佳实践吗？如果不能，先回到L1-L2'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

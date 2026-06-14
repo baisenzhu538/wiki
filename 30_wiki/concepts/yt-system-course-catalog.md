@@ -22,7 +22,7 @@ diagnostic_signals:
   - {'signal': '学习者是否用课程来确认已知而非作为行动前提', 'framework_lens': '赋能 vs 依赖 / Illich 批判', 'follow_up_question': '上完课后，学习者自己做事的信心是变强还是变弱？'}
   - {'signal': "团队/组织是否避免用'上课覆盖率'替代'行为改变率'", 'framework_lens': '组织绩效 / Perkins 元素症', 'follow_up_question': '课程采购后，实际工作方式发生了什么改变？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 reviewed_by: pending
 confidence: 0.8
 trust_level: medium

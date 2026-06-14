@@ -4,7 +4,6 @@ component_of:
   - yt-composite-pan-product-methodology
 confidence: 0.85
 created_at: 2026-05-11
-deprecation_reason: 
 difficulty: intermediate
 domain:
   - yitang
@@ -35,7 +34,6 @@ source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-内核和边界.png"
   - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
 status: enriched
-superseded_by: 
 title: "泛产品设计·落地工具箱（19张卡牌）"
 type: framework
 version: 1
@@ -45,7 +43,7 @@ diagnostic_signals:
   - {'signal': '用户工具很多但产品迭代慢', 'framework_lens': '工具没有形成工作流', 'follow_up_question': '你的落地工具箱中，哪些工具已经融入日常工作流？如果大部分只是收藏，没有形成闭环'}
   - {'signal': '用户只打磨不验证', 'framework_lens': '缺乏反馈闭环', 'follow_up_question': '你打磨的每个版本有没有人看、有人用、有人反馈？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

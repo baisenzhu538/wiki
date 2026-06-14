@@ -1,6 +1,5 @@
 ---
 id: yt-personal-y-model-practice
-component_of: 
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2024
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "Y模型四最"
   - "Y模型实操"
@@ -36,7 +34,7 @@ diagnostic_signals:
   - {'signal': '能区分Y模型用于‘事前推演’和‘事后解释’，更重视事前推演', 'framework_lens': 'Y模型的价值在预测', 'follow_up_question': '这个Y模型是在行动前画的，还是成功后补的？'}
   - {'signal': '能把Y模型应用到至少两个不同领域，并发现通用结构', 'framework_lens': 'Y模型跨域迁移', 'follow_up_question': '这个Y模型在另一个领域中如何表达？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

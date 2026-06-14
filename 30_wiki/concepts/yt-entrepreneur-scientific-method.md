@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-scientific-method
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1833
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "Y模型"
   - "科学创业方法"
@@ -40,7 +38,7 @@ diagnostic_signals:
   - {'signal': '用户说"这是科学方法"，但假设不可证伪', 'framework_lens': '伪科学——没有证伪条件', 'follow_up_question': '什么证据会让你放弃这个假设？如果答不上来，这不是科学方法'}
   - {'signal': '用户只做验证自己假设的实验', 'framework_lens': '证实偏差', 'follow_up_question': '你最近设计的实验中，有几个是为了证伪而不是证实？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # Y模型/科学方法

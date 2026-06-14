@@ -1,6 +1,5 @@
 ---
 id: yt-model-questioning-practice-canvas
-component_of: 
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1832
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "使用场景矩阵"
   - "关联卡片"
@@ -34,7 +32,7 @@ diagnostic_signals:
   - {'signal': '用户看了四层框架但提问能力没提升', 'framework_lens': '只看不练', 'follow_up_question': '你最近一周在多少个真实场景中刻意练习了不同层级的提问？'}
   - {'signal': '用户只在业务分析层练习，不跨层', 'framework_lens': '练习单一', 'follow_up_question': '你最近一次在辅导团队或咨询教练场景中使用提问工具是什么时候？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

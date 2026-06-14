@@ -4,7 +4,6 @@ component_of:
   - yt-model-personal-map
 confidence: 0.85
 created_at: 2026-06-06
-deprecation_reason: 
 difficulty: advanced
 domain:
   - yitang
@@ -34,7 +33,6 @@ reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修身-思维模型口述版.md"
 status: enriched
-superseded_by: 
 title: "思维模型提炼：从体感经验到可复用武器库"
 type: tool
 version: 1
@@ -47,7 +45,7 @@ diagnostic_signals:
   - {'signal': "是否区分'模型边界'与'例外条件'并持续更新", 'framework_lens': '边界意识 / 迭代', 'follow_up_question': '模型失效时是否被归因为例外而非更新模型？'}
   - {'signal': '模型提炼是否扎根于躬身入局的体感经验', 'framework_lens': '体感 / 抽象风险', 'follow_up_question': '没有体感的抽象模型是否导致战略误判？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

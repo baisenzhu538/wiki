@@ -34,7 +34,7 @@ yitang:
   level: core
 pipeline:
   - confidence-source-cited
-author: legacy
+author: "老顽童"
 ---
 
 # 案例：扭蛋机/抓娃娃机的单元模型段位进阶

@@ -1,34 +1,34 @@
 ---
-id: "dk-mckinsey-hypothesis-driven-pitfalls"
+id: dk-mckinsey-hypothesis-driven-pitfalls
 title: "暗知：假设驱动方法论的三个反直觉陷阱"
-type: "dk"
-status: "enriched"
+type: dk
+status: enriched
 domain:
-  - "consulting"
-  - "yitang"
+  - consulting
+  - yitang
 source_refs:
   - "Rasiel, E. (1999). *The McKinsey Way*. McGraw-Hill."
   - "Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux."
 bridges_to:
   - {'target': 'concept-一堂-hypothesis-driven-business-methodology', 'relation': 'warns_against', 'description': '假设驱动方法论的黑暗面——这些陷阱在一堂创业课程中被淡化', 'context': "一堂课程强调'假设驱动的优势'，但未深度讨论其中的认知陷阱。这张暗知卡补齐这个视角——知道方法论的陷阱才能避免成为方法论的囚徒"}
 related:
-  - "concept-mckinsey-hypothesis-driven"
-  - "skill-mckinsey-hypothesis-driven-workflow"
+  - concept-mckinsey-hypothesis-driven
+  - skill-mckinsey-hypothesis-driven-workflow
   - "concept-一堂-hypothesis-driven-business-methodology"
-  - "yt-entrepreneur-key-hypotheses"
+  - yt-entrepreneur-key-hypotheses
   - "skill-一堂-hypothesis-validation-three-axe"
 tags:
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#cognitive-bias"
-  - "#consulting"
+  - #scene/business-analysis
+  - #scene/learning-methodology
+  - #cognitive-bias
+  - #consulting
 version: 1
-created_at: "2026-06-11"
-updated_at: "2026-06-11"
-reviewed_by: "laowantong"
-author: "legacy"
+created_at: 2026-06-11
+updated_at: 2026-06-11
+reviewed_by: laowantong
+author: unknown
 confidence: 0.85
-trust_level: "medium-high"
+trust_level: medium-high
 ---
 
 # 暗知：假设驱动方法论的三个反直觉陷阱

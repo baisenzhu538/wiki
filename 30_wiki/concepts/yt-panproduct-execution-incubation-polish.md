@@ -46,7 +46,7 @@ diagnostic_signals:
   - {'signal': '每次 revisit 都对照明确的标准检查，而不是凭感觉改', 'framework_lens': '打磨需要验收标准', 'follow_up_question': '这个版本的改动解决了上一次评审中的哪个具体问题？'}
   - {'signal': '能区分‘真正需要打磨’和‘用打磨逃避决策’', 'framework_lens': '打磨是手段不是目的', 'follow_up_question': '如果明天必须上线，你现在做的打磨还重要吗？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

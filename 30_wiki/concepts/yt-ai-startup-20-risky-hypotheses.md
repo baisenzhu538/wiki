@@ -1,6 +1,5 @@
 ---
 id: yt-ai-startup-20-risky-hypotheses
-component_of: 
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: intermediate
@@ -9,7 +8,6 @@ domain:
   - ai
 estimated_tokens: 2400
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "AI创业风险"
   - "高风险假设"
@@ -38,7 +36,7 @@ diagnostic_signals:
   - {'signal': '创业者拿着清单逐项检查，但所有20条都标绿', 'framework_lens': '清单成了安慰剂——高风险假设需要被验证而不是被否认', 'follow_up_question': '这20条中，哪3条如果错了会让公司直接死掉？你为它们设计了什么验证实验？'}
   - {'signal': '团队只关注需求类假设，不验证商业模式和壁垒', 'framework_lens': '五维失衡——清单是系统性的，不能只挑熟悉的看', 'follow_up_question': '你的商业模式假设和壁垒假设分别列了几条？如果少于需求类的一半，分析是失衡的'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # AI创业20个高风险假设清单

@@ -45,7 +45,7 @@ diagnostic_signals:
   - {'signal': '边界上的功能需求会被评估是否损害内核，而不是一律接受或拒绝', 'framework_lens': '边界是围绕内核的可协商区域', 'follow_up_question': '这个功能如果做了，会强化、稀释还是模糊内核？'}
   - {'signal': '在面对资源冲突时，能用内核作为取舍标准', 'framework_lens': '内核提供决策优先级', 'follow_up_question': '过去一个月里，有哪次排期是依据内核做出的取舍？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

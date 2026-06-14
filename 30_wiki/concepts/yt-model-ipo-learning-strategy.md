@@ -1,6 +1,5 @@
 ---
 id: yt-model-ipo-learning-strategy
-component_of: 
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2214
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "6 要素闭环"
   - "IPO 科学学习全景策略"
@@ -42,7 +40,7 @@ diagnostic_signals:
   - {'signal': '用户输入很多课程，但输出很少', 'framework_lens': 'IPO失衡——输入处理输出比例失调，学习变成囤积', 'follow_up_question': '你最近一个月输入了几小时内容？产出了几小时内容/行动？如果输入:输出>10:1，IPO失衡'}
   - {'signal': '用户有目标有输入，但没有反馈闭环', 'framework_lens': '反馈缺失——没有反馈的学习无法迭代', 'follow_up_question': '你的输出有没有人看、有人评、有人用？如果没有，你在 closed loop 里练习'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

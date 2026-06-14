@@ -39,7 +39,7 @@ pipeline:
 diagnostic_signals:
   - {'signal': '单元模型搭得很漂亮，但关键参数怎么都算不准', 'framework_lens': '参数可信度不足——模型结构越精确，参数误差扭曲越严重', 'follow_up_question': '哪些参数来自真实数据、哪些是估算？估算参数偏差±30%结论还站得住吗？'}
   - {'signal': '按单元模型算出来应该赚钱，但实际在亏钱', 'framework_lens': '隐形成本遗漏——模型算的是理想情况，实际业务有模型未覆盖的随机因素', 'follow_up_question': "实际成本和模型成本之间最大的缺口在哪里？有没有哪项成本'忘了'放进模型？"}
-author: legacy
+author: "老顽童"
 ---
 
 # 单元模型搭建五步法

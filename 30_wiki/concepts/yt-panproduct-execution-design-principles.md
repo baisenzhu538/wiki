@@ -46,7 +46,7 @@ diagnostic_signals:
   - {'signal': '原则数量精简到能被团队记住（通常 3-7 条）', 'framework_lens': '可记忆才能被执行', 'follow_up_question': '团队能不查文档说出全部原则吗？'}
   - {'signal': '遇到设计冲突时，能用原则做出可解释的选择', 'framework_lens': '原则的价值在于裁决', 'follow_up_question': '最近一次设计争议中，是哪条原则打破了平局？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

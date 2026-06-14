@@ -28,7 +28,6 @@ related:
   - yt-personal-deep-review
   - yt-unit-model-ladder
   - yt-unit-model-benchmark
-reviewed_by: 
 source_refs:
   - "00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt"
   - "00_inbox/科学决策/一堂-科学决策-ROI高阶训练全景图.png"
@@ -51,7 +50,7 @@ pipeline:
 diagnostic_signals:
   - {'signal': "团队复盘时所有人都在说'当时信息不足'、'运气不好'，没有任何人承认自己分析有缺陷", 'framework_lens': '外部化偏差——复盘变成了自我辩护，没有进入L4能力层', 'follow_up_question': '如果当时信息确实不足，为什么我们没建立信息收集机制？这个能力缺失对应到谁、什么时候补上？'}
   - {'signal': "复盘产出了十几条'经验教训'，但三个月后同样错误又犯", 'framework_lens': '迁移规则没有接入决策流程——经验教训停留在文档里，没有变成下次决策的强制检查点', 'follow_up_question': "这十几条教训中，有多少条已经被写入了'决策手册'或SOP？下次做同类决策时，决策者会不会自动看到这些规则？"}
-author: legacy
+author: "老顽童"
 ---
 
 # 决策复盘工具：L1-L4深度复盘法 + 假设验证闭环

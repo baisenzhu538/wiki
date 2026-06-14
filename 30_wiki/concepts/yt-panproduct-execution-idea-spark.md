@@ -45,7 +45,7 @@ diagnostic_signals:
   - {'signal': '创意数量足够多后，才进入筛选和收敛阶段', 'framework_lens': '发散先于收敛', 'follow_up_question': '在评价任何 idea 之前，你生成了多少个候选方案？'}
   - {'signal': '每个候选创意都能追溯到要解决的问题或要满足的需求', 'framework_lens': '创意必须对准问题', 'follow_up_question': '这个创意解决了哪个用户的哪个具体问题？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

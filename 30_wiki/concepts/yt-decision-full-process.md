@@ -37,7 +37,6 @@ related:
   - yt-unit-model-benchmark
   - yt-unit-model-dynamic
   - yt-unit-model-ai-assisted
-reviewed_by: 
 source_refs:
   - "00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt"
   - "00_inbox/科学决策/一堂-科学决策-ROI高阶训练全景图.png"
@@ -68,7 +67,7 @@ pipeline:
 diagnostic_signals:
   - {'signal': '团队每周走完整五阶段流程，但决策速度越来越慢，创新实验数量下降', 'framework_lens': '流程过度工程化——全景流程是训练框架，不是每个决策的强制工序', 'follow_up_question': '过去一周团队做了多少个决策？其中有多少个值得走完整五阶段？如果>50%走了完整版，说明阈值设得太低'}
   - {'signal': "创业者说'我按流程做了完整分析，但还是错过了最好的机会'", 'framework_lens': "涌现战略被压抑——很多机会是'做出来才知道'，不是'分析出来'的", 'follow_up_question': '这个机会最初是怎么被识别的？是通过流程分析发现的，还是通过一个小实验、一次偶然反馈发现的？'}
-author: legacy
+author: "老顽童"
 ---
 
 # 科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型

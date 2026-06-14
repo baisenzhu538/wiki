@@ -37,7 +37,7 @@ diagnostic_signals:
   - {'signal': '金句出现在最关键的位置（结尾、标题、转折点），而不是到处撒', 'framework_lens': '金句是注意力的钉子', 'follow_up_question': '这段内容里最适合放金句的位置在哪里？'}
   - {'signal': '金句让人想传播，但传播后不会扭曲原意', 'framework_lens': '金句是可传播的锚点', 'follow_up_question': '用户只记住这句话，能否代表你的整体立场？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

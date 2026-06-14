@@ -1,6 +1,5 @@
 ---
 id: yt-unit-model-construction
-component_of: 
 confidence: 0.85
 created_at: 2026-05-24
 difficulty: intermediate
@@ -28,7 +27,6 @@ related:
   - yt-decision-y-model
   - master-first-principles
   - master-systems-thinking
-reviewed_by: 
 source_refs:
   - "src_20260524_9f4e5d6a-一堂-单元模型02口述"
   - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
@@ -52,7 +50,7 @@ diagnostic_signals:
   - {'signal': '是否对模型做压力测试/悲观情景验证', 'framework_lens': '风险管理 / 不确定性', 'follow_up_question': '是否只用乐观数据做预测？'}
   - {'signal': '单元分类（A/B/C/D）是否与业务阶段匹配', 'framework_lens': '业务分类 / 阶段适配', 'follow_up_question': '是否把 C/D 类复杂业务当成 A/B 类简单业务建模？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 单元模型构建法：拆推评算与ABCD模型分类

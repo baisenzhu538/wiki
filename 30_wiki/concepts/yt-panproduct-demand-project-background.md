@@ -43,7 +43,7 @@ diagnostic_signals:
   - {'signal': '背景分析结果直接转化为项目范围和优先级，而不是停留在报告', 'framework_lens': '分析必须产生决策输入', 'follow_up_question': '背景分析后，有哪些原定的功能被砍掉或推迟了？'}
   - {'signal': '项目中期会重新审视背景假设，而不是一次性分析后束之高阁', 'framework_lens': '背景会随环境变化', 'follow_up_question': '过去一个月里，八个维度中有哪些假设被新信息推翻？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

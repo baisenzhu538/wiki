@@ -43,7 +43,7 @@ diagnostic_signals:
   - {'signal': '惊喜设计同时考虑‘提升交付’和‘管理预期’两条路径', 'framework_lens': '惊喜有两种杠杆', 'follow_up_question': '你是通过超预期交付，还是通过巧妙管理预期来创造惊喜？'}
   - {'signal': '惊喜方案有可衡量的情感或行为指标，而不是凭感觉', 'framework_lens': ' delight 必须被验证', 'follow_up_question': '用户复购率、推荐率或满意度中，哪个指标能反映惊喜效果？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

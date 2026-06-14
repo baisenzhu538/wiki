@@ -46,7 +46,7 @@ diagnostic_signals:
   - {'signal': 'MVP 的开发周期以天/周计，而不是月', 'framework_lens': '低成本 = 快速迭代', 'follow_up_question': '这个 MVP 能否在2周内上线并收集到真实反馈？'}
   - {'signal': 'MVP 有明确的通过/不通过标准，而不是‘看看用户反应’', 'framework_lens': '实验必须有 kill 条件', 'follow_up_question': '多少用户采取什么行为，才算验证成功？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

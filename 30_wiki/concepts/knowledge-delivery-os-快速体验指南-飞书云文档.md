@@ -11,7 +11,7 @@ type: concept
 updated_at: 2026-05-04
 pipeline:
   - confidence-source-cited
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.8
 trust_level: medium

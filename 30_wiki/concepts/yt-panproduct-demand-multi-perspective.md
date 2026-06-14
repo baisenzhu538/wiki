@@ -42,7 +42,7 @@ diagnostic_signals:
   - {'signal': '能指出不同视角之间的冲突，并把冲突作为设计输入而不是回避', 'framework_lens': '冲突是设计约束，不是噪声', 'follow_up_question': '你最近一次的设计改动，是为了调和哪两个视角的冲突？'}
   - {'signal': '最终方案能用一句话说明如何平衡各视角，而不是只满足一方', 'framework_lens': '多视角的价值在于合成', 'follow_up_question': '如果只满足决策者的诉求，用户的体验会恶化到什么程度？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

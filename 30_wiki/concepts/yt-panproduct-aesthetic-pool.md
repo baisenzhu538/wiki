@@ -44,7 +44,7 @@ diagnostic_signals:
   - {'signal': '池中案例按设计维度（如信息层级、交互效率、视觉一致性）做了标签', 'framework_lens': '从素材到结构化参照系', 'follow_up_question': '当你卡在‘信息层级’问题时，能否只过滤出相关案例？'}
   - {'signal': '同一案例会在多个版本的方案评审中被反复引用，并推动迭代', 'framework_lens': '池子的价值在于持续打磨', 'follow_up_question': '上一次方案评审中，池子里的哪个案例直接促成了设计改动？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

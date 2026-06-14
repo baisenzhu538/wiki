@@ -22,7 +22,7 @@ wiki_refs:
 pipeline:
   - confidence-source-cited
   - confidence-case-verified
-author: legacy
+author: "黄药师"
 reviewed_by: pending
 confidence: 0.85
 trust_level: high

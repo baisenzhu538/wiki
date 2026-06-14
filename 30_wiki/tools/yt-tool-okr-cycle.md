@@ -1,26 +1,25 @@
 ---
-
-id: "yt-tool-okr-cycle"
+id: yt-tool-okr-cycle
 title: "OKR 制定与复盘罗盘"
-type: "tool"
+type: tool
 status: enriched
 domain:
-  - "yitang"
-language: "zh-CN"
+  - yitang
+language: zh-CN
 version: 1
-difficulty: "foundational"
+difficulty: foundational
 confidence: 0.85
-prerequisites: ""
+prerequisites: 
 component_of:
-  - "yt-management-toolkit-overview"
+  - yt-management-toolkit-overview
 related:
-  - "yt-management-goal-management"
-  - "yt-management-scientific-meetings"
-  - "yt-management-project-management"
-  - "yt-management-business-formula"
-  - "yt-decision-y-model"
-  - "yt-concept-weapon-arsenal"
-contradicts: ""
+  - yt-management-goal-management
+  - yt-management-scientific-meetings
+  - yt-management-project-management
+  - yt-management-business-formula
+  - yt-decision-y-model
+  - yt-concept-weapon-arsenal
+contradicts: 
 query_triggers:
   - "OKR 制定"
   - "OKR 复盘"
@@ -33,30 +32,31 @@ query_triggers:
   - "OKR 与 KPI 区别"
   - "目标管理工具"
 tags:
-  - "#boundary/not-for-creative"
-  - "confidence-source-cited"
-  - "#management"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#tool"
-  - "#yitang"
+  - #boundary/not-for-creative
+  - confidence-source-cited
+  - #management
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/publish-deploy
+  - #tool
+  - #yitang
 trust_level: medium
-yitang: {'map': 'management', 'module': '目标管理', 'course_id': 'yt-tool-okr-cycle', 'course_type': 'tool', 'level': 'core'}
+yitang:
+  map: management
+  module: "目标管理"
+  course_id: yt-tool-okr-cycle
+  course_type: tool
+  level: core
 source_refs:
-  - "30_wiki/concepts/yt-management-goal-management.md"
-created_at: "2026-05-19"
-updated_at: "2026-05-19"
+  - 30_wiki/concepts/yt-management-goal-management.md
+created_at: 2026-05-19
+updated_at: 2026-05-19
 estimated_tokens: 3300
 reviewed_by: "周伯通"
 diagnostic_signals:
-  - signal: "季度末到了，团队打开OKR文档——发现上一次更新是3个月前"
-    framework_lens: "写了但没用——OKR是'季度初写一次、季度末看一眼'的文档，而非实时引导工具。OKR的真正价值在追踪过程中，而非在设定时"
-    follow_up_question: "你们上一次在周会上讨论OKR是什么时候？如果答案是'记不清了'，OKR已经是一个形式而非工具"
-  - signal: "团队的OKR完成率90%+，但业务实际进展很差——完成了目标但没达成目的"
-    framework_lens: "写了但没用——全绿的OKR和全红的OKR一样危险。可能是KR设成了任务清单（做了=完成了），也可能是团队在'挑软柿子'——只完成容易量化的KR，回避了真正重要但难量化的突破"
-    follow_up_question: "完成的KR里，去掉'按流程完成'类的、挑出真正创造了用户/客户价值的——还剩几个？"
-author: legacy
+  - {'signal': '季度末到了，团队打开OKR文档——发现上一次更新是3个月前', 'framework_lens': "写了但没用——OKR是'季度初写一次、季度末看一眼'的文档，而非实时引导工具。OKR的真正价值在追踪过程中，而非在设定时", 'follow_up_question': "你们上一次在周会上讨论OKR是什么时候？如果答案是'记不清了'，OKR已经是一个形式而非工具"}
+  - {'signal': '团队的OKR完成率90%+，但业务实际进展很差——完成了目标但没达成目的', 'framework_lens': "写了但没用——全绿的OKR和全红的OKR一样危险。可能是KR设成了任务清单（做了=完成了），也可能是团队在'挑软柿子'——只完成容易量化的KR，回避了真正重要但难量化的突破", 'follow_up_question': "完成的KR里，去掉'按流程完成'类的、挑出真正创造了用户/客户价值的——还剩几个？"}
+author: "老顽童"
 ---
 
 # OKR 制定与复盘罗盘

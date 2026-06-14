@@ -43,7 +43,7 @@ diagnostic_signals:
   - {'signal': '能区分‘用户想要’和‘用户需要’，并解释为什么有时不满足用户的直接要求', 'framework_lens': '用户视角 ≠ 用户说什么要什么', 'follow_up_question': '用户要求的功能如果做了，会不会损害他的长期目标？'}
   - {'signal': '团队中有人扮演‘用户代言人’角色，并在关键决策时发言', 'framework_lens': '用户视角需要制度化', 'follow_up_question': '最近一次方案评审中，有人专门从用户角度提出反对意见吗？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

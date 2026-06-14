@@ -1,6 +1,5 @@
 ---
 id: yt-model-prediction-model
-component_of: 
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2226
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "三种预判范式"
   - "从最糙版到复杂版的三种预判范式"
@@ -36,7 +34,7 @@ diagnostic_signals:
   - {'signal': '用户用旧版预判模型做重要决策', 'framework_lens': '已被替代', 'follow_up_question': '你知道 [[yt-foresight-model-taxonomy]] 已经替代了本卡吗？重要决策应参考新版'}
   - {'signal': '用户只用最糙版处理复杂决策', 'framework_lens': '工具不足', 'follow_up_question': '这个决策失败的代价是什么？如果高，N要素不够'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

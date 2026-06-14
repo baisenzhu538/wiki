@@ -4,7 +4,6 @@ component_of:
   - yt-model-pan-product-aesthetic-toolkit
 confidence: 0.88
 created_at: 2026-06-06
-deprecation_reason: 
 difficulty: intermediate
 domain:
   - yitang
@@ -31,7 +30,6 @@ reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修身-泛产品设计审美口述.md"
 status: enriched
-superseded_by: 
 title: "最佳实践学习四步法：从收集到超越"
 type: tool
 version: 1
@@ -45,7 +43,7 @@ diagnostic_signals:
   - {'signal': '收集案例是否主动包含跨领域/反常识来源以避免同质化', 'framework_lens': '创新 / 盲区突破', 'follow_up_question': '最佳实践水是否让产品越来越像行业平均水平？'}
   - {'signal': "设计决策是否先问'用户需要什么'再问'最佳实践怎么做'", 'framework_lens': '用户中心 / 参考≠目标', 'follow_up_question': "是否把'不比竞品差'当成设计目标？"}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

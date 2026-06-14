@@ -43,7 +43,7 @@ diagnostic_signals:
   - {'signal': '结论不只是‘赛道好不好’，而是明确‘值不值得我们现在进入、以什么方式进入’', 'framework_lens': '行业分析服务于进入决策', 'follow_up_question': '根据画布结论，你是否应该进入、观望还是放弃？为什么？'}
   - {'signal': '分析中考虑了间接替代品和新进入者，而不仅仅是现有竞品', 'framework_lens': '赛道边界大于直接竞品集合', 'follow_up_question': '用户如果不选你，除了直接竞品还会怎么解决这个需求？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

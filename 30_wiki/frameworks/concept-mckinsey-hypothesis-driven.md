@@ -1,11 +1,11 @@
 ---
-id: "concept-mckinsey-hypothesis-driven"
+id: concept-mckinsey-hypothesis-driven
 title: "Hypothesis-Driven Approach：假设驱动工作法"
-type: "framework"
-status: "enriched"
+type: framework
+status: enriched
 domain:
-  - "consulting"
-  - "yitang"
+  - consulting
+  - yitang
 source_refs:
   - "Rasiel, E. (1999). *The McKinsey Way*. McGraw-Hill."
   - "Friga, P. N. (2003). *The McKinsey Mind*. McGraw-Hill."
@@ -17,23 +17,23 @@ diagnostic_signals:
   - {'signal': "用户说'我收集了大量数据但做不出结论'", 'framework_lens': 'Hypothesis-Driven 检查：数据收集是否围绕特定假设展开', 'follow_up_question': "在你收集的所有数据中，有多少是为了'验证某个具体假设'而收集的？如果没有，你需要先形成假设再收集数据"}
   - {'signal': '团队在验证阶段争论不休，每个人都认为自己是对的', 'framework_lens': 'Hypothesis-Driven 检查：初始假设是否被显式记录并可被证伪', 'follow_up_question': '你们各自的核心假设是什么？这些假设中，哪些是可以用2周内的实验证伪的？'}
 related:
-  - "concept-mckinsey-mece"
-  - "concept-mckinsey-issue-tree"
-  - "yt-entrepreneur-key-hypotheses"
-  - "yt-entrepreneur-five-step-method"
+  - concept-mckinsey-mece
+  - concept-mckinsey-issue-tree
+  - yt-entrepreneur-key-hypotheses
+  - yt-entrepreneur-five-step-method
   - "concept-一堂-hypothesis-driven-business-methodology"
 tags:
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#method/checklist"
-  - "#consulting"
+  - #scene/business-analysis
+  - #scene/learning-methodology
+  - #method/checklist
+  - #consulting
 version: 1
-created_at: "2026-06-11"
-updated_at: "2026-06-13"
-reviewed_by: "laowantong"
-author: "legacy"
+created_at: 2026-06-11
+updated_at: 2026-06-13
+reviewed_by: laowantong
+author: "老顽童"
 confidence: 0.85
-trust_level: "medium-high"
+trust_level: medium-high
 ---
 
 # Hypothesis-Driven Approach：假设驱动工作法

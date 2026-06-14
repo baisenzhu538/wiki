@@ -46,7 +46,7 @@ diagnostic_signals:
   - {'signal': '用同一套维度对多个案例打分，能解释分数差异背后的设计选择', 'framework_lens': '模型让比较产生结构', 'follow_up_question': '两个得分相近的案例，在设计取舍上有什么不同？'}
   - {'signal': '模型能预测一个新设计大概会落在什么质量区间', 'framework_lens': '评价模型应具备生成性', 'follow_up_question': '用模型评估一个你还没做的方案，它暴露的最大风险点是什么？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

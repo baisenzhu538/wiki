@@ -40,7 +40,7 @@ diagnostic_signals:
   - {'signal': '关键指标是否有数据来源和验证计划', 'framework_lens': '证据 / 可验证性', 'follow_up_question': '转化率、留存率等数字是拍脑袋还是有数据支撑？'}
   - {'signal': '是否先验证单元模型再进入规模化复制', 'framework_lens': '阶段顺序 / 反脆弱', 'follow_up_question': '是否在单元模型未跑通前就开始扩张？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 单元模型：商业模式评估的核心工具

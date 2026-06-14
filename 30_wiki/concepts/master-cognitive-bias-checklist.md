@@ -1,6 +1,5 @@
 ---
 id: master-cognitive-bias-checklist
-component_of: 
 confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - master
 estimated_tokens: 1082
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "认知偏差自检"
   - "决策前检查表"
@@ -23,7 +21,6 @@ related:
   - master-ai-info-literacy
   - yt-unit-model-ladder
   - yt-unit-model-benchmark
-reviewed_by: 
 source_refs:
   - {'来源': '消化全库后提炼'}
 status: enriched
@@ -34,7 +31,7 @@ version: 1
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
-author: legacy
+author: unknown
 trust_level: medium-high
 ---
 

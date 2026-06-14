@@ -45,7 +45,7 @@ diagnostic_signals:
   - {'signal': '每个关键假设都有可观察的证伪指标和验证方法', 'framework_lens': '假设必须可证伪', 'follow_up_question': '什么样的证据会让你放弃这个假设？'}
   - {'signal': '验证结果会更新假设优先级和下一步计划', 'framework_lens': '贝叶斯迭代', 'follow_up_question': '最近一次的验证结果改变了你的假设排序吗？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

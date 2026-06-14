@@ -1,26 +1,25 @@
 ---
-
-id: "yt-tool-project-health-radar"
+id: yt-tool-project-health-radar
 title: "项目健康度雷达"
-type: "tool"
+type: tool
 status: enriched
 domain:
-  - "yitang"
-language: "zh-CN"
+  - yitang
+language: zh-CN
 version: 1
-difficulty: "intermediate"
+difficulty: intermediate
 confidence: 0.8
 prerequisites:
-  - "yt-management-project-management"
+  - yt-management-project-management
 component_of:
-  - "yt-management-toolkit-overview"
+  - yt-management-toolkit-overview
 related:
-  - "yt-tool-okr-cycle"
-  - "yt-management-goal-management"
-  - "yt-management-scientific-meetings"
-  - "yt-management-project-management"
-  - "yt-panproduct-execution-risk-management"
-contradicts: ""
+  - yt-tool-okr-cycle
+  - yt-management-goal-management
+  - yt-management-scientific-meetings
+  - yt-management-project-management
+  - yt-panproduct-execution-risk-management
+contradicts: 
 query_triggers:
   - "项目健康度检查"
   - "项目风险评估"
@@ -33,27 +32,32 @@ query_triggers:
   - "项目预警指标"
   - "项目状态报告"
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "#management"
-  - "#project"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/manifest-design"
-  - "#tool"
-  - "#yitang"
+  - #boundary/not-for-creative
+  - #boundary/requires-human-judgment
+  - #boundary/single-use-only
+  - confidence-source-cited
+  - #management
+  - #project
+  - #scene/hardware-debugging/prototyping
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/manifest-design
+  - #tool
+  - #yitang
 trust_level: medium
-yitang: {'map': 'management', 'module': '项目管理', 'course_id': 'yt-tool-project-health-radar', 'course_type': 'tool', 'level': 'core'}
+yitang:
+  map: management
+  module: "项目管理"
+  course_id: yt-tool-project-health-radar
+  course_type: tool
+  level: core
 source_refs:
-  - "30_wiki/concepts/yt-management-project-management.md"
-created_at: "2026-05-20"
-updated_at: "2026-05-20"
+  - 30_wiki/concepts/yt-management-project-management.md
+created_at: 2026-05-20
+updated_at: 2026-05-20
 estimated_tokens: 3500
-reviewed_by: ""
-author: legacy
+reviewed_by: 
+author: "老顽童"
 ---
 
 # 项目健康度雷达

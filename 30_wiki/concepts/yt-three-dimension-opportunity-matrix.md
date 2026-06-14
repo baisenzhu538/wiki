@@ -15,9 +15,6 @@ reviewed_by: "洪七公"
 source_refs:
   - "00_inbox/一堂-机会预判-三维排列组合01.png"
 tags:
-  - #scene/business-analysis
-  - #scene/ideation
-  - #yitang
 trust_level: medium
 version: 1
 yitang:
@@ -32,7 +29,7 @@ diagnostic_signals:
   - {'signal': "'新行业/新模式/新能力'清单是否定期更新以反映时效性", 'framework_lens': '技术迭代 / 动态机会', 'follow_up_question': "选定机会的 3-6 个月开发周期内，'新能力'是否已被巨头免费提供？"}
   - {'signal': '是否同时评估执行难度、资源约束、竞争格局和监管限制', 'framework_lens': '可行性 / 落地诚实', 'follow_up_question': '机会筛选是否只停留在需求-能力-模式三档匹配？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 # 三维排列组合找机会
 

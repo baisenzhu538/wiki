@@ -1,6 +1,5 @@
 ---
 id: yt-personal-scientific-expression
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 3000
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "火箭模型"
   - "科学表达"
@@ -48,7 +46,7 @@ diagnostic_signals:
   - {'signal': '能根据听众状态调整每个阶段的比重', 'framework_lens': '表达服务于听众', 'follow_up_question': '如果听众已经认同你，是否可以跳过或缩短某个阶段？'}
   - {'signal': '关键表达会经过逐字打磨和反复演练', 'framework_lens': '精确表达需要刻意练习', 'follow_up_question': '你为这次表达做了几次完整演练？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 科学表达（火箭模型）

@@ -44,7 +44,7 @@ diagnostic_signals:
   - {'signal': '能引用更底层规律或跨领域原理来解释新解法', 'framework_lens': '深层规律支撑突破性创新', 'follow_up_question': '你的新解法依赖了哪个跨学科或第一性原理？'}
   - {'signal': '新想法在打破约束的同时，会评估可行性和落地路径', 'framework_lens': '解放思想不是无视约束', 'follow_up_question': '如果明天要验证这个想法，你最便宜的第一步是什么？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

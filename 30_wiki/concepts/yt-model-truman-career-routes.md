@@ -1,6 +1,5 @@
 ---
 id: yt-model-truman-career-routes
-component_of: 
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: advanced
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2777
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "X vs Y 七维对比"
   - "与十年爬山地图的对应"
@@ -34,7 +32,7 @@ diagnostic_signals:
   - {'signal': '用户想走Y路线但不愿做大量刻意练习', 'framework_lens': 'Y路线需要高难度学习', 'follow_up_question': '你准备好进行大量跨领域迁移练习了吗？如果没有，Y路线走不通'}
   - {'signal': '用户只羡慕Y路线迁移性，不看自己基础', 'framework_lens': '基础不匹配', 'follow_up_question': '你现在的产品设计能力和学习习惯，更适合X还是Y？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

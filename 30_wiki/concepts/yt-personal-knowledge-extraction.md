@@ -1,6 +1,5 @@
 ---
 id: yt-personal-knowledge-extraction
-component_of: 
 confidence: 0.8
 created_at: 2026-05-07
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 3000
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "知识萃取"
   - "经验萃取方法论"
@@ -42,7 +40,7 @@ diagnostic_signals:
   - {'signal': '萃取物是一个可复用的模型或原则，而不是单个案例的故事', 'framework_lens': '萃取 = 从具体上升到抽象', 'follow_up_question': '这个模型能解释三个以上不同案例吗？'}
   - {'signal': '模型会用正例和反例同时检验，而不是只找支持证据', 'framework_lens': '可证伪性保证模型质量', 'follow_up_question': '你能找到一个不符合这个模型的案例吗？这说明什么？'}
   - {'signal': '萃取出的模型会被写入笔记系统并与其他模型链接', 'framework_lens': '萃取物需要进入知识网络', 'follow_up_question': '这个模型与你已有的哪个认知冲突或互补？'}
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

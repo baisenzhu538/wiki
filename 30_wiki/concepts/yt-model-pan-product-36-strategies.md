@@ -4,7 +4,6 @@ component_of:
   - yt-composite-pan-product-methodology
 confidence: 0.9
 created_at: 2026-05-11
-deprecation_reason: 
 difficulty: intermediate
 domain:
   - yitang
@@ -34,7 +33,6 @@ source_refs:
   - "10_raw/assets/yitang/泛产品设计-审美工具箱指南.png"
   - "10_raw/assets/yitang/泛产品设计落地工具篇指南.png"
 status: enriched
-superseded_by: 
 title: "泛产品设计36计·全套官方工具箱"
 type: framework
 version: 1
@@ -45,7 +43,7 @@ diagnostic_signals:
   - {'signal': '用户学了36计但做设计时还是用老方法', 'framework_lens': '工具没有内化', 'follow_up_question': '你最近一次做设计时主动调用了36计中的哪一张？如果从来没有，只是收藏'}
   - {'signal': '用户试图每张卡都用上', 'framework_lens': '过度使用', 'follow_up_question': '这个设计问题真的需要用到那么多工具吗？工具服务于问题'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

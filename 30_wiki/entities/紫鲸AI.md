@@ -1,29 +1,28 @@
 ---
 title: "紫鲸AI"
-type: "entity"
-status: "reviewed"
-entity_type: "product"
+type: entity
+status: reviewed
+entity_type: product
 aliases:
   - "Zijing AI"
   - "紫鲸AI智能体工作流平台"
 location: "Hangzhou, China"
-id: "紫鲸AI - "src_20260428_29929c1f" - "src_20260501_4eee4e95""
-created_at: "2026-05-03"
-updated_at: "2026-05-03"
+id: "紫鲸AI - \"src_20260428_29929c1f\" - \"src_20260501_4eee4e95\""
+created_at: 2026-05-03
+updated_at: 2026-05-03
 related:
   - "[[紫鲸AI智能体工作流平台]]"
   - "[[紫鲸AI_智能体工作流平台_深度分析与产品设计]]"
   - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
 tags:
-  - "#ai-saas"
-  - "#content-marketing"
-  - "#multi-agent"
-  - "#brand-kg"
-trust_level: "medium"
+  - #ai-saas
+  - #content-marketing
+  - #multi-agent
+  - #brand-kg
+trust_level: medium
 reviewed_by: "黄药师"
-review_date: "2026-05-04"
-domain:
-author: "legacy"
+review_date: 2026-05-04
+author: unknown
 confidence: 0.85
 ---
 

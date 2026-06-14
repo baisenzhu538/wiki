@@ -1,6 +1,5 @@
 ---
 id: yt-scale-economy-weapon-library
-component_of: 
 confidence: 0.8
 created_at: 2026-06-10
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2200
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "规模经济"
   - "规模效应"
@@ -38,7 +36,7 @@ diagnostic_signals:
   - {'signal': '能识别业务中随规模变好、变差、不变的环节', 'framework_lens': '规模效应是环节级现象', 'follow_up_question': '你的业务链条上，哪个环节规模效应最强？'}
   - {'signal': '会与同行业或相似行业对比，判断自身规模效应位置', 'framework_lens': '规模效应需要参照', 'follow_up_question': '与行业龙头相比，你的单位成本曲线差距在哪里？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 规模经济分析武器库

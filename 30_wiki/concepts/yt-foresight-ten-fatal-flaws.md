@@ -38,7 +38,7 @@ diagnostic_signals:
   - {'signal': '用户清单都看完了，但找不出自己项目的硬伤', 'framework_lens': '自我盲区', 'follow_up_question': '如果让一位客观的同行用这份清单审查你的项目，他最可能指出哪条硬伤？'}
   - {'signal': '用户把每条硬伤都当致命', 'framework_lens': '没有结合目标规模', 'follow_up_question': '你的项目目标规模是什么？这条硬伤对这个规模来说真的致命吗？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

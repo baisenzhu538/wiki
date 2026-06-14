@@ -1,6 +1,5 @@
 ---
 id: yt-model-scientific-questioning-map
-component_of: 
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1667
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "关联卡片"
   - "四领域 × 三级难度矩阵"
@@ -34,7 +32,7 @@ diagnostic_signals:
   - {'signal': '用户不知道自己在提问能力的哪个段位', 'framework_lens': '无段位诊断', 'follow_up_question': '按四领域×三级难度矩阵，你在哪个格子？如果答不出，没有段位意识'}
   - {'signal': '用户只在舒适区提问，不挑战更难场景', 'framework_lens': '不进入非舒适区', 'follow_up_question': '你最近一次处理Level 3难度的提问场景是什么时候？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

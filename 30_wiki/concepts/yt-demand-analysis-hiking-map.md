@@ -1,6 +1,5 @@
 ---
 id: yt-demand-analysis-hiking-map
-component_of: 
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: beginner
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2400
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "需求分析"
   - "用户需求"
@@ -42,7 +40,7 @@ diagnostic_signals:
   - {'signal': '用户做了市场规模估算，但没拆清楚真实用户是谁', 'framework_lens': '把估算当需求分析——需求分析先定性后定量', 'follow_up_question': '你的市场规模数字背后，具体是哪些用户在什么场景下付费？'}
   - {'signal': '用户只谈初心概念，不推演使用场景', 'framework_lens': '停留在L1——需求分析需要爬山进阶', 'follow_up_question': '你能描述目标用户典型的一天中，会在什么具体场景使用你的产品吗？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 需求分析爬山地图

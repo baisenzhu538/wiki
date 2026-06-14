@@ -1,6 +1,5 @@
 ---
 id: yt-model-ipo-complete-checklist
-component_of: 
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2614
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "IPO 科学学习完整清单"
   - "关联卡片"
@@ -36,7 +34,7 @@ diagnostic_signals:
   - {'signal': '用户对着清单选课，但学完后能力没提升', 'framework_lens': '清单当导航但没执行——选课不等于学习', 'follow_up_question': '你选课后完成了多少作业/练习/输出？如果<50%，清单只是选课工具'}
   - {'signal': '用户只选输入类课程，不选输出和反馈类课程', 'framework_lens': '偏科学习——IPO闭环需要各环节均衡', 'follow_up_question': '你的选课清单中，输出类和反馈类课程占比多少？如果<30%，IPO失衡'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

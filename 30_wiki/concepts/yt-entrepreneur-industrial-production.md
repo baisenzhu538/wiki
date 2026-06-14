@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-industrial-production
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1874
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "工业化生产"
   - "标准化流程"
@@ -41,7 +39,7 @@ diagnostic_signals:
   - {'signal': '用户还没验证需求就搞SOP', 'framework_lens': '过早标准化——在错误的事情上提高效率', 'follow_up_question': '这个流程已经被验证是对的吗？如果流程本身有问题，SOP只会放大错误'}
   - {'signal': '用户把一切都标准化，扼杀创新', 'framework_lens': '过度工业化', 'follow_up_question': '哪些环节需要创造力，哪些需要标准化？你是否把该创新的地方也SOP了？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 工业化生产

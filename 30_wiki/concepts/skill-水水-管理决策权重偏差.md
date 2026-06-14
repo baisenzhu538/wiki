@@ -7,7 +7,6 @@ domain:
   - decision-making
 source_person: "水水"
 source_context: "拆书会-偶然"
-source_refs: 
 wiki_refs:
   - 30_wiki/concepts/yt-decision-y-model.md
   - 30_wiki/concepts/master-decision-hygiene.md
@@ -29,7 +28,7 @@ reviewed_by: "黄药师"
 confidence: 0.85
 pipeline:
   - confidence-source-cited
-author: legacy
+author: unknown
 trust_level: medium-high
 ---
 

@@ -9,7 +9,6 @@ domain:
   - yitang
 estimated_tokens: 3300
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "个人修炼"
   - "产品思维"
@@ -43,7 +42,7 @@ diagnostic_signals:
   - {'signal': '能调用需求/审美/落地三套工具箱中的至少一张卡牌来分析问题', 'framework_lens': '泛产品能力是工具组合能力', 'follow_up_question': '如果只能出一张牌，你会选哪张？为什么？'}
   - {'signal': '在跨域应用时，会补充该领域的特殊约束和专业知识', 'framework_lens': '泛化不是取消专业化', 'follow_up_question': '这个领域有哪些独特约束会让通用工具失效？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

@@ -1,16 +1,16 @@
 ---
 title: "OCR: 一堂-科学决策-ROI高阶训练全景图"
 type: concept
-status: enriched
+status: draft
 source_refs:
   - src_20260609_60edc284
 created_at: "2026-06-09T14:05:51+00:00"
 updated_at: "2026-06-09T15:52:58+00:00"
 id: "ocr-一堂-科学决策-roi高阶训练全景图"
-author: legacy
+author: unknown
 reviewed_by: pending
-confidence: 0.8
-trust_level: medium
+confidence: 0.6
+trust_level: low
 ---
 
 

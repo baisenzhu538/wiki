@@ -36,7 +36,7 @@ diagnostic_signals:
   - {'signal': '数字经过对比或换算，让用户有感知', 'framework_lens': '孤立数字无感', 'follow_up_question': '这个数字和用户的什么熟悉参照物相比？'}
   - {'signal': '数字放在用户犹豫或需要信任的关键节点', 'framework_lens': '数字是决策助推器', 'follow_up_question': '用户在没有这个数字时，决策会有什么不同？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

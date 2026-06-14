@@ -37,7 +37,7 @@ diagnostic_signals:
   - {'signal': '故事包含真实的人物、冲突和变化', 'framework_lens': '真实故事最有说服力', 'follow_up_question': '这个故事是真实发生过的，还是编造的？'}
   - {'signal': '故事长度与传播渠道匹配，不拖泥带水', 'framework_lens': '故事需要节奏', 'follow_up_question': '如果删掉故事的前30%，会影响效果吗？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

@@ -1,20 +1,19 @@
 ---
 title: "财务入门"
-type: "concept"
-status: "enriched"
-domain:
+type: concept
+status: enriched
 pipeline:
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '创始人只看利润不看现金', 'framework_lens': '利润≠现金', 'follow_up_question': '按当前烧钱速度，你的跑道还有几个月？如果<6个月，利润好看也没用'}
   - {'signal': '财务完全外包，自己不看报表', 'framework_lens': '外包论', 'follow_up_question': '你最近一次亲自看过三表并理解数字含义是什么时候？'}
-updated_at: "2026-06-13"
-id: "yt-management-finance-basics"
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+updated_at: 2026-06-13
+id: yt-management-finance-basics
+author: "老顽童"
+reviewed_by: pending
+created_at: 2026-06-15
 confidence: 0.75
-trust_level: "medium-low"
+trust_level: medium-low
 ---
 
 # 财务入门

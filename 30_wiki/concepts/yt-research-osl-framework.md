@@ -1,6 +1,5 @@
 ---
 id: yt-research-osl-framework
-component_of: 
 confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2500
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "调研方法"
   - "OSL五步法"
@@ -27,7 +25,6 @@ related:
   - yt-research-mindset
   - yt-decision-y-model
   - yt-entrepreneur-key-hypotheses
-reviewed_by: 
 source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
   - "00_inbox/ideas/一堂-创业-调研行动营口述01.md"
@@ -49,7 +46,7 @@ diagnostic_signals:
   - {'signal': '每一步都有明确产出物，下一步基于上一步', 'framework_lens': '里程碑式工作流', 'follow_up_question': '你现在卡在OSL的哪一步？产出物是什么？'}
   - {'signal': '获取情报后会做归一整合，形成统一结论', 'framework_lens': '调研的终点是整合', 'follow_up_question': '多源信息之间的矛盾你是如何处理的？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # OSL调研五步法：一堂通用商业调研框架

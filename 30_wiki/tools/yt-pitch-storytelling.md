@@ -1,23 +1,23 @@
 ---
-id: "yt-pitch-storytelling"
+id: yt-pitch-storytelling
 title: "讲香·故事化"
-type: "tool"
-status: "enriched"
+type: tool
+status: enriched
 domain:
-  - "personal"
-  - "yitang"
-language: "zh-CN"
+  - personal
+  - yitang
+language: zh-CN
 version: 1
-difficulty: "advanced"
+difficulty: advanced
 confidence: 0.85
 prerequisites:
-  - "yt-model-personal-pitch-toolkit"
+  - yt-model-personal-pitch-toolkit
 component_of:
-  - "yt-model-personal-pitch-toolkit"
+  - yt-model-personal-pitch-toolkit
 related:
-  - "yt-concept-weapon-arsenal"
-  - "yt-model-personal-pitch-toolkit"
-contradicts: ""
+  - yt-concept-weapon-arsenal
+  - yt-model-personal-pitch-toolkit
+contradicts: 
 query_triggers:
   - "故事化"
   - "讲故事"
@@ -26,25 +26,25 @@ query_triggers:
   - "幕后故事"
   - "初心故事"
 tags:
-  - "#boundary/not-for-medical"
-  - "#boundary/single-use-only"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#pitch"
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/skill-engineering"
-  - "#yitang"
+  - #boundary/not-for-medical
+  - #boundary/single-use-only
+  - confidence-source-cited
+  - confidence-verified-by-case
+  - #pitch
+  - #scene/business-analysis
+  - #scene/learning-methodology/feedback-loop
+  - #scene/skill-engineering
+  - #yitang
   - "#具象化"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
-created_at: "2026-05-13"
-updated_at: "2026-05-28"
+created_at: 2026-05-13
+updated_at: 2026-05-28
 estimated_tokens: 2500
-reviewed_by: ""
-author: "legacy"
-trust_level: "medium-high"
+reviewed_by: 
+author: "老顽童"
+trust_level: medium-high
 ---
 # 讲香·故事化
 

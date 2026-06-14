@@ -2,11 +2,10 @@
 title: "一堂课程地图精华串讲"
 type: concept
 status: reviewed
-source_refs: 
-id: "yt-system-course-map-lecture"
 source_refs:
-  - "src_20260506_13e7bbca"
-  - "src_20260507_3f2ac357"
+  - src_20260506_13e7bbca
+  - src_20260507_3f2ac357
+id: yt-system-course-map-lecture
 created_at: 2026-05-05
 domain:
   - yitang
@@ -25,7 +24,7 @@ diagnostic_signals:
   - {'signal': '分析后是否仍能指出至少 1 个框架外的重要因素', 'framework_lens': '边界意识 / Taleb 残留风险', 'follow_up_question': "是否产生'每个维度都对但整体不对'的错觉？"}
   - {'signal': "学习路径是否按'具体项目问题→选 1 个最相关模块→应用'推进", 'framework_lens': '最小可用 / 刻意练习', 'follow_up_question': '是否一次性尝试应用整个十层框架导致信息过载？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 confidence: 0.85
 trust_level: high
 ---

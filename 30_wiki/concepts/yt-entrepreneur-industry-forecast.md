@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-industry-forecast
-component_of: 
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: intermediate
@@ -22,7 +21,6 @@ query_triggers:
   - "预判能力"
   - "创业成功率"
 review_date: 2026-06-11
-reviewed_by: 
 source_refs:
   - "00_inbox/一堂-商业预判课-Truman-口述.txt"
   - "00_inbox/一堂-商业预判课-truman-笔记.txt"
@@ -46,7 +44,7 @@ diagnostic_signals:
   - {'signal': '用户用15字诀快速否定一个机会', 'framework_lens': '简化成口诀但缺少深度分析', 'follow_up_question': '你除了念口诀，还做了哪些定量或定性的分析？'}
   - {'signal': '用户只做减法不做加法', 'framework_lens': '违背"充分做加法"', 'follow_up_question': '在减法之前，你的选项池里有多少个经过初步分析的机会？如果<10个，加法不充分'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 商业预判15字诀

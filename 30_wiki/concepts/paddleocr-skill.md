@@ -5,13 +5,12 @@ domain:
   - "['master']"
 review_date: 2026-05-07
 reviewed_by: "黄药师"
-source_refs: 
 status: enriched
 title: "PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill"
 trust_level: high
 type: concept
 updated_at: 2026-05-07
-author: legacy
+author: "黄药师"
 confidence: 0.75
 ---
 

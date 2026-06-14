@@ -37,7 +37,7 @@ diagnostic_signals:
   - {'signal': '素材真实可信，能直接证明或强化主张', 'framework_lens': '素材是证据', 'follow_up_question': '这个素材能否被质疑为造假或摆拍？'}
   - {'signal': '素材与目标用户的生活经验相关，而不是自嗨', 'framework_lens': '素材需要用户共鸣', 'follow_up_question': '目标用户看到这个素材会想到自己的什么经历？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

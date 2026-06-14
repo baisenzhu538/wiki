@@ -1,16 +1,16 @@
 ---
 title: "OCR: 一堂-TCPR模型-皇冠模型"
 type: concept
-status: enriched
+status: draft
 source_refs:
   - src_20260609_818119f0
 created_at: "2026-06-09T14:03:49+00:00"
 updated_at: "2026-06-09T14:29:37+00:00"
 id: "ocr-一堂-tcpr模型-皇冠模型"
-author: legacy
+author: unknown
 reviewed_by: pending
-confidence: 0.8
-trust_level: medium
+confidence: 0.6
+trust_level: low
 ---
 
 

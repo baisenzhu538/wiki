@@ -58,7 +58,7 @@ diagnostic_signals:
   - {'signal': "决策者说'我最近做了一个深度分析，数据套了十几行公式，但最后不知道该怎么选'", 'framework_lens': '深度幻觉——量化的深度不等于决策的质量', 'follow_up_question': '你的数据全部算清楚后，哪些变量对最终结果的影响最大？如果去掉精度最低的那两个变量，你的结论会变吗？'}
   - {'signal': "创始人在周会上说'等我再算一版更精确的数据就拍板'，但已经说了两周", 'framework_lens': '决策延迟——L2已经足够支撑行动，继续算L3是行动拖延', 'follow_up_question': '你现在算的这些数据，最乐观和最悲观的假设下，决策结论会改变吗？如果不会，L2已经够了'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 reviewed_by: pending
 created_at: 2026-06-15
 ---

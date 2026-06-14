@@ -1,6 +1,5 @@
 ---
 id: yt-unit-model-benchmark
-component_of: 
 confidence: 0.85
 created_at: 2026-05-24
 difficulty: intermediate
@@ -29,7 +28,6 @@ related:
   - yt-decision-y-model
   - yt-entrepreneur-five-step-method
   - master-systems-thinking
-reviewed_by: 
 source_refs:
   - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
   - "src_20260524_6b5a4c3d-一堂-单元模型04口述"
@@ -52,7 +50,7 @@ diagnostic_signals:
   - {'signal': '基准值是否随环境变化定期更新', 'framework_lens': '时效性 / 反僵化', 'follow_up_question': '去年的基准是否仍被当作今年标准？'}
   - {'signal': "是否区分'可迁移基准'与'情境特定基准'", 'framework_lens': '边界意识 / 类比有效性', 'follow_up_question': '是否把别人的基准直接套用到自己的业务？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 单元模型基准值：科学类比、三点预测与基准值共建

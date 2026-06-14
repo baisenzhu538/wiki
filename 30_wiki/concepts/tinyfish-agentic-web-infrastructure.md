@@ -5,13 +5,12 @@ domain:
   - "['master']"
 review_date: 2026-05-06
 reviewed_by: "黄药师"
-source_refs: 
 status: enriched
 title: "TinyFish — Agentic Web 基础设施建设层 Skill"
 trust_level: high
 type: concept
 updated_at: 2026-05-06
-author: legacy
+author: unknown
 confidence: 0.75
 ---
 

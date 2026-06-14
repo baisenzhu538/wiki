@@ -1,6 +1,5 @@
 ---
 id: master-antifragile-checklist
-component_of: 
 confidence: 0.88
 created_at: 2026-05-18
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - master
 estimated_tokens: 1144
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "反脆弱决策"
   - "杠铃策略"
@@ -21,14 +19,12 @@ related:
   - yt-foresight-ten-fatal-flaws
   - yt-entrepreneur-key-hypotheses
   - yt-panproduct-execution-risk-management
-reviewed_by: 
-source_refs: 
 status: enriched
 title: "反脆弱决策检查清单"
 type: tool
 updated_at: 2026-05-18
 version: 1
-author: legacy
+author: unknown
 trust_level: medium-high
 ---
 

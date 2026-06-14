@@ -1,7 +1,6 @@
 ---
 id: yt-foresight-business-spectrum
 type: framework
-component_of: 
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: intermediate
@@ -9,7 +8,6 @@ domain:
   - yitang
 estimated_tokens: 2800
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "终局光谱图"
   - "商业规模光谱"
@@ -92,7 +90,7 @@ yitang:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
-author: legacy
+author: "老顽童"
 ---
 
 # 终局光谱图

@@ -1,6 +1,5 @@
 ---
 id: yt-model-y-organization
-component_of: 
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1635
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "Y 型创业模型"
   - "Y 型结构"
@@ -35,7 +33,7 @@ diagnostic_signals:
   - {'signal': '用户只重视实事求是，不敢解放思想', 'framework_lens': '一臂缺失', 'follow_up_question': '你最近一次质疑行业惯例并提出新假设是什么时候？'}
   - {'signal': '用户只解放思想，不尊重事实', 'framework_lens': '另一臂缺失', 'follow_up_question': '你的新想法有没有经过事实验证？如果没有，只是空想'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

@@ -1,26 +1,26 @@
 ---
 title: "诊所O2O项目"
-type: "project"
-status: "active"
+type: project
+status: active
 domain:
-  - "healthcare"
-id: "诊所O2O项目 - "src_20260427_970eb338""
-created_at: "2026-05-04"
-updated_at: "2026-05-04"
+  - healthcare
+id: "诊所O2O项目 - \"src_20260427_970eb338\""
+created_at: 2026-05-04
+updated_at: 2026-05-04
 related:
   - "[[诊所O2O外卖平台业务深度调研报告]]"
   - "[[街顺APP全面调研报告]]"
   - "[[互联网医院模式深度调研报告]]"
   - "[[保达云诊所深度调研报告]]"
 tags:
-  - "#healthcare"
-  - "#o2o"
-  - "#clinic"
-  - "#delivery"
-author: "legacy"
-reviewed_by: "pending"
+  - #healthcare
+  - #o2o
+  - #clinic
+  - #delivery
+author: unknown
+reviewed_by: pending
 confidence: 0.85
-trust_level: "high"
+trust_level: high
 ---
 
 # 诊所O2O项目

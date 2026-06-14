@@ -1,6 +1,5 @@
 ---
 id: master-ai-info-literacy
-component_of: 
 confidence: 0.8
 created_at: 2026-05-18
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - master
 estimated_tokens: 1176
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "AI信息素养"
   - "信息真伪辨别"
@@ -19,7 +17,6 @@ related:
   - yt-personal-ai-capability
   - yt-research-weaponry-course
   - yt-decision-y-model
-reviewed_by: 
 source_refs:
   - {'来源': '一堂 (Truman)'}
 status: enriched
@@ -29,7 +26,7 @@ updated_at: 2026-05-18
 version: 1
 pipeline:
   - confidence-source-cited
-author: legacy
+author: unknown
 trust_level: medium-high
 ---
 

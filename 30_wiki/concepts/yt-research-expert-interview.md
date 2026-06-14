@@ -1,6 +1,5 @@
 ---
 id: yt-research-expert-interview
-component_of: 
 confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
@@ -26,7 +25,6 @@ related:
   - yt-research-industry-canvas
   - yt-research-user-jtbd
   - yt-entrepreneur-key-hypotheses
-reviewed_by: 
 source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
   - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
@@ -48,7 +46,7 @@ diagnostic_signals:
   - {'signal': '选择的专家能覆盖目标领域的行业共识，而不是只找熟人', 'framework_lens': '专家质量决定信息质量', 'follow_up_question': '这个专家在哪个关键子领域有 firsthand 经验？'}
   - {'signal': '访谈后会做信息整理、交叉验证，并转化为可行动假设', 'framework_lens': '访谈价值在于后续加工', 'follow_up_question': '这次访谈的哪些结论需要再用其他渠道验证？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 专家访谈工具：2小时获取行业共识的标准流程

@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-product-core
-component_of: 
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: intermediate
@@ -23,7 +22,6 @@ query_triggers:
   - "做而不信"
   - "用户视角"
 review_date: 2026-06-06
-reviewed_by: 
 source_refs:
   - "00_inbox/一堂-产品内核迭代课-Truman-口述.txt"
   - "00_inbox/一堂-产品内核验证课-Truman-口述.txt"
@@ -48,7 +46,7 @@ diagnostic_signals:
   - {'signal': '用户把产品内核越做越大，失去最小解决方案', 'framework_lens': '过早细化/内核膨胀', 'follow_up_question': '如果砍掉一半功能，还能解决用户最核心的那个问题吗？如果不能，内核过大了'}
   - {'signal': '用户有产品功能但没验证关键转化率', 'framework_lens': '内核验证缺失', 'follow_up_question': '你的产品内核对应的关键转化率指标是什么？现在数字是多少？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 产品内核定义、迭代与验证方法论

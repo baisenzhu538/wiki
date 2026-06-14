@@ -1,6 +1,5 @@
 ---
 id: master-decision-hygiene
-component_of: 
 confidence: 0.8
 created_at: 2026-05-18
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - master
 estimated_tokens: 1589
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "决策卫生"
   - "噪声减少"
@@ -22,7 +20,6 @@ related:
   - master-ai-info-literacy
   - yt-unit-model-ladder
   - yt-unit-model-selection
-reviewed_by: 
 source_refs:
   - {'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}
 status: enriched
@@ -33,7 +30,7 @@ version: 1
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
-author: legacy
+author: unknown
 trust_level: medium-high
 ---
 

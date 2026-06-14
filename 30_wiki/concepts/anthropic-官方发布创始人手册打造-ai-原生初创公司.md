@@ -1,13 +1,11 @@
 ---
 id: "anthropic-官方发布创始人手册打造-ai-原生初创公司"
-component_of: 
 confidence: 0.8
 created_at: 2026-05-19
 difficulty: foundational
 domain:
   - entrepreneur
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "AI 原生创业"
   - "创业四阶段"
@@ -31,7 +29,7 @@ version: 1
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
-author: legacy
+author: unknown
 trust_level: medium
 ---
 

@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-key-hypotheses
-component_of: 
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: intermediate
@@ -27,7 +26,6 @@ related:
   - master-antifragile-checklist
   - master-systems-thinking
 review_date: 2026-06-06
-reviewed_by: 
 source_refs:
   - "00_inbox/一堂-关键假设课-truman-口述.txt"
   - "00_inbox/一堂-关键假设课-truman-笔记.txt"
@@ -48,7 +46,7 @@ diagnostic_signals:
   - {'signal': '用户列了很多假设，但分不清哪个最关键', 'framework_lens': '假设没有优先级', 'follow_up_question': '如果只能验证一个假设，你选哪个？为什么它对项目生死影响最大？'}
   - {'signal': '用户只验证价值假设，不验证增长假设', 'framework_lens': '两类假设失衡', 'follow_up_question': '你的验证计划中，价值假设和增长假设各占多少比例？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 关键假设259工具与假设验证三板斧

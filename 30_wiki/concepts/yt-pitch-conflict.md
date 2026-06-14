@@ -37,7 +37,7 @@ diagnostic_signals:
   - {'signal': '冲突最终会导向你的产品/观点，而不是停留在对立', 'framework_lens': '冲突是桥梁不是终点', 'follow_up_question': '冲突解决后，用户应该得出什么结论？'}
   - {'signal': '冲突没有虚假或恶意攻击竞争对手', 'framework_lens': '冲突需要伦理边界', 'follow_up_question': '这个冲突如果公开给被对比方看，你是否能坦然接受？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

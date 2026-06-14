@@ -4,7 +4,6 @@ component_of:
   - yt-composite-pan-product-methodology
 confidence: 0.8
 created_at: 2026-05-11
-deprecation_reason: 
 difficulty: foundational
 domain:
   - yitang
@@ -30,7 +29,6 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计者的三大自我修养.png"
 status: enriched
-superseded_by: 
 title: "泛产品三大自我修养：用户价值×最佳实践×无限进步"
 type: framework
 version: 1
@@ -40,7 +38,7 @@ diagnostic_signals:
   - {'signal': '用户只强调用户价值但产品很粗糙', 'framework_lens': '修养失衡（有方向无标准）', 'follow_up_question': '你的产品在同类最佳实践中处于什么水平？如果没有对标，标准缺失'}
   - {'signal': '用户审美很好但没人用', 'framework_lens': '修养失衡（有标准无方向）', 'follow_up_question': '这个产品解决了什么真实用户需求？如果需求不清，审美是自恋'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

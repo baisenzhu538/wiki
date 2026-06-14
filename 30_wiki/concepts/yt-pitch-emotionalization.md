@@ -36,7 +36,7 @@ diagnostic_signals:
   - {'signal': '情绪与用户的真实目标和痛点相连，而不是凭空制造', 'framework_lens': '情绪需要锚点', 'follow_up_question': '用户产生这个情绪后，会更有动力解决什么问题？'}
   - {'signal': '情绪强度与场景匹配，不过度操纵', 'framework_lens': '情绪有伦理剂量', 'follow_up_question': '如果我是用户，我会觉得被理解还是被利用？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

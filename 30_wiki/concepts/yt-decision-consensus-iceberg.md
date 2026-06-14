@@ -28,7 +28,6 @@ related:
   - yt-decision-canvas
   - yt-decision-height-toolkit
   - yt-decision-review
-reviewed_by: 
 source_refs:
   - "00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt"
   - "00_inbox/科学决策/一堂-科学决策-高水平共识曲线（重要）.png"
@@ -52,7 +51,7 @@ pipeline:
 diagnostic_signals:
   - {'signal': '团队开完共识会，所有人点头同意，但执行时各自走样', 'framework_lens': '虚假共识——表层行动一致，深层信息/逻辑并未对齐', 'follow_up_question': "会上大家同意的'做不做'背后，各自理解的'为什么做'是否一致？让每个人写一句自己的理由，看看是否一样"}
   - {'signal': "老板说'我先不说答案，我们从头推'，但推出来的答案和老板预设一模一样", 'framework_lens': "教练式提问的隐性操控——信息选择和问题顺序可以引导团队'自然'得出预设结论", 'follow_up_question': '老板提供的信息里，有没有被隐藏的关键反例？如果团队知道那个反例，推导结果会不会变？'}
-author: legacy
+author: "老顽童"
 ---
 
 # 共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问

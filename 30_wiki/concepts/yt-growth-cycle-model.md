@@ -1,6 +1,5 @@
 ---
 id: yt-growth-cycle-model
-component_of: 
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2600
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "增长周期"
   - "增长模型"
@@ -40,7 +38,7 @@ diagnostic_signals:
   - {'signal': '用户在获客增长期就做系统增长的事', 'framework_lens': '周期错配', 'follow_up_question': '你现在最重要的是找到可复制渠道，还是优化转化模型？'}
   - {'signal': '用户不知道当前处于哪个增长周期', 'framework_lens': '没有周期判断', 'follow_up_question': '你的业务现在最大风险是无法复制、现金流崩，还是越大越亏？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 增长周期模型

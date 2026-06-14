@@ -1,6 +1,5 @@
 ---
 id: case-ai-time-management-tiered-growth
-component_of: 
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: intermediate
@@ -9,7 +8,6 @@ domain:
   - ai
 estimated_tokens: 2000
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "AI时间管理"
   - "时间管理App"
@@ -36,7 +34,7 @@ yitang:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
-author: legacy
+author: "老顽童"
 ---
 
 # 案例：AI时间管理App七级演进

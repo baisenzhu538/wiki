@@ -9,7 +9,6 @@ domain:
   - yitang
 estimated_tokens: 3100
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "个人修炼"
   - "产品思维"
@@ -39,7 +38,7 @@ diagnostic_signals:
   - {'signal': '听完案例后会联想到自己经历的类似场景，并写出对应案例', 'framework_lens': '案例学习需要个人化迁移', 'follow_up_question': '你过去有没有遇到过类似困境？当时怎么处理的？'}
   - {'signal': '案例启发会转化为至少一个具体行动或研究问题', 'framework_lens': '启发必须落地', 'follow_up_question': '这个案例让你接下来要做什么不一样的事？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

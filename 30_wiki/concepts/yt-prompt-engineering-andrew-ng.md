@@ -1,6 +1,5 @@
 ---
 id: yt-prompt-engineering-andrew-ng
-component_of: 
 confidence: 0.9
 created_at: 2026-05-13
 difficulty: intermediate
@@ -44,7 +43,7 @@ diagnostic_signals:
   - {'signal': '知道AI的边界（不能替代判断、可能幻觉、会谄媚），并设计防护', 'framework_lens': '人与AI分工明确', 'follow_up_question': '在这个任务中，哪些部分必须保留人类最终判断？'}
   - {'signal': '会根据任务类型选择合适子工具（写作、头脑风暴、反谄媚等）', 'framework_lens': '提示词是工具箱', 'follow_up_question': '这个任务更适合用哪个子工具？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

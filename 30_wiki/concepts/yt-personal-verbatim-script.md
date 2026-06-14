@@ -1,6 +1,5 @@
 ---
 id: yt-personal-verbatim-script
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 3000
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "逐字稿"
   - "演讲稿写作"
@@ -42,7 +40,7 @@ diagnostic_signals:
   - {'signal': '逐字稿使用口语化表达，而不是书面语照念', 'framework_lens': '演讲是口头语言', 'follow_up_question': '你写下的这段话念出来自然吗？听众能像聊天一样听懂吗？'}
   - {'signal': '重要演讲会经过多次演练，直到可以不依赖稿件', 'framework_lens': '逐字稿是练习工具，不是拐杖', 'follow_up_question': '你能否在只带关键词提示的情况下完成这次演讲？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 逐字稿

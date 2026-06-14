@@ -12,7 +12,7 @@ updated_at: 2026-05-29
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.8
 trust_level: high

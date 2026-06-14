@@ -1,6 +1,5 @@
 ---
 id: yt-concept-weapon-arsenal
-component_of: 
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - master
 estimated_tokens: 2800
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "超级武器库"
   - "武器库"
@@ -37,7 +35,7 @@ diagnostic_signals:
   - {'signal': '用户收藏了很多小抄，但实战中想不起来用', 'framework_lens': '武器库没有内化为调用能力——收藏≠掌握', 'follow_up_question': '你最近一次实战中主动调用了武器库中的哪一条？如果超过两周，说明没有建立调用习惯'}
   - {'signal': '用户把武器库当系统学习材料', 'framework_lens': '误用——武器库是即查即用，不是教材', 'follow_up_question': '你现在是想系统学习这个方法，还是想在具体场景中快速调用？如果是前者，不要从武器库开始'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

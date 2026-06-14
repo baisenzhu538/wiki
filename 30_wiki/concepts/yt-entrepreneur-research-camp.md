@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-research-camp
-component_of: 
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1863
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "三轮学习设计"
   - "从调研认知到AI调研武器库"
@@ -35,7 +33,7 @@ diagnostic_signals:
   - {'signal': '用户上完行动营但调研能力没提升', 'framework_lens': '课程没有转化为练习', 'follow_up_question': '你上完行动营后做了几次真实调研练习？如果没有>3次，能力不会提升'}
   - {'signal': '用户只学AI工具，不提升调研认知', 'framework_lens': '三轮学习失衡', 'follow_up_question': '你能解释为什么要用这个AI工具吗？如果只是为了效率，调研认知没提升'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

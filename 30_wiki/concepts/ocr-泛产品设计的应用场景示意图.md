@@ -5,17 +5,17 @@ domain:
   - yitang
 source_refs:
   - src_20260522_e985ecdb
-status: enriched
+status: draft
 title: "OCR: 泛产品设计的应用场景示意图"
 type: concept
 updated_at: 2026-05-22
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
-author: legacy
+author: "老顽童"
 reviewed_by: pending
-confidence: 0.8
-trust_level: medium
+confidence: 0.6
+trust_level: low
 ---
 
 # OCR: 泛产品设计的应用场景示意图

@@ -2,7 +2,7 @@
 title: "KDO Protocol Priority Checklist"
 type: "improvement-plan"
 status: "draft"
-id: "kdo-priority-checklist - "src_20260503_protocol_design_session""
+id: 'kdo-priority-checklist - "src_20260503_protocol_design_session"'
 created_at: "2026-05-03"
 updated_at: "2026-05-03"
 related:

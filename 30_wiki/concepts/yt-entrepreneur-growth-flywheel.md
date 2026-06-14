@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-growth-flywheel
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1812
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "增长飞轮"
   - "飞轮地图"
@@ -43,7 +41,7 @@ diagnostic_signals:
   - {'signal': '用户画了飞轮但飞不起来', 'framework_lens': '飞轮各环节之间没有真实因果关系', 'follow_up_question': '你飞轮的每一个环节，都能用数据证明它推动下一环节吗？'}
   - {'signal': '用户有多个飞轮但资源分散', 'framework_lens': '没有核心飞轮', 'follow_up_question': '如果只能推动一个飞轮，你选哪个？为什么？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 增长飞轮

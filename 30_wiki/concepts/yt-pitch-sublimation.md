@@ -37,7 +37,7 @@ diagnostic_signals:
   - {'signal': '升华后的价值仍能与产品直接关联，而不是空泛口号', 'framework_lens': '升华必须可落地', 'follow_up_question': '如果产品不存在，这个升华价值还能成立吗？'}
   - {'signal': '升华用于关键节点，而不是通篇灌输', 'framework_lens': '升华是点睛之笔', 'follow_up_question': '如果这段内容只保留一处升华，应该在哪里？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

@@ -1,11 +1,11 @@
 ---
-id: "concept-mckinsey-mece"
+id: concept-mckinsey-mece
 title: "MECE 原则：相互独立、完全穷尽"
-type: "framework"
-status: "enriched"
+type: framework
+status: enriched
 domain:
-  - "consulting"
-  - "yitang"
+  - consulting
+  - yitang
 source_refs:
   - "Rasiel, E. (1999). *The McKinsey Way*. McGraw-Hill."
   - "Minto, B. (2009). *The Pyramid Principle*. 3rd ed. FT Press."
@@ -15,22 +15,22 @@ diagnostic_signals:
   - {'signal': "用户说'我列了很多原因但感觉还是漏了什么'", 'framework_lens': 'MECE 检查：当前维度列表是否相互独立、完全穷尽', 'follow_up_question': '你列的这几个原因之间，有没有哪个其实可以合并？有没有哪个维度被落下了？'}
   - {'signal': "用户说'我的雷达图/模型有 8 个维度，但其中 3 个实际上说的是同一件事'", 'framework_lens': 'MECE 检查：维度是否相互独立（Mutually Exclusive）', 'follow_up_question': '如果把这 3 个维度合并成 1 个，你的评估结果会改变吗？是否有新维度需要补充？'}
 related:
-  - "concept-mckinsey-issue-tree"
-  - "yt-foresight-model-taxonomy"
-  - "yt-entrepreneur-five-step-method"
+  - concept-mckinsey-issue-tree
+  - yt-foresight-model-taxonomy
+  - yt-entrepreneur-five-step-method
   - "skill-mece体系框架法"
 tags:
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#method/checklist"
-  - "#consulting"
+  - #scene/business-analysis
+  - #scene/learning-methodology
+  - #method/checklist
+  - #consulting
 version: 1
-created_at: "2026-06-11"
-updated_at: "2026-06-11"
-reviewed_by: "laowantong"
-author: "legacy"
+created_at: 2026-06-11
+updated_at: 2026-06-11
+reviewed_by: laowantong
+author: "老顽童"
 confidence: 0.85
-trust_level: "medium-high"
+trust_level: medium-high
 ---
 
 # MECE 原则：相互独立、完全穷尽

@@ -1,6 +1,5 @@
 ---
 id: yt-product-kernel-cultivation
-component_of: 
 confidence: 0.9
 created_at: 2026-06-10
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2400
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "产品内核"
   - "解决方案"
@@ -43,7 +41,7 @@ diagnostic_signals:
   - {'signal': '能判断自己处于六级进阶的哪个层级，并知道下一层要修炼什么', 'framework_lens': '内核有段位', 'follow_up_question': '你当前在哪个层级？下一个层级最明显的差距是什么？'}
   - {'signal': '产品内核会指导功能取舍，而不是功能越多越好', 'framework_lens': '内核是取舍标准', 'follow_up_question': '最近有没有一个功能因为不符合内核而被砍掉？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 产品内核修炼段位图

@@ -1,11 +1,11 @@
 ---
-id: "skill-mckinsey-hypothesis-driven-workflow"
+id: skill-mckinsey-hypothesis-driven-workflow
 title: "技能：假设驱动工作流"
-type: "tool"
-status: "enriched"
+type: tool
+status: enriched
 domain:
-  - "consulting"
-  - "yitang"
+  - consulting
+  - yitang
 source_refs:
   - "Rasiel, E. (1999). *The McKinsey Way*. McGraw-Hill. Chapter 4: 'Conducting the Analysis.'"
   - "Friga, P. N. (2003). *The McKinsey Mind*. McGraw-Hill. Part II: 'The McKinsey Problem-Solving Method.'"
@@ -16,23 +16,23 @@ diagnostic_signals:
   - {'signal': "用户说'我们做了大量调研但结论很模糊'", 'framework_lens': '假设驱动工作流检查：调研是否围绕具体假设展开', 'follow_up_question': '你最初要验证的假设是什么？调研中的每个问题是否直接服务于证实或证伪某个假设？'}
   - {'signal': "用户说'我有5个可能原因，但资源只够验证2个'", 'framework_lens': "假设驱动工作流检查：假设优先级排序是否用了'可证伪性×影响程度'标准", 'follow_up_question': '如果这5个假设中只有1个是对的，哪个假设被证伪后会对你的决策产生最大影响？优先验证那个'}
 related:
-  - "concept-mckinsey-hypothesis-driven"
-  - "concept-mckinsey-issue-tree"
-  - "yt-entrepreneur-key-hypotheses"
+  - concept-mckinsey-hypothesis-driven
+  - concept-mckinsey-issue-tree
+  - yt-entrepreneur-key-hypotheses
   - "skill-一堂-hypothesis-validation-three-axe"
-  - "yt-entrepreneur-five-step-method"
+  - yt-entrepreneur-five-step-method
 tags:
-  - "#scene/business-analysis"
-  - "#scene/learning-methodology"
-  - "#method/checklist"
-  - "#consulting"
+  - #scene/business-analysis
+  - #scene/learning-methodology
+  - #method/checklist
+  - #consulting
 version: 1
-created_at: "2026-06-11"
-updated_at: "2026-06-11"
-reviewed_by: "laowantong"
-author: "legacy"
+created_at: 2026-06-11
+updated_at: 2026-06-11
+reviewed_by: laowantong
+author: "老顽童"
 confidence: 0.85
-trust_level: "medium-high"
+trust_level: medium-high
 ---
 
 # 技能：假设驱动工作流

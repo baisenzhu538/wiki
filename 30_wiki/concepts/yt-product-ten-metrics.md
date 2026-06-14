@@ -38,7 +38,7 @@ diagnostic_signals:
   - {'signal': '指标会定期跟踪，并与上一周期对比', 'framework_lens': '指标是趋势语言', 'follow_up_question': '最近一个周期，哪个指标变化最大？原因是什么？'}
   - {'signal': '指标异常时会触发具体行动，而不是只记录', 'framework_lens': '指标驱动决策', 'follow_up_question': '如果复购率下降5%，你的标准应对流程是什么？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 产品内核十大典型指标

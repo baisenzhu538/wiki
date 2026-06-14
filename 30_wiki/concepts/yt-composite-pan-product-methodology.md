@@ -4,13 +4,11 @@ component_of:
   - yt-model-personal-map
 confidence: 0.85
 created_at: 2026-05-11
-deprecation_reason: 
 difficulty: intermediate
 domain:
   - yitang
 estimated_tokens: 2800
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "泛产品设计"
   - "泛产品方法论"
@@ -35,7 +33,6 @@ source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
   - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
 status: enriched
-superseded_by: 
 title: "泛产品设计方法论"
 type: composite-concept
 version: 2
@@ -46,7 +43,7 @@ diagnostic_signals:
   - {'signal': '用户学了很多泛产品设计工具，但做一个具体产品时还是无从下手', 'framework_lens': '工具多但无主线——泛产品需要整合而非堆砌', 'follow_up_question': '你能用一句话说出这个产品要解决的用户问题吗？如果说不清，工具再多也是散的'}
   - {'signal': '用户把泛产品方法论当成产品经理万能公式', 'framework_lens': '过度泛化——方法论有边界', 'follow_up_question': '这个产品的用户场景和约束有什么独特之处？泛产品方法论的哪部分需要调整？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

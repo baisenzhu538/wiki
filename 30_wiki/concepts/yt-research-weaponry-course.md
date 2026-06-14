@@ -27,7 +27,7 @@ diagnostic_signals:
   - {'signal': '会组合使用产品体验、用户访谈、公开数据、专家、财报等多种手段', 'framework_lens': '情报获取需要组合拳', 'follow_up_question': '你已经穷尽了多少个情报节点？'}
   - {'signal': '对非常规手段会评估法律和道德边界', 'framework_lens': '调研有合规红线', 'follow_up_question': '这个手段如果公开，是否会损害信任或触犯规则？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 confidence: 0.85
 trust_level: high
 ---

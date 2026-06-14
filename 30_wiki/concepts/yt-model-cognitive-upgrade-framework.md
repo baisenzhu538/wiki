@@ -1,13 +1,11 @@
 ---
 id: yt-model-cognitive-upgrade-framework
-component_of: 
 confidence: 0.85
 created_at: 2026-05-15
 difficulty: intermediate
 domain:
   - master
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "认知升级框架"
   - "深度阅读方法论"
@@ -42,7 +40,7 @@ pipeline:
 diagnostic_signals:
   - {'signal': '用户读完一本书做了精美笔记，但三个月后行为和决策没有任何变化', 'framework_lens': '笔记没有变成补丁——阅读停留在"知道"层，没有进入"行动"层', 'follow_up_question': '这本书里的核心观点，你过去30天有没有在任何决策中用到？如果没有，笔记只是装饰品'}
   - {'signal': '用户严格按照十步框架读每本书，但阅读速度极慢，一年读不完几本', 'framework_lens': '框架过度使用——十步框架是深度阅读工具，不是所有书的标配', 'follow_up_question': '这本书对你的当前问题有多重要？如果不重要，用简化版或跳过某些步骤'}
-author: legacy
+author: "老顽童"
 ---
 
 # 认知升级十步框架：从「读书」到「安装认知补丁」

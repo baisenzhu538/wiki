@@ -1,6 +1,5 @@
 ---
 id: yt-model-deliberate-practice-growth
-component_of: 
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2397
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "与泛产品十年爬山地图的关系"
   - "为什么有人一年顶十年"
@@ -33,7 +31,7 @@ diagnostic_signals:
   - {'signal': '用户每天都在练习，但十年没有明显进步', 'framework_lens': '低端重复——练习不在能力边界，只是熟练度重复', 'follow_up_question': '你最近三个月的练习内容，有多少是"已经会了的"？如果>70%，你在低端重复'}
   - {'signal': '用户只学新套路，从不在非舒适区练习', 'framework_lens': '套路囤积——固定套路需要配合非舒适区才能转化为成长', 'follow_up_question': '你最近一次练习时感到"有点难但还能完成"是什么时候？如果超过两周，说明没进非舒适区'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

@@ -1,6 +1,5 @@
 ---
 id: case-escort-service-tiered-growth
-component_of: 
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: beginner
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1800
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "陪诊业务"
   - "医疗陪诊"
@@ -36,7 +34,7 @@ yitang:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
-author: legacy
+author: "老顽童"
 ---
 
 # 案例：陪诊业务七级演进

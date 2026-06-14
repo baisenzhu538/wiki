@@ -1,16 +1,16 @@
 ---
 title: "OCR: 一堂-人机协作-双三角模型"
 type: concept
-status: enriched
+status: draft
 source_refs:
   - src_20260609_11f9c13b
 created_at: "2026-06-09T14:04:55+00:00"
 updated_at: 2026-06-13
 id: "ocr-一堂-人机协作-双三角模型"
-author: legacy
+author: unknown
 reviewed_by: pending
-confidence: 0.8
-trust_level: medium
+confidence: 0.6
+trust_level: low
 ---
 
 

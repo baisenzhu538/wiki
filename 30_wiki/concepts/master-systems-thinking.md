@@ -1,6 +1,5 @@
 ---
 id: master-systems-thinking
-component_of: 
 confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - master
 estimated_tokens: 1380
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "系统思考"
   - "反馈循环"
@@ -27,7 +25,6 @@ related:
   - yt-unit-model-construction
   - yt-unit-model-benchmark
   - yt-unit-model-ai-assisted
-reviewed_by: 
 source_refs:
   - {'来源': 'Jay Forrester, Donella Meadows, Peter Senge'}
 status: enriched
@@ -38,7 +35,7 @@ version: 1
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
-author: legacy
+author: unknown
 trust_level: medium-high
 ---
 

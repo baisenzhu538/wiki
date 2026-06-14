@@ -37,7 +37,7 @@ diagnostic_signals:
   - {'signal': "会让AI扮演反对者或 Devil's Advocate 角色", 'framework_lens': '对抗性提示降低确认偏误', 'follow_up_question': '你最近一次让AI专门找你的方案漏洞是什么时候？'}
   - {'signal': '对AI给出的积极结论会用独立来源或反向问题验证', 'framework_lens': 'AI输出需要外部校验', 'follow_up_question': 'AI说你的项目很有前景，你用什么证据独立验证了这一点？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 reviewed_by: pending
 trust_level: medium-high
 ---

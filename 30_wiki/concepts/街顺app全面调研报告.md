@@ -15,7 +15,7 @@ updated_at: 2026-05-03
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
-author: legacy
+author: unknown
 confidence: 0.85
 ---
 

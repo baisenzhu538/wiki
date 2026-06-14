@@ -1,26 +1,25 @@
 ---
-
-id: "yt-tool-meeting-designer"
+id: yt-tool-meeting-designer
 title: "会议设计师：一页纸会议蓝图"
-type: "tool"
+type: tool
 status: enriched
 domain:
-  - "yitang"
-language: "zh-CN"
+  - yitang
+language: zh-CN
 version: 1
-difficulty: "foundational"
+difficulty: foundational
 confidence: 0.85
-prerequisites: ""
+prerequisites: 
 component_of:
-  - "yt-management-toolkit-overview"
+  - yt-management-toolkit-overview
 related:
-  - "yt-management-scientific-meetings"
-  - "yt-management-goal-management"
-  - "yt-management-project-management"
-  - "yt-management-strategy-meeting"
-  - "yt-decision-y-model"
-  - "master-decision-hygiene"
-contradicts: ""
+  - yt-management-scientific-meetings
+  - yt-management-goal-management
+  - yt-management-project-management
+  - yt-management-strategy-meeting
+  - yt-decision-y-model
+  - master-decision-hygiene
+contradicts: 
 query_triggers:
   - "会议设计"
   - "会议议程模板"
@@ -33,28 +32,29 @@ query_triggers:
   - "减少无效会议"
   - "会议设计师"
 tags:
-  - "confidence-source-cited"
-  - "#management"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#tool"
-  - "#yitang"
+  - confidence-source-cited
+  - #management
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #tool
+  - #yitang
 trust_level: medium
-yitang: {'map': 'management', 'module': '科学开会', 'course_id': 'yt-tool-meeting-designer', 'course_type': 'tool', 'level': 'core'}
+yitang:
+  map: management
+  module: "科学开会"
+  course_id: yt-tool-meeting-designer
+  course_type: tool
+  level: core
 source_refs:
-  - "30_wiki/concepts/yt-management-scientific-meetings.md"
-created_at: "2026-05-19"
-updated_at: "2026-05-19"
+  - 30_wiki/concepts/yt-management-scientific-meetings.md
+created_at: 2026-05-19
+updated_at: 2026-05-19
 estimated_tokens: 3200
 reviewed_by: "周伯通"
 diagnostic_signals:
-  - signal: "团队严格按蓝图开了一次会，议程完美、时间精准、行动项明确——但2周后行动项完成率<30%"
-    framework_lens: "设计了但没人执行——会议设计解决了'会议本身的问题'，但没解决'会后动力的问题'。完美的议程是最精致的逃避——把'执行力问题'包装成'会议效率问题'"
-    follow_up_question: "行动项没有被执行的真正原因是什么？是没时间、忘记了、还是内心觉得这个行动项不重要？如果是后者，会议本身可能就讨论错了方向"
-  - signal: "CEO用会议设计师开了三次会后说'形式感太重了，我们团队不需要这个'"
-    framework_lens: "设计了但没人执行——工具适配度问题。蓝图对5人以下快速对齐型团队的认知负担大于收益。当工具带来的'可控感'没超过'仪式感的不适'时，团队会暗中抵制"
-    follow_up_question: "团队现在开会最大的痛点是什么——是太散漫？还是太冗长？还是产出不清？只保留解决那个痛点的最小工具，其余全删"
-author: legacy
+  - {'signal': '团队严格按蓝图开了一次会，议程完美、时间精准、行动项明确——但2周后行动项完成率<30%', 'framework_lens': "设计了但没人执行——会议设计解决了'会议本身的问题'，但没解决'会后动力的问题'。完美的议程是最精致的逃避——把'执行力问题'包装成'会议效率问题'", 'follow_up_question': '行动项没有被执行的真正原因是什么？是没时间、忘记了、还是内心觉得这个行动项不重要？如果是后者，会议本身可能就讨论错了方向'}
+  - {'signal': "CEO用会议设计师开了三次会后说'形式感太重了，我们团队不需要这个'", 'framework_lens': "设计了但没人执行——工具适配度问题。蓝图对5人以下快速对齐型团队的认知负担大于收益。当工具带来的'可控感'没超过'仪式感的不适'时，团队会暗中抵制", 'follow_up_question': '团队现在开会最大的痛点是什么——是太散漫？还是太冗长？还是产出不清？只保留解决那个痛点的最小工具，其余全删'}
+author: "老顽童"
 ---
 
 # 会议设计师：一页纸会议蓝图

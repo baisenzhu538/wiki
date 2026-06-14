@@ -4,7 +4,6 @@ component_of:
   - yt-composite-pan-product-methodology
 confidence: 0.85
 created_at: 2026-05-11
-deprecation_reason: 
 difficulty: intermediate
 domain:
   - yitang
@@ -30,7 +29,6 @@ source_refs:
   - "10_raw/assets/yitang/泛产品设计-需求工具箱指南.png"
   - "10_raw/sources/一堂-个人修炼-泛产品设计概念口述版.md"
 status: enriched
-superseded_by: 
 title: "泛产品设计·需求工具箱（13张卡牌）"
 type: framework
 version: 1
@@ -40,7 +38,7 @@ diagnostic_signals:
   - {'signal': '用户学了13张需求卡牌但不会选', 'framework_lens': '工具选择困难', 'follow_up_question': '你的项目复杂度是小产品、复杂产品还是商业产品？不同复杂度对应不同卡牌'}
   - {'signal': '用户只关注高阶卡牌，不练初阶', 'framework_lens': '基础不牢', 'follow_up_question': '你做过多少个小产品的需求分析？如果<5个，先练初阶卡牌'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

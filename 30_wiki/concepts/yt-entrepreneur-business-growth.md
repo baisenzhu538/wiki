@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-business-growth
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1878
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "业务增长"
   - "增长引擎"
@@ -41,7 +39,7 @@ diagnostic_signals:
   - {'signal': '用户验证完模式后立刻大规模投放', 'framework_lens': '跳过增长单元模型验证', 'follow_up_question': '你的增长单元模型（获客成本、转化率、客单价、LTV）已经稳定了吗？如果没有，规模化是烧钱'}
   - {'signal': '用户把增长等同于砸钱买量', 'framework_lens': '增长理解狭隘', 'follow_up_question': '除了买量，你的增长飞轮、裂变机制、渠道矩阵在哪里？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 业务增长

@@ -45,7 +45,7 @@ diagnostic_signals:
   - {'signal': '分析中明确考虑了机会成本和时间窗口', 'framework_lens': '资源有限，选择即放弃', 'follow_up_question': '做这件事的同时，你放弃了什么？放弃的选项价值多大？'}
   - {'signal': 'ROI 结论会触发明确的 go/no-go 或优先级调整', 'framework_lens': 'ROI 是决策工具', 'follow_up_question': '这个 ROI 数字是否改变了你的投入计划？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

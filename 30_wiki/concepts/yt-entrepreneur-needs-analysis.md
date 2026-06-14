@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-needs-analysis
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 3000
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "需求分析"
   - JTBD
@@ -45,7 +43,7 @@ diagnostic_signals:
   - {'signal': '用户只问用户要什么，不分析任务场景', 'framework_lens': 'JTBD方法误用', 'follow_up_question': '用户在什么场景下要解决这个问题？他们现在用什么替代方案？'}
   - {'signal': '用户把少数用户反馈当普遍需求', 'framework_lens': '样本偏差', 'follow_up_question': '这个反馈来自几个用户？他们代表多大的用户群体？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 需求分析

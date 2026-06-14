@@ -47,7 +47,7 @@ diagnostic_signals:
   - {'signal': '每个风险都有概率/影响评估和明确负责人', 'framework_lens': '可管理的风险必须可归属', 'follow_up_question': '如果某个风险发生，谁会第一个知道？谁负责应对？'}
   - {'signal': '对高影响风险有预案和触发条件，而不是只停留在监控', 'framework_lens': '风险管理要降低不确定性', 'follow_up_question': '针对最高影响的风险，你的 Plan B 是什么？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

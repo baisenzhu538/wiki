@@ -34,7 +34,7 @@ diagnostic_signals:
   - {'signal': '一次会话会生成≥5个不同方向的选项，再进入筛选', 'framework_lens': '发散先于收敛', 'follow_up_question': 'AI给出的第一个方案是不是你最可能的默认答案？'}
   - {'signal': '最终选择由人做出，并对选中方案进行深化', 'framework_lens': '人是决策者', 'follow_up_question': '你最后选择的方案与AI最初建议相比，改动有多大？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 reviewed_by: pending
 trust_level: medium-high
 ---

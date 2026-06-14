@@ -43,7 +43,7 @@ diagnostic_signals:
   - {'signal': '分层数量控制在能管理的范围内（通常 3-5 个核心群体），并有明确的优先级', 'framework_lens': '分层的价值在于聚焦，而非无限细分', 'follow_up_question': '如果只能为一个群体优化，你会选哪个？为什么？'}
   - {'signal': '每个分层都有真实数据或访谈证据支撑，而不是拍脑袋画像', 'framework_lens': '分层是假设，需要验证', 'follow_up_question': '你最近一次用什么数据验证了某个分层的存在？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

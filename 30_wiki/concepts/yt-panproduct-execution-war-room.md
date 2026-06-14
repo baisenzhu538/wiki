@@ -45,7 +45,7 @@ diagnostic_signals:
   - {'signal': '关键角色都在场，并且会前已做思考准备', 'framework_lens': '攻坚会是高强度协作，不是信息同步', 'follow_up_question': '缺席的这个人是否会导致决策无法落地？'}
   - {'signal': '会议结束时有明确决策、负责人和下一步行动', 'framework_lens': '攻坚会必须产出结论', 'follow_up_question': '如果会议超时仍未达成共识，谁来拍板？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

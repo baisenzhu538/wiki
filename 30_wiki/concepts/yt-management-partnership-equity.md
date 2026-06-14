@@ -39,7 +39,7 @@ diagnostic_signals:
   - {'signal': '合伙人平均分配股权', 'framework_lens': '忽视贡献/风险/时间差异', 'follow_up_question': '每位合伙人的贡献、承担风险、投入时间是否完全相同？如果不同，平均分配不公平'}
   - {'signal': '没有vesting/cliff机制', 'framework_lens': '早期退出导致股权纠纷', 'follow_up_question': '如果合伙人一年后离开，他的股权怎么处理？如果没有明确机制，公司可能埋下分裂种子'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 confidence: 0.75
 ---
 

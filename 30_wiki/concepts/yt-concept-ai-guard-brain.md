@@ -35,7 +35,7 @@ diagnostic_signals:
   - {'signal': '用户所有工作都交给AI，自己不再思考', 'framework_lens': '大脑外包——AI是磨刀石不是拐杖', 'follow_up_question': '你最近一次完全不用AI、独立解决一个复杂问题是什么时候？如果超过两周，你的大脑可能在退化'}
   - {'signal': '用户坚持手写笔记、不用AI，效率低下', 'framework_lens': '另一极端——拒绝AI的能力放大', 'follow_up_question': '你手写笔记的内容中，哪些其实可以让AI帮你整理、检索、关联？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 reviewed_by: pending
 trust_level: medium-high
 ---

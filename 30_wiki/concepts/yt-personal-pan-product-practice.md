@@ -9,7 +9,6 @@ domain:
   - yitang
 estimated_tokens: 3400
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "个人修炼"
   - "产品思维"
@@ -40,7 +39,7 @@ diagnostic_signals:
   - {'signal': '在动手设计前会用需求工具箱验证‘做对的事’', 'framework_lens': '需求先于方案', 'follow_up_question': '如果这个问题本身不值得解决，你的方案再好也没用——你验证过吗？'}
   - {'signal': '需求分析结论会直接影响方案范围和设计优先级', 'framework_lens': '分析必须产生决策输入', 'follow_up_question': '基于需求分析，你砍掉了哪些原计划的功能？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

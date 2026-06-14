@@ -1,15 +1,15 @@
 ---
 title: "Agent 外挂大脑设计"
-type: "system"
-status: "enriched"
+type: system
+status: enriched
 domain:
-  - "master"
-id: "agent-external-brain-design"
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+  - master
+id: agent-external-brain-design
+author: unknown
+reviewed_by: pending
+created_at: 2026-06-15
 confidence: 0.75
-trust_level: "medium-low"
+trust_level: medium-low
 ---
 
 # Agent 外挂大脑设计

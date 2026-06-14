@@ -1,6 +1,5 @@
 ---
 id: case-toy-cabinet-barrier
-component_of: 
 confidence: 0.85
 created_at: 2026-06-11
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2000
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "玩具柜壁垒"
   - "线下零售壁垒"
@@ -35,7 +33,7 @@ yitang:
   level: core
 pipeline:
   - confidence-source-cited
-author: legacy
+author: "老顽童"
 ---
 
 # 案例：线下玩具柜的壁垒困局与突围路径

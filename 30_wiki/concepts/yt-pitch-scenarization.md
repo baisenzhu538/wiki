@@ -37,7 +37,7 @@ diagnostic_signals:
   - {'signal': '场景细节具体，而不是泛泛描述', 'framework_lens': '细节产生代入感', 'follow_up_question': '这个场景发生在什么时间、地点、人物在做什么？'}
   - {'signal': '场景自然导向产品/解决方案的出现', 'framework_lens': '场景是过渡', 'follow_up_question': '场景结束后，用户为什么需要你的产品？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

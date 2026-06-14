@@ -1,6 +1,5 @@
 ---
 id: yt-model-muse-ai-framework
-component_of: 
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1476
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "MUSE 人工智能全景图"
   - "人工智能全景图"
@@ -35,7 +33,7 @@ diagnostic_signals:
   - {'signal': '用户看了AI全景图后更焦虑，觉得自己什么都要学', 'framework_lens': '全景图焦虑——四层都有价值，但当前阶段只需要聚焦一层', 'follow_up_question': '你当前的工作主要在哪一层？如果还在使用层，不要同时学创业层和奇迹层'}
   - {'signal': '用户只关注奇迹层，不愿从使用层开始', 'framework_lens': '跳级学习——MUSE四层需要循序渐进', 'follow_up_question': '你日常工作中AI工具的使用效率如何？如果还没提升，奇迹层与你无关'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

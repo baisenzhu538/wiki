@@ -35,7 +35,7 @@ diagnostic_signals:
   - {'signal': '比喻能传递价值感或情感，而不仅仅是解释功能', 'framework_lens': '比喻可以借价值参照系', 'follow_up_question': '这个比喻让用户联想到什么价值判断？'}
   - {'signal': '不会把比喻推到逻辑不成立的极端', 'framework_lens': '比喻有适用范围', 'follow_up_question': '这个比喻在哪个方面会失效？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

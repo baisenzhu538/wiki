@@ -5,16 +5,16 @@ domain:
   - yitang
 source_refs:
   - src_20260522_ea933690
-status: enriched
+status: draft
 title: "OCR: 顶级产品追求的方向-乔布斯"
 type: concept
 updated_at: 2026-05-22
 pipeline:
   - confidence-source-cited
-author: legacy
+author: "老顽童"
 reviewed_by: pending
-confidence: 0.8
-trust_level: medium
+confidence: 0.6
+trust_level: low
 ---
 
 # OCR: 顶级产品追求的方向-乔布斯

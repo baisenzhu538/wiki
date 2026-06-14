@@ -1,6 +1,5 @@
 ---
 id: yt-personal-checklist-notes
-component_of: 
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 4500
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "清单体笔记"
   - "清单式笔记"
@@ -49,7 +47,7 @@ diagnostic_signals:
   - {'signal': '清单项有明确层级，能一眼看出结构和重点', 'framework_lens': '分层降低认知负荷', 'follow_up_question': '如果只看前3个最高层级标题，能否把握核心？'}
   - {'signal': '笔记与具体问题和下一步行动挂钩，而不是纯粹信息存储', 'framework_lens': '笔记服务于决策和行动', 'follow_up_question': '这篇笔记不写，你的哪个行动会受影响？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 清单体笔记（一堂笔记法）

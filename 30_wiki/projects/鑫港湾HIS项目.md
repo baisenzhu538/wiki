@@ -1,12 +1,12 @@
 ---
 title: "鑫港湾HIS项目"
-type: "project"
-status: "active"
+type: project
+status: active
 domain:
-  - "healthcare"
-id: "鑫港湾HIS项目 - "src_20260428_db49a647" - "src_20260503_968e0210" - "src_20260503_1a1f0312" - "src_20260503_dadc7838""
-created_at: "2026-05-04"
-updated_at: "2026-05-04"
+  - healthcare
+id: "鑫港湾HIS项目 - \"src_20260428_db49a647\" - \"src_20260503_968e0210\" - \"src_20260503_1a1f0312\" - \"src_20260503_dadc7838\""
+created_at: 2026-05-04
+updated_at: 2026-05-04
 related:
   - "[[鑫港湾HIS系统分阶段整改报告]]"
   - "[[HIS系统深度调研]]"
@@ -16,14 +16,14 @@ related:
   - "[[ec工业化规范手册-v2.8.0]]"
   - "[[鑫港湾]]"
 tags:
-  - "#healthcare"
-  - "#his"
-  - "#medical-software"
-  - "#dotnet"
-author: "legacy"
-reviewed_by: "pending"
+  - #healthcare
+  - #his
+  - #medical-software
+  - #dotnet
+author: unknown
+reviewed_by: pending
 confidence: 0.85
-trust_level: "high"
+trust_level: high
 ---
 
 # 鑫港湾HIS项目

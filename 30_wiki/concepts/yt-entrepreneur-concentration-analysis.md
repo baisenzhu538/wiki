@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-concentration-analysis
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1849
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "集中度分析"
   - "行业集中度"
@@ -42,7 +40,7 @@ diagnostic_signals:
   - {'signal': '用户用集中度判断行业好坏，但忽视自己定位', 'framework_lens': '行业属性≠企业策略', 'follow_up_question': '你选择的细分市场和差异化定位是什么？没有定位，集中度数据无法指导决策'}
   - {'signal': '用户认为高集中度行业就不能进', 'framework_lens': '过度简化', 'follow_up_question': '高集中度行业里有没有被忽视的细分市场或差异化角度？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 集中度分析

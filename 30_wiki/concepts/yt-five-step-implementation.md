@@ -39,7 +39,7 @@ diagnostic_signals:
   - {'signal': '用户停在故事版，永远讲不清楚取舍', 'framework_lens': '落地阶段停滞', 'follow_up_question': '你能明确说出"我们不服务谁""我们不做什么"吗？如果不能，还在故事版'}
   - {'signal': '用户直接跳到定量版，但故事都没讲清楚', 'framework_lens': '跳级', 'follow_up_question': '5分钟内能把商业模式讲清楚吗？如果不能，不要急着定量'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 五步法落地实操：从故事版到分工版

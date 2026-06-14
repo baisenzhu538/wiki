@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-pragmatic-startup
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1843
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "务实创业"
   - "实事求是创业"
@@ -41,7 +39,7 @@ diagnostic_signals:
   - {'signal': '用户追风口而不看自身能力', 'framework_lens': '不务实', 'follow_up_question': '这个风口和你的核心能力有什么关系？如果没有，你只是旁观者'}
   - {'signal': '用户过度保守，什么都不敢试', 'framework_lens': '务实≠不行动', 'follow_up_question': '你最近一次基于数据做决策并快速验证是什么时候？如果很久没有，务实变成了不作为'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 务实创业

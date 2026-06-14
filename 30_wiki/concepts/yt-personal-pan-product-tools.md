@@ -9,7 +9,6 @@ domain:
   - yitang
 estimated_tokens: 3400
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "个人修炼"
   - "产品思维"
@@ -41,7 +40,7 @@ diagnostic_signals:
   - {'signal': '面对具体任务时，能组合使用多张卡牌而不是只出一张', 'framework_lens': '出牌 = 组合能力', 'follow_up_question': '这个任务需要哪几张牌配合？它们之间的顺序是什么？'}
   - {'signal': '使用卡牌后会对效果进行复盘，更新自己的‘出牌策略’', 'framework_lens': '工具能力在反馈中进化', 'follow_up_question': '上次用某张牌效果不好的原因是什么？是牌选错了还是用错了？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

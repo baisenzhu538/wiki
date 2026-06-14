@@ -5,16 +5,16 @@ domain:
   - yitang
 source_refs:
   - src_20260522_ad937c9c
-status: enriched
+status: draft
 title: "OCR: 一堂-科学决策-深度-L2部分定量"
 type: concept
 updated_at: 2026-05-22
 pipeline:
   - confidence-source-cited
-author: legacy
+author: "老顽童"
 reviewed_by: pending
-confidence: 0.8
-trust_level: medium
+confidence: 0.6
+trust_level: low
 ---
 
 # OCR: 一堂-科学决策-深度-L2部分定量

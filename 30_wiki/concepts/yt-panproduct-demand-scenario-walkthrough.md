@@ -43,7 +43,7 @@ diagnostic_signals:
   - {'signal': '覆盖了主路径、异常路径和边界场景，而不只是理想流程', 'framework_lens': '真实世界充满噪声', 'follow_up_question': '网络中断、用户分心、时间紧迫时，方案还能用吗？'}
   - {'signal': '场景被用来评估和迭代设计方案，而不是只在需求阶段出现', 'framework_lens': '场景是贯穿设计全程的参照', 'follow_up_question': '上一次方案评审中，是否有场景推动了设计改动？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

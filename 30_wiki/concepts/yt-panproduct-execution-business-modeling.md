@@ -45,7 +45,7 @@ diagnostic_signals:
   - {'signal': '模型同时包含收入端和成本端，而不是只看增长', 'framework_lens': '单位经济模型需要双向审视', 'follow_up_question': '如果收入翻倍，哪些成本会以相同或更高速度增长？'}
   - {'signal': '模型会被真实数据更新，而不是只做一次静态推演', 'framework_lens': '业务模型是活的假设集合', 'follow_up_question': '最近一个月，模型的哪个假设被数据证伪或证实了？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

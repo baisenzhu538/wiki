@@ -27,7 +27,6 @@ related:
   - yt-decision-canvas
   - yt-decision-habit-shift
   - yt-decision-depth-ladder
-reviewed_by: 
 source_refs:
   - "00_inbox/科学决策/一堂-科学决策-ROI决策宽度实操课口述02.txt"
   - "00_inbox/科学决策/一堂-科学决策-宽度-个人.png"
@@ -57,7 +56,7 @@ diagnostic_signals:
   - {'signal': '对重大决策走完‘列→推→建→查’四步，且故事推演覆盖供应链/用户体验/时间线', 'framework_lens': '连续叙事能暴露散点思考遗漏的环节', 'follow_up_question': '按时间线走一遍后，是否发现了原来单点列表中没看到的成本或风险？'}
   - {'signal': '查盲区时调用对应层级的清单（个人/团队/企业），而不是只凭直觉扫描', 'framework_lens': '系统性扫描 > 自我启发式回忆', 'follow_up_question': '这个决策属于个人、团队还是企业层级？你是否使用了对应清单？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 宽度分析工具：列推建查四步法+三层盲区清单

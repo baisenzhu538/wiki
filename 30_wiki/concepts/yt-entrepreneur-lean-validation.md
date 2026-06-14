@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-lean-validation
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1851
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "低成本验证"
   - MVP
@@ -43,7 +41,7 @@ diagnostic_signals:
   - {'signal': '用户把MVP做成完整产品', 'framework_lens': '混淆MVP与产品', 'follow_up_question': '你的MVP是为了验证哪个具体假设？如果砍掉一半功能，还能验证吗？'}
   - {'signal': '用户验证了一个点但没有继续迭代', 'framework_lens': 'MVP没有闭环', 'follow_up_question': '验证结果如何改变了你的下一步行动？如果没有任何改变，验证只是形式主义'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 低成本验证/MVP

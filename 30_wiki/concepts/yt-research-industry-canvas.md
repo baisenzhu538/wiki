@@ -1,6 +1,5 @@
 ---
 id: yt-research-industry-canvas
-component_of: 
 confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
@@ -26,7 +25,6 @@ related:
   - yt-research-expert-interview
   - yt-research-hypothesis-test
   - yt-entrepreneur-key-hypotheses
-reviewed_by: 
 source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
   - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
@@ -48,7 +46,7 @@ diagnostic_signals:
   - {'signal': '能在二维竞争象限中定位关键玩家和机会空白区', 'framework_lens': '定位决定机会空间', 'follow_up_question': '你选择的定位在象限中是否已经被占据？'}
   - {'signal': '行业分析结论直接回答‘要不要进、怎么进’', 'framework_lens': '行业分析服务于进入决策', 'follow_up_question': '根据画布结论，你是进入、观望还是放弃？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 行业分析画布：五维快速扫描+二维定位

@@ -1,6 +1,5 @@
 ---
 id: case-coffee-shop-foresight
-component_of: 
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: beginner
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2000
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "咖啡馆创业"
   - "咖啡店预判"
@@ -36,7 +34,7 @@ yitang:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
-author: legacy
+author: "老顽童"
 ---
 
 # 案例：咖啡馆创业预判

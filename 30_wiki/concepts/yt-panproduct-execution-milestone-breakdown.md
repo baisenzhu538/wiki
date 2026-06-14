@@ -45,7 +45,7 @@ diagnostic_signals:
   - {'signal': '里程碑之间的依赖关系被显式标注', 'framework_lens': '顺序背后是约束', 'follow_up_question': '如果前一个里程碑延迟，哪些后续里程碑必须顺延？'}
   - {'signal': '在关键里程碑处设置了风险缓冲或检查点', 'framework_lens': '不确定性需要缓冲', 'follow_up_question': '这个里程碑的日期是乐观估计还是包含缓冲？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

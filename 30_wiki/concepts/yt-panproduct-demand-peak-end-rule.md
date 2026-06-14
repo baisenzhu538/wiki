@@ -44,7 +44,7 @@ diagnostic_signals:
   - {'signal': '设计方案时主动管理用户预期，而不仅仅是提升交付', 'framework_lens': '惊喜 = 交付 − 预期', 'follow_up_question': '如果用户预期已经很高，你还能创造惊喜吗？'}
   - {'signal': '用户满意度调研包含‘记忆型’问题，而不只是平均打分', 'framework_lens': '峰值终值影响推荐和复购', 'follow_up_question': '用户向别人推荐时，最可能提到的三个瞬间是什么？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

@@ -1,6 +1,5 @@
 ---
 id: yt-unit-model-ladder
-component_of: 
 confidence: 0.85
 created_at: 2026-05-24
 difficulty: intermediate
@@ -29,7 +28,6 @@ related:
   - yt-decision-y-model
   - master-first-principles
   - master-systems-thinking
-reviewed_by: 
 source_refs:
   - "src_20260524_8a3b1c2d-一堂-单元模型01口述"
   - "src_20260524_9f4e5d6a-一堂-单元模型02口述"
@@ -56,7 +54,7 @@ diagnostic_signals:
   - {'signal': "是否用'15 个错误清单'诊断单元模型质量", 'framework_lens': '错误模式 / 质量检查', 'follow_up_question': '团队是否重复犯同样错误而不知其编号？'}
   - {'signal': '段位训练是否与真实业务项目绑定', 'framework_lens': '实战 / 学习迁移', 'follow_up_question': '训练是否停留在纸面案例而非真实数据？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 单元模型六段进阶：从不会算账到动态预判

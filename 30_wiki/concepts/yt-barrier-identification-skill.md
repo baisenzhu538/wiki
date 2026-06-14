@@ -1,6 +1,5 @@
 ---
 id: yt-barrier-identification-skill
-component_of: 
 confidence: 0.85
 created_at: 2026-06-11
 difficulty: advanced
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2800
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "壁垒识别"
   - "真假壁垒"
@@ -44,7 +42,7 @@ diagnostic_signals:
   - {'signal': '用户认为自己的技术领先就是壁垒，但四问都答不上来', 'framework_lens': '技术≠壁垒——需要通过真假壁垒四问验证', 'follow_up_question': '你的技术领先能持续多久？客户切换成本高吗？竞争对手复制需要多久？'}
   - {'signal': '用户识别了真壁垒，但没有构建路径', 'framework_lens': '识别≠建设——壁垒是长期工程', 'follow_up_question': '为了建立这个壁垒，你接下来90天要做什么具体动作？谁负责？花多少钱？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 壁垒识别与构建技能：从真假壁垒到护城河建设

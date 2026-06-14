@@ -18,7 +18,7 @@ type: concept
 updated_at: 2026-05-03
 pipeline:
   - confidence-verified-by-case
-author: legacy
+author: unknown
 confidence: 0.75
 ---
 

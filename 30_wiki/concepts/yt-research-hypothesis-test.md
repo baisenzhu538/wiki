@@ -1,6 +1,5 @@
 ---
 id: yt-research-hypothesis-test
-component_of: 
 confidence: 0.85
 created_at: 2026-05-18
 difficulty: advanced
@@ -27,7 +26,6 @@ related:
   - yt-research-industry-canvas
   - yt-entrepreneur-key-hypotheses
   - yt-decision-y-model
-reviewed_by: 
 source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
   - "00_inbox/ideas/一堂-创业-调研行动营口述01.md"
@@ -49,7 +47,7 @@ diagnostic_signals:
   - {'signal': '为每个假设设计了最小成本验证实验', 'framework_lens': '调研也要讲投入产出', 'follow_up_question': '验证这个假设的最便宜方式是什么？'}
   - {'signal': '验证结果会更新假设优先级和下一步计划', 'framework_lens': '调研是贝叶斯更新', 'follow_up_question': '这个验证结果改变了你对哪个假设的信心？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 假设验证调研工具：关键假设→可证伪问题→最小实验

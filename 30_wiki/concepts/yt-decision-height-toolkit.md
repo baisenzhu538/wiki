@@ -27,7 +27,6 @@ related:
   - yt-decision-consensus-iceberg
   - yt-decision-ai-partner
   - yt-model-liberate-thinking-layers
-reviewed_by: 
 source_refs:
   - "00_inbox/科学决策/一堂-科学决策-ROI决策高度实操课口述04.txt"
   - "00_inbox/科学决策/一堂-科学决策-高度-两种典型的思考习惯.png"
@@ -57,7 +56,7 @@ pipeline:
 diagnostic_signals:
   - {'signal': "团队用高度工具分析完，发现四个维度都'应该考虑'，但决策更不敢做了", 'framework_lens': '高度过度分析——高度工具的作用是发现新变量，不是把每个变量都拉到极致', 'follow_up_question': '四个维度中，哪个维度对当前决策的权重最高？如果只保留一个维度，你保留哪个？'}
   - {'signal': "老板说'我们要从公司视角看'，但员工根本不知道公司真实财务数据", 'framework_lens': '加一思考的信息天花板——工具假设信息透明，但组织中信息天然分层', 'follow_up_question': "员工能做加一思考所需的关键信息，目前能获取多少？如果<50%，工具只能退回到'个人/项目视角'使用"}
-author: legacy
+author: "老顽童"
 ---
 
 # 高度分析工具：上帝视角四维提升法 + 高水平共识曲线

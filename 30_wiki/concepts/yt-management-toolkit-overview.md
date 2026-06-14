@@ -9,7 +9,6 @@ domain:
   - yitang
 estimated_tokens: 2800
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "管理工具"
   - "管理者工具箱"
@@ -62,7 +61,7 @@ diagnostic_signals:
   - {'signal': '管理者什么工具都用，但什么场景都不深', 'framework_lens': '工具泛化', 'follow_up_question': '你最近一周最常用的3个管理工具是什么？如果超过5个，说明太泛'}
   - {'signal': '管理者不知道当前问题该用什么工具', 'framework_lens': '工具选择困难', 'follow_up_question': '你能用一个标签描述当前的管理问题吗？如果不能，无法匹配工具'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 reviewed_by: pending
 ---
 

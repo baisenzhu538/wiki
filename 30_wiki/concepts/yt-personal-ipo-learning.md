@@ -1,6 +1,5 @@
 ---
 id: yt-personal-ipo-learning
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 3000
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "IPO 科学学习"
   - "世界学习法与四大渠道"
@@ -44,7 +42,7 @@ diagnostic_signals:
   - {'signal': 'Output 层级≥3（如用自己的话重述、建立模型、解决实际问题）', 'framework_lens': '输出深度反映内化程度', 'follow_up_question': '你这次学习的输出，是复制原文还是自己的重构？'}
   - {'signal': '学习后会用反馈修正下一轮 Input 和 Process', 'framework_lens': '学习是螺旋上升的闭环', 'follow_up_question': '上一次输出后，你根据反馈调整了哪些学习方法？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

@@ -46,7 +46,7 @@ diagnostic_signals:
   - {'signal': '用真实用户而非内部员工做仿真测试', 'framework_lens': '内部视角有偏差', 'follow_up_question': '参与测试的人是否代表目标用户？他们的背景差异是什么？'}
   - {'signal': '仿真测试后能列出至少3个在假环境中不会发现的问题', 'framework_lens': '仿真的价值在于发现真实摩擦', 'follow_up_question': '这次仿真最大的意外发现是什么？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

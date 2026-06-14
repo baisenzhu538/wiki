@@ -1,6 +1,5 @@
 ---
 id: yt-personal-thinking-models
-component_of: 
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1853
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "一堂做课供应链模型"
   - "为什么提炼模型是最核心的能力"
@@ -38,7 +36,7 @@ diagnostic_signals:
   - {'signal': '模型会用新案例不断修正，而不是一成不变', 'framework_lens': '模型是活的', 'follow_up_question': '最近有没有一个案例让你的模型边界发生了变化？'}
   - {'signal': '模型能向他人清晰解释，并让他人也能使用', 'framework_lens': '可传播才有价值', 'follow_up_question': '别人用这个模型做判断时，是否需要你补充很多背景？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

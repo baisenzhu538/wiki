@@ -1,6 +1,5 @@
 ---
 id: yt-model-product-core-metrics
-component_of: 
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2352
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "与产品内核的关系"
   - "产品内核十大典型指标"
@@ -33,7 +31,7 @@ diagnostic_signals:
   - {'signal': '用户盯十大指标但不看业务阶段', 'framework_lens': '指标与阶段错配', 'follow_up_question': '你当前业务最大的瓶颈是获客、转化、复购还是推荐？如果不知道，指标盯错了'}
   - {'signal': '用户把所有指标都当核心指标', 'framework_lens': '没有聚焦', 'follow_up_question': '这十个指标中，你这个季度只看一个，你选哪个？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

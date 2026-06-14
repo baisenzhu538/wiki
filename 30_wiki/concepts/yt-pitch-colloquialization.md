@@ -37,7 +37,7 @@ diagnostic_signals:
   - {'signal': '长句被切短，复杂词被替换为日常词', 'framework_lens': '口语的颗粒度更细', 'follow_up_question': '这段话里有没有超过20个字还不喘气的句子？'}
   - {'signal': '口语化后仍保留准确性和信息密度', 'framework_lens': '说人话 ≠ 说废话', 'follow_up_question': '改成口语后，原意有没有被稀释或歪曲？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

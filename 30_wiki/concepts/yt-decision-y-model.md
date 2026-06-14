@@ -1,6 +1,5 @@
 ---
 id: yt-decision-y-model
-component_of: 
 confidence: 0.85
 created_at: 2026-05-17
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2100
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "科学决策"
   - "Y模型"
@@ -58,7 +56,7 @@ pipeline:
 diagnostic_signals:
   - {'signal': "团队说'我们用Y模型分析过了'，但不同人用同一画布得出完全不同的结论", 'framework_lens': '噪声问题——Y模型减少偏差但不减少噪声，框架内的估计值差异巨大', 'follow_up_question': '同一个关键参数，团队里不同人估计的差距有多大？如果超过2倍，说明框架没有解决噪声问题'}
   - {'signal': "创业者用Y模型分析品牌视觉方向，最后变成'高级感值3分还是5分'的争论", 'framework_lens': '框架覆盖边界——Y模型对不可通约的品味型决策失效', 'follow_up_question': "这个决策的核心分歧在'可量化的ROI'还是'不可通约的品味'？如果是后者，退出Y模型，换品味仲裁者"}
-author: legacy
+author: "老顽童"
 ---
 
 # Y模型科学决策框架（广义ROI）

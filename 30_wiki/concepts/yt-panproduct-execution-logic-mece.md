@@ -45,7 +45,7 @@ diagnostic_signals:
   - {'signal': 'MECE 用于重要决策或复杂沟通前，而不是所有日常小事', 'framework_lens': '结构化思考的成本收益', 'follow_up_question': '这个问题值得花费额外时间做 MECE 拆解吗？'}
   - {'signal': '拆解结果能被他人快速理解并发现遗漏', 'framework_lens': 'MECE 是协作语言', 'follow_up_question': '一个不熟悉项目的人看了你的拆解后，能否在5分钟内提出一个合理质疑？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

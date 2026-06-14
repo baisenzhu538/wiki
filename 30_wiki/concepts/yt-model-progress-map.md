@@ -1,6 +1,5 @@
 ---
 id: yt-model-progress-map
-component_of: 
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1881
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "五段式架构"
   - "关联卡片"
@@ -39,7 +37,7 @@ pipeline:
 diagnostic_signals:
   - {'signal': '用户把无限进步大地图当收藏，但不知道今天该学什么', 'framework_lens': '总图缺乏落地路径——地图太大，没有转化为当下的学习优先级', 'follow_up_question': '你当前处在五段式架构的哪个阶段？如果答不上来，地图没有帮你定位'}
   - {'signal': '用户在快速上手阶段就焦虑自己还没开始无限修炼', 'framework_lens': '阶段焦虑——把终局视角当成当前要求', 'follow_up_question': '你进入这个体系多久了？如果<6个月，你的任务不是无限修炼，而是先跑通个人修炼的一个小闭环'}
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

@@ -9,7 +9,7 @@ type: concept
 updated_at: 2026-05-03
 pipeline:
   - confidence-verified-by-case
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low

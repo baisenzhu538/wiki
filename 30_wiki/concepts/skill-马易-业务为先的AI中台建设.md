@@ -7,7 +7,6 @@ domain:
   - ai-implementation
 source_person: "马易"
 source_context: "AI落地场景识别"
-source_refs: 
 wiki_refs:
   - 30_wiki/concepts/yt-entrepreneur-pragmatic-startup.md
   - 30_wiki/concepts/ai-landing-scene-selection.md
@@ -28,7 +27,7 @@ reviewed_by: "黄药师"
 confidence: 0.85
 pipeline:
   - confidence-source-cited
-author: legacy
+author: unknown
 trust_level: medium-high
 ---
 

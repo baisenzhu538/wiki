@@ -1,6 +1,5 @@
 ---
 id: yt-unit-model-ai-assisted
-component_of: 
 confidence: 0.85
 created_at: 2026-05-24
 difficulty: intermediate
@@ -25,7 +24,6 @@ related:
   - yt-unit-model-dynamic
   - yt-decision-ai-innovation
   - master-systems-thinking
-reviewed_by: 
 source_refs:
   - "src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述"
 status: reviewed
@@ -47,7 +45,7 @@ diagnostic_signals:
   - {'signal': '单元模型分歧是否被追溯到根因假设（数据/前提/利益）', 'framework_lens': '假设透明 / 对齐', 'follow_up_question': '团队是否只争论数字而不暴露底层假设？'}
   - {'signal': 'AI 生成的咨询/教学输出是否标注置信度和人工复核点', 'framework_lens': '可信度 / 责任边界', 'follow_up_question': '出口式咨询报告是否被视为无人负责的意见？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # AI+单元模型：TCP-R双导师与出口式咨询实践

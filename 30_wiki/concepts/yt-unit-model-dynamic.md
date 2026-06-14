@@ -1,6 +1,5 @@
 ---
 id: yt-unit-model-dynamic
-component_of: 
 confidence: 0.85
 created_at: 2026-05-24
 difficulty: advanced
@@ -27,7 +26,6 @@ related:
   - yt-decision-forecasting-accuracy
   - yt-decision-system1-system2
   - master-first-principles
-reviewed_by: 
 source_refs:
   - "src_20260524_6b5a4c3d-一堂-单元模型04口述"
   - "src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述"
@@ -50,7 +48,7 @@ diagnostic_signals:
   - {'signal': "拐点是否被当作预警而非'死刑判决'", 'framework_lens': '拐点响应 / 模式重构', 'follow_up_question': '看到拐点后是否直接停止增长而非重构模式？'}
   - {'signal': '是否定期更新动态模型以反映新数据', 'framework_lens': '迭代 / 时效性', 'follow_up_question': '动态模型是否建完后就束之高阁？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 动态单元模型：规模变量、拐点预判与规模经济对抗

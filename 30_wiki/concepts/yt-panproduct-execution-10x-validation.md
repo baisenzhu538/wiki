@@ -44,7 +44,7 @@ diagnostic_signals:
   - {'signal': '每个验证实验都有明确的通过/不通过标准和下一步动作', 'framework_lens': '验证是决策工具', 'follow_up_question': '如果实验结果是否定的，你会放弃、调整还是换一种验证方式？'}
   - {'signal': '验证投入随信心螺旋上升，而不是一次性 all-in', 'framework_lens': '贝叶斯式渐进投入', 'follow_up_question': '在这个假设上，你已经花了多少钱？下一步投入的触发条件是什么？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

@@ -1,21 +1,21 @@
 ---
-id: "concept-five-step-growth-to-barrier-transition"
+id: concept-five-step-growth-to-barrier-transition
 title: "五步法衔接：什么时候从增长切换到壁垒建设"
-type: "concept"
+type: concept
 domain:
-  - "yitang"
-status: "enriched"
+  - yitang
+status: enriched
 confidence: 0.85
-difficulty: "intermediate"
+difficulty: intermediate
 estimated_tokens: 2200
-language: "zh-CN"
+language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by: "黄药师（Builder体验Producer）"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt"
   - "00_inbox/一堂五步法/一堂-一堂五步法-增长-口述.txt"
-source_person: "Truman"
+source_person: Truman
 source_context: "一堂五步法增长篇+壁垒篇"
 query_triggers:
   - "增长到壁垒"
@@ -25,25 +25,25 @@ query_triggers:
   - "五步法衔接"
   - "增长太快要不要建壁垒"
 tags:
-  - "#yitang"
-  - "#scene/business-analysis"
-  - "#scene/strategy"
+  - #yitang
+  - #scene/business-analysis
+  - #scene/strategy
 pipeline:
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': "业务增长很快，团队说'现在顾不上建壁垒，先把增长做上去'", 'framework_lens': "帮你判断当前的增长是否可持续——如果增长来自'可以随时停止的投入'而非'结构性的用户选择'，那增长越快未来崩塌越快", 'follow_up_question': '如果明天你把广告预算砍掉一半，下个月的收入会掉多少？如果答案 >30%，你的增长是买来的不是长出来的'}
 bridges_to:
   - {'target': 'yt-five-step-method', 'relation': 'extends_step', 'description': '五步法第四步→第五步之间的衔接判断，填补了两步之间的标准空白'}
   - {'target': 'case-five-step-fake-vs-real-barriers', 'relation': 'precedes', 'description': "先判断'什么时候建壁垒'（本文），再判断'什么才是真壁垒'（真假壁垒案例）"}
 wiki_refs:
-  - "30_wiki/concepts/yt-five-step-method.md"
-  - "30_wiki/concepts/yt-growth-cycle-model.md"
-  - "30_wiki/concepts/yt-barrier-analysis-cheat-sheet.md"
-  - "30_wiki/concepts/yt-entrepreneur-barriers.md"
-  - "30_wiki/concepts/case-five-step-growth-first-lever.md"
-  - "30_wiki/concepts/case-five-step-fake-vs-real-barriers.md"
-author: "legacy"
-trust_level: "medium-high"
+  - 30_wiki/concepts/yt-five-step-method.md
+  - 30_wiki/concepts/yt-growth-cycle-model.md
+  - 30_wiki/concepts/yt-barrier-analysis-cheat-sheet.md
+  - 30_wiki/concepts/yt-entrepreneur-barriers.md
+  - 30_wiki/concepts/case-five-step-growth-first-lever.md
+  - 30_wiki/concepts/case-five-step-fake-vs-real-barriers.md
+author: "老顽童"
+trust_level: medium-high
 ---
 
 # 五步法衔接：什么时候从增长切换到壁垒建设

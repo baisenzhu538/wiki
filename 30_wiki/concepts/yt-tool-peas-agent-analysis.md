@@ -43,7 +43,7 @@ diagnostic_signals:
   - {'signal': '效用函数是否暴露不可通约的价值冲突', 'framework_lens': '价值多元 / 伦理边界', 'follow_up_question': "是否把'家庭时间'与'职业成就'强行加权？"}
   - {'signal': '是否识别出 reflex 级 SOP 与 learning agent 的切换条件', 'framework_lens': '危机响应 / 不确定性', 'follow_up_question': '危机时是否还在慢慢拆解效用函数？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统

@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-channel-exploration
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1822
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "渠道探索"
   - "获客渠道"
@@ -41,7 +39,7 @@ diagnostic_signals:
   - {'signal': '用户只选一个渠道All in，不测试其他', 'framework_lens': '渠道单一风险', 'follow_up_question': '如果明天这个渠道失效（平台政策变化/成本翻倍），你有备选吗？'}
   - {'signal': '用户渠道很多，但不知道哪个有效', 'framework_lens': '没有渠道验证机制', 'follow_up_question': '每个渠道的CAC、转化率、LTV/CAC你算过吗？如果不知道，渠道选择是盲目的'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 渠道探索

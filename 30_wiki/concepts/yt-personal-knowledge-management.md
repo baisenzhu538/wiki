@@ -1,6 +1,5 @@
 ---
 id: yt-personal-knowledge-management
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 3000
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "知识管理"
   - "第二大脑"
@@ -43,7 +41,7 @@ diagnostic_signals:
   - {'signal': '笔记是原子化的，每张卡有一个独立主题，并与其他卡双向链接', 'framework_lens': '网络结构优于树状结构', 'follow_up_question': '这张卡能否独立理解？它与哪些卡互相关联？'}
   - {'signal': '会定期进行检索练习或知识复用，而不是只收集', 'framework_lens': '知识的价值在于调取', 'follow_up_question': '过去30天，你主动调取过多少张旧卡？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 知识管理

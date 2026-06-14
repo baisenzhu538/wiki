@@ -1,6 +1,5 @@
 ---
 id: yt-tool-product-core-canvas
-component_of: 
 confidence: 0.85
 created_at: 2026-06-06
 difficulty: intermediate
@@ -25,7 +24,6 @@ related:
   - yt-five-step-implementation
   - yt-model-five-step-canvas
 review_date: 2026-06-06
-reviewed_by: 
 source_refs:
   - "00_inbox/一堂-产品内核实操课-truman-口述.txt"
   - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
@@ -49,7 +47,7 @@ diagnostic_signals:
   - {'signal': "是否识别出'假绿色'要素（以为是内核其实不是）", 'framework_lens': '内核诚实 / 反直觉', 'follow_up_question': '转化率低时是否怪执行而非画布假设错误？'}
   - {'signal': '画布输出是否直接关联到单元模型和关键假设验证', 'framework_lens': '落地闭环 / 五步法', 'follow_up_question': '画布讨论后是否停留在可视化而不进入验证？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 产品内核画布与九大原则

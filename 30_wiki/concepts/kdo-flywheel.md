@@ -21,7 +21,7 @@ query_triggers:
 pipeline:
   - confidence-verified-by-test
 id: kdo-flywheel
-author: legacy
+author: "黄药师"
 reviewed_by: pending
 confidence: 0.8
 trust_level: high

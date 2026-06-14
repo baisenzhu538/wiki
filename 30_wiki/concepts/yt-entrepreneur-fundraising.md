@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-fundraising
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1826
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "融资认知"
   - "创业融资"
@@ -40,7 +38,7 @@ diagnostic_signals:
   - {'signal': '用户认为融资越多越成功', 'framework_lens': '融资是放大器不是成功指标', 'follow_up_question': '如果不融资，你的商业模式能独立跑通吗？如果不能，融资只是续命'}
   - {'signal': '用户没有PMF就着急融资', 'framework_lens': '时机错配——融资加速验证过的东西', 'follow_up_question': '你的关键假设验证了多少？如果还不到50%，投资人不会为你的探索买单'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 融资认知

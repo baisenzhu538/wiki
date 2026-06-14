@@ -5,17 +5,17 @@ domain:
   - ai-saas
 source_refs:
   - src_20260522_5bd37e0d
-status: enriched
+status: draft
 title: "OCR: 泛产品设计-落地卡片-十倍速验证"
 type: concept
 updated_at: 2026-05-22
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
-author: legacy
+author: unknown
 reviewed_by: pending
-confidence: 0.8
-trust_level: medium
+confidence: 0.6
+trust_level: low
 ---
 
 # OCR: 泛产品设计-落地卡片-十倍速验证

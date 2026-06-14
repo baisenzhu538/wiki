@@ -32,7 +32,7 @@ wiki_refs:
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-outcome
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

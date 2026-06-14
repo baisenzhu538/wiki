@@ -21,7 +21,7 @@ updated_at: 2026-05-25
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
-author: legacy
+author: unknown
 reviewed_by: pending
 trust_level: medium
 ---

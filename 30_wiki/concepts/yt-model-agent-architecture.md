@@ -1,13 +1,11 @@
 ---
 id: yt-model-agent-architecture
-component_of: 
 confidence: 0.85
 created_at: 2026-05-15
 difficulty: intermediate
 domain:
   - ai-models
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "PEAS框架"
   - "智能体架构"
@@ -40,7 +38,7 @@ diagnostic_signals:
   - {'signal': '学了PEAS框架，但设计AI应用时还是用简单prompt', 'framework_lens': '理论与设计脱节——框架需要转化为具体架构选择', 'follow_up_question': '你的任务环境是哪种类型？完全可观察还是部分可观察？确定性还是随机性？这些特征决定了该用哪层agent'}
   - {'signal': 'Agent设计过度复杂，一个小任务用了五层架构', 'framework_lens': '过度工程化——智能体层级应与任务复杂度匹配', 'follow_up_question': '这个任务真的需要学习和规划吗？如果只是简单响应，用反射型agent就够了'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 智能体架构：PEAS与五层Agent模型

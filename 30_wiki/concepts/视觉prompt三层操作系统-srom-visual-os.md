@@ -12,7 +12,7 @@ type: concept
 updated_at: 2026-06-12
 pipeline:
   - confidence-source-cited
-author: legacy
+author: "月白"
 reviewed_by: pending
 confidence: 0.8
 trust_level: medium

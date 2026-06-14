@@ -5,17 +5,17 @@ domain:
   - ai-saas
 source_refs:
   - src_20260522_e4b635ac
-status: enriched
+status: draft
 title: "OCR: 泛产品设计落地篇"
 type: concept
 updated_at: 2026-05-22
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
-author: legacy
+author: unknown
 reviewed_by: pending
-confidence: 0.8
-trust_level: medium
+confidence: 0.6
+trust_level: low
 ---
 
 # OCR: 泛产品设计落地篇

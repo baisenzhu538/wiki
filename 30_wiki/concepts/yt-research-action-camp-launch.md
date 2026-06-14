@@ -26,7 +26,7 @@ diagnostic_signals:
   - {'signal': '使用OSL五步法（目标→范围→清单→获取→归一整合）系统推进', 'framework_lens': '调研有操作流程', 'follow_up_question': '你当前在OSL的哪一步？下一步的产出物是什么？'}
   - {'signal': 'AI只作为辅助，人掌握方向盘和目标', 'framework_lens': '人控AI', 'follow_up_question': '这个调研结论中，哪些部分来自AI、哪些来自你的判断？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 confidence: 0.85
 trust_level: high
 ---

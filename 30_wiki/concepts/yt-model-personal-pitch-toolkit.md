@@ -41,7 +41,7 @@ diagnostic_signals:
   - {'signal': '用户讲了半天但听众无感', 'framework_lens': '价值感没有建立', 'follow_up_question': '你说的内容是价值点还是价值感？听众能立刻感受到好处吗？'}
   - {'signal': '用户只会具象不会抽象，或只会抽象不会具象', 'framework_lens': '十指不均衡', 'follow_up_question': '你的表达中具象细节和抽象升华各占多少？如果一边倒，十指没打开'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

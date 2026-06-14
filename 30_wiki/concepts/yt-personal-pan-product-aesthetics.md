@@ -9,7 +9,6 @@ domain:
   - yitang
 estimated_tokens: 3200
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "个人修炼"
   - "产品思维"
@@ -42,7 +41,7 @@ diagnostic_signals:
   - {'signal': '能把‘好’拆解成可讨论、可复现的评价维度', 'framework_lens': '审美白盒化', 'follow_up_question': '如果让你教别人判断这个作品的好坏，你会讲哪几个维度？'}
   - {'signal': '会把审美标准应用到自己的作品中，并迭代改进', 'framework_lens': '审美必须落地', 'follow_up_question': '你当前作品与最佳实践相比，最大差距在哪个维度？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

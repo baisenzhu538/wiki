@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-unit-model
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1868
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "单元模型"
   - "Unit Economics"
@@ -43,7 +41,7 @@ diagnostic_signals:
   - {'signal': '用户LTV/CAC看起来很好，但数字是假设的', 'framework_lens': '模型建立在空气上', 'follow_up_question': '你的LTV和CAC中，有多少来自真实交易数据？如果<30%，这是沙盘推演'}
   - {'signal': '用户只看单元模型，不看真实现金流', 'framework_lens': '模型脱离现实', 'follow_up_question': '按当前现金流，你还能活几个月？单元模型好但现金流断了也没用'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 单元模型

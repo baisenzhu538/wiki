@@ -9,7 +9,7 @@ updated_at: 2026-06-13
 id: "ocr-一堂-单元模型-找基准值实操难点"
 author: legacy
 reviewed_by: pending
-confidence: 0.7
+confidence: 0.6
 trust_level: low
 ---
 

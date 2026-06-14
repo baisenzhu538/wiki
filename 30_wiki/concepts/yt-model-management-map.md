@@ -1,6 +1,5 @@
 ---
 id: yt-model-management-map
-component_of: 
 confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2225
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "五阶成长路径"
   - "关联卡片"
@@ -37,7 +35,7 @@ pipeline:
 diagnostic_signals:
   - {'signal': '新晋管理者学完管理地图，但带团队时还是用个人贡献者的习惯', 'framework_lens': '知行脱节——管理地图提供了路径，但肌肉记忆没有转换', 'follow_up_question': '过去一周你有多少时间花在"管自己"上，多少时间花在"管他人/项目/业务"上？如果前者>50%，说明还没切换角色'}
   - {'signal': '管理者把L5管公司内容套用到10人团队', 'framework_lens': '阶段错配——管理地图的段位与组织规模不匹配', 'follow_up_question': '你的团队当前处于什么规模？10人团队和1000人团队需要的管理杠杆完全不同'}
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

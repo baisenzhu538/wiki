@@ -19,7 +19,7 @@ source_refs:
   - "七件事集团业务模式深度解读"
 created_at: 2026-06-13
 updated_at: 2026-06-13
-author: legacy
+author: unknown
 reviewed_by: pending
 ---
 

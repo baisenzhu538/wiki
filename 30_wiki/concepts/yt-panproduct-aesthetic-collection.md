@@ -43,7 +43,7 @@ diagnostic_signals:
   - {'signal': '每个案例都标注了‘好在哪里’和‘适用什么情境’，而不是只留截图', 'framework_lens': '收集不是囤积，是为后续建模准备素材', 'follow_up_question': '如果半年后再看这个案例，你还能快速判断它是否适合当前问题吗？'}
   - {'signal': '参考集会定期清理过时或低质量案例，保持池子活性', 'framework_lens': '最佳实践有半衰期', 'follow_up_question': '最近3个月有没有删除过不再值得参考的案例？为什么？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

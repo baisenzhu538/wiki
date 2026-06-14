@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-liberate-thinking
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1873
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "解放思想"
   - "创业认知边界"
@@ -43,7 +41,7 @@ diagnostic_signals:
   - {'signal': '用户为了创新而创新，忽视基本商业规律', 'framework_lens': '解放过度', 'follow_up_question': '你质疑的这个行业惯例，是否有坚实的底层逻辑？如果有，你的新方案是否绕开了它？'}
   - {'signal': '用户只会模仿，从不敢质疑行业惯例', 'framework_lens': '没有解放', 'follow_up_question': '你所在行业有哪些"向来如此"的做法？它们背后的假设在今天还成立吗？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 解放思想

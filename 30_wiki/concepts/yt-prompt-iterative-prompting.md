@@ -34,7 +34,7 @@ diagnostic_signals:
   - {'signal': '会先生成多个选项，再根据反馈收敛', 'framework_lens': '发散-收敛是迭代节奏', 'follow_up_question': '这一轮你给了AI什么反馈来引导它改进？'}
   - {'signal': '每轮迭代都有明确改进方向，而不是随机尝试', 'framework_lens': '迭代需要目标', 'follow_up_question': '你清楚下一轮希望AI在哪个维度改进吗？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 reviewed_by: pending
 trust_level: medium-high
 ---

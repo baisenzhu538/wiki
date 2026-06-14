@@ -1,6 +1,5 @@
 ---
 id: case-zhihu-vs-degetao-network-effect
-component_of: 
 confidence: 0.85
 created_at: 2026-06-11
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2200
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "知乎壁垒"
   - "得到壁垒"
@@ -36,7 +34,7 @@ yitang:
   level: core
 pipeline:
   - confidence-source-cited
-author: legacy
+author: "老顽童"
 ---
 
 # 案例：知乎vs得到——网络效应壁垒的对比分析

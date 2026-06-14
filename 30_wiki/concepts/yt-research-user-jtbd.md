@@ -1,6 +1,6 @@
 ---
 id: "yt-research-user-jtbd"
-title: "用户JTBD访谈工具：区分"说的"和"真正要的""
+title: '用户JTBD访谈工具：区分"说的"和"真正要的"'
 type: "tool"
 status: "draft"
 domain:

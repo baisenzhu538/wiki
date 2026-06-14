@@ -22,7 +22,7 @@ query_triggers:
 pipeline:
   - confidence-source-cited
 id: "ai数据理解第一课"
-author: legacy
+author: "老顽童"
 reviewed_by: pending
 confidence: 0.8
 trust_level: medium

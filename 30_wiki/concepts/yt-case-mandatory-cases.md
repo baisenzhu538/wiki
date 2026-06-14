@@ -2,11 +2,10 @@
 title: "一堂案例必修课"
 type: concept
 status: reviewed
-source_refs: 
-id: "yt-case-mandatory-cases"
 source_refs:
-  - "src_20260506_9b4788a6"
-  - "src_20260507_857c7ed4"
+  - src_20260506_9b4788a6
+  - src_20260507_857c7ed4
+id: yt-case-mandatory-cases
 created_at: 2026-05-05
 domain:
   - yitang
@@ -22,7 +21,7 @@ diagnostic_signals:
   - {'signal': '用户看了很多案例，但做决策时还是凭直觉', 'framework_lens': '案例没有转化为决策标准——学习没有迁移', 'follow_up_question': '你最近一次做决策时，明确用到了哪个案例的什么教训？如果没有，案例只是故事'}
   - {'signal': '用户只喜欢看成功案例，不愿研究失败案例', 'framework_lens': '学习偏科——失败案例的避坑价值更高', 'follow_up_question': '你最近研究的10个案例中，失败案例占几个？如果<5个，你的样本有偏'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 confidence: 0.85
 trust_level: high
 ---

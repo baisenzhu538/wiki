@@ -42,7 +42,7 @@ diagnostic_signals:
   - {'signal': '能清楚区分价值假设（前三步）和增长假设（后两步）', 'framework_lens': '价值与增长的验证节奏不同', 'follow_up_question': '如果价值假设还没验证，你是否已经开始做增长假设的规模化投入？'}
   - {'signal': '每一步都有明确的go/no-go标准和下一步验证实验', 'framework_lens': '画布是决策工具，不是填写练习', 'follow_up_question': '填完画布后，团队是否据此取消或推迟了某个计划？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

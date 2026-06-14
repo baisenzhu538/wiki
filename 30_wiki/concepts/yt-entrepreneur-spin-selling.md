@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-spin-selling
-component_of: 
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2236
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "SPIN四步法"
   - "SPIN销售法"
@@ -35,7 +33,7 @@ diagnostic_signals:
   - {'signal': '用户学了SPIN但还在逼单', 'framework_lens': '顾问式销售没有内化', 'follow_up_question': '你最近一次销售对话中，问了几个启发式问题？如果没有，你还是在传统销售'}
   - {'signal': '用户在不合适的场景用SPIN', 'framework_lens': '方法错配', 'follow_up_question': '你的销售场景是大额复杂B2B，还是简单快速交易？后者不适合SPIN'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

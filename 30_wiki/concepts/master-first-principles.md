@@ -1,6 +1,5 @@
 ---
 id: master-first-principles
-component_of: 
 confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - master
 estimated_tokens: 1622
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "第一性原理"
   - "拆到不可拆"
@@ -25,7 +23,6 @@ related:
   - yt-unit-model-construction
   - yt-unit-model-dynamic
   - dk-yb20-ai-eye-high-principle
-reviewed_by: 
 source_refs:
   - {'来源': 'Aristotle, Elon Musk'}
 status: enriched
@@ -36,7 +33,7 @@ version: 1
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
-author: legacy
+author: unknown
 trust_level: medium-high
 ---
 

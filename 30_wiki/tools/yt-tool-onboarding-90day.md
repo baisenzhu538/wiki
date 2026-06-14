@@ -1,25 +1,24 @@
 ---
-
-id: "yt-tool-onboarding-90day"
+id: yt-tool-onboarding-90day
 title: "新人 90 天融入加速器"
-type: "tool"
+type: tool
 status: enriched
 domain:
-  - "yitang"
-language: "zh-CN"
+  - yitang
+language: zh-CN
 version: 1
-difficulty: "intermediate"
+difficulty: intermediate
 confidence: 0.75
 prerequisites:
-  - "yt-management-team-knowledge"
+  - yt-management-team-knowledge
 component_of:
-  - "yt-management-toolkit-overview"
+  - yt-management-toolkit-overview
 related:
-  - "yt-management-team-knowledge"
-  - "yt-tool-okr-cycle"
-  - "yt-management-goal-management"
-  - "yt-management-scientific-meetings"
-contradicts: ""
+  - yt-management-team-knowledge
+  - yt-tool-okr-cycle
+  - yt-management-goal-management
+  - yt-management-scientific-meetings
+contradicts: 
 query_triggers:
   - "新人融入"
   - "新人培训"
@@ -32,23 +31,28 @@ query_triggers:
   - "团队文化传递"
   - "新人留存"
 tags:
-  - "confidence-source-cited"
-  - "#management"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/manifest-design"
-  - "#team"
-  - "#tool"
-  - "#yitang"
+  - confidence-source-cited
+  - #management
+  - #scene/learning-methodology/feedback-loop
+  - #scene/note-taking
+  - #scene/skill-engineering/manifest-design
+  - #team
+  - #tool
+  - #yitang
 trust_level: medium
-yitang: {'map': 'management', 'module': '团队管理', 'course_id': 'yt-tool-onboarding-90day', 'course_type': 'tool', 'level': 'core'}
+yitang:
+  map: management
+  module: "团队管理"
+  course_id: yt-tool-onboarding-90day
+  course_type: tool
+  level: core
 source_refs:
-  - "30_wiki/concepts/yt-management-team-knowledge.md"
-created_at: "2026-05-20"
-updated_at: "2026-05-20"
+  - 30_wiki/concepts/yt-management-team-knowledge.md
+created_at: 2026-05-20
+updated_at: 2026-05-20
 estimated_tokens: 3200
-reviewed_by: ""
-author: legacy
+reviewed_by: 
+author: "老顽童"
 ---
 
 # 新人 90 天融入加速器

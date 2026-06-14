@@ -23,7 +23,7 @@ wiki_refs:
 pipeline:
   - confidence-draft
   - confidence-source-cited
-author: legacy
+author: "黄药师"
 confidence: 0.85
 trust_level: high
 ---

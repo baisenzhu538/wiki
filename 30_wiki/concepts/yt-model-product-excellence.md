@@ -1,6 +1,5 @@
 ---
 id: yt-model-product-excellence
-component_of: 
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: advanced
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2473
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "与泛产品审美工具箱的对应"
   - "乔布斯的品味公式"
@@ -36,7 +34,7 @@ diagnostic_signals:
   - {'signal': '用户只谈乔布斯品味，但不看最佳实践', 'framework_lens': '空谈品味', 'follow_up_question': '你最近一个月看过多少个不同领域的最佳实践案例？如果<10个，你在空谈'}
   - {'signal': '用户认为品味是天赋，不训练', 'framework_lens': '天赋论', 'follow_up_question': '你能说出品味=曝光×迁移中的两个变量分别怎么提升吗？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

@@ -1,20 +1,19 @@
 ---
 title: "公司文化"
-type: "concept"
-status: "enriched"
-domain:
+type: concept
+status: enriched
 pipeline:
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '公司把文化当墙上标语', 'framework_lens': '口号论', 'follow_up_question': '你们公司的晋升、奖惩、招聘标准和文化价值观一致吗？如果不一致，文化是口号'}
   - {'signal': '制度和价值观不一致', 'framework_lens': '三层不一致', 'follow_up_question': '如果员工按制度做会违反价值观，他会怎么选？如果选制度，文化没落地'}
-updated_at: "2026-06-13"
-id: "yt-management-company-culture"
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+updated_at: 2026-06-13
+id: yt-management-company-culture
+author: "老顽童"
+reviewed_by: pending
+created_at: 2026-06-15
 confidence: 0.75
-trust_level: "medium-low"
+trust_level: medium-low
 ---
 
 # 公司文化

@@ -1,6 +1,5 @@
 ---
 id: yt-personal-ai-capability
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 3000
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "AI能力"
   - "双模型框架"
@@ -45,7 +43,7 @@ diagnostic_signals:
   - {'signal': '复杂任务会先拆解再交给 AI，而不是一次性抛给 AI', 'framework_lens': '任务分解提升可控性', 'follow_up_question': '如果你把任务拆成3步，每一步的验收标准是什么？'}
   - {'signal': 'AI 输出会被验证，关键决策保留人类最终判断', 'framework_lens': 'AI 是副驾驶，不是机长', 'follow_up_question': '这个结论如果错了，代价是什么？你能承担吗？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # AI 能力（双模型）

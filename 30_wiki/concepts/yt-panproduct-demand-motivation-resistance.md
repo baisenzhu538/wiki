@@ -44,7 +44,7 @@ diagnostic_signals:
   - {'signal': '对同一用户旅程中的多个触点分别标注动力和阻力大小', 'framework_lens': '转化是旅程中的连续博弈', 'follow_up_question': '哪个触点的阻力最大？砍掉它是否比优化其他触点更有效？'}
   - {'signal': '干预方案上线后会分别测量动力、阻力、触点三者的变化', 'framework_lens': '诊断性指标优于结果性指标', 'follow_up_question': '转化率涨了，但你知道是动力提升还是阻力下降导致的吗？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

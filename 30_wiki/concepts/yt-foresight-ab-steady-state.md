@@ -36,7 +36,7 @@ diagnostic_signals:
   - {'signal': '用户看到变化就认为是机会', 'framework_lens': '变化≠机会', 'follow_up_question': '这个变化会改变行业价值链的哪个环节？你的切入点在哪里？'}
   - {'signal': '用户只分析现在稳态，不预判B稳态', 'framework_lens': '只完成一半', 'follow_up_question': '变化后的行业新格局（稳态B）可能长什么样？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

@@ -1,6 +1,5 @@
 ---
 id: yt-model-truman-five-step-growth
-component_of: 
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: advanced
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 2678
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "Truman的个人成长五步法"
   - "Truman的个人成长五步法：用一页纸解释全部人生规划"
@@ -36,7 +34,7 @@ diagnostic_signals:
   - {'signal': '用户只列能力资源，但没找到人生红点', 'framework_lens': '方向缺失', 'follow_up_question': '你的人生红点是什么？如果答不出，五步法第一步就错了'}
   - {'signal': '用户倒推能力但不练习', 'framework_lens': '知行脱节', 'follow_up_question': '你为了红点，最近三个月刻意练习了哪些能力？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium-high
 ---
 

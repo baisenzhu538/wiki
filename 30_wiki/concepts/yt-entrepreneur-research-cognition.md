@@ -1,6 +1,5 @@
 ---
 id: yt-entrepreneur-research-cognition
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1821
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "调研认知"
   - "创业调研方法"
@@ -43,7 +41,7 @@ diagnostic_signals:
   - {'signal': '用户用AI做了一堆调研，但结论不可靠', 'framework_lens': 'AI工具强但调研认知弱', 'follow_up_question': '这些结论中，哪些经过了至少两个独立来源的交叉验证？'}
   - {'signal': '用户只收集信息，不形成洞察', 'framework_lens': '调研≠信息收集', 'follow_up_question': '你收集的信息中，有多少转化为了可指导决策的洞察？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 调研认知

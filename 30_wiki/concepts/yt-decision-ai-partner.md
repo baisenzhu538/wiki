@@ -48,7 +48,7 @@ pipeline:
 diagnostic_signals:
   - {'signal': "用户问AI'你觉得该怎么做'，AI给了完整分析，用户直接照做", 'framework_lens': 'AI替代判断失效——结构化输出不等于可信输出', 'follow_up_question': 'AI分析里哪些是事实、哪些是假设？如果AI假设错了，你的决策翻不翻？'}
   - {'signal': "用户说'我让AI帮我分析，它列了10个维度，我感觉很全面了'", 'framework_lens': '全面感幻觉——AI的结构化框架可能只是看起来不错', 'follow_up_question': 'AI列出的维度里，有没有你根本不知道它怎么得出的？如果有，先验证这个维度再往下走'}
-author: legacy
+author: "老顽童"
 ---
 
 # AI决策Partner对话法

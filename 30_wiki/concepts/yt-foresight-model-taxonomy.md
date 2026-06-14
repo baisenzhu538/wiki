@@ -1,6 +1,5 @@
 ---
 id: yt-foresight-model-taxonomy
-component_of: 
 confidence: 0.85
 created_at: 2026-06-10
 difficulty: beginner
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 1200
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "预判模型"
   - "N要素"
@@ -36,7 +34,7 @@ diagnostic_signals:
   - {'signal': '使用每种模型时都配套具体案例，而不是空跑维度', 'framework_lens': '预判模型需要锚定在真实商业案例上', 'follow_up_question': '你最近一次用 Checklist 做尽调时，案例库中是否有≥3个可比案例？'}
   - {'signal': '团队对‘什么时候该升级模型复杂度’有共同约定', 'framework_lens': '工具分层需要决策规则，否则因人而异', 'follow_up_question': '如果两个人分别用 N要素 和 Checklist 评估同一机会，你们会如何裁决？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 预判模型分类

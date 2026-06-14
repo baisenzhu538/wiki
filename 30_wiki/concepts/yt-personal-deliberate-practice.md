@@ -1,6 +1,5 @@
 ---
 id: yt-personal-deliberate-practice
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 3000
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "刻意练习"
   - "科学成长"
@@ -42,7 +40,7 @@ diagnostic_signals:
   - {'signal': '练习后能立即获得反馈，并能根据反馈调整', 'framework_lens': '反馈闭环是进步的核心', 'follow_up_question': '你如何知道自己这次做对了还是做错了？'}
   - {'signal': '练习内容处于舒适区边缘，既有挑战又可完成', 'framework_lens': '拉伸区最利于成长', 'follow_up_question': '这次练习有多难？如果轻松完成，是否该增加难度？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 科学成长（刻意练习）

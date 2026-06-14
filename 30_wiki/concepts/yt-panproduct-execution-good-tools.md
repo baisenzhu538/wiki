@@ -45,7 +45,7 @@ diagnostic_signals:
   - {'signal': '团队使用工具后，协作效率或输出质量有可观察的提升', 'framework_lens': '工具价值需要验证', 'follow_up_question': '引入新工具后，哪个环节的速度或质量改善了？'}
   - {'signal': '会定期清理不再使用的工具，避免工具堆叠', 'framework_lens': '工具栈需要保鲜', 'follow_up_question': '最近半年有没有停用某个工具？为什么？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

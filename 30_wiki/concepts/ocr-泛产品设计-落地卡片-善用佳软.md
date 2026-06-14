@@ -5,16 +5,16 @@ domain:
   - ai-saas
 source_refs:
   - src_20260522_7ddf8bf2
-status: enriched
+status: draft
 title: "OCR: 泛产品设计-落地卡片-善用佳软"
 type: concept
 updated_at: 2026-05-22
 pipeline:
   - confidence-source-cited
-author: legacy
+author: unknown
 reviewed_by: pending
-confidence: 0.8
-trust_level: medium
+confidence: 0.6
+trust_level: low
 ---
 
 # OCR: 泛产品设计-落地卡片-善用佳软

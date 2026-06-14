@@ -45,7 +45,7 @@ diagnostic_signals:
   - {'signal': '每次复盘都产出可执行的改进行动，并指定负责人和截止时间', 'framework_lens': '复盘必须产生行动', 'follow_up_question': '上次复盘的行动项有多少在下次复盘前完成了？'}
   - {'signal': '复盘同时分析成功和失败，而不是只复盘失败', 'framework_lens': '成功经验同样需要模型化', 'follow_up_question': '这次成功中有哪些是偶然因素，哪些可以复制？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

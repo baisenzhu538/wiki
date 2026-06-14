@@ -46,7 +46,7 @@ diagnostic_signals:
   - {'signal': '当资源不足时，会回头调整目标或路径，而不是硬凑资源', 'framework_lens': '资源是约束，不是起点', 'follow_up_question': '现有资源是否能支撑你设定的路径？如果不能，哪一步需要改变？'}
   - {'signal': '在执行中会根据新信息重新审视目标，而不是一味线性推进', 'framework_lens': '管理三段论需要反馈环', 'follow_up_question': '最近是否有新信息让原来的目标不再合理？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

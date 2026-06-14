@@ -9,7 +9,6 @@ domain:
   - yitang
 estimated_tokens: 3400
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "个人修炼"
   - "产品思维"
@@ -43,7 +42,7 @@ diagnostic_signals:
   - {'signal': '每次迭代都有明确的反馈来源和改进标准', 'framework_lens': '打磨需要方向', 'follow_up_question': '这一轮的改动是基于用户反馈、数据还是自我审美判断？'}
   - {'signal': '能以长期心态（如10年）看待能力提升，而不是追求速成', 'framework_lens': '真本事需要时间复利', 'follow_up_question': '如果这件事要做10年，你现在的节奏是否可持续？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 trust_level: medium
 ---
 

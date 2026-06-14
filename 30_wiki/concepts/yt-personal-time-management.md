@@ -1,6 +1,5 @@
 ---
 id: yt-personal-time-management
-component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
@@ -8,7 +7,6 @@ domain:
   - yitang
 estimated_tokens: 3000
 language: zh-CN
-prerequisites: 
 query_triggers:
   - "时间管理"
   - "优先级思维"
@@ -42,7 +40,7 @@ diagnostic_signals:
   - {'signal': '能识别自己的高能量窗口，并把重要任务放在这些时段', 'framework_lens': '能量管理 > 时间长度管理', 'follow_up_question': '你一天中哪个时段效率最高？这个时段在做什么？'}
   - {'signal': '每周会回顾时间使用情况，并调整下周计划', 'framework_lens': '时间管理需要反馈闭环', 'follow_up_question': '上周实际时间分配与计划差异最大的地方是什么？'}
 updated_at: 2026-06-13
-author: legacy
+author: "老顽童"
 ---
 
 # 时间管理

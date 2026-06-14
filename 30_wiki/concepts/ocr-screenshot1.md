@@ -5,16 +5,16 @@ domain:
   - healthcare
 source_refs:
   - src_20260522_64727b82
-status: enriched
+status: draft
 title: "OCR: screenshot1"
 type: concept
 updated_at: 2026-05-22
 pipeline:
   - confidence-source-cited
-author: legacy
+author: unknown
 reviewed_by: pending
-confidence: 0.8
-trust_level: medium
+confidence: 0.6
+trust_level: low
 ---
 
 # OCR: screenshot1

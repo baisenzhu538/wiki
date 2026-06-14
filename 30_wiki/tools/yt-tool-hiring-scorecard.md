@@ -1,26 +1,25 @@
 ---
-
-id: "yt-tool-hiring-scorecard"
+id: yt-tool-hiring-scorecard
 title: "结构化面试打分卡"
-type: "tool"
+type: tool
 status: enriched
 domain:
-  - "yitang"
-language: "zh-CN"
+  - yitang
+language: zh-CN
 version: 1
-difficulty: "foundational"
+difficulty: foundational
 confidence: 0.85
-prerequisites: ""
+prerequisites: 
 component_of:
-  - "yt-management-toolkit-overview"
+  - yt-management-toolkit-overview
 related:
-  - "yt-management-scientific-hiring"
-  - "yt-management-onboarding"
-  - "yt-management-company-culture"
-  - "yt-management-goal-management"
-  - "yt-decision-width-method"
-  - "master-decision-hygiene"
-contradicts: ""
+  - yt-management-scientific-hiring
+  - yt-management-onboarding
+  - yt-management-company-culture
+  - yt-management-goal-management
+  - yt-decision-width-method
+  - master-decision-hygiene
+contradicts: 
 query_triggers:
   - "结构化面试"
   - "面试打分卡"
@@ -34,31 +33,32 @@ query_triggers:
   - "招对人"
   - "面试偏见防治"
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "#management"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#tool"
-  - "#yitang"
+  - #boundary/requires-human-judgment
+  - confidence-source-cited
+  - confidence-verified-by-case
+  - #management
+  - #scene/learning-methodology/feedback-loop
+  - #scene/learning-methodology/mental-models
+  - #scene/skill-engineering/publish-deploy
+  - #tool
+  - #yitang
 trust_level: medium
-yitang: {'map': 'management', 'module': '科学招聘', 'course_id': 'yt-tool-hiring-scorecard', 'course_type': 'tool', 'level': 'core'}
+yitang:
+  map: management
+  module: "科学招聘"
+  course_id: yt-tool-hiring-scorecard
+  course_type: tool
+  level: core
 source_refs:
-  - "30_wiki/concepts/yt-management-scientific-hiring.md"
-created_at: "2026-05-19"
-updated_at: "2026-05-19"
+  - 30_wiki/concepts/yt-management-scientific-hiring.md
+created_at: 2026-05-19
+updated_at: 2026-05-19
 estimated_tokens: 3400
 reviewed_by: "周伯通"
 diagnostic_signals:
-  - signal: "面试后每个人都填了打分卡，总分最高的候选人被录用了——3个月后发现根本不行"
-    framework_lens: "打分卡填了但招错人——总分陷阱。总分掩盖了'某个致命维度低分但其他维度高分'的情况。一个Must-have维度2分+其余5分的人，总分比4个维度各4分的人还高——但前者会在Must-have维度上导致灾难"
-    follow_up_question: "这个人在Must-have维度上的最低分是多少？如果有一个维度是2分，即使其他全是5分，也应该不录用"
-  - signal: "团队说'打分卡我们都填了，流程很规范'——但半年后回溯，没有一个面试预测被验证过"
-    framework_lens: "打分卡填了但招错人——流程完善≠准确预测。Tetlock证明了'专家预测'的低准确率。如果你从未系统性回溯过'面试评分'和'入职后实际表现'的相关性，你的打分卡只是一个漂亮的置信度幻觉"
-    follow_up_question: "过去一年录用的5个人，面试打分和6个月后实际表现的差距是多少？如果不知道这个数字——你的结构化流程是科学的仪式，不是科学的工具"
-author: legacy
+  - {'signal': '面试后每个人都填了打分卡，总分最高的候选人被录用了——3个月后发现根本不行', 'framework_lens': "打分卡填了但招错人——总分陷阱。总分掩盖了'某个致命维度低分但其他维度高分'的情况。一个Must-have维度2分+其余5分的人，总分比4个维度各4分的人还高——但前者会在Must-have维度上导致灾难", 'follow_up_question': '这个人在Must-have维度上的最低分是多少？如果有一个维度是2分，即使其他全是5分，也应该不录用'}
+  - {'signal': "团队说'打分卡我们都填了，流程很规范'——但半年后回溯，没有一个面试预测被验证过", 'framework_lens': "打分卡填了但招错人——流程完善≠准确预测。Tetlock证明了'专家预测'的低准确率。如果你从未系统性回溯过'面试评分'和'入职后实际表现'的相关性，你的打分卡只是一个漂亮的置信度幻觉", 'follow_up_question': '过去一年录用的5个人，面试打分和6个月后实际表现的差距是多少？如果不知道这个数字——你的结构化流程是科学的仪式，不是科学的工具'}
+author: "老顽童"
 ---
 
 # 结构化面试打分卡
