@@ -1,0 +1,1645 @@
+{
+  "success": true,
+  "request": {
+    "id": 7259388,
+    "summary_new": "1"
+  },
+  "detail": {
+    "id": 7259388,
+    "name": "何老师-智能入口开发会议",
+    "folderId": 245320,
+    "duration": null,
+    "createdAt": null,
+    "updatedAt": null,
+    "status": {
+      "value": 4,
+      "text": "处理完成",
+      "done": true
+    },
+    "transcript": {
+      "data": [
+        {
+          "beginTime": 420,
+          "endTime": 3688,
+          "has_verify": true,
+          "id": 1,
+          "paragraph_id": "1778807910998500000",
+          "remark_type": 0,
+          "sentence_id": 1,
+          "text": "何老师大家都讲完了，请您指示。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "8e6493c269bb454699d7fed6bc6e1cab",
+          "userId": "1",
+          "userName": "说话人1",
+          "words": [
+            {
+              "beginTime": 420,
+              "endTime": 671,
+              "sentence_id": 1,
+              "word": "何"
+            },
+            {
+              "beginTime": 671,
+              "endTime": 1173,
+              "sentence_id": 1,
+              "word": "老师"
+            },
+            {
+              "beginTime": 1173,
+              "endTime": 1675,
+              "sentence_id": 1,
+              "word": "大家"
+            },
+            {
+              "beginTime": 1675,
+              "endTime": 1926,
+              "sentence_id": 1,
+              "word": "都"
+            },
+            {
+              "beginTime": 1926,
+              "endTime": 2428,
+              "sentence_id": 1,
+              "word": "讲完"
+            },
+            {
+              "beginTime": 2428,
+              "endTime": 2679,
+              "sentence_id": 1,
+              "word": "了，"
+            },
+            {
+              "beginTime": 2684,
+              "endTime": 2935,
+              "sentence_id": 1,
+              "word": "请"
+            },
+            {
+              "beginTime": 2935,
+              "endTime": 3186,
+              "sentence_id": 1,
+              "word": "您"
+            },
+            {
+              "beginTime": 3186,
+              "endTime": 3688,
+              "sentence_id": 1,
+              "word": "指示。"
+            }
+          ]
+        },
+        {
+          "beginTime": 3942,
+          "endTime": 50245,
+          "has_verify": true,
+          "id": 2,
+          "paragraph_id": "1778807910998500000",
+          "remark_type": 0,
+          "sentence_id": 2,
+          "text": "好的，因为今天刚刚有别的几个事情在在处理，所以就让大家现在按照自己的一个计划体计划经济，就是下一周到时候整个连在一起的我们能够把它正式的封板试用起来的，增加把这个目标上周也说了，这周也说了，下一周的能够出，也就是说现在的这个智能入口这一块，就是对接通用模型的那一块的这个入口。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "af27a4a0469c4935a5cfbe3e68e8cf39",
+          "userId": "1",
+          "userName": "说话人1",
+          "words": [
+            {
+              "beginTime": 3942,
+              "endTime": 4444,
+              "sentence_id": 2,
+              "word": "好的，"
+            },
+            {
+              "beginTime": 4445,
+              "endTime": 4957,
+              "sentence_id": 2,
+              "word": "因为"
+            },
+            {
+              "beginTime": 4957,
+              "endTime": 5469,
+              "sentence_id": 2,
+              "word": "今天"
+            },
+            {
+              "beginTime": 5469,
+              "endTime": 5981,
+              "sentence_id": 2,
+              "word": "刚刚"
+            },
+            {
+              "beginTime": 5981,
+              "endTime": 6237,
+              "sentence_id": 2,
+              "word": "有"
+            },
+            {
+              "beginTime": 6237,
+              "endTime": 6749,
+              "sentence_id": 2,
+              "word": "别的"
+            },
+            {
+              "beginTime": 6749,
+              "endTime": 7261,
+              "sentence_id": 2,
+              "word": "几个"
+            },
+            {
+              "beginTime": 7261,
+              "endTime": 7773,
+              "sentence_id": 2,
+              "word": "事情"
+            },
+            {
+              "beginTime": 7773,
+              "endTime": 8285,
+              "sentence_id": 2,
+              "word": "在在"
+            },
+            {
+              "beginTime": 8285,
+              "endTime": 8797,
+              "sentence_id": 2,
+              "word": "处理，"
+            },
+            {
+              "beginTime": 8808,
+              "endTime": 9502,
+              "sentence_id": 2,
+              "word": "所以"
+            },
+            {
+              "beginTime": 9502,
+              "endTime": 10196,
+              "sentence_id": 2,
+              "word": "就让"
+            },
+            {
+              "beginTime": 10196,
+              "endTime": 10890,
+              "sentence_id": 2,
+              "word": "大家"
+            },
+            {
+              "beginTime": 10890,
+              "endTime": 11584,
+              "sentence_id": 2,
+              "word": "现在"
+            },
+            {
+              "beginTime": 11584,
+              "endTime": 12278,
+              "sentence_id": 2,
+              "word": "按照"
+            },
+            {
+              "beginTime": 12278,
+              "endTime": 13319,
+              "sentence_id": 2,
+              "word": "自己的"
+            },
+            {
+              "beginTime": 13319,
+              "endTime": 14013,
+              "sentence_id": 2,
+              "word": "一个"
+            },
+            {
+              "beginTime": 14013,
+              "endTime": 14707,
+              "sentence_id": 2,
+              "word": "计划"
+            },
+            {
+              "beginTime": 14707,
+              "endTime": 15054,
+              "sentence_id": 2,
+              "word": "体"
+            },
+            {
+              "beginTime": 15054,
+              "endTime": 16442,
+              "sentence_id": 2,
+              "word": "计划经济，"
+            },
+            {
+              "beginTime": 16460,
+              "endTime": 17474,
+              "sentence_id": 2,
+              "word": "就是"
+            },
+            {
+              "beginTime": 17474,
+              "endTime": 17981,
+              "sentence_id": 2,
+              "word": "下"
+            },
+            {
+              "beginTime": 17981,
+              "endTime": 18995,
+              "sentence_id": 2,
+              "word": "一周"
+            },
+            {
+              "beginTime": 18995,
+              "endTime": 20516,
+              "sentence_id": 2,
+              "word": "到时候"
+            },
+            {
+              "beginTime": 20516,
+              "endTime": 21530,
+              "sentence_id": 2,
+              "word": "整个"
+            },
+            {
+              "beginTime": 21530,
+              "endTime": 23558,
+              "sentence_id": 2,
+              "word": "连在一起"
+            },
+            {
+              "beginTime": 23558,
+              "endTime": 24065,
+              "sentence_id": 2,
+              "word": "的"
+            },
+            {
+              "beginTime": 24065,
+              "endTime": 25079,
+              "sentence_id": 2,
+              "word": "我们"
+            },
+            {
+              "beginTime": 25079,
+              "endTime": 26093,
+              "sentence_id": 2,
+              "word": "能够"
+            },
+            {
+              "beginTime": 26093,
+              "endTime": 26600,
+              "sentence_id": 2,
+              "word": "把"
+            },
+            {
+              "beginTime": 26600,
+              "endTime": 27107,
+              "sentence_id": 2,
+              "word": "它"
+            },
+            {
+              "beginTime": 27107,
+              "endTime": 28121,
+              "sentence_id": 2,
+              "word": "正式"
+            },
+            {
+              "beginTime": 28121,
+              "endTime": 28628,
+              "sentence_id": 2,
+              "word": "的"
+            },
+            {
+              "beginTime": 28628,
+              "endTime": 29642,
+              "sentence_id": 2,
+              "word": "封板"
+            },
+            {
+              "beginTime": 29642,
+              "endTime": 30656,
+              "sentence_id": 2,
+              "word": "试用"
+            },
+            {
+              "beginTime": 30656,
+              "endTime": 31670,
+              "sentence_id": 2,
+              "word": "起来"
+            },
+            {
+              "beginTime": 31670,
+              "endTime": 32177,
+              "sentence_id": 2,
+              "word": "的，"
+            },
+            {
+              "beginTime": 32540,
+              "endTime": 33250,
+              "sentence_id": 2,
+              "word": "增加"
+            },
+            {
+              "beginTime": 33250,
+              "endTime": 33605,
+              "sentence_id": 2,
+              "word": "把"
+            },
+            {
+              "beginTime": 33605,
+              "endTime": 34315,
+              "sentence_id": 2,
+              "word": "这个"
+            },
+            {
+              "beginTime": 34315,
+              "endTime": 35025,
+              "sentence_id": 2,
+              "word": "目标"
+            },
+            {
+              "beginTime": 35025,
+              "endTime": 35735,
+              "sentence_id": 2,
+              "word": "上周"
+            },
+            {
+              "beginTime": 35735,
+              "endTime": 36090,
+              "sentence_id": 2,
+              "word": "也"
+            },
+            {
+              "beginTime": 36090,
+              "endTime": 36445,
+              "sentence_id": 2,
+              "word": "说"
+            },
+            {
+              "beginTime": 36445,
+              "endTime": 36800,
+              "sentence_id": 2,
+              "word": "了，"
+            },
+            {
+              "beginTime": 36810,
+              "endTime": 37105,
+              "sentence_id": 2,
+              "word": "这"
+            },
+            {
+              "beginTime": 37105,
+              "endTime": 37400,
+              "sentence_id": 2,
+              "word": "周"
+            },
+            {
+              "beginTime": 37400,
+              "endTime": 37695,
+              "sentence_id": 2,
+              "word": "也"
+            },
+            {
+              "beginTime": 37695,
+              "endTime": 37990,
+              "sentence_id": 2,
+              "word": "说"
+            },
+            {
+              "beginTime": 37990,
+              "endTime": 38285,
+              "sentence_id": 2,
+              "word": "了，"
+            },
+            {
+              "beginTime": 38289,
+              "endTime": 38584,
+              "sentence_id": 2,
+              "word": "下"
+            },
+            {
+              "beginTime": 38584,
+              "endTime": 39174,
+              "sentence_id": 2,
+              "word": "一周"
+            },
+            {
+              "beginTime": 39174,
+              "endTime": 39469,
+              "sentence_id": 2,
+              "word": "的"
+            },
+            {
+              "beginTime": 39469,
+              "endTime": 40059,
+              "sentence_id": 2,
+              "word": "能够"
+            },
+            {
+              "beginTime": 40059,
+              "endTime": 40354,
+              "sentence_id": 2,
+              "word": "出，"
+            },
+            {
+              "beginTime": 40674,
+              "endTime": 42006,
+              "sentence_id": 2,
+              "word": "也就是说"
+            },
+            {
+              "beginTime": 42006,
+              "endTime": 42672,
+              "sentence_id": 2,
+              "word": "现在"
+            },
+            {
+              "beginTime": 42672,
+              "endTime": 43005,
+              "sentence_id": 2,
+              "word": "的"
+            },
+            {
+              "beginTime": 43005,
+              "endTime": 43671,
+              "sentence_id": 2,
+              "word": "这个"
+            },
+            {
+              "beginTime": 43671,
+              "endTime": 44337,
+              "sentence_id": 2,
+              "word": "智能"
+            },
+            {
+              "beginTime": 44337,
+              "endTime": 45003,
+              "sentence_id": 2,
+              "word": "入口"
+            },
+            {
+              "beginTime": 45003,
+              "endTime": 45336,
+              "sentence_id": 2,
+              "word": "这"
+            },
+            {
+              "beginTime": 45336,
+              "endTime": 46002,
+              "sentence_id": 2,
+              "word": "一块，"
+            },
+            {
+              "beginTime": 46012,
+              "endTime": 46510,
+              "sentence_id": 2,
+              "word": "就是"
+            },
+            {
+              "beginTime": 46510,
+              "endTime": 47008,
+              "sentence_id": 2,
+              "word": "对接"
+            },
+            {
+              "beginTime": 47008,
+              "endTime": 47506,
+              "sentence_id": 2,
+              "word": "通用"
+            },
+            {
+              "beginTime": 47506,
+              "endTime": 48004,
+              "sentence_id": 2,
+              "word": "模型"
+            },
+            {
+              "beginTime": 48004,
+              "endTime": 48502,
+              "sentence_id": 2,
+              "word": "的那"
+            },
+            {
+              "beginTime": 48502,
+              "endTime": 49000,
+              "sentence_id": 2,
+              "word": "一块"
+            },
+            {
+              "beginTime": 49000,
+              "endTime": 49249,
+              "sentence_id": 2,
+              "word": "的"
+            },
+            {
+              "beginTime": 49249,
+              "endTime": 49747,
+              "sentence_id": 2,
+              "word": "这个"
+            },
+            {
+              "beginTime": 49747,
+              "endTime": 50245,
+              "sentence_id": 2,
+              "word": "入口。"
+            }
+          ]
+        },
+        {
+          "beginTime": 51820,
+          "endTime": 66840,
+          "has_verify": true,
+          "id": 3,
+          "paragraph_id": "1778807910998500000",
+          "remark_type": 0,
+          "sentence_id": 3,
+          "text": "这里面开发的进展，肯定是说太细的东西大家一定要要优先考虑，主要的就不要被一些细节的这些地方老是在那里。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "54147bf3f40b41beb4889ea971527dac",
+          "userId": "1",
+          "userName": "说话人1",
+          "words": [
+            {
+              "beginTime": 51820,
+              "endTime": 52138,
+              "sentence_id": 3,
+              "word": "这"
+            },
+            {
+              "beginTime": 52138,
+              "endTime": 52774,
+              "sentence_id": 3,
+              "word": "里面"
+            },
+            {
+              "beginTime": 52774,
+              "endTime": 53410,
+              "sentence_id": 3,
+              "word": "开发"
+            },
+            {
+              "beginTime": 53410,
+              "endTime": 53728,
+              "sentence_id": 3,
+              "word": "的"
+            },
+            {
+              "beginTime": 53728,
+              "endTime": 54364,
+              "sentence_id": 3,
+              "word": "进展，"
+            },
+            {
+              "beginTime": 54685,
+              "endTime": 55417,
+              "sentence_id": 3,
+              "word": "肯定"
+            },
+            {
+              "beginTime": 55417,
+              "endTime": 55783,
+              "sentence_id": 3,
+              "word": "是"
+            },
+            {
+              "beginTime": 55783,
+              "endTime": 56149,
+              "sentence_id": 3,
+              "word": "说"
+            },
+            {
+              "beginTime": 56149,
+              "endTime": 56881,
+              "sentence_id": 3,
+              "word": "太细"
+            },
+            {
+              "beginTime": 56881,
+              "endTime": 57247,
+              "sentence_id": 3,
+              "word": "的"
+            },
+            {
+              "beginTime": 57247,
+              "endTime": 57979,
+              "sentence_id": 3,
+              "word": "东西"
+            },
+            {
+              "beginTime": 57979,
+              "endTime": 58711,
+              "sentence_id": 3,
+              "word": "大家"
+            },
+            {
+              "beginTime": 58711,
+              "endTime": 59809,
+              "sentence_id": 3,
+              "word": "一定要"
+            },
+            {
+              "beginTime": 59809,
+              "endTime": 60175,
+              "sentence_id": 3,
+              "word": "要"
+            },
+            {
+              "beginTime": 60175,
+              "endTime": 60907,
+              "sentence_id": 3,
+              "word": "优先"
+            },
+            {
+              "beginTime": 60907,
+              "endTime": 61639,
+              "sentence_id": 3,
+              "word": "考虑，"
+            },
+            {
+              "beginTime": 61651,
+              "endTime": 62121,
+              "sentence_id": 3,
+              "word": "主要"
+            },
+            {
+              "beginTime": 62121,
+              "endTime": 62356,
+              "sentence_id": 3,
+              "word": "的"
+            },
+            {
+              "beginTime": 62356,
+              "endTime": 62591,
+              "sentence_id": 3,
+              "word": "就"
+            },
+            {
+              "beginTime": 62591,
+              "endTime": 63061,
+              "sentence_id": 3,
+              "word": "不要"
+            },
+            {
+              "beginTime": 63061,
+              "endTime": 63296,
+              "sentence_id": 3,
+              "word": "被"
+            },
+            {
+              "beginTime": 63296,
+              "endTime": 63766,
+              "sentence_id": 3,
+              "word": "一些"
+            },
+            {
+              "beginTime": 63766,
+              "endTime": 64236,
+              "sentence_id": 3,
+              "word": "细节"
+            },
+            {
+              "beginTime": 64236,
+              "endTime": 64471,
+              "sentence_id": 3,
+              "word": "的"
+            },
+            {
+              "beginTime": 64471,
+              "endTime": 64941,
+              "sentence_id": 3,
+              "word": "这些"
+            },
+            {
+              "beginTime": 64941,
+              "endTime": 65411,
+              "sentence_id": 3,
+              "word": "地方"
+            },
+            {
+              "beginTime": 65411,
+              "endTime": 65881,
+              "sentence_id": 3,
+              "word": "老是"
+            },
+            {
+              "beginTime": 65881,
+              "endTime": 66840,
+              "sentence_id": 3,
+              "word": "在那里。"
+            }
+          ]
+        }
+      ],
+      "count": 3,
+      "status": {
+        "value": 1,
+        "text": "转写完成",
+        "done": true
+      }
+    },
+    "meetingSummary": {
+      "content": "## 📌基本信息\n\n- **主题**:智能入口开发进展与封板试用安排\n- **时间**:2026-05-15 09:18:04\n- **参会人员**:何老师、说话人1\n\n---\n\n## 一、会议背景与目的\n\n本次会议围绕 **智能入口** 对接通用模型的开发进展展开，明确目标为 **下一周正式封板试用** ，强调优先关注主要开发内容，避免被细节问题影响整体进度。\n\n---\n\n## 二、核心内容\n\n### 2.1 开发目标与时间节点\n\n- 目标：下一周实现 **智能入口** （对接通用模型的入口）正式 **封板试用** \n- 进度要求：上周、本周均已强调该目标，需确保按计划推进\n\n### 2.2 开发重点与原则\n\n- 优先关注 **主要开发内容** ，核心是 **智能入口对接通用模型** 的功能实现\n- 避免在 **细节问题** 上过度停留，确保整体进度不受影响\n\n---\n\n## 三、行动计划\n\n### 3.1 核心行动方向\n\n- 聚焦 **智能入口** 开发，确保下一周达成 **封板试用** 目标\n- 团队内部明确任务优先级，集中资源解决核心功能问题\n\n### 3.2 待办事项\n\n| **时间点** | **责任人** | **任务**                     | **产出/验收**               |\n|----------|----------|----------------------------|---------------------------|\n| 下周      | 开发团队   | 完成智能入口对接通用模型的核心开发 | 功能可正常运行，达到封板试用标准 |\n| 下周      | 测试团队   | 完成封板前的功能测试与问题修复   | 测试报告，无阻塞性bug       |",
+      "status": {
+        "value": 2,
+        "text": "纪要已生成",
+        "done": true
+      }
+    },
+    "raw": {
+      "id": 7259388,
+      "user_id": 240745,
+      "name": "何老师-智能入口开发会议",
+      "name_status": 0,
+      "ws_url": "wss://tingwu-realtime-cn-beijing.aliyuncs.com/api/ws/v1?mc=MxnKQulcdw1P7x3iSqjneUeJY4fHxjw8f5aAtDPfJXycYwLgOpMB54M1K8bGVzACOLfJntxSvimkLN8ehdUWtaeZwXkUps3s8JpDAybdZgTgWaYk2IfgFxg2uMosOhdV",
+      "style": 2,
+      "file_path": "https://tnoss.itingnao.com/tmp/d030cf87-f36a-4b2c-a6af-2ec74d42de31.mp3?auth_key=1781417739-4bkvmbfpdq0glr2g2xcpeebvajxckkhr-0-e00d1ec676af40cb0b3fabbf46b49be7",
+      "prepare_path": "tmp/d030cf87-f36a-4b2c-a6af-2ec74d42de31.mp3",
+      "pcm_to_mp3_status": 3,
+      "pcm_to_mp3_message": "",
+      "file_long": "1:45:35",
+      "file_duration": 6335000,
+      "file_source_type": 2,
+      "text_polish": null,
+      "text_polish_status": 0,
+      "mind_map_summary": [
+        {
+          "Title": "💡 项目目标与时间规划",
+          "Topic": [
+            {
+              "Title": "智能入口封板试用时间",
+              "Topic": [
+                {
+                  "Title": "下一周实现智能入口正式封板试用",
+                  "Topic": []
+                }
+              ]
+            },
+            {
+              "Title": "智能入口具体内容",
+              "Topic": [
+                {
+                  "Title": "对接通用模型的入口",
+                  "Topic": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Title": "💡 开发工作要求",
+          "Topic": [
+            {
+              "Title": "开发进展优先级",
+              "Topic": [
+                {
+                  "Title": "优先考虑主要内容，避免被细节问题困扰",
+                  "Topic": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "mind_map_summary_status": 1,
+      "key_sentences": [],
+      "key_sentences_status": 10,
+      "data": [
+        {
+          "beginTime": 420,
+          "endTime": 3688,
+          "has_verify": true,
+          "id": 1,
+          "paragraph_id": "1778807910998500000",
+          "remark_type": 0,
+          "sentence_id": 1,
+          "text": "何老师大家都讲完了，请您指示。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "8e6493c269bb454699d7fed6bc6e1cab",
+          "userId": "1",
+          "userName": "说话人1",
+          "words": [
+            {
+              "beginTime": 420,
+              "endTime": 671,
+              "sentence_id": 1,
+              "word": "何"
+            },
+            {
+              "beginTime": 671,
+              "endTime": 1173,
+              "sentence_id": 1,
+              "word": "老师"
+            },
+            {
+              "beginTime": 1173,
+              "endTime": 1675,
+              "sentence_id": 1,
+              "word": "大家"
+            },
+            {
+              "beginTime": 1675,
+              "endTime": 1926,
+              "sentence_id": 1,
+              "word": "都"
+            },
+            {
+              "beginTime": 1926,
+              "endTime": 2428,
+              "sentence_id": 1,
+              "word": "讲完"
+            },
+            {
+              "beginTime": 2428,
+              "endTime": 2679,
+              "sentence_id": 1,
+              "word": "了，"
+            },
+            {
+              "beginTime": 2684,
+              "endTime": 2935,
+              "sentence_id": 1,
+              "word": "请"
+            },
+            {
+              "beginTime": 2935,
+              "endTime": 3186,
+              "sentence_id": 1,
+              "word": "您"
+            },
+            {
+              "beginTime": 3186,
+              "endTime": 3688,
+              "sentence_id": 1,
+              "word": "指示。"
+            }
+          ]
+        },
+        {
+          "beginTime": 3942,
+          "endTime": 50245,
+          "has_verify": true,
+          "id": 2,
+          "paragraph_id": "1778807910998500000",
+          "remark_type": 0,
+          "sentence_id": 2,
+          "text": "好的，因为今天刚刚有别的几个事情在在处理，所以就让大家现在按照自己的一个计划体计划经济，就是下一周到时候整个连在一起的我们能够把它正式的封板试用起来的，增加把这个目标上周也说了，这周也说了，下一周的能够出，也就是说现在的这个智能入口这一块，就是对接通用模型的那一块的这个入口。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "af27a4a0469c4935a5cfbe3e68e8cf39",
+          "userId": "1",
+          "userName": "说话人1",
+          "words": [
+            {
+              "beginTime": 3942,
+              "endTime": 4444,
+              "sentence_id": 2,
+              "word": "好的，"
+            },
+            {
+              "beginTime": 4445,
+              "endTime": 4957,
+              "sentence_id": 2,
+              "word": "因为"
+            },
+            {
+              "beginTime": 4957,
+              "endTime": 5469,
+              "sentence_id": 2,
+              "word": "今天"
+            },
+            {
+              "beginTime": 5469,
+              "endTime": 5981,
+              "sentence_id": 2,
+              "word": "刚刚"
+            },
+            {
+              "beginTime": 5981,
+              "endTime": 6237,
+              "sentence_id": 2,
+              "word": "有"
+            },
+            {
+              "beginTime": 6237,
+              "endTime": 6749,
+              "sentence_id": 2,
+              "word": "别的"
+            },
+            {
+              "beginTime": 6749,
+              "endTime": 7261,
+              "sentence_id": 2,
+              "word": "几个"
+            },
+            {
+              "beginTime": 7261,
+              "endTime": 7773,
+              "sentence_id": 2,
+              "word": "事情"
+            },
+            {
+              "beginTime": 7773,
+              "endTime": 8285,
+              "sentence_id": 2,
+              "word": "在在"
+            },
+            {
+              "beginTime": 8285,
+              "endTime": 8797,
+              "sentence_id": 2,
+              "word": "处理，"
+            },
+            {
+              "beginTime": 8808,
+              "endTime": 9502,
+              "sentence_id": 2,
+              "word": "所以"
+            },
+            {
+              "beginTime": 9502,
+              "endTime": 10196,
+              "sentence_id": 2,
+              "word": "就让"
+            },
+            {
+              "beginTime": 10196,
+              "endTime": 10890,
+              "sentence_id": 2,
+              "word": "大家"
+            },
+            {
+              "beginTime": 10890,
+              "endTime": 11584,
+              "sentence_id": 2,
+              "word": "现在"
+            },
+            {
+              "beginTime": 11584,
+              "endTime": 12278,
+              "sentence_id": 2,
+              "word": "按照"
+            },
+            {
+              "beginTime": 12278,
+              "endTime": 13319,
+              "sentence_id": 2,
+              "word": "自己的"
+            },
+            {
+              "beginTime": 13319,
+              "endTime": 14013,
+              "sentence_id": 2,
+              "word": "一个"
+            },
+            {
+              "beginTime": 14013,
+              "endTime": 14707,
+              "sentence_id": 2,
+              "word": "计划"
+            },
+            {
+              "beginTime": 14707,
+              "endTime": 15054,
+              "sentence_id": 2,
+              "word": "体"
+            },
+            {
+              "beginTime": 15054,
+              "endTime": 16442,
+              "sentence_id": 2,
+              "word": "计划经济，"
+            },
+            {
+              "beginTime": 16460,
+              "endTime": 17474,
+              "sentence_id": 2,
+              "word": "就是"
+            },
+            {
+              "beginTime": 17474,
+              "endTime": 17981,
+              "sentence_id": 2,
+              "word": "下"
+            },
+            {
+              "beginTime": 17981,
+              "endTime": 18995,
+              "sentence_id": 2,
+              "word": "一周"
+            },
+            {
+              "beginTime": 18995,
+              "endTime": 20516,
+              "sentence_id": 2,
+              "word": "到时候"
+            },
+            {
+              "beginTime": 20516,
+              "endTime": 21530,
+              "sentence_id": 2,
+              "word": "整个"
+            },
+            {
+              "beginTime": 21530,
+              "endTime": 23558,
+              "sentence_id": 2,
+              "word": "连在一起"
+            },
+            {
+              "beginTime": 23558,
+              "endTime": 24065,
+              "sentence_id": 2,
+              "word": "的"
+            },
+            {
+              "beginTime": 24065,
+              "endTime": 25079,
+              "sentence_id": 2,
+              "word": "我们"
+            },
+            {
+              "beginTime": 25079,
+              "endTime": 26093,
+              "sentence_id": 2,
+              "word": "能够"
+            },
+            {
+              "beginTime": 26093,
+              "endTime": 26600,
+              "sentence_id": 2,
+              "word": "把"
+            },
+            {
+              "beginTime": 26600,
+              "endTime": 27107,
+              "sentence_id": 2,
+              "word": "它"
+            },
+            {
+              "beginTime": 27107,
+              "endTime": 28121,
+              "sentence_id": 2,
+              "word": "正式"
+            },
+            {
+              "beginTime": 28121,
+              "endTime": 28628,
+              "sentence_id": 2,
+              "word": "的"
+            },
+            {
+              "beginTime": 28628,
+              "endTime": 29642,
+              "sentence_id": 2,
+              "word": "封板"
+            },
+            {
+              "beginTime": 29642,
+              "endTime": 30656,
+              "sentence_id": 2,
+              "word": "试用"
+            },
+            {
+              "beginTime": 30656,
+              "endTime": 31670,
+              "sentence_id": 2,
+              "word": "起来"
+            },
+            {
+              "beginTime": 31670,
+              "endTime": 32177,
+              "sentence_id": 2,
+              "word": "的，"
+            },
+            {
+              "beginTime": 32540,
+              "endTime": 33250,
+              "sentence_id": 2,
+              "word": "增加"
+            },
+            {
+              "beginTime": 33250,
+              "endTime": 33605,
+              "sentence_id": 2,
+              "word": "把"
+            },
+            {
+              "beginTime": 33605,
+              "endTime": 34315,
+              "sentence_id": 2,
+              "word": "这个"
+            },
+            {
+              "beginTime": 34315,
+              "endTime": 35025,
+              "sentence_id": 2,
+              "word": "目标"
+            },
+            {
+              "beginTime": 35025,
+              "endTime": 35735,
+              "sentence_id": 2,
+              "word": "上周"
+            },
+            {
+              "beginTime": 35735,
+              "endTime": 36090,
+              "sentence_id": 2,
+              "word": "也"
+            },
+            {
+              "beginTime": 36090,
+              "endTime": 36445,
+              "sentence_id": 2,
+              "word": "说"
+            },
+            {
+              "beginTime": 36445,
+              "endTime": 36800,
+              "sentence_id": 2,
+              "word": "了，"
+            },
+            {
+              "beginTime": 36810,
+              "endTime": 37105,
+              "sentence_id": 2,
+              "word": "这"
+            },
+            {
+              "beginTime": 37105,
+              "endTime": 37400,
+              "sentence_id": 2,
+              "word": "周"
+            },
+            {
+              "beginTime": 37400,
+              "endTime": 37695,
+              "sentence_id": 2,
+              "word": "也"
+            },
+            {
+              "beginTime": 37695,
+              "endTime": 37990,
+              "sentence_id": 2,
+              "word": "说"
+            },
+            {
+              "beginTime": 37990,
+              "endTime": 38285,
+              "sentence_id": 2,
+              "word": "了，"
+            },
+            {
+              "beginTime": 38289,
+              "endTime": 38584,
+              "sentence_id": 2,
+              "word": "下"
+            },
+            {
+              "beginTime": 38584,
+              "endTime": 39174,
+              "sentence_id": 2,
+              "word": "一周"
+            },
+            {
+              "beginTime": 39174,
+              "endTime": 39469,
+              "sentence_id": 2,
+              "word": "的"
+            },
+            {
+              "beginTime": 39469,
+              "endTime": 40059,
+              "sentence_id": 2,
+              "word": "能够"
+            },
+            {
+              "beginTime": 40059,
+              "endTime": 40354,
+              "sentence_id": 2,
+              "word": "出，"
+            },
+            {
+              "beginTime": 40674,
+              "endTime": 42006,
+              "sentence_id": 2,
+              "word": "也就是说"
+            },
+            {
+              "beginTime": 42006,
+              "endTime": 42672,
+              "sentence_id": 2,
+              "word": "现在"
+            },
+            {
+              "beginTime": 42672,
+              "endTime": 43005,
+              "sentence_id": 2,
+              "word": "的"
+            },
+            {
+              "beginTime": 43005,
+              "endTime": 43671,
+              "sentence_id": 2,
+              "word": "这个"
+            },
+            {
+              "beginTime": 43671,
+              "endTime": 44337,
+              "sentence_id": 2,
+              "word": "智能"
+            },
+            {
+              "beginTime": 44337,
+              "endTime": 45003,
+              "sentence_id": 2,
+              "word": "入口"
+            },
+            {
+              "beginTime": 45003,
+              "endTime": 45336,
+              "sentence_id": 2,
+              "word": "这"
+            },
+            {
+              "beginTime": 45336,
+              "endTime": 46002,
+              "sentence_id": 2,
+              "word": "一块，"
+            },
+            {
+              "beginTime": 46012,
+              "endTime": 46510,
+              "sentence_id": 2,
+              "word": "就是"
+            },
+            {
+              "beginTime": 46510,
+              "endTime": 47008,
+              "sentence_id": 2,
+              "word": "对接"
+            },
+            {
+              "beginTime": 47008,
+              "endTime": 47506,
+              "sentence_id": 2,
+              "word": "通用"
+            },
+            {
+              "beginTime": 47506,
+              "endTime": 48004,
+              "sentence_id": 2,
+              "word": "模型"
+            },
+            {
+              "beginTime": 48004,
+              "endTime": 48502,
+              "sentence_id": 2,
+              "word": "的那"
+            },
+            {
+              "beginTime": 48502,
+              "endTime": 49000,
+              "sentence_id": 2,
+              "word": "一块"
+            },
+            {
+              "beginTime": 49000,
+              "endTime": 49249,
+              "sentence_id": 2,
+              "word": "的"
+            },
+            {
+              "beginTime": 49249,
+              "endTime": 49747,
+              "sentence_id": 2,
+              "word": "这个"
+            },
+            {
+              "beginTime": 49747,
+              "endTime": 50245,
+              "sentence_id": 2,
+              "word": "入口。"
+            }
+          ]
+        },
+        {
+          "beginTime": 51820,
+          "endTime": 66840,
+          "has_verify": true,
+          "id": 3,
+          "paragraph_id": "1778807910998500000",
+          "remark_type": 0,
+          "sentence_id": 3,
+          "text": "这里面开发的进展，肯定是说太细的东西大家一定要要优先考虑，主要的就不要被一些细节的这些地方老是在那里。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "54147bf3f40b41beb4889ea971527dac",
+          "userId": "1",
+          "userName": "说话人1",
+          "words": [
+            {
+              "beginTime": 51820,
+              "endTime": 52138,
+              "sentence_id": 3,
+              "word": "这"
+            },
+            {
+              "beginTime": 52138,
+              "endTime": 52774,
+              "sentence_id": 3,
+              "word": "里面"
+            },
+            {
+              "beginTime": 52774,
+              "endTime": 53410,
+              "sentence_id": 3,
+              "word": "开发"
+            },
+            {
+              "beginTime": 53410,
+              "endTime": 53728,
+              "sentence_id": 3,
+              "word": "的"
+            },
+            {
+              "beginTime": 53728,
+              "endTime": 54364,
+              "sentence_id": 3,
+              "word": "进展，"
+            },
+            {
+              "beginTime": 54685,
+              "endTime": 55417,
+              "sentence_id": 3,
+              "word": "肯定"
+            },
+            {
+              "beginTime": 55417,
+              "endTime": 55783,
+              "sentence_id": 3,
+              "word": "是"
+            },
+            {
+              "beginTime": 55783,
+              "endTime": 56149,
+              "sentence_id": 3,
+              "word": "说"
+            },
+            {
+              "beginTime": 56149,
+              "endTime": 56881,
+              "sentence_id": 3,
+              "word": "太细"
+            },
+            {
+              "beginTime": 56881,
+              "endTime": 57247,
+              "sentence_id": 3,
+              "word": "的"
+            },
+            {
+              "beginTime": 57247,
+              "endTime": 57979,
+              "sentence_id": 3,
+              "word": "东西"
+            },
+            {
+              "beginTime": 57979,
+              "endTime": 58711,
+              "sentence_id": 3,
+              "word": "大家"
+            },
+            {
+              "beginTime": 58711,
+              "endTime": 59809,
+              "sentence_id": 3,
+              "word": "一定要"
+            },
+            {
+              "beginTime": 59809,
+              "endTime": 60175,
+              "sentence_id": 3,
+              "word": "要"
+            },
+            {
+              "beginTime": 60175,
+              "endTime": 60907,
+              "sentence_id": 3,
+              "word": "优先"
+            },
+            {
+              "beginTime": 60907,
+              "endTime": 61639,
+              "sentence_id": 3,
+              "word": "考虑，"
+            },
+            {
+              "beginTime": 61651,
+              "endTime": 62121,
+              "sentence_id": 3,
+              "word": "主要"
+            },
+            {
+              "beginTime": 62121,
+              "endTime": 62356,
+              "sentence_id": 3,
+              "word": "的"
+            },
+            {
+              "beginTime": 62356,
+              "endTime": 62591,
+              "sentence_id": 3,
+              "word": "就"
+            },
+            {
+              "beginTime": 62591,
+              "endTime": 63061,
+              "sentence_id": 3,
+              "word": "不要"
+            },
+            {
+              "beginTime": 63061,
+              "endTime": 63296,
+              "sentence_id": 3,
+              "word": "被"
+            },
+            {
+              "beginTime": 63296,
+              "endTime": 63766,
+              "sentence_id": 3,
+              "word": "一些"
+            },
+            {
+              "beginTime": 63766,
+              "endTime": 64236,
+              "sentence_id": 3,
+              "word": "细节"
+            },
+            {
+              "beginTime": 64236,
+              "endTime": 64471,
+              "sentence_id": 3,
+              "word": "的"
+            },
+            {
+              "beginTime": 64471,
+              "endTime": 64941,
+              "sentence_id": 3,
+              "word": "这些"
+            },
+            {
+              "beginTime": 64941,
+              "endTime": 65411,
+              "sentence_id": 3,
+              "word": "地方"
+            },
+            {
+              "beginTime": 65411,
+              "endTime": 65881,
+              "sentence_id": 3,
+              "word": "老是"
+            },
+            {
+              "beginTime": 65881,
+              "endTime": 66840,
+              "sentence_id": 3,
+              "word": "在那里。"
+            }
+          ]
+        }
+      ],
+      "data_status": 1,
+      "key_word": [],
+      "key_word_status": 0,
+      "abstract": "",
+      "abstract_status": 0,
+      "ai_abstract": "",
+      "ai_abstract_status": 0,
+      "part": [
+        {
+          "id": 0,
+          "start": 420,
+          "end": 6335000,
+          "title": "智能入口开发目标与工作指示",
+          "screen_short_img": "",
+          "abstract": "何老师在听取大家发言后作出指示，因当天需处理其他事务，要求团队按计划推进工作，核心目标是下一周实现智能入口（对接通用模型部分）的正式封板试用。同时强调在开发过程中，对于智能入口的进展，应优先考虑主要方面，避免被细节问题过度牵绊。",
+          "start_time": "00:00"
+        }
+      ],
+      "part_status": 1,
+      "review": [
+        {
+          "answer": "下一周的主要目标是将智能入口（对接通用模型的那一块入口）正式封板试用起来。",
+          "question": "下一周的主要目标是什么？"
+        },
+        {
+          "answer": "开发智能入口时，不要被细节问题困扰，要优先考虑主要的东西。",
+          "question": "在开发智能入口时，应如何处理细节问题？"
+        }
+      ],
+      "review_status": 1,
+      "summary": [],
+      "summary_status": 1,
+      "example_qa": "",
+      "file_md_5": "",
+      "handler_time": 215,
+      "progress_speed": 0,
+      "remark": [],
+      "embedding_status": 1,
+      "status": 4,
+      "delete_status": 0,
+      "language": 1,
+      "trans_type": 1,
+      "chat_num": 1,
+      "message": "ok",
+      "scene_id": 1,
+      "source_type": 0,
+      "share_status": 0,
+      "team_id": "",
+      "folder_id": 245320,
+      "source_channel": 0,
+      "official": 0,
+      "screen_video": "",
+      "screen_audio": "",
+      "update_time": "2026-05-15 11:06:13",
+      "create_time": "2026-05-15 09:18:04",
+      "prepare_status": 0,
+      "is_free_type": 0,
+      "offline_tag": 1,
+      "retry_num": 0,
+      "is_temp": 0,
+      "platform": 1,
+      "is_knowledge": 0,
+      "last_view_at": "2026-05-15 09:18:04",
+      "last_edit_at": "",
+      "is_recording": 0,
+      "pagination": null,
+      "word_count": 204,
+      "secen_title": "通用记录",
+      "is_view": 0,
+      "download_url": "https://tingnao.oss-cn-hangzhou.aliyuncs.com/tmp%2Fd030cf87-f36a-4b2c-a6af-2ec74d42de31.mp3?Expires=1781673339&OSSAccessKeyId=LTAI5t5Z88vjuh8XYhakB9Y8&Signature=zLFoZ4ZAZZ%2BqOoeSt0PuUFdrywQ%3D&response-content-disposition=attachment%3Bfilename%3D%E4%BD%95%E8%80%81%E5%B8%88-%E6%99%BA%E8%83%BD%E5%85%A5%E5%8F%A3%E5%BC%80%E5%8F%91%E4%BC%9A%E8%AE%AE.mp3",
+      "tran_status": {},
+      "meeting_summary": "## 📌基本信息\n\n- **主题**:智能入口开发进展与封板试用安排\n- **时间**:2026-05-15 09:18:04\n- **参会人员**:何老师、说话人1\n\n---\n\n## 一、会议背景与目的\n\n本次会议围绕 **智能入口** 对接通用模型的开发进展展开，明确目标为 **下一周正式封板试用** ，强调优先关注主要开发内容，避免被细节问题影响整体进度。\n\n---\n\n## 二、核心内容\n\n### 2.1 开发目标与时间节点\n\n- 目标：下一周实现 **智能入口** （对接通用模型的入口）正式 **封板试用** \n- 进度要求：上周、本周均已强调该目标，需确保按计划推进\n\n### 2.2 开发重点与原则\n\n- 优先关注 **主要开发内容** ，核心是 **智能入口对接通用模型** 的功能实现\n- 避免在 **细节问题** 上过度停留，确保整体进度不受影响\n\n---\n\n## 三、行动计划\n\n### 3.1 核心行动方向\n\n- 聚焦 **智能入口** 开发，确保下一周达成 **封板试用** 目标\n- 团队内部明确任务优先级，集中资源解决核心功能问题\n\n### 3.2 待办事项\n\n| **时间点** | **责任人** | **任务**                     | **产出/验收**               |\n|----------|----------|----------------------------|---------------------------|\n| 下周      | 开发团队   | 完成智能入口对接通用模型的核心开发 | 功能可正常运行，达到封板试用标准 |\n| 下周      | 测试团队   | 完成封板前的功能测试与问题修复   | 测试报告，无阻塞性bug       |",
+      "meeting_todo": [
+        {
+          "Id": 1,
+          "SentenceId": 0,
+          "Start": 0,
+          "End": 0,
+          "Text": "按计划推进工作，确保下一周智能入口（对接通用模型部分）能够正式封板试用。"
+        },
+        {
+          "Id": 2,
+          "SentenceId": 0,
+          "Start": 0,
+          "End": 0,
+          "Text": "优先处理智能入口开发中的关键问题，避免在细节上过度纠缠。"
+        }
+      ],
+      "meeting_summary_status": 2,
+      "meeting_todo_status": 1,
+      "queue_num": 0,
+      "waite_time": 0,
+      "free_task_status": 0,
+      "is_vip": 0,
+      "cover_img": "",
+      "create_time_time_stamp": 1778807884,
+      "meeting_summary_id": -1,
+      "example_name": "",
+      "example_id": 0,
+      "file_num": 0,
+      "view_num": 0,
+      "user_name": "广州老朱",
+      "parent_model": 0,
+      "ai_file_path": "",
+      "record_note": null,
+      "parse_content": "",
+      "parse_title": "",
+      "parse_images": null,
+      "parse_image_objs": null,
+      "parse_site": "",
+      "parse_elements": null,
+      "parse_url": "",
+      "parse_status": 0,
+      "ocr_img_list": null,
+      "tag": "何老师 封板试用 智能入口 通用模型 开发进展 下一周 目标",
+      "text_rewrite_status": 3,
+      "text_polish_processing": null,
+      "re_write_count": 0,
+      "is_read": 0,
+      "new_note": "",
+      "inspire_data": "404",
+      "width": 0,
+      "height": 0,
+      "file_size": 12373,
+      "jump_link": "",
+      "network_platform": "",
+      "network_platform_img_url": "",
+      "show_speaker": 1,
+      "show_timestamp": 1,
+      "merge_speaker": 0,
+      "text_polish_data_id": "",
+      "voice_checkbox": true,
+      "assistant_status": 0,
+      "assistant_status_text": "",
+      "task_id": 0,
+      "diff_time": 0
+    }
+  }
+}
