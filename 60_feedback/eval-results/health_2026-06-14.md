@@ -1,47 +1,78 @@
-KDO 健康巡检 — 2026-06-14 06:09
+KDO 健康巡检 — 2026-06-14 18:07
 ┌────────────────────────────────────────────────┐
 │ ✅  TODO 残留: 0                                      │
-│ ⚠️  孤立页面: 587                                    │
+│ ⚠️  孤立页面: 641                                    │
 │ ✅  矛盾未解决: 0                                      │
-│ ⚠️  重复页面: 738                                    │
+│ ⚠️  重复页面: 750                                    │
 │ ⚠️  记忆文件过期: 3                                      │
-│ ℹ️  超期未更新: 31                                     │
+│ ℹ️  超期未更新: 28                                     │
 │ ✅  低信任源: 0                                      │
 ├────────────────────────────────────────────────┤
 │ Task M — 自迭代检测器 Phase 1                    │
-│ ⚠️  新卡健康度: 541 issues (104F/437W)      │
-│ ✅  Domain 审计: 24 issues                         │
+│ ⚠️  新卡健康度: 2178 issues (335F/1843W)      │
+│ ⚠️  Domain 审计: 309 issues                         │
 │ ✅  索引更新: 1/1 ok                         │
-│ ⚠️  链接密度: 340 findings                         │
-│ ⛔  入库门禁: 1346 issues (1F/1345W)        │
+│ ⚠️  链接密度: 522 findings                         │
+│ ⚠️  入库门禁: 920 issues (0F/920W)        │
 └────────────────────────────────────────────────┘
 综合评分: 4/7 项异常，建议关注。
 
 --- 孤立页面 ---
+  • 30_wiki/cases/case-ai-agent-milestone-design.md  (case-ai-agent-milestone-design)
+  • 30_wiki/cases/case-ai-assisted-review.md  (case-ai-assisted-review)
+  • 30_wiki/cases/case-course-milestone-model.md  (case-course-milestone-model)
+  • 30_wiki/cases/case-essence-entrepreneurship.md  (case-essence-entrepreneurship)
+  • 30_wiki/cases/case-essence-humanity-trap.md  (case-essence-humanity-trap)
   • 30_wiki/cases/case-ether-online-acquisition.md  (case-ether-online-acquisition)
   • 30_wiki/cases/case-jh-yitang-vs-sqlhelper.md  (case-jh-yitang-vs-sqlhelper)
+  • 30_wiki/cases/case-livestream-sop-modeling.md  (case-livestream-sop-modeling)
   • 30_wiki/cases/case-milktea-five-step.md  (case-milktea-five-step)
+  • 30_wiki/cases/case-nine-pm-livestream-survey.md  (case-nine-pm-livestream-survey)
+  • 30_wiki/cases/case-personal-map-modeling.md  (case-personal-map-modeling)
+  • 30_wiki/cases/case-smart-medicine-cabinet-business-model-validation.md  (case-smart-medicine-cabinet-business-model-validation)
+  • 30_wiki/cases/case-smart-medicine-cabinet-corporate-risk.md  (case-smart-medicine-cabinet-corporate-risk)
+  • 30_wiki/cases/case-smart-medicine-cabinet-failure-patterns-library.md  (case-smart-medicine-cabinet-failure-patterns-library)
+  • 30_wiki/cases/case-thousand-people-square.md  (case-thousand-people-square)
+  • 30_wiki/cases/case-truman-ai-skill-self-packaging.md  (case-truman-ai-skill-self-packaging)
+  • 30_wiki/cases/case-truman-livestream-sop-iteration.md  (case-truman-livestream-sop-iteration)
+  • 30_wiki/cases/case-truman-personal-growth-map-creation.md  (case-truman-personal-growth-map-creation)
   • 30_wiki/cases/case-truman-poker-deck-roi.md  (case-truman-poker-deck-roi)
   • 30_wiki/cases/case-truman-prd-checklist-evolution.md  (case-truman-prd-checklist-evolution)
   • 30_wiki/cases/case-truman-yitang-foresight.md  (case-truman-yitang-foresight)
+  • 30_wiki/cases/case-yitang-education-supply-chain.md  (case-yitang-education-supply-chain)
+  • 30_wiki/cases/case-yitang-radar-chart-selection.md  (case-yitang-radar-chart-selection)
   • 30_wiki/cases/case-广冷电子-hx-smj.md  (case-广冷电子-hx-smj)
   • 30_wiki/cases/case-纪浩-focus-prompt-design.md  (case-纪浩-focus-prompt-design)
   • 30_wiki/cases/case-纪浩-skills-market.md  (case-纪浩-skills-market)
+  • 30_wiki/cases/industrial-ai-ops-cases.md  (industrial-ai-ops-cases)
+  • 30_wiki/cases/smart-medicine-cabinet-clinic-risk-observation.md  (smart-medicine-cabinet-clinic-risk-observation)
   • 30_wiki/concepts/2026-05-17-深夜感想.md  (2026-05-17-深夜感想)
+  • 30_wiki/concepts/ai-native-im-multi-agent.md  (ai-native-im-multi-agent)
+  • 30_wiki/concepts/ai-short-drama-platform-policy-comparison.md  (ai-short-drama-platform-policy-comparison)
   • 30_wiki/concepts/ai-俱乐部人和-ai-协作-五层结构.md  (ai-俱乐部人和-ai-协作-五层结构)
   • 30_wiki/concepts/aigc文创案例设计课leo文创ip从0到1全流程.md  (aigc文创案例设计课leo文创ip从0到1全流程)
   • 30_wiki/concepts/aima-ai思维卡-外部链接归档.md  (aima-ai思维卡-外部链接归档)
   • 30_wiki/concepts/ai单元模型口述蒋老师.md  (ai单元模型口述蒋老师)
   • 30_wiki/concepts/ai数据理解第一课.md  (ai数据理解第一课)
   • 30_wiki/concepts/anthropic-官方发布创始人手册打造-ai-原生初创公司.md  (anthropic-官方发布创始人手册打造-ai-原生初创公司)
+  • 30_wiki/concepts/business-validation-models-collaboration.md  (business-validation-models-collaboration)
   • 30_wiki/concepts/concept-five-step-growth-to-barrier-transition.md  (concept-five-step-growth-to-barrier-transition)
+  • 30_wiki/concepts/concept-smart-medicine-cabinet-consumer-acceptance.md  (concept-smart-medicine-cabinet-consumer-acceptance)
+  • 30_wiki/concepts/concept-smart-medicine-cabinet-digital-pharmacy-diagnosis.md  (concept-smart-medicine-cabinet-digital-pharmacy-diagnosis)
+  • 30_wiki/concepts/concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet.md  (concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet)
+  • 30_wiki/concepts/concept-smart-medicine-cabinet-international-models.md  (concept-smart-medicine-cabinet-international-models)
+  • 30_wiki/concepts/concept-smart-medicine-cabinet-platform-cooperation-validation.md  (concept-smart-medicine-cabinet-platform-cooperation-validation)
+  • 30_wiki/concepts/concept-smart-medicine-cabinet-supply-chain-validation.md  (concept-smart-medicine-cabinet-supply-chain-validation)
   • 30_wiki/concepts/data-labeling-best-practices-report.md  (data-labeling-best-practices-report)
   • 30_wiki/concepts/deepseek-v4-在知识管理系统中的应用.md  (deepseek-v4-在知识管理系统中的应用)
+  • 30_wiki/concepts/fd-forward-deployment.md  (fd-forward-deployment)
+  • 30_wiki/concepts/finance-legal-business-operations.md  (finance-legal-business-operations)
   • 30_wiki/concepts/kdo-yaml-frontmatter-safety.md  (kdo-yaml-frontmatter-safety)
   • 30_wiki/concepts/knowledge-error-self-exposure.md  (knowledge-error-self-exposure)
   • 30_wiki/concepts/learning-thinking.md  (learning-thinking)
   • 30_wiki/concepts/master-antifragile-checklist.md  (master-antifragile-checklist)
   • 30_wiki/concepts/meta-prompt-eng.md  (meta-prompt-eng)
+  • 30_wiki/concepts/modeling-three-values.md  (modeling-three-values)
   • 30_wiki/concepts/ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md  (ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01)
   • 30_wiki/concepts/ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md  (ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02)
   • 30_wiki/concepts/ocr-ocr_screenshot2.md  (ocr-ocr_screenshot2)
@@ -107,9 +138,10 @@ KDO 健康巡检 — 2026-06-14 06:09
   • 30_wiki/concepts/ocr-项目背景问题思考的8个维度.md  (ocr-项目背景问题思考的8个维度)
   • 30_wiki/concepts/ocr-预判模型.md  (ocr-预判模型)
   • 30_wiki/concepts/paddleocr-skill.md  (paddleocr-skill)
+  • 30_wiki/concepts/personal-growth-complex-systems.md  (personal-growth-complex-systems)
   • 30_wiki/concepts/pilot-atomic-chunk-comparison.md  (pilot-atomic-chunk-comparison)
+  • 30_wiki/concepts/product-business-strategy.md  (product-business-strategy)
   • 30_wiki/concepts/product-ux.md  (product-ux)
-  • 30_wiki/concepts/sales-pitch-bias-patterns.md  (sales-pitch-bias-patterns)
   • 30_wiki/concepts/skill-1视角升级思考法.md  (skill-1视角升级思考法)
   • 30_wiki/concepts/skill-Truman-AI场景探索STAR模型.md  (skill-Truman-AI场景探索STAR模型)
   • 30_wiki/concepts/skill-Truman-AI工具选型决策.md  (skill-Truman-AI工具选型决策)
@@ -499,6 +531,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • 30_wiki/concepts/skill-马易-隐私安全分层解决.md  (skill-马易-隐私安全分层解决)
   • 30_wiki/concepts/skill-马易-需求创造验证法.md  (skill-马易-需求创造验证法)
   • 30_wiki/concepts/smart-medicine-cabinet-distribution.md  (smart-medicine-cabinet-distribution)
+  • 30_wiki/concepts/smart-medicine-cabinet-national-policy-redlines.md  (smart-medicine-cabinet-national-policy-redlines)
+  • 30_wiki/concepts/smart-medicine-cabinet-o2o-cost-structure.md  (smart-medicine-cabinet-o2o-cost-structure)
+  • 30_wiki/concepts/smart-medicine-cabinet-regional-policy-map.md  (smart-medicine-cabinet-regional-policy-map)
   • 30_wiki/concepts/source-code-delivery-model.md  (source-code-delivery-model)
   • 30_wiki/concepts/sprint-2-门禁举证验收.md  (sprint-2-门禁举证验收)
   • 30_wiki/concepts/tools-workflows.md  (tools-workflows)
@@ -554,6 +589,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • 30_wiki/dark-knowledges/dk-foresight-source-material-blindness.md  (dk-foresight-source-material-blindness)
   • 30_wiki/dark-knowledges/dk-foresight-tier-skip-illusion.md  (dk-foresight-tier-skip-illusion)
   • 30_wiki/dark-knowledges/dk-mckinsey-hypothesis-driven-pitfalls.md  (dk-mckinsey-hypothesis-driven-pitfalls)
+  • 30_wiki/dark-knowledges/dk-modeling-ai-judgment-limit.md  (dk-modeling-ai-judgment-limit)
+  • 30_wiki/dark-knowledges/dk-modeling-case-explosion-confidence.md  (dk-modeling-case-explosion-confidence)
+  • 30_wiki/dark-knowledges/dk-modeling-explanatory-vs-predictive-essence.md  (dk-modeling-explanatory-vs-predictive-essence)
   • 30_wiki/dark-knowledges/dk-p1-model-switch-env.md  (dk-p1-model-switch-env)
   • 30_wiki/dark-knowledges/dk-p10-oral-ban.md  (dk-p10-oral-ban)
   • 30_wiki/dark-knowledges/dk-p11-regex-cutoff.md  (dk-p11-regex-cutoff)
@@ -575,6 +613,7 @@ KDO 健康巡检 — 2026-06-14 06:09
   • 30_wiki/dark-knowledges/dk-p9-glob-miss.md  (dk-p9-glob-miss)
   • 30_wiki/dark-knowledges/dk-pseudo-demand-trap.md  (dk-pseudo-demand-trap)
   • 30_wiki/dark-knowledges/dk-signal-cluster-illusion.md  (dk-signal-cluster-illusion)
+  • 30_wiki/dark-knowledges/dk-weekly-modeling-iteration-growth-engine.md  (dk-weekly-modeling-iteration-growth-engine)
   • 30_wiki/dark-knowledges/dk-yb22-visual-presentation-scene-match.md  (dk-yb22-visual-presentation-scene-match)
   • 30_wiki/dark-knowledges/dk-yb24-ai-poster-de-ai-feeling.md  (dk-yb24-ai-poster-de-ai-feeling)
   • 30_wiki/dark-knowledges/dk-yb28-prompt-expiration-management.md  (dk-yb28-prompt-expiration-management)
@@ -590,7 +629,15 @@ KDO 健康巡检 — 2026-06-14 06:09
   • 30_wiki/entities/Kimi-月之暗面.md  (Kimi-月之暗面)
   • 30_wiki/entities/YC-Y-Combinator.md  (YC-Y-Combinator)
   • 30_wiki/entities/七件事集团.md  (七件事集团)
+  • 30_wiki/frameworks/ai-complex-communication.md  (ai-complex-communication)
+  • 30_wiki/frameworks/beverage-foodservice-channel.md  (beverage-foodservice-channel)
+  • 30_wiki/frameworks/business-formula-to-kdo-card-quality.md  (business-formula-to-kdo-card-quality)
+  • 30_wiki/frameworks/model-quality-four-levels.md  (model-quality-four-levels)
+  • 30_wiki/frameworks/modeling-personal-practice-loop.md  (modeling-personal-practice-loop)
+  • 30_wiki/frameworks/modeling-to-kdo-toolchain.md  (modeling-to-kdo-toolchain)
   • 30_wiki/frameworks/private-domain-saas-sales-funnel.md  (private-domain-saas-sales-funnel)
+  • 30_wiki/frameworks/sales-pitch-bias-patterns.md  (sales-pitch-bias-patterns)
+  • 30_wiki/frameworks/smart-device-foodservice-automation.md  (smart-device-foodservice-automation)
   • 30_wiki/projects/互联网医院项目.md  (互联网医院项目)
   • 30_wiki/projects/诊所O2O项目.md  (诊所O2O项目)
   • 30_wiki/projects/鑫港湾HIS项目.md  (鑫港湾HIS项目)
@@ -599,6 +646,13 @@ KDO 健康巡检 — 2026-06-14 06:09
   • 30_wiki/tools/sk-ai-prd-for-ai.md  (sk-ai-prd-for-ai)
   • 30_wiki/tools/sk-ai-system-redundancy.md  (sk-ai-system-redundancy)
   • 30_wiki/tools/skill-note-one-line-one-point.md  (skill-note-one-line-one-point)
+  • 30_wiki/tools/smart-medicine-cabinet-financial-model.md  (smart-medicine-cabinet-financial-model)
+  • 30_wiki/tools/smart-medicine-cabinet-fraud-detection.md  (smart-medicine-cabinet-fraud-detection)
+  • 30_wiki/tools/tool-clinic-cabinet-legal-contract-guide.md  (tool-clinic-cabinet-legal-contract-guide)
+  • 30_wiki/tools/tool-clinic-medical-shortvideo-compliance.md  (tool-clinic-medical-shortvideo-compliance)
+  • 30_wiki/tools/tool-iterative-recursive-deep-dig.md  (tool-iterative-recursive-deep-dig)
+  • 30_wiki/tools/tool-smart-medicine-cabinet-compliance-checklist.md  (tool-smart-medicine-cabinet-compliance-checklist)
+  • 30_wiki/tools/tool-smart-medicine-cabinet-site-selection-guide.md  (tool-smart-medicine-cabinet-site-selection-guide)
   • 30_wiki/tools/yt-tool-ai-ppt-maker.md  (yt-tool-ai-ppt-maker)
   • 30_wiki/tools/yt-tool-unit-model-ai-assisted.md  (yt-tool-unit-model-ai-assisted)
   • 30_wiki/tools/yt-tool-unit-model-benchmark.md  (yt-tool-unit-model-benchmark)
@@ -607,13 +661,13 @@ KDO 健康巡检 — 2026-06-14 06:09
   • 30_wiki/tools/yt-tool-unit-model-selection.md  (yt-tool-unit-model-selection)
 
 --- 超期未更新 (>30d) ---
+  • 30_wiki/concepts/EC工业化规范手册.md  (42d since 2026-05-03)
+  • 30_wiki/concepts/HIS系统开发实现方案-架构师指南.md  (42d since 2026-05-03)
+  • 30_wiki/concepts/HIS系统深度调研.md  (42d since 2026-05-03)
   • 30_wiki/concepts/business-research-skill-oscar-13-weapon-system.md  (41d since 2026-05-04)
   • 30_wiki/concepts/deepseek-v4-在知识管理系统中的应用.md  (40d since 2026-05-05)
   • 30_wiki/concepts/ec工业化规范手册-v2.8.0.md  (42d since 2026-05-03)
-  • 30_wiki/concepts/EC工业化规范手册.md  (42d since 2026-05-03)
   • 30_wiki/concepts/graph-rag.md  (42d since 2026-05-03)
-  • 30_wiki/concepts/HIS系统开发实现方案-架构师指南.md  (42d since 2026-05-03)
-  • 30_wiki/concepts/HIS系统深度调研.md  (42d since 2026-05-03)
   • 30_wiki/concepts/kdo_product_design_agent_final.md  (42d since 2026-05-03)
   • 30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md  (41d since 2026-05-04)
   • 30_wiki/concepts/knowledge-delivery-os-快速体验指南-飞书云文档.md  (41d since 2026-05-04)
@@ -635,9 +689,6 @@ KDO 健康巡检 — 2026-06-14 06:09
   • 30_wiki/concepts/诊所o2o外卖平台业务深度调研报告.md  (42d since 2026-05-03)
   • 30_wiki/concepts/轻量级诊所HIS调研全清单.md  (42d since 2026-05-03)
   • 30_wiki/concepts/鑫港湾his系统分阶段整改报告.md  (42d since 2026-05-03)
-  • 30_wiki/projects/互联网医院项目.md  (41d since 2026-05-04)
-  • 30_wiki/projects/诊所O2O项目.md  (41d since 2026-05-04)
-  • 30_wiki/projects/鑫港湾HIS项目.md  (41d since 2026-05-04)
 
 --- 重复页面 ---
   • "数据标注最佳实践调研报告"  ≈  "数据标注维度最佳实践调研报告"  (dist=2)
@@ -649,7 +700,7 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "Kimi 深度调研集群方法论 (Deep-Research-Swarm)"  ≈  "Kimi 深度调研集群方法论 (Deep-Research-Swarm)"  (dist=0)
     30_wiki/concepts/kimi-深度调研集群方法论-deep-research-swarm.md
     30_wiki/concepts/research_methodology.md
-  • "ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01"  ≈  "ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02"  (dist=5)
+  • "OCR: AI俱乐部-人和AI协作-纪浩-五层结构-图片01"  ≈  "OCR: AI俱乐部-人和AI协作-纪浩-参考案例-图片02"  (dist=5)
     30_wiki/concepts/ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md
     30_wiki/concepts/ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md
   • "OCR: ocr_screenshot2"  ≈  "OCR: screenshot1"  (dist=5)
@@ -661,10 +712,10 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: screenshot1"  ≈  "OCR: screenshot2"  (dist=1)
     30_wiki/concepts/ocr-screenshot1.md
     30_wiki/concepts/ocr-screenshot2.md
-  • "ocr-一堂-ai学习-提问工程化"  ≈  "ocr-一堂-ai学习-提问进化路线图"  (dist=5)
+  • "OCR: 一堂-AI学习-提问工程化"  ≈  "OCR: 一堂-AI学习-提问进化路线图"  (dist=5)
     30_wiki/concepts/ocr-一堂-ai学习-提问工程化.md
     30_wiki/concepts/ocr-一堂-ai学习-提问进化路线图.md
-  • "ocr-一堂-ai清单体笔记系统故事线-truman-图片01"  ≈  "ocr-一堂-ai清单体笔记训练段位图-truman-图片02"  (dist=6)
+  • "OCR: 一堂-AI清单体笔记（系统故事线）-truman-图片01"  ≈  "OCR: 一堂-AI清单体笔记（训练段位图）-truman-图片02"  (dist=6)
     30_wiki/concepts/ocr-一堂-ai清单体笔记系统故事线-truman-图片01.md
     30_wiki/concepts/ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md
   • "OCR: 一堂-个人修炼-Y模型"  ≈  "OCR: 一堂-个人修炼-双三角模型"  (dist=3)
@@ -826,6 +877,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-修炼地图"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=4)
     30_wiki/concepts/ocr-一堂-单元模型-修炼地图.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-修炼地图"  ≈  "OCR: 一堂-单元模型-示例"  (dist=4)
+    30_wiki/concepts/ocr-一堂-单元模型-修炼地图.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-修炼地图"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=4)
     30_wiki/concepts/ocr-一堂-单元模型-修炼地图.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -880,6 +934,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-动态预测"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=4)
     30_wiki/concepts/ocr-一堂-单元模型-动态预测.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-动态预测"  ≈  "OCR: 一堂-单元模型-示例"  (dist=4)
+    30_wiki/concepts/ocr-一堂-单元模型-动态预测.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-动态预测"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=4)
     30_wiki/concepts/ocr-一堂-单元模型-动态预测.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -964,6 +1021,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-单商圈模型"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单商圈模型.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-单商圈模型"  ≈  "OCR: 一堂-单元模型-示例"  (dist=5)
+    30_wiki/concepts/ocr-一堂-单元模型-单商圈模型.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-单商圈模型"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单商圈模型.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -1015,6 +1075,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-单城市模型"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单城市模型.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-单城市模型"  ≈  "OCR: 一堂-单元模型-示例"  (dist=5)
+    30_wiki/concepts/ocr-一堂-单元模型-单城市模型.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-单城市模型"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单城市模型.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -1063,6 +1126,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-单客户模型"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单客户模型.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-单客户模型"  ≈  "OCR: 一堂-单元模型-示例"  (dist=5)
+    30_wiki/concepts/ocr-一堂-单元模型-单客户模型.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-单客户模型"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单客户模型.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -1108,6 +1174,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-单履约模型"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单履约模型.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-单履约模型"  ≈  "OCR: 一堂-单元模型-示例"  (dist=5)
+    30_wiki/concepts/ocr-一堂-单元模型-单履约模型.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-单履约模型"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单履约模型.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -1150,6 +1219,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-单柜子模型"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单柜子模型.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-单柜子模型"  ≈  "OCR: 一堂-单元模型-示例"  (dist=5)
+    30_wiki/concepts/ocr-一堂-单元模型-单柜子模型.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-单柜子模型"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单柜子模型.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -1189,6 +1261,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-单用户模型"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单用户模型.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-单用户模型"  ≈  "OCR: 一堂-单元模型-示例"  (dist=5)
+    30_wiki/concepts/ocr-一堂-单元模型-单用户模型.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-单用户模型"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单用户模型.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -1225,6 +1300,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-单订单模型"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单订单模型.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-单订单模型"  ≈  "OCR: 一堂-单元模型-示例"  (dist=5)
+    30_wiki/concepts/ocr-一堂-单元模型-单订单模型.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-单订单模型"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单订单模型.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -1261,6 +1339,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-单销售模型"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单销售模型.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-单销售模型"  ≈  "OCR: 一堂-单元模型-示例"  (dist=5)
+    30_wiki/concepts/ocr-一堂-单元模型-单销售模型.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-单销售模型"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单销售模型.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -1291,6 +1372,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-单门店模型"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单门店模型.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-单门店模型"  ≈  "OCR: 一堂-单元模型-示例"  (dist=5)
+    30_wiki/concepts/ocr-一堂-单元模型-单门店模型.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-单门店模型"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-单门店模型.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -1318,6 +1402,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-基准值"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=4)
     30_wiki/concepts/ocr-一堂-单元模型-基准值.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-基准值"  ≈  "OCR: 一堂-单元模型-示例"  (dist=3)
+    30_wiki/concepts/ocr-一堂-单元模型-基准值.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-基准值"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=4)
     30_wiki/concepts/ocr-一堂-单元模型-基准值.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -1339,6 +1426,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-壁垒预判"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=4)
     30_wiki/concepts/ocr-一堂-单元模型-壁垒预判.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-壁垒预判"  ≈  "OCR: 一堂-单元模型-示例"  (dist=4)
+    30_wiki/concepts/ocr-一堂-单元模型-壁垒预判.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-壁垒预判"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=4)
     30_wiki/concepts/ocr-一堂-单元模型-壁垒预判.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -1363,6 +1453,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-多模型情况"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-多模型情况.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-多模型情况"  ≈  "OCR: 一堂-单元模型-示例"  (dist=5)
+    30_wiki/concepts/ocr-一堂-单元模型-多模型情况.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-多模型情况"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-多模型情况.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -1378,6 +1471,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-学练用"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=4)
     30_wiki/concepts/ocr-一堂-单元模型-学练用.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-学练用"  ≈  "OCR: 一堂-单元模型-示例"  (dist=3)
+    30_wiki/concepts/ocr-一堂-单元模型-学练用.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-学练用"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=4)
     30_wiki/concepts/ocr-一堂-单元模型-学练用.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -1396,6 +1492,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-对抗小抄"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=4)
     30_wiki/concepts/ocr-一堂-单元模型-对抗小抄.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-对抗小抄"  ≈  "OCR: 一堂-单元模型-示例"  (dist=4)
+    30_wiki/concepts/ocr-一堂-单元模型-对抗小抄.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-对抗小抄"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=4)
     30_wiki/concepts/ocr-一堂-单元模型-对抗小抄.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -1423,6 +1522,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-扭蛋机案例"  ≈  "OCR: 一堂-单元模型-段位专家"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-扭蛋机案例.md
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+  • "OCR: 一堂-单元模型-扭蛋机案例"  ≈  "OCR: 一堂-单元模型-示例"  (dist=4)
+    30_wiki/concepts/ocr-一堂-单元模型-扭蛋机案例.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-扭蛋机案例"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-扭蛋机案例.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -1456,11 +1558,20 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 一堂-单元模型-最简单元模型"  ≈  "OCR: 一堂DOC-单元模型-十大单元模型"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-最简单元模型.md
     30_wiki/concepts/ocr-一堂doc-单元模型-十大单元模型.md
+  • "OCR: 一堂-单元模型-段位专家"  ≈  "OCR: 一堂-单元模型-示例"  (dist=4)
+    30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
   • "OCR: 一堂-单元模型-段位专家"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=4)
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
   • "OCR: 一堂-单元模型-段位专家"  ≈  "OCR: 一堂-单元模型-象限分析法"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-段位专家.md
+    30_wiki/concepts/ocr-一堂-单元模型-象限分析法.md
+  • "OCR: 一堂-单元模型-示例"  ≈  "OCR: 一堂-单元模型-示例01"  (dist=2)
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
+    30_wiki/concepts/ocr-一堂-单元模型-示例01.md
+  • "OCR: 一堂-单元模型-示例"  ≈  "OCR: 一堂-单元模型-象限分析法"  (dist=5)
+    30_wiki/concepts/ocr-一堂-单元模型-示例.md
     30_wiki/concepts/ocr-一堂-单元模型-象限分析法.md
   • "OCR: 一堂-单元模型-示例01"  ≈  "OCR: 一堂-单元模型-象限分析法"  (dist=5)
     30_wiki/concepts/ocr-一堂-单元模型-示例01.md
@@ -2530,24 +2641,12 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "OCR: 泛产品设计落地工具篇指南"  ≈  "OCR: 泛产品设计落地篇"  (dist=4)
     30_wiki/concepts/ocr-泛产品设计落地工具篇指南.md
     30_wiki/concepts/ocr-泛产品设计落地篇.md
-  • "技能：真需求四要素验证法"  ≈  "技能：真需求四要素验证法"  (dist=0)
-    30_wiki/concepts/skill-ai-four-elements-validation.md
-    30_wiki/concepts/skill-纪浩-真需求四要素验证法.md
-  • "skill-ai-parallel-validation"  ≈  "skill-ai-problem-validation"  (dist=4)
-    30_wiki/concepts/skill-ai-parallel-validation.md
-    30_wiki/concepts/skill-ai-problem-validation.md
-  • "skill-Truman-AI时代IPO模型重构"  ≈  "skill-Truman-AI时代提示词优化法"  (dist=7)
-    30_wiki/concepts/skill-Truman-AI时代IPO模型重构.md
-    30_wiki/concepts/skill-Truman-AI时代提示词优化法.md
-  • "skill-Truman-技术社区严肃提问法"  ≈  "skill-Truman-科学提问法"  (dist=6)
-    30_wiki/concepts/skill-Truman-技术社区严肃提问法.md
-    30_wiki/concepts/skill-Truman-科学提问法.md
-  • "skill-Truman-技术社区严肃提问法"  ≈  "skill-Truman-职场异步协作提问法"  (dist=6)
-    30_wiki/concepts/skill-Truman-技术社区严肃提问法.md
-    30_wiki/concepts/skill-Truman-职场异步协作提问法.md
-  • "skill-Truman-科学提问法"  ≈  "skill-Truman-职场异步协作提问法"  (dist=6)
-    30_wiki/concepts/skill-Truman-科学提问法.md
-    30_wiki/concepts/skill-Truman-职场异步协作提问法.md
+  • "skill-ai-landing-five-steps"  ≈  "skill-ai-research-five-steps"  (dist=8)
+    30_wiki/concepts/skill-ai-landing-five-steps.md
+    30_wiki/concepts/skill-ai-research-five-steps.md
+  • "技能：商业预判15字诀"  ≈  "商业预判15字诀"  (dist=3)
+    30_wiki/concepts/skill-一堂-business-prediction-15-char.md
+    30_wiki/concepts/yt-entrepreneur-industry-forecast.md
   • "技能：动手建模提炼"  ≈  "技能：动手建模法"  (dist=2)
     30_wiki/concepts/skill-动手建模提炼.md
     30_wiki/concepts/skill-动手建模法.md
@@ -2602,27 +2701,15 @@ KDO 健康巡检 — 2026-06-14 06:09
   • "技能：设计项目MVP拆解法"  ≈  "技能：设计项目里程碑拆解法"  (dist=3)
     30_wiki/concepts/skill-月白-设计项目MVP拆解法.md
     30_wiki/concepts/skill-月白-设计项目里程碑拆解法.md
-  • "skill-水水-识别数据折磨陷阱"  ≈  "skill-水水-识别自证预言陷阱"  (dist=4)
-    30_wiki/concepts/skill-水水-识别数据折磨陷阱.md
-    30_wiki/concepts/skill-水水-识别自证预言陷阱.md
-  • "skill-纪浩-低成本输出验证法"  ≈  "skill-纪浩-里程碑验证法"  (dist=5)
-    30_wiki/concepts/skill-纪浩-低成本输出验证法.md
-    30_wiki/concepts/skill-纪浩-里程碑验证法.md
   • "技能：辩证讨论法"  ≈  "技能：辩证讨论深化"  (dist=2)
     30_wiki/concepts/skill-辩证讨论法.md
     30_wiki/concepts/skill-辩证讨论深化.md
-  • "skill-马易-AI落地前置条件验证"  ≈  "skill-马易-AI落地四阶段验证法"  (dist=5)
-    30_wiki/concepts/skill-马易-AI落地前置条件验证.md
-    30_wiki/concepts/skill-马易-AI落地四阶段验证法.md
-  • "skill-马易-AI落地场景识别-拆工作流找场景"  ≈  "skill-马易-AI落地场景识别与拆分"  (dist=7)
-    30_wiki/concepts/skill-马易-AI落地场景识别-拆工作流找场景.md
-    30_wiki/concepts/skill-马易-AI落地场景识别与拆分.md
-  • "skill-马易-平台模式验证法"  ≈  "skill-马易-需求创造验证法"  (dist=4)
-    30_wiki/concepts/skill-马易-平台模式验证法.md
-    30_wiki/concepts/skill-马易-需求创造验证法.md
   • "一堂五步法"  ≈  "一堂五步法总纲"  (dist=2)
     30_wiki/concepts/yt-entrepreneur-five-step-method.md
     30_wiki/concepts/yt-five-step-method.md
+  • "Y模型/科学方法"  ≈  "Y模型/科学决策"  (dist=2)
+    30_wiki/concepts/yt-entrepreneur-scientific-method.md
+    30_wiki/concepts/yt-management-scientific-decision.md
   • "泛产品设计·审美工具箱（4张卡牌）"  ≈  "泛产品设计·需求工具箱（13张卡牌）"  (dist=4)
     30_wiki/concepts/yt-model-pan-product-aesthetic-toolkit.md
     30_wiki/concepts/yt-model-pan-product-demand-toolkit.md
@@ -2856,110 +2943,1380 @@ KDO 健康巡检 — 2026-06-14 06:09
     30_wiki/concepts/yt-panproduct-execution-war-room.md
 
 --- 记忆文件过期 ---
-  • corrections.md  (24d old, max 14d)
-    建议: 审查纠正记录：是否有已修复的 bug 可以标记为已解决
-  • LATEST_SESSION.md  (36d old, max 2d)
+  • LATEST_SESSION.md  (37d old, max 2d)
     建议: 更新最近会话摘要（上次任务、待办清单、关键决策）
-  • user-preferences.md  (36d old, max 30d)
+  • corrections.md  (25d old, max 14d)
+    建议: 审查纠正记录：是否有已修复的 bug 可以标记为已解决
+  • user-preferences.md  (37d old, max 30d)
     建议: 审查用户偏好：是否有新偏好、新工具、新工作流需要记录
 
 ## Detector A: 新卡健康度
+  [WARN] 2026-05-17-深夜感想.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] ai-collaboration-mindset-shift.md: title is empty
+  [FAIL] ai-collaboration-mindset-shift.md: domain not a list: NoneType
+  [WARN] ai-hackathon-pitches.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] ai-landing-scene-selection.md: title is empty
+  [FAIL] ai-landing-scene-selection.md: domain not a list: NoneType
+  [FAIL] ai-learning-closed-loop.md: title is empty
+  [FAIL] ai-learning-closed-loop.md: domain not a list: NoneType
+  [WARN] ai-native-im-multi-agent.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] ai-short-drama-ice-fire-scripting-compass.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] ai-short-drama-ice-fire-scripting-compass.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
+  [WARN] ai-short-drama-platform-policy-comparison.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ai-short-drama-platform-policy-comparison.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
+  [FAIL] ai-俱乐部人和-ai-协作-五层结构.md: domain not a list: NoneType
+  [WARN] ai-俱乐部人和-ai-协作-五层结构.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md: domain not a list: NoneType
+  [WARN] ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] aigc文创案例设计课leo文创ip从0到1全流程.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] aigc设计基础01ai生图原理与提示词基本功.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] aima-ai思维卡-外部链接归档.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ai单元模型口述蒋老师.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ai数据理解第一课.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ai时代判断力口述-3.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ai时代判断力口述.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] anthropic-官方发布创始人手册打造-ai-原生初创公司.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] business-analysis.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] business-research-skill-oscar-13-weapon-system.md: source_refs is empty
+  [WARN] business-validation-models-collaboration.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] concept-ai-native-organization-five-steps.md: title is empty
   [WARN] concept-ai-native-organization-five-steps.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] concept-five-step-growth-to-barrier-transition.md: all outbound links stay in same domain {'yitang'}
+  [WARN] concept-smart-medicine-cabinet-consumer-acceptance.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] concept-smart-medicine-cabinet-digital-pharmacy-diagnosis.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] concept-smart-medicine-cabinet-international-models.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] concept-smart-medicine-cabinet-platform-cooperation-validation.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] concept-smart-medicine-cabinet-supply-chain-validation.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] concept-thousand-people-square.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] concept-纪浩-ai-collaboration-five-layer.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] concept-纪浩-ai-collaboration-five-layer.md: all outbound links stay in same domain {'yitang', 'ai-collaboration'}
-  [FAIL] ocr-一堂-人机协作-双三角模型.md: id is empty
+  [FAIL] contingency-decision-making.md: title is empty
+  [FAIL] contingency-decision-making.md: domain not a list: NoneType
+  [FAIL] course-to-skill-conversion.md: title is empty
+  [FAIL] course-to-skill-conversion.md: domain not a list: NoneType
+  [WARN] course-to-skill-conversion.md: diagnostic_signals missing (type=tool)
+  [WARN] data-labeling-best-practices-report.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] deepseek-v4-在知识管理系统中的应用.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] design-ai-image-generation.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ec工业化规范手册-v2.8.0.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] EC工业化规范手册.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] fd-forward-deployment.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] finance-legal-business-operations.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] find-old-do-small.md: title is empty
+  [FAIL] find-old-do-small.md: domain not a list: NoneType
+  [WARN] find-old-do-small.md: diagnostic_signals missing (type=tool)
+  [WARN] graph-rag.md: source_refs is empty
+  [WARN] graph-rag.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] graph-rag.md: all outbound links stay in same domain {"['ai-saas']"}
+  [WARN] HIS系统开发实现方案-架构师指南.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] HIS系统深度调研.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] industry-ai-cases.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] kdo-flywheel.md: source_refs is empty
+  [WARN] kdo-flywheel.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] kdo-yaml-frontmatter-safety.md: source_refs is empty
+  [WARN] kdo-yaml-frontmatter-safety.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] kdo_product_design_agent_final.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] kimi-深度调研集群方法论-deep-research-swarm.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] kimi-深度调研集群方法论-deep-research-swarm.md: all outbound links stay in same domain {"['ai-saas']"}
+  [WARN] knowledge-delivery-os-快速体验指南-飞书云文档.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] knowledge-error-self-exposure.md: source_refs is empty
+  [WARN] knowledge-error-self-exposure.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] knowledge-error-self-exposure.md: all outbound links stay in same domain {'master'}
+  [WARN] learning-thinking.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] master-ai-info-literacy.md: diagnostic_signals missing (type=framework)
+  [WARN] master-ai-info-literacy.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] master-antifragile-checklist.md: source_refs is empty
+  [WARN] master-antifragile-checklist.md: diagnostic_signals missing (type=tool)
+  [WARN] master-antifragile-checklist.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] master-cognitive-bias-checklist.md: diagnostic_signals missing (type=tool)
+  [WARN] master-cognitive-bias-checklist.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] master-decision-hygiene.md: diagnostic_signals missing (type=framework)
+  [WARN] master-decision-hygiene.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] master-first-principles.md: diagnostic_signals missing (type=tool)
+  [WARN] master-first-principles.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] master-knowledge-compound.md: source_refs is empty
+  [WARN] master-knowledge-compound.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] master-systems-thinking.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] meta-prompt-eng.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] modeling-capability-system.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] modeling-capability-system.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
+  [WARN] modeling-three-values.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md: domain not a list: NoneType
+  [WARN] ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md: domain not a list: NoneType
+  [WARN] ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-ocr_screenshot2.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-ocr_snipaste_2026-05-15_21-39-40.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-screenshot1.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-screenshot2.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-truman的个人成长五步法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-truman的选择两条职业成长路线.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] ocr-一堂-ai学习-truman自用的ai-featureset.md: domain not a list: NoneType
+  [WARN] ocr-一堂-ai学习-truman自用的ai-featureset.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] ocr-一堂-ai学习-提问工程化.md: domain not a list: NoneType
+  [WARN] ocr-一堂-ai学习-提问工程化.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] ocr-一堂-ai学习-提问进化路线图.md: domain not a list: NoneType
+  [WARN] ocr-一堂-ai学习-提问进化路线图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] ocr-一堂-ai清单体笔记系统故事线-truman-图片01.md: domain not a list: NoneType
+  [WARN] ocr-一堂-ai清单体笔记系统故事线-truman-图片01.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md: domain not a list: NoneType
+  [WARN] ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] ocr-一堂-tcpr模型-皇冠模型.md: domain not a list: NoneType
+  [WARN] ocr-一堂-tcpr模型-皇冠模型.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-个人修炼-y模型.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-个人修炼-y模型.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-个人修炼-全景图muse模型.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-个人修炼-全景图muse模型.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-个人修炼-双三角模型.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-个人修炼-双三角模型.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-个人修炼-提问刻意练习画布.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-个人修炼-提问刻意练习画布.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-个人修炼-科学学习ipo-全景策略.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-个人修炼-科学学习ipo-全景策略.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-个人修炼-科学学习ipo完整清单.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-个人修炼-科学学习ipo完整清单.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-个人修炼-科学学习ipo模型.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-个人修炼-科学提问刻意练习.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-个人修炼-科学提问刻意练习.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-个人修炼-表达力火箭模型-执行武器库.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-个人修炼-表达力火箭模型.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-个人修炼-解放思想.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-个人修炼-解放思想.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-个人修炼-讲香十指模型-超级武器库.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-个人修炼-讲香十指模型-超级武器库.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-个人修炼-讲香基本功-十指模型修炼地图.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-个人修炼-讲香基本功.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-个人修炼-讲香基本功.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-个人修炼-课程清单.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-个人修炼-课程清单.md: all outbound links stay in same domain {'yitang'}
+  [FAIL] ocr-一堂-人机协作-双三角模型.md: domain not a list: NoneType
   [WARN] ocr-一堂-人机协作-双三角模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-创业必修-课程清单.md: id is empty
+  [FAIL] ocr-一堂-创业必修-课程清单.md: domain not a list: NoneType
   [WARN] ocr-一堂-创业必修-课程清单.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-abcd策略模型.md: id is empty
+  [FAIL] ocr-一堂-单元模型-abcd策略模型.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-abcd策略模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-tcpr底层网络协议.md: id is empty
+  [FAIL] ocr-一堂-单元模型-tcpr底层网络协议.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-tcpr底层网络协议.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-修炼地图.md: id is empty
+  [FAIL] ocr-一堂-单元模型-修炼地图.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-修炼地图.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-动态预测.md: id is empty
+  [FAIL] ocr-一堂-单元模型-动态预测.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-动态预测.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-单sku模型.md: id is empty
+  [FAIL] ocr-一堂-单元模型-单sku模型.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-单sku模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-单商圈模型.md: id is empty
+  [FAIL] ocr-一堂-单元模型-单商圈模型.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-单商圈模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-单城市模型.md: id is empty
+  [FAIL] ocr-一堂-单元模型-单城市模型.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-单城市模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-单客户模型.md: id is empty
+  [FAIL] ocr-一堂-单元模型-单客户模型.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-单客户模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-单履约模型.md: id is empty
+  [FAIL] ocr-一堂-单元模型-单履约模型.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-单履约模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-单柜子模型.md: id is empty
+  [FAIL] ocr-一堂-单元模型-单柜子模型.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-单柜子模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-单用户模型.md: id is empty
+  [FAIL] ocr-一堂-单元模型-单用户模型.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-单用户模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-单订单模型.md: id is empty
+  [FAIL] ocr-一堂-单元模型-单订单模型.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-单订单模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-单销售模型.md: id is empty
+  [FAIL] ocr-一堂-单元模型-单销售模型.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-单销售模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-单门店模型.md: id is empty
+  [FAIL] ocr-一堂-单元模型-单门店模型.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-单门店模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-基准值.md: id is empty
+  [FAIL] ocr-一堂-单元模型-基准值.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-基准值.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-壁垒预判.md: id is empty
+  [FAIL] ocr-一堂-单元模型-壁垒预判.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-壁垒预判.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-外部对抗地图.md: id is empty
+  [FAIL] ocr-一堂-单元模型-外部对抗地图.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-外部对抗地图.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-多模型情况.md: id is empty
+  [FAIL] ocr-一堂-单元模型-多模型情况.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-多模型情况.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-学练用.md: id is empty
+  [FAIL] ocr-一堂-单元模型-学练用.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-学练用.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-对抗小抄.md: id is empty
+  [FAIL] ocr-一堂-单元模型-对抗小抄.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-对抗小抄.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-对抗小抄01.md: id is empty
+  [FAIL] ocr-一堂-单元模型-对抗小抄01.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-对抗小抄01.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-对抗小抄02.md: id is empty
+  [FAIL] ocr-一堂-单元模型-对抗小抄02.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-对抗小抄02.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-扭蛋机案例.md: id is empty
+  [FAIL] ocr-一堂-单元模型-扭蛋机案例.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-扭蛋机案例.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-找全成本实操难点.md: id is empty
+  [FAIL] ocr-一堂-单元模型-找全成本实操难点.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-找全成本实操难点.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-找单元模型实操难点.md: id is empty
+  [FAIL] ocr-一堂-单元模型-找单元模型实操难点.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-找单元模型实操难点.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-找基准值实操难点.md: id is empty
+  [FAIL] ocr-一堂-单元模型-找基准值实操难点.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-找基准值实操难点.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-斧子尺子梯子.md: id is empty
+  [FAIL] ocr-一堂-单元模型-斧子尺子梯子.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-斧子尺子梯子.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-斧子尺子梯子详解.md: id is empty
+  [FAIL] ocr-一堂-单元模型-斧子尺子梯子详解.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-斧子尺子梯子详解.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-最简单元模型.md: id is empty
+  [FAIL] ocr-一堂-单元模型-最简单元模型.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-最简单元模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-段位专家.md: id is empty
+  [FAIL] ocr-一堂-单元模型-段位专家.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-段位专家.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-示例01.md: id is empty
+  [FAIL] ocr-一堂-单元模型-示例.md: domain not a list: NoneType
+  [WARN] ocr-一堂-单元模型-示例.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] ocr-一堂-单元模型-示例01.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-示例01.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-规模对抗实操难点.md: id is empty
+  [FAIL] ocr-一堂-单元模型-规模对抗实操难点.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-规模对抗实操难点.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-规模经济对抗武器库.md: id is empty
+  [FAIL] ocr-一堂-单元模型-规模经济对抗武器库.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-规模经济对抗武器库.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-单元模型-象限分析法.md: id is empty
+  [FAIL] ocr-一堂-单元模型-象限分析法.md: domain not a list: NoneType
   [WARN] ocr-一堂-单元模型-象限分析法.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-科学决策-x型y型决策习惯对比.md: id is empty
+  [WARN] ocr-一堂-地图-个人地图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-地图-个人地图.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-地图-个人地图_conv.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-地图-个人地图_conv.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-地图-创业地图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-地图-创业地图_conv.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-地图-创业地图_conv.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-地图-管理地图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-地图-管理地图.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-地图-管理地图_conv.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-地图-管理地图_conv.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-案例拆解-课程清单.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-案例拆解-课程清单.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-泛产品设计-十年苦练30招.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-泛产品设计-十年苦练30招.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-科学决策-roi决策评估画布-案例01.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-roi决策评估画布-案例02.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-roi决策评估画布-案例03.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-roi决策评估画布-案例04.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-roi决策评估画布.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] ocr-一堂-科学决策-roi高阶训练全景图.md: domain not a list: NoneType
+  [WARN] ocr-一堂-科学决策-roi高阶训练全景图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] ocr-一堂-科学决策-x型y型决策习惯对比.md: domain not a list: NoneType
   [WARN] ocr-一堂-科学决策-x型y型决策习惯对比.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-科学决策-决策三角形.md: id is empty
+  [WARN] ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-人机协作决策.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-人机协作决策.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-科学决策-关键假设abcd模型.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-关键假设abcd模型.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-科学决策-关键训练清单重要.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] ocr-一堂-科学决策-决策三角形.md: domain not a list: NoneType
   [WARN] ocr-一堂-科学决策-决策三角形.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-科学决策-高水平共识曲线重要.md: id is empty
+  [WARN] ocr-一堂-科学决策-发现决策.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-商业模式-完整财务公式决策.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-宽度-个人.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-宽度-企业.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-宽度-团队.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-深度-l1优先级定性.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-深度-l2部分定量.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-深度-l3定量公式.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-深度-l4-案例01.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-深度-l4严格财务公式.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-深度-决策经验值.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-深度-案例01.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-深度-案例02.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-深度-案例03.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-深度-案例04.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-深度-案例05.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-深度-案例06.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-稀缺机会窗口.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-稀缺资源清单.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-项目方案评估三角形.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-科学决策-项目方案评估三角形.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂-科学决策-高度-两种典型的思考习惯.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] ocr-一堂-科学决策-高水平共识曲线重要.md: domain not a list: NoneType
   [WARN] ocr-一堂-科学决策-高水平共识曲线重要.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂-高阶体系探索营-三种咨询可能性.md: id is empty
+  [WARN] ocr-一堂-管理必修-课程清单.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂-管理必修-课程清单.md: all outbound links stay in same domain {'yitang'}
+  [FAIL] ocr-一堂-高阶体系探索营-三种咨询可能性.md: domain not a list: NoneType
   [WARN] ocr-一堂-高阶体系探索营-三种咨询可能性.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] ocr-一堂doc-单元模型-十大单元模型.md: id is empty
+  [FAIL] ocr-一堂doc-单元模型-十大单元模型.md: domain not a list: NoneType
   [WARN] ocr-一堂doc-单元模型-十大单元模型.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] sales-pitch-bias-patterns.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] skill-ai-problem-question-check.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂y模型-科学成事道理.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂y模型steps策略集.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂y模型steps策略集.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂y模型实操工作流.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂y模型实操工作流.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂个人地图高潜力成长者修炼全景图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂五步法-产品内核画布.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂五步法-产品内核画布.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂五步法画布.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂五步法画布.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂产品内核-十大典型指标.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂刻意练习十年成长指数.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂提炼过的因果模型.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂最佳转化率动力曲线图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂泛产品设计-十年修炼爬山地图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂泛产品设计-十年修炼爬山地图.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂泛产品设计-多出牌多练习.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂泛产品设计-多出牌多练习.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂泛产品设计36计-全套地图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂泛产品设计36计-全套地图.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂深度复盘冰山图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂深度复盘冰山图.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-一堂转化率-10大容易浪费的触点.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂进步大地图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-一堂进步大地图_compressed.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-优秀泛产品设计者的自我修养.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-婚礼操盘-用户和场景.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-婚礼规划.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-审美提升的层级.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-审美提升的层级.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-微信图片_20260507004746_32_32.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-微信图片_20260507004751_33_32.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-微信图片_20260507004755_34_32.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-微信图片_20260507004758_35_32.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-微信图片_20260507004801_37_32.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-微信图片_20260507004802_38_32.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-微信图片_20260507004804_39_32.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-微信图片_20260507004806_40_32.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-微信图片_20260507004811_41_32.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-审美卡片-最佳实践建模.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-审美卡片-最佳实践收集.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-审美卡片-最佳实践池子.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-审美卡片-美好作品想象.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-审美工具箱指南.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-审美工具箱指南.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-泛产品设计-用户卡片-一堂五步法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-用户卡片-动力阻力.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-用户卡片-场景推演.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-用户卡片-多视角思考.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-用户卡片-峰终定律.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-用户卡片-惊喜公式.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-用户卡片-用户分层.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-用户卡片-用户视角.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-用户卡片-行业分析画布.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-用户卡片-需求挖掘.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-用户卡片-项目背景分析.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-roi分析.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-业务建模.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-低成本测试mvp.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-假设拆解.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-内核和边界.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-努力仿真.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-十倍速验证.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-善用佳软.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-复盘迭代.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-攻坚会.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-灵感闪现.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-管理三段论.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-解放思想.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-设计原则.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-逻辑mece.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-酝酿式打磨.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-里程碑拆解.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-落地卡片-风险管理.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-需求工具箱指南.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计-需求工具箱指南.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-泛产品设计的应用场景示意图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计的应用场景示意图.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-泛产品设计者的三大自我修养.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计者的三大自我修养.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-泛产品设计者的自我修养.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计者的自我修养.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-泛产品设计落地工具篇指南.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-泛产品设计落地篇.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-萃取总结.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-萃取总结.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-顶级产品追求的方向-乔布斯.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-顶级产品追求的方向-乔布斯.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-项目背景问题思考的8个维度.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ocr-项目背景问题思考的8个维度.md: all outbound links stay in same domain {'yitang'}
+  [WARN] ocr-预判模型.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] paddleocr-skill.md: source_refs is empty
+  [WARN] personal-growth-complex-systems.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] pilot-atomic-chunk-comparison.md: domain not a list: NoneType
+  [WARN] pilot-atomic-chunk-comparison.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] prd-as-ai-instruction.md: title is empty
+  [FAIL] prd-as-ai-instruction.md: domain not a list: NoneType
+  [WARN] prd-as-ai-instruction.md: diagnostic_signals missing (type=tool)
+  [WARN] product-business-strategy.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] product-ux.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] research_methodology.md: source_refs is empty
+  [WARN] research_methodology.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-1视角升级思考法.md: domain not a list: NoneType
+  [WARN] skill-1视角升级思考法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-ai-ai-workspace-setup.md: domain not a list: str
+  [WARN] skill-ai-ai-workspace-setup.md: source_refs is empty
+  [WARN] skill-ai-ai-workspace-setup.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-ai-evidence-check.md: domain not a list: str
+  [WARN] skill-ai-evidence-check.md: source_refs is empty
+  [WARN] skill-ai-evidence-check.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-ai-four-elements-validation.md: missing or unparseable frontmatter
+  [FAIL] skill-ai-info-literacy-three-layer.md: missing or unparseable frontmatter
+  [FAIL] skill-ai-landing-five-steps.md: missing or unparseable frontmatter
+  [FAIL] skill-ai-narrative-test.md: domain not a list: str
+  [WARN] skill-ai-narrative-test.md: source_refs is empty
+  [WARN] skill-ai-narrative-test.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-ai-old-small-checklist.md: domain not a list: str
+  [WARN] skill-ai-old-small-checklist.md: source_refs is empty
+  [WARN] skill-ai-old-small-checklist.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-ai-oral-spray-input.md: domain not a list: str
+  [WARN] skill-ai-oral-spray-input.md: source_refs is empty
+  [WARN] skill-ai-oral-spray-input.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-ai-parallel-validation.md: domain not a list: str
+  [WARN] skill-ai-parallel-validation.md: source_refs is empty
+  [WARN] skill-ai-parallel-validation.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-ai-prd-for-ai.md: domain not a list: str
+  [WARN] skill-ai-prd-for-ai.md: source_refs is empty
+  [WARN] skill-ai-prd-for-ai.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-ai-problem-question-check.md: missing or unparseable frontmatter
+  [FAIL] skill-ai-problem-validation.md: domain not a list: str
+  [WARN] skill-ai-problem-validation.md: source_refs is empty
+  [WARN] skill-ai-problem-validation.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-ai-purpose-bias-check.md: domain not a list: str
+  [WARN] skill-ai-purpose-bias-check.md: source_refs is empty
+  [WARN] skill-ai-purpose-bias-check.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-ai-research-five-steps.md: missing or unparseable frontmatter
+  [FAIL] skill-ai-scene-four-elements.md: missing or unparseable frontmatter
+  [FAIL] skill-ai-system-redundancy.md: domain not a list: str
+  [WARN] skill-ai-system-redundancy.md: source_refs is empty
+  [WARN] skill-ai-system-redundancy.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-ai-voice-input-doubao.md: domain not a list: str
+  [WARN] skill-ai-voice-input-doubao.md: source_refs is empty
+  [WARN] skill-ai-voice-input-doubao.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-ai辅助学习.md: domain not a list: NoneType
+  [WARN] skill-ai辅助学习.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-cognitive-bias-12-check.md: missing or unparseable frontmatter
+  [FAIL] skill-decision-delay-intuition.md: missing or unparseable frontmatter
+  [WARN] skill-decision-outside-view.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-first-principles-assumption-classify.md: missing or unparseable frontmatter
+  [WARN] skill-mece体系框架法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-mece体系框架法.md: all outbound links stay in same domain {'learning-methodology', 'yitang'}
+  [FAIL] skill-react行动推理循环.md: domain not a list: NoneType
+  [WARN] skill-react行动推理循环.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-AI场景探索STAR模型.md: domain not a list: str
+  [WARN] skill-Truman-AI场景探索STAR模型.md: source_refs is empty
+  [WARN] skill-Truman-AI场景探索STAR模型.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-AI工具选型决策.md: domain not a list: str
+  [WARN] skill-Truman-AI工具选型决策.md: source_refs is empty
+  [WARN] skill-Truman-AI工具选型决策.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-AI时代IPO模型重构.md: domain not a list: str
+  [WARN] skill-Truman-AI时代IPO模型重构.md: source_refs is empty
+  [WARN] skill-Truman-AI时代IPO模型重构.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-AI时代提示词优化法.md: domain not a list: str
+  [WARN] skill-Truman-AI时代提示词优化法.md: source_refs is empty
+  [WARN] skill-Truman-AI时代提示词优化法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-AI能力分层学习路径.md: domain not a list: str
+  [WARN] skill-Truman-AI能力分层学习路径.md: source_refs is empty
+  [WARN] skill-Truman-AI能力分层学习路径.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-AI辅助思考伙伴养成.md: domain not a list: str
+  [WARN] skill-Truman-AI辅助思考伙伴养成.md: source_refs is empty
+  [WARN] skill-Truman-AI辅助思考伙伴养成.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-AI输出审慎判断与交付确认.md: domain not a list: str
+  [WARN] skill-Truman-AI输出审慎判断与交付确认.md: source_refs is empty
+  [WARN] skill-Truman-AI输出审慎判断与交付确认.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-Feature特性层训练法.md: domain not a list: str
+  [WARN] skill-Truman-Feature特性层训练法.md: source_refs is empty
+  [WARN] skill-Truman-Feature特性层训练法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-Skill全生命周期管理.md: domain not a list: str
+  [WARN] skill-Truman-Skill全生命周期管理.md: source_refs is empty
+  [WARN] skill-Truman-Skill全生命周期管理.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-XY-Problem识别与真实问题定位.md: domain not a list: str
+  [WARN] skill-Truman-XY-Problem识别与真实问题定位.md: source_refs is empty
+  [WARN] skill-Truman-XY-Problem识别与真实问题定位.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-上下文质量管理（AI协作）.md: domain not a list: str
+  [WARN] skill-Truman-上下文质量管理（AI协作）.md: source_refs is empty
+  [WARN] skill-Truman-上下文质量管理（AI协作）.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-个人判断力系统建设（达克效应应对）.md: domain not a list: str
+  [WARN] skill-Truman-个人判断力系统建设（达克效应应对）.md: source_refs is empty
+  [WARN] skill-Truman-个人判断力系统建设（达克效应应对）.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-人在环渐进自动化策略.md: domain not a list: str
+  [WARN] skill-Truman-人在环渐进自动化策略.md: source_refs is empty
+  [WARN] skill-Truman-人在环渐进自动化策略.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-低质量动作识别与拒绝.md: domain not a list: str
+  [WARN] skill-Truman-低质量动作识别与拒绝.md: source_refs is empty
+  [WARN] skill-Truman-低质量动作识别与拒绝.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-信息输入持续补全（防AI错误累积）.md: domain not a list: str
+  [WARN] skill-Truman-信息输入持续补全（防AI错误累积）.md: source_refs is empty
+  [WARN] skill-Truman-信息输入持续补全（防AI错误累积）.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-判断力产品化与系统赋能.md: domain not a list: str
+  [WARN] skill-Truman-判断力产品化与系统赋能.md: source_refs is empty
+  [WARN] skill-Truman-判断力产品化与系统赋能.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-双三角模型应用.md: domain not a list: str
+  [WARN] skill-Truman-双三角模型应用.md: source_refs is empty
+  [WARN] skill-Truman-双三角模型应用.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-复杂项目AI落地稳定性保障.md: domain not a list: str
+  [WARN] skill-Truman-复杂项目AI落地稳定性保障.md: source_refs is empty
+  [WARN] skill-Truman-复杂项目AI落地稳定性保障.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-多Agent通信协作方案.md: domain not a list: str
+  [WARN] skill-Truman-多Agent通信协作方案.md: source_refs is empty
+  [WARN] skill-Truman-多Agent通信协作方案.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-开源模型与商业模型融合方案.md: domain not a list: str
+  [WARN] skill-Truman-开源模型与商业模型融合方案.md: source_refs is empty
+  [WARN] skill-Truman-开源模型与商业模型融合方案.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-技术社区严肃提问法.md: domain not a list: str
+  [WARN] skill-Truman-技术社区严肃提问法.md: source_refs is empty
+  [WARN] skill-Truman-技术社区严肃提问法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-提示词优化底层方法.md: domain not a list: str
+  [WARN] skill-Truman-提示词优化底层方法.md: source_refs is empty
+  [WARN] skill-Truman-提示词优化底层方法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-数学题与语文题区分法.md: domain not a list: str
+  [WARN] skill-Truman-数学题与语文题区分法.md: source_refs is empty
+  [WARN] skill-Truman-数学题与语文题区分法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-本地记忆与云端记忆管理.md: domain not a list: str
+  [WARN] skill-Truman-本地记忆与云端记忆管理.md: source_refs is empty
+  [WARN] skill-Truman-本地记忆与云端记忆管理.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-知识库最佳实践构建.md: domain not a list: str
+  [WARN] skill-Truman-知识库最佳实践构建.md: source_refs is empty
+  [WARN] skill-Truman-知识库最佳实践构建.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-短视频自动化上传工作流.md: domain not a list: str
+  [WARN] skill-Truman-短视频自动化上传工作流.md: source_refs is empty
+  [WARN] skill-Truman-短视频自动化上传工作流.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-科学提问法.md: domain not a list: str
+  [WARN] skill-Truman-科学提问法.md: source_refs is empty
+  [WARN] skill-Truman-科学提问法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-职场异步协作提问法.md: domain not a list: str
+  [WARN] skill-Truman-职场异步协作提问法.md: source_refs is empty
+  [WARN] skill-Truman-职场异步协作提问法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-语义对齐沟通法.md: domain not a list: str
+  [WARN] skill-Truman-语义对齐沟通法.md: source_refs is empty
+  [WARN] skill-Truman-语义对齐沟通法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-Truman-问题定义澄清法.md: domain not a list: str
+  [WARN] skill-Truman-问题定义澄清法.md: source_refs is empty
+  [WARN] skill-Truman-问题定义澄清法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-一堂-business-prediction-15-char.md: all outbound links stay in same domain {'yitang', 'product'}
+  [WARN] skill-一堂-kernel-three-questions.md: all outbound links stay in same domain {'yitang', 'product'}
+  [WARN] skill-一堂-product-kernel-canvas.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-一堂-product-kernel-canvas.md: all outbound links stay in same domain {'yitang', 'product-strategy'}
+  [WARN] skill-一堂-spectrum-positioning.md: all outbound links stay in same domain {'yitang', 'product'}
+  [WARN] skill-三层目标对齐法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-三阶追问法穷尽决策要素.md: domain not a list: NoneType
+  [WARN] skill-三阶追问法穷尽决策要素.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-专家访谈十步法.md: domain not a list: NoneType
+  [WARN] skill-专家访谈十步法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-专家访谈学习.md: domain not a list: NoneType
+  [WARN] skill-专家访谈学习.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-专题笔记整理.md: domain not a list: NoneType
+  [WARN] skill-专题笔记整理.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-专题笔记脑图整理法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-专题笔记脑图整理法.md: all outbound links stay in same domain {'learning-methodology', 'yitang'}
+  [FAIL] skill-主动摘要压缩上下文.md: domain not a list: NoneType
+  [WARN] skill-主动摘要压缩上下文.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-人生红点战略对齐.md: domain not a list: NoneType
+  [WARN] skill-人生红点战略对齐.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-从案例中学习.md: domain not a list: NoneType
+  [WARN] skill-从案例中学习.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-从案例中学习正反案例法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-从案例中学习正反案例法.md: all outbound links stay in same domain {'learning-methodology', 'yitang'}
+  [FAIL] skill-代入场景推演要素法.md: domain not a list: NoneType
+  [WARN] skill-代入场景推演要素法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-任务拆解为工作流.md: domain not a list: NoneType
+  [WARN] skill-任务拆解为工作流.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-体系框架构建.md: domain not a list: NoneType
+  [WARN] skill-体系框架构建.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-使用优先级快筛卡锁定核心矛盾.md: domain not a list: NoneType
+  [WARN] skill-使用优先级快筛卡锁定核心矛盾.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-使用概念辨析卡区分易混淆概念.md: domain not a list: NoneType
+  [WARN] skill-使用概念辨析卡区分易混淆概念.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-六维窗口期扫描法.md: domain not a list: NoneType
+  [WARN] skill-六维窗口期扫描法.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] skill-分享输出检验法.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] skill-分享输出检验法.md: all outbound links stay in same domain {'yitang', 'learning-methodology'}
+  [WARN] skill-分享输出检验法.md: all outbound links stay in same domain {'learning-methodology', 'yitang'}
+  [FAIL] skill-分层标注重点信息.md: domain not a list: NoneType
+  [WARN] skill-分层标注重点信息.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-创始人二当家分工协作模式.md: domain not a list: NoneType
+  [WARN] skill-创始人二当家分工协作模式.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-制作行业化要素检查清单.md: domain not a list: NoneType
+  [WARN] skill-制作行业化要素检查清单.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-动手建模提炼.md: domain not a list: NoneType
+  [WARN] skill-动手建模提炼.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-动手建模法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-动手建模法.md: all outbound links stay in same domain {'learning-methodology', 'yitang'}
+  [FAIL] skill-区分获客渠道计算单元roi.md: domain not a list: NoneType
+  [WARN] skill-区分获客渠道计算单元roi.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-半肥猫-ai-research-validation.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-半肥猫-ai-research-validation.md: all outbound links stay in same domain {'yitang', 'ai-collaboration'}
+  [WARN] skill-半肥猫-course-to-skill-workflow.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-半肥猫-判断课程是否值得做成Skill.md: all outbound links stay in same domain {'yitang', 'ai-collaboration'}
+  [FAIL] skill-反向提示获取优化建议.md: domain not a list: NoneType
+  [WARN] skill-反向提示获取优化建议.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-反向教学深化理解.md: domain not a list: NoneType
+  [WARN] skill-反向教学深化理解.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-反向记录整理思路.md: domain not a list: NoneType
+  [WARN] skill-反向记录整理思路.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-反向采访挖掘深度.md: domain not a list: NoneType
+  [WARN] skill-反向采访挖掘深度.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-四层联系建立法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-四层联系建立法.md: all outbound links stay in same domain {'learning-methodology', 'yitang'}
+  [FAIL] skill-城市合伙人模式复制能力.md: domain not a list: NoneType
+  [WARN] skill-城市合伙人模式复制能力.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-增强数据供给.md: domain not a list: NoneType
+  [WARN] skill-增强数据供给.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-复盘推演法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-复盘推演法.md: all outbound links stay in same domain {'learning-methodology', 'yitang'}
+  [FAIL] skill-复盘推演练习.md: domain not a list: NoneType
+  [WARN] skill-复盘推演练习.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-多模型对比抽卡.md: domain not a list: NoneType
+  [WARN] skill-多模型对比抽卡.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-多源输入法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-多源输入法.md: all outbound links stay in same domain {'learning-methodology', 'yitang'}
+  [FAIL] skill-多轮确认防偏差.md: domain not a list: NoneType
+  [WARN] skill-多轮确认防偏差.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-对标借鉴他人决策维度.md: domain not a list: NoneType
+  [WARN] skill-对标借鉴他人决策维度.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-寻找学习教练法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-寻找学习教练法.md: all outbound links stay in same domain {'learning-methodology', 'yitang'}
+  [FAIL] skill-封装可复用skill.md: domain not a list: NoneType
+  [WARN] skill-封装可复用skill.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-将未中标成本纳入循环计算真实投标成本.md: domain not a list: NoneType
+  [WARN] skill-将未中标成本纳入循环计算真实投标成本.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-应用人员降级公式实现标准化.md: domain not a list: NoneType
+  [WARN] skill-应用人员降级公式实现标准化.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-建立知识联系.md: domain not a list: NoneType
+  [WARN] skill-建立知识联系.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-建立策略-要素映射表设计对抗策略.md: domain not a list: NoneType
+  [WARN] skill-建立策略-要素映射表设计对抗策略.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-快招品牌总部模拟调研.md: domain not a list: NoneType
+  [WARN] skill-快招品牌总部模拟调研.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-思维链显化推理.md: domain not a list: NoneType
+  [WARN] skill-思维链显化推理.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-思维验证交叉检验.md: domain not a list: NoneType
+  [WARN] skill-思维验证交叉检验.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-执行对标研究三步法.md: domain not a list: NoneType
+  [WARN] skill-执行对标研究三步法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-按分阶练习路径渐进掌握方法.md: domain not a list: NoneType
+  [WARN] skill-按分阶练习路径渐进掌握方法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-按图索骥改良外部模板.md: domain not a list: NoneType
+  [WARN] skill-按图索骥改良外部模板.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-按月份摊销收入成本做计划.md: domain not a list: NoneType
+  [WARN] skill-按月份摊销收入成本做计划.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-推行分层标准化策略.md: domain not a list: NoneType
+  [WARN] skill-推行分层标准化策略.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-提升笔记练习频次的方法.md: domain not a list: NoneType
+  [WARN] skill-提升笔记练习频次的方法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-提示词结构化迭代.md: domain not a list: NoneType
+  [WARN] skill-提示词结构化迭代.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-敏捷发布快速迭代搭建体系.md: domain not a list: NoneType
+  [WARN] skill-敏捷发布快速迭代搭建体系.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-数据分层供给.md: domain not a list: NoneType
+  [WARN] skill-数据分层供给.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-80分效率设计策略.md: source_refs is empty
+  [WARN] skill-月白-80分效率设计策略.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-A-B双轨反推模式选择.md: source_refs is empty
+  [WARN] skill-月白-A-B双轨反推模式选择.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AIGC产品白底图制作.md: source_refs is empty
+  [WARN] skill-月白-AIGC产品白底图制作.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AIGC人群画像驱动详情页规划.md: source_refs is empty
+  [WARN] skill-月白-AIGC人群画像驱动详情页规划.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AIGC反向拆解法.md: source_refs is empty
+  [WARN] skill-月白-AIGC反向拆解法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AIGC文字大小精确控制.md: source_refs is empty
+  [WARN] skill-月白-AIGC文字大小精确控制.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AIGC模型选型决策法.md: source_refs is empty
+  [WARN] skill-月白-AIGC模型选型决策法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AIGC橱窗陈列设计流程.md: source_refs is empty
+  [WARN] skill-月白-AIGC橱窗陈列设计流程.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AIGC海报信息优先级排序法.md: source_refs is empty
+  [WARN] skill-月白-AIGC海报信息优先级排序法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AIGC生成人物证件照.md: source_refs is empty
+  [WARN] skill-月白-AIGC生成人物证件照.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AIGC设计作业复盘法.md: source_refs is empty
+  [WARN] skill-月白-AIGC设计作业复盘法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AIGC餐饮海报优化一抽流.md: source_refs is empty
+  [WARN] skill-月白-AIGC餐饮海报优化一抽流.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI一句话改图尺寸.md: source_refs is empty
+  [WARN] skill-月白-AI一句话改图尺寸.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI人物特征精准描述法.md: source_refs is empty
+  [WARN] skill-月白-AI人物特征精准描述法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI去字-稿定设计加字工作流.md: source_refs is empty
+  [WARN] skill-月白-AI去字-稿定设计加字工作流.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI去文字-稿定设计快速出图法.md: source_refs is empty
+  [WARN] skill-月白-AI去文字-稿定设计快速出图法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI图片印刷落地预处理.md: source_refs is empty
+  [WARN] skill-月白-AI图片印刷落地预处理.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI图片去文字处理.md: source_refs is empty
+  [WARN] skill-月白-AI图片去文字处理.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI图片风格逆向提取（抄图法）.md: source_refs is empty
+  [WARN] skill-月白-AI图片风格逆向提取（抄图法）.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI图生图尺寸快速转换.md: source_refs is empty
+  [WARN] skill-月白-AI图生图尺寸快速转换.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI对话式海报修改（免PS）.md: source_refs is empty
+  [WARN] skill-月白-AI对话式海报修改（免PS）.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI对话情绪管理法.md: source_refs is empty
+  [WARN] skill-月白-AI对话情绪管理法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI工艺图人工复核法.md: source_refs is empty
+  [WARN] skill-月白-AI工艺图人工复核法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI平台算法咨询法.md: source_refs is empty
+  [WARN] skill-月白-AI平台算法咨询法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI归纳共性描述法.md: source_refs is empty
+  [WARN] skill-月白-AI归纳共性描述法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI抽卡效率控制法.md: source_refs is empty
+  [WARN] skill-月白-AI抽卡效率控制法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI提示词精准约束法.md: source_refs is empty
+  [WARN] skill-月白-AI提示词精准约束法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI改图指令精细化.md: source_refs is empty
+  [WARN] skill-月白-AI改图指令精细化.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI智价比评估决策.md: source_refs is empty
+  [WARN] skill-月白-AI智价比评估决策.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI模型选择决策法.md: source_refs is empty
+  [WARN] skill-月白-AI模型选择决策法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI模型选择策略.md: source_refs is empty
+  [WARN] skill-月白-AI模型选择策略.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI海报快速生成法（15分钟无PS）.md: source_refs is empty
+  [WARN] skill-月白-AI海报快速生成法（15分钟无PS）.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI生图与图生图决策法.md: source_refs is empty
+  [WARN] skill-月白-AI生图与图生图决策法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI生成IP表情包.md: source_refs is empty
+  [WARN] skill-月白-AI生成IP表情包.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI生成图小字控制法.md: source_refs is empty
+  [WARN] skill-月白-AI生成图小字控制法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI生成图片排版控制-尺寸优先法.md: source_refs is empty
+  [WARN] skill-月白-AI生成图片排版控制-尺寸优先法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI生成棉花娃娃形象.md: source_refs is empty
+  [WARN] skill-月白-AI生成棉花娃娃形象.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI生成电商白底图.md: source_refs is empty
+  [WARN] skill-月白-AI生成电商白底图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI电商图人工过审处理.md: source_refs is empty
+  [WARN] skill-月白-AI电商图人工过审处理.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI精准替换产品技巧.md: source_refs is empty
+  [WARN] skill-月白-AI精准替换产品技巧.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI自动生成多语种专业名词提示词.md: source_refs is empty
+  [WARN] skill-月白-AI自动生成多语种专业名词提示词.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI设计-质价比-决策框架.md: source_refs is empty
+  [WARN] skill-月白-AI设计-质价比-决策框架.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI设计三段式里程碑流程.md: source_refs is empty
+  [WARN] skill-月白-AI设计三段式里程碑流程.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI设计严苛批评法.md: source_refs is empty
+  [WARN] skill-月白-AI设计严苛批评法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI设计反馈萃取法.md: source_refs is empty
+  [WARN] skill-月白-AI设计反馈萃取法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI设计底层逻辑：从设计到作图到改图.md: source_refs is empty
+  [WARN] skill-月白-AI设计底层逻辑：从设计到作图到改图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI设计落地文件标准生成.md: source_refs is empty
+  [WARN] skill-月白-AI设计落地文件标准生成.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI设计里程碑拆解法.md: source_refs is empty
+  [WARN] skill-月白-AI设计里程碑拆解法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI课程内容深度梳理法.md: source_refs is empty
+  [WARN] skill-月白-AI课程内容深度梳理法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI质价比评估方法.md: source_refs is empty
+  [WARN] skill-月白-AI质价比评估方法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI逆向反推描述法.md: source_refs is empty
+  [WARN] skill-月白-AI逆向反推描述法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI需求拆解咨询法.md: source_refs is empty
+  [WARN] skill-月白-AI需求拆解咨询法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-AI高清重绘去模糊.md: source_refs is empty
+  [WARN] skill-月白-AI高清重绘去模糊.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-PPT全AI生成工作流.md: source_refs is empty
+  [WARN] skill-月白-PPT全AI生成工作流.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-PPT内容框架AIGC生成法.md: source_refs is empty
+  [WARN] skill-月白-PPT内容框架AIGC生成法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-PPT风格锁定工作流.md: source_refs is empty
+  [WARN] skill-月白-PPT风格锁定工作流.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-PS图层规范管理.md: source_refs is empty
+  [WARN] skill-月白-PS图层规范管理.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-RGB转CMYK印刷预检.md: source_refs is empty
+  [WARN] skill-月白-RGB转CMYK印刷预检.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-RGB转CMYK色彩校准法.md: source_refs is empty
+  [WARN] skill-月白-RGB转CMYK色彩校准法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-Token效价比决策公式.md: source_refs is empty
+  [WARN] skill-月白-Token效价比决策公式.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-Token效价比决策法.md: source_refs is empty
+  [WARN] skill-月白-Token效价比决策法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-Token智甲比控制法.md: source_refs is empty
+  [WARN] skill-月白-Token智甲比控制法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-一抽流改图法（自然语言精准许愿法）.md: source_refs is empty
+  [WARN] skill-月白-一抽流改图法（自然语言精准许愿法）.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-一抽流长提示词写作法.md: source_refs is empty
+  [WARN] skill-月白-一抽流长提示词写作法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-三步作业反馈法.md: source_refs is empty
+  [WARN] skill-月白-三步作业反馈法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-产品反光修复术.md: source_refs is empty
+  [WARN] skill-月白-产品反光修复术.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-产品替换式场景合成法.md: source_refs is empty
+  [WARN] skill-月白-产品替换式场景合成法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-产品白底图标准化制作.md: source_refs is empty
+  [WARN] skill-月白-产品白底图标准化制作.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-产品风格选择：测而非定.md: source_refs is empty
+  [WARN] skill-月白-产品风格选择：测而非定.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-价格带视觉策略匹配.md: source_refs is empty
+  [WARN] skill-月白-价格带视觉策略匹配.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-供应商信息对齐清单法.md: source_refs is empty
+  [WARN] skill-月白-供应商信息对齐清单法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-像素图高清重绘修复法.md: source_refs is empty
+  [WARN] skill-月白-像素图高清重绘修复法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-光影灰度控制能力构建.md: source_refs is empty
+  [WARN] skill-月白-光影灰度控制能力构建.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-关键要素提取改图法.md: source_refs is empty
+  [WARN] skill-月白-关键要素提取改图法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-具体化优点萃取与复用.md: source_refs is empty
+  [WARN] skill-月白-具体化优点萃取与复用.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-分层自洽海报生成法.md: source_refs is empty
+  [WARN] skill-月白-分层自洽海报生成法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-分步迭代改图法.md: source_refs is empty
+  [WARN] skill-月白-分步迭代改图法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-创作与执行双模式切换.md: source_refs is empty
+  [WARN] skill-月白-创作与执行双模式切换.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-包材工艺参数核对法.md: source_refs is empty
+  [WARN] skill-月白-包材工艺参数核对法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-卖点可视化海报设计法.md: source_refs is empty
+  [WARN] skill-月白-卖点可视化海报设计法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-印刷DPI标准设置.md: source_refs is empty
+  [WARN] skill-月白-印刷DPI标准设置.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-叙事性场景海报构建.md: source_refs is empty
+  [WARN] skill-月白-叙事性场景海报构建.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-口喷作图工作流.md: source_refs is empty
+  [WARN] skill-月白-口喷作图工作流.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-口喷式AIGC设计法.md: source_refs is empty
+  [WARN] skill-月白-口喷式AIGC设计法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-口喷式设计工作流.md: source_refs is empty
+  [WARN] skill-月白-口喷式设计工作流.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-口述作图法（口喷设计）.md: source_refs is empty
+  [WARN] skill-月白-口述作图法（口喷设计）.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-后台数据AI诊断法.md: source_refs is empty
+  [WARN] skill-月白-后台数据AI诊断法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-商业项目AI模型选型决策.md: source_refs is empty
+  [WARN] skill-月白-商业项目AI模型选型决策.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-图像信息逆向解析训练.md: source_refs is empty
+  [WARN] skill-月白-图像信息逆向解析训练.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-图片逆向反推提示词法.md: source_refs is empty
+  [WARN] skill-月白-图片逆向反推提示词法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-图片逆向提示词提取.md: source_refs is empty
+  [WARN] skill-月白-图片逆向提示词提取.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-图生图产品替换与场景合成.md: source_refs is empty
+  [WARN] skill-月白-图生图产品替换与场景合成.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-圈图指定修改法.md: source_refs is empty
+  [WARN] skill-月白-圈图指定修改法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-基于基础形象做动作延展（1到10）.md: source_refs is empty
+  [WARN] skill-月白-基于基础形象做动作延展（1到10）.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-基于白底图做动作延展.md: source_refs is empty
+  [WARN] skill-月白-基于白底图做动作延展.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-基于需求拆解找设计参考.md: source_refs is empty
+  [WARN] skill-月白-基于需求拆解找设计参考.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-多窗口并行工作法.md: source_refs is empty
+  [WARN] skill-月白-多窗口并行工作法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-多语种专业名词提示词策略.md: source_refs is empty
+  [WARN] skill-月白-多语种专业名词提示词策略.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-多语言提示词精准法.md: source_refs is empty
+  [WARN] skill-月白-多语言提示词精准法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-多语言提示词降幻觉法.md: source_refs is empty
+  [WARN] skill-月白-多语言提示词降幻觉法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-官方提示词最佳实践迁移.md: source_refs is empty
+  [WARN] skill-月白-官方提示词最佳实践迁移.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-实物包装产业链实践.md: source_refs is empty
+  [WARN] skill-月白-实物包装产业链实践.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-实物包装落地训练法.md: source_refs is empty
+  [WARN] skill-月白-实物包装落地训练法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-审美刻意练习法.md: source_refs is empty
+  [WARN] skill-月白-审美刻意练习法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-封面情绪转化法.md: source_refs is empty
+  [WARN] skill-月白-封面情绪转化法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-小红书双重搜索法.md: source_refs is empty
+  [WARN] skill-月白-小红书双重搜索法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-小红书封面趋势判断法.md: source_refs is empty
+  [WARN] skill-月白-小红书封面趋势判断法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-小红书平台内容策略：从美图经济到沙雕梗图.md: source_refs is empty
+  [WARN] skill-月白-小红书平台内容策略：从美图经济到沙雕梗图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-工厂对接信息清单制作.md: source_refs is empty
+  [WARN] skill-月白-工厂对接信息清单制作.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-左手Cubox右手里程碑学习法.md: source_refs is empty
+  [WARN] skill-月白-左手Cubox右手里程碑学习法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-左脑画面描述训练法.md: source_refs is empty
+  [WARN] skill-月白-左脑画面描述训练法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-强约束画面尺寸比例.md: source_refs is empty
+  [WARN] skill-月白-强约束画面尺寸比例.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-微信公众号封面AI设计-尺寸强约束法.md: source_refs is empty
+  [WARN] skill-月白-微信公众号封面AI设计-尺寸强约束法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-手机外设计逻辑切换法.md: source_refs is empty
+  [WARN] skill-月白-手机外设计逻辑切换法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-手绘草稿AI转化工作流.md: source_refs is empty
+  [WARN] skill-月白-手绘草稿AI转化工作流.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-批量生成多视角素材.md: source_refs is empty
+  [WARN] skill-月白-批量生成多视角素材.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-找AI要平台专属方法（模型对抗法）.md: source_refs is empty
+  [WARN] skill-月白-找AI要平台专属方法（模型对抗法）.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-控制产品画面尺寸比例.md: source_refs is empty
+  [WARN] skill-月白-控制产品画面尺寸比例.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-提示词优化：信息流海报文字修复.md: source_refs is empty
+  [WARN] skill-月白-提示词优化：信息流海报文字修复.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-提示词长度控制法.md: source_refs is empty
+  [WARN] skill-月白-提示词长度控制法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-文件命名与图层命名规范.md: source_refs is empty
+  [WARN] skill-月白-文件命名与图层命名规范.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-文件命名与存档规范（口述暗示）.md: source_refs is empty
+  [WARN] skill-月白-文件命名与存档规范（口述暗示）.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-文件命名与平台适配规范.md: source_refs is empty
+  [WARN] skill-月白-文件命名与平台适配规范.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-文创产品AI设计到生产的卡点预判.md: source_refs is empty
+  [WARN] skill-月白-文创产品AI设计到生产的卡点预判.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-文创材质成本调研与精益选择.md: source_refs is empty
+  [WARN] skill-月白-文创材质成本调研与精益选择.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-文创材质调研与精益选择.md: source_refs is empty
+  [WARN] skill-月白-文创材质调研与精益选择.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-新媒体平台流量逻辑-问平台亲儿子AI法.md: source_refs is empty
+  [WARN] skill-月白-新媒体平台流量逻辑-问平台亲儿子AI法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-新媒体热点物料快速迭代法.md: source_refs is empty
+  [WARN] skill-月白-新媒体热点物料快速迭代法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-新手设计师基本功训练法.md: source_refs is empty
+  [WARN] skill-月白-新手设计师基本功训练法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-普通人AI快速上手法.md: source_refs is empty
+  [WARN] skill-月白-普通人AI快速上手法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-普通人AI设计80分法则.md: source_refs is empty
+  [WARN] skill-月白-普通人AI设计80分法则.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-智能扩图-拓图双方案.md: source_refs is empty
+  [WARN] skill-月白-智能扩图-拓图双方案.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-替换大法改图.md: source_refs is empty
+  [WARN] skill-月白-替换大法改图.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-最佳实践素材收集法.md: source_refs is empty
+  [WARN] skill-月白-最佳实践素材收集法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-服务体验类去AI感设计.md: source_refs is empty
+  [WARN] skill-月白-服务体验类去AI感设计.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-未知领域审美建构法.md: source_refs is empty
+  [WARN] skill-月白-未知领域审美建构法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-模型性价比选型决策.md: source_refs is empty
+  [WARN] skill-月白-模型性价比选型决策.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-模型识别与边界测试法.md: source_refs is empty
+  [WARN] skill-月白-模型识别与边界测试法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-正向反馈强化AI生成.md: source_refs is empty
+  [WARN] skill-月白-正向反馈强化AI生成.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-泛产品设计能力迁移法.md: source_refs is empty
+  [WARN] skill-月白-泛产品设计能力迁移法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-海报二维码快速替换法.md: source_refs is empty
+  [WARN] skill-月白-海报二维码快速替换法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-海报文字错误修复法.md: source_refs is empty
+  [WARN] skill-月白-海报文字错误修复法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-灵感画布建立法.md: source_refs is empty
+  [WARN] skill-月白-灵感画布建立法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-烧Token快速积累体感.md: source_refs is empty
+  [WARN] skill-月白-烧Token快速积累体感.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-用AIGC做设计专家批评复盘.md: source_refs is empty
+  [WARN] skill-月白-用AIGC做设计专家批评复盘.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-用一堂方法论找最佳实践并拉满执行.md: source_refs is empty
+  [WARN] skill-月白-用一堂方法论找最佳实践并拉满执行.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-电商场景图三类分类法.md: source_refs is empty
+  [WARN] skill-月白-电商场景图三类分类法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-电商场景图三类构建法.md: source_refs is empty
+  [WARN] skill-月白-电商场景图三类构建法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-电商白底图生成与场景图匹配.md: source_refs is empty
+  [WARN] skill-月白-电商白底图生成与场景图匹配.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-电商白底图生成与高清处理.md: source_refs is empty
+  [WARN] skill-月白-电商白底图生成与高清处理.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-电商白底图生成与高清重绘.md: source_refs is empty
+  [WARN] skill-月白-电商白底图生成与高清重绘.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-电商详情页起承转合架构法.md: source_refs is empty
+  [WARN] skill-月白-电商详情页起承转合架构法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-眼高手低训练法.md: source_refs is empty
+  [WARN] skill-月白-眼高手低训练法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-眼高手低转化法.md: source_refs is empty
+  [WARN] skill-月白-眼高手低转化法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-短视频封面-音量战争-设计法.md: source_refs is empty
+  [WARN] skill-月白-短视频封面-音量战争-设计法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-短视频封面一秒吸睛法.md: source_refs is empty
+  [WARN] skill-月白-短视频封面一秒吸睛法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-短视频封面高亮吸睛法.md: source_refs is empty
+  [WARN] skill-月白-短视频封面高亮吸睛法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-社群直播海报利益点提炼法.md: source_refs is empty
+  [WARN] skill-月白-社群直播海报利益点提炼法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-竞品图精益替换法.md: source_refs is empty
+  [WARN] skill-月白-竞品图精益替换法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-精准共用提示词撰写.md: source_refs is empty
+  [WARN] skill-月白-精准共用提示词撰写.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-精准提示词撰写法.md: source_refs is empty
+  [WARN] skill-月白-精准提示词撰写法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-精准提示词消除模型幻觉.md: source_refs is empty
+  [WARN] skill-月白-精准提示词消除模型幻觉.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-精准改图提示词写法.md: source_refs is empty
+  [WARN] skill-月白-精准改图提示词写法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-纳米级抄大师训练法.md: source_refs is empty
+  [WARN] skill-月白-纳米级抄大师训练法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-线下实体门店设计真实体感验证.md: source_refs is empty
+  [WARN] skill-月白-线下实体门店设计真实体感验证.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-线下门店设计复杂度评估.md: source_refs is empty
+  [WARN] skill-月白-线下门店设计复杂度评估.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-背景消除与分辨率修复.md: source_refs is empty
+  [WARN] skill-月白-背景消除与分辨率修复.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-色块分区控制法.md: source_refs is empty
+  [WARN] skill-月白-色块分区控制法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-薅AIGC羊毛资源法.md: source_refs is empty
+  [WARN] skill-月白-薅AIGC羊毛资源法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-行业配色快速确定法.md: source_refs is empty
+  [WARN] skill-月白-行业配色快速确定法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-表情包风格筛选与确定.md: source_refs is empty
+  [WARN] skill-月白-表情包风格筛选与确定.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-视角替换专用提示法.md: source_refs is empty
+  [WARN] skill-月白-视角替换专用提示法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-设计参考图精准定位法.md: source_refs is empty
+  [WARN] skill-月白-设计参考图精准定位法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-设计基本功回归法.md: source_refs is empty
+  [WARN] skill-月白-设计基本功回归法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-设计师AI工具习惯切换.md: source_refs is empty
+  [WARN] skill-月白-设计师AI工具习惯切换.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-设计师AI资产四类型沉淀.md: source_refs is empty
+  [WARN] skill-月白-设计师AI资产四类型沉淀.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-设计文件八要素命名法.md: source_refs is empty
+  [WARN] skill-月白-设计文件八要素命名法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-设计素材脱敏处理规范.md: source_refs is empty
+  [WARN] skill-月白-设计素材脱敏处理规范.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-设计能力蒸馏封装法.md: source_refs is empty
+  [WARN] skill-月白-设计能力蒸馏封装法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-设计需求口头化表达法.md: source_refs is empty
+  [WARN] skill-月白-设计需求口头化表达法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-设计项目MVP拆解法.md: source_refs is empty
+  [WARN] skill-月白-设计项目MVP拆解法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-设计项目里程碑拆解法.md: source_refs is empty
+  [WARN] skill-月白-设计项目里程碑拆解法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-课程资料文件命名规范.md: source_refs is empty
+  [WARN] skill-月白-课程资料文件命名规范.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-课程问题预埋法.md: source_refs is empty
+  [WARN] skill-月白-课程问题预埋法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-资深设计师AI工具切换法.md: source_refs is empty
+  [WARN] skill-月白-资深设计师AI工具切换法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-跨境电商产品图替换法.md: source_refs is empty
+  [WARN] skill-月白-跨境电商产品图替换法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-醒图人脸精修法.md: source_refs is empty
+  [WARN] skill-月白-醒图人脸精修法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-里程碑思维-找对标优先于做设计.md: source_refs is empty
+  [WARN] skill-月白-里程碑思维-找对标优先于做设计.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-里程碑思维拆解设计流程.md: source_refs is empty
+  [WARN] skill-月白-里程碑思维拆解设计流程.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-风格不变局部调整.md: source_refs is empty
+  [WARN] skill-月白-风格不变局部调整.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-风格探索试错法.md: source_refs is empty
+  [WARN] skill-月白-风格探索试错法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-餐饮海报AB测试法.md: source_refs is empty
+  [WARN] skill-月白-餐饮海报AB测试法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-月白-餐饮类线下设计调性把控.md: source_refs is empty
+  [WARN] skill-月白-餐饮类线下设计调性把控.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-李诞-个人IP的重新定义与输出策略.md: domain not a list: str
+  [WARN] skill-李诞-个人IP的重新定义与输出策略.md: source_refs is empty
+  [WARN] skill-李诞-个人IP的重新定义与输出策略.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-李诞-内容创作中的观察训练法.md: domain not a list: str
+  [WARN] skill-李诞-内容创作中的观察训练法.md: source_refs is empty
+  [WARN] skill-李诞-内容创作中的观察训练法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-李诞-判断工作价值的交易成本视角.md: domain not a list: str
+  [WARN] skill-李诞-判断工作价值的交易成本视角.md: source_refs is empty
+  [WARN] skill-李诞-判断工作价值的交易成本视角.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱.md: domain not a list: str
+  [WARN] skill-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱.md: source_refs is empty
+  [WARN] skill-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-李诞-销售闭环验证：从0到1的重新定义.md: domain not a list: str
+  [WARN] skill-李诞-销售闭环验证：从0到1的重新定义.md: source_refs is empty
+  [WARN] skill-李诞-销售闭环验证：从0到1的重新定义.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-李诞-阅读重读机制：与书籍的-因缘-相遇.md: domain not a list: str
+  [WARN] skill-李诞-阅读重读机制：与书籍的-因缘-相遇.md: source_refs is empty
+  [WARN] skill-李诞-阅读重读机制：与书籍的-因缘-相遇.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-李诞-面对过去错误的平静心法.md: domain not a list: str
+  [WARN] skill-李诞-面对过去错误的平静心法.md: source_refs is empty
+  [WARN] skill-李诞-面对过去错误的平静心法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-模型匹配调度.md: domain not a list: NoneType
+  [WARN] skill-模型匹配调度.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-模型组合调用.md: domain not a list: NoneType
+  [WARN] skill-模型组合调用.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-保持系统冗余.md: domain not a list: str
+  [WARN] skill-水水-保持系统冗余.md: source_refs is empty
+  [WARN] skill-水水-保持系统冗余.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-利用叙事驱动决策.md: domain not a list: str
+  [WARN] skill-水水-利用叙事驱动决策.md: source_refs is empty
+  [WARN] skill-水水-利用叙事驱动决策.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-利用基因漂变视角.md: domain not a list: str
+  [WARN] skill-水水-利用基因漂变视角.md: source_refs is empty
+  [WARN] skill-水水-利用基因漂变视角.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-区分风险与不确定性.md: domain not a list: str
+  [WARN] skill-水水-区分风险与不确定性.md: source_refs is empty
+  [WARN] skill-水水-区分风险与不确定性.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-接受发散性世界观.md: domain not a list: str
+  [WARN] skill-水水-接受发散性世界观.md: source_refs is empty
+  [WARN] skill-水水-接受发散性世界观.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-构建自利叙事.md: domain not a list: str
+  [WARN] skill-水水-构建自利叙事.md: source_refs is empty
+  [WARN] skill-水水-构建自利叙事.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-用感性维度构建溢价.md: domain not a list: str
+  [WARN] skill-水水-用感性维度构建溢价.md: source_refs is empty
+  [WARN] skill-水水-用感性维度构建溢价.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-水水-管理决策权重偏差.md: source_refs is empty
+  [FAIL] skill-水水-练习坦然说不知道.md: domain not a list: str
+  [WARN] skill-水水-练习坦然说不知道.md: source_refs is empty
+  [WARN] skill-水水-练习坦然说不知道.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-警惕概率虚妄安全感.md: domain not a list: str
+  [WARN] skill-水水-警惕概率虚妄安全感.md: source_refs is empty
+  [WARN] skill-水水-警惕概率虚妄安全感.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-警惕错误归因.md: domain not a list: str
+  [WARN] skill-水水-警惕错误归因.md: source_refs is empty
+  [WARN] skill-水水-警惕错误归因.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-识别关键偶然因素.md: domain not a list: str
+  [WARN] skill-水水-识别关键偶然因素.md: source_refs is empty
+  [WARN] skill-水水-识别关键偶然因素.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-识别数据折磨陷阱.md: domain not a list: str
+  [WARN] skill-水水-识别数据折磨陷阱.md: source_refs is empty
+  [WARN] skill-水水-识别数据折磨陷阱.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-识别模型局限性.md: domain not a list: str
+  [WARN] skill-水水-识别模型局限性.md: source_refs is empty
+  [WARN] skill-水水-识别模型局限性.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-识别自证预言陷阱.md: domain not a list: str
+  [WARN] skill-水水-识别自证预言陷阱.md: source_refs is empty
+  [WARN] skill-水水-识别自证预言陷阱.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-识别超级传播者风险.md: domain not a list: str
+  [WARN] skill-水水-识别超级传播者风险.md: source_refs is empty
+  [WARN] skill-水水-识别超级传播者风险.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-识别饥饿效应.md: domain not a list: str
+  [WARN] skill-水水-识别饥饿效应.md: source_refs is empty
+  [WARN] skill-水水-识别饥饿效应.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-避免原生家庭万能归因.md: domain not a list: str
+  [WARN] skill-水水-避免原生家庭万能归因.md: source_refs is empty
+  [WARN] skill-水水-避免原生家庭万能归因.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-水水-降低故事逻辑要求.md: domain not a list: str
+  [WARN] skill-水水-降低故事逻辑要求.md: source_refs is empty
+  [WARN] skill-水水-降低故事逻辑要求.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-深度分层学习.md: domain not a list: NoneType
+  [WARN] skill-深度分层学习.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-清单小抄制作.md: domain not a list: NoneType
+  [WARN] skill-清单小抄制作.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-清单小抄工具箱法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-清单小抄工具箱法.md: all outbound links stay in same domain {'learning-methodology', 'yitang'}
+  [FAIL] skill-清单式笔记法.md: domain not a list: NoneType
+  [WARN] skill-清单式笔记法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-渐进式披露上下文.md: domain not a list: NoneType
+  [WARN] skill-渐进式披露上下文.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-现场建模式萃取笔记.md: domain not a list: NoneType
+  [WARN] skill-现场建模式萃取笔记.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-用topdown方式整理内化笔记.md: domain not a list: NoneType
+  [WARN] skill-用topdown方式整理内化笔记.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-用旗舰店替代纯招商投入.md: domain not a list: NoneType
+  [WARN] skill-用旗舰店替代纯招商投入.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-用清单体记备忘笔记.md: domain not a list: NoneType
+  [WARN] skill-用清单体记备忘笔记.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-知识库团队管理.md: domain not a list: NoneType
+  [WARN] skill-知识库团队管理.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-知识树存储记忆法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-知识树存储记忆法.md: all outbound links stay in same domain {'learning-methodology', 'yitang'}
+  [FAIL] skill-稀缺资源机会成本比对法.md: domain not a list: NoneType
+  [WARN] skill-稀缺资源机会成本比对法.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] skill-立即实践转化法.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] skill-立即实践转化法.md: all outbound links stay in same domain {'yitang', 'learning-methodology'}
+  [WARN] skill-立即实践转化法.md: all outbound links stay in same domain {'learning-methodology', 'yitang'}
+  [FAIL] skill-纪浩-Agent开工检查单制作法.md: domain not a list: str
+  [WARN] skill-纪浩-Agent开工检查单制作法.md: source_refs is empty
+  [WARN] skill-纪浩-Agent开工检查单制作法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-纪浩-Agent技能市场设计法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-纪浩-Agent技能市场设计法.md: all outbound links stay in same domain {'yitang', 'ai-collaboration'}
+  [FAIL] skill-纪浩-AI使用边界管理法.md: domain not a list: str
+  [WARN] skill-纪浩-AI使用边界管理法.md: source_refs is empty
+  [WARN] skill-纪浩-AI使用边界管理法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-纪浩-AI工作空间与导诊台设计法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-纪浩-AI工作空间与导诊台设计法.md: all outbound links stay in same domain {'yitang', 'ai-collaboration'}
+  [FAIL] skill-纪浩-AI工具脚本化约束.md: domain not a list: str
+  [WARN] skill-纪浩-AI工具脚本化约束.md: source_refs is empty
+  [WARN] skill-纪浩-AI工具脚本化约束.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-纪浩-Do-first-PDCA渐进迭代法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-纪浩-Do-first-PDCA渐进迭代法.md: all outbound links stay in same domain {'yitang', 'ai-collaboration'}
+  [WARN] skill-纪浩-problem-validation-four-checks.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-纪浩-Problem与Question区分法.md: domain not a list: str
+  [WARN] skill-纪浩-Problem与Question区分法.md: source_refs is empty
+  [WARN] skill-纪浩-Problem与Question区分法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-纪浩-任务交付物标准化.md: domain not a list: str
+  [WARN] skill-纪浩-任务交付物标准化.md: source_refs is empty
+  [WARN] skill-纪浩-任务交付物标准化.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-纪浩-低成本输出验证法.md: domain not a list: str
+  [WARN] skill-纪浩-低成本输出验证法.md: source_refs is empty
+  [WARN] skill-纪浩-低成本输出验证法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-纪浩-处理AI生成代码运行异常.md: domain not a list: str
+  [WARN] skill-纪浩-处理AI生成代码运行异常.md: source_refs is empty
+  [WARN] skill-纪浩-处理AI生成代码运行异常.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-纪浩-多视角切换思考法.md: domain not a list: str
+  [WARN] skill-纪浩-多视角切换思考法.md: source_refs is empty
+  [WARN] skill-纪浩-多视角切换思考法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-纪浩-新手心态启动法.md: domain not a list: str
+  [WARN] skill-纪浩-新手心态启动法.md: source_refs is empty
+  [WARN] skill-纪浩-新手心态启动法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-纪浩-日志驱动排查法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-纪浩-日志驱动排查法.md: all outbound links stay in same domain {'yitang', 'ai-collaboration'}
+  [FAIL] skill-纪浩-案例池构建法.md: domain not a list: str
+  [WARN] skill-纪浩-案例池构建法.md: source_refs is empty
+  [WARN] skill-纪浩-案例池构建法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-纪浩-真需求四要素验证法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-纪浩-真需求四要素验证法.md: all outbound links stay in same domain {'yitang', 'ai-collaboration'}
+  [FAIL] skill-纪浩-线上问题应急值守.md: domain not a list: str
+  [WARN] skill-纪浩-线上问题应急值守.md: source_refs is empty
+  [WARN] skill-纪浩-线上问题应急值守.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-纪浩-评估AI从零写UI的可行性.md: domain not a list: str
+  [WARN] skill-纪浩-评估AI从零写UI的可行性.md: source_refs is empty
+  [WARN] skill-纪浩-评估AI从零写UI的可行性.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-纪浩-识别AI不可维护代码.md: domain not a list: str
+  [WARN] skill-纪浩-识别AI不可维护代码.md: source_refs is empty
+  [WARN] skill-纪浩-识别AI不可维护代码.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-纪浩-里程碑验证法.md: domain not a list: str
+  [WARN] skill-纪浩-里程碑验证法.md: source_refs is empty
+  [WARN] skill-纪浩-里程碑验证法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-纪浩-问题导向备课法.md: domain not a list: str
+  [WARN] skill-纪浩-问题导向备课法.md: source_refs is empty
+  [WARN] skill-纪浩-问题导向备课法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-纪浩-项目启动五问法.md: domain not a list: str
+  [WARN] skill-纪浩-项目启动五问法.md: source_refs is empty
+  [WARN] skill-纪浩-项目启动五问法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-自我反馈修正笔记姿势.md: domain not a list: NoneType
+  [WARN] skill-自我反馈修正笔记姿势.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-自我反馈检验.md: domain not a list: NoneType
+  [WARN] skill-自我反馈检验.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-获取他人反馈优化笔记.md: domain not a list: NoneType
+  [WARN] skill-获取他人反馈优化笔记.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-设定管理杠杆率指标评估效率.md: domain not a list: NoneType
+  [WARN] skill-设定管理杠杆率指标评估效率.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-设计对抗效果追踪看板.md: domain not a list: NoneType
+  [WARN] skill-设计对抗效果追踪看板.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-费曼学习法三句话提炼.md: domain not a list: NoneType
+  [WARN] skill-费曼学习法三句话提炼.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-费曼学习法实践讲香课题.md: domain not a list: NoneType
+  [WARN] skill-费曼学习法实践讲香课题.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-费曼简单提炼法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-费曼简单提炼法.md: all outbound links stay in same domain {'learning-methodology', 'yitang'}
+  [WARN] skill-辩证讨论法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-辩证讨论法.md: all outbound links stay in same domain {'learning-methodology', 'yitang'}
+  [FAIL] skill-辩证讨论深化.md: domain not a list: NoneType
+  [WARN] skill-辩证讨论深化.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-逐字稿练习演讲.md: domain not a list: NoneType
+  [WARN] skill-逐字稿练习演讲.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-通过综合案例沙盘走通全流程.md: domain not a list: NoneType
+  [WARN] skill-通过综合案例沙盘走通全流程.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-通过请吃饭获取行业内部资料.md: domain not a list: NoneType
+  [WARN] skill-通过请吃饭获取行业内部资料.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-遵循规模前倾原则设计组织架构.md: domain not a list: NoneType
+  [WARN] skill-遵循规模前倾原则设计组织架构.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-采用滚动预测机制.md: domain not a list: NoneType
+  [WARN] skill-采用滚动预测机制.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-项目复盘基本功.md: domain not a list: NoneType
+  [WARN] skill-项目复盘基本功.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-马易-AIGC项目ROI评估.md: source_refs is empty
+  [WARN] skill-马易-AIGC项目ROI评估.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-AI任务拆解提升控制度.md: domain not a list: str
+  [WARN] skill-马易-AI任务拆解提升控制度.md: source_refs is empty
+  [WARN] skill-马易-AI任务拆解提升控制度.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-AI搜索公网数据增强（合规边界）.md: domain not a list: str
+  [WARN] skill-马易-AI搜索公网数据增强（合规边界）.md: source_refs is empty
+  [WARN] skill-马易-AI搜索公网数据增强（合规边界）.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-AI答疑运营风格适配.md: domain not a list: str
+  [WARN] skill-马易-AI答疑运营风格适配.md: source_refs is empty
+  [WARN] skill-马易-AI答疑运营风格适配.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-AI能力团队复制.md: domain not a list: str
+  [WARN] skill-马易-AI能力团队复制.md: source_refs is empty
+  [WARN] skill-马易-AI能力团队复制.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-AI落地前置条件验证.md: domain not a list: str
+  [WARN] skill-马易-AI落地前置条件验证.md: source_refs is empty
+  [WARN] skill-马易-AI落地前置条件验证.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-AI落地四阶段验证法.md: domain not a list: str
+  [WARN] skill-马易-AI落地四阶段验证法.md: source_refs is empty
+  [WARN] skill-马易-AI落地四阶段验证法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-AI落地场景筛选-四有新人法则.md: domain not a list: str
+  [WARN] skill-马易-AI落地场景筛选-四有新人法则.md: source_refs is empty
+  [WARN] skill-马易-AI落地场景筛选-四有新人法则.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-AI落地场景识别-拆工作流找场景.md: domain not a list: str
+  [WARN] skill-马易-AI落地场景识别-拆工作流找场景.md: source_refs is empty
+  [WARN] skill-马易-AI落地场景识别-拆工作流找场景.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-AI落地场景识别与拆分.md: domain not a list: str
+  [WARN] skill-马易-AI落地场景识别与拆分.md: source_refs is empty
+  [WARN] skill-马易-AI落地场景识别与拆分.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-AI落地能力内化训练.md: domain not a list: str
+  [WARN] skill-马易-AI落地能力内化训练.md: source_refs is empty
+  [WARN] skill-马易-AI落地能力内化训练.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-AI落地认知速成-最佳实践学习法.md: domain not a list: str
+  [WARN] skill-马易-AI落地认知速成-最佳实践学习法.md: source_refs is empty
+  [WARN] skill-马易-AI落地认知速成-最佳实践学习法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-AI项目上线-先平行再独行.md: domain not a list: str
+  [WARN] skill-马易-AI项目上线-先平行再独行.md: source_refs is empty
+  [WARN] skill-马易-AI项目上线-先平行再独行.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-AI项目需求拆解筛选.md: domain not a list: str
+  [WARN] skill-马易-AI项目需求拆解筛选.md: source_refs is empty
+  [WARN] skill-马易-AI项目需求拆解筛选.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-RPA数据整合法.md: domain not a list: str
+  [WARN] skill-马易-RPA数据整合法.md: source_refs is empty
+  [WARN] skill-马易-RPA数据整合法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-马易-业务为先的AI中台建设.md: source_refs is empty
+  [FAIL] skill-马易-业务问题AI化拆解-餐饮设计案例法.md: domain not a list: str
+  [WARN] skill-马易-业务问题AI化拆解-餐饮设计案例法.md: source_refs is empty
+  [WARN] skill-马易-业务问题AI化拆解-餐饮设计案例法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-中国企业AI落地五步法.md: domain not a list: str
+  [WARN] skill-马易-中国企业AI落地五步法.md: source_refs is empty
+  [WARN] skill-马易-中国企业AI落地五步法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-低置信度样本黄金漏斗处理.md: domain not a list: str
+  [WARN] skill-马易-低置信度样本黄金漏斗处理.md: source_refs is empty
+  [WARN] skill-马易-低置信度样本黄金漏斗处理.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-公寓获客自跑通原则.md: domain not a list: str
+  [WARN] skill-马易-公寓获客自跑通原则.md: source_refs is empty
+  [WARN] skill-马易-公寓获客自跑通原则.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-关键假设识别与验证.md: domain not a list: str
+  [WARN] skill-马易-关键假设识别与验证.md: source_refs is empty
+  [WARN] skill-马易-关键假设识别与验证.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-减少输入噪音法.md: domain not a list: str
+  [WARN] skill-马易-减少输入噪音法.md: source_refs is empty
+  [WARN] skill-马易-减少输入噪音法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-判断标准快速产出法.md: domain not a list: str
+  [WARN] skill-马易-判断标准快速产出法.md: source_refs is empty
+  [WARN] skill-马易-判断标准快速产出法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] skill-马易-工作流优先于AIGC的决策方法.md: source_refs is empty
+  [WARN] skill-马易-工作流优先于AIGC的决策方法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-工作流拆解找场景.md: domain not a list: str
+  [WARN] skill-马易-工作流拆解找场景.md: source_refs is empty
+  [WARN] skill-马易-工作流拆解找场景.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-平台模式验证法.md: domain not a list: str
+  [WARN] skill-马易-平台模式验证法.md: source_refs is empty
+  [WARN] skill-马易-平台模式验证法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-成为首位F工程师.md: domain not a list: str
+  [WARN] skill-马易-成为首位F工程师.md: source_refs is empty
+  [WARN] skill-马易-成为首位F工程师.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-数字员工FD拆解落地.md: domain not a list: str
+  [WARN] skill-马易-数字员工FD拆解落地.md: source_refs is empty
+  [WARN] skill-马易-数字员工FD拆解落地.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-数据存储架构选择.md: domain not a list: str
+  [WARN] skill-马易-数据存储架构选择.md: source_refs is empty
+  [WARN] skill-马易-数据存储架构选择.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-数据标注正确法.md: domain not a list: str
+  [WARN] skill-马易-数据标注正确法.md: source_refs is empty
+  [WARN] skill-马易-数据标注正确法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-时间序列大模型场景识别.md: domain not a list: str
+  [WARN] skill-马易-时间序列大模型场景识别.md: source_refs is empty
+  [WARN] skill-马易-时间序列大模型场景识别.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-最小场景优先落地法.md: domain not a list: str
+  [WARN] skill-马易-最小场景优先落地法.md: source_refs is empty
+  [WARN] skill-马易-最小场景优先落地法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-深度沉浸需求挖掘.md: domain not a list: str
+  [WARN] skill-马易-深度沉浸需求挖掘.md: source_refs is empty
+  [WARN] skill-马易-深度沉浸需求挖掘.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-痛点驱动的数字化.md: domain not a list: str
+  [WARN] skill-马易-痛点驱动的数字化.md: source_refs is empty
+  [WARN] skill-马易-痛点驱动的数字化.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-知识库-回答技巧双建设.md: domain not a list: str
+  [WARN] skill-马易-知识库-回答技巧双建设.md: source_refs is empty
+  [WARN] skill-马易-知识库-回答技巧双建设.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-视频转化关键要素标注校验.md: domain not a list: str
+  [WARN] skill-马易-视频转化关键要素标注校验.md: source_refs is empty
+  [WARN] skill-马易-视频转化关键要素标注校验.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-销售智能体体系搭建路径.md: domain not a list: str
+  [WARN] skill-马易-销售智能体体系搭建路径.md: source_refs is empty
+  [WARN] skill-马易-销售智能体体系搭建路径.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-隐性知识萃取与模型化.md: domain not a list: str
+  [WARN] skill-马易-隐性知识萃取与模型化.md: source_refs is empty
+  [WARN] skill-马易-隐性知识萃取与模型化.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-隐私安全分层解决.md: domain not a list: str
+  [WARN] skill-马易-隐私安全分层解决.md: source_refs is empty
+  [WARN] skill-马易-隐私安全分层解决.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-需求创造验证法.md: domain not a list: str
+  [WARN] skill-马易-需求创造验证法.md: source_refs is empty
+  [WARN] skill-马易-需求创造验证法.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] skill-马易-风口痛点识别法.md: domain not a list: str
+  [WARN] skill-马易-风口痛点识别法.md: source_refs is empty
+  [WARN] skill-马易-风口痛点识别法.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] smart-medicine-cabinet-distribution.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] smart-medicine-cabinet-national-policy-redlines.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] smart-medicine-cabinet-o2o-cost-structure.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] smart-medicine-cabinet-regional-policy-map.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] source-code-delivery-model.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] sprint-2-门禁举证验收.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] structured-ai-workspace.md: title is empty
+  [FAIL] structured-ai-workspace.md: domain not a list: NoneType
+  [WARN] structured-ai-workspace.md: diagnostic_signals missing (type=tool)
+  [WARN] supply-chain-beverage.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tinyfish-agentic-web-infrastructure.md: source_refs is empty
+  [WARN] tools-workflows.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] truman-perspective-skill.md: source_refs is empty
+  [FAIL] voice-input-doubao.md: title is empty
+  [FAIL] voice-input-doubao.md: domain not a list: NoneType
+  [WARN] voice-input-doubao.md: diagnostic_signals missing (type=tool)
+  [WARN] web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md: source_refs is empty
+  [WARN] web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md: all outbound links stay in same domain {"['ai-saas']"}
+  [WARN] writing-content.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md: all outbound links stay in same domain {"['ai-saas']"}
+  [WARN] yitang-course-map.md: source_refs is empty
+  [WARN] yitang-course-map.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] yitang-course-map.md: all outbound links stay in same domain {'yitang'}
+  [WARN] yitang-huazong-ama-by-industry.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] yitang-huazong-ama-summary.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] yitang-methodology-system.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-ai-startup-20-risky-hypotheses.md: related is empty (type=tool)
   [WARN] yt-ai-startup-20-risky-hypotheses.md: all outbound links stay in same domain {'yitang', 'ai'}
   [WARN] yt-ai-trend-12-signals.md: related is empty (type=framework)
@@ -2968,11 +4325,14 @@ KDO 健康巡检 — 2026-06-14 06:09
   [WARN] yt-barrier-analysis-cheat-sheet.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-barrier-identification-skill.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-business-analysis-cognitive-biases.md: all outbound links stay in same domain {'yitang'}
+  [WARN] yt-business-formula-l6-essence-formulas.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] yt-business-formula-parameter-iceberg.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] yt-business-formula-six-level-logic.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] yt-business-formula-ten-paradigms.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-case-mandatory-cases.md: source_refs is empty
   [WARN] yt-case-mandatory-cases.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-composite-pan-product-methodology.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-composite-pan-product-methodology.md: all outbound links stay in same domain {'yitang'}
-  [WARN] yt-concept-p-type-l-type.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-concept-peas-insight.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-customer-acquisition-toolkit.md: related is empty (type=tool)
   [WARN] yt-customer-acquisition-toolkit.md: all outbound links stay in same domain {'yitang'}
@@ -2995,7 +4355,8 @@ KDO 健康巡检 — 2026-06-14 06:09
   [WARN] yt-demand-analysis-hiking-map.md: related is empty (type=framework)
   [WARN] yt-entrepreneur-259-milestone.md: related is empty (type=tool)
   [WARN] yt-entrepreneur-259-milestone.md: all outbound links stay in same domain {'yitang'}
-  [FAIL] yt-entrepreneur-barriers.md: missing or unparseable frontmatter
+  [WARN] yt-entrepreneur-barriers.md: related is empty (type=tool)
+  [WARN] yt-entrepreneur-barriers.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-entrepreneur-business-growth.md: related is empty (type=tool)
   [WARN] yt-entrepreneur-business-growth.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-entrepreneur-channel-exploration.md: related is empty (type=tool)
@@ -3007,31 +4368,32 @@ KDO 健康巡检 — 2026-06-14 06:09
   [WARN] yt-entrepreneur-growth-flywheel.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-entrepreneur-industrial-production.md: related is empty (type=tool)
   [WARN] yt-entrepreneur-industrial-production.md: all outbound links stay in same domain {'yitang'}
-  [FAIL] yt-entrepreneur-industry-forecast.md: missing or unparseable frontmatter
-  [FAIL] yt-entrepreneur-liberate-thinking.md: missing or unparseable frontmatter
+  [WARN] yt-entrepreneur-industry-forecast.md: related is empty (type=tool)
+  [WARN] yt-entrepreneur-liberate-thinking.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-entrepreneur-needs-analysis.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-entrepreneur-opportunity-selection.md: related is empty (type=tool)
   [WARN] yt-entrepreneur-opportunity-selection.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-entrepreneur-pragmatic-startup.md: related is empty (type=tool)
   [WARN] yt-entrepreneur-pragmatic-startup.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-entrepreneur-product-core.md: related is empty (type=tool)
-  [WARN] yt-entrepreneur-product-core.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-entrepreneur-research-camp.md: related is empty (type=tool)
   [WARN] yt-entrepreneur-research-camp.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-entrepreneur-research-cognition.md: all outbound links stay in same domain {'yitang'}
-  [FAIL] yt-entrepreneur-scientific-method.md: missing or unparseable frontmatter
+  [WARN] yt-entrepreneur-scientific-method.md: related is empty (type=tool)
+  [WARN] yt-entrepreneur-scientific-method.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-entrepreneur-spin-selling.md: related is empty (type=tool)
   [WARN] yt-entrepreneur-spin-selling.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-entrepreneur-truth-seeking.md: related is empty (type=tool)
   [WARN] yt-entrepreneur-truth-seeking.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-entrepreneur-unit-model.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-five-step-common-pitfalls.md: all outbound links stay in same domain {'yitang'}
-  [FAIL] yt-five-step-implementation.md: missing or unparseable frontmatter
-  [FAIL] yt-five-step-level-blindspots.md: missing or unparseable frontmatter
+  [WARN] yt-five-step-implementation.md: all outbound links stay in same domain {'yitang'}
+  [WARN] yt-five-step-level-blindspots.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-five-step-method.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-foresight-15-char-mantra.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-foresight-ab-steady-state.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-foresight-addition-subtraction.md: missing or unparseable frontmatter
+  [WARN] yt-foresight-addition-subtraction.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] yt-foresight-addition-subtraction.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-foresight-deliverables-four-levels.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-foresight-deliverables-four-levels.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-foresight-model-taxonomy.md: related is empty (type=tool)
@@ -3040,62 +4402,64 @@ KDO 健康巡检 — 2026-06-14 06:09
   [WARN] yt-foresight-ten-fatal-flaws.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-growth-cycle-model.md: related is empty (type=framework)
   [WARN] yt-growth-cycle-model.md: all outbound links stay in same domain {'yitang'}
-  [FAIL] yt-management-basic-skills.md: id is empty
+  [FAIL] yt-management-basic-skills.md: domain not a list: str
   [WARN] yt-management-basic-skills.md: source_refs is empty
   [WARN] yt-management-basic-skills.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-business-formula.md: id is empty
-  [WARN] yt-management-business-formula.md: source_refs is empty
   [WARN] yt-management-business-formula.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-company-culture.md: id is empty
+  [FAIL] yt-management-company-culture.md: domain not a list: str
   [WARN] yt-management-company-culture.md: source_refs is empty
   [WARN] yt-management-company-culture.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-conversion-hacking.md: id is empty
+  [FAIL] yt-management-conversion-hacking.md: domain not a list: str
   [WARN] yt-management-conversion-hacking.md: source_refs is empty
   [WARN] yt-management-conversion-hacking.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-finance-basics.md: id is empty
+  [FAIL] yt-management-finance-basics.md: domain not a list: str
   [WARN] yt-management-finance-basics.md: source_refs is empty
   [WARN] yt-management-finance-basics.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-founder-role.md: id is empty
+  [FAIL] yt-management-founder-role.md: domain not a list: str
   [WARN] yt-management-founder-role.md: source_refs is empty
   [WARN] yt-management-founder-role.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-goal-management.md: id is empty
+  [FAIL] yt-management-goal-management.md: domain not a list: str
   [WARN] yt-management-goal-management.md: source_refs is empty
   [WARN] yt-management-goal-management.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-leadership-levels.md: id is empty
+  [FAIL] yt-management-leadership-levels.md: domain not a list: str
   [WARN] yt-management-leadership-levels.md: source_refs is empty
   [WARN] yt-management-leadership-levels.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-onboarding.md: id is empty
+  [FAIL] yt-management-onboarding.md: domain not a list: str
   [WARN] yt-management-onboarding.md: source_refs is empty
   [WARN] yt-management-onboarding.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-management-partnership-equity.md: source_refs is empty
   [WARN] yt-management-partnership-equity.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-project-management.md: id is empty
+  [FAIL] yt-management-project-management.md: domain not a list: str
   [WARN] yt-management-project-management.md: source_refs is empty
   [WARN] yt-management-project-management.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-scientific-decision.md: id is empty
+  [FAIL] yt-management-scientific-decision.md: domain not a list: str
   [WARN] yt-management-scientific-decision.md: source_refs is empty
   [WARN] yt-management-scientific-decision.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-scientific-hiring.md: id is empty
+  [FAIL] yt-management-scientific-hiring.md: domain not a list: str
   [WARN] yt-management-scientific-hiring.md: source_refs is empty
   [WARN] yt-management-scientific-hiring.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-scientific-meetings.md: id is empty
+  [FAIL] yt-management-scientific-meetings.md: domain not a list: str
   [WARN] yt-management-scientific-meetings.md: source_refs is empty
   [WARN] yt-management-scientific-meetings.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-strategy-meeting.md: id is empty
+  [FAIL] yt-management-strategy-meeting.md: domain not a list: str
   [WARN] yt-management-strategy-meeting.md: source_refs is empty
   [WARN] yt-management-strategy-meeting.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-management-team-knowledge.md: id is empty
+  [FAIL] yt-management-team-knowledge.md: domain not a list: str
   [WARN] yt-management-team-knowledge.md: source_refs is empty
   [WARN] yt-management-team-knowledge.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-management-toolkit-overview.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-market-size-estimation.md: related is empty (type=tool)
-  [FAIL] yt-model-aesthetic-progression.md: missing or unparseable frontmatter
+  [WARN] yt-model-aesthetic-progression.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] yt-model-aesthetic-progression.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-model-agent-architecture.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-model-cognitive-upgrade-framework.md: missing or unparseable frontmatter
+  [WARN] yt-model-cognitive-upgrade-framework.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-model-conversion-optimization.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-model-conversion-optimization.md: all outbound links stay in same domain {'yitang'}
-  [FAIL] yt-model-deep-review-iceberg.md: missing or unparseable frontmatter
-  [FAIL] yt-model-deliberate-practice-growth.md: missing or unparseable frontmatter
+  [WARN] yt-model-deep-review-iceberg.md: related is empty (type=framework)
+  [WARN] yt-model-deep-review-iceberg.md: all outbound links stay in same domain {'yitang'}
+  [WARN] yt-model-deliberate-practice-growth.md: related is empty (type=framework)
+  [WARN] yt-model-deliberate-practice-growth.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] yt-model-deliberate-practice-growth.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-model-dual-triangle-competitiveness.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-model-entrepreneur-map.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-model-entrepreneur-map.md: all outbound links stay in same domain {'yitang'}
@@ -3103,8 +4467,10 @@ KDO 健康巡检 — 2026-06-14 06:09
   [WARN] yt-model-ipo-complete-checklist.md: related is empty (type=framework)
   [WARN] yt-model-ipo-complete-checklist.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-model-ipo-learning-strategy.md: all outbound links stay in same domain {'yitang'}
-  [FAIL] yt-model-liberate-thinking-layers.md: missing or unparseable frontmatter
-  [FAIL] yt-model-management-map.md: missing or unparseable frontmatter
+  [WARN] yt-model-liberate-thinking-layers.md: related is empty (type=framework)
+  [WARN] yt-model-liberate-thinking-layers.md: all outbound links stay in same domain {'yitang'}
+  [WARN] yt-model-management-map.md: related is empty (type=framework)
+  [WARN] yt-model-management-map.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-model-muse-ai-framework.md: related is empty (type=framework)
   [WARN] yt-model-muse-ai-framework.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-model-pan-product-36-strategies.md: all outbound links stay in same domain {'yitang'}
@@ -3113,7 +4479,7 @@ KDO 健康巡检 — 2026-06-14 06:09
   [WARN] yt-model-pan-product-demand-toolkit.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-model-pan-product-execution-toolkit.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-model-pan-product-three-virtues.md: all outbound links stay in same domain {'yitang'}
-  [FAIL] yt-model-personal-map.md: missing or unparseable frontmatter
+  [WARN] yt-model-personal-map.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-model-prediction-model.md: related is empty (type=framework)
   [WARN] yt-model-prediction-model.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-model-product-core-metrics.md: related is empty (type=framework)
@@ -3121,7 +4487,6 @@ KDO 健康巡检 — 2026-06-14 06:09
   [WARN] yt-model-product-excellence.md: related is empty (type=framework)
   [WARN] yt-model-product-excellence.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-model-progress-map.md: all outbound links stay in same domain {'yitang'}
-  [FAIL] yt-model-prompt-engineering.md: missing or unparseable frontmatter
   [WARN] yt-model-questioning-practice-canvas.md: related is empty (type=framework)
   [WARN] yt-model-questioning-practice-canvas.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-model-scientific-questioning-map.md: related is empty (type=framework)
@@ -3174,8 +4539,7 @@ KDO 健康巡检 — 2026-06-14 06:09
   [WARN] yt-personal-ai-thinking-card.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-personal-checklist-notes.md: related is empty (type=tool)
   [WARN] yt-personal-checklist-notes.md: all outbound links stay in same domain {'yitang'}
-  [WARN] yt-personal-deep-review.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] yt-personal-deep-review.md: all outbound links stay in same domain {'yitang'}
+  [FAIL] yt-personal-deep-review.md: missing or unparseable frontmatter
   [WARN] yt-personal-deliberate-practice.md: related is empty (type=tool)
   [WARN] yt-personal-deliberate-practice.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-personal-inspiration-flash.md: related is empty (type=tool)
@@ -3197,7 +4561,7 @@ KDO 健康巡检 — 2026-06-14 06:09
   [WARN] yt-personal-time-management.md: related is empty (type=tool)
   [WARN] yt-personal-time-management.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-personal-verbatim-script.md: related is empty (type=tool)
-  [WARN] yt-personal-y-model-exploration-2.md: all outbound links stay in same domain {'yitang'}
+  [FAIL] yt-personal-y-model-exploration-2.md: missing or unparseable frontmatter
   [WARN] yt-personal-y-model-practice.md: related is empty (type=tool)
   [WARN] yt-personal-y-model-practice.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-product-kernel-cultivation.md: related is empty (type=framework)
@@ -3253,9 +4617,9 @@ KDO 健康巡检 — 2026-06-14 06:09
   [WARN] yt-tool-fab-persuasion.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-tool-fab-persuasion.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-tool-foresight-canvas.md: all outbound links stay in same domain {'yitang'}
-  [FAIL] yt-tool-hiring-scorecard.md: missing or unparseable frontmatter
+  [WARN] yt-tool-hiring-scorecard.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-tool-knowledge-extraction.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-tool-meeting-designer.md: missing or unparseable frontmatter
+  [WARN] yt-tool-meeting-designer.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-tool-mental-model-refinement.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-tool-okr-cycle.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-tool-onboarding-90day.md: source_refs is empty
@@ -3277,31 +4641,83 @@ KDO 健康巡检 — 2026-06-14 06:09
   [WARN] yt-unit-model-construction.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-unit-model-dynamic.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-unit-model-ladder.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-unit-model-selection.md: missing or unparseable frontmatter
+  [WARN] yt-unit-model-selection.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-unit-model-three-tools.md: related is empty (type=framework)
+  [WARN] 互联网医院模式深度调研报告.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] 人机协作决策-双三角模型.md: source_refs is empty
+  [WARN] 人机协作决策-双三角模型.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] 保达云诊所深度调研报告.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] 在设计小伙伴的反馈还挺好的.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] 存储策略.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] 学会提问在信息洪流中锻造批判性思维的利刃.md: diagnostic_signals missing (type=framework)
+  [WARN] 开源HIS系统代码深度分析报告.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] 数据标注维度最佳实践调研报告.md: domain not a list: NoneType
+  [WARN] 数据标注维度最佳实践调研报告.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] 紫鲸ai_智能体工作流平台_深度分析与产品设计.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] 紫鲸ai_智能体工作流平台_深度分析与产品设计.md: all outbound links stay in same domain {"['ai-saas']"}
+  [WARN] 紫鲸ai智能体工作流平台.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] 老朱的水感-2026年5月.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] 街顺app全面调研报告.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] 视觉prompt三层操作系统-srom-visual-os.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] 诊所o2o外卖平台业务深度调研报告.md: source_refs is empty
+  [WARN] 轻量级诊所HIS调研全清单.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] 那今天不会.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] 鑫港湾his系统分阶段整改报告.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ai-complex-communication.md: diagnostic_signals missing (type=framework)
+  [WARN] ai-complex-communication.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ai-methodology-tools.md: diagnostic_signals missing (type=framework)
+  [WARN] ai-methodology-tools.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] ai-short-drama-ice-fire-dissection-compass.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] ai-short-drama-ice-fire-dissection-compass.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
+  [WARN] beverage-foodservice-channel.md: diagnostic_signals missing (type=framework)
+  [WARN] beverage-foodservice-channel.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] business-formula-to-kdo-card-quality.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] framework-course-milestone-model.md: diagnostic_signals missing (type=framework)
+  [WARN] framework-course-milestone-model.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] framework-logic-cleanliness-five-levels.md: diagnostic_signals missing (type=framework)
+  [WARN] framework-logic-cleanliness-five-levels.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] model-quality-four-levels.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] modeling-personal-practice-loop.md: diagnostic_signals missing (type=framework)
+  [WARN] modeling-personal-practice-loop.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] modeling-scientific-milestones.md: diagnostic_signals missing (type=framework)
+  [WARN] modeling-scientific-milestones.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] modeling-three-stages.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] modeling-three-stages.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
+  [WARN] modeling-to-kdo-toolchain.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] private-domain-saas-sales-funnel.md: related is empty (type=framework)
   [WARN] private-domain-saas-sales-funnel.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] sales-pitch-bias-patterns.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] smart-device-foodservice-automation.md: diagnostic_signals missing (type=framework)
+  [WARN] smart-device-foodservice-automation.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] yt-business-formula-abc-model.md: diagnostic_signals missing (type=framework)
+  [WARN] yt-business-formula-abc-model.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] yt-decision-abcd-model.md: title is empty
   [WARN] yt-decision-abcd-model.md: source_refs is empty
   [WARN] yt-decision-abcd-model.md: related is empty (type=framework)
   [WARN] yt-decision-abcd-model.md: diagnostic_signals missing (type=framework)
   [WARN] yt-decision-abcd-model.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-unit-model-ladder.md: id is empty
   [WARN] yt-unit-model-ladder.md: source_refs is empty
   [WARN] yt-unit-model-ladder.md: related is empty (type=framework)
   [WARN] yt-unit-model-ladder.md: diagnostic_signals missing (type=framework)
   [WARN] yt-unit-model-ladder.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-unit-model-overview.md: id is empty
   [WARN] yt-unit-model-overview.md: source_refs is empty
   [WARN] yt-unit-model-overview.md: related is empty (type=framework)
   [WARN] yt-unit-model-overview.md: diagnostic_signals missing (type=framework)
   [WARN] yt-unit-model-overview.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ai-short-drama-conflict-three-axes.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ai-short-drama-conflict-three-axes.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
+  [WARN] ai-short-drama-framework-three-axes.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] ai-short-drama-framework-three-axes.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
   [WARN] ai-short-drama-plot-three-axes.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] ai-short-drama-plot-three-axes.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
   [WARN] ai-short-drama-script-planning-three-axes.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] ai-short-drama-script-planning-three-axes.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
+  [WARN] modeling-level-map.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] modeling-level-map.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
+  [WARN] modeling-weapon-library.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] modeling-weapon-library.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
+  [WARN] process-modeling.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] process-modeling.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
   [WARN] sk-ai-ai-workspace-setup.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] sk-ai-ai-workspace-setup.md: all outbound links stay in same domain {'ai-collaboration'}
   [WARN] sk-ai-evidence-check.md: Synthesis has 0 wikilinks (threshold: 2)
@@ -3327,7 +4743,45 @@ KDO 健康巡检 — 2026-06-14 06:09
   [WARN] skill-note-keyword-bolding.md: diagnostic_signals missing (type=tool)
   [WARN] skill-note-layer-constraint.md: diagnostic_signals missing (type=tool)
   [WARN] skill-note-one-line-one-point.md: diagnostic_signals missing (type=tool)
-  [WARN] skill-note-one-line-one-point.md: all outbound links stay in same domain {'yitang', 'note-taking'}
+  [WARN] skill-note-one-line-one-point.md: all outbound links stay in same domain {'note-taking', 'yitang'}
+  [WARN] smart-medicine-cabinet-financial-model.md: diagnostic_signals missing (type=tool)
+  [WARN] smart-medicine-cabinet-financial-model.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] smart-medicine-cabinet-fraud-detection.md: diagnostic_signals missing (type=tool)
+  [WARN] smart-medicine-cabinet-fraud-detection.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-ai-skill-engineering-method.md: diagnostic_signals missing (type=tool)
+  [WARN] tool-ai-skill-engineering-method.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-binary-quadrant-modeling.md: diagnostic_signals missing (type=tool)
+  [WARN] tool-binary-quadrant-modeling.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-canvas-weapon-library-modeling.md: diagnostic_signals missing (type=tool)
+  [WARN] tool-canvas-weapon-library-modeling.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-canvas-weapon-library-modeling.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
+  [WARN] tool-checklist-cheatsheet-modeling.md: diagnostic_signals missing (type=tool)
+  [WARN] tool-checklist-cheatsheet-modeling.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-clinic-cabinet-legal-contract-guide.md: diagnostic_signals missing (type=tool)
+  [WARN] tool-clinic-cabinet-legal-contract-guide.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-clinic-medical-shortvideo-compliance.md: diagnostic_signals missing (type=tool)
+  [WARN] tool-clinic-medical-shortvideo-compliance.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-essence-nfactor-modeling.md: diagnostic_signals missing (type=tool)
+  [WARN] tool-essence-nfactor-modeling.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-funnel-formula-modeling.md: diagnostic_signals missing (type=tool)
+  [WARN] tool-funnel-formula-modeling.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-iceberg-triangle-modeling.md: diagnostic_signals missing (type=tool)
+  [WARN] tool-iceberg-triangle-modeling.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-iterative-recursive-deep-dig.md: diagnostic_signals missing (type=tool)
+  [WARN] tool-iterative-recursive-deep-dig.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-radar-chart-modeling.md: diagnostic_signals missing (type=tool)
+  [WARN] tool-radar-chart-modeling.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-sabc-tier-modeling.md: diagnostic_signals missing (type=tool)
+  [WARN] tool-sabc-tier-modeling.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-scenario-selector-modeling.md: diagnostic_signals missing (type=tool)
+  [WARN] tool-scenario-selector-modeling.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-scenario-selector-modeling.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
+  [WARN] tool-smart-medicine-cabinet-compliance-checklist.md: diagnostic_signals missing (type=tool)
+  [WARN] tool-smart-medicine-cabinet-compliance-checklist.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-smart-medicine-cabinet-site-selection-guide.md: diagnostic_signals missing (type=tool)
+  [WARN] tool-smart-medicine-cabinet-site-selection-guide.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] tool-sop-template-modeling.md: diagnostic_signals missing (type=tool)
+  [WARN] tool-sop-template-modeling.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-note-five-levels-training.md: diagnostic_signals missing (type=tool)
   [WARN] yt-note-live-field-skill.md: diagnostic_signals missing (type=tool)
   [WARN] yt-pitch-metaphor.md: diagnostic_signals missing (type=tool)
@@ -3342,55 +4796,121 @@ KDO 健康巡检 — 2026-06-14 06:09
   [WARN] yt-tool-hiring-scorecard.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-tool-meeting-designer.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-tool-okr-cycle.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] yt-tool-okr-cycle.md: all outbound links stay in same domain {'yitang'}
   [WARN] yt-tool-onboarding-90day.md: diagnostic_signals missing (type=tool)
   [WARN] yt-tool-onboarding-90day.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-tool-project-health-radar.md: diagnostic_signals missing (type=tool)
   [WARN] yt-tool-project-health-radar.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-tool-strategy-workshop.md: diagnostic_signals missing (type=tool)
   [WARN] yt-tool-strategy-workshop.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-tool-unit-model-ai-assisted.md: id is empty
   [FAIL] yt-tool-unit-model-ai-assisted.md: title is empty
   [FAIL] yt-tool-unit-model-ai-assisted.md: type is empty
+  [FAIL] yt-tool-unit-model-ai-assisted.md: domain not a list: str
   [WARN] yt-tool-unit-model-ai-assisted.md: source_refs is empty
   [WARN] yt-tool-unit-model-ai-assisted.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-tool-unit-model-benchmark.md: id is empty
   [FAIL] yt-tool-unit-model-benchmark.md: title is empty
   [FAIL] yt-tool-unit-model-benchmark.md: type is empty
+  [FAIL] yt-tool-unit-model-benchmark.md: domain not a list: str
   [WARN] yt-tool-unit-model-benchmark.md: source_refs is empty
   [WARN] yt-tool-unit-model-benchmark.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-tool-unit-model-construction.md: id is empty
   [FAIL] yt-tool-unit-model-construction.md: title is empty
   [FAIL] yt-tool-unit-model-construction.md: type is empty
+  [FAIL] yt-tool-unit-model-construction.md: domain not a list: str
   [WARN] yt-tool-unit-model-construction.md: source_refs is empty
   [WARN] yt-tool-unit-model-construction.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-tool-unit-model-dynamic.md: id is empty
   [FAIL] yt-tool-unit-model-dynamic.md: title is empty
   [FAIL] yt-tool-unit-model-dynamic.md: type is empty
+  [FAIL] yt-tool-unit-model-dynamic.md: domain not a list: str
   [WARN] yt-tool-unit-model-dynamic.md: source_refs is empty
   [WARN] yt-tool-unit-model-dynamic.md: Synthesis has 0 wikilinks (threshold: 2)
-  [FAIL] yt-tool-unit-model-selection.md: id is empty
   [FAIL] yt-tool-unit-model-selection.md: title is empty
   [FAIL] yt-tool-unit-model-selection.md: type is empty
+  [FAIL] yt-tool-unit-model-selection.md: domain not a list: str
   [WARN] yt-tool-unit-model-selection.md: source_refs is empty
   [WARN] yt-tool-unit-model-selection.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-ai-agent-milestone-design.md: diagnostic_signals missing (type=case)
+  [WARN] case-ai-agent-milestone-design.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-ai-assisted-review.md: diagnostic_signals missing (type=case)
+  [WARN] case-ai-assisted-review.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] case-ai-time-management-tiered-growth.md: related is empty (type=case)
   [WARN] case-ai-time-management-tiered-growth.md: diagnostic_signals missing (type=case)
   [WARN] case-ai-time-management-tiered-growth.md: all outbound links stay in same domain {'yitang', 'ai'}
+  [WARN] case-child-drawing-rhyme.md: diagnostic_signals missing (type=case)
+  [WARN] case-child-drawing-rhyme.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] case-coffee-shop-foresight.md: related is empty (type=case)
   [WARN] case-coffee-shop-foresight.md: diagnostic_signals missing (type=case)
   [WARN] case-coffee-shop-foresight.md: all outbound links stay in same domain {'yitang'}
+  [WARN] case-course-milestone-model.md: diagnostic_signals missing (type=case)
+  [WARN] case-course-milestone-model.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-dental-clinic-formula.md: diagnostic_signals missing (type=case)
+  [WARN] case-dental-clinic-formula.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] case-escort-service-tiered-growth.md: related is empty (type=case)
   [WARN] case-escort-service-tiered-growth.md: diagnostic_signals missing (type=case)
+  [WARN] case-essence-education-strategy.md: diagnostic_signals missing (type=case)
+  [WARN] case-essence-education-strategy.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-essence-entrepreneurship.md: diagnostic_signals missing (type=case)
+  [WARN] case-essence-entrepreneurship.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-essence-humanity-trap.md: diagnostic_signals missing (type=case)
+  [WARN] case-essence-humanity-trap.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] case-ether-online-acquisition.md: domain not a list: str
+  [WARN] case-ether-online-acquisition.md: related is empty (type=case)
+  [WARN] case-ether-online-acquisition.md: diagnostic_signals missing (type=case)
+  [WARN] case-ether-online-acquisition.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-five-step-fake-vs-real-barriers.md: related is empty (type=case)
+  [WARN] case-five-step-fake-vs-real-barriers.md: all outbound links stay in same domain {'yitang'}
+  [WARN] case-five-step-growth-first-lever.md: related is empty (type=case)
+  [WARN] case-five-step-growth-first-lever.md: all outbound links stay in same domain {'yitang'}
   [WARN] case-gudong-tea-shop-foresight.md: related is empty (type=case)
   [WARN] case-gudong-tea-shop-foresight.md: diagnostic_signals missing (type=case)
   [WARN] case-gudong-tea-shop-foresight.md: all outbound links stay in same domain {'yitang'}
+  [WARN] case-gym-membership-formula.md: diagnostic_signals missing (type=case)
+  [WARN] case-gym-membership-formula.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-jh-yitang-vs-sqlhelper.md: related is empty (type=case)
+  [WARN] case-jh-yitang-vs-sqlhelper.md: diagnostic_signals missing (type=case)
+  [WARN] case-livestream-sop-modeling.md: diagnostic_signals missing (type=case)
+  [WARN] case-livestream-sop-modeling.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-milktea-five-step.md: diagnostic_signals missing (type=case)
+  [WARN] case-nine-pm-livestream-survey.md: diagnostic_signals missing (type=case)
+  [WARN] case-nine-pm-livestream-survey.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-offline-catering-formula.md: diagnostic_signals missing (type=case)
+  [WARN] case-offline-catering-formula.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-personal-map-modeling.md: diagnostic_signals missing (type=case)
+  [WARN] case-personal-map-modeling.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-private-domain-ecommerce-formula.md: diagnostic_signals missing (type=case)
+  [WARN] case-private-domain-ecommerce-formula.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-saas-renewal-formula.md: diagnostic_signals missing (type=case)
+  [WARN] case-saas-renewal-formula.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-shampoo-product-kernel.md: diagnostic_signals missing (type=case)
+  [WARN] case-shampoo-product-kernel.md: all outbound links stay in same domain {'yitang', 'product'}
+  [WARN] case-smart-medicine-cabinet-business-model-validation.md: diagnostic_signals missing (type=case)
+  [WARN] case-smart-medicine-cabinet-business-model-validation.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-smart-medicine-cabinet-corporate-risk.md: diagnostic_signals missing (type=case)
+  [WARN] case-smart-medicine-cabinet-corporate-risk.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-smart-medicine-cabinet-failure-patterns-library.md: diagnostic_signals missing (type=case)
+  [WARN] case-smart-medicine-cabinet-failure-patterns-library.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-thousand-people-square.md: diagnostic_signals missing (type=case)
+  [WARN] case-thousand-people-square.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-toc-ecommerce-formula-misjudgment.md: diagnostic_signals missing (type=case)
+  [WARN] case-toc-ecommerce-formula-misjudgment.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] case-toy-cabinet-barrier.md: related is empty (type=case)
   [WARN] case-toy-cabinet-barrier.md: diagnostic_signals missing (type=case)
   [WARN] case-toy-cabinet-barrier.md: all outbound links stay in same domain {'yitang'}
   [WARN] case-toy-cabinet-business-model.md: related is empty (type=case)
   [WARN] case-toy-cabinet-business-model.md: diagnostic_signals missing (type=case)
   [WARN] case-toy-cabinet-business-model.md: all outbound links stay in same domain {'yitang'}
+  [WARN] case-treadmill-demand-analysis.md: diagnostic_signals missing (type=case)
+  [WARN] case-treadmill-demand-analysis.md: all outbound links stay in same domain {'yitang', 'product'}
+  [WARN] case-truman-ai-partner.md: diagnostic_signals missing (type=case)
+  [WARN] case-truman-ai-partner.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-truman-ai-skill-engineering-guide.md: diagnostic_signals missing (type=case)
+  [WARN] case-truman-ai-skill-engineering-guide.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-truman-ai-skill-self-packaging.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-truman-livestream-sop-iteration.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-truman-motivation-map-12-versions.md: diagnostic_signals missing (type=case)
+  [WARN] case-truman-motivation-map-12-versions.md: Synthesis has 1 wikilinks (threshold: 2)
+  [WARN] case-truman-personal-growth-map-creation.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-truman-poker-deck-roi.md: diagnostic_signals missing (type=case)
+  [WARN] case-truman-prd-checklist-evolution.md: diagnostic_signals missing (type=case)
+  [WARN] case-truman-prd-checklist-evolution.md: all outbound links stay in same domain {'yitang', 'personal-growth'}
   [WARN] case-truman-yitang-foresight.md: related is empty (type=case)
   [WARN] case-truman-yitang-foresight.md: diagnostic_signals missing (type=case)
   [WARN] case-truman-yitang-foresight.md: all outbound links stay in same domain {'yitang'}
@@ -3400,13 +4920,489 @@ KDO 健康巡检 — 2026-06-14 06:09
   [WARN] case-xiaolong-ecommerce-foresight.md: related is empty (type=case)
   [WARN] case-xiaolong-ecommerce-foresight.md: diagnostic_signals missing (type=case)
   [WARN] case-xiaolong-ecommerce-foresight.md: all outbound links stay in same domain {'yitang'}
+  [WARN] case-yitang-education-supply-chain.md: diagnostic_signals missing (type=case)
+  [WARN] case-yitang-education-supply-chain.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-yitang-radar-chart-selection.md: diagnostic_signals missing (type=case)
+  [WARN] case-yitang-radar-chart-selection.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-zhangyang-anchor-sop-three-locks.md: diagnostic_signals missing (type=case)
+  [WARN] case-zhangyang-anchor-sop-three-locks.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] case-zhihu-vs-degetao-network-effect.md: related is empty (type=case)
   [WARN] case-zhihu-vs-degetao-network-effect.md: diagnostic_signals missing (type=case)
   [WARN] case-zhihu-vs-degetao-network-effect.md: all outbound links stay in same domain {'yitang'}
-  [FAIL] 七件事集团.md: title is empty
-  [WARN] 七件事集团.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-一堂-AI高考志愿-kernel-mismatch.md: diagnostic_signals missing (type=case)
+  [WARN] case-一堂-AI高考志愿-kernel-mismatch.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-一堂-AI高考志愿-kernel-mismatch.md: all outbound links stay in same domain {'yitang', 'product-strategy'}
+  [WARN] case-一堂-无人餐厅-hypothesis-failure.md: diagnostic_signals missing (type=case)
+  [WARN] case-一堂-无人餐厅-hypothesis-failure.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-一堂-无人餐厅-hypothesis-failure.md: all outbound links stay in same domain {'yitang', 'business-strategy'}
+  [WARN] case-一堂-陈贤敏汉堡-hypothesis-validation.md: diagnostic_signals missing (type=case)
+  [WARN] case-一堂-陈贤敏汉堡-hypothesis-validation.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-一堂-陈贤敏汉堡-hypothesis-validation.md: all outbound links stay in same domain {'yitang', 'business-strategy'}
+  [WARN] case-半肥猫-conversion-hacker-skill.md: diagnostic_signals missing (type=case)
+  [WARN] case-半肥猫-conversion-hacker-skill.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-半肥猫-course-to-skill.md: diagnostic_signals missing (type=case)
+  [WARN] case-半肥猫-course-to-skill.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-半肥猫-from-assignment-to-tool.md: diagnostic_signals missing (type=case)
+  [WARN] case-半肥猫-from-assignment-to-tool.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-半肥猫-skill-ab-test.md: diagnostic_signals missing (type=case)
+  [WARN] case-半肥猫-skill-ab-test.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-广冷电子-hx-smj.md: diagnostic_signals missing (type=case)
+  [WARN] case-广冷电子-hx-smj.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-纪浩-ai-workspace-chaos.md: diagnostic_signals missing (type=case)
+  [WARN] case-纪浩-ai-workspace-chaos.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-纪浩-focus-prompt-design.md: diagnostic_signals missing (type=case)
+  [WARN] case-纪浩-focus-prompt-design.md: Synthesis has 1 wikilinks (threshold: 2)
+  [WARN] case-纪浩-from-zip-to-five-layers.md: diagnostic_signals missing (type=case)
+  [WARN] case-纪浩-from-zip-to-five-layers.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-纪浩-skill-market-problem-validation.md: diagnostic_signals missing (type=case)
+  [WARN] case-纪浩-skill-market-problem-validation.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] case-纪浩-skills-market.md: diagnostic_signals missing (type=case)
+  [WARN] case-纪浩-skills-market.md: Synthesis has 1 wikilinks (threshold: 2)
+  [WARN] case-纪浩-ui-design-constraint-evolution.md: diagnostic_signals missing (type=case)
+  [WARN] case-纪浩-ui-design-constraint-evolution.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] industrial-ai-ops-cases.md: diagnostic_signals missing (type=case)
+  [WARN] industrial-ai-ops-cases.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] smart-medicine-cabinet-clinic-risk-observation.md: diagnostic_signals missing (type=case)
+  [WARN] smart-medicine-cabinet-clinic-risk-observation.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-ai-entrepreneur-technical-blindspot.md: all outbound links stay in same domain {'yitang', 'ai'}
+  [WARN] dk-ai-judgment-programmer-paradox.md: all outbound links stay in same domain {'yitang', 'ai-saas'}
+  [WARN] dk-c1-cjk-regex-silent-fail.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-c1-cjk-regex-silent-fail.md: all outbound links stay in same domain {'master'}
+  [WARN] dk-c10-batch-tool-no-dry-run.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-c10-batch-tool-no-dry-run.md: all outbound links stay in same domain {'master'}
+  [WARN] dk-c11-hongqigong-skip-review.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-c11-hongqigong-skip-review.md: all outbound links stay in same domain {'master'}
+  [WARN] dk-c2-dual-status-machine.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-c2-dual-status-machine.md: all outbound links stay in same domain {'master'}
+  [WARN] dk-c3-txt-ingest-skip.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-c3-txt-ingest-skip.md: all outbound links stay in same domain {'master'}
+  [WARN] dk-c4-selfcheck-superseded.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-c4-selfcheck-superseded.md: all outbound links stay in same domain {'master'}
+  [WARN] dk-c5-todo-false-positive.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-c5-todo-false-positive.md: all outbound links stay in same domain {'master'}
+  [WARN] dk-c6-large-source-overflow.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-c6-large-source-overflow.md: all outbound links stay in same domain {'master'}
+  [WARN] dk-c7-auto-backup-conflict.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-c7-auto-backup-conflict.md: all outbound links stay in same domain {'master'}
+  [WARN] dk-c8-format-complete-mind-empty.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-c8-format-complete-mind-empty.md: all outbound links stay in same domain {'master'}
+  [WARN] dk-c9-batch-trigger-garbage.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-c9-batch-trigger-garbage.md: all outbound links stay in same domain {'master'}
+  [FAIL] dk-ef-001-sn74lvc2g07-open-drain.md: domain not a list: NoneType
+  [WARN] dk-ef-001-sn74lvc2g07-open-drain.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] dk-ef-002-bom-version-async.md: domain not a list: NoneType
+  [WARN] dk-ef-002-bom-version-async.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] dk-ef-003-hand-soldering-bom-divergence.md: domain not a list: NoneType
+  [WARN] dk-ef-003-hand-soldering-bom-divergence.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] dk-ef-004-missing-diagnostic-firmware.md: domain not a list: NoneType
+  [WARN] dk-ef-004-missing-diagnostic-firmware.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-f1-regex-on-cjk.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-f10-broken-source-refs.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-f11-encyclopedia-style.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-f12-builder-context-deadlock.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-f13-handwritten-yaml-parser.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-f14-accuracy-measurement-mismatch.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-f2-txt-ingest-skip.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-f3-state-json-race-condition.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-f4-wrong-workdir.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-f5-stale-feedback-ref.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-f6-cjk-skeleton-corruption.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-f7-surface-translation.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-f8-phony-wikilink.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-f9-generic-critique.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-foresight-tier-skip-illusion.md: all outbound links stay in same domain {'yitang', 'business-strategy'}
+  [WARN] dk-modeling-ai-cross-validation.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-modeling-ai-iterative-prompting.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-modeling-ai-judgment-limit.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-modeling-ai-self-retrospection.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-modeling-ai-without-judgment.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-modeling-case-explosion-confidence.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-modeling-counterexample-driven.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-modeling-essence-predictive.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-modeling-expert-consensus-five-percent.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-modeling-explanatory-vs-predictive-essence.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-modeling-sop-execution-locks.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-modeling-timely-review-session-window.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-note-maximum-common-divisor.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-note-rookie-disaster-veteran-heaven.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-note-surplus-brainpower.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-note-surplus-brainpower.md: all outbound links stay in same domain {'note-taking', 'yitang'}
+  [WARN] dk-p1-model-switch-env.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p10-oral-ban.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p11-regex-cutoff.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p13-token-burn.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p14-zombie.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] dk-p15-unverified.md: title is empty
+  [FAIL] dk-p15-unverified.md: domain not a list: NoneType
+  [WARN] dk-p15-unverified.md: source_refs is empty
+  [WARN] dk-p15-unverified.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p16-validate-reads-state-json.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p17-accuracy-gap.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p18-yaml-parser.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p19-quote-yaml.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p2-tmux-cache.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p20-bigram-fail.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p3-auth-cache.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p4-batch-format-empty.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p5-cc-connect-config.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p6-session-resume-fail.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p7-ocr-skip.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p8-toolkit-forget.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-p9-glob-miss.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-signal-cluster-illusion.md: all outbound links stay in same domain {'yitang', 'ai'}
+  [WARN] dk-truman-iteration-to-aesthetic-ceiling.md: all outbound links stay in same domain {'yitang', 'product-design'}
+  [WARN] dk-weekly-modeling-iteration-growth-engine.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb1-aigc-mvp-before-ps.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb1-aigc-mvp-before-ps.md: all outbound links stay in same domain {'ai-collaboration', 'design'}
+  [WARN] dk-yb10-theory-moat-designer.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb11-visual-book-reverse.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb11-visual-book-reverse.md: all outbound links stay in same domain {'design'}
+  [WARN] dk-yb12-ai-image-analysis-replace-training.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb12-ai-image-analysis-replace-training.md: all outbound links stay in same domain {'design'}
+  [WARN] dk-yb13-zero-shot-style-transfer.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb13-zero-shot-style-transfer.md: all outbound links stay in same domain {'design'}
+  [WARN] dk-yb14-multi-image-commonality.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb14-multi-image-commonality.md: all outbound links stay in same domain {'design'}
+  [WARN] dk-yb15-reverse-image-description.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb16-ecommerce-product-image-vs-lucky-draw.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb17-product-lifestyle-photography.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb18-small-shop-image-mismatch.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb18-small-shop-image-mismatch.md: all outbound links stay in same domain {'yitang', 'business-strategy', 'design'}
+  [WARN] dk-yb19-visual-strategy-price-match.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb2-llm-muddy-clear-muddy.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb20-ai-eye-high-principle.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb21-ecommerce-pricing-independent-model.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb22-visual-presentation-scene-match.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb23-ai-pre-screen-three-minutes.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb24-ai-poster-de-ai-feeling.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb25-solution-driven-visual-design.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb26-chinese-food-photography-props.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb27-pseudo-layer-evasion.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb28-prompt-expiration-management.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb29-prompt-migrate-copy-first.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb3-diffusion-stepwise-vs-human-holistic.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb3-diffusion-stepwise-vs-human-holistic.md: all outbound links stay in same domain {'design'}
+  [WARN] dk-yb30-ecommerce-channel-version.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb31-style-first-controlnet.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb32-doubao-size-composition.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb4-nano-banana-style-reproduction.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb4-nano-banana-style-reproduction.md: all outbound links stay in same domain {'design'}
+  [WARN] dk-yb5-style-asset-archive.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb5-style-asset-archive.md: all outbound links stay in same domain {'ai-collaboration', 'design'}
+  [WARN] dk-yb6-midjourney-chinese-text-fix.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb7-design-demand-80-10-10.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb7-design-demand-80-10-10.md: all outbound links stay in same domain {'yitang', 'business-strategy', 'design'}
+  [WARN] dk-yb8-file-naming-eight-elements.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb9-cubox-deployment-failure.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-yb9-cubox-deployment-failure.md: all outbound links stay in same domain {'management', 'ai-collaboration', 'design'}
+  [WARN] dk-yitang-business-formula-plus-times-trap.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-半肥猫-atomic-no-standard.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-半肥猫-silky-answer-warning.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-半肥猫-skill-rejection-value.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-纪浩-ai-cant-design-structure.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-纪浩-ai-cant-design-structure.md: all outbound links stay in same domain {'yitang', 'ai-collaboration'}
+  [WARN] dk-纪浩-constraint-beats-talent.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-纪浩-constraint-beats-talent.md: all outbound links stay in same domain {'yitang', 'ai-collaboration'}
+  [WARN] dk-纪浩-logs-fastest-ignored.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-纪浩-logs-fastest-ignored.md: all outbound links stay in same domain {'yitang', 'ai-collaboration'}
+  [WARN] dk-纪浩-newbie-can-validate.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-纪浩-novice-mindset-advantage.md: Synthesis has 1 wikilinks (threshold: 2)
+  [WARN] dk-纪浩-novice-mindset-advantage.md: all outbound links stay in same domain {'yitang', 'ai-collaboration'}
+  [WARN] dk-纪浩-pdca-starts-from-do.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-纪浩-pdca-starts-from-do.md: all outbound links stay in same domain {'yitang', 'ai-collaboration'}
+  [WARN] dk-纪浩-problem-vs-question.md: Synthesis has 1 wikilinks (threshold: 2)
+  [WARN] dk-纪浩-problem-vs-question.md: all outbound links stay in same domain {'yitang', 'ai-collaboration'}
+  [WARN] dk-纪浩-simple-complex-routing.md: Synthesis has 0 wikilinks (threshold: 2)
+  [WARN] dk-纪浩-simple-complex-routing.md: all outbound links stay in same domain {'yitang', 'ai-collaboration'}
+  [FAIL] yt-note-ai-p-role-not-c-role.md: type is empty
+  [WARN] yt-note-ai-p-role-not-c-role.md: source_refs is empty
+  [FAIL] yt-note-p-c-role-boundary-realworld.md: type is empty
+  [WARN] yt-note-p-c-role-boundary-realworld.md: source_refs is empty
+  [WARN] yt-note-p-c-role-boundary-realworld.md: all outbound links stay in same domain {'yitang'}
+  [FAIL] yt-note-three-level-evolution.md: type is empty
+  [WARN] yt-note-three-level-evolution.md: source_refs is empty
+  [FAIL] Kimi-月之暗面.md: missing or unparseable frontmatter
+  [FAIL] YC-Y-Combinator.md: missing or unparseable frontmatter
+  [FAIL] 一堂.md: domain not a list: str
+  [WARN] 一堂.md: source_refs is empty
+  [WARN] 一堂.md: Synthesis has 0 wikilinks (threshold: 2)
+  [FAIL] 七件事集团.md: missing or unparseable frontmatter
+  [FAIL] 紫鲸AI.md: missing or unparseable frontmatter
+  [FAIL] 鑫港湾.md: missing or unparseable frontmatter
 
 ## Detector E: Domain 标签一致性
+  [FAIL] ai-collaboration-mindset-shift.md: non-list domain: None
+  [FAIL] ai-landing-scene-selection.md: non-list domain: None
+  [FAIL] ai-learning-closed-loop.md: non-list domain: None
+  [FAIL] ai-俱乐部人和-ai-协作-五层结构.md: non-list domain: None
+  [FAIL] ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md: non-list domain: None
+  [FAIL] contingency-decision-making.md: non-list domain: None
+  [FAIL] course-to-skill-conversion.md: non-list domain: None
+  [FAIL] find-old-do-small.md: non-list domain: None
+  [FAIL] ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01.md: non-list domain: None
+  [FAIL] ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md: non-list domain: None
+  [FAIL] ocr-一堂-ai学习-truman自用的ai-featureset.md: non-list domain: None
+  [FAIL] ocr-一堂-ai学习-提问工程化.md: non-list domain: None
+  [FAIL] ocr-一堂-ai学习-提问进化路线图.md: non-list domain: None
+  [FAIL] ocr-一堂-ai清单体笔记系统故事线-truman-图片01.md: non-list domain: None
+  [FAIL] ocr-一堂-ai清单体笔记训练段位图-truman-图片02.md: non-list domain: None
+  [FAIL] ocr-一堂-tcpr模型-皇冠模型.md: non-list domain: None
+  [FAIL] ocr-一堂-人机协作-双三角模型.md: non-list domain: None
+  [FAIL] ocr-一堂-创业必修-课程清单.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-abcd策略模型.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-tcpr底层网络协议.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-修炼地图.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-动态预测.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-单sku模型.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-单商圈模型.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-单城市模型.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-单客户模型.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-单履约模型.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-单柜子模型.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-单用户模型.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-单订单模型.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-单销售模型.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-单门店模型.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-基准值.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-壁垒预判.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-外部对抗地图.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-多模型情况.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-学练用.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-对抗小抄.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-对抗小抄01.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-对抗小抄02.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-扭蛋机案例.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-找全成本实操难点.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-找单元模型实操难点.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-找基准值实操难点.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-斧子尺子梯子.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-斧子尺子梯子详解.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-最简单元模型.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-段位专家.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-示例.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-示例01.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-规模对抗实操难点.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-规模经济对抗武器库.md: non-list domain: None
+  [FAIL] ocr-一堂-单元模型-象限分析法.md: non-list domain: None
+  [FAIL] ocr-一堂-科学决策-roi高阶训练全景图.md: non-list domain: None
+  [FAIL] ocr-一堂-科学决策-x型y型决策习惯对比.md: non-list domain: None
+  [FAIL] ocr-一堂-科学决策-决策三角形.md: non-list domain: None
+  [FAIL] ocr-一堂-科学决策-高水平共识曲线重要.md: non-list domain: None
+  [FAIL] ocr-一堂-高阶体系探索营-三种咨询可能性.md: non-list domain: None
+  [FAIL] ocr-一堂doc-单元模型-十大单元模型.md: non-list domain: None
+  [FAIL] pilot-atomic-chunk-comparison.md: non-list domain: None
+  [FAIL] prd-as-ai-instruction.md: non-list domain: None
+  [FAIL] skill-1视角升级思考法.md: non-list domain: None
+  [FAIL] skill-ai-ai-workspace-setup.md: non-list domain: 
+  [FAIL] skill-ai-evidence-check.md: non-list domain: 
+  [FAIL] skill-ai-narrative-test.md: non-list domain: 
+  [FAIL] skill-ai-old-small-checklist.md: non-list domain: 
+  [FAIL] skill-ai-oral-spray-input.md: non-list domain: 
+  [FAIL] skill-ai-parallel-validation.md: non-list domain: 
+  [FAIL] skill-ai-prd-for-ai.md: non-list domain: 
+  [FAIL] skill-ai-problem-validation.md: non-list domain: 
+  [FAIL] skill-ai-purpose-bias-check.md: non-list domain: 
+  [FAIL] skill-ai-system-redundancy.md: non-list domain: 
+  [FAIL] skill-ai-voice-input-doubao.md: non-list domain: 
+  [FAIL] skill-ai辅助学习.md: non-list domain: None
+  [FAIL] skill-react行动推理循环.md: non-list domain: None
+  [FAIL] skill-Truman-AI场景探索STAR模型.md: non-list domain: 
+  [FAIL] skill-Truman-AI工具选型决策.md: non-list domain: 
+  [FAIL] skill-Truman-AI时代IPO模型重构.md: non-list domain: 
+  [FAIL] skill-Truman-AI时代提示词优化法.md: non-list domain: 
+  [FAIL] skill-Truman-AI能力分层学习路径.md: non-list domain: 
+  [FAIL] skill-Truman-AI辅助思考伙伴养成.md: non-list domain: 
+  [FAIL] skill-Truman-AI输出审慎判断与交付确认.md: non-list domain: 
+  [FAIL] skill-Truman-Feature特性层训练法.md: non-list domain: 
+  [FAIL] skill-Truman-Skill全生命周期管理.md: non-list domain: 
+  [FAIL] skill-Truman-XY-Problem识别与真实问题定位.md: non-list domain: 
+  [FAIL] skill-Truman-上下文质量管理（AI协作）.md: non-list domain: 
+  [FAIL] skill-Truman-个人判断力系统建设（达克效应应对）.md: non-list domain: 
+  [FAIL] skill-Truman-人在环渐进自动化策略.md: non-list domain: 
+  [FAIL] skill-Truman-低质量动作识别与拒绝.md: non-list domain: 
+  [FAIL] skill-Truman-信息输入持续补全（防AI错误累积）.md: non-list domain: 
+  [FAIL] skill-Truman-判断力产品化与系统赋能.md: non-list domain: 
+  [FAIL] skill-Truman-双三角模型应用.md: non-list domain: 
+  [FAIL] skill-Truman-复杂项目AI落地稳定性保障.md: non-list domain: 
+  [FAIL] skill-Truman-多Agent通信协作方案.md: non-list domain: 
+  [FAIL] skill-Truman-开源模型与商业模型融合方案.md: non-list domain: 
+  [FAIL] skill-Truman-技术社区严肃提问法.md: non-list domain: 
+  [FAIL] skill-Truman-提示词优化底层方法.md: non-list domain: 
+  [FAIL] skill-Truman-数学题与语文题区分法.md: non-list domain: 
+  [FAIL] skill-Truman-本地记忆与云端记忆管理.md: non-list domain: 
+  [FAIL] skill-Truman-知识库最佳实践构建.md: non-list domain: 
+  [FAIL] skill-Truman-短视频自动化上传工作流.md: non-list domain: 
+  [FAIL] skill-Truman-科学提问法.md: non-list domain: 
+  [FAIL] skill-Truman-职场异步协作提问法.md: non-list domain: 
+  [FAIL] skill-Truman-语义对齐沟通法.md: non-list domain: 
+  [FAIL] skill-Truman-问题定义澄清法.md: non-list domain: 
+  [FAIL] skill-三阶追问法穷尽决策要素.md: non-list domain: None
+  [FAIL] skill-专家访谈十步法.md: non-list domain: None
+  [FAIL] skill-专家访谈学习.md: non-list domain: None
+  [FAIL] skill-专题笔记整理.md: non-list domain: None
+  [FAIL] skill-主动摘要压缩上下文.md: non-list domain: None
+  [FAIL] skill-人生红点战略对齐.md: non-list domain: None
+  [FAIL] skill-从案例中学习.md: non-list domain: None
+  [FAIL] skill-代入场景推演要素法.md: non-list domain: None
+  [FAIL] skill-任务拆解为工作流.md: non-list domain: None
+  [FAIL] skill-体系框架构建.md: non-list domain: None
+  [FAIL] skill-使用优先级快筛卡锁定核心矛盾.md: non-list domain: None
+  [FAIL] skill-使用概念辨析卡区分易混淆概念.md: non-list domain: None
+  [FAIL] skill-六维窗口期扫描法.md: non-list domain: None
+  [FAIL] skill-分层标注重点信息.md: non-list domain: None
+  [FAIL] skill-创始人二当家分工协作模式.md: non-list domain: None
+  [FAIL] skill-制作行业化要素检查清单.md: non-list domain: None
+  [FAIL] skill-动手建模提炼.md: non-list domain: None
+  [FAIL] skill-区分获客渠道计算单元roi.md: non-list domain: None
+  [FAIL] skill-反向提示获取优化建议.md: non-list domain: None
+  [FAIL] skill-反向教学深化理解.md: non-list domain: None
+  [FAIL] skill-反向记录整理思路.md: non-list domain: None
+  [FAIL] skill-反向采访挖掘深度.md: non-list domain: None
+  [FAIL] skill-城市合伙人模式复制能力.md: non-list domain: None
+  [FAIL] skill-增强数据供给.md: non-list domain: None
+  [FAIL] skill-复盘推演练习.md: non-list domain: None
+  [FAIL] skill-多模型对比抽卡.md: non-list domain: None
+  [FAIL] skill-多轮确认防偏差.md: non-list domain: None
+  [FAIL] skill-对标借鉴他人决策维度.md: non-list domain: None
+  [FAIL] skill-封装可复用skill.md: non-list domain: None
+  [FAIL] skill-将未中标成本纳入循环计算真实投标成本.md: non-list domain: None
+  [FAIL] skill-应用人员降级公式实现标准化.md: non-list domain: None
+  [FAIL] skill-建立知识联系.md: non-list domain: None
+  [FAIL] skill-建立策略-要素映射表设计对抗策略.md: non-list domain: None
+  [FAIL] skill-快招品牌总部模拟调研.md: non-list domain: None
+  [FAIL] skill-思维链显化推理.md: non-list domain: None
+  [FAIL] skill-思维验证交叉检验.md: non-list domain: None
+  [FAIL] skill-执行对标研究三步法.md: non-list domain: None
+  [FAIL] skill-按分阶练习路径渐进掌握方法.md: non-list domain: None
+  [FAIL] skill-按图索骥改良外部模板.md: non-list domain: None
+  [FAIL] skill-按月份摊销收入成本做计划.md: non-list domain: None
+  [FAIL] skill-推行分层标准化策略.md: non-list domain: None
+  [FAIL] skill-提升笔记练习频次的方法.md: non-list domain: None
+  [FAIL] skill-提示词结构化迭代.md: non-list domain: None
+  [FAIL] skill-敏捷发布快速迭代搭建体系.md: non-list domain: None
+  [FAIL] skill-数据分层供给.md: non-list domain: None
+  [FAIL] skill-李诞-个人IP的重新定义与输出策略.md: non-list domain: 
+  [FAIL] skill-李诞-内容创作中的观察训练法.md: non-list domain: 
+  [FAIL] skill-李诞-判断工作价值的交易成本视角.md: non-list domain: 
+  [FAIL] skill-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱.md: non-list domain: 
+  [FAIL] skill-李诞-销售闭环验证：从0到1的重新定义.md: non-list domain: 
+  [FAIL] skill-李诞-阅读重读机制：与书籍的-因缘-相遇.md: non-list domain: 
+  [FAIL] skill-李诞-面对过去错误的平静心法.md: non-list domain: 
+  [FAIL] skill-模型匹配调度.md: non-list domain: None
+  [FAIL] skill-模型组合调用.md: non-list domain: None
+  [FAIL] skill-水水-保持系统冗余.md: non-list domain: 
+  [FAIL] skill-水水-利用叙事驱动决策.md: non-list domain: 
+  [FAIL] skill-水水-利用基因漂变视角.md: non-list domain: 
+  [FAIL] skill-水水-区分风险与不确定性.md: non-list domain: 
+  [FAIL] skill-水水-接受发散性世界观.md: non-list domain: 
+  [FAIL] skill-水水-构建自利叙事.md: non-list domain: 
+  [FAIL] skill-水水-用感性维度构建溢价.md: non-list domain: 
+  [FAIL] skill-水水-练习坦然说不知道.md: non-list domain: 
+  [FAIL] skill-水水-警惕概率虚妄安全感.md: non-list domain: 
+  [FAIL] skill-水水-警惕错误归因.md: non-list domain: 
+  [FAIL] skill-水水-识别关键偶然因素.md: non-list domain: 
+  [FAIL] skill-水水-识别数据折磨陷阱.md: non-list domain: 
+  [FAIL] skill-水水-识别模型局限性.md: non-list domain: 
+  [FAIL] skill-水水-识别自证预言陷阱.md: non-list domain: 
+  [FAIL] skill-水水-识别超级传播者风险.md: non-list domain: 
+  [FAIL] skill-水水-识别饥饿效应.md: non-list domain: 
+  [FAIL] skill-水水-避免原生家庭万能归因.md: non-list domain: 
+  [FAIL] skill-水水-降低故事逻辑要求.md: non-list domain: 
+  [FAIL] skill-深度分层学习.md: non-list domain: None
+  [FAIL] skill-清单小抄制作.md: non-list domain: None
+  [FAIL] skill-清单式笔记法.md: non-list domain: None
+  [FAIL] skill-渐进式披露上下文.md: non-list domain: None
+  [FAIL] skill-现场建模式萃取笔记.md: non-list domain: None
+  [FAIL] skill-用topdown方式整理内化笔记.md: non-list domain: None
+  [FAIL] skill-用旗舰店替代纯招商投入.md: non-list domain: None
+  [FAIL] skill-用清单体记备忘笔记.md: non-list domain: None
+  [FAIL] skill-知识库团队管理.md: non-list domain: None
+  [FAIL] skill-稀缺资源机会成本比对法.md: non-list domain: None
+  [FAIL] skill-纪浩-Agent开工检查单制作法.md: non-list domain: 
+  [FAIL] skill-纪浩-AI使用边界管理法.md: non-list domain: 
+  [FAIL] skill-纪浩-AI工具脚本化约束.md: non-list domain: 
+  [FAIL] skill-纪浩-Problem与Question区分法.md: non-list domain: 
+  [FAIL] skill-纪浩-任务交付物标准化.md: non-list domain: 
+  [FAIL] skill-纪浩-低成本输出验证法.md: non-list domain: 
+  [FAIL] skill-纪浩-处理AI生成代码运行异常.md: non-list domain: 
+  [FAIL] skill-纪浩-多视角切换思考法.md: non-list domain: 
+  [FAIL] skill-纪浩-新手心态启动法.md: non-list domain: 
+  [FAIL] skill-纪浩-案例池构建法.md: non-list domain: 
+  [FAIL] skill-纪浩-线上问题应急值守.md: non-list domain: 
+  [FAIL] skill-纪浩-评估AI从零写UI的可行性.md: non-list domain: 
+  [FAIL] skill-纪浩-识别AI不可维护代码.md: non-list domain: 
+  [FAIL] skill-纪浩-里程碑验证法.md: non-list domain: 
+  [FAIL] skill-纪浩-问题导向备课法.md: non-list domain: 
+  [FAIL] skill-纪浩-项目启动五问法.md: non-list domain: 
+  [FAIL] skill-自我反馈修正笔记姿势.md: non-list domain: None
+  [FAIL] skill-自我反馈检验.md: non-list domain: None
+  [FAIL] skill-获取他人反馈优化笔记.md: non-list domain: None
+  [FAIL] skill-设定管理杠杆率指标评估效率.md: non-list domain: None
+  [FAIL] skill-设计对抗效果追踪看板.md: non-list domain: None
+  [FAIL] skill-费曼学习法三句话提炼.md: non-list domain: None
+  [FAIL] skill-费曼学习法实践讲香课题.md: non-list domain: None
+  [FAIL] skill-辩证讨论深化.md: non-list domain: None
+  [FAIL] skill-逐字稿练习演讲.md: non-list domain: None
+  [FAIL] skill-通过综合案例沙盘走通全流程.md: non-list domain: None
+  [FAIL] skill-通过请吃饭获取行业内部资料.md: non-list domain: None
+  [FAIL] skill-遵循规模前倾原则设计组织架构.md: non-list domain: None
+  [FAIL] skill-采用滚动预测机制.md: non-list domain: None
+  [FAIL] skill-项目复盘基本功.md: non-list domain: None
+  [FAIL] skill-马易-AI任务拆解提升控制度.md: non-list domain: 
+  [FAIL] skill-马易-AI搜索公网数据增强（合规边界）.md: non-list domain: 
+  [FAIL] skill-马易-AI答疑运营风格适配.md: non-list domain: 
+  [FAIL] skill-马易-AI能力团队复制.md: non-list domain: 
+  [FAIL] skill-马易-AI落地前置条件验证.md: non-list domain: 
+  [FAIL] skill-马易-AI落地四阶段验证法.md: non-list domain: 
+  [FAIL] skill-马易-AI落地场景筛选-四有新人法则.md: non-list domain: 
+  [FAIL] skill-马易-AI落地场景识别-拆工作流找场景.md: non-list domain: 
+  [FAIL] skill-马易-AI落地场景识别与拆分.md: non-list domain: 
+  [FAIL] skill-马易-AI落地能力内化训练.md: non-list domain: 
+  [FAIL] skill-马易-AI落地认知速成-最佳实践学习法.md: non-list domain: 
+  [FAIL] skill-马易-AI项目上线-先平行再独行.md: non-list domain: 
+  [FAIL] skill-马易-AI项目需求拆解筛选.md: non-list domain: 
+  [FAIL] skill-马易-RPA数据整合法.md: non-list domain: 
+  [FAIL] skill-马易-业务问题AI化拆解-餐饮设计案例法.md: non-list domain: 
+  [FAIL] skill-马易-中国企业AI落地五步法.md: non-list domain: 
+  [FAIL] skill-马易-低置信度样本黄金漏斗处理.md: non-list domain: 
+  [FAIL] skill-马易-公寓获客自跑通原则.md: non-list domain: 
+  [FAIL] skill-马易-关键假设识别与验证.md: non-list domain: 
+  [FAIL] skill-马易-减少输入噪音法.md: non-list domain: 
+  [FAIL] skill-马易-判断标准快速产出法.md: non-list domain: 
+  [FAIL] skill-马易-工作流拆解找场景.md: non-list domain: 
+  [FAIL] skill-马易-平台模式验证法.md: non-list domain: 
+  [FAIL] skill-马易-成为首位F工程师.md: non-list domain: 
+  [FAIL] skill-马易-数字员工FD拆解落地.md: non-list domain: 
+  [FAIL] skill-马易-数据存储架构选择.md: non-list domain: 
+  [FAIL] skill-马易-数据标注正确法.md: non-list domain: 
+  [FAIL] skill-马易-时间序列大模型场景识别.md: non-list domain: 
+  [FAIL] skill-马易-最小场景优先落地法.md: non-list domain: 
+  [FAIL] skill-马易-深度沉浸需求挖掘.md: non-list domain: 
+  [FAIL] skill-马易-痛点驱动的数字化.md: non-list domain: 
+  [FAIL] skill-马易-知识库-回答技巧双建设.md: non-list domain: 
+  [FAIL] skill-马易-视频转化关键要素标注校验.md: non-list domain: 
+  [FAIL] skill-马易-销售智能体体系搭建路径.md: non-list domain: 
+  [FAIL] skill-马易-隐性知识萃取与模型化.md: non-list domain: 
+  [FAIL] skill-马易-隐私安全分层解决.md: non-list domain: 
+  [FAIL] skill-马易-需求创造验证法.md: non-list domain: 
+  [FAIL] skill-马易-风口痛点识别法.md: non-list domain: 
+  [FAIL] structured-ai-workspace.md: non-list domain: None
+  [FAIL] voice-input-doubao.md: non-list domain: None
+  [FAIL] yt-management-basic-skills.md: non-list domain: 
+  [FAIL] yt-management-company-culture.md: non-list domain: 
+  [FAIL] yt-management-conversion-hacking.md: non-list domain: 
+  [FAIL] yt-management-finance-basics.md: non-list domain: 
+  [FAIL] yt-management-founder-role.md: non-list domain: 
+  [FAIL] yt-management-goal-management.md: non-list domain: 
+  [FAIL] yt-management-leadership-levels.md: non-list domain: 
+  [FAIL] yt-management-onboarding.md: non-list domain: 
+  [FAIL] yt-management-project-management.md: non-list domain: 
+  [FAIL] yt-management-scientific-decision.md: non-list domain: 
+  [FAIL] yt-management-scientific-hiring.md: non-list domain: 
+  [FAIL] yt-management-scientific-meetings.md: non-list domain: 
+  [FAIL] yt-management-strategy-meeting.md: non-list domain: 
+  [FAIL] yt-management-team-knowledge.md: non-list domain: 
+  [FAIL] 数据标注维度最佳实践调研报告.md: non-list domain: None
   [WARN] sk-ai-ai-workspace-setup.md: type=skill in dir=tools/ (expected tool)
   [WARN] sk-ai-evidence-check.md: type=skill in dir=tools/ (expected tool)
   [WARN] sk-ai-landing-five-steps.md: type=skill in dir=tools/ (expected tool)
@@ -3419,9 +5415,20 @@ KDO 健康巡检 — 2026-06-14 06:09
   [WARN] sk-ai-question-problem-checklist.md: type=skill in dir=tools/ (expected tool)
   [WARN] sk-ai-system-redundancy.md: type=skill in dir=tools/ (expected tool)
   [WARN] sk-ai-voice-input-doubao.md: type=skill in dir=tools/ (expected tool)
+  [FAIL] yt-tool-unit-model-ai-assisted.md: non-list domain: 
+  [FAIL] yt-tool-unit-model-benchmark.md: non-list domain: 
+  [FAIL] yt-tool-unit-model-construction.md: non-list domain: 
+  [FAIL] yt-tool-unit-model-dynamic.md: non-list domain: 
+  [FAIL] yt-tool-unit-model-selection.md: non-list domain: 
+  [FAIL] case-ether-online-acquisition.md: non-list domain: 
   [WARN] dk-ai-entrepreneur-technical-blindspot.md: type=dk in dir=dark-knowledges/ (expected dark-knowledge)
+  [FAIL] dk-ef-001-sn74lvc2g07-open-drain.md: non-list domain: None
+  [FAIL] dk-ef-002-bom-version-async.md: non-list domain: None
+  [FAIL] dk-ef-003-hand-soldering-bom-divergence.md: non-list domain: None
+  [FAIL] dk-ef-004-missing-diagnostic-firmware.md: non-list domain: None
   [WARN] dk-foresight-tier-skip-illusion.md: type=dk in dir=dark-knowledges/ (expected dark-knowledge)
   [WARN] dk-mckinsey-hypothesis-driven-pitfalls.md: type=dk in dir=dark-knowledges/ (expected dark-knowledge)
+  [FAIL] dk-p15-unverified.md: non-list domain: None
   [WARN] dk-pseudo-demand-trap.md: type=dk in dir=dark-knowledges/ (expected dark-knowledge)
   [WARN] dk-signal-cluster-illusion.md: type=dk in dir=dark-knowledges/ (expected dark-knowledge)
   [WARN] dk-一堂-wishful-thinking-kills-startups.md: type=dk in dir=dark-knowledges/ (expected dark-knowledge)
@@ -3431,81 +5438,79 @@ KDO 健康巡检 — 2026-06-14 06:09
   [WARN] dk-纪浩-logs-fastest-ignored.md: type=dk in dir=dark-knowledges/ (expected dark-knowledge)
   [WARN] dk-纪浩-pdca-starts-from-do.md: type=dk in dir=dark-knowledges/ (expected dark-knowledge)
   [WARN] dk-纪浩-simple-complex-routing.md: type=dk in dir=dark-knowledges/ (expected dark-knowledge)
+  [FAIL] 一堂.md: non-list domain: 
+  [WARN] [全库]: domain vacancy rate: 284/1280 = 22.2% (>20%)
 
 ## Detector D: 索引更新
-  • Card index file: updated (997 cards)
+  • Card index file: updated (1262 cards)
 
 ## Detector S: 入库置信度门禁
 
-### ⛔ BLOCKED (1 cards)
-  [FAIL] ai-native-五层进阶从答案到效率到作品到产品到系统.md: missing confidence field (created=“2026-05-2)
-       → BLOCKED — add confidence: <0.0-1.0> with documented basis
-
-### ⚠️ WARNING (1345 cards)
-  [WARN] 2026-05-17-深夜感想.md: missing confidence field (created=2026-05-21)
-       → 存量卡 — 建议补充 confidence 字段
+### ⚠️ WARNING (920 cards)
   [WARN] 2026-05-17-深夜感想.md: single source (src_20260522_390d75a8) — needs second independent source
+       → cross-validate with at least one other independent source
+  [WARN] ai-collaboration-mindset-shift.md: single source (src_20260606_42e11f09) — needs second independent source
+       → cross-validate with at least one other independent source
+  [WARN] ai-hackathon-pitches.md: confidence=0.65 (0.5-0.7) — WARN: status should be draft
+       → set status:draft, seek additional verification
+  [WARN] ai-landing-scene-selection.md: single source (src_20260606_ef4877d0) — needs second independent source
+       → cross-validate with at least one other independent source
+  [WARN] ai-learning-closed-loop.md: single source (src_20260606_90b44191) — needs second independent source
+       → cross-validate with at least one other independent source
+  [WARN] ai-native-im-multi-agent.md: single source (src_20260614_c5115d2c) — needs second independent source
        → cross-validate with at least one other independent source
   [WARN] ai-native-五层进阶从答案到效率到作品到产品到系统.md: single source ([“src_20260524_3cadf228”]) — needs second independent source
        → cross-validate with at least one other independent source
-  [WARN] ai-short-drama-ice-fire-scripting-compass.md: missing confidence field (created=2026-06-13)
-       → 存量卡 — 建议补充 confidence 字段
-  [WARN] aigc文创案例设计课leo文创ip从0到1全流程.md: missing confidence field (created=2026-05-28)
-       → 存量卡 — 建议补充 confidence 字段
+  [WARN] ai-俱乐部人和-ai-协作-五层结构.md: single source (src_20260609_8e64b361) — needs second independent source
+       → cross-validate with at least one other independent source
+  [WARN] ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper.md: single source (src_20260609_dade3353) — needs second independent source
+       → cross-validate with at least one other independent source
   [WARN] aigc文创案例设计课leo文创ip从0到1全流程.md: single source (src_20260528_4277c6be) — needs second independent source
        → cross-validate with at least one other independent source
-  [WARN] aigc设计基础01ai生图原理与提示词基本功.md: missing confidence field (created=2026-05-28)
-       → 存量卡 — 建议补充 confidence 字段
-  [WARN] aigc设计基础01ai生图原理与提示词基本功.md: single source (src_20260528_2ba8539f) — needs second independent source
-       → cross-validate with at least one other independent source
-  [WARN] aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md: missing confidence field (created=2026-05-28)
-       → 存量卡 — 建议补充 confidence 字段
-  [WARN] aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md: single source (src_20260528_04be660c) — needs second independent source
-       → cross-validate with at least one other independent source
-  ... and 1335 more
+  ... and 910 more
 
 ## Detector N: 链接密度扫描
 
-### bridges_to 缺失 (多域卡) (164 cards)
+### bridges_to 缺失 (多域卡) (263 cards)
+  [WARN] ai-hackathon-pitches.md: bridges_to empty (multi-domain: ['ai', 'entrepreneur', 'product'])
+  [WARN] ai-native-im-multi-agent.md: bridges_to empty (multi-domain: ['ai', 'product', 'ai-collaboration'])
   [WARN] ai-short-drama-ice-fire-scripting-compass.md: bridges_to empty (multi-domain: ['yitang', 'ai-collaboration', 'product'])
+  [WARN] ai-short-drama-platform-policy-comparison.md: bridges_to empty (multi-domain: ['yitang', 'ai-collaboration', 'product'])
   [WARN] aigc文创案例设计课leo文创ip从0到1全流程.md: bridges_to empty (multi-domain: ['ai-saas', 'design'])
   [WARN] aigc设计基础01ai生图原理与提示词基本功.md: bridges_to empty (multi-domain: ['ai-saas', 'design'])
   [WARN] aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md: bridges_to empty (multi-domain: ['ai-saas', 'design', 'business-strategy'])
+  [WARN] business-validation-models-collaboration.md: bridges_to empty (multi-domain: ['business-strategy', 'entrepreneur', 'ai'])
   [WARN] concept-ai-native-organization-five-steps.md: bridges_to empty (multi-domain: ['ai-native', 'management'])
-  [WARN] concept-一堂-business-prediction.md: bridges_to empty (multi-domain: ['product', 'yitang'])
-  [WARN] concept-一堂-hypothesis-driven-business-methodology.md: bridges_to empty (multi-domain: ['yitang', 'business-strategy'])
-  [WARN] concept-一堂-kernel-iteration.md: bridges_to empty (multi-domain: ['product', 'yitang'])
-  [WARN] concept-一堂-kernel-validation.md: bridges_to empty (multi-domain: ['product', 'yitang'])
-  [WARN] concept-一堂-key-assumptions.md: bridges_to empty (multi-domain: ['product', 'yitang'])
-  ... and 154 more
+  [WARN] concept-smart-medicine-cabinet-consumer-acceptance.md: bridges_to empty (multi-domain: ['healthcare', 'business-strategy', 'product'])
+  ... and 253 more
 
 ### Hub-spoke 失衡 (3 cards)
-  [INFO] master-decision-hygiene.md: hub node: 44 inbound links but only 0 outbound (ratio 44.0:1)
+  [INFO] master-decision-hygiene.md: hub node: 46 inbound links but only 0 outbound (ratio 46.0:1)
   [INFO] yt-decision-depth-ladder.md: hub node: 27 inbound links but only 0 outbound (ratio 27.0:1)
-  [INFO] yt-decision-width-method.md: hub node: 28 inbound links but only 0 outbound (ratio 28.0:1)
+  [INFO] yt-decision-width-method.md: hub node: 29 inbound links but only 0 outbound (ratio 29.0:1)
 
-### related 字段为空 (66 cards)
+### related 字段为空 (74 cards)
   [WARN] yt-ai-startup-20-risky-hypotheses.md: related field is empty
   [WARN] yt-ai-trend-12-signals.md: related field is empty
   [WARN] yt-barrier-analysis-cheat-sheet.md: related field is empty
   [WARN] yt-customer-acquisition-toolkit.md: related field is empty
   [WARN] yt-demand-analysis-hiking-map.md: related field is empty
   [WARN] yt-entrepreneur-259-milestone.md: related field is empty
+  [WARN] yt-entrepreneur-barriers.md: related field is empty
   [WARN] yt-entrepreneur-business-growth.md: related field is empty
   [WARN] yt-entrepreneur-channel-exploration.md: related field is empty
   [WARN] yt-entrepreneur-concentration-analysis.md: related field is empty
-  [WARN] yt-entrepreneur-fundraising.md: related field is empty
-  ... and 56 more
+  ... and 64 more
 
-### Synthesis 链接不足 (<5) (107 cards)
+### Synthesis 链接不足 (<5) (182 cards)
+  [WARN] course-to-skill-conversion.md: Synthesis has 4 wikilinks (threshold: 5)
+  [WARN] find-old-do-small.md: Synthesis has 3 wikilinks (threshold: 5)
   [WARN] master-ai-info-literacy.md: Synthesis has 0 wikilinks (threshold: 5)
   [WARN] master-antifragile-checklist.md: Synthesis has 0 wikilinks (threshold: 5)
   [WARN] master-cognitive-bias-checklist.md: Synthesis has 0 wikilinks (threshold: 5)
   [WARN] master-decision-hygiene.md: Synthesis has 0 wikilinks (threshold: 5)
   [WARN] master-first-principles.md: Synthesis has 0 wikilinks (threshold: 5)
-  [WARN] yt-ai-startup-20-risky-hypotheses.md: Synthesis has 3 wikilinks (threshold: 5)
-  [WARN] yt-ai-trend-12-signals.md: Synthesis has 3 wikilinks (threshold: 5)
-  [WARN] yt-customer-acquisition-toolkit.md: Synthesis has 3 wikilinks (threshold: 5)
-  [WARN] yt-decision-ai-partner.md: Synthesis has 0 wikilinks (threshold: 5)
-  [WARN] yt-decision-canvas.md: Synthesis has 0 wikilinks (threshold: 5)
-  ... and 97 more
+  [WARN] prd-as-ai-instruction.md: Synthesis has 3 wikilinks (threshold: 5)
+  [WARN] structured-ai-workspace.md: Synthesis has 3 wikilinks (threshold: 5)
+  [WARN] voice-input-doubao.md: Synthesis has 2 wikilinks (threshold: 5)
+  ... and 172 more

@@ -1,27 +1,21 @@
-# Concept Card Index — 2026-06-14 14:00 UTC
+# Concept Card Index — 2026-06-14 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
-| case-personal-map-modeling | 案例：一堂个人地图的完整建模过程 | case | yitang, modeling |
-| case-child-drawing-rhyme | 案例：孩子控笔「画画歌」——最小单元的建模实践 | case | yitang, modeling |
-| case-zhangyang-anchor-sop-three-locks | 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100% | case | yitang, modeling |
-| case-yitang-radar-chart-selection | 案例：一堂雷达图评选机制——从 Truman 拍板到“只聊模型不聊结果” | case | yitang, modeling |
-| case-ai-agent-milestone-design | 案例：Truman 用 AI Agent 3 小时设计里程碑方法论与 48 个组件 | case | yitang, modeling, ai |
-| case-ai-assisted-review | 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己 | case | yitang, modeling, ai |
-| case-essence-humanity-trap | 案例：招聘/股权/激励专家都把本质归为“人性”——解释性本质的陷阱 | case | yitang, modeling |
-| case-thousand-people-square | 案例：一堂「千人广场模型」——用统计建模心态做课 | case | yitang, education |
-| concept-thousand-people-square | 千人广场模型：一堂做课背后的统计建模理念 | concept | yitang, education |
-| case-course-milestone-model | 案例：一堂课程里程碑模型——方法论级建模的六步生产流程 | case | yitang, education |
-| framework-course-milestone-model | 课程里程碑模型：一堂做课的七步生产流程 | framework | yitang, education |
-| framework-logic-cleanliness-five-levels | 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准 | framework | yitang, modeling |
-| case-yitang-education-supply-chain | 案例：一堂是「教育供应链创新公司」——从真实实践里种菜、摘菜、炒菜 | case | yitang, education |
-| case-nine-pm-livestream-survey | 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选 | case | yitang, user-research |
-| dk-weekly-modeling-iteration-growth-engine | 暗知识：一堂真正的增长引擎是「周对周的建模能力增长」 | dark-knowledge | yitang, modeling |
 | 2026-05-17-深夜感想 | 2026-05-17 深夜感想 | concept | ai-saas |
+| EC工业化规范手册 | EC工业化规范手册 | concept | healthcare |
+| HIS系统开发实现方案-架构师指南 | HIS系统开发实现方案-架构师指南 | concept | healthcare |
+| HIS系统深度调研 | HIS系统深度调研 | concept | healthcare |
+| ai-collaboration-mindset-shift | ai-collaboration-mindset-shift | concept |  |
+| ai-hackathon-pitches | AI 大航海项目路演：主题综合知识卡 | concept | ai, entrepreneur, product |
+| ai-landing-scene-selection | ai-landing-scene-selection | concept |  |
+| ai-learning-closed-loop | ai-learning-closed-loop | concept |  |
+| ai-native-im-multi-agent | AI 原生 IM：让 Agent 成为一等公民的协作基础设施 | concept | ai, product, ai-collaboration |
 | ai-native-五层进阶从答案到效率到作品到产品到系统 | “AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统” | “framework” | ai-saas |
 | ai-short-drama-ice-fire-scripting-compass | 冰火写本罗盘：AI短剧剧本策划全流程体系 | concept | yitang, ai-collaboration, product |
 | ai-short-drama-platform-policy-comparison | 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果 | concept | yitang, ai-collaboration, product |
-| modeling-capability-system | 高阶建模能力体系：一堂从经验到规律的教研方法论 | concept | yitang, product, ai-collaboration |
+| ai-俱乐部人和-ai-协作-五层结构 | AI 俱乐部·人和 AI 协作 — 五层结构 | concept |  |
+| ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper | AI 俱乐部·人和 AI 协作 — 参考案例对比（一堂 vs SQL-Helper） | concept |  |
 | aigc文创案例设计课leo文创ip从0到1全流程 | AIGC文创案例设计课：Leo文创IP从0到1全流程 | concept | ai-saas, design |
 | aigc设计基础01ai生图原理与提示词基本功 | AIGC设计基础01：AI生图原理与提示词基本功 | concept | ai-saas, design |
 | aigc设计师实操培训01口喷设计范式与电商ai设计全流程 | AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程 | concept | ai-saas, design, business-strategy |
@@ -33,10 +27,18 @@
 | anthropic-官方发布创始人手册打造-ai-原生初创公司 | AI 原生创业四阶段模型（Anthropic 创始人手册） | concept | entrepreneur |
 | business-analysis | Business Analysis | concept | ai-saas |
 | business-research-skill-oscar-13-weapon-system | Business Research Skill — OSCAR 13武器体系 Claude Code 实现 | concept | ['yitang'] |
+| business-validation-models-collaboration | AI 时代的业务验证、商业模式与组织协作 | concept | business-strategy, entrepreneur, ai |
 | concept-ai-native-organization-five-steps | concept-ai-native-organization-five-steps | concept | ai-native, management |
 | concept-five-step-growth-to-barrier-transition | 五步法衔接：什么时候从增长切换到壁垒建设 | concept | yitang |
 | concept-mckinsey-issue-tree | Issue Tree：问题树拆解 | concept | consulting, problem-solving, structured-thinking |
 | concept-mckinsey-mece | MECE 原则：相互独立、完全究尽 | concept | consulting, structured-thinking, business-strategy |
+| concept-smart-medicine-cabinet-consumer-acceptance | 消费者购药行为与智能药柜接受度 | concept | healthcare, business-strategy, product |
+| concept-smart-medicine-cabinet-digital-pharmacy-diagnosis | 智能药柜/数字药房项目诊断：大院处方、小院续方模式 | concept | healthcare, business-strategy |
+| concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet | 巨头为何不做诊所+智能药柜：竞争格局与壁垒分析 | concept | healthcare, business-strategy |
+| concept-smart-medicine-cabinet-international-models | 国际自动取药机/药房模式经验与启示 | concept | healthcare, business-strategy |
+| concept-smart-medicine-cabinet-platform-cooperation-validation | 智能药柜平台合作命题交叉验证（美团/饿了么/阿里健康/京东） | concept | healthcare, business-strategy |
+| concept-smart-medicine-cabinet-supply-chain-validation | 智能药柜供应链/技术方案交叉验证 | concept | healthcare, business-strategy |
+| concept-thousand-people-square | 千人广场模型：一堂做课背后的统计建模理念 | concept | yitang, education, modeling |
 | concept-一堂-business-prediction | 商业预判：15字诀与光谱模型——从拍脑袋到科学决策 | concept | product, yitang |
 | concept-一堂-hypothesis-driven-business-methodology | 一堂假设驱动型创业分析方法论 | concept | yitang, business-strategy |
 | concept-一堂-kernel-iteration | 产品内核迭代：从静态到动态的五方向演化 | concept | product, yitang |
@@ -46,14 +48,17 @@
 | concept-半肥猫-ai-learning-toolification-methodology | 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进 | concept | ai-collaboration, yitang, learning |
 | concept-纪浩-ai-collaboration-five-layer | 概念：纪浩AI协作五层工作空间法 | concept | ai-collaboration, yitang |
 | concept-纪浩-ai-collaboration-methodology | 纪浩 AI 协作方法论：从判断到规模复用的五层体系 | concept | ai-collaboration, yitang |
+| contingency-decision-making | contingency-decision-making | concept |  |
+| course-to-skill-conversion | course-to-skill-conversion | tool |  |
 | data-labeling-best-practices-report | 数据标注最佳实践调研报告 | concept | master |
 | deepseek-v4-在知识管理系统中的应用 | DeepSeek V4 在知识管理系统中的应用 | concept | healthcare |
 | design-ai-image-generation | Design / Ai Image Generation | concept | yitang |
 | ec工业化规范手册-v2.8.0 | EC工业化规范手册 v2.8.0 | concept | healthcare |
-| EC工业化规范手册 | EC工业化规范手册 | concept | healthcare |
+| fd-forward-deployment | Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式 | concept | business-strategy, ai-saas |
+| finance-legal-business-operations | 企业财务-法务-商务运营实务 | concept | business-strategy, entrepreneur, management |
+| find-old-do-small | find-old-do-small | tool |  |
 | graph-rag | Graph RAG — Knowledge-Graph-Powered Retrieval | concept | ['ai-saas'] |
-| HIS系统开发实现方案-架构师指南 | HIS系统开发实现方案-架构师指南 | concept | healthcare |
-| HIS系统深度调研 | HIS系统深度调研 | concept | healthcare |
+| industry-ai-cases | 产业 AI 落地案例集（非药柜） | concept | ai, ai-saas, entrepreneur |
 | kdo-flywheel | KDO 飞轮 — 建造→使用→反思→实验 | concept | master |
 | kdo-yaml-frontmatter-safety | KDO YAML Frontmatter 安全操作指南 | concept | master |
 | kdo_product_design_agent_final | Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版) | concept | ai-saas |
@@ -69,13 +74,23 @@
 | master-knowledge-compound | 知识复利：IPO+萃取+管理的上位整合 | concept | master |
 | master-systems-thinking | 系统思考：反馈循环与杠杆点 | concept | master |
 | meta-prompt-eng | Meta Prompt Eng | concept | ai-saas |
+| modeling-capability-system | 高阶建模能力体系：一堂从经验到规律的教研方法论 | concept | yitang, product, ai-collaboration |
+| modeling-three-values | 建模的三重价值：确定性、框架性、迁移性 | concept | yitang, modeling |
 | obsidian-kdo-内容产出工作流-产品设计大纲 | Obsidian + KDO 内容产出工作流 — 产品设计大纲 | concept | ai-saas |
+| ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01 | OCR: AI俱乐部-人和AI协作-纪浩-五层结构-图片01 | concept |  |
+| ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02 | OCR: AI俱乐部-人和AI协作-纪浩-参考案例-图片02 | concept |  |
 | ocr-ocr_screenshot2 | OCR: ocr_screenshot2 | concept | healthcare |
 | ocr-ocr_snipaste_2026-05-15_21-39-40 | OCR: ocr_Snipaste_2026-05-15_21-39-40 | concept | healthcare |
 | ocr-screenshot1 | OCR: screenshot1 | concept | healthcare |
 | ocr-screenshot2 | OCR: screenshot2 | concept | ai-saas |
 | ocr-truman的个人成长五步法 | OCR: Truman的个人成长五步法 | concept | healthcare |
 | ocr-truman的选择两条职业成长路线 | OCR: truman的选择：两条职业成长路线 | concept | ai-saas |
+| ocr-一堂-ai学习-truman自用的ai-featureset | OCR: 一堂-AI学习-truman自用的AI FeatureSet | concept |  |
+| ocr-一堂-ai学习-提问工程化 | OCR: 一堂-AI学习-提问工程化 | concept |  |
+| ocr-一堂-ai学习-提问进化路线图 | OCR: 一堂-AI学习-提问进化路线图 | concept |  |
+| ocr-一堂-ai清单体笔记系统故事线-truman-图片01 | OCR: 一堂-AI清单体笔记（系统故事线）-truman-图片01 | concept |  |
+| ocr-一堂-ai清单体笔记训练段位图-truman-图片02 | OCR: 一堂-AI清单体笔记（训练段位图）-truman-图片02 | concept |  |
+| ocr-一堂-tcpr模型-皇冠模型 | OCR: 一堂-TCPR模型-皇冠模型 | concept |  |
 | ocr-一堂-个人修炼-y模型 | OCR: 一堂-个人修炼-Y模型 | concept | yitang |
 | ocr-一堂-个人修炼-全景图muse模型 | OCR: 一堂-个人修炼-全景图MUSE模型 | concept | yitang |
 | ocr-一堂-个人修炼-双三角模型 | OCR: 一堂-个人修炼-双三角模型 | concept | yitang |
@@ -123,6 +138,7 @@
 | ocr-一堂-单元模型-斧子尺子梯子详解 | OCR: 一堂-单元模型-斧子尺子梯子详解 | concept |  |
 | ocr-一堂-单元模型-最简单元模型 | OCR: 一堂-单元模型-最简单元模型 | concept |  |
 | ocr-一堂-单元模型-段位专家 | OCR: 一堂-单元模型-段位专家 | concept |  |
+| ocr-一堂-单元模型-示例 | OCR: 一堂-单元模型-示例 | concept |  |
 | ocr-一堂-单元模型-示例01 | OCR: 一堂-单元模型-示例01 | concept |  |
 | ocr-一堂-单元模型-规模对抗实操难点 | OCR: 一堂-单元模型-规模对抗实操难点 | concept |  |
 | ocr-一堂-单元模型-规模经济对抗武器库 | OCR: 一堂-单元模型-规模经济对抗武器库 | concept |  |
@@ -140,6 +156,7 @@
 | ocr-一堂-科学决策-roi决策评估画布-案例03 | OCR: 一堂-科学决策-ROI决策评估画布-案例03 | concept | yitang |
 | ocr-一堂-科学决策-roi决策评估画布-案例04 | OCR: 一堂-科学决策-ROI决策评估画布-案例04 | concept | yitang |
 | ocr-一堂-科学决策-roi决策评估画布 | OCR: 一堂-科学决策-ROI决策评估画布 | concept | yitang |
+| ocr-一堂-科学决策-roi高阶训练全景图 | OCR: 一堂-科学决策-ROI高阶训练全景图 | concept |  |
 | ocr-一堂-科学决策-x型y型决策习惯对比 | OCR: 一堂-科学决策-X型Y型决策习惯对比 | concept |  |
 | ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步 | OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步 | concept | yitang |
 | ocr-一堂-科学决策-人机协作决策 | OCR: 一堂-科学决策-人机协作决策 | concept | yitang |
@@ -247,21 +264,56 @@
 | ocr-项目背景问题思考的8个维度 | OCR: 项目背景问题思考的8个维度 | concept | yitang |
 | ocr-预判模型 | OCR: 预判模型 | concept | ai-saas |
 | paddleocr-skill | PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill | concept | ['master'] |
+| personal-growth-complex-systems | 个人成长：复杂系统、消除模糊与 AI 时代个体系统 | concept | personal-growth, learning-methodology, master |
+| pilot-atomic-chunk-comparison | Pilot：master-decision-hygiene 真原子切分对比 | comparison |  |
+| prd-as-ai-instruction | prd-as-ai-instruction | tool |  |
+| product-business-strategy | 产品-商业战略综合：设备运营、方向取舍与产品开发 | concept | product, business-strategy, entrepreneur |
 | product-ux | Product Ux | concept | ai-saas |
 | research_methodology | Kimi 深度调研集群方法论 (Deep-Research-Swarm) | concept | ai-saas |
-| sales-pitch-bias-patterns | 销售话术偏误模式库 | concept | 销售, 沟通分析, 供应商评估 |
 | skill-1视角升级思考法 | 技能：+1视角升级思考法 | skill |  |
-| skill-ai-four-elements-validation | 技能：真需求四要素验证法 | skill | AI, 决策, 产品 |
-| skill-ai-info-literacy-three-layer | 技能：AI输出三层防护检查法 | skill | AI, 信息素养, 质量检查 |
-| skill-ai-landing-five-steps | 技能：AI落地五步执行流程 | skill | AI, 落地, 执行 |
-| skill-ai-problem-question-check | 技能：Problem vs Question 区分法 | skill | AI, 决策 |
-| skill-ai-research-five-steps | 技能：AI调研五步法 | skill | AI, 调研, 信息素养 |
-| skill-ai-scene-four-elements | 技能：AI落地场景四要素评估法 | skill | AI, 落地, 评估 |
+| skill-Truman-AI场景探索STAR模型 | 技能：AI场景探索STAR模型 | skill |  |
+| skill-Truman-AI工具选型决策 | 技能：AI工具选型决策 | skill |  |
+| skill-Truman-AI时代IPO模型重构 | 技能：AI时代IPO模型重构 | skill |  |
+| skill-Truman-AI时代提示词优化法 | 技能：AI时代提示词优化法 | skill |  |
+| skill-Truman-AI能力分层学习路径 | 技能：AI能力分层学习路径 | skill |  |
+| skill-Truman-AI辅助思考伙伴养成 | 技能：AI辅助思考伙伴养成 | skill |  |
+| skill-Truman-AI输出审慎判断与交付确认 | 技能：AI输出审慎判断与交付确认 | skill |  |
+| skill-Truman-Feature特性层训练法 | 技能：Feature特性层训练法 | skill |  |
+| skill-Truman-Skill全生命周期管理 | 技能：Skill全生命周期管理 | skill |  |
+| skill-Truman-XY-Problem识别与真实问题定位 | 技能：XY Problem识别与真实问题定位 | skill |  |
+| skill-Truman-上下文质量管理（AI协作） | 技能：上下文质量管理（AI协作） | skill |  |
+| skill-Truman-个人判断力系统建设（达克效应应对） | 技能：个人判断力系统建设（达克效应应对） | skill |  |
+| skill-Truman-人在环渐进自动化策略 | 技能：人在环渐进自动化策略 | skill |  |
+| skill-Truman-低质量动作识别与拒绝 | 技能：低质量动作识别与拒绝 | skill |  |
+| skill-Truman-信息输入持续补全（防AI错误累积） | 技能：信息输入持续补全（防AI错误累积） | skill |  |
+| skill-Truman-判断力产品化与系统赋能 | 技能：判断力产品化与系统赋能 | skill |  |
+| skill-Truman-双三角模型应用 | 技能：双三角模型应用 | skill |  |
+| skill-Truman-复杂项目AI落地稳定性保障 | 技能：复杂项目AI落地稳定性保障 | skill |  |
+| skill-Truman-多Agent通信协作方案 | 技能：多Agent通信协作方案 | skill |  |
+| skill-Truman-开源模型与商业模型融合方案 | 技能：开源模型与商业模型融合方案 | skill |  |
+| skill-Truman-技术社区严肃提问法 | 技能：技术社区严肃提问法 | skill |  |
+| skill-Truman-提示词优化底层方法 | 技能：提示词优化底层方法 | skill |  |
+| skill-Truman-数学题与语文题区分法 | 技能：数学题与语文题区分法 | skill |  |
+| skill-Truman-本地记忆与云端记忆管理 | 技能：本地记忆与云端记忆管理 | skill |  |
+| skill-Truman-知识库最佳实践构建 | 技能：知识库最佳实践构建 | skill |  |
+| skill-Truman-短视频自动化上传工作流 | 技能：短视频自动化上传工作流 | skill |  |
+| skill-Truman-科学提问法 | 技能：科学提问法 | skill |  |
+| skill-Truman-职场异步协作提问法 | 技能：职场异步协作提问法 | skill |  |
+| skill-Truman-语义对齐沟通法 | 技能：语义对齐沟通法 | skill |  |
+| skill-Truman-问题定义澄清法 | 技能：问题定义澄清法 | skill |  |
+| skill-ai-ai-workspace-setup | 技能：结构化AI工作空间搭建 | skill |  |
+| skill-ai-evidence-check | 技能：AI输出证据核查三问法 | skill |  |
+| skill-ai-narrative-test | 技能：你的方案有叙事力吗？快速测试 | skill |  |
+| skill-ai-old-small-checklist | 技能：“找老的干小的”场景评估清单 | skill |  |
+| skill-ai-oral-spray-input | 技能：用口喷输入法生成高质量 AI 提示词 | skill |  |
+| skill-ai-parallel-validation | 技能：平行运行验证法 | skill |  |
+| skill-ai-prd-for-ai | 技能：把PRD写成AI能执行的指令 | skill |  |
+| skill-ai-problem-validation | 技能：问题验证三维度法 | skill |  |
+| skill-ai-purpose-bias-check | 技能：目的论偏差快速识别法 | skill |  |
+| skill-ai-system-redundancy | 技能：系统冗余度快速检查清单 | skill |  |
+| skill-ai-voice-input-doubao | 技能：口喷式语音输入法 | skill |  |
 | skill-ai辅助学习 | 技能：AI辅助学习 | skill |  |
-| skill-cognitive-bias-12-check | 技能：12种认知偏差完整自检 | skill | 决策, 认知, 心理学 |
-| skill-decision-delay-intuition | 技能：延迟直觉法 | skill | 决策, 认知, 个人管理 |
 | skill-decision-outside-view | 技能：团队决策外部视角法 | skill | 决策, 团队, 噪声减少 |
-| skill-first-principles-assumption-classify | 技能：假设分类法（第一性原理） | skill | 创新, 思维, 产品 |
 | skill-mece体系框架法 | 技能：MECE体系框架法 | skill | learning-methodology, yitang |
 | skill-react行动推理循环 | 技能：ReACT行动推理循环 | skill |  |
 | skill-一堂-business-prediction-15-char | 技能：商业预判15字诀 | skill | product, yitang |
@@ -537,9 +589,34 @@
 | skill-月白-风格探索试错法 | 技能：风格探索试错法 | skill | design |
 | skill-月白-餐饮海报AB测试法 | 技能：餐饮海报AB测试法 | skill | design |
 | skill-月白-餐饮类线下设计调性把控 | 技能：餐饮类线下设计调性把控 | skill | design |
+| skill-李诞-个人IP的重新定义与输出策略 | 技能：个人IP的重新定义与输出策略 | skill |  |
+| skill-李诞-内容创作中的观察训练法 | 技能：内容创作中的观察训练法 | skill |  |
+| skill-李诞-判断工作价值的交易成本视角 | 技能：判断工作价值的交易成本视角 | skill |  |
+| skill-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱 | 技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱 | skill |  |
+| skill-李诞-销售闭环验证：从0到1的重新定义 | 技能：销售闭环验证：从0到1的重新定义 | skill |  |
+| skill-李诞-阅读重读机制：与书籍的-因缘-相遇 | 技能：阅读重读机制：与书籍的'因缘'相遇 | skill |  |
+| skill-李诞-面对过去错误的平静心法 | 技能：面对过去错误的平静心法 | skill |  |
 | skill-模型匹配调度 | 技能：模型匹配调度 | skill |  |
 | skill-模型组合调用 | 技能：模型组合调用 | skill |  |
+| skill-水水-保持系统冗余 | 技能：保持系统冗余 | skill |  |
+| skill-水水-利用叙事驱动决策 | 技能：利用叙事驱动决策 | skill |  |
+| skill-水水-利用基因漂变视角 | 技能：利用基因漂变视角 | skill |  |
+| skill-水水-区分风险与不确定性 | 技能：区分风险与不确定性 | skill |  |
+| skill-水水-接受发散性世界观 | 技能：接受发散性世界观 | skill |  |
+| skill-水水-构建自利叙事 | 技能：构建自利叙事 | skill |  |
+| skill-水水-用感性维度构建溢价 | 技能：用感性维度构建溢价 | skill |  |
 | skill-水水-管理决策权重偏差 | 技能：管理决策权重偏差 | skill | decision-making |
+| skill-水水-练习坦然说不知道 | 技能：练习坦然说不知道 | skill |  |
+| skill-水水-警惕概率虚妄安全感 | 技能：警惕概率虚妄安全感 | skill |  |
+| skill-水水-警惕错误归因 | 技能：警惕错误归因 | skill |  |
+| skill-水水-识别关键偶然因素 | 技能：识别关键偶然因素 | skill |  |
+| skill-水水-识别数据折磨陷阱 | 技能：识别数据折磨陷阱 | skill |  |
+| skill-水水-识别模型局限性 | 技能：识别模型局限性 | skill |  |
+| skill-水水-识别自证预言陷阱 | 技能：识别自证预言陷阱 | skill |  |
+| skill-水水-识别超级传播者风险 | 技能：识别超级传播者风险 | skill |  |
+| skill-水水-识别饥饿效应 | 技能：识别饥饿效应 | skill |  |
+| skill-水水-避免原生家庭万能归因 | 技能：避免原生家庭万能归因 | skill |  |
+| skill-水水-降低故事逻辑要求 | 技能：降低故事逻辑要求 | skill |  |
 | skill-深度分层学习 | 技能：深度分层学习 | skill |  |
 | skill-清单小抄制作 | 技能：清单小抄制作 | skill |  |
 | skill-清单小抄工具箱法 | 技能：清单小抄工具箱法 | skill | learning-methodology, yitang |
@@ -553,13 +630,29 @@
 | skill-知识树存储记忆法 | 技能：知识树存储记忆法 | skill | learning-methodology, yitang |
 | skill-稀缺资源机会成本比对法 | 技能：稀缺资源机会成本比对法 | skill |  |
 | skill-立即实践转化法 | 技能：立即实践转化法 | skill | learning-methodology, yitang |
-| skill-纪浩-Agent技能市场设计法 | 技能：Agent技能市场设计法 | skill | ai-collaboration, yitang |
+| skill-纪浩-AI使用边界管理法 | 技能：AI使用边界管理法 | skill |  |
 | skill-纪浩-AI对话上下文隔离 | 技能：AI 对话上下文隔离 | skill | ai-collaboration |
 | skill-纪浩-AI工作空间与导诊台设计法 | 技能：AI工作空间与导诊台设计法 | skill | ai-collaboration, yitang |
+| skill-纪浩-AI工具脚本化约束 | 技能：AI工具脚本化约束 | skill |  |
+| skill-纪浩-Agent开工检查单制作法 | 技能：Agent开工检查单制作法 | skill |  |
+| skill-纪浩-Agent技能市场设计法 | 技能：Agent技能市场设计法 | skill | ai-collaboration, yitang |
 | skill-纪浩-Do-first-PDCA渐进迭代法 | 技能：Do-first PDCA渐进迭代法 | skill | ai-collaboration, yitang |
+| skill-纪浩-Problem与Question区分法 | 技能：Problem与Question区分法 | skill |  |
 | skill-纪浩-problem-validation-four-checks | 技能：四问验证法 —— 判断需求是真实Problem还是伪需求 | skill | ai-collaboration, yitang |
+| skill-纪浩-任务交付物标准化 | 技能：任务交付物标准化 | skill |  |
+| skill-纪浩-低成本输出验证法 | 技能：低成本输出验证法 | skill |  |
+| skill-纪浩-处理AI生成代码运行异常 | 技能：处理AI生成代码运行异常 | skill |  |
+| skill-纪浩-多视角切换思考法 | 技能：多视角切换思考法 | skill |  |
+| skill-纪浩-新手心态启动法 | 技能：新手心态启动法 | skill |  |
 | skill-纪浩-日志驱动排查法 | 技能：日志驱动排查法 | skill | ai-collaboration, yitang |
+| skill-纪浩-案例池构建法 | 技能：案例池构建法 | skill |  |
 | skill-纪浩-真需求四要素验证法 | 技能：真需求四要素验证法 | skill | ai-collaboration, yitang |
+| skill-纪浩-线上问题应急值守 | 技能：线上问题应急值守 | skill |  |
+| skill-纪浩-评估AI从零写UI的可行性 | 技能：评估AI从零写UI的可行性 | skill |  |
+| skill-纪浩-识别AI不可维护代码 | 技能：识别AI不可维护代码 | skill |  |
+| skill-纪浩-里程碑验证法 | 技能：里程碑验证法 | skill |  |
+| skill-纪浩-问题导向备课法 | 技能：问题导向备课法 | skill |  |
+| skill-纪浩-项目启动五问法 | 技能：项目启动五问法 | skill |  |
 | skill-自我反馈修正笔记姿势 | 技能：自我反馈修正笔记姿势 | skill |  |
 | skill-自我反馈检验 | 技能：自我反馈检验 | skill |  |
 | skill-获取他人反馈优化笔记 | 技能：获取他人反馈优化笔记 | skill |  |
@@ -578,25 +671,74 @@
 | skill-问题驱动式深度思考笔记 | 问题驱动式深度思考笔记：用真问题取代真记录 | concept | yitang, personal-growth |
 | skill-项目复盘基本功 | 技能：项目复盘基本功 | skill |  |
 | skill-马易-AIGC项目ROI评估 | 技能：AIGC项目ROI评估 | skill | business-strategy, ai-collaboration |
+| skill-马易-AI任务拆解提升控制度 | 技能：AI任务拆解提升控制度 | skill |  |
+| skill-马易-AI搜索公网数据增强（合规边界） | 技能：AI搜索公网数据增强（合规边界） | skill |  |
+| skill-马易-AI答疑运营风格适配 | 技能：AI答疑运营风格适配 | skill |  |
+| skill-马易-AI能力团队复制 | 技能：AI能力团队复制 | skill |  |
+| skill-马易-AI落地前置条件验证 | 技能：AI落地前置条件验证 | skill |  |
+| skill-马易-AI落地四阶段验证法 | 技能：AI落地四阶段验证法 | skill |  |
+| skill-马易-AI落地场景筛选-四有新人法则 | 技能：AI落地场景筛选-四有新人法则 | skill |  |
+| skill-马易-AI落地场景识别-拆工作流找场景 | 技能：AI落地场景识别-拆工作流找场景 | skill |  |
+| skill-马易-AI落地场景识别与拆分 | 技能：AI落地场景识别与拆分 | skill |  |
+| skill-马易-AI落地能力内化训练 | 技能：AI落地能力内化训练 | skill |  |
+| skill-马易-AI落地认知速成-最佳实践学习法 | 技能：AI落地认知速成-最佳实践学习法 | skill |  |
+| skill-马易-AI项目上线-先平行再独行 | 技能：AI项目上线-先平行再独行 | skill |  |
+| skill-马易-AI项目需求拆解筛选 | 技能：AI项目需求拆解筛选 | skill |  |
+| skill-马易-RPA数据整合法 | 技能：RPA数据整合法 | skill |  |
 | skill-马易-业务为先的AI中台建设 | 技能：业务为先的AI中台建设 | skill | ai-implementation |
+| skill-马易-业务问题AI化拆解-餐饮设计案例法 | 技能：业务问题AI化拆解-餐饮设计案例法 | skill |  |
+| skill-马易-中国企业AI落地五步法 | 技能：中国企业AI落地五步法 | skill |  |
+| skill-马易-低置信度样本黄金漏斗处理 | 技能：低置信度样本黄金漏斗处理 | skill |  |
+| skill-马易-公寓获客自跑通原则 | 技能：公寓获客自跑通原则 | skill |  |
+| skill-马易-关键假设识别与验证 | 技能：关键假设识别与验证 | skill |  |
+| skill-马易-减少输入噪音法 | 技能：减少输入噪音法 | skill |  |
+| skill-马易-判断标准快速产出法 | 技能：判断标准快速产出法 | skill |  |
 | skill-马易-工作流优先于AIGC的决策方法 | 技能：工作流优先于AIGC的决策方法 | skill | ai-collaboration, business-strategy |
+| skill-马易-工作流拆解找场景 | 技能：工作流拆解找场景 | skill |  |
+| skill-马易-平台模式验证法 | 技能：平台模式验证法 | skill |  |
+| skill-马易-成为首位F工程师 | 技能：成为首位F工程师 | skill |  |
+| skill-马易-数字员工FD拆解落地 | 技能：数字员工FD拆解落地 | skill |  |
+| skill-马易-数据存储架构选择 | 技能：数据存储架构选择 | skill |  |
+| skill-马易-数据标注正确法 | 技能：数据标注正确法 | skill |  |
+| skill-马易-时间序列大模型场景识别 | 技能：时间序列大模型场景识别 | skill |  |
+| skill-马易-最小场景优先落地法 | 技能：最小场景优先落地法 | skill |  |
+| skill-马易-深度沉浸需求挖掘 | 技能：深度沉浸需求挖掘 | skill |  |
+| skill-马易-痛点驱动的数字化 | 技能：痛点驱动的数字化 | skill |  |
+| skill-马易-知识库-回答技巧双建设 | 技能：知识库+回答技巧双建设 | skill |  |
+| skill-马易-视频转化关键要素标注校验 | 技能：视频转化关键要素标注校验 | skill |  |
+| skill-马易-销售智能体体系搭建路径 | 技能：销售智能体体系搭建路径 | skill |  |
+| skill-马易-隐性知识萃取与模型化 | 技能：隐性知识萃取与模型化 | skill |  |
+| skill-马易-隐私安全分层解决 | 技能：隐私安全分层解决 | skill |  |
+| skill-马易-需求创造验证法 | 技能：需求创造验证法 | skill |  |
+| skill-马易-风口痛点识别法 | 技能：风口痛点识别法 | skill |  |
 | smart-medicine-cabinet-distribution | 智能药柜分销业态洞察 | concept | 医药零售, 智能药柜, 分销系统 |
+| smart-medicine-cabinet-national-policy-redlines | 自助售药机国家政策与红线（2024 年第 48 号公告解读） | concept | healthcare, pharmaceutical-retail, policy-compliance |
+| smart-medicine-cabinet-o2o-cost-structure | 医药 O2O 成本与毛利结构 | concept | healthcare, pharmaceutical-retail, o2o, financial-model |
+| smart-medicine-cabinet-regional-policy-map | 各省市自助售药机政策差异地图 | concept | healthcare, pharmaceutical-retail, policy-compliance |
 | source-code-delivery-model | 源码交付模式 | concept | SaaS, 商业模式, 软件交付 |
 | sprint-2-门禁举证验收 | Sprint 2 门禁举证验收 | concept | master |
+| structured-ai-workspace | structured-ai-workspace | tool |  |
+| supply-chain-beverage | 餐饮渠道饮料产品成本-口感-供应链综合洞察 | concept | business-strategy, product, entrepreneur |
 | tinyfish-agentic-web-infrastructure | TinyFish — Agentic Web 基础设施建设层 Skill | concept | ['master'] |
 | tools-workflows | Tools Workflows | concept | healthcare |
 | truman-perspective-skill | Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现 | concept | ['master'] |
+| voice-input-doubao | voice-input-doubao | tool |  |
 | web-scraping-三剑客-scrapling-crawl4ai-firecrawl | Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl | concept | ['ai-saas'] |
 | writing-content | Writing Content | concept | ai-saas |
 | yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown | YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN | concept | ['ai-saas'] |
 | yitang-course-map | 一堂课程大地图 | concept | yitang |
 | yitang-huazong-ama-by-industry | 花总AMA按行业分类整理（商业突破大航海） | concept | healthcare |
 | yitang-huazong-ama-summary | 花总AMA精华摘要（商业突破大航海） | concept | healthcare |
+| yitang-methodology-system | 一堂方法论体系：从科学做事到无限进步 | concept | yitang, master, learning-methodology |
 | yt-ai-startup-20-risky-hypotheses | AI创业20个高风险假设清单 | tool | yitang, ai |
 | yt-ai-trend-12-signals | AI趋势12大变化模型 | framework | yitang, ai |
 | yt-barrier-analysis-cheat-sheet | 壁垒分析完整cheatsheet | tool | yitang |
 | yt-barrier-identification-skill | 壁垒识别与构建技能：从真假壁垒到护城河建设 | skill | yitang |
 | yt-business-analysis-cognitive-biases | 暗知识：五步法中的主要认知偏差 | dk | yitang |
+| yt-business-formula-l6-essence-formulas | 业务公式 L6 魔法参数：跨行业本质公式集锦 | concept | yitang, master, business-strategy |
+| yt-business-formula-parameter-iceberg | 业务公式参数冰山（L1-L6） | concept | yitang, master, business-strategy |
+| yt-business-formula-six-level-logic | 业务公式六层逻辑关系（L1 模糊 → L6 动态） | concept | yitang, master, business-strategy |
+| yt-business-formula-ten-paradigms | 一堂业务公式十大经典范式 | concept | yitang, master, business-strategy |
 | yt-case-mandatory-cases - src_20260506_9b4788a6 - src_20260507_857c7ed4 | 一堂案例必修课 | concept | yitang |
 | yt-composite-pan-product-methodology | 泛产品设计方法论 | composite-concept | yitang |
 | yt-concept-ai-guard-brain | 守脑如玉：AI时代保持大脑锋利 | concept | yitang, ai |
@@ -617,6 +759,7 @@
 | yt-decision-y-model | Y模型科学决策框架（广义ROI） | framework | yitang |
 | yt-demand-analysis-hiking-map | 需求分析爬山地图 | framework | yitang |
 | yt-entrepreneur-259-milestone | 259里程碑 | tool | yitang |
+| yt-entrepreneur-barriers | 项目壁垒 | tool | yitang |
 | yt-entrepreneur-business-growth | 业务增长 | tool | yitang |
 | yt-entrepreneur-channel-exploration | 渠道探索 | tool | yitang |
 | yt-entrepreneur-concentration-analysis | 集中度分析 | tool | yitang |
@@ -624,21 +767,27 @@
 | yt-entrepreneur-fundraising | 融资认知 | tool | yitang |
 | yt-entrepreneur-growth-flywheel | 增长飞轮 | tool | yitang |
 | yt-entrepreneur-industrial-production | 工业化生产 | tool | yitang |
+| yt-entrepreneur-industry-forecast | 商业预判15字诀 | tool | yitang |
 | yt-entrepreneur-key-hypotheses | 关键假设259工具与假设验证三板斧 | tool | yitang |
 | yt-entrepreneur-lean-validation | 低成本验证/MVP | tool | yitang |
+| yt-entrepreneur-liberate-thinking | 解放思想 | tool | yitang |
 | yt-entrepreneur-needs-analysis | 需求分析 | tool | yitang |
 | yt-entrepreneur-opportunity-selection | 机会选择 | tool | yitang |
 | yt-entrepreneur-pragmatic-startup | 务实创业 | tool | yitang |
 | yt-entrepreneur-product-core | 产品内核定义、迭代与验证方法论 | tool | yitang |
 | yt-entrepreneur-research-camp | 调研行动营：从调研认知到AI调研武器库 | tool | yitang |
 | yt-entrepreneur-research-cognition | 调研认知 | tool | yitang |
+| yt-entrepreneur-scientific-method | Y模型/科学方法 | tool | yitang |
 | yt-entrepreneur-spin-selling | SPIN销售法：顾问式销售的奠基之作 | tool | yitang |
 | yt-entrepreneur-truth-seeking | 实事求是 | tool | yitang |
 | yt-entrepreneur-unit-model | 单元模型 | tool | yitang |
 | yt-five-step-common-pitfalls | 暗知识：五步法常见误区与认知陷阱 | dk | yitang |
+| yt-five-step-implementation | 五步法落地实操：从故事版到分工版 | skill | yitang |
+| yt-five-step-level-blindspots | 暗知识：五步法的段位盲区与自评陷阱 | dk | yitang |
 | yt-five-step-method | 一堂五步法总纲 | framework | yitang |
 | yt-foresight-15-char-mantra | 十五字黄金法诀：机会预判的核心框架 | concept | yitang |
 | yt-foresight-ab-steady-state | AB点稳态模型：行业预判的核心框架 | concept | yitang |
+| yt-foresight-addition-subtraction | 加法减法实操：从100个选项到3个高概率方向 | concept | yitang |
 | yt-foresight-business-spectrum | 终局光谱图 | framework | yitang |
 | yt-foresight-deliverables-four-levels | 预判交付物四层级：从模糊想法到Plan ABC | concept | yitang |
 | yt-foresight-model-taxonomy | 预判模型分类 | tool | yitang |
@@ -646,7 +795,7 @@
 | yt-foresight-ten-fatal-flaws | 十大硬伤：商业机会的致死缺陷清单 | tool | yitang |
 | yt-growth-cycle-model | 增长周期模型 | framework | yitang |
 | yt-management-basic-skills | 基本功认知 | concept |  |
-| yt-management-business-formula | 业务公式 | concept |  |
+| yt-management-business-formula | 业务公式 | concept | yitang, master, business-strategy |
 | yt-management-company-culture | 公司文化 | concept |  |
 | yt-management-conversion-hacking | 转化率黑客 | concept |  |
 | yt-management-finance-basics | 财务入门 | concept |  |
@@ -663,13 +812,19 @@
 | yt-management-team-knowledge | 团队知识管理 | concept |  |
 | yt-management-toolkit-overview | 管理工具箱总览 | framework | yitang |
 | yt-market-size-estimation | 市场规模估算四种方法 | tool | yitang |
+| yt-model-aesthetic-progression | 审美提升的层级：从看不见到大胆想象的进化路径 | framework | yitang |
 | yt-model-agent-architecture | 智能体架构：PEAS与五层Agent模型 | framework | ai-models |
+| yt-model-cognitive-upgrade-framework | 认知升级十步框架：从「读书」到「安装认知补丁」 | framework | master |
 | yt-model-conversion-optimization | 转化率优化：动力三曲线 × 十大浪费触点 | framework | yitang |
+| yt-model-deep-review-iceberg | 深度复盘冰山图：从主观感受到能力建设的五层穿透 | framework | yitang |
+| yt-model-deliberate-practice-growth | 刻意练习十年成长指数：为什么有人一年顶十年 | framework | yitang |
 | yt-model-dual-triangle-competitiveness | 双三角竞争力模型 | framework | yitang |
 | yt-model-entrepreneur-map | 创业修炼地图 | framework | yitang |
 | yt-model-five-step-canvas | 五步法画布 × 产品内核画布：从假设到壁垒的实操工具 | framework | yitang |
 | yt-model-ipo-complete-checklist | IPO 科学学习完整清单 | framework | yitang |
 | yt-model-ipo-learning-strategy | IPO 科学学习全景策略 | framework | yitang |
+| yt-model-liberate-thinking-layers | 解放思想五层模型 | framework | yitang |
+| yt-model-management-map | 管理修炼地图 | framework | yitang |
 | yt-model-muse-ai-framework | MUSE 人工智能全景图 | framework | yitang |
 | yt-model-pan-product-36-strategies | 泛产品设计36计·全套官方工具箱 | framework | yitang |
 | yt-model-pan-product-aesthetic-toolkit | 泛产品设计·审美工具箱（4张卡牌） | framework | yitang |
@@ -677,11 +832,13 @@
 | yt-model-pan-product-demand-toolkit | 泛产品设计·需求工具箱（13张卡牌） | framework | yitang |
 | yt-model-pan-product-execution-toolkit | 泛产品设计·落地工具箱（19张卡牌） | framework | yitang |
 | yt-model-pan-product-three-virtues | 泛产品三大自我修养：用户价值×最佳实践×无限进步 | framework | yitang |
+| yt-model-personal-map | 个人修炼地图 | framework | yitang |
 | yt-model-personal-pitch-toolkit | 十指讲香模型（框架） | framework | personal |
 | yt-model-prediction-model | 预判模型：从最糙版到复杂版的三种预判范式 | framework | yitang |
 | yt-model-product-core-metrics | 产品内核十大典型指标：从获客到推荐的度量框架 | framework | yitang |
 | yt-model-product-excellence | 顶级产品追求：品味、最佳实践与乔布斯的审美哲学 | framework | yitang |
 | yt-model-progress-map | 无限进步大地图 | framework | yitang |
+| yt-model-prompt-engineering | 人机协作操作系统：提示词工程总框架 | framework | yitang, ai |
 | yt-model-questioning-practice-canvas | 提问刻意练习提升画布 | framework | yitang |
 | yt-model-scientific-questioning-map | 科学提问刻意练习地图 | framework | yitang |
 | yt-model-truman-career-routes | 楚门的选择：两条职业成长路线 X vs Y | framework | yitang |
@@ -732,7 +889,6 @@
 | yt-personal-ai-capability | AI 能力（双模型） | tool | yitang |
 | yt-personal-ai-thinking-card | AI思维卡：从「读书」到「安装认知补丁」 | method | personal-methods |
 | yt-personal-checklist-notes | 清单体笔记（一堂笔记法） | tool | yitang |
-| yt-personal-deep-review | 深度复盘 | tool | yitang |
 | yt-personal-deliberate-practice | 科学成长（刻意练习） | tool | yitang |
 | yt-personal-inspiration-flash | 灵感闪现（认知篇） | tool | yitang |
 | yt-personal-ipo-learning | IPO 科学学习 | tool | yitang |
@@ -749,7 +905,6 @@
 | yt-personal-thinking-models | 思维模型：从碎片经验到稳定模型 | tool | yitang |
 | yt-personal-time-management | 时间管理 | tool | yitang |
 | yt-personal-verbatim-script | 逐字稿 | tool | yitang |
-| yt-personal-y-model-exploration-2 | Y模型探索营2：五次质变与科学推演 | tool | yitang |
 | yt-personal-y-model-practice | Y模型实操：科学成事的底层操作系统 | tool | yitang |
 | yt-pitch-aphorism | 讲香·金句化 | tool | personal, yitang |
 | yt-pitch-colloquialization | 讲香·口语化 | tool | personal, yitang |
@@ -791,7 +946,9 @@
 | yt-tool-equity-checklist | 股权设计检查清单 | tool | yitang |
 | yt-tool-fab-persuasion | FAB核心说服：从产品特性到用户利益的转化法 | tool | yitang |
 | yt-tool-foresight-canvas | 预判画布：从加法到减法的标准化工作台 | tool | yitang |
+| yt-tool-hiring-scorecard | 结构化面试打分卡 | tool | yitang |
 | yt-tool-knowledge-extraction | 团队知识萃取器 | tool | yitang |
+| yt-tool-meeting-designer | 会议设计师：一页纸会议蓝图 | tool | yitang |
 | yt-tool-mental-model-refinement | 思维模型提炼：从体感经验到可复用武器库 | tool | yitang |
 | yt-tool-okr-cycle | OKR 制定与复盘罗盘 | tool | yitang |
 | yt-tool-onboarding-90day | 新人90天融入加速器 | tool | yitang |
@@ -808,6 +965,7 @@
 | yt-unit-model-dynamic | 动态单元模型：规模变量、拐点预判与规模经济对抗 | tool | entrepreneur, master |
 | yt-unit-model-ladder | 单元模型六段进阶：从不会算账到动态预判 | framework | entrepreneur, master |
 | yt-unit-model-overview | 单元模型概述：从最小经济单元到商业判断框架 | framework | entrepreneur, master |
+| yt-unit-model-selection | 单元模型选择法：复制哪个算哪个，找到核心经济单元 | tool | entrepreneur, master |
 | yt-unit-model-three-tools | 单元模型三工具：斧子尺子梯子 | framework | yitang |
 | 互联网医院模式深度调研报告 | 互联网医院模式深度调研报告 | concept | ['healthcare'] |
 | 人机协作决策-双三角模型 | 人机协作决策——双三角模型 | concept | ai-saas |
@@ -816,6 +974,7 @@
 | 存储策略 | 存储策略 | concept | master |
 | 学会提问在信息洪流中锻造批判性思维的利刃 | 《学会提问》：在信息洪流中锻造批判性思维的利刃 | framework | ai-saas |
 | 开源HIS系统代码深度分析报告 | 开源HIS系统代码深度分析报告 | concept | healthcare |
+| 数据标注维度最佳实践调研报告 | 数据标注维度最佳实践调研报告 | concept |  |
 | 紫鲸ai_智能体工作流平台_深度分析与产品设计 | 紫鲸AI_智能体工作流平台_深度分析与产品设计 | concept | ['ai-saas'] |
 | 紫鲸ai智能体工作流平台 | 紫鲸AI智能体工作流平台 | concept | ['ai-saas'] |
 | 老朱的水感-2026年5月 | 老朱的水感 — 2026年5月 | concept | ai-saas |
@@ -825,20 +984,39 @@
 | 轻量级诊所HIS调研全清单 | 轻量级诊所HIS调研全清单 | concept | healthcare |
 | 那今天不会 | 那今天不会。 | concept | ai-saas |
 | 鑫港湾his系统分阶段整改报告 | 鑫港湾HIS系统分阶段整改报告 | concept | ['healthcare'] |
+| ai-complex-communication | AI 辅助复杂职场沟通：角色扮演、攻防演练与受众适配 | framework | ai, ai-collaboration, management |
+| ai-methodology-tools | AI 方法论与工具栈：主题综合知识卡 | framework | ai, ai-collaboration, learning-methodology |
 | ai-short-drama-ice-fire-dissection-compass | 冰火拆本罗盘：短剧剧本逆向拆解五维模型 | framework | yitang, ai-collaboration, product |
+| beverage-foodservice-channel | 餐饮渠道饮料开发：草本浓缩饮品的渠道-产品-工艺框架 | framework | business-strategy, product, entrepreneur |
+| business-formula-to-kdo-card-quality | 业务公式 ABC → KDO 卡片质量：用公式思维诊断知识卡的健康度 | framework | kdo, yitang |
 | concept-maister-trusted-advisor | Trusted Advisor：可信顾问信任模型 | framework | consulting, yitang |
 | concept-mckinsey-7s | 7-S Framework：组织诊断的七维模型 | framework | consulting, yitang |
 | concept-mckinsey-hypothesis-driven | Hypothesis-Driven Approach：假设驱动工作法 | framework | consulting, yitang |
 | concept-mckinsey-mece | MECE 原则：相互独立、完全穷尽 | framework | consulting, yitang |
 | concept-minto-pyramid-principle | 金字塔原理：结论先行的结构化沟通框架 | framework | consulting, yitang |
+| framework-course-milestone-model | 课程里程碑模型：一堂做课的七步生产流程 | framework | yitang, education, modeling |
+| framework-logic-cleanliness-five-levels | 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准 | framework | yitang, modeling |
+| model-quality-four-levels | 模型可信度四层标准 + 千人广场模型：Truman 如何定义一个好模型 | framework | yitang, kdo |
+| modeling-personal-practice-loop | 建模能力个人修炼闭环：刻意练习 × IPO × PDCA | framework | yitang, personal-growth, modeling |
+| modeling-scientific-milestones | 科学建模七步里程碑：从边界到封装的方法论生产流程 | framework | yitang, modeling, research |
+| modeling-three-stages | 建模三段论：流程建模、抽象建模、本质提炼 | framework | yitang, product, ai-collaboration |
+| modeling-to-kdo-toolchain | 建模三段论 → KDO 工具链映射：从 SOP 到本质的知识管理落地 | framework | kdo, yitang |
 | private-domain-saas-sales-funnel | 私域 SaaS 销售四步法 | framework | SaaS, 私域电商, 销售流程 |
+| sales-pitch-bias-patterns | 销售话术偏误识别模式库 | framework | business-strategy, due-diligence, vendor-assessment |
+| smart-device-foodservice-automation | 智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式 | framework | business-strategy, product, entrepreneur |
+| yt-business-formula-abc-model | 业务公式 ABC 模型（Ambition-Basis-Connection） | framework | yitang, master, business-strategy |
 | yt-decision-abcd-model | yt-decision-abcd-model | framework | 一堂·科学决策 |
 | yt-unit-model-ladder | 单元模型六段进阶：从拍脑袋到动态预测 | framework | decision-science |
 | yt-unit-model-overview | 单元模型概览：十大单元模型与三角色分工 | framework | decision-science |
+| ai-short-drama-conflict-three-axes | 矛盾冲突三板斧：短剧冲突分层设计工具 | tool | yitang, ai-collaboration, product |
+| ai-short-drama-framework-three-axes | 框架三板斧：短剧英雄之旅结构工具 | tool | yitang, ai-collaboration, product |
 | ai-short-drama-plot-three-axes | 剧情三板斧：短剧剧本的情节张力设计工具 | tool | yitang, ai-collaboration, product |
 | ai-short-drama-script-planning-three-axes | 剧本策划三板斧：短剧从0到1的框架搭建工具 | tool | yitang, ai-collaboration, product |
 | concept-mckinsey-issue-tree | Issue Tree：结构化问题拆解 | tool | consulting, yitang |
 | concept-toyota-5-whys | 5 Whys：追问到根本原因 | tool | lean-manufacturing, yitang |
+| modeling-level-map | 建模能力段位图：从 L1 到 L6 的十年爬山地图 | tool | yitang, product, ai-collaboration |
+| modeling-weapon-library | 常见模型武器库：按问题难度调用模型 | tool | yitang, product, ai-collaboration |
+| process-modeling | 流程建模：用 SOP 与清单把经验变成稳定产出 | tool | yitang, product, ai-collaboration |
 | sk-ai-ai-workspace-setup | 技能：结构化AI工作空间搭建 | skill | ai-collaboration |
 | sk-ai-evidence-check | 技能：AI输出证据核查三问法 | skill | ai-collaboration |
 | sk-ai-landing-five-steps | 技能：AI落地五步执行清单 | skill | ai-collaboration |
@@ -855,6 +1033,24 @@
 | skill-note-keyword-bolding | 关键词加粗三重结构：视觉重心即认知重心的标记法则 | tool | yitang, note-taking |
 | skill-note-layer-constraint | 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准 | tool | yitang, note-taking |
 | skill-note-one-line-one-point | 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作 | tool | yitang, note-taking |
+| smart-medicine-cabinet-financial-model | 智能药柜单点财务模型与回本测算表 | tool | healthcare, pharmaceutical-retail, financial-model |
+| smart-medicine-cabinet-fraud-detection | 智能药柜/智慧药房招商骗局识别清单 | tool | healthcare, pharmaceutical-retail, risk-warning |
+| tool-ai-skill-engineering-method | AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位 | tool | yitang, ai-collaboration, skill-engineering |
+| tool-binary-quadrant-modeling | 二分法/象限图建模法：用正交维度做分类与取舍 | tool | yitang, product, ai-collaboration |
+| tool-canvas-weapon-library-modeling | 画布/武器库建模法：把工具箱变成可快速调用的系统 | tool | yitang, product, ai-collaboration |
+| tool-checklist-cheatsheet-modeling | 清单/小抄建模法：把经验变成可执行的检查点 | tool | yitang, product, ai-collaboration |
+| tool-clinic-cabinet-legal-contract-guide | 诊所+智能药柜合作的法律关系与合同要点 | tool | healthcare, business-strategy |
+| tool-clinic-medical-shortvideo-compliance | 诊所医疗短视频/个人 IP 合规边界 checklist | tool | healthcare, business-strategy |
+| tool-essence-nfactor-modeling | 本质/N要素建模法：提炼不可再约的核心变量 | tool | yitang, product, ai-collaboration |
+| tool-funnel-formula-modeling | 漏斗图/公式建模法：量化流程与关键变量 | tool | yitang, product, ai-collaboration |
+| tool-iceberg-triangle-modeling | 冰山图/三角图建模法：从表象深挖结构与本质 | tool | yitang, product, ai-collaboration |
+| tool-iterative-recursive-deep-dig | 迭代递归深挖法：用‘喷—撞—改’循环把模型推到撞无可撞 | tool | yitang, modeling, ai-collaboration |
+| tool-radar-chart-modeling | 雷达图建模法：多维度评估与筛选 | tool | yitang, product, ai-collaboration |
+| tool-sabc-tier-modeling | SABC分级/段位图建模法：给事物排优先级与成长路径 | tool | yitang, product, ai-collaboration |
+| tool-scenario-selector-modeling | 场景→工具选择器：根据需求快速匹配合适的建模工具 | tool | yitang, product, ai-collaboration |
+| tool-smart-medicine-cabinet-compliance-checklist | 智能药柜/医药项目合规快速校验清单 | tool | healthcare, business-strategy |
+| tool-smart-medicine-cabinet-site-selection-guide | 智能药柜选址深度指南：场景、指标与验证方法 | tool | healthcare, business-strategy |
+| tool-sop-template-modeling | SOP/模板建模法：把关键动作固化成标准工作流 | tool | yitang, product, ai-collaboration |
 | yt-note-five-levels-training | 清单体笔记五阶进阶训练法：从理论到现场的完整通关路径 | tool | yitang, note-taking |
 | yt-note-live-field-skill | 现场笔记完成度五步法：从“到场”到“驱动行动”的实战手册 | tool | yitang, note-taking |
 | yt-pitch-metaphor | 讲香·比喻化 | tool | personal, yitang |
@@ -873,25 +1069,53 @@
 | yt-tool-unit-model-construction | yt-tool-unit-model-construction | ? |  |
 | yt-tool-unit-model-dynamic | yt-tool-unit-model-dynamic | ? |  |
 | yt-tool-unit-model-selection | yt-tool-unit-model-selection | ? |  |
+| case-ai-agent-milestone-design | 案例：Truman 用 AI Agent 3 小时设计里程碑方法论与 48 个组件 | case | yitang, modeling, ai |
+| case-ai-assisted-review | 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己 | case | yitang, modeling, ai |
 | case-ai-time-management-tiered-growth | 案例：AI时间管理App七级演进 | case | yitang, ai |
+| case-child-drawing-rhyme | 案例：孩子控笔‘画画歌’——最小单元的建模实践 | case | yitang, modeling, personal-life |
 | case-coffee-shop-foresight | 案例：咖啡馆创业预判 | case | yitang |
+| case-course-milestone-model | 案例：一堂课程里程碑模型——方法论级建模的六步生产流程 | case | yitang, modeling, education |
+| case-dental-clinic-formula | ToC 连锁口腔诊所：成交率 30% 背后的“危机感知”公式 | case | yitang, healthcare, business-strategy |
 | case-escort-service-tiered-growth | 案例：陪诊业务七级演进 | case | yitang |
+| case-essence-education-strategy | 案例：教育本质与战略本质的提炼 | case | yitang, modeling, strategy |
+| case-essence-entrepreneurship | 案例：创业本质 = 小概率游戏 | case | yitang, entrepreneurship, modeling |
+| case-essence-humanity-trap | 案例：招聘/股权/激励专家都把本质归为‘人性’——解释性本质的陷阱 | case | yitang, modeling, essence |
+| case-ether-online-acquisition | 案例：以太利用全网调研能力快速获客 | case |  |
 | case-five-step-fake-vs-real-barriers | 案例：五步法中识别真壁垒和假壁垒 | case | yitang |
 | case-five-step-growth-first-lever | 案例：五步法中从产品内核到增长的第一次跨越 | case | yitang |
 | case-gudong-tea-shop-foresight | 古董奶茶店：五层筛选的加法减法实战 | case | yitang |
+| case-gym-membership-formula | 线下连锁健身：把“到店频率”变成“到店习惯”才是续卡率抓手 | case | yitang, business-strategy |
 | case-jh-yitang-vs-sqlhelper | 一堂数据库vs SQLHelper：同样的需求，两种产品策略——专业与通用的产品分岐 | case | ai-saas |
+| case-livestream-sop-modeling | 案例：直播前热身 SOP 建模 | case | yitang, product, execution |
 | case-milktea-five-step | 奶茶店五步法：从九死一生到十年百店的科学创业之路 | case | product, yitang |
+| case-nine-pm-livestream-survey | 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选 | case | yitang, modeling, user-research |
+| case-offline-catering-formula | 线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定 | case | yitang, business-strategy |
+| case-personal-map-modeling | 案例：一堂个人地图的完整建模过程 | case | yitang, personal-growth, modeling |
+| case-private-domain-ecommerce-formula | 私域电商 10W 人社群：从“拉人发广告”到“信任 × 用户升级路径” | case | yitang, e-commerce, business-strategy |
+| case-saas-renewal-formula | ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户“用起来” | case | yitang, ai-saas, business-strategy |
 | case-shampoo-product-kernel | 洗发水产品内核：从卖点混淆到内核清晰的产品定义案例 | case | product, yitang |
+| case-smart-medicine-cabinet-business-model-validation | 智能药柜推广项目：录音商业模式命题交叉验证 | case | healthcare, business-strategy |
+| case-smart-medicine-cabinet-corporate-risk | 智能药柜推广项目：公司/股权/资金风险诊断 | case | healthcare, business-strategy |
+| case-smart-medicine-cabinet-failure-patterns-library | 智能药柜失败模式案例库 | case | healthcare, business-strategy |
+| case-thousand-people-square | 案例：一堂‘千人广场模型’——用统计建模心态做课 | case | yitang, modeling, education |
+| case-toc-ecommerce-formula-misjudgment | ToC 消费品电商：业务公式拆解误判导致放量亏损 | case | yitang, e-commerce, business-strategy |
 | case-toy-cabinet-barrier | 案例：线下玩具柜的壁垒困局与突围路径 | case | yitang |
 | case-toy-cabinet-business-model | 案例：线下玩具柜商业模式 | case | yitang |
 | case-treadmill-demand-analysis | 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈 | case | product, yitang |
 | case-truman-ai-partner | 案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent | case | agent-infrastructure, yitang |
+| case-truman-ai-skill-engineering-guide | 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南 | case | yitang, ai-collaboration, skill-engineering |
+| case-truman-ai-skill-self-packaging | AI 自复盘自封装：Truman 的 design case 技能是如何让 AI 自己包装出来的 | case | yitang, ai-collaboration |
+| case-truman-livestream-sop-iteration | 一堂直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法 | case | yitang, product |
 | case-truman-motivation-map-12-versions | 动机地图12版迭代：先观察再设计——Truman的用户行为驱动迭代法 | case | product-design, yitang |
+| case-truman-personal-growth-map-creation | Truman 个人地图创作全历程：从模糊想法到四格天花板 | case | yitang, product |
 | case-truman-poker-deck-roi | 扑克牌案例：同样的任务，两个同学评估结果截然相反 | case | yitang |
 | case-truman-prd-checklist-evolution | Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平 | case | yitang, personal-growth |
 | case-truman-yitang-foresight | Truman一堂：市场扫描→六方向→Plan ABC试错 | case | yitang |
 | case-unit-model-gashapon | 案例：扭蛋机/抓娃娃机的单元模型段位进阶 | case | yitang |
 | case-xiaolong-ecommerce-foresight | 小龙电商：四层剥离——从服装到正装裤 | case | yitang |
+| case-yitang-education-supply-chain | 案例：一堂是‘教育供应链创新公司’——从真实实践里种菜、摘菜、炒菜 | case | yitang, modeling, education |
+| case-yitang-radar-chart-selection | 案例：一堂雷达图评选机制——从 Truman 拍板到‘只聊模型不聊结果’ | case | yitang, modeling, decision-making |
+| case-zhangyang-anchor-sop-three-locks | 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100% | case | yitang, modeling, execution |
 | case-zhihu-vs-degetao-network-effect | 案例：知乎vs得到——网络效应壁垒的对比分析 | case | yitang |
 | case-一堂-AI高考志愿-kernel-mismatch | 案例：AI高考志愿填报产品因内核错位而失敗 | case | yitang, product-strategy |
 | case-一堂-无人餐厅-hypothesis-failure | 案例：一堂无人餐厅项目因忽视关键假设而失败 | case | yitang, business-strategy |
@@ -907,6 +1131,8 @@
 | case-纪浩-skill-market-problem-validation | 案例：一堂Skill市场从伪需求到真实需求的四问验证 | case | ai-collaboration, yitang |
 | case-纪浩-skills-market | 案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助 | case | agent-infrastructure, yitang |
 | case-纪浩-ui-design-constraint-evolution | 案例：纪浩从'求你了'到1100行约束文档的UI设计迭代 | case | ai-collaboration, yitang |
+| industrial-ai-ops-cases | 产业 AI 运营落地：酒店/房产/电商三大案例的去伪存真 | case | ai, ai-saas, entrepreneur |
+| smart-medicine-cabinet-clinic-risk-observation | 诊所 + 智能药柜协同模式：一线观察与风险提示 | case | healthcare, pharmaceutical-retail, policy-compliance, risk-warning |
 | dk-ai-entrepreneur-technical-blindspot | 暗知：AI创业者最大的盲区——'我们能做出来'≠'用户需要这个' | dk | yitang, ai |
 | dk-ai-judgment-human-responsibility | 人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果 | dark-knowledge | ai-saas, yitang |
 | dk-ai-judgment-programmer-paradox | 程序员的AI悖论：写AI工具的人最晚享受到AI红利 | dark-knowledge | ai-saas, yitang |
@@ -921,6 +1147,10 @@
 | dk-c7-auto-backup-conflict | C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交 | dark-knowledge | master |
 | dk-c8-format-complete-mind-empty | C-8：批处理格式升级产生格式完整但思维空洞的卡片 | dark-knowledge | master |
 | dk-c9-batch-trigger-garbage | C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没 | dark-knowledge | master |
+| dk-ef-001-sn74lvc2g07-open-drain | 开漏输出的陷阱：上拉电阻太大导致信号边沿变缓 | dark-knowledge |  |
+| dk-ef-002-bom-version-async | BOM 多版本不同步：你手里的文件和产线手里的不是同一份 | dark-knowledge |  |
+| dk-ef-003-hand-soldering-bom-divergence | 手焊板的隐性修改：原型调通了但量产就是不行 | dark-knowledge |  |
+| dk-ef-004-missing-diagnostic-firmware | 没有诊断固件就是盲调：你不知道信号卡在哪一级 | dark-knowledge |  |
 | dk-f1-regex-on-cjk | F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched | dark-knowledge | master |
 | dk-f10-broken-source-refs | F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料 | dark-knowledge | master |
 | dk-f11-encyclopedia-style | F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景 | dark-knowledge | master |
@@ -941,6 +1171,18 @@
 | dk-lz-ai-native-organization | AI原生组织：罗马军团正在被自进化有机体取代——中层管理的全部存在理由是人脑带宽不足 | dark-knowledge | ai-saas, business-strategy |
 | dk-lz-code-is-disposable | 代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产 | dark-knowledge | ai-saas, business-strategy |
 | dk-mckinsey-hypothesis-driven-pitfalls | 暗知：假设驱动方法论的三个反直觉陷阱 | dk | consulting, yitang |
+| dk-modeling-ai-cross-validation | 拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤 | dark-knowledge | yitang, ai-collaboration, skill-engineering |
+| dk-modeling-ai-iterative-prompting | AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限 | dark-knowledge | yitang, ai-collaboration |
+| dk-modeling-ai-judgment-limit | AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响 | dark-knowledge | yitang, ai-collaboration, modeling |
+| dk-modeling-ai-self-retrospection | AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单 | dark-knowledge | yitang, ai-saas |
+| dk-modeling-ai-without-judgment | AI 能生成'看着很厉害'的模型，但如果你没有逻辑洁癖，它只会加速你跑偏 | dark-knowledge | yitang, ai-saas |
+| dk-modeling-case-explosion-confidence | 案例大爆炸的底气：来自销冠广场，不是胆子大 | dark-knowledge | yitang, modeling |
+| dk-modeling-counterexample-driven | 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止 | dark-knowledge | yitang, master |
+| dk-modeling-essence-predictive | '解释性本质'是高级鸡汤：真正值钱的本质必须能指导下一次真实决策 | dark-knowledge | yitang, master |
+| dk-modeling-expert-consensus-five-percent | 5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感 | dark-knowledge | yitang, education, modeling |
+| dk-modeling-explanatory-vs-predictive-essence | 解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践 | dark-knowledge | yitang, modeling |
+| dk-modeling-sop-execution-locks | SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100% | dark-knowledge | yitang, master |
+| dk-modeling-timely-review-session-window | 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内 | dark-knowledge | yitang, master |
 | dk-my-ai-landing-three-barriers | AI落地三大壁垒：从“会用”到“用好”的黑洞 | dark-knowledge | ai-saas |
 | dk-note-maximum-common-divisor | 清单体是人与AI的'最大公约数'：结构降级即认知升级 | dark-knowledge | yitang, note-taking |
 | dk-note-rookie-disaster-veteran-heaven | “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机 | dark-knowledge | yitang, note-taking |
@@ -950,6 +1192,7 @@
 | dk-p11-regex-cutoff | P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效 | dark-knowledge | master |
 | dk-p13-token-burn | P-13：长会话 = token黑洞 — 一晚上烧掉80元 | dark-knowledge | master |
 | dk-p14-zombie | P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环 | dark-knowledge | master |
+| dk-p15-unverified | dk-p15-unverified | dark-knowledge |  |
 | dk-p16-validate-reads-state-json | P-16：validate 优先读取 state.json 而非文件 frontmatter | dark-knowledge | master |
 | dk-p17-accuracy-gap | P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度 | dark-knowledge | master |
 | dk-p18-yaml-parser | P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复 | dark-knowledge | master |
@@ -969,6 +1212,7 @@
 | dk-truman-flag-note-taking | 立flag记笔法：用量化目标倒逼笔记中的真实思考量 | dark-knowledge | yitang, personal-growth |
 | dk-truman-iteration-to-aesthetic-ceiling | 迭代到审美上限：一张图的隐形成本远超显示器——Truman的泛产品设计第一性原则 | dark-knowledge | product-design, yitang |
 | dk-truman-knowledge-extraction-three-schools | 知识萃取三流派：99%的知识付费只是A，一堂做B+C——为什么你学的大多数课只是“听个响” | dark-knowledge | yitang, personal-growth |
+| dk-weekly-modeling-iteration-growth-engine | 暗知识：一堂真正的增长引擎是‘周对周的建模能力增长’ | dark-knowledge | yitang, modeling |
 | dk-yb1-aigc-mvp-before-ps | 设计师AIGC工作流：先跑MVP再开PS | dark-knowledge | design, ai-collaboration |
 | dk-yb10-theory-moat-designer | AI时代设计师的理论护城河 | dark-knowledge | design, business-strategy |
 | dk-yb11-visual-book-reverse | 不训练模型锁定风格的逆向视觉书法 | dark-knowledge | design |
@@ -1001,6 +1245,7 @@
 | dk-yb7-design-demand-80-10-10 | 中国设计需求的80-10-10分层法则 | dark-knowledge | design, yitang, business-strategy |
 | dk-yb8-file-naming-eight-elements | AI增效前置：文件命名八要素体系 | dark-knowledge | design |
 | dk-yb9-cubox-deployment-failure | Cubox及AI协作工具的团队部署失败模式 | dark-knowledge | design, management, ai-collaboration |
+| dk-yitang-business-formula-plus-times-trap | 业务公式拆解：先切分再拆转化，+ 与 × 写错会误导决策 | dark-knowledge | yitang, master |
 | dk-一堂-wishful-thinking-kills-startups | 暗知：'愿望思维'是创业最大的陷阱 | dk | yitang, business-strategy |
 | dk-半肥猫-atomic-no-standard | 暗知识：原子化没有固定标准 | dark-knowledge | ai-collaboration, yitang |
 | dk-半肥猫-real-business-is-the-engine | 暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁 | dk | ai-collaboration, yitang |
@@ -1015,36 +1260,7 @@
 | dk-纪浩-pdca-starts-from-do | 暗知识：PDCA从Do开始不是从Plan开始 | dk | ai-collaboration, yitang |
 | dk-纪浩-problem-vs-question | 暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem | dark-knowledge | ai-collaboration, yitang |
 | dk-纪浩-simple-complex-routing | 暗知识：简单系统跳过导诊台，复杂系统必须路由 | dk | ai-collaboration, yitang |
-| entity_qishijian_group | 七件事集团 | entity | 私域电商, SaaS, 分销系统 |
-| dk-modeling-sop-execution-locks | SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100% | dark-knowledge | yitang, master |
-| dk-modeling-counterexample-driven | 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止 | dark-knowledge | yitang, master |
-| dk-modeling-ai-without-judgment | AI 能生成“看着很厉害”的模型，但如果你没有逻辑洁癖，它只会加速你跑偏 | dark-knowledge | yitang, ai-saas |
-| dk-modeling-essence-predictive | “解释性本质”是高级鸡汤：真正值钱的本质必须能指导下一次真实决策 | dark-knowledge | yitang, master |
-| dk-modeling-timely-review-session-window | 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内 | dark-knowledge | yitang, master |
-| dk-modeling-ai-self-retrospection | AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单 | dark-knowledge | yitang, ai-saas |
-| tool-radar-chart-modeling | 雷达图建模法：多维度评估与筛选 | tool | yitang, product, ai-collaboration |
-| tool-checklist-cheatsheet-modeling | 清单/小抄建模法：把经验变成可执行的检查点 | tool | yitang, product, ai-collaboration |
-| tool-sop-template-modeling | SOP/模板建模法：把关键动作固化成标准工作流 | tool | yitang, product, ai-collaboration |
-| tool-binary-quadrant-modeling | 二分法/象限图建模法：用正交维度做分类与取舍 | tool | yitang, product, ai-collaboration |
-| tool-iceberg-triangle-modeling | 冰山图/三角图建模法：从表象深挖结构与本质 | tool | yitang, product, ai-collaboration |
-| tool-funnel-formula-modeling | 漏斗图/公式建模法：量化流程与关键变量 | tool | yitang, product, ai-collaboration |
-| tool-sabc-tier-modeling | SABC分级/段位图建模法：给事物排优先级与成长路径 | tool | yitang, product, ai-collaboration |
-| tool-essence-nfactor-modeling | 本质/N要素建模法：提炼不可再约的核心变量 | tool | yitang, product, ai-collaboration |
-| tool-canvas-weapon-library-modeling | 画布/武器库建模法：把工具箱变成可快速调用的系统 | tool | yitang, product, ai-collaboration |
-| tool-scenario-selector-modeling | 场景→工具选择器：根据需求快速匹配合适的建模工具 | tool | yitang, product, ai-collaboration |
-| case-livestream-sop-modeling | 案例：直播前热身 SOP 建模 | case | yitang, product, execution |
-| case-personal-map-modeling | 案例：个人地图/能力画布建模 | case | yitang, personal-growth, ai-collaboration |
-| case-truman-ai-skill-engineering-guide | 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南 | case | yitang, ai-collaboration, skill-engineering |
-| case-essence-education-strategy | 案例：教育本质与战略本质的提炼 | case | yitang, modeling, strategy |
-| case-essence-entrepreneurship | 案例：创业本质 = 小概率游戏 | case | yitang, entrepreneurship, modeling |
-| modeling-scientific-milestones | 科学建模七步里程碑：从边界到封装的方法论生产流程 | framework | yitang, modeling, research |
-| modeling-personal-practice-loop | 建模能力个人修炼闭环：刻意练习 × IPO × PDCA | framework | yitang, personal-growth, modeling |
-| modeling-three-values | 建模的三重价值：确定性、框架性、迁移性 | concept | yitang, modeling |
-| tool-ai-skill-engineering-method | AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位 | tool | yitang, ai-collaboration, skill-engineering |
-| tool-iterative-recursive-deep-dig | 迭代递归深挖法：用“喷—撞—改”循环把模型推到撞无可撞 | tool | yitang, modeling, ai-collaboration |
-| dk-modeling-ai-iterative-prompting | AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限 | dark-knowledge | yitang, ai-collaboration |
-| dk-modeling-ai-cross-validation | 拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤 | dark-knowledge | yitang, ai-collaboration, skill-engineering |
-| dk-modeling-expert-consensus-five-percent | 5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感 | dark-knowledge | yitang, education, modeling |
-| dk-modeling-case-explosion-confidence | 案例大爆炸的底气：来自销冠广场，不是胆子大 | dark-knowledge | yitang, modeling |
-| dk-modeling-explanatory-vs-predictive-essence | 解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践 | dark-knowledge | yitang, modeling |
-| dk-modeling-ai-judgment-limit | AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响 | dark-knowledge | yitang, ai-collaboration, modeling |
+| yt-note-ai-p-role-not-c-role | AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考 | ? | yitang |
+| yt-note-p-c-role-boundary-realworld | P/C 角色真实场景边界与切换条件（基于聊天记录案例） | ? | yitang |
+| yt-note-three-level-evolution | 碎片化→结构化→体系化：笔记认知的三级进化跃迁 | ? | yitang |
+| 一堂 | 一堂 | entity |  |
