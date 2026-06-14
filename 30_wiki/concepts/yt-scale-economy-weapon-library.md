@@ -18,6 +18,8 @@ review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-规模经济分析武器库.png"
+source_refs:
+- src_20260611_79848c35
 status: enriched
 title: "规模经济分析武器库"
 trust_level: medium

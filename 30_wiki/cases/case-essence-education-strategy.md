@@ -2,6 +2,8 @@
 id: "case-essence-education-strategy"
 title: "案例：教育本质与战略本质的提炼"
 type: "case"
+source_refs:
+- src_20260614_eca9f5b3
 status: "enriched"
 domain:
   - "yitang"

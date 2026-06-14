@@ -812,3 +812,101 @@ commit `9bcd2b2`。`_deweight_hub_nodes()` 阈值 30。
 3. 查询时 queries/ 自动作为 top-level context
 
 **工作量**：2-3 小时。
+
+---
+
+## 🔴 临时插入：全库质量审查 — 结构性修复（2026-06-15）
+
+> 来源：王语嫣对 `30_wiki/` 全库 1337 张卡片的深度审查。
+> 性质：临时清理任务，不替代现有 Task E-R。可在现有任务间隙穿插执行。
+> 优先级：P1（不阻塞当前主线，但希望尽快收尾）。
+
+### 背景
+
+王语嫣已完成全库审查，并执行了三项批量修复：
+1. YAML frontmatter 解析错误修复
+2. `author=legacy` 推断为真实 author（348 张推断成功，146 张无法推断标为 `unknown`）
+3. OCR 卡 trust 统一降级为 low + confidence 0.6
+
+当前质量门禁状态（2026-06-15）：
+- 总卡数：1337
+- P0 阻塞：404 张
+- P1 修复：978 张
+- 完全干净：237 张
+- YAML 解析错误：**0 张**（已修复）
+
+### 任务 S1：运行质量门禁，确认基线（0.5h）
+
+**操作**：
+```powershell
+cd C:\Users\Administrator\Desktop\wiki
+python "90_control/scripts/kcard-quality-gate.py"
+```
+
+**完成标准**：
+- 报告写入 `60_feedback/audit/kcard-quality-gate-report-YYYY-MM-DD.md`
+- 你确认当前 P0/P1 分布与基线一致
+
+### 任务 S2：修复剩余结构性 P0 问题（1-2h）
+
+**范围**：
+- `status=enriched/reviewed/stable` 但 `reviewed_by=pending` 的卡
+- `status=reviewed` 但 `reviewed_by=pending` 的卡
+- `id` 与文件名不一致的卡
+
+**操作**：
+1. 从质量门禁报告中提取 P0 清单
+2. 对"reviewed_by 不匹配 status"的卡，统一把 status 降回 `draft`，或把 reviewed_by 改为实际审查人
+3. 对 id 与文件名不一致的卡，统一以文件名为准修正 id
+
+**完成标准**：
+- 运行门禁后 P0 问题减少 ≥50%
+
+### 任务 S3：批量补全 missing domain（2-3h）
+
+**背景**：310 张卡缺少 domain，其中大量是 OCR 卡和早期 legacy 卡。
+
+**操作**：
+1. 读取 `90_control/tag-registry.yaml` 的 domain 列表
+2. 写一个推断脚本，根据文件名/标题/正文关键词为 missing domain 的卡补 domain
+3. 对无法推断的卡，保持 missing 并输出清单
+
+**推断规则示例**：
+- 文件名含 `ai-` / `llm` / `prompt` → `ai-saas`
+- 文件名含 `design` / `电商` / `PS` → `design`
+- 文件名含 `healthcare` / `HIS` / `医院` → `healthcare`
+- 文件名含 `management` / `管理` → `management`
+- 文件名含 `decision` / `决策` → `decision-making`
+- 文件名含 `yt-` / `一堂` → `yitang`
+
+**完成标准**：
+- missing domain 从 310 张降至 ≤50 张
+- 无法推断的清单写入 `90_control/missing-domain-remaining.txt`
+
+### 任务 S4：重复卡片合并建议（1-2h）
+
+**背景**：健康报告发现 107 对文件名相似度 >80% 的卡片。王语嫣已核对出 4 对真正重复。
+
+**操作**：
+1. 读取 `60_feedback/auto/cleanup-2026-06-13.md`
+2. 对剩余相似文件名 pair，用脚本自动比较内容相似度
+3. 对内容相似度 >90% 的 pair，输出合并建议清单
+4. **不要自动合并**——只输出建议，等用户/欧阳锋拍板
+
+**完成标准**：
+- 输出 `90_control/duplicate-merge-proposals-2026-06-15.md`
+- 每张提案说明：保留哪个、删除哪个、是否需要迁移链接
+
+### 严禁
+
+- ❌ 不自动删除任何卡片
+- ❌ 不批量修改正文内容
+- ❌ 不替换已有的 source_refs 条目
+
+### 产出清单
+
+1. `60_feedback/audit/kcard-quality-gate-report-YYYY-MM-DD.md`
+2. `90_control/missing-domain-remaining.txt`
+3. `90_control/duplicate-merge-proposals-2026-06-15.md`
+
+完成 S1-S4 后，在此文件末尾写一段小结，通知欧阳锋/用户审查。

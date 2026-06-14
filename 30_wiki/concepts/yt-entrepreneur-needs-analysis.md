@@ -25,6 +25,8 @@ reviewed_by: "黄药师"
 source_refs:
   - src_20260507_0872c7b3
   - src_20260507_3120ec58
+source_refs:
+- src_20260611_375ccfae
 status: enriched
 title: "需求分析"
 trust_level: high

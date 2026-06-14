@@ -2,6 +2,8 @@
 id: yt-tool-okr-cycle
 title: "OKR 制定与复盘罗盘"
 type: tool
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 domain:
   - yitang

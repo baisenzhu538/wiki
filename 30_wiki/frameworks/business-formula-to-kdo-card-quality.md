@@ -2,6 +2,8 @@
 id: business-formula-to-kdo-card-quality
 title: 业务公式 ABC → KDO 卡片质量：用公式思维诊断知识卡的健康度
 type: framework
+source_refs:
+- src_20260613_a8bcfd38
 status: enriched
 confidence: 0.88
 domain:

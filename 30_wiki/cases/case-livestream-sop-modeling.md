@@ -2,6 +2,8 @@
 id: "case-livestream-sop-modeling"
 title: "案例：直播前热身 SOP 建模"
 type: "case"
+source_refs:
+- src_20260614_b34f6c6e
 status: "enriched"
 domain:
   - "yitang"

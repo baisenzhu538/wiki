@@ -2,6 +2,8 @@
 id: "case-child-drawing-rhyme"
 title: "案例：孩子控笔‘画画歌’——最小单元的建模实践"
 type: "case"
+source_refs:
+- src_20260614_eca9f5b3
 status: "enriched"
 domain:
   - "yitang"

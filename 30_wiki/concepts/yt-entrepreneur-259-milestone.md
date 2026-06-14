@@ -1,54 +1,94 @@
 ---
 id: yt-entrepreneur-259-milestone
-confidence: 0.8
+confidence: 0.85
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1851
 language: zh-CN
 query_triggers:
-  - "259里程碑"
-  - "业务里程碑"
-  - "预判阶段"
-  - "假设增长"
-  - "假设验证"
-  - "科学创业"
-  - "创业里程碑"
-  - "关键假设优先"
-  - "最小成本验证"
-  - "259框架"
-review_date: 2026-05-08
-reviewed_by: "黄药师"
+- 259里程碑
+- 业务里程碑
+- 预判阶段
+- 假设增长
+- 假设验证
+- 科学创业
+- 创业里程碑
+- 关键假设优先
+- 最小成本验证
+- 259框架
+review_date: 2026-06-15
+reviewed_by: 老顽童
 source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
+- src_20260614_8f80cb0f
+- src_20260522_4be84945
+- src_20260611_0f0a4c27
+- src_20260611_173d9f0e
+- src_20260611_96419f58
+- src_20260611_84990c99
+- src_20260611_4266769b
+- src_20260611_d913eb1d
 status: enriched
-title: "259里程碑"
-trust_level: medium
+title: 259里程碑
+trust_level: high
 type: tool
 version: 1
 yitang:
   map: entrepreneur
-  module: "259里程碑"
+  module: 259里程碑
   course_id: 259
   course_type: method
   level: foundational
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户把259当项目计划表，但每个里程碑无法验证', 'framework_lens': '里程碑没有验证标准——259的核心是假设验证', 'follow_up_question': '你的9个里程碑中，每个对应什么验证实验？什么结果算通过？'}
-  - {'signal': '用户只关注9个里程碑，忘了2个假设和5个步骤', 'framework_lens': '割裂使用——259是一个整体系统', 'follow_up_question': '你的里程碑是建立在哪两个核心假设之上？如果假设错了，里程碑还有意义吗？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户把259当项目计划表，但每个里程碑无法验证
+  framework_lens: 里程碑没有验证标准——259的核心是假设验证
+  follow_up_question: 你的9个里程碑中，每个对应什么验证实验？什么结果算通过？
+- signal: 用户只关注9个里程碑，忘了2个假设和5个步骤
+  framework_lens: 割裂使用——259是一个整体系统
+  follow_up_question: 你的里程碑是建立在哪两个核心假设之上？如果假设错了，里程碑还有意义吗？
+updated_at: 2026-06-15
+author: 老顽童
 ---
-
 # 259里程碑
 
-> 来源：一堂课程体系 | 阶段：预判阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
+> 来源：一堂课程体系 | 阶段：预判阶段/核心框架。[[yitang-course-map]] | [[yt-system-course-catalog]]
 
 ## Summary
 
-业务里程碑，一堂预判阶段的核心课程。259 是一堂核心框架——2 个假设（假设增长 + 假设验证）、5 个步骤（需求-方案-验证-增长-壁垒）、9 个里程碑。
+259 里程碑是一堂预判阶段框架：2 个核心假设（价值假设 + 增长假设）、5 个步骤（需求-方案-验证-增长-壁垒）、9 个可度量的业务里程碑。它把模糊方向拆成可验证的阶段性节点。
+
+---
+
+## Purpose
+
+用于把创业路径变成一组可证伪的里程碑，让团队、投资人和合伙人能清楚“现在在哪、下一步要验证什么、什么结果算通过”。
+
+---
+
+## Protocol/Procedure
+
+1. 明确 2 个核心假设：价值假设（有人愿意付费）和增长假设（可重复获取客户）。
+2. 沿五步法画出 9 个里程碑：需求确认 → 方案确认 → 产品内核确认 → MVP 验证 → 早期获客 → 增长引擎启动 → 规模化获客 → 单元模型优化 → 壁垒形成。
+3. 为每个里程碑设定验证标准：必须是可以观察、可量化、可证伪的结果，而不是“完成某个动作”。
+4. 设定 30 天验证周期：每个里程碑配套一个最小实验，在规定时间内拿到数据。
+5. 迭代调整：上一个里程碑的验证结果改变对业务本质的判断时，删除、合并或新增后续里程碑。
+6. 沟通对齐：用 259 画布向团队和投资人同步当前位置和下一步风险。
+
+---
+
+## When NOT to Use
+
+- idea 阶段尚未完成客户访谈、问题未验证时。
+- 全新品类/ category-creating，没有参照系无法合理定义里程碑时。
+- 把里程碑当项目计划表，每个节点不配套验证标准时。
+- 团队不愿根据验证结果调整计划时。
+
+---
+> 来源：一堂课程体系 | 阶段：预判阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
+
 
 ## Claims
 

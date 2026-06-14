@@ -21,6 +21,8 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-地图-个人地图.webp"
+source_refs:
+- src_20260614_720e62a1
 status: enriched
 title: "个人修炼地图"
 type: framework

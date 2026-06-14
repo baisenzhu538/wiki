@@ -25,6 +25,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-泛产品设计概念口述版.md"
+source_refs:
+- src_20260614_720e62a1
 status: enriched
 title: "泛产品设计认知篇：重新理解泛化产品能力"
 type: concept

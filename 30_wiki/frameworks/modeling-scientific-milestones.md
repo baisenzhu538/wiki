@@ -2,6 +2,8 @@
 id: "modeling-scientific-milestones"
 title: "科学建模七步里程碑：从边界到封装的方法论生产流程"
 type: "framework"
+source_refs:
+- src_20260614_8f80cb0f
 status: "enriched"
 domain:
   - "yitang"

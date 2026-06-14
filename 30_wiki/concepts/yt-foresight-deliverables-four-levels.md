@@ -4,6 +4,8 @@ title: "预判交付物四层级：从模糊想法到Plan ABC"
 type: concept
 domain:
   - yitang
+source_refs:
+- src_20260613_61c0cd80
 status: enriched
 confidence: 0.9
 difficulty: beginner

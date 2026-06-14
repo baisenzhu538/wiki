@@ -31,6 +31,8 @@ related:
 source_refs:
   - "00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt"
   - "00_inbox/科学决策/一堂-科学决策-ROI高阶训练全景图.png"
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 title: "决策复盘工具：L1-L4深度复盘法 + 假设验证闭环"
 trust_level: medium

@@ -19,6 +19,8 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修炼-Y模型实操口述版.md"
+source_refs:
+- src_20260614_842be4c9
 status: enriched
 title: "Y模型实操：科学成事的底层操作系统"
 type: tool

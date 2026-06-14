@@ -2,6 +2,8 @@
 id: "model-quality-four-levels"
 title: "模型可信度四层标准 + 千人广场模型：Truman 如何定义一个好模型"
 type: "framework"
+source_refs:
+- src_20260614_d0539c25
 status: "enriched"
 confidence: 0.8
 domain:

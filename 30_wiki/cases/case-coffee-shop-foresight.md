@@ -20,6 +20,8 @@ source_refs:
   - "00_inbox/一堂-机会预判-咖啡案例01.png"
   - "00_inbox/一堂-机会预判-咖啡案例02.png"
   - "00_inbox/一堂-机会预判-案例预判02.png"
+source_refs:
+- src_20260614_eca9f5b3
 status: enriched
 title: "案例：咖啡馆创业预判"
 trust_level: medium

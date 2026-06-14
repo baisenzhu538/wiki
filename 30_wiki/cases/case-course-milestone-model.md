@@ -2,6 +2,8 @@
 id: "case-course-milestone-model"
 title: "案例：一堂课程里程碑模型——方法论级建模的六步生产流程"
 type: "case"
+source_refs:
+- src_20260510_ba494aea
 status: "enriched"
 domain:
   - "yitang"

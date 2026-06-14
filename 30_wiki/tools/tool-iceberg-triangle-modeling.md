@@ -2,6 +2,8 @@
 id: "tool-iceberg-triangle-modeling"
 title: "冰山图/三角图建模法：从表象深挖结构与本质"
 type: "tool"
+source_refs:
+- src_20260522_c92a36ba
 status: "enriched"
 domain:
   - "yitang"

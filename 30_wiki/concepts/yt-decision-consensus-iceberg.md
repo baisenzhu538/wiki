@@ -31,6 +31,8 @@ related:
 source_refs:
   - "00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt"
   - "00_inbox/科学决策/一堂-科学决策-高水平共识曲线（重要）.png"
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 title: "共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问"
 trust_level: medium

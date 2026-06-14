@@ -45,6 +45,8 @@ related:
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - 30_wiki/concepts/yt-model-management-map.md
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 title: "管理工具箱总览"
 trust_level: medium

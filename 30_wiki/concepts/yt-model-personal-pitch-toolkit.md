@@ -31,6 +31,8 @@ source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香基本功-十指模型修炼地图.png"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+source_refs:
+- src_20260614_8bd357d3
 status: enriched
 title: "十指讲香模型（框架）"
 type: framework

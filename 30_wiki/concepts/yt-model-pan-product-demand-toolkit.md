@@ -28,6 +28,8 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-需求工具箱指南.png"
   - "10_raw/sources/一堂-个人修炼-泛产品设计概念口述版.md"
+source_refs:
+- src_20260522_726a6a3b
 status: enriched
 title: "泛产品设计·需求工具箱（13张卡牌）"
 type: framework

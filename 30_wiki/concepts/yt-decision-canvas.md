@@ -34,6 +34,8 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-ROI决策评估画布-案例02.png"
   - "00_inbox/科学决策/一堂-科学决策-ROI决策评估画布-案例03.png"
   - "00_inbox/科学决策/一堂-科学决策-ROI决策评估画布-案例04.png"
+source_refs:
+- src_20260510_1eb77650
 status: enriched
 title: "Y模型决策画布（一页纸工具）"
 trust_level: medium

@@ -19,6 +19,8 @@ review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
   - "00_inbox/一堂-机会预判-AI趋势12大变化模型.png"
+source_refs:
+- src_20260614_82a4fdb9
 status: enriched
 title: "AI趋势12大变化模型"
 trust_level: medium

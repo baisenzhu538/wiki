@@ -2,6 +2,8 @@
 id: yt-tool-strategy-workshop
 title: "战略研讨会引导手册"
 type: tool
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 domain:
   - yitang

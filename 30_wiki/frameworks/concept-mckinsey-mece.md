@@ -2,6 +2,8 @@
 id: concept-mckinsey-mece
 title: "MECE 原则：相互独立、完全穷尽"
 type: framework
+source_refs:
+- src_20260609_e9aa385a
 status: enriched
 domain:
   - consulting

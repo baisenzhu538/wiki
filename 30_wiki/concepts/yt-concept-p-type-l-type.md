@@ -24,6 +24,8 @@ review_date: 2026-06-06
 source_refs:
   - "00_inbox/一堂-商业预判课-Truman-口述.txt"
   - "00_inbox/一堂-商业预判课-truman-笔记.txt"
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 title: "P型与L型创业者"
 trust_level: medium

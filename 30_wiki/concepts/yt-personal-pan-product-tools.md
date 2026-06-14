@@ -24,6 +24,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-泛产品设计工具篇口述版.md"
+source_refs:
+- src_20260510_e6643d52
 status: enriched
 title: "泛产品设计工具篇：出牌教学法与30张卡牌"
 type: concept

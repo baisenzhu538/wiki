@@ -2,6 +2,8 @@
 id: yt-pitch-storytelling
 title: "讲香·故事化"
 type: tool
+source_refs:
+- src_20260609_93e2df35
 status: enriched
 domain:
   - personal

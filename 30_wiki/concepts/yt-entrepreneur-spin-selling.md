@@ -19,6 +19,8 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-读书会-SPIN销售法口述.md"
+source_refs:
+- src_20260510_349a66fd
 status: enriched
 title: "SPIN销售法：顾问式销售的奠基之作"
 type: tool

@@ -20,6 +20,8 @@ source_refs:
   - "00_inbox/一堂-机会预判-陪诊案例01.png"
   - "00_inbox/一堂-机会预判-陪诊案例02.png"
   - "00_inbox/一堂-机会预判-案例预判01.png"
+source_refs:
+- src_20260614_eca9f5b3
 status: enriched
 title: "案例：陪诊业务七级演进"
 trust_level: medium

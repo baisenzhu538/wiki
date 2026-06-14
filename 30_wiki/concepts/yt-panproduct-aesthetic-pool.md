@@ -28,6 +28,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践池子.png"
+source_refs:
+- src_20260522_6a8b5755
 status: enriched
 title: "泛产品设计·审美卡片：最佳实践池子"
 type: tool

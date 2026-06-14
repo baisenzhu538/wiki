@@ -32,6 +32,8 @@ review_by: 2026-12-06
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修身-思维模型口述版.md"
+source_refs:
+- src_20260613_96e45c45
 status: enriched
 title: "思维模型提炼：从体感经验到可复用武器库"
 type: tool

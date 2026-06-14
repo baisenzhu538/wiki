@@ -24,6 +24,8 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
+source_refs:
+- src_20260609_d22e1266
 status: enriched
 title: "解放思想"
 trust_level: medium

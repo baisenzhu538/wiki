@@ -2,6 +2,8 @@
 id: "tool-sabc-tier-modeling"
 title: "SABC分级/段位图建模法：给事物排优先级与成长路径"
 type: "tool"
+source_refs:
+- src_20260613_fb0e6521
 status: "enriched"
 domain:
   - "yitang"

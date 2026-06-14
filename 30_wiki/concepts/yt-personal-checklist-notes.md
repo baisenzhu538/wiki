@@ -28,6 +28,8 @@ source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
   - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
+source_refs:
+- src_20260609_a7f2ae2e
 status: enriched
 title: "清单体笔记（一堂笔记法）"
 trust_level: medium

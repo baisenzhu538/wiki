@@ -18,6 +18,8 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/truman的选择：两条职业成长路线.png"
+source_refs:
+- src_20260522_9cbdf4fd
 status: enriched
 title: "楚门的选择：两条职业成长路线 X vs Y"
 type: framework

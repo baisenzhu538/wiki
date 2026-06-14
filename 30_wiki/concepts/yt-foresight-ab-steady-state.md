@@ -4,6 +4,8 @@ title: "AB点稳态模型：行业预判的核心框架"
 type: concept
 domain:
   - yitang
+source_refs:
+- src_20260613_fb0e6521
 status: enriched
 confidence: 0.85
 difficulty: advanced

@@ -26,6 +26,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计02口述.md"
+source_refs:
+- src_20260522_e4b635ac
 status: enriched
 title: "泛产品设计落地篇：无限进步与持续打磨"
 type: concept

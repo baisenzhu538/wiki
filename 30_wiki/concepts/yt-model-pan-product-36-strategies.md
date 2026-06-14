@@ -32,6 +32,8 @@ source_refs:
   - "10_raw/assets/yitang/泛产品设计-需求工具箱指南.png"
   - "10_raw/assets/yitang/泛产品设计-审美工具箱指南.png"
   - "10_raw/assets/yitang/泛产品设计落地工具篇指南.png"
+source_refs:
+- src_20260522_7e8d10c4
 status: enriched
 title: "泛产品设计36计·全套官方工具箱"
 type: framework

@@ -2,6 +2,8 @@
 id: "case-yitang-radar-chart-selection"
 title: "案例：一堂雷达图评选机制——从 Truman 拍板到‘只聊模型不聊结果’"
 type: "case"
+source_refs:
+- src_20260614_b34f6c6e
 status: "enriched"
 domain:
   - "yitang"

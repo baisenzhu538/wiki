@@ -2,6 +2,8 @@
 id: "framework-logic-cleanliness-five-levels"
 title: "逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准"
 type: "framework"
+source_refs:
+- src_20260510_1eb77650
 status: "enriched"
 domain:
   - "yitang"

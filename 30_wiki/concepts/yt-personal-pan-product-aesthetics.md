@@ -23,6 +23,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
+source_refs:
+- src_20260510_d7218337
 status: enriched
 title: "泛产品设计审美篇：最佳实践与审美建模"
 type: concept

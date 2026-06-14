@@ -2,6 +2,8 @@
 id: concept-toyota-5-whys
 title: "5 Whys：追问到根本原因"
 type: tool
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 domain:
   - lean-manufacturing

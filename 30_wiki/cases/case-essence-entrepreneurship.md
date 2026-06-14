@@ -2,6 +2,8 @@
 id: "case-essence-entrepreneurship"
 title: "案例：创业本质 = 小概率游戏"
 type: "case"
+source_refs:
+- src_20260614_eca9f5b3
 status: "enriched"
 domain:
   - "yitang"

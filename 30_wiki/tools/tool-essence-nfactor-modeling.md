@@ -2,6 +2,8 @@
 id: "tool-essence-nfactor-modeling"
 title: "本质/N要素建模法：提炼不可再约的核心变量"
 type: "tool"
+source_refs:
+- src_20260614_d0539c25
 status: "enriched"
 domain:
   - "yitang"

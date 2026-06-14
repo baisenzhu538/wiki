@@ -4,6 +4,8 @@ title: "小龙电商：四层剥离——从服装到正装裤"
 type: case
 domain:
   - yitang
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 confidence: 0.9
 difficulty: beginner

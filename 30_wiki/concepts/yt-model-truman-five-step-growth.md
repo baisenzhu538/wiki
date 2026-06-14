@@ -20,6 +20,8 @@ source_refs:
   - "10_raw/assets/yitang/Truman的个人成长五步法.png"
   - "00_inbox/Truman的个人成长五步法.png  # 源图像，经 deep-image-parser 深度解析"
   - "00_inbox/Truman的个人成长五步法_paddle_ocr.txt  # PaddleOCR基线对比"
+source_refs:
+- src_20260522_074c72ae
 status: enriched
 title: "Truman的个人成长五步法：用一页纸解释全部人生规划"
 type: framework

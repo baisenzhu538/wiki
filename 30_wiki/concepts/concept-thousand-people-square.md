@@ -2,6 +2,8 @@
 id: "concept-thousand-people-square"
 title: "千人广场模型：一堂做课背后的统计建模理念"
 type: "concept"
+source_refs:
+- src_20260614_8f80cb0f
 status: "enriched"
 domain:
   - "yitang"

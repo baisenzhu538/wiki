@@ -2,6 +2,8 @@
 id: yt-model-prompt-engineering
 title: "人机协作操作系统：提示词工程总框架"
 type: framework
+source_refs:
+- src_20260522_1ede9202
 status: enriched
 domain:
   - yitang

@@ -2,6 +2,8 @@
 id: "case-ai-agent-milestone-design"
 title: "案例：Truman 用 AI Agent 3 小时设计里程碑方法论与 48 个组件"
 type: "case"
+source_refs:
+- src_20260614_b34f6c6e
 status: "enriched"
 domain:
   - "yitang"

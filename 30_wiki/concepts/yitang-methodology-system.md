@@ -34,7 +34,6 @@ source_refs:
 - src_20260614_3501eb39
 - src_20260614_78622699
 - src_20260614_46bc4b82
-- 90_control/itingnao-kit/work/theme-yitang-methodology-summary.md
 - src_20260614_9ca806cd
 tags:
 - "#yitang"

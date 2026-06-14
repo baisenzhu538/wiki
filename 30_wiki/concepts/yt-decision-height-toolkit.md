@@ -33,6 +33,8 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-稀缺资源清单.png"
   - "00_inbox/科学决策/一堂-科学决策-稀缺机会窗口.png"
   - "00_inbox/科学决策/一堂-科学决策-高水平共识曲线（重要）.png"
+source_refs:
+- src_20260609_006cb9b3
 status: enriched
 title: "高度分析工具：上帝视角四维提升法 + 高水平共识曲线"
 trust_level: medium

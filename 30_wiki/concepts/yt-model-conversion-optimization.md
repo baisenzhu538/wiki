@@ -23,6 +23,8 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂最佳转化率动力曲线图.png"
   - "10_raw/assets/yitang/一堂转化率-10大容易浪费的触点.png"
+source_refs:
+- src_20260510_d5e71a5e
 status: enriched
 title: "转化率优化：动力三曲线 × 十大浪费触点"
 type: framework

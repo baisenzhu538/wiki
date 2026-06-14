@@ -44,6 +44,8 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.png"
   - "00_inbox/科学决策/一堂-科学决策-发现决策.png"
   - "00_inbox/科学决策/一堂-科学决策-商业模式-完整财务公式决策.png"
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 title: "科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型"
 trust_level: medium

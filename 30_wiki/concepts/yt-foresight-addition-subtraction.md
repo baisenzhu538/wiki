@@ -4,6 +4,8 @@ title: "加法减法实操：从100个选项到3个高概率方向"
 type: concept
 domain:
   - yitang
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 confidence: 0.9
 difficulty: intermediate

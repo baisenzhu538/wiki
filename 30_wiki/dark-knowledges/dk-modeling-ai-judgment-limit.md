@@ -3,6 +3,8 @@ id: "dk-modeling-ai-judgment-limit"
 title: "AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响"
 type: "dark-knowledge"
 dark_knowledge_type: "principle"
+source_refs:
+- src_20260614_8f80cb0f
 status: "enriched"
 domain:
   - "yitang"

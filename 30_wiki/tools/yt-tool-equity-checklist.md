@@ -2,6 +2,8 @@
 id: yt-tool-equity-checklist
 title: "股权设计检查清单"
 type: tool
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 domain:
   - yitang

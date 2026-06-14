@@ -2,6 +2,8 @@
 id: "tool-ai-skill-engineering-method"
 title: "AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位"
 type: "tool"
+source_refs:
+- src_20260614_329d0e0c
 status: "enriched"
 domain:
   - "yitang"

@@ -33,6 +33,8 @@ source_refs:
   - "10_raw/assets/yitang/泛产品设计落地工具篇指南.png"
   - "10_raw/assets/yitang/泛产品设计-落地卡片-内核和边界.png"
   - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
+source_refs:
+- src_20260510_f2a1d58b
 status: enriched
 title: "泛产品设计·落地工具箱（19张卡牌）"
 type: framework

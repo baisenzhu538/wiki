@@ -2,6 +2,8 @@
 id: "case-truman-personal-growth-map-creation"
 title: "Truman 个人地图创作全历程：从模糊想法到四格天花板"
 type: "case"
+source_refs:
+- src_20260614_720e62a1
 status: "enriched"
 confidence: 0.8
 domain:

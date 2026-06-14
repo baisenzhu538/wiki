@@ -19,6 +19,8 @@ superseded_by:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/预判模型.png"
+source_refs:
+- src_20260522_e71d89ff
 status: enriched
 title: "预判模型：从最糙版到复杂版的三种预判范式"
 type: framework

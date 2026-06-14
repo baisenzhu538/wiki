@@ -22,6 +22,8 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
+source_refs:
+- src_20260614_720e62a1
 status: enriched
 title: "时间管理"
 trust_level: medium

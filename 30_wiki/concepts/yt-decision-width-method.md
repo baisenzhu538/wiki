@@ -33,6 +33,8 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-宽度-团队.png"
   - "00_inbox/科学决策/一堂-科学决策-宽度-企业.png"
   - "00_inbox/科学决策/一堂-科学决策-关键训练清单（重要））.png"
+source_refs:
+- src_20260614_9ca806cd
 status: enriched
 title: "宽度分析工具：列推建查四步法+三层盲区清单"
 trust_level: medium

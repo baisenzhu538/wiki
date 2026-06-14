@@ -20,6 +20,8 @@ source_refs:
   - "00_inbox/一堂-机会预判-AI时间管理案例01.png"
   - "00_inbox/一堂-机会预判-AI时间管理案例02.png"
   - "00_inbox/一堂-机会预判-案例预判03.png"
+source_refs:
+- src_20260430_59a3d224
 status: enriched
 title: "案例：AI时间管理App七级演进"
 trust_level: medium

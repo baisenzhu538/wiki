@@ -24,6 +24,8 @@ source_refs:
   - "10_raw/assets/yitang/一堂-个人修炼-双三角模型.jpg"
   - 40_outputs/content/images/infographics/dual-triangle-competitiveness.excalidraw
   - 40_outputs/content/images/infographics/dual-triangle-visual-analysis.md
+source_refs:
+- src_20260613_96e45c45
 status: enriched
 title: "双三角竞争力模型"
 type: framework

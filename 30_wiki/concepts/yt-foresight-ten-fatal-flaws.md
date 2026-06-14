@@ -4,6 +4,8 @@ title: "十大硬伤：商业机会的致死缺陷清单"
 type: tool
 domain:
   - yitang
+source_refs:
+- src_20260522_a89ab860
 status: enriched
 confidence: 0.9
 difficulty: intermediate

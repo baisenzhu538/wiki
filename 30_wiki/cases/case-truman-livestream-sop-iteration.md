@@ -2,6 +2,8 @@
 id: case-truman-livestream-sop-iteration
 title: 一堂直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法
 type: case
+source_refs:
+- src_20260614_8269ccdb
 status: enriched
 confidence: 0.90
 domain:

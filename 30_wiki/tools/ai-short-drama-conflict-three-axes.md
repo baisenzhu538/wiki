@@ -2,6 +2,8 @@
 id: ai-short-drama-conflict-three-axes
 title: 矛盾冲突三板斧：短剧冲突分层设计工具
 type: tool
+source_refs:
+- src_20260613_37933c99
 status: enriched
 domain:
   - yitang

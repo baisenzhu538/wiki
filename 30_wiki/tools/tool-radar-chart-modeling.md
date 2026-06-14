@@ -2,6 +2,8 @@
 id: "tool-radar-chart-modeling"
 title: "雷达图建模法：多维度评估与筛选"
 type: "tool"
+source_refs:
+- src_20260614_8f80cb0f
 status: "enriched"
 domain:
   - "yitang"

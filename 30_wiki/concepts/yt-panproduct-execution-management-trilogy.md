@@ -29,6 +29,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-管理三段论.png"
+source_refs:
+- src_20260522_8d5cc8b0
 status: enriched
 title: "泛产品设计·落地卡片：管理三段论"
 type: tool

@@ -22,6 +22,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/审美提升的层级.png"
+source_refs:
+- src_20260522_7d2a79f8
 status: enriched
 title: "审美提升的层级：从看不见到大胆想象的进化路径"
 type: framework

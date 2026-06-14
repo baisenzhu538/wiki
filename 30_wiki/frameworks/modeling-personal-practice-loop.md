@@ -2,6 +2,8 @@
 id: "modeling-personal-practice-loop"
 title: "建模能力个人修炼闭环：刻意练习 × IPO × PDCA"
 type: "framework"
+source_refs:
+- src_20260609_e3a27299
 status: "enriched"
 domain:
   - "yitang"

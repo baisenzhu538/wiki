@@ -2,6 +2,8 @@
 id: yt-tool-meeting-designer
 title: "会议设计师：一页纸会议蓝图"
 type: tool
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 domain:
   - yitang

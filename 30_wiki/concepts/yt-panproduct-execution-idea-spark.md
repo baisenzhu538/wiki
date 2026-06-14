@@ -29,6 +29,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-灵感闪现.png"
+source_refs:
+- src_20260522_e861d61d
 status: enriched
 title: "泛产品设计·落地卡片：灵感闪现"
 type: tool

@@ -2,6 +2,8 @@
 id: yt-tool-onboarding-90day
 title: "新人 90 天融入加速器"
 type: tool
+source_refs:
+- src_20260614_610cbfc3
 status: enriched
 domain:
   - yitang

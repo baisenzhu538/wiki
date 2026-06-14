@@ -27,6 +27,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-动力阻力.png"
+source_refs:
+- src_20260522_1ec27760
 status: enriched
 title: "泛产品设计·用户卡片：动力阻力"
 type: tool

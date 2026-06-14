@@ -4,6 +4,8 @@ title: "预判画布：从加法到减法的标准化工作台"
 type: tool
 domain:
   - yitang
+source_refs:
+- src_20260510_1eb77650
 status: enriched
 confidence: 0.9
 difficulty: intermediate

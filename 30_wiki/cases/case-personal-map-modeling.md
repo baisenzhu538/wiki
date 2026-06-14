@@ -2,6 +2,8 @@
 id: "case-personal-map-modeling"
 title: "案例：一堂个人地图的完整建模过程"
 type: "case"
+source_refs:
+- src_20260614_b34f6c6e
 status: "enriched"
 domain:
   - "yitang"

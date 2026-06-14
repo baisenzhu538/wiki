@@ -2,6 +2,8 @@
 id: "case-ai-assisted-review"
 title: "案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己"
 type: "case"
+source_refs:
+- src_20260614_eca9f5b3
 status: "enriched"
 domain:
   - "yitang"

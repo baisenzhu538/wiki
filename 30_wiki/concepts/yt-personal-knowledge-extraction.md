@@ -24,6 +24,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修炼-知识萃取探索营口述版.txt"
+source_refs:
+- src_20260614_720e62a1
 status: enriched
 title: "知识萃取方法论"
 type: tool

@@ -29,6 +29,8 @@ review_by: 2026-12-06
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修炼-泛产品设计工具篇口述版.md"
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 title: "FAB核心说服：从产品特性到用户利益的转化法"
 type: tool

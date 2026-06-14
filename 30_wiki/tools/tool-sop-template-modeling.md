@@ -2,6 +2,8 @@
 id: "tool-sop-template-modeling"
 title: "SOP/模板建模法：把关键动作固化成标准工作流"
 type: "tool"
+source_refs:
+- src_20260614_8f80cb0f
 status: "enriched"
 domain:
   - "yitang"

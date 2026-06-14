@@ -4,6 +4,8 @@ title: "Truman一堂：市场扫描→六方向→Plan ABC试错"
 type: case
 domain:
   - yitang
+source_refs:
+- src_20260614_8269ccdb
 status: enriched
 confidence: 0.9
 difficulty: intermediate

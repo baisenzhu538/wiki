@@ -26,6 +26,8 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型.png"
   - "10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型-执行武器库.png"
+source_refs:
+- src_20260609_bb221484
 status: enriched
 title: "科学表达（火箭模型）"
 trust_level: medium

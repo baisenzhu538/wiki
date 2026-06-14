@@ -61,6 +61,8 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-地图-创业地图.webp"
+source_refs:
+- src_20260613_96e45c45
 status: enriched
 title: "创业修炼地图"
 type: framework

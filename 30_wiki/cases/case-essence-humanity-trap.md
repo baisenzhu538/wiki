@@ -2,6 +2,8 @@
 id: "case-essence-humanity-trap"
 title: "案例：招聘/股权/激励专家都把本质归为‘人性’——解释性本质的陷阱"
 type: "case"
+source_refs:
+- src_20260614_eca9f5b3
 status: "enriched"
 domain:
   - "yitang"

@@ -2,6 +2,8 @@
 id: modeling-three-stages
 title: 建模三段论：流程建模、抽象建模、本质提炼
 type: framework
+source_refs:
+- src_20260614_c62e0e61
 status: enriched
 domain:
   - yitang

@@ -17,6 +17,8 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂产品内核-十大典型指标.png"
+source_refs:
+- src_20260510_5ef61f8f
 status: enriched
 title: "产品内核十大典型指标：从获客到推荐的度量框架"
 type: framework

@@ -5,6 +5,8 @@ domain:
   - yitang
 source_refs:
   - src_20260522_38173b48
+source_refs:
+- src_20260522_38173b48
 status: enriched
 title: "Design / Ai Image Generation"
 type: concept

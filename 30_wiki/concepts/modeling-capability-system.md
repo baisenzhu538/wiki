@@ -2,6 +2,8 @@
 id: modeling-capability-system
 title: 高阶建模能力体系：一堂从经验到规律的教研方法论
 type: concept
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 domain:
   - yitang

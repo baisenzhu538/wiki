@@ -27,6 +27,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-惊喜公式.png"
+source_refs:
+- src_20260522_622b8a41
 status: enriched
 title: "泛产品设计·用户卡片：惊喜公式"
 type: tool

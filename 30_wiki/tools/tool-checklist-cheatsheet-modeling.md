@@ -2,6 +2,8 @@
 id: "tool-checklist-cheatsheet-modeling"
 title: "清单/小抄建模法：把经验变成可执行的检查点"
 type: "tool"
+source_refs:
+- src_20260611_ff778102
 status: "enriched"
 domain:
   - "yitang"

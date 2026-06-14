@@ -2,6 +2,8 @@
 id: yt-three-dimension-opportunity-matrix
 title: "三维排列组合找机会"
 type: tool
+source_refs:
+- src_20260613_61c0cd80
 status: enriched
 confidence: 0.8
 created_at: 2026-06-10

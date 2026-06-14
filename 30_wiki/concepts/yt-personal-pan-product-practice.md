@@ -22,6 +22,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
+source_refs:
+- src_20260510_6241b565
 status: enriched
 title: "泛产品设计实操篇：需求分析与用户洞察"
 type: concept

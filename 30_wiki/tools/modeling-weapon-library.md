@@ -2,6 +2,8 @@
 id: modeling-weapon-library
 title: 常见模型武器库：按问题难度调用模型
 type: tool
+source_refs:
+- src_20260614_73352fa5
 status: enriched
 domain:
   - yitang

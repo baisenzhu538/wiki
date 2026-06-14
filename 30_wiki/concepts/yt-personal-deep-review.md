@@ -34,6 +34,8 @@ reviewed_by: "黄药师"
 source_refs:
   - src_20260507_9dd09688
   - src_20260507_df666081
+source_refs:
+- src_20260522_c92a36ba
 status: enriched
 title: "深度复盘"
 type: tool

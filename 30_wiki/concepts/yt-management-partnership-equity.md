@@ -22,6 +22,8 @@ related:
   - yt-tool-equity-checklist
 review_date: 2026-05-08
 reviewed_by: "黄药师"
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 title: "合伙股权"
 trust_level: medium

@@ -24,6 +24,8 @@ reviewed_by: "黄药师"
 source_refs:
   - src_20260507_85c9ae50
   - src_20260507_31a7f2df
+source_refs:
+- src_20260609_e3a27299
 status: enriched
 title: "IPO 科学学习"
 type: tool

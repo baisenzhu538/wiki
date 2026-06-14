@@ -32,6 +32,8 @@ source_refs:
   - "10_raw/sources/一堂-个人修炼-泛产品设计工具篇口述版.md"
   - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
   - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
+source_refs:
+- src_20260614_9ca806cd
 status: enriched
 title: "泛产品设计方法论"
 type: composite-concept

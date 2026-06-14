@@ -4,6 +4,8 @@ title: "十五字黄金法诀：机会预判的核心框架"
 type: concept
 domain:
   - yitang
+source_refs:
+- src_20260614_086550ab
 status: enriched
 confidence: 0.9
 difficulty: beginner

@@ -32,6 +32,8 @@ source_refs:
   - "00_inbox/科学决策/一堂-科学决策-一堂双三角磨合追求.png"
   - "00_inbox/科学决策/一堂-科学决策-关键假设ABCD模型.png"
   - "00_inbox/科学决策/一堂-科学决策-项目方案评估三角形.png"
+source_refs:
+- src_20260609_f00cad16
 status: enriched
 title: "Y模型科学决策框架（广义ROI）"
 trust_level: medium

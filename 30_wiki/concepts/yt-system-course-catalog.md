@@ -2,6 +2,8 @@
 id: yt-system-course-catalog
 title: "一堂全课程目录索引"
 type: concept
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 domain:
   - yitang

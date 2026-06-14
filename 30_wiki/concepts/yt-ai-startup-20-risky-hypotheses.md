@@ -19,6 +19,8 @@ review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
   - "00_inbox/一堂-机会预判-AI创业案例-20个高风险假设清单.png"
+source_refs:
+- src_20260614_086550ab
 status: enriched
 title: "AI创业20个高风险假设清单"
 trust_level: medium

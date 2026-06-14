@@ -18,6 +18,8 @@ review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
   - "00_inbox/预判模型.png"
+source_refs:
+- src_20260613_96e45c45
 status: enriched
 title: "预判模型分类"
 trust_level: medium

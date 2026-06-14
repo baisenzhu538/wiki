@@ -16,7 +16,7 @@ related:
   - "gold-standard-manual-labels"
   - "kdo-15-dimension-label-spec"
 author: "legacy"
-source_context: "60_feedback/data-quality/backups/parse-bug-20260531""
+source_context: "60_feedback/data-quality/backups/parse-bug-20260531"
 source_refs: []
 reviewed_by: "pending"
 confidence: 0.75

@@ -3,6 +3,8 @@ id: "dk-modeling-ai-cross-validation"
 title: "拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤"
 type: "dark-knowledge"
 dark_knowledge_type: "pattern"
+source_refs:
+- src_20260614_8f80cb0f
 status: "enriched"
 domain:
   - "yitang"

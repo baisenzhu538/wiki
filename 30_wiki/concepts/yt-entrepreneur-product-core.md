@@ -29,6 +29,8 @@ source_refs:
   - "00_inbox/一堂-产品内核迭代课-Truman-笔记.txt"
   - "00_inbox/一堂-产品内核验证课-truman-笔记.txt"
   - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
+source_refs:
+- src_20260614_0e6fd2e7
 status: enriched
 title: "产品内核定义、迭代与验证方法论"
 trust_level: medium

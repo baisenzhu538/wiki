@@ -2,6 +2,8 @@
 id: "case-zhangyang-anchor-sop-three-locks"
 title: "案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%"
 type: "case"
+source_refs:
+- src_20260614_eca9f5b3
 status: "enriched"
 domain:
   - "yitang"

@@ -17,6 +17,8 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂刻意练习十年成长指数.png"
+source_refs:
+- src_20260522_e6cf558a
 status: enriched
 title: "刻意练习十年成长指数：为什么有人一年顶十年"
 type: framework

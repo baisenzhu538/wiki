@@ -2,6 +2,8 @@
 id: yt-prompt-writing-workflow
 title: "AI写作工作流：大纲→要点→全文"
 type: tool
+source_refs:
+- src_20260501_58b6edef
 status: enriched
 domain:
   - yitang

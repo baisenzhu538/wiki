@@ -2,6 +2,8 @@
 id: yt-prompt-brainstorming
 title: "AI头脑风暴工作流"
 type: tool
+source_refs:
+- src_20260522_a89ab860
 status: enriched
 domain:
   - yitang

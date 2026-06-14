@@ -22,6 +22,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-泛产品设计探索营口述版.md"
+source_refs:
+- src_20260510_fab64a96
 status: enriched
 title: "泛产品设计探索营：案例启发与认知重构"
 type: concept

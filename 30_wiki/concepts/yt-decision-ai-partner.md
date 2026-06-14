@@ -28,6 +28,8 @@ reviewed_by: "周伯通"
 source_refs:
   - "00_inbox/科学决策/一堂-科学决策-AI协助决策行动营口述06.txt"
   - "00_inbox/科学决策/一堂-科学决策-人机协作决策.png"
+source_refs:
+- src_20260609_f00cad16
 status: enriched
 title: "AI决策Partner对话法"
 trust_level: medium

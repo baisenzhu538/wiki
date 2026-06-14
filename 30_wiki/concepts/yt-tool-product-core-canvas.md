@@ -28,6 +28,8 @@ source_refs:
   - "00_inbox/一堂-产品内核实操课-truman-口述.txt"
   - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
   - "00_inbox/ocr_ingest/src_ocr_一堂五步法_产品内核画布.md"
+source_refs:
+- src_20260510_1eb77650
 status: enriched
 title: "产品内核画布与九大原则"
 trust_level: medium

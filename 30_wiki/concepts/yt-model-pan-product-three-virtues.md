@@ -28,6 +28,8 @@ review_by: 2026-11-11
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计者的三大自我修养.png"
+source_refs:
+- src_20260614_45ab8b35
 status: enriched
 title: "泛产品三大自我修养：用户价值×最佳实践×无限进步"
 type: framework

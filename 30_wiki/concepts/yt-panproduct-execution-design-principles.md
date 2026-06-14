@@ -29,6 +29,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-设计原则.png"
+source_refs:
+- src_20260522_9eaf7399
 status: enriched
 title: "泛产品设计·落地卡片：设计原则"
 type: tool

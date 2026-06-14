@@ -2,6 +2,8 @@
 id: yt-pitch-quantification
 title: "讲香·数字化"
 type: tool
+source_refs:
+- src_20260609_93e2df35
 status: enriched
 domain:
   - personal

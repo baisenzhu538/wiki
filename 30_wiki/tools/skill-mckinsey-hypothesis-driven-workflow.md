@@ -2,6 +2,8 @@
 id: skill-mckinsey-hypothesis-driven-workflow
 title: "技能：假设驱动工作流"
 type: tool
+source_refs:
+- src_20260522_9d322e81
 status: enriched
 domain:
   - consulting

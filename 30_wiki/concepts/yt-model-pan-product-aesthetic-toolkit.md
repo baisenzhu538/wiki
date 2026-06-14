@@ -34,6 +34,8 @@ source_refs:
   - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践建模.png"
   - "10_raw/assets/yitang/泛产品设计-审美卡片-美好作品想象.png"
   - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
+source_refs:
+- src_20260522_65a78106
 status: enriched
 title: "泛产品设计·审美工具箱（4张卡牌）"
 type: framework

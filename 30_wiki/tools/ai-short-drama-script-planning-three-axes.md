@@ -2,6 +2,8 @@
 id: ai-short-drama-script-planning-three-axes
 title: 剧本策划三板斧：短剧从0到1的框架搭建工具
 type: tool
+source_refs:
+- src_20260613_61c0cd80
 status: enriched
 domain:
   - yitang

@@ -1,6 +1,8 @@
 ---
 title: "业务公式"
 type: concept
+source_refs:
+- src_20260613_a8bcfd38
 status: enriched
 domain:
   - yitang

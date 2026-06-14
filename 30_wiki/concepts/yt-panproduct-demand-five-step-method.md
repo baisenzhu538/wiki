@@ -26,6 +26,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-一堂五步法.png"
+source_refs:
+- src_20260522_a632cc1c
 status: enriched
 title: "泛产品设计·用户卡片：一堂五步法"
 type: tool

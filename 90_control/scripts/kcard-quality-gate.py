@@ -10,6 +10,7 @@ KDO 卡片质量门禁脚本
 """
 
 import argparse
+import json
 import re
 import yaml
 from pathlib import Path
@@ -195,6 +196,31 @@ def check_card(file_path, all_ids):
     # 3. status 与 reviewed_by 一致性（更严格）
     if status == "reviewed" and (not reviewed_by or reviewed_by == "pending"):
         issues["p1"].append("status=reviewed 但 reviewed_by 无效")
+
+    # 4. source_refs 中的 src_ID 是否在 source 注册表中存在
+    try:
+        sid_map = json.loads((Path(WIKI_DIR).parent / ".kdo" / "source_id_map.json").read_text(encoding="utf-8"))
+    except Exception:
+        sid_map = {}
+    refs = fm.get("source_refs", []) or []
+    if isinstance(refs, str): refs = [refs]
+    if not isinstance(refs, list): refs = []
+    missing_srcs = []
+    for r in refs:
+        r_str = str(r).strip()
+        m = re.match(r'(src_\d+_\w{8})', r_str)
+        if m and m.group(1) not in sid_map:
+            missing_srcs.append(m.group(1))
+    if missing_srcs:
+        issues["p1"].append(f"source_refs 中的 src ID 未注册: {', '.join(missing_srcs[:3])}")
+
+    # 5. contradicts 字段残留检测（应改用 related）
+    if fm.get("contradicts"):
+        issues["p1"].append("frontmatter 含 contradicts 字段，应改为 related（语义修正 2026-06-15）")
+
+    # 6. reviewed_by 与 author 相同且非"黄药师/欧阳锋"（自审）
+    if reviewed_by and author and reviewed_by == author and author not in ("黄药师", "欧阳锋"):
+        issues["p1"].append(f"自审: author={author}, reviewed_by={reviewed_by} 相同")
 
     return issues, fm
 

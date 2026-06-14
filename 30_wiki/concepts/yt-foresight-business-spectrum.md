@@ -68,6 +68,8 @@ source_refs:
   - "00_inbox/一堂-机会预判-终局光谱图-truman-图03.png"
   - "00_inbox/一堂-机会预判-终局光谱图示例-truman-图01.png"
   - "00_inbox/一堂-机会预判-终局光谱图解读-truman-02.png"
+source_refs:
+- src_20260614_40afd886
 status: enriched
 diagnostic_signals:
   - {'signal': '用户想开一个店/做一个项目，但说不清楚想做多大、目标模糊', 'framework_lens': '用七级光谱帮用户定位当前想法在哪个层级，暴露目标模糊的问题', 'follow_up_question': '你做这件事3-5年后，最低能接受做成什么程度（保A）？最理想做到什么程度（争B）？'}

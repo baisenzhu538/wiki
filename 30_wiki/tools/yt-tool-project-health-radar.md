@@ -2,6 +2,8 @@
 id: yt-tool-project-health-radar
 title: "项目健康度雷达"
 type: tool
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 domain:
   - yitang

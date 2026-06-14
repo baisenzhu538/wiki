@@ -2,6 +2,8 @@
 id: yt-concept-ai-guard-brain
 title: "守脑如玉：AI时代保持大脑锋利"
 type: concept
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 domain:
   - yitang

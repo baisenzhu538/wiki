@@ -28,6 +28,8 @@ related:
 source_refs:
   - "00_inbox/科学决策/一堂-科学决策-审美拉升01口述.txt"
   - "00_inbox/科学决策/一堂-科学决策-X型Y型决策习惯对比.png"
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 title: "X型→Y型决策者习惯诊断与转换"
 trust_level: medium

@@ -26,6 +26,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-用户分层.png"
+source_refs:
+- src_20260522_38ddd826
 status: enriched
 title: "泛产品设计·用户卡片：用户分层"
 type: tool

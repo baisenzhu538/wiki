@@ -29,6 +29,8 @@ review_by: 2026-12-06
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修身-泛产品设计审美口述.md"
+source_refs:
+- src_20260522_0af1f6dd
 status: enriched
 title: "最佳实践学习四步法：从收集到超越"
 type: tool

@@ -801,3 +801,80 @@ yt-entrepreneur-five-step-method 的 related 中加：
 **判定方法：** 写完后问自己"只看标题能不能知道这张卡的立场是什么？"——不能就改。
 
 **执行：** 老顽童产新卡时执行。欧阳锋审查时检查，概念式退回。
+
+---
+
+## 🔴 临时插入：全库质量审查 — 内容认领与校对（2026-06-15）
+
+> 来源：王语嫣对 `30_wiki/` 全库 1337 张卡片的深度审查。
+> 性质：临时清理任务，不替代现有递归深挖任务。可在现有任务间隙穿插执行。
+> 优先级：P1（不阻塞当前主线，但希望尽快收尾）。
+
+### 背景
+
+王语嫣已完成全库审查，并执行了三项批量修复：
+1. YAML frontmatter 解析错误修复
+2. `author=legacy` 推断为真实 author（348 张推断成功，146 张无法推断标为 `unknown`）
+3. OCR 卡 trust 统一降级为 low + confidence 0.6
+
+当前需要你处理的内容问题：
+- **146 张 author=unknown**：需要你认领自己创建的卡片
+- **186 张 OCR 卡**：已降级为 low trust，需要你校对其中与你相关的部分
+
+### 任务 L1：认领 author=unknown 卡片（1-2h）
+
+**素材**：`90_control/author-unknown-list-2026-06-15.txt`
+
+**操作**：
+1. 打开清单，逐张判断是不是你创建的
+2. 如果是你创建的，把 frontmatter 中的 `author` 从 `unknown` 改为你自己的名字
+3. 同时补充 `source_context` 和 `source_refs`（如果知道来源）
+4. 如果不是你创建的，保持 `unknown` 不动
+
+**完成标准**：
+- 认领完所有你确定的卡片
+- 把剩余不确定的清单复制到 `60_feedback/corrections/author-unknown-remaining.md`，说明需要用户/欧阳锋判断
+
+### 任务 L2：校对 5 张与你相关的 OCR 卡（1-2h）
+
+**范围**：优先选文件名含 `truman`、`一堂`、`月白`、`蒋老师` 等你熟悉的主题。
+
+**操作**：
+1. 从 186 张 OCR 卡中选 5 张
+2. 找到对应的 source 文件（通常在 `10_raw/sources/`）
+3. 结合原图或 source 文件校对 OCR 内容
+4. 校对后更新 frontmatter：
+   - `confidence` 提升至 0.7-0.9（根据校对质量）
+   - `trust_level` 提升至 medium/high
+   - `reviewed_by` 改为你的名字
+   - `status` 从 `draft` 改为 `enriched` 或 `reviewed`
+
+**完成标准**：
+- 5 张 OCR 卡完成校对并升级
+- 每张卡在卡片末尾加一行：`- OCR 校对完成 by 老顽童（2026-06-15）`
+
+### 任务 L3：补充 source_refs（2-3h）
+
+**范围**：你认领的 author=unknown 卡片 + 你已校对/熟悉的卡片。
+
+**操作**：
+1. 检查这些卡的 `source_refs` 是否为空
+2. 如果知道来源，补充 `source_id`
+3. 如果来源已丢失，在 `source_refs` 中写 `legacy` 并加注释说明
+
+**完成标准**：
+- 认领卡片中 ≥80% 补充了 source_refs
+
+### 严禁
+
+- ❌ 不删除任何卡片
+- ❌ 不批量修改正文内容
+- ❌ 不把无法确定的 author 强行分配给别人
+
+### 产出清单
+
+1. 已认领卡片的 author 字段更新
+2. `60_feedback/corrections/author-unknown-remaining.md`
+3. 5 张已校对升级的 OCR 卡
+
+完成 L1-L3 后，在此文件末尾写一段小结，通知欧阳锋/用户审查。

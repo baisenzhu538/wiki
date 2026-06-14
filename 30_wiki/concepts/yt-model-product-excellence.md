@@ -19,6 +19,8 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/顶级产品追求的方向-乔布斯.png"
+source_refs:
+- src_20260522_ea933690
 status: enriched
 title: "顶级产品追求：品味、最佳实践与乔布斯的审美哲学"
 type: framework

@@ -24,6 +24,8 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修身-Y模型探索营2口述版.md"
+source_refs:
+- src_20260510_6d771b2a
 status: enriched
 title: "Y模型探索营2：五次质变与科学推演"
 type: tool

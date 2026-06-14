@@ -2,6 +2,8 @@
 id: concept-mckinsey-hypothesis-driven
 title: "Hypothesis-Driven Approach：假设驱动工作法"
 type: framework
+source_refs:
+- src_20260613_c5f5a7ce
 status: enriched
 domain:
   - consulting

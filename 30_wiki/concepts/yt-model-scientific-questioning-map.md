@@ -18,6 +18,8 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-科学提问刻意练习.png"
+source_refs:
+- src_20260609_e13d29d9
 status: enriched
 title: "科学提问刻意练习地图"
 type: framework

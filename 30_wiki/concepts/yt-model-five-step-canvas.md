@@ -20,6 +20,8 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂五步法画布.png"
   - "10_raw/assets/yitang/一堂五步法-产品内核画布.png"
+source_refs:
+- src_20260510_1eb77650
 status: enriched
 title: "五步法画布 × 产品内核画布：从假设到壁垒的实操工具"
 type: framework

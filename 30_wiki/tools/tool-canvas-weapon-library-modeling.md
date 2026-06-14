@@ -2,6 +2,8 @@
 id: "tool-canvas-weapon-library-modeling"
 title: "画布/武器库建模法：把工具箱变成可快速调用的系统"
 type: "tool"
+source_refs:
+- src_20260510_1eb77650
 status: "enriched"
 domain:
   - "yitang"

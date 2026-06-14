@@ -4,6 +4,8 @@ title: "五步法衔接：什么时候从增长切换到壁垒建设"
 type: concept
 domain:
   - yitang
+source_refs:
+- src_20260510_1eb77650
 status: enriched
 confidence: 0.85
 difficulty: intermediate

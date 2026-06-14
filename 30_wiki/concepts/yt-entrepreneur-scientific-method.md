@@ -21,6 +21,8 @@ query_triggers:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
+source_refs:
+- src_20260614_faa8021d
 status: enriched
 title: "Y模型/科学方法"
 trust_level: medium

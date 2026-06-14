@@ -2,6 +2,8 @@
 id: ai-short-drama-ice-fire-scripting-compass
 title: 冰火写本罗盘：AI短剧剧本策划全流程体系
 type: concept
+source_refs:
+- src_20260613_41aceaf5
 status: enriched
 domain:
   - yitang

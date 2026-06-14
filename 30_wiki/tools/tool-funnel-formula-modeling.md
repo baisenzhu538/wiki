@@ -2,6 +2,8 @@
 id: "tool-funnel-formula-modeling"
 title: "漏斗图/公式建模法：量化流程与关键变量"
 type: "tool"
+source_refs:
+- src_20260613_a8bcfd38
 status: "enriched"
 domain:
   - "yitang"

@@ -31,6 +31,8 @@ source_refs:
   - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
   - "https://www.deeplearning.ai/courses/ai-prompting-for-everyone/"
   - "https://www.bilibili.com/video/BV1UT9qBDET7/"
+source_refs:
+- src_20260522_a89ab860
 status: enriched
 title: "吴恩达提示词课程·一堂拆书精华"
 type: course_notes

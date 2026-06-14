@@ -2,6 +2,8 @@
 id: modeling-level-map
 title: 建模能力段位图：从 L1 到 L6 的十年爬山地图
 type: tool
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 domain:
   - yitang

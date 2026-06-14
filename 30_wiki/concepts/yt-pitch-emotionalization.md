@@ -25,6 +25,8 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+source_refs:
+- src_20260609_93e2df35
 status: enriched
 title: "讲香·情绪化"
 type: tool

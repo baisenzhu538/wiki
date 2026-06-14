@@ -3,6 +3,8 @@ id: "dk-modeling-expert-consensus-five-percent"
 title: "5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感"
 type: "dark-knowledge"
 dark_knowledge_type: "principle"
+source_refs:
+- src_20260510_1eb77650
 status: "enriched"
 domain:
   - "yitang"

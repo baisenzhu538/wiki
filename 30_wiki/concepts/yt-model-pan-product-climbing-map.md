@@ -29,6 +29,8 @@ review_by: 2026-11-11
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂泛产品设计-十年修炼爬山地图.png"
+source_refs:
+- src_20260614_0e6fd2e7
 status: enriched
 title: "泛产品十年爬山地图：L1-L6成长路径"
 type: framework

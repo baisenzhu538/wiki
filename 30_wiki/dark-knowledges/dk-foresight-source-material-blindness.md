@@ -5,6 +5,8 @@ type: dark-knowledge
 dark_knowledge_type: process-failure
 domain:
   - yitang
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 confidence: 0.95
 difficulty: beginner

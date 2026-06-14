@@ -2,6 +2,8 @@
 id: "tool-binary-quadrant-modeling"
 title: "二分法/象限图建模法：用正交维度做分类与取舍"
 type: "tool"
+source_refs:
+- src_20260614_8f80cb0f
 status: "enriched"
 domain:
   - "yitang"

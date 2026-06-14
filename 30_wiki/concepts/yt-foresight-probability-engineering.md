@@ -4,6 +4,8 @@ title: "概率工程：把小概率变成大概率的方法论"
 type: concept
 domain:
   - yitang
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 confidence: 0.9
 difficulty: intermediate

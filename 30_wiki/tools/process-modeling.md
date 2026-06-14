@@ -2,6 +2,8 @@
 id: process-modeling
 title: 流程建模：用 SOP 与清单把经验变成稳定产出
 type: tool
+source_refs:
+- src_20260614_c62e0e61
 status: enriched
 domain:
   - yitang

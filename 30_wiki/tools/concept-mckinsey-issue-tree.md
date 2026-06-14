@@ -2,6 +2,8 @@
 id: concept-mckinsey-issue-tree
 title: "Issue Tree：结构化问题拆解"
 type: tool
+source_refs:
+- src_20260614_8f80cb0f
 status: enriched
 domain:
   - consulting

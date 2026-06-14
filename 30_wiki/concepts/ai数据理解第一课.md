@@ -1,6 +1,8 @@
 ---
 title: "AI数据理解第一课"
 type: concept
+source_refs:
+- src_20260601_ba8ea2f0
 status: enriched
 domain:
   - yitang

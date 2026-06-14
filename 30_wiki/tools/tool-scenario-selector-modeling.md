@@ -2,6 +2,8 @@
 id: "tool-scenario-selector-modeling"
 title: "场景→工具选择器：根据需求快速匹配合适的建模工具"
 type: "tool"
+source_refs:
+- src_20260614_071928f4
 status: "enriched"
 domain:
   - "yitang"

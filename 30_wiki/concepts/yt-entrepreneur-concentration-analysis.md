@@ -22,6 +22,8 @@ review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
+source_refs:
+- src_20260522_9d98d526
 status: enriched
 title: "集中度分析"
 trust_level: medium

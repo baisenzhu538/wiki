@@ -23,6 +23,8 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂进步大地图.png"
+source_refs:
+- src_20260510_ef0a5055
 status: enriched
 title: "无限进步大地图"
 type: framework

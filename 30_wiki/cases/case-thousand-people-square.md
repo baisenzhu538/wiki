@@ -2,6 +2,8 @@
 id: "case-thousand-people-square"
 title: "案例：一堂‘千人广场模型’——用统计建模心态做课"
 type: "case"
+source_refs:
+- src_20260614_c944bda5
 status: "enriched"
 domain:
   - "yitang"

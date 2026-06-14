@@ -2,6 +2,8 @@
 id: modeling-to-kdo-toolchain
 title: 建模三段论 → KDO 工具链映射：从 SOP 到本质的知识管理落地
 type: framework
+source_refs:
+- src_20260503_52ae08ba
 status: enriched
 confidence: 0.85
 domain:

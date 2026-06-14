@@ -1,56 +1,105 @@
 ---
 id: yt-entrepreneur-unit-model
-confidence: 0.8
+confidence: 0.85
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1868
 language: zh-CN
 query_triggers:
-  - "单元模型"
-  - "Unit Economics"
-  - LTV/CAC
-  - "单位经济模型"
-  - "回本周期计算"
-  - "商业模式拆解"
-  - "最小交易单元"
-  - "创业经济可行性"
-  - "毛利分析"
-  - "单客经济模型"
+- 单元模型
+- Unit Economics
+- LTV/CAC
+- 单位经济模型
+- 回本周期计算
+- 商业模式拆解
+- 最小交易单元
+- 创业经济可行性
+- 毛利分析
+- 单客经济模型
 related:
-  - dk-yb21-ecommerce-pricing-independent-model
-review_date: 2026-05-08
-reviewed_by: "黄药师"
+- dk-yb21-ecommerce-pricing-independent-model
+review_date: 2026-06-15
+reviewed_by: 老顽童
 source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
+- src_20260614_8f80cb0f
+- src_20260525_92ea6173
+- src_20260609_112b88f7
+- src_20260609_3659a538
+- src_20260609_99032bf9
+- src_20260609_71152485
+- src_20260609_7dbbefd0
+- src_20260609_07b851fb
+- src_20260609_1c8b4d0e
+- src_20260609_1fa94850
+- src_20260609_d193f920
+- src_20260609_285df010
+- src_20260609_4244803c
+- src_20260609_59f0b2a5
+- src_20260609_70068960
+- src_20260611_ff778102
 status: enriched
-title: "单元模型"
-trust_level: medium
+title: 单元模型
+trust_level: high
 type: tool
 version: 1
 yitang:
   map: entrepreneur
-  module: "单元模型"
+  module: 单元模型
   course_id: yt-entrepreneur-unit-model
   course_type: method
   level: core
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户LTV/CAC看起来很好，但数字是假设的', 'framework_lens': '模型建立在空气上', 'follow_up_question': '你的LTV和CAC中，有多少来自真实交易数据？如果<30%，这是沙盘推演'}
-  - {'signal': '用户只看单元模型，不看真实现金流', 'framework_lens': '模型脱离现实', 'follow_up_question': '按当前现金流，你还能活几个月？单元模型好但现金流断了也没用'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户LTV/CAC看起来很好，但数字是假设的
+  framework_lens: 模型建立在空气上
+  follow_up_question: 你的LTV和CAC中，有多少来自真实交易数据？如果<30%，这是沙盘推演
+- signal: 用户只看单元模型，不看真实现金流
+  framework_lens: 模型脱离现实
+  follow_up_question: 按当前现金流，你还能活几个月？单元模型好但现金流断了也没用
+updated_at: 2026-06-15
+author: 老顽童
 ---
-
 # 单元模型
 
-> 来源：一堂课程体系 | 阶段：预判阶段/五步法进阶。[[yitang-course-map]] | [[yt-system-course-catalog]]
+> 来源：一堂课程体系 | 阶段：预判阶段/核心框架。[[yitang-course-map]] | [[yt-system-course-catalog]]
 
 ## Summary
 
-单元模型，一堂预判阶段/五步法进阶的核心课程。五步法第三步的核心工具。
+单元模型（Unit Economics）是把复杂商业模式拆成最小交易单元，判断其经济可行性的工具。核心指标：LTV/CAC、单位毛利、回本周期。核心认知：单元模型不成立的生意，规模越大死得越快。
+
+---
+
+## Purpose
+
+在扩大投入前，判断“每一单生意是否能赚钱、多久回本、哪个变量最敏感”；防止用规模掩盖亏损。
+
+---
+
+## Protocol/Procedure
+
+1. 界定最小交易单元：单客户、单订单、单 SKU、单店、单城市等，根据业务形态选择一个能独立核算的单元。
+2. 画单元因果图：列出单元的收入项、成本项、关键转化率，明确变量之间的因果链。
+3. 找基准值：每个变量尽量用真实交易数据或至少两个独立 cohort 的行为数据；无数据则标注为假设并给出信度。
+4. 计算核心指标：LTV、CAC、单位毛利、回本周期。
+5. 灵敏度分析：对每个核心变量做“改善多少模型才成立”的反推，识别最杠杆的 1-2 个变量。
+6. 制定下周行动：每个关键变量必须对应一个具体行动项，而不是“继续观察”。
+7. 规模审计：在规模化前和每个规模拐点重新测量，识别 CAC 上升、LTV 下降等非线性效应。
+
+---
+
+## When NOT to Use
+
+- PMF 未确认、留存曲线尚未趋稳时。
+- 商业模式本质是网络效应/生态效应，独立单客模型不适用时。
+- 资本密集型或强监管行业，里程碑风险大于单元经济风险时。
+- 只有假设没有真实数据，却用精确数字自我安慰时。
+
+---
+> 来源：一堂课程体系 | 阶段：预判阶段/五步法进阶。[[yitang-course-map]] | [[yt-system-course-catalog]]
+
 
 ## Claims
 
@@ -79,7 +128,7 @@ author: "老顽童"
 **Eric Ries**（"The Lean Startup"作者）提出的"创新核算"（Innovation Accounting）概念对传统单元经济模型构成了直接挑战。Ries论证：LTV/CAC/回本周期这些传统指标是"虚荣指标"（vanity metrics）的一个精致版本——不是因为它们不准确，而是因为在PMF确认之前它们不回答你最需要回答的问题。Ries的核心区分：（1）传统单元模型告诉你"如果这个单元模式成立，它是否可能盈利"——这是一个财务可行性问题；（2）创新核算告诉你"我们的商业模式是否在收入/留存上显示可持续改善的实证趋势"——这是一个学习可行性问题。Ries的挑战：早期创业者最致命的错误不是单元模型算错了而是算对了——他们精确地算出了LTV需要>$100，CAC需要<$50，然后基于尚未验证的客户留存假设去生产这些数字，最终做的是一份财务上漂亮的幻想。Ries的替代方案"三个A指标"（acquisition激活- activation激活-retention留存-revenue收入）要求创始人先建立"用户的真实行为改善率"为基线，再去计算单元经济——单元模型在创新核算建立之后引入才有意义。
 #### Bill Aulet：批判
 
-...
+**Bill Aulet**（MIT Martin Trust Center 董事总经理，《自律型创业》作者）会认为：单元模型把创业简化为财务计算，但创业成功首先是一个“过程纪律”问题——你是否有系统地完成客户发现、市场进入、产品迭代和商业模式验证。Aulet 的 24 步创业框架把单元经济放在很靠后的位置，因为在你没有完成市场细分、客户需求验证和商业模式设计之前，LTV/CAC 的数字只是幻想。Aulet 的追问是：**如果你的单元模型算得很好，但你还没有找到可重复的付费客户获取流程，你算的是“未来可能成立的经济模型”，还是“自我安慰的财务小说”？**
 
 ## diagnostic_signals
 

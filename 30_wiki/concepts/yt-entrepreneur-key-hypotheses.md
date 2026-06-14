@@ -29,6 +29,8 @@ review_date: 2026-06-06
 source_refs:
   - "00_inbox/一堂-关键假设课-truman-口述.txt"
   - "00_inbox/一堂-关键假设课-truman-笔记.txt"
+source_refs:
+- src_20260609_76e76298
 status: enriched
 title: "关键假设259工具与假设验证三板斧"
 trust_level: medium
