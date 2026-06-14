@@ -1236,7 +1236,7 @@ _Last updated: 2026-06-14T06:10:00+00:00_
 - [[tools/tool-canvas-weapon-library-modeling|画布/武器库建模法：把工具箱变成可快速调用的系统]] — source `src_20260614_73352fa5`
 - [[tools/tool-scenario-selector-modeling|场景→工具选择器：根据需求快速匹配合适的建模工具]] — source `src_20260614_73352fa5`
 - [[cases/case-livestream-sop-modeling|案例：直播前热身 SOP 建模]] — source `src_20260614_8269ccdb`
-- [[cases/case-personal-map-modeling|案例：个人地图/能力画布建模]] — source `src_20260614_8269ccdb`
+- [[cases/case-personal-map-modeling.md|案例：一堂个人地图的完整建模过程]] — source `src_20260614_8269ccdb`
 - [[cases/case-truman-ai-skill-engineering-guide|案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南]] — source `src_20260614_8269ccdb`
 - [[cases/case-essence-education-strategy|案例：教育本质与战略本质的提炼]] — source `src_20260614_8269ccdb`
 - [[cases/case-essence-entrepreneurship|案例：创业本质 = 小概率游戏]] — source `src_20260614_8269ccdb`
