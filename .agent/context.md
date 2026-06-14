@@ -1,11 +1,11 @@
 ---
 updated: 2026-06-14
 active_branch: main
-active_task: "生成听脑 AI 主题草稿卡：60_feedback/kcard-ai-methodology-tools-draft.md（基于 theme-ai-methodology-tools-summary，11 条录音中 1 条标注药柜待移出）。"
+active_task: "药柜业务模型验证：已完成 V2 公式/医院场景/规模化模型及 11 个验证任务，等待用户/团队线下验证反馈。"
 blockers:
   - "Kimi K2.7 Anthropic tool call待修复"
   - "欧阳锋待审查 I/J/K/L/M/N 批量任务"
-next_session_hint: "用户说'继续'→ 等欧阳锋审查结果或新任务分配。若洪七公失忆，先读 20_memory/hongqigong-amnesia-recovery-20260613.md → .agent/hongqigong-context.md → dashboard.md 领任务。"
+next_session_hint: "用户说'继续'→ 等欧阳锋审查结果或新任务分配。若洪七公失忆，先读 20_memory/hongqigong-amnesia-recovery-20260613.md → .agent/hongqigong-context.md → dashboard.md 领任务。若用户重启后要求继续药柜业务模型验证，先读 20_memory/kimi-medical-cabinet-context-20260614.md → 70_product/projects/proj_20260614_afb74ee2-智能药柜业务模型验证.md → 70_product/tasks/dashboard.md 查看任务状态。"
 ---
 
 ## 2026-06-12 变更
@@ -61,6 +61,16 @@ next_session_hint: "用户说'继续'→ 等欧阳锋审查结果或新任务分
 - **老顽童**：🆕 清单体笔记 KDO 批次已完成（4 新卡+1文章+1dk卡+1旧卡更新）。黄药师审查 A-，P0 项待修（article未注册管线+缺source_refs），深度问题待用户反馈。管理工具箱+路演+Phase C 均已完成。
 - **洪七公**：✅ **两张桥接卡全部完成**（2026-06-11）。`concept-mckinsey-7s` 和 `concept-maister-trusted-advisor` 均已产出到 `30_wiki/frameworks/`，回归待命等待下一批任务。
 - **段王爷**：本会话无动作。
+- **Kimi Code CLI（本会话）**：🆕 完成药柜业务模型 V2 升级 + 医院场景模型 + 规模化模型，创建项目 `proj_20260614_afb74ee2` 及 11 个验证任务。失忆恢复入口：`20_memory/kimi-medical-cabinet-context-20260614.md`。
+
+### 药柜业务模型验证项目（proj_20260614_afb74ee2）
+- **状态**：已创建项目 + 11 个验证任务，全部待执行
+- **核心交付物**：
+  - `60_feedback/itingnao/medical-cabinet-longterm/method-medical-cabinet-business-formula-v2.md`
+  - `60_feedback/itingnao/medical-cabinet-longterm/method-medical-cabinet-hospital-scene-model.md`
+  - `60_feedback/itingnao/medical-cabinet-longterm/method-medical-cabinet-scale-model.md`
+- **待验证重点**：单设备真实流水、医院准入政策、合规成本、资金来源、团队产能、供应链授权
+- **下一步**：用户/团队线下完成验证任务后，把结果写回 task 文件或 60_feedback/comments/，Kimi 据此更新模型卡片
 
 ### KDO CLI 状态
 - 47 .py 文件，~13,800 行，15 测试文件

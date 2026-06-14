@@ -276,6 +276,8 @@ tags:
 ## 十一、相关卡片
 
 - `method-medical-cabinet-business-model-decomposition.md`：V1 业务公式拆解
+- `method-medical-cabinet-hospital-scene-model.md`：**医院场景子模型（本卡场景的深挖版）**
+- `method-medical-cabinet-scale-model.md`：**规模化模型（单设备模型之上的扩张版）**
 - `method-single-point-financial-model.md`：单点财务测算
 - `fact-o2o-cost-structure.md`：O2O 平台费用明细
 - `method-medical-cabinet-site-selection.md`：选址框架

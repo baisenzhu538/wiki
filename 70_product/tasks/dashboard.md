@@ -1,116 +1,35 @@
----
-title: 任务仪表盘
-updated: 2026-06-11
----
+# Task Dashboard
 
-# 任务仪表盘
+Generated: 2026-06-14T13:28:00+00:00
 
-> **用法**：Agent 自己来看进度、领任务。批次全部完成后通知欧阳锋统一审查。
-> **图例**：✅ 完成 · 🔨 进行中 · ⏳ 排队 · ⚠️ 阻塞 · 🟡 有条件 PASS
-
----
-
-## 老顽童（Producer · 飞书 Hermes）
-
-| # | 任务 | 状态 | 备注 |
-|---|------|:--:|------|
-| 1-16 | 5 月全部旧任务 | ✅ | 全部完成 |
-| 17 | Phase 2.1：corrections.md 暗知识卡批产 | ✅ | 11 张 PASS。质量 A |
-| 18 | Phase 2.2：failure-modes.md 暗知识卡批产 | ✅ | 14 张 dk-f*。欧阳锋审查 A |
-| 19 | Phase 2.3：pitfalls.md 暗知识卡批产 | ✅ | 19 张 dk-p*。新版 18 张 A- |
-| 20 | Phase 3：口述稿暗知识萃取（月白→Truman） | ⏳ | 30 张目标，首批 10 张已入库。暂停 |
-| 21 | 写卡时标注 contradicts | ✅ | 33 张卡已补完 |
-|| **22** | **AI俱乐部四篇（纪浩/马易/半肥猫/水水）** | **🟡** | **纪浩 10 张卡已产出。半肥猫 17 张 ✅ 已审核通过（quality A）。马易 40 张 + 水水 18 张 ⚠️ 标为 needs-review（模板填充，无 Claims/Critique）** |
-- **🆕 产品内核域处理（5篇素材）** —— **✅ 老顶童已完成概念卡填充×5，待审查**
-| **24** | 泛产品设计域卡片 | **🟡** | case-truman-motivation-map + dk-truman-iteration-to-aesthetic-ceiling 已产出。质量 A。待欧阳锋审查 |
-| **25** | **CLI技能卡批量产出** | **🟡** | **半肥猫手写 ✅（有真实步骤+常见失误，质量好）· 课转手写 🟡（格式完整但内容薄，步骤≈原文复述，需加"判断标准"小节）· skills/目录批量10张 ⚠️（同一秒创建=脚本批量写入，未经审核精选直接入库。dashboard 之前已标注"待老顽童审核精选"，这批需补审核——能用的精修入库，不合格的标记暂不发布）** |
-| **26** | **桥接卡试点（王语嫣需求）** | **🟡 试点通过** | **MECE (A-) + Issue Tree (A) 通过。可铺开。卡在 frameworks/ 和 tools/ 目录，需黄药师加扫描** |
-| **27** | **文章：机会预判完全指南** | **✅** | **深度合成文，A-** |
-| **28** | **暗知识卡（机会预判域）** | **✅** | **4张 A-。元认知层，质量高** |
-| **29** | **🆕 纪浩体系完整萃取** | **🟡** | **case卡产出2张，skill卡批量处理。需确认concept全景卡是否到位** |
-|| **30** | **课转技能卡补判断标准** | **✅ 已完成** | **12张课转技能卡全量补充判断标准+表格+自检问题，已与清单小抄/MECE/找教练风格统一** |
-| **31** | **王语嫣自迭代提案** | **🟡** | **proposal-self-learning-cron.md 已出，定位准确，待完整审查** |
-|| **32** | **Design域孤岛桥接（王语嫣诊断）** | **✅** | **P0 5对+P1 4对共 9 对桥接已完成。欧阳锋审核通过。纠正记录→60_feedback/corrections/corr_20260611_laowantong-design-domain-island-bridges.md** |
-|| **33** | **王语嫣勘误：design domain 漏标补充** | **✅** | **4 张课程概念卡已补 design；3 张待定卡已判断。纠正记录→60_feedback/corrections/corr_20260612_laowantong-design-domain-missing-batch1.md** |
-|| **34** | **Pyramid Principle 桥接卡** | **✅** | **洪七公完成，审查 A** |
-|| **35** | **旧卡补互链 P0** | **🟡 5/7** | **老顽童完成5对。剩余2对（yt-five-step-method + yt-model-progress-map）需先修 related dict 旧格式再加链** |
+| ID | Title | Status | Assigned | Priority | File |
+|----|-------|--------|----------|----------|------|
+| quality-gate-automation-v15 | 质量门自动化 — kdo validate --v15 | pending | 黄药师 | P1 | quality-gate-automation-v15.md |
+| domain-digest-cards | 按域摘要卡——agent 入职加速层 | pending | 黄药师 | P3 | domain-digest-cards.md |
+| kdo-scaffold-v15 | kdo scaffold — 为缺失 v1.5 信号的卡片自动生成升级骨架 | done | 黄药师 | P0 | kdo-scaffold-v15.md |
+| sprint-12-backfill-card-behavioral-requirements | Sprint 12：回溯升级——已有卡片补齐 v1.5 行为转化三要件 | done | 黄药师 | P0 | sprint-12-backfill-card-behavioral-requirements.md |
+| fix-validate-v15-domain-filter | 修复 kdo validate --v15 的 --domain 过滤失效 | done | 黄药师 | P1 | fix-validate-v15-domain-filter.md |
+| validate-v15-upgrade-plan | kdo validate --v15 --upgrade-plan：从诊断到可行动的升级路线图 | done | 黄药师 | P1 | validate-v15-upgrade-plan.md |
+| huangyaoshi-codex-lessons-review | 审查请求：Codex 调试复盘 → KDO 系统改进 4 条建议 | pending_review | 欧阳锋 | - | huangyaoshi-codex-lessons-review.md |
+| proposal-ouyangfeng-2026-06-14 | 建议书：欧阳锋工作模式调整与知识库三层化 | 待欧阳锋确认 | - | - | proposal-ouyangfeng-workmode-2026-06-14.md |
+| auto-label-accuracy-baseline-vs-gold-standard | Auto-label 准确率基线 vs Gold Standard：34.8%（47/135） | draft | - | - | task-20260531-huangyaoshi-label-accuracy-fix.md |
+| domain-prompt-engineering-andre-ng | 提示词工程域：吴恩达课程消化 + 人机协作技能内化 | completed | 黄药师 | P0 | domain-prompt-engineering-andre-ng.md |
+| domain-xiang-jiang-deep-digestion | 讲香域深度消化 + 架构重建 | completed | 黄药师 | P0 | domain-xiang-jiang-deep-digestion.md |
+| sprint-10-fill-remaining-related-edges | Sprint 10：填剩余 related 图边 + 收尾管理域 | completed | 黄药师 | P0 | sprint-10-fill-remaining-related-edges.md |
+| sprint-11-cognitive-upgrade-framework | Sprint 11：AI思维卡素材 ingest + 认知升级十步框架萃取 | completed | 黄药师 | P0 | sprint-11-cognitive-upgrade-framework.md |
+| sprint-6-agent-native-upgrade-all-cards | Sprint 6：全量卡片 Agent-Native 格式升级 | completed | 黄药师 | P0 | sprint-6-agent-native-upgrade-all-cards.md |
+| sprint-7-fill-related-edges | Sprint 7：填充 panproduct 域图边 + 清理残留 00_inbox | closed_incomplete | 黄药师 | P0 | sprint-7-fill-related-edges.md |
+| sprint-8-finish-related-edges | Sprint 8：完成 panproduct 图边 + 收尾 00_inbox | completed | 黄药师 | P0 | sprint-8-finish-related-edges.md |
+| sprint-9-cleanup-source-refs-query-triggers | Sprint 9：修复 source_refs 空值 + query_triggers 污染 | completed | 黄药师 | P0 | sprint-9-cleanup-source-refs-query-triggers.md |
+| kdo-infrastructure-backlog-proposal | 黄药师 KDO 基础设施 backlog 提案 | approved | 黄药师 | P0-P2 | kdo-infrastructure-backlog-proposal.md |
+| calibration-understanding-gate-motivation-peakend | 校准任务：用两张旧卡建立理解深度标尺 | completed | 黄药师 | P1 | calibration-understanding-gate-motivation-peakend.md |
+| sprint-13-kdo-mechanism-iterations | Sprint 13：KDO 机制迭代——lint 基线、卡片清册、变更 diff、理解门禁辅助 | completed | 黄药师 | P1 | sprint-13-kdo-mechanism-iterations.md |
 
 ---
 
-## 黄药师（Builder · Windows PowerShell）
+## Summary
 
-| # | 任务 | 状态 |
-|---|------|:--:|
-| 1-20 | scaffold / validate / video CLI / infrastructure 等 | ✅ |
-| Sprint 3-7 | produce 预填/数据卫生/Validate→Ship/video CLI | ✅ |
-| Sprint 5b | 萃取器跑通全部月白口述稿 | 🟡 | 已产出候选 JSON。待确认后续 |
-| Task A | 陈旧标记规则（`kdo stale`） | 🔜 | 已实现，待欧阳锋审查 |
-| Task B | 增量传播机制（`kdo stale --propagate`） | ⏳ | Task A 完成后启动 |
-| Task C | 技能点扫描器 | ✅ | **100 候选技能已输出。马易/半肥猫/水水/Truman 四批 skill 卡已批量产出** |
-| **Task D** | 协助老顽童处理产品内核域素材 | ✅ | 已完成 |
-| **Task E** | **诊断基础设施 v1** | **✅ 已关闭** | **E1-E5全部完成（E4暂缓），commit 72a7d60。526/528 tests pass** |
-| **Task F** | **生产者体验 + 五步法审计** | **✅ A** | **真缺口（3→4步衔接）+ 4条摩擦（P0 validate regex bug已确认）** |
-| **Task I** | **王语嫣v2审计 — 目录结构+Domain批量修复** | **✅** | **I-1~I-4全部完成。commit `5651100d`** |
-| **Task J** | **`kdo scaffold --new` 生产化** | **✅** | **6类型dogfood-tested, yaml+v15通过。KDO commit `7360c56`** |
-| **Task K** | **diagnostic_signals 批量填充** | **✅** | **47张卡补TODO占位。commit `a5d818c4`** |
-| **Task L** | **王语嫣掉线+身份串号排查** | **🔴** | **频繁掉线，调研时被识别为老顽童。需查WSL Hermes部署** |
-
----
-
-## 洪七公（Multimodal Arbiter · 飞书 Hermes）
-
-| # | 任务 | 状态 | 备注 |
-|---|------|:--:|------|
-| 1-7 | 旧任务 | ✅ | 全部完成 |
-| 8 | 科学决策域 VA 交叉审查 | ✅ | 35张图，通过率~71% |
-| 9 | VA 前置 A1（🔴10张） | ✅ | A |
-| 10 | 单元模型域 VA 前置（7张） | ✅ | A-。3处颜色违规待修 |
-|| 11 | 路演域 VA 补齐 | ✅ | L207颜色残留已修复。无进一步VA待审查项 |
-|| 12 | 清单体笔记图片 OCR 处理 | ✅ | 2 张图片 OCR → 结构化文本 |
-|| 13 | 产品内核 OCR → 结构化入库 | ✅ | 2张OCR手动整合完成。画布→yt-tool-product-core-canvas.md / 十大指标→yt-product-kernel-cultivation.md |
-|| **16** | **临时支援老顽童：产桥接卡×2** | **✅** | **7-S (A-) + Trusted Advisor (A-) 已通过。** |
-|| **17** | **🆕 第二轮支援：Pyramid Principle 桥接卡** | **✅** | **已产出 (15.8KB, Taleb+Eric Ries). 待欧阳锋审查** |
-|| **18** | **🆕 旧卡补互链 P0 — 3对** | **✅** | **yt-foresight↔five-step↔entrepreneur-map↔key-hypotheses 双向互链完成** |
-|| **14** | **🆕 20张skill卡 VA审查（欧阳锋）** | **✅** | **20/20全过。6维中5维95%+。唯一弱项"适用场景正反例"8/20→根因在黄药师扫描器prompt，已入backlog** |
-|| **15** | **🆕 一堂五步法域12张卡（39图+10文本深度解析→知识卡片）** | **✅** | **框架5张+工具4张+案例3张。OCR整合完成。待欧阳锋审查** |
-
----
-
-## 王语嫣（Consultant · 飞书 Hermes）
-
-> 🔄 王语嫣的工作节奏是 **迭代循环**：接指令 → 诊断/产出 → 过程中发现缺口 → 写入下一轮 → 不用等审查，继续做。两条都做完再叫欧阳锋统一审。
-
-| 顺序 | 任务 | 状态 | 备注 |
-|:----:|------|:--:|------|
-| **→1** | **🆕 产 KDO 概念卡地图** | **🔜** | **飞书指令1。`60_feedback/diagnosis/kdo-concept-map-20260611.md`。盘点全库概念卡分布、域间桥接、孤岛，不动30_wiki** |
-| **→2** | **🆕 产自迭代机制设计文档** | **⏳** | **飞书指令2。做完地图后，基于发现的问题写 `60_feedback/diagnosis/proposal-self-learning-cron.md`。你设计机制，黄药师实施** |
-| &nbsp; | 持续诊断（接用户飞书提问） | 🔜 | 核心职责，穿插执行 |
-| &nbsp; | 概念 Gap 标注 | 🔜 | 诊断中识别缺口，在诊断记录 Gap 节标注 |
-
-## 段王爷（Publisher · 飞书 Hermes）
-
-| # | 任务 | 状态 | 备注 |
-|---|------|:--:|------|
-| 1 | KDO 视频试点 ship | ⚠️ 待补记录 | final.mp4 已就绪 |
-| 2 | 50_delivery/ 发布审计 | ✅ | delivery-registry 全面清洗：已交付 29→7（剔除22未通过validate+1重复），待交付 0→23（全部标注阻塞原因） |
-
----
-
-## 最近完成
-
-| 日期 | 谁 | 任务 | 结果 |
-|------|-----|------|------|
-| **06-12** | **老顽童** | **课转技能卡补判断标准12张 + 机会预判域11张审查 + 旧卡互链P0双对修复** | **✅ P0旧卡互链2对已修，P1a 12张判断标准全补，P1b 11张黄药师卡审查通过，P2 确认已有卡覆盖** |
-| **06-11** | **王语嫣** | **首次诊断：咨询框架缺口调研** | **✅ A。8 个概念缺口识别清晰，桥接关系准确。诊断记录→60_feedback/diagnosis/** |
-| **06-11** | **洪七公** | **产品内核域OCR整合 + 路演颜色修复** | **✅ 全部通过。任务11(L207颜色修复)+任务13(OCR手动整合)+任务15(五步法12张卡)三连签。欧阳锋审查通过** |
-| **06-11** | **欧阳锋代修** | **机会预判域8张卡审查 + 修复** | **✅ B+。18图OCR补完+3旧卡标记superseded_by+index修正。纠正记录→60_feedback/corrections/** |
-| **06-11** | **老顽童** | **机会预判域8张新卡** | **🟡 内容B+，OCR遗漏(P0)+旧卡未清理(P1)，已由欧阳锋代修** |
-| **06-10** | **老顽童** | **机会预判域8张新卡产出** | **✅ 已产出。待审查（见上方）** |
-| **06-09** | **老顽童** | **泛产品设计域 2 张卡** | **✅ A。case-truman-motivation-map + dk-truman-iteration-to-aesthetic-ceiling。三步编译法+多攻击者论证，结构扎实** |
-| **06-09** | **段王爷** | **50_delivery/ 发布审计完成** | **✅ delivery-registry 清洗：29→7 已交付，23 待交付（18 validate未通过+2 draft+2 不存在+1 重复）。逐一标注阻塞原因** |
-| **06-09** | **黄药师** | **老顽童纪浩批次审查 + P0修复** | **🟡 3 dk卡格式重修 + 3 case卡补章节 + index注册** |
-| **06-09** | **老顽童** | **纪浩 AI俱乐部 10 张卡** | **🟡 4 case + 2 concept + 3 dk + 1 skill。内容有料，格式不合规（P0 已修）** |
-| 06-07 | 黄药师 | 扫描器批量产出 skill 卡 | ✅ 马易 40 + 半肥猫 17 + 水水 19 + Truman ~25 = ~100 张 |
-| 06-06 | 老顽童 | 33 张暗知识卡批量补 contradicts | ✅ dk-f1~f14 + dk-p1~p20 contradicts 已补 |
-| 05-28 | 欧阳锋 | Design 域第一批编译 | ✅ PASS。3 张概念卡全流程完成 |
-| 05-28 | 黄药师 | Sprint 5（Validate→Ship 闭环） | ✅ 全部 PASS。9/9 tests, 388 pytest |
+- **Total**: 20
+- **Done**: 4
+- **In Progress**: 0
+- **Pending**: 2

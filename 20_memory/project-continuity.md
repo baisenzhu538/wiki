@@ -275,3 +275,7 @@
 - 内容工厂的工业化手册 v1.3：[[kdo-industrialization-manual]]
 - Agent 原生设计规范：[[agent-native-card-design]]
 - 高密度素材策略 v2.0：[[high-density-composite-compilation-strategy]]
+
+### 2026-06-14T13:31:35+00:00 - medical-cabinet-context
+
+药柜业务模型验证项目：proj_20260614_afb74ee2。核心卡片在 60_feedback/itingnao/medical-cabinet-longterm/：method-medical-cabinet-business-formula-v2.md（本质公式）、method-medical-cabinet-hospital-scene-model.md（医院场景）、method-medical-cabinet-scale-model.md（规模化模型）。失忆后先读 20_memory/kimi-medical-cabinet-context-20260614.md 和 70_product/projects/proj_20260614_afb74ee2-智能药柜业务模型验证.md。
