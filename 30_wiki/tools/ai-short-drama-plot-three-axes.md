@@ -180,6 +180,16 @@ diagnostic_signals:
 
 ## Sources
 
+### 原始素材
+
+- `10_raw/assets/ai-short-drama/代俊隆-AI短剧-剧情三板斧-图片-01.png` — 原始信息图
+- `00_inbox/AI短剧创作/代俊隆-AI短剧-剧情三板斧-图片-01.json` — OCR 结构化 JSON
+- `00_inbox/AI短剧创作/代俊隆-AI短剧-剧情三板斧-图片-01.md` — OCR 识别文本
+
+### 归档 source
+
+- `src_20260613_083395df-ai-short-drama-plot-three-axes.md:11-14` — 归档后的原图摘要
+
 - `src_20260613_083395df-plot-three-axes.md:11-14` — 剧情三板斧原图（极致对立/高能吸睛/立意升华）
 - `src_20260613_687c4ec0-transcript.md:1989` — 口述中要求"扣一遍"剧情三板斧
 - `src_20260613_12d63c1c-notes.md:25-46` — 剧情三板斧结构化笔记

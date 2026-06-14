@@ -138,8 +138,21 @@ diagnostic_signals:
 
 ## Sources
 
-- `src_20260613_500dbed8-platform-policy-comparison.md:11-14` — 主流平台政策对比原图表格（平台/投稿方式/分成模式/题材偏好/新人友好度）
+### 原始素材
+
+- `10_raw/assets/ai-short-drama/代俊隆-AI短剧-溜达主流平台政策对比-图片-01.png` — 原始平台政策对比表图片
+- `00_inbox/AI短剧创作/代俊隆-AI短剧-溜达主流平台政策对比-图片-01.json` — OCR 结构化 JSON（含表格单元格与置信度）
+- `00_inbox/AI短剧创作/代俊隆-AI短剧-溜达主流平台政策对比-图片-01.md` — OCR 识别文本
+
+### 归档 source
+
+- `src_20260613_500dbed8-platform-policy-comparison.md:11-14` — 归档后的平台政策对比表摘要
+
+### 加工 source
+
 - `src_20260613_12d63c1c-notes.md:117-133` — 平台适配检查清单与 Prompt 模板
+
+> 注：平台政策变化快，投稿前请以各平台官方最新公告为准。本表仅反映代俊隆培训时所呈现的即时信息。
 
 ---
 

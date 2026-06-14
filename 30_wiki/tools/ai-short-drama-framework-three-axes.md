@@ -189,6 +189,16 @@ diagnostic_signals:
 
 ## Sources
 
+### 原始素材
+
+- `10_raw/assets/ai-short-drama/代俊隆-AI短剧-框架三板斧-图片-01.png` — 原始信息图
+- `00_inbox/AI短剧创作/代俊隆-AI短剧-框架三板斧-图片-01.json` — OCR 结构化 JSON
+- `00_inbox/AI短剧创作/代俊隆-AI短剧-框架三板斧-图片-01.md` — OCR 识别文本
+
+### 归档 source
+
+- `src_20260613_1ade007d-ai-short-drama-framework-three-axes.md:11-14` — 归档后的原图摘要
+
 - `src_20260613_1ade007d-framework-three-axes.md:11-14` — 框架三板斧原图（深渊入局/迷雾博弈/决战收官）
 - `src_20260613_12d63c1c-notes.md:79-95` — 框架三板斧结构化笔记
 

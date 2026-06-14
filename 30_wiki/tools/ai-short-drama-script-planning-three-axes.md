@@ -188,6 +188,16 @@ diagnostic_signals:
 
 ## Sources
 
+### 原始素材
+
+- `10_raw/assets/ai-short-drama/代俊隆-AI短剧-剧本策划三板斧-图片-01.png` — 原始信息图
+- `00_inbox/AI短剧创作/代俊隆-AI短剧-剧本策划三板斧-图片-01.json` — OCR 结构化 JSON
+- `00_inbox/AI短剧创作/代俊隆-AI短剧-剧本策划三板斧-图片-01.md` — OCR 识别文本
+
+### 归档 source
+
+- `src_20260613_61c0cd80-ai-short-drama-script-planning-three-axes.md:11-14` — 归档后的原图摘要
+
 - `src_20260613_61c0cd80-script-planning-three-axes.md:11-14` — 剧本策划三板斧原图（剧本基地/内容走向/剧情终局）
 - `src_20260613_687c4ec0-transcript.md` — 口述中关于剧本基地与内容走向的讲解
 - `src_20260613_12d63c1c-notes.md:50-76` — 剧本策划三板斧结构化笔记

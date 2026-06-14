@@ -141,10 +141,23 @@ diagnostic_signals:
 
 ## Sources
 
-- `src_20260613_41aceaf5-ice-fire-scripting-compass.md:11-14` — 冰火写本罗盘原图表格
+### 原始素材
+
+- `10_raw/assets/ai-short-drama/代俊隆-AI剧本创作-冰火写本罗盘-图片-01.png` — 原始信息图（同心圆罗盘结构）
+- `00_inbox/AI短剧创作/代俊隆-AI剧本创作-冰火写本罗盘-图片-01.json` — OCR 结构化 JSON（含置信度与区域坐标）
+- `00_inbox/AI短剧创作/代俊隆-AI剧本创作-冰火写本罗盘-图片-01.md` — OCR 识别文本
+
+### 归档 source
+
+- `src_20260613_41aceaf5-ice-fire-scripting-compass.md:11-14` — 归档后的原图表格摘要
+
+### 口述/笔记 source
+
 - `src_20260613_687c4ec0-transcript.md:217-227` — 短剧市场数据（1000 亿 / 12.8 万部 / 95% AI 辅助）
-- `src_20260613_687c4ec0-transcript.md:349-379` — 核心方法论：专业方法论 + 精准指令 + 人工把控
+- `src_20260613_687c4ec0-transcript.md:349` — 核心公式：专业方法论 + 精准指令 + 人工把控 = 商业爆款剧本
+- `src_20260613_687c4ec0-transcript.md:379` — "AI 是超级执笔"比喻
 - `src_20260613_687c4ec0-transcript.md:605-613` — 商业化验证数据（30+ 剧本、签约 2 部）
+- `src_20260613_687c4ec0-transcript.md:1639` — 情绪价值论述
 - `src_20260613_12d63c1c-notes.md:9-21` — 方法论总览结构化笔记
 
 ---

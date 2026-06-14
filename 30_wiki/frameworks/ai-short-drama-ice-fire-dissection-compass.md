@@ -142,6 +142,16 @@ diagnostic_signals:
 
 ## Sources
 
+### 原始素材
+
+- `10_raw/assets/ai-short-drama/代俊隆-AI短剧-冰火拆本罗盘-图片-01.png` — 原始信息图
+- `00_inbox/AI短剧创作/代俊隆-AI短剧-冰火拆本罗盘-图片-01.json` — OCR 结构化 JSON
+- `00_inbox/AI短剧创作/代俊隆-AI短剧-冰火拆本罗盘-图片-01.md` — OCR 识别文本
+
+### 归档 source
+
+- `src_20260613_c17fcdb2-ai-short-drama-ice-fire-dissection-compass.md:11-14` — 归档后的原图摘要
+
 - `src_20260613_c17fcdb2-ice-fire-dissection-compass.md:11-14` — 冰火拆本罗盘原图表格
 - `src_20260613_687c4ec0-transcript.md:737` — 口述中提到"拆本"与"三板斧"
 - `src_20260613_12d63c1c-notes.md:9-21` — 方法论总览中的拆本罗盘定位

@@ -187,6 +187,16 @@ diagnostic_signals:
 
 ## Sources
 
+### 原始素材
+
+- `10_raw/assets/ai-short-drama/代俊隆-AI短剧-矛盾冲突三板斧-图片-01.png` — 原始信息图
+- `00_inbox/AI短剧创作/代俊隆-AI短剧-矛盾冲突三板斧-图片-01.json` — OCR 结构化 JSON
+- `00_inbox/AI短剧创作/代俊隆-AI短剧-矛盾冲突三板斧-图片-01.md` — OCR 识别文本
+
+### 归档 source
+
+- `src_20260613_37933c99-ai-short-drama-conflict-three-axes.md:11-14` — 归档后的原图摘要
+
 - `src_20260613_37933c99-conflict-three-axes.md:11-14` — 矛盾冲突三板斧原图（外在阵营/内在人际/自我宿命）
 - `src_20260613_687c4ec0-transcript.md:2125` — 口述中讲解外在/内在/自我三层冲突
 - `src_20260613_12d63c1c-notes.md:98-114` — 矛盾冲突三板斧结构化笔记
