@@ -3,13 +3,15 @@ id: "insight-human-machine-replacement-path"
 title: "洞察卡：餐饮自动化的人机替代路径"
 type: "insight-card"
 status: "draft"
-confidence_score: 0.70
+confidence_score: 0.74
 trust_level: "medium-high"
 source_refs:
   - "itingnao-5550543 智能设备与外卖自动化"
   - "itingnao-7022732 智能设备与外卖自动化"
-  - "餐饮自动化实践观察"
-  - "劳动经济学相关研究"
+  - "Market Intelo《Restaurant Automation Market Research Report 2034》"
+  - "Kitchen Hub《Restaurant AI in 2026: What Worked (and What Didn't)》"
+  - "RoboPhil《Real Case Study: Transforming A Restaurant With Service Robots》"
+  - "Restaurant Dive《10 ways restaurants are embracing automation》"
 related:
   - "kcard-other-draft"
   - "six-layer-validation-smart-devices-automation.md"
@@ -75,6 +77,46 @@ tags:
 | 试点先行 | 先在一个门店跑通，再推广 |
 | 利益绑定 | 节省的人力成本部分奖励给门店 |
 | 保留人工兜底 | 高峰期或设备故障时人工顶上 |
+
+## 行业数据
+
+| 指标 | 数值 | 来源 |
+|------|------|------|
+| 2025 年全球餐饮自动化市场规模 | 62 亿美元 | Market Intelo |
+| 2034 年预测规模 | 184 亿美元 | Market Intelo |
+| 2026-2034 CAGR | 17.8% | Market Intelo |
+| 北美 2025 年市场份额 | 38.2% | Market Intelo |
+| 主要连锁自助点餐机渗透率 | >60% | Market Intelo |
+| 订单管理/支付系统回本期 | 18-24 个月 | Market Intelo |
+| 厨房自动化回本期 | 24-36 个月 | Market Intelo |
+| 综合服务机器人投资回本期 | 16-18 个月 | RoboPhil 案例 |
+
+## 真实案例
+
+### McDonald's：从语音点餐挫折到更谨慎的 AI
+
+- 早期 AI 语音点餐出现大量错误（口音、噪音、时间压力）。
+- 当前策略：继续投资 drive-thru AI，但强调准确性，保留人工接管能力。
+- 启示：在真实嘈杂环境中，纯 AI 替代容易翻车，需要人机协作兜底。
+
+### Chipotle：解决单一问题而非全盘替代
+
+- Autocado 系统处理牛油果备料（耗时、重复、体力要求高）。
+- 其余流程仍由人工完成。
+- 启示：针对单一高痛点做自动化，比试图替代整个厨房更容易成功。
+
+### Starbucks：看不见的 AI
+
+- Deep Brew 平台优化订单流、排班和个性化推荐。
+- 顾客看不到明显变化，但运营效率提升。
+- 启示：运营系统层面的 AI 自动化往往比前台机器人更有价值。
+
+### The Modern Table（英国曼彻斯特）：服务机器人案例
+
+- 120 座位餐厅引入迎宾、送餐、清洁机器人。
+- 6 个月后：服务时间 ↓ 40%，翻台率从 1.8 提升到 2.5，人工成本从 42% 降到 28%，营收 ↑ 35%。
+- 但初期员工抵触、顾客接受度不一、系统整合复杂。
+- 启示：自动化成功需要组织变革、培训和客户教育。
 
 ## 对决策的启示
 
