@@ -1,4 +1,5 @@
 ---
+
 id: private-domain-saas-sales-funnel
 title: "私域 SaaS 销售四步法"
 type: framework
@@ -19,7 +20,7 @@ source_refs:
 created_at: 2026-06-13
 updated_at: 2026-06-13
 author: unknown
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 ---
 
 # 私域 SaaS 销售四步法

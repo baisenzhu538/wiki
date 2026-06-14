@@ -1,4 +1,5 @@
 ---
+
 id: case-shampoo-product-kernel
 title: "洗发水产品内核：从卖点混淆到内核清晰的产品定义案例"
 type: case
@@ -23,7 +24,7 @@ pipeline:
   - confidence-source-cited
   - confidence-case-verified
 author: "黄药师"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 confidence: 0.85
 trust_level: high
 ---

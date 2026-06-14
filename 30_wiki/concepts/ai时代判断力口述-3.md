@@ -1,4 +1,5 @@
 ---
+
 id: "ai时代判断力口述-3"
 confidence: 0.75
 created_at: 2026-05-25
@@ -22,7 +23,7 @@ pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
 author: unknown
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 trust_level: medium
 ---
 

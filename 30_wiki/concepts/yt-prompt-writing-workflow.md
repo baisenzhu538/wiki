@@ -1,4 +1,5 @@
 ---
+
 id: yt-prompt-writing-workflow
 title: "AI写作工作流：大纲→要点→全文"
 type: tool
@@ -37,7 +38,7 @@ diagnostic_signals:
   - {'signal': 'AI生成的全文会经过人工加入具体案例、判断和风格调整', 'framework_lens': 'AI出骨架，人出灵魂', 'follow_up_question': '你在这篇文章中加入的独家信息占多少比例？'}
 updated_at: 2026-06-13
 author: "老顽童"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 trust_level: medium-high
 ---
 

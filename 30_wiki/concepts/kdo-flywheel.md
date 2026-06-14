@@ -1,4 +1,5 @@
 ---
+
 title: "KDO 飞轮 — 建造→使用→反思→实验"
 type: concept
 status: stable
@@ -22,7 +23,7 @@ pipeline:
   - confidence-verified-by-test
 id: kdo-flywheel
 author: "黄药师"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: high
 ---

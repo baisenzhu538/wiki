@@ -1,4 +1,5 @@
 ---
+
 title: "新人落地"
 type: concept
 status: enriched
@@ -10,7 +11,7 @@ diagnostic_signals:
 updated_at: 2026-06-13
 id: yt-management-onboarding
 author: "老顽童"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low

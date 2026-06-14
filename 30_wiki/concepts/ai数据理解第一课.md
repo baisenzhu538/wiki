@@ -1,4 +1,5 @@
 ---
+
 title: "AI数据理解第一课"
 type: concept
 source_refs:
@@ -25,7 +26,7 @@ pipeline:
   - confidence-source-cited
 id: "ai数据理解第一课"
 author: "老顽童"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: "kimi-深度调研集群方法论-deep-research-swarm"
 created_at: 2026-05-01
 domain:
@@ -12,7 +13,7 @@ updated_at: 2026-05-04
 pipeline:
   - confidence-source-cited
 author: unknown
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 ---

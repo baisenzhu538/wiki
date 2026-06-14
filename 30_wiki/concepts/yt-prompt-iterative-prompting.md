@@ -1,4 +1,5 @@
 ---
+
 id: yt-prompt-iterative-prompting
 title: "迭代式提示词工作流（5步法）"
 type: tool
@@ -37,7 +38,7 @@ diagnostic_signals:
   - {'signal': '每轮迭代都有明确改进方向，而不是随机尝试', 'framework_lens': '迭代需要目标', 'follow_up_question': '你清楚下一轮希望AI在哪个维度改进吗？'}
 updated_at: 2026-06-13
 author: "老顽童"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 trust_level: medium-high
 ---
 

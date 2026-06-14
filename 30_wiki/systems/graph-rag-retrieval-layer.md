@@ -1,4 +1,5 @@
 ---
+
 title: "Graph RAG 检索层技术说明"
 author: "审查者欧阳锋"
 role: "知识架构师 (Knowledge Architect)"
@@ -13,7 +14,7 @@ source_refs:
   - ".kdo/graph_index/（LightRAG 产出物）"
 superseded_design: "v0.1 keyword-based — 原计划基于 index.json 的纯标准库方案，因黄药师已完成 LightRAG MVP 且检索质量更优，该方案已废弃"
 domain:
-reviewed_by: "pending"
+reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: "high"
 ---

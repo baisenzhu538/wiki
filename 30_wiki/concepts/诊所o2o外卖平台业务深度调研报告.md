@@ -1,4 +1,5 @@
 ---
+
 id: "诊所o2o外卖平台业务深度调研报告"
 created_at: 2026-04-30
 domain:
@@ -10,7 +11,7 @@ updated_at: 2026-05-03
 pipeline:
   - confidence-verified-by-case
 author: unknown
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 confidence: 0.75
 trust_level: medium-low
 ---

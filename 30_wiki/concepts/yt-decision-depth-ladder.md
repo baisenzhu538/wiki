@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-depth-ladder
 title: "深度阶梯工具：L1-L4停车场模型 + 三点预测法"
 type: tool
@@ -61,7 +62,7 @@ diagnostic_signals:
   - {'signal': "创始人在周会上说'等我再算一版更精确的数据就拍板'，但已经说了两周", 'framework_lens': '决策延迟——L2已经足够支撑行动，继续算L3是行动拖延', 'follow_up_question': '你现在算的这些数据，最乐观和最悲观的假设下，决策结论会改变吗？如果不会，L2已经够了'}
 updated_at: 2026-06-13
 author: "老顽童"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 created_at: 2026-06-15
 ---
 # 深度阶梯工具：L1-L4停车场模型 + 三点预测法

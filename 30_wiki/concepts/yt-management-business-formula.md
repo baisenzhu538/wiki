@@ -1,4 +1,5 @@
 ---
+
 title: "业务公式"
 type: concept
 source_refs:
@@ -27,7 +28,7 @@ diagnostic_signals:
 updated_at: 2026-06-14
 id: yt-management-business-formula
 author: "老顽童"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 created_at: 2026-06-15
 ---
 

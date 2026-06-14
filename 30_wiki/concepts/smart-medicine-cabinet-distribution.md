@@ -1,4 +1,5 @@
 ---
+
 id: smart-medicine-cabinet-distribution
 title: "智能药柜分销业态洞察"
 type: concept
@@ -22,7 +23,7 @@ source_refs:
 created_at: 2026-06-13
 updated_at: 2026-06-13
 author: unknown
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 ---
 
 # 智能药柜分销业态洞察

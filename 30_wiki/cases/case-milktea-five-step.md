@@ -1,4 +1,5 @@
 ---
+
 id: case-milktea-five-step
 title: "奶茶店五步法：从九死一生到十年百店的科学创业之路"
 type: case
@@ -23,7 +24,7 @@ pipeline:
   - confidence-source-cited
   - confidence-case-verified
 author: "黄药师"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 confidence: 0.85
 trust_level: high
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: "HIS系统开发实现方案-架构师指南"
 created_at: 2026-05-03
 domain:
@@ -12,7 +13,7 @@ updated_at: 2026-05-03
 pipeline:
   - confidence-source-cited
 author: unknown
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 ---

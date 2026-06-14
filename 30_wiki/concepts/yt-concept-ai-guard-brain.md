@@ -1,4 +1,5 @@
 ---
+
 id: yt-concept-ai-guard-brain
 title: "守脑如玉：AI时代保持大脑锋利"
 type: concept
@@ -38,7 +39,7 @@ diagnostic_signals:
   - {'signal': '用户坚持手写笔记、不用AI，效率低下', 'framework_lens': '另一极端——拒绝AI的能力放大', 'follow_up_question': '你手写笔记的内容中，哪些其实可以让AI帮你整理、检索、关联？'}
 updated_at: 2026-06-13
 author: "老顽童"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 trust_level: medium-high
 ---
 

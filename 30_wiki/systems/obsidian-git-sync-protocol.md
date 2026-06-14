@@ -1,8 +1,9 @@
 ---
+
 title: Obsidian Git Multi-Device Sync Protocol
 type: system
 status: draft
-id: obsidian-git-sync-protocol - "src_20260503_multi_device_sync"
+id: "obsidian-git-sync-protocol"
 created_at: '2026-05-03'
 updated_at: '2026-05-03'
 related:

@@ -1,4 +1,5 @@
 ---
+
 id: "sprint-2-门禁举证验收"
 created_at: 2026-05-09
 domain:
@@ -12,7 +13,7 @@ updated_at: 2026-05-09
 pipeline:
   - confidence-source-cited
 author: unknown
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 ---

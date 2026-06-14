@@ -1,11 +1,12 @@
 ---
 
+
 title: "诊所O2O项目"
 type: project
 status: active
 domain:
   - healthcare
-id: "诊所O2O项目 - \"src_20260427_970eb338\""
+id: "诊所O2O项目"
 created_at: 2026-05-04
 updated_at: 2026-05-04
 related:

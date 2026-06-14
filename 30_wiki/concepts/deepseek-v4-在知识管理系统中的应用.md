@@ -1,4 +1,5 @@
 ---
+
 id: "deepseek-v4-在知识管理系统中的应用"
 created_at: 2026-05-05
 domain:
@@ -12,7 +13,7 @@ updated_at: 2026-05-05
 pipeline:
   - confidence-source-cited
 author: unknown
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 ---

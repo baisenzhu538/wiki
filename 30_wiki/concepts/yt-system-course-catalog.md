@@ -1,4 +1,5 @@
 ---
+
 id: yt-system-course-catalog
 title: "一堂全课程目录索引"
 type: concept
@@ -25,7 +26,7 @@ diagnostic_signals:
   - {'signal': "团队/组织是否避免用'上课覆盖率'替代'行为改变率'", 'framework_lens': '组织绩效 / Perkins 元素症', 'follow_up_question': '课程采购后，实际工作方式发生了什么改变？'}
 updated_at: 2026-06-13
 author: "老顽童"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 ---

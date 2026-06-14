@@ -1,8 +1,9 @@
 ---
+
 title: KDO Protocol Implementation Roadmap — Detailed Recommendation Report
 type: improvement-plan
 status: draft
-id: kdo-protocol-implementation-roadmap - "src_20260503_protocol_design_session"
+id: "kdo-protocol-implementation-roadmap"
 created_at: '2026-05-03'
 updated_at: '2026-05-03'
 related:

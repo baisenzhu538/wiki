@@ -1,4 +1,5 @@
 ---
+
 id: yt-prompt-anti-flattery
 title: "反谄媚机制：让AI说真话"
 type: tool
@@ -40,7 +41,7 @@ diagnostic_signals:
   - {'signal': '对AI给出的积极结论会用独立来源或反向问题验证', 'framework_lens': 'AI输出需要外部校验', 'follow_up_question': 'AI说你的项目很有前景，你用什么证据独立验证了这一点？'}
 updated_at: 2026-06-13
 author: "老顽童"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 trust_level: medium-high
 ---
 

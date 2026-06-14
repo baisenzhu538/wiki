@@ -1,4 +1,5 @@
 ---
+
 id: source-code-delivery-model
 title: "源码交付模式"
 type: concept
@@ -20,7 +21,7 @@ source_refs:
 created_at: 2026-06-13
 updated_at: 2026-06-13
 author: unknown
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 ---
 
 # 源码交付模式

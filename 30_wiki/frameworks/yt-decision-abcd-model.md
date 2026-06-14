@@ -1,11 +1,12 @@
 ---
+
 type: framework
 id: yt-decision-abcd-model
 status: enriched
 domain:
   - "一堂·科学决策"
 author: "老顽童"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low

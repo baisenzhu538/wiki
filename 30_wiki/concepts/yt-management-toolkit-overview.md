@@ -1,4 +1,5 @@
 ---
+
 id: yt-management-toolkit-overview
 component_of:
   - yt-model-management-map
@@ -64,7 +65,7 @@ diagnostic_signals:
   - {'signal': '管理者不知道当前问题该用什么工具', 'framework_lens': '工具选择困难', 'follow_up_question': '你能用一个标签描述当前的管理问题吗？如果不能，无法匹配工具'}
 updated_at: 2026-06-13
 author: "老顽童"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 ---
 
 # 管理工具箱总览

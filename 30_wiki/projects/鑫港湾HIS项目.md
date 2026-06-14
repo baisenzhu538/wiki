@@ -1,11 +1,12 @@
 ---
 
+
 title: "鑫港湾HIS项目"
 type: project
 status: active
 domain:
   - healthcare
-id: "鑫港湾HIS项目 - \"src_20260428_db49a647\" - \"src_20260503_968e0210\" - \"src_20260503_1a1f0312\" - \"src_20260503_dadc7838\""
+id: "鑫港湾HIS项目"
 created_at: 2026-05-04
 updated_at: 2026-05-04
 related:

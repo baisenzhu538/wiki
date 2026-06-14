@@ -1,4 +1,5 @@
 ---
+
 title: "AI 俱乐部·人和 AI 协作 — 五层结构"
 type: concept
 status: enriched
@@ -8,7 +9,7 @@ created_at: "2026-06-09T14:03:49+00:00"
 updated_at: "2026-06-09T14:22:09+00:00"
 id: "ai-俱乐部人和-ai-协作-五层结构"
 author: "纪浩"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 ---

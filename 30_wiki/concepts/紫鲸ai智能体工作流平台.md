@@ -1,4 +1,5 @@
 ---
+
 id: "紫鲸ai智能体工作流平台"
 created_at: 2026-04-28
 domain:
@@ -13,7 +14,7 @@ pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
 author: unknown
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 ---

@@ -1,4 +1,5 @@
 ---
+
 id: "ai单元模型口述蒋老师"
 confidence: 0.85
 created_at: 2026-05-25
@@ -26,7 +27,7 @@ pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
 author: unknown
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 trust_level: medium-high
 ---
 

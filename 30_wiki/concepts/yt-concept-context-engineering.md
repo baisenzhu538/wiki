@@ -1,4 +1,5 @@
 ---
+
 id: yt-concept-context-engineering
 title: "上下文工程：充分≠越多越好"
 type: concept
@@ -35,7 +36,7 @@ diagnostic_signals:
   - {'signal': '用户只给一句话prompt，抱怨AI回答太泛', 'framework_lens': '上下文不足——没有独特约束就没有独特答案', 'follow_up_question': '这个问题涉及的 业务阶段/目标用户/当前约束/不可接受方案 是什么？'}
 updated_at: 2026-06-13
 author: "老顽童"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 trust_level: medium-high
 ---
 

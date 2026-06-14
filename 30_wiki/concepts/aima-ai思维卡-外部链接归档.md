@@ -1,4 +1,5 @@
 ---
+
 id: "aima-ai思维卡-外部链接归档"
 created_at: 2026-05-21
 domain:
@@ -12,7 +13,7 @@ updated_at: 2026-05-22
 pipeline:
   - confidence-source-cited
 author: unknown
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 ---

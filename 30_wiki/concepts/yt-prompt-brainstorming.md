@@ -1,4 +1,5 @@
 ---
+
 id: yt-prompt-brainstorming
 title: "AI头脑风暴工作流"
 type: tool
@@ -37,7 +38,7 @@ diagnostic_signals:
   - {'signal': '最终选择由人做出，并对选中方案进行深化', 'framework_lens': '人是决策者', 'follow_up_question': '你最后选择的方案与AI最初建议相比，改动有多大？'}
 updated_at: 2026-06-13
 author: "老顽童"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 trust_level: medium-high
 ---
 

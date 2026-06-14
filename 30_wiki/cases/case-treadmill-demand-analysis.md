@@ -1,4 +1,5 @@
 ---
+
 id: case-treadmill-demand-analysis
 title: "跑步机需求分析：在家健身场景的需求拆解与替代方案博弈"
 type: case
@@ -23,7 +24,7 @@ pipeline:
   - confidence-source-cited
   - confidence-case-verified
 author: "黄药师"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 confidence: 0.85
 trust_level: high
 ---

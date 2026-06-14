@@ -1,4 +1,5 @@
 ---
+
 title: "紫鲸AI"
 type: entity
 status: reviewed
@@ -7,7 +8,7 @@ aliases:
   - "Zijing AI"
   - "紫鲸AI智能体工作流平台"
 location: "Hangzhou, China"
-id: "紫鲸AI - \"src_20260428_29929c1f\" - \"src_20260501_4eee4e95\""
+id: "紫鲸AI"
 created_at: 2026-05-03
 updated_at: 2026-05-03
 related:

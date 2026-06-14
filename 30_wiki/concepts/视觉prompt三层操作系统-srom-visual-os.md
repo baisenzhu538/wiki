@@ -1,4 +1,5 @@
 ---
+
 id: "视觉prompt三层操作系统-srom-visual-os"
 created_at: 2026-05-21
 domain:
@@ -13,7 +14,7 @@ updated_at: 2026-06-12
 pipeline:
   - confidence-source-cited
 author: "月白"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 ---

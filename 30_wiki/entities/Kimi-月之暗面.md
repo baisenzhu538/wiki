@@ -1,4 +1,5 @@
 ---
+
 title: "Kimi（月之暗面）"
 type: entity
 status: reviewed
@@ -11,7 +12,7 @@ aliases:
 url: "https://kimi.moonshot.cn"
 location: "Beijing, China"
 founded_at: 2023-04-01
-id: "Kimi-月之暗面 - \"src_20260502_7d7c1b7c\""
+id: "Kimi-月之暗面"
 created_at: 2026-05-03
 updated_at: 2026-05-03
 related:

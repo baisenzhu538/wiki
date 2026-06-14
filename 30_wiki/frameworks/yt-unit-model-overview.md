@@ -1,4 +1,5 @@
 ---
+
 title: "单元模型概览：十大单元模型与三角色分工"
 date: 2026-05-24
 type: framework
@@ -7,7 +8,7 @@ domain:
   - decision-science
 id: yt-unit-model-overview
 author: "老顽童"
-reviewed_by: pending
+reviewed_by: "欧阳锋"
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low

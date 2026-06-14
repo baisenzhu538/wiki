@@ -1,4 +1,5 @@
 ---
+
 title: "Y Combinator"
 type: entity
 status: reviewed
@@ -10,7 +11,7 @@ aliases:
 url: "https://www.ycombinator.com"
 location: "Mountain View, California, USA"
 founded_at: 2005-03-01
-id: "YC-Y-Combinator - \"src_20260430_8cc84e5b\""
+id: "YC-Y-Combinator"
 created_at: 2026-05-03
 updated_at: 2026-05-03
 related:
