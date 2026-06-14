@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-06-14T06:08:50.676Z",
+  "source": "non-medical-processing-contamination",
+  "note": "这些录音最初被分到非药柜主题，经主题提炼后发现实质涉及药柜/医疗/药店业务，现归入药柜长期关注队列补充清单。",
+  "records": [
+    {
+      "id": "4226418",
+      "title": "药店-选址选品运营讨论",
+      "primary": "内部技术/工作讨论",
+      "subTheme": "药店运营",
+      "priority": "P1"
+    },
+    {
+      "id": "4092592",
+      "title": "多人-药店数字化改造讨论",
+      "primary": "AI/技术",
+      "subTheme": "药店数字化",
+      "priority": "P1"
+    },
+    {
+      "id": "3424604",
+      "title": "云聚米-私有化部署与开发沟通",
+      "primary": "内部技术/工作讨论",
+      "subTheme": "医疗SaaS/HIS",
+      "priority": "P1"
+    },
+    {
+      "id": "3166977",
+      "title": "润馨堂-品牌运营讨论",
+      "primary": "内部技术/工作讨论",
+      "subTheme": "医药品牌运营",
+      "priority": "P2"
+    },
+    {
+      "id": "2247045",
+      "title": "瑞心堂-集采与品牌升级讨论",
+      "primary": "内部技术/工作讨论",
+      "subTheme": "医药供应链",
+      "priority": "P2"
+    },
+    {
+      "id": "6269640",
+      "title": "货柜-结构与电子方案讨论",
+      "primary": "供应链/硬件制造",
+      "subTheme": "智能药柜硬件",
+      "priority": "P0"
+    },
+    {
+      "id": "1483043",
+      "title": "项目分账与支付对接方案",
+      "primary": "未分类",
+      "subTheme": "药柜支付合规",
+      "priority": "P1"
+    },
+    {
+      "id": "6272697",
+      "title": "外卖平台-智能分单系统沟通",
+      "primary": "未分类",
+      "subTheme": "医药即时零售/恒温",
+      "priority": "P2"
+    },
+    {
+      "id": "2694971",
+      "title": "多人-AI与行业发展讨论",
+      "primary": "AI/技术",
+      "subTheme": "AI+药店",
+      "priority": "P2"
+    },
+    {
+      "id": "1486162",
+      "title": "智慧城市AI应用交流",
+      "primary": "AI/技术",
+      "subTheme": "医疗AI/智慧健康",
+      "priority": "P2"
+    },
+    {
+      "id": "6311449",
+      "title": "一堂-商业项目宣讲会",
+      "primary": "一堂课程",
+      "subTheme": "医疗科技项目片段",
+      "priority": "P2",
+      "note": "仅相关片段，非整条录音"
+    },
+    {
+      "id": "4231073",
+      "title": "多人-项目问题沟通",
+      "primary": "未分类",
+      "subTheme": "疑似药柜设备",
+      "priority": "P1",
+      "note": "需原文复核后确认"
+    }
+  ]
+}
