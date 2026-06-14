@@ -1,24 +1,28 @@
 ---
-id: "concept-modeling-capability-for-kdo"
-title: "概念卡：建模能力在 kdo/wiki 知识库建设中的应用"
-type: "concept-card"
-status: "draft"
-confidence_score: 0.78
-trust_level: "medium-high"
+id: "modeling-capability-for-kdo"
+title: "KDO 内容路线决策：建模能力在知识库建设中的应用"
+type: "decision"
+status: "stable"
+confidence: 0.78
+domain:
+  - "kdo"
+  - "yitang"
 source_refs:
-  - "Truman-高阶建模课程材料（Desktop/wiki/00_inbox/建模能力/）"
+  - "Truman-高阶建模课程材料（00_inbox/建模能力/）"
   - "kdo/wiki 建设实践（药柜主题整理经验）"
 related:
-  - "kcard-yitang-methodology-draft.md"
-  - "QUALITY-CONTROL.md"
-  - "MIGRATION-REVIEW.md"
+  - "modeling-three-stages"
+  - "modeling-capability-system"
+  - "modeling-level-map"
 tags:
-  - #modeling
-  - #knowledge-management
-  - #kdo
-  - #wiki
-  - #yitang
-  - #meta-method
+  - "#modeling"
+  - "#knowledge-management"
+  - "#kdo"
+  - "#meta-method"
+  - "#decision"
+reviewed_by: "黄药师"
+review_date: "2026-06-14"
+promoted_from: "60_feedback/itingnao/kcards-v3/"
 ---
 
 # 概念卡：建模能力在 kdo/wiki 知识库建设中的应用

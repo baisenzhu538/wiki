@@ -3,12 +3,12 @@
 
 _Last updated: 2026-06-14T06:10:00+00:00_
 
-- [[cases/case-personal-map-modeling.md|案例：一堂个人地图的完整建模过程]] — source `src_20260614_8269ccdb`
-- [[cases/case-child-drawing-rhyme.md|案例：孩子控笔「画画歌」——最小单元的建模实践]] — source `src_20260614_8269ccdb`
-- [[concepts/concept-thousand-people-square.md|千人广场模型：一堂做课背后的统计建模理念]] — source `src_20260614_8269ccdb`
-- [[frameworks/framework-course-milestone-model.md|课程里程碑模型：一堂做课的七步生产流程]] — source `src_20260614_8269ccdb`
-- [[frameworks/framework-logic-cleanliness-five-levels.md|逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准]] — source `src_20260614_8269ccdb`
-- [[dark-knowledges/dk-weekly-modeling-iteration-growth-engine.md|暗知识：一堂真正的增长引擎是「周对周的建模能力增长」]] — source `src_20260614_8269ccdb`
+- [案例：一堂个人地图的完整建模过程](cases/case-personal-map-modeling.md) — source `src_20260614_8269ccdb`
+- [案例：孩子控笔「画画歌」——最小单元的建模实践](cases/case-child-drawing-rhyme.md) — source `src_20260614_8269ccdb`
+- [千人广场模型：一堂做课背后的统计建模理念](concepts/concept-thousand-people-square.md) — source `src_20260614_8269ccdb`
+- [课程里程碑模型：一堂做课的七步生产流程](frameworks/framework-course-milestone-model.md) — source `src_20260614_8269ccdb`
+- [逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准](frameworks/framework-logic-cleanliness-five-levels.md) — source `src_20260614_8269ccdb`
+- [暗知识：一堂真正的增长引擎是「周对周的建模能力增长」](dark-knowledges/dk-weekly-modeling-iteration-growth-engine.md) — source `src_20260614_8269ccdb`
 - [[cases/case-ether-online-acquisition.md|案例：以太利用全网调研能力快速获客]] — source `一堂课程-规模经济章节（Truman口述）`
 - [[cases/case-jh-yitang-vs-sqlhelper.md|一堂数据库vs SQLHelper：同样的需求，两种产品策略——专业与通用的产品分岐]] — source `00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt`
 - [[cases/case-truman-ai-partner.md|案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent]] — source `00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt`
