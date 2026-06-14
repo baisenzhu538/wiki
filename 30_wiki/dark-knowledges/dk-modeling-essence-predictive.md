@@ -13,7 +13,9 @@ source_refs:
   - "src_20260614_8269ccdb"
   - "src_20260614_d0539c25"
 created_at: "2026-06-14"
-updated_at: "2026-06-14"
+updated_at: "2026-06-15"
+confidence: 0.85
+trust_level: high
 related:
   - "modeling-capability-for-kdo"
   - "modeling-three-stages"
