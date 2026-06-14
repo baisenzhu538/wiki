@@ -24,7 +24,10 @@ related:
 - concept-mckinsey-issue-tree
 - ai-collaboration-mindset-shift
 - ai-landing-scene-selection
-tags: []
+tags:
+- '#ai-application'
+- '#lean-validation'
+- '#business-model'
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
@@ -32,8 +35,6 @@ reviewed_by: 老顽童
 review_date: '2026-06-14'
 ---
 # 非药柜主题综合知识卡
-
-> **来源**：听脑 AI 录音 `theme=other` 主题摘要，共 10 条录音。
 
 ---
 

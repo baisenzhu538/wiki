@@ -25,12 +25,12 @@ related:
   - "yt-entrepreneur-product-core"
   - "source-code-delivery-model"
 tags:
-  - #food-and-beverage
-  - #channel-strategy
-  - #product-development
-  - #beverage
-  - #draft
-  - #needs-source-review
+  - "#food-and-beverage"
+  - "#channel-strategy"
+  - "#product-development"
+  - "#beverage"
+  - "#draft"
+  - "#needs-source-review"
 ---
 
 # 餐饮渠道饮料开发：草本浓缩饮品的渠道-产品-工艺框架

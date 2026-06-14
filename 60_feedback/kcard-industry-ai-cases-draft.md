@@ -20,13 +20,13 @@ related:
   - "dk-纪浩-ai-cant-design-structure"
   - "dk-一堂-wishful-thinking-kills-startups"
 tags:
-  - #domain/ai-landing
-  - #domain/industry-cases
-  - #scene/ai-collaboration
-  - #scene/business-strategy
-  - #scene/data-driven-operation
-  - #scene/human-ai-division
-  - #source/itingnao
+  - "#domain/ai-landing"
+  - "#domain/industry-cases"
+  - "#scene/ai-collaboration"
+  - "#scene/business-strategy"
+  - "#scene/data-driven-operation"
+  - "#scene/human-ai-division"
+  - "#source/itingnao"
 pipeline:
   - #boundary/not-for-medical
   - #boundary/requires-human-judgment

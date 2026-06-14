@@ -23,12 +23,12 @@ related:
   - "yt-entrepreneur-channel-exploration"
   - "yt-entrepreneur-product-core"
 tags:
-  - #business-model
-  - #enterprise-ai
-  - #forward-deployment
-  - #palantir
-  - #draft
-  - #needs-source-review
+  - "#business-model"
+  - "#enterprise-ai"
+  - "#forward-deployment"
+  - "#palantir"
+  - "#draft"
+  - "#needs-source-review"
 ---
 
 # Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式

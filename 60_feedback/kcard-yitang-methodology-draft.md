@@ -22,12 +22,12 @@ query_triggers:
   - "无限进步"
 reviewed_by: ""
 tags:
-  - #theme/yitang
-  - #scene/business-analysis
-  - #scene/learning-methodology
-  - #scene/strategy
-  - #scene/ai-collaboration
-  - #scene/knowledge-management
+  - "#theme/yitang"
+  - "#scene/business-analysis"
+  - "#scene/learning-methodology"
+  - "#scene/strategy"
+  - "#scene/ai-collaboration"
+  - "#scene/knowledge-management"
 pipeline:
   - #boundary/not-for-medical
   - #boundary/requires-human-judgment

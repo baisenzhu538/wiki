@@ -39,12 +39,12 @@ wiki_refs:
   - "ai-collaboration-mindset-shift"
   - "ai-landing-scene-selection"
 tags:
-  - #domain/itingnao
-  - #theme/other
-  - #ai-application
-  - #lean-validation
-  - #business-model
-  - #draft
+  - "#domain/itingnao"
+  - "#theme/other"
+  - "#ai-application"
+  - "#lean-validation"
+  - "#business-model"
+  - "#draft"
 pipeline:
   - confidence-draft
 

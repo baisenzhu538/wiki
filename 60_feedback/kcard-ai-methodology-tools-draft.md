@@ -31,13 +31,13 @@ query_triggers:
   - "AI场景选择"
 reviewed_by: ""
 tags:
-  - #scene/ai-methodology
-  - #scene/ai-landing
-  - #scene/human-ai-collaboration
-  - #scene/tool-stack
-  - #scene/learning-methodology
-  - #source/itingnao-kit
-  - #status/draft
+  - "#scene/ai-methodology"
+  - "#scene/ai-landing"
+  - "#scene/human-ai-collaboration"
+  - "#scene/tool-stack"
+  - "#scene/learning-methodology"
+  - "#source/itingnao-kit"
+  - "#status/draft"
 pipeline:
   - confidence-draft
   - confidence-source-cited

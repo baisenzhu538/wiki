@@ -11,10 +11,10 @@ source_type: "meetingSummary"
 created_at: "2026-06-14"
 updated_at: "2026-06-14"
 tags:
-  - #domain/product
-  - #domain/business
-  - #scene/strategy-selection
-  - #scene/operations
+  - "#domain/product"
+  - "#domain/business"
+  - "#scene/strategy-selection"
+  - "#scene/operations"
 pipeline:
   - confidence-draft
   - confidence-source-cited

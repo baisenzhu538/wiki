@@ -22,12 +22,12 @@ related:
   - "yt-entrepreneur-product-core"
   - "ai-agent-workflow"
 tags:
-  - #ai-communication
-  - #workplace-communication
-  - #stakeholder-management
-  - #ai-roleplay
-  - #draft
-  - #needs-source-review
+  - "#ai-communication"
+  - "#workplace-communication"
+  - "#stakeholder-management"
+  - "#ai-roleplay"
+  - "#draft"
+  - "#needs-source-review"
 ---
 
 # AI 辅助复杂职场沟通：角色扮演、攻防演练与受众适配

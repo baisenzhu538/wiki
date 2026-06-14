@@ -14,7 +14,13 @@ source_refs:
 related:
 - smart-medicine-cabinet-distribution
 - yt-unit-model-overview
-tags: []
+tags:
+- '#beverage'
+- '#supply-chain'
+- '#catering-channel'
+- '#cost-optimization'
+- '#product-development'
+- '#itingnao'
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣

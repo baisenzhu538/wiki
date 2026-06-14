@@ -35,12 +35,12 @@ query_triggers:
   - "一堂大航海"
 reviewed_by: ""
 tags:
-  - #scene/ai-landing
-  - #scene/entrepreneurship
-  - #scene/hackathon
-  - #scene/yitang
-  - #source/itingnao-kit
-  - #status/draft
+  - "#scene/ai-landing"
+  - "#scene/entrepreneurship"
+  - "#scene/hackathon"
+  - "#scene/yitang"
+  - "#source/itingnao-kit"
+  - "#status/draft"
 pipeline:
   - confidence-draft
   - confidence-source-cited

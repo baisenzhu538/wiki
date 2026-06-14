@@ -35,7 +35,6 @@ confidence: 0.75
 ---
 # 个人成长主题综合知识卡
 
-> **来源**：听脑 AI 录音主题摘要 `90_control/itingnao-kit/work/theme-personal-growth-summary.md`（共 5 条录音）  
 > **状态**：草稿，待原文复核与人工 enrichment
 
 ---

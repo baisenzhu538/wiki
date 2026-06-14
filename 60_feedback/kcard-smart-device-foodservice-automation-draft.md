@@ -22,12 +22,12 @@ related:
   - "yt-entrepreneur-channel-exploration"
   - "source-code-delivery-model"
 tags:
-  - #unmanned-retail
-  - #foodservice
-  - #api-integration
-  - #business-model
-  - #draft
-  - #needs-source-review
+  - "#unmanned-retail"
+  - "#foodservice"
+  - "#api-integration"
+  - "#business-model"
+  - "#draft"
+  - "#needs-source-review"
 ---
 
 # 智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式

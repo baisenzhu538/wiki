@@ -24,12 +24,12 @@ related:
   - "yt-entrepreneur-ai-methodology"
   - "ai-agent-workflow"
 tags:
-  - #enterprise-ai
-  - #ai-operations
-  - #human-ai-collaboration
-  - #case-study
-  - #draft
-  - #needs-source-review
+  - "#enterprise-ai"
+  - "#ai-operations"
+  - "#human-ai-collaboration"
+  - "#case-study"
+  - "#draft"
+  - "#needs-source-review"
 ---
 
 # 产业 AI 运营落地：酒店/房产/电商三大案例的去伪存真

@@ -19,14 +19,14 @@ related:
   - 30_wiki/concepts/smart-medicine-cabinet-distribution.md
   - 30_wiki/concepts/yt-unit-model-overview.md
 tags:
-  - #beverage
-  - #supply-chain
-  - #catering-channel
-  - #cost-optimization
-  - #product-development
-  - #draft
-  - #itingnao
-  - #needs-source-review
+  - "#beverage"
+  - "#supply-chain"
+  - "#catering-channel"
+  - "#cost-optimization"
+  - "#product-development"
+  - "#draft"
+  - "#itingnao"
+  - "#needs-source-review"
 ---
 
 # 餐饮渠道饮料产品成本-口感-供应链综合洞察（草稿）

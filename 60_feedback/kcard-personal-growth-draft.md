@@ -28,11 +28,11 @@ query_triggers:
   - "必然与偶然"
 reviewed_by: ""
 tags:
-  - #scene/personal-growth
-  - #scene/learning-methodology/mental-models
-  - #scene/ai-collaboration/human-ai-division
-  - #scene/skill-engineering/manifest-design
-  - #domain/general
+  - "#scene/personal-growth"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/ai-collaboration/human-ai-division"
+  - "#scene/skill-engineering/manifest-design"
+  - "#domain/general"
 pipeline:
   - #boundary/draft-only
   - #boundary/requires-human-judgment
