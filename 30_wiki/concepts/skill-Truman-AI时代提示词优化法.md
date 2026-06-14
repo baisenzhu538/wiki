@@ -1,8 +1,16 @@
 ---
+
+
+
+
 id: "skill-Truman-AI时代提示词优化法"
 title: "技能：AI时代提示词优化法"
-type: "skill"  - yitang
+type: "skill"
+domain:
+  - yitang
   - ai-collaboration
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"

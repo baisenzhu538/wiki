@@ -1,8 +1,16 @@
 ---
+
+
+
+
 id: "skill-Truman-Skill全生命周期管理"
 title: "技能：Skill全生命周期管理"
-type: "skill"  - yitang
+type: "skill"
+domain:
+  - yitang
   - ai-collaboration
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"

@@ -1,12 +1,19 @@
 ---
+
+
+
 id: "skill-ai-parallel-validation"
 title: "技能：平行运行验证法"
-type: "skill"  - ai-collaboration
+type: "skill"
+domain:
+  - ai-collaboration
   - product
   - decision-making
   - ai-saas
   - personal-growth
   - yitang
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"

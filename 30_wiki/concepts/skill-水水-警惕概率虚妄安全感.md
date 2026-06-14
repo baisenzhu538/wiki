@@ -1,9 +1,17 @@
 ---
+
+
+
+
 id: "skill-水水-警惕概率虚妄安全感"
 title: "技能：警惕概率虚妄安全感"
-type: "skill"  - master
+type: "skill"
+domain:
+  - master
   - ai-collaboration
   - yitang
+domain:
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

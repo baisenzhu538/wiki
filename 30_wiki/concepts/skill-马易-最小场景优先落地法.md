@@ -1,9 +1,17 @@
 ---
+
+
+
+
 id: "skill-马易-最小场景优先落地法"
 title: "技能：最小场景优先落地法"
-type: "skill"  - ai-saas
+type: "skill"
+domain:
+  - ai-saas
   - ai-collaboration
   - yitang
+domain:
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

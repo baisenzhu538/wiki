@@ -1,9 +1,17 @@
 ---
+
+
+
+
 id: "skill-马易-隐私安全分层解决"
 title: "技能：隐私安全分层解决"
-type: "skill"  - ai-saas
+type: "skill"
+domain:
+  - ai-saas
   - ai-collaboration
   - yitang
+domain:
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

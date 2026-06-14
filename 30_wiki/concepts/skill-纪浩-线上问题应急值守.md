@@ -1,8 +1,16 @@
 ---
+
+
+
+
 id: "skill-纪浩-线上问题应急值守"
 title: "技能：线上问题应急值守"
-type: "skill"  - ai-collaboration
+type: "skill"
+domain:
+  - ai-collaboration
   - yitang
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"

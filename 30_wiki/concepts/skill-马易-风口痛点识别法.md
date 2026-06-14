@@ -1,9 +1,17 @@
 ---
+
+
+
+
 id: "skill-马易-风口痛点识别法"
 title: "技能：风口痛点识别法"
-type: "skill"  - ai-saas
+type: "skill"
+domain:
+  - ai-saas
   - ai-collaboration
   - yitang
+domain:
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

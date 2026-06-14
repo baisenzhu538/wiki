@@ -1,8 +1,16 @@
 ---
+
+
+
+
 id: "skill-Truman-多Agent通信协作方案"
 title: "技能：多Agent通信协作方案"
-type: "skill"  - yitang
+type: "skill"
+domain:
+  - yitang
   - ai-collaboration
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"

@@ -1,13 +1,20 @@
 ---
+
+
+
 id: "skill-ai-system-redundancy"
 title: "技能：系统冗余度快速检查清单"
-type: "skill"  - ai-collaboration
+type: "skill"
+domain:
+  - ai-collaboration
   - master
   - business-strategy
   - management
   - ai-saas
   - personal-growth
   - yitang
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"

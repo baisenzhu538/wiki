@@ -1,8 +1,16 @@
 ---
+
+
+
+
 id: "skill-李诞-阅读重读机制：与书籍的-因缘-相遇"
 title: "技能：阅读重读机制：与书籍的'因缘'相遇"
-type: "skill"  - personal-growth
+type: "skill"
+domain:
+  - personal-growth
   - yitang
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"

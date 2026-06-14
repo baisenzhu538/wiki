@@ -1,8 +1,16 @@
 ---
+
+
+
+
 id: "skill-纪浩-低成本输出验证法"
 title: "技能：低成本输出验证法"
-type: "skill"  - ai-collaboration
+type: "skill"
+domain:
+  - ai-collaboration
   - yitang
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"

@@ -1,8 +1,16 @@
 ---
+
+
+
+
 id: "skill-Truman-个人判断力系统建设（达克效应应对）"
 title: "技能：个人判断力系统建设（达克效应应对）"
-type: "skill"  - yitang
+type: "skill"
+domain:
+  - yitang
   - ai-collaboration
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"

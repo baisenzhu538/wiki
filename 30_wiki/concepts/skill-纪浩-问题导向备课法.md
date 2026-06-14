@@ -1,8 +1,16 @@
 ---
+
+
+
+
 id: "skill-纪浩-问题导向备课法"
 title: "技能：问题导向备课法"
-type: "skill"  - ai-collaboration
+type: "skill"
+domain:
+  - ai-collaboration
   - yitang
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"

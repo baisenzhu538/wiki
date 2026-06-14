@@ -1,9 +1,17 @@
 ---
+
+
+
+
 id: "skill-马易-痛点驱动的数字化"
 title: "技能：痛点驱动的数字化"
-type: "skill"  - ai-saas
+type: "skill"
+domain:
+  - ai-saas
   - ai-collaboration
   - yitang
+domain:
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

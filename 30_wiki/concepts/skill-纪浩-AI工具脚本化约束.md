@@ -1,8 +1,16 @@
 ---
+
+
+
+
 id: "skill-纪浩-AI工具脚本化约束"
 title: "技能：AI工具脚本化约束"
-type: "skill"  - ai-collaboration
+type: "skill"
+domain:
+  - ai-collaboration
   - yitang
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"

@@ -1,9 +1,17 @@
 ---
+
+
+
+
 id: "skill-水水-接受发散性世界观"
 title: "技能：接受发散性世界观"
-type: "skill"  - master
+type: "skill"
+domain:
+  - master
   - ai-collaboration
   - yitang
+domain:
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

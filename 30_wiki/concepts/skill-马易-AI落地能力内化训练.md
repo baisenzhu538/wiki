@@ -1,9 +1,17 @@
 ---
+
+
+
+
 id: "skill-马易-AI落地能力内化训练"
 title: "技能：AI落地能力内化训练"
-type: "skill"  - ai-saas
+type: "skill"
+domain:
+  - ai-saas
   - ai-collaboration
   - yitang
+domain:
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

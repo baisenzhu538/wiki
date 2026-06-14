@@ -1,9 +1,17 @@
 ---
+
+
+
+
 id: "skill-马易-AI落地场景识别-拆工作流找场景"
 title: "技能：AI落地场景识别-拆工作流找场景"
-type: "skill"  - ai-saas
+type: "skill"
+domain:
+  - ai-saas
   - ai-collaboration
   - yitang
+domain:
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

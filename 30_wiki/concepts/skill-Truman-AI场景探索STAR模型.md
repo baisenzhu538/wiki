@@ -1,8 +1,16 @@
 ---
+
+
+
+
 id: "skill-Truman-AI场景探索STAR模型"
 title: "技能：AI场景探索STAR模型"
-type: "skill"  - yitang
+type: "skill"
+domain:
+  - yitang
   - ai-collaboration
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"

@@ -1,8 +1,16 @@
 ---
+
+
+
+
 id: "skill-纪浩-AI使用边界管理法"
 title: "技能：AI使用边界管理法"
-type: "skill"  - ai-collaboration
+type: "skill"
+domain:
+  - ai-collaboration
   - yitang
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"

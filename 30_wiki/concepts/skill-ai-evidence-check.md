@@ -1,9 +1,16 @@
 ---
+
+
+
 id: "skill-ai-evidence-check"
 title: "技能：AI输出证据核查三问法"
-type: "skill"  - ai-saas
+type: "skill"
+domain:
+  - ai-saas
   - product
   - yitang
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"

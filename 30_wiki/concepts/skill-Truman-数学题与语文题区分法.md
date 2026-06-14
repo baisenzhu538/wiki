@@ -1,8 +1,16 @@
 ---
+
+
+
+
 id: "skill-Truman-数学题与语文题区分法"
 title: "技能：数学题与语文题区分法"
-type: "skill"  - yitang
+type: "skill"
+domain:
+  - yitang
   - ai-collaboration
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"

@@ -1,8 +1,16 @@
 ---
+
+
+
+
 id: "skill-纪浩-评估AI从零写UI的可行性"
 title: "技能：评估AI从零写UI的可行性"
-type: "skill"  - ai-collaboration
+type: "skill"
+domain:
+  - ai-collaboration
   - yitang
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"

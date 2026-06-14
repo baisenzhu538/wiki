@@ -1,9 +1,17 @@
 ---
+
+
+
+
 id: "skill-马易-AI落地前置条件验证"
 title: "技能：AI落地前置条件验证"
-type: "skill"  - ai-saas
+type: "skill"
+domain:
+  - ai-saas
   - ai-collaboration
   - yitang
+domain:
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

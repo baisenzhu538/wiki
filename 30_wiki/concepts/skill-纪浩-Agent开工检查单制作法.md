@@ -1,8 +1,16 @@
 ---
+
+
+
+
 id: "skill-纪浩-Agent开工检查单制作法"
 title: "技能：Agent开工检查单制作法"
-type: "skill"  - ai-collaboration
+type: "skill"
+domain:
+  - ai-collaboration
   - yitang
+domain:
+domain:
 status: "draft"
 domain:
 author: "legacy"
