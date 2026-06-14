@@ -5,6 +5,7 @@ type: skill
 status: draft
 domain:
   - design
+  - design
 source_person: "月白"
 source_context: "AI设计基础"
 source_refs: 
@@ -21,6 +22,7 @@ pipeline:
   - confidence-draft
 author: legacy
 reviewed_by: pending
+source_context: "月白 AIGC设计课程 — 实操技巧笔记"
 confidence: 0.6
 trust_level: low
 ---
