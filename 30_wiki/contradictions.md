@@ -1,13 +1,10 @@
 ---
-
-id: contradictions
-type: concept
-status: draft
-title: 
-created_at: 
-updated_at: 
-
-domain: []---
+id: "contradictions"
+type: "concept"
+status: "draft"
+title: "Contradictions"
+domain: []
+---
 
 # Contradictions
 
