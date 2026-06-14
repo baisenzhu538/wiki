@@ -1220,3 +1220,17 @@ _Last updated: 2026-06-14T06:10:00+00:00_
 - [[dark-knowledges/dk-modeling-counterexample-driven|建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止]] — source `src_20260614_8269ccdb`
 - [[dark-knowledges/dk-modeling-ai-without-judgment|AI 能生成“看着很厉害”的模型，但如果你没有逻辑洁癖，它只会加速你跑偏]] — source `src_20260614_8269ccdb`
 - [[dark-knowledges/dk-modeling-essence-predictive|“解释性本质”是高级鸡汤：真正值钱的本质必须能指导下一次真实决策]] — source `src_20260614_8269ccdb`
+- [[dark-knowledges/dk-modeling-timely-review-session-window|离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内]] — source `src_20260614_8269ccdb`
+- [[dark-knowledges/dk-modeling-ai-self-retrospection|AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单]] — source `src_20260614_8269ccdb`
+- [[tools/tool-radar-chart-modeling|雷达图建模法：多维度评估与筛选]] — source `src_20260614_73352fa5`
+- [[tools/tool-checklist-cheatsheet-modeling|清单/小抄建模法：把经验变成可执行的检查点]] — source `src_20260614_8269ccdb`
+- [[tools/tool-sop-template-modeling|SOP/模板建模法：把关键动作固化成标准工作流]] — source `src_20260614_8269ccdb`
+- [[tools/tool-binary-quadrant-modeling|二分法/象限图建模法：用正交维度做分类与取舍]] — source `src_20260614_73352fa5`
+- [[tools/tool-iceberg-triangle-modeling|冰山图/三角图建模法：从表象深挖结构与本质]] — source `src_20260614_73352fa5`
+- [[tools/tool-funnel-formula-modeling|漏斗图/公式建模法：量化流程与关键变量]] — source `src_20260614_73352fa5`
+- [[tools/tool-sabc-tier-modeling|SABC分级/段位图建模法：给事物排优先级与成长路径]] — source `src_20260614_73352fa5`
+- [[tools/tool-essence-nfactor-modeling|本质/N要素建模法：提炼不可再约的核心变量]] — source `src_20260614_73352fa5`
+- [[tools/tool-canvas-weapon-library-modeling|画布/武器库建模法：把工具箱变成可快速调用的系统]] — source `src_20260614_73352fa5`
+- [[tools/tool-scenario-selector-modeling|场景→工具选择器：根据需求快速匹配合适的建模工具]] — source `src_20260614_73352fa5`
+- [[cases/case-livestream-sop-modeling|案例：直播前热身 SOP 建模]] — source `src_20260614_8269ccdb`
+- [[cases/case-personal-map-modeling|案例：个人地图/能力画布建模]] — source `src_20260614_8269ccdb`

@@ -9,7 +9,8 @@ You are operating inside a Knowledge Delivery OS workspace.
 | **Obsidian Vault** | `C:\Users\Administrator\Desktop\wiki\` |
 | **KDO CLI 源码** | `C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\` |
 | **KDO CLI 入口** | `C:\Users\Administrator\Knowledge Delivery OS 0.0.1\kdo\cli.py` |
-| **OCR Pipeline** | `C:\Users\Administrator\ocr-pipeline\` |
+| **OCR Skill（EasyOCR，推荐）** | `40_outputs/capabilities/skills/image-ocr-easyocr/` |
+| **OCR Skill（PaddleOCR.js，fallback）** | `40_outputs/capabilities/skills/image-ocr/` |
 
 ## Prime Directive
 
@@ -40,6 +41,30 @@ Structural changes are suggestion-first:
 - Conflicts should be recorded, not silently merged.
 - Derived pages should link back to source IDs.
 - If a source is stale, mark the derived page stale rather than hiding the issue.
+
+## Image Input Discipline
+
+当 agent 遇到图片素材（方法论截图、PPT、信息图、手写笔记等）时，必须先把图片 OCR 成结构化文本，再进入知识萃取或卡片生产。禁止直接“看着图”就开始建模。
+
+**默认调用链：**
+
+1. **首选**：`40_outputs/capabilities/skills/image-ocr-easyocr/SKILL.md`
+   - 脚本：`40_outputs/code/scripts/ocr-images-easyocr.py`
+   - 环境：WSL + Python3 + `easyocr`
+   - 命令：
+     ```bash
+     python3 40_outputs/code/scripts/ocr-images-easyocr.py -i "图片目录" -o "输出目录"
+     ```
+
+2. **Fallback**：`40_outputs/capabilities/skills/image-ocr/SKILL.md`（PaddleOCR.js）
+   - 当 EasyOCR 因网络/模型下载失败时切换。
+
+3. **OCR 完成后**，把生成的 `.md` / `.json` 当作普通文本素材处理：
+   - 移动到 `10_raw/sources/` 或保留在 `00_inbox/`
+   - 创建 source 文件，记录 `source_id`
+   - 再启动浓缩/质疑/对标或暗知识提取
+
+> 规则来源：此前出现过 agent 跳过 OCR 直接解读图片，导致漏看关键文字、行号引用失真、source 文件无法建立。图片不是 source，OCR 后的文本才是可溯源的 source。
 
 ## Output Discipline
 

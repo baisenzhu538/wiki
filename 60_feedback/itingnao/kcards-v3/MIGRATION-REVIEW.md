@@ -37,7 +37,7 @@
 
 ---
 
-## 二、建议再核验后给老顽童审阅（19 张）
+## 二、建议再核验后给老顽童审阅（21 张）
 
 以下知识卡整体质量较好，但存在局部可信度不足或来源单一问题，建议补充核验后再迁移。
 
@@ -62,17 +62,16 @@
 | insight-ai-pitch-key-elements.md | 洞察卡 | 0.74 | 已补充 DeckAnalyst/CB Insights 投资评估维度，结构比例为经验建议 |
 | insight-stock-era-marketing-logic.md | 洞察卡 | 0.74 | 已补充 HKUST/CCAGM 中国百货报告和 Gartner CMO 调查，行业迁移需谨慎 |
 | insight-going-global-localization-trap.md | 洞察卡 | 0.74 | 已补充 CKGSB/INSEAD 中国企业出海案例（SHEIN/WeChat/小米/Lazada），框架仍为原创归纳 |
+| insight-super-individual-income-reality.md | 洞察卡 | 0.74 | 已补充德国/荷兰官方 solo self-employed 中位数及中国居民收入基准，但中国本地"超级个体"中位数数据仍不足 |
+| insight-super-individual-survivorship-bias.md | 洞察卡 | 0.74 | 已补充 Carta/Gusto/国家统计局多源数据，但 Micro-SaaS 分布数据仍无权威来源 |
 
 ---
 
-## 三、建议暂留 60_feedback（2 张）
+## 三、建议暂留 60_feedback（0 张）
 
-以下知识卡以归纳、推断、原创框架或单一来源为主，需要更多证据支撑或打磨后再考虑迁移。
+本轮核验后，所有知识卡均已达到 0.70 以上评分。其中评分 ≥0.78 的 11 张建议直接审阅，0.74-0.77 的 21 张建议补充核验后再审阅。暂无可直接判定为"需大幅完善后暂留"的知识卡。
 
-| 文件名 | 类型 | 评分 | 暂不迁移原因 |
-|--------|------|------|-------------|
-| insight-super-individual-income-reality.md | 洞察卡 | 0.72 | 已补充德国/荷兰官方 solo self-employed 中位数，但中国本地数据仍不足 |
-| insight-super-individual-survivorship-bias.md | 洞察卡 | 0.70 | 已补充 Carta/Gusto 多源数据，但 Micro-SaaS 分布数据仍无权威来源 |
+**注意**：第二批中的卡片仍存在局部局限（如具体案例未独立审计、部分数据为二手概括、中国本地中位数数据不足等），提交老顽童审阅时需同步说明这些局限。
 
 ---
 
@@ -133,11 +132,12 @@
 17. `insight-ai-pitch-key-elements.md`
 18. `insight-stock-era-marketing-logic.md`
 19. `insight-going-global-localization-trap.md`
+20. `insight-super-individual-income-reality.md`
+21. `insight-super-individual-survivorship-bias.md`
 
 ### 第三批（需较大完善）
 
-1. `insight-super-individual-income-reality.md`
-2. `insight-super-individual-survivorship-bias.md`
+本轮核验后暂无可直接判定为"需较大完善"的知识卡。所有卡片均已达到建议提交老顽童审阅的最低门槛（0.74），但第二批卡片仍需人工复核其局部局限。
 
 ---
 

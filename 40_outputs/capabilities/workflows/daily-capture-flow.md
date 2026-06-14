@@ -36,9 +36,18 @@ kdo import-chat ./chat-export.json --title "<conversation topic>"
 
 # Local file (PDF, document, notes)
 kdo capture ./path/to/file.md --title "<file title>"
+
+# Image directory (screenshots, diagrams, slides)
+# First OCR with EasyOCR skill, then capture the generated text
+python3 40_outputs/code/scripts/ocr-images-easyocr.py \
+  -i "./path/to/images" \
+  -o "./path/to/images"
+# Then capture the resulting .md as a text source
+kdo capture ./path/to/images/README.md --title "<image batch title>"
 ```
 
 **Routing intent:** everything goes into `00_inbox/` — do not classify yet.
+**Image discipline:** images are not sources. OCR them first; only the generated `.md`/`.json` are ingestible sources.
 
 ### Step 2 — Ingest (1–2 min)
 
@@ -92,6 +101,9 @@ so the next session starts with accurate context.
   batch ingest at session end
 - **Chat-heavy day:** export conversations to JSON first, then `kdo import-chat`
   for each high-value exchange
+- **Image-heavy day:** run `40_outputs/code/scripts/ocr-images-easyocr.py` on the
+  whole image directory before any capture/ingest. If EasyOCR fails, fall back to
+  `40_outputs/capabilities/skills/image-ocr/` (PaddleOCR.js).
 
 ## Related Skills
 

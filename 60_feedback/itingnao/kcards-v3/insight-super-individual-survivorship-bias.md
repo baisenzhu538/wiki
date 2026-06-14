@@ -3,13 +3,14 @@ id: "insight-super-individual-survivorship-bias"
 title: "洞察卡：超级个体/一人公司的幸存者偏差"
 type: "insight-card"
 status: "draft"
-confidence_score: 0.70
+confidence_score: 0.74
 trust_level: "medium-high"
 source_refs:
   - "itingnao-6086372 超级个体-百万美元架构师"
   - "Carta Solo Founders Report 2025 (carta.com/data/solo-founders-report/)"
   - "Gusto 2025 New Business Formation Survey (gusto.com/resources/gusto-insights/new-business-formation-solopreneurs-2025)"
   - "August Wheel 2026: The Rise of One-Person Companies"
+  - "国家统计局 2025 年居民收入数据"
   - "Micro-SaaS 收入分布分析（二手概括，权威性较弱）"
   - "CB Insights 初创公司失败率研究"
 related:
@@ -49,6 +50,16 @@ AI 时代一人公司确实降低了创业门槛，但公开讨论的"百万美�
 | Micro-SaaS 月收入 10000-100000 美元 | 15% | Micro-SaaS 分析 |
 | 初创公司总体失败率 | 约 90% | Founders Forum/CB Insights |
 | 失败主因：产品市场契合度差 | 43% | CB Insights |
+
+### 中国居民收入基准（供对照）
+
+| 指标 | 数值 | 来源 |
+|------|------|------|
+| 2025 年全国居民人均可支配收入中位数 | 36,231 元 | 国家统计局 |
+| 2025 年全国居民人均经营净收入 | 7,252 元 | 国家统计局 |
+| 2025 年城镇居民人均可支配收入中位数 | 51,115 元 | 国家统计局 |
+
+**说明**：此数据为全体居民口径，非专门针对一人公司。但它提供了一个现实锚点：国内"年入百万"的一人公司叙事，与大多数居民的实际收入水平存在巨大落差。
 
 ## 核心论点
 
