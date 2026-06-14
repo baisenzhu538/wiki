@@ -1,13 +1,16 @@
 ---
 
 
+
 id: "skill-马易-深度沉浸需求挖掘"
 title: "技能：深度沉浸需求挖掘"
 type: "skill"
 domain:
   - ai-collaboration
-  - yitang
   - ai-saas
+  - product
+  - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

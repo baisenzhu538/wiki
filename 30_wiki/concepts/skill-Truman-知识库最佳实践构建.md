@@ -1,12 +1,18 @@
 ---
 
 
+
 id: "skill-Truman-知识库最佳实践构建"
 title: "技能：知识库最佳实践构建"
 type: "skill"
 domain:
-  - yitang
   - ai-collaboration
+  - decision-making
+  - management
+  - ai-saas
+  - personal-growth
+  - yitang
+domain:
 domain:
 status: "draft"
 domain:

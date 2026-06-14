@@ -1,12 +1,20 @@
 ---
 
 
+
 id: "skill-纪浩-AI使用边界管理法"
 title: "技能：AI使用边界管理法"
 type: "skill"
 domain:
   - ai-collaboration
+  - decision-making
+  - design
+  - product
+  - management
+  - ai-saas
+  - personal-growth
   - yitang
+domain:
 domain:
 status: "draft"
 domain:

@@ -1,12 +1,19 @@
 ---
 
 
+
 id: "skill-纪浩-任务交付物标准化"
 title: "技能：任务交付物标准化"
 type: "skill"
 domain:
   - ai-collaboration
+  - decision-making
+  - product
+  - management
+  - ai-saas
+  - personal-growth
   - yitang
+domain:
 domain:
 status: "draft"
 domain:

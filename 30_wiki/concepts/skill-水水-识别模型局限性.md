@@ -1,13 +1,17 @@
 ---
 
 
+
 id: "skill-水水-识别模型局限性"
 title: "技能：识别模型局限性"
 type: "skill"
 domain:
   - ai-collaboration
   - master
+  - product
+  - decision-making
   - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

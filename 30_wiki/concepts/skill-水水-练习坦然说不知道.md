@@ -1,13 +1,16 @@
 ---
 
 
+
 id: "skill-水水-练习坦然说不知道"
 title: "技能：练习坦然说不知道"
 type: "skill"
 domain:
   - ai-collaboration
   - master
+  - personal-growth
   - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

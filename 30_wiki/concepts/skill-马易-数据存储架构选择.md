@@ -1,13 +1,21 @@
 ---
 
 
+
 id: "skill-马易-数据存储架构选择"
 title: "技能：数据存储架构选择"
 type: "skill"
 domain:
   - ai-collaboration
-  - yitang
+  - decision-making
+  - design
+  - product
+  - finance-legal
+  - management
   - ai-saas
+  - personal-growth
+  - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

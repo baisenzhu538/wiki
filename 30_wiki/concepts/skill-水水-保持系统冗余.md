@@ -1,13 +1,16 @@
 ---
 
 
+
 id: "skill-水水-保持系统冗余"
 title: "技能：保持系统冗余"
 type: "skill"
 domain:
   - ai-collaboration
+  - management
   - master
   - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

@@ -111,7 +111,7 @@ properties:
     type: array
     items:
       type: string
-      pattern: "^#[a-z0-9-/]+$"
+      pattern: "^#[a-z0-9/_-]+$"
     description: >
       Tags for filtering. Should include at minimum:
       - #source_type/error or #source_type/process or #source_type/diverse

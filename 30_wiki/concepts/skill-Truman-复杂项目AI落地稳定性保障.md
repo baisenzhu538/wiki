@@ -1,12 +1,16 @@
 ---
 
 
+
 id: "skill-Truman-复杂项目AI落地稳定性保障"
 title: "技能：复杂项目AI落地稳定性保障"
 type: "skill"
 domain:
-  - yitang
   - ai-collaboration
+  - ai-saas
+  - personal-growth
+  - yitang
+domain:
 domain:
 status: "draft"
 domain:

@@ -1,13 +1,17 @@
 ---
 
 
+
 id: "skill-马易-需求创造验证法"
 title: "技能：需求创造验证法"
 type: "skill"
 domain:
   - ai-collaboration
-  - yitang
+  - product
   - ai-saas
+  - personal-growth
+  - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

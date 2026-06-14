@@ -1,18 +1,13 @@
 ---
 
+
 domain:
-  - yitang
-  - supply-chain
   - finance-legal
-  - business-strategy
   - product
+  - supply-chain
+  - business-strategy
 tags:
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/knowledge-management/atomization"
 related:
-  - "yt-unit-model-overview"
-  - "yt-unit-model-ladder"
 domain:
 id: "yt-tool-unit-model-construction"
 author: "legacy"

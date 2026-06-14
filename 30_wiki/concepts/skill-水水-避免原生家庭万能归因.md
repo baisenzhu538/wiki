@@ -1,13 +1,16 @@
 ---
 
 
+
 id: "skill-水水-避免原生家庭万能归因"
 title: "技能：避免原生家庭万能归因"
 type: "skill"
 domain:
   - ai-collaboration
   - master
+  - personal-growth
   - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

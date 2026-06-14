@@ -1,13 +1,18 @@
 ---
 
 
+
 id: "skill-马易-AI项目需求拆解筛选"
 title: "技能：AI项目需求拆解筛选"
 type: "skill"
 domain:
   - ai-collaboration
-  - yitang
+  - decision-making
+  - product
+  - management
   - ai-saas
+  - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

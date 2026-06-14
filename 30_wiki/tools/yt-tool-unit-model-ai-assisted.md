@@ -1,16 +1,11 @@
 ---
 
+
 domain:
-  - business-strategy
-  - yitang
-  - decision-making
   - ai-saas
+  - decision-making
 tags:
-  - "#scene/ai-collaboration/prompt-engineering"
-  - "#scene/learning-methodology/feedback-loop"
 related:
-  - "yt-unit-model-overview"
-  - "yt-unit-model-ladder"
 domain:
 id: "yt-tool-unit-model-ai-assisted"
 author: "legacy"

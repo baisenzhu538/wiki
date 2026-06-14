@@ -1,15 +1,10 @@
 ---
 
+
 domain:
-  - yitang
   - management
-  - finance-legal
 tags:
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/learning-methodology/feedback-loop"
 related:
-  - "yt-unit-model-construction"
-  - "yt-unit-model-dynamic"
 domain:
 id: "yt-tool-unit-model-benchmark"
 author: "legacy"

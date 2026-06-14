@@ -1,13 +1,18 @@
 ---
 
 
+
 id: "skill-马易-AI答疑运营风格适配"
 title: "技能：AI答疑运营风格适配"
 type: "skill"
 domain:
   - ai-collaboration
-  - yitang
+  - product
+  - decision-making
   - ai-saas
+  - personal-growth
+  - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

@@ -1,12 +1,19 @@
 ---
 
 
+
 id: "skill-Truman-判断力产品化与系统赋能"
 title: "技能：判断力产品化与系统赋能"
 type: "skill"
 domain:
-  - yitang
   - ai-collaboration
+  - decision-making
+  - product
+  - management
+  - ai-saas
+  - personal-growth
+  - yitang
+domain:
 domain:
 status: "draft"
 domain:

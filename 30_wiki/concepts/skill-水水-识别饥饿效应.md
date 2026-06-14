@@ -1,13 +1,18 @@
 ---
 
 
+
 id: "skill-水水-识别饥饿效应"
 title: "技能：识别饥饿效应"
 type: "skill"
 domain:
   - ai-collaboration
   - master
+  - product
+  - decision-making
+  - personal-growth
   - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

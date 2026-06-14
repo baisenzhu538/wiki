@@ -1,50 +1,28 @@
 ---
 
+
 id: "case-ether-online-acquisition"
 title: "案例：以太利用全网调研能力快速获客"
 type: "case"
 domain:
-  - product
+  - ai-collaboration
   - business-strategy
   - ai-saas
   - yitang
   - entrepreneurship
+domain:
 status: "draft"
 problem_domains:
-  - "网上获客"
-  - "商机发现"
-  - "自动化跟进"
 industry: "企业服务"
 scale: "平台级"
 source_person: "Truman"
 source_context: "一堂课程，规模经济章节"
 source_refs:
-  - "一堂课程-规模经济章节（Truman口述）"
 wiki_refs:
-  - "规模经济"
 definition_of_done:
-  - "问题描述清晰"
-  - "方案可理解"
-  - "可迁移点明确"
 tags:
-  - "#case"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
-  - "#industry/企业服务"
-  - "#method/全网扫描"
-  - "#method/自动筛选"
-  - "#problem/商机发现"
-  - "#problem/网上获客"
-  - "#problem/自动化跟进"
-  - "#scene/ai-collaboration"
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/skill-engineering"
-  - "#source/Truman"
 related_skills: ""
 related_concepts:
-  - "规模经济"
 related_cases: ""
 created_at: 2026-06-06
 updated_at: 2026-06-06

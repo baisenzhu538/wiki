@@ -1,12 +1,19 @@
 ---
 
 
+
 id: "skill-纪浩-案例池构建法"
 title: "技能：案例池构建法"
 type: "skill"
 domain:
   - ai-collaboration
+  - decision-making
+  - product
+  - management
+  - ai-saas
+  - personal-growth
   - yitang
+domain:
 domain:
 status: "draft"
 domain:

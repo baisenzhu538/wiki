@@ -1,13 +1,19 @@
 ---
 
 
+
 id: "skill-马易-成为首位F工程师"
 title: "技能：成为首位F工程师"
 type: "skill"
 domain:
   - ai-collaboration
-  - yitang
+  - decision-making
+  - product
+  - management
   - ai-saas
+  - personal-growth
+  - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

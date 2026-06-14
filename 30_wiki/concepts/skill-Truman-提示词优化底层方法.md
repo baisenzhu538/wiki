@@ -1,12 +1,19 @@
 ---
 
 
+
 id: "skill-Truman-提示词优化底层方法"
 title: "技能：提示词优化底层方法"
 type: "skill"
 domain:
-  - yitang
   - ai-collaboration
+  - product
+  - design
+  - management
+  - ai-saas
+  - personal-growth
+  - yitang
+domain:
 domain:
 status: "draft"
 domain:

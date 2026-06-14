@@ -1,12 +1,18 @@
 ---
 
 
+
 id: "skill-Truman-AI工具选型决策"
 title: "技能：AI工具选型决策"
 type: "skill"
 domain:
-  - yitang
   - ai-collaboration
+  - product
+  - decision-making
+  - ai-saas
+  - personal-growth
+  - yitang
+domain:
 domain:
 status: "draft"
 domain:

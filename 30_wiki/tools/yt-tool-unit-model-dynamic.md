@@ -1,20 +1,14 @@
 ---
 
+
 domain:
-  - supply-chain
-  - yitang
-  - ai-saas
-  - business-strategy
   - product
+  - supply-chain
+  - business-strategy
   - management
+  - ai-saas
 tags:
-  - "#scene/business-analysis/customer-acquisition"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/live-field"
 related:
-  - "yt-unit-model-benchmark"
-  - "yt-unit-model-ladder"
 domain:
 id: "yt-tool-unit-model-dynamic"
 author: "legacy"

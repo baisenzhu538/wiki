@@ -1,12 +1,17 @@
 ---
 
 
+
 id: "skill-Truman-信息输入持续补全（防AI错误累积）"
 title: "技能：信息输入持续补全（防AI错误累积）"
 type: "skill"
 domain:
-  - yitang
   - ai-collaboration
+  - decision-making
+  - ai-saas
+  - personal-growth
+  - yitang
+domain:
 domain:
 status: "draft"
 domain:

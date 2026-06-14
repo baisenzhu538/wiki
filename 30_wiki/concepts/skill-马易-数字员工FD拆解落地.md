@@ -1,13 +1,17 @@
 ---
 
 
+
 id: "skill-马易-数字员工FD拆解落地"
 title: "技能：数字员工FD拆解落地"
 type: "skill"
 domain:
   - ai-collaboration
-  - yitang
+  - product
+  - decision-making
   - ai-saas
+  - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

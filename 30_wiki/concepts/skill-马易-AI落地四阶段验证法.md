@@ -1,13 +1,17 @@
 ---
 
 
+
 id: "skill-马易-AI落地四阶段验证法"
 title: "技能：AI落地四阶段验证法"
 type: "skill"
 domain:
   - ai-collaboration
-  - yitang
+  - product
+  - decision-making
   - ai-saas
+  - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

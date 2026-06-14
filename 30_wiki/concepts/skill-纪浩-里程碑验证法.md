@@ -1,12 +1,19 @@
 ---
 
 
+
 id: "skill-纪浩-里程碑验证法"
 title: "技能：里程碑验证法"
 type: "skill"
 domain:
   - ai-collaboration
+  - decision-making
+  - product
+  - management
+  - ai-saas
+  - personal-growth
   - yitang
+domain:
 domain:
 status: "draft"
 domain:

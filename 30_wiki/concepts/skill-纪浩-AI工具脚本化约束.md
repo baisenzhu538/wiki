@@ -1,12 +1,18 @@
 ---
 
 
+
 id: "skill-纪浩-AI工具脚本化约束"
 title: "技能：AI工具脚本化约束"
 type: "skill"
 domain:
   - ai-collaboration
+  - decision-making
+  - product
+  - management
+  - ai-saas
   - yitang
+domain:
 domain:
 status: "draft"
 domain:

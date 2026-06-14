@@ -1,13 +1,16 @@
 ---
 
 
+
 id: "skill-水水-警惕错误归因"
 title: "技能：警惕错误归因"
 type: "skill"
 domain:
   - ai-collaboration
   - master
+  - personal-growth
   - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

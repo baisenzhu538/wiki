@@ -1,13 +1,16 @@
 ---
 
 
+
 id: "skill-马易-工作流拆解找场景"
 title: "技能：工作流拆解找场景"
 type: "skill"
 domain:
   - ai-collaboration
-  - yitang
   - ai-saas
+  - decision-making
+  - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

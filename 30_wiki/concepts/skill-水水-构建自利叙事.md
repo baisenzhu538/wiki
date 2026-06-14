@@ -1,13 +1,17 @@
 ---
 
 
+
 id: "skill-水水-构建自利叙事"
 title: "技能：构建自利叙事"
 type: "skill"
 domain:
   - ai-collaboration
   - master
+  - decision-making
+  - personal-growth
   - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

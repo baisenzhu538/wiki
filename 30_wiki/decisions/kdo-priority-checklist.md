@@ -1,6 +1,7 @@
 ---
 
 
+
 title: KDO Protocol Priority Checklist
 type: improvement-plan
 domain:
@@ -8,17 +9,13 @@ domain:
   - ai-saas
   - healthcare
   - decision-making
+domain:
 status: draft
 id: "kdo-priority-checklist"
 created_at: '2026-05-03'
 updated_at: '2026-05-03'
 related:
-- '[[kdo-protocol]]'
-- '[[kdo-protocol-implementation-roadmap]]'
 tags:
-- None
-- None
-- None
 trust_level: high
 domain: null
 author: legacy

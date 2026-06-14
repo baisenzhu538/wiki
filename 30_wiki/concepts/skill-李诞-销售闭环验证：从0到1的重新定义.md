@@ -1,12 +1,18 @@
 ---
 
 
+
 id: "skill-李诞-销售闭环验证：从0到1的重新定义"
 title: "技能：销售闭环验证：从0到1的重新定义"
 type: "skill"
 domain:
+  - product
+  - design
+  - business-strategy
+  - ai-saas
   - personal-growth
   - yitang
+domain:
 domain:
 status: "draft"
 domain:

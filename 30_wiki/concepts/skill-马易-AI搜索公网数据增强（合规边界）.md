@@ -1,13 +1,17 @@
 ---
 
 
+
 id: "skill-马易-AI搜索公网数据增强（合规边界）"
 title: "技能：AI搜索公网数据增强（合规边界）"
 type: "skill"
 domain:
   - ai-collaboration
-  - yitang
+  - product
+  - finance-legal
   - ai-saas
+  - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

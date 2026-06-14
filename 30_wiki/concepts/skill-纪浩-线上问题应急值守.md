@@ -1,12 +1,19 @@
 ---
 
 
+
 id: "skill-纪浩-线上问题应急值守"
 title: "技能：线上问题应急值守"
 type: "skill"
 domain:
   - ai-collaboration
+  - decision-making
+  - product
+  - management
+  - ai-saas
+  - personal-growth
   - yitang
+domain:
 domain:
 status: "draft"
 domain:

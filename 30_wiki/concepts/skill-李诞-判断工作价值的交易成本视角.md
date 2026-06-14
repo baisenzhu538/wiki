@@ -1,12 +1,18 @@
 ---
 
 
+
 id: "skill-李诞-判断工作价值的交易成本视角"
 title: "技能：判断工作价值的交易成本视角"
 type: "skill"
 domain:
+  - product
+  - decision-making
+  - business-strategy
   - personal-growth
   - yitang
+  - entrepreneurship
+domain:
 domain:
 status: "draft"
 domain:

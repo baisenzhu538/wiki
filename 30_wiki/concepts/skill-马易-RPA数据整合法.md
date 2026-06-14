@@ -1,13 +1,17 @@
 ---
 
 
+
 id: "skill-马易-RPA数据整合法"
 title: "技能：RPA数据整合法"
 type: "skill"
 domain:
   - ai-collaboration
-  - yitang
+  - product
+  - decision-making
   - ai-saas
+  - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

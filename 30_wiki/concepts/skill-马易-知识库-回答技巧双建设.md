@@ -1,13 +1,18 @@
 ---
 
 
+
 id: "skill-马易-知识库-回答技巧双建设"
 title: "技能：知识库+回答技巧双建设"
 type: "skill"
 domain:
   - ai-collaboration
-  - yitang
+  - product
+  - business-strategy
   - ai-saas
+  - personal-growth
+  - yitang
+domain:
 domain:
 status: "needs-review"
 domain:

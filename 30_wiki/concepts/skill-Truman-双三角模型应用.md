@@ -1,12 +1,18 @@
 ---
 
 
+
 id: "skill-Truman-双三角模型应用"
 title: "技能：双三角模型应用"
 type: "skill"
 domain:
-  - yitang
   - ai-collaboration
+  - decision-making
+  - management
+  - ai-saas
+  - personal-growth
+  - yitang
+domain:
 domain:
 status: "draft"
 domain:

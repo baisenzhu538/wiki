@@ -1,12 +1,15 @@
 ---
 
 
+
 id: "skill-Truman-语义对齐沟通法"
 title: "技能：语义对齐沟通法"
 type: "skill"
 domain:
-  - yitang
   - ai-collaboration
+  - management
+  - yitang
+domain:
 domain:
 status: "draft"
 domain:

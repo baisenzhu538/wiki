@@ -97,8 +97,8 @@ properties:
     type: array
     items:
       type: string
-      pattern: "^#[a-z0-9-]+$"
-    description: "Optional tags for filtering. Lowercase with hyphens."
+      pattern: "^#[a-z0-9/_-]+$"
+    description: "Optional tags for filtering. Lowercase with hyphens, underscores, and slashes."
 
   domain:
     type: array
