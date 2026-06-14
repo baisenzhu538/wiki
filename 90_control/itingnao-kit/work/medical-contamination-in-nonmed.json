@@ -1,0 +1,91 @@
+{
+  "generatedAt": "2026-06-14T05:56:48.660Z",
+  "total": 12,
+  "note": "这些录音最初被分到非药柜主题，但内容实质涉及药柜/医疗/药店业务，建议从非药柜处理流程中移出，归入药柜长期关注队列。",
+  "contaminated": [
+    {
+      "id": "4226418",
+      "title": "药店-选址选品运营讨论",
+      "sourceTheme": "internal-tech",
+      "reason": "药店选址、线上运营数据、选品、连锁扩张",
+      "action": "移入药柜/药店运营队列"
+    },
+    {
+      "id": "4092592",
+      "title": "多人-药店数字化改造讨论",
+      "sourceTheme": "ai-tech",
+      "reason": "药店数字化改造、创业项目交流",
+      "action": "移入药柜/药店数字化队列"
+    },
+    {
+      "id": "3424604",
+      "title": "云聚米-私有化部署与开发沟通",
+      "sourceTheme": "internal-tech",
+      "reason": "云聚米 HIS/SaaS 私有化部署",
+      "action": "移入药柜/医疗系统队列"
+    },
+    {
+      "id": "3166977",
+      "title": "润馨堂-品牌运营讨论",
+      "sourceTheme": "internal-tech",
+      "reason": "润馨堂品牌、渠道合作（京东、832平台）",
+      "action": "移入药柜/品牌运营队列"
+    },
+    {
+      "id": "2247045",
+      "title": "瑞心堂-集采与品牌升级讨论",
+      "sourceTheme": "internal-tech",
+      "reason": "瑞心堂产品升级、市场拓展、广西工厂",
+      "action": "移入药柜/供应链队列"
+    },
+    {
+      "id": "6269640",
+      "title": "货柜-结构与电子方案讨论",
+      "sourceTheme": "supply-chain-beverage",
+      "reason": "智能药柜设备开发、货道、485/CAN通讯、远程升级",
+      "action": "移入药柜/硬件开发队列"
+    },
+    {
+      "id": "1483043",
+      "title": "项目分账与支付对接方案",
+      "sourceTheme": "finance-legal-business",
+      "reason": "药店目标客户、药品销售资质、药柜设备",
+      "action": "移入药柜/支付合规队列"
+    },
+    {
+      "id": "6272697",
+      "title": "外卖平台-智能分单系统沟通",
+      "sourceTheme": "other",
+      "reason": "药品恒温恒湿控制需求（30%-70%湿度）",
+      "action": "复核：是否涉及医药即时零售/药柜"
+    },
+    {
+      "id": "2694971",
+      "title": "多人-AI与行业发展讨论",
+      "sourceTheme": "industry-ai-cases",
+      "reason": "药店领域硬件+软件+运营、远程开锁亮灯取药",
+      "action": "移入药柜/AI应用队列"
+    },
+    {
+      "id": "1486162",
+      "title": "智慧城市AI应用交流",
+      "sourceTheme": "ai-methodology-tools",
+      "reason": "消费医疗小程序、医疗行业16年、智慧健康",
+      "action": "移入药柜/医疗AI队列"
+    },
+    {
+      "id": "6311449",
+      "title": "一堂-商业项目宣讲会",
+      "sourceTheme": "yitang-methodology",
+      "reason": "感官界定医疗项目、中医诊后管理小程序",
+      "action": "仅相关片段移入药柜队列复核"
+    },
+    {
+      "id": "4231073",
+      "title": "多人-项目问题沟通",
+      "sourceTheme": "product-business",
+      "reason": "\"不推药\"、回收栏位置调节，疑似药柜设备",
+      "action": "复核原文后决定是否移入药柜"
+    }
+  ]
+}

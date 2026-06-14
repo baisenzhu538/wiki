@@ -1,9 +1,10 @@
-# Concept Card Index — 2026-06-14 05:14 UTC
+# Concept Card Index — 2026-06-14 06:01 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
 | 2026-05-17-深夜感想 | 2026-05-17 深夜感想 | concept | ai-saas |
 | ai-native-五层进阶从答案到效率到作品到产品到系统 | “AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统” | “framework” | ai-saas |
+| ai-short-drama-ice-fire-scripting-compass | 冰火写本罗盘：AI短剧剧本策划全流程体系 | concept | yitang, ai-collaboration, product |
 | aigc文创案例设计课leo文创ip从0到1全流程 | AIGC文创案例设计课：Leo文创IP从0到1全流程 | concept | ai-saas, design |
 | aigc设计基础01ai生图原理与提示词基本功 | AIGC设计基础01：AI生图原理与提示词基本功 | concept | ai-saas, design |
 | aigc设计师实操培训01口喷设计范式与电商ai设计全流程 | AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程 | concept | ai-saas, design, business-strategy |
@@ -807,6 +808,7 @@
 | 轻量级诊所HIS调研全清单 | 轻量级诊所HIS调研全清单 | concept | healthcare |
 | 那今天不会 | 那今天不会。 | concept | ai-saas |
 | 鑫港湾his系统分阶段整改报告 | 鑫港湾HIS系统分阶段整改报告 | concept | ['healthcare'] |
+| ai-short-drama-ice-fire-dissection-compass | 冰火拆本罗盘：短剧剧本逆向拆解五维模型 | framework | yitang, ai-collaboration, product |
 | concept-maister-trusted-advisor | Trusted Advisor：可信顾问信任模型 | framework | consulting, yitang |
 | concept-mckinsey-7s | 7-S Framework：组织诊断的七维模型 | framework | consulting, yitang |
 | concept-mckinsey-hypothesis-driven | Hypothesis-Driven Approach：假设驱动工作法 | framework | consulting, yitang |
@@ -994,3 +996,4 @@
 | dk-纪浩-pdca-starts-from-do | 暗知识：PDCA从Do开始不是从Plan开始 | dk | ai-collaboration, yitang |
 | dk-纪浩-problem-vs-question | 暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem | dark-knowledge | ai-collaboration, yitang |
 | dk-纪浩-simple-complex-routing | 暗知识：简单系统跳过导诊台，复杂系统必须路由 | dk | ai-collaboration, yitang |
+| entity_qishijian_group | 七件事集团 | entity | 私域电商, SaaS, 分销系统 |

@@ -1,7 +1,7 @@
 ---
-updated: 2026-06-13
+updated: 2026-06-14
 active_branch: main
-active_task: "黄药师 I/J/K/L/M/N 全部完成。KDO CL I +~700行(v15扩展+scaffold --new+健康检测器A/D/E+链接密度+hub降权)。Vault 重构(domain统一+目录迁移+ds补位+王语嫣WSL化)。"
+active_task: "生成听脑 AI 主题草稿卡：60_feedback/kcard-ai-methodology-tools-draft.md（基于 theme-ai-methodology-tools-summary，11 条录音中 1 条标注药柜待移出）。"
 blockers:
   - "Kimi K2.7 Anthropic tool call待修复"
   - "欧阳锋待审查 I/J/K/L/M/N 批量任务"

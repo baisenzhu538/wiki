@@ -771,24 +771,18 @@ commit `9bcd2b2`。`_deweight_hub_nodes()` 阈值 30。
 
 ---
 
-## 🔴 Task P（新）：给王语嫣配联网搜索能力
+## 🔴 Task P：给王语嫣配 Bing Search API
 
-**背景**：王语嫣新增核心职能——外部素材置信度评估。她需要对录音/访谈中的事实和数据做 web 交叉验证。当前她只有 `kdo query` 知识库检索，没有稳定的联网搜索能力（之前试过 curl 直抓网页，不稳定且易被阻断）。
+**背景**：王语嫣需要联网搜索做置信度交叉验证。国内环境 Google API 不稳定，建议用 **Bing Search API**（微软服务国内可直连，有免费额度）。
 
-**操作**：在她的 Hermes profile（`~/.hermes/profiles/wangyuyan/`）中配置搜索 API，二选一：
+**操作**：
+1. 注册 Azure 账号 → 申请 Bing Search API Key（免费层每月 1000 次）
+2. API Key 写入 `~/.hermes/profiles/wangyuyan/.env`：`BING_SEARCH_API_KEY=xxx`
+3. 王语嫣在 Python 里 `requests.get()` 直接调，不需封装 KDO 命令
 
-| 方案 | 说明 | 复杂度 |
-|:----|:------|:------:|
-| **Google Search API** | 注册 Google Custom Search JSON API，配到 wangyuyan 的 config 或 env 里 | 低 |
-| **SerpAPI** | 第三方搜索聚合 API，兼容 Google/Bing 等 | 低 |
+**完成标准**：王语嫣能在对话中执行"搜索 XXX"并返回有效结果。
 
-**不需要**封装成 KDO 命令。王语嫣在 Python 环境里直接调用即可。
-
-**完成标准**：
-1. 王语嫣能在对话中执行 "搜索 XXX" 并返回有效结果
-2. 不通畅时回退到 `kdo query`
-
-**优先级**：P1（等 Task O 完成后做）。
+**优先级**：**P0**（这次先做）。
 
 ---
 
