@@ -100,21 +100,21 @@ python 90_control/scripts/kdo_lint.py 30_wiki/dark-knowledges
 结果：
 
 - **Files checked**: 130
-- **Errors found**: 136
+- **Errors found**: 122（更新 tags schema 前为 136）
 - **Status**: FAIL
 
-这 136 个错误是知识库级别的既有问题，涉及大量非本轮目标卡片（缺失字段、source_refs 格式、related 未加 `[[ ]]`, tags 格式等）。
+这 122 个错误是知识库级别的既有问题，集中在非本轮目标卡片：缺失字段、`source_refs` / `related` 格式错误、部分 tags 缺少 `#` 前缀等。
 
-针对本轮 4 张目标卡片，**未引入新的结构性错误**。4 张卡各有一个**既有**的 tags 格式告警：
+针对本轮 4 张目标卡片，**未引入新的结构性错误**，且在统一 tags schema 正则后，4 张卡已无 tags 格式告警。
 
-| 卡片 | 既有告警 |
+| 检查项 | 结果 |
 |---|---|
-| `dk-modeling-ai-without-judgment.md` | `#source_type/error` 含下划线，未匹配 `^#[a-z0-9-/]+$` |
-| `dk-modeling-counterexample-driven.md` | `#source_type/diverse` 含下划线 |
-| `dk-modeling-essence-predictive.md` | `#source_type/diverse` 含下划线 |
-| `dk-modeling-sop-execution-locks.md` | `#source_type/process` 含下划线 |
+| `dk-modeling-ai-without-judgment.md` | ✅ 无新增错误，tags 通过 |
+| `dk-modeling-counterexample-driven.md` | ✅ 无新增错误，tags 通过 |
+| `dk-modeling-essence-predictive.md` | ✅ 无新增错误，tags 通过 |
+| `dk-modeling-sop-execution-locks.md` | ✅ 无新增错误，tags 通过 |
 
-这些 tags 在本轮编辑前已存在，且与 `dk-modeling-ai-self-retrospection.md`、`dk-modeling-timely-review-session-window.md` 等同类卡片保持一致。已同步把 `90_control/schemas/` 下所有 tags 正则统一为 `^#[a-z0-9/_-]+$`，允许下划线与斜杠，后续同类告警不再出现。
+已同步把 `90_control/schemas/` 下所有 tags 正则统一为 `^#[a-z0-9/_-]+$`，允许下划线与斜杠，`#source_type/error` 等标签不再被误报。
 
 ---
 
