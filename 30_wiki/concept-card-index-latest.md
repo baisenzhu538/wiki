@@ -9,9 +9,13 @@
 | case-ai-agent-milestone-design | 案例：Truman 用 AI Agent 3 小时设计里程碑方法论与 48 个组件 | case | yitang, modeling, ai |
 | case-ai-assisted-review | 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己 | case | yitang, modeling, ai |
 | case-essence-humanity-trap | 案例：招聘/股权/激励专家都把本质归为“人性”——解释性本质的陷阱 | case | yitang, modeling |
+| case-thousand-people-square | 案例：一堂「千人广场模型」——用统计建模心态做课 | case | yitang, education |
 | concept-thousand-people-square | 千人广场模型：一堂做课背后的统计建模理念 | concept | yitang, education |
+| case-course-milestone-model | 案例：一堂课程里程碑模型——方法论级建模的六步生产流程 | case | yitang, education |
 | framework-course-milestone-model | 课程里程碑模型：一堂做课的七步生产流程 | framework | yitang, education |
 | framework-logic-cleanliness-five-levels | 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准 | framework | yitang, modeling |
+| case-yitang-education-supply-chain | 案例：一堂是「教育供应链创新公司」——从真实实践里种菜、摘菜、炒菜 | case | yitang, education |
+| case-nine-pm-livestream-survey | 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选 | case | yitang, user-research |
 | dk-weekly-modeling-iteration-growth-engine | 暗知识：一堂真正的增长引擎是「周对周的建模能力增长」 | dark-knowledge | yitang, modeling |
 | 2026-05-17-深夜感想 | 2026-05-17 深夜感想 | concept | ai-saas |
 | ai-native-五层进阶从答案到效率到作品到产品到系统 | “AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统” | “framework” | ai-saas |
