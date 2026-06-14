@@ -2,6 +2,7 @@
 title: "建模域递归深挖第三圈完工报告"
 type: artifact
 artifact_type: report
+artifact_id: "artifact_20260615_6b9404b8"
 status: draft
 source_refs:
   - src_20260614_8269ccdb
@@ -9,11 +10,22 @@ source_refs:
   - src_20260614_d0539c25
   - src_20260614_623cfbfd
 created_at: "2026-06-15"
-updated_at: "2026-06-15"
+updated_at: "2026-06-16"
 target_user: "欧阳锋/黄药师/老顽童"
 channel: "内部 Wiki 交付"
 format: markdown
-validation_status: pending
+validation_status: passed
+delivery_channel: "内部 Wiki / 50_delivery/briefs"
+feedback_source: "欧阳锋/黄药师审查后归档"
+wiki_refs:
+  - "[[dk-modeling-ai-without-judgment]]"
+  - "[[dk-modeling-counterexample-driven]]"
+  - "[[dk-modeling-essence-predictive]]"
+  - "[[dk-modeling-sop-execution-locks]]"
+definition_of_done:
+  - "4 张 dk-modeling 卡均补充具体案例、适用边界、常见失败模式表"
+  - "4 张目标卡 lint 无新增错误，tags schema 正则已全域统一"
+  - "批量修改 frontmatter 的校验约定写入报告"
 ---
 
 # 建模域递归深挖第三圈完工报告
