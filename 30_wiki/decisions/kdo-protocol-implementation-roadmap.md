@@ -1,4 +1,5 @@
 ---
+
 title: "KDO Protocol Implementation Roadmap — Detailed Recommendation Report"
 type: "improvement-plan"
 status: "draft"
@@ -19,6 +20,8 @@ reviewed_by: "Claude"
 review_date: "2026-05-03"
 domain:
 author: "legacy"
+source_context: "90_control/PROTOCOL.md`; 90_control/schemas/concept.yaml`; 90_control/quality-gates/`"
+source_refs: []
 confidence: 0.6
 ---
 

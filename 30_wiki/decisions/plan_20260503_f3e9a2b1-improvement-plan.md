@@ -1,4 +1,5 @@
 ---
+
 plan_id: "plan_20260503_f3e9a2b1"
 type: "improvement-plan"
 status: "draft"
@@ -10,6 +11,8 @@ assessment_ref: "60_feedback/assessments/claude-20260503-kdo仓库遍历与健�
 id: "plan_20260503_f3e9a2b1-improvement-plan"
 domain:
 author: "legacy"
+source_context: "90_control/scripts/kdo_lint.py`; 90_control/scripts/kdo_validate.py`; 90_control/source-registry.yaml`"
+source_refs: []
 reviewed_by: "pending"
 confidence: 0.6
 trust_level: "low"

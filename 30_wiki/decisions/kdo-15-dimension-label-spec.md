@@ -1,4 +1,5 @@
 ---
+
 id: "kdo-15-dimension-label-spec"
 title: "KDO 标签体系：15 维度完整定义 v1.0"
 type: "decision"
@@ -19,6 +20,8 @@ related:
   - "huangyaoshi-tagging-and-scope-proposal"
   - "plan_20260531_data-curator-v1.3"
 author: "legacy"
+source_context: "KDO internal decision record"
+source_refs: []
 reviewed_by: "pending"
 confidence: 0.6
 trust_level: "low"

@@ -1,4 +1,5 @@
 ---
+
 id: "fix-dark-knowledge-extractor-llm"
 title: "萃取器升级：regex → LLM-based 暗知识提取"
 type: "improvement-plan"
@@ -14,6 +15,8 @@ related:
   - "task-20260531-huangyaoshi-extractor-run-all"
   - "plan_20260531_data-curator-v1.3"
 author: "legacy"
+source_context: "60_feedback/data-quality/dk-candidates/""
+source_refs: []
 reviewed_by: "pending"
 confidence: 0.75
 trust_level: "medium"

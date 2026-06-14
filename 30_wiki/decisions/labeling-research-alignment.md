@@ -1,4 +1,5 @@
 ---
+
 id: "labeling-research-alignment"
 title: "两份标注调研的对齐：黄药师 × 老顽童"
 type: "comparison"
@@ -15,6 +16,8 @@ related:
   - "data-labeling-best-practices-report"
   - "kdo-15-dimension-label-spec"
 author: "legacy"
+source_context: "KDO infrastructure decision — internal design record"
+source_refs: []
 reviewed_by: "pending"
 confidence: 0.6
 trust_level: "low"

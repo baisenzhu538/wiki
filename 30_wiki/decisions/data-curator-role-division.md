@@ -1,4 +1,5 @@
 ---
+
 id: "data-curator-role-division"
 title: "Data Curator Skill — 五角色分工方案"
 type: "decision"
@@ -23,6 +24,8 @@ related:
   - "huangyaoshi-data-alignment-response"
   - "ouyangfeng-data-alignment-response"
 author: "legacy"
+source_context: "90_control/failure-modes.md`（22种）; .agent/pitfalls.md`（15条）"
+source_refs: []
 reviewed_by: "pending"
 confidence: 0.6
 trust_level: "low"

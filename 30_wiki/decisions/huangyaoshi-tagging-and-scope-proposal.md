@@ -1,4 +1,5 @@
 ---
+
 id: "huangyaoshi-tagging-and-scope-proposal"
 title: "黄药师：数据标签方案 + 暗知识全量范围"
 type: "decision"
@@ -15,6 +16,8 @@ related:
   - "tag-registry"
   - "data-curator-role-division"
 author: "legacy"
+source_context: "90_control/failure-modes.md`; .agent/pitfalls.md`; .agent/decisions.md`"
+source_refs: []
 reviewed_by: "pending"
 confidence: 0.6
 trust_level: "low"

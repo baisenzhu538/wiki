@@ -1,4 +1,5 @@
 ---
+
 id: "proposal-graph-rag-star-fix"
 title: "Graph RAG 放射状图谱修复提案"
 type: "improvement-plan"
@@ -8,6 +9,8 @@ domain:
   - "knowledge-graph"
 created_at: 2026-06-11
 author: "legacy"
+source_context: "KDO improvement plan — internal process record"
+source_refs: []
 reviewed_by: "pending"
 confidence: 0.6
 trust_level: "low"

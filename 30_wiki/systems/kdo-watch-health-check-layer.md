@@ -1,6 +1,9 @@
 ---
+
 title: "kdo watch 定时巡检层技术说明"
 author: "审查者欧阳锋"
+source_context: "60_feedback/eval-results/health_YYYY-MM-DD.md`，每次覆盖当天文件。; 60_feedback/eval-results/health_YYYY-MM-DD.md"
+source_refs: []
 role: "知识架构师 (Knowledge Architect)"
 created_at: "2026-05-04"
 status: "proposed"

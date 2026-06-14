@@ -1,4 +1,5 @@
 ---
+
 title: "鑫港湾HIS项目"
 type: project
 status: active
@@ -21,6 +22,8 @@ tags:
   - #medical-software
   - #dotnet
 author: unknown
+source_context: "KDO internal decision record"
+source_refs: []
 reviewed_by: pending
 confidence: 0.85
 trust_level: high

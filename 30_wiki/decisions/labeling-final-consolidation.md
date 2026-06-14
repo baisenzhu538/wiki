@@ -1,4 +1,5 @@
 ---
+
 id: "labeling-final-consolidation"
 title: "数据标注方案最终汇总 — 三方调研 + 独立判断"
 type: "decision"
@@ -18,6 +19,8 @@ related:
   - "ouyangfeng-labeling-research-review"
   - "数据标注维度最佳实践调研报告（老顽童）"
 author: "legacy"
+source_context: "KDO internal decision record"
+source_refs: []
 reviewed_by: "pending"
 confidence: 0.6
 trust_level: "low"

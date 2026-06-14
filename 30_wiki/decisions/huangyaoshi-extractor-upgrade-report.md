@@ -1,4 +1,5 @@
 ---
+
 id: "huangyaoshi-extractor-upgrade-report"
 title: "黄药师：暗知识萃取器 B+→A 升级报告"
 type: "decision"
@@ -15,6 +16,8 @@ related:
   - "plan_20260531_data-curator-v1.3"
   - "dark-knowledge-card-sop"
 author: "legacy"
+source_context: "60_feedback/data-quality/dk-candidates/`; 60_feedback/data-quality/dk-candidates/<口述稿名>-dk-candidates.json"
+source_refs: []
 reviewed_by: "pending"
 confidence: 0.6
 trust_level: "low"

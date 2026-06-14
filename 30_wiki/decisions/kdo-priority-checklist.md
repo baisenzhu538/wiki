@@ -1,4 +1,5 @@
 ---
+
 title: "KDO Protocol Priority Checklist"
 type: "improvement-plan"
 status: "draft"
@@ -15,6 +16,8 @@ tags:
 trust_level: "high"
 domain:
 author: "legacy"
+source_context: "KDO improvement plan — internal process record"
+source_refs: []
 reviewed_by: "pending"
 confidence: 0.6
 ---

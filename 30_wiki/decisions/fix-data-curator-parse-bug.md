@@ -1,4 +1,5 @@
 ---
+
 id: "fix-data-curator-parse-bug"
 title: "Data Curator Phase 2 Clean — parse_frontmatter 修复方案"
 type: "improvement-plan"
@@ -15,6 +16,8 @@ related:
   - "gold-standard-manual-labels"
   - "kdo-15-dimension-label-spec"
 author: "legacy"
+source_context: "60_feedback/data-quality/backups/parse-bug-20260531""
+source_refs: []
 reviewed_by: "pending"
 confidence: 0.75
 trust_level: "medium"

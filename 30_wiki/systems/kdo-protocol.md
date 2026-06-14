@@ -1,4 +1,5 @@
 ---
+
 title: "KDO Protocol — AI-Agent Operating Contract"
 type: "system"
 status: "draft"
@@ -21,6 +22,8 @@ reviewed_by: "Claude"
 review_date: "2026-05-03"
 domain:
 author: "legacy"
+source_context: "90_control/PROTOCOL.md`。实际上"
+source_refs: []
 confidence: 0.6
 ---
 

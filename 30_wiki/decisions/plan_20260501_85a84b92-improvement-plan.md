@@ -1,4 +1,5 @@
 ---
+
 plan_id: "plan_20260501_85a84b92"
 type: "improvement-plan"
 status: "draft"
@@ -8,6 +9,8 @@ artifact_count: 7
 id: "plan_20260501_85a84b92-improvement-plan"
 domain:
 author: "legacy"
+source_context: "60_feedback/auto/fb_20260430_92af42e5-near-duplicate-wiki-pages-slug-街顺app全面调研报告.md`; 60_feedback/auto/fb_20260430_39e6b686-near-duplicate-wiki-pages-slug-鑫港湾his系统分阶段整改报告.md`; 60_feedback/auto/fb_20260430_967df24c-near-duplicate-wiki-pages-slug-街顺app全面调研报告.md`"
+source_refs: []
 reviewed_by: "pending"
 confidence: 0.6
 trust_level: "low"

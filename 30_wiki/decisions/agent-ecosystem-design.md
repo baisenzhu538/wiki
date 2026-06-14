@@ -1,4 +1,5 @@
 ---
+
 title: "KDO Agent 体系建设方案（草案）"
 type: "proposal"
 status: "draft"
@@ -7,6 +8,8 @@ domain:
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
 author: "黄药师"
+source_context: "KDO infrastructure decision — internal design record"
+source_refs: []
 id: "agent-ecosystem-design"
 reviewed_by: "pending"
 confidence: 0.6

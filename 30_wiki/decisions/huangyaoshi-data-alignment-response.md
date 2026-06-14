@@ -1,4 +1,5 @@
 ---
+
 id: "huangyaoshi-data-alignment-response"
 title: "黄药师对齐回应：对欧阳锋补充的意见 + 4 个分歧"
 type: "decision"
@@ -19,6 +20,8 @@ related:
   - "ouyangfeng-data-alignment-response"
   - "plan_20260531_data-curator-v1.3"
 author: "legacy"
+source_context: "KDO infrastructure decision — internal design record"
+source_refs: []
 reviewed_by: "pending"
 confidence: 0.6
 trust_level: "low"

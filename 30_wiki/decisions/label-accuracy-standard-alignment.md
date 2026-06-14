@@ -1,4 +1,5 @@
 ---
+
 title: "标注准确率标准对齐 — 开发指标 vs 生产门禁"
 type: "decision"
 status: "draft"
@@ -11,6 +12,8 @@ target_roles:
   - "黄药师（Builder）"
 reviewer: "欧阳锋"
 author: "黄药师"
+source_context: ".agent/pitfalls.md`"
+source_refs: []
 related:
   - "gold-standard-manual-labels"
   - "labeling-final-consolidation"

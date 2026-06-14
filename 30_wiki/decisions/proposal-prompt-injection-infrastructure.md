@@ -1,4 +1,5 @@
 ---
+
 title: "提案：提示词自动注入体系 — 从手动Read到运行时自动加载"
 type: "improvement-plan"
 status: "draft"
@@ -17,6 +18,8 @@ related:
   - "plan_20260531_data-curator-v1.3"
 id: "proposal-prompt-injection-infrastructure"
 author: "legacy"
+source_context: "KDO improvement plan — internal process record"
+source_refs: []
 reviewed_by: "pending"
 confidence: 0.6
 trust_level: "low"

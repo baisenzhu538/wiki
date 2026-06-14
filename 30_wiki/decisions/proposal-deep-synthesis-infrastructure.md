@@ -1,4 +1,5 @@
 ---
+
 title: "基础设施升级提案：深度合成产线 — 解决文章'不够深刻'的工厂级根因"
 type: "improvement-plan"
 status: "draft"
@@ -10,6 +11,8 @@ target_roles:
   - "欧阳锋（Architect）"
 reviewer: "欧阳锋"
 author: "黄药师"
+source_context: "90_control/quality-gates/content.md`; 90_control/quality-gates/content.md`; 90_control/kdo-industrialization-manual.md`"
+source_refs: []
 related:
   - "kdo-industrialization-manual"
   - "labeling-final-consolidation"

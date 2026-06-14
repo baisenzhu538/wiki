@@ -1,4 +1,5 @@
 ---
+
 title: "Sprint 6 CLI 缺口修复提案 — 响应老顽童飞轮第一圈 8 条 Feedback"
 type: "improvement-plan"
 status: "draft"
@@ -9,6 +10,8 @@ updated_at: 2026-06-03
 target_roles:
   - "欧阳锋（Architect）"
 author: "黄药师"
+source_context: "KDO infrastructure decision — internal design record"
+source_refs: []
 reviewer: "欧阳锋"
 related:
   - "sprint-6-laowantong-feedback-18"

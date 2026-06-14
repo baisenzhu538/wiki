@@ -1,4 +1,5 @@
 ---
+
 id: "workflow-knowledge-collision"
 title: "知识碰撞工作流：产出前先碰撞知识库"
 type: "workflow"
@@ -8,6 +9,8 @@ domain:
 status: "active"
 created_at: "2026-06-14"
 author: "周伯通"
+source_context: "KDO internal decision record"
+source_refs: []
 query_triggers:
   - "写作"
   - "分析"

@@ -1,4 +1,5 @@
 ---
+
 title: "飞轮基础设施提案：将知识挖掘飞轮固化为 KDO 系统机制"
 type: "improvement-plan"
 status: "draft"
@@ -10,6 +11,8 @@ target_roles:
   - "欧阳锋（Architect）"
 reviewer: "欧阳锋"
 author: "黄药师"
+source_context: "60_feedback/data-quality/label-results/"
+source_refs: []
 related:
   - "knowledge-flywheel-discovery-20260602"
   - "sprint-6-four-death-sentences"

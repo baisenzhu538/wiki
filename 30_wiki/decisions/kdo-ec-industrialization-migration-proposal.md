@@ -1,10 +1,13 @@
 ---
+
 title: "EC工业化规范 → KDO管线迁移方案"
 type: "decision"
 status: "draft"
 domain:
 id: "kdo-ec-industrialization-migration-proposal"
 author: "legacy"
+source_context: "90_control/`; 90_control/templates/; 90_control/operating-principles.md`，与"
+source_refs: []
 reviewed_by: "pending"
 created_at: "2026-06-15"
 confidence: 0.6

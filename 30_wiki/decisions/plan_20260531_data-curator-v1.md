@@ -1,4 +1,5 @@
 ---
+
 id: "plan_20260531_data-curator-v1"
 title: "Data Curator Skill — 数据清洗+原子切分+多维标签 实施方案 v1.0"
 type: "improvement-plan"

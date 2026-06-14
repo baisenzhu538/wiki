@@ -1,4 +1,5 @@
 ---
+
 id: "three-party-data-alignment"
 title: "三方认知对齐：KDO 数据管线 6+1 框架"
 type: "decision"
@@ -15,6 +16,8 @@ target_roles:
   - "黄药师（Builder）"
   - "用户（决策者）"
 author: "legacy"
+source_context: "90_control/failure-modes.md`; .agent/pitfalls.md`"
+source_refs: []
 reviewed_by: "pending"
 confidence: 0.6
 trust_level: "low"

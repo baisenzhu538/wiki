@@ -1,4 +1,5 @@
 ---
+
 title: "Obsidian Git Multi-Device Sync Protocol"
 type: "system"
 status: "draft"
@@ -18,6 +19,8 @@ reviewed_by: "Claude"
 review_date: "2026-05-03"
 domain:
 author: "legacy"
+source_context: "90_control/PROTOCOL.md`"
+source_refs: []
 confidence: 0.6
 ---
 

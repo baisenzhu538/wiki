@@ -1,6 +1,9 @@
 ---
+
 date: 2026-06-07
 author: "黄药师（Builder）"
+source_context: "KDO infrastructure decision — internal design record"
+source_refs: []
 status: "draft"
 type: "analysis"
 domain:
