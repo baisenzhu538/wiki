@@ -40,7 +40,7 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户说"这是科学方法"，但假设不可证伪"
+  - signal: '用户说"这是科学方法"，但假设不可证伪'
     framework_lens: "伪科学——没有证伪条件"
     follow_up_question: "什么证据会让你放弃这个假设？如果答不上来，这不是科学方法"
   - signal: "用户只做验证自己假设的实验"

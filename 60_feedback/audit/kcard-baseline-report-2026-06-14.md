@@ -1,37 +1,37 @@
 # 30_wiki 知识卡基线扫描报告
 
-> 生成时间：2026-06-15 00:59:46
+> 生成时间：2026-06-15 01:02:03
 > 扫描范围：`30_wiki/` 下所有 `.md` 文件
-> 总卡片数：1293
+> 总卡片数：1313
 
 ## 一、整体概况
 
 | 指标 | 数量 | 占比 |
 |---|---|---|
-| 总卡片数 | 1293 | 100% |
-| draft 状态 | 613 | 47.4% |
-| enriched 状态 | 518 | 40.1% |
-| stable 状态 | 11 | 0.9% |
-| 无 source_refs | 219 | 16.9% |
-| 无 author | 1196 | 92.5% |
-| 无 reviewed_by | 972 | 75.2% |
+| 总卡片数 | 1313 | 100% |
+| draft 状态 | 617 | 47.0% |
+| enriched 状态 | 531 | 40.4% |
+| stable 状态 | 11 | 0.8% |
+| 无 source_refs | 219 | 16.7% |
+| 无 author | 1216 | 92.6% |
+| 无 reviewed_by | 978 | 74.5% |
 | 空壳/微小文件 | 0 | 0.0% |
-| 高置信低信任 | 138 | 10.7% |
+| 高置信低信任 | 152 | 11.6% |
 
 ## 二、问题标签分布
 
 | 问题标签 | 数量 | 占比 |
 |---|---|---|
-| no-author | 1196 | 92.5% |
-| no-trust-level | 1085 | 83.9% |
-| no-reviewer | 972 | 75.2% |
-| no-confidence | 971 | 75.1% |
-| draft | 613 | 47.4% |
-| no-source | 219 | 16.9% |
-| high-conf-no-trust | 140 | 10.8% |
-| high-conf-low-trust | 138 | 10.7% |
-| no-id | 94 | 7.3% |
-| no-title | 28 | 2.2% |
+| no-author | 1216 | 92.6% |
+| no-trust-level | 1095 | 83.4% |
+| no-reviewer | 978 | 74.5% |
+| no-confidence | 971 | 74.0% |
+| draft | 617 | 47.0% |
+| no-source | 219 | 16.7% |
+| high-conf-low-trust | 152 | 11.6% |
+| high-conf-no-trust | 150 | 11.4% |
+| no-id | 94 | 7.2% |
+| no-title | 28 | 2.1% |
 | no-status | 21 | 1.6% |
 | no-type | 16 | 1.2% |
 | theme-source | 5 | 0.4% |
@@ -41,7 +41,7 @@
 | 目录 | draft | no-source | no-author | no-reviewer | empty-or-tiny | high-conf-low-trust |
 |---|---|---|---|---|---|---|
 | cases | 20 | 0 | 35 | 23 | 0 | 12 |
-| concepts | 423 | 153 | 946 | 748 | 0 | 111 |
+| concepts | 427 | 153 | 966 | 754 | 0 | 125 |
 | dark-knowledges | 112 | 4 | 122 | 114 | 0 | 2 |
 | decisions | 34 | 36 | 34 | 38 | 0 | 0 |
 | entities | 0 | 5 | 6 | 2 | 0 | 0 |
@@ -54,7 +54,7 @@
 
 | Author | 数量 |
 |---|---|
-| (no author) | 1196 |
+| (no author) | 1216 |
 | 老顽童 | 54 |
 | 王语嫣 | 22 |
 | 黄药师 | 7 |
@@ -69,35 +69,35 @@
 
 | Reviewer | 数量 |
 |---|---|
-| (no reviewer) | 972 |
-| 黄药师 | 143 |
-| 老顽童 | 89 |
+| (no reviewer) | 978 |
+| 黄药师 | 154 |
+| 老顽童 | 90 |
 | laowantong | 33 |
 | 周伯通 | 15 |
-| ['黄药师', 'laowantong'] | 11 |
+| ['黄药师', 'laowantong'] | 12 |
 | 洪七公 | 10 |
 | 老顷童（精修） | 7 |
 | Claude | 7 |
 | 黄药师（Builder体验Producer） | 3 |
 | 欧阳锋 | 2 |
-| 老顷童 | 1 |
+| 老顷童 | 2 |
 
 ## 六、Domain 分布（前 50）
 
 | Domain | 数量 |
 |---|---|
-| yitang | 492 |
+| yitang | 510 |
 | design | 230 |
-| master | 102 |
+| master | 104 |
 | ai-collaboration | 96 |
 | ai-saas | 53 |
 | product | 45 |
 | healthcare | 42 |
 | business-strategy | 30 |
 | modeling | 25 |
-| ai | 24 |
+| ai | 25 |
 | learning-methodology | 18 |
-| entrepreneur | 16 |
+| entrepreneur | 17 |
 | personal-growth | 15 |
 | personal | 14 |
 | consulting | 10 |
@@ -244,7 +244,7 @@
 | 30_wiki/concepts/skill-马易-AI落地前置条件验证.md | needs-review | (空) | (空) | 0 | (空) | (空) | no-author;no-reviewer;no-source;no-confidence;no-trust-level |
 | 30_wiki/concepts/skill-马易-AI落地四阶段验证法.md | needs-review | (空) | (空) | 0 | (空) | (空) | no-author;no-reviewer;no-source;no-confidence;no-trust-level |
 
-> 注：完整清单见 `kcard-inventory-2026-06-14.csv`，共 1043 张高危卡片。
+> 注：完整清单见 `kcard-inventory-2026-06-14.csv`，共 1057 张高危卡片。
 
 ## 八、下一步建议
 

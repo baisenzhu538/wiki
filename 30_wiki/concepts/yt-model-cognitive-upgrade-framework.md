@@ -54,7 +54,7 @@ pipeline:
   - confidence-source-cited
 diagnostic_signals:
   - signal: "用户读完一本书做了精美笔记，但三个月后行为和决策没有任何变化"
-    framework_lens: "笔记没有变成补丁——阅读停留在"知道"层，没有进入"行动"层"
+    framework_lens: '笔记没有变成补丁——阅读停留在"知道"层，没有进入"行动"层'
     follow_up_question: "这本书里的核心观点，你过去30天有没有在任何决策中用到？如果没有，笔记只是装饰品"
   - signal: "用户严格按照十步框架读每本书，但阅读速度极慢，一年读不完几本"
     framework_lens: "框架过度使用——十步框架是深度阅读工具，不是所有书的标配"

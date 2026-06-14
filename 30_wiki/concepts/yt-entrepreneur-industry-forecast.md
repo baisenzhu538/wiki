@@ -54,7 +54,7 @@ diagnostic_signals:
     framework_lens: "简化成口诀但缺少深度分析"
     follow_up_question: "你除了念口诀，还做了哪些定量或定性的分析？"
   - signal: "用户只做减法不做加法"
-    framework_lens: "违背"充分做加法""
+    framework_lens: '违背"充分做加法"'
     follow_up_question: "在减法之前，你的选项池里有多少个经过初步分析的机会？如果<10个，加法不充分"
 updated_at: '2026-06-13'
 ---

@@ -53,7 +53,7 @@ diagnostic_signals:
     follow_up_question: "你的工作中有多少环节已经用AI工作流替代或增强？如果<20%，还停留在技巧层"
   - signal: "用户让AI做所有决策，自己不思考"
     framework_lens: "人类判断力缺失"
-    follow_up_question: "你最近一次对AI输出说了"这个不对，因为..."是什么时候？"
+    follow_up_question: '你最近一次对AI输出说了"这个不对，因为..."是什么时候？'
 updated_at: '2026-06-13'
 ---
 

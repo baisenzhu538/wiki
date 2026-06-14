@@ -47,7 +47,7 @@ diagnostic_signals:
     follow_up_question: "你质疑的这个行业惯例，是否有坚实的底层逻辑？如果有，你的新方案是否绕开了它？"
   - signal: "用户只会模仿，从不敢质疑行业惯例"
     framework_lens: "没有解放"
-    follow_up_question: "你所在行业有哪些"向来如此"的做法？它们背后的假设在今天还成立吗？"
+    follow_up_question: '你所在行业有哪些"向来如此"的做法？它们背后的假设在今天还成立吗？'
 updated_at: '2026-06-13'
 ---
 

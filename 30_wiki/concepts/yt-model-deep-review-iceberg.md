@@ -38,9 +38,9 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "复盘会大家情绪很激动，但只停在"我觉得不好""
+  - signal: '复盘会大家情绪很激动，但只停在"我觉得不好"'
     framework_lens: "复盘停在主观感受层——没有进入客观事实和原因分析"
-    follow_up_question: "我们能找到哪些数据或事实支撑"不好"？如果没有，今天不是复盘是吐槽"
+    follow_up_question: '我们能找到哪些数据或事实支撑"不好"？如果没有，今天不是复盘是吐槽'
   - signal: "复盘挖到了底层模型，但没有转化成能力建设计划"
     framework_lens: "复盘没有闭环——发现规律但不建设能力"
     follow_up_question: "这个底层模型对应到哪个具体能力缺失？下个月谁会负责提升这个能力？"

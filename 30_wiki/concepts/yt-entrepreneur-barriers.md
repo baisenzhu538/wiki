@@ -41,7 +41,7 @@ pipeline:
   - #boundary/requires-human-judgment
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户说"我规模大后有壁垒"，但现在什么都没有"
+  - signal: '用户说"我规模大后有壁垒"，但现在什么都没有'
     framework_lens: "事后壁垒幻想——壁垒需要提前设计"
     follow_up_question: "在规模还小的时候，你现在能开始建的壁垒是什么？如果答不上来，壁垒只是幻想"
   - signal: "用户把单一优势当护城河"

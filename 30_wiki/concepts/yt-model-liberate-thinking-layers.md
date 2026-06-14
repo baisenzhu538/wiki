@@ -40,7 +40,7 @@ pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
 diagnostic_signals:
-  - signal: "创业者总说"我要颠覆行业"，但连L1最佳实践都没学过"
+  - signal: '创业者总说"我要颠覆行业"，但连L1最佳实践都没学过'
     framework_lens: "L0盲目创新——没有经验积累的创新是空想"
     follow_up_question: "你能说出你行业里3个最成功的案例及其关键成功因素吗？如果不能，创新缺乏基础"
   - signal: "用户沉迷于学学科经典，但解决不了具体业务问题"
