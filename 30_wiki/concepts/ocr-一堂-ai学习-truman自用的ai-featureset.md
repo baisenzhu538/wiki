@@ -1,6 +1,12 @@
 ---
+
 title: "OCR: 一堂-AI学习-truman自用的AI FeatureSet"
 type: concept
+domain:
+  - product
+  - ai-saas
+  - needs-review
+  - yitang
 status: draft
 source_refs:
   - src_20260609_03491271

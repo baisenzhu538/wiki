@@ -1,6 +1,11 @@
 ---
+
 title: "OCR: 一堂-单元模型-对抗小抄02"
 type: concept
+domain:
+  - product
+  - needs-review
+  - yitang
 status: draft
 source_refs:
   - src_20260609_6f5c7abd

@@ -1,6 +1,14 @@
 ---
+
 title: "OCR: 一堂-单元模型-多模型情况"
 type: concept
+domain:
+  - management
+  - product
+  - needs-review
+  - business-strategy
+  - yitang
+  - kdo
 status: draft
 source_refs:
   - src_20260609_a3880f88

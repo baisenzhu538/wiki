@@ -1,6 +1,12 @@
 ---
+
 title: "OCR: 一堂-单元模型-找单元模型实操难点"
 type: concept
+domain:
+  - product
+  - ai-saas
+  - needs-review
+  - yitang
 status: draft
 source_refs:
   - src_20260609_c1af5767

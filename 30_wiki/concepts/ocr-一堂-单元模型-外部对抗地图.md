@@ -1,6 +1,11 @@
 ---
+
 title: "OCR: 一堂-单元模型-外部对抗地图"
 type: concept
+domain:
+  - needs-review
+  - decision-making
+  - yitang
 status: draft
 source_refs:
   - src_20260609_7dbbefd0

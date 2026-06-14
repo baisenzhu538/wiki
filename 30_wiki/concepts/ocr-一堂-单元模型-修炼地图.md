@@ -1,6 +1,14 @@
 ---
+
 title: "OCR: 一堂-单元模型-修炼地图"
 type: concept
+domain:
+  - management
+  - needs-review
+  - finance-legal
+  - ai-saas
+  - yitang
+  - kdo
 status: draft
 source_refs:
   - src_20260609_71152485

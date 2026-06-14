@@ -1,7 +1,11 @@
 ---
+
 id: "skill-专家访谈十步法"
 title: "技能：专家访谈十步法"
 type: skill
+domain:
+  - design
+  - yitang
 status: draft
 source_person: "一堂课程设计"
 source_context: src_20260522_e139c9e9

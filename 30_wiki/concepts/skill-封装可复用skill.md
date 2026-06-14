@@ -1,7 +1,13 @@
 ---
+
 id: "skill-封装可复用skill"
 title: "技能：封装可复用Skill"
 type: skill
+domain:
+  - ai-saas
+  - management
+  - kdo
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

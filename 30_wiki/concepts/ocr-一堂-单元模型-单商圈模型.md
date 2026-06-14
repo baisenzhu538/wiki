@@ -1,6 +1,13 @@
 ---
+
 title: "OCR: 一堂-单元模型-单商圈模型"
 type: concept
+domain:
+  - needs-review
+  - business-strategy
+  - supply-chain
+  - yitang
+  - kdo
 status: draft
 source_refs:
   - src_20260609_d7fb11e1

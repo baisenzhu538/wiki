@@ -1,7 +1,13 @@
 ---
+
 id: "skill-ai-narrative-test"
 title: "技能：你的方案有叙事力吗？快速测试"
 type: "skill"
+domain:
+  - product
+  - ai-saas
+  - yitang
+  - business-strategy
 status: "draft"
 domain:
 author: "legacy"

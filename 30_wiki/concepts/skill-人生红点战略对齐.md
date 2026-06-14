@@ -1,7 +1,11 @@
 ---
+
 id: "skill-人生红点战略对齐"
 title: "技能：人生红点战略对齐"
 type: skill
+domain:
+  - decision-making
+  - yitang
 status: draft
 source_person: "一堂课程"
 source_context: src_20260522_dee56cff

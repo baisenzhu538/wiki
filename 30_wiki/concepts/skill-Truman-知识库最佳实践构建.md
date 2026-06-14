@@ -1,7 +1,14 @@
 ---
+
 id: "skill-Truman-知识库最佳实践构建"
 title: "技能：知识库最佳实践构建"
 type: "skill"
+domain:
+  - management
+  - decision-making
+  - ai-saas
+  - yitang
+  - kdo
 status: "draft"
 domain:
 author: "legacy"

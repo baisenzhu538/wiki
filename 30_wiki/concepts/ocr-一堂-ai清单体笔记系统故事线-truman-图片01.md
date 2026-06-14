@@ -1,6 +1,13 @@
 ---
+
 title: "OCR: 一堂-AI清单体笔记（系统故事线）-truman-图片01"
 type: concept
+domain:
+  - product
+  - needs-review
+  - ai-saas
+  - yitang
+  - decision-making
 status: draft
 source_refs:
   - src_20260609_a7f2ae2e

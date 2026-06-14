@@ -1,6 +1,12 @@
 ---
+
 title: "OCR: 一堂-单元模型-对抗小抄01"
 type: concept
+domain:
+  - management
+  - needs-review
+  - yitang
+  - business-strategy
 status: draft
 source_refs:
   - src_20260609_624d303b

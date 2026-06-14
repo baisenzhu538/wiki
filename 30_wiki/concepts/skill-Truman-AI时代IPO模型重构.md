@@ -1,7 +1,15 @@
 ---
+
 id: "skill-Truman-AI时代IPO模型重构"
 title: "技能：AI时代IPO模型重构"
 type: "skill"
+domain:
+  - management
+  - product
+  - finance-legal
+  - ai-saas
+  - yitang
+  - decision-making
 status: "draft"
 domain:
 author: "legacy"

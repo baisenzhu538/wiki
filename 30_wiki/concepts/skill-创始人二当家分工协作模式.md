@@ -1,7 +1,10 @@
 ---
+
 id: "skill-创始人二当家分工协作模式"
 title: "技能：创始人+二当家分工协作模式"
 type: skill
+domain:
+  - management
 status: draft
 source_person: "案例讲述者"
 source_context: src_20260609_4ea1fba2

@@ -1,7 +1,12 @@
 ---
+
 id: "skill-对标借鉴他人决策维度"
 title: "技能：对标借鉴他人决策维度"
 type: skill
+domain:
+  - product
+  - decision-making
+  - yitang
 status: draft
 source_person: "一堂课程"
 source_context: src_20260609_44a9e79a

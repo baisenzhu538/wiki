@@ -1,6 +1,12 @@
 ---
+
 title: "OCR: 一堂-单元模型-斧子尺子梯子详解"
 type: concept
+domain:
+  - product
+  - needs-review
+  - decision-making
+  - yitang
 status: draft
 source_refs:
   - src_20260609_3659a538

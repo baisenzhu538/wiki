@@ -1,7 +1,13 @@
 ---
+
 id: "skill-1视角升级思考法"
 title: "技能：+1视角升级思考法"
 type: skill
+domain:
+  - management
+  - decision-making
+  - yitang
+  - business-strategy
 status: draft
 source_person: "一堂课程"
 source_context: src_20260609_44a9e79a

@@ -1,7 +1,13 @@
 ---
+
 id: "skill-数据分层供给"
 title: "技能：数据分层供给"
 type: skill
+domain:
+  - kdo
+  - product
+  - design
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

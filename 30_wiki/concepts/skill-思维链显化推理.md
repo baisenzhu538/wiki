@@ -1,7 +1,12 @@
 ---
+
 id: "skill-思维链显化推理"
 title: "技能：思维链显化推理"
 type: skill
+domain:
+  - ai-saas
+  - decision-making
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

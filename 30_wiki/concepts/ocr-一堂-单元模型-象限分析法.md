@@ -1,6 +1,13 @@
 ---
+
 title: "OCR: 一堂-单元模型-象限分析法"
 type: concept
+domain:
+  - needs-review
+  - business-strategy
+  - yitang
+  - entrepreneurship
+  - kdo
 status: draft
 source_refs:
   - src_20260609_e5bcd951

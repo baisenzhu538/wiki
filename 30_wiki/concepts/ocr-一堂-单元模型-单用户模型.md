@@ -1,6 +1,13 @@
 ---
+
 title: "OCR: 一堂-单元模型-单用户模型"
 type: concept
+domain:
+  - product
+  - needs-review
+  - business-strategy
+  - yitang
+  - kdo
 status: draft
 source_refs:
   - src_20260609_d193f920

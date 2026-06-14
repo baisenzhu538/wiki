@@ -1,6 +1,12 @@
 ---
+
 id: ai-learning-closed-loop
 type: concept
+domain:
+  - product
+  - ai-saas
+  - yitang
+  - business-strategy
 status: draft
 source_refs:
   - src_20260606_90b44191

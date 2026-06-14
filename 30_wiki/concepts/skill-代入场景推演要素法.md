@@ -1,7 +1,12 @@
 ---
+
 id: "skill-代入场景推演要素法"
 title: "技能：代入场景推演要素法"
 type: skill
+domain:
+  - decision-making
+  - yitang
+  - business-strategy
 status: draft
 source_person: "一堂课程"
 source_context: src_20260609_44a9e79a

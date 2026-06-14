@@ -1,7 +1,13 @@
 ---
+
 id: "skill-思维验证交叉检验"
 title: "技能：思维验证交叉检验"
 type: skill
+domain:
+  - product
+  - ai-saas
+  - decision-making
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

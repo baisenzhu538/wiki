@@ -1,7 +1,13 @@
 ---
+
 id: "skill-将未中标成本纳入循环计算真实投标成本"
 title: "技能：将未中标成本纳入循环计算真实投标成本"
 type: skill
+domain:
+  - management
+  - decision-making
+  - yitang
+  - business-strategy
 status: draft
 source_person: "一堂课程（未具名讲师）"
 source_context: src_20260609_99032bf9

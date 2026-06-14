@@ -1,7 +1,12 @@
 ---
+
 id: "skill-任务拆解为工作流"
 title: "技能：任务拆解为工作流"
 type: skill
+domain:
+  - management
+  - design
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

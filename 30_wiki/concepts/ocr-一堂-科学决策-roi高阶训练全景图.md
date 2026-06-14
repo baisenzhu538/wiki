@@ -1,6 +1,13 @@
 ---
+
 title: "OCR: 一堂-科学决策-ROI高阶训练全景图"
 type: concept
+domain:
+  - management
+  - needs-review
+  - ai-saas
+  - yitang
+  - decision-making
 status: draft
 source_refs:
   - src_20260609_60edc284

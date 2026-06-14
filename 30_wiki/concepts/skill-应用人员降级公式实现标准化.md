@@ -1,7 +1,12 @@
 ---
+
 id: "skill-应用人员降级公式实现标准化"
 title: "技能：应用人员降级公式实现标准化"
 type: skill
+domain:
+  - design
+  - business-strategy
+  - decision-making
 status: draft
 source_person: "课程设计者"
 source_context: src_20260609_1c8b4d0e

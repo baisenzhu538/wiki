@@ -1,6 +1,12 @@
 ---
+
 id: ai-collaboration-mindset-shift
 type: concept
+domain:
+  - ai-saas
+  - management
+  - decision-making
+  - yitang
 status: draft
 source_refs:
   - src_20260606_42e11f09

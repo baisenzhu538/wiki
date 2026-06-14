@@ -1,7 +1,13 @@
 ---
+
 id: "skill-反向提示获取优化建议"
 title: "技能：反向提示获取优化建议"
 type: skill
+domain:
+  - product
+  - ai-saas
+  - master
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

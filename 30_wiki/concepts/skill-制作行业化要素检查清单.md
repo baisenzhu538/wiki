@@ -1,7 +1,12 @@
 ---
+
 id: "skill-制作行业化要素检查清单"
 title: "技能：制作行业化要素检查清单"
 type: skill
+domain:
+  - product
+  - design
+  - business-strategy
 status: draft
 source_person: "课程设计者"
 source_context: src_20260609_1c8b4d0e

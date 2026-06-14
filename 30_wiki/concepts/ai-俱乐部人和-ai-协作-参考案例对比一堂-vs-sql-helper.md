@@ -1,7 +1,14 @@
 ---
 
+
 title: "AI 俱乐部·人和 AI 协作 — 参考案例对比（一堂 vs SQL-Helper）"
 type: concept
+domain:
+  - management
+  - product
+  - business-strategy
+  - ai-saas
+  - yitang
 status: enriched
 source_refs:
   - src_20260609_dade3353

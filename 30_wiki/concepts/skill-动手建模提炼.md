@@ -1,7 +1,10 @@
 ---
+
 id: "skill-动手建模提炼"
 title: "技能：动手建模提炼"
 type: skill
+domain:
+  - yitang
 status: draft
 source_person: "一堂课程"
 source_context: src_20260522_dee56cff

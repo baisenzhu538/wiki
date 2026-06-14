@@ -1,6 +1,15 @@
 ---
+
 title: "OCR: 一堂-TCPR模型-皇冠模型"
 type: concept
+domain:
+  - management
+  - product
+  - needs-review
+  - finance-legal
+  - design
+  - yitang
+  - kdo
 status: draft
 source_refs:
   - src_20260609_818119f0

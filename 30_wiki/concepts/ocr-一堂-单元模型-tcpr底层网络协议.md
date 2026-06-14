@@ -1,6 +1,13 @@
 ---
+
 title: "OCR: 一堂-单元模型-TCPR底层网络协议"
 type: concept
+domain:
+  - management
+  - product
+  - needs-review
+  - business-strategy
+  - yitang
 status: draft
 source_refs:
   - src_20260609_189cf93b

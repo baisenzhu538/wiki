@@ -1,6 +1,11 @@
 ---
+
 title: "OCR: 一堂-高阶体系探索营-三种咨询可能性"
 type: concept
+domain:
+  - needs-review
+  - kdo
+  - yitang
 status: draft
 source_refs:
   - src_20260609_b32e7bb8

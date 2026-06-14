@@ -1,7 +1,11 @@
 ---
+
 id: "skill-react行动推理循环"
 title: "技能：ReACT行动推理循环"
 type: skill
+domain:
+  - ai-saas
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

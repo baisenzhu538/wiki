@@ -1,7 +1,14 @@
 ---
+
 id: "skill-ai-problem-validation"
 title: "技能：问题验证三维度法"
 type: "skill"
+domain:
+  - product
+  - business-strategy
+  - ai-saas
+  - design
+  - yitang
 status: "needs-review"
 domain:
 author: "legacy"

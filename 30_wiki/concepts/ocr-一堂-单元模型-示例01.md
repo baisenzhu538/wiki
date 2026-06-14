@@ -1,6 +1,11 @@
 ---
+
 title: "OCR: 一堂-单元模型-示例01"
 type: concept
+domain:
+  - needs-review
+  - yitang
+  - business-strategy
 status: draft
 source_refs:
   - src_20260609_0cfcfa9e

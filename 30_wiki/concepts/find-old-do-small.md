@@ -1,6 +1,13 @@
 ---
+
 id: find-old-do-small
 type: tool
+domain:
+  - management
+  - ai-saas
+  - design
+  - yitang
+  - decision-making
 status: draft
 source_refs:
   - src_20260606_ef4877d0

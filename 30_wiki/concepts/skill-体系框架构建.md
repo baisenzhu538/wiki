@@ -1,7 +1,13 @@
 ---
+
 id: "skill-体系框架构建"
 title: "技能：体系框架构建"
 type: skill
+domain:
+  - product
+  - management
+  - design
+  - yitang
 status: draft
 source_person: "一堂课程"
 source_context: src_20260522_dee56cff

@@ -1,7 +1,11 @@
 ---
+
 id: "skill-ai-purpose-bias-check"
 title: "技能：目的论偏差快速识别法"
 type: "skill"
+domain:
+  - ai-saas
+  - yitang
 status: "draft"
 domain:
 author: "legacy"

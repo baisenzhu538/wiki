@@ -1,7 +1,12 @@
 ---
+
 id: pilot-atomic-chunk-comparison
 title: "Pilot：master-decision-hygiene 真原子切分对比"
 type: comparison
+domain:
+  - ai-saas
+  - decision-making
+  - master
 status: draft
 created_at: 2026-05-31
 source_refs:

@@ -1,6 +1,14 @@
 ---
+
 title: "OCR: 一堂-单元模型-段位专家"
 type: concept
+domain:
+  - product
+  - needs-review
+  - decision-making
+  - business-strategy
+  - yitang
+  - kdo
 status: draft
 source_refs:
   - src_20260609_c31a1173

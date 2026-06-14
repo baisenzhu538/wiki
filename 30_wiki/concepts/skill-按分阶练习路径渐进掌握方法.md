@@ -1,7 +1,10 @@
 ---
+
 id: "skill-按分阶练习路径渐进掌握方法"
 title: "技能：按分阶练习路径渐进掌握方法"
 type: skill
+domain:
+  - design
 status: draft
 source_person: "课程设计者"
 source_context: src_20260609_1c8b4d0e

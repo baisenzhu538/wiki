@@ -1,6 +1,12 @@
 ---
+
 id: ai-landing-scene-selection
 type: concept
+domain:
+  - product
+  - ai-saas
+  - decision-making
+  - yitang
 status: draft
 source_refs:
   - src_20260606_ef4877d0

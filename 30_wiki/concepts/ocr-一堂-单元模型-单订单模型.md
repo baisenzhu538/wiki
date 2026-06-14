@@ -1,6 +1,13 @@
 ---
+
 title: "OCR: 一堂-单元模型-单订单模型"
 type: concept
+domain:
+  - needs-review
+  - business-strategy
+  - finance-legal
+  - yitang
+  - kdo
 status: draft
 source_refs:
   - src_20260609_285df010

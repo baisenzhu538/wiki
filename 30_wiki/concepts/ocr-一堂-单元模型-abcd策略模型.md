@@ -1,6 +1,10 @@
 ---
+
 title: "OCR: 一堂-单元模型-ABCD策略模型"
 type: concept
+domain:
+  - needs-review
+  - yitang
 status: draft
 source_refs:
   - src_20260609_07b851fb

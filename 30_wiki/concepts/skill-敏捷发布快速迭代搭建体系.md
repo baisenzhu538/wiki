@@ -1,7 +1,12 @@
 ---
+
 id: "skill-敏捷发布快速迭代搭建体系"
 title: "技能：敏捷发布快速迭代搭建体系"
 type: skill
+domain:
+  - product
+  - finance-legal
+  - business-strategy
 status: draft
 source_person: "案例讲述者"
 source_context: src_20260609_4ea1fba2

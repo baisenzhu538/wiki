@@ -1,7 +1,10 @@
 ---
+
 id: "skill-专题笔记整理"
 title: "技能：专题笔记整理"
 type: skill
+domain:
+  - yitang
 status: draft
 source_person: "一堂课程"
 source_context: src_20260522_dee56cff

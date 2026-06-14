@@ -1,6 +1,13 @@
 ---
+
 title: "OCR: 一堂-科学决策-X型Y型决策习惯对比"
 type: concept
+domain:
+  - needs-review
+  - decision-making
+  - finance-legal
+  - yitang
+  - kdo
 status: draft
 source_refs:
   - src_20260609_c86cd9a0

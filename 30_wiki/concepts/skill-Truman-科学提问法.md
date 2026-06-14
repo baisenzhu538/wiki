@@ -1,7 +1,12 @@
 ---
+
 id: "skill-Truman-科学提问法"
 title: "技能：科学提问法"
 type: "skill"
+domain:
+  - ai-saas
+  - management
+  - yitang
 status: "draft"
 domain:
 author: "legacy"

@@ -1,6 +1,13 @@
 ---
+
 title: "OCR: 一堂-创业必修-课程清单"
 type: concept
+domain:
+  - product
+  - needs-review
+  - business-strategy
+  - yitang
+  - entrepreneurship
 status: draft
 source_refs:
   - src_20260609_a8ead237

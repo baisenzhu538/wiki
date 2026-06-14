@@ -1,6 +1,11 @@
 ---
+
 title: "OCR: 一堂-单元模型-规模经济对抗武器库"
 type: concept
+domain:
+  - product
+  - needs-review
+  - yitang
 status: draft
 source_refs:
   - src_20260609_cef13c36

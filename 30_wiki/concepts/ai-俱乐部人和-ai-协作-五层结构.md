@@ -1,7 +1,14 @@
 ---
 
+
 title: "AI 俱乐部·人和 AI 协作 — 五层结构"
 type: concept
+domain:
+  - management
+  - ai-saas
+  - design
+  - yitang
+  - decision-making
 status: enriched
 source_refs:
   - src_20260609_8e64b361

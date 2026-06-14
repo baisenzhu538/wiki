@@ -1,7 +1,15 @@
 ---
+
 id: "skill-ai辅助学习"
 title: "技能：AI辅助学习"
 type: skill
+domain:
+  - product
+  - ai-saas
+  - design
+  - yitang
+  - entrepreneurship
+  - decision-making
 status: draft
 source_person: "一堂课程"
 source_context: src_20260522_dee56cff

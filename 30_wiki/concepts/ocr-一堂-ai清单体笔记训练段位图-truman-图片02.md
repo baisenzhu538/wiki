@@ -1,6 +1,13 @@
 ---
+
 title: "OCR: 一堂-AI清单体笔记（训练段位图）-truman-图片02"
 type: concept
+domain:
+  - management
+  - needs-review
+  - ai-saas
+  - yitang
+  - entrepreneurship
 status: draft
 source_refs:
   - src_20260609_6809033f

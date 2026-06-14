@@ -1,7 +1,14 @@
 ---
+
 id: "skill-ai-ai-workspace-setup"
 title: "技能：结构化AI工作空间搭建"
 type: "skill"
+domain:
+  - management
+  - product
+  - ai-saas
+  - yitang
+  - kdo
 status: "needs-review"
 domain:
 author: "legacy"

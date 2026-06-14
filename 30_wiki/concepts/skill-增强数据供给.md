@@ -1,7 +1,12 @@
 ---
+
 id: "skill-增强数据供给"
 title: "技能：增强数据供给"
 type: skill
+domain:
+  - design
+  - yitang
+  - decision-making
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

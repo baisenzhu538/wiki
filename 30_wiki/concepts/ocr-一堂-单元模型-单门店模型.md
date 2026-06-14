@@ -1,6 +1,12 @@
 ---
+
 title: "OCR: 一堂-单元模型-单门店模型"
 type: concept
+domain:
+  - kdo
+  - needs-review
+  - healthcare
+  - yitang
 status: draft
 source_refs:
   - src_20260609_f2aa0632

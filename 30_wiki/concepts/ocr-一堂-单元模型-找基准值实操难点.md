@@ -1,6 +1,12 @@
 ---
+
 title: "OCR: 一堂-单元模型-找基准值实操难点"
 type: concept
+domain:
+  - management
+  - needs-review
+  - decision-making
+  - yitang
 status: draft
 source_refs:
   - src_20260609_e79bff0e

@@ -1,6 +1,10 @@
 ---
+
 title: "OCR: 一堂-单元模型-找全成本实操难点"
 type: concept
+domain:
+  - needs-review
+  - yitang
 status: draft
 source_refs:
   - src_20260609_0770a578

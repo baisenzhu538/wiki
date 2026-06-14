@@ -1,7 +1,13 @@
 ---
+
 id: "skill-多模型对比抽卡"
 title: "技能：多模型对比抽卡"
 type: skill
+domain:
+  - product
+  - ai-saas
+  - decision-making
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

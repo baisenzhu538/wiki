@@ -1,6 +1,15 @@
 ---
+
 title: "OCR: 一堂-单元模型-动态预测"
 type: concept
+domain:
+  - product
+  - needs-review
+  - business-strategy
+  - supply-chain
+  - yitang
+  - entrepreneurship
+  - kdo
 status: draft
 source_refs:
   - src_20260609_9fd664f5

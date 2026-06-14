@@ -1,7 +1,11 @@
 ---
+
 id: "skill-提升笔记练习频次的方法"
 title: "技能：提升笔记练习频次的方法"
 type: skill
+domain:
+  - design
+  - yitang
 status: draft
 source_person: "一堂"
 source_context: src_20260609_6809033f

@@ -1,6 +1,14 @@
 ---
+
 id: course-to-skill-conversion
 type: tool
+domain:
+  - management
+  - product
+  - business-strategy
+  - ai-saas
+  - yitang
+  - decision-making
 status: draft
 source_refs:
   - src_20260606_90b44191

@@ -1,7 +1,11 @@
 ---
+
 id: "skill-Truman-语义对齐沟通法"
 title: "技能：语义对齐沟通法"
 type: "skill"
+domain:
+  - management
+  - yitang
 status: "draft"
 domain:
 author: "legacy"

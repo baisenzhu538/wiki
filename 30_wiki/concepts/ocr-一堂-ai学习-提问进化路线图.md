@@ -1,6 +1,12 @@
 ---
+
 title: "OCR: 一堂-AI学习-提问进化路线图"
 type: concept
+domain:
+  - ai-saas
+  - needs-review
+  - kdo
+  - yitang
 status: draft
 source_refs:
   - src_20260609_cb13ebc8

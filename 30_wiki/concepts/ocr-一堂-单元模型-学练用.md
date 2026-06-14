@@ -1,6 +1,15 @@
 ---
+
 title: "OCR: 一堂-单元模型-学练用"
 type: concept
+domain:
+  - management
+  - product
+  - needs-review
+  - ai-saas
+  - yitang
+  - kdo
+  - decision-making
 status: draft
 source_refs:
   - src_20260609_bcbbb2ed

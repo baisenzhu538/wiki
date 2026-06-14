@@ -1,6 +1,12 @@
 ---
+
 id: prd-as-ai-instruction
 type: tool
+domain:
+  - product
+  - ai-saas
+  - management
+  - yitang
 status: draft
 source_refs:
   - src_20260606_90b44191

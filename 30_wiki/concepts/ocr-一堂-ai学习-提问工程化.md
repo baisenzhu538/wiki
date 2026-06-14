@@ -1,6 +1,14 @@
 ---
+
 title: "OCR: 一堂-AI学习-提问工程化"
 type: concept
+domain:
+  - product
+  - needs-review
+  - ai-saas
+  - design
+  - yitang
+  - kdo
 status: draft
 source_refs:
   - src_20260609_62f76551

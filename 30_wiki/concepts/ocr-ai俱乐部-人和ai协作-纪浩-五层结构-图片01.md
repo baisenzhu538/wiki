@@ -1,6 +1,14 @@
 ---
+
 title: "OCR: AI俱乐部-人和AI协作-纪浩-五层结构-图片01"
 type: concept
+domain:
+  - management
+  - needs-review
+  - decision-making
+  - ai-saas
+  - yitang
+  - kdo
 status: draft
 source_refs:
   - src_20260609_8c00cb42

@@ -1,7 +1,14 @@
 ---
+
 id: "skill-Truman-XY-Problem识别与真实问题定位"
 title: "技能：XY Problem识别与真实问题定位"
 type: "skill"
+domain:
+  - management
+  - product
+  - ai-saas
+  - yitang
+  - decision-making
 status: "draft"
 domain:
 author: "legacy"

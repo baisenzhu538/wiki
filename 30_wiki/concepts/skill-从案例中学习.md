@@ -1,7 +1,10 @@
 ---
+
 id: "skill-从案例中学习"
 title: "技能：从案例中学习"
 type: skill
+domain:
+  - yitang
 status: draft
 source_person: "一堂课程"
 source_context: src_20260522_dee56cff

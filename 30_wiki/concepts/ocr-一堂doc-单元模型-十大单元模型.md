@@ -1,6 +1,11 @@
 ---
+
 title: "OCR: 一堂DOC-单元模型-十大单元模型"
 type: concept
+domain:
+  - needs-review
+  - yitang
+  - business-strategy
 status: draft
 source_refs:
   - src_20260609_112b88f7

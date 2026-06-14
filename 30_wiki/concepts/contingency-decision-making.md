@@ -1,6 +1,12 @@
 ---
+
 id: contingency-decision-making
 type: concept
+domain:
+  - ai-saas
+  - management
+  - decision-making
+  - yitang
 status: draft
 source_refs:
   - src_20260606_cde17edd

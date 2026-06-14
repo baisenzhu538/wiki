@@ -1,7 +1,13 @@
 ---
+
 id: "skill-提示词结构化迭代"
 title: "技能：提示词结构化迭代"
 type: skill
+domain:
+  - product
+  - ai-saas
+  - management
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

@@ -1,7 +1,11 @@
 ---
+
 id: "skill-推行分层标准化策略"
 title: "技能：推行分层标准化策略"
 type: skill
+domain:
+  - product
+  - design
 status: draft
 source_person: "课程设计者"
 source_context: src_20260609_1c8b4d0e

@@ -1,6 +1,12 @@
 ---
+
 title: "OCR: 一堂-单元模型-单城市模型"
 type: concept
+domain:
+  - needs-review
+  - supply-chain
+  - kdo
+  - yitang
 status: draft
 source_refs:
   - src_20260609_d0a5e9b4

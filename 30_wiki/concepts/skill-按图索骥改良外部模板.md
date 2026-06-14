@@ -1,7 +1,10 @@
 ---
+
 id: "skill-按图索骥改良外部模板"
 title: "技能：按图索骥改良外部模板"
 type: skill
+domain:
+  - product
 status: draft
 source_person: "案例讲述者"
 source_context: src_20260609_4ea1fba2

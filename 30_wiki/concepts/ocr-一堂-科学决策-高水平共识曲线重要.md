@@ -1,6 +1,12 @@
 ---
+
 title: "OCR: 一堂-科学决策-高水平共识曲线（重要）"
 type: concept
+domain:
+  - product
+  - needs-review
+  - decision-making
+  - yitang
 status: draft
 source_refs:
   - src_20260609_006cb9b3

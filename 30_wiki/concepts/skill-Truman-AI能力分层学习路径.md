@@ -1,7 +1,14 @@
 ---
+
 id: "skill-Truman-AI能力分层学习路径"
 title: "技能：AI能力分层学习路径"
 type: "skill"
+domain:
+  - decision-making
+  - ai-saas
+  - design
+  - yitang
+  - kdo
 status: "draft"
 domain:
 author: "legacy"

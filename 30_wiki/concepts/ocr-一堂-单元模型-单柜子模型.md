@@ -1,6 +1,11 @@
 ---
+
 title: "OCR: 一堂-单元模型-单柜子模型"
 type: concept
+domain:
+  - needs-review
+  - kdo
+  - yitang
 status: draft
 source_refs:
   - src_20260609_2e27ff75

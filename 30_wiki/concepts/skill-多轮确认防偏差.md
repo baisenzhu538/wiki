@@ -1,7 +1,11 @@
 ---
+
 id: "skill-多轮确认防偏差"
 title: "技能：多轮确认防偏差"
 type: skill
+domain:
+  - ai-saas
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

@@ -1,6 +1,13 @@
 ---
+
 title: "OCR: 一堂-人机协作-双三角模型"
 type: concept
+domain:
+  - management
+  - product
+  - needs-review
+  - ai-saas
+  - yitang
 status: draft
 source_refs:
   - src_20260609_11f9c13b

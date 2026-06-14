@@ -1,7 +1,10 @@
 ---
+
 id: "skill-专家访谈学习"
 title: "技能：专家访谈学习"
 type: skill
+domain:
+  - yitang
 status: draft
 source_person: "一堂课程"
 source_context: src_20260522_dee56cff

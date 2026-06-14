@@ -1,6 +1,12 @@
 ---
+
 title: "OCR: 一堂-科学决策-决策三角形"
 type: concept
+domain:
+  - kdo
+  - needs-review
+  - decision-making
+  - yitang
 status: draft
 source_refs:
   - src_20260609_485bc00d

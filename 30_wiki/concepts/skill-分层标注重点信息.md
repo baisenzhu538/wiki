@@ -1,7 +1,12 @@
 ---
+
 id: "skill-分层标注重点信息"
 title: "技能：分层标注重点信息"
 type: skill
+domain:
+  - ai-saas
+  - decision-making
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
