@@ -10,7 +10,7 @@ estimated_tokens: 1885
 language: "zh-CN"
 prerequisites: ""
 query_triggers:
-  - "牵"的深层含义"
+  - '牵"的深层含义'
   - "12345口诀"
   - "Y模型探索营2"
   - "Y模型探索营2：五次质变与科学推演"

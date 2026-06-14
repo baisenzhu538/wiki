@@ -16,8 +16,8 @@ wiki_refs:
   - "master-ai-info-literacy"
 definition_of_done:
   - "每次调研走完5步"
-  - "输出含"事实/推理"标注"
-  - "至少1处被标注为"推理待验证""
+  - '输出含"事实/推理"标注'
+  - '至少1处被标注为"推理待验证"'
 tools_required:
   - "任意AI对话工具（Claude/ChatGPT/Kimi）"
   - "搜索引擎（交叉验证用）"

@@ -16,8 +16,8 @@ wiki_refs:
   - "skill-ai-four-elements-validation"
 definition_of_done:
   - "每次评估4个要素全部回答"
-  - "至少1个要素触发"不适合AI"的警觉"
-  - "能判断"这个场景是否适合AI落地""
+  - '至少1个要素触发"不适合AI"的警觉'
+  - '能判断"这个场景是否适合AI落地"'
 tools_required:
   - "无（纯思维工具）"
 prerequisite_skills:

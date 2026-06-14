@@ -3,7 +3,10 @@ title: "一堂案例必修课"
 type: concept
 status: reviewed
 source_refs: 
-id: "yt-case-mandatory-cases - src_20260506_9b4788a6 - src_20260507_857c7ed4"
+id: "yt-case-mandatory-cases"
+source_refs:
+  - "src_20260506_9b4788a6"
+  - "src_20260507_857c7ed4"
 created_at: 2026-05-05
 domain:
   - yitang

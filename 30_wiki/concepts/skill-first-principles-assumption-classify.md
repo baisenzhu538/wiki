@@ -16,7 +16,7 @@ wiki_refs:
   - "yt-personal-liberate-thinking"
 definition_of_done:
   - "每次列出至少10条假设"
-  - "至少3条被分类为"历史惯性"或"人为约定""
+  - '至少3条被分类为"历史惯性"或"人为约定"'
   - "新方案与现状差异≥30%"
 tools_required:
   - "无（纯思维工具）"

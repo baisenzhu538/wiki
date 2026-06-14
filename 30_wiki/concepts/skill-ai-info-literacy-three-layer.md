@@ -16,8 +16,8 @@ wiki_refs:
   - "skill-ai-research-five-steps"
 definition_of_done:
   - "每次检查走完3层"
-  - "至少1处被标记为"待验证""
-  - "能说出"这个结论的脆弱点是X""
+  - '至少1处被标记为"待验证"'
+  - '能说出"这个结论的脆弱点是X"'
 tools_required:
   - "无（纯思维工具）"
   - "搜索引擎（第三层追溯用）"

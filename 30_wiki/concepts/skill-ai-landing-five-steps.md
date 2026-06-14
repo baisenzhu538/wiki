@@ -16,8 +16,8 @@ wiki_refs:
   - "skill-ai-scene-four-elements"
 definition_of_done:
   - "走完5步流程"
-  - "有"平行运行"记录"
-  - "有"上线效果"数据"
+  - '有"平行运行"记录'
+  - '有"上线效果"数据'
 tools_required:
   - "任意AI对话工具"
   - "数据记录工具（Excel/Notion/表格）"

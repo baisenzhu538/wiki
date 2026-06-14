@@ -16,7 +16,7 @@ wiki_refs:
 definition_of_done:
   - "每次提问前能3秒内分类"
   - "分类准确率>80%（自我评估）"
-  - "能说出"这道题是problem还是question""
+  - '能说出"这道题是problem还是question"'
 tools_required:
   - "无（纯思维工具）"
 prerequisite_skills:

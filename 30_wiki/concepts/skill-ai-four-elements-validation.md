@@ -16,8 +16,8 @@ wiki_refs:
   - "skill-ai-problem-question-check"
 definition_of_done:
   - "每次验证4个要素全部回答"
-  - "至少1个要素触发"需要补充信息"的警觉"
-  - "能判断"这个需求是否值得投入资源""
+  - '至少1个要素触发"需要补充信息"的警觉'
+  - '能判断"这个需求是否值得投入资源"'
 tools_required:
   - "无（纯思维工具）"
 prerequisite_skills:
