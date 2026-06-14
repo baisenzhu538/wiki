@@ -167,9 +167,21 @@ A 阶段共生成 **14 张基础卡**：
 12. ~~消费者支付意愿卡~~ → `insight-consumer-willingness-medical-cabinet.md`
 13. ~~巨头为何不布局诊所药柜卡~~ → `insight-giants-why-not-clinic-cabinet.md`
 
-### 第四阶段：专项补充卡（🔄 部分完成）
+### 第四阶段：专项补充卡（✅ 已完成）
 14. ~~硬件技术专题卡~~ → `concept-medical-cabinet-hardware-technology.md`
-15. 医疗短视频合规卡（`medical-shortvideo-compliance-for-clinics.md`）— **待生成**
+15. ~~业务公式拆解与关键假设验证卡~~ → `method-medical-cabinet-business-model-decomposition.md`
+16. ~~医疗短视频合规卡~~ → `concept-medical-shortvideo-compliance-for-clinics.md`
+
+---
+
+## 五、B 阶段完成情况
+
+B 阶段三项任务：
+1. ✅ 生成医疗短视频合规卡
+2. ⏳ 复核 12 条被污染录音
+3. ⏳ 建立线下调研任务清单
+
+当前药柜主题长程整理共生成 **17 张基础卡**。
 
 ---
 

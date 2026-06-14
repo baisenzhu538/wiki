@@ -1234,3 +1234,17 @@ _Last updated: 2026-06-14T06:10:00+00:00_
 - [[tools/tool-scenario-selector-modeling|场景→工具选择器：根据需求快速匹配合适的建模工具]] — source `src_20260614_73352fa5`
 - [[cases/case-livestream-sop-modeling|案例：直播前热身 SOP 建模]] — source `src_20260614_8269ccdb`
 - [[cases/case-personal-map-modeling|案例：个人地图/能力画布建模]] — source `src_20260614_8269ccdb`
+- [[cases/case-truman-ai-skill-engineering-guide|案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南]] — source `src_20260614_8269ccdb`
+- [[cases/case-essence-education-strategy|案例：教育本质与战略本质的提炼]] — source `src_20260614_8269ccdb`
+- [[cases/case-essence-entrepreneurship|案例：创业本质 = 小概率游戏]] — source `src_20260614_8269ccdb`
+- [[frameworks/modeling-scientific-milestones|科学建模七步里程碑：从边界到封装的方法论生产流程]] — source `src_20260614_8269ccdb`
+- [[frameworks/modeling-personal-practice-loop|建模能力个人修炼闭环：刻意练习 × IPO × PDCA]] — source `src_20260614_8269ccdb`
+- [[concepts/modeling-three-values|建模的三重价值：确定性、框架性、迁移性]] — source `src_20260614_8269ccdb`
+- [[tools/tool-ai-skill-engineering-method|AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位]] — source `src_20260614_8269ccdb`
+- [[tools/tool-iterative-recursive-deep-dig|迭代递归深挖法：用“喷—撞—改”循环把模型推到撞无可撞]] — source `src_20260614_8269ccdb`
+- [[dark-knowledges/dk-modeling-ai-iterative-prompting|AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限]] — source `src_20260614_8269ccdb`
+- [[dark-knowledges/dk-modeling-ai-cross-validation|拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤]] — source `src_20260614_8269ccdb`
+- [[dark-knowledges/dk-modeling-expert-consensus-five-percent|5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感]] — source `src_20260614_8269ccdb`
+- [[dark-knowledges/dk-modeling-case-explosion-confidence|案例大爆炸的底气：来自销冠广场，不是胆子大]] — source `src_20260614_8269ccdb`
+- [[dark-knowledges/dk-modeling-explanatory-vs-predictive-essence|解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践]] — source `src_20260614_8269ccdb`
+- [[dark-knowledges/dk-modeling-ai-judgment-limit|AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响]] — source `src_20260614_8269ccdb`
