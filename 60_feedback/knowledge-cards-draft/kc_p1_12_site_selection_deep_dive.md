@@ -30,6 +30,8 @@ source_refs:
   - "corr_20260613_smart-medicine-cabinet-iteration-2-financial-model.md"
   - "corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures.md"
   - "corr_20260613_smart-medicine-cabinet-iteration-8-synthesis.md"
+  - "corr_20260613_smart-medicine-cabinet-iteration-9-tier-cities-and-special-scenes.md"
+  - "corr_20260613_smart-medicine-cabinet-iteration-9-synthesis.md"
 status: "draft"
 title: "智能药柜选址深度指南：场景、指标与验证方法"
 trust_level: "medium"
