@@ -1,39 +1,34 @@
 ---
 id: case-smart-medicine-cabinet-failure-patterns-library
-title: 智能药柜失败模式案例库
+title: "智能药柜失败模式案例库"
 type: case
 status: enriched
 domain:
-- healthcare
-- business-strategy
+  - healthcare
+  - business-strategy
 source_refs:
-- src_20260613_3b5c7fdb
-- src_20260613_26c69f98
-- src_20260613_6ed8df4b
-- src_20260613_59270720
-- src_20260613_9a2b289e
-- src_20260613_f23b86fa
-- src_20260613_c5f5a7ce
-tags:
-- #smart-medicine-cabinet
-- #healthcare
-- #case
-- #failure-patterns
+  - src_20260613_3b5c7fdb
+  - src_20260613_26c69f98
+  - src_20260613_6ed8df4b
+  - src_20260613_59270720
+  - src_20260613_9a2b289e
+  - src_20260613_f23b86fa
+  - src_20260613_c5f5a7ce
 created_at: 2026-06-15
 updated_at: 2026-06-15
-author: 王语嫣
-reviewed_by: 老顽童
+author: "王语嫣"
+reviewed_by: "老顽童"
 review_date: 2026-06-15
 confidence: 0.82
 trust_level: high
 related:
-- [[smart-medicine-cabinet-fraud-detection]]
-- [[smart-medicine-cabinet-financial-model]]
-- [[smart-medicine-cabinet-clinic-risk-observation]]
-- [[tool-smart-medicine-cabinet-site-selection-guide]]
-- [[concept-smart-medicine-cabinet-international-models]]
-source_person: 王语嫣
-source_context: 五轮迭代失败案例与运营数据整合
+  - [['smart-medicine-cabinet-fraud-detection']]
+  - [['smart-medicine-cabinet-financial-model']]
+  - [['smart-medicine-cabinet-clinic-risk-observation']]
+  - [['tool-smart-medicine-cabinet-site-selection-guide']]
+  - [['concept-smart-medicine-cabinet-international-models']]
+source_person: "王语嫣"
+source_context: "五轮迭代失败案例与运营数据整合"
 ---
 
 # 智能药柜失败模式案例库

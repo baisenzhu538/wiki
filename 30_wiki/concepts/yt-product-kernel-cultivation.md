@@ -1,14 +1,14 @@
 ---
-id: "yt-product-kernel-cultivation"
-component_of: ""
+id: yt-product-kernel-cultivation
+component_of: 
 confidence: 0.9
 created_at: 2026-06-10
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2400
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "产品内核"
   - "解决方案"
@@ -17,7 +17,6 @@ query_triggers:
   - "产品内核四要素"
   - "产品力"
   - "留存率转化率复购率"
-related: []
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
@@ -28,27 +27,22 @@ source_refs:
 status: reviewed
 title: "产品内核修炼段位图"
 trust_level: medium
-type: "framework"
+type: framework
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '五步法', 'course_id': 'yt-product-kernel-cultivation', 'course_type': 'framework', 'level': 'core'}
-tags:
-  - #scene/product-management
-  - #scene/business-analysis
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "五步法"
+  course_id: yt-product-kernel-cultivation
+  course_type: framework
+  level: core
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case
 diagnostic_signals:
-  - signal: "能清晰定义产品内核：用户愿意选择你的最小解决方案"
-    framework_lens: "内核 = 最小可成交价值"
-    follow_up_question: "如果只留下一个核心功能，用户还会选你吗？"
-  - signal: "能判断自己处于六级进阶的哪个层级，并知道下一层要修炼什么"
-    framework_lens: "内核有段位"
-    follow_up_question: "你当前在哪个层级？下一个层级最明显的差距是什么？"
-  - signal: "产品内核会指导功能取舍，而不是功能越多越好"
-    framework_lens: "内核是取舍标准"
-    follow_up_question: "最近有没有一个功能因为不符合内核而被砍掉？"
-updated_at: '2026-06-13'
+  - {'signal': '能清晰定义产品内核：用户愿意选择你的最小解决方案', 'framework_lens': '内核 = 最小可成交价值', 'follow_up_question': '如果只留下一个核心功能，用户还会选你吗？'}
+  - {'signal': '能判断自己处于六级进阶的哪个层级，并知道下一层要修炼什么', 'framework_lens': '内核有段位', 'follow_up_question': '你当前在哪个层级？下一个层级最明显的差距是什么？'}
+  - {'signal': '产品内核会指导功能取舍，而不是功能越多越好', 'framework_lens': '内核是取舍标准', 'follow_up_question': '最近有没有一个功能因为不符合内核而被砍掉？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

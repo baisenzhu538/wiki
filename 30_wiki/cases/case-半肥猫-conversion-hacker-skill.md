@@ -1,11 +1,11 @@
 ---
 id: "case-半肥猫-conversion-hacker-skill"
 title: "案例：一堂转化率黑客课→Skill ——从拿到资料到测试通过的完整历程"
-type: "case"
-status: "draft"
+type: case
+status: draft
 domain:
-  - "ai-collaboration"
-  - "yitang"
+  - ai-collaboration
+  - yitang
 source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
@@ -18,29 +18,15 @@ related:
   - "skill-半肥猫-判断课程是否值得做成Skill"
   - "skill-半肥猫-设计Skill的评分规则与风险边界"
   - "case-半肥猫-skill-ab-test"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "confidence-verified-by-test"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+  - confidence-verified-by-test
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 案例：一堂转化率黑客课→Skill

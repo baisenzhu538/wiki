@@ -1,40 +1,32 @@
 ---
-id: "dk-f11-encyclopedia-style"
+id: dk-f11-encyclopedia-style
 title: "F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景"
-type: "dark-knowledge"
-dark_knowledge_type: "failure"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: failure
+status: draft
 domain:
-  - "master"
-source_person: "system"
+  - master
+source_person: system
 source_context: "failure-modes.md F-KDO-011"
 source_refs:
-  - "90_control/failure-modes.md#F-KDO-011"
+  - 90_control/failure-modes.md#F-KDO-011
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
-  - "dk-f7-surface-translation"
-  - "master-first-principles"
+  - dk-f7-surface-translation
+  - master-first-principles
 contradicts:
-  - "master-first-principles"
-  - "dk-c8-format-complete-mind-empty"
-  - "kdo-flywheel"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  - master-first-principles
+  - dk-c8-format-complete-mind-empty
+  - kdo-flywheel
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景

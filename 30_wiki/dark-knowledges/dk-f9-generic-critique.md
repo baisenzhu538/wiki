@@ -1,40 +1,31 @@
 ---
-id: "dk-f9-generic-critique"
+id: dk-f9-generic-critique
 title: "F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上"
-type: "dark-knowledge"
-dark_knowledge_type: "failure"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: failure
+status: draft
 domain:
-  - "master"
-source_person: "system"
+  - master
+source_person: system
 source_context: "failure-modes.md F-KDO-009"
 source_refs:
-  - "90_control/failure-modes.md#F-KDO-009"
+  - 90_control/failure-modes.md#F-KDO-009
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
-  - "dk-c8-format-complete-mind-empty"
-  - "master-cognitive-bias-checklist"
+  - dk-c8-format-complete-mind-empty
+  - master-cognitive-bias-checklist
 contradicts:
-  - "master-cognitive-bias-checklist"
-  - "master-first-principles"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  - master-cognitive-bias-checklist
+  - master-first-principles
 pipeline:
-  - None
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上

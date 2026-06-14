@@ -1,19 +1,19 @@
 ---
 id: "concept-纪浩-ai-collaboration-methodology"
 title: "纪浩 AI 协作方法论：从判断到规模复用的五层体系"
-type: "concept"
-status: "draft"
+type: concept
+status: draft
 domain:
-  - "ai-collaboration"
-  - "yitang"
+  - ai-collaboration
+  - yitang
 source_person: "纪浩"
 source_context: "AI俱乐部-AI协作方法论 分享（第三次分享，2026-06）"
 source_refs:
   - "00_inbox/纪浩-AI协作方法论-口述.md"
   - "00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md"
   - "00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md"
-created_at: "2026-06-07"
-updated_at: "2026-06-08"
+created_at: 2026-06-07
+updated_at: 2026-06-08
 related:
   - "skill-纪浩-真需求四要素验证法"
   - "skill-纪浩-AI工作空间与导诊台设计法"
@@ -25,37 +25,15 @@ related:
   - "dk-纪浩-pdca-starts-from-do"
   - "dk-纪浩-logs-fastest-ignored"
   - "case-纪浩-from-zip-to-five-layers"
-  - "dk-yb5-style-asset-archive"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  - dk-yb5-style-asset-archive
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 纪浩 AI 协作方法论

@@ -1,18 +1,18 @@
 ---
-id: "yt-tool-y-model-ruler"
+id: yt-tool-y-model-ruler
 component_of:
-  - "yt-personal-y-model-exploration-2"
+  - yt-personal-y-model-exploration-2
 confidence: 0.85
 created_at: 2026-06-06
-deprecation_reason: ""
-difficulty: "advanced"
+deprecation_reason: 
+difficulty: advanced
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3400
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-personal-y-model-exploration-2"
-  - "yt-entrepreneur-needs-analysis"
+  - yt-personal-y-model-exploration-2
+  - yt-entrepreneur-needs-analysis
 query_triggers:
   - "尺子刻度"
   - "评估模型"
@@ -25,38 +25,31 @@ query_triggers:
   - "Y模型实操"
   - "因果规律"
 related:
-  - "yt-personal-y-model-exploration-2"
-  - "yt-personal-y-model-practice"
-  - "yt-entrepreneur-needs-analysis"
-  - "yt-tool-best-practice-learning"
+  - yt-personal-y-model-exploration-2
+  - yt-personal-y-model-practice
+  - yt-entrepreneur-needs-analysis
+  - yt-tool-best-practice-learning
 review_by: 2026-12-06
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修炼-Y模型实操口述版.md"
-status: "enriched"
-superseded_by: ""
+status: enriched
+superseded_by: 
 title: "Y模型尺子刻度法：从模糊经验到可复用评估模型"
-type: "tool"
+type: tool
 version: 1
-tags:
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "confidence-verified-by-test"
+  - confidence-source-cited
+  - confidence-verified-by-case
+  - confidence-verified-by-test
 diagnostic_signals:
   - {'signal': '尺子维度是否来自需求分析而非拍脑袋', 'framework_lens': '因果规律 / 维度有效性', 'follow_up_question': '评估维度是否覆盖了结果的真实驱动因素？'}
   - {'signal': '每个维度是否有清晰刻度和可验证基准', 'framework_lens': '可操作化 / 去模糊', 'follow_up_question': "'不错''很好'等描述是否被替换为具体阈值？"}
   - {'signal': '是否设置风险红线并用于一票否决', 'framework_lens': '风险管理 / 非线性', 'follow_up_question': '总分最高但存在致命缺陷的选项是否仍被选中？'}
   - {'signal': '是否同时关注分布形状与总分', 'framework_lens': '系统配置 / 资源匹配', 'follow_up_question': '均衡型与偏科型选项是否被差异化决策？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 ## Summary

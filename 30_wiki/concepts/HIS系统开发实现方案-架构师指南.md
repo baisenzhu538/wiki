@@ -2,25 +2,19 @@
 id: "HIS系统开发实现方案-架构师指南"
 created_at: 2026-05-03
 domain:
-  - "healthcare"
+  - healthcare
 source_refs:
-  - "src_20260503_1a1f0312"
-status: "enriched"
+  - src_20260503_1a1f0312
+status: enriched
 title: "HIS系统开发实现方案-架构师指南"
-type: "concept"
+type: concept
 updated_at: 2026-05-03
-tags:
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 # HIS系统开发实现方案-架构师指南

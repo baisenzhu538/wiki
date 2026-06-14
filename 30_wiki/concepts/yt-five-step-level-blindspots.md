@@ -1,13 +1,13 @@
 ---
-id: "yt-five-step-level-blindspots"
+id: yt-five-step-level-blindspots
 component_of: "[[yt-five-step-method]]"
 confidence: 0.85
 created_at: 2026-06-11
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2400
-language: "zh-CN"
+language: zh-CN
 prerequisites: "[[yt-five-step-method]] | [[yt-unit-model-concept]] | [[yt-five-step-implementation]]"
 query_triggers:
   - "五步法段位"
@@ -15,7 +15,6 @@ query_triggers:
   - "商业分析水平"
   - "认知盲区"
   - "我们不知道我们不知道"
-related: []
 review_date: 2026-06-11
 reviewed_by: "老顽童"
 source_refs:
@@ -25,24 +24,20 @@ source_refs:
 status: reviewed
 title: "暗知识：五步法的段位盲区与自评陷阱"
 trust_level: medium
-type: "dk"
+type: dk
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '落地实操', 'course_id': 'yt-five-step-level-blindspots', 'course_type': 'dk', 'level': 'core'}
-tags:
-  - #scene/business-analysis
-  - #scene/cognitive-bias
-  - #scene/self-awareness
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "落地实操"
+  course_id: yt-five-step-level-blindspots
+  course_type: dk
+  level: core
 pipeline:
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户给自己打8分，但实际只有3分"
-    framework_lens: "邓宁克鲁格效应"
-    follow_up_question: "你能说出L4-L5的商分高手和你现在的差距具体在哪里吗？如果不能，你在盲区里"
-  - signal: "用户不知道高段位长什么样"
-    framework_lens: "目标模糊"
-    follow_up_question: '你最近看过一个让你感到"原来还能这样想"的五步法案例吗？如果没有，你的目标不清晰'
-updated_at: '2026-06-13'
+  - {'signal': '用户给自己打8分，但实际只有3分', 'framework_lens': '邓宁克鲁格效应', 'follow_up_question': '你能说出L4-L5的商分高手和你现在的差距具体在哪里吗？如果不能，你在盲区里'}
+  - {'signal': '用户不知道高段位长什么样', 'framework_lens': '目标模糊', 'follow_up_question': '你最近看过一个让你感到"原来还能这样想"的五步法案例吗？如果没有，你的目标不清晰'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

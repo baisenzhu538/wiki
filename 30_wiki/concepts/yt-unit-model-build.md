@@ -1,13 +1,13 @@
 ---
-id: "yt-unit-model-build"
+id: yt-unit-model-build
 component_of: "[[yt-unit-model-concept]]"
 confidence: 0.85
 created_at: 2026-06-11
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2400
-language: "zh-CN"
+language: zh-CN
 prerequisites: "[[yt-unit-model-concept]]"
 query_triggers:
   - "单元模型怎么搭建"
@@ -16,7 +16,7 @@ query_triggers:
   - "成本清单"
   - "三点预测"
 related:
-  - "yt-unit-model-selection"
+  - yt-unit-model-selection
 review_date: 2026-06-11
 reviewed_by: "老顽童"
 source_refs:
@@ -25,25 +25,20 @@ source_refs:
 status: reviewed
 title: "单元模型搭建五步法"
 trust_level: medium
-type: "skill"
-updated_at: "2026-06-11"
+type: skill
+updated_at: 2026-06-13
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '单元模型', 'course_id': 'yt-unit-model-build', 'course_type': 'skill', 'level': 'core'}
-tags:
-  - #scene/business-model
-  - #scene/finance
-  - #scene/entrepreneurship
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "单元模型"
+  course_id: yt-unit-model-build
+  course_type: skill
+  level: core
 pipeline:
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "单元模型搭得很漂亮，但关键参数怎么都算不准"
-    framework_lens: "参数可信度不足——模型结构越精确，参数误差扭曲越严重"
-    follow_up_question: "哪些参数来自真实数据、哪些是估算？估算参数偏差±30%结论还站得住吗？"
-  - signal: "按单元模型算出来应该赚钱，但实际在亏钱"
-    framework_lens: "隐形成本遗漏——模型算的是理想情况，实际业务有模型未覆盖的随机因素"
-    follow_up_question: "实际成本和模型成本之间最大的缺口在哪里？有没有哪项成本'忘了'放进模型？"
-updated_at: '2026-06-13'
+  - {'signal': '单元模型搭得很漂亮，但关键参数怎么都算不准', 'framework_lens': '参数可信度不足——模型结构越精确，参数误差扭曲越严重', 'follow_up_question': '哪些参数来自真实数据、哪些是估算？估算参数偏差±30%结论还站得住吗？'}
+  - {'signal': '按单元模型算出来应该赚钱，但实际在亏钱', 'framework_lens': '隐形成本遗漏——模型算的是理想情况，实际业务有模型未覆盖的随机因素', 'follow_up_question': "实际成本和模型成本之间最大的缺口在哪里？有没有哪项成本'忘了'放进模型？"}
 author: legacy
 ---
 

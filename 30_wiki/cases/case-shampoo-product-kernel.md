@@ -1,35 +1,31 @@
 ---
-id: "case-shampoo-product-kernel"
+id: case-shampoo-product-kernel
 title: "洗发水产品内核：从卖点混淆到内核清晰的产品定义案例"
-type: "case"
-status: "reviewed"
+type: case
+status: reviewed
 domain:
-  - "product"
-  - "yitang"
-source_person: "Truman"
+  - product
+  - yitang
+source_person: Truman
 source_context: "一堂五步法-产品内核课程案例"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-产品内核-洗发水案例.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-产品内核-洗发水案例_paddle_ocr.txt"
-created_at: "2026-06-11"
-updated_at: "2026-06-11"
+created_at: 2026-06-11
+updated_at: 2026-06-11
 related:
   - "concept-一堂-product-kernel"
-  - "yt-product-kernel-cultivation"
+  - yt-product-kernel-cultivation
 wiki_refs:
   - "concept-一堂-product-kernel"
-  - "yt-product-kernel-cultivation"
-tags:
-  - None
-  - None
-  - None
+  - yt-product-kernel-cultivation
 pipeline:
-  - "confidence-source-cited"
-  - "confidence-case-verified"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+  - confidence-case-verified
+author: legacy
+reviewed_by: pending
 confidence: 0.85
-trust_level: "high"
+trust_level: high
 ---
 
 # 洗发水产品内核：从卖点混淆到内核清晰的产品定义案例

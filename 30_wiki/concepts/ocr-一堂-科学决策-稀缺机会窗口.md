@@ -2,23 +2,20 @@
 id: "ocr-一堂-科学决策-稀缺机会窗口"
 created_at: 2026-05-21
 domain:
-  - "yitang"
+  - yitang
 source_refs:
-  - "src_20260522_7fb2b9c1"
-status: "enriched"
+  - src_20260522_7fb2b9c1
+status: enriched
 title: "OCR: 一堂-科学决策-稀缺机会窗口"
-type: "concept"
+type: concept
 updated_at: 2026-05-22
-tags:
-  - None
-  - None
 pipeline:
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 # OCR: 一堂-科学决策-稀缺机会窗口

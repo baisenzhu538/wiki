@@ -1,18 +1,18 @@
 ---
-id: "yt-panproduct-execution-roi-analysis"
+id: yt-panproduct-execution-roi-analysis
 component_of:
-  - "yt-model-pan-product-execution-toolkit"
+  - yt-model-pan-product-execution-toolkit
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1050
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-composite-pan-product-methodology"
-  - "yt-model-pan-product-demand-toolkit"
-  - "yt-model-pan-product-aesthetic-toolkit"
+  - yt-composite-pan-product-methodology
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
 query_triggers:
   - "ROI分析"
   - "产品落地"
@@ -23,39 +23,30 @@ query_triggers:
   - "落地卡片"
   - "落地执行"
 related:
-  - "yt-panproduct-execution-management-trilogy"
-  - "yt-panproduct-execution-milestone-breakdown"
-  - "yt-panproduct-execution-business-modeling"
+  - yt-panproduct-execution-management-trilogy
+  - yt-panproduct-execution-milestone-breakdown
+  - yt-panproduct-execution-business-modeling
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-ROI分析.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：ROI分析"
-type: "tool"
+type: tool
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "泛产品设计"
-  course_type: "card"
-  level: "intermediate"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: card
+  level: intermediate
 pipeline:
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '收益和成本都被尽可能量化，并标注置信度', 'framework_lens': 'ROI 是带不确定性的比较', 'follow_up_question': '收益和成本中，哪个数字最不可靠？如果它偏差50%，结论会变吗？'}
   - {'signal': '分析中明确考虑了机会成本和时间窗口', 'framework_lens': '资源有限，选择即放弃', 'follow_up_question': '做这件事的同时，你放弃了什么？放弃的选项价值多大？'}
   - {'signal': 'ROI 结论会触发明确的 go/no-go 或优先级调整', 'framework_lens': 'ROI 是决策工具', 'follow_up_question': '这个 ROI 数字是否改变了你的投入计划？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium
 ---
 
 # ROI分析：擅做投产比分析

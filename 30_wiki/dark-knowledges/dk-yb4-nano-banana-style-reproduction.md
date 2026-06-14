@@ -1,11 +1,11 @@
 ---
-id: "dk-yb4-nano-banana-style-reproduction"
+id: dk-yb4-nano-banana-style-reproduction
 title: "Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o"
-type: "dark-knowledge"
-dark_knowledge_type: "tool_usage"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: tool_usage
+status: draft
 domain:
-  - "design"
+  - design
 source_person: "月白"
 source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
@@ -14,20 +14,13 @@ created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "— 暂无（待后续卡片补充关联）"
-tags:
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # Nano Banana 在特定艺术风格稳定复现上优于 GPT-4o

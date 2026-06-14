@@ -1,51 +1,45 @@
 ---
-id: "master-systems-thinking"
-component_of: ""
+id: master-systems-thinking
+component_of: 
 confidence: 0.85
 created_at: 2026-05-18
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "master"
+  - master
 estimated_tokens: 1380
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "系统思考"
   - "反馈循环"
   - "杠杆点"
   - "系统动力学"
 related:
-  - "yt-entrepreneur-growth-flywheel"
-  - "yt-entrepreneur-key-hypotheses"
-  - "yt-personal-ipo-learning"
-  - "yt-personal-knowledge-extraction"
-  - "master-first-principles"
-  - "master-knowledge-compound"
-  - "yt-unit-model-ladder"
-  - "yt-unit-model-dynamic"
-  - "yt-unit-model-selection"
-  - "yt-unit-model-construction"
-  - "yt-unit-model-benchmark"
-  - "yt-unit-model-ai-assisted"
-reviewed_by: ""
+  - yt-entrepreneur-growth-flywheel
+  - yt-entrepreneur-key-hypotheses
+  - yt-personal-ipo-learning
+  - yt-personal-knowledge-extraction
+  - master-first-principles
+  - master-knowledge-compound
+  - yt-unit-model-ladder
+  - yt-unit-model-dynamic
+  - yt-unit-model-selection
+  - yt-unit-model-construction
+  - yt-unit-model-benchmark
+  - yt-unit-model-ai-assisted
+reviewed_by: 
 source_refs:
   - {'来源': 'Jay Forrester, Donella Meadows, Peter Senge'}
-status: "enriched"
+status: enriched
 title: "系统思考：反馈循环与杠杆点"
-type: "concept"
+type: concept
 updated_at: 2026-05-18
 version: 1
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-trust_level: "medium-high"
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+trust_level: medium-high
 ---
 
 # 系统思考：反馈循环与杠杆点

@@ -1,14 +1,14 @@
 ---
-id: "yt-personal-knowledge-extraction"
-component_of: ""
+id: yt-personal-knowledge-extraction
+component_of: 
 confidence: 0.8
 created_at: 2026-05-07
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3000
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "知识萃取"
   - "经验萃取方法论"
@@ -21,44 +21,29 @@ query_triggers:
   - "PRD自查清单"
   - "知识体系搭建"
 related:
-  - "yt-personal-deep-review"
-  - "master-systems-thinking"
+  - yt-personal-deep-review
+  - master-systems-thinking
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修炼-知识萃取探索营口述版.txt"
-status: "enriched"
+status: enriched
 title: "知识萃取方法论"
-type: "tool"
-updated_at: "2026-06-13"
+type: tool
+updated_at: 2026-06-13
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "个人修炼"
-  course_type: "explore_camp"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: explore_camp
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '萃取物是一个可复用的模型或原则，而不是单个案例的故事', 'framework_lens': '萃取 = 从具体上升到抽象', 'follow_up_question': '这个模型能解释三个以上不同案例吗？'}
   - {'signal': '模型会用正例和反例同时检验，而不是只找支持证据', 'framework_lens': '可证伪性保证模型质量', 'follow_up_question': '你能找到一个不符合这个模型的案例吗？这说明什么？'}
   - {'signal': '萃取出的模型会被写入笔记系统并与其他模型链接', 'framework_lens': '萃取物需要进入知识网络', 'follow_up_question': '这个模型与你已有的哪个认知冲突或互补？'}
-author: "legacy"
-trust_level: "medium"
+author: legacy
+trust_level: medium
 ---
 
 # 一堂知识萃取探索营：从碎片经验到确定模型

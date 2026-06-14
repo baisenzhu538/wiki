@@ -1,79 +1,57 @@
 ---
 id: yt-unit-model-benchmark
-component_of: ''
+component_of: 
 confidence: 0.85
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
-- entrepreneur
-- master
+  - entrepreneur
+  - master
 estimated_tokens: 2500
 language: zh-CN
 prerequisites:
-- yt-unit-model-overview
-- yt-unit-model-construction
+  - yt-unit-model-overview
+  - yt-unit-model-construction
 query_triggers:
-- 单元模型基准值
-- 三点预测
-- 科学类比
-- 行业基准值
-- 基准值共建
-- 预测准确性
+  - "单元模型基准值"
+  - "三点预测"
+  - "科学类比"
+  - "行业基准值"
+  - "基准值共建"
+  - "预测准确性"
 related:
-- yt-unit-model-ladder
-- yt-unit-model-selection
-- yt-unit-model-construction
-- yt-unit-model-dynamic
-- yt-decision-forecasting-accuracy
-- yt-decision-heuristics-biases
-- yt-decision-y-model
-- yt-entrepreneur-five-step-method
-- master-systems-thinking
-reviewed_by: ''
+  - yt-unit-model-ladder
+  - yt-unit-model-selection
+  - yt-unit-model-construction
+  - yt-unit-model-dynamic
+  - yt-decision-forecasting-accuracy
+  - yt-decision-heuristics-biases
+  - yt-decision-y-model
+  - yt-entrepreneur-five-step-method
+  - master-systems-thinking
+reviewed_by: 
 source_refs:
-- src_20260524_7c8d9e0f-一堂-单元模型03口述
-- src_20260524_6b5a4c3d-一堂-单元模型04口述
+  - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
+  - "src_20260524_6b5a4c3d-一堂-单元模型04口述"
 status: reviewed
-title: 单元模型基准值：科学类比、三点预测与基准值共建
+title: "单元模型基准值：科学类比、三点预测与基准值共建"
 trust_level: high
 type: tool
 version: 1
 yitang:
   map: entrepreneur
-  module: 创业必修
+  module: "创业必修"
   course_type: tool
   level: intermediate
-tags:
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
 pipeline:
-- null
-- null
-- null
-- confidence-draft
-- confidence-source-cited
+  - confidence-draft
+  - confidence-source-cited
 diagnostic_signals:
-  - signal: "基准值是否来自真实类比而非随意猜测"
-    framework_lens: "科学类比 / 证据链"
-    follow_up_question: "行业基准是否有来源和适用条件？"
-  - signal: "是否使用三点预测而非单点预测"
-    framework_lens: "不确定性 / 区间估计"
-    follow_up_question: "是否只给一个'最可能数字'而隐藏波动？"
-  - signal: "基准值是否随环境变化定期更新"
-    framework_lens: "时效性 / 反僵化"
-    follow_up_question: "去年的基准是否仍被当作今年标准？"
-  - signal: "是否区分'可迁移基准'与'情境特定基准'"
-    framework_lens: "边界意识 / 类比有效性"
-    follow_up_question: "是否把别人的基准直接套用到自己的业务？"
-updated_at: '2026-06-13'
+  - {'signal': '基准值是否来自真实类比而非随意猜测', 'framework_lens': '科学类比 / 证据链', 'follow_up_question': '行业基准是否有来源和适用条件？'}
+  - {'signal': '是否使用三点预测而非单点预测', 'framework_lens': '不确定性 / 区间估计', 'follow_up_question': "是否只给一个'最可能数字'而隐藏波动？"}
+  - {'signal': '基准值是否随环境变化定期更新', 'framework_lens': '时效性 / 反僵化', 'follow_up_question': '去年的基准是否仍被当作今年标准？'}
+  - {'signal': "是否区分'可迁移基准'与'情境特定基准'", 'framework_lens': '边界意识 / 类比有效性', 'follow_up_question': '是否把别人的基准直接套用到自己的业务？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

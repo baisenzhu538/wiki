@@ -1,16 +1,16 @@
 ---
-id: "yt-research-industry-canvas"
-component_of: ""
+id: yt-research-industry-canvas
+component_of: 
 confidence: 0.85
 created_at: 2026-05-18
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2400
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-research-osl-framework"
-  - "yt-research-intelligence-map"
+  - yt-research-osl-framework
+  - yt-research-intelligence-map
 query_triggers:
   - "行业分析"
   - "行业调研"
@@ -19,43 +19,35 @@ query_triggers:
   - "行业画布"
   - "行业扫描"
 related:
-  - "yt-research-osl-framework"
-  - "yt-research-intelligence-map"
-  - "yt-research-competitor-toolkit"
-  - "yt-research-user-jtbd"
-  - "yt-research-expert-interview"
-  - "yt-research-hypothesis-test"
-  - "yt-entrepreneur-key-hypotheses"
-reviewed_by: ""
+  - yt-research-osl-framework
+  - yt-research-intelligence-map
+  - yt-research-competitor-toolkit
+  - yt-research-user-jtbd
+  - yt-research-expert-interview
+  - yt-research-hypothesis-test
+  - yt-entrepreneur-key-hypotheses
+reviewed_by: 
 source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
   - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
 status: reviewed
 title: "行业分析画布：五维快速扫描+二维定位"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-industry-canvas', 'course_type': 'tool', 'level': 'intermediate'}
-tags:
-  - #research
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "调研方法论"
+  course_id: yt-research-industry-canvas
+  course_type: tool
+  level: intermediate
 pipeline:
-  - #boundary/requires-human-judgment
-  - #tool
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "能用规模/增速/集中度/政策/技术五个维度快速描述一个行业"
-    framework_lens: "五维扫描建立行业基线"
-    follow_up_question: "这五个维度中，哪个对你进入决策影响最大？"
-  - signal: "能在二维竞争象限中定位关键玩家和机会空白区"
-    framework_lens: "定位决定机会空间"
-    follow_up_question: "你选择的定位在象限中是否已经被占据？"
-  - signal: "行业分析结论直接回答‘要不要进、怎么进’"
-    framework_lens: "行业分析服务于进入决策"
-    follow_up_question: "根据画布结论，你是进入、观望还是放弃？"
-updated_at: '2026-06-13'
+  - {'signal': '能用规模/增速/集中度/政策/技术五个维度快速描述一个行业', 'framework_lens': '五维扫描建立行业基线', 'follow_up_question': '这五个维度中，哪个对你进入决策影响最大？'}
+  - {'signal': '能在二维竞争象限中定位关键玩家和机会空白区', 'framework_lens': '定位决定机会空间', 'follow_up_question': '你选择的定位在象限中是否已经被占据？'}
+  - {'signal': '行业分析结论直接回答‘要不要进、怎么进’', 'framework_lens': '行业分析服务于进入决策', 'follow_up_question': '根据画布结论，你是进入、观望还是放弃？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

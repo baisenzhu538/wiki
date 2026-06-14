@@ -1,15 +1,15 @@
 ---
-id: "yt-concept-p-type-l-type"
-component_of: ""
+id: yt-concept-p-type-l-type
+component_of: 
 confidence: 0.8
 created_at: 2026-06-06
-difficulty: "beginner"
+difficulty: beginner
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2800
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-entrepreneur-industry-forecast"
+  - yt-entrepreneur-industry-forecast
 query_triggers:
   - "P型创业者"
   - "L型创业者"
@@ -21,39 +21,29 @@ query_triggers:
   - "创业者认知"
   - "创业心态"
   - "创业段位"
-related: []
 review_date: 2026-06-06
-reviewed_by: ""
+reviewed_by: 
 source_refs:
   - "00_inbox/一堂-商业预判课-Truman-口述.txt"
   - "00_inbox/一堂-商业预判课-truman-笔记.txt"
 status: enriched
 title: "P型与L型创业者"
 trust_level: medium
-type: "concept"
+type: concept
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '商业预判', 'course_id': 'yt-concept-p-type-l-type', 'course_type': 'concept', 'level': 'foundational'}
-tags:
-  - #scene/business-analysis
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/level-diagnosis
-  - #scene/skill-engineering/manifest-design
-  - #yitang
-  - #创业者类型
-  - #概念
+yitang:
+  map: entrepreneur
+  module: "商业预判"
+  course_id: yt-concept-p-type-l-type
+  course_type: concept
+  level: foundational
 pipeline:
-  - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
 diagnostic_signals:
-  - signal: "P型创业者一直在动手，但十年后项目失败"
-    framework_lens: "热情不能替代预判"
-    follow_up_question: "你在动手之前，有没有用2个月时间做过行业预判和关键假设验证？如果没有，你在用热情赌运气"
-  - signal: "L型创业者分析过度，永远不起步"
-    framework_lens: "分析瘫痪——逻辑驱动也需要行动"
-    follow_up_question: "你的分析是否已经覆盖了80%的关键不确定性？如果是，剩下的20%需要在行动中验证"
-updated_at: '2026-06-13'
+  - {'signal': 'P型创业者一直在动手，但十年后项目失败', 'framework_lens': '热情不能替代预判', 'follow_up_question': '你在动手之前，有没有用2个月时间做过行业预判和关键假设验证？如果没有，你在用热情赌运气'}
+  - {'signal': 'L型创业者分析过度，永远不起步', 'framework_lens': '分析瘫痪——逻辑驱动也需要行动', 'follow_up_question': '你的分析是否已经覆盖了80%的关键不确定性？如果是，剩下的20%需要在行动中验证'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

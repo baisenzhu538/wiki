@@ -1,14 +1,12 @@
 ---
 id: "skill-城市合伙人模式复制能力"
 title: "技能：城市合伙人模式复制能力"
-type: "skill"
-status: "draft"
-domain:
+type: skill
+status: draft
 source_person: "案例讲述者"
-source_context: "src_20260609_4ea1fba2"
+source_context: src_20260609_4ea1fba2
 source_refs:
-  - "src_20260609_4ea1fba2"
-wiki_refs:
+  - src_20260609_4ea1fba2
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -16,16 +14,12 @@ definition_of_done:
 tools_required:
   - "标准化能力模块"
   - "城市合伙人合作协议"
-prerequisite_skills:
-related:
 created_at: "2026-06-09T15:07:29+00:00"
 updated_at: "2026-06-09T15:07:29+00:00"
-pipeline:
-  - None
-author: "legacy"
-reviewed_by: "pending"
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：城市合伙人模式复制能力

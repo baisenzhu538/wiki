@@ -1,12 +1,12 @@
 ---
-id: "dk-yb1-aigc-mvp-before-ps"
+id: dk-yb1-aigc-mvp-before-ps
 title: "设计师AIGC工作流：先跑MVP再开PS"
-type: "dark-knowledge"
-dark_knowledge_type: "workflow"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: workflow
+status: draft
 domain:
-  - "design"
-  - "ai-collaboration"
+  - design
+  - ai-collaboration
 source_person: "月白"
 source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
@@ -14,24 +14,17 @@ source_refs:
 created_at: 2026-06-04
 updated_at: 2026-06-11
 related:
-  - "dk-yb5-style-asset-archive"
-  - "dk-yb8-file-naming-eight-elements"
-  - "yt-entrepreneur-lean-validation"
-contradicts: ""
-tags:
-  - None
-  - None
-  - None
+  - dk-yb5-style-asset-archive
+  - dk-yb8-file-naming-eight-elements
+  - yt-entrepreneur-lean-validation
+contradicts: 
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 设计师AIGC工作流：先跑MVP再开PS

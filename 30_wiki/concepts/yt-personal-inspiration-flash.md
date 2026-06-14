@@ -1,14 +1,14 @@
 ---
-id: "yt-personal-inspiration-flash"
-component_of: ""
+id: yt-personal-inspiration-flash
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3000
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "灵感闪现"
   - "灵感捕捉"
@@ -20,7 +20,6 @@ query_triggers:
   - "创造力培养"
   - "如何产生灵感"
   - "暂停显意识"
-related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -28,30 +27,22 @@ source_refs:
 status: enriched
 title: "灵感闪现（认知篇）"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'personal', 'module': '灵感闪现（认知篇）', 'course_id': 518, 'course_type': 'method', 'level': 'advanced'}
-tags:
-  - #scene/hardware-debugging/prototyping
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/skill-engineering/publish-deploy
-  - #yitang
+yitang:
+  map: personal
+  module: "灵感闪现（认知篇）"
+  course_id: 518
+  course_type: method
+  level: advanced
 pipeline:
-  - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
 diagnostic_signals:
-  - signal: "主动、持续地浸泡在多样化信息中，而不是等待灵感"
-    framework_lens: "灵感需要信息营养"
-    follow_up_question: "过去一周你主动接触了哪些跨领域信息？"
-  - signal: "有固定机制捕获灵感（笔记、语音、画草图），不让它溜走"
-    framework_lens: "灵感易逝"
-    follow_up_question: "最近一次灵感出现后，你多久内完成了记录？"
-  - signal: "灵感会被主动与当前要解决的问题连接，而不是收藏起来"
-    framework_lens: "灵感的价值在于解决问题"
-    follow_up_question: "这个灵感能解决你当前哪个具体问题？"
-updated_at: '2026-06-13'
+  - {'signal': '主动、持续地浸泡在多样化信息中，而不是等待灵感', 'framework_lens': '灵感需要信息营养', 'follow_up_question': '过去一周你主动接触了哪些跨领域信息？'}
+  - {'signal': '有固定机制捕获灵感（笔记、语音、画草图），不让它溜走', 'framework_lens': '灵感易逝', 'follow_up_question': '最近一次灵感出现后，你多久内完成了记录？'}
+  - {'signal': '灵感会被主动与当前要解决的问题连接，而不是收藏起来', 'framework_lens': '灵感的价值在于解决问题', 'follow_up_question': '这个灵感能解决你当前哪个具体问题？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

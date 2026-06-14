@@ -1,19 +1,19 @@
 ---
-id: "case-truman-yitang-foresight"
+id: case-truman-yitang-foresight
 title: "Truman一堂：市场扫描→六方向→Plan ABC试错"
-type: "case"
+type: case
 domain:
-  - "yitang"
-status: "enriched"
+  - yitang
+status: enriched
 confidence: 0.9
-difficulty: "intermediate"
+difficulty: intermediate
 estimated_tokens: 2800
-language: "zh-CN"
+language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
   - "黄药师"
-  - "laowantong"
+  - laowantong
 source_refs:
   - "00_inbox/一堂-机会预判课-Truman-口述.txt"
   - "00_inbox/一堂-机会预判课-truman-笔记.txt"
@@ -26,20 +26,16 @@ query_triggers:
   - "内部创业"
   - "Plan ABC"
   - "六方向三选项"
-related:
 wiki_refs:
-  - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
-  - "30_wiki/concepts/yt-foresight-probability-engineering.md"
-  - "30_wiki/concepts/yt-foresight-deliverables-four-levels.md"
-  - "30_wiki/concepts/case-gudong-tea-shop-foresight.md"
-tags:
-  - None
-  - None
+  - 30_wiki/concepts/yt-foresight-15-char-mantra.md
+  - 30_wiki/concepts/yt-foresight-probability-engineering.md
+  - 30_wiki/concepts/yt-foresight-deliverables-four-levels.md
+  - 30_wiki/concepts/case-gudong-tea-shop-foresight.md
 pipeline:
-  - "confidence-source-cited"
-  - "confidence-verified-by-outcome"
-author: "legacy"
-trust_level: "medium-high"
+  - confidence-source-cited
+  - confidence-verified-by-outcome
+author: legacy
+trust_level: medium-high
 ---
 
 # Truman一堂：市场扫描→六方向→Plan ABC试错

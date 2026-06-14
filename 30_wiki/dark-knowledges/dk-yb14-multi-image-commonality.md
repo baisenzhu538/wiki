@@ -1,11 +1,11 @@
 ---
-id: "dk-yb14-multi-image-commonality"
+id: dk-yb14-multi-image-commonality
 title: "AI生图：用多图共性替代语言描述"
-type: "dark-knowledge"
-dark_knowledge_type: "tool_usage"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: tool_usage
+status: draft
 domain:
-  - "design"
+  - design
 source_person: "月白"
 source_context: "口述稿: AI设计-AI设计师实操培训01"
 source_refs:
@@ -13,21 +13,16 @@ source_refs:
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
-  - "dk-yb12-ai-image-analysis-replace-training"
-  - "dk-yb15-reverse-image-description"
-contradicts: ""
-tags:
-  - None
-  - None
-  - None
+  - dk-yb12-ai-image-analysis-replace-training
+  - dk-yb15-reverse-image-description
+contradicts: 
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # AI生图：用多图共性替代语言描述

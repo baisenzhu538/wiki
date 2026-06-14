@@ -1,14 +1,12 @@
 ---
 id: "skill-模型匹配调度"
 title: "技能：模型匹配调度"
-type: "skill"
-status: "draft"
-domain:
-source_person: "Truman"
-source_context: "src_20260609_03491271"
+type: skill
+status: draft
+source_person: Truman
+source_context: src_20260609_03491271
 source_refs:
-  - "src_20260609_03491271"
-wiki_refs:
+  - src_20260609_03491271
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -17,16 +15,12 @@ tools_required:
   - "模型路由层/网关"
   - "负载均衡器"
   - "多模型API密钥"
-prerequisite_skills:
-related:
 created_at: "2026-06-09T14:38:36+00:00"
 updated_at: "2026-06-09T14:38:36+00:00"
-pipeline:
-  - None
-author: "legacy"
-reviewed_by: "pending"
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：模型匹配调度

@@ -1,15 +1,15 @@
 ---
-id: "yt-personal-pan-product-practice"
+id: yt-personal-pan-product-practice
 component_of:
-  - "yt-composite-pan-product-methodology"
+  - yt-composite-pan-product-methodology
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3400
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "个人修炼"
   - "产品思维"
@@ -18,43 +18,30 @@ query_triggers:
   - "泛产品设计实操篇：需求分析与用户洞察"
   - "需求分析与用户洞察"
 related:
-  - "yt-model-pan-product-demand-toolkit"
-  - "yt-personal-pan-product-aesthetics"
+  - yt-model-pan-product-demand-toolkit
+  - yt-personal-pan-product-aesthetics
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
-status: "enriched"
+status: enriched
 title: "泛产品设计实操篇：需求分析与用户洞察"
-type: "concept"
+type: concept
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "个人修炼"
-  course_type: "required"
-  level: "intermediate"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: required
+  level: intermediate
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '面对需求时能用‘拆/推/评/算’四字诀系统分析', 'framework_lens': '需求分析有固定操作链', 'follow_up_question': '这个需求的用户任务、场景、真实障碍分别是什么？'}
   - {'signal': '在动手设计前会用需求工具箱验证‘做对的事’', 'framework_lens': '需求先于方案', 'follow_up_question': '如果这个问题本身不值得解决，你的方案再好也没用——你验证过吗？'}
   - {'signal': '需求分析结论会直接影响方案范围和设计优先级', 'framework_lens': '分析必须产生决策输入', 'follow_up_question': '基于需求分析，你砍掉了哪些原计划的功能？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium
 ---
 
 # 泛产品设计实操篇：需求分析与用户洞察

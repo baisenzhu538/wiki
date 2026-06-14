@@ -1,17 +1,17 @@
 ---
 id: "case-一堂-无人餐厅-hypothesis-failure"
 title: "案例：一堂无人餐厅项目因忽视关键假设而失败"
-type: "case"
-status: "draft"
+type: case
+status: draft
 domain:
-  - "yitang"
-  - "business-strategy"
+  - yitang
+  - business-strategy
 source_person: "一堂·Truman"
 source_context: "一堂-关键假设课-truman-笔记.txt"
 source_refs:
   - "00_inbox/一堂-关键假设课-truman-笔记.txt"
-created_at: "2026-06-08"
-updated_at: "2026-06-09"
+created_at: 2026-06-08
+updated_at: 2026-06-09
 related:
   - "case-一堂-陈贤敏汉堡-hypothesis-validation"
   - "concept-一堂-hypothesis-driven-business-methodology"
@@ -25,18 +25,13 @@ definition_of_done:
   - "关键假设失误点和验证路径已记录"
   - "可迁移条件和不可复制场景已明确"
   - "实际应用后收集反馈并更新案例"
-tags:
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 案例：一堂无人餐厅项目因忽视关键假设而失败

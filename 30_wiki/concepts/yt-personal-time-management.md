@@ -1,14 +1,14 @@
 ---
-id: "yt-personal-time-management"
-component_of: ""
+id: yt-personal-time-management
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3000
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "时间管理"
   - "优先级思维"
@@ -20,7 +20,6 @@ query_triggers:
   - "高能量窗口"
   - "保护整块时间"
   - "如何管理时间"
-related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -28,30 +27,21 @@ source_refs:
 status: enriched
 title: "时间管理"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'personal', 'module': '时间管理', 'course_id': 401, 'course_type': 'method', 'level': 'foundational'}
-tags:
-  - #scene/knowledge-management
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #yitang
+yitang:
+  map: personal
+  module: "时间管理"
+  course_id: 401
+  course_type: method
+  level: foundational
 pipeline:
-  - #boundary/not-for-creative
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "时间分配以长期目标为锚点，而不是以任务紧急度为锚点"
-    framework_lens: "时间管理 = 优先级管理"
-    follow_up_question: "你今天做的事中，哪一件与3年目标直接相关？"
-  - signal: "能识别自己的高能量窗口，并把重要任务放在这些时段"
-    framework_lens: "能量管理 > 时间长度管理"
-    follow_up_question: "你一天中哪个时段效率最高？这个时段在做什么？"
-  - signal: "每周会回顾时间使用情况，并调整下周计划"
-    framework_lens: "时间管理需要反馈闭环"
-    follow_up_question: "上周实际时间分配与计划差异最大的地方是什么？"
-updated_at: '2026-06-13'
+  - {'signal': '时间分配以长期目标为锚点，而不是以任务紧急度为锚点', 'framework_lens': '时间管理 = 优先级管理', 'follow_up_question': '你今天做的事中，哪一件与3年目标直接相关？'}
+  - {'signal': '能识别自己的高能量窗口，并把重要任务放在这些时段', 'framework_lens': '能量管理 > 时间长度管理', 'follow_up_question': '你一天中哪个时段效率最高？这个时段在做什么？'}
+  - {'signal': '每周会回顾时间使用情况，并调整下周计划', 'framework_lens': '时间管理需要反馈闭环', 'follow_up_question': '上周实际时间分配与计划差异最大的地方是什么？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

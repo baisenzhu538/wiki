@@ -1,35 +1,31 @@
 ---
 id: "concept-一堂-key-assumptions"
 title: "关键假设思维：259工具与假设驱动的创业方法"
-type: "concept"
-status: "reviewed"
+type: concept
+status: reviewed
 reviewed_by: "周伯通"
 domain:
-  - "product"
-  - "yitang"
-source_person: "Truman"
+  - product
+  - yitang
+source_person: Truman
 source_context: "一堂关键假设课（2026年）"
 source_refs:
   - "00_inbox/一堂-关键假设课-truman-口述.txt"
-created_at: "2026-06-09"
-updated_at: "2026-06-09"
+created_at: 2026-06-09
+updated_at: 2026-06-09
 related:
   - "concept-一堂-hypothesis-driven-business-methodology"
   - "concept-一堂-product-kernel"
-  - "yt-foresight-15-char-mantra"
+  - yt-foresight-15-char-mantra
 wiki_refs:
   - "concept-一堂-hypothesis-driven-business-methodology"
   - "concept-一堂-product-kernel"
-tags:
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
 confidence: 0.85
-trust_level: "high"
+trust_level: high
 ---
 
 # 关键假设思维：259工具与假设驱动的创业方法

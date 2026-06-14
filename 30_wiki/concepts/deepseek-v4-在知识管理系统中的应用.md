@@ -2,25 +2,19 @@
 id: "deepseek-v4-在知识管理系统中的应用"
 created_at: 2026-05-05
 domain:
-  - "healthcare"
+  - healthcare
 source_refs:
-  - "src_20260505_7766e197"
-status: "enriched"
+  - src_20260505_7766e197
+status: enriched
 title: "DeepSeek V4 在知识管理系统中的应用"
-type: "concept"
+type: concept
 updated_at: 2026-05-05
-tags:
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 # DeepSeek V4 在知识管理系统中的应用

@@ -1,17 +1,17 @@
 ---
-id: "yt-entrepreneur-needs-analysis"
-component_of: ""
+id: yt-entrepreneur-needs-analysis
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3000
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "需求分析"
-  - "JTBD"
+  - JTBD
   - "拆推评算"
   - "六层冰山模型"
   - "用户需求挖掘"
@@ -21,42 +21,30 @@ query_triggers:
   - "伪需求识别"
   - "需求剥离法"
 related:
-  - "dk-yb7-design-demand-80-10-10"
+  - dk-yb7-design-demand-80-10-10
 review_date: 2026-05-07
 reviewed_by: "黄药师"
 source_refs:
-  - "src_20260507_0872c7b3"
-  - "src_20260507_3120ec58"
+  - src_20260507_0872c7b3
+  - src_20260507_3120ec58
 status: enriched
 title: "需求分析"
 trust_level: high
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '需求分析', 'course_id': 'yt-entrepreneur-needs-analysis', 'course_type': 'method', 'level': 'foundational'}
-tags:
-  - #scene/ai-collaboration/problem-validation
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/business-analysis/customer-acquisition
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/note-taking/live-field
-  - #scene/product-design
-  - #scene/skill-engineering
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "需求分析"
+  course_id: yt-entrepreneur-needs-analysis
+  course_type: method
+  level: foundational
 pipeline:
-  - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
 diagnostic_signals:
-  - signal: "用户只问用户要什么，不分析任务场景"
-    framework_lens: "JTBD方法误用"
-    follow_up_question: "用户在什么场景下要解决这个问题？他们现在用什么替代方案？"
-  - signal: "用户把少数用户反馈当普遍需求"
-    framework_lens: "样本偏差"
-    follow_up_question: "这个反馈来自几个用户？他们代表多大的用户群体？"
-updated_at: '2026-06-13'
+  - {'signal': '用户只问用户要什么，不分析任务场景', 'framework_lens': 'JTBD方法误用', 'follow_up_question': '用户在什么场景下要解决这个问题？他们现在用什么替代方案？'}
+  - {'signal': '用户把少数用户反馈当普遍需求', 'framework_lens': '样本偏差', 'follow_up_question': '这个反馈来自几个用户？他们代表多大的用户群体？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

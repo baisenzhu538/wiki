@@ -1,29 +1,21 @@
 ---
-id: "yitang-huazong-ama-by-industry"
+id: yitang-huazong-ama-by-industry
 created_at: 2026-05-29
 domain:
-  - "healthcare"
+  - healthcare
 source_refs:
-  - "src_20260529_huazong_ama"
-status: "stable"
+  - src_20260529_huazong_ama
+status: stable
 title: "花总AMA按行业分类整理（商业突破大航海）"
-type: "concept"
+type: concept
 updated_at: 2026-05-29
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "high"
+trust_level: high
 ---
 
 # 花总AMA按行业分类整理

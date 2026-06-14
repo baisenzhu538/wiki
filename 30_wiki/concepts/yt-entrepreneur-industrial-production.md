@@ -1,14 +1,14 @@
 ---
-id: "yt-entrepreneur-industrial-production"
-component_of: ""
+id: yt-entrepreneur-industrial-production
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1874
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "工业化生产"
   - "标准化流程"
@@ -20,7 +20,6 @@ query_triggers:
   - "创业效率"
   - "工具链自动化"
   - "内容产品化"
-related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -28,26 +27,20 @@ source_refs:
 status: enriched
 title: "工业化生产"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '工业化生产', 'course_id': 'yt-entrepreneur-industrial-production', 'course_type': 'method', 'level': 'advanced'}
-tags:
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/live-field
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "工业化生产"
+  course_id: yt-entrepreneur-industrial-production
+  course_type: method
+  level: advanced
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户还没验证需求就搞SOP"
-    framework_lens: "过早标准化——在错误的事情上提高效率"
-    follow_up_question: "这个流程已经被验证是对的吗？如果流程本身有问题，SOP只会放大错误"
-  - signal: "用户把一切都标准化，扼杀创新"
-    framework_lens: "过度工业化"
-    follow_up_question: "哪些环节需要创造力，哪些需要标准化？你是否把该创新的地方也SOP了？"
-updated_at: '2026-06-13'
+  - {'signal': '用户还没验证需求就搞SOP', 'framework_lens': '过早标准化——在错误的事情上提高效率', 'follow_up_question': '这个流程已经被验证是对的吗？如果流程本身有问题，SOP只会放大错误'}
+  - {'signal': '用户把一切都标准化，扼杀创新', 'framework_lens': '过度工业化', 'follow_up_question': '哪些环节需要创造力，哪些需要标准化？你是否把该创新的地方也SOP了？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

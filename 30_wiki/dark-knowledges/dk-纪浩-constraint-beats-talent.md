@@ -1,35 +1,31 @@
 ---
 id: "dk-纪浩-constraint-beats-talent"
 title: "暗知识：约束的力量 —— 600行文档让AI输出吊打人类手动设计"
-type: "dark-knowledge"
-dark_knowledge_type: "principle"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: principle
+status: draft
 domain:
-  - "ai-collaboration"
-  - "yitang"
+  - ai-collaboration
+  - yitang
 source_person: "纪浩"
 source_context: "AI俱乐部·AI协作方法论分享（2026年）"
 source_refs:
   - "00_inbox/纪浩-AI协作方法论-口述.md"
-created_at: "2026-06-09"
-updated_at: "2026-06-09"
+created_at: 2026-06-09
+updated_at: 2026-06-09
 related:
   - "case-纪浩-ui-design-constraint-evolution"
   - "concept-纪浩-ai-collaboration-five-layer"
 wiki_refs:
   - "case-纪浩-ui-design-constraint-evolution"
   - "concept-纪浩-ai-collaboration-five-layer"
-tags:
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-published"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-published
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 暗知识：约束的力量

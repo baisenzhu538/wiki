@@ -1,14 +1,14 @@
 ---
-id: "yt-five-step-method"
-component_of: ""
+id: yt-five-step-method
+component_of: 
 confidence: 0.9
 created_at: 2026-06-10
-difficulty: "beginner"
+difficulty: beginner
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2800
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "一堂五步法"
   - "五步法"
@@ -17,7 +17,7 @@ query_triggers:
   - "创业分析工具"
   - "全局分析"
 related:
-  - "yt-entrepreneur-five-step-method"
+  - yt-entrepreneur-five-step-method
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
@@ -26,24 +26,20 @@ source_refs:
 status: reviewed
 title: "一堂五步法总纲"
 trust_level: medium
-type: "framework"
+type: framework
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '五步法', 'course_id': 'yt-five-step-method', 'course_type': 'framework', 'level': 'core'}
-tags:
-  - #scene/business-analysis
-  - #scene/entrepreneurship
-  - #scene/strategy
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "五步法"
+  course_id: yt-five-step-method
+  course_type: framework
+  level: core
 pipeline:
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户知道五步，但做项目时只用其中一两步"
-    framework_lens: "框架使用不完整"
-    follow_up_question: "你最近一次完整走完了五步法的五个环节是什么时候？"
-  - signal: "用户把五步法当万能框架，不看行业差异"
-    framework_lens: "僵化套用"
-    follow_up_question: "你这个行业的特殊性是什么？五步法的哪一步需要特别调整？"
-updated_at: '2026-06-13'
+  - {'signal': '用户知道五步，但做项目时只用其中一两步', 'framework_lens': '框架使用不完整', 'follow_up_question': '你最近一次完整走完了五步法的五个环节是什么时候？'}
+  - {'signal': '用户把五步法当万能框架，不看行业差异', 'framework_lens': '僵化套用', 'follow_up_question': '你这个行业的特殊性是什么？五步法的哪一步需要特别调整？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

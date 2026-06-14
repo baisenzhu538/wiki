@@ -1,32 +1,20 @@
 ---
-id: "yitang-huazong-ama-summary"
+id: yitang-huazong-ama-summary
 created_at: 2026-05-29
 domain:
-  - "healthcare"
+  - healthcare
 source_refs:
-  - "src_20260529_huazong_ama"
-status: "stable"
+  - src_20260529_huazong_ama
+status: stable
 title: "花总AMA精华摘要（商业突破大航海）"
-type: "concept"
+type: concept
 updated_at: 2026-05-29
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "high"
+trust_level: high
 ---
 
 # 花总AMA精华摘要

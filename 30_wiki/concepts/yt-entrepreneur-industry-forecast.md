@@ -1,15 +1,15 @@
 ---
-id: "yt-entrepreneur-industry-forecast"
-component_of: ""
+id: yt-entrepreneur-industry-forecast
+component_of: 
 confidence: 0.85
 created_at: 2026-05-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 4500
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-entrepreneur-five-step-method"
+  - yt-entrepreneur-five-step-method
 query_triggers:
   - "商业预判"
   - "创业方向选择"
@@ -21,42 +21,31 @@ query_triggers:
   - "选项池"
   - "预判能力"
   - "创业成功率"
-related: []
 review_date: 2026-06-11
-reviewed_by: ""
+reviewed_by: 
 source_refs:
   - "00_inbox/一堂-商业预判课-Truman-口述.txt"
   - "00_inbox/一堂-商业预判课-truman-笔记.txt"
 status: enriched
 superseded_by:
-  - "yt-foresight-business-spectrum"
+  - yt-foresight-business-spectrum
 title: "商业预判15字诀"
 trust_level: medium
-type: "tool"
+type: tool
 version: 2
-yitang: {'map': 'entrepreneur', 'module': '商业预判', 'course_id': 'yt-entrepreneur-industry-forecast', 'course_type': 'method', 'level': 'foundational'}
-tags:
-  - #scene/ai-collaboration/problem-validation
-  - #scene/business-analysis/customer-acquisition
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/level-diagnosis
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering/manifest-design
-  - #yitang
-  - #创业
-  - #商业预判
+yitang:
+  map: entrepreneur
+  module: "商业预判"
+  course_id: yt-entrepreneur-industry-forecast
+  course_type: method
+  level: foundational
 pipeline:
-  - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
 diagnostic_signals:
-  - signal: "用户用15字诀快速否定一个机会"
-    framework_lens: "简化成口诀但缺少深度分析"
-    follow_up_question: "你除了念口诀，还做了哪些定量或定性的分析？"
-  - signal: "用户只做减法不做加法"
-    framework_lens: '违背"充分做加法"'
-    follow_up_question: "在减法之前，你的选项池里有多少个经过初步分析的机会？如果<10个，加法不充分"
-updated_at: '2026-06-13'
+  - {'signal': '用户用15字诀快速否定一个机会', 'framework_lens': '简化成口诀但缺少深度分析', 'follow_up_question': '你除了念口诀，还做了哪些定量或定性的分析？'}
+  - {'signal': '用户只做减法不做加法', 'framework_lens': '违背"充分做加法"', 'follow_up_question': '在减法之前，你的选项池里有多少个经过初步分析的机会？如果<10个，加法不充分'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

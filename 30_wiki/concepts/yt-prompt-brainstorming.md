@@ -1,19 +1,19 @@
 ---
-id: "yt-prompt-brainstorming"
+id: yt-prompt-brainstorming
 title: "AI头脑风暴工作流"
-type: "tool"
-status: "enriched"
+type: tool
+status: enriched
 domain:
-  - "yitang"
-  - "ai"
-language: "zh-CN"
+  - yitang
+  - ai
+language: zh-CN
 version: 1
-difficulty: "intermediate"
+difficulty: intermediate
 confidence: 0.85
 prerequisites:
-  - "yt-model-prompt-engineering"
+  - yt-model-prompt-engineering
 component_of:
-  - "yt-model-prompt-engineering"
+  - yt-model-prompt-engineering
 source_refs:
   - "10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
   - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
@@ -25,29 +25,18 @@ query_triggers:
   - "发散收敛"
   - "选项生成"
   - "AI杀手应用"
-created_at: "2026-05-13"
+created_at: 2026-05-13
 estimated_tokens: 2000
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '头脑风暴前会明确写出自己独特的资源、约束和目标', 'framework_lens': 'AI头脑风暴的价值来自独特输入', 'follow_up_question': '这次 brainstorm 中，有哪些输入是只有你能提供的？'}
   - {'signal': '一次会话会生成≥5个不同方向的选项，再进入筛选', 'framework_lens': '发散先于收敛', 'follow_up_question': 'AI给出的第一个方案是不是你最可能的默认答案？'}
   - {'signal': '最终选择由人做出，并对选中方案进行深化', 'framework_lens': '人是决策者', 'follow_up_question': '你最后选择的方案与AI最初建议相比，改动有多大？'}
-updated_at: "2026-06-13"
-author: "legacy"
-reviewed_by: "pending"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+reviewed_by: pending
+trust_level: medium-high
 ---
 
 # AI 头脑风暴工作流

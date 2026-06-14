@@ -1,11 +1,11 @@
 ---
-id: "dk-yb6-midjourney-chinese-text-fix"
+id: dk-yb6-midjourney-chinese-text-fix
 title: "Midjourney中文文字修复极简提示词"
-type: "dark-knowledge"
-dark_knowledge_type: "tool_usage"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: tool_usage
+status: draft
 domain:
-  - "design"
+  - design
 source_person: "月白"
 source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
@@ -13,19 +13,15 @@ source_refs:
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
-  - "dk-yb4-nano-banana-style-reproduction"
-contradicts: ""
-tags:
-  - None
-  - None
+  - dk-yb4-nano-banana-style-reproduction
+contradicts: 
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # Midjourney中文文字修复极简提示词

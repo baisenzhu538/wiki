@@ -1,34 +1,28 @@
 ---
 id: "skill-月白-文创材质调研与精益选择"
 title: "技能：文创材质调研与精益选择"
-type: "skill"
-status: "draft"
+type: skill
+status: draft
 domain:
-  - "design"
+  - design
 source_person: "月白"
 source_context: "文创案例"
-source_refs: ""
-wiki_refs: ""
+source_refs: 
+wiki_refs: 
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "工具要求明确"
-tools_required: ""
-prerequisite_skills: ""
-related: ""
-created_at: "2026-06-07"
-updated_at: "2026-06-07"
-tags:
-  - None
-  - None
-  - None
-  - None
+tools_required: 
+prerequisite_skills: 
+created_at: 2026-06-07
+updated_at: 2026-06-07
 pipeline:
-  - "confidence-draft"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+author: legacy
+reviewed_by: pending
 confidence: 0.6
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：文创材质调研与精益选择

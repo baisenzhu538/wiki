@@ -1,11 +1,11 @@
 ---
-id: "dk-yb15-reverse-image-description"
+id: dk-yb15-reverse-image-description
 title: "AI逆向反推图片描述法"
-type: "dark-knowledge"
-dark_knowledge_type: "tool_usage"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: tool_usage
+status: draft
 domain:
-  - "design"
+  - design
 source_person: "月白"
 source_context: "口述稿: AI设计-AI设计师实操培训01"
 source_refs:
@@ -13,20 +13,15 @@ source_refs:
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
-  - "dk-yb14-multi-image-commonality"
-contradicts: ""
-tags:
-  - None
-  - None
-  - None
+  - dk-yb14-multi-image-commonality
+contradicts: 
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # AI逆向反推图片描述法

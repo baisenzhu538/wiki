@@ -2,24 +2,20 @@
 id: "轻量级诊所HIS调研全清单"
 created_at: 2026-05-03
 domain:
-  - "healthcare"
+  - healthcare
 source_refs:
-  - "src_20260503_5c91e867"
-status: "enriched"
+  - src_20260503_5c91e867
+status: enriched
 title: "轻量级诊所HIS调研全清单"
-type: "concept"
+type: concept
 updated_at: 2026-05-03
-tags:
-  - None
-  - None
 pipeline:
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 # 轻量级诊所HIS调研全清单

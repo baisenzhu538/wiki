@@ -1,14 +1,14 @@
 ---
-id: "yt-model-muse-ai-framework"
-component_of: ""
+id: yt-model-muse-ai-framework
+component_of: 
 confidence: 0.85
 created_at: 2026-05-07
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1476
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "MUSE 人工智能全景图"
   - "人工智能全景图"
@@ -17,36 +17,26 @@ query_triggers:
   - "核心逻辑"
   - "版本信息"
   - "知识体系定位"
-related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-全景图MUSE模型.jpg"
-status: "enriched"
+status: enriched
 title: "MUSE 人工智能全景图"
-type: "framework"
+type: framework
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "AI 思维模型"
-  course_type: "model"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: model
 pipeline:
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '用户看了AI全景图后更焦虑，觉得自己什么都要学', 'framework_lens': '全景图焦虑——四层都有价值，但当前阶段只需要聚焦一层', 'follow_up_question': '你当前的工作主要在哪一层？如果还在使用层，不要同时学创业层和奇迹层'}
   - {'signal': '用户只关注奇迹层，不愿从使用层开始', 'framework_lens': '跳级学习——MUSE四层需要循序渐进', 'follow_up_question': '你日常工作中AI工具的使用效率如何？如果还没提升，奇迹层与你无关'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 # MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)

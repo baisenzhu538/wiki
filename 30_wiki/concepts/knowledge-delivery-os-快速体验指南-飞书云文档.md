@@ -4,27 +4,17 @@ created_at: 2026-04-30
 domain:
   - "['master']"
 source_refs:
-  - "src_20260501_6a491b80"
-status: "enriched"
+  - src_20260501_6a491b80
+status: enriched
 title: "Knowledge Delivery OS 快速体验指南 - 飞书云文档"
-type: "concept"
+type: concept
 updated_at: 2026-05-04
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 # Knowledge Delivery OS 快速体验指南

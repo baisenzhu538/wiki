@@ -1,33 +1,25 @@
 ---
-id: "find-old-do-small"
-type: "tool"
-status: "draft"
+id: find-old-do-small
+type: tool
+status: draft
 source_refs:
-  - "src_20260606_ef4877d0"
+  - src_20260606_ef4877d0
 component_of:
-  - "ai-landing-scene-selection"
+  - ai-landing-scene-selection
 related:
-  - "ai-landing-scene-selection"
+  - ai-landing-scene-selection
 query_triggers:
   - "怎么评估AI场景"
   - "AI场景选择检查清单"
   - "什么场景适合上AI"
-reviewed_by: ""
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
+reviewed_by: 
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-domain:
-author: "legacy"
-created_at: "2026-06-15"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+created_at: 2026-06-15
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # "找老的干小的"场景评估框架

@@ -1,22 +1,21 @@
 ---
-id: "case-ai-time-management-tiered-growth"
-component_of: ""
+id: case-ai-time-management-tiered-growth
+component_of: 
 confidence: 0.85
 created_at: 2026-06-10
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
-  - "ai"
+  - yitang
+  - ai
 estimated_tokens: 2000
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "AI时间管理"
   - "时间管理App"
   - "保4争6"
   - "AI时间管理案例"
   - "七级演进"
-related: []
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
@@ -26,14 +25,14 @@ source_refs:
 status: enriched
 title: "案例：AI时间管理App七级演进"
 trust_level: medium
-type: "case"
+type: case
 updated_at: 2026-06-10
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '机会预判', 'course_type': 'case', 'level': 'core'}
-tags:
-  - #scene/business-analysis
-  - #scene/ai
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "机会预判"
+  course_type: case
+  level: core
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case

@@ -1,14 +1,12 @@
 ---
 id: "skill-自我反馈修正笔记姿势"
 title: "技能：自我反馈修正笔记姿势"
-type: "skill"
-status: "draft"
-domain:
+type: skill
+status: draft
 source_person: "一堂"
-source_context: "src_20260609_6809033f"
+source_context: src_20260609_6809033f
 source_refs:
-  - "src_20260609_6809033f"
-wiki_refs:
+  - src_20260609_6809033f
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -16,16 +14,12 @@ definition_of_done:
 tools_required:
   - "笔记版本管理工具"
   - "优秀笔记案例库"
-prerequisite_skills:
-related:
 created_at: "2026-06-09T14:40:41+00:00"
 updated_at: "2026-06-09T14:40:41+00:00"
-pipeline:
-  - None
-author: "legacy"
-reviewed_by: "pending"
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：自我反馈修正笔记姿势

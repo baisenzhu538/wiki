@@ -1,19 +1,19 @@
 ---
 id: "dk-一堂-wishful-thinking-kills-startups"
 title: "暗知：'愿望思维'是创业最大的陷阱"
-type: "dk"
-status: "draft"
+type: dk
+status: draft
 domain:
-  - "yitang"
-  - "business-strategy"
+  - yitang
+  - business-strategy
 source_person: "一堂·Truman"
 source_context: "一堂-关键假设课/商业预判课/产品内核课程笔记"
 source_refs:
   - "00_inbox/一堂-关键假设课-truman-笔记.txt"
   - "00_inbox/一堂-商业预判课-truman-笔记.txt"
   - "00_inbox/一堂-产品内核迭代课-Truman-笔记.txt"
-created_at: "2026-06-08"
-updated_at: "2026-06-09"
+created_at: 2026-06-08
+updated_at: 2026-06-09
 related:
   - "concept-一堂-hypothesis-driven-business-methodology"
   - "case-一堂-无人餐厅-hypothesis-failure"
@@ -27,18 +27,13 @@ definition_of_done:
   - "走偏模式≥3种且有反例对照"
   - "外部攻击者不同范式且带紧迫感"
   - "Synthesis 中每个 wikilink 后配有≥30字关联说明"
-tags:
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 暗知："愿望思维"是创业最大的陷阱

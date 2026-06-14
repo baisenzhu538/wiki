@@ -1,21 +1,19 @@
 ---
-id: "yt-tool-equity-checklist"
+id: yt-tool-equity-checklist
 created_at: 2026-05-31
 domain:
-  - "yitang"
-status: "redirect"
+  - yitang
+status: redirect
 title: "股权设计检查清单"
-type: "tool"
-tags:
-  - None
+type: tool
 diagnostic_signals:
   - {'signal': '访问者是否被正确重定向到目标页面', 'framework_lens': '重定向 / 信息架构', 'follow_up_question': '目标页面 [[30_wiki/tools/yt-tool-equity-checklist]] 是否存在且最新？'}
   - {'signal': '本卡是否不再作为决策依据使用', 'framework_lens': '信息时效 / 单点真相', 'follow_up_question': '是否有人仍在引用本 redirect 卡的旧内容做决策？'}
-updated_at: "2026-06-13"
-author: "legacy"
-reviewed_by: "pending"
+updated_at: 2026-06-13
+author: legacy
+reviewed_by: pending
 confidence: 0.75
-trust_level: "medium"
+trust_level: medium
 ---
 
 > 本卡已迁移至 [[30_wiki/tools/yt-tool-equity-checklist]]。

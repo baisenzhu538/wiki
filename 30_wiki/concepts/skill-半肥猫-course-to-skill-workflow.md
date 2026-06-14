@@ -1,18 +1,18 @@
 ---
 id: "skill-半肥猫-course-to-skill-workflow"
 title: "课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化"
-type: "skill"
-status: "draft"
+type: skill
+status: draft
 domain:
-  - "ai-collaboration"
-  - "yitang"
+  - ai-collaboration
+  - yitang
 source_person: "半肥猫"
 source_context: "AI俱乐部·AI学习落地（2026-06分享）"
 source_refs:
   - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
-created_at: "2026-06-08"
-reviewed_by: "laowantong"
-updated_at: "2026-06-08"
+created_at: 2026-06-08
+reviewed_by: laowantong
+updated_at: 2026-06-08
 related:
   - "case-半肥猫-course-to-skill"
   - "skill-半肥猫-ai-research-validation"
@@ -26,18 +26,12 @@ definition_of_done:
   - "12维度评分标准已提供"
   - "测试模板（正向/反向/高风险）已完成"
   - "维护手册已设计"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化

@@ -1,16 +1,15 @@
 ---
-id: "yt-research-competitor-toolkit"
-component_of:
+id: yt-research-competitor-toolkit
 confidence: 0.85
 created_at: 2026-05-18
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2200
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-research-osl-framework"
-  - "yt-research-intelligence-map"
+  - yt-research-osl-framework
+  - yt-research-intelligence-map
 query_triggers:
   - "竞品分析"
   - "竞品拆解"
@@ -18,46 +17,35 @@ query_triggers:
   - "竞争格局"
   - "竞争象限"
 related:
-  - "yt-research-osl-framework"
-  - "yt-research-intelligence-map"
-  - "yt-research-hypothesis-test"
-  - "yt-research-expert-interview"
-  - "yt-research-industry-canvas"
-  - "yt-research-user-jtbd"
-  - "yt-decision-width-method"
-reviewed_by: ""
+  - yt-research-osl-framework
+  - yt-research-intelligence-map
+  - yt-research-hypothesis-test
+  - yt-research-expert-interview
+  - yt-research-industry-canvas
+  - yt-research-user-jtbd
+  - yt-decision-width-method
+reviewed_by: 
 source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
   - "00_inbox/ideas/一堂-创业必修-需求分析.md"
 status: reviewed
 title: "竞品拆解工具包：三层分类+内核边界+单元模型对标"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-competitor-toolkit', 'course_type': 'tool', 'level': 'intermediate'}
-tags:
-  - #research
-  - #scene/business-analysis
-  - #scene/learning-methodology
-  - #scene/note-taking
-  - #scene/product-design
-  - #scene/skill-engineering
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "调研方法论"
+  course_id: yt-research-competitor-toolkit
+  course_type: tool
+  level: intermediate
 pipeline:
-  - #boundary/requires-human-judgment
-  - #tool
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "能区分直接竞品、间接竞品和可借鉴产品三类"
-    framework_lens: "竞品不只是同赛道"
-    follow_up_question: "用户如果不选你，还会怎么解决这个需求？"
-  - signal: "分析时会识别竞品的内核（不可复制）与边界（可攻破）"
-    framework_lens: "内核-边界模型看懂竞品"
-    follow_up_question: "竞品的哪一部分是你最难复制的？哪一部分是它的软肋？"
-  - signal: "竞品分析会输出对自己产品的战略启示"
-    framework_lens: "竞品分析服务于自身决策"
-    follow_up_question: "基于竞品分析，你要调整自己的定位、功能还是商业模式？"
-updated_at: '2026-06-13'
+  - {'signal': '能区分直接竞品、间接竞品和可借鉴产品三类', 'framework_lens': '竞品不只是同赛道', 'follow_up_question': '用户如果不选你，还会怎么解决这个需求？'}
+  - {'signal': '分析时会识别竞品的内核（不可复制）与边界（可攻破）', 'framework_lens': '内核-边界模型看懂竞品', 'follow_up_question': '竞品的哪一部分是你最难复制的？哪一部分是它的软肋？'}
+  - {'signal': '竞品分析会输出对自己产品的战略启示', 'framework_lens': '竞品分析服务于自身决策', 'follow_up_question': '基于竞品分析，你要调整自己的定位、功能还是商业模式？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

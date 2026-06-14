@@ -1,10 +1,10 @@
 ---
 id: "skill-半肥猫-设计Skill的评分规则与风险边界"
 title: "技能：设计 Skill 的评分规则与风险边界"
-type: "skill"
-status: "draft"
+type: skill
+status: draft
 domain:
-  - "ai-collaboration"
+  - ai-collaboration
 source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
@@ -20,28 +20,17 @@ related:
   - "skill-半肥猫-用Skill做对比测试验证效果"
   - "case-半肥猫-skill-ab-test"
   - "dk-半肥猫-skill-rejection-value"
-created_at: "2026-06-07"
-reviewed_by: "laowantong"
-updated_at: "2026-06-07"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+created_at: 2026-06-07
+reviewed_by: laowantong
+updated_at: 2026-06-07
 pipeline:
-  - None
-  - None
-  - None
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "confidence-verified-by-test"
-author: "legacy"
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+  - confidence-verified-by-test
+author: legacy
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：设计 Skill 的评分规则与风险边界

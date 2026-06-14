@@ -1,12 +1,12 @@
 ---
 id: "skill-一堂-business-prediction-15-char"
 title: "技能：商业预判15字诀"
-type: "skill"
-status: "draft"
+type: skill
+status: draft
 domain:
-  - "product"
-  - "yitang"
-source_person: "Truman"
+  - product
+  - yitang
+source_person: Truman
 source_context: "一堂商业预判课"
 source_refs:
   - "00_inbox/一堂-商业预判课-Truman-口述.txt"
@@ -24,20 +24,15 @@ related:
 wiki_refs:
   - "concept-一堂-business-prediction"
   - "skill-一堂-spectrum-positioning"
-created_at: "2026-06-10"
-updated_at: "2026-06-10"
-tags:
-  - None
-  - None
-  - None
-  - None
+created_at: 2026-06-10
+updated_at: 2026-06-10
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：商业预判15字诀

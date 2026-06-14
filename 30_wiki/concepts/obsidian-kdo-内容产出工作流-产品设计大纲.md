@@ -2,29 +2,20 @@
 id: "obsidian-kdo-内容产出工作流-产品设计大纲"
 created_at: 2026-05-01
 domain:
-  - "ai-saas"
+  - ai-saas
 source_refs:
-  - "src_20260501_58b6edef"
-status: "superseded"
-superseded_by: "30_wiki/concepts/kdo_product_design_agent_final.md"
+  - src_20260501_58b6edef
+status: superseded
+superseded_by: 30_wiki/concepts/kdo_product_design_agent_final.md
 title: "Obsidian + KDO 内容产出工作流 — 产品设计大纲"
-type: "concept"
+type: concept
 updated_at: 2026-05-03
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.75
-trust_level: "medium-low"
+trust_level: medium-low
 ---
 
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲

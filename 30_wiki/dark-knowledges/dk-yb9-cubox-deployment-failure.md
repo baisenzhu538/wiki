@@ -1,13 +1,13 @@
 ---
-id: "dk-yb9-cubox-deployment-failure"
+id: dk-yb9-cubox-deployment-failure
 title: "Cubox及AI协作工具的团队部署失败模式"
-type: "dark-knowledge"
-dark_knowledge_type: "failure"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: failure
+status: draft
 domain:
-  - "design"
-  - "management"
-  - "ai-collaboration"
+  - design
+  - management
+  - ai-collaboration
 source_person: "月白"
 source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
@@ -15,22 +15,16 @@ source_refs:
 created_at: 2026-06-04
 updated_at: 2026-06-11
 related:
-  - "yt-management-toolkit-overview"
+  - yt-management-toolkit-overview
   - "concept-纪浩-ai-collaboration-methodology"
-contradicts: ""
-tags:
-  - None
-  - None
-  - None
-  - None
+contradicts: 
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # Cubox及AI协作工具的团队部署失败模式

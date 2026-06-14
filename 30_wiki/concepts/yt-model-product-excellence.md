@@ -1,14 +1,14 @@
 ---
-id: "yt-model-product-excellence"
-component_of: ""
+id: yt-model-product-excellence
+component_of: 
 confidence: 0.85
 created_at: 2026-05-11
-difficulty: "advanced"
+difficulty: advanced
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2473
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "与泛产品审美工具箱的对应"
   - "乔布斯的品味公式"
@@ -18,38 +18,26 @@ query_triggers:
   - "核心洞见"
   - "顶级产品追求"
   - "顶级产品追求：品味、最佳实践与乔布斯的审美哲学"
-related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/顶级产品追求的方向-乔布斯.png"
-status: "enriched"
+status: enriched
 title: "顶级产品追求：品味、最佳实践与乔布斯的审美哲学"
-type: "framework"
+type: framework
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "个人修炼"
-  course_type: "framework"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: framework
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '用户只谈乔布斯品味，但不看最佳实践', 'framework_lens': '空谈品味', 'follow_up_question': '你最近一个月看过多少个不同领域的最佳实践案例？如果<10个，你在空谈'}
   - {'signal': '用户认为品味是天赋，不训练', 'framework_lens': '天赋论', 'follow_up_question': '你能说出品味=曝光×迁移中的两个变量分别怎么提升吗？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 # 顶级产品追求：品味、最佳实践与乔布斯的审美哲学

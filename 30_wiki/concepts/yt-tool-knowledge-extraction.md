@@ -1,16 +1,16 @@
 ---
-id: "yt-tool-knowledge-extraction"
+id: yt-tool-knowledge-extraction
 component_of:
-  - "yt-management-toolkit-overview"
+  - yt-management-toolkit-overview
 confidence: 0.8
 created_at: 2026-05-19
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3400
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-management-toolkit-overview"
+  - yt-management-toolkit-overview
 query_triggers:
   - "团队知识萃取"
   - "隐性知识转化"
@@ -23,52 +23,36 @@ query_triggers:
   - "复盘知识化"
   - "新人FAQ沉淀"
 related:
-  - "yt-management-team-knowledge"
-  - "yt-management-project-management"
-  - "yt-management-onboarding"
-  - "yt-personal-knowledge-extraction"
-  - "yt-personal-knowledge-management"
-  - "master-knowledge-compound"
-  - "yt-decision-review"
-  - "yt-concept-weapon-arsenal"
+  - yt-management-team-knowledge
+  - yt-management-project-management
+  - yt-management-onboarding
+  - yt-personal-knowledge-extraction
+  - yt-personal-knowledge-management
+  - master-knowledge-compound
+  - yt-decision-review
+  - yt-concept-weapon-arsenal
 source_refs:
-  - "30_wiki/concepts/yt-management-team-knowledge.md"
+  - 30_wiki/concepts/yt-management-team-knowledge.md
 status: draft
 title: "团队知识萃取器"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'management', 'module': '管团队', 'course_type': 'tool', 'level': 'core'}
-tags:
-  - #knowledge-management
-  - #management
-  - #scene/business-analysis
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering
-  - #yitang
+yitang:
+  map: management
+  module: "管团队"
+  course_type: tool
+  level: core
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - #tool
   - confidence-draft
   - confidence-source-cited
   - confidence-verified-by-case
 diagnostic_signals:
-  - signal: "萃取前是否用 Cynefin 框架区分知识域（清晰/繁杂/复杂）"
-    framework_lens: "域分类 / 反模式"
-    follow_up_question: "复杂域知识是否被流程化萃取并标注为最佳实践？"
-  - signal: "每篇萃取文档是否标注预计失效条件与使用场景"
-    framework_lens: "时效性 / 边界诚实"
-    follow_up_question: "团队是否把历史案例当作操作指南直接套用？"
-  - signal: "萃取产出是否有使用率/ROI 数据反馈"
-    framework_lens: "学习迁移 / 效果验证"
-    follow_up_question: "知识库 50+ 文档中多少比例被实际使用？"
-  - signal: "专家分享意愿与萃取者提问能力是否被前置评估"
-    framework_lens: "激励机制 / 人力因素"
-    follow_up_question: "专家是否因担心价值被替代而隐藏关键判断？"
-updated_at: '2026-06-13'
+  - {'signal': '萃取前是否用 Cynefin 框架区分知识域（清晰/繁杂/复杂）', 'framework_lens': '域分类 / 反模式', 'follow_up_question': '复杂域知识是否被流程化萃取并标注为最佳实践？'}
+  - {'signal': '每篇萃取文档是否标注预计失效条件与使用场景', 'framework_lens': '时效性 / 边界诚实', 'follow_up_question': '团队是否把历史案例当作操作指南直接套用？'}
+  - {'signal': '萃取产出是否有使用率/ROI 数据反馈', 'framework_lens': '学习迁移 / 效果验证', 'follow_up_question': '知识库 50+ 文档中多少比例被实际使用？'}
+  - {'signal': '专家分享意愿与萃取者提问能力是否被前置评估', 'framework_lens': '激励机制 / 人力因素', 'follow_up_question': '专家是否因担心价值被替代而隐藏关键判断？'}
+updated_at: 2026-06-13
 author: legacy
 reviewed_by: pending
 ---

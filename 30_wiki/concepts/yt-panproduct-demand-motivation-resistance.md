@@ -1,16 +1,16 @@
 ---
-id: "yt-panproduct-demand-motivation-resistance"
+id: yt-panproduct-demand-motivation-resistance
 component_of:
-  - "yt-model-pan-product-demand-toolkit"
+  - yt-model-pan-product-demand-toolkit
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2400
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-composite-pan-product-methodology"
+  - yt-composite-pan-product-methodology
 query_triggers:
   - "动力阻力"
   - "泛产品设计"
@@ -21,41 +21,31 @@ query_triggers:
   - "需求分析"
   - "需求洞察"
 related:
-  - "yt-model-conversion-optimization"
-  - "yt-panproduct-demand-peak-end-rule"
-  - "yt-panproduct-demand-surprise-formula"
+  - yt-model-conversion-optimization
+  - yt-panproduct-demand-peak-end-rule
+  - yt-panproduct-demand-surprise-formula
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-动力阻力.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·用户卡片：动力阻力"
-type: "tool"
+type: tool
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "泛产品设计"
-  course_type: "card"
-  level: "intermediate"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: card
+  level: intermediate
 pipeline:
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '能同时写出用户转化的动力、阻力和触点，而不是只优化其中一项', 'framework_lens': '转化率 = 动力 − 阻力 + 触点设计', 'follow_up_question': '如果只提升动力而不减少阻力，转化率上限在哪里？'}
   - {'signal': '对同一用户旅程中的多个触点分别标注动力和阻力大小', 'framework_lens': '转化是旅程中的连续博弈', 'follow_up_question': '哪个触点的阻力最大？砍掉它是否比优化其他触点更有效？'}
   - {'signal': '干预方案上线后会分别测量动力、阻力、触点三者的变化', 'framework_lens': '诊断性指标优于结果性指标', 'follow_up_question': '转化率涨了，但你知道是动力提升还是阻力下降导致的吗？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium
 ---
 
 # 动力阻力：理解转化率的本质

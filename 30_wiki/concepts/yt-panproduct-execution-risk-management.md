@@ -1,18 +1,18 @@
 ---
-id: "yt-panproduct-execution-risk-management"
+id: yt-panproduct-execution-risk-management
 component_of:
-  - "yt-model-pan-product-execution-toolkit"
+  - yt-model-pan-product-execution-toolkit
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1158
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-composite-pan-product-methodology"
-  - "yt-model-pan-product-demand-toolkit"
-  - "yt-model-pan-product-aesthetic-toolkit"
+  - yt-composite-pan-product-methodology
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
 query_triggers:
   - "产品落地"
   - "产品迭代"
@@ -23,43 +23,32 @@ query_triggers:
   - "落地执行"
   - "风险管理"
 related:
-  - "yt-panproduct-execution-milestone-breakdown"
-  - "yt-panproduct-execution-hypothesis-decomposition"
-  - "yt-model-deep-review-iceberg"
-  - "master-antifragile-checklist"
+  - yt-panproduct-execution-milestone-breakdown
+  - yt-panproduct-execution-hypothesis-decomposition
+  - yt-model-deep-review-iceberg
+  - master-antifragile-checklist
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-风险管理.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：风险管理"
-type: "tool"
+type: tool
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "泛产品设计"
-  course_type: "card"
-  level: "intermediate"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: card
+  level: intermediate
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '风险清单在项目启动时建立，而不是等问题发生后再补', 'framework_lens': '风险需要前置识别', 'follow_up_question': '这个项目最大的三个风险是什么？你是什么时候识别出来的？'}
   - {'signal': '每个风险都有概率/影响评估和明确负责人', 'framework_lens': '可管理的风险必须可归属', 'follow_up_question': '如果某个风险发生，谁会第一个知道？谁负责应对？'}
   - {'signal': '对高影响风险有预案和触发条件，而不是只停留在监控', 'framework_lens': '风险管理要降低不确定性', 'follow_up_question': '针对最高影响的风险，你的 Plan B 是什么？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium
 ---
 
 # 风险管理：把风险从意外变成确定性

@@ -1,17 +1,14 @@
 ---
 id: "skill-半肥猫-飞书多维表格-自建机器人做团队数据协同"
 title: "技能：飞书多维表格 + 自建机器人做团队数据协同"
-type: "skill"
-status: "draft"
+type: skill
+status: draft
 domain:
-  - "ai-collaboration"
+  - ai-collaboration
 source_person: "半肥猫"
 source_context: "AI俱学乐部-AI学习落地 分享"
 source_refs:
   - "00_inbox/半肥猫-AI学习落地-口述.md"
-tags:
-  - None
-  - None
 tools_required:
   - "飞书多维表格"
   - "飞书开发平台"
@@ -21,12 +18,12 @@ related:
   - "concept-半肥猫-ai-learning-toolification-methodology"
   - "skill-半肥猫-用YAML格式做知识库原子化标签"
   - "dk-半肥猫-atomic-no-standard"
-created_at: "2026-06-07"
-reviewed_by: "laowantong"
-updated_at: "2026-06-07"
-author: "legacy"
+created_at: 2026-06-07
+reviewed_by: laowantong
+updated_at: 2026-06-07
+author: legacy
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：飞书多维表格 + 自建机器人做团队数据协同

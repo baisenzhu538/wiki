@@ -2,29 +2,19 @@
 id: "ec工业化规范手册-v2.8.0"
 created_at: 2026-05-03
 domain:
-  - "healthcare"
+  - healthcare
 review_date: 2026-05-03
-reviewed_by: "Claude"
+reviewed_by: Claude
 source_refs:
-  - "src_20260503_feab72b2"
-status: "enriched"
+  - src_20260503_feab72b2
+status: enriched
 title: "EC工业化规范手册 v2.8.0"
-trust_level: "high"
-type: "concept"
+trust_level: high
+type: concept
 updated_at: 2026-05-03
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-source-cited"
-author: "legacy"
+  - confidence-source-cited
+author: legacy
 confidence: 0.8
 ---
 

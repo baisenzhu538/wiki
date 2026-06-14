@@ -2,27 +2,19 @@
 id: "ocr-一堂y模型steps策略集"
 created_at: 2026-05-21
 domain:
-  - "yitang"
+  - yitang
 source_refs:
-  - "src_20260522_0bb1cb6e"
-status: "enriched"
+  - src_20260522_0bb1cb6e
+status: enriched
 title: "OCR: 一堂Y模型steps策略集"
-type: "concept"
+type: concept
 updated_at: 2026-05-22
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 # OCR: 一堂Y模型steps策略集

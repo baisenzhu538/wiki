@@ -1,14 +1,14 @@
 ---
-id: "yt-research-intelligence-map"
-component_of: ""
+id: yt-research-intelligence-map
+component_of: 
 confidence: 0.85
 created_at: 2026-05-18
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2800
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "情报获取"
   - "调研渠道"
@@ -17,46 +17,35 @@ query_triggers:
   - "行业调研"
   - "情报地图"
 related:
-  - "yt-research-osl-framework"
-  - "yt-research-competitor-toolkit"
-  - "yt-research-expert-interview"
-  - "yt-research-hypothesis-test"
-  - "yt-research-industry-canvas"
-  - "yt-research-user-jtbd"
-  - "yt-research-mindset"
-reviewed_by: ""
+  - yt-research-osl-framework
+  - yt-research-competitor-toolkit
+  - yt-research-expert-interview
+  - yt-research-hypothesis-test
+  - yt-research-industry-canvas
+  - yt-research-user-jtbd
+  - yt-research-mindset
+reviewed_by: 
 source_refs:
   - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
 status: reviewed
 title: "情报获取全景地图：13+渠道穷尽手段"
 trust_level: medium
-type: "framework"
+type: framework
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-intelligence-map', 'course_type': 'framework', 'level': 'foundational'}
-tags:
-  - #research
-  - #scene/business-analysis
-  - #scene/hardware-debugging
-  - #scene/note-taking/checklist-method
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering/publish-deploy
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "调研方法论"
+  course_id: yt-research-intelligence-map
+  course_type: framework
+  level: foundational
 pipeline:
-  - #boundary/not-for-medical
-  - #framework
   - confidence-source-cited
   - confidence-verified-by-case
 diagnostic_signals:
-  - signal: "面对信息缺口时，能主动调用地图上的多个渠道"
-    framework_lens: "多渠道三角验证"
-    follow_up_question: "这个问题你已经尝试了几个渠道？"
-  - signal: "会根据信息价值决定投入力度，而不是所有问题都穷尽"
-    framework_lens: "调研投入与决策价值匹配"
-    follow_up_question: "这个信息值多少钱？你愿意花多少精力去找？"
-  - signal: "获取的信息会标注来源和可信度"
-    framework_lens: "情报质量需要溯源"
-    follow_up_question: "这条信息的原始来源是什么？可信度如何？"
-updated_at: '2026-06-13'
+  - {'signal': '面对信息缺口时，能主动调用地图上的多个渠道', 'framework_lens': '多渠道三角验证', 'follow_up_question': '这个问题你已经尝试了几个渠道？'}
+  - {'signal': '会根据信息价值决定投入力度，而不是所有问题都穷尽', 'framework_lens': '调研投入与决策价值匹配', 'follow_up_question': '这个信息值多少钱？你愿意花多少精力去找？'}
+  - {'signal': '获取的信息会标注来源和可信度', 'framework_lens': '情报质量需要溯源', 'follow_up_question': '这条信息的原始来源是什么？可信度如何？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

@@ -5,23 +5,13 @@ domain:
   - "['ai-saas']"
 review_date: 2026-05-04
 reviewed_by: "黄药师"
-source_refs: ""
-status: "enriched"
+source_refs: 
+status: enriched
 title: "Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl"
-trust_level: "high"
-type: "concept"
+trust_level: high
+type: concept
 updated_at: 2026-05-04
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-pipeline:
-  - None
-author: "legacy"
+author: legacy
 confidence: 0.75
 ---
 

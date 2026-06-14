@@ -1,14 +1,14 @@
 ---
-id: "yt-entrepreneur-truth-seeking"
-component_of: ""
+id: yt-entrepreneur-truth-seeking
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1817
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "实事求是"
   - "创业求真"
@@ -20,7 +20,6 @@ query_triggers:
   - "认知偏差纠正"
   - "事实与愿望区分"
   - "数据逻辑决策"
-related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -28,26 +27,21 @@ source_refs:
 status: enriched
 title: "实事求是"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '实事求是', 'course_id': 'yt-entrepreneur-truth-seeking', 'course_type': 'method', 'level': 'foundational'}
-tags:
-  - #scene/business-analysis
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/live-field
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "实事求是"
+  course_id: yt-entrepreneur-truth-seeking
+  course_type: method
+  level: foundational
 pipeline:
-  - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
 diagnostic_signals:
-  - signal: "用户说要求真，但只找支持自己的数据"
-    framework_lens: "自我欺骗"
-    follow_up_question: "你最近一次主动搜索反面证据是什么时候？如果超过一周，求真只是口号"
-  - signal: "用户为了反对而反对，没有建设性"
-    framework_lens: "红队滥用"
-    follow_up_question: "你的反对是为了更接近真相，还是为了赢？"
-updated_at: '2026-06-13'
+  - {'signal': '用户说要求真，但只找支持自己的数据', 'framework_lens': '自我欺骗', 'follow_up_question': '你最近一次主动搜索反面证据是什么时候？如果超过一周，求真只是口号'}
+  - {'signal': '用户为了反对而反对，没有建设性', 'framework_lens': '红队滥用', 'follow_up_question': '你的反对是为了更接近真相，还是为了赢？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

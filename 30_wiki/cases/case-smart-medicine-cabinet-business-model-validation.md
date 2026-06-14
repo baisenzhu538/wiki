@@ -1,33 +1,28 @@
 ---
 id: case-smart-medicine-cabinet-business-model-validation
-title: 智能药柜推广项目：录音商业模式命题交叉验证
+title: "智能药柜推广项目：录音商业模式命题交叉验证"
 type: case
 status: enriched
 domain:
-- healthcare
-- business-strategy
+  - healthcare
+  - business-strategy
 source_refs:
-- src_20260613_732d251f
-tags:
-- #smart-medicine-cabinet
-- #healthcare
-- #case
-- #business-model
+  - src_20260613_732d251f
 created_at: 2026-06-15
 updated_at: 2026-06-15
-author: 王语嫣
-reviewed_by: 老顽童
+author: "王语嫣"
+reviewed_by: "老顽童"
 review_date: 2026-06-15
 confidence: 0.6
 trust_level: low
 related:
-- [[smart-medicine-cabinet-financial-model]]
-- [[smart-medicine-cabinet-fraud-detection]]
-- [[smart-medicine-cabinet-clinic-risk-observation]]
-- [[smart-medicine-cabinet-national-policy-redlines]]
-- [[smart-medicine-cabinet-regional-policy-map]]
-source_person: 王语嫣
-source_context: 听脑录音 1241665/1883124/2431721/2447560 交叉验证
+  - [['smart-medicine-cabinet-financial-model']]
+  - [['smart-medicine-cabinet-fraud-detection']]
+  - [['smart-medicine-cabinet-clinic-risk-observation']]
+  - [['smart-medicine-cabinet-national-policy-redlines']]
+  - [['smart-medicine-cabinet-regional-policy-map']]
+source_person: "王语嫣"
+source_context: "听脑录音 1241665/1883124/2431721/2447560 交叉验证"
 ---
 
 # 智能药柜推广项目：录音商业模式命题交叉验证

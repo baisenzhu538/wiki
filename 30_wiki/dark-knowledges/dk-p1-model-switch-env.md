@@ -1,37 +1,30 @@
 ---
-id: "dk-p1-model-switch-env"
+id: dk-p1-model-switch-env
 title: "P-1：切模型改环境变量无效——Claude Code 走全局设置"
-type: "dark-knowledge"
-dark_knowledge_type: "failure"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: failure
+status: draft
 domain:
-  - "master"
-source_person: "system"
+  - master
+source_person: system
 source_context: "pitfalls.md P-1"
 source_refs:
-  - ".agent/pitfalls.md#P-1"
+  - .agent/pitfalls.md#P-1
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
-  - "dk-f4-wrong-workdir"
-  - "dk-p3-auth-cache"
+  - dk-f4-wrong-workdir
+  - dk-p3-auth-cache
 contradicts:
-  - "master-systems-thinking"
-  - "master-first-principles"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
+  - master-systems-thinking
+  - master-first-principles
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # P-1：切模型改环境变量无效——Claude Code 走全局设置

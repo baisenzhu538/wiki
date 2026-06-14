@@ -1,6 +1,6 @@
 ---
 id: yt-decision-depth-ladder
-title: 深度阶梯工具：L1-L4停车场模型 + 三点预测法
+title: "深度阶梯工具：L1-L4停车场模型 + 三点预测法"
 type: tool
 status: enriched
 domain:
@@ -20,59 +20,47 @@ related:
   - yt-decision-height-toolkit
   - yt-decision-ai-partner
 query_triggers:
-  - ROI深度
-  - 停车场模型
-  - 单元模型
-  - 转化率漏斗
-  - 三点预测
-  - 决策层级
-  - L1定性
-  - L2定量
-  - L3公式
-  - L4财务ROI
-tags:
-  - #yitang
-  - #decision-making
-  - #tool
-  - #depth
-  - #unit-economics
+  - "ROI深度"
+  - "停车场模型"
+  - "单元模型"
+  - "转化率漏斗"
+  - "三点预测"
+  - "决策层级"
+  - "L1定性"
+  - "L2定量"
+  - "L3公式"
+  - "L4财务ROI"
 trust_level: medium
 yitang:
   map: entrepreneur
-  module: 科学决策
+  module: "科学决策"
   course_id: yt-decision-depth-ladder
   course_type: tool
   level: intermediate
 source_refs:
-  - 00_inbox/科学决策/一堂-科学决策-ROI决策深度实操课口述03.txt
-  - 00_inbox/科学决策/一堂-科学决策-深度-L1优先级定性.png
-  - 00_inbox/科学决策/一堂-科学决策-深度-L2部分定量.png
-  - 00_inbox/科学决策/一堂-科学决策-深度-L3定量公式.png
-  - 00_inbox/科学决策/一堂-科学决策-深度-L4严格财务公式.png
-  - 00_inbox/科学决策/一堂-科学决策-深度-案例01.png
-  - 00_inbox/科学决策/一堂-科学决策-深度-案例02.png
-  - 00_inbox/科学决策/一堂-科学决策-深度-案例03.png
-  - 00_inbox/科学决策/一堂-科学决策-深度-案例04.png
-  - 00_inbox/科学决策/一堂-科学决策-深度-案例05.png
-  - 00_inbox/科学决策/一堂-科学决策-深度-案例06.png
-  - 00_inbox/科学决策/一堂-科学决策-深度-L4-案例01.png
-  - 00_inbox/科学决策/一堂-科学决策-深度-你的业务是一次抽样实验.png
-  - 00_inbox/科学决策/一堂-科学决策-深度-决策经验值.png
+  - "00_inbox/科学决策/一堂-科学决策-ROI决策深度实操课口述03.txt"
+  - "00_inbox/科学决策/一堂-科学决策-深度-L1优先级定性.png"
+  - "00_inbox/科学决策/一堂-科学决策-深度-L2部分定量.png"
+  - "00_inbox/科学决策/一堂-科学决策-深度-L3定量公式.png"
+  - "00_inbox/科学决策/一堂-科学决策-深度-L4严格财务公式.png"
+  - "00_inbox/科学决策/一堂-科学决策-深度-案例01.png"
+  - "00_inbox/科学决策/一堂-科学决策-深度-案例02.png"
+  - "00_inbox/科学决策/一堂-科学决策-深度-案例03.png"
+  - "00_inbox/科学决策/一堂-科学决策-深度-案例04.png"
+  - "00_inbox/科学决策/一堂-科学决策-深度-案例05.png"
+  - "00_inbox/科学决策/一堂-科学决策-深度-案例06.png"
+  - "00_inbox/科学决策/一堂-科学决策-深度-L4-案例01.png"
+  - "00_inbox/科学决策/一堂-科学决策-深度-你的业务是一次抽样实验.png"
+  - "00_inbox/科学决策/一堂-科学决策-深度-决策经验值.png"
 pipeline:
-  - #boundary/requires-human-judgment
-  - #tool
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "决策者说'我最近做了一个深度分析，数据套了十几行公式，但最后不知道该怎么选'"
-    framework_lens: "深度幻觉——量化的深度不等于决策的质量"
-    follow_up_question: "你的数据全部算清楚后，哪些变量对最终结果的影响最大？如果去掉精度最低的那两个变量，你的结论会变吗？"
-  - signal: "创始人在周会上说'等我再算一版更精确的数据就拍板'，但已经说了两周"
-    framework_lens: "决策延迟——L2已经足够支撑行动，继续算L3是行动拖延"
-    follow_up_question: "你现在算的这些数据，最乐观和最悲观的假设下，决策结论会改变吗？如果不会，L2已经够了"
-updated_at: '2026-06-13'
+  - {'signal': "决策者说'我最近做了一个深度分析，数据套了十几行公式，但最后不知道该怎么选'", 'framework_lens': '深度幻觉——量化的深度不等于决策的质量', 'follow_up_question': '你的数据全部算清楚后，哪些变量对最终结果的影响最大？如果去掉精度最低的那两个变量，你的结论会变吗？'}
+  - {'signal': "创始人在周会上说'等我再算一版更精确的数据就拍板'，但已经说了两周", 'framework_lens': '决策延迟——L2已经足够支撑行动，继续算L3是行动拖延', 'follow_up_question': '你现在算的这些数据，最乐观和最悲观的假设下，决策结论会改变吗？如果不会，L2已经够了'}
+updated_at: 2026-06-13
 author: legacy
 reviewed_by: pending
-created_at: "2026-06-15"
+created_at: 2026-06-15
 ---
 # 深度阶梯工具：L1-L4停车场模型 + 三点预测法
    220|

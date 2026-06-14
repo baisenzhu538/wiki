@@ -1,15 +1,15 @@
 ---
-id: "yt-personal-pan-product-02"
+id: yt-personal-pan-product-02
 component_of:
-  - "yt-composite-pan-product-methodology"
+  - yt-composite-pan-product-methodology
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: "advanced"
+difficulty: advanced
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3400
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "个人修炼"
   - "产品思维"
@@ -18,47 +18,33 @@ query_triggers:
   - "泛产品设计落地篇"
   - "泛产品设计落地篇：无限进步与持续打磨"
 related:
-  - "yt-model-pan-product-execution-toolkit"
-  - "yt-personal-pan-product-practice"
-  - "yt-personal-pan-product-aesthetics"
-  - "yt-model-y-organization"
-  - "yt-concept-weapon-arsenal"
-  - "yt-model-personal-pitch-toolkit"
+  - yt-model-pan-product-execution-toolkit
+  - yt-personal-pan-product-practice
+  - yt-personal-pan-product-aesthetics
+  - yt-model-y-organization
+  - yt-concept-weapon-arsenal
+  - yt-model-personal-pitch-toolkit
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计02口述.md"
-status: "enriched"
+status: enriched
 title: "泛产品设计落地篇：无限进步与持续打磨"
-type: "concept"
+type: concept
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "个人修炼"
-  course_type: "required"
-  level: "advanced"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: required
+  level: advanced
 pipeline:
-  - None
-  - None
-  - None
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '把产品迭代看作从60分到85分再到90分的持续过程，而不是一次交付', 'framework_lens': '无限进步 = 持续打磨', 'follow_up_question': '你这个月的产品/作品比上个月好在哪？'}
   - {'signal': '每次迭代都有明确的反馈来源和改进标准', 'framework_lens': '打磨需要方向', 'follow_up_question': '这一轮的改动是基于用户反馈、数据还是自我审美判断？'}
   - {'signal': '能以长期心态（如10年）看待能力提升，而不是追求速成', 'framework_lens': '真本事需要时间复利', 'follow_up_question': '如果这件事要做10年，你现在的节奏是否可持续？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium
 ---
 
 # 泛产品设计落地篇：无限进步与持续打磨

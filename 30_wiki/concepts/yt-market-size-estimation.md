@@ -1,14 +1,14 @@
 ---
-id: "yt-market-size-estimation"
-component_of: ""
+id: yt-market-size-estimation
+component_of: 
 confidence: 0.9
 created_at: 2026-06-10
-difficulty: "beginner"
+difficulty: beginner
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1800
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "市场规模"
   - "市场估算"
@@ -17,7 +17,6 @@ query_triggers:
   - "自底向上"
   - "对标估算"
   - "第三方数据"
-related: []
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
@@ -26,23 +25,20 @@ source_refs:
 status: reviewed
 title: "市场规模估算四种方法"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '需求', 'course_id': 'yt-market-size-estimation', 'course_type': 'tool', 'level': 'core'}
-tags:
-  - #scene/business-analysis
-  - #scene/entrepreneurship
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "需求"
+  course_id: yt-market-size-estimation
+  course_type: tool
+  level: core
 pipeline:
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户只用一种方法估算市场规模"
-    framework_lens: "缺乏交叉验证"
-    follow_up_question: "你用了几种方法估算？如果只有一种，数字可信度低"
-  - signal: "用户把TAM当可获取市场"
-    framework_lens: "混淆TAM/SAM/SOM"
-    follow_up_question: "TAM、SAM、SOM分别是多少？如果只有一个数字，概念混淆"
-updated_at: '2026-06-13'
+  - {'signal': '用户只用一种方法估算市场规模', 'framework_lens': '缺乏交叉验证', 'follow_up_question': '你用了几种方法估算？如果只有一种，数字可信度低'}
+  - {'signal': '用户把TAM当可获取市场', 'framework_lens': '混淆TAM/SAM/SOM', 'follow_up_question': 'TAM、SAM、SOM分别是多少？如果只有一个数字，概念混淆'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

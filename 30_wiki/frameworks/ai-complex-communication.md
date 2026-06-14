@@ -1,30 +1,25 @@
 ---
-id: "ai-complex-communication"
+id: ai-complex-communication
 title: "AI 辅助复杂职场沟通：角色扮演、攻防演练与受众适配"
-type: "framework"
-status: "enriched"
+type: framework
+status: enriched
 confidence: 0.85
-trust_level: "medium-high"
+trust_level: medium-high
 domain:
-  - "ai"
-  - "ai-collaboration"
-  - "management"
+  - ai
+  - ai-collaboration
+  - management
 source_refs:
-  - "src_20260614_d79b42d1"
+  - src_20260614_d79b42d1
 related:
-  - "industrial-ai-ops-cases"
-  - "yt-entrepreneur-product-core"
-  - "ai-agent-workflow"
-tags:
-  - #ai-communication
-  - #workplace-communication
-  - #stakeholder-management
-  - #ai-roleplay
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
+  - industrial-ai-ops-cases
+  - yt-entrepreneur-product-core
+  - ai-agent-workflow
+created_at: 2026-06-14
+updated_at: 2026-06-14
 author: "王语嫣"
 reviewed_by: "老顽童"
-review_date: "2026-06-14"
+review_date: 2026-06-14
 ---
 # AI 辅助复杂职场沟通：角色扮演、攻防演练与受众适配
 

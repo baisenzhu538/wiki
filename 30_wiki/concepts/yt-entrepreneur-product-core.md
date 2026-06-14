@@ -1,16 +1,16 @@
 ---
-id: "yt-entrepreneur-product-core"
-component_of: ""
+id: yt-entrepreneur-product-core
+component_of: 
 confidence: 0.85
 created_at: 2026-05-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 4800
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-entrepreneur-five-step-method"
-  - "yt-entrepreneur-key-hypotheses"
+  - yt-entrepreneur-five-step-method
+  - yt-entrepreneur-key-hypotheses
 query_triggers:
   - "产品内核"
   - "产品定义"
@@ -22,9 +22,8 @@ query_triggers:
   - "过早细化"
   - "做而不信"
   - "用户视角"
-related: []
 review_date: 2026-06-06
-reviewed_by: ""
+reviewed_by: 
 source_refs:
   - "00_inbox/一堂-产品内核迭代课-Truman-口述.txt"
   - "00_inbox/一堂-产品内核验证课-Truman-口述.txt"
@@ -35,29 +34,20 @@ source_refs:
 status: enriched
 title: "产品内核定义、迭代与验证方法论"
 trust_level: medium
-type: "tool"
+type: tool
 version: 2
-yitang: {'map': 'entrepreneur', 'module': '产品内核', 'course_id': 'yt-entrepreneur-product-core', 'course_type': 'method', 'level': 'foundational'}
-tags:
-  - #scene/business-analysis/conversion-rate
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/level-diagnosis
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering/manifest-design
-  - #yitang
-  - #产品内核
-  - #创业
+yitang:
+  map: entrepreneur
+  module: "产品内核"
+  course_id: yt-entrepreneur-product-core
+  course_type: method
+  level: foundational
 pipeline:
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户把产品内核越做越大，失去最小解决方案"
-    framework_lens: "过早细化/内核膨胀"
-    follow_up_question: "如果砍掉一半功能，还能解决用户最核心的那个问题吗？如果不能，内核过大了"
-  - signal: "用户有产品功能但没验证关键转化率"
-    framework_lens: "内核验证缺失"
-    follow_up_question: "你的产品内核对应的关键转化率指标是什么？现在数字是多少？"
-updated_at: '2026-06-13'
+  - {'signal': '用户把产品内核越做越大，失去最小解决方案', 'framework_lens': '过早细化/内核膨胀', 'follow_up_question': '如果砍掉一半功能，还能解决用户最核心的那个问题吗？如果不能，内核过大了'}
+  - {'signal': '用户有产品功能但没验证关键转化率', 'framework_lens': '内核验证缺失', 'follow_up_question': '你的产品内核对应的关键转化率指标是什么？现在数字是多少？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

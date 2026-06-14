@@ -1,14 +1,14 @@
 ---
-id: "yt-barrier-analysis-cheat-sheet"
-component_of: ""
+id: yt-barrier-analysis-cheat-sheet
+component_of: 
 confidence: 0.9
 created_at: 2026-06-10
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2200
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "壁垒分析"
   - "增长壁垒"
@@ -20,7 +20,6 @@ query_triggers:
   - "网络效应"
   - "转化成本"
   - "成本优势"
-related: []
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
@@ -31,23 +30,20 @@ source_refs:
 status: reviewed
 title: "壁垒分析完整cheatsheet"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '壁垒', 'course_id': 'yt-barrier-analysis-cheat-sheet', 'course_type': 'tool', 'level': 'core'}
-tags:
-  - #scene/strategy
-  - #scene/business-analysis
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "壁垒"
+  course_id: yt-barrier-analysis-cheat-sheet
+  course_type: tool
+  level: core
 pipeline:
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户照着cheatsheet选了网络效应，但业务根本没有网络效应土壤"
-    framework_lens: "生搬硬套——壁垒类型需要匹配业务模型"
-    follow_up_question: "你的业务天然具备网络效应所需的节点密度和互动频次吗？如果没有，选网络效应就是自欺欺人"
-  - signal: "用户列出6大壁垒，但一个都建不起来"
-    framework_lens: "清单化——知道分类不等于能执行"
-    follow_up_question: "你当前阶段最关键的一个壁垒是什么？为了建它需要投入什么资源？"
-updated_at: '2026-06-13'
+  - {'signal': '用户照着cheatsheet选了网络效应，但业务根本没有网络效应土壤', 'framework_lens': '生搬硬套——壁垒类型需要匹配业务模型', 'follow_up_question': '你的业务天然具备网络效应所需的节点密度和互动频次吗？如果没有，选网络效应就是自欺欺人'}
+  - {'signal': '用户列出6大壁垒，但一个都建不起来', 'framework_lens': '清单化——知道分类不等于能执行', 'follow_up_question': '你当前阶段最关键的一个壁垒是什么？为了建它需要投入什么资源？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

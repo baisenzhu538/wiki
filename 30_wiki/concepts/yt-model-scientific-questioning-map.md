@@ -1,14 +1,14 @@
 ---
-id: "yt-model-scientific-questioning-map"
-component_of: ""
+id: yt-model-scientific-questioning-map
+component_of: 
 confidence: 0.85
 created_at: 2026-05-07
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1667
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "关联卡片"
   - "四领域 × 三级难度矩阵"
@@ -16,36 +16,26 @@ query_triggers:
   - "知识体系定位"
   - "科学提问刻意练习地图"
   - "通用工具箱"
-related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-科学提问刻意练习.png"
-status: "enriched"
+status: enriched
 title: "科学提问刻意练习地图"
-type: "framework"
+type: framework
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "提问能力"
-  course_type: "model"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: model
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '用户不知道自己在提问能力的哪个段位', 'framework_lens': '无段位诊断', 'follow_up_question': '按四领域×三级难度矩阵，你在哪个格子？如果答不出，没有段位意识'}
   - {'signal': '用户只在舒适区提问，不挑战更难场景', 'framework_lens': '不进入非舒适区', 'follow_up_question': '你最近一次处理Level 3难度的提问场景是什么时候？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 # 科学提问刻意练习地图

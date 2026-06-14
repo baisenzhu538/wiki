@@ -1,11 +1,11 @@
 ---
 id: "skill-半肥猫-判断课程是否值得做成Skill"
 title: "技能：判断课程是否值得做成Skill"
-type: "skill"
-status: "draft"
+type: skill
+status: draft
 domain:
-  - "ai-collaboration"
-  - "yitang"
+  - ai-collaboration
+  - yitang
 source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
@@ -13,31 +13,22 @@ source_refs:
 tools_required:
   - "AIGC大模型"
   - "课程资料"
-prerequisite_skills: ""
+prerequisite_skills: 
 related:
   - "concept-半肥猫-ai-learning-toolification-methodology"
   - "skill-半肥猫-课程Skill化的八步工作流"
   - "skill-半肥猫-追问AI证据并标注信源"
   - "dk-半肥猫-skill-rejection-value"
-created_at: "2026-06-07"
-reviewed_by: "laowantong"
-updated_at: "2026-06-07"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+created_at: 2026-06-07
+reviewed_by: laowantong
+updated_at: 2026-06-07
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：判断课程是否值得做成Skill

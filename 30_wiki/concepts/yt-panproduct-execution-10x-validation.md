@@ -1,18 +1,18 @@
 ---
-id: "yt-panproduct-execution-10x-validation"
+id: yt-panproduct-execution-10x-validation
 component_of:
-  - "yt-model-pan-product-execution-toolkit"
+  - yt-model-pan-product-execution-toolkit
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: "advanced"
+difficulty: advanced
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1189
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-composite-pan-product-methodology"
-  - "yt-model-pan-product-demand-toolkit"
-  - "yt-model-pan-product-aesthetic-toolkit"
+  - yt-composite-pan-product-methodology
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
 query_triggers:
   - "产品落地"
   - "产品迭代"
@@ -23,41 +23,29 @@ query_triggers:
   - "落地卡片"
   - "落地执行"
 related:
-  - "yt-panproduct-execution-low-cost-mvp"
-  - "yt-panproduct-execution-hypothesis-decomposition"
+  - yt-panproduct-execution-low-cost-mvp
+  - yt-panproduct-execution-hypothesis-decomposition
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-十倍速验证.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：十倍速验证"
-type: "tool"
+type: tool
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "泛产品设计"
-  course_type: "card"
-  level: "advanced"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: card
+  level: advanced
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '根据假设置信度和 stakes 选择最便宜的验证手段，而不是一上来就做 MVP', 'framework_lens': '验证成本应与认知价值匹配', 'follow_up_question': '这个假设用专家访谈或市场调查能否证伪？'}
   - {'signal': '每个验证实验都有明确的通过/不通过标准和下一步动作', 'framework_lens': '验证是决策工具', 'follow_up_question': '如果实验结果是否定的，你会放弃、调整还是换一种验证方式？'}
   - {'signal': '验证投入随信心螺旋上升，而不是一次性 all-in', 'framework_lens': '贝叶斯式渐进投入', 'follow_up_question': '在这个假设上，你已经花了多少钱？下一步投入的触发条件是什么？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium
 ---
 
 # 十倍速验证：训练用1块钱学到1000块钱的认知

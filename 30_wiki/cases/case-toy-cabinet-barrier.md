@@ -1,14 +1,14 @@
 ---
-id: "case-toy-cabinet-barrier"
-component_of: ""
+id: case-toy-cabinet-barrier
+component_of: 
 confidence: 0.85
 created_at: 2026-06-11
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2000
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "玩具柜壁垒"
   - "线下零售壁垒"
@@ -16,7 +16,6 @@ query_triggers:
   - "壁垒案例分析"
   - "一堂玩具柜"
   - "商业模式壁垒"
-related: []
 review_date: 2026-06-11
 reviewed_by: "周伯通"
 source_refs:
@@ -25,14 +24,15 @@ source_refs:
 status: reviewed
 title: "案例：线下玩具柜的壁垒困局与突围路径"
 trust_level: medium
-type: "case"
+type: case
 updated_at: 2026-06-11
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '壁垒', 'course_id': 'case-toy-cabinet-barrier', 'course_type': 'case', 'level': 'core'}
-tags:
-  - #scene/business-analysis
-  - #scene/strategy
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "壁垒"
+  course_id: case-toy-cabinet-barrier
+  course_type: case
+  level: core
 pipeline:
   - confidence-source-cited
 author: legacy

@@ -1,14 +1,14 @@
 ---
-id: "case-escort-service-tiered-growth"
-component_of: ""
+id: case-escort-service-tiered-growth
+component_of: 
 confidence: 0.85
 created_at: 2026-06-10
-difficulty: "beginner"
+difficulty: beginner
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1800
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "陪诊业务"
   - "医疗陪诊"
@@ -16,7 +16,6 @@ query_triggers:
   - "保2争4"
   - "七级演进"
   - "陪诊案例"
-related: []
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
@@ -26,14 +25,14 @@ source_refs:
 status: enriched
 title: "案例：陪诊业务七级演进"
 trust_level: medium
-type: "case"
+type: case
 updated_at: 2026-06-10
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '机会预判', 'course_type': 'case', 'level': 'core'}
-tags:
-  - #scene/business-analysis
-  - #scene/entrepreneurship
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "机会预判"
+  course_type: case
+  level: core
 pipeline:
   - confidence-source-cited
   - confidence-verified-by-case

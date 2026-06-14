@@ -1,31 +1,25 @@
 ---
 id: tool-clinic-cabinet-legal-contract-guide
-title: 诊所+智能药柜合作的法律关系与合同要点
+title: "诊所+智能药柜合作的法律关系与合同要点"
 type: tool
 status: enriched
 domain:
-- healthcare
-- business-strategy
+  - healthcare
+  - business-strategy
 source_refs:
-- src_20260613_f3aecb2d
-- src_20260613_9a2b289e
-tags:
-- #smart-medicine-cabinet
-- #healthcare
-- #tool
-- #legal
-- #contract
+  - src_20260613_f3aecb2d
+  - src_20260613_9a2b289e
 created_at: 2026-06-15
 updated_at: 2026-06-15
-author: 王语嫣
-reviewed_by: 老顽童
+author: "王语嫣"
+reviewed_by: "老顽童"
 review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
 related:
-- [[smart-medicine-cabinet-national-policy-redlines]]
-- [[smart-medicine-cabinet-clinic-risk-observation]]
-- [[tool-clinic-medical-shortvideo-compliance]]
+  - [['smart-medicine-cabinet-national-policy-redlines']]
+  - [['smart-medicine-cabinet-clinic-risk-observation']]
+  - [['tool-clinic-medical-shortvideo-compliance']]
 ---
 
 ---

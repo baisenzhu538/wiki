@@ -1,14 +1,14 @@
 ---
-id: "yt-personal-ipo-learning"
-component_of: ""
+id: yt-personal-ipo-learning
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3000
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "IPO 科学学习"
   - "世界学习法与四大渠道"
@@ -20,44 +20,32 @@ query_triggers:
   - "输入"
   - "输出"
 related:
-  - "master-systems-thinking"
+  - master-systems-thinking
 review_date: 2026-05-07
 reviewed_by: "黄药师"
 source_refs:
-  - "src_20260507_85c9ae50"
-  - "src_20260507_31a7f2df"
-status: "enriched"
+  - src_20260507_85c9ae50
+  - src_20260507_31a7f2df
+status: enriched
 title: "IPO 科学学习"
-type: "tool"
+type: tool
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "IPO 科学学习"
   course_id: 402
-  course_type: "method"
-  level: "foundational"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: method
+  level: foundational
 pipeline:
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '学习过程能明确区分 Input、Process、Output 三个阶段', 'framework_lens': 'IPO 是学习的完整循环', 'follow_up_question': '你最近的一次学习中，Output 是什么？'}
   - {'signal': 'Output 层级≥3（如用自己的话重述、建立模型、解决实际问题）', 'framework_lens': '输出深度反映内化程度', 'follow_up_question': '你这次学习的输出，是复制原文还是自己的重构？'}
   - {'signal': '学习后会用反馈修正下一轮 Input 和 Process', 'framework_lens': '学习是螺旋上升的闭环', 'follow_up_question': '上一次输出后，你根据反馈调整了哪些学习方法？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 # IPO 科学学习

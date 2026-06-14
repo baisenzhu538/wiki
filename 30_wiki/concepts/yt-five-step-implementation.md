@@ -1,13 +1,13 @@
 ---
-id: "yt-five-step-implementation"
+id: yt-five-step-implementation
 component_of: "[[yt-five-step-method]]"
 confidence: 0.85
 created_at: 2026-06-11
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2400
-language: "zh-CN"
+language: zh-CN
 prerequisites: "[[yt-five-step-method]]"
 query_triggers:
   - "五步法怎么落地"
@@ -16,7 +16,7 @@ query_triggers:
   - "故事版 取舍版 定量版 分工版"
   - "五步法迭代"
 related:
-  - "yt-tool-product-core-canvas"
+  - yt-tool-product-core-canvas
 review_date: 2026-06-11
 reviewed_by: "老顷童"
 source_refs:
@@ -25,24 +25,20 @@ source_refs:
 status: reviewed
 title: "五步法落地实操：从故事版到分工版"
 trust_level: medium
-type: "skill"
+type: skill
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '落地实操', 'course_id': 'yt-five-step-implementation', 'course_type': 'skill', 'level': 'core'}
-tags:
-  - #scene/business-analysis
-  - #scene/implementation
-  - #scene/team-management
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "落地实操"
+  course_id: yt-five-step-implementation
+  course_type: skill
+  level: core
 pipeline:
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户停在故事版，永远讲不清楚取舍"
-    framework_lens: "落地阶段停滞"
-    follow_up_question: '你能明确说出"我们不服务谁""我们不做什么"吗？如果不能，还在故事版'
-  - signal: "用户直接跳到定量版，但故事都没讲清楚"
-    framework_lens: "跳级"
-    follow_up_question: "5分钟内能把商业模式讲清楚吗？如果不能，不要急着定量"
-updated_at: '2026-06-13'
+  - {'signal': '用户停在故事版，永远讲不清楚取舍', 'framework_lens': '落地阶段停滞', 'follow_up_question': '你能明确说出"我们不服务谁""我们不做什么"吗？如果不能，还在故事版'}
+  - {'signal': '用户直接跳到定量版，但故事都没讲清楚', 'framework_lens': '跳级', 'follow_up_question': '5分钟内能把商业模式讲清楚吗？如果不能，不要急着定量'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

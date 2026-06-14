@@ -1,48 +1,41 @@
 ---
-id: "master-cognitive-bias-checklist"
-component_of: ""
+id: master-cognitive-bias-checklist
+component_of: 
 confidence: 0.85
 created_at: 2026-05-18
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "master"
+  - master
 estimated_tokens: 1082
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "认知偏差自检"
   - "决策前检查表"
   - "12种常见偏差"
 related:
-  - "yt-decision-y-model"
-  - "yt-decision-canvas"
-  - "yt-decision-habit-shift"
-  - "yt-decision-ai-partner"
-  - "yt-decision-review"
-  - "master-decision-hygiene"
-  - "master-ai-info-literacy"
-  - "yt-unit-model-ladder"
-  - "yt-unit-model-benchmark"
-reviewed_by: ""
+  - yt-decision-y-model
+  - yt-decision-canvas
+  - yt-decision-habit-shift
+  - yt-decision-ai-partner
+  - yt-decision-review
+  - master-decision-hygiene
+  - master-ai-info-literacy
+  - yt-unit-model-ladder
+  - yt-unit-model-benchmark
+reviewed_by: 
 source_refs:
   - {'来源': '消化全库后提炼'}
-status: "enriched"
+status: enriched
 title: "认知偏差快速诊断清单"
-type: "tool"
+type: tool
 updated_at: 2026-05-18
 version: 1
-tags:
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-trust_level: "medium-high"
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+trust_level: medium-high
 ---
 
 # 认知偏差快速诊断清单

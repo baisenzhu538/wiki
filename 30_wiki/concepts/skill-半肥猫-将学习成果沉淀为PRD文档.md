@@ -1,11 +1,11 @@
 ---
 id: "skill-半肥猫-将学习成果沉淀为PRD文档"
 title: "技能：将学习成果沉淀为 PRD 文档"
-type: "skill"
-status: "draft"
+type: skill
+status: draft
 domain:
-  - "ai-collaboration"
-  - "learning"
+  - ai-collaboration
+  - learning
 source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
@@ -20,27 +20,16 @@ related:
   - "skill-半肥猫-课程Skill化的八步工作流"
   - "skill-半肥猫-用YAML格式做知识库原子化标签"
   - "dk-半肥猫-atomic-no-standard"
-created_at: "2026-06-07"
-reviewed_by: "laowantong"
-updated_at: "2026-06-07"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+created_at: 2026-06-07
+reviewed_by: laowantong
+updated_at: 2026-06-07
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：将学习成果沉淀为 PRD 文档

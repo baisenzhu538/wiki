@@ -1,14 +1,14 @@
 ---
-id: "yt-personal-scientific-expression"
-component_of: ""
+id: yt-personal-scientific-expression
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3000
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "火箭模型"
   - "科学表达"
@@ -21,8 +21,8 @@ query_triggers:
   - "公开演讲技巧"
   - "如何做好演讲"
 related:
-  - "yt-model-personal-pitch-toolkit"
-  - "yt-model-prompt-engineering"
+  - yt-model-personal-pitch-toolkit
+  - yt-model-prompt-engineering
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -31,30 +31,23 @@ source_refs:
 status: enriched
 title: "科学表达（火箭模型）"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'personal', 'module': '科学表达（火箭模型）', 'course_id': 410, 'course_type': 'method', 'level': 'core', 'series': True}
-tags:
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/skill-engineering
-  - #yitang
+yitang:
+  map: personal
+  module: "科学表达（火箭模型）"
+  course_id: 410
+  course_type: method
+  level: core
+  series: True
 pipeline:
-  - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
 diagnostic_signals:
-  - signal: "表达结构能清晰对应火箭模型的四个阶段"
-    framework_lens: "表达是逐级推进"
-    follow_up_question: "你的表达中，哪一部分负责建立认知？哪一部分推动行动？"
-  - signal: "能根据听众状态调整每个阶段的比重"
-    framework_lens: "表达服务于听众"
-    follow_up_question: "如果听众已经认同你，是否可以跳过或缩短某个阶段？"
-  - signal: "关键表达会经过逐字打磨和反复演练"
-    framework_lens: "精确表达需要刻意练习"
-    follow_up_question: "你为这次表达做了几次完整演练？"
-updated_at: '2026-06-13'
+  - {'signal': '表达结构能清晰对应火箭模型的四个阶段', 'framework_lens': '表达是逐级推进', 'follow_up_question': '你的表达中，哪一部分负责建立认知？哪一部分推动行动？'}
+  - {'signal': '能根据听众状态调整每个阶段的比重', 'framework_lens': '表达服务于听众', 'follow_up_question': '如果听众已经认同你，是否可以跳过或缩短某个阶段？'}
+  - {'signal': '关键表达会经过逐字打磨和反复演练', 'framework_lens': '精确表达需要刻意练习', 'follow_up_question': '你为这次表达做了几次完整演练？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

@@ -2,27 +2,20 @@
 id: "ocr-一堂y模型-科学成事道理"
 created_at: 2026-05-21
 domain:
-  - "healthcare"
+  - healthcare
 source_refs:
-  - "src_20260522_32462c98"
-status: "enriched"
+  - src_20260522_32462c98
+status: enriched
 title: "OCR: 一堂Y模型-科学成事道理"
-type: "concept"
+type: concept
 updated_at: 2026-05-22
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 # OCR: 一堂Y模型-科学成事道理

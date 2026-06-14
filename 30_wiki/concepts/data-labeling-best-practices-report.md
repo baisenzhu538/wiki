@@ -1,10 +1,10 @@
 ---
-id: "data-labeling-best-practices-report"
+id: data-labeling-best-practices-report
 title: "数据标注最佳实践调研报告"
-type: "concept"
-status: "draft"
+type: concept
+status: draft
 domain:
-  - "master"
+  - master
 source_refs:
   - "HILTS框架（ScienceDirect, 2026）"
   - "NVIDIA分块策略基准（2025）"
@@ -12,22 +12,13 @@ source_refs:
   - "Gruber本体设计五原则"
 created_at: 2026-05-31
 updated_at: 2026-05-31
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 数据标注最佳实践调研报告

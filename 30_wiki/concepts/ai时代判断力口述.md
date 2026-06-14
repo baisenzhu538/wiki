@@ -2,27 +2,20 @@
 id: "ai时代判断力口述-2"
 created_at: 2026-05-25
 domain:
-  - "healthcare"
+  - healthcare
 source_refs:
-  - "src_20260525_6748cc27"
-status: "enriched"
+  - src_20260525_6748cc27
+status: enriched
 title: "AI时代判断力口述"
-type: "concept"
+type: concept
 updated_at: 2026-05-28
-tags:
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 # AI时代判断力口述

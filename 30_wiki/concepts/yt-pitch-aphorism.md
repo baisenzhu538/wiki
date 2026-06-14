@@ -1,53 +1,44 @@
 ---
-id: "yt-pitch-aphorism"
+id: yt-pitch-aphorism
 component_of:
-  - "yt-model-personal-pitch-toolkit"
+  - yt-model-personal-pitch-toolkit
 confidence: 0.85
 created_at: 2026-05-13
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "personal"
-  - "yitang"
+  - personal
+  - yitang
 estimated_tokens: 1500
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-model-personal-pitch-toolkit"
+  - yt-model-personal-pitch-toolkit
 query_triggers:
   - "金句化"
   - "金句"
-  - "slogan"
+  - slogan
   - "断言"
   - "押韵文案"
   - "洞察对比"
 related:
-  - "yt-concept-weapon-arsenal"
+  - yt-concept-weapon-arsenal
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
-status: "enriched"
+status: enriched
 title: "讲香·金句化"
-type: "tool"
+type: tool
 version: 1
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '金句背后有一个清晰的核心观点，而不是空洞的口号', 'framework_lens': '金句是观点的压缩包', 'follow_up_question': '如果删掉这个金句，你想表达的核心观点会损失多少？'}
   - {'signal': '金句出现在最关键的位置（结尾、标题、转折点），而不是到处撒', 'framework_lens': '金句是注意力的钉子', 'follow_up_question': '这段内容里最适合放金句的位置在哪里？'}
   - {'signal': '金句让人想传播，但传播后不会扭曲原意', 'framework_lens': '金句是可传播的锚点', 'follow_up_question': '用户只记住这句话，能否代表你的整体立场？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 # 讲香·金句化

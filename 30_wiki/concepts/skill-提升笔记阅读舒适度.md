@@ -1,21 +1,21 @@
 ---
 id: "skill-提升笔记阅读舒适度"
 title: "提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦"
-type: "concept"
-status: "draft"
+type: concept
+status: draft
 domain:
-  - "yitang"
-  - "personal-growth"
-language: "zh-CN"
+  - yitang
+  - personal-growth
+language: zh-CN
 version: 1
 confidence: 0.84
 source_refs:
   - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
 related:
-  - "yt-note-checklist-concept"
-  - "yt-note-l4-internalization"
-  - "dk-truman-flag-note-taking"
-  - "yt-note-expert-interview-modeling"
+  - yt-note-checklist-concept
+  - yt-note-l4-internalization
+  - dk-truman-flag-note-taking
+  - yt-note-expert-interview-modeling
 query_triggers:
   - "笔记怎么排版"
   - "笔记阅读舒适度"
@@ -24,21 +24,15 @@ query_triggers:
   - "笔记分层"
   - "笔记标颜色"
   - "思维导图 vs 清单体"
-created_at: "2026-06-10"
-updated_at: "2026-06-10"
+created_at: 2026-06-10
+updated_at: 2026-06-10
 estimated_tokens: 4200
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
-trust_level: "low"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
+trust_level: low
 ---
 
 # 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦

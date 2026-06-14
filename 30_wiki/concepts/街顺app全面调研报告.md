@@ -4,25 +4,18 @@ created_at: 2026-04-26
 domain:
   - "['healthcare']"
 review_date: 2026-05-03
-reviewed_by: "Claude"
+reviewed_by: Claude
 source_refs:
-  - "src_20260427_970eb338"
-status: "reviewed"
+  - src_20260427_970eb338
+status: reviewed
 title: "街顺APP全面调研报告"
-trust_level: "medium"
-type: "concept"
+trust_level: medium
+type: concept
 updated_at: 2026-05-03
-tags:
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
 confidence: 0.85
 ---
 

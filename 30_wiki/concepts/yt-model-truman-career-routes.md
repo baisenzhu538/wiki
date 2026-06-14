@@ -1,14 +1,14 @@
 ---
-id: "yt-model-truman-career-routes"
-component_of: ""
+id: yt-model-truman-career-routes
+component_of: 
 confidence: 0.85
 created_at: 2026-05-11
-difficulty: "advanced"
+difficulty: advanced
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2777
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "X vs Y 七维对比"
   - "与十年爬山地图的对应"
@@ -17,42 +17,25 @@ query_triggers:
   - "关键选择框架"
   - "楚门的选择"
   - "楚门的选择：两条职业成长路线 X vs Y"
-related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/truman的选择：两条职业成长路线.png"
-status: "enriched"
+status: enriched
 title: "楚门的选择：两条职业成长路线 X vs Y"
-type: "framework"
+type: framework
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "个人修炼"
-  course_type: "framework"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: framework
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '用户想走Y路线但不愿做大量刻意练习', 'framework_lens': 'Y路线需要高难度学习', 'follow_up_question': '你准备好进行大量跨领域迁移练习了吗？如果没有，Y路线走不通'}
   - {'signal': '用户只羡慕Y路线迁移性，不看自己基础', 'framework_lens': '基础不匹配', 'follow_up_question': '你现在的产品设计能力和学习习惯，更适合X还是Y？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 # 楚门的选择：两条职业成长路线 X vs Y

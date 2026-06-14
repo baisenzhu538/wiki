@@ -1,25 +1,20 @@
 ---
-id: "writing-content"
+id: writing-content
 created_at: 2026-05-21
 domain:
-  - "ai-saas"
+  - ai-saas
 source_refs:
-  - "src_20260522_5819659f"
-status: "enriched"
+  - src_20260522_5819659f
+status: enriched
 title: "Writing Content"
-type: "concept"
+type: concept
 updated_at: 2026-05-22
-tags:
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 # Writing Content

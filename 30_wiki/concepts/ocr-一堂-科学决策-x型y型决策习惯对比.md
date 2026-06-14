@@ -1,19 +1,16 @@
 ---
 title: "OCR: 一堂-科学决策-X型Y型决策习惯对比"
-type: "concept"
-status: "enriched"
+type: concept
+status: enriched
 source_refs:
-  - "src_20260609_c86cd9a0"
+  - src_20260609_c86cd9a0
 created_at: "2026-06-09T14:05:51+00:00"
-updated_at: "2026-06-13"
-tags:
-  - None
-domain:
+updated_at: 2026-06-13
 id: "ocr-一堂-科学决策-x型y型决策习惯对比"
-author: "legacy"
-reviewed_by: "pending"
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 

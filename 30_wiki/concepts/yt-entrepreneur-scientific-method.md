@@ -1,14 +1,14 @@
 ---
-id: "yt-entrepreneur-scientific-method"
-component_of: ""
+id: yt-entrepreneur-scientific-method
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1833
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "Y模型"
   - "科学创业方法"
@@ -20,33 +20,26 @@ query_triggers:
   - "科学方法论创业"
   - "迭代验证"
   - "经验主义替代"
-related: []
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
 status: enriched
 title: "Y模型/科学方法"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': 'Y模型/科学方法', 'course_id': 'yt-entrepreneur-scientific-method', 'course_type': 'method', 'level': 'foundational'}
-tags:
-  - #scene/business-analysis
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/live-field
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "Y模型/科学方法"
+  course_id: yt-entrepreneur-scientific-method
+  course_type: method
+  level: foundational
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
   - confidence-source-cited
 diagnostic_signals:
-  - signal: '用户说"这是科学方法"，但假设不可证伪'
-    framework_lens: "伪科学——没有证伪条件"
-    follow_up_question: "什么证据会让你放弃这个假设？如果答不上来，这不是科学方法"
-  - signal: "用户只做验证自己假设的实验"
-    framework_lens: "证实偏差"
-    follow_up_question: "你最近设计的实验中，有几个是为了证伪而不是证实？"
-updated_at: '2026-06-13'
+  - {'signal': '用户说"这是科学方法"，但假设不可证伪', 'framework_lens': '伪科学——没有证伪条件', 'follow_up_question': '什么证据会让你放弃这个假设？如果答不上来，这不是科学方法'}
+  - {'signal': '用户只做验证自己假设的实验', 'framework_lens': '证实偏差', 'follow_up_question': '你最近设计的实验中，有几个是为了证伪而不是证实？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

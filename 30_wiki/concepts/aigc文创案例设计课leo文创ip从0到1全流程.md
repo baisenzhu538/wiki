@@ -2,28 +2,22 @@
 id: "aigc文创案例设计课leo文创ip从0到1全流程"
 created_at: 2026-05-28
 domain:
-  - "ai-saas"
-  - "design"
+  - ai-saas
+  - design
 source_refs:
-  - "src_20260528_4277c6be"
-status: "draft"
+  - src_20260528_4277c6be
+status: draft
 title: "AIGC文创案例设计课：Leo文创IP从0到1全流程"
-type: "concept"
+type: concept
 updated_at: 2026-06-12
-tags:
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # AIGC文创案例设计课：Leo文创IP从0到1全流程

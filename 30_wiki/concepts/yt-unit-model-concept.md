@@ -1,13 +1,13 @@
 ---
-id: "yt-unit-model-concept"
+id: yt-unit-model-concept
 component_of: "[[yt-five-step-method]]"
 confidence: 0.9
 created_at: 2026-06-11
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2600
-language: "zh-CN"
+language: zh-CN
 prerequisites: "[[yt-five-step-method]]"
 query_triggers:
   - "单元模型"
@@ -16,7 +16,6 @@ query_triggers:
   - "单店模型"
   - "单SKU模型"
   - "LTV CAC"
-related: []
 review_date: 2026-06-11
 reviewed_by: "老顽童"
 source_refs:
@@ -25,30 +24,22 @@ source_refs:
 status: reviewed
 title: "单元模型：商业模式评估的核心工具"
 trust_level: medium
-type: "framework"
+type: framework
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '单元模型', 'course_id': 'yt-unit-model-concept', 'course_type': 'framework', 'level': 'core'}
-tags:
-  - #scene/business-model
-  - #scene/finance
-  - #scene/entrepreneurship
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "单元模型"
+  course_id: yt-unit-model-concept
+  course_type: framework
+  level: core
 pipeline:
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "是否能清晰界定最小可复制单元的收入与成本边界"
-    framework_lens: "边界定义 / 最小经济单元"
-    follow_up_question: "是否把总体收入/总用户当作单元模型？"
-  - signal: "是否同时评估盈利性、持续性和规模经济三个维度"
-    framework_lens: "三维评估 / 商业可行性"
-    follow_up_question: "是否只看单点盈利而忽视规模化后的成本结构变化？"
-  - signal: "关键指标是否有数据来源和验证计划"
-    framework_lens: "证据 / 可验证性"
-    follow_up_question: "转化率、留存率等数字是拍脑袋还是有数据支撑？"
-  - signal: "是否先验证单元模型再进入规模化复制"
-    framework_lens: "阶段顺序 / 反脆弱"
-    follow_up_question: "是否在单元模型未跑通前就开始扩张？"
-updated_at: '2026-06-13'
+  - {'signal': '是否能清晰界定最小可复制单元的收入与成本边界', 'framework_lens': '边界定义 / 最小经济单元', 'follow_up_question': '是否把总体收入/总用户当作单元模型？'}
+  - {'signal': '是否同时评估盈利性、持续性和规模经济三个维度', 'framework_lens': '三维评估 / 商业可行性', 'follow_up_question': '是否只看单点盈利而忽视规模化后的成本结构变化？'}
+  - {'signal': '关键指标是否有数据来源和验证计划', 'framework_lens': '证据 / 可验证性', 'follow_up_question': '转化率、留存率等数字是拍脑袋还是有数据支撑？'}
+  - {'signal': '是否先验证单元模型再进入规模化复制', 'framework_lens': '阶段顺序 / 反脆弱', 'follow_up_question': '是否在单元模型未跑通前就开始扩张？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

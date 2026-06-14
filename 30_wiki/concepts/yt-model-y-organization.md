@@ -1,14 +1,14 @@
 ---
-id: "yt-model-y-organization"
-component_of: ""
+id: yt-model-y-organization
+component_of: 
 confidence: 0.85
 created_at: 2026-05-07
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1635
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "Y 型创业模型"
   - "Y 型结构"
@@ -17,36 +17,26 @@ query_triggers:
   - "型创业模型"
   - "核心要素"
   - "知识体系定位"
-related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-Y模型.jpg"
-status: "enriched"
+status: enriched
 title: "Y 型创业模型"
-type: "framework"
+type: framework
 version: 1
 yitang:
-  map: "system"
+  map: system
   module: "方法论总纲"
-  course_type: "model"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: model
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '用户只重视实事求是，不敢解放思想', 'framework_lens': '一臂缺失', 'follow_up_question': '你最近一次质疑行业惯例并提出新假设是什么时候？'}
   - {'signal': '用户只解放思想，不尊重事实', 'framework_lens': '另一臂缺失', 'follow_up_question': '你的新想法有没有经过事实验证？如果没有，只是空想'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 # Y 型创业模型 (Y Model for Startups)

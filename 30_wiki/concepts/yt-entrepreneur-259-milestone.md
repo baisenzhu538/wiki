@@ -1,14 +1,14 @@
 ---
-id: "yt-entrepreneur-259-milestone"
-component_of: ""
+id: yt-entrepreneur-259-milestone
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1851
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "259里程碑"
   - "业务里程碑"
@@ -20,7 +20,6 @@ query_triggers:
   - "关键假设优先"
   - "最小成本验证"
   - "259框架"
-related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -28,25 +27,20 @@ source_refs:
 status: enriched
 title: "259里程碑"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '259里程碑', 'course_id': 259, 'course_type': 'method', 'level': 'foundational'}
-tags:
-  - #scene/business-analysis
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/live-field
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "259里程碑"
+  course_id: 259
+  course_type: method
+  level: foundational
 pipeline:
-  - #boundary/requires-human-judgment
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户把259当项目计划表，但每个里程碑无法验证"
-    framework_lens: "里程碑没有验证标准——259的核心是假设验证"
-    follow_up_question: "你的9个里程碑中，每个对应什么验证实验？什么结果算通过？"
-  - signal: "用户只关注9个里程碑，忘了2个假设和5个步骤"
-    framework_lens: "割裂使用——259是一个整体系统"
-    follow_up_question: "你的里程碑是建立在哪两个核心假设之上？如果假设错了，里程碑还有意义吗？"
-updated_at: '2026-06-13'
+  - {'signal': '用户把259当项目计划表，但每个里程碑无法验证', 'framework_lens': '里程碑没有验证标准——259的核心是假设验证', 'follow_up_question': '你的9个里程碑中，每个对应什么验证实验？什么结果算通过？'}
+  - {'signal': '用户只关注9个里程碑，忘了2个假设和5个步骤', 'framework_lens': '割裂使用——259是一个整体系统', 'follow_up_question': '你的里程碑是建立在哪两个核心假设之上？如果假设错了，里程碑还有意义吗？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

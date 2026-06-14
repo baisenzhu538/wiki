@@ -1,14 +1,14 @@
 ---
-id: "yt-entrepreneur-spin-selling"
-component_of: ""
+id: yt-entrepreneur-spin-selling
+component_of: 
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2236
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "SPIN四步法"
   - "SPIN销售法"
@@ -18,35 +18,25 @@ query_triggers:
   - "核心洞见"
   - "读书会结构"
   - "顾问式销售的奠基之作"
-related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-读书会-SPIN销售法口述.md"
-status: "enriched"
+status: enriched
 title: "SPIN销售法：顾问式销售的奠基之作"
-type: "tool"
+type: tool
 version: 1
 yitang:
-  map: "entrepreneur"
+  map: entrepreneur
   module: "创业必修"
-  course_type: "book_club"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: book_club
 pipeline:
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '用户学了SPIN但还在逼单', 'framework_lens': '顾问式销售没有内化', 'follow_up_question': '你最近一次销售对话中，问了几个启发式问题？如果没有，你还是在传统销售'}
   - {'signal': '用户在不合适的场景用SPIN', 'framework_lens': '方法错配', 'follow_up_question': '你的销售场景是大额复杂B2B，还是简单快速交易？后者不适合SPIN'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium
 ---
 
 # SPIN销售法：顾问式销售的奠基之作

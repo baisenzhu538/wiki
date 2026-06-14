@@ -1,18 +1,18 @@
 ---
-id: "yt-panproduct-execution-hypothesis-decomposition"
+id: yt-panproduct-execution-hypothesis-decomposition
 component_of:
-  - "yt-model-pan-product-execution-toolkit"
+  - yt-model-pan-product-execution-toolkit
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: "advanced"
+difficulty: advanced
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1104
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-composite-pan-product-methodology"
-  - "yt-model-pan-product-demand-toolkit"
-  - "yt-model-pan-product-aesthetic-toolkit"
+  - yt-composite-pan-product-methodology
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
 query_triggers:
   - "产品落地"
   - "产品迭代"
@@ -23,41 +23,30 @@ query_triggers:
   - "落地卡片"
   - "落地执行"
 related:
-  - "yt-panproduct-execution-10x-validation"
-  - "yt-panproduct-execution-low-cost-mvp"
-  - "yt-entrepreneur-key-hypotheses"
+  - yt-panproduct-execution-10x-validation
+  - yt-panproduct-execution-low-cost-mvp
+  - yt-entrepreneur-key-hypotheses
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-假设拆解.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：假设拆解"
-type: "tool"
+type: tool
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "泛产品设计"
-  course_type: "card"
-  level: "advanced"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: card
+  level: advanced
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '产品成功被拆解成≤5个关键假设，而不是模糊的一个大目标', 'framework_lens': '关键假设是验证的锚点', 'follow_up_question': '如果这5个假设中有一个错了，产品会失败吗？'}
   - {'signal': '每个关键假设都有可观察的证伪指标和验证方法', 'framework_lens': '假设必须可证伪', 'follow_up_question': '什么样的证据会让你放弃这个假设？'}
   - {'signal': '验证结果会更新假设优先级和下一步计划', 'framework_lens': '贝叶斯迭代', 'follow_up_question': '最近一次的验证结果改变了你的假设排序吗？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium
 ---
 
 # 假设拆解：拆解出影响产品成败的关键假设

@@ -1,38 +1,37 @@
 ---
 id: yt-three-dimension-opportunity-matrix
-title: 三维排列组合找机会
+title: "三维排列组合找机会"
 type: tool
 status: enriched
-component_of: 
 confidence: 0.8
 created_at: 2026-06-10
 difficulty: intermediate
-domain: [yitang]
+domain:
+  - yitang
 estimated_tokens: 1000
 language: zh-CN
-prerequisites: 
-related: []
 review_date: 2026-06-10
-reviewed_by: 洪七公
-source_refs: ["00_inbox/一堂-机会预判-三维排列组合01.png"]
-tags: ["#scene/business-analysis", "#scene/ideation", "#yitang"]
+reviewed_by: "洪七公"
+source_refs:
+  - "00_inbox/一堂-机会预判-三维排列组合01.png"
+tags:
+  - #scene/business-analysis
+  - #scene/ideation
+  - #yitang
 trust_level: medium
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '机会预判', 'course_id': 'yt-three-dimension-opportunity-matrix', 'course_type': 'tool', 'level': 'core'}
+yitang:
+  map: entrepreneur
+  module: "机会预判"
+  course_id: yt-three-dimension-opportunity-matrix
+  course_type: tool
+  level: core
 diagnostic_signals:
-  - signal: "是否在 2 小时内生成 ≥50 个交叉点并快速收敛到 Top 5"
-    framework_lens: "发散-收敛 / 效率"
-    follow_up_question: "全排列是否导致 2-3 周仍无法收敛的选择瘫痪？"
-  - signal: "每个候选交叉点是否通过'一堂五步法'初步预判过滤"
-    framework_lens: "验证 / 低成本假设"
-    follow_up_question: "理论上可行但执行/监管/竞争不可行的组合是否进入候选池？"
-  - signal: "'新行业/新模式/新能力'清单是否定期更新以反映时效性"
-    framework_lens: "技术迭代 / 动态机会"
-    follow_up_question: "选定机会的 3-6 个月开发周期内，'新能力'是否已被巨头免费提供？"
-  - signal: "是否同时评估执行难度、资源约束、竞争格局和监管限制"
-    framework_lens: "可行性 / 落地诚实"
-    follow_up_question: "机会筛选是否只停留在需求-能力-模式三档匹配？"
-updated_at: '2026-06-13'
+  - {'signal': '是否在 2 小时内生成 ≥50 个交叉点并快速收敛到 Top 5', 'framework_lens': '发散-收敛 / 效率', 'follow_up_question': '全排列是否导致 2-3 周仍无法收敛的选择瘫痪？'}
+  - {'signal': "每个候选交叉点是否通过'一堂五步法'初步预判过滤", 'framework_lens': '验证 / 低成本假设', 'follow_up_question': '理论上可行但执行/监管/竞争不可行的组合是否进入候选池？'}
+  - {'signal': "'新行业/新模式/新能力'清单是否定期更新以反映时效性", 'framework_lens': '技术迭代 / 动态机会', 'follow_up_question': "选定机会的 3-6 个月开发周期内，'新能力'是否已被巨头免费提供？"}
+  - {'signal': '是否同时评估执行难度、资源约束、竞争格局和监管限制', 'framework_lens': '可行性 / 落地诚实', 'follow_up_question': '机会筛选是否只停留在需求-能力-模式三档匹配？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 # 三维排列组合找机会

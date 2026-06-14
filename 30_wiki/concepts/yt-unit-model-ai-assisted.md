@@ -1,72 +1,52 @@
 ---
 id: yt-unit-model-ai-assisted
-component_of: ''
+component_of: 
 confidence: 0.85
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
-- entrepreneur
-- master
-- ai
+  - entrepreneur
+  - master
+  - ai
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
-- yt-unit-model-overview
-- yt-unit-model-construction
+  - yt-unit-model-overview
+  - yt-unit-model-construction
 query_triggers:
-- AI 单元模型
-- TCP-R 双导师
-- 出口式咨询
-- 教学教练
-- 咨询教练
-- AI 商业分析
+  - "AI 单元模型"
+  - "TCP-R 双导师"
+  - "出口式咨询"
+  - "教学教练"
+  - "咨询教练"
+  - "AI 商业分析"
 related:
-- yt-unit-model-ladder
-- yt-unit-model-dynamic
-- yt-decision-ai-innovation
-- master-systems-thinking
-reviewed_by: ''
+  - yt-unit-model-ladder
+  - yt-unit-model-dynamic
+  - yt-decision-ai-innovation
+  - master-systems-thinking
+reviewed_by: 
 source_refs:
-- src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述
+  - "src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述"
 status: reviewed
-title: AI+单元模型：TCP-R双导师与出口式咨询实践
+title: "AI+单元模型：TCP-R双导师与出口式咨询实践"
 trust_level: high
 type: tool
 version: 1
 yitang:
   map: entrepreneur
-  module: 创业必修
+  module: "创业必修"
   course_type: tool
   level: intermediate
-tags:
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
 pipeline:
-- null
-- null
-- confidence-draft
-- confidence-source-cited
+  - confidence-draft
+  - confidence-source-cited
 diagnostic_signals:
-  - signal: "AI 生成的拆推评算初稿是否在 2 小时内获得人工校验"
-    framework_lens: "人机协作 / 质量控制"
-    follow_up_question: "是否直接把 AI 输出当作最终结论？"
-  - signal: "是否用 AI 进行盲区扫描并识别 ≥2 个之前未意识到的错误"
-    framework_lens: "盲区检测 / 双导师"
-    follow_up_question: "AI 辅助是否只加速了错误模型的生成？"
-  - signal: "单元模型分歧是否被追溯到根因假设（数据/前提/利益）"
-    framework_lens: "假设透明 / 对齐"
-    follow_up_question: "团队是否只争论数字而不暴露底层假设？"
-  - signal: "AI 生成的咨询/教学输出是否标注置信度和人工复核点"
-    framework_lens: "可信度 / 责任边界"
-    follow_up_question: "出口式咨询报告是否被视为无人负责的意见？"
-updated_at: '2026-06-13'
+  - {'signal': 'AI 生成的拆推评算初稿是否在 2 小时内获得人工校验', 'framework_lens': '人机协作 / 质量控制', 'follow_up_question': '是否直接把 AI 输出当作最终结论？'}
+  - {'signal': '是否用 AI 进行盲区扫描并识别 ≥2 个之前未意识到的错误', 'framework_lens': '盲区检测 / 双导师', 'follow_up_question': 'AI 辅助是否只加速了错误模型的生成？'}
+  - {'signal': '单元模型分歧是否被追溯到根因假设（数据/前提/利益）', 'framework_lens': '假设透明 / 对齐', 'follow_up_question': '团队是否只争论数字而不暴露底层假设？'}
+  - {'signal': 'AI 生成的咨询/教学输出是否标注置信度和人工复核点', 'framework_lens': '可信度 / 责任边界', 'follow_up_question': '出口式咨询报告是否被视为无人负责的意见？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

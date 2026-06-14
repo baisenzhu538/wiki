@@ -1,17 +1,17 @@
 ---
 id: "case-半肥猫-from-assignment-to-tool"
 title: "案例：半肥猫把一堂课程作业变成可复用调研工具"
-type: "case"
-status: "draft"
+type: case
+status: draft
 domain:
-  - "ai-collaboration"
-  - "yitang"
+  - ai-collaboration
+  - yitang
 source_person: "半肥猫"
 source_context: "AI俱乐部·AI学习落地（2026-06分享）"
 source_refs:
   - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
-created_at: "2026-06-08"
-updated_at: "2026-06-08"
+created_at: 2026-06-08
+updated_at: 2026-06-08
 related:
   - "case-半肥猫-course-to-skill"
   - "skill-纪浩-真需求四要素验证法"
@@ -25,19 +25,13 @@ definition_of_done:
   - "关键数据和纠偏过程已记录"
   - "可迁移条件和不可复制场景已明确"
   - "实际应用后收集反馈并更新案例"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 案例：半肥猫把一堂课程作业变成可复用调研工具

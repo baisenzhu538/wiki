@@ -1,19 +1,19 @@
 ---
-id: "yt-foresight-ab-steady-state"
+id: yt-foresight-ab-steady-state
 title: "AB点稳态模型：行业预判的核心框架"
-type: "concept"
+type: concept
 domain:
-  - "yitang"
-status: "enriched"
+  - yitang
+status: enriched
 confidence: 0.85
-difficulty: "advanced"
+difficulty: advanced
 estimated_tokens: 2600
-language: "zh-CN"
+language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
   - "黄药师"
-  - "laowantong"
+  - laowantong
 source_refs:
   - "00_inbox/一堂-机会预判课-Truman-口述.txt"
   - "00_inbox/一堂-机会预判课-truman-笔记.txt"
@@ -26,23 +26,18 @@ query_triggers:
   - "产业链分析"
   - "集中度"
   - "行业天花板"
-related:
 wiki_refs:
-  - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
-  - "30_wiki/concepts/yt-entrepreneur-industry-forecast.md"
-  - "30_wiki/concepts/yt-foresight-ten-fatal-flaws.md"
-tags:
-  - None
-  - None
-  - None
+  - 30_wiki/concepts/yt-foresight-15-char-mantra.md
+  - 30_wiki/concepts/yt-entrepreneur-industry-forecast.md
+  - 30_wiki/concepts/yt-foresight-ten-fatal-flaws.md
 pipeline:
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '用户看到变化就认为是机会', 'framework_lens': '变化≠机会', 'follow_up_question': '这个变化会改变行业价值链的哪个环节？你的切入点在哪里？'}
   - {'signal': '用户只分析现在稳态，不预判B稳态', 'framework_lens': '只完成一半', 'follow_up_question': '变化后的行业新格局（稳态B）可能长什么样？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 # AB点稳态模型：行业预判的核心框架

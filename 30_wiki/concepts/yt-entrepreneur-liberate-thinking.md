@@ -1,14 +1,14 @@
 ---
-id: "yt-entrepreneur-liberate-thinking"
-component_of: ""
+id: yt-entrepreneur-liberate-thinking
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1873
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "解放思想"
   - "创业认知边界"
@@ -21,7 +21,7 @@ query_triggers:
   - "创业思维转换"
   - "从零到一思维方式"
 related:
-  - "master-first-principles"
+  - master-first-principles
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -29,26 +29,20 @@ source_refs:
 status: enriched
 title: "解放思想"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '解放思想', 'course_id': 'yt-entrepreneur-liberate-thinking', 'course_type': 'method', 'level': 'foundational'}
-tags:
-  - #scene/business-analysis
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/live-field
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "解放思想"
+  course_id: yt-entrepreneur-liberate-thinking
+  course_type: method
+  level: foundational
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户为了创新而创新，忽视基本商业规律"
-    framework_lens: "解放过度"
-    follow_up_question: "你质疑的这个行业惯例，是否有坚实的底层逻辑？如果有，你的新方案是否绕开了它？"
-  - signal: "用户只会模仿，从不敢质疑行业惯例"
-    framework_lens: "没有解放"
-    follow_up_question: '你所在行业有哪些"向来如此"的做法？它们背后的假设在今天还成立吗？'
-updated_at: '2026-06-13'
+  - {'signal': '用户为了创新而创新，忽视基本商业规律', 'framework_lens': '解放过度', 'follow_up_question': '你质疑的这个行业惯例，是否有坚实的底层逻辑？如果有，你的新方案是否绕开了它？'}
+  - {'signal': '用户只会模仿，从不敢质疑行业惯例', 'framework_lens': '没有解放', 'follow_up_question': '你所在行业有哪些"向来如此"的做法？它们背后的假设在今天还成立吗？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

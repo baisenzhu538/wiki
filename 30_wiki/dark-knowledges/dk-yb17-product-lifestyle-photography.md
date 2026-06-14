@@ -1,11 +1,11 @@
 ---
-id: "dk-yb17-product-lifestyle-photography"
+id: dk-yb17-product-lifestyle-photography
 title: "产品场景化拍摄：从商品到生活方式的升维"
-type: "dark-knowledge"
-dark_knowledge_type: "insight"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: insight
+status: draft
 domain:
-  - "design"
+  - design
 source_person: "月白"
 source_context: "口述稿: AI设计-AI设计师实操培训01"
 source_refs:
@@ -13,22 +13,16 @@ source_refs:
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
-  - "dk-yb16-ecommerce-product-image-vs-lucky-draw"
-  - "dk-yb19-visual-strategy-price-match"
-contradicts: ""
-tags:
-  - None
-  - None
-  - None
+  - dk-yb16-ecommerce-product-image-vs-lucky-draw
+  - dk-yb19-visual-strategy-price-match
+contradicts: 
 pipeline:
-  - None
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 产品场景化拍摄：从商品到生活方式的升维

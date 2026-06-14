@@ -1,71 +1,53 @@
 ---
 id: yt-unit-model-selection
-component_of: ''
+component_of: 
 confidence: 0.85
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
-- entrepreneur
-- master
+  - entrepreneur
+  - master
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
-- yt-unit-model-overview
+  - yt-unit-model-overview
 query_triggers:
-- 复制哪个算哪个
-- 找单元模型
-- 核心单元判断
-- 单元模型选择
-- 十大单元模型
+  - "复制哪个算哪个"
+  - "找单元模型"
+  - "核心单元判断"
+  - "单元模型选择"
+  - "十大单元模型"
 related:
-- yt-unit-model-ladder
-- yt-unit-model-construction
-- yt-unit-model-benchmark
-- yt-unit-model-build
-- yt-unit-model-dynamic
-- yt-entrepreneur-five-step-method
-- yt-decision-key-hypotheses
-- yt-decision-y-model
-- master-systems-thinking
-reviewed_by: ''
+  - yt-unit-model-ladder
+  - yt-unit-model-construction
+  - yt-unit-model-benchmark
+  - yt-unit-model-build
+  - yt-unit-model-dynamic
+  - yt-entrepreneur-five-step-method
+  - yt-decision-key-hypotheses
+  - yt-decision-y-model
+  - master-systems-thinking
+reviewed_by: 
 source_refs:
-- src_20260524_9f4e5d6a-一堂-单元模型02口述
-- src_20260524_7c8d9e0f-一堂-单元模型03口述
+  - "src_20260524_9f4e5d6a-一堂-单元模型02口述"
+  - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
 status: reviewed
-title: 单元模型选择法：复制哪个算哪个，找到核心经济单元
+title: "单元模型选择法：复制哪个算哪个，找到核心经济单元"
 trust_level: high
 type: tool
-updated_at: '2026-06-13'
+updated_at: 2026-06-13
 version: 1
 yitang:
   map: entrepreneur
-  module: 创业必修
+  module: "创业必修"
   course_type: tool
   level: intermediate
-tags:
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
 pipeline:
-- null
-- null
-- null
-- confidence-draft
-- confidence-source-cited
+  - confidence-draft
+  - confidence-source-cited
 diagnostic_signals:
-  - signal: "团队对不同单元模型争论不休，各说各话"
-    framework_lens: "单元口径不统一——不同单元看到不同的商业真相"
-    follow_up_question: '你们争论的是"哪个单元更本质"还是"哪个单元更容易算"？前者是业务问题，后者是偷懒'
-  - signal: "选了一个单元模型，但算出来的结论和业务感觉完全相反"
-    framework_lens: "单元选择错配——单元不能代表业务核心经济逻辑"
-    follow_up_question: "这个单元是否能独立运营？是否能反映你最关心的那个商业问题？"
-updated_at: '2026-06-13'
+  - {'signal': '团队对不同单元模型争论不休，各说各话', 'framework_lens': '单元口径不统一——不同单元看到不同的商业真相', 'follow_up_question': '你们争论的是"哪个单元更本质"还是"哪个单元更容易算"？前者是业务问题，后者是偷懒'}
+  - {'signal': '选了一个单元模型，但算出来的结论和业务感觉完全相反', 'framework_lens': '单元选择错配——单元不能代表业务核心经济逻辑', 'follow_up_question': '这个单元是否能独立运营？是否能反映你最关心的那个商业问题？'}
 author: legacy
 ---
 

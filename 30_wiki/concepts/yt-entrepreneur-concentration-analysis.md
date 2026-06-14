@@ -1,14 +1,14 @@
 ---
-id: "yt-entrepreneur-concentration-analysis"
-component_of: ""
+id: yt-entrepreneur-concentration-analysis
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1849
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "集中度分析"
   - "行业集中度"
@@ -20,7 +20,6 @@ query_triggers:
   - "规模经济边界"
   - "市场格局分析"
   - "差异化空间"
-related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -28,26 +27,21 @@ source_refs:
 status: enriched
 title: "集中度分析"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '集中度分析', 'course_id': 'yt-entrepreneur-concentration-analysis', 'course_type': 'method', 'level': 'core'}
-tags:
-  - #scene/business-analysis
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/live-field
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "集中度分析"
+  course_id: yt-entrepreneur-concentration-analysis
+  course_type: method
+  level: core
 pipeline:
-  - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
 diagnostic_signals:
-  - signal: "用户用集中度判断行业好坏，但忽视自己定位"
-    framework_lens: "行业属性≠企业策略"
-    follow_up_question: "你选择的细分市场和差异化定位是什么？没有定位，集中度数据无法指导决策"
-  - signal: "用户认为高集中度行业就不能进"
-    framework_lens: "过度简化"
-    follow_up_question: "高集中度行业里有没有被忽视的细分市场或差异化角度？"
-updated_at: '2026-06-13'
+  - {'signal': '用户用集中度判断行业好坏，但忽视自己定位', 'framework_lens': '行业属性≠企业策略', 'follow_up_question': '你选择的细分市场和差异化定位是什么？没有定位，集中度数据无法指导决策'}
+  - {'signal': '用户认为高集中度行业就不能进', 'framework_lens': '过度简化', 'follow_up_question': '高集中度行业里有没有被忽视的细分市场或差异化角度？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

@@ -1,17 +1,17 @@
 ---
-id: "yt-pitch-sublimation"
+id: yt-pitch-sublimation
 component_of:
-  - "yt-model-personal-pitch-toolkit"
+  - yt-model-personal-pitch-toolkit
 confidence: 0.85
 created_at: 2026-05-13
-difficulty: "advanced"
+difficulty: advanced
 domain:
-  - "personal"
-  - "yitang"
+  - personal
+  - yitang
 estimated_tokens: 1600
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-model-personal-pitch-toolkit"
+  - yt-model-personal-pitch-toolkit
 query_triggers:
   - "升华化"
   - "升华"
@@ -20,34 +20,25 @@ query_triggers:
   - "更高意义"
   - "情怀"
 related:
-  - "yt-concept-weapon-arsenal"
+  - yt-concept-weapon-arsenal
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
-status: "enriched"
+status: enriched
 title: "讲香·升华化"
-type: "tool"
+type: tool
 version: 1
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '能把产品功能向上提炼1-2层到用户真正在乎的价值（心态、关系、事业）', 'framework_lens': '升华 = 价值层级上移', 'follow_up_question': '这个功能对用户的工作/关系/自我认知有什么深层影响？'}
   - {'signal': '升华后的价值仍能与产品直接关联，而不是空泛口号', 'framework_lens': '升华必须可落地', 'follow_up_question': '如果产品不存在，这个升华价值还能成立吗？'}
   - {'signal': '升华用于关键节点，而不是通篇灌输', 'framework_lens': '升华是点睛之笔', 'follow_up_question': '如果这段内容只保留一处升华，应该在哪里？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 # 讲香·升华化

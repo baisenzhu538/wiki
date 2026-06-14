@@ -1,11 +1,11 @@
 ---
 id: "dk-半肥猫-atomic-no-standard"
 title: "暗知识：原子化没有固定标准"
-type: "dark-knowledge"
-status: "draft"
+type: dark-knowledge
+status: draft
 domain:
-  - "ai-collaboration"
-  - "yitang"
+  - ai-collaboration
+  - yitang
 source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
@@ -18,24 +18,13 @@ related:
   - "skill-半肥猫-清洗资料为Markdown格式喂给AI"
   - "skill-半肥猫-动态读取-向量化管理迭代知识"
   - "dk-半肥猫-skill-rejection-value"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 暗知识：原子化没有固定标准

@@ -1,12 +1,12 @@
 ---
 id: "dk-纪浩-newbie-can-validate"
 title: "暗知识：新手也可以用四要素验证——因为验证用的是工具，不是眼光"
-type: "dark-knowledge"
-dark_knowledge_type: "insight"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: insight
+status: draft
 domain:
-  - "ai-collaboration"
-  - "yitang"
+  - ai-collaboration
+  - yitang
 source_person: "纪浩"
 source_context: "AI俱乐部-AI协作方法论 分享——四要素验证法的补充说明"
 source_refs:
@@ -16,20 +16,13 @@ updated_at: 2026-06-07
 related:
   - "concept-纪浩-ai-collaboration-methodology"
   - "skill-纪浩-four-elements-validation"
-tags:
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 暗知识：新手也可以用四要素验证

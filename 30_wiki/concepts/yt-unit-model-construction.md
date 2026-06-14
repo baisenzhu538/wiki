@@ -1,79 +1,57 @@
 ---
 id: yt-unit-model-construction
-component_of: ''
+component_of: 
 confidence: 0.85
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
-- entrepreneur
-- master
+  - entrepreneur
+  - master
 estimated_tokens: 2800
 language: zh-CN
 prerequisites:
-- yt-unit-model-overview
-- yt-unit-model-selection
+  - yt-unit-model-overview
+  - yt-unit-model-selection
 query_triggers:
-- 拆推评算
-- 练推借查
-- 单元模型构建
-- ABCD模型
-- 成本收入项清单
-- 单元模型公式
+  - "拆推评算"
+  - "练推借查"
+  - "单元模型构建"
+  - "ABCD模型"
+  - "成本收入项清单"
+  - "单元模型公式"
 related:
-- yt-unit-model-ladder
-- yt-unit-model-selection
-- yt-unit-model-benchmark
-- yt-unit-model-dynamic
-- yt-entrepreneur-five-step-method
-- yt-decision-y-model
-- master-first-principles
-- master-systems-thinking
-reviewed_by: ''
+  - yt-unit-model-ladder
+  - yt-unit-model-selection
+  - yt-unit-model-benchmark
+  - yt-unit-model-dynamic
+  - yt-entrepreneur-five-step-method
+  - yt-decision-y-model
+  - master-first-principles
+  - master-systems-thinking
+reviewed_by: 
 source_refs:
-- src_20260524_9f4e5d6a-一堂-单元模型02口述
-- src_20260524_7c8d9e0f-一堂-单元模型03口述
-- src_20260524_6b5a4c3d-一堂-单元模型04口述
+  - "src_20260524_9f4e5d6a-一堂-单元模型02口述"
+  - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
+  - "src_20260524_6b5a4c3d-一堂-单元模型04口述"
 status: reviewed
-title: 单元模型构建法：拆推评算与ABCD模型分类
+title: "单元模型构建法：拆推评算与ABCD模型分类"
 trust_level: high
 type: tool
 version: 1
 yitang:
   map: entrepreneur
-  module: 创业必修
+  module: "创业必修"
   course_type: tool
   level: intermediate
-tags:
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
 pipeline:
-- null
-- null
-- null
-- confidence-draft
-- confidence-source-cited
+  - confidence-draft
+  - confidence-source-cited
 diagnostic_signals:
-  - signal: "是否用拆推评算/ABCD 模型完整列出收入项和成本项"
-    framework_lens: "结构完整 / 穷举"
-    follow_up_question: "是否遗漏隐性成本（运营、管理、风险）？"
-  - signal: "每个数字是否有来源、样本量和置信度标注"
-    framework_lens: "数据溯源 / 可信度"
-    follow_up_question: "'假设'类数字占比是否 ≤30%？"
-  - signal: "是否对模型做压力测试/悲观情景验证"
-    framework_lens: "风险管理 / 不确定性"
-    follow_up_question: "是否只用乐观数据做预测？"
-  - signal: "单元分类（A/B/C/D）是否与业务阶段匹配"
-    framework_lens: "业务分类 / 阶段适配"
-    follow_up_question: "是否把 C/D 类复杂业务当成 A/B 类简单业务建模？"
-updated_at: '2026-06-13'
+  - {'signal': '是否用拆推评算/ABCD 模型完整列出收入项和成本项', 'framework_lens': '结构完整 / 穷举', 'follow_up_question': '是否遗漏隐性成本（运营、管理、风险）？'}
+  - {'signal': '每个数字是否有来源、样本量和置信度标注', 'framework_lens': '数据溯源 / 可信度', 'follow_up_question': "'假设'类数字占比是否 ≤30%？"}
+  - {'signal': '是否对模型做压力测试/悲观情景验证', 'framework_lens': '风险管理 / 不确定性', 'follow_up_question': '是否只用乐观数据做预测？'}
+  - {'signal': '单元分类（A/B/C/D）是否与业务阶段匹配', 'framework_lens': '业务分类 / 阶段适配', 'follow_up_question': '是否把 C/D 类复杂业务当成 A/B 类简单业务建模？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

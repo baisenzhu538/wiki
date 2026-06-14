@@ -1,11 +1,11 @@
 ---
 id: "skill-立即实践转化法"
 title: "技能：立即实践转化法"
-type: "skill"
-status: "draft"
+type: skill
+status: draft
 domain:
-  - "learning-methodology"
-  - "yitang"
+  - learning-methodology
+  - yitang
 source_person: "一堂课程"
 source_context: "一堂·科学学习IPO全景策略图 V2.0 (2026)"
 source_refs:
@@ -22,18 +22,12 @@ tools_required:
   - "行动计划模板"
   - "练习设计框架"
   - "反馈机制"
-prerequisite_skills:
-related:
-tags:
-  - None
-  - None
-  - None
-created_at: "2026-06-09"
-updated_at: "2026-06-13"
-author: "legacy"
-reviewed_by: "pending"
+created_at: 2026-06-09
+updated_at: 2026-06-13
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：立即实践转化法

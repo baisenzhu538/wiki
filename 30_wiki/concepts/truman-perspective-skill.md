@@ -1,34 +1,19 @@
 ---
-id: "truman-perspective-skill"
+id: truman-perspective-skill
 created_at: 2026-05-06
 domain:
   - "['master']"
 review_date: 2026-05-06
 reviewed_by: "黄药师"
-source_refs: ""
-status: "enriched"
+source_refs: 
+status: enriched
 title: "Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现"
-trust_level: "high"
-type: "concept"
+trust_level: high
+type: concept
 updated_at: 2026-05-06
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-verified-by-case"
-author: "legacy"
+  - confidence-verified-by-case
+author: legacy
 confidence: 0.75
 ---
 

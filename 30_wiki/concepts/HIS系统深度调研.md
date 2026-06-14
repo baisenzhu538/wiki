@@ -2,27 +2,20 @@
 id: "HIS系统深度调研"
 created_at: 2026-05-03
 domain:
-  - "healthcare"
+  - healthcare
 review_date: 2026-05-03
-reviewed_by: "Claude"
+reviewed_by: Claude
 source_refs:
-  - "src_20260503_968e0210"
-status: "reviewed"
+  - src_20260503_968e0210
+status: reviewed
 title: "HIS系统深度调研"
-trust_level: "medium"
-type: "concept"
+trust_level: medium
+type: concept
 updated_at: 2026-05-03
-tags:
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
 confidence: 0.85
 ---
 

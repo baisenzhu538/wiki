@@ -1,34 +1,30 @@
 ---
 id: "concept-一堂-kernel-iteration"
 title: "产品内核迭代：从静态到动态的五方向演化"
-type: "concept"
-status: "reviewed"
+type: concept
+status: reviewed
 reviewed_by: "周伯通"
 domain:
-  - "product"
-  - "yitang"
-source_person: "Truman"
+  - product
+  - yitang
+source_person: Truman
 source_context: "一堂产品内核迭代课（2026年）"
 source_refs:
   - "00_inbox/一堂-产品内核迭代课-Truman-口述.txt"
-created_at: "2026-06-09"
-updated_at: "2026-06-09"
+created_at: 2026-06-09
+updated_at: 2026-06-09
 related:
   - "concept-一堂-product-kernel"
   - "concept-一堂-kernel-validation"
 wiki_refs:
   - "concept-一堂-product-kernel"
   - "concept-一堂-kernel-validation"
-tags:
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
 confidence: 0.85
-trust_level: "high"
+trust_level: high
 ---
 
 # 产品内核迭代：从静态到动态的五方向演化

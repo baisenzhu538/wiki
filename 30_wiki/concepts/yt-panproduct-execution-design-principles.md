@@ -1,18 +1,18 @@
 ---
-id: "yt-panproduct-execution-design-principles"
+id: yt-panproduct-execution-design-principles
 component_of:
-  - "yt-model-pan-product-execution-toolkit"
+  - yt-model-pan-product-execution-toolkit
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1128
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-composite-pan-product-methodology"
-  - "yt-model-pan-product-demand-toolkit"
-  - "yt-model-pan-product-aesthetic-toolkit"
+  - yt-composite-pan-product-methodology
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
 query_triggers:
   - "产品落地"
   - "产品迭代"
@@ -23,44 +23,31 @@ query_triggers:
   - "落地执行"
   - "设计原则"
 related:
-  - "yt-panproduct-aesthetic-modeling"
-  - "yt-panproduct-aesthetic-pool"
-  - "yt-panproduct-execution-realistic-simulation"
+  - yt-panproduct-aesthetic-modeling
+  - yt-panproduct-aesthetic-pool
+  - yt-panproduct-execution-realistic-simulation
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-设计原则.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：设计原则"
-type: "tool"
+type: tool
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "泛产品设计"
-  course_type: "card"
-  level: "foundational"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: card
+  level: foundational
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '设计原则从用户目标和品牌定位推导而来，不是从网上抄来的', 'framework_lens': '原则是设计的宪法', 'follow_up_question': '这条原则如果改了，用户目标或品牌认知会变化吗？'}
   - {'signal': '原则数量精简到能被团队记住（通常 3-7 条）', 'framework_lens': '可记忆才能被执行', 'follow_up_question': '团队能不查文档说出全部原则吗？'}
   - {'signal': '遇到设计冲突时，能用原则做出可解释的选择', 'framework_lens': '原则的价值在于裁决', 'follow_up_question': '最近一次设计争议中，是哪条原则打破了平局？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium
 ---
 
 # 设计原则：掌握基本的UI/UE审美原则

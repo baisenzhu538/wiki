@@ -1,19 +1,19 @@
 ---
-id: "case-xiaolong-ecommerce-foresight"
+id: case-xiaolong-ecommerce-foresight
 title: "小龙电商：四层剥离——从服装到正装裤"
-type: "case"
+type: case
 domain:
-  - "yitang"
-status: "enriched"
+  - yitang
+status: enriched
 confidence: 0.9
-difficulty: "beginner"
+difficulty: beginner
 estimated_tokens: 2200
-language: "zh-CN"
+language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
   - "黄药师"
-  - "laowantong"
+  - laowantong
 source_refs:
   - "00_inbox/一堂-机会预判课-Truman-口述.txt"
   - "00_inbox/一堂-机会预判课-truman-笔记.txt"
@@ -26,19 +26,15 @@ query_triggers:
   - "四层剥离"
   - "供应链搞定"
   - "切口越小越准"
-related:
 wiki_refs:
-  - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
-  - "30_wiki/concepts/yt-foresight-addition-subtraction.md"
-  - "30_wiki/concepts/case-gudong-tea-shop-foresight.md"
-tags:
-  - None
-  - None
+  - 30_wiki/concepts/yt-foresight-15-char-mantra.md
+  - 30_wiki/concepts/yt-foresight-addition-subtraction.md
+  - 30_wiki/concepts/case-gudong-tea-shop-foresight.md
 pipeline:
-  - "confidence-source-cited"
-  - "confidence-verified-by-outcome"
-author: "legacy"
-trust_level: "medium-high"
+  - confidence-source-cited
+  - confidence-verified-by-outcome
+author: legacy
+trust_level: medium-high
 ---
 
 # 小龙电商：四层剥离——从服装到正装裤

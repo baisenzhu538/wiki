@@ -1,19 +1,16 @@
 ---
 title: "OCR: 一堂-单元模型-多模型情况"
-type: "concept"
-status: "enriched"
+type: concept
+status: enriched
 source_refs:
-  - "src_20260609_a3880f88"
+  - src_20260609_a3880f88
 created_at: "2026-06-09T14:05:27+00:00"
-updated_at: "2026-06-13"
-tags:
-  - None
-domain:
+updated_at: 2026-06-13
 id: "ocr-一堂-单元模型-多模型情况"
-author: "legacy"
-reviewed_by: "pending"
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 

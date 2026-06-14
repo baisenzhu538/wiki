@@ -2,28 +2,19 @@
 id: "ocr-一堂-地图-创业地图"
 created_at: 2026-05-21
 domain:
-  - "yitang"
+  - yitang
 source_refs:
-  - "src_20260522_c1935261"
-status: "enriched"
+  - src_20260522_c1935261
+status: enriched
 title: "OCR: 一堂-地图-创业地图"
-type: "concept"
+type: concept
 updated_at: 2026-05-22
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 # OCR: 一堂-地图-创业地图

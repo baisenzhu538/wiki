@@ -1,30 +1,25 @@
 ---
 id: tool-smart-medicine-cabinet-compliance-checklist
-title: 智能药柜/医药项目合规快速校验清单
+title: "智能药柜/医药项目合规快速校验清单"
 type: tool
 status: enriched
 domain:
-- healthcare
-- business-strategy
+  - healthcare
+  - business-strategy
 source_refs:
-- src_20260613_2286ccfb
-tags:
-- #smart-medicine-cabinet
-- #healthcare
-- #tool
-- #compliance
+  - src_20260613_2286ccfb
 created_at: 2026-06-15
 updated_at: 2026-06-15
-author: 王语嫣
-reviewed_by: 老顽童
+author: "王语嫣"
+reviewed_by: "老顽童"
 review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
 related:
-- [[smart-medicine-cabinet-national-policy-redlines]]
-- [[smart-medicine-cabinet-regional-policy-map]]
-- [[smart-medicine-cabinet-clinic-risk-observation]]
-- [[tool-clinic-cabinet-legal-contract-guide]]
+  - [['smart-medicine-cabinet-national-policy-redlines']]
+  - [['smart-medicine-cabinet-regional-policy-map']]
+  - [['smart-medicine-cabinet-clinic-risk-observation']]
+  - [['tool-clinic-cabinet-legal-contract-guide']]
 ---
 
 ---

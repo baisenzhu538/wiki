@@ -1,56 +1,48 @@
 ---
-id: "yt-model-pan-product-climbing-map"
+id: yt-model-pan-product-climbing-map
 component_of:
-  - "yt-composite-pan-product-methodology"
+  - yt-composite-pan-product-methodology
 confidence: 0.85
 created_at: 2026-05-11
-deprecation_reason: ""
-difficulty: "foundational"
+deprecation_reason: 
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1800
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-composite-pan-product-methodology"
+  - yt-composite-pan-product-methodology
 query_triggers:
   - "爬山地图"
-  - "L1-L6"
+  - L1-L6
   - "产品成长路径"
   - "产品设计段位"
   - "产品能力提升"
   - "十年修炼"
   - "产品设计进阶"
 related:
-  - "yt-model-pan-product-36-strategies"
-  - "yt-model-pan-product-three-virtues"
-  - "yt-model-pan-product-demand-toolkit"
-  - "yt-model-pan-product-aesthetic-toolkit"
-  - "yt-model-pan-product-execution-toolkit"
+  - yt-model-pan-product-36-strategies
+  - yt-model-pan-product-three-virtues
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
+  - yt-model-pan-product-execution-toolkit
 review_by: 2026-11-11
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂泛产品设计-十年修炼爬山地图.png"
-status: "enriched"
-superseded_by: ""
+status: enriched
+superseded_by: 
 title: "泛产品十年爬山地图：L1-L6成长路径"
-type: "framework"
+type: framework
 version: 1
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '用户想直接跳到L6创新领先', 'framework_lens': '跳级', 'follow_up_question': '你现在处于L1-L6的哪个段位？如果不到L4，谈L6为时过早'}
   - {'signal': '用户一直在L2狭义设计，不扩展场景', 'framework_lens': '卡在舒适区', 'follow_up_question': '你过去一年在多少个新场景应用过产品设计思维？如果<3个，你在舒适区'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 ## Constraints & Boundaries

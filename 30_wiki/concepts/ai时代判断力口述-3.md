@@ -2,42 +2,28 @@
 id: "ai时代判断力口述-3"
 confidence: 0.75
 created_at: 2026-05-25
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "ai-saas"
+  - ai-saas
 event: "一堂AI俱乐部第77场，2026-05-20"
-language: "zh-CN"
+language: zh-CN
 related:
-  - "yt-personal-ipo-learning"
-  - "master-knowledge-compound"
+  - yt-personal-ipo-learning
+  - master-knowledge-compound
   - "ocr-一堂-个人修炼-科学学习ipo模型"
 source_refs:
-  - "src_20260525_66059442"
+  - src_20260525_66059442
 speaker: "国帅（胡帅），一堂联合创始人兼CTO"
-status: "enriched"
+status: enriched
 title: "AI时代判断力口述（国帅）"
-type: "concept"
+type: concept
 updated_at: 2026-05-25
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-reviewed_by: "pending"
-trust_level: "medium"
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
+trust_level: medium
 ---
 
 # AI时代判断力口述（国帅）

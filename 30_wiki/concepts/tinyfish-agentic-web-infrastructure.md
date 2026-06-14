@@ -1,29 +1,17 @@
 ---
-id: "tinyfish-agentic-web-infrastructure"
+id: tinyfish-agentic-web-infrastructure
 created_at: 2026-05-06
 domain:
   - "['master']"
 review_date: 2026-05-06
 reviewed_by: "黄药师"
-source_refs: ""
-status: "enriched"
+source_refs: 
+status: enriched
 title: "TinyFish — Agentic Web 基础设施建设层 Skill"
-trust_level: "high"
-type: "concept"
+trust_level: high
+type: concept
 updated_at: 2026-05-06
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-pipeline:
-  - None
-  - None
-author: "legacy"
+author: legacy
 confidence: 0.75
 ---
 

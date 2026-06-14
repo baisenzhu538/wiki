@@ -1,14 +1,14 @@
 ---
-id: "yt-personal-verbatim-script"
-component_of: ""
+id: yt-personal-verbatim-script
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3000
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "逐字稿"
   - "演讲稿写作"
@@ -20,7 +20,6 @@ query_triggers:
   - "结构化表达"
   - "如何写逐字稿"
   - "公开演讲准备"
-related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -28,27 +27,21 @@ source_refs:
 status: enriched
 title: "逐字稿"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'personal', 'module': '逐字稿', 'course_id': 408, 'course_type': 'method', 'level': 'core'}
-tags:
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/note-taking/checklist-method
-  - #scene/skill-engineering
-  - #yitang
+yitang:
+  map: personal
+  module: "逐字稿"
+  course_id: 408
+  course_type: method
+  level: core
 pipeline:
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "关键表达会先写逐字稿，把每个字都推敲清楚"
-    framework_lens: "逐字稿是思维检测工具"
-    follow_up_question: "这段逐字稿中有没有哪句话你其实还没想清楚？"
-  - signal: "逐字稿使用口语化表达，而不是书面语照念"
-    framework_lens: "演讲是口头语言"
-    follow_up_question: "你写下的这段话念出来自然吗？听众能像聊天一样听懂吗？"
-  - signal: "重要演讲会经过多次演练，直到可以不依赖稿件"
-    framework_lens: "逐字稿是练习工具，不是拐杖"
-    follow_up_question: "你能否在只带关键词提示的情况下完成这次演讲？"
-updated_at: '2026-06-13'
+  - {'signal': '关键表达会先写逐字稿，把每个字都推敲清楚', 'framework_lens': '逐字稿是思维检测工具', 'follow_up_question': '这段逐字稿中有没有哪句话你其实还没想清楚？'}
+  - {'signal': '逐字稿使用口语化表达，而不是书面语照念', 'framework_lens': '演讲是口头语言', 'follow_up_question': '你写下的这段话念出来自然吗？听众能像聊天一样听懂吗？'}
+  - {'signal': '重要演讲会经过多次演练，直到可以不依赖稿件', 'framework_lens': '逐字稿是练习工具，不是拐杖', 'follow_up_question': '你能否在只带关键词提示的情况下完成这次演讲？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

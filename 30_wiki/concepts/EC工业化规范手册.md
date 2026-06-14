@@ -2,25 +2,19 @@
 id: "EC工业化规范手册"
 created_at: 2026-05-03
 domain:
-  - "healthcare"
+  - healthcare
 source_refs:
-  - "src_20260503_dadc7838"
-status: "enriched"
+  - src_20260503_dadc7838
+status: enriched
 title: "EC工业化规范手册"
-type: "concept"
+type: concept
 updated_at: 2026-05-03
-tags:
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 # EC工业化规范手册

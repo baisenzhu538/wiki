@@ -1,19 +1,16 @@
 ---
 title: "OCR: AI俱乐部-人和AI协作-纪浩-参考案例-图片02"
-type: "concept"
-status: "enriched"
+type: concept
+status: enriched
 source_refs:
-  - "src_20260609_9223aac2"
+  - src_20260609_9223aac2
 created_at: "2026-06-09T14:03:49+00:00"
 updated_at: "2026-06-09T14:23:54+00:00"
-tags:
-  - None
-domain:
 id: "ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02"
-author: "legacy"
-reviewed_by: "pending"
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 

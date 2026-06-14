@@ -6,24 +6,15 @@ domain:
 review_date: 2026-05-04
 reviewed_by: "黄药师"
 source_refs:
-  - "src_20260430_8cc84e5b"
-status: "enriched"
+  - src_20260430_8cc84e5b
+status: enriched
 title: "YC 放出一套「AI-NATIVE 公司」组织方法论——直接把公司当操作系统来设计！中层管理变成了 MARKDOWN"
-trust_level: "medium"
-type: "concept"
+trust_level: medium
+type: concept
 updated_at: 2026-05-04
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-source-cited"
-author: "legacy"
+  - confidence-source-cited
+author: legacy
 confidence: 0.8
 ---
 

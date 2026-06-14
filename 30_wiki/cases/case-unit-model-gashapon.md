@@ -1,13 +1,13 @@
 ---
-id: "case-unit-model-gashapon"
+id: case-unit-model-gashapon
 component_of: "[[yt-unit-model-concept]]"
 confidence: 0.85
 created_at: 2026-06-11
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2200
-language: "zh-CN"
+language: zh-CN
 prerequisites: "[[yt-unit-model-concept]] | [[yt-unit-model-build]]"
 query_triggers:
   - "扭蛋机案例"
@@ -15,7 +15,6 @@ query_triggers:
   - "单元模型案例"
   - "算错账案例"
   - "L2 L3 L4 L5 段位"
-related: []
 review_date: 2026-06-11
 reviewed_by: "老顽童"
 source_refs:
@@ -24,15 +23,15 @@ source_refs:
 status: reviewed
 title: "案例：扭蛋机/抓娃娃机的单元模型段位进阶"
 trust_level: medium
-type: "case"
-updated_at: "2026-06-11"
+type: case
+updated_at: 2026-06-11
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '单元模型', 'course_id': 'case-unit-model-gashapon', 'course_type': 'case', 'level': 'core'}
-tags:
-  - #scene/business-model
-  - #scene/case-study
-  - #scene/entrepreneurship
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "单元模型"
+  course_id: case-unit-model-gashapon
+  course_type: case
+  level: core
 pipeline:
   - confidence-source-cited
 author: legacy

@@ -1,47 +1,40 @@
 ---
-id: "master-decision-hygiene"
-component_of: ""
+id: master-decision-hygiene
+component_of: 
 confidence: 0.8
 created_at: 2026-05-18
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "master"
+  - master
 estimated_tokens: 1589
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "决策卫生"
   - "噪声减少"
   - "团队决策降噪"
 related:
-  - "yt-decision-y-model"
-  - "yt-decision-canvas"
-  - "yt-decision-consensus-iceberg"
-  - "yt-decision-full-process"
-  - "master-cognitive-bias-checklist"
-  - "master-ai-info-literacy"
-  - "yt-unit-model-ladder"
-  - "yt-unit-model-selection"
-reviewed_by: ""
+  - yt-decision-y-model
+  - yt-decision-canvas
+  - yt-decision-consensus-iceberg
+  - yt-decision-full-process
+  - master-cognitive-bias-checklist
+  - master-ai-info-literacy
+  - yt-unit-model-ladder
+  - yt-unit-model-selection
+reviewed_by: 
 source_refs:
   - {'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}
-status: "enriched"
+status: enriched
 title: "决策卫生五步法"
-type: "framework"
+type: framework
 updated_at: 2026-05-18
 version: 1
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-trust_level: "medium-high"
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+trust_level: medium-high
 ---
 
 # 决策卫生五步法

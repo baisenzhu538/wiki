@@ -1,14 +1,14 @@
 ---
-id: "yt-model-prediction-model"
-component_of: ""
+id: yt-model-prediction-model
+component_of: 
 confidence: 0.85
 created_at: 2026-05-11
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2226
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "三种预判范式"
   - "从最糙版到复杂版的三种预判范式"
@@ -16,38 +16,28 @@ query_triggers:
   - "常见角度"
   - "预判模型"
   - "预判模型：从最糙版到复杂版的三种预判范式"
-related:
 superseded_by:
-  - "yt-foresight-model-taxonomy"
+  - yt-foresight-model-taxonomy
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/预判模型.png"
-status: "enriched"
+status: enriched
 title: "预判模型：从最糙版到复杂版的三种预判范式"
-type: "framework"
+type: framework
 version: 1
 yitang:
-  map: "entrepreneur"
+  map: entrepreneur
   module: "创业必修"
-  course_type: "framework"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: framework
 pipeline:
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '用户用旧版预判模型做重要决策', 'framework_lens': '已被替代', 'follow_up_question': '你知道 [[yt-foresight-model-taxonomy]] 已经替代了本卡吗？重要决策应参考新版'}
   - {'signal': '用户只用最糙版处理复杂决策', 'framework_lens': '工具不足', 'follow_up_question': '这个决策失败的代价是什么？如果高，N要素不够'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 # 预判模型：从最糙版到复杂版的三种预判范式

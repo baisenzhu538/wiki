@@ -1,36 +1,26 @@
 ---
-id: "prd-as-ai-instruction"
-type: "tool"
-status: "draft"
+id: prd-as-ai-instruction
+type: tool
+status: draft
 source_refs:
-  - "src_20260606_90b44191"
+  - src_20260606_90b44191
 component_of:
-  - "ai-learning-closed-loop"
+  - ai-learning-closed-loop
 related:
-  - "course-to-skill-conversion"
-  - "voice-input-doubao"
+  - course-to-skill-conversion
+  - voice-input-doubao
 query_triggers:
   - "PRD文档怎么写"
   - "怎么让AI执行PRD"
   - "产品需求文档AI"
-reviewed_by: ""
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+reviewed_by: 
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
-domain:
-author: "legacy"
-created_at: "2026-06-15"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+created_at: 2026-06-15
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # PRD文档作为AI可执行指令

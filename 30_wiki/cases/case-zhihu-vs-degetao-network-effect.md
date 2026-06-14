@@ -1,14 +1,14 @@
 ---
-id: "case-zhihu-vs-degetao-network-effect"
-component_of: ""
+id: case-zhihu-vs-degetao-network-effect
+component_of: 
 confidence: 0.85
 created_at: 2026-06-11
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2200
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "知乎壁垒"
   - "得到壁垒"
@@ -18,7 +18,6 @@ query_triggers:
   - "巨头抄袭"
   - "知乎被抄"
   - "网络效应判断"
-related: []
 review_date: 2026-06-11
 reviewed_by: "周伯通"
 source_refs:
@@ -26,14 +25,15 @@ source_refs:
 status: reviewed
 title: "案例：知乎vs得到——网络效应壁垒的对比分析"
 trust_level: medium
-type: "case"
+type: case
 updated_at: 2026-06-11
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '壁垒', 'course_id': 'case-zhihu-vs-degetao-network-effect', 'course_type': 'case', 'level': 'core'}
-tags:
-  - #scene/strategy
-  - #scene/business-analysis
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "壁垒"
+  course_id: case-zhihu-vs-degetao-network-effect
+  course_type: case
+  level: core
 pipeline:
   - confidence-source-cited
 author: legacy

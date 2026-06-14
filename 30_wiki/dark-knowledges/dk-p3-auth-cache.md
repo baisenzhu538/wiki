@@ -1,37 +1,30 @@
 ---
-id: "dk-p3-auth-cache"
+id: dk-p3-auth-cache
 title: "P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env"
-type: "dark-knowledge"
-dark_knowledge_type: "failure"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: failure
+status: draft
 domain:
-  - "master"
-source_person: "system"
+  - master
+source_person: system
 source_context: "pitfalls.md P-3"
 source_refs:
-  - ".agent/pitfalls.md#P-3"
+  - .agent/pitfalls.md#P-3
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
-  - "dk-p1-model-switch-env"
-  - "dk-p5-cc-connect-config"
+  - dk-p1-model-switch-env
+  - dk-p5-cc-connect-config
 contradicts:
-  - "master-systems-thinking"
-  - "master-first-principles"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
+  - master-systems-thinking
+  - master-first-principles
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env

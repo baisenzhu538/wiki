@@ -1,14 +1,14 @@
 ---
-id: "yt-model-ipo-complete-checklist"
-component_of: ""
+id: yt-model-ipo-complete-checklist
+component_of: 
 confidence: 0.85
 created_at: 2026-05-07
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2614
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "IPO 科学学习完整清单"
   - "关联卡片"
@@ -18,39 +18,26 @@ query_triggers:
   - "科学学习完整清单"
   - "输入 Input"
   - "输出 Output"
-related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-科学学习IPO完整清单.jpg"
-status: "enriched"
+status: enriched
 title: "IPO 科学学习完整清单"
-type: "framework"
+type: framework
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "科学学习"
-  course_type: "reference"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: reference
 pipeline:
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '用户对着清单选课，但学完后能力没提升', 'framework_lens': '清单当导航但没执行——选课不等于学习', 'follow_up_question': '你选课后完成了多少作业/练习/输出？如果<50%，清单只是选课工具'}
   - {'signal': '用户只选输入类课程，不选输出和反馈类课程', 'framework_lens': '偏科学习——IPO闭环需要各环节均衡', 'follow_up_question': '你的选课清单中，输出类和反馈类课程占比多少？如果<30%，IPO失衡'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 # IPO 科学学习完整清单 (Complete List)

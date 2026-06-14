@@ -1,36 +1,29 @@
 ---
-id: "dk-p19-quote-yaml"
+id: dk-p19-quote-yaml
 title: "P-19：花引号被YAML误解析为字符串定界符"
-type: "dark-knowledge"
-dark_knowledge_type: "failure"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: failure
+status: draft
 domain:
-  - "master"
-source_person: "system"
+  - master
+source_person: system
 source_context: "pitfalls.md P-19"
 source_refs:
-  - ".agent/pitfalls.md#P-19"
+  - .agent/pitfalls.md#P-19
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
-  - "dk-p18-yaml-parser"
+  - dk-p18-yaml-parser
 contradicts:
-  - "kdo-yaml-frontmatter-safety"
-  - "master-first-principles"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
+  - kdo-yaml-frontmatter-safety
+  - master-first-principles
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # P-19：花引号被YAML误解析为字符串定界符

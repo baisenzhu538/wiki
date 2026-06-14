@@ -1,16 +1,16 @@
 ---
-id: "yt-tool-strategy-workshop"
+id: yt-tool-strategy-workshop
 component_of:
-  - "yt-management-toolkit-overview"
+  - yt-management-toolkit-overview
 confidence: 0.8
 created_at: 2026-05-19
-difficulty: "advanced"
+difficulty: advanced
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3400
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-management-toolkit-overview"
+  - yt-management-toolkit-overview
 query_triggers:
   - "战略会怎么开"
   - "战略研讨会引导"
@@ -33,52 +33,37 @@ query_triggers:
   - "战略会常见错误"
   - "战略会最佳实践"
 related:
-  - "yt-management-strategy-meeting"
-  - "yt-management-scientific-decision"
-  - "yt-management-goal-management"
-  - "yt-management-company-culture"
-  - "yt-tool-meeting-designer"
-  - "yt-decision-y-model"
-  - "yt-decision-full-process"
-  - "yt-tool-okr-cycle"
-  - "master-decision-hygiene"
-  - "master-knowledge-compound"
+  - yt-management-strategy-meeting
+  - yt-management-scientific-decision
+  - yt-management-goal-management
+  - yt-management-company-culture
+  - yt-tool-meeting-designer
+  - yt-decision-y-model
+  - yt-decision-full-process
+  - yt-tool-okr-cycle
+  - master-decision-hygiene
+  - master-knowledge-compound
 source_refs:
-  - "30_wiki/concepts/yt-management-strategy-meeting.md"
+  - 30_wiki/concepts/yt-management-strategy-meeting.md
 status: draft
 title: "战略研讨会引导手册"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'management', 'module': '管公司', 'course_type': 'tool', 'level': 'advanced'}
-tags:
-  - #management
-  - #meeting-facilitation
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/skill-engineering
-  - #strategy
-  - #yitang
+yitang:
+  map: management
+  module: "管公司"
+  course_type: tool
+  level: advanced
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - #tool
   - confidence-draft
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "会前是否每个参会者独立完成作业并匿名提交"
-    framework_lens: "异议安全 / 避免共识幻觉"
-    follow_up_question: "差异地图是否显示'所有人想法一致'的反常？"
-  - signal: "每个战略决策是否附带 ≥3 个可执行的撤销条件"
-    framework_lens: "反脆弱 / 假设管理"
-    follow_up_question: "战略会是否只产出'3 个关键动作'而没有退出机制？"
-  - signal: "战略方向是否被翻译成具体活动系统并检查一致性"
-    framework_lens: "活动系统 / 执行对齐"
-    follow_up_question: "≥50% 的活动是否在战略会后仍服务旧方向？"
-  - signal: "非参会者能否用自己的话复述战略方向核心逻辑"
-    framework_lens: "传达闭环 / 组织对齐"
-    follow_up_question: "战略会成果是否只停留在参会者脑中？"
-updated_at: '2026-06-13'
+  - {'signal': '会前是否每个参会者独立完成作业并匿名提交', 'framework_lens': '异议安全 / 避免共识幻觉', 'follow_up_question': "差异地图是否显示'所有人想法一致'的反常？"}
+  - {'signal': '每个战略决策是否附带 ≥3 个可执行的撤销条件', 'framework_lens': '反脆弱 / 假设管理', 'follow_up_question': "战略会是否只产出'3 个关键动作'而没有退出机制？"}
+  - {'signal': '战略方向是否被翻译成具体活动系统并检查一致性', 'framework_lens': '活动系统 / 执行对齐', 'follow_up_question': '≥50% 的活动是否在战略会后仍服务旧方向？'}
+  - {'signal': '非参会者能否用自己的话复述战略方向核心逻辑', 'framework_lens': '传达闭环 / 组织对齐', 'follow_up_question': '战略会成果是否只停留在参会者脑中？'}
+updated_at: 2026-06-13
 author: legacy
 reviewed_by: pending
 ---

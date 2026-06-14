@@ -1,17 +1,17 @@
 ---
-id: "yt-pitch-emotionalization"
+id: yt-pitch-emotionalization
 component_of:
-  - "yt-model-personal-pitch-toolkit"
+  - yt-model-personal-pitch-toolkit
 confidence: 0.85
 created_at: 2026-05-13
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "personal"
-  - "yitang"
+  - personal
+  - yitang
 estimated_tokens: 1600
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-model-personal-pitch-toolkit"
+  - yt-model-personal-pitch-toolkit
 query_triggers:
   - "情绪化"
   - "唤起情绪"
@@ -20,33 +20,24 @@ query_triggers:
   - "好奇情绪"
   - "认同情绪"
 related:
-  - "yt-concept-weapon-arsenal"
+  - yt-concept-weapon-arsenal
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
-status: "enriched"
+status: enriched
 title: "讲香·情绪化"
-type: "tool"
+type: tool
 version: 1
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '能明确识别要唤起的具体情绪（恐惧/向往/好奇/认同）', 'framework_lens': '情绪是具体工具', 'follow_up_question': '这个内容到底想让用户感到什么？'}
   - {'signal': '情绪与用户的真实目标和痛点相连，而不是凭空制造', 'framework_lens': '情绪需要锚点', 'follow_up_question': '用户产生这个情绪后，会更有动力解决什么问题？'}
   - {'signal': '情绪强度与场景匹配，不过度操纵', 'framework_lens': '情绪有伦理剂量', 'follow_up_question': '如果我是用户，我会觉得被理解还是被利用？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 # 讲香·情绪化

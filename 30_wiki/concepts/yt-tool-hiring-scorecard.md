@@ -1,16 +1,16 @@
 ---
-id: "yt-tool-hiring-scorecard"
+id: yt-tool-hiring-scorecard
 component_of:
-  - "yt-management-toolkit-overview"
+  - yt-management-toolkit-overview
 confidence: 0.8
 created_at: 2026-05-19
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3400
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-management-toolkit-overview"
+  - yt-management-toolkit-overview
 query_triggers:
   - "结构化面试"
   - "面试打分卡"
@@ -33,45 +33,33 @@ query_triggers:
   - "面试评估维度"
   - "面试偏差降低"
 related:
-  - "yt-management-scientific-hiring"
-  - "yt-management-onboarding"
-  - "yt-management-company-culture"
-  - "yt-decision-width-method"
-  - "yt-decision-canvas"
-  - "yt-decision-habit-shift"
-  - "master-cognitive-bias-checklist"
-  - "master-decision-hygiene"
+  - yt-management-scientific-hiring
+  - yt-management-onboarding
+  - yt-management-company-culture
+  - yt-decision-width-method
+  - yt-decision-canvas
+  - yt-decision-habit-shift
+  - master-cognitive-bias-checklist
+  - master-decision-hygiene
 source_refs:
-  - "30_wiki/concepts/yt-management-scientific-hiring.md"
+  - 30_wiki/concepts/yt-management-scientific-hiring.md
 status: draft
 title: "结构化面试打分卡"
 trust_level: medium
-type: "tool"
-updated_at: 2026-05-19
+type: tool
+updated_at: 2026-06-13
 version: 1
-yitang: {'map': 'management', 'module': '管团队', 'course_type': 'tool', 'level': 'core'}
-tags:
-  - #hiring
-  - #interview
-  - #management
-  - #scene/hardware-debugging/prototyping
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/skill-engineering
-  - #yitang
+yitang:
+  map: management
+  module: "管团队"
+  course_type: tool
+  level: core
 pipeline:
-  - #boundary/requires-human-judgment
-  - #tool
   - confidence-draft
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用了打分卡，但面试官之间打分差距巨大"
-    framework_lens: "评分标准未对齐——打分卡需要校准会议统一标准"
-    follow_up_question: '面试前有没有做校准会议？大家对每个维度的"3分"定义是否一致？'
-  - signal: "候选人面试分数很高，但入职后表现一般"
-    framework_lens: "面试场景与真实工作场景脱节——打分卡测的是面试表现，不是工作表现"
-    follow_up_question: "打分卡里的维度能不能对应到该岗位3个月后的真实产出？"
-updated_at: '2026-06-13'
+  - {'signal': '用了打分卡，但面试官之间打分差距巨大', 'framework_lens': '评分标准未对齐——打分卡需要校准会议统一标准', 'follow_up_question': '面试前有没有做校准会议？大家对每个维度的"3分"定义是否一致？'}
+  - {'signal': '候选人面试分数很高，但入职后表现一般', 'framework_lens': '面试场景与真实工作场景脱节——打分卡测的是面试表现，不是工作表现', 'follow_up_question': '打分卡里的维度能不能对应到该岗位3个月后的真实产出？'}
 author: legacy
 reviewed_by: pending
 ---

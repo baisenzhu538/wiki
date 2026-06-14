@@ -1,16 +1,16 @@
 ---
-id: "yt-tool-okr-cycle"
+id: yt-tool-okr-cycle
 component_of:
-  - "yt-management-toolkit-overview"
+  - yt-management-toolkit-overview
 confidence: 0.82
 created_at: 2026-05-19
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3300
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-management-toolkit-overview"
+  - yt-management-toolkit-overview
 query_triggers:
   - "OKR制定"
   - "OKR复盘"
@@ -33,50 +33,35 @@ query_triggers:
   - "目标追踪工具"
   - "OKR实施指南"
 related:
-  - "yt-management-goal-management"
-  - "yt-management-business-formula"
-  - "yt-management-project-management"
-  - "yt-management-scientific-meetings"
-  - "yt-tool-meeting-designer"
-  - "yt-decision-canvas"
-  - "yt-decision-habit-shift"
-  - "master-decision-hygiene"
+  - yt-management-goal-management
+  - yt-management-business-formula
+  - yt-management-project-management
+  - yt-management-scientific-meetings
+  - yt-tool-meeting-designer
+  - yt-decision-canvas
+  - yt-decision-habit-shift
+  - master-decision-hygiene
 source_refs:
-  - "30_wiki/concepts/yt-management-goal-management.md"
+  - 30_wiki/concepts/yt-management-goal-management.md
 status: draft
 title: "OKR 制定与复盘罗盘"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'management', 'module': '管业务', 'course_type': 'tool', 'level': 'core'}
-tags:
-  - #goal-management
-  - #management
-  - #okr
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/skill-engineering/publish-deploy
-  - #yitang
+yitang:
+  map: management
+  module: "管业务"
+  course_type: tool
+  level: core
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - #tool
   - confidence-draft
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "OKR 是否与公司战略和日常管理节奏整合而非并行"
-    framework_lens: "系统整合 / 脱节诊断"
-    follow_up_question: "团队优先执行的是 KPI 还是 OKR？"
-  - signal: "是否建立周度脉搏机制并持续跟踪 KR 进度"
-    framework_lens: "节奏 / 反馈环"
-    follow_up_question: "季度初写的 OKR 是否在季度中再也没人看？"
-  - signal: "KR 是否真正反映用户/客户价值而非数字游戏"
-    framework_lens: "价值验证 / 反指标"
-    follow_up_question: "KR 完成 100% 但业务实际进展是否不明显？"
-  - signal: "首次推行 OKR 是否与绩效奖惩脱钩"
-    framework_lens: "信任建立 / 激励兼容"
-    follow_up_question: "OKR 是否变成变相 KPI？"
-updated_at: '2026-06-13'
+  - {'signal': 'OKR 是否与公司战略和日常管理节奏整合而非并行', 'framework_lens': '系统整合 / 脱节诊断', 'follow_up_question': '团队优先执行的是 KPI 还是 OKR？'}
+  - {'signal': '是否建立周度脉搏机制并持续跟踪 KR 进度', 'framework_lens': '节奏 / 反馈环', 'follow_up_question': '季度初写的 OKR 是否在季度中再也没人看？'}
+  - {'signal': 'KR 是否真正反映用户/客户价值而非数字游戏', 'framework_lens': '价值验证 / 反指标', 'follow_up_question': 'KR 完成 100% 但业务实际进展是否不明显？'}
+  - {'signal': '首次推行 OKR 是否与绩效奖惩脱钩', 'framework_lens': '信任建立 / 激励兼容', 'follow_up_question': 'OKR 是否变成变相 KPI？'}
+updated_at: 2026-06-13
 author: legacy
 reviewed_by: pending
 ---

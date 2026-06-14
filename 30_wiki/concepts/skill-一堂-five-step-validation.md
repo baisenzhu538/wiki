@@ -1,12 +1,12 @@
 ---
 id: "skill-一堂-five-step-validation"
 title: "技能：聊问查测盘五步验证法"
-type: "skill"
-status: "draft"
+type: skill
+status: draft
 domain:
-  - "product"
-  - "yitang"
-source_person: "Truman"
+  - product
+  - yitang
+source_person: Truman
 source_context: "一堂产品内核验证课"
 source_refs:
   - "00_inbox/一堂-产品内核验证课-Truman-口述.txt"
@@ -26,20 +26,15 @@ related:
 wiki_refs:
   - "concept-一堂-product-kernel"
   - "skill-一堂-hypothesis-validation-three-axe"
-created_at: "2026-06-10"
-updated_at: "2026-06-10"
-tags:
-  - None
-  - None
-  - None
-  - None
+created_at: 2026-06-10
+updated_at: 2026-06-10
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：聊问查测盘五步验证法

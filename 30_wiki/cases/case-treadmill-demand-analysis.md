@@ -1,35 +1,31 @@
 ---
-id: "case-treadmill-demand-analysis"
+id: case-treadmill-demand-analysis
 title: "跑步机需求分析：在家健身场景的需求拆解与替代方案博弈"
-type: "case"
-status: "reviewed"
+type: case
+status: reviewed
 domain:
-  - "product"
-  - "yitang"
-source_person: "Truman"
+  - product
+  - yitang
+source_person: Truman
 source_context: "一堂五步法-需求分析课程案例"
 source_refs:
   - "00_inbox/一堂五步法/一堂-一堂五步法-需求-跑步机案例-需求分析图.png"
   - "00_inbox/一堂五步法/一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.txt"
-created_at: "2026-06-11"
-updated_at: "2026-06-11"
+created_at: 2026-06-11
+updated_at: 2026-06-11
 related:
   - "concept-一堂-demand-analysis"
-  - "yt-foresight-15-char-mantra"
+  - yt-foresight-15-char-mantra
 wiki_refs:
   - "concept-一堂-demand-analysis"
-  - "yt-foresight-15-char-mantra"
-tags:
-  - None
-  - None
-  - None
+  - yt-foresight-15-char-mantra
 pipeline:
-  - "confidence-source-cited"
-  - "confidence-case-verified"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+  - confidence-case-verified
+author: legacy
+reviewed_by: pending
 confidence: 0.85
-trust_level: "high"
+trust_level: high
 ---
 
 # 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈

@@ -1,14 +1,14 @@
 ---
-id: "yt-entrepreneur-research-cognition"
-component_of: ""
+id: yt-entrepreneur-research-cognition
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1821
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "调研认知"
   - "创业调研方法"
@@ -21,7 +21,7 @@ query_triggers:
   - "竞争情报搜集"
   - "上市报告分析"
 related:
-  - "master-ai-info-literacy"
+  - master-ai-info-literacy
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -29,28 +29,20 @@ source_refs:
 status: enriched
 title: "调研认知"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '调研认知', 'course_id': 'yt-entrepreneur-research-cognition', 'course_type': 'method', 'level': 'core'}
-tags:
-  - #scene/ai-collaboration
-  - #scene/business-analysis/conversion-rate
-  - #scene/learning-methodology
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "调研认知"
+  course_id: yt-entrepreneur-research-cognition
+  course_type: method
+  level: core
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/requires-human-judgment
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户用AI做了一堆调研，但结论不可靠"
-    framework_lens: "AI工具强但调研认知弱"
-    follow_up_question: "这些结论中，哪些经过了至少两个独立来源的交叉验证？"
-  - signal: "用户只收集信息，不形成洞察"
-    framework_lens: "调研≠信息收集"
-    follow_up_question: "你收集的信息中，有多少转化为了可指导决策的洞察？"
-updated_at: '2026-06-13'
+  - {'signal': '用户用AI做了一堆调研，但结论不可靠', 'framework_lens': 'AI工具强但调研认知弱', 'follow_up_question': '这些结论中，哪些经过了至少两个独立来源的交叉验证？'}
+  - {'signal': '用户只收集信息，不形成洞察', 'framework_lens': '调研≠信息收集', 'follow_up_question': '你收集的信息中，有多少转化为了可指导决策的洞察？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

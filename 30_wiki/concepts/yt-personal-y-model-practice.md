@@ -1,14 +1,14 @@
 ---
-id: "yt-personal-y-model-practice"
-component_of: ""
+id: yt-personal-y-model-practice
+component_of: 
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2024
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "Y模型四最"
   - "Y模型实操"
@@ -18,37 +18,26 @@ query_triggers:
   - "为什么Y模型难学"
   - "核心动词"
   - "科学成事的底层操作系统"
-related:
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修炼-Y模型实操口述版.md"
-status: "enriched"
+status: enriched
 title: "Y模型实操：科学成事的底层操作系统"
-type: "tool"
+type: tool
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "个人修炼"
-  course_type: "explore_camp"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: explore_camp
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '遇到具体问题时会用Y模型作为元框架，牵出已有知识并生成可验证方案', 'framework_lens': 'Y模型是底层操作系统', 'follow_up_question': '你最近一次用Y模型解决的具体问题是什么？'}
   - {'signal': '能区分Y模型用于‘事前推演’和‘事后解释’，更重视事前推演', 'framework_lens': 'Y模型的价值在预测', 'follow_up_question': '这个Y模型是在行动前画的，还是成功后补的？'}
   - {'signal': '能把Y模型应用到至少两个不同领域，并发现通用结构', 'framework_lens': 'Y模型跨域迁移', 'follow_up_question': '这个Y模型在另一个领域中如何表达？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium
 ---
 
 # Y模型实操：科学成事的底层操作系统

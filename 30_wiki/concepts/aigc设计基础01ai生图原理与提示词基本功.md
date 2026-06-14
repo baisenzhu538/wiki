@@ -2,28 +2,21 @@
 id: "aigc设计基础01ai生图原理与提示词基本功"
 created_at: 2026-05-28
 domain:
-  - "ai-saas"
-  - "design"
+  - ai-saas
+  - design
 source_refs:
-  - "src_20260528_2ba8539f"
-status: "draft"
+  - src_20260528_2ba8539f
+status: draft
 title: "AIGC设计基础01：AI生图原理与提示词基本功"
-type: "concept"
+type: concept
 updated_at: 2026-06-12
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # AIGC设计基础01：AI生图原理与提示词基本功

@@ -4,26 +4,18 @@ created_at: 2026-04-30
 domain:
   - "['ai-saas']"
 source_refs:
-  - "src_20260501_4eee4e95"
-status: "superseded"
+  - src_20260501_4eee4e95
+status: superseded
 superseded_by: "[[紫鲸AI智能体工作流平台]]"
 title: "紫鲸AI_智能体工作流平台_深度分析与产品设计"
-type: "concept"
+type: concept
 updated_at: 2026-05-03
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.75
-trust_level: "medium-low"
+trust_level: medium-low
 ---
 
 > **Status**: superseded by `[[紫鲸AI智能体工作流平台]]`（内容完全覆盖本页面，此页面为 initial ingest 产生的骨架，保留 frontmatter 以维护 source_ref 追溯链）

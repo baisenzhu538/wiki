@@ -1,21 +1,20 @@
 ---
-id: "case-toy-cabinet-business-model"
-component_of: ""
+id: case-toy-cabinet-business-model
+component_of: 
 confidence: 0.85
 created_at: 2026-06-10
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1800
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "玩具柜案例"
   - "商业模式案例"
   - "一堂案例"
   - "线下玩具柜"
   - "单元模型案例"
-related: []
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
@@ -24,13 +23,15 @@ source_refs:
 status: reviewed
 title: "案例：线下玩具柜商业模式"
 trust_level: medium
-type: "case"
+type: case
 updated_at: 2026-06-10
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '商业模式', 'course_id': 'case-toy-cabinet-business-model', 'course_type': 'case', 'level': 'core'}
-tags:
-  - #scene/business-analysis
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "商业模式"
+  course_id: case-toy-cabinet-business-model
+  course_type: case
+  level: core
 pipeline:
   - confidence-source-cited
 author: legacy

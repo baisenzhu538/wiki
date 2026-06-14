@@ -1,37 +1,26 @@
 ---
 id: smart-medicine-cabinet-distribution
-title: 智能药柜分销业态洞察
+title: "智能药柜分销业态洞察"
 type: concept
 status: stable
 domain:
-  - 医药零售
-  - 智能药柜
-  - 分销系统
+  - "医药零售"
+  - "智能药柜"
+  - "分销系统"
 confidence: 0.82
 trust_level: medium
 diagnostic_signals:
-  - signal: 目标省份是否属于允许智慧药房售处方药的积极探索型政策区
-    framework_lens: 政策地域 / 合规边界
-    follow_up_question: 是否用山西模式直接套用到严格保守型省份？
-  - signal: 商业模式是否把医保结算作为前置假设
-    framework_lens: 关键依赖 / 商业可行性
-    follow_up_question: 当地医保是否已接入智慧药房？
-  - signal: 是否已完成单点单元模型测算而非仅看政策允许
-    framework_lens: 单元经济 / 从政策到利润
-    follow_up_question: 冷链、追溯、药师成本是否纳入模型？
+  - {'signal': '目标省份是否属于允许智慧药房售处方药的积极探索型政策区', 'framework_lens': '政策地域 / 合规边界', 'follow_up_question': '是否用山西模式直接套用到严格保守型省份？'}
+  - {'signal': '商业模式是否把医保结算作为前置假设', 'framework_lens': '关键依赖 / 商业可行性', 'follow_up_question': '当地医保是否已接入智慧药房？'}
+  - {'signal': '是否已完成单点单元模型测算而非仅看政策允许', 'framework_lens': '单元经济 / 从政策到利润', 'follow_up_question': '冷链、追溯、药师成本是否纳入模型？'}
 source_refs:
   - 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
-  - 00_inbox/广冷电子/pharma_policy.agent.final.md
-  - 00_inbox/广冷电子/pharma_policy_sec02.md
-  - 00_inbox/广冷电子/pharma_policy_sec03.md
-  - 智能药柜-招商合作沟通录音 (2026-06-13)
+  - "00_inbox/广冷电子/pharma_policy.agent.final.md"
+  - "00_inbox/广冷电子/pharma_policy_sec02.md"
+  - "00_inbox/广冷电子/pharma_policy_sec03.md"
+  - "智能药柜-招商合作沟通录音 (2026-06-13)"
 created_at: 2026-06-13
 updated_at: 2026-06-13
-tags:
-  - #smart-medicine-cabinet
-  - #pharma-retail
-  - #distribution
-  - #policy
 author: legacy
 reviewed_by: pending
 ---

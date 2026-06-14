@@ -1,11 +1,11 @@
 ---
 id: "dk-半肥猫-skill-rejection-value"
 title: "暗知识：Skill 的最大价值不是生成，是拒绝"
-type: "dark-knowledge"
-status: "draft"
+type: dark-knowledge
+status: draft
 domain:
-  - "ai-collaboration"
-  - "yitang"
+  - ai-collaboration
+  - yitang
 source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
@@ -18,25 +18,14 @@ related:
   - "skill-半肥猫-设计Skill的评分规则与风险边界"
   - "skill-半肥猫-判断课程是否值得做成Skill"
   - "concept-纪浩-ai-collaboration-methodology"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-test"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-test
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 暗知识：Skill 的最大价值不是生成，是拒绝

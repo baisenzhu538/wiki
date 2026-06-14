@@ -1,18 +1,18 @@
 ---
-id: "yt-panproduct-execution-incubation-polish"
+id: yt-panproduct-execution-incubation-polish
 component_of:
-  - "yt-model-pan-product-execution-toolkit"
+  - yt-model-pan-product-execution-toolkit
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1062
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-composite-pan-product-methodology"
-  - "yt-model-pan-product-demand-toolkit"
-  - "yt-model-pan-product-aesthetic-toolkit"
+  - yt-composite-pan-product-methodology
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
 query_triggers:
   - "产品落地"
   - "产品迭代"
@@ -23,43 +23,31 @@ query_triggers:
   - "落地执行"
   - "酝酿式打磨"
 related:
-  - "yt-panproduct-aesthetic-pool"
-  - "yt-panproduct-demand-need-discovery"
-  - "yt-panproduct-execution-review-iteration"
+  - yt-panproduct-aesthetic-pool
+  - yt-panproduct-demand-need-discovery
+  - yt-panproduct-execution-review-iteration
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-酝酿式打磨.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：酝酿式打磨"
-type: "tool"
+type: tool
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "泛产品设计"
-  course_type: "card"
-  level: "intermediate"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: card
+  level: intermediate
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '在重要方案上主动安排‘冷却期’，而不是连续冲刺', 'framework_lens': '酝酿利用潜意识加工', 'follow_up_question': '你最近一个方案在搁置一段时间后，再看时发现了什么问题？'}
   - {'signal': '每次 revisit 都对照明确的标准检查，而不是凭感觉改', 'framework_lens': '打磨需要验收标准', 'follow_up_question': '这个版本的改动解决了上一次评审中的哪个具体问题？'}
   - {'signal': '能区分‘真正需要打磨’和‘用打磨逃避决策’', 'framework_lens': '打磨是手段不是目的', 'follow_up_question': '如果明天必须上线，你现在做的打磨还重要吗？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium
 ---
 
 # 酝酿式打磨：科学式的灵感管理

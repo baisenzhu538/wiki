@@ -1,21 +1,21 @@
 ---
-id: "yt-note-fact-pattern-insight"
+id: yt-note-fact-pattern-insight
 title: "事实→规律→见解：深度思考笔记的三段论结构"
-type: "concept"
-status: "draft"
+type: concept
+status: draft
 domain:
-  - "yitang"
-  - "personal-growth"
-language: "zh-CN"
+  - yitang
+  - personal-growth
+language: zh-CN
 version: 1
 confidence: 0.86
 source_refs:
   - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
 related:
-  - "yt-note-checklist-concept"
-  - "yt-note-problem-solving-capability"
+  - yt-note-checklist-concept
+  - yt-note-problem-solving-capability
   - "skill-问题驱动式深度思考笔记"
-  - "yt-note-deliberate-practice-four-elements"
+  - yt-note-deliberate-practice-four-elements
 query_triggers:
   - "深度思考笔记"
   - "事实规律见解"
@@ -23,26 +23,19 @@ query_triggers:
   - "笔记怎么有洞察"
   - "往深了挖"
   - "三段论笔记"
-created_at: "2026-06-10"
+created_at: 2026-06-10
 estimated_tokens: 4200
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
+  - confidence-draft
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '笔记中事实、规律、见解各占独立章节，且规律段落明确引用≥3条事实', 'framework_lens': '认知加工分层：记录→归纳→迁移', 'follow_up_question': '如果删掉‘见解’章节，读者能否根据你列出的事实和规律自己推导出结论？'}
   - {'signal': '在收集事实阶段会主动标注来源和可信度，而不是只写‘我觉得’', 'framework_lens': '证据质量先于解释质量', 'follow_up_question': '这些事实中有没有反例？如果存在反例，规律是否需要加上边界条件？'}
   - {'signal': '写完后能用一句话回答‘这对我下一步决策有什么改变’', 'framework_lens': '见解必须产生行动或判断差异', 'follow_up_question': '如果这个见解是错误的，你会在什么观察出现后放弃它？'}
-updated_at: "2026-06-13"
-author: "legacy"
-reviewed_by: "pending"
-trust_level: "low"
+updated_at: 2026-06-13
+author: legacy
+reviewed_by: pending
+trust_level: low
 ---
 
 # 事实→规律→见解：深度思考笔记的三段论结构

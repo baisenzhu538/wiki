@@ -1,14 +1,12 @@
 ---
 id: "skill-代入场景推演要素法"
 title: "技能：代入场景推演要素法"
-type: "skill"
-status: "draft"
-domain:
+type: skill
+status: draft
 source_person: "一堂课程"
-source_context: "src_20260609_44a9e79a"
+source_context: src_20260609_44a9e79a
 source_refs:
-  - "src_20260609_44a9e79a"
-wiki_refs:
+  - src_20260609_44a9e79a
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -17,16 +15,12 @@ tools_required:
   - "流程图"
   - "角色扮演"
   - "沙盘推演"
-prerequisite_skills:
-related:
 created_at: "2026-06-09T15:09:00+00:00"
 updated_at: "2026-06-09T15:09:00+00:00"
-pipeline:
-  - None
-author: "legacy"
-reviewed_by: "pending"
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：代入场景推演要素法

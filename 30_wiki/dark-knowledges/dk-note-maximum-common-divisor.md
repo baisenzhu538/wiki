@@ -1,41 +1,29 @@
 ---
-id: "dk-note-maximum-common-divisor"
+id: dk-note-maximum-common-divisor
 title: "清单体是人与AI的'最大公约数'：结构降级即认知升级"
-type: "dark-knowledge"
-dark_knowledge_type: "insight"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: insight
+status: draft
 domain:
-  - "yitang"
-  - "note-taking"
-source_person: "Truman"
+  - yitang
+  - note-taking
+source_person: Truman
 source_context: "一堂-AI时代清单体笔记-Truman-口述-01.txt"
 source_refs:
   - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
-  - "yt-note-checklist-concept"
-  - "yt-note-ai-human-division"
-  - "dk-note-surplus-brainpower"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  - yt-note-checklist-concept
+  - yt-note-ai-human-division
+  - dk-note-surplus-brainpower
 pipeline:
-  - None
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 清单体是人与AI的"最大公约数"：结构降级即认知升级

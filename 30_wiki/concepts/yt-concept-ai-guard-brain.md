@@ -1,19 +1,19 @@
 ---
-id: "yt-concept-ai-guard-brain"
+id: yt-concept-ai-guard-brain
 title: "守脑如玉：AI时代保持大脑锋利"
-type: "concept"
-status: "enriched"
+type: concept
+status: enriched
 domain:
-  - "yitang"
-  - "ai"
-language: "zh-CN"
+  - yitang
+  - ai
+language: zh-CN
 version: 1
-difficulty: "intermediate"
+difficulty: intermediate
 confidence: 0.85
 related:
-  - "yt-model-cognitive-upgrade-framework"
+  - yt-model-cognitive-upgrade-framework
 prerequisites:
-  - "yt-model-prompt-engineering"
+  - yt-model-prompt-engineering
 source_refs:
   - "10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
   - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
@@ -26,30 +26,18 @@ query_triggers:
   - "手写笔记"
   - "模型敏感度"
   - "学习内化"
-created_at: "2026-05-13"
+created_at: 2026-05-13
 estimated_tokens: 3400
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '用户所有工作都交给AI，自己不再思考', 'framework_lens': '大脑外包——AI是磨刀石不是拐杖', 'follow_up_question': '你最近一次完全不用AI、独立解决一个复杂问题是什么时候？如果超过两周，你的大脑可能在退化'}
   - {'signal': '用户坚持手写笔记、不用AI，效率低下', 'framework_lens': '另一极端——拒绝AI的能力放大', 'follow_up_question': '你手写笔记的内容中，哪些其实可以让AI帮你整理、检索、关联？'}
-updated_at: "2026-06-13"
-author: "legacy"
-reviewed_by: "pending"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+reviewed_by: pending
+trust_level: medium-high
 ---
 
 # 守脑如玉：AI 时代保持大脑锋利

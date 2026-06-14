@@ -1,45 +1,36 @@
 ---
-id: "master-ai-info-literacy"
-component_of: ""
+id: master-ai-info-literacy
+component_of: 
 confidence: 0.8
 created_at: 2026-05-18
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "master"
+  - master
 estimated_tokens: 1176
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "AI信息素养"
   - "信息真伪辨别"
   - "AI幻觉检测"
 related:
-  - "yt-entrepreneur-research-cognition"
-  - "yt-model-prompt-engineering"
-  - "yt-personal-ai-capability"
-  - "yt-research-weaponry-course"
-  - "yt-decision-y-model"
-reviewed_by: ""
+  - yt-entrepreneur-research-cognition
+  - yt-model-prompt-engineering
+  - yt-personal-ai-capability
+  - yt-research-weaponry-course
+  - yt-decision-y-model
+reviewed_by: 
 source_refs:
   - {'来源': '一堂 (Truman)'}
-status: "enriched"
+status: enriched
 title: "AI时代信息素养框架"
-type: "framework"
+type: framework
 updated_at: 2026-05-18
 version: 1
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-author: "legacy"
-trust_level: "medium-high"
+  - confidence-source-cited
+author: legacy
+trust_level: medium-high
 ---
 
 # AI时代信息素养框架

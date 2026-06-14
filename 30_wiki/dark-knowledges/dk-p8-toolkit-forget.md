@@ -1,38 +1,30 @@
 ---
-id: "dk-p8-toolkit-forget"
+id: dk-p8-toolkit-forget
 title: "P-8：欧阳锋忘记本地已有武器——重新调研已部署工具"
-type: "dark-knowledge"
-dark_knowledge_type: "failure"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: failure
+status: draft
 domain:
-  - "master"
-source_person: "system"
+  - master
+source_person: system
 source_context: "pitfalls.md P-8"
 source_refs:
-  - ".agent/pitfalls.md#P-8"
+  - .agent/pitfalls.md#P-8
 created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
-  - "dk-p7-ocr-skip"
+  - dk-p7-ocr-skip
 contradicts:
-  - "master-knowledge-compound"
-  - "kdo-flywheel"
-  - "master-first-principles"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  - master-knowledge-compound
+  - kdo-flywheel
+  - master-first-principles
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # P-8：欧阳锋忘记本地已有武器——重新调研已部署工具

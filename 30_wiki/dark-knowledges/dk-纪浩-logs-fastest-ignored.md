@@ -1,11 +1,11 @@
 ---
 id: "dk-纪浩-logs-fastest-ignored"
 title: "暗知识：日志增长最快但最容易被忽视"
-type: "dk"
-status: "draft"
+type: dk
+status: draft
 domain:
-  - "ai-collaboration"
-  - "yitang"
+  - ai-collaboration
+  - yitang
 source_person: "纪浩"
 source_context: "AI俱乐部·人和AI协作（第三次分享，2026-06）"
 source_refs:
@@ -14,18 +14,15 @@ source_refs:
 related:
   - "concept-纪浩-ai-collaboration-methodology"
   - "skill-纪浩-日志驱动排查法"
-created_at: "2026-06-08"
-updated_at: "2026-06-08"
-tags:
-  - None
-  - None
+created_at: 2026-06-08
+updated_at: 2026-06-08
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 暗知识：日志增长最快但最容易被忽视

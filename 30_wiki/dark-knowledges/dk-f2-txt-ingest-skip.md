@@ -1,38 +1,31 @@
 ---
-id: "dk-f2-txt-ingest-skip"
+id: dk-f2-txt-ingest-skip
 title: "F-KDO-002：非 .md 文件 ingest 静默跳过→state.json 无变化但用户以为成功"
-type: "dark-knowledge"
-dark_knowledge_type: "failure"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: failure
+status: draft
 domain:
-  - "master"
-source_person: "system"
+  - master
+source_person: system
 source_context: "failure-modes.md F-KDO-002"
 source_refs:
-  - "90_control/failure-modes.md#F-KDO-002"
+  - 90_control/failure-modes.md#F-KDO-002
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
-  - "dk-c3-txt-ingest-skip"
-  - "master-ai-info-literacy"
+  - dk-c3-txt-ingest-skip
+  - master-ai-info-literacy
 contradicts:
-  - "dk-c3-txt-ingest-skip"
-  - "master-ai-info-literacy"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
+  - dk-c3-txt-ingest-skip
+  - master-ai-info-literacy
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # F-KDO-002：非 .md 文件 ingest 静默跳过→state.json 无变化但用户以为成功

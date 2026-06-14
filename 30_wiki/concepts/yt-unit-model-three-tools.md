@@ -1,14 +1,14 @@
 ---
-id: "yt-unit-model-three-tools"
-component_of: ""
+id: yt-unit-model-three-tools
+component_of: 
 confidence: 0.9
 created_at: 2026-06-10
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2600
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "单元模型"
   - "斧子尺子梯子"
@@ -18,7 +18,6 @@ query_triggers:
   - "尺子测量"
   - "梯子增长"
   - "一堂单元模型"
-related: []
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
@@ -27,29 +26,22 @@ source_refs:
 status: reviewed
 title: "单元模型三工具：斧子尺子梯子"
 trust_level: medium
-type: "framework"
+type: framework
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '五步法', 'course_id': 'yt-unit-model-three-tools', 'course_type': 'framework', 'level': 'core'}
-tags:
-  - #scene/business-analysis
-  - #scene/entrepreneurship
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "五步法"
+  course_id: yt-unit-model-three-tools
+  course_type: framework
+  level: core
 pipeline:
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "是否按预判期/测试期/经营期选择斧子/尺子/梯子"
-    framework_lens: "阶段工具匹配 / 工具边界"
-    follow_up_question: "是否用尺子做预判或用斧子做经营决策？"
-  - signal: "每个阶段是否有明确的'花钱程度'和决策风险认知"
-    framework_lens: "成本意识 / 风险收益"
-    follow_up_question: "是否在预判期就花大钱做精细测试？"
-  - signal: "尺子阶段是否有真实数据替代拍脑袋"
-    framework_lens: "验证 / 小样本测试"
-    follow_up_question: "是否凭几个用户反馈就下结论？"
-  - signal: "梯子阶段是否关注构造性壁垒和竞争复制"
-    framework_lens: "护城河 / 规模经济对抗"
-    follow_up_question: "是否只关注 ROI 而忽视竞争对手能否复制？"
-updated_at: '2026-06-13'
+  - {'signal': '是否按预判期/测试期/经营期选择斧子/尺子/梯子', 'framework_lens': '阶段工具匹配 / 工具边界', 'follow_up_question': '是否用尺子做预判或用斧子做经营决策？'}
+  - {'signal': "每个阶段是否有明确的'花钱程度'和决策风险认知", 'framework_lens': '成本意识 / 风险收益', 'follow_up_question': '是否在预判期就花大钱做精细测试？'}
+  - {'signal': '尺子阶段是否有真实数据替代拍脑袋', 'framework_lens': '验证 / 小样本测试', 'follow_up_question': '是否凭几个用户反馈就下结论？'}
+  - {'signal': '梯子阶段是否关注构造性壁垒和竞争复制', 'framework_lens': '护城河 / 规模经济对抗', 'follow_up_question': '是否只关注 ROI 而忽视竞争对手能否复制？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

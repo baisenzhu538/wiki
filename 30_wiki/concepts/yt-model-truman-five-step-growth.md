@@ -1,14 +1,14 @@
 ---
-id: "yt-model-truman-five-step-growth"
-component_of: ""
+id: yt-model-truman-five-step-growth
+component_of: 
 confidence: 0.85
 created_at: 2026-05-11
-difficulty: "advanced"
+difficulty: advanced
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2678
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "Truman的个人成长五步法"
   - "Truman的个人成长五步法：用一页纸解释全部人生规划"
@@ -17,40 +17,27 @@ query_triggers:
   - "五要素模型"
   - "核心逻辑"
   - "用一页纸解释全部人生规划"
-related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/Truman的个人成长五步法.png"
   - "00_inbox/Truman的个人成长五步法.png  # 源图像，经 deep-image-parser 深度解析"
   - "00_inbox/Truman的个人成长五步法_paddle_ocr.txt  # PaddleOCR基线对比"
-status: "enriched"
+status: enriched
 title: "Truman的个人成长五步法：用一页纸解释全部人生规划"
-type: "framework"
+type: framework
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "个人修炼"
-  course_type: "framework"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: framework
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '用户只列能力资源，但没找到人生红点', 'framework_lens': '方向缺失', 'follow_up_question': '你的人生红点是什么？如果答不出，五步法第一步就错了'}
   - {'signal': '用户倒推能力但不练习', 'framework_lens': '知行脱节', 'follow_up_question': '你为了红点，最近三个月刻意练习了哪些能力？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 # Truman的个人成长五步法：用一页纸解释全部人生规划

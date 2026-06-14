@@ -1,21 +1,21 @@
 ---
 id: "skill-问题驱动式深度思考笔记"
 title: "问题驱动式深度思考笔记：用真问题取代真记录"
-type: "concept"
-status: "draft"
+type: concept
+status: draft
 domain:
-  - "yitang"
-  - "personal-growth"
-language: "zh-CN"
+  - yitang
+  - personal-growth
+language: zh-CN
 version: 1
 confidence: 0.86
 source_refs:
   - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
 related:
-  - "yt-note-l4-internalization"
-  - "yt-note-checklist-concept"
-  - "dk-truman-flag-note-taking"
-  - "yt-note-extensive-research-input"
+  - yt-note-l4-internalization
+  - yt-note-checklist-concept
+  - dk-truman-flag-note-taking
+  - yt-note-extensive-research-input
   - "skill-多源输入法"
 query_triggers:
   - "问题驱动式笔记"
@@ -24,22 +24,15 @@ query_triggers:
   - "笔记怎么提升思考量"
   - "学完课没有自己的东西"
   - "3到5个问题"
-created_at: "2026-06-10"
-updated_at: "2026-06-10"
+created_at: 2026-06-10
+updated_at: 2026-06-10
 estimated_tokens: 4800
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
-trust_level: "low"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
+trust_level: low
 ---
 
 # 问题驱动式深度思考笔记：用真问题取代真记录

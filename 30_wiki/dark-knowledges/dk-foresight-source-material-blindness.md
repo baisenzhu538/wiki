@@ -1,20 +1,20 @@
 ---
-id: "dk-foresight-source-material-blindness"
+id: dk-foresight-source-material-blindness
 title: "暗知识：素材命名不一致导致完整口述稿被遗漏"
-type: "dark-knowledge"
-dark_knowledge_type: "process-failure"
+type: dark-knowledge
+dark_knowledge_type: process-failure
 domain:
-  - "yitang"
-status: "enriched"
+  - yitang
+status: enriched
 confidence: 0.95
-difficulty: "beginner"
+difficulty: beginner
 estimated_tokens: 1200
-language: "zh-CN"
+language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
   - "黄药师"
-  - "laowantong"
+  - laowantong
 source_refs:
   - "60_feedback/corrections/corr_20260611_laowantong-机会预判域-OCR遗漏+旧卡未清理.md"
   - "60_feedback/corrections/corr_20260611_hongqigong-机会预判域-OCR流程盲区.md"
@@ -24,15 +24,13 @@ query_triggers:
   - "搜索盲区"
   - "口述稿没找到"
   - "文件名搜索"
-related:
 wiki_refs:
-  - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
+  - 30_wiki/concepts/yt-foresight-15-char-mantra.md
 pipeline:
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-incident"
-author: "legacy"
-trust_level: "medium-high"
+  - confidence-source-cited
+  - confidence-verified-by-incident
+author: legacy
+trust_level: medium-high
 ---
 
 # 暗知识：素材命名不一致导致完整口述稿被遗漏

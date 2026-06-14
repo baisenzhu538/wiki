@@ -1,14 +1,14 @@
 ---
-id: "yt-personal-checklist-notes"
-component_of: ""
+id: yt-personal-checklist-notes
+component_of: 
 confidence: 0.85
 created_at: 2026-05-06
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 4500
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "清单体笔记"
   - "清单式笔记"
@@ -24,7 +24,6 @@ query_triggers:
   - "笔记进阶"
   - "笔记五阶段"
   - "刻意练习记笔记"
-related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -34,39 +33,22 @@ source_refs:
 status: enriched
 title: "清单体笔记（一堂笔记法）"
 trust_level: medium
-type: "tool"
+type: tool
 version: 2
-yitang: {'map': 'personal', 'module': '清单体笔记', 'course_id': 407, 'course_type': 'method', 'level': 'core'}
-tags:
-  - #scene/ai-collaboration
-  - #scene/business-analysis/conversion-rate
-  - #scene/knowledge-management
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/note-taking/level-diagnosis
-  - #scene/note-taking/live-field
-  - #scene/product-design/design-freeze
-  - #scene/skill-engineering/manifest-design
-  - #scene/skill-engineering/publish-deploy
-  - #yitang
+yitang:
+  map: personal
+  module: "清单体笔记"
+  course_id: 407
+  course_type: method
+  level: core
 pipeline:
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
 diagnostic_signals:
-  - signal: "每条笔记都以清单形式呈现，项与项之间相对独立、可逐条执行"
-    framework_lens: "清单体 = 可操作的认知结构"
-    follow_up_question: "这条笔记能否被拆成互不依赖的小任务？"
-  - signal: "清单项有明确层级，能一眼看出结构和重点"
-    framework_lens: "分层降低认知负荷"
-    follow_up_question: "如果只看前3个最高层级标题，能否把握核心？"
-  - signal: "笔记与具体问题和下一步行动挂钩，而不是纯粹信息存储"
-    framework_lens: "笔记服务于决策和行动"
-    follow_up_question: "这篇笔记不写，你的哪个行动会受影响？"
-updated_at: '2026-06-13'
+  - {'signal': '每条笔记都以清单形式呈现，项与项之间相对独立、可逐条执行', 'framework_lens': '清单体 = 可操作的认知结构', 'follow_up_question': '这条笔记能否被拆成互不依赖的小任务？'}
+  - {'signal': '清单项有明确层级，能一眼看出结构和重点', 'framework_lens': '分层降低认知负荷', 'follow_up_question': '如果只看前3个最高层级标题，能否把握核心？'}
+  - {'signal': '笔记与具体问题和下一步行动挂钩，而不是纯粹信息存储', 'framework_lens': '笔记服务于决策和行动', 'follow_up_question': '这篇笔记不写，你的哪个行动会受影响？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

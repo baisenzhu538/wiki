@@ -2,24 +2,19 @@
 id: "ocr-泛产品设计-用户卡片-需求挖掘"
 created_at: 2026-05-21
 domain:
-  - "ai-saas"
+  - ai-saas
 source_refs:
-  - "src_20260522_11af6cd2"
-status: "enriched"
+  - src_20260522_11af6cd2
+status: enriched
 title: "OCR: 泛产品设计-用户卡片-需求挖掘"
-type: "concept"
+type: concept
 updated_at: 2026-05-22
-tags:
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 # OCR: 泛产品设计-用户卡片-需求挖掘

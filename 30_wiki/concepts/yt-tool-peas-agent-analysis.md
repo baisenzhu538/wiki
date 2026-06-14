@@ -1,15 +1,15 @@
 ---
-id: "yt-tool-peas-agent-analysis"
+id: yt-tool-peas-agent-analysis
 component_of:
-  - "yt-model-cognitive-upgrade-framework"
+  - yt-model-cognitive-upgrade-framework
 confidence: 0.85
 created_at: 2026-05-15
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "master"
-language: "zh-CN"
+  - master
+language: zh-CN
 prerequisites:
-  - "yt-model-agent-architecture"
+  - yt-model-agent-architecture
 query_triggers:
   - "PEAS分析"
   - "智能体自我诊断"
@@ -22,46 +22,27 @@ query_triggers:
   - "架构错配诊断"
   - "理性决策框架"
 related:
-  - "yt-model-agent-architecture"
-  - "yt-concept-ai-guard-brain"
-  - "yt-personal-ai-capability"
+  - yt-model-agent-architecture
+  - yt-concept-ai-guard-brain
+  - yt-personal-ai-capability
 review_date: 2026-05-15
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/sources/aima-ai-thinking-card-20260515.html"
-  - "10_raw/sources/aima-ai-thinking-card-20260515.md"
+  - 10_raw/sources/aima-ai-thinking-card-20260515.html
+  - 10_raw/sources/aima-ai-thinking-card-20260515.md
 status: enriched
 title: "PEAS 智能体分析：用 AI 工程师的眼睛诊断任何决策系统"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-tags:
-  - #ai
-  - #decision-making
-  - #scene/ai-collaboration/human-ai-division
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering
-  - #self-diagnosis
-  - #systems-thinking
-  - #tools
 pipeline:
-  - #boundary/not-for-creative
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "P(性能度量)是否至少 3 条且可第三方验证"
-    framework_lens: "目标清晰度 / 可测量"
-    follow_up_question: "P 格是否写满'做好''提升'等模糊词？"
-  - signal: "当前 agent 架构是否与环境复杂度匹配"
-    framework_lens: "架构匹配 / 复杂度"
-    follow_up_question: "是否在复杂动态战中使用 reflex agent？"
-  - signal: "效用函数是否暴露不可通约的价值冲突"
-    framework_lens: "价值多元 / 伦理边界"
-    follow_up_question: "是否把'家庭时间'与'职业成就'强行加权？"
-  - signal: "是否识别出 reflex 级 SOP 与 learning agent 的切换条件"
-    framework_lens: "危机响应 / 不确定性"
-    follow_up_question: "危机时是否还在慢慢拆解效用函数？"
-updated_at: '2026-06-13'
+  - {'signal': 'P(性能度量)是否至少 3 条且可第三方验证', 'framework_lens': '目标清晰度 / 可测量', 'follow_up_question': "P 格是否写满'做好''提升'等模糊词？"}
+  - {'signal': '当前 agent 架构是否与环境复杂度匹配', 'framework_lens': '架构匹配 / 复杂度', 'follow_up_question': '是否在复杂动态战中使用 reflex agent？'}
+  - {'signal': '效用函数是否暴露不可通约的价值冲突', 'framework_lens': '价值多元 / 伦理边界', 'follow_up_question': "是否把'家庭时间'与'职业成就'强行加权？"}
+  - {'signal': '是否识别出 reflex 级 SOP 与 learning agent 的切换条件', 'framework_lens': '危机响应 / 不确定性', 'follow_up_question': '危机时是否还在慢慢拆解效用函数？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

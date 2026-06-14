@@ -1,76 +1,55 @@
 ---
 id: yt-unit-model-dynamic
-component_of: ''
+component_of: 
 confidence: 0.85
 created_at: 2026-05-24
 difficulty: advanced
 domain:
-- entrepreneur
-- master
+  - entrepreneur
+  - master
 estimated_tokens: 2800
 language: zh-CN
 prerequisites:
-- yt-unit-model-overview
-- yt-unit-model-construction
-- yt-unit-model-benchmark
+  - yt-unit-model-overview
+  - yt-unit-model-construction
+  - yt-unit-model-benchmark
 query_triggers:
-- 动态单元模型
-- 规模经济对抗
-- 拐点预判
-- 规模变量
-- 单元模型动态预测
-- 规模化盈利
+  - "动态单元模型"
+  - "规模经济对抗"
+  - "拐点预判"
+  - "规模变量"
+  - "单元模型动态预测"
+  - "规模化盈利"
 related:
-- yt-unit-model-ladder
-- yt-unit-model-ai-assisted
-- master-systems-thinking
-- yt-decision-forecasting-accuracy
-- yt-decision-system1-system2
-- master-first-principles
-reviewed_by: ''
+  - yt-unit-model-ladder
+  - yt-unit-model-ai-assisted
+  - master-systems-thinking
+  - yt-decision-forecasting-accuracy
+  - yt-decision-system1-system2
+  - master-first-principles
+reviewed_by: 
 source_refs:
-- src_20260524_6b5a4c3d-一堂-单元模型04口述
-- src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述
+  - "src_20260524_6b5a4c3d-一堂-单元模型04口述"
+  - "src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述"
 status: reviewed
-title: 动态单元模型：规模变量、拐点预判与规模经济对抗
+title: "动态单元模型：规模变量、拐点预判与规模经济对抗"
 trust_level: high
 type: tool
 version: 1
 yitang:
   map: entrepreneur
-  module: 创业必修
+  module: "创业必修"
   course_type: tool
   level: advanced
-tags:
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
 pipeline:
-- null
-- null
-- null
-- confidence-draft
-- confidence-source-cited
+  - confidence-draft
+  - confidence-source-cited
 diagnostic_signals:
-  - signal: "是否识别出规模扩大时的关键变量和拐点"
-    framework_lens: "动态思维 / 规模变量"
-    follow_up_question: "是否假设成本收入会线性变化？"
-  - signal: "是否做对抗性动态模型（含对手行动）"
-    framework_lens: "博弈 / 竞争变量"
-    follow_up_question: "只算自己的动态模型是否忽略竞争反应？"
-  - signal: "拐点是否被当作预警而非'死刑判决'"
-    framework_lens: "拐点响应 / 模式重构"
-    follow_up_question: "看到拐点后是否直接停止增长而非重构模式？"
-  - signal: "是否定期更新动态模型以反映新数据"
-    framework_lens: "迭代 / 时效性"
-    follow_up_question: "动态模型是否建完后就束之高阁？"
-updated_at: '2026-06-13'
+  - {'signal': '是否识别出规模扩大时的关键变量和拐点', 'framework_lens': '动态思维 / 规模变量', 'follow_up_question': '是否假设成本收入会线性变化？'}
+  - {'signal': '是否做对抗性动态模型（含对手行动）', 'framework_lens': '博弈 / 竞争变量', 'follow_up_question': '只算自己的动态模型是否忽略竞争反应？'}
+  - {'signal': "拐点是否被当作预警而非'死刑判决'", 'framework_lens': '拐点响应 / 模式重构', 'follow_up_question': '看到拐点后是否直接停止增长而非重构模式？'}
+  - {'signal': '是否定期更新动态模型以反映新数据', 'framework_lens': '迭代 / 时效性', 'follow_up_question': '动态模型是否建完后就束之高阁？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

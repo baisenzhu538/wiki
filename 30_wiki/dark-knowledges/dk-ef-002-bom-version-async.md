@@ -1,34 +1,24 @@
 ---
-id: "dk-ef-002-bom-version-async"
+id: dk-ef-002-bom-version-async
 title: "BOM 多版本不同步：你手里的文件和产线手里的不是同一份"
-type: "dark-knowledge"
-dark_knowledge_type: "hardware-failure"
+type: dark-knowledge
+dark_knowledge_type: hardware-failure
 source_person: "黄药师"
 source_context: "多人交接的硬件项目——原理图/BOM/PCB/Gerber/固件散落在多台电脑，版本混乱"
 source_refs:
-  - "90_control/electronics-practice/failure-modes-electronics.md"
+  - 90_control/electronics-practice/failure-modes-electronics.md
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
-  - "dk-ef-001-sn74lvc2g07-open-drain"
-  - "dk-ef-003-hand-soldering-bom-divergence"
-  - "dk-ef-004-missing-diagnostic-firmware"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  - dk-ef-001-sn74lvc2g07-open-drain
+  - dk-ef-003-hand-soldering-bom-divergence
+  - dk-ef-004-missing-diagnostic-firmware
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-domain:
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.75
-trust_level: "medium"
+trust_level: medium
 ---
 
 # BOM 多版本不同步：你手里的文件和产线手里的不是同一份

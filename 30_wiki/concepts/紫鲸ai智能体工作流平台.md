@@ -4,25 +4,18 @@ created_at: 2026-04-28
 domain:
   - "['ai-saas']"
 source_refs:
-  - "src_20260428_29929c1f"
-status: "enriched"
+  - src_20260428_29929c1f
+status: enriched
 title: "紫鲸AI智能体工作流平台"
-type: "concept"
+type: concept
 updated_at: 2026-04-28
-tags:
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 # 紫鲸AI智能体工作流平台

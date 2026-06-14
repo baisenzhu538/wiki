@@ -1,12 +1,12 @@
 ---
 id: "concept-半肥猫-ai-learning-toolification-methodology"
 title: "半肥猫 AI 学习落地方法论：从听课到造工具的三层递进"
-type: "concept"
-status: "draft"
+type: concept
+status: draft
 domain:
-  - "ai-collaboration"
-  - "yitang"
-  - "learning"
+  - ai-collaboration
+  - yitang
+  - learning
 source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享（2026-06）"
 source_refs:
@@ -14,7 +14,7 @@ source_refs:
   - "00_inbox/AI俱乐部-AI学习落地-半肥猫-笔记.txt"
   - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
 created_at: 2026-06-07
-updated_at: "2026-06-13"
+updated_at: 2026-06-13
 related:
   - "skill-半肥猫-边学边练边沉淀的AI学习法"
   - "skill-半肥猫-课程Skill化的八步工作流"
@@ -31,34 +31,15 @@ related:
   - "dk-半肥猫-atomic-no-standard"
   - "dk-半肥猫-real-business-is-the-engine"
   - "concept-纪浩-ai-collaboration-methodology"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "confidence-verified-by-test"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+  - confidence-verified-by-test
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 半肥猫 AI 学习落地方法论

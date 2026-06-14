@@ -1,26 +1,22 @@
 ---
 title: "一堂课程大地图"
-type: "concept"
-subtype: "hub"
+type: concept
+subtype: hub
 domain:
-  - "yitang"
-status: "stable"
-created_at: "2026-05-06"
-updated_at: "2026-05-06"
-id: "yitang-course-map"
+  - yitang
+status: stable
+created_at: 2026-05-06
+updated_at: 2026-05-06
+id: yitang-course-map
 tags:
-  - None
-  - "course-map"
-  - "dataview"
-  - "index"
-  - "yitang"
-pipeline:
-  - None
-  - None
-author: "legacy"
-reviewed_by: "pending"
+  - course-map
+  - dataview
+  - index
+  - yitang
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "high"
+trust_level: high
 ---
 
 # 一堂课程大地图

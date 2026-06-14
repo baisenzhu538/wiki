@@ -1,19 +1,16 @@
 ---
 title: "OCR: 一堂-AI学习-提问进化路线图"
-type: "concept"
-status: "enriched"
+type: concept
+status: enriched
 source_refs:
-  - "src_20260609_cb13ebc8"
+  - src_20260609_cb13ebc8
 created_at: "2026-06-09T14:03:49+00:00"
 updated_at: "2026-06-09T14:26:53+00:00"
-tags:
-  - None
-domain:
 id: "ocr-一堂-ai学习-提问进化路线图"
-author: "legacy"
-reviewed_by: "pending"
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 

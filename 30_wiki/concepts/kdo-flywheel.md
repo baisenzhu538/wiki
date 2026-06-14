@@ -1,38 +1,30 @@
 ---
 title: "KDO 飞轮 — 建造→使用→反思→实验"
-type: "concept"
-status: "stable"
+type: concept
+status: stable
 domain:
-  - "master"
+  - master
 created_at: 2026-06-02
 updated_at: 2026-06-02
 related:
-  - "kdo-yaml-frontmatter-safety"
-  - "proposal-kdo-flywheel-infrastructure"
-  - "knowledge-flywheel-discovery-20260602"
-  - "sprint-6-four-death-sentences"
-  - "recursive-deepen"
+  - kdo-yaml-frontmatter-safety
+  - proposal-kdo-flywheel-infrastructure
+  - knowledge-flywheel-discovery-20260602
+  - sprint-6-four-death-sentences
+  - recursive-deepen
 query_triggers:
   - "飞轮"
   - "建造使用反思实验"
   - "自进化"
   - "认知飞轮"
   - "知识挖掘飞轮"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - "confidence-verified-by-test"
-id: "kdo-flywheel"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-verified-by-test
+id: kdo-flywheel
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "high"
+trust_level: high
 ---
 
 # KDO 飞轮 — 建造→使用→反思→实验

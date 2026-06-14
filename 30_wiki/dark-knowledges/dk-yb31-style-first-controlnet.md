@@ -1,11 +1,11 @@
 ---
-id: "dk-yb31-style-first-controlnet"
+id: dk-yb31-style-first-controlnet
 title: "AI绘图工作流：先锁风格再开ControlNet"
-type: "dark-knowledge"
-dark_knowledge_type: "workflow"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: workflow
+status: draft
 domain:
-  - "design"
+  - design
 source_person: "月白"
 source_context: "口述稿: AI设计-AI设计基础01"
 source_refs:
@@ -13,20 +13,15 @@ source_refs:
 created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
-  - "dk-yb1-aigc-mvp-before-ps"
-contradicts: ""
-tags:
-  - None
-  - None
+  - dk-yb1-aigc-mvp-before-ps
+contradicts: 
 pipeline:
-  - None
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # AI绘图工作流：先锁风格再开ControlNet

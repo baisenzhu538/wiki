@@ -1,19 +1,16 @@
 ---
 title: "OCR: 一堂-单元模型-示例01"
-type: "concept"
-status: "enriched"
+type: concept
+status: enriched
 source_refs:
-  - "src_20260609_0cfcfa9e"
+  - src_20260609_0cfcfa9e
 created_at: "2026-06-09T14:05:28+00:00"
-updated_at: "2026-06-13"
-tags:
-  - None
-domain:
+updated_at: 2026-06-13
 id: "ocr-一堂-单元模型-示例01"
-author: "legacy"
-reviewed_by: "pending"
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 

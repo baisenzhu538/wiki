@@ -1,17 +1,17 @@
 ---
-id: "yt-pitch-quantification"
+id: yt-pitch-quantification
 component_of:
-  - "yt-model-personal-pitch-toolkit"
+  - yt-model-personal-pitch-toolkit
 confidence: 0.85
 created_at: 2026-05-13
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "personal"
-  - "yitang"
+  - personal
+  - yitang
 estimated_tokens: 1500
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-model-personal-pitch-toolkit"
+  - yt-model-personal-pitch-toolkit
 query_triggers:
   - "数字化"
   - "数字策略"
@@ -19,33 +19,25 @@ query_triggers:
   - "对比数字"
   - "巧用数字"
 related:
-  - "yt-concept-weapon-arsenal"
+  - yt-concept-weapon-arsenal
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
-status: "enriched"
+status: enriched
 title: "讲香·数字化"
-type: "tool"
+type: tool
 version: 1
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '数字有来源、可验证，不是随口编造', 'framework_lens': '数字的可信度来自可验证性', 'follow_up_question': '如果用户问这个数字从哪里来的，你能回答吗？'}
   - {'signal': '数字经过对比或换算，让用户有感知', 'framework_lens': '孤立数字无感', 'follow_up_question': '这个数字和用户的什么熟悉参照物相比？'}
   - {'signal': '数字放在用户犹豫或需要信任的关键节点', 'framework_lens': '数字是决策助推器', 'follow_up_question': '用户在没有这个数字时，决策会有什么不同？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 # 讲香·数字化

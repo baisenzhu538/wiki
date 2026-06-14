@@ -1,16 +1,16 @@
 ---
-id: "yt-panproduct-demand-five-step-method"
+id: yt-panproduct-demand-five-step-method
 component_of:
-  - "yt-model-pan-product-demand-toolkit"
+  - yt-model-pan-product-demand-toolkit
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: "advanced"
+difficulty: advanced
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1228
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-composite-pan-product-methodology"
+  - yt-composite-pan-product-methodology
 query_triggers:
   - "一堂五步法"
   - "泛产品设计"
@@ -21,40 +21,29 @@ query_triggers:
   - "需求分析"
   - "需求洞察"
 related:
-  - "yt-model-five-step-canvas"
-  - "yt-model-prediction-model"
+  - yt-model-five-step-canvas
+  - yt-model-prediction-model
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-一堂五步法.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·用户卡片：一堂五步法"
-type: "tool"
+type: tool
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "泛产品设计"
-  course_type: "card"
-  level: "advanced"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: card
+  level: advanced
 pipeline:
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '画布五步（需求→解决方案→商业模式→增长→壁垒）都被填入了可证伪的假设', 'framework_lens': '商业成败取决于假设质量', 'follow_up_question': '哪一步的假设如果错了，会让整个项目迅速失败？你打算如何证伪它？'}
   - {'signal': '能清楚区分价值假设（前三步）和增长假设（后两步）', 'framework_lens': '价值与增长的验证节奏不同', 'follow_up_question': '如果价值假设还没验证，你是否已经开始做增长假设的规模化投入？'}
   - {'signal': '每一步都有明确的go/no-go标准和下一步验证实验', 'framework_lens': '画布是决策工具，不是填写练习', 'follow_up_question': '填完画布后，团队是否据此取消或推迟了某个计划？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium
 ---
 
 # 一堂五步法：善于分析商业成败假设

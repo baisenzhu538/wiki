@@ -1,18 +1,18 @@
 ---
-id: "yt-panproduct-execution-realistic-simulation"
+id: yt-panproduct-execution-realistic-simulation
 component_of:
-  - "yt-model-pan-product-execution-toolkit"
+  - yt-model-pan-product-execution-toolkit
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1175
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-composite-pan-product-methodology"
-  - "yt-model-pan-product-demand-toolkit"
-  - "yt-model-pan-product-aesthetic-toolkit"
+  - yt-composite-pan-product-methodology
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
 query_triggers:
   - "产品落地"
   - "产品迭代"
@@ -23,41 +23,31 @@ query_triggers:
   - "落地卡片"
   - "落地执行"
 related:
-  - "yt-panproduct-execution-low-cost-mvp"
-  - "yt-panproduct-execution-design-principles"
-  - "yt-panproduct-demand-scenario-walkthrough"
+  - yt-panproduct-execution-low-cost-mvp
+  - yt-panproduct-execution-design-principles
+  - yt-panproduct-demand-scenario-walkthrough
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-努力仿真.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：努力仿真"
-type: "tool"
+type: tool
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "泛产品设计"
-  course_type: "card"
-  level: "foundational"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: card
+  level: foundational
 pipeline:
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '测试环境与真实使用环境一致（设备、网络、场景、干扰）', 'framework_lens': '假环境掩盖真问题', 'follow_up_question': '你在测试时用的设备/网络/场景与用户真实使用时有何不同？'}
   - {'signal': '用真实用户而非内部员工做仿真测试', 'framework_lens': '内部视角有偏差', 'follow_up_question': '参与测试的人是否代表目标用户？他们的背景差异是什么？'}
   - {'signal': '仿真测试后能列出至少3个在假环境中不会发现的问题', 'framework_lens': '仿真的价值在于发现真实摩擦', 'follow_up_question': '这次仿真最大的意外发现是什么？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium
 ---
 
 # 努力仿真：在真实场景做真东西

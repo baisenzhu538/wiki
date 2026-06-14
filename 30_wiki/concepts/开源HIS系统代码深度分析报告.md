@@ -2,25 +2,19 @@
 id: "开源HIS系统代码深度分析报告"
 created_at: 2026-05-03
 domain:
-  - "healthcare"
+  - healthcare
 source_refs:
-  - "src_20260503_f4891888"
-status: "enriched"
+  - src_20260503_f4891888
+status: enriched
 title: "开源HIS系统代码深度分析报告"
-type: "concept"
+type: concept
 updated_at: 2026-05-03
-tags:
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.8
-trust_level: "medium"
+trust_level: medium
 ---
 
 # 开源HIS系统代码深度分析报告

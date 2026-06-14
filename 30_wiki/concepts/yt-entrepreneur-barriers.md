@@ -1,14 +1,14 @@
 ---
-id: "yt-entrepreneur-barriers"
-component_of: ""
+id: yt-entrepreneur-barriers
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1845
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "项目壁垒"
   - "护城河"
@@ -20,7 +20,6 @@ query_triggers:
   - "五步法壁垒"
   - "创业护城河"
   - "行业准入"
-related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -28,26 +27,20 @@ source_refs:
 status: enriched
 title: "项目壁垒"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '项目壁垒', 'course_id': 'yt-entrepreneur-barriers', 'course_type': 'method', 'level': 'advanced'}
-tags:
-  - #scene/business-analysis
-  - #scene/learning-methodology
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "项目壁垒"
+  course_id: yt-entrepreneur-barriers
+  course_type: method
+  level: advanced
 pipeline:
-  - #boundary/requires-human-judgment
   - confidence-source-cited
 diagnostic_signals:
-  - signal: '用户说"我规模大后有壁垒"，但现在什么都没有'
-    framework_lens: "事后壁垒幻想——壁垒需要提前设计"
-    follow_up_question: "在规模还小的时候，你现在能开始建的壁垒是什么？如果答不上来，壁垒只是幻想"
-  - signal: "用户把单一优势当护城河"
-    framework_lens: "壁垒维度单一"
-    follow_up_question: "如果竞争对手明天复制了你的这个优势，你还有什么？"
-updated_at: '2026-06-13'
+  - {'signal': '用户说"我规模大后有壁垒"，但现在什么都没有', 'framework_lens': '事后壁垒幻想——壁垒需要提前设计', 'follow_up_question': '在规模还小的时候，你现在能开始建的壁垒是什么？如果答不上来，壁垒只是幻想'}
+  - {'signal': '用户把单一优势当护城河', 'framework_lens': '壁垒维度单一', 'follow_up_question': '如果竞争对手明天复制了你的这个优势，你还有什么？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

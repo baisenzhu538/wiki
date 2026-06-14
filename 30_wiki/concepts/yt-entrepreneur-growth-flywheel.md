@@ -1,14 +1,14 @@
 ---
-id: "yt-entrepreneur-growth-flywheel"
-component_of: ""
+id: yt-entrepreneur-growth-flywheel
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1812
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "增长飞轮"
   - "飞轮地图"
@@ -21,7 +21,7 @@ query_triggers:
   - "投入产出再投入"
   - "增长结构"
 related:
-  - "master-systems-thinking"
+  - master-systems-thinking
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -29,26 +29,20 @@ source_refs:
 status: enriched
 title: "增长飞轮"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '增长飞轮', 'course_id': 489, 'course_type': 'method', 'level': 'advanced'}
-tags:
-  - #scene/business-analysis/customer-acquisition
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "增长飞轮"
+  course_id: 489
+  course_type: method
+  level: advanced
 pipeline:
-  - #boundary/requires-human-judgment
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户画了飞轮但飞不起来"
-    framework_lens: "飞轮各环节之间没有真实因果关系"
-    follow_up_question: "你飞轮的每一个环节，都能用数据证明它推动下一环节吗？"
-  - signal: "用户有多个飞轮但资源分散"
-    framework_lens: "没有核心飞轮"
-    follow_up_question: "如果只能推动一个飞轮，你选哪个？为什么？"
-updated_at: '2026-06-13'
+  - {'signal': '用户画了飞轮但飞不起来', 'framework_lens': '飞轮各环节之间没有真实因果关系', 'follow_up_question': '你飞轮的每一个环节，都能用数据证明它推动下一环节吗？'}
+  - {'signal': '用户有多个飞轮但资源分散', 'framework_lens': '没有核心飞轮', 'follow_up_question': '如果只能推动一个飞轮，你选哪个？为什么？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

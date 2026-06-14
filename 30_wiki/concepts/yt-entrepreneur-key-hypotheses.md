@@ -1,69 +1,53 @@
 ---
 id: yt-entrepreneur-key-hypotheses
-component_of: ''
+component_of: 
 confidence: 0.85
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-- yitang
+  - yitang
 estimated_tokens: 4200
 language: zh-CN
 prerequisites:
-- yt-entrepreneur-five-step-method
+  - yt-entrepreneur-five-step-method
 query_triggers:
-- 关键假设
-- 假设验证
-- 假设驱动
-- 259工具
-- X型创业者
-- Y型创业者
-- 价值假设
-- 增长假设
-- 最小成本验证
-- 五步法
+  - "关键假设"
+  - "假设验证"
+  - "假设驱动"
+  - "259工具"
+  - "X型创业者"
+  - "Y型创业者"
+  - "价值假设"
+  - "增长假设"
+  - "最小成本验证"
+  - "五步法"
 related:
-- yt-model-entrepreneur-map
-- yt-panproduct-execution-hypothesis-decomposition
-- master-antifragile-checklist
-- master-systems-thinking
+  - yt-model-entrepreneur-map
+  - yt-panproduct-execution-hypothesis-decomposition
+  - master-antifragile-checklist
+  - master-systems-thinking
 review_date: 2026-06-06
-reviewed_by: ''
+reviewed_by: 
 source_refs:
-- 00_inbox/一堂-关键假设课-truman-口述.txt
-- 00_inbox/一堂-关键假设课-truman-笔记.txt
+  - "00_inbox/一堂-关键假设课-truman-口述.txt"
+  - "00_inbox/一堂-关键假设课-truman-笔记.txt"
 status: enriched
-title: 关键假设259工具与假设验证三板斧
+title: "关键假设259工具与假设验证三板斧"
 trust_level: medium
 type: tool
 version: 2
 yitang:
   map: entrepreneur
-  module: 关键假设
+  module: "关键假设"
   course_id: yt-entrepreneur-key-hypotheses
   course_type: method
   level: foundational
-tags:
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
 pipeline:
-- null
-- null
-- confidence-source-cited
+  - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户列了很多假设，但分不清哪个最关键"
-    framework_lens: "假设没有优先级"
-    follow_up_question: "如果只能验证一个假设，你选哪个？为什么它对项目生死影响最大？"
-  - signal: "用户只验证价值假设，不验证增长假设"
-    framework_lens: "两类假设失衡"
-    follow_up_question: "你的验证计划中，价值假设和增长假设各占多少比例？"
-updated_at: '2026-06-13'
+  - {'signal': '用户列了很多假设，但分不清哪个最关键', 'framework_lens': '假设没有优先级', 'follow_up_question': '如果只能验证一个假设，你选哪个？为什么它对项目生死影响最大？'}
+  - {'signal': '用户只验证价值假设，不验证增长假设', 'framework_lens': '两类假设失衡', 'follow_up_question': '你的验证计划中，价值假设和增长假设各占多少比例？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

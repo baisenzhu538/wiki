@@ -1,96 +1,83 @@
 ---
 id: yt-entrepreneur-five-step-method
-component_of: ''
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-- yitang
+  - yitang
 estimated_tokens: 1868
 language: zh-CN
-prerequisites: ''
+prerequisites: 
 query_triggers:
-- 一堂五步法
-- 需求分析
-- 方案定义
-- 验证实验
-- 增长规模化
-- 壁垒护城河
-- 科学创业
-- 创业方法论
-- 五步法框架
-- 关键假设优先
+  - "一堂五步法"
+  - "需求分析"
+  - "方案定义"
+  - "验证实验"
+  - "增长规模化"
+  - "壁垒护城河"
+  - "科学创业"
+  - "创业方法论"
+  - "五步法框架"
+  - "关键假设优先"
 related:
-- yt-foresight-business-spectrum
-- yt-model-entrepreneur-map
-- yt-five-step-method
-- yt-entrepreneur-key-hypotheses
-- yt-demand-analysis-hiking-map
-- yt-entrepreneur-needs-analysis
-- yt-product-kernel-cultivation
-- yt-unit-model-overview
-- yt-entrepreneur-lean-validation
-- yt-research-osl-framework
-- yt-growth-cycle-model
-- yt-entrepreneur-growth-flywheel
-- yt-barrier-analysis-cheat-sheet
-- yt-entrepreneur-barriers
-- yt-barrier-identification-skill
-- yt-decision-y-model
-- yt-five-step-common-pitfalls
-- yt-five-step-implementation
-- yt-model-five-step-canvas
-- yt-management-scientific-meetings
-- yt-management-scientific-hiring
-- yt-management-goal-management
-- yt-decision-width-method
-- yt-decision-depth-ladder
-- yt-decision-canvas
-- yt-tool-strategy-workshop
-- yt-unit-model-build
-- yt-unit-model-selection
-- yt-unit-model-concept
-- yt-entrepreneur-scientific-method
-- yt-entrepreneur-business-growth
-- yt-entrepreneur-channel-exploration
-- yt-entrepreneur-opportunity-selection
-- yt-decision-full-process
-- yt-decision-consensus-iceberg
-- yt-panproduct-demand-five-step-method
-reviewed_by: 黄药师
+  - yt-foresight-business-spectrum
+  - yt-model-entrepreneur-map
+  - yt-five-step-method
+  - yt-entrepreneur-key-hypotheses
+  - yt-demand-analysis-hiking-map
+  - yt-entrepreneur-needs-analysis
+  - yt-product-kernel-cultivation
+  - yt-unit-model-overview
+  - yt-entrepreneur-lean-validation
+  - yt-research-osl-framework
+  - yt-growth-cycle-model
+  - yt-entrepreneur-growth-flywheel
+  - yt-barrier-analysis-cheat-sheet
+  - yt-entrepreneur-barriers
+  - yt-barrier-identification-skill
+  - yt-decision-y-model
+  - yt-five-step-common-pitfalls
+  - yt-five-step-implementation
+  - yt-model-five-step-canvas
+  - yt-management-scientific-meetings
+  - yt-management-scientific-hiring
+  - yt-management-goal-management
+  - yt-decision-width-method
+  - yt-decision-depth-ladder
+  - yt-decision-canvas
+  - yt-tool-strategy-workshop
+  - yt-unit-model-build
+  - yt-unit-model-selection
+  - yt-unit-model-concept
+  - yt-entrepreneur-scientific-method
+  - yt-entrepreneur-business-growth
+  - yt-entrepreneur-channel-exploration
+  - yt-entrepreneur-opportunity-selection
+  - yt-decision-full-process
+  - yt-decision-consensus-iceberg
+  - yt-panproduct-demand-five-step-method
+reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/一堂-课程地图精华串讲.md
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
 status: enriched
-title: 一堂五步法
+title: "一堂五步法"
 trust_level: medium
 type: tool
 version: 1
 yitang:
   map: entrepreneur
-  module: 一堂五步法
+  module: "一堂五步法"
   course_id: yt-entrepreneur-five-step-method
   course_type: method
   level: foundational
-tags:
-- null
-- null
-- null
-- null
-- null
-- null
 pipeline:
-- null
-- null
-- confidence-source-cited
-- confidence-verified-by-case
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
-  - signal: "用户按五步法学了一遍，但做项目还是凭感觉"
-    framework_lens: "框架未转化为工作流"
-    follow_up_question: "你最近一次做项目时，明确使用了五步法的哪一步工具？"
-  - signal: "用户 rigidly 按顺序走五步，不做迭代"
-    framework_lens: "僵化使用——五步法需要循环迭代"
-    follow_up_question: "你的项目走到某一步时，有没有发现需要回到前一步修正？如果没有，可能没有在真实反馈中迭代"
-updated_at: '2026-06-13'
+  - {'signal': '用户按五步法学了一遍，但做项目还是凭感觉', 'framework_lens': '框架未转化为工作流', 'follow_up_question': '你最近一次做项目时，明确使用了五步法的哪一步工具？'}
+  - {'signal': '用户 rigidly 按顺序走五步，不做迭代', 'framework_lens': '僵化使用——五步法需要循环迭代', 'follow_up_question': '你的项目走到某一步时，有没有发现需要回到前一步修正？如果没有，可能没有在真实反馈中迭代'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

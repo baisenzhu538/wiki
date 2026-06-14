@@ -1,14 +1,12 @@
 ---
 id: "skill-ai辅助学习"
 title: "技能：AI辅助学习"
-type: "skill"
-status: "draft"
-domain:
+type: skill
+status: draft
 source_person: "一堂课程"
-source_context: "src_20260522_dee56cff"
+source_context: src_20260522_dee56cff
 source_refs:
-  - "src_20260522_dee56cff"
-wiki_refs:
+  - src_20260522_dee56cff
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -17,16 +15,12 @@ tools_required:
   - "ChatGPT/Claude等大模型"
   - "AI搜索工具"
   - "提示词工程技巧"
-prerequisite_skills:
-related:
 created_at: "2026-06-09T15:59:56+00:00"
 updated_at: "2026-06-09T15:59:56+00:00"
-pipeline:
-  - None
-author: "legacy"
-reviewed_by: "pending"
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：AI辅助学习

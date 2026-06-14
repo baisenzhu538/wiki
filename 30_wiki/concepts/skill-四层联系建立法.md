@@ -1,11 +1,11 @@
 ---
 id: "skill-四层联系建立法"
 title: "技能：四层联系建立法"
-type: "skill"
-status: "draft"
+type: skill
+status: draft
 domain:
-  - "learning-methodology"
-  - "yitang"
+  - learning-methodology
+  - yitang
 source_person: "一堂课程"
 source_context: "一堂·科学学习IPO全景策略图 V2.0 (2026)"
 source_refs:
@@ -21,17 +21,12 @@ definition_of_done:
 tools_required:
   - "分析框架"
   - "对比表格"
-prerequisite_skills:
-tags:
-  - None
-  - None
-  - None
-created_at: "2026-06-09"
-updated_at: "2026-06-09"
-author: "legacy"
-reviewed_by: "pending"
+created_at: 2026-06-09
+updated_at: 2026-06-09
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：四层联系建立法

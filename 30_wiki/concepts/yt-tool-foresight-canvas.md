@@ -1,19 +1,19 @@
 ---
-id: "yt-tool-foresight-canvas"
+id: yt-tool-foresight-canvas
 title: "预判画布：从加法到减法的标准化工作台"
-type: "tool"
+type: tool
 domain:
-  - "yitang"
-status: "enriched"
+  - yitang
+status: enriched
 confidence: 0.9
-difficulty: "intermediate"
+difficulty: intermediate
 estimated_tokens: 1600
-language: "zh-CN"
+language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
   - "黄药师"
-  - "laowantong"
+  - laowantong
 source_refs:
   - "00_inbox/一堂-机会预判课-Truman-口述.txt"
   - "00_inbox/一堂-机会预判课-truman-笔记.txt"
@@ -27,23 +27,20 @@ query_triggers:
   - "加法减法模板"
   - "预判工具"
 related:
-  - "yt-foresight-business-spectrum"
+  - yt-foresight-business-spectrum
 wiki_refs:
-  - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
-  - "30_wiki/concepts/yt-foresight-addition-subtraction.md"
-  - "30_wiki/concepts/yt-foresight-ten-fatal-flaws.md"
-  - "30_wiki/concepts/yt-five-step-method.md"
-tags:
-  - None
-  - None
+  - 30_wiki/concepts/yt-foresight-15-char-mantra.md
+  - 30_wiki/concepts/yt-foresight-addition-subtraction.md
+  - 30_wiki/concepts/yt-foresight-ten-fatal-flaws.md
+  - 30_wiki/concepts/yt-five-step-method.md
 pipeline:
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '用户做了加法列出20个选项，但减法阶段一个都舍不得删', 'framework_lens': '加法容易减法难——充分做加法的目的是为专业减法提供素材', 'follow_up_question': '如果只能选3个选项继续，你选哪3个？选择标准是什么？'}
   - {'signal': '预判画布填完，但用户还是选择了最初直觉想要的选项', 'framework_lens': '预判工具被用来做合理化——画布分析只是为已有偏好找理由', 'follow_up_question': '如果没有预判画布，你会不会选同一个选项？如果会，说明画布没有真正影响决策'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 # 预判画布：从加法到减法的标准化工作台

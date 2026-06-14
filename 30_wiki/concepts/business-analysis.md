@@ -1,23 +1,21 @@
 ---
-id: "business-analysis"
+id: business-analysis
 created_at: 2026-05-21
 domain:
-  - "ai-saas"
+  - ai-saas
 source_refs:
-  - "src_20260522_9d98d526"
-status: "draft"
+  - src_20260522_9d98d526
+status: draft
 title: "Business Analysis"
-type: "concept"
+type: concept
 updated_at: 2026-05-21
-tags:
-  - None
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # Business Analysis

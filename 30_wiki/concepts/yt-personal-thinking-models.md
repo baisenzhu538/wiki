@@ -1,14 +1,14 @@
 ---
-id: "yt-personal-thinking-models"
-component_of: ""
+id: yt-personal-thinking-models
+component_of: 
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1853
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "一堂做课供应链模型"
   - "为什么提炼模型是最核心的能力"
@@ -19,41 +19,27 @@ query_triggers:
   - "教学创新"
   - "脱敏版"
   - "角色推演法"
-related:
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修身-思维模型口述版.md"
-status: "enriched"
+status: enriched
 title: "思维模型：从碎片经验到稳定模型"
-type: "tool"
+type: tool
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "个人修炼"
-  course_type: "explore_camp"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: explore_camp
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '能从自己的经验中提炼出可复用的判断框架', 'framework_lens': '模型来自实践', 'follow_up_question': '这个模型是你从多少个自己的案例中总结出来的？'}
   - {'signal': '模型会用新案例不断修正，而不是一成不变', 'framework_lens': '模型是活的', 'follow_up_question': '最近有没有一个案例让你的模型边界发生了变化？'}
   - {'signal': '模型能向他人清晰解释，并让他人也能使用', 'framework_lens': '可传播才有价值', 'follow_up_question': '别人用这个模型做判断时，是否需要你补充很多背景？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium
 ---
 
 # 思维模型：从碎片经验到稳定模型

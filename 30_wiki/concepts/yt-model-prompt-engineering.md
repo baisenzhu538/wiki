@@ -1,18 +1,18 @@
 ---
-id: "yt-model-prompt-engineering"
+id: yt-model-prompt-engineering
 title: "人机协作操作系统：提示词工程总框架"
-type: "framework"
-status: "enriched"
+type: framework
+status: enriched
 domain:
-  - "yitang"
-  - "ai"
-language: "zh-CN"
+  - yitang
+  - ai
+language: zh-CN
 version: 1
-difficulty: "intermediate"
+difficulty: intermediate
 confidence: 0.9
 related:
-  - "yt-model-cognitive-upgrade-framework"
-  - "master-ai-info-literacy"
+  - yt-model-cognitive-upgrade-framework
+  - master-ai-info-literacy
 source_refs:
   - "10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
   - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
@@ -27,32 +27,18 @@ query_triggers:
   - "迭代提示词"
   - "反谄媚"
   - "上下文工程"
-created_at: "2026-05-13"
+created_at: 2026-05-13
 reviewed_by: "黄药师"
 estimated_tokens: 2500
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '用户只会写简单prompt，不建工作流', 'framework_lens': '停留在技巧层', 'follow_up_question': '你的工作中有多少环节已经用AI工作流替代或增强？如果<20%，还停留在技巧层'}
   - {'signal': '用户让AI做所有决策，自己不思考', 'framework_lens': '人类判断力缺失', 'follow_up_question': '你最近一次对AI输出说了"这个不对，因为..."是什么时候？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 # 人机协作操作系统：提示词工程总框架

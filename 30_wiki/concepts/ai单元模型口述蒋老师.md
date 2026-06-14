@@ -2,45 +2,32 @@
 id: "ai单元模型口述蒋老师"
 confidence: 0.85
 created_at: 2026-05-25
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "healthcare"
+  - healthcare
 event: "一堂AI落地行动营第三期（最后一期内测），2026-05"
-language: "zh-CN"
+language: zh-CN
 related:
-  - "yt-unit-model-overview"
-  - "yt-unit-model-construction"
-  - "yt-unit-model-ladder"
-  - "yt-unit-model-dynamic"
-  - "yt-model-dual-triangle-competitiveness"
-  - "yt-decision-y-model"
+  - yt-unit-model-overview
+  - yt-unit-model-construction
+  - yt-unit-model-ladder
+  - yt-unit-model-dynamic
+  - yt-model-dual-triangle-competitiveness
+  - yt-decision-y-model
   - "ai时代判断力口述-3"
 source_refs:
-  - "src_20260525_92ea6173"
+  - src_20260525_92ea6173
 speaker: "蒋老师（磊哥），一堂合伙人、教练"
-status: "enriched"
+status: enriched
 title: "AI+单元模型口述（蒋老师/磊哥）"
-type: "concept"
+type: concept
 updated_at: 2026-05-25
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-reviewed_by: "pending"
-trust_level: "medium-high"
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
+trust_level: medium-high
 ---
 
 # AI+单元模型口述（蒋老师/磊哥）

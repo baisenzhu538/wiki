@@ -1,19 +1,19 @@
 ---
-id: "yt-prompt-anti-flattery"
+id: yt-prompt-anti-flattery
 title: "反谄媚机制：让AI说真话"
-type: "tool"
-status: "enriched"
+type: tool
+status: enriched
 domain:
-  - "yitang"
-  - "ai"
-language: "zh-CN"
+  - yitang
+  - ai
+language: zh-CN
 version: 1
-difficulty: "intermediate"
+difficulty: intermediate
 confidence: 0.9
 prerequisites:
-  - "yt-model-prompt-engineering"
+  - yt-model-prompt-engineering
 component_of:
-  - "yt-model-prompt-engineering"
+  - yt-model-prompt-engineering
 source_refs:
   - "10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
   - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
@@ -27,27 +27,19 @@ query_triggers:
   - "先问缺点"
   - "证伪实验"
   - "认知泡泡"
-created_at: "2026-05-13"
+created_at: 2026-05-13
 estimated_tokens: 2200
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '提示词中主动删除‘优秀’‘有潜力’等正向形容词，避免引导AI迎合', 'framework_lens': '语言倾向塑造AI输出', 'follow_up_question': '你的提示词里有没有让AI顺着你说的词？'}
   - {'signal': "会让AI扮演反对者或 Devil's Advocate 角色", 'framework_lens': '对抗性提示降低确认偏误', 'follow_up_question': '你最近一次让AI专门找你的方案漏洞是什么时候？'}
   - {'signal': '对AI给出的积极结论会用独立来源或反向问题验证', 'framework_lens': 'AI输出需要外部校验', 'follow_up_question': 'AI说你的项目很有前景，你用什么证据独立验证了这一点？'}
-updated_at: "2026-06-13"
-author: "legacy"
-reviewed_by: "pending"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+reviewed_by: pending
+trust_level: medium-high
 ---
 
 # 反谄媚机制：让 AI 说真话

@@ -1,39 +1,29 @@
 ---
-id: "dk-note-rookie-disaster-veteran-heaven"
+id: dk-note-rookie-disaster-veteran-heaven
 title: "“新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机"
-type: "dark-knowledge"
-dark_knowledge_type: "insight"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: insight
+status: draft
 domain:
-  - "yitang"
-  - "note-taking"
-source_person: "Truman"
+  - yitang
+  - note-taking
+source_person: Truman
 source_context: "一堂-AI时代请单体笔记-Truman-口述-02.txt"
 source_refs:
   - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
 created_at: 2026-06-07
 updated_at: 2026-06-07
 related:
-  - "yt-note-five-levels-training"
-  - "dk-note-surplus-brainpower"
-  - "dk-note-maximum-common-divisor"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  - yt-note-five-levels-training
+  - dk-note-surplus-brainpower
+  - dk-note-maximum-common-divisor
 pipeline:
-  - None
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # “新人灾难，老人天堂”：AI时代笔记基本功的幻灭危机

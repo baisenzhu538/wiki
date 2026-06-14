@@ -1,11 +1,11 @@
 ---
 id: "skill-半肥猫-边学边练边沉淀的AI学习法"
 title: "技能：边学边练边沉淀的 AI 学习法"
-type: "skill"
-status: "draft"
+type: skill
+status: draft
 domain:
-  - "ai-collaboration"
-  - "learning"
+  - ai-collaboration
+  - learning
 source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
@@ -25,31 +25,16 @@ related:
   - "dk-半肥猫-skill-rejection-value"
   - "concept-纪浩-ai-collaboration-methodology"
   - "skill-纪浩-dofirst-pdca"
-created_at: "2026-06-07"
-reviewed_by: "laowantong"
-updated_at: "2026-06-07"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+created_at: 2026-06-07
+reviewed_by: laowantong
+updated_at: 2026-06-07
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：边学边练边沉淀的 AI 学习法

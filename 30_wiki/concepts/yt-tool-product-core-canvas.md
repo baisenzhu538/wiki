@@ -1,15 +1,15 @@
 ---
-id: "yt-tool-product-core-canvas"
-component_of: ""
+id: yt-tool-product-core-canvas
+component_of: 
 confidence: 0.85
 created_at: 2026-06-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3800
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-entrepreneur-product-core"
+  - yt-entrepreneur-product-core
 query_triggers:
   - "产品内核画布"
   - "产品内核分析"
@@ -22,10 +22,10 @@ query_triggers:
   - "螺旋拆解"
   - "独立交付"
 related:
-  - "yt-five-step-implementation"
-  - "yt-model-five-step-canvas"
+  - yt-five-step-implementation
+  - yt-model-five-step-canvas
 review_date: 2026-06-06
-reviewed_by: ""
+reviewed_by: 
 source_refs:
   - "00_inbox/一堂-产品内核实操课-truman-口述.txt"
   - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
@@ -33,36 +33,22 @@ source_refs:
 status: enriched
 title: "产品内核画布与九大原则"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '产品内核', 'course_id': 'yt-tool-product-core-canvas', 'course_type': 'tool', 'level': 'foundational'}
-tags:
-  - #scene/agent-infrastructure
-  - #scene/business-analysis/conversion-rate
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/level-diagnosis
-  - #scene/skill-engineering/manifest-design
-  - #yitang
-  - #产品内核
-  - #工具
+yitang:
+  map: entrepreneur
+  module: "产品内核"
+  course_id: yt-tool-product-core-canvas
+  course_type: tool
+  level: foundational
 pipeline:
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "画布四格是否都基于用户视角而非创始人偏好"
-    framework_lens: "用户中心 / 取舍权"
-    follow_up_question: "绿色/红色判定是否只是创始人意志的可视化？"
-  - signal: "画布假设是否经过真实用户验证且更新频率 ≤30 天"
-    framework_lens: "持续发现 / 假设验证"
-    follow_up_question: "画布反映的是'一个月前的用户'还是现在的用户？"
-  - signal: "是否识别出'假绿色'要素（以为是内核其实不是）"
-    framework_lens: "内核诚实 / 反直觉"
-    follow_up_question: "转化率低时是否怪执行而非画布假设错误？"
-  - signal: "画布输出是否直接关联到单元模型和关键假设验证"
-    framework_lens: "落地闭环 / 五步法"
-    follow_up_question: "画布讨论后是否停留在可视化而不进入验证？"
-updated_at: '2026-06-13'
+  - {'signal': '画布四格是否都基于用户视角而非创始人偏好', 'framework_lens': '用户中心 / 取舍权', 'follow_up_question': '绿色/红色判定是否只是创始人意志的可视化？'}
+  - {'signal': '画布假设是否经过真实用户验证且更新频率 ≤30 天', 'framework_lens': '持续发现 / 假设验证', 'follow_up_question': "画布反映的是'一个月前的用户'还是现在的用户？"}
+  - {'signal': "是否识别出'假绿色'要素（以为是内核其实不是）", 'framework_lens': '内核诚实 / 反直觉', 'follow_up_question': '转化率低时是否怪执行而非画布假设错误？'}
+  - {'signal': '画布输出是否直接关联到单元模型和关键假设验证', 'framework_lens': '落地闭环 / 五步法', 'follow_up_question': '画布讨论后是否停留在可视化而不进入验证？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

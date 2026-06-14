@@ -1,11 +1,11 @@
 ---
 id: "dk-半肥猫-silky-answer-warning"
 title: "暗知识：AI 回答越丝滑，问题越大"
-type: "dark-knowledge"
-status: "draft"
+type: dark-knowledge
+status: draft
 domain:
-  - "ai-collaboration"
-  - "yitang"
+  - ai-collaboration
+  - yitang
 source_person: "半肥猫"
 source_context: "AI俱乐部-AI学习落地 分享"
 source_refs:
@@ -17,20 +17,14 @@ related:
   - "skill-半肥猫-追问AI证据并标注信源"
   - "skill-半肥猫-边学边练边沉淀的AI学习法"
   - "concept-纪浩-ai-collaboration-methodology"
-tags:
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 暗知识：AI 回答越丝滑，问题越大

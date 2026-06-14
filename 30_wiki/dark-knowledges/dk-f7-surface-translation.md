@@ -1,38 +1,30 @@
 ---
-id: "dk-f7-surface-translation"
+id: dk-f7-surface-translation
 title: "F-KDO-007：表层翻译式提炼→Condense 段变成课程目录改写"
-type: "dark-knowledge"
-dark_knowledge_type: "failure"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: failure
+status: draft
 domain:
-  - "master"
-source_person: "system"
+  - master
+source_person: system
 source_context: "failure-modes.md F-KDO-007"
 source_refs:
-  - "90_control/failure-modes.md#F-KDO-007"
+  - 90_control/failure-modes.md#F-KDO-007
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
-  - "dk-c8-format-complete-mind-empty"
-  - "master-first-principles"
+  - dk-c8-format-complete-mind-empty
+  - master-first-principles
 contradicts:
-  - "master-first-principles"
-  - "dk-c8-format-complete-mind-empty"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  - master-first-principles
+  - dk-c8-format-complete-mind-empty
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # F-KDO-007：表层翻译式提炼→Condense 段变成课程目录改写

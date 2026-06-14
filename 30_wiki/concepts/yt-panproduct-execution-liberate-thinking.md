@@ -1,18 +1,18 @@
 ---
-id: "yt-panproduct-execution-liberate-thinking"
+id: yt-panproduct-execution-liberate-thinking
 component_of:
-  - "yt-model-pan-product-execution-toolkit"
+  - yt-model-pan-product-execution-toolkit
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: "advanced"
+difficulty: advanced
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1179
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-composite-pan-product-methodology"
-  - "yt-model-pan-product-demand-toolkit"
-  - "yt-model-pan-product-aesthetic-toolkit"
+  - yt-composite-pan-product-methodology
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
 query_triggers:
   - "产品落地"
   - "产品迭代"
@@ -23,40 +23,29 @@ query_triggers:
   - "落地执行"
   - "解放思想"
 related:
-  - "yt-model-liberate-thinking-layers"
-  - "yt-panproduct-execution-idea-spark"
+  - yt-model-liberate-thinking-layers
+  - yt-panproduct-execution-idea-spark
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-解放思想.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·落地卡片：解放思想"
-type: "tool"
+type: tool
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "泛产品设计"
-  course_type: "card"
-  level: "advanced"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: card
+  level: advanced
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '会显式列出当前方案依赖的隐含假设，并挑战其中至少一条', 'framework_lens': '解放思想从质疑假设开始', 'follow_up_question': '如果这个假设是错的，问题会变成什么样？'}
   - {'signal': '能引用更底层规律或跨领域原理来解释新解法', 'framework_lens': '深层规律支撑突破性创新', 'follow_up_question': '你的新解法依赖了哪个跨学科或第一性原理？'}
   - {'signal': '新想法在打破约束的同时，会评估可行性和落地路径', 'framework_lens': '解放思想不是无视约束', 'follow_up_question': '如果明天要验证这个想法，你最便宜的第一步是什么？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium
 ---
 
 # 解放思想：敢于提出新解法/挑战新问题

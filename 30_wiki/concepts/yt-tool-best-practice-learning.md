@@ -1,17 +1,17 @@
 ---
-id: "yt-tool-best-practice-learning"
+id: yt-tool-best-practice-learning
 component_of:
-  - "yt-model-pan-product-aesthetic-toolkit"
+  - yt-model-pan-product-aesthetic-toolkit
 confidence: 0.88
 created_at: 2026-06-06
-deprecation_reason: ""
-difficulty: "intermediate"
+deprecation_reason: 
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3200
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-model-pan-product-aesthetic-toolkit"
+  - yt-model-pan-product-aesthetic-toolkit
 query_triggers:
   - "最佳实践"
   - "如何学习最佳实践"
@@ -23,42 +23,30 @@ query_triggers:
   - "如何提升审美"
   - "设计感培养"
 related:
-  - "yt-model-pan-product-aesthetic-toolkit"
-  - "yt-personal-pan-product-aesthetics"
-  - "yt-tool-mental-model-refinement"
+  - yt-model-pan-product-aesthetic-toolkit
+  - yt-personal-pan-product-aesthetics
+  - yt-tool-mental-model-refinement
 review_by: 2026-12-06
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修身-泛产品设计审美口述.md"
-status: "enriched"
-superseded_by: ""
+status: enriched
+superseded_by: 
 title: "最佳实践学习四步法：从收集到超越"
-type: "tool"
+type: tool
 version: 1
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
-  - "confidence-verified-by-test"
+  - confidence-source-cited
+  - confidence-verified-by-case
+  - confidence-verified-by-test
 diagnostic_signals:
   - {'signal': "是否建立了明确的'水准'和评估维度（雷达图/分层权重模型）", 'framework_lens': '建池 / 建模', 'follow_up_question': "收集案例时是否只'看过'而没有建池和拆解？"}
   - {'signal': '每个模型建立后 30 天内是否在 ≥2 个真实项目中测试', 'framework_lens': '实战反馈环 / 刻意练习', 'follow_up_question': '模型是否停留在复制层面而没有经过真实场景验证？'}
   - {'signal': '收集案例是否主动包含跨领域/反常识来源以避免同质化', 'framework_lens': '创新 / 盲区突破', 'follow_up_question': '最佳实践水是否让产品越来越像行业平均水平？'}
   - {'signal': "设计决策是否先问'用户需要什么'再问'最佳实践怎么做'", 'framework_lens': '用户中心 / 参考≠目标', 'follow_up_question': "是否把'不比竞品差'当成设计目标？"}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 ## Summary

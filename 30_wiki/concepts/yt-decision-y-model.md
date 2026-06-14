@@ -1,14 +1,14 @@
 ---
-id: "yt-decision-y-model"
-component_of: ""
+id: yt-decision-y-model
+component_of: 
 confidence: 0.85
 created_at: 2026-05-17
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2100
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "科学决策"
   - "Y模型"
@@ -22,10 +22,10 @@ query_triggers:
   - "机会成本"
   - "时间窗口"
 related:
-  - "yt-decision-canvas"
-  - "yt-decision-ai-partner"
-  - "yt-model-entrepreneur-map"
-  - "yt-entrepreneur-key-hypotheses"
+  - yt-decision-canvas
+  - yt-decision-ai-partner
+  - yt-model-entrepreneur-map
+  - yt-entrepreneur-key-hypotheses
 reviewed_by: "周伯通"
 source_refs:
   - "00_inbox/科学决策/一堂-科学决策-AI协助决策行动营口述06.txt"
@@ -37,40 +37,27 @@ source_refs:
 status: enriched
 title: "Y模型科学决策框架（广义ROI）"
 trust_level: medium
-type: "framework"
-updated_at: 2026-05-22
+type: framework
+updated_at: 2026-06-13
 version: 1
 visual_analysis:
-  - {"image": "一堂-科学决策-决策三角形.png", "dimensions": [{"色彩语义": "三色三角形（红=价值/收益、黄=水平/宽度、蓝=深度），负形白色三角暗示\"高度\"维度"}, {"空间结构": "等边三角形，三边等长暗示三维同等重要；顶点交汇于中心点暗示三维协同"}, {"信息层级": "L1 三边标签 → L2 各维度子项 → L3 操作要点"}, {"负形利用": "中心白色三角=高度维度，暗示\"站得高\"才能看到全局"}, {"视觉隐喻": "三角形稳定性隐喻决策框架的稳固性"}]}
-  - {"image": "一堂-科学决策-一堂双三角磨合追求.png", "dimensions": [{"色彩语义": "深灰背景=专业容器；渐变绿/蓝=进阶路径；白字=信息主体；红色标签=价值高低指示"}, {"空间结构": "三个递进三角形水平排列(左→右=入门→进阶→高手)，纵轴标注\"价值高低\"；每个三角形内包含人与AI的协作模式描述"}, {"信息层级": "L1 标题+价值轴 → L2 三角形标签(迷你/基础/超级) → L3 合作模式说明 → L4 底部行动号召"}, {"负形利用": "三角形间间距=进阶过渡带；左侧起点低价值=高手也从入门开始；右侧高价值=人的判断力是终极目标"}, {"视觉隐喻": "三个递进三角形=人+AI协作水平的三阶进化；\"磨合追求\"=非一蹈而就的迭代过程；底部二维码/号召=行动门槛"}]}
-  - {"image": "一堂-科学决策-关键假设ABCD模型.png"}
-  - {"image": "一堂-科学决策-项目方案评估三角形.png", "dimensions": [{"色彩语义": "黑=权威专业；玫红=品牌识别；浅灰=隐形标尺；青蓝=数据驱动评估结果"}, {"空间结构": "等边三角形=三要素均衡张力；同心嵌套=理想边界渐进参照；中心空洞=系统性偏差"}, {"信息层级": "L1主题锚定→L2品牌背书→L3维度命名→L4数据映射→L5参照系统"}, {"负形利用": "三角形外部留白=画框效应+更广阔语境；青色与理想边界间隙=改进空间；中心空白=未达均衡态"}, {"视觉隐喻": "雷达图=多维评估可视化；铁三角=不可能三角经典隐喻；重心偏移=低成本保守型；同心圆=成熟度等级；青色=热成像诊断"}]}
-  - {"image": "一堂-科学决策-ROI高阶训练全景图.png", "dimensions": [{"色彩语义": "四象限色块区分场景（暖色=商业/决策，冷色=增长/转化）"}, {"空间结构": "2×2矩阵，对角线互补；中心留白=假设思维原点"}, {"信息层级": "L1 场景标签 → L2 核心问题 → L3 展开维度 → L4 统一原点"}, {"负形利用": "矩阵交叉线=场景组合锚点；象限间留白=场景切换校准区"}, {"视觉隐喻": "\"四套操作系统\"=可切换的决策runtime"}]}
-yitang: {'course_id': 'yt-decision-y-model', 'course_type': 'framework', 'level': 'foundational', 'map': 'entrepreneur', 'module': '科学决策'}
-tags:
-  - #decision-making
-  - #scene/ai-collaboration/human-ai-division
-  - #scene/business-analysis
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/level-diagnosis
-  - #scene/note-taking/live-field
-  - #scene/product-design
-  - #scene/skill-engineering
-  - #yitang
+  - {'image': '一堂-科学决策-决策三角形.png', 'dimensions': [{'色彩语义': '三色三角形（红=价值/收益、黄=水平/宽度、蓝=深度），负形白色三角暗示"高度"维度'}, {'空间结构': '等边三角形，三边等长暗示三维同等重要；顶点交汇于中心点暗示三维协同'}, {'信息层级': 'L1 三边标签 → L2 各维度子项 → L3 操作要点'}, {'负形利用': '中心白色三角=高度维度，暗示"站得高"才能看到全局'}, {'视觉隐喻': '三角形稳定性隐喻决策框架的稳固性'}]}
+  - {'image': '一堂-科学决策-一堂双三角磨合追求.png', 'dimensions': [{'色彩语义': '深灰背景=专业容器；渐变绿/蓝=进阶路径；白字=信息主体；红色标签=价值高低指示'}, {'空间结构': '三个递进三角形水平排列(左→右=入门→进阶→高手)，纵轴标注"价值高低"；每个三角形内包含人与AI的协作模式描述'}, {'信息层级': 'L1 标题+价值轴 → L2 三角形标签(迷你/基础/超级) → L3 合作模式说明 → L4 底部行动号召'}, {'负形利用': '三角形间间距=进阶过渡带；左侧起点低价值=高手也从入门开始；右侧高价值=人的判断力是终极目标'}, {'视觉隐喻': '三个递进三角形=人+AI协作水平的三阶进化；"磨合追求"=非一蹈而就的迭代过程；底部二维码/号召=行动门槛'}]}
+  - {'image': '一堂-科学决策-关键假设ABCD模型.png'}
+  - {'image': '一堂-科学决策-项目方案评估三角形.png', 'dimensions': [{'色彩语义': '黑=权威专业；玫红=品牌识别；浅灰=隐形标尺；青蓝=数据驱动评估结果'}, {'空间结构': '等边三角形=三要素均衡张力；同心嵌套=理想边界渐进参照；中心空洞=系统性偏差'}, {'信息层级': 'L1主题锚定→L2品牌背书→L3维度命名→L4数据映射→L5参照系统'}, {'负形利用': '三角形外部留白=画框效应+更广阔语境；青色与理想边界间隙=改进空间；中心空白=未达均衡态'}, {'视觉隐喻': '雷达图=多维评估可视化；铁三角=不可能三角经典隐喻；重心偏移=低成本保守型；同心圆=成熟度等级；青色=热成像诊断'}]}
+  - {'image': '一堂-科学决策-ROI高阶训练全景图.png', 'dimensions': [{'色彩语义': '四象限色块区分场景（暖色=商业/决策，冷色=增长/转化）'}, {'空间结构': '2×2矩阵，对角线互补；中心留白=假设思维原点'}, {'信息层级': 'L1 场景标签 → L2 核心问题 → L3 展开维度 → L4 统一原点'}, {'负形利用': '矩阵交叉线=场景组合锚点；象限间留白=场景切换校准区'}, {'视觉隐喻': '"四套操作系统"=可切换的决策runtime'}]}
+yitang:
+  course_id: yt-decision-y-model
+  course_type: framework
+  level: foundational
+  map: entrepreneur
+  module: "科学决策"
 pipeline:
-  - #boundary/requires-human-judgment
-  - #framework
   - confidence-source-cited
   - confidence-verified-by-case
 diagnostic_signals:
-  - signal: "团队说'我们用Y模型分析过了'，但不同人用同一画布得出完全不同的结论"
-    framework_lens: "噪声问题——Y模型减少偏差但不减少噪声，框架内的估计值差异巨大"
-    follow_up_question: "同一个关键参数，团队里不同人估计的差距有多大？如果超过2倍，说明框架没有解决噪声问题"
-  - signal: "创业者用Y模型分析品牌视觉方向，最后变成'高级感值3分还是5分'的争论"
-    framework_lens: "框架覆盖边界——Y模型对不可通约的品味型决策失效"
-    follow_up_question: "这个决策的核心分歧在'可量化的ROI'还是'不可通约的品味'？如果是后者，退出Y模型，换品味仲裁者"
-updated_at: '2026-06-13'
+  - {'signal': "团队说'我们用Y模型分析过了'，但不同人用同一画布得出完全不同的结论", 'framework_lens': '噪声问题——Y模型减少偏差但不减少噪声，框架内的估计值差异巨大', 'follow_up_question': '同一个关键参数，团队里不同人估计的差距有多大？如果超过2倍，说明框架没有解决噪声问题'}
+  - {'signal': "创业者用Y模型分析品牌视觉方向，最后变成'高级感值3分还是5分'的争论", 'framework_lens': '框架覆盖边界——Y模型对不可通约的品味型决策失效', 'follow_up_question': "这个决策的核心分歧在'可量化的ROI'还是'不可通约的品味'？如果是后者，退出Y模型，换品味仲裁者"}
 author: legacy
 ---
 

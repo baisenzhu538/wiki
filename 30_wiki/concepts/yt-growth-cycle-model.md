@@ -1,14 +1,14 @@
 ---
-id: "yt-growth-cycle-model"
-component_of: ""
+id: yt-growth-cycle-model
+component_of: 
 confidence: 0.9
 created_at: 2026-06-10
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2600
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "增长周期"
   - "增长模型"
@@ -18,7 +18,6 @@ query_triggers:
   - "一堂增长"
   - "科学销售"
   - "增长飞轮"
-related: []
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
@@ -27,23 +26,20 @@ source_refs:
 status: reviewed
 title: "增长周期模型"
 trust_level: medium
-type: "framework"
+type: framework
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '五步法', 'course_id': 'yt-growth-cycle-model', 'course_type': 'framework', 'level': 'core'}
-tags:
-  - #scene/business-analysis
-  - #scene/growth
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "五步法"
+  course_id: yt-growth-cycle-model
+  course_type: framework
+  level: core
 pipeline:
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户在获客增长期就做系统增长的事"
-    framework_lens: "周期错配"
-    follow_up_question: "你现在最重要的是找到可复制渠道，还是优化转化模型？"
-  - signal: "用户不知道当前处于哪个增长周期"
-    framework_lens: "没有周期判断"
-    follow_up_question: "你的业务现在最大风险是无法复制、现金流崩，还是越大越亏？"
-updated_at: '2026-06-13'
+  - {'signal': '用户在获客增长期就做系统增长的事', 'framework_lens': '周期错配', 'follow_up_question': '你现在最重要的是找到可复制渠道，还是优化转化模型？'}
+  - {'signal': '用户不知道当前处于哪个增长周期', 'framework_lens': '没有周期判断', 'follow_up_question': '你的业务现在最大风险是无法复制、现金流崩，还是越大越亏？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

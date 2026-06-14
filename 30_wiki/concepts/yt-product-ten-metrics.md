@@ -1,13 +1,13 @@
 ---
-id: "yt-product-ten-metrics"
+id: yt-product-ten-metrics
 component_of: "[[yt-product-kernel-cultivation]]"
 confidence: 0.85
 created_at: 2026-06-11
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2200
-language: "zh-CN"
+language: zh-CN
 prerequisites: "[[yt-product-kernel-cultivation]]"
 query_triggers:
   - "产品内核指标"
@@ -15,7 +15,6 @@ query_triggers:
   - "转化率 留存率 复购率"
   - "获客指标 服务指标 复购指标"
   - "产品数据指标"
-related: []
 review_date: 2026-06-11
 reviewed_by: "老顽童"
 source_refs:
@@ -24,26 +23,21 @@ source_refs:
 status: reviewed
 title: "产品内核十大典型指标"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '产品内核', 'course_id': 'yt-product-ten-metrics', 'course_type': 'tool', 'level': 'core'}
-tags:
-  - #scene/product-management
-  - #scene/data-analysis
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "产品内核"
+  course_id: yt-product-ten-metrics
+  course_type: tool
+  level: core
 pipeline:
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "能根据业务类型从十大指标中选出最关键的3-5个指标"
-    framework_lens: "指标要与商业模式匹配"
-    follow_up_question: "你的业务类型决定了哪几个指标最能反映内核健康？"
-  - signal: "指标会定期跟踪，并与上一周期对比"
-    framework_lens: "指标是趋势语言"
-    follow_up_question: "最近一个周期，哪个指标变化最大？原因是什么？"
-  - signal: "指标异常时会触发具体行动，而不是只记录"
-    framework_lens: "指标驱动决策"
-    follow_up_question: "如果复购率下降5%，你的标准应对流程是什么？"
-updated_at: '2026-06-13'
+  - {'signal': '能根据业务类型从十大指标中选出最关键的3-5个指标', 'framework_lens': '指标要与商业模式匹配', 'follow_up_question': '你的业务类型决定了哪几个指标最能反映内核健康？'}
+  - {'signal': '指标会定期跟踪，并与上一周期对比', 'framework_lens': '指标是趋势语言', 'follow_up_question': '最近一个周期，哪个指标变化最大？原因是什么？'}
+  - {'signal': '指标异常时会触发具体行动，而不是只记录', 'framework_lens': '指标驱动决策', 'follow_up_question': '如果复购率下降5%，你的标准应对流程是什么？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

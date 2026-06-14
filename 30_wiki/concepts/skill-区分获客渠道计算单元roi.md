@@ -1,14 +1,12 @@
 ---
 id: "skill-区分获客渠道计算单元roi"
 title: "技能：区分获客渠道计算单元ROI"
-type: "skill"
-status: "draft"
-domain:
+type: skill
+status: draft
 source_person: "一堂课程（未具名讲师）"
-source_context: "src_20260609_99032bf9"
+source_context: src_20260609_99032bf9
 source_refs:
-  - "src_20260609_99032bf9"
-wiki_refs:
+  - src_20260609_99032bf9
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -16,16 +14,12 @@ definition_of_done:
 tools_required:
   - "渠道追踪系统（UTM/推广码）"
   - "CRM或用户来源标记"
-prerequisite_skills:
-related:
 created_at: "2026-06-09T15:04:59+00:00"
 updated_at: "2026-06-09T15:04:59+00:00"
-pipeline:
-  - None
-author: "legacy"
-reviewed_by: "pending"
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：区分获客渠道计算单元ROI

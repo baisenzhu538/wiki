@@ -1,15 +1,15 @@
 ---
-id: "concept-ai-native-organization-five-steps"
-type: "concept"
-component_of: ""
+id: concept-ai-native-organization-five-steps
+type: concept
+component_of: 
 confidence: 0.8
-created_at: "2026-06-09"
-difficulty: "intermediate"
+created_at: 2026-06-09
+difficulty: intermediate
 domain:
-  - "ai-native"
-  - "management"
+  - ai-native
+  - management
 estimated_tokens: 3500
-language: "zh-CN"
+language: zh-CN
 prerequisites:
   - "ai时代判断力口述-2"
 query_triggers:
@@ -25,21 +25,15 @@ related:
   - "ai时代判断力口述-3"
   - "ai时代判断力口述"
   - "yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown"
-reviewed_by: ""
+reviewed_by: 
 source_refs:
   - "00_inbox/AI时代自进化组织形式.md"
-status: "draft"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
+status: draft
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-trust_level: "low"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+trust_level: low
 ---
 
 # AI原生组织五步搭建法：从罗马军团到自进化有机体

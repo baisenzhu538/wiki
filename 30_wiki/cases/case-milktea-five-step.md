@@ -1,35 +1,31 @@
 ---
-id: "case-milktea-five-step"
+id: case-milktea-five-step
 title: "奶茶店五步法：从九死一生到十年百店的科学创业之路"
-type: "case"
-status: "reviewed"
+type: case
+status: reviewed
 domain:
-  - "product"
-  - "yitang"
+  - product
+  - yitang
 source_person: "Truman / 古董"
 source_context: "一堂案例拆解课程-奶茶店案例"
 source_refs:
   - "00_inbox/ideas/一堂-案例拆解-串讲口述.md"
   - "00_inbox/ideas/一堂-案例拆解-课程清单.md"
-created_at: "2026-06-11"
-updated_at: "2026-06-11"
+created_at: 2026-06-11
+updated_at: 2026-06-11
 related:
   - "concept-一堂-hypothesis-driven-business-methodology"
   - "concept-一堂-key-assumptions"
 wiki_refs:
   - "concept-一堂-hypothesis-driven-business-methodology"
   - "concept-一堂-key-assumptions"
-tags:
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-source-cited"
-  - "confidence-case-verified"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-source-cited
+  - confidence-case-verified
+author: legacy
+reviewed_by: pending
 confidence: 0.85
-trust_level: "high"
+trust_level: high
 ---
 
 # 奶茶店五步法：从九死一生到十年百店的科学创业之路

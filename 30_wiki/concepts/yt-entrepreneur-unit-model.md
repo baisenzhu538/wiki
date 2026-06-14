@@ -1,18 +1,18 @@
 ---
-id: "yt-entrepreneur-unit-model"
-component_of: ""
+id: yt-entrepreneur-unit-model
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1868
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "单元模型"
   - "Unit Economics"
-  - "LTV/CAC"
+  - LTV/CAC
   - "单位经济模型"
   - "回本周期计算"
   - "商业模式拆解"
@@ -21,7 +21,7 @@ query_triggers:
   - "毛利分析"
   - "单客经济模型"
 related:
-  - "dk-yb21-ecommerce-pricing-independent-model"
+  - dk-yb21-ecommerce-pricing-independent-model
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -29,25 +29,20 @@ source_refs:
 status: enriched
 title: "单元模型"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '单元模型', 'course_id': 'yt-entrepreneur-unit-model', 'course_type': 'method', 'level': 'core'}
-tags:
-  - #scene/business-analysis/customer-acquisition
-  - #scene/learning-methodology
-  - #scene/note-taking/live-field
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "单元模型"
+  course_id: yt-entrepreneur-unit-model
+  course_type: method
+  level: core
 pipeline:
-  - #boundary/requires-human-judgment
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户LTV/CAC看起来很好，但数字是假设的"
-    framework_lens: "模型建立在空气上"
-    follow_up_question: "你的LTV和CAC中，有多少来自真实交易数据？如果<30%，这是沙盘推演"
-  - signal: "用户只看单元模型，不看真实现金流"
-    framework_lens: "模型脱离现实"
-    follow_up_question: "按当前现金流，你还能活几个月？单元模型好但现金流断了也没用"
-updated_at: '2026-06-13'
+  - {'signal': '用户LTV/CAC看起来很好，但数字是假设的', 'framework_lens': '模型建立在空气上', 'follow_up_question': '你的LTV和CAC中，有多少来自真实交易数据？如果<30%，这是沙盘推演'}
+  - {'signal': '用户只看单元模型，不看真实现金流', 'framework_lens': '模型脱离现实', 'follow_up_question': '按当前现金流，你还能活几个月？单元模型好但现金流断了也没用'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

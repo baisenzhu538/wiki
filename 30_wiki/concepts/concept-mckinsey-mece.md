@@ -1,12 +1,12 @@
 ---
-id: "concept-mckinsey-mece"
+id: concept-mckinsey-mece
 title: "MECE 原则：相互独立、完全究尽"
-type: "concept"
-status: "draft"
+type: concept
+status: draft
 domain:
-  - "consulting"
-  - "structured-thinking"
-  - "business-strategy"
+  - consulting
+  - structured-thinking
+  - business-strategy
 source_person: "Barbara Minto / McKinsey & Company"
 source_context: "McKinsey 问题解决方法论核心原则，最早系统化呈现于 Minto《金字塔原理》(1987) 与 McKinsey 内部培训"
 source_refs:
@@ -14,31 +14,26 @@ source_refs:
   - "Rasiel, E. (1999). The McKinsey Way. McGraw-Hill."
   - "Rasiel, E. & Friga, P. (2001). The McKinsey Mind. McGraw-Hill."
 related:
-  - "concept-mckinsey-issue-tree"
-  - "concept-minto-pyramid-principle"
-  - "concept-mckinsey-hypothesis-driven"
+  - concept-mckinsey-issue-tree
+  - concept-minto-pyramid-principle
+  - concept-mckinsey-hypothesis-driven
 wiki_refs:
   - "skill-mece体系框架法"
-  - "yt-panproduct-execution-logic-mece"
-  - "yt-foresight-model-taxonomy"
+  - yt-panproduct-execution-logic-mece
+  - yt-foresight-model-taxonomy
   - "concept-一堂-hypothesis-driven-business-methodology"
-created_at: "2026-06-11"
-updated_at: "2026-06-11"
+created_at: 2026-06-11
+updated_at: 2026-06-11
 diagnostic_signals:
   - {'trigger': '问题太复杂不知道从哪拆起', 'framework_lens': 'MECE 原则检查清单', 'follow_up': '你当前的分类维度是什么？这些维度之间是否互不重叠、合起来是否覆盖了所有可能？'}
   - {'trigger': '团队讨论散乱无进展，每个人在说不同层面的东西', 'framework_lens': 'MECE 框架对齐', 'follow_up': '如果用一个结构化框架强迫大家按同一维度发言，你会选什么维度？'}
   - {'trigger': "做完分析后觉得'完备但没有洞察'", 'framework_lens': 'L3→L4 逻辑链升级', 'follow_up': '你的框架中格与格之间有没有因果/递进关系？还是只是并列罗列？'}
-tags:
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-draft"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # MECE 原则：相互独立、完全究尽

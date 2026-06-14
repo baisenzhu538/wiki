@@ -1,27 +1,24 @@
 ---
-id: "kdo-yaml-frontmatter-safety"
+id: kdo-yaml-frontmatter-safety
 title: "KDO YAML Frontmatter 安全操作指南"
-type: "concept"
-status: "draft"
+type: concept
+status: draft
 domain:
-  - "master"
+  - master
 created_at: 2026-05-31
 updated_at: 2026-05-31
 target_roles:
   - "黄药师（Builder）"
   - "欧阳锋（Architect）"
 related:
-  - "fix-data-curator-parse-bug"
-  - "gold-standard-manual-labels"
-tags:
-  - None
-  - None
+  - fix-data-curator-parse-bug
+  - gold-standard-manual-labels
 pipeline:
-  - "confidence-draft"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+author: legacy
+reviewed_by: pending
 confidence: 0.6
-trust_level: "low"
+trust_level: low
 ---
 
 # KDO YAML Frontmatter 安全操作指南

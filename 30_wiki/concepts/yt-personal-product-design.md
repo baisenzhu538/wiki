@@ -1,14 +1,14 @@
 ---
-id: "yt-personal-product-design"
-component_of: ""
+id: yt-personal-product-design
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 3000
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "泛产品设计"
   - "产品思维"
@@ -20,7 +20,6 @@ query_triggers:
   - "用户任务分析"
   - "职业发展路径设计"
   - "产品设计方法论"
-related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -28,32 +27,22 @@ source_refs:
 status: enriched
 title: "泛产品设计"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_id': 'yt-personal-product-design', 'course_type': 'method', 'level': 'core'}
-tags:
-  - #scene/hardware-debugging/prototyping
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/level-diagnosis
-  - #scene/note-taking/live-field
-  - #scene/product-design
-  - #yitang
+yitang:
+  map: personal
+  module: "泛产品设计"
+  course_id: yt-personal-product-design
+  course_type: method
+  level: core
 pipeline:
-  - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
 diagnostic_signals:
-  - signal: "能把任何工作重新定义为‘为用户解决问题’的设计任务"
-    framework_lens: "泛产品 = 问题+用户+场景"
-    follow_up_question: "这件事的用户是谁？他真正想解决什么问题？"
-  - signal: "设计前先明确用户、场景、任务，再进入解决方案"
-    framework_lens: "问题定义先于方案"
-    follow_up_question: "在画第一个方案之前，你是否已经写清了用户-场景-任务？"
-  - signal: "方案会通过反馈迭代，而不是一次定稿"
-    framework_lens: "设计是循环"
-    follow_up_question: "这个方案上线后，你计划收集哪些反馈来驱动下一轮迭代？"
-updated_at: '2026-06-13'
+  - {'signal': '能把任何工作重新定义为‘为用户解决问题’的设计任务', 'framework_lens': '泛产品 = 问题+用户+场景', 'follow_up_question': '这件事的用户是谁？他真正想解决什么问题？'}
+  - {'signal': '设计前先明确用户、场景、任务，再进入解决方案', 'framework_lens': '问题定义先于方案', 'follow_up_question': '在画第一个方案之前，你是否已经写清了用户-场景-任务？'}
+  - {'signal': '方案会通过反馈迭代，而不是一次定稿', 'framework_lens': '设计是循环', 'follow_up_question': '这个方案上线后，你计划收集哪些反馈来驱动下一轮迭代？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

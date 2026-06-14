@@ -3,26 +3,16 @@ id: "诊所o2o外卖平台业务深度调研报告"
 created_at: 2026-04-30
 domain:
   - "['healthcare']"
-status: "enriched"
+status: enriched
 title: "诊所O2O外卖平台业务深度调研报告"
-type: "concept"
+type: concept
 updated_at: 2026-05-03
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-verified-by-case"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-verified-by-case
+author: legacy
+reviewed_by: pending
 confidence: 0.75
-trust_level: "medium-low"
+trust_level: medium-low
 ---
 
 # 诊所O2O外卖平台业务深度调研报告

@@ -1,17 +1,17 @@
 ---
-id: "yt-concept-context-engineering"
+id: yt-concept-context-engineering
 title: "上下文工程：充分≠越多越好"
-type: "concept"
-status: "enriched"
+type: concept
+status: enriched
 domain:
-  - "yitang"
-  - "ai"
-language: "zh-CN"
+  - yitang
+  - ai
+language: zh-CN
 version: 1
-difficulty: "intermediate"
+difficulty: intermediate
 confidence: 0.85
 prerequisites:
-  - "yt-model-prompt-engineering"
+  - yt-model-prompt-engineering
 source_refs:
   - "10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
   - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
@@ -23,31 +23,18 @@ query_triggers:
   - "脱敏处理"
   - "对话窗口隔离"
   - "复述验证"
-created_at: "2026-05-13"
+created_at: 2026-05-13
 estimated_tokens: 3400
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - None
-  - None
-  - "confidence-source-cited"
-  - "confidence-verified-by-case"
+  - confidence-source-cited
+  - confidence-verified-by-case
 diagnostic_signals:
   - {'signal': '用户给AI喂了海量背景，但输出反而更差', 'framework_lens': '信息过载——上下文质量由相关度决定', 'follow_up_question': '你给的背景中，哪些是这个问题的核心约束？如果说不清，说明信息没有筛选'}
   - {'signal': '用户只给一句话prompt，抱怨AI回答太泛', 'framework_lens': '上下文不足——没有独特约束就没有独特答案', 'follow_up_question': '这个问题涉及的 业务阶段/目标用户/当前约束/不可接受方案 是什么？'}
-updated_at: "2026-06-13"
-author: "legacy"
-reviewed_by: "pending"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+reviewed_by: pending
+trust_level: medium-high
 ---
 
 # 上下文工程：充分≠越多越好

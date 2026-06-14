@@ -1,17 +1,17 @@
 ---
-id: "yt-panproduct-aesthetic-pool"
+id: yt-panproduct-aesthetic-pool
 component_of:
-  - "yt-model-pan-product-aesthetic-toolkit"
+  - yt-model-pan-product-aesthetic-toolkit
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: "foundational"
+difficulty: foundational
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1310
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-composite-pan-product-methodology"
-  - "yt-model-pan-product-demand-toolkit"
+  - yt-composite-pan-product-methodology
+  - yt-model-pan-product-demand-toolkit
 query_triggers:
   - "产品审美"
   - "审美"
@@ -22,40 +22,30 @@ query_triggers:
   - "泛产品设计·审美卡片：最佳实践池子"
   - "设计标准"
 related:
-  - "yt-panproduct-aesthetic-collection"
-  - "yt-panproduct-aesthetic-modeling"
-  - "yt-model-aesthetic-progression"
+  - yt-panproduct-aesthetic-collection
+  - yt-panproduct-aesthetic-modeling
+  - yt-model-aesthetic-progression
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践池子.png"
-status: "enriched"
+status: enriched
 title: "泛产品设计·审美卡片：最佳实践池子"
-type: "tool"
+type: tool
 version: 1
 yitang:
-  map: "personal"
+  map: personal
   module: "泛产品设计"
-  course_type: "card"
-  level: "foundational"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  course_type: card
+  level: foundational
 pipeline:
-  - None
-  - None
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '围绕一个产品设计目标，能快速调出≥10个相关最佳实践进行横向比较', 'framework_lens': '池子=可反复调用的参照系', 'follow_up_question': '这些案例是否覆盖了不同价位、不同用户群体和不同技术路径？'}
   - {'signal': '池中案例按设计维度（如信息层级、交互效率、视觉一致性）做了标签', 'framework_lens': '从素材到结构化参照系', 'follow_up_question': '当你卡在‘信息层级’问题时，能否只过滤出相关案例？'}
   - {'signal': '同一案例会在多个版本的方案评审中被反复引用，并推动迭代', 'framework_lens': '池子的价值在于持续打磨', 'follow_up_question': '上一次方案评审中，池子里的哪个案例直接促成了设计改动？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium
 ---
 
 # 最佳实践池子：用一堆最佳实践打磨产品

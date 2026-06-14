@@ -1,19 +1,19 @@
 ---
-id: "yt-model-pan-product-execution-toolkit"
+id: yt-model-pan-product-execution-toolkit
 component_of:
-  - "yt-composite-pan-product-methodology"
+  - yt-composite-pan-product-methodology
 confidence: 0.85
 created_at: 2026-05-11
-deprecation_reason: ""
-difficulty: "intermediate"
+deprecation_reason: 
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1800
-language: "zh-CN"
+language: zh-CN
 prerequisites:
-  - "yt-composite-pan-product-methodology"
-  - "yt-model-pan-product-demand-toolkit"
-  - "yt-model-pan-product-aesthetic-toolkit"
+  - yt-composite-pan-product-methodology
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
 query_triggers:
   - "产品落地"
   - "执行落地"
@@ -23,39 +23,30 @@ query_triggers:
   - "如何做好产品执行"
   - "产品交付方法论"
 related:
-  - "yt-model-pan-product-36-strategies"
-  - "yt-model-pan-product-demand-toolkit"
-  - "yt-model-pan-product-aesthetic-toolkit"
-  - "yt-model-y-organization"
-  - "yt-entrepreneur-lean-validation"
+  - yt-model-pan-product-36-strategies
+  - yt-model-pan-product-demand-toolkit
+  - yt-model-pan-product-aesthetic-toolkit
+  - yt-model-y-organization
+  - yt-entrepreneur-lean-validation
 review_by: 2026-11-11
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计落地工具篇指南.png"
   - "10_raw/assets/yitang/泛产品设计-落地卡片-内核和边界.png"
   - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
-status: "enriched"
-superseded_by: ""
+status: enriched
+superseded_by: 
 title: "泛产品设计·落地工具箱（19张卡牌）"
-type: "framework"
+type: framework
 version: 1
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
 pipeline:
-  - None
-  - None
-  - "confidence-source-cited"
+  - confidence-source-cited
 diagnostic_signals:
   - {'signal': '用户工具很多但产品迭代慢', 'framework_lens': '工具没有形成工作流', 'follow_up_question': '你的落地工具箱中，哪些工具已经融入日常工作流？如果大部分只是收藏，没有形成闭环'}
   - {'signal': '用户只打磨不验证', 'framework_lens': '缺乏反馈闭环', 'follow_up_question': '你打磨的每个版本有没有人看、有人用、有人反馈？'}
-updated_at: "2026-06-13"
-author: "legacy"
-trust_level: "medium-high"
+updated_at: 2026-06-13
+author: legacy
+trust_level: medium-high
 ---
 
 ## Constraints & Boundaries

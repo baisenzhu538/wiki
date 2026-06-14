@@ -1,14 +1,14 @@
 ---
-id: "yt-entrepreneur-opportunity-selection"
-component_of: ""
+id: yt-entrepreneur-opportunity-selection
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1849
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "机会选择"
   - "创业机会评估"
@@ -20,7 +20,6 @@ query_triggers:
   - "创业赛道选择"
   - "竞争强度分析"
   - "市场大小评估"
-related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -28,27 +27,21 @@ source_refs:
 status: enriched
 title: "机会选择"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '机会选择', 'course_id': 'yt-entrepreneur-opportunity-selection', 'course_type': 'method', 'level': 'core'}
-tags:
-  - #scene/business-analysis
-  - #scene/knowledge-management
-  - #scene/learning-methodology
-  - #scene/note-taking/live-field
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "机会选择"
+  course_id: yt-entrepreneur-opportunity-selection
+  course_type: method
+  level: core
 pipeline:
-  - #boundary/requires-human-judgment
   - confidence-source-cited
   - confidence-verified-by-case
 diagnostic_signals:
-  - signal: "用户凭感觉选机会，不做系统评估"
-    framework_lens: "缺乏评估框架"
-    follow_up_question: "你用什么标准在比较这些机会？如果没有明确标准，选择是情绪化的"
-  - signal: "用户只看市场大小，不看自己和时机"
-    framework_lens: "评估维度单一"
-    follow_up_question: "这个市场大，但你的能力匹配吗？现在进入时机对吗？"
-updated_at: '2026-06-13'
+  - {'signal': '用户凭感觉选机会，不做系统评估', 'framework_lens': '缺乏评估框架', 'follow_up_question': '你用什么标准在比较这些机会？如果没有明确标准，选择是情绪化的'}
+  - {'signal': '用户只看市场大小，不看自己和时机', 'framework_lens': '评估维度单一', 'follow_up_question': '这个市场大，但你的能力匹配吗？现在进入时机对吗？'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

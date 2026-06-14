@@ -1,13 +1,13 @@
 ---
-id: "yt-five-step-common-pitfalls"
+id: yt-five-step-common-pitfalls
 component_of: "[[yt-five-step-method]]"
 confidence: 0.85
 created_at: 2026-06-11
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 2200
-language: "zh-CN"
+language: zh-CN
 prerequisites: "[[yt-five-step-method]] | [[yt-five-step-implementation]]"
 query_triggers:
   - "五步法误区"
@@ -15,7 +15,6 @@ query_triggers:
   - "五步法为什么没用"
   - "五步法失败原因"
   - "商业分析常见错误"
-related: []
 review_date: 2026-06-11
 reviewed_by: "老顷童"
 source_refs:
@@ -24,24 +23,20 @@ source_refs:
 status: reviewed
 title: "暗知识：五步法常见误区与认知陷阱"
 trust_level: medium
-type: "dk"
+type: dk
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '落地实操', 'course_id': 'yt-five-step-common-pitfalls', 'course_type': 'dk', 'level': 'core'}
-tags:
-  - #scene/business-analysis
-  - #scene/cognitive-bias
-  - #scene/entrepreneurship
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "落地实操"
+  course_id: yt-five-step-common-pitfalls
+  course_type: dk
+  level: core
 pipeline:
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户填完画布就放在一边"
-    framework_lens: "静态工具化"
-    follow_up_question: "你的五步法画布最近一次更新是什么时候？如果超过一个月，它已过时"
-  - signal: "用户学了五步法就觉得自己很牛"
-    framework_lens: "过度自信"
-    follow_up_question: "你最近一次被五步法分析结果 surprise 到是什么时候？如果没有，你可能在用框架确认偏见"
-updated_at: '2026-06-13'
+  - {'signal': '用户填完画布就放在一边', 'framework_lens': '静态工具化', 'follow_up_question': '你的五步法画布最近一次更新是什么时候？如果超过一个月，它已过时'}
+  - {'signal': '用户学了五步法就觉得自己很牛', 'framework_lens': '过度自信', 'follow_up_question': '你最近一次被五步法分析结果 surprise 到是什么时候？如果没有，你可能在用框架确认偏见'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

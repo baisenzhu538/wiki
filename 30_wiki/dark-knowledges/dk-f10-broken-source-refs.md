@@ -1,39 +1,30 @@
 ---
-id: "dk-f10-broken-source-refs"
+id: dk-f10-broken-source-refs
 title: "F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料"
-type: "dark-knowledge"
-dark_knowledge_type: "failure"
-status: "draft"
+type: dark-knowledge
+dark_knowledge_type: failure
+status: draft
 domain:
-  - "master"
-source_person: "system"
+  - master
+source_person: system
 source_context: "failure-modes.md F-KDO-010"
 source_refs:
-  - "90_control/failure-modes.md#F-KDO-010"
+  - 90_control/failure-modes.md#F-KDO-010
 created_at: 2026-05-31
 updated_at: 2026-05-31
 related:
-  - "dk-f7-surface-translation"
-  - "master-first-principles"
+  - dk-f7-surface-translation
+  - master-first-principles
 contradicts:
-  - "master-first-principles"
-  - "master-ai-info-literacy"
-tags:
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
-  - None
+  - master-first-principles
+  - master-ai-info-literacy
 pipeline:
-  - None
-  - "confidence-draft"
-  - "confidence-source-cited"
-author: "legacy"
-reviewed_by: "pending"
+  - confidence-draft
+  - confidence-source-cited
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料

@@ -1,17 +1,17 @@
 ---
 id: "skill-水水-管理决策权重偏差"
 title: "技能：管理决策权重偏差"
-type: "skill"
-status: "enriched"
+type: skill
+status: enriched
 domain:
-  - "decision-making"
+  - decision-making
 source_person: "水水"
 source_context: "拆书会-偶然"
-source_refs: ""
+source_refs: 
 wiki_refs:
-  - "30_wiki/concepts/yt-decision-y-model.md"
-  - "30_wiki/concepts/master-decision-hygiene.md"
-  - "30_wiki/concepts/master-cognitive-bias-checklist.md"
+  - 30_wiki/concepts/yt-decision-y-model.md
+  - 30_wiki/concepts/master-decision-hygiene.md
+  - 30_wiki/concepts/master-cognitive-bias-checklist.md
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -19,23 +19,18 @@ definition_of_done:
 tools_required:
   - "决策矩阵（纸笔或电子表格）"
   - "外部咨询（信任的朋友/导师）"
-prerequisite_skills:
 related:
-  - "master-decision-hygiene"
-  - "master-cognitive-bias-checklist"
-  - "yt-decision-y-model"
-created_at: "2026-06-07"
-updated_at: "2026-06-11"
+  - master-decision-hygiene
+  - master-cognitive-bias-checklist
+  - yt-decision-y-model
+created_at: 2026-06-07
+updated_at: 2026-06-11
 reviewed_by: "黄药师"
 confidence: 0.85
-tags:
-  - None
-  - None
-  - None
 pipeline:
-  - "confidence-source-cited"
-author: "legacy"
-trust_level: "medium-high"
+  - confidence-source-cited
+author: legacy
+trust_level: medium-high
 ---
 
 # 技能：管理决策权重偏差

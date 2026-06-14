@@ -1,14 +1,14 @@
 ---
-id: "yt-entrepreneur-channel-exploration"
-component_of: ""
+id: yt-entrepreneur-channel-exploration
+component_of: 
 confidence: 0.8
 created_at: 2026-05-06
-difficulty: "intermediate"
+difficulty: intermediate
 domain:
-  - "yitang"
+  - yitang
 estimated_tokens: 1822
-language: "zh-CN"
-prerequisites: ""
+language: zh-CN
+prerequisites: 
 query_triggers:
   - "渠道探索"
   - "获客渠道"
@@ -20,7 +20,6 @@ query_triggers:
   - "起盘阶段"
   - "创业获客"
   - "渠道漏斗"
-related: []
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
@@ -28,29 +27,20 @@ source_refs:
 status: enriched
 title: "渠道探索"
 trust_level: medium
-type: "tool"
+type: tool
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '渠道探索', 'course_id': 'yt-entrepreneur-channel-exploration', 'course_type': 'method', 'level': 'core'}
-tags:
-  - #scene/agent-infrastructure
-  - #scene/business-analysis/conversion-rate
-  - #scene/business-analysis/customer-acquisition
-  - #scene/learning-methodology
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering
-  - #yitang
+yitang:
+  map: entrepreneur
+  module: "渠道探索"
+  course_id: yt-entrepreneur-channel-exploration
+  course_type: method
+  level: core
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
   - confidence-source-cited
 diagnostic_signals:
-  - signal: "用户只选一个渠道All in，不测试其他"
-    framework_lens: "渠道单一风险"
-    follow_up_question: "如果明天这个渠道失效（平台政策变化/成本翻倍），你有备选吗？"
-  - signal: "用户渠道很多，但不知道哪个有效"
-    framework_lens: "没有渠道验证机制"
-    follow_up_question: "每个渠道的CAC、转化率、LTV/CAC你算过吗？如果不知道，渠道选择是盲目的"
-updated_at: '2026-06-13'
+  - {'signal': '用户只选一个渠道All in，不测试其他', 'framework_lens': '渠道单一风险', 'follow_up_question': '如果明天这个渠道失效（平台政策变化/成本翻倍），你有备选吗？'}
+  - {'signal': '用户渠道很多，但不知道哪个有效', 'framework_lens': '没有渠道验证机制', 'follow_up_question': '每个渠道的CAC、转化率、LTV/CAC你算过吗？如果不知道，渠道选择是盲目的'}
+updated_at: 2026-06-13
 author: legacy
 ---
 

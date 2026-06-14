@@ -1,82 +1,67 @@
 ---
 id: yt-tool-meeting-designer
 component_of:
-- yt-management-toolkit-overview
+  - yt-management-toolkit-overview
 confidence: 0.82
 created_at: 2026-05-19
 difficulty: intermediate
 domain:
-- yitang
+  - yitang
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
-- yt-management-toolkit-overview
+  - yt-management-toolkit-overview
 query_triggers:
-- 会议设计
-- 议程模板
-- 会议角色分工
-- 会前准备
-- 减少无效会议
-- 会议产出验收
-- 会议时间管理
-- 科学开会
-- 会议效率
-- 会议设计师
-- 会议蓝图
-- 会议流程
-- 会议觢决方案
-- 会议最佳实践
-- 会议管理工具
-- 会议记录模板
-- 会后行动项
-- 会议角色
-- 会议时间盒
-- 会议预读材料
+  - "会议设计"
+  - "议程模板"
+  - "会议角色分工"
+  - "会前准备"
+  - "减少无效会议"
+  - "会议产出验收"
+  - "会议时间管理"
+  - "科学开会"
+  - "会议效率"
+  - "会议设计师"
+  - "会议蓝图"
+  - "会议流程"
+  - "会议觢决方案"
+  - "会议最佳实践"
+  - "会议管理工具"
+  - "会议记录模板"
+  - "会后行动项"
+  - "会议角色"
+  - "会议时间盒"
+  - "会议预读材料"
 related:
-- yt-management-scientific-meetings
-- yt-management-goal-management
-- yt-management-strategy-meeting
-- yt-management-project-management
-- yt-decision-canvas
-- yt-decision-consensus-iceberg
-- yt-tool-project-health-radar
-- yt-tool-okr-cycle
-- yt-tool-strategy-workshop
-- yt-management-toolkit-overview
+  - yt-management-scientific-meetings
+  - yt-management-goal-management
+  - yt-management-strategy-meeting
+  - yt-management-project-management
+  - yt-decision-canvas
+  - yt-decision-consensus-iceberg
+  - yt-tool-project-health-radar
+  - yt-tool-okr-cycle
+  - yt-tool-strategy-workshop
+  - yt-management-toolkit-overview
 source_refs:
-- 30_wiki/concepts/yt-management-scientific-meetings.md
+  - 30_wiki/concepts/yt-management-scientific-meetings.md
 status: draft
-title: 会议设计师：一页纸会议蓝图
+title: "会议设计师：一页纸会议蓝图"
 trust_level: medium
 type: tool
-updated_at: '2026-06-13'
+updated_at: 2026-06-13
 version: 1
 yitang:
   map: management
-  module: 管团队
+  module: "管团队"
   course_type: tool
   level: core
-tags:
-- null
-- null
-- null
-- null
-- null
-- null
-- null
 pipeline:
-- null
-- null
-- confidence-draft
-- confidence-source-cited
+  - confidence-draft
+  - confidence-source-cited
 diagnostic_signals:
-  - signal: "会议设计师模板填得很完整，但会议还是超时、没有结论"
-    framework_lens: "模板没有变成纪律——会议设计需要主持人严格执行，不是填完就有效"
-    follow_up_question: "上次会议中，议程时间盒被严格遵守了吗？如果有人超时，主持人有没有打断？"
-  - signal: '团队说"我们开了会，但什么都没决定"'
-    framework_lens: "会议缺乏存在理由——没有明确产出标准的会议不应该发生"
-    follow_up_question: "这个会议如果取消，会发生什么？如果答案是什么都不会发生，那这个会议就不该开"
-updated_at: '2026-06-13'
+  - {'signal': '会议设计师模板填得很完整，但会议还是超时、没有结论', 'framework_lens': '模板没有变成纪律——会议设计需要主持人严格执行，不是填完就有效', 'follow_up_question': '上次会议中，议程时间盒被严格遵守了吗？如果有人超时，主持人有没有打断？'}
+  - {'signal': '团队说"我们开了会，但什么都没决定"', 'framework_lens': '会议缺乏存在理由——没有明确产出标准的会议不应该发生', 'follow_up_question': '这个会议如果取消，会发生什么？如果答案是什么都不会发生，那这个会议就不该开'}
 author: legacy
 reviewed_by: pending
 ---

@@ -1,14 +1,12 @@
 ---
 id: "skill-采用滚动预测机制"
 title: "技能：采用滚动预测机制"
-type: "skill"
-status: "draft"
-domain:
+type: skill
+status: draft
 source_person: "课程设计者"
-source_context: "src_20260609_1c8b4d0e"
+source_context: src_20260609_1c8b4d0e
 source_refs:
-  - "src_20260609_1c8b4d0e"
-wiki_refs:
+  - src_20260609_1c8b4d0e
 definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
@@ -16,16 +14,12 @@ definition_of_done:
 tools_required:
   - "12-18个月预测模板"
   - "复盘会议机制"
-prerequisite_skills:
-related:
 created_at: "2026-06-09T15:06:23+00:00"
 updated_at: "2026-06-09T15:06:23+00:00"
-pipeline:
-  - None
-author: "legacy"
-reviewed_by: "pending"
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：采用滚动预测机制
