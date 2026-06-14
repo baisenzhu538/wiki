@@ -1,28 +1,28 @@
 ---
-
-title: "KDO Protocol — AI-Agent Operating Contract"
-type: "system"
-status: "draft"
+title: KDO Protocol — AI-Agent Operating Contract
+type: system
+status: draft
 aliases:
-  - "KDO Protocol"
-id: 'kdo-protocol - "src_20260502_7d7c1b7c"'
-created_at: "2026-05-02"
-updated_at: "2026-05-04"
+- KDO Protocol
+id: kdo-protocol
+created_at: '2026-05-02'
+updated_at: '2026-05-04'
 related:
-  - "[[obsidian-kdo-内容产出工作流-产品设计大纲]]"
-  - "[[kdo-protocol]]"
-  - "[[index]]"
-  - "[[business-research-skill-oscar-13-weapon-system]]"
+- '[[obsidian-kdo-内容产出工作流-产品设计大纲]]'
+- '[[kdo-protocol]]'
+- '[[index]]'
+- '[[business-research-skill-oscar-13-weapon-system]]'
 tags:
-  - None
-  - None
-  - None
-trust_level: "medium"
-reviewed_by: "Claude"
-review_date: "2026-05-03"
+- None
+- None
+- None
+trust_level: medium
+reviewed_by: Claude
+review_date: '2026-05-03'
 domain:
-author: "legacy"
-source_context: "90_control/PROTOCOL.md`。实际上"
+- master
+author: legacy
+source_context: 90_control/PROTOCOL.md
 source_refs: []
 confidence: 0.6
 ---

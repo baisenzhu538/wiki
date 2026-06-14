@@ -25,6 +25,14 @@ _Last updated: 2026-06-14T19:07:54+00:00_
 - [[cases/case-nine-pm-livestream-survey.md|case-nine-pm-livestream-survey]] — source no source
 - [[cases/case-offline-catering-formula.md|线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定]] — source `src_20260613_6b939d2b`
 - [[cases/case-personal-map-modeling.md|case-personal-map-modeling]] — source no source
+- [本质建模案例：从盲目创新到学科经典的五层思维深度](cases/case-modeling-essence-levels.md) — source `src_20260614_3c3359d8 src_20260614_8269ccdb`
+- [本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野](cases/case-modeling-essence-schools.md) — source `src_20260614_55135154 src_20260614_8269ccdb`
+- [抽象建模案例：一堂内部模型武器库与跨领域商业模型地图](cases/case-modeling-abstraction-yitang-models.md) — source `src_20260614_87b29a61 src_20260614_8269ccdb`
+- [抽象建模案例：知识可靠度四阶梯——从“听着很香”到“没有反例”](cases/case-modeling-abstraction-reliability-ladder.md) — source `src_20260614_a024fb17 src_20260614_8269ccdb`
+- [流程建模案例：一堂 2021-2024 年 SOP 清单演进史](cases/case-modeling-process-sop-evolution.md) — source `src_20260614_4efd4e88 src_20260614_8269ccdb`
+- [流程建模案例：10 个学员企业的 SOP 实践样本](cases/case-modeling-process-sop-examples.md) — source `src_20260614_1e814b94 src_20260614_8269ccdb`
+- [流程建模案例：Truman 直播开播前 2 小时个人准备清单](cases/case-modeling-process-livestream-prep.md) — source `src_20260614_9aca19bd src_20260614_8269ccdb`
+- [流程建模案例：直播开播团队分工与检查清单](cases/case-modeling-process-livestream-roles.md) — source `src_20260614_c62e0e61 src_20260614_8269ccdb`
 - [[cases/case-private-domain-ecommerce-formula.md|私域电商 10W 人社群：从“拉人发广告”到“信任 × 用户升级路径”]] — source `src_20260613_6b939d2b`
 - [[cases/case-saas-renewal-formula.md|ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户“用起来”]] — source `src_20260613_6b939d2b`
 - [[cases/case-shampoo-product-kernel.md|洗发水产品内核：从卖点混淆到内核清晰的产品定义案例]] — source `00_inbox/一堂五步法/一堂-一堂五步法-产品内核-洗发水案例.png`

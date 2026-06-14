@@ -1,0 +1,89 @@
+---
+id: case-modeling-abstraction-reliability-ladder
+title: 抽象建模案例：知识可靠度四阶梯——从“听着很香”到“没有反例”
+type: case
+status: enriched
+domain:
+- yitang
+- master
+- modeling
+source_refs:
+- src_20260614_a024fb17
+- src_20260614_8269ccdb
+tags:
+- #modeling
+- #case
+- #yitang
+- #truman
+created_at: 2026-06-15
+updated_at: 2026-06-15
+author: 老顽童
+source_person: Truman
+source_context: Truman-高阶建模-抽象建模-案例-图-02
+reviewed_by: 老顽童
+review_date: 2026-06-15
+confidence: 0.85
+trust_level: high
+related:
+- [[dk-modeling-counterexample-driven]]
+- [[dk-modeling-case-explosion-confidence]]
+- [[case-modeling-essence-schools]]
+---
+
+# 抽象建模案例：知识可靠度四阶梯——从“听着很香”到“没有反例”
+
+> 来源：Truman-高阶建模-抽象建模-案例-图-02 | 一堂建模能力培训（Truman）
+
+## Summary
+
+本图展示了判断一个模型可信度的四阶梯：1. 有启发（听着精彩、很香、看似有用）；2. 有实证案例（至少 1-2 个具体可实证案例）；3. 充分实证（大量案例证明有效性）；4. 没有反例（理论充分可靠，在边界内找不到反例）。
+
+---
+
+## Claims
+
+- “有启发”不等于“有效”，绝大多数短视频知识停留在第一层。
+- 科学建模的目标是第四层：在明确边界内找不到反例。
+- 每找到一个反例，模型就需要修正；反例是模型进化的燃料。
+
+---
+
+## 关键证据
+
+- 原始图片明确列出 4 个层级及定义。
+- Truman 口述中强调“科学是靠反例驱动的”，并提到一堂做案例大爆炸就是为了寻找反例。
+- 口述中批评“用一个例子证明模型成功”的短视频做法，与第四层形成对比。
+
+---
+
+## 可迁移场景
+
+- 评估任何方法论、课程、咨询框架的可信度。
+- 设计内部模型验收标准时，要求至少到达第 3 层。
+- 向投资人或客户说明一个模型的证据强度。
+
+---
+
+## 教训
+
+- 不要用“我一个客户用了有效”来证明模型普适。
+- 模型边界越小，越容易达到“没有反例”；边界越大，反例必然出现。
+- 团队应建立“找反例”的文化，而不是维护模型的权威。
+
+---
+
+## 失败模式
+
+| 踩坑方式 | 表现 | 避免方法 |
+|---|---|---|
+| 把“有启发”包装成“经过验证”的知识产品。 | 模型/清单失效或无法落地 | 回到源头重新界定边界与证据标准 |
+| 发现一个反例就全盘否定模型，而不是修正边界。 | 模型/清单失效或无法落地 | 回到源头重新界定边界与证据标准 |
+| 模型边界模糊，导致“没有反例”成为自我欺骗。 | 模型/清单失效或无法落地 | 回到源头重新界定边界与证据标准 |
+
+---
+
+## 关联框架
+
+- [[dk-modeling-counterexample-driven]]
+- [[dk-modeling-case-explosion-confidence]]
+- [[case-modeling-essence-schools]]

@@ -1,28 +1,26 @@
 ---
-id: "skill-月白-像素图高清重绘修复法"
-title: "技能：像素图高清重绘修复法"
+id: skill-月白-像素图高清重绘修复法
+title: 技能：像素图高清重绘修复法
 type: skill
 status: draft
 domain:
-  - design
-  - design
-source_person: "月白"
-source_context: "文创案例"
-source_refs: 
-wiki_refs: 
+- design
+source_person: 月白
+source_context: 文创案例
+source_refs: null
+wiki_refs: null
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
-tools_required: 
-prerequisite_skills: 
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
+tools_required: null
+prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: 2026-06-07
 pipeline:
-  - confidence-draft
+- confidence-draft
 author: legacy
 reviewed_by: pending
-source_context: "月白 AIGC设计课程 — 实操技巧笔记"
 confidence: 0.6
 trust_level: low
 ---
