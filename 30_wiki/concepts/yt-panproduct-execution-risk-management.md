@@ -30,37 +30,36 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-风险管理.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·落地卡片：风险管理"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "intermediate"
 tags:
-  - #execution
-  - #pan-product-design
-  - #risk-management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #scene/product-design
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "风险清单在项目启动时建立，而不是等问题发生后再补"
-    framework_lens: "风险需要前置识别"
-    follow_up_question: "这个项目最大的三个风险是什么？你是什么时候识别出来的？"
-  - signal: "每个风险都有概率/影响评估和明确负责人"
-    framework_lens: "可管理的风险必须可归属"
-    follow_up_question: "如果某个风险发生，谁会第一个知道？谁负责应对？"
-  - signal: "对高影响风险有预案和触发条件，而不是只停留在监控"
-    framework_lens: "风险管理要降低不确定性"
-    follow_up_question: "针对最高影响的风险，你的 Plan B 是什么？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '风险清单在项目启动时建立，而不是等问题发生后再补', 'framework_lens': '风险需要前置识别', 'follow_up_question': '这个项目最大的三个风险是什么？你是什么时候识别出来的？'}
+  - {'signal': '每个风险都有概率/影响评估和明确负责人', 'framework_lens': '可管理的风险必须可归属', 'follow_up_question': '如果某个风险发生，谁会第一个知道？谁负责应对？'}
+  - {'signal': '对高影响风险有预案和触发条件，而不是只停留在监控', 'framework_lens': '风险管理要降低不确定性', 'follow_up_question': '针对最高影响的风险，你的 Plan B 是什么？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 风险管理：把风险从意外变成确定性

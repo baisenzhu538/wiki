@@ -2,7 +2,7 @@
 id: "data-labeling-best-practices-report"
 title: "数据标注最佳实践调研报告"
 type: "concept"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_refs:
@@ -13,19 +13,21 @@ source_refs:
 created_at: 2026-05-31
 updated_at: 2026-05-31
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/agent-infrastructure/skill-registry
-  - #scene/business-analysis
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/checklist-method
-  - #scene/note-taking/live-field
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 数据标注最佳实践调研报告

@@ -3,7 +3,7 @@ id: "dk-note-maximum-common-divisor"
 title: "清单体是人与AI的'最大公约数'：结构降级即认知升级"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "note-taking"
@@ -18,22 +18,24 @@ related:
   - "yt-note-ai-human-division"
   - "dk-note-surplus-brainpower"
 tags:
-  - #domain/ai-collaboration
-  - #domain/note-taking
-  - #scene/ai-collaboration
-  - #scene/business-analysis
-  - #scene/knowledge-management
-  - #scene/learning-methodology
-  - #scene/note-taking/checklist-method
-  - #scene/note-taking/level-diagnosis
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #source_type/insight
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 清单体是人与AI的"最大公约数"：结构降级即认知升级

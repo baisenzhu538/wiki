@@ -26,35 +26,36 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-科学学习IPO模型.jpg"
-status: enriched
+status: "enriched"
 title: "IPO 科学学习全景策略"
 type: "framework"
 version: 1
-yitang: {'map': 'personal', 'module': '科学学习', 'course_type': 'model', 'level': 'foundational'}
+yitang:
+  map: "personal"
+  module: "科学学习"
+  course_type: "model"
+  level: "foundational"
 tags:
-  - #learning-model
-  - #scene/ai-collaboration
-  - #scene/knowledge-management
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/skill-engineering
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "用户输入很多课程，但输出很少"
-    framework_lens: "IPO失衡——输入处理输出比例失调，学习变成囤积"
-    follow_up_question: "你最近一个月输入了几小时内容？产出了几小时内容/行动？如果输入:输出>10:1，IPO失衡"
-  - signal: "用户有目标有输入，但没有反馈闭环"
-    framework_lens: "反馈缺失——没有反馈的学习无法迭代"
-    follow_up_question: "你的输出有没有人看、有人评、有人用？如果没有，你在 closed loop 里练习"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户输入很多课程，但输出很少', 'framework_lens': 'IPO失衡——输入处理输出比例失调，学习变成囤积', 'follow_up_question': '你最近一个月输入了几小时内容？产出了几小时内容/行动？如果输入:输出>10:1，IPO失衡'}
+  - {'signal': '用户有目标有输入，但没有反馈闭环', 'framework_lens': '反馈缺失——没有反馈的学习无法迭代', 'follow_up_question': '你的输出有没有人看、有人评、有人用？如果没有，你在 closed loop 里练习'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # IPO 科学学习全景策略 (Yitang Scientific Learning IPO V2.0)

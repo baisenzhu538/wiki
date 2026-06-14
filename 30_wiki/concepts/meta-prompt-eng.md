@@ -5,19 +5,21 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_a89ab860"
-status: draft
+status: "draft"
 title: "Meta Prompt Eng"
 type: "concept"
 updated_at: 2026-05-21
 tags:
-  - #scene/ai-collaboration
-  - #scene/learning-methodology
-  - #scene/note-taking/checklist-method
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # Meta Prompt Eng

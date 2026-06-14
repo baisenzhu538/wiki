@@ -1,23 +1,25 @@
 ---
 title: "标注准确率标准对齐 — 开发指标 vs 生产门禁"
-type: decision
-status: draft
+type: "decision"
+status: "draft"
 domain:
-  - master
+  - "master"
 created_at: 2026-06-01
 updated_at: 2026-06-01
 target_roles:
-  - 欧阳锋（Architect）
-  - 黄药师（Builder）
-reviewer: 欧阳锋
-author: 黄药师
+  - "欧阳锋（Architect）"
+  - "黄药师（Builder）"
+reviewer: "欧阳锋"
+author: "黄药师"
 related:
-  - gold-standard-manual-labels
-  - labeling-final-consolidation
-  - kdo-15-dimension-label-spec
-  - label-prompt-v10-final
+  - "gold-standard-manual-labels"
+  - "labeling-final-consolidation"
+  - "kdo-15-dimension-label-spec"
+  - "label-prompt-v10-final"
 id: "label-accuracy-standard-alignment"
-reviewed_by: pending
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 标注准确率标准对齐

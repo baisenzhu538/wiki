@@ -2,41 +2,42 @@
 id: "yt-research-weaponry-course"
 title: "一堂调研武器库课程"
 type: "concept"
-status: reviewed
+status: "reviewed"
 source_refs:
   - "src_20260506_bb9048a6"
   - "src_20260507_debc47be"
 created_at: "2026-05-05"
 domain:
   - "yitang"
-yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-003', 'course_type': 'method', 'level': 'core'}
+yitang:
+  map: "entrepreneur"
+  module: "调研方法论"
+  course_id: "yt-research-003"
+  course_type: "method"
+  level: "core"
 reviewed_by: "黄药师"
 review_date: "2026-05-06"
 estimated_tokens: 3300
 related:
   - "master-ai-info-literacy"
 tags:
-  - #scene/ai-collaboration
-  - #scene/business-analysis
-  - #scene/knowledge-management
-  - #scene/note-taking
-  - #scene/skill-engineering/course-to-skill
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "会根据信息价值匹配调研投入力度"
-    framework_lens: "投入与价值匹配"
-    follow_up_question: "这条信息值多少钱？你愿意花多少成本获取？"
-  - signal: "会组合使用产品体验、用户访谈、公开数据、专家、财报等多种手段"
-    framework_lens: "情报获取需要组合拳"
-    follow_up_question: "你已经穷尽了多少个情报节点？"
-  - signal: "对非常规手段会评估法律和道德边界"
-    framework_lens: "调研有合规红线"
-    follow_up_question: "这个手段如果公开，是否会损害信任或触犯规则？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '会根据信息价值匹配调研投入力度', 'framework_lens': '投入与价值匹配', 'follow_up_question': '这条信息值多少钱？你愿意花多少成本获取？'}
+  - {'signal': '会组合使用产品体验、用户访谈、公开数据、专家、财报等多种手段', 'framework_lens': '情报获取需要组合拳', 'follow_up_question': '你已经穷尽了多少个情报节点？'}
+  - {'signal': '对非常规手段会评估法律和道德边界', 'framework_lens': '调研有合规红线', 'follow_up_question': '这个手段如果公开，是否会损害信任或触犯规则？'}
+updated_at: "2026-06-13"
+author: "legacy"
+confidence: 0.85
+trust_level: "high"
 ---
 
 # 一堂调研武器库课程

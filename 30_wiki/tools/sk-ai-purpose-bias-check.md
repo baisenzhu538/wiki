@@ -1,37 +1,36 @@
 ---
-
-
-id: sk-ai-purpose-bias-check
-title: 技能：目的论偏差快速识别法
-type: skill
-status: draft
+id: "sk-ai-purpose-bias-check"
+title: "技能：目的论偏差快速识别法"
+type: "skill"
+status: "draft"
 domain:
-- AI
-source_person: 水水
-source_context: 拆书会《偶然》分享，2026-06
+  - "ai-collaboration"
+source_person: "水水"
+source_context: "拆书会《偶然》分享，2026-06"
 source_refs:
-- 00_inbox/拆书会-《偶然》-水水-笔记.txt
+  - "00_inbox/拆书会-《偶然》-水水-笔记.txt"
 wiki_refs:
-- narrative-bias
-- self-organized-criticality
+  - "narrative-bias"
+  - "self-organized-criticality"
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
 tags:
-- '#skill/ai'
-- '#method/workflow'
-created_at: '2026-06-06'
-updated_at: '2026-06-06'
+  - "#skill/ai"
+  - "#method/workflow"
+created_at: "2026-06-06"
+updated_at: "2026-06-06"
 tools_required:
-- 笔记本和笔
-prerequisite_skills: []
+  - "笔记本和笔"
+prerequisite_skills:
 related:
-- narrative-bias
-- self-organized-criticality
-domain: [ai-collaboration]
-author: legacy
-reviewed_by: pending
+  - "narrative-bias"
+  - "self-organized-criticality"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：目的论偏差快速识别法

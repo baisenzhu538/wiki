@@ -4,7 +4,7 @@ title: "概率工程：把小概率变成大概率的方法论"
 type: "concept"
 domain:
   - "yitang"
-status: enriched
+status: "enriched"
 confidence: 0.9
 difficulty: "intermediate"
 estimated_tokens: 2400
@@ -25,26 +25,23 @@ query_triggers:
   - "四次试错"
   - "0.7的4次方"
   - "试错策略"
-related: []
+related:
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-decision-y-model.md"
   - "30_wiki/concepts/yt-entrepreneur-key-hypotheses.md"
 tags:
-  - #yitang
-  - #scene/decision-making
-  - #scene/strategic-planning
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "用户只提高单次概率，不增加试错次数"
-    framework_lens: "只用了一个杠杆"
-    follow_up_question: "你一年能完成几次完整的试错循环？如果<2次，第二个杠杆没用上"
-  - signal: "用户把试错当赌博，不做预判"
-    framework_lens: "预判缺失"
-    follow_up_question: "你的试错方向是从多少个选项中筛选出来的？如果只有1个，试错是赌博"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户只提高单次概率，不增加试错次数', 'framework_lens': '只用了一个杠杆', 'follow_up_question': '你一年能完成几次完整的试错循环？如果<2次，第二个杠杆没用上'}
+  - {'signal': '用户把试错当赌博，不做预判', 'framework_lens': '预判缺失', 'follow_up_question': '你的试错方向是从多少个选项中筛选出来的？如果只有1个，试错是赌博'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 概率工程：把小概率变成大概率的方法论

@@ -1,37 +1,36 @@
 ---
-
-
-id: sk-ai-evidence-check
-title: 技能：AI输出证据核查三问法
-type: skill
-status: draft
+id: "sk-ai-evidence-check"
+title: "技能：AI输出证据核查三问法"
+type: "skill"
+status: "draft"
 domain:
-- AI
-source_person: 半肥猫
-source_context: AI俱乐部-AI学习落地分享，2026-06
+  - "ai-collaboration"
+source_person: "半肥猫"
+source_context: "AI俱乐部-AI学习落地分享，2026-06"
 source_refs:
-- src_20260606_90b44191
+  - "src_20260606_90b44191"
 wiki_refs:
-- ai-coaching-loop
-- sk-ai-question-problem-checklist
+  - "ai-coaching-loop"
+  - "sk-ai-question-problem-checklist"
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
 tags:
-- '#skill/ai'
-- '#method/workflow'
-created_at: '2026-06-06'
-updated_at: '2026-06-06'
+  - "#skill/ai"
+  - "#method/workflow"
+created_at: "2026-06-06"
+updated_at: "2026-06-06"
 tools_required:
-- 数据管理工具（Notion / Airtable 等）
-prerequisite_skills: []
+  - "数据管理工具（Notion / Airtable 等）"
+prerequisite_skills:
 related:
-- ai-coaching-loop
-- sk-ai-question-problem-checklist
-domain: [ai-collaboration]
-author: legacy
-reviewed_by: pending
+  - "ai-coaching-loop"
+  - "sk-ai-question-problem-checklist"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：AI输出证据核查三问法

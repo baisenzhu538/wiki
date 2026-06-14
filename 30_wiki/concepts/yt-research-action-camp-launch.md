@@ -2,40 +2,41 @@
 id: "yt-research-action-camp-launch"
 title: "一堂调研行动营 · 启动课（LLM 精炼）"
 type: "concept"
-status: reviewed
+status: "reviewed"
 source_refs:
   - "src_20260506_e4634e13"
   - "src_20260507_67cb7ed2"
 created_at: "2026-05-05"
 domain:
   - "yitang"
-yitang: {'map': 'entrepreneur', 'module': '调研方法论', 'course_id': 'yt-research-camp-001', 'course_type': 'method', 'level': 'foundational'}
+yitang:
+  map: "entrepreneur"
+  module: "调研方法论"
+  course_id: "yt-research-camp-001"
+  course_type: "method"
+  level: "foundational"
 reviewed_by: "黄药师"
 review_date: "2026-05-06"
 estimated_tokens: 3400
 tags:
-  - #scene/ai-collaboration
-  - #scene/business-analysis
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "调研目标是一个具体决策或判断，而不是‘了解一下’"
-    framework_lens: "调研 = 解答题"
-    follow_up_question: "这次调研要回答的具体问题是什么？"
-  - signal: "使用OSL五步法（目标→范围→清单→获取→归一整合）系统推进"
-    framework_lens: "调研有操作流程"
-    follow_up_question: "你当前在OSL的哪一步？下一步的产出物是什么？"
-  - signal: "AI只作为辅助，人掌握方向盘和目标"
-    framework_lens: "人控AI"
-    follow_up_question: "这个调研结论中，哪些部分来自AI、哪些来自你的判断？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '调研目标是一个具体决策或判断，而不是‘了解一下’', 'framework_lens': '调研 = 解答题', 'follow_up_question': '这次调研要回答的具体问题是什么？'}
+  - {'signal': '使用OSL五步法（目标→范围→清单→获取→归一整合）系统推进', 'framework_lens': '调研有操作流程', 'follow_up_question': '你当前在OSL的哪一步？下一步的产出物是什么？'}
+  - {'signal': 'AI只作为辅助，人掌握方向盘和目标', 'framework_lens': '人控AI', 'follow_up_question': '这个调研结论中，哪些部分来自AI、哪些来自你的判断？'}
+updated_at: "2026-06-13"
+author: "legacy"
+confidence: 0.85
+trust_level: "high"
 ---
 
 # 一堂调研行动营 · 启动课（LLM 精炼）

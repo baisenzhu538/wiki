@@ -1,25 +1,22 @@
 ---
-
 title: "KDO Protocol Priority Checklist"
-type: improvement-plan
-status: draft
-source_refs:
-id: kdo-priority-checklist
-  - "src_20260503_protocol_design_session"
+type: "improvement-plan"
+status: "draft"
+id: "kdo-priority-checklist - "src_20260503_protocol_design_session""
 created_at: "2026-05-03"
 updated_at: "2026-05-03"
 related:
   - "[[kdo-protocol]]"
   - "[[kdo-protocol-implementation-roadmap]]"
 tags:
-  - #kdo
-  - #priority
-  - #checklist
-trust_level: high
-
-domain: []
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - None
+trust_level: "high"
+domain:
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
 ---
 
 # KDO Protocol Priority Checklist

@@ -2,11 +2,15 @@
 id: "proposal-graph-rag-star-fix"
 title: "Graph RAG 放射状图谱修复提案"
 type: "improvement-plan"
-status: draft
-domain: ["infrastructure", "knowledge-graph"]
+status: "draft"
+domain:
+  - "infrastructure"
+  - "knowledge-graph"
 created_at: 2026-06-11
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # Graph RAG 放射状图谱修复提案

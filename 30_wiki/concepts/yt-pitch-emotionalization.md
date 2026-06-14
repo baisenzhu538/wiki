@@ -25,33 +25,28 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
-status: enriched
+status: "enriched"
 title: "讲香·情绪化"
 type: "tool"
 version: 1
 tags:
-  - #pitch
-  - #scene/business-analysis/conversion-rate
-  - #scene/learning-methodology/mental-models
-  - #scene/skill-engineering
-  - #yitang
-  - #抽象化
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-medical
-  - #boundary/single-use-only
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "能明确识别要唤起的具体情绪（恐惧/向往/好奇/认同）"
-    framework_lens: "情绪是具体工具"
-    follow_up_question: "这个内容到底想让用户感到什么？"
-  - signal: "情绪与用户的真实目标和痛点相连，而不是凭空制造"
-    framework_lens: "情绪需要锚点"
-    follow_up_question: "用户产生这个情绪后，会更有动力解决什么问题？"
-  - signal: "情绪强度与场景匹配，不过度操纵"
-    framework_lens: "情绪有伦理剂量"
-    follow_up_question: "如果我是用户，我会觉得被理解还是被利用？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '能明确识别要唤起的具体情绪（恐惧/向往/好奇/认同）', 'framework_lens': '情绪是具体工具', 'follow_up_question': '这个内容到底想让用户感到什么？'}
+  - {'signal': '情绪与用户的真实目标和痛点相连，而不是凭空制造', 'framework_lens': '情绪需要锚点', 'follow_up_question': '用户产生这个情绪后，会更有动力解决什么问题？'}
+  - {'signal': '情绪强度与场景匹配，不过度操纵', 'framework_lens': '情绪有伦理剂量', 'follow_up_question': '如果我是用户，我会觉得被理解还是被利用？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 讲香·情绪化

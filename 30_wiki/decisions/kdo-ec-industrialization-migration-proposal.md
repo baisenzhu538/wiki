@@ -1,13 +1,14 @@
 ---
-
 title: "EC工业化规范 → KDO管线迁移方案"
-type: decision
-status: draft
-domain: []
+type: "decision"
+status: "draft"
+domain:
 id: "kdo-ec-industrialization-migration-proposal"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # EC工业化规范 → KDO管线迁移方案（征求意见稿）

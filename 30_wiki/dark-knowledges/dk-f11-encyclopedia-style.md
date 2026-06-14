@@ -3,7 +3,7 @@ id: "dk-f11-encyclopedia-style"
 title: "F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_person: "system"
@@ -20,19 +20,21 @@ contradicts:
   - "dk-c8-format-complete-mind-empty"
   - "kdo-flywheel"
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/ai-collaboration
-  - #scene/learning-methodology
-  - #scene/note-taking
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #source_type/error
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景

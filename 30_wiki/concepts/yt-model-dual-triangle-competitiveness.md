@@ -26,35 +26,36 @@ source_refs:
   - "10_raw/assets/yitang/一堂-个人修炼-双三角模型.jpg"
   - "40_outputs/content/images/infographics/dual-triangle-competitiveness.excalidraw"
   - "40_outputs/content/images/infographics/dual-triangle-visual-analysis.md"
-status: enriched
+status: "enriched"
 title: "双三角竞争力模型"
 type: "framework"
 version: 1
-yitang: {'map': 'personal', 'module': 'AI 思维模型', 'course_type': 'model', 'level': 'foundational'}
+yitang:
+  map: "personal"
+  module: "AI 思维模型"
+  course_type: "model"
+  level: "foundational"
 tags:
-  - #ai-model
-  - #competitiveness
-  - #scene/ai-collaboration/human-ai-division
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/business-analysis
-  - #scene/hardware-debugging/prototyping
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/mental-models
-  - #scene/skill-engineering/manifest-design
-  - #scene/skill-engineering/publish-deploy
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - confidence-source-cited
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "用户AI工具用得很溜，但业务结果一般"
-    framework_lens: "AI三角强但人类三角弱——工具能力强不等于业务判断力强"
-    follow_up_question: "你能分辨AI输出中哪些是高质量分析、哪些是漂亮废话吗？如果不能，人类三角中的审美和判断力需要补"
-  - signal: "用户业务能力强，但AI不会用"
-    framework_lens: "人类三角强但AI三角弱——工具效率没有放大业务能力"
-    follow_up_question: "你处理一个常规业务任务，AI能帮你省多少时间？如果<20%，AI基本功需要补"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户AI工具用得很溜，但业务结果一般', 'framework_lens': 'AI三角强但人类三角弱——工具能力强不等于业务判断力强', 'follow_up_question': '你能分辨AI输出中哪些是高质量分析、哪些是漂亮废话吗？如果不能，人类三角中的审美和判断力需要补'}
+  - {'signal': '用户业务能力强，但AI不会用', 'framework_lens': '人类三角强但AI三角弱——工具效率没有放大业务能力', 'follow_up_question': '你处理一个常规业务任务，AI能帮你省多少时间？如果<20%，AI基本功需要补'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 双三角竞争力模型 (Yitang Dual Triangle Model)

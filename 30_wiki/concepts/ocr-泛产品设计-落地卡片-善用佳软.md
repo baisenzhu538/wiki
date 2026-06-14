@@ -5,23 +5,25 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_7ddf8bf2"
-status: enriched
+status: "enriched"
 title: "OCR: 泛产品设计-落地卡片-善用佳软"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/business-analysis
-  - #scene/hardware-debugging/prototyping
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/note-taking/checklist-method
-  - #scene/product-design
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-creative
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 泛产品设计-落地卡片-善用佳软

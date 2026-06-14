@@ -10,14 +10,14 @@ estimated_tokens: 3000
 language: "zh-CN"
 prerequisites: ""
 query_triggers:
-  - "小抄\"与\"必修课\"的互锁"
+  - "小抄"与"必修课"的互锁"
   - "与一堂其他核心课程的关系"
   - "五层深度理解"
   - "冰山复盘模型"
   - "双向链接"
   - "商业模式隐忧"
   - "复盘可能强化既有偏见"
-  - "对\"天赋/素质\"的回避造成逻辑断层"
+  - "对"天赋/素质"的回避造成逻辑断层"
   - "搭建个人"
   - "操作步骤"
 related:
@@ -34,33 +34,34 @@ reviewed_by: "黄药师"
 source_refs:
   - "src_20260507_9dd09688"
   - "src_20260507_df666081"
-status: enriched
+status: "enriched"
 title: "深度复盘"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '深度复盘', 'course_id': 404, 'course_type': 'method', 'level': 'core', 'series': False}
+yitang:
+  map: "personal"
+  module: "深度复盘"
+  course_id: 404
+  course_type: "method"
+  level: "core"
+  series: False
 tags:
-  - #scene/knowledge-management
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/live-field
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "复盘从具体事件出发，而不是泛泛而谈"
-    framework_lens: "具体事件是复盘的锚"
-    follow_up_question: "如果复盘只保留一个关键事件，你会选哪一个？"
-  - signal: "复盘至少挖掘到原因层，并尝试提取可迁移的模型"
-    framework_lens: "冰山复盘模型"
-    follow_up_question: "这次事件背后的模式，在另外三个场景中是否也可能出现？"
-  - signal: "复盘后产出具体改进行动，并跟踪执行情况"
-    framework_lens: "复盘的价值在于改变未来行为"
-    follow_up_question: "上次深度复盘的行动项，现在完成了多少？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '复盘从具体事件出发，而不是泛泛而谈', 'framework_lens': '具体事件是复盘的锚', 'follow_up_question': '如果复盘只保留一个关键事件，你会选哪一个？'}
+  - {'signal': '复盘至少挖掘到原因层，并尝试提取可迁移的模型', 'framework_lens': '冰山复盘模型', 'follow_up_question': '这次事件背后的模式，在另外三个场景中是否也可能出现？'}
+  - {'signal': '复盘后产出具体改进行动，并跟踪执行情况', 'framework_lens': '复盘的价值在于改变未来行为', 'follow_up_question': '上次深度复盘的行动项，现在完成了多少？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 深度复盘

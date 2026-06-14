@@ -5,24 +5,26 @@ domain:
   - "['master']"
 source_refs:
   - "src_20260501_6a491b80"
-status: enriched
+status: "enriched"
 title: "Knowledge Delivery OS 快速体验指南 - 飞书云文档"
 type: "concept"
 updated_at: 2026-05-04
 tags:
-  - #scene/agent-infrastructure
-  - #scene/ai-collaboration/workspace-design
-  - #scene/hardware-debugging/prototyping
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/skill-engineering/eval-testing
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # Knowledge Delivery OS 快速体验指南

@@ -2,22 +2,31 @@
 id: "skill-清单小抄制作"
 title: "技能：清单小抄制作"
 type: "skill"
-status: draft
-domain: []
+status: "draft"
+domain:
 source_person: "一堂课程"
 source_context: "src_20260522_dee56cff"
-source_refs: [src_20260522_dee56cff]
-wiki_refs: []
-definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工具要求明确]
-tools_required: [清单工具, 模板库, 知识管理软件]
-prerequisite_skills: []
-related: []
+source_refs:
+  - "src_20260522_dee56cff"
+wiki_refs:
+definition_of_done:
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
+tools_required:
+  - "清单工具"
+  - "模板库"
+  - "知识管理软件"
+prerequisite_skills:
+related:
 created_at: "2026-06-09T15:59:56+00:00"
 updated_at: "2026-06-09T15:59:56+00:00"
 pipeline:
-  - #skill
-author: legacy
-reviewed_by: pending
+  - None
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：清单小抄制作

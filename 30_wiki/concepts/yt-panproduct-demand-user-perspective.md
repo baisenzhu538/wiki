@@ -27,36 +27,35 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-用户视角.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·用户卡片：用户视角"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "foundational"
 tags:
-  - #empathy
-  - #pan-product-design
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/product-design
-  - #scene/skill-engineering
-  - #user-research
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "设计讨论中能用具体用户的话或行为来挑战假设，而不是只引用内部观点"
-    framework_lens: "用户视角是外部证据"
-    follow_up_question: "你这个判断如果让用户本人听，他会认同吗？"
-  - signal: "能区分‘用户想要’和‘用户需要’，并解释为什么有时不满足用户的直接要求"
-    framework_lens: "用户视角 ≠ 用户说什么要什么"
-    follow_up_question: "用户要求的功能如果做了，会不会损害他的长期目标？"
-  - signal: "团队中有人扮演‘用户代言人’角色，并在关键决策时发言"
-    framework_lens: "用户视角需要制度化"
-    follow_up_question: "最近一次方案评审中，有人专门从用户角度提出反对意见吗？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '设计讨论中能用具体用户的话或行为来挑战假设，而不是只引用内部观点', 'framework_lens': '用户视角是外部证据', 'follow_up_question': '你这个判断如果让用户本人听，他会认同吗？'}
+  - {'signal': '能区分‘用户想要’和‘用户需要’，并解释为什么有时不满足用户的直接要求', 'framework_lens': '用户视角 ≠ 用户说什么要什么', 'follow_up_question': '用户要求的功能如果做了，会不会损害他的长期目标？'}
+  - {'signal': '团队中有人扮演‘用户代言人’角色，并在关键决策时发言', 'framework_lens': '用户视角需要制度化', 'follow_up_question': '最近一次方案评审中，有人专门从用户角度提出反对意见吗？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 用户视角：一秒转化用户视角

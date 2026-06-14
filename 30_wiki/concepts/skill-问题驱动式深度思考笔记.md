@@ -2,7 +2,7 @@
 id: "skill-问题驱动式深度思考笔记"
 title: "问题驱动式深度思考笔记：用真问题取代真记录"
 type: "concept"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "personal-growth"
@@ -28,17 +28,18 @@ created_at: "2026-06-10"
 updated_at: "2026-06-10"
 estimated_tokens: 4800
 tags:
-  - #note-taking
-  - #learning-methodology
-  - #cognitive-tool
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/note-taking/checklist-method
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+trust_level: "low"
 ---
 
 # 问题驱动式深度思考笔记：用真问题取代真记录

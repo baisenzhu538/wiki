@@ -2,22 +2,30 @@
 id: "skill-遵循规模前倾原则设计组织架构"
 title: "技能：遵循规模前倾原则设计组织架构"
 type: "skill"
-status: draft
-domain: []
+status: "draft"
+domain:
 source_person: "课程设计者"
 source_context: "src_20260609_1c8b4d0e"
-source_refs: [src_20260609_1c8b4d0e]
-wiki_refs: []
-definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工具要求明确]
-tools_required: [组织架构设计模板, 3倍规模预测模型]
-prerequisite_skills: []
-related: []
+source_refs:
+  - "src_20260609_1c8b4d0e"
+wiki_refs:
+definition_of_done:
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
+tools_required:
+  - "组织架构设计模板"
+  - "3倍规模预测模型"
+prerequisite_skills:
+related:
 created_at: "2026-06-09T15:06:23+00:00"
 updated_at: "2026-06-09T15:06:23+00:00"
 pipeline:
-  - #skill
-author: legacy
-reviewed_by: pending
+  - None
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：遵循规模前倾原则设计组织架构

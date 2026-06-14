@@ -4,7 +4,7 @@ title: "小龙电商：四层剥离——从服装到正装裤"
 type: "case"
 domain:
   - "yitang"
-status: enriched
+status: "enriched"
 confidence: 0.9
 difficulty: "beginner"
 estimated_tokens: 2200
@@ -26,18 +26,19 @@ query_triggers:
   - "四层剥离"
   - "供应链搞定"
   - "切口越小越准"
-related: []
+related:
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-addition-subtraction.md"
   - "30_wiki/concepts/case-gudong-tea-shop-foresight.md"
 tags:
-  - #yitang
-  - #case/foresight
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-outcome
-author: legacy
+  - "confidence-source-cited"
+  - "confidence-verified-by-outcome"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 小龙电商：四层剥离——从服装到正装裤

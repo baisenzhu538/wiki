@@ -1,8 +1,7 @@
 ---
-
 id: "structured-ai-workspace"
 type: "tool"
-status: draft
+status: "draft"
 source_refs:
   - "src_20260606_42e11f09"
 component_of:
@@ -16,18 +15,19 @@ query_triggers:
   - "AI任务越来越乱"
 reviewed_by: ""
 tags:
-  - #scene/agent-infrastructure
-  - #scene/ai-collaboration/workspace-design
-  - #scene/knowledge-management/atomization
-  - #scene/skill-engineering/course-to-skill
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/single-use-only
-  - confidence-draft
-  - confidence-source-cited
-
-domain: []
-author: legacy
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+domain:
+author: "legacy"
 created_at: "2026-06-15"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 结构化AI工作空间搭建

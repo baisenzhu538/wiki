@@ -25,34 +25,29 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
-status: enriched
+status: "enriched"
 title: "讲香·冲突化"
 type: "tool"
 version: 1
 tags:
-  - #pitch
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering
-  - #yitang
-  - #抽象化
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "内容中有明确的反差或对立，且反差与核心卖点相关"
-    framework_lens: "冲突是注意力触发器"
-    follow_up_question: "这个冲突如果没有，用户还会关心你的内容吗？"
-  - signal: "冲突最终会导向你的产品/观点，而不是停留在对立"
-    framework_lens: "冲突是桥梁不是终点"
-    follow_up_question: "冲突解决后，用户应该得出什么结论？"
-  - signal: "冲突没有虚假或恶意攻击竞争对手"
-    framework_lens: "冲突需要伦理边界"
-    follow_up_question: "这个冲突如果公开给被对比方看，你是否能坦然接受？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '内容中有明确的反差或对立，且反差与核心卖点相关', 'framework_lens': '冲突是注意力触发器', 'follow_up_question': '这个冲突如果没有，用户还会关心你的内容吗？'}
+  - {'signal': '冲突最终会导向你的产品/观点，而不是停留在对立', 'framework_lens': '冲突是桥梁不是终点', 'follow_up_question': '冲突解决后，用户应该得出什么结论？'}
+  - {'signal': '冲突没有虚假或恶意攻击竞争对手', 'framework_lens': '冲突需要伦理边界', 'follow_up_question': '这个冲突如果公开给被对比方看，你是否能坦然接受？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 讲香·冲突化

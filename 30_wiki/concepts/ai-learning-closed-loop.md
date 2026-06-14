@@ -1,8 +1,7 @@
 ---
-
 id: "ai-learning-closed-loop"
 type: "concept"
-status: draft
+status: "draft"
 source_refs:
   - "src_20260606_90b44191"
 component_of: ""
@@ -17,25 +16,26 @@ query_triggers:
   - "AI生成内容可靠吗"
 reviewed_by: ""
 tags:
-  - #scene/agent-infrastructure
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/ai-collaboration/workspace-design
-  - #scene/knowledge-management/atomization
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #scene/skill-engineering/course-to-skill
-  - #scene/skill-engineering/manifest-design
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/requires-human-judgment
-  - confidence-draft
-  - confidence-source-cited
-
-domain: []
-author: legacy
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+domain:
+author: "legacy"
 created_at: "2026-06-15"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # AI学习闭环：从"听懂"到"能力"的转化路径

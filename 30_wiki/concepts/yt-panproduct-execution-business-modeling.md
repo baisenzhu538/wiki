@@ -29,38 +29,37 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-业务建模.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·落地卡片：业务建模"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "advanced"
 tags:
-  - #business-modeling
-  - #execution
-  - #pan-product-design
-  - #scene/business-analysis/conversion-rate
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/live-field
-  - #scene/product-design
-  - #scene/skill-engineering
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "能把业务拆解成可量化的公式和关键变量"
-    framework_lens: "业务模型 = 变量之间的关系"
-    follow_up_question: "公式中哪个变量变动10%会对结果影响最大？"
-  - signal: "模型同时包含收入端和成本端，而不是只看增长"
-    framework_lens: "单位经济模型需要双向审视"
-    follow_up_question: "如果收入翻倍，哪些成本会以相同或更高速度增长？"
-  - signal: "模型会被真实数据更新，而不是只做一次静态推演"
-    framework_lens: "业务模型是活的假设集合"
-    follow_up_question: "最近一个月，模型的哪个假设被数据证伪或证实了？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '能把业务拆解成可量化的公式和关键变量', 'framework_lens': '业务模型 = 变量之间的关系', 'follow_up_question': '公式中哪个变量变动10%会对结果影响最大？'}
+  - {'signal': '模型同时包含收入端和成本端，而不是只看增长', 'framework_lens': '单位经济模型需要双向审视', 'follow_up_question': '如果收入翻倍，哪些成本会以相同或更高速度增长？'}
+  - {'signal': '模型会被真实数据更新，而不是只做一次静态推演', 'framework_lens': '业务模型是活的假设集合', 'follow_up_question': '最近一个月，模型的哪个假设被数据证伪或证实了？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 业务建模：学习拆解业务公式

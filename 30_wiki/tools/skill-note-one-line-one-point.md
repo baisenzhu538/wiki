@@ -1,16 +1,15 @@
 ---
-
 id: "skill-note-one-line-one-point"
 title: "一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作"
 type: "tool"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "note-taking"
 language: "zh-CN"
 version: 1
 difficulty: "beginner"
-confidence: 0.95
+confidence: 0.85
 related:
   - "yt-note-checklist-concept"
   - "skill-note-layer-constraint"
@@ -27,9 +26,10 @@ tags:
   - "#scene/note-taking/checklist-method"
   - "#scene/product-design/design-freeze"
   - "#scene/skill-engineering"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+trust_level: "low"
 ---
 
 # 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作

@@ -25,34 +25,29 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
-status: enriched
+status: "enriched"
 title: "讲香·口语化"
 type: "tool"
 version: 1
 tags:
-  - #pitch
-  - #scene/business-analysis/conversion-rate
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/level-diagnosis
-  - #scene/skill-engineering
-  - #yitang
-  - #具象化
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "表达像对朋友说话，而不是书面报告"
-    framework_lens: "口语降低心理距离"
-    follow_up_question: "你把这段内容念给一个陌生人听，他会觉得你在聊天还是在演讲？"
-  - signal: "长句被切短，复杂词被替换为日常词"
-    framework_lens: "口语的颗粒度更细"
-    follow_up_question: "这段话里有没有超过20个字还不喘气的句子？"
-  - signal: "口语化后仍保留准确性和信息密度"
-    framework_lens: "说人话 ≠ 说废话"
-    follow_up_question: "改成口语后，原意有没有被稀释或歪曲？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '表达像对朋友说话，而不是书面报告', 'framework_lens': '口语降低心理距离', 'follow_up_question': '你把这段内容念给一个陌生人听，他会觉得你在聊天还是在演讲？'}
+  - {'signal': '长句被切短，复杂词被替换为日常词', 'framework_lens': '口语的颗粒度更细', 'follow_up_question': '这段话里有没有超过20个字还不喘气的句子？'}
+  - {'signal': '口语化后仍保留准确性和信息密度', 'framework_lens': '说人话 ≠ 说废话', 'follow_up_question': '改成口语后，原意有没有被稀释或歪曲？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 讲香·口语化

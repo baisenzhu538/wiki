@@ -7,22 +7,23 @@ review_date: 2026-05-03
 reviewed_by: "Claude"
 source_refs:
   - "src_20260503_968e0210"
-status: reviewed
+status: "reviewed"
 title: "HIS系统深度调研"
-trust_level: medium
+trust_level: "medium"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - #scene/business-analysis
-  - #scene/learning-methodology
-  - #scene/note-taking
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+confidence: 0.85
 ---
 
 # HIS系统深度调研

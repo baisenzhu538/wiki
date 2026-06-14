@@ -5,19 +5,21 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_5819659f"
-status: enriched
+status: "enriched"
 title: "Writing Content"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/business-analysis
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/checklist-method
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # Writing Content

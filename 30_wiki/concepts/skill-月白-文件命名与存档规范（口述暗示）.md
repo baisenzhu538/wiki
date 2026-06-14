@@ -2,7 +2,7 @@
 id: "skill-月白-文件命名与存档规范（口述暗示）"
 title: "技能：文件命名与存档规范（口述暗示）"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -19,17 +19,19 @@ related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 tags:
-  - #domain/AI
-  - #domain/design
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/hardware-debugging/bom-management
-  - #scene/knowledge-management
-  - #scene/learning-methodology/feedback-loop
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/single-use-only
-  - confidence-draft
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 技能：文件命名与存档规范（口述暗示）

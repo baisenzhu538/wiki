@@ -1,20 +1,19 @@
 ---
-
-
 tags:
-- '#scene/business-analysis/customer-acquisition'
-- '#scene/learning-methodology/feedback-loop'
-- '#scene/learning-methodology/mental-models'
-- '#scene/note-taking/live-field'
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/learning-methodology/feedback-loop"
+  - "#scene/learning-methodology/mental-models"
+  - "#scene/note-taking/live-field"
 related:
-- yt-unit-model-benchmark
-- yt-unit-model-ladder
-
-domain: []
+  - "yt-unit-model-benchmark"
+  - "yt-unit-model-ladder"
+domain:
 id: "yt-tool-unit-model-dynamic"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.75
+trust_level: "medium"
 ---
 ## Reusable Knowledge
 

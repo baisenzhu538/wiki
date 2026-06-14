@@ -1,9 +1,8 @@
 ---
-
 id: "yt-note-live-field-skill"
 title: "现场笔记完成度五步法：从“到场”到“驱动行动”的实战手册"
 type: "tool"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "note-taking"
@@ -46,8 +45,9 @@ tags:
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 estimated_tokens: 4000
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+trust_level: "low"
 ---
 
 # 现场笔记完成度五步法：从“到场”到“驱动行动”的实战手册

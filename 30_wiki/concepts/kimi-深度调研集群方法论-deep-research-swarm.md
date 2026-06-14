@@ -5,21 +5,23 @@ domain:
   - "['ai-saas']"
 source_refs:
   - "src_20260502_7d7c1b7c"
-status: enriched
+status: "enriched"
 title: "Kimi 深度调研集群方法论 (Deep-Research-Swarm)"
 type: "concept"
 updated_at: 2026-05-04
 tags:
-  - #scene/ai-collaboration
-  - #scene/knowledge-management
-  - #scene/learning-methodology
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # Kimi 深度调研集群方法论 (Deep-Research-Swarm)

@@ -1,15 +1,16 @@
 ---
-
-
-title: 单元模型概览：十大单元模型与三角色分工
-date: '2026-05-24'
-type: framework
-status: enriched
-domain: [decision-science]
+title: "单元模型概览：十大单元模型与三角色分工"
+date: "2026-05-24"
+type: "framework"
+status: "enriched"
+domain:
+  - "decision-science"
 id: "yt-unit-model-overview"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.75
+trust_level: "medium-low"
 ---
 ## Reusable Knowledge
 

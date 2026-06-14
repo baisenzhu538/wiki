@@ -2,7 +2,7 @@
 id: "knowledge-error-self-exposure"
 title: "知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向"
 type: "concept"
-status: draft
+status: "draft"
 domain:
   - "master"
 related:
@@ -18,17 +18,19 @@ query_triggers:
 created_at: 2026-06-03
 updated_at: 2026-06-03
 tags:
-  - #domain/knowledge-management
-  - #method/quality
-  - #scene/ai-collaboration
-  - #scene/knowledge-management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-draft
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向

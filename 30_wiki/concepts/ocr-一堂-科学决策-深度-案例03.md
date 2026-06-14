@@ -5,21 +5,23 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_3782f983"
-status: enriched
+status: "enriched"
 title: "OCR: 一堂-科学决策-深度-案例03"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/business-analysis
-  - #scene/note-taking
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 一堂-科学决策-深度-案例03

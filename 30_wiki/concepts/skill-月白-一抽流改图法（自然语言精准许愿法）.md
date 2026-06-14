@@ -2,7 +2,7 @@
 id: "skill-月白-一抽流改图法（自然语言精准许愿法）"
 title: "技能：一抽流改图法（自然语言精准许愿法）"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -19,13 +19,15 @@ related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 tags:
-  - #domain/AI
-  - #domain/design
-  - #scene/learning-methodology/feedback-loop
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 技能：一抽流改图法（自然语言精准许愿法）

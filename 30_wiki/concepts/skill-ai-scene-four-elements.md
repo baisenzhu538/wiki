@@ -1,38 +1,40 @@
 ---
-id: skill-ai-scene-four-elements
+id: "skill-ai-scene-four-elements"
 title: "技能：AI落地场景四要素评估法"
-type: skill
-status: draft
+type: "skill"
+status: "draft"
 domain:
-  - AI
-  - 落地
-  - 评估
-source_person: 马易
-source_context: AI俱乐部-AI落地场景识别-口述，2026-06-06
+  - "AI"
+  - "落地"
+  - "评估"
+source_person: "马易"
+source_context: "AI俱乐部-AI落地场景识别-口述，2026-06-06"
 source_refs:
-  - src_20260606_ef4877d0
+  - "src_20260606_ef4877d0"
 wiki_refs:
-  - ai-landing-scene-selection
-  - skill-ai-four-elements-validation
+  - "ai-landing-scene-selection"
+  - "skill-ai-four-elements-validation"
 definition_of_done:
-  - 每次评估4个要素全部回答
-  - 至少1个要素触发"不适合AI"的警觉
-  - 能判断"这个场景是否适合AI落地"
+  - "每次评估4个要素全部回答"
+  - "至少1个要素触发"不适合AI"的警觉"
+  - "能判断"这个场景是否适合AI落地""
 tools_required:
-  - 无（纯思维工具）
+  - "无（纯思维工具）"
 prerequisite_skills:
-  - skill-ai-four-elements-validation
-related: []
+  - "skill-ai-four-elements-validation"
+related:
 created_at: 2026-06-11
 updated_at: 2026-06-11
 tags:
-  - #domain/AI
-  - #method/checklist
-  - #tool/brain
+  - None
+  - None
+  - None
 pipeline:
-  - #skill-type/validation
+  - None
 reviewed_by: "laowantong"
-author: legacy
+author: "legacy"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：AI落地场景四要素评估法

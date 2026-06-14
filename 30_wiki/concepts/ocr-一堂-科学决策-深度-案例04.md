@@ -5,20 +5,22 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_b4a26e00"
-status: enriched
+status: "enriched"
 title: "OCR: 一堂-科学决策-深度-案例04"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/business-analysis/conversion-rate
-  - #scene/learning-methodology/mental-models
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 一堂-科学决策-深度-案例04

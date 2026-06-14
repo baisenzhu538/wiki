@@ -26,36 +26,35 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-一堂五步法.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·用户卡片：一堂五步法"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "advanced"
 tags:
-  - #business-model
-  - #five-step-method
-  - #pan-product-design
-  - #scene/business-analysis/customer-acquisition
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/live-field
-  - #scene/product-design
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "画布五步（需求→解决方案→商业模式→增长→壁垒）都被填入了可证伪的假设"
-    framework_lens: "商业成败取决于假设质量"
-    follow_up_question: "哪一步的假设如果错了，会让整个项目迅速失败？你打算如何证伪它？"
-  - signal: "能清楚区分价值假设（前三步）和增长假设（后两步）"
-    framework_lens: "价值与增长的验证节奏不同"
-    follow_up_question: "如果价值假设还没验证，你是否已经开始做增长假设的规模化投入？"
-  - signal: "每一步都有明确的go/no-go标准和下一步验证实验"
-    framework_lens: "画布是决策工具，不是填写练习"
-    follow_up_question: "填完画布后，团队是否据此取消或推迟了某个计划？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '画布五步（需求→解决方案→商业模式→增长→壁垒）都被填入了可证伪的假设', 'framework_lens': '商业成败取决于假设质量', 'follow_up_question': '哪一步的假设如果错了，会让整个项目迅速失败？你打算如何证伪它？'}
+  - {'signal': '能清楚区分价值假设（前三步）和增长假设（后两步）', 'framework_lens': '价值与增长的验证节奏不同', 'follow_up_question': '如果价值假设还没验证，你是否已经开始做增长假设的规模化投入？'}
+  - {'signal': '每一步都有明确的go/no-go标准和下一步验证实验', 'framework_lens': '画布是决策工具，不是填写练习', 'follow_up_question': '填完画布后，团队是否据此取消或推迟了某个计划？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 一堂五步法：善于分析商业成败假设

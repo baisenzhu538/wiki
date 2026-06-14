@@ -33,37 +33,30 @@ review_by: 2026-12-06
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修炼-Y模型实操口述版.md"
-status: enriched
+status: "enriched"
 superseded_by: ""
 title: "Y模型尺子刻度法：从模糊经验到可复用评估模型"
 type: "tool"
 version: 1
 tags:
-  - #scene/learning-methodology
-  - #scene/note-taking/level-diagnosis
-  - #scene/skill-engineering/eval-testing
-  - #scene/skill-engineering/manifest-design
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
-  - confidence-verified-by-test
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+  - "confidence-verified-by-test"
 diagnostic_signals:
-  - signal: "尺子维度是否来自需求分析而非拍脑袋"
-    framework_lens: "因果规律 / 维度有效性"
-    follow_up_question: "评估维度是否覆盖了结果的真实驱动因素？"
-  - signal: "每个维度是否有清晰刻度和可验证基准"
-    framework_lens: "可操作化 / 去模糊"
-    follow_up_question: "'不错''很好'等描述是否被替换为具体阈值？"
-  - signal: "是否设置风险红线并用于一票否决"
-    framework_lens: "风险管理 / 非线性"
-    follow_up_question: "总分最高但存在致命缺陷的选项是否仍被选中？"
-  - signal: "是否同时关注分布形状与总分"
-    framework_lens: "系统配置 / 资源匹配"
-    follow_up_question: "均衡型与偏科型选项是否被差异化决策？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '尺子维度是否来自需求分析而非拍脑袋', 'framework_lens': '因果规律 / 维度有效性', 'follow_up_question': '评估维度是否覆盖了结果的真实驱动因素？'}
+  - {'signal': '每个维度是否有清晰刻度和可验证基准', 'framework_lens': '可操作化 / 去模糊', 'follow_up_question': "'不错''很好'等描述是否被替换为具体阈值？"}
+  - {'signal': '是否设置风险红线并用于一票否决', 'framework_lens': '风险管理 / 非线性', 'follow_up_question': '总分最高但存在致命缺陷的选项是否仍被选中？'}
+  - {'signal': '是否同时关注分布形状与总分', 'framework_lens': '系统配置 / 资源匹配', 'follow_up_question': '均衡型与偏科型选项是否被差异化决策？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 ## Summary

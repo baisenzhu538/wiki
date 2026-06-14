@@ -17,36 +17,36 @@ query_triggers:
   - "型创业模型"
   - "核心要素"
   - "知识体系定位"
-related: []
+related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-Y模型.jpg"
-status: enriched
+status: "enriched"
 title: "Y 型创业模型"
 type: "framework"
 version: 1
-yitang: {'map': 'system', 'module': '方法论总纲', 'course_type': 'model'}
+yitang:
+  map: "system"
+  module: "方法论总纲"
+  course_type: "model"
 tags:
-  - #core-model
-  - #methodology
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/level-diagnosis
-  - #scene/skill-engineering
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "用户只重视实事求是，不敢解放思想"
-    framework_lens: "一臂缺失"
-    follow_up_question: "你最近一次质疑行业惯例并提出新假设是什么时候？"
-  - signal: "用户只解放思想，不尊重事实"
-    framework_lens: "另一臂缺失"
-    follow_up_question: "你的新想法有没有经过事实验证？如果没有，只是空想"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户只重视实事求是，不敢解放思想', 'framework_lens': '一臂缺失', 'follow_up_question': '你最近一次质疑行业惯例并提出新假设是什么时候？'}
+  - {'signal': '用户只解放思想，不尊重事实', 'framework_lens': '另一臂缺失', 'follow_up_question': '你的新想法有没有经过事实验证？如果没有，只是空想'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # Y 型创业模型 (Y Model for Startups)

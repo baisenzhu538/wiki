@@ -3,7 +3,7 @@ id: "dk-yb19-visual-strategy-price-match"
 title: "餐饮图片视觉策略与价格定位的匹配法则"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: draft
+status: "draft"
 domain:
   - "design"
   - "yitang"
@@ -17,17 +17,18 @@ related:
   - "dk-yb18-small-shop-image-mismatch"
   - "dk-yb21-ecommerce-pricing-independent-model"
   - "yt-model-conversion-optimization"
-contradicts:
 tags:
-  - #domain/design
-  - #scene/product-design
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 餐饮图片视觉策略与价格定位的匹配法则

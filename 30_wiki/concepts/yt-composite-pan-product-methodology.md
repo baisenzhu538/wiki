@@ -34,35 +34,32 @@ source_refs:
   - "10_raw/sources/一堂-个人修炼-泛产品设计工具篇口述版.md"
   - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
   - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
-status: enriched
+status: "enriched"
 superseded_by: ""
 title: "泛产品设计方法论"
 type: "composite-concept"
 version: 2
 tags:
-  - #scene/hardware-debugging/prototyping
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/note-taking/level-diagnosis
-  - #scene/product-design
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "用户学了很多泛产品设计工具，但做一个具体产品时还是无从下手"
-    framework_lens: "工具多但无主线——泛产品需要整合而非堆砌"
-    follow_up_question: "你能用一句话说出这个产品要解决的用户问题吗？如果说不清，工具再多也是散的"
-  - signal: "用户把泛产品方法论当成产品经理万能公式"
-    framework_lens: "过度泛化——方法论有边界"
-    follow_up_question: "这个产品的用户场景和约束有什么独特之处？泛产品方法论的哪部分需要调整？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户学了很多泛产品设计工具，但做一个具体产品时还是无从下手', 'framework_lens': '工具多但无主线——泛产品需要整合而非堆砌', 'follow_up_question': '你能用一句话说出这个产品要解决的用户问题吗？如果说不清，工具再多也是散的'}
+  - {'signal': '用户把泛产品方法论当成产品经理万能公式', 'framework_lens': '过度泛化——方法论有边界', 'follow_up_question': '这个产品的用户场景和约束有什么独特之处？泛产品方法论的哪部分需要调整？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 ## Claims

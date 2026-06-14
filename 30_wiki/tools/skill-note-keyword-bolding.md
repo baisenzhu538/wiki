@@ -1,16 +1,15 @@
 ---
-
 id: "skill-note-keyword-bolding"
 title: "关键词加粗三重结构：视觉重心即认知重心的标记法则"
 type: "tool"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "note-taking"
 language: "zh-CN"
 version: 1
 difficulty: "beginner"
-confidence: 0.9
+confidence: 0.8
 related:
   - "yt-note-checklist-concept"
   - "skill-note-layer-constraint"
@@ -28,9 +27,10 @@ tags:
   - "#scene/note-taking/checklist-method"
   - "#scene/product-design/design-freeze"
   - "#scene/skill-engineering"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+trust_level: "low"
 ---
 
 # 关键词加粗三重结构：视觉重心即认知重心的标记法则

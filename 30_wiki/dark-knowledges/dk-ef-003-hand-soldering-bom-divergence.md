@@ -1,5 +1,4 @@
 ---
-
 id: "dk-ef-003-hand-soldering-bom-divergence"
 title: "手焊板的隐性修改：原型调通了但量产就是不行"
 type: "dark-knowledge"
@@ -15,19 +14,20 @@ related:
   - "dk-ef-002-bom-version-async"
   - "dk-ef-004-missing-diagnostic-firmware"
 tags:
-  - #domain/electronics
-  - #hardware/manufacturing
-  - #hardware/prototyping
-  - #scene/hardware-debugging/bom-management
-  - #scene/hardware-debugging/prototyping
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/single-use-only
-  - #source_type/dark-knowledge
-  - confidence-source-cited
-
-domain: []
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-source-cited"
+domain:
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.75
+trust_level: "medium"
 ---
 
 # 手焊板的隐性修改：原型调通了但量产就是不行

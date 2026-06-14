@@ -2,7 +2,7 @@
 id: "dk-pseudo-demand-trap"
 title: "暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地"
 type: "dk"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "business-strategy"
@@ -19,8 +19,10 @@ related:
   - "yt-ai-startup-20-risky-hypotheses"
   - "yt-entrepreneur-key-hypotheses"
   - "yt-entrepreneur-needs-analysis"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地

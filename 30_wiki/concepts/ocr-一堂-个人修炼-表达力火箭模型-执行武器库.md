@@ -5,25 +5,27 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_e60a7ec8"
-status: enriched
+status: "enriched"
 title: "OCR: 一堂-个人修炼-表达力火箭模型-执行武器库"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/ai-collaboration
-  - #scene/business-analysis
-  - #scene/learning-methodology
-  - #scene/note-taking/checklist-method
-  - #scene/note-taking/level-diagnosis
-  - #scene/note-taking/live-field
-  - #scene/product-design/design-freeze
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-medical
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 一堂-个人修炼-表达力火箭模型-执行武器库

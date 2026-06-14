@@ -1,24 +1,24 @@
 ---
-id: model-quality-four-levels
-title: 模型可信度四层标准 + 千人广场模型：Truman 如何定义一个好模型
-type: framework
-status: enriched
-confidence: 0.92
+id: "model-quality-four-levels"
+title: "模型可信度四层标准 + 千人广场模型：Truman 如何定义一个好模型"
+type: "framework"
+status: "enriched"
+confidence: 0.8
 domain:
-  - yitang
-  - kdo
+  - "yitang"
+  - "kdo"
 source_refs:
-  - src_20260614_8269ccdb
+  - "src_20260614_8269ccdb"
 created_at: "2026-06-14"
-author: 黄药师（基于 Truman 口述提取）
-reviewed_by: 黄药师
+author: "黄药师（基于 Truman 口述提取）"
+reviewed_by: "黄药师"
 review_date: "2026-06-14"
-trust_level: high
+trust_level: "high"
 related:
   - "modeling-capability-for-kdo"
-  - modeling-three-stages
-  - modeling-to-kdo-toolchain
-  - case-truman-personal-growth-map-creation
+  - "modeling-three-stages"
+  - "modeling-to-kdo-toolchain"
+  - "case-truman-personal-growth-map-creation"
 tags:
   - "#modeling"
   - "#framework"
@@ -26,12 +26,8 @@ tags:
   - "#kdo"
   - "#yitang"
 diagnostic_signals:
-  - signal: "我建了一个模型但不知道它够不够好"
-    framework_lens: 四层可信度标准
-    follow_up_question: 你的模型处在哪个层级——有启发、有案例、充分实证、还是没有反例？
-  - signal: "我用别人的模型总是套不进去"
-    framework_lens: 四类缺陷诊断（定义不清/丢三落四/边界不清/太随机）
-    follow_up_question: 你用的模型中了哪一条？最致命的是哪条？
+  - {'signal': '我建了一个模型但不知道它够不够好', 'framework_lens': '四层可信度标准', 'follow_up_question': '你的模型处在哪个层级——有启发、有案例、充分实证、还是没有反例？'}
+  - {'signal': '我用别人的模型总是套不进去', 'framework_lens': '四类缺陷诊断（定义不清/丢三落四/边界不清/太随机）', 'follow_up_question': '你用的模型中了哪一条？最致命的是哪条？'}
 ---
 
 # 模型可信度四层标准 + 千人广场模型

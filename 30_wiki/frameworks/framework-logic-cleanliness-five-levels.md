@@ -16,7 +16,7 @@ author: "老顽童"
 reviewed_by: "老顽童"
 review_date: "2026-06-14"
 trust_level: "high"
-confidence: 0.9
+confidence: 0.8
 related:
   - "[[modeling-scientific-milestones]]"
   - "[[tool-checklist-cheatsheet-modeling]]"

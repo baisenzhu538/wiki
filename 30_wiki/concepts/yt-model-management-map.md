@@ -19,40 +19,39 @@ query_triggers:
   - "管团队（L3）：五项基本功"
   - "管理修炼地图"
   - "管项目（L2）：四步闭环"
-related: []
+related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-地图-管理地图.webp"
-status: enriched
+status: "enriched"
 title: "管理修炼地图"
 type: "framework"
-updated_at: 2026-05-08
+updated_at: "2026-06-13"
 version: 1
-yitang: {'map': 'management', 'module': '方法论总纲', 'course_type': 'model'}
+yitang:
+  map: "management"
+  module: "方法论总纲"
+  course_type: "model"
 tags:
-  - #core-model
-  - #management
-  - #scene/business-analysis/conversion-rate
-  - #scene/knowledge-management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/level-diagnosis
-  - #scene/skill-engineering/course-to-skill
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "新晋管理者学完管理地图，但带团队时还是用个人贡献者的习惯"
-    framework_lens: "知行脱节——管理地图提供了路径，但肌肉记忆没有转换"
-    follow_up_question: '过去一周你有多少时间花在"管自己"上，多少时间花在"管他人/项目/业务"上？如果前者>50%，说明还没切换角色'
-  - signal: "管理者把L5管公司内容套用到10人团队"
-    framework_lens: "阶段错配——管理地图的段位与组织规模不匹配"
-    follow_up_question: "你的团队当前处于什么规模？10人团队和1000人团队需要的管理杠杆完全不同"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '新晋管理者学完管理地图，但带团队时还是用个人贡献者的习惯', 'framework_lens': '知行脱节——管理地图提供了路径，但肌肉记忆没有转换', 'follow_up_question': '过去一周你有多少时间花在"管自己"上，多少时间花在"管他人/项目/业务"上？如果前者>50%，说明还没切换角色'}
+  - {'signal': '管理者把L5管公司内容套用到10人团队', 'framework_lens': '阶段错配——管理地图的段位与组织规模不匹配', 'follow_up_question': '你的团队当前处于什么规模？10人团队和1000人团队需要的管理杠杆完全不同'}
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 一堂管理地图：高潜力管理者修炼全景图

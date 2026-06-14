@@ -27,20 +27,21 @@ related:
   - "dk-yb20-ai-eye-high-principle"
 reviewed_by: ""
 source_refs:
-  - {"来源": "Aristotle, Elon Musk"}
-status: enriched
+  - {'来源': 'Aristotle, Elon Musk'}
+status: "enriched"
 title: "第一性原理拆解器"
 type: "tool"
 updated_at: 2026-05-18
 version: 1
 tags:
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
+  - None
+  - None
 pipeline:
-  - #boundary/single-use-only
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 第一性原理拆解器

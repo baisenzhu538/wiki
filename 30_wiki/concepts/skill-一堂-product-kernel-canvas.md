@@ -2,7 +2,7 @@
 id: "skill-一堂-product-kernel-canvas"
 title: "一堂产品内核画布应用技能"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "product-strategy"
@@ -28,15 +28,17 @@ definition_of_done:
   - "外部攻击者和 Constraints 已明确"
   - "实际应用后收集反馈并更新技能"
 tags:
-  - #domain/yitang
-  - #domain/product-strategy
-  - #product-kernel
-  - #value-proposition
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 一堂产品内核画布应用技能

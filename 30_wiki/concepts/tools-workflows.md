@@ -5,22 +5,24 @@ domain:
   - "healthcare"
 source_refs:
   - "src_20260522_9d322e81"
-status: enriched
+status: "enriched"
 title: "Tools Workflows"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/knowledge-management
-  - #scene/note-taking/checklist-method
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # Tools Workflows

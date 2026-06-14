@@ -3,7 +3,7 @@ id: "dk-p5-cc-connect-config"
 title: "P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_person: "system"
@@ -20,17 +20,19 @@ contradicts:
   - "master-systems-thinking"
   - "master-first-principles"
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/ai-collaboration
-  - #scene/learning-methodology
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #source_type/error
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹

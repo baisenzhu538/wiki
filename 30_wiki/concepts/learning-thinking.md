@@ -5,21 +5,23 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_0af1f6dd"
-status: enriched
+status: "enriched"
 title: "Learning Thinking"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/ai-collaboration/pdca-execution
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # Learning Thinking

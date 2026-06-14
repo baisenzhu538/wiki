@@ -2,7 +2,7 @@
 id: "concept-toyota-5-whys"
 title: "5 Whys：追问到根本原因"
 type: "tool"
-status: enriched
+status: "enriched"
 domain:
   - "lean-manufacturing"
   - "yitang"
@@ -10,21 +10,11 @@ source_refs:
   - "Ohno, T. (1988). *Toyota Production System: Beyond Large-Scale Production*. Productivity Press."
   - "Senge, P. M. (1990). *The Fifth Discipline: The Art and Practice of the Learning Organization*. Doubleday."
 bridges_to:
-  - target: "skill-一堂-kernel-three-questions"
-    relation: "provides_foundation_for"
-    description: "5 Whys 是产品内核三问中'根因追问'精神的最轻量级工具"
-    context: "一堂内核三问要求'用户为什么选我们'——这本质上是一个根因追问问题。但一堂课程没有提供系统性的根因分析工具。5 Whys 补充这个缺口，让创业者在用户转化下降、产品留存不佳时能追问到真正的根本原因"
-  - target: "yt-product-kernel-cultivation"
-    relation: "applies_to"
-    description: "产品内核迭代中需要根因分析来识别真正的用户痛点"
-    context: "内核迭代时，团队常常误解表象为原因（如'转化率低是因为页面不好看'）。5 Whys 强迫团队再往下探索两层，找到'真正的根因'"
+  - {'target': 'skill-一堂-kernel-three-questions', 'relation': 'provides_foundation_for', 'description': "5 Whys 是产品内核三问中'根因追问'精神的最轻量级工具", 'context': "一堂内核三问要求'用户为什么选我们'——这本质上是一个根因追问问题。但一堂课程没有提供系统性的根因分析工具。5 Whys 补充这个缺口，让创业者在用户转化下降、产品留存不佳时能追问到真正的根本原因"}
+  - {'target': 'yt-product-kernel-cultivation', 'relation': 'applies_to', 'description': '产品内核迭代中需要根因分析来识别真正的用户痛点', 'context': "内核迭代时，团队常常误解表象为原因（如'转化率低是因为页面不好看'）。5 Whys 强迫团队再往下探索两层，找到'真正的根因'"}
 diagnostic_signals:
-  - signal: "用户说'我们有个问题，做了很多优化但问题依然存在'"
-    framework_lens: "5 Whys 检查：之前的'优化'是否只是在修补表象，没有触及根本原因"
-    follow_up_question: "如果让你连续问5次'为什么'来追究这个问题的根本原因，你会问到第几层？最后一层的原因是什么？"
-  - signal: "用户说'我们的问题是X，解决方案是Y'"
-    framework_lens: "5 Whys 检查：'问题是X'是否已经是经过根因分析的结论，还是只是表象描述"
-    follow_up_question: "你说的'X'是第几次'为什么'之后的结论？如果还没问到第3层，你可能只是在解决表象"
+  - {'signal': "用户说'我们有个问题，做了很多优化但问题依然存在'", 'framework_lens': "5 Whys 检查：之前的'优化'是否只是在修补表象，没有触及根本原因", 'follow_up_question': "如果让你连续问5次'为什么'来追究这个问题的根本原因，你会问到第几层？最后一层的原因是什么？"}
+  - {'signal': "用户说'我们的问题是X，解决方案是Y'", 'framework_lens': "5 Whys 检查：'问题是X'是否已经是经过根因分析的结论，还是只是表象描述", 'follow_up_question': "你说的'X'是第几次'为什么'之后的结论？如果还没问到第3层，你可能只是在解决表象"}
 related:
   - "concept-mckinsey-issue-tree"
   - "skill-一堂-kernel-three-questions"
@@ -39,7 +29,9 @@ version: 1
 created_at: "2026-06-11"
 updated_at: "2026-06-13"
 reviewed_by: "laowantong"
-author: legacy
+author: "legacy"
+confidence: 0.85
+trust_level: "medium-high"
 ---
 
 # 5 Whys：追问到根本原因

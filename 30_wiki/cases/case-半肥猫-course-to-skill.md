@@ -2,7 +2,7 @@
 id: "case-半肥猫-course-to-skill"
 title: "案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具"
 type: "case"
-status: draft
+status: "draft"
 domain:
   - "skill-engineering"
   - "yitang"
@@ -37,8 +37,10 @@ related:
   - "case-纪浩-skills-market"
   - "case-truman-ai-partner"
   - "case-纪浩-focus-prompt-design"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 案例：半肥猫的课程转 Skill 八步法

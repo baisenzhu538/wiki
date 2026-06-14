@@ -1,16 +1,16 @@
 ---
-
 title: "Y Combinator"
-type: entity
-status: reviewed
-entity_type: organization
-aliases: ["YC", "Y Combinator", "YC Startup School"]
+type: "entity"
+status: "reviewed"
+entity_type: "organization"
+aliases:
+  - "YC"
+  - "Y Combinator"
+  - "YC Startup School"
 url: "https://www.ycombinator.com"
 location: "Mountain View, California, USA"
 founded_at: "2005-03-01"
-source_refs:
-id: YC-Y-Combinator
-  - "src_20260430_8cc84e5b"
+id: "YC-Y-Combinator - "src_20260430_8cc84e5b""
 created_at: "2026-05-03"
 updated_at: "2026-05-03"
 related:
@@ -22,12 +22,12 @@ tags:
   - "#venture-capital"
   - "#ai-native"
   - "#organization-design"
-trust_level: high
+trust_level: "high"
 reviewed_by: "黄药师"
 review_date: "2026-05-04"
-
-domain: []
-author: legacy
+domain:
+author: "legacy"
+confidence: 0.85
 ---
 
 # Y Combinator

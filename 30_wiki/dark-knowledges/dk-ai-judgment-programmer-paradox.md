@@ -2,15 +2,17 @@
 id: "dk-ai-judgment-programmer-paradox"
 title: "程序员的AI悖论：写AI工具的人最晚享受到AI红利"
 type: "dark-knowledge"
-status: draft
+status: "draft"
 domain:
   - "ai-saas"
   - "yitang"
 source_refs:
   - "00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt"
 created_at: "2026-06-09"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 程序员的AI悖论

@@ -7,22 +7,23 @@ review_date: 2026-05-03
 reviewed_by: "Claude"
 source_refs:
   - "src_20260428_db49a647"
-status: enriched
+status: "enriched"
 title: "鑫港湾HIS系统分阶段整改报告"
-trust_level: high
+trust_level: "high"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - #scene/agent-infrastructure
-  - #scene/knowledge-management
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-medical
-  - #boundary/single-use-only
-  - confidence-source-cited
-author: legacy
+  - None
+  - None
+  - "confidence-source-cited"
+author: "legacy"
+confidence: 0.8
 ---
 
 # 鑫港湾HIS系统分阶段整改报告

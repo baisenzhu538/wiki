@@ -5,22 +5,24 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_94ee2a08"
-status: enriched
+status: "enriched"
 title: "OCR: 婚礼操盘-用户和场景"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/ai-collaboration
-  - #scene/business-analysis
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/note-taking/level-diagnosis
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 婚礼操盘-用户和场景

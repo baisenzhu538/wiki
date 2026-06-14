@@ -2,7 +2,7 @@
 id: "yt-note-extensive-research-input"
 title: "广泛涉猎式笔记：以问题为入口的多源交叉认知法"
 type: "concept"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "personal-growth"
@@ -27,25 +27,22 @@ query_triggers:
 created_at: "2026-06-10"
 estimated_tokens: 4200
 tags:
-  - #note-taking
-  - #learning-methodology
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/research/cross-validation
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+  - "confidence-draft"
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "用户只听30%但自己找资料能力不足"
-    framework_lens: "前提不满足"
-    follow_up_question: "你能在讲者提到的观点基础上，快速找到2-3个补充来源吗？"
-  - signal: "用户把广泛涉猎当成不认真的借口"
-    framework_lens: "误解"
-    follow_up_question: "你听完课后输出的认知结构，比讲者原内容丰富了多少？"
-updated_at: '2026-06-13'
-author: legacy
-reviewed_by: pending
+  - {'signal': '用户只听30%但自己找资料能力不足', 'framework_lens': '前提不满足', 'follow_up_question': '你能在讲者提到的观点基础上，快速找到2-3个补充来源吗？'}
+  - {'signal': '用户把广泛涉猎当成不认真的借口', 'framework_lens': '误解', 'follow_up_question': '你听完课后输出的认知结构，比讲者原内容丰富了多少？'}
+updated_at: "2026-06-13"
+author: "legacy"
+reviewed_by: "pending"
+trust_level: "low"
 ---
 
 # 广泛涉猎式笔记：以问题为入口的多源交叉认知法

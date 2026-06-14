@@ -1,8 +1,7 @@
 ---
-
 id: "ai-collaboration-mindset-shift"
 type: "concept"
-status: draft
+status: "draft"
 source_refs:
   - "src_20260606_42e11f09"
 component_of: ""
@@ -17,24 +16,25 @@ query_triggers:
   - "新手怎么用AI"
 reviewed_by: ""
 tags:
-  - #scene/agent-infrastructure
-  - #scene/ai-collaboration/human-ai-division
-  - #scene/ai-collaboration/problem-validation
-  - #scene/ai-collaboration/workspace-design
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/skill-engineering/course-to-skill
-  - #scene/skill-engineering/manifest-design
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/requires-human-judgment
-  - confidence-draft
-  - confidence-source-cited
-
-domain: []
-author: legacy
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+domain:
+author: "legacy"
 created_at: "2026-06-15"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # AI协作思维转变：从"新手"到"管理者"

@@ -28,35 +28,34 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-审美卡片-美好作品想象.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·审美卡片：美好作品想象"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "advanced"
 tags:
-  - #aesthetics
-  - #creativity
-  - #pan-product-design
-  - #scene/learning-methodology/mental-models
-  - #scene/product-design
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "在找不到直接对标时，团队能先写出‘理想体验’的3-5个关键画面"
-    framework_lens: "无对标时的目标态构建"
-    follow_up_question: "这些画面是基于用户需求的，还是基于个人偏好的？"
-  - signal: "想象前有明确的约束清单（用户、场景、技术、成本），而不是天马行空"
-    framework_lens: "创意在约束中才有价值"
-    follow_up_question: "如果预算减半、时间砍半，你想象的最佳体验还能保留哪些核心要素？"
-  - signal: "想象力产出会回到用户研究中验证，而不是直接作为最终方案"
-    framework_lens: "想象是假设，不是结论"
-    follow_up_question: "你能设计一个最小实验让用户验证这个想象吗？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '在找不到直接对标时，团队能先写出‘理想体验’的3-5个关键画面', 'framework_lens': '无对标时的目标态构建', 'follow_up_question': '这些画面是基于用户需求的，还是基于个人偏好的？'}
+  - {'signal': '想象前有明确的约束清单（用户、场景、技术、成本），而不是天马行空', 'framework_lens': '创意在约束中才有价值', 'follow_up_question': '如果预算减半、时间砍半，你想象的最佳体验还能保留哪些核心要素？'}
+  - {'signal': '想象力产出会回到用户研究中验证，而不是直接作为最终方案', 'framework_lens': '想象是假设，不是结论', 'follow_up_question': '你能设计一个最小实验让用户验证这个想象吗？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 美好作品想象：缺对标就自己想象

@@ -1,12 +1,10 @@
 ---
-
 title: "KDO Protocol — AI-Agent Operating Contract"
-type: system
-status: draft
-aliases: ["KDO Protocol"]
-source_refs:
-id: kdo-protocol
-  - "src_20260502_7d7c1b7c"
+type: "system"
+status: "draft"
+aliases:
+  - "KDO Protocol"
+id: "kdo-protocol - "src_20260502_7d7c1b7c""
 created_at: "2026-05-02"
 updated_at: "2026-05-04"
 related:
@@ -15,15 +13,15 @@ related:
   - "[[index]]"
   - "[[business-research-skill-oscar-13-weapon-system]]"
 tags:
-  - #kdo
-  - #protocol
-  - #ai-workflow
-trust_level: medium
+  - None
+  - None
+  - None
+trust_level: "medium"
 reviewed_by: "Claude"
 review_date: "2026-05-03"
-
-domain: []
-author: legacy
+domain:
+author: "legacy"
+confidence: 0.6
 ---
 
 # KDO Protocol — AI-Agent Operating Contract

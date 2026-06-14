@@ -3,7 +3,7 @@ id: "dk-p13-token-burn"
 title: "P-13：长会话 = token黑洞 — 一晚上烧掉80元"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_person: "system"
@@ -18,16 +18,18 @@ contradicts:
   - "master-systems-thinking"
   - "master-decision-hygiene"
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/ai-collaboration
-  - #scene/learning-methodology
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #source_type/error
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # P-13：长会话 = token黑洞 — 一晚上烧掉80元

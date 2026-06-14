@@ -29,39 +29,38 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-内核和边界.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·落地卡片：内核和边界"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "foundational"
 tags:
-  - #execution
-  - #pan-product-design
-  - #scene/hardware-debugging/prototyping
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/product-design
-  - #scope
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "能清晰说出产品的‘内核’是什么，且团队成员理解一致"
-    framework_lens: "内核是产品存在的根本价值"
-    follow_up_question: "如果去掉这个内核，产品还是同一个产品吗？"
-  - signal: "边界上的功能需求会被评估是否损害内核，而不是一律接受或拒绝"
-    framework_lens: "边界是围绕内核的可协商区域"
-    follow_up_question: "这个功能如果做了，会强化、稀释还是模糊内核？"
-  - signal: "在面对资源冲突时，能用内核作为取舍标准"
-    framework_lens: "内核提供决策优先级"
-    follow_up_question: "过去一个月里，有哪次排期是依据内核做出的取舍？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '能清晰说出产品的‘内核’是什么，且团队成员理解一致', 'framework_lens': '内核是产品存在的根本价值', 'follow_up_question': '如果去掉这个内核，产品还是同一个产品吗？'}
+  - {'signal': '边界上的功能需求会被评估是否损害内核，而不是一律接受或拒绝', 'framework_lens': '边界是围绕内核的可协商区域', 'follow_up_question': '这个功能如果做了，会强化、稀释还是模糊内核？'}
+  - {'signal': '在面对资源冲突时，能用内核作为取舍标准', 'framework_lens': '内核提供决策优先级', 'follow_up_question': '过去一个月里，有哪次排期是依据内核做出的取舍？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 内核和边界：剥离中心思想和边界

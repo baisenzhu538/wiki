@@ -26,35 +26,34 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-多视角思考.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·用户卡片：多视角思考"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "intermediate"
 tags:
-  - #pan-product-design
-  - #perspective-taking
-  - #scene/business-analysis
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/product-design
-  - #user-research
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "方案讨论前明确列出内部、外部、使用者、决策者四种视角的具体诉求"
-    framework_lens: "产品设计是多主体博弈"
-    follow_up_question: "这四个视角中，哪个视角的诉求如果未被满足，方案会被直接否决？"
-  - signal: "能指出不同视角之间的冲突，并把冲突作为设计输入而不是回避"
-    framework_lens: "冲突是设计约束，不是噪声"
-    follow_up_question: "你最近一次的设计改动，是为了调和哪两个视角的冲突？"
-  - signal: "最终方案能用一句话说明如何平衡各视角，而不是只满足一方"
-    framework_lens: "多视角的价值在于合成"
-    follow_up_question: "如果只满足决策者的诉求，用户的体验会恶化到什么程度？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '方案讨论前明确列出内部、外部、使用者、决策者四种视角的具体诉求', 'framework_lens': '产品设计是多主体博弈', 'follow_up_question': '这四个视角中，哪个视角的诉求如果未被满足，方案会被直接否决？'}
+  - {'signal': '能指出不同视角之间的冲突，并把冲突作为设计输入而不是回避', 'framework_lens': '冲突是设计约束，不是噪声', 'follow_up_question': '你最近一次的设计改动，是为了调和哪两个视角的冲突？'}
+  - {'signal': '最终方案能用一句话说明如何平衡各视角，而不是只满足一方', 'framework_lens': '多视角的价值在于合成', 'follow_up_question': '如果只满足决策者的诉求，用户的体验会恶化到什么程度？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 多视角思考：综合内部/外部/角色考量

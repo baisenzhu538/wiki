@@ -1,38 +1,37 @@
 ---
-
-
-id: sk-ai-system-redundancy
-title: 技能：系统冗余度快速检查清单
-type: skill
-status: draft
+id: "sk-ai-system-redundancy"
+title: "技能：系统冗余度快速检查清单"
+type: "skill"
+status: "draft"
 domain:
-- AI
-source_person: 水水
-source_context: 拆书会《偶然》分享，2026-06
+  - "ai-collaboration"
+source_person: "水水"
+source_context: "拆书会《偶然》分享，2026-06"
 source_refs:
-- 00_inbox/拆书会-《偶然》-水水-笔记.txt
+  - "00_inbox/拆书会-《偶然》-水水-笔记.txt"
 wiki_refs:
-- self-organized-criticality
-- sk-ai-purpose-bias-check
+  - "self-organized-criticality"
+  - "sk-ai-purpose-bias-check"
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
 tags:
-- '#skill/ai'
-- '#method/workflow'
-created_at: '2026-06-06'
-updated_at: '2026-06-06'
+  - "#skill/ai"
+  - "#method/workflow"
+created_at: "2026-06-06"
+updated_at: "2026-06-06"
 tools_required:
-- 文档编辑工具（Notion / Word / 飞书文档等）
-- 数据管理工具（Notion / Airtable 等）
-prerequisite_skills: []
+  - "文档编辑工具（Notion / Word / 飞书文档等）"
+  - "数据管理工具（Notion / Airtable 等）"
+prerequisite_skills:
 related:
-- self-organized-criticality
-- sk-ai-purpose-bias-check
-domain: [ai-collaboration]
-author: legacy
-reviewed_by: pending
+  - "self-organized-criticality"
+  - "sk-ai-purpose-bias-check"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：系统冗余度快速检查清单

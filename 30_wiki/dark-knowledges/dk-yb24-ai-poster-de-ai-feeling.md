@@ -3,7 +3,7 @@ id: "dk-yb24-ai-poster-de-ai-feeling"
 title: "AI海报去AI感：图标+质感人物双要素"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -16,16 +16,18 @@ related:
   - "dk-yb20-ai-eye-high-principle"
 contradicts: ""
 tags:
-  - #domain/design
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/business-analysis
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # AI海报去AI感：图标+质感人物双要素

@@ -3,7 +3,7 @@ id: "dk-yb32-doubao-size-composition"
 title: "豆包AIGC生图：尺寸是唯一关键排版影响因素"
 type: "dark-knowledge"
 dark_knowledge_type: "tool_usage"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -16,14 +16,16 @@ related:
   - "dk-yb23-ai-pre-screen-three-minutes"
 contradicts: ""
 tags:
-  - #domain/design
-  - #scene/ai-collaboration/prompt-engineering
+  - None
+  - None
 pipeline:
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 豆包AIGC生图：尺寸是唯一关键排版影响因素

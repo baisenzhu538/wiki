@@ -2,7 +2,7 @@
 id: "case-纪浩-ui-design-constraint-evolution"
 title: "案例：纪浩从'求你了'到1100行约束文档的UI设计迭代"
 type: "case"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -25,15 +25,17 @@ definition_of_done:
   - "案例有可迁移条件和失败模式"
   - "案例区分度≥2类型（成功/失败/边界/反常识）"
 tags:
-  - #domain/ai-collaboration
-  - #domain/yitang
-  - #prompt-engineering
-  - #constraint-design
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-published
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-published"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 案例：纪浩从"求你了"到1100行约束文档的UI设计迭代

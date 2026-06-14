@@ -5,18 +5,20 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_404f58a2"
-status: draft
+status: "draft"
 title: "Product Ux"
 type: "concept"
 updated_at: 2026-05-21
 tags:
-  - #scene/ai-collaboration/prompt-engineering
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # Product Ux

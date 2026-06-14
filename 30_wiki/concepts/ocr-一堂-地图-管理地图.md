@@ -5,22 +5,24 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_af67f9b0"
-status: enriched
+status: "enriched"
 title: "OCR: 一堂-地图-管理地图"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/ai-collaboration
-  - #scene/business-analysis
-  - #scene/knowledge-management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/level-diagnosis
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 一堂-地图-管理地图

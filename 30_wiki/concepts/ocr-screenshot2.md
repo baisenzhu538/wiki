@@ -5,20 +5,22 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_961e1d68"
-status: enriched
+status: "enriched"
 title: "OCR: screenshot2"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/ai-collaboration
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #scene/skill-engineering/eval-testing
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: screenshot2

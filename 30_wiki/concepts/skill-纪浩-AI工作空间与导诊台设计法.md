@@ -2,7 +2,7 @@
 id: "skill-纪浩-AI工作空间与导诊台设计法"
 title: "技能：AI工作空间与导诊台设计法"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -22,16 +22,18 @@ related:
 created_at: "2026-06-08"
 updated_at: "2026-06-08"
 tags:
-  - #domain/ai-collaboration
-  - #domain/yitang
-  - #scene/ai-collaboration/workspace-design
-  - #scene/agent-infrastructure
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：AI工作空间与导诊台设计法

@@ -1,24 +1,19 @@
 ---
-id: yt-skill-storyline-target-tradeoff
-title: 清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架
-domain: [yitang]
+id: "yt-skill-storyline-target-tradeoff"
+title: "清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架"
+domain:
+  - "yitang"
 diagnostic_signals:
-  - signal: "是否先穷尽因素、前置标准、分配显式权重再评估选项"
-    framework_lens: "理性决策 / 反合理化"
-    follow_up_question: "标准是否在评估后被修改以迎合偏好？"
-  - signal: "最终选择是否伴随 ≥2 个可见的牺牲及代价描述"
-    framework_lens: "机会成本 / 决策后后悔"
-    follow_up_question: "用户是否因'看不到代价'而在事后陷入认知失调？"
-  - signal: "不确定性和不可量化因素是否被显式标注"
-    framework_lens: "认知诚实 / 情绪剥离"
-    follow_up_question: "是否把价值观不可通约的重大决策强行塞进 1-10 分？"
-  - signal: "权重差异是否 ≥2 倍且避免平均分配"
-    framework_lens: "杠杆识别 / 聚焦"
-    follow_up_question: "平均分配权重是否回避了真正的优先级判断？"
-updated_at: '2026-06-13'
-author: legacy
-reviewed_by: pending
+  - {'signal': '是否先穷尽因素、前置标准、分配显式权重再评估选项', 'framework_lens': '理性决策 / 反合理化', 'follow_up_question': '标准是否在评估后被修改以迎合偏好？'}
+  - {'signal': '最终选择是否伴随 ≥2 个可见的牺牲及代价描述', 'framework_lens': '机会成本 / 决策后后悔', 'follow_up_question': "用户是否因'看不到代价'而在事后陷入认知失调？"}
+  - {'signal': '不确定性和不可量化因素是否被显式标注', 'framework_lens': '认知诚实 / 情绪剥离', 'follow_up_question': '是否把价值观不可通约的重大决策强行塞进 1-10 分？'}
+  - {'signal': '权重差异是否 ≥2 倍且避免平均分配', 'framework_lens': '杠杆识别 / 聚焦', 'follow_up_question': '平均分配权重是否回避了真正的优先级判断？'}
+updated_at: "2026-06-13"
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.75
+trust_level: "medium"
 ---
 # 清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架
 

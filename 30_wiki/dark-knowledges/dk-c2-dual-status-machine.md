@@ -3,7 +3,7 @@ id: "dk-c2-dual-status-machine"
 title: "C-2：Schema status 字段混用两个状态机→字段值互相污染"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_person: "Builder"
@@ -16,18 +16,20 @@ related:
   - "dk-c10-batch-tool-no-dry-run"
   - "master-systems-thinking"
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #source_type/error
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # C-2：Schema status 字段混用两个状态机→字段值互相污染

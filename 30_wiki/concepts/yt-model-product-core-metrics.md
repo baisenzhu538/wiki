@@ -16,40 +16,40 @@ query_triggers:
   - "从获客到推荐的度量框架"
   - "使用原则"
   - "四大环节 × 十大指标"
-related: []
+related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂产品内核-十大典型指标.png"
-status: enriched
+status: "enriched"
 title: "产品内核十大典型指标：从获客到推荐的度量框架"
 type: "framework"
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'framework'}
+yitang:
+  map: "entrepreneur"
+  module: "创业必修"
+  course_type: "framework"
 tags:
-  - #entrepreneurship
-  - #product-metrics
-  - #scene/agent-infrastructure
-  - #scene/business-analysis/conversion-rate
-  - #scene/business-analysis/customer-acquisition
-  - #scene/hardware-debugging/prototyping
-  - #scene/learning-methodology
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering
-  - #unit-model
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "用户盯十大指标但不看业务阶段"
-    framework_lens: "指标与阶段错配"
-    follow_up_question: "你当前业务最大的瓶颈是获客、转化、复购还是推荐？如果不知道，指标盯错了"
-  - signal: "用户把所有指标都当核心指标"
-    framework_lens: "没有聚焦"
-    follow_up_question: "这十个指标中，你这个季度只看一个，你选哪个？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户盯十大指标但不看业务阶段', 'framework_lens': '指标与阶段错配', 'follow_up_question': '你当前业务最大的瓶颈是获客、转化、复购还是推荐？如果不知道，指标盯错了'}
+  - {'signal': '用户把所有指标都当核心指标', 'framework_lens': '没有聚焦', 'follow_up_question': '这十个指标中，你这个季度只看一个，你选哪个？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 产品内核十大典型指标：从获客到推荐的度量框架

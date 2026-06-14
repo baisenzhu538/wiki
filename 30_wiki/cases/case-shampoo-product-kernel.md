@@ -2,7 +2,7 @@
 id: "case-shampoo-product-kernel"
 title: "洗发水产品内核：从卖点混淆到内核清晰的产品定义案例"
 type: "case"
-status: reviewed
+status: "reviewed"
 domain:
   - "product"
   - "yitang"
@@ -20,14 +20,16 @@ wiki_refs:
   - "concept-一堂-product-kernel"
   - "yt-product-kernel-cultivation"
 tags:
-  - #domain/product
-  - #domain/yitang
-  - #scene/business-analysis/product-kernel
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-  - confidence-case-verified
-author: legacy
-reviewed_by: pending
+  - "confidence-source-cited"
+  - "confidence-case-verified"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.85
+trust_level: "high"
 ---
 
 # 洗发水产品内核：从卖点混淆到内核清晰的产品定义案例

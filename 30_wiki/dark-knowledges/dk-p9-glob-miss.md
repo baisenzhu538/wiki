@@ -3,7 +3,7 @@ id: "dk-p9-glob-miss"
 title: "P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_person: "system"
@@ -18,17 +18,19 @@ contradicts:
   - "master-first-principles"
   - "master-ai-info-literacy"
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/ai-collaboration
-  - #scene/learning-methodology
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #source_type/error
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸

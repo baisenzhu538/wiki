@@ -2,7 +2,7 @@
 id: "case-纪浩-skill-market-problem-validation"
 title: "案例：一堂Skill市场从伪需求到真实需求的四问验证"
 type: "case"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -25,15 +25,17 @@ definition_of_done:
   - "案例有可迁移条件和失败模式"
   - "案例区分度≥2类型（成功/失败/边界/反常识）"
 tags:
-  - #domain/ai-collaboration
-  - #domain/yitang
-  - #problem-validation
-  - #pseudo-demand
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-published
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-published"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 案例：一堂Skill市场从伪需求到真实需求的四问验证

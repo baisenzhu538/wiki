@@ -4,7 +4,7 @@ title: "案例：五步法中识别真壁垒和假壁垒"
 type: "case"
 domain:
   - "yitang"
-status: enriched
+status: "enriched"
 confidence: 0.85
 difficulty: "intermediate"
 estimated_tokens: 2400
@@ -30,25 +30,20 @@ tags:
   - "#scene/business-analysis"
   - "#scene/strategy"
 pipeline:
-  - confidence-source-cited
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "创业者说'我们的壁垒是品牌/技术/先发优势'但说不清楚为什么别人抄不了"
-    framework_lens: "用'六个月测试'和'抄不了测试'两条硬标准，快速判断对方的壁垒声明是不是真的"
-    follow_up_question: "如果今天有一家资金是你10倍的公司决定抄你，六个月后你们还会存在吗？"
+  - {'signal': "创业者说'我们的壁垒是品牌/技术/先发优势'但说不清楚为什么别人抄不了", 'framework_lens': "用'六个月测试'和'抄不了测试'两条硬标准，快速判断对方的壁垒声明是不是真的", 'follow_up_question': '如果今天有一家资金是你10倍的公司决定抄你，六个月后你们还会存在吗？'}
 bridges_to:
-  - target: "yt-barrier-analysis-cheat-sheet"
-    relation: "applies_framework"
-    description: "壁垒分析 cheatsheet 提供的分类框架在本案例中的具体应用"
-  - target: "yt-entrepreneur-barriers"
-    relation: "extends_step"
-    description: "创业者壁垒认知的实操案例补充"
+  - {'target': 'yt-barrier-analysis-cheat-sheet', 'relation': 'applies_framework', 'description': '壁垒分析 cheatsheet 提供的分类框架在本案例中的具体应用'}
+  - {'target': 'yt-entrepreneur-barriers', 'relation': 'extends_step', 'description': '创业者壁垒认知的实操案例补充'}
 wiki_refs:
   - "30_wiki/concepts/yt-barrier-analysis-cheat-sheet.md"
   - "30_wiki/concepts/yt-entrepreneur-barriers.md"
   - "30_wiki/concepts/yt-scale-economy-weapon-library.md"
   - "30_wiki/concepts/yt-five-step-method.md"
   - "30_wiki/concepts/case-five-step-growth-first-lever.md"
-author: legacy
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 案例：五步法中识别真壁垒和假壁垒

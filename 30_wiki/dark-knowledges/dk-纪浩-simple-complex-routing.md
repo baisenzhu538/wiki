@@ -2,7 +2,7 @@
 id: "dk-纪浩-simple-complex-routing"
 title: "暗知识：简单系统跳过导诊台，复杂系统必须路由"
 type: "dk"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -17,13 +17,15 @@ related:
 created_at: "2026-06-08"
 updated_at: "2026-06-08"
 tags:
-  - #domain/ai-collaboration
-  - #domain/yitang
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 暗知识：简单系统跳过导诊台，复杂系统必须路由

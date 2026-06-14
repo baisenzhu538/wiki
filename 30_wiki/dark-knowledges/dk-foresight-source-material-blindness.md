@@ -5,7 +5,7 @@ type: "dark-knowledge"
 dark_knowledge_type: "process-failure"
 domain:
   - "yitang"
-status: enriched
+status: "enriched"
 confidence: 0.95
 difficulty: "beginner"
 estimated_tokens: 1200
@@ -24,14 +24,15 @@ query_triggers:
   - "搜索盲区"
   - "口述稿没找到"
   - "文件名搜索"
-related: []
+related:
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
 pipeline:
-  - #dk/process-failure
-  - confidence-source-cited
-  - confidence-verified-by-incident
-author: legacy
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-incident"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 暗知识：素材命名不一致导致完整口述稿被遗漏

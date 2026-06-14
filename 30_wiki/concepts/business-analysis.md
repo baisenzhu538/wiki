@@ -5,17 +5,19 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_9d98d526"
-status: draft
+status: "draft"
 title: "Business Analysis"
 type: "concept"
 updated_at: 2026-05-21
 tags:
-  - #scene/ai-collaboration/prompt-engineering
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # Business Analysis

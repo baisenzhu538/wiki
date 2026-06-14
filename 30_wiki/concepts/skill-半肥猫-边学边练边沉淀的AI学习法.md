@@ -2,7 +2,7 @@
 id: "skill-半肥猫-边学边练边沉淀的AI学习法"
 title: "技能：边学边练边沉淀的 AI 学习法"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
   - "learning"
@@ -26,29 +26,30 @@ related:
   - "concept-纪浩-ai-collaboration-methodology"
   - "skill-纪浩-dofirst-pdca"
 created_at: "2026-06-07"
-
 reviewed_by: "laowantong"
 updated_at: "2026-06-07"
 tags:
-  - #domain/ai-collaboration
-  - #domain/learning
-  - #scene/ai-collaboration/pdca-execution
-  - #scene/business-analysis/conversion-rate
-  - #scene/knowledge-management
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #scene/skill-engineering/course-to-skill
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
+  - None
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：边学边练边沉淀的 AI 学习法

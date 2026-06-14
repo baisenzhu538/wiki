@@ -5,22 +5,24 @@ domain:
   - "healthcare"
 source_refs:
   - "src_20260525_6748cc27"
-status: enriched
+status: "enriched"
 title: "AI时代判断力口述"
 type: "concept"
 updated_at: 2026-05-28
 tags:
-  - #scene/ai-collaboration
-  - #scene/learning-methodology/feedback-loop
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # AI时代判断力口述

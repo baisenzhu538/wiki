@@ -2,7 +2,7 @@
 id: "case-一堂-无人餐厅-hypothesis-failure"
 title: "案例：一堂无人餐厅项目因忽视关键假设而失败"
 type: "case"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "business-strategy"
@@ -26,15 +26,17 @@ definition_of_done:
   - "可迁移条件和不可复制场景已明确"
   - "实际应用后收集反馈并更新案例"
 tags:
-  - #domain/yitang
-  - #domain/business-strategy
-  - #scene/startup/hypothesis-validation
-  - #scene/failure-mode/wishful-thinking
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 案例：一堂无人餐厅项目因忽视关键假设而失败

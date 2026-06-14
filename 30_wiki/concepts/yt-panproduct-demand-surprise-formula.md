@@ -27,38 +27,37 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-惊喜公式.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·用户卡片：惊喜公式"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "intermediate"
 tags:
-  - #pan-product-design
-  - #scene/business-analysis
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/product-design
-  - #scene/skill-engineering/publish-deploy
-  - #surprise
-  - #user-experience
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "能明确写出用户对当前体验的预期基线"
-    framework_lens: "惊喜 = 交付 − 预期"
-    follow_up_question: "如果没有特别设计，用户原本预期会得到什么？"
-  - signal: "惊喜设计同时考虑‘提升交付’和‘管理预期’两条路径"
-    framework_lens: "惊喜有两种杠杆"
-    follow_up_question: "你是通过超预期交付，还是通过巧妙管理预期来创造惊喜？"
-  - signal: "惊喜方案有可衡量的情感或行为指标，而不是凭感觉"
-    framework_lens: " delight 必须被验证"
-    follow_up_question: "用户复购率、推荐率或满意度中，哪个指标能反映惊喜效果？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '能明确写出用户对当前体验的预期基线', 'framework_lens': '惊喜 = 交付 − 预期', 'follow_up_question': '如果没有特别设计，用户原本预期会得到什么？'}
+  - {'signal': '惊喜设计同时考虑‘提升交付’和‘管理预期’两条路径', 'framework_lens': '惊喜有两种杠杆', 'follow_up_question': '你是通过超预期交付，还是通过巧妙管理预期来创造惊喜？'}
+  - {'signal': '惊喜方案有可衡量的情感或行为指标，而不是凭感觉', 'framework_lens': ' delight 必须被验证', 'follow_up_question': '用户复购率、推荐率或满意度中，哪个指标能反映惊喜效果？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 惊喜公式：理解惊喜的本质

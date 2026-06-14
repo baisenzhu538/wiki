@@ -7,22 +7,23 @@ review_date: 2026-05-03
 reviewed_by: "Claude"
 source_refs:
   - "src_20260427_970eb338"
-status: reviewed
+status: "reviewed"
 title: "街顺APP全面调研报告"
-trust_level: medium
+trust_level: "medium"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - #scene/business-analysis
-  - #scene/hardware-debugging
-  - #scene/note-taking/checklist-method
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+confidence: 0.85
 ---
 
 # 街顺APP全面调研报告

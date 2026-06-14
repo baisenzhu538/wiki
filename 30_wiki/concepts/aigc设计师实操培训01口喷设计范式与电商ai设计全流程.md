@@ -7,22 +7,24 @@ domain:
   - "business-strategy"
 source_refs:
   - "src_20260528_04be660c"
-status: draft
+status: "draft"
 title: "AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程"
 type: "concept"
 updated_at: 2026-06-12
 tags:
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/hardware-debugging/prototyping
-  - #scene/learning-methodology
-  - #scene/note-taking/live-field
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程

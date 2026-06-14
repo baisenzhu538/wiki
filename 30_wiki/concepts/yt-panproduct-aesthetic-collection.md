@@ -26,37 +26,36 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践收集.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·审美卡片：最佳实践收集"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "foundational"
 tags:
-  - #aesthetics
-  - #best-practices
-  - #pan-product-design
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #scene/product-design
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "为每个设计任务主动建立参考集，且参考来源跨越≥2个行业或场景"
-    framework_lens: "泛产品：可迁移的最佳实践"
-    follow_up_question: "你收集的案例中，有没有一个来自完全不相干的领域却能启发当前设计？"
-  - signal: "每个案例都标注了‘好在哪里’和‘适用什么情境’，而不是只留截图"
-    framework_lens: "收集不是囤积，是为后续建模准备素材"
-    follow_up_question: "如果半年后再看这个案例，你还能快速判断它是否适合当前问题吗？"
-  - signal: "参考集会定期清理过时或低质量案例，保持池子活性"
-    framework_lens: "最佳实践有半衰期"
-    follow_up_question: "最近3个月有没有删除过不再值得参考的案例？为什么？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '为每个设计任务主动建立参考集，且参考来源跨越≥2个行业或场景', 'framework_lens': '泛产品：可迁移的最佳实践', 'follow_up_question': '你收集的案例中，有没有一个来自完全不相干的领域却能启发当前设计？'}
+  - {'signal': '每个案例都标注了‘好在哪里’和‘适用什么情境’，而不是只留截图', 'framework_lens': '收集不是囤积，是为后续建模准备素材', 'follow_up_question': '如果半年后再看这个案例，你还能快速判断它是否适合当前问题吗？'}
+  - {'signal': '参考集会定期清理过时或低质量案例，保持池子活性', 'framework_lens': '最佳实践有半衰期', 'follow_up_question': '最近3个月有没有删除过不再值得参考的案例？为什么？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 最佳实践收集：积极搜集最佳案例

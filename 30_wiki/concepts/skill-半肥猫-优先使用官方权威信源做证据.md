@@ -2,7 +2,7 @@
 id: "skill-半肥猫-优先使用官方权威信源做证据"
 title: "技能：优先使用官方权威信源做证据"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
 source_person: "半肥猫"
@@ -20,26 +20,27 @@ related:
   - "dk-半肥猫-silky-answer-warning"
   - "skill-半肥猫-告诉AI当前日期限制数据时效"
 created_at: "2026-06-07"
-
 reviewed_by: "laowantong"
 updated_at: "2026-06-07"
 tags:
-  - #domain/ai-collaboration
-  - #scene/ai-collaboration
-  - #scene/business-analysis/conversion-rate
-  - #scene/knowledge-management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #scene/skill-engineering/course-to-skill
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/not-for-medical
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：优先使用官方权威信源做证据

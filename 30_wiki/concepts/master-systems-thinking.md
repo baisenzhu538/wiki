@@ -29,22 +29,23 @@ related:
   - "yt-unit-model-ai-assisted"
 reviewed_by: ""
 source_refs:
-  - {"来源": "Jay Forrester, Donella Meadows, Peter Senge"}
-status: enriched
+  - {'来源': 'Jay Forrester, Donella Meadows, Peter Senge'}
+status: "enriched"
 title: "系统思考：反馈循环与杠杆点"
 type: "concept"
 updated_at: 2026-05-18
 version: 1
 tags:
-  - #scene/business-analysis
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/skill-engineering/manifest-design
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 系统思考：反馈循环与杠杆点

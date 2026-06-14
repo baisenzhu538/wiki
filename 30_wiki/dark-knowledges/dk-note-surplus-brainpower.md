@@ -3,7 +3,7 @@ id: "dk-note-surplus-brainpower"
 title: "“剩余脑力”：高阶笔记的唯一货币与分水岭"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "note-taking"
@@ -19,22 +19,24 @@ related:
   - "dk-note-maximum-common-divisor"
   - "dk-note-rookie-disaster-veteran-heaven"
 tags:
-  - #domain/cognitive-science
-  - #domain/note-taking
-  - #scene/ai-collaboration
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/note-taking/checklist-method
-  - #scene/note-taking/level-diagnosis
-  - #scene/note-taking/live-field
-  - #scene/note-taking/training-plan
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #source_type/insight
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # “剩余脑力”：高阶笔记的唯一货币与分水岭

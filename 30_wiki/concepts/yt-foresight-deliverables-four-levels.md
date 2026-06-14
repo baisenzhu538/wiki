@@ -4,7 +4,7 @@ title: "预判交付物四层级：从模糊想法到Plan ABC"
 type: "concept"
 domain:
   - "yitang"
-status: enriched
+status: "enriched"
 confidence: 0.9
 difficulty: "beginner"
 estimated_tokens: 1800
@@ -24,24 +24,21 @@ query_triggers:
   - "关键画布"
   - "Plan A Plan B"
   - "预判结束的标志"
-related: []
+related:
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-probability-engineering.md"
 tags:
-  - #yitang
-  - #scene/business-analysis
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "用户觉得自己想通了，但拿不出交付物"
-    framework_lens: "预判没有产出"
-    follow_up_question: "你的预判结果能否让另一个人不看你在场讲解就能理解并评判？"
-  - signal: "用户只做到L1/L2就下场"
-    framework_lens: "预判深度不足"
-    follow_up_question: "你完成了五步法画布和硬伤排除记录吗？如果没有，你还在L1/L2"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户觉得自己想通了，但拿不出交付物', 'framework_lens': '预判没有产出', 'follow_up_question': '你的预判结果能否让另一个人不看你在场讲解就能理解并评判？'}
+  - {'signal': '用户只做到L1/L2就下场', 'framework_lens': '预判深度不足', 'follow_up_question': '你完成了五步法画布和硬伤排除记录吗？如果没有，你还在L1/L2'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 预判交付物四层级：从模糊想法到Plan ABC

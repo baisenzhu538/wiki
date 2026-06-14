@@ -5,25 +5,27 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_a94d8057"
-status: enriched
+status: "enriched"
 title: "OCR: 一堂-个人修炼-课程清单"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/knowledge-management
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/product-design
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 一堂-个人修炼-课程清单

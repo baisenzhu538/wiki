@@ -4,7 +4,7 @@ title: "案例：五步法中从产品内核到增长的第一次跨越"
 type: "case"
 domain:
   - "yitang"
-status: enriched
+status: "enriched"
 confidence: 0.85
 difficulty: "intermediate"
 estimated_tokens: 2800
@@ -29,28 +29,21 @@ tags:
   - "#scene/business-analysis"
   - "#scene/growth"
 pipeline:
-  - confidence-source-cited
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "产品内核验证完了但不知道从哪开始做增长"
-    framework_lens: "帮你判断当前是否具备开始增长的条件（LTV/CAC≥3），以及第一个增长杠杆应该从产品内核的哪个特征中长出来"
-    follow_up_question: "你现在的LTV/CAC是多少？这个比值过去3个月是上升还是下降？"
-  - signal: "团队在模仿别人的增长手段但效果不好"
-    framework_lens: "帮你分析你的产品内核适合什么增长方式——不是所有产品都适合内容营销/付费投放/商务拓展"
-    follow_up_question: "你现在的用户是因为什么才买你的产品的？他们会在什么场景下主动推荐给别人？"
+  - {'signal': '产品内核验证完了但不知道从哪开始做增长', 'framework_lens': '帮你判断当前是否具备开始增长的条件（LTV/CAC≥3），以及第一个增长杠杆应该从产品内核的哪个特征中长出来', 'follow_up_question': '你现在的LTV/CAC是多少？这个比值过去3个月是上升还是下降？'}
+  - {'signal': '团队在模仿别人的增长手段但效果不好', 'framework_lens': '帮你分析你的产品内核适合什么增长方式——不是所有产品都适合内容营销/付费投放/商务拓展', 'follow_up_question': '你现在的用户是因为什么才买你的产品的？他们会在什么场景下主动推荐给别人？'}
 bridges_to:
-  - target: "yt-five-step-method"
-    relation: "extends_step"
-    description: "五步法标准流程在增长环节的具体实操补充"
-  - target: "yt-growth-cycle-model"
-    relation: "applies_framework"
-    description: "增长周期模型在本案例中的具体应用"
+  - {'target': 'yt-five-step-method', 'relation': 'extends_step', 'description': '五步法标准流程在增长环节的具体实操补充'}
+  - {'target': 'yt-growth-cycle-model', 'relation': 'applies_framework', 'description': '增长周期模型在本案例中的具体应用'}
 wiki_refs:
   - "30_wiki/concepts/yt-five-step-method.md"
   - "30_wiki/concepts/yt-growth-cycle-model.md"
   - "30_wiki/concepts/yt-entrepreneur-five-step-method.md"
   - "30_wiki/concepts/yt-product-kernel-cultivation.md"
   - "30_wiki/concepts/yt-unit-model-three-tools.md"
-author: legacy
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 案例：五步法中从产品内核到增长的第一次跨越

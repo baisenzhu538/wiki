@@ -2,7 +2,7 @@
 id: "yt-concept-context-engineering"
 title: "上下文工程：充分≠越多越好"
 type: "concept"
-status: enriched
+status: "enriched"
 domain:
   - "yitang"
   - "ai"
@@ -26,31 +26,28 @@ query_triggers:
 created_at: "2026-05-13"
 estimated_tokens: 3400
 tags:
-  - #ai
-  - #context
-  - #prompt-engineering
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/business-analysis
-  - #scene/learning-methodology
-  - #scene/skill-engineering
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "用户给AI喂了海量背景，但输出反而更差"
-    framework_lens: "信息过载——上下文质量由相关度决定"
-    follow_up_question: "你给的背景中，哪些是这个问题的核心约束？如果说不清，说明信息没有筛选"
-  - signal: "用户只给一句话prompt，抱怨AI回答太泛"
-    framework_lens: "上下文不足——没有独特约束就没有独特答案"
-    follow_up_question: "这个问题涉及的 业务阶段/目标用户/当前约束/不可接受方案 是什么？"
-updated_at: '2026-06-13'
-author: legacy
-reviewed_by: pending
+  - {'signal': '用户给AI喂了海量背景，但输出反而更差', 'framework_lens': '信息过载——上下文质量由相关度决定', 'follow_up_question': '你给的背景中，哪些是这个问题的核心约束？如果说不清，说明信息没有筛选'}
+  - {'signal': '用户只给一句话prompt，抱怨AI回答太泛', 'framework_lens': '上下文不足——没有独特约束就没有独特答案', 'follow_up_question': '这个问题涉及的 业务阶段/目标用户/当前约束/不可接受方案 是什么？'}
+updated_at: "2026-06-13"
+author: "legacy"
+reviewed_by: "pending"
+trust_level: "medium-high"
 ---
 
 # 上下文工程：充分≠越多越好

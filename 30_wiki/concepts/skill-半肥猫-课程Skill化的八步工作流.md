@@ -2,7 +2,7 @@
 id: "skill-半肥猫-课程Skill化的八步工作流"
 title: "技能：课程Skill化的八步工作流"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -25,28 +25,29 @@ related:
   - "case-半肥猫-skill-ab-test"
   - "dk-半肥猫-skill-rejection-value"
 created_at: "2026-06-07"
-
 reviewed_by: "laowantong"
 updated_at: "2026-06-07"
 tags:
-  - #domain/ai-collaboration
-  - #domain/yitang
-  - #scene/ai-collaboration
-  - #scene/business-analysis/conversion-rate
-  - #scene/knowledge-management/atomization
-  - #scene/knowledge-management/case-library
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/feedback-loop
-  - #scene/product-design/design-freeze
-  - #scene/skill-engineering/course-to-skill
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：课程Skill化的八步工作流

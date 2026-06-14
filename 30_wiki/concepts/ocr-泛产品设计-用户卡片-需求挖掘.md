@@ -5,19 +5,21 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_11af6cd2"
-status: enriched
+status: "enriched"
 title: "OCR: 泛产品设计-用户卡片-需求挖掘"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/business-analysis
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/product-design
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 泛产品设计-用户卡片-需求挖掘

@@ -3,7 +3,7 @@ id: "dk-modeling-timely-review-session-window"
 title: "离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内"
 type: "dark-knowledge"
 dark_knowledge_type: "workflow"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "master"
@@ -24,10 +24,11 @@ tags:
   - "#domain/yitang"
   - "#method/retrospective"
   - "#method/modeling"
-trust_level: high
+trust_level: "high"
 reviewed_by: "老顽童"
 review_date: "2026-06-14"
-author: legacy
+author: "legacy"
+confidence: 0.7
 ---
 
 # 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内

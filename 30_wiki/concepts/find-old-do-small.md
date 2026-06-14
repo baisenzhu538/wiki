@@ -1,8 +1,7 @@
 ---
-
 id: "find-old-do-small"
 type: "tool"
-status: draft
+status: "draft"
 source_refs:
   - "src_20260606_ef4877d0"
 component_of:
@@ -15,19 +14,20 @@ query_triggers:
   - "什么场景适合上AI"
 reviewed_by: ""
 tags:
-  - #scene/ai-collaboration/problem-validation
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-draft
-  - confidence-source-cited
-
-domain: []
-author: legacy
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+domain:
+author: "legacy"
 created_at: "2026-06-15"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # "找老的干小的"场景评估框架

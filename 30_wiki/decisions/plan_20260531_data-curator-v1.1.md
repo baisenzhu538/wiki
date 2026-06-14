@@ -1,27 +1,29 @@
 ---
-id: plan_20260531_data-curator-v1.1
+id: "plan_20260531_data-curator-v1.1"
 title: "Data Curator Skill — 数据清洗+原子切分+多维标签 实施方案 v1.1"
-type: improvement-plan
-status: superseded
-superseded_by: plan_20260531_data-curator-v1.3
+type: "improvement-plan"
+status: "superseded"
+superseded_by: "plan_20260531_data-curator-v1.3"
 domain:
-  - master
+  - "master"
 tags:
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
 source_refs:
-  - src_20260531_ai-data-understanding
+  - "src_20260531_ai-data-understanding"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 version: 1.1
 supersedes:
-  - plan_20260531_data-curator-v1
+  - "plan_20260531_data-curator-v1"
 related:
-  - kdo-industrialization-manual
-  - tool-card-excellence-standard
-  - AGENTS
-author: legacy
-reviewed_by: pending
+  - "kdo-industrialization-manual"
+  - "tool-card-excellence-standard"
+  - "AGENTS"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.75
+trust_level: "medium-low"
 ---
 
 # Data Curator Skill 实施方案 v1.1

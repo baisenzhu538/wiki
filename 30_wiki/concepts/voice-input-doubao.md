@@ -1,8 +1,7 @@
 ---
-
 id: "voice-input-doubao"
 type: "tool"
-status: draft
+status: "draft"
 source_refs:
   - "src_20260606_90b44191"
 component_of:
@@ -17,20 +16,21 @@ query_triggers:
   - "语音输入工具推荐"
 reviewed_by: ""
 tags:
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/ai-collaboration/skill-market
-  - #scene/business-analysis
-  - #scene/learning-methodology
-  - #scene/note-taking
-  - #scene/skill-engineering/course-to-skill
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-draft
-  - confidence-source-cited
-
-domain: []
-author: legacy
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+domain:
+author: "legacy"
 created_at: "2026-06-15"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 豆包输入法：语音输入的最低成本实践

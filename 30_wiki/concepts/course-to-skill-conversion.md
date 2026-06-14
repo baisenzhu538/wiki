@@ -1,8 +1,7 @@
 ---
-
 id: "course-to-skill-conversion"
 type: "tool"
-status: draft
+status: "draft"
 source_refs:
   - "src_20260606_90b44191"
 component_of:
@@ -17,22 +16,23 @@ query_triggers:
   - "课程作业怎么升级成工具"
 reviewed_by: ""
 tags:
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #scene/skill-engineering/course-to-skill
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
-  - confidence-verified-by-test
-
-domain: []
-author: legacy
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+  - "confidence-verified-by-test"
+domain:
+author: "legacy"
 created_at: "2026-06-15"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 课程→Skill转化：将知识变成AI可执行的能力模块

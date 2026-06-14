@@ -2,7 +2,7 @@
 id: "skill-一堂-business-prediction-15-char"
 title: "技能：商业预判15字诀"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "product"
   - "yitang"
@@ -27,15 +27,17 @@ wiki_refs:
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
 tags:
-  - #domain/product
-  - #domain/yitang
-  - #scene/startup/strategy
-  - #scene/business-analysis/decision-making
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：商业预判15字诀

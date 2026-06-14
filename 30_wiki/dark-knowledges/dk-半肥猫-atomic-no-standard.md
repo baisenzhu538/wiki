@@ -2,7 +2,7 @@
 id: "dk-半肥猫-atomic-no-standard"
 title: "暗知识：原子化没有固定标准"
 type: "dark-knowledge"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -19,21 +19,23 @@ related:
   - "skill-半肥猫-动态读取-向量化管理迭代知识"
   - "dk-半肥猫-skill-rejection-value"
 tags:
-  - #domain/ai-collaboration
-  - #domain/yitang
-  - #scene/ai-collaboration
-  - #scene/knowledge-management/atomization
-  - #scene/knowledge-management/case-library
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology
-  - #scene/skill-engineering/course-to-skill
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 暗知识：原子化没有固定标准

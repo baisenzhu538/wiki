@@ -1,8 +1,7 @@
 ---
-
 id: "ai-landing-scene-selection"
 type: "concept"
-status: draft
+status: "draft"
 source_refs:
   - "src_20260606_ef4877d0"
 component_of: ""
@@ -17,21 +16,22 @@ query_triggers:
   - "业务人员怎么用AI"
 reviewed_by: ""
 tags:
-  - #scene/ai-collaboration
-  - #scene/business-analysis/conversion-rate
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/skill-engineering/course-to-skill
-  - #scene/skill-engineering/manifest-design
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - confidence-draft
-  - confidence-source-cited
-
-domain: []
-author: legacy
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+domain:
+author: "legacy"
 created_at: "2026-06-15"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # AI落地场景识别：从"找老的干小的"开始

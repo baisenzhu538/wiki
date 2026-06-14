@@ -5,22 +5,24 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_2a53b1eb"
-status: enriched
+status: "enriched"
 title: "OCR: 泛产品设计者的三大自我修养"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/business-analysis
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/product-design
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 泛产品设计者的三大自我修养

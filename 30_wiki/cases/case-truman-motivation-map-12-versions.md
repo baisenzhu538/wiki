@@ -2,7 +2,7 @@
 id: "case-truman-motivation-map-12-versions"
 title: "动机地图12版迭代：先观察再设计——Truman的用户行为驱动迭代法"
 type: "case"
-status: draft
+status: "draft"
 domain:
   - "product-design"
   - "yitang"
@@ -13,8 +13,10 @@ source_refs:
 related:
   - "dk-truman-iteration-to-aesthetic-ceiling"
 created_at: "2026-06-09"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 动机地图12版迭代：先观察再设计

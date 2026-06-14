@@ -29,36 +29,35 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-攻坚会.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·落地卡片：攻坚会"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "advanced"
 tags:
-  - #collaboration
-  - #execution
-  - #pan-product-design
-  - #scene/agent-infrastructure
-  - #scene/learning-methodology/mental-models
-  - #scene/product-design
-  - #scene/skill-engineering
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "攻坚会前已经明确一个具体的攻坚问题，而不是泛泛讨论"
-    framework_lens: "聚焦是攻坚会的前提"
-    follow_up_question: "这个问题能否用一句话描述？如果做不到，就不适合开攻坚会"
-  - signal: "关键角色都在场，并且会前已做思考准备"
-    framework_lens: "攻坚会是高强度协作，不是信息同步"
-    follow_up_question: "缺席的这个人是否会导致决策无法落地？"
-  - signal: "会议结束时有明确决策、负责人和下一步行动"
-    framework_lens: "攻坚会必须产出结论"
-    follow_up_question: "如果会议超时仍未达成共识，谁来拍板？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '攻坚会前已经明确一个具体的攻坚问题，而不是泛泛讨论', 'framework_lens': '聚焦是攻坚会的前提', 'follow_up_question': '这个问题能否用一句话描述？如果做不到，就不适合开攻坚会'}
+  - {'signal': '关键角色都在场，并且会前已做思考准备', 'framework_lens': '攻坚会是高强度协作，不是信息同步', 'follow_up_question': '缺席的这个人是否会导致决策无法落地？'}
+  - {'signal': '会议结束时有明确决策、负责人和下一步行动', 'framework_lens': '攻坚会必须产出结论', 'follow_up_question': '如果会议超时仍未达成共识，谁来拍板？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 攻坚会：重点课题all-in攻坚

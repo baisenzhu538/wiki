@@ -1,19 +1,18 @@
 ---
-
-
 tags:
-- '#scene/business-analysis/conversion-rate'
-- '#scene/business-analysis/customer-acquisition'
-- '#scene/knowledge-management/atomization'
+  - "#scene/business-analysis/conversion-rate"
+  - "#scene/business-analysis/customer-acquisition"
+  - "#scene/knowledge-management/atomization"
 related:
-- yt-unit-model-overview
-- yt-unit-model-ladder
-
-domain: []
+  - "yt-unit-model-overview"
+  - "yt-unit-model-ladder"
+domain:
 id: "yt-tool-unit-model-construction"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.75
+trust_level: "medium"
 ---
 ## Reusable Knowledge
 

@@ -2,8 +2,10 @@
 id: "workflow-knowledge-collision"
 title: "知识碰撞工作流：产出前先碰撞知识库"
 type: "workflow"
-domain: ["hermes", "kdo"]
-status: active
+domain:
+  - "hermes"
+  - "kdo"
+status: "active"
 created_at: "2026-06-14"
 author: "周伯通"
 query_triggers:
@@ -20,7 +22,9 @@ tags:
   - "#workflow"
   - "#agent-standard"
   - "#knowledge-collision"
-reviewed_by: pending
+reviewed_by: "pending"
+confidence: 0.85
+trust_level: "high"
 ---
 
 # 知识碰撞工作流：产出前先碰撞知识库

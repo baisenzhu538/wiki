@@ -2,7 +2,7 @@
 id: "yt-note-checklist-concept"
 title: "一堂笔记法：清单体笔记的核心概念与原理"
 type: "concept"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "personal-growth"
@@ -32,34 +32,31 @@ query_triggers:
 created_at: "2026-06-07"
 estimated_tokens: 4200
 tags:
-  - #checklist
-  - #cognitive-tool
-  - #note-taking
-  - #scene/ai-collaboration
-  - #scene/knowledge-management/atomization
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/note-taking/live-field
-  - #scene/product-design/design-freeze
-  - #scene/skill-engineering
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-draft
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "用户把清单体当简陋备忘"
-    framework_lens: "误解清单体"
-    follow_up_question: "你的清单体笔记有没有帮助你重新组织理解和产生新洞察？"
-  - signal: "用户只收藏清单体模板，不加工认知"
-    framework_lens: "形式主义"
-    follow_up_question: "你收藏了多少模板？最近一周实际用来加工了几个概念？"
-updated_at: '2026-06-13'
-author: legacy
-reviewed_by: pending
+  - {'signal': '用户把清单体当简陋备忘', 'framework_lens': '误解清单体', 'follow_up_question': '你的清单体笔记有没有帮助你重新组织理解和产生新洞察？'}
+  - {'signal': '用户只收藏清单体模板，不加工认知', 'framework_lens': '形式主义', 'follow_up_question': '你收藏了多少模板？最近一周实际用来加工了几个概念？'}
+updated_at: "2026-06-13"
+author: "legacy"
+reviewed_by: "pending"
+trust_level: "low"
 ---
 
 # 一堂笔记法：清单体笔记的核心概念与原理

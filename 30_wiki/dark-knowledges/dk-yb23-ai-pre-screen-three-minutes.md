@@ -3,7 +3,7 @@ id: "dk-yb23-ai-pre-screen-three-minutes"
 title: "AI出图前置筛选：三分钟十套方案定风格"
 type: "dark-knowledge"
 dark_knowledge_type: "workflow"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -14,15 +14,16 @@ created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb1-aigc-mvp-before-ps"
-contradicts:
 tags:
-  - #domain/design
+  - None
 pipeline:
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # AI出图前置筛选：三分钟十套方案定风格

@@ -1,23 +1,20 @@
 ---
-
 title: "管理段位"
 type: "concept"
-status: enriched
-domain: []
+status: "enriched"
+domain:
 pipeline:
-  - confidence-source-cited
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "管理者在一个段位做了很久但升不上去"
-    framework_lens: "行为惯性"
-    follow_up_question: "你上一阶段让你成功的习惯，有没有成为这一阶段的阻碍？"
-  - signal: "管理者高估自己的段位"
-    framework_lens: "认知偏差"
-    follow_up_question: "你的下属和同级认为你在哪个段位？如果和你自评差2段，你在高估自己"
-updated_at: '2026-06-13'
+  - {'signal': '管理者在一个段位做了很久但升不上去', 'framework_lens': '行为惯性', 'follow_up_question': '你上一阶段让你成功的习惯，有没有成为这一阶段的阻碍？'}
+  - {'signal': '管理者高估自己的段位', 'framework_lens': '认知偏差', 'follow_up_question': '你的下属和同级认为你在哪个段位？如果和你自评差2段，你在高估自己'}
+updated_at: "2026-06-13"
 id: "yt-management-leadership-levels"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.75
+trust_level: "medium-low"
 ---
 
 # 管理段位

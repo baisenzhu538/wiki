@@ -2,7 +2,7 @@
 id: "dk-ai-entrepreneur-technical-blindspot"
 title: "暗知：AI创业者最大的盲区——'我们能做出来'≠'用户需要这个'"
 type: "dk"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "ai"
@@ -20,8 +20,10 @@ related:
   - "yt-three-dimension-opportunity-matrix"
   - "yt-ai-startup-20-risky-hypotheses"
   - "case-ai-time-management-tiered-growth"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 暗知：AI创业者最大的盲区——"我们能做出来"≠"用户需要这个"

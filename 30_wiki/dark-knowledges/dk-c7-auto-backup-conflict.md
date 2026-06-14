@@ -3,7 +3,7 @@ id: "dk-c7-auto-backup-conflict"
 title: "C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_person: "Builder"
@@ -16,17 +16,19 @@ related:
   - "dk-c10-batch-tool-no-dry-run"
   - "master-knowledge-compound"
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/knowledge-management
-  - #scene/learning-methodology
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/single-use-only
-  - #source_type/error
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交

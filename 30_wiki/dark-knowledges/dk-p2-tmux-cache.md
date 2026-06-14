@@ -3,7 +3,7 @@ id: "dk-p2-tmux-cache"
 title: "P-2：tmux session 缓存旧配置"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_person: "system"
@@ -18,17 +18,19 @@ contradicts:
   - "master-systems-thinking"
   - "master-first-principles"
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/ai-collaboration
-  - #scene/learning-methodology
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/single-use-only
-  - #source_type/error
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # P-2：tmux session 缓存旧配置

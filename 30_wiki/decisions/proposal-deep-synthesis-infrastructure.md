@@ -1,22 +1,24 @@
 ---
 title: "基础设施升级提案：深度合成产线 — 解决文章'不够深刻'的工厂级根因"
-type: improvement-plan
-status: draft
+type: "improvement-plan"
+status: "draft"
 domain:
-  - master
+  - "master"
 created_at: 2026-06-01
 updated_at: 2026-06-01
 target_roles:
-  - 欧阳锋（Architect）
-reviewer: 欧阳锋
-author: 黄药师
+  - "欧阳锋（Architect）"
+reviewer: "欧阳锋"
+author: "黄药师"
 related:
-  - kdo-industrialization-manual
-  - labeling-final-consolidation
-  - plan_20260531_data-curator-v1.3
-  - content-quality-gate
+  - "kdo-industrialization-manual"
+  - "labeling-final-consolidation"
+  - "plan_20260531_data-curator-v1.3"
+  - "content-quality-gate"
 id: "proposal-deep-synthesis-infrastructure"
-reviewed_by: pending
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 基础设施升级提案：深度合成产线

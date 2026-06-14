@@ -1,25 +1,25 @@
 ---
-id: case-truman-personal-growth-map-creation
-title: Truman 个人地图创作全历程：从模糊想法到四格天花板
-type: case
-status: enriched
-confidence: 0.90
+id: "case-truman-personal-growth-map-creation"
+title: "Truman 个人地图创作全历程：从模糊想法到四格天花板"
+type: "case"
+status: "enriched"
+confidence: 0.8
 domain:
-  - yitang
-  - product
+  - "yitang"
+  - "product"
 source_refs:
-  - src_20260614_8269ccdb
+  - "src_20260614_8269ccdb"
 created_at: "2026-06-14"
-author: 黄药师（基于 Truman 口述提取）
-reviewed_by: 黄药师
+author: "黄药师（基于 Truman 口述提取）"
+reviewed_by: "黄药师"
 review_date: "2026-06-14"
-trust_level: high
+trust_level: "high"
 related:
   - "modeling-capability-for-kdo"
-  - modeling-three-stages
-  - case-truman-livestream-sop-iteration
-  - case-truman-ai-skill-self-packaging
-  - modeling-to-kdo-toolchain
+  - "modeling-three-stages"
+  - "case-truman-livestream-sop-iteration"
+  - "case-truman-ai-skill-self-packaging"
+  - "modeling-to-kdo-toolchain"
 tags:
   - "#modeling"
   - "#case"
@@ -27,12 +27,8 @@ tags:
   - "#product-design"
   - "#yitang"
 diagnostic_signals:
-  - signal: "我们有十几个分散的课题想做成一张地图，但不知道怎么开始"
-    framework_lens: 七步创作法
-    follow_up_question: 你们有没有先做全量整理？有没有每个人独立找一遍规律再碰撞？
-  - signal: "AI给的模型看起来很漂亮但套不进去"
-    framework_lens: 5-10个版本手工迭代 → AI辅助但不替代
-    follow_up_question: 你让AI出了几个版本？你手工写了几个版本？两者差在哪？
+  - {'signal': '我们有十几个分散的课题想做成一张地图，但不知道怎么开始', 'framework_lens': '七步创作法', 'follow_up_question': '你们有没有先做全量整理？有没有每个人独立找一遍规律再碰撞？'}
+  - {'signal': 'AI给的模型看起来很漂亮但套不进去', 'framework_lens': '5-10个版本手工迭代 → AI辅助但不替代', 'follow_up_question': '你让AI出了几个版本？你手工写了几个版本？两者差在哪？'}
 ---
 
 # Truman 个人地图创作：从模糊想法到四格天花板的七步

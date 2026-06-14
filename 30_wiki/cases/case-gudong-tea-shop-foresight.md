@@ -4,7 +4,7 @@ title: "古董奶茶店：五层筛选的加法减法实战"
 type: "case"
 domain:
   - "yitang"
-status: enriched
+status: "enriched"
 confidence: 0.9
 difficulty: "beginner"
 estimated_tokens: 2400
@@ -25,18 +25,19 @@ query_triggers:
   - "青岛奶茶"
   - "五层筛选"
   - "加盟预判"
-related: []
+related:
 wiki_refs:
   - "30_wiki/concepts/yt-foresight-15-char-mantra.md"
   - "30_wiki/concepts/yt-foresight-addition-subtraction.md"
   - "30_wiki/concepts/yt-foresight-business-spectrum.md"
 tags:
-  - #yitang
-  - #case/foresight
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-outcome
-author: legacy
+  - "confidence-source-cited"
+  - "confidence-verified-by-outcome"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 古董奶茶店：五层筛选的加法减法实战

@@ -24,34 +24,29 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
-status: enriched
+status: "enriched"
 title: "讲香·比喻化"
 type: "tool"
 version: 1
 tags:
-  - #pitch
-  - #scene/ai-collaboration
-  - #scene/business-analysis
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/level-diagnosis
-  - #yitang
-  - #抽象化
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "用用户熟悉的事物解释陌生或抽象的概念"
-    framework_lens: "比喻是认知脚手架"
-    follow_up_question: "这个比喻的‘本体’是用户已经理解的吗？"
-  - signal: "比喻能传递价值感或情感，而不仅仅是解释功能"
-    framework_lens: "比喻可以借价值参照系"
-    follow_up_question: "这个比喻让用户联想到什么价值判断？"
-  - signal: "不会把比喻推到逻辑不成立的极端"
-    framework_lens: "比喻有适用范围"
-    follow_up_question: "这个比喻在哪个方面会失效？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用用户熟悉的事物解释陌生或抽象的概念', 'framework_lens': '比喻是认知脚手架', 'follow_up_question': '这个比喻的‘本体’是用户已经理解的吗？'}
+  - {'signal': '比喻能传递价值感或情感，而不仅仅是解释功能', 'framework_lens': '比喻可以借价值参照系', 'follow_up_question': '这个比喻让用户联想到什么价值判断？'}
+  - {'signal': '不会把比喻推到逻辑不成立的极端', 'framework_lens': '比喻有适用范围', 'follow_up_question': '这个比喻在哪个方面会失效？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 讲香·比喻化

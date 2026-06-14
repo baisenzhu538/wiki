@@ -1,7 +1,7 @@
 ---
 title: "KDO 飞轮 — 建造→使用→反思→实验"
 type: "concept"
-status: stable
+status: "stable"
 domain:
   - "master"
 created_at: 2026-06-02
@@ -19,18 +19,20 @@ query_triggers:
   - "认知飞轮"
   - "知识挖掘飞轮"
 tags:
-  - #scene/ai-collaboration
-  - #scene/business-analysis
-  - #scene/knowledge-management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/product-design
-  - #scene/skill-engineering/eval-testing
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-verified-by-test
+  - None
+  - "confidence-verified-by-test"
 id: "kdo-flywheel"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "high"
 ---
 
 # KDO 飞轮 — 建造→使用→反思→实验

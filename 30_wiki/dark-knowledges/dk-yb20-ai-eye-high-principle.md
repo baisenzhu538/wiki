@@ -3,7 +3,7 @@ id: "dk-yb20-ai-eye-high-principle"
 title: "AIGC眼高原则：审美先于技术"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: draft
+status: "draft"
 domain:
   - "design"
   - "master"
@@ -18,16 +18,18 @@ related:
   - "master-first-principles"
 contradicts: ""
 tags:
-  - #domain/design
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # AIGC眼高原则：审美先于技术

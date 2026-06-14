@@ -3,7 +3,7 @@ id: "dk-yb7-design-demand-80-10-10"
 title: "中国设计需求的80-10-10分层法则"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: draft
+status: "draft"
 domain:
   - "design"
   - "yitang"
@@ -19,16 +19,18 @@ related:
   - "yt-barrier-identification-skill"
 contradicts: ""
 tags:
-  - #domain/design
-  - #scene/business-analysis
-  - #scene/note-taking/checklist-method
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 中国设计需求的80-10-10分层法则

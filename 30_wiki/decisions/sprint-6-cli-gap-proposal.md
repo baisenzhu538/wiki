@@ -1,21 +1,23 @@
 ---
 title: "Sprint 6 CLI 缺口修复提案 — 响应老顽童飞轮第一圈 8 条 Feedback"
-type: improvement-plan
-status: draft
+type: "improvement-plan"
+status: "draft"
 domain:
-  - master
+  - "master"
 created_at: 2026-06-03
 updated_at: 2026-06-03
 target_roles:
-  - 欧阳锋（Architect）
-author: 黄药师
-reviewer: 欧阳锋
+  - "欧阳锋（Architect）"
+author: "黄药师"
+reviewer: "欧阳锋"
 related:
-  - sprint-6-laowantong-feedback-18
-  - sprint-6-four-death-sentences
-  - knowledge-flywheel-discovery-20260602
+  - "sprint-6-laowantong-feedback-18"
+  - "sprint-6-four-death-sentences"
+  - "knowledge-flywheel-discovery-20260602"
 id: "sprint-6-cli-gap-proposal"
-reviewed_by: pending
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # Sprint 6 CLI 缺口修复提案

@@ -1,21 +1,23 @@
 ---
-id: ouyangfeng-labeling-research-review
+id: "ouyangfeng-labeling-research-review"
 title: "欧阳锋：数据标注全网调研 + 对 15 维度方案的补充建议"
-type: decision
-status: draft
+type: "decision"
+status: "draft"
 domain:
-  - master
+  - "master"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 target_roles:
-  - 用户（决策者）
-  - 黄药师（Builder）
+  - "用户（决策者）"
+  - "黄药师（Builder）"
 related:
-  - kdo-15-dimension-label-spec
-  - labeling-research-alignment
-  - data-labeling-best-practices-report
-author: legacy
-reviewed_by: pending
+  - "kdo-15-dimension-label-spec"
+  - "labeling-research-alignment"
+  - "data-labeling-best-practices-report"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 欧阳锋：数据标注全网调研 + 对 15 维度方案的补充建议

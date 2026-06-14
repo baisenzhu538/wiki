@@ -1,38 +1,40 @@
 ---
-id: skill-first-principles-assumption-classify
+id: "skill-first-principles-assumption-classify"
 title: "技能：假设分类法（第一性原理）"
-type: skill
-status: draft
+type: "skill"
+status: "draft"
 domain:
-  - 创新
-  - 思维
-  - 产品
-source_person: 消化全库后提炼
-source_context: 基于master-first-principles框架提炼，2026-05-18
+  - "创新"
+  - "思维"
+  - "产品"
+source_person: "消化全库后提炼"
+source_context: "基于master-first-principles框架提炼，2026-05-18"
 source_refs:
-  - {"来源": "Aristotle, Elon Musk"}
+  - {'来源': 'Aristotle, Elon Musk'}
 wiki_refs:
-  - master-first-principles
-  - yt-personal-liberate-thinking
+  - "master-first-principles"
+  - "yt-personal-liberate-thinking"
 definition_of_done:
-  - 每次列出至少10条假设
-  - 至少3条被分类为"历史惯性"或"人为约定"
-  - 新方案与现状差异≥30%
+  - "每次列出至少10条假设"
+  - "至少3条被分类为"历史惯性"或"人为约定""
+  - "新方案与现状差异≥30%"
 tools_required:
-  - 无（纯思维工具）
-  - 纸/白板（列出假设用）
-prerequisite_skills: []
-related: []
+  - "无（纯思维工具）"
+  - "纸/白板（列出假设用）"
+prerequisite_skills:
+related:
 created_at: 2026-06-11
 updated_at: 2026-06-11
 tags:
-  - #domain/innovation
-  - #method/checklist
-  - #tool/brain
+  - None
+  - None
+  - None
 pipeline:
-  - #skill-type/validation
+  - None
 reviewed_by: "laowantong"
-author: legacy
+author: "legacy"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：假设分类法（第一性原理）

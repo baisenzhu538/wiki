@@ -35,30 +35,27 @@ source_refs:
   - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践建模.png"
   - "10_raw/assets/yitang/泛产品设计-审美卡片-美好作品想象.png"
   - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
-status: enriched
+status: "enriched"
 superseded_by: ""
 title: "泛产品设计·审美工具箱（4张卡牌）"
 type: "framework"
 version: 1
 tags:
-  - #scene/hardware-debugging/prototyping
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/product-design
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "用户看了审美卡牌但还是做不出好设计"
-    framework_lens: "只看不练"
-    follow_up_question: "你最近一个月认真分析了多少个最佳实践案例？又模仿/改造了几个？"
-  - signal: "用户直接套用审美模型，不找最佳实践"
-    framework_lens: "缺少案例输入"
-    follow_up_question: "你这个设计领域的最佳实践案例在哪里？如果没有，模型只是空壳"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户看了审美卡牌但还是做不出好设计', 'framework_lens': '只看不练', 'follow_up_question': '你最近一个月认真分析了多少个最佳实践案例？又模仿/改造了几个？'}
+  - {'signal': '用户直接套用审美模型，不找最佳实践', 'framework_lens': '缺少案例输入', 'follow_up_question': '你这个设计领域的最佳实践案例在哪里？如果没有，模型只是空壳'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 ## Constraints & Boundaries

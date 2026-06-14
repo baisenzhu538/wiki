@@ -5,20 +5,22 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_2a547df5"
-status: enriched
+status: "enriched"
 title: "OCR: 一堂五步法画布"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/ai-collaboration/pdca-execution
-  - #scene/business-analysis
-  - #scene/knowledge-management
-  - #scene/learning-methodology
-  - #scene/note-taking/live-field
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 一堂五步法画布

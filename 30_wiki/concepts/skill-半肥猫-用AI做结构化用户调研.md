@@ -2,7 +2,7 @@
 id: "skill-半肥猫-用AI做结构化用户调研"
 title: "技能：用 AI 做结构化用户调研"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
 source_person: "半肥猫"
@@ -10,10 +10,8 @@ source_context: "AI俱学乐部-AI学习落地 分享"
 source_refs:
   - "00_inbox/半肥猫-AI学习落地-口述.md"
 tags:
-  - "#domain/ai-collaboration"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/skill-engineering/course-to-skill"
+  - None
+  - None
 tools_required:
   - "AIGC大模型"
 prerequisite_skills:
@@ -23,13 +21,11 @@ related:
   - "skill-半肥猫-优先使用官方权威信源做证据"
   - "dk-半肥猫-silky-answer-warning"
 created_at: "2026-06-07"
-
 reviewed_by: "laowantong"
 updated_at: "2026-06-07"
-tags:
-  - #scene/skill-engineering
-  - #domain/AI
-author: legacy
+author: "legacy"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：用 AI 做结构化用户调研

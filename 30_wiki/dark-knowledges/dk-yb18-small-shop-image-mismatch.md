@@ -3,7 +3,7 @@ id: "dk-yb18-small-shop-image-mismatch"
 title: "小店图片错配陷阱：精致摄影反而吓跑客户"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "design"
   - "yitang"
@@ -18,16 +18,17 @@ related:
   - "dk-yb16-ecommerce-product-image-vs-lucky-draw"
   - "dk-yb19-visual-strategy-price-match"
   - "yt-foresight-ten-fatal-flaws"
-contradicts:
 tags:
-  - #domain/design
-  - #scene/business-analysis
+  - None
+  - None
 pipeline:
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 小店图片错配陷阱：精致摄影反而吓跑客户

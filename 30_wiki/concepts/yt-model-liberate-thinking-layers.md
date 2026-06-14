@@ -16,38 +16,38 @@ query_triggers:
   - "核心梯度"
   - "知识体系定位"
   - "解放思想五层模型"
-related: []
+related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-解放思想.png"
-status: enriched
+status: "enriched"
 title: "解放思想五层模型"
 type: "framework"
 version: 1
-yitang: {'map': 'personal', 'module': '底层方法论', 'course_type': 'model'}
+yitang:
+  map: "personal"
+  module: "底层方法论"
+  course_type: "model"
 tags:
-  - #scene/business-analysis
-  - #scene/hardware-debugging/prototyping
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #thinking-model
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: '创业者总说"我要颠覆行业"，但连L1最佳实践都没学过'
-    framework_lens: "L0盲目创新——没有经验积累的创新是空想"
-    follow_up_question: "你能说出你行业里3个最成功的案例及其关键成功因素吗？如果不能，创新缺乏基础"
-  - signal: "用户沉迷于学学科经典，但解决不了具体业务问题"
-    framework_lens: "过度抽象——L5经典需要经过L3-L4才能落地"
-    follow_up_question: "你最近用学科经典解决了一个什么具体问题？如果没有，经典只是知识装饰"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '创业者总说"我要颠覆行业"，但连L1最佳实践都没学过', 'framework_lens': 'L0盲目创新——没有经验积累的创新是空想', 'follow_up_question': '你能说出你行业里3个最成功的案例及其关键成功因素吗？如果不能，创新缺乏基础'}
+  - {'signal': '用户沉迷于学学科经典，但解决不了具体业务问题', 'framework_lens': '过度抽象——L5经典需要经过L3-L4才能落地', 'follow_up_question': '你最近用学科经典解决了一个什么具体问题？如果没有，经典只是知识装饰'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 解放思想五层模型

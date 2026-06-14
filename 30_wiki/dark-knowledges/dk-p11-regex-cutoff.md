@@ -3,7 +3,7 @@ id: "dk-p11-regex-cutoff"
 title: "P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_person: "system"
@@ -18,18 +18,20 @@ contradicts:
   - "master-first-principles"
   - "kdo-yaml-frontmatter-safety"
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/ai-collaboration
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/feedback-loop
-  - #scene/skill-engineering/eval-testing
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #source_type/error
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效

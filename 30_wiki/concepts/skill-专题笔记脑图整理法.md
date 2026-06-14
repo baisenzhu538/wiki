@@ -1,40 +1,37 @@
 ---
-id: skill-专题笔记脑图整理法
-title: 技能：专题笔记/脑图整理法
-type: skill
-status: draft
+id: "skill-专题笔记脑图整理法"
+title: "技能：专题笔记/脑图整理法"
+type: "skill"
+status: "draft"
 domain:
-- learning-methodology
-- yitang
-source_person: 一堂课程
-source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
+  - "learning-methodology"
+  - "yitang"
+source_person: "一堂课程"
+source_context: "一堂·科学学习IPO全景策略图 V2.0 (2026)"
 source_refs:
-- 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
+  - "10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md"
 wiki_refs:
-- skill-知识树存储记忆法
-- skill-四层联系建立法
-- skill-动手建模法
+  - "skill-知识树存储记忆法"
+  - "skill-四层联系建立法"
+  - "skill-动手建模法"
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
 tools_required:
-- 思维导图软件（XMind/MindNode等）
-- 笔记工具
-prerequisite_skills: []
-related:
+  - "思维导图软件（XMind/MindNode等）"
+  - "笔记工具"
+prerequisite_skills:
 tags:
-- '#domain/learning-methodology'
-- '#domain/yitang'
-- '#scene/note-taking'
-created_at: '2026-06-09'
-updated_at: '2026-06-09'
-tags:
-  - #scene/skill-engineering
-  - #domain/learning-methodology
-  - #yitang
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - None
+created_at: "2026-06-09"
+updated_at: "2026-06-09"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：专题笔记/脑图整理法

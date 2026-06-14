@@ -27,39 +27,38 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计02口述.md"
-status: enriched
+status: "enriched"
 title: "泛产品设计落地篇：无限进步与持续打磨"
 type: "concept"
 version: 1
-yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'required', 'level': 'advanced'}
+yitang:
+  map: "personal"
+  module: "个人修炼"
+  course_type: "required"
+  level: "advanced"
 tags:
-  - #execution
-  - #iteration
-  - #pan-product-design
-  - #scene/hardware-debugging/prototyping
-  - #scene/learning-methodology
-  - #scene/note-taking/checklist-method
-  - #scene/product-design
-  - #scene/skill-engineering
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-creative
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "把产品迭代看作从60分到85分再到90分的持续过程，而不是一次交付"
-    framework_lens: "无限进步 = 持续打磨"
-    follow_up_question: "你这个月的产品/作品比上个月好在哪？"
-  - signal: "每次迭代都有明确的反馈来源和改进标准"
-    framework_lens: "打磨需要方向"
-    follow_up_question: "这一轮的改动是基于用户反馈、数据还是自我审美判断？"
-  - signal: "能以长期心态（如10年）看待能力提升，而不是追求速成"
-    framework_lens: "真本事需要时间复利"
-    follow_up_question: "如果这件事要做10年，你现在的节奏是否可持续？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '把产品迭代看作从60分到85分再到90分的持续过程，而不是一次交付', 'framework_lens': '无限进步 = 持续打磨', 'follow_up_question': '你这个月的产品/作品比上个月好在哪？'}
+  - {'signal': '每次迭代都有明确的反馈来源和改进标准', 'framework_lens': '打磨需要方向', 'follow_up_question': '这一轮的改动是基于用户反馈、数据还是自我审美判断？'}
+  - {'signal': '能以长期心态（如10年）看待能力提升，而不是追求速成', 'framework_lens': '真本事需要时间复利', 'follow_up_question': '如果这件事要做10年，你现在的节奏是否可持续？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 泛产品设计落地篇：无限进步与持续打磨

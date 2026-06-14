@@ -1,38 +1,40 @@
 ---
-id: skill-ai-research-five-steps
+id: "skill-ai-research-five-steps"
 title: "技能：AI调研五步法"
-type: skill
-status: draft
+type: "skill"
+status: "draft"
 domain:
-  - AI
-  - 调研
-  - 信息素养
-source_person: 半肥猫
-source_context: AI俱乐部-AI学习落地-口述，2026-06-06
+  - "AI"
+  - "调研"
+  - "信息素养"
+source_person: "半肥猫"
+source_context: "AI俱乐部-AI学习落地-口述，2026-06-06"
 source_refs:
-  - src_20260606_90b44191
+  - "src_20260606_90b44191"
 wiki_refs:
-  - ai-learning-closed-loop
-  - master-ai-info-literacy
+  - "ai-learning-closed-loop"
+  - "master-ai-info-literacy"
 definition_of_done:
-  - 每次调研走完5步
-  - 输出含"事实/推理"标注
-  - 至少1处被标注为"推理待验证"
+  - "每次调研走完5步"
+  - "输出含"事实/推理"标注"
+  - "至少1处被标注为"推理待验证""
 tools_required:
-  - 任意AI对话工具（Claude/ChatGPT/Kimi）
-  - 搜索引擎（交叉验证用）
-prerequisite_skills: []
-related: []
+  - "任意AI对话工具（Claude/ChatGPT/Kimi）"
+  - "搜索引擎（交叉验证用）"
+prerequisite_skills:
+related:
 created_at: 2026-06-11
 updated_at: 2026-06-11
 tags:
-  - #domain/AI
-  - #method/checklist
-  - #tool/LLM
+  - None
+  - None
+  - None
 pipeline:
-  - #skill-type/execution
+  - None
 reviewed_by: "laowantong"
-author: legacy
+author: "legacy"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：AI调研五步法

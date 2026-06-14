@@ -3,7 +3,7 @@ id: "dk-p14-zombie"
 title: "P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_person: "system"
@@ -18,17 +18,19 @@ contradicts:
   - "master-systems-thinking"
   - "master-decision-hygiene"
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/ai-collaboration
-  - #scene/knowledge-management
-  - #scene/learning-methodology
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #source_type/error
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环

@@ -1,5 +1,4 @@
 ---
-
 id: "dk-ef-004-missing-diagnostic-firmware"
 title: "没有诊断固件就是盲调：你不知道信号卡在哪一级"
 type: "dark-knowledge"
@@ -15,20 +14,21 @@ related:
   - "dk-ef-002-bom-version-async"
   - "dk-ef-003-hand-soldering-bom-divergence"
 tags:
-  - #domain/electronics
-  - #firmware/diagnostics
-  - #hardware/debugging
-  - #scene/business-analysis
-  - #scene/hardware-debugging/diagnostics
-  - #scene/hardware-debugging/level-shift
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/single-use-only
-  - #source_type/dark-knowledge
-  - confidence-source-cited
-
-domain: []
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-source-cited"
+domain:
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.75
+trust_level: "medium"
 ---
 
 # 没有诊断固件就是盲调：你不知道信号卡在哪一级

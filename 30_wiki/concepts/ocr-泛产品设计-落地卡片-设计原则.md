@@ -5,22 +5,24 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_9eaf7399"
-status: enriched
+status: "enriched"
 title: "OCR: 泛产品设计-落地卡片-设计原则"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/ai-collaboration
-  - #scene/learning-methodology/feedback-loop
-  - #scene/product-design
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 泛产品设计-落地卡片-设计原则

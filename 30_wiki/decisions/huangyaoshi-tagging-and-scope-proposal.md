@@ -1,21 +1,23 @@
 ---
-id: huangyaoshi-tagging-and-scope-proposal
+id: "huangyaoshi-tagging-and-scope-proposal"
 title: "黄药师：数据标签方案 + 暗知识全量范围"
-type: decision
-status: draft
+type: "decision"
+status: "draft"
 domain:
-  - master
+  - "master"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 target_roles:
-  - 欧阳锋（Architect）
-  - 用户（决策者）
+  - "欧阳锋（Architect）"
+  - "用户（决策者）"
 related:
-  - plan_20260531_data-curator-v1.3
-  - tag-registry
-  - data-curator-role-division
-author: legacy
-reviewed_by: pending
+  - "plan_20260531_data-curator-v1.3"
+  - "tag-registry"
+  - "data-curator-role-division"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 标签方案 + 暗知识全量范围

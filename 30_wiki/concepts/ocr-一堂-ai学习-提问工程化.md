@@ -1,18 +1,19 @@
 ---
-
 title: "OCR: 一堂-AI学习-提问工程化"
 type: "concept"
-status: enriched
-source_refs: [src_20260609_62f76551]
+status: "enriched"
+source_refs:
+  - "src_20260609_62f76551"
 created_at: "2026-06-09T14:03:49+00:00"
 updated_at: "2026-06-09T14:26:18+00:00"
 tags:
-  - #domain/general
-
-domain: []
+  - None
+domain:
 id: "ocr-一堂-ai学习-提问工程化"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 

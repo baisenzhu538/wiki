@@ -1,21 +1,23 @@
 ---
-id: three-party-data-alignment
+id: "three-party-data-alignment"
 title: "三方认知对齐：KDO 数据管线 6+1 框架"
-type: decision
-status: draft
+type: "decision"
+status: "draft"
 domain:
-  - master
+  - "master"
 tags:
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 target_roles:
-  - 欧阳锋（Architect）
-  - 黄药师（Builder）
-  - 用户（决策者）
-author: legacy
-reviewed_by: pending
+  - "欧阳锋（Architect）"
+  - "黄药师（Builder）"
+  - "用户（决策者）"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 三方认知对齐：KDO 数据管线 6+1 框架

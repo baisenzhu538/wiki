@@ -29,37 +29,36 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践建模.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·审美卡片：最佳实践建模"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "intermediate"
 tags:
-  - #aesthetics
-  - #best-practices
-  - #pan-product-design
-  - #scene/hardware-debugging/prototyping
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #scene/product-design
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "在评价任何案例前先列出评价维度，并说明每个维度为何重要"
-    framework_lens: "审美白盒化：从感觉变为可分析"
-    follow_up_question: "如果删掉其中一个维度，你对案例质量的判断会明显变弱吗？"
-  - signal: "用同一套维度对多个案例打分，能解释分数差异背后的设计选择"
-    framework_lens: "模型让比较产生结构"
-    follow_up_question: "两个得分相近的案例，在设计取舍上有什么不同？"
-  - signal: "模型能预测一个新设计大概会落在什么质量区间"
-    framework_lens: "评价模型应具备生成性"
-    follow_up_question: "用模型评估一个你还没做的方案，它暴露的最大风险点是什么？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '在评价任何案例前先列出评价维度，并说明每个维度为何重要', 'framework_lens': '审美白盒化：从感觉变为可分析', 'follow_up_question': '如果删掉其中一个维度，你对案例质量的判断会明显变弱吗？'}
+  - {'signal': '用同一套维度对多个案例打分，能解释分数差异背后的设计选择', 'framework_lens': '模型让比较产生结构', 'follow_up_question': '两个得分相近的案例，在设计取舍上有什么不同？'}
+  - {'signal': '模型能预测一个新设计大概会落在什么质量区间', 'framework_lens': '评价模型应具备生成性', 'follow_up_question': '用模型评估一个你还没做的方案，它暴露的最大风险点是什么？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 最佳实践建模：用评价维度打磨产品

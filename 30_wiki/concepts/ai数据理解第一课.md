@@ -1,7 +1,7 @@
 ---
 title: "AI数据理解第一课"
 type: "concept"
-status: enriched
+status: "enriched"
 domain:
   - "yitang"
 source_refs:
@@ -20,19 +20,21 @@ query_triggers:
   - "数据复利"
   - "投喂检索训练"
 tags:
-  - #scene/agent-infrastructure/skill-registry
-  - #scene/ai-collaboration/human-ai-division
-  - #scene/knowledge-management/atomization
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology
-  - #scene/note-taking/level-diagnosis
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - confidence-source-cited
+  - None
+  - "confidence-source-cited"
 id: "ai数据理解第一课"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # AI数据理解第一课

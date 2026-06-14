@@ -3,7 +3,7 @@ id: "dk-p19-quote-yaml"
 title: "P-19：花引号被YAML误解析为字符串定界符"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_person: "system"
@@ -18,17 +18,19 @@ contradicts:
   - "kdo-yaml-frontmatter-safety"
   - "master-first-principles"
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/ai-collaboration
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #source_type/error
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # P-19：花引号被YAML误解析为字符串定界符

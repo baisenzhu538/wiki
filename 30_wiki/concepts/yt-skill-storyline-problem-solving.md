@@ -1,24 +1,19 @@
 ---
-id: yt-skill-storyline-problem-solving
-title: 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链
-domain: [yitang]
+id: "yt-skill-storyline-problem-solving"
+title: "清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链"
+domain:
+  - "yitang"
 diagnostic_signals:
-  - signal: "是否用一句话精确描述问题（现状与期望 gap）"
-    framework_lens: "问题定义 / 诊断起点"
-    follow_up_question: "问题描述是否混入了预设原因或解决方案？"
-  - signal: "是否列出 ≥3 个可能原因并包含被排除项及排除证据"
-    framework_lens: "思维链透明 / 可学习性"
-    follow_up_question: "被否定的死胡同是否被隐藏，导致诊断不可复盘？"
-  - signal: "每个判断和方案是否标注置信度与关键假设"
-    framework_lens: "证据分级 / 假设管理"
-    follow_up_question: "假设被证伪时是否有返回重新诊断的机制？"
-  - signal: "在时效敏感场景下，是否避免过度追求完整性延误行动"
-    framework_lens: "行动阈值 / 成本权衡"
-    follow_up_question: "问题解决线是否变成'为写诊断而工作'的文档表演？"
-updated_at: '2026-06-13'
-author: legacy
-reviewed_by: pending
+  - {'signal': '是否用一句话精确描述问题（现状与期望 gap）', 'framework_lens': '问题定义 / 诊断起点', 'follow_up_question': '问题描述是否混入了预设原因或解决方案？'}
+  - {'signal': '是否列出 ≥3 个可能原因并包含被排除项及排除证据', 'framework_lens': '思维链透明 / 可学习性', 'follow_up_question': '被否定的死胡同是否被隐藏，导致诊断不可复盘？'}
+  - {'signal': '每个判断和方案是否标注置信度与关键假设', 'framework_lens': '证据分级 / 假设管理', 'follow_up_question': '假设被证伪时是否有返回重新诊断的机制？'}
+  - {'signal': '在时效敏感场景下，是否避免过度追求完整性延误行动', 'framework_lens': '行动阈值 / 成本权衡', 'follow_up_question': "问题解决线是否变成'为写诊断而工作'的文档表演？"}
+updated_at: "2026-06-13"
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.75
+trust_level: "medium"
 ---
 # 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链
 

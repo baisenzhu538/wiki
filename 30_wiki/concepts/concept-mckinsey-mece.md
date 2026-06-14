@@ -2,7 +2,7 @@
 id: "concept-mckinsey-mece"
 title: "MECE 原则：相互独立、完全究尽"
 type: "concept"
-status: draft
+status: "draft"
 domain:
   - "consulting"
   - "structured-thinking"
@@ -25,24 +25,20 @@ wiki_refs:
 created_at: "2026-06-11"
 updated_at: "2026-06-11"
 diagnostic_signals:
-  - trigger: "问题太复杂不知道从哪拆起"
-    framework_lens: "MECE 原则检查清单"
-    follow_up: "你当前的分类维度是什么？这些维度之间是否互不重叠、合起来是否覆盖了所有可能？"
-  - trigger: "团队讨论散乱无进展，每个人在说不同层面的东西"
-    framework_lens: "MECE 框架对齐"
-    follow_up: "如果用一个结构化框架强迫大家按同一维度发言，你会选什么维度？"
-  - trigger: "做完分析后觉得'完备但没有洞察'"
-    framework_lens: "L3→L4 逻辑链升级"
-    follow_up: "你的框架中格与格之间有没有因果/递进关系？还是只是并列罗列？"
+  - {'trigger': '问题太复杂不知道从哪拆起', 'framework_lens': 'MECE 原则检查清单', 'follow_up': '你当前的分类维度是什么？这些维度之间是否互不重叠、合起来是否覆盖了所有可能？'}
+  - {'trigger': '团队讨论散乱无进展，每个人在说不同层面的东西', 'framework_lens': 'MECE 框架对齐', 'follow_up': '如果用一个结构化框架强迫大家按同一维度发言，你会选什么维度？'}
+  - {'trigger': "做完分析后觉得'完备但没有洞察'", 'framework_lens': 'L3→L4 逻辑链升级', 'follow_up': '你的框架中格与格之间有没有因果/递进关系？还是只是并列罗列？'}
 tags:
-  - #domain/consulting
-  - #domain/structured-thinking
-  - #framework
-  - #evergreen
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # MECE 原则：相互独立、完全究尽

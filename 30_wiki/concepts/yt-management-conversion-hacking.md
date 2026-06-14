@@ -1,23 +1,20 @@
 ---
-
 title: "转化率黑客"
 type: "concept"
-status: enriched
-domain: []
+status: "enriched"
+domain:
 pipeline:
-  - confidence-source-cited
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "团队只改按钮颜色，不做系统优化"
-    framework_lens: "单点论"
-    follow_up_question: "你最近一次系统梳理了动力、阻力、触点三个维度吗？如果没有，只在单点优化"
-  - signal: "直接抄袭竞品方案，不考虑自己用户"
-    framework_lens: "抄袭论"
-    follow_up_question: "这个方案在你的用户场景下验证过吗？竞品的用户和你的用户可能不一样"
-updated_at: '2026-06-13'
+  - {'signal': '团队只改按钮颜色，不做系统优化', 'framework_lens': '单点论', 'follow_up_question': '你最近一次系统梳理了动力、阻力、触点三个维度吗？如果没有，只在单点优化'}
+  - {'signal': '直接抄袭竞品方案，不考虑自己用户', 'framework_lens': '抄袭论', 'follow_up_question': '这个方案在你的用户场景下验证过吗？竞品的用户和你的用户可能不一样'}
+updated_at: "2026-06-13"
 id: "yt-management-conversion-hacking"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.75
+trust_level: "medium-low"
 ---
 
 # 转化率黑客

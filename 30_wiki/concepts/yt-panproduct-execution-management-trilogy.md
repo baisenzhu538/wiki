@@ -29,38 +29,37 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-管理三段论.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·落地卡片：管理三段论"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "intermediate"
 tags:
-  - #execution
-  - #management
-  - #pan-product-design
-  - #scene/business-analysis
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #scene/product-design
-  - #scene/skill-engineering
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "讨论资源前，目标和路径已经被明确写出并得到共识"
-    framework_lens: "目标→路径→资源的顺序约束"
-    follow_up_question: "如果资源减半，你会先调目标还是调路径？"
-  - signal: "当资源不足时，会回头调整目标或路径，而不是硬凑资源"
-    framework_lens: "资源是约束，不是起点"
-    follow_up_question: "现有资源是否能支撑你设定的路径？如果不能，哪一步需要改变？"
-  - signal: "在执行中会根据新信息重新审视目标，而不是一味线性推进"
-    framework_lens: "管理三段论需要反馈环"
-    follow_up_question: "最近是否有新信息让原来的目标不再合理？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '讨论资源前，目标和路径已经被明确写出并得到共识', 'framework_lens': '目标→路径→资源的顺序约束', 'follow_up_question': '如果资源减半，你会先调目标还是调路径？'}
+  - {'signal': '当资源不足时，会回头调整目标或路径，而不是硬凑资源', 'framework_lens': '资源是约束，不是起点', 'follow_up_question': '现有资源是否能支撑你设定的路径？如果不能，哪一步需要改变？'}
+  - {'signal': '在执行中会根据新信息重新审视目标，而不是一味线性推进', 'framework_lens': '管理三段论需要反馈环', 'follow_up_question': '最近是否有新信息让原来的目标不再合理？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 管理三段论：业务管理有章可循

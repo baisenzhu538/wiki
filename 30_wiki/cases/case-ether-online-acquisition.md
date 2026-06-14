@@ -1,9 +1,8 @@
 ---
-
 id: "case-ether-online-acquisition"
 title: "案例：以太利用全网调研能力快速获客"
 type: "case"
-status: draft
+status: "draft"
 problem_domains:
   - "网上获客"
   - "商机发现"
@@ -42,10 +41,11 @@ related_concepts:
 related_cases: ""
 created_at: 2026-06-06
 updated_at: 2026-06-06
-
-domain: []
-author: legacy
-reviewed_by: pending
+domain:
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 案例：以太利用全网调研能力快速获客

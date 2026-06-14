@@ -2,7 +2,7 @@
 id: "skill-半肥猫-追问AI证据并标注信源"
 title: "技能：追问 AI 证据并标注信源"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
 source_person: "半肥猫"
@@ -19,28 +19,29 @@ related:
   - "dk-半肥猫-silky-answer-warning"
   - "skill-纪浩-four-elements-validation"
 created_at: "2026-06-07"
-
 reviewed_by: "laowantong"
 updated_at: "2026-06-07"
 tags:
-  - #domain/ai-collaboration
-  - #scene/ai-collaboration/problem-validation
-  - #scene/business-analysis
-  - #scene/knowledge-management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #scene/skill-engineering/course-to-skill
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-creative
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
+  - None
+  - None
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：追问 AI 证据并标注信源

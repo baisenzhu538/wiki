@@ -17,41 +17,41 @@ query_triggers:
   - "调研行动营"
   - "调研行动营：从调研认知到AI调研武器库"
   - "调研黑客五步曲"
-related: []
+related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-创业-调研行动营口述01.md"
-status: enriched
+status: "enriched"
 title: "调研行动营：从调研认知到AI调研武器库"
 type: "tool"
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'action_camp'}
+yitang:
+  map: "entrepreneur"
+  module: "创业必修"
+  course_type: "action_camp"
 tags:
-  - #entrepreneurship
-  - #market-research
-  - #research
-  - #scene/business-analysis/conversion-rate
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/level-diagnosis
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "用户上完行动营但调研能力没提升"
-    framework_lens: "课程没有转化为练习"
-    follow_up_question: "你上完行动营后做了几次真实调研练习？如果没有>3次，能力不会提升"
-  - signal: "用户只学AI工具，不提升调研认知"
-    framework_lens: "三轮学习失衡"
-    follow_up_question: "你能解释为什么要用这个AI工具吗？如果只是为了效率，调研认知没提升"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户上完行动营但调研能力没提升', 'framework_lens': '课程没有转化为练习', 'follow_up_question': '你上完行动营后做了几次真实调研练习？如果没有>3次，能力不会提升'}
+  - {'signal': '用户只学AI工具，不提升调研认知', 'framework_lens': '三轮学习失衡', 'follow_up_question': '你能解释为什么要用这个AI工具吗？如果只是为了效率，调研认知没提升'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 调研行动营：从调研认知到AI调研武器库

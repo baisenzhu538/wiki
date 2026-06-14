@@ -1,13 +1,14 @@
 ---
-
 id: "skill-Truman-AI时代提示词优化法"
 title: "技能：AI时代提示词优化法"
 type: "skill"
-status: draft
-domain: []
-author: legacy
-reviewed_by: pending
+status: "draft"
+domain:
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 技能：AI时代提示词优化法

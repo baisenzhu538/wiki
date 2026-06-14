@@ -3,7 +3,7 @@ id: "dk-yb3-diffusion-stepwise-vs-human-holistic"
 title: "AI生图'抽卡'本质：逐步拆解 vs 人类整体构思"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -16,15 +16,17 @@ related:
   - "dk-yb2-llm-muddy-clear-muddy"
 contradicts: ""
 tags:
-  - #domain/design
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/learning-methodology
+  - None
+  - None
+  - None
 pipeline:
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # AI生图"抽卡"本质：逐步拆解 vs 人类整体构思

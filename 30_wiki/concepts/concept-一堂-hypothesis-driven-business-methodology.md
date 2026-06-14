@@ -1,9 +1,8 @@
 ---
-
 id: "concept-一堂-hypothesis-driven-business-methodology"
 title: "一堂假设驱动型创业分析方法论"
 type: "concept"
-status: reviewed
+status: "reviewed"
 reviewed_by: "周伯通"
 domain:
   - "yitang"
@@ -36,27 +35,21 @@ definition_of_done:
   - "Synthesis 中每个 wikilink 后配有≥30字关联说明"
   - "案例区分度≥2类型"
 tags:
-  - #domain/yitang
-  - #domain/business-strategy
-  - #hypothesis-driven
-  - #product-kernel
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+  - "confidence-draft"
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "创业者说'我有个商业计划，需要投钱验证一下'"
-    framework_lens: "假设驱动检查：是否有拆解过关键假设？计划是建立在假设之上还是事实之上？"
-    follow_up_question: "你这个计划的哪个部分，如果错了，整个计划就不成立？你有没有办法花最小的成本先去验证这个部分？"
-  - signal: "团队开了三小时会，大家各说各的，争论不下"
-    framework_lens: "假设驱动检查：争论双方是否在验证不同的假设？还是同一个假设的不同维度？"
-    follow_up_question: "我们先把各自观点背后的假设写出来，看看哪个假设是关键假设——先验证它，争论自然解决"
-  - signal: "创业者说'我们上了某个功能/产品，但用户反应冷淡'"
-    framework_lens: "假设驱动检查：上线前是否验证过'用户需要这个功能'这个假设？"
-    follow_up_question: "上线这个功能之前，你对'用户会使用它'的信心从哪来？有没有做哪怕一份调查或访谈？"
-  - signal: "做了一年多业务，发现方向越走越偏"
-    framework_lens: "假设驱动检查：是否定期做过假设回顾？是否有些原始假设已经变化但没有被发现？"
-    follow_up_question: "你最初启动项目时最重要的 3 个假设，到现在为止，哪些被验证了，哪些被证伪了？"
-author: legacy
+  - {'signal': "创业者说'我有个商业计划，需要投钱验证一下'", 'framework_lens': '假设驱动检查：是否有拆解过关键假设？计划是建立在假设之上还是事实之上？', 'follow_up_question': '你这个计划的哪个部分，如果错了，整个计划就不成立？你有没有办法花最小的成本先去验证这个部分？'}
+  - {'signal': '团队开了三小时会，大家各说各的，争论不下', 'framework_lens': '假设驱动检查：争论双方是否在验证不同的假设？还是同一个假设的不同维度？', 'follow_up_question': '我们先把各自观点背后的假设写出来，看看哪个假设是关键假设——先验证它，争论自然解决'}
+  - {'signal': "创业者说'我们上了某个功能/产品，但用户反应冷淡'", 'framework_lens': "假设驱动检查：上线前是否验证过'用户需要这个功能'这个假设？", 'follow_up_question': "上线这个功能之前，你对'用户会使用它'的信心从哪来？有没有做哪怕一份调查或访谈？"}
+  - {'signal': '做了一年多业务，发现方向越走越偏', 'framework_lens': '假设驱动检查：是否定期做过假设回顾？是否有些原始假设已经变化但没有被发现？', 'follow_up_question': '你最初启动项目时最重要的 3 个假设，到现在为止，哪些被验证了，哪些被证伪了？'}
+author: "legacy"
+confidence: 0.85
+trust_level: "high"
 ---
 
 # 一堂假设驱动型创业分析方法论

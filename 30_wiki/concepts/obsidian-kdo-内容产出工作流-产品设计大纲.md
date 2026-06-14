@@ -5,24 +5,26 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260501_58b6edef"
-status: superseded
+status: "superseded"
 superseded_by: "30_wiki/concepts/kdo_product_design_agent_final.md"
 title: "Obsidian + KDO 内容产出工作流 — 产品设计大纲"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - #scene/ai-collaboration
-  - #scene/knowledge-management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/checklist-method
-  - #scene/product-design
-  - #scene/skill-engineering/eval-testing
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.75
+trust_level: "medium-low"
 ---
 
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲

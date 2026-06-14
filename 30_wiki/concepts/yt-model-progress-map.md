@@ -25,32 +25,31 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂进步大地图.png"
-status: enriched
+status: "enriched"
 title: "无限进步大地图"
 type: "framework"
-updated_at: 2026-05-08
+updated_at: "2026-06-13"
 version: 1
-yitang: {'map': 'system', 'module': '方法论总纲', 'course_type': 'model'}
+yitang:
+  map: "system"
+  module: "方法论总纲"
+  course_type: "model"
 tags:
-  - #core-model
-  - #methodology
-  - #progress-map
-  - #scene/knowledge-management
-  - #scene/note-taking/level-diagnosis
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "用户把无限进步大地图当收藏，但不知道今天该学什么"
-    framework_lens: "总图缺乏落地路径——地图太大，没有转化为当下的学习优先级"
-    follow_up_question: "你当前处在五段式架构的哪个阶段？如果答不上来，地图没有帮你定位"
-  - signal: "用户在快速上手阶段就焦虑自己还没开始无限修炼"
-    framework_lens: "阶段焦虑——把终局视角当成当前要求"
-    follow_up_question: "你进入这个体系多久了？如果<6个月，你的任务不是无限修炼，而是先跑通个人修炼的一个小闭环"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户把无限进步大地图当收藏，但不知道今天该学什么', 'framework_lens': '总图缺乏落地路径——地图太大，没有转化为当下的学习优先级', 'follow_up_question': '你当前处在五段式架构的哪个阶段？如果答不上来，地图没有帮你定位'}
+  - {'signal': '用户在快速上手阶段就焦虑自己还没开始无限修炼', 'framework_lens': '阶段焦虑——把终局视角当成当前要求', 'follow_up_question': '你进入这个体系多久了？如果<6个月，你的任务不是无限修炼，而是先跑通个人修炼的一个小闭环'}
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 一堂无限进步大地图·十年收藏版

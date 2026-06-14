@@ -2,22 +2,31 @@
 id: "skill-稀缺资源机会成本比对法"
 title: "技能：稀缺资源机会成本比对法"
 type: "skill"
-status: draft
-domain: []
+status: "draft"
+domain:
 source_person: "一堂课程"
 source_context: "src_20260609_44a9e79a"
-source_refs: [src_20260609_44a9e79a]
-wiki_refs: []
-definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工具要求明确]
-tools_required: [资源矩阵表, 项目组合管理工具, 简易评分卡]
-prerequisite_skills: []
-related: []
+source_refs:
+  - "src_20260609_44a9e79a"
+wiki_refs:
+definition_of_done:
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
+tools_required:
+  - "资源矩阵表"
+  - "项目组合管理工具"
+  - "简易评分卡"
+prerequisite_skills:
+related:
 created_at: "2026-06-09T15:09:00+00:00"
 updated_at: "2026-06-09T15:09:00+00:00"
 pipeline:
-  - #skill
-author: legacy
-reviewed_by: pending
+  - None
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：稀缺资源机会成本比对法

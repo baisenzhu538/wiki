@@ -2,7 +2,7 @@
 id: "skill-半肥猫-清洗资料为Markdown格式喂给AI"
 title: "技能：清洗资料为 Markdown 格式喂给 AI"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
 source_person: "半肥猫"
@@ -20,23 +20,24 @@ related:
   - "skill-半肥猫-按语义切分文档做向量化"
   - "dk-半肥猫-atomic-no-standard"
 created_at: "2026-06-07"
-
 reviewed_by: "laowantong"
 updated_at: "2026-06-07"
 tags:
-  - #domain/ai-collaboration
-  - #scene/ai-collaboration
-  - #scene/knowledge-management/atomization
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #scene/product-design
-  - #scene/skill-engineering/course-to-skill
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：清洗资料为 Markdown 格式喂给 AI

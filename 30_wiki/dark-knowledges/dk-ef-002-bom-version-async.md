@@ -1,5 +1,4 @@
 ---
-
 id: "dk-ef-002-bom-version-async"
 title: "BOM 多版本不同步：你手里的文件和产线手里的不是同一份"
 type: "dark-knowledge"
@@ -15,20 +14,21 @@ related:
   - "dk-ef-003-hand-soldering-bom-divergence"
   - "dk-ef-004-missing-diagnostic-firmware"
 tags:
-  - #domain/electronics
-  - #process/bom-management
-  - #process/version-control
-  - #scene/hardware-debugging/bom-management
-  - #scene/hardware-debugging/prototyping
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/single-use-only
-  - #source_type/dark-knowledge
-  - confidence-source-cited
-
-domain: []
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-source-cited"
+domain:
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.75
+trust_level: "medium"
 ---
 
 # BOM 多版本不同步：你手里的文件和产线手里的不是同一份

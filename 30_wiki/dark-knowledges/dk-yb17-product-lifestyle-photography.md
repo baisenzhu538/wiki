@@ -3,7 +3,7 @@ id: "dk-yb17-product-lifestyle-photography"
 title: "产品场景化拍摄：从商品到生活方式的升维"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -17,16 +17,18 @@ related:
   - "dk-yb19-visual-strategy-price-match"
 contradicts: ""
 tags:
-  - #domain/design
-  - #scene/business-analysis/conversion-rate
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-medical
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 产品场景化拍摄：从商品到生活方式的升维

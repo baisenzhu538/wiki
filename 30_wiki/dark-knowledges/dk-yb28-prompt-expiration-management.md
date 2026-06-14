@@ -3,7 +3,7 @@ id: "dk-yb28-prompt-expiration-management"
 title: "提示词有效期预期管理"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -16,17 +16,19 @@ related:
   - "dk-yb6-midjourney-chinese-text-fix"
 contradicts: ""
 tags:
-  - #domain/design
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/learning-methodology
-  - #scene/product-design/design-freeze
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 提示词有效期预期管理

@@ -3,7 +3,7 @@ id: "dk-yb12-ai-image-analysis-replace-training"
 title: "AI图像分析替代模型训练：快速提取参考图共性"
 type: "dark-knowledge"
 dark_knowledge_type: "workflow"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -17,16 +17,18 @@ related:
   - "dk-yb13-zero-shot-style-transfer"
 contradicts: ""
 tags:
-  - #domain/design
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/learning-methodology
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # AI图像分析替代模型训练：快速提取参考图共性

@@ -2,7 +2,7 @@
 id: "skill-月白-设计能力蒸馏封装法"
 title: "技能：设计能力蒸馏封装法"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -19,17 +19,19 @@ related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 tags:
-  - #domain/AI
-  - #domain/design
-  - #scene/ai-collaboration/human-ai-division
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/learning-methodology/feedback-loop
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-draft
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 技能：设计能力蒸馏封装法

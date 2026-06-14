@@ -2,7 +2,7 @@
 id: "skill-月白-AI生成棉花娃娃形象"
 title: "技能：AI生成棉花娃娃形象"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -19,16 +19,18 @@ related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 tags:
-  - #domain/general
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/hardware-debugging/prototyping
-  - #scene/learning-methodology/feedback-loop
-  - #scene/product-design
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 技能：AI生成棉花娃娃形象

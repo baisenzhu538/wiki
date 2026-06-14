@@ -5,20 +5,22 @@ domain:
   - "healthcare"
 source_refs:
   - "src_20260503_f4891888"
-status: enriched
+status: "enriched"
 title: "开源HIS系统代码深度分析报告"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - #scene/business-analysis
-  - #scene/note-taking/checklist-method
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # 开源HIS系统代码深度分析报告

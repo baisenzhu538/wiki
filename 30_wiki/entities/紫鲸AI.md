@@ -1,15 +1,13 @@
 ---
-
 title: "紫鲸AI"
-type: entity
-status: reviewed
-entity_type: product
-aliases: ["Zijing AI", "紫鲸AI智能体工作流平台"]
+type: "entity"
+status: "reviewed"
+entity_type: "product"
+aliases:
+  - "Zijing AI"
+  - "紫鲸AI智能体工作流平台"
 location: "Hangzhou, China"
-source_refs:
-id: 紫鲸AI
-  - "src_20260428_29929c1f"
-  - "src_20260501_4eee4e95"
+id: "紫鲸AI - "src_20260428_29929c1f" - "src_20260501_4eee4e95""
 created_at: "2026-05-03"
 updated_at: "2026-05-03"
 related:
@@ -21,12 +19,12 @@ tags:
   - "#content-marketing"
   - "#multi-agent"
   - "#brand-kg"
-trust_level: medium
+trust_level: "medium"
 reviewed_by: "黄药师"
 review_date: "2026-05-04"
-
-domain: []
-author: legacy
+domain:
+author: "legacy"
+confidence: 0.85
 ---
 
 # 紫鲸AI

@@ -1,17 +1,19 @@
 ---
-title: 'OCR: 一堂-单元模型-找单元模型实操难点'
-type: concept
-status: enriched
+title: "OCR: 一堂-单元模型-找单元模型实操难点"
+type: "concept"
+status: "enriched"
 source_refs:
-- src_20260609_c1af5767
-created_at: '2026-06-09T14:05:28+00:00'
-updated_at: '2026-06-13'
+  - "src_20260609_c1af5767"
+created_at: "2026-06-09T14:05:28+00:00"
+updated_at: "2026-06-13"
 tags:
-- null
-domain: []
+  - None
+domain:
 id: "ocr-一堂-单元模型-找单元模型实操难点"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 

@@ -1,17 +1,19 @@
 ---
-title: 'OCR: 一堂-单元模型-基准值'
-type: concept
-status: enriched
+title: "OCR: 一堂-单元模型-基准值"
+type: "concept"
+status: "enriched"
 source_refs:
-- src_20260609_dd7075c2
-created_at: '2026-06-09T14:05:27+00:00'
-updated_at: '2026-06-13'
+  - "src_20260609_dd7075c2"
+created_at: "2026-06-09T14:05:27+00:00"
+updated_at: "2026-06-13"
 tags:
-- null
-domain: []
+  - None
+domain:
 id: "ocr-一堂-单元模型-基准值"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 

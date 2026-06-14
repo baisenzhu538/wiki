@@ -1,37 +1,36 @@
 ---
-
-
-id: sk-ai-ai-workspace-setup
-title: 技能：结构化AI工作空间搭建
-type: skill
-status: draft
+id: "sk-ai-ai-workspace-setup"
+title: "技能：结构化AI工作空间搭建"
+type: "skill"
+status: "draft"
 domain:
-- AI
-source_person: 纪浩
-source_context: AI俱乐部-AI协作方法论分享，2026-06
+  - "ai-collaboration"
+source_person: "纪浩"
+source_context: "AI俱乐部-AI协作方法论分享，2026-06"
 source_refs:
-- src_20260606_42e11f09
+  - "src_20260606_42e11f09"
 wiki_refs:
-- structured-ai-workspace
-- sk-ai-problem-validation
+  - "structured-ai-workspace"
+  - "sk-ai-problem-validation"
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
 tags:
-- '#skill/ai'
-- '#method/workflow'
-created_at: '2026-06-06'
-updated_at: '2026-06-06'
+  - "#skill/ai"
+  - "#method/workflow"
+created_at: "2026-06-06"
+updated_at: "2026-06-06"
 tools_required:
-- 笔记本和笔
-prerequisite_skills: []
+  - "笔记本和笔"
+prerequisite_skills:
 related:
-- structured-ai-workspace
-- sk-ai-problem-validation
-domain: [ai-collaboration]
-author: legacy
-reviewed_by: pending
+  - "structured-ai-workspace"
+  - "sk-ai-problem-validation"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：结构化AI工作空间搭建

@@ -2,7 +2,7 @@
 id: "case-milktea-five-step"
 title: "奶茶店五步法：从九死一生到十年百店的科学创业之路"
 type: "case"
-status: reviewed
+status: "reviewed"
 domain:
   - "product"
   - "yitang"
@@ -20,14 +20,16 @@ wiki_refs:
   - "concept-一堂-hypothesis-driven-business-methodology"
   - "concept-一堂-key-assumptions"
 tags:
-  - #domain/product
-  - #domain/yitang
-  - #scene/business-analysis/five-step
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-  - confidence-case-verified
-author: legacy
-reviewed_by: pending
+  - "confidence-source-cited"
+  - "confidence-case-verified"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.85
+trust_level: "high"
 ---
 
 # 奶茶店五步法：从九死一生到十年百店的科学创业之路

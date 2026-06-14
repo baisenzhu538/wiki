@@ -1,23 +1,20 @@
 ---
-
 title: "基本功认知"
 type: "concept"
-status: enriched
-domain: []
+status: "enriched"
+domain:
 pipeline:
-  - confidence-source-cited
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "管理者只学套路不学基本功"
-    framework_lens: "速成论"
-    follow_up_question: "你最近三个月刻意练习过哪项管理基本功？如果没有，学的是碎片招式"
-  - signal: "管理者把天赋当借口，不训练"
-    framework_lens: "天赋论"
-    follow_up_question: "你能说出管理行为的3个可训练动作单元吗？如果不能，你在用天赋当挡箭牌"
-updated_at: '2026-06-13'
+  - {'signal': '管理者只学套路不学基本功', 'framework_lens': '速成论', 'follow_up_question': '你最近三个月刻意练习过哪项管理基本功？如果没有，学的是碎片招式'}
+  - {'signal': '管理者把天赋当借口，不训练', 'framework_lens': '天赋论', 'follow_up_question': '你能说出管理行为的3个可训练动作单元吗？如果不能，你在用天赋当挡箭牌'}
+updated_at: "2026-06-13"
 id: "yt-management-basic-skills"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.75
+trust_level: "medium-low"
 ---
 
 # 基本功认知

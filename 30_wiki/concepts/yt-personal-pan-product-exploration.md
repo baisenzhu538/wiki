@@ -23,36 +23,35 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-泛产品设计探索营口述版.md"
-status: enriched
+status: "enriched"
 title: "泛产品设计探索营：案例启发与认知重构"
 type: "concept"
 version: 1
-yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'explore_camp', 'level': 'foundational'}
+yitang:
+  map: "personal"
+  module: "个人修炼"
+  course_type: "explore_camp"
+  level: "foundational"
 tags:
-  - #case-study
-  - #pan-product-design
-  - #scene/business-analysis/conversion-rate
-  - #scene/hardware-debugging/prototyping
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/live-field
-  - #scene/product-design
-  - #scene/skill-engineering
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - confidence-source-cited
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "能从案例中抽象出可迁移的认知，而不是只记住故事"
-    framework_lens: "案例是认知的载体"
-    follow_up_question: "这个案例如果去掉具体人名和公司，还剩下什么可复用的判断？"
-  - signal: "听完案例后会联想到自己经历的类似场景，并写出对应案例"
-    framework_lens: "案例学习需要个人化迁移"
-    follow_up_question: "你过去有没有遇到过类似困境？当时怎么处理的？"
-  - signal: "案例启发会转化为至少一个具体行动或研究问题"
-    framework_lens: "启发必须落地"
-    follow_up_question: "这个案例让你接下来要做什么不一样的事？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '能从案例中抽象出可迁移的认知，而不是只记住故事', 'framework_lens': '案例是认知的载体', 'follow_up_question': '这个案例如果去掉具体人名和公司，还剩下什么可复用的判断？'}
+  - {'signal': '听完案例后会联想到自己经历的类似场景，并写出对应案例', 'framework_lens': '案例学习需要个人化迁移', 'follow_up_question': '你过去有没有遇到过类似困境？当时怎么处理的？'}
+  - {'signal': '案例启发会转化为至少一个具体行动或研究问题', 'framework_lens': '启发必须落地', 'follow_up_question': '这个案例让你接下来要做什么不一样的事？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 泛产品设计探索营：案例启发与认知重构

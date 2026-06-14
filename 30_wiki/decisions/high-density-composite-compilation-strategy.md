@@ -1,15 +1,16 @@
 ---
-
 title: "高密度素材编译策略（修订）"
-type: decision
-status: revised
+type: "decision"
+status: "revised"
 version: "2.0"
 supersedes: "v1.0（复合编译方案，已废弃）"
-domain: []
+domain:
 id: "high-density-composite-compilation-strategy"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.75
+trust_level: "medium"
 ---
 
 # 高密度素材编译策略 v2.0

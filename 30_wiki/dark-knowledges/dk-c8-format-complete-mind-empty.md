@@ -3,7 +3,7 @@ id: "dk-c8-format-complete-mind-empty"
 title: "C-8：批处理格式升级产生格式完整但思维空洞的卡片"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_person: "欧阳锋"
@@ -16,19 +16,21 @@ related:
   - "dk-c10-batch-tool-no-dry-run"
   - "master-decision-hygiene"
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/hardware-debugging/prototyping
-  - #scene/knowledge-management/tagging
-  - #scene/skill-engineering/manifest-design
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #source_type/error
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # C-8：批处理格式升级产生格式完整但思维空洞的卡片

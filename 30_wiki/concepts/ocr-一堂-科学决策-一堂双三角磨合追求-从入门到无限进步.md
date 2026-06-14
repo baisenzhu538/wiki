@@ -5,24 +5,26 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_d96543bb"
-status: enriched
+status: "enriched"
 title: "OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/agent-infrastructure
-  - #scene/ai-collaboration/human-ai-division
-  - #scene/business-analysis
-  - #scene/learning-methodology
-  - #scene/product-design/design-freeze
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步

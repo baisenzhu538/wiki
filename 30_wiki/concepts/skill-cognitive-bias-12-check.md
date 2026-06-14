@@ -1,38 +1,40 @@
 ---
-id: skill-cognitive-bias-12-check
+id: "skill-cognitive-bias-12-check"
 title: "技能：12种认知偏差完整自检"
-type: skill
-status: draft
+type: "skill"
+status: "draft"
 domain:
-  - 决策
-  - 认知
-  - 心理学
-source_person: 消化全库后提炼
-source_context: 基于master-cognitive-bias-checklist框架提炼，2026-05-18
+  - "决策"
+  - "认知"
+  - "心理学"
+source_person: "消化全库后提炼"
+source_context: "基于master-cognitive-bias-checklist框架提炼，2026-05-18"
 source_refs:
-  - {"来源": "消化全库后提炼"}
+  - {'来源': '消化全库后提炼'}
 wiki_refs:
-  - master-cognitive-bias-checklist
-  - master-decision-hygiene
+  - "master-cognitive-bias-checklist"
+  - "master-decision-hygiene"
 definition_of_done:
-  - 每次自检12个问题全部回答
-  - 至少发现1个"是"并执行了修复
-  - 能说出"我可能的偏差是X"
+  - "每次自检12个问题全部回答"
+  - "至少发现1个"是"并执行了修复"
+  - "能说出"我可能的偏差是X""
 tools_required:
-  - 无（纯思维工具）
-  - 一张纸/电子表格（记录用）
-prerequisite_skills: []
-related: []
+  - "无（纯思维工具）"
+  - "一张纸/电子表格（记录用）"
+prerequisite_skills:
+related:
 created_at: 2026-06-11
 updated_at: 2026-06-11
 tags:
-  - #domain/decision
-  - #method/checklist
-  - #tool/brain
+  - None
+  - None
+  - None
 pipeline:
-  - #skill-type/validation
+  - None
 reviewed_by: "laowantong"
-author: legacy
+author: "legacy"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：12种认知偏差完整自检

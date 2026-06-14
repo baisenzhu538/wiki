@@ -5,22 +5,24 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_53341e5a"
-status: enriched
+status: "enriched"
 title: "OCR: 一堂Y模型实操工作流"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/ai-collaboration/pdca-execution
-  - #scene/hardware-debugging/prototyping
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/live-field
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 一堂Y模型实操工作流

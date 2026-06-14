@@ -5,17 +5,19 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_38173b48"
-status: enriched
+status: "enriched"
 title: "Design / Ai Image Generation"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/agent-infrastructure
-  - #scene/ai-collaboration
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # Design / Ai Image Generation

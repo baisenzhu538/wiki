@@ -3,7 +3,7 @@ id: "dk-p20-bigram-fail"
 title: "P-20：pre-screen bigram 匹配对中文文本完全失效"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_person: "system"
@@ -18,18 +18,20 @@ contradicts:
   - "master-ai-info-literacy"
   - "master-first-principles"
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/agent-infrastructure/skill-registry
-  - #scene/ai-collaboration
-  - #scene/learning-methodology
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #source_type/error
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # P-20：pre-screen bigram 匹配对中文文本完全失效

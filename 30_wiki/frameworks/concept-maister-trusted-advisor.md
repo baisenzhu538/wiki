@@ -2,7 +2,7 @@
 id: "concept-maister-trusted-advisor"
 title: "Trusted Advisor：可信顾问信任模型"
 type: "framework"
-status: draft
+status: "draft"
 domain:
   - "consulting"
   - "yitang"
@@ -10,28 +10,13 @@ source_refs:
   - "Maister, D. H., Green, C. H., & Galford, R. M. (2000). *The Trusted Advisor*. Free Press."
   - "Maister, D. H. (1997). 'True Professionalism'. Free Press."
 bridges_to:
-  - target: "diag_20250611_consulting-skills-research"
-    relation: "provides_foundation_for"
-    description: "Trusted Advisor 是王语嬏'可信顾问'角色定位的理论支撑"
-    context: "王语嬏诊断记录认为 KDO 知识工厂缺少可信顾问理论支撑卡，本卡填补这个缺口"
-  - target: "yt-product-kernel-three-questions"
-    relation: "complements"
-    description: "产品内核三问需要诊断者获得用户信任，Trusted Advisor 提供建立信任的具体路径"
-    context: "产品内核诊断中，用户不愿意说出真实痛点，Trusted Advisor 模型能解释为什么"
-  - target: "yt-entrepreneur-five-step-method"
-    relation: "applies_to"
-    description: "五步法的需求分析环节需要创业者成为自己团队的 Trusted Advisor"
-    context: "创始人在团队内部做需求调研，同样需要信任关系，否则得不到真实反馈"
+  - {'target': 'diag_20250611_consulting-skills-research', 'relation': 'provides_foundation_for', 'description': "Trusted Advisor 是王语嬏'可信顾问'角色定位的理论支撑", 'context': '王语嬏诊断记录认为 KDO 知识工厂缺少可信顾问理论支撑卡，本卡填补这个缺口'}
+  - {'target': 'yt-product-kernel-three-questions', 'relation': 'complements', 'description': '产品内核三问需要诊断者获得用户信任，Trusted Advisor 提供建立信任的具体路径', 'context': '产品内核诊断中，用户不愿意说出真实痛点，Trusted Advisor 模型能解释为什么'}
+  - {'target': 'yt-entrepreneur-five-step-method', 'relation': 'applies_to', 'description': '五步法的需求分析环节需要创业者成为自己团队的 Trusted Advisor', 'context': '创始人在团队内部做需求调研，同样需要信任关系，否则得不到真实反馈'}
 diagnostic_signals:
-  - signal: "用户说'我该怎么做？'但其实连自己的真实困境都没说清楚"
-    framework_lens: "Trusted Advisor 检查：信任度还不足以支撑建议输出"
-    follow_up_question: "目前我们还在了解情况的阶段，为什么这个问题对你来说是最紧急的？"
-  - signal: "用户说'你说的我都懂，但我还是想自己做'"
-    framework_lens: "Trusted Advisor 检查：Self-Orientation 可能过高，对方感觉你在推销而非帮忙"
-    follow_up_question: "如果我现在完全站在你的立场，你会怎么做？这和我刚才的建议相比，差在哪里？"
-  - signal: "用户一开始就问'我该买什么服务/课程？'"
-    framework_lens: "Trusted Advisor 检查：关系还在最低层次（Vendor/Seller），需要先抬升到诊断和信任层次"
-    follow_up_question: "在讨论解决方案之前，我们能先花 10 分钟把你的具体情况和目标理清吗？"
+  - {'signal': "用户说'我该怎么做？'但其实连自己的真实困境都没说清楚", 'framework_lens': 'Trusted Advisor 检查：信任度还不足以支撑建议输出', 'follow_up_question': '目前我们还在了解情况的阶段，为什么这个问题对你来说是最紧急的？'}
+  - {'signal': "用户说'你说的我都懂，但我还是想自己做'", 'framework_lens': 'Trusted Advisor 检查：Self-Orientation 可能过高，对方感觉你在推销而非帮忙', 'follow_up_question': '如果我现在完全站在你的立场，你会怎么做？这和我刚才的建议相比，差在哪里？'}
+  - {'signal': "用户一开始就问'我该买什么服务/课程？'", 'framework_lens': 'Trusted Advisor 检查：关系还在最低层次（Vendor/Seller），需要先抬升到诊断和信任层次', 'follow_up_question': '在讨论解决方案之前，我们能先花 10 分钟把你的具体情况和目标理清吗？'}
 related:
   - "concept-mckinsey-mece"
   - "concept-mckinsey-issue-tree"
@@ -47,8 +32,10 @@ tags:
   - "#method/checklist"
 created_at: "2026-06-11"
 updated_at: "2026-06-11"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # Trusted Advisor：可信顾问信任模型

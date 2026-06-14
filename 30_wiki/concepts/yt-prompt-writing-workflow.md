@@ -2,7 +2,7 @@
 id: "yt-prompt-writing-workflow"
 title: "AI写作工作流：大纲→要点→全文"
 type: "tool"
-status: enriched
+status: "enriched"
 domain:
   - "yitang"
   - "ai"
@@ -28,29 +28,24 @@ query_triggers:
 created_at: "2026-05-13"
 estimated_tokens: 2000
 tags:
-  - #ai
-  - #prompt-engineering
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/business-analysis
-  - #writing
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "写作前会先磨大纲，并让AI出多版结构供选择"
-    framework_lens: "大纲有杠杆效应"
-    follow_up_question: "你的大纲改了之后，整篇文章的论证路径会不会变？"
-  - signal: "大纲确认后逐段展开要点，再扩写为全文"
-    framework_lens: "分层写作避免空洞"
-    follow_up_question: "每一段的核心要点是否在你展开前就已经确定？"
-  - signal: "AI生成的全文会经过人工加入具体案例、判断和风格调整"
-    framework_lens: "AI出骨架，人出灵魂"
-    follow_up_question: "你在这篇文章中加入的独家信息占多少比例？"
-updated_at: '2026-06-13'
-author: legacy
-reviewed_by: pending
+  - {'signal': '写作前会先磨大纲，并让AI出多版结构供选择', 'framework_lens': '大纲有杠杆效应', 'follow_up_question': '你的大纲改了之后，整篇文章的论证路径会不会变？'}
+  - {'signal': '大纲确认后逐段展开要点，再扩写为全文', 'framework_lens': '分层写作避免空洞', 'follow_up_question': '每一段的核心要点是否在你展开前就已经确定？'}
+  - {'signal': 'AI生成的全文会经过人工加入具体案例、判断和风格调整', 'framework_lens': 'AI出骨架，人出灵魂', 'follow_up_question': '你在这篇文章中加入的独家信息占多少比例？'}
+updated_at: "2026-06-13"
+author: "legacy"
+reviewed_by: "pending"
+trust_level: "medium-high"
 ---
 
 # AI 写作工作流：大纲→要点→全文

@@ -3,7 +3,7 @@ id: "dk-yb30-ecommerce-channel-version"
 title: "电商渠道专版区分：淘宝≠拼多多"
 type: "dark-knowledge"
 dark_knowledge_type: "insight"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -14,15 +14,16 @@ created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - "dk-yb21-ecommerce-pricing-independent-model"
-contradicts:
 tags:
-  - #domain/design
+  - None
 pipeline:
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 电商渠道专版区分：淘宝≠拼多多

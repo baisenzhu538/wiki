@@ -1,17 +1,19 @@
 ---
-title: 'OCR: 一堂-单元模型-象限分析法'
-type: concept
-status: enriched
+title: "OCR: 一堂-单元模型-象限分析法"
+type: "concept"
+status: "enriched"
 source_refs:
-- src_20260609_e5bcd951
-created_at: '2026-06-09T14:05:51+00:00'
-updated_at: '2026-06-13'
+  - "src_20260609_e5bcd951"
+created_at: "2026-06-09T14:05:51+00:00"
+updated_at: "2026-06-13"
 tags:
-- null
-domain: []
+  - None
+domain:
 id: "ocr-一堂-单元模型-象限分析法"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 

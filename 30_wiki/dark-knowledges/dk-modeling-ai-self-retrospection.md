@@ -3,7 +3,7 @@ id: "dk-modeling-ai-self-retrospection"
 title: "AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单"
 type: "dark-knowledge"
 dark_knowledge_type: "workflow"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "ai-saas"
@@ -25,10 +25,11 @@ tags:
   - "#domain/ai-saas"
   - "#method/ai-collaboration"
   - "#method/retrospective"
-trust_level: high
+trust_level: "high"
 reviewed_by: "老顽童"
 review_date: "2026-06-14"
-author: legacy
+author: "legacy"
+confidence: 0.7
 ---
 
 # AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单

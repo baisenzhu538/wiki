@@ -16,36 +16,36 @@ query_triggers:
   - "知识体系定位"
   - "科学提问刻意练习地图"
   - "通用工具箱"
-related: []
+related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-课程地图精华串讲.md"
   - "10_raw/assets/yitang/一堂-个人修炼-科学提问刻意练习.png"
-status: enriched
+status: "enriched"
 title: "科学提问刻意练习地图"
 type: "framework"
 version: 1
-yitang: {'map': 'personal', 'module': '提问能力', 'course_type': 'model'}
+yitang:
+  map: "personal"
+  module: "提问能力"
+  course_type: "model"
 tags:
-  - #deliberate-practice
-  - #questioning
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/checklist-method
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "用户不知道自己在提问能力的哪个段位"
-    framework_lens: "无段位诊断"
-    follow_up_question: "按四领域×三级难度矩阵，你在哪个格子？如果答不出，没有段位意识"
-  - signal: "用户只在舒适区提问，不挑战更难场景"
-    framework_lens: "不进入非舒适区"
-    follow_up_question: "你最近一次处理Level 3难度的提问场景是什么时候？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户不知道自己在提问能力的哪个段位', 'framework_lens': '无段位诊断', 'follow_up_question': '按四领域×三级难度矩阵，你在哪个格子？如果答不出，没有段位意识'}
+  - {'signal': '用户只在舒适区提问，不挑战更难场景', 'framework_lens': '不进入非舒适区', 'follow_up_question': '你最近一次处理Level 3难度的提问场景是什么时候？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 科学提问刻意练习地图

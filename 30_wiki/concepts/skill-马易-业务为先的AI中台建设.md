@@ -2,8 +2,9 @@
 id: "skill-马易-业务为先的AI中台建设"
 title: "技能：业务为先的AI中台建设"
 type: "skill"
-status: enriched
-domain: ["ai-implementation"]
+status: "enriched"
+domain:
+  - "ai-implementation"
 source_person: "马易"
 source_context: "AI落地场景识别"
 source_refs: ""
@@ -14,8 +15,11 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "有真实失败案例"
-tools_required: ["基础AI工具（ChatGPT/Claude等）", "现有业务系统", "简单自动化脚本"]
-prerequisite_skills: []
+tools_required:
+  - "基础AI工具（ChatGPT/Claude等）"
+  - "现有业务系统"
+  - "简单自动化脚本"
+prerequisite_skills:
 related:
   - "skill-马易-数据存储架构选择"
   - "yt-entrepreneur-pragmatic-startup"
@@ -24,12 +28,13 @@ updated_at: "2026-06-11"
 reviewed_by: "黄药师"
 confidence: 0.85
 tags:
-  - #domain/AI
-  - #scene/ai-collaboration
-  - #scene/ai-implementation
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-author: legacy
+  - "confidence-source-cited"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 技能：业务为先的AI中台建设

@@ -2,7 +2,7 @@
 id: "dk-signal-cluster-illusion"
 title: "暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕"
 type: "dk"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "ai"
@@ -19,8 +19,10 @@ related:
   - "yt-ai-trend-12-signals"
   - "yt-three-dimension-opportunity-matrix"
   - "yt-foresight-probability-engineering"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕

@@ -2,7 +2,7 @@
 id: "dk-半肥猫-real-business-is-the-engine"
 title: "暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁"
 type: "dk"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -25,15 +25,17 @@ definition_of_done:
   - "常见失败模式已列出"
   - "案例已验证"
 tags:
-  - #domain/ai-collaboration
-  - #domain/yitang
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/product-design/requirement-analysis
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁

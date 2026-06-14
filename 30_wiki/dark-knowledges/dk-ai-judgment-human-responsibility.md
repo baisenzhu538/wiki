@@ -2,15 +2,17 @@
 id: "dk-ai-judgment-human-responsibility"
 title: "人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果"
 type: "dark-knowledge"
-status: draft
+status: "draft"
 domain:
   - "ai-saas"
   - "yitang"
 source_refs:
   - "00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt"
 created_at: "2026-06-09"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 人做判断AI做生产：核心不是会不会用AI

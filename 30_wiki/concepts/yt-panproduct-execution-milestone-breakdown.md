@@ -29,36 +29,35 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-里程碑拆解.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·落地卡片：里程碑拆解"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "intermediate"
 tags:
-  - #execution
-  - #pan-product-design
-  - #project-management
-  - #scene/hardware-debugging/prototyping
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/product-design
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "每个里程碑都有可验证的交付物和通过标准"
-    framework_lens: "里程碑是可验证的中间节点"
-    follow_up_question: "到达这个里程碑时，谁能仅凭交付物判断它是否完成？"
-  - signal: "里程碑之间的依赖关系被显式标注"
-    framework_lens: "顺序背后是约束"
-    follow_up_question: "如果前一个里程碑延迟，哪些后续里程碑必须顺延？"
-  - signal: "在关键里程碑处设置了风险缓冲或检查点"
-    framework_lens: "不确定性需要缓冲"
-    follow_up_question: "这个里程碑的日期是乐观估计还是包含缓冲？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '每个里程碑都有可验证的交付物和通过标准', 'framework_lens': '里程碑是可验证的中间节点', 'follow_up_question': '到达这个里程碑时，谁能仅凭交付物判断它是否完成？'}
+  - {'signal': '里程碑之间的依赖关系被显式标注', 'framework_lens': '顺序背后是约束', 'follow_up_question': '如果前一个里程碑延迟，哪些后续里程碑必须顺延？'}
+  - {'signal': '在关键里程碑处设置了风险缓冲或检查点', 'framework_lens': '不确定性需要缓冲', 'follow_up_question': '这个里程碑的日期是乐观估计还是包含缓冲？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 里程碑拆解：主动设定交付中间节点

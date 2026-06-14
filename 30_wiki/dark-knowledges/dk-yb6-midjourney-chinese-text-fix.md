@@ -3,7 +3,7 @@ id: "dk-yb6-midjourney-chinese-text-fix"
 title: "Midjourney中文文字修复极简提示词"
 type: "dark-knowledge"
 dark_knowledge_type: "tool_usage"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -16,14 +16,16 @@ related:
   - "dk-yb4-nano-banana-style-reproduction"
 contradicts: ""
 tags:
-  - #domain/design
-  - #scene/ai-collaboration/prompt-engineering
+  - None
+  - None
 pipeline:
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # Midjourney中文文字修复极简提示词

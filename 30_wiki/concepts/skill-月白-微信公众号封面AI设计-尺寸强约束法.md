@@ -2,7 +2,7 @@
 id: "skill-月白-微信公众号封面AI设计-尺寸强约束法"
 title: "技能：微信公众号封面AI设计-尺寸强约束法"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -19,15 +19,17 @@ related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 tags:
-  - #domain/design
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/learning-methodology/feedback-loop
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 技能：微信公众号封面AI设计-尺寸强约束法

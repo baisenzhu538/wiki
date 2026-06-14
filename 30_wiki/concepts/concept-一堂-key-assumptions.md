@@ -1,9 +1,8 @@
 ---
-
 id: "concept-一堂-key-assumptions"
 title: "关键假设思维：259工具与假设驱动的创业方法"
 type: "concept"
-status: reviewed
+status: "reviewed"
 reviewed_by: "周伯通"
 domain:
   - "product"
@@ -22,13 +21,15 @@ wiki_refs:
   - "concept-一堂-hypothesis-driven-business-methodology"
   - "concept-一堂-product-kernel"
 tags:
-  - #domain/product
-  - #domain/yitang
-  - #scene/business-analysis/hypothesis
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+confidence: 0.85
+trust_level: "high"
 ---
 
 # 关键假设思维：259工具与假设驱动的创业方法

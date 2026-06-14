@@ -16,38 +16,38 @@ query_triggers:
   - "刻意练习十年成长指数：为什么有人一年顶十年"
   - "四要素诊断矩阵"
   - "成长曲线三种状态"
-related: []
+related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂刻意练习十年成长指数.png"
-status: enriched
+status: "enriched"
 title: "刻意练习十年成长指数：为什么有人一年顶十年"
 type: "framework"
 version: 1
-yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'framework'}
+yitang:
+  map: "personal"
+  module: "个人修炼"
+  course_type: "framework"
 tags:
-  - #deliberate-practice
-  - #growth-index
-  - #personal-growth
-  - #scene/business-analysis
-  - #scene/knowledge-management
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/level-diagnosis
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-creative
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "用户每天都在练习，但十年没有明显进步"
-    framework_lens: "低端重复——练习不在能力边界，只是熟练度重复"
-    follow_up_question: '你最近三个月的练习内容，有多少是"已经会了的"？如果>70%，你在低端重复'
-  - signal: "用户只学新套路，从不在非舒适区练习"
-    framework_lens: "套路囤积——固定套路需要配合非舒适区才能转化为成长"
-    follow_up_question: '你最近一次练习时感到"有点难但还能完成"是什么时候？如果超过两周，说明没进非舒适区'
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户每天都在练习，但十年没有明显进步', 'framework_lens': '低端重复——练习不在能力边界，只是熟练度重复', 'follow_up_question': '你最近三个月的练习内容，有多少是"已经会了的"？如果>70%，你在低端重复'}
+  - {'signal': '用户只学新套路，从不在非舒适区练习', 'framework_lens': '套路囤积——固定套路需要配合非舒适区才能转化为成长', 'follow_up_question': '你最近一次练习时感到"有点难但还能完成"是什么时候？如果超过两周，说明没进非舒适区'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 刻意练习十年成长指数：为什么有人一年顶十年

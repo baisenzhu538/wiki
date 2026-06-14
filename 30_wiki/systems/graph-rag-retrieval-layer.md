@@ -1,21 +1,18 @@
 ---
-
 title: "Graph RAG 检索层技术说明"
 author: "审查者欧阳锋"
 role: "知识架构师 (Knowledge Architect)"
 created_at: "2026-05-04"
 updated_at: "2026-05-04"
-status: stable
+status: "stable"
 implementor: "黄药师 (Builder)"
-dependencies:
-id: graph-rag-retrieval-layer
-type: concept
-  - "LightRAG 库（pip install lightrag）"
-  - ".kdo/graph_index/（LightRAG 产出物）"
+id: "graph-rag-retrieval-layer"
+type: "concept - "LightRAG 库（pip install lightrag）" - ".kdo/graph_index/（LightRAG 产出物）""
 superseded_design: "v0.1 keyword-based — 原计划基于 index.json 的纯标准库方案，因黄药师已完成 LightRAG MVP 且检索质量更优，该方案已废弃"
-
-domain: []
-reviewed_by: pending
+domain:
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "high"
 ---
 
 # Graph RAG 检索层技术说明

@@ -26,33 +26,30 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
   - "10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型-执行武器库.png"
-status: enriched
+status: "enriched"
 title: "超级武器库（元概念）"
 type: "concept"
 version: 1
 tags:
-  - #meta-concept
-  - #scene/business-analysis
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/level-diagnosis
-  - #scene/skill-engineering
-  - #yitang
-  - #框架设计
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "用户收藏了很多小抄，但实战中想不起来用"
-    framework_lens: "武器库没有内化为调用能力——收藏≠掌握"
-    follow_up_question: "你最近一次实战中主动调用了武器库中的哪一条？如果超过两周，说明没有建立调用习惯"
-  - signal: "用户把武器库当系统学习材料"
-    framework_lens: "误用——武器库是即查即用，不是教材"
-    follow_up_question: "你现在是想系统学习这个方法，还是想在具体场景中快速调用？如果是前者，不要从武器库开始"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户收藏了很多小抄，但实战中想不起来用', 'framework_lens': '武器库没有内化为调用能力——收藏≠掌握', 'follow_up_question': '你最近一次实战中主动调用了武器库中的哪一条？如果超过两周，说明没有建立调用习惯'}
+  - {'signal': '用户把武器库当系统学习材料', 'framework_lens': '误用——武器库是即查即用，不是教材', 'follow_up_question': '你现在是想系统学习这个方法，还是想在具体场景中快速调用？如果是前者，不要从武器库开始'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 超级武器库（元概念）

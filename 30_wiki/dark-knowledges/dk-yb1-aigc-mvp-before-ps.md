@@ -3,7 +3,7 @@ id: "dk-yb1-aigc-mvp-before-ps"
 title: "设计师AIGC工作流：先跑MVP再开PS"
 type: "dark-knowledge"
 dark_knowledge_type: "workflow"
-status: draft
+status: "draft"
 domain:
   - "design"
   - "ai-collaboration"
@@ -19,17 +19,19 @@ related:
   - "yt-entrepreneur-lean-validation"
 contradicts: ""
 tags:
-  - #domain/design
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/hardware-debugging/bom-management
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 设计师AIGC工作流：先跑MVP再开PS

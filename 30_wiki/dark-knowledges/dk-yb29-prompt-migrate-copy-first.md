@@ -3,7 +3,7 @@ id: "dk-yb29-prompt-migrate-copy-first"
 title: "AIGC提示词迁移：先照搬再微调的务实策略"
 type: "dark-knowledge"
 dark_knowledge_type: "workflow"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -16,15 +16,17 @@ related:
   - "dk-yb1-aigc-mvp-before-ps"
 contradicts: ""
 tags:
-  - #domain/design
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/learning-methodology
+  - None
+  - None
+  - None
 pipeline:
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # AIGC提示词迁移：先照搬再微调的务实策略

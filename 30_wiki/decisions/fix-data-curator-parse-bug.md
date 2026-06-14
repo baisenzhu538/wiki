@@ -1,21 +1,23 @@
 ---
-id: fix-data-curator-parse-bug
+id: "fix-data-curator-parse-bug"
 title: "Data Curator Phase 2 Clean — parse_frontmatter 修复方案"
-type: improvement-plan
-status: pending
+type: "improvement-plan"
+status: "pending"
 domain:
-  - master
+  - "master"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 target_roles:
-  - 黄药师（Builder）
-reviewer: 欧阳锋（Architect）
+  - "黄药师（Builder）"
+reviewer: "欧阳锋（Architect）"
 related:
-  - plan_20260531_data-curator-v1
-  - gold-standard-manual-labels
-  - kdo-15-dimension-label-spec
-author: legacy
-reviewed_by: pending
+  - "plan_20260531_data-curator-v1"
+  - "gold-standard-manual-labels"
+  - "kdo-15-dimension-label-spec"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.75
+trust_level: "medium"
 ---
 
 # Data Curator Phase 2 Clean — parse_frontmatter 修复方案

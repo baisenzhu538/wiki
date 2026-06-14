@@ -2,7 +2,7 @@
 id: "dk-truman-document-is-real-project-is-fake"
 title: "文档是真的，项目是假的——面向过去建模型，面向未来解决问题"
 type: "dark-knowledge"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "personal-growth"
@@ -16,8 +16,10 @@ related:
   - "ai-learning-closed-loop"
 created_at: "2026-06-09"
 updated_at: "2026-06-09"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 文档是真的，项目是假的

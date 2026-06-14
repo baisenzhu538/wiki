@@ -22,35 +22,34 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂五步法画布.png"
   - "10_raw/assets/yitang/一堂五步法-产品内核画布.png"
-status: enriched
+status: "enriched"
 title: "五步法画布 × 产品内核画布：从假设到壁垒的实操工具"
 type: "framework"
-updated_at: 2026-05-11
+updated_at: "2026-06-13"
 version: 1
-yitang: {'map': 'entrepreneur', 'module': '创业必修', 'course_type': 'framework'}
+yitang:
+  map: "entrepreneur"
+  module: "创业必修"
+  course_type: "framework"
 tags:
-  - #entrepreneurship
-  - #five-step-method
-  - #product-core
-  - #scene/business-analysis
-  - #scene/hardware-debugging/prototyping
-  - #scene/knowledge-management/tagging
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "团队把五步法画布六个格子都填满了，但没人能说清楚当前最大的风险假设是什么"
-    framework_lens: "画布填成了清单但失去了焦点——六模块平均用力，没有识别出风险最大的假设"
-    follow_up_question: "如果只能验证一个模块的假设，你选哪个？为什么？"
-  - signal: "创业者说'产品内核画布填完了，但不知道和五步法画布怎么衔接'"
-    framework_lens: "两张画布的 zoom-in 关系没被激活——产品内核画布是解决方案模块的展开，但团队把它当成独立工具"
-    follow_up_question: "产品内核画布上的3-5条内核假设，对应五步法画布上哪个模块的哪条假设？如果对应不上，说明两张画布没有打通"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '团队把五步法画布六个格子都填满了，但没人能说清楚当前最大的风险假设是什么', 'framework_lens': '画布填成了清单但失去了焦点——六模块平均用力，没有识别出风险最大的假设', 'follow_up_question': '如果只能验证一个模块的假设，你选哪个？为什么？'}
+  - {'signal': "创业者说'产品内核画布填完了，但不知道和五步法画布怎么衔接'", 'framework_lens': '两张画布的 zoom-in 关系没被激活——产品内核画布是解决方案模块的展开，但团队把它当成独立工具', 'follow_up_question': '产品内核画布上的3-5条内核假设，对应五步法画布上哪个模块的哪条假设？如果对应不上，说明两张画布没有打通'}
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 五步法画布 × 产品内核画布：从假设到壁垒的实操工具

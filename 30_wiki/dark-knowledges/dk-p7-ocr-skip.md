@@ -3,7 +3,7 @@ id: "dk-p7-ocr-skip"
 title: "P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_person: "system"
@@ -18,18 +18,20 @@ contradicts:
   - "master-decision-hygiene"
   - "master-ai-info-literacy"
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/ai-collaboration
-  - #scene/business-analysis
-  - #scene/learning-methodology/feedback-loop
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #source_type/error
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片

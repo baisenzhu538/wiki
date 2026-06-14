@@ -1,24 +1,19 @@
 ---
-id: yt-skill-storyline-contrast-analysis
-title: 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度
-domain: [yitang]
+id: "yt-skill-storyline-contrast-analysis"
+title: "清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度"
+domain:
+  - "yitang"
 diagnostic_signals:
-  - signal: "对比前是否先列出可量化/可明确判断的维度，再引入对象"
-    framework_lens: "维度中立性 / 反偏见"
-    follow_up_question: "维度选择是否让用户偏好的对象天然得分更高？"
-  - signal: "输出是否暴露至少 1 个反直觉差异或认知盲区"
-    framework_lens: "认知增益 / 意外发现"
-    follow_up_question: "如果结果只是证实了已知结论，分析是否还有继续价值？"
-  - signal: "同一维度能否对两个对象同时适用且赋值清晰"
-    framework_lens: "可比性 / 语义一致性"
-    follow_up_question: "当对象定义根本不同（如内容 vs 技术产出），是否仍强行比较？"
-  - signal: "用户能否基于输出独立检验维度选择和权重分配的公正性"
-    framework_lens: "可审计性 / 组织政治"
-    follow_up_question: "对比是否被用作 justify 已有决策的修辞武器？"
-updated_at: '2026-06-13'
-author: legacy
-reviewed_by: pending
+  - {'signal': '对比前是否先列出可量化/可明确判断的维度，再引入对象', 'framework_lens': '维度中立性 / 反偏见', 'follow_up_question': '维度选择是否让用户偏好的对象天然得分更高？'}
+  - {'signal': '输出是否暴露至少 1 个反直觉差异或认知盲区', 'framework_lens': '认知增益 / 意外发现', 'follow_up_question': '如果结果只是证实了已知结论，分析是否还有继续价值？'}
+  - {'signal': '同一维度能否对两个对象同时适用且赋值清晰', 'framework_lens': '可比性 / 语义一致性', 'follow_up_question': '当对象定义根本不同（如内容 vs 技术产出），是否仍强行比较？'}
+  - {'signal': '用户能否基于输出独立检验维度选择和权重分配的公正性', 'framework_lens': '可审计性 / 组织政治', 'follow_up_question': '对比是否被用作 justify 已有决策的修辞武器？'}
+updated_at: "2026-06-13"
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.75
+trust_level: "medium"
 ---
 # 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度
 

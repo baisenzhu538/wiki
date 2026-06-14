@@ -1,17 +1,14 @@
 ---
-
 type: "dark-knowledge"
 tags:
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology"
-tags:
-  - #dk/process-failure
-
-domain: []
+  - None
+domain:
 id: "dk-p15-unverified"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.75
+trust_level: "medium"
 ---
 
 # P-15：执行者声称"完成"但实际未做——可测量指标必须独立验证

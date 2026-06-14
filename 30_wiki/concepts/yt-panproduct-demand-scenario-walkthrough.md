@@ -27,35 +27,34 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-场景推演.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·用户卡片：场景推演"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "foundational"
 tags:
-  - #pan-product-design
-  - #scenario
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/product-design
-  - #user-research
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "每个需求都用‘[细分用户] 在 [场景] 下遇到了 [真实问题]’句式表达"
-    framework_lens: "场景化是需求落地的基础"
-    follow_up_question: "去掉场景后，这个需求还成立吗？"
-  - signal: "覆盖了主路径、异常路径和边界场景，而不只是理想流程"
-    framework_lens: "真实世界充满噪声"
-    follow_up_question: "网络中断、用户分心、时间紧迫时，方案还能用吗？"
-  - signal: "场景被用来评估和迭代设计方案，而不是只在需求阶段出现"
-    framework_lens: "场景是贯穿设计全程的参照"
-    follow_up_question: "上一次方案评审中，是否有场景推动了设计改动？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '每个需求都用‘[细分用户] 在 [场景] 下遇到了 [真实问题]’句式表达', 'framework_lens': '场景化是需求落地的基础', 'follow_up_question': '去掉场景后，这个需求还成立吗？'}
+  - {'signal': '覆盖了主路径、异常路径和边界场景，而不只是理想流程', 'framework_lens': '真实世界充满噪声', 'follow_up_question': '网络中断、用户分心、时间紧迫时，方案还能用吗？'}
+  - {'signal': '场景被用来评估和迭代设计方案，而不是只在需求阶段出现', 'framework_lens': '场景是贯穿设计全程的参照', 'follow_up_question': '上一次方案评审中，是否有场景推动了设计改动？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 场景推演：细颗粒度推演

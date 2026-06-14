@@ -26,36 +26,35 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-用户分层.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·用户卡片：用户分层"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "foundational"
 tags:
-  - #pan-product-design
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/product-design
-  - #segmentation
-  - #user-research
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "分层维度基于行为、需求或任务差异，而不是仅按年龄/性别等人口统计"
-    framework_lens: "有效分层必须导向不同设计决策"
-    follow_up_question: "这两个群体是否需要不同的功能、信息架构或运营策略？"
-  - signal: "分层数量控制在能管理的范围内（通常 3-5 个核心群体），并有明确的优先级"
-    framework_lens: "分层的价值在于聚焦，而非无限细分"
-    follow_up_question: "如果只能为一个群体优化，你会选哪个？为什么？"
-  - signal: "每个分层都有真实数据或访谈证据支撑，而不是拍脑袋画像"
-    framework_lens: "分层是假设，需要验证"
-    follow_up_question: "你最近一次用什么数据验证了某个分层的存在？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '分层维度基于行为、需求或任务差异，而不是仅按年龄/性别等人口统计', 'framework_lens': '有效分层必须导向不同设计决策', 'follow_up_question': '这两个群体是否需要不同的功能、信息架构或运营策略？'}
+  - {'signal': '分层数量控制在能管理的范围内（通常 3-5 个核心群体），并有明确的优先级', 'framework_lens': '分层的价值在于聚焦，而非无限细分', 'follow_up_question': '如果只能为一个群体优化，你会选哪个？为什么？'}
+  - {'signal': '每个分层都有真实数据或访谈证据支撑，而不是拍脑袋画像', 'framework_lens': '分层是假设，需要验证', 'follow_up_question': '你最近一次用什么数据验证了某个分层的存在？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 用户分层：分层理解用户差异

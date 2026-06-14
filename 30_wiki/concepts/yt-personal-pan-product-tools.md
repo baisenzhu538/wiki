@@ -25,34 +25,33 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-泛产品设计工具篇口述版.md"
-status: enriched
+status: "enriched"
 title: "泛产品设计工具篇：出牌教学法与30张卡牌"
 type: "concept"
 version: 1
-yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'required', 'level': 'intermediate'}
+yitang:
+  map: "personal"
+  module: "个人修炼"
+  course_type: "required"
+  level: "intermediate"
 tags:
-  - #pan-product-design
-  - #pedagogy
-  - #scene/note-taking/live-field
-  - #scene/product-design
-  - #toolkit
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "能说出30张卡牌中每张属于需求、审美还是落地类别"
-    framework_lens: "工具箱需要结构记忆"
-    follow_up_question: "随机抽一张牌，你能在3秒内说出它属于哪组牌吗？"
-  - signal: "面对具体任务时，能组合使用多张卡牌而不是只出一张"
-    framework_lens: "出牌 = 组合能力"
-    follow_up_question: "这个任务需要哪几张牌配合？它们之间的顺序是什么？"
-  - signal: "使用卡牌后会对效果进行复盘，更新自己的‘出牌策略’"
-    framework_lens: "工具能力在反馈中进化"
-    follow_up_question: "上次用某张牌效果不好的原因是什么？是牌选错了还是用错了？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '能说出30张卡牌中每张属于需求、审美还是落地类别', 'framework_lens': '工具箱需要结构记忆', 'follow_up_question': '随机抽一张牌，你能在3秒内说出它属于哪组牌吗？'}
+  - {'signal': '面对具体任务时，能组合使用多张卡牌而不是只出一张', 'framework_lens': '出牌 = 组合能力', 'follow_up_question': '这个任务需要哪几张牌配合？它们之间的顺序是什么？'}
+  - {'signal': '使用卡牌后会对效果进行复盘，更新自己的‘出牌策略’', 'framework_lens': '工具能力在反馈中进化', 'follow_up_question': '上次用某张牌效果不好的原因是什么？是牌选错了还是用错了？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 泛产品设计工具篇：出牌教学法与30张卡牌

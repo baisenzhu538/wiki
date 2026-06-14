@@ -5,23 +5,25 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_a632cc1c"
-status: enriched
+status: "enriched"
 title: "OCR: 泛产品设计-用户卡片-一堂五步法"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/business-analysis/customer-acquisition
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/live-field
-  - #scene/product-design
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 泛产品设计-用户卡片-一堂五步法

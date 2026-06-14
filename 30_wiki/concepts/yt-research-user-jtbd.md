@@ -1,8 +1,8 @@
 ---
 id: "yt-research-user-jtbd"
-title: '用户JTBD访谈工具：区分"说的"和"真正要的"'
+title: "用户JTBD访谈工具：区分"说的"和"真正要的""
 type: "tool"
-status: draft
+status: "draft"
 domain:
   - "yitang"
 language: "zh-CN"
@@ -23,25 +23,20 @@ created_at: "2026-06-10"
 updated_at: "2026-06-13"
 estimated_tokens: 2500
 tags:
-  - #research
-  - #jtbd
-  - #user-research
-  - #yitang
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+  - "confidence-draft"
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "访谈中问‘用户想完成什么任务’而不是‘想要什么功能’"
-    framework_lens: "JTBD = 任务视角"
-    follow_up_question: "用户最近一次使用类似产品时，想解决什么任务？"
-  - signal: "会探索用户的动力、阻力、代理品和成功标准"
-    framework_lens: "任务地图完整画像"
-    follow_up_question: "如果不解决这个任务，用户会怎样？"
-  - signal: "访谈后能写出清晰的 Jobs Statement"
-    framework_lens: "JTBD的输出是任务陈述"
-    follow_up_question: "你能用‘当我想要____，以便____’描述用户任务吗？"
-author: legacy
-reviewed_by: pending
+  - {'signal': '访谈中问‘用户想完成什么任务’而不是‘想要什么功能’', 'framework_lens': 'JTBD = 任务视角', 'follow_up_question': '用户最近一次使用类似产品时，想解决什么任务？'}
+  - {'signal': '会探索用户的动力、阻力、代理品和成功标准', 'framework_lens': '任务地图完整画像', 'follow_up_question': '如果不解决这个任务，用户会怎样？'}
+  - {'signal': '访谈后能写出清晰的 Jobs Statement', 'framework_lens': 'JTBD的输出是任务陈述', 'follow_up_question': '你能用‘当我想要____，以便____’描述用户任务吗？'}
+author: "legacy"
+reviewed_by: "pending"
+trust_level: "low"
 ---
 # 用户JTBD访谈工具：区分"说的"和"真正要的"
 

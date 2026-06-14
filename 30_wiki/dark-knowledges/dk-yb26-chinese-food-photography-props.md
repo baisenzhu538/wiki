@@ -3,7 +3,7 @@ id: "dk-yb26-chinese-food-photography-props"
 title: "中式食物摄影低成本氛围道具搭配"
 type: "dark-knowledge"
 dark_knowledge_type: "workflow"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -17,15 +17,17 @@ related:
   - "dk-yb19-visual-strategy-price-match"
 contradicts: ""
 tags:
-  - #domain/design
-  - #scene/learning-methodology
-  - #scene/note-taking/checklist-method
+  - None
+  - None
+  - None
 pipeline:
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 中式食物摄影低成本氛围道具搭配

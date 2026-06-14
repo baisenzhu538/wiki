@@ -1,13 +1,14 @@
 ---
-
 id: "skill-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱"
 title: "技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱"
 type: "skill"
-status: draft
-domain: []
-author: legacy
-reviewed_by: pending
+status: "draft"
+domain:
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱

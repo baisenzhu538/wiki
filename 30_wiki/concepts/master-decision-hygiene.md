@@ -1,7 +1,7 @@
 ---
 id: "master-decision-hygiene"
 component_of: ""
-confidence: 0.9
+confidence: 0.8
 created_at: 2026-05-18
 difficulty: "intermediate"
 domain:
@@ -24,23 +24,24 @@ related:
   - "yt-unit-model-selection"
 reviewed_by: ""
 source_refs:
-  - {"来源": "Daniel Kahneman, Olivier Sibony, Cass Sunstein"}
-status: enriched
+  - {'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}
+status: "enriched"
 title: "决策卫生五步法"
 type: "framework"
 updated_at: 2026-05-18
 version: 1
 tags:
-  - #scene/agent-infrastructure
-  - #scene/business-analysis
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/live-field
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 决策卫生五步法

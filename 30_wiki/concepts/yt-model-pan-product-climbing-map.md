@@ -30,30 +30,27 @@ review_by: 2026-11-11
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂泛产品设计-十年修炼爬山地图.png"
-status: enriched
+status: "enriched"
 superseded_by: ""
 title: "泛产品十年爬山地图：L1-L6成长路径"
 type: "framework"
 version: 1
 tags:
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/level-diagnosis
-  - #scene/product-design
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-creative
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "用户想直接跳到L6创新领先"
-    framework_lens: "跳级"
-    follow_up_question: "你现在处于L1-L6的哪个段位？如果不到L4，谈L6为时过早"
-  - signal: "用户一直在L2狭义设计，不扩展场景"
-    framework_lens: "卡在舒适区"
-    follow_up_question: "你过去一年在多少个新场景应用过产品设计思维？如果<3个，你在舒适区"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户想直接跳到L6创新领先', 'framework_lens': '跳级', 'follow_up_question': '你现在处于L1-L6的哪个段位？如果不到L4，谈L6为时过早'}
+  - {'signal': '用户一直在L2狭义设计，不扩展场景', 'framework_lens': '卡在舒适区', 'follow_up_question': '你过去一年在多少个新场景应用过产品设计思维？如果<3个，你在舒适区'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 ## Constraints & Boundaries

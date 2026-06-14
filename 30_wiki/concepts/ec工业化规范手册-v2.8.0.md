@@ -7,24 +7,25 @@ review_date: 2026-05-03
 reviewed_by: "Claude"
 source_refs:
   - "src_20260503_feab72b2"
-status: enriched
+status: "enriched"
 title: "EC工业化规范手册 v2.8.0"
-trust_level: high
+trust_level: "high"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - #scene/ai-collaboration
-  - #scene/knowledge-management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
-author: legacy
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
+author: "legacy"
+confidence: 0.8
 ---
 
 # EC工业化规范手册 v2.8.0

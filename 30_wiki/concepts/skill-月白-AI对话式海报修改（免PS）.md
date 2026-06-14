@@ -2,7 +2,7 @@
 id: "skill-月白-AI对话式海报修改（免PS）"
 title: "技能：AI对话式海报修改（免PS）"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -19,12 +19,14 @@ related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 tags:
-  - #domain/general
-  - #scene/learning-methodology/feedback-loop
+  - None
+  - None
 pipeline:
-  - confidence-draft
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 技能：AI对话式海报修改（免PS）

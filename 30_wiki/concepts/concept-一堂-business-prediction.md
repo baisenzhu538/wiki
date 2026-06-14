@@ -1,9 +1,8 @@
 ---
-
 id: "concept-一堂-business-prediction"
 title: "商业预判：15字诀与光谱模型——从拍脑袋到科学决策"
 type: "concept"
-status: deprecated
+status: "deprecated"
 superseded_by:
   - "yt-foresight-business-spectrum"
   - "yt-foresight-model-taxonomy"
@@ -24,14 +23,16 @@ wiki_refs:
   - "concept-一堂-key-assumptions"
   - "concept-一堂-product-kernel"
 tags:
-  - #domain/product
-  - #domain/yitang
-  - #scene/business-analysis/prediction
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.75
+trust_level: "medium-low"
 ---
 
 # 商业预判：15字诀与光谱模型——从拍脑袋到科学决策

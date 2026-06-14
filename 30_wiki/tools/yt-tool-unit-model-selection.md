@@ -1,24 +1,19 @@
 ---
-
-
 tags:
-- '#scene/business-analysis/customer-acquisition'
+  - "#scene/business-analysis/customer-acquisition"
 related:
-- yt-unit-model-overview
-- yt-unit-model-construction
-
-domain: []
+  - "yt-unit-model-overview"
+  - "yt-unit-model-construction"
+domain:
 diagnostic_signals:
-  - signal: "用户说'我有5个单元模型要同时建'"
-    framework_lens: "选错了单元——同时建多个单元模型=没有优先级。精力分散导致每个都算不透"
-    follow_up_question: "如果只留一个单元模型，业务会有什么损失？如果损失可控，先把精力集中在最核心的那个"
-  - signal: "用户说'我选了单SKU作为核心单元，但算完后发现和实际差很远'"
-    framework_lens: "选错了单元——可能业务的最大风险驱动因素不在SKU层面，而在订单层面（退换货率）或用户层面（留存率）"
-    follow_up_question: "回头看，当时选择单元的标准是什么？是按什么选的——最容易算的？还是最可能出问题的？"
+  - {'signal': "用户说'我有5个单元模型要同时建'", 'framework_lens': '选错了单元——同时建多个单元模型=没有优先级。精力分散导致每个都算不透', 'follow_up_question': '如果只留一个单元模型，业务会有什么损失？如果损失可控，先把精力集中在最核心的那个'}
+  - {'signal': "用户说'我选了单SKU作为核心单元，但算完后发现和实际差很远'", 'framework_lens': '选错了单元——可能业务的最大风险驱动因素不在SKU层面，而在订单层面（退换货率）或用户层面（留存率）', 'follow_up_question': '回头看，当时选择单元的标准是什么？是按什么选的——最容易算的？还是最可能出问题的？'}
 id: "yt-tool-unit-model-selection"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.75
+trust_level: "medium"
 ---
 ## Reusable Knowledge
 

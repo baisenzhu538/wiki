@@ -32,40 +32,35 @@ source_refs:
   - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
   - "https://www.deeplearning.ai/courses/ai-prompting-for-everyone/"
   - "https://www.bilibili.com/video/BV1UT9qBDET7/"
-status: enriched
+status: "enriched"
 title: "吴恩达提示词课程·一堂拆书精华"
 type: "course_notes"
 version: 1
 tags:
-  - #ai
-  - #entrepreneur
-  - #prompt-engineering
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/business-analysis
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/skill-engineering
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-creative
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "会把一个复杂任务拆成多轮提示，而不是期望一次完美输出"
-    framework_lens: "提示词工程的核心是迭代"
-    follow_up_question: "你最近一次用几轮对话才把提示词调到可用？"
-  - signal: "知道AI的边界（不能替代判断、可能幻觉、会谄媚），并设计防护"
-    framework_lens: "人与AI分工明确"
-    follow_up_question: "在这个任务中，哪些部分必须保留人类最终判断？"
-  - signal: "会根据任务类型选择合适子工具（写作、头脑风暴、反谄媚等）"
-    framework_lens: "提示词是工具箱"
-    follow_up_question: "这个任务更适合用哪个子工具？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '会把一个复杂任务拆成多轮提示，而不是期望一次完美输出', 'framework_lens': '提示词工程的核心是迭代', 'follow_up_question': '你最近一次用几轮对话才把提示词调到可用？'}
+  - {'signal': '知道AI的边界（不能替代判断、可能幻觉、会谄媚），并设计防护', 'framework_lens': '人与AI分工明确', 'follow_up_question': '在这个任务中，哪些部分必须保留人类最终判断？'}
+  - {'signal': '会根据任务类型选择合适子工具（写作、头脑风暴、反谄媚等）', 'framework_lens': '提示词是工具箱', 'follow_up_question': '这个任务更适合用哪个子工具？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 吴恩达提示词课程·一堂拆书精华

@@ -1,33 +1,36 @@
 ---
 title: "一堂案例必修课"
 type: "concept"
-status: reviewed
+status: "reviewed"
 source_refs: ""
 id: "yt-case-mandatory-cases - src_20260506_9b4788a6 - src_20260507_857c7ed4"
 created_at: "2026-05-05"
 domain:
   - "yitang"
-yitang: {'map': 'entrepreneur', 'module': '案例学习', 'course_id': 'yt-case-001', 'course_type': 'method', 'level': 'foundational'}
+yitang:
+  map: "entrepreneur"
+  module: "案例学习"
+  course_id: "yt-case-001"
+  course_type: "method"
+  level: "foundational"
 reviewed_by: "黄药师"
 review_date: "2026-05-06"
 tags:
-  - #scene/business-analysis
-  - #scene/knowledge-management/case-library
-  - #scene/learning-methodology
-  - #scene/note-taking/checklist-method
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
+  - None
 diagnostic_signals:
-  - signal: "用户看了很多案例，但做决策时还是凭直觉"
-    framework_lens: "案例没有转化为决策标准——学习没有迁移"
-    follow_up_question: "你最近一次做决策时，明确用到了哪个案例的什么教训？如果没有，案例只是故事"
-  - signal: "用户只喜欢看成功案例，不愿研究失败案例"
-    framework_lens: "学习偏科——失败案例的避坑价值更高"
-    follow_up_question: "你最近研究的10个案例中，失败案例占几个？如果<5个，你的样本有偏"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户看了很多案例，但做决策时还是凭直觉', 'framework_lens': '案例没有转化为决策标准——学习没有迁移', 'follow_up_question': '你最近一次做决策时，明确用到了哪个案例的什么教训？如果没有，案例只是故事'}
+  - {'signal': '用户只喜欢看成功案例，不愿研究失败案例', 'framework_lens': '学习偏科——失败案例的避坑价值更高', 'follow_up_question': '你最近研究的10个案例中，失败案例占几个？如果<5个，你的样本有偏'}
+updated_at: "2026-06-13"
+author: "legacy"
+confidence: 0.85
+trust_level: "high"
 ---
 
 # 一堂案例必修课

@@ -2,7 +2,7 @@
 id: "dk-lz-code-is-disposable"
 title: "代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产"
 type: "dark-knowledge"
-status: draft
+status: "draft"
 domain:
   - "ai-saas"
   - "business-strategy"
@@ -15,8 +15,10 @@ related:
   - "dk-truman-iteration-to-aesthetic-ceiling"
 created_at: "2026-06-09"
 updated_at: "2026-06-09"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 代码正在变成一次性消耗品

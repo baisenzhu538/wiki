@@ -3,24 +3,26 @@ id: "诊所o2o外卖平台业务深度调研报告"
 created_at: 2026-04-30
 domain:
   - "['healthcare']"
-status: enriched
+status: "enriched"
 title: "诊所O2O外卖平台业务深度调研报告"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - #scene/ai-collaboration
-  - #scene/business-analysis/customer-acquisition
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - None
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.75
+trust_level: "medium-low"
 ---
 
 # 诊所O2O外卖平台业务深度调研报告

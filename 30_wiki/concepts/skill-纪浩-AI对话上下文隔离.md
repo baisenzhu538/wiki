@@ -2,8 +2,9 @@
 id: "skill-纪浩-AI对话上下文隔离"
 title: "技能：AI 对话上下文隔离"
 type: "skill"
-status: enriched
-domain: ["ai-collaboration"]
+status: "enriched"
+domain:
+  - "ai-collaboration"
 source_person: "纪浩"
 source_context: "AI协作方法论"
 source_refs:
@@ -15,8 +16,10 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "有真实失败案例"
-tools_required: ["AI对话工具（ChatGPT/Claude等）", "知识库片段管理"]
-prerequisite_skills: []
+tools_required:
+  - "AI对话工具（ChatGPT/Claude等）"
+  - "知识库片段管理"
+prerequisite_skills:
 related:
   - "skill-半肥猫-清洗资料为Markdown格式喂给AI"
   - "skill-纪浩-AI工作空间与导诊台设计法"
@@ -24,15 +27,16 @@ related:
 created_at: "2026-06-07"
 updated_at: "2026-06-11"
 reviewed_by: "黄药师"
-confidence: 0.90
+confidence: 0.8
 tags:
-  - #domain/AI
-  - #domain/collaboration
-  - #scene/ai-collaboration
-  - #scene/prompt-engineering
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-author: legacy
+  - "confidence-source-cited"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 技能：AI 对话上下文隔离

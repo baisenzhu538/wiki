@@ -23,39 +23,38 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
-status: enriched
+status: "enriched"
 title: "泛产品设计实操篇：需求分析与用户洞察"
 type: "concept"
 version: 1
-yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'required', 'level': 'intermediate'}
+yitang:
+  map: "personal"
+  module: "个人修炼"
+  course_type: "required"
+  level: "intermediate"
 tags:
-  - #demand-analysis
-  - #pan-product-design
-  - #scene/business-analysis
-  - #scene/learning-methodology
-  - #scene/note-taking/live-field
-  - #scene/product-design
-  - #scene/skill-engineering
-  - #user-research
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "面对需求时能用‘拆/推/评/算’四字诀系统分析"
-    framework_lens: "需求分析有固定操作链"
-    follow_up_question: "这个需求的用户任务、场景、真实障碍分别是什么？"
-  - signal: "在动手设计前会用需求工具箱验证‘做对的事’"
-    framework_lens: "需求先于方案"
-    follow_up_question: "如果这个问题本身不值得解决，你的方案再好也没用——你验证过吗？"
-  - signal: "需求分析结论会直接影响方案范围和设计优先级"
-    framework_lens: "分析必须产生决策输入"
-    follow_up_question: "基于需求分析，你砍掉了哪些原计划的功能？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '面对需求时能用‘拆/推/评/算’四字诀系统分析', 'framework_lens': '需求分析有固定操作链', 'follow_up_question': '这个需求的用户任务、场景、真实障碍分别是什么？'}
+  - {'signal': '在动手设计前会用需求工具箱验证‘做对的事’', 'framework_lens': '需求先于方案', 'follow_up_question': '如果这个问题本身不值得解决，你的方案再好也没用——你验证过吗？'}
+  - {'signal': '需求分析结论会直接影响方案范围和设计优先级', 'framework_lens': '分析必须产生决策输入', 'follow_up_question': '基于需求分析，你砍掉了哪些原计划的功能？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 泛产品设计实操篇：需求分析与用户洞察

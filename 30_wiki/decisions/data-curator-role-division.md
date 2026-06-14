@@ -1,29 +1,31 @@
 ---
-id: data-curator-role-division
+id: "data-curator-role-division"
 title: "Data Curator Skill — 五角色分工方案"
-type: decision
-status: draft
+type: "decision"
+status: "draft"
 domain:
-  - master
+  - "master"
 tags:
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 target_roles:
-  - 用户（决策者）
-  - 欧阳锋（Architect）
-  - 黄药师（Builder）
-  - 老顽童（Producer）
-  - 洪七公（Multimodal）
-supersedes: []
+  - "用户（决策者）"
+  - "欧阳锋（Architect）"
+  - "黄药师（Builder）"
+  - "老顽童（Producer）"
+  - "洪七公（Multimodal）"
+supersedes:
 related:
-  - three-party-data-alignment
-  - plan_20260531_data-curator-v1.3
-  - huangyaoshi-data-alignment-response
-  - ouyangfeng-data-alignment-response
-author: legacy
-reviewed_by: pending
+  - "three-party-data-alignment"
+  - "plan_20260531_data-curator-v1.3"
+  - "huangyaoshi-data-alignment-response"
+  - "ouyangfeng-data-alignment-response"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # Data Curator Skill — 五角色分工方案

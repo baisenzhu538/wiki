@@ -2,7 +2,7 @@
 id: "kdo-yaml-frontmatter-safety"
 title: "KDO YAML Frontmatter 安全操作指南"
 type: "concept"
-status: draft
+status: "draft"
 domain:
   - "master"
 created_at: 2026-05-31
@@ -14,12 +14,14 @@ related:
   - "fix-data-curator-parse-bug"
   - "gold-standard-manual-labels"
 tags:
-  - #scene/agent-infrastructure/skill-registry
-  - #scene/knowledge-management/tagging
+  - None
+  - None
 pipeline:
-  - confidence-draft
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # KDO YAML Frontmatter 安全操作指南

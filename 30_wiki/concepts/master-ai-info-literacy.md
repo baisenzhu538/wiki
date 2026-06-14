@@ -1,7 +1,7 @@
 ---
 id: "master-ai-info-literacy"
 component_of: ""
-confidence: 0.9
+confidence: 0.8
 created_at: 2026-05-18
 difficulty: "intermediate"
 domain:
@@ -21,24 +21,25 @@ related:
   - "yt-decision-y-model"
 reviewed_by: ""
 source_refs:
-  - {"来源": "一堂 (Truman)"}
-status: enriched
+  - {'来源': '一堂 (Truman)'}
+status: "enriched"
 title: "AI时代信息素养框架"
 type: "framework"
 updated_at: 2026-05-18
 version: 1
 tags:
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/ai-collaboration/workspace-design
-  - #scene/knowledge-management
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/level-diagnosis
-  - #scene/skill-engineering/manifest-design
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-author: legacy
+  - None
+  - None
+  - "confidence-source-cited"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # AI时代信息素养框架

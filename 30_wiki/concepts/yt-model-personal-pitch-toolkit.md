@@ -31,31 +31,28 @@ source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香基本功-十指模型修炼地图.png"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
-status: enriched
+status: "enriched"
 title: "十指讲香模型（框架）"
 type: "framework"
 version: 1
 tags:
-  - #personal
-  - #scene/business-analysis
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/note-taking
-  - #scene/product-design
-  - #scene/skill-engineering
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #framework
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "用户讲了半天但听众无感"
-    framework_lens: "价值感没有建立"
-    follow_up_question: "你说的内容是价值点还是价值感？听众能立刻感受到好处吗？"
-  - signal: "用户只会具象不会抽象，或只会抽象不会具象"
-    framework_lens: "十指不均衡"
-    follow_up_question: "你的表达中具象细节和抽象升华各占多少？如果一边倒，十指没打开"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户讲了半天但听众无感', 'framework_lens': '价值感没有建立', 'follow_up_question': '你说的内容是价值点还是价值感？听众能立刻感受到好处吗？'}
+  - {'signal': '用户只会具象不会抽象，或只会抽象不会具象', 'framework_lens': '十指不均衡', 'follow_up_question': '你的表达中具象细节和抽象升华各占多少？如果一边倒，十指没打开'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 十指讲香模型（框架）

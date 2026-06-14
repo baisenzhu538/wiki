@@ -2,7 +2,7 @@
 id: "yt-model-prompt-engineering"
 title: "人机协作操作系统：提示词工程总框架"
 type: "framework"
-status: enriched
+status: "enriched"
 domain:
   - "yitang"
   - "ai"
@@ -31,31 +31,28 @@ created_at: "2026-05-13"
 reviewed_by: "黄药师"
 estimated_tokens: 2500
 tags:
-  - #ai
-  - #human-ai-collaboration
-  - #prompt-engineering
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/knowledge-management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/skill-engineering
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "用户只会写简单prompt，不建工作流"
-    framework_lens: "停留在技巧层"
-    follow_up_question: "你的工作中有多少环节已经用AI工作流替代或增强？如果<20%，还停留在技巧层"
-  - signal: "用户让AI做所有决策，自己不思考"
-    framework_lens: "人类判断力缺失"
-    follow_up_question: '你最近一次对AI输出说了"这个不对，因为..."是什么时候？'
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户只会写简单prompt，不建工作流', 'framework_lens': '停留在技巧层', 'follow_up_question': '你的工作中有多少环节已经用AI工作流替代或增强？如果<20%，还停留在技巧层'}
+  - {'signal': '用户让AI做所有决策，自己不思考', 'framework_lens': '人类判断力缺失', 'follow_up_question': '你最近一次对AI输出说了"这个不对，因为..."是什么时候？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 人机协作操作系统：提示词工程总框架

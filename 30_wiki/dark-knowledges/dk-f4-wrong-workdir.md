@@ -3,7 +3,7 @@ id: "dk-f4-wrong-workdir"
 title: "F-KDO-004：错误工作目录执行 pipeline 命令→命令静默失败、无报错、无文件变更"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_person: "system"
@@ -19,19 +19,21 @@ contradicts:
   - "dk-c10-batch-tool-no-dry-run"
   - "master-decision-hygiene"
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/agent-infrastructure
-  - #scene/ai-collaboration
-  - #scene/learning-methodology
-  - #scene/note-taking
-  - #scene/skill-engineering/eval-testing
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #source_type/error
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # F-KDO-004：错误工作目录执行 pipeline 命令→命令静默失败、无报错、无文件变更

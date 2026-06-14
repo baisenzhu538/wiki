@@ -6,29 +6,30 @@ domain:
 review_date: 2026-05-06
 reviewed_by: "黄药师"
 source_refs: ""
-status: enriched
+status: "enriched"
 title: "Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现"
-trust_level: high
+trust_level: "high"
 type: "concept"
 updated_at: 2026-05-06
 tags:
-  - #entrepreneurship
-  - #persona
-  - #scene/ai-collaboration
-  - #scene/business-analysis
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/level-diagnosis
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering
-  - #truman
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - #skill
-  - confidence-verified-by-case
-author: legacy
+  - None
+  - None
+  - None
+  - "confidence-verified-by-case"
+author: "legacy"
+confidence: 0.75
 ---
 
 # Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现

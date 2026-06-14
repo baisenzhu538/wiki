@@ -29,32 +29,29 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-需求工具箱指南.png"
   - "10_raw/sources/一堂-个人修炼-泛产品设计概念口述版.md"
-status: enriched
+status: "enriched"
 superseded_by: ""
 title: "泛产品设计·需求工具箱（13张卡牌）"
 type: "framework"
 version: 1
 tags:
-  - #scene/business-analysis/conversion-rate
-  - #scene/learning-methodology
-  - #scene/note-taking/checklist-method
-  - #scene/note-taking/live-field
-  - #scene/product-design
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "用户学了13张需求卡牌但不会选"
-    framework_lens: "工具选择困难"
-    follow_up_question: "你的项目复杂度是小产品、复杂产品还是商业产品？不同复杂度对应不同卡牌"
-  - signal: "用户只关注高阶卡牌，不练初阶"
-    framework_lens: "基础不牢"
-    follow_up_question: "你做过多少个小产品的需求分析？如果<5个，先练初阶卡牌"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户学了13张需求卡牌但不会选', 'framework_lens': '工具选择困难', 'follow_up_question': '你的项目复杂度是小产品、复杂产品还是商业产品？不同复杂度对应不同卡牌'}
+  - {'signal': '用户只关注高阶卡牌，不练初阶', 'framework_lens': '基础不牢', 'follow_up_question': '你做过多少个小产品的需求分析？如果<5个，先练初阶卡牌'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 ## Constraints & Boundaries

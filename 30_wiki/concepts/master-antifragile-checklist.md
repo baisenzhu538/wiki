@@ -23,19 +23,20 @@ related:
   - "yt-panproduct-execution-risk-management"
 reviewed_by: ""
 source_refs: ""
-status: enriched
+status: "enriched"
 title: "反脆弱决策检查清单"
 type: "tool"
 updated_at: 2026-05-18
 version: 1
 tags:
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #scene/skill-engineering/manifest-design
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-author: legacy
+  - None
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 反脆弱决策检查清单

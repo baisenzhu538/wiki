@@ -2,11 +2,13 @@
 id: "skill-使用一页纸速查卡快速调用框架"
 title: "技能：使用一页纸速查卡快速调用框架"
 type: "skill"
-status: enriched
-domain: ["knowledge-management"]
+status: "enriched"
+domain:
+  - "knowledge-management"
 source_person: "课程设计者"
 source_context: "src_20260609_1c8b4d0e"
-source_refs: ["src_20260609_1c8b4d0e"]
+source_refs:
+  - "src_20260609_1c8b4d0e"
 wiki_refs:
   - "30_wiki/concepts/yt-five-step-method.md"
   - "30_wiki/concepts/master-cognitive-bias-checklist.md"
@@ -14,22 +16,26 @@ definition_of_done:
   - "操作步骤清晰可执行"
   - "适用场景有正反例"
   - "有真实失败案例"
-tools_required: ["A4 纸", "打印机", "核心框架的原始素材"]
-prerequisite_skills: []
+tools_required:
+  - "A4 纸"
+  - "打印机"
+  - "核心框架的原始素材"
+prerequisite_skills:
 related:
   - "master-cognitive-bias-checklist"
   - "yt-five-step-method"
 created_at: "2026-06-09"
 updated_at: "2026-06-11"
 reviewed_by: "黄药师"
-confidence: 0.80
+confidence: 0.8
 tags:
-  - #domain/knowledge-management
-  - #scene/decision-making
-  - #scene/learning-methodology
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-author: legacy
+  - "confidence-source-cited"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 技能：使用一页纸速查卡快速调用框架

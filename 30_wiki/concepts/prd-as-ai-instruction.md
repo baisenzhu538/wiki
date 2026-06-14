@@ -1,8 +1,7 @@
 ---
-
 id: "prd-as-ai-instruction"
 type: "tool"
-status: draft
+status: "draft"
 source_refs:
   - "src_20260606_90b44191"
 component_of:
@@ -16,21 +15,22 @@ query_triggers:
   - "产品需求文档AI"
 reviewed_by: ""
 tags:
-  - #scene/agent-infrastructure
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/ai-collaboration/workspace-design
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/skill-engineering/course-to-skill
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-
-domain: []
-author: legacy
+  - "confidence-draft"
+  - "confidence-source-cited"
+domain:
+author: "legacy"
 created_at: "2026-06-15"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # PRD文档作为AI可执行指令

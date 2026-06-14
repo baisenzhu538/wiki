@@ -1,9 +1,8 @@
 ---
-
 id: "concept-纪浩-ai-collaboration-methodology"
 title: "纪浩 AI 协作方法论：从判断到规模复用的五层体系"
 type: "concept"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -28,33 +27,35 @@ related:
   - "case-纪浩-from-zip-to-five-layers"
   - "dk-yb5-style-asset-archive"
 tags:
-  - #domain/ai-collaboration
-  - #domain/yitang
-  - #scene/agent-infrastructure
-  - #scene/ai-collaboration/human-ai-division
-  - #scene/ai-collaboration/pdca-execution
-  - #scene/ai-collaboration/problem-validation
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/ai-collaboration/skill-market
-  - #scene/ai-collaboration/workspace-design
-  - #scene/knowledge-management
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/checklist-method
-  - #scene/product-design/focus-workbench
-  - #scene/skill-engineering/course-to-skill
-  - #scene/skill-engineering/eval-testing
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 纪浩 AI 协作方法论

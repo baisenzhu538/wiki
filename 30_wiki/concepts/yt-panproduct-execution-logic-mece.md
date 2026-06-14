@@ -29,34 +29,33 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-逻辑MECE.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·落地卡片：逻辑MECE"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'foundational'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "foundational"
 tags:
-  - #execution
-  - #pan-product-design
-  - #scene/learning-methodology/mental-models
-  - #scene/product-design
-  - #structured-thinking
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "拆解后的子项在同一层级，且任意两项之间不重叠、合起来覆盖全集"
-    framework_lens: "MECE = 互斥 + 穷尽"
-    follow_up_question: "有没有某个元素可以同时放进两个子项？有没有遗漏的大类？"
-  - signal: "MECE 用于重要决策或复杂沟通前，而不是所有日常小事"
-    framework_lens: "结构化思考的成本收益"
-    follow_up_question: "这个问题值得花费额外时间做 MECE 拆解吗？"
-  - signal: "拆解结果能被他人快速理解并发现遗漏"
-    framework_lens: "MECE 是协作语言"
-    follow_up_question: "一个不熟悉项目的人看了你的拆解后，能否在5分钟内提出一个合理质疑？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '拆解后的子项在同一层级，且任意两项之间不重叠、合起来覆盖全集', 'framework_lens': 'MECE = 互斥 + 穷尽', 'follow_up_question': '有没有某个元素可以同时放进两个子项？有没有遗漏的大类？'}
+  - {'signal': 'MECE 用于重要决策或复杂沟通前，而不是所有日常小事', 'framework_lens': '结构化思考的成本收益', 'follow_up_question': '这个问题值得花费额外时间做 MECE 拆解吗？'}
+  - {'signal': '拆解结果能被他人快速理解并发现遗漏', 'framework_lens': 'MECE 是协作语言', 'follow_up_question': '一个不熟悉项目的人看了你的拆解后，能否在5分钟内提出一个合理质疑？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 逻辑MECE：做个有逻辑的人

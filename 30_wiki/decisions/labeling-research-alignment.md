@@ -1,21 +1,23 @@
 ---
-id: labeling-research-alignment
+id: "labeling-research-alignment"
 title: "两份标注调研的对齐：黄药师 × 老顽童"
-type: comparison
-status: draft
+type: "comparison"
+status: "draft"
 domain:
-  - master
+  - "master"
 created_at: 2026-05-31
 target_roles:
-  - 用户（决策者）
-  - 欧阳锋（Architect）
-  - 黄药师（Builder）
-  - 老顽童（Producer）
+  - "用户（决策者）"
+  - "欧阳锋（Architect）"
+  - "黄药师（Builder）"
+  - "老顽童（Producer）"
 related:
-  - data-labeling-best-practices-report
-  - kdo-15-dimension-label-spec
-author: legacy
-reviewed_by: pending
+  - "data-labeling-best-practices-report"
+  - "kdo-15-dimension-label-spec"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 两份标注调研的对齐：黄药师 × 老顽童

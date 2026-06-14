@@ -2,7 +2,7 @@
 id: "skill-一堂-five-step-validation"
 title: "技能：聊问查测盘五步验证法"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "product"
   - "yitang"
@@ -29,15 +29,17 @@ wiki_refs:
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
 tags:
-  - #domain/product
-  - #domain/yitang
-  - #scene/startup/hypothesis-validation
-  - #scene/business-analysis/research
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：聊问查测盘五步验证法

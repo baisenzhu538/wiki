@@ -5,20 +5,22 @@ domain:
   - "healthcare"
 source_refs:
   - "src_20260522_64727b82"
-status: enriched
+status: "enriched"
 title: "OCR: screenshot1"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/agent-infrastructure
-  - #scene/ai-collaboration
-  - #scene/knowledge-management/tagging
-  - #scene/learning-methodology/mental-models
-  - #scene/skill-engineering/eval-testing
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: screenshot1

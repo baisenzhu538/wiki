@@ -1,13 +1,14 @@
 ---
-
 id: "skill-ai-oral-spray-input"
 title: "技能：用口喷输入法生成高质量 AI 提示词"
 type: "skill"
-status: draft
-domain: []
-author: legacy
-reviewed_by: pending
+status: "draft"
+domain:
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 技能：用口喷输入法生成高质量 AI 提示词

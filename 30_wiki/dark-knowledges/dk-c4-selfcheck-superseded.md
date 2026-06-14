@@ -3,7 +3,7 @@ id: "dk-c4-selfcheck-superseded"
 title: "C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_person: "Builder"
@@ -16,16 +16,18 @@ related:
   - "dk-c5-todo-false-positive"
   - "master-cognitive-bias-checklist"
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #source_type/error
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich

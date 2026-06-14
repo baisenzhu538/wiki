@@ -1,23 +1,20 @@
 ---
-
 title: "科学招聘"
 type: "concept"
-status: enriched
-domain: []
+status: "enriched"
+domain:
 pipeline:
-  - confidence-source-cited
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "招聘只看简历和聊得开心"
-    framework_lens: "非结构化"
-    follow_up_question: "你们的面试每个维度有评分标准吗？如果没有，招聘质量靠运气"
-  - signal: "缺人时随便招一个"
-    framework_lens: "越快越好论"
-    follow_up_question: "招错一个人的成本你算过吗？如果算过，不会急着随便招"
-updated_at: '2026-06-13'
+  - {'signal': '招聘只看简历和聊得开心', 'framework_lens': '非结构化', 'follow_up_question': '你们的面试每个维度有评分标准吗？如果没有，招聘质量靠运气'}
+  - {'signal': '缺人时随便招一个', 'framework_lens': '越快越好论', 'follow_up_question': '招错一个人的成本你算过吗？如果算过，不会急着随便招'}
+updated_at: "2026-06-13"
 id: "yt-management-scientific-hiring"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.75
+trust_level: "medium-low"
 ---
 
 # 科学招聘

@@ -2,7 +2,7 @@
 id: "yt-note-ai-human-division"
 title: "AI时代笔记分工边界：人在哪里，AI在哪里"
 type: "concept"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "ai"
@@ -31,34 +31,31 @@ query_triggers:
 created_at: "2026-06-07"
 estimated_tokens: 3800
 tags:
-  - #ai-collaboration
-  - #human-ai-division
-  - #note-taking
-  - #scene/ai-collaboration/human-ai-division
-  - #scene/knowledge-management
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/checklist-method
-  - #scene/note-taking/level-diagnosis
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/requires-human-judgment
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "用户把所有笔记工作都交给AI"
-    framework_lens: "人不思考"
-    follow_up_question: "你最近一次完全不用AI、独立整理并建模一个概念是什么时候？"
-  - signal: "用户拒绝AI，坚持全部手写"
-    framework_lens: "效率低"
-    follow_up_question: "你手写笔记中有多少是AI可以帮你整理检索的？"
-updated_at: '2026-06-13'
-author: legacy
-reviewed_by: pending
+  - {'signal': '用户把所有笔记工作都交给AI', 'framework_lens': '人不思考', 'follow_up_question': '你最近一次完全不用AI、独立整理并建模一个概念是什么时候？'}
+  - {'signal': '用户拒绝AI，坚持全部手写', 'framework_lens': '效率低', 'follow_up_question': '你手写笔记中有多少是AI可以帮你整理检索的？'}
+updated_at: "2026-06-13"
+author: "legacy"
+reviewed_by: "pending"
+trust_level: "low"
 ---
 
 # AI时代笔记分工边界：人在哪里，AI在哪里

@@ -27,36 +27,35 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-用户卡片-动力阻力.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·用户卡片：动力阻力"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "intermediate"
 tags:
-  - #conversion
-  - #pan-product-design
-  - #scene/business-analysis/conversion-rate
-  - #scene/knowledge-management/tagging
-  - #scene/product-design
-  - #scene/skill-engineering
-  - #user-behavior
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "能同时写出用户转化的动力、阻力和触点，而不是只优化其中一项"
-    framework_lens: "转化率 = 动力 − 阻力 + 触点设计"
-    follow_up_question: "如果只提升动力而不减少阻力，转化率上限在哪里？"
-  - signal: "对同一用户旅程中的多个触点分别标注动力和阻力大小"
-    framework_lens: "转化是旅程中的连续博弈"
-    follow_up_question: "哪个触点的阻力最大？砍掉它是否比优化其他触点更有效？"
-  - signal: "干预方案上线后会分别测量动力、阻力、触点三者的变化"
-    framework_lens: "诊断性指标优于结果性指标"
-    follow_up_question: "转化率涨了，但你知道是动力提升还是阻力下降导致的吗？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '能同时写出用户转化的动力、阻力和触点，而不是只优化其中一项', 'framework_lens': '转化率 = 动力 − 阻力 + 触点设计', 'follow_up_question': '如果只提升动力而不减少阻力，转化率上限在哪里？'}
+  - {'signal': '对同一用户旅程中的多个触点分别标注动力和阻力大小', 'framework_lens': '转化是旅程中的连续博弈', 'follow_up_question': '哪个触点的阻力最大？砍掉它是否比优化其他触点更有效？'}
+  - {'signal': '干预方案上线后会分别测量动力、阻力、触点三者的变化', 'framework_lens': '诊断性指标优于结果性指标', 'follow_up_question': '转化率涨了，但你知道是动力提升还是阻力下降导致的吗？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 动力阻力：理解转化率的本质

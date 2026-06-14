@@ -29,36 +29,35 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-复盘迭代.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·落地卡片：复盘迭代"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'intermediate'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "intermediate"
 tags:
-  - #execution
-  - #pan-product-design
-  - #review
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/product-design
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "复盘不只停留在事实层，而能挖掘到原因、模型和能力层"
-    framework_lens: "复盘深度决定学习质量"
-    follow_up_question: "这次复盘你提炼出了哪个可迁移的模型或原则？"
-  - signal: "每次复盘都产出可执行的改进行动，并指定负责人和截止时间"
-    framework_lens: "复盘必须产生行动"
-    follow_up_question: "上次复盘的行动项有多少在下次复盘前完成了？"
-  - signal: "复盘同时分析成功和失败，而不是只复盘失败"
-    framework_lens: "成功经验同样需要模型化"
-    follow_up_question: "这次成功中有哪些是偶然因素，哪些可以复制？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '复盘不只停留在事实层，而能挖掘到原因、模型和能力层', 'framework_lens': '复盘深度决定学习质量', 'follow_up_question': '这次复盘你提炼出了哪个可迁移的模型或原则？'}
+  - {'signal': '每次复盘都产出可执行的改进行动，并指定负责人和截止时间', 'framework_lens': '复盘必须产生行动', 'follow_up_question': '上次复盘的行动项有多少在下次复盘前完成了？'}
+  - {'signal': '复盘同时分析成功和失败，而不是只复盘失败', 'framework_lens': '成功经验同样需要模型化', 'follow_up_question': '这次成功中有哪些是偶然因素，哪些可以复制？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 复盘迭代：善于向自己的经验学习

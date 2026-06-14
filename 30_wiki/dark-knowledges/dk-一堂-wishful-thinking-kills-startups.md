@@ -2,7 +2,7 @@
 id: "dk-一堂-wishful-thinking-kills-startups"
 title: "暗知：'愿望思维'是创业最大的陷阱"
 type: "dk"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "business-strategy"
@@ -28,15 +28,17 @@ definition_of_done:
   - "外部攻击者不同范式且带紧迫感"
   - "Synthesis 中每个 wikilink 后配有≥30字关联说明"
 tags:
-  - #domain/yitang
-  - #domain/business-strategy
-  - #cognitive-bias
-  - #decision-making
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 暗知："愿望思维"是创业最大的陷阱

@@ -2,7 +2,7 @@
 id: "skill-提升笔记阅读舒适度"
 title: "提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦"
 type: "concept"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "personal-growth"
@@ -28,16 +28,17 @@ created_at: "2026-06-10"
 updated_at: "2026-06-10"
 estimated_tokens: 4200
 tags:
-  - #note-taking
-  - #information-design
-  - #scene/note-taking/checklist-method
-  - #scene/product-design/readability
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+trust_level: "low"
 ---
 
 # 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦

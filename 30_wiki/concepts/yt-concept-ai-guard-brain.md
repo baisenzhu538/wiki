@@ -2,7 +2,7 @@
 id: "yt-concept-ai-guard-brain"
 title: "守脑如玉：AI时代保持大脑锋利"
 type: "concept"
-status: enriched
+status: "enriched"
 domain:
   - "yitang"
   - "ai"
@@ -29,30 +29,27 @@ query_triggers:
 created_at: "2026-05-13"
 estimated_tokens: 3400
 tags:
-  - #ai
-  - #cognitive-fitness
-  - #learning
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/skill-engineering/publish-deploy
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "用户所有工作都交给AI，自己不再思考"
-    framework_lens: "大脑外包——AI是磨刀石不是拐杖"
-    follow_up_question: "你最近一次完全不用AI、独立解决一个复杂问题是什么时候？如果超过两周，你的大脑可能在退化"
-  - signal: "用户坚持手写笔记、不用AI，效率低下"
-    framework_lens: "另一极端——拒绝AI的能力放大"
-    follow_up_question: "你手写笔记的内容中，哪些其实可以让AI帮你整理、检索、关联？"
-updated_at: '2026-06-13'
-author: legacy
-reviewed_by: pending
+  - {'signal': '用户所有工作都交给AI，自己不再思考', 'framework_lens': '大脑外包——AI是磨刀石不是拐杖', 'follow_up_question': '你最近一次完全不用AI、独立解决一个复杂问题是什么时候？如果超过两周，你的大脑可能在退化'}
+  - {'signal': '用户坚持手写笔记、不用AI，效率低下', 'framework_lens': '另一极端——拒绝AI的能力放大', 'follow_up_question': '你手写笔记的内容中，哪些其实可以让AI帮你整理、检索、关联？'}
+updated_at: "2026-06-13"
+author: "legacy"
+reviewed_by: "pending"
+trust_level: "medium-high"
 ---
 
 # 守脑如玉：AI 时代保持大脑锋利

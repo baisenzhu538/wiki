@@ -1,101 +1,97 @@
 ---
-id: yt-model-entrepreneur-map
-component_of: ''
+id: "yt-model-entrepreneur-map"
+component_of: ""
 confidence: 0.85
 created_at: 2026-05-07
-difficulty: foundational
+difficulty: "foundational"
 domain:
-- yitang
+  - "yitang"
 estimated_tokens: 2009
-language: zh-CN
-prerequisites: ''
+language: "zh-CN"
+prerequisites: ""
 query_triggers:
-- 三阶段结构
-- 关联卡片
-- 创业修炼地图
-- 增长阶段核心模块
-- 底层逻辑
-- 核心追求
-- 知识体系定位
-- 科学专项工具箱
-- 起盘阶段双轨并行
+  - "三阶段结构"
+  - "关联卡片"
+  - "创业修炼地图"
+  - "增长阶段核心模块"
+  - "底层逻辑"
+  - "核心追求"
+  - "知识体系定位"
+  - "科学专项工具箱"
+  - "起盘阶段双轨并行"
 related:
-- yt-entrepreneur-five-step-method
-- yt-entrepreneur-key-hypotheses
-- yt-model-progress-map
-- yt-model-cognitive-upgrade-framework
-- yt-personal-deep-review
-- yt-personal-knowledge-extraction
-- yt-personal-ipo-learning
-- yt-personal-ai-capability
-- yt-personal-deliberate-practice
-- yt-personal-y-model-exploration-2
-- yt-model-personal-map
-- yt-model-management-map
-- yt-model-y-organization
-- yt-management-toolkit-overview
-- yt-tool-okr-cycle
-- yt-tool-meeting-designer
-- yt-tool-hiring-scorecard
-- yt-foresight-business-spectrum
-- yt-entrepreneur-barriers
-- yt-personal-time-management
-- yt-personal-thinking-models
-- yt-management-scientific-meetings
-- yt-management-scientific-hiring
-- yt-management-goal-management
-- yt-entrepreneur-scientific-method
-- yt-research-osl-framework
-- yt-foresight-15-char-mantra
-- yt-product-kernel-cultivation
-- yt-entrepreneur-259-milestone
-- yt-entrepreneur-business-growth
-- yt-entrepreneur-channel-exploration
-- yt-entrepreneur-concentration-analysis
-- yt-entrepreneur-fundraising
-- yt-entrepreneur-industrial-production
-- yt-entrepreneur-opportunity-selection
-- yt-entrepreneur-pragmatic-startup
-- yt-entrepreneur-spin-selling
-- yt-entrepreneur-truth-seeking
-- yt-tool-strategy-workshop
-reviewed_by: 黄药师
+  - "yt-entrepreneur-five-step-method"
+  - "yt-entrepreneur-key-hypotheses"
+  - "yt-model-progress-map"
+  - "yt-model-cognitive-upgrade-framework"
+  - "yt-personal-deep-review"
+  - "yt-personal-knowledge-extraction"
+  - "yt-personal-ipo-learning"
+  - "yt-personal-ai-capability"
+  - "yt-personal-deliberate-practice"
+  - "yt-personal-y-model-exploration-2"
+  - "yt-model-personal-map"
+  - "yt-model-management-map"
+  - "yt-model-y-organization"
+  - "yt-management-toolkit-overview"
+  - "yt-tool-okr-cycle"
+  - "yt-tool-meeting-designer"
+  - "yt-tool-hiring-scorecard"
+  - "yt-foresight-business-spectrum"
+  - "yt-entrepreneur-barriers"
+  - "yt-personal-time-management"
+  - "yt-personal-thinking-models"
+  - "yt-management-scientific-meetings"
+  - "yt-management-scientific-hiring"
+  - "yt-management-goal-management"
+  - "yt-entrepreneur-scientific-method"
+  - "yt-research-osl-framework"
+  - "yt-foresight-15-char-mantra"
+  - "yt-product-kernel-cultivation"
+  - "yt-entrepreneur-259-milestone"
+  - "yt-entrepreneur-business-growth"
+  - "yt-entrepreneur-channel-exploration"
+  - "yt-entrepreneur-concentration-analysis"
+  - "yt-entrepreneur-fundraising"
+  - "yt-entrepreneur-industrial-production"
+  - "yt-entrepreneur-opportunity-selection"
+  - "yt-entrepreneur-pragmatic-startup"
+  - "yt-entrepreneur-spin-selling"
+  - "yt-entrepreneur-truth-seeking"
+  - "yt-tool-strategy-workshop"
+reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/一堂-课程地图精华串讲.md
-- 10_raw/assets/yitang/一堂-地图-创业地图.webp
-status: enriched
-title: 创业修炼地图
-type: framework
-updated_at: '2026-06-13'
+  - "10_raw/sources/一堂-课程地图精华串讲.md"
+  - "10_raw/assets/yitang/一堂-地图-创业地图.webp"
+status: "enriched"
+title: "创业修炼地图"
+type: "framework"
+updated_at: "2026-06-13"
 version: 1
 yitang:
-  map: entrepreneur
-  module: 方法论总纲
-  course_type: model
+  map: "entrepreneur"
+  module: "方法论总纲"
+  course_type: "model"
 tags:
-- null
-- null
-- null
-- null
-- null
-- null
-- null
-- null
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-- null
-- null
-- null
-- confidence-source-cited
-- confidence-verified-by-case
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "创业者把创业地图收藏后，三个月没打开过，遇到决策还是凭直觉"
-    framework_lens: "地图成了收藏品——地图的价值在导航，不在占有"
-    follow_up_question: "你最近一次做创业决策时，有没有对照地图定位自己处在哪个阶段？如果没有，地图没有进入工作流"
-  - signal: "创业者刚学完起盘阶段，就跳到壁垒阶段学习，结果什么都用不上"
-    framework_lens: "跨阶段跳跃——创业地图有阶段顺序，跳过当前阶段的工具会消化不良"
-    follow_up_question: "你当前业务最大的问题在哪个阶段？是需求验证、商业模式、增长还是壁垒？先锁定当前阶段"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '创业者把创业地图收藏后，三个月没打开过，遇到决策还是凭直觉', 'framework_lens': '地图成了收藏品——地图的价值在导航，不在占有', 'follow_up_question': '你最近一次做创业决策时，有没有对照地图定位自己处在哪个阶段？如果没有，地图没有进入工作流'}
+  - {'signal': '创业者刚学完起盘阶段，就跳到壁垒阶段学习，结果什么都用不上', 'framework_lens': '跨阶段跳跃——创业地图有阶段顺序，跳过当前阶段的工具会消化不良', 'follow_up_question': '你当前业务最大的问题在哪个阶段？是需求验证、商业模式、增长还是壁垒？先锁定当前阶段'}
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 一堂创业地图：高潜力创业者修炼全景图

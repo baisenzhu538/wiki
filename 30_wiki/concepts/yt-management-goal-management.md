@@ -1,23 +1,20 @@
 ---
-
 title: "目标管理"
 type: "concept"
-status: enriched
-domain: []
+status: "enriched"
+domain:
 pipeline:
-  - confidence-source-cited
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "目标只是祝福语，无法衡量"
-    framework_lens: "愿望即目标"
-    follow_up_question: "你这个目标的成功标准是什么？能量化吗？如果不能，只是祝福"
-  - signal: "设了KPI但没有追踪复盘"
-    framework_lens: "假装有目标"
-    follow_up_question: "你上一次Review目标进展是什么时候？如果超过两周，目标管理失效"
-updated_at: '2026-06-13'
+  - {'signal': '目标只是祝福语，无法衡量', 'framework_lens': '愿望即目标', 'follow_up_question': '你这个目标的成功标准是什么？能量化吗？如果不能，只是祝福'}
+  - {'signal': '设了KPI但没有追踪复盘', 'framework_lens': '假装有目标', 'follow_up_question': '你上一次Review目标进展是什么时候？如果超过两周，目标管理失效'}
+updated_at: "2026-06-13"
 id: "yt-management-goal-management"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.75
+trust_level: "medium-low"
 ---
 
 # 目标管理

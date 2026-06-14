@@ -1,15 +1,16 @@
 ---
-
-
-title: 单元模型六段进阶：从拍脑袋到动态预测
-date: '2026-05-24'
-type: framework
-status: enriched
-domain: [decision-science]
+title: "单元模型六段进阶：从拍脑袋到动态预测"
+date: "2026-05-24"
+type: "framework"
+status: "enriched"
+domain:
+  - "decision-science"
 id: "yt-unit-model-ladder"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.75
+trust_level: "medium-low"
 ---
 ## Reusable Knowledge
 

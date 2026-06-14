@@ -2,7 +2,7 @@
 id: "skill-月白-线下实体门店设计真实体感验证"
 title: "技能：线下实体门店设计真实体感验证"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -19,13 +19,15 @@ related: ""
 created_at: "2026-06-07"
 updated_at: "2026-06-07"
 tags:
-  - #domain/design
-  - #scene/learning-methodology/feedback-loop
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 技能：线下实体门店设计真实体感验证

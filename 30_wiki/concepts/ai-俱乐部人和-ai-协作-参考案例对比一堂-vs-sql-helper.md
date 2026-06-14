@@ -1,18 +1,19 @@
 ---
-
 title: "AI 俱乐部·人和 AI 协作 — 参考案例对比（一堂 vs SQL-Helper）"
 type: "concept"
-status: enriched
-source_refs: [src_20260609_dade3353]
+status: "enriched"
+source_refs:
+  - "src_20260609_dade3353"
 created_at: "2026-06-09T14:03:49+00:00"
 updated_at: "2026-06-09T14:22:37+00:00"
 tags:
-  - #domain/AI
-
-domain: []
+  - None
+domain:
 id: "ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 

@@ -3,7 +3,7 @@ id: "dk-纪浩-problem-vs-question"
 title: "暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem"
 type: "dark-knowledge"
 dark_knowledge_type: "principle"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -20,14 +20,16 @@ wiki_refs:
   - "case-纪浩-skill-market-problem-validation"
   - "skill-纪浩-problem-validation-four-checks"
 tags:
-  - #domain/ai-collaboration
-  - #problem-identification
-  - #agent-capability
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-published
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-published"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 暗知识：Problem vs Question

@@ -1,25 +1,27 @@
 ---
-id: kdo-15-dimension-label-spec
+id: "kdo-15-dimension-label-spec"
 title: "KDO 标签体系：15 维度完整定义 v1.0"
-type: decision
-status: draft
+type: "decision"
+status: "draft"
 domain:
-  - master
+  - "master"
 tags:
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 target_roles:
-  - 用户（决策者）
-  - 欧阳锋（Architect）
-  - 黄药师（Builder）
+  - "用户（决策者）"
+  - "欧阳锋（Architect）"
+  - "黄药师（Builder）"
 related:
-  - data-labeling-best-practices-report
-  - huangyaoshi-tagging-and-scope-proposal
-  - plan_20260531_data-curator-v1.3
-author: legacy
-reviewed_by: pending
+  - "data-labeling-best-practices-report"
+  - "huangyaoshi-tagging-and-scope-proposal"
+  - "plan_20260531_data-curator-v1.3"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # KDO 标签体系：15 维度完整定义 v1.0

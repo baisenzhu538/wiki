@@ -1,13 +1,14 @@
 ---
-
 id: "skill-Truman-XY-Problem识别与真实问题定位"
 title: "技能：XY Problem识别与真实问题定位"
 type: "skill"
-status: draft
-domain: []
-author: legacy
-reviewed_by: pending
+status: "draft"
+domain:
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 技能：XY Problem识别与真实问题定位

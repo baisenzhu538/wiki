@@ -3,7 +3,7 @@ id: "smart-device-foodservice-automation"
 title: "智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式"
 type: "framework"
 status: "enriched"
-confidence: 0.95
+confidence: 0.85
 trust_level: "high"
 domain:
   - "business-strategy"
@@ -16,10 +16,10 @@ related:
   - "yt-entrepreneur-channel-exploration"
   - "source-code-delivery-model"
 tags:
-  - #unmanned-retail
-  - #foodservice
-  - #api-integration
-  - #business-model
+  - None
+  - None
+  - None
+  - None
 created_at: "2026-06-14"
 updated_at: "2026-06-14"
 author: "王语嫣"

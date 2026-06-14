@@ -3,7 +3,7 @@ id: "dk-p10-oral-ban"
 title: "P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件"
 type: "dark-knowledge"
 dark_knowledge_type: "failure"
-status: draft
+status: "draft"
 domain:
   - "master"
 source_person: "system"
@@ -18,18 +18,20 @@ contradicts:
   - "master-decision-hygiene"
   - "master-knowledge-compound"
 tags:
-  - #domain/knowledge-management
-  - #method/evaluation-method
-  - #scene/ai-collaboration
-  - #scene/learning-methodology/mental-models
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/single-use-only
-  - #source_type/error
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件

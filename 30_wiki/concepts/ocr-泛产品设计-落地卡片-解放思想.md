@@ -5,20 +5,22 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_c2c6b487"
-status: enriched
+status: "enriched"
 title: "OCR: 泛产品设计-落地卡片-解放思想"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/learning-methodology/mental-models
-  - #scene/product-design
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 泛产品设计-落地卡片-解放思想

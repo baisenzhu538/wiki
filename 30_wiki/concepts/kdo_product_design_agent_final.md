@@ -5,23 +5,25 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260503_52ae08ba"
-status: enriched
+status: "enriched"
 title: "Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)"
 type: "concept"
 updated_at: 2026-05-03
 tags:
-  - #scene/ai-collaboration
-  - #scene/hardware-debugging/prototyping
-  - #scene/knowledge-management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/product-design
-  - #scene/skill-engineering/eval-testing
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)

@@ -3,7 +3,7 @@ id: "dk-纪浩-novice-mindset-advantage"
 title: "暗知识：新手心态的五个保护期 —— 萌新时代才是AI协作的黄金窗口"
 type: "dark-knowledge"
 dark_knowledge_type: "principle"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -20,14 +20,16 @@ wiki_refs:
   - "case-纪浩-ui-design-constraint-evolution"
   - "case-纪浩-ai-workspace-chaos"
 tags:
-  - #domain/ai-collaboration
-  - #learning-mindset
-  - #beginner-advantage
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-published
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-published"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 暗知识：新手心态的五个保护期

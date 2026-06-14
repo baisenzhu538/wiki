@@ -2,7 +2,7 @@
 id: "skill-半肥猫-用Skill做对比测试验证效果"
 title: "技能：用 Skill 做对比测试验证效果"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
 source_person: "半肥猫"
@@ -19,24 +19,25 @@ related:
   - "case-半肥猫-skill-ab-test"
   - "dk-半肥猫-skill-rejection-value"
 created_at: "2026-06-07"
-
 reviewed_by: "laowantong"
 updated_at: "2026-06-07"
 tags:
-  - #domain/ai-collaboration
-  - #scene/ai-collaboration
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/skill-engineering/course-to-skill
-  - #scene/skill-engineering/eval-testing
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-medical
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
-  - confidence-verified-by-test
-author: legacy
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+  - "confidence-verified-by-test"
+author: "legacy"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：用 Skill 做对比测试验证效果

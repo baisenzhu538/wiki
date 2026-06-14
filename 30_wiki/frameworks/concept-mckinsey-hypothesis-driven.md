@@ -2,7 +2,7 @@
 id: "concept-mckinsey-hypothesis-driven"
 title: "Hypothesis-Driven Approach：假设驱动工作法"
 type: "framework"
-status: enriched
+status: "enriched"
 domain:
   - "consulting"
   - "yitang"
@@ -10,24 +10,12 @@ source_refs:
   - "Rasiel, E. (1999). *The McKinsey Way*. McGraw-Hill."
   - "Friga, P. N. (2003). *The McKinsey Mind*. McGraw-Hill."
 bridges_to:
-  - target: "yt-entrepreneur-key-hypotheses"
-    relation: "provides_foundation_for"
-    description: "Hypothesis-Driven 是'关键假设'概念的底层工作流"
-    context: "一堂有'关键假设'概念和259工具，但缺少假设驱动工作流的系统卡片——从'形成初始假设'到'验证/修正假设'的完整闭环"
-  - target: "concept-一堂-hypothesis-driven-business-methodology"
-    relation: "complements"
-    description: "麦肯锡版本聚焦商业分析问题诊断，一堂版本聚焦创业假设验证"
-    context: "两套假设驱动方法论同源但场景不同：麦肯锡在解决'已知问题的最优解'，一堂在验证'未知市场的可行性'"
+  - {'target': 'yt-entrepreneur-key-hypotheses', 'relation': 'provides_foundation_for', 'description': "Hypothesis-Driven 是'关键假设'概念的底层工作流", 'context': "一堂有'关键假设'概念和259工具，但缺少假设驱动工作流的系统卡片——从'形成初始假设'到'验证/修正假设'的完整闭环"}
+  - {'target': 'concept-一堂-hypothesis-driven-business-methodology', 'relation': 'complements', 'description': '麦肯锡版本聚焦商业分析问题诊断，一堂版本聚焦创业假设验证', 'context': "两套假设驱动方法论同源但场景不同：麦肯锡在解决'已知问题的最优解'，一堂在验证'未知市场的可行性'"}
 diagnostic_signals:
-  - signal: "用户说'我想了很多可能性，但不知道哪个值得先验证'"
-    framework_lens: "Hypothesis-Driven 检查：是否已形成可验证的初始假设"
-    follow_up_question: "如果让你用一句话说出'最可能导致这个问题的3个原因'，你会说什么？这就是你的初始假设"
-  - signal: "用户说'我收集了大量数据但做不出结论'"
-    framework_lens: "Hypothesis-Driven 检查：数据收集是否围绕特定假设展开"
-    follow_up_question: "在你收集的所有数据中，有多少是为了'验证某个具体假设'而收集的？如果没有，你需要先形成假设再收集数据"
-  - signal: "团队在验证阶段争论不休，每个人都认为自己是对的"
-    framework_lens: "Hypothesis-Driven 检查：初始假设是否被显式记录并可被证伪"
-    follow_up_question: "你们各自的核心假设是什么？这些假设中，哪些是可以用2周内的实验证伪的？"
+  - {'signal': "用户说'我想了很多可能性，但不知道哪个值得先验证'", 'framework_lens': 'Hypothesis-Driven 检查：是否已形成可验证的初始假设', 'follow_up_question': "如果让你用一句话说出'最可能导致这个问题的3个原因'，你会说什么？这就是你的初始假设"}
+  - {'signal': "用户说'我收集了大量数据但做不出结论'", 'framework_lens': 'Hypothesis-Driven 检查：数据收集是否围绕特定假设展开', 'follow_up_question': "在你收集的所有数据中，有多少是为了'验证某个具体假设'而收集的？如果没有，你需要先形成假设再收集数据"}
+  - {'signal': '团队在验证阶段争论不休，每个人都认为自己是对的', 'framework_lens': 'Hypothesis-Driven 检查：初始假设是否被显式记录并可被证伪', 'follow_up_question': '你们各自的核心假设是什么？这些假设中，哪些是可以用2周内的实验证伪的？'}
 related:
   - "concept-mckinsey-mece"
   - "concept-mckinsey-issue-tree"
@@ -43,7 +31,9 @@ version: 1
 created_at: "2026-06-11"
 updated_at: "2026-06-13"
 reviewed_by: "laowantong"
-author: legacy
+author: "legacy"
+confidence: 0.85
+trust_level: "medium-high"
 ---
 
 # Hypothesis-Driven Approach：假设驱动工作法

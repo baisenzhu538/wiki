@@ -1,24 +1,26 @@
 ---
-id: ouyangfeng-data-alignment-response
+id: "ouyangfeng-data-alignment-response"
 title: "欧阳锋对齐回应：6+1 框架理解 + 补充意见"
-type: decision
-status: draft
+type: "decision"
+status: "draft"
 domain:
-  - master
+  - "master"
 tags:
   - "#domain/knowledge-management"
   - "#method/evaluation-method"
 created_at: 2026-05-31
 updated_at: 2026-05-31
 target_roles:
-  - 黄药师（Builder）
-  - 用户（决策者）
-supersedes: []
+  - "黄药师（Builder）"
+  - "用户（决策者）"
+supersedes:
 related:
-  - three-party-data-alignment
-  - plan_20260531_data-curator-v1.3
-author: legacy
-reviewed_by: pending
+  - "three-party-data-alignment"
+  - "plan_20260531_data-curator-v1.3"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 欧阳锋对齐回应：6+1 框架理解 + 补充意见

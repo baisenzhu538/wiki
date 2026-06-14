@@ -16,36 +16,36 @@ query_triggers:
   - "从主观感受到能力建设的五层穿透"
   - "深度复盘冰山图"
   - "深度复盘冰山图：从主观感受到能力建设的五层穿透"
-related: []
+related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/一堂深度复盘冰山图.png"
-status: enriched
+status: "enriched"
 title: "深度复盘冰山图：从主观感受到能力建设的五层穿透"
 type: "framework"
 version: 1
-yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'framework'}
+yitang:
+  map: "personal"
+  module: "个人修炼"
+  course_type: "framework"
 tags:
-  - #deep-review
-  - #deliberate-practice
-  - #personal-growth
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking/level-diagnosis
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: '复盘会大家情绪很激动，但只停在"我觉得不好"'
-    framework_lens: "复盘停在主观感受层——没有进入客观事实和原因分析"
-    follow_up_question: '我们能找到哪些数据或事实支撑"不好"？如果没有，今天不是复盘是吐槽'
-  - signal: "复盘挖到了底层模型，但没有转化成能力建设计划"
-    framework_lens: "复盘没有闭环——发现规律但不建设能力"
-    follow_up_question: "这个底层模型对应到哪个具体能力缺失？下个月谁会负责提升这个能力？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '复盘会大家情绪很激动，但只停在"我觉得不好"', 'framework_lens': '复盘停在主观感受层——没有进入客观事实和原因分析', 'follow_up_question': '我们能找到哪些数据或事实支撑"不好"？如果没有，今天不是复盘是吐槽'}
+  - {'signal': '复盘挖到了底层模型，但没有转化成能力建设计划', 'framework_lens': '复盘没有闭环——发现规律但不建设能力', 'follow_up_question': '这个底层模型对应到哪个具体能力缺失？下个月谁会负责提升这个能力？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 深度复盘冰山图：从主观感受到能力建设的五层穿透

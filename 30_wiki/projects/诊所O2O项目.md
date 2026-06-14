@@ -1,11 +1,10 @@
 ---
 title: "诊所O2O项目"
-type: project
-status: active
-domain: ['healthcare']
-source_refs:
-id: 诊所O2O项目
-  - "src_20260427_970eb338"
+type: "project"
+status: "active"
+domain:
+  - "healthcare"
+id: "诊所O2O项目 - "src_20260427_970eb338""
 created_at: "2026-05-04"
 updated_at: "2026-05-04"
 related:
@@ -18,8 +17,10 @@ tags:
   - "#o2o"
   - "#clinic"
   - "#delivery"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.85
+trust_level: "high"
 ---
 
 # 诊所O2O项目

@@ -1,13 +1,14 @@
 ---
-
 id: "skill-李诞-个人IP的重新定义与输出策略"
 title: "技能：个人IP的重新定义与输出策略"
 type: "skill"
-status: draft
-domain: []
-author: legacy
-reviewed_by: pending
+status: "draft"
+domain:
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 技能：个人IP的重新定义与输出策略

@@ -2,7 +2,7 @@
 id: "case-半肥猫-from-assignment-to-tool"
 title: "案例：半肥猫把一堂课程作业变成可复用调研工具"
 type: "case"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -25,19 +25,19 @@ definition_of_done:
   - "关键数据和纠偏过程已记录"
   - "可迁移条件和不可复制场景已明确"
   - "实际应用后收集反馈并更新案例"
-created_at: "2026-06-08"
-updated_at: "2026-06-08"
 tags:
-  - #domain/ai-collaboration
-  - #domain/yitang
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/product-design/requirement-analysis
-  - #scene/skill-engineering/course-to-skill
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 案例：半肥猫把一堂课程作业变成可复用调研工具

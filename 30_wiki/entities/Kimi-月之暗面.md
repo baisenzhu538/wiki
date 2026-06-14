@@ -1,16 +1,17 @@
 ---
-
 title: "Kimi（月之暗面）"
-type: entity
-status: reviewed
-entity_type: company
-aliases: ["Kimi", "月之暗面", "Moonshot AI", "Kimi Chat"]
+type: "entity"
+status: "reviewed"
+entity_type: "company"
+aliases:
+  - "Kimi"
+  - "月之暗面"
+  - "Moonshot AI"
+  - "Kimi Chat"
 url: "https://kimi.moonshot.cn"
 location: "Beijing, China"
 founded_at: "2023-04-01"
-source_refs:
-id: Kimi-月之暗面
-  - "src_20260502_7d7c1b7c"
+id: "Kimi-月之暗面 - "src_20260502_7d7c1b7c""
 created_at: "2026-05-03"
 updated_at: "2026-05-03"
 related:
@@ -22,12 +23,12 @@ tags:
   - "#llm"
   - "#deep-research"
   - "#chinese-ai"
-trust_level: medium
+trust_level: "medium"
 reviewed_by: "黄药师"
 review_date: "2026-05-04"
-
-domain: []
-author: legacy
+domain:
+author: "legacy"
+confidence: 0.85
 ---
 
 # Kimi（月之暗面）

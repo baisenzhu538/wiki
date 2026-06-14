@@ -2,7 +2,7 @@
 id: "case-纪浩-from-zip-to-five-layers"
 title: "纪浩：从微信传 zip 到五层协作体系"
 type: "case"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -21,16 +21,18 @@ related:
 created_at: "2026-06-08"
 updated_at: "2026-06-08"
 tags:
-  - #domain/ai-collaboration
-  - #domain/yitang
-  - #scene/agent-infrastructure
-  - #scene/ai-collaboration/skill-market
-  - #scene/ai-collaboration/workspace-design
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 纪浩：从微信传 zip 到五层协作体系

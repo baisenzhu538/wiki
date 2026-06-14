@@ -2,10 +2,10 @@
 id: "skill-马易-AIGC项目ROI评估"
 title: "技能：AIGC项目ROI评估"
 type: "skill"
-status: needs-review
+status: "needs-review"
 domain:
-- business-strategy
-- ai-collaboration
+  - "business-strategy"
+  - "ai-collaboration"
 source_person: "马易"
 source_context: "AI落地场景识别"
 source_refs: ""
@@ -20,16 +20,18 @@ related: ""
 created_at: "2026-06-07"
 updated_at: 2026-06-12
 tags:
-  - #domain/AI
-  - #domain/scene-analysis
-  - #scene/business-analysis
-  - #scene/learning-methodology/feedback-loop
-  - #scene/skill-engineering
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - confidence-draft
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "medium-low"
 ---
 
 # 技能：AIGC项目ROI评估

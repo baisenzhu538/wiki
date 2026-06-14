@@ -5,21 +5,23 @@ domain:
   - "ai-saas"
 source_refs:
   - "src_20260522_3bc67cbd"
-status: enriched
+status: "enriched"
 title: "OCR: 泛产品设计-用户卡片-场景推演"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/ai-collaboration/problem-validation
-  - #scene/business-analysis
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/product-design
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-beginners
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 泛产品设计-用户卡片-场景推演

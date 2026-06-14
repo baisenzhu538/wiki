@@ -5,26 +5,28 @@ domain:
   - "healthcare"
 source_refs:
   - "src_20260529_huazong_ama"
-status: stable
+status: "stable"
 title: "花总AMA精华摘要（商业突破大航海）"
 type: "concept"
 updated_at: 2026-05-29
 tags:
-  - #scene/ai-collaboration/human-ai-division
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/business-analysis/customer-acquisition
-  - #scene/hardware-debugging
-  - #scene/knowledge-management/atomization
-  - #scene/learning-methodology
-  - #scene/note-taking/checklist-method
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-medical
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "high"
 ---
 
 # 花总AMA精华摘要

@@ -1,9 +1,8 @@
 ---
-
 id: "concept-一堂-kernel-validation"
 title: "产品内核验证：三维度评估 + 六策略验证"
 type: "concept"
-status: reviewed
+status: "reviewed"
 reviewed_by: "周伯通"
 domain:
   - "product"
@@ -22,13 +21,15 @@ wiki_refs:
   - "concept-一堂-product-kernel"
   - "concept-一堂-key-assumptions"
 tags:
-  - #domain/product
-  - #domain/yitang
-  - #scene/business-analysis/validation
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+confidence: 0.85
+trust_level: "high"
 ---
 
 # 产品内核验证：三维度评估 + 六策略验证

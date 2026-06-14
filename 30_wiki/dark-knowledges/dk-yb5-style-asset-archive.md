@@ -3,7 +3,7 @@ id: "dk-yb5-style-asset-archive"
 title: "AI绘图降本的前提：风格资产工程化归档"
 type: "dark-knowledge"
 dark_knowledge_type: "workflow"
-status: draft
+status: "draft"
 domain:
   - "design"
   - "ai-collaboration"
@@ -19,18 +19,20 @@ related:
   - "concept-纪浩-ai-collaboration-methodology"
 contradicts: ""
 tags:
-  - #domain/design
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/hardware-debugging/bom-management
-  - #scene/learning-methodology
-  - #scene/note-taking/checklist-method
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # AI绘图降本的前提：风格资产工程化归档

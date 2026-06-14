@@ -1,62 +1,57 @@
 ---
-id: yt-personal-y-model-exploration-2
-component_of: ''
+id: "yt-personal-y-model-exploration-2"
+component_of: ""
 confidence: 0.8
 created_at: 2026-05-11
-difficulty: foundational
+difficulty: "foundational"
 domain:
-- yitang
+  - "yitang"
 estimated_tokens: 1885
-language: zh-CN
-prerequisites: ''
+language: "zh-CN"
+prerequisites: ""
 query_triggers:
-- 牵"的深层含义
-- 12345口诀
-- Y模型探索营2
-- Y模型探索营2：五次质变与科学推演
-- 五次质变
-- 五次质变与科学推演
-- 关键区分
-- 解释
-- 预测
+  - "牵"的深层含义"
+  - "12345口诀"
+  - "Y模型探索营2"
+  - "Y模型探索营2：五次质变与科学推演"
+  - "五次质变"
+  - "五次质变与科学推演"
+  - "关键区分"
+  - "解释"
+  - "预测"
 related:
-- master-first-principles
-reviewed_by: 黄药师
+  - "master-first-principles"
+reviewed_by: "黄药师"
 source_refs:
-- 00_inbox/一堂-个人修身-Y模型探索营2口述版.md
-status: enriched
-title: Y模型探索营2：五次质变与科学推演
-type: tool
+  - "00_inbox/一堂-个人修身-Y模型探索营2口述版.md"
+status: "enriched"
+title: "Y模型探索营2：五次质变与科学推演"
+type: "tool"
 version: 1
 yitang:
-  map: personal
-  module: 个人修炼
-  course_type: explore_camp
+  map: "personal"
+  module: "个人修炼"
+  course_type: "explore_camp"
 tags:
-- null
-- null
-- null
-- null
-- null
-- null
-- null
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-- null
-- null
-- confidence-source-cited
-- confidence-verified-by-case
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "使用Y模型时，关注的是事前推演而非事后解释"
-    framework_lens: "Y模型是预测引擎"
-    follow_up_question: "这个Y模型是在事件发生前画的，还是发生后补的？"
-  - signal: "能用Y模型牵出多个相关认知，形成完整推演链条"
-    framework_lens: "Y模型是认知线头"
-    follow_up_question: "这个Y模型牵出了你哪些原本分散的认知？"
-  - signal: "推演结论有明确可观察的验证指标"
-    framework_lens: "预测必须可证伪"
-    follow_up_question: "如果Y模型预测错了，你会在什么观察出现后承认它错了？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '使用Y模型时，关注的是事前推演而非事后解释', 'framework_lens': 'Y模型是预测引擎', 'follow_up_question': '这个Y模型是在事件发生前画的，还是发生后补的？'}
+  - {'signal': '能用Y模型牵出多个相关认知，形成完整推演链条', 'framework_lens': 'Y模型是认知线头', 'follow_up_question': '这个Y模型牵出了你哪些原本分散的认知？'}
+  - {'signal': '推演结论有明确可观察的验证指标', 'framework_lens': '预测必须可证伪', 'follow_up_question': '如果Y模型预测错了，你会在什么观察出现后承认它错了？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # Y模型探索营2：五次质变与科学推演

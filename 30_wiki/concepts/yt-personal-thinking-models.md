@@ -19,43 +19,41 @@ query_triggers:
   - "教学创新"
   - "脱敏版"
   - "角色推演法"
-related: []
+related:
 reviewed_by: "黄药师"
 source_refs:
   - "00_inbox/一堂-个人修身-思维模型口述版.md"
-status: enriched
+status: "enriched"
 title: "思维模型：从碎片经验到稳定模型"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'explore_camp'}
+yitang:
+  map: "personal"
+  module: "个人修炼"
+  course_type: "explore_camp"
 tags:
-  - #knowledge-extraction
-  - #mental-models
-  - #scene/knowledge-management/case-library
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking
-  - #scene/product-design/design-freeze
-  - #thinking
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "能从自己的经验中提炼出可复用的判断框架"
-    framework_lens: "模型来自实践"
-    follow_up_question: "这个模型是你从多少个自己的案例中总结出来的？"
-  - signal: "模型会用新案例不断修正，而不是一成不变"
-    framework_lens: "模型是活的"
-    follow_up_question: "最近有没有一个案例让你的模型边界发生了变化？"
-  - signal: "模型能向他人清晰解释，并让他人也能使用"
-    framework_lens: "可传播才有价值"
-    follow_up_question: "别人用这个模型做判断时，是否需要你补充很多背景？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '能从自己的经验中提炼出可复用的判断框架', 'framework_lens': '模型来自实践', 'follow_up_question': '这个模型是你从多少个自己的案例中总结出来的？'}
+  - {'signal': '模型会用新案例不断修正，而不是一成不变', 'framework_lens': '模型是活的', 'follow_up_question': '最近有没有一个案例让你的模型边界发生了变化？'}
+  - {'signal': '模型能向他人清晰解释，并让他人也能使用', 'framework_lens': '可传播才有价值', 'follow_up_question': '别人用这个模型做判断时，是否需要你补充很多背景？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 思维模型：从碎片经验到稳定模型

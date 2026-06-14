@@ -1,17 +1,19 @@
 ---
-title: 'OCR: 一堂-高阶体系探索营-三种咨询可能性'
-type: concept
-status: enriched
+title: "OCR: 一堂-高阶体系探索营-三种咨询可能性"
+type: "concept"
+status: "enriched"
 source_refs:
-- src_20260609_b32e7bb8
-created_at: '2026-06-09T14:05:52+00:00'
-updated_at: '2026-06-13'
+  - "src_20260609_b32e7bb8"
+created_at: "2026-06-09T14:05:52+00:00"
+updated_at: "2026-06-13"
 tags:
-- null
-domain: []
+  - None
+domain:
 id: "ocr-一堂-高阶体系探索营-三种咨询可能性"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 

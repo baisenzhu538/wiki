@@ -5,19 +5,21 @@ domain:
   - "master"
 source_refs:
   - "src_20260522_b29a6b98"
-status: enriched
+status: "enriched"
 title: "OCR: 婚礼规划"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/business-analysis
-  - #scene/learning-methodology/mental-models
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
-reviewed_by: pending
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 婚礼规划

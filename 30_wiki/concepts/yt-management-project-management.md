@@ -1,23 +1,20 @@
 ---
-
 title: "项目管理"
 type: "concept"
-status: enriched
-domain: []
+status: "enriched"
+domain:
 pipeline:
-  - confidence-source-cited
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "团队用了Jira但项目还是延期"
-    framework_lens: "工具≠项目管理"
-    follow_up_question: "你们的项目范围、关键路径、风险看板是否清晰？如果工具只是记录，项目管理没落地"
-  - signal: "项目范围不断扩大，无法收尾"
-    framework_lens: "范围蔓延"
-    follow_up_question: "这个项目最初的交付物是什么？现在增加了多少不在原始范围内的内容？"
-updated_at: '2026-06-13'
+  - {'signal': '团队用了Jira但项目还是延期', 'framework_lens': '工具≠项目管理', 'follow_up_question': '你们的项目范围、关键路径、风险看板是否清晰？如果工具只是记录，项目管理没落地'}
+  - {'signal': '项目范围不断扩大，无法收尾', 'framework_lens': '范围蔓延', 'follow_up_question': '这个项目最初的交付物是什么？现在增加了多少不在原始范围内的内容？'}
+updated_at: "2026-06-13"
 id: "yt-management-project-management"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.75
+trust_level: "medium-low"
 ---
 
 # 项目管理

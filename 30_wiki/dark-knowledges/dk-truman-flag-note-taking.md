@@ -2,7 +2,7 @@
 id: "dk-truman-flag-note-taking"
 title: "立flag记笔法：用量化目标倒逼笔记中的真实思考量"
 type: "dark-knowledge"
-status: draft
+status: "draft"
 domain:
   - "yitang"
   - "personal-growth"
@@ -38,8 +38,9 @@ tags:
 created_at: "2026-06-10"
 updated_at: "2026-06-10"
 estimated_tokens: 4200
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+trust_level: "low"
 ---
 
 # 立flag记笔法：用量化目标倒逼笔记中的真实思考量

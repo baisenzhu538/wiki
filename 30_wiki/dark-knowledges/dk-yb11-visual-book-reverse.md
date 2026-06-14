@@ -3,7 +3,7 @@ id: "dk-yb11-visual-book-reverse"
 title: "不训练模型锁定风格的逆向视觉书法"
 type: "dark-knowledge"
 dark_knowledge_type: "workflow"
-status: draft
+status: "draft"
 domain:
   - "design"
 source_person: "月白"
@@ -15,17 +15,18 @@ updated_at: 2026-06-04
 related:
   - "dk-yb13-zero-shot-style-transfer"
   - "dk-yb12-ai-image-analysis-replace-training"
-contradicts:
 tags:
-  - #domain/design
-  - #scene/ai-collaboration
-  - #scene/learning-methodology
+  - None
+  - None
+  - None
 pipeline:
-  - #source_type/dark-knowledge
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 不训练模型锁定风格的逆向视觉书法

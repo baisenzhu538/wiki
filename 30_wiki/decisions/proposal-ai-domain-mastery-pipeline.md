@@ -1,26 +1,28 @@
 ---
 title: "提案：AI 快速精通领域知识管线 — KDO 飞轮应用于学科速通"
-type: improvement-plan
-status: draft
+type: "improvement-plan"
+status: "draft"
 domain:
-  - master
+  - "master"
 created_at: 2026-06-02
 updated_at: 2026-06-02
 target_roles:
-  - 黄药师（Builder）
-  - 欧阳锋（Architect）
-  - 用户（决策者）
-reviewer: 用户 + 欧阳锋
+  - "黄药师（Builder）"
+  - "欧阳锋（Architect）"
+  - "用户（决策者）"
+reviewer: "用户 + 欧阳锋"
 related:
-  - kdo-flywheel
-  - kdo-yaml-frontmatter-safety
-  - proposal-kdo-flywheel-infrastructure
-  - three-party-data-alignment
-risk_level: high
+  - "kdo-flywheel"
+  - "kdo-yaml-frontmatter-safety"
+  - "proposal-kdo-flywheel-infrastructure"
+  - "three-party-data-alignment"
+risk_level: "high"
 decision_needed: "是否启动此方向？若启动，第一阶段的范围是什么？"
 id: "proposal-ai-domain-mastery-pipeline"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # 提案：AI 快速精通领域知识管线

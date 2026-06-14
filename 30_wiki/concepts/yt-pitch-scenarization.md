@@ -25,33 +25,28 @@ reviewed_by: "黄药师"
 source_refs:
   - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
   - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
-status: enriched
+status: "enriched"
 title: "讲香·场景化"
 type: "tool"
 version: 1
 tags:
-  - #pitch
-  - #scene/business-analysis
-  - #scene/knowledge-management/tagging
-  - #scene/note-taking
-  - #scene/product-design
-  - #yitang
-  - #具象化
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+  - "confidence-source-cited"
+  - "confidence-verified-by-case"
 diagnostic_signals:
-  - signal: "把卖点放入用户熟悉或痛点场景，让用户有画面感"
-    framework_lens: "场景是需求的剧场"
-    follow_up_question: "用户看到这个场景，会不会想到自己？"
-  - signal: "场景细节具体，而不是泛泛描述"
-    framework_lens: "细节产生代入感"
-    follow_up_question: "这个场景发生在什么时间、地点、人物在做什么？"
-  - signal: "场景自然导向产品/解决方案的出现"
-    framework_lens: "场景是过渡"
-    follow_up_question: "场景结束后，用户为什么需要你的产品？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '把卖点放入用户熟悉或痛点场景，让用户有画面感', 'framework_lens': '场景是需求的剧场', 'follow_up_question': '用户看到这个场景，会不会想到自己？'}
+  - {'signal': '场景细节具体，而不是泛泛描述', 'framework_lens': '细节产生代入感', 'follow_up_question': '这个场景发生在什么时间、地点、人物在做什么？'}
+  - {'signal': '场景自然导向产品/解决方案的出现', 'framework_lens': '场景是过渡', 'follow_up_question': '场景结束后，用户为什么需要你的产品？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # 讲香·场景化

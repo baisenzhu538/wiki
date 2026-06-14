@@ -29,36 +29,35 @@ related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/泛产品设计-落地卡片-假设拆解.png"
-status: enriched
+status: "enriched"
 title: "泛产品设计·落地卡片：假设拆解"
 type: "tool"
 version: 1
-yitang: {'map': 'personal', 'module': '泛产品设计', 'course_type': 'card', 'level': 'advanced'}
+yitang:
+  map: "personal"
+  module: "泛产品设计"
+  course_type: "card"
+  level: "advanced"
 tags:
-  - #execution
-  - #hypothesis
-  - #pan-product-design
-  - #scene/learning-methodology/mental-models
-  - #scene/note-taking/live-field
-  - #scene/product-design
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
+  - None
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "产品成功被拆解成≤5个关键假设，而不是模糊的一个大目标"
-    framework_lens: "关键假设是验证的锚点"
-    follow_up_question: "如果这5个假设中有一个错了，产品会失败吗？"
-  - signal: "每个关键假设都有可观察的证伪指标和验证方法"
-    framework_lens: "假设必须可证伪"
-    follow_up_question: "什么样的证据会让你放弃这个假设？"
-  - signal: "验证结果会更新假设优先级和下一步计划"
-    framework_lens: "贝叶斯迭代"
-    follow_up_question: "最近一次的验证结果改变了你的假设排序吗？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '产品成功被拆解成≤5个关键假设，而不是模糊的一个大目标', 'framework_lens': '关键假设是验证的锚点', 'follow_up_question': '如果这5个假设中有一个错了，产品会失败吗？'}
+  - {'signal': '每个关键假设都有可观察的证伪指标和验证方法', 'framework_lens': '假设必须可证伪', 'follow_up_question': '什么样的证据会让你放弃这个假设？'}
+  - {'signal': '验证结果会更新假设优先级和下一步计划', 'framework_lens': '贝叶斯迭代', 'follow_up_question': '最近一次的验证结果改变了你的假设排序吗？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium"
 ---
 
 # 假设拆解：拆解出影响产品成败的关键假设

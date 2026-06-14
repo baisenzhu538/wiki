@@ -1,11 +1,8 @@
 ---
-
 title: "KDO Protocol Implementation Roadmap — Detailed Recommendation Report"
-type: improvement-plan
-status: draft
-source_refs:
-id: kdo-protocol-implementation-roadmap
-  - "src_20260503_protocol_design_session"
+type: "improvement-plan"
+status: "draft"
+id: "kdo-protocol-implementation-roadmap - "src_20260503_protocol_design_session""
 created_at: "2026-05-03"
 updated_at: "2026-05-03"
 related:
@@ -13,16 +10,16 @@ related:
   - "[[index]]"
   - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
 tags:
-  - #kdo
-  - #protocol
-  - #roadmap
-  - #improvement
-trust_level: high
+  - None
+  - None
+  - None
+  - None
+trust_level: "high"
 reviewed_by: "Claude"
 review_date: "2026-05-03"
-
-domain: []
-author: legacy
+domain:
+author: "legacy"
+confidence: 0.6
 ---
 
 # KDO Protocol Implementation Roadmap

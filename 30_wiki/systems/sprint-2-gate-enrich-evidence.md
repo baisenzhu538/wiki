@@ -1,13 +1,14 @@
 ---
-
 title: "Sprint 2 门禁系统 + Enrich 举证 — 设计规格"
-type: system
-status: draft
-domain: []
+type: "system"
+status: "draft"
+domain:
 id: "sprint-2-gate-enrich-evidence"
-author: legacy
-reviewed_by: pending
+author: "legacy"
+reviewed_by: "pending"
 created_at: "2026-06-15"
+confidence: 0.6
+trust_level: "low"
 ---
 
 # Sprint 2 门禁系统 + Enrich 举证 — 设计规格

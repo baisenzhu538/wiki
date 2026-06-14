@@ -2,7 +2,7 @@
 id: "skill-半肥猫-ai-research-validation"
 title: "AI调研纠偏与验证技能：从“丝滑回答”到“证据决策”的六步闭环"
 type: "skill"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -11,7 +11,6 @@ source_context: "AI俱乐部·AI学习落地（2026-06分享）"
 source_refs:
   - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
 created_at: "2026-06-08"
-
 reviewed_by: "laowantong"
 updated_at: "2026-06-08"
 related:
@@ -28,15 +27,17 @@ definition_of_done:
   - "证据质量标准已明确"
   - "实际测试通过"
 tags:
-  - #domain/ai-collaboration
-  - #domain/yitang
-  - #scene/ai-collaboration/prompt-engineering
-  - #scene/research/evidence-review
-  - #scene/product-design/requirement-analysis
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # AI调研纠偏与验证技能：从“丝滑回答”到“证据决策”的六步闭环

@@ -17,40 +17,40 @@ query_triggers:
   - "五要素模型"
   - "核心逻辑"
   - "用一页纸解释全部人生规划"
-related: []
+related:
 reviewed_by: "黄药师"
 source_refs:
   - "10_raw/assets/yitang/Truman的个人成长五步法.png"
   - "00_inbox/Truman的个人成长五步法.png  # 源图像，经 deep-image-parser 深度解析"
   - "00_inbox/Truman的个人成长五步法_paddle_ocr.txt  # PaddleOCR基线对比"
-status: enriched
+status: "enriched"
 title: "Truman的个人成长五步法：用一页纸解释全部人生规划"
 type: "framework"
 version: 1
-yitang: {'map': 'personal', 'module': '个人修炼', 'course_type': 'framework'}
+yitang:
+  map: "personal"
+  module: "个人修炼"
+  course_type: "framework"
 tags:
-  - #career-planning
-  - #five-step-method
-  - #personal-growth
-  - #scene/business-analysis
-  - #scene/hardware-debugging/prototyping
-  - #scene/learning-methodology/deliberate-practice
-  - #scene/note-taking/live-field
-  - #scene/skill-engineering/manifest-design
-  - #yitang
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
+  - None
+  - None
+  - "confidence-source-cited"
 diagnostic_signals:
-  - signal: "用户只列能力资源，但没找到人生红点"
-    framework_lens: "方向缺失"
-    follow_up_question: "你的人生红点是什么？如果答不出，五步法第一步就错了"
-  - signal: "用户倒推能力但不练习"
-    framework_lens: "知行脱节"
-    follow_up_question: "你为了红点，最近三个月刻意练习了哪些能力？"
-updated_at: '2026-06-13'
-author: legacy
+  - {'signal': '用户只列能力资源，但没找到人生红点', 'framework_lens': '方向缺失', 'follow_up_question': '你的人生红点是什么？如果答不出，五步法第一步就错了'}
+  - {'signal': '用户倒推能力但不练习', 'framework_lens': '知行脱节', 'follow_up_question': '你为了红点，最近三个月刻意练习了哪些能力？'}
+updated_at: "2026-06-13"
+author: "legacy"
+trust_level: "medium-high"
 ---
 
 # Truman的个人成长五步法：用一页纸解释全部人生规划

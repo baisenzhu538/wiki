@@ -2,22 +2,29 @@
 id: "skill-反向提示获取优化建议"
 title: "技能：反向提示获取优化建议"
 type: "skill"
-status: draft
-domain: []
+status: "draft"
+domain:
 source_person: "Truman"
 source_context: "src_20260609_03491271"
-source_refs: [src_20260609_03491271]
-wiki_refs: []
-definition_of_done: [操作步骤清晰可执行, 适用场景有正反例, 工具要求明确]
-tools_required: [同一模型或更强模型]
-prerequisite_skills: []
-related: []
+source_refs:
+  - "src_20260609_03491271"
+wiki_refs:
+definition_of_done:
+  - "操作步骤清晰可执行"
+  - "适用场景有正反例"
+  - "工具要求明确"
+tools_required:
+  - "同一模型或更强模型"
+prerequisite_skills:
+related:
 created_at: "2026-06-09T14:38:36+00:00"
 updated_at: "2026-06-09T14:38:36+00:00"
 pipeline:
-  - #skill
-author: legacy
-reviewed_by: pending
+  - None
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 技能：反向提示获取优化建议

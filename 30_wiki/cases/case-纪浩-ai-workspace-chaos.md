@@ -2,7 +2,7 @@
 id: "case-纪浩-ai-workspace-chaos"
 title: "案例：AI工作空间混乱导致'行为退化'而重来"
 type: "case"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -23,15 +23,17 @@ definition_of_done:
   - "案例有可迁移条件和失败模式"
   - "案例区分度≥2类型（成功/失败/边界/反常识）"
 tags:
-  - #domain/ai-collaboration
-  - #domain/yitang
-  - #agent-management
-  - #workspace-design
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-published
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - "confidence-published"
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 案例：AI工作空间混乱导致"行为退化"而重来

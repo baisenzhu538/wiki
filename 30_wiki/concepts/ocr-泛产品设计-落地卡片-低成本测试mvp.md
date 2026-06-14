@@ -5,21 +5,23 @@ domain:
   - "yitang"
 source_refs:
   - "src_20260522_4d086230"
-status: enriched
+status: "enriched"
 title: "OCR: 泛产品设计-落地卡片-低成本测试MVP"
 type: "concept"
 updated_at: 2026-05-22
 tags:
-  - #scene/hardware-debugging
-  - #scene/knowledge-management
-  - #scene/product-design
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/not-for-creative
-  - #boundary/single-use-only
-  - confidence-source-cited
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-source-cited"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.8
+trust_level: "medium"
 ---
 
 # OCR: 泛产品设计-落地卡片-低成本测试MVP

@@ -2,7 +2,7 @@
 id: "case-半肥猫-skill-ab-test"
 title: "案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比"
 type: "case"
-status: draft
+status: "draft"
 domain:
   - "ai-collaboration"
   - "yitang"
@@ -19,21 +19,23 @@ related:
   - "skill-半肥猫-设计Skill的评分规则与风险边界"
   - "dk-半肥猫-skill-rejection-value"
 tags:
-  - #domain/ai-collaboration
-  - #domain/yitang
-  - #scene/ai-collaboration
-  - #scene/business-analysis/conversion-rate
-  - #scene/skill-engineering/course-to-skill
-  - #scene/skill-engineering/eval-testing
-  - #scene/skill-engineering/publish-deploy
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
+  - None
 pipeline:
-  - #boundary/requires-human-judgment
-  - #type/case
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-test
-author: legacy
-reviewed_by: pending
+  - None
+  - None
+  - "confidence-draft"
+  - "confidence-source-cited"
+  - "confidence-verified-by-test"
+author: "legacy"
+reviewed_by: "pending"
+confidence: 0.7
+trust_level: "low"
 ---
 
 # 案例：Skill A/B 测试

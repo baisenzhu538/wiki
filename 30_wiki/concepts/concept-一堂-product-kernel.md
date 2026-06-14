@@ -1,9 +1,8 @@
 ---
-
 id: "concept-一堂-product-kernel"
 title: "产品内核：用户愿意选择你的最小解决方案"
 type: "concept"
-status: reviewed
+status: "reviewed"
 reviewed_by: "周伯通"
 domain:
   - "product"
@@ -25,13 +24,15 @@ wiki_refs:
   - "concept-一堂-hypothesis-driven-business-methodology"
   - "skill-一堂-product-kernel-canvas"
 tags:
-  - #domain/product
-  - #domain/yitang
-  - #scene/business-analysis/product-design
+  - None
+  - None
+  - None
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
+  - "confidence-draft"
+  - "confidence-source-cited"
+author: "legacy"
+confidence: 0.85
+trust_level: "high"
 ---
 
 # 产品内核：用户愿意选择你的最小解决方案
