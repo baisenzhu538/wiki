@@ -1,8 +1,13 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-14T12:00:00+00:00_
+_Last updated: 2026-06-14T23:30:00+00:00_
 
+- [业务公式 ABC 模型（Ambition-Basis-Connection）](frameworks/yt-business-formula-abc-model.md) — source src_20260613_6edbf0af src_20260613_91f90839 src_20260614_6d9f7671
+- [一堂业务公式十大经典范式](concepts/yt-business-formula-ten-paradigms.md) — source src_20260613_8bfdc3d1 src_20260613_6edbf0af
+- [业务公式参数冰山（L1-L6）](concepts/yt-business-formula-parameter-iceberg.md) — source src_20260613_fa7b370d src_20260613_6edbf0af
+- [业务公式六层逻辑关系（L1 模糊 → L6 动态）](concepts/yt-business-formula-six-level-logic.md) — source src_20260613_0ab21e5e src_20260613_6edbf0af
+- [案例：ToC 消费品电商业务公式拆解误判导致放量亏损](cases/case-toc-ecommerce-formula-misjudgment.md) — source src_20260613_6b939d2b src_20260613_a8bcfd38 src_20260613_6edbf0af
 - [AI 大航海项目路演：主题综合知识卡](concepts/ai-hackathon-pitches.md) — source src_20260614_3b46ff78 src_20260614_1d4cc0e0 src_20260614_852f9158 src_20260614_67a2b760 src_20260614_35e5c7a5 src_20260614_32622548 src_20260614_cc542987 src_20260614_507e4b9a src_20260614_6463da99 src_20260614_489554e9 src_20260614_ef4f24d7
 - [AI 方法论与工具栈：主题综合知识卡](frameworks/ai-methodology-tools.md) — source src_20260614_071928f4 src_20260614_dec1c1fe src_20260614_5f13a66f src_20260614_d5cc92d2 src_20260614_cafcbbac src_20260614_c5115d2c src_20260614_b3686a84 src_20260614_144d986e src_20260614_c1430e21 src_20260614_4b226b4f src_20260614_d78e7c7b
 - [企业财务-法务-商务运营实务](concepts/finance-legal-business-operations.md) — source src_20260614_ccba327a src_20260614_d1166483 src_20260614_83ed5758 src_20260614_6e91528d src_20260614_fbe4a480
