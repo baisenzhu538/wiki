@@ -1921,3 +1921,11 @@ Chronological record of knowledge operations.
 - 2026-06-14T13:27:43+00:00 - Created product task `task_20260614_72739331`: 70_product/tasks/task_20260614_72739331-建立药柜业务模型反馈闭环.md
 
 - 2026-06-14T14:45:17+00:00 - Recorded feedback `fb_20260614_b21f58d4` in issues
+
+- 2026-06-14T14:45:56+00:00 - Recorded feedback `fb_20260614_a3d9242a` in issues
+
+- 2026-06-14T14:53:26+00:00 - Created product task `task_20260614_9f4cfc69`: 70_product/tasks/task_20260614_9f4cfc69-王语嫣第二批9张复合卡原文回填与置信度升级.md
+
+- 2026-06-14T14:53:40+00:00 - Created product task `task_20260614_d6d383be`: 70_product/tasks/task_20260614_d6d383be-建立source注册表去重-合并机制.md
+
+- 2026-06-14T14:53:41+00:00 - Created product task `task_20260614_aeadb76f`: 70_product/tasks/task_20260614_aeadb76f-项目级lint清理445-error-1009-warning.md
