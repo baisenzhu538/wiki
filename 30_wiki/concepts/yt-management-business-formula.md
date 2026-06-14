@@ -3,7 +3,21 @@
 title: "业务公式"
 type: "concept"
 status: "enriched"
-domain: []
+domain:
+  - yitang
+  - master
+  - business-strategy
+source_refs:
+  - src_20260613_6b939d2b
+  - src_20260613_6edbf0af
+  - src_20260613_a8bcfd38
+  - src_20260613_91f90839
+  - src_20260613_8bfdc3d1
+  - src_20260613_0ab21e5e
+  - src_20260613_fa7b370d
+  - src_20260614_6d9f7671
+confidence: 0.92
+trust_level: high
 pipeline:
   - confidence-source-cited
 diagnostic_signals:
@@ -13,7 +27,7 @@ diagnostic_signals:
   - signal: "公式有了但不更新，业务变了公式不变"
     framework_lens: "静态公式"
     follow_up_question: "你的业务公式最近一次更新是什么时候？如果超过一个季度，公式可能已经过时"
-updated_at: '2026-06-13'
+updated_at: '2026-06-14'
 ---
 
 # 业务公式
@@ -166,6 +180,11 @@ Weick 称之为"enactment"——你用的测量工具不仅描述现实，它改
 - [[yt-entrepreneur-key-hypotheses]] — 关键假设：业务公式中的每一个变量关系本质上都是一个待验证的假设
 - [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：业务公式是管理者的"认知武器"——它不是用来替代判断的，而是用来在不确定时快速定位关键变量的速查工具
 - [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：业务公式的最终价值不在"算对"而在"讲清"——向团队讲清业务逻辑、向投资人讲清增长驱动。能用一张公式讲清楚业务本质，是最重要的 CEO 表达力
+- [[yt-business-formula-abc-model]] — ABC 模型：业务公式的极简构造语法（目标 + 参数 + 逻辑关系）
+- [[yt-business-formula-ten-paradigms]] — 十大经典范式：按收入/竞争/运营三类目标聚类的 10 个公式模板
+- [[yt-business-formula-parameter-iceberg]] — 参数冰山：L1-L6 参数分层模型
+- [[yt-business-formula-six-level-logic]] — 六层逻辑关系：从模糊到动态的公式理解深度
+- [[case-toc-ecommerce-formula-misjudgment]] — ToC 消费品电商误判案例：业务公式拆解失效的典型教训
 
 ### 知识体系定位
 
