@@ -17,9 +17,9 @@
 | 已拉取详情 | 72 | 含原文（transcript）+ 纪要（meetingSummary） |
 | 主题簇 | 8 | 商业模式、供应链、系统合规、资本运作、数字药房、AI、落地执行、跨界参考 |
 | 并行深挖任务 | 6 | 商业模式、合规、供应链、公司风险、平台合作、数字药房 |
-| 已产出诊断报告 | 5 | 商业模式、合规、供应链、公司风险、平台合作 |
-| 已产出知识卡草稿 | 5 | 同上 |
-| 待完成 | 1 | 数字药房/慢病生态（Agent 运行中） |
+| 已产出诊断报告 | 6 | 商业模式、合规、供应链、公司风险、平台合作、数字药房 |
+| 已产出知识卡草稿 | 6 | 同上 |
+| 待完成 | 0 | — |
 
 ---
 
@@ -72,6 +72,15 @@
 - **关键数据存在重大失真风险**：泉州万达 24h 店“月销 2000 万元”与医药 O2O 单店产能常识严重冲突；“100 品规日均 15 单”也不能线性外推到 4000 品规。
 - **平台依赖度极高**：项目本质是平台流量驱动型业务，对美团、饿了么/淘宝闪购、阿里健康的佣金、流量、接口规则、骑手网络高度敏感，不具备独立获客能力。
 
+### 3.6 数字药房/慢病生态：商业故事完整，但合规路径不成立
+
+- **商业模式被多方确认**：智能药柜 + 慢性病处方药 + “大院处方、小院续方”是五份录音一致的核心逻辑。
+- **合规路径未打通**：6362082 宣称已对接医保电子处方流转平台，但 7683984、8032774 承认当前实际只是让患者拍照/复制大医院处方，再让基层医生“照方抄方”，存在重大法规风险。
+- **医保叙事自相矛盾**：对外称可刷医保、对接医保处方流转，对内却主推不走医保的自费原研药/进口药，两种说法无法同时成立。
+- **主体与资本安排风险高**：7151864 披露原公司存在股东诉讼、银行错账，新疆合作需通过“影子公司”操作，与 6362082 中“三年上市、股票翻 20 倍”目标严重冲突。
+- **宏大叙事需高度警惕**：300 亿营业额、低空配送、执业药师“数字人分身”、三年上市等主要来自单一录音（6362082），缺乏可验证证据。
+- **最大风险点**：处方合规、医保结算、主体合法性三大前提均未验证。
+
 ---
 
 ## 四、交叉验证后的整体风险矩阵
@@ -84,6 +93,7 @@
 | 商业模式 | 🟡 中高 | 高毛利想象缺乏数据、战略路线分裂、扩张目标激进 |
 | 公司/股权 | 🟡 中高 | 代持安排、注册资本与业务规模错配、合同主体频繁变更 |
 | 平台依赖 | 🟡 中高 | 阿里健康口径冲突、接口托管合规风险、关键数据失真、高平台依赖 |
+| 数字药房/处方合规 | 🔴 高 | 拍照/复制处方、医保叙事矛盾、数字人药师、影子公司、主体诉讼 |
 
 ---
 
@@ -123,13 +133,13 @@
 | 供应链/技术深度诊断 | 诊断报告 | `60_feedback/itingnao-deep-dive-supply-chain.md` |
 | 公司/股权/资金风险诊断 | 诊断报告 | `60_feedback/itingnao-deep-dive-corporate-risk.md` |
 | 平台合作与竞争诊断 | 诊断报告 | `60_feedback/itingnao-deep-dive-platforms.md` |
-| 数字药房/慢病生态诊断 | 诊断报告 | `60_feedback/itingnao-deep-dive-digital-pharmacy.md`（待生成） |
+| 数字药房/慢病生态诊断 | 诊断报告 | `60_feedback/itingnao-deep-dive-digital-pharmacy.md` |
 | 商业模式知识卡 | 知识卡草稿 | `60_feedback/knowledge-cards-draft/kc_itingnao_business-model-validation.md` |
 | 合规知识卡 | 知识卡草稿 | `60_feedback/knowledge-cards-draft/kc_itingnao_compliance-validation.md` |
 | 公司风险知识卡 | 知识卡草稿 | `60_feedback/knowledge-cards-draft/kc_itingnao_corporate-risk.md` |
 | 供应链知识卡 | 知识卡草稿 | `60_feedback/knowledge-cards-draft/kc_itingnao_supply-chain-validation.md` |
 | 平台合作知识卡 | 知识卡草稿 | `60_feedback/knowledge-cards-draft/kc_itingnao_platforms-validation.md` |
-| 数字药房知识卡 | 知识卡草稿 | `60_feedback/knowledge-cards-draft/kc_itingnao_digital-pharmacy.md`（待生成） |
+| 数字药房知识卡 | 知识卡草稿 | `60_feedback/knowledge-cards-draft/kc_itingnao_digital-pharmacy.md` |
 
 ---
 
