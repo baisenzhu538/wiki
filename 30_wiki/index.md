@@ -10,6 +10,7 @@ _Last updated: 2026-06-15T00:05:00+00:00_
 - [医药 O2O 成本与毛利结构](concepts/smart-medicine-cabinet-o2o-cost-structure.md) — source src_20260613_0e40f3cd src_20260613_26c69f98 src_20260613_6ed8df4b
 - [诊所 + 智能药柜协同模式：一线观察与风险提示](cases/smart-medicine-cabinet-clinic-risk-observation.md) — source src_20260613_1deb50c8 src_20260613_5f96c5bb src_20260613_420e8085 src_20260613_309b7b52 src_20260613_36a21181 src_20260613_dafb968a
 - [智能药柜分销业态洞察](concepts/smart-medicine-cabinet-distribution.md) — source 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
+- [销售话术偏误识别模式库](frameworks/sales-pitch-bias-patterns.md) — source src_20260613_96e45c45
 - [业务公式 ABC 模型（Ambition-Basis-Connection）](frameworks/yt-business-formula-abc-model.md) — source src_20260613_6edbf0af src_20260613_91f90839 src_20260614_6d9f7671
 - [一堂业务公式十大经典范式](concepts/yt-business-formula-ten-paradigms.md) — source src_20260613_8bfdc3d1 src_20260613_6edbf0af
 - [业务公式参数冰山（L1-L6）](concepts/yt-business-formula-parameter-iceberg.md) — source src_20260613_fa7b370d src_20260613_6edbf0af

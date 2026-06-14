@@ -8606,3 +8606,19 @@ sources:
   derived_outputs: []
   inbox_path: 60_feedback/corrections/corr_20260613_smart-medicine-cabinet-knowledge-graph-interrogation.md
   content_sha256: dafb968adc72d17a19380ed93938e23e396f310be71a7767d791845e5779ee9a
+
+- id: src_20260613_96e45c45
+  title: 七件事集团业务模式深度解读
+  type: report
+  location: 10_raw/sources/src_20260613_96e45c45-qishijian-business-model.md
+  captured_at: '2026-06-13T00:00:00+00:00'
+  registered_at: '2026-06-15T00:00:00+00:00'
+  trust_level: medium
+  freshness: current
+  rights: private
+  related_wiki:
+  - 30_wiki/frameworks/sales-pitch-bias-patterns.md
+  - 30_wiki/entities/七件事集团.md
+  derived_outputs: []
+  inbox_path: 00_inbox/doc_b56bdf39a438_七件事集团业务模式深度解读.md
+  content_sha256: 96e45c4518b11e0715bd66f59af564417c0a92c355939640a2615c2c1c1ffbe4
