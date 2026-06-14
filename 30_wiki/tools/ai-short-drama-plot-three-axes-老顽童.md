@@ -1,5 +1,5 @@
 ---
-id: ai-short-drama-plot-three-axes
+id: ai-short-drama-plot-three-axes-老顽童
 title: 剧情三板斧：短剧剧本的情节张力设计工具
 type: tool
 status: enriched
@@ -12,16 +12,16 @@ source_refs:
   - src_20260613_687c4ec0
   - src_20260613_12d63c1c
 created_at: "2026-06-13"
-updated_at: "2026-06-13"
+updated_at: "2026-06-14"
 author: 老顽童
 reviewed_by: 老顽童
 review_date: "2026-06-13"
 trust_level: medium
 related:
-  - "[[ai-short-drama-ice-fire-scripting-compass]]"
-  - "[[ai-short-drama-ice-fire-dissection-compass]]"
-  - "[[ai-short-drama-script-planning-three-axes]]"
-  - "[[ai-short-drama-conflict-three-axes]]"
+  - "[[ai-short-drama-ice-fire-scripting-compass-老顽童]]"
+  - "[[ai-short-drama-ice-fire-dissection-compass-老顽童]]"
+  - "[[ai-short-drama-script-planning-three-axes-老顽童]]"
+  - "[[ai-short-drama-conflict-three-axes-老顽童]]"
 tags:
   - "#ai-short-drama"
   - "#scriptwriting"
@@ -160,9 +160,9 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[ai-short-drama-ice-fire-scripting-compass]]：剧情三板斧所在的顶层罗盘
-- [[ai-short-drama-conflict-three-axes]]：提供更细粒度的矛盾冲突设计
-- [[ai-short-drama-script-planning-three-axes]]：剧情三板斧之后的剧本策划落地工具
+- [[ai-short-drama-ice-fire-scripting-compass-老顽童]]：剧情三板斧所在的顶层罗盘
+- [[ai-short-drama-conflict-three-axes-老顽童]]：提供更细粒度的矛盾冲突设计
+- [[ai-short-drama-script-planning-three-axes-老顽童]]：剧情三板斧之后的剧本策划落地工具
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: ai-short-drama-ice-fire-scripting-compass
+id: ai-short-drama-ice-fire-scripting-compass-老顽童
 title: 冰火写本罗盘：AI短剧剧本策划全流程体系
 type: concept
 status: enriched
@@ -12,17 +12,17 @@ source_refs:
   - src_20260613_687c4ec0
   - src_20260613_12d63c1c
 created_at: "2026-06-13"
-updated_at: "2026-06-13"
+updated_at: "2026-06-14"
 author: 老顽童
 reviewed_by: 老顽童
 review_date: "2026-06-13"
 trust_level: medium
 related:
-  - "[[ai-short-drama-ice-fire-dissection-compass]]"
-  - "[[ai-short-drama-plot-three-axes]]"
-  - "[[ai-short-drama-script-planning-three-axes]]"
-  - "[[ai-short-drama-framework-three-axes]]"
-  - "[[ai-short-drama-conflict-three-axes]]"
+  - "[[ai-short-drama-ice-fire-dissection-compass-老顽童]]"
+  - "[[ai-short-drama-plot-three-axes-老顽童]]"
+  - "[[ai-short-drama-script-planning-three-axes-老顽童]]"
+  - "[[ai-short-drama-framework-three-axes-老顽童]]"
+  - "[[ai-short-drama-conflict-three-axes-老顽童]]"
 tags:
   - "#ai-short-drama"
   - "#scriptwriting"
@@ -120,11 +120,11 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[ai-short-drama-ice-fire-dissection-compass]]：逆向拆解爆款剧本的五大维度
-- [[ai-short-drama-plot-three-axes]]：剧情三板斧（极致对立、高能吸睛、立意升华）
-- [[ai-short-drama-script-planning-three-axes]]：剧本策划三板斧（剧本基地、内容走向、剧情终局）
-- [[ai-short-drama-framework-three-axes]]：框架三板斧（深渊入局、迷雾博弈、决战收官）
-- [[ai-short-drama-conflict-three-axes]]：矛盾冲突三板斧（外在阵营、内在人际、自我宿命）
+- [[ai-short-drama-ice-fire-dissection-compass-老顽童]]：逆向拆解爆款剧本的五大维度
+- [[ai-short-drama-plot-three-axes-老顽童]]：剧情三板斧（极致对立、高能吸睛、立意升华）
+- [[ai-short-drama-script-planning-three-axes-老顽童]]：剧本策划三板斧（剧本基地、内容走向、剧情终局）
+- [[ai-short-drama-framework-three-axes-老顽童]]：框架三板斧（深渊入局、迷雾博弈、决战收官）
+- [[ai-short-drama-conflict-three-axes-老顽童]]：矛盾冲突三板斧（外在阵营、内在人际、自我宿命）
 
 ---
 

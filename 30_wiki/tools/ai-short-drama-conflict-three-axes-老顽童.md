@@ -1,5 +1,5 @@
 ---
-id: ai-short-drama-conflict-three-axes
+id: ai-short-drama-conflict-three-axes-老顽童
 title: 矛盾冲突三板斧：短剧冲突分层设计工具
 type: tool
 status: enriched
@@ -12,15 +12,15 @@ source_refs:
   - src_20260613_687c4ec0
   - src_20260613_12d63c1c
 created_at: "2026-06-13"
-updated_at: "2026-06-13"
+updated_at: "2026-06-14"
 author: 老顽童
 reviewed_by: 老顽童
 review_date: "2026-06-13"
 trust_level: medium
 related:
-  - "[[ai-short-drama-ice-fire-scripting-compass]]"
-  - "[[ai-short-drama-plot-three-axes]]"
-  - "[[ai-short-drama-framework-three-axes]]"
+  - "[[ai-short-drama-ice-fire-scripting-compass-老顽童]]"
+  - "[[ai-short-drama-plot-three-axes-老顽童]]"
+  - "[[ai-short-drama-framework-three-axes-老顽童]]"
 tags:
   - "#ai-short-drama"
   - "#scriptwriting"
@@ -167,9 +167,9 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[ai-short-drama-ice-fire-scripting-compass]]：矛盾冲突三板斧所在的顶层罗盘
-- [[ai-short-drama-plot-three-axes]]：剧情张力工具，与冲突三板斧配合使用
-- [[ai-short-drama-framework-three-axes]]：框架三板斧，决定冲突在整体结构中的落点
+- [[ai-short-drama-ice-fire-scripting-compass-老顽童]]：矛盾冲突三板斧所在的顶层罗盘
+- [[ai-short-drama-plot-three-axes-老顽童]]：剧情张力工具，与冲突三板斧配合使用
+- [[ai-short-drama-framework-three-axes-老顽童]]：框架三板斧，决定冲突在整体结构中的落点
 
 ---
 
