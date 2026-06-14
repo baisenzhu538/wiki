@@ -2,16 +2,12 @@
 
 
 
+
 id: "skill-纪浩-问题导向备课法"
 title: "技能：问题导向备课法"
 type: "skill"
 domain:
   - ai-collaboration
-  - decision-making
-  - design
-  - management
-  - ai-saas
-  - personal-growth
   - yitang
 domain:
 domain:

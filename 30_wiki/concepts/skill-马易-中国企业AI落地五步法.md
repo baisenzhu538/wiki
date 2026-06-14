@@ -2,13 +2,13 @@
 
 
 
+
 id: "skill-马易-中国企业AI落地五步法"
 title: "技能：中国企业AI落地五步法"
 type: "skill"
 domain:
-  - ai-collaboration
   - ai-saas
-  - design
+  - ai-collaboration
   - yitang
 domain:
 domain:

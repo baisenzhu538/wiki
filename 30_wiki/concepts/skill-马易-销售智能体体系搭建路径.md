@@ -2,16 +2,13 @@
 
 
 
+
 id: "skill-马易-销售智能体体系搭建路径"
 title: "技能：销售智能体体系搭建路径"
 type: "skill"
 domain:
-  - ai-collaboration
-  - product
-  - design
-  - business-strategy
-  - management
   - ai-saas
+  - ai-collaboration
   - yitang
 domain:
 domain:

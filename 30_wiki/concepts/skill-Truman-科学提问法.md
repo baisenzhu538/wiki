@@ -2,15 +2,13 @@
 
 
 
+
 id: "skill-Truman-科学提问法"
 title: "技能：科学提问法"
 type: "skill"
 domain:
-  - ai-collaboration
-  - management
-  - ai-saas
-  - personal-growth
   - yitang
+  - ai-collaboration
 domain:
 domain:
 status: "draft"

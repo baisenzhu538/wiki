@@ -2,13 +2,13 @@
 
 
 
+
 id: "skill-Truman-职场异步协作提问法"
 title: "技能：职场异步协作提问法"
 type: "skill"
 domain:
-  - ai-collaboration
-  - management
   - yitang
+  - ai-collaboration
 domain:
 domain:
 status: "draft"

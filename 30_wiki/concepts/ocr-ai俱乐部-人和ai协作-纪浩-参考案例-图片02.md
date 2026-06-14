@@ -1,17 +1,13 @@
 ---
 
+
 title: "OCR: AI俱乐部-人和AI协作-纪浩-参考案例-图片02"
 type: concept
 domain:
-  - management
-  - product
-  - needs-review
-  - business-strategy
-  - ai-saas
+  - ai-collaboration
   - yitang
 status: draft
 source_refs:
-  - src_20260609_9223aac2
 created_at: "2026-06-09T14:03:49+00:00"
 updated_at: "2026-06-09T14:23:54+00:00"
 id: "ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02"

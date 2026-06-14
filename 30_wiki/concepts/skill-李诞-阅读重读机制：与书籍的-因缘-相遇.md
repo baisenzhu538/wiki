@@ -2,11 +2,11 @@
 
 
 
+
 id: "skill-李诞-阅读重读机制：与书籍的-因缘-相遇"
 title: "技能：阅读重读机制：与书籍的'因缘'相遇"
 type: "skill"
 domain:
-  - product
   - personal-growth
   - yitang
 domain:

@@ -2,13 +2,13 @@
 
 
 
+
 id: "skill-马易-AI落地前置条件验证"
 title: "技能：AI落地前置条件验证"
 type: "skill"
 domain:
-  - ai-collaboration
   - ai-saas
-  - product
+  - ai-collaboration
   - yitang
 domain:
 domain:

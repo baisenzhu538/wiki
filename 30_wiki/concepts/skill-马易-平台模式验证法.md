@@ -2,16 +2,13 @@
 
 
 
+
 id: "skill-马易-平台模式验证法"
 title: "技能：平台模式验证法"
 type: "skill"
 domain:
-  - ai-collaboration
-  - decision-making
-  - design
-  - product
-  - business-strategy
   - ai-saas
+  - ai-collaboration
   - yitang
 domain:
 domain:

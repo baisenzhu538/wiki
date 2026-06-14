@@ -2,13 +2,13 @@
 
 
 
+
 id: "skill-马易-减少输入噪音法"
 title: "技能：减少输入噪音法"
 type: "skill"
 domain:
-  - ai-collaboration
   - ai-saas
-  - decision-making
+  - ai-collaboration
   - yitang
 domain:
 domain:

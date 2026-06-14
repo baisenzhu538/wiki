@@ -2,13 +2,13 @@
 
 
 
+
 id: "skill-马易-痛点驱动的数字化"
 title: "技能：痛点驱动的数字化"
 type: "skill"
 domain:
-  - ai-collaboration
   - ai-saas
-  - product
+  - ai-collaboration
   - yitang
 domain:
 domain:

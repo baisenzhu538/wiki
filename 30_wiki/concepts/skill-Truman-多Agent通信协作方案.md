@@ -2,18 +2,13 @@
 
 
 
+
 id: "skill-Truman-多Agent通信协作方案"
 title: "技能：多Agent通信协作方案"
 type: "skill"
 domain:
-  - ai-collaboration
-  - decision-making
-  - design
-  - product
-  - management
-  - ai-saas
-  - personal-growth
   - yitang
+  - ai-collaboration
 domain:
 domain:
 status: "draft"

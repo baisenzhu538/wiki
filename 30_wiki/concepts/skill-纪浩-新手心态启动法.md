@@ -2,16 +2,12 @@
 
 
 
+
 id: "skill-纪浩-新手心态启动法"
 title: "技能：新手心态启动法"
 type: "skill"
 domain:
   - ai-collaboration
-  - decision-making
-  - product
-  - management
-  - ai-saas
-  - personal-growth
   - yitang
 domain:
 domain:

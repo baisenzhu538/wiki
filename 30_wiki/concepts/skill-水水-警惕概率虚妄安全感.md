@@ -2,14 +2,13 @@
 
 
 
+
 id: "skill-水水-警惕概率虚妄安全感"
 title: "技能：警惕概率虚妄安全感"
 type: "skill"
 domain:
-  - ai-collaboration
   - master
-  - product
-  - business-strategy
+  - ai-collaboration
   - yitang
 domain:
 domain:

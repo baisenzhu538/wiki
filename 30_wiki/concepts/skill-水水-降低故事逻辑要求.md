@@ -2,15 +2,13 @@
 
 
 
+
 id: "skill-水水-降低故事逻辑要求"
 title: "技能：降低故事逻辑要求"
 type: "skill"
 domain:
-  - ai-collaboration
   - master
-  - design
-  - finance-legal
-  - business-strategy
+  - ai-collaboration
   - yitang
 domain:
 domain:

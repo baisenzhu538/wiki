@@ -2,15 +2,12 @@
 
 
 
+
 id: "skill-纪浩-Agent开工检查单制作法"
 title: "技能：Agent开工检查单制作法"
 type: "skill"
 domain:
   - ai-collaboration
-  - decision-making
-  - product
-  - management
-  - ai-saas
   - yitang
 domain:
 domain:

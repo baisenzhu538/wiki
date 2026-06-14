@@ -2,16 +2,13 @@
 
 
 
+
 id: "skill-Truman-AI时代IPO模型重构"
 title: "技能：AI时代IPO模型重构"
 type: "skill"
 domain:
-  - ai-collaboration
-  - decision-making
-  - product
-  - management
-  - ai-saas
   - yitang
+  - ai-collaboration
 domain:
 domain:
 status: "draft"

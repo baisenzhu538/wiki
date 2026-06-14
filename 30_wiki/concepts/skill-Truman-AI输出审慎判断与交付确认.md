@@ -2,15 +2,13 @@
 
 
 
+
 id: "skill-Truman-AI输出审慎判断与交付确认"
 title: "技能：AI输出审慎判断与交付确认"
 type: "skill"
 domain:
-  - ai-collaboration
-  - product
-  - decision-making
-  - ai-saas
   - yitang
+  - ai-collaboration
 domain:
 domain:
 status: "draft"

@@ -2,16 +2,12 @@
 
 
 
+
 id: "skill-纪浩-识别AI不可维护代码"
 title: "技能：识别AI不可维护代码"
 type: "skill"
 domain:
   - ai-collaboration
-  - decision-making
-  - product
-  - management
-  - ai-saas
-  - personal-growth
   - yitang
 domain:
 domain:

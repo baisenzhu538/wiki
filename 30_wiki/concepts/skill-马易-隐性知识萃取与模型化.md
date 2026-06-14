@@ -2,17 +2,13 @@
 
 
 
+
 id: "skill-马易-隐性知识萃取与模型化"
 title: "技能：隐性知识萃取与模型化"
 type: "skill"
 domain:
-  - ai-collaboration
-  - decision-making
-  - design
-  - product
-  - management
   - ai-saas
-  - personal-growth
+  - ai-collaboration
   - yitang
 domain:
 domain:

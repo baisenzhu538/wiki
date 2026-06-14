@@ -2,16 +2,13 @@
 
 
 
+
 id: "skill-马易-业务问题AI化拆解-餐饮设计案例法"
 title: "技能：业务问题AI化拆解-餐饮设计案例法"
 type: "skill"
 domain:
-  - ai-collaboration
-  - decision-making
-  - design
-  - product
   - ai-saas
-  - personal-growth
+  - ai-collaboration
   - yitang
 domain:
 domain:

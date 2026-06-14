@@ -2,13 +2,13 @@
 
 
 
+
 id: "skill-马易-数据标注正确法"
 title: "技能：数据标注正确法"
 type: "skill"
 domain:
-  - ai-collaboration
   - ai-saas
-  - product
+  - ai-collaboration
   - yitang
 domain:
 domain:

@@ -2,16 +2,13 @@
 
 
 
+
 id: "skill-Truman-上下文质量管理（AI协作）"
 title: "技能：上下文质量管理（AI协作）"
 type: "skill"
 domain:
-  - ai-collaboration
-  - decision-making
-  - product
-  - management
-  - ai-saas
   - yitang
+  - ai-collaboration
 domain:
 domain:
 status: "draft"

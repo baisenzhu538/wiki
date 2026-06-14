@@ -2,16 +2,12 @@
 
 
 
+
 id: "skill-纪浩-多视角切换思考法"
 title: "技能：多视角切换思考法"
 type: "skill"
 domain:
   - ai-collaboration
-  - decision-making
-  - product
-  - management
-  - ai-saas
-  - personal-growth
   - yitang
 domain:
 domain:

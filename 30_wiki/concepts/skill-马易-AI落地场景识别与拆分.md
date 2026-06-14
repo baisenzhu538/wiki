@@ -2,16 +2,13 @@
 
 
 
+
 id: "skill-马易-AI落地场景识别与拆分"
 title: "技能：AI落地场景识别与拆分"
 type: "skill"
 domain:
-  - ai-collaboration
-  - decision-making
-  - product
-  - business-strategy
-  - management
   - ai-saas
+  - ai-collaboration
   - yitang
 domain:
 domain:

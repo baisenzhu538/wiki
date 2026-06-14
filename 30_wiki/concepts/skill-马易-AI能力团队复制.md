@@ -2,16 +2,13 @@
 
 
 
+
 id: "skill-马易-AI能力团队复制"
 title: "技能：AI能力团队复制"
 type: "skill"
 domain:
-  - ai-collaboration
-  - decision-making
-  - product
-  - management
   - ai-saas
-  - personal-growth
+  - ai-collaboration
   - yitang
 domain:
 domain:

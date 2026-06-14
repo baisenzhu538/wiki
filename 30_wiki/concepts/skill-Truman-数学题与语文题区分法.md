@@ -2,14 +2,13 @@
 
 
 
+
 id: "skill-Truman-数学题与语文题区分法"
 title: "技能：数学题与语文题区分法"
 type: "skill"
 domain:
-  - ai-collaboration
-  - ai-saas
-  - personal-growth
   - yitang
+  - ai-collaboration
 domain:
 domain:
 status: "draft"

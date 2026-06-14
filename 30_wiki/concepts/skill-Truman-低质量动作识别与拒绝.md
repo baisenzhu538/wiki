@@ -2,18 +2,13 @@
 
 
 
+
 id: "skill-Truman-低质量动作识别与拒绝"
 title: "技能：低质量动作识别与拒绝"
 type: "skill"
 domain:
-  - ai-collaboration
-  - decision-making
-  - business-strategy
-  - management
-  - ai-saas
-  - personal-growth
   - yitang
-  - entrepreneurship
+  - ai-collaboration
 domain:
 domain:
 status: "draft"

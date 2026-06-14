@@ -2,16 +2,13 @@
 
 
 
+
 id: "skill-Truman-Feature特性层训练法"
 title: "技能：Feature特性层训练法"
 type: "skill"
 domain:
-  - ai-collaboration
-  - product
-  - management
-  - ai-saas
-  - personal-growth
   - yitang
+  - ai-collaboration
 domain:
 domain:
 status: "draft"

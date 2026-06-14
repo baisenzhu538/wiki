@@ -2,16 +2,13 @@
 
 
 
+
 id: "skill-Truman-人在环渐进自动化策略"
 title: "技能：人在环渐进自动化策略"
 type: "skill"
 domain:
-  - ai-collaboration
-  - decision-making
-  - management
-  - ai-saas
-  - personal-growth
   - yitang
+  - ai-collaboration
 domain:
 domain:
 status: "draft"
