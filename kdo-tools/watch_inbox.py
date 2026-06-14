@@ -53,7 +53,7 @@ def scan() -> list[dict]:
         STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
         STATE_FILE.write_text("{}")
 
-    state = json.loads(STATE_FILE.read_text() or "{}")
+    state = json.loads(STATE_FILE.read_text(encoding="utf-8") or "{}")
     discoveries = []
 
     for root, dirs, files in os.walk(INBOX):
@@ -76,7 +76,7 @@ def scan() -> list[dict]:
                 })
                 state[key] = file_hash
 
-    STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False))
+    STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding="utf-8")
     return discoveries
 
 
