@@ -23,21 +23,32 @@
 - `itingnao-deep-dive-digital-pharmacy.md`：数字药房/慢病生态诊断
 - `medical-contamination-in-nonmed-report.md`：12 条被污染录音清单
 
-### 1.3 知识卡草稿（`60_feedback/knowledge-cards-draft/`）
-- `kc_p0_01_national-policy-redlines.md`：48 号公告红线
-- `kc_p0_02_regional-policy-map.md`：全国三档分化
-- `kc_p0_03_financial_model.md`：单点财务模型
-- `kc_p0_04_fraud_detection.md`：招商骗局识别
-- `kc_p0_05_o2o_cost_structure.md`：O2O 平台费用
-- `kc_p0_06_clinic-cabinet-risk-observation.md`：诊所+药柜风险
-- `kc_p1_09_giants_why_not_clinic_cabinet.md`
-- `kc_p1_10_medical_shortvideo_compliance_for_clinics.md`
-- `kc_p1_11_clinic_cabinet_legal_relationships.md`
-- `kc_p1_12_site_selection_deep_dive.md`
-- `kc_p1_13_failure_patterns_case_library.md`：失败模式案例库
-- `kc_p1_14_consumer_behavior_and_willingness.md`
-- `kc_p1_15_international_experience.md`
-- `field-validation-toolkit.md`：一线验证工具包
+### 1.3 已生成基础卡（`60_feedback/itingnao/medical-cabinet-longterm/`）
+
+A 阶段共生成 **14 张基础卡**：
+
+**第一阶段：止血型纠偏卡（已完成）**
+- `concept-medical-cabinet-fraud-detection.md`：招商骗局识别
+- `concept-medical-cabinet-compliance-redlines.md`：合规红线
+- `concept-pitch-vs-regulation-misalignment.md`：推销口径 vs 监管口径对照
+
+**第二阶段：基础事实卡（已完成）**
+- `fact-national-policy-redlines.md`：48 号公告红线
+- `concept-regional-policy-map.md`：全国政策三档分化
+- `method-single-point-financial-model.md`：单点财务模型
+- `fact-o2o-cost-structure.md`：O2O 平台费用结构
+
+**第三阶段：深度洞察卡（已完成）**
+- `insight-failure-patterns-case-library.md`：失败模式案例库
+- `concept-clinic-cabinet-legal-relationships.md`：诊所+药柜法律关系
+- `method-medical-cabinet-site-selection.md`：选址框架
+- `insight-international-medical-cabinet-experience.md`：国际经验对照
+- `insight-consumer-willingness-medical-cabinet.md`：消费者支付意愿
+- `insight-giants-why-not-clinic-cabinet.md`：巨头为何不布局诊所药柜
+
+**第四阶段：专项补充卡（部分完成）**
+- `concept-medical-cabinet-hardware-technology.md`：硬件技术专题
+- 待完成：`medical-shortvideo-compliance-for-clinics.md`
 
 ### 1.4 纠偏/深挖文件（`60_feedback/corrections/`）
 - 约 20+ 份 `corr_20260613_smart-medicine-cabinet-iteration-*` 文件
@@ -137,47 +148,53 @@
 
 ## 四、知识卡整理优先级
 
-### 第一阶段：止血型纠偏卡（立即）
-1. **药柜招商骗局识别卡**（基于 `kc_p0_04_fraud_detection.md` 和修正未来药房案例）
-2. **合规红线卡**：明确 GSP、医保定点协议、处方管理办法、反商业贿赂法中的禁区
-3. **推销口径 vs 监管口径对照卡**：将录音中的夸大表述与法规原文逐条对照
+### 第一阶段：止血型纠偏卡（✅ 已完成）
+1. ~~药柜招商骗局识别卡~~ → `concept-medical-cabinet-fraud-detection.md`
+2. ~~合规红线卡~~ → `concept-medical-cabinet-compliance-redlines.md`
+3. ~~推销口径 vs 监管口径对照卡~~ → `concept-pitch-vs-regulation-misalignment.md`
 
-### 第二阶段：基础事实卡（1–2 周内）
-4. **全国智能药柜政策地图卡**（更新 `kc_p0_02_regional-policy-map.md`）
-5. **48 号公告红线卡**（完善 `kc_p0_01_national-policy-redlines.md`）
-6. **单点财务模型卡**（更新 `kc_p0_03_financial_model.md`，标注假设与缺口）
-7. **O2O 平台费用结构卡**（完善 `kc_p0_05_o2o_cost_structure.md`）
+### 第二阶段：基础事实卡（✅ 已完成）
+4. ~~全国智能药柜政策地图卡~~ → `concept-regional-policy-map.md`
+5. ~~48 号公告红线卡~~ → `fact-national-policy-redlines.md`
+6. ~~单点财务模型卡~~ → `method-single-point-financial-model.md`
+7. ~~O2O 平台费用结构卡~~ → `fact-o2o-cost-structure.md`
 
-### 第三阶段：深度洞察卡（需线下数据）
-8. **失败模式案例库卡**（完善 `kc_p1_13_failure_patterns_case_library.md`）
-9. **诊所+药柜法律关系卡**（`kc_p1_11_clinic_cabinet_legal_relationships.md`）
-10. **选址框架卡**（`kc_p1_12_site_selection_deep_dive.md`）
-11. **国际经验对照卡**（`kc_p1_15_international_experience.md`）
-12. **消费者支付意愿卡**（`kc_p1_14_consumer_behavior_and_willingness.md`）
+### 第三阶段：深度洞察卡（✅ 已完成）
+8. ~~失败模式案例库卡~~ → `insight-failure-patterns-case-library.md`
+9. ~~诊所+药柜法律关系卡~~ → `concept-clinic-cabinet-legal-relationships.md`
+10. ~~选址框架卡~~ → `method-medical-cabinet-site-selection.md`
+11. ~~国际经验对照卡~~ → `insight-international-medical-cabinet-experience.md`
+12. ~~消费者支付意愿卡~~ → `insight-consumer-willingness-medical-cabinet.md`
+13. ~~巨头为何不布局诊所药柜卡~~ → `insight-giants-why-not-clinic-cabinet.md`
 
-### 第四阶段：专项补充卡
-13. 硬件技术专题卡（基于录音 6269640 等设备开发内容）
-14. 医疗短视频合规卡（`kc_p1_10_medical_shortvideo_compliance_for_clinics.md`）
-15. 巨头为何不布局诊所药柜卡（`kc_p1_09_giants_why_not_clinic_cabinet.md`）
+### 第四阶段：专项补充卡（🔄 部分完成）
+14. ~~硬件技术专题卡~~ → `concept-medical-cabinet-hardware-technology.md`
+15. 医疗短视频合规卡（`medical-shortvideo-compliance-for-clinics.md`）— **待生成**
 
 ---
 
 ## 五、下一步行动建议
 
-### 立即行动（本轮可完成）
-1. **创建药柜主题专门工作目录**：`60_feedback/itingnao/medical-cabinet-longterm/`
-2. **整理"推销口径 vs 监管口径对照表"**：优先处理合规红线冲突。
-3. **复核 12 条被污染录音**：确定是否正式移入药柜处理队列。
-4. **复核"300 万 SKU"和"2000 万元"等异常数据**：核对原始录音/纪要。
+### A 阶段已完成（本轮）
+1. ✅ 创建药柜主题专门工作目录：`60_feedback/itingnao/medical-cabinet-longterm/`
+2. ✅ 生成 14 张基础卡，覆盖止血纠偏、基础事实、深度洞察、硬件技术专题。
+3. ✅ 所有卡片均标注置信度、信任等级、来源引用、局限性和待核验问题。
+4. ✅ 对"300 万 SKU"等异常数据在相关卡片中标记为待复核/降级。
 
-### 短期内（1–2 周）
-5. 生成第一阶段 3 张止血型纠偏卡。
-6. 更新全国政策地图和 48 号公告红线卡。
-7. 建立"线下调研任务清单"模板，分配验证责任。
+### B 阶段建议（下一步）
+1. **生成医疗短视频合规卡**：`medical-shortvideo-compliance-for-clinics.md`
+2. **复核 12 条被污染录音**：确定是否正式移入药柜处理队列并生成对应卡片。
+3. **建立"线下调研任务清单"模板**：分配验证责任，重点验证 P0 项目（单点销售额、医保个账口径、设备真实成本、200 台订单书面材料等）。
+4. **复核已进入 `30_wiki/` 的药柜卡**：`smart-medicine-cabinet-distribution.md` 是否需要按新发现的矛盾点更新或降级。
+5. **处理异常数据**：
+   - "300 万 SKU" vs 800 SKU vs 336 品规
+   - "泉州万达 24h 店月销 2000 万元"
+   - 6 月 1 日深圳龙岗上线性质（内测 vs 对外运营）
 
 ### 长期（持续）
-8. 每获得一项线下验证结果，更新对应知识卡并标注验证日期与来源。
-9. 定期复核已进入 `30_wiki/` 的药柜卡，发现错误立即纠偏或降级。
+6. 每获得一项线下验证结果，更新对应知识卡并标注验证日期与来源。
+7. 定期复核药柜卡，建议每 3 个月复核一次，政策和市场变化快。
+8. 仅当卡片可信度 ≥ 0.78、来源清晰、经过外部交叉验证时，方可进入 `30_wiki/`。
 
 ---
 
