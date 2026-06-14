@@ -36,12 +36,31 @@ function readCompact(id) {
 }
 
 function subThemeClassify(r) {
-  const name = r.name.toLowerCase();
+  const c = readCompact(r.id);
+  const name = (c?.name || r.name).toLowerCase();
   const tags = r.tags.toLowerCase();
   const full = name + ' ' + tags;
-  const c = readCompact(r.id);
   const summary = (c?.meetingSummary?.content || '').toLowerCase();
   const allText = full + ' ' + summary;
+
+  // 特殊 ID 强制映射
+  const forceMap = {
+    '8042676': { theme: 'methodology', subTheme: '精益创业与假设验证' },
+    '5640373': { theme: 'ai', subTheme: '产业AI运营案例' },
+    '3794467': { theme: 'business', subTheme: '财务法务商务运营' },
+    '3685844': { theme: 'business', subTheme: '产品战略与商业取舍' },
+    '7095114': { theme: 'yitang', subTheme: '思维模型与认知升级' },
+    '4431344': { theme: 'ai', subTheme: 'AI方法论实践' },
+    '7672148': { theme: 'ai', subTheme: 'AI工具栈与协作平台' },
+    '4275381': { theme: 'yitang', subTheme: '一堂社群与规模化实践' },
+    '6149126': { theme: 'business', subTheme: 'AI项目工程协作' },
+    '4046714': { theme: 'ai', subTheme: 'AI大航海项目路演案例' },
+    '4042877': { theme: 'ai', subTheme: 'AI大航海项目路演案例' },
+    '4033525': { theme: 'ai', subTheme: 'AI大航海项目路演案例' },
+    '4023226': { theme: 'ai', subTheme: 'AI大航海项目路演案例' },
+    '3117385': { theme: 'ai', subTheme: 'AI落地方法论与场景选择' },
+  };
+  if (forceMap[String(r.id)]) return forceMap[String(r.id)];
 
   if (medicalIds.has(String(r.id))) {
     return { theme: 'medical-moved', subTheme: '已移入药柜队列' };

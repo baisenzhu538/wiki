@@ -1,4 +1,4 @@
-KDO 健康巡检 — 2026-06-14 06:06
+KDO 健康巡检 — 2026-06-14 06:09
 ┌────────────────────────────────────────────────┐
 │ ✅  TODO 残留: 0                                      │
 │ ⚠️  孤立页面: 587                                    │
@@ -13,7 +13,7 @@ KDO 健康巡检 — 2026-06-14 06:06
 │ ✅  Domain 审计: 24 issues                         │
 │ ✅  索引更新: 1/1 ok                         │
 │ ⚠️  链接密度: 340 findings                         │
-│ ⛔  入库门禁: 1346 issues (761F/585W)        │
+│ ⛔  入库门禁: 1346 issues (1F/1345W)        │
 └────────────────────────────────────────────────┘
 综合评分: 4/7 项异常，建议关注。
 
@@ -2865,11 +2865,11 @@ KDO 健康巡检 — 2026-06-14 06:06
 
 ## Detector A: 新卡健康度
   [WARN] ai-short-drama-ice-fire-scripting-compass.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] ai-short-drama-ice-fire-scripting-compass.md: all outbound links stay in same domain {'ai-collaboration', 'yitang', 'product'}
+  [WARN] ai-short-drama-ice-fire-scripting-compass.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
   [FAIL] concept-ai-native-organization-five-steps.md: title is empty
   [WARN] concept-ai-native-organization-five-steps.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] concept-纪浩-ai-collaboration-five-layer.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] concept-纪浩-ai-collaboration-five-layer.md: all outbound links stay in same domain {'ai-collaboration', 'yitang'}
+  [WARN] concept-纪浩-ai-collaboration-five-layer.md: all outbound links stay in same domain {'yitang', 'ai-collaboration'}
   [FAIL] ocr-一堂-人机协作-双三角模型.md: id is empty
   [WARN] ocr-一堂-人机协作-双三角模型.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] ocr-一堂-创业必修-课程清单.md: id is empty
@@ -2955,9 +2955,9 @@ KDO 健康巡检 — 2026-06-14 06:06
   [WARN] sales-pitch-bias-patterns.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] skill-ai-problem-question-check.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] skill-分享输出检验法.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] skill-分享输出检验法.md: all outbound links stay in same domain {'learning-methodology', 'yitang'}
+  [WARN] skill-分享输出检验法.md: all outbound links stay in same domain {'yitang', 'learning-methodology'}
   [WARN] skill-立即实践转化法.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] skill-立即实践转化法.md: all outbound links stay in same domain {'learning-methodology', 'yitang'}
+  [WARN] skill-立即实践转化法.md: all outbound links stay in same domain {'yitang', 'learning-methodology'}
   [WARN] smart-medicine-cabinet-distribution.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] source-code-delivery-model.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] yt-ai-startup-20-risky-hypotheses.md: related is empty (type=tool)
@@ -3280,7 +3280,7 @@ KDO 健康巡检 — 2026-06-14 06:06
   [FAIL] yt-unit-model-selection.md: missing or unparseable frontmatter
   [WARN] yt-unit-model-three-tools.md: related is empty (type=framework)
   [WARN] ai-short-drama-ice-fire-dissection-compass.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] ai-short-drama-ice-fire-dissection-compass.md: all outbound links stay in same domain {'ai-collaboration', 'yitang', 'product'}
+  [WARN] ai-short-drama-ice-fire-dissection-compass.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
   [WARN] private-domain-saas-sales-funnel.md: related is empty (type=framework)
   [WARN] private-domain-saas-sales-funnel.md: Synthesis has 0 wikilinks (threshold: 2)
   [FAIL] yt-decision-abcd-model.md: title is empty
@@ -3299,9 +3299,9 @@ KDO 健康巡检 — 2026-06-14 06:06
   [WARN] yt-unit-model-overview.md: diagnostic_signals missing (type=framework)
   [WARN] yt-unit-model-overview.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] ai-short-drama-plot-three-axes.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] ai-short-drama-plot-three-axes.md: all outbound links stay in same domain {'ai-collaboration', 'yitang', 'product'}
+  [WARN] ai-short-drama-plot-three-axes.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
   [WARN] ai-short-drama-script-planning-three-axes.md: Synthesis has 0 wikilinks (threshold: 2)
-  [WARN] ai-short-drama-script-planning-three-axes.md: all outbound links stay in same domain {'ai-collaboration', 'yitang', 'product'}
+  [WARN] ai-short-drama-script-planning-three-axes.md: all outbound links stay in same domain {'yitang', 'ai-collaboration', 'product'}
   [WARN] sk-ai-ai-workspace-setup.md: Synthesis has 0 wikilinks (threshold: 2)
   [WARN] sk-ai-ai-workspace-setup.md: all outbound links stay in same domain {'ai-collaboration'}
   [WARN] sk-ai-evidence-check.md: Synthesis has 0 wikilinks (threshold: 2)
@@ -3327,7 +3327,7 @@ KDO 健康巡检 — 2026-06-14 06:06
   [WARN] skill-note-keyword-bolding.md: diagnostic_signals missing (type=tool)
   [WARN] skill-note-layer-constraint.md: diagnostic_signals missing (type=tool)
   [WARN] skill-note-one-line-one-point.md: diagnostic_signals missing (type=tool)
-  [WARN] skill-note-one-line-one-point.md: all outbound links stay in same domain {'note-taking', 'yitang'}
+  [WARN] skill-note-one-line-one-point.md: all outbound links stay in same domain {'yitang', 'note-taking'}
   [WARN] yt-note-five-levels-training.md: diagnostic_signals missing (type=tool)
   [WARN] yt-note-live-field-skill.md: diagnostic_signals missing (type=tool)
   [WARN] yt-pitch-metaphor.md: diagnostic_signals missing (type=tool)
@@ -3437,61 +3437,32 @@ KDO 健康巡检 — 2026-06-14 06:06
 
 ## Detector S: 入库置信度门禁
 
-### ⛔ BLOCKED (761 cards)
-  [FAIL] 2026-05-17-深夜感想.md: missing confidence field — BLOCKED from wiki
-       → add confidence: <0.0-1.0> with documented basis
-  [FAIL] ai-native-五层进阶从答案到效率到作品到产品到系统.md: missing confidence field — BLOCKED from wiki
-       → add confidence: <0.0-1.0> with documented basis
-  [FAIL] ai-short-drama-ice-fire-scripting-compass.md: missing confidence field — BLOCKED from wiki
-       → add confidence: <0.0-1.0> with documented basis
-  [FAIL] aigc文创案例设计课leo文创ip从0到1全流程.md: missing confidence field — BLOCKED from wiki
-       → add confidence: <0.0-1.0> with documented basis
-  [FAIL] aigc设计基础01ai生图原理与提示词基本功.md: missing confidence field — BLOCKED from wiki
-       → add confidence: <0.0-1.0> with documented basis
-  [FAIL] aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md: missing confidence field — BLOCKED from wiki
-       → add confidence: <0.0-1.0> with documented basis
-  [FAIL] aima-ai思维卡-外部链接归档.md: missing confidence field — BLOCKED from wiki
-       → add confidence: <0.0-1.0> with documented basis
-  [FAIL] ai数据理解第一课.md: missing confidence field — BLOCKED from wiki
-       → add confidence: <0.0-1.0> with documented basis
-  [FAIL] ai时代判断力口述.md: missing confidence field — BLOCKED from wiki
-       → add confidence: <0.0-1.0> with documented basis
-  [FAIL] business-analysis.md: missing confidence field — BLOCKED from wiki
-       → add confidence: <0.0-1.0> with documented basis
-  [FAIL] business-research-skill-oscar-13-weapon-system.md: missing confidence field — BLOCKED from wiki
-       → add confidence: <0.0-1.0> with documented basis
-  [FAIL] concept-mckinsey-issue-tree.md: missing confidence field — BLOCKED from wiki
-       → add confidence: <0.0-1.0> with documented basis
-  [FAIL] concept-mckinsey-mece.md: missing confidence field — BLOCKED from wiki
-       → add confidence: <0.0-1.0> with documented basis
-  [FAIL] concept-一堂-business-prediction.md: missing confidence field — BLOCKED from wiki
-       → add confidence: <0.0-1.0> with documented basis
-  [FAIL] concept-一堂-hypothesis-driven-business-methodology.md: missing confidence field — BLOCKED from wiki
-       → add confidence: <0.0-1.0> with documented basis
-  ... and 746 more
+### ⛔ BLOCKED (1 cards)
+  [FAIL] ai-native-五层进阶从答案到效率到作品到产品到系统.md: missing confidence field (created=“2026-05-2)
+       → BLOCKED — add confidence: <0.0-1.0> with documented basis
 
-### ⚠️ WARNING (585 cards)
+### ⚠️ WARNING (1345 cards)
+  [WARN] 2026-05-17-深夜感想.md: missing confidence field (created=2026-05-21)
+       → 存量卡 — 建议补充 confidence 字段
   [WARN] 2026-05-17-深夜感想.md: single source (src_20260522_390d75a8) — needs second independent source
        → cross-validate with at least one other independent source
   [WARN] ai-native-五层进阶从答案到效率到作品到产品到系统.md: single source ([“src_20260524_3cadf228”]) — needs second independent source
        → cross-validate with at least one other independent source
+  [WARN] ai-short-drama-ice-fire-scripting-compass.md: missing confidence field (created=2026-06-13)
+       → 存量卡 — 建议补充 confidence 字段
+  [WARN] aigc文创案例设计课leo文创ip从0到1全流程.md: missing confidence field (created=2026-05-28)
+       → 存量卡 — 建议补充 confidence 字段
   [WARN] aigc文创案例设计课leo文创ip从0到1全流程.md: single source (src_20260528_4277c6be) — needs second independent source
        → cross-validate with at least one other independent source
+  [WARN] aigc设计基础01ai生图原理与提示词基本功.md: missing confidence field (created=2026-05-28)
+       → 存量卡 — 建议补充 confidence 字段
   [WARN] aigc设计基础01ai生图原理与提示词基本功.md: single source (src_20260528_2ba8539f) — needs second independent source
        → cross-validate with at least one other independent source
+  [WARN] aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md: missing confidence field (created=2026-05-28)
+       → 存量卡 — 建议补充 confidence 字段
   [WARN] aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md: single source (src_20260528_04be660c) — needs second independent source
        → cross-validate with at least one other independent source
-  [WARN] aima-ai思维卡-外部链接归档.md: single source (src_20260522_a8e05d98) — needs second independent source
-       → cross-validate with at least one other independent source
-  [WARN] ai单元模型口述蒋老师.md: single source (src_20260525_92ea6173) — needs second independent source
-       → cross-validate with at least one other independent source
-  [WARN] ai数据理解第一课.md: single source (src_20260601_ba8ea2f0) — needs second independent source
-       → cross-validate with at least one other independent source
-  [WARN] ai时代判断力口述-3.md: single source (src_20260525_66059442) — needs second independent source
-       → cross-validate with at least one other independent source
-  [WARN] ai时代判断力口述.md: single source (src_20260525_6748cc27) — needs second independent source
-       → cross-validate with at least one other independent source
-  ... and 575 more
+  ... and 1335 more
 
 ## Detector N: 链接密度扫描
 
