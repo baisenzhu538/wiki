@@ -910,3 +910,174 @@ python "90_control/scripts/kcard-quality-gate.py"
 3. `90_control/duplicate-merge-proposals-2026-06-15.md`
 
 完成 S1-S4 后，在此文件末尾写一段小结，通知欧阳锋/用户审查。
+
+---
+
+## 🔴 紧急回修：批量操作质量事故复盘与修复（2026-06-15）
+
+> **来源**：王语嫣对黄药师 `eb070db8` 和 `8bbfd08d` 两次提交的核查。
+> **性质**：必须优先处理的质量事故回修。
+> **优先级**：P0。
+
+王语嫣已临时修复了最危险的 frontmatter 破坏，但需要你Review全部修改、完成收尾、并建立防呆机制。
+
+---
+
+### 先读这两份核查报告
+
+1. `60_feedback/corrections/huangyaoshi-8bbfd08d-review-2026-06-15.md`
+   - 记录了 26 张 decision/system/project 卡的错误 `source_context` 原始值
+2. `60_feedback/corrections/laowantong-review-2026-06-15.md`
+   - 记录了老顽童 3 张 yt 卡的问题，供你参考同类错误模式
+
+---
+
+### 事故 1：44 张卡 frontmatter 开头出现空行
+
+**问题表现**：你在 `8bbfd08d` 给 44 张卡加了 `source_context` 和 `source_refs: []`，但每张卡都被改成了：
+
+```yaml
+---
+
+title: ...
+```
+
+`---` 后多了一个空行，会导致 frontmatter 解析异常。
+
+**王语嫣已做**：批量删除了 43 张卡的空行。
+
+**你要做**：
+1. 拉取最新代码后，运行质量门禁确认无新增 YAML 错误
+2. 抽查 5 张 `decisions/`、`systems/`、`projects/` 下的卡，确认 `---` 后没有空行
+
+**验证命令**：
+```powershell
+cd C:\Users\Administrator\Desktop\wiki
+python "90_control/scripts/kcard-quality-gate.py"
+# 然后看报告里的 YAML 错误数应为 4（都是索引文件）
+```
+
+---
+
+### 事故 2：26 张卡 source_context 被污染
+
+**问题表现**：批量生成的 `source_context` 包含反引号、文件路径、分号、乱码，例如：
+
+```yaml
+source_context: "90_control/failure-modes.md`; .agent/pitfalls.md`; 15条..."
+source_context: "90_control/PROTOCOL.md`。实际上"
+source_context: "60_feedback/data-quality/dk-candidates/`; <乱码>"
+```
+
+这些都不符合 `source_context` 字段语义。`source_context` 应该是**简短文字描述**，不是文件路径列表。
+
+**王语嫣已做**：把 26 张卡的 `source_context` 替换为 `"KDO internal record"`，原始错误值记录在反馈文件。
+
+**你要做**：
+1. 读 `60_feedback/corrections/huangyaoshi-8bbfd08d-review-2026-06-15.md`
+2. 对每张卡判断：
+   - 如果能用一句话概括来源 → 替换为合理描述
+   - 如果无法判断 → 保持 `"KDO internal record"`
+3. **严禁再写路径/反引号/分号进 source_context**
+
+**示例正确写法**：
+```yaml
+source_context: "KDO infrastructure decision — internal design record"
+source_context: "数据策展器角色分工讨论记录"
+source_context: "暗知识萃取器升级方案"
+```
+
+---
+
+### 事故 3：3 张 design skill 卡字段重复
+
+**问题表现**：`eb070db8` 修改了 3 张 `skill-月白-*` 卡：
+
+```yaml
+domain:
+  - design
+  - design        # 重复
+source_context: "文创案例"
+...
+reviewed_by: pending
+source_context: "月白 AIGC设计课程 — 实操技巧笔记"  # 重复键，位置错误
+```
+
+**王语嫣已做**：
+- 移除重复 domain
+- 移除错误位置的 source_context
+- 保留原始 `source_context: "文创案例"`
+
+**你要做**：
+1. 读这 3 张卡确认是否符合预期：
+   - `30_wiki/concepts/skill-月白-像素图高清重绘修复法.md`
+   - `30_wiki/concepts/skill-月白-印刷DPI标准设置.md`
+   - `30_wiki/concepts/skill-月白-薅AIGC羊毛资源法.md`
+2. 如果 `薅AIGC羊毛资源法` 的 source_context 应该是 `"月白 AIGC设计课程 — 实操技巧笔记"` 而不是 `"AI设计基础"`，请手动改回，并放到正确位置
+
+---
+
+### 事故 4：source_refs 全部为空列表
+
+**问题表现**：44 张卡的 `source_refs: []` 没有实质作用。
+
+**你要做**：
+1. 对这些卡，判断是否能补充真实 source_id
+2. 能补充的 → 从 `.kdo/source_id_map.json` 找对应 ID 填入
+3. 不能补充的 → 删除 `source_refs` 字段，不要留空列表占位
+
+---
+
+### 事故 5：contradicts 修复范围不清
+
+**问题表现**：`eb070db8` 提交信息说"master 域 55 张 DK 卡 contradicts→related"，但实际提交只修改了 3 张 skill 卡和 2 个索引文件。
+
+**你要做**：
+1. 全库搜索 `contradicts:` 字段：`grep -r "contradicts:" 30_wiki/`
+2. 如果还有 DK 卡残留 `contradicts`，按语义改为 `related`
+3. 写清楚实际修复数量，更新任务记录
+
+---
+
+### 防呆机制：你必须建立的检查
+
+**禁止再犯的批量操作规则**：
+
+1. **每次批量写入前，先单卡 dry-run**
+   - 选 1 张卡测试你的脚本
+   - 用 `python 90_control/scripts/kcard-quality-gate.py --card <路径>` 验证（如果支持）
+   - 或者直接 `python -c "import yaml; yaml.safe_load(open(path).read().split('---')[1])"`
+
+2. **批量脚本必须检查 frontmatter 结束符**
+   - 写入前确认文件以 `\n---\n` 分隔 frontmatter 和正文
+   - 禁止生成 `字段---` 或 `---\n\n` 这种格式
+
+3. **source_context 字段内容白名单**
+   - 只允许：简短描述、课程名、会议名、项目名称
+   - 禁止：文件路径、反引号、分号、多行、超过 80 字符
+
+4. **批量写入后必须跑门禁**
+   - 每次批量操作后立即运行 `kcard-quality-gate.py`
+   - YAML 错误必须归 0（索引文件除外）
+
+---
+
+### 验收标准
+
+完成以下全部后，在此文件末尾写小结：
+
+- [ ] 质量门禁 YAML 错误 = 4（仅索引文件）
+- [ ] 26 张问题 `source_context` 全部Review并修正或确认
+- [ ] 44 张卡无 `---` 后空行
+- [ ] 3 张 design skill 卡无重复 domain/source_context
+- [ ] `contradicts` 字段全库清理完毕
+- [ ] 提交前再次运行质量门禁，P0 不增加
+
+---
+
+### 产出文件
+
+1. 修正后的 44 张 decision/system/project 卡
+2. 修正后的 3 张 design skill 卡
+3. 更新的 `60_feedback/corrections/huangyaoshi-8bbfd08d-review-2026-06-15.md`（写明已处理）
+4. 此任务文件末尾的小结

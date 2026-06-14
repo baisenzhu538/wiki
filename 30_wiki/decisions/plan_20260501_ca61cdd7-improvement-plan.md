@@ -1,19 +1,18 @@
 ---
-
-plan_id: "plan_20260501_ca61cdd7"
-type: "improvement-plan"
-status: "draft"
-created_at: "2026-04-30T16:47:28+00:00"
+plan_id: plan_20260501_ca61cdd7
+type: improvement-plan
+status: draft
+created_at: '2026-04-30T16:47:28+00:00'
 feedback_count: 10
 artifact_count: 7
-id: "plan_20260501_ca61cdd7-improvement-plan"
-domain:
-author: "legacy"
-source_context: "60_feedback/auto/fb_20260430_92af42e5-near-duplicate-wiki-pages-slug-街顺app全面调研报告.md`; 60_feedback/auto/fb_20260430_39e6b686-near-duplicate-wiki-pages-slug-鑫港湾his系统分阶段整改报告.md`; 60_feedback/auto/fb_20260430_967df24c-near-duplicate-wiki-pages-slug-街顺app全面调研报告.md`"
+id: plan_20260501_ca61cdd7-improvement-plan
+domain: null
+author: legacy
+source_context: KDO internal record
 source_refs: []
-reviewed_by: "pending"
+reviewed_by: pending
 confidence: 0.6
-trust_level: "low"
+trust_level: low
 ---
 
 # Improvement Plan plan_20260501_ca61cdd7

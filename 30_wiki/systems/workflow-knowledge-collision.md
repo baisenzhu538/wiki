@@ -1,33 +1,32 @@
 ---
-
-id: "workflow-knowledge-collision"
-title: "知识碰撞工作流：产出前先碰撞知识库"
-type: "workflow"
+id: workflow-knowledge-collision
+title: 知识碰撞工作流：产出前先碰撞知识库
+type: workflow
 domain:
-  - "hermes"
-  - "kdo"
-status: "active"
-created_at: "2026-06-14"
-author: "周伯通"
-source_context: "KDO internal decision record"
+- hermes
+- kdo
+status: active
+created_at: '2026-06-14'
+author: 周伯通
+source_context: KDO internal decision record
 source_refs: []
 query_triggers:
-  - "写作"
-  - "分析"
-  - "产出"
-  - "碰撞"
-  - "先搜wiki"
-  - "知识库工作流"
+- 写作
+- 分析
+- 产出
+- 碰撞
+- 先搜wiki
+- 知识库工作流
 related:
-  - "yt-decision-ai-partner"
-  - "agent-external-brain-design"
+- yt-decision-ai-partner
+- agent-external-brain-design
 tags:
-  - "#workflow"
-  - "#agent-standard"
-  - "#knowledge-collision"
-reviewed_by: "pending"
+- '#workflow'
+- '#agent-standard'
+- '#knowledge-collision'
+reviewed_by: pending
 confidence: 0.85
-trust_level: "high"
+trust_level: high
 ---
 
 # 知识碰撞工作流：产出前先碰撞知识库

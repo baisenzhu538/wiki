@@ -1,28 +1,27 @@
 ---
-
-title: "提案：提示词自动注入体系 — 从手动Read到运行时自动加载"
-type: "improvement-plan"
-status: "draft"
+title: 提案：提示词自动注入体系 — 从手动Read到运行时自动加载
+type: improvement-plan
+status: draft
 domain:
-  - "master"
+- master
 created_at: 2026-06-02
 updated_at: 2026-06-02
 target_roles:
-  - "黄药师（Builder）"
-  - "欧阳锋（Architect）"
-reviewer: "待定"
+- 黄药师（Builder）
+- 欧阳锋（Architect）
+reviewer: 待定
 related:
-  - "recursive-deepen-prompt"
-  - "judge-three-questions-prompt"
-  - "label-prompt-v10-final"
-  - "plan_20260531_data-curator-v1.3"
-id: "proposal-prompt-injection-infrastructure"
-author: "legacy"
-source_context: "KDO improvement plan — internal process record"
+- recursive-deepen-prompt
+- judge-three-questions-prompt
+- label-prompt-v10-final
+- plan_20260531_data-curator-v1.3
+id: proposal-prompt-injection-infrastructure
+author: legacy
+source_context: KDO improvement plan — internal process record
 source_refs: []
-reviewed_by: "pending"
+reviewed_by: pending
 confidence: 0.6
-trust_level: "low"
+trust_level: low
 ---
 
 # 提案：提示词自动注入体系

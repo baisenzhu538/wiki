@@ -1,29 +1,28 @@
 ---
-
-id: "ouyangfeng-data-alignment-response"
-title: "欧阳锋对齐回应：6+1 框架理解 + 补充意见"
-type: "decision"
-status: "draft"
+id: ouyangfeng-data-alignment-response
+title: 欧阳锋对齐回应：6+1 框架理解 + 补充意见
+type: decision
+status: draft
 domain:
-  - "master"
+- master
 tags:
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
+- '#domain/knowledge-management'
+- '#method/evaluation-method'
 created_at: 2026-05-31
 updated_at: 2026-05-31
 target_roles:
-  - "黄药师（Builder）"
-  - "用户（决策者）"
-supersedes:
+- 黄药师（Builder）
+- 用户（决策者）
+supersedes: null
 related:
-  - "three-party-data-alignment"
-  - "plan_20260531_data-curator-v1.3"
-author: "legacy"
-source_context: "90_control/schemas/dark-knowledge.yaml`; 60_feedback/data-quality/dk-candidates/`"
+- three-party-data-alignment
+- plan_20260531_data-curator-v1.3
+author: legacy
+source_context: KDO internal record
 source_refs: []
-reviewed_by: "pending"
+reviewed_by: pending
 confidence: 0.6
-trust_level: "low"
+trust_level: low
 ---
 
 # 欧阳锋对齐回应：6+1 框架理解 + 补充意见

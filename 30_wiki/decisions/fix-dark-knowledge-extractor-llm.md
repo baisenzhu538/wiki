@@ -1,25 +1,24 @@
 ---
-
-id: "fix-dark-knowledge-extractor-llm"
-title: "萃取器升级：regex → LLM-based 暗知识提取"
-type: "improvement-plan"
-status: "pending"
+id: fix-dark-knowledge-extractor-llm
+title: 萃取器升级：regex → LLM-based 暗知识提取
+type: improvement-plan
+status: pending
 domain:
-  - "master"
+- master
 created_at: 2026-05-31
 updated_at: 2026-05-31
 target_roles:
-  - "黄药师（Builder）"
-reviewer: "欧阳锋（Architect）"
+- 黄药师（Builder）
+reviewer: 欧阳锋（Architect）
 related:
-  - "task-20260531-huangyaoshi-extractor-run-all"
-  - "plan_20260531_data-curator-v1.3"
-author: "legacy"
-source_context: "60_feedback/data-quality/dk-candidates/"
+- task-20260531-huangyaoshi-extractor-run-all
+- plan_20260531_data-curator-v1.3
+author: legacy
+source_context: KDO internal record
 source_refs: []
-reviewed_by: "pending"
+reviewed_by: pending
 confidence: 0.75
-trust_level: "medium"
+trust_level: medium
 ---
 
 # 萃取器升级：regex → LLM-based 暗知识提取

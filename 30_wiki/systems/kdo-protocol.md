@@ -22,7 +22,7 @@ review_date: '2026-05-03'
 domain:
 - master
 author: legacy
-source_context: 90_control/PROTOCOL.md
+source_context: KDO internal record
 source_refs: []
 confidence: 0.6
 ---

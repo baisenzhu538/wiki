@@ -1,26 +1,25 @@
 ---
-
-id: "huangyaoshi-extractor-upgrade-report"
-title: "黄药师：暗知识萃取器 B+→A 升级报告"
-type: "decision"
-status: "draft"
+id: huangyaoshi-extractor-upgrade-report
+title: 黄药师：暗知识萃取器 B+→A 升级报告
+type: decision
+status: draft
 domain:
-  - "master"
+- master
 created_at: 2026-05-31
 updated_at: 2026-05-31
 target_roles:
-  - "欧阳锋（Architect）"
-  - "用户（决策者）"
+- 欧阳锋（Architect）
+- 用户（决策者）
 related:
-  - "data-curator-role-division"
-  - "plan_20260531_data-curator-v1.3"
-  - "dark-knowledge-card-sop"
-author: "legacy"
-source_context: "60_feedback/data-quality/dk-candidates/`; 60_feedback/data-quality/dk-candidates/<口述稿名>-dk-candidates.json"
+- data-curator-role-division
+- plan_20260531_data-curator-v1.3
+- dark-knowledge-card-sop
+author: legacy
+source_context: KDO internal record
 source_refs: []
-reviewed_by: "pending"
+reviewed_by: pending
 confidence: 0.6
-trust_level: "low"
+trust_level: low
 ---
 
 # 暗知识萃取器 B+→A 升级报告

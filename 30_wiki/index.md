@@ -1279,6 +1279,7 @@ _Last updated: 2026-06-14T19:07:54+00:00_
 - [[tools/tool-funnel-formula-modeling.md|tool-funnel-formula-modeling]] — source no source
 - [[tools/tool-iceberg-triangle-modeling.md|tool-iceberg-triangle-modeling]] — source no source
 - [[tools/tool-iterative-recursive-deep-dig.md|tool-iterative-recursive-deep-dig]] — source no source
+- [高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工作流](tools/tool-ai-skill-engineering-guide.md) — source `src_20260614_8269ccdb src_20260614_42f1e977`
 - [[tools/tool-radar-chart-modeling.md|tool-radar-chart-modeling]] — source no source
 - [[tools/tool-sabc-tier-modeling.md|tool-sabc-tier-modeling]] — source no source
 - [[tools/tool-scenario-selector-modeling.md|tool-scenario-selector-modeling]] — source no source

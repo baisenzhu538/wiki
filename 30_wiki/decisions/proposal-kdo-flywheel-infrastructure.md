@@ -1,27 +1,26 @@
 ---
-
-title: "飞轮基础设施提案：将知识挖掘飞轮固化为 KDO 系统机制"
-type: "improvement-plan"
-status: "draft"
+title: 飞轮基础设施提案：将知识挖掘飞轮固化为 KDO 系统机制
+type: improvement-plan
+status: draft
 domain:
-  - "master"
+- master
 created_at: 2026-06-02
 updated_at: 2026-06-02
 target_roles:
-  - "欧阳锋（Architect）"
-reviewer: "欧阳锋"
-author: "黄药师"
-source_context: "60_feedback/data-quality/label-results/"
+- 欧阳锋（Architect）
+reviewer: 欧阳锋
+author: 黄药师
+source_context: KDO internal record
 source_refs: []
 related:
-  - "knowledge-flywheel-discovery-20260602"
-  - "sprint-6-four-death-sentences"
-  - "kdo-industrialization-manual"
-  - "proposal-deep-synthesis-infrastructure"
-id: "proposal-kdo-flywheel-infrastructure"
-reviewed_by: "pending"
+- knowledge-flywheel-discovery-20260602
+- sprint-6-four-death-sentences
+- kdo-industrialization-manual
+- proposal-deep-synthesis-infrastructure
+id: proposal-kdo-flywheel-infrastructure
+reviewed_by: pending
 confidence: 0.6
-trust_level: "low"
+trust_level: low
 ---
 
 # 飞轮基础设施提案

@@ -1,30 +1,29 @@
 ---
-
-id: "huangyaoshi-data-alignment-response"
-title: "黄药师对齐回应：对欧阳锋补充的意见 + 4 个分歧"
-type: "decision"
-status: "draft"
+id: huangyaoshi-data-alignment-response
+title: 黄药师对齐回应：对欧阳锋补充的意见 + 4 个分歧
+type: decision
+status: draft
 domain:
-  - "master"
+- master
 tags:
-  - "#domain/knowledge-management"
-  - "#method/evaluation-method"
+- '#domain/knowledge-management'
+- '#method/evaluation-method'
 created_at: 2026-05-31
 updated_at: 2026-05-31
 target_roles:
-  - "欧阳锋（Architect）"
-  - "用户（决策者）"
-supersedes:
+- 欧阳锋（Architect）
+- 用户（决策者）
+supersedes: null
 related:
-  - "three-party-data-alignment"
-  - "ouyangfeng-data-alignment-response"
-  - "plan_20260531_data-curator-v1.3"
-author: "legacy"
-source_context: "KDO infrastructure decision — internal design record"
+- three-party-data-alignment
+- ouyangfeng-data-alignment-response
+- plan_20260531_data-curator-v1.3
+author: legacy
+source_context: KDO infrastructure decision — internal design record
 source_refs: []
-reviewed_by: "pending"
+reviewed_by: pending
 confidence: 0.6
-trust_level: "low"
+trust_level: low
 ---
 
 # 黄药师对齐回应：对欧阳锋补充的意见 + 4 个分歧

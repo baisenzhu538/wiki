@@ -1,23 +1,22 @@
 ---
-
 date: 2026-06-07
-author: "黄药师（Builder）"
-source_context: "KDO infrastructure decision — internal design record"
+author: 黄药师（Builder）
+source_context: KDO infrastructure decision — internal design record
 source_refs: []
-status: "draft"
-type: "analysis"
+status: draft
+type: analysis
 domain:
-  - "ai"
-  - "yitang"
+- ai
+- yitang
 related:
-  - "yt-note-ai-human-division"
-  - "yt-note-checklist-concept"
-  - "task-20260607-laowantong-checklist-notes-review"
-id: "truman-ai-partner-design-analysis"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- yt-note-ai-human-division
+- yt-note-checklist-concept
+- task-20260607-laowantong-checklist-notes-review
+id: truman-ai-partner-design-analysis
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.6
-trust_level: "low"
+trust_level: low
 ---
 
 # Truman AI Partner（阿蕊老师）设计反推

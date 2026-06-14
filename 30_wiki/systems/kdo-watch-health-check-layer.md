@@ -1,20 +1,19 @@
 ---
-
-title: "kdo watch 定时巡检层技术说明"
-author: "审查者欧阳锋"
-source_context: "60_feedback/eval-results/health_YYYY-MM-DD.md`，每次覆盖当天文件。; 60_feedback/eval-results/health_YYYY-MM-DD.md"
+title: kdo watch 定时巡检层技术说明
+author: 审查者欧阳锋
+source_context: KDO internal record
 source_refs: []
-role: "知识架构师 (Knowledge Architect)"
-created_at: "2026-05-04"
-status: "proposed"
-implementor: "黄药师 (Builder)"
-dependency: "已有 kdo watch（inbox 监听 + 自动 ingest → enrich → 重建索引）"
-id: "kdo-watch-health-check-layer"
-type: "concept"
-domain:
-reviewed_by: "pending"
+role: 知识架构师 (Knowledge Architect)
+created_at: '2026-05-04'
+status: proposed
+implementor: 黄药师 (Builder)
+dependency: 已有 kdo watch（inbox 监听 + 自动 ingest → enrich → 重建索引）
+id: kdo-watch-health-check-layer
+type: concept
+domain: null
+reviewed_by: pending
 confidence: 0.65
-trust_level: "low"
+trust_level: low
 ---
 
 # kdo watch 定时巡检层技术说明

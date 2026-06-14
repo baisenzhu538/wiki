@@ -1,26 +1,25 @@
 ---
-
-id: "huangyaoshi-tagging-and-scope-proposal"
-title: "黄药师：数据标签方案 + 暗知识全量范围"
-type: "decision"
-status: "draft"
+id: huangyaoshi-tagging-and-scope-proposal
+title: 黄药师：数据标签方案 + 暗知识全量范围
+type: decision
+status: draft
 domain:
-  - "master"
+- master
 created_at: 2026-05-31
 updated_at: 2026-05-31
 target_roles:
-  - "欧阳锋（Architect）"
-  - "用户（决策者）"
+- 欧阳锋（Architect）
+- 用户（决策者）
 related:
-  - "plan_20260531_data-curator-v1.3"
-  - "tag-registry"
-  - "data-curator-role-division"
-author: "legacy"
-source_context: "90_control/failure-modes.md`; .agent/pitfalls.md`; .agent/decisions.md`"
+- plan_20260531_data-curator-v1.3
+- tag-registry
+- data-curator-role-division
+author: legacy
+source_context: KDO internal record
 source_refs: []
-reviewed_by: "pending"
+reviewed_by: pending
 confidence: 0.6
-trust_level: "low"
+trust_level: low
 ---
 
 # 标签方案 + 暗知识全量范围

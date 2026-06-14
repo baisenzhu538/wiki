@@ -1,13 +1,12 @@
 ---
-
 id: sys-agent-native-card-design
-title: "Agent 原生知识卡设计规范 v2"
+title: Agent 原生知识卡设计规范 v2
 type: system
 status: active
 domain:
-  - kdo
-author: "黄药师"
-source_context: "KDO infrastructure decision — internal design record"
+- kdo
+author: 黄药师
+source_context: KDO infrastructure decision — internal design record
 source_refs: []
 reviewed_by: pending
 created_at: 2026-06-15

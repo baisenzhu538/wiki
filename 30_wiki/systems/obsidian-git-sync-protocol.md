@@ -1,25 +1,24 @@
 ---
-
-title: "Obsidian Git Multi-Device Sync Protocol"
-type: "system"
-status: "draft"
-id: 'obsidian-git-sync-protocol - "src_20260503_multi_device_sync"'
-created_at: "2026-05-03"
-updated_at: "2026-05-03"
+title: Obsidian Git Multi-Device Sync Protocol
+type: system
+status: draft
+id: obsidian-git-sync-protocol - "src_20260503_multi_device_sync"
+created_at: '2026-05-03'
+updated_at: '2026-05-03'
 related:
-  - "[[kdo-protocol]]"
-  - "[[kdo-protocol-implementation-roadmap]]"
+- '[[kdo-protocol]]'
+- '[[kdo-protocol-implementation-roadmap]]'
 tags:
-  - None
-  - None
-  - None
-  - None
-trust_level: "high"
-reviewed_by: "Claude"
-review_date: "2026-05-03"
-domain:
-author: "legacy"
-source_context: "90_control/PROTOCOL.md`"
+- None
+- None
+- None
+- None
+trust_level: high
+reviewed_by: Claude
+review_date: '2026-05-03'
+domain: null
+author: legacy
+source_context: KDO internal record
 source_refs: []
 confidence: 0.6
 ---

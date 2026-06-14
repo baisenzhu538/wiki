@@ -1,21 +1,20 @@
 ---
-
-plan_id: "plan_20260503_f3e9a2b1"
-type: "improvement-plan"
-status: "draft"
-created_at: "2026-05-03T12:00:00+00:00"
+plan_id: plan_20260503_f3e9a2b1
+type: improvement-plan
+status: draft
+created_at: '2026-05-03T12:00:00+00:00'
 feedback_count: 1
 artifact_count: 10
 source_count: 12
-assessment_ref: "60_feedback/assessments/claude-20260503-kdo仓库遍历与健康度评估.md"
-id: "plan_20260503_f3e9a2b1-improvement-plan"
-domain:
-author: "legacy"
-source_context: "90_control/scripts/kdo_lint.py`; 90_control/scripts/kdo_validate.py`; 90_control/source-registry.yaml`"
+assessment_ref: 60_feedback/assessments/claude-20260503-kdo仓库遍历与健康度评估.md
+id: plan_20260503_f3e9a2b1-improvement-plan
+domain: null
+author: legacy
+source_context: KDO internal record
 source_refs: []
-reviewed_by: "pending"
+reviewed_by: pending
 confidence: 0.6
-trust_level: "low"
+trust_level: low
 ---
 
 # Improvement Plan plan_20260503_f3e9a2b1

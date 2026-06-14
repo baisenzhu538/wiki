@@ -1,19 +1,18 @@
 ---
-
-id: "proposal-graph-rag-star-fix"
-title: "Graph RAG 放射状图谱修复提案"
-type: "improvement-plan"
-status: "draft"
+id: proposal-graph-rag-star-fix
+title: Graph RAG 放射状图谱修复提案
+type: improvement-plan
+status: draft
 domain:
-  - "infrastructure"
-  - "knowledge-graph"
+- infrastructure
+- knowledge-graph
 created_at: 2026-06-11
-author: "legacy"
-source_context: "KDO improvement plan — internal process record"
+author: legacy
+source_context: KDO improvement plan — internal process record
 source_refs: []
-reviewed_by: "pending"
+reviewed_by: pending
 confidence: 0.6
-trust_level: "low"
+trust_level: low
 ---
 
 # Graph RAG 放射状图谱修复提案
