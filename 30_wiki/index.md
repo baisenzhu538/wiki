@@ -1,8 +1,14 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-14T06:10:00+00:00_
+_Last updated: 2026-06-14T12:00:00+00:00_
 
+- [Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式](concepts/fd-forward-deployment.md) — source src_20260614_ab09af1c
+- [餐饮渠道饮料开发：草本浓缩饮品的渠道-产品-工艺框架](frameworks/beverage-foodservice-channel.md) — source src_20260614_8a0317f1 src_20260614_16c4bf0d src_20260614_d6ab6fb6 src_20260614_9b574611
+- [AI 原生 IM：让 Agent 成为一等公民的协作基础设施](concepts/ai-native-im-multi-agent.md) — source src_20260614_c5115d2c
+- [AI 辅助复杂职场沟通：角色扮演、攻防演练与受众适配](frameworks/ai-complex-communication.md) — source src_20260614_d79b42d1
+- [产业 AI 运营落地：酒店/房产/电商三大案例的去伪存真](cases/industrial-ai-ops-cases.md) — source src_20260614_eca9f5b3 src_20260614_b85c364e src_20260614_4b3b6427
+- [智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式](frameworks/smart-device-foodservice-automation.md) — source src_20260614_909802bd
 - [案例：一堂个人地图的完整建模过程](cases/case-personal-map-modeling.md) — source `src_20260614_8269ccdb`
 - [案例：孩子控笔「画画歌」——最小单元的建模实践](cases/case-child-drawing-rhyme.md) — source `src_20260614_8269ccdb`
 - [案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%](cases/case-zhangyang-anchor-sop-three-locks.md) — source `src_20260614_8269ccdb`
