@@ -4,6 +4,7 @@ import re
 import glob
 
 source_dir = "C:/Users/Administrator/Desktop/wiki/10_raw/sources"
+output_path = "C:/Users/Administrator/Desktop/wiki/_temp_search_yitang_out.txt"
 source_ids = [
     "6d9f7671", "a25ca678", "64015d4d", "1be3d76f", "faa8021d", "842be4c9",
     "239c9f4e", "b65be94b", "c944bda5", "8f80cb0f", "2e2a1e9c", "a3ae193a",
@@ -48,8 +49,9 @@ def read_lines(path):
     except Exception as e:
         return []
 
+out_lines = []
 for label, pattern in patterns.items():
-    print(f"\n=== {label} ({pattern}) ===")
+    out_lines.append(f"\n=== {label} ({pattern}) ===")
     for sid, path in files.items():
         if not path:
             continue
@@ -59,8 +61,12 @@ for label, pattern in patterns.items():
             if re.search(pattern, line, re.IGNORECASE):
                 found.append((i, line.strip()))
         if found:
-            print(f"  {os.path.basename(path)}:")
-            for i, line in found[:10]:
-                print(f"    L{i}: {line[:120]}")
-            if len(found) > 10:
-                print(f"    ... and {len(found)-10} more")
+            out_lines.append(f"  {os.path.basename(path)}:")
+            for i, line in found[:15]:
+                out_lines.append(f"    L{i}: {line[:160]}")
+            if len(found) > 15:
+                out_lines.append(f"    ... and {len(found)-15} more")
+
+with open(output_path, "w", encoding="utf-8") as f:
+    f.write("\n".join(out_lines))
+print(f"Output written to {output_path}")
