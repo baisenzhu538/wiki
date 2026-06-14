@@ -1204,9 +1204,10 @@ _Last updated: 2026-06-11T10:00:22+00:00_
 - [[tools/yt-tool-unit-model-construction.md|yt-tool-unit-model-construction]] — source no source
 - [[tools/yt-tool-unit-model-dynamic.md|yt-tool-unit-model-dynamic]] — source no source
 - [[tools/yt-tool-unit-model-selection.md|yt-tool-unit-model-selection]] — source no source
-- [[concepts/ai-short-drama-ice-fire-scripting-compass-老顽童|冰火写本罗盘：AI短剧剧本策划全流程体系]] — source `src_20260613_41aceaf5`
-- [[frameworks/ai-short-drama-ice-fire-dissection-compass-老顽童|冰火拆本罗盘：短剧剧本逆向拆解五维模型]] — source `src_20260613_c17fcdb2`
-- [[tools/ai-short-drama-plot-three-axes-老顽童|剧情三板斧：短剧剧本的情节张力设计工具]] — source `src_20260613_083395df`
-- [[tools/ai-short-drama-script-planning-three-axes-老顽童|剧本策划三板斧：短剧从0到1的框架搭建工具]] — source `src_20260613_61c0cd80`
-- [[tools/ai-short-drama-framework-three-axes-老顽童|框架三板斧：短剧英雄之旅结构工具]] — source `src_20260613_1ade007d`
-- [[tools/ai-short-drama-conflict-three-axes-老顽童|矛盾冲突三板斧：短剧冲突分层设计工具]] — source `src_20260613_37933c99`
+- [[concepts/ai-short-drama-ice-fire-scripting-compass|冰火写本罗盘：AI短剧剧本策划全流程体系]] — source `src_20260613_41aceaf5`
+- [[frameworks/ai-short-drama-ice-fire-dissection-compass|冰火拆本罗盘：短剧剧本逆向拆解五维模型]] — source `src_20260613_c17fcdb2`
+- [[tools/ai-short-drama-plot-three-axes|剧情三板斧：短剧剧本的情节张力设计工具]] — source `src_20260613_083395df`
+- [[tools/ai-short-drama-script-planning-three-axes|剧本策划三板斧：短剧从0到1的框架搭建工具]] — source `src_20260613_61c0cd80`
+- [[tools/ai-short-drama-framework-three-axes|框架三板斧：短剧英雄之旅结构工具]] — source `src_20260613_1ade007d`
+- [[tools/ai-short-drama-conflict-three-axes|矛盾冲突三板斧：短剧冲突分层设计工具]] — source `src_20260613_37933c99`
+- [[concepts/ai-short-drama-platform-policy-comparison|主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果]] — source `src_20260613_500dbed8`

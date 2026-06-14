@@ -1,5 +1,5 @@
 ---
-id: ai-short-drama-framework-three-axes-老顽童
+id: ai-short-drama-framework-three-axes
 title: 框架三板斧：短剧英雄之旅结构工具
 type: tool
 status: enriched
@@ -17,11 +17,12 @@ author: 老顽童
 reviewed_by: 老顽童
 review_date: "2026-06-13"
 trust_level: medium
+confidence: 0.75
 related:
-  - "[[ai-short-drama-ice-fire-scripting-compass-老顽童]]"
-  - "[[ai-short-drama-script-planning-three-axes-老顽童]]"
-  - "[[ai-short-drama-plot-three-axes-老顽童]]"
-  - "[[ai-short-drama-conflict-three-axes-老顽童]]"
+  - "[[ai-short-drama-ice-fire-scripting-compass]]"
+  - "[[ai-short-drama-script-planning-three-axes]]"
+  - "[[ai-short-drama-plot-three-axes]]"
+  - "[[ai-short-drama-conflict-three-axes]]"
 tags:
   - "#ai-short-drama"
   - "#scriptwriting"
@@ -168,10 +169,10 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[ai-short-drama-ice-fire-scripting-compass-老顽童]]：框架三板斧所在的顶层罗盘
-- [[ai-short-drama-script-planning-three-axes-老顽童]]：框架之前的剧本基地、内容走向、剧情终局设计
-- [[ai-short-drama-plot-three-axes-老顽童]]：框架之后的剧情张力检查工具
-- [[ai-short-drama-conflict-three-axes-老顽童]]：框架中障碍设计的冲突分层工具
+- [[ai-short-drama-ice-fire-scripting-compass]]：框架三板斧所在的顶层罗盘
+- [[ai-short-drama-script-planning-three-axes]]：框架之前的剧本基地、内容走向、剧情终局设计
+- [[ai-short-drama-plot-three-axes]]：框架之后的剧情张力检查工具
+- [[ai-short-drama-conflict-three-axes]]：框架中障碍设计的冲突分层工具
 
 ---
 
@@ -184,5 +185,11 @@ diagnostic_signals:
 | 结局被批评"烂尾" | 用"决战收官"检查：最终 BOSS 是否呼应开局欲望？主角是否做出关键选择？ | 写出决战中的核心选择与情绪落点 |
 
 ---
+
+
+## Sources
+
+- `src_20260613_1ade007d-framework-three-axes.md:11-14` — 框架三板斧原图（深渊入局/迷雾博弈/决战收官）
+- `src_20260613_12d63c1c-notes.md:79-95` — 框架三板斧结构化笔记
 
 *老顽童 · 2026-06-13 · 基于代俊隆 AI 短剧创作培训及框架三板斧图片*

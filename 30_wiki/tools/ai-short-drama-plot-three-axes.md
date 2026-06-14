@@ -1,5 +1,5 @@
 ---
-id: ai-short-drama-plot-three-axes-老顽童
+id: ai-short-drama-plot-three-axes
 title: 剧情三板斧：短剧剧本的情节张力设计工具
 type: tool
 status: enriched
@@ -17,11 +17,12 @@ author: 老顽童
 reviewed_by: 老顽童
 review_date: "2026-06-13"
 trust_level: medium
+confidence: 0.75
 related:
-  - "[[ai-short-drama-ice-fire-scripting-compass-老顽童]]"
-  - "[[ai-short-drama-ice-fire-dissection-compass-老顽童]]"
-  - "[[ai-short-drama-script-planning-three-axes-老顽童]]"
-  - "[[ai-short-drama-conflict-three-axes-老顽童]]"
+  - "[[ai-short-drama-ice-fire-scripting-compass]]"
+  - "[[ai-short-drama-ice-fire-dissection-compass]]"
+  - "[[ai-short-drama-script-planning-three-axes]]"
+  - "[[ai-short-drama-conflict-three-axes]]"
 tags:
   - "#ai-short-drama"
   - "#scriptwriting"
@@ -160,9 +161,9 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[ai-short-drama-ice-fire-scripting-compass-老顽童]]：剧情三板斧所在的顶层罗盘
-- [[ai-short-drama-conflict-three-axes-老顽童]]：提供更细粒度的矛盾冲突设计
-- [[ai-short-drama-script-planning-three-axes-老顽童]]：剧情三板斧之后的剧本策划落地工具
+- [[ai-short-drama-ice-fire-scripting-compass]]：剧情三板斧所在的顶层罗盘
+- [[ai-short-drama-conflict-three-axes]]：提供更细粒度的矛盾冲突设计
+- [[ai-short-drama-script-planning-three-axes]]：剧情三板斧之后的剧本策划落地工具
 
 ---
 
@@ -175,5 +176,12 @@ diagnostic_signals:
 | 结局被批评"爽完就忘" | 用"立意升华"追问：这个故事让观众产生了什么共鸣？结尾 30 秒是否点题？ | 写出一个一句话可传播的价值主张 |
 
 ---
+
+
+## Sources
+
+- `src_20260613_083395df-plot-three-axes.md:11-14` — 剧情三板斧原图（极致对立/高能吸睛/立意升华）
+- `src_20260613_687c4ec0-transcript.md:1989` — 口述中要求"扣一遍"剧情三板斧
+- `src_20260613_12d63c1c-notes.md:25-46` — 剧情三板斧结构化笔记
 
 *老顽童 · 2026-06-13 · 基于代俊隆 AI 短剧创作培训及剧情三板斧图片*

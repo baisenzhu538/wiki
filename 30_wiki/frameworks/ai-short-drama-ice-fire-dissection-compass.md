@@ -1,5 +1,5 @@
 ---
-id: ai-short-drama-ice-fire-dissection-compass-老顽童
+id: ai-short-drama-ice-fire-dissection-compass
 title: 冰火拆本罗盘：短剧剧本逆向拆解五维模型
 type: framework
 status: enriched
@@ -17,12 +17,13 @@ author: 老顽童
 reviewed_by: 老顽童
 review_date: "2026-06-13"
 trust_level: medium
+confidence: 0.75
 related:
-  - "[[ai-short-drama-ice-fire-scripting-compass-老顽童]]"
-  - "[[ai-short-drama-plot-three-axes-老顽童]]"
-  - "[[ai-short-drama-script-planning-three-axes-老顽童]]"
-  - "[[ai-short-drama-framework-three-axes-老顽童]]"
-  - "[[ai-short-drama-conflict-three-axes-老顽童]]"
+  - "[[ai-short-drama-ice-fire-scripting-compass]]"
+  - "[[ai-short-drama-plot-three-axes]]"
+  - "[[ai-short-drama-script-planning-three-axes]]"
+  - "[[ai-short-drama-framework-three-axes]]"
+  - "[[ai-short-drama-conflict-three-axes]]"
 tags:
   - "#ai-short-drama"
   - "#scriptwriting"
@@ -122,9 +123,9 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[ai-short-drama-ice-fire-scripting-compass-老顽童]]：正向创作罗盘，与拆本罗盘配对使用
-- [[ai-short-drama-plot-three-axes-老顽童]]：剧情三板斧——拆本时重点检查的高潮反转维度
-- [[ai-short-drama-script-planning-three-axes-老顽童]]：剧本策划三板斧——把拆本结论转译为写本输入
+- [[ai-short-drama-ice-fire-scripting-compass]]：正向创作罗盘，与拆本罗盘配对使用
+- [[ai-short-drama-plot-three-axes]]：剧情三板斧——拆本时重点检查的高潮反转维度
+- [[ai-short-drama-script-planning-three-axes]]：剧本策划三板斧——把拆本结论转译为写本输入
 
 ---
 
@@ -137,5 +138,12 @@ diagnostic_signals:
 | 觉得自己的剧本差口气 | 找一部对标爆款，用拆本罗盘逐项对比，找出差距最大的 1-2 个维度 | 明确下一步修改优先级 |
 
 ---
+
+
+## Sources
+
+- `src_20260613_c17fcdb2-ice-fire-dissection-compass.md:11-14` — 冰火拆本罗盘原图表格
+- `src_20260613_687c4ec0-transcript.md:737` — 口述中提到"拆本"与"三板斧"
+- `src_20260613_12d63c1c-notes.md:9-21` — 方法论总览中的拆本罗盘定位
 
 *老顽童 · 2026-06-13 · 基于代俊隆 AI 短剧创作培训及 7 张方法论图片*

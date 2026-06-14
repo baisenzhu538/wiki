@@ -4,7 +4,8 @@
 |---|---|---|---|
 | 2026-05-17-深夜感想 | 2026-05-17 深夜感想 | concept | ai-saas |
 | ai-native-五层进阶从答案到效率到作品到产品到系统 | “AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统” | “framework” | ai-saas |
-| ai-short-drama-ice-fire-scripting-compass-老顽童 | 冰火写本罗盘：AI短剧剧本策划全流程体系 | concept | yitang, ai-collaboration, product |
+| ai-short-drama-ice-fire-scripting-compass | 冰火写本罗盘：AI短剧剧本策划全流程体系 | concept | yitang, ai-collaboration, product |
+| ai-short-drama-platform-policy-comparison | 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果 | concept | yitang, ai-collaboration, product |
 | aigc文创案例设计课leo文创ip从0到1全流程 | AIGC文创案例设计课：Leo文创IP从0到1全流程 | concept | ai-saas, design |
 | aigc设计基础01ai生图原理与提示词基本功 | AIGC设计基础01：AI生图原理与提示词基本功 | concept | ai-saas, design |
 | aigc设计师实操培训01口喷设计范式与电商ai设计全流程 | AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程 | concept | ai-saas, design, business-strategy |
@@ -808,7 +809,7 @@
 | 轻量级诊所HIS调研全清单 | 轻量级诊所HIS调研全清单 | concept | healthcare |
 | 那今天不会 | 那今天不会。 | concept | ai-saas |
 | 鑫港湾his系统分阶段整改报告 | 鑫港湾HIS系统分阶段整改报告 | concept | ['healthcare'] |
-| ai-short-drama-ice-fire-dissection-compass-老顽童 | 冰火拆本罗盘：短剧剧本逆向拆解五维模型 | framework | yitang, ai-collaboration, product |
+| ai-short-drama-ice-fire-dissection-compass | 冰火拆本罗盘：短剧剧本逆向拆解五维模型 | framework | yitang, ai-collaboration, product |
 | concept-maister-trusted-advisor | Trusted Advisor：可信顾问信任模型 | framework | consulting, yitang |
 | concept-mckinsey-7s | 7-S Framework：组织诊断的七维模型 | framework | consulting, yitang |
 | concept-mckinsey-hypothesis-driven | Hypothesis-Driven Approach：假设驱动工作法 | framework | consulting, yitang |
@@ -818,8 +819,8 @@
 | yt-decision-abcd-model | yt-decision-abcd-model | framework | 一堂·科学决策 |
 | yt-unit-model-ladder | 单元模型六段进阶：从拍脑袋到动态预测 | framework | decision-science |
 | yt-unit-model-overview | 单元模型概览：十大单元模型与三角色分工 | framework | decision-science |
-| ai-short-drama-plot-three-axes-老顽童 | 剧情三板斧：短剧剧本的情节张力设计工具 | tool | yitang, ai-collaboration, product |
-| ai-short-drama-script-planning-three-axes-老顽童 | 剧本策划三板斧：短剧从0到1的框架搭建工具 | tool | yitang, ai-collaboration, product |
+| ai-short-drama-plot-three-axes | 剧情三板斧：短剧剧本的情节张力设计工具 | tool | yitang, ai-collaboration, product |
+| ai-short-drama-script-planning-three-axes | 剧本策划三板斧：短剧从0到1的框架搭建工具 | tool | yitang, ai-collaboration, product |
 | concept-mckinsey-issue-tree | Issue Tree：结构化问题拆解 | tool | consulting, yitang |
 | concept-toyota-5-whys | 5 Whys：追问到根本原因 | tool | lean-manufacturing, yitang |
 | sk-ai-ai-workspace-setup | 技能：结构化AI工作空间搭建 | skill | ai-collaboration |

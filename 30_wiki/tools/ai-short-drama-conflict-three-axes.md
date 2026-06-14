@@ -1,5 +1,5 @@
 ---
-id: ai-short-drama-conflict-three-axes-老顽童
+id: ai-short-drama-conflict-three-axes
 title: 矛盾冲突三板斧：短剧冲突分层设计工具
 type: tool
 status: enriched
@@ -17,10 +17,11 @@ author: 老顽童
 reviewed_by: 老顽童
 review_date: "2026-06-13"
 trust_level: medium
+confidence: 0.75
 related:
-  - "[[ai-short-drama-ice-fire-scripting-compass-老顽童]]"
-  - "[[ai-short-drama-plot-three-axes-老顽童]]"
-  - "[[ai-short-drama-framework-three-axes-老顽童]]"
+  - "[[ai-short-drama-ice-fire-scripting-compass]]"
+  - "[[ai-short-drama-plot-three-axes]]"
+  - "[[ai-short-drama-framework-three-axes]]"
 tags:
   - "#ai-short-drama"
   - "#scriptwriting"
@@ -167,9 +168,9 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[ai-short-drama-ice-fire-scripting-compass-老顽童]]：矛盾冲突三板斧所在的顶层罗盘
-- [[ai-short-drama-plot-three-axes-老顽童]]：剧情张力工具，与冲突三板斧配合使用
-- [[ai-short-drama-framework-three-axes-老顽童]]：框架三板斧，决定冲突在整体结构中的落点
+- [[ai-short-drama-ice-fire-scripting-compass]]：矛盾冲突三板斧所在的顶层罗盘
+- [[ai-short-drama-plot-three-axes]]：剧情张力工具，与冲突三板斧配合使用
+- [[ai-short-drama-framework-three-axes]]：框架三板斧，决定冲突在整体结构中的落点
 
 ---
 
@@ -182,5 +183,12 @@ diagnostic_signals:
 | 结局被说"爽完就忘" | 用"自我宿命"检查：主角最终选择是否回应内心缺口 | 写出主角的内心缺口和成长标志 |
 
 ---
+
+
+## Sources
+
+- `src_20260613_37933c99-conflict-three-axes.md:11-14` — 矛盾冲突三板斧原图（外在阵营/内在人际/自我宿命）
+- `src_20260613_687c4ec0-transcript.md:2125` — 口述中讲解外在/内在/自我三层冲突
+- `src_20260613_12d63c1c-notes.md:98-114` — 矛盾冲突三板斧结构化笔记
 
 *老顽童 · 2026-06-13 · 基于代俊隆 AI 短剧创作培训及矛盾冲突三板斧图片*

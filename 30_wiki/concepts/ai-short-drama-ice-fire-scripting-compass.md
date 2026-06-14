@@ -1,5 +1,5 @@
 ---
-id: ai-short-drama-ice-fire-scripting-compass-老顽童
+id: ai-short-drama-ice-fire-scripting-compass
 title: 冰火写本罗盘：AI短剧剧本策划全流程体系
 type: concept
 status: enriched
@@ -17,12 +17,13 @@ author: 老顽童
 reviewed_by: 老顽童
 review_date: "2026-06-13"
 trust_level: medium
+confidence: 0.75
 related:
-  - "[[ai-short-drama-ice-fire-dissection-compass-老顽童]]"
-  - "[[ai-short-drama-plot-three-axes-老顽童]]"
-  - "[[ai-short-drama-script-planning-three-axes-老顽童]]"
-  - "[[ai-short-drama-framework-three-axes-老顽童]]"
-  - "[[ai-short-drama-conflict-three-axes-老顽童]]"
+  - "[[ai-short-drama-ice-fire-dissection-compass]]"
+  - "[[ai-short-drama-plot-three-axes]]"
+  - "[[ai-short-drama-script-planning-three-axes]]"
+  - "[[ai-short-drama-framework-three-axes]]"
+  - "[[ai-short-drama-conflict-three-axes]]"
 tags:
   - "#ai-short-drama"
   - "#scriptwriting"
@@ -66,12 +67,12 @@ diagnostic_signals:
 
 ## Claims
 
-- **C1 [conf=0.9]**: AI 短剧剧本创作的核心公式是：**专业方法论 + 精准指令 + 人工把控 = 商业爆款剧本**。AI 不是替代编剧思维，而是加速执行。
-- **C2 [conf=0.85]**: 短剧剧本的本质是"商业留人"而非文艺表达，所有设计都服务于情绪价值和观看留存。
-- **C3 [conf=0.9]**: 冰火写本罗盘将剧本策划拆分为五大维度：全本策划、框架大纲、剧情元素、矛盾冲突、卡点设计，覆盖从选题到完稿的全链路。
-- **C4 [conf=0.85]**: 每个维度继续拆分为"三板斧"，形成可复用的提示词模板和检查清单。
-- **C5 [conf=0.8]**: 该方法论已通过商业化验证：代俊隆团队用 AI 生成 30+ 剧本，签约 2 部，单本创作时间从半个月压缩到 10 分钟初稿。
-- **C6 [conf=0.75]**: 短剧市场处于爆发期：2025 年国内短剧+漫剧总产值约 1000 亿，全年上新 12.8 万部，95% 以上使用 AI 辅助。
+- **C1 [conf=0.9]**: AI 短剧剧本创作的核心公式是：**专业方法论 + 精准指令 + 人工把控 = 商业爆款剧本**。AI 不是替代编剧思维，而是加速执行。——依据：`src_20260613_687c4ec0-transcript.md:349-379`。
+- **C2 [conf=0.85]**: 短剧剧本的本质是"商业留人"而非文艺表达，所有设计都服务于情绪价值和观看留存。——依据：`src_20260613_687c4ec0-transcript.md:419-441`、`src_20260613_687c4ec0-transcript.md:1639`。
+- **C3 [conf=0.9]**: 冰火写本罗盘将剧本策划拆分为五大维度：全本策划、框架大纲、剧情元素、矛盾冲突、卡点设计，覆盖从选题到完稿的全链路。——依据：`src_20260613_41aceaf5-ice-fire-scripting-compass.md:11-14`（原图表格）+ `src_20260613_687c4ec0-transcript.md`。
+- **C4 [conf=0.85]**: 每个维度继续拆分为"三板斧"，形成可复用的提示词模板和检查清单。——依据：`src_20260613_12d63c1c-notes.md:9-21`（方法论总览）+ 各图片 source。
+- **C5 [conf=0.8]**: 该方法论已通过商业化验证：代俊隆团队用 AI 生成 30+ 剧本，签约 2 部，单本创作时间从半个月压缩到 10 分钟初稿。——依据：`src_20260613_687c4ec0-transcript.md:605-613`。
+- **C6 [conf=0.75]**: 短剧市场处于爆发期：2025 年国内短剧+漫剧总产值约 1000 亿，全年上新 12.8 万部，95% 以上使用 AI 辅助。——依据：`src_20260613_687c4ec0-transcript.md:217-227`、`src_20260613_687c4ec0-transcript.md:497`。
 
 ---
 
@@ -120,11 +121,11 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[ai-short-drama-ice-fire-dissection-compass-老顽童]]：逆向拆解爆款剧本的五大维度
-- [[ai-short-drama-plot-three-axes-老顽童]]：剧情三板斧（极致对立、高能吸睛、立意升华）
-- [[ai-short-drama-script-planning-three-axes-老顽童]]：剧本策划三板斧（剧本基地、内容走向、剧情终局）
-- [[ai-short-drama-framework-three-axes-老顽童]]：框架三板斧（深渊入局、迷雾博弈、决战收官）
-- [[ai-short-drama-conflict-three-axes-老顽童]]：矛盾冲突三板斧（外在阵营、内在人际、自我宿命）
+- [[ai-short-drama-ice-fire-dissection-compass]]：逆向拆解爆款剧本的五大维度
+- [[ai-short-drama-plot-three-axes]]：剧情三板斧（极致对立、高能吸睛、立意升华）
+- [[ai-short-drama-script-planning-three-axes]]：剧本策划三板斧（剧本基地、内容走向、剧情终局）
+- [[ai-short-drama-framework-three-axes]]：框架三板斧（深渊入局、迷雾博弈、决战收官）
+- [[ai-short-drama-conflict-three-axes]]：矛盾冲突三板斧（外在阵营、内在人际、自我宿命）
 
 ---
 
@@ -135,6 +136,16 @@ diagnostic_signals:
 | 想写一部 AI 短剧但毫无头绪 | 打开冰火写本罗盘，用 5 分钟填写"剧本基地"七要素（题材、主角、欲望、阻碍、场景、情绪价值、目标平台） | 输出一份≤20 行的剧本基地文档 |
 | AI 生成的剧本被批评"没情绪、流水账" | 用"剧情三板斧"检查：是否有极致对立？前 3 秒是否高能？结局是否有立意升华？ | 标出≥3 处需要补强的情绪节点 |
 | 剧本写到中段开始跑题 | 回看"内容走向"的 15 个关键节点，确认当前剧情是否还锁在主线 | 列出偏离主线的段落并给出回归方案 |
+
+---
+
+## Sources
+
+- `src_20260613_41aceaf5-ice-fire-scripting-compass.md:11-14` — 冰火写本罗盘原图表格
+- `src_20260613_687c4ec0-transcript.md:217-227` — 短剧市场数据（1000 亿 / 12.8 万部 / 95% AI 辅助）
+- `src_20260613_687c4ec0-transcript.md:349-379` — 核心方法论：专业方法论 + 精准指令 + 人工把控
+- `src_20260613_687c4ec0-transcript.md:605-613` — 商业化验证数据（30+ 剧本、签约 2 部）
+- `src_20260613_12d63c1c-notes.md:9-21` — 方法论总览结构化笔记
 
 ---
 

@@ -1,11 +1,18 @@
 ---
+type: source
+status: ingested
 source_id: "src_20260613_083395df"
-title: "剧情三板斧图片"
+title: "AI短剧创作-剧情三板斧图片"
+kind: file
+location: "10_raw/assets/ai-short-drama/代俊隆-AI短剧-剧情三板斧-图片-01.png"
 captured_at: "2026-06-13T20:01:13+00:00"
-kind: "raw-source"
-source_type: "image"
+trust_level: medium
+freshness: current
+rights: private
+created_at: "2026-06-13"
+updated_at: "2026-06-14"
+source_refs: []
 ---
-
 # 剧情三板斧图片
 
 > 原始图片：`10_raw/assets/ai-short-drama/代俊隆-AI短剧-剧情三板斧-图片-01.png`

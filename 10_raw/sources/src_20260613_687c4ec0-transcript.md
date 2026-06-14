@@ -1,11 +1,18 @@
 ---
+type: source
+status: ingested
 source_id: "src_20260613_687c4ec0"
-title: "代俊隆-AI短剧创作培训-口述转录"
+title: "AI短剧创作-口述转录文本"
+kind: text
+location: "10_raw/sources/src_20260613_687c4ec0-transcript.md"
 captured_at: "2026-06-13T20:01:13+00:00"
-kind: "raw-source"
-source_type: "text"
+trust_level: medium
+freshness: current
+rights: private
+created_at: "2026-06-13"
+updated_at: "2026-06-14"
+source_refs: []
 ---
-
 # 代俊隆-AI短剧创作培训-口述转录
 
 > 原始文件：`00_inbox/AI短剧创作/代俊隆-AI剧本创作-口述.txt`
@@ -2848,4 +2855,3 @@ AI写长篇小说500万，你只需要训练模型就可以了，AI也可以写�
 那我们
 
 就结束。
-

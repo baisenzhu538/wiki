@@ -1,5 +1,5 @@
 ---
-id: ai-short-drama-script-planning-three-axes-老顽童
+id: ai-short-drama-script-planning-three-axes
 title: 剧本策划三板斧：短剧从0到1的框架搭建工具
 type: tool
 status: enriched
@@ -17,11 +17,12 @@ author: 老顽童
 reviewed_by: 老顽童
 review_date: "2026-06-13"
 trust_level: medium
+confidence: 0.75
 related:
-  - "[[ai-short-drama-ice-fire-scripting-compass-老顽童]]"
-  - "[[ai-short-drama-plot-three-axes-老顽童]]"
-  - "[[ai-short-drama-framework-three-axes-老顽童]]"
-  - "[[ai-short-drama-conflict-three-axes-老顽童]]"
+  - "[[ai-short-drama-ice-fire-scripting-compass]]"
+  - "[[ai-short-drama-plot-three-axes]]"
+  - "[[ai-short-drama-framework-three-axes]]"
+  - "[[ai-short-drama-conflict-three-axes]]"
 tags:
   - "#ai-short-drama"
   - "#scriptwriting"
@@ -168,9 +169,9 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[ai-short-drama-ice-fire-scripting-compass-老顽童]]：剧本策划三板斧所在的顶层罗盘
-- [[ai-short-drama-plot-three-axes-老顽童]]：与策划三板斧配合使用的剧情张力工具
-- [[ai-short-drama-framework-three-axes-老顽童]]：策划之后的结构框架工具
+- [[ai-short-drama-ice-fire-scripting-compass]]：剧本策划三板斧所在的顶层罗盘
+- [[ai-short-drama-plot-three-axes]]：与策划三板斧配合使用的剧情张力工具
+- [[ai-short-drama-framework-three-axes]]：策划之后的结构框架工具
 
 ---
 
@@ -183,5 +184,12 @@ diagnostic_signals:
 | 大纲写到一半不确定结局 | 停下来，先用"剧情终局"确定结局情绪和价值主张，再倒推修改前面节点 | 写出 3 种结局方案并选定 1 种 |
 
 ---
+
+
+## Sources
+
+- `src_20260613_61c0cd80-script-planning-three-axes.md:11-14` — 剧本策划三板斧原图（剧本基地/内容走向/剧情终局）
+- `src_20260613_687c4ec0-transcript.md` — 口述中关于剧本基地与内容走向的讲解
+- `src_20260613_12d63c1c-notes.md:50-76` — 剧本策划三板斧结构化笔记
 
 *老顽童 · 2026-06-13 · 基于代俊隆 AI 短剧创作培训及剧本策划三板斧图片*
