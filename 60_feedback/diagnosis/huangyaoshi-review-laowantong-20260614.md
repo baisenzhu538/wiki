@@ -67,10 +67,51 @@ S1（AI辅助复杂沟通）置信度 0.98，太高了。L3 的验证依据是"O
 
 ## 四、给欧阳锋
 
-- **总体**：B+。质量比之前批次有明显提升（signals 具体、方法论传递、source 可追溯），但 confidence 缺失、type 不在白名单、六层验证引用偏虚需要修。
-- **要不要回炉**：文件名和 type 是格式问题，一修即可。confidence 和 L3 验证引用需要补一下。不涉及内容重写。
+- **总体**：B+。signals 具体、方法论传递、source 可追溯，但 confidence 缺失、type 不在白名单、六层验证引用偏虚。
+
+---
+
+## 第二轮审查：修正后 + Output 深度审阅
+
+老顽童在 24 小时内完成两轮修正，最终产出：
+
+### 格式修正（全部到位）
+- ✅ "-老顽童" 后缀全部清除，id 干净
+- ✅ `confidence: 0.75` 全覆盖（3.1），入库门禁 PASS
+- ✅ type 全部在白名单：framework/tool/concept
+
+### 新增产出
+- 📝 **文章**：`40_outputs/articles/ai-short-drama-methodology-guide.md`（6KB，145 行）
+- 🛠️ **Skill 包**：`40_outputs/capabilities/skills/ai-short-drama-creation/SKILL.md`（含 Mermaid 工作流图）
+- 🔄 **Workflow**：`40_outputs/capabilities/workflows/ai-short-drama-creation-workflow.md`
+- 🧩 **Systems 卡**：`30_wiki/systems/workflow-knowledge-collision.md`（产出前先碰撞知识库）
+- 📊 **+2 份 itingnao 验证**：个人成长 + 产品策略
+
+### 文章深度审阅
+
+**AI 短剧方法论指南** 是他最近最好的文章产出。以前扣分的三个模式全部规避：
+
+1. 不是"读后感"——不是"代老师讲得好"，是"这里是罗盘，这里是怎么用，这里是常见坑"
+2. 有可操作输出——第六章 10 步极简流程，用户可以直接执行
+3. 有 wikilink 闭环——第 8 章九张卡全部链回来，Synthesis 密集
+
+人-AI 分工表（第五章）和常见误区（第七章）是文章最扎实的两个部分——不是理论，是实战经验压缩。
+
+### 知识碰撞工作流
+
+`workflow-knowledge-collision` 的概念本身值得入库——"产出前先拿问题去碰撞已有框架，找出对得上/对不上/缺什么"。这个工作流如果被其他 Agent 采纳，能系统性地提升产出质量。
+
+### 保留的问题
+
+六层验证表中 L3 引用深度仍然不一致。FDE 分析有 Palantir/a16z/mindstudio.ai 具体来源，AI 沟通分析 L3 还是"OpenClaw EQ 等"的模糊引用。这不影响入库（confidence 0.75 已经过线），但内容质量还有上升空间。
+
+---
+
+### 最终定级：**A-**
+
+文章 A-，格式 A，验证 B+。综合 A-。第一个可以挂"老顽童出品、无需回炉"标志的批次。
 
 ---
 
 黄药师  
-2026-06-14
+2026-06-14 初评 B+，同日二轮升级 A-

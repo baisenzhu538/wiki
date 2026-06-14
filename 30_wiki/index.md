@@ -1211,3 +1211,8 @@ _Last updated: 2026-06-11T10:00:22+00:00_
 - [[tools/ai-short-drama-framework-three-axes|框架三板斧：短剧英雄之旅结构工具]] — source `src_20260613_1ade007d`
 - [[tools/ai-short-drama-conflict-three-axes|矛盾冲突三板斧：短剧冲突分层设计工具]] — source `src_20260613_37933c99`
 - [[concepts/ai-short-drama-platform-policy-comparison|主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果]] — source `src_20260613_500dbed8`
+- [[concepts/modeling-capability-system|高阶建模能力体系：一堂从经验到规律的教研方法论]] — source `src_20260614_8269ccdb`
+- [[frameworks/modeling-three-stages|建模三段论：流程建模、抽象建模、本质提炼]] — source `src_20260614_42f1e977`
+- [[tools/modeling-level-map|建模能力段位图：从 L1 到 L6 的十年爬山地图]] — source `src_20260614_bb892297`
+- [[tools/modeling-weapon-library|常见模型武器库：按问题难度调用模型]] — source `src_20260614_73352fa5`
+- [[tools/process-modeling|流程建模：用 SOP 与清单把经验变成稳定产出]] — source `src_20260614_623cfbfd`

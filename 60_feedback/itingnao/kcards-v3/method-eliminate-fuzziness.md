@@ -3,13 +3,16 @@ id: "method-eliminate-fuzziness"
 title: "方法卡：消除模糊的三层框架"
 type: "method-card"
 status: "draft"
-confidence_score: 0.72
-trust_level: "medium-high"
+confidence_score: 0.76
+trust_level: "high"
 source_refs:
   - "itingnao-2678368 自我提升-消除模糊"
   - "刻意练习理论（Anders Ericsson）"
   - "自我一致性理论（Self-Consistency Theory）"
-  - "决策疲劳/意志力研究"
+  - "Baumeister & Tierney《意志力》"
+  - "Pignatiello et al. (2018) Decision fatigue: A conceptual analysis"
+  - "Sievertsen et al. (2016) Cognitive fatigue influences students' performance"
+  - "Neal & Wood (2013) Habit Boost Effect"
 related:
   - "kcard-personal-growth-draft"
   - "six-layer-validation-personal-growth.md"
@@ -26,6 +29,20 @@ tags:
 ## 一句话定义
 
 通过识别并消除认知模糊、自我认知模糊、价值判断模糊，释放被无效决策消耗的精力，提升能力与行动力。
+
+## 底层原理
+
+### 意志力/自我损耗是有限资源
+
+- **自我损耗（Ego Depletion）**：意志力和自我控制像肌肉一样，使用后会疲劳（Baumeister & Tierney《意志力》）。
+- **决策疲劳（Decision Fatigue）**：反复做决策会降低决策质量和行为控制能力（Pignatiello et al., 2018）。
+- **后果**：导致冲动性增加、决策回避、信息处理能力下降、工作倦怠（Sievertsen et al., 2016）。
+
+### 习惯是节能模式
+
+- **习惯增强效应（Habit Boost Effect）**：当意志力低下时，大脑会依赖习惯（Neal & Wood, 2013）。
+- 如果习惯是健康的，低能量时也会自动执行；如果习惯不健康，就会滑坡。
+- **启示**：把高价值行为变成习惯，把低价值决策提前固定，可以节省意志力。
 
 ## 适用场景
 
@@ -74,10 +91,16 @@ tags:
 
 **解法：建立优先级系统**
 - 用"重要-紧急"矩阵或其他优先级框架。
-- 减少低价值选择：固定日常决策（如穿搭、饮食）。
+- **减少低价值选择**：固定日常决策（如穿搭、饮食），这是奥巴马、比尔·盖茨等高管常用的策略。
+- **把重要决策放在上午**：精力最充沛时处理最难、最抗拒的决策。
+- **提前做"若...则..."计划**：把现场决策转化为自动触发反应。
 - 把决策能量留给高价值事项。
 
-**工具**：艾森豪威尔矩阵、决策树、日常惯例（Routine）。
+**工具**：艾森豪威尔矩阵、决策树、日常惯例（Routine）、执行意图（If-Then Plan）。
+
+**科学依据**：
+- 减少选择数量可直接降低决策疲劳（Pignatiello et al., 2018）。
+- 建立日常例程是缓解决策疲劳的核心策略之一（USC Kortschak Center）。
 
 ## 实践步骤
 
