@@ -20,6 +20,7 @@ review_date: "2026-06-14"
 trust_level: "high"
 confidence: 0.85
 related:
+  - "modeling-capability-for-kdo"
   - "[[dk-modeling-ai-without-judgment]]"
   - "[[case-truman-ai-skill-engineering-guide]]"
   - "[[tool-essence-nfactor-modeling]]"

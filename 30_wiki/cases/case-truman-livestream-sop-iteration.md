@@ -16,6 +16,7 @@ reviewed_by: 黄药师
 review_date: "2026-06-14"
 trust_level: high
 related:
+  - "modeling-capability-for-kdo"
   - modeling-three-stages
   - modeling-capability-system
   - modeling-to-kdo-toolchain

@@ -20,6 +20,7 @@ review_date: "2026-06-14"
 trust_level: "high"
 confidence: 0.85
 related:
+  - "modeling-capability-for-kdo"
   - "[[case-truman-ai-skill-engineering-guide]]"
   - "[[tool-ai-skill-engineering-method]]"
   - "[[dk-modeling-counterexample-driven]]"

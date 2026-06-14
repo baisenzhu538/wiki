@@ -15,6 +15,7 @@ reviewed_by: 黄药师
 review_date: "2026-06-14"
 trust_level: high
 related:
+  - "modeling-capability-for-kdo"
   - modeling-three-stages
   - modeling-to-kdo-toolchain
   - case-truman-personal-growth-map-creation

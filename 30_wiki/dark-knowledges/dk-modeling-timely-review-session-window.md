@@ -15,6 +15,7 @@ source_refs:
 created_at: "2026-06-14"
 updated_at: "2026-06-14"
 related:
+  - "modeling-capability-for-kdo"
   - "process-modeling"
   - "modeling-three-stages"
   - "dk-modeling-sop-execution-locks"
