@@ -1,0 +1,13 @@
+C:\Users\Administrator\Desktop\wiki\30_wiki\cases\case-truman-ai-skill-self-packaging.md
+C:\Users\Administrator\Desktop\wiki\30_wiki\cases\case-truman-livestream-sop-iteration.md
+C:\Users\Administrator\Desktop\wiki\30_wiki\cases\case-truman-personal-growth-map-creation.md
+C:\Users\Administrator\Desktop\wiki\30_wiki\decisions\agent-ecosystem-design.md
+C:\Users\Administrator\Desktop\wiki\30_wiki\decisions\label-accuracy-standard-alignment.md
+C:\Users\Administrator\Desktop\wiki\30_wiki\decisions\proposal-deep-synthesis-infrastructure.md
+C:\Users\Administrator\Desktop\wiki\30_wiki\decisions\proposal-kdo-flywheel-infrastructure.md
+C:\Users\Administrator\Desktop\wiki\30_wiki\decisions\sprint-6-cli-gap-proposal.md
+C:\Users\Administrator\Desktop\wiki\30_wiki\decisions\truman-ai-partner-design-analysis.md
+C:\Users\Administrator\Desktop\wiki\30_wiki\frameworks\business-formula-to-kdo-card-quality.md
+C:\Users\Administrator\Desktop\wiki\30_wiki\frameworks\model-quality-four-levels.md
+C:\Users\Administrator\Desktop\wiki\30_wiki\frameworks\modeling-to-kdo-toolchain.md
+C:\Users\Administrator\Desktop\wiki\30_wiki\systems\kdo-batch-produce-req014.md

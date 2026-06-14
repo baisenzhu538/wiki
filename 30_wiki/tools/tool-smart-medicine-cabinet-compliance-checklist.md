@@ -100,14 +100,13 @@ related:
 ---
 
 **卡片输出路径**：`C:/Users/Administrator/Desktop/wiki/60_feedback/knowledge-cards-draft/kc_itingnao_compliance-validation.md`
-
 ---
 
 ## Purpose
 
 本工具解决以下问题：
 
-1. 为智能药柜/医药项目相关方提供结构化的智能药柜/医药项目合规快速校验清单检查框架。
+1. 为智能药柜/医药项目相关方提供结构化的检查框架。
 2. 在决策前识别关键风险点，避免被单方面宣传误导。
 3. 作为团队内部复核清单，确保关键证据已经交叉验证。
 4. 为后续尽职调查、合同谈判或政策申报提供起点。
