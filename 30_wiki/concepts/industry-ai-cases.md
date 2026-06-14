@@ -17,21 +17,21 @@ source_refs:
 - src_20260614_45ab8b35
 - src_20260614_5e47c1c5
 - src_20260614_b9ae158f
-related:
-- ai-landing-scene-selection
-- ai-collaboration-mindset-shift
-- concept-ai-native-organization-five-steps
-- dk-纪浩-ai-cant-design-structure
-- dk-一堂-wishful-thinking-kills-startups
 tags:
-- '#industry-ai'
-- '#business-model'
-- '#ai-saas'
+- "#industry-ai"
+- "#business-model"
+- "#ai-saas"
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
+related:
+- "[[ai-landing-scene-selection]]"
+- "[[ai-collaboration-mindset-shift]]"
+- "[[concept-ai-native-organization-five-steps]]"
+- "[[dk-纪浩-ai-cant-design-structure]]"
+- "[[dk-一堂-wishful-thinking-kills-startups]]"
 ---
 # 产业 AI 落地案例集（非药柜）
 

@@ -11,21 +11,21 @@ source_refs:
 - src_20260614_16c4bf0d
 - src_20260614_d6ab6fb6
 - src_20260614_9b574611
-related:
-- smart-medicine-cabinet-distribution
-- yt-unit-model-overview
 tags:
-- '#beverage'
-- '#supply-chain'
-- '#catering-channel'
-- '#cost-optimization'
-- '#product-development'
-- '#itingnao'
+- "#beverage"
+- "#supply-chain"
+- "#catering-channel"
+- "#cost-optimization"
+- "#product-development"
+- "#itingnao"
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
+related:
+- "[[smart-medicine-cabinet-distribution]]"
+- "[[yt-unit-model-overview]]"
 confidence: 0.65
 trust_level: low-medium
 ---

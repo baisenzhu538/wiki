@@ -126,6 +126,10 @@ def validate_file(fp: Path, schemas: dict) -> list:
         return errors
 
     page_type = fm.get("type", "unknown")
+    if isinstance(page_type, list):
+        page_type = page_type[0] if page_type else "unknown"
+    if not isinstance(page_type, str):
+        page_type = str(page_type)
     schema = schemas.get(page_type) or schemas.get("concept")
     if not schema:
         return errors  # No schema to validate against

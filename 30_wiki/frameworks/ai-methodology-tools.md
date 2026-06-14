@@ -19,22 +19,22 @@ source_refs:
 - src_20260614_c1430e21
 - src_20260614_4b226b4f
 - src_20260614_d78e7c7b
-related:
-- find-old-do-small
-- ai-collaboration-mindset-shift
-- ai-landing-scene-selection
-- ai-learning-closed-loop
-- course-to-skill-conversion
-- kdo-flywheel
 tags:
-- '#ai-methodology'
-- '#tool-stack'
-- '#ai-collaboration'
+- "#ai-methodology"
+- "#tool-stack"
+- "#ai-collaboration"
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
+related:
+- "[[find-old-do-small]]"
+- "[[ai-collaboration-mindset-shift]]"
+- "[[ai-landing-scene-selection]]"
+- "[[ai-learning-closed-loop]]"
+- "[[course-to-skill-conversion]]"
+- "[[kdo-flywheel]]"
 ---
 # AI 方法论与工具栈：主题综合知识卡
 

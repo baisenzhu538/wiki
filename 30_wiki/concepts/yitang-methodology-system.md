@@ -34,22 +34,22 @@ source_refs:
 - src_20260614_3501eb39
 - src_20260614_78622699
 - src_20260614_46bc4b82
-related:
-- ai-landing-scene-selection
-- find-old-do-small
-- course-to-skill-conversion
-- ai-learning-closed-loop
-- master-first-principles
-- master-systems-thinking
 tags:
-- '#yitang'
-- '#learning-methodology'
-- '#master-system'
+- "#yitang"
+- "#learning-methodology"
+- "#master-system"
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
+related:
+- "[[ai-landing-scene-selection]]"
+- "[[find-old-do-small]]"
+- "[[course-to-skill-conversion]]"
+- "[[ai-learning-closed-loop]]"
+- "[[master-first-principles]]"
+- "[[master-systems-thinking]]"
 ---
 # 一堂方法论体系：从科学做事到无限进步
 

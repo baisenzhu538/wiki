@@ -18,21 +18,21 @@ source_refs:
 - src_20260614_350272ef
 - src_20260614_086550ab
 - src_20260614_1a0a6efa
-related:
-- concept-一堂-hypothesis-driven-business-methodology
-- concept-一堂-product-kernel
-- concept-mckinsey-issue-tree
-- ai-collaboration-mindset-shift
-- ai-landing-scene-selection
 tags:
-- '#ai-application'
-- '#lean-validation'
-- '#business-model'
+- "#ai-application"
+- "#lean-validation"
+- "#business-model"
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
+related:
+- "[[concept-一堂-hypothesis-driven-business-methodology]]"
+- "[[concept-一堂-product-kernel]]"
+- "[[concept-mckinsey-issue-tree]]"
+- "[[ai-collaboration-mindset-shift]]"
+- "[[ai-landing-scene-selection]]"
 ---
 # 非药柜主题综合知识卡
 

@@ -13,24 +13,24 @@ source_refs:
 - src_20260614_82a4fdb9
 - src_20260614_6fb509a4
 - src_20260614_7963c2f2
-related:
-- master-systems-thinking
-- master-cognitive-bias-checklist
-- master-decision-hygiene
-- master-antifragile-checklist
-- master-first-principles
-- yt-personal-ipo-learning
-- yt-personal-knowledge-extraction
-- ai-collaboration-mindset-shift
 tags:
-- '#personal-growth'
-- '#complex-systems'
-- '#learning-methodology'
+- "#personal-growth"
+- "#complex-systems"
+- "#learning-methodology"
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
+related:
+- "[[master-systems-thinking]]"
+- "[[master-cognitive-bias-checklist]]"
+- "[[master-decision-hygiene]]"
+- "[[master-antifragile-checklist]]"
+- "[[master-first-principles]]"
+- "[[yt-personal-ipo-learning]]"
+- "[[yt-personal-knowledge-extraction]]"
+- "[[ai-collaboration-mindset-shift]]"
 confidence: 0.75
 ---
 # 个人成长主题综合知识卡

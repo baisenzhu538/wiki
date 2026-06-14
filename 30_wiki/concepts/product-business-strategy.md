@@ -11,11 +11,10 @@ source_refs:
 - src_20260614_5f74ed61
 - src_20260614_0e07078e
 - src_20260614_8a0317f1
-related: []
 tags:
-- '#product-strategy'
-- '#business-strategy'
-- '#operations'
+- "#product-strategy"
+- "#business-strategy"
+- "#operations"
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣
