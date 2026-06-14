@@ -415,3 +415,21 @@
 - 诊断流程：查公告 → 查日志 → 查 API console → 最后才改配置
 
 **关联**：P-21（无诊断手段时盲目调参）——同样的病，不同症状。这次是"有诊断手段但不用"。
+
+---
+
+## P-29: 批量脚本覆盖非空值——44 张卡 frontmatter 破坏 + 26 张卡 source_context 丢失
+
+**症状**：`8bbfd08d` 提交给 48 张卡补 source_context 时：① 44 张卡 frontmatter 开头出现空行（YAML 解析被破坏）；② 26 张卡已有的真实 source_context 被覆盖为泛型 `"KDO internal record"`。
+
+**根因**：
+1. 批量脚本的 `insert_after_author` 逻辑在 author 行后插入了空行
+2. 脚本不区分"空值需要补"和"已有值不能改"——直接覆盖了非空的 source_context
+3. 没有 dry-run 模式，没有 git diff 确认就提交
+
+**对策**：
+- 任何批量写操作前必须：① `--dry-run` 预览变更清单；② 对非空值只追加不覆盖；③ 写完后 `yaml.safe_load` 验证 frontmatter 可解析
+- 批量修改后必须 `git diff --stat` 确认变更范围在预期内
+- 门禁脚本已加 `--dry-run` 模式
+
+**此次由王语嫣独立发现并修复**——Agent交叉审计再次验证有效。
