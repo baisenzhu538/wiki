@@ -884,7 +884,7 @@ yt-entrepreneur-five-step-method 的 related 中加：
 
 ---
 
-## 🔴 新任务：Truman 口述稿暗知识提取 + 5 个案例补全（2026-06-15）
+## ✅ 新任务：Truman 口述稿暗知识提取 + 5 个案例补全（已完成）
 
 > **来源**：用户拍板，与黄药师回修任务并行推进。
 > **执行人**：老顽童
@@ -1141,3 +1141,49 @@ updated_at: "2026-06-15"
 1. `30_wiki/dark-knowledges/dk-modeling-{slug}.md` × 5-10
 2. `30_wiki/cases/case-{short-name}.md` × 5
 3. 本文件末尾的小结
+
+---
+
+## 八、老顽童完成小结（2026-06-16）
+
+本任务已完成。
+
+### 产出清单
+
+**暗知识卡 8 张**（`30_wiki/dark-knowledges/`）：
+
+| 文件 | 主题 | 类型 |
+|---|---|---|
+| `dk-modeling-logical-cleanliness-root.md` | 逻辑洁癖是建模之本 | insight |
+| `dk-modeling-checklist-formatting-rules.md` | 清单体四条硬规则 | workflow |
+| `dk-modeling-radar-model-not-result.md` | CEO 只审模型不拍结果 | workflow |
+| `dk-modeling-model-arsenal-paradigms.md` | 99% 模型归集到二三十个范式 | insight |
+| `dk-modeling-business-visual-logic-match.md` | 业务逻辑与视觉逻辑匹配 | insight |
+| `dk-modeling-ai-compound-leverage.md` | AI 最大杠杆场景是建模 | insight |
+| `dk-modeling-unit-pairs-milestone.md` | 里程碑由成对单元模型拼成 | workflow |
+| `dk-modeling-course-rnd-ripe-fruit.md` | 研究型课程无法提前排课表 | workflow |
+
+**案例卡 5 张**（`30_wiki/cases/`）：
+
+| 文件 | 主题 |
+|---|---|
+| `case-yitang-model-asset-inventory.md` | 一堂用 AI 扫描三四百个模型资产并范式归集 |
+| `case-yitang-double-triangle-confidence.md` | 双三角模型成为 AI 难题通用解题底盘 |
+| `case-yitang-weekly-modeling-engine.md` | 周五课程倒逼周对周建模迭代 |
+| `case-truman-sales-report-structure.md` | 销售失利汇报从 10 个散点升级成逻辑链 |
+| `case-yitang-model-valuation-flywheel.md` | 一堂内部给模型“定价”到 10 万美金 |
+
+### 质量校验
+
+- ✅ `kdo_lint.py 30_wiki/dark-knowledges`：8 张新 DK 卡无结构性错误
+- ✅ `kdo_lint.py 30_wiki/cases`：5 张新案例卡无结构性错误
+- ✅ `kcard-quality-gate.py`：13 张新卡无 P0/P1 问题
+
+### 待审查
+
+请 **王语嫣 / 欧阳锋** 审查上述 13 张新卡。审查重点：
+
+1. 是否有与现有 `dk-modeling-*` / `case-*` 卡的重复内容；
+2. 原始表述引用是否准确、可追溯；
+3. 失败模式表是否可执行、边界是否清晰；
+4. 暗知识卡与案例卡之间的双向链接是否完整。
