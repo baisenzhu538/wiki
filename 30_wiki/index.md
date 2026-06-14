@@ -5,6 +5,11 @@ _Last updated: 2026-06-14T06:10:00+00:00_
 
 - [案例：一堂个人地图的完整建模过程](cases/case-personal-map-modeling.md) — source `src_20260614_8269ccdb`
 - [案例：孩子控笔「画画歌」——最小单元的建模实践](cases/case-child-drawing-rhyme.md) — source `src_20260614_8269ccdb`
+- [案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%](cases/case-zhangyang-anchor-sop-three-locks.md) — source `src_20260614_8269ccdb`
+- [案例：一堂雷达图评选机制——从 Truman 拍板到“只聊模型不聊结果”](cases/case-yitang-radar-chart-selection.md) — source `src_20260614_8269ccdb`
+- [案例：Truman 用 AI Agent 3 小时设计里程碑方法论与 48 个组件](cases/case-ai-agent-milestone-design.md) — source `src_20260614_8269ccdb`
+- [案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己](cases/case-ai-assisted-review.md) — source `src_20260614_8269ccdb`
+- [案例：招聘/股权/激励专家都把本质归为“人性”——解释性本质的陷阱](cases/case-essence-humanity-trap.md) — source `src_20260614_8269ccdb`
 - [千人广场模型：一堂做课背后的统计建模理念](concepts/concept-thousand-people-square.md) — source `src_20260614_8269ccdb`
 - [课程里程碑模型：一堂做课的七步生产流程](frameworks/framework-course-milestone-model.md) — source `src_20260614_8269ccdb`
 - [逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准](frameworks/framework-logic-cleanliness-five-levels.md) — source `src_20260614_8269ccdb`

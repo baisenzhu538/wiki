@@ -4,6 +4,11 @@
 |---|---|---|---|
 | case-personal-map-modeling | 案例：一堂个人地图的完整建模过程 | case | yitang, modeling |
 | case-child-drawing-rhyme | 案例：孩子控笔「画画歌」——最小单元的建模实践 | case | yitang, modeling |
+| case-zhangyang-anchor-sop-three-locks | 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100% | case | yitang, modeling |
+| case-yitang-radar-chart-selection | 案例：一堂雷达图评选机制——从 Truman 拍板到“只聊模型不聊结果” | case | yitang, modeling |
+| case-ai-agent-milestone-design | 案例：Truman 用 AI Agent 3 小时设计里程碑方法论与 48 个组件 | case | yitang, modeling, ai |
+| case-ai-assisted-review | 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己 | case | yitang, modeling, ai |
+| case-essence-humanity-trap | 案例：招聘/股权/激励专家都把本质归为“人性”——解释性本质的陷阱 | case | yitang, modeling |
 | concept-thousand-people-square | 千人广场模型：一堂做课背后的统计建模理念 | concept | yitang, education |
 | framework-course-milestone-model | 课程里程碑模型：一堂做课的七步生产流程 | framework | yitang, education |
 | framework-logic-cleanliness-five-levels | 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准 | framework | yitang, modeling |
