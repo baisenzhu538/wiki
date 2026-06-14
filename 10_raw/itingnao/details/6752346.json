@@ -1,0 +1,1406 @@
+{
+  "success": true,
+  "request": {
+    "id": 6752346,
+    "summary_new": "1"
+  },
+  "detail": {
+    "id": 6752346,
+    "name": "多人-系统费用沟通",
+    "folderId": 245320,
+    "duration": null,
+    "createdAt": null,
+    "updatedAt": null,
+    "status": {
+      "value": 4,
+      "text": "处理完成",
+      "done": true
+    },
+    "transcript": {
+      "data": [
+        {
+          "beginTime": 4560,
+          "endTime": 9319,
+          "has_verify": true,
+          "id": 1,
+          "paragraph_id": "1777101764760500000",
+          "remark_type": 0,
+          "sentence_id": 1,
+          "text": "就这样。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "c6414a7edfff4d6d9ebd51f415440bc6",
+          "userId": "1",
+          "userName": "说话人1",
+          "words": [
+            {
+              "beginTime": 4560,
+              "endTime": 6781,
+              "sentence_id": 1,
+              "word": "就"
+            },
+            {
+              "beginTime": 6781,
+              "endTime": 9319,
+              "sentence_id": 1,
+              "word": "这样。"
+            }
+          ]
+        },
+        {
+          "beginTime": 11450,
+          "endTime": 19020,
+          "has_verify": true,
+          "id": 2,
+          "paragraph_id": "1777101771650500000",
+          "remark_type": 0,
+          "sentence_id": 2,
+          "text": "不是你们系统，你们系统说的，千分之2.2.2 2.3那个费用是指什么意思？",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "b18b0d87e2c74893b10170afb5860868",
+          "userId": "2",
+          "userName": "说话人2",
+          "words": [
+            {
+              "beginTime": 11450,
+              "endTime": 11870,
+              "sentence_id": 2,
+              "word": "不是"
+            },
+            {
+              "beginTime": 11870,
+              "endTime": 12290,
+              "sentence_id": 2,
+              "word": "你们"
+            },
+            {
+              "beginTime": 12290,
+              "endTime": 12710,
+              "sentence_id": 2,
+              "word": "系统，"
+            },
+            {
+              "beginTime": 12711,
+              "endTime": 13131,
+              "sentence_id": 2,
+              "word": "你们"
+            },
+            {
+              "beginTime": 13131,
+              "endTime": 13551,
+              "sentence_id": 2,
+              "word": "系统"
+            },
+            {
+              "beginTime": 13551,
+              "endTime": 13761,
+              "sentence_id": 2,
+              "word": "说"
+            },
+            {
+              "beginTime": 13761,
+              "endTime": 13971,
+              "sentence_id": 2,
+              "word": "的，"
+            },
+            {
+              "beginTime": 14394,
+              "endTime": 14994,
+              "sentence_id": 2,
+              "word": "千分之"
+            },
+            {
+              "beginTime": 14994,
+              "endTime": 16794,
+              "sentence_id": 2,
+              "word": "2.2.2 2.3"
+            },
+            {
+              "beginTime": 16794,
+              "endTime": 17194,
+              "sentence_id": 2,
+              "word": "那个"
+            },
+            {
+              "beginTime": 17194,
+              "endTime": 17594,
+              "sentence_id": 2,
+              "word": "费用"
+            },
+            {
+              "beginTime": 17594,
+              "endTime": 17794,
+              "sentence_id": 2,
+              "word": "是"
+            },
+            {
+              "beginTime": 17794,
+              "endTime": 17994,
+              "sentence_id": 2,
+              "word": "指"
+            },
+            {
+              "beginTime": 17994,
+              "endTime": 18394,
+              "sentence_id": 2,
+              "word": "什么"
+            },
+            {
+              "beginTime": 18394,
+              "endTime": 19020,
+              "sentence_id": 2,
+              "word": "意思？"
+            }
+          ]
+        },
+        {
+          "beginTime": 22020,
+          "endTime": 27420,
+          "has_verify": true,
+          "id": 3,
+          "paragraph_id": "1777101782220500000",
+          "remark_type": 0,
+          "sentence_id": 3,
+          "text": "从咱这个受关机里头，现场也干了这种，咱们可能需要这个好吗？",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "9ddd3370868442b99e7bad61111b8bff",
+          "userId": "1",
+          "userName": "说话人1",
+          "words": [
+            {
+              "beginTime": 22020,
+              "endTime": 22227,
+              "sentence_id": 3,
+              "word": "从"
+            },
+            {
+              "beginTime": 22227,
+              "endTime": 22434,
+              "sentence_id": 3,
+              "word": "咱"
+            },
+            {
+              "beginTime": 22434,
+              "endTime": 22848,
+              "sentence_id": 3,
+              "word": "这个"
+            },
+            {
+              "beginTime": 22848,
+              "endTime": 23055,
+              "sentence_id": 3,
+              "word": "受"
+            },
+            {
+              "beginTime": 23055,
+              "endTime": 23469,
+              "sentence_id": 3,
+              "word": "关机"
+            },
+            {
+              "beginTime": 23469,
+              "endTime": 23883,
+              "sentence_id": 3,
+              "word": "里头，"
+            },
+            {
+              "beginTime": 23889,
+              "endTime": 24303,
+              "sentence_id": 3,
+              "word": "现场"
+            },
+            {
+              "beginTime": 24303,
+              "endTime": 24510,
+              "sentence_id": 3,
+              "word": "也"
+            },
+            {
+              "beginTime": 24510,
+              "endTime": 24924,
+              "sentence_id": 3,
+              "word": "干了"
+            },
+            {
+              "beginTime": 24924,
+              "endTime": 25338,
+              "sentence_id": 3,
+              "word": "这种，"
+            },
+            {
+              "beginTime": 25343,
+              "endTime": 25757,
+              "sentence_id": 3,
+              "word": "咱们"
+            },
+            {
+              "beginTime": 25757,
+              "endTime": 26171,
+              "sentence_id": 3,
+              "word": "可能"
+            },
+            {
+              "beginTime": 26171,
+              "endTime": 26585,
+              "sentence_id": 3,
+              "word": "需要"
+            },
+            {
+              "beginTime": 26585,
+              "endTime": 26999,
+              "sentence_id": 3,
+              "word": "这个"
+            },
+            {
+              "beginTime": 26999,
+              "endTime": 27420,
+              "sentence_id": 3,
+              "word": "好吗？"
+            }
+          ]
+        },
+        {
+          "beginTime": 31820,
+          "endTime": 35637,
+          "has_verify": true,
+          "id": 4,
+          "paragraph_id": "1777101782220500000",
+          "remark_type": 0,
+          "sentence_id": 4,
+          "text": "我们的是通道，像外卖这些都跟我们没关系。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "a80e25c8d6c24b5a94a398815484b7a6",
+          "userId": "1",
+          "userName": "说话人1",
+          "words": [
+            {
+              "beginTime": 31820,
+              "endTime": 32456,
+              "sentence_id": 4,
+              "word": "我们的"
+            },
+            {
+              "beginTime": 32456,
+              "endTime": 32668,
+              "sentence_id": 4,
+              "word": "是"
+            },
+            {
+              "beginTime": 32668,
+              "endTime": 33092,
+              "sentence_id": 4,
+              "word": "通道，"
+            },
+            {
+              "beginTime": 33093,
+              "endTime": 33305,
+              "sentence_id": 4,
+              "word": "像"
+            },
+            {
+              "beginTime": 33305,
+              "endTime": 33729,
+              "sentence_id": 4,
+              "word": "外卖"
+            },
+            {
+              "beginTime": 33729,
+              "endTime": 34153,
+              "sentence_id": 4,
+              "word": "这些"
+            },
+            {
+              "beginTime": 34153,
+              "endTime": 34365,
+              "sentence_id": 4,
+              "word": "都"
+            },
+            {
+              "beginTime": 34365,
+              "endTime": 34577,
+              "sentence_id": 4,
+              "word": "跟"
+            },
+            {
+              "beginTime": 34577,
+              "endTime": 35001,
+              "sentence_id": 4,
+              "word": "我们"
+            },
+            {
+              "beginTime": 35001,
+              "endTime": 35637,
+              "sentence_id": 4,
+              "word": "没关系。"
+            }
+          ]
+        },
+        {
+          "beginTime": 35852,
+          "endTime": 37548,
+          "has_verify": true,
+          "id": 5,
+          "paragraph_id": "1777101796052500000",
+          "remark_type": 0,
+          "sentence_id": 5,
+          "text": "外卖是他们的通道。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "b91b6cf9624041ba87d2e30124f9e71e",
+          "userId": "2",
+          "userName": "说话人2",
+          "words": [
+            {
+              "beginTime": 35852,
+              "endTime": 36276,
+              "sentence_id": 5,
+              "word": "外卖"
+            },
+            {
+              "beginTime": 36276,
+              "endTime": 36488,
+              "sentence_id": 5,
+              "word": "是"
+            },
+            {
+              "beginTime": 36488,
+              "endTime": 37124,
+              "sentence_id": 5,
+              "word": "他们的"
+            },
+            {
+              "beginTime": 37124,
+              "endTime": 37548,
+              "sentence_id": 5,
+              "word": "通道。"
+            }
+          ]
+        },
+        {
+          "beginTime": 37550,
+          "endTime": 39458,
+          "has_verify": true,
+          "id": 6,
+          "paragraph_id": "1777101796052500000",
+          "remark_type": 0,
+          "sentence_id": 6,
+          "text": "你你你父有没有关系？",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "b19646f3fa1940b29c4c2c24358f9f15",
+          "userId": "2",
+          "userName": "说话人2",
+          "words": [
+            {
+              "beginTime": 37550,
+              "endTime": 38186,
+              "sentence_id": 6,
+              "word": "你你你"
+            },
+            {
+              "beginTime": 38186,
+              "endTime": 38398,
+              "sentence_id": 6,
+              "word": "父"
+            },
+            {
+              "beginTime": 38398,
+              "endTime": 39034,
+              "sentence_id": 6,
+              "word": "有没有"
+            },
+            {
+              "beginTime": 39034,
+              "endTime": 39458,
+              "sentence_id": 6,
+              "word": "关系？"
+            }
+          ]
+        },
+        {
+          "beginTime": 40238,
+          "endTime": 43200,
+          "has_verify": true,
+          "id": 7,
+          "paragraph_id": "1777101796052500000",
+          "remark_type": 0,
+          "sentence_id": 7,
+          "text": "好的，那我明白了。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "e0eb72c932df437599b29909ba7b858c",
+          "userId": "2",
+          "userName": "说话人2",
+          "words": [
+            {
+              "beginTime": 40238,
+              "endTime": 40896,
+              "sentence_id": 7,
+              "word": "好的，"
+            },
+            {
+              "beginTime": 41554,
+              "endTime": 41883,
+              "sentence_id": 7,
+              "word": "那"
+            },
+            {
+              "beginTime": 41883,
+              "endTime": 43200,
+              "sentence_id": 7,
+              "word": "我明白了。"
+            }
+          ]
+        },
+        {
+          "beginTime": 253620,
+          "endTime": 268320,
+          "has_verify": true,
+          "id": 8,
+          "paragraph_id": "1777102013820500000",
+          "remark_type": 0,
+          "sentence_id": 8,
+          "text": "这个更新了，**厉害类似，我再分析一下，看我我我昨天都已经配到那个龙虾里面去了，我昨天晚上配的。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "9c9a959fb0d742cb9994e137b51f0183",
+          "userId": "3",
+          "userName": "说话人3",
+          "words": [
+            {
+              "beginTime": 253620,
+              "endTime": 254412,
+              "sentence_id": 8,
+              "word": "这个"
+            },
+            {
+              "beginTime": 254412,
+              "endTime": 255204,
+              "sentence_id": 8,
+              "word": "更新"
+            },
+            {
+              "beginTime": 255204,
+              "endTime": 255600,
+              "sentence_id": 8,
+              "word": "了，"
+            },
+            {
+              "beginTime": 255603,
+              "endTime": 256395,
+              "sentence_id": 8,
+              "word": "**"
+            },
+            {
+              "beginTime": 256395,
+              "endTime": 257187,
+              "sentence_id": 8,
+              "word": "厉害"
+            },
+            {
+              "beginTime": 257187,
+              "endTime": 257979,
+              "sentence_id": 8,
+              "word": "类似，"
+            },
+            {
+              "beginTime": 258380,
+              "endTime": 258660,
+              "sentence_id": 8,
+              "word": "我"
+            },
+            {
+              "beginTime": 258660,
+              "endTime": 258940,
+              "sentence_id": 8,
+              "word": "再"
+            },
+            {
+              "beginTime": 258940,
+              "endTime": 259500,
+              "sentence_id": 8,
+              "word": "分析"
+            },
+            {
+              "beginTime": 259500,
+              "endTime": 260060,
+              "sentence_id": 8,
+              "word": "一下，"
+            },
+            {
+              "beginTime": 260060,
+              "endTime": 260408,
+              "sentence_id": 8,
+              "word": "看"
+            },
+            {
+              "beginTime": 260408,
+              "endTime": 261452,
+              "sentence_id": 8,
+              "word": "我我我"
+            },
+            {
+              "beginTime": 261452,
+              "endTime": 262148,
+              "sentence_id": 8,
+              "word": "昨天"
+            },
+            {
+              "beginTime": 262148,
+              "endTime": 262496,
+              "sentence_id": 8,
+              "word": "都"
+            },
+            {
+              "beginTime": 262496,
+              "endTime": 263192,
+              "sentence_id": 8,
+              "word": "已经"
+            },
+            {
+              "beginTime": 263192,
+              "endTime": 263540,
+              "sentence_id": 8,
+              "word": "配"
+            },
+            {
+              "beginTime": 263540,
+              "endTime": 263888,
+              "sentence_id": 8,
+              "word": "到"
+            },
+            {
+              "beginTime": 263888,
+              "endTime": 264584,
+              "sentence_id": 8,
+              "word": "那个"
+            },
+            {
+              "beginTime": 264584,
+              "endTime": 265280,
+              "sentence_id": 8,
+              "word": "龙虾"
+            },
+            {
+              "beginTime": 265280,
+              "endTime": 265976,
+              "sentence_id": 8,
+              "word": "里面"
+            },
+            {
+              "beginTime": 265976,
+              "endTime": 266672,
+              "sentence_id": 8,
+              "word": "去了，"
+            },
+            {
+              "beginTime": 266688,
+              "endTime": 266921,
+              "sentence_id": 8,
+              "word": "我"
+            },
+            {
+              "beginTime": 266921,
+              "endTime": 267853,
+              "sentence_id": 8,
+              "word": "昨天晚上"
+            },
+            {
+              "beginTime": 267853,
+              "endTime": 268086,
+              "sentence_id": 8,
+              "word": "配"
+            },
+            {
+              "beginTime": 268086,
+              "endTime": 268320,
+              "sentence_id": 8,
+              "word": "的。"
+            }
+          ]
+        }
+      ],
+      "count": 8,
+      "status": {
+        "value": 1,
+        "text": "转写完成",
+        "done": true
+      }
+    },
+    "meetingSummary": {
+      "content": "## 📌基本信息\n\n- **主题**:系统费用与通道配置沟通\n- **时间**:2026-04-25 15:17:08\n- **沟通人员**:说话人1、说话人2、说话人3\n\n---\n\n## 一、沟通背景与目的\n\n本次沟通围绕 **系统费用说明** 与 **通道配置** 展开，说话人2询问系统中“千分之2.2.2 2.3”费用的含义，说话人1解释费用与己方通道相关，与外卖等其他通道无关；说话人3提及已完成龙虾相关的配置更新，需进一步分析。\n\n---\n\n## 二、系统费用与通道说明\n\n### 2.1 费用含义询问\n\n- 说话人2询问系统中提到的“**千分之2.2.2 2.3**”费用的具体含义。\n\n### 2.2 费用与通道关系解释\n\n- 说话人1说明费用与己方通道相关，从“受关机”（可能为“受理机”）产生，现场已有相关操作案例。\n- 明确表示外卖等通道与己方无关，由其他方负责。\n- 说话人2确认理解：外卖是其他方的通道，与己方无关。\n\n---\n\n## 三、配置更新与分析\n\n### 3.1 配置完成情况\n\n- 说话人3表示已完成更新，提到“**厉害类似**”（具体含义不明确），并已将配置应用到“**龙虾**”相关场景中，配置操作于昨天晚上完成。\n\n### 3.2 后续计划\n\n- 说话人3计划对已完成的配置进行进一步分析。\n\n---\n\n## 四、结论与行动\n\n### 4.1 结论\n\n- 明确系统费用与己方通道相关，与外卖等其他通道无关。\n- 龙虾相关配置已完成，待进一步分析。\n\n### 4.2 行动计划\n\n- 说话人3需对已配置的龙虾场景进行分析，确认配置效果。\n\n### 4.3 待办事项\n\n| **时间点** | **责任人** | **任务**               | **产出/验收**       |\n|------------|------------|------------------------|---------------------|\n| 待确认     | 说话人3    | 分析龙虾场景的配置情况 | 配置分析结果        |",
+      "status": {
+        "value": 2,
+        "text": "纪要已生成",
+        "done": true
+      }
+    },
+    "raw": {
+      "id": 6752346,
+      "user_id": 240745,
+      "name": "多人-系统费用沟通",
+      "name_status": 0,
+      "ws_url": "wss://tingwu-realtime-cn-beijing.aliyuncs.com/api/ws/v1?mc=MxnKQulcdw1P7x3iSqjneUeJY4fHxjw8f5aAtDPfJXycYwLgOpMB54M1K8bGVzACGLeXdIOmsY7UjcbeL5qtWRmEqCEU6RJn27IpAuRQpr3gWaYk2IfgFxg2uMosOhdV",
+      "style": 2,
+      "file_path": "https://tnoss.itingnao.com/tmp/240745_6752346/kcgj9l7jpef6zycjne45gu26cq83tki0.mp3?auth_key=1781417812-z35hogg1t0nvat7pu907ypyr5dea23en-0-66800b12ccd4b052ecfa759a4e7c6b55",
+      "prepare_path": "tmp/240745_6752346/kcgj9l7jpef6zycjne45gu26cq83tki0.mp3",
+      "pcm_to_mp3_status": 3,
+      "pcm_to_mp3_message": "",
+      "file_long": "4:31",
+      "file_duration": 271000,
+      "file_source_type": 2,
+      "text_polish": null,
+      "text_polish_status": 0,
+      "mind_map_summary": [],
+      "mind_map_summary_status": 1,
+      "key_sentences": [],
+      "key_sentences_status": 10,
+      "data": [
+        {
+          "beginTime": 4560,
+          "endTime": 9319,
+          "has_verify": true,
+          "id": 1,
+          "paragraph_id": "1777101764760500000",
+          "remark_type": 0,
+          "sentence_id": 1,
+          "text": "就这样。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "c6414a7edfff4d6d9ebd51f415440bc6",
+          "userId": "1",
+          "userName": "说话人1",
+          "words": [
+            {
+              "beginTime": 4560,
+              "endTime": 6781,
+              "sentence_id": 1,
+              "word": "就"
+            },
+            {
+              "beginTime": 6781,
+              "endTime": 9319,
+              "sentence_id": 1,
+              "word": "这样。"
+            }
+          ]
+        },
+        {
+          "beginTime": 11450,
+          "endTime": 19020,
+          "has_verify": true,
+          "id": 2,
+          "paragraph_id": "1777101771650500000",
+          "remark_type": 0,
+          "sentence_id": 2,
+          "text": "不是你们系统，你们系统说的，千分之2.2.2 2.3那个费用是指什么意思？",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "b18b0d87e2c74893b10170afb5860868",
+          "userId": "2",
+          "userName": "说话人2",
+          "words": [
+            {
+              "beginTime": 11450,
+              "endTime": 11870,
+              "sentence_id": 2,
+              "word": "不是"
+            },
+            {
+              "beginTime": 11870,
+              "endTime": 12290,
+              "sentence_id": 2,
+              "word": "你们"
+            },
+            {
+              "beginTime": 12290,
+              "endTime": 12710,
+              "sentence_id": 2,
+              "word": "系统，"
+            },
+            {
+              "beginTime": 12711,
+              "endTime": 13131,
+              "sentence_id": 2,
+              "word": "你们"
+            },
+            {
+              "beginTime": 13131,
+              "endTime": 13551,
+              "sentence_id": 2,
+              "word": "系统"
+            },
+            {
+              "beginTime": 13551,
+              "endTime": 13761,
+              "sentence_id": 2,
+              "word": "说"
+            },
+            {
+              "beginTime": 13761,
+              "endTime": 13971,
+              "sentence_id": 2,
+              "word": "的，"
+            },
+            {
+              "beginTime": 14394,
+              "endTime": 14994,
+              "sentence_id": 2,
+              "word": "千分之"
+            },
+            {
+              "beginTime": 14994,
+              "endTime": 16794,
+              "sentence_id": 2,
+              "word": "2.2.2 2.3"
+            },
+            {
+              "beginTime": 16794,
+              "endTime": 17194,
+              "sentence_id": 2,
+              "word": "那个"
+            },
+            {
+              "beginTime": 17194,
+              "endTime": 17594,
+              "sentence_id": 2,
+              "word": "费用"
+            },
+            {
+              "beginTime": 17594,
+              "endTime": 17794,
+              "sentence_id": 2,
+              "word": "是"
+            },
+            {
+              "beginTime": 17794,
+              "endTime": 17994,
+              "sentence_id": 2,
+              "word": "指"
+            },
+            {
+              "beginTime": 17994,
+              "endTime": 18394,
+              "sentence_id": 2,
+              "word": "什么"
+            },
+            {
+              "beginTime": 18394,
+              "endTime": 19020,
+              "sentence_id": 2,
+              "word": "意思？"
+            }
+          ]
+        },
+        {
+          "beginTime": 22020,
+          "endTime": 27420,
+          "has_verify": true,
+          "id": 3,
+          "paragraph_id": "1777101782220500000",
+          "remark_type": 0,
+          "sentence_id": 3,
+          "text": "从咱这个受关机里头，现场也干了这种，咱们可能需要这个好吗？",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "9ddd3370868442b99e7bad61111b8bff",
+          "userId": "1",
+          "userName": "说话人1",
+          "words": [
+            {
+              "beginTime": 22020,
+              "endTime": 22227,
+              "sentence_id": 3,
+              "word": "从"
+            },
+            {
+              "beginTime": 22227,
+              "endTime": 22434,
+              "sentence_id": 3,
+              "word": "咱"
+            },
+            {
+              "beginTime": 22434,
+              "endTime": 22848,
+              "sentence_id": 3,
+              "word": "这个"
+            },
+            {
+              "beginTime": 22848,
+              "endTime": 23055,
+              "sentence_id": 3,
+              "word": "受"
+            },
+            {
+              "beginTime": 23055,
+              "endTime": 23469,
+              "sentence_id": 3,
+              "word": "关机"
+            },
+            {
+              "beginTime": 23469,
+              "endTime": 23883,
+              "sentence_id": 3,
+              "word": "里头，"
+            },
+            {
+              "beginTime": 23889,
+              "endTime": 24303,
+              "sentence_id": 3,
+              "word": "现场"
+            },
+            {
+              "beginTime": 24303,
+              "endTime": 24510,
+              "sentence_id": 3,
+              "word": "也"
+            },
+            {
+              "beginTime": 24510,
+              "endTime": 24924,
+              "sentence_id": 3,
+              "word": "干了"
+            },
+            {
+              "beginTime": 24924,
+              "endTime": 25338,
+              "sentence_id": 3,
+              "word": "这种，"
+            },
+            {
+              "beginTime": 25343,
+              "endTime": 25757,
+              "sentence_id": 3,
+              "word": "咱们"
+            },
+            {
+              "beginTime": 25757,
+              "endTime": 26171,
+              "sentence_id": 3,
+              "word": "可能"
+            },
+            {
+              "beginTime": 26171,
+              "endTime": 26585,
+              "sentence_id": 3,
+              "word": "需要"
+            },
+            {
+              "beginTime": 26585,
+              "endTime": 26999,
+              "sentence_id": 3,
+              "word": "这个"
+            },
+            {
+              "beginTime": 26999,
+              "endTime": 27420,
+              "sentence_id": 3,
+              "word": "好吗？"
+            }
+          ]
+        },
+        {
+          "beginTime": 31820,
+          "endTime": 35637,
+          "has_verify": true,
+          "id": 4,
+          "paragraph_id": "1777101782220500000",
+          "remark_type": 0,
+          "sentence_id": 4,
+          "text": "我们的是通道，像外卖这些都跟我们没关系。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "a80e25c8d6c24b5a94a398815484b7a6",
+          "userId": "1",
+          "userName": "说话人1",
+          "words": [
+            {
+              "beginTime": 31820,
+              "endTime": 32456,
+              "sentence_id": 4,
+              "word": "我们的"
+            },
+            {
+              "beginTime": 32456,
+              "endTime": 32668,
+              "sentence_id": 4,
+              "word": "是"
+            },
+            {
+              "beginTime": 32668,
+              "endTime": 33092,
+              "sentence_id": 4,
+              "word": "通道，"
+            },
+            {
+              "beginTime": 33093,
+              "endTime": 33305,
+              "sentence_id": 4,
+              "word": "像"
+            },
+            {
+              "beginTime": 33305,
+              "endTime": 33729,
+              "sentence_id": 4,
+              "word": "外卖"
+            },
+            {
+              "beginTime": 33729,
+              "endTime": 34153,
+              "sentence_id": 4,
+              "word": "这些"
+            },
+            {
+              "beginTime": 34153,
+              "endTime": 34365,
+              "sentence_id": 4,
+              "word": "都"
+            },
+            {
+              "beginTime": 34365,
+              "endTime": 34577,
+              "sentence_id": 4,
+              "word": "跟"
+            },
+            {
+              "beginTime": 34577,
+              "endTime": 35001,
+              "sentence_id": 4,
+              "word": "我们"
+            },
+            {
+              "beginTime": 35001,
+              "endTime": 35637,
+              "sentence_id": 4,
+              "word": "没关系。"
+            }
+          ]
+        },
+        {
+          "beginTime": 35852,
+          "endTime": 37548,
+          "has_verify": true,
+          "id": 5,
+          "paragraph_id": "1777101796052500000",
+          "remark_type": 0,
+          "sentence_id": 5,
+          "text": "外卖是他们的通道。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "b91b6cf9624041ba87d2e30124f9e71e",
+          "userId": "2",
+          "userName": "说话人2",
+          "words": [
+            {
+              "beginTime": 35852,
+              "endTime": 36276,
+              "sentence_id": 5,
+              "word": "外卖"
+            },
+            {
+              "beginTime": 36276,
+              "endTime": 36488,
+              "sentence_id": 5,
+              "word": "是"
+            },
+            {
+              "beginTime": 36488,
+              "endTime": 37124,
+              "sentence_id": 5,
+              "word": "他们的"
+            },
+            {
+              "beginTime": 37124,
+              "endTime": 37548,
+              "sentence_id": 5,
+              "word": "通道。"
+            }
+          ]
+        },
+        {
+          "beginTime": 37550,
+          "endTime": 39458,
+          "has_verify": true,
+          "id": 6,
+          "paragraph_id": "1777101796052500000",
+          "remark_type": 0,
+          "sentence_id": 6,
+          "text": "你你你父有没有关系？",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "b19646f3fa1940b29c4c2c24358f9f15",
+          "userId": "2",
+          "userName": "说话人2",
+          "words": [
+            {
+              "beginTime": 37550,
+              "endTime": 38186,
+              "sentence_id": 6,
+              "word": "你你你"
+            },
+            {
+              "beginTime": 38186,
+              "endTime": 38398,
+              "sentence_id": 6,
+              "word": "父"
+            },
+            {
+              "beginTime": 38398,
+              "endTime": 39034,
+              "sentence_id": 6,
+              "word": "有没有"
+            },
+            {
+              "beginTime": 39034,
+              "endTime": 39458,
+              "sentence_id": 6,
+              "word": "关系？"
+            }
+          ]
+        },
+        {
+          "beginTime": 40238,
+          "endTime": 43200,
+          "has_verify": true,
+          "id": 7,
+          "paragraph_id": "1777101796052500000",
+          "remark_type": 0,
+          "sentence_id": 7,
+          "text": "好的，那我明白了。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "e0eb72c932df437599b29909ba7b858c",
+          "userId": "2",
+          "userName": "说话人2",
+          "words": [
+            {
+              "beginTime": 40238,
+              "endTime": 40896,
+              "sentence_id": 7,
+              "word": "好的，"
+            },
+            {
+              "beginTime": 41554,
+              "endTime": 41883,
+              "sentence_id": 7,
+              "word": "那"
+            },
+            {
+              "beginTime": 41883,
+              "endTime": 43200,
+              "sentence_id": 7,
+              "word": "我明白了。"
+            }
+          ]
+        },
+        {
+          "beginTime": 253620,
+          "endTime": 268320,
+          "has_verify": true,
+          "id": 8,
+          "paragraph_id": "1777102013820500000",
+          "remark_type": 0,
+          "sentence_id": 8,
+          "text": "这个更新了，**厉害类似，我再分析一下，看我我我昨天都已经配到那个龙虾里面去了，我昨天晚上配的。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "9c9a959fb0d742cb9994e137b51f0183",
+          "userId": "3",
+          "userName": "说话人3",
+          "words": [
+            {
+              "beginTime": 253620,
+              "endTime": 254412,
+              "sentence_id": 8,
+              "word": "这个"
+            },
+            {
+              "beginTime": 254412,
+              "endTime": 255204,
+              "sentence_id": 8,
+              "word": "更新"
+            },
+            {
+              "beginTime": 255204,
+              "endTime": 255600,
+              "sentence_id": 8,
+              "word": "了，"
+            },
+            {
+              "beginTime": 255603,
+              "endTime": 256395,
+              "sentence_id": 8,
+              "word": "**"
+            },
+            {
+              "beginTime": 256395,
+              "endTime": 257187,
+              "sentence_id": 8,
+              "word": "厉害"
+            },
+            {
+              "beginTime": 257187,
+              "endTime": 257979,
+              "sentence_id": 8,
+              "word": "类似，"
+            },
+            {
+              "beginTime": 258380,
+              "endTime": 258660,
+              "sentence_id": 8,
+              "word": "我"
+            },
+            {
+              "beginTime": 258660,
+              "endTime": 258940,
+              "sentence_id": 8,
+              "word": "再"
+            },
+            {
+              "beginTime": 258940,
+              "endTime": 259500,
+              "sentence_id": 8,
+              "word": "分析"
+            },
+            {
+              "beginTime": 259500,
+              "endTime": 260060,
+              "sentence_id": 8,
+              "word": "一下，"
+            },
+            {
+              "beginTime": 260060,
+              "endTime": 260408,
+              "sentence_id": 8,
+              "word": "看"
+            },
+            {
+              "beginTime": 260408,
+              "endTime": 261452,
+              "sentence_id": 8,
+              "word": "我我我"
+            },
+            {
+              "beginTime": 261452,
+              "endTime": 262148,
+              "sentence_id": 8,
+              "word": "昨天"
+            },
+            {
+              "beginTime": 262148,
+              "endTime": 262496,
+              "sentence_id": 8,
+              "word": "都"
+            },
+            {
+              "beginTime": 262496,
+              "endTime": 263192,
+              "sentence_id": 8,
+              "word": "已经"
+            },
+            {
+              "beginTime": 263192,
+              "endTime": 263540,
+              "sentence_id": 8,
+              "word": "配"
+            },
+            {
+              "beginTime": 263540,
+              "endTime": 263888,
+              "sentence_id": 8,
+              "word": "到"
+            },
+            {
+              "beginTime": 263888,
+              "endTime": 264584,
+              "sentence_id": 8,
+              "word": "那个"
+            },
+            {
+              "beginTime": 264584,
+              "endTime": 265280,
+              "sentence_id": 8,
+              "word": "龙虾"
+            },
+            {
+              "beginTime": 265280,
+              "endTime": 265976,
+              "sentence_id": 8,
+              "word": "里面"
+            },
+            {
+              "beginTime": 265976,
+              "endTime": 266672,
+              "sentence_id": 8,
+              "word": "去了，"
+            },
+            {
+              "beginTime": 266688,
+              "endTime": 266921,
+              "sentence_id": 8,
+              "word": "我"
+            },
+            {
+              "beginTime": 266921,
+              "endTime": 267853,
+              "sentence_id": 8,
+              "word": "昨天晚上"
+            },
+            {
+              "beginTime": 267853,
+              "endTime": 268086,
+              "sentence_id": 8,
+              "word": "配"
+            },
+            {
+              "beginTime": 268086,
+              "endTime": 268320,
+              "sentence_id": 8,
+              "word": "的。"
+            }
+          ]
+        }
+      ],
+      "data_status": 1,
+      "key_word": [],
+      "key_word_status": 0,
+      "abstract": "",
+      "abstract_status": 0,
+      "ai_abstract": "",
+      "ai_abstract_status": 0,
+      "part": [
+        {
+          "id": 0,
+          "start": 4560,
+          "end": 253620,
+          "title": "系统费用与通道归属问题讨论",
+          "screen_short_img": "",
+          "abstract": "对话围绕系统费用和通道归属展开。一方询问系统中提及的千分之2.2、2.3等费用的具体含义，随后双方就通道问题进行交流，明确外卖相关业务属于其他通道，与己方无关。",
+          "start_time": "00:04"
+        },
+        {
+          "id": 0,
+          "start": 253620,
+          "end": 271000,
+          "title": "更新内容分析与配置情况说明",
+          "screen_short_img": "",
+          "abstract": "一方指出内容已更新，认为更新效果类似“厉害”，并表示将对更新内容进行分析。同时提及自己昨天晚上已将相关内容配置到“龙虾”中。",
+          "start_time": "04:13"
+        }
+      ],
+      "part_status": 1,
+      "review": [
+        {
+          "answer": "对话中未明确说明系统提到的千分之2.2、2.3的费用具体所指。",
+          "id": [
+            2
+          ],
+          "question": "系统中提到的千分之2.2、2.3的费用是指什么？"
+        },
+        {
+          "answer": "外卖是他们的通道，与我们的通道没有关系。",
+          "id": [
+            4,
+            5
+          ],
+          "question": "外卖相关的通道与你们有关吗？"
+        }
+      ],
+      "review_status": 1,
+      "summary": [],
+      "summary_status": 1,
+      "example_qa": "",
+      "file_md_5": "",
+      "handler_time": 60,
+      "progress_speed": 0,
+      "remark": [],
+      "embedding_status": 1,
+      "status": 4,
+      "delete_status": 0,
+      "language": 1,
+      "trans_type": 1,
+      "chat_num": 1,
+      "message": "ok",
+      "scene_id": 1,
+      "source_type": 0,
+      "share_status": 0,
+      "team_id": "",
+      "folder_id": 245320,
+      "source_channel": 0,
+      "official": 0,
+      "screen_video": "",
+      "screen_audio": "",
+      "update_time": "2026-05-03 03:24:31",
+      "create_time": "2026-04-25 15:17:08",
+      "prepare_status": 0,
+      "is_free_type": 0,
+      "offline_tag": 0,
+      "retry_num": 0,
+      "is_temp": 0,
+      "platform": 1,
+      "is_knowledge": 0,
+      "last_view_at": "2026-05-03 03:24:32",
+      "last_edit_at": "",
+      "is_recording": 0,
+      "pagination": null,
+      "word_count": 166,
+      "secen_title": "通用记录",
+      "is_view": 1,
+      "download_url": "https://tingnao.oss-cn-hangzhou.aliyuncs.com/tmp%2F240745_6752346%2Fkcgj9l7jpef6zycjne45gu26cq83tki0.mp3?Expires=1781673412&OSSAccessKeyId=LTAI5t5Z88vjuh8XYhakB9Y8&Signature=%2BAns6u475R3bRkRrHuURsvdWNhk%3D&response-content-disposition=attachment%3Bfilename%3D%E5%A4%9A%E4%BA%BA-%E7%B3%BB%E7%BB%9F%E8%B4%B9%E7%94%A8%E6%B2%9F%E9%80%9A.mp3",
+      "tran_status": {},
+      "meeting_summary": "## 📌基本信息\n\n- **主题**:系统费用与通道配置沟通\n- **时间**:2026-04-25 15:17:08\n- **沟通人员**:说话人1、说话人2、说话人3\n\n---\n\n## 一、沟通背景与目的\n\n本次沟通围绕 **系统费用说明** 与 **通道配置** 展开，说话人2询问系统中“千分之2.2.2 2.3”费用的含义，说话人1解释费用与己方通道相关，与外卖等其他通道无关；说话人3提及已完成龙虾相关的配置更新，需进一步分析。\n\n---\n\n## 二、系统费用与通道说明\n\n### 2.1 费用含义询问\n\n- 说话人2询问系统中提到的“**千分之2.2.2 2.3**”费用的具体含义。\n\n### 2.2 费用与通道关系解释\n\n- 说话人1说明费用与己方通道相关，从“受关机”（可能为“受理机”）产生，现场已有相关操作案例。\n- 明确表示外卖等通道与己方无关，由其他方负责。\n- 说话人2确认理解：外卖是其他方的通道，与己方无关。\n\n---\n\n## 三、配置更新与分析\n\n### 3.1 配置完成情况\n\n- 说话人3表示已完成更新，提到“**厉害类似**”（具体含义不明确），并已将配置应用到“**龙虾**”相关场景中，配置操作于昨天晚上完成。\n\n### 3.2 后续计划\n\n- 说话人3计划对已完成的配置进行进一步分析。\n\n---\n\n## 四、结论与行动\n\n### 4.1 结论\n\n- 明确系统费用与己方通道相关，与外卖等其他通道无关。\n- 龙虾相关配置已完成，待进一步分析。\n\n### 4.2 行动计划\n\n- 说话人3需对已配置的龙虾场景进行分析，确认配置效果。\n\n### 4.3 待办事项\n\n| **时间点** | **责任人** | **任务**               | **产出/验收**       |\n|------------|------------|------------------------|---------------------|\n| 待确认     | 说话人3    | 分析龙虾场景的配置情况 | 配置分析结果        |",
+      "meeting_todo": [],
+      "meeting_summary_status": 2,
+      "meeting_todo_status": 1,
+      "queue_num": 0,
+      "waite_time": 0,
+      "free_task_status": 0,
+      "is_vip": 0,
+      "cover_img": "",
+      "create_time_time_stamp": 1777101428,
+      "meeting_summary_id": -1,
+      "example_name": "",
+      "example_id": 0,
+      "file_num": 0,
+      "view_num": 0,
+      "user_name": "广州老朱",
+      "parent_model": 0,
+      "ai_file_path": "",
+      "record_note": null,
+      "parse_content": "",
+      "parse_title": "",
+      "parse_images": null,
+      "parse_image_objs": null,
+      "parse_site": "",
+      "parse_elements": null,
+      "parse_url": "",
+      "parse_status": 0,
+      "ocr_img_list": null,
+      "tag": "系统费用 千分之2.2 千分之2.3 通道 外卖 更新",
+      "text_rewrite_status": 3,
+      "text_polish_processing": null,
+      "re_write_count": 0,
+      "is_read": 0,
+      "new_note": "",
+      "inspire_data": "404",
+      "width": 0,
+      "height": 0,
+      "file_size": 528,
+      "jump_link": "",
+      "network_platform": "",
+      "network_platform_img_url": "",
+      "show_speaker": 1,
+      "show_timestamp": 1,
+      "merge_speaker": 0,
+      "text_polish_data_id": "",
+      "voice_checkbox": true,
+      "assistant_status": 0,
+      "assistant_status_text": "",
+      "task_id": 0,
+      "diff_time": 0
+    }
+  }
+}
