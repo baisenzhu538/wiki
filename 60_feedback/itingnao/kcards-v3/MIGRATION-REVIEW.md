@@ -129,7 +129,6 @@
 13. `insight-human-machine-replacement-path.md`
 14. `method-ai-landing-five-steps.md`
 15. `method-ai-assisted-difficult-conversation.md`
-。
 16. `insight-ai-landing-high-value-scenes.md`
 17. `insight-ai-pitch-key-elements.md`
 18. `insight-stock-era-marketing-logic.md`

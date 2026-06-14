@@ -256,7 +256,7 @@
 
 ## 八、本轮低可信度知识卡核验结果（2026-06-13）
 
-本轮继续任务 2，对 `kcards-v3/` 中剩余低可信度知识卡进行外部交叉核验，共更新 5 张卡片。
+本轮继续任务 2，对 `kcards-v3/` 中剩余低可信度知识卡进行外部交叉核验，共更新 7 张卡片。
 
 ### 8.1 已更新卡片
 
@@ -267,12 +267,14 @@
 | method-ai-assisted-difficult-conversation.md | 0.70 | 0.74 | MIT 2025 thesis; Harvard PON 2026; ACM CUI 2024 (CommCoach) | AI 角色扮演在谈判/艰难对话培训中的有效性有实证支持；四步准备法为原创整合，需标注边界 |
 | method-ipo-learning-loop.md | 0.72 | 0.76 | Bushnell 1990 (IPO training evaluation model); Kérivel et al. 2021 (IPO in team learning) | IPO 模型作为培训/学习评估框架有学术基础；"一堂 IPO 学习闭环"具体命名需核对课程原文 |
 | insight-ai-landing-high-value-scenes.md | 0.72 | 0.74 | McKinsey State of AI 2025; Google Cloud Sept 2025 AI ROI study; Gartner 2025 | 78% 企业已在至少一个职能使用 AI；74% 首年 ROI；高绩效企业 70% 投入人/流程/文化，与"组织阻力大于技术"结论一致 |
+| insight-ai-pitch-key-elements.md | 0.72 | 0.74 | DeckAnalyst 2025; CB Insights 2024-2025; Harvard Business School | DeckAnalyst 7 个 VC 评分维度可与"真问题/壁垒/商业化"对应；CB Insights 42% 失败因无市场需求 |
+| insight-stock-era-marketing-logic.md | 0.72 | 0.74 | HKUST & CCAGM 2025 中国百货报告; Gartner 2025 CMO Spend Survey | 中国实物商品网上零售增速从 2019 年 19.5% 降至 2025 年 5.2%，线上占比连续三年下降，支持"存量竞争"判断 |
 
 ### 8.2 迁移分层调整
 
 - **第一批（建议直接审阅）**：11 张（无变化，包含此前已核验的 concept-ai-landing-organizational-fit、concept-multi-agent-system）
-- **第二批（再核验后审阅）**：从 13 张增至 16 张，新增 `method-ipo-learning-loop.md`、`method-ai-assisted-difficult-conversation.md`、`insight-ai-landing-high-value-scenes.md`
-- **第三批（暂留 60_feedback）**：从 8 张减至 5 张，剩余以洞察卡和未充分验证数据为主
+- **第二批（再核验后审阅）**：从 13 张增至 18 张，新增 5 张：method-ipo-learning-loop、method-ai-assisted-difficult-conversation、insight-ai-landing-high-value-scenes、insight-ai-pitch-key-elements、insight-stock-era-marketing-logic
+- **第三批（暂留 60_feedback）**：从 8 张减至 3 张，剩余 insight-going-global-localization-trap、insight-super-individual-income-reality、insight-super-individual-survivorship-bias
 
 ### 8.3 主要教训
 
@@ -307,4 +309,4 @@
 ---
 
 *报告更新时间：2026-06-13*
-*状态：第二阶段核心核验已完成，本轮继续核验 5 张低可信度知识卡。FDE 概念已纠偏，超级个体收入数据已补充。IPO 学习闭环、AI 辅助沟通方法、AI 高价值场景洞察已补充学术/实证来源。第三批剩余 5 张洞察卡（路演、出海、存量营销、超级个体相关）待进一步核验。*
+*状态：第二阶段核心核验已完成，本轮继续核验 7 张低可信度知识卡。FDE 概念已纠偏，超级个体收入数据已补充。IPO 学习闭环、AI 辅助沟通方法、AI 高价值场景/路演/存量营销洞察已补充学术/实证来源。第三批剩余 3 张洞察卡（出海本地化、超级个体收入/幸存者偏差）待进一步核验。*

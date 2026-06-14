@@ -3,12 +3,14 @@ id: "insight-going-global-localization-trap"
 title: "洞察卡：出海本地化的三个陷阱"
 type: "insight-card"
 status: "draft"
-confidence_score: 0.72
+confidence_score: 0.74
 trust_level: "medium-high"
 source_refs:
   - "itingnao-5763342 出海与战略咨询"
   - "itingnao-5762751 出海与战略咨询"
-  - "跨境电商/出海案例研究"
+  - "CKGSB Knowledge 2023: Going Global — Chinese brands localization successes and missteps"
+  - "INSEAD Knowledge 2023: China's Internet Giants: The Nuts and Bolts of Going Global"
+  - "Sandalwood Advisors 2025: Why the Future Belongs to China's E-commerce Era"
   - "国际商务/本地化理论"
 related:
   - "kcard-other-draft"
