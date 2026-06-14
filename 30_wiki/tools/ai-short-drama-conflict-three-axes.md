@@ -76,7 +76,7 @@ diagnostic_signals:
 
 ---
 
-## Protocol/Procedure
+## Protocol
 
 ### 步骤 1：外在阵营 — 立分明
 

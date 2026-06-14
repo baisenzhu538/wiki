@@ -76,7 +76,7 @@ diagnostic_signals:
 
 ---
 
-## Protocol/Procedure
+## Protocol
 
 ### 步骤 1：极致对立 — 检查冲突锋芒
 

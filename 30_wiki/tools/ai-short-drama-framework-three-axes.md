@@ -77,7 +77,7 @@ diagnostic_signals:
 
 ---
 
-## Protocol/Procedure
+## Protocol
 
 ### 步骤 1：深渊入局 — 设计触发困境
 

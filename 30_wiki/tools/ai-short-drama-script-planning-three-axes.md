@@ -76,7 +76,7 @@ diagnostic_signals:
 
 ---
 
-## Protocol/Procedure
+## Protocol
 
 ### 步骤 1：剧本基地 夯根基
 
