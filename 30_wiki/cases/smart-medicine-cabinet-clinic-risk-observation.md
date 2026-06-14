@@ -237,14 +237,15 @@ source_context: 智能药柜五轮迭代调研与诊所访谈
 
 ## 验证与参考
 
-1. `corr_20260613_clinic-boss-interview-insights.md`
-2. `corr_20260613_clinic-interview-bias-correction-report.md`
-3. `corr_20260613_clinic-interview-claims-verification-policy.md`
-4. `corr_20260613_clinic-interview-claims-verification-medical-insurance.md`
-5. `corr_20260613_clinic-interview-claims-verification-business.md`
-6. `corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape.md`
-7. `corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures.md`
-8. `corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance.md`
-9. `corr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax.md`
-10. `corr_20260613_smart-medicine-cabinet-iteration-8-synthesis.md`
-11. 《处方管理办法》《医疗机构管理条例》《医疗保障基金使用监督管理条例》《中华人民共和国医师法》《中华人民共和国反不正当竞争法》
+- 诊所老板访谈洞察：`src_20260613_1deb50c8`
+- 诊所访谈纠偏报告：`src_20260613_5f96c5bb`
+- 诊所访谈政策核验：`src_20260613_420e8085`
+- 诊所访谈医保核验：`src_20260613_36a21181`
+- 诊所访谈商业核验：`src_20260613_309b7b52`
+- 知识图谱质询：`src_20260613_dafb968a`
+- 第八轮巨头与格局：`src_20260613_7cfd7b89`
+- 第八轮运营数据与失败案例：`src_20260613_59270720`
+- 第八轮医疗短视频合规：`src_20260613_ccf533f9`
+- 第八轮法律与税务：`src_20260613_f3aecb2d`
+- 第八轮综合总结：`src_20260613_9a2b289e`
+- 《处方管理办法》《医疗机构管理条例》《医疗保障基金使用监督管理条例》《中华人民共和国医师法》《中华人民共和国反不正当竞争法》
