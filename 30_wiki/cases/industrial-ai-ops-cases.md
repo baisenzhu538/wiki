@@ -17,6 +17,8 @@ related:
   - "fd-forward-deployment"
   - "yt-entrepreneur-ai-methodology"
   - "ai-agent-workflow"
+source_person: "多位产业从业者（酒店 SaaS、贝壳云管家、电商阿豪）"
+source_context: "酒店/房产/电商 AI 运营落地案例分享"
 tags:
   - #enterprise-ai
   - #ai-operations
