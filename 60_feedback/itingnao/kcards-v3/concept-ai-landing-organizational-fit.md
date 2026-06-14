@@ -3,13 +3,16 @@ id: "concept-ai-landing-organizational-fit"
 title: "概念卡：AI 落地的组织适配度"
 type: "concept-card"
 status: "draft"
-confidence_score: 0.74
-trust_level: "medium-high"
+confidence_score: 0.78
+trust_level: "high"
 source_refs:
   - "itingnao-5640373 酒店行业-AI标签审核案例"
   - "itingnao-5639853 贝壳-云管家AI外呼案例"
   - "itingnao-5638569 阿豪-自动选品系统案例"
-  - "组织变革/技术采纳理论（TOE, TAM）"
+  - "Tornatzky & Fleischer (1990) Technology-Organization-Environment (TOE) Framework"
+  - "Davis (1989) Technology Acceptance Model (TAM)"
+  - "Chatterjee et al. (2021) TAM-TOE 整合研究"
+  - "PLOS ONE (2025) AI 采纳的 TOE-TAM 整合研究"
 related:
   - "kcard-industry-ai-cases-draft"
   - "six-layer-validation-industrial-ai-ops-cases.md"
@@ -26,6 +29,29 @@ tags:
 ## 一句话定义
 
 AI 落地的组织适配度是指一个企业或团队在文化、流程、数据、人才、激励机制等方面支持 AI 技术有效应用的程度；技术可行只是必要条件，组织适配才是充分条件。
+
+## 理论基础
+
+### TOE 框架（技术-组织-环境）
+
+TOE 框架由 Tornatzky & Fleischer 于 1990 年提出，认为企业技术采纳受三类因素影响：
+
+| 维度 | 关键要素 |
+|------|---------|
+| 技术（Technology） | 技术兼容性、复杂度、成熟度、成本 |
+| 组织（Organization） | 企业规模、资源、管理能力、员工能力、高层支持 |
+| 环境（Environment） | 市场竞争、监管政策、供应商网络、行业压力 |
+
+### TAM（技术接受模型）
+
+TAM 由 Davis 于 1989 年提出，关注个体层面对技术的接受：
+
+- **感知有用性（Perceived Usefulness）**：用户认为技术能提升工作绩效的程度。
+- **感知易用性（Perceived Ease of Use）**：用户认为技术容易使用的程度。
+
+### 本卡与 TOE/TAM 的关系
+
+本卡的"组织适配度"主要对应 TOE 框架中的"组织"维度，并吸收了 TAM 中关于"人"的接受度视角。技术可行只是前提，组织能否接住技术才是关键。
 
 ## 组织适配度的五个维度
 
