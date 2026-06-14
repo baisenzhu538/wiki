@@ -124,6 +124,7 @@ related:
 - 逐字稿：`10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.txt`
 - 培训笔记：`10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.txt`
 - ABC 模型图：`10_raw/assets/yitang-business-formula/孔源-业务公式拆解-ABC模型图.png`
+- ABC 模型图 OCR 文本：`10_raw/assets/yitang-business-formula/孔源-业务公式拆解-ABC模型图-ocr.md`
 - 关联 itingnao 录音：`src_20260614_6d9f7671`（一堂业务公式拆解培训）
 
 ---

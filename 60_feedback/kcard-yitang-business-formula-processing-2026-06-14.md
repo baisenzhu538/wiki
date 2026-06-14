@@ -19,6 +19,15 @@
 | `孔源-业务公式拆解-ABC模型图.png` | 模型图 | `10_raw/assets/yitang-business-formula/孔源-业务公式拆解-ABC模型图.png` |
 | `孔源-业务公式拆解-冰山模型图.png` | 模型图 | `10_raw/assets/yitang-business-formula/孔源-业务公式拆解-冰山模型图.png` |
 
+### OCR 派生输出
+
+| 原图 | OCR 文本 |
+|---|---|
+| 十大业务公式范式图 | `10_raw/assets/yitang-business-formula/孔源-业务公式拆解-十大业务公式范式-ocr.md` |
+| 6 层逻辑关系图 | `10_raw/assets/yitang-business-formula/孔源-业务公式拆解-6层逻辑关系图-ocr.md` |
+| ABC 模型图 | `10_raw/assets/yitang-business-formula/孔源-业务公式拆解-ABC模型图-ocr.md` |
+| 参数冰山图 | `10_raw/assets/yitang-business-formula/孔源-业务公式拆解-冰山模型图-ocr.md` |
+
 ---
 
 ## 二、Source 注册
@@ -73,7 +82,7 @@
 
 ## 六、处理说明
 
-1. **图片 OCR**：因本地 onnxruntime DLL 加载失败，未做自动 OCR。模型图关键内容通过 `ReadMediaFile` 人工识读并结构化写入卡片正文。
+1. **图片 OCR**：已在隔离虚拟环境 `_tmp/ocr_venv/` 中完成。修复了 onnxruntime + NumPy 版本兼容问题，使用 RapidOCR 对 4 张模型图进行 OCR，平均置信度 0.97+。OCR 文本已保存为 `-ocr.md` 文件，并注册为对应 image source 的 `derived_outputs`。
 2. **source 格式**：文本类 source 从 `.txt` 转为 `.md`，符合 `10_raw/sources/` 既有命名规范。
 3. **已有卡片去重**：发现 `yt-management-business-formula.md` 已存在且质量较高，本次未重复建卡，而是将其作为母卡，新模型作为子卡链接进去。
 

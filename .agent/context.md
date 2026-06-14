@@ -1,11 +1,12 @@
 ---
-updated: 2026-06-14
+updated: 2026-06-15
 active_branch: main
-active_task: "药柜业务模型验证：已完成 V2 公式/医院场景/规模化模型及 11 个验证任务，等待用户/团队线下验证反馈。"
+active_task: "产能整体提升——老顽童产出A级系统审计+业务公式域处理, 王语嫣完成原文回填+主动降confidence, Ingestion pipeline生效"
 blockers:
-  - "Kimi K2.7 Anthropic tool call待修复"
-  - "欧阳锋待审查 I/J/K/L/M/N 批量任务"
-next_session_hint: "用户说'继续'→ 等欧阳锋审查结果或新任务分配。若洪七公失忆，先读 20_memory/hongqigong-amnesia-recovery-20260613.md → .agent/hongqigong-context.md → dashboard.md 领任务。若用户重启后要求继续药柜业务模型验证，先读 20_memory/kimi-medical-cabinet-context-20260614.md → 70_product/projects/proj_20260614_afb74ee2-智能药柜业务模型验证.md → 70_product/tasks/dashboard.md 查看任务状态。"
+  - "王语嫣角色升级裁决——AGENTS.md中是否将Consultant升级为草稿生产者？待欧阳锋拍板"
+  - "老顽童建模域案例补充(AI skills/直播SOP/讲师遴选+6案例)——见corr_20260614_laowantong-modeling-case-supplement.md"
+  - "智能药柜19张卡待迁移(P0)"
+next_session_hint: "用户说'继续'→ ① 欧阳锋角色裁决；② 老顽童案例补充进度；③ 智能药柜19张卡迁移；④ 业务公式域已完成，可审查"
 ---
 
 ## 2026-06-12 变更
@@ -56,17 +57,19 @@ next_session_hint: "用户说'继续'→ 等欧阳锋审查结果或新任务分
 ## 当前共享状态
 
 ### 各角色当前任务
-- **黄药师**：2026-06-14 大产出日——O/Q/S/P pipeline + 高阶建模域4卡(1 framework + 3 case) + 王语嫣卡升 decisions/ + ingestion pipeline 规范 + inbox 监听器上线 + kdo query/编码 P0 修复。KDO CLI commit `a959093`。
-- **欧阳锋**：本会话无动作。
-- **老顽童**：🆕 清单体笔记 KDO 批次已完成（4 新卡+1文章+1dk卡+1旧卡更新）。黄药师审查 A-，P0 项待修（article未注册管线+缺source_refs），深度问题待用户反馈。管理工具箱+路演+Phase C 均已完成。
-- **洪七公**：✅ **两张桥接卡全部完成**（2026-06-11）。`concept-mckinsey-7s` 和 `concept-maister-trusted-advisor` 均已产出到 `30_wiki/frameworks/`，回归待命等待下一批任务。
-- **段王爷**：本会话无动作。
-- **Kimi Code CLI（本会话）**：🆕 完成药柜业务模型 V2 升级 + 医院场景模型 + 规模化模型，创建项目 `proj_20260614_afb74ee2` 及 11 个验证任务。失忆恢复入口：`20_memory/kimi-medical-cabinet-context-20260614.md`。
+- **黄药师**：O/Q/S/P pipeline + 5 张建模卡 + kdo 修复 + 多份审查
+- **欧阳锋**：待裁决（王语嫣角色升级 + 68条录音处置）
+- **老顽童**：系统审计(A) + 业务公式域完成 + 建模案例待补
+- **王语嫣**：原文回填完成 + confidence 诚实降级
+- **洪七公**：待命
+- **段王爷**：待命
 
-### 药柜业务模型验证项目（proj_20260614_afb74ee2）
-- **状态**：已创建项目 + 11 个验证任务，全部待执行
-- **核心交付物**：
-  - `60_feedback/itingnao/medical-cabinet-longterm/method-medical-cabinet-business-formula-v2.md`
+### 2026-06-14 关键结果
+- Ingestion pipeline 上线（`90_control/ingestion-pipeline.md`）
+- Inbox 监听器生效（crontab */10 min，P0→王语嫣，P2→老顽童）
+- 老顽童产能升级：写卡→系统审计
+- 王语嫣产能升级：生成报告→主动降级+质量控制
+- 门禁体系完整：confidence/Synthesis/出链/跨域/入库 五道自动门
   - `60_feedback/itingnao/medical-cabinet-longterm/method-medical-cabinet-hospital-scene-model.md`
   - `60_feedback/itingnao/medical-cabinet-longterm/method-medical-cabinet-scale-model.md`
 - **待验证重点**：单设备真实流水、医院准入政策、合规成本、资金来源、团队产能、供应链授权

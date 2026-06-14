@@ -8298,7 +8298,10 @@ sources:
   related_wiki:
   - 30_wiki/concepts/yt-business-formula-ten-paradigms.md
   - 30_wiki/concepts/yt-management-business-formula.md
-  derived_outputs: []
+  derived_outputs:
+  - artifact_id: ocr_src_20260613_8bfdc3d1
+    path: 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-十大业务公式范式-ocr.md
+    content_sha256: f8bfda653dcbad6032edd7451627834546f82435bf7167b9d153f4b276e35d1d
   inbox_path: 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-十大业务公式范式.png
   content_sha256: 8bfdc3d1e09ac4eab829197f32fbe4f96450e1704c74c5eeec87182fe1e2c6d5
 - id: src_20260613_0ab21e5e
@@ -8313,7 +8316,10 @@ sources:
   related_wiki:
   - 30_wiki/concepts/yt-business-formula-six-level-logic.md
   - 30_wiki/concepts/yt-management-business-formula.md
-  derived_outputs: []
+  derived_outputs:
+  - artifact_id: ocr_src_20260613_0ab21e5e
+    path: 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-6层逻辑关系图-ocr.md
+    content_sha256: 415610a4bb0b372f137da09241640c52407dc0da50fd5e85102bcffe93c6b0ae
   inbox_path: 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-6层逻辑关系图.png
   content_sha256: 0ab21e5e093d483888268487f145b0875782ac620c773f511122fe6755b91cb3
 - id: src_20260613_91f90839
@@ -8328,7 +8334,10 @@ sources:
   related_wiki:
   - 30_wiki/frameworks/yt-business-formula-abc-model.md
   - 30_wiki/concepts/yt-management-business-formula.md
-  derived_outputs: []
+  derived_outputs:
+  - artifact_id: ocr_src_20260613_91f90839
+    path: 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-ABC模型图-ocr.md
+    content_sha256: d3a1969963f440572dedd565c85ce1229091a91f2cb17d522be358620cb7414b
   inbox_path: 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-ABC模型图.png
   content_sha256: 91f908395542965faf206a150c5a0452f234d84b238e89ab21700cd6d0e1c5e3
 - id: src_20260613_fa7b370d
@@ -8343,6 +8352,9 @@ sources:
   related_wiki:
   - 30_wiki/concepts/yt-business-formula-parameter-iceberg.md
   - 30_wiki/concepts/yt-management-business-formula.md
-  derived_outputs: []
+  derived_outputs:
+  - artifact_id: ocr_src_20260613_fa7b370d
+    path: 10_raw/assets/yitang-business-formula/孔源-业务公式拆解-冰山模型图-ocr.md
+    content_sha256: c245612d0872d8cb205bb328ab50165076059c58a2eb56cb28961d9a7b714a44
   inbox_path: 00_inbox/关键假设C-拆解业务公式/孔源-业务公式拆解-冰山模型图.png
   content_sha256: fa7b370ded499e0e19cb1cad87497a9a3816d18c7b27448b54c90e68f16296cb

@@ -179,8 +179,9 @@ related:
 
 ## 验证与参考
 
-- 培训笔记：`10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.txt`
+- 培训笔记：`10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md`
 - 十大范式图：`10_raw/assets/yitang-business-formula/孔源-业务公式拆解-十大业务公式范式.png`
+- 十大范式图 OCR 文本：`10_raw/assets/yitang-business-formula/孔源-业务公式拆解-十大业务公式范式-ocr.md`
 
 ---
 

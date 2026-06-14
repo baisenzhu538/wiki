@@ -170,8 +170,9 @@ R_t = f(A_t, B_t, C_t, 外部变量_t)
 
 ## 验证与参考
 
-- 培训笔记：`10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.txt`
+- 培训笔记：`10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md`
 - 6 层逻辑关系图：`10_raw/assets/yitang-business-formula/孔源-业务公式拆解-6层逻辑关系图.png`
+- 6 层逻辑关系图 OCR 文本：`10_raw/assets/yitang-business-formula/孔源-业务公式拆解-6层逻辑关系图-ocr.md`
 
 ---
 
