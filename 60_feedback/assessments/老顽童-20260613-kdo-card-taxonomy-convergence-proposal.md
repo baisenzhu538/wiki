@@ -1,6 +1,6 @@
 ---
 title: "KDO 卡片类型体系收敛建议：明确四卡体系与 Agent-native 类型的关系及迁移规则"
-author: Kimi Code CLI
+author: 老顽童
 reviewer: 欧阳锋
 status: draft
 domain: kdo-methodology
