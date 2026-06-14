@@ -1,4 +1,10 @@
 ---
+
+domain:
+  - business-strategy
+  - yitang
+  - decision-making
+  - product
 tags:
   - "#scene/business-analysis/customer-acquisition"
 related:

@@ -1,7 +1,14 @@
 ---
+
 id: "case-ether-online-acquisition"
 title: "案例：以太利用全网调研能力快速获客"
 type: "case"
+domain:
+  - product
+  - business-strategy
+  - ai-saas
+  - yitang
+  - entrepreneurship
 status: "draft"
 problem_domains:
   - "网上获客"

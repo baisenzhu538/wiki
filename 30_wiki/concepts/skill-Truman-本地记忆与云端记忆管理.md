@@ -1,13 +1,13 @@
 ---
 
+
 id: "skill-Truman-本地记忆与云端记忆管理"
 title: "技能：本地记忆与云端记忆管理"
 type: "skill"
 domain:
-  - ai-saas
-  - management
-  - decision-making
   - yitang
+  - ai-collaboration
+domain:
 status: "draft"
 domain:
 author: "legacy"

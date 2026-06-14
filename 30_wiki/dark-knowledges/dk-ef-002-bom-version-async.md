@@ -1,7 +1,10 @@
 ---
+
 id: dk-ef-002-bom-version-async
 title: "BOM 多版本不同步：你手里的文件和产线手里的不是同一份"
 type: dark-knowledge
+domain:
+  - needs-review
 dark_knowledge_type: hardware-failure
 source_person: "黄药师"
 source_context: "多人交接的硬件项目——原理图/BOM/PCB/Gerber/固件散落在多台电脑，版本混乱"

@@ -1,7 +1,11 @@
 ---
+
 id: "skill-自我反馈检验"
 title: "技能：自我反馈检验"
 type: skill
+domain:
+  - master
+  - yitang
 status: draft
 source_person: "一堂课程"
 source_context: src_20260522_dee56cff

@@ -1,7 +1,14 @@
 ---
 
+
 title: "新人落地"
 type: concept
+domain:
+  - management
+  - product
+  - ai-saas
+  - design
+  - yitang
 status: enriched
 pipeline:
   - confidence-source-cited

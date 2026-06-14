@@ -1,7 +1,13 @@
 ---
 
+
 title: "Kimi（月之暗面）"
 type: entity
+domain:
+  - kdo
+  - product
+  - ai-saas
+  - design
 status: reviewed
 entity_type: company
 aliases:

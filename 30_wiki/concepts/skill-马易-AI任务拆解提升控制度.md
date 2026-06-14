@@ -1,7 +1,14 @@
 ---
+
+
 id: "skill-马易-AI任务拆解提升控制度"
 title: "技能：AI任务拆解提升控制度"
 type: "skill"
+domain:
+  - ai-collaboration
+  - yitang
+  - ai-saas
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

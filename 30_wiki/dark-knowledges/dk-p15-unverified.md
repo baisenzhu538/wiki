@@ -1,5 +1,8 @@
 ---
+
 type: dark-knowledge
+domain:
+  - product
 id: dk-p15-unverified
 author: legacy
 reviewed_by: pending

@@ -1,7 +1,14 @@
 ---
+
+
 id: "skill-水水-构建自利叙事"
 title: "技能：构建自利叙事"
 type: "skill"
+domain:
+  - ai-collaboration
+  - master
+  - yitang
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

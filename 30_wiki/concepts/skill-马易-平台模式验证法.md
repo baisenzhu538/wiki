@@ -1,7 +1,14 @@
 ---
+
+
 id: "skill-马易-平台模式验证法"
 title: "技能：平台模式验证法"
 type: "skill"
+domain:
+  - ai-collaboration
+  - yitang
+  - ai-saas
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

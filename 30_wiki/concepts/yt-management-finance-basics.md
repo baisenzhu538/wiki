@@ -1,7 +1,14 @@
 ---
 
+
 title: "财务入门"
 type: concept
+domain:
+  - management
+  - business-strategy
+  - finance-legal
+  - ai-saas
+  - yitang
 status: enriched
 pipeline:
   - confidence-source-cited

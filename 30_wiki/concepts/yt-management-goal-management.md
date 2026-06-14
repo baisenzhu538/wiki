@@ -1,7 +1,12 @@
 ---
 
+
 title: "目标管理"
 type: concept
+domain:
+  - ai-saas
+  - management
+  - yitang
 status: enriched
 pipeline:
   - confidence-source-cited

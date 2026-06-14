@@ -1,7 +1,13 @@
 ---
 
+
 title: KDO Protocol Implementation Roadmap — Detailed Recommendation Report
 type: improvement-plan
+domain:
+  - healthcare
+  - kdo
+  - ai-saas
+  - design
 status: draft
 id: "kdo-protocol-implementation-roadmap"
 created_at: '2026-05-03'

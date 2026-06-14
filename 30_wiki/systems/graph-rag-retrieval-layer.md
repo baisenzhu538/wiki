@@ -1,5 +1,6 @@
 ---
 
+
 title: "Graph RAG 检索层技术说明"
 author: "审查者欧阳锋"
 role: "知识架构师 (Knowledge Architect)"
@@ -9,6 +10,11 @@ status: "stable"
 implementor: "黄药师 (Builder)"
 id: "graph-rag-retrieval-layer"
 type: "concept"
+domain:
+  - kdo
+  - product
+  - ai-saas
+  - design
 source_refs:
   - "LightRAG 库（pip install lightrag）"
   - ".kdo/graph_index/（LightRAG 产出物）"

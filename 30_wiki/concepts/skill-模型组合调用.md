@@ -1,7 +1,11 @@
 ---
+
 id: "skill-模型组合调用"
 title: "技能：模型组合调用"
 type: skill
+domain:
+  - design
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

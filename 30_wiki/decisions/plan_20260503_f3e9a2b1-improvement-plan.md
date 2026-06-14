@@ -1,6 +1,11 @@
 ---
+
 plan_id: plan_20260503_f3e9a2b1
 type: improvement-plan
+domain:
+  - ai-saas
+  - kdo
+  - business-strategy
 status: draft
 created_at: '2026-05-03T12:00:00+00:00'
 feedback_count: 1

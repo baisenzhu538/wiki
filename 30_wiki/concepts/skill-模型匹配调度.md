@@ -1,7 +1,10 @@
 ---
+
 id: "skill-模型匹配调度"
 title: "技能：模型匹配调度"
 type: skill
+domain:
+  - yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271

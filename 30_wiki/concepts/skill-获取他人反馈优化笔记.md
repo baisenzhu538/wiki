@@ -1,7 +1,12 @@
 ---
+
 id: "skill-获取他人反馈优化笔记"
 title: "技能：获取他人反馈优化笔记"
 type: skill
+domain:
+  - entrepreneurship
+  - yitang
+  - business-strategy
 status: draft
 source_person: "一堂"
 source_context: src_20260609_6809033f

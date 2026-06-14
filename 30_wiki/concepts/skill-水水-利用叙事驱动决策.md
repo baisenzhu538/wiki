@@ -1,7 +1,14 @@
 ---
+
+
 id: "skill-水水-利用叙事驱动决策"
 title: "技能：利用叙事驱动决策"
 type: "skill"
+domain:
+  - ai-collaboration
+  - master
+  - yitang
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

@@ -1,7 +1,14 @@
 ---
 
+
 title: "公司文化"
 type: concept
+domain:
+  - management
+  - business-strategy
+  - ai-saas
+  - design
+  - yitang
 status: enriched
 pipeline:
   - confidence-source-cited

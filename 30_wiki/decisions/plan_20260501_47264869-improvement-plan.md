@@ -1,6 +1,12 @@
 ---
+
 plan_id: plan_20260501_47264869
 type: improvement-plan
+domain:
+  - finance-legal
+  - ai-saas
+  - kdo
+  - business-strategy
 status: draft
 created_at: '2026-04-30T17:58:15+00:00'
 feedback_count: 19

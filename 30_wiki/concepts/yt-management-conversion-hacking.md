@@ -1,7 +1,15 @@
 ---
 
+
 title: "转化率黑客"
 type: concept
+domain:
+  - management
+  - product
+  - business-strategy
+  - ai-saas
+  - yitang
+  - decision-making
 status: enriched
 pipeline:
   - confidence-source-cited

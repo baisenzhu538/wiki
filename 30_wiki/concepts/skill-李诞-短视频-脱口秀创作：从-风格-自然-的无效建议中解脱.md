@@ -1,7 +1,13 @@
 ---
+
+
 id: "skill-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱"
 title: "技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱"
 type: "skill"
+domain:
+  - personal-growth
+  - yitang
+domain:
 status: "draft"
 domain:
 author: "legacy"

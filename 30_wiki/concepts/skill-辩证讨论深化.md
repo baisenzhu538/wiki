@@ -1,7 +1,13 @@
 ---
+
 id: "skill-辩证讨论深化"
 title: "技能：辩证讨论深化"
 type: skill
+domain:
+  - product
+  - management
+  - master
+  - yitang
 status: draft
 source_person: "一堂课程"
 source_context: src_20260522_dee56cff

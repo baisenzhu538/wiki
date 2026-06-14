@@ -1,6 +1,12 @@
 ---
+
 id: voice-input-doubao
 type: tool
+domain:
+  - product
+  - ai-saas
+  - decision-making
+  - yitang
 status: draft
 source_refs:
   - src_20260606_90b44191

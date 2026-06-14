@@ -1,7 +1,13 @@
 ---
+
+
 id: "skill-纪浩-项目启动五问法"
 title: "技能：项目启动五问法"
 type: "skill"
+domain:
+  - ai-collaboration
+  - yitang
+domain:
 status: "draft"
 domain:
 author: "legacy"

@@ -1,7 +1,12 @@
 ---
 
+
 title: "科学开会"
 type: concept
+domain:
+  - ai-saas
+  - management
+  - yitang
 status: enriched
 pipeline:
   - confidence-source-cited

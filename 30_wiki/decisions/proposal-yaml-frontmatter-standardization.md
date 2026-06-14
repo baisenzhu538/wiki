@@ -1,6 +1,12 @@
 ---
+
 title: "YAML 标注对 KDO 知识库的启发——从自由填字段到结构化索引"
 type: "improvement-plan"
+domain:
+  - kdo
+  - ai-saas
+  - design
+  - yitang
 status: "draft"
 source_refs:
   - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"

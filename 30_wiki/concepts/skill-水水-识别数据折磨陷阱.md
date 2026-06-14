@@ -1,7 +1,14 @@
 ---
+
+
 id: "skill-水水-识别数据折磨陷阱"
 title: "技能：识别数据折磨陷阱"
 type: "skill"
+domain:
+  - ai-collaboration
+  - master
+  - yitang
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

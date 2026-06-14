@@ -1,7 +1,14 @@
 ---
+
+
 id: "skill-马易-时间序列大模型场景识别"
 title: "技能：时间序列大模型场景识别"
 type: "skill"
+domain:
+  - ai-collaboration
+  - yitang
+  - ai-saas
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

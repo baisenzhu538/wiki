@@ -1,7 +1,12 @@
 ---
 
+
 title: "一号位"
 type: concept
+domain:
+  - ai-saas
+  - management
+  - yitang
 status: enriched
 pipeline:
   - confidence-source-cited

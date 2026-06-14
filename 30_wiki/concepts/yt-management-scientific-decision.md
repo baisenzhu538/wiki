@@ -1,7 +1,13 @@
 ---
 
+
 title: "Y模型/科学决策"
 type: concept
+domain:
+  - ai-saas
+  - management
+  - decision-making
+  - yitang
 status: enriched
 pipeline:
   - confidence-source-cited

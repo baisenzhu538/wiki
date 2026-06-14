@@ -1,7 +1,10 @@
 ---
+
 id: dk-ef-003-hand-soldering-bom-divergence
 title: "手焊板的隐性修改：原型调通了但量产就是不行"
 type: dark-knowledge
+domain:
+  - product
 dark_knowledge_type: hardware-failure
 source_person: "黄药师"
 source_context: "原型阶段工程师手焊调通→量产机贴后参数无效——手工焊接中的飞线/替换元件/跳线未记录"

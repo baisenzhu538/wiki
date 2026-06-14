@@ -1,7 +1,13 @@
 ---
 
+
 title: "紫鲸AI"
 type: entity
+domain:
+  - ai-saas
+  - management
+  - kdo
+  - business-strategy
 status: reviewed
 entity_type: product
 aliases:

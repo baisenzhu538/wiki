@@ -1,14 +1,16 @@
 ---
 
+
 id: "skill-ai-prd-for-ai"
 title: "技能：把PRD写成AI能执行的指令"
 type: "skill"
 domain:
-  - management
-  - product
+  - yitang
   - ai-saas
   - design
-  - yitang
+  - management
+  - product
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

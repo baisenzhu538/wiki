@@ -1,12 +1,13 @@
 ---
 
+
 id: "skill-Truman-技术社区严肃提问法"
 title: "技能：技术社区严肃提问法"
 type: "skill"
 domain:
-  - management
-  - kdo
   - yitang
+  - ai-collaboration
+domain:
 status: "draft"
 domain:
 author: "legacy"

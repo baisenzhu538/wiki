@@ -1,7 +1,12 @@
 ---
+
 id: "skill-用清单体记备忘笔记"
 title: "技能：用清单体记备忘笔记"
 type: skill
+domain:
+  - management
+  - decision-making
+  - yitang
 status: draft
 source_person: "一堂"
 source_context: src_20260609_6809033f

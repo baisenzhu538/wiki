@@ -1,4 +1,12 @@
 ---
+
+domain:
+  - supply-chain
+  - yitang
+  - ai-saas
+  - business-strategy
+  - product
+  - management
 tags:
   - "#scene/business-analysis/customer-acquisition"
   - "#scene/learning-methodology/feedback-loop"

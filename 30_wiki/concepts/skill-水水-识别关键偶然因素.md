@@ -1,7 +1,14 @@
 ---
+
+
 id: "skill-水水-识别关键偶然因素"
 title: "技能：识别关键偶然因素"
 type: "skill"
+domain:
+  - ai-collaboration
+  - master
+  - yitang
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

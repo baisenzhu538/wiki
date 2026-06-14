@@ -1,7 +1,13 @@
 ---
 
+
 title: "Y Combinator"
 type: entity
+domain:
+  - entrepreneurship
+  - ai-saas
+  - management
+  - business-strategy
 status: reviewed
 entity_type: organization
 aliases:

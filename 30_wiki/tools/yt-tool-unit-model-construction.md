@@ -1,4 +1,11 @@
 ---
+
+domain:
+  - yitang
+  - supply-chain
+  - finance-legal
+  - business-strategy
+  - product
 tags:
   - "#scene/business-analysis/conversion-rate"
   - "#scene/business-analysis/customer-acquisition"

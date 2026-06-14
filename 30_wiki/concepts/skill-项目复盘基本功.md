@@ -1,7 +1,14 @@
 ---
+
 id: "skill-项目复盘基本功"
 title: "技能：项目复盘基本功"
 type: skill
+domain:
+  - management
+  - business-strategy
+  - design
+  - yitang
+  - entrepreneurship
 status: draft
 source_person: "一堂课程设计"
 source_context: src_20260522_e139c9e9

@@ -1,14 +1,14 @@
 ---
 
+
 id: "skill-ai-old-small-checklist"
 title: "技能：“找老的干小的”场景评估清单"
 type: "skill"
 domain:
-  - product
-  - ai-saas
-  - design
+  - ai-collaboration
   - yitang
-  - decision-making
+  - ai-saas
+domain:
 status: "draft"
 domain:
 author: "legacy"

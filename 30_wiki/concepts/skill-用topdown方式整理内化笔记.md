@@ -1,7 +1,12 @@
 ---
+
 id: "skill-用topdown方式整理内化笔记"
 title: "技能：用Topdown方式整理内化笔记"
 type: skill
+domain:
+  - product
+  - management
+  - yitang
 status: draft
 source_person: "一堂"
 source_context: src_20260609_6809033f

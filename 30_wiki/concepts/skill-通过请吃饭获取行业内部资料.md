@@ -1,7 +1,10 @@
 ---
+
 id: "skill-通过请吃饭获取行业内部资料"
 title: "技能：通过请吃饭获取行业内部资料"
 type: skill
+domain:
+  - business-strategy
 status: draft
 source_person: "案例讲述者"
 source_context: src_20260609_4ea1fba2

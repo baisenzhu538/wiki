@@ -1,13 +1,13 @@
 ---
 
+
 id: "skill-Truman-开源模型与商业模型融合方案"
 title: "技能：开源模型与商业模型融合方案"
 type: "skill"
 domain:
-  - product
-  - ai-saas
   - yitang
-  - business-strategy
+  - ai-collaboration
+domain:
 status: "draft"
 domain:
 author: "legacy"

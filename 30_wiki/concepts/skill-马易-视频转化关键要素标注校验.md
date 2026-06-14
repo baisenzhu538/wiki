@@ -1,7 +1,14 @@
 ---
+
+
 id: "skill-马易-视频转化关键要素标注校验"
 title: "技能：视频转化关键要素标注校验"
 type: "skill"
+domain:
+  - ai-collaboration
+  - yitang
+  - ai-saas
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

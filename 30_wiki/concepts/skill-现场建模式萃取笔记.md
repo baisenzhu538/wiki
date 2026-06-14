@@ -1,7 +1,12 @@
 ---
+
 id: "skill-现场建模式萃取笔记"
 title: "技能：现场建模式萃取笔记"
 type: skill
+domain:
+  - product
+  - management
+  - yitang
 status: draft
 source_person: "一堂"
 source_context: src_20260609_6809033f

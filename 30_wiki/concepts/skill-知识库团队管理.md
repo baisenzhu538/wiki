@@ -1,7 +1,14 @@
 ---
+
 id: "skill-知识库团队管理"
 title: "技能：知识库团队管理"
 type: skill
+domain:
+  - management
+  - design
+  - yitang
+  - entrepreneurship
+  - kdo
 status: draft
 source_person: "一堂课程设计"
 source_context: src_20260522_e139c9e9

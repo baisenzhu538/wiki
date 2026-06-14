@@ -1,7 +1,14 @@
 ---
+
+
 id: "skill-水水-区分风险与不确定性"
 title: "技能：区分风险与不确定性"
 type: "skill"
+domain:
+  - ai-collaboration
+  - master
+  - yitang
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

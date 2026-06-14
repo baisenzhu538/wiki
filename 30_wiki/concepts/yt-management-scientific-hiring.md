@@ -1,7 +1,14 @@
 ---
 
+
 title: "科学招聘"
 type: concept
+domain:
+  - management
+  - product
+  - ai-saas
+  - design
+  - yitang
 status: enriched
 pipeline:
   - confidence-source-cited

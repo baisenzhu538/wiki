@@ -1,7 +1,10 @@
 ---
+
 id: dk-ef-004-missing-diagnostic-firmware
 title: "没有诊断固件就是盲调：你不知道信号卡在哪一级"
 type: dark-knowledge
+domain:
+  - product
 dark_knowledge_type: hardware-failure
 source_person: "黄药师"
 source_context: "复杂信号链路调试（MCU→电平转换→595→MOSFET→LED→接收管→MUX→运放→MCU）——不知道哪一级出了问题"

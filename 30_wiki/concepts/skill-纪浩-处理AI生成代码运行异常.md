@@ -1,7 +1,13 @@
 ---
+
+
 id: "skill-纪浩-处理AI生成代码运行异常"
 title: "技能：处理AI生成代码运行异常"
 type: "skill"
+domain:
+  - ai-collaboration
+  - yitang
+domain:
 status: "draft"
 domain:
 author: "legacy"

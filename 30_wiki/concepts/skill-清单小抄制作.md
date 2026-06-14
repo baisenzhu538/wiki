@@ -1,7 +1,13 @@
 ---
+
 id: "skill-清单小抄制作"
 title: "技能：清单小抄制作"
 type: skill
+domain:
+  - management
+  - kdo
+  - yitang
+  - business-strategy
 status: draft
 source_person: "一堂课程"
 source_context: src_20260522_dee56cff

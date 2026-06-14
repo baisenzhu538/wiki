@@ -1,7 +1,13 @@
 ---
 
+
 title: "战略会"
 type: concept
+domain:
+  - ai-saas
+  - management
+  - decision-making
+  - yitang
 status: enriched
 pipeline:
   - confidence-source-cited

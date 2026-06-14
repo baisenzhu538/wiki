@@ -1,7 +1,14 @@
 ---
+
+
 id: "skill-马易-低置信度样本黄金漏斗处理"
 title: "技能：低置信度样本黄金漏斗处理"
 type: "skill"
+domain:
+  - ai-collaboration
+  - yitang
+  - ai-saas
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

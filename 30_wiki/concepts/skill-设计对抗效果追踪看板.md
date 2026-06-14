@@ -1,7 +1,13 @@
 ---
+
 id: "skill-设计对抗效果追踪看板"
 title: "技能：设计对抗效果追踪看板"
 type: skill
+domain:
+  - product
+  - management
+  - design
+  - decision-making
 status: draft
 source_person: "课程设计者"
 source_context: src_20260609_1c8b4d0e

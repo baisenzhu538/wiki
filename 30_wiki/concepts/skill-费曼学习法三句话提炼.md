@@ -1,7 +1,10 @@
 ---
+
 id: "skill-费曼学习法三句话提炼"
 title: "技能：费曼学习法三句话提炼"
 type: skill
+domain:
+  - yitang
 status: draft
 source_person: "一堂课程（费曼学习法变体）"
 source_context: src_20260522_dee56cff

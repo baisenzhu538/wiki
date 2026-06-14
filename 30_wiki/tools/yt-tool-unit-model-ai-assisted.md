@@ -1,4 +1,10 @@
 ---
+
+domain:
+  - business-strategy
+  - yitang
+  - decision-making
+  - ai-saas
 tags:
   - "#scene/ai-collaboration/prompt-engineering"
   - "#scene/learning-methodology/feedback-loop"

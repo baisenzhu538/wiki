@@ -1,7 +1,13 @@
 ---
 
+
 title: "项目管理"
 type: concept
+domain:
+  - product
+  - ai-saas
+  - management
+  - yitang
 status: enriched
 pipeline:
   - confidence-source-cited

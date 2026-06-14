@@ -1,13 +1,16 @@
 ---
 
+
 id: "skill-ai-voice-input-doubao"
 title: "技能：口喷式语音输入法"
 type: "skill"
 domain:
-  - ai-saas
-  - management
-  - design
+  - personal-growth
   - yitang
+  - ai-saas
+  - design
+  - management
+domain:
 status: "needs-review"
 domain:
 author: "legacy"

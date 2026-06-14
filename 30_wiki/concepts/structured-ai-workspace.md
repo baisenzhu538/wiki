@@ -1,6 +1,11 @@
 ---
+
 id: structured-ai-workspace
 type: tool
+domain:
+  - ai-saas
+  - management
+  - yitang
 status: draft
 source_refs:
   - src_20260606_42e11f09

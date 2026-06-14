@@ -1,7 +1,11 @@
 ---
+
 id: dk-ef-001-sn74lvc2g07-open-drain
 title: "开漏输出的陷阱：上拉电阻太大导致信号边沿变缓"
 type: dark-knowledge
+domain:
+  - entrepreneurship
+  - ai-saas
 dark_knowledge_type: hardware-failure
 source_person: "黄药师"
 source_context: "广冷红外板 V2.2 调试——SN74LVC2G07 驱动 595 移位寄存器时数据不稳定"

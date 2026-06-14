@@ -1,4 +1,9 @@
 ---
+
+domain:
+  - yitang
+  - management
+  - finance-legal
 tags:
   - "#scene/business-analysis/conversion-rate"
   - "#scene/learning-methodology/feedback-loop"

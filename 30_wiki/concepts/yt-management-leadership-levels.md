@@ -1,7 +1,13 @@
 ---
 
+
 title: "管理段位"
 type: concept
+domain:
+  - ai-saas
+  - management
+  - kdo
+  - yitang
 status: enriched
 pipeline:
   - confidence-source-cited

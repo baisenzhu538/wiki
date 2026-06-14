@@ -1,7 +1,12 @@
 ---
+
 id: "skill-深度分层学习"
 title: "技能：深度分层学习"
 type: skill
+domain:
+  - product
+  - decision-making
+  - yitang
 status: draft
 source_person: "一堂课程"
 source_context: src_20260522_dee56cff

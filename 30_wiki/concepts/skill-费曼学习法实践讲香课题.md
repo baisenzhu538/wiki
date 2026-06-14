@@ -1,7 +1,12 @@
 ---
+
 id: "skill-费曼学习法实践讲香课题"
 title: "技能：费曼学习法实践（讲香课题）"
 type: skill
+domain:
+  - design
+  - yitang
+  - decision-making
 status: draft
 source_person: "一堂课程设计"
 source_context: src_20260522_e139c9e9

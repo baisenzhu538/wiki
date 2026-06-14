@@ -1,7 +1,12 @@
 ---
+
 id: "skill-用旗舰店替代纯招商投入"
 title: "技能：用旗舰店替代纯招商投入"
 type: skill
+domain:
+  - product
+  - design
+  - business-strategy
 status: draft
 source_person: "案例讲述者"
 source_context: src_20260609_4ea1fba2
