@@ -1,11 +1,8 @@
-# Concept Card Index — 2026-06-13 18:08 UTC
+# Concept Card Index — 2026-06-14 05:14 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
 | 2026-05-17-深夜感想 | 2026-05-17 深夜感想 | concept | ai-saas |
-| EC工业化规范手册 | EC工业化规范手册 | concept | healthcare |
-| HIS系统开发实现方案-架构师指南 | HIS系统开发实现方案-架构师指南 | concept | healthcare |
-| HIS系统深度调研 | HIS系统深度调研 | concept | healthcare |
 | ai-native-五层进阶从答案到效率到作品到产品到系统 | “AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统” | “framework” | ai-saas |
 | aigc文创案例设计课leo文创ip从0到1全流程 | AIGC文创案例设计课：Leo文创IP从0到1全流程 | concept | ai-saas, design |
 | aigc设计基础01ai生图原理与提示词基本功 | AIGC设计基础01：AI生图原理与提示词基本功 | concept | ai-saas, design |
@@ -35,7 +32,10 @@
 | deepseek-v4-在知识管理系统中的应用 | DeepSeek V4 在知识管理系统中的应用 | concept | healthcare |
 | design-ai-image-generation | Design / Ai Image Generation | concept | yitang |
 | ec工业化规范手册-v2.8.0 | EC工业化规范手册 v2.8.0 | concept | healthcare |
+| EC工业化规范手册 | EC工业化规范手册 | concept | healthcare |
 | graph-rag | Graph RAG — Knowledge-Graph-Powered Retrieval | concept | ['ai-saas'] |
+| HIS系统开发实现方案-架构师指南 | HIS系统开发实现方案-架构师指南 | concept | healthcare |
+| HIS系统深度调研 | HIS系统深度调研 | concept | healthcare |
 | kdo-flywheel | KDO 飞轮 — 建造→使用→反思→实验 | concept | master |
 | kdo-yaml-frontmatter-safety | KDO YAML Frontmatter 安全操作指南 | concept | master |
 | kdo_product_design_agent_final | Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版) | concept | ai-saas |
@@ -535,9 +535,9 @@
 | skill-知识树存储记忆法 | 技能：知识树存储记忆法 | skill | learning-methodology, yitang |
 | skill-稀缺资源机会成本比对法 | 技能：稀缺资源机会成本比对法 | skill |  |
 | skill-立即实践转化法 | 技能：立即实践转化法 | skill | learning-methodology, yitang |
+| skill-纪浩-Agent技能市场设计法 | 技能：Agent技能市场设计法 | skill | ai-collaboration, yitang |
 | skill-纪浩-AI对话上下文隔离 | 技能：AI 对话上下文隔离 | skill | ai-collaboration |
 | skill-纪浩-AI工作空间与导诊台设计法 | 技能：AI工作空间与导诊台设计法 | skill | ai-collaboration, yitang |
-| skill-纪浩-Agent技能市场设计法 | 技能：Agent技能市场设计法 | skill | ai-collaboration, yitang |
 | skill-纪浩-Do-first-PDCA渐进迭代法 | 技能：Do-first PDCA渐进迭代法 | skill | ai-collaboration, yitang |
 | skill-纪浩-problem-validation-four-checks | 技能：四问验证法 —— 判断需求是真实Problem还是伪需求 | skill | ai-collaboration, yitang |
 | skill-纪浩-日志驱动排查法 | 技能：日志驱动排查法 | skill | ai-collaboration, yitang |

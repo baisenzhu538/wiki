@@ -1,0 +1,5150 @@
+{
+  "success": true,
+  "request": {
+    "id": 4148886,
+    "summary_new": "1"
+  },
+  "detail": {
+    "id": 4148886,
+    "name": "一堂-线下训战营介绍",
+    "folderId": 245320,
+    "duration": null,
+    "createdAt": null,
+    "updatedAt": null,
+    "status": {
+      "value": 4,
+      "text": "处理完成",
+      "done": true
+    },
+    "transcript": {
+      "data": [
+        {
+          "beginTime": 0,
+          "endTime": 10871,
+          "has_verify": true,
+          "id": 1,
+          "paragraph_id": "1768655200532500000",
+          "remark_type": 0,
+          "sentence_id": 1,
+          "text": "其实是从大家应该听过我的履历也知道我是从财务专业，然后一路跨行什么新能源、咨询行业，一路跨行跨到了一个一行。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "f899b858627143019b6ba4dbf0127b0f",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 0,
+              "endTime": 418,
+              "sentence_id": 1,
+              "word": "其实"
+            },
+            {
+              "beginTime": 418,
+              "endTime": 836,
+              "sentence_id": 1,
+              "word": "是从"
+            },
+            {
+              "beginTime": 836,
+              "endTime": 1254,
+              "sentence_id": 1,
+              "word": "大家"
+            },
+            {
+              "beginTime": 1254,
+              "endTime": 1672,
+              "sentence_id": 1,
+              "word": "应该"
+            },
+            {
+              "beginTime": 1672,
+              "endTime": 1881,
+              "sentence_id": 1,
+              "word": "听"
+            },
+            {
+              "beginTime": 1881,
+              "endTime": 2090,
+              "sentence_id": 1,
+              "word": "过"
+            },
+            {
+              "beginTime": 2090,
+              "endTime": 2508,
+              "sentence_id": 1,
+              "word": "我的"
+            },
+            {
+              "beginTime": 2508,
+              "endTime": 2926,
+              "sentence_id": 1,
+              "word": "履历"
+            },
+            {
+              "beginTime": 2926,
+              "endTime": 3135,
+              "sentence_id": 1,
+              "word": "也"
+            },
+            {
+              "beginTime": 3135,
+              "endTime": 3553,
+              "sentence_id": 1,
+              "word": "知道"
+            },
+            {
+              "beginTime": 3553,
+              "endTime": 3762,
+              "sentence_id": 1,
+              "word": "我"
+            },
+            {
+              "beginTime": 3762,
+              "endTime": 4180,
+              "sentence_id": 1,
+              "word": "是从"
+            },
+            {
+              "beginTime": 4180,
+              "endTime": 4598,
+              "sentence_id": 1,
+              "word": "财务"
+            },
+            {
+              "beginTime": 4598,
+              "endTime": 5016,
+              "sentence_id": 1,
+              "word": "专业，"
+            },
+            {
+              "beginTime": 5018,
+              "endTime": 5436,
+              "sentence_id": 1,
+              "word": "然后"
+            },
+            {
+              "beginTime": 5436,
+              "endTime": 5854,
+              "sentence_id": 1,
+              "word": "一路"
+            },
+            {
+              "beginTime": 5854,
+              "endTime": 6272,
+              "sentence_id": 1,
+              "word": "跨行"
+            },
+            {
+              "beginTime": 6272,
+              "endTime": 6690,
+              "sentence_id": 1,
+              "word": "什么"
+            },
+            {
+              "beginTime": 6690,
+              "endTime": 7317,
+              "sentence_id": 1,
+              "word": "新能源、"
+            },
+            {
+              "beginTime": 7527,
+              "endTime": 7945,
+              "sentence_id": 1,
+              "word": "咨询"
+            },
+            {
+              "beginTime": 7945,
+              "endTime": 8363,
+              "sentence_id": 1,
+              "word": "行业，"
+            },
+            {
+              "beginTime": 8572,
+              "endTime": 8990,
+              "sentence_id": 1,
+              "word": "一路"
+            },
+            {
+              "beginTime": 8990,
+              "endTime": 9408,
+              "sentence_id": 1,
+              "word": "跨行"
+            },
+            {
+              "beginTime": 9408,
+              "endTime": 9617,
+              "sentence_id": 1,
+              "word": "跨"
+            },
+            {
+              "beginTime": 9617,
+              "endTime": 10035,
+              "sentence_id": 1,
+              "word": "到了"
+            },
+            {
+              "beginTime": 10035,
+              "endTime": 10453,
+              "sentence_id": 1,
+              "word": "一个"
+            },
+            {
+              "beginTime": 10453,
+              "endTime": 10871,
+              "sentence_id": 1,
+              "word": "一行。"
+            }
+          ]
+        },
+        {
+          "beginTime": 10872,
+          "endTime": 22664,
+          "has_verify": true,
+          "id": 2,
+          "paragraph_id": "1768655200532500000",
+          "remark_type": 0,
+          "sentence_id": 2,
+          "text": "现在这个属于教育创新的领域，然后也是通过科技练习，掌握了产品的设计课程开发，还做了一些业务管理等等核心能力。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "bce346b1ebe249859e32f2e50a0b5231",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 10872,
+              "endTime": 11290,
+              "sentence_id": 2,
+              "word": "现在"
+            },
+            {
+              "beginTime": 11290,
+              "endTime": 11708,
+              "sentence_id": 2,
+              "word": "这个"
+            },
+            {
+              "beginTime": 11708,
+              "endTime": 12126,
+              "sentence_id": 2,
+              "word": "属于"
+            },
+            {
+              "beginTime": 12126,
+              "endTime": 12544,
+              "sentence_id": 2,
+              "word": "教育"
+            },
+            {
+              "beginTime": 12544,
+              "endTime": 12962,
+              "sentence_id": 2,
+              "word": "创新"
+            },
+            {
+              "beginTime": 12962,
+              "endTime": 13171,
+              "sentence_id": 2,
+              "word": "的"
+            },
+            {
+              "beginTime": 13171,
+              "endTime": 13589,
+              "sentence_id": 2,
+              "word": "领域，"
+            },
+            {
+              "beginTime": 13800,
+              "endTime": 14266,
+              "sentence_id": 2,
+              "word": "然后"
+            },
+            {
+              "beginTime": 14266,
+              "endTime": 14732,
+              "sentence_id": 2,
+              "word": "也是"
+            },
+            {
+              "beginTime": 14732,
+              "endTime": 15198,
+              "sentence_id": 2,
+              "word": "通过"
+            },
+            {
+              "beginTime": 15198,
+              "endTime": 15664,
+              "sentence_id": 2,
+              "word": "科技"
+            },
+            {
+              "beginTime": 15664,
+              "endTime": 16130,
+              "sentence_id": 2,
+              "word": "练习，"
+            },
+            {
+              "beginTime": 16367,
+              "endTime": 16833,
+              "sentence_id": 2,
+              "word": "掌握"
+            },
+            {
+              "beginTime": 16833,
+              "endTime": 17066,
+              "sentence_id": 2,
+              "word": "了"
+            },
+            {
+              "beginTime": 17066,
+              "endTime": 17532,
+              "sentence_id": 2,
+              "word": "产品"
+            },
+            {
+              "beginTime": 17532,
+              "endTime": 17765,
+              "sentence_id": 2,
+              "word": "的"
+            },
+            {
+              "beginTime": 17765,
+              "endTime": 18231,
+              "sentence_id": 2,
+              "word": "设计"
+            },
+            {
+              "beginTime": 18231,
+              "endTime": 18697,
+              "sentence_id": 2,
+              "word": "课程"
+            },
+            {
+              "beginTime": 18697,
+              "endTime": 19163,
+              "sentence_id": 2,
+              "word": "开发，"
+            },
+            {
+              "beginTime": 19169,
+              "endTime": 19402,
+              "sentence_id": 2,
+              "word": "还"
+            },
+            {
+              "beginTime": 19402,
+              "endTime": 19868,
+              "sentence_id": 2,
+              "word": "做了"
+            },
+            {
+              "beginTime": 19868,
+              "endTime": 20334,
+              "sentence_id": 2,
+              "word": "一些"
+            },
+            {
+              "beginTime": 20334,
+              "endTime": 21266,
+              "sentence_id": 2,
+              "word": "业务管理"
+            },
+            {
+              "beginTime": 21266,
+              "endTime": 21732,
+              "sentence_id": 2,
+              "word": "等等"
+            },
+            {
+              "beginTime": 21732,
+              "endTime": 22664,
+              "sentence_id": 2,
+              "word": "核心能力。"
+            }
+          ]
+        },
+        {
+          "beginTime": 22670,
+          "endTime": 29952,
+          "has_verify": true,
+          "id": 3,
+          "paragraph_id": "1768655200532500000",
+          "remark_type": 0,
+          "sentence_id": 3,
+          "text": "所以每次比如说马拉松上场，中文就会说我这个什么，他就说我是什么赢。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "8100405ea0f24c109f953d964658928a",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 22670,
+              "endTime": 23136,
+              "sentence_id": 3,
+              "word": "所以"
+            },
+            {
+              "beginTime": 23136,
+              "endTime": 23602,
+              "sentence_id": 3,
+              "word": "每次"
+            },
+            {
+              "beginTime": 23602,
+              "endTime": 24301,
+              "sentence_id": 3,
+              "word": "比如说"
+            },
+            {
+              "beginTime": 24301,
+              "endTime": 25000,
+              "sentence_id": 3,
+              "word": "马拉松"
+            },
+            {
+              "beginTime": 25000,
+              "endTime": 25466,
+              "sentence_id": 3,
+              "word": "上场，"
+            },
+            {
+              "beginTime": 25472,
+              "endTime": 25938,
+              "sentence_id": 3,
+              "word": "中文"
+            },
+            {
+              "beginTime": 25938,
+              "endTime": 26171,
+              "sentence_id": 3,
+              "word": "就"
+            },
+            {
+              "beginTime": 26171,
+              "endTime": 26637,
+              "sentence_id": 3,
+              "word": "会说"
+            },
+            {
+              "beginTime": 26637,
+              "endTime": 26870,
+              "sentence_id": 3,
+              "word": "我"
+            },
+            {
+              "beginTime": 26870,
+              "endTime": 27336,
+              "sentence_id": 3,
+              "word": "这个"
+            },
+            {
+              "beginTime": 27336,
+              "endTime": 27802,
+              "sentence_id": 3,
+              "word": "什么，"
+            },
+            {
+              "beginTime": 28120,
+              "endTime": 28349,
+              "sentence_id": 3,
+              "word": "他"
+            },
+            {
+              "beginTime": 28349,
+              "endTime": 28807,
+              "sentence_id": 3,
+              "word": "就说"
+            },
+            {
+              "beginTime": 28807,
+              "endTime": 29723,
+              "sentence_id": 3,
+              "word": "我是什么"
+            },
+            {
+              "beginTime": 29723,
+              "endTime": 29952,
+              "sentence_id": 3,
+              "word": "赢。"
+            }
+          ]
+        },
+        {
+          "beginTime": 29954,
+          "endTime": 34307,
+          "has_verify": true,
+          "id": 4,
+          "paragraph_id": "1768655200532500000",
+          "remark_type": 0,
+          "sentence_id": 4,
+          "text": "在线下就只要大家来一堂，来线下就能看到我。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "042ab1d5329541acbd649da5a5272baa",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 29954,
+              "endTime": 30412,
+              "sentence_id": 4,
+              "word": "在线"
+            },
+            {
+              "beginTime": 30412,
+              "endTime": 30641,
+              "sentence_id": 4,
+              "word": "下"
+            },
+            {
+              "beginTime": 30641,
+              "endTime": 30870,
+              "sentence_id": 4,
+              "word": "就"
+            },
+            {
+              "beginTime": 30870,
+              "endTime": 31328,
+              "sentence_id": 4,
+              "word": "只要"
+            },
+            {
+              "beginTime": 31328,
+              "endTime": 31786,
+              "sentence_id": 4,
+              "word": "大家"
+            },
+            {
+              "beginTime": 31786,
+              "endTime": 32015,
+              "sentence_id": 4,
+              "word": "来"
+            },
+            {
+              "beginTime": 32015,
+              "endTime": 32473,
+              "sentence_id": 4,
+              "word": "一堂，"
+            },
+            {
+              "beginTime": 32475,
+              "endTime": 32704,
+              "sentence_id": 4,
+              "word": "来"
+            },
+            {
+              "beginTime": 32704,
+              "endTime": 33162,
+              "sentence_id": 4,
+              "word": "线下"
+            },
+            {
+              "beginTime": 33162,
+              "endTime": 33620,
+              "sentence_id": 4,
+              "word": "就能"
+            },
+            {
+              "beginTime": 33620,
+              "endTime": 34078,
+              "sentence_id": 4,
+              "word": "看到"
+            },
+            {
+              "beginTime": 34078,
+              "endTime": 34307,
+              "sentence_id": 4,
+              "word": "我。"
+            }
+          ]
+        },
+        {
+          "beginTime": 34310,
+          "endTime": 48700,
+          "has_verify": true,
+          "id": 5,
+          "paragraph_id": "1768655200532500000",
+          "remark_type": 0,
+          "sentence_id": 5,
+          "text": "对，因为我是负责一堂大部分的线下训练产品背后的女人的对，然后这个是我们发我是觉得这张照片当时拍的挺好看的，所以我就放上来。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "daba4d3ce2614370bb8fd28db864cf0b",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 34310,
+              "endTime": 34539,
+              "sentence_id": 5,
+              "word": "对，"
+            },
+            {
+              "beginTime": 34539,
+              "endTime": 35337,
+              "sentence_id": 5,
+              "word": "因为我"
+            },
+            {
+              "beginTime": 35337,
+              "endTime": 35603,
+              "sentence_id": 5,
+              "word": "是"
+            },
+            {
+              "beginTime": 35603,
+              "endTime": 36135,
+              "sentence_id": 5,
+              "word": "负责"
+            },
+            {
+              "beginTime": 36135,
+              "endTime": 36667,
+              "sentence_id": 5,
+              "word": "一堂"
+            },
+            {
+              "beginTime": 36667,
+              "endTime": 37465,
+              "sentence_id": 5,
+              "word": "大部分"
+            },
+            {
+              "beginTime": 37465,
+              "endTime": 37731,
+              "sentence_id": 5,
+              "word": "的"
+            },
+            {
+              "beginTime": 37731,
+              "endTime": 38263,
+              "sentence_id": 5,
+              "word": "线下"
+            },
+            {
+              "beginTime": 38263,
+              "endTime": 38795,
+              "sentence_id": 5,
+              "word": "训练"
+            },
+            {
+              "beginTime": 38795,
+              "endTime": 39327,
+              "sentence_id": 5,
+              "word": "产品"
+            },
+            {
+              "beginTime": 39327,
+              "endTime": 40657,
+              "sentence_id": 5,
+              "word": "背后的女人"
+            },
+            {
+              "beginTime": 40657,
+              "endTime": 41189,
+              "sentence_id": 5,
+              "word": "的对，"
+            },
+            {
+              "beginTime": 41213,
+              "endTime": 41699,
+              "sentence_id": 5,
+              "word": "然后"
+            },
+            {
+              "beginTime": 41699,
+              "endTime": 42185,
+              "sentence_id": 5,
+              "word": "这个"
+            },
+            {
+              "beginTime": 42185,
+              "endTime": 42428,
+              "sentence_id": 5,
+              "word": "是"
+            },
+            {
+              "beginTime": 42428,
+              "endTime": 42914,
+              "sentence_id": 5,
+              "word": "我们"
+            },
+            {
+              "beginTime": 42914,
+              "endTime": 43157,
+              "sentence_id": 5,
+              "word": "发"
+            },
+            {
+              "beginTime": 43157,
+              "endTime": 43643,
+              "sentence_id": 5,
+              "word": "我是"
+            },
+            {
+              "beginTime": 43643,
+              "endTime": 44129,
+              "sentence_id": 5,
+              "word": "觉得"
+            },
+            {
+              "beginTime": 44129,
+              "endTime": 44372,
+              "sentence_id": 5,
+              "word": "这"
+            },
+            {
+              "beginTime": 44372,
+              "endTime": 44615,
+              "sentence_id": 5,
+              "word": "张"
+            },
+            {
+              "beginTime": 44615,
+              "endTime": 45101,
+              "sentence_id": 5,
+              "word": "照片"
+            },
+            {
+              "beginTime": 45101,
+              "endTime": 45587,
+              "sentence_id": 5,
+              "word": "当时"
+            },
+            {
+              "beginTime": 45587,
+              "endTime": 45830,
+              "sentence_id": 5,
+              "word": "拍"
+            },
+            {
+              "beginTime": 45830,
+              "endTime": 46073,
+              "sentence_id": 5,
+              "word": "的"
+            },
+            {
+              "beginTime": 46073,
+              "endTime": 46316,
+              "sentence_id": 5,
+              "word": "挺"
+            },
+            {
+              "beginTime": 46316,
+              "endTime": 46802,
+              "sentence_id": 5,
+              "word": "好看"
+            },
+            {
+              "beginTime": 46802,
+              "endTime": 47045,
+              "sentence_id": 5,
+              "word": "的，"
+            },
+            {
+              "beginTime": 47062,
+              "endTime": 47530,
+              "sentence_id": 5,
+              "word": "所以"
+            },
+            {
+              "beginTime": 47530,
+              "endTime": 47764,
+              "sentence_id": 5,
+              "word": "我"
+            },
+            {
+              "beginTime": 47764,
+              "endTime": 47998,
+              "sentence_id": 5,
+              "word": "就"
+            },
+            {
+              "beginTime": 47998,
+              "endTime": 48700,
+              "sentence_id": 5,
+              "word": "放上来。"
+            }
+          ]
+        },
+        {
+          "beginTime": 51100,
+          "endTime": 67635,
+          "has_verify": true,
+          "id": 6,
+          "paragraph_id": "1768655251632500000",
+          "remark_type": 0,
+          "sentence_id": 6,
+          "text": "透美一下，然后这些是我们线下宣战营的主题的一些照片，很基本功训战营，教练是领导力，训战营0，然后转化率，然后LI什么的，然后三天两夜出阶进阶高阶。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "4612f6edf10647e9801b80028c427884",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 51100,
+              "endTime": 51316,
+              "sentence_id": 6,
+              "word": "透"
+            },
+            {
+              "beginTime": 51316,
+              "endTime": 51532,
+              "sentence_id": 6,
+              "word": "美"
+            },
+            {
+              "beginTime": 51532,
+              "endTime": 51964,
+              "sentence_id": 6,
+              "word": "一下，"
+            },
+            {
+              "beginTime": 51966,
+              "endTime": 52398,
+              "sentence_id": 6,
+              "word": "然后"
+            },
+            {
+              "beginTime": 52398,
+              "endTime": 52830,
+              "sentence_id": 6,
+              "word": "这些"
+            },
+            {
+              "beginTime": 52830,
+              "endTime": 53046,
+              "sentence_id": 6,
+              "word": "是"
+            },
+            {
+              "beginTime": 53046,
+              "endTime": 53478,
+              "sentence_id": 6,
+              "word": "我们"
+            },
+            {
+              "beginTime": 53478,
+              "endTime": 53910,
+              "sentence_id": 6,
+              "word": "线下"
+            },
+            {
+              "beginTime": 53910,
+              "endTime": 54342,
+              "sentence_id": 6,
+              "word": "宣战"
+            },
+            {
+              "beginTime": 54342,
+              "endTime": 54558,
+              "sentence_id": 6,
+              "word": "营"
+            },
+            {
+              "beginTime": 54558,
+              "endTime": 54774,
+              "sentence_id": 6,
+              "word": "的"
+            },
+            {
+              "beginTime": 54774,
+              "endTime": 55206,
+              "sentence_id": 6,
+              "word": "主题"
+            },
+            {
+              "beginTime": 55206,
+              "endTime": 55422,
+              "sentence_id": 6,
+              "word": "的"
+            },
+            {
+              "beginTime": 55422,
+              "endTime": 55854,
+              "sentence_id": 6,
+              "word": "一些"
+            },
+            {
+              "beginTime": 55854,
+              "endTime": 56286,
+              "sentence_id": 6,
+              "word": "照片，"
+            },
+            {
+              "beginTime": 56298,
+              "endTime": 56514,
+              "sentence_id": 6,
+              "word": "很"
+            },
+            {
+              "beginTime": 56514,
+              "endTime": 57162,
+              "sentence_id": 6,
+              "word": "基本功"
+            },
+            {
+              "beginTime": 57162,
+              "endTime": 57378,
+              "sentence_id": 6,
+              "word": "训"
+            },
+            {
+              "beginTime": 57378,
+              "endTime": 57594,
+              "sentence_id": 6,
+              "word": "战"
+            },
+            {
+              "beginTime": 57594,
+              "endTime": 57810,
+              "sentence_id": 6,
+              "word": "营，"
+            },
+            {
+              "beginTime": 58030,
+              "endTime": 58462,
+              "sentence_id": 6,
+              "word": "教练"
+            },
+            {
+              "beginTime": 58462,
+              "endTime": 58678,
+              "sentence_id": 6,
+              "word": "是"
+            },
+            {
+              "beginTime": 58678,
+              "endTime": 59326,
+              "sentence_id": 6,
+              "word": "领导力，"
+            },
+            {
+              "beginTime": 59330,
+              "endTime": 59563,
+              "sentence_id": 6,
+              "word": "训"
+            },
+            {
+              "beginTime": 59563,
+              "endTime": 59796,
+              "sentence_id": 6,
+              "word": "战"
+            },
+            {
+              "beginTime": 59796,
+              "endTime": 60029,
+              "sentence_id": 6,
+              "word": "营"
+            },
+            {
+              "beginTime": 60029,
+              "endTime": 60262,
+              "sentence_id": 6,
+              "word": "0，"
+            },
+            {
+              "beginTime": 60526,
+              "endTime": 61052,
+              "sentence_id": 6,
+              "word": "然后"
+            },
+            {
+              "beginTime": 61052,
+              "endTime": 61841,
+              "sentence_id": 6,
+              "word": "转化率，"
+            },
+            {
+              "beginTime": 62107,
+              "endTime": 62709,
+              "sentence_id": 6,
+              "word": "然后"
+            },
+            {
+              "beginTime": 62709,
+              "endTime": 63010,
+              "sentence_id": 6,
+              "word": "L"
+            },
+            {
+              "beginTime": 63010,
+              "endTime": 63311,
+              "sentence_id": 6,
+              "word": "I"
+            },
+            {
+              "beginTime": 63311,
+              "endTime": 64214,
+              "sentence_id": 6,
+              "word": "什么的，"
+            },
+            {
+              "beginTime": 64215,
+              "endTime": 64785,
+              "sentence_id": 6,
+              "word": "然后"
+            },
+            {
+              "beginTime": 64785,
+              "endTime": 65925,
+              "sentence_id": 6,
+              "word": "三天两夜"
+            },
+            {
+              "beginTime": 65925,
+              "endTime": 66210,
+              "sentence_id": 6,
+              "word": "出"
+            },
+            {
+              "beginTime": 66210,
+              "endTime": 66495,
+              "sentence_id": 6,
+              "word": "阶"
+            },
+            {
+              "beginTime": 66495,
+              "endTime": 67065,
+              "sentence_id": 6,
+              "word": "进阶"
+            },
+            {
+              "beginTime": 67065,
+              "endTime": 67635,
+              "sentence_id": 6,
+              "word": "高阶。"
+            }
+          ]
+        },
+        {
+          "beginTime": 67640,
+          "endTime": 71690,
+          "has_verify": true,
+          "id": 7,
+          "paragraph_id": "1768655251632500000",
+          "remark_type": 0,
+          "sentence_id": 7,
+          "text": "大家如果参加过训战营的，可以跟我互动一下，扣个一。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "2b334e2622024d4e8478013a376b66c2",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 67640,
+              "endTime": 68008,
+              "sentence_id": 7,
+              "word": "大家"
+            },
+            {
+              "beginTime": 68008,
+              "endTime": 68376,
+              "sentence_id": 7,
+              "word": "如果"
+            },
+            {
+              "beginTime": 68376,
+              "endTime": 68744,
+              "sentence_id": 7,
+              "word": "参加"
+            },
+            {
+              "beginTime": 68744,
+              "endTime": 68928,
+              "sentence_id": 7,
+              "word": "过"
+            },
+            {
+              "beginTime": 68928,
+              "endTime": 69112,
+              "sentence_id": 7,
+              "word": "训"
+            },
+            {
+              "beginTime": 69112,
+              "endTime": 69296,
+              "sentence_id": 7,
+              "word": "战"
+            },
+            {
+              "beginTime": 69296,
+              "endTime": 69480,
+              "sentence_id": 7,
+              "word": "营"
+            },
+            {
+              "beginTime": 69480,
+              "endTime": 69664,
+              "sentence_id": 7,
+              "word": "的，"
+            },
+            {
+              "beginTime": 69665,
+              "endTime": 70033,
+              "sentence_id": 7,
+              "word": "可以"
+            },
+            {
+              "beginTime": 70033,
+              "endTime": 70217,
+              "sentence_id": 7,
+              "word": "跟"
+            },
+            {
+              "beginTime": 70217,
+              "endTime": 70401,
+              "sentence_id": 7,
+              "word": "我"
+            },
+            {
+              "beginTime": 70401,
+              "endTime": 70769,
+              "sentence_id": 7,
+              "word": "互动"
+            },
+            {
+              "beginTime": 70769,
+              "endTime": 71137,
+              "sentence_id": 7,
+              "word": "一下，"
+            },
+            {
+              "beginTime": 71138,
+              "endTime": 71322,
+              "sentence_id": 7,
+              "word": "扣"
+            },
+            {
+              "beginTime": 71322,
+              "endTime": 71506,
+              "sentence_id": 7,
+              "word": "个"
+            },
+            {
+              "beginTime": 71506,
+              "endTime": 71690,
+              "sentence_id": 7,
+              "word": "一。"
+            }
+          ]
+        },
+        {
+          "beginTime": 71874,
+          "endTime": 72426,
+          "has_verify": true,
+          "id": 8,
+          "paragraph_id": "1768655251632500000",
+          "remark_type": 0,
+          "sentence_id": 8,
+          "text": "我就发。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "cc17a7ccf7574c2c8b19d324bfd56634",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 71874,
+              "endTime": 72058,
+              "sentence_id": 8,
+              "word": "我"
+            },
+            {
+              "beginTime": 72058,
+              "endTime": 72242,
+              "sentence_id": 8,
+              "word": "就"
+            },
+            {
+              "beginTime": 72242,
+              "endTime": 72426,
+              "sentence_id": 8,
+              "word": "发。"
+            }
+          ]
+        },
+        {
+          "beginTime": 72610,
+          "endTime": 79053,
+          "has_verify": true,
+          "id": 9,
+          "paragraph_id": "1768655251632500000",
+          "remark_type": 0,
+          "sentence_id": 9,
+          "text": "参加过训战营或者参加过三天两夜的同学，可以扣一下一，让我看一下有没有熟悉的。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "9ddf07fdee504e6d9d471dc54170eb7c",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 72610,
+              "endTime": 72978,
+              "sentence_id": 9,
+              "word": "参加"
+            },
+            {
+              "beginTime": 72978,
+              "endTime": 73162,
+              "sentence_id": 9,
+              "word": "过"
+            },
+            {
+              "beginTime": 73162,
+              "endTime": 73346,
+              "sentence_id": 9,
+              "word": "训"
+            },
+            {
+              "beginTime": 73346,
+              "endTime": 73530,
+              "sentence_id": 9,
+              "word": "战"
+            },
+            {
+              "beginTime": 73530,
+              "endTime": 73714,
+              "sentence_id": 9,
+              "word": "营"
+            },
+            {
+              "beginTime": 73714,
+              "endTime": 74082,
+              "sentence_id": 9,
+              "word": "或者"
+            },
+            {
+              "beginTime": 74082,
+              "endTime": 74450,
+              "sentence_id": 9,
+              "word": "参加"
+            },
+            {
+              "beginTime": 74450,
+              "endTime": 74634,
+              "sentence_id": 9,
+              "word": "过"
+            },
+            {
+              "beginTime": 74634,
+              "endTime": 75370,
+              "sentence_id": 9,
+              "word": "三天两夜"
+            },
+            {
+              "beginTime": 75370,
+              "endTime": 75554,
+              "sentence_id": 9,
+              "word": "的"
+            },
+            {
+              "beginTime": 75554,
+              "endTime": 75922,
+              "sentence_id": 9,
+              "word": "同学，"
+            },
+            {
+              "beginTime": 75924,
+              "endTime": 76292,
+              "sentence_id": 9,
+              "word": "可以"
+            },
+            {
+              "beginTime": 76292,
+              "endTime": 76476,
+              "sentence_id": 9,
+              "word": "扣"
+            },
+            {
+              "beginTime": 76476,
+              "endTime": 76844,
+              "sentence_id": 9,
+              "word": "一下"
+            },
+            {
+              "beginTime": 76844,
+              "endTime": 77028,
+              "sentence_id": 9,
+              "word": "一，"
+            },
+            {
+              "beginTime": 77029,
+              "endTime": 77213,
+              "sentence_id": 9,
+              "word": "让"
+            },
+            {
+              "beginTime": 77213,
+              "endTime": 77581,
+              "sentence_id": 9,
+              "word": "我看"
+            },
+            {
+              "beginTime": 77581,
+              "endTime": 77949,
+              "sentence_id": 9,
+              "word": "一下"
+            },
+            {
+              "beginTime": 77949,
+              "endTime": 78501,
+              "sentence_id": 9,
+              "word": "有没有"
+            },
+            {
+              "beginTime": 78501,
+              "endTime": 78869,
+              "sentence_id": 9,
+              "word": "熟悉"
+            },
+            {
+              "beginTime": 78869,
+              "endTime": 79053,
+              "sentence_id": 9,
+              "word": "的。"
+            }
+          ]
+        },
+        {
+          "beginTime": 79054,
+          "endTime": 81078,
+          "has_verify": true,
+          "id": 10,
+          "paragraph_id": "1768655251632500000",
+          "remark_type": 0,
+          "sentence_id": 10,
+          "text": "大家那都是见过面的亲人。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "ba28ba0611a640d0b7d57d6536836288",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 79054,
+              "endTime": 79422,
+              "sentence_id": 10,
+              "word": "大家"
+            },
+            {
+              "beginTime": 79422,
+              "endTime": 79606,
+              "sentence_id": 10,
+              "word": "那"
+            },
+            {
+              "beginTime": 79606,
+              "endTime": 79974,
+              "sentence_id": 10,
+              "word": "都是"
+            },
+            {
+              "beginTime": 79974,
+              "endTime": 80526,
+              "sentence_id": 10,
+              "word": "见过面"
+            },
+            {
+              "beginTime": 80526,
+              "endTime": 80710,
+              "sentence_id": 10,
+              "word": "的"
+            },
+            {
+              "beginTime": 80710,
+              "endTime": 81078,
+              "sentence_id": 10,
+              "word": "亲人。"
+            }
+          ]
+        },
+        {
+          "attachments": [
+            {
+              "create_time": "2026-01-17 21:04:50",
+              "ext_type": 5,
+              "file_name": "",
+              "file_size": 0,
+              "file_url": "",
+              "id": 130922,
+              "key_notes": "晚上是盈盈、莫非、花总三位师兄带给我们的开放麦。第一位上场的也就是正在正在说话的是盈盈",
+              "preview_path": "",
+              "realtime_second": 83320,
+              "record_id": 4148886,
+              "status": 1,
+              "uid": 240745,
+              "update_time": "2026-01-17 21:04:50"
+            }
+          ],
+          "beginTime": 82364,
+          "endTime": 84620,
+          "has_verify": true,
+          "id": 11,
+          "paragraph_id": "1768655251632500000",
+          "remark_type": 0,
+          "sentence_id": 11,
+          "text": "这么多。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "0d7ee99ecb3e4033a67555c9008b4d53",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 82364,
+              "endTime": 83492,
+              "sentence_id": 11,
+              "word": "这么"
+            },
+            {
+              "beginTime": 83492,
+              "endTime": 84620,
+              "sentence_id": 11,
+              "word": "多。"
+            }
+          ]
+        },
+        {
+          "beginTime": 86940,
+          "endTime": 89628,
+          "has_verify": true,
+          "id": 12,
+          "paragraph_id": "1768655251632500000",
+          "remark_type": 0,
+          "sentence_id": 12,
+          "text": "好，那你们未来继续多多参加。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "70e97a1f1446434a87b437aeee848951",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 86940,
+              "endTime": 87164,
+              "sentence_id": 12,
+              "word": "好，"
+            },
+            {
+              "beginTime": 87164,
+              "endTime": 87388,
+              "sentence_id": 12,
+              "word": "那"
+            },
+            {
+              "beginTime": 87388,
+              "endTime": 87836,
+              "sentence_id": 12,
+              "word": "你们"
+            },
+            {
+              "beginTime": 87836,
+              "endTime": 88284,
+              "sentence_id": 12,
+              "word": "未来"
+            },
+            {
+              "beginTime": 88284,
+              "endTime": 88732,
+              "sentence_id": 12,
+              "word": "继续"
+            },
+            {
+              "beginTime": 88732,
+              "endTime": 89180,
+              "sentence_id": 12,
+              "word": "多多"
+            },
+            {
+              "beginTime": 89180,
+              "endTime": 89628,
+              "sentence_id": 12,
+              "word": "参加。"
+            }
+          ]
+        },
+        {
+          "beginTime": 89635,
+          "endTime": 100632,
+          "has_verify": true,
+          "id": 13,
+          "paragraph_id": "1768655290167500000",
+          "remark_type": 0,
+          "sentence_id": 13,
+          "text": "然后如果真的已经非常有那个啥，我好像看到好几个助教，像文涛、谭正，都是之前被我邀请来当助教的。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "3e805267a4ef43d9a5671dd3ca7bc5c0",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 89635,
+              "endTime": 90083,
+              "sentence_id": 13,
+              "word": "然后"
+            },
+            {
+              "beginTime": 90083,
+              "endTime": 90531,
+              "sentence_id": 13,
+              "word": "如果"
+            },
+            {
+              "beginTime": 90531,
+              "endTime": 90979,
+              "sentence_id": 13,
+              "word": "真的"
+            },
+            {
+              "beginTime": 90979,
+              "endTime": 91427,
+              "sentence_id": 13,
+              "word": "已经"
+            },
+            {
+              "beginTime": 91427,
+              "endTime": 91875,
+              "sentence_id": 13,
+              "word": "非常"
+            },
+            {
+              "beginTime": 91875,
+              "endTime": 92099,
+              "sentence_id": 13,
+              "word": "有"
+            },
+            {
+              "beginTime": 92099,
+              "endTime": 92547,
+              "sentence_id": 13,
+              "word": "那个"
+            },
+            {
+              "beginTime": 92547,
+              "endTime": 92771,
+              "sentence_id": 13,
+              "word": "啥，"
+            },
+            {
+              "beginTime": 93003,
+              "endTime": 93227,
+              "sentence_id": 13,
+              "word": "我"
+            },
+            {
+              "beginTime": 93227,
+              "endTime": 93675,
+              "sentence_id": 13,
+              "word": "好像"
+            },
+            {
+              "beginTime": 93675,
+              "endTime": 94123,
+              "sentence_id": 13,
+              "word": "看到"
+            },
+            {
+              "beginTime": 94123,
+              "endTime": 94795,
+              "sentence_id": 13,
+              "word": "好几个"
+            },
+            {
+              "beginTime": 94795,
+              "endTime": 95243,
+              "sentence_id": 13,
+              "word": "助教，"
+            },
+            {
+              "beginTime": 95474,
+              "endTime": 95698,
+              "sentence_id": 13,
+              "word": "像"
+            },
+            {
+              "beginTime": 95698,
+              "endTime": 96146,
+              "sentence_id": 13,
+              "word": "文涛、"
+            },
+            {
+              "beginTime": 97046,
+              "endTime": 97270,
+              "sentence_id": 13,
+              "word": "谭"
+            },
+            {
+              "beginTime": 97270,
+              "endTime": 97494,
+              "sentence_id": 13,
+              "word": "正，"
+            },
+            {
+              "beginTime": 97720,
+              "endTime": 98168,
+              "sentence_id": 13,
+              "word": "都是"
+            },
+            {
+              "beginTime": 98168,
+              "endTime": 98616,
+              "sentence_id": 13,
+              "word": "之前"
+            },
+            {
+              "beginTime": 98616,
+              "endTime": 98840,
+              "sentence_id": 13,
+              "word": "被"
+            },
+            {
+              "beginTime": 98840,
+              "endTime": 99064,
+              "sentence_id": 13,
+              "word": "我"
+            },
+            {
+              "beginTime": 99064,
+              "endTime": 99512,
+              "sentence_id": 13,
+              "word": "邀请"
+            },
+            {
+              "beginTime": 99512,
+              "endTime": 99736,
+              "sentence_id": 13,
+              "word": "来"
+            },
+            {
+              "beginTime": 99736,
+              "endTime": 99960,
+              "sentence_id": 13,
+              "word": "当"
+            },
+            {
+              "beginTime": 99960,
+              "endTime": 100408,
+              "sentence_id": 13,
+              "word": "助教"
+            },
+            {
+              "beginTime": 100408,
+              "endTime": 100632,
+              "sentence_id": 13,
+              "word": "的。"
+            }
+          ]
+        },
+        {
+          "beginTime": 100640,
+          "endTime": 110893,
+          "has_verify": true,
+          "id": 14,
+          "paragraph_id": "1768655290167500000",
+          "remark_type": 0,
+          "sentence_id": 14,
+          "text": "然后大家以后也希望越来越多的同学学分修的足够多，然后能够多被我们收集到的落地之夜的这种安利课。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "824d7ffbf9464ca7836a777ae2d55ce9",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 100640,
+              "endTime": 101130,
+              "sentence_id": 14,
+              "word": "然后"
+            },
+            {
+              "beginTime": 101130,
+              "endTime": 101620,
+              "sentence_id": 14,
+              "word": "大家"
+            },
+            {
+              "beginTime": 101620,
+              "endTime": 102110,
+              "sentence_id": 14,
+              "word": "以后"
+            },
+            {
+              "beginTime": 102110,
+              "endTime": 102355,
+              "sentence_id": 14,
+              "word": "也"
+            },
+            {
+              "beginTime": 102355,
+              "endTime": 102845,
+              "sentence_id": 14,
+              "word": "希望"
+            },
+            {
+              "beginTime": 102845,
+              "endTime": 103825,
+              "sentence_id": 14,
+              "word": "越来越多"
+            },
+            {
+              "beginTime": 103825,
+              "endTime": 104070,
+              "sentence_id": 14,
+              "word": "的"
+            },
+            {
+              "beginTime": 104070,
+              "endTime": 104560,
+              "sentence_id": 14,
+              "word": "同学"
+            },
+            {
+              "beginTime": 104560,
+              "endTime": 105050,
+              "sentence_id": 14,
+              "word": "学分"
+            },
+            {
+              "beginTime": 105050,
+              "endTime": 105295,
+              "sentence_id": 14,
+              "word": "修"
+            },
+            {
+              "beginTime": 105295,
+              "endTime": 105540,
+              "sentence_id": 14,
+              "word": "的"
+            },
+            {
+              "beginTime": 105540,
+              "endTime": 106030,
+              "sentence_id": 14,
+              "word": "足够"
+            },
+            {
+              "beginTime": 106030,
+              "endTime": 106275,
+              "sentence_id": 14,
+              "word": "多，"
+            },
+            {
+              "beginTime": 106295,
+              "endTime": 106713,
+              "sentence_id": 14,
+              "word": "然后"
+            },
+            {
+              "beginTime": 106713,
+              "endTime": 107131,
+              "sentence_id": 14,
+              "word": "能够"
+            },
+            {
+              "beginTime": 107131,
+              "endTime": 107340,
+              "sentence_id": 14,
+              "word": "多"
+            },
+            {
+              "beginTime": 107340,
+              "endTime": 107549,
+              "sentence_id": 14,
+              "word": "被"
+            },
+            {
+              "beginTime": 107549,
+              "endTime": 107967,
+              "sentence_id": 14,
+              "word": "我们"
+            },
+            {
+              "beginTime": 107967,
+              "endTime": 108385,
+              "sentence_id": 14,
+              "word": "收集"
+            },
+            {
+              "beginTime": 108385,
+              "endTime": 108594,
+              "sentence_id": 14,
+              "word": "到"
+            },
+            {
+              "beginTime": 108594,
+              "endTime": 108803,
+              "sentence_id": 14,
+              "word": "的"
+            },
+            {
+              "beginTime": 108803,
+              "endTime": 109221,
+              "sentence_id": 14,
+              "word": "落地"
+            },
+            {
+              "beginTime": 109221,
+              "endTime": 109430,
+              "sentence_id": 14,
+              "word": "之"
+            },
+            {
+              "beginTime": 109430,
+              "endTime": 109848,
+              "sentence_id": 14,
+              "word": "夜的"
+            },
+            {
+              "beginTime": 109848,
+              "endTime": 110266,
+              "sentence_id": 14,
+              "word": "这种"
+            },
+            {
+              "beginTime": 110266,
+              "endTime": 110684,
+              "sentence_id": 14,
+              "word": "安利"
+            },
+            {
+              "beginTime": 110684,
+              "endTime": 110893,
+              "sentence_id": 14,
+              "word": "课。"
+            }
+          ]
+        },
+        {
+          "beginTime": 110902,
+          "endTime": 115720,
+          "has_verify": true,
+          "id": 15,
+          "paragraph_id": "1768655290167500000",
+          "remark_type": 0,
+          "sentence_id": 15,
+          "text": "然后来帮我一起在三天两夜帮助的同学去当助教，好吧。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "e2659842fd0e4a8ba61f3489651b9967",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 110902,
+              "endTime": 111320,
+              "sentence_id": 15,
+              "word": "然后"
+            },
+            {
+              "beginTime": 111320,
+              "endTime": 111529,
+              "sentence_id": 15,
+              "word": "来"
+            },
+            {
+              "beginTime": 111529,
+              "endTime": 111738,
+              "sentence_id": 15,
+              "word": "帮"
+            },
+            {
+              "beginTime": 111738,
+              "endTime": 111947,
+              "sentence_id": 15,
+              "word": "我"
+            },
+            {
+              "beginTime": 111947,
+              "endTime": 112365,
+              "sentence_id": 15,
+              "word": "一起"
+            },
+            {
+              "beginTime": 112365,
+              "endTime": 112574,
+              "sentence_id": 15,
+              "word": "在"
+            },
+            {
+              "beginTime": 112574,
+              "endTime": 113410,
+              "sentence_id": 15,
+              "word": "三天两夜"
+            },
+            {
+              "beginTime": 113410,
+              "endTime": 113828,
+              "sentence_id": 15,
+              "word": "帮助"
+            },
+            {
+              "beginTime": 113828,
+              "endTime": 114037,
+              "sentence_id": 15,
+              "word": "的"
+            },
+            {
+              "beginTime": 114037,
+              "endTime": 114455,
+              "sentence_id": 15,
+              "word": "同学"
+            },
+            {
+              "beginTime": 114455,
+              "endTime": 114664,
+              "sentence_id": 15,
+              "word": "去"
+            },
+            {
+              "beginTime": 114664,
+              "endTime": 114873,
+              "sentence_id": 15,
+              "word": "当"
+            },
+            {
+              "beginTime": 114873,
+              "endTime": 115291,
+              "sentence_id": 15,
+              "word": "助教，"
+            },
+            {
+              "beginTime": 115301,
+              "endTime": 115720,
+              "sentence_id": 15,
+              "word": "好吧。"
+            }
+          ]
+        },
+        {
+          "beginTime": 117740,
+          "endTime": 123854,
+          "has_verify": true,
+          "id": 16,
+          "paragraph_id": "1768655318272500000",
+          "remark_type": 0,
+          "sentence_id": 16,
+          "text": "我其实在T教学这个上面其实有四个阶段的过程。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "ab4036b7fdfe46769bbada7c3b5a50f1",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 117740,
+              "endTime": 118274,
+              "sentence_id": 16,
+              "word": "我"
+            },
+            {
+              "beginTime": 118274,
+              "endTime": 118832,
+              "sentence_id": 16,
+              "word": "其实"
+            },
+            {
+              "beginTime": 118832,
+              "endTime": 119111,
+              "sentence_id": 16,
+              "word": "在"
+            },
+            {
+              "beginTime": 119111,
+              "endTime": 119390,
+              "sentence_id": 16,
+              "word": "T"
+            },
+            {
+              "beginTime": 119390,
+              "endTime": 119948,
+              "sentence_id": 16,
+              "word": "教学"
+            },
+            {
+              "beginTime": 119948,
+              "endTime": 120506,
+              "sentence_id": 16,
+              "word": "这个"
+            },
+            {
+              "beginTime": 120506,
+              "endTime": 121064,
+              "sentence_id": 16,
+              "word": "上面"
+            },
+            {
+              "beginTime": 121064,
+              "endTime": 121622,
+              "sentence_id": 16,
+              "word": "其实"
+            },
+            {
+              "beginTime": 121622,
+              "endTime": 121901,
+              "sentence_id": 16,
+              "word": "有"
+            },
+            {
+              "beginTime": 121901,
+              "endTime": 122459,
+              "sentence_id": 16,
+              "word": "四个"
+            },
+            {
+              "beginTime": 122459,
+              "endTime": 123017,
+              "sentence_id": 16,
+              "word": "阶段"
+            },
+            {
+              "beginTime": 123017,
+              "endTime": 123296,
+              "sentence_id": 16,
+              "word": "的"
+            },
+            {
+              "beginTime": 123296,
+              "endTime": 123854,
+              "sentence_id": 16,
+              "word": "过程。"
+            }
+          ]
+        },
+        {
+          "beginTime": 123862,
+          "endTime": 133464,
+          "has_verify": true,
+          "id": 17,
+          "paragraph_id": "1768655318272500000",
+          "remark_type": 0,
+          "sentence_id": 17,
+          "text": "但是又跟我的主页其实是混在一起的，所以为了防止大家迷路，所以我给大家画了一个路径图。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "c7c653bf4b4548bea870f92419ab073d",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 123862,
+              "endTime": 124404,
+              "sentence_id": 17,
+              "word": "但是"
+            },
+            {
+              "beginTime": 124404,
+              "endTime": 124675,
+              "sentence_id": 17,
+              "word": "又"
+            },
+            {
+              "beginTime": 124675,
+              "endTime": 124946,
+              "sentence_id": 17,
+              "word": "跟"
+            },
+            {
+              "beginTime": 124946,
+              "endTime": 125488,
+              "sentence_id": 17,
+              "word": "我的"
+            },
+            {
+              "beginTime": 125488,
+              "endTime": 126030,
+              "sentence_id": 17,
+              "word": "主页"
+            },
+            {
+              "beginTime": 126030,
+              "endTime": 126572,
+              "sentence_id": 17,
+              "word": "其实"
+            },
+            {
+              "beginTime": 126572,
+              "endTime": 126843,
+              "sentence_id": 17,
+              "word": "是"
+            },
+            {
+              "beginTime": 126843,
+              "endTime": 127114,
+              "sentence_id": 17,
+              "word": "混"
+            },
+            {
+              "beginTime": 127114,
+              "endTime": 127927,
+              "sentence_id": 17,
+              "word": "在一起"
+            },
+            {
+              "beginTime": 127927,
+              "endTime": 128198,
+              "sentence_id": 17,
+              "word": "的，"
+            },
+            {
+              "beginTime": 128200,
+              "endTime": 128638,
+              "sentence_id": 17,
+              "word": "所以"
+            },
+            {
+              "beginTime": 128638,
+              "endTime": 129076,
+              "sentence_id": 17,
+              "word": "为了"
+            },
+            {
+              "beginTime": 129076,
+              "endTime": 129514,
+              "sentence_id": 17,
+              "word": "防止"
+            },
+            {
+              "beginTime": 129514,
+              "endTime": 129952,
+              "sentence_id": 17,
+              "word": "大家"
+            },
+            {
+              "beginTime": 129952,
+              "endTime": 130390,
+              "sentence_id": 17,
+              "word": "迷路，"
+            },
+            {
+              "beginTime": 130617,
+              "endTime": 131055,
+              "sentence_id": 17,
+              "word": "所以"
+            },
+            {
+              "beginTime": 131055,
+              "endTime": 131274,
+              "sentence_id": 17,
+              "word": "我"
+            },
+            {
+              "beginTime": 131274,
+              "endTime": 131493,
+              "sentence_id": 17,
+              "word": "给"
+            },
+            {
+              "beginTime": 131493,
+              "endTime": 131931,
+              "sentence_id": 17,
+              "word": "大家"
+            },
+            {
+              "beginTime": 131931,
+              "endTime": 132150,
+              "sentence_id": 17,
+              "word": "画"
+            },
+            {
+              "beginTime": 132150,
+              "endTime": 132369,
+              "sentence_id": 17,
+              "word": "了"
+            },
+            {
+              "beginTime": 132369,
+              "endTime": 132807,
+              "sentence_id": 17,
+              "word": "一个"
+            },
+            {
+              "beginTime": 132807,
+              "endTime": 133245,
+              "sentence_id": 17,
+              "word": "路径"
+            },
+            {
+              "beginTime": 133245,
+              "endTime": 133464,
+              "sentence_id": 17,
+              "word": "图。"
+            }
+          ]
+        },
+        {
+          "attachments": [
+            {
+              "create_time": "2026-01-17 21:05:43",
+              "ext_type": 1,
+              "file_name": "1768655129980.jpg",
+              "file_size": 164.22,
+              "file_url": "https://oss.itingnao.com/tmp/9c38054a379e-4cc4-8509-79e0f07e5984.jpg",
+              "id": 130923,
+              "key_notes": "",
+              "preview_path": "https://oss.itingnao.com/tmp/9c38054a379e-4cc4-8509-79e0f07e5984.jpg",
+              "realtime_second": 135720,
+              "record_id": 4148886,
+              "status": 1,
+              "uid": 240745,
+              "update_time": "2026-01-17 21:05:43"
+            }
+          ],
+          "beginTime": 133474,
+          "endTime": 138522,
+          "has_verify": true,
+          "id": 18,
+          "paragraph_id": "1768655318272500000",
+          "remark_type": 0,
+          "sentence_id": 18,
+          "text": "所以整个工作经历和教学经历，我给他分成两条曲线。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "c8232bfa0a244e698f9bf7d756dbd705",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 133474,
+              "endTime": 133912,
+              "sentence_id": 18,
+              "word": "所以"
+            },
+            {
+              "beginTime": 133912,
+              "endTime": 134350,
+              "sentence_id": 18,
+              "word": "整个"
+            },
+            {
+              "beginTime": 134350,
+              "endTime": 134788,
+              "sentence_id": 18,
+              "word": "工作"
+            },
+            {
+              "beginTime": 134788,
+              "endTime": 135226,
+              "sentence_id": 18,
+              "word": "经历"
+            },
+            {
+              "beginTime": 135226,
+              "endTime": 135445,
+              "sentence_id": 18,
+              "word": "和"
+            },
+            {
+              "beginTime": 135445,
+              "endTime": 135883,
+              "sentence_id": 18,
+              "word": "教学"
+            },
+            {
+              "beginTime": 135883,
+              "endTime": 136321,
+              "sentence_id": 18,
+              "word": "经历，"
+            },
+            {
+              "beginTime": 136551,
+              "endTime": 136770,
+              "sentence_id": 18,
+              "word": "我"
+            },
+            {
+              "beginTime": 136770,
+              "endTime": 137208,
+              "sentence_id": 18,
+              "word": "给他"
+            },
+            {
+              "beginTime": 137208,
+              "endTime": 137646,
+              "sentence_id": 18,
+              "word": "分成"
+            },
+            {
+              "beginTime": 137646,
+              "endTime": 138084,
+              "sentence_id": 18,
+              "word": "两条"
+            },
+            {
+              "beginTime": 138084,
+              "endTime": 138522,
+              "sentence_id": 18,
+              "word": "曲线。"
+            }
+          ]
+        },
+        {
+          "beginTime": 138528,
+          "endTime": 141156,
+          "has_verify": true,
+          "id": 19,
+          "paragraph_id": "1768655318272500000",
+          "remark_type": 0,
+          "sentence_id": 19,
+          "text": "以下的是我的职业的主路径。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "66625881b4b14602825a1fe6ac6d4ab4",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 138528,
+              "endTime": 138966,
+              "sentence_id": 19,
+              "word": "以下"
+            },
+            {
+              "beginTime": 138966,
+              "endTime": 139185,
+              "sentence_id": 19,
+              "word": "的"
+            },
+            {
+              "beginTime": 139185,
+              "endTime": 139842,
+              "sentence_id": 19,
+              "word": "是我的"
+            },
+            {
+              "beginTime": 139842,
+              "endTime": 140280,
+              "sentence_id": 19,
+              "word": "职业"
+            },
+            {
+              "beginTime": 140280,
+              "endTime": 140499,
+              "sentence_id": 19,
+              "word": "的"
+            },
+            {
+              "beginTime": 140499,
+              "endTime": 140718,
+              "sentence_id": 19,
+              "word": "主"
+            },
+            {
+              "beginTime": 140718,
+              "endTime": 141156,
+              "sentence_id": 19,
+              "word": "路径。"
+            }
+          ]
+        },
+        {
+          "beginTime": 141166,
+          "endTime": 146880,
+          "has_verify": true,
+          "id": 20,
+          "paragraph_id": "1768655318272500000",
+          "remark_type": 0,
+          "sentence_id": 20,
+          "text": "然后从21年到19年一直在安踏集团从管理预算管理当中。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "98b96d9878be4accaba2554c696fd521",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 141166,
+              "endTime": 141604,
+              "sentence_id": 20,
+              "word": "然后"
+            },
+            {
+              "beginTime": 141604,
+              "endTime": 141823,
+              "sentence_id": 20,
+              "word": "从"
+            },
+            {
+              "beginTime": 141823,
+              "endTime": 143356,
+              "sentence_id": 20,
+              "word": "21年到19年"
+            },
+            {
+              "beginTime": 143356,
+              "endTime": 143794,
+              "sentence_id": 20,
+              "word": "一直"
+            },
+            {
+              "beginTime": 143794,
+              "endTime": 144013,
+              "sentence_id": 20,
+              "word": "在"
+            },
+            {
+              "beginTime": 144013,
+              "endTime": 144451,
+              "sentence_id": 20,
+              "word": "安踏"
+            },
+            {
+              "beginTime": 144451,
+              "endTime": 144889,
+              "sentence_id": 20,
+              "word": "集团"
+            },
+            {
+              "beginTime": 144889,
+              "endTime": 145108,
+              "sentence_id": 20,
+              "word": "从"
+            },
+            {
+              "beginTime": 145108,
+              "endTime": 145546,
+              "sentence_id": 20,
+              "word": "管理"
+            },
+            {
+              "beginTime": 145546,
+              "endTime": 145984,
+              "sentence_id": 20,
+              "word": "预算"
+            },
+            {
+              "beginTime": 145984,
+              "endTime": 146422,
+              "sentence_id": 20,
+              "word": "管理"
+            },
+            {
+              "beginTime": 146422,
+              "endTime": 146880,
+              "sentence_id": 20,
+              "word": "当中。"
+            }
+          ]
+        }
+      ],
+      "count": 20,
+      "status": {
+        "value": 1,
+        "text": "转写完成",
+        "done": true
+      }
+    },
+    "meetingSummary": {
+      "content": "## 📌基本信息\n\n- **主题**:一堂教育创新领域分享\n- **时间**:2026-01-17 21:03:27\n- **分享人员**:发言人1\n\n---\n\n## 一、分享背景与目的\n\n本次分享主要介绍了发言人1的跨行业职业经历，从财务专业跨行至教育创新领域，以及其在**一堂**负责线下训练产品的相关情况，同时提及线下训战营和助教团队等内容。\n\n---\n\n## 二、📝分享内容\n\n### 1. 个人职业背景\n\n- 专业背景为财务，之后跨行至新能源、咨询行业，最终进入教育创新领域。\n- 通过科技练习，掌握了产品设计、课程开发及业务管理等核心能力。\n- 负责**一堂**大部分线下训练产品。\n\n### 2. 线下训战营相关情况\n\n- 展示了线下训战营主题照片，包括基本功训战营、教练领导力训战营、转化率相关训战营等。\n- 训战营有三天两夜的出阶、进阶、高阶等不同阶段。\n- 邀请参加过训战营或三天两夜活动的同学互动，看到许多熟悉的“亲人”。\n\n### 3. 助教团队与学员发展\n\n- 现场看到文涛、谭正等之前邀请的助教。\n- 希望学分修得足够多的同学，能被收集到落地之夜的安利课，进而成为助教，在三天两夜帮助其他同学。\n\n### 4. 教学与职业路径规划\n\n- 在T教学上有四个阶段的过程，且与主业混在一起。\n- 为防止听众迷路，绘制了路径图，将工作经历和教学经历分为两条曲线，职业主路径为2019年至2021年一直在安踏集团从事管理预算管理工作。",
+      "status": {
+        "value": 2,
+        "text": "纪要已生成",
+        "done": true
+      }
+    },
+    "raw": {
+      "id": 4148886,
+      "user_id": 240745,
+      "name": "一堂-线下训战营介绍",
+      "name_status": 0,
+      "ws_url": "wss://tingwu-realtime-cn-beijing.aliyuncs.com/api/ws/v1?mc=MxnKQulcdw1P7x3iSqjneUeJY4fHxjw8f5aAtDPfJXycYwLgOpMB54M1K8bGVzACUtJZfpJ6-O62JrcgLeDPcou2G3AKcGP9Qp0Q-98ekqjgWaYk2IfgFxg2uMosOhdV",
+      "style": 2,
+      "file_path": "https://tnoss.itingnao.com/tmp/240745_4148886/w1sf43zxpuqukhd5vcli34v5zc5kuwxx.mp3?auth_key=1781417603-euekky8mrzarvamxqslungzrnzxqsc9z-0-612306014ebe887c61fea1caf8fa84df",
+      "prepare_path": "tmp/240745_4148886/w1sf43zxpuqukhd5vcli34v5zc5kuwxx.mp3",
+      "pcm_to_mp3_status": 3,
+      "pcm_to_mp3_message": "",
+      "file_long": "2:27",
+      "file_duration": 147000,
+      "file_source_type": 2,
+      "text_polish": null,
+      "text_polish_status": 0,
+      "mind_map_summary": [
+        {
+          "Title": "💡 个人背景与职业经历",
+          "Topic": [
+            {
+              "Title": "专业与行业跨界",
+              "Topic": [
+                {
+                  "Title": "从财务专业跨行至新能源、咨询行业，现从事教育创新领域",
+                  "Topic": []
+                }
+              ]
+            },
+            {
+              "Title": "核心能力",
+              "Topic": [
+                {
+                  "Title": "掌握产品设计、课程开发及业务管理等核心能力",
+                  "Topic": []
+                }
+              ]
+            },
+            {
+              "Title": "职业主路径",
+              "Topic": [
+                {
+                  "Title": "2019年至2021年在安踏集团从事管理预算管理工作",
+                  "Topic": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Title": "📊 线下训战营相关信息",
+          "Topic": [
+            {
+              "Title": "训战营主题",
+              "Topic": [
+                {
+                  "Title": "包括基本功、教练式领导力、转化率等主题",
+                  "Topic": []
+                }
+              ]
+            },
+            {
+              "Title": "训战营形式",
+              "Topic": [
+                {
+                  "Title": "设有出阶、进阶、高阶，采用三天两夜的形式",
+                  "Topic": []
+                }
+              ]
+            },
+            {
+              "Title": "助教团队",
+              "Topic": [
+                {
+                  "Title": "有助教参与，如文涛、谭正等，邀请学分足够的同学担任助教",
+                  "Topic": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Title": "📝 教学经历规划",
+          "Topic": [
+            {
+              "Title": "教学阶段划分",
+              "Topic": [
+                {
+                  "Title": "教学经历分为四个阶段，与主业混在一起，绘制路径图区分职业与教学曲线",
+                  "Topic": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "mind_map_summary_status": 1,
+      "key_sentences": [],
+      "key_sentences_status": 10,
+      "data": [
+        {
+          "beginTime": 0,
+          "endTime": 10871,
+          "has_verify": true,
+          "id": 1,
+          "paragraph_id": "1768655200532500000",
+          "remark_type": 0,
+          "sentence_id": 1,
+          "text": "其实是从大家应该听过我的履历也知道我是从财务专业，然后一路跨行什么新能源、咨询行业，一路跨行跨到了一个一行。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "f899b858627143019b6ba4dbf0127b0f",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 0,
+              "endTime": 418,
+              "sentence_id": 1,
+              "word": "其实"
+            },
+            {
+              "beginTime": 418,
+              "endTime": 836,
+              "sentence_id": 1,
+              "word": "是从"
+            },
+            {
+              "beginTime": 836,
+              "endTime": 1254,
+              "sentence_id": 1,
+              "word": "大家"
+            },
+            {
+              "beginTime": 1254,
+              "endTime": 1672,
+              "sentence_id": 1,
+              "word": "应该"
+            },
+            {
+              "beginTime": 1672,
+              "endTime": 1881,
+              "sentence_id": 1,
+              "word": "听"
+            },
+            {
+              "beginTime": 1881,
+              "endTime": 2090,
+              "sentence_id": 1,
+              "word": "过"
+            },
+            {
+              "beginTime": 2090,
+              "endTime": 2508,
+              "sentence_id": 1,
+              "word": "我的"
+            },
+            {
+              "beginTime": 2508,
+              "endTime": 2926,
+              "sentence_id": 1,
+              "word": "履历"
+            },
+            {
+              "beginTime": 2926,
+              "endTime": 3135,
+              "sentence_id": 1,
+              "word": "也"
+            },
+            {
+              "beginTime": 3135,
+              "endTime": 3553,
+              "sentence_id": 1,
+              "word": "知道"
+            },
+            {
+              "beginTime": 3553,
+              "endTime": 3762,
+              "sentence_id": 1,
+              "word": "我"
+            },
+            {
+              "beginTime": 3762,
+              "endTime": 4180,
+              "sentence_id": 1,
+              "word": "是从"
+            },
+            {
+              "beginTime": 4180,
+              "endTime": 4598,
+              "sentence_id": 1,
+              "word": "财务"
+            },
+            {
+              "beginTime": 4598,
+              "endTime": 5016,
+              "sentence_id": 1,
+              "word": "专业，"
+            },
+            {
+              "beginTime": 5018,
+              "endTime": 5436,
+              "sentence_id": 1,
+              "word": "然后"
+            },
+            {
+              "beginTime": 5436,
+              "endTime": 5854,
+              "sentence_id": 1,
+              "word": "一路"
+            },
+            {
+              "beginTime": 5854,
+              "endTime": 6272,
+              "sentence_id": 1,
+              "word": "跨行"
+            },
+            {
+              "beginTime": 6272,
+              "endTime": 6690,
+              "sentence_id": 1,
+              "word": "什么"
+            },
+            {
+              "beginTime": 6690,
+              "endTime": 7317,
+              "sentence_id": 1,
+              "word": "新能源、"
+            },
+            {
+              "beginTime": 7527,
+              "endTime": 7945,
+              "sentence_id": 1,
+              "word": "咨询"
+            },
+            {
+              "beginTime": 7945,
+              "endTime": 8363,
+              "sentence_id": 1,
+              "word": "行业，"
+            },
+            {
+              "beginTime": 8572,
+              "endTime": 8990,
+              "sentence_id": 1,
+              "word": "一路"
+            },
+            {
+              "beginTime": 8990,
+              "endTime": 9408,
+              "sentence_id": 1,
+              "word": "跨行"
+            },
+            {
+              "beginTime": 9408,
+              "endTime": 9617,
+              "sentence_id": 1,
+              "word": "跨"
+            },
+            {
+              "beginTime": 9617,
+              "endTime": 10035,
+              "sentence_id": 1,
+              "word": "到了"
+            },
+            {
+              "beginTime": 10035,
+              "endTime": 10453,
+              "sentence_id": 1,
+              "word": "一个"
+            },
+            {
+              "beginTime": 10453,
+              "endTime": 10871,
+              "sentence_id": 1,
+              "word": "一行。"
+            }
+          ]
+        },
+        {
+          "beginTime": 10872,
+          "endTime": 22664,
+          "has_verify": true,
+          "id": 2,
+          "paragraph_id": "1768655200532500000",
+          "remark_type": 0,
+          "sentence_id": 2,
+          "text": "现在这个属于教育创新的领域，然后也是通过科技练习，掌握了产品的设计课程开发，还做了一些业务管理等等核心能力。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "bce346b1ebe249859e32f2e50a0b5231",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 10872,
+              "endTime": 11290,
+              "sentence_id": 2,
+              "word": "现在"
+            },
+            {
+              "beginTime": 11290,
+              "endTime": 11708,
+              "sentence_id": 2,
+              "word": "这个"
+            },
+            {
+              "beginTime": 11708,
+              "endTime": 12126,
+              "sentence_id": 2,
+              "word": "属于"
+            },
+            {
+              "beginTime": 12126,
+              "endTime": 12544,
+              "sentence_id": 2,
+              "word": "教育"
+            },
+            {
+              "beginTime": 12544,
+              "endTime": 12962,
+              "sentence_id": 2,
+              "word": "创新"
+            },
+            {
+              "beginTime": 12962,
+              "endTime": 13171,
+              "sentence_id": 2,
+              "word": "的"
+            },
+            {
+              "beginTime": 13171,
+              "endTime": 13589,
+              "sentence_id": 2,
+              "word": "领域，"
+            },
+            {
+              "beginTime": 13800,
+              "endTime": 14266,
+              "sentence_id": 2,
+              "word": "然后"
+            },
+            {
+              "beginTime": 14266,
+              "endTime": 14732,
+              "sentence_id": 2,
+              "word": "也是"
+            },
+            {
+              "beginTime": 14732,
+              "endTime": 15198,
+              "sentence_id": 2,
+              "word": "通过"
+            },
+            {
+              "beginTime": 15198,
+              "endTime": 15664,
+              "sentence_id": 2,
+              "word": "科技"
+            },
+            {
+              "beginTime": 15664,
+              "endTime": 16130,
+              "sentence_id": 2,
+              "word": "练习，"
+            },
+            {
+              "beginTime": 16367,
+              "endTime": 16833,
+              "sentence_id": 2,
+              "word": "掌握"
+            },
+            {
+              "beginTime": 16833,
+              "endTime": 17066,
+              "sentence_id": 2,
+              "word": "了"
+            },
+            {
+              "beginTime": 17066,
+              "endTime": 17532,
+              "sentence_id": 2,
+              "word": "产品"
+            },
+            {
+              "beginTime": 17532,
+              "endTime": 17765,
+              "sentence_id": 2,
+              "word": "的"
+            },
+            {
+              "beginTime": 17765,
+              "endTime": 18231,
+              "sentence_id": 2,
+              "word": "设计"
+            },
+            {
+              "beginTime": 18231,
+              "endTime": 18697,
+              "sentence_id": 2,
+              "word": "课程"
+            },
+            {
+              "beginTime": 18697,
+              "endTime": 19163,
+              "sentence_id": 2,
+              "word": "开发，"
+            },
+            {
+              "beginTime": 19169,
+              "endTime": 19402,
+              "sentence_id": 2,
+              "word": "还"
+            },
+            {
+              "beginTime": 19402,
+              "endTime": 19868,
+              "sentence_id": 2,
+              "word": "做了"
+            },
+            {
+              "beginTime": 19868,
+              "endTime": 20334,
+              "sentence_id": 2,
+              "word": "一些"
+            },
+            {
+              "beginTime": 20334,
+              "endTime": 21266,
+              "sentence_id": 2,
+              "word": "业务管理"
+            },
+            {
+              "beginTime": 21266,
+              "endTime": 21732,
+              "sentence_id": 2,
+              "word": "等等"
+            },
+            {
+              "beginTime": 21732,
+              "endTime": 22664,
+              "sentence_id": 2,
+              "word": "核心能力。"
+            }
+          ]
+        },
+        {
+          "beginTime": 22670,
+          "endTime": 29952,
+          "has_verify": true,
+          "id": 3,
+          "paragraph_id": "1768655200532500000",
+          "remark_type": 0,
+          "sentence_id": 3,
+          "text": "所以每次比如说马拉松上场，中文就会说我这个什么，他就说我是什么赢。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "8100405ea0f24c109f953d964658928a",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 22670,
+              "endTime": 23136,
+              "sentence_id": 3,
+              "word": "所以"
+            },
+            {
+              "beginTime": 23136,
+              "endTime": 23602,
+              "sentence_id": 3,
+              "word": "每次"
+            },
+            {
+              "beginTime": 23602,
+              "endTime": 24301,
+              "sentence_id": 3,
+              "word": "比如说"
+            },
+            {
+              "beginTime": 24301,
+              "endTime": 25000,
+              "sentence_id": 3,
+              "word": "马拉松"
+            },
+            {
+              "beginTime": 25000,
+              "endTime": 25466,
+              "sentence_id": 3,
+              "word": "上场，"
+            },
+            {
+              "beginTime": 25472,
+              "endTime": 25938,
+              "sentence_id": 3,
+              "word": "中文"
+            },
+            {
+              "beginTime": 25938,
+              "endTime": 26171,
+              "sentence_id": 3,
+              "word": "就"
+            },
+            {
+              "beginTime": 26171,
+              "endTime": 26637,
+              "sentence_id": 3,
+              "word": "会说"
+            },
+            {
+              "beginTime": 26637,
+              "endTime": 26870,
+              "sentence_id": 3,
+              "word": "我"
+            },
+            {
+              "beginTime": 26870,
+              "endTime": 27336,
+              "sentence_id": 3,
+              "word": "这个"
+            },
+            {
+              "beginTime": 27336,
+              "endTime": 27802,
+              "sentence_id": 3,
+              "word": "什么，"
+            },
+            {
+              "beginTime": 28120,
+              "endTime": 28349,
+              "sentence_id": 3,
+              "word": "他"
+            },
+            {
+              "beginTime": 28349,
+              "endTime": 28807,
+              "sentence_id": 3,
+              "word": "就说"
+            },
+            {
+              "beginTime": 28807,
+              "endTime": 29723,
+              "sentence_id": 3,
+              "word": "我是什么"
+            },
+            {
+              "beginTime": 29723,
+              "endTime": 29952,
+              "sentence_id": 3,
+              "word": "赢。"
+            }
+          ]
+        },
+        {
+          "beginTime": 29954,
+          "endTime": 34307,
+          "has_verify": true,
+          "id": 4,
+          "paragraph_id": "1768655200532500000",
+          "remark_type": 0,
+          "sentence_id": 4,
+          "text": "在线下就只要大家来一堂，来线下就能看到我。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "042ab1d5329541acbd649da5a5272baa",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 29954,
+              "endTime": 30412,
+              "sentence_id": 4,
+              "word": "在线"
+            },
+            {
+              "beginTime": 30412,
+              "endTime": 30641,
+              "sentence_id": 4,
+              "word": "下"
+            },
+            {
+              "beginTime": 30641,
+              "endTime": 30870,
+              "sentence_id": 4,
+              "word": "就"
+            },
+            {
+              "beginTime": 30870,
+              "endTime": 31328,
+              "sentence_id": 4,
+              "word": "只要"
+            },
+            {
+              "beginTime": 31328,
+              "endTime": 31786,
+              "sentence_id": 4,
+              "word": "大家"
+            },
+            {
+              "beginTime": 31786,
+              "endTime": 32015,
+              "sentence_id": 4,
+              "word": "来"
+            },
+            {
+              "beginTime": 32015,
+              "endTime": 32473,
+              "sentence_id": 4,
+              "word": "一堂，"
+            },
+            {
+              "beginTime": 32475,
+              "endTime": 32704,
+              "sentence_id": 4,
+              "word": "来"
+            },
+            {
+              "beginTime": 32704,
+              "endTime": 33162,
+              "sentence_id": 4,
+              "word": "线下"
+            },
+            {
+              "beginTime": 33162,
+              "endTime": 33620,
+              "sentence_id": 4,
+              "word": "就能"
+            },
+            {
+              "beginTime": 33620,
+              "endTime": 34078,
+              "sentence_id": 4,
+              "word": "看到"
+            },
+            {
+              "beginTime": 34078,
+              "endTime": 34307,
+              "sentence_id": 4,
+              "word": "我。"
+            }
+          ]
+        },
+        {
+          "beginTime": 34310,
+          "endTime": 48700,
+          "has_verify": true,
+          "id": 5,
+          "paragraph_id": "1768655200532500000",
+          "remark_type": 0,
+          "sentence_id": 5,
+          "text": "对，因为我是负责一堂大部分的线下训练产品背后的女人的对，然后这个是我们发我是觉得这张照片当时拍的挺好看的，所以我就放上来。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "daba4d3ce2614370bb8fd28db864cf0b",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 34310,
+              "endTime": 34539,
+              "sentence_id": 5,
+              "word": "对，"
+            },
+            {
+              "beginTime": 34539,
+              "endTime": 35337,
+              "sentence_id": 5,
+              "word": "因为我"
+            },
+            {
+              "beginTime": 35337,
+              "endTime": 35603,
+              "sentence_id": 5,
+              "word": "是"
+            },
+            {
+              "beginTime": 35603,
+              "endTime": 36135,
+              "sentence_id": 5,
+              "word": "负责"
+            },
+            {
+              "beginTime": 36135,
+              "endTime": 36667,
+              "sentence_id": 5,
+              "word": "一堂"
+            },
+            {
+              "beginTime": 36667,
+              "endTime": 37465,
+              "sentence_id": 5,
+              "word": "大部分"
+            },
+            {
+              "beginTime": 37465,
+              "endTime": 37731,
+              "sentence_id": 5,
+              "word": "的"
+            },
+            {
+              "beginTime": 37731,
+              "endTime": 38263,
+              "sentence_id": 5,
+              "word": "线下"
+            },
+            {
+              "beginTime": 38263,
+              "endTime": 38795,
+              "sentence_id": 5,
+              "word": "训练"
+            },
+            {
+              "beginTime": 38795,
+              "endTime": 39327,
+              "sentence_id": 5,
+              "word": "产品"
+            },
+            {
+              "beginTime": 39327,
+              "endTime": 40657,
+              "sentence_id": 5,
+              "word": "背后的女人"
+            },
+            {
+              "beginTime": 40657,
+              "endTime": 41189,
+              "sentence_id": 5,
+              "word": "的对，"
+            },
+            {
+              "beginTime": 41213,
+              "endTime": 41699,
+              "sentence_id": 5,
+              "word": "然后"
+            },
+            {
+              "beginTime": 41699,
+              "endTime": 42185,
+              "sentence_id": 5,
+              "word": "这个"
+            },
+            {
+              "beginTime": 42185,
+              "endTime": 42428,
+              "sentence_id": 5,
+              "word": "是"
+            },
+            {
+              "beginTime": 42428,
+              "endTime": 42914,
+              "sentence_id": 5,
+              "word": "我们"
+            },
+            {
+              "beginTime": 42914,
+              "endTime": 43157,
+              "sentence_id": 5,
+              "word": "发"
+            },
+            {
+              "beginTime": 43157,
+              "endTime": 43643,
+              "sentence_id": 5,
+              "word": "我是"
+            },
+            {
+              "beginTime": 43643,
+              "endTime": 44129,
+              "sentence_id": 5,
+              "word": "觉得"
+            },
+            {
+              "beginTime": 44129,
+              "endTime": 44372,
+              "sentence_id": 5,
+              "word": "这"
+            },
+            {
+              "beginTime": 44372,
+              "endTime": 44615,
+              "sentence_id": 5,
+              "word": "张"
+            },
+            {
+              "beginTime": 44615,
+              "endTime": 45101,
+              "sentence_id": 5,
+              "word": "照片"
+            },
+            {
+              "beginTime": 45101,
+              "endTime": 45587,
+              "sentence_id": 5,
+              "word": "当时"
+            },
+            {
+              "beginTime": 45587,
+              "endTime": 45830,
+              "sentence_id": 5,
+              "word": "拍"
+            },
+            {
+              "beginTime": 45830,
+              "endTime": 46073,
+              "sentence_id": 5,
+              "word": "的"
+            },
+            {
+              "beginTime": 46073,
+              "endTime": 46316,
+              "sentence_id": 5,
+              "word": "挺"
+            },
+            {
+              "beginTime": 46316,
+              "endTime": 46802,
+              "sentence_id": 5,
+              "word": "好看"
+            },
+            {
+              "beginTime": 46802,
+              "endTime": 47045,
+              "sentence_id": 5,
+              "word": "的，"
+            },
+            {
+              "beginTime": 47062,
+              "endTime": 47530,
+              "sentence_id": 5,
+              "word": "所以"
+            },
+            {
+              "beginTime": 47530,
+              "endTime": 47764,
+              "sentence_id": 5,
+              "word": "我"
+            },
+            {
+              "beginTime": 47764,
+              "endTime": 47998,
+              "sentence_id": 5,
+              "word": "就"
+            },
+            {
+              "beginTime": 47998,
+              "endTime": 48700,
+              "sentence_id": 5,
+              "word": "放上来。"
+            }
+          ]
+        },
+        {
+          "beginTime": 51100,
+          "endTime": 67635,
+          "has_verify": true,
+          "id": 6,
+          "paragraph_id": "1768655251632500000",
+          "remark_type": 0,
+          "sentence_id": 6,
+          "text": "透美一下，然后这些是我们线下宣战营的主题的一些照片，很基本功训战营，教练是领导力，训战营0，然后转化率，然后LI什么的，然后三天两夜出阶进阶高阶。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "4612f6edf10647e9801b80028c427884",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 51100,
+              "endTime": 51316,
+              "sentence_id": 6,
+              "word": "透"
+            },
+            {
+              "beginTime": 51316,
+              "endTime": 51532,
+              "sentence_id": 6,
+              "word": "美"
+            },
+            {
+              "beginTime": 51532,
+              "endTime": 51964,
+              "sentence_id": 6,
+              "word": "一下，"
+            },
+            {
+              "beginTime": 51966,
+              "endTime": 52398,
+              "sentence_id": 6,
+              "word": "然后"
+            },
+            {
+              "beginTime": 52398,
+              "endTime": 52830,
+              "sentence_id": 6,
+              "word": "这些"
+            },
+            {
+              "beginTime": 52830,
+              "endTime": 53046,
+              "sentence_id": 6,
+              "word": "是"
+            },
+            {
+              "beginTime": 53046,
+              "endTime": 53478,
+              "sentence_id": 6,
+              "word": "我们"
+            },
+            {
+              "beginTime": 53478,
+              "endTime": 53910,
+              "sentence_id": 6,
+              "word": "线下"
+            },
+            {
+              "beginTime": 53910,
+              "endTime": 54342,
+              "sentence_id": 6,
+              "word": "宣战"
+            },
+            {
+              "beginTime": 54342,
+              "endTime": 54558,
+              "sentence_id": 6,
+              "word": "营"
+            },
+            {
+              "beginTime": 54558,
+              "endTime": 54774,
+              "sentence_id": 6,
+              "word": "的"
+            },
+            {
+              "beginTime": 54774,
+              "endTime": 55206,
+              "sentence_id": 6,
+              "word": "主题"
+            },
+            {
+              "beginTime": 55206,
+              "endTime": 55422,
+              "sentence_id": 6,
+              "word": "的"
+            },
+            {
+              "beginTime": 55422,
+              "endTime": 55854,
+              "sentence_id": 6,
+              "word": "一些"
+            },
+            {
+              "beginTime": 55854,
+              "endTime": 56286,
+              "sentence_id": 6,
+              "word": "照片，"
+            },
+            {
+              "beginTime": 56298,
+              "endTime": 56514,
+              "sentence_id": 6,
+              "word": "很"
+            },
+            {
+              "beginTime": 56514,
+              "endTime": 57162,
+              "sentence_id": 6,
+              "word": "基本功"
+            },
+            {
+              "beginTime": 57162,
+              "endTime": 57378,
+              "sentence_id": 6,
+              "word": "训"
+            },
+            {
+              "beginTime": 57378,
+              "endTime": 57594,
+              "sentence_id": 6,
+              "word": "战"
+            },
+            {
+              "beginTime": 57594,
+              "endTime": 57810,
+              "sentence_id": 6,
+              "word": "营，"
+            },
+            {
+              "beginTime": 58030,
+              "endTime": 58462,
+              "sentence_id": 6,
+              "word": "教练"
+            },
+            {
+              "beginTime": 58462,
+              "endTime": 58678,
+              "sentence_id": 6,
+              "word": "是"
+            },
+            {
+              "beginTime": 58678,
+              "endTime": 59326,
+              "sentence_id": 6,
+              "word": "领导力，"
+            },
+            {
+              "beginTime": 59330,
+              "endTime": 59563,
+              "sentence_id": 6,
+              "word": "训"
+            },
+            {
+              "beginTime": 59563,
+              "endTime": 59796,
+              "sentence_id": 6,
+              "word": "战"
+            },
+            {
+              "beginTime": 59796,
+              "endTime": 60029,
+              "sentence_id": 6,
+              "word": "营"
+            },
+            {
+              "beginTime": 60029,
+              "endTime": 60262,
+              "sentence_id": 6,
+              "word": "0，"
+            },
+            {
+              "beginTime": 60526,
+              "endTime": 61052,
+              "sentence_id": 6,
+              "word": "然后"
+            },
+            {
+              "beginTime": 61052,
+              "endTime": 61841,
+              "sentence_id": 6,
+              "word": "转化率，"
+            },
+            {
+              "beginTime": 62107,
+              "endTime": 62709,
+              "sentence_id": 6,
+              "word": "然后"
+            },
+            {
+              "beginTime": 62709,
+              "endTime": 63010,
+              "sentence_id": 6,
+              "word": "L"
+            },
+            {
+              "beginTime": 63010,
+              "endTime": 63311,
+              "sentence_id": 6,
+              "word": "I"
+            },
+            {
+              "beginTime": 63311,
+              "endTime": 64214,
+              "sentence_id": 6,
+              "word": "什么的，"
+            },
+            {
+              "beginTime": 64215,
+              "endTime": 64785,
+              "sentence_id": 6,
+              "word": "然后"
+            },
+            {
+              "beginTime": 64785,
+              "endTime": 65925,
+              "sentence_id": 6,
+              "word": "三天两夜"
+            },
+            {
+              "beginTime": 65925,
+              "endTime": 66210,
+              "sentence_id": 6,
+              "word": "出"
+            },
+            {
+              "beginTime": 66210,
+              "endTime": 66495,
+              "sentence_id": 6,
+              "word": "阶"
+            },
+            {
+              "beginTime": 66495,
+              "endTime": 67065,
+              "sentence_id": 6,
+              "word": "进阶"
+            },
+            {
+              "beginTime": 67065,
+              "endTime": 67635,
+              "sentence_id": 6,
+              "word": "高阶。"
+            }
+          ]
+        },
+        {
+          "beginTime": 67640,
+          "endTime": 71690,
+          "has_verify": true,
+          "id": 7,
+          "paragraph_id": "1768655251632500000",
+          "remark_type": 0,
+          "sentence_id": 7,
+          "text": "大家如果参加过训战营的，可以跟我互动一下，扣个一。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "2b334e2622024d4e8478013a376b66c2",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 67640,
+              "endTime": 68008,
+              "sentence_id": 7,
+              "word": "大家"
+            },
+            {
+              "beginTime": 68008,
+              "endTime": 68376,
+              "sentence_id": 7,
+              "word": "如果"
+            },
+            {
+              "beginTime": 68376,
+              "endTime": 68744,
+              "sentence_id": 7,
+              "word": "参加"
+            },
+            {
+              "beginTime": 68744,
+              "endTime": 68928,
+              "sentence_id": 7,
+              "word": "过"
+            },
+            {
+              "beginTime": 68928,
+              "endTime": 69112,
+              "sentence_id": 7,
+              "word": "训"
+            },
+            {
+              "beginTime": 69112,
+              "endTime": 69296,
+              "sentence_id": 7,
+              "word": "战"
+            },
+            {
+              "beginTime": 69296,
+              "endTime": 69480,
+              "sentence_id": 7,
+              "word": "营"
+            },
+            {
+              "beginTime": 69480,
+              "endTime": 69664,
+              "sentence_id": 7,
+              "word": "的，"
+            },
+            {
+              "beginTime": 69665,
+              "endTime": 70033,
+              "sentence_id": 7,
+              "word": "可以"
+            },
+            {
+              "beginTime": 70033,
+              "endTime": 70217,
+              "sentence_id": 7,
+              "word": "跟"
+            },
+            {
+              "beginTime": 70217,
+              "endTime": 70401,
+              "sentence_id": 7,
+              "word": "我"
+            },
+            {
+              "beginTime": 70401,
+              "endTime": 70769,
+              "sentence_id": 7,
+              "word": "互动"
+            },
+            {
+              "beginTime": 70769,
+              "endTime": 71137,
+              "sentence_id": 7,
+              "word": "一下，"
+            },
+            {
+              "beginTime": 71138,
+              "endTime": 71322,
+              "sentence_id": 7,
+              "word": "扣"
+            },
+            {
+              "beginTime": 71322,
+              "endTime": 71506,
+              "sentence_id": 7,
+              "word": "个"
+            },
+            {
+              "beginTime": 71506,
+              "endTime": 71690,
+              "sentence_id": 7,
+              "word": "一。"
+            }
+          ]
+        },
+        {
+          "beginTime": 71874,
+          "endTime": 72426,
+          "has_verify": true,
+          "id": 8,
+          "paragraph_id": "1768655251632500000",
+          "remark_type": 0,
+          "sentence_id": 8,
+          "text": "我就发。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "cc17a7ccf7574c2c8b19d324bfd56634",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 71874,
+              "endTime": 72058,
+              "sentence_id": 8,
+              "word": "我"
+            },
+            {
+              "beginTime": 72058,
+              "endTime": 72242,
+              "sentence_id": 8,
+              "word": "就"
+            },
+            {
+              "beginTime": 72242,
+              "endTime": 72426,
+              "sentence_id": 8,
+              "word": "发。"
+            }
+          ]
+        },
+        {
+          "beginTime": 72610,
+          "endTime": 79053,
+          "has_verify": true,
+          "id": 9,
+          "paragraph_id": "1768655251632500000",
+          "remark_type": 0,
+          "sentence_id": 9,
+          "text": "参加过训战营或者参加过三天两夜的同学，可以扣一下一，让我看一下有没有熟悉的。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "9ddf07fdee504e6d9d471dc54170eb7c",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 72610,
+              "endTime": 72978,
+              "sentence_id": 9,
+              "word": "参加"
+            },
+            {
+              "beginTime": 72978,
+              "endTime": 73162,
+              "sentence_id": 9,
+              "word": "过"
+            },
+            {
+              "beginTime": 73162,
+              "endTime": 73346,
+              "sentence_id": 9,
+              "word": "训"
+            },
+            {
+              "beginTime": 73346,
+              "endTime": 73530,
+              "sentence_id": 9,
+              "word": "战"
+            },
+            {
+              "beginTime": 73530,
+              "endTime": 73714,
+              "sentence_id": 9,
+              "word": "营"
+            },
+            {
+              "beginTime": 73714,
+              "endTime": 74082,
+              "sentence_id": 9,
+              "word": "或者"
+            },
+            {
+              "beginTime": 74082,
+              "endTime": 74450,
+              "sentence_id": 9,
+              "word": "参加"
+            },
+            {
+              "beginTime": 74450,
+              "endTime": 74634,
+              "sentence_id": 9,
+              "word": "过"
+            },
+            {
+              "beginTime": 74634,
+              "endTime": 75370,
+              "sentence_id": 9,
+              "word": "三天两夜"
+            },
+            {
+              "beginTime": 75370,
+              "endTime": 75554,
+              "sentence_id": 9,
+              "word": "的"
+            },
+            {
+              "beginTime": 75554,
+              "endTime": 75922,
+              "sentence_id": 9,
+              "word": "同学，"
+            },
+            {
+              "beginTime": 75924,
+              "endTime": 76292,
+              "sentence_id": 9,
+              "word": "可以"
+            },
+            {
+              "beginTime": 76292,
+              "endTime": 76476,
+              "sentence_id": 9,
+              "word": "扣"
+            },
+            {
+              "beginTime": 76476,
+              "endTime": 76844,
+              "sentence_id": 9,
+              "word": "一下"
+            },
+            {
+              "beginTime": 76844,
+              "endTime": 77028,
+              "sentence_id": 9,
+              "word": "一，"
+            },
+            {
+              "beginTime": 77029,
+              "endTime": 77213,
+              "sentence_id": 9,
+              "word": "让"
+            },
+            {
+              "beginTime": 77213,
+              "endTime": 77581,
+              "sentence_id": 9,
+              "word": "我看"
+            },
+            {
+              "beginTime": 77581,
+              "endTime": 77949,
+              "sentence_id": 9,
+              "word": "一下"
+            },
+            {
+              "beginTime": 77949,
+              "endTime": 78501,
+              "sentence_id": 9,
+              "word": "有没有"
+            },
+            {
+              "beginTime": 78501,
+              "endTime": 78869,
+              "sentence_id": 9,
+              "word": "熟悉"
+            },
+            {
+              "beginTime": 78869,
+              "endTime": 79053,
+              "sentence_id": 9,
+              "word": "的。"
+            }
+          ]
+        },
+        {
+          "beginTime": 79054,
+          "endTime": 81078,
+          "has_verify": true,
+          "id": 10,
+          "paragraph_id": "1768655251632500000",
+          "remark_type": 0,
+          "sentence_id": 10,
+          "text": "大家那都是见过面的亲人。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "ba28ba0611a640d0b7d57d6536836288",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 79054,
+              "endTime": 79422,
+              "sentence_id": 10,
+              "word": "大家"
+            },
+            {
+              "beginTime": 79422,
+              "endTime": 79606,
+              "sentence_id": 10,
+              "word": "那"
+            },
+            {
+              "beginTime": 79606,
+              "endTime": 79974,
+              "sentence_id": 10,
+              "word": "都是"
+            },
+            {
+              "beginTime": 79974,
+              "endTime": 80526,
+              "sentence_id": 10,
+              "word": "见过面"
+            },
+            {
+              "beginTime": 80526,
+              "endTime": 80710,
+              "sentence_id": 10,
+              "word": "的"
+            },
+            {
+              "beginTime": 80710,
+              "endTime": 81078,
+              "sentence_id": 10,
+              "word": "亲人。"
+            }
+          ]
+        },
+        {
+          "attachments": [
+            {
+              "create_time": "2026-01-17 21:04:50",
+              "ext_type": 5,
+              "file_name": "",
+              "file_size": 0,
+              "file_url": "",
+              "id": 130922,
+              "key_notes": "晚上是盈盈、莫非、花总三位师兄带给我们的开放麦。第一位上场的也就是正在正在说话的是盈盈",
+              "preview_path": "",
+              "realtime_second": 83320,
+              "record_id": 4148886,
+              "status": 1,
+              "uid": 240745,
+              "update_time": "2026-01-17 21:04:50"
+            }
+          ],
+          "beginTime": 82364,
+          "endTime": 84620,
+          "has_verify": true,
+          "id": 11,
+          "paragraph_id": "1768655251632500000",
+          "remark_type": 0,
+          "sentence_id": 11,
+          "text": "这么多。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "0d7ee99ecb3e4033a67555c9008b4d53",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 82364,
+              "endTime": 83492,
+              "sentence_id": 11,
+              "word": "这么"
+            },
+            {
+              "beginTime": 83492,
+              "endTime": 84620,
+              "sentence_id": 11,
+              "word": "多。"
+            }
+          ]
+        },
+        {
+          "beginTime": 86940,
+          "endTime": 89628,
+          "has_verify": true,
+          "id": 12,
+          "paragraph_id": "1768655251632500000",
+          "remark_type": 0,
+          "sentence_id": 12,
+          "text": "好，那你们未来继续多多参加。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "70e97a1f1446434a87b437aeee848951",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 86940,
+              "endTime": 87164,
+              "sentence_id": 12,
+              "word": "好，"
+            },
+            {
+              "beginTime": 87164,
+              "endTime": 87388,
+              "sentence_id": 12,
+              "word": "那"
+            },
+            {
+              "beginTime": 87388,
+              "endTime": 87836,
+              "sentence_id": 12,
+              "word": "你们"
+            },
+            {
+              "beginTime": 87836,
+              "endTime": 88284,
+              "sentence_id": 12,
+              "word": "未来"
+            },
+            {
+              "beginTime": 88284,
+              "endTime": 88732,
+              "sentence_id": 12,
+              "word": "继续"
+            },
+            {
+              "beginTime": 88732,
+              "endTime": 89180,
+              "sentence_id": 12,
+              "word": "多多"
+            },
+            {
+              "beginTime": 89180,
+              "endTime": 89628,
+              "sentence_id": 12,
+              "word": "参加。"
+            }
+          ]
+        },
+        {
+          "beginTime": 89635,
+          "endTime": 100632,
+          "has_verify": true,
+          "id": 13,
+          "paragraph_id": "1768655290167500000",
+          "remark_type": 0,
+          "sentence_id": 13,
+          "text": "然后如果真的已经非常有那个啥，我好像看到好几个助教，像文涛、谭正，都是之前被我邀请来当助教的。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "3e805267a4ef43d9a5671dd3ca7bc5c0",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 89635,
+              "endTime": 90083,
+              "sentence_id": 13,
+              "word": "然后"
+            },
+            {
+              "beginTime": 90083,
+              "endTime": 90531,
+              "sentence_id": 13,
+              "word": "如果"
+            },
+            {
+              "beginTime": 90531,
+              "endTime": 90979,
+              "sentence_id": 13,
+              "word": "真的"
+            },
+            {
+              "beginTime": 90979,
+              "endTime": 91427,
+              "sentence_id": 13,
+              "word": "已经"
+            },
+            {
+              "beginTime": 91427,
+              "endTime": 91875,
+              "sentence_id": 13,
+              "word": "非常"
+            },
+            {
+              "beginTime": 91875,
+              "endTime": 92099,
+              "sentence_id": 13,
+              "word": "有"
+            },
+            {
+              "beginTime": 92099,
+              "endTime": 92547,
+              "sentence_id": 13,
+              "word": "那个"
+            },
+            {
+              "beginTime": 92547,
+              "endTime": 92771,
+              "sentence_id": 13,
+              "word": "啥，"
+            },
+            {
+              "beginTime": 93003,
+              "endTime": 93227,
+              "sentence_id": 13,
+              "word": "我"
+            },
+            {
+              "beginTime": 93227,
+              "endTime": 93675,
+              "sentence_id": 13,
+              "word": "好像"
+            },
+            {
+              "beginTime": 93675,
+              "endTime": 94123,
+              "sentence_id": 13,
+              "word": "看到"
+            },
+            {
+              "beginTime": 94123,
+              "endTime": 94795,
+              "sentence_id": 13,
+              "word": "好几个"
+            },
+            {
+              "beginTime": 94795,
+              "endTime": 95243,
+              "sentence_id": 13,
+              "word": "助教，"
+            },
+            {
+              "beginTime": 95474,
+              "endTime": 95698,
+              "sentence_id": 13,
+              "word": "像"
+            },
+            {
+              "beginTime": 95698,
+              "endTime": 96146,
+              "sentence_id": 13,
+              "word": "文涛、"
+            },
+            {
+              "beginTime": 97046,
+              "endTime": 97270,
+              "sentence_id": 13,
+              "word": "谭"
+            },
+            {
+              "beginTime": 97270,
+              "endTime": 97494,
+              "sentence_id": 13,
+              "word": "正，"
+            },
+            {
+              "beginTime": 97720,
+              "endTime": 98168,
+              "sentence_id": 13,
+              "word": "都是"
+            },
+            {
+              "beginTime": 98168,
+              "endTime": 98616,
+              "sentence_id": 13,
+              "word": "之前"
+            },
+            {
+              "beginTime": 98616,
+              "endTime": 98840,
+              "sentence_id": 13,
+              "word": "被"
+            },
+            {
+              "beginTime": 98840,
+              "endTime": 99064,
+              "sentence_id": 13,
+              "word": "我"
+            },
+            {
+              "beginTime": 99064,
+              "endTime": 99512,
+              "sentence_id": 13,
+              "word": "邀请"
+            },
+            {
+              "beginTime": 99512,
+              "endTime": 99736,
+              "sentence_id": 13,
+              "word": "来"
+            },
+            {
+              "beginTime": 99736,
+              "endTime": 99960,
+              "sentence_id": 13,
+              "word": "当"
+            },
+            {
+              "beginTime": 99960,
+              "endTime": 100408,
+              "sentence_id": 13,
+              "word": "助教"
+            },
+            {
+              "beginTime": 100408,
+              "endTime": 100632,
+              "sentence_id": 13,
+              "word": "的。"
+            }
+          ]
+        },
+        {
+          "beginTime": 100640,
+          "endTime": 110893,
+          "has_verify": true,
+          "id": 14,
+          "paragraph_id": "1768655290167500000",
+          "remark_type": 0,
+          "sentence_id": 14,
+          "text": "然后大家以后也希望越来越多的同学学分修的足够多，然后能够多被我们收集到的落地之夜的这种安利课。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "824d7ffbf9464ca7836a777ae2d55ce9",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 100640,
+              "endTime": 101130,
+              "sentence_id": 14,
+              "word": "然后"
+            },
+            {
+              "beginTime": 101130,
+              "endTime": 101620,
+              "sentence_id": 14,
+              "word": "大家"
+            },
+            {
+              "beginTime": 101620,
+              "endTime": 102110,
+              "sentence_id": 14,
+              "word": "以后"
+            },
+            {
+              "beginTime": 102110,
+              "endTime": 102355,
+              "sentence_id": 14,
+              "word": "也"
+            },
+            {
+              "beginTime": 102355,
+              "endTime": 102845,
+              "sentence_id": 14,
+              "word": "希望"
+            },
+            {
+              "beginTime": 102845,
+              "endTime": 103825,
+              "sentence_id": 14,
+              "word": "越来越多"
+            },
+            {
+              "beginTime": 103825,
+              "endTime": 104070,
+              "sentence_id": 14,
+              "word": "的"
+            },
+            {
+              "beginTime": 104070,
+              "endTime": 104560,
+              "sentence_id": 14,
+              "word": "同学"
+            },
+            {
+              "beginTime": 104560,
+              "endTime": 105050,
+              "sentence_id": 14,
+              "word": "学分"
+            },
+            {
+              "beginTime": 105050,
+              "endTime": 105295,
+              "sentence_id": 14,
+              "word": "修"
+            },
+            {
+              "beginTime": 105295,
+              "endTime": 105540,
+              "sentence_id": 14,
+              "word": "的"
+            },
+            {
+              "beginTime": 105540,
+              "endTime": 106030,
+              "sentence_id": 14,
+              "word": "足够"
+            },
+            {
+              "beginTime": 106030,
+              "endTime": 106275,
+              "sentence_id": 14,
+              "word": "多，"
+            },
+            {
+              "beginTime": 106295,
+              "endTime": 106713,
+              "sentence_id": 14,
+              "word": "然后"
+            },
+            {
+              "beginTime": 106713,
+              "endTime": 107131,
+              "sentence_id": 14,
+              "word": "能够"
+            },
+            {
+              "beginTime": 107131,
+              "endTime": 107340,
+              "sentence_id": 14,
+              "word": "多"
+            },
+            {
+              "beginTime": 107340,
+              "endTime": 107549,
+              "sentence_id": 14,
+              "word": "被"
+            },
+            {
+              "beginTime": 107549,
+              "endTime": 107967,
+              "sentence_id": 14,
+              "word": "我们"
+            },
+            {
+              "beginTime": 107967,
+              "endTime": 108385,
+              "sentence_id": 14,
+              "word": "收集"
+            },
+            {
+              "beginTime": 108385,
+              "endTime": 108594,
+              "sentence_id": 14,
+              "word": "到"
+            },
+            {
+              "beginTime": 108594,
+              "endTime": 108803,
+              "sentence_id": 14,
+              "word": "的"
+            },
+            {
+              "beginTime": 108803,
+              "endTime": 109221,
+              "sentence_id": 14,
+              "word": "落地"
+            },
+            {
+              "beginTime": 109221,
+              "endTime": 109430,
+              "sentence_id": 14,
+              "word": "之"
+            },
+            {
+              "beginTime": 109430,
+              "endTime": 109848,
+              "sentence_id": 14,
+              "word": "夜的"
+            },
+            {
+              "beginTime": 109848,
+              "endTime": 110266,
+              "sentence_id": 14,
+              "word": "这种"
+            },
+            {
+              "beginTime": 110266,
+              "endTime": 110684,
+              "sentence_id": 14,
+              "word": "安利"
+            },
+            {
+              "beginTime": 110684,
+              "endTime": 110893,
+              "sentence_id": 14,
+              "word": "课。"
+            }
+          ]
+        },
+        {
+          "beginTime": 110902,
+          "endTime": 115720,
+          "has_verify": true,
+          "id": 15,
+          "paragraph_id": "1768655290167500000",
+          "remark_type": 0,
+          "sentence_id": 15,
+          "text": "然后来帮我一起在三天两夜帮助的同学去当助教，好吧。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "e2659842fd0e4a8ba61f3489651b9967",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 110902,
+              "endTime": 111320,
+              "sentence_id": 15,
+              "word": "然后"
+            },
+            {
+              "beginTime": 111320,
+              "endTime": 111529,
+              "sentence_id": 15,
+              "word": "来"
+            },
+            {
+              "beginTime": 111529,
+              "endTime": 111738,
+              "sentence_id": 15,
+              "word": "帮"
+            },
+            {
+              "beginTime": 111738,
+              "endTime": 111947,
+              "sentence_id": 15,
+              "word": "我"
+            },
+            {
+              "beginTime": 111947,
+              "endTime": 112365,
+              "sentence_id": 15,
+              "word": "一起"
+            },
+            {
+              "beginTime": 112365,
+              "endTime": 112574,
+              "sentence_id": 15,
+              "word": "在"
+            },
+            {
+              "beginTime": 112574,
+              "endTime": 113410,
+              "sentence_id": 15,
+              "word": "三天两夜"
+            },
+            {
+              "beginTime": 113410,
+              "endTime": 113828,
+              "sentence_id": 15,
+              "word": "帮助"
+            },
+            {
+              "beginTime": 113828,
+              "endTime": 114037,
+              "sentence_id": 15,
+              "word": "的"
+            },
+            {
+              "beginTime": 114037,
+              "endTime": 114455,
+              "sentence_id": 15,
+              "word": "同学"
+            },
+            {
+              "beginTime": 114455,
+              "endTime": 114664,
+              "sentence_id": 15,
+              "word": "去"
+            },
+            {
+              "beginTime": 114664,
+              "endTime": 114873,
+              "sentence_id": 15,
+              "word": "当"
+            },
+            {
+              "beginTime": 114873,
+              "endTime": 115291,
+              "sentence_id": 15,
+              "word": "助教，"
+            },
+            {
+              "beginTime": 115301,
+              "endTime": 115720,
+              "sentence_id": 15,
+              "word": "好吧。"
+            }
+          ]
+        },
+        {
+          "beginTime": 117740,
+          "endTime": 123854,
+          "has_verify": true,
+          "id": 16,
+          "paragraph_id": "1768655318272500000",
+          "remark_type": 0,
+          "sentence_id": 16,
+          "text": "我其实在T教学这个上面其实有四个阶段的过程。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "ab4036b7fdfe46769bbada7c3b5a50f1",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 117740,
+              "endTime": 118274,
+              "sentence_id": 16,
+              "word": "我"
+            },
+            {
+              "beginTime": 118274,
+              "endTime": 118832,
+              "sentence_id": 16,
+              "word": "其实"
+            },
+            {
+              "beginTime": 118832,
+              "endTime": 119111,
+              "sentence_id": 16,
+              "word": "在"
+            },
+            {
+              "beginTime": 119111,
+              "endTime": 119390,
+              "sentence_id": 16,
+              "word": "T"
+            },
+            {
+              "beginTime": 119390,
+              "endTime": 119948,
+              "sentence_id": 16,
+              "word": "教学"
+            },
+            {
+              "beginTime": 119948,
+              "endTime": 120506,
+              "sentence_id": 16,
+              "word": "这个"
+            },
+            {
+              "beginTime": 120506,
+              "endTime": 121064,
+              "sentence_id": 16,
+              "word": "上面"
+            },
+            {
+              "beginTime": 121064,
+              "endTime": 121622,
+              "sentence_id": 16,
+              "word": "其实"
+            },
+            {
+              "beginTime": 121622,
+              "endTime": 121901,
+              "sentence_id": 16,
+              "word": "有"
+            },
+            {
+              "beginTime": 121901,
+              "endTime": 122459,
+              "sentence_id": 16,
+              "word": "四个"
+            },
+            {
+              "beginTime": 122459,
+              "endTime": 123017,
+              "sentence_id": 16,
+              "word": "阶段"
+            },
+            {
+              "beginTime": 123017,
+              "endTime": 123296,
+              "sentence_id": 16,
+              "word": "的"
+            },
+            {
+              "beginTime": 123296,
+              "endTime": 123854,
+              "sentence_id": 16,
+              "word": "过程。"
+            }
+          ]
+        },
+        {
+          "beginTime": 123862,
+          "endTime": 133464,
+          "has_verify": true,
+          "id": 17,
+          "paragraph_id": "1768655318272500000",
+          "remark_type": 0,
+          "sentence_id": 17,
+          "text": "但是又跟我的主页其实是混在一起的，所以为了防止大家迷路，所以我给大家画了一个路径图。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "c7c653bf4b4548bea870f92419ab073d",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 123862,
+              "endTime": 124404,
+              "sentence_id": 17,
+              "word": "但是"
+            },
+            {
+              "beginTime": 124404,
+              "endTime": 124675,
+              "sentence_id": 17,
+              "word": "又"
+            },
+            {
+              "beginTime": 124675,
+              "endTime": 124946,
+              "sentence_id": 17,
+              "word": "跟"
+            },
+            {
+              "beginTime": 124946,
+              "endTime": 125488,
+              "sentence_id": 17,
+              "word": "我的"
+            },
+            {
+              "beginTime": 125488,
+              "endTime": 126030,
+              "sentence_id": 17,
+              "word": "主页"
+            },
+            {
+              "beginTime": 126030,
+              "endTime": 126572,
+              "sentence_id": 17,
+              "word": "其实"
+            },
+            {
+              "beginTime": 126572,
+              "endTime": 126843,
+              "sentence_id": 17,
+              "word": "是"
+            },
+            {
+              "beginTime": 126843,
+              "endTime": 127114,
+              "sentence_id": 17,
+              "word": "混"
+            },
+            {
+              "beginTime": 127114,
+              "endTime": 127927,
+              "sentence_id": 17,
+              "word": "在一起"
+            },
+            {
+              "beginTime": 127927,
+              "endTime": 128198,
+              "sentence_id": 17,
+              "word": "的，"
+            },
+            {
+              "beginTime": 128200,
+              "endTime": 128638,
+              "sentence_id": 17,
+              "word": "所以"
+            },
+            {
+              "beginTime": 128638,
+              "endTime": 129076,
+              "sentence_id": 17,
+              "word": "为了"
+            },
+            {
+              "beginTime": 129076,
+              "endTime": 129514,
+              "sentence_id": 17,
+              "word": "防止"
+            },
+            {
+              "beginTime": 129514,
+              "endTime": 129952,
+              "sentence_id": 17,
+              "word": "大家"
+            },
+            {
+              "beginTime": 129952,
+              "endTime": 130390,
+              "sentence_id": 17,
+              "word": "迷路，"
+            },
+            {
+              "beginTime": 130617,
+              "endTime": 131055,
+              "sentence_id": 17,
+              "word": "所以"
+            },
+            {
+              "beginTime": 131055,
+              "endTime": 131274,
+              "sentence_id": 17,
+              "word": "我"
+            },
+            {
+              "beginTime": 131274,
+              "endTime": 131493,
+              "sentence_id": 17,
+              "word": "给"
+            },
+            {
+              "beginTime": 131493,
+              "endTime": 131931,
+              "sentence_id": 17,
+              "word": "大家"
+            },
+            {
+              "beginTime": 131931,
+              "endTime": 132150,
+              "sentence_id": 17,
+              "word": "画"
+            },
+            {
+              "beginTime": 132150,
+              "endTime": 132369,
+              "sentence_id": 17,
+              "word": "了"
+            },
+            {
+              "beginTime": 132369,
+              "endTime": 132807,
+              "sentence_id": 17,
+              "word": "一个"
+            },
+            {
+              "beginTime": 132807,
+              "endTime": 133245,
+              "sentence_id": 17,
+              "word": "路径"
+            },
+            {
+              "beginTime": 133245,
+              "endTime": 133464,
+              "sentence_id": 17,
+              "word": "图。"
+            }
+          ]
+        },
+        {
+          "attachments": [
+            {
+              "create_time": "2026-01-17 21:05:43",
+              "ext_type": 1,
+              "file_name": "1768655129980.jpg",
+              "file_size": 164.22,
+              "file_url": "https://oss.itingnao.com/tmp/9c38054a379e-4cc4-8509-79e0f07e5984.jpg",
+              "id": 130923,
+              "key_notes": "",
+              "preview_path": "https://oss.itingnao.com/tmp/9c38054a379e-4cc4-8509-79e0f07e5984.jpg",
+              "realtime_second": 135720,
+              "record_id": 4148886,
+              "status": 1,
+              "uid": 240745,
+              "update_time": "2026-01-17 21:05:43"
+            }
+          ],
+          "beginTime": 133474,
+          "endTime": 138522,
+          "has_verify": true,
+          "id": 18,
+          "paragraph_id": "1768655318272500000",
+          "remark_type": 0,
+          "sentence_id": 18,
+          "text": "所以整个工作经历和教学经历，我给他分成两条曲线。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "c8232bfa0a244e698f9bf7d756dbd705",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 133474,
+              "endTime": 133912,
+              "sentence_id": 18,
+              "word": "所以"
+            },
+            {
+              "beginTime": 133912,
+              "endTime": 134350,
+              "sentence_id": 18,
+              "word": "整个"
+            },
+            {
+              "beginTime": 134350,
+              "endTime": 134788,
+              "sentence_id": 18,
+              "word": "工作"
+            },
+            {
+              "beginTime": 134788,
+              "endTime": 135226,
+              "sentence_id": 18,
+              "word": "经历"
+            },
+            {
+              "beginTime": 135226,
+              "endTime": 135445,
+              "sentence_id": 18,
+              "word": "和"
+            },
+            {
+              "beginTime": 135445,
+              "endTime": 135883,
+              "sentence_id": 18,
+              "word": "教学"
+            },
+            {
+              "beginTime": 135883,
+              "endTime": 136321,
+              "sentence_id": 18,
+              "word": "经历，"
+            },
+            {
+              "beginTime": 136551,
+              "endTime": 136770,
+              "sentence_id": 18,
+              "word": "我"
+            },
+            {
+              "beginTime": 136770,
+              "endTime": 137208,
+              "sentence_id": 18,
+              "word": "给他"
+            },
+            {
+              "beginTime": 137208,
+              "endTime": 137646,
+              "sentence_id": 18,
+              "word": "分成"
+            },
+            {
+              "beginTime": 137646,
+              "endTime": 138084,
+              "sentence_id": 18,
+              "word": "两条"
+            },
+            {
+              "beginTime": 138084,
+              "endTime": 138522,
+              "sentence_id": 18,
+              "word": "曲线。"
+            }
+          ]
+        },
+        {
+          "beginTime": 138528,
+          "endTime": 141156,
+          "has_verify": true,
+          "id": 19,
+          "paragraph_id": "1768655318272500000",
+          "remark_type": 0,
+          "sentence_id": 19,
+          "text": "以下的是我的职业的主路径。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "66625881b4b14602825a1fe6ac6d4ab4",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 138528,
+              "endTime": 138966,
+              "sentence_id": 19,
+              "word": "以下"
+            },
+            {
+              "beginTime": 138966,
+              "endTime": 139185,
+              "sentence_id": 19,
+              "word": "的"
+            },
+            {
+              "beginTime": 139185,
+              "endTime": 139842,
+              "sentence_id": 19,
+              "word": "是我的"
+            },
+            {
+              "beginTime": 139842,
+              "endTime": 140280,
+              "sentence_id": 19,
+              "word": "职业"
+            },
+            {
+              "beginTime": 140280,
+              "endTime": 140499,
+              "sentence_id": 19,
+              "word": "的"
+            },
+            {
+              "beginTime": 140499,
+              "endTime": 140718,
+              "sentence_id": 19,
+              "word": "主"
+            },
+            {
+              "beginTime": 140718,
+              "endTime": 141156,
+              "sentence_id": 19,
+              "word": "路径。"
+            }
+          ]
+        },
+        {
+          "beginTime": 141166,
+          "endTime": 146880,
+          "has_verify": true,
+          "id": 20,
+          "paragraph_id": "1768655318272500000",
+          "remark_type": 0,
+          "sentence_id": 20,
+          "text": "然后从21年到19年一直在安踏集团从管理预算管理当中。",
+          "tmpUrl": "",
+          "trans": "",
+          "uniqueId": "98b96d9878be4accaba2554c696fd521",
+          "userId": "1",
+          "userName": "发言人1",
+          "words": [
+            {
+              "beginTime": 141166,
+              "endTime": 141604,
+              "sentence_id": 20,
+              "word": "然后"
+            },
+            {
+              "beginTime": 141604,
+              "endTime": 141823,
+              "sentence_id": 20,
+              "word": "从"
+            },
+            {
+              "beginTime": 141823,
+              "endTime": 143356,
+              "sentence_id": 20,
+              "word": "21年到19年"
+            },
+            {
+              "beginTime": 143356,
+              "endTime": 143794,
+              "sentence_id": 20,
+              "word": "一直"
+            },
+            {
+              "beginTime": 143794,
+              "endTime": 144013,
+              "sentence_id": 20,
+              "word": "在"
+            },
+            {
+              "beginTime": 144013,
+              "endTime": 144451,
+              "sentence_id": 20,
+              "word": "安踏"
+            },
+            {
+              "beginTime": 144451,
+              "endTime": 144889,
+              "sentence_id": 20,
+              "word": "集团"
+            },
+            {
+              "beginTime": 144889,
+              "endTime": 145108,
+              "sentence_id": 20,
+              "word": "从"
+            },
+            {
+              "beginTime": 145108,
+              "endTime": 145546,
+              "sentence_id": 20,
+              "word": "管理"
+            },
+            {
+              "beginTime": 145546,
+              "endTime": 145984,
+              "sentence_id": 20,
+              "word": "预算"
+            },
+            {
+              "beginTime": 145984,
+              "endTime": 146422,
+              "sentence_id": 20,
+              "word": "管理"
+            },
+            {
+              "beginTime": 146422,
+              "endTime": 146880,
+              "sentence_id": 20,
+              "word": "当中。"
+            }
+          ]
+        }
+      ],
+      "data_status": 1,
+      "key_word": [],
+      "key_word_status": 0,
+      "abstract": "",
+      "abstract_status": 0,
+      "ai_abstract": "",
+      "ai_abstract_status": 0,
+      "part": [
+        {
+          "id": 0,
+          "start": 0,
+          "end": 22670,
+          "title": "个人背景与职业转型",
+          "screen_short_img": "",
+          "abstract": "发言人介绍自己的履历，提及从财务专业跨行至新能源、咨询行业，最终进入教育创新领域，并掌握了产品设计、课程开发及业务管理等核心能力。",
+          "start_time": "00:00"
+        },
+        {
+          "id": 0,
+          "start": 22670,
+          "end": 117740,
+          "title": "线下训战营相关介绍与互动",
+          "screen_short_img": "",
+          "abstract": "发言人提到自己负责大部分线下训练产品，展示了线下训战营的主题照片，包括基本功训战营、教练领导力训战营、转化率训战营等，有不同阶段的课程设置。同时与参加过训战营或三天两夜课程的同学进行互动，邀请他们扣“1”，并表示这些同学是“见过面的亲人”，希望他们未来继续参加。还提到文涛、谭正等之前被邀请担任助教的同学，并鼓励学分足够多的同学参与落地之夜的安利课，帮助担任助教。",
+          "start_time": "00:22"
+        },
+        {
+          "id": 0,
+          "start": 117740,
+          "end": 147000,
+          "title": "教学经历路径说明",
+          "screen_short_img": "",
+          "abstract": "发言人表示自己在T教学方面有四个阶段的过程，由于与主业混在一起，为防止听众迷路，绘制了路径图，将整个工作经历和教学经历分为两条曲线，其中以下的是职业主路径，并提及2019年至2021年一直在安踏集团从事管理预算管理工作。",
+          "start_time": "01:57"
+        }
+      ],
+      "part_status": 1,
+      "review": [
+        {
+          "answer": "说话者的专业背景是财务专业。",
+          "id": [
+            1
+          ],
+          "question": "说话者的专业背景是什么？"
+        },
+        {
+          "answer": "说话者从财务专业一路跨行到新能源、咨询行业，最终进入教育创新领域。",
+          "id": [
+            1,
+            2
+          ],
+          "question": "说话者跨行了哪些行业？"
+        },
+        {
+          "answer": "说话者在教育创新领域通过科技练习，掌握了产品的设计、课程开发以及业务管理等核心能力。",
+          "id": [
+            2
+          ],
+          "question": "说话者在教育创新领域掌握了哪些核心能力？"
+        },
+        {
+          "answer": "说话者负责一堂大部分的线下训练产品。",
+          "id": [
+            5
+          ],
+          "question": "说话者负责什么工作？"
+        },
+        {
+          "answer": "线下训战营的主题包括基本功训战营、教练是领导力、训战营0、转化率、LI等，还有三天两夜的出阶、进阶、高阶课程。",
+          "id": [
+            6
+          ],
+          "question": "线下训战营有哪些主题？"
+        },
+        {
+          "answer": "说话者将自己的工作经历和教学经历分成两条曲线，其中以下的是职业的主路径。",
+          "id": [
+            16,
+            18
+          ],
+          "question": "说话者如何划分自己的工作经历和教学经历？"
+        },
+        {
+          "answer": "说话者从2019年到2021年一直在安踏集团从事管理预算管理工作。",
+          "id": [
+            20
+          ],
+          "question": "说话者在安踏集团的工作时间及内容是什么？"
+        }
+      ],
+      "review_status": 1,
+      "summary": [],
+      "summary_status": 1,
+      "example_qa": "",
+      "file_md_5": "",
+      "handler_time": 56,
+      "progress_speed": 0,
+      "remark": [],
+      "embedding_status": 1,
+      "status": 4,
+      "delete_status": 0,
+      "language": 1,
+      "trans_type": 1,
+      "chat_num": 1,
+      "message": "ok",
+      "scene_id": 1,
+      "source_type": 0,
+      "share_status": 0,
+      "team_id": "",
+      "folder_id": 245320,
+      "source_channel": 0,
+      "official": 0,
+      "screen_video": "",
+      "screen_audio": "",
+      "update_time": "2026-01-17 21:07:25",
+      "create_time": "2026-01-17 21:03:27",
+      "prepare_status": 0,
+      "is_free_type": 0,
+      "offline_tag": 0,
+      "retry_num": 0,
+      "is_temp": 0,
+      "platform": 1,
+      "is_knowledge": 0,
+      "last_view_at": "2026-01-17 21:06:04",
+      "last_edit_at": "",
+      "is_recording": 0,
+      "pagination": null,
+      "word_count": 640,
+      "secen_title": "通用记录",
+      "is_view": 1,
+      "download_url": "https://tingnao.oss-cn-hangzhou.aliyuncs.com/tmp%2F240745_4148886%2Fw1sf43zxpuqukhd5vcli34v5zc5kuwxx.mp3?Expires=1781673202&OSSAccessKeyId=LTAI5t5Z88vjuh8XYhakB9Y8&Signature=mVoBDJuErzif6XcWyX1FqTk5S0k%3D&response-content-disposition=attachment%3Bfilename%3D%E4%B8%80%E5%A0%82-%E7%BA%BF%E4%B8%8B%E8%AE%AD%E6%88%98%E8%90%A5%E4%BB%8B%E7%BB%8D.mp3",
+      "tran_status": {},
+      "meeting_summary": "## 📌基本信息\n\n- **主题**:一堂教育创新领域分享\n- **时间**:2026-01-17 21:03:27\n- **分享人员**:发言人1\n\n---\n\n## 一、分享背景与目的\n\n本次分享主要介绍了发言人1的跨行业职业经历，从财务专业跨行至教育创新领域，以及其在**一堂**负责线下训练产品的相关情况，同时提及线下训战营和助教团队等内容。\n\n---\n\n## 二、📝分享内容\n\n### 1. 个人职业背景\n\n- 专业背景为财务，之后跨行至新能源、咨询行业，最终进入教育创新领域。\n- 通过科技练习，掌握了产品设计、课程开发及业务管理等核心能力。\n- 负责**一堂**大部分线下训练产品。\n\n### 2. 线下训战营相关情况\n\n- 展示了线下训战营主题照片，包括基本功训战营、教练领导力训战营、转化率相关训战营等。\n- 训战营有三天两夜的出阶、进阶、高阶等不同阶段。\n- 邀请参加过训战营或三天两夜活动的同学互动，看到许多熟悉的“亲人”。\n\n### 3. 助教团队与学员发展\n\n- 现场看到文涛、谭正等之前邀请的助教。\n- 希望学分修得足够多的同学，能被收集到落地之夜的安利课，进而成为助教，在三天两夜帮助其他同学。\n\n### 4. 教学与职业路径规划\n\n- 在T教学上有四个阶段的过程，且与主业混在一起。\n- 为防止听众迷路，绘制了路径图，将工作经历和教学经历分为两条曲线，职业主路径为2019年至2021年一直在安踏集团从事管理预算管理工作。",
+      "meeting_todo": [],
+      "meeting_summary_status": 2,
+      "meeting_todo_status": 1,
+      "queue_num": 0,
+      "waite_time": 0,
+      "free_task_status": 0,
+      "is_vip": 0,
+      "cover_img": "",
+      "create_time_time_stamp": 1768655007,
+      "meeting_summary_id": -1,
+      "example_name": "",
+      "example_id": 0,
+      "file_num": 2,
+      "view_num": 0,
+      "user_name": "广州老朱",
+      "parent_model": 0,
+      "ai_file_path": "",
+      "record_note": null,
+      "parse_content": "",
+      "parse_title": "",
+      "parse_images": null,
+      "parse_image_objs": null,
+      "parse_site": "",
+      "parse_elements": null,
+      "parse_url": "",
+      "parse_status": 0,
+      "ocr_img_list": null,
+      "tag": "安踏集团 一堂 线下训战营 教育创新 产品设计 课程开发 业务管理 基本功训战营 领导力训战营 转化率 三天两夜",
+      "text_rewrite_status": 3,
+      "text_polish_processing": null,
+      "re_write_count": 0,
+      "is_read": 0,
+      "new_note": "",
+      "inspire_data": "404",
+      "width": 0,
+      "height": 0,
+      "file_size": 287,
+      "jump_link": "",
+      "network_platform": "",
+      "network_platform_img_url": "",
+      "show_speaker": 1,
+      "show_timestamp": 1,
+      "merge_speaker": 0,
+      "text_polish_data_id": "",
+      "voice_checkbox": true,
+      "assistant_status": 0,
+      "assistant_status_text": "",
+      "task_id": 0,
+      "diff_time": 0
+    }
+  }
+}
