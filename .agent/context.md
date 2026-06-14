@@ -1,10 +1,10 @@
 ---
 updated: 2026-06-15
 active_branch: main
-active_task: "产能整体提升——老顽童产出A级系统审计+业务公式域处理, 王语嫣完成原文回填+主动降confidence, Ingestion pipeline生效"
+active_task: "王语嫣回填完工(A级报告,10条移除+6条条件标注), 老顽童业务公式域全管线跑通(A级,OCR→source→5卡+1更新→lint clean), 两agent产能同步提升"
 blockers:
-  - "王语嫣角色升级裁决——AGENTS.md中是否将Consultant升级为草稿生产者？待欧阳锋拍板"
-  - "老顽童建模域案例补充(AI skills/直播SOP/讲师遴选+6案例)——见corr_20260614_laowantong-modeling-case-supplement.md"
+  - "王语嫣角色升级裁决——待欧阳锋拍板"
+  - "老顽童建模域案例补充(3案例+6案例)——见corr_20260614_laowantong-modeling-case-supplement.md"
   - "智能药柜19张卡待迁移(P0)"
 next_session_hint: "用户说'继续'→ ① 欧阳锋角色裁决；② 老顽童案例补充进度；③ 智能药柜19张卡迁移；④ 业务公式域已完成，可审查"
 ---
@@ -59,8 +59,8 @@ next_session_hint: "用户说'继续'→ ① 欧阳锋角色裁决；② 老顽�
 ### 各角色当前任务
 - **黄药师**：O/Q/S/P pipeline + 5 张建模卡 + kdo 修复 + 多份审查
 - **欧阳锋**：待裁决（王语嫣角色升级 + 68条录音处置）
-- **老顽童**：系统审计(A) + 业务公式域完成 + 建模案例待补
-- **王语嫣**：原文回填完成 + confidence 诚实降级
+- **老顽童**：系统审计(A) + 业务公式域全管线(A, OCR自修) + 建模案例待补
+- **王语嫣**：复合卡回填完工(A, 129断言→10移+6条+19核, 全员锁0.65)
 - **洪七公**：待命
 - **段王爷**：待命
 
