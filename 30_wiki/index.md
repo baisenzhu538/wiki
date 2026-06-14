@@ -1,8 +1,14 @@
 # Wiki Index
 
 
-_Last updated: 2026-06-14T23:30:00+00:00_
+_Last updated: 2026-06-15T00:05:00+00:00_
 
+- [自助售药机国家政策与红线（2024 年第 48 号公告解读）](concepts/smart-medicine-cabinet-national-policy-redlines.md) — source src_20260613_60c91b70 src_20260613_26c69f98 src_20260613_6ed8df4b
+- [各省市自助售药机政策差异地图](concepts/smart-medicine-cabinet-regional-policy-map.md) — source src_20260613_60c91b70 src_20260613_26c69f98 src_20260613_6ed8df4b
+- [智能药柜单点财务模型与回本测算表](tools/smart-medicine-cabinet-financial-model.md) — source src_20260613_0e40f3cd src_20260613_26c69f98 src_20260613_6ed8df4b
+- [智能药柜/智慧药房招商骗局识别清单](tools/smart-medicine-cabinet-fraud-detection.md) — source src_20260613_3b5c7fdb src_20260613_26c69f98 src_20260613_6ed8df4b
+- [医药 O2O 成本与毛利结构](concepts/smart-medicine-cabinet-o2o-cost-structure.md) — source src_20260613_0e40f3cd src_20260613_26c69f98 src_20260613_6ed8df4b
+- [诊所 + 智能药柜协同模式：一线观察与风险提示](cases/smart-medicine-cabinet-clinic-risk-observation.md) — source src_20260613_1deb50c8 src_20260613_5f96c5bb src_20260613_420e8085 src_20260613_309b7b52 src_20260613_36a21181 src_20260613_dafb968a
 - [业务公式 ABC 模型（Ambition-Basis-Connection）](frameworks/yt-business-formula-abc-model.md) — source src_20260613_6edbf0af src_20260613_91f90839 src_20260614_6d9f7671
 - [一堂业务公式十大经典范式](concepts/yt-business-formula-ten-paradigms.md) — source src_20260613_8bfdc3d1 src_20260613_6edbf0af
 - [业务公式参数冰山（L1-L6）](concepts/yt-business-formula-parameter-iceberg.md) — source src_20260613_fa7b370d src_20260613_6edbf0af

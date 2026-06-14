@@ -12,7 +12,6 @@ source_refs:
 - src_20260613_26c69f98
 - src_20260613_6ed8df4b
 - src_20260613_5f96c5bb
-- 国家药监局 2024 年第 48 号公告
 tags:
 - '#smart-medicine-cabinet'
 created_at: '2026-06-14'
