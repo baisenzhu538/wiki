@@ -1,4 +1,7 @@
 import { loadApiKey, requestJSON } from './config.js';
+import { fileURLToPath } from 'node:url';
+
+const isMain = process.argv[1] === fileURLToPath(import.meta.url);
 
 function parseArgs(argv) {
   const args = {};
@@ -108,7 +111,9 @@ async function main() {
   console.log(JSON.stringify(result, null, 2));
 }
 
-main().catch((err) => {
-  console.error(err.message || err);
-  process.exit(1);
-});
+if (isMain) {
+  main().catch((err) => {
+    console.error(err.message || err);
+    process.exit(1);
+  });
+}

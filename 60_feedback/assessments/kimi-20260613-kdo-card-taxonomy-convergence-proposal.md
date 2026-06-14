@@ -1,39 +1,19 @@
 ---
 title: "KDO 卡片类型体系收敛建议：明确四卡体系与 Agent-native 类型的关系及迁移规则"
-type: decision
-status: proposed
-domain:
-  - master
-created_at: "2026-06-13"
-updated_at: "2026-06-13"
-target_roles:
-  - 欧阳锋（Architect）
-  - 黄药师（Builder）
-  - 老顽童（Producer）
-reviewer: 欧阳锋
 author: Kimi Code CLI
-related:
-  - "[[kdo-system-manual]]"
-  - "[[kdo-industrialization-manual]]"
-  - "[[PROTOCOL]]"
-  - "[[AGENTS]]"
-  - "[[agent-native-card-design]]"
-  - "[[high-density-composite-compilation-strategy]]"
-tags:
-  - "#kdo"
-  - "#architecture"
-  - "#taxonomy"
-trust_level: medium
+reviewer: 欧阳锋
+status: draft
+domain: kdo-methodology
+created: 2026-06-13
 ---
 
-# KDO 卡片类型体系收敛建议
+## 背景
 
-> **触发**：在执行 yt-* 概念卡 L2 精修（237 张）和七件事集团素材入库过程中，发现控制文件对卡片类型的描述存在不一致，执行者难以判断应以哪套体系为准。
-> **目的**：请求欧阳锋裁决并统一 KDO 的卡片类型体系，避免后续量产和 lint 规则继续漂移。
+2026-06-13，在执行 yt-* 概念卡 L2 精修（237 张）和七件事集团素材入库过程中，发现控制文件对卡片类型的描述存在不一致，执行者难以判断应以哪套体系为准。本评估记录观察到的张力，并提出收敛建议，请欧阳锋裁决。
 
 ---
 
-## 一、观察到的张力
+## 观察到的张力
 
 当前控制文件对 KDO 知识原子的定义存在两套并行体系：
 
@@ -54,7 +34,7 @@ trust_level: medium
 
 ---
 
-## 二、不收敛的风险
+## 不收敛的风险
 
 | 风险 | 表现 | 触发场景 |
 |------|------|---------|
@@ -66,7 +46,7 @@ trust_level: medium
 
 ---
 
-## 三、建议方案
+## 建议方案
 
 ### 方案 A（推荐）：明确以 Agent-native 体系为唯一当前标准，四卡体系降级为历史概念
 
@@ -119,7 +99,7 @@ trust_level: medium
 
 ---
 
-## 四、推荐方案的收益与成本
+## 推荐方案的收益与成本
 
 | 收益 | 成本 |
 |------|------|
@@ -131,7 +111,7 @@ trust_level: medium
 
 ---
 
-## 五、实施清单（如方案 A 被采纳）
+## 实施清单（如方案 A 被采纳）
 
 - [ ] 欧阳锋确认最终 `type` 枚举和白名单
 - [ ] 黄药师更新 `kdo-system-manual.md` §三及 §十中关于四卡的表述
@@ -139,11 +119,11 @@ trust_level: medium
 - [ ] 黄药师更新 `PROTOCOL.md` §3 Entity Types 与最终枚举对齐
 - [ ] 黄药师更新 `kdo lint` 的 `type` 白名单校验规则
 - [ ] 老顽童在后续 L2/L3 升级中按结构类型重分类存量卡
-- [ ] 欧阳锋审查更新后的控制文件并关闭本 decision
+- [ ] 欧阳锋审查更新后的控制文件并关闭本评估
 
 ---
 
-## 六、请求欧阳锋裁决
+## 请求欧阳锋裁决
 
 请欧阳锋就以下两点给出决策：
 
