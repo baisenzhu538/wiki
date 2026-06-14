@@ -15,7 +15,7 @@ updated_at: 2026-05-31
 related:
   - dk-f7-surface-translation
   - master-first-principles
-contradicts:
+related:
   - master-first-principles
   - dk-c8-format-complete-mind-empty
   - kdo-flywheel

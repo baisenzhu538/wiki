@@ -15,7 +15,7 @@ updated_at: 2026-05-31
 related:
   - dk-p15-claimed-done-not-verified
   - master-systems-thinking
-contradicts:
+related:
   - master-first-principles
   - master-systems-thinking
 pipeline:

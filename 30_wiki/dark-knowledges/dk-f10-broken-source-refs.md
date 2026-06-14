@@ -15,7 +15,7 @@ updated_at: 2026-05-31
 related:
   - dk-f7-surface-translation
   - master-first-principles
-contradicts:
+related:
   - master-first-principles
   - master-ai-info-literacy
 pipeline:

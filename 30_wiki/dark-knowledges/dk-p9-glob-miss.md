@@ -14,7 +14,7 @@ created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
   - dk-p8-toolkit-forget
-contradicts:
+related:
   - master-first-principles
   - master-ai-info-literacy
 pipeline:

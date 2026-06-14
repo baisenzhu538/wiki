@@ -6,18 +6,21 @@ domain:
 source_refs:
   - src_20260522_65a78106
 status: draft
-title: "OCR: 泛产品设计-审美工具箱指南"
+title: "OCR: 泛产品设计-审美工具箱指南（待校审，视觉结构丢失）"
 type: concept
-updated_at: 2026-05-22
+updated_at: 2026-06-15
 pipeline:
   - confidence-source-cited
 author: "老顽童"
-reviewed_by: pending
-confidence: 0.6
+reviewed_by: 老顽童
+review_date: 2026-06-15
+confidence: 0.35
 trust_level: low
 ---
 
-# OCR: 泛产品设计-审美工具箱指南
+# OCR: 泛产品设计-审美工具箱指南（待校审，视觉结构丢失）
+
+> ⚠️ **校审结论**：OCR 识别存在较多错误（如“豆屏”“江信合场景”等），原图视觉层级和工具箱结构未能完整提取。当前内容仅为“最佳实践四阶段”等碎片化洞察，不建议直接作为工具使用。建议结合原图人工校对或等待 skill-月白 系列审美相关卡片作为替代来源。
 
 ## Summary
 

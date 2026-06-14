@@ -15,7 +15,7 @@ updated_at: 2026-06-03
 related:
   - dk-c8-format-complete-mind-empty
   - dk-f7-surface-translation
-contradicts:
+related:
   - master-knowledge-compound
   - kdo-flywheel
   - master-ai-info-literacy

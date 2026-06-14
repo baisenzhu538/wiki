@@ -16,7 +16,7 @@ updated_at: 2026-06-11
 related:
   - dk-yb10-theory-moat-designer
   - master-first-principles
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

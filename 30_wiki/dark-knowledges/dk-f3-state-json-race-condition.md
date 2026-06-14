@@ -15,7 +15,7 @@ updated_at: 2026-05-31
 related:
   - dk-c10-batch-tool-no-dry-run
   - master-systems-thinking
-contradicts:
+related:
   - dk-c10-batch-tool-no-dry-run
   - master-systems-thinking
 pipeline:

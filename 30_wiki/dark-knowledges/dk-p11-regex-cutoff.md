@@ -14,7 +14,7 @@ created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
   - dk-f13-handwritten-yaml-parser
-contradicts:
+related:
   - master-first-principles
   - kdo-yaml-frontmatter-safety
 pipeline:

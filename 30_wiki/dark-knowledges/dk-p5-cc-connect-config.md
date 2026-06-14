@@ -16,7 +16,7 @@ related:
   - dk-p1-model-switch-env
   - dk-p2-tmux-cache
   - dk-p6-session-resume-fail
-contradicts:
+related:
   - master-systems-thinking
   - master-first-principles
 pipeline:

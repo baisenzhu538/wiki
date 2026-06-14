@@ -15,7 +15,7 @@ updated_at: 2026-06-04
 related:
   - dk-yb5-style-asset-archive
   - dk-yb1-aigc-mvp-before-ps
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

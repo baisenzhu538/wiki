@@ -15,7 +15,7 @@ updated_at: 2026-05-31
 related:
   - dk-c1-regex-on-cjk
   - master-systems-thinking
-contradicts:
+related:
   - kdo-yaml-frontmatter-safety
   - master-first-principles
 pipeline:

@@ -15,7 +15,7 @@ updated_at: 2026-06-04
 related:
   - dk-yb12-ai-image-analysis-replace-training
   - dk-yb15-reverse-image-description
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

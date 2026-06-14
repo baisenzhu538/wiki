@@ -15,7 +15,7 @@ updated_at: 2026-05-31
 related:
   - dk-f1-regex-on-cjk
   - master-ai-info-literacy
-contradicts:
+related:
   - dk-f1-regex-on-cjk
   - master-ai-info-literacy
 pipeline:

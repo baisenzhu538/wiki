@@ -15,7 +15,7 @@ updated_at: 2026-06-03
 related:
   - dk-f4-wrong-workdir
   - dk-p3-auth-cache
-contradicts:
+related:
   - master-systems-thinking
   - master-first-principles
 pipeline:

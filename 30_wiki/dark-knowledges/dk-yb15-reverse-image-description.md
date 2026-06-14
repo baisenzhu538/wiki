@@ -14,7 +14,7 @@ created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - dk-yb14-multi-image-commonality
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

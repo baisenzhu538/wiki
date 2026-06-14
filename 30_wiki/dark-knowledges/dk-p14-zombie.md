@@ -14,7 +14,7 @@ created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
   - dk-p13-token-burn
-contradicts:
+related:
   - master-systems-thinking
   - master-decision-hygiene
 pipeline:

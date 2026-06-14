@@ -15,7 +15,7 @@ updated_at: 2026-05-31
 related:
   - dk-c8-format-complete-mind-empty
   - master-cognitive-bias-checklist
-contradicts:
+related:
   - master-cognitive-bias-checklist
   - master-first-principles
 pipeline:

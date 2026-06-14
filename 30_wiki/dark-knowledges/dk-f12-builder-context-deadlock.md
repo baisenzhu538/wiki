@@ -15,7 +15,7 @@ updated_at: 2026-05-31
 related:
   - dk-c6-large-source-overflow
   - master-systems-thinking
-contradicts:
+related:
   - master-first-principles
   - kdo-flywheel
   - master-systems-thinking

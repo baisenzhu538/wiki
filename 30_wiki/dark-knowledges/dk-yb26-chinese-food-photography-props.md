@@ -15,7 +15,7 @@ updated_at: 2026-06-04
 related:
   - dk-yb17-product-lifestyle-photography
   - dk-yb19-visual-strategy-price-match
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

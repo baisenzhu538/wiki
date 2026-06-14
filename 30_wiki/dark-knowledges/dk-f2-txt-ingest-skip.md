@@ -15,7 +15,7 @@ updated_at: 2026-05-31
 related:
   - dk-c3-txt-ingest-skip
   - master-ai-info-literacy
-contradicts:
+related:
   - dk-c3-txt-ingest-skip
   - master-ai-info-literacy
 pipeline:

@@ -15,7 +15,7 @@ updated_at: 2026-06-04
 related:
   - dk-yb11-visual-book-reverse
   - dk-yb13-zero-shot-style-transfer
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

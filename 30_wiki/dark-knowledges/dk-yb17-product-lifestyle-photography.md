@@ -15,7 +15,7 @@ updated_at: 2026-06-04
 related:
   - dk-yb16-ecommerce-product-image-vs-lucky-draw
   - dk-yb19-visual-strategy-price-match
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

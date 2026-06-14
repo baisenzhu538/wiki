@@ -17,7 +17,7 @@ related:
   - dk-yb1-aigc-mvp-before-ps
   - dk-yb8-file-naming-eight-elements
   - "concept-纪浩-ai-collaboration-methodology"
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

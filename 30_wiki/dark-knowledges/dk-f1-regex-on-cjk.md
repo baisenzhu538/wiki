@@ -15,7 +15,7 @@ updated_at: 2026-05-31
 related:
   - dk-c1-cjk-regex-silent-fail
   - master-ai-info-literacy
-contradicts:
+related:
   - dk-c1-cjk-regex-silent-fail
   - master-ai-info-literacy
 pipeline:

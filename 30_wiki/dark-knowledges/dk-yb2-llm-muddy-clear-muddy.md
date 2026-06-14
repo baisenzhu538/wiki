@@ -15,7 +15,7 @@ updated_at: 2026-06-04
 related:
   - dk-yb3-diffusion-stepwise-vs-human-holistic
   - master-knowledge-compound
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

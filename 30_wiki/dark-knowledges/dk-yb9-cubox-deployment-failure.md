@@ -17,7 +17,7 @@ updated_at: 2026-06-11
 related:
   - yt-management-toolkit-overview
   - "concept-纪浩-ai-collaboration-methodology"
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

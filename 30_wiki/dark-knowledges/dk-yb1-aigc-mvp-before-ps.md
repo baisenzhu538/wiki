@@ -17,7 +17,7 @@ related:
   - dk-yb5-style-asset-archive
   - dk-yb8-file-naming-eight-elements
   - yt-entrepreneur-lean-validation
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

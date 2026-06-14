@@ -15,7 +15,7 @@ updated_at: 2026-06-03
 related:
   - dk-p1-model-switch-env
   - dk-p5-cc-connect-config
-contradicts:
+related:
   - master-systems-thinking
   - master-first-principles
 pipeline:

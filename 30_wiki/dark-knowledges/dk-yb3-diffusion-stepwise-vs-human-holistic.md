@@ -14,7 +14,7 @@ created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - dk-yb2-llm-muddy-clear-muddy
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

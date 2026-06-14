@@ -14,7 +14,7 @@ created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
   - dk-p7-ocr-skip
-contradicts:
+related:
   - master-ai-info-literacy
   - master-first-principles
 pipeline:

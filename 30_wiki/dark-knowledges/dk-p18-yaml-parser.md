@@ -15,7 +15,7 @@ updated_at: 2026-06-03
 related:
   - dk-f13-handwritten-yaml-parser
   - dk-p11-regex-cutoff
-contradicts:
+related:
   - kdo-yaml-frontmatter-safety
   - master-first-principles
 pipeline:

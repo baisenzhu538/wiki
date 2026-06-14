@@ -6,18 +6,21 @@ domain:
 source_refs:
   - src_20260522_26271f58
 status: draft
-title: "OCR: 一堂-科学决策-深度-L4严格财务公式"
+title: "OCR: 一堂-科学决策-深度-L4严格财务公式（待校审，不建议直接使用）"
 type: concept
-updated_at: 2026-05-22
+updated_at: 2026-06-15
 pipeline:
   - confidence-source-cited
 author: "老顽童"
-reviewed_by: pending
-confidence: 0.6
+reviewed_by: 老顽童
+review_date: 2026-06-15
+confidence: 0.3
 trust_level: low
 ---
 
-# OCR: 一堂-科学决策-深度-L4严格财务公式
+# OCR: 一堂-科学决策-深度-L4严格财务公式（待校审，不建议直接使用）
+
+> ⚠️ **校审结论**：本卡 OCR 质量低，公式变量 A/B/C/D 与 X/Y/Z 的具体定义、来源和闭合方式均未识别，原图视觉结构丢失。仅保留 `(A+B+C+D)/(X+Y+Z)` 骨架作为检索线索，不建议作为决策依据直接使用。如需使用，必须先人工校对原图并补齐变量定义。
 
 
 

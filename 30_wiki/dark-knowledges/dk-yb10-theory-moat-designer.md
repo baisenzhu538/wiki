@@ -15,7 +15,7 @@ created_at: 2026-06-04
 updated_at: 2026-06-11
 related:
   - yt-barrier-identification-skill
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

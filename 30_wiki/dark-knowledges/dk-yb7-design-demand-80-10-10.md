@@ -17,7 +17,7 @@ updated_at: 2026-06-11
 related:
   - yt-entrepreneur-needs-analysis
   - yt-barrier-identification-skill
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

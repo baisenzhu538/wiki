@@ -14,7 +14,7 @@ created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
   - dk-p15-unverified
-contradicts:
+related:
   - master-decision-hygiene
   - master-knowledge-compound
 pipeline:

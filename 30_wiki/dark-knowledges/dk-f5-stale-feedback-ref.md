@@ -15,7 +15,7 @@ updated_at: 2026-05-31
 related:
   - dk-c4-selfcheck-superseded
   - master-systems-thinking
-contradicts:
+related:
   - dk-c4-selfcheck-superseded
   - master-systems-thinking
 pipeline:

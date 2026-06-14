@@ -15,7 +15,7 @@ updated_at: 2026-05-31
 related:
   - dk-c10-batch-tool-no-dry-run
   - master-decision-hygiene
-contradicts:
+related:
   - dk-c10-batch-tool-no-dry-run
   - master-decision-hygiene
 pipeline:

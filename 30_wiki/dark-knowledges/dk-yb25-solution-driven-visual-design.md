@@ -14,7 +14,7 @@ created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - dk-yb7-design-demand-80-10-10
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

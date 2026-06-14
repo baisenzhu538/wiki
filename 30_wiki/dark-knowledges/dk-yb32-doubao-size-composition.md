@@ -14,7 +14,7 @@ created_at: 2026-06-04
 updated_at: 2026-06-04
 related:
   - dk-yb23-ai-pre-screen-three-minutes
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

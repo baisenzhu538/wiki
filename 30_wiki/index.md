@@ -353,7 +353,6 @@ _Last updated: 2026-06-15T00:05:00+00:00_
 - [[concepts/ocr-一堂-单元模型-规模经济对抗武器库.md|OCR: 一堂-单元模型-规模经济对抗武器库]] — source `src_20260609_cef13c36`
 - [[concepts/ocr-一堂-单元模型-象限分析法.md|OCR: 一堂-单元模型-象限分析法]] — source `src_20260609_e5bcd951`
 - [[concepts/ocr-一堂-地图-个人地图.md|OCR: 一堂-地图-个人地图]] — source `src_20260522_40d2aee5`
-- [[concepts/ocr-一堂-地图-个人地图_conv.md|OCR: 一堂-地图-个人地图_conv]] — source `src_20260522_bd0dca98`
 - [[concepts/ocr-一堂-地图-创业地图.md|OCR: 一堂-地图-创业地图]] — source `src_20260522_c1935261`
 - [[concepts/ocr-一堂-地图-创业地图_conv.md|OCR: 一堂-地图-创业地图_conv]] — source `src_20260522_2954d80a`
 - [[concepts/ocr-一堂-地图-管理地图.md|OCR: 一堂-地图-管理地图]] — source `src_20260522_af67f9b0`

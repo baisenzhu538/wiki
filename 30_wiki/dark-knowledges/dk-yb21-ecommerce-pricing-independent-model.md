@@ -17,7 +17,7 @@ related:
   - dk-yb19-visual-strategy-price-match
   - dk-yb7-design-demand-80-10-10
   - yt-entrepreneur-unit-model
-contradicts: 
+related: 
 pipeline:
   - confidence-draft
   - confidence-source-cited

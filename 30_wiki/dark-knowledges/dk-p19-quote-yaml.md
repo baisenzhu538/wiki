@@ -14,7 +14,7 @@ created_at: 2026-06-03
 updated_at: 2026-06-03
 related:
   - dk-p18-yaml-parser
-contradicts:
+related:
   - kdo-yaml-frontmatter-safety
   - master-first-principles
 pipeline:

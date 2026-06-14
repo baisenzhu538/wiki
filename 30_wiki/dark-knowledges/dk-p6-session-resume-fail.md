@@ -15,7 +15,7 @@ updated_at: 2026-06-03
 related:
   - dk-p5-cc-connect-config
   - dk-p2-tmux-cache
-contradicts:
+related:
   - master-systems-thinking
   - master-first-principles
 pipeline:
