@@ -2,6 +2,9 @@
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
+| case-personal-map-modeling | 案例：一堂个人地图的完整建模过程 | case | yitang, modeling |
+| concept-thousand-people-square | 千人广场模型：一堂做课背后的统计建模理念 | concept | yitang, education |
+| framework-course-milestone-model | 课程里程碑模型：一堂做课的七步生产流程 | framework | yitang, education |
 | 2026-05-17-深夜感想 | 2026-05-17 深夜感想 | concept | ai-saas |
 | ai-native-五层进阶从答案到效率到作品到产品到系统 | “AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统” | “framework” | ai-saas |
 | ai-short-drama-ice-fire-scripting-compass | 冰火写本罗盘：AI短剧剧本策划全流程体系 | concept | yitang, ai-collaboration, product |
