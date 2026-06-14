@@ -8,7 +8,6 @@ domain:
 - ai-collaboration
 - learning-methodology
 source_refs:
-- theme-ai-methodology-tools-summary
 - src_20260614_071928f4
 - src_20260614_dec1c1fe
 - src_20260614_5f13a66f

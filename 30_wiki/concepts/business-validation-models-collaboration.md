@@ -18,7 +18,6 @@ source_refs:
 - src_20260614_350272ef
 - src_20260614_086550ab
 - src_20260614_1a0a6efa
-- theme-other-summary
 - src_20260614_7e8857b8
 tags:
 - "#ai-application"
