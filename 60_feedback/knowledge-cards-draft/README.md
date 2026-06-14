@@ -27,8 +27,10 @@
 | `kc_p1_09_giants_why_not_clinic_cabinet.md` | 巨头为何不做诊所+智能药柜 | analysis | 阿里/京东/美团/叮当/平安均未进入诊所+药柜的六维壁垒分析 |
 | `kc_p1_10_medical_shortvideo_compliance_for_clinics.md` | 诊所医疗短视频/个人 IP 合规边界 | tool | 抖音/视频号/小红书/快手医疗内容规则、MCN 代运营禁令、AI 文案风险 |
 | `kc_p1_11_clinic_cabinet_legal_relationships.md` | 诊所+智能药柜合作的法律关系与合同要点 | tool | 五种法律关系对比、合同核心条款、利润分成税务处理 |
-| `kc_p1_12_site_selection_deep_dive.md` | 智能药柜选址深度指南：场景、指标与验证方法 | tool | 五大场景选址对比、关键量化指标、低成本验证方法 |
-| `kc_p1_13_failure_patterns_case_library.md` | 智能药柜失败模式案例库 | case | 修正未来药房、广西试点、叮当关城、政策收紧等失败案例共因分析 |
+| `kc_p1_12_site_selection_deep_dive.md` | 智能药柜选址深度指南：场景、指标与验证方法 | tool | 五大场景选址对比、关键量化指标、低成本验证方法、下沉市场与特殊场景 |
+| `kc_p1_13_failure_patterns_case_library.md` | 智能药柜失败模式案例库 | case | 修正未来药房、广西试点、叮当关城、政策收紧、国际失败案例等共因分析 |
+| `kc_p1_14_consumer_behavior_and_willingness.md` | 消费者购药行为与智能药柜接受度 | concept | 夜间用药需求、信任障碍排序、支付意愿、购药渠道偏好 |
+| `kc_p1_15_international_experience.md` | 国际自动取药机/药房模式经验与启示 | analysis | 日本/美国/欧洲模式对比、成功因素、失败教训、对中国的启示 |
 
 ### 一线验证素材
 
@@ -57,6 +59,8 @@
 | `kc_p1_11_clinic_cabinet_legal_relationships` | `master-decision-hygiene`、`master-antifragile-checklist` |
 | `kc_p1_12_site_selection_deep_dive` | `yt-unit-model-three-tools`、`master-decision-hygiene` |
 | `kc_p1_13_failure_patterns_case_library` | `master-cognitive-bias-checklist`、`master-antifragile-checklist` |
+| `kc_p1_14_consumer_behavior_and_willingness` | `master-cognitive-bias-checklist`、`master-decision-hygiene` |
+| `kc_p1_15_international_experience` | `master-systems-thinking`、`master-decision-hygiene` |
 
 迁移前建议：
 
@@ -68,6 +72,8 @@
 6. 由战略/投资同事复核 P1-09 巨头竞争格局分析。
 7. 由零售运营/选址专家复核 P1-12 选址深度指南。
 8. 由风控/投资同事复核 P1-13 失败模式案例库。
+9. 由市场研究/消费者洞察同事复核 P1-14 消费者行为与接受度。
+10. 由国际业务/医药监管同事复核 P1-15 国际经验。
 
 ---
 
@@ -77,6 +83,7 @@
 - `corr_20260613_smart-medicine-cabinet-knowledge-cards-proposal.md`（知识卡建议清单）
 - `corr_20260613_smart-medicine-cabinet-research-gaps-and-validation-needs.md`（待验证缺口清单）
 - `corr_20260613_smart-medicine-cabinet-iteration-8-synthesis.md`（第八轮深挖综合总结）
+- `corr_20260613_smart-medicine-cabinet-iteration-9-synthesis.md`（第九轮深挖综合总结）
 - `corr_20260613_guangzhou-phone-inquiry-scripts.md`（广州医保/卫健电话咨询脚本）
 - `corr_20260613_vendor-evidence-request-checklist.md`（推销方实证索取清单）
 - `corr_20260613_clinic-interview-bias-correction-report.md`（诊所访谈偏见纠偏报告）

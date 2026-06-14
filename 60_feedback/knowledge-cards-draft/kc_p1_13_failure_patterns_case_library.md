@@ -22,6 +22,7 @@ related:
   - "kc-p0-04-fraud-detection"
   - "kc-p0-06-clinic-cabinet-risk-observation"
   - "kc-p1-12-site-selection-deep-dive"
+  - "kc-p1-15-international-experience"
   - "master-cognitive-bias-checklist"
   - "master-antifragile-checklist"
 reviewed_by: ""
@@ -31,6 +32,8 @@ source_refs:
   - "corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive.md"
   - "corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures.md"
   - "corr_20260613_smart-medicine-cabinet-iteration-8-synthesis.md"
+  - "corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison.md"
+  - "corr_20260613_smart-medicine-cabinet-iteration-9-synthesis.md"
 status: "draft"
 title: "智能药柜失败模式案例库"
 trust_level: "high"
@@ -119,7 +122,18 @@ pipeline:
 | 重庆 | 曾允许非处方药（含甲类 OTC） | 2024 年 11 月新细则收紧为仅乙类 OTC | 政策红利消失 |
 | 陕西 | 2024 年征求意见稿拟允许处方药/甲类 OTC | 正式文件未找到 | 政策不确定性 |
 
-### 6. 失败模式共因提炼
+### 6. 案例六：国际市场失败案例（第九轮新增）
+
+| 公司/案例 | 地区 | 模式 | 失败原因 | 与中国案例的同构性 |
+|---|---|---|---|---|
+| **MedAvail** | 美国 | 处方柜/远程药房 kiosk | 需求不足、医保支付壁垒、点位成本高、商业模式未跑通 | 与修正未来药房高度同构：过度依赖"便利性"，忽视医保和点位质量 |
+| **NimbleRx** | 美国 | 即时处方配送 | 合规成本和盈利压力受限，扩张受控 | 与叮当健康关城类似：即时医药履约成本高 |
+| **Pharmaca** | 美国 | 精品药房连锁 | 竞争压力和扩张过快导致破产 | 与连锁药店 O2O 盈利分化类似：精品/高毛利模式难以规模化 |
+| **欧洲多国自动售药机尝试** | 法国/意大利等 | 街头自动售药机 | 法律明确禁止或严格限制 | 与中国"仅乙类 OTC"政策限制类似：SKU 受限导致商业模式不成立 |
+
+**国际失败共因**：SKU 受限、需求低频、医保支付壁垒、监管合规成本、点位质量差。这与修正未来药房、广西试点等中国案例高度一致，说明**问题具有普遍性，不是中国市场特有**。
+
+### 8. 失败模式共因提炼
 
 | 失败模式 | 具体表现 | 预警信号 | 规避方法 |
 |---|---|---|---|
@@ -130,7 +144,7 @@ pipeline:
 | **医保/合规违规** | 销售处方药、甲类 OTC、个账支付违规 | 推销方暗示可绕过监管 | 向药监/医保部门书面确认 |
 | **成本失控** | 设备、租金、运维、合规成本超预算 | 低估隐性成本、无资金储备 | 做保守财务模型，预留 6–12 个月运营资金 |
 
-### 7. 诊所+药柜模式特有的失败风险
+### 9. 诊所+药柜模式特有的失败风险
 
 | 风险 | 说明 | 案例/证据 |
 |---|---|---|
