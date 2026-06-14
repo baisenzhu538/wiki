@@ -1,6 +1,4 @@
 ---
-
-
 domain:
   - personal-growth
   - decision-making

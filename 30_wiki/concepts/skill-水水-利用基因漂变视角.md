@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-水水-利用基因漂变视角"
 title: "技能：利用基因漂变视角"
-type: "skill"
-domain:
-  - master
+type: "skill"  - master
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

@@ -1,16 +1,12 @@
 ---
-
-
 title: 高密度素材编译策略（修订）
-type: decision
-domain:
+type: decisiondomain:
   - product
   - design
   - decision-making
   - ai-saas
   - personal-growth
   - kdo
-domain:
 status: revised
 version: '2.0'
 supersedes: v1.0（复合编译方案，已废弃）

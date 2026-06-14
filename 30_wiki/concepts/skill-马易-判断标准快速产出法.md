@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-马易-判断标准快速产出法"
 title: "技能：判断标准快速产出法"
-type: "skill"
-domain:
-  - ai-saas
+type: "skill"  - ai-saas
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

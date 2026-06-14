@@ -1,16 +1,8 @@
 ---
-
-
-
-
 id: "skill-Truman-问题定义澄清法"
 title: "技能：问题定义澄清法"
-type: "skill"
-domain:
-  - yitang
+type: "skill"  - yitang
   - ai-collaboration
-domain:
-domain:
 status: "draft"
 domain:
 author: "legacy"

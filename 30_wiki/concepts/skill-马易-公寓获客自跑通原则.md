@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-马易-公寓获客自跑通原则"
 title: "技能：公寓获客自跑通原则"
-type: "skill"
-domain:
-  - ai-saas
+type: "skill"  - ai-saas
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

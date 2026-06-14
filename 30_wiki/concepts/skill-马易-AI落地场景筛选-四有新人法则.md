@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-马易-AI落地场景筛选-四有新人法则"
 title: "技能：AI落地场景筛选-四有新人法则"
-type: "skill"
-domain:
-  - ai-saas
+type: "skill"  - ai-saas
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

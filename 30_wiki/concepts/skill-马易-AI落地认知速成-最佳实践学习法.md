@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-马易-AI落地认知速成-最佳实践学习法"
 title: "技能：AI落地认知速成-最佳实践学习法"
-type: "skill"
-domain:
-  - ai-saas
+type: "skill"  - ai-saas
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

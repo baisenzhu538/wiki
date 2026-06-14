@@ -1,6 +1,4 @@
 ---
-
-
 domain:
   - management
 tags:

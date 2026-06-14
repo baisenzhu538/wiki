@@ -1,16 +1,8 @@
 ---
-
-
-
-
 id: "skill-李诞-个人IP的重新定义与输出策略"
 title: "技能：个人IP的重新定义与输出策略"
-type: "skill"
-domain:
-  - personal-growth
+type: "skill"  - personal-growth
   - yitang
-domain:
-domain:
 status: "draft"
 domain:
 author: "legacy"

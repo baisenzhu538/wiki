@@ -1,16 +1,8 @@
 ---
-
-
-
-
 id: "skill-李诞-内容创作中的观察训练法"
 title: "技能：内容创作中的观察训练法"
-type: "skill"
-domain:
-  - personal-growth
+type: "skill"  - personal-growth
   - yitang
-domain:
-domain:
 status: "draft"
 domain:
 author: "legacy"

@@ -1,6 +1,4 @@
 ---
-
-
 domain:
   - finance-legal
   - product

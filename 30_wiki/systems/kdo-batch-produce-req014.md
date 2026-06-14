@@ -1,14 +1,11 @@
 ---
-
-
 title: REQ-014 批量 Produce 12 篇 Enriched 页面技术说明
 author: 黄药师 (Builder)
 source_context: KDO infrastructure decision — internal design record
 source_refs: []
 role: Knowledge Builder
 created_at: '2026-05-04'
-status: proposed
-domain:
+status: proposeddomain:
   - master
   - kdo
   - product
@@ -18,7 +15,6 @@ dependency: 22 篇 wiki 页面已完成 enrich，其中 12 篇尚无产出物
 id: kdo-batch-produce-req014
 type: concept
 domain:
-domain: null
 reviewed_by: pending
 confidence: 0.65
 trust_level: low

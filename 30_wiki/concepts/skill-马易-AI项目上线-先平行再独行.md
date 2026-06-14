@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-马易-AI项目上线-先平行再独行"
 title: "技能：AI项目上线-先平行再独行"
-type: "skill"
-domain:
-  - ai-saas
+type: "skill"  - ai-saas
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

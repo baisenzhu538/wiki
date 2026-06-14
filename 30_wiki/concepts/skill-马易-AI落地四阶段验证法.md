@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-马易-AI落地四阶段验证法"
 title: "技能：AI落地四阶段验证法"
-type: "skill"
-domain:
-  - ai-saas
+type: "skill"  - ai-saas
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

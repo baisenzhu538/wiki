@@ -1,15 +1,11 @@
 ---
-
-
 plan_id: plan_20260501_8ecb74e3
-type: improvement-plan
-domain:
+type: improvement-plandomain:
   - decision-making
   - finance-legal
   - business-strategy
   - ai-saas
   - kdo
-domain:
 status: draft
 created_at: '2026-05-01T05:27:34+00:00'
 feedback_count: 33

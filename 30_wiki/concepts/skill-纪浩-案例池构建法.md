@@ -1,16 +1,8 @@
 ---
-
-
-
-
 id: "skill-纪浩-案例池构建法"
 title: "技能：案例池构建法"
-type: "skill"
-domain:
-  - ai-collaboration
+type: "skill"  - ai-collaboration
   - yitang
-domain:
-domain:
 status: "draft"
 domain:
 author: "legacy"

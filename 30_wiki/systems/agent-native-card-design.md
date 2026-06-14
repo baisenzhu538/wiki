@@ -1,5 +1,4 @@
 ---
-
 id: "agent-native-card-design"
 title: Agent 原生知识卡设计规范 v2
 type: system

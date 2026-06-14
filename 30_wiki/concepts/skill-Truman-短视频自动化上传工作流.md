@@ -1,16 +1,8 @@
 ---
-
-
-
-
 id: "skill-Truman-短视频自动化上传工作流"
 title: "技能：短视频自动化上传工作流"
-type: "skill"
-domain:
-  - yitang
+type: "skill"  - yitang
   - ai-collaboration
-domain:
-domain:
 status: "draft"
 domain:
 author: "legacy"

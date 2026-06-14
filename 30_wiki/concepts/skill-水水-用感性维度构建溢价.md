@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-水水-用感性维度构建溢价"
 title: "技能：用感性维度构建溢价"
-type: "skill"
-domain:
-  - master
+type: "skill"  - master
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

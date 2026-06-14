@@ -1,16 +1,8 @@
 ---
-
-
-
-
 id: "skill-Truman-AI辅助思考伙伴养成"
 title: "技能：AI辅助思考伙伴养成"
-type: "skill"
-domain:
-  - yitang
+type: "skill"  - yitang
   - ai-collaboration
-domain:
-domain:
 status: "draft"
 domain:
 author: "legacy"

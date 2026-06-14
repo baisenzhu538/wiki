@@ -1,16 +1,8 @@
 ---
-
-
-
-
 id: "skill-纪浩-多视角切换思考法"
 title: "技能：多视角切换思考法"
-type: "skill"
-domain:
-  - ai-collaboration
+type: "skill"  - ai-collaboration
   - yitang
-domain:
-domain:
 status: "draft"
 domain:
 author: "legacy"

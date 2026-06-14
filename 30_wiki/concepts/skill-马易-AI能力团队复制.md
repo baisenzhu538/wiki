@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-马易-AI能力团队复制"
 title: "技能：AI能力团队复制"
-type: "skill"
-domain:
-  - ai-saas
+type: "skill"  - ai-saas
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

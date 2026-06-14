@@ -1,16 +1,8 @@
 ---
-
-
-
-
 id: "skill-纪浩-识别AI不可维护代码"
 title: "技能：识别AI不可维护代码"
-type: "skill"
-domain:
-  - ai-collaboration
+type: "skill"  - ai-collaboration
   - yitang
-domain:
-domain:
 status: "draft"
 domain:
 author: "legacy"

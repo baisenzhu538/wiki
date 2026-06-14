@@ -1,18 +1,11 @@
 ---
-
-
-
 id: "skill-ai-oral-spray-input"
 title: "技能：用口喷输入法生成高质量 AI 提示词"
-type: "skill"
-domain:
-  - product
+type: "skill"  - product
   - management
   - ai-saas
   - personal-growth
   - yitang
-domain:
-domain:
 status: "draft"
 domain:
 author: "legacy"

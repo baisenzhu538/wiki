@@ -1,16 +1,8 @@
 ---
-
-
-
-
 id: "skill-Truman-技术社区严肃提问法"
 title: "技能：技术社区严肃提问法"
-type: "skill"
-domain:
-  - yitang
+type: "skill"  - yitang
   - ai-collaboration
-domain:
-domain:
 status: "draft"
 domain:
 author: "legacy"

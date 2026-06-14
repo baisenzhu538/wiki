@@ -1,13 +1,9 @@
 ---
-
-
 plan_id: plan_20260503_f3e9a2b1
-type: improvement-plan
-domain:
+type: improvement-plandomain:
   - kdo
   - ai-saas
   - decision-making
-domain:
 status: draft
 created_at: '2026-05-03T12:00:00+00:00'
 feedback_count: 1

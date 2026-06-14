@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-马易-隐性知识萃取与模型化"
 title: "技能：隐性知识萃取与模型化"
-type: "skill"
-domain:
-  - ai-saas
+type: "skill"  - ai-saas
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

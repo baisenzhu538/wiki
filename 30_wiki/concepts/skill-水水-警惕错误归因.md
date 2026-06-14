@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-水水-警惕错误归因"
 title: "技能：警惕错误归因"
-type: "skill"
-domain:
-  - master
+type: "skill"  - master
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

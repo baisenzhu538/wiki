@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-马易-关键假设识别与验证"
 title: "技能：关键假设识别与验证"
-type: "skill"
-domain:
-  - ai-saas
+type: "skill"  - ai-saas
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

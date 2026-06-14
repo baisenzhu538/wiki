@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-水水-降低故事逻辑要求"
 title: "技能：降低故事逻辑要求"
-type: "skill"
-domain:
-  - master
+type: "skill"  - master
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

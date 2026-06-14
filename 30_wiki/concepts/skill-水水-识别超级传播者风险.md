@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-水水-识别超级传播者风险"
 title: "技能：识别超级传播者风险"
-type: "skill"
-domain:
-  - master
+type: "skill"  - master
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

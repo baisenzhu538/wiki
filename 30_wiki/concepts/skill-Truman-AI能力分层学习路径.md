@@ -1,16 +1,8 @@
 ---
-
-
-
-
 id: "skill-Truman-AI能力分层学习路径"
 title: "技能：AI能力分层学习路径"
-type: "skill"
-domain:
-  - yitang
+type: "skill"  - yitang
   - ai-collaboration
-domain:
-domain:
 status: "draft"
 domain:
 author: "legacy"

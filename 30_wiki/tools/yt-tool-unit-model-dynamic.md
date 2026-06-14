@@ -1,6 +1,4 @@
 ---
-
-
 domain:
   - product
   - supply-chain

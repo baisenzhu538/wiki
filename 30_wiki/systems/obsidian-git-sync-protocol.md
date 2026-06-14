@@ -1,13 +1,8 @@
 ---
-
-
-
 title: Obsidian Git Multi-Device Sync Protocol
-type: system
-domain:
+type: systemdomain:
   - kdo
   - design
-domain:
 status: draft
 id: "obsidian-git-sync-protocol"
 created_at: '2026-05-03'

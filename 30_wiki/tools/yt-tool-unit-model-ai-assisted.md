@@ -1,6 +1,4 @@
 ---
-
-
 domain:
   - ai-saas
   - decision-making

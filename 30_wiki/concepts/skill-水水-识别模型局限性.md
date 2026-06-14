@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-水水-识别模型局限性"
 title: "技能：识别模型局限性"
-type: "skill"
-domain:
-  - master
+type: "skill"  - master
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

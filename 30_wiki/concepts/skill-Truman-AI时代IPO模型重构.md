@@ -1,16 +1,8 @@
 ---
-
-
-
-
 id: "skill-Truman-AI时代IPO模型重构"
 title: "技能：AI时代IPO模型重构"
-type: "skill"
-domain:
-  - yitang
+type: "skill"  - yitang
   - ai-collaboration
-domain:
-domain:
 status: "draft"
 domain:
 author: "legacy"

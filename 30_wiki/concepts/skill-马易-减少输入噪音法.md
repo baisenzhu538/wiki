@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-马易-减少输入噪音法"
 title: "技能：减少输入噪音法"
-type: "skill"
-domain:
-  - ai-saas
+type: "skill"  - ai-saas
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

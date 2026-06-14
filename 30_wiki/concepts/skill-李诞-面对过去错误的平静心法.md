@@ -1,16 +1,8 @@
 ---
-
-
-
-
 id: "skill-李诞-面对过去错误的平静心法"
 title: "技能：面对过去错误的平静心法"
-type: "skill"
-domain:
-  - personal-growth
+type: "skill"  - personal-growth
   - yitang
-domain:
-domain:
 status: "draft"
 domain:
 author: "legacy"

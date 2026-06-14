@@ -1,17 +1,9 @@
 ---
-
-
-
-
 id: "skill-水水-识别自证预言陷阱"
 title: "技能：识别自证预言陷阱"
-type: "skill"
-domain:
-  - master
+type: "skill"  - master
   - ai-collaboration
   - yitang
-domain:
-domain:
 status: "needs-review"
 domain:
 author: "legacy"

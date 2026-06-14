@@ -1,15 +1,10 @@
 ---
-
-
-
 title: KDO Protocol Priority Checklist
-type: improvement-plan
-domain:
+type: improvement-plandomain:
   - kdo
   - ai-saas
   - healthcare
   - decision-making
-domain:
 status: draft
 id: "kdo-priority-checklist"
 created_at: '2026-05-03'
