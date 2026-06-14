@@ -1,34 +1,33 @@
 ---
-id: "dk-modeling-essence-predictive"
-title: "'解释性本质'是高级鸡汤：真正值钱的本质必须能指导下一次真实决策"
-type: "dark-knowledge"
-dark_knowledge_type: "insight"
+id: dk-modeling-essence-predictive
+title: '''解释性本质''是高级鸡汤：真正值钱的本质必须能指导下一次真实决策'
+type: dark-knowledge
+dark_knowledge_type: insight
 status: draft
 domain:
-  - "yitang"
-  - "master"
-source_person: "Truman"
-source_context: "一堂建模能力培训（本质建模案例），2026-06-12"
+- yitang
+- master
+source_person: Truman
+source_context: 一堂建模能力培训（本质建模案例），2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
-  - "src_20260614_d0539c25"
-created_at: "2026-06-14"
-updated_at: "2026-06-16"
+- src_20260614_8269ccdb
+- src_20260614_d0539c25
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
 confidence: 0.85
 trust_level: high
 related:
-  - "modeling-capability-for-kdo"
-  - "modeling-three-stages"
-  - "modeling-capability-system"
-  - "dk-modeling-counterexample-driven"
+- modeling-capability-for-kdo
+- modeling-three-stages
+- modeling-capability-system
+- dk-modeling-counterexample-driven
 tags:
-  - "#source_type/diverse"
-  - "#domain/yitang"
-  - "#method/essence-modeling"
-  - "#method/decision-quality"
-trust_level: high
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
+- '#source_type/diverse'
+- '#domain/yitang'
+- '#method/essence-modeling'
+- '#method/decision-quality'
+reviewed_by: 老顽童
+review_date: '2026-06-14'
 author: legacy
 ---
 

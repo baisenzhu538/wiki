@@ -1,36 +1,35 @@
 ---
-id: "dk-modeling-ai-without-judgment"
-title: "AI 能生成'看着很厉害'的模型，但如果你没有逻辑洁癖，它只会加速你跑偏"
-type: "dark-knowledge"
-dark_knowledge_type: "failure"
+id: dk-modeling-ai-without-judgment
+title: AI 能生成'看着很厉害'的模型，但如果你没有逻辑洁癖，它只会加速你跑偏
+type: dark-knowledge
+dark_knowledge_type: failure
 status: draft
 domain:
-  - "yitang"
-  - "ai-saas"
-source_person: "Truman"
-source_context: "一堂建模能力培训（AI 辅助建模案例与警示），2026-06-12"
+- yitang
+- ai-saas
+source_person: Truman
+source_context: 一堂建模能力培训（AI 辅助建模案例与警示），2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
-  - "src_20260614_42f1e977"
-created_at: "2026-06-14"
-updated_at: "2026-06-16"
+- src_20260614_8269ccdb
+- src_20260614_42f1e977
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
 confidence: 0.85
 trust_level: high
 related:
-  - "modeling-capability-for-kdo"
-  - "modeling-capability-system"
-  - "modeling-three-stages"
-  - "ai-collaboration"
-  - "dk-modeling-counterexample-driven"
+- modeling-capability-for-kdo
+- modeling-capability-system
+- modeling-three-stages
+- ai-collaboration
+- dk-modeling-counterexample-driven
 tags:
-  - "#source_type/error"
-  - "#domain/yitang"
-  - "#domain/ai-saas"
-  - "#method/ai-collaboration"
-  - "#method/logical-rigor"
-trust_level: high
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
+- '#source_type/error'
+- '#domain/yitang'
+- '#domain/ai-saas'
+- '#method/ai-collaboration'
+- '#method/logical-rigor'
+reviewed_by: 老顽童
+review_date: '2026-06-14'
 author: legacy
 ---
 

@@ -1,34 +1,33 @@
 ---
-id: "dk-modeling-sop-execution-locks"
-title: "SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%"
-type: "dark-knowledge"
-dark_knowledge_type: "workflow"
+id: dk-modeling-sop-execution-locks
+title: SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
+type: dark-knowledge
+dark_knowledge_type: workflow
 status: draft
 domain:
-  - "yitang"
-  - "master"
-source_person: "Truman"
-source_context: "一堂建模能力培训（流程建模案例），2026-06-12"
+- yitang
+- master
+source_person: Truman
+source_context: 一堂建模能力培训（流程建模案例），2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
-  - "src_20260614_623cfbfd"
-created_at: "2026-06-14"
-updated_at: "2026-06-16"
+- src_20260614_8269ccdb
+- src_20260614_623cfbfd
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
 confidence: 0.85
 trust_level: high
 related:
-  - "modeling-capability-for-kdo"
-  - "modeling-three-stages"
-  - "process-modeling"
-  - "case-zhangyang-anchor-sop-three-locks"
+- modeling-capability-for-kdo
+- modeling-three-stages
+- process-modeling
+- case-zhangyang-anchor-sop-three-locks
 tags:
-  - "#source_type/process"
-  - "#domain/yitang"
-  - "#method/sop"
-  - "#method/execution-management"
-trust_level: high
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
+- '#source_type/process'
+- '#domain/yitang'
+- '#method/sop'
+- '#method/execution-management'
+reviewed_by: 老顽童
+review_date: '2026-06-14'
 author: legacy
 ---
 

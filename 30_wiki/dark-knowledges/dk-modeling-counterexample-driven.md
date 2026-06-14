@@ -1,35 +1,34 @@
 ---
-id: "dk-modeling-counterexample-driven"
-title: "建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止"
-type: "dark-knowledge"
-dark_knowledge_type: "insight"
+id: dk-modeling-counterexample-driven
+title: 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
+type: dark-knowledge
+dark_knowledge_type: insight
 status: draft
 domain:
-  - "yitang"
-  - "master"
-source_person: "Truman"
-source_context: "一堂建模能力培训（抽象建模与本质建模方法论），2026-06-12"
+- yitang
+- master
+source_person: Truman
+source_context: 一堂建模能力培训（抽象建模与本质建模方法论），2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
-  - "src_20260614_42f1e977"
-created_at: "2026-06-14"
-updated_at: "2026-06-16"
+- src_20260614_8269ccdb
+- src_20260614_42f1e977
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
 confidence: 0.85
 trust_level: high
 related:
-  - "modeling-capability-for-kdo"
-  - "modeling-three-stages"
-  - "modeling-capability-system"
-  - "modeling-level-map"
-  - "dk-modeling-expert-consensus-five-percent"
+- modeling-capability-for-kdo
+- modeling-three-stages
+- modeling-capability-system
+- modeling-level-map
+- dk-modeling-expert-consensus-five-percent
 tags:
-  - "#source_type/diverse"
-  - "#domain/yitang"
-  - "#method/model-validation"
-  - "#method/critical-thinking"
-trust_level: high
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
+- '#source_type/diverse'
+- '#domain/yitang'
+- '#method/model-validation'
+- '#method/critical-thinking'
+reviewed_by: 老顽童
+review_date: '2026-06-14'
 author: legacy
 ---
 
