@@ -19,11 +19,11 @@
   - `concept`：有定义、区别、例子
   - `dark-knowledge`：有误区/后果/避免方法
   - `skill`：有练习方法、验收标准、示例
-- [ ] **source_refs 不为空**：至少引用一个可追溯到原始材料的 source（`src_xxx` 或具体文件路径）
-- [ ] **author 明确**：不为 `legacy` 或空
+- [ ] **source_refs 不为空**（enriched/reviewed/stable 必须；draft/proposed 可暂缓但建议补充）
+- [ ] **author 明确**：不为空；`legacy` 仅允许在 draft/proposed 状态作为过渡
 - [ ] **reviewed_by 明确**：不为 `pending`（进入 enriched 前必须有独立 reviewer）
 - [ ] **status 与内容质量匹配**：
-  - `draft`：骨架或待审内容
+  - `draft` / `proposed` / `needs-review`：骨架或待审内容，source 可缺
   - `enriched`：内容完整、来源清晰
   - `reviewed`：经独立 reviewer 确认
   - `stable`：经实践验证

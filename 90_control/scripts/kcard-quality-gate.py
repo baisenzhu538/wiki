@@ -93,19 +93,29 @@ def check_card(file_path, all_ids):
     elif card_type not in VALID_TYPES:
         issues["p1"].append(f"type 值异常: {card_type}")
 
-    # 4. source_refs
+    # 4. status（先提取，后续多处使用）
+    status = str(fm.get("status", "") or "").strip().strip('"').lower()
+
+    # 5. source_refs
     source_count = count_source_refs(fm)
     if source_count == 0:
-        issues["p0"].append("source_refs 为空")
+        if status in ("enriched", "reviewed", "stable", "active"):
+            issues["p0"].append("source_refs 为空")
+        else:
+            issues["p1"].append("source_refs 为空")
 
-    # 5. author
+    # 6. author
     author = str(fm.get("author", "") or "").strip().strip('"')
-    if not author or author == "legacy":
-        issues["p0"].append(f"author 无效: {author or '(empty)'}")
+    if not author:
+        issues["p0"].append("author 为空")
+    elif author == "legacy":
+        if status in ("enriched", "reviewed", "stable", "active"):
+            issues["p0"].append("author=legacy 但 status 非 draft")
+        else:
+            issues["p1"].append("author=legacy，建议替换为真实作者")
 
-    # 6. reviewed_by
+    # 7. reviewed_by
     reviewed_by = str(fm.get("reviewed_by", "") or "").strip().strip('"')
-    status = str(fm.get("status", "") or "").strip().strip('"').lower()
     if reviewed_by == "pending" and status in ("enriched", "reviewed", "stable"):
         issues["p0"].append(f"status={status} 但 reviewed_by=pending")
 
