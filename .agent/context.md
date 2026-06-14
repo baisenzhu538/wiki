@@ -56,7 +56,7 @@ next_session_hint: "用户说'继续'→ 等欧阳锋审查结果或新任务分
 ## 当前共享状态
 
 ### 各角色当前任务
-- **黄药师**：Task G/J/K 全部完成（commit `1995f59`）。🆕 机会预判域补齐：发现189KB口述稿被遗漏（文件名"商业预判课"≠"机会预判"），代老顽童完成完整编译——新增11张卡（6 concept + 3 case + 1 tool + 1 dk），全量基于口述稿+幻灯片，三步编译法+多攻击者论证。commit `d341679c`。
+- **黄药师**：2026-06-14 大产出日——O/Q/S/P pipeline + 高阶建模域4卡(1 framework + 3 case) + 王语嫣卡升 decisions/ + ingestion pipeline 规范 + inbox 监听器上线 + kdo query/编码 P0 修复。KDO CLI commit `a959093`。
 - **欧阳锋**：本会话无动作。
 - **老顽童**：🆕 清单体笔记 KDO 批次已完成（4 新卡+1文章+1dk卡+1旧卡更新）。黄药师审查 A-，P0 项待修（article未注册管线+缺source_refs），深度问题待用户反馈。管理工具箱+路演+Phase C 均已完成。
 - **洪七公**：✅ **两张桥接卡全部完成**（2026-06-11）。`concept-mckinsey-7s` 和 `concept-maister-trusted-advisor` 均已产出到 `30_wiki/frameworks/`，回归待命等待下一批任务。
