@@ -28,22 +28,24 @@ function parseArgs(argv) {
 async function fetchAllMetadata({ outDir, size = 100, delayMs = 300 }) {
   const records = [];
   let page = 1;
-  let hasMore = true;
+  let totalPage = null;
   const startTime = Date.now();
 
-  while (hasMore) {
+  while (true) {
     const batch = await listRecords({ size, page });
-    if (batch.records.length === 0) {
-      hasMore = false;
+    if (batch.records.length === 0) break;
+    records.push(...batch.records);
+    console.error(`page ${page}: +${batch.records.length} | total ${records.length}${batch.total ? ` / ${batch.total}` : ''}`);
+
+    if (batch.pagination) {
+      totalPage = batch.pagination.total_page;
+      if (page >= totalPage) break;
+    } else if (batch.records.length < size) {
       break;
     }
-    records.push(...batch.records);
-    console.error(`page ${page}: +${batch.records.length} | total ${records.length}`);
-    hasMore = batch.records.length >= size;
-    if (hasMore) {
-      page += 1;
-      await new Promise((resolve) => setTimeout(resolve, delayMs));
-    }
+
+    page += 1;
+    await new Promise((resolve) => setTimeout(resolve, delayMs));
   }
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);

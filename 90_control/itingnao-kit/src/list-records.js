@@ -38,11 +38,18 @@ export async function listRecords(options = {}) {
     token,
   });
 
+  const items = data.data?.records || data.data?.items || [];
+  const pagination = data.data?.pagination || null;
+  const total = pagination
+    ? pagination.total_item
+    : (data.data?.total ?? data.data?.count ?? items.length ?? 0);
+
   return {
     page,
     size,
-    total: data.data?.total ?? data.data?.count ?? data.data?.items?.length ?? 0,
-    records: data.data?.records || data.data?.items || [],
+    total,
+    records: items,
+    pagination,
     raw: data,
   };
 }
