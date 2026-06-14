@@ -17,7 +17,7 @@
 
 ---
 
-## 一、建议直接给老顽童审阅的草案（9 张）
+## 一、建议直接给老顽童审阅的草案（11 张）
 
 以下知识卡满足全部迁移标准，可信度较高，来源清晰，概念准确。
 
@@ -32,10 +32,12 @@
 | concept-personal-company-boundary.md | 概念卡 | 0.78 | 公司法/税法通用原则，来源权威 |
 | method-private-money-control.md | 方法卡 | 0.80 | 已补充法律依据、9种合法情形、真实处罚案例 |
 | method-lean-startup-hypothesis-validation.md | 方法卡 | 0.78 | 经典理论，方法成熟，边界明确 |
+| concept-ai-landing-organizational-fit.md | 概念卡 | 0.78 | 已补充 TOE/TAM 学术框架对照 |
+| concept-multi-agent-system.md | 概念卡 | 0.78 | 已补充 Wooldridge、Shoham & Leyton-Brown 等学术定义 |
 
 ---
 
-## 二、建议再核验后给老顽童审阅（15 张）
+## 二、建议再核验后给老顽童审阅（18 张）
 
 以下知识卡整体质量较好，但存在局部可信度不足或来源单一问题，建议补充核验后再迁移。
 
@@ -56,19 +58,19 @@
 | insight-human-machine-replacement-path.md | 洞察卡 | 0.74 | 已补充餐饮自动化市场数据和 McDonald's/Chipotle/Starbucks 案例 |
 | method-ai-landing-five-steps.md | 方法卡 | 0.74 | 补充企业 AI 转型公开案例 |
 | method-ai-assisted-difficult-conversation.md | 方法卡 | 0.74 | 已补充 MIT/Harvard/ACM 实证研究，需核对一堂课程原文 |
+| insight-ai-landing-high-value-scenes.md | 洞察卡 | 0.74 | 已补充 McKinsey/Google Cloud/Gartner 企业 AI 采纳和 ROI 数据，案例仍待独立审计 |
+| insight-ai-pitch-key-elements.md | 洞察卡 | 0.74 | 已补充 DeckAnalyst/CB Insights 投资评估维度，结构比例为经验建议 |
+| insight-stock-era-marketing-logic.md | 洞察卡 | 0.74 | 已补充 HKUST/CCAGM 中国百货报告和 Gartner CMO 调查，行业迁移需谨慎 |
 
 ---
 
-## 三、建议暂留 60_feedback（6 张）
+## 三、建议暂留 60_feedback（3 张）
 
 以下知识卡以归纳、推断、原创框架或单一来源为主，需要更多证据支撑或打磨后再考虑迁移。
 
 | 文件名 | 类型 | 评分 | 暂不迁移原因 |
 |--------|------|------|-------------|
-| insight-ai-landing-high-value-scenes.md | 洞察卡 | 0.72 | 场景特征为案例归纳，非统计结论 |
-| insight-ai-pitch-key-elements.md | 洞察卡 | 0.72 | 基于观察和案例，缺乏投资人数据 |
 | insight-going-global-localization-trap.md | 洞察卡 | 0.72 | 案例为概括性，未具体到企业 |
-| insight-stock-era-marketing-logic.md | 洞察卡 | 0.72 | 奢侈品案例到大众品类的迁移需谨慎 |
 | insight-super-individual-income-reality.md | 洞察卡 | 0.72 | 已补充德国/荷兰官方 solo self-employed 中位数，但中国本地数据仍不足 |
 | insight-super-individual-survivorship-bias.md | 洞察卡 | 0.70 | 已补充 Carta/Gusto 多源数据，但 Micro-SaaS 分布数据仍无权威来源 |
 
@@ -107,6 +109,8 @@
 7. `concept-personal-company-boundary.md`
 8. `method-private-money-control.md`
 9. `method-lean-startup-hypothesis-validation.md`
+10. `concept-ai-landing-organizational-fit.md`
+11. `concept-multi-agent-system.md`
 
 ### 第二批（再核验后可提交审阅）
 
@@ -125,15 +129,16 @@
 13. `insight-human-machine-replacement-path.md`
 14. `method-ai-landing-five-steps.md`
 15. `method-ai-assisted-difficult-conversation.md`
+。
+16. `insight-ai-landing-high-value-scenes.md`
+17. `insight-ai-pitch-key-elements.md`
+18. `insight-stock-era-marketing-logic.md`
 
 ### 第三批（需较大完善）
 
-1. `insight-ai-landing-high-value-scenes.md`
-2. `insight-ai-pitch-key-elements.md`
-3. `insight-going-global-localization-trap.md`
-4. `insight-stock-era-marketing-logic.md`
-5. `insight-super-individual-income-reality.md`
-6. `insight-super-individual-survivorship-bias.md`
+1. `insight-going-global-localization-trap.md`
+2. `insight-super-individual-income-reality.md`
+3. `insight-super-individual-survivorship-bias.md`
 
 ---
 

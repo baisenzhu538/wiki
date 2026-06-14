@@ -194,6 +194,21 @@
 - ✅ 备份：坚果云 sandbox（`C:\Users\Administrator\Nutstore\1\我的坚果云\`）
 - ✅ Graph RAG 依赖：纯本地 sklearn，零外部 API
 - ✅ 权限：`.claude/settings.json` vault 全路径免批
+- ✅ 网络搜索：`kdo-tools/web_search.py`（free, zero-config） — 见下方 §九
+
+---
+
+## 九、联网搜索
+
+| 方式 | 命令 | 适用 |
+|------|------|------|
+| JSON 输出（agent 调用） | `python kdo-tools/web_search.py "query" --json` | Agent 交叉验证 |
+| Markdown 输出（人读） | `python kdo-tools/web_search.py "query"` | 终端直接看 |
+| 指定后端 | `python kdo-tools/web_search.py "query" --backend cn_bing` | 强制必应 |
+
+**后端优先级**：SearXNG（JSON API）→ cn.bing.com（免费直连）→ Bing API（需 Azure key）
+
+**缓存**：同 query 1 小时内不重复请求。缓存在 `kdo-tools/.search_cache/`
 
 ---
 

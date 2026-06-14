@@ -3,13 +3,15 @@ id: "insight-ai-pitch-key-elements"
 title: "洞察卡：AI 项目路演的三个核心要素"
 type: "insight-card"
 status: "draft"
-confidence_score: 0.72
+confidence_score: 0.74
 trust_level: "medium-high"
 source_refs:
   - "itingnao-6627741 AI大航海项目路演"
   - "itingnao-6627750 AI大航海项目路演"
+  - "DeckAnalyst 2025: 7 VC scoring dimensions (Market Attractiveness, Traction, Unit Economics, GTM Efficiency, Product Defensibility, Team, Competitive Position)"
+  - "CB Insights 2024-2025: 42% of startups fail due to no market need"
+  - "Harvard Business School: 75% of VC-backed startups fail"
   - "创业路演/融资演讲研究"
-  - "AI 创业投资观察"
 related:
   - "kcard-ai-hackathon-pitches-draft"
   - "six-layer-validation-ai-hackathon-pitches.md"
@@ -95,6 +97,17 @@ AI 项目路演不是技术 Demo 秀，而是要讲清楚"解决了什么问题�
 - 客户为什么愿意付费？付费意愿多强？
 - 冷启动怎么做？
 - 团队是否有相关行业经验？
+
+## 深度核验说明
+
+### 已验证
+- **DeckAnalyst 2025 Startup Failure Database**：将失败案例映射到 7 个 VC 评分维度，包括 Market Attractiveness、Traction、Unit Economics、GTM Efficiency、Product Defensibility、Team、Competitive Position。本卡的"真问题、可持续壁垒、商业化路径"可与其中多个维度对应。
+- **CB Insights**：42% 初创公司失败主因是"no market need"，直接支持"真问题"要素的重要性。
+- **Harvard Business School / 行业统计**：75% VC-backed startups 失败，说明路演中识别风险比展示机会更重要。
+
+### 待验证/降级
+- "三个核心要素"的划分是原创简化框架，未覆盖团队、竞争格局等投资人同样重视的维度。
+- 具体路演结构比例（钩子 10%、问题 20% 等）为经验建议，非来自投资人调研。
 
 ## 局限
 

@@ -3,14 +3,16 @@ id: "insight-ai-landing-high-value-scenes"
 title: "洞察卡：AI 落地的高价值场景特征"
 type: "insight-card"
 status: "draft"
-confidence_score: 0.72
+confidence_score: 0.74
 trust_level: "medium-high"
 source_refs:
   - "itingnao-5640373 酒店行业-AI标签审核案例"
   - "itingnao-5639853 贝壳-云管家AI外呼案例"
   - "itingnao-5638569 阿豪-自动选品系统案例"
   - "itingnao-8037140 戴志龙-AI剧本创作分享"
-  - "itingnao-6627749 奢侈品-存量时代营销逻辑"
+  - "McKinsey State of AI 2025; Google Cloud Sept 2025 AI ROI study"
+  - "Gartner 2025 AI maturity research"
+  - "punku.ai synthesis of McKinsey/BCG/Deloitte AI reports 2025"
 related:
   - "kcard-industry-ai-cases-draft"
   - "six-layer-validation-industrial-ai-ops-cases.md"
@@ -91,7 +93,18 @@ AI 最容易跑出真实商业价值的场景，不是最炫酷的创新场景�
 3. **SOP 先行**：没有清晰流程，AI 只会放大混乱。
 4. **关注组织适配度**：技术可行不等于组织可落地。
 
+## 外部数据对照
+
+| 指标 | 数据 | 来源 | 与本文关系 |
+|------|------|------|-----------|
+| 2025 年至少在一个业务职能使用 AI 的组织比例 | 78% | McKinsey State of AI 2025 | AI 落地已从实验走向运营部署 |
+| 部署 AI 三年内实现 ROI 的组织比例 | 74% | Google Cloud Sept 2025（3466 位高管） | 高价值场景可产生可测量的财务回报 |
+| AI 高绩效企业（EBIT 影响 5%+）占比 | 6% | McKinsey 2025 | 价值集中，多数企业仍在"试点炼狱" |
+| 高绩效企业投入人/流程/文化的比例 | 70%（10-20-70 法则） | McKinsey/BCG 总结 | 组织适配度是价值实现关键，印证"组织阻力大于技术难度" |
+| 跳过数据治理步骤导致试点失败的可能性 | 70% | Gartner 2025 | "有历史数据"是有效前提 |
+
 ## 局限性
 
-- 场景特征来自有限案例归纳，非严格统计结论。
+- 场景特征来自有限案例归纳，非严格统计结论，但与 McKinsey/Gartner 报告中的"高影响用例""组织成熟度"结论方向一致。
 - 不同行业的"高频、规则、数据"标准差异较大，需具体分析。
+- 具体案例（酒店、贝壳、阿豪）的数据未独立审计，作为例证而非统计证据。

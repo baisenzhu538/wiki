@@ -256,7 +256,7 @@
 
 ## 八、本轮低可信度知识卡核验结果（2026-06-13）
 
-本轮继续任务 2，对 `kcards-v3/` 中剩余低可信度知识卡进行外部交叉核验，共更新 4 张卡片。
+本轮继续任务 2，对 `kcards-v3/` 中剩余低可信度知识卡进行外部交叉核验，共更新 5 张卡片。
 
 ### 8.1 已更新卡片
 
@@ -266,16 +266,17 @@
 | insight-super-individual-income-reality.md | 0.68 | 0.72 | culta.ai 2026; 德国 Prognos AG 2024; 荷兰 CBS 2025 | 德国 solo self-employed 中位数 18,750 欧元；荷兰 17,400 欧元；与 culta.ai 形成地区对照，支持"中位数收入普通"结论 |
 | method-ai-assisted-difficult-conversation.md | 0.70 | 0.74 | MIT 2025 thesis; Harvard PON 2026; ACM CUI 2024 (CommCoach) | AI 角色扮演在谈判/艰难对话培训中的有效性有实证支持；四步准备法为原创整合，需标注边界 |
 | method-ipo-learning-loop.md | 0.72 | 0.76 | Bushnell 1990 (IPO training evaluation model); Kérivel et al. 2021 (IPO in team learning) | IPO 模型作为培训/学习评估框架有学术基础；"一堂 IPO 学习闭环"具体命名需核对课程原文 |
+| insight-ai-landing-high-value-scenes.md | 0.72 | 0.74 | McKinsey State of AI 2025; Google Cloud Sept 2025 AI ROI study; Gartner 2025 | 78% 企业已在至少一个职能使用 AI；74% 首年 ROI；高绩效企业 70% 投入人/流程/文化，与"组织阻力大于技术"结论一致 |
 
 ### 8.2 迁移分层调整
 
-- **第一批（建议直接审阅）**：9 张（无变化）
-- **第二批（再核验后审阅）**：从 13 张增至 15 张，新增 `method-ipo-learning-loop.md`、`method-ai-assisted-difficult-conversation.md`
-- **第三批（暂留 60_feedback）**：从 8 张减至 6 张，剩余以洞察卡和未充分验证数据为主
+- **第一批（建议直接审阅）**：11 张（无变化，包含此前已核验的 concept-ai-landing-organizational-fit、concept-multi-agent-system）
+- **第二批（再核验后审阅）**：从 13 张增至 16 张，新增 `method-ipo-learning-loop.md`、`method-ai-assisted-difficult-conversation.md`、`insight-ai-landing-high-value-scenes.md`
+- **第三批（暂留 60_feedback）**：从 8 张减至 5 张，剩余以洞察卡和未充分验证数据为主
 
 ### 8.3 主要教训
 
-1. ** Carta 数据已被多源引用**，但需注意其统计范围为美国 Carta 平台上的初创公司，不等同于全球或中国。
+1. **Carta 数据已被多源引用**，但需注意其统计范围为美国 Carta 平台上的初创公司，不等同于全球或中国。
 2. **欧洲官方 solo self-employed 数据**（德国、荷兰）为"中位数收入普通"提供了独立佐证，但中国与欧美市场结构差异大，不能直接套用。
 3. **AI 辅助沟通的实证研究**主要集中在谈判培训和职场沟通场景，效果变量（自信心、准备度、利益识别）可测量，但长期行为和实际结果仍需更多研究。
 4. **IPO 学习闭环**不能简单等同于"一堂原创"，Input-Process-Output 作为系统评估框架早有学术渊源。
@@ -293,7 +294,7 @@
 
 ---
 
-## 九、对第三阶段的启示
+## 十、对第三阶段的启示
 
 1. **事实卡**：可固化药食同源市场规模、电商增速、食药物质目录数量、短剧市场规模等已验证数字。
 2. **概念卡**：可信度加权、叙事谬误、复杂系统思维、消除模糊的三层框架等方法论概念可信度较高。
@@ -305,5 +306,5 @@
 
 ---
 
-*报告更新时间：2026-06-14*
-*状态：第二阶段核心核验已完成。FDE 概念已纠偏，超级个体收入数据已补充。仍有个案数据（餐饮成本、设备 ROI、项目案例）待进一步核验。*
+*报告更新时间：2026-06-13*
+*状态：第二阶段核心核验已完成，本轮继续核验 5 张低可信度知识卡。FDE 概念已纠偏，超级个体收入数据已补充。IPO 学习闭环、AI 辅助沟通方法、AI 高价值场景洞察已补充学术/实证来源。第三批剩余 5 张洞察卡（路演、出海、存量营销、超级个体相关）待进一步核验。*

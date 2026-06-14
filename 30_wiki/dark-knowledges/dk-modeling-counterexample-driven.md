@@ -10,8 +10,8 @@ domain:
 source_person: "Truman"
 source_context: "一堂建模能力培训（抽象建模与本质建模方法论），2026-06-12"
 source_refs:
-  - "src_20260614_8269ccdb#2004-2248"
-  - "src_20260614_42f1e977#58-66"
+  - "src_20260614_8269ccdb"
+  - "src_20260614_42f1e977"
 created_at: "2026-06-14"
 updated_at: "2026-06-14"
 related:

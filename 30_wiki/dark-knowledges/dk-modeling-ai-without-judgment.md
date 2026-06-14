@@ -10,10 +10,8 @@ domain:
 source_person: "Truman"
 source_context: "一堂建模能力培训（AI 辅助建模案例与警示），2026-06-12"
 source_refs:
-  - "src_20260614_8269ccdb#2396-2400"
-  - "src_20260614_8269ccdb#2466-2538"
-  - "src_20260614_8269ccdb#3824-3832"
-  - "src_20260614_42f1e977#89-94"
+  - "src_20260614_8269ccdb"
+  - "src_20260614_42f1e977"
 created_at: "2026-06-14"
 updated_at: "2026-06-14"
 related:

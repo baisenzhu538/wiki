@@ -10,8 +10,7 @@ domain:
 source_person: "Truman"
 source_context: "一堂建模能力培训（本质建模案例），2026-06-12"
 source_refs:
-  - "src_20260614_8269ccdb#3112-3258"
-  - "src_20260614_8269ccdb#2960-3030"
+  - "src_20260614_8269ccdb"
   - "src_20260614_d0539c25"
 created_at: "2026-06-14"
 updated_at: "2026-06-14"
