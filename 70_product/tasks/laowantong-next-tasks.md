@@ -2325,3 +2325,70 @@ total: 1185, p0: 0, p1: 0, clean: 1185, yaml_error: 0
 - 任务 A+B+C+D 已完成 ✅
 - 质量门禁：total=1190, p0=0, p1=0, clean=1190 ✅
 ```
+
+---
+
+## 十八、下阶段：十张卡深度精修（老顽童主责）
+
+> **来源**：用户要求选十张卡让老顽童自行精修。
+> **目标**：不新增卡片，对已有卡片做第二圈深度提升，从"框架描述"拉升到"诊断可用"。
+> **验收人**：王语嫣 / 欧阳锋
+
+### 精选十张卡
+
+| 序号 | 卡片 ID | 类型 | 当前问题 | 精修重点 |
+|:----:|:--------|:----:|:---------|:---------|
+| 1 | `yt-tob-growth-channel` | framework | 口述稿在 ~3482 行截断，缺 DS | 补 3 条 diagnostic_signals；补"直销/渠道决策清单"；加 2 条失败模式 |
+| 2 | `yt-business-formula-business-pattern-selector` | framework | status=enriched 但缺 DS | 补 3 条 DS；加"选型错误"失败模式；强化"持续复购型 vs 单次成交型"的边界判断 |
+| 3 | `yt-unit-model-overview` | framework | 缺 DS，trust_level=medium-low | 补 3 条 DS；把"十大单元模型"表格化；加"模型选择错误"失败模式 |
+| 4 | `yt-tob-barriers` | framework | 新产出，内容已全但可深化 | 增加 Critique 段落（Buffett/Thiel 视角攻击）；补充 2 条 Action Triggers；把三类壁垒与 case 卡互链 |
+| 5 | `yt-tob-sales-unit-model` | concept | 新产出，案例单一 | 补充 2 个不同行业的单销售模型案例；加"时间/空间闭环"计算模板 |
+| 6 | `yt-tob-demand-metrics` | framework | 敏感性分析已加但缺实例 | 为施工企业/医美 SaaS 两个案例各做一组敏感性测算表；加"变量估计偏差"失败模式 |
+| 7 | `case-yitang-tob-artificial-bone` | case | status=draft，信息较骨架化 | 补充医疗行业准入流程图；把失败点映射到 `yt-tob-barriers` / `yt-tob-unit-model`；status 升为 enriched |
+| 8 | `case-yitang-tob-grinding-machine` | case | status=draft | 补充中德资源错配的决策链分析；加"隐性成本清单"；status 升为 enriched |
+| 9 | `case-yitang-tob-career-planning` | case | status=draft | 补充 toB/toC 双线作战的资源消耗估算；把天花板测算过程表格化；status 升为 enriched |
+| 10 | `case-yitang-tob-smart-park` | case | status=draft | 补充项目型业务转持续服务型业务的收入结构设计；status 升为 enriched |
+
+### 精修标准（必须满足）
+
+每张卡精修后需达到：
+
+1. **diagnostic_signals ≥ 3 条**（如当前不足 3 条则补到 3 条；已有的可保留优化）
+2. **Constraints & Boundaries ≥ 4 条适用边界 + 4 条失败模式**
+3. **失败模式必须具体**：有真实症状 + 可执行修复，不能是泛泛而谈
+4. **新增至少 1 个案例/实例/计算模板**，让框架可落地
+5. **建立至少 2 条新互链**（与相关框架卡、case 卡双向链接）
+6. **更新 `updated_at`**
+7. **跑单卡 lint 通过**，无 YAML 错误
+
+### 执行顺序
+
+```
+第 1-2 天：3 张缺 DS 的框架卡（yt-tob-growth-channel / yt-business-formula-business-pattern-selector / yt-unit-model-overview）
+第 3-4 天：2 张新 ToB 框架/概念卡（yt-tob-barriers / yt-tob-sales-unit-model）
+第 5-6 天：yt-tob-demand-metrics 深化 + 1 张 case 卡
+第 7-10 天：剩余 3 张 case 卡
+```
+
+实际可交叉执行，不必严格按天。
+
+### 严禁
+
+- ❌ 不要新增卡片（本次只精修已有卡）
+- ❌ 不要为了凑数写重复内容
+- ❌ 不要批量改完再跑 lint——改一张跑一张
+- ❌ 不要把 case 卡写成概念描述
+
+### 验收标准
+
+- [ ] 10 张卡全部完成精修
+- [ ] 每张卡通过 `kdo_lint.py` 单卡检查
+- [ ] 全库 `kcard-quality-gate.py` P0 = 0，YAML 错误 = 0
+- [ ] 在此文件末尾写小结，列出：精修清单、主要改进点、仍存疑的问题
+
+### 当前基线
+
+```text
+python 90_control/scripts/kcard-quality-gate.py
+total: 1190, p0: 0, p1: 0, clean: 1190, yaml_error: 0
+```
