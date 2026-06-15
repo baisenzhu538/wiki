@@ -23,8 +23,8 @@ related:
 - '[[tool-scenario-selector-modeling]]'
 - '[[modeling-three-stages]]'
 tags:
-- '#modeling'
-- '#tool'
+- '#method/modeling'
+- '#content-format/concept-card'
 - '#canvas'
 - '#weapon-library'
 - '#system'

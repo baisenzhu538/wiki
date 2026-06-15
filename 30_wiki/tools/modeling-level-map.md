@@ -22,10 +22,10 @@ related:
 - '[[modeling-capability-system]]'
 - '[[modeling-three-stages]]'
 tags:
-- '#modeling'
-- '#tool'
+- '#method/modeling'
+- '#content-format/concept-card'
 - '#self-assessment'
-- '#checklist'
+- '#content-format/checklist'
 diagnostic_signals:
 - signal: 用户说"我不知道自己建模能力在什么水平"
   framework_lens: 六段能力段位图

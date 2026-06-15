@@ -1,48 +1,50 @@
 ---
 id: yt-pitch-scenarization
 component_of:
-  - yt-model-personal-pitch-toolkit
+- yt-model-personal-pitch-toolkit
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: foundational
 domain:
-  - personal
-  - yitang
+- personal
+- yitang
 estimated_tokens: 1500
 language: zh-CN
 prerequisites:
-  - yt-model-personal-pitch-toolkit
+- yt-model-personal-pitch-toolkit
 query_triggers:
-  - "场景化"
-  - "讲香场景"
-  - "场景代入"
-  - "场景触发"
-  - "用户场景"
+- 场景化
+- 讲香场景
+- 场景代入
+- 场景触发
+- 用户场景
 related:
-  - yt-panproduct-demand-scenario-walkthrough
-  - yt-concept-weapon-arsenal
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
-  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+- '[[yt-panproduct-demand-scenario-walkthrough]]'
+- '[[yt-concept-weapon-arsenal]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260609_93e2df35
 status: enriched
-title: "讲香·场景化"
+title: 讲香·场景化
 type: tool
 version: 1
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '把卖点放入用户熟悉或痛点场景，让用户有画面感', 'framework_lens': '场景是需求的剧场', 'follow_up_question': '用户看到这个场景，会不会想到自己？'}
-  - {'signal': '场景细节具体，而不是泛泛描述', 'framework_lens': '细节产生代入感', 'follow_up_question': '这个场景发生在什么时间、地点、人物在做什么？'}
-  - {'signal': '场景自然导向产品/解决方案的出现', 'framework_lens': '场景是过渡', 'follow_up_question': '场景结束后，用户为什么需要你的产品？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 把卖点放入用户熟悉或痛点场景，让用户有画面感
+  framework_lens: 场景是需求的剧场
+  follow_up_question: 用户看到这个场景，会不会想到自己？
+- signal: 场景细节具体，而不是泛泛描述
+  framework_lens: 细节产生代入感
+  follow_up_question: 这个场景发生在什么时间、地点、人物在做什么？
+- signal: 场景自然导向产品/解决方案的出现
+  framework_lens: 场景是过渡
+  follow_up_question: 场景结束后，用户为什么需要你的产品？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 # 讲香·场景化
 
 > 十指模型左手第一指——向下具象。在产品/服务与用户之间架一座场景的桥，让用户从「与我无关」到「我正需要」。

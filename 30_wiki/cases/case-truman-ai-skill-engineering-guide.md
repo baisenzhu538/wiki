@@ -24,11 +24,11 @@ related:
 - '[[dk-modeling-ai-cross-validation]]'
 - '[[dk-modeling-ai-self-retrospection]]'
 tags:
-- '#modeling'
-- '#case'
+- '#method/modeling'
+- '#content-format/case-study'
 - '#ai-skill'
 - '#skill-engineering'
-- '#ai-collaboration'
+- '#method/prompt-engineering'
 ---
 # 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
 

@@ -12,11 +12,11 @@ source_refs:
 - src_20260613_6edbf0af
 - src_20260613_a8bcfd38
 tags:
-- "#business-formula"
-- "#case"
-- "#saas"
-- "#renewal"
-- "#yitang"
+- '#method/evaluation-method'
+- '#content-format/case-study'
+- '#saas'
+- '#renewal'
+- '#domain/yitang'
 created_at: '2026-06-15'
 updated_at: '2026-06-15'
 author: 孔阳
@@ -27,10 +27,10 @@ review_date: '2026-06-15'
 confidence: 0.9
 trust_level: high
 related:
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-business-formula-ten-paradigms]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-entrepreneur-unit-model]]"
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-ten-paradigms]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-entrepreneur-unit-model]]'
 ---
 
 # ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户“用起来”

@@ -1,33 +1,29 @@
 ---
 id: dk-p4-batch-format-empty
-title: "P-4：批量格式升级产生“格式完整但思维空洞”卡片 (C-8)"
+title: P-4：批量格式升级产生“格式完整但思维空洞”卡片 (C-8)
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - master
+- master
 source_person: system
-source_context: "pitfalls.md P-4"
+source_context: pitfalls.md P-4
 source_refs:
-  - .agent/pitfalls.md#P-4
+- .agent/pitfalls.md#P-4
 created_at: 2026-06-03
-updated_at: 2026-06-03
+updated_at: '2026-06-16'
 related:
-  - dk-c8-format-complete-mind-empty
-  - dk-f7-surface-translation
-related:
-  - master-knowledge-compound
-  - kdo-flywheel
-  - master-ai-info-literacy
+- '[[master-knowledge-compound]]'
+- '[[kdo-flywheel]]'
+- '[[master-ai-info-literacy]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # P-4：批量格式升级产生“格式完整但思维空洞”卡片 (C-8)
 
 ## 原始表述

@@ -1,48 +1,50 @@
 ---
 id: yt-pitch-materialization
 component_of:
-  - yt-model-personal-pitch-toolkit
+- yt-model-personal-pitch-toolkit
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: advanced
 domain:
-  - personal
-  - yitang
+- personal
+- yitang
 estimated_tokens: 1500
 language: zh-CN
 prerequisites:
-  - yt-model-personal-pitch-toolkit
+- yt-model-personal-pitch-toolkit
 query_triggers:
-  - "素材化"
-  - "素材"
-  - "图片展现"
-  - "感官展现"
-  - "夸张测试"
-  - "一图胜千言"
+- 素材化
+- 素材
+- 图片展现
+- 感官展现
+- 夸张测试
+- 一图胜千言
 related:
-  - yt-concept-weapon-arsenal
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
-  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+- '[[yt-concept-weapon-arsenal]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260609_93e2df35
 status: enriched
-title: "讲香·素材化"
+title: 讲香·素材化
 type: tool
 version: 1
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '当卖点抽象时，主动用图片/视频/感官素材替代或补充文字', 'framework_lens': '素材降低理解成本', 'follow_up_question': '这个卖点如果只用文字，用户会不会很难想象？'}
-  - {'signal': '素材真实可信，能直接证明或强化主张', 'framework_lens': '素材是证据', 'follow_up_question': '这个素材能否被质疑为造假或摆拍？'}
-  - {'signal': '素材与目标用户的生活经验相关，而不是自嗨', 'framework_lens': '素材需要用户共鸣', 'follow_up_question': '目标用户看到这个素材会想到自己的什么经历？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 当卖点抽象时，主动用图片/视频/感官素材替代或补充文字
+  framework_lens: 素材降低理解成本
+  follow_up_question: 这个卖点如果只用文字，用户会不会很难想象？
+- signal: 素材真实可信，能直接证明或强化主张
+  framework_lens: 素材是证据
+  follow_up_question: 这个素材能否被质疑为造假或摆拍？
+- signal: 素材与目标用户的生活经验相关，而不是自嗨
+  framework_lens: 素材需要用户共鸣
+  follow_up_question: 目标用户看到这个素材会想到自己的什么经历？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 # 讲香·素材化
 
 > 十指模型左手第五指——向下具象。论证不充分时往里面加素材——图片一放、声音一响、视频一播，说服力天然比语言强一个量级。

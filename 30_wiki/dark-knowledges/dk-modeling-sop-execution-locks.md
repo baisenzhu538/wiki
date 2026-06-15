@@ -17,12 +17,12 @@ updated_at: '2026-06-16'
 confidence: 0.85
 trust_level: high
 related:
-- modeling-capability-for-kdo
-- modeling-three-stages
-- process-modeling
-- case-zhangyang-anchor-sop-three-locks
+- '[[modeling-capability-for-kdo]]'
+- '[[modeling-three-stages]]'
+- '[[process-modeling]]'
+- '[[case-zhangyang-anchor-sop-three-locks]]'
 tags:
-- '#source_type/process'
+- '#content-format/sop'
 - '#domain/yitang'
 - '#method/sop'
 - '#method/execution-management'
@@ -30,7 +30,6 @@ reviewed_by: 老顽童
 review_date: '2026-06-14'
 author: legacy
 ---
-
 # SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
 
 ## 原始表述

@@ -24,10 +24,9 @@ related:
 - '[[ai-short-drama-script-planning-three-axes]]'
 - '[[ai-short-drama-conflict-three-axes]]'
 tags:
-- '#ai-short-drama'
-- '#scriptwriting'
-- '#tool'
-- '#checklist'
+- '#industry/content-creation'
+- '#content-format/concept-card'
+- '#content-format/checklist'
 diagnostic_signals:
 - signal: 用户说"我的剧本太平淡，没有冲突"
   framework_lens: 第一板斧·极致对立

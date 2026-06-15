@@ -1,38 +1,37 @@
 ---
-id: "case-纪浩-skill-market-problem-validation"
-title: "案例：一堂Skill市场从伪需求到真实需求的四问验证"
+id: case-纪浩-skill-market-problem-validation
+title: 案例：一堂Skill市场从伪需求到真实需求的四问验证
 type: case
 status: draft
 domain:
-  - ai-collaboration
-  - yitang
-source_person: "纪浩"
-source_context: "AI俱乐部·AI协作方法论分享（2026年）"
+- ai-collaboration
+- yitang
+source_person: 纪浩
+source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
-  - "00_inbox/纪浩-AI协作方法论-口述.md"
+- 00_inbox/纪浩-AI协作方法论-口述.md
 created_at: 2026-06-09
-updated_at: 2026-06-09
+updated_at: '2026-06-16'
 related:
-  - "dk-纪浩-problem-vs-question"
-  - "skill-纪浩-problem-validation-four-checks"
-  - "concept-纪浩-ai-collaboration-five-layer"
+- '[[dk-纪浩-problem-vs-question]]'
+- '[[skill-纪浩-problem-validation-four-checks]]'
+- '[[concept-纪浩-ai-collaboration-five-layer]]'
 wiki_refs:
-  - "dk-纪浩-problem-vs-question"
-  - "skill-纪浩-problem-validation-four-checks"
-  - "concept-纪浩-ai-collaboration-five-layer"
+- '[[dk-纪浩-problem-vs-question]]'
+- '[[skill-纪浩-problem-validation-four-checks]]'
+- '[[concept-纪浩-ai-collaboration-five-layer]]'
 definition_of_done:
-  - "案例有明确的原始表述、问题、方案和反馈路径"
-  - "案例有可迁移条件和失败模式"
-  - "案例区分度≥2类型（成功/失败/边界/反常识）"
+- 案例有明确的原始表述、问题、方案和反馈路径
+- 案例有可迁移条件和失败模式
+- 案例区分度≥2类型（成功/失败/边界/反常识）
 pipeline:
-  - confidence-published
-  - confidence-source-cited
+- confidence-published
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 案例：一堂Skill市场从伪需求到真实需求的四问验证
 
 ## 原始表述

@@ -4,51 +4,56 @@ confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2500
 language: zh-CN
 query_triggers:
-  - "调研方法"
-  - "OSL五步法"
-  - "商业调研"
-  - "调研流程"
-  - "系统式调研"
-  - "调研框架"
+- 调研方法
+- OSL五步法
+- 商业调研
+- 调研流程
+- 系统式调研
+- 调研框架
 related:
-  - yt-research-intelligence-map
-  - yt-research-competitor-toolkit
-  - yt-research-expert-interview
-  - yt-research-industry-canvas
-  - yt-research-hypothesis-test
-  - yt-research-industry-canvas
-  - yt-research-user-jtbd
-  - yt-research-mindset
-  - yt-decision-y-model
-  - yt-entrepreneur-key-hypotheses
+- '[[yt-research-intelligence-map]]'
+- '[[yt-research-competitor-toolkit]]'
+- '[[yt-research-expert-interview]]'
+- '[[yt-research-industry-canvas]]'
+- '[[yt-research-hypothesis-test]]'
+- '[[yt-research-industry-canvas]]'
+- '[[yt-research-user-jtbd]]'
+- '[[yt-research-mindset]]'
+- '[[yt-decision-y-model]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
 source_refs:
-  - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
-  - "00_inbox/ideas/一堂-创业-调研行动营口述01.md"
+- 00_inbox/ideas/一堂-创业必修-调研行动营.md
+- 00_inbox/ideas/一堂-创业-调研行动营口述01.md
 status: reviewed
-title: "OSL调研五步法：一堂通用商业调研框架"
+title: OSL调研五步法：一堂通用商业调研框架
 trust_level: medium
 type: framework
 version: 1
 yitang:
   map: entrepreneur
-  module: "调研方法论"
+  module: 调研方法论
   course_id: yt-research-osl-framework
   course_type: framework
   level: foundational
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '调研前明确写出目标（O）、范围（S）和清单（L）', 'framework_lens': 'OSL是调研的脚手架', 'follow_up_question': '你的调研目标能用一句话说清吗？'}
-  - {'signal': '每一步都有明确产出物，下一步基于上一步', 'framework_lens': '里程碑式工作流', 'follow_up_question': '你现在卡在OSL的哪一步？产出物是什么？'}
-  - {'signal': '获取情报后会做归一整合，形成统一结论', 'framework_lens': '调研的终点是整合', 'follow_up_question': '多源信息之间的矛盾你是如何处理的？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 调研前明确写出目标（O）、范围（S）和清单（L）
+  framework_lens: OSL是调研的脚手架
+  follow_up_question: 你的调研目标能用一句话说清吗？
+- signal: 每一步都有明确产出物，下一步基于上一步
+  framework_lens: 里程碑式工作流
+  follow_up_question: 你现在卡在OSL的哪一步？产出物是什么？
+- signal: 获取情报后会做归一整合，形成统一结论
+  framework_lens: 调研的终点是整合
+  follow_up_question: 多源信息之间的矛盾你是如何处理的？
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # OSL调研五步法：一堂通用商业调研框架
 
 > 来源：一堂《调研行动营》课程体系 | 核心方法论：以里程碑式工作流确保调研不跑偏、不回退。AI时代该框架与AI工具结合，形成人+AI双三角的协作调研范式。

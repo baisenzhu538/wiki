@@ -1,29 +1,28 @@
 ---
 id: dk-yb16-ecommerce-product-image-vs-lucky-draw
-title: "AI电商产品图：抽卡图≠产品图，白底图才是交付标准"
+title: AI电商产品图：抽卡图≠产品图，白底图才是交付标准
 type: dark-knowledge
 dark_knowledge_type: insight
 status: draft
 domain:
-  - design
-source_person: "月白"
-source_context: "口述稿: AI设计-AI设计师实操培训01"
+- design
+source_person: 月白
+source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
-  - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
+- 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
-updated_at: 2026-06-04
+updated_at: '2026-06-16'
 related:
-  - dk-yb26-chinese-food-photography-props
-  - dk-yb18-small-shop-image-mismatch
+- '[[dk-yb26-chinese-food-photography-props]]'
+- '[[dk-yb18-small-shop-image-mismatch]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # AI电商产品图：抽卡图≠产品图，白底图才是交付标准
 
 ## 原始表述

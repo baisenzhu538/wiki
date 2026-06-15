@@ -1,31 +1,28 @@
 ---
 id: dk-p7-ocr-skip
-title: "P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片"
+title: P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - master
+- master
 source_person: system
-source_context: "pitfalls.md P-7"
+source_context: pitfalls.md P-7
 source_refs:
-  - .agent/pitfalls.md#P-7
+- .agent/pitfalls.md#P-7
 created_at: 2026-06-03
-updated_at: 2026-06-03
+updated_at: '2026-06-16'
 related:
-  - dk-p8-toolkit-forget
-related:
-  - master-decision-hygiene
-  - master-ai-info-literacy
+- '[[master-decision-hygiene]]'
+- '[[master-ai-info-literacy]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片
 
 ## 原始表述

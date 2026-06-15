@@ -4,47 +4,50 @@ confidence: 0.85
 created_at: 2026-06-11
 difficulty: advanced
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
-  - "壁垒识别"
-  - "真假壁垒"
-  - "壁垒构建"
-  - "护城河识别"
-  - "竞争壁垒分析"
-  - "如何构建壁垒"
-  - "一堂壁垒"
-  - "壁垒评估"
+- 壁垒识别
+- 真假壁垒
+- 壁垒构建
+- 护城河识别
+- 竞争壁垒分析
+- 如何构建壁垒
+- 一堂壁垒
+- 壁垒评估
 related:
-  - dk-yb7-design-demand-80-10-10
-  - dk-yb10-theory-moat-designer
+- '[[dk-yb7-design-demand-80-10-10]]'
+- '[[dk-yb10-theory-moat-designer]]'
 review_date: 2026-06-11
-reviewed_by: "周伯通"
+reviewed_by: 周伯通
 source_refs:
-  - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-假的壁垒.png"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-规模经济分析武器库.png"
+- 00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt
+- 00_inbox/一堂五步法/一堂-一堂五步法-壁垒-假的壁垒.png
+- 00_inbox/一堂五步法/一堂-一堂五步法-壁垒-规模经济分析武器库.png
 status: reviewed
-title: "壁垒识别与构建技能：从真假壁垒到护城河建设"
+title: 壁垒识别与构建技能：从真假壁垒到护城河建设
 trust_level: medium
 type: skill
 version: 1
 yitang:
   map: entrepreneur
-  module: "壁垒"
+  module: 壁垒
   course_id: yt-barrier-identification-skill
   course_type: skill
   level: core
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户认为自己的技术领先就是壁垒，但四问都答不上来', 'framework_lens': '技术≠壁垒——需要通过真假壁垒四问验证', 'follow_up_question': '你的技术领先能持续多久？客户切换成本高吗？竞争对手复制需要多久？'}
-  - {'signal': '用户识别了真壁垒，但没有构建路径', 'framework_lens': '识别≠建设——壁垒是长期工程', 'follow_up_question': '为了建立这个壁垒，你接下来90天要做什么具体动作？谁负责？花多少钱？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户认为自己的技术领先就是壁垒，但四问都答不上来
+  framework_lens: 技术≠壁垒——需要通过真假壁垒四问验证
+  follow_up_question: 你的技术领先能持续多久？客户切换成本高吗？竞争对手复制需要多久？
+- signal: 用户识别了真壁垒，但没有构建路径
+  framework_lens: 识别≠建设——壁垒是长期工程
+  follow_up_question: 为了建立这个壁垒，你接下来90天要做什么具体动作？谁负责？花多少钱？
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # 壁垒识别与构建技能：从真假壁垒到护城河建设
 
 > 来源：一堂五步法·壁垒篇 | [[yt-barrier-analysis-cheat-sheet]] | [[yt-five-step-method]] | [[yt-unit-model-three-tools]]

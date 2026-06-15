@@ -1,40 +1,39 @@
 ---
-id: "skill-提升笔记阅读舒适度"
-title: "提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦"
+id: skill-提升笔记阅读舒适度
+title: 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦
 type: concept
 status: draft
 domain:
-  - yitang
-  - personal-growth
+- yitang
+- personal-growth
 language: zh-CN
 version: 1
 confidence: 0.84
 source_refs:
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
+- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
 related:
-  - yt-note-checklist-concept
-  - yt-note-l4-internalization
-  - dk-truman-flag-note-taking
-  - yt-note-expert-interview-modeling
+- '[[yt-note-checklist-concept]]'
+- '[[yt-note-l4-internalization]]'
+- '[[dk-truman-flag-note-taking]]'
+- '[[yt-note-expert-interview-modeling]]'
 query_triggers:
-  - "笔记怎么排版"
-  - "笔记阅读舒适度"
-  - "笔记产品意识"
-  - "视觉美化笔记"
-  - "笔记分层"
-  - "笔记标颜色"
-  - "思维导图 vs 清单体"
+- 笔记怎么排版
+- 笔记阅读舒适度
+- 笔记产品意识
+- 视觉美化笔记
+- 笔记分层
+- 笔记标颜色
+- 思维导图 vs 清单体
 created_at: 2026-06-10
-updated_at: 2026-06-10
+updated_at: '2026-06-16'
 estimated_tokens: 4200
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 trust_level: low
 ---
-
 # 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的核心判断：**笔记不是写给自己看的，而是写给别人（包括未来的自己）用的产品。** 舒适度≠完整度——"在全的基础上最好让别人容易读"。它要求笔记作者具备产品意识（预判使用者、场景、价值）和视觉编码能力（用颜色、分层、格式让内容重心与形式重心统一）。

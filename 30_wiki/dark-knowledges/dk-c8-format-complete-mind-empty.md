@@ -1,30 +1,29 @@
 ---
 id: dk-c8-format-complete-mind-empty
-title: "C-8：批处理格式升级产生格式完整但思维空洞的卡片"
+title: C-8：批处理格式升级产生格式完整但思维空洞的卡片
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - master
-source_person: "欧阳锋"
-source_context: "Sprint 6 审查发现，2026-05-13"
+- master
+source_person: 欧阳锋
+source_context: Sprint 6 审查发现，2026-05-13
 source_refs:
-  - 20_memory/corrections.md#C-8
+- 20_memory/corrections.md#C-8
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 related:
-  - dk-c10-batch-tool-no-dry-run
-  - master-decision-hygiene
+- '[[dk-c10-batch-tool-no-dry-run]]'
+- '[[master-decision-hygiene]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-draft
+- confidence-source-cited
+- confidence-verified-by-case
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # C-8：批处理格式升级产生格式完整但思维空洞的卡片
 
 ## 原始表述

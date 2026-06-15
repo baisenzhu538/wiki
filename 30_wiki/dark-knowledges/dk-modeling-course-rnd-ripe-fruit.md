@@ -1,33 +1,32 @@
 ---
-id: "dk-modeling-course-rnd-ripe-fruit"
-title: "研究型课程无法提前排课表：只能等菜熟了再摘"
-type: "dark-knowledge"
-dark_knowledge_type: "workflow"
+id: dk-modeling-course-rnd-ripe-fruit
+title: 研究型课程无法提前排课表：只能等菜熟了再摘
+type: dark-knowledge
+dark_knowledge_type: workflow
 status: draft
 domain:
-  - "yitang"
-  - "ai-saas"
-source_person: "Truman"
-source_context: "一堂建模能力培训，2026-06-12"
+- yitang
+- ai-saas
+source_person: Truman
+source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
+- src_20260614_8269ccdb
 confidence: 0.8
 trust_level: medium
 related:
-  - "dk-modeling-counterexample-driven"
-  - "framework-course-milestone-model"
-  - "case-yitang-weekly-modeling-engine"
+- '[[dk-modeling-counterexample-driven]]'
+- '[[framework-course-milestone-model]]'
+- '[[case-yitang-weekly-modeling-engine]]'
 tags:
-  - "#source_type/process"
-  - "#domain/yitang"
-  - "#method/modeling"
-  - "#method/course-design"
-author: "老顽童"
-reviewed_by: "pending"
-created_at: "2026-06-15"
-updated_at: "2026-06-15"
+- '#content-format/sop'
+- '#domain/yitang'
+- '#method/modeling'
+- '#method/course-design'
+author: 老顽童
+reviewed_by: pending
+created_at: '2026-06-15'
+updated_at: '2026-06-16'
 ---
-
 # 研究型课程无法提前排课表：只能等菜熟了再摘
 
 ## 原始表述

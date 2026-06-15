@@ -1,56 +1,59 @@
 ---
 id: yt-panproduct-execution-idea-spark
 component_of:
-  - yt-model-pan-product-execution-toolkit
+- yt-model-pan-product-execution-toolkit
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1177
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-aesthetic-toolkit
 query_triggers:
-  - "产品落地"
-  - "产品迭代"
-  - "执行方法"
-  - "泛产品设计"
-  - "泛产品设计·落地卡片：灵感闪现"
-  - "灵感闪现"
-  - "落地卡片"
-  - "落地执行"
+- 产品落地
+- 产品迭代
+- 执行方法
+- 泛产品设计
+- 泛产品设计·落地卡片：灵感闪现
+- 灵感闪现
+- 落地卡片
+- 落地执行
 related:
-  - yt-panproduct-execution-war-room
-  - yt-panproduct-execution-liberate-thinking
-  - yt-panproduct-aesthetic-imagination
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计-落地卡片-灵感闪现.png"
+- '[[yt-panproduct-execution-war-room]]'
+- '[[yt-panproduct-execution-liberate-thinking]]'
+- '[[yt-panproduct-aesthetic-imagination]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_e861d61d
 status: enriched
-title: "泛产品设计·落地卡片：灵感闪现"
+title: 泛产品设计·落地卡片：灵感闪现
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: advanced
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '创意生成有明确流程和触发条件，而不是等灵感降临', 'framework_lens': '灵感可工程化', 'follow_up_question': '你最近一次系统生成创意是在什么情况下触发的？'}
-  - {'signal': '创意数量足够多后，才进入筛选和收敛阶段', 'framework_lens': '发散先于收敛', 'follow_up_question': '在评价任何 idea 之前，你生成了多少个候选方案？'}
-  - {'signal': '每个候选创意都能追溯到要解决的问题或要满足的需求', 'framework_lens': '创意必须对准问题', 'follow_up_question': '这个创意解决了哪个用户的哪个具体问题？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 创意生成有明确流程和触发条件，而不是等灵感降临
+  framework_lens: 灵感可工程化
+  follow_up_question: 你最近一次系统生成创意是在什么情况下触发的？
+- signal: 创意数量足够多后，才进入筛选和收敛阶段
+  framework_lens: 发散先于收敛
+  follow_up_question: 在评价任何 idea 之前，你生成了多少个候选方案？
+- signal: 每个候选创意都能追溯到要解决的问题或要满足的需求
+  framework_lens: 创意必须对准问题
+  follow_up_question: 这个创意解决了哪个用户的哪个具体问题？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium
 ---
-
 # 灵感闪现：如何激发大量idea
 
 > 落地工具箱卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

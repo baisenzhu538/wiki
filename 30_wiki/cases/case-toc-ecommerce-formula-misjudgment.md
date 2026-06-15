@@ -12,11 +12,11 @@ source_refs:
 - src_20260613_a8bcfd38
 - src_20260613_6edbf0af
 tags:
-- "#business-formula"
-- "#case"
-- "#e-commerce"
-- "#yitang"
-- "#misjudgment"
+- '#method/evaluation-method'
+- '#content-format/case-study'
+- '#e-commerce'
+- '#domain/yitang'
+- '#misjudgment'
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 孔阳
@@ -27,11 +27,11 @@ review_date: '2026-06-14'
 confidence: 0.88
 trust_level: high
 related:
-- "[[yt-management-business-formula]]"
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-business-formula-six-level-logic]]"
-- "[[yt-entrepreneur-unit-model]]"
+- '[[yt-management-business-formula]]'
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-business-formula-six-level-logic]]'
+- '[[yt-entrepreneur-unit-model]]'
 ---
 
 # ToC 消费品电商：业务公式拆解误判导致放量亏损

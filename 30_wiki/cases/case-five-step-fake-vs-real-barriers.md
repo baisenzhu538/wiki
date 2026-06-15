@@ -1,11 +1,13 @@
 ---
 id: case-five-step-fake-vs-real-barriers
-title: "案例：五步法中识别真壁垒和假壁垒"
+title: 案例：五步法中识别真壁垒和假壁垒
 type: case
 domain:
-  - yitang
+- yitang
 source_refs:
-- src_20260510_1eb77650
+- 00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt
+- 00_inbox/一堂五步法/一堂-一堂五步法-壁垒-笔记.txt
+- 00_inbox/一堂五步法/一堂-一堂五步法-壁垒-假的壁垒.png
 status: enriched
 confidence: 0.85
 difficulty: intermediate
@@ -13,41 +15,40 @@ estimated_tokens: 2400
 language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
-reviewed_by: "黄药师（Builder体验Producer）"
-source_refs:
-  - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-笔记.txt"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-假的壁垒.png"
+reviewed_by: 黄药师（Builder体验Producer）
 source_person: Truman
-source_context: "一堂五步法壁垒篇"
+source_context: 一堂五步法壁垒篇
 query_triggers:
-  - "真壁垒假壁垒"
-  - "如何判断壁垒"
-  - "壁垒案例"
-  - "假壁垒"
-  - "竞争优势真假"
-  - "我的壁垒是真的吗"
-tags:
-  - #yitang
-  - #scene/business-analysis
-  - #scene/strategy
+- 真壁垒假壁垒
+- 如何判断壁垒
+- 壁垒案例
+- 假壁垒
+- 竞争优势真假
+- 我的壁垒是真的吗
+tags: []
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': "创业者说'我们的壁垒是品牌/技术/先发优势'但说不清楚为什么别人抄不了", 'framework_lens': "用'六个月测试'和'抄不了测试'两条硬标准，快速判断对方的壁垒声明是不是真的", 'follow_up_question': '如果今天有一家资金是你10倍的公司决定抄你，六个月后你们还会存在吗？'}
+- signal: 创业者说'我们的壁垒是品牌/技术/先发优势'但说不清楚为什么别人抄不了
+  framework_lens: 用'六个月测试'和'抄不了测试'两条硬标准，快速判断对方的壁垒声明是不是真的
+  follow_up_question: 如果今天有一家资金是你10倍的公司决定抄你，六个月后你们还会存在吗？
 bridges_to:
-  - {'target': 'yt-barrier-analysis-cheat-sheet', 'relation': 'applies_framework', 'description': '壁垒分析 cheatsheet 提供的分类框架在本案例中的具体应用'}
-  - {'target': 'yt-entrepreneur-barriers', 'relation': 'extends_step', 'description': '创业者壁垒认知的实操案例补充'}
+- target: yt-barrier-analysis-cheat-sheet
+  relation: applies_framework
+  description: 壁垒分析 cheatsheet 提供的分类框架在本案例中的具体应用
+- target: yt-entrepreneur-barriers
+  relation: extends_step
+  description: 创业者壁垒认知的实操案例补充
 wiki_refs:
-  - 30_wiki/concepts/yt-barrier-analysis-cheat-sheet.md
-  - 30_wiki/concepts/yt-entrepreneur-barriers.md
-  - 30_wiki/concepts/yt-scale-economy-weapon-library.md
-  - 30_wiki/concepts/yt-five-step-method.md
-  - 30_wiki/concepts/case-five-step-growth-first-lever.md
-author: "老顽童"
+- '[[yt-barrier-analysis-cheat-sheet]]'
+- '[[yt-entrepreneur-barriers]]'
+- '[[yt-scale-economy-weapon-library]]'
+- '[[yt-five-step-method]]'
+- '[[case-five-step-growth-first-lever]]'
+author: 老顽童
 trust_level: medium-high
+updated_at: '2026-06-16'
 ---
-
 # 案例：五步法中识别真壁垒和假壁垒
 
 > 五步法第五步"壁垒"是最容易被创业者自我欺骗的环节。Truman 在壁垒篇中反复强调：**"你列的壁垒清单里，至少有一半是假的。"**

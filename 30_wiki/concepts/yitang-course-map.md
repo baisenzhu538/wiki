@@ -8,11 +8,7 @@ status: stable
 created_at: 2026-05-06
 updated_at: '2026-06-16'
 id: yitang-course-map
-tags:
-- course-map
-- dataview
-- index
-- yitang
+tags: []
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7

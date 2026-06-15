@@ -4,48 +4,49 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1812
 language: zh-CN
 query_triggers:
-  - "增长飞轮"
-  - "飞轮地图"
-  - "正反馈闭环"
-  - "驱动因子拆解"
-  - "飞轮阻塞诊断"
-  - "亚马逊飞轮"
-  - "系统化增长"
-  - "飞轮效应"
-  - "投入产出再投入"
-  - "增长结构"
+- 增长飞轮
+- 飞轮地图
+- 正反馈闭环
+- 驱动因子拆解
+- 飞轮阻塞诊断
+- 亚马逊飞轮
+- 系统化增长
+- 飞轮效应
+- 投入产出再投入
+- 增长结构
 related:
-  - master-systems-thinking
+- '[[master-systems-thinking]]'
 review_date: 2026-05-08
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
+reviewed_by: 黄药师
 source_refs:
 - src_20260614_720e62a1
 status: enriched
-title: "增长飞轮"
+title: 增长飞轮
 trust_level: medium
 type: tool
 version: 1
 yitang:
   map: entrepreneur
-  module: "增长飞轮"
+  module: 增长飞轮
   course_id: 489
   course_type: method
   level: advanced
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户画了飞轮但飞不起来', 'framework_lens': '飞轮各环节之间没有真实因果关系', 'follow_up_question': '你飞轮的每一个环节，都能用数据证明它推动下一环节吗？'}
-  - {'signal': '用户有多个飞轮但资源分散', 'framework_lens': '没有核心飞轮', 'follow_up_question': '如果只能推动一个飞轮，你选哪个？为什么？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户画了飞轮但飞不起来
+  framework_lens: 飞轮各环节之间没有真实因果关系
+  follow_up_question: 你飞轮的每一个环节，都能用数据证明它推动下一环节吗？
+- signal: 用户有多个飞轮但资源分散
+  framework_lens: 没有核心飞轮
+  follow_up_question: 如果只能推动一个飞轮，你选哪个？为什么？
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # 增长飞轮
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]

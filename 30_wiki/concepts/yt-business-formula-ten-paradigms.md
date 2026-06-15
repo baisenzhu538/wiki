@@ -11,10 +11,10 @@ source_refs:
 - src_20260613_8bfdc3d1
 - src_20260613_6edbf0af
 tags:
-- "#business-formula"
-- "#paradigms"
-- "#yitang"
-- "#framework"
+- '#method/evaluation-method'
+- '#paradigms'
+- '#domain/yitang'
+- '#content-format/framework'
 created_at: '2026-06-14'
 updated_at: '2026-06-15'
 author: 孔阳
@@ -23,11 +23,11 @@ review_date: '2026-06-14'
 confidence: 0.92
 trust_level: high
 related:
-- "[[yt-management-business-formula]]"
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-entrepreneur-unit-model]]"
-- "[[yt-growth-cycle-model]]"
+- '[[yt-management-business-formula]]'
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-entrepreneur-unit-model]]'
+- '[[yt-growth-cycle-model]]'
 ---
 
 # 一堂业务公式十大经典范式

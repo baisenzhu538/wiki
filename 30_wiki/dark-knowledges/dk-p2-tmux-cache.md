@@ -1,31 +1,28 @@
 ---
 id: dk-p2-tmux-cache
-title: "P-2：tmux session 缓存旧配置"
+title: P-2：tmux session 缓存旧配置
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - master
+- master
 source_person: system
-source_context: "pitfalls.md P-2"
+source_context: pitfalls.md P-2
 source_refs:
-  - .agent/pitfalls.md#P-2
+- .agent/pitfalls.md#P-2
 created_at: 2026-06-03
-updated_at: 2026-06-03
+updated_at: '2026-06-16'
 related:
-  - dk-p1-model-switch-env
-related:
-  - master-systems-thinking
-  - master-first-principles
+- '[[master-systems-thinking]]'
+- '[[master-first-principles]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # P-2：tmux session 缓存旧配置
 
 ## 原始表述

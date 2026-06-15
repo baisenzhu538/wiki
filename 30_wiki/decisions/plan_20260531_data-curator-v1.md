@@ -15,10 +15,7 @@ created_at: 2026-05-31
 updated_at: '2026-06-16'
 version: 1
 supersedes: null
-related:
-- kdo-industrialization-manual
-- tool-card-excellence-standard
-- AGENTS
+related: []
 author: legacy
 reviewed_by: pending
 confidence: 0.75

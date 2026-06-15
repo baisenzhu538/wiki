@@ -1,39 +1,38 @@
 ---
-id: "case-一堂-陈贤敏汉堡-hypothesis-validation"
-title: "案例：陈贤敏中式汉堡先开实验店验证关键假设"
+id: case-一堂-陈贤敏汉堡-hypothesis-validation
+title: 案例：陈贤敏中式汉堡先开实验店验证关键假设
 type: case
 status: draft
 domain:
-  - yitang
-  - business-strategy
-source_person: "一堂·Truman"
-source_context: "一堂-关键假设课-truman-笔记.txt"
+- yitang
+- business-strategy
+source_person: 一堂·Truman
+source_context: 一堂-关键假设课-truman-笔记.txt
 source_refs:
-  - "00_inbox/一堂-关键假设课-truman-笔记.txt"
+- 00_inbox/一堂-关键假设课-truman-笔记.txt
 created_at: 2026-06-08
-updated_at: 2026-06-09
+updated_at: '2026-06-16'
 related:
-  - "case-一堂-无人餐厅-hypothesis-failure"
-  - "concept-一堂-hypothesis-driven-business-methodology"
-  - "dk-一堂-wishful-thinking-kills-startups"
+- '[[case-一堂-无人餐厅-hypothesis-failure]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[dk-一堂-wishful-thinking-kills-startups]]'
 wiki_refs:
-  - "case-一堂-无人餐厅-hypothesis-failure"
-  - "concept-一堂-hypothesis-driven-business-methodology"
-  - "dk-一堂-wishful-thinking-kills-startups"
+- '[[case-一堂-无人餐厅-hypothesis-failure]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[dk-一堂-wishful-thinking-kills-startups]]'
 definition_of_done:
-  - "原始表述、问题、方案、可迁移、Feedback Path 均已填写"
-  - "关键假设验证过程和数据已记录"
-  - "可迁移条件和不可复制场景已明确"
-  - "实际应用后收集反馈并更新案例"
+- 原始表述、问题、方案、可迁移、Feedback Path 均已填写
+- 关键假设验证过程和数据已记录
+- 可迁移条件和不可复制场景已明确
+- 实际应用后收集反馈并更新案例
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 案例：陈贤敏中式汉堡先开实验店验证关键假设
 
 ## 原始表述

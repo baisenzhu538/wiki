@@ -1,54 +1,57 @@
 ---
 id: yt-panproduct-demand-industry-canvas
 component_of:
-  - yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-demand-toolkit
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1281
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 query_triggers:
-  - "泛产品设计"
-  - "泛产品设计·用户卡片：行业分析画布"
-  - "用户卡片"
-  - "用户研究"
-  - "用户需求"
-  - "行业分析画布"
-  - "需求分析"
-  - "需求洞察"
+- 泛产品设计
+- 泛产品设计·用户卡片：行业分析画布
+- 用户卡片
+- 用户研究
+- 用户需求
+- 行业分析画布
+- 需求分析
+- 需求洞察
 related:
-  - yt-panproduct-demand-five-step-method
-  - yt-panproduct-demand-project-background
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计-用户卡片-行业分析画布.png"
+- '[[yt-panproduct-demand-five-step-method]]'
+- '[[yt-panproduct-demand-project-background]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_78d5f0a4
 status: enriched
-title: "泛产品设计·用户卡片：行业分析画布"
+title: 泛产品设计·用户卡片：行业分析画布
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: advanced
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '六步分析（产业链→规模→增速→集中度→替代→进入时机）都有数据或证据支撑', 'framework_lens': '行业分析需要可验证的事实基础', 'follow_up_question': '这六步中哪一步的证据最弱？如果它错了，结论会怎样变化？'}
-  - {'signal': '结论不只是‘赛道好不好’，而是明确‘值不值得我们现在进入、以什么方式进入’', 'framework_lens': '行业分析服务于进入决策', 'follow_up_question': '根据画布结论，你是否应该进入、观望还是放弃？为什么？'}
-  - {'signal': '分析中考虑了间接替代品和新进入者，而不仅仅是现有竞品', 'framework_lens': '赛道边界大于直接竞品集合', 'follow_up_question': '用户如果不选你，除了直接竞品还会怎么解决这个需求？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 六步分析（产业链→规模→增速→集中度→替代→进入时机）都有数据或证据支撑
+  framework_lens: 行业分析需要可验证的事实基础
+  follow_up_question: 这六步中哪一步的证据最弱？如果它错了，结论会怎样变化？
+- signal: 结论不只是‘赛道好不好’，而是明确‘值不值得我们现在进入、以什么方式进入’
+  framework_lens: 行业分析服务于进入决策
+  follow_up_question: 根据画布结论，你是否应该进入、观望还是放弃？为什么？
+- signal: 分析中考虑了间接替代品和新进入者，而不仅仅是现有竞品
+  framework_lens: 赛道边界大于直接竞品集合
+  follow_up_question: 用户如果不选你，除了直接竞品还会怎么解决这个需求？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium
 ---
-
 # 行业分析画布：分析行业赛道的变化和机会
 
 > 需求工具箱高级卡牌。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

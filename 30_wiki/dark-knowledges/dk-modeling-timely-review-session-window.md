@@ -1,36 +1,35 @@
 ---
-id: "dk-modeling-timely-review-session-window"
-title: "离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内"
-type: "dark-knowledge"
-dark_knowledge_type: "workflow"
-status: "draft"
+id: dk-modeling-timely-review-session-window
+title: 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
+type: dark-knowledge
+dark_knowledge_type: workflow
+status: draft
 domain:
-  - "yitang"
-  - "master"
-source_person: "Truman"
-source_context: "一堂建模能力培训（流程建模原则），2026-06-12"
+- yitang
+- master
+source_person: Truman
+source_context: 一堂建模能力培训（流程建模原则），2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
-  - "src_20260614_623cfbfd"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
+- src_20260614_8269ccdb
+- src_20260614_623cfbfd
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
 related:
-  - "modeling-capability-for-kdo"
-  - "process-modeling"
-  - "modeling-three-stages"
-  - "dk-modeling-sop-execution-locks"
+- '[[modeling-capability-for-kdo]]'
+- '[[process-modeling]]'
+- '[[modeling-three-stages]]'
+- '[[dk-modeling-sop-execution-locks]]'
 tags:
-  - "#source_type/process"
-  - "#domain/yitang"
-  - "#method/retrospective"
-  - "#method/modeling"
-trust_level: "high"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-author: "legacy"
+- '#content-format/sop'
+- '#domain/yitang'
+- '#method/retrospective'
+- '#method/modeling'
+trust_level: high
+reviewed_by: 老顽童
+review_date: '2026-06-14'
+author: legacy
 confidence: 0.7
 ---
-
 # 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
 
 ## 原始表述

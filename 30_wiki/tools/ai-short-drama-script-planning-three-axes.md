@@ -24,10 +24,9 @@ related:
 - '[[ai-short-drama-framework-three-axes]]'
 - '[[ai-short-drama-conflict-three-axes]]'
 tags:
-- '#ai-short-drama'
-- '#scriptwriting'
-- '#tool'
-- '#checklist'
+- '#industry/content-creation'
+- '#content-format/concept-card'
+- '#content-format/checklist'
 diagnostic_signals:
 - signal: 用户说"让AI写剧本，越写越跑偏"
   framework_lens: 第一板斧·剧本基地

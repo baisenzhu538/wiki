@@ -25,10 +25,9 @@ related:
 - '[[ai-short-drama-framework-three-axes]]'
 - '[[ai-short-drama-conflict-three-axes]]'
 tags:
-- '#ai-short-drama'
-- '#scriptwriting'
+- '#industry/content-creation'
 - '#reverse-engineering'
-- '#framework'
+- '#content-format/framework'
 diagnostic_signals:
 - signal: 用户说"看了很多爆款短剧，但不知道怎么学到东西"
   framework_lens: 结构化拆本五维模型

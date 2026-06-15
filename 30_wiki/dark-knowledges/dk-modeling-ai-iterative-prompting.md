@@ -19,14 +19,13 @@ review_date: '2026-06-14'
 trust_level: high
 confidence: 0.85
 related:
-- modeling-capability-for-kdo
+- '[[modeling-capability-for-kdo]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[tool-ai-skill-engineering-method]]'
 - '[[dk-modeling-ai-self-retrospection]]'
 tags:
-- '#modeling'
-- '#dk'
-- '#ai-collaboration'
+- '#method/modeling'
+- '#method/prompt-engineering'
 - '#iteration'
 ---
 # AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限

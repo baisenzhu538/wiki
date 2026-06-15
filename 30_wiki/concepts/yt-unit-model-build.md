@@ -16,7 +16,7 @@ query_triggers:
 - 成本清单
 - 三点预测
 related:
-- yt-unit-model-selection
+- '[[yt-unit-model-selection]]'
 review_date: 2026-06-11
 reviewed_by: pending
 source_refs:

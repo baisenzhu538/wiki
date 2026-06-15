@@ -1,65 +1,54 @@
 ---
 id: yt-tool-strategy-workshop
-title: "战略研讨会引导手册"
+title: 战略研讨会引导手册
 type: tool
 source_refs:
-- src_20260614_8f80cb0f
+- 30_wiki/concepts/yt-management-strategy-meeting.md
 status: enriched
 domain:
-  - yitang
+- yitang
 language: zh-CN
 version: 1
 difficulty: foundational
 confidence: 0.85
-prerequisites: 
+prerequisites: null
 component_of:
-  - yt-management-toolkit-overview
+- yt-management-toolkit-overview
 related:
-  - yt-management-strategy-meeting
-  - yt-management-scientific-decision
-  - yt-management-goal-management
-  - yt-management-scientific-meetings
-  - yt-management-founder-role
-  - yt-management-company-culture
-  - yt-concept-weapon-arsenal
-  - yt-model-personal-pitch-toolkit
-contradicts: 
+- '[[yt-management-strategy-meeting]]'
+- '[[yt-management-scientific-decision]]'
+- '[[yt-management-goal-management]]'
+- '[[yt-management-scientific-meetings]]'
+- '[[yt-management-founder-role]]'
+- '[[yt-management-company-culture]]'
+- '[[yt-concept-weapon-arsenal]]'
+- '[[yt-model-personal-pitch-toolkit]]'
+contradicts: null
 query_triggers:
-  - "战略会怎么开"
-  - "创业战略规划"
-  - "年度战略会"
-  - "战略研讨"
-  - "战略对齐"
-  - "战略决策"
-  - "战略复盘"
-  - "disagree and commit"
-  - "战略会模板"
-  - "战略导引"
-tags:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - #management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/skill-engineering/publish-deploy
-  - #tool
-  - #yitang
+- 战略会怎么开
+- 创业战略规划
+- 年度战略会
+- 战略研讨
+- 战略对齐
+- 战略决策
+- 战略复盘
+- disagree and commit
+- 战略会模板
+- 战略导引
+tags: []
 trust_level: medium
 yitang:
   map: management
-  module: "战略会"
+  module: 战略会
   course_id: yt-tool-strategy-workshop
   course_type: tool
   level: advanced
-source_refs:
-  - 30_wiki/concepts/yt-management-strategy-meeting.md
 created_at: 2026-05-19
-updated_at: 2026-05-19
+updated_at: '2026-06-16'
 estimated_tokens: 3300
-reviewed_by: "周伯通"
-author: "老顽童"
+reviewed_by: 周伯通
+author: 老顽童
 ---
-
 # 战略研讨会引导手册
 
 > 来源：从 [[yt-management-strategy-meeting]] 概念卡萃取的工具内核。一套完整的战略研讨会开会指南——从会前准备到会中引导到会后产出，防止战略会沦为汇报大会或老板一言堂。

@@ -1,62 +1,51 @@
 ---
 id: yt-tool-onboarding-90day
-title: "新人 90 天融入加速器"
+title: 新人 90 天融入加速器
 type: tool
 source_refs:
-- src_20260614_610cbfc3
+- 30_wiki/concepts/yt-management-team-knowledge.md
 status: enriched
 domain:
-  - yitang
+- yitang
 language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.75
 prerequisites:
-  - yt-management-team-knowledge
+- yt-management-team-knowledge
 component_of:
-  - yt-management-toolkit-overview
+- yt-management-toolkit-overview
 related:
-  - yt-management-team-knowledge
-  - yt-tool-okr-cycle
-  - yt-management-goal-management
-  - yt-management-scientific-meetings
-contradicts: 
+- '[[yt-management-team-knowledge]]'
+- '[[yt-tool-okr-cycle]]'
+- '[[yt-management-goal-management]]'
+- '[[yt-management-scientific-meetings]]'
+contradicts: null
 query_triggers:
-  - "新人融入"
-  - "新人培训"
-  - "90天融入计划"
-  - "新员工 onboarding"
-  - "团队融入"
-  - "新人导师制"
-  - "组织社会化"
-  - "新人快速上手"
-  - "团队文化传递"
-  - "新人留存"
-tags:
-  - confidence-source-cited
-  - #management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/skill-engineering/manifest-design
-  - #team
-  - #tool
-  - #yitang
+- 新人融入
+- 新人培训
+- 90天融入计划
+- 新员工 onboarding
+- 团队融入
+- 新人导师制
+- 组织社会化
+- 新人快速上手
+- 团队文化传递
+- 新人留存
+tags: []
 trust_level: medium
 yitang:
   map: management
-  module: "团队管理"
+  module: 团队管理
   course_id: yt-tool-onboarding-90day
   course_type: tool
   level: core
-source_refs:
-  - 30_wiki/concepts/yt-management-team-knowledge.md
 created_at: 2026-05-20
-updated_at: 2026-05-20
+updated_at: '2026-06-16'
 estimated_tokens: 3200
-reviewed_by: 
-author: "老顽童"
+reviewed_by: null
+author: 老顽童
 ---
-
 # 新人 90 天融入加速器
 
 > 从 [[yt-management-team-knowledge]] 萃取的团队管理工具。不是"发员工手册+安排导师"的形式主义，而是一套有节奏、有反馈、有退出标准的"社会化工程"——让新人在 90 天内从"外部人"变成"有贡献的内部人"，同时保留他们带来的外部视角。

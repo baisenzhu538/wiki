@@ -1,35 +1,41 @@
 ---
 id: yt-skill-checklist-as-ai-protocol
-title: "清单体作为AI的I/O协议——用笔记替代prompt工程"
+title: 清单体作为AI的I/O协议——用笔记替代prompt工程
 type: concept
 status: draft
 domain:
-  - yitang
+- yitang
 language: zh-CN
 version: 1
 confidence: 0.85
 source_refs:
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt"
+- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt
 related:
-  - yt-note-checklist-concept
-  - yt-personal-ai-capability
-  - yt-model-prompt-engineering
-  - yt-personal-checklist-notes
+- '[[yt-note-checklist-concept]]'
+- '[[yt-personal-ai-capability]]'
+- '[[yt-model-prompt-engineering]]'
+- '[[yt-personal-checklist-notes]]'
 query_triggers:
-  - "清单体"
-  - "AI协议"
-  - "prompt工程"
-  - "笔记即prompt"
+- 清单体
+- AI协议
+- prompt工程
+- 笔记即prompt
 created_at: 2026-06-10
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 estimated_tokens: 2500
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '给AI的输入本身就是结构化的清单体，而不是大段自然语言', 'framework_lens': '清单体降低AI理解成本', 'follow_up_question': '你的笔记如果直接发给AI，它能否快速识别结构和优先级？'}
-  - {'signal': 'AI的输出也要求为清单体，便于直接接入下一轮输入', 'framework_lens': '结构化输出实现无缝循环', 'follow_up_question': 'AI的输出是否需要你重新整理才能使用？'}
-  - {'signal': '只在L1-L2任务中使用该协议，复杂任务仍用自然语言', 'framework_lens': '协议有适用范围', 'follow_up_question': '这个任务是信息整理还是创意策略？'}
+- signal: 给AI的输入本身就是结构化的清单体，而不是大段自然语言
+  framework_lens: 清单体降低AI理解成本
+  follow_up_question: 你的笔记如果直接发给AI，它能否快速识别结构和优先级？
+- signal: AI的输出也要求为清单体，便于直接接入下一轮输入
+  framework_lens: 结构化输出实现无缝循环
+  follow_up_question: AI的输出是否需要你重新整理才能使用？
+- signal: 只在L1-L2任务中使用该协议，复杂任务仍用自然语言
+  framework_lens: 协议有适用范围
+  follow_up_question: 这个任务是信息整理还是创意策略？
 author: legacy
 reviewed_by: pending
 trust_level: low

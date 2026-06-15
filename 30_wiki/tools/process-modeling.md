@@ -26,10 +26,10 @@ related:
 - '[[modeling-three-stages]]'
 - '[[modeling-level-map]]'
 tags:
-- '#modeling'
-- '#tool'
-- '#sop'
-- '#checklist'
+- '#method/modeling'
+- '#content-format/concept-card'
+- '#content-format/sop'
+- '#content-format/checklist'
 - '#workflow'
 diagnostic_signals:
 - signal: 用户说"每次做这件事都踩同样的坑"

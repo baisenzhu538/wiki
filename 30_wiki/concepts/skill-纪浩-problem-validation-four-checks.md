@@ -1,41 +1,40 @@
 ---
-id: "skill-纪浩-problem-validation-four-checks"
-title: "技能：四问验证法 —— 判断需求是真实Problem还是伪需求"
+id: skill-纪浩-problem-validation-four-checks
+title: 技能：四问验证法 —— 判断需求是真实Problem还是伪需求
 type: skill
 status: draft
 domain:
-  - ai-collaboration
-  - yitang
-source_person: "纪浩"
-source_context: "AI俱乐部·AI协作方法论分享（2026年）"
+- ai-collaboration
+- yitang
+source_person: 纪浩
+source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
-  - "00_inbox/纪浩-AI协作方法论-口述.md"
+- 00_inbox/纪浩-AI协作方法论-口述.md
 created_at: 2026-06-09
-updated_at: 2026-06-09
+updated_at: '2026-06-16'
 related:
-  - "case-纪浩-skill-market-problem-validation"
-  - "dk-纪浩-problem-vs-question"
+- '[[case-纪浩-skill-market-problem-validation]]'
+- '[[dk-纪浩-problem-vs-question]]'
 wiki_refs:
-  - "case-纪浩-skill-market-problem-validation"
-  - "dk-纪浩-problem-vs-question"
+- '[[case-纪浩-skill-market-problem-validation]]'
+- '[[dk-纪浩-problem-vs-question]]'
 definition_of_done:
-  - "技能有明确的Actionable Steps"
-  - "有关键要点解读"
-  - "有常见失误和解决方案"
-  - "有相关案例"
-  - "有关联概念"
-  - "有关联其他skill"
-  - "Constraints或局限性"
-  - "≥2位外部攻击者"
+- 技能有明确的Actionable Steps
+- 有关键要点解读
+- 有常见失误和解决方案
+- 有相关案例
+- 有关联概念
+- 有关联其他skill
+- Constraints或局限性
+- ≥2位外部攻击者
 pipeline:
-  - confidence-published
-  - confidence-source-cited
+- confidence-published
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：四问验证法
 
 ## Actionable Steps

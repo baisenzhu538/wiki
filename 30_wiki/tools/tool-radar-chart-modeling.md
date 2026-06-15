@@ -23,8 +23,8 @@ related:
 - '[[modeling-three-stages]]'
 - '[[modeling-level-map]]'
 tags:
-- '#modeling'
-- '#tool'
+- '#method/modeling'
+- '#content-format/concept-card'
 - '#radar-chart'
 - '#evaluation'
 - '#decision'

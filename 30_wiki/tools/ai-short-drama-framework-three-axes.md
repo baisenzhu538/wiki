@@ -24,11 +24,10 @@ related:
 - '[[ai-short-drama-plot-three-axes]]'
 - '[[ai-short-drama-conflict-three-axes]]'
 tags:
-- '#ai-short-drama'
-- '#scriptwriting'
-- '#tool'
-- '#checklist'
-- '#framework'
+- '#industry/content-creation'
+- '#content-format/concept-card'
+- '#content-format/checklist'
+- '#content-format/framework'
 diagnostic_signals:
 - signal: 用户说"短剧写到中段，主角动机消失了"
   framework_lens: 第一板斧·深渊入局闯难关

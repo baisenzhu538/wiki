@@ -1,24 +1,22 @@
 ---
 id: ai-native-im-multi-agent
-title: "AI 原生 IM：让 Agent 成为一等公民的协作基础设施"
+title: AI 原生 IM：让 Agent 成为一等公民的协作基础设施
 type: concept
 status: enriched
 confidence: 0.85
 trust_level: medium-high
 domain:
-  - ai
-  - product
-  - ai-collaboration
+- ai
+- product
+- ai-collaboration
 source_refs:
-  - src_20260614_c5115d2c
+- src_20260614_c5115d2c
 related:
-  - industrial-ai-ops-cases
-  - ai-agent-workflow
-  - yt-entrepreneur-ai-methodology
+- '[[industrial-ai-ops-cases]]'
 created_at: 2026-06-14
-updated_at: 2026-06-14
-author: "王语嫣"
-reviewed_by: "老顽童"
+updated_at: '2026-06-16'
+author: 王语嫣
+reviewed_by: 老顽童
 review_date: 2026-06-14
 ---
 # AI 原生 IM：让 Agent 成为一等公民的协作基础设施

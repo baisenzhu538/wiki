@@ -1,33 +1,32 @@
 ---
-id: "dk-modeling-model-arsenal-paradigms"
-title: "99% 的模型跑不出二三十个范式：先装武器库再创新"
-type: "dark-knowledge"
-dark_knowledge_type: "insight"
+id: dk-modeling-model-arsenal-paradigms
+title: 99% 的模型跑不出二三十个范式：先装武器库再创新
+type: dark-knowledge
+dark_knowledge_type: insight
 status: draft
 domain:
-  - "yitang"
-  - "ai-saas"
-source_person: "Truman"
-source_context: "一堂建模能力培训，2026-06-12"
+- yitang
+- ai-saas
+source_person: Truman
+source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
+- src_20260614_8269ccdb
 confidence: 0.8
 trust_level: medium
 related:
-  - "dk-modeling-business-visual-logic-match"
-  - "modeling-weapon-library"
-  - "modeling-level-map"
+- '[[dk-modeling-business-visual-logic-match]]'
+- '[[modeling-weapon-library]]'
+- '[[modeling-level-map]]'
 tags:
-  - "#source_type/insight"
-  - "#domain/yitang"
-  - "#method/modeling"
-  - "#method/knowledge-management"
-author: "老顽童"
-reviewed_by: "pending"
-created_at: "2026-06-15"
-updated_at: "2026-06-15"
+- '#chunk-type/synthesis'
+- '#domain/yitang'
+- '#method/modeling'
+- '#method/knowledge-management'
+author: 老顽童
+reviewed_by: pending
+created_at: '2026-06-15'
+updated_at: '2026-06-16'
 ---
-
 # 99% 的模型跑不出二三十个范式：先装武器库再创新
 
 ## 原始表述

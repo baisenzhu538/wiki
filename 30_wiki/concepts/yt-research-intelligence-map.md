@@ -4,48 +4,53 @@ confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
-  - "情报获取"
-  - "调研渠道"
-  - "怎么找信息"
-  - "竞品情报"
-  - "行业调研"
-  - "情报地图"
+- 情报获取
+- 调研渠道
+- 怎么找信息
+- 竞品情报
+- 行业调研
+- 情报地图
 related:
-  - yt-research-osl-framework
-  - yt-research-competitor-toolkit
-  - yt-research-expert-interview
-  - yt-research-hypothesis-test
-  - yt-research-industry-canvas
-  - yt-research-user-jtbd
-  - yt-research-mindset
+- '[[yt-research-osl-framework]]'
+- '[[yt-research-competitor-toolkit]]'
+- '[[yt-research-expert-interview]]'
+- '[[yt-research-hypothesis-test]]'
+- '[[yt-research-industry-canvas]]'
+- '[[yt-research-user-jtbd]]'
+- '[[yt-research-mindset]]'
 source_refs:
-  - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
+- 00_inbox/ideas/一堂-创业必修-调研武器库.md
 status: reviewed
-title: "情报获取全景地图：13+渠道穷尽手段"
+title: 情报获取全景地图：13+渠道穷尽手段
 trust_level: medium
 type: framework
 version: 1
 yitang:
   map: entrepreneur
-  module: "调研方法论"
+  module: 调研方法论
   course_id: yt-research-intelligence-map
   course_type: framework
   level: foundational
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '面对信息缺口时，能主动调用地图上的多个渠道', 'framework_lens': '多渠道三角验证', 'follow_up_question': '这个问题你已经尝试了几个渠道？'}
-  - {'signal': '会根据信息价值决定投入力度，而不是所有问题都穷尽', 'framework_lens': '调研投入与决策价值匹配', 'follow_up_question': '这个信息值多少钱？你愿意花多少精力去找？'}
-  - {'signal': '获取的信息会标注来源和可信度', 'framework_lens': '情报质量需要溯源', 'follow_up_question': '这条信息的原始来源是什么？可信度如何？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 面对信息缺口时，能主动调用地图上的多个渠道
+  framework_lens: 多渠道三角验证
+  follow_up_question: 这个问题你已经尝试了几个渠道？
+- signal: 会根据信息价值决定投入力度，而不是所有问题都穷尽
+  framework_lens: 调研投入与决策价值匹配
+  follow_up_question: 这个信息值多少钱？你愿意花多少精力去找？
+- signal: 获取的信息会标注来源和可信度
+  framework_lens: 情报质量需要溯源
+  follow_up_question: 这条信息的原始来源是什么？可信度如何？
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # 情报获取全景地图：13+渠道穷尽手段
 
 > 来源：一堂《调研武器库》课程核心内容 | 解决问题："信息在哪里？还能怎么找？"——将商业调研中95%的常用情报获取渠道系统化整理为"三端七点"框架，从内核到外围逐层拓展。

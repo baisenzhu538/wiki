@@ -1,35 +1,32 @@
 ---
-title: "AI数据理解第一课"
+title: AI数据理解第一课
 type: concept
 source_refs:
 - src_20260601_ba8ea2f0
 status: enriched
 domain:
-  - yitang
-source_refs:
-  - src_20260601_ba8ea2f0
+- yitang
 created_at: 2026-06-01
-updated_at: 2026-06-01
+updated_at: '2026-06-16'
 related:
-  - "人机协作决策-双三角模型"
-  - "数据标注维度最佳实践调研报告"
-  - "ai-native-五层进阶从答案到效率到作品到产品到系统"
-  - yt-unit-model-ai-assisted
+- '[[人机协作决策-双三角模型]]'
+- '[[数据标注维度最佳实践调研报告]]'
+- '[[ai-native-五层进阶从答案到效率到作品到产品到系统]]'
+- '[[yt-unit-model-ai-assisted]]'
 query_triggers:
-  - "数据使用层次"
-  - "AI数据类型"
-  - "DIKW模型"
-  - "数据复利"
-  - "投喂检索训练"
+- 数据使用层次
+- AI数据类型
+- DIKW模型
+- 数据复利
+- 投喂检索训练
 pipeline:
-  - confidence-source-cited
-id: "ai数据理解第一课"
-author: "老顽童"
-reviewed_by: "欧阳锋"
+- confidence-source-cited
+id: ai数据理解第一课
+author: 老顽童
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 ---
-
 # AI数据理解第一课
 
 > **核心定位**：AI时代普通人唯一能建立护城河的方向是数据。数据不是堆料，是按层次和类型管理的复利资产。

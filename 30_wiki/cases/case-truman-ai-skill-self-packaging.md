@@ -15,15 +15,15 @@ reviewed_by: 黄药师
 review_date: '2026-06-14'
 trust_level: high
 related:
-- modeling-capability-for-kdo
-- modeling-three-stages
-- case-truman-livestream-sop-iteration
-- modeling-to-kdo-toolchain
+- '[[modeling-capability-for-kdo]]'
+- '[[modeling-three-stages]]'
+- '[[case-truman-livestream-sop-iteration]]'
+- '[[modeling-to-kdo-toolchain]]'
 tags:
 - '#ai-skills'
-- '#case'
+- '#content-format/case-study'
 - '#self-improvement'
-- '#yitang'
+- '#domain/yitang'
 diagnostic_signals:
 - signal: 每次做AI项目都要重新调prompt，做完就丢了
   framework_lens: AI自复盘——让AI总结这次经验变下次基础

@@ -11,24 +11,21 @@ source_refs:
 - 00_inbox/design/AI设计-文创案例设计课口述.txt
 status: draft
 tags:
-- '#boundary/not-for-creative'
+- '#perspective/compliance'
 - '#boundary/single-use-only'
-- confidence-draft
-- confidence-source-cited
 - '#scene/ai-collaboration/prompt-engineering'
 - '#scene/business-analysis'
-- '#scene/learning-methodology/feedback-loop'
-- aigc
-- presentation
-- productivity
-- tool
+- '#method/learning-method'
+- '#domain/ai-saas'
+- '#method/communication-method'
 related:
-- yt-pitch-storytelling
-- yt-pitch-quantification
+- '[[yt-pitch-storytelling]]'
+- '[[yt-pitch-quantification]]'
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 type: tool
+updated_at: '2026-06-16'
 ---
 # AI对话式PPT生成器：把排版变成说话
 

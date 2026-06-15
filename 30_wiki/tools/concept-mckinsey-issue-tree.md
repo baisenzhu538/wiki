@@ -1,40 +1,42 @@
 ---
 id: concept-mckinsey-issue-tree
-title: "Issue Tree：结构化问题拆解"
+title: Issue Tree：结构化问题拆解
 type: tool
 source_refs:
-- src_20260614_8f80cb0f
+- 'Rasiel, E. (1999). *The McKinsey Way*. McGraw-Hill. Chapter 3: ''The McKinsey Problem-Solving
+  Process.'''
+- 'Minto, B. (2009). *The Pyramid Principle*. 3rd ed. FT Press. Part I: ''The Thinking
+  Process.'''
 status: enriched
 domain:
-  - consulting
-  - yitang
-source_refs:
-  - "Rasiel, E. (1999). *The McKinsey Way*. McGraw-Hill. Chapter 3: 'The McKinsey Problem-Solving Process.'"
-  - "Minto, B. (2009). *The Pyramid Principle*. 3rd ed. FT Press. Part I: 'The Thinking Process.'"
+- consulting
+- yitang
 bridges_to:
-  - {'target': 'yt-entrepreneur-five-step-method', 'relation': 'provides_foundation_for', 'description': "Issue Tree 是五步法'充分做加法'步骤的底层工具", 'context': '一堂有选项池构建的做法，但缺少 Issue Tree 这个系统性工具卡'}
+- target: yt-entrepreneur-five-step-method
+  relation: provides_foundation_for
+  description: Issue Tree 是五步法'充分做加法'步骤的底层工具
+  context: 一堂有选项池构建的做法，但缺少 Issue Tree 这个系统性工具卡
 diagnostic_signals:
-  - {'signal': "用户说'我知道问题很大，但不知道从哪里下手'", 'framework_lens': 'Issue Tree 检查：是否已将大问题拆解为可独立攻克的子问题', 'follow_up_question': '如果把这个问题拆成 3-5 个子问题，每个子问题解决后原问题自动解决吗？'}
-  - {'signal': '用户提出了一个解决方案，但无法说清楚这个方案解决了哪个具体子问题', 'framework_lens': 'Issue Tree 检查：方案是否映射到具体的子问题节点', 'follow_up_question': '这个方案能够解决问题树上的哪几个节点？如果有节点无法被它解决，说明方案不完整'}
+- signal: 用户说'我知道问题很大，但不知道从哪里下手'
+  framework_lens: Issue Tree 检查：是否已将大问题拆解为可独立攻克的子问题
+  follow_up_question: 如果把这个问题拆成 3-5 个子问题，每个子问题解决后原问题自动解决吗？
+- signal: 用户提出了一个解决方案，但无法说清楚这个方案解决了哪个具体子问题
+  framework_lens: Issue Tree 检查：方案是否映射到具体的子问题节点
+  follow_up_question: 这个方案能够解决问题树上的哪几个节点？如果有节点无法被它解决，说明方案不完整
 related:
-  - concept-mckinsey-mece
-  - yt-entrepreneur-five-step-method
-  - yt-entrepreneur-key-hypotheses
-  - concept-toyota-5-whys
-tags:
-  - #scene/business-analysis
-  - #scene/learning-methodology
-  - #method/checklist
-  - #consulting
+- '[[concept-mckinsey-mece]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[concept-toyota-5-whys]]'
+tags: []
 version: 1
 created_at: 2026-06-11
-updated_at: 2026-06-11
+updated_at: '2026-06-16'
 reviewed_by: laowantong
-author: "老顽童"
+author: 老顽童
 confidence: 0.85
 trust_level: medium-high
 ---
-
 # Issue Tree：结构化问题拆解
 
 > 来源：Rasiel, E. (1999). *The McKinsey Way*; Minto, B. (2009). *The Pyramid Principle*

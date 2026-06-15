@@ -1,32 +1,29 @@
 ---
 id: dk-p10-oral-ban
-title: "P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件"
+title: P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - master
+- master
 source_person: system
-source_context: "pitfalls.md P-10"
+source_context: pitfalls.md P-10
 source_refs:
-  - .agent/pitfalls.md#P-10
+- .agent/pitfalls.md#P-10
 created_at: 2026-06-03
-updated_at: 2026-06-03
+updated_at: '2026-06-16'
 related:
-  - dk-p15-unverified
-related:
-  - master-decision-hygiene
-  - master-knowledge-compound
+- '[[master-decision-hygiene]]'
+- '[[master-knowledge-compound]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-draft
+- confidence-source-cited
+- confidence-verified-by-case
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件
 
 ## 原始表述

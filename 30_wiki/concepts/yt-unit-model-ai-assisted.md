@@ -20,10 +20,9 @@ query_triggers:
 - 咨询教练
 - AI 商业分析
 related:
-- yt-unit-model-ladder
-- yt-unit-model-dynamic
-- yt-decision-ai-innovation
-- master-systems-thinking
+- '[[yt-unit-model-ladder]]'
+- '[[yt-unit-model-dynamic]]'
+- '[[master-systems-thinking]]'
 source_refs:
 - src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述
 status: reviewed

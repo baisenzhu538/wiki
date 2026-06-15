@@ -1,33 +1,30 @@
 ---
 id: case-treadmill-demand-analysis
-title: "跑步机需求分析：在家健身场景的需求拆解与替代方案博弈"
+title: 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈
 type: case
 status: reviewed
 domain:
-  - product
-  - yitang
+- product
+- yitang
 source_person: Truman
-source_context: "一堂五步法-需求分析课程案例"
+source_context: 一堂五步法-需求分析课程案例
 source_refs:
-  - "00_inbox/一堂五步法/一堂-一堂五步法-需求-跑步机案例-需求分析图.png"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.txt"
+- 00_inbox/一堂五步法/一堂-一堂五步法-需求-跑步机案例-需求分析图.png
+- 00_inbox/一堂五步法/一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.txt
 created_at: 2026-06-11
-updated_at: 2026-06-11
+updated_at: '2026-06-16'
 related:
-  - "concept-一堂-demand-analysis"
-  - yt-foresight-15-char-mantra
+- '[[yt-foresight-15-char-mantra]]'
 wiki_refs:
-  - "concept-一堂-demand-analysis"
-  - yt-foresight-15-char-mantra
+- '[[yt-foresight-15-char-mantra]]'
 pipeline:
-  - confidence-source-cited
-  - confidence-case-verified
-author: "黄药师"
-reviewed_by: "欧阳锋"
+- confidence-source-cited
+- confidence-case-verified
+author: 黄药师
+reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
 ---
-
 # 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈
 
 > 黄药师骨架 · 老顽童填内容

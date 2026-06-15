@@ -1,57 +1,60 @@
 ---
 id: yt-panproduct-aesthetic-modeling
 component_of:
-  - yt-model-pan-product-aesthetic-toolkit
+- yt-model-pan-product-aesthetic-toolkit
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1424
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
-  - yt-model-pan-product-demand-toolkit
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
 query_triggers:
-  - "产品审美"
-  - "审美"
-  - "审美卡片"
-  - "最佳实践"
-  - "最佳实践建模"
-  - "泛产品设计"
-  - "泛产品设计·审美卡片：最佳实践建模"
-  - "设计标准"
+- 产品审美
+- 审美
+- 审美卡片
+- 最佳实践
+- 最佳实践建模
+- 泛产品设计
+- 泛产品设计·审美卡片：最佳实践建模
+- 设计标准
 related:
-  - yt-panproduct-aesthetic-pool
-  - yt-panproduct-aesthetic-imagination
-  - yt-model-prediction-model
-  - yt-model-aesthetic-progression
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践建模.png"
+- '[[yt-panproduct-aesthetic-pool]]'
+- '[[yt-panproduct-aesthetic-imagination]]'
+- '[[yt-model-prediction-model]]'
+- '[[yt-model-aesthetic-progression]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_89529426
 status: enriched
-title: "泛产品设计·审美卡片：最佳实践建模"
+title: 泛产品设计·审美卡片：最佳实践建模
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: intermediate
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '在评价任何案例前先列出评价维度，并说明每个维度为何重要', 'framework_lens': '审美白盒化：从感觉变为可分析', 'follow_up_question': '如果删掉其中一个维度，你对案例质量的判断会明显变弱吗？'}
-  - {'signal': '用同一套维度对多个案例打分，能解释分数差异背后的设计选择', 'framework_lens': '模型让比较产生结构', 'follow_up_question': '两个得分相近的案例，在设计取舍上有什么不同？'}
-  - {'signal': '模型能预测一个新设计大概会落在什么质量区间', 'framework_lens': '评价模型应具备生成性', 'follow_up_question': '用模型评估一个你还没做的方案，它暴露的最大风险点是什么？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 在评价任何案例前先列出评价维度，并说明每个维度为何重要
+  framework_lens: 审美白盒化：从感觉变为可分析
+  follow_up_question: 如果删掉其中一个维度，你对案例质量的判断会明显变弱吗？
+- signal: 用同一套维度对多个案例打分，能解释分数差异背后的设计选择
+  framework_lens: 模型让比较产生结构
+  follow_up_question: 两个得分相近的案例，在设计取舍上有什么不同？
+- signal: 模型能预测一个新设计大概会落在什么质量区间
+  framework_lens: 评价模型应具备生成性
+  follow_up_question: 用模型评估一个你还没做的方案，它暴露的最大风险点是什么？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium
 ---
-
 # 最佳实践建模：用评价维度打磨产品
 
 > 审美工具箱第 3 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-pool]] | [[一堂]]

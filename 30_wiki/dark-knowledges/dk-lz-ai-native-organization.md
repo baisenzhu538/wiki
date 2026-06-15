@@ -1,26 +1,25 @@
 ---
-id: "dk-lz-ai-native-organization"
-title: "AI原生组织：罗马军团正在被自进化有机体取代——中层管理的全部存在理由是人脑带宽不足"
-type: "dark-knowledge"
-status: "draft"
+id: dk-lz-ai-native-organization
+title: AI原生组织：罗马军团正在被自进化有机体取代——中层管理的全部存在理由是人脑带宽不足
+type: dark-knowledge
+status: draft
 domain:
-  - "ai-saas"
-  - "business-strategy"
+- ai-saas
+- business-strategy
 source_refs:
-  - "00_inbox/AI时代自进化组织形式.md"
+- 00_inbox/AI时代自进化组织形式.md
 related:
-  - "concept-纪浩-ai-collaboration-five-layer"
-  - "dk-纪浩-ai-cant-design-structure"
-  - "ai-collaboration-mindset-shift"
-  - "dk-lz-code-is-disposable"
-created_at: "2026-06-09"
-updated_at: "2026-06-09"
-author: "legacy"
-reviewed_by: "pending"
+- '[[concept-纪浩-ai-collaboration-five-layer]]'
+- '[[dk-纪浩-ai-cant-design-structure]]'
+- '[[ai-collaboration-mindset-shift]]'
+- '[[dk-lz-code-is-disposable]]'
+created_at: '2026-06-09'
+updated_at: '2026-06-16'
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # AI原生组织：罗马军团正在被自进化有机体取代
 
 > 老朱在口述中提出了一个极其激进的判断：**今天的公司和2000年前没有本质区别，都是罗马军团——CEO在顶上，命令一层层往下传。中层管理的全部价值是解决信息传递问题，因为人脑带宽不够。AI的带宽比人脑大一万倍，一个能读完所有公司信息的AI不需要中间层去做传话筒。**

@@ -23,7 +23,7 @@ related:
 - '[[modeling-scientific-milestones]]'
 - '[[concept-thousand-people-square]]'
 tags:
-- '#modeling'
+- '#method/modeling'
 - '#dark-knowledge'
 - '#growth'
 - '#organization'

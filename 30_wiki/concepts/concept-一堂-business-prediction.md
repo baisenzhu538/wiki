@@ -1,36 +1,35 @@
 ---
-id: "concept-一堂-business-prediction"
-title: "商业预判：15字诀与光谱模型——从拍脑袋到科学决策"
+id: concept-一堂-business-prediction
+title: 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
 type: concept
 status: deprecated
 superseded_by:
-  - yt-foresight-business-spectrum
-  - yt-foresight-model-taxonomy
-  - yt-entrepreneur-industry-forecast
+- yt-foresight-business-spectrum
+- yt-foresight-model-taxonomy
+- yt-entrepreneur-industry-forecast
 domain:
-  - product
-  - yitang
+- product
+- yitang
 source_person: Truman
-source_context: "一堂商业预判课（2026年）"
+source_context: 一堂商业预判课（2026年）
 source_refs:
-  - "00_inbox/一堂-商业预判课-Truman-口述.txt"
+- 00_inbox/一堂-商业预判课-Truman-口述.txt
 created_at: 2026-06-09
-updated_at: 2026-06-11
+updated_at: '2026-06-16'
 related:
-  - "concept-一堂-product-kernel"
-  - "concept-一堂-key-assumptions"
+- '[[concept-一堂-product-kernel]]'
+- '[[concept-一堂-key-assumptions]]'
 wiki_refs:
-  - "concept-一堂-key-assumptions"
-  - "concept-一堂-product-kernel"
+- '[[concept-一堂-key-assumptions]]'
+- '[[concept-一堂-product-kernel]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low
 ---
-
 # 商业预判：15字诀与光谱模型——从拍脑袋到科学决策
 
 > ⚠️ **本卡已废弃。** 本卡为旧格式的早期版本（draft），已被以下新卡替代：

@@ -20,14 +20,13 @@ review_date: '2026-06-14'
 trust_level: high
 confidence: 0.85
 related:
-- modeling-capability-for-kdo
+- '[[modeling-capability-for-kdo]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[tool-ai-skill-engineering-method]]'
 - '[[dk-modeling-counterexample-driven]]'
 tags:
-- '#modeling'
-- '#dk'
-- '#ai-collaboration'
+- '#method/modeling'
+- '#method/prompt-engineering'
 - '#validation'
 ---
 # 拿友商报告撞自己的模型：交叉验证是防止自我陶醉的必需步骤

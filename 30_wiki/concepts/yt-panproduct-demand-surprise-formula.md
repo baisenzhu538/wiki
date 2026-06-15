@@ -1,54 +1,57 @@
 ---
 id: yt-panproduct-demand-surprise-formula
 component_of:
-  - yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-demand-toolkit
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1127
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 query_triggers:
-  - "惊喜公式"
-  - "泛产品设计"
-  - "泛产品设计·用户卡片：惊喜公式"
-  - "用户卡片"
-  - "用户研究"
-  - "用户需求"
-  - "需求分析"
-  - "需求洞察"
+- 惊喜公式
+- 泛产品设计
+- 泛产品设计·用户卡片：惊喜公式
+- 用户卡片
+- 用户研究
+- 用户需求
+- 需求分析
+- 需求洞察
 related:
-  - yt-panproduct-demand-peak-end-rule
-  - yt-model-product-excellence
-  - yt-panproduct-aesthetic-imagination
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计-用户卡片-惊喜公式.png"
+- '[[yt-panproduct-demand-peak-end-rule]]'
+- '[[yt-model-product-excellence]]'
+- '[[yt-panproduct-aesthetic-imagination]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_622b8a41
 status: enriched
-title: "泛产品设计·用户卡片：惊喜公式"
+title: 泛产品设计·用户卡片：惊喜公式
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: intermediate
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '能明确写出用户对当前体验的预期基线', 'framework_lens': '惊喜 = 交付 − 预期', 'follow_up_question': '如果没有特别设计，用户原本预期会得到什么？'}
-  - {'signal': '惊喜设计同时考虑‘提升交付’和‘管理预期’两条路径', 'framework_lens': '惊喜有两种杠杆', 'follow_up_question': '你是通过超预期交付，还是通过巧妙管理预期来创造惊喜？'}
-  - {'signal': '惊喜方案有可衡量的情感或行为指标，而不是凭感觉', 'framework_lens': ' delight 必须被验证', 'follow_up_question': '用户复购率、推荐率或满意度中，哪个指标能反映惊喜效果？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 能明确写出用户对当前体验的预期基线
+  framework_lens: 惊喜 = 交付 − 预期
+  follow_up_question: 如果没有特别设计，用户原本预期会得到什么？
+- signal: 惊喜设计同时考虑‘提升交付’和‘管理预期’两条路径
+  framework_lens: 惊喜有两种杠杆
+  follow_up_question: 你是通过超预期交付，还是通过巧妙管理预期来创造惊喜？
+- signal: 惊喜方案有可衡量的情感或行为指标，而不是凭感觉
+  framework_lens: ' delight 必须被验证'
+  follow_up_question: 用户复购率、推荐率或满意度中，哪个指标能反映惊喜效果？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium
 ---
-
 # 惊喜公式：理解惊喜的本质
 
 > 需求工具箱第 8 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

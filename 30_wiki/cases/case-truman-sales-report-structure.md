@@ -19,9 +19,8 @@ definition_of_done:
 - 方案可理解
 - 可迁移点明确
 tags:
-- '#case'
+- '#content-format/case-study'
 - '#problem/reporting'
-- '#source/truman'
 related_skills:
 - '[[dk-modeling-checklist-formatting-rules]]'
 related_concepts:

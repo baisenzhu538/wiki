@@ -19,8 +19,8 @@ query_triggers:
 - 先搜wiki
 - 知识库工作流
 related:
-- yt-decision-ai-partner
-- agent-external-brain-design
+- '[[yt-decision-ai-partner]]'
+- '[[agent-external-brain-design]]'
 tags:
 - '#workflow'
 - '#agent-standard'

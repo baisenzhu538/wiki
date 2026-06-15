@@ -19,9 +19,9 @@ review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.75
 tags:
-- '#modeling'
-- '#framework'
-- '#yitang'
+- '#method/modeling'
+- '#content-format/framework'
+- '#domain/yitang'
 - '#methodology'
 diagnostic_signals:
 - signal: 用户说"团队经验无法沉淀，每次都要重新踩坑"

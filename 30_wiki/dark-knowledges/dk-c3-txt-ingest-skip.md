@@ -1,29 +1,28 @@
 ---
 id: dk-c3-txt-ingest-skip
-title: "C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功"
+title: C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - master
+- master
 source_person: Builder
 source_context: 2026-05-03
 source_refs:
-  - 20_memory/corrections.md#C-3
+- 20_memory/corrections.md#C-3
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 related:
-  - dk-c1-cjk-regex-silent-fail
-  - master-ai-info-literacy
+- '[[dk-c1-cjk-regex-silent-fail]]'
+- '[[master-ai-info-literacy]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功
 
 ## 原始表述

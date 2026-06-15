@@ -1,43 +1,42 @@
 ---
-id: "skill-ai-landing-five-steps"
-title: "技能：AI落地五步执行流程"
-type: "skill"
-status: "draft"
+id: skill-ai-landing-five-steps
+title: 技能：AI落地五步执行流程
+type: skill
+status: draft
 domain:
-  - "AI"
-  - "落地"
-  - "执行"
-source_person: "马易"
-source_context: "AI俱乐部-AI落地场景识别-口述，2026-06-06"
+- AI
+- 落地
+- 执行
+source_person: 马易
+source_context: AI俱乐部-AI落地场景识别-口述，2026-06-06
 source_refs:
-  - "src_20260606_ef4877d0"
+- src_20260606_ef4877d0
 wiki_refs:
-  - "ai-landing-scene-selection"
-  - "skill-ai-scene-four-elements"
+- '[[ai-landing-scene-selection]]'
+- '[[skill-ai-scene-four-elements]]'
 definition_of_done:
-  - "走完5步流程"
-  - '有"平行运行"记录'
-  - '有"上线效果"数据'
+- 走完5步流程
+- 有"平行运行"记录
+- 有"上线效果"数据
 tools_required:
-  - "任意AI对话工具"
-  - "数据记录工具（Excel/Notion/表格）"
+- 任意AI对话工具
+- 数据记录工具（Excel/Notion/表格）
 prerequisite_skills:
-  - "skill-ai-scene-four-elements"
-related:
+- skill-ai-scene-four-elements
+related: null
 created_at: 2026-06-11
-updated_at: 2026-06-11
+updated_at: '2026-06-16'
 tags:
-  - None
-  - None
-  - None
+- None
+- None
+- None
 pipeline:
-  - None
-reviewed_by: "laowantong"
-author: "legacy"
+- None
+reviewed_by: laowantong
+author: legacy
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 技能：AI落地五步执行流程
 
 > **来源**：马易（AI俱乐部-AI落地场景识别-口述）

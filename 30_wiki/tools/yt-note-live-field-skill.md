@@ -1,55 +1,53 @@
 ---
-id: "yt-note-live-field-skill"
-title: "现场笔记完成度五步法：从“到场”到“驱动行动”的实战手册"
-type: "tool"
-status: "draft"
+id: yt-note-live-field-skill
+title: 现场笔记完成度五步法：从“到场”到“驱动行动”的实战手册
+type: tool
+status: draft
 domain:
-  - "yitang"
-  - "note-taking"
-language: "zh-CN"
+- yitang
+- note-taking
+language: zh-CN
 version: 1
-difficulty: "advanced"
+difficulty: advanced
 confidence: 0.85
 related:
-  - "yt-note-checklist-concept"
-  - "yt-note-ai-human-division"
-  - "yt-note-five-levels-training"
+- '[[yt-note-checklist-concept]]'
+- '[[yt-note-ai-human-division]]'
+- '[[yt-note-five-levels-training]]'
 prerequisites:
-  - "yt-note-checklist-concept"
-  - "yt-note-five-levels-training"
+- yt-note-checklist-concept
+- yt-note-five-levels-training
 source_refs:
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
-  - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
+- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
+- 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
 query_triggers:
-  - "现场笔记怎么做"
-  - "会议笔记技巧"
-  - "访谈笔记方法"
-  - "如厕大法笔记"
-  - "现场建模"
-  - "笔记驱动行动"
-  - "现场完成度"
-  - "灵感捕捉"
-  - "实时笔记"
+- 现场笔记怎么做
+- 会议笔记技巧
+- 访谈笔记方法
+- 如厕大法笔记
+- 现场建模
+- 笔记驱动行动
+- 现场完成度
+- 灵感捕捉
+- 实时笔记
 tags:
-  - "#action-driven"
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#live-field"
-  - "#note-taking"
-  - "#scene/learning-methodology/mental-models"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering"
-  - "#yitang"
-created_at: "2026-06-07"
-updated_at: "2026-06-07"
+- '#action-driven'
+- '#perspective/professional'
+- '#live-field'
+- '#note-taking'
+- '#scene/learning-methodology/mental-models'
+- '#content-format/checklist'
+- '#method/learning-method'
+- '#scene/note-taking/live-field'
+- '#scene/skill-engineering'
+- '#domain/yitang'
+created_at: '2026-06-07'
+updated_at: '2026-06-16'
 estimated_tokens: 4000
-author: "legacy"
-reviewed_by: "pending"
-trust_level: "low"
+author: legacy
+reviewed_by: pending
+trust_level: low
 ---
-
 # 现场笔记完成度五步法：从“到场”到“驱动行动”的实战手册
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的核心洞察：**现场笔记不是“记了多少”，而是“记完后能驱动多少行动”**。完成度是现场笔记的唯一度量标准。暗知识：**“如厕大法”——在信息过载的现场，主动放空大脑，才能看到真正的结构**。

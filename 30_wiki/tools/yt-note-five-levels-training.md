@@ -1,57 +1,54 @@
 ---
-id: "yt-note-five-levels-training"
-title: "清单体笔记五阶进阶训练法：从理论到现场的完整通关路径"
-type: "tool"
-status: "draft"
+id: yt-note-five-levels-training
+title: 清单体笔记五阶进阶训练法：从理论到现场的完整通关路径
+type: tool
+status: draft
 domain:
-  - "yitang"
-  - "note-taking"
-language: "zh-CN"
+- yitang
+- note-taking
+language: zh-CN
 version: 1
-difficulty: "intermediate"
+difficulty: intermediate
 confidence: 0.88
 related:
-  - "yt-note-checklist-concept"
-  - "yt-note-ai-human-division"
-  - "yt-note-live-field-skill"
-  - "yt-model-ipo-learning-strategy"
+- '[[yt-note-checklist-concept]]'
+- '[[yt-note-ai-human-division]]'
+- '[[yt-note-live-field-skill]]'
+- '[[yt-model-ipo-learning-strategy]]'
 prerequisites:
-  - "yt-note-checklist-concept"
-  - "yt-note-ai-human-division"
+- yt-note-checklist-concept
+- yt-note-ai-human-division
 source_refs:
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
-  - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
+- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
+- 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
 query_triggers:
-  - "清单体笔记怎么练"
-  - "笔记五阶模型"
-  - "认网训练"
-  - "专题笔记"
-  - "剩余脑力"
-  - "笔记上学习"
-  - "笔记即工具"
-  - "笔记即练习"
-  - "刻意练习笔记"
+- 清单体笔记怎么练
+- 笔记五阶模型
+- 认网训练
+- 专题笔记
+- 剩余脑力
+- 笔记上学习
+- 笔记即工具
+- 笔记即练习
+- 刻意练习笔记
 tags:
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#deliberate-practice"
-  - "#note-taking"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/live-field"
-  - "#scene/note-taking/training-plan"
-  - "#skill-training"
-  - "#yitang"
-created_at: "2026-06-07"
-updated_at: "2026-06-07"
+- '#perspective/professional'
+- '#deliberate-practice'
+- '#note-taking'
+- '#scene/learning-methodology/deliberate-practice'
+- '#method/learning-method'
+- '#content-format/checklist'
+- '#scene/note-taking/live-field'
+- '#scene/note-taking/training-plan'
+- '#skill-training'
+- '#domain/yitang'
+created_at: '2026-06-07'
+updated_at: '2026-06-16'
 estimated_tokens: 4200
-author: "legacy"
-reviewed_by: "pending"
-trust_level: "low"
+author: legacy
+reviewed_by: pending
+trust_level: low
 ---
-
 # 清单体笔记五阶进阶训练法：从理论到现场的完整通关路径
 
 > 来源：一堂《AI时代清单体笔记》课程。本卡是清单体笔记的"练功场"——不是"怎么写"，而是"怎么练到能写"。核心暗知识：**剩余脑力是高阶笔记的唯一印币**——不是记得更多，而是有能力在记的同时想得更深。

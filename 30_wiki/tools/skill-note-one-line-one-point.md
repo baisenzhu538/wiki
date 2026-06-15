@@ -1,37 +1,35 @@
 ---
-id: "skill-note-one-line-one-point"
-title: "一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作"
-type: "tool"
-status: "draft"
+id: skill-note-one-line-one-point
+title: 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作
+type: tool
+status: draft
 domain:
-  - "yitang"
-  - "note-taking"
-language: "zh-CN"
+- yitang
+- note-taking
+language: zh-CN
 version: 1
-difficulty: "beginner"
+difficulty: beginner
 confidence: 0.85
 related:
-  - "yt-note-checklist-concept"
-  - "skill-note-layer-constraint"
-  - "skill-note-keyword-bolding"
+- '[[yt-note-checklist-concept]]'
+- '[[skill-note-layer-constraint]]'
+- '[[skill-note-keyword-bolding]]'
 source_refs:
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
+- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/product-design/design-freeze"
-  - "#scene/skill-engineering"
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
-trust_level: "low"
+- '#perspective/compliance'
+- '#perspective/professional'
+- '#scene/ai-collaboration'
+- '#method/learning-method'
+- '#content-format/checklist'
+- '#scene/product-design/design-freeze'
+- '#scene/skill-engineering'
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
+trust_level: low
+updated_at: '2026-06-16'
 ---
-
 # 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作
 
 ## Purpose

@@ -11,8 +11,8 @@ target_roles:
 - 黄药师（Builder）
 - 欧阳锋（Architect）
 related:
-- fix-data-curator-parse-bug
-- gold-standard-manual-labels
+- '[[fix-data-curator-parse-bug]]'
+- '[[gold-standard-manual-labels]]'
 pipeline:
 - confidence-draft
 author: legacy

@@ -8,8 +8,8 @@ domain:
 source_person: 马易
 source_context: AI落地场景识别 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 wiki_refs:
-- 30_wiki/concepts/yt-entrepreneur-pragmatic-startup.md
-- 30_wiki/concepts/ai-landing-scene-selection.md
+- '[[yt-entrepreneur-pragmatic-startup]]'
+- '[[ai-landing-scene-selection]]'
 definition_of_done:
 - 操作步骤清晰可执行
 - 适用场景有正反例
@@ -19,8 +19,8 @@ tools_required:
 - 现有业务系统
 - 简单自动化脚本
 related:
-- skill-马易-数据存储架构选择
-- yt-entrepreneur-pragmatic-startup
+- '[[skill-马易-数据存储架构选择]]'
+- '[[yt-entrepreneur-pragmatic-startup]]'
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 reviewed_by: 黄药师

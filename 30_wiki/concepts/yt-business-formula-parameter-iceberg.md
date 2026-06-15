@@ -11,10 +11,10 @@ source_refs:
 - src_20260613_fa7b370d
 - src_20260613_6edbf0af
 tags:
-- "#business-formula"
-- "#parameters"
-- "#yitang"
-- "#metrics"
+- '#method/evaluation-method'
+- '#parameters'
+- '#domain/yitang'
+- '#metrics'
 created_at: '2026-06-14'
 updated_at: '2026-06-15'
 author: 孔阳
@@ -23,11 +23,11 @@ review_date: '2026-06-14'
 confidence: 0.9
 trust_level: high
 related:
-- "[[yt-management-business-formula]]"
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-business-formula-six-level-logic]]"
-- "[[yt-entrepreneur-unit-model]]"
-- "[[yt-model-deep-review-iceberg]]"
+- '[[yt-management-business-formula]]'
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-six-level-logic]]'
+- '[[yt-entrepreneur-unit-model]]'
+- '[[yt-model-deep-review-iceberg]]'
 ---
 
 # 业务公式参数冰山（L1-L6）

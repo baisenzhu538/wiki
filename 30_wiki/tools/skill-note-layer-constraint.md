@@ -1,38 +1,36 @@
 ---
-id: "skill-note-layer-constraint"
-title: "清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准"
-type: "tool"
-status: "draft"
+id: skill-note-layer-constraint
+title: 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准
+type: tool
+status: draft
 domain:
-  - "yitang"
-  - "note-taking"
-language: "zh-CN"
+- yitang
+- note-taking
+language: zh-CN
 version: 1
-difficulty: "beginner"
+difficulty: beginner
 confidence: 0.8
 related:
-  - "yt-note-checklist-concept"
-  - "skill-note-keyword-bolding"
-  - "skill-note-one-line-one-point"
+- '[[yt-note-checklist-concept]]'
+- '[[skill-note-keyword-bolding]]'
+- '[[skill-note-one-line-one-point]]'
 source_refs:
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
+- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#scene/ai-collaboration"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/live-field"
-  - "#scene/skill-engineering/publish-deploy"
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
-trust_level: "low"
+- '#perspective/compliance'
+- '#perspective/professional'
+- '#scene/ai-collaboration'
+- '#scene/knowledge-management'
+- '#method/learning-method'
+- '#content-format/checklist'
+- '#scene/note-taking/live-field'
+- '#scene/skill-engineering/publish-deploy'
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
+trust_level: low
+updated_at: '2026-06-16'
 ---
-
 # 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准
 
 ## Purpose

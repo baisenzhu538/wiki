@@ -23,8 +23,8 @@ related:
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[dk-modeling-ai-iterative-prompting]]'
 tags:
-- '#modeling'
-- '#case'
+- '#method/modeling'
+- '#content-format/case-study'
 - '#ai'
 - '#review'
 - '#feedback'

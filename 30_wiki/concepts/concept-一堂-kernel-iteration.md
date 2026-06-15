@@ -14,11 +14,11 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-- concept-一堂-product-kernel
-- concept-一堂-kernel-validation
+- '[[concept-一堂-product-kernel]]'
+- '[[concept-一堂-kernel-validation]]'
 wiki_refs:
-- concept-一堂-product-kernel
-- concept-一堂-kernel-validation
+- '[[concept-一堂-product-kernel]]'
+- '[[concept-一堂-kernel-validation]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

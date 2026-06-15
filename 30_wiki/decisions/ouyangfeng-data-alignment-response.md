@@ -15,8 +15,8 @@ target_roles:
 - 用户（决策者）
 supersedes: null
 related:
-- three-party-data-alignment
-- plan_20260531_data-curator-v1.3
+- '[[three-party-data-alignment]]'
+- '[[plan_20260531_data-curator-v1.3]]'
 author: legacy
 source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:

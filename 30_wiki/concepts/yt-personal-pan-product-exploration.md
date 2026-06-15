@@ -1,49 +1,52 @@
 ---
 id: yt-personal-pan-product-exploration
 component_of:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - yitang
+- yitang
 estimated_tokens: 3100
 language: zh-CN
 query_triggers:
-  - "个人修炼"
-  - "产品思维"
-  - "案例启发与认知重构"
-  - "泛产品设计"
-  - "泛产品设计探索营"
-  - "泛产品设计探索营：案例启发与认知重构"
+- 个人修炼
+- 产品思维
+- 案例启发与认知重构
+- 泛产品设计
+- 泛产品设计探索营
+- 泛产品设计探索营：案例启发与认知重构
 related:
-  - yt-personal-pan-product-concepts
-  - yt-personal-pan-product-tools
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/sources/一堂-个人修炼-泛产品设计探索营口述版.md"
+- '[[yt-personal-pan-product-concepts]]'
+- '[[yt-personal-pan-product-tools]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260510_fab64a96
 status: enriched
-title: "泛产品设计探索营：案例启发与认知重构"
+title: 泛产品设计探索营：案例启发与认知重构
 type: concept
 version: 1
 yitang:
   map: personal
-  module: "个人修炼"
+  module: 个人修炼
   course_type: explore_camp
   level: foundational
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '能从案例中抽象出可迁移的认知，而不是只记住故事', 'framework_lens': '案例是认知的载体', 'follow_up_question': '这个案例如果去掉具体人名和公司，还剩下什么可复用的判断？'}
-  - {'signal': '听完案例后会联想到自己经历的类似场景，并写出对应案例', 'framework_lens': '案例学习需要个人化迁移', 'follow_up_question': '你过去有没有遇到过类似困境？当时怎么处理的？'}
-  - {'signal': '案例启发会转化为至少一个具体行动或研究问题', 'framework_lens': '启发必须落地', 'follow_up_question': '这个案例让你接下来要做什么不一样的事？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 能从案例中抽象出可迁移的认知，而不是只记住故事
+  framework_lens: 案例是认知的载体
+  follow_up_question: 这个案例如果去掉具体人名和公司，还剩下什么可复用的判断？
+- signal: 听完案例后会联想到自己经历的类似场景，并写出对应案例
+  framework_lens: 案例学习需要个人化迁移
+  follow_up_question: 你过去有没有遇到过类似困境？当时怎么处理的？
+- signal: 案例启发会转化为至少一个具体行动或研究问题
+  framework_lens: 启发必须落地
+  follow_up_question: 这个案例让你接下来要做什么不一样的事？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium
 ---
-
 # 泛产品设计探索营：案例启发与认知重构
 
 > 来源：一堂泛产品设计探索营（千人集体学习，Truman口述）。[[yt-personal-pan-product-concepts]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

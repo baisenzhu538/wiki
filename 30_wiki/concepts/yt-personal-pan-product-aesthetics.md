@@ -1,52 +1,55 @@
 ---
 id: yt-personal-pan-product-aesthetics
 component_of:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 3200
 language: zh-CN
 query_triggers:
-  - "个人修炼"
-  - "产品思维"
-  - "最佳实践与审美建模"
-  - "泛产品设计"
-  - "泛产品设计审美篇"
-  - "泛产品设计审美篇：最佳实践与审美建模"
+- 个人修炼
+- 产品思维
+- 最佳实践与审美建模
+- 泛产品设计
+- 泛产品设计审美篇
+- 泛产品设计审美篇：最佳实践与审美建模
 related:
-  - yt-model-pan-product-aesthetic-toolkit
-  - yt-personal-pan-product-concepts
-  - yt-model-liberate-thinking-layers
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-personal-pan-product-concepts]]'
+- '[[yt-model-liberate-thinking-layers]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260510_d7218337
 status: enriched
-title: "泛产品设计审美篇：最佳实践与审美建模"
+title: 泛产品设计审美篇：最佳实践与审美建模
 type: concept
 version: 1
 yitang:
   map: personal
-  module: "个人修炼"
+  module: 个人修炼
   course_type: required
   level: intermediate
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
-  - confidence-verified-by-test
+- confidence-source-cited
+- confidence-verified-by-case
+- confidence-verified-by-test
 diagnostic_signals:
-  - {'signal': '主动跨领域收集最佳实践，而不局限于自己所在行业', 'framework_lens': '审美来自见识广度', 'follow_up_question': '你最近研究的一个优秀作品来自哪个完全不相干的领域？'}
-  - {'signal': '能把‘好’拆解成可讨论、可复现的评价维度', 'framework_lens': '审美白盒化', 'follow_up_question': '如果让你教别人判断这个作品的好坏，你会讲哪几个维度？'}
-  - {'signal': '会把审美标准应用到自己的作品中，并迭代改进', 'framework_lens': '审美必须落地', 'follow_up_question': '你当前作品与最佳实践相比，最大差距在哪个维度？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 主动跨领域收集最佳实践，而不局限于自己所在行业
+  framework_lens: 审美来自见识广度
+  follow_up_question: 你最近研究的一个优秀作品来自哪个完全不相干的领域？
+- signal: 能把‘好’拆解成可讨论、可复现的评价维度
+  framework_lens: 审美白盒化
+  follow_up_question: 如果让你教别人判断这个作品的好坏，你会讲哪几个维度？
+- signal: 会把审美标准应用到自己的作品中，并迭代改进
+  framework_lens: 审美必须落地
+  follow_up_question: 你当前作品与最佳实践相比，最大差距在哪个维度？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium
 ---
-
 # 泛产品设计审美篇：永远以最佳实践为追求
 
 > 来源：一堂泛产品设计实操第二课·审美篇口述（Truman）。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-personal-pan-product-concepts]] | [[一堂]]

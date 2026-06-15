@@ -1,37 +1,36 @@
 ---
-id: "dk-半肥猫-silky-answers-are-dangerous"
-title: "暗知：AI给的回答越丝滑，问题越大——“完全不等于可靠”陷阱"
+id: dk-半肥猫-silky-answers-are-dangerous
+title: 暗知：AI给的回答越丝滑，问题越大——“完全不等于可靠”陷阱
 type: dk
 status: draft
 domain:
-  - ai-collaboration
-source_person: "半肥猫"
-source_context: "AI俱乐部·AI学习落地（2026-06分享）"
+- ai-collaboration
+source_person: 半肥猫
+source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
-  - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
+- 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
 created_at: 2026-06-08
-updated_at: 2026-06-08
+updated_at: '2026-06-16'
 related:
-  - "skill-半肥猫-ai-research-validation"
-  - "case-半肥猫-from-assignment-to-tool"
+- '[[skill-半肥猫-ai-research-validation]]'
+- '[[case-半肥猫-from-assignment-to-tool]]'
 wiki_refs:
-  - "skill-半肥猫-ai-research-validation"
-  - "case-半肥猫-from-assignment-to-tool"
-  - "dk-半肥猫-real-business-is-the-engine"
+- '[[skill-半肥猫-ai-research-validation]]'
+- '[[case-半肥猫-from-assignment-to-tool]]'
+- '[[dk-半肥猫-real-business-is-the-engine]]'
 definition_of_done:
-  - "丝滑回答陷阱已完整描述"
-  - "常见走偏模式已列出"
-  - "识别方法已提供"
-  - "案例已验证"
+- 丝滑回答陷阱已完整描述
+- 常见走偏模式已列出
+- 识别方法已提供
+- 案例已验证
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 暗知：AI给的回答越丝滑，问题越大——“完全不等于可靠”陷阱
 
 ## 核心命题

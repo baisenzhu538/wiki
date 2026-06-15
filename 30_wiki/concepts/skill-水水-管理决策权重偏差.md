@@ -8,9 +8,9 @@ domain:
 source_person: 水水
 source_context: 拆书会-偶然 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 wiki_refs:
-- 30_wiki/concepts/yt-decision-y-model.md
-- 30_wiki/concepts/master-decision-hygiene.md
-- 30_wiki/concepts/master-cognitive-bias-checklist.md
+- '[[yt-decision-y-model]]'
+- '[[master-decision-hygiene]]'
+- '[[master-cognitive-bias-checklist]]'
 definition_of_done:
 - 操作步骤清晰可执行
 - 适用场景有正反例
@@ -19,9 +19,9 @@ tools_required:
 - 决策矩阵（纸笔或电子表格）
 - 外部咨询（信任的朋友/导师）
 related:
-- master-decision-hygiene
-- master-cognitive-bias-checklist
-- yt-decision-y-model
+- '[[master-decision-hygiene]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[yt-decision-y-model]]'
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 reviewed_by: 黄药师

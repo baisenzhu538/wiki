@@ -1,55 +1,58 @@
 ---
 id: yt-tool-fab-persuasion
 component_of:
-  - yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-demand-toolkit
 confidence: 0.85
 created_at: 2026-06-06
 difficulty: foundational
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2800
 language: zh-CN
 prerequisites:
-  - yt-model-conversion-optimization
+- yt-model-conversion-optimization
 query_triggers:
-  - "如何写FAB"
-  - "FAB说服法"
-  - "产品说服文案"
-  - "特性优点利益"
-  - "如何写产品介绍"
-  - "核心说服点"
-  - "转化文案怎么写"
-  - "用户价值描述"
+- 如何写FAB
+- FAB说服法
+- 产品说服文案
+- 特性优点利益
+- 如何写产品介绍
+- 核心说服点
+- 转化文案怎么写
+- 用户价值描述
 related:
-  - yt-model-conversion-optimization
-  - yt-panproduct-demand-motivation-resistance
-  - yt-entrepreneur-needs-analysis
-  - yt-tool-copywriting-framework
+- '[[yt-model-conversion-optimization]]'
+- '[[yt-panproduct-demand-motivation-resistance]]'
+- '[[yt-entrepreneur-needs-analysis]]'
 review_by: 2026-12-06
-reviewed_by: "黄药师"
-source_refs:
-  - "00_inbox/一堂-个人修炼-泛产品设计工具篇口述版.md"
+reviewed_by: 黄药师
 source_refs:
 - src_20260614_8f80cb0f
 status: enriched
-title: "FAB核心说服：从产品特性到用户利益的转化法"
+title: FAB核心说服：从产品特性到用户利益的转化法
 type: tool
 version: 1
-tags:
-  - FAB
+tags: []
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '产品描述是否从用户利益(B)出发，而非从特性(F)罗列开始', 'framework_lens': '用户中心 / 转化文案', 'follow_up_question': "用户看完第一句后能否立刻回答'这跟我有什么关系？'"}
-  - {'signal': '每个 Advantage 是否对应可验证的用户收益，而非空泛修饰', 'framework_lens': '可验证性 / 信任', 'follow_up_question': "'快 10 倍''省 50% 时间'等说法是否有数据或场景支撑？"}
-  - {'signal': 'FAB 承诺是否与产品实际交付一致', 'framework_lens': '期望管理 / NPS', 'follow_up_question': "用户被说服后体验，是否会发现'说得比做得好'？"}
-  - {'signal': '是否根据用户决策阶段选择 FAB 顺序（F→A→B vs B→A→F）', 'framework_lens': '场景适配 / 说服节奏', 'follow_up_question': '高客单价/低认知场景是否仍在用功能列表开场？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 产品描述是否从用户利益(B)出发，而非从特性(F)罗列开始
+  framework_lens: 用户中心 / 转化文案
+  follow_up_question: 用户看完第一句后能否立刻回答'这跟我有什么关系？'
+- signal: 每个 Advantage 是否对应可验证的用户收益，而非空泛修饰
+  framework_lens: 可验证性 / 信任
+  follow_up_question: '''快 10 倍''''省 50% 时间''等说法是否有数据或场景支撑？'
+- signal: FAB 承诺是否与产品实际交付一致
+  framework_lens: 期望管理 / NPS
+  follow_up_question: 用户被说服后体验，是否会发现'说得比做得好'？
+- signal: 是否根据用户决策阶段选择 FAB 顺序（F→A→B vs B→A→F）
+  framework_lens: 场景适配 / 说服节奏
+  follow_up_question: 高客单价/低认知场景是否仍在用功能列表开场？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 ## Summary
 
 > **一句话**：90% 的产品介绍都死在第一句——因为他们在说「我有什么」，而不是「你能得到什么」。

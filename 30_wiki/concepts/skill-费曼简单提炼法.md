@@ -1,34 +1,33 @@
 ---
-id: "skill-费曼简单提炼法"
-title: "技能：费曼简单提炼法"
+id: skill-费曼简单提炼法
+title: 技能：费曼简单提炼法
 type: skill
 status: draft
 domain:
-  - learning-methodology
-  - yitang
-source_person: "一堂课程（费曼学习法）"
-source_context: "一堂·科学学习IPO全景策略图 V2.0 (2026)"
+- learning-methodology
+- yitang
+source_person: 一堂课程（费曼学习法）
+source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
-  - "10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md"
+- 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-  - "skill-分享输出检验法"
-  - "skill-清单小抄工具箱法"
-  - "skill-立即实践转化法"
+- '[[skill-分享输出检验法]]'
+- '[[skill-清单小抄工具箱法]]'
+- '[[skill-立即实践转化法]]'
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "标记工具"
-  - "三句话模板"
+- 标记工具
+- 三句话模板
 created_at: 2026-06-09
-updated_at: 2026-06-09
+updated_at: '2026-06-16'
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：费曼简单提炼法
 
 ## 原始表述

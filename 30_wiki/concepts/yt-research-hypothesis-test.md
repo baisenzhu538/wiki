@@ -4,52 +4,57 @@ confidence: 0.85
 created_at: 2026-05-18
 difficulty: advanced
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
-  - yt-research-osl-framework
-  - yt-research-intelligence-map
+- yt-research-osl-framework
+- yt-research-intelligence-map
 query_triggers:
-  - "假设验证"
-  - "关键假设"
-  - "调研验证"
-  - "最小实验"
-  - "可证伪"
-  - "假设测试"
+- 假设验证
+- 关键假设
+- 调研验证
+- 最小实验
+- 可证伪
+- 假设测试
 related:
-  - yt-research-osl-framework
-  - yt-research-intelligence-map
-  - yt-research-competitor-toolkit
-  - yt-research-user-jtbd
-  - yt-research-expert-interview
-  - yt-research-industry-canvas
-  - yt-entrepreneur-key-hypotheses
-  - yt-decision-y-model
+- '[[yt-research-osl-framework]]'
+- '[[yt-research-intelligence-map]]'
+- '[[yt-research-competitor-toolkit]]'
+- '[[yt-research-user-jtbd]]'
+- '[[yt-research-expert-interview]]'
+- '[[yt-research-industry-canvas]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-decision-y-model]]'
 source_refs:
-  - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
-  - "00_inbox/ideas/一堂-创业-调研行动营口述01.md"
+- 00_inbox/ideas/一堂-创业必修-调研行动营.md
+- 00_inbox/ideas/一堂-创业-调研行动营口述01.md
 status: reviewed
-title: "假设验证调研工具：关键假设→可证伪问题→最小实验"
+title: 假设验证调研工具：关键假设→可证伪问题→最小实验
 trust_level: medium
 type: tool
 version: 1
 yitang:
   map: entrepreneur
-  module: "调研方法论"
+  module: 调研方法论
   course_id: yt-research-hypothesis-test
   course_type: tool
   level: advanced
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '每个关键假设都被写成可证伪的陈述', 'framework_lens': '可证伪是科学调研的核心', 'follow_up_question': '什么样的证据会让你放弃这个假设？'}
-  - {'signal': '为每个假设设计了最小成本验证实验', 'framework_lens': '调研也要讲投入产出', 'follow_up_question': '验证这个假设的最便宜方式是什么？'}
-  - {'signal': '验证结果会更新假设优先级和下一步计划', 'framework_lens': '调研是贝叶斯更新', 'follow_up_question': '这个验证结果改变了你对哪个假设的信心？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 每个关键假设都被写成可证伪的陈述
+  framework_lens: 可证伪是科学调研的核心
+  follow_up_question: 什么样的证据会让你放弃这个假设？
+- signal: 为每个假设设计了最小成本验证实验
+  framework_lens: 调研也要讲投入产出
+  follow_up_question: 验证这个假设的最便宜方式是什么？
+- signal: 验证结果会更新假设优先级和下一步计划
+  framework_lens: 调研是贝叶斯更新
+  follow_up_question: 这个验证结果改变了你对哪个假设的信心？
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # 假设验证调研工具：关键假设→可证伪问题→最小实验
 
 > 来源：一堂《调研行动营》《调研行动营口述01》课程 | 独立可用的假设验证套件：将"关键假设"转化为可调研验证的问题，设计最小成本证伪路径——与[[yt-entrepreneur-key-hypotheses]]直接联动。

@@ -21,10 +21,9 @@ query_triggers:
 - 五层自我循环
 - YC AI组织实践
 related:
-- ai时代判断力口述-2
-- ai时代判断力口述-3
-- ai时代判断力口述
-- yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
+- '[[ai时代判断力口述-3]]'
+- '[[ai时代判断力口述]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 reviewed_by: null
 source_refs:
 - 00_inbox/AI时代自进化组织形式.md
@@ -35,8 +34,8 @@ pipeline:
 author: legacy
 trust_level: low
 title: concept ai native organization five steps
+updated_at: '2026-06-16'
 ---
-
 # AI原生组织五步搭建法：从罗马军团到自进化有机体
 
 > 来源：00_inbox/AI时代自进化组组形式.md（老朱口述/转录）

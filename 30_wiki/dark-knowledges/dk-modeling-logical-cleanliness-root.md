@@ -1,33 +1,32 @@
 ---
-id: "dk-modeling-logical-cleanliness-root"
-title: "逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑"
-type: "dark-knowledge"
-dark_knowledge_type: "insight"
+id: dk-modeling-logical-cleanliness-root
+title: 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
+type: dark-knowledge
+dark_knowledge_type: insight
 status: draft
 domain:
-  - "yitang"
-  - "ai-saas"
-source_person: "Truman"
-source_context: "一堂建模能力培训，2026-06-12"
+- yitang
+- ai-saas
+source_person: Truman
+source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
+- src_20260614_8269ccdb
 confidence: 0.8
 trust_level: medium
 related:
-  - "dk-modeling-ai-without-judgment"
-  - "dk-modeling-checklist-formatting-rules"
-  - "modeling-capability-system"
+- '[[dk-modeling-ai-without-judgment]]'
+- '[[dk-modeling-checklist-formatting-rules]]'
+- '[[modeling-capability-system]]'
 tags:
-  - "#source_type/insight"
-  - "#domain/yitang"
-  - "#method/modeling"
-  - "#method/logical-rigor"
-author: "老顽童"
-reviewed_by: "pending"
-created_at: "2026-06-15"
-updated_at: "2026-06-15"
+- '#chunk-type/synthesis'
+- '#domain/yitang'
+- '#method/modeling'
+- '#method/logical-rigor'
+author: 老顽童
+reviewed_by: pending
+created_at: '2026-06-15'
+updated_at: '2026-06-16'
 ---
-
 # 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
 
 ## 原始表述

@@ -15,9 +15,9 @@ target_roles:
 - 用户（决策者）
 supersedes: null
 related:
-- three-party-data-alignment
-- ouyangfeng-data-alignment-response
-- plan_20260531_data-curator-v1.3
+- '[[three-party-data-alignment]]'
+- '[[ouyangfeng-data-alignment-response]]'
+- '[[plan_20260531_data-curator-v1.3]]'
 author: legacy
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）

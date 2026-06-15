@@ -1,11 +1,14 @@
 ---
 id: yt-foresight-15-char-mantra
-title: "十五字黄金法诀：机会预判的核心框架"
+title: 十五字黄金法诀：机会预判的核心框架
 type: concept
 domain:
-  - yitang
+- yitang
 source_refs:
-- src_20260614_086550ab
+- 00_inbox/一堂-商业预判课-Truman-口述.txt
+- 00_inbox/一堂-商业预判课-truman-笔记.txt
+- 00_inbox/一堂-机会预判-终局光谱图-truman-图01.png
+- 00_inbox/一堂-机会预判-终局光谱图-truman-图02.png
 status: enriched
 confidence: 0.9
 difficulty: beginner
@@ -14,38 +17,36 @@ language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
-  - "黄药师"
-  - laowantong
-source_refs:
-  - "00_inbox/一堂-商业预判课-Truman-口述.txt"
-  - "00_inbox/一堂-商业预判课-truman-笔记.txt"
-  - "00_inbox/一堂-机会预判-终局光谱图-truman-图01.png"
-  - "00_inbox/一堂-机会预判-终局光谱图-truman-图02.png"
+- 黄药师
+- laowantong
 query_triggers:
-  - "十五字法诀"
-  - "主动定中局"
-  - "充分做加法"
-  - "专业做减法"
-  - "预判框架"
-  - "15字黄金法则"
-  - "机会预判方法论"
+- 十五字法诀
+- 主动定中局
+- 充分做加法
+- 专业做减法
+- 预判框架
+- 15字黄金法则
+- 机会预判方法论
 supersedes:
-  - "concept-一堂-business-prediction"
+- concept-一堂-business-prediction
 wiki_refs:
-  - 30_wiki/concepts/yt-foresight-business-spectrum.md
-  - 30_wiki/concepts/yt-entrepreneur-key-hypotheses.md
-  - 30_wiki/concepts/yt-concept-p-type-l-type.md
+- '[[yt-foresight-business-spectrum]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-concept-p-type-l-type]]'
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '用户只背十五字，不做加法减法', 'framework_lens': '口诀化', 'follow_up_question': '你的选项池里有多少个经过拆解的选项？如果<10个，加法没做'}
-  - {'signal': '用户做减法凭感觉，不识别硬伤', 'framework_lens': '减法不专业', 'follow_up_question': '你排除每个选项时，能说出具体的硬伤类型吗？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户只背十五字，不做加法减法
+  framework_lens: 口诀化
+  follow_up_question: 你的选项池里有多少个经过拆解的选项？如果<10个，加法没做
+- signal: 用户做减法凭感觉，不识别硬伤
+  framework_lens: 减法不专业
+  follow_up_question: 你排除每个选项时，能说出具体的硬伤类型吗？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 # 十五字黄金法诀：机会预判的核心框架
 
 ## Core Claims

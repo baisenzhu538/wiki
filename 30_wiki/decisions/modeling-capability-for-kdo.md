@@ -11,24 +11,19 @@ source_refs:
 - Truman-高阶建模课程材料（00_inbox/建模能力/）
 - kdo/wiki 建设实践（药柜主题整理经验）
 related:
-- modeling-three-stages
-- modeling-capability-system
-- modeling-level-map
-- modeling-to-kdo-toolchain
-- model-quality-four-levels
-- case-truman-livestream-sop-iteration
-- case-truman-ai-skill-self-packaging
-- case-truman-personal-growth-map-creation
-- dk-modeling-ai-without-judgment
-- dk-modeling-counterexample-driven
-- dk-modeling-essence-predictive
-- dk-modeling-sop-execution-locks
-tags:
-- null
-- null
-- null
-- null
-- null
+- '[[modeling-three-stages]]'
+- '[[modeling-capability-system]]'
+- '[[modeling-level-map]]'
+- '[[modeling-to-kdo-toolchain]]'
+- '[[model-quality-four-levels]]'
+- '[[case-truman-livestream-sop-iteration]]'
+- '[[case-truman-ai-skill-self-packaging]]'
+- '[[case-truman-personal-growth-map-creation]]'
+- '[[dk-modeling-ai-without-judgment]]'
+- '[[dk-modeling-counterexample-driven]]'
+- '[[dk-modeling-essence-predictive]]'
+- '[[dk-modeling-sop-execution-locks]]'
+tags: []
 reviewed_by: pending
 review_date: 2026-06-14
 promoted_from: 60_feedback/itingnao/kcards-v3/

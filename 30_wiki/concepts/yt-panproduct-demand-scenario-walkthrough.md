@@ -1,54 +1,57 @@
 ---
 id: yt-panproduct-demand-scenario-walkthrough
 component_of:
-  - yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-demand-toolkit
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1151
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 query_triggers:
-  - "场景推演"
-  - "泛产品设计"
-  - "泛产品设计·用户卡片：场景推演"
-  - "用户卡片"
-  - "用户研究"
-  - "用户需求"
-  - "需求分析"
-  - "需求洞察"
+- 场景推演
+- 泛产品设计
+- 泛产品设计·用户卡片：场景推演
+- 用户卡片
+- 用户研究
+- 用户需求
+- 需求分析
+- 需求洞察
 related:
-  - yt-panproduct-demand-user-perspective
-  - yt-panproduct-demand-user-segmentation
-  - yt-panproduct-demand-need-discovery
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计-用户卡片-场景推演.png"
+- '[[yt-panproduct-demand-user-perspective]]'
+- '[[yt-panproduct-demand-user-segmentation]]'
+- '[[yt-panproduct-demand-need-discovery]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_3bc67cbd
 status: enriched
-title: "泛产品设计·用户卡片：场景推演"
+title: 泛产品设计·用户卡片：场景推演
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: foundational
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '每个需求都用‘[细分用户] 在 [场景] 下遇到了 [真实问题]’句式表达', 'framework_lens': '场景化是需求落地的基础', 'follow_up_question': '去掉场景后，这个需求还成立吗？'}
-  - {'signal': '覆盖了主路径、异常路径和边界场景，而不只是理想流程', 'framework_lens': '真实世界充满噪声', 'follow_up_question': '网络中断、用户分心、时间紧迫时，方案还能用吗？'}
-  - {'signal': '场景被用来评估和迭代设计方案，而不是只在需求阶段出现', 'framework_lens': '场景是贯穿设计全程的参照', 'follow_up_question': '上一次方案评审中，是否有场景推动了设计改动？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 每个需求都用‘[细分用户] 在 [场景] 下遇到了 [真实问题]’句式表达
+  framework_lens: 场景化是需求落地的基础
+  follow_up_question: 去掉场景后，这个需求还成立吗？
+- signal: 覆盖了主路径、异常路径和边界场景，而不只是理想流程
+  framework_lens: 真实世界充满噪声
+  follow_up_question: 网络中断、用户分心、时间紧迫时，方案还能用吗？
+- signal: 场景被用来评估和迭代设计方案，而不是只在需求阶段出现
+  framework_lens: 场景是贯穿设计全程的参照
+  follow_up_question: 上一次方案评审中，是否有场景推动了设计改动？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium
 ---
-
 # 场景推演：细颗粒度推演
 
 > 需求工具箱第 3 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

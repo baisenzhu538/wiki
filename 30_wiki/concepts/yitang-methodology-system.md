@@ -36,9 +36,9 @@ source_refs:
 - src_20260614_46bc4b82
 - src_20260614_9ca806cd
 tags:
-- "#yitang"
-- "#learning-methodology"
-- "#master-system"
+- '#domain/yitang'
+- '#learning-methodology'
+- '#master-system'
 created_at: '2026-06-14'
 updated_at: '2026-06-14T16:09:18+00:00'
 author: 王语嫣
@@ -47,12 +47,12 @@ review_date: '2026-06-14'
 confidence: 0.65
 trust_level: medium
 related:
-- "[[ai-landing-scene-selection]]"
-- "[[find-old-do-small]]"
-- "[[course-to-skill-conversion]]"
-- "[[ai-learning-closed-loop]]"
-- "[[master-first-principles]]"
-- "[[master-systems-thinking]]"
+- '[[ai-landing-scene-selection]]'
+- '[[find-old-do-small]]'
+- '[[course-to-skill-conversion]]'
+- '[[ai-learning-closed-loop]]'
+- '[[master-first-principles]]'
+- '[[master-systems-thinking]]'
 ---
 # 一堂方法论体系：从科学做事到无限进步
 

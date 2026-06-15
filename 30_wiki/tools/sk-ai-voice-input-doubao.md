@@ -1,40 +1,40 @@
 ---
-id: "sk-ai-voice-input-doubao"
-title: "技能：口喷式语音输入法"
-type: "skill"
-status: "draft"
+id: sk-ai-voice-input-doubao
+title: 技能：口喷式语音输入法
+type: skill
+status: draft
 domain:
-  - "ai-collaboration"
-source_person: "半肥猫"
-source_context: "AI俱乐部-AI学习落地分享，2026-06"
+- ai-collaboration
+source_person: 半肥猫
+source_context: AI俱乐部-AI学习落地分享，2026-06
 source_refs:
-  - "src_20260606_90b44191"
+- src_20260606_90b44191
 wiki_refs:
-  - "sk-ai-ai-workspace-setup"
-  - "course-to-skill-conversion"
+- '[[sk-ai-ai-workspace-setup]]'
+- '[[course-to-skill-conversion]]'
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tags:
-  - "#skill/ai"
-  - "#method/workflow"
-created_at: "2026-06-06"
-updated_at: "2026-06-06"
+- '#method/prompt-engineering'
+- '#domain/ai-saas'
+- '#method/workflow'
+created_at: '2026-06-06'
+updated_at: '2026-06-16'
 tools_required:
-  - "豆包输入法 App（iOS/Android）"
-  - "任意 AI 对话工具（ChatGPT / Claude / Kimi 等）"
-  - "麦克风（手机内置或蓝牙耳机）"
-prerequisite_skills:
+- 豆包输入法 App（iOS/Android）
+- 任意 AI 对话工具（ChatGPT / Claude / Kimi 等）
+- 麦克风（手机内置或蓝牙耳机）
+prerequisite_skills: null
 related:
-  - "sk-ai-ai-workspace-setup"
-  - "course-to-skill-conversion"
-author: "legacy"
-reviewed_by: "pending"
+- '[[sk-ai-ai-workspace-setup]]'
+- '[[course-to-skill-conversion]]'
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 技能：口喷式语音输入法
 
 ## 原始表述

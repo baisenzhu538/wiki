@@ -1,41 +1,39 @@
 ---
-id: "skill-一堂-kernel-three-questions"
-title: "技能：内核要素三问验证法"
+id: skill-一堂-kernel-three-questions
+title: 技能：内核要素三问验证法
 type: skill
 status: draft
 domain:
-  - product
-  - yitang
+- product
+- yitang
 source_person: Truman
-source_context: "一堂产品内核验证课"
+source_context: 一堂产品内核验证课
 source_refs:
-  - "00_inbox/一堂-产品内核验证课-Truman-口述.txt"
-  - "00_inbox/一堂-产品内核验证课-truman-笔记.txt"
+- 00_inbox/一堂-产品内核验证课-Truman-口述.txt
+- 00_inbox/一堂-产品内核验证课-truman-笔记.txt
 tools_required:
-  - "产品内核画布（已完成加减法后的版本）"
-  - "用户访谈或问卷工具（可选）"
+- 产品内核画布（已完成加减法后的版本）
+- 用户访谈或问卷工具（可选）
 prerequisite_skills:
-  - "skill-一堂-product-kernel-add-subtract"
-  - "concept-一堂-product-kernel"
+- skill-一堂-product-kernel-add-subtract
+- concept-一堂-product-kernel
 related:
-  - "concept-一堂-product-kernel"
-  - "skill-一堂-product-kernel-add-subtract"
-  - "skill-一堂-five-step-validation"
-  - "dk-一堂-premature-refinement-trap"
+- '[[concept-一堂-product-kernel]]'
+- '[[skill-一堂-product-kernel-add-subtract]]'
+- '[[skill-一堂-five-step-validation]]'
 wiki_refs:
-  - "concept-一堂-product-kernel"
-  - "skill-一堂-five-step-validation"
+- '[[concept-一堂-product-kernel]]'
+- '[[skill-一堂-five-step-validation]]'
 created_at: 2026-06-10
-updated_at: 2026-06-10
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：内核要素三问验证法
 
 ## Summary

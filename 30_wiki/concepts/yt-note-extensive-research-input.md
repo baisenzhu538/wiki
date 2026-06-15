@@ -1,43 +1,46 @@
 ---
 id: yt-note-extensive-research-input
-title: "广泛涉猎式笔记：以问题为入口的多源交叉认知法"
+title: 广泛涉猎式笔记：以问题为入口的多源交叉认知法
 type: concept
 status: draft
 domain:
-  - yitang
-  - personal-growth
+- yitang
+- personal-growth
 language: zh-CN
 version: 1
 confidence: 0.84
 source_refs:
-  - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
+- 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
 related:
-  - "skill-多源输入法"
-  - yt-note-l4-internalization
-  - yt-note-checklist-concept
-  - dk-truman-flag-note-taking
-  - yt-note-expert-interview-modeling
+- '[[skill-多源输入法]]'
+- '[[yt-note-l4-internalization]]'
+- '[[yt-note-checklist-concept]]'
+- '[[dk-truman-flag-note-taking]]'
+- '[[yt-note-expert-interview-modeling]]'
 query_triggers:
-  - "广泛涉猎式笔记"
-  - "多源输入笔记"
-  - "不要只看一个人的书"
-  - "问题当入口源"
-  - "怎么在听课时记笔记"
-  - "剩余脑力"
+- 广泛涉猎式笔记
+- 多源输入笔记
+- 不要只看一个人的书
+- 问题当入口源
+- 怎么在听课时记笔记
+- 剩余脑力
 created_at: 2026-06-10
 estimated_tokens: 4200
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户只听30%但自己找资料能力不足', 'framework_lens': '前提不满足', 'follow_up_question': '你能在讲者提到的观点基础上，快速找到2-3个补充来源吗？'}
-  - {'signal': '用户把广泛涉猎当成不认真的借口', 'framework_lens': '误解', 'follow_up_question': '你听完课后输出的认知结构，比讲者原内容丰富了多少？'}
-updated_at: 2026-06-13
+- signal: 用户只听30%但自己找资料能力不足
+  framework_lens: 前提不满足
+  follow_up_question: 你能在讲者提到的观点基础上，快速找到2-3个补充来源吗？
+- signal: 用户把广泛涉猎当成不认真的借口
+  framework_lens: 误解
+  follow_up_question: 你听完课后输出的认知结构，比讲者原内容丰富了多少？
+updated_at: '2026-06-16'
 author: legacy
 reviewed_by: pending
 trust_level: low
 ---
-
 # 广泛涉猎式笔记：以问题为入口的多源交叉认知法
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的核心判断：**不要假设你听的那个信息源就是你的全部**。如果脑子够快，只需听30%，剩下的70%自己去找——翻自己的旧笔记、搜书评、反思管理得失、辩析相关观点、让AI帮你分析。这种笔记最终只有1/3来自讲师，2/3来自你自己。

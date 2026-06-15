@@ -1,68 +1,60 @@
 ---
 id: yt-tool-hiring-scorecard
-title: "结构化面试打分卡"
+title: 结构化面试打分卡
 type: tool
 source_refs:
-- src_20260614_8f80cb0f
+- 30_wiki/concepts/yt-management-scientific-hiring.md
 status: enriched
 domain:
-  - yitang
+- yitang
 language: zh-CN
 version: 1
 difficulty: foundational
 confidence: 0.85
-prerequisites: 
+prerequisites: null
 component_of:
-  - yt-management-toolkit-overview
+- yt-management-toolkit-overview
 related:
-  - yt-management-scientific-hiring
-  - yt-management-onboarding
-  - yt-management-company-culture
-  - yt-management-goal-management
-  - yt-decision-width-method
-  - master-decision-hygiene
-contradicts: 
+- '[[yt-management-scientific-hiring]]'
+- '[[yt-management-onboarding]]'
+- '[[yt-management-company-culture]]'
+- '[[yt-management-goal-management]]'
+- '[[yt-decision-width-method]]'
+- '[[master-decision-hygiene]]'
+contradicts: null
 query_triggers:
-  - "结构化面试"
-  - "面试打分卡"
-  - "STAR 追问法"
-  - "行为面试"
-  - "招聘决策"
-  - "产品经理面试"
-  - "面试评估维度"
-  - "光环效应面试"
-  - "多人面试打分"
-  - "招对人"
-  - "面试偏见防治"
-tags:
-  - #boundary/requires-human-judgment
-  - confidence-source-cited
-  - confidence-verified-by-case
-  - #management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/learning-methodology/mental-models
-  - #scene/skill-engineering/publish-deploy
-  - #tool
-  - #yitang
+- 结构化面试
+- 面试打分卡
+- STAR 追问法
+- 行为面试
+- 招聘决策
+- 产品经理面试
+- 面试评估维度
+- 光环效应面试
+- 多人面试打分
+- 招对人
+- 面试偏见防治
+tags: []
 trust_level: medium
 yitang:
   map: management
-  module: "科学招聘"
+  module: 科学招聘
   course_id: yt-tool-hiring-scorecard
   course_type: tool
   level: core
-source_refs:
-  - 30_wiki/concepts/yt-management-scientific-hiring.md
 created_at: 2026-05-19
-updated_at: 2026-05-19
+updated_at: '2026-06-16'
 estimated_tokens: 3400
-reviewed_by: "周伯通"
+reviewed_by: 周伯通
 diagnostic_signals:
-  - {'signal': '面试后每个人都填了打分卡，总分最高的候选人被录用了——3个月后发现根本不行', 'framework_lens': "打分卡填了但招错人——总分陷阱。总分掩盖了'某个致命维度低分但其他维度高分'的情况。一个Must-have维度2分+其余5分的人，总分比4个维度各4分的人还高——但前者会在Must-have维度上导致灾难", 'follow_up_question': '这个人在Must-have维度上的最低分是多少？如果有一个维度是2分，即使其他全是5分，也应该不录用'}
-  - {'signal': "团队说'打分卡我们都填了，流程很规范'——但半年后回溯，没有一个面试预测被验证过", 'framework_lens': "打分卡填了但招错人——流程完善≠准确预测。Tetlock证明了'专家预测'的低准确率。如果你从未系统性回溯过'面试评分'和'入职后实际表现'的相关性，你的打分卡只是一个漂亮的置信度幻觉", 'follow_up_question': '过去一年录用的5个人，面试打分和6个月后实际表现的差距是多少？如果不知道这个数字——你的结构化流程是科学的仪式，不是科学的工具'}
-author: "老顽童"
+- signal: 面试后每个人都填了打分卡，总分最高的候选人被录用了——3个月后发现根本不行
+  framework_lens: 打分卡填了但招错人——总分陷阱。总分掩盖了'某个致命维度低分但其他维度高分'的情况。一个Must-have维度2分+其余5分的人，总分比4个维度各4分的人还高——但前者会在Must-have维度上导致灾难
+  follow_up_question: 这个人在Must-have维度上的最低分是多少？如果有一个维度是2分，即使其他全是5分，也应该不录用
+- signal: 团队说'打分卡我们都填了，流程很规范'——但半年后回溯，没有一个面试预测被验证过
+  framework_lens: 打分卡填了但招错人——流程完善≠准确预测。Tetlock证明了'专家预测'的低准确率。如果你从未系统性回溯过'面试评分'和'入职后实际表现'的相关性，你的打分卡只是一个漂亮的置信度幻觉
+  follow_up_question: 过去一年录用的5个人，面试打分和6个月后实际表现的差距是多少？如果不知道这个数字——你的结构化流程是科学的仪式，不是科学的工具
+author: 老顽童
 ---
-
 # 结构化面试打分卡
 
 > 来源：从 [[yt-management-scientific-hiring]] 概念卡萃取的工具内核。一套可独立使用的招聘流程工具——从岗位画像到打分卡到群体决策，降低"招顺眼""招面试高手"的系统性偏差。

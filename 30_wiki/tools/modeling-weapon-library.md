@@ -23,10 +23,10 @@ related:
 - '[[modeling-three-stages]]'
 - '[[modeling-level-map]]'
 tags:
-- '#modeling'
-- '#tool'
-- '#framework'
-- '#checklist'
+- '#method/modeling'
+- '#content-format/concept-card'
+- '#content-format/framework'
+- '#content-format/checklist'
 diagnostic_signals:
 - signal: 用户说"我想提炼一个方法论，但不知道用什么结构"
   framework_lens: 模型武器库

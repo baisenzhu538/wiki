@@ -12,11 +12,11 @@ source_refs:
 - src_20260613_6edbf0af
 - src_20260613_a8bcfd38
 tags:
-- "#business-formula"
-- "#case"
-- "#healthcare"
-- "#dental"
-- "#yitang"
+- '#method/evaluation-method'
+- '#content-format/case-study'
+- '#healthcare'
+- '#dental'
+- '#domain/yitang'
 created_at: '2026-06-15'
 updated_at: '2026-06-15'
 author: 孔阳
@@ -27,10 +27,10 @@ review_date: '2026-06-15'
 confidence: 0.9
 trust_level: high
 related:
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-business-formula-ten-paradigms]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-entrepreneur-unit-model]]"
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-ten-paradigms]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-entrepreneur-unit-model]]'
 ---
 
 # ToC 连锁口腔诊所：成交率 30% 背后的“危机感知”公式

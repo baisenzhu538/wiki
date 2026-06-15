@@ -1,54 +1,53 @@
 ---
 id: yt-model-pan-product-execution-toolkit
 component_of:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1800
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-aesthetic-toolkit
 query_triggers:
-  - "产品落地"
-  - "执行落地"
-  - "落地工具箱"
-  - "怎么打磨产品"
-  - "产品迭代方法"
-  - "如何做好产品执行"
-  - "产品交付方法论"
+- 产品落地
+- 执行落地
+- 落地工具箱
+- 怎么打磨产品
+- 产品迭代方法
+- 如何做好产品执行
+- 产品交付方法论
 related:
-  - yt-model-pan-product-36-strategies
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
-  - yt-model-y-organization
-  - yt-entrepreneur-lean-validation
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-model-y-organization]]'
+- '[[yt-entrepreneur-lean-validation]]'
 review_by: 2026-11-11
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计落地工具篇指南.png"
-  - "10_raw/assets/yitang/泛产品设计-落地卡片-内核和边界.png"
-  - "10_raw/sources/一堂-个人修身-泛产品设计实操口述版.md"
+reviewed_by: 黄药师
 source_refs:
 - src_20260510_f2a1d58b
 status: enriched
-title: "泛产品设计·落地工具箱（19张卡牌）"
+title: 泛产品设计·落地工具箱（19张卡牌）
 type: framework
 version: 1
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户工具很多但产品迭代慢', 'framework_lens': '工具没有形成工作流', 'follow_up_question': '你的落地工具箱中，哪些工具已经融入日常工作流？如果大部分只是收藏，没有形成闭环'}
-  - {'signal': '用户只打磨不验证', 'framework_lens': '缺乏反馈闭环', 'follow_up_question': '你打磨的每个版本有没有人看、有人用、有人反馈？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户工具很多但产品迭代慢
+  framework_lens: 工具没有形成工作流
+  follow_up_question: 你的落地工具箱中，哪些工具已经融入日常工作流？如果大部分只是收藏，没有形成闭环
+- signal: 用户只打磨不验证
+  framework_lens: 缺乏反馈闭环
+  follow_up_question: 你打磨的每个版本有没有人看、有人用、有人反馈？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 ## Constraints & Boundaries
 
 ### 适用边界

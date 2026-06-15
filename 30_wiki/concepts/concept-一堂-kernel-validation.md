@@ -14,12 +14,12 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-- concept-一堂-product-kernel
-- concept-一堂-kernel-iteration
-- concept-一堂-key-assumptions
+- '[[concept-一堂-product-kernel]]'
+- '[[concept-一堂-kernel-iteration]]'
+- '[[concept-一堂-key-assumptions]]'
 wiki_refs:
-- concept-一堂-product-kernel
-- concept-一堂-key-assumptions
+- '[[concept-一堂-product-kernel]]'
+- '[[concept-一堂-key-assumptions]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

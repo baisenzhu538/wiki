@@ -21,7 +21,7 @@ source_refs:
 - src_20260613_f3aecb2d
 - src_20260613_9a2b289e
 tags:
-- '#smart-medicine-cabinet'
+- '#industry/healthcare'
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 王语嫣

@@ -1,27 +1,26 @@
 ---
-id: "dk-truman-document-is-real-project-is-fake"
-title: "文档是真的，项目是假的——面向过去建模型，面向未来解决问题"
-type: "dark-knowledge"
-status: "draft"
+id: dk-truman-document-is-real-project-is-fake
+title: 文档是真的，项目是假的——面向过去建模型，面向未来解决问题
+type: dark-knowledge
+status: draft
 domain:
-  - "yitang"
-  - "personal-growth"
+- yitang
+- personal-growth
 source_refs:
-  - "00_inbox/ideas/一堂-个人修炼-知识萃取探索营口述版.md"
+- 00_inbox/ideas/一堂-个人修炼-知识萃取探索营口述版.md
 related:
-  - "yt-note-checklist-concept"
-  - "dk-truman-iteration-to-aesthetic-ceiling"
-  - "dk-truman-knowledge-extraction-three-schools"
-  - "yt-personal-pan-product-tools"
-  - "ai-learning-closed-loop"
-created_at: "2026-06-09"
-updated_at: "2026-06-09"
-author: "legacy"
-reviewed_by: "pending"
+- '[[yt-note-checklist-concept]]'
+- '[[dk-truman-iteration-to-aesthetic-ceiling]]'
+- '[[dk-truman-knowledge-extraction-three-schools]]'
+- '[[yt-personal-pan-product-tools]]'
+- '[[ai-learning-closed-loop]]'
+created_at: '2026-06-09'
+updated_at: '2026-06-16'
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 文档是真的，项目是假的
 
 > Truman在知识萃取探索营中分享了他早期在去哪儿做产品经理时的突破：**“文档是真的，每一个项目都是假的。”项目是一次性的、随机的、会消失的，但文档（检查清单、模型、标准）是累积的、永恒的、面向未来的。你交付的不是项目，是你通过项目打磨出来的那一页文档。**

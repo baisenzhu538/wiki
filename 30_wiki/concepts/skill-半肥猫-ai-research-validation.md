@@ -1,39 +1,38 @@
 ---
-id: "skill-半肥猫-ai-research-validation"
-title: "AI调研纠偏与验证技能：从“丝滑回答”到“证据决策”的六步闭环"
+id: skill-半肥猫-ai-research-validation
+title: AI调研纠偏与验证技能：从“丝滑回答”到“证据决策”的六步闭环
 type: skill
 status: draft
 domain:
-  - ai-collaboration
-  - yitang
-source_person: "半肥猫"
-source_context: "AI俱乐部·AI学习落地（2026-06分享）"
+- ai-collaboration
+- yitang
+source_person: 半肥猫
+source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
-  - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
+- 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
 created_at: 2026-06-08
 reviewed_by: laowantong
-updated_at: 2026-06-08
+updated_at: '2026-06-16'
 related:
-  - "case-半肥猫-from-assignment-to-tool"
-  - "dk-半肥猫-silky-answers-are-dangerous"
-  - "dk-半肥猫-real-business-is-the-engine"
+- '[[case-半肥猫-from-assignment-to-tool]]'
+- '[[dk-半肥猫-silky-answers-are-dangerous]]'
+- '[[dk-半肥猫-real-business-is-the-engine]]'
 wiki_refs:
-  - "case-半肥猫-from-assignment-to-tool"
-  - "dk-半肥猫-silky-answers-are-dangerous"
-  - "dk-半肥猫-real-business-is-the-engine"
+- '[[case-半肥猫-from-assignment-to-tool]]'
+- '[[dk-半肥猫-silky-answers-are-dangerous]]'
+- '[[dk-半肥猫-real-business-is-the-engine]]'
 definition_of_done:
-  - "六步闭环已完整记录"
-  - "纠偏模板已提供"
-  - "证据质量标准已明确"
-  - "实际测试通过"
+- 六步闭环已完整记录
+- 纠偏模板已提供
+- 证据质量标准已明确
+- 实际测试通过
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 confidence: 0.7
 trust_level: low
 ---
-
 # AI调研纠偏与验证技能：从“丝滑回答”到“证据决策”的六步闭环
 
 ## 原始表述

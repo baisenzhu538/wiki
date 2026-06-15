@@ -1,47 +1,50 @@
 ---
 id: yt-five-step-implementation
-component_of: "[[yt-five-step-method]]"
+component_of: '[[yt-five-step-method]]'
 confidence: 0.85
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2400
 language: zh-CN
-prerequisites: "[[yt-five-step-method]]"
+prerequisites: '[[yt-five-step-method]]'
 query_triggers:
-  - "五步法怎么落地"
-  - "五步法画布"
-  - "五步法实施步骤"
-  - "故事版 取舍版 定量版 分工版"
-  - "五步法迭代"
+- 五步法怎么落地
+- 五步法画布
+- 五步法实施步骤
+- 故事版 取舍版 定量版 分工版
+- 五步法迭代
 related:
-  - yt-tool-product-core-canvas
+- '[[yt-tool-product-core-canvas]]'
 review_date: 2026-06-11
-reviewed_by: "老顷童"
+reviewed_by: 老顷童
 source_refs:
-  - "00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-落地实操-笔记.txt"
+- 00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt
+- 00_inbox/一堂五步法/一堂-一堂五步法-落地实操-笔记.txt
 status: reviewed
-title: "五步法落地实操：从故事版到分工版"
+title: 五步法落地实操：从故事版到分工版
 trust_level: medium
 type: skill
 version: 1
 yitang:
   map: entrepreneur
-  module: "落地实操"
+  module: 落地实操
   course_id: yt-five-step-implementation
   course_type: skill
   level: core
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户停在故事版，永远讲不清楚取舍', 'framework_lens': '落地阶段停滞', 'follow_up_question': '你能明确说出"我们不服务谁""我们不做什么"吗？如果不能，还在故事版'}
-  - {'signal': '用户直接跳到定量版，但故事都没讲清楚', 'framework_lens': '跳级', 'follow_up_question': '5分钟内能把商业模式讲清楚吗？如果不能，不要急着定量'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户停在故事版，永远讲不清楚取舍
+  framework_lens: 落地阶段停滞
+  follow_up_question: 你能明确说出"我们不服务谁""我们不做什么"吗？如果不能，还在故事版
+- signal: 用户直接跳到定量版，但故事都没讲清楚
+  framework_lens: 跳级
+  follow_up_question: 5分钟内能把商业模式讲清楚吗？如果不能，不要急着定量
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # 五步法落地实操：从故事版到分工版
 
 > 来源：一堂五步法·落地实操篇 | [[yt-five-step-method]] | [[yt-demand-analysis-hiking-map]] | [[yt-product-kernel-cultivation]] | [[yt-unit-model-concept]] | [[yt-growth-cycle-model]] | [[yt-barrier-analysis-cheat-sheet]]

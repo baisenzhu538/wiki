@@ -1,40 +1,39 @@
 ---
-id: "skill-ai-problem-question-check"
-title: "技能：Problem vs Question 区分法"
-type: "skill"
-status: "draft"
+id: skill-ai-problem-question-check
+title: 技能：Problem vs Question 区分法
+type: skill
+status: draft
 domain:
-  - "AI"
-  - "决策"
-source_person: "纪浩"
-source_context: "AI俱乐部-AI协作方法论-口述，2026-06-06"
+- AI
+- 决策
+source_person: 纪浩
+source_context: AI俱乐部-AI协作方法论-口述，2026-06-06
 source_refs:
-  - "src_20260606_42e11f09"
+- src_20260606_42e11f09
 wiki_refs:
-  - "ai-collaboration-mindset-shift"
-  - "ai-landing-scene-selection"
+- '[[ai-collaboration-mindset-shift]]'
+- '[[ai-landing-scene-selection]]'
 definition_of_done:
-  - "每次提问前能3秒内分类"
-  - "分类准确率>80%（自我评估）"
-  - '能说出"这道题是problem还是question"'
+- 每次提问前能3秒内分类
+- 分类准确率>80%（自我评估）
+- 能说出"这道题是problem还是question"
 tools_required:
-  - "无（纯思维工具）"
-prerequisite_skills:
-related:
+- 无（纯思维工具）
+prerequisite_skills: null
+related: null
 created_at: 2026-06-11
-updated_at: "2026-06-13"
+updated_at: '2026-06-16'
 tags:
-  - None
-  - None
-  - None
+- None
+- None
+- None
 pipeline:
-  - None
-reviewed_by: "laowantong"
-author: "legacy"
+- None
+reviewed_by: laowantong
+author: legacy
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 技能：Problem vs Question 区分法
 
 > **来源**：纪浩（AI俱乐部-AI协作方法论-口述）

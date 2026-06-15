@@ -1,36 +1,34 @@
 ---
-id: "skill-半肥猫-用Skill做对比测试验证效果"
-title: "技能：用 Skill 做对比测试验证效果"
+id: skill-半肥猫-用Skill做对比测试验证效果
+title: 技能：用 Skill 做对比测试验证效果
 type: skill
 status: draft
 domain:
-  - ai-collaboration
-source_person: "半肥猫"
-source_context: "AI俱乐部-AI学习落地 分享"
+- ai-collaboration
+source_person: 半肥猫
+source_context: AI俱乐部-AI学习落地 分享
 source_refs:
-  - "00_inbox/半肥猫-AI学习落地-口述.md"
+- 00_inbox/半肥猫-AI学习落地-口述.md
 tools_required:
-  - "AIGC大模型（支持 Skill 挂载的客户端）"
+- AIGC大模型（支持 Skill 挂载的客户端）
 prerequisite_skills:
-  - "skill-半肥猫-设计Skill的评分规则与风险边界"
+- skill-半肥猫-设计Skill的评分规则与风险边界
 related:
-  - "concept-半肥猫-ai-learning-toolification-methodology"
-  - "skill-半肥猫-课程Skill化的八步工作流"
-  - "case-半肥猫-skill-ab-test"
-  - "dk-半肥猫-skill-rejection-value"
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[case-半肥猫-skill-ab-test]]'
+- '[[dk-半肥猫-skill-rejection-value]]'
 created_at: 2026-06-07
 reviewed_by: laowantong
-updated_at: 2026-06-07
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
-  - confidence-verified-by-test
+- confidence-draft
+- confidence-source-cited
+- confidence-verified-by-case
+- confidence-verified-by-test
 author: legacy
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：用 Skill 做对比测试验证效果
 
 ## Summary

@@ -4,36 +4,35 @@ confidence: 0.8
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-  - master
+- master
 estimated_tokens: 1589
 language: zh-CN
 query_triggers:
-  - "决策卫生"
-  - "噪声减少"
-  - "团队决策降噪"
+- 决策卫生
+- 噪声减少
+- 团队决策降噪
 related:
-  - yt-decision-y-model
-  - yt-decision-canvas
-  - yt-decision-consensus-iceberg
-  - yt-decision-full-process
-  - master-cognitive-bias-checklist
-  - master-ai-info-literacy
-  - yt-unit-model-ladder
-  - yt-unit-model-selection
+- '[[yt-decision-y-model]]'
+- '[[yt-decision-canvas]]'
+- '[[yt-decision-consensus-iceberg]]'
+- '[[yt-decision-full-process]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[master-ai-info-literacy]]'
+- '[[yt-unit-model-ladder]]'
+- '[[yt-unit-model-selection]]'
 source_refs:
-  - {'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}
+- 来源: Daniel Kahneman, Olivier Sibony, Cass Sunstein
 status: enriched
-title: "决策卫生五步法"
+title: 决策卫生五步法
 type: framework
-updated_at: 2026-05-18
+updated_at: '2026-06-16'
 version: 1
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 author: unknown
 trust_level: medium-high
 ---
-
 # 决策卫生五步法
 
 > **核心定位**：团队对同一问题需要做出独立判断时，用五个步骤减少判断噪声（noise），不是消除偏差（bias），是让"不同的人对同一问题做出更一致的判断"。**使用顺序**：位于认知偏差自检（#1）之后、团队拍板之前。

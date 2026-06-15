@@ -12,8 +12,8 @@ target_roles:
 - 黄药师（Builder）
 - 老顽童（Producer）
 related:
-- data-labeling-best-practices-report
-- kdo-15-dimension-label-spec
+- '[[data-labeling-best-practices-report]]'
+- '[[kdo-15-dimension-label-spec]]'
 author: legacy
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）

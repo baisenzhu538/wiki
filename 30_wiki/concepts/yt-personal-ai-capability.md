@@ -4,50 +4,53 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 domain:
-  - yitang
+- yitang
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
-  - "AI能力"
-  - "双模型框架"
-  - "提示词工程"
-  - "人机协同"
-  - "AI认知模型"
-  - "任务分解"
-  - "验证闭环"
-  - "AI时代竞争力"
-  - "如何与AI协作"
-  - "提示词怎么写"
+- AI能力
+- 双模型框架
+- 提示词工程
+- 人机协同
+- AI认知模型
+- 任务分解
+- 验证闭环
+- AI时代竞争力
+- 如何与AI协作
+- 提示词怎么写
 related:
-  - master-ai-info-literacy
+- '[[master-ai-info-literacy]]'
 review_date: 2026-05-08
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
+reviewed_by: 黄药师
 source_refs:
 - src_20260614_ea308189
 status: enriched
-title: "AI 能力（双模型）"
+title: AI 能力（双模型）
 trust_level: medium
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "AI 能力（双模型）"
+  module: AI 能力（双模型）
   course_id: yt-personal-ai-capability
   course_type: method
   level: advanced
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '能清晰说出 AI 在当前任务中的能力边界和典型错误模式', 'framework_lens': '人机协同需要认知模型', 'follow_up_question': '这个任务中，AI 最可能在哪一步出错？你如何发现？'}
-  - {'signal': '复杂任务会先拆解再交给 AI，而不是一次性抛给 AI', 'framework_lens': '任务分解提升可控性', 'follow_up_question': '如果你把任务拆成3步，每一步的验收标准是什么？'}
-  - {'signal': 'AI 输出会被验证，关键决策保留人类最终判断', 'framework_lens': 'AI 是副驾驶，不是机长', 'follow_up_question': '这个结论如果错了，代价是什么？你能承担吗？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 能清晰说出 AI 在当前任务中的能力边界和典型错误模式
+  framework_lens: 人机协同需要认知模型
+  follow_up_question: 这个任务中，AI 最可能在哪一步出错？你如何发现？
+- signal: 复杂任务会先拆解再交给 AI，而不是一次性抛给 AI
+  framework_lens: 任务分解提升可控性
+  follow_up_question: 如果你把任务拆成3步，每一步的验收标准是什么？
+- signal: AI 输出会被验证，关键决策保留人类最终判断
+  framework_lens: AI 是副驾驶，不是机长
+  follow_up_question: 这个结论如果错了，代价是什么？你能承担吗？
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # AI 能力（双模型）
 
 > 来源：一堂个人必修课，属于"形成竞争力"子模块。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

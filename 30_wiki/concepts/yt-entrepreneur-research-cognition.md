@@ -4,48 +4,49 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1821
 language: zh-CN
 query_triggers:
-  - "调研认知"
-  - "创业调研方法"
-  - "调研黑客"
-  - "调研武器库"
-  - "OSCAR框架"
-  - "行业调研"
-  - "用户访谈技巧"
-  - "专家访谈方法"
-  - "竞争情报搜集"
-  - "上市报告分析"
+- 调研认知
+- 创业调研方法
+- 调研黑客
+- 调研武器库
+- OSCAR框架
+- 行业调研
+- 用户访谈技巧
+- 专家访谈方法
+- 竞争情报搜集
+- 上市报告分析
 related:
-  - master-ai-info-literacy
+- '[[master-ai-info-literacy]]'
 review_date: 2026-05-08
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
+reviewed_by: 黄药师
 source_refs:
 - src_20260502_7d7c1b7c
 status: enriched
-title: "调研认知"
+title: 调研认知
 trust_level: medium
 type: tool
 version: 1
 yitang:
   map: entrepreneur
-  module: "调研认知"
+  module: 调研认知
   course_id: yt-entrepreneur-research-cognition
   course_type: method
   level: core
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户用AI做了一堆调研，但结论不可靠', 'framework_lens': 'AI工具强但调研认知弱', 'follow_up_question': '这些结论中，哪些经过了至少两个独立来源的交叉验证？'}
-  - {'signal': '用户只收集信息，不形成洞察', 'framework_lens': '调研≠信息收集', 'follow_up_question': '你收集的信息中，有多少转化为了可指导决策的洞察？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户用AI做了一堆调研，但结论不可靠
+  framework_lens: AI工具强但调研认知弱
+  follow_up_question: 这些结论中，哪些经过了至少两个独立来源的交叉验证？
+- signal: 用户只收集信息，不形成洞察
+  framework_lens: 调研≠信息收集
+  follow_up_question: 你收集的信息中，有多少转化为了可指导决策的洞察？
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # 调研认知
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]

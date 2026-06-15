@@ -1,33 +1,30 @@
 ---
-id: "dk-半肥猫-skill-rejection-value"
-title: "暗知识：Skill 的最大价值不是生成，是拒绝"
+id: dk-半肥猫-skill-rejection-value
+title: 暗知识：Skill 的最大价值不是生成，是拒绝
 type: dark-knowledge
 status: draft
 domain:
-  - ai-collaboration
-  - yitang
-source_person: "半肥猫"
-source_context: "AI俱乐部-AI学习落地 分享"
+- ai-collaboration
+- yitang
+source_person: 半肥猫
+source_context: AI俱乐部-AI学习落地 分享
 source_refs:
-  - "00_inbox/半肥猫-AI学习落地-口述.md"
+- 00_inbox/半肥猫-AI学习落地-口述.md
 created_at: 2026-06-07
-updated_at: 2026-06-07
+updated_at: '2026-06-16'
 related:
-  - "concept-半肥猫-ai-learning-toolification-methodology"
-  - "case-半肥猫-skill-ab-test"
-  - "skill-半肥猫-设计Skill的评分规则与风险边界"
-  - "skill-半肥猫-判断课程是否值得做成Skill"
-  - "concept-纪浩-ai-collaboration-methodology"
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[case-半肥猫-skill-ab-test]]'
+- '[[concept-纪浩-ai-collaboration-methodology]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-test
+- confidence-draft
+- confidence-source-cited
+- confidence-verified-by-test
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 暗知识：Skill 的最大价值不是生成，是拒绝
 
 > 半肥猫经过 A/B 测试后的反直觉发现：**用了 Skill 和没用 Skill 的最大差距，不是在"能做什么"上，而是在"知道不能做什么"上。**

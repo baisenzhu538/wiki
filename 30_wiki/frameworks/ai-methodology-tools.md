@@ -21,9 +21,9 @@ source_refs:
 - src_20260614_d78e7c7b
 - src_20260614_329d0e0c
 tags:
-- "#ai-methodology"
-- "#tool-stack"
-- "#ai-collaboration"
+- '#ai-methodology'
+- '#tool-stack'
+- '#method/prompt-engineering'
 created_at: '2026-06-14'
 updated_at: '2026-06-14T16:09:18+00:00'
 author: 王语嫣
@@ -32,12 +32,12 @@ review_date: '2026-06-14'
 confidence: 0.65
 trust_level: medium
 related:
-- "[[find-old-do-small]]"
-- "[[ai-collaboration-mindset-shift]]"
-- "[[ai-landing-scene-selection]]"
-- "[[ai-learning-closed-loop]]"
-- "[[course-to-skill-conversion]]"
-- "[[kdo-flywheel]]"
+- '[[find-old-do-small]]'
+- '[[ai-collaboration-mindset-shift]]'
+- '[[ai-landing-scene-selection]]'
+- '[[ai-learning-closed-loop]]'
+- '[[course-to-skill-conversion]]'
+- '[[kdo-flywheel]]'
 ---
 # AI 方法论与工具栈：主题综合知识卡
 

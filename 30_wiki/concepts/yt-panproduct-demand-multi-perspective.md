@@ -1,53 +1,56 @@
 ---
 id: yt-panproduct-demand-multi-perspective
 component_of:
-  - yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-demand-toolkit
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1204
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 query_triggers:
-  - "多视角思考"
-  - "泛产品设计"
-  - "泛产品设计·用户卡片：多视角思考"
-  - "用户卡片"
-  - "用户研究"
-  - "用户需求"
-  - "需求分析"
-  - "需求洞察"
+- 多视角思考
+- 泛产品设计
+- 泛产品设计·用户卡片：多视角思考
+- 用户卡片
+- 用户研究
+- 用户需求
+- 需求分析
+- 需求洞察
 related:
-  - yt-panproduct-demand-project-background
-  - yt-panproduct-demand-user-segmentation
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计-用户卡片-多视角思考.png"
+- '[[yt-panproduct-demand-project-background]]'
+- '[[yt-panproduct-demand-user-segmentation]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_f6cf4e83
 status: enriched
-title: "泛产品设计·用户卡片：多视角思考"
+title: 泛产品设计·用户卡片：多视角思考
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: intermediate
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '方案讨论前明确列出内部、外部、使用者、决策者四种视角的具体诉求', 'framework_lens': '产品设计是多主体博弈', 'follow_up_question': '这四个视角中，哪个视角的诉求如果未被满足，方案会被直接否决？'}
-  - {'signal': '能指出不同视角之间的冲突，并把冲突作为设计输入而不是回避', 'framework_lens': '冲突是设计约束，不是噪声', 'follow_up_question': '你最近一次的设计改动，是为了调和哪两个视角的冲突？'}
-  - {'signal': '最终方案能用一句话说明如何平衡各视角，而不是只满足一方', 'framework_lens': '多视角的价值在于合成', 'follow_up_question': '如果只满足决策者的诉求，用户的体验会恶化到什么程度？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 方案讨论前明确列出内部、外部、使用者、决策者四种视角的具体诉求
+  framework_lens: 产品设计是多主体博弈
+  follow_up_question: 这四个视角中，哪个视角的诉求如果未被满足，方案会被直接否决？
+- signal: 能指出不同视角之间的冲突，并把冲突作为设计输入而不是回避
+  framework_lens: 冲突是设计约束，不是噪声
+  follow_up_question: 你最近一次的设计改动，是为了调和哪两个视角的冲突？
+- signal: 最终方案能用一句话说明如何平衡各视角，而不是只满足一方
+  framework_lens: 多视角的价值在于合成
+  follow_up_question: 如果只满足决策者的诉求，用户的体验会恶化到什么程度？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium
 ---
-
 # 多视角思考：综合内部/外部/角色考量
 
 > 需求工具箱第 6 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

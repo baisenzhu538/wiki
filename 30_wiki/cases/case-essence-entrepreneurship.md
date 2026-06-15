@@ -24,9 +24,8 @@ related:
 - '[[concept-一堂-key-assumptions]]'
 - '[[yt-five-step-method]]'
 tags:
-- '#modeling'
-- '#case'
-- '#essence'
+- '#method/modeling'
+- '#content-format/case-study'
 - '#entrepreneurship'
 ---
 # 案例：创业本质 = 小概率游戏

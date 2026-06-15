@@ -1,34 +1,30 @@
 ---
-id: "case-纪浩-from-zip-to-five-layers"
-title: "纪浩：从微信传 zip 到五层协作体系"
+id: case-纪浩-from-zip-to-five-layers
+title: 纪浩：从微信传 zip 到五层协作体系
 type: case
 status: draft
 domain:
-  - ai-collaboration
-  - yitang
-source_person: "纪浩"
-source_context: "AI俱乐部·人和AI协作（第三次分享，2026-06）"
+- ai-collaboration
+- yitang
+source_person: 纪浩
+source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
-  - "00_inbox/纪浩-AI协作方法论-口述.md"
-  - "00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md"
+- 00_inbox/纪浩-AI协作方法论-口述.md
+- 00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md
 related:
-  - "concept-纪浩-ai-collaboration-methodology"
-  - "skill-纪浩-真需求四要素验证法"
-  - "skill-纪浩-AI工作空间与导诊台设计法"
-  - "skill-纪浩-Do-first-PDCA渐进迭代法"
-  - "skill-纪浩-Agent技能市场设计法"
-  - "skill-纪浩-日志驱动排查法"
+- '[[concept-纪浩-ai-collaboration-methodology]]'
+- '[[skill-纪浩-真需求四要素验证法]]'
+- '[[skill-纪浩-日志驱动排查法]]'
 created_at: 2026-06-08
-updated_at: 2026-06-08
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 纪浩：从微信传 zip 到五层协作体系
 
 > 纪浩是一堂的后端工程师。从2026年1月到4月，他每天高强度使用AI协作，经历了从"新手盲目"到"有体系地驾驭AI"的完整过程。这个案例记录了他在这四个月中遇到的核心问题、解决方案的演化，以及最终形成的五层协作体系。

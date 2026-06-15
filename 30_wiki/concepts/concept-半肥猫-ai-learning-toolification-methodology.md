@@ -1,47 +1,41 @@
 ---
-id: "concept-半肥猫-ai-learning-toolification-methodology"
-title: "半肥猫 AI 学习落地方法论：从听课到造工具的三层递进"
+id: concept-半肥猫-ai-learning-toolification-methodology
+title: 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进
 type: concept
 status: draft
 domain:
-  - ai-collaboration
-  - yitang
-  - learning
-source_person: "半肥猫"
-source_context: "AI俱乐部-AI学习落地 分享（2026-06）"
+- ai-collaboration
+- yitang
+- learning
+source_person: 半肥猫
+source_context: AI俱乐部-AI学习落地 分享（2026-06）
 source_refs:
-  - "00_inbox/半肥猫-AI学习落地-口述.md"
-  - "00_inbox/AI俱乐部-AI学习落地-半肥猫-笔记.txt"
-  - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
+- 00_inbox/半肥猫-AI学习落地-口述.md
+- 00_inbox/AI俱乐部-AI学习落地-半肥猫-笔记.txt
+- 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
 created_at: 2026-06-07
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 related:
-  - "skill-半肥猫-边学边练边沉淀的AI学习法"
-  - "skill-半肥猫-课程Skill化的八步工作流"
-  - "skill-半肥猫-清洗资料为Markdown格式喂给AI"
-  - "skill-半肥猫-追问AI证据并标注信源"
-  - "skill-半肥猫-用YAML格式做知识库原子化标签"
-  - "skill-半肥猫-动态读取-向量化管理迭代知识"
-  - "case-半肥猫-conversion-hacker-skill"
-  - "case-半肥猫-skill-ab-test"
-  - "case-半肥猫-from-assignment-to-tool"
-  - "case-半肥猫-course-to-skill"
-  - "dk-半肥猫-silky-answer-warning"
-  - "dk-半肥猫-skill-rejection-value"
-  - "dk-半肥猫-atomic-no-standard"
-  - "dk-半肥猫-real-business-is-the-engine"
-  - "concept-纪浩-ai-collaboration-methodology"
+- '[[skill-半肥猫-动态读取-向量化管理迭代知识]]'
+- '[[case-半肥猫-conversion-hacker-skill]]'
+- '[[case-半肥猫-skill-ab-test]]'
+- '[[case-半肥猫-from-assignment-to-tool]]'
+- '[[case-半肥猫-course-to-skill]]'
+- '[[dk-半肥猫-silky-answer-warning]]'
+- '[[dk-半肥猫-skill-rejection-value]]'
+- '[[dk-半肥猫-atomic-no-standard]]'
+- '[[dk-半肥猫-real-business-is-the-engine]]'
+- '[[concept-纪浩-ai-collaboration-methodology]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
-  - confidence-verified-by-test
+- confidence-draft
+- confidence-source-cited
+- confidence-verified-by-case
+- confidence-verified-by-test
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 半肥猫 AI 学习落地方法论
 
 > 半肥猫是一堂的学员，也是连续创业者。他在 AI 俱乐部的分享中，用两小时讲述了自己如何把"听课→做作业"的传统学习模式，改造成"听课→跑真实业务→沉淀工具/SOP/Skill"的落地系统。他的方法论和纪浩的 AI 协作方法论是互补关系：纪浩讲"怎么让 AI 做好执行"，半肥猫讲"怎么让学习真正变成能力"。

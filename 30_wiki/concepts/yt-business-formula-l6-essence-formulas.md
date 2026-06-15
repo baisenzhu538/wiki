@@ -12,10 +12,10 @@ source_refs:
 - src_20260613_6edbf0af
 - src_20260613_a8bcfd38
 tags:
-- "#business-formula"
-- "#l6-essence"
-- "#yitang"
-- "#framework"
+- '#method/evaluation-method'
+- '#l6-essence'
+- '#domain/yitang'
+- '#content-format/framework'
 created_at: '2026-06-15'
 updated_at: '2026-06-15'
 author: 孔阳
@@ -24,10 +24,10 @@ review_date: '2026-06-15'
 confidence: 0.88
 trust_level: high
 related:
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-business-formula-six-level-logic]]"
-- "[[yt-business-formula-ten-paradigms]]"
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-business-formula-six-level-logic]]'
+- '[[yt-business-formula-ten-paradigms]]'
 ---
 
 # 业务公式 L6 魔法参数：跨行业本质公式集锦

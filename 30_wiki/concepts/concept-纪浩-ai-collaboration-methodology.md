@@ -1,41 +1,37 @@
 ---
-id: "concept-纪浩-ai-collaboration-methodology"
-title: "纪浩 AI 协作方法论：从判断到规模复用的五层体系"
+id: concept-纪浩-ai-collaboration-methodology
+title: 纪浩 AI 协作方法论：从判断到规模复用的五层体系
 type: concept
 status: draft
 domain:
-  - ai-collaboration
-  - yitang
-source_person: "纪浩"
-source_context: "AI俱乐部-AI协作方法论 分享（第三次分享，2026-06）"
+- ai-collaboration
+- yitang
+source_person: 纪浩
+source_context: AI俱乐部-AI协作方法论 分享（第三次分享，2026-06）
 source_refs:
-  - "00_inbox/纪浩-AI协作方法论-口述.md"
-  - "00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md"
-  - "00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md"
+- 00_inbox/纪浩-AI协作方法论-口述.md
+- 00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md
+- 00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md
 created_at: 2026-06-07
-updated_at: 2026-06-08
+updated_at: '2026-06-16'
 related:
-  - "skill-纪浩-真需求四要素验证法"
-  - "skill-纪浩-AI工作空间与导诊台设计法"
-  - "skill-纪浩-Do-first-PDCA渐进迭代法"
-  - "skill-纪浩-Agent技能市场设计法"
-  - "skill-纪浩-日志驱动排查法"
-  - "dk-纪浩-ai-cant-design-structure"
-  - "dk-纪浩-simple-complex-routing"
-  - "dk-纪浩-pdca-starts-from-do"
-  - "dk-纪浩-logs-fastest-ignored"
-  - "case-纪浩-from-zip-to-five-layers"
-  - dk-yb5-style-asset-archive
+- '[[skill-纪浩-真需求四要素验证法]]'
+- '[[skill-纪浩-日志驱动排查法]]'
+- '[[dk-纪浩-ai-cant-design-structure]]'
+- '[[dk-纪浩-simple-complex-routing]]'
+- '[[dk-纪浩-pdca-starts-from-do]]'
+- '[[dk-纪浩-logs-fastest-ignored]]'
+- '[[case-纪浩-from-zip-to-five-layers]]'
+- '[[dk-yb5-style-asset-archive]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-draft
+- confidence-source-cited
+- confidence-verified-by-case
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 纪浩 AI 协作方法论
 
 > 纪浩是一堂的后端工程师。他在 AI 俱乐部的第三次分享中，用两小时讲述了自己过去四个月高强度 AI 协作的完整方法论——不是几个孤立技巧，而是一个从"判断该不该做"到"规模复用"的完整闭环。他的方法论和 Truman 的 AI Partner 设计哲学是同一套模式在不同场景下的应用：Truman 讲"为什么"，纪浩讲"怎么做"。

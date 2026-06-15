@@ -6,8 +6,8 @@ status: draft
 domain:
 - master
 related:
-- kdo-flywheel
-- dk-c8-format-complete-mind-empty
+- '[[kdo-flywheel]]'
+- '[[dk-c8-format-complete-mind-empty]]'
 query_triggers:
 - 错误自暴露
 - 矛盾检测

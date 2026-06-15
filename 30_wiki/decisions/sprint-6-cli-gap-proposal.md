@@ -14,10 +14,7 @@ source_context: KDO infrastructure decision — internal design record （原 le
 source_refs:
 - src_20260503_52ae08ba
 reviewer: 欧阳锋
-related:
-- sprint-6-laowantong-feedback-18
-- sprint-6-four-death-sentences
-- knowledge-flywheel-discovery-20260602
+related: []
 id: sprint-6-cli-gap-proposal
 reviewed_by: pending
 confidence: 0.6

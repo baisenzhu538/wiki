@@ -23,9 +23,8 @@ related:
 - '[[case-essence-education-strategy]]'
 - '[[dk-modeling-essence-predictive]]'
 tags:
-- '#modeling'
-- '#case'
-- '#essence'
+- '#method/modeling'
+- '#content-format/case-study'
 - '#predictive'
 ---
 # 案例：招聘/股权/激励专家都把本质归为「人性」——解释性本质的陷阱

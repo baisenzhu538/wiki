@@ -1,33 +1,32 @@
 ---
-id: "case-广冷电子-hx-smj"
-title: "案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线"
-type: "case"
-status: "draft"
+id: case-广冷电子-hx-smj
+title: 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线
+type: case
+status: draft
 domain:
-  - "electronics"
-  - "hardware-debugging"
-source_person: "黄药师"
-source_context: "广冷电子 HX-SMJ 闸机红外光栅项目——四板卡(主控+红外A+红外B+继电器)全套资料整理与交叉验证"
+- electronics
+- hardware-debugging
+source_person: 黄药师
+source_context: 广冷电子 HX-SMJ 闸机红外光栅项目——四板卡(主控+红外A+红外B+继电器)全套资料整理与交叉验证
 source_refs:
-  - "90_control/electronics-practice/failure-modes-electronics.md"
-  - "90_control/electronics-practice/project-standards.md"
+- 90_control/electronics-practice/failure-modes-electronics.md
+- 90_control/electronics-practice/project-standards.md
 tags:
-  - "#domain/electronics"
-  - "#scene/hardware-debugging"
-  - "#confidence/verified-by-case"
+- '#domain/electronics'
+- '#scene/hardware-debugging'
+- '#confidence/verified-by-case'
 created_at: 2026-06-09
-updated_at: 2026-06-09
+updated_at: '2026-06-16'
 related:
-  - "dk-ef-001-sn74lvc2g07-open-drain"
-  - "dk-ef-002-bom-version-async"
-  - "dk-ef-003-hand-soldering-bom-divergence"
-  - "dk-ef-004-missing-diagnostic-firmware"
-author: "legacy"
-reviewed_by: "pending"
+- '[[dk-ef-001-sn74lvc2g07-open-drain]]'
+- '[[dk-ef-002-bom-version-async]]'
+- '[[dk-ef-003-hand-soldering-bom-divergence]]'
+- '[[dk-ef-004-missing-diagnostic-firmware]]'
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 案例：广冷电子 HX-SMJ 红外光栅项目
 
 > 一个典型的"前人遗留硬件项目"——原理图/PCB/BOM/固件散落在多台电脑和微信聊天记录里。请外援整理后，从文件混乱到可投产基线。这个案例直接催生了 KDO 电子工程项目的八条规则和四张 dk-ef 卡。

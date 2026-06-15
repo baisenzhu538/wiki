@@ -1,36 +1,36 @@
 ---
-id: "sk-ai-parallel-validation"
-title: "技能：平行运行验证法"
-type: "skill"
-status: "draft"
+id: sk-ai-parallel-validation
+title: 技能：平行运行验证法
+type: skill
+status: draft
 domain:
-  - "ai-collaboration"
-source_person: "马易"
-source_context: "AI俱乐部-AI落地场景识别分享，2026-06"
+- ai-collaboration
+source_person: 马易
+source_context: AI俱乐部-AI落地场景识别分享，2026-06
 source_refs:
-  - "00_inbox/AI俱乐部-AI落地场景识别-马易-笔记.txt"
+- 00_inbox/AI俱乐部-AI落地场景识别-马易-笔记.txt
 wiki_refs:
-  - "sk-ai-landing-five-steps"
+- '[[sk-ai-landing-five-steps]]'
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tags:
-  - "#skill/ai"
-  - "#method/workflow"
-created_at: "2026-06-06"
-updated_at: "2026-06-06"
+- '#method/prompt-engineering'
+- '#domain/ai-saas'
+- '#method/workflow'
+created_at: '2026-06-06'
+updated_at: '2026-06-16'
 tools_required:
-  - "数据管理工具（Notion / Airtable 等）"
-prerequisite_skills:
+- 数据管理工具（Notion / Airtable 等）
+prerequisite_skills: null
 related:
-  - "sk-ai-landing-five-steps"
-author: "legacy"
-reviewed_by: "pending"
+- '[[sk-ai-landing-five-steps]]'
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 技能：平行运行验证法
 
 ## 原始表述

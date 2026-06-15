@@ -4,45 +4,45 @@ confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1881
 language: zh-CN
 query_triggers:
-  - "五段式架构"
-  - "关联卡片"
-  - "四种辩证思考"
-  - "底层逻辑"
-  - "无限进步大地图"
-  - "核心口号"
-  - "知识体系定位"
+- 五段式架构
+- 关联卡片
+- 四种辩证思考
+- 底层逻辑
+- 无限进步大地图
+- 核心口号
+- 知识体系定位
 related:
-  - yt-model-entrepreneur-map
-  - yt-model-management-map
-  - yt-model-personal-map
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-  - "10_raw/assets/yitang/一堂进步大地图.png"
+- '[[yt-model-entrepreneur-map]]'
+- '[[yt-model-management-map]]'
+- '[[yt-model-personal-map]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260510_ef0a5055
 status: enriched
-title: "无限进步大地图"
+title: 无限进步大地图
 type: framework
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 version: 1
 yitang:
   map: system
-  module: "方法论总纲"
+  module: 方法论总纲
   course_type: model
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户把无限进步大地图当收藏，但不知道今天该学什么', 'framework_lens': '总图缺乏落地路径——地图太大，没有转化为当下的学习优先级', 'follow_up_question': '你当前处在五段式架构的哪个阶段？如果答不上来，地图没有帮你定位'}
-  - {'signal': '用户在快速上手阶段就焦虑自己还没开始无限修炼', 'framework_lens': '阶段焦虑——把终局视角当成当前要求', 'follow_up_question': '你进入这个体系多久了？如果<6个月，你的任务不是无限修炼，而是先跑通个人修炼的一个小闭环'}
-author: "老顽童"
+- signal: 用户把无限进步大地图当收藏，但不知道今天该学什么
+  framework_lens: 总图缺乏落地路径——地图太大，没有转化为当下的学习优先级
+  follow_up_question: 你当前处在五段式架构的哪个阶段？如果答不上来，地图没有帮你定位
+- signal: 用户在快速上手阶段就焦虑自己还没开始无限修炼
+  framework_lens: 阶段焦虑——把终局视角当成当前要求
+  follow_up_question: 你进入这个体系多久了？如果<6个月，你的任务不是无限修炼，而是先跑通个人修炼的一个小闭环
+author: 老顽童
 trust_level: medium-high
 ---
-
 # 一堂无限进步大地图·十年收藏版
 
 > 来源：一堂《无限进步大地图》十年收藏版。[[一堂]] | [[yt-model-y-organization]] | [[yt-system-course-catalog]]

@@ -11,9 +11,8 @@ domain:
 - ai
 - yitang
 related:
-- yt-note-ai-human-division
-- yt-note-checklist-concept
-- task-20260607-laowantong-checklist-notes-review
+- '[[yt-note-ai-human-division]]'
+- '[[yt-note-checklist-concept]]'
 id: truman-ai-partner-design-analysis
 reviewed_by: pending
 created_at: '2026-06-15'

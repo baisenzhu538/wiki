@@ -1,30 +1,29 @@
 ---
-id: "dk-pseudo-demand-trap"
-title: "暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地"
-type: "dk"
-status: "draft"
+id: dk-pseudo-demand-trap
+title: 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地
+type: dk
+status: draft
 domain:
-  - "yitang"
-  - "business-strategy"
+- yitang
+- business-strategy
 source_refs:
-  - "[[yt-ai-startup-20-risky-hypotheses]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
+- '[[yt-ai-startup-20-risky-hypotheses]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
 tags:
-  - "#domain/yitang"
-  - "#cognitive-bias"
-  - "#demand-validation"
-created_at: "2026-06-11"
-updated_at: "2026-06-11"
+- '#domain/yitang'
+- '#cognitive-bias'
+- '#demand-validation'
+created_at: '2026-06-11'
+updated_at: '2026-06-16'
 related:
-  - "yt-ai-startup-20-risky-hypotheses"
-  - "yt-entrepreneur-key-hypotheses"
-  - "yt-entrepreneur-needs-analysis"
-author: "legacy"
-reviewed_by: "pending"
+- '[[yt-ai-startup-20-risky-hypotheses]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-entrepreneur-needs-analysis]]'
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地
 
 ## 核心本质

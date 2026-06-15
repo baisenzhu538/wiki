@@ -1,33 +1,32 @@
 ---
-id: "dk-modeling-ai-compound-leverage"
-title: "AI 加杠杆最大的场景是建模，因为好模型会被反复调用"
-type: "dark-knowledge"
-dark_knowledge_type: "insight"
+id: dk-modeling-ai-compound-leverage
+title: AI 加杠杆最大的场景是建模，因为好模型会被反复调用
+type: dark-knowledge
+dark_knowledge_type: insight
 status: draft
 domain:
-  - "yitang"
-  - "ai-saas"
-source_person: "Truman"
-source_context: "一堂建模能力培训，2026-06-12"
+- yitang
+- ai-saas
+source_person: Truman
+source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
+- src_20260614_8269ccdb
 confidence: 0.8
 trust_level: medium
 related:
-  - "dk-modeling-ai-without-judgment"
-  - "dk-modeling-ai-self-retrospection"
-  - "modeling-three-values"
+- '[[dk-modeling-ai-without-judgment]]'
+- '[[dk-modeling-ai-self-retrospection]]'
+- '[[modeling-three-values]]'
 tags:
-  - "#source_type/insight"
-  - "#domain/yitang"
-  - "#domain/ai-saas"
-  - "#method/ai-collaboration"
-author: "老顽童"
-reviewed_by: "pending"
-created_at: "2026-06-15"
-updated_at: "2026-06-15"
+- '#chunk-type/synthesis'
+- '#domain/yitang'
+- '#domain/ai-saas'
+- '#method/ai-collaboration'
+author: 老顽童
+reviewed_by: pending
+created_at: '2026-06-15'
+updated_at: '2026-06-16'
 ---
-
 # AI 加杠杆最大的场景是建模，因为好模型会被反复调用
 
 ## 原始表述

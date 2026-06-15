@@ -20,14 +20,13 @@ review_date: '2026-06-14'
 trust_level: high
 confidence: 0.85
 related:
-- modeling-capability-for-kdo
+- '[[modeling-capability-for-kdo]]'
 - '[[dk-modeling-ai-without-judgment]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[tool-essence-nfactor-modeling]]'
 tags:
-- '#modeling'
-- '#dk'
-- '#ai-collaboration'
+- '#method/modeling'
+- '#method/prompt-engineering'
 - '#judgment'
 ---
 # AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响

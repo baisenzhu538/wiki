@@ -23,8 +23,8 @@ related:
 - '[[tool-essence-nfactor-modeling]]'
 - '[[dk-modeling-essence-predictive]]'
 tags:
-- '#modeling'
-- '#framework'
+- '#method/modeling'
+- '#content-format/framework'
 - '#logic'
 - '#mece'
 ---

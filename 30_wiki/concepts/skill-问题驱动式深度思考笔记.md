@@ -1,40 +1,39 @@
 ---
-id: "skill-问题驱动式深度思考笔记"
-title: "问题驱动式深度思考笔记：用真问题取代真记录"
+id: skill-问题驱动式深度思考笔记
+title: 问题驱动式深度思考笔记：用真问题取代真记录
 type: concept
 status: draft
 domain:
-  - yitang
-  - personal-growth
+- yitang
+- personal-growth
 language: zh-CN
 version: 1
 confidence: 0.86
 source_refs:
-  - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
+- 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
 related:
-  - yt-note-l4-internalization
-  - yt-note-checklist-concept
-  - dk-truman-flag-note-taking
-  - yt-note-extensive-research-input
-  - "skill-多源输入法"
+- '[[yt-note-l4-internalization]]'
+- '[[yt-note-checklist-concept]]'
+- '[[dk-truman-flag-note-taking]]'
+- '[[yt-note-extensive-research-input]]'
+- '[[skill-多源输入法]]'
 query_triggers:
-  - "问题驱动式笔记"
-  - "用问题驱动学习"
-  - "不要被带着走"
-  - "笔记怎么提升思考量"
-  - "学完课没有自己的东西"
-  - "3到5个问题"
+- 问题驱动式笔记
+- 用问题驱动学习
+- 不要被带着走
+- 笔记怎么提升思考量
+- 学完课没有自己的东西
+- 3到5个问题
 created_at: 2026-06-10
-updated_at: 2026-06-10
+updated_at: '2026-06-16'
 estimated_tokens: 4800
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 trust_level: low
 ---
-
 # 问题驱动式深度思考笔记：用真问题取代真记录
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的核心方法：**最简单的记笔记提升思考量的方式，是给自己提一个真正的问题。**不是"讲师讲什么我记什么"，而是"我有3-5个问题要解决，这堂课是解决问题的候选答案之一"。这种方式让笔记从"信息的二次加工"跳跃到"认知的原创生产"。

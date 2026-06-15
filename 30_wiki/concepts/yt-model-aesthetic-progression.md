@@ -4,44 +4,45 @@ confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2330
 language: zh-CN
 query_triggers:
-  - "从看不见到大胆想象的进化路径"
-  - "升级策略"
-  - "审美三阶进化"
-  - "审美提升的层级"
-  - "审美提升的层级：从看不见到大胆想象的进化路径"
-  - "核心公式解读"
+- 从看不见到大胆想象的进化路径
+- 升级策略
+- 审美三阶进化
+- 审美提升的层级
+- 审美提升的层级：从看不见到大胆想象的进化路径
+- 核心公式解读
 related:
-  - yt-model-pan-product-aesthetic-toolkit
-  - yt-model-pan-product-three-virtues
-  - yt-model-product-excellence
-  - yt-personal-pan-product-aesthetics
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/审美提升的层级.png"
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-model-pan-product-three-virtues]]'
+- '[[yt-model-product-excellence]]'
+- '[[yt-personal-pan-product-aesthetics]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_7d2a79f8
 status: enriched
-title: "审美提升的层级：从看不见到大胆想象的进化路径"
+title: 审美提升的层级：从看不见到大胆想象的进化路径
 type: framework
 version: 1
 yitang:
   course_type: framework
   map: personal
-  module: "个人修炼"
+  module: 个人修炼
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户看了审美层级图，但还是说不出什么是好设计', 'framework_lens': '案例输入不足——审美提升需要大量高质量案例浸泡', 'follow_up_question': '过去一个月你认真看过多少个优秀设计案例？如果<30个，你的审美数据库太薄'}
-  - {'signal': '用户直接跳到"解放思想"层，但连优秀案例都没看过几个', 'framework_lens': '跨层学习——审美提升有阶段顺序，跳过基础层会空中楼阁', 'follow_up_question': '你能说出你所在领域里3个被广泛认可的最佳实践吗？如果不能，先回到L1-L2'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户看了审美层级图，但还是说不出什么是好设计
+  framework_lens: 案例输入不足——审美提升需要大量高质量案例浸泡
+  follow_up_question: 过去一个月你认真看过多少个优秀设计案例？如果<30个，你的审美数据库太薄
+- signal: 用户直接跳到"解放思想"层，但连优秀案例都没看过几个
+  framework_lens: 跨层学习——审美提升有阶段顺序，跳过基础层会空中楼阁
+  follow_up_question: 你能说出你所在领域里3个被广泛认可的最佳实践吗？如果不能，先回到L1-L2
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 # 审美提升的层级：从看不见到大胆想象的进化路径
 
 > 来源：一堂知识地图《审美提升的层级》。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-model-product-excellence]] | [[一堂]]

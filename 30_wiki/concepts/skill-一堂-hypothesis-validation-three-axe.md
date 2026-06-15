@@ -1,43 +1,41 @@
 ---
-id: "skill-一堂-hypothesis-validation-three-axe"
-title: "技能：假设验证三板斧"
+id: skill-一堂-hypothesis-validation-three-axe
+title: 技能：假设验证三板斧
 type: skill
 status: draft
 domain:
-  - product
-  - yitang
+- product
+- yitang
 source_person: Truman
-source_context: "一堂关键假设课"
+source_context: 一堂关键假设课
 source_refs:
-  - "00_inbox/一堂-关键假设课-truman-口述.txt"
-  - "00_inbox/一堂-关键假设课-truman-笔记.txt"
+- 00_inbox/一堂-关键假设课-truman-口述.txt
+- 00_inbox/一堂-关键假设课-truman-笔记.txt
 tools_required:
-  - "259商业分析画布（可用纸笔/文档代替）"
-  - "用户访谈或问卷工具（可选）"
+- 259商业分析画布（可用纸笔/文档代替）
+- 用户访谈或问卷工具（可选）
 prerequisite_skills:
-  - "concept-一堂-key-assumptions"
-  - "skill-一堂-five-step-validation"
+- concept-一堂-key-assumptions
+- skill-一堂-five-step-validation
 related:
-  - "concept-一堂-key-assumptions"
-  - "concept-一堂-hypothesis-driven-business-methodology"
-  - "skill-一堂-five-step-validation"
-  - "dk-一堂-kernel-is-hypothesis"
-  - "case-一堂-无人餐厅-hypothesis-failure"
-  - "case-一堂-陈贤敏汉堡-hypothesis-validation"
+- '[[concept-一堂-key-assumptions]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[skill-一堂-five-step-validation]]'
+- '[[case-一堂-无人餐厅-hypothesis-failure]]'
+- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 wiki_refs:
-  - "concept-一堂-key-assumptions"
-  - "skill-一堂-five-step-validation"
+- '[[concept-一堂-key-assumptions]]'
+- '[[skill-一堂-five-step-validation]]'
 created_at: 2026-06-10
-updated_at: 2026-06-10
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：假设验证三板斧
 
 ## Summary

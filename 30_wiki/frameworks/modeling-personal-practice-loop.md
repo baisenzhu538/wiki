@@ -22,8 +22,8 @@ related:
 - '[[modeling-scientific-milestones]]'
 - '[[tool-iterative-recursive-deep-dig]]'
 tags:
-- '#modeling'
-- '#framework'
+- '#method/modeling'
+- '#content-format/framework'
 - '#personal-growth'
 - '#deliberate-practice'
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust）

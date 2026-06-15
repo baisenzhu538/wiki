@@ -12,8 +12,8 @@ source_refs:
 component_of:
 - ai-learning-closed-loop
 related:
-- course-to-skill-conversion
-- prd-as-ai-instruction
+- '[[course-to-skill-conversion]]'
+- '[[prd-as-ai-instruction]]'
 query_triggers:
 - 语音输入怎么用
 - 豆包输入法
@@ -28,8 +28,8 @@ created_at: 2026-06-15
 confidence: 0.7
 trust_level: low
 title: voice input doubao
+updated_at: '2026-06-16'
 ---
-
 # 豆包输入法：语音输入的最低成本实践
 
 > Source: [[src_20260606_90b44191]] (半肥猫-AI学习落地-口述，第424-426行)

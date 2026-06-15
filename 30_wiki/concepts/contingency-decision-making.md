@@ -11,8 +11,8 @@ source_refs:
 - src_20260606_cde17edd
 component_of: null
 related:
-- ai-collaboration-mindset-shift
-- ai-landing-scene-selection
+- '[[ai-collaboration-mindset-shift]]'
+- '[[ai-landing-scene-selection]]'
 query_triggers:
 - 决策为什么总是出错
 - 偶然性怎么应对
@@ -27,8 +27,8 @@ created_at: 2026-06-15
 confidence: 0.7
 trust_level: low
 title: contingency decision making
+updated_at: '2026-06-16'
 ---
-
 # 偶然性与决策：承认"我不知道"比虚假确定性更明智
 
 > Source: [[src_20260606_cde17edd]] (水水-拆书会《偶然》-口述)

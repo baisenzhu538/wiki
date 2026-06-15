@@ -4,43 +4,48 @@ confidence: 0.8
 created_at: 2026-05-15
 difficulty: intermediate
 domain:
-  - personal-methods
+- personal-methods
 language: zh-CN
 query_triggers:
-  - "AI思维卡"
-  - "认知升级系统"
-  - "深度阅读方法"
-  - "如何把书读成认知补丁"
-  - "结构化读书笔记"
-  - "ICAP分层"
-  - "知识内化方法"
-  - "从读到用的方法"
-  - "读书怎么变成行动"
+- AI思维卡
+- 认知升级系统
+- 深度阅读方法
+- 如何把书读成认知补丁
+- 结构化读书笔记
+- ICAP分层
+- 知识内化方法
+- 从读到用的方法
+- 读书怎么变成行动
 related:
-  - yt-model-agent-architecture
-  - yt-personal-knowledge-extraction
-  - yt-personal-deep-review
-  - yt-personal-checklist-notes
-  - yt-model-deep-review-iceberg
+- '[[yt-model-agent-architecture]]'
+- '[[yt-personal-knowledge-extraction]]'
+- '[[yt-personal-deep-review]]'
+- '[[yt-personal-checklist-notes]]'
+- '[[yt-model-deep-review-iceberg]]'
 review_date: 2026-05-15
-reviewed_by: "黄药师"
+reviewed_by: 黄药师
 source_refs:
-  - 10_raw/sources/aima-ai-thinking-card-20260515.html
+- 10_raw/sources/aima-ai-thinking-card-20260515.html
 status: enriched
-title: "AI思维卡：从「读书」到「安装认知补丁」"
+title: AI思维卡：从「读书」到「安装认知补丁」
 trust_level: medium
 type: method
 version: 1
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '每张卡只聚焦一个可迁移的‘认知补丁’，而不是一本书的摘要', 'framework_lens': '认知补丁 = 改变判断或行动的单一模型', 'follow_up_question': '去掉这张卡，你在什么具体决策上会做出不同选择？'}
-  - {'signal': '卡中包含明确的适用边界和至少一个可执行的行动建议', 'framework_lens': '补丁必须能安装到具体场景', 'follow_up_question': '这个认知在什么情境下会失效？'}
-  - {'signal': '新卡会与旧卡建立双向链接，形成可复用的认知网络', 'framework_lens': '孤立的补丁价值有限', 'follow_up_question': '这张卡与已有哪张卡冲突或互补？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 每张卡只聚焦一个可迁移的‘认知补丁’，而不是一本书的摘要
+  framework_lens: 认知补丁 = 改变判断或行动的单一模型
+  follow_up_question: 去掉这张卡，你在什么具体决策上会做出不同选择？
+- signal: 卡中包含明确的适用边界和至少一个可执行的行动建议
+  framework_lens: 补丁必须能安装到具体场景
+  follow_up_question: 这个认知在什么情境下会失效？
+- signal: 新卡会与旧卡建立双向链接，形成可复用的认知网络
+  framework_lens: 孤立的补丁价值有限
+  follow_up_question: 这张卡与已有哪张卡冲突或互补？
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # AI思维卡：从「读书」到「安装认知补丁」
 
 > 来源：「认知升级系统」v3.2 产出的结构化深度阅读笔记格式。本卡以 Russell & Norvig《人工智能：一种现代方法》的AI思维卡为参考实现。

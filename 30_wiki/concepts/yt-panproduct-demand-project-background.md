@@ -1,54 +1,57 @@
 ---
 id: yt-panproduct-demand-project-background
 component_of:
-  - yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-demand-toolkit
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1417
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 query_triggers:
-  - "泛产品设计"
-  - "泛产品设计·用户卡片：项目背景分析"
-  - "用户卡片"
-  - "用户研究"
-  - "用户需求"
-  - "需求分析"
-  - "需求洞察"
-  - "项目背景分析"
+- 泛产品设计
+- 泛产品设计·用户卡片：项目背景分析
+- 用户卡片
+- 用户研究
+- 用户需求
+- 需求分析
+- 需求洞察
+- 项目背景分析
 related:
-  - yt-panproduct-demand-user-perspective
-  - yt-panproduct-demand-multi-perspective
-  - yt-panproduct-demand-industry-canvas
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计-用户卡片-项目背景分析.png"
+- '[[yt-panproduct-demand-user-perspective]]'
+- '[[yt-panproduct-demand-multi-perspective]]'
+- '[[yt-panproduct-demand-industry-canvas]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_115e8827
 status: enriched
-title: "泛产品设计·用户卡片：项目背景分析"
+title: 泛产品设计·用户卡片：项目背景分析
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: intermediate
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '在项目启动前，八个落差维度中至少前五项被明确回答', 'framework_lens': '背景分析是项目成功的前提', 'follow_up_question': '如果去掉‘战略’或‘老板’维度，项目目标会不会出现隐性冲突？'}
-  - {'signal': '背景分析结果直接转化为项目范围和优先级，而不是停留在报告', 'framework_lens': '分析必须产生决策输入', 'follow_up_question': '背景分析后，有哪些原定的功能被砍掉或推迟了？'}
-  - {'signal': '项目中期会重新审视背景假设，而不是一次性分析后束之高阁', 'framework_lens': '背景会随环境变化', 'follow_up_question': '过去一个月里，八个维度中有哪些假设被新信息推翻？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 在项目启动前，八个落差维度中至少前五项被明确回答
+  framework_lens: 背景分析是项目成功的前提
+  follow_up_question: 如果去掉‘战略’或‘老板’维度，项目目标会不会出现隐性冲突？
+- signal: 背景分析结果直接转化为项目范围和优先级，而不是停留在报告
+  framework_lens: 分析必须产生决策输入
+  follow_up_question: 背景分析后，有哪些原定的功能被砍掉或推迟了？
+- signal: 项目中期会重新审视背景假设，而不是一次性分析后束之高阁
+  framework_lens: 背景会随环境变化
+  follow_up_question: 过去一个月里，八个维度中有哪些假设被新信息推翻？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium
 ---
-
 # 项目背景分析：综合用户/场景/商业考量
 
 > 需求工具箱第 5 张卡片（★建议第一张出牌）。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

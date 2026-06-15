@@ -22,8 +22,8 @@ related:
 - '[[concept-thousand-people-square]]'
 - '[[case-yitang-radar-chart-selection]]'
 tags:
-- '#modeling'
-- '#case'
+- '#method/modeling'
+- '#content-format/case-study'
 - '#user-research'
 - '#decision'
 ---

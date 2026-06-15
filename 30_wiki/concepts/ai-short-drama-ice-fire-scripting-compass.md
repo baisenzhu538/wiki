@@ -25,9 +25,8 @@ related:
 - '[[ai-short-drama-framework-three-axes]]'
 - '[[ai-short-drama-conflict-three-axes]]'
 tags:
-- '#ai-short-drama'
-- '#scriptwriting'
-- '#framework'
+- '#industry/content-creation'
+- '#content-format/framework'
 diagnostic_signals:
 - signal: 用户说"想用AI写短剧剧本，但不知道从哪里开始"
   framework_lens: 全本策划五维框架

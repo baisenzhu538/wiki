@@ -1,38 +1,37 @@
 ---
-id: "anthropic-官方发布创始人手册打造-ai-原生初创公司"
+id: anthropic-官方发布创始人手册打造-ai-原生初创公司
 confidence: 0.8
 created_at: 2026-05-19
 difficulty: foundational
 domain:
-  - entrepreneur
+- entrepreneur
 language: zh-CN
 query_triggers:
-  - "AI 原生创业"
-  - "创业四阶段"
-  - "精益独角兽"
-  - "智能体编程"
-  - "创始人角色演变"
-  - "产品市场契合度"
+- AI 原生创业
+- 创业四阶段
+- 精益独角兽
+- 智能体编程
+- 创始人角色演变
+- 产品市场契合度
 related:
-  - yt-management-toolkit-overview
-  - yt-model-dual-triangle-competitiveness
-  - yt-entrepreneur-key-hypotheses
-  - yt-tool-meeting-designer
-reviewed_by: "欧阳锋"
+- '[[yt-management-toolkit-overview]]'
+- '[[yt-model-dual-triangle-competitiveness]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-tool-meeting-designer]]'
+reviewed_by: 欧阳锋
 source_refs:
-  - "10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md"
+- 10_raw/sources/src_20260519_f6ec0400-anthropic-官方发布创始人手册打造-ai-原生初创公司.md
 status: enriched
-title: "AI 原生创业四阶段模型（Anthropic 创始人手册）"
+title: AI 原生创业四阶段模型（Anthropic 创始人手册）
 type: concept
-updated_at: 2026-05-19
+updated_at: '2026-06-16'
 version: 1
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 author: unknown
 trust_level: medium
 ---
-
 # AI 原生创业四阶段模型（Anthropic 创始人手册）
 
 > 来源：Anthropic《创始人手册：打造 AI 原生初创公司》（2026.5.17）。Anthropic 官方发布。

@@ -1,28 +1,27 @@
 ---
 id: dk-yb27-pseudo-layer-evasion
-title: "伪图层叠加规避平台图像识别"
+title: 伪图层叠加规避平台图像识别
 type: dark-knowledge
 dark_knowledge_type: tool_usage
 status: draft
 domain:
-  - design
-source_person: "月白"
-source_context: "口述稿: AI设计-AI设计师实操培训01"
+- design
+source_person: 月白
+source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
-  - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
+- 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
-updated_at: 2026-06-04
+updated_at: '2026-06-16'
 related:
-  - dk-yb16-ecommerce-product-image-vs-lucky-draw
+- '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 伪图层叠加规避平台图像识别
 
 ## 原始表述

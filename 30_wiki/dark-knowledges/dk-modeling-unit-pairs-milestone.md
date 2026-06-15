@@ -1,33 +1,32 @@
 ---
-id: "dk-modeling-unit-pairs-milestone"
-title: "里程碑不是任务清单，是“成对单元模型”拼出来的"
-type: "dark-knowledge"
-dark_knowledge_type: "workflow"
+id: dk-modeling-unit-pairs-milestone
+title: 里程碑不是任务清单，是“成对单元模型”拼出来的
+type: dark-knowledge
+dark_knowledge_type: workflow
 status: draft
 domain:
-  - "yitang"
-  - "ai-saas"
-source_person: "Truman"
-source_context: "一堂建模能力培训，2026-06-12"
+- yitang
+- ai-saas
+source_person: Truman
+source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
+- src_20260614_8269ccdb
 confidence: 0.8
 trust_level: medium
 related:
-  - "dk-modeling-sop-execution-locks"
-  - "tool-sop-template-modeling"
-  - "modeling-three-stages"
+- '[[dk-modeling-sop-execution-locks]]'
+- '[[tool-sop-template-modeling]]'
+- '[[modeling-three-stages]]'
 tags:
-  - "#source_type/process"
-  - "#domain/yitang"
-  - "#method/modeling"
-  - "#method/project-management"
-author: "老顽童"
-reviewed_by: "pending"
-created_at: "2026-06-15"
-updated_at: "2026-06-15"
+- '#content-format/sop'
+- '#domain/yitang'
+- '#method/modeling'
+- '#method/project-management'
+author: 老顽童
+reviewed_by: pending
+created_at: '2026-06-15'
+updated_at: '2026-06-16'
 ---
-
 # 里程碑不是任务清单，是“成对单元模型”拼出来的
 
 ## 原始表述

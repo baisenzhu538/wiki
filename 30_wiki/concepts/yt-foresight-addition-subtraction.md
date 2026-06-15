@@ -1,11 +1,12 @@
 ---
 id: yt-foresight-addition-subtraction
-title: "加法减法实操：从100个选项到3个高概率方向"
+title: 加法减法实操：从100个选项到3个高概率方向
 type: concept
 domain:
-  - yitang
+- yitang
 source_refs:
-- src_20260614_8f80cb0f
+- 00_inbox/一堂-商业预判课-Truman-口述.txt
+- 00_inbox/一堂-商业预判课-truman-笔记.txt
 status: enriched
 confidence: 0.9
 difficulty: intermediate
@@ -14,32 +15,32 @@ language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
-  - "黄药师"
-  - laowantong
-source_refs:
-  - "00_inbox/一堂-商业预判课-Truman-口述.txt"
-  - "00_inbox/一堂-商业预判课-truman-笔记.txt"
+- 黄药师
+- laowantong
 query_triggers:
-  - "加法实操"
-  - "减法实操"
-  - "如何做加法"
-  - "如何做减法"
-  - "选项池"
-  - "预判步骤"
-  - "如何排除选项"
+- 加法实操
+- 减法实操
+- 如何做加法
+- 如何做减法
+- 选项池
+- 预判步骤
+- 如何排除选项
 wiki_refs:
-  - 30_wiki/concepts/yt-foresight-15-char-mantra.md
-  - 30_wiki/concepts/yt-foresight-ten-fatal-flaws.md
+- '[[yt-foresight-15-char-mantra]]'
+- '[[yt-foresight-ten-fatal-flaws]]'
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户加法只做几个选项就停止', 'framework_lens': '加法不充分', 'follow_up_question': '你的选项池是否让别人看了觉得"原来还有这么多可能性"？'}
-  - {'signal': '用户减法一步到位，缺少层次', 'framework_lens': '减法太粗糙', 'follow_up_question': '你的减法是分了几层进行的？如果只有一层，会漏掉潜在好选项'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户加法只做几个选项就停止
+  framework_lens: 加法不充分
+  follow_up_question: 你的选项池是否让别人看了觉得"原来还有这么多可能性"？
+- signal: 用户减法一步到位，缺少层次
+  framework_lens: 减法太粗糙
+  follow_up_question: 你的减法是分了几层进行的？如果只有一层，会漏掉潜在好选项
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 # 加法减法实操：从100个选项到3个高概率方向
 
 ## Core Claims

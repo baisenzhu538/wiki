@@ -4,48 +4,49 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1873
 language: zh-CN
 query_triggers:
-  - "解放思想"
-  - "创业认知边界"
-  - "隐含假设识别"
-  - "思维定式突破"
-  - "行业惯例反思"
-  - "认知升级方法论"
-  - "公理化建模"
-  - "假设驱动验证"
-  - "创业思维转换"
-  - "从零到一思维方式"
+- 解放思想
+- 创业认知边界
+- 隐含假设识别
+- 思维定式突破
+- 行业惯例反思
+- 认知升级方法论
+- 公理化建模
+- 假设驱动验证
+- 创业思维转换
+- 从零到一思维方式
 related:
-  - master-first-principles
+- '[[master-first-principles]]'
 review_date: 2026-05-08
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
+reviewed_by: 黄药师
 source_refs:
 - src_20260609_d22e1266
 status: enriched
-title: "解放思想"
+title: 解放思想
 trust_level: medium
 type: tool
 version: 1
 yitang:
   map: entrepreneur
-  module: "解放思想"
+  module: 解放思想
   course_id: yt-entrepreneur-liberate-thinking
   course_type: method
   level: foundational
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户为了创新而创新，忽视基本商业规律', 'framework_lens': '解放过度', 'follow_up_question': '你质疑的这个行业惯例，是否有坚实的底层逻辑？如果有，你的新方案是否绕开了它？'}
-  - {'signal': '用户只会模仿，从不敢质疑行业惯例', 'framework_lens': '没有解放', 'follow_up_question': '你所在行业有哪些"向来如此"的做法？它们背后的假设在今天还成立吗？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户为了创新而创新，忽视基本商业规律
+  framework_lens: 解放过度
+  follow_up_question: 你质疑的这个行业惯例，是否有坚实的底层逻辑？如果有，你的新方案是否绕开了它？
+- signal: 用户只会模仿，从不敢质疑行业惯例
+  framework_lens: 没有解放
+  follow_up_question: 你所在行业有哪些"向来如此"的做法？它们背后的假设在今天还成立吗？
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # 解放思想
 
 > 来源：一堂课程体系 | 阶段：底层逻辑。[[yitang-course-map]] | [[yt-system-course-catalog]]

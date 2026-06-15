@@ -22,9 +22,9 @@ related:
 - '[[case-personal-map-modeling]]'
 - '[[dk-modeling-expert-consensus-five-percent]]'
 tags:
-- '#modeling'
-- '#framework'
-- '#education'
+- '#method/modeling'
+- '#content-format/framework'
+- '#industry/education'
 - '#course-design'
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
 ---

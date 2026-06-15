@@ -1,38 +1,37 @@
 ---
-id: "skill-使用一页纸速查卡快速调用框架"
-title: "技能：使用一页纸速查卡快速调用框架"
+id: skill-使用一页纸速查卡快速调用框架
+title: 技能：使用一页纸速查卡快速调用框架
 type: skill
 status: enriched
 domain:
-  - knowledge-management
-source_person: "课程设计者"
+- knowledge-management
+source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
 source_refs:
-  - src_20260609_1c8b4d0e
+- src_20260609_1c8b4d0e
 wiki_refs:
-  - 30_wiki/concepts/yt-five-step-method.md
-  - 30_wiki/concepts/master-cognitive-bias-checklist.md
+- '[[yt-five-step-method]]'
+- '[[master-cognitive-bias-checklist]]'
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "有真实失败案例"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 有真实失败案例
 tools_required:
-  - "A4 纸"
-  - "打印机"
-  - "核心框架的原始素材"
+- A4 纸
+- 打印机
+- 核心框架的原始素材
 related:
-  - master-cognitive-bias-checklist
-  - yt-five-step-method
+- '[[master-cognitive-bias-checklist]]'
+- '[[yt-five-step-method]]'
 created_at: 2026-06-09
-updated_at: 2026-06-11
-reviewed_by: "黄药师"
+updated_at: '2026-06-16'
+reviewed_by: 黄药师
 confidence: 0.8
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 author: unknown
 trust_level: medium
 ---
-
 # 技能：使用一页纸速查卡快速调用框架
 
 > 将复杂的决策/分析框架浓缩为一张 A4 速查图，分析时置于案头快速查阅——把"需要记忆"的认知负担转移为"需要看到"的外部辅助。

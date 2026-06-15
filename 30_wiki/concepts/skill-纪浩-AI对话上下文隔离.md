@@ -1,38 +1,35 @@
 ---
-id: "skill-纪浩-AI对话上下文隔离"
-title: "技能：AI 对话上下文隔离"
+id: skill-纪浩-AI对话上下文隔离
+title: 技能：AI 对话上下文隔离
 type: skill
 status: enriched
 domain:
-  - ai-collaboration
-source_person: "纪浩"
-source_context: "AI协作方法论"
+- ai-collaboration
+source_person: 纪浩
+source_context: AI协作方法论
 source_refs:
-  - "00_inbox/纪浩-AI协作方法论-口述.md"
+- 00_inbox/纪浩-AI协作方法论-口述.md
 wiki_refs:
-  - 30_wiki/concepts/ai-collaboration-mindset-shift.md
-  - "30_wiki/concepts/case-纪浩-skill-market-problem-validation.md"
+- '[[ai-collaboration-mindset-shift]]'
+- '[[case-纪浩-skill-market-problem-validation]]'
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "有真实失败案例"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 有真实失败案例
 tools_required:
-  - "AI对话工具（ChatGPT/Claude等）"
-  - "知识库片段管理"
+- AI对话工具（ChatGPT/Claude等）
+- 知识库片段管理
 related:
-  - "skill-半肥猫-清洗资料为Markdown格式喂给AI"
-  - "skill-纪浩-AI工作空间与导诊台设计法"
-  - ai-collaboration-mindset-shift
+- '[[ai-collaboration-mindset-shift]]'
 created_at: 2026-06-07
-updated_at: 2026-06-11
-reviewed_by: "黄药师"
+updated_at: '2026-06-16'
+reviewed_by: 黄药师
 confidence: 0.8
 pipeline:
-  - confidence-source-cited
-author: "纪浩"
+- confidence-source-cited
+author: 纪浩
 trust_level: medium-high
 ---
-
 # 技能：AI 对话上下文隔离
 
 > 纪浩在 AI 协作方法论中提出的核心实操。解决"AI 对话越聊越乱、越聊越偏"这个所有 AI 重度用户都会遇到的通用问题。

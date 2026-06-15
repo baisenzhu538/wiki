@@ -15,16 +15,16 @@ reviewed_by: 黄药师
 review_date: '2026-06-14'
 trust_level: high
 related:
-- modeling-capability-for-kdo
-- modeling-three-stages
-- modeling-to-kdo-toolchain
-- case-truman-personal-growth-map-creation
+- '[[modeling-capability-for-kdo]]'
+- '[[modeling-three-stages]]'
+- '[[modeling-to-kdo-toolchain]]'
+- '[[case-truman-personal-growth-map-creation]]'
 tags:
-- '#modeling'
-- '#framework'
+- '#method/modeling'
+- '#content-format/framework'
 - '#quality'
 - '#kdo'
-- '#yitang'
+- '#domain/yitang'
 diagnostic_signals:
 - signal: 我建了一个模型但不知道它够不够好
   framework_lens: 四层可信度标准

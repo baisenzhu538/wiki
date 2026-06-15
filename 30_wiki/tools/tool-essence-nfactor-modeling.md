@@ -24,9 +24,8 @@ related:
 - '[[dk-modeling-essence-predictive]]'
 - '[[tool-iceberg-triangle-modeling]]'
 tags:
-- '#modeling'
-- '#tool'
-- '#essence'
+- '#method/modeling'
+- '#content-format/concept-card'
 - '#n-factor'
 - '#insight'
 ---

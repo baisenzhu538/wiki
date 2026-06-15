@@ -1,41 +1,38 @@
 ---
-id: "skill-一堂-product-kernel-canvas"
-title: "一堂产品内核画布应用技能"
+id: skill-一堂-product-kernel-canvas
+title: 一堂产品内核画布应用技能
 type: skill
 status: draft
 domain:
-  - yitang
-  - product-strategy
-source_person: "一堂·Truman"
-source_context: "一堂-产品内核迭代课/验证课/实操课笔记"
+- yitang
+- product-strategy
+source_person: 一堂·Truman
+source_context: 一堂-产品内核迭代课/验证课/实操课笔记
 source_refs:
-  - "00_inbox/一堂-产品内核迭代课-Truman-笔记.txt"
-  - "00_inbox/一堂-产品内核验证课-truman-笔记.txt"
-  - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
+- 00_inbox/一堂-产品内核迭代课-Truman-笔记.txt
+- 00_inbox/一堂-产品内核验证课-truman-笔记.txt
+- 00_inbox/一堂-产品内核实操课-truman-笔记.txt
 created_at: 2026-06-08
-updated_at: 2026-06-09
+updated_at: '2026-06-16'
 related:
-  - "concept-一堂-hypothesis-driven-business-methodology"
-  - "case-一堂-AI高考志愿-kernel-mismatch"
-  - "dk-一堂-wishful-thinking-kills-startups"
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[dk-一堂-wishful-thinking-kills-startups]]'
 wiki_refs:
-  - "concept-一堂-hypothesis-driven-business-methodology"
-  - "case-一堂-AI高考志愿-kernel-mismatch"
-  - "dk-一堂-wishful-thinking-kills-startups"
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[dk-一堂-wishful-thinking-kills-startups]]'
 definition_of_done:
-  - "技能步骤清晰可执行"
-  - "每个步骤配有输入/输出或检查清单"
-  - "外部攻击者和 Constraints 已明确"
-  - "实际应用后收集反馈并更新技能"
+- 技能步骤清晰可执行
+- 每个步骤配有输入/输出或检查清单
+- 外部攻击者和 Constraints 已明确
+- 实际应用后收集反馈并更新技能
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 一堂产品内核画布应用技能
 
 ## 原始表述

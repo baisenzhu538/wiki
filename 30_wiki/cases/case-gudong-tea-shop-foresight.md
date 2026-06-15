@@ -1,11 +1,12 @@
 ---
 id: case-gudong-tea-shop-foresight
-title: "古董奶茶店：五层筛选的加法减法实战"
+title: 古董奶茶店：五层筛选的加法减法实战
 type: case
 domain:
-  - yitang
+- yitang
 source_refs:
-- src_20260614_8f80cb0f
+- 00_inbox/一堂-机会预判课-Truman-口述.txt
+- 00_inbox/一堂-机会预判课-truman-笔记.txt
 status: enriched
 confidence: 0.9
 difficulty: beginner
@@ -14,30 +15,27 @@ language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
-  - "黄药师"
-  - laowantong
-source_refs:
-  - "00_inbox/一堂-机会预判课-Truman-口述.txt"
-  - "00_inbox/一堂-机会预判课-truman-笔记.txt"
-source_person: "古董（一堂青岛中心主理人）"
-source_context: "Truman在商业预判课第一节课中讲解的预判案例，古董本人有独立完整课程"
+- 黄药师
+- laowantong
+source_person: 古董（一堂青岛中心主理人）
+source_context: Truman在商业预判课第一节课中讲解的预判案例，古董本人有独立完整课程
 query_triggers:
-  - "古董奶茶"
-  - "奶茶店预判"
-  - "青岛奶茶"
-  - "五层筛选"
-  - "加盟预判"
+- 古董奶茶
+- 奶茶店预判
+- 青岛奶茶
+- 五层筛选
+- 加盟预判
 wiki_refs:
-  - 30_wiki/concepts/yt-foresight-15-char-mantra.md
-  - 30_wiki/concepts/yt-foresight-addition-subtraction.md
-  - 30_wiki/concepts/yt-foresight-business-spectrum.md
+- '[[yt-foresight-15-char-mantra]]'
+- '[[yt-foresight-addition-subtraction]]'
+- '[[yt-foresight-business-spectrum]]'
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-outcome
-author: "老顽童"
+- confidence-source-cited
+- confidence-verified-by-outcome
+author: 老顽童
 trust_level: medium-high
+updated_at: '2026-06-16'
 ---
-
 # 古董奶茶店：五层筛选的加法减法实战
 
 ## 背景

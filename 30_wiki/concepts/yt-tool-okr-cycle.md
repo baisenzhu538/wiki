@@ -1,71 +1,78 @@
 ---
 id: yt-tool-okr-cycle
 component_of:
-  - yt-management-toolkit-overview
+- yt-management-toolkit-overview
 confidence: 0.82
 created_at: 2026-05-19
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 3300
 language: zh-CN
 prerequisites:
-  - yt-management-toolkit-overview
+- yt-management-toolkit-overview
 query_triggers:
-  - "OKR制定"
-  - "OKR复盘"
-  - "目标管理工具"
-  - "关键结果量化"
-  - "OKR与KPI区别"
-  - "目标对齐"
-  - "周度OKR追踪"
-  - "季度复盘"
-  - "OKR模板"
-  - "OKR落地"
-  - "团队目标管理"
-  - "OKR设定流程"
-  - "OKR评分"
-  - "OKR工具"
-  - "目标拆解"
-  - "关键结果设定"
-  - "OKR周会"
-  - "OKR季度复盘"
-  - "目标追踪工具"
-  - "OKR实施指南"
+- OKR制定
+- OKR复盘
+- 目标管理工具
+- 关键结果量化
+- OKR与KPI区别
+- 目标对齐
+- 周度OKR追踪
+- 季度复盘
+- OKR模板
+- OKR落地
+- 团队目标管理
+- OKR设定流程
+- OKR评分
+- OKR工具
+- 目标拆解
+- 关键结果设定
+- OKR周会
+- OKR季度复盘
+- 目标追踪工具
+- OKR实施指南
 related:
-  - yt-management-goal-management
-  - yt-management-business-formula
-  - yt-management-project-management
-  - yt-management-scientific-meetings
-  - yt-tool-meeting-designer
-  - yt-decision-canvas
-  - yt-decision-habit-shift
-  - master-decision-hygiene
+- '[[yt-management-goal-management]]'
+- '[[yt-management-business-formula]]'
+- '[[yt-management-project-management]]'
+- '[[yt-management-scientific-meetings]]'
+- '[[yt-tool-meeting-designer]]'
+- '[[yt-decision-canvas]]'
+- '[[yt-decision-habit-shift]]'
+- '[[master-decision-hygiene]]'
 source_refs:
-  - 30_wiki/concepts/yt-management-goal-management.md
+- 30_wiki/concepts/yt-management-goal-management.md
 status: draft
-title: "OKR 制定与复盘罗盘"
+title: OKR 制定与复盘罗盘
 trust_level: medium
 type: tool
 version: 1
 yitang:
   map: management
-  module: "管业务"
+  module: 管业务
   course_type: tool
   level: core
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': 'OKR 是否与公司战略和日常管理节奏整合而非并行', 'framework_lens': '系统整合 / 脱节诊断', 'follow_up_question': '团队优先执行的是 KPI 还是 OKR？'}
-  - {'signal': '是否建立周度脉搏机制并持续跟踪 KR 进度', 'framework_lens': '节奏 / 反馈环', 'follow_up_question': '季度初写的 OKR 是否在季度中再也没人看？'}
-  - {'signal': 'KR 是否真正反映用户/客户价值而非数字游戏', 'framework_lens': '价值验证 / 反指标', 'follow_up_question': 'KR 完成 100% 但业务实际进展是否不明显？'}
-  - {'signal': '首次推行 OKR 是否与绩效奖惩脱钩', 'framework_lens': '信任建立 / 激励兼容', 'follow_up_question': 'OKR 是否变成变相 KPI？'}
-updated_at: 2026-06-13
+- signal: OKR 是否与公司战略和日常管理节奏整合而非并行
+  framework_lens: 系统整合 / 脱节诊断
+  follow_up_question: 团队优先执行的是 KPI 还是 OKR？
+- signal: 是否建立周度脉搏机制并持续跟踪 KR 进度
+  framework_lens: 节奏 / 反馈环
+  follow_up_question: 季度初写的 OKR 是否在季度中再也没人看？
+- signal: KR 是否真正反映用户/客户价值而非数字游戏
+  framework_lens: 价值验证 / 反指标
+  follow_up_question: KR 完成 100% 但业务实际进展是否不明显？
+- signal: 首次推行 OKR 是否与绩效奖惩脱钩
+  framework_lens: 信任建立 / 激励兼容
+  follow_up_question: OKR 是否变成变相 KPI？
+updated_at: '2026-06-16'
 author: legacy
 reviewed_by: pending
 ---
-
 # OKR 制定与复盘罗盘
 
 > 来源：一堂《目标管理》课程工具化升级。OKR 是管理者将模糊战略转化为可执行目标的核心工具——本罗盘提供一套包含"目标设定→关键结果量化→周度脉搏→季度复盘"的完整周期流程，防止 OKR 滅为 KPI 换皮或"写完就忘"。

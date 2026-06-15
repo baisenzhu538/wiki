@@ -7,11 +7,8 @@ domain:
 created_at: 2026-06-02
 updated_at: '2026-06-16'
 related:
-- kdo-yaml-frontmatter-safety
-- proposal-kdo-flywheel-infrastructure
-- knowledge-flywheel-discovery-20260602
-- sprint-6-four-death-sentences
-- recursive-deepen
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[proposal-kdo-flywheel-infrastructure]]'
 query_triggers:
 - 飞轮
 - 建造使用反思实验

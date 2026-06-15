@@ -4,51 +4,51 @@ confidence: 0.9
 created_at: 2026-05-13
 difficulty: intermediate
 domain:
-  - yitang
-  - ai
+- yitang
+- ai
 estimated_tokens: 3600
 language: zh-CN
 prerequisites:
-  - yt-model-prompt-engineering
+- yt-model-prompt-engineering
 query_triggers:
-  - "吴恩达"
-  - "提示词课程"
-  - "一堂拆书"
-  - "AI合伙人"
-  - "反谄媚"
-  - "谄媚倾向"
-  - "七层工作流"
+- 吴恩达
+- 提示词课程
+- 一堂拆书
+- AI合伙人
+- 反谄媚
+- 谄媚倾向
+- 七层工作流
 related:
-  - yt-model-prompt-engineering
-  - yt-model-personal-pitch-toolkit
-  - yt-model-ipo-learning-strategy
-  - yt-panproduct-demand-motivation-resistance
-reviewed_by: "黄药师"
+- '[[yt-model-prompt-engineering]]'
+- '[[yt-model-personal-pitch-toolkit]]'
+- '[[yt-model-ipo-learning-strategy]]'
+- '[[yt-panproduct-demand-motivation-resistance]]'
+reviewed_by: 黄药师
 source_of:
-  - yt-model-prompt-engineering
-source_refs:
-  - "10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
-  - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
-  - "https://www.deeplearning.ai/courses/ai-prompting-for-everyone/"
-  - "https://www.bilibili.com/video/BV1UT9qBDET7/"
+- yt-model-prompt-engineering
 source_refs:
 - src_20260522_a89ab860
 status: enriched
-title: "吴恩达提示词课程·一堂拆书精华"
+title: 吴恩达提示词课程·一堂拆书精华
 type: course_notes
 version: 1
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '会把一个复杂任务拆成多轮提示，而不是期望一次完美输出', 'framework_lens': '提示词工程的核心是迭代', 'follow_up_question': '你最近一次用几轮对话才把提示词调到可用？'}
-  - {'signal': '知道AI的边界（不能替代判断、可能幻觉、会谄媚），并设计防护', 'framework_lens': '人与AI分工明确', 'follow_up_question': '在这个任务中，哪些部分必须保留人类最终判断？'}
-  - {'signal': '会根据任务类型选择合适子工具（写作、头脑风暴、反谄媚等）', 'framework_lens': '提示词是工具箱', 'follow_up_question': '这个任务更适合用哪个子工具？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 会把一个复杂任务拆成多轮提示，而不是期望一次完美输出
+  framework_lens: 提示词工程的核心是迭代
+  follow_up_question: 你最近一次用几轮对话才把提示词调到可用？
+- signal: 知道AI的边界（不能替代判断、可能幻觉、会谄媚），并设计防护
+  framework_lens: 人与AI分工明确
+  follow_up_question: 在这个任务中，哪些部分必须保留人类最终判断？
+- signal: 会根据任务类型选择合适子工具（写作、头脑风暴、反谄媚等）
+  framework_lens: 提示词是工具箱
+  follow_up_question: 这个任务更适合用哪个子工具？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 # 吴恩达提示词课程·一堂拆书精华
 
 > **此卡已展开为完整卡片树。** 本文是课程原始笔记（20条 claims），系统化架构见 [[yt-model-prompt-engineering]]（1 framework + 4 tool + 2 concept）。

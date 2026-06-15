@@ -1,58 +1,64 @@
 ---
 id: yt-decision-ai-partner
 component_of:
-  - yt-decision-y-model
+- yt-decision-y-model
 confidence: 0.75
 created_at: 2026-05-17
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1950
 language: zh-CN
 prerequisites:
-  - yt-decision-y-model
+- yt-decision-y-model
 query_triggers:
-  - "AI辅助决策"
-  - "AI决策伙伴"
-  - "双三角模型"
-  - "决策对话流程"
-  - "AI partner"
-  - "人机协作决策"
-  - "AI多轮对话"
-  - "决策备忘录"
-  - "AI幻觉识别"
+- AI辅助决策
+- AI决策伙伴
+- 双三角模型
+- 决策对话流程
+- AI partner
+- 人机协作决策
+- AI多轮对话
+- 决策备忘录
+- AI幻觉识别
 related:
-  - yt-decision-canvas
-  - yt-entrepreneur-key-hypotheses
-reviewed_by: "周伯通"
-source_refs:
-  - "00_inbox/科学决策/一堂-科学决策-AI协助决策行动营口述06.txt"
-  - "00_inbox/科学决策/一堂-科学决策-人机协作决策.png"
+- '[[yt-decision-canvas]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+reviewed_by: 周伯通
 source_refs:
 - src_20260609_f00cad16
 status: enriched
-title: "AI决策Partner对话法"
+title: AI决策Partner对话法
 trust_level: medium
 type: tool
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-  - {'image': '一堂-科学决策-人机协作决策.png', 'dimensions': [{'色彩语义': '人侧暖色(橙黄)=创造力/审美；AI侧冷色(蓝紫)=计算/数据；交界区渐变=协作融合'}, {'空间结构': '左右对称但非镜像——人侧略大暗示"人主导AI辅助"'}, {'信息层级': 'L1 双三角标签 → L2 各自三能力 → L3 协作界面 → L4 共同输出'}, {'负形利用': '中间交界区=协作的"灰色地带"；留白=尚未定义的协作规则'}, {'视觉隐喻': '双三角=人的三角(审美/体系/判断力)+AI的三角(场景/数据/基本功)；双向箭头=增强回路'}]}
+- image: 一堂-科学决策-人机协作决策.png
+  dimensions:
+  - 色彩语义: 人侧暖色(橙黄)=创造力/审美；AI侧冷色(蓝紫)=计算/数据；交界区渐变=协作融合
+  - 空间结构: 左右对称但非镜像——人侧略大暗示"人主导AI辅助"
+  - 信息层级: L1 双三角标签 → L2 各自三能力 → L3 协作界面 → L4 共同输出
+  - 负形利用: 中间交界区=协作的"灰色地带"；留白=尚未定义的协作规则
+  - 视觉隐喻: 双三角=人的三角(审美/体系/判断力)+AI的三角(场景/数据/基本功)；双向箭头=增强回路
 yitang:
   course_id: yt-decision-ai-partner
   course_type: tool
   level: intermediate
   map: entrepreneur
-  module: "科学决策"
+  module: 科学决策
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': "用户问AI'你觉得该怎么做'，AI给了完整分析，用户直接照做", 'framework_lens': 'AI替代判断失效——结构化输出不等于可信输出', 'follow_up_question': 'AI分析里哪些是事实、哪些是假设？如果AI假设错了，你的决策翻不翻？'}
-  - {'signal': "用户说'我让AI帮我分析，它列了10个维度，我感觉很全面了'", 'framework_lens': '全面感幻觉——AI的结构化框架可能只是看起来不错', 'follow_up_question': 'AI列出的维度里，有没有你根本不知道它怎么得出的？如果有，先验证这个维度再往下走'}
-author: "老顽童"
+- signal: 用户问AI'你觉得该怎么做'，AI给了完整分析，用户直接照做
+  framework_lens: AI替代判断失效——结构化输出不等于可信输出
+  follow_up_question: AI分析里哪些是事实、哪些是假设？如果AI假设错了，你的决策翻不翻？
+- signal: 用户说'我让AI帮我分析，它列了10个维度，我感觉很全面了'
+  framework_lens: 全面感幻觉——AI的结构化框架可能只是看起来不错
+  follow_up_question: AI列出的维度里，有没有你根本不知道它怎么得出的？如果有，先验证这个维度再往下走
+author: 老顽童
 ---
-
 # AI决策Partner对话法
 
 > 来源：一堂2026年AI决策行动营。与[[yt-decision-y-model]]配套的AI协作工具，将AI从"一次性出结论的工具"重新定位为"多轮对话中的协作伙伴"，通过结构化交互流程辅助人类完成高质量决策分析。

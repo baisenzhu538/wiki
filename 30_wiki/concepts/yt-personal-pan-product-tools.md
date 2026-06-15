@@ -1,51 +1,54 @@
 ---
 id: yt-personal-pan-product-tools
 component_of:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 3400
 language: zh-CN
 query_triggers:
-  - "个人修炼"
-  - "产品思维"
-  - "出牌教学法与30张卡牌"
-  - "泛产品设计"
-  - "泛产品设计工具篇"
-  - "泛产品设计工具篇：出牌教学法与30张卡牌"
+- 个人修炼
+- 产品思维
+- 出牌教学法与30张卡牌
+- 泛产品设计
+- 泛产品设计工具篇
+- 泛产品设计工具篇：出牌教学法与30张卡牌
 related:
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
-  - yt-model-pan-product-execution-toolkit
-  - yt-personal-pan-product-concepts
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/sources/一堂-个人修炼-泛产品设计工具篇口述版.md"
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-model-pan-product-execution-toolkit]]'
+- '[[yt-personal-pan-product-concepts]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260510_e6643d52
 status: enriched
-title: "泛产品设计工具篇：出牌教学法与30张卡牌"
+title: 泛产品设计工具篇：出牌教学法与30张卡牌
 type: concept
 version: 1
 yitang:
   map: personal
-  module: "个人修炼"
+  module: 个人修炼
   course_type: required
   level: intermediate
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '能说出30张卡牌中每张属于需求、审美还是落地类别', 'framework_lens': '工具箱需要结构记忆', 'follow_up_question': '随机抽一张牌，你能在3秒内说出它属于哪组牌吗？'}
-  - {'signal': '面对具体任务时，能组合使用多张卡牌而不是只出一张', 'framework_lens': '出牌 = 组合能力', 'follow_up_question': '这个任务需要哪几张牌配合？它们之间的顺序是什么？'}
-  - {'signal': '使用卡牌后会对效果进行复盘，更新自己的‘出牌策略’', 'framework_lens': '工具能力在反馈中进化', 'follow_up_question': '上次用某张牌效果不好的原因是什么？是牌选错了还是用错了？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 能说出30张卡牌中每张属于需求、审美还是落地类别
+  framework_lens: 工具箱需要结构记忆
+  follow_up_question: 随机抽一张牌，你能在3秒内说出它属于哪组牌吗？
+- signal: 面对具体任务时，能组合使用多张卡牌而不是只出一张
+  framework_lens: 出牌 = 组合能力
+  follow_up_question: 这个任务需要哪几张牌配合？它们之间的顺序是什么？
+- signal: 使用卡牌后会对效果进行复盘，更新自己的‘出牌策略’
+  framework_lens: 工具能力在反馈中进化
+  follow_up_question: 上次用某张牌效果不好的原因是什么？是牌选错了还是用错了？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium
 ---
-
 # 泛产品设计工具篇：出牌教学法与30张卡牌
 
 > 来源：一堂泛产品设计框架篇口述（Truman）。[[yt-model-pan-product-36-strategies]] | [[yt-personal-pan-product-concepts]] | [[一堂]]

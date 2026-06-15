@@ -23,8 +23,8 @@ related:
 - '[[modeling-three-stages]]'
 - '[[tool-radar-chart-modeling]]'
 tags:
-- '#modeling'
-- '#tool'
+- '#method/modeling'
+- '#content-format/concept-card'
 - '#funnel'
 - '#formula'
 - '#quantification'

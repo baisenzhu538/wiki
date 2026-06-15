@@ -1,49 +1,49 @@
 ---
 id: yt-model-pan-product-demand-toolkit
 component_of:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1800
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 query_triggers:
-  - "需求分析"
-  - "用户需求"
-  - "需求工具箱"
-  - "怎么理解用户需求"
-  - "用户场景分析"
-  - "需求洞察方法"
+- 需求分析
+- 用户需求
+- 需求工具箱
+- 怎么理解用户需求
+- 用户场景分析
+- 需求洞察方法
 related:
-  - yt-model-pan-product-36-strategies
-  - yt-model-pan-product-aesthetic-toolkit
-  - yt-model-pan-product-execution-toolkit
-  - yt-entrepreneur-five-step-method
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-model-pan-product-execution-toolkit]]'
+- '[[yt-entrepreneur-five-step-method]]'
 review_by: 2026-11-11
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计-需求工具箱指南.png"
-  - "10_raw/sources/一堂-个人修炼-泛产品设计概念口述版.md"
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_726a6a3b
 status: enriched
-title: "泛产品设计·需求工具箱（13张卡牌）"
+title: 泛产品设计·需求工具箱（13张卡牌）
 type: framework
 version: 1
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户学了13张需求卡牌但不会选', 'framework_lens': '工具选择困难', 'follow_up_question': '你的项目复杂度是小产品、复杂产品还是商业产品？不同复杂度对应不同卡牌'}
-  - {'signal': '用户只关注高阶卡牌，不练初阶', 'framework_lens': '基础不牢', 'follow_up_question': '你做过多少个小产品的需求分析？如果<5个，先练初阶卡牌'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户学了13张需求卡牌但不会选
+  framework_lens: 工具选择困难
+  follow_up_question: 你的项目复杂度是小产品、复杂产品还是商业产品？不同复杂度对应不同卡牌
+- signal: 用户只关注高阶卡牌，不练初阶
+  framework_lens: 基础不牢
+  follow_up_question: 你做过多少个小产品的需求分析？如果<5个，先练初阶卡牌
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 ## Constraints & Boundaries
 
 ### 适用边界

@@ -1,33 +1,31 @@
 ---
-id: "skill-半肥猫-动态读取-向量化管理迭代知识"
-title: "技能：动态读取 + 向量化管理迭代知识"
+id: skill-半肥猫-动态读取-向量化管理迭代知识
+title: 技能：动态读取 + 向量化管理迭代知识
 type: skill
 status: draft
 domain:
-  - ai-collaboration
-source_person: "半肥猫"
-source_context: "AI俱学乐部-AI学习落地 分享"
+- ai-collaboration
+source_person: 半肥猫
+source_context: AI俱学乐部-AI学习落地 分享
 source_refs:
-  - "00_inbox/半肥猫-AI学习落地-口述.md"
+- 00_inbox/半肥猫-AI学习落地-口述.md
 tools_required:
-  - "向量化工具"
-  - "向量数据库"
-  - "API 接口（用于动态拉取）"
+- 向量化工具
+- 向量数据库
+- API 接口（用于动态拉取）
 prerequisite_skills:
-  - "skill-半肥猫-按语义切分文档做向量化"
-  - "skill-半肥猫-清洗资料为Markdown格式喂给AI"
+- skill-半肥猫-按语义切分文档做向量化
+- skill-半肥猫-清洗资料为Markdown格式喂给AI
 related:
-  - "concept-半肥猫-ai-learning-toolification-methodology"
-  - "skill-半肥猫-告诉AI当前日期限制数据时效"
-  - "dk-半肥猫-atomic-no-standard"
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[dk-半肥猫-atomic-no-standard]]'
 created_at: 2026-06-07
 reviewed_by: laowantong
-updated_at: 2026-06-07
+updated_at: '2026-06-16'
 author: legacy
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：动态读取 + 向量化管理迭代知识
 
 ## Summary

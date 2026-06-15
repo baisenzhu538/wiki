@@ -12,11 +12,7 @@ related:
 - '[[街顺APP全面调研报告]]'
 - '[[互联网医院模式深度调研报告]]'
 - '[[保达云诊所深度调研报告]]'
-tags:
-- null
-- null
-- null
-- null
+tags: []
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260501_dfa19257）

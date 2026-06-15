@@ -13,12 +13,12 @@ query_triggers:
 - 反脆弱清单
 - Taleb决策
 related:
-- master-decision-hygiene
-- master-cognitive-bias-checklist
-- master-systems-thinking
-- yt-foresight-ten-fatal-flaws
-- yt-entrepreneur-key-hypotheses
-- yt-panproduct-execution-risk-management
+- '[[master-decision-hygiene]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[master-systems-thinking]]'
+- '[[yt-foresight-ten-fatal-flaws]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-panproduct-execution-risk-management]]'
 status: enriched
 title: 反脆弱决策检查清单
 type: tool

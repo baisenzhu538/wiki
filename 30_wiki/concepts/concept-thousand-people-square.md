@@ -22,9 +22,9 @@ related:
 - '[[modeling-scientific-milestones]]'
 - '[[yt-five-step-method]]'
 tags:
-- '#modeling'
+- '#method/modeling'
 - '#concept'
-- '#education'
+- '#industry/education'
 - '#statistics'
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
 ---

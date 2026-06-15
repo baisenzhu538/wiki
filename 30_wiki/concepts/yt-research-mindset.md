@@ -1,42 +1,48 @@
 ---
-id: "yt-research-mindset"
-title: '调研认知升级：从"找答案"到"拆解假设"'
-type: "concept"
-status: "draft"
+id: yt-research-mindset
+title: 调研认知升级：从"找答案"到"拆解假设"
+type: concept
+status: draft
 domain:
-  - "yitang"
-language: "zh-CN"
+- yitang
+language: zh-CN
 version: 1
 confidence: 0.85
 source_refs:
-  - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
+- 00_inbox/ideas/一堂-创业必修-调研武器库.md
 related:
-  - "yt-research-osl-framework"
-  - "yt-research-hypothesis-test"
-  - "yt-research-intelligence-map"
-  - "yt-entrepreneur-key-hypotheses"
+- '[[yt-research-osl-framework]]'
+- '[[yt-research-hypothesis-test]]'
+- '[[yt-research-intelligence-map]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
 query_triggers:
-  - "调研认知"
-  - "找答案到拆解假设"
-  - "调研升级"
-  - "反证调研"
-created_at: "2026-06-10"
-updated_at: "2026-06-13"
+- 调研认知
+- 找答案到拆解假设
+- 调研升级
+- 反证调研
+created_at: '2026-06-10'
+updated_at: '2026-06-16'
 estimated_tokens: 2500
 tags:
-  - None
-  - None
-  - None
+- None
+- None
+- None
 pipeline:
-  - "confidence-draft"
-  - "confidence-source-cited"
+- confidence-draft
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '调研前会先写下‘什么证据会让我放弃当前假设’', 'framework_lens': '反证思维', 'follow_up_question': '你有没有主动寻找过推翻自己的证据？'}
-  - {'signal': '关注‘如果我错了会怎样’而不是只追求正确', 'framework_lens': '风险管理视角', 'follow_up_question': '这个方向最坏的结果是什么？你能承受吗？'}
-  - {'signal': '会为调研设定‘够用就停’的阈值，而不是无限收集', 'framework_lens': '决策效率', 'follow_up_question': '多少信息足以支撑下一步行动？'}
-author: "legacy"
-reviewed_by: "pending"
-trust_level: "low"
+- signal: 调研前会先写下‘什么证据会让我放弃当前假设’
+  framework_lens: 反证思维
+  follow_up_question: 你有没有主动寻找过推翻自己的证据？
+- signal: 关注‘如果我错了会怎样’而不是只追求正确
+  framework_lens: 风险管理视角
+  follow_up_question: 这个方向最坏的结果是什么？你能承受吗？
+- signal: 会为调研设定‘够用就停’的阈值，而不是无限收集
+  framework_lens: 决策效率
+  follow_up_question: 多少信息足以支撑下一步行动？
+author: legacy
+reviewed_by: pending
+trust_level: low
 ---
 # 调研认知升级：从"找答案"到"拆解假设"
 

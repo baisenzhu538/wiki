@@ -1,55 +1,58 @@
 ---
 id: yt-panproduct-demand-peak-end-rule
 component_of:
-  - yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-demand-toolkit
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2500
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 query_triggers:
-  - "峰终定律"
-  - "泛产品设计"
-  - "泛产品设计·用户卡片：峰终定律"
-  - "用户卡片"
-  - "用户研究"
-  - "用户需求"
-  - "需求分析"
-  - "需求洞察"
+- 峰终定律
+- 泛产品设计
+- 泛产品设计·用户卡片：峰终定律
+- 用户卡片
+- 用户研究
+- 用户需求
+- 需求分析
+- 需求洞察
 related:
-  - yt-panproduct-demand-surprise-formula
-  - yt-panproduct-demand-motivation-resistance
-  - yt-model-conversion-optimization
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计-用户卡片-峰终定律.png"
+- '[[yt-panproduct-demand-surprise-formula]]'
+- '[[yt-panproduct-demand-motivation-resistance]]'
+- '[[yt-model-conversion-optimization]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_041b5a94
 status: enriched
-title: "泛产品设计·用户卡片：峰终定律"
+title: 泛产品设计·用户卡片：峰终定律
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: intermediate
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '能画出用户旅程中的峰值点和结束点，并标注情绪强度', 'framework_lens': '体验记忆由峰值和终点决定', 'follow_up_question': '旅程中情绪最高的点和最后的点，哪个更可能被用户记住？'}
-  - {'signal': '设计方案时主动管理用户预期，而不仅仅是提升交付', 'framework_lens': '惊喜 = 交付 − 预期', 'follow_up_question': '如果用户预期已经很高，你还能创造惊喜吗？'}
-  - {'signal': '用户满意度调研包含‘记忆型’问题，而不只是平均打分', 'framework_lens': '峰值终值影响推荐和复购', 'follow_up_question': '用户向别人推荐时，最可能提到的三个瞬间是什么？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 能画出用户旅程中的峰值点和结束点，并标注情绪强度
+  framework_lens: 体验记忆由峰值和终点决定
+  follow_up_question: 旅程中情绪最高的点和最后的点，哪个更可能被用户记住？
+- signal: 设计方案时主动管理用户预期，而不仅仅是提升交付
+  framework_lens: 惊喜 = 交付 − 预期
+  follow_up_question: 如果用户预期已经很高，你还能创造惊喜吗？
+- signal: 用户满意度调研包含‘记忆型’问题，而不只是平均打分
+  framework_lens: 峰值终值影响推荐和复购
+  follow_up_question: 用户向别人推荐时，最可能提到的三个瞬间是什么？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium
 ---
-
 # 峰终定律：用户体验的二八定律
 
 > 需求工具箱第 9 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

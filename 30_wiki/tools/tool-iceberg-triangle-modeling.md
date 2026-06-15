@@ -23,8 +23,8 @@ related:
 - '[[modeling-three-stages]]'
 - '[[dk-modeling-essence-predictive]]'
 tags:
-- '#modeling'
-- '#tool'
+- '#method/modeling'
+- '#content-format/concept-card'
 - '#iceberg'
 - '#triangle'
 - '#insight'

@@ -1,35 +1,34 @@
 ---
-id: "skill-寻找学习教练法"
-title: "技能：寻找学习教练法"
+id: skill-寻找学习教练法
+title: 技能：寻找学习教练法
 type: skill
 status: draft
 domain:
-  - learning-methodology
-  - yitang
-source_person: "一堂课程"
-source_context: "一堂·科学学习IPO全景策略图 V2.0 (2026)"
+- learning-methodology
+- yitang
+source_person: 一堂课程
+source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
-  - "10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md"
+- 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-  - "skill-多源输入法"
-  - "skill-分享输出检验法"
-  - "skill-辩证讨论法"
+- '[[skill-多源输入法]]'
+- '[[skill-分享输出检验法]]'
+- '[[skill-辩证讨论法]]'
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "专家网络"
-  - "访谈提纲"
-  - "调研工具"
+- 专家网络
+- 访谈提纲
+- 调研工具
 created_at: 2026-06-09
-updated_at: 2026-06-09
+updated_at: '2026-06-16'
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：寻找学习教练法
 
 ## 原始表述

@@ -1,49 +1,50 @@
 ---
 id: yt-model-pan-product-three-virtues
 component_of:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1800
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 query_triggers:
-  - "三大修养"
-  - "产品设计心法"
-  - "产品经理修养"
-  - "产品设计底层价值观"
-  - "用户价值最佳实践无限进步"
-  - "产品设计第一性原理"
+- 三大修养
+- 产品设计心法
+- 产品经理修养
+- 产品设计底层价值观
+- 用户价值最佳实践无限进步
+- 产品设计第一性原理
 related:
-  - yt-model-pan-product-36-strategies
-  - yt-model-pan-product-climbing-map
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
-  - yt-model-pan-product-execution-toolkit
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[yt-model-pan-product-climbing-map]]'
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-model-pan-product-execution-toolkit]]'
 review_by: 2026-11-11
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计者的三大自我修养.png"
+reviewed_by: 黄药师
 source_refs:
 - src_20260614_45ab8b35
 status: enriched
-title: "泛产品三大自我修养：用户价值×最佳实践×无限进步"
+title: 泛产品三大自我修养：用户价值×最佳实践×无限进步
 type: framework
 version: 1
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户只强调用户价值但产品很粗糙', 'framework_lens': '修养失衡（有方向无标准）', 'follow_up_question': '你的产品在同类最佳实践中处于什么水平？如果没有对标，标准缺失'}
-  - {'signal': '用户审美很好但没人用', 'framework_lens': '修养失衡（有标准无方向）', 'follow_up_question': '这个产品解决了什么真实用户需求？如果需求不清，审美是自恋'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户只强调用户价值但产品很粗糙
+  framework_lens: 修养失衡（有方向无标准）
+  follow_up_question: 你的产品在同类最佳实践中处于什么水平？如果没有对标，标准缺失
+- signal: 用户审美很好但没人用
+  framework_lens: 修养失衡（有标准无方向）
+  follow_up_question: 这个产品解决了什么真实用户需求？如果需求不清，审美是自恋
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 ## Constraints & Boundaries
 
 ### 适用边界

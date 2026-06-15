@@ -11,8 +11,8 @@ source_refs:
 component_of:
 - ai-collaboration-mindset-shift
 related:
-- ai-collaboration-mindset-shift
-- prd-as-ai-instruction
+- '[[ai-collaboration-mindset-shift]]'
+- '[[prd-as-ai-instruction]]'
 query_triggers:
 - AI工作空间怎么搭建
 - 和AI协作文件怎么管理
@@ -26,8 +26,8 @@ created_at: 2026-06-15
 confidence: 0.7
 trust_level: low
 title: structured ai workspace
+updated_at: '2026-06-16'
 ---
-
 # 结构化AI工作空间搭建
 
 > Source: [[src_20260606_42e11f09]] (纪浩-AI协作方法论-口述)

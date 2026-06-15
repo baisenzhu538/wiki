@@ -23,10 +23,9 @@ related:
 - '[[dk-modeling-explanatory-vs-predictive-essence]]'
 - '[[dk-modeling-essence-predictive]]'
 tags:
-- '#modeling'
-- '#case'
-- '#essence'
-- '#education'
+- '#method/modeling'
+- '#content-format/case-study'
+- '#industry/education'
 - '#strategy'
 ---
 # 案例：教育本质与战略本质的提炼

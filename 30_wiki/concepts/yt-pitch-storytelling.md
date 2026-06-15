@@ -1,48 +1,50 @@
 ---
 id: yt-pitch-storytelling
 component_of:
-  - yt-model-personal-pitch-toolkit
+- yt-model-personal-pitch-toolkit
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: advanced
 domain:
-  - personal
-  - yitang
+- personal
+- yitang
 estimated_tokens: 1600
 language: zh-CN
 prerequisites:
-  - yt-model-personal-pitch-toolkit
+- yt-model-personal-pitch-toolkit
 query_triggers:
-  - "故事化"
-  - "讲故事"
-  - "真实故事"
-  - "品牌故事"
-  - "幕后故事"
-  - "初心故事"
+- 故事化
+- 讲故事
+- 真实故事
+- 品牌故事
+- 幕后故事
+- 初心故事
 related:
-  - yt-concept-weapon-arsenal
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
-  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+- '[[yt-concept-weapon-arsenal]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260609_93e2df35
 status: enriched
-title: "讲香·故事化"
+title: 讲香·故事化
 type: tool
 version: 1
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '故事围绕一个核心卖点或观点展开，而不是流水账', 'framework_lens': '故事是论证工具', 'follow_up_question': '这个故事如果只能证明一个观点，是什么？'}
-  - {'signal': '故事包含真实的人物、冲突和变化', 'framework_lens': '真实故事最有说服力', 'follow_up_question': '这个故事是真实发生过的，还是编造的？'}
-  - {'signal': '故事长度与传播渠道匹配，不拖泥带水', 'framework_lens': '故事需要节奏', 'follow_up_question': '如果删掉故事的前30%，会影响效果吗？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 故事围绕一个核心卖点或观点展开，而不是流水账
+  framework_lens: 故事是论证工具
+  follow_up_question: 这个故事如果只能证明一个观点，是什么？
+- signal: 故事包含真实的人物、冲突和变化
+  framework_lens: 真实故事最有说服力
+  follow_up_question: 这个故事是真实发生过的，还是编造的？
+- signal: 故事长度与传播渠道匹配，不拖泥带水
+  framework_lens: 故事需要节奏
+  follow_up_question: 如果删掉故事的前30%，会影响效果吗？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 # 讲香·故事化
 
 > 十指模型左手第四指——向下具象。一讲故事用户耳朵就支棱起来——故事是比道理好用十倍的论证武器。

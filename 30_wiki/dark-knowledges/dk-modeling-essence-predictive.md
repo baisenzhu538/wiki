@@ -17,10 +17,10 @@ updated_at: '2026-06-16'
 confidence: 0.85
 trust_level: high
 related:
-- modeling-capability-for-kdo
-- modeling-three-stages
-- modeling-capability-system
-- dk-modeling-counterexample-driven
+- '[[modeling-capability-for-kdo]]'
+- '[[modeling-three-stages]]'
+- '[[modeling-capability-system]]'
+- '[[dk-modeling-counterexample-driven]]'
 tags:
 - '#source_type/diverse'
 - '#domain/yitang'
@@ -30,7 +30,6 @@ reviewed_by: 老顽童
 review_date: '2026-06-14'
 author: legacy
 ---
-
 # “解释性本质”是高级鸡汤：真正值钱的本质必须能指导下一次真实决策
 
 ## 原始表述

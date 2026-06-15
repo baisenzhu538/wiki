@@ -1,37 +1,35 @@
 ---
-id: "skill-半肥猫-按语义切分文档做向量化"
-title: "技能：按语义切分文档做向量化"
+id: skill-半肥猫-按语义切分文档做向量化
+title: 技能：按语义切分文档做向量化
 type: skill
 status: draft
 domain:
-  - ai-collaboration
-source_person: "半肥猫"
-source_context: "AI俱学乐部-AI学习落地 分享"
+- ai-collaboration
+source_person: 半肥猫
+source_context: AI俱学乐部-AI学习落地 分享
 source_refs:
-  - "00_inbox/半肥猫-AI学习落地-口述.md"
+- 00_inbox/半肥猫-AI学习落地-口述.md
 tools_required:
-  - "向量化工具（如 OpenAI embedding API、本地 embedding 模型）"
-  - "向量数据库（如 Pinecone、Weaviate、Chroma 等）"
+- 向量化工具（如 OpenAI embedding API、本地 embedding 模型）
+- 向量数据库（如 Pinecone、Weaviate、Chroma 等）
 prerequisite_skills:
-  - "skill-半肥猫-清洗资料为Markdown格式喂给AI"
-  - "skill-半肥猫-用YAML格式做知识库原子化标签"
+- skill-半肥猫-清洗资料为Markdown格式喂给AI
+- skill-半肥猫-用YAML格式做知识库原子化标签
 related:
-  - "concept-半肥猫-ai-learning-toolification-methodology"
-  - "skill-半肥猫-课程Skill化的八步工作流"
-  - "skill-半肥猫-动态读取-向量化管理迭代知识"
-  - "dk-半肥猫-atomic-no-standard"
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[skill-半肥猫-动态读取-向量化管理迭代知识]]'
+- '[[dk-半肥猫-atomic-no-standard]]'
 created_at: 2026-06-07
 reviewed_by: laowantong
-updated_at: 2026-06-07
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-draft
+- confidence-source-cited
+- confidence-verified-by-case
 author: legacy
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：按语义切分文档做向量化
 
 ## Summary

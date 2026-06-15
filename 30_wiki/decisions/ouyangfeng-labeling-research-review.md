@@ -11,9 +11,9 @@ target_roles:
 - 用户（决策者）
 - 黄药师（Builder）
 related:
-- kdo-15-dimension-label-spec
-- labeling-research-alignment
-- data-labeling-best-practices-report
+- '[[kdo-15-dimension-label-spec]]'
+- '[[labeling-research-alignment]]'
+- '[[data-labeling-best-practices-report]]'
 author: legacy
 source_context: KDO internal decision record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:

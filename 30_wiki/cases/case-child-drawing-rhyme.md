@@ -23,8 +23,8 @@ related:
 - '[[modeling-scientific-milestones]]'
 - '[[tool-iterative-recursive-deep-dig]]'
 tags:
-- '#modeling'
-- '#case'
+- '#method/modeling'
+- '#content-format/case-study'
 - '#minimal-model'
 - '#deliberate-practice'
 ---

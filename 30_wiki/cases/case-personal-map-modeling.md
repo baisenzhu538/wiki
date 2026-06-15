@@ -25,8 +25,8 @@ related:
 - '[[modeling-scientific-milestones]]'
 - '[[concept-thousand-people-square]]'
 tags:
-- '#modeling'
-- '#case'
+- '#method/modeling'
+- '#content-format/case-study'
 - '#personal-map'
 - '#canvas'
 - '#course-design'

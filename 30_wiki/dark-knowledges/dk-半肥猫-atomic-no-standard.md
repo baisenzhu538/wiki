@@ -1,32 +1,29 @@
 ---
-id: "dk-半肥猫-atomic-no-standard"
-title: "暗知识：原子化没有固定标准"
+id: dk-半肥猫-atomic-no-standard
+title: 暗知识：原子化没有固定标准
 type: dark-knowledge
 status: draft
 domain:
-  - ai-collaboration
-  - yitang
-source_person: "半肥猫"
-source_context: "AI俱乐部-AI学习落地 分享"
+- ai-collaboration
+- yitang
+source_person: 半肥猫
+source_context: AI俱乐部-AI学习落地 分享
 source_refs:
-  - "00_inbox/半肥猫-AI学习落地-口述.md"
+- 00_inbox/半肥猫-AI学习落地-口述.md
 created_at: 2026-06-07
-updated_at: 2026-06-07
+updated_at: '2026-06-16'
 related:
-  - "concept-半肥猫-ai-learning-toolification-methodology"
-  - "skill-半肥猫-用YAML格式做知识库原子化标签"
-  - "skill-半肥猫-清洗资料为Markdown格式喂给AI"
-  - "skill-半肥猫-动态读取-向量化管理迭代知识"
-  - "dk-半肥猫-skill-rejection-value"
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[skill-半肥猫-动态读取-向量化管理迭代知识]]'
+- '[[dk-半肥猫-skill-rejection-value]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 暗知识：原子化没有固定标准
 
 > 半肥猫在知识库管理中的一个反直觉观察：**原子化的标准不是"文档短"或"只讲一件事"这些形式标准，而是"让 AI 能把信息牵出来——并且不打断索引标签"这个功能标准。**

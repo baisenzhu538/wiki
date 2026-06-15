@@ -1,29 +1,28 @@
 ---
 id: dk-yb22-visual-presentation-scene-match
-title: "视觉呈现方式与消费场景的匹配原则"
+title: 视觉呈现方式与消费场景的匹配原则
 type: dark-knowledge
 dark_knowledge_type: insight
 status: draft
 domain:
-  - design
-source_person: "月白"
-source_context: "口述稿: AI设计-AI设计师实操培训01"
+- design
+source_person: 月白
+source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
-  - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
+- 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
-updated_at: 2026-06-04
+updated_at: '2026-06-16'
 related:
-  - dk-yb18-small-shop-image-mismatch
-  - dk-yb19-visual-strategy-price-match
+- '[[dk-yb18-small-shop-image-mismatch]]'
+- '[[dk-yb19-visual-strategy-price-match]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 视觉呈现方式与消费场景的匹配原则
 
 ## 原始表述

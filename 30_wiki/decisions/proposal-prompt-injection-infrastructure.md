@@ -11,10 +11,7 @@ target_roles:
 - 欧阳锋（Architect）
 reviewer: 待定
 related:
-- recursive-deepen-prompt
-- judge-three-questions-prompt
-- label-prompt-v10-final
-- plan_20260531_data-curator-v1.3
+- '[[plan_20260531_data-curator-v1.3]]'
 id: proposal-prompt-injection-infrastructure
 author: legacy
 source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为

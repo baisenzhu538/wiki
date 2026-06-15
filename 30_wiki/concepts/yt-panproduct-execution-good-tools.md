@@ -1,56 +1,59 @@
 ---
 id: yt-panproduct-execution-good-tools
 component_of:
-  - yt-model-pan-product-execution-toolkit
+- yt-model-pan-product-execution-toolkit
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1129
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-aesthetic-toolkit
 query_triggers:
-  - "产品落地"
-  - "产品迭代"
-  - "善用佳软"
-  - "执行方法"
-  - "泛产品设计"
-  - "泛产品设计·落地卡片：善用佳软"
-  - "落地卡片"
-  - "落地执行"
+- 产品落地
+- 产品迭代
+- 善用佳软
+- 执行方法
+- 泛产品设计
+- 泛产品设计·落地卡片：善用佳软
+- 落地卡片
+- 落地执行
 related:
-  - yt-panproduct-execution-low-cost-mvp
-  - yt-panproduct-execution-realistic-simulation
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计-落地卡片-善用佳软.png"
+- '[[yt-panproduct-execution-low-cost-mvp]]'
+- '[[yt-panproduct-execution-realistic-simulation]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_7ddf8bf2
 status: enriched
-title: "泛产品设计·落地卡片：善用佳软"
+title: 泛产品设计·落地卡片：善用佳软
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: foundational
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '选择工具时先明确要完成的任务和输出标准，而不是先看工具功能', 'framework_lens': '工具服务于任务', 'follow_up_question': '这个任务用现有工具能不能完成到80分？'}
-  - {'signal': '团队使用工具后，协作效率或输出质量有可观察的提升', 'framework_lens': '工具价值需要验证', 'follow_up_question': '引入新工具后，哪个环节的速度或质量改善了？'}
-  - {'signal': '会定期清理不再使用的工具，避免工具堆叠', 'framework_lens': '工具栈需要保鲜', 'follow_up_question': '最近半年有没有停用某个工具？为什么？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 选择工具时先明确要完成的任务和输出标准，而不是先看工具功能
+  framework_lens: 工具服务于任务
+  follow_up_question: 这个任务用现有工具能不能完成到80分？
+- signal: 团队使用工具后，协作效率或输出质量有可观察的提升
+  framework_lens: 工具价值需要验证
+  follow_up_question: 引入新工具后，哪个环节的速度或质量改善了？
+- signal: 会定期清理不再使用的工具，避免工具堆叠
+  framework_lens: 工具栈需要保鲜
+  follow_up_question: 最近半年有没有停用某个工具？为什么？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium
 ---
-
 # 善用佳软：多学习一些简单产品工具
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

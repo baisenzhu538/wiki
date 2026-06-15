@@ -25,10 +25,10 @@ related:
 - '[[dk-modeling-sop-execution-locks]]'
 - '[[process-modeling]]'
 tags:
-- '#modeling'
-- '#case'
+- '#method/modeling'
+- '#content-format/case-study'
 - '#livestream'
-- '#sop'
+- '#content-format/sop'
 - '#execution'
 ---
 # 案例：直播前热身 SOP 建模

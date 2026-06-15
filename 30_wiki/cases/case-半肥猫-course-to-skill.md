@@ -1,48 +1,47 @@
 ---
-id: "case-半肥猫-course-to-skill"
-title: "案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具"
-type: "case"
-status: "draft"
+id: case-半肥猫-course-to-skill
+title: 案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具
+type: case
+status: draft
 domain:
-  - "skill-engineering"
-  - "yitang"
-source_person: "半肥猫"
-source_context: "AI俱乐部-AI学习落地 分享——真实案例：将一堂《转化率黑客五组合落地》课程转化为 Skill"
+- skill-engineering
+- yitang
+source_person: 半肥猫
+source_context: AI俱乐部-AI学习落地 分享——真实案例：将一堂《转化率黑客五组合落地》课程转化为 Skill
 source_refs:
-  - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
-  - "00_inbox/AI俱乐部-AI学习落地-半肥猫-笔记.txt"
+- 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
+- 00_inbox/AI俱乐部-AI学习落地-半肥猫-笔记.txt
 tags:
-  - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
-  - "#confidence/verified-by-test"
-  - "#domain/skill-engineering"
-  - "#domain/yitang"
-  - "#scene/agent-infrastructure/skill-registry"
-  - "#scene/ai-collaboration/problem-validation"
-  - "#scene/business-analysis/conversion-rate"
-  - "#scene/knowledge-management/case-library"
-  - "#scene/knowledge-management/tagging"
-  - "#scene/learning-methodology"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/course-to-skill"
-  - "#scene/skill-engineering/eval-testing"
-  - "#scene/skill-engineering/manifest-design"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#type/case"
+- '#perspective/professional'
+- '#confidence/draft'
+- '#confidence/source-cited'
+- '#confidence/verified-by-case'
+- '#confidence/verified-by-test'
+- '#domain/skill-engineering'
+- '#domain/yitang'
+- '#scene/agent-infrastructure/skill-registry'
+- '#scene/ai-collaboration/problem-validation'
+- '#scene/business-analysis/conversion-rate'
+- '#scene/knowledge-management/case-library'
+- '#scene/knowledge-management/tagging'
+- '#scene/learning-methodology'
+- '#scene/note-taking'
+- '#scene/skill-engineering/course-to-skill'
+- '#scene/skill-engineering/eval-testing'
+- '#scene/skill-engineering/manifest-design'
+- '#scene/skill-engineering/publish-deploy'
+- '#content-format/case-study'
 created_at: 2026-06-08
-updated_at: 2026-06-08
+updated_at: '2026-06-16'
 related:
-  - "case-纪浩-skills-market"
-  - "case-truman-ai-partner"
-  - "case-纪浩-focus-prompt-design"
-author: "legacy"
-reviewed_by: "pending"
+- '[[case-纪浩-skills-market]]'
+- '[[case-truman-ai-partner]]'
+- '[[case-纪浩-focus-prompt-design]]'
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 案例：半肥猫的课程转 Skill 八步法
 
 > 半肥猫用一堂《转化率黑客五组合落地》课程作为原材料，经过八步工程化流程，做出了一个可验证的转化率方案推演 Skill。A/B 测试：用 Skill 得 36 分，不用 Skill 得 8 分——差值 28 分。这不是"AI 更强了"——是"工程化流程产出了更可靠的 AI 工具"。

@@ -12,11 +12,11 @@ source_refs:
 - src_20260613_6edbf0af
 - src_20260613_a8bcfd38
 tags:
-- "#business-formula"
-- "#case"
-- "#private-domain"
-- "#e-commerce"
-- "#yitang"
+- '#method/evaluation-method'
+- '#content-format/case-study'
+- '#private-domain'
+- '#e-commerce'
+- '#domain/yitang'
 created_at: '2026-06-15'
 updated_at: '2026-06-15'
 author: 孔阳
@@ -27,10 +27,10 @@ review_date: '2026-06-15'
 confidence: 0.9
 trust_level: high
 related:
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-business-formula-ten-paradigms]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-entrepreneur-unit-model]]"
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-ten-paradigms]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-entrepreneur-unit-model]]'
 ---
 
 # 私域电商 10W 人社群：从“拉人发广告”到“信任 × 用户升级路径”

@@ -1,32 +1,30 @@
 ---
-id: "skill-纪浩-真需求四要素验证法"
-title: "技能：真需求四要素验证法"
+id: skill-纪浩-真需求四要素验证法
+title: 技能：真需求四要素验证法
 type: skill
 status: draft
 domain:
-  - ai-collaboration
-  - yitang
-source_person: "纪浩"
-source_context: "AI俱乐部·人和AI协作（第三次分享，2026-06）"
+- ai-collaboration
+- yitang
+source_person: 纪浩
+source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
-  - "00_inbox/纪浩-AI协作方法论-口述.md"
-tools_required: "纸笔或文档、具体场景描述"
-prerequisite_skills: 
+- 00_inbox/纪浩-AI协作方法论-口述.md
+tools_required: 纸笔或文档、具体场景描述
+prerequisite_skills: null
 related:
-  - "concept-纪浩-ai-collaboration-methodology"
-  - "case-纪浩-from-zip-to-five-layers"
-  - "skill-纪浩-Do-first-PDCA渐进迭代法"
+- '[[concept-纪浩-ai-collaboration-methodology]]'
+- '[[case-纪浩-from-zip-to-five-layers]]'
 created_at: 2026-06-08
-updated_at: 2026-06-08
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：真需求四要素验证法
 
 ## 原始表述

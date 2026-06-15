@@ -12,9 +12,9 @@ domain:
 source_refs:
 - src_20260614_909802bd
 related:
-- beverage-foodservice-channel
-- yt-entrepreneur-channel-exploration
-- source-code-delivery-model
+- '[[beverage-foodservice-channel]]'
+- '[[yt-entrepreneur-channel-exploration]]'
+- '[[source-code-delivery-model]]'
 created_at: 2026-06-14
 updated_at: '2026-06-16'
 author: 王语嫣

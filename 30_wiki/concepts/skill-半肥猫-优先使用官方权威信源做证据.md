@@ -1,36 +1,33 @@
 ---
-id: "skill-半肥猫-优先使用官方权威信源做证据"
-title: "技能：优先使用官方权威信源做证据"
+id: skill-半肥猫-优先使用官方权威信源做证据
+title: 技能：优先使用官方权威信源做证据
 type: skill
 status: draft
 domain:
-  - ai-collaboration
-source_person: "半肥猫"
-source_context: "AI俱学乐部-AI学习落地 分享"
+- ai-collaboration
+source_person: 半肥猫
+source_context: AI俱学乐部-AI学习落地 分享
 source_refs:
-  - "00_inbox/半肥猫-AI学习落地-口述.md"
+- 00_inbox/半肥猫-AI学习落地-口述.md
 tools_required:
-  - "AIGC大模型"
-  - "搜索引擎"
+- AIGC大模型
+- 搜索引擎
 prerequisite_skills:
-  - "skill-半肥猫-追问AI证据并标注信源"
+- skill-半肥猫-追问AI证据并标注信源
 related:
-  - "concept-半肥猫-ai-learning-toolification-methodology"
-  - "skill-半肥猫-追问AI证据并标注信源"
-  - "dk-半肥猫-silky-answer-warning"
-  - "skill-半肥猫-告诉AI当前日期限制数据时效"
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[dk-半肥猫-silky-answer-warning]]'
 created_at: 2026-06-07
 reviewed_by: laowantong
-updated_at: 2026-06-07
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-draft
+- confidence-source-cited
+- confidence-verified-by-case
 author: legacy
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：优先使用官方权威信源做证据
 
 ## Summary

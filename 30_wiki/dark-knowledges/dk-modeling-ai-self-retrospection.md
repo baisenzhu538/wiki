@@ -1,37 +1,35 @@
 ---
-id: "dk-modeling-ai-self-retrospection"
-title: "AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单"
-type: "dark-knowledge"
-dark_knowledge_type: "workflow"
-status: "draft"
+id: dk-modeling-ai-self-retrospection
+title: AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单
+type: dark-knowledge
+dark_knowledge_type: workflow
+status: draft
 domain:
-  - "yitang"
-  - "ai-saas"
-source_person: "Truman"
-source_context: "一堂建模能力培训（AI 辅助建模案例），2026-06-12"
+- yitang
+- ai-saas
+source_person: Truman
+source_context: 一堂建模能力培训（AI 辅助建模案例），2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
-  - "src_20260614_42f1e977"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
+- src_20260614_8269ccdb
+- src_20260614_42f1e977
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
 related:
-  - "modeling-capability-for-kdo"
-  - "modeling-capability-system"
-  - "dk-modeling-ai-without-judgment"
-  - "ai-collaboration"
+- '[[modeling-capability-for-kdo]]'
+- '[[modeling-capability-system]]'
+- '[[dk-modeling-ai-without-judgment]]'
 tags:
-  - "#source_type/process"
-  - "#domain/yitang"
-  - "#domain/ai-saas"
-  - "#method/ai-collaboration"
-  - "#method/retrospective"
-trust_level: "high"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-author: "legacy"
+- '#content-format/sop'
+- '#domain/yitang'
+- '#domain/ai-saas'
+- '#method/ai-collaboration'
+- '#method/retrospective'
+trust_level: high
+reviewed_by: 老顽童
+review_date: '2026-06-14'
+author: legacy
 confidence: 0.7
 ---
-
 # AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单
 
 ## 原始表述

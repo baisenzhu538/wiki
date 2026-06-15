@@ -1,52 +1,51 @@
 ---
 id: yt-model-personal-pitch-toolkit
 component_of:
-  - yt-model-personal-map
+- yt-model-personal-map
 confidence: 0.9
 created_at: 2026-05-13
 difficulty: intermediate
 domain:
-  - personal
+- personal
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
-  - yt-model-ipo-learning-strategy
+- yt-model-ipo-learning-strategy
 query_triggers:
-  - "十指模型"
-  - "讲香模型"
-  - "十指讲香"
-  - "卖点包装"
-  - "价值感"
-  - "讲香基本功"
-  - "具象化"
-  - "抽象化"
+- 十指模型
+- 讲香模型
+- 十指讲香
+- 卖点包装
+- 价值感
+- 讲香基本功
+- 具象化
+- 抽象化
 related:
-  - yt-personal-scientific-expression
-  - yt-concept-weapon-arsenal
-  - yt-panproduct-execution-low-cost-mvp
-  - yt-composite-pan-product-methodology
-  - yt-model-prompt-engineering
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
-  - "10_raw/assets/yitang/一堂-个人修炼-讲香基本功-十指模型修炼地图.png"
-  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+- '[[yt-personal-scientific-expression]]'
+- '[[yt-concept-weapon-arsenal]]'
+- '[[yt-panproduct-execution-low-cost-mvp]]'
+- '[[yt-composite-pan-product-methodology]]'
+- '[[yt-model-prompt-engineering]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260614_8bd357d3
 status: enriched
-title: "十指讲香模型（框架）"
+title: 十指讲香模型（框架）
 type: framework
 version: 1
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户讲了半天但听众无感', 'framework_lens': '价值感没有建立', 'follow_up_question': '你说的内容是价值点还是价值感？听众能立刻感受到好处吗？'}
-  - {'signal': '用户只会具象不会抽象，或只会抽象不会具象', 'framework_lens': '十指不均衡', 'follow_up_question': '你的表达中具象细节和抽象升华各占多少？如果一边倒，十指没打开'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户讲了半天但听众无感
+  framework_lens: 价值感没有建立
+  follow_up_question: 你说的内容是价值点还是价值感？听众能立刻感受到好处吗？
+- signal: 用户只会具象不会抽象，或只会抽象不会具象
+  framework_lens: 十指不均衡
+  follow_up_question: 你的表达中具象细节和抽象升华各占多少？如果一边倒，十指没打开
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 # 十指讲香模型（框架）
 
 > 将干瘪的价值点转化为饱满的价值感的微观战术框架——用双手十指向下具象、向上抽象，双向拉伸。

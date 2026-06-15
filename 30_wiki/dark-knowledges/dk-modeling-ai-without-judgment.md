@@ -17,13 +17,12 @@ updated_at: '2026-06-16'
 confidence: 0.85
 trust_level: high
 related:
-- modeling-capability-for-kdo
-- modeling-capability-system
-- modeling-three-stages
-- ai-collaboration
-- dk-modeling-counterexample-driven
+- '[[modeling-capability-for-kdo]]'
+- '[[modeling-capability-system]]'
+- '[[modeling-three-stages]]'
+- '[[dk-modeling-counterexample-driven]]'
 tags:
-- '#source_type/error'
+- '#chunk-type/error-data'
 - '#domain/yitang'
 - '#domain/ai-saas'
 - '#method/ai-collaboration'
@@ -32,7 +31,6 @@ reviewed_by: 老顽童
 review_date: '2026-06-14'
 author: legacy
 ---
-
 # AI 能生成“看着很厉害”的模型，但如果你没有逻辑洁癖，它只会加速你跑偏
 
 ## 原始表述

@@ -1,27 +1,27 @@
 ---
 id: beverage-foodservice-channel
-title: "餐饮渠道饮料开发：草本浓缩饮品的渠道-产品-工艺框架"
+title: 餐饮渠道饮料开发：草本浓缩饮品的渠道-产品-工艺框架
 type: framework
 status: enriched
 confidence: 0.9
 trust_level: high
 domain:
-  - business-strategy
-  - product
-  - entrepreneur
+- business-strategy
+- product
+- entrepreneur
 source_refs:
-  - src_20260614_8a0317f1
-  - src_20260614_16c4bf0d
-  - src_20260614_d6ab6fb6
-  - src_20260614_9b574611
+- src_20260614_8a0317f1
+- src_20260614_16c4bf0d
+- src_20260614_d6ab6fb6
+- src_20260614_9b574611
 related:
-  - yt-entrepreneur-channel-exploration
-  - yt-entrepreneur-product-core
-  - source-code-delivery-model
+- '[[yt-entrepreneur-channel-exploration]]'
+- '[[yt-entrepreneur-product-core]]'
+- '[[source-code-delivery-model]]'
 created_at: 2026-06-14
-updated_at: 2026-06-14
-author: "王语嫣"
-reviewed_by: "老顽童"
+updated_at: '2026-06-16'
+author: 王语嫣
+reviewed_by: 老顽童
 review_date: 2026-06-14
 ---
 # 餐饮渠道饮料开发：草本浓缩饮品的渠道-产品-工艺框架

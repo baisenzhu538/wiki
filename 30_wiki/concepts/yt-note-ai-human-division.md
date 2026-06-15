@@ -1,48 +1,51 @@
 ---
 id: yt-note-ai-human-division
-title: "AI时代笔记分工边界：人在哪里，AI在哪里"
+title: AI时代笔记分工边界：人在哪里，AI在哪里
 type: concept
 status: draft
 domain:
-  - yitang
-  - ai
+- yitang
+- ai
 language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.85
 related:
-  - yt-note-checklist-concept
-  - yt-note-five-levels-training
-  - yt-note-live-field-skill
-  - yt-concept-ai-guard-brain
+- '[[yt-note-checklist-concept]]'
+- '[[yt-note-five-levels-training]]'
+- '[[yt-note-live-field-skill]]'
+- '[[yt-concept-ai-guard-brain]]'
 prerequisites:
-  - yt-note-checklist-concept
+- yt-note-checklist-concept
 source_refs:
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
-  - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
+- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
+- 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
 query_triggers:
-  - "AI笔记分工"
-  - "清单体与AI协作"
-  - "AI时代还要记笔记吗"
-  - "阿蕊老师怎么用"
-  - "新人AI陷阱"
-  - "笔记数据资产"
-  - "AI最大公约数"
+- AI笔记分工
+- 清单体与AI协作
+- AI时代还要记笔记吗
+- 阿蕊老师怎么用
+- 新人AI陷阱
+- 笔记数据资产
+- AI最大公约数
 created_at: 2026-06-07
 estimated_tokens: 3800
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-draft
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '用户把所有笔记工作都交给AI', 'framework_lens': '人不思考', 'follow_up_question': '你最近一次完全不用AI、独立整理并建模一个概念是什么时候？'}
-  - {'signal': '用户拒绝AI，坚持全部手写', 'framework_lens': '效率低', 'follow_up_question': '你手写笔记中有多少是AI可以帮你整理检索的？'}
-updated_at: 2026-06-13
+- signal: 用户把所有笔记工作都交给AI
+  framework_lens: 人不思考
+  follow_up_question: 你最近一次完全不用AI、独立整理并建模一个概念是什么时候？
+- signal: 用户拒绝AI，坚持全部手写
+  framework_lens: 效率低
+  follow_up_question: 你手写笔记中有多少是AI可以帮你整理检索的？
+updated_at: '2026-06-16'
 author: legacy
 reviewed_by: pending
 trust_level: low
 ---
-
 # AI时代笔记分工边界：人在哪里，AI在哪里
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的核心判断：AI时代不是不用练笔记，而是要练更高级的笔记。清单体是人类认知与AI处理之间的"最大公约数"——但前提是，人必须先走到L3以上。

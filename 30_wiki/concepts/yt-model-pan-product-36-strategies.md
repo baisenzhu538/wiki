@@ -1,54 +1,52 @@
 ---
 id: yt-model-pan-product-36-strategies
 component_of:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 confidence: 0.9
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2200
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 query_triggers:
-  - "36计"
-  - "泛产品设计工具箱"
-  - "36张卡牌"
-  - "产品设计工具全集"
-  - "泛产品设计工具体系"
-  - "36计怎么用"
+- 36计
+- 泛产品设计工具箱
+- 36张卡牌
+- 产品设计工具全集
+- 泛产品设计工具体系
+- 36计怎么用
 related:
-  - yt-model-pan-product-three-virtues
-  - yt-model-pan-product-climbing-map
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
-  - yt-model-pan-product-execution-toolkit
-  - yt-model-ipo-learning-strategy
+- '[[yt-model-pan-product-three-virtues]]'
+- '[[yt-model-pan-product-climbing-map]]'
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-model-pan-product-execution-toolkit]]'
+- '[[yt-model-ipo-learning-strategy]]'
 review_by: 2026-11-11
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计36计-全套地图.png"
-  - "10_raw/assets/yitang/泛产品设计-需求工具箱指南.png"
-  - "10_raw/assets/yitang/泛产品设计-审美工具箱指南.png"
-  - "10_raw/assets/yitang/泛产品设计落地工具篇指南.png"
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_7e8d10c4
 status: enriched
-title: "泛产品设计36计·全套官方工具箱"
+title: 泛产品设计36计·全套官方工具箱
 type: framework
 version: 1
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '用户学了36计但做设计时还是用老方法', 'framework_lens': '工具没有内化', 'follow_up_question': '你最近一次做设计时主动调用了36计中的哪一张？如果从来没有，只是收藏'}
-  - {'signal': '用户试图每张卡都用上', 'framework_lens': '过度使用', 'follow_up_question': '这个设计问题真的需要用到那么多工具吗？工具服务于问题'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户学了36计但做设计时还是用老方法
+  framework_lens: 工具没有内化
+  follow_up_question: 你最近一次做设计时主动调用了36计中的哪一张？如果从来没有，只是收藏
+- signal: 用户试图每张卡都用上
+  framework_lens: 过度使用
+  follow_up_question: 这个设计问题真的需要用到那么多工具吗？工具服务于问题
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 ## Constraints & Boundaries
 
 ### 适用边界

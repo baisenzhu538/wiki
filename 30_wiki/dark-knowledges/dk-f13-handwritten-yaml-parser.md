@@ -1,32 +1,28 @@
 ---
 id: dk-f13-handwritten-yaml-parser
-title: "F-KDO-013：手写 YAML 解析器导致嵌套数据丢失"
+title: F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - master
+- master
 source_person: system
-source_context: "failure-modes.md F-KDO-013"
+source_context: failure-modes.md F-KDO-013
 source_refs:
-  - 90_control/failure-modes.md#F-KDO-013
+- 90_control/failure-modes.md#F-KDO-013
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 related:
-  - dk-c1-regex-on-cjk
-  - master-systems-thinking
-related:
-  - kdo-yaml-frontmatter-safety
-  - master-first-principles
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[master-first-principles]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # F-KDO-013：手写 YAML 解析器导致嵌套数据丢失
 
 ## 原始表述

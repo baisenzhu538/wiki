@@ -17,12 +17,12 @@ reviewed_by: pending
 review_date: '2026-06-14'
 trust_level: high
 related:
-- modeling-capability-for-kdo
-- modeling-three-stages
-- modeling-capability-system
-- modeling-level-map
+- '[[modeling-capability-for-kdo]]'
+- '[[modeling-three-stages]]'
+- '[[modeling-capability-system]]'
+- '[[modeling-level-map]]'
 tags:
-- '#modeling'
+- '#method/modeling'
 - '#kdo'
 - '#meta-method'
 - '#pipeline'

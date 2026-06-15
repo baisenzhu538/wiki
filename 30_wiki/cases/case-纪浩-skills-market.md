@@ -1,41 +1,40 @@
 ---
-id: "case-纪浩-skills-market"
-title: "案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助"
-type: "case"
-status: "draft"
+id: case-纪浩-skills-market
+title: 案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助
+type: case
+status: draft
 domain:
-  - "agent-infrastructure"
-  - "yitang"
-source_person: "纪浩"
-source_context: "AI俱乐部-AI协作方法论 分享"
+- agent-infrastructure
+- yitang
+source_person: 纪浩
+source_context: AI俱乐部-AI协作方法论 分享
 source_refs:
-  - "00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt"
+- 00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt
 tags:
-  - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
-  - "#domain/agent-infrastructure"
-  - "#domain/yitang"
-  - "#scene/agent-infrastructure/discovery-chain"
-  - "#scene/agent-infrastructure/skill-registry"
-  - "#scene/ai-collaboration/problem-validation"
-  - "#scene/ai-collaboration/skill-market"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking"
-  - "#scene/skill-engineering/manifest-design"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#type/case"
+- '#perspective/professional'
+- '#confidence/draft'
+- '#confidence/source-cited'
+- '#confidence/verified-by-case'
+- '#domain/agent-infrastructure'
+- '#domain/yitang'
+- '#scene/agent-infrastructure/discovery-chain'
+- '#scene/agent-infrastructure/skill-registry'
+- '#scene/ai-collaboration/problem-validation'
+- '#scene/ai-collaboration/skill-market'
+- '#method/learning-method'
+- '#scene/note-taking'
+- '#scene/skill-engineering/manifest-design'
+- '#scene/skill-engineering/publish-deploy'
+- '#content-format/case-study'
 created_at: 2026-06-07
-updated_at: 2026-06-07
+updated_at: '2026-06-16'
 related:
-  - "case-truman-ai-partner"
-author: "legacy"
-reviewed_by: "pending"
+- '[[case-truman-ai-partner]]'
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 案例：一堂内部 Skills 分发平台
 
 > 纪浩在 AI 俱乐部分享中描述的真实案例——一堂团队从"微信传 zip"到"Agent 自助下载安装"的 Skills 分发平台建设历程。

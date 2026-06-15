@@ -12,8 +12,8 @@ source_refs:
 component_of:
 - ai-learning-closed-loop
 related:
-- course-to-skill-conversion
-- voice-input-doubao
+- '[[course-to-skill-conversion]]'
+- '[[voice-input-doubao]]'
 query_triggers:
 - PRD文档怎么写
 - 怎么让AI执行PRD
@@ -27,8 +27,8 @@ created_at: 2026-06-15
 confidence: 0.7
 trust_level: low
 title: prd as ai instruction
+updated_at: '2026-06-16'
 ---
-
 # PRD文档作为AI可执行指令
 
 > Source: [[src_20260606_90b44191]] (半肥猫-AI学习落地-口述，第430-448行)

@@ -4,53 +4,55 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 domain:
-  - yitang
+- yitang
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
-  - "火箭模型"
-  - "科学表达"
-  - "表达力训练"
-  - "演讲结构设计"
-  - "四级火箭"
-  - "情感共鸣"
-  - "逻辑推演"
-  - "行动推进"
-  - "公开演讲技巧"
-  - "如何做好演讲"
+- 火箭模型
+- 科学表达
+- 表达力训练
+- 演讲结构设计
+- 四级火箭
+- 情感共鸣
+- 逻辑推演
+- 行动推进
+- 公开演讲技巧
+- 如何做好演讲
 related:
-  - yt-model-personal-pitch-toolkit
-  - yt-model-prompt-engineering
+- '[[yt-model-personal-pitch-toolkit]]'
+- '[[yt-model-prompt-engineering]]'
 review_date: 2026-05-08
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型.png"
-  - "10_raw/assets/yitang/一堂-个人修炼-表达力火箭模型-执行武器库.png"
+reviewed_by: 黄药师
 source_refs:
 - src_20260609_bb221484
 status: enriched
-title: "科学表达（火箭模型）"
+title: 科学表达（火箭模型）
 trust_level: medium
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "科学表达（火箭模型）"
+  module: 科学表达（火箭模型）
   course_id: 410
   course_type: method
   level: core
-  series: True
+  series: true
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '表达结构能清晰对应火箭模型的四个阶段', 'framework_lens': '表达是逐级推进', 'follow_up_question': '你的表达中，哪一部分负责建立认知？哪一部分推动行动？'}
-  - {'signal': '能根据听众状态调整每个阶段的比重', 'framework_lens': '表达服务于听众', 'follow_up_question': '如果听众已经认同你，是否可以跳过或缩短某个阶段？'}
-  - {'signal': '关键表达会经过逐字打磨和反复演练', 'framework_lens': '精确表达需要刻意练习', 'follow_up_question': '你为这次表达做了几次完整演练？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 表达结构能清晰对应火箭模型的四个阶段
+  framework_lens: 表达是逐级推进
+  follow_up_question: 你的表达中，哪一部分负责建立认知？哪一部分推动行动？
+- signal: 能根据听众状态调整每个阶段的比重
+  framework_lens: 表达服务于听众
+  follow_up_question: 如果听众已经认同你，是否可以跳过或缩短某个阶段？
+- signal: 关键表达会经过逐字打磨和反复演练
+  framework_lens: 精确表达需要刻意练习
+  follow_up_question: 你为这次表达做了几次完整演练？
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # 科学表达（火箭模型）
 
 > 来源：一堂个人必修课"练能力"模块——科学表达必修课+公开演讲练习。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

@@ -1,11 +1,12 @@
 ---
 id: case-truman-yitang-foresight
-title: "Truman一堂：市场扫描→六方向→Plan ABC试错"
+title: Truman一堂：市场扫描→六方向→Plan ABC试错
 type: case
 domain:
-  - yitang
+- yitang
 source_refs:
-- src_20260614_8269ccdb
+- 00_inbox/一堂-机会预判课-Truman-口述.txt
+- 00_inbox/一堂-机会预判课-truman-笔记.txt
 status: enriched
 confidence: 0.9
 difficulty: intermediate
@@ -14,32 +15,29 @@ language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
-  - "黄药师"
-  - laowantong
-source_refs:
-  - "00_inbox/一堂-机会预判课-Truman-口述.txt"
-  - "00_inbox/一堂-机会预判课-truman-笔记.txt"
-source_person: "Truman（一堂创始人）"
-source_context: "Truman在第一节课中分享的自己从-1到0创立一堂的真实预判过程"
+- 黄药师
+- laowantong
+source_person: Truman（一堂创始人）
+source_context: Truman在第一节课中分享的自己从-1到0创立一堂的真实预判过程
 query_triggers:
-  - "Truman预判"
-  - "一堂创立"
-  - "创业服务预判"
-  - "内部创业"
-  - "Plan ABC"
-  - "六方向三选项"
+- Truman预判
+- 一堂创立
+- 创业服务预判
+- 内部创业
+- Plan ABC
+- 六方向三选项
 wiki_refs:
-  - 30_wiki/concepts/yt-foresight-15-char-mantra.md
-  - 30_wiki/concepts/yt-foresight-probability-engineering.md
-  - 30_wiki/concepts/yt-foresight-deliverables-four-levels.md
-  - 30_wiki/concepts/case-gudong-tea-shop-foresight.md
+- '[[yt-foresight-15-char-mantra]]'
+- '[[yt-foresight-probability-engineering]]'
+- '[[yt-foresight-deliverables-four-levels]]'
+- '[[case-gudong-tea-shop-foresight]]'
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-outcome
-author: "老顽童"
+- confidence-source-cited
+- confidence-verified-by-outcome
+author: 老顽童
 trust_level: medium-high
+updated_at: '2026-06-16'
 ---
-
 # Truman一堂：市场扫描→六方向→Plan ABC试错
 
 ## 背景

@@ -1,56 +1,52 @@
 ---
 id: yt-model-pan-product-aesthetic-toolkit
 component_of:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 confidence: 0.85
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1600
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
-  - yt-model-pan-product-demand-toolkit
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
 query_triggers:
-  - "审美能力"
-  - "最佳实践"
-  - "审美工具箱"
-  - "怎么提升审美"
-  - "怎么找对标案例"
-  - "审美建模方法"
-  - "如何建立审美标准"
+- 审美能力
+- 最佳实践
+- 审美工具箱
+- 怎么提升审美
+- 怎么找对标案例
+- 审美建模方法
+- 如何建立审美标准
 related:
-  - yt-model-pan-product-36-strategies
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-execution-toolkit
-  - yt-model-ipo-learning-strategy
+- '[[yt-model-pan-product-36-strategies]]'
+- '[[yt-model-pan-product-demand-toolkit]]'
+- '[[yt-model-pan-product-execution-toolkit]]'
+- '[[yt-model-ipo-learning-strategy]]'
 review_by: 2026-11-11
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计-审美工具箱指南.png"
-  - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践收集.png"
-  - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践池子.png"
-  - "10_raw/assets/yitang/泛产品设计-审美卡片-最佳实践建模.png"
-  - "10_raw/assets/yitang/泛产品设计-审美卡片-美好作品想象.png"
-  - "10_raw/sources/一堂-个人修身-泛产品设计审美口述.md"
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_65a78106
 status: enriched
-title: "泛产品设计·审美工具箱（4张卡牌）"
+title: 泛产品设计·审美工具箱（4张卡牌）
 type: framework
 version: 1
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '用户看了审美卡牌但还是做不出好设计', 'framework_lens': '只看不练', 'follow_up_question': '你最近一个月认真分析了多少个最佳实践案例？又模仿/改造了几个？'}
-  - {'signal': '用户直接套用审美模型，不找最佳实践', 'framework_lens': '缺少案例输入', 'follow_up_question': '你这个设计领域的最佳实践案例在哪里？如果没有，模型只是空壳'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户看了审美卡牌但还是做不出好设计
+  framework_lens: 只看不练
+  follow_up_question: 你最近一个月认真分析了多少个最佳实践案例？又模仿/改造了几个？
+- signal: 用户直接套用审美模型，不找最佳实践
+  framework_lens: 缺少案例输入
+  follow_up_question: 你这个设计领域的最佳实践案例在哪里？如果没有，模型只是空壳
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 ## Constraints & Boundaries
 
 ### 适用边界

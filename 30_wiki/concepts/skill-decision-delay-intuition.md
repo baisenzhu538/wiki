@@ -1,44 +1,43 @@
 ---
-id: "skill-decision-delay-intuition"
-title: "技能：延迟直觉法"
-type: "skill"
-status: "draft"
+id: skill-decision-delay-intuition
+title: 技能：延迟直觉法
+type: skill
+status: draft
 domain:
-  - "决策"
-  - "认知"
-  - "个人管理"
-source_person: "消化全库后提炼"
-source_context: "基于master-decision-hygiene框架提炼，2026-05-18"
+- 决策
+- 认知
+- 个人管理
+source_person: 消化全库后提炼
+source_context: 基于master-decision-hygiene框架提炼，2026-05-18
 source_refs:
-  - {'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}
+- 来源: Daniel Kahneman, Olivier Sibony, Cass Sunstein
 wiki_refs:
-  - "master-decision-hygiene"
-  - "master-cognitive-bias-checklist"
+- '[[master-decision-hygiene]]'
+- '[[master-cognitive-bias-checklist]]'
 definition_of_done:
-  - "每次重大决策强制等待24小时"
-  - "重新审视时至少发现1个不同"
-  - '能说出"24小时前我的判断是X，现在我认为Y"'
+- 每次重大决策强制等待24小时
+- 重新审视时至少发现1个不同
+- 能说出"24小时前我的判断是X，现在我认为Y"
 tools_required:
-  - "无（纯思维工具）"
-  - "日历/提醒工具（设置延迟提醒）"
+- 无（纯思维工具）
+- 日历/提醒工具（设置延迟提醒）
 prerequisite_skills:
-  - "skill-cognitive-bias-12-check"
-  - "skill-decision-outside-view"
-related:
+- skill-cognitive-bias-12-check
+- skill-decision-outside-view
+related: null
 created_at: 2026-06-11
-updated_at: 2026-06-11
+updated_at: '2026-06-16'
 tags:
-  - None
-  - None
-  - None
+- None
+- None
+- None
 pipeline:
-  - None
-reviewed_by: "laowantong"
-author: "legacy"
+- None
+reviewed_by: laowantong
+author: legacy
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 技能：延迟直觉法
 
 > **来源**：基于 master-decision-hygiene 框架提炼（Kahneman《噪声》）

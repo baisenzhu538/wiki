@@ -4,42 +4,45 @@ confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-  - master
+- master
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
-  - yt-model-agent-architecture
+- yt-model-agent-architecture
 query_triggers:
-  - "为什么目标总是达不成"
-  - "OKR失败原因"
-  - "决策系统设计"
-  - "拖延的本质"
-  - "架构错配"
-  - "什么是PEAS"
-  - "升级本质是换架构"
+- 为什么目标总是达不成
+- OKR失败原因
+- 决策系统设计
+- 拖延的本质
+- 架构错配
+- 什么是PEAS
+- 升级本质是换架构
 related:
-  - yt-tool-peas-agent-analysis
-  - yt-model-agent-architecture
-  - yt-model-cognitive-upgrade-framework
-  - yt-decision-habit-shift
-  - yt-decision-y-model
-reviewed_by: "黄药师"
+- '[[yt-tool-peas-agent-analysis]]'
+- '[[yt-model-agent-architecture]]'
+- '[[yt-model-cognitive-upgrade-framework]]'
+- '[[yt-decision-habit-shift]]'
+- '[[yt-decision-y-model]]'
+reviewed_by: 黄药师
 source_refs:
-  - 10_raw/sources/aima-ai-thinking-card-20260515.html
+- 10_raw/sources/aima-ai-thinking-card-20260515.html
 status: enriched
-title: "PEAS核心洞察：决策系统的四槽诊断法"
+title: PEAS核心洞察：决策系统的四槽诊断法
 trust_level: medium
 type: concept
 version: 1
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户定了很多OKR，但只写了目标数字，没定义怎么衡量', 'framework_lens': 'P填了但E/A/S空槽——PEAS四槽缺一不可', 'follow_up_question': '你的目标对应的环境、可执行动作、反馈传感器分别是什么？如果答不上来，目标系统是残缺的'}
-  - {'signal': '团队很努力但目标达不成', 'framework_lens': '可能是架构错配，不是努力问题', 'follow_up_question': '这个失败是因为不够努力，还是因为某个PEAS槽位为空或与环境不匹配？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户定了很多OKR，但只写了目标数字，没定义怎么衡量
+  framework_lens: P填了但E/A/S空槽——PEAS四槽缺一不可
+  follow_up_question: 你的目标对应的环境、可执行动作、反馈传感器分别是什么？如果答不上来，目标系统是残缺的
+- signal: 团队很努力但目标达不成
+  framework_lens: 可能是架构错配，不是努力问题
+  follow_up_question: 这个失败是因为不够努力，还是因为某个PEAS槽位为空或与环境不匹配？
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # PEAS核心洞察：决策系统的四槽诊断法
 
 > **一句话**：90% 的目标失败不是因为不够努力，是因为只填了 P（目标数字），漏了 E/A/S。

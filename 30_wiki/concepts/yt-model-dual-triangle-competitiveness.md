@@ -4,47 +4,45 @@ confidence: 0.85
 created_at: 2026-05-07
 difficulty: foundational
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1915
 language: zh-CN
 query_triggers:
-  - "人类三角 × AI 三角"
-  - "关联卡片"
-  - "双三角竞争力模型"
-  - "双螺旋增强回路"
-  - "基础层"
-  - "知识体系定位"
+- 人类三角 × AI 三角
+- 关联卡片
+- 双三角竞争力模型
+- 双螺旋增强回路
+- 基础层
+- 知识体系定位
 related:
-  - yt-model-muse-ai-framework
-  - yt-personal-ai-capability
-  - yt-personal-ipo-learning
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-  - "10_raw/assets/yitang/一堂-个人修炼-双三角模型.jpg"
-  - 40_outputs/content/images/infographics/dual-triangle-competitiveness.excalidraw
-  - 40_outputs/content/images/infographics/dual-triangle-visual-analysis.md
+- '[[yt-model-muse-ai-framework]]'
+- '[[yt-personal-ai-capability]]'
+- '[[yt-personal-ipo-learning]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260613_96e45c45
 status: enriched
-title: "双三角竞争力模型"
+title: 双三角竞争力模型
 type: framework
 version: 1
 yitang:
   map: personal
-  module: "AI 思维模型"
+  module: AI 思维模型
   course_type: model
   level: foundational
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户AI工具用得很溜，但业务结果一般', 'framework_lens': 'AI三角强但人类三角弱——工具能力强不等于业务判断力强', 'follow_up_question': '你能分辨AI输出中哪些是高质量分析、哪些是漂亮废话吗？如果不能，人类三角中的审美和判断力需要补'}
-  - {'signal': '用户业务能力强，但AI不会用', 'framework_lens': '人类三角强但AI三角弱——工具效率没有放大业务能力', 'follow_up_question': '你处理一个常规业务任务，AI能帮你省多少时间？如果<20%，AI基本功需要补'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户AI工具用得很溜，但业务结果一般
+  framework_lens: AI三角强但人类三角弱——工具能力强不等于业务判断力强
+  follow_up_question: 你能分辨AI输出中哪些是高质量分析、哪些是漂亮废话吗？如果不能，人类三角中的审美和判断力需要补
+- signal: 用户业务能力强，但AI不会用
+  framework_lens: 人类三角强但AI三角弱——工具效率没有放大业务能力
+  follow_up_question: 你处理一个常规业务任务，AI能帮你省多少时间？如果<20%，AI基本功需要补
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 # 双三角竞争力模型 (Yitang Dual Triangle Model)
 
 > 来源：一堂《AI 时代的竞争力·双三角模型》（2025.9.5 北京一堂实验室）。[[一堂]] | [[一堂方法论体系总图]]

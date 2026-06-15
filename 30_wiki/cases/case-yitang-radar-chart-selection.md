@@ -23,8 +23,8 @@ related:
 - '[[framework-logic-cleanliness-five-levels]]'
 - '[[dk-modeling-expert-consensus-five-percent]]'
 tags:
-- '#modeling'
-- '#case'
+- '#method/modeling'
+- '#content-format/case-study'
 - '#radar-chart'
 - '#decision'
 - '#selection'

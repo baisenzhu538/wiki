@@ -4,43 +4,46 @@ confidence: 0.85
 created_at: 2026-05-15
 difficulty: intermediate
 domain:
-  - ai-models
+- ai-models
 language: zh-CN
 query_triggers:
-  - "PEAS框架"
-  - "智能体架构"
-  - "agent架构层级"
-  - "理性智能体"
-  - "效用最大化决策"
-  - "简单反射agent"
-  - "学习型agent"
-  - "五层agent模型"
-  - "任务环境分类"
-  - "智能体设计"
+- PEAS框架
+- 智能体架构
+- agent架构层级
+- 理性智能体
+- 效用最大化决策
+- 简单反射agent
+- 学习型agent
+- 五层agent模型
+- 任务环境分类
+- 智能体设计
 related:
-  - yt-concept-ai-guard-brain
-  - yt-personal-ai-capability
-  - yt-model-prompt-engineering
-  - yt-personal-deliberate-practice
-  - yt-model-deep-review-iceberg
+- '[[yt-concept-ai-guard-brain]]'
+- '[[yt-personal-ai-capability]]'
+- '[[yt-model-prompt-engineering]]'
+- '[[yt-personal-deliberate-practice]]'
+- '[[yt-model-deep-review-iceberg]]'
 review_date: 2026-05-15
-reviewed_by: "黄药师"
+reviewed_by: 黄药师
 source_refs:
-  - 10_raw/sources/aima-ai-thinking-card-20260515.html
+- 10_raw/sources/aima-ai-thinking-card-20260515.html
 status: enriched
-title: "智能体架构：PEAS与五层Agent模型"
+title: 智能体架构：PEAS与五层Agent模型
 trust_level: medium
 type: framework
 version: 1
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '学了PEAS框架，但设计AI应用时还是用简单prompt', 'framework_lens': '理论与设计脱节——框架需要转化为具体架构选择', 'follow_up_question': '你的任务环境是哪种类型？完全可观察还是部分可观察？确定性还是随机性？这些特征决定了该用哪层agent'}
-  - {'signal': 'Agent设计过度复杂，一个小任务用了五层架构', 'framework_lens': '过度工程化——智能体层级应与任务复杂度匹配', 'follow_up_question': '这个任务真的需要学习和规划吗？如果只是简单响应，用反射型agent就够了'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 学了PEAS框架，但设计AI应用时还是用简单prompt
+  framework_lens: 理论与设计脱节——框架需要转化为具体架构选择
+  follow_up_question: 你的任务环境是哪种类型？完全可观察还是部分可观察？确定性还是随机性？这些特征决定了该用哪层agent
+- signal: Agent设计过度复杂，一个小任务用了五层架构
+  framework_lens: 过度工程化——智能体层级应与任务复杂度匹配
+  follow_up_question: 这个任务真的需要学习和规划吗？如果只是简单响应，用反射型agent就够了
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # 智能体架构：PEAS与五层Agent模型
 
 > 来源：Russell & Norvig《Artificial Intelligence: A Modern Approach》第4版，经AI思维卡深度加工。

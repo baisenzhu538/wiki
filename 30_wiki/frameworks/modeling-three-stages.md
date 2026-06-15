@@ -19,9 +19,9 @@ review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.75
 tags:
-- '#modeling'
-- '#framework'
-- '#yitang'
+- '#method/modeling'
+- '#content-format/framework'
+- '#domain/yitang'
 related:
 - '[[modeling-capability-system]]'
 - '[[modeling-level-map]]'

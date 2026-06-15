@@ -1,26 +1,25 @@
 ---
-id: "dk-truman-knowledge-extraction-three-schools"
-title: "知识萃取三流派：99%的知识付费只是A，一堂做B+C——为什么你学的大多数课只是“听个响”"
-type: "dark-knowledge"
-status: "draft"
+id: dk-truman-knowledge-extraction-three-schools
+title: 知识萃取三流派：99%的知识付费只是A，一堂做B+C——为什么你学的大多数课只是“听个响”
+type: dark-knowledge
+status: draft
 domain:
-  - "yitang"
-  - "personal-growth"
+- yitang
+- personal-growth
 source_refs:
-  - "00_inbox/ideas/一堂-个人修炼-知识萃取探索营口述版.md"
+- 00_inbox/ideas/一堂-个人修炼-知识萃取探索营口述版.md
 related:
-  - "yt-personal-pan-product-tools"
-  - "yt-note-checklist-concept"
-  - "dk-truman-iteration-to-aesthetic-ceiling"
-  - "dk-纪浩-constraint-beats-talent"
-created_at: "2026-06-09"
-updated_at: "2026-06-09"
-author: "legacy"
-reviewed_by: "pending"
+- '[[yt-personal-pan-product-tools]]'
+- '[[yt-note-checklist-concept]]'
+- '[[dk-truman-iteration-to-aesthetic-ceiling]]'
+- '[[dk-纪浩-constraint-beats-talent]]'
+created_at: '2026-06-09'
+updated_at: '2026-06-16'
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 知识萃取三流派：99%的知识付费只是A，一堂做B+C
 
 > Truman在知识萃取探索营中提出了一个极其锋利的分类：**市场上关于知识萃取有三个流派，绝大多数知识付费/IP属于A流派（知识付费派）——从单人单案例出发追求启发性和商品属性。B流派（经验萃取派）从组织管理出发追求务实有效。C流派（学科建模派）从大量案例抽象共性给行业提供教科书级解法。一堂走的是B+C，国内99%是A。**

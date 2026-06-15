@@ -1,72 +1,72 @@
 ---
 id: yt-management-toolkit-overview
 component_of:
-  - yt-model-management-map
+- yt-model-management-map
 confidence: 0.85
 created_at: 2026-05-19
 difficulty: foundational
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2800
 language: zh-CN
 query_triggers:
-  - "管理工具"
-  - "管理者工具箱"
-  - "管团队用什么工具"
-  - "管业务用什么方法"
-  - "一号位管理工具"
-  - "管理基本功落地"
-  - "管理修炼工具"
-  - "管理场景速查"
-  - "什么时候用什么管理工具"
-  - "管理问题诊断"
-  - "管理工具地图"
-  - "管理方法论落地"
-  - "团队管理实操"
-  - "管理者武器库"
-  - "管理效率工具"
-  - "管理实操指南"
-  - "管理者 checklist"
-  - "管理工具选择"
-  - "管理场景对应工具"
-  - "管理基本功工具化"
+- 管理工具
+- 管理者工具箱
+- 管团队用什么工具
+- 管业务用什么方法
+- 一号位管理工具
+- 管理基本功落地
+- 管理修炼工具
+- 管理场景速查
+- 什么时候用什么管理工具
+- 管理问题诊断
+- 管理工具地图
+- 管理方法论落地
+- 团队管理实操
+- 管理者武器库
+- 管理效率工具
+- 管理实操指南
+- 管理者 checklist
+- 管理工具选择
+- 管理场景对应工具
+- 管理基本功工具化
 related:
-  - yt-tool-meeting-designer
-  - yt-tool-hiring-scorecard
-  - yt-tool-okr-cycle
-  - yt-tool-strategy-workshop
-  - yt-tool-knowledge-extraction
-  - yt-tool-project-health-radar
-  - yt-tool-onboarding-90day
-  - yt-tool-equity-checklist
-  - yt-model-management-map
-  - yt-model-y-organization
-  - dk-yb9-cubox-deployment-failure
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-  - 30_wiki/concepts/yt-model-management-map.md
+- '[[yt-tool-meeting-designer]]'
+- '[[yt-tool-hiring-scorecard]]'
+- '[[yt-tool-okr-cycle]]'
+- '[[yt-tool-strategy-workshop]]'
+- '[[yt-tool-knowledge-extraction]]'
+- '[[yt-tool-project-health-radar]]'
+- '[[yt-tool-onboarding-90day]]'
+- '[[yt-tool-equity-checklist]]'
+- '[[yt-model-management-map]]'
+- '[[yt-model-y-organization]]'
+- '[[dk-yb9-cubox-deployment-failure]]'
 source_refs:
 - src_20260614_8f80cb0f
 status: enriched
-title: "管理工具箱总览"
+title: 管理工具箱总览
 trust_level: medium
 type: framework
 version: 1
 yitang:
   map: management
-  module: "方法论总纲"
+  module: 方法论总纲
   course_type: framework
   level: foundational
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '管理者什么工具都用，但什么场景都不深', 'framework_lens': '工具泛化', 'follow_up_question': '你最近一周最常用的3个管理工具是什么？如果超过5个，说明太泛'}
-  - {'signal': '管理者不知道当前问题该用什么工具', 'framework_lens': '工具选择困难', 'follow_up_question': '你能用一个标签描述当前的管理问题吗？如果不能，无法匹配工具'}
-updated_at: 2026-06-13
-author: "老顽童"
-reviewed_by: "欧阳锋"
+- signal: 管理者什么工具都用，但什么场景都不深
+  framework_lens: 工具泛化
+  follow_up_question: 你最近一周最常用的3个管理工具是什么？如果超过5个，说明太泛
+- signal: 管理者不知道当前问题该用什么工具
+  framework_lens: 工具选择困难
+  follow_up_question: 你能用一个标签描述当前的管理问题吗？如果不能，无法匹配工具
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: 欧阳锋
 ---
-
 # 管理工具箱总览
 
 > 来源：一堂管理地图工具化升级。管理域原有 16 张 concept 卡讲"应该做什么"，本框架及配套 8 张 tool 卡回答"怎么做"——从"知道"到"做到"的最后一公里。

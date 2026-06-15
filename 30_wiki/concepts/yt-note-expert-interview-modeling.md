@@ -1,45 +1,48 @@
 ---
 id: yt-note-expert-interview-modeling
-title: "专家访谈式笔记：边聊边建模的高阶认知工作流"
+title: 专家访谈式笔记：边聊边建模的高阶认知工作流
 type: concept
 status: draft
 domain:
-  - yitang
-  - personal-growth
+- yitang
+- personal-growth
 language: zh-CN
 version: 1
 confidence: 0.85
 source_refs:
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
-  - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
+- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
+- 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
 related:
-  - yt-note-checklist-concept
-  - yt-note-live-field-skill
-  - yt-note-l4-internalization
-  - dk-truman-flag-note-taking
-  - yt-tool-meeting-designer
+- '[[yt-note-checklist-concept]]'
+- '[[yt-note-live-field-skill]]'
+- '[[yt-note-l4-internalization]]'
+- '[[dk-truman-flag-note-taking]]'
+- '[[yt-tool-meeting-designer]]'
 query_triggers:
-  - "专家访谈怎么记笔记"
-  - "一边访谈一边建模"
-  - "实时笔记"
-  - "访谈笔记方法"
-  - "现场萃取专家经验"
-  - "用户访谈笔记"
-  - "磨课笔记"
+- 专家访谈怎么记笔记
+- 一边访谈一边建模
+- 实时笔记
+- 访谈笔记方法
+- 现场萃取专家经验
+- 用户访谈笔记
+- 磨课笔记
 created_at: 2026-06-10
 estimated_tokens: 4500
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户访谈时只顾记录，无法现场建模', 'framework_lens': '剩余脑力不足', 'follow_up_question': '你记录时是否已经自动化，不需要占用全部脑力？如果不是，还到不了建模层'}
-  - {'signal': '用户现场建模但让对方觉得不尊重', 'framework_lens': '关系张力处理不好', 'follow_up_question': '你建模时有没有和对方互动、确认、挑战？还是只顾自己写？'}
-updated_at: 2026-06-13
+- signal: 用户访谈时只顾记录，无法现场建模
+  framework_lens: 剩余脑力不足
+  follow_up_question: 你记录时是否已经自动化，不需要占用全部脑力？如果不是，还到不了建模层
+- signal: 用户现场建模但让对方觉得不尊重
+  framework_lens: 关系张力处理不好
+  follow_up_question: 你建模时有没有和对方互动、确认、挑战？还是只顾自己写？
+updated_at: '2026-06-16'
 author: legacy
 reviewed_by: pending
 trust_level: low
 ---
-
 # 专家访谈式笔记：边聊边建模的高阶认知工作流
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman将其定义为"目前教研里面最核心的一个工作"——找一个专家/讲师/案主，**一边访谈一边记笔记，一边挖掘、一边互动，一边纠偏，还要挑战**——最终现场整理出比对方更清晰的模型，甚至直接把访谈笔记翻译为课程大纲。

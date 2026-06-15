@@ -23,8 +23,8 @@ related:
 - '[[modeling-level-map]]'
 - '[[tool-checklist-cheatsheet-modeling]]'
 tags:
-- '#modeling'
-- '#tool'
+- '#method/modeling'
+- '#content-format/concept-card'
 - '#sabc'
 - '#tier'
 - '#priority'

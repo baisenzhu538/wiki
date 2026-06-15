@@ -1,12 +1,13 @@
 ---
 id: dk-foresight-source-material-blindness
-title: "暗知识：素材命名不一致导致完整口述稿被遗漏"
+title: 暗知识：素材命名不一致导致完整口述稿被遗漏
 type: dark-knowledge
 dark_knowledge_type: process-failure
 domain:
-  - yitang
+- yitang
 source_refs:
-- src_20260614_8f80cb0f
+- 60_feedback/corrections/corr_20260611_laowantong-机会预判域-OCR遗漏+旧卡未清理.md
+- 60_feedback/corrections/corr_20260611_hongqigong-机会预判域-OCR流程盲区.md
 status: enriched
 confidence: 0.95
 difficulty: beginner
@@ -15,26 +16,23 @@ language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
-  - "黄药师"
-  - laowantong
-source_refs:
-  - "60_feedback/corrections/corr_20260611_laowantong-机会预判域-OCR遗漏+旧卡未清理.md"
-  - "60_feedback/corrections/corr_20260611_hongqigong-机会预判域-OCR流程盲区.md"
+- 黄药师
+- laowantong
 query_triggers:
-  - "素材遗漏"
-  - "命名不一致"
-  - "搜索盲区"
-  - "口述稿没找到"
-  - "文件名搜索"
+- 素材遗漏
+- 命名不一致
+- 搜索盲区
+- 口述稿没找到
+- 文件名搜索
 wiki_refs:
-  - 30_wiki/concepts/yt-foresight-15-char-mantra.md
+- '[[yt-foresight-15-char-mantra]]'
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-incident
-author: "欧阳锋"
+- confidence-source-cited
+- confidence-verified-by-incident
+author: 欧阳锋
 trust_level: medium-high
+updated_at: '2026-06-16'
 ---
-
 # 暗知识：素材命名不一致导致完整口述稿被遗漏
 
 ## 症状

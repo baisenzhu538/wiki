@@ -13,12 +13,12 @@ query_triggers:
 - 知识飞轮
 - 认知复利
 related:
-- yt-personal-ipo-learning
-- yt-personal-knowledge-extraction
-- yt-personal-knowledge-management
-- yt-personal-knowledge-management
-- master-systems-thinking
-- master-first-principles
+- '[[yt-personal-ipo-learning]]'
+- '[[yt-personal-knowledge-extraction]]'
+- '[[yt-personal-knowledge-management]]'
+- '[[yt-personal-knowledge-management]]'
+- '[[master-systems-thinking]]'
+- '[[master-first-principles]]'
 status: enriched
 title: 知识复利：IPO+萃取+管理的上位整合
 type: concept

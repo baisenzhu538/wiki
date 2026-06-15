@@ -1,77 +1,97 @@
 ---
 id: yt-decision-full-process
 component_of:
-  - yt-decision-y-model
+- yt-decision-y-model
 confidence: 0.82
 created_at: 2026-05-17
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2600
 language: zh-CN
 prerequisites:
-  - yt-decision-y-model
+- yt-decision-y-model
 query_triggers:
-  - "科学决策流程"
-  - "决策全景地图"
-  - "决策工作流"
-  - "ROI落地"
-  - "有意识决策"
-  - "写初版"
-  - "细打磨"
-  - "有共识"
-  - "复盘循环"
-  - "决策训练"
+- 科学决策流程
+- 决策全景地图
+- 决策工作流
+- ROI落地
+- 有意识决策
+- 写初版
+- 细打磨
+- 有共识
+- 复盘循环
+- 决策训练
 related:
-  - yt-decision-habit-shift
-  - yt-decision-width-method
-  - yt-decision-depth-ladder
-  - yt-decision-height-toolkit
-  - yt-decision-consensus-iceberg
-  - yt-decision-review
-  - yt-decision-canvas
-  - yt-unit-model-overview
-  - yt-unit-model-ladder
-  - yt-unit-model-selection
-  - yt-unit-model-construction
-  - yt-unit-model-benchmark
-  - yt-unit-model-dynamic
-  - yt-unit-model-ai-assisted
-source_refs:
-  - "00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt"
-  - "00_inbox/科学决策/一堂-科学决策-ROI高阶训练全景图.png"
-  - "00_inbox/科学决策/一堂-科学决策-关键训练清单（重要））.png"
-  - "00_inbox/科学决策/一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.png"
-  - "00_inbox/科学决策/一堂-科学决策-发现决策.png"
-  - "00_inbox/科学决策/一堂-科学决策-商业模式-完整财务公式决策.png"
+- '[[yt-decision-habit-shift]]'
+- '[[yt-decision-width-method]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yt-decision-height-toolkit]]'
+- '[[yt-decision-consensus-iceberg]]'
+- '[[yt-decision-review]]'
+- '[[yt-decision-canvas]]'
+- '[[yt-unit-model-overview]]'
+- '[[yt-unit-model-ladder]]'
+- '[[yt-unit-model-selection]]'
+- '[[yt-unit-model-construction]]'
+- '[[yt-unit-model-benchmark]]'
+- '[[yt-unit-model-dynamic]]'
+- '[[yt-unit-model-ai-assisted]]'
 source_refs:
 - src_20260614_8f80cb0f
 status: enriched
-title: "科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型"
+title: 科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型
 trust_level: medium
 type: framework
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-  - {'image': '一堂-科学决策-ROI高阶训练全景图.png', 'dimensions': [{'色彩语义': '蓝=有意识(启蒙)→红=写初版(行动)→黄=细打磨(循环)→绿=做复盘(成长)；左侧武器库蓝紫=工具性'}, {'空间结构': 'T型结构——横向五阶段时间轴+纵向武器库；第3阶段横向最宽=最核心环节'}, {'信息层级': 'L0 主标题 → L1 阶段号+阶段名 → L2 认知误区 → L3 子模块 → L4 行动项 → L5 金句'}, {'负形利用': '阶段间白色间隙=认知"换气口"；3⇄4间距最小=紧密耦合；4-5间距拉大=需要跳跃'}, {'视觉隐喻': '全景地图=降低学习焦虑；时间轴箭头=不可逆进步；炼金术=五阶段物质转化；3天vs3年=时间杠杆'}]}
-  - {'image': '一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.png'}
-  - {'image': '一堂-科学决策-发现决策.png', 'dimensions': [{'色彩语义': '蓝=专业理性(分类标签)；黑=中性客观；白=清晰纯净；外框黑=聚光灯聚焦'}, {'空间结构': '垂直三段式(个人→团队→公司)；水平双轴(发现决策vs决策类型)；Z轴深度(悬浮卡片)'}, {'信息层级': 'L1课程定位→L2决策域(✓确认)→L3决策维度(①②③)→L4具体情境(冒号后)'}, {'负形利用': '外周黑边=决策黑箱隐喻；标题间距=呼吸节奏；右侧未用空间=扩展接口'}, {'视觉隐喻': '清单=显式列出；俄罗斯套娃=尺度嵌套；✓=意识觉醒；悬浮卡片=认知工具'}]}
-  - {'image': '一堂-科学决策-商业模式-完整财务公式决策.png', 'dimensions': [{'色彩语义': '蓝=未达标(L1-L3)；红=及格/突破(L4-L6)；黑=框架主干；灰=辅助分隔'}, {'空间结构': '垂直三层(导航锚点→能力轴→诊断矩阵)；T型结构(商业模式箭头穿透)'}, {'信息层级': 'P0商业模式→P1及格线+L4-L6→P2 L1-L3→P3错误矩阵→P4顶级认知空白'}, {'负形利用': 'L6右侧延伸=无上限成长；顶级认知空白=不可言说需顿悟；标题呼吸带'}, {'视觉隐喻': '时间轴=能力成熟度；蓝→红=认知跃迁；及格线=可习得技能；箭头=重力源；空白=默会知识'}]}
-  - {'image': '一堂-科学决策-关键训练清单（重要））.png', 'dimensions': [{'色彩语义': '深灰标题栏=权威容器；黑字=信息主体；蓝字=维度标签；红字=心态提示；绿字=行动要点'}, {'空间结构': '三列矩阵表格(决策维度/关键思考和心态/具体做事清单)；行=不同高度子维度'}, {'信息层级': 'L1 主标题 → L2 维度标签(宽度/深度/高度) → L3 子维度标签 → L4 具体问句和行动项'}, {'负形利用': '右侧空白区=给使用者留下自己的补充；行间距=高密度信息的呼吸感'}, {'视觉隐喻': '清单=checklist可复制执行；#默认我会...是心态突破点；三列式=从思维到行动的完整闭环'}]}
+- image: 一堂-科学决策-ROI高阶训练全景图.png
+  dimensions:
+  - 色彩语义: 蓝=有意识(启蒙)→红=写初版(行动)→黄=细打磨(循环)→绿=做复盘(成长)；左侧武器库蓝紫=工具性
+  - 空间结构: T型结构——横向五阶段时间轴+纵向武器库；第3阶段横向最宽=最核心环节
+  - 信息层级: L0 主标题 → L1 阶段号+阶段名 → L2 认知误区 → L3 子模块 → L4 行动项 → L5 金句
+  - 负形利用: 阶段间白色间隙=认知"换气口"；3⇄4间距最小=紧密耦合；4-5间距拉大=需要跳跃
+  - 视觉隐喻: 全景地图=降低学习焦虑；时间轴箭头=不可逆进步；炼金术=五阶段物质转化；3天vs3年=时间杠杆
+- image: 一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.png
+- image: 一堂-科学决策-发现决策.png
+  dimensions:
+  - 色彩语义: 蓝=专业理性(分类标签)；黑=中性客观；白=清晰纯净；外框黑=聚光灯聚焦
+  - 空间结构: 垂直三段式(个人→团队→公司)；水平双轴(发现决策vs决策类型)；Z轴深度(悬浮卡片)
+  - 信息层级: L1课程定位→L2决策域(✓确认)→L3决策维度(①②③)→L4具体情境(冒号后)
+  - 负形利用: 外周黑边=决策黑箱隐喻；标题间距=呼吸节奏；右侧未用空间=扩展接口
+  - 视觉隐喻: 清单=显式列出；俄罗斯套娃=尺度嵌套；✓=意识觉醒；悬浮卡片=认知工具
+- image: 一堂-科学决策-商业模式-完整财务公式决策.png
+  dimensions:
+  - 色彩语义: 蓝=未达标(L1-L3)；红=及格/突破(L4-L6)；黑=框架主干；灰=辅助分隔
+  - 空间结构: 垂直三层(导航锚点→能力轴→诊断矩阵)；T型结构(商业模式箭头穿透)
+  - 信息层级: P0商业模式→P1及格线+L4-L6→P2 L1-L3→P3错误矩阵→P4顶级认知空白
+  - 负形利用: L6右侧延伸=无上限成长；顶级认知空白=不可言说需顿悟；标题呼吸带
+  - 视觉隐喻: 时间轴=能力成熟度；蓝→红=认知跃迁；及格线=可习得技能；箭头=重力源；空白=默会知识
+- image: 一堂-科学决策-关键训练清单（重要））.png
+  dimensions:
+  - 色彩语义: 深灰标题栏=权威容器；黑字=信息主体；蓝字=维度标签；红字=心态提示；绿字=行动要点
+  - 空间结构: 三列矩阵表格(决策维度/关键思考和心态/具体做事清单)；行=不同高度子维度
+  - 信息层级: L1 主标题 → L2 维度标签(宽度/深度/高度) → L3 子维度标签 → L4 具体问句和行动项
+  - 负形利用: 右侧空白区=给使用者留下自己的补充；行间距=高密度信息的呼吸感
+  - 视觉隐喻: 清单=checklist可复制执行；#默认我会...是心态突破点；三列式=从思维到行动的完整闭环
 yitang:
   course_id: yt-decision-full-process
   course_type: framework
   level: intermediate
   map: entrepreneur
-  module: "科学决策"
+  module: 科学决策
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '团队每周走完整五阶段流程，但决策速度越来越慢，创新实验数量下降', 'framework_lens': '流程过度工程化——全景流程是训练框架，不是每个决策的强制工序', 'follow_up_question': '过去一周团队做了多少个决策？其中有多少个值得走完整五阶段？如果>50%走了完整版，说明阈值设得太低'}
-  - {'signal': "创业者说'我按流程做了完整分析，但还是错过了最好的机会'", 'framework_lens': "涌现战略被压抑——很多机会是'做出来才知道'，不是'分析出来'的", 'follow_up_question': '这个机会最初是怎么被识别的？是通过流程分析发现的，还是通过一个小实验、一次偶然反馈发现的？'}
-author: "老顽童"
+- signal: 团队每周走完整五阶段流程，但决策速度越来越慢，创新实验数量下降
+  framework_lens: 流程过度工程化——全景流程是训练框架，不是每个决策的强制工序
+  follow_up_question: 过去一周团队做了多少个决策？其中有多少个值得走完整五阶段？如果>50%走了完整版，说明阈值设得太低
+- signal: 创业者说'我按流程做了完整分析，但还是错过了最好的机会'
+  framework_lens: 涌现战略被压抑——很多机会是'做出来才知道'，不是'分析出来'的
+  follow_up_question: 这个机会最初是怎么被识别的？是通过流程分析发现的，还是通过一个小实验、一次偶然反馈发现的？
+author: 老顽童
 ---
-
 # 科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型
 
 

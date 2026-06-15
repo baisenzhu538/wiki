@@ -1,32 +1,31 @@
 ---
 id: dk-yb18-small-shop-image-mismatch
-title: "小店图片错配陷阱：精致摄影反而吓跑客户"
+title: 小店图片错配陷阱：精致摄影反而吓跑客户
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - design
-  - yitang
-  - business-strategy
-source_person: "月白"
-source_context: "口述稿: AI设计-AI设计师实操培训01"
+- design
+- yitang
+- business-strategy
+source_person: 月白
+source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
-  - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
+- 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
-updated_at: 2026-06-11
+updated_at: '2026-06-16'
 related:
-  - dk-yb16-ecommerce-product-image-vs-lucky-draw
-  - dk-yb19-visual-strategy-price-match
-  - yt-foresight-ten-fatal-flaws
+- '[[dk-yb16-ecommerce-product-image-vs-lucky-draw]]'
+- '[[dk-yb19-visual-strategy-price-match]]'
+- '[[yt-foresight-ten-fatal-flaws]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 小店图片错配陷阱：精致摄影反而吓跑客户
 
 ## 原始表述

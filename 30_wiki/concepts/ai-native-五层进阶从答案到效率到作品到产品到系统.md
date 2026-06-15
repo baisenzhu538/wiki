@@ -1,32 +1,31 @@
 ---
-id: "ai-native-五层进阶从答案到效率到作品到产品到系统"
-created_at: "“2026-05-23T17:29:50+00:00”"
+id: ai-native-五层进阶从答案到效率到作品到产品到系统
+created_at: “2026-05-23T17:29:50+00:00”
 domain:
-  - ai-saas
+- ai-saas
 query_triggers:
-  - "AI Native"
-  - "AI原生工作方式"
-  - "AI五层进阶"
-  - "个人AI系统搭建"
-  - "AI工作流"
+- AI Native
+- AI原生工作方式
+- AI五层进阶
+- 个人AI系统搭建
+- AI工作流
 related:
-  - master-knowledge-compound
-  - master-systems-thinking
-  - yt-panproduct-execution-core-and-boundary
+- '[[master-knowledge-compound]]'
+- '[[master-systems-thinking]]'
+- '[[yt-panproduct-execution-core-and-boundary]]'
 source_refs:
-  - "[“src_20260524_3cadf228”]"
+- '[“src_20260524_3cadf228”]'
 status: “enriched”
-title: "“AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统”"
+title: “AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统”
 type: “framework”
-updated_at: "“2026-05-24T00:00:00+00:00”"
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium
 ---
-
 # AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
 
 > **核心定位**：一个普通人从”把AI当搜索框”到”搭建个人AI操作系统”的五层进阶框架。层级不是按工具难度排序，而是按**复利密度和责任边界**排序——越往上，AI替你创造的长期资产越多，你必须承担的验证、安全、维护责任也越大。

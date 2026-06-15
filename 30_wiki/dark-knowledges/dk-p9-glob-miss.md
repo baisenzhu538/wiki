@@ -1,31 +1,28 @@
 ---
 id: dk-p9-glob-miss
-title: "P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸"
+title: P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - master
+- master
 source_person: system
-source_context: "pitfalls.md P-9"
+source_context: pitfalls.md P-9
 source_refs:
-  - .agent/pitfalls.md#P-9
+- .agent/pitfalls.md#P-9
 created_at: 2026-06-03
-updated_at: 2026-06-03
+updated_at: '2026-06-16'
 related:
-  - dk-p8-toolkit-forget
-related:
-  - master-first-principles
-  - master-ai-info-literacy
+- '[[master-first-principles]]'
+- '[[master-ai-info-literacy]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
 
 ## 原始表述

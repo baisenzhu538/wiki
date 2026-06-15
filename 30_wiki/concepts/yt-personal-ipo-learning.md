@@ -4,50 +4,52 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 domain:
-  - yitang
+- yitang
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
-  - "IPO 科学学习"
-  - "世界学习法与四大渠道"
-  - "分层学习法六级"
-  - "处理"
-  - "模型总览"
-  - "科学学习"
-  - "质变点与四大联系练习"
-  - "输入"
-  - "输出"
+- IPO 科学学习
+- 世界学习法与四大渠道
+- 分层学习法六级
+- 处理
+- 模型总览
+- 科学学习
+- 质变点与四大联系练习
+- 输入
+- 输出
 related:
-  - master-systems-thinking
+- '[[master-systems-thinking]]'
 review_date: 2026-05-07
-reviewed_by: "黄药师"
-source_refs:
-  - src_20260507_85c9ae50
-  - src_20260507_31a7f2df
+reviewed_by: 黄药师
 source_refs:
 - src_20260609_e3a27299
 status: enriched
-title: "IPO 科学学习"
+title: IPO 科学学习
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "IPO 科学学习"
+  module: IPO 科学学习
   course_id: 402
   course_type: method
   level: foundational
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '学习过程能明确区分 Input、Process、Output 三个阶段', 'framework_lens': 'IPO 是学习的完整循环', 'follow_up_question': '你最近的一次学习中，Output 是什么？'}
-  - {'signal': 'Output 层级≥3（如用自己的话重述、建立模型、解决实际问题）', 'framework_lens': '输出深度反映内化程度', 'follow_up_question': '你这次学习的输出，是复制原文还是自己的重构？'}
-  - {'signal': '学习后会用反馈修正下一轮 Input 和 Process', 'framework_lens': '学习是螺旋上升的闭环', 'follow_up_question': '上一次输出后，你根据反馈调整了哪些学习方法？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 学习过程能明确区分 Input、Process、Output 三个阶段
+  framework_lens: IPO 是学习的完整循环
+  follow_up_question: 你最近的一次学习中，Output 是什么？
+- signal: Output 层级≥3（如用自己的话重述、建立模型、解决实际问题）
+  framework_lens: 输出深度反映内化程度
+  follow_up_question: 你这次学习的输出，是复制原文还是自己的重构？
+- signal: 学习后会用反馈修正下一轮 Input 和 Process
+  framework_lens: 学习是螺旋上升的闭环
+  follow_up_question: 上一次输出后，你根据反馈调整了哪些学习方法？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 # IPO 科学学习
 
 > 来源：Truman (许楚) 周五直播课，course_id 402，IPO 科学学习实操篇（下）。[[一堂方法论体系总图]] | [[yitang-course-map]]

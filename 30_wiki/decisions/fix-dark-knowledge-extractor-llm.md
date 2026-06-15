@@ -11,8 +11,7 @@ target_roles:
 - 黄药师（Builder）
 reviewer: 欧阳锋（Architect）
 related:
-- task-20260531-huangyaoshi-extractor-run-all
-- plan_20260531_data-curator-v1.3
+- '[[plan_20260531_data-curator-v1.3]]'
 author: legacy
 source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:

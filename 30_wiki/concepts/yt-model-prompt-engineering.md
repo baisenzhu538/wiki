@@ -1,48 +1,49 @@
 ---
 id: yt-model-prompt-engineering
-title: "人机协作操作系统：提示词工程总框架"
+title: 人机协作操作系统：提示词工程总框架
 type: framework
 source_refs:
-- src_20260522_1ede9202
+- 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
+- 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
+- https://www.deeplearning.ai/courses/ai-prompting-for-everyone/
 status: enriched
 domain:
-  - yitang
-  - ai
+- yitang
+- ai
 language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.9
 related:
-  - yt-model-cognitive-upgrade-framework
-  - master-ai-info-literacy
-source_refs:
-  - "10_raw/sources/一堂-拆书会-吴恩达提示词课程.md"
-  - "10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf"
-  - "https://www.deeplearning.ai/courses/ai-prompting-for-everyone/"
+- '[[yt-model-cognitive-upgrade-framework]]'
+- '[[master-ai-info-literacy]]'
 query_triggers:
-  - "提示词工程"
-  - "人机协作"
-  - "AI合伙人"
-  - "七层工作流"
-  - "范式转换"
-  - "AI管理"
-  - "迭代提示词"
-  - "反谄媚"
-  - "上下文工程"
+- 提示词工程
+- 人机协作
+- AI合伙人
+- 七层工作流
+- 范式转换
+- AI管理
+- 迭代提示词
+- 反谄媚
+- 上下文工程
 created_at: 2026-05-13
-reviewed_by: "黄药师"
+reviewed_by: 黄药师
 estimated_tokens: 2500
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '用户只会写简单prompt，不建工作流', 'framework_lens': '停留在技巧层', 'follow_up_question': '你的工作中有多少环节已经用AI工作流替代或增强？如果<20%，还停留在技巧层'}
-  - {'signal': '用户让AI做所有决策，自己不思考', 'framework_lens': '人类判断力缺失', 'follow_up_question': '你最近一次对AI输出说了"这个不对，因为..."是什么时候？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户只会写简单prompt，不建工作流
+  framework_lens: 停留在技巧层
+  follow_up_question: 你的工作中有多少环节已经用AI工作流替代或增强？如果<20%，还停留在技巧层
+- signal: 用户让AI做所有决策，自己不思考
+  framework_lens: 人类判断力缺失
+  follow_up_question: 你最近一次对AI输出说了"这个不对，因为..."是什么时候？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 # 人机协作操作系统：提示词工程总框架
 
 > 基于吴恩达《AI Prompting for Everyone》（21节课） × 一堂拆书会第202期深度消化。提示词工程不是"写提示词的技巧"，而是**把 AI 纳入自己工作系统的管理能力**。

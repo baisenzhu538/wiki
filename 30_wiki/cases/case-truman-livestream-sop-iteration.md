@@ -4,39 +4,37 @@ title: 一堂直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法
 type: case
 source_refs:
 - src_20260614_8269ccdb
+- src_20260614_42f1e977
 status: enriched
-confidence: 0.90
+confidence: 0.9
 domain:
-  - yitang
-  - product
-source_refs:
-  - src_20260614_8269ccdb
-  - src_20260614_42f1e977
-created_at: "2026-06-14"
+- yitang
+- product
+created_at: '2026-06-14'
 author: 黄药师（基于 Truman 口述提取）
 reviewed_by: 黄药师
-review_date: "2026-06-14"
+review_date: '2026-06-14'
 trust_level: high
 related:
-  - "modeling-capability-for-kdo"
-  - modeling-three-stages
-  - modeling-capability-system
-  - modeling-to-kdo-toolchain
+- '[[modeling-capability-for-kdo]]'
+- '[[modeling-three-stages]]'
+- '[[modeling-capability-system]]'
+- '[[modeling-to-kdo-toolchain]]'
 tags:
-  - "#modeling"
-  - "#case"
-  - "#sop"
-  - "#iteration"
-  - "#yitang"
+- '#method/modeling'
+- '#content-format/case-study'
+- '#content-format/sop'
+- '#iteration'
+- '#domain/yitang'
 diagnostic_signals:
-  - signal: "我们有SOP但没人执行"
-    framework_lens: 迭代第二阶段——给SOP加SOP
-    follow_up_question: 你的SOP是写给谁的？有没有专人负责检查每个节点？
-  - signal: "我们做了checklist但质量一直不提升"
-    framework_lens: 迭代第三阶段——微颗粒度补丁
-    follow_up_question: 你最近一次SOP更新是什么时候？更新触发是什么？
+- signal: 我们有SOP但没人执行
+  framework_lens: 迭代第二阶段——给SOP加SOP
+  follow_up_question: 你的SOP是写给谁的？有没有专人负责检查每个节点？
+- signal: 我们做了checklist但质量一直不提升
+  framework_lens: 迭代第三阶段——微颗粒度补丁
+  follow_up_question: 你最近一次SOP更新是什么时候？更新触发是什么？
+updated_at: '2026-06-16'
 ---
-
 # Truman 直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法
 
 > **这不是方法论——这是方法论在现场长出来的过程。**

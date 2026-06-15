@@ -1,54 +1,57 @@
 ---
 id: yt-panproduct-demand-user-segmentation
 component_of:
-  - yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-demand-toolkit
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: foundational
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1133
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
+- yt-composite-pan-product-methodology
 query_triggers:
-  - "泛产品设计"
-  - "泛产品设计·用户卡片：用户分层"
-  - "用户分层"
-  - "用户卡片"
-  - "用户研究"
-  - "用户需求"
-  - "需求分析"
-  - "需求洞察"
+- 泛产品设计
+- 泛产品设计·用户卡片：用户分层
+- 用户分层
+- 用户卡片
+- 用户研究
+- 用户需求
+- 需求分析
+- 需求洞察
 related:
-  - yt-panproduct-demand-user-perspective
-  - yt-panproduct-demand-scenario-walkthrough
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计-用户卡片-用户分层.png"
+- '[[yt-panproduct-demand-user-perspective]]'
+- '[[yt-panproduct-demand-scenario-walkthrough]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_38ddd826
 status: enriched
-title: "泛产品设计·用户卡片：用户分层"
+title: 泛产品设计·用户卡片：用户分层
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: foundational
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '分层维度基于行为、需求或任务差异，而不是仅按年龄/性别等人口统计', 'framework_lens': '有效分层必须导向不同设计决策', 'follow_up_question': '这两个群体是否需要不同的功能、信息架构或运营策略？'}
-  - {'signal': '分层数量控制在能管理的范围内（通常 3-5 个核心群体），并有明确的优先级', 'framework_lens': '分层的价值在于聚焦，而非无限细分', 'follow_up_question': '如果只能为一个群体优化，你会选哪个？为什么？'}
-  - {'signal': '每个分层都有真实数据或访谈证据支撑，而不是拍脑袋画像', 'framework_lens': '分层是假设，需要验证', 'follow_up_question': '你最近一次用什么数据验证了某个分层的存在？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 分层维度基于行为、需求或任务差异，而不是仅按年龄/性别等人口统计
+  framework_lens: 有效分层必须导向不同设计决策
+  follow_up_question: 这两个群体是否需要不同的功能、信息架构或运营策略？
+- signal: 分层数量控制在能管理的范围内（通常 3-5 个核心群体），并有明确的优先级
+  framework_lens: 分层的价值在于聚焦，而非无限细分
+  follow_up_question: 如果只能为一个群体优化，你会选哪个？为什么？
+- signal: 每个分层都有真实数据或访谈证据支撑，而不是拍脑袋画像
+  framework_lens: 分层是假设，需要验证
+  follow_up_question: 你最近一次用什么数据验证了某个分层的存在？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium
 ---
-
 # 用户分层：分层理解用户差异
 
 > 需求工具箱第 2 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

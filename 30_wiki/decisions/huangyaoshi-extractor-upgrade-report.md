@@ -11,9 +11,8 @@ target_roles:
 - 欧阳锋（Architect）
 - 用户（决策者）
 related:
-- data-curator-role-division
-- plan_20260531_data-curator-v1.3
-- dark-knowledge-card-sop
+- '[[data-curator-role-division]]'
+- '[[plan_20260531_data-curator-v1.3]]'
 author: legacy
 source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:

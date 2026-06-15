@@ -23,9 +23,9 @@ related:
 - '[[case-thousand-people-square]]'
 - '[[case-personal-map-modeling]]'
 tags:
-- '#modeling'
-- '#case'
-- '#education'
+- '#method/modeling'
+- '#content-format/case-study'
+- '#industry/education'
 - '#milestone'
 ---
 # 案例：一堂课程里程碑模型——方法论级建模的六步生产流程

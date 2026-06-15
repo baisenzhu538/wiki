@@ -13,7 +13,7 @@ source_refs:
 component_of:
 - ai-landing-scene-selection
 related:
-- ai-landing-scene-selection
+- '[[ai-landing-scene-selection]]'
 query_triggers:
 - 怎么评估AI场景
 - AI场景选择检查清单
@@ -27,8 +27,8 @@ created_at: 2026-06-15
 confidence: 0.7
 trust_level: low
 title: find old do small
+updated_at: '2026-06-16'
 ---
-
 # "找老的干小的"场景评估框架
 
 > Source: [[src_20260606_ef4877d0]] (马易-AI落地场景识别-口述)

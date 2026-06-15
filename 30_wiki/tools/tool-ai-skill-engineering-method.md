@@ -22,11 +22,11 @@ related:
 - '[[dk-modeling-ai-cross-validation]]'
 - '[[dk-modeling-ai-self-retrospection]]'
 tags:
-- '#modeling'
-- '#tool'
+- '#method/modeling'
+- '#content-format/concept-card'
 - '#ai-skill'
 - '#skill-engineering'
-- '#ai-collaboration'
+- '#method/prompt-engineering'
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
 ---
 # AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位

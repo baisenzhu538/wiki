@@ -1,38 +1,37 @@
 ---
-id: "dk-半肥猫-real-business-is-the-engine"
-title: "暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁"
+id: dk-半肥猫-real-business-is-the-engine
+title: 暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁
 type: dk
 status: draft
 domain:
-  - ai-collaboration
-  - yitang
-source_person: "半肥猫"
-source_context: "AI俱乐部·AI学习落地（2026-06分享）"
+- ai-collaboration
+- yitang
+source_person: 半肥猫
+source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
-  - "00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt"
+- 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
 created_at: 2026-06-08
-updated_at: 2026-06-08
+updated_at: '2026-06-16'
 related:
-  - "case-半肥猫-from-assignment-to-tool"
-  - "concept-半肥猫-ai-learning-toolification-methodology"
+- '[[case-半肥猫-from-assignment-to-tool]]'
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 wiki_refs:
-  - "case-半肥猫-from-assignment-to-tool"
-  - "concept-半肥猫-ai-learning-toolification-methodology"
-  - "dk-半肥猫-silky-answers-are-dangerous"
+- '[[case-半肥猫-from-assignment-to-tool]]'
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[dk-半肥猫-silky-answers-are-dangerous]]'
 definition_of_done:
-  - "真实业务驱动的核心逻辑已描述"
-  - "打工心态 vs 老板心态的差异已分析"
-  - "常见失败模式已列出"
-  - "案例已验证"
+- 真实业务驱动的核心逻辑已描述
+- 打工心态 vs 老板心态的差异已分析
+- 常见失败模式已列出
+- 案例已验证
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁
 
 ## 核心命题

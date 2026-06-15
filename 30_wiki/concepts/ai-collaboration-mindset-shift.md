@@ -11,9 +11,9 @@ source_refs:
 - src_20260606_42e11f09
 component_of: null
 related:
-- structured-ai-workspace
-- ai-learning-closed-loop
-- ai-landing-scene-selection
+- '[[structured-ai-workspace]]'
+- '[[ai-learning-closed-loop]]'
+- '[[ai-landing-scene-selection]]'
 query_triggers:
 - 怎么和AI协作
 - AI输出质量怎么判断
@@ -28,8 +28,8 @@ created_at: 2026-06-15
 confidence: 0.7
 trust_level: low
 title: ai collaboration mindset shift
+updated_at: '2026-06-16'
 ---
-
 # AI协作思维转变：从"新手"到"管理者"
 
 > Source: [[src_20260606_42e11f09]] (纪浩-AI协作方法论-口述)

@@ -22,11 +22,7 @@ related:
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 - '[[kdo-protocol]]'
 - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
-tags:
-- null
-- null
-- null
-- null
+tags: []
 trust_level: medium
 reviewed_by: 黄药师
 review_date: 2026-05-04

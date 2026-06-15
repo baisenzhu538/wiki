@@ -23,9 +23,9 @@ related:
 - '[[dk-modeling-sop-execution-locks]]'
 - '[[framework-logic-cleanliness-five-levels]]'
 tags:
-- '#modeling'
-- '#case'
-- '#sop'
+- '#method/modeling'
+- '#content-format/case-study'
+- '#content-format/sop'
 - '#execution'
 - '#livestream'
 ---

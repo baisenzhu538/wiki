@@ -1,38 +1,36 @@
 ---
-id: "skill-一堂-spectrum-positioning"
-title: "技能：光谱模型定位法"
+id: skill-一堂-spectrum-positioning
+title: 技能：光谱模型定位法
 type: skill
 status: draft
 domain:
-  - product
-  - yitang
+- product
+- yitang
 source_person: Truman
-source_context: "一堂商业预判课"
+source_context: 一堂商业预判课
 source_refs:
-  - "00_inbox/一堂-商业预判课-Truman-口述.txt"
-  - "00_inbox/一堂-商业预判课-truman-笔记.txt"
+- 00_inbox/一堂-商业预判课-Truman-口述.txt
+- 00_inbox/一堂-商业预判课-truman-笔记.txt
 tools_required:
-  - "纸笔或文档工具"
+- 纸笔或文档工具
 prerequisite_skills:
-  - "skill-一堂-business-prediction-15-char"
+- skill-一堂-business-prediction-15-char
 related:
-  - "concept-一堂-business-prediction"
-  - "skill-一堂-business-prediction-15-char"
-  - "dk-一堂-p-type-vs-l-type"
+- '[[concept-一堂-business-prediction]]'
+- '[[skill-一堂-business-prediction-15-char]]'
 wiki_refs:
-  - "concept-一堂-business-prediction"
-  - "skill-一堂-business-prediction-15-char"
+- '[[concept-一堂-business-prediction]]'
+- '[[skill-一堂-business-prediction-15-char]]'
 created_at: 2026-06-10
-updated_at: 2026-06-10
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：光谱模型定位法
 
 ## Summary

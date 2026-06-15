@@ -1,32 +1,28 @@
 ---
 id: dk-f1-regex-on-cjk
-title: "F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched"
+title: F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - master
+- master
 source_person: system
-source_context: "failure-modes.md F-KDO-001"
+source_context: failure-modes.md F-KDO-001
 source_refs:
-  - 90_control/failure-modes.md#F-KDO-001
+- 90_control/failure-modes.md#F-KDO-001
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 related:
-  - dk-c1-cjk-regex-silent-fail
-  - master-ai-info-literacy
-related:
-  - dk-c1-cjk-regex-silent-fail
-  - master-ai-info-literacy
+- '[[dk-c1-cjk-regex-silent-fail]]'
+- '[[master-ai-info-literacy]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # F-KDO-001：CJK regex 静默零返回→kdo enrich 对中文页面永远返回 0 pages enriched
 
 ## 原始表述

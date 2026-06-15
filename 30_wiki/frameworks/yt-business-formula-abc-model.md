@@ -12,10 +12,10 @@ source_refs:
 - src_20260613_91f90839
 - src_20260614_6d9f7671
 tags:
-- "#business-formula"
-- "#framework"
-- "#yitang"
-- "#decision-quality"
+- '#method/evaluation-method'
+- '#content-format/framework'
+- '#domain/yitang'
+- '#decision-quality'
 created_at: '2026-06-14'
 updated_at: '2026-06-15'
 author: 孔阳
@@ -24,12 +24,12 @@ review_date: '2026-06-14'
 confidence: 0.9
 trust_level: high
 related:
-- "[[yt-management-business-formula]]"
-- "[[yt-business-formula-ten-paradigms]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-business-formula-six-level-logic]]"
-- "[[yt-unit-model-three-tools]]"
-- "[[yt-five-step-method]]"
+- '[[yt-management-business-formula]]'
+- '[[yt-business-formula-ten-paradigms]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-business-formula-six-level-logic]]'
+- '[[yt-unit-model-three-tools]]'
+- '[[yt-five-step-method]]'
 ---
 
 # 业务公式 ABC 模型（Ambition-Basis-Connection）

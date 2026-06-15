@@ -1,39 +1,38 @@
 ---
-id: "case-一堂-无人餐厅-hypothesis-failure"
-title: "案例：一堂无人餐厅项目因忽视关键假设而失败"
+id: case-一堂-无人餐厅-hypothesis-failure
+title: 案例：一堂无人餐厅项目因忽视关键假设而失败
 type: case
 status: draft
 domain:
-  - yitang
-  - business-strategy
-source_person: "一堂·Truman"
-source_context: "一堂-关键假设课-truman-笔记.txt"
+- yitang
+- business-strategy
+source_person: 一堂·Truman
+source_context: 一堂-关键假设课-truman-笔记.txt
 source_refs:
-  - "00_inbox/一堂-关键假设课-truman-笔记.txt"
+- 00_inbox/一堂-关键假设课-truman-笔记.txt
 created_at: 2026-06-08
-updated_at: 2026-06-09
+updated_at: '2026-06-16'
 related:
-  - "case-一堂-陈贤敏汉堡-hypothesis-validation"
-  - "concept-一堂-hypothesis-driven-business-methodology"
-  - "dk-一堂-wishful-thinking-kills-startups"
+- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[dk-一堂-wishful-thinking-kills-startups]]'
 wiki_refs:
-  - "case-一堂-陈贤敏汉堡-hypothesis-validation"
-  - "concept-一堂-hypothesis-driven-business-methodology"
-  - "dk-一堂-wishful-thinking-kills-startups"
+- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[dk-一堂-wishful-thinking-kills-startups]]'
 definition_of_done:
-  - "原始表述、问题、方案、可迁移、Feedback Path 均已填写"
-  - "关键假设失误点和验证路径已记录"
-  - "可迁移条件和不可复制场景已明确"
-  - "实际应用后收集反馈并更新案例"
+- 原始表述、问题、方案、可迁移、Feedback Path 均已填写
+- 关键假设失误点和验证路径已记录
+- 可迁移条件和不可复制场景已明确
+- 实际应用后收集反馈并更新案例
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 案例：一堂无人餐厅项目因忽视关键假设而失败
 
 ## 原始表述

@@ -4,39 +4,38 @@ confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-  - master
+- master
 estimated_tokens: 1622
 language: zh-CN
 query_triggers:
-  - "第一性原理"
-  - "拆到不可拆"
-  - "本质思维"
-  - "底层逻辑拆解"
+- 第一性原理
+- 拆到不可拆
+- 本质思维
+- 底层逻辑拆解
 related:
-  - yt-entrepreneur-liberate-thinking
-  - yt-personal-y-model-exploration-2
-  - yt-entrepreneur-liberate-thinking
-  - yt-panproduct-execution-core-and-boundary
-  - yt-personal-deep-review
-  - master-systems-thinking
-  - yt-unit-model-ladder
-  - yt-unit-model-construction
-  - yt-unit-model-dynamic
-  - dk-yb20-ai-eye-high-principle
+- '[[yt-entrepreneur-liberate-thinking]]'
+- '[[yt-personal-y-model-exploration-2]]'
+- '[[yt-entrepreneur-liberate-thinking]]'
+- '[[yt-panproduct-execution-core-and-boundary]]'
+- '[[yt-personal-deep-review]]'
+- '[[master-systems-thinking]]'
+- '[[yt-unit-model-ladder]]'
+- '[[yt-unit-model-construction]]'
+- '[[yt-unit-model-dynamic]]'
+- '[[dk-yb20-ai-eye-high-principle]]'
 source_refs:
-  - {'来源': 'Aristotle, Elon Musk'}
+- 来源: Aristotle, Elon Musk
 status: enriched
-title: "第一性原理拆解器"
+title: 第一性原理拆解器
 type: tool
-updated_at: 2026-05-18
+updated_at: '2026-06-16'
 version: 1
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 author: unknown
 trust_level: medium-high
 ---
-
 # 第一性原理拆解器
 
 > **核心定位**：当你觉得"这个行业只能这么做"时，**不从"别人怎么做"出发，而是从最基本的物理事实、数学约束、经济规律重新推导**。不是"换一个角度想"，是"把别人的角度全部归零，从第一行开始重新写代码"。**使用顺序**：位于反脆弱检查（#5）之后、认知偏差自检（#1）之前——先生成选项，再检查选项。

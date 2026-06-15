@@ -14,10 +14,8 @@ source_context: KDO internal record （原始 source 无法追溯，已标记为
 source_refs:
 - source_unknown
 related:
-- kdo-industrialization-manual
-- labeling-final-consolidation
-- plan_20260531_data-curator-v1.3
-- content-quality-gate
+- '[[labeling-final-consolidation]]'
+- '[[plan_20260531_data-curator-v1.3]]'
 id: proposal-deep-synthesis-infrastructure
 reviewed_by: pending
 confidence: 0.6

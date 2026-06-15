@@ -1,31 +1,28 @@
 ---
 id: dk-p20-bigram-fail
-title: "P-20：pre-screen bigram 匹配对中文文本完全失效"
+title: P-20：pre-screen bigram 匹配对中文文本完全失效
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - master
+- master
 source_person: system
-source_context: "pitfalls.md P-20"
+source_context: pitfalls.md P-20
 source_refs:
-  - .agent/pitfalls.md#P-20
+- .agent/pitfalls.md#P-20
 created_at: 2026-06-03
-updated_at: 2026-06-03
+updated_at: '2026-06-16'
 related:
-  - dk-p7-ocr-skip
-related:
-  - master-ai-info-literacy
-  - master-first-principles
+- '[[master-ai-info-literacy]]'
+- '[[master-first-principles]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # P-20：pre-screen bigram 匹配对中文文本完全失效
 
 ## 原始表述

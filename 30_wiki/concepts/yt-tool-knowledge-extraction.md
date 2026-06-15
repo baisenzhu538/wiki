@@ -1,62 +1,69 @@
 ---
 id: yt-tool-knowledge-extraction
 component_of:
-  - yt-management-toolkit-overview
+- yt-management-toolkit-overview
 confidence: 0.8
 created_at: 2026-05-19
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 3400
 language: zh-CN
 prerequisites:
-  - yt-management-toolkit-overview
+- yt-management-toolkit-overview
 query_triggers:
-  - "团队知识萃取"
-  - "隐性知识转化"
-  - "经验沉淀方法"
-  - "最佳实践萃取"
-  - "团队知识库建设"
-  - "知识萃取SOP"
-  - "专家经验提取"
-  - "知识文档化"
-  - "复盘知识化"
-  - "新人FAQ沉淀"
+- 团队知识萃取
+- 隐性知识转化
+- 经验沉淀方法
+- 最佳实践萃取
+- 团队知识库建设
+- 知识萃取SOP
+- 专家经验提取
+- 知识文档化
+- 复盘知识化
+- 新人FAQ沉淀
 related:
-  - yt-management-team-knowledge
-  - yt-management-project-management
-  - yt-management-onboarding
-  - yt-personal-knowledge-extraction
-  - yt-personal-knowledge-management
-  - master-knowledge-compound
-  - yt-decision-review
-  - yt-concept-weapon-arsenal
+- '[[yt-management-team-knowledge]]'
+- '[[yt-management-project-management]]'
+- '[[yt-management-onboarding]]'
+- '[[yt-personal-knowledge-extraction]]'
+- '[[yt-personal-knowledge-management]]'
+- '[[master-knowledge-compound]]'
+- '[[yt-decision-review]]'
+- '[[yt-concept-weapon-arsenal]]'
 source_refs:
-  - 30_wiki/concepts/yt-management-team-knowledge.md
+- 30_wiki/concepts/yt-management-team-knowledge.md
 status: draft
-title: "团队知识萃取器"
+title: 团队知识萃取器
 trust_level: medium
 type: tool
 version: 1
 yitang:
   map: management
-  module: "管团队"
+  module: 管团队
   course_type: tool
   level: core
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-draft
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '萃取前是否用 Cynefin 框架区分知识域（清晰/繁杂/复杂）', 'framework_lens': '域分类 / 反模式', 'follow_up_question': '复杂域知识是否被流程化萃取并标注为最佳实践？'}
-  - {'signal': '每篇萃取文档是否标注预计失效条件与使用场景', 'framework_lens': '时效性 / 边界诚实', 'follow_up_question': '团队是否把历史案例当作操作指南直接套用？'}
-  - {'signal': '萃取产出是否有使用率/ROI 数据反馈', 'framework_lens': '学习迁移 / 效果验证', 'follow_up_question': '知识库 50+ 文档中多少比例被实际使用？'}
-  - {'signal': '专家分享意愿与萃取者提问能力是否被前置评估', 'framework_lens': '激励机制 / 人力因素', 'follow_up_question': '专家是否因担心价值被替代而隐藏关键判断？'}
-updated_at: 2026-06-13
+- signal: 萃取前是否用 Cynefin 框架区分知识域（清晰/繁杂/复杂）
+  framework_lens: 域分类 / 反模式
+  follow_up_question: 复杂域知识是否被流程化萃取并标注为最佳实践？
+- signal: 每篇萃取文档是否标注预计失效条件与使用场景
+  framework_lens: 时效性 / 边界诚实
+  follow_up_question: 团队是否把历史案例当作操作指南直接套用？
+- signal: 萃取产出是否有使用率/ROI 数据反馈
+  framework_lens: 学习迁移 / 效果验证
+  follow_up_question: 知识库 50+ 文档中多少比例被实际使用？
+- signal: 专家分享意愿与萃取者提问能力是否被前置评估
+  framework_lens: 激励机制 / 人力因素
+  follow_up_question: 专家是否因担心价值被替代而隐藏关键判断？
+updated_at: '2026-06-16'
 author: legacy
 reviewed_by: pending
 ---
-
 # 团队知识萃取器
 
 > 来源：一堂《团队知识管理》课程工具化升级。本工具聚焦"萃取"这一核心动作——把散落在个人头脑中的经验转化为团队可复用的知识资产。与完整的知识管理体系不同，萃取器只回答三个问题：什么值得萃？怎么萃？萃得有没有用？

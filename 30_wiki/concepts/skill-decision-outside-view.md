@@ -1,36 +1,35 @@
 ---
 id: skill-decision-outside-view
-title: "技能：团队决策外部视角法"
+title: 技能：团队决策外部视角法
 type: skill
 status: draft
 domain:
-  - "决策"
-  - "团队"
-  - "噪声减少"
-source_person: "消化全库后提炼"
-source_context: "基于master-decision-hygiene框架提炼，2026-05-18"
+- 决策
+- 团队
+- 噪声减少
+source_person: 消化全库后提炼
+source_context: 基于master-decision-hygiene框架提炼，2026-05-18
 source_refs:
-  - {'来源': 'Daniel Kahneman, Olivier Sibony, Cass Sunstein'}
+- 来源: Daniel Kahneman, Olivier Sibony, Cass Sunstein
 wiki_refs:
-  - master-decision-hygiene
-  - master-cognitive-bias-checklist
+- '[[master-decision-hygiene]]'
+- '[[master-cognitive-bias-checklist]]'
 definition_of_done:
-  - "每次团队决策前执行"
-  - "独立评估结果差异≥20%"
-  - "聚合后的结论比任何个人更稳定"
+- 每次团队决策前执行
+- 独立评估结果差异≥20%
+- 聚合后的结论比任何个人更稳定
 tools_required:
-  - "无（纯思维工具）"
-  - "投票/评分工具（聚合用）"
+- 无（纯思维工具）
+- 投票/评分工具（聚合用）
 prerequisite_skills:
-  - skill-cognitive-bias-12-check
+- skill-cognitive-bias-12-check
 created_at: 2026-06-11
-updated_at: 2026-06-11
+updated_at: '2026-06-16'
 reviewed_by: laowantong
 author: legacy
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：团队决策外部视角法
 
 > **来源**：基于 master-decision-hygiene 框架提炼（Kahneman《噪声》）

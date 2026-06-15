@@ -1,31 +1,30 @@
 ---
-id: "ai时代判断力口述-3"
+id: ai时代判断力口述-3
 confidence: 0.75
 created_at: 2026-05-25
 difficulty: intermediate
 domain:
-  - ai-saas
-event: "一堂AI俱乐部第77场，2026-05-20"
+- ai-saas
+event: 一堂AI俱乐部第77场，2026-05-20
 language: zh-CN
 related:
-  - yt-personal-ipo-learning
-  - master-knowledge-compound
-  - "ocr-一堂-个人修炼-科学学习ipo模型"
+- '[[yt-personal-ipo-learning]]'
+- '[[master-knowledge-compound]]'
+- '[[ocr-一堂-个人修炼-科学学习ipo模型]]'
 source_refs:
-  - src_20260525_66059442
-speaker: "国帅（胡帅），一堂联合创始人兼CTO"
+- src_20260525_66059442
+speaker: 国帅（胡帅），一堂联合创始人兼CTO
 status: enriched
-title: "AI时代判断力口述（国帅）"
+title: AI时代判断力口述（国帅）
 type: concept
-updated_at: 2026-05-25
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 author: unknown
-reviewed_by: "欧阳锋"
+reviewed_by: 欧阳锋
 trust_level: medium
 ---
-
 # AI时代判断力口述（国帅）
 
 > **一句话定位**：AI接管Process（加工推理）后，人的核心竞争力从"会做"变成"会判断"——判断力成为AI时代唯一不可外包的能力。

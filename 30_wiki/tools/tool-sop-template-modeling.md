@@ -24,9 +24,9 @@ related:
 - '[[tool-checklist-cheatsheet-modeling]]'
 - '[[dk-modeling-sop-execution-locks]]'
 tags:
-- '#modeling'
-- '#tool'
-- '#sop'
+- '#method/modeling'
+- '#content-format/concept-card'
+- '#content-format/sop'
 - '#template'
 - '#execution'
 ---

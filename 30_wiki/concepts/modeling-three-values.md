@@ -20,7 +20,7 @@ related:
 - '[[modeling-three-stages]]'
 - '[[modeling-level-map]]'
 tags:
-- '#modeling'
+- '#method/modeling'
 - '#concept'
 - '#value'
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust）

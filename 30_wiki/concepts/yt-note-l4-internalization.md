@@ -1,35 +1,41 @@
 ---
 id: yt-note-l4-internalization
-title: "清单体L4内化阶段：从“让别人看懂”到“让自己想清楚”的跳跃"
+title: 清单体L4内化阶段：从“让别人看懂”到“让自己想清楚”的跳跃
 type: concept
 status: draft
 domain:
-  - yitang
+- yitang
 language: zh-CN
 version: 1
 confidence: 0.85
 source_refs:
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
+- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
 related:
-  - yt-note-checklist-concept
-  - yt-note-five-levels-training
-  - dk-note-surplus-brainpower
-  - yt-note-problem-solving-capability
+- '[[yt-note-checklist-concept]]'
+- '[[yt-note-five-levels-training]]'
+- '[[dk-note-surplus-brainpower]]'
+- '[[yt-note-problem-solving-capability]]'
 query_triggers:
-  - "清单体L4"
-  - "内化阶段"
-  - "问题驱动笔记"
-  - "笔记怎么想清楚"
+- 清单体L4
+- 内化阶段
+- 问题驱动笔记
+- 笔记怎么想清楚
 created_at: 2026-06-10
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 estimated_tokens: 2500
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '每篇笔记开头是一个真实问题，而不是‘今天学了X’的标题', 'framework_lens': '问题驱动 vs 内容驱动', 'follow_up_question': '如果这个问题不存在，这篇笔记还有必要写吗？'}
-  - {'signal': '写完后能合上笔记，用自己的话向一个外行解释核心判断', 'framework_lens': '内化=可脱离原文的重新表达', 'follow_up_question': '你解释时有没有引用原文的句子？如果有，说明还停留在整理层'}
-  - {'signal': '遇到新问题时，能主动调用旧笔记中的框架，而不是重新从零查资料', 'framework_lens': '认知资产的可迁移性', 'follow_up_question': '过去30天里，你有多少次在解决问题时主动链接到旧笔记？'}
+- signal: 每篇笔记开头是一个真实问题，而不是‘今天学了X’的标题
+  framework_lens: 问题驱动 vs 内容驱动
+  follow_up_question: 如果这个问题不存在，这篇笔记还有必要写吗？
+- signal: 写完后能合上笔记，用自己的话向一个外行解释核心判断
+  framework_lens: 内化=可脱离原文的重新表达
+  follow_up_question: 你解释时有没有引用原文的句子？如果有，说明还停留在整理层
+- signal: 遇到新问题时，能主动调用旧笔记中的框架，而不是重新从零查资料
+  framework_lens: 认知资产的可迁移性
+  follow_up_question: 过去30天里，你有多少次在解决问题时主动链接到旧笔记？
 author: legacy
 reviewed_by: pending
 trust_level: low

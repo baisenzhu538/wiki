@@ -1,35 +1,41 @@
 ---
 id: yt-note-l6-extraction
-title: "清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品"
+title: 清单体L6萃取阶段：笔记即资产——从个人工具到可复用知识产品
 type: concept
 status: draft
 domain:
-  - yitang
+- yitang
 language: zh-CN
 version: 1
 confidence: 0.85
 source_refs:
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
+- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
 related:
-  - yt-note-checklist-concept
-  - yt-note-l4-internalization
-  - yt-model-prediction-model
-  - dk-note-surplus-brainpower
+- '[[yt-note-checklist-concept]]'
+- '[[yt-note-l4-internalization]]'
+- '[[yt-model-prediction-model]]'
+- '[[dk-note-surplus-brainpower]]'
 query_triggers:
-  - "清单体L6"
-  - "萃取阶段"
-  - "笔记即资产"
-  - "现场建模"
+- 清单体L6
+- 萃取阶段
+- 笔记即资产
+- 现场建模
 created_at: 2026-06-10
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 estimated_tokens: 2500
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '在信息输入的同时就能提取结构，而不是听完/读完再整理', 'framework_lens': '剩余脑力足够支撑接收+提取+建模三重任务', 'follow_up_question': '你能否在5分钟内把一场1小时的分享压缩成一个可复用的最小模型？'}
-  - {'signal': '萃取出的模型能被他人直接调用，而不需要作者在场解释', 'framework_lens': '知识产品化：上下文解耦', 'follow_up_question': '一个不熟悉背景的人拿着你的模型，能否在类似场景下做出一致判断？'}
-  - {'signal': '同一份萃取物在3个以上不同情境中被复用并产生价值', 'framework_lens': '资产价值=复用次数×每次收益', 'follow_up_question': '这个模型最近一次被调用是什么时候？解决了什么问题？'}
+- signal: 在信息输入的同时就能提取结构，而不是听完/读完再整理
+  framework_lens: 剩余脑力足够支撑接收+提取+建模三重任务
+  follow_up_question: 你能否在5分钟内把一场1小时的分享压缩成一个可复用的最小模型？
+- signal: 萃取出的模型能被他人直接调用，而不需要作者在场解释
+  framework_lens: 知识产品化：上下文解耦
+  follow_up_question: 一个不熟悉背景的人拿着你的模型，能否在类似场景下做出一致判断？
+- signal: 同一份萃取物在3个以上不同情境中被复用并产生价值
+  framework_lens: 资产价值=复用次数×每次收益
+  follow_up_question: 这个模型最近一次被调用是什么时候？解决了什么问题？
 author: legacy
 reviewed_by: pending
 trust_level: low

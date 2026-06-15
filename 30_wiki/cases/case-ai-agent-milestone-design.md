@@ -23,8 +23,8 @@ related:
 - '[[tool-ai-skill-engineering-method]]'
 - '[[framework-course-milestone-model]]'
 tags:
-- '#modeling'
-- '#case'
+- '#method/modeling'
+- '#content-format/case-study'
 - '#ai'
 - '#milestone'
 - '#agent'

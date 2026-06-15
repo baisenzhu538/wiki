@@ -11,9 +11,9 @@ source_refs:
 - src_20260606_ef4877d0
 component_of: null
 related:
-- find-old-do-small
-- ai-learning-closed-loop
-- course-to-skill-conversion
+- '[[find-old-do-small]]'
+- '[[ai-learning-closed-loop]]'
+- '[[course-to-skill-conversion]]'
 query_triggers:
 - AI怎么落地
 - 什么场景适合AI
@@ -28,8 +28,8 @@ created_at: 2026-06-15
 confidence: 0.7
 trust_level: low
 title: ai landing scene selection
+updated_at: '2026-06-16'
 ---
-
 # AI落地场景识别：从"找老的干小的"开始
 
 > Source: [[src_20260606_ef4877d0]] (马易-AI落地场景识别-口述)

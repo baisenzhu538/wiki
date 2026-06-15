@@ -1,32 +1,29 @@
 ---
-id: "dk-半肥猫-silky-answer-warning"
-title: "暗知识：AI 回答越丝滑，问题越大"
+id: dk-半肥猫-silky-answer-warning
+title: 暗知识：AI 回答越丝滑，问题越大
 type: dark-knowledge
 status: draft
 domain:
-  - ai-collaboration
-  - yitang
-source_person: "半肥猫"
-source_context: "AI俱乐部-AI学习落地 分享"
+- ai-collaboration
+- yitang
+source_person: 半肥猫
+source_context: AI俱乐部-AI学习落地 分享
 source_refs:
-  - "00_inbox/半肥猫-AI学习落地-口述.md"
+- 00_inbox/半肥猫-AI学习落地-口述.md
 created_at: 2026-06-07
-updated_at: 2026-06-07
+updated_at: '2026-06-16'
 related:
-  - "concept-半肥猫-ai-learning-toolification-methodology"
-  - "skill-半肥猫-追问AI证据并标注信源"
-  - "skill-半肥猫-边学边练边沉淀的AI学习法"
-  - "concept-纪浩-ai-collaboration-methodology"
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[concept-纪浩-ai-collaboration-methodology]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-draft
+- confidence-source-cited
+- confidence-verified-by-case
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 暗知识：AI 回答越丝滑，问题越大
 
 > 半肥猫在分享中提出的底层警觉：**"AI 回答越丝滑越有问题"。**这个反直觉的观察是 AI 协作中最容易被忽视的陷阱——因为人们天然倾向于相信"看起来对"的东西。

@@ -20,9 +20,8 @@ definition_of_done:
 - 方案可理解
 - 可迁移点明确
 tags:
-- '#case'
+- '#content-format/case-study'
 - '#problem/knowledge-management'
-- '#source/truman'
 related_skills:
 - '[[modeling-weapon-library]]'
 related_concepts:

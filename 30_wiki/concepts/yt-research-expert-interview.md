@@ -4,51 +4,56 @@ confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2400
 language: zh-CN
 prerequisites:
-  - yt-research-osl-framework
-  - yt-research-intelligence-map
+- yt-research-osl-framework
+- yt-research-intelligence-map
 query_triggers:
-  - "专家访谈"
-  - "行业共识"
-  - "怎么找专家"
-  - "访谈流程"
-  - "访谈技巧"
-  - "访谈提纲"
+- 专家访谈
+- 行业共识
+- 怎么找专家
+- 访谈流程
+- 访谈技巧
+- 访谈提纲
 related:
-  - yt-research-osl-framework
-  - yt-research-intelligence-map
-  - yt-research-hypothesis-test
-  - yt-research-competitor-toolkit
-  - yt-research-industry-canvas
-  - yt-research-user-jtbd
-  - yt-entrepreneur-key-hypotheses
+- '[[yt-research-osl-framework]]'
+- '[[yt-research-intelligence-map]]'
+- '[[yt-research-hypothesis-test]]'
+- '[[yt-research-competitor-toolkit]]'
+- '[[yt-research-industry-canvas]]'
+- '[[yt-research-user-jtbd]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
 source_refs:
-  - "00_inbox/ideas/一堂-创业必修-调研武器库.md"
-  - "00_inbox/ideas/一堂-创业必修-调研行动营.md"
+- 00_inbox/ideas/一堂-创业必修-调研武器库.md
+- 00_inbox/ideas/一堂-创业必修-调研行动营.md
 status: reviewed
-title: "专家访谈工具：2小时获取行业共识的标准流程"
+title: 专家访谈工具：2小时获取行业共识的标准流程
 trust_level: medium
 type: tool
 version: 1
 yitang:
   map: entrepreneur
-  module: "调研方法论"
+  module: 调研方法论
   course_id: yt-research-expert-interview
   course_type: tool
   level: intermediate
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '访谈前有明确目标，且问题已经预先设计并排序', 'framework_lens': '专家访谈是目标导向的信息获取', 'follow_up_question': '这次访谈你要回答的具体问题是什么？'}
-  - {'signal': '选择的专家能覆盖目标领域的行业共识，而不是只找熟人', 'framework_lens': '专家质量决定信息质量', 'follow_up_question': '这个专家在哪个关键子领域有 firsthand 经验？'}
-  - {'signal': '访谈后会做信息整理、交叉验证，并转化为可行动假设', 'framework_lens': '访谈价值在于后续加工', 'follow_up_question': '这次访谈的哪些结论需要再用其他渠道验证？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 访谈前有明确目标，且问题已经预先设计并排序
+  framework_lens: 专家访谈是目标导向的信息获取
+  follow_up_question: 这次访谈你要回答的具体问题是什么？
+- signal: 选择的专家能覆盖目标领域的行业共识，而不是只找熟人
+  framework_lens: 专家质量决定信息质量
+  follow_up_question: 这个专家在哪个关键子领域有 firsthand 经验？
+- signal: 访谈后会做信息整理、交叉验证，并转化为可行动假设
+  framework_lens: 访谈价值在于后续加工
+  follow_up_question: 这次访谈的哪些结论需要再用其他渠道验证？
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # 专家访谈工具：2小时获取行业共识的标准流程
 
 > 来源：一堂《调研武器库》《调研行动营》课程 | 独立可用的专家访谈套件：含准备→邀约→访谈→复盘全流程+话术模板，解决"找不到行业常识、不知道问谁"的问题。

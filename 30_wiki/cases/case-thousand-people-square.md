@@ -23,9 +23,9 @@ related:
 - '[[case-personal-map-modeling]]'
 - '[[yt-five-step-method]]'
 tags:
-- '#modeling'
-- '#case'
-- '#education'
+- '#method/modeling'
+- '#content-format/case-study'
+- '#industry/education'
 - '#statistics'
 ---
 # 案例：一堂「千人广场模型」——用统计建模心态做课

@@ -1,24 +1,24 @@
 ---
-id: "case-truman-motivation-map-12-versions"
-title: "动机地图12版迭代：先观察再设计——Truman的用户行为驱动迭代法"
-type: "case"
-status: "draft"
+id: case-truman-motivation-map-12-versions
+title: 动机地图12版迭代：先观察再设计——Truman的用户行为驱动迭代法
+type: case
+status: draft
 domain:
-  - "product-design"
-  - "yitang"
-source_person: "Truman"
-source_context: "一堂-个人修炼-泛产品设计工具篇口述版.md"
+- product-design
+- yitang
+source_person: Truman
+source_context: 一堂-个人修炼-泛产品设计工具篇口述版.md
 source_refs:
-  - "00_inbox/ideas/一堂-个人修炼-泛产品设计工具篇口述版.md"
+- 00_inbox/ideas/一堂-个人修炼-泛产品设计工具篇口述版.md
 related:
-  - "dk-truman-iteration-to-aesthetic-ceiling"
-created_at: "2026-06-09"
-author: "legacy"
-reviewed_by: "pending"
+- '[[dk-truman-iteration-to-aesthetic-ceiling]]'
+created_at: '2026-06-09'
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
+updated_at: '2026-06-16'
 ---
-
 # 动机地图12版迭代：先观察再设计
 
 > Truman在设计一堂的"学习动机地图"时，没有先画设计稿，而是**先观察了大量用户的学习行为，然后才开始设计**。这张地图经历12个版本的迭代，最终成为一堂课程体系的核心视觉交付物。

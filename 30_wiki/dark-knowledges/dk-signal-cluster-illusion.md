@@ -1,30 +1,29 @@
 ---
-id: "dk-signal-cluster-illusion"
-title: "暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕"
-type: "dk"
-status: "draft"
+id: dk-signal-cluster-illusion
+title: 暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕
+type: dk
+status: draft
 domain:
-  - "yitang"
-  - "ai"
+- yitang
+- ai
 source_refs:
-  - "[[yt-ai-trend-12-signals]]"
-  - "[[yt-three-dimension-opportunity-matrix]]"
+- '[[yt-ai-trend-12-signals]]'
+- '[[yt-three-dimension-opportunity-matrix]]'
 tags:
-  - "#domain/yitang"
-  - "#cognitive-bias"
-  - "#signal-processing"
-created_at: "2026-06-11"
-updated_at: "2026-06-11"
+- '#domain/yitang'
+- '#cognitive-bias'
+- '#signal-processing'
+created_at: '2026-06-11'
+updated_at: '2026-06-16'
 related:
-  - "yt-ai-trend-12-signals"
-  - "yt-three-dimension-opportunity-matrix"
-  - "yt-foresight-probability-engineering"
-author: "legacy"
-reviewed_by: "pending"
+- '[[yt-ai-trend-12-signals]]'
+- '[[yt-three-dimension-opportunity-matrix]]'
+- '[[yt-foresight-probability-engineering]]'
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕
 
 ## 核心本质

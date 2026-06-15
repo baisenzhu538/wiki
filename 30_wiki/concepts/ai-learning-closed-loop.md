@@ -11,9 +11,9 @@ source_refs:
 - src_20260606_90b44191
 component_of: null
 related:
-- course-to-skill-conversion
-- voice-input-doubao
-- prd-as-ai-instruction
+- '[[course-to-skill-conversion]]'
+- '[[voice-input-doubao]]'
+- '[[prd-as-ai-instruction]]'
 query_triggers:
 - AI时代如何学习
 - 课程怎么转化为能力
@@ -28,8 +28,8 @@ created_at: 2026-06-15
 confidence: 0.7
 trust_level: low
 title: ai learning closed loop
+updated_at: '2026-06-16'
 ---
-
 # AI学习闭环：从"听懂"到"能力"的转化路径
 
 > Source: [[src_20260606_90b44191]] (半肥猫-AI学习落地-口述)

@@ -1,39 +1,38 @@
 ---
-id: "concept-纪浩-ai-collaboration-five-layer"
-title: "概念：纪浩AI协作五层工作空间法"
+id: concept-纪浩-ai-collaboration-five-layer
+title: 概念：纪浩AI协作五层工作空间法
 type: concept
 status: draft
 domain:
-  - ai-collaboration
-  - yitang
-source_person: "纪浩"
-source_context: "AI俱乐部·AI协作方法论分享（2026年）"
+- ai-collaboration
+- yitang
+source_person: 纪浩
+source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
-  - "00_inbox/纪浩-AI协作方法论-口述.md"
+- 00_inbox/纪浩-AI协作方法论-口述.md
 created_at: 2026-06-09
-updated_at: 2026-06-09
+updated_at: '2026-06-16'
 related:
-  - "case-纪浩-ai-workspace-chaos"
-  - "dk-纪浩-constraint-beats-talent"
+- '[[case-纪浩-ai-workspace-chaos]]'
+- '[[dk-纪浩-constraint-beats-talent]]'
 wiki_refs:
-  - "case-纪浩-ai-workspace-chaos"
-  - "dk-纪浩-constraint-beats-talent"
+- '[[case-纪浩-ai-workspace-chaos]]'
+- '[[dk-纪浩-constraint-beats-talent]]'
 definition_of_done:
-  - "概念有明确定义"
-  - "有核心主张"
-  - "有支撑主张的论证"
-  - "有演变或派生"
-  - "有关联案例"
-  - "有关联与这个概念相关的其他概念"
+- 概念有明确定义
+- 有核心主张
+- 有支撑主张的论证
+- 有演变或派生
+- 有关联案例
+- 有关联与这个概念相关的其他概念
 pipeline:
-  - confidence-published
-  - confidence-source-cited
+- confidence-published
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 概念：纪浩AI协作五层工作空间法
 
 ## 定义

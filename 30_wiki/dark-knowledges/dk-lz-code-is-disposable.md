@@ -1,26 +1,25 @@
 ---
-id: "dk-lz-code-is-disposable"
-title: "代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产"
-type: "dark-knowledge"
-status: "draft"
+id: dk-lz-code-is-disposable
+title: 代码正在变成一次性消耗品——业务上下文才是AI时代的永恒资产
+type: dark-knowledge
+status: draft
 domain:
-  - "ai-saas"
-  - "business-strategy"
+- ai-saas
+- business-strategy
 source_refs:
-  - "00_inbox/AI时代自进化组织形式.md"
+- 00_inbox/AI时代自进化组织形式.md
 related:
-  - "dk-lz-ai-native-organization"
-  - "concept-纪浩-ai-collaboration-five-layer"
-  - "dk-jh-llm-time-blindness"
-  - "dk-truman-iteration-to-aesthetic-ceiling"
-created_at: "2026-06-09"
-updated_at: "2026-06-09"
-author: "legacy"
-reviewed_by: "pending"
+- '[[dk-lz-ai-native-organization]]'
+- '[[concept-纪浩-ai-collaboration-five-layer]]'
+- '[[dk-jh-llm-time-blindness]]'
+- '[[dk-truman-iteration-to-aesthetic-ceiling]]'
+created_at: '2026-06-09'
+updated_at: '2026-06-16'
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 代码正在变成一次性消耗品
 
 > 老朱在口述中提出了一个对传统软件行业致命的判断：**代码量在爆炸，但每一段代码的寿命极短。AI写代码已经太便宜太快了——一个公司的运营系统AI半天就生成一个，第二天觉得不好用重新再生成一个。代码变成了一次性消耗品。那什么是永恒的？业务上下文、业务知识、业务窍门。**

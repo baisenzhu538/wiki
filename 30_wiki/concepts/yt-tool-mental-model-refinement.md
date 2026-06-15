@@ -1,56 +1,61 @@
 ---
 id: yt-tool-mental-model-refinement
 component_of:
-  - yt-model-personal-map
+- yt-model-personal-map
 confidence: 0.85
 created_at: 2026-06-06
 difficulty: advanced
 domain:
-  - yitang
+- yitang
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
-  - yt-model-deliberate-practice-growth
-  - yt-composite-pan-product-methodology
+- yt-model-deliberate-practice-growth
+- yt-composite-pan-product-methodology
 query_triggers:
-  - "如何提炼自己的思维模型"
-  - "模型提炼方法"
-  - "CEO核心能力模型提炼"
-  - "从经验到模型"
-  - "体感模型怎么建"
-  - "避免低水平重复"
-  - "以周为单位的迭代模型"
-  - "躬身入局建模"
+- 如何提炼自己的思维模型
+- 模型提炼方法
+- CEO核心能力模型提炼
+- 从经验到模型
+- 体感模型怎么建
+- 避免低水平重复
+- 以周为单位的迭代模型
+- 躬身入局建模
 related:
-  - yt-model-cognitive-upgrade-framework
-  - yt-model-deliberate-practice-growth
-  - yt-composite-pan-product-methodology
-  - yt-concept-peas-insight
-  - master-first-principles
-  - yt-decision-habit-shift
+- '[[yt-model-cognitive-upgrade-framework]]'
+- '[[yt-model-deliberate-practice-growth]]'
+- '[[yt-composite-pan-product-methodology]]'
+- '[[yt-concept-peas-insight]]'
+- '[[master-first-principles]]'
+- '[[yt-decision-habit-shift]]'
 review_by: 2026-12-06
-reviewed_by: "黄药师"
-source_refs:
-  - "00_inbox/一堂-个人修身-思维模型口述版.md"
+reviewed_by: 黄药师
 source_refs:
 - src_20260613_96e45c45
 status: enriched
-title: "思维模型提炼：从体感经验到可复用武器库"
+title: 思维模型提炼：从体感经验到可复用武器库
 type: tool
 version: 1
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '每个模型是否有明确的性能度量(P)、环境(E)、假设(S)', 'framework_lens': 'PEAS / 模型完整性', 'follow_up_question': '模型是否只有框架而没有验证标准？'}
-  - {'signal': '模型是否经过 ≥3 次真实决策场景的预测验证', 'framework_lens': '可验证性 / 刻意练习', 'follow_up_question': "模型是'总结心得'还是经过预测-结果对比？"}
-  - {'signal': "是否区分'模型边界'与'例外条件'并持续更新", 'framework_lens': '边界意识 / 迭代', 'follow_up_question': '模型失效时是否被归因为例外而非更新模型？'}
-  - {'signal': '模型提炼是否扎根于躬身入局的体感经验', 'framework_lens': '体感 / 抽象风险', 'follow_up_question': '没有体感的抽象模型是否导致战略误判？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 每个模型是否有明确的性能度量(P)、环境(E)、假设(S)
+  framework_lens: PEAS / 模型完整性
+  follow_up_question: 模型是否只有框架而没有验证标准？
+- signal: 模型是否经过 ≥3 次真实决策场景的预测验证
+  framework_lens: 可验证性 / 刻意练习
+  follow_up_question: 模型是'总结心得'还是经过预测-结果对比？
+- signal: 是否区分'模型边界'与'例外条件'并持续更新
+  framework_lens: 边界意识 / 迭代
+  follow_up_question: 模型失效时是否被归因为例外而非更新模型？
+- signal: 模型提炼是否扎根于躬身入局的体感经验
+  framework_lens: 体感 / 抽象风险
+  follow_up_question: 没有体感的抽象模型是否导致战略误判？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 ## Summary
 
 > **一句话**：90% 的管理者不是缺经验，是缺「把经验压成模型」的刻意练习——模型提炼能力才是团队一号位的真正护城河。

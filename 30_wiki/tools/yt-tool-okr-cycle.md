@@ -1,66 +1,59 @@
 ---
 id: yt-tool-okr-cycle
-title: "OKR 制定与复盘罗盘"
+title: OKR 制定与复盘罗盘
 type: tool
 source_refs:
-- src_20260614_8f80cb0f
+- 30_wiki/concepts/yt-management-goal-management.md
 status: enriched
 domain:
-  - yitang
+- yitang
 language: zh-CN
 version: 1
 difficulty: foundational
 confidence: 0.85
-prerequisites: 
+prerequisites: null
 component_of:
-  - yt-management-toolkit-overview
+- yt-management-toolkit-overview
 related:
-  - yt-management-goal-management
-  - yt-management-scientific-meetings
-  - yt-management-project-management
-  - yt-management-business-formula
-  - yt-decision-y-model
-  - yt-concept-weapon-arsenal
-contradicts: 
+- '[[yt-management-goal-management]]'
+- '[[yt-management-scientific-meetings]]'
+- '[[yt-management-project-management]]'
+- '[[yt-management-business-formula]]'
+- '[[yt-decision-y-model]]'
+- '[[yt-concept-weapon-arsenal]]'
+contradicts: null
 query_triggers:
-  - "OKR 制定"
-  - "OKR 复盘"
-  - "季度目标设定"
-  - "目标对齐"
-  - "关键结果量化"
-  - "OKR 落地"
-  - "度脉机制"
-  - "OKR 模板"
-  - "OKR 与 KPI 区别"
-  - "目标管理工具"
-tags:
-  - #boundary/not-for-creative
-  - confidence-source-cited
-  - #management
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/skill-engineering/publish-deploy
-  - #tool
-  - #yitang
+- OKR 制定
+- OKR 复盘
+- 季度目标设定
+- 目标对齐
+- 关键结果量化
+- OKR 落地
+- 度脉机制
+- OKR 模板
+- OKR 与 KPI 区别
+- 目标管理工具
+tags: []
 trust_level: medium
 yitang:
   map: management
-  module: "目标管理"
+  module: 目标管理
   course_id: yt-tool-okr-cycle
   course_type: tool
   level: core
-source_refs:
-  - 30_wiki/concepts/yt-management-goal-management.md
 created_at: 2026-05-19
-updated_at: 2026-05-19
+updated_at: '2026-06-16'
 estimated_tokens: 3300
-reviewed_by: "周伯通"
+reviewed_by: 周伯通
 diagnostic_signals:
-  - {'signal': '季度末到了，团队打开OKR文档——发现上一次更新是3个月前', 'framework_lens': "写了但没用——OKR是'季度初写一次、季度末看一眼'的文档，而非实时引导工具。OKR的真正价值在追踪过程中，而非在设定时", 'follow_up_question': "你们上一次在周会上讨论OKR是什么时候？如果答案是'记不清了'，OKR已经是一个形式而非工具"}
-  - {'signal': '团队的OKR完成率90%+，但业务实际进展很差——完成了目标但没达成目的', 'framework_lens': "写了但没用——全绿的OKR和全红的OKR一样危险。可能是KR设成了任务清单（做了=完成了），也可能是团队在'挑软柿子'——只完成容易量化的KR，回避了真正重要但难量化的突破", 'follow_up_question': "完成的KR里，去掉'按流程完成'类的、挑出真正创造了用户/客户价值的——还剩几个？"}
-author: "老顽童"
+- signal: 季度末到了，团队打开OKR文档——发现上一次更新是3个月前
+  framework_lens: 写了但没用——OKR是'季度初写一次、季度末看一眼'的文档，而非实时引导工具。OKR的真正价值在追踪过程中，而非在设定时
+  follow_up_question: 你们上一次在周会上讨论OKR是什么时候？如果答案是'记不清了'，OKR已经是一个形式而非工具
+- signal: 团队的OKR完成率90%+，但业务实际进展很差——完成了目标但没达成目的
+  framework_lens: 写了但没用——全绿的OKR和全红的OKR一样危险。可能是KR设成了任务清单（做了=完成了），也可能是团队在'挑软柿子'——只完成容易量化的KR，回避了真正重要但难量化的突破
+  follow_up_question: 完成的KR里，去掉'按流程完成'类的、挑出真正创造了用户/客户价值的——还剩几个？
+author: 老顽童
 ---
-
 # OKR 制定与复盘罗盘
 
 > 来源：从 [[yt-management-goal-management]] 概念卡萃取的工具内核。一套季度 OKR 全周期操作工具——从目标对齐到关键结果量化到周度脉搏到季度复盘，防止 OKR 沦为 KPI 换皮。

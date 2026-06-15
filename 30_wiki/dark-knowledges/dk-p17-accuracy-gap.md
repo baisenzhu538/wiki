@@ -1,31 +1,28 @@
 ---
 id: dk-p17-accuracy-gap
-title: "P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度"
+title: P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - master
+- master
 source_person: system
-source_context: "pitfalls.md P-17"
+source_context: pitfalls.md P-17
 source_refs:
-  - .agent/pitfalls.md#P-17
+- .agent/pitfalls.md#P-17
 created_at: 2026-06-03
-updated_at: 2026-06-03
+updated_at: '2026-06-16'
 related:
-  - dk-p15-unverified
-related:
-  - master-decision-hygiene
-  - master-ai-info-literacy
+- '[[master-decision-hygiene]]'
+- '[[master-ai-info-literacy]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度
 
 ## 原始表述

@@ -1,32 +1,29 @@
 ---
 id: dk-p6-session-resume-fail
-title: "P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session ID"
+title: P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session
+  ID
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - master
+- master
 source_person: system
-source_context: "pitfalls.md P-6"
+source_context: pitfalls.md P-6
 source_refs:
-  - .agent/pitfalls.md#P-6
+- .agent/pitfalls.md#P-6
 created_at: 2026-06-03
-updated_at: 2026-06-03
+updated_at: '2026-06-16'
 related:
-  - dk-p5-cc-connect-config
-  - dk-p2-tmux-cache
-related:
-  - master-systems-thinking
-  - master-first-principles
+- '[[master-systems-thinking]]'
+- '[[master-first-principles]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session ID
 
 ## 原始表述

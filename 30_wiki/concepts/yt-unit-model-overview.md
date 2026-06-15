@@ -1,43 +1,50 @@
 ---
 id: yt-unit-model-overview
-title: "单元模型概述：从最小经济单元到商业判断框架"
+title: 单元模型概述：从最小经济单元到商业判断框架
 type: framework
 domain:
-  - entrepreneur
-  - master
+- entrepreneur
+- master
 status: reviewed
 source_refs:
-  - "src_20260524_8a3b1c2d-一堂-单元模型01口述"
-  - "src_20260524_9f4e5d6a-一堂-单元模型02口述"
-  - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
-  - "src_20260524_6b5a4c3d-一堂-单元模型04口述"
-  - "src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述"
+- src_20260524_8a3b1c2d-一堂-单元模型01口述
+- src_20260524_9f4e5d6a-一堂-单元模型02口述
+- src_20260524_7c8d9e0f-一堂-单元模型03口述
+- src_20260524_6b5a4c3d-一堂-单元模型04口述
+- src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述
 created_at: 2026-05-24
-author: "老顽童"
-reviewed_by: 
+author: 老顽童
+reviewed_by: null
 related:
-  - yt-unit-model-ladder
-  - yt-unit-model-selection
-  - yt-unit-model-construction
-  - yt-unit-model-benchmark
-  - yt-unit-model-dynamic
-  - yt-unit-model-ai-assisted
-  - yt-entrepreneur-five-step-method
-  - yt-decision-y-model
-  - yt-entrepreneur-key-hypotheses
+- '[[yt-unit-model-ladder]]'
+- '[[yt-unit-model-selection]]'
+- '[[yt-unit-model-construction]]'
+- '[[yt-unit-model-benchmark]]'
+- '[[yt-unit-model-dynamic]]'
+- '[[yt-unit-model-ai-assisted]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-decision-y-model]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '是否根据业务阶段选择正确的单元模型类型', 'framework_lens': '模型选择 / 十大单元', 'follow_up_question': '是否用单用户模型分析平台型业务？'}
-  - {'signal': "单元模型是否作为'早期财务预判'而非财务报表替代", 'framework_lens': '导航仪 / 决策辅助', 'follow_up_question': '是否用单元模型替代正式财务分析？'}
-  - {'signal': '是否区分操盘手/投资人/团队成员三种使用视角', 'framework_lens': '角色对齐 / 共同语言', 'follow_up_question': "不同角色对'单元是否赚钱'是否有统一标准？"}
-  - {'signal': '是否将单元模型与五步法、Y 模型形成层级化分析', 'framework_lens': '体系整合 / 方法协同', 'follow_up_question': '单元模型是否孤立使用，未与验证和方向工具联动？'}
-updated_at: 2026-06-13
+- signal: 是否根据业务阶段选择正确的单元模型类型
+  framework_lens: 模型选择 / 十大单元
+  follow_up_question: 是否用单用户模型分析平台型业务？
+- signal: 单元模型是否作为'早期财务预判'而非财务报表替代
+  framework_lens: 导航仪 / 决策辅助
+  follow_up_question: 是否用单元模型替代正式财务分析？
+- signal: 是否区分操盘手/投资人/团队成员三种使用视角
+  framework_lens: 角色对齐 / 共同语言
+  follow_up_question: 不同角色对'单元是否赚钱'是否有统一标准？
+- signal: 是否将单元模型与五步法、Y 模型形成层级化分析
+  framework_lens: 体系整合 / 方法协同
+  follow_up_question: 单元模型是否孤立使用，未与验证和方向工具联动？
+updated_at: '2026-06-16'
 confidence: 0.85
 trust_level: high
 ---
-
 # 单元模型概述：从最小经济单元到商业判断框架
 
 ## Reusable Knowledge

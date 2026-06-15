@@ -1,42 +1,41 @@
 ---
-id: "skill-ai-four-elements-validation"
-title: "技能：真需求四要素验证法"
-type: "skill"
-status: "draft"
+id: skill-ai-four-elements-validation
+title: 技能：真需求四要素验证法
+type: skill
+status: draft
 domain:
-  - "AI"
-  - "决策"
-  - "产品"
-source_person: "纪浩"
-source_context: "AI俱乐部-AI协作方法论-口述，2026-06-06"
+- AI
+- 决策
+- 产品
+source_person: 纪浩
+source_context: AI俱乐部-AI协作方法论-口述，2026-06-06
 source_refs:
-  - "src_20260606_42e11f09"
+- src_20260606_42e11f09
 wiki_refs:
-  - "ai-collaboration-mindset-shift"
-  - "skill-ai-problem-question-check"
+- '[[ai-collaboration-mindset-shift]]'
+- '[[skill-ai-problem-question-check]]'
 definition_of_done:
-  - "每次验证4个要素全部回答"
-  - '至少1个要素触发"需要补充信息"的警觉'
-  - '能判断"这个需求是否值得投入资源"'
+- 每次验证4个要素全部回答
+- 至少1个要素触发"需要补充信息"的警觉
+- 能判断"这个需求是否值得投入资源"
 tools_required:
-  - "无（纯思维工具）"
+- 无（纯思维工具）
 prerequisite_skills:
-  - "skill-ai-problem-question-check"
-related:
+- skill-ai-problem-question-check
+related: null
 created_at: 2026-06-11
-updated_at: 2026-06-11
+updated_at: '2026-06-16'
 tags:
-  - None
-  - None
-  - None
+- None
+- None
+- None
 pipeline:
-  - None
-reviewed_by: "laowantong"
-author: "legacy"
+- None
+reviewed_by: laowantong
+author: legacy
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 技能：真需求四要素验证法
 
 > **来源**：纪浩（AI俱乐部-AI协作方法论-口述）

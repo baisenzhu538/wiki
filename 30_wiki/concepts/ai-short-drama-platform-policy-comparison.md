@@ -22,7 +22,7 @@ related:
 - '[[ai-short-drama-ice-fire-scripting-compass]]'
 - '[[ai-short-drama-script-planning-three-axes]]'
 tags:
-- '#ai-short-drama'
+- '#industry/content-creation'
 - '#platform'
 - '#distribution'
 - '#policy'

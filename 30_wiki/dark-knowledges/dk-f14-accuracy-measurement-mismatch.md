@@ -1,33 +1,29 @@
 ---
 id: dk-f14-accuracy-measurement-mismatch
-title: "F-KDO-014：准确率声明的测量口径不一致"
+title: F-KDO-014：准确率声明的测量口径不一致
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - master
+- master
 source_person: system
-source_context: "failure-modes.md F-KDO-014"
+source_context: failure-modes.md F-KDO-014
 source_refs:
-  - 90_control/failure-modes.md#F-KDO-014
+- 90_control/failure-modes.md#F-KDO-014
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 related:
-  - dk-p15-claimed-done-not-verified
-  - master-systems-thinking
-related:
-  - master-decision-hygiene
-  - master-ai-info-literacy
-  - master-systems-thinking
+- '[[master-decision-hygiene]]'
+- '[[master-ai-info-literacy]]'
+- '[[master-systems-thinking]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # F-KDO-014：准确率声明的测量口径不一致
 
 ## 原始表述

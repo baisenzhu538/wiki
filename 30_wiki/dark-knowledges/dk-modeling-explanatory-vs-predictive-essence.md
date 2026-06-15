@@ -19,14 +19,12 @@ review_date: '2026-06-14'
 trust_level: high
 confidence: 0.85
 related:
-- modeling-capability-for-kdo
+- '[[modeling-capability-for-kdo]]'
 - '[[tool-essence-nfactor-modeling]]'
 - '[[dk-modeling-essence-predictive]]'
 - '[[case-essence-education-strategy]]'
 tags:
-- '#modeling'
-- '#dk'
-- '#essence'
+- '#method/modeling'
 - '#prediction'
 ---
 # 解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践

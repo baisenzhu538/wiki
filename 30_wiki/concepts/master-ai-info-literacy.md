@@ -4,32 +4,31 @@ confidence: 0.8
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-  - master
+- master
 estimated_tokens: 1176
 language: zh-CN
 query_triggers:
-  - "AI信息素养"
-  - "信息真伪辨别"
-  - "AI幻觉检测"
+- AI信息素养
+- 信息真伪辨别
+- AI幻觉检测
 related:
-  - yt-entrepreneur-research-cognition
-  - yt-model-prompt-engineering
-  - yt-personal-ai-capability
-  - yt-research-weaponry-course
-  - yt-decision-y-model
+- '[[yt-entrepreneur-research-cognition]]'
+- '[[yt-model-prompt-engineering]]'
+- '[[yt-personal-ai-capability]]'
+- '[[yt-research-weaponry-course]]'
+- '[[yt-decision-y-model]]'
 source_refs:
-  - {'来源': '一堂 (Truman)'}
+- 来源: 一堂 (Truman)
 status: enriched
-title: "AI时代信息素养框架"
+title: AI时代信息素养框架
 type: framework
-updated_at: 2026-05-18
+updated_at: '2026-06-16'
 version: 1
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 author: unknown
 trust_level: medium-high
 ---
-
 # AI时代信息素养框架
 
 > **核心定位**：用 AI 做调研时的三层防护网——先辨别是不是幻觉，再验证是不是真的，最后追溯到原始来源。不是"不用 AI"，是"用 AI 的同时不被 AI 骗"。

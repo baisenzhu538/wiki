@@ -1,11 +1,12 @@
 ---
 id: yt-foresight-ten-fatal-flaws
-title: "十大硬伤：商业机会的致死缺陷清单"
+title: 十大硬伤：商业机会的致死缺陷清单
 type: tool
 domain:
-  - yitang
+- yitang
 source_refs:
-- src_20260522_a89ab860
+- 00_inbox/一堂-商业预判课-Truman-口述.txt
+- 00_inbox/一堂-商业预判课-truman-笔记.txt
 status: enriched
 confidence: 0.9
 difficulty: intermediate
@@ -14,36 +15,36 @@ language: zh-CN
 created_at: 2026-06-11
 review_date: 2026-06-11
 reviewed_by:
-  - "黄药师"
-  - laowantong
-source_refs:
-  - "00_inbox/一堂-商业预判课-Truman-口述.txt"
-  - "00_inbox/一堂-商业预判课-truman-笔记.txt"
+- 黄药师
+- laowantong
 query_triggers:
-  - "十大硬伤"
-  - "硬伤清单"
-  - "商业硬伤"
-  - "团队硬伤"
-  - "行业硬伤"
-  - "创业风险清单"
-  - "项目致命缺陷"
+- 十大硬伤
+- 硬伤清单
+- 商业硬伤
+- 团队硬伤
+- 行业硬伤
+- 创业风险清单
+- 项目致命缺陷
 related:
-  - dk-yb18-small-shop-image-mismatch
-  - master-antifragile-checklist
+- '[[dk-yb18-small-shop-image-mismatch]]'
+- '[[master-antifragile-checklist]]'
 wiki_refs:
-  - 30_wiki/concepts/yt-foresight-15-char-mantra.md
-  - 30_wiki/concepts/yt-foresight-addition-subtraction.md
-  - 30_wiki/concepts/yt-ai-startup-20-risky-hypotheses.md
+- '[[yt-foresight-15-char-mantra]]'
+- '[[yt-foresight-addition-subtraction]]'
+- '[[yt-ai-startup-20-risky-hypotheses]]'
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户清单都看完了，但找不出自己项目的硬伤', 'framework_lens': '自我盲区', 'follow_up_question': '如果让一位客观的同行用这份清单审查你的项目，他最可能指出哪条硬伤？'}
-  - {'signal': '用户把每条硬伤都当致命', 'framework_lens': '没有结合目标规模', 'follow_up_question': '你的项目目标规模是什么？这条硬伤对这个规模来说真的致命吗？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户清单都看完了，但找不出自己项目的硬伤
+  framework_lens: 自我盲区
+  follow_up_question: 如果让一位客观的同行用这份清单审查你的项目，他最可能指出哪条硬伤？
+- signal: 用户把每条硬伤都当致命
+  framework_lens: 没有结合目标规模
+  follow_up_question: 你的项目目标规模是什么？这条硬伤对这个规模来说真的致命吗？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 # 十大硬伤：商业机会的致死缺陷清单
 
 ## Core Claims

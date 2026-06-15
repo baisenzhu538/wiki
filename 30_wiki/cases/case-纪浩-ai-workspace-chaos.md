@@ -1,36 +1,35 @@
 ---
-id: "case-纪浩-ai-workspace-chaos"
-title: "案例：AI工作空间混乱导致'行为退化'而重来"
+id: case-纪浩-ai-workspace-chaos
+title: 案例：AI工作空间混乱导致'行为退化'而重来
 type: case
 status: draft
 domain:
-  - ai-collaboration
-  - yitang
-source_person: "纪浩"
-source_context: "AI俱乐部·AI协作方法论分享（2026年）"
+- ai-collaboration
+- yitang
+source_person: 纪浩
+source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
-  - "00_inbox/纪浩-AI协作方法论-口述.md"
+- 00_inbox/纪浩-AI协作方法论-口述.md
 created_at: 2026-06-09
-updated_at: 2026-06-09
+updated_at: '2026-06-16'
 related:
-  - "concept-纪浩-ai-collaboration-five-layer"
-  - "dk-纪浩-novice-mindset-advantage"
+- '[[concept-纪浩-ai-collaboration-five-layer]]'
+- '[[dk-纪浩-novice-mindset-advantage]]'
 wiki_refs:
-  - "concept-纪浩-ai-collaboration-five-layer"
-  - "dk-纪浩-novice-mindset-advantage"
+- '[[concept-纪浩-ai-collaboration-five-layer]]'
+- '[[dk-纪浩-novice-mindset-advantage]]'
 definition_of_done:
-  - "案例有明确的原始表述、问题、方案和反馈路径"
-  - "案例有可迁移条件和失败模式"
-  - "案例区分度≥2类型（成功/失败/边界/反常识）"
+- 案例有明确的原始表述、问题、方案和反馈路径
+- 案例有可迁移条件和失败模式
+- 案例区分度≥2类型（成功/失败/边界/反常识）
 pipeline:
-  - confidence-published
-  - confidence-source-cited
+- confidence-published
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 案例：AI工作空间混乱导致"行为退化"而重来
 
 ## 原始表述

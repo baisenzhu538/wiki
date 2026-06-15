@@ -1,65 +1,67 @@
 ---
 id: yt-personal-deep-review
-component_of: 
+component_of: null
 confidence: 0.8
 created_at: 2026-05-06
 difficulty: foundational
 domain:
-  - yitang
+- yitang
 estimated_tokens: 3000
 language: zh-CN
-prerequisites: 
+prerequisites: null
 query_triggers:
-  - "小抄\"与\"必修课\"的互锁"
-  - "与一堂其他核心课程的关系"
-  - "五层深度理解"
-  - "冰山复盘模型"
-  - "双向链接"
-  - "商业模式隐忧"
-  - "复盘可能强化既有偏见"
-  - "对\"天赋/素质\"的回避造成逻辑断层"
-  - "搭建个人"
-  - "操作步骤"
+- 小抄"与"必修课"的互锁
+- 与一堂其他核心课程的关系
+- 五层深度理解
+- 冰山复盘模型
+- 双向链接
+- 商业模式隐忧
+- 复盘可能强化既有偏见
+- 对"天赋/素质"的回避造成逻辑断层
+- 搭建个人
+- 操作步骤
 related:
-  - yt-entrepreneur-scientific-method
-  - yt-personal-deliberate-practice
-  - master-first-principles
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-extraction
-  - yt-personal-knowledge-management
-  - yt-personal-time-management
-  - yt-system-course-map-lecture
+- '[[yt-entrepreneur-scientific-method]]'
+- '[[yt-personal-deliberate-practice]]'
+- '[[master-first-principles]]'
+- '[[yt-personal-ipo-learning]]'
+- '[[yt-personal-knowledge-extraction]]'
+- '[[yt-personal-knowledge-management]]'
+- '[[yt-personal-time-management]]'
+- '[[yt-system-course-map-lecture]]'
 review_date: 2026-05-07
-reviewed_by: "黄药师"
-source_refs:
-  - src_20260507_9dd09688
-  - src_20260507_df666081
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_c92a36ba
 status: enriched
-title: "深度复盘"
+title: 深度复盘
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "深度复盘"
+  module: 深度复盘
   course_id: 404
   course_type: method
   level: core
-  series: False
-tags:
+  series: false
+tags: null
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '复盘从具体事件出发，而不是泛泛而谈', 'framework_lens': '具体事件是复盘的锚', 'follow_up_question': '如果复盘只保留一个关键事件，你会选哪一个？'}
-  - {'signal': '复盘至少挖掘到原因层，并尝试提取可迁移的模型', 'framework_lens': '冰山复盘模型', 'follow_up_question': '这次事件背后的模式，在另外三个场景中是否也可能出现？'}
-  - {'signal': '复盘后产出具体改进行动，并跟踪执行情况', 'framework_lens': '复盘的价值在于改变未来行为', 'follow_up_question': '上次深度复盘的行动项，现在完成了多少？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 复盘从具体事件出发，而不是泛泛而谈
+  framework_lens: 具体事件是复盘的锚
+  follow_up_question: 如果复盘只保留一个关键事件，你会选哪一个？
+- signal: 复盘至少挖掘到原因层，并尝试提取可迁移的模型
+  framework_lens: 冰山复盘模型
+  follow_up_question: 这次事件背后的模式，在另外三个场景中是否也可能出现？
+- signal: 复盘后产出具体改进行动，并跟踪执行情况
+  framework_lens: 复盘的价值在于改变未来行为
+  follow_up_question: 上次深度复盘的行动项，现在完成了多少？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 # 深度复盘
 
 > 来源：src_20260507_9dd09688（周子敬讲授，2026年科学学习/深度复盘课程录音）。[[一堂方法论体系总图]] | [[yitang-course-map]]

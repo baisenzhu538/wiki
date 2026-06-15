@@ -1,29 +1,28 @@
 ---
 id: dk-c1-cjk-regex-silent-fail
-title: "C-1：enrich 中文内容不能用 CLI regex→0 pages enriched 静默失败"
+title: C-1：enrich 中文内容不能用 CLI regex→0 pages enriched 静默失败
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - master
+- master
 source_person: Builder
 source_context: 2026-05-03
 source_refs:
-  - 20_memory/corrections.md#C-1
+- 20_memory/corrections.md#C-1
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 related:
-  - dk-c10-batch-tool-no-dry-run
-  - master-ai-info-literacy
+- '[[dk-c10-batch-tool-no-dry-run]]'
+- '[[master-ai-info-literacy]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # C-1：enrich 中文内容不能用 CLI regex→0 pages enriched 静默失败
 
 ## 原始表述

@@ -1,64 +1,51 @@
 ---
 id: yt-tool-equity-checklist
-title: "股权设计检查清单"
+title: 股权设计检查清单
 type: tool
 source_refs:
-- src_20260614_8f80cb0f
+- 30_wiki/concepts/yt-management-business-formula.md
 status: enriched
 domain:
-  - yitang
+- yitang
 language: zh-CN
 version: 1
 difficulty: advanced
 confidence: 0.75
 prerequisites:
-  - yt-management-business-formula
+- yt-management-business-formula
 component_of:
-  - yt-management-toolkit-overview
+- yt-management-toolkit-overview
 related:
-  - yt-management-business-formula
-  - yt-entrepreneur-lean-validation
-  - yt-management-goal-management
-  - yt-tool-strategy-workshop
-contradicts: 
+- '[[yt-management-business-formula]]'
+- '[[yt-entrepreneur-lean-validation]]'
+- '[[yt-management-goal-management]]'
+- '[[yt-tool-strategy-workshop]]'
+contradicts: null
 query_triggers:
-  - "股权设计"
-  - "股权分配"
-  - "创业股权"
-  - "股东协议"
-  - "股权激励"
-  - "联合创始人"
-  - "股权退出机制"
-  - "vesting 机制"
-  - "股权回购"
-  - "投资前股权检查"
-tags:
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
-  - #equity
-  - #management
-  - #scene/note-taking
-  - #scene/skill-engineering/manifest-design
-  - #startup
-  - #tool
-  - #yitang
+- 股权设计
+- 股权分配
+- 创业股权
+- 股东协议
+- 股权激励
+- 联合创始人
+- 股权退出机制
+- vesting 机制
+- 股权回购
+- 投资前股权检查
+tags: []
 trust_level: medium
 yitang:
   map: management
-  module: "管公司"
+  module: 管公司
   course_id: yt-tool-equity-checklist
   course_type: tool
   level: advanced
-source_refs:
-  - 30_wiki/concepts/yt-management-business-formula.md
 created_at: 2026-05-20
-updated_at: 2026-05-20
+updated_at: '2026-06-16'
 estimated_tokens: 3400
-reviewed_by: 
-author: "老顽童"
+reviewed_by: null
+author: 老顽童
 ---
-
 # 股权设计检查清单
 
 > 从 [[yt-management-business-formula]] 和 [[yt-entrepreneur-lean-validation]] 萃取的公司治理工具。不是“分股比例怎么切”的财务计算，而是一套在“绑定”前检查关系健康度的“婚前协议”——**80% 的创业团队分裂不是因为业务失败，而是因为股权没说清楚**。

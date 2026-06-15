@@ -1,54 +1,59 @@
 ---
 id: yt-tool-best-practice-learning
 component_of:
-  - yt-model-pan-product-aesthetic-toolkit
+- yt-model-pan-product-aesthetic-toolkit
 confidence: 0.88
 created_at: 2026-06-06
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
-  - yt-model-pan-product-aesthetic-toolkit
+- yt-model-pan-product-aesthetic-toolkit
 query_triggers:
-  - "最佳实践"
-  - "如何学习最佳实践"
-  - "建模"
-  - "案例池子"
-  - "如何快速入门新领域"
-  - "如何超越竞品"
-  - "体感培养"
-  - "如何提升审美"
-  - "设计感培养"
+- 最佳实践
+- 如何学习最佳实践
+- 建模
+- 案例池子
+- 如何快速入门新领域
+- 如何超越竞品
+- 体感培养
+- 如何提升审美
+- 设计感培养
 related:
-  - yt-model-pan-product-aesthetic-toolkit
-  - yt-personal-pan-product-aesthetics
-  - yt-tool-mental-model-refinement
+- '[[yt-model-pan-product-aesthetic-toolkit]]'
+- '[[yt-personal-pan-product-aesthetics]]'
+- '[[yt-tool-mental-model-refinement]]'
 review_by: 2026-12-06
-reviewed_by: "黄药师"
-source_refs:
-  - "00_inbox/一堂-个人修身-泛产品设计审美口述.md"
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_0af1f6dd
 status: enriched
-title: "最佳实践学习四步法：从收集到超越"
+title: 最佳实践学习四步法：从收集到超越
 type: tool
 version: 1
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
-  - confidence-verified-by-test
+- confidence-source-cited
+- confidence-verified-by-case
+- confidence-verified-by-test
 diagnostic_signals:
-  - {'signal': "是否建立了明确的'水准'和评估维度（雷达图/分层权重模型）", 'framework_lens': '建池 / 建模', 'follow_up_question': "收集案例时是否只'看过'而没有建池和拆解？"}
-  - {'signal': '每个模型建立后 30 天内是否在 ≥2 个真实项目中测试', 'framework_lens': '实战反馈环 / 刻意练习', 'follow_up_question': '模型是否停留在复制层面而没有经过真实场景验证？'}
-  - {'signal': '收集案例是否主动包含跨领域/反常识来源以避免同质化', 'framework_lens': '创新 / 盲区突破', 'follow_up_question': '最佳实践水是否让产品越来越像行业平均水平？'}
-  - {'signal': "设计决策是否先问'用户需要什么'再问'最佳实践怎么做'", 'framework_lens': '用户中心 / 参考≠目标', 'follow_up_question': "是否把'不比竞品差'当成设计目标？"}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 是否建立了明确的'水准'和评估维度（雷达图/分层权重模型）
+  framework_lens: 建池 / 建模
+  follow_up_question: 收集案例时是否只'看过'而没有建池和拆解？
+- signal: 每个模型建立后 30 天内是否在 ≥2 个真实项目中测试
+  framework_lens: 实战反馈环 / 刻意练习
+  follow_up_question: 模型是否停留在复制层面而没有经过真实场景验证？
+- signal: 收集案例是否主动包含跨领域/反常识来源以避免同质化
+  framework_lens: 创新 / 盲区突破
+  follow_up_question: 最佳实践水是否让产品越来越像行业平均水平？
+- signal: 设计决策是否先问'用户需要什么'再问'最佳实践怎么做'
+  framework_lens: 用户中心 / 参考≠目标
+  follow_up_question: 是否把'不比竞品差'当成设计目标？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 ## Summary
 
 > **一句话**：大多数人做产品做得差，不是因为不努力，而是因为“最佳实践”只停留在“看过”——从来没有系统性地收集、建池、拆解、超越。

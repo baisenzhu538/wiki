@@ -1,28 +1,27 @@
 ---
-id: "case-truman-prd-checklist-evolution"
-title: "Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平"
-type: "case"
-status: "draft"
+id: case-truman-prd-checklist-evolution
+title: Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平
+type: case
+status: draft
 domain:
-  - "yitang"
-  - "personal-growth"
-source_person: "Truman"
-source_context: "一堂-个人修炼-知识萃取探索营口述版（2026-05）"
+- yitang
+- personal-growth
+source_person: Truman
+source_context: 一堂-个人修炼-知识萃取探索营口述版（2026-05）
 source_refs:
-  - "00_inbox/ideas/一堂-个人修炼-知识萃取探索营口述版.md"
+- 00_inbox/ideas/一堂-个人修炼-知识萃取探索营口述版.md
 related:
-  - "dk-truman-document-is-real-project-is-fake"
-  - "yt-note-checklist-concept"
-  - "dk-truman-knowledge-extraction-three-schools"
-  - "ai-learning-closed-loop"
-created_at: "2026-06-09"
-updated_at: "2026-06-09"
-author: "legacy"
-reviewed_by: "pending"
+- '[[dk-truman-document-is-real-project-is-fake]]'
+- '[[yt-note-checklist-concept]]'
+- '[[dk-truman-knowledge-extraction-three-schools]]'
+- '[[ai-learning-closed-loop]]'
+created_at: '2026-06-09'
+updated_at: '2026-06-16'
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # Truman的PRD清单进化
 
 > Truman在知识萃取探索营中回溯了他早期在去哪儿做产品经理时的关键突破——从一个新人PM被领导反复打回，到用一个简单的检查清单实现"不再二错"，半年内赶上三四年经验PM的水平。这是"面向过去建模型，面向未来解决问题"的典范案例。

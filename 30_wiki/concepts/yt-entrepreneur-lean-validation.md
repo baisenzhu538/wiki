@@ -4,48 +4,49 @@ confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1851
 language: zh-CN
 query_triggers:
-  - "低成本验证"
-  - MVP
-  - "精益创业"
-  - "最小可行产品"
-  - "创业假设验证"
-  - "精益实验设计"
-  - "pivot决策"
-  - "创业实验矩阵"
-  - "数据驱动决策"
-  - "关键假设测试"
+- 低成本验证
+- MVP
+- 精益创业
+- 最小可行产品
+- 创业假设验证
+- 精益实验设计
+- pivot决策
+- 创业实验矩阵
+- 数据驱动决策
+- 关键假设测试
 related:
-  - dk-yb1-aigc-mvp-before-ps
+- '[[dk-yb1-aigc-mvp-before-ps]]'
 review_date: 2026-05-08
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
+reviewed_by: 黄药师
 source_refs:
 - src_20260609_9168476b
 status: enriched
-title: "低成本验证/MVP"
+title: 低成本验证/MVP
 trust_level: medium
 type: tool
 version: 1
 yitang:
   map: entrepreneur
-  module: "低成本验证/MVP"
+  module: 低成本验证/MVP
   course_id: yt-entrepreneur-lean-validation
   course_type: method
   level: core
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户把MVP做成完整产品', 'framework_lens': '混淆MVP与产品', 'follow_up_question': '你的MVP是为了验证哪个具体假设？如果砍掉一半功能，还能验证吗？'}
-  - {'signal': '用户验证了一个点但没有继续迭代', 'framework_lens': 'MVP没有闭环', 'follow_up_question': '验证结果如何改变了你的下一步行动？如果没有任何改变，验证只是形式主义'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户把MVP做成完整产品
+  framework_lens: 混淆MVP与产品
+  follow_up_question: 你的MVP是为了验证哪个具体假设？如果砍掉一半功能，还能验证吗？
+- signal: 用户验证了一个点但没有继续迭代
+  framework_lens: MVP没有闭环
+  follow_up_question: 验证结果如何改变了你的下一步行动？如果没有任何改变，验证只是形式主义
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # 低成本验证/MVP
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]

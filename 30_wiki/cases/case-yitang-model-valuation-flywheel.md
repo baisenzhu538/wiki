@@ -18,9 +18,8 @@ definition_of_done:
 - 方案可理解
 - 可迁移点明确
 tags:
-- '#case'
+- '#content-format/case-study'
 - '#problem/org-incentives'
-- '#source/truman'
 related_skills: []
 related_concepts:
 - '[[dk-modeling-model-arsenal-paradigms]]'

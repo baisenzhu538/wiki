@@ -1,32 +1,28 @@
 ---
 id: dk-p18-yaml-parser
-title: "P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复"
+title: P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - master
+- master
 source_person: system
-source_context: "pitfalls.md P-18"
+source_context: pitfalls.md P-18
 source_refs:
-  - .agent/pitfalls.md#P-18
+- .agent/pitfalls.md#P-18
 created_at: 2026-06-03
-updated_at: 2026-06-03
+updated_at: '2026-06-16'
 related:
-  - dk-f13-handwritten-yaml-parser
-  - dk-p11-regex-cutoff
-related:
-  - kdo-yaml-frontmatter-safety
-  - master-first-principles
+- '[[kdo-yaml-frontmatter-safety]]'
+- '[[master-first-principles]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复
 
 ## 原始表述

@@ -23,10 +23,9 @@ related:
 - '[[ai-short-drama-plot-three-axes]]'
 - '[[ai-short-drama-framework-three-axes]]'
 tags:
-- '#ai-short-drama'
-- '#scriptwriting'
-- '#tool'
-- '#checklist'
+- '#industry/content-creation'
+- '#content-format/concept-card'
+- '#content-format/checklist'
 - '#conflict'
 diagnostic_signals:
 - signal: 用户说"反派太单薄，像工具人"

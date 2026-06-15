@@ -4,37 +4,36 @@ confidence: 0.85
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-  - master
+- master
 estimated_tokens: 1082
 language: zh-CN
 query_triggers:
-  - "认知偏差自检"
-  - "决策前检查表"
-  - "12种常见偏差"
+- 认知偏差自检
+- 决策前检查表
+- 12种常见偏差
 related:
-  - yt-decision-y-model
-  - yt-decision-canvas
-  - yt-decision-habit-shift
-  - yt-decision-ai-partner
-  - yt-decision-review
-  - master-decision-hygiene
-  - master-ai-info-literacy
-  - yt-unit-model-ladder
-  - yt-unit-model-benchmark
+- '[[yt-decision-y-model]]'
+- '[[yt-decision-canvas]]'
+- '[[yt-decision-habit-shift]]'
+- '[[yt-decision-ai-partner]]'
+- '[[yt-decision-review]]'
+- '[[master-decision-hygiene]]'
+- '[[master-ai-info-literacy]]'
+- '[[yt-unit-model-ladder]]'
+- '[[yt-unit-model-benchmark]]'
 source_refs:
-  - {'来源': '消化全库后提炼'}
+- 来源: 消化全库后提炼
 status: enriched
-title: "认知偏差快速诊断清单"
+title: 认知偏差快速诊断清单
 type: tool
-updated_at: 2026-05-18
+updated_at: '2026-06-16'
 version: 1
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 author: unknown
 trust_level: medium-high
 ---
-
 # 认知偏差快速诊断清单
 
 > **核心定位**：做重要决策前，用 12 个问题的"认知体检"扫描自己的大脑有没有 bug。不是消除偏差（不可能），是把"不知道自己有偏差"变成"知道自己可能有偏差"。**使用顺序**：在选项评估阶段使用，位于反脆弱检查（#5）之后、拍板之前。

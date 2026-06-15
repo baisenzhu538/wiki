@@ -4,59 +4,66 @@ confidence: 0.85
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
-  - entrepreneur
-  - master
+- entrepreneur
+- master
 estimated_tokens: 3200
 language: zh-CN
 prerequisites:
-  - yt-unit-model-overview
+- yt-unit-model-overview
 query_triggers:
-  - "单元模型段位"
-  - "L1 L2 L3 L4 L5 L6"
-  - "单元模型进阶"
-  - "不会算账到动态预判"
-  - "单元模型段位标准"
-  - "单元模型常见错误"
-  - "商业分析段位"
+- 单元模型段位
+- L1 L2 L3 L4 L5 L6
+- 单元模型进阶
+- 不会算账到动态预判
+- 单元模型段位标准
+- 单元模型常见错误
+- 商业分析段位
 related:
-  - yt-unit-model-selection
-  - yt-unit-model-construction
-  - yt-unit-model-benchmark
-  - yt-unit-model-dynamic
-  - yt-unit-model-ai-assisted
-  - yt-entrepreneur-five-step-method
-  - yt-decision-y-model
-  - master-first-principles
-  - master-systems-thinking
+- '[[yt-unit-model-selection]]'
+- '[[yt-unit-model-construction]]'
+- '[[yt-unit-model-benchmark]]'
+- '[[yt-unit-model-dynamic]]'
+- '[[yt-unit-model-ai-assisted]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-decision-y-model]]'
+- '[[master-first-principles]]'
+- '[[master-systems-thinking]]'
 source_refs:
-  - "src_20260524_8a3b1c2d-一堂-单元模型01口述"
-  - "src_20260524_9f4e5d6a-一堂-单元模型02口述"
-  - "src_20260524_7c8d9e0f-一堂-单元模型03口述"
-  - "src_20260524_6b5a4c3d-一堂-单元模型04口述"
-  - "src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述"
+- src_20260524_8a3b1c2d-一堂-单元模型01口述
+- src_20260524_9f4e5d6a-一堂-单元模型02口述
+- src_20260524_7c8d9e0f-一堂-单元模型03口述
+- src_20260524_6b5a4c3d-一堂-单元模型04口述
+- src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述
 status: reviewed
-title: "单元模型六段进阶：从不会算账到动态预判"
+title: 单元模型六段进阶：从不会算账到动态预判
 trust_level: high
 type: framework
 version: 1
 yitang:
   map: entrepreneur
-  module: "创业必修"
+  module: 创业必修
   course_type: framework
   level: intermediate
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-draft
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '是否能诚实自评当前段位并定位缺项', 'framework_lens': '段位诊断 / 自我评估', 'follow_up_question': '团队是否高估自己的单元模型能力？'}
-  - {'signal': '每个段位升阶是否有明确的能力标准和练习动作', 'framework_lens': '刻意练习 / 进阶路径', 'follow_up_question': '是否只学理论不做拆推评算练习？'}
-  - {'signal': "是否用'15 个错误清单'诊断单元模型质量", 'framework_lens': '错误模式 / 质量检查', 'follow_up_question': '团队是否重复犯同样错误而不知其编号？'}
-  - {'signal': '段位训练是否与真实业务项目绑定', 'framework_lens': '实战 / 学习迁移', 'follow_up_question': '训练是否停留在纸面案例而非真实数据？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 是否能诚实自评当前段位并定位缺项
+  framework_lens: 段位诊断 / 自我评估
+  follow_up_question: 团队是否高估自己的单元模型能力？
+- signal: 每个段位升阶是否有明确的能力标准和练习动作
+  framework_lens: 刻意练习 / 进阶路径
+  follow_up_question: 是否只学理论不做拆推评算练习？
+- signal: 是否用'15 个错误清单'诊断单元模型质量
+  framework_lens: 错误模式 / 质量检查
+  follow_up_question: 团队是否重复犯同样错误而不知其编号？
+- signal: 段位训练是否与真实业务项目绑定
+  framework_lens: 实战 / 学习迁移
+  follow_up_question: 训练是否停留在纸面案例而非真实数据？
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # 单元模型六段进阶：从不会算账到动态预判
 
 > 来源：一堂《单元模型实操系列课》完整进阶体系。单元模型的操盘能力从 L1（不算账）到 L6（动态预判）构成一条完整的商业分析能力进阶路径。每个段位都有明确的判断标准、典型错误和能力盲区。

@@ -1,33 +1,29 @@
 ---
 id: dk-f12-builder-context-deadlock
-title: "F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出"
+title: F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
 type: dark-knowledge
 dark_knowledge_type: failure
 status: draft
 domain:
-  - master
+- master
 source_person: system
-source_context: "failure-modes.md F-KDO-012"
+source_context: failure-modes.md F-KDO-012
 source_refs:
-  - 90_control/failure-modes.md#F-KDO-012
+- 90_control/failure-modes.md#F-KDO-012
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 related:
-  - dk-c6-large-source-overflow
-  - master-systems-thinking
-related:
-  - master-first-principles
-  - kdo-flywheel
-  - master-systems-thinking
+- '[[master-first-principles]]'
+- '[[kdo-flywheel]]'
+- '[[master-systems-thinking]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
 
 ## 原始表述

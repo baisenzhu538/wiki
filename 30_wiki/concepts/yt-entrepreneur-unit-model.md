@@ -19,7 +19,7 @@ query_triggers:
 - 毛利分析
 - 单客经济模型
 related:
-- dk-yb21-ecommerce-pricing-independent-model
+- '[[dk-yb21-ecommerce-pricing-independent-model]]'
 review_date: 2026-06-15
 reviewed_by: pending
 source_refs:

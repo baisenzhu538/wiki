@@ -1,67 +1,52 @@
 ---
 id: yt-tool-project-health-radar
-title: "项目健康度雷达"
+title: 项目健康度雷达
 type: tool
 source_refs:
-- src_20260614_8f80cb0f
+- 30_wiki/concepts/yt-management-project-management.md
 status: enriched
 domain:
-  - yitang
+- yitang
 language: zh-CN
 version: 1
 difficulty: intermediate
 confidence: 0.8
 prerequisites:
-  - yt-management-project-management
+- yt-management-project-management
 component_of:
-  - yt-management-toolkit-overview
+- yt-management-toolkit-overview
 related:
-  - yt-tool-okr-cycle
-  - yt-management-goal-management
-  - yt-management-scientific-meetings
-  - yt-management-project-management
-  - yt-panproduct-execution-risk-management
-contradicts: 
+- '[[yt-tool-okr-cycle]]'
+- '[[yt-management-goal-management]]'
+- '[[yt-management-scientific-meetings]]'
+- '[[yt-management-project-management]]'
+- '[[yt-panproduct-execution-risk-management]]'
+contradicts: null
 query_triggers:
-  - "项目健康度检查"
-  - "项目风险评估"
-  - "项目状态诊断"
-  - "项目红绿灯"
-  - "项目中期评审"
-  - "项目里程碑检查"
-  - "项目复盘前诊断"
-  - "多项目组合健康度"
-  - "项目预警指标"
-  - "项目状态报告"
-tags:
-  - #boundary/not-for-creative
-  - #boundary/requires-human-judgment
-  - #boundary/single-use-only
-  - confidence-source-cited
-  - #management
-  - #project
-  - #scene/hardware-debugging/prototyping
-  - #scene/learning-methodology/feedback-loop
-  - #scene/note-taking
-  - #scene/skill-engineering/manifest-design
-  - #tool
-  - #yitang
+- 项目健康度检查
+- 项目风险评估
+- 项目状态诊断
+- 项目红绿灯
+- 项目中期评审
+- 项目里程碑检查
+- 项目复盘前诊断
+- 多项目组合健康度
+- 项目预警指标
+- 项目状态报告
+tags: []
 trust_level: medium
 yitang:
   map: management
-  module: "项目管理"
+  module: 项目管理
   course_id: yt-tool-project-health-radar
   course_type: tool
   level: core
-source_refs:
-  - 30_wiki/concepts/yt-management-project-management.md
 created_at: 2026-05-20
-updated_at: 2026-05-20
+updated_at: '2026-06-16'
 estimated_tokens: 3500
-reviewed_by: 
-author: "老顽童"
+reviewed_by: null
+author: 老顽童
 ---
-
 # 项目健康度雷达
 
 > 从 [[yt-management-project-management]] 五步闭环萃取的诊断工具。不是"项目报告会"的流水账，而是用 6 个维度、3 色信号、1 个约束追问，在 15 分钟内判断一个项目是"真的在轨道上"还是"只是在轨道上跑错了方向"。

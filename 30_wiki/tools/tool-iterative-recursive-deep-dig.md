@@ -22,8 +22,8 @@ related:
 - '[[dk-modeling-ai-iterative-prompting]]'
 - '[[dk-modeling-counterexample-driven]]'
 tags:
-- '#modeling'
-- '#tool'
+- '#method/modeling'
+- '#content-format/concept-card'
 - '#iteration'
 - '#critique'
 - '#deep-dig'

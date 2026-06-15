@@ -15,17 +15,17 @@ reviewed_by: 黄药师
 review_date: '2026-06-14'
 trust_level: high
 related:
-- modeling-capability-for-kdo
-- modeling-three-stages
-- case-truman-livestream-sop-iteration
-- case-truman-ai-skill-self-packaging
-- modeling-to-kdo-toolchain
+- '[[modeling-capability-for-kdo]]'
+- '[[modeling-three-stages]]'
+- '[[case-truman-livestream-sop-iteration]]'
+- '[[case-truman-ai-skill-self-packaging]]'
+- '[[modeling-to-kdo-toolchain]]'
 tags:
-- '#modeling'
-- '#case'
+- '#method/modeling'
+- '#content-format/case-study'
 - '#abstract-modeling'
 - '#product-design'
-- '#yitang'
+- '#domain/yitang'
 diagnostic_signals:
 - signal: 我们有十几个分散的课题想做成一张地图，但不知道怎么开始
   framework_lens: 七步创作法

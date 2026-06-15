@@ -14,10 +14,7 @@ source_context: KDO internal record （原始 source 无法追溯，已标记为
 source_refs:
 - source_unknown
 related:
-- knowledge-flywheel-discovery-20260602
-- sprint-6-four-death-sentences
-- kdo-industrialization-manual
-- proposal-deep-synthesis-infrastructure
+- '[[proposal-deep-synthesis-infrastructure]]'
 id: proposal-kdo-flywheel-infrastructure
 reviewed_by: pending
 confidence: 0.6

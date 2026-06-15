@@ -12,11 +12,10 @@ target_roles:
 - 欧阳锋（Architect）
 reviewer: 用户 + 欧阳锋
 related:
-- data-labeling-best-practices-report
-- kdo-15-dimension-label-spec
-- labeling-research-alignment
-- ouyangfeng-labeling-research-review
-- 数据标注维度最佳实践调研报告（老顽童）
+- '[[data-labeling-best-practices-report]]'
+- '[[kdo-15-dimension-label-spec]]'
+- '[[labeling-research-alignment]]'
+- '[[ouyangfeng-labeling-research-review]]'
 author: legacy
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260503_52ae08ba）

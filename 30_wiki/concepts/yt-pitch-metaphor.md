@@ -1,46 +1,48 @@
 ---
 id: yt-pitch-metaphor
 component_of:
-  - yt-model-personal-pitch-toolkit
+- yt-model-personal-pitch-toolkit
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: foundational
 domain:
-  - personal
-  - yitang
+- personal
+- yitang
 estimated_tokens: 1600
 language: zh-CN
 prerequisites:
-  - yt-model-personal-pitch-toolkit
+- yt-model-personal-pitch-toolkit
 query_triggers:
-  - "比喻化"
-  - "比喻"
-  - "类比"
-  - "形象比喻"
-  - "高级比喻"
+- 比喻化
+- 比喻
+- 类比
+- 形象比喻
+- 高级比喻
 related:
-  - yt-concept-weapon-arsenal
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
-  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+- '[[yt-concept-weapon-arsenal]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260609_93e2df35
 status: enriched
-title: "讲香·比喻化"
+title: 讲香·比喻化
 type: tool
 version: 1
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用用户熟悉的事物解释陌生或抽象的概念', 'framework_lens': '比喻是认知脚手架', 'follow_up_question': '这个比喻的‘本体’是用户已经理解的吗？'}
-  - {'signal': '比喻能传递价值感或情感，而不仅仅是解释功能', 'framework_lens': '比喻可以借价值参照系', 'follow_up_question': '这个比喻让用户联想到什么价值判断？'}
-  - {'signal': '不会把比喻推到逻辑不成立的极端', 'framework_lens': '比喻有适用范围', 'follow_up_question': '这个比喻在哪个方面会失效？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用用户熟悉的事物解释陌生或抽象的概念
+  framework_lens: 比喻是认知脚手架
+  follow_up_question: 这个比喻的‘本体’是用户已经理解的吗？
+- signal: 比喻能传递价值感或情感，而不仅仅是解释功能
+  framework_lens: 比喻可以借价值参照系
+  follow_up_question: 这个比喻让用户联想到什么价值判断？
+- signal: 不会把比喻推到逻辑不成立的极端
+  framework_lens: 比喻有适用范围
+  follow_up_question: 这个比喻在哪个方面会失效？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 # 讲香·比喻化
 
 > 十指模型右手第一指——向上抽象。用已知解释未知，帮用户建立一个关联的心理锚点，让难理解的东西瞬间变清晰。

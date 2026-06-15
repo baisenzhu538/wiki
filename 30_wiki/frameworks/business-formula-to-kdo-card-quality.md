@@ -17,14 +17,14 @@ reviewed_by: pending
 review_date: '2026-06-15'
 trust_level: high
 related:
-- yt-business-formula-abc-model
-- yt-business-formula-parameter-iceberg
-- yt-business-formula-six-level-logic
-- case-toc-ecommerce-formula-misjudgment
-- modeling-to-kdo-toolchain
-- modeling-three-stages
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-business-formula-six-level-logic]]'
+- '[[case-toc-ecommerce-formula-misjudgment]]'
+- '[[modeling-to-kdo-toolchain]]'
+- '[[modeling-three-stages]]'
 tags:
-- '#business-formula'
+- '#method/evaluation-method'
 - '#kdo'
 - '#meta-method'
 - '#card-quality'

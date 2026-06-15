@@ -17,11 +17,11 @@ updated_at: '2026-06-16'
 confidence: 0.85
 trust_level: high
 related:
-- modeling-capability-for-kdo
-- modeling-three-stages
-- modeling-capability-system
-- modeling-level-map
-- dk-modeling-expert-consensus-five-percent
+- '[[modeling-capability-for-kdo]]'
+- '[[modeling-three-stages]]'
+- '[[modeling-capability-system]]'
+- '[[modeling-level-map]]'
+- '[[dk-modeling-expert-consensus-five-percent]]'
 tags:
 - '#source_type/diverse'
 - '#domain/yitang'
@@ -31,7 +31,6 @@ reviewed_by: 老顽童
 review_date: '2026-06-14'
 author: legacy
 ---
-
 # 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
 
 ## 原始表述

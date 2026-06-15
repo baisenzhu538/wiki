@@ -20,13 +20,12 @@ review_date: '2026-06-14'
 trust_level: high
 confidence: 0.85
 related:
-- modeling-capability-for-kdo
+- '[[modeling-capability-for-kdo]]'
 - '[[modeling-three-stages]]'
 - '[[dk-modeling-counterexample-driven]]'
 tags:
-- '#modeling'
-- '#dk'
-- '#education'
+- '#method/modeling'
+- '#industry/education'
 - '#expert-consensus'
 ---
 # 5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感

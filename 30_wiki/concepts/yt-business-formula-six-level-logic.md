@@ -11,10 +11,10 @@ source_refs:
 - src_20260613_0ab21e5e
 - src_20260613_6edbf0af
 tags:
-- "#business-formula"
-- "#logic"
-- "#yitang"
-- "#causality"
+- '#method/evaluation-method'
+- '#logic'
+- '#domain/yitang'
+- '#causality'
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 孔阳
@@ -23,11 +23,11 @@ review_date: '2026-06-14'
 confidence: 0.9
 trust_level: high
 related:
-- "[[yt-management-business-formula]]"
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-decision-depth-ladder]]"
-- "[[yt-model-deep-review-iceberg]]"
+- '[[yt-management-business-formula]]'
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yt-model-deep-review-iceberg]]'
 ---
 
 # 业务公式六层逻辑关系（L1 模糊 → L6 动态）

@@ -1,33 +1,32 @@
 ---
-id: "dk-modeling-business-visual-logic-match"
-title: "交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配"
-type: "dark-knowledge"
-dark_knowledge_type: "insight"
+id: dk-modeling-business-visual-logic-match
+title: 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配
+type: dark-knowledge
+dark_knowledge_type: insight
 status: draft
 domain:
-  - "yitang"
-  - "ai-saas"
-source_person: "Truman"
-source_context: "一堂建模能力培训，2026-06-12"
+- yitang
+- ai-saas
+source_person: Truman
+source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
+- src_20260614_8269ccdb
 confidence: 0.8
 trust_level: medium
 related:
-  - "dk-modeling-model-arsenal-paradigms"
-  - "tool-iceberg-triangle-modeling"
-  - "tool-binary-quadrant-modeling"
+- '[[dk-modeling-model-arsenal-paradigms]]'
+- '[[tool-iceberg-triangle-modeling]]'
+- '[[tool-binary-quadrant-modeling]]'
 tags:
-  - "#source_type/insight"
-  - "#domain/yitang"
-  - "#method/modeling"
-  - "#method/visual-design"
-author: "老顽童"
-reviewed_by: "pending"
-created_at: "2026-06-15"
-updated_at: "2026-06-15"
+- '#chunk-type/synthesis'
+- '#domain/yitang'
+- '#method/modeling'
+- '#method/visual-design'
+author: 老顽童
+reviewed_by: pending
+created_at: '2026-06-15'
+updated_at: '2026-06-16'
 ---
-
 # 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配
 
 ## 原始表述

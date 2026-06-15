@@ -23,9 +23,9 @@ related:
 - '[[process-modeling]]'
 - '[[modeling-three-stages]]'
 tags:
-- '#modeling'
-- '#tool'
-- '#checklist'
+- '#method/modeling'
+- '#content-format/concept-card'
+- '#content-format/checklist'
 - '#cheatsheet'
 - '#execution'
 ---

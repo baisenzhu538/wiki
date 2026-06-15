@@ -1,48 +1,46 @@
 ---
-id: "dk-truman-flag-note-taking"
-title: "立flag记笔法：用量化目标倒逼笔记中的真实思考量"
-type: "dark-knowledge"
-status: "draft"
+id: dk-truman-flag-note-taking
+title: 立flag记笔法：用量化目标倒逼笔记中的真实思考量
+type: dark-knowledge
+status: draft
 domain:
-  - "yitang"
-  - "personal-growth"
-language: "zh-CN"
+- yitang
+- personal-growth
+language: zh-CN
 version: 1
 confidence: 0.85
 source_refs:
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt"
+- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt
 related:
-  - "yt-note-l4-internalization"
-  - "yt-note-checklist-concept"
-  - "yt-note-ai-human-division"
-  - "skill-问题驱动式深度思考笔记"
-  - "skill-自我反馈修正笔记姿势"
+- '[[yt-note-l4-internalization]]'
+- '[[yt-note-checklist-concept]]'
+- '[[yt-note-ai-human-division]]'
+- '[[skill-问题驱动式深度思考笔记]]'
+- '[[skill-自我反馈修正笔记姿势]]'
 query_triggers:
-  - "怎么逼自己思考"
-  - "笔记没有自己的东西"
-  - "AI时代还要记笔记吗"
-  - "如何避免你说啥我记啥"
-  - "记笔记立flag"
-  - "30%自我思考"
-  - "提升思考量的方法"
+- 怎么逼自己思考
+- 笔记没有自己的东西
+- AI时代还要记笔记吗
+- 如何避免你说啥我记啥
+- 记笔记立flag
+- 30%自我思考
+- 提升思考量的方法
 tags:
-  - "confidence-draft"
-  - "confidence-source-cited"
-  - "#note-taking"
-  - "#cognitive-tool"
-  - "#deliberate-practice"
-  - "#scene/learning-methodology/deliberate-practice"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/ai-collaboration"
-  - "#yitang"
-created_at: "2026-06-10"
-updated_at: "2026-06-10"
+- '#note-taking'
+- '#cognitive-tool'
+- '#deliberate-practice'
+- '#scene/learning-methodology/deliberate-practice'
+- '#content-format/checklist'
+- '#method/learning-method'
+- '#scene/ai-collaboration'
+- '#domain/yitang'
+created_at: '2026-06-10'
+updated_at: '2026-06-16'
 estimated_tokens: 4200
-author: "legacy"
-reviewed_by: "pending"
-trust_level: "low"
+author: legacy
+reviewed_by: pending
+trust_level: low
 ---
-
 # 立flag记笔法：用量化目标倒逼笔记中的真实思考量
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的核心判断：笔记质量的第一标准不是完整、清晰或整理内化率，而是**思考量**——笔记里有多少高质量的、属于你自己的思考。而人性天然会懒，"你说啥我记啥"是默认状态，必须用**可量化的flag**倒逼自己跳出这个状态。

@@ -11,11 +11,11 @@ source_refs:
 - src_20260613_6edbf0af
 - src_20260613_a8bcfd38
 tags:
-- "#business-formula"
-- "#case"
-- "#gym"
-- "#membership"
-- "#yitang"
+- '#method/evaluation-method'
+- '#content-format/case-study'
+- '#gym'
+- '#membership'
+- '#domain/yitang'
 created_at: '2026-06-15'
 updated_at: '2026-06-15'
 author: 孔阳
@@ -26,10 +26,10 @@ review_date: '2026-06-15'
 confidence: 0.88
 trust_level: high
 related:
-- "[[yt-business-formula-abc-model]]"
-- "[[yt-business-formula-ten-paradigms]]"
-- "[[yt-business-formula-parameter-iceberg]]"
-- "[[yt-entrepreneur-unit-model]]"
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-ten-paradigms]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-entrepreneur-unit-model]]'
 ---
 
 # 线下连锁健身：把“到店频率”变成“到店习惯”才是续卡率抓手

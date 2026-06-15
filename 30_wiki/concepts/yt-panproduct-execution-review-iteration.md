@@ -1,56 +1,59 @@
 ---
 id: yt-panproduct-execution-review-iteration
 component_of:
-  - yt-model-pan-product-execution-toolkit
+- yt-model-pan-product-execution-toolkit
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1223
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-aesthetic-toolkit
 query_triggers:
-  - "产品落地"
-  - "产品迭代"
-  - "复盘迭代"
-  - "执行方法"
-  - "泛产品设计"
-  - "泛产品设计·落地卡片：复盘迭代"
-  - "落地卡片"
-  - "落地执行"
+- 产品落地
+- 产品迭代
+- 复盘迭代
+- 执行方法
+- 泛产品设计
+- 泛产品设计·落地卡片：复盘迭代
+- 落地卡片
+- 落地执行
 related:
-  - yt-model-deep-review-iceberg
-  - yt-panproduct-execution-milestone-breakdown
-  - yt-model-deliberate-practice-growth
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计-落地卡片-复盘迭代.png"
+- '[[yt-model-deep-review-iceberg]]'
+- '[[yt-panproduct-execution-milestone-breakdown]]'
+- '[[yt-model-deliberate-practice-growth]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_3b5c417d
 status: enriched
-title: "泛产品设计·落地卡片：复盘迭代"
+title: 泛产品设计·落地卡片：复盘迭代
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: intermediate
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '复盘不只停留在事实层，而能挖掘到原因、模型和能力层', 'framework_lens': '复盘深度决定学习质量', 'follow_up_question': '这次复盘你提炼出了哪个可迁移的模型或原则？'}
-  - {'signal': '每次复盘都产出可执行的改进行动，并指定负责人和截止时间', 'framework_lens': '复盘必须产生行动', 'follow_up_question': '上次复盘的行动项有多少在下次复盘前完成了？'}
-  - {'signal': '复盘同时分析成功和失败，而不是只复盘失败', 'framework_lens': '成功经验同样需要模型化', 'follow_up_question': '这次成功中有哪些是偶然因素，哪些可以复制？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 复盘不只停留在事实层，而能挖掘到原因、模型和能力层
+  framework_lens: 复盘深度决定学习质量
+  follow_up_question: 这次复盘你提炼出了哪个可迁移的模型或原则？
+- signal: 每次复盘都产出可执行的改进行动，并指定负责人和截止时间
+  framework_lens: 复盘必须产生行动
+  follow_up_question: 上次复盘的行动项有多少在下次复盘前完成了？
+- signal: 复盘同时分析成功和失败，而不是只复盘失败
+  framework_lens: 成功经验同样需要模型化
+  follow_up_question: 这次成功中有哪些是偶然因素，哪些可以复制？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium
 ---
-
 # 复盘迭代：善于向自己的经验学习
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

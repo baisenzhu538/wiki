@@ -1,40 +1,37 @@
 ---
-id: "skill-一堂-product-kernel-add-subtract"
-title: "技能：产品内核加减法"
+id: skill-一堂-product-kernel-add-subtract
+title: 技能：产品内核加减法
 type: skill
 status: draft
 domain:
-  - product
-  - yitang
+- product
+- yitang
 source_person: Truman
-source_context: "一堂产品内核实操课"
+source_context: 一堂产品内核实操课
 source_refs:
-  - "00_inbox/一堂-产品内核实操课-Truman-口述.txt"
-  - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
+- 00_inbox/一堂-产品内核实操课-Truman-口述.txt
+- 00_inbox/一堂-产品内核实操课-truman-笔记.txt
 tools_required:
-  - "产品内核画布（纸笔/白板/文档均可）"
-  - "用户访谈或问卷工具（可选）"
+- 产品内核画布（纸笔/白板/文档均可）
+- 用户访谈或问卷工具（可选）
 prerequisite_skills:
-  - "concept-一堂-product-kernel"
+- concept-一堂-product-kernel
 related:
-  - "concept-一堂-product-kernel"
-  - "skill-一堂-product-kernel-canvas"
-  - "dk-一堂-kernel-is-hypothesis"
-  - "case-一堂-AI高考志愿-kernel-mismatch"
+- '[[concept-一堂-product-kernel]]'
+- '[[skill-一堂-product-kernel-canvas]]'
 wiki_refs:
-  - "concept-一堂-product-kernel"
-  - "skill-一堂-product-kernel-canvas"
+- '[[concept-一堂-product-kernel]]'
+- '[[skill-一堂-product-kernel-canvas]]'
 created_at: 2026-06-10
-updated_at: 2026-06-10
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：产品内核加减法
 
 ## Summary

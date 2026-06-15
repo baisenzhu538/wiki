@@ -11,9 +11,9 @@ target_roles:
 - 黄药师（Builder）
 reviewer: 欧阳锋（Architect）
 related:
-- plan_20260531_data-curator-v1
-- gold-standard-manual-labels
-- kdo-15-dimension-label-spec
+- '[[plan_20260531_data-curator-v1]]'
+- '[[gold-standard-manual-labels]]'
+- '[[kdo-15-dimension-label-spec]]'
 author: legacy
 source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:

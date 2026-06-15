@@ -1,57 +1,60 @@
 ---
 id: yt-panproduct-execution-management-trilogy
 component_of:
-  - yt-model-pan-product-execution-toolkit
+- yt-model-pan-product-execution-toolkit
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1159
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-aesthetic-toolkit
 query_triggers:
-  - "产品落地"
-  - "产品迭代"
-  - "执行方法"
-  - "泛产品设计"
-  - "泛产品设计·落地卡片：管理三段论"
-  - "管理三段论"
-  - "落地卡片"
-  - "落地执行"
+- 产品落地
+- 产品迭代
+- 执行方法
+- 泛产品设计
+- 泛产品设计·落地卡片：管理三段论
+- 管理三段论
+- 落地卡片
+- 落地执行
 related:
-  - yt-panproduct-execution-core-and-boundary
-  - yt-panproduct-execution-milestone-breakdown
-  - yt-panproduct-execution-roi-analysis
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计-落地卡片-管理三段论.png"
+- '[[yt-panproduct-execution-core-and-boundary]]'
+- '[[yt-panproduct-execution-milestone-breakdown]]'
+- '[[yt-panproduct-execution-roi-analysis]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_8d5cc8b0
 status: enriched
-title: "泛产品设计·落地卡片：管理三段论"
+title: 泛产品设计·落地卡片：管理三段论
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: intermediate
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '讨论资源前，目标和路径已经被明确写出并得到共识', 'framework_lens': '目标→路径→资源的顺序约束', 'follow_up_question': '如果资源减半，你会先调目标还是调路径？'}
-  - {'signal': '当资源不足时，会回头调整目标或路径，而不是硬凑资源', 'framework_lens': '资源是约束，不是起点', 'follow_up_question': '现有资源是否能支撑你设定的路径？如果不能，哪一步需要改变？'}
-  - {'signal': '在执行中会根据新信息重新审视目标，而不是一味线性推进', 'framework_lens': '管理三段论需要反馈环', 'follow_up_question': '最近是否有新信息让原来的目标不再合理？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 讨论资源前，目标和路径已经被明确写出并得到共识
+  framework_lens: 目标→路径→资源的顺序约束
+  follow_up_question: 如果资源减半，你会先调目标还是调路径？
+- signal: 当资源不足时，会回头调整目标或路径，而不是硬凑资源
+  framework_lens: 资源是约束，不是起点
+  follow_up_question: 现有资源是否能支撑你设定的路径？如果不能，哪一步需要改变？
+- signal: 在执行中会根据新信息重新审视目标，而不是一味线性推进
+  framework_lens: 管理三段论需要反馈环
+  follow_up_question: 最近是否有新信息让原来的目标不再合理？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium
 ---
-
 # 管理三段论：业务管理有章可循
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

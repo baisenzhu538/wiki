@@ -1,39 +1,44 @@
 ---
 id: concept-mckinsey-issue-tree
-title: "Issue Tree：问题树拆解"
+title: Issue Tree：问题树拆解
 type: concept
 status: draft
 domain:
-  - consulting
-  - problem-solving
-  - structured-thinking
-source_person: "McKinsey & Company"
-source_context: "McKinsey 问题解决方法论核心工具，用于将复杂商业问题逐层拆解为可独立分析的子问题"
+- consulting
+- problem-solving
+- structured-thinking
+source_person: McKinsey & Company
+source_context: McKinsey 问题解决方法论核心工具，用于将复杂商业问题逐层拆解为可独立分析的子问题
 source_refs:
-  - "Rasiel, E. (1999). The McKinsey Way. McGraw-Hill."
-  - "Rasiel, E. & Friga, P. (2001). The McKinsey Mind. McGraw-Hill."
+- Rasiel, E. (1999). The McKinsey Way. McGraw-Hill.
+- Rasiel, E. & Friga, P. (2001). The McKinsey Mind. McGraw-Hill.
 related:
-  - concept-mckinsey-mece
-  - concept-mckinsey-hypothesis-driven
-  - concept-minto-pyramid-principle
+- '[[concept-mckinsey-mece]]'
+- '[[concept-mckinsey-hypothesis-driven]]'
+- '[[concept-minto-pyramid-principle]]'
 wiki_refs:
-  - yt-entrepreneur-five-step-method
-  - "concept-一堂-hypothesis-driven-business-methodology"
-  - yt-panproduct-execution-idea-spark
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[yt-panproduct-execution-idea-spark]]'
 created_at: 2026-06-11
-updated_at: 2026-06-11
+updated_at: '2026-06-16'
 diagnostic_signals:
-  - {'trigger': '问题太大太复杂，不知道从哪里下手分析', 'framework_lens': 'Issue Tree 逐层拆解', 'follow_up': '如果把这个问题拆成 3-5 个一级子问题，每个子问题都可以独立分析而不重叠，你会怎么分？'}
-  - {'trigger': '团队分工后发现大家在做重叠的分析', 'framework_lens': 'MECE 检查清单', 'follow_up': "你们的分工是按'工作流程'分的还是按'问题子集'分的？如果重叠了，说明 Issue Tree 的第一层拆解就有问题。"}
-  - {'trigger': '需要在短时间内向高管汇报一个复杂问题的结论', 'framework_lens': 'Issue Tree 叶节验证', 'follow_up': '你的 Issue Tree 最底层叶节，有多少个已经被数据验证了？有多少个还是假设？'}
+- trigger: 问题太大太复杂，不知道从哪里下手分析
+  framework_lens: Issue Tree 逐层拆解
+  follow_up: 如果把这个问题拆成 3-5 个一级子问题，每个子问题都可以独立分析而不重叠，你会怎么分？
+- trigger: 团队分工后发现大家在做重叠的分析
+  framework_lens: MECE 检查清单
+  follow_up: 你们的分工是按'工作流程'分的还是按'问题子集'分的？如果重叠了，说明 Issue Tree 的第一层拆解就有问题。
+- trigger: 需要在短时间内向高管汇报一个复杂问题的结论
+  framework_lens: Issue Tree 叶节验证
+  follow_up: 你的 Issue Tree 最底层叶节，有多少个已经被数据验证了？有多少个还是假设？
 pipeline:
-  - confidence-draft
+- confidence-draft
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # Issue Tree：问题树拆解
 
 ## 核心定义

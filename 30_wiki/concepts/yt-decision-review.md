@@ -1,60 +1,66 @@
 ---
 id: yt-decision-review
 component_of:
-  - yt-decision-y-model
+- yt-decision-y-model
 confidence: 0.8
 created_at: 2026-05-17
 difficulty: advanced
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2400
 language: zh-CN
 prerequisites:
-  - yt-decision-y-model
-  - yt-decision-consensus-iceberg
+- yt-decision-y-model
+- yt-decision-consensus-iceberg
 query_triggers:
-  - "决策复盘"
-  - "假设验证"
-  - "后见之明"
-  - "决策迭代"
-  - "认知迁移"
-  - "能力缺失"
-  - "无限进步"
-  - "ROI改进"
+- 决策复盘
+- 假设验证
+- 后见之明
+- 决策迭代
+- 认知迁移
+- 能力缺失
+- 无限进步
+- ROI改进
 related:
-  - yt-decision-canvas
-  - yt-decision-width-method
-  - yt-decision-depth-ladder
-  - yt-personal-deep-review
-  - yt-unit-model-ladder
-  - yt-unit-model-benchmark
-source_refs:
-  - "00_inbox/科学决策/一堂-科学决策-ROI决策实践实操课口述05.txt"
-  - "00_inbox/科学决策/一堂-科学决策-ROI高阶训练全景图.png"
+- '[[yt-decision-canvas]]'
+- '[[yt-decision-width-method]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yt-personal-deep-review]]'
+- '[[yt-unit-model-ladder]]'
+- '[[yt-unit-model-benchmark]]'
 source_refs:
 - src_20260614_8f80cb0f
 status: enriched
-title: "决策复盘工具：L1-L4深度复盘法 + 假设验证闭环"
+title: 决策复盘工具：L1-L4深度复盘法 + 假设验证闭环
 trust_level: medium
 type: tool
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-  - {'image': '一堂-科学决策-ROI高阶训练全景图.png', 'dimensions': [{'色彩语义': '绿=复盘阶段(成长/循环)；与全景图中第5阶段呼应'}, {'空间结构': '五阶段流程的末端，从复盘指向"变聪明"的循环箭头'}, {'信息层级': 'L1 复盘标签 → L2 四层深度 → L3 假设验证 → L4 认知资产'}, {'负形利用': '循环箭头=非线性回归；箭头留白=复盘的"呼吸空间"'}, {'视觉隐喻': '螺旋上升=每次复盘都带来认知升级；闭环=假设验证的完整性'}]}
+- image: 一堂-科学决策-ROI高阶训练全景图.png
+  dimensions:
+  - 色彩语义: 绿=复盘阶段(成长/循环)；与全景图中第5阶段呼应
+  - 空间结构: 五阶段流程的末端，从复盘指向"变聪明"的循环箭头
+  - 信息层级: L1 复盘标签 → L2 四层深度 → L3 假设验证 → L4 认知资产
+  - 负形利用: 循环箭头=非线性回归；箭头留白=复盘的"呼吸空间"
+  - 视觉隐喻: 螺旋上升=每次复盘都带来认知升级；闭环=假设验证的完整性
 yitang:
   course_id: yt-decision-review
   course_type: tool
   level: advanced
   map: entrepreneur
-  module: "科学决策"
+  module: 科学决策
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': "团队复盘时所有人都在说'当时信息不足'、'运气不好'，没有任何人承认自己分析有缺陷", 'framework_lens': '外部化偏差——复盘变成了自我辩护，没有进入L4能力层', 'follow_up_question': '如果当时信息确实不足，为什么我们没建立信息收集机制？这个能力缺失对应到谁、什么时候补上？'}
-  - {'signal': "复盘产出了十几条'经验教训'，但三个月后同样错误又犯", 'framework_lens': '迁移规则没有接入决策流程——经验教训停留在文档里，没有变成下次决策的强制检查点', 'follow_up_question': "这十几条教训中，有多少条已经被写入了'决策手册'或SOP？下次做同类决策时，决策者会不会自动看到这些规则？"}
-author: "老顽童"
+- signal: 团队复盘时所有人都在说'当时信息不足'、'运气不好'，没有任何人承认自己分析有缺陷
+  framework_lens: 外部化偏差——复盘变成了自我辩护，没有进入L4能力层
+  follow_up_question: 如果当时信息确实不足，为什么我们没建立信息收集机制？这个能力缺失对应到谁、什么时候补上？
+- signal: 复盘产出了十几条'经验教训'，但三个月后同样错误又犯
+  framework_lens: 迁移规则没有接入决策流程——经验教训停留在文档里，没有变成下次决策的强制检查点
+  follow_up_question: 这十几条教训中，有多少条已经被写入了'决策手册'或SOP？下次做同类决策时，决策者会不会自动看到这些规则？
+author: 老顽童
 ---
-
 # 决策复盘工具：L1-L4深度复盘法 + 假设验证闭环
 
 > 来源：一堂《科学决策·ROI决策实践》复盘篇。大多数人做决策是"一锤子买卖"——做完就完了，成了庆幸、败了自责。本工具将复盘拆分为四层，解决"同样的错误一犯再犯"的困境。核心认知：决策的预测本质上是假设，只有真正发生后的复盘才能将假设变成认知资产。

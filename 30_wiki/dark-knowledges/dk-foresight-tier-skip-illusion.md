@@ -1,32 +1,31 @@
 ---
-id: "dk-foresight-tier-skip-illusion"
-title: "暗知：终局光谱图的'跳级幻觉'——为什么看到第7级就忽视了第3级的人，死得最快"
-type: "dk"
-status: "draft"
+id: dk-foresight-tier-skip-illusion
+title: 暗知：终局光谱图的'跳级幻觉'——为什么看到第7级就忽视了第3级的人，死得最快
+type: dk
+status: draft
 domain:
-  - "yitang"
-  - "business-strategy"
+- yitang
+- business-strategy
 source_refs:
-  - "[[yt-foresight-business-spectrum]]"
-  - "[[case-coffee-shop-foresight]]"
-  - "[[case-escort-service-tiered-growth]]"
+- '[[yt-foresight-business-spectrum]]'
+- '[[case-coffee-shop-foresight]]'
+- '[[case-escort-service-tiered-growth]]'
 tags:
-  - "#domain/yitang"
-  - "#cognitive-bias"
-  - "#decision-making"
-created_at: "2026-06-11"
-updated_at: "2026-06-11"
+- '#domain/yitang'
+- '#cognitive-bias'
+- '#decision-making'
+created_at: '2026-06-11'
+updated_at: '2026-06-16'
 related:
-  - "yt-foresight-business-spectrum"
-  - "yt-entrepreneur-five-step-method"
-  - "case-coffee-shop-foresight"
-  - "case-escort-service-tiered-growth"
-author: "legacy"
-reviewed_by: "pending"
+- '[[yt-foresight-business-spectrum]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[case-coffee-shop-foresight]]'
+- '[[case-escort-service-tiered-growth]]'
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 暗知：终局光谱图的"跳级幻觉"
 
 ## 核心本质

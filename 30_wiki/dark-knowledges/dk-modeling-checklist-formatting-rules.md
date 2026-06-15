@@ -1,33 +1,32 @@
 ---
-id: "dk-modeling-checklist-formatting-rules"
-title: "清单体写不好，模型就建不好：换行、分层、优先级、完备"
-type: "dark-knowledge"
-dark_knowledge_type: "workflow"
+id: dk-modeling-checklist-formatting-rules
+title: 清单体写不好，模型就建不好：换行、分层、优先级、完备
+type: dark-knowledge
+dark_knowledge_type: workflow
 status: draft
 domain:
-  - "yitang"
-  - "ai-saas"
-source_person: "Truman"
-source_context: "一堂建模能力培训，2026-06-12"
+- yitang
+- ai-saas
+source_person: Truman
+source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
+- src_20260614_8269ccdb
 confidence: 0.8
 trust_level: medium
 related:
-  - "dk-modeling-logical-cleanliness-root"
-  - "dk-modeling-sop-execution-locks"
-  - "process-modeling"
+- '[[dk-modeling-logical-cleanliness-root]]'
+- '[[dk-modeling-sop-execution-locks]]'
+- '[[process-modeling]]'
 tags:
-  - "#source_type/process"
-  - "#domain/yitang"
-  - "#method/modeling"
-  - "#method/sop"
-author: "老顽童"
-reviewed_by: "pending"
-created_at: "2026-06-15"
-updated_at: "2026-06-15"
+- '#content-format/sop'
+- '#domain/yitang'
+- '#method/modeling'
+- '#method/sop'
+author: 老顽童
+reviewed_by: pending
+created_at: '2026-06-15'
+updated_at: '2026-06-16'
 ---
-
 # 清单体写不好，模型就建不好：换行、分层、优先级、完备
 
 ## 原始表述

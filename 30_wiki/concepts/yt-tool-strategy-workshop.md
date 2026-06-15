@@ -1,73 +1,80 @@
 ---
 id: yt-tool-strategy-workshop
 component_of:
-  - yt-management-toolkit-overview
+- yt-management-toolkit-overview
 confidence: 0.8
 created_at: 2026-05-19
 difficulty: advanced
 domain:
-  - yitang
+- yitang
 estimated_tokens: 3400
 language: zh-CN
 prerequisites:
-  - yt-management-toolkit-overview
+- yt-management-toolkit-overview
 query_triggers:
-  - "战略会怎么开"
-  - "战略研讨会引导"
-  - "战略会流程设计"
-  - "战略共识达成方法"
-  - "年度战略会工具"
-  - "战略决策机制"
-  - "务虚会方法"
-  - "战略会模板"
-  - "战略会 facilitator"
-  - "战略讨论框架"
-  - "战略会产出"
-  - "战略会设计"
-  - "战略会主持"
-  - "战略方向选择工具"
-  - "战略共识工具"
-  - "战略会会议纪要"
-  - "战略会准备工作"
-  - "战略会三阶段"
-  - "战略会常见错误"
-  - "战略会最佳实践"
+- 战略会怎么开
+- 战略研讨会引导
+- 战略会流程设计
+- 战略共识达成方法
+- 年度战略会工具
+- 战略决策机制
+- 务虚会方法
+- 战略会模板
+- 战略会 facilitator
+- 战略讨论框架
+- 战略会产出
+- 战略会设计
+- 战略会主持
+- 战略方向选择工具
+- 战略共识工具
+- 战略会会议纪要
+- 战略会准备工作
+- 战略会三阶段
+- 战略会常见错误
+- 战略会最佳实践
 related:
-  - yt-management-strategy-meeting
-  - yt-management-scientific-decision
-  - yt-management-goal-management
-  - yt-management-company-culture
-  - yt-tool-meeting-designer
-  - yt-decision-y-model
-  - yt-decision-full-process
-  - yt-tool-okr-cycle
-  - master-decision-hygiene
-  - master-knowledge-compound
+- '[[yt-management-strategy-meeting]]'
+- '[[yt-management-scientific-decision]]'
+- '[[yt-management-goal-management]]'
+- '[[yt-management-company-culture]]'
+- '[[yt-tool-meeting-designer]]'
+- '[[yt-decision-y-model]]'
+- '[[yt-decision-full-process]]'
+- '[[yt-tool-okr-cycle]]'
+- '[[master-decision-hygiene]]'
+- '[[master-knowledge-compound]]'
 source_refs:
-  - 30_wiki/concepts/yt-management-strategy-meeting.md
+- 30_wiki/concepts/yt-management-strategy-meeting.md
 status: draft
-title: "战略研讨会引导手册"
+title: 战略研讨会引导手册
 trust_level: medium
 type: tool
 version: 1
 yitang:
   map: management
-  module: "管公司"
+  module: 管公司
   course_type: tool
   level: advanced
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '会前是否每个参会者独立完成作业并匿名提交', 'framework_lens': '异议安全 / 避免共识幻觉', 'follow_up_question': "差异地图是否显示'所有人想法一致'的反常？"}
-  - {'signal': '每个战略决策是否附带 ≥3 个可执行的撤销条件', 'framework_lens': '反脆弱 / 假设管理', 'follow_up_question': "战略会是否只产出'3 个关键动作'而没有退出机制？"}
-  - {'signal': '战略方向是否被翻译成具体活动系统并检查一致性', 'framework_lens': '活动系统 / 执行对齐', 'follow_up_question': '≥50% 的活动是否在战略会后仍服务旧方向？'}
-  - {'signal': '非参会者能否用自己的话复述战略方向核心逻辑', 'framework_lens': '传达闭环 / 组织对齐', 'follow_up_question': '战略会成果是否只停留在参会者脑中？'}
-updated_at: 2026-06-13
+- signal: 会前是否每个参会者独立完成作业并匿名提交
+  framework_lens: 异议安全 / 避免共识幻觉
+  follow_up_question: 差异地图是否显示'所有人想法一致'的反常？
+- signal: 每个战略决策是否附带 ≥3 个可执行的撤销条件
+  framework_lens: 反脆弱 / 假设管理
+  follow_up_question: 战略会是否只产出'3 个关键动作'而没有退出机制？
+- signal: 战略方向是否被翻译成具体活动系统并检查一致性
+  framework_lens: 活动系统 / 执行对齐
+  follow_up_question: ≥50% 的活动是否在战略会后仍服务旧方向？
+- signal: 非参会者能否用自己的话复述战略方向核心逻辑
+  framework_lens: 传达闭环 / 组织对齐
+  follow_up_question: 战略会成果是否只停留在参会者脑中？
+updated_at: '2026-06-16'
 author: legacy
 reviewed_by: pending
 ---
-
 # 战略研讨会引导手册
 
 > 来源：一堂《经营必修：重新理解"战略会"》课程工具化升级。战略研讨会是创业团队一年中最重要的会议类型——它决定团队"往哪里走、不往哪里走、资源往哪放"。本手册提供一套包含"会前四件套+会中五段式+会后三检查"的完整引导流程，防止战略会沦为汇报大会或老板想法的精致包装。

@@ -1,38 +1,38 @@
 ---
-id: "sk-ai-question-problem-checklist"
-title: "技能：提问题转化三问清单"
-type: "skill"
-status: "draft"
+id: sk-ai-question-problem-checklist
+title: 技能：提问题转化三问清单
+type: skill
+status: draft
 domain:
-  - "ai-collaboration"
-source_person: "纪浩"
-source_context: "AI俱乐部-AI协作方法论分享，2026-06"
+- ai-collaboration
+source_person: 纪浩
+source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
-  - "src_20260606_42e11f09"
+- src_20260606_42e11f09
 wiki_refs:
-  - "sk-ai-problem-validation"
-  - "ai-collaboration-mindset-shift"
+- '[[sk-ai-problem-validation]]'
+- '[[ai-collaboration-mindset-shift]]'
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tags:
-  - "#skill/ai"
-  - "#method/workflow"
-created_at: "2026-06-06"
-updated_at: "2026-06-06"
+- '#method/prompt-engineering'
+- '#domain/ai-saas'
+- '#method/workflow'
+created_at: '2026-06-06'
+updated_at: '2026-06-16'
 tools_required:
-  - "笔记本和笔"
-prerequisite_skills:
+- 笔记本和笔
+prerequisite_skills: null
 related:
-  - "sk-ai-problem-validation"
-  - "ai-collaboration-mindset-shift"
-author: "legacy"
-reviewed_by: "pending"
+- '[[sk-ai-problem-validation]]'
+- '[[ai-collaboration-mindset-shift]]'
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 技能：提问题转化三问清单
 
 ## 原始表述

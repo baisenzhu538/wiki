@@ -1,33 +1,30 @@
 ---
-id: "case-半肥猫-skill-ab-test"
-title: "案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比"
+id: case-半肥猫-skill-ab-test
+title: 案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比
 type: case
 status: draft
 domain:
-  - ai-collaboration
-  - yitang
-source_person: "半肥猫"
-source_context: "AI俱乐部-AI学习落地 分享"
+- ai-collaboration
+- yitang
+source_person: 半肥猫
+source_context: AI俱乐部-AI学习落地 分享
 source_refs:
-  - "00_inbox/半肥猫-AI学习落地-口述.md"
+- 00_inbox/半肥猫-AI学习落地-口述.md
 created_at: 2026-06-07
-updated_at: 2026-06-07
+updated_at: '2026-06-16'
 related:
-  - "concept-半肥猫-ai-learning-toolification-methodology"
-  - "case-半肥猫-conversion-hacker-skill"
-  - "skill-半肥猫-用Skill做对比测试验证效果"
-  - "skill-半肥猫-设计Skill的评分规则与风险边界"
-  - "dk-半肥猫-skill-rejection-value"
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[case-半肥猫-conversion-hacker-skill]]'
+- '[[dk-半肥猫-skill-rejection-value]]'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-test
+- confidence-draft
+- confidence-source-cited
+- confidence-verified-by-test
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 案例：Skill A/B 测试
 
 > 半肥猫用两组测试验证了 Skill 的价值：正常业务场景（烘焙店）和高风险场景（保险）。测试使用了 12 维度的评分体系，每个维度分四级：无能力(0)、弱(1)、可接受(2)、强(3)，满分 36 分。

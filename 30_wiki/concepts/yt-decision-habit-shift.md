@@ -1,57 +1,63 @@
 ---
 id: yt-decision-habit-shift
 component_of:
-  - yt-decision-y-model
+- yt-decision-y-model
 confidence: 0.82
 created_at: 2026-05-17
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2200
 language: zh-CN
 prerequisites:
-  - yt-decision-y-model
+- yt-decision-y-model
 query_triggers:
-  - "X型决策者"
-  - "Y型决策者"
-  - "决策习惯"
-  - "拍脑袋"
-  - "决策分层"
-  - "习惯转变"
-  - "认知审美"
-  - "决策深度匹配"
-  - "广义ROI"
-  - "直觉决策"
+- X型决策者
+- Y型决策者
+- 决策习惯
+- 拍脑袋
+- 决策分层
+- 习惯转变
+- 认知审美
+- 决策深度匹配
+- 广义ROI
+- 直觉决策
 related:
-  - yt-decision-canvas
-  - yt-decision-depth-ladder
-source_refs:
-  - "00_inbox/科学决策/一堂-科学决策-审美拉升01口述.txt"
-  - "00_inbox/科学决策/一堂-科学决策-X型Y型决策习惯对比.png"
+- '[[yt-decision-canvas]]'
+- '[[yt-decision-depth-ladder]]'
 source_refs:
 - src_20260614_8f80cb0f
 status: enriched
-title: "X型→Y型决策者习惯诊断与转换"
+title: X型→Y型决策者习惯诊断与转换
 trust_level: medium
 type: tool
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 version: 1
 visual_analysis:
-  - {'image': '一堂-科学决策-X型Y型决策习惯对比.png', 'dimensions': [{'色彩语义': 'X型灰度=思维扁平缺乏层次；Y型暖色渐变=思维立体温度与理性并存；红色=共同底线/高线'}, {'空间结构': 'X型完整三角锥(纪念碑式)vs Y型阶梯金字塔(建筑式可攀登)；X型顶部压迫vs Y型中下部稳定'}, {'信息层级': 'P0 标题 → P1 X/Y标签 → P2 五维度文字(横向贯穿强制对比) → P3 图形本体 → P4 品牌信息'}, {'负形利用': '两金字塔间留白=对话空间+互斥选择性；X型"缺失的中间"=以缺席在场成为最强烈负形'}, {'视觉隐喻': 'X型=断裂悬崖/跳台(认知断裂)；Y型=漏斗/过滤器(渐进过滤)；灰色=未切割岩石；阶梯=可居住可攀登'}]}
+- image: 一堂-科学决策-X型Y型决策习惯对比.png
+  dimensions:
+  - 色彩语义: X型灰度=思维扁平缺乏层次；Y型暖色渐变=思维立体温度与理性并存；红色=共同底线/高线
+  - 空间结构: X型完整三角锥(纪念碑式)vs Y型阶梯金字塔(建筑式可攀登)；X型顶部压迫vs Y型中下部稳定
+  - 信息层级: P0 标题 → P1 X/Y标签 → P2 五维度文字(横向贯穿强制对比) → P3 图形本体 → P4 品牌信息
+  - 负形利用: 两金字塔间留白=对话空间+互斥选择性；X型"缺失的中间"=以缺席在场成为最强烈负形
+  - 视觉隐喻: X型=断裂悬崖/跳台(认知断裂)；Y型=漏斗/过滤器(渐进过滤)；灰色=未切割岩石；阶梯=可居住可攀登
 yitang:
   course_id: yt-decision-habit-shift
   course_type: tool
   level: foundational
   map: entrepreneur
-  module: "科学决策"
+  module: 科学决策
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': "学习者上完课后说'我要变成Y型决策者'，但两周后所有决策还是凭直觉", 'framework_lens': '习惯转换失败——Y型不是知识而是肌肉记忆，知道分层标签不等于能在真实决策中自动调用', 'follow_up_question': '过去一周你做了多少个决策？其中有多少个你主动贴了L0-L4标签？如果<50%，说明分层意识还没变成习惯'}
-  - {'signal': "团队老板是X型，下属学了Y型后在会议上开始列清单，结果被老板打断'别整这些，直接说结论'", 'framework_lens': '社会成本被低估——工具的使用受制于权力结构和组织文化，不是个人习惯问题', 'follow_up_question': '在这个组织里，一个需要15分钟分析的决策，决策者通常有多少耐心？如果<5分钟，Y型工具需要改变使用场景（私下分析+公开汇报）'}
-author: "老顽童"
+- signal: 学习者上完课后说'我要变成Y型决策者'，但两周后所有决策还是凭直觉
+  framework_lens: 习惯转换失败——Y型不是知识而是肌肉记忆，知道分层标签不等于能在真实决策中自动调用
+  follow_up_question: 过去一周你做了多少个决策？其中有多少个你主动贴了L0-L4标签？如果<50%，说明分层意识还没变成习惯
+- signal: 团队老板是X型，下属学了Y型后在会议上开始列清单，结果被老板打断'别整这些，直接说结论'
+  framework_lens: 社会成本被低估——工具的使用受制于权力结构和组织文化，不是个人习惯问题
+  follow_up_question: 在这个组织里，一个需要15分钟分析的决策，决策者通常有多少耐心？如果<5分钟，Y型工具需要改变使用场景（私下分析+公开汇报）
+author: 老顽童
 ---
-
 # X型→Y型决策者习惯诊断与转换
 
 

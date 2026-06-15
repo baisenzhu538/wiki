@@ -1,24 +1,24 @@
 ---
 id: fd-forward-deployment
-title: "Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式"
+title: Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式
 type: concept
 status: enriched
 confidence: 0.85
 trust_level: medium-high
 domain:
-  - business-strategy
-  - ai-saas
+- business-strategy
+- ai-saas
 source_refs:
-  - src_20260614_ab09af1c
+- src_20260614_ab09af1c
 related:
-  - source-code-delivery-model
-  - private-domain-saas-sales-funnel
-  - yt-entrepreneur-channel-exploration
-  - yt-entrepreneur-product-core
+- '[[source-code-delivery-model]]'
+- '[[private-domain-saas-sales-funnel]]'
+- '[[yt-entrepreneur-channel-exploration]]'
+- '[[yt-entrepreneur-product-core]]'
 created_at: 2026-06-14
-updated_at: 2026-06-14
-author: "王语嫣"
-reviewed_by: "老顽童"
+updated_at: '2026-06-16'
+author: 王语嫣
+reviewed_by: 老顽童
 review_date: 2026-06-14
 ---
 # Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式

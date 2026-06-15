@@ -1,56 +1,59 @@
 ---
 id: yt-panproduct-execution-business-modeling
 component_of:
-  - yt-model-pan-product-execution-toolkit
+- yt-model-pan-product-execution-toolkit
 confidence: 0.8
 created_at: 2026-05-11
 difficulty: advanced
 domain:
-  - yitang
+- yitang
 estimated_tokens: 1065
 language: zh-CN
 prerequisites:
-  - yt-composite-pan-product-methodology
-  - yt-model-pan-product-demand-toolkit
-  - yt-model-pan-product-aesthetic-toolkit
+- yt-composite-pan-product-methodology
+- yt-model-pan-product-demand-toolkit
+- yt-model-pan-product-aesthetic-toolkit
 query_triggers:
-  - "业务建模"
-  - "产品落地"
-  - "产品迭代"
-  - "执行方法"
-  - "泛产品设计"
-  - "泛产品设计·落地卡片：业务建模"
-  - "落地卡片"
-  - "落地执行"
+- 业务建模
+- 产品落地
+- 产品迭代
+- 执行方法
+- 泛产品设计
+- 泛产品设计·落地卡片：业务建模
+- 落地卡片
+- 落地执行
 related:
-  - yt-panproduct-execution-roi-analysis
-  - yt-panproduct-execution-logic-mece
-  - yt-panproduct-demand-five-step-method
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/assets/yitang/泛产品设计-落地卡片-业务建模.png"
+- '[[yt-panproduct-execution-roi-analysis]]'
+- '[[yt-panproduct-execution-logic-mece]]'
+- '[[yt-panproduct-demand-five-step-method]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260522_f5a0f2e1
 status: enriched
-title: "泛产品设计·落地卡片：业务建模"
+title: 泛产品设计·落地卡片：业务建模
 type: tool
 version: 1
 yitang:
   map: personal
-  module: "泛产品设计"
+  module: 泛产品设计
   course_type: card
   level: advanced
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '能把业务拆解成可量化的公式和关键变量', 'framework_lens': '业务模型 = 变量之间的关系', 'follow_up_question': '公式中哪个变量变动10%会对结果影响最大？'}
-  - {'signal': '模型同时包含收入端和成本端，而不是只看增长', 'framework_lens': '单位经济模型需要双向审视', 'follow_up_question': '如果收入翻倍，哪些成本会以相同或更高速度增长？'}
-  - {'signal': '模型会被真实数据更新，而不是只做一次静态推演', 'framework_lens': '业务模型是活的假设集合', 'follow_up_question': '最近一个月，模型的哪个假设被数据证伪或证实了？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 能把业务拆解成可量化的公式和关键变量
+  framework_lens: 业务模型 = 变量之间的关系
+  follow_up_question: 公式中哪个变量变动10%会对结果影响最大？
+- signal: 模型同时包含收入端和成本端，而不是只看增长
+  framework_lens: 单位经济模型需要双向审视
+  follow_up_question: 如果收入翻倍，哪些成本会以相同或更高速度增长？
+- signal: 模型会被真实数据更新，而不是只做一次静态推演
+  framework_lens: 业务模型是活的假设集合
+  follow_up_question: 最近一个月，模型的哪个假设被数据证伪或证实了？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium
 ---
-
 # 业务建模：学习拆解业务公式
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]

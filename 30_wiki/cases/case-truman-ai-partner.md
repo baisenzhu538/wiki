@@ -1,48 +1,46 @@
 ---
-id: "case-truman-ai-partner"
-title: "案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent"
-type: "case"
-status: "draft"
+id: case-truman-ai-partner
+title: 案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent
+type: case
+status: draft
 domain:
-  - "agent-infrastructure"
-  - "yitang"
-source_person: "Truman"
-source_context: "一堂《AI时代清单体笔记》课程"
+- agent-infrastructure
+- yitang
+source_person: Truman
+source_context: 一堂《AI时代清单体笔记》课程
 source_refs:
-  - "00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt"
-  - "00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt"
-  - "00_inbox/Truman的个人成长五步法.png"
-  - "00_inbox/truman的选择：两条职业成长路线.png"
+- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
+- 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
+- 00_inbox/Truman的个人成长五步法.png
+- 00_inbox/truman的选择：两条职业成长路线.png
 tags:
-  - "#boundary/not-for-creative"
-  - "#boundary/requires-human-judgment"
-  - "#confidence/draft"
-  - "#confidence/source-cited"
-  - "#confidence/verified-by-case"
-  - "#domain/agent-infrastructure"
-  - "#domain/yitang"
-  - "#scene/agent-infrastructure/skill-registry"
-  - "#scene/ai-collaboration/problem-validation"
-  - "#scene/ai-collaboration/workspace-design"
-  - "#scene/hardware-debugging/prototyping"
-  - "#scene/knowledge-management"
-  - "#scene/learning-methodology/feedback-loop"
-  - "#scene/note-taking/checklist-method"
-  - "#scene/note-taking/training-plan"
-  - "#scene/skill-engineering/publish-deploy"
-  - "#type/case"
+- '#perspective/compliance'
+- '#perspective/professional'
+- '#confidence/draft'
+- '#confidence/source-cited'
+- '#confidence/verified-by-case'
+- '#domain/agent-infrastructure'
+- '#domain/yitang'
+- '#scene/agent-infrastructure/skill-registry'
+- '#scene/ai-collaboration/problem-validation'
+- '#scene/ai-collaboration/workspace-design'
+- '#scene/hardware-debugging/prototyping'
+- '#scene/knowledge-management'
+- '#method/learning-method'
+- '#content-format/checklist'
+- '#scene/note-taking/training-plan'
+- '#scene/skill-engineering/publish-deploy'
+- '#content-format/case-study'
 created_at: 2026-06-07
-updated_at: 2026-06-07
+updated_at: '2026-06-16'
 related:
-  - "case-纪浩-skills-market"
-  - "yt-note-ai-human-division"
-  - "30_wiki/decisions/truman-ai-partner-design-analysis.md"
-author: "legacy"
-reviewed_by: "pending"
+- '[[case-纪浩-skills-market]]'
+- - - yt-note-ai-human-division
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 案例：Truman AI Partner（阿蕊老师）
 
 > Truman 用十年时间积累 1500+ 篇清单体模型笔记，将其编译为领域知识库，封装成一个 P 角色的 AI agent，在一堂内部使用并计划单独售卖。

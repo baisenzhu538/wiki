@@ -1,43 +1,42 @@
 ---
-id: "skill-ai-info-literacy-three-layer"
-title: "技能：AI输出三层防护检查法"
-type: "skill"
-status: "draft"
+id: skill-ai-info-literacy-three-layer
+title: 技能：AI输出三层防护检查法
+type: skill
+status: draft
 domain:
-  - "AI"
-  - "信息素养"
-  - "质量检查"
-source_person: "消化全库后提炼"
-source_context: "基于master-ai-info-literacy框架提炼，2026-05-18"
+- AI
+- 信息素养
+- 质量检查
+source_person: 消化全库后提炼
+source_context: 基于master-ai-info-literacy框架提炼，2026-05-18
 source_refs:
-  - {'来源': '一堂 (Truman)'}
+- 来源: 一堂 (Truman)
 wiki_refs:
-  - "master-ai-info-literacy"
-  - "skill-ai-research-five-steps"
+- '[[master-ai-info-literacy]]'
+- '[[skill-ai-research-five-steps]]'
 definition_of_done:
-  - "每次检查走完3层"
-  - '至少1处被标记为"待验证"'
-  - '能说出"这个结论的脆弱点是X"'
+- 每次检查走完3层
+- 至少1处被标记为"待验证"
+- 能说出"这个结论的脆弱点是X"
 tools_required:
-  - "无（纯思维工具）"
-  - "搜索引擎（第三层追溯用）"
+- 无（纯思维工具）
+- 搜索引擎（第三层追溯用）
 prerequisite_skills:
-  - "skill-ai-research-five-steps"
-related:
+- skill-ai-research-five-steps
+related: null
 created_at: 2026-06-11
-updated_at: 2026-06-11
+updated_at: '2026-06-16'
 tags:
-  - None
-  - None
-  - None
+- None
+- None
+- None
 pipeline:
-  - None
-reviewed_by: "laowantong"
-author: "legacy"
+- None
+reviewed_by: laowantong
+author: legacy
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 技能：AI输出三层防护检查法
 
 > **来源**：基于 master-ai-info-literacy 框架提炼

@@ -22,8 +22,8 @@ related:
 - '[[dk-modeling-expert-consensus-five-percent]]'
 - '[[tool-ai-skill-engineering-method]]'
 tags:
-- '#modeling'
-- '#framework'
+- '#method/modeling'
+- '#content-format/framework'
 - '#methodology'
 - '#research'
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust）

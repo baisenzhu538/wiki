@@ -13,8 +13,8 @@ source_refs:
 tags:
 - '#ai'
 - '#skill-engineering'
-- '#modeling'
-- '#tool'
+- '#method/modeling'
+- '#content-format/concept-card'
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 author: 老顽童

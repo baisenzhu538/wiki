@@ -1,48 +1,50 @@
 ---
 id: yt-pitch-conflict
 component_of:
-  - yt-model-personal-pitch-toolkit
+- yt-model-personal-pitch-toolkit
 confidence: 0.85
 created_at: 2026-05-13
 difficulty: advanced
 domain:
-  - personal
-  - yitang
+- personal
+- yitang
 estimated_tokens: 1600
 language: zh-CN
 prerequisites:
-  - yt-model-personal-pitch-toolkit
+- yt-model-personal-pitch-toolkit
 query_triggers:
-  - "冲突化"
-  - "反差"
-  - "对抗"
-  - "认知反差"
-  - "竞争反差"
-  - "塑造对手"
+- 冲突化
+- 反差
+- 对抗
+- 认知反差
+- 竞争反差
+- 塑造对手
 related:
-  - yt-concept-weapon-arsenal
-reviewed_by: "黄药师"
-source_refs:
-  - "10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md"
-  - "10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png"
+- '[[yt-concept-weapon-arsenal]]'
+reviewed_by: 黄药师
 source_refs:
 - src_20260609_93e2df35
 status: enriched
-title: "讲香·冲突化"
+title: 讲香·冲突化
 type: tool
 version: 1
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '内容中有明确的反差或对立，且反差与核心卖点相关', 'framework_lens': '冲突是注意力触发器', 'follow_up_question': '这个冲突如果没有，用户还会关心你的内容吗？'}
-  - {'signal': '冲突最终会导向你的产品/观点，而不是停留在对立', 'framework_lens': '冲突是桥梁不是终点', 'follow_up_question': '冲突解决后，用户应该得出什么结论？'}
-  - {'signal': '冲突没有虚假或恶意攻击竞争对手', 'framework_lens': '冲突需要伦理边界', 'follow_up_question': '这个冲突如果公开给被对比方看，你是否能坦然接受？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 内容中有明确的反差或对立，且反差与核心卖点相关
+  framework_lens: 冲突是注意力触发器
+  follow_up_question: 这个冲突如果没有，用户还会关心你的内容吗？
+- signal: 冲突最终会导向你的产品/观点，而不是停留在对立
+  framework_lens: 冲突是桥梁不是终点
+  follow_up_question: 冲突解决后，用户应该得出什么结论？
+- signal: 冲突没有虚假或恶意攻击竞争对手
+  framework_lens: 冲突需要伦理边界
+  follow_up_question: 这个冲突如果公开给被对比方看，你是否能坦然接受？
+updated_at: '2026-06-16'
+author: 老顽童
 trust_level: medium-high
 ---
-
 # 讲香·冲突化
 
 > 十指模型右手第四指——向上抽象。大家都喜欢反差——制造认知/价值/竞争/逆袭的反差，让用户从「无所谓」到「我倒要看看怎么回事」。
