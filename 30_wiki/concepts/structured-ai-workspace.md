@@ -2,29 +2,30 @@
 id: structured-ai-workspace
 type: tool
 domain:
-  - ai-saas
-  - management
-  - yitang
+- ai-saas
+- management
+- yitang
 status: draft
 source_refs:
-  - src_20260606_42e11f09
+- src_20260606_42e11f09
 component_of:
-  - ai-collaboration-mindset-shift
+- ai-collaboration-mindset-shift
 related:
-  - ai-collaboration-mindset-shift
-  - prd-as-ai-instruction
+- ai-collaboration-mindset-shift
+- prd-as-ai-instruction
 query_triggers:
-  - "AI工作空间怎么搭建"
-  - "和AI协作文件怎么管理"
-  - "AI任务越来越乱"
-reviewed_by: 
+- AI工作空间怎么搭建
+- 和AI协作文件怎么管理
+- AI任务越来越乱
+reviewed_by: null
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 created_at: 2026-06-15
 confidence: 0.7
 trust_level: low
+title: structured ai workspace
 ---
 
 # 结构化AI工作空间搭建

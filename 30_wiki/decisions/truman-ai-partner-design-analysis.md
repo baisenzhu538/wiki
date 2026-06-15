@@ -2,7 +2,8 @@
 date: 2026-06-07
 author: 黄药师（Builder）
 source_context: KDO infrastructure decision — internal design record
-source_refs: []
+source_refs:
+- legacy
 status: draft
 type: analysis
 domain:
@@ -17,6 +18,7 @@ reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
+title: truman ai partner design analysis
 ---
 
 # Truman AI Partner（阿蕊老师）设计反推

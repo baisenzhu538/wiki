@@ -1,35 +1,36 @@
 ---
-
-title: "紫鲸AI"
+title: 紫鲸AI
 type: entity
 domain:
-  - ai-saas
-  - management
-  - kdo
-  - business-strategy
+- ai-saas
+- management
+- kdo
+- business-strategy
 status: reviewed
 entity_type: product
 aliases:
-  - "Zijing AI"
-  - "紫鲸AI智能体工作流平台"
-location: "Hangzhou, China"
-id: "紫鲸AI"
+- Zijing AI
+- 紫鲸AI智能体工作流平台
+location: Hangzhou, China
+id: 紫鲸AI
 created_at: 2026-05-03
 updated_at: 2026-05-03
 related:
-  - "[[紫鲸AI智能体工作流平台]]"
-  - "[[紫鲸AI_智能体工作流平台_深度分析与产品设计]]"
-  - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
+- '[[紫鲸AI智能体工作流平台]]'
+- '[[紫鲸AI_智能体工作流平台_深度分析与产品设计]]'
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 tags:
-  - #ai-saas
-  - #content-marketing
-  - #multi-agent
-  - #brand-kg
+- null
+- null
+- null
+- null
 trust_level: medium
-reviewed_by: "黄药师"
+reviewed_by: 黄药师
 review_date: 2026-05-04
 author: unknown
 confidence: 0.85
+source_refs:
+- legacy
 ---
 
 # 紫鲸AI

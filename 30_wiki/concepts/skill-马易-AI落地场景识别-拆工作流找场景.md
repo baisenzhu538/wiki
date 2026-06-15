@@ -10,6 +10,8 @@ reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
+source_refs:
+- legacy
 ---
 
 # 技能：AI落地场景识别-拆工作流找场景

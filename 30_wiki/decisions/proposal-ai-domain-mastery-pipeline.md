@@ -21,7 +21,8 @@ decision_needed: 是否启动此方向？若启动，第一阶段的范围是什
 id: proposal-ai-domain-mastery-pipeline
 author: legacy
 source_context: KDO improvement plan — internal process record
-source_refs: []
+source_refs:
+- legacy
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

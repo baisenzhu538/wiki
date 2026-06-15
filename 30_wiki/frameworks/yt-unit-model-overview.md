@@ -1,16 +1,18 @@
 ---
-title: "单元模型概览：十大单元模型与三角色分工"
+title: 单元模型概览：十大单元模型与三角色分工
 date: 2026-05-24
 type: framework
 status: enriched
 domain:
-  - decision-science
+- decision-science
 id: yt-unit-model-overview
-author: "老顽童"
-reviewed_by: "欧阳锋"
+author: 老顽童
+reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
+source_refs:
+- legacy
 ---
 ## Reusable Knowledge
 

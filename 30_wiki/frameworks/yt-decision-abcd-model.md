@@ -3,12 +3,15 @@ type: framework
 id: yt-decision-abcd-model
 status: enriched
 domain:
-  - "一堂·科学决策"
-author: "老顽童"
-reviewed_by: "欧阳锋"
+- 一堂·科学决策
+author: 老顽童
+reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
+title: yt decision abcd model
+source_refs:
+- legacy
 ---
 # 一堂·关键假设ABCD模型
 

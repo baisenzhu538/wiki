@@ -19,7 +19,8 @@ related:
 - 数据标注维度最佳实践调研报告（老顽童）
 author: legacy
 source_context: KDO internal decision record
-source_refs: []
+source_refs:
+- legacy
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

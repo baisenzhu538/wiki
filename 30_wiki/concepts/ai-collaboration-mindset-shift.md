@@ -2,31 +2,32 @@
 id: ai-collaboration-mindset-shift
 type: concept
 domain:
-  - ai-saas
-  - management
-  - decision-making
-  - yitang
+- ai-saas
+- management
+- decision-making
+- yitang
 status: draft
 source_refs:
-  - src_20260606_42e11f09
-component_of: 
+- src_20260606_42e11f09
+component_of: null
 related:
-  - structured-ai-workspace
-  - ai-learning-closed-loop
-  - ai-landing-scene-selection
+- structured-ai-workspace
+- ai-learning-closed-loop
+- ai-landing-scene-selection
 query_triggers:
-  - "怎么和AI协作"
-  - "AI输出质量怎么判断"
-  - "用AI越用越爛"
-  - "新手怎么用AI"
-reviewed_by: 
+- 怎么和AI协作
+- AI输出质量怎么判断
+- 用AI越用越爛
+- 新手怎么用AI
+reviewed_by: null
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 created_at: 2026-06-15
 confidence: 0.7
 trust_level: low
+title: ai collaboration mindset shift
 ---
 
 # AI协作思维转变：从"新手"到"管理者"

@@ -10,6 +10,8 @@ reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
+source_refs:
+- legacy
 ---
 
 # 技能：关键假设识别与验证

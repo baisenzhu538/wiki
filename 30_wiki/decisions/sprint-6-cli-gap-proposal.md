@@ -10,7 +10,8 @@ target_roles:
 - 欧阳锋（Architect）
 author: 黄药师
 source_context: KDO infrastructure decision — internal design record
-source_refs: []
+source_refs:
+- legacy
 reviewer: 欧阳锋
 related:
 - sprint-6-laowantong-feedback-18

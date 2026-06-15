@@ -9,7 +9,8 @@ status: active
 created_at: '2026-06-14'
 author: 周伯通
 source_context: KDO internal decision record
-source_refs: []
+source_refs:
+- legacy
 query_triggers:
 - 写作
 - 分析

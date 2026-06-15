@@ -2,7 +2,8 @@
 title: kdo watch 定时巡检层技术说明
 author: 审查者欧阳锋
 source_context: KDO internal record
-source_refs: []
+source_refs:
+- legacy
 role: 知识架构师 (Knowledge Architect)
 created_at: '2026-05-04'
 status: proposed

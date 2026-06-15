@@ -2,7 +2,8 @@
 title: REQ-014 批量 Produce 12 篇 Enriched 页面技术说明
 author: 黄药师 (Builder)
 source_context: KDO infrastructure decision — internal design record
-source_refs: []
+source_refs:
+- legacy
 role: Knowledge Builder
 created_at: '2026-05-04'
 status: proposed

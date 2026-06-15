@@ -10,10 +10,12 @@ artifact_count: 9
 id: plan_20260501_8ecb74e3-improvement-plan
 author: legacy
 source_context: KDO internal record
-source_refs: []
+source_refs:
+- legacy
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+title: plan 20260501 8ecb74e3 improvement plan
 ---
 
 # Improvement Plan plan_20260501_8ecb74e3

@@ -1,17 +1,19 @@
 ---
-id: "web-scraping-三剑客-scrapling-crawl4ai-firecrawl"
+id: web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 created_at: 2026-05-04
 domain:
-  - "['ai-saas']"
+- ai-saas
 review_date: 2026-05-04
-reviewed_by: "黄药师"
+reviewed_by: 黄药师
 status: enriched
-title: "Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl"
+title: Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl
 trust_level: high
 type: concept
 updated_at: 2026-05-04
 author: unknown
 confidence: 0.75
+source_refs:
+- legacy
 ---
 
 # Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl

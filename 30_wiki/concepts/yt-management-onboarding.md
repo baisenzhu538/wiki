@@ -1,26 +1,31 @@
 ---
-
-title: "新人落地"
+title: 新人落地
 type: concept
 domain:
-  - management
-  - product
-  - ai-saas
-  - design
-  - yitang
+- management
+- product
+- ai-saas
+- design
+- yitang
 status: enriched
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '新人入职后没人管，自己摸索', 'framework_lens': '放养式', 'follow_up_question': '新人入职第一周有没有明确的日程和对接人？如果没有，就是放养'}
-  - {'signal': '第一周给新人大量培训，信息过载', 'framework_lens': '填鸭论', 'follow_up_question': '新人第一周结束后能记住多少培训内容？如果<30%，信息过载了'}
+- signal: 新人入职后没人管，自己摸索
+  framework_lens: 放养式
+  follow_up_question: 新人入职第一周有没有明确的日程和对接人？如果没有，就是放养
+- signal: 第一周给新人大量培训，信息过载
+  framework_lens: 填鸭论
+  follow_up_question: 新人第一周结束后能记住多少培训内容？如果<30%，信息过载了
 updated_at: 2026-06-13
 id: yt-management-onboarding
-author: "老顽童"
-reviewed_by: "欧阳锋"
+author: 老顽童
+reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
+source_refs:
+- legacy
 ---
 
 # 新人落地

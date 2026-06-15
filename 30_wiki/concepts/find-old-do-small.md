@@ -2,30 +2,31 @@
 id: find-old-do-small
 type: tool
 domain:
-  - management
-  - ai-saas
-  - design
-  - yitang
-  - decision-making
+- management
+- ai-saas
+- design
+- yitang
+- decision-making
 status: draft
 source_refs:
-  - src_20260606_ef4877d0
+- src_20260606_ef4877d0
 component_of:
-  - ai-landing-scene-selection
+- ai-landing-scene-selection
 related:
-  - ai-landing-scene-selection
+- ai-landing-scene-selection
 query_triggers:
-  - "怎么评估AI场景"
-  - "AI场景选择检查清单"
-  - "什么场景适合上AI"
-reviewed_by: 
+- 怎么评估AI场景
+- AI场景选择检查清单
+- 什么场景适合上AI
+reviewed_by: null
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 created_at: 2026-06-15
 confidence: 0.7
 trust_level: low
+title: find old do small
 ---
 
 # "找老的干小的"场景评估框架

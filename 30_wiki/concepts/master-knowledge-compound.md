@@ -4,28 +4,30 @@ confidence: 0.82
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-  - master
+- master
 estimated_tokens: 1420
 language: zh-CN
 query_triggers:
-  - "知识复利"
-  - "知识资产"
-  - "知识飞轮"
-  - "认知复利"
+- 知识复利
+- 知识资产
+- 知识飞轮
+- 认知复利
 related:
-  - yt-personal-ipo-learning
-  - yt-personal-knowledge-extraction
-  - yt-personal-knowledge-management
-  - yt-personal-knowledge-management
-  - master-systems-thinking
-  - master-first-principles
+- yt-personal-ipo-learning
+- yt-personal-knowledge-extraction
+- yt-personal-knowledge-management
+- yt-personal-knowledge-management
+- master-systems-thinking
+- master-first-principles
 status: enriched
-title: "知识复利：IPO+萃取+管理的上位整合"
+title: 知识复利：IPO+萃取+管理的上位整合
 type: concept
 updated_at: 2026-05-18
 version: 1
 author: unknown
 trust_level: medium-low
+source_refs:
+- legacy
 ---
 
 # 知识复利：IPO+萃取+管理的上位整合

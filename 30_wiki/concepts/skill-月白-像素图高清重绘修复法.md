@@ -7,7 +7,8 @@ domain:
 - design
 source_person: 月白
 source_context: 文创案例
-source_refs: null
+source_refs:
+- legacy
 wiki_refs: null
 definition_of_done:
 - 操作步骤清晰可执行

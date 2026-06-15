@@ -1,26 +1,26 @@
 ---
-
-title: "诊所O2O项目"
+title: 诊所O2O项目
 type: project
 status: active
 domain:
-  - healthcare
-id: "诊所O2O项目"
+- healthcare
+id: 诊所O2O项目
 created_at: 2026-05-04
 updated_at: 2026-05-04
 related:
-  - "[[诊所O2O外卖平台业务深度调研报告]]"
-  - "[[街顺APP全面调研报告]]"
-  - "[[互联网医院模式深度调研报告]]"
-  - "[[保达云诊所深度调研报告]]"
+- '[[诊所O2O外卖平台业务深度调研报告]]'
+- '[[街顺APP全面调研报告]]'
+- '[[互联网医院模式深度调研报告]]'
+- '[[保达云诊所深度调研报告]]'
 tags:
-  - #healthcare
-  - #o2o
-  - #clinic
-  - #delivery
+- null
+- null
+- null
+- null
 author: unknown
-source_context: "KDO internal decision record"
-source_refs: []
+source_context: KDO internal decision record
+source_refs:
+- legacy
 reviewed_by: pending
 confidence: 0.85
 trust_level: high

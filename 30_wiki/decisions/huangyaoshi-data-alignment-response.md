@@ -20,7 +20,8 @@ related:
 - plan_20260531_data-curator-v1.3
 author: legacy
 source_context: KDO infrastructure decision — internal design record
-source_refs: []
+source_refs:
+- legacy
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

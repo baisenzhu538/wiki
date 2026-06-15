@@ -12,10 +12,12 @@ assessment_ref: 60_feedback/assessments/claude-20260503-kdo仓库遍历与健康
 id: plan_20260503_f3e9a2b1-improvement-plan
 author: legacy
 source_context: KDO internal record
-source_refs: []
+source_refs:
+- legacy
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+title: plan 20260503 f3e9a2b1 improvement plan
 ---
 
 # Improvement Plan plan_20260503_f3e9a2b1

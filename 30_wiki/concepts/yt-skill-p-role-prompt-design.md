@@ -1,19 +1,30 @@
 ---
-id: "yt-skill-p-role-prompt-design"
-title: "P 角色 Prompt 设计——执行者型 AI 的交付规范"
+id: yt-skill-p-role-prompt-design
+title: P 角色 Prompt 设计——执行者型 AI 的交付规范
 domain:
-  - "yitang"
+- yitang
 diagnostic_signals:
-  - {'signal': '用户收到 P 角色输出后，是否在 1 轮内直接可用，无需追问澄清', 'framework_lens': 'I/O 协议 / 角色边界', 'follow_up_question': "输出是否触发了用户的'这不是我想要的'二次沟通？"}
-  - {'signal': 'prompt 是否能自动识别输入内容类型并匹配对应故事线', 'framework_lens': '模式识别 / 自动分类', 'follow_up_question': '当输入混合多种故事线时，分类逻辑是否崩溃或强行归一？'}
-  - {'signal': "多次使用后，用户是否仍能感知输出价值而非'套路感'", 'framework_lens': '去模板化 / 用户体验', 'follow_up_question': '是否有机制（变异化指令/模式切换）主动降低重复疲劳？'}
-  - {'signal': '当输入明显属于未完成思索时，P 角色是否触发模式切换提示', 'framework_lens': '边界控制 / C 角色降级', 'follow_up_question': "失败时是否出现'模糊问题被套上漂亮框架'的低价值输出？"}
-updated_at: "2026-06-13"
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- signal: 用户收到 P 角色输出后，是否在 1 轮内直接可用，无需追问澄清
+  framework_lens: I/O 协议 / 角色边界
+  follow_up_question: 输出是否触发了用户的'这不是我想要的'二次沟通？
+- signal: prompt 是否能自动识别输入内容类型并匹配对应故事线
+  framework_lens: 模式识别 / 自动分类
+  follow_up_question: 当输入混合多种故事线时，分类逻辑是否崩溃或强行归一？
+- signal: 多次使用后，用户是否仍能感知输出价值而非'套路感'
+  framework_lens: 去模板化 / 用户体验
+  follow_up_question: 是否有机制（变异化指令/模式切换）主动降低重复疲劳？
+- signal: 当输入明显属于未完成思索时，P 角色是否触发模式切换提示
+  framework_lens: 边界控制 / C 角色降级
+  follow_up_question: 失败时是否出现'模糊问题被套上漂亮框架'的低价值输出？
+updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.75
-trust_level: "medium"
+trust_level: medium
+type: skill
+source_refs:
+- legacy
 ---
 # P 角色 Prompt 设计——执行者型 AI 的交付规范
 

@@ -1,20 +1,20 @@
 ---
-id: "街顺app全面调研报告"
+id: 街顺app全面调研报告
 created_at: 2026-04-26
 domain:
-  - "['healthcare']"
+- healthcare
 review_date: 2026-05-03
 reviewed_by: Claude
 source_refs:
-  - src_20260427_970eb338
+- src_20260427_970eb338
 status: reviewed
-title: "街顺APP全面调研报告"
+title: 街顺APP全面调研报告
 trust_level: medium
 type: concept
 updated_at: 2026-05-03
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 author: unknown
 confidence: 0.85
 ---

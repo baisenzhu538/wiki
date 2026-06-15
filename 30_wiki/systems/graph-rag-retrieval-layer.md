@@ -10,7 +10,8 @@ domain:
 implementor: 黄药师 (Builder)
 id: graph-rag-retrieval-layer
 type: concept
-source_refs: null
+source_refs:
+- legacy
 superseded_design: v0.1 keyword-based — 原计划基于 index.json 的纯标准库方案，因黄药师已完成 LightRAG
   MVP 且检索质量更优，该方案已废弃
 reviewed_by: 欧阳锋

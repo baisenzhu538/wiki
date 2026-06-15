@@ -10,6 +10,8 @@ reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
+source_refs:
+- legacy
 ---
 
 # 技能：隐性知识萃取与模型化

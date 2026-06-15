@@ -2,17 +2,17 @@
 id: business-research-skill-oscar-13-weapon-system
 created_at: 2026-05-04
 domain:
-  - "['yitang']"
+- yitang
 review_date: 2026-05-04
-reviewed_by: "黄药师"
+reviewed_by: 黄药师
 source_refs:
 - src_20260614_40afd886
 status: enriched
-title: "Business Research Skill — OSCAR 13武器体系 Claude Code 实现"
+title: Business Research Skill — OSCAR 13武器体系 Claude Code 实现
 trust_level: high
 type: concept
 updated_at: 2026-05-04
-author: "老顽童"
+author: 老顽童
 confidence: 0.75
 ---
 

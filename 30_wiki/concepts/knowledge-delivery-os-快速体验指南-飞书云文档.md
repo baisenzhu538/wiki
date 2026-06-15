@@ -1,18 +1,18 @@
 ---
-id: "knowledge-delivery-os-快速体验指南-飞书云文档"
+id: knowledge-delivery-os-快速体验指南-飞书云文档
 created_at: 2026-04-30
 domain:
-  - "['master']"
+- master
 source_refs:
-  - src_20260501_6a491b80
+- src_20260501_6a491b80
 status: enriched
-title: "Knowledge Delivery OS 快速体验指南 - 飞书云文档"
+title: Knowledge Delivery OS 快速体验指南 - 飞书云文档
 type: concept
 updated_at: 2026-05-04
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 author: unknown
-reviewed_by: "欧阳锋"
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 ---

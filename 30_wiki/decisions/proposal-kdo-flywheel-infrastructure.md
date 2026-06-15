@@ -11,7 +11,8 @@ target_roles:
 reviewer: 欧阳锋
 author: 黄药师
 source_context: KDO internal record
-source_refs: []
+source_refs:
+- legacy
 related:
 - knowledge-flywheel-discovery-20260602
 - sprint-6-four-death-sentences

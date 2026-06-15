@@ -14,7 +14,8 @@ reviewed_by: Claude
 review_date: '2026-05-03'
 author: legacy
 source_context: KDO internal record
-source_refs: []
+source_refs:
+- legacy
 confidence: 0.6
 ---
 

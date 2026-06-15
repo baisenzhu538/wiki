@@ -2,46 +2,50 @@
 id: yt-management-partnership-equity
 created_at: 2026-05-06
 domain:
-  - "['yitang']"
+- yitang
 estimated_tokens: 3300
 query_triggers:
-  - "合伙股权分配"
-  - "创业合伙人股权"
-  - "股权退出机制"
-  - "动态股权调整"
-  - "vesting cliff设计"
-  - "控制权设计"
-  - "创业合伙协议"
-  - "股权架构设计"
-  - "创始团队分股"
+- 合伙股权分配
+- 创业合伙人股权
+- 股权退出机制
+- 动态股权调整
+- vesting cliff设计
+- 控制权设计
+- 创业合伙协议
+- 股权架构设计
+- 创始团队分股
 related:
-  - yt-management-basic-skills
-  - yt-management-scientific-hiring
-  - yt-management-scientific-meetings
-  - yt-model-management-map
-  - yt-tool-equity-checklist
+- yt-management-basic-skills
+- yt-management-scientific-hiring
+- yt-management-scientific-meetings
+- yt-model-management-map
+- yt-tool-equity-checklist
 review_date: 2026-05-08
-reviewed_by: "黄药师"
+reviewed_by: 黄药师
 source_refs:
 - src_20260614_8f80cb0f
 status: enriched
-title: "合伙股权"
+title: 合伙股权
 trust_level: medium
 type: concept
 yitang:
   map: management
-  module: "合伙股权"
+  module: 合伙股权
   course_id: yt-management-partnership-equity
   course_type: method
   level: foundational
-  series: False
+  series: false
 pipeline:
-  - confidence-verified-by-case
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '合伙人平均分配股权', 'framework_lens': '忽视贡献/风险/时间差异', 'follow_up_question': '每位合伙人的贡献、承担风险、投入时间是否完全相同？如果不同，平均分配不公平'}
-  - {'signal': '没有vesting/cliff机制', 'framework_lens': '早期退出导致股权纠纷', 'follow_up_question': '如果合伙人一年后离开，他的股权怎么处理？如果没有明确机制，公司可能埋下分裂种子'}
+- signal: 合伙人平均分配股权
+  framework_lens: 忽视贡献/风险/时间差异
+  follow_up_question: 每位合伙人的贡献、承担风险、投入时间是否完全相同？如果不同，平均分配不公平
+- signal: 没有vesting/cliff机制
+  framework_lens: 早期退出导致股权纠纷
+  follow_up_question: 如果合伙人一年后离开，他的股权怎么处理？如果没有明确机制，公司可能埋下分裂种子
 updated_at: 2026-06-13
-author: "老顽童"
+author: 老顽童
 confidence: 0.75
 ---
 

@@ -9,7 +9,8 @@ domain:
 tags:
 - '#domain/knowledge-management'
 - '#method/evaluation-method'
-source_refs: null
+source_refs:
+- legacy
 created_at: 2026-05-31
 updated_at: 2026-05-31
 version: 1

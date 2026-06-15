@@ -4,7 +4,8 @@ type: improvement-plan
 domain:
 - kdo
 status: draft
-source_refs: null
+source_refs:
+- legacy
 created_at: 2026-06-06
 updated_at: 2026-06-06
 id: proposal-yaml-frontmatter-standardization

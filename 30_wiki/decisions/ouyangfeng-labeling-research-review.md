@@ -16,7 +16,8 @@ related:
 - data-labeling-best-practices-report
 author: legacy
 source_context: KDO internal decision record
-source_refs: []
+source_refs:
+- legacy
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

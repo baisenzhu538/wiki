@@ -1,25 +1,26 @@
 ---
-id: "skill-马易-AIGC项目ROI评估"
-title: "技能：AIGC项目ROI评估"
+id: skill-马易-AIGC项目ROI评估
+title: 技能：AIGC项目ROI评估
 type: skill
 status: needs-review
 domain:
-  - business-strategy
-  - ai-collaboration
-source_person: "马易"
-source_context: "AI落地场景识别"
-source_refs: 
-wiki_refs: 
+- business-strategy
+- ai-collaboration
+source_person: 马易
+source_context: AI落地场景识别
+source_refs:
+- legacy
+wiki_refs: null
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
-tools_required: 
-prerequisite_skills: 
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
+tools_required: null
+prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: 2026-06-12
 pipeline:
-  - confidence-draft
+- confidence-draft
 author: legacy
 reviewed_by: pending
 confidence: 0.7

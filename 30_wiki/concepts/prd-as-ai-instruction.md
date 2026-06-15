@@ -2,30 +2,31 @@
 id: prd-as-ai-instruction
 type: tool
 domain:
-  - product
-  - ai-saas
-  - management
-  - yitang
+- product
+- ai-saas
+- management
+- yitang
 status: draft
 source_refs:
-  - src_20260606_90b44191
+- src_20260606_90b44191
 component_of:
-  - ai-learning-closed-loop
+- ai-learning-closed-loop
 related:
-  - course-to-skill-conversion
-  - voice-input-doubao
+- course-to-skill-conversion
+- voice-input-doubao
 query_triggers:
-  - "PRD文档怎么写"
-  - "怎么让AI执行PRD"
-  - "产品需求文档AI"
-reviewed_by: 
+- PRD文档怎么写
+- 怎么让AI执行PRD
+- 产品需求文档AI
+reviewed_by: null
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 created_at: 2026-06-15
 confidence: 0.7
 trust_level: low
+title: prd as ai instruction
 ---
 
 # PRD文档作为AI可执行指令

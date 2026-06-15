@@ -16,7 +16,8 @@ related:
 - dark-knowledge-card-sop
 author: legacy
 source_context: KDO internal record
-source_refs: []
+source_refs:
+- legacy
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

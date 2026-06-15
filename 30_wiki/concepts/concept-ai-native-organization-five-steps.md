@@ -1,39 +1,40 @@
 ---
 id: concept-ai-native-organization-five-steps
 type: concept
-component_of: 
+component_of: null
 confidence: 0.8
 created_at: 2026-06-09
 difficulty: intermediate
 domain:
-  - ai-native
-  - management
+- ai-native
+- management
 estimated_tokens: 3500
 language: zh-CN
 prerequisites:
-  - "ai时代判断力口述-2"
+- ai时代判断力口述-2
 query_triggers:
-  - "AI原生组织"
-  - "自进化组织"
-  - "中层管理消失"
-  - "烧token不烧人头"
-  - "代码即消耗品"
-  - "五层自我循环"
-  - "YC AI组织实践"
+- AI原生组织
+- 自进化组织
+- 中层管理消失
+- 烧token不烧人头
+- 代码即消耗品
+- 五层自我循环
+- YC AI组织实践
 related:
-  - "ai时代判断力口述-2"
-  - "ai时代判断力口述-3"
-  - "ai时代判断力口述"
-  - "yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown"
-reviewed_by: 
+- ai时代判断力口述-2
+- ai时代判断力口述-3
+- ai时代判断力口述
+- yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown
+reviewed_by: null
 source_refs:
-  - "00_inbox/AI时代自进化组织形式.md"
+- 00_inbox/AI时代自进化组织形式.md
 status: draft
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 trust_level: low
+title: concept ai native organization five steps
 ---
 
 # AI原生组织五步搭建法：从罗马军团到自进化有机体

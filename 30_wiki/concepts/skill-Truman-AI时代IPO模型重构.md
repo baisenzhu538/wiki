@@ -10,6 +10,8 @@ reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
+source_refs:
+- legacy
 ---
 
 # 技能：AI时代IPO模型重构

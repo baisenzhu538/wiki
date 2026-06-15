@@ -1,22 +1,17 @@
 ---
-
-
-
-id: "skill-李诞-阅读重读机制：与书籍的-因缘-相遇"
-title: "技能：阅读重读机制：与书籍的'因缘'相遇"
-type: "skill"
+id: skill-李诞-阅读重读机制：与书籍的-因缘-相遇
+title: 技能：阅读重读机制：与书籍的'因缘'相遇
+type: skill
 domain:
-  - personal-growth
-  - yitang
-domain:
-domain:
-status: "draft"
-domain:
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- personal
+status: draft
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.6
-trust_level: "low"
+trust_level: low
+source_refs:
+- legacy
 ---
 
 # 技能：阅读重读机制：与书籍的'因缘'相遇

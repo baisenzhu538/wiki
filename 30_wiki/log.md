@@ -1,10 +1,18 @@
 ---
 id: log
-type: concept
+type: meta
 status: draft
-title: Wiki Log
+title: log
 domain:
-- ai-saas
+- master
+source_refs:
+- legacy
+author: legacy
+reviewed_by: pending
+confidence: 0.5
+trust_level: low
+created_at: '2026-06-16'
+updated_at: '2026-06-16'
 ---
 
 # Wiki Log

@@ -1,28 +1,30 @@
 ---
 id: knowledge-error-self-exposure
-title: "知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向"
+title: 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向
 type: concept
 status: draft
 domain:
-  - master
+- master
 related:
-  - kdo-flywheel
-  - dk-c8-format-complete-mind-empty
+- kdo-flywheel
+- dk-c8-format-complete-mind-empty
 query_triggers:
-  - "错误自暴露"
-  - "矛盾检测"
-  - "知识库谬误"
-  - "增量一致性"
-  - "全域检测靶向修复"
-  - "知识库腐败"
+- 错误自暴露
+- 矛盾检测
+- 知识库谬误
+- 增量一致性
+- 全域检测靶向修复
+- 知识库腐败
 created_at: 2026-06-03
 updated_at: 2026-06-03
 pipeline:
-  - confidence-draft
+- confidence-draft
 author: legacy
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+source_refs:
+- legacy
 ---
 
 # 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向

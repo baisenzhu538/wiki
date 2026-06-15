@@ -1,22 +1,17 @@
 ---
-
-
-
-id: "skill-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱"
-title: "技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱"
-type: "skill"
+id: skill-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱
+title: 技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱
+type: skill
 domain:
-  - personal-growth
-  - yitang
-domain:
-domain:
-status: "draft"
-domain:
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- personal
+status: draft
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.6
-trust_level: "low"
+trust_level: low
+source_refs:
+- legacy
 ---
 
 # 技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱

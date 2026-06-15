@@ -2,35 +2,36 @@
 id: course-to-skill-conversion
 type: tool
 domain:
-  - management
-  - product
-  - business-strategy
-  - ai-saas
-  - yitang
-  - decision-making
+- management
+- product
+- business-strategy
+- ai-saas
+- yitang
+- decision-making
 status: draft
 source_refs:
-  - src_20260606_90b44191
+- src_20260606_90b44191
 component_of:
-  - ai-learning-closed-loop
+- ai-learning-closed-loop
 related:
-  - ai-learning-closed-loop
-  - prd-as-ai-instruction
-  - structured-ai-workspace
+- ai-learning-closed-loop
+- prd-as-ai-instruction
+- structured-ai-workspace
 query_triggers:
-  - "怎么把课程变成skill"
-  - "AI skill怎么开发"
-  - "课程作业怎么升级成工具"
-reviewed_by: 
+- 怎么把课程变成skill
+- AI skill怎么开发
+- 课程作业怎么升级成工具
+reviewed_by: null
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
-  - confidence-verified-by-test
+- confidence-draft
+- confidence-source-cited
+- confidence-verified-by-case
+- confidence-verified-by-test
 author: legacy
 created_at: 2026-06-15
 confidence: 0.7
 trust_level: low
+title: course to skill conversion
 ---
 
 # 课程→Skill转化：将知识变成AI可执行的能力模块

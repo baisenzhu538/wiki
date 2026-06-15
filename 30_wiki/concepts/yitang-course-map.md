@@ -1,22 +1,24 @@
 ---
-title: "一堂课程大地图"
+title: 一堂课程大地图
 type: concept
 subtype: hub
 domain:
-  - yitang
+- yitang
 status: stable
 created_at: 2026-05-06
 updated_at: 2026-05-06
 id: yitang-course-map
 tags:
-  - course-map
-  - dataview
-  - index
-  - yitang
-author: "老顽童"
-reviewed_by: "欧阳锋"
+- course-map
+- dataview
+- index
+- yitang
+author: 老顽童
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: high
+source_refs:
+- legacy
 ---
 
 # 一堂课程大地图

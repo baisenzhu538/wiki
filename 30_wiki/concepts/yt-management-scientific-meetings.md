@@ -1,24 +1,29 @@
 ---
-
-title: "科学开会"
+title: 科学开会
 type: concept
 domain:
-  - ai-saas
-  - management
-  - yitang
+- ai-saas
+- management
+- yitang
 status: enriched
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '每周例会雷打不动但无产出', 'framework_lens': '惯性开会', 'follow_up_question': '这个例会最近一次明确产出了什么？如果没有，可以取消'}
-  - {'signal': '会议结束没有明确待办', 'framework_lens': '结论模糊', 'follow_up_question': '散会后每个人都知道自己要做什么吗？如果有人不清楚，会议失败'}
+- signal: 每周例会雷打不动但无产出
+  framework_lens: 惯性开会
+  follow_up_question: 这个例会最近一次明确产出了什么？如果没有，可以取消
+- signal: 会议结束没有明确待办
+  framework_lens: 结论模糊
+  follow_up_question: 散会后每个人都知道自己要做什么吗？如果有人不清楚，会议失败
 updated_at: 2026-06-13
 id: yt-management-scientific-meetings
-author: "老顽童"
-reviewed_by: "欧阳锋"
+author: 老顽童
+reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
+source_refs:
+- legacy
 ---
 
 # 科学开会

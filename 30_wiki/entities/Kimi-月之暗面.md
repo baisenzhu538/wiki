@@ -1,39 +1,40 @@
 ---
-
-title: "Kimi（月之暗面）"
+title: Kimi（月之暗面）
 type: entity
 domain:
-  - kdo
-  - product
-  - ai-saas
-  - design
+- kdo
+- product
+- ai-saas
+- design
 status: reviewed
 entity_type: company
 aliases:
-  - Kimi
-  - "月之暗面"
-  - "Moonshot AI"
-  - "Kimi Chat"
-url: "https://kimi.moonshot.cn"
-location: "Beijing, China"
+- Kimi
+- 月之暗面
+- Moonshot AI
+- Kimi Chat
+url: https://kimi.moonshot.cn
+location: Beijing, China
 founded_at: 2023-04-01
-id: "Kimi-月之暗面"
+id: Kimi-月之暗面
 created_at: 2026-05-03
 updated_at: 2026-05-03
 related:
-  - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
-  - "[[graph-rag]]"
-  - "[[一堂调研行动营-ai辅助系统式调研方法论]]"
+- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
+- '[[graph-rag]]'
+- '[[一堂调研行动营-ai辅助系统式调研方法论]]'
 tags:
-  - #ai
-  - #llm
-  - #deep-research
-  - #chinese-ai
+- null
+- null
+- null
+- null
 trust_level: medium
-reviewed_by: "黄药师"
+reviewed_by: 黄药师
 review_date: 2026-05-04
 author: unknown
 confidence: 0.85
+source_refs:
+- legacy
 ---
 
 # Kimi（月之暗面）

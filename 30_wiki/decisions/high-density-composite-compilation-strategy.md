@@ -9,7 +9,8 @@ supersedes: v1.0（复合编译方案，已废弃）
 id: high-density-composite-compilation-strategy
 author: legacy
 source_context: KDO internal decision record
-source_refs: []
+source_refs:
+- legacy
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.75

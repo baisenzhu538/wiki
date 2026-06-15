@@ -1,6 +1,4 @@
-# Missing domain cards: 2
+# Missing domain cards: 0
 # Generated: 2026-06-16
-# Source: after batch domain inference
+# Source: after full P0 cleanup
 
-30_wiki\concepts\skill-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱.md
-30_wiki\concepts\skill-李诞-阅读重读机制：与书籍的-因缘-相遇.md

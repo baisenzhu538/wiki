@@ -1,16 +1,18 @@
 ---
-title: "单元模型六段进阶：从拍脑袋到动态预测"
+title: 单元模型六段进阶：从拍脑袋到动态预测
 date: 2026-05-24
 type: framework
 status: enriched
 domain:
-  - decision-science
+- decision-science
 id: yt-unit-model-ladder
-author: "老顽童"
-reviewed_by: "欧阳锋"
+author: 老顽童
+reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
+source_refs:
+- legacy
 ---
 ## Reusable Knowledge
 

@@ -2,16 +2,18 @@
 id: paddleocr-skill
 created_at: 2026-05-07
 domain:
-  - "['master']"
+- master
 review_date: 2026-05-07
-reviewed_by: "黄药师"
+reviewed_by: 黄药师
 status: enriched
-title: "PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill"
+title: PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill
 trust_level: high
 type: concept
 updated_at: 2026-05-07
-author: "黄药师"
+author: 黄药师
 confidence: 0.75
+source_refs:
+- legacy
 ---
 
 # PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill

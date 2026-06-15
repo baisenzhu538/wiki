@@ -1,25 +1,30 @@
 ---
-
-title: "Y模型/科学决策"
+title: Y模型/科学决策
 type: concept
 domain:
-  - ai-saas
-  - management
-  - decision-making
-  - yitang
+- ai-saas
+- management
+- decision-making
+- yitang
 status: enriched
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '决策者只凭直觉，不做选项扩展', 'framework_lens': '宽度不够', 'follow_up_question': '除了现在在考虑的选项，你还考虑过哪些？如果只有1-2个，决策宽度不足'}
-  - {'signal': '决策者追求完美信息，迟迟不做决定', 'framework_lens': '决策窗口关闭', 'follow_up_question': '你现在的信息已经够做决策了吗？如果等100%信息，机会可能已过'}
+- signal: 决策者只凭直觉，不做选项扩展
+  framework_lens: 宽度不够
+  follow_up_question: 除了现在在考虑的选项，你还考虑过哪些？如果只有1-2个，决策宽度不足
+- signal: 决策者追求完美信息，迟迟不做决定
+  framework_lens: 决策窗口关闭
+  follow_up_question: 你现在的信息已经够做决策了吗？如果等100%信息，机会可能已过
 updated_at: 2026-06-13
 id: yt-management-scientific-decision
-author: "老顽童"
-reviewed_by: "欧阳锋"
+author: 老顽童
+reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
+source_refs:
+- legacy
 ---
 
 # Y模型/科学决策

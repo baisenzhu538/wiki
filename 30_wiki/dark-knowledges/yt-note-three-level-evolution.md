@@ -1,13 +1,16 @@
 ---
-id: "yt-note-three-level-evolution"
-title: "碎片化→结构化→体系化：笔记认知的三级进化跃迁"
+id: yt-note-three-level-evolution
+title: 碎片化→结构化→体系化：笔记认知的三级进化跃迁
 domain:
-  - "yitang"
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- yitang
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.75
-trust_level: "medium"
+trust_level: medium
+type: dark-knowledge
+source_refs:
+- legacy
 ---
 
 # 碎片化→结构化→体系化：笔记认知的三级进化跃迁

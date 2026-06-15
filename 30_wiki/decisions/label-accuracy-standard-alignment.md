@@ -12,7 +12,8 @@ target_roles:
 reviewer: 欧阳锋
 author: 黄药师
 source_context: KDO internal record
-source_refs: []
+source_refs:
+- legacy
 related:
 - gold-standard-manual-labels
 - labeling-final-consolidation

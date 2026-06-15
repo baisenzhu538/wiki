@@ -1,17 +1,17 @@
 ---
-id: "紫鲸ai_智能体工作流平台_深度分析与产品设计"
+id: 紫鲸ai_智能体工作流平台_深度分析与产品设计
 created_at: 2026-04-30
 domain:
-  - "['ai-saas']"
+- ai-saas
 source_refs:
-  - src_20260501_4eee4e95
+- src_20260501_4eee4e95
 status: superseded
-superseded_by: "[[紫鲸AI智能体工作流平台]]"
-title: "紫鲸AI_智能体工作流平台_深度分析与产品设计"
+superseded_by: '[[紫鲸AI智能体工作流平台]]'
+title: 紫鲸AI_智能体工作流平台_深度分析与产品设计
 type: concept
 updated_at: 2026-05-03
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 author: legacy
 reviewed_by: pending
 confidence: 0.75

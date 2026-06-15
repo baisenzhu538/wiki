@@ -2,31 +2,32 @@
 id: ai-learning-closed-loop
 type: concept
 domain:
-  - product
-  - ai-saas
-  - yitang
-  - business-strategy
+- product
+- ai-saas
+- yitang
+- business-strategy
 status: draft
 source_refs:
-  - src_20260606_90b44191
-component_of: 
+- src_20260606_90b44191
+component_of: null
 related:
-  - course-to-skill-conversion
-  - voice-input-doubao
-  - prd-as-ai-instruction
+- course-to-skill-conversion
+- voice-input-doubao
+- prd-as-ai-instruction
 query_triggers:
-  - "AI时代如何学习"
-  - "课程怎么转化为能力"
-  - "学了忘怎么办"
-  - "AI生成内容可靠吗"
-reviewed_by: 
+- AI时代如何学习
+- 课程怎么转化为能力
+- 学了忘怎么办
+- AI生成内容可靠吗
+reviewed_by: null
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 created_at: 2026-06-15
 confidence: 0.7
 trust_level: low
+title: ai learning closed loop
 ---
 
 # AI学习闭环：从"听懂"到"能力"的转化路径

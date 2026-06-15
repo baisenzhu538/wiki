@@ -16,7 +16,8 @@ related:
 - kdo-15-dimension-label-spec
 author: legacy
 source_context: KDO infrastructure decision — internal design record
-source_refs: []
+source_refs:
+- legacy
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

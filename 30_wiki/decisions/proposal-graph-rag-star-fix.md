@@ -9,7 +9,8 @@ domain:
 created_at: 2026-06-11
 author: legacy
 source_context: KDO improvement plan — internal process record
-source_refs: []
+source_refs:
+- legacy
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

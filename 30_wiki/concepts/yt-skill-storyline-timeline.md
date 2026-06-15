@@ -1,19 +1,30 @@
 ---
-id: "yt-skill-storyline-timeline"
-title: "清单体故事线①：严格时间线——用时间轴重构事件因果链"
+id: yt-skill-storyline-timeline
+title: 清单体故事线①：严格时间线——用时间轴重构事件因果链
 domain:
-  - "yitang"
+- yitang
 diagnostic_signals:
-  - {'signal': '每个时间节点是否只记录事实和状态变化，无解释评价', 'framework_lens': '事实-推断分离 / 因果暴露', 'follow_up_question': "时间线中是否混入'因为...所以...'解释性语言？"}
-  - {'signal': '节点数量是否控制在 10-15 个以内，否则拆分', 'framework_lens': '可读性 / 认知负荷', 'follow_up_question': '超过 15 个节点后因果链是否变得不可追踪？'}
-  - {'signal': '每个节点是否有可验证来源（邮件/日志/聊天记录等）', 'framework_lens': '可审计性 / 证据链', 'follow_up_question': '无来源的推断是否被标注为[推断]而非事实？'}
-  - {'signal': '时间线是否帮助读者独立发现至少 1 个之前忽略的因果问题', 'framework_lens': '学习性 / 反直觉发现', 'follow_up_question': '如果时间线只验证已知结论，是否还有隐藏节点未发现？'}
-updated_at: "2026-06-13"
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- signal: 每个时间节点是否只记录事实和状态变化，无解释评价
+  framework_lens: 事实-推断分离 / 因果暴露
+  follow_up_question: 时间线中是否混入'因为...所以...'解释性语言？
+- signal: 节点数量是否控制在 10-15 个以内，否则拆分
+  framework_lens: 可读性 / 认知负荷
+  follow_up_question: 超过 15 个节点后因果链是否变得不可追踪？
+- signal: 每个节点是否有可验证来源（邮件/日志/聊天记录等）
+  framework_lens: 可审计性 / 证据链
+  follow_up_question: 无来源的推断是否被标注为[推断]而非事实？
+- signal: 时间线是否帮助读者独立发现至少 1 个之前忽略的因果问题
+  framework_lens: 学习性 / 反直觉发现
+  follow_up_question: 如果时间线只验证已知结论，是否还有隐藏节点未发现？
+updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.75
-trust_level: "medium"
+trust_level: medium
+type: skill
+source_refs:
+- legacy
 ---
 # 清单体故事线①：严格时间线——用时间轴重构事件因果链
 

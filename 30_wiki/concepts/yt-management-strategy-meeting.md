@@ -1,25 +1,30 @@
 ---
-
-title: "战略会"
+title: 战略会
 type: concept
 domain:
-  - ai-saas
-  - management
-  - decision-making
-  - yitang
+- ai-saas
+- management
+- decision-making
+- yitang
 status: enriched
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '战略会变成部门汇报大会', 'framework_lens': '汇报大会论', 'follow_up_question': '这次战略会有多少时间在讨论未来方向，多少时间在汇报过去成绩？'}
-  - {'signal': '战略会开完没有72小时行动', 'framework_lens': '开完就算了', 'follow_up_question': '战略会结束后72小时内有没有发出决策纪要和下一步行动？'}
+- signal: 战略会变成部门汇报大会
+  framework_lens: 汇报大会论
+  follow_up_question: 这次战略会有多少时间在讨论未来方向，多少时间在汇报过去成绩？
+- signal: 战略会开完没有72小时行动
+  framework_lens: 开完就算了
+  follow_up_question: 战略会结束后72小时内有没有发出决策纪要和下一步行动？
 updated_at: 2026-06-13
 id: yt-management-strategy-meeting
-author: "老顽童"
-reviewed_by: "欧阳锋"
+author: 老顽童
+reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
+source_refs:
+- legacy
 ---
 
 # 战略会

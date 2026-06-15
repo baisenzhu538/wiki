@@ -4,28 +4,30 @@ confidence: 0.88
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
-  - master
+- master
 estimated_tokens: 1144
 language: zh-CN
 query_triggers:
-  - "反脆弱决策"
-  - "杠铃策略"
-  - "反脆弱清单"
-  - "Taleb决策"
+- 反脆弱决策
+- 杠铃策略
+- 反脆弱清单
+- Taleb决策
 related:
-  - master-decision-hygiene
-  - master-cognitive-bias-checklist
-  - master-systems-thinking
-  - yt-foresight-ten-fatal-flaws
-  - yt-entrepreneur-key-hypotheses
-  - yt-panproduct-execution-risk-management
+- master-decision-hygiene
+- master-cognitive-bias-checklist
+- master-systems-thinking
+- yt-foresight-ten-fatal-flaws
+- yt-entrepreneur-key-hypotheses
+- yt-panproduct-execution-risk-management
 status: enriched
-title: "反脆弱决策检查清单"
+title: 反脆弱决策检查清单
 type: tool
 updated_at: 2026-05-18
 version: 1
 author: unknown
 trust_level: medium-high
+source_refs:
+- legacy
 ---
 
 # 反脆弱决策检查清单

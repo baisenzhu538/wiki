@@ -2,31 +2,32 @@
 id: ai-landing-scene-selection
 type: concept
 domain:
-  - product
-  - ai-saas
-  - decision-making
-  - yitang
+- product
+- ai-saas
+- decision-making
+- yitang
 status: draft
 source_refs:
-  - src_20260606_ef4877d0
-component_of: 
+- src_20260606_ef4877d0
+component_of: null
 related:
-  - find-old-do-small
-  - ai-learning-closed-loop
-  - course-to-skill-conversion
+- find-old-do-small
+- ai-learning-closed-loop
+- course-to-skill-conversion
 query_triggers:
-  - "AI怎么落地"
-  - "什么场景适合AI"
-  - "AI项目为什么失败"
-  - "业务人员怎么用AI"
-reviewed_by: 
+- AI怎么落地
+- 什么场景适合AI
+- AI项目为什么失败
+- 业务人员怎么用AI
+reviewed_by: null
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
+- confidence-draft
+- confidence-source-cited
 author: legacy
 created_at: 2026-06-15
 confidence: 0.7
 trust_level: low
+title: ai landing scene selection
 ---
 
 # AI落地场景识别：从"找老的干小的"开始

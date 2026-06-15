@@ -1,16 +1,16 @@
 ---
-
-title: "OCR: 一堂-AI清单体笔记（系统故事线）-truman-图片01"
+title: 'OCR: 一堂-AI清单体笔记（系统故事线）-truman-图片01'
 type: concept
 domain:
-  - yitang
-  - ai-collaboration
+- yitang
+- ai-collaboration
 status: draft
 source_refs:
-created_at: "2026-06-09T14:03:49+00:00"
-updated_at: "2026-06-09T14:27:45+00:00"
-id: "ocr-一堂-ai清单体笔记系统故事线-truman-图片01"
-author: "老顽童"
+- legacy
+created_at: '2026-06-09T14:03:49+00:00'
+updated_at: '2026-06-09T14:27:45+00:00'
+id: ocr-一堂-ai清单体笔记系统故事线-truman-图片01
+author: 老顽童
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

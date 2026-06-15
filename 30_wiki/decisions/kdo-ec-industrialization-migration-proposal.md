@@ -7,7 +7,8 @@ status: draft
 id: kdo-ec-industrialization-migration-proposal
 author: legacy
 source_context: KDO internal record
-source_refs: []
+source_refs:
+- legacy
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6

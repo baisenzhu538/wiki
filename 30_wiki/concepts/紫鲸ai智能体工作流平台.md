@@ -1,19 +1,19 @@
 ---
-id: "紫鲸ai智能体工作流平台"
+id: 紫鲸ai智能体工作流平台
 created_at: 2026-04-28
 domain:
-  - "['ai-saas']"
+- ai-saas
 source_refs:
-  - src_20260428_29929c1f
+- src_20260428_29929c1f
 status: enriched
-title: "紫鲸AI智能体工作流平台"
+title: 紫鲸AI智能体工作流平台
 type: concept
 updated_at: 2026-04-28
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 author: unknown
-reviewed_by: "欧阳锋"
+reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 ---

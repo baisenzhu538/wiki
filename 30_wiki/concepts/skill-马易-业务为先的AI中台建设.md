@@ -1,34 +1,36 @@
 ---
-id: "skill-马易-业务为先的AI中台建设"
-title: "技能：业务为先的AI中台建设"
+id: skill-马易-业务为先的AI中台建设
+title: 技能：业务为先的AI中台建设
 type: skill
 status: enriched
 domain:
-  - ai-implementation
-source_person: "马易"
-source_context: "AI落地场景识别"
+- ai-implementation
+source_person: 马易
+source_context: AI落地场景识别
 wiki_refs:
-  - 30_wiki/concepts/yt-entrepreneur-pragmatic-startup.md
-  - 30_wiki/concepts/ai-landing-scene-selection.md
+- 30_wiki/concepts/yt-entrepreneur-pragmatic-startup.md
+- 30_wiki/concepts/ai-landing-scene-selection.md
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "有真实失败案例"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 有真实失败案例
 tools_required:
-  - "基础AI工具（ChatGPT/Claude等）"
-  - "现有业务系统"
-  - "简单自动化脚本"
+- 基础AI工具（ChatGPT/Claude等）
+- 现有业务系统
+- 简单自动化脚本
 related:
-  - "skill-马易-数据存储架构选择"
-  - yt-entrepreneur-pragmatic-startup
+- skill-马易-数据存储架构选择
+- yt-entrepreneur-pragmatic-startup
 created_at: 2026-06-07
 updated_at: 2026-06-11
-reviewed_by: "黄药师"
+reviewed_by: 黄药师
 confidence: 0.85
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 author: unknown
 trust_level: medium-high
+source_refs:
+- legacy
 ---
 
 # 技能：业务为先的AI中台建设

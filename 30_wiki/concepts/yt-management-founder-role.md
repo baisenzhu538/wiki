@@ -1,24 +1,29 @@
 ---
-
-title: "一号位"
+title: 一号位
 type: concept
 domain:
-  - ai-saas
-  - management
-  - yitang
+- ai-saas
+- management
+- yitang
 status: enriched
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '创始人忙到没时间思考', 'framework_lens': '超级员工论', 'follow_up_question': '你每周不被打断的思考时间占比多少？如果<10%，你在当超级员工'}
-  - {'signal': '创始人把战略外包给投资人', 'framework_lens': '甩手掌柜论', 'follow_up_question': '公司的战略方向由谁最终负责？如果答案是投资人或顾问，你失职了'}
+- signal: 创始人忙到没时间思考
+  framework_lens: 超级员工论
+  follow_up_question: 你每周不被打断的思考时间占比多少？如果<10%，你在当超级员工
+- signal: 创始人把战略外包给投资人
+  framework_lens: 甩手掌柜论
+  follow_up_question: 公司的战略方向由谁最终负责？如果答案是投资人或顾问，你失职了
 updated_at: 2026-06-13
 id: yt-management-founder-role
-author: "老顽童"
-reviewed_by: "欧阳锋"
+author: 老顽童
+reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
+source_refs:
+- legacy
 ---
 
 # 一号位

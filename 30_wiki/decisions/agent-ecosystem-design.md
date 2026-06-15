@@ -8,7 +8,8 @@ created_at: '2026-06-10'
 updated_at: '2026-06-10'
 author: 黄药师
 source_context: KDO infrastructure decision — internal design record
-source_refs: []
+source_refs:
+- legacy
 id: agent-ecosystem-design
 reviewed_by: pending
 confidence: 0.6

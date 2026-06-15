@@ -1,16 +1,16 @@
 ---
-
-title: "OCR: 一堂-AI清单体笔记（训练段位图）-truman-图片02"
+title: 'OCR: 一堂-AI清单体笔记（训练段位图）-truman-图片02'
 type: concept
 domain:
-  - yitang
-  - ai-collaboration
+- yitang
+- ai-collaboration
 status: draft
 source_refs:
-created_at: "2026-06-09T14:03:49+00:00"
-updated_at: "2026-06-09T14:28:40+00:00"
-id: "ocr-一堂-ai清单体笔记训练段位图-truman-图片02"
-author: "老顽童"
+- legacy
+created_at: '2026-06-09T14:03:49+00:00'
+updated_at: '2026-06-09T14:28:40+00:00'
+id: ocr-一堂-ai清单体笔记训练段位图-truman-图片02
+author: 老顽童
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

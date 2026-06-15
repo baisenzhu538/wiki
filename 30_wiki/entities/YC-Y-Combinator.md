@@ -1,38 +1,39 @@
 ---
-
-title: "Y Combinator"
+title: Y Combinator
 type: entity
 domain:
-  - entrepreneurship
-  - ai-saas
-  - management
-  - business-strategy
+- entrepreneurship
+- ai-saas
+- management
+- business-strategy
 status: reviewed
 entity_type: organization
 aliases:
-  - YC
-  - "Y Combinator"
-  - "YC Startup School"
-url: "https://www.ycombinator.com"
-location: "Mountain View, California, USA"
+- YC
+- Y Combinator
+- YC Startup School
+url: https://www.ycombinator.com
+location: Mountain View, California, USA
 founded_at: 2005-03-01
-id: "YC-Y-Combinator"
+id: YC-Y-Combinator
 created_at: 2026-05-03
 updated_at: 2026-05-03
 related:
-  - "[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]"
-  - "[[kdo-protocol]]"
-  - "[[kimi-深度调研集群方法论-deep-research-swarm]]"
+- '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
+- '[[kdo-protocol]]'
+- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 tags:
-  - #startup-accelerator
-  - #venture-capital
-  - #ai-native
-  - #organization-design
+- null
+- null
+- null
+- null
 trust_level: high
-reviewed_by: "黄药师"
+reviewed_by: 黄药师
 review_date: 2026-05-04
 author: unknown
 confidence: 0.85
+source_refs:
+- legacy
 ---
 
 # Y Combinator

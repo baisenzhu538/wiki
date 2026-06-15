@@ -1,19 +1,26 @@
 ---
-id: "yt-note-deliberate-practice-four-elements"
-title: "四要素诊断模型——刻意练习的笔记落地框架"
+id: yt-note-deliberate-practice-four-elements
+title: 四要素诊断模型——刻意练习的笔记落地框架
 domain:
-  - "yitang"
+- yitang
 pipeline:
-  - "confidence-source-cited"
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户四要素都想要，但时间不够', 'framework_lens': '贪多', 'follow_up_question': '你当前最缺的是套路、非舒适区、反馈还是重复？一次只攻一个'}
-  - {'signal': '用户没有固定套路就追求非舒适区', 'framework_lens': '顺序错误', 'follow_up_question': '你的笔记有没有一个固定套路？如果没有，先建套路再谈非舒适区'}
-updated_at: "2026-06-13"
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- signal: 用户四要素都想要，但时间不够
+  framework_lens: 贪多
+  follow_up_question: 你当前最缺的是套路、非舒适区、反馈还是重复？一次只攻一个
+- signal: 用户没有固定套路就追求非舒适区
+  framework_lens: 顺序错误
+  follow_up_question: 你的笔记有没有一个固定套路？如果没有，先建套路再谈非舒适区
+updated_at: '2026-06-13'
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.75
-trust_level: "medium"
+trust_level: medium
+type: concept
+source_refs:
+- legacy
 ---
 
 # 四要素诊断模型——刻意练习的笔记落地框架

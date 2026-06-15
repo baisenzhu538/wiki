@@ -10,7 +10,8 @@ industry: 企业服务
 scale: 平台级
 source_person: Truman
 source_context: 一堂课程，规模经济章节
-source_refs: null
+source_refs:
+- legacy
 wiki_refs: null
 definition_of_done: null
 tags: null

@@ -1,24 +1,25 @@
 ---
-id: "skill-月白-产品风格选择：测而非定"
-title: "技能：产品风格选择：测而非定"
+id: skill-月白-产品风格选择：测而非定
+title: 技能：产品风格选择：测而非定
 type: skill
 status: draft
 domain:
-  - design
-source_person: "月白"
-source_context: "文创案例"
-source_refs: 
-wiki_refs: 
+- design
+source_person: 月白
+source_context: 文创案例
+source_refs:
+- legacy
+wiki_refs: null
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
-tools_required: 
-prerequisite_skills: 
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
+tools_required: null
+prerequisite_skills: null
 created_at: 2026-06-07
 updated_at: 2026-06-07
 pipeline:
-  - confidence-draft
+- confidence-draft
 author: legacy
 reviewed_by: pending
 confidence: 0.6

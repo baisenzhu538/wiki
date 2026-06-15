@@ -7,8 +7,9 @@ domain:
 id: agent-external-brain-design
 author: unknown
 source_context: KDO internal record
-source_refs: []
-reviewed_by: "欧阳锋"
+source_refs:
+- legacy
+reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
