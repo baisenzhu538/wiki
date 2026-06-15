@@ -23,6 +23,7 @@ related:
 - '[[yt-entrepreneur-product-core]]'
 - '[[yt-lean-essence]]'
 - '[[case-yitang-tob-artificial-bone]]'
+- '[[case-纪浩-skill-market-problem-validation]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:

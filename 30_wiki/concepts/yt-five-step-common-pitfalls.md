@@ -46,7 +46,7 @@ diagnostic_signals:
 - signal: 用户学了五步法就觉得自己很牛
   framework_lens: 过度自信
   follow_up_question: 你最近一次被五步法分析结果 surprise 到是什么时候？如果没有，你可能在用框架确认偏见
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 author: 老顽童
 ---
 # 暗知识：五步法常见误区与认知陷阱

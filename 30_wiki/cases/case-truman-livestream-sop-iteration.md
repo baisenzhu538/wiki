@@ -20,6 +20,7 @@ related:
 - '[[modeling-three-stages]]'
 - '[[modeling-capability-system]]'
 - '[[modeling-to-kdo-toolchain]]'
+- '[[case-livestream-sop-modeling]]'
 tags:
 - '#method/modeling'
 - '#content-format/case-study'
