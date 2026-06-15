@@ -745,7 +745,7 @@
 | `decisions\proposal-yaml-frontmatter-standardization.md` | author=legacy，建议替换为真实作者 |
 | `decisions\three-party-data-alignment.md` | author=legacy，建议替换为真实作者 |
 | `entities\Kimi-月之暗面.md` | dangling 链接: 一堂调研行动营-ai辅助系统式调研方法论 |
-| `entities\紫鲸AI.md` | dangling 链接: 紫鲸AI智能体工作流平台, 紫鲸AI_智能体工作流平台_深度分析与产品设计 |
+| `entities\紫鲸AI.md` | dangling 链接: 紫鲸AI_智能体工作流平台_深度分析与产品设计, 紫鲸AI智能体工作流平台 |
 | `entities\鑫港湾.md` | dangling 链接: 鑫港湾HIS系统分阶段整改报告 |
 | `frameworks\business-formula-to-kdo-card-quality.md` | status=draft 但 confidence=0.88 |
 | `frameworks\concept-maister-trusted-advisor.md` | author=legacy，建议替换为真实作者 |
@@ -757,7 +757,7 @@
 | `links\index.md` | author=legacy，建议替换为真实作者 |
 | `log.md` | type 值异常: meta; author=legacy，建议替换为真实作者 |
 | `projects\互联网医院项目.md` | type 值异常: project |
-| `projects\诊所O2O项目.md` | type 值异常: project; dangling 链接: 诊所O2O外卖平台业务深度调研报告, 街顺APP全面调研报告 |
+| `projects\诊所O2O项目.md` | type 值异常: project; dangling 链接: 街顺APP全面调研报告, 诊所O2O外卖平台业务深度调研报告 |
 | `projects\鑫港湾HIS项目.md` | type 值异常: project; dangling 链接: 鑫港湾HIS系统分阶段整改报告 |
 | `systems\kdo-protocol.md` | author=legacy，建议替换为真实作者 |
 | `systems\obsidian-git-sync-protocol.md` | author=legacy，建议替换为真实作者 |
