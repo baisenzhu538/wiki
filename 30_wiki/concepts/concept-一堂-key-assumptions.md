@@ -17,6 +17,7 @@ related:
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[concept-一堂-product-kernel]]'
 - '[[yt-foresight-15-char-mantra]]'
+- '[[case-一堂-无人餐厅-hypothesis-failure]]'
 wiki_refs:
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[concept-一堂-product-kernel]]'

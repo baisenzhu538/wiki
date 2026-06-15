@@ -34,7 +34,7 @@ pipeline:
 - confidence-draft
 - confidence-source-cited
 author: 老顽童
-reviewed_by: 老顽童
+reviewed_by: 黄药师
 confidence: 0.75
 trust_level: medium
 ---
@@ -56,7 +56,7 @@ trust_level: medium
 
 ## 关键假设拆解
 
-用 [[concept-一堂-key-assumptions|关键假设思维]] 复盘，该项目至少存在三条未被验证的前置假设：
+用 [[concept-一堂-key-assumptions]] 复盘，该项目至少存在三条未被验证的前置假设：
 
 | 假设层级 | 团队默认的假设 | 实际验证结果 | 后果 |
 |:---|:---|:---|:---|
@@ -68,7 +68,7 @@ Truman 的总结是："这两个重大的关键假设不成立之后，整个的
 
 ## 方案：本应如何验证
 
-一堂给出的正确打开方式是：**用 259 工具把业务拆成假设，再用最小成本验证最危险的假设。** 对应 [[yt-lean-assumption-verification-3means|关键假设验证的三种手段]]，本项目本可以这样做：
+一堂给出的正确打开方式是：**用 259 工具把业务拆成假设，再用最小成本验证最危险的假设。** 对应 [[yt-lean-assumption-verification-3means]]，本项目本可以这样做：
 
 | 步骤 | 应做动作 | 本案例的反面教材 |
 |:---|:---|:---|

@@ -19,12 +19,14 @@ related:
 - '[[dk-一堂-wishful-thinking-kills-startups]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-research-hypothesis-test]]'
+- '[[case-纪浩-skill-market-problem-validation]]'
 wiki_refs:
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[dk-一堂-wishful-thinking-kills-startups]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-research-hypothesis-test]]'
+- '[[case-纪浩-skill-market-problem-validation]]'
 definition_of_done:
 - 原始表述、问题、方案、可迁移、Feedback Path 均已填写
 - 关键假设验证过程和数据已记录
@@ -176,3 +178,4 @@ diagnostic_signals:
 - **[[dk-一堂-wishful-thinking-kills-startups]]** — 陈贤敏克制了"资源充足就想多开店"的愿望思维，用实验数据替代美好设想。
 - **[[yt-entrepreneur-lean-validation]]** — 本案例是"低成本验证/MVP"工具的正面典范：陈贤敏用"开一家店"这个最小行为实验，验证了"中式汉堡能否在目标市场跑通"这个核心假设，而不是先冒风险规模化。
 - **[[yt-research-hypothesis-test]]** — 陈贤敏的验证过程对应"假设验证调研工具"的三步设计：关键假设（中式汉堡能否跑通）→可证伪问题（实验店用户复购率、价格弹性接受度）→最小实验（单店测试）。
+- **[[case-纪浩-skill-market-problem-validation]]** — 跨域对照：纪浩用四问验证法识别"伪需求"，陈贤敏用实验店验证"真需求"，两者共同说明"验证先于规模化"在不同业态中的落地形态。

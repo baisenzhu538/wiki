@@ -24,6 +24,7 @@ related:
 - '[[yt-lean-essence]]'
 - '[[case-yitang-tob-artificial-bone]]'
 - '[[case-纪浩-skill-market-problem-validation]]'
+- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:

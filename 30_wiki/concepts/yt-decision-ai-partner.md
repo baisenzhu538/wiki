@@ -229,6 +229,9 @@ AI决策Partner的核心风险不是"AI会犯错"——而是"AI的犯错方式�
 | 所属框架 | [[yt-decision-y-model]] | 对话法的底层理论框架 |
 | 关联工具 | [[yt-decision-canvas]] | 对话过程中可配合使用的一页纸画布 |
 | 关联工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证，可与AI Partner结合使用 |
+| 互补工具 | [[yt-decision-width-method]] | 用AI Partner做方案拆解时，先用宽度工具列推建查，避免AI替你"想全" |
+| 互补工具 | [[yt-decision-depth-ladder]] | 对话第二步"深度选择"直接对应L1-L4停车场模型，防止过度量化 |
+| 互补工具 | [[yt-prompt-anti-flattery]] | 反谄媚机制是Partner对话的"校准层"，专门破解失效三、失效四 |
 | 跨域连接 | human-in-the-loop-dss | AI Partner的"人主导AI辅助"与决策支持系统（DSS）的人在回路（HITL）设计原则同源 |
 | 跨域连接 | explainable-ai-xai | AI Partner的"六步对话流程"本质是XAI的"可解释交互"——让AI的推理过程对人透明 |
 | 跨域连接 | distributed-cognition-hutchins | 双三角模型（人+AI）与Hutchins分布式认知理论同源——认知过程分布在人与工具之间 |

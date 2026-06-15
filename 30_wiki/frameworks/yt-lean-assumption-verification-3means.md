@@ -29,6 +29,7 @@ related:
   - '[[yt-entrepreneur-five-step-method]]'
   - '[[yt-lean-assumption-prioritization]]'
   - '[[yt-lean-qualitative-quantitative-research]]'
+  - '[[case-一堂-无人餐厅-hypothesis-failure]]'
 diagnostic_signals:
   - signal: 团队还没做访谈调研就要直接开发完整产品或跑大规模实验
     framework_lens: 未遵循"访谈调研→经验验证→实验验证"的成本递增顺序
