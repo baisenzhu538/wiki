@@ -1927,7 +1927,24 @@ concepts ↔ tools ↔ frameworks 之间：0 组同名同 ID 重复
 
 ```text
 阶段一 ✅ 完成
-阶段二 🔄 等待老顽童启动
+阶段二 🔄 老顽童启动中：源文件已注册 5 份，P0 卡片 12 张 + 业务公式小矿 2 张正在量产
 阶段三 ⏸️ 老顽童出卡后自动触发
 阶段四 ⏸️ 出卡后抽检
 ```
+
+**源文件注册**（2026-06-16）：
+
+| src_ID | 文件 |
+|---|---|
+| `src_20260616_b1e25c49` | `10_raw/sources/zhanglei-lean-testing-ama.md` |
+| `src_20260616_7dc80216` | `10_raw/sources/zhanglei-lean-testing-oral-01.md` |
+| `src_20260616_59f708ea` | `10_raw/sources/zhanglei-lean-testing-oral-02.md` |
+| `src_20260616_6c8b240b` | `10_raw/sources/zhanglei-lean-testing-notes-01.md` |
+| `src_20260616_e66bd149` | `10_raw/sources/zhanglei-lean-testing-notes-02.md` |
+
+**阶段二执行规范**：
+1. 优先使用 `src_20260616_b1e25c49`（AMA 精华整理稿），口述/笔记仅作补充；
+2. 每张 framework/tool/skill 卡必须附 1-2 个源材料中的真实案例；
+3. 每张 case 卡须标注「来源：张磊 AMA 口述/笔记，外部可验证性有限」；
+4. 继承入口质量门的 confidence 评分，confidence < 0.75 的卡片 status 标为 draft；
+5. 出卡后跑 `kcard-quality-gate.py`，确保 P0/P1 不反弹。
