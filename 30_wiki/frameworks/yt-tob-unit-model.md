@@ -29,6 +29,7 @@ related:
   - "[[yt-business-formula-business-pattern-selector]]"
   - "[[yt-entrepreneur-key-hypotheses]]"
   - "[[yt-management-business-formula]]"
+  - "[[yt-tob-growth-channel]]"
 diagnostic_signals:
   - signal: 公司只算单一订单或单一客户毛利为正，却未分摊总部、研发、履约、销售培养等隐性成本
     framework_lens: 业务单元总毛利覆盖所有成本

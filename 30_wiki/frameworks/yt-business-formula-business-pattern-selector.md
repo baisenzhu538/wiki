@@ -23,10 +23,22 @@ reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.9
 trust_level: high
+diagnostic_signals:
+- signal: 团队一开口就是 GMV=流量×转化×客单价×复购，但不先判断业务是单次成交还是持续复购
+  framework_lens: 公式范式错配——把通用电商公式套到非电商业务上
+  follow_up_question: 如果客户买完这次后一年内不会回来，公式里的“复购”项还有意义吗？当前业务的老客户贡献占比是多少？
+- signal: 持续复购型业务的团队把资源全堆在拉新和首单成交，续费率/复购率持续走低
+  framework_lens: 单次成交思维入侵持续复购业务
+  follow_up_question: 你的收入中老客户贡献占比多少？如果低于50%，你可能在用“卖出去”的逻辑做“留得住”的生意
+- signal: 同一业务里既有单次成交段又有持续复购段，但只建了一个总 GMV 公式
+  framework_lens: 混合业务未分层拆解
+  follow_up_question: 把收入拆成“首单收入”和“后续复购/续费收入”后，两段各自的瓶颈分别是什么？
 related:
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-unit-model-overview]]'
+- '[[yt-entrepreneur-business-growth]]'
 - '[[case-toc-ecommerce-formula-misjudgment]]'
 - '[[case-private-domain-ecommerce-formula]]'
 - '[[case-saas-renewal-formula]]'

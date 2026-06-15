@@ -27,6 +27,7 @@ related:
   - "[[yt-management-business-formula]]"
   - "[[yt-lean-growth-stage-gate]]"
   - "[[yt-business-formula-business-pattern-selector]]"
+  - "[[case-yitang-tob-grinding-machine]]"
 diagnostic_signals:
   - signal: 账面利润为正，但经营现金净流入持续为负或长期靠融资/垫资维持
     framework_lens: 单元模型双口径验证 — 财务确认口径 vs 现金流口径

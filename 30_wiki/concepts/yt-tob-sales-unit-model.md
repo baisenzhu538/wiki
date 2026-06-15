@@ -236,6 +236,9 @@ diagnostic_signals:
 - [[yt-tob-cash-flow]]：时间闭环直接影响现金流健康
 - [[yt-tob-growth-channel]]：单销售模型跑通后，才能判断直销 vs 渠道的效率
 - [[yt-business-formula-business-pattern-selector]]：To B 持续复购型业务尤其需要先算清单销售/单客户模型
+- [[yt-tob-demand-metrics]]：先用需求测算判断客户价值，再决定单销售成本投入
+- [[yt-tob-customer-sabc]]：客户分层决定销售资源的分配边界
+- [[case-yitang-tob-smart-park]]：项目型销售通常难以形成可复制单销售模型，需特别注意
 
 ---
 

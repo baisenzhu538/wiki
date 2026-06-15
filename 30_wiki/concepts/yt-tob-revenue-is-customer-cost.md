@@ -30,6 +30,8 @@ related:
 - '[[yt-business-formula-business-pattern-selector]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-management-business-formula]]'
+- '[[yt-tob-demand-metrics]]'
+- '[[case-yitang-tob-career-planning]]'
 diagnostic_signals:
 - signal: 团队描述需求时只用"客户需要XX功能/服务"，从不量化客户为此付出的成本
   framework_lens: 收入=客户成本；若无法定位到客户成本结构中的具体位置，需求可能是伪需求或自嗨

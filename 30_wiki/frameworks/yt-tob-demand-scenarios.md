@@ -32,6 +32,7 @@ related:
 - '[[yt-business-formula-business-pattern-selector]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-management-business-formula]]'
+- '[[yt-tob-demand-metrics]]'
 diagnostic_signals:
 - signal: 团队描述需求时只讲"客户需要这个"，说不清客户当前经营重心和老客/新客、老品/新品组合
   framework_lens: 四象限定位缺失
