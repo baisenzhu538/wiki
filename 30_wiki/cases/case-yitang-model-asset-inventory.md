@@ -28,6 +28,7 @@ related_concepts:
 - '[[dk-modeling-model-arsenal-paradigms]]'
 related_cases:
 - '[[case-yitang-weekly-modeling-engine]]'
+- '[[case-yitang-model-valuation-flywheel]]'
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 author: 老顽童
