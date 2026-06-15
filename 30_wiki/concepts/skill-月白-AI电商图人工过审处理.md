@@ -6,9 +6,9 @@ status: draft
 domain:
 - design
 source_person: 月白
-source_context: AI设计师实操
+source_context: AI设计师实操 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
-- legacy
+- src_20260522_38173b48
 wiki_refs: null
 definition_of_done:
 - 操作步骤清晰可执行
@@ -17,7 +17,7 @@ definition_of_done:
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
-updated_at: 2026-06-15
+updated_at: '2026-06-16'
 pipeline:
 - confidence-draft
 author: legacy
@@ -25,7 +25,6 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # 技能：AI电商图人工精修与平台合规发布
 
 ## 原始表述

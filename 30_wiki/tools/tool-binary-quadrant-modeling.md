@@ -1,37 +1,34 @@
 ---
-id: "tool-binary-quadrant-modeling"
-title: "二分法/象限图建模法：用正交维度做分类与取舍"
-type: "tool"
+id: tool-binary-quadrant-modeling
+title: 二分法/象限图建模法：用正交维度做分类与取舍
+type: tool
 source_refs:
-- src_20260614_8f80cb0f
-status: "enriched"
+- src_20260614_73352fa5
+- src_20260614_8269ccdb
+- src_20260614_42f1e977
+status: enriched
 domain:
-  - "yitang"
-  - "product"
-  - "ai-collaboration"
-source_refs:
-  - "src_20260614_73352fa5"
-  - "src_20260614_8269ccdb"
-  - "src_20260614_42f1e977"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "medium"
+- yitang
+- product
+- ai-collaboration
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: medium
 confidence: 0.75
 related:
-  - "[[modeling-weapon-library]]"
-  - "[[modeling-three-stages]]"
-  - "[[tool-radar-chart-modeling]]"
+- '[[modeling-weapon-library]]'
+- '[[modeling-three-stages]]'
+- '[[tool-radar-chart-modeling]]'
 tags:
-  - "#modeling"
-  - "#tool"
-  - "#binary"
-  - "#quadrant"
-  - "#classification"
+- '#modeling'
+- '#tool'
+- '#binary'
+- '#quadrant'
+- '#classification'
 ---
-
 # 二分法/象限图建模法：用正交维度做分类与取舍
 
 > **Burn line**: 当你能把一群人分成两类，并让两类人各自得到不同的处理策略时，你就已经做了一个有用的模型。

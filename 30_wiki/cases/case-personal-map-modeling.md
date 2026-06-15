@@ -1,39 +1,36 @@
 ---
-id: "case-personal-map-modeling"
-title: "案例：一堂个人地图的完整建模过程"
-type: "case"
+id: case-personal-map-modeling
+title: 案例：一堂个人地图的完整建模过程
+type: case
 source_refs:
-- src_20260614_b34f6c6e
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "personal-growth"
-  - "modeling"
-source_refs:
-  - "src_20260614_8269ccdb"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（做客流程/个人地图案例）"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- personal-growth
+- modeling
+source_person: Truman
+source_context: 一堂高阶建模能力培训（做客流程/个人地图案例） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[tool-canvas-weapon-library-modeling]]"
-  - "[[tool-radar-chart-modeling]]"
-  - "[[tool-iterative-recursive-deep-dig]]"
-  - "[[modeling-scientific-milestones]]"
-  - "[[concept-thousand-people-square]]"
+- '[[tool-canvas-weapon-library-modeling]]'
+- '[[tool-radar-chart-modeling]]'
+- '[[tool-iterative-recursive-deep-dig]]'
+- '[[modeling-scientific-milestones]]'
+- '[[concept-thousand-people-square]]'
 tags:
-  - "#modeling"
-  - "#case"
-  - "#personal-map"
-  - "#canvas"
-  - "#course-design"
+- '#modeling'
+- '#case'
+- '#personal-map'
+- '#canvas'
+- '#course-design'
 ---
-
 # 案例：一堂个人地图的完整建模过程
 
 > **Burn line**: 一张 10 万美金级别的地图，是从十几个模糊课题开始，经过全量整理、找规律、写废 5–10 版、逻辑洁癖、路演验证才磨出来的。

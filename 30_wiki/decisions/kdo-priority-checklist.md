@@ -6,18 +6,18 @@ domain:
 status: draft
 id: kdo-priority-checklist
 created_at: '2026-05-03'
-updated_at: '2026-05-03'
+updated_at: '2026-06-16'
 related: null
 tags: null
-trust_level: high
+trust_level: medium
 author: legacy
-source_context: KDO improvement plan — internal process record
+source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为
+  source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 reviewed_by: pending
 confidence: 0.6
 ---
-
 # KDO Protocol Priority Checklist
 
 ## P0 — 本周必须做（Blocking）

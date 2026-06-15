@@ -6,7 +6,7 @@ status: draft
 domain:
 - master
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 target_roles:
 - 欧阳锋（Architect）
 - 用户（决策者）
@@ -15,14 +15,13 @@ related:
 - plan_20260531_data-curator-v1.3
 - dark-knowledge-card-sop
 author: legacy
-source_context: KDO internal record
+source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # 暗知识萃取器 B+→A 升级报告
 
 ## B+ 版本的问题（自我诊断）

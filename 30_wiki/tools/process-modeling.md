@@ -3,48 +3,45 @@ id: process-modeling
 title: 流程建模：用 SOP 与清单把经验变成稳定产出
 type: tool
 source_refs:
+- src_20260614_623cfbfd
+- src_20260614_4efd4e88
+- src_20260614_9aca19bd
 - src_20260614_c62e0e61
+- src_20260614_50b37986
+- src_20260614_42f1e977
 status: enriched
 domain:
-  - yitang
-  - product
-  - ai-collaboration
-source_refs:
-  - src_20260614_623cfbfd
-  - src_20260614_4efd4e88
-  - src_20260614_9aca19bd
-  - src_20260614_c62e0e61
-  - src_20260614_50b37986
-  - src_20260614_42f1e977
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
+- yitang
+- product
+- ai-collaboration
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
 author: 老顽童
-reviewed_by: 老顽童
-review_date: "2026-06-14"
+reviewed_by: pending
+review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.75
 related:
-  - "[[modeling-capability-system]]"
-  - "[[modeling-three-stages]]"
-  - "[[modeling-level-map]]"
+- '[[modeling-capability-system]]'
+- '[[modeling-three-stages]]'
+- '[[modeling-level-map]]'
 tags:
-  - "#modeling"
-  - "#tool"
-  - "#sop"
-  - "#checklist"
-  - "#workflow"
+- '#modeling'
+- '#tool'
+- '#sop'
+- '#checklist'
+- '#workflow'
 diagnostic_signals:
-  - signal: 用户说"每次做这件事都踩同样的坑"
-    framework_lens: 流程建模
-    follow_up_question: 这个任务有没有 3 次以上重复发生？失败成本是什么？
-  - signal: 用户说"团队新人总是做不对"
-    framework_lens: SOP + 检查清单
-    follow_up_question: 你是否有一份新人可独立执行的步骤文档？
-  - signal: 用户说"写了 SOP 但没人用"
-    framework_lens: 稳定使用
-    follow_up_question: 你是否给 SOP 的执行加了监督和检查机制？
+- signal: 用户说"每次做这件事都踩同样的坑"
+  framework_lens: 流程建模
+  follow_up_question: 这个任务有没有 3 次以上重复发生？失败成本是什么？
+- signal: 用户说"团队新人总是做不对"
+  framework_lens: SOP + 检查清单
+  follow_up_question: 你是否有一份新人可独立执行的步骤文档？
+- signal: 用户说"写了 SOP 但没人用"
+  framework_lens: 稳定使用
+  follow_up_question: 你是否给 SOP 的执行加了监督和检查机制？
 ---
-
 # 流程建模：用 SOP 与清单把经验变成稳定产出
 
 > **Burn line**: 流程建模不是写文档，是把现场经验焊进组织的肌肉记忆。

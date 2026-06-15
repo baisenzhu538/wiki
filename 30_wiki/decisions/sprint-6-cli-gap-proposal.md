@@ -5,13 +5,14 @@ status: draft
 domain:
 - master
 created_at: 2026-06-03
-updated_at: 2026-06-03
+updated_at: '2026-06-16'
 target_roles:
 - 欧阳锋（Architect）
 author: 黄药师
-source_context: KDO infrastructure decision — internal design record
+source_context: KDO infrastructure decision — internal design record （原 legacy，已从
+  title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
-- legacy
+- src_20260503_52ae08ba
 reviewer: 欧阳锋
 related:
 - sprint-6-laowantong-feedback-18
@@ -22,7 +23,6 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # Sprint 6 CLI 缺口修复提案
 
 > **触发**：老顽童飞轮第一圈 6 篇文章的 Feedback 段，自动扫描提取出 8 条"缺 CLI 命令"的系统级反馈。

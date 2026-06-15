@@ -3,7 +3,7 @@ title: Graph RAG 检索层技术说明
 author: 审查者欧阳锋
 role: 知识架构师 (Knowledge Architect)
 created_at: '2026-05-04'
-updated_at: '2026-05-04'
+updated_at: '2026-06-16'
 status: stable
 domain:
 - kdo
@@ -11,14 +11,14 @@ implementor: 黄药师 (Builder)
 id: graph-rag-retrieval-layer
 type: concept
 source_refs:
-- legacy
+- source_unknown
 superseded_design: v0.1 keyword-based — 原计划基于 index.json 的纯标准库方案，因黄药师已完成 LightRAG
   MVP 且检索质量更优，该方案已废弃
 reviewed_by: 欧阳锋
-confidence: 0.8
-trust_level: high
+confidence: 0.7
+trust_level: medium
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 # Graph RAG 检索层技术说明
 
 > **实际实现：LightRAG（图 + 向量混合检索）**

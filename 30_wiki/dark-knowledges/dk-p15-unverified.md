@@ -10,9 +10,10 @@ confidence: 0.75
 trust_level: medium
 title: dk p15 unverified
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+updated_at: '2026-06-16'
 ---
-
 # P-15：执行者声称"完成"但实际未做——可测量指标必须独立验证
 
 ## 原始表述

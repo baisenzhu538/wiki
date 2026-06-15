@@ -6,9 +6,9 @@ status: draft
 domain:
 - design
 source_person: 月白
-source_context: 文创案例
+source_context: 文创案例 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 wiki_refs: null
 definition_of_done:
 - 操作步骤清晰可执行
@@ -17,7 +17,7 @@ definition_of_done:
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
-updated_at: 2026-06-07
+updated_at: '2026-06-16'
 pipeline:
 - confidence-draft
 author: legacy
@@ -25,7 +25,6 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # 技能：小红书双重搜索法
 
 ## 原始表述

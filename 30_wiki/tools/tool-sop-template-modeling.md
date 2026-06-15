@@ -1,38 +1,35 @@
 ---
-id: "tool-sop-template-modeling"
-title: "SOP/模板建模法：把关键动作固化成标准工作流"
-type: "tool"
+id: tool-sop-template-modeling
+title: SOP/模板建模法：把关键动作固化成标准工作流
+type: tool
 source_refs:
-- src_20260614_8f80cb0f
-status: "enriched"
+- src_20260614_73352fa5
+- src_20260614_8269ccdb
+- src_20260614_623cfbfd
+status: enriched
 domain:
-  - "yitang"
-  - "product"
-  - "ai-collaboration"
-source_refs:
-  - "src_20260614_73352fa5"
-  - "src_20260614_8269ccdb"
-  - "src_20260614_623cfbfd"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "medium"
+- yitang
+- product
+- ai-collaboration
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: medium
 confidence: 0.75
 related:
-  - "[[modeling-weapon-library]]"
-  - "[[process-modeling]]"
-  - "[[tool-checklist-cheatsheet-modeling]]"
-  - "[[dk-modeling-sop-execution-locks]]"
+- '[[modeling-weapon-library]]'
+- '[[process-modeling]]'
+- '[[tool-checklist-cheatsheet-modeling]]'
+- '[[dk-modeling-sop-execution-locks]]'
 tags:
-  - "#modeling"
-  - "#tool"
-  - "#sop"
-  - "#template"
-  - "#execution"
+- '#modeling'
+- '#tool'
+- '#sop'
+- '#template'
+- '#execution'
 ---
-
 # SOP/模板建模法：把关键动作固化成标准工作流
 
 > **Burn line**: SOP 不是“写出来给别人看”，而是“写到别人能无脑执行”。

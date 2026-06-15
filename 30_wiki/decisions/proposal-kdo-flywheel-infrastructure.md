@@ -5,14 +5,14 @@ status: draft
 domain:
 - master
 created_at: 2026-06-02
-updated_at: 2026-06-02
+updated_at: '2026-06-16'
 target_roles:
 - 欧阳锋（Architect）
 reviewer: 欧阳锋
 author: 黄药师
-source_context: KDO internal record
+source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 related:
 - knowledge-flywheel-discovery-20260602
 - sprint-6-four-death-sentences
@@ -23,7 +23,6 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # 飞轮基础设施提案
 
 > **触发**：今晚六个循环的知识挖掘飞轮，全部是意外触发的——没有流程支撑。如果飞轮依赖"用户刚好说了一句不够深刻"，它就不会稳定转。

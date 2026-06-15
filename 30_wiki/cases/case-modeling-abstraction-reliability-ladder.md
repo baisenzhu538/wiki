@@ -11,25 +11,24 @@ source_refs:
 - src_20260614_a024fb17
 - src_20260614_8269ccdb
 tags:
-- #modeling
-- #case
-- #yitang
-- #truman
+- null
+- null
+- null
+- null
 created_at: 2026-06-15
-updated_at: 2026-06-15
+updated_at: '2026-06-16'
 author: 老顽童
 source_person: Truman
 source_context: Truman-高阶建模-抽象建模-案例-图-02
-reviewed_by: 老顽童
+reviewed_by: pending
 review_date: 2026-06-15
 confidence: 0.85
 trust_level: high
 related:
-- [[dk-modeling-counterexample-driven]]
-- [[dk-modeling-case-explosion-confidence]]
-- [[case-modeling-essence-schools]]
+- - - dk-modeling-counterexample-driven
+- - - dk-modeling-case-explosion-confidence
+- - - case-modeling-essence-schools
 ---
-
 # 抽象建模案例：知识可靠度四阶梯——从“听着很香”到“没有反例”
 
 > 来源：Truman-高阶建模-抽象建模-案例-图-02 | 一堂建模能力培训（Truman）

@@ -11,25 +11,24 @@ source_refs:
 - src_20260614_c62e0e61
 - src_20260614_8269ccdb
 tags:
-- #modeling
-- #case
-- #yitang
-- #truman
+- null
+- null
+- null
+- null
 created_at: 2026-06-15
-updated_at: 2026-06-15
+updated_at: '2026-06-16'
 author: 老顽童
 source_person: Truman
 source_context: Truman-高阶建模-流程建模-开播准备-图-02
-reviewed_by: 老顽童
+reviewed_by: pending
 review_date: 2026-06-15
 confidence: 0.85
 trust_level: high
 related:
-- [[process-modeling]]
-- [[case-modeling-process-livestream-prep]]
-- [[tool-sop-template-modeling]]
+- - - process-modeling
+- - - case-modeling-process-livestream-prep
+- - - tool-sop-template-modeling
 ---
-
 # 流程建模案例：直播开播团队分工与检查清单
 
 > 来源：Truman-高阶建模-流程建模-开播准备-图-02 | 一堂建模能力培训（Truman）

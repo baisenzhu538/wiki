@@ -6,7 +6,7 @@ status: draft
 domain:
 - master
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 target_roles:
 - 黄药师（Builder）
 - 欧阳锋（Architect）
@@ -20,9 +20,9 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 # KDO YAML Frontmatter 安全操作指南
 
 > **背景**：2026-05-31 Data Curator Phase 2 Clean 因手写 YAML 解析器导致 `visual_analysis` 4 图→5 字符串、`related` 4 链接→`level: intermediate` 的数据丢失。教训：**不要手写 YAML 解析器，用标准库**。

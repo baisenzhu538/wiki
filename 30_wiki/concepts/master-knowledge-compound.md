@@ -22,14 +22,14 @@ related:
 status: enriched
 title: 知识复利：IPO+萃取+管理的上位整合
 type: concept
-updated_at: 2026-05-18
+updated_at: '2026-06-16'
 version: 1
 author: unknown
 trust_level: medium-low
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 # 知识复利：IPO+萃取+管理的上位整合
 
 > **核心定位**：当发现"学了但用不上"或"知识碎片化无法整合"时，检查你的知识是否在产生复利。**不是"学得多"，是"学得能互相放大"**。**使用顺序**：位于#3第一性原理和#4系统思考之后——先理解本质和连接，再建立复利循环。

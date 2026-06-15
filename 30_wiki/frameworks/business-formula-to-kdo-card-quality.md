@@ -3,42 +3,40 @@ id: business-formula-to-kdo-card-quality
 title: 业务公式 ABC → KDO 卡片质量：用公式思维诊断知识卡的健康度
 type: framework
 source_refs:
+- src_20260613_6edbf0af
 - src_20260613_a8bcfd38
+- src_20260613_6b939d2b
 status: enriched
 confidence: 0.88
 domain:
-  - kdo
-  - yitang
-source_refs:
-  - src_20260613_6edbf0af
-  - src_20260613_a8bcfd38
-  - src_20260613_6b939d2b
-created_at: "2026-06-15"
+- kdo
+- yitang
+created_at: '2026-06-15'
 author: 黄药师
-reviewed_by: 黄药师
-review_date: "2026-06-15"
+reviewed_by: pending
+review_date: '2026-06-15'
 trust_level: high
 related:
-  - yt-business-formula-abc-model
-  - yt-business-formula-parameter-iceberg
-  - yt-business-formula-six-level-logic
-  - case-toc-ecommerce-formula-misjudgment
-  - modeling-to-kdo-toolchain
-  - modeling-three-stages
+- yt-business-formula-abc-model
+- yt-business-formula-parameter-iceberg
+- yt-business-formula-six-level-logic
+- case-toc-ecommerce-formula-misjudgment
+- modeling-to-kdo-toolchain
+- modeling-three-stages
 tags:
-  - "#business-formula"
-  - "#kdo"
-  - "#meta-method"
-  - "#card-quality"
+- '#business-formula'
+- '#kdo'
+- '#meta-method'
+- '#card-quality'
 diagnostic_signals:
-  - signal: "我写了一张卡但不知道缺什么"
-    framework_lens: ABC三要素诊断
-    follow_up_question: 你的A（要回答的决策问题）定义清楚了吗？B（核心主张）能量化吗？C（逻辑关系）是因果还是相关？
-  - signal: "我的卡看起来完整但用不起来"
-    framework_lens: L1-L6逻辑层级诊断
-    follow_up_question: 你的卡在哪一层——模糊(L1)、相关(L2)、因果(L3)、公式(L4)、定量(L5)、还是动态(L6)？
+- signal: 我写了一张卡但不知道缺什么
+  framework_lens: ABC三要素诊断
+  follow_up_question: 你的A（要回答的决策问题）定义清楚了吗？B（核心主张）能量化吗？C（逻辑关系）是因果还是相关？
+- signal: 我的卡看起来完整但用不起来
+  framework_lens: L1-L6逻辑层级诊断
+  follow_up_question: 你的卡在哪一层——模糊(L1)、相关(L2)、因果(L3)、公式(L4)、定量(L5)、还是动态(L6)？
+updated_at: '2026-06-16'
 ---
-
 # 业务公式 ABC → KDO 卡片质量
 
 > **Burn line**: GMV = 线索×转化×客单价×复购 拆太粗 = 亏损。卡片质量 = id+title+type 凑齐 = 看着完整但用不了。

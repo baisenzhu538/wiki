@@ -16,7 +16,7 @@ diagnostic_signals:
 - signal: 当输入明显属于未完成思索时，P 角色是否触发模式切换提示
   framework_lens: 边界控制 / C 角色降级
   follow_up_question: 失败时是否出现'模糊问题被套上漂亮框架'的低价值输出？
-updated_at: '2026-06-13'
+updated_at: '2026-06-16'
 author: legacy
 reviewed_by: pending
 created_at: '2026-06-15'
@@ -24,7 +24,8 @@ confidence: 0.75
 trust_level: medium
 type: skill
 source_refs:
-- legacy
+- src_20260522_38173b48
+source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 ---
 # P 角色 Prompt 设计——执行者型 AI 的交付规范
 

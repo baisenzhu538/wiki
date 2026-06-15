@@ -6,15 +6,15 @@ title: contradictions
 domain:
 - master
 source_refs:
-- legacy
+- source_unknown
 author: legacy
 reviewed_by: pending
 confidence: 0.5
 trust_level: low
 created_at: '2026-06-16'
 updated_at: '2026-06-16'
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 # Contradictions
 
 Use this file to preserve unresolved conflicts instead of smoothing them over.

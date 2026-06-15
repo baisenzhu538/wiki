@@ -1,53 +1,53 @@
 ---
 id: yt-entrepreneur-needs-analysis
-confidence: 0.8
+confidence: 0.7
 created_at: 2026-05-06
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 3000
 language: zh-CN
 query_triggers:
-  - "需求分析"
-  - JTBD
-  - "拆推评算"
-  - "六层冰山模型"
-  - "用户需求挖掘"
-  - "任务地图"
-  - "四种力量模型"
-  - "微观体感"
-  - "伪需求识别"
-  - "需求剥离法"
+- 需求分析
+- JTBD
+- 拆推评算
+- 六层冰山模型
+- 用户需求挖掘
+- 任务地图
+- 四种力量模型
+- 微观体感
+- 伪需求识别
+- 需求剥离法
 related:
-  - dk-yb7-design-demand-80-10-10
+- dk-yb7-design-demand-80-10-10
 review_date: 2026-05-07
-reviewed_by: "黄药师"
-source_refs:
-  - src_20260507_0872c7b3
-  - src_20260507_3120ec58
+reviewed_by: 黄药师
 source_refs:
 - src_20260611_375ccfae
 status: enriched
-title: "需求分析"
-trust_level: high
+title: 需求分析
+trust_level: medium
 type: tool
 version: 1
 yitang:
   map: entrepreneur
-  module: "需求分析"
+  module: 需求分析
   course_id: yt-entrepreneur-needs-analysis
   course_type: method
   level: foundational
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
-  - {'signal': '用户只问用户要什么，不分析任务场景', 'framework_lens': 'JTBD方法误用', 'follow_up_question': '用户在什么场景下要解决这个问题？他们现在用什么替代方案？'}
-  - {'signal': '用户把少数用户反馈当普遍需求', 'framework_lens': '样本偏差', 'follow_up_question': '这个反馈来自几个用户？他们代表多大的用户群体？'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户只问用户要什么，不分析任务场景
+  framework_lens: JTBD方法误用
+  follow_up_question: 用户在什么场景下要解决这个问题？他们现在用什么替代方案？
+- signal: 用户把少数用户反馈当普遍需求
+  framework_lens: 样本偏差
+  follow_up_question: 这个反馈来自几个用户？他们代表多大的用户群体？
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # 需求分析
 
 > 来源：一堂创业五步法第一步实操课（拆推评算之推演篇）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-map-lecture]]

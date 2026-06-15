@@ -11,9 +11,10 @@ created_at: '2026-06-15'
 confidence: 0.7
 trust_level: medium-low
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+updated_at: '2026-06-16'
 ---
-
 # 技能：关键假设识别与验证
 
 ## 原始表述

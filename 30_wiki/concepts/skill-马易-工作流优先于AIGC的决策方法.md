@@ -7,9 +7,9 @@ domain:
 - ai-collaboration
 - business-strategy
 source_person: 马易
-source_context: AI落地场景识别
+source_context: AI落地场景识别 （原 legacy，已从 title/context/filename 推断为 src_20260528_04be660c）
 source_refs:
-- legacy
+- src_20260528_04be660c
 wiki_refs: null
 definition_of_done:
 - 操作步骤清晰可执行
@@ -18,7 +18,7 @@ definition_of_done:
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
-updated_at: 2026-06-12
+updated_at: '2026-06-16'
 pipeline:
 - confidence-draft
 author: legacy
@@ -26,7 +26,6 @@ reviewed_by: pending
 confidence: 0.7
 trust_level: medium-low
 ---
-
 # 技能：工作流优先于AIGC的决策方法
 
 ## 原始表述

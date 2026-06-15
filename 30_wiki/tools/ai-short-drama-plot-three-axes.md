@@ -4,44 +4,41 @@ title: 剧情三板斧：短剧剧本的情节张力设计工具
 type: tool
 source_refs:
 - src_20260613_083395df
+- src_20260613_687c4ec0
+- src_20260613_12d63c1c
 status: enriched
 domain:
-  - yitang
-  - ai-collaboration
-  - product
-source_refs:
-  - src_20260613_083395df
-  - src_20260613_687c4ec0
-  - src_20260613_12d63c1c
-created_at: "2026-06-13"
-updated_at: "2026-06-14"
+- yitang
+- ai-collaboration
+- product
+created_at: '2026-06-13'
+updated_at: '2026-06-16'
 author: 老顽童
-reviewed_by: 老顽童
-review_date: "2026-06-13"
+reviewed_by: pending
+review_date: '2026-06-13'
 trust_level: medium
 confidence: 0.75
 related:
-  - "[[ai-short-drama-ice-fire-scripting-compass]]"
-  - "[[ai-short-drama-ice-fire-dissection-compass]]"
-  - "[[ai-short-drama-script-planning-three-axes]]"
-  - "[[ai-short-drama-conflict-three-axes]]"
+- '[[ai-short-drama-ice-fire-scripting-compass]]'
+- '[[ai-short-drama-ice-fire-dissection-compass]]'
+- '[[ai-short-drama-script-planning-three-axes]]'
+- '[[ai-short-drama-conflict-three-axes]]'
 tags:
-  - "#ai-short-drama"
-  - "#scriptwriting"
-  - "#tool"
-  - "#checklist"
+- '#ai-short-drama'
+- '#scriptwriting'
+- '#tool'
+- '#checklist'
 diagnostic_signals:
-  - signal: 用户说"我的剧本太平淡，没有冲突"
-    framework_lens: 第一板斧·极致对立
-    follow_up_question: 主角与核心对手在身份、立场、价值观上是否有不可调和的对立？
-  - signal: 用户说"开头留不住人，3秒就划走"
-    framework_lens: 第二板斧·高能吸睛
-    follow_up_question: 第一集前10秒是否出现危机、悬念或强情绪？
-  - signal: 用户说"看完爽完就忘，没有回味"
-    framework_lens: 第三板斧·立意升华
-    follow_up_question: 结局除了报仇/在一起，是否传递了一个让观众共鸣的价值点？
+- signal: 用户说"我的剧本太平淡，没有冲突"
+  framework_lens: 第一板斧·极致对立
+  follow_up_question: 主角与核心对手在身份、立场、价值观上是否有不可调和的对立？
+- signal: 用户说"开头留不住人，3秒就划走"
+  framework_lens: 第二板斧·高能吸睛
+  follow_up_question: 第一集前10秒是否出现危机、悬念或强情绪？
+- signal: 用户说"看完爽完就忘，没有回味"
+  framework_lens: 第三板斧·立意升华
+  follow_up_question: 结局除了报仇/在一起，是否传递了一个让观众共鸣的价值点？
 ---
-
 # 剧情三板斧：短剧剧本的情节张力设计工具
 
 > **Burn line**: 有锋芒、聚目光、升高度——三斧子砍出爆款味。

@@ -11,13 +11,13 @@ status: enriched
 title: 鑫港湾HIS系统分阶段整改报告
 trust_level: high
 type: concept
-updated_at: 2026-05-03
+updated_at: '2026-06-16'
 pipeline:
 - confidence-source-cited
 author: unknown
 confidence: 0.8
+source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
 ---
-
 # 鑫港湾HIS系统分阶段整改报告
 
 ## Summary

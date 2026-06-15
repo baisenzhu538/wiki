@@ -1,36 +1,33 @@
 ---
-id: "dk-weekly-modeling-iteration-growth-engine"
-title: "暗知识：一堂真正的增长引擎是‘周对周的建模能力增长’"
-type: "dark-knowledge"
-dark_knowledge_type: "insight"
+id: dk-weekly-modeling-iteration-growth-engine
+title: 暗知识：一堂真正的增长引擎是‘周对周的建模能力增长’
+type: dark-knowledge
+dark_knowledge_type: insight
 source_refs:
-- src_20260614_720e62a1
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-source_refs:
-  - "src_20260614_8269ccdb"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（组织级建模价值）"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+source_person: Truman
+source_context: 一堂高阶建模能力培训（组织级建模价值） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[framework-course-milestone-model]]"
-  - "[[modeling-scientific-milestones]]"
-  - "[[concept-thousand-people-square]]"
+- '[[framework-course-milestone-model]]'
+- '[[modeling-scientific-milestones]]'
+- '[[concept-thousand-people-square]]'
 tags:
-  - "#modeling"
-  - "#dark-knowledge"
-  - "#growth"
-  - "#organization"
+- '#modeling'
+- '#dark-knowledge'
+- '#growth'
+- '#organization'
 ---
-
 # 暗知识：一堂真正的增长引擎是「周对周的建模能力增长」
 
 > **Burn line**: 收入增长、利润增长、流量增长都能用钱买；但周对周的建模能力增长，是花钱买不到的。

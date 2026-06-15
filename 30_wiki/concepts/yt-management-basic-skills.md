@@ -15,7 +15,7 @@ diagnostic_signals:
 - signal: 管理者把天赋当借口，不训练
   framework_lens: 天赋论
   follow_up_question: 你能说出管理行为的3个可训练动作单元吗？如果不能，你在用天赋当挡箭牌
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 id: yt-management-basic-skills
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -23,9 +23,9 @@ created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 # 基本功认知
 
 > 来源：一堂管理必修课「管团队」模块，含认知篇+拆解篇+武器库篇三节系列课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

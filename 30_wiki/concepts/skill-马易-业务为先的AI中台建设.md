@@ -6,7 +6,7 @@ status: enriched
 domain:
 - ai-implementation
 source_person: 马易
-source_context: AI落地场景识别
+source_context: AI落地场景识别 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 wiki_refs:
 - 30_wiki/concepts/yt-entrepreneur-pragmatic-startup.md
 - 30_wiki/concepts/ai-landing-scene-selection.md
@@ -22,7 +22,7 @@ related:
 - skill-马易-数据存储架构选择
 - yt-entrepreneur-pragmatic-startup
 created_at: 2026-06-07
-updated_at: 2026-06-11
+updated_at: '2026-06-16'
 reviewed_by: 黄药师
 confidence: 0.85
 pipeline:
@@ -30,9 +30,8 @@ pipeline:
 author: unknown
 trust_level: medium-high
 source_refs:
-- legacy
+- source_unknown
 ---
-
 # 技能：业务为先的AI中台建设
 
 > 马易在 AI 落地场景识别中提出的核心实操方法。解决"先建平台还是先找场景"这个 AI 落地中最常见的路径错误。

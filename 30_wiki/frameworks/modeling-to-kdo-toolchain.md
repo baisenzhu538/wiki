@@ -3,40 +3,38 @@ id: modeling-to-kdo-toolchain
 title: 建模三段论 → KDO 工具链映射：从 SOP 到本质的知识管理落地
 type: framework
 source_refs:
-- src_20260503_52ae08ba
+- src_20260614_8269ccdb
+- src_20260614_42f1e977
+- src_20260614_623cfbfd
 status: enriched
 confidence: 0.85
 domain:
-  - kdo
-  - yitang
-source_refs:
-  - src_20260614_8269ccdb
-  - src_20260614_42f1e977
-  - src_20260614_623cfbfd
-created_at: "2026-06-14"
+- kdo
+- yitang
+created_at: '2026-06-14'
 author: 黄药师
-reviewed_by: 黄药师
-review_date: "2026-06-14"
+reviewed_by: pending
+review_date: '2026-06-14'
 trust_level: high
 related:
-  - "modeling-capability-for-kdo"
-  - modeling-three-stages
-  - modeling-capability-system
-  - modeling-level-map
+- modeling-capability-for-kdo
+- modeling-three-stages
+- modeling-capability-system
+- modeling-level-map
 tags:
-  - "#modeling"
-  - "#kdo"
-  - "#meta-method"
-  - "#pipeline"
+- '#modeling'
+- '#kdo'
+- '#meta-method'
+- '#pipeline'
 diagnostic_signals:
-  - signal: "我写了一张卡但不知道怎么验证它够不够好"
-    framework_lens: 三段论门禁映射
-    follow_up_question: 你的卡处于L3（流程）、L4（抽象）还是L5（本质）？对应的门禁标准不同。
-  - signal: "素材进了inbox不知道怎么推进到wiki"
-    framework_lens: KDO管线五阶段
-    follow_up_question: 素材是P0/P1/P2哪个级别？P0走王语嫣门禁，P2老顽童直接消化。
+- signal: 我写了一张卡但不知道怎么验证它够不够好
+  framework_lens: 三段论门禁映射
+  follow_up_question: 你的卡处于L3（流程）、L4（抽象）还是L5（本质）？对应的门禁标准不同。
+- signal: 素材进了inbox不知道怎么推进到wiki
+  framework_lens: KDO管线五阶段
+  follow_up_question: 素材是P0/P1/P2哪个级别？P0走王语嫣门禁，P2老顽童直接消化。
+updated_at: '2026-06-16'
 ---
-
 # 建模三段论 → KDO 工具链映射
 
 > **Burn line**: 建模不是抽象概念——每个阶段都有对应的 KDO 命令和检查项。

@@ -6,7 +6,7 @@ status: enriched
 domain:
 - decision-making
 source_person: 水水
-source_context: 拆书会-偶然
+source_context: 拆书会-偶然 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 wiki_refs:
 - 30_wiki/concepts/yt-decision-y-model.md
 - 30_wiki/concepts/master-decision-hygiene.md
@@ -23,7 +23,7 @@ related:
 - master-cognitive-bias-checklist
 - yt-decision-y-model
 created_at: 2026-06-07
-updated_at: 2026-06-11
+updated_at: '2026-06-16'
 reviewed_by: 黄药师
 confidence: 0.85
 pipeline:
@@ -31,9 +31,8 @@ pipeline:
 author: unknown
 trust_level: medium-high
 source_refs:
-- legacy
+- source_unknown
 ---
-
 # 技能：管理决策权重偏差
 
 > 水水在拆书会中提出的决策改进方法。解决"明明列出了所有决策因素，但权重分配完全是自我服务"这个普遍但少有人正视的问题。

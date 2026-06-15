@@ -1,38 +1,35 @@
 ---
-id: "dk-modeling-ai-judgment-limit"
-title: "AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响"
-type: "dark-knowledge"
-dark_knowledge_type: "principle"
+id: dk-modeling-ai-judgment-limit
+title: AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响
+type: dark-knowledge
+dark_knowledge_type: principle
 source_refs:
-- src_20260614_8f80cb0f
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "ai-collaboration"
-  - "modeling"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（AI 与本质建模）"
-source_refs:
-  - "src_20260614_8269ccdb"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- ai-collaboration
+- modeling
+source_person: Truman
+source_context: 一堂高阶建模能力培训（AI 与本质建模） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "modeling-capability-for-kdo"
-  - "[[dk-modeling-ai-without-judgment]]"
-  - "[[case-truman-ai-skill-engineering-guide]]"
-  - "[[tool-essence-nfactor-modeling]]"
+- modeling-capability-for-kdo
+- '[[dk-modeling-ai-without-judgment]]'
+- '[[case-truman-ai-skill-engineering-guide]]'
+- '[[tool-essence-nfactor-modeling]]'
 tags:
-  - "#modeling"
-  - "#dk"
-  - "#ai-collaboration"
-  - "#judgment"
+- '#modeling'
+- '#dk'
+- '#ai-collaboration'
+- '#judgment'
 ---
-
 # AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响
 
 ## 原始表述

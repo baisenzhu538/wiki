@@ -7,17 +7,17 @@ review_date: 2026-05-06
 reviewed_by: 黄药师
 status: enriched
 title: Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现
-trust_level: high
+trust_level: medium
 type: concept
-updated_at: 2026-05-06
+updated_at: '2026-06-16'
 pipeline:
 - confidence-verified-by-case
 author: 老顽童
-confidence: 0.75
+confidence: 0.7
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 # Truman Perspective Skill — 许楚思维操作系统 Claude Code 实现
 
 > 基于 6 维度深度调研（著作/对话/表达DNA/他者视角/决策记录/时间线），将 许楚（Truman）的思维框架编译为 Claude Code 可调用的角色扮演 Skill。

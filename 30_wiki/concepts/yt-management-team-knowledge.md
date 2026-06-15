@@ -17,7 +17,7 @@ diagnostic_signals:
 - signal: 知识库建好后没人更新
   framework_lens: 一次性构建
   follow_up_question: 你的知识库最近一次更新是什么时候？如果超过一个月，知识在腐化
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 id: yt-management-team-knowledge
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -25,9 +25,9 @@ created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
 source_refs:
-- legacy
+- src_20260503_52ae08ba
+source_context: （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 ---
-
 # 团队知识管理
 
 > 来源：一堂管理必修课「管团队」模块，《知识库：团队知识管理必修课》。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

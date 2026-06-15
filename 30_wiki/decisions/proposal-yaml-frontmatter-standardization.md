@@ -5,16 +5,16 @@ domain:
 - kdo
 status: draft
 source_refs:
-- legacy
+- source_unknown
 created_at: 2026-06-06
-updated_at: 2026-06-06
+updated_at: '2026-06-16'
 id: proposal-yaml-frontmatter-standardization
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 # YAML 标注对 KDO 知识库的启发
 
 > 半肥猫在 AI 学习落地分享中强调：写笔记一定要做 YAML 标注。

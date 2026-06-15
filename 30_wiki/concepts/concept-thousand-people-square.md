@@ -1,35 +1,33 @@
 ---
-id: "concept-thousand-people-square"
-title: "千人广场模型：一堂做课背后的统计建模理念"
-type: "concept"
+id: concept-thousand-people-square
+title: 千人广场模型：一堂做课背后的统计建模理念
+type: concept
 source_refs:
-- src_20260614_8f80cb0f
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "education"
-  - "modeling"
-source_refs:
-  - "src_20260614_8269ccdb"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- education
+- modeling
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[case-personal-map-modeling]]"
-  - "[[dk-modeling-case-explosion-confidence]]"
-  - "[[modeling-scientific-milestones]]"
-  - "[[yt-five-step-method]]"
+- '[[case-personal-map-modeling]]'
+- '[[dk-modeling-case-explosion-confidence]]'
+- '[[modeling-scientific-milestones]]'
+- '[[yt-five-step-method]]'
 tags:
-  - "#modeling"
-  - "#concept"
-  - "#education"
-  - "#statistics"
+- '#modeling'
+- '#concept'
+- '#education'
+- '#statistics'
+source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
 ---
-
 # 千人广场模型：一堂做课背后的统计建模理念
 
 > **Burn line**: 一堂不是为三五个人做课，而是对广场上的所有人负责——广场上任何一个可见反例，都是模型的错。

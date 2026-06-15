@@ -1,39 +1,45 @@
 ---
-id: "sales-pitch-bias-patterns"
-title: "销售话术偏误识别模式库"
-type: "framework"
-status: "enriched"
+id: sales-pitch-bias-patterns
+title: 销售话术偏误识别模式库
+type: framework
+status: enriched
 domain:
-  - "business-strategy"
-  - "due-diligence"
-  - "vendor-assessment"
+- business-strategy
+- due-diligence
+- vendor-assessment
 source_refs:
-  - "src_20260613_96e45c45"
+- src_20260613_96e45c45
 tags:
-  - "#due-diligence"
-  - "#sales-analysis"
-  - "#bias-detection"
-  - "#vendor-assessment"
-  - "#七件事集团"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "王语嫣"
-reviewed_by: "欧阳锋"
-review_date: "2026-06-14"
+- '#due-diligence'
+- '#sales-analysis'
+- '#bias-detection'
+- '#vendor-assessment'
+- '#七件事集团'
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 王语嫣
+reviewed_by: 欧阳锋
+review_date: '2026-06-14'
 confidence: 0.8
-trust_level: "high"
+trust_level: high
 related:
-  - "[[七件事集团]]"
-  - "[[master-cognitive-bias-checklist]]"
-  - "[[master-decision-hygiene]]"
+- '[[七件事集团]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[master-decision-hygiene]]'
 diagnostic_signals:
-  - {'signal': '被标记的话术是否有至少一个独立来源交叉验证', 'framework_lens': '可证伪 / 独立验证', 'follow_up_question': '标记后是否停留在感觉层面？'}
-  - {'signal': '是否区分了夸大话术与行业常规表达', 'framework_lens': '基线校准 / 语境判断', 'follow_up_question': '是否把行业通用表述误判为偏误？'}
-  - {'signal': '是否对偏误风险做了量化评分而非简单定性', 'framework_lens': '风险量化 / 决策权重', 'follow_up_question': '哪种偏误对当前采购决策影响最大？'}
-review_grade: "A"
-review_note: "🟢放行。方法论资产，可复用于任何供应商评估。"
+- signal: 被标记的话术是否有至少一个独立来源交叉验证
+  framework_lens: 可证伪 / 独立验证
+  follow_up_question: 标记后是否停留在感觉层面？
+- signal: 是否区分了夸大话术与行业常规表达
+  framework_lens: 基线校准 / 语境判断
+  follow_up_question: 是否把行业通用表述误判为偏误？
+- signal: 是否对偏误风险做了量化评分而非简单定性
+  framework_lens: 风险量化 / 决策权重
+  follow_up_question: 哪种偏误对当前采购决策影响最大？
+review_grade: A
+review_note: 🟢放行。方法论资产，可复用于任何供应商评估。
+source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
 ---
-
 # 销售话术偏误识别模式库
 
 > 从一次真实招商录音中提取的7种销售话术偏误。可用于交叉验证任何供应商的销售陈述。

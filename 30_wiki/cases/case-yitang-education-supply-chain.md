@@ -1,36 +1,33 @@
 ---
-id: "case-yitang-education-supply-chain"
-title: "案例：一堂是‘教育供应链创新公司’——从真实实践里种菜、摘菜、炒菜"
-type: "case"
+id: case-yitang-education-supply-chain
+title: 案例：一堂是‘教育供应链创新公司’——从真实实践里种菜、摘菜、炒菜
+type: case
 source_refs:
-- src_20260614_95352714
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-  - "education"
-source_refs:
-  - "src_20260614_8269ccdb"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（一堂公司本质定位）"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+- education
+source_person: Truman
+source_context: 一堂高阶建模能力培训（一堂公司本质定位） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[case-course-milestone-model]]"
-  - "[[dk-weekly-modeling-iteration-growth-engine]]"
-  - "[[concept-thousand-people-square]]"
+- '[[case-course-milestone-model]]'
+- '[[dk-weekly-modeling-iteration-growth-engine]]'
+- '[[concept-thousand-people-square]]'
 tags:
-  - "#modeling"
-  - "#case"
-  - "#education"
-  - "#yitang"
+- '#modeling'
+- '#case'
+- '#education'
+- '#yitang'
 ---
-
 # 案例：一堂是「教育供应链创新公司」——从真实实践里种菜、摘菜、炒菜
 
 > **Burn line**: 一堂不是包装 IP 讲别人课的公司，而是把真实实践当成地里的菜，成熟了再摘下来炒给观众吃。

@@ -11,26 +11,25 @@ source_refs:
 - src_20260614_87b29a61
 - src_20260614_8269ccdb
 tags:
-- #modeling
-- #case
-- #yitang
-- #truman
+- null
+- null
+- null
+- null
 created_at: 2026-06-15
-updated_at: 2026-06-15
+updated_at: '2026-06-16'
 author: 老顽童
 source_person: Truman
 source_context: Truman-高阶建模-抽象建模-案例-图-01
-reviewed_by: 老顽童
+reviewed_by: pending
 review_date: 2026-06-15
 confidence: 0.85
 trust_level: high
 related:
-- [[modeling-weapon-library]]
-- [[modeling-three-stages]]
-- [[yt-model-five-step-canvas]]
-- [[yt-decision-y-model]]
+- - - modeling-weapon-library
+- - - modeling-three-stages
+- - - yt-model-five-step-canvas
+- - - yt-decision-y-model
 ---
-
 # 抽象建模案例：一堂内部模型武器库与跨领域商业模型地图
 
 > 来源：Truman-高阶建模-抽象建模-案例-图-01 | 一堂建模能力培训（Truman）

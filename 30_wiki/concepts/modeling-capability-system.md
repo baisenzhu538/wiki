@@ -3,40 +3,37 @@ id: modeling-capability-system
 title: 高阶建模能力体系：一堂从经验到规律的教研方法论
 type: concept
 source_refs:
-- src_20260614_8f80cb0f
+- src_20260614_8269ccdb
+- src_20260614_42f1e977
+- src_20260614_623cfbfd
 status: enriched
 domain:
-  - yitang
-  - product
-  - ai-collaboration
-source_refs:
-  - src_20260614_8269ccdb
-  - src_20260614_42f1e977
-  - src_20260614_623cfbfd
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
+- yitang
+- product
+- ai-collaboration
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
 author: 老顽童
-reviewed_by: 老顽童
-review_date: "2026-06-14"
+reviewed_by: pending
+review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.75
 tags:
-  - "#modeling"
-  - "#framework"
-  - "#yitang"
-  - "#methodology"
+- '#modeling'
+- '#framework'
+- '#yitang'
+- '#methodology'
 diagnostic_signals:
-  - signal: 用户说"团队经验无法沉淀，每次都要重新踩坑"
-    framework_lens: 流程类建模
-    follow_up_question: 这个场景是否有 3 次以上重复发生？能否沉淀为 SOP 或清单？
-  - signal: 用户说"道理都懂，但遇到新问题还是不会用"
-    framework_lens: 抽象建模
-    follow_up_question: 你是否有 3-5 个可跨场景调用的模型武器库？
-  - signal: 用户说"学了很多方法论，但抓不住核心"
-    framework_lens: 本质提炼
-    follow_up_question: 你能不能用 1-4 个关键词概括这个领域的本质？
+- signal: 用户说"团队经验无法沉淀，每次都要重新踩坑"
+  framework_lens: 流程类建模
+  follow_up_question: 这个场景是否有 3 次以上重复发生？能否沉淀为 SOP 或清单？
+- signal: 用户说"道理都懂，但遇到新问题还是不会用"
+  framework_lens: 抽象建模
+  follow_up_question: 你是否有 3-5 个可跨场景调用的模型武器库？
+- signal: 用户说"学了很多方法论，但抓不住核心"
+  framework_lens: 本质提炼
+  follow_up_question: 你能不能用 1-4 个关键词概括这个领域的本质？
 ---
-
 # 高阶建模能力体系：一堂从经验到规律的教研方法论
 
 > **Burn line**: 建模不是总结过去，是把碎片经验变成可复用的决策武器。

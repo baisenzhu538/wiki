@@ -11,7 +11,9 @@ created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
 source_refs:
-- legacy
+- src_20260609_8c00cb42
+source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
+updated_at: '2026-06-16'
 ---
 # 技能：项目启动五问法
 

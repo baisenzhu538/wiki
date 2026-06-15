@@ -8,14 +8,15 @@ domain:
 - knowledge-graph
 created_at: 2026-06-11
 author: legacy
-source_context: KDO improvement plan — internal process record
+source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为
+  source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+updated_at: '2026-06-16'
 ---
-
 # Graph RAG 放射状图谱修复提案
 
 ## 问题

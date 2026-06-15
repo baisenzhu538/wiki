@@ -15,14 +15,15 @@ related:
 - data-labeling-best-practices-report
 - kdo-15-dimension-label-spec
 author: legacy
-source_context: KDO infrastructure decision — internal design record
+source_context: KDO infrastructure decision — internal design record （原 legacy，已从
+  title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
-- legacy
+- src_20260503_52ae08ba
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+updated_at: '2026-06-16'
 ---
-
 # 两份标注调研的对齐：黄药师 × 老顽童
 
 ## 路线差异

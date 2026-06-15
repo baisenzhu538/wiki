@@ -1,35 +1,33 @@
 ---
-id: "framework-course-milestone-model"
-title: "课程里程碑模型：一堂做课的七步生产流程"
-type: "framework"
+id: framework-course-milestone-model
+title: 课程里程碑模型：一堂做课的七步生产流程
+type: framework
 source_refs:
-- src_20260613_96e45c45
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "education"
-  - "modeling"
-source_refs:
-  - "src_20260614_8269ccdb"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- education
+- modeling
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[modeling-scientific-milestones]]"
-  - "[[concept-thousand-people-square]]"
-  - "[[case-personal-map-modeling]]"
-  - "[[dk-modeling-expert-consensus-five-percent]]"
+- '[[modeling-scientific-milestones]]'
+- '[[concept-thousand-people-square]]'
+- '[[case-personal-map-modeling]]'
+- '[[dk-modeling-expert-consensus-five-percent]]'
 tags:
-  - "#modeling"
-  - "#framework"
-  - "#education"
-  - "#course-design"
+- '#modeling'
+- '#framework'
+- '#education'
+- '#course-design'
+source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
 ---
-
 # 课程里程碑模型：一堂做课的七步生产流程
 
 > **Burn line**: 一堂做一门课不是灵感驱动，而是有明确里程碑的生产流程。

@@ -21,7 +21,7 @@ query_triggers:
 related:
 - dk-yb21-ecommerce-pricing-independent-model
 review_date: 2026-06-15
-reviewed_by: 老顽童
+reviewed_by: pending
 source_refs:
 - src_20260614_8f80cb0f
 - src_20260525_92ea6173
@@ -59,7 +59,7 @@ diagnostic_signals:
 - signal: 用户只看单元模型，不看真实现金流
   framework_lens: 模型脱离现实
   follow_up_question: 按当前现金流，你还能活几个月？单元模型好但现金流断了也没用
-updated_at: 2026-06-15
+updated_at: '2026-06-16'
 author: 老顽童
 ---
 # 单元模型

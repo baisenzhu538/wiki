@@ -4,44 +4,41 @@ title: 剧本策划三板斧：短剧从0到1的框架搭建工具
 type: tool
 source_refs:
 - src_20260613_61c0cd80
+- src_20260613_687c4ec0
+- src_20260613_12d63c1c
 status: enriched
 domain:
-  - yitang
-  - ai-collaboration
-  - product
-source_refs:
-  - src_20260613_61c0cd80
-  - src_20260613_687c4ec0
-  - src_20260613_12d63c1c
-created_at: "2026-06-13"
-updated_at: "2026-06-14"
+- yitang
+- ai-collaboration
+- product
+created_at: '2026-06-13'
+updated_at: '2026-06-16'
 author: 老顽童
-reviewed_by: 老顽童
-review_date: "2026-06-13"
+reviewed_by: pending
+review_date: '2026-06-13'
 trust_level: medium
 confidence: 0.75
 related:
-  - "[[ai-short-drama-ice-fire-scripting-compass]]"
-  - "[[ai-short-drama-plot-three-axes]]"
-  - "[[ai-short-drama-framework-three-axes]]"
-  - "[[ai-short-drama-conflict-three-axes]]"
+- '[[ai-short-drama-ice-fire-scripting-compass]]'
+- '[[ai-short-drama-plot-three-axes]]'
+- '[[ai-short-drama-framework-three-axes]]'
+- '[[ai-short-drama-conflict-three-axes]]'
 tags:
-  - "#ai-short-drama"
-  - "#scriptwriting"
-  - "#tool"
-  - "#checklist"
+- '#ai-short-drama'
+- '#scriptwriting'
+- '#tool'
+- '#checklist'
 diagnostic_signals:
-  - signal: 用户说"让AI写剧本，越写越跑偏"
-    framework_lens: 第一板斧·剧本基地
-    follow_up_question: 你是否先给了 AI 一份包含题材、主角、欲望、阻碍、场景的剧本基地？
-  - signal: 用户说"剧情写到中段不知道往哪走"
-    framework_lens: 第二板斧·内容走向
-    follow_up_question: 你是否提前锁定了 10-15 个关键剧情节点？
-  - signal: 用户说"结局烂尾，收不住"
-    framework_lens: 第三板斧·剧情终局
-    follow_up_question: 你在写第一集时是否已明确结局的情绪落点和价值主张？
+- signal: 用户说"让AI写剧本，越写越跑偏"
+  framework_lens: 第一板斧·剧本基地
+  follow_up_question: 你是否先给了 AI 一份包含题材、主角、欲望、阻碍、场景的剧本基地？
+- signal: 用户说"剧情写到中段不知道往哪走"
+  framework_lens: 第二板斧·内容走向
+  follow_up_question: 你是否提前锁定了 10-15 个关键剧情节点？
+- signal: 用户说"结局烂尾，收不住"
+  framework_lens: 第三板斧·剧情终局
+  follow_up_question: 你在写第一集时是否已明确结局的情绪落点和价值主张？
 ---
-
 # 剧本策划三板斧：短剧从0到1的框架搭建工具
 
 > **Burn line**: 基地不稳，AI 再强也写不出好剧本。

@@ -5,14 +5,14 @@ status: draft
 domain:
 - master
 created_at: 2026-06-01
-updated_at: 2026-06-01
+updated_at: '2026-06-16'
 target_roles:
 - 欧阳锋（Architect）
 reviewer: 欧阳锋
 author: 黄药师
-source_context: KDO internal record
+source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 related:
 - kdo-industrialization-manual
 - labeling-final-consolidation
@@ -23,7 +23,6 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # 基础设施升级提案：深度合成产线
 
 > **触发**：用户说老顽童的 AI 数据文章"不够深刻"。表面看是单篇文章质量问题，实际是工厂流水线的结构性盲区。

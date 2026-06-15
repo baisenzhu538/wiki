@@ -16,7 +16,7 @@ diagnostic_signals:
 - signal: 权重差异是否 ≥2 倍且避免平均分配
   framework_lens: 杠杆识别 / 聚焦
   follow_up_question: 平均分配权重是否回避了真正的优先级判断？
-updated_at: '2026-06-13'
+updated_at: '2026-06-16'
 author: legacy
 reviewed_by: pending
 created_at: '2026-06-15'
@@ -24,7 +24,8 @@ confidence: 0.75
 trust_level: medium
 type: skill
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
 # 清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架
 

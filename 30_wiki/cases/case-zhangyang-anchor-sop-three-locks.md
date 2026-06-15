@@ -1,37 +1,34 @@
 ---
-id: "case-zhangyang-anchor-sop-three-locks"
-title: "案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%"
-type: "case"
+id: case-zhangyang-anchor-sop-three-locks
+title: 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%
+type: case
 source_refs:
-- src_20260614_eca9f5b3
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-  - "execution"
-source_refs:
-  - "src_20260614_8269ccdb"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（流程建模/SOP 执行案例）"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+- execution
+source_person: Truman
+source_context: 一堂高阶建模能力培训（流程建模/SOP 执行案例） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[case-livestream-sop-modeling]]"
-  - "[[dk-modeling-sop-execution-locks]]"
-  - "[[framework-logic-cleanliness-five-levels]]"
+- '[[case-livestream-sop-modeling]]'
+- '[[dk-modeling-sop-execution-locks]]'
+- '[[framework-logic-cleanliness-five-levels]]'
 tags:
-  - "#modeling"
-  - "#case"
-  - "#sop"
-  - "#execution"
-  - "#livestream"
+- '#modeling'
+- '#case'
+- '#sop'
+- '#execution'
+- '#livestream'
 ---
-
 # 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100%
 
 > **Burn line**: SOP 写出来不等于被执行，给 SOP 加两层“锁”，才能把执行率从 50–70% 提到接近 100%。

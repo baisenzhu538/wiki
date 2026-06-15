@@ -6,7 +6,7 @@ status: draft
 domain:
 - master
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 target_roles:
 - 用户（决策者）
 - 欧阳锋（Architect）
@@ -18,14 +18,14 @@ related:
 - ouyangfeng-labeling-research-review
 - 数据标注维度最佳实践调研报告（老顽童）
 author: legacy
-source_context: KDO internal decision record
+source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
+  src_20260503_52ae08ba）
 source_refs:
-- legacy
+- src_20260503_52ae08ba
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # 数据标注方案最终汇总 — 三方调研 + 黄药师独立判断
 
 > 汇总人：黄药师

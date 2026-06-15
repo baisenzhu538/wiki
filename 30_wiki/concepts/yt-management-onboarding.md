@@ -17,7 +17,7 @@ diagnostic_signals:
 - signal: 第一周给新人大量培训，信息过载
   framework_lens: 填鸭论
   follow_up_question: 新人第一周结束后能记住多少培训内容？如果<30%，信息过载了
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 id: yt-management-onboarding
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -25,9 +25,9 @@ created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
 source_refs:
-- legacy
+- src_20260503_52ae08ba
+source_context: （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 ---
-
 # 新人落地
 
 > 来源：一堂管理必修课「管团队」模块，《新人落地：新人Landing必修课》。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

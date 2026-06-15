@@ -4,44 +4,41 @@ title: 矛盾冲突三板斧：短剧冲突分层设计工具
 type: tool
 source_refs:
 - src_20260613_37933c99
+- src_20260613_687c4ec0
+- src_20260613_12d63c1c
 status: enriched
 domain:
-  - yitang
-  - ai-collaboration
-  - product
-source_refs:
-  - src_20260613_37933c99
-  - src_20260613_687c4ec0
-  - src_20260613_12d63c1c
-created_at: "2026-06-13"
-updated_at: "2026-06-14"
+- yitang
+- ai-collaboration
+- product
+created_at: '2026-06-13'
+updated_at: '2026-06-16'
 author: 老顽童
-reviewed_by: 老顽童
-review_date: "2026-06-13"
+reviewed_by: pending
+review_date: '2026-06-13'
 trust_level: medium
 confidence: 0.75
 related:
-  - "[[ai-short-drama-ice-fire-scripting-compass]]"
-  - "[[ai-short-drama-plot-three-axes]]"
-  - "[[ai-short-drama-framework-three-axes]]"
+- '[[ai-short-drama-ice-fire-scripting-compass]]'
+- '[[ai-short-drama-plot-three-axes]]'
+- '[[ai-short-drama-framework-three-axes]]'
 tags:
-  - "#ai-short-drama"
-  - "#scriptwriting"
-  - "#tool"
-  - "#checklist"
-  - "#conflict"
+- '#ai-short-drama'
+- '#scriptwriting'
+- '#tool'
+- '#checklist'
+- '#conflict'
 diagnostic_signals:
-  - signal: 用户说"反派太单薄，像工具人"
-    framework_lens: 第一板斧·外在阵营立分明
-    follow_up_question: 反派的阵营立场是否有清晰的利益、价值观或身份逻辑？
-  - signal: 用户说"主角和配角的感情线突兀"
-    framework_lens: 第二板斧·内在人际见真情
-    follow_up_question: 主角与关键配角之间是否有共同记忆、利益交换或情感债务？
-  - signal: 用户说"剧情爽完就忘，没有回味"
-    framework_lens: 第三板斧·自我宿命寻答案
-    follow_up_question: 主角最终的选择是否回应了他/她内心深处的恐惧或渴望？
+- signal: 用户说"反派太单薄，像工具人"
+  framework_lens: 第一板斧·外在阵营立分明
+  follow_up_question: 反派的阵营立场是否有清晰的利益、价值观或身份逻辑？
+- signal: 用户说"主角和配角的感情线突兀"
+  framework_lens: 第二板斧·内在人际见真情
+  follow_up_question: 主角与关键配角之间是否有共同记忆、利益交换或情感债务？
+- signal: 用户说"剧情爽完就忘，没有回味"
+  framework_lens: 第三板斧·自我宿命寻答案
+  follow_up_question: 主角最终的选择是否回应了他/她内心深处的恐惧或渴望？
 ---
-
 # 矛盾冲突三板斧：短剧冲突分层设计工具
 
 > **Burn line**: 好冲突不是越炸越好，而是让观众在三重张力里同时揪心。

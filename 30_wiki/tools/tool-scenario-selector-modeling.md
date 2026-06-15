@@ -1,38 +1,35 @@
 ---
-id: "tool-scenario-selector-modeling"
-title: "场景→工具选择器：根据需求快速匹配合适的建模工具"
-type: "tool"
+id: tool-scenario-selector-modeling
+title: 场景→工具选择器：根据需求快速匹配合适的建模工具
+type: tool
 source_refs:
-- src_20260614_071928f4
-status: "enriched"
+- src_20260614_73352fa5
+- src_20260614_8269ccdb
+- src_20260614_42f1e977
+status: enriched
 domain:
-  - "yitang"
-  - "product"
-  - "ai-collaboration"
-source_refs:
-  - "src_20260614_73352fa5"
-  - "src_20260614_8269ccdb"
-  - "src_20260614_42f1e977"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "medium"
+- yitang
+- product
+- ai-collaboration
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: medium
 confidence: 0.75
 related:
-  - "[[modeling-weapon-library]]"
-  - "[[tool-canvas-weapon-library-modeling]]"
-  - "[[modeling-three-stages]]"
-  - "[[modeling-level-map]]"
+- '[[modeling-weapon-library]]'
+- '[[tool-canvas-weapon-library-modeling]]'
+- '[[modeling-three-stages]]'
+- '[[modeling-level-map]]'
 tags:
-  - "#modeling"
-  - "#tool"
-  - "#selector"
-  - "#scenario"
-  - "#decision-support"
+- '#modeling'
+- '#tool'
+- '#selector'
+- '#scenario'
+- '#decision-support'
 ---
-
 # 场景→工具选择器：根据需求快速匹配合适的建模工具
 
 > **Burn line**: 先问“我要解决什么问题”，再问“哪个工具最合适”。

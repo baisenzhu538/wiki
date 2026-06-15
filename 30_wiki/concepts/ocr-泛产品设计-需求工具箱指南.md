@@ -1,24 +1,23 @@
 ---
-id: "ocr-泛产品设计-需求工具箱指南"
+id: ocr-泛产品设计-需求工具箱指南
 created_at: 2026-05-21
 domain:
-  - yitang
+- yitang
 source_refs:
-  - src_20260522_726a6a3b
+- src_20260522_726a6a3b
 status: draft
-title: "OCR: 泛产品设计-需求工具箱指南（待校审，视觉结构丢失）"
+title: 'OCR: 泛产品设计-需求工具箱指南（待校审，视觉结构丢失）'
 type: concept
-updated_at: 2026-06-15
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: "老顽童"
-reviewed_by: 老顽童
+- confidence-source-cited
+- confidence-verified-by-case
+author: 老顽童
+reviewed_by: pending
 review_date: 2026-06-15
 confidence: 0.35
 trust_level: low
 ---
-
 # OCR: 泛产品设计-需求工具箱指南（待校审，视觉结构丢失）
 
 > ⚠️ **校审结论**：OCR 对 13 张需求卡片的编号与层级结构识别混乱，部分核心概念（“最小解”“触点”“峰终定律公式”）定义不清。当前仅保留“三级能力体系 + 动力阻力模型 + 惊喜公式”等碎片化洞察，不建议直接作为工具使用。建议结合原图人工校对或迁移为独立的 yt-panproduct-demand-toolkit 概念卡。

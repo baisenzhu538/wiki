@@ -9,20 +9,19 @@ tags:
 - '#domain/knowledge-management'
 - '#method/evaluation-method'
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 target_roles:
 - 欧阳锋（Architect）
 - 黄药师（Builder）
 - 用户（决策者）
 author: legacy
-source_context: KDO internal record
+source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # 三方认知对齐：KDO 数据管线 6+1 框架
 
 ## 为什么需要这份文档

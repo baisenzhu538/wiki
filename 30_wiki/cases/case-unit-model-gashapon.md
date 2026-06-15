@@ -1,42 +1,41 @@
 ---
 id: case-unit-model-gashapon
-component_of: "[[yt-unit-model-concept]]"
+component_of: '[[yt-unit-model-concept]]'
 confidence: 0.85
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2200
 language: zh-CN
-prerequisites: "[[yt-unit-model-concept]] | [[yt-unit-model-build]]"
+prerequisites: '[[yt-unit-model-concept]] | [[yt-unit-model-build]]'
 query_triggers:
-  - "扭蛋机案例"
-  - "抓娃娃机商业模式"
-  - "单元模型案例"
-  - "算错账案例"
-  - "L2 L3 L4 L5 段位"
+- 扭蛋机案例
+- 抓娃娃机商业模式
+- 单元模型案例
+- 算错账案例
+- L2 L3 L4 L5 段位
 review_date: 2026-06-11
-reviewed_by: "老顽童"
+reviewed_by: pending
 source_refs:
-  - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-笔记.txt"
+- 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt
+- 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-笔记.txt
 status: reviewed
-title: "案例：扭蛋机/抓娃娃机的单元模型段位进阶"
+title: 案例：扭蛋机/抓娃娃机的单元模型段位进阶
 trust_level: medium
 type: case
-updated_at: 2026-06-11
+updated_at: '2026-06-16'
 version: 1
 yitang:
   map: entrepreneur
-  module: "单元模型"
+  module: 单元模型
   course_id: case-unit-model-gashapon
   course_type: case
   level: core
 pipeline:
-  - confidence-source-cited
-author: "老顽童"
+- confidence-source-cited
+author: 老顽童
 ---
-
 # 案例：扭蛋机/抓娃娃机的单元模型段位进阶
 
 > 来源：一堂五步法·单元模型篇 | [[yt-unit-model-concept]] | [[yt-unit-model-build]] | [[yt-market-size-estimation]]

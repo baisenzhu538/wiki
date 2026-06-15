@@ -1,37 +1,34 @@
 ---
-id: "dk-modeling-ai-iterative-prompting"
-title: "AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限"
-type: "dark-knowledge"
-dark_knowledge_type: "pattern"
+id: dk-modeling-ai-iterative-prompting
+title: AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限
+type: dark-knowledge
+dark_knowledge_type: pattern
 source_refs:
-- src_20260614_8f80cb0f
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "ai-collaboration"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（AI Skill 工程指南产出过程）"
-source_refs:
-  - "src_20260614_8269ccdb"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- ai-collaboration
+source_person: Truman
+source_context: 一堂高阶建模能力培训（AI Skill 工程指南产出过程） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "modeling-capability-for-kdo"
-  - "[[case-truman-ai-skill-engineering-guide]]"
-  - "[[tool-ai-skill-engineering-method]]"
-  - "[[dk-modeling-ai-self-retrospection]]"
+- modeling-capability-for-kdo
+- '[[case-truman-ai-skill-engineering-guide]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[dk-modeling-ai-self-retrospection]]'
 tags:
-  - "#modeling"
-  - "#dk"
-  - "#ai-collaboration"
-  - "#iteration"
+- '#modeling'
+- '#dk'
+- '#ai-collaboration'
+- '#iteration'
 ---
-
 # AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限
 
 ## 原始表述

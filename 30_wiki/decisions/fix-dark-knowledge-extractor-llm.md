@@ -6,7 +6,7 @@ status: pending
 domain:
 - master
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 target_roles:
 - 黄药师（Builder）
 reviewer: 欧阳锋（Architect）
@@ -14,14 +14,13 @@ related:
 - task-20260531-huangyaoshi-extractor-run-all
 - plan_20260531_data-curator-v1.3
 author: legacy
-source_context: KDO internal record
+source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium
 ---
-
 # 萃取器升级：regex → LLM-based 暗知识提取
 
 > **问题**：`extract_dark_knowledge.py` 纯 regex 方案提取的 118 条候选质量不可接受。

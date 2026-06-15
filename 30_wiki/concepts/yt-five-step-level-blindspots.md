@@ -1,46 +1,49 @@
 ---
 id: yt-five-step-level-blindspots
-component_of: "[[yt-five-step-method]]"
+component_of: '[[yt-five-step-method]]'
 confidence: 0.85
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2400
 language: zh-CN
-prerequisites: "[[yt-five-step-method]] | [[yt-unit-model-concept]] | [[yt-five-step-implementation]]"
+prerequisites: '[[yt-five-step-method]] | [[yt-unit-model-concept]] | [[yt-five-step-implementation]]'
 query_triggers:
-  - "五步法段位"
-  - "五步法自评"
-  - "商业分析水平"
-  - "认知盲区"
-  - "我们不知道我们不知道"
+- 五步法段位
+- 五步法自评
+- 商业分析水平
+- 认知盲区
+- 我们不知道我们不知道
 review_date: 2026-06-11
-reviewed_by: "老顽童"
+reviewed_by: pending
 source_refs:
-  - "00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt"
+- 00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt
+- 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt
+- 00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt
 status: reviewed
-title: "暗知识：五步法的段位盲区与自评陷阱"
+title: 暗知识：五步法的段位盲区与自评陷阱
 trust_level: medium
 type: dk
 version: 1
 yitang:
   map: entrepreneur
-  module: "落地实操"
+  module: 落地实操
   course_id: yt-five-step-level-blindspots
   course_type: dk
   level: core
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户给自己打8分，但实际只有3分', 'framework_lens': '邓宁克鲁格效应', 'follow_up_question': '你能说出L4-L5的商分高手和你现在的差距具体在哪里吗？如果不能，你在盲区里'}
-  - {'signal': '用户不知道高段位长什么样', 'framework_lens': '目标模糊', 'follow_up_question': '你最近看过一个让你感到"原来还能这样想"的五步法案例吗？如果没有，你的目标不清晰'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户给自己打8分，但实际只有3分
+  framework_lens: 邓宁克鲁格效应
+  follow_up_question: 你能说出L4-L5的商分高手和你现在的差距具体在哪里吗？如果不能，你在盲区里
+- signal: 用户不知道高段位长什么样
+  framework_lens: 目标模糊
+  follow_up_question: 你最近看过一个让你感到"原来还能这样想"的五步法案例吗？如果没有，你的目标不清晰
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # 暗知识：五步法的段位盲区与自评陷阱
 
 > 来源：一堂五步法·序言篇及单元模型篇 | [[yt-five-step-method]] | [[yt-unit-model-concept]] | [[yt-five-step-implementation]] | [[yt-business-analysis-cognitive-biases]]

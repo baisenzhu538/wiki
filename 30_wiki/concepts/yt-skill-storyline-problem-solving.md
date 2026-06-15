@@ -16,7 +16,7 @@ diagnostic_signals:
 - signal: 在时效敏感场景下，是否避免过度追求完整性延误行动
   framework_lens: 行动阈值 / 成本权衡
   follow_up_question: 问题解决线是否变成'为写诊断而工作'的文档表演？
-updated_at: '2026-06-13'
+updated_at: '2026-06-16'
 author: legacy
 reviewed_by: pending
 created_at: '2026-06-15'
@@ -24,7 +24,8 @@ confidence: 0.75
 trust_level: medium
 type: skill
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
 # 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链
 

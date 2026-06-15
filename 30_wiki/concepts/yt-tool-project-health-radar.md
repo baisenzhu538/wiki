@@ -13,15 +13,15 @@ diagnostic_signals:
 - signal: 本卡是否不再作为决策依据使用
   framework_lens: 信息时效 / 单点真相
   follow_up_question: 是否有人仍在引用本 redirect 卡的旧内容做决策？
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 author: legacy
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 > 本卡已迁移至 [[30_wiki/tools/yt-tool-project-health-radar]]。
 >
 > 原文内容请访问目标页面。

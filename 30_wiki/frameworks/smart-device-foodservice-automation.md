@@ -1,25 +1,26 @@
 ---
 id: smart-device-foodservice-automation
-title: "智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式"
+title: 智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式
 type: framework
 status: enriched
 confidence: 0.85
 trust_level: high
 domain:
-  - business-strategy
-  - product
-  - entrepreneur
+- business-strategy
+- product
+- entrepreneur
 source_refs:
-  - src_20260614_909802bd
+- src_20260614_909802bd
 related:
-  - beverage-foodservice-channel
-  - yt-entrepreneur-channel-exploration
-  - source-code-delivery-model
+- beverage-foodservice-channel
+- yt-entrepreneur-channel-exploration
+- source-code-delivery-model
 created_at: 2026-06-14
-updated_at: 2026-06-14
-author: "王语嫣"
-reviewed_by: "老顽童"
+updated_at: '2026-06-16'
+author: 王语嫣
+reviewed_by: 老顽童
 review_date: 2026-06-14
+source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
 ---
 # 智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式
 

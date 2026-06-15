@@ -1,37 +1,34 @@
 ---
-id: "dk-modeling-explanatory-vs-predictive-essence"
-title: "解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践"
-type: "dark-knowledge"
-dark_knowledge_type: "principle"
+id: dk-modeling-explanatory-vs-predictive-essence
+title: 解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践
+type: dark-knowledge
+dark_knowledge_type: principle
 source_refs:
-- src_20260609_dade3353
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（本质建模案例）"
-source_refs:
-  - "src_20260614_8269ccdb"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+source_person: Truman
+source_context: 一堂高阶建模能力培训（本质建模案例） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "modeling-capability-for-kdo"
-  - "[[tool-essence-nfactor-modeling]]"
-  - "[[dk-modeling-essence-predictive]]"
-  - "[[case-essence-education-strategy]]"
+- modeling-capability-for-kdo
+- '[[tool-essence-nfactor-modeling]]'
+- '[[dk-modeling-essence-predictive]]'
+- '[[case-essence-education-strategy]]'
 tags:
-  - "#modeling"
-  - "#dk"
-  - "#essence"
-  - "#prediction"
+- '#modeling'
+- '#dk'
+- '#essence'
+- '#prediction'
 ---
-
 # 解释性本质是高级鸡汤：真正值钱的本质必须能预测下一次实践
 
 ## 原始表述

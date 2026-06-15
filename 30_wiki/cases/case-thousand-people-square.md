@@ -1,36 +1,33 @@
 ---
-id: "case-thousand-people-square"
-title: "案例：一堂‘千人广场模型’——用统计建模心态做课"
-type: "case"
+id: case-thousand-people-square
+title: 案例：一堂‘千人广场模型’——用统计建模心态做课
+type: case
 source_refs:
-- src_20260614_c944bda5
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-  - "education"
-source_refs:
-  - "src_20260614_8269ccdb"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（千人广场模型案例）"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+- education
+source_person: Truman
+source_context: 一堂高阶建模能力培训（千人广场模型案例） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[concept-thousand-people-square]]"
-  - "[[case-personal-map-modeling]]"
-  - "[[yt-five-step-method]]"
+- '[[concept-thousand-people-square]]'
+- '[[case-personal-map-modeling]]'
+- '[[yt-five-step-method]]'
 tags:
-  - "#modeling"
-  - "#case"
-  - "#education"
-  - "#statistics"
+- '#modeling'
+- '#case'
+- '#education'
+- '#statistics'
 ---
-
 # 案例：一堂「千人广场模型」——用统计建模心态做课
 
 > **Burn line**: 一堂做课不是为三五个人服务，而是对一个广场上 1000 人负责——广场上任何一个可见反例，都是模型的错。

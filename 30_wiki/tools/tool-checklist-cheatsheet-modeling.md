@@ -1,37 +1,34 @@
 ---
-id: "tool-checklist-cheatsheet-modeling"
-title: "清单/小抄建模法：把经验变成可执行的检查点"
-type: "tool"
+id: tool-checklist-cheatsheet-modeling
+title: 清单/小抄建模法：把经验变成可执行的检查点
+type: tool
 source_refs:
-- src_20260611_ff778102
-status: "enriched"
+- src_20260614_73352fa5
+- src_20260614_8269ccdb
+- src_20260614_623cfbfd
+status: enriched
 domain:
-  - "yitang"
-  - "product"
-  - "ai-collaboration"
-source_refs:
-  - "src_20260614_73352fa5"
-  - "src_20260614_8269ccdb"
-  - "src_20260614_623cfbfd"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "medium"
+- yitang
+- product
+- ai-collaboration
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: medium
 confidence: 0.75
 related:
-  - "[[modeling-weapon-library]]"
-  - "[[process-modeling]]"
-  - "[[modeling-three-stages]]"
+- '[[modeling-weapon-library]]'
+- '[[process-modeling]]'
+- '[[modeling-three-stages]]'
 tags:
-  - "#modeling"
-  - "#tool"
-  - "#checklist"
-  - "#cheatsheet"
-  - "#execution"
+- '#modeling'
+- '#tool'
+- '#checklist'
+- '#cheatsheet'
+- '#execution'
 ---
-
 # 清单/小抄建模法：把经验变成可执行的检查点
 
 > **Burn line**: 清单不是“提醒自己做过了什么”，而是“提醒自己还没做什么”。

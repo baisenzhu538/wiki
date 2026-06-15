@@ -18,7 +18,7 @@ location: Beijing, China
 founded_at: 2023-04-01
 id: Kimi-月之暗面
 created_at: 2026-05-03
-updated_at: 2026-05-03
+updated_at: '2026-06-16'
 related:
 - '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 - '[[graph-rag]]'
@@ -34,9 +34,9 @@ review_date: 2026-05-04
 author: unknown
 confidence: 0.85
 source_refs:
-- legacy
+- src_20260503_52ae08ba
+source_context: （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 ---
-
 # Kimi（月之暗面）
 
 > 中国领先的大语言模型公司，以长上下文处理和深度研究能力著称。

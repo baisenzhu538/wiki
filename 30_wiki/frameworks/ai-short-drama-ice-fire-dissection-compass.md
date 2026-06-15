@@ -4,45 +4,42 @@ title: 冰火拆本罗盘：短剧剧本逆向拆解五维模型
 type: framework
 source_refs:
 - src_20260613_c17fcdb2
+- src_20260613_687c4ec0
+- src_20260613_12d63c1c
 status: enriched
 domain:
-  - yitang
-  - ai-collaboration
-  - product
-source_refs:
-  - src_20260613_c17fcdb2
-  - src_20260613_687c4ec0
-  - src_20260613_12d63c1c
-created_at: "2026-06-13"
-updated_at: "2026-06-14"
+- yitang
+- ai-collaboration
+- product
+created_at: '2026-06-13'
+updated_at: '2026-06-16'
 author: 老顽童
-reviewed_by: 老顽童
-review_date: "2026-06-13"
+reviewed_by: pending
+review_date: '2026-06-13'
 trust_level: medium
 confidence: 0.75
 related:
-  - "[[ai-short-drama-ice-fire-scripting-compass]]"
-  - "[[ai-short-drama-plot-three-axes]]"
-  - "[[ai-short-drama-script-planning-three-axes]]"
-  - "[[ai-short-drama-framework-three-axes]]"
-  - "[[ai-short-drama-conflict-three-axes]]"
+- '[[ai-short-drama-ice-fire-scripting-compass]]'
+- '[[ai-short-drama-plot-three-axes]]'
+- '[[ai-short-drama-script-planning-three-axes]]'
+- '[[ai-short-drama-framework-three-axes]]'
+- '[[ai-short-drama-conflict-three-axes]]'
 tags:
-  - "#ai-short-drama"
-  - "#scriptwriting"
-  - "#reverse-engineering"
-  - "#framework"
+- '#ai-short-drama'
+- '#scriptwriting'
+- '#reverse-engineering'
+- '#framework'
 diagnostic_signals:
-  - signal: 用户说"看了很多爆款短剧，但不知道怎么学到东西"
-    framework_lens: 结构化拆本五维模型
-    follow_up_question: 你拆本时是凭感觉，还是按文本语言、核心角色、主题事件、高潮反转、钩子密度五个维度逐一分析？
-  - signal: 用户说"AI 生成的剧本总是差点爆款味"
-    framework_lens: 投喂前先拆本
-    follow_up_question: 你有没有先用拆本罗盘分析 3-5 部同题材爆款，再把结论喂给 AI？
-  - signal: 用户说"不知道自己的剧本差在哪里"
-    framework_lens: 五维自检清单
-    follow_up_question: 你的剧本在钩子密度、情绪峰值、反转铺垫三个维度上，分别对标爆款差多少？
+- signal: 用户说"看了很多爆款短剧，但不知道怎么学到东西"
+  framework_lens: 结构化拆本五维模型
+  follow_up_question: 你拆本时是凭感觉，还是按文本语言、核心角色、主题事件、高潮反转、钩子密度五个维度逐一分析？
+- signal: 用户说"AI 生成的剧本总是差点爆款味"
+  framework_lens: 投喂前先拆本
+  follow_up_question: 你有没有先用拆本罗盘分析 3-5 部同题材爆款，再把结论喂给 AI？
+- signal: 用户说"不知道自己的剧本差在哪里"
+  framework_lens: 五维自检清单
+  follow_up_question: 你的剧本在钩子密度、情绪峰值、反转铺垫三个维度上，分别对标爆款差多少？
 ---
-
 # 冰火拆本罗盘：短剧剧本逆向拆解五维模型
 
 > **Burn line**: 看懂爆款不是复述剧情，是拆出它为什么让人上头。

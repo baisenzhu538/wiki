@@ -11,26 +11,25 @@ source_refs:
 - src_20260614_3c3359d8
 - src_20260614_8269ccdb
 tags:
-- #modeling
-- #case
-- #yitang
-- #truman
+- null
+- null
+- null
+- null
 created_at: 2026-06-15
-updated_at: 2026-06-15
+updated_at: '2026-06-16'
 author: 老顽童
 source_person: Truman
 source_context: Truman-高阶建模-本质建模-案例-01
-reviewed_by: 老顽童
+reviewed_by: pending
 review_date: 2026-06-15
 confidence: 0.85
 trust_level: high
 related:
-- [[modeling-three-stages]]
-- [[tool-essence-nfactor-modeling]]
-- [[dk-modeling-essence-predictive]]
-- [[dk-modeling-explanatory-vs-predictive-essence]]
+- - - modeling-three-stages
+- - - tool-essence-nfactor-modeling
+- - - dk-modeling-essence-predictive
+- - - dk-modeling-explanatory-vs-predictive-essence
 ---
-
 # 本质建模案例：从盲目创新到学科经典的五层思维深度
 
 > 来源：Truman-高阶建模-本质建模-案例-01 | 一堂建模能力培训（Truman）

@@ -9,7 +9,7 @@ tags:
 - '#domain/knowledge-management'
 - '#method/evaluation-method'
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 target_roles:
 - 欧阳锋（Architect）
 - 用户（决策者）
@@ -19,14 +19,14 @@ related:
 - ouyangfeng-data-alignment-response
 - plan_20260531_data-curator-v1.3
 author: legacy
-source_context: KDO infrastructure decision — internal design record
+source_context: KDO infrastructure decision — internal design record （原 legacy，已从
+  title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
-- legacy
+- src_20260503_52ae08ba
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # 黄药师对齐回应：对欧阳锋补充的意见 + 4 个分歧
 
 > 阅读前提：已读欧阳锋的 `ouyangfeng-data-alignment-response.md`。

@@ -1,36 +1,33 @@
 ---
-id: "case-child-drawing-rhyme"
-title: "案例：孩子控笔‘画画歌’——最小单元的建模实践"
-type: "case"
+id: case-child-drawing-rhyme
+title: 案例：孩子控笔‘画画歌’——最小单元的建模实践
+type: case
 source_refs:
-- src_20260614_eca9f5b3
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-  - "personal-life"
-source_refs:
-  - "src_20260614_8269ccdb"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（最小建模案例）"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+- personal-life
+source_person: Truman
+source_context: 一堂高阶建模能力培训（最小建模案例） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[framework-logic-cleanliness-five-levels]]"
-  - "[[modeling-scientific-milestones]]"
-  - "[[tool-iterative-recursive-deep-dig]]"
+- '[[framework-logic-cleanliness-five-levels]]'
+- '[[modeling-scientific-milestones]]'
+- '[[tool-iterative-recursive-deep-dig]]'
 tags:
-  - "#modeling"
-  - "#case"
-  - "#minimal-model"
-  - "#deliberate-practice"
+- '#modeling'
+- '#case'
+- '#minimal-model'
+- '#deliberate-practice'
 ---
-
 # 案例：孩子控笔「画画歌」——最小单元的建模实践
 
 > **Burn line**: 建模可以复杂到一门课，也可以小到四句话——关键是观察规律、压缩成口诀、反复验证。

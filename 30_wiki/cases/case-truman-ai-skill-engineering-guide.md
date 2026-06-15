@@ -1,38 +1,35 @@
 ---
-id: "case-truman-ai-skill-engineering-guide"
-title: "案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南"
-type: "case"
+id: case-truman-ai-skill-engineering-guide
+title: 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
+type: case
 source_refs:
-- src_20260614_b34f6c6e
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "ai-collaboration"
-  - "skill-engineering"
-source_refs:
-  - "src_20260614_8269ccdb"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（AI 建模协作案例）"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- ai-collaboration
+- skill-engineering
+source_person: Truman
+source_context: 一堂高阶建模能力培训（AI 建模协作案例） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[tool-ai-skill-engineering-method]]"
-  - "[[dk-modeling-ai-iterative-prompting]]"
-  - "[[dk-modeling-ai-cross-validation]]"
-  - "[[dk-modeling-ai-self-retrospection]]"
+- '[[tool-ai-skill-engineering-method]]'
+- '[[dk-modeling-ai-iterative-prompting]]'
+- '[[dk-modeling-ai-cross-validation]]'
+- '[[dk-modeling-ai-self-retrospection]]'
 tags:
-  - "#modeling"
-  - "#case"
-  - "#ai-skill"
-  - "#skill-engineering"
-  - "#ai-collaboration"
+- '#modeling'
+- '#case'
+- '#ai-skill'
+- '#skill-engineering'
+- '#ai-collaboration'
 ---
-
 # 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
 
 > **Burn line**: 不是让 AI 随便写个 Skill，而是用工程指南把 AI 的输出质量锁死在你的审美上限。

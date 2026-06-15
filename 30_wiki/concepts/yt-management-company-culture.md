@@ -17,7 +17,7 @@ diagnostic_signals:
 - signal: 制度和价值观不一致
   framework_lens: 三层不一致
   follow_up_question: 如果员工按制度做会违反价值观，他会怎么选？如果选制度，文化没落地
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 id: yt-management-company-culture
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -25,9 +25,9 @@ created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
 source_refs:
-- legacy
+- src_20260522_38173b48
+source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 ---
-
 # 公司文化
 
 > 来源：一堂管理必修课「管公司」模块。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

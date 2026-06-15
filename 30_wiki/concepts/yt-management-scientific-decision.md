@@ -16,7 +16,7 @@ diagnostic_signals:
 - signal: 决策者追求完美信息，迟迟不做决定
   framework_lens: 决策窗口关闭
   follow_up_question: 你现在的信息已经够做决策了吗？如果等100%信息，机会可能已过
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 id: yt-management-scientific-decision
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -24,9 +24,9 @@ created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
 source_refs:
-- legacy
+- src_20260522_0bb1cb6e
+source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_0bb1cb6e）
 ---
-
 # Y模型/科学决策
 
 > 来源：一堂管理必修课「管业务」模块，共4节系列课（审美篇/宽度篇/深度篇/高度篇）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

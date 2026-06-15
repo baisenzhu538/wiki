@@ -5,15 +5,15 @@ status: draft
 domain:
 - master
 created_at: 2026-06-01
-updated_at: 2026-06-01
+updated_at: '2026-06-16'
 target_roles:
 - 欧阳锋（Architect）
 - 黄药师（Builder）
 reviewer: 欧阳锋
 author: 黄药师
-source_context: KDO internal record
+source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 related:
 - gold-standard-manual-labels
 - labeling-final-consolidation
@@ -24,7 +24,6 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # 标注准确率标准对齐
 
 > **背景**：黄药师报 88.3%（4 维），欧阳锋实测 79.3%（9 维）。双方口径不一致。

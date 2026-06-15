@@ -5,7 +5,7 @@ status: draft
 domain:
 - master
 created_at: 2026-06-02
-updated_at: 2026-06-02
+updated_at: '2026-06-16'
 target_roles:
 - 黄药师（Builder）
 - 欧阳锋（Architect）
@@ -20,14 +20,14 @@ risk_level: high
 decision_needed: 是否启动此方向？若启动，第一阶段的范围是什么？
 id: proposal-ai-domain-mastery-pipeline
 author: legacy
-source_context: KDO improvement plan — internal process record
+source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为
+  source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # 提案：AI 快速精通领域知识管线
 
 > **触发**：2026-06-02 飞轮迭代后，用户问"这个方法是否可以迁移到训练 AI 快速掌握一门学科？加上自动搜索是否可以加速？"

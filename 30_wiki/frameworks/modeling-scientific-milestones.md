@@ -1,35 +1,33 @@
 ---
-id: "modeling-scientific-milestones"
-title: "科学建模七步里程碑：从边界到封装的方法论生产流程"
-type: "framework"
+id: modeling-scientific-milestones
+title: 科学建模七步里程碑：从边界到封装的方法论生产流程
+type: framework
 source_refs:
-- src_20260614_8f80cb0f
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-  - "research"
-source_refs:
-  - "src_20260614_8269ccdb"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+- research
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[modeling-three-stages]]"
-  - "[[dk-modeling-counterexample-driven]]"
-  - "[[dk-modeling-expert-consensus-five-percent]]"
-  - "[[tool-ai-skill-engineering-method]]"
+- '[[modeling-three-stages]]'
+- '[[dk-modeling-counterexample-driven]]'
+- '[[dk-modeling-expert-consensus-five-percent]]'
+- '[[tool-ai-skill-engineering-method]]'
 tags:
-  - "#modeling"
-  - "#framework"
-  - "#methodology"
-  - "#research"
+- '#modeling'
+- '#framework'
+- '#methodology'
+- '#research'
+source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
 ---
-
 # 科学建模七步里程碑：从边界到封装的方法论生产流程
 
 > **Burn line**: 方法论级别的建模不是灵感爆发，而是一套有里程碑、可迭代、可验证的生产流程。

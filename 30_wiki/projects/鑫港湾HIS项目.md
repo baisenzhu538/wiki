@@ -6,7 +6,7 @@ domain:
 - healthcare
 id: 鑫港湾HIS项目
 created_at: 2026-05-04
-updated_at: 2026-05-04
+updated_at: '2026-06-16'
 related:
 - '[[鑫港湾HIS系统分阶段整改报告]]'
 - '[[HIS系统深度调研]]'
@@ -21,14 +21,14 @@ tags:
 - null
 - null
 author: unknown
-source_context: KDO internal decision record
+source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
+  src_20260428_db49a647）
 source_refs:
-- legacy
+- src_20260428_db49a647
 reviewed_by: pending
-confidence: 0.85
-trust_level: high
+confidence: 0.7
+trust_level: medium
 ---
-
 # 鑫港湾HIS项目
 
 > 基于 .NET 8 + Vue 3 的医疗信息管理系统——从代码审查到上线交付的全流程工程化。

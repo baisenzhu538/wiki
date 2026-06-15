@@ -3,46 +3,43 @@ id: ai-short-drama-framework-three-axes
 title: 框架三板斧：短剧英雄之旅结构工具
 type: tool
 source_refs:
-- src_20260613_61c0cd80
+- src_20260613_1ade007d
+- src_20260613_687c4ec0
+- src_20260613_12d63c1c
 status: enriched
 domain:
-  - yitang
-  - ai-collaboration
-  - product
-source_refs:
-  - src_20260613_1ade007d
-  - src_20260613_687c4ec0
-  - src_20260613_12d63c1c
-created_at: "2026-06-13"
-updated_at: "2026-06-14"
+- yitang
+- ai-collaboration
+- product
+created_at: '2026-06-13'
+updated_at: '2026-06-16'
 author: 老顽童
-reviewed_by: 老顽童
-review_date: "2026-06-13"
+reviewed_by: pending
+review_date: '2026-06-13'
 trust_level: medium
 confidence: 0.75
 related:
-  - "[[ai-short-drama-ice-fire-scripting-compass]]"
-  - "[[ai-short-drama-script-planning-three-axes]]"
-  - "[[ai-short-drama-plot-three-axes]]"
-  - "[[ai-short-drama-conflict-three-axes]]"
+- '[[ai-short-drama-ice-fire-scripting-compass]]'
+- '[[ai-short-drama-script-planning-three-axes]]'
+- '[[ai-short-drama-plot-three-axes]]'
+- '[[ai-short-drama-conflict-three-axes]]'
 tags:
-  - "#ai-short-drama"
-  - "#scriptwriting"
-  - "#tool"
-  - "#checklist"
-  - "#framework"
+- '#ai-short-drama'
+- '#scriptwriting'
+- '#tool'
+- '#checklist'
+- '#framework'
 diagnostic_signals:
-  - signal: 用户说"短剧写到中段，主角动机消失了"
-    framework_lens: 第一板斧·深渊入局闯难关
-    follow_up_question: 主角进入深渊的触发事件是什么？他/她为什么必须闯关而不是逃避？
-  - signal: 用户说"剧情太平，缺少一波三折"
-    framework_lens: 第二板斧·迷雾博弈克万难
-    follow_up_question: 迷雾阶段是否设置了至少 3 次递进式障碍，每次都比上一次更难？
-  - signal: 用户说"结局太仓促，前面铺垫全浪费"
-    framework_lens: 第三板斧·决战收官展不凡
-    follow_up_question: 决战是否同时回应了开头的欲望、中段的障碍，并给出情绪落点？
+- signal: 用户说"短剧写到中段，主角动机消失了"
+  framework_lens: 第一板斧·深渊入局闯难关
+  follow_up_question: 主角进入深渊的触发事件是什么？他/她为什么必须闯关而不是逃避？
+- signal: 用户说"剧情太平，缺少一波三折"
+  framework_lens: 第二板斧·迷雾博弈克万难
+  follow_up_question: 迷雾阶段是否设置了至少 3 次递进式障碍，每次都比上一次更难？
+- signal: 用户说"结局太仓促，前面铺垫全浪费"
+  framework_lens: 第三板斧·决战收官展不凡
+  follow_up_question: 决战是否同时回应了开头的欲望、中段的障碍，并给出情绪落点？
 ---
-
 # 框架三板斧：短剧英雄之旅结构工具
 
 > **Burn line**: 英雄不是一上来就无敌，而是被深渊逼出光芒。

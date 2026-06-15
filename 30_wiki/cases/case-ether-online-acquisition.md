@@ -9,9 +9,9 @@ problem_domains: null
 industry: 企业服务
 scale: 平台级
 source_person: Truman
-source_context: 一堂课程，规模经济章节
+source_context: 一堂课程，规模经济章节 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 wiki_refs: null
 definition_of_done: null
 tags: null
@@ -19,13 +19,12 @@ related_skills: ''
 related_concepts: null
 related_cases: ''
 created_at: 2026-06-06
-updated_at: 2026-06-06
+updated_at: '2026-06-16'
 author: legacy
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 案例：以太利用全网调研能力快速获客
 
 ## 原始表述

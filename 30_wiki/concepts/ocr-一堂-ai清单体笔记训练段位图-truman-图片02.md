@@ -6,19 +6,16 @@ domain:
 - ai-collaboration
 status: draft
 source_refs:
-- legacy
+- src_20260609_6809033f
 created_at: '2026-06-09T14:03:49+00:00'
-updated_at: '2026-06-09T14:28:40+00:00'
+updated_at: '2026-06-16'
 id: ocr-一堂-ai清单体笔记训练段位图-truman-图片02
 author: 老顽童
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
+source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_6809033f）
 ---
-
-
-
-
 # OCR: 一堂-AI清单体笔记（训练段位图）-truman-图片02
 
 ## Summary

@@ -1,37 +1,34 @@
 ---
-id: "tool-funnel-formula-modeling"
-title: "漏斗图/公式建模法：量化流程与关键变量"
-type: "tool"
+id: tool-funnel-formula-modeling
+title: 漏斗图/公式建模法：量化流程与关键变量
+type: tool
 source_refs:
-- src_20260613_a8bcfd38
-status: "enriched"
+- src_20260614_73352fa5
+- src_20260614_8269ccdb
+- src_20260614_42f1e977
+status: enriched
 domain:
-  - "yitang"
-  - "product"
-  - "ai-collaboration"
-source_refs:
-  - "src_20260614_73352fa5"
-  - "src_20260614_8269ccdb"
-  - "src_20260614_42f1e977"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "medium"
+- yitang
+- product
+- ai-collaboration
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: medium
 confidence: 0.75
 related:
-  - "[[modeling-weapon-library]]"
-  - "[[modeling-three-stages]]"
-  - "[[tool-radar-chart-modeling]]"
+- '[[modeling-weapon-library]]'
+- '[[modeling-three-stages]]'
+- '[[tool-radar-chart-modeling]]'
 tags:
-  - "#modeling"
-  - "#tool"
-  - "#funnel"
-  - "#formula"
-  - "#quantification"
+- '#modeling'
+- '#tool'
+- '#funnel'
+- '#formula'
+- '#quantification'
 ---
-
 # 漏斗图/公式建模法：量化流程与关键变量
 
 > **Burn line**: 漏斗图告诉你哪一步漏得最多，公式告诉你最终结果是哪些变量的乘积。

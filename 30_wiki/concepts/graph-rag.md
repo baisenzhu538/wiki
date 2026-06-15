@@ -15,15 +15,15 @@ status: enriched
 title: Graph RAG — Knowledge-Graph-Powered Retrieval
 trust_level: medium
 type: concept
-updated_at: 2026-05-03
+updated_at: '2026-06-16'
 pipeline:
 - confidence-verified-by-case
 author: unknown
 confidence: 0.75
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 # Graph RAG — Knowledge-Graph-Powered Retrieval
 
 ## Claims

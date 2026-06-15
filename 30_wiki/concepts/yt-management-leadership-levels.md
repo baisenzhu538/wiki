@@ -16,7 +16,7 @@ diagnostic_signals:
 - signal: 管理者高估自己的段位
   framework_lens: 认知偏差
   follow_up_question: 你的下属和同级认为你在哪个段位？如果和你自评差2段，你在高估自己
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 id: yt-management-leadership-levels
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -24,9 +24,9 @@ created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 # 管理段位
 
 > 来源：一堂管理必修课「管团队」模块，《晋升之旅：管理者成长五段位》。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

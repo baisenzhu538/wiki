@@ -6,15 +6,15 @@ domain:
 status: draft
 id: sprint-2-gate-enrich-evidence
 author: legacy
-source_context: KDO internal record
+source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260510_9e98a292）
 source_refs:
-- legacy
+- src_20260510_9e98a292
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
+updated_at: '2026-06-16'
 ---
-
 # Sprint 2 门禁系统 + Enrich 举证 — 设计规格
 
 > 黄药师起草，提交欧阳锋审查。对应迁移方案 Sprint 2。

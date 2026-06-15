@@ -10,9 +10,9 @@ tags:
 - '#domain/knowledge-management'
 - '#method/evaluation-method'
 source_refs:
-- legacy
+- src_20260606_050f35d5
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 version: 1
 supersedes: null
 related:
@@ -23,8 +23,8 @@ author: legacy
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low
+source_context: （原 legacy，已从 title/context/filename 推断为 src_20260606_050f35d5）
 ---
-
 # Data Curator Skill 实施方案 v1.0
 
 ## 来源

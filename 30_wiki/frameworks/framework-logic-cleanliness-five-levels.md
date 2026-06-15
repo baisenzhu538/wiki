@@ -1,36 +1,33 @@
 ---
-id: "framework-logic-cleanliness-five-levels"
-title: "逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准"
-type: "framework"
+id: framework-logic-cleanliness-five-levels
+title: 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
+type: framework
 source_refs:
-- src_20260510_1eb77650
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-source_refs:
-  - "src_20260614_8269ccdb"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（逻辑洁癖与建模审美）"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+source_person: Truman
+source_context: 一堂高阶建模能力培训（逻辑洁癖与建模审美） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.8
 related:
-  - "[[modeling-scientific-milestones]]"
-  - "[[tool-checklist-cheatsheet-modeling]]"
-  - "[[tool-essence-nfactor-modeling]]"
-  - "[[dk-modeling-essence-predictive]]"
+- '[[modeling-scientific-milestones]]'
+- '[[tool-checklist-cheatsheet-modeling]]'
+- '[[tool-essence-nfactor-modeling]]'
+- '[[dk-modeling-essence-predictive]]'
 tags:
-  - "#modeling"
-  - "#framework"
-  - "#logic"
-  - "#mece"
+- '#modeling'
+- '#framework'
+- '#logic'
+- '#mece'
 ---
-
 # 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
 
 > **Burn line**: 建模不是把东西堆在一起，而是让内容从散点 → 清单 → 优先级 → MECE → 逻辑链逐段升级。

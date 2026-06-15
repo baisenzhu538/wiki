@@ -1,37 +1,34 @@
 ---
-id: "case-essence-education-strategy"
-title: "案例：教育本质与战略本质的提炼"
-type: "case"
+id: case-essence-education-strategy
+title: 案例：教育本质与战略本质的提炼
+type: case
 source_refs:
-- src_20260614_eca9f5b3
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-  - "strategy"
-source_refs:
-  - "src_20260614_8269ccdb"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（本质建模案例）"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+- strategy
+source_person: Truman
+source_context: 一堂高阶建模能力培训（本质建模案例） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[tool-essence-nfactor-modeling]]"
-  - "[[dk-modeling-explanatory-vs-predictive-essence]]"
-  - "[[dk-modeling-essence-predictive]]"
+- '[[tool-essence-nfactor-modeling]]'
+- '[[dk-modeling-explanatory-vs-predictive-essence]]'
+- '[[dk-modeling-essence-predictive]]'
 tags:
-  - "#modeling"
-  - "#case"
-  - "#essence"
-  - "#education"
-  - "#strategy"
+- '#modeling'
+- '#case'
+- '#essence'
+- '#education'
+- '#strategy'
 ---
-
 # 案例：教育本质与战略本质的提炼
 
 > **Burn line**: 真正值钱的本质不是一句漂亮话，而是能推导出所有上层解法的树根。

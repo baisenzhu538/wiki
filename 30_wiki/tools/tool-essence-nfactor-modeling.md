@@ -1,38 +1,35 @@
 ---
-id: "tool-essence-nfactor-modeling"
-title: "本质/N要素建模法：提炼不可再约的核心变量"
-type: "tool"
+id: tool-essence-nfactor-modeling
+title: 本质/N要素建模法：提炼不可再约的核心变量
+type: tool
 source_refs:
-- src_20260614_d0539c25
-status: "enriched"
+- src_20260614_73352fa5
+- src_20260614_8269ccdb
+- src_20260614_42f1e977
+status: enriched
 domain:
-  - "yitang"
-  - "product"
-  - "ai-collaboration"
-source_refs:
-  - "src_20260614_73352fa5"
-  - "src_20260614_8269ccdb"
-  - "src_20260614_42f1e977"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "medium"
+- yitang
+- product
+- ai-collaboration
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: medium
 confidence: 0.75
 related:
-  - "[[modeling-weapon-library]]"
-  - "[[modeling-three-stages]]"
-  - "[[dk-modeling-essence-predictive]]"
-  - "[[tool-iceberg-triangle-modeling]]"
+- '[[modeling-weapon-library]]'
+- '[[modeling-three-stages]]'
+- '[[dk-modeling-essence-predictive]]'
+- '[[tool-iceberg-triangle-modeling]]'
 tags:
-  - "#modeling"
-  - "#tool"
-  - "#essence"
-  - "#n-factor"
-  - "#insight"
+- '#modeling'
+- '#tool'
+- '#essence'
+- '#n-factor'
+- '#insight'
 ---
-
 # 本质/N要素建模法：提炼不可再约的核心变量
 
 > **Burn line**: 本质不是“最抽象的词”，而是“去掉它，整个事情就不成立的那个东西”。

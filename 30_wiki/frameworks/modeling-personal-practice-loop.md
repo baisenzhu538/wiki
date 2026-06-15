@@ -1,35 +1,33 @@
 ---
-id: "modeling-personal-practice-loop"
-title: "建模能力个人修炼闭环：刻意练习 × IPO × PDCA"
-type: "framework"
+id: modeling-personal-practice-loop
+title: 建模能力个人修炼闭环：刻意练习 × IPO × PDCA
+type: framework
 source_refs:
-- src_20260609_e3a27299
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "personal-growth"
-  - "modeling"
-source_refs:
-  - "src_20260614_8269ccdb"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- personal-growth
+- modeling
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[modeling-level-map]]"
-  - "[[modeling-three-values]]"
-  - "[[modeling-scientific-milestones]]"
-  - "[[tool-iterative-recursive-deep-dig]]"
+- '[[modeling-level-map]]'
+- '[[modeling-three-values]]'
+- '[[modeling-scientific-milestones]]'
+- '[[tool-iterative-recursive-deep-dig]]'
 tags:
-  - "#modeling"
-  - "#framework"
-  - "#personal-growth"
-  - "#deliberate-practice"
+- '#modeling'
+- '#framework'
+- '#personal-growth'
+- '#deliberate-practice'
+source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
 ---
-
 # 建模能力个人修炼闭环：刻意练习 × IPO × PDCA
 
 > **Burn line**: 建模是手艺活，好坏跟你聪不聪明关系不大，跟你见过多少模型、练过多少轮关系很大。

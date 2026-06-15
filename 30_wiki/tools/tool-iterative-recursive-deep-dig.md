@@ -1,36 +1,34 @@
 ---
-id: "tool-iterative-recursive-deep-dig"
-title: "迭代递归深挖法：用‘喷—撞—改’循环把模型推到撞无可撞"
-type: "tool"
+id: tool-iterative-recursive-deep-dig
+title: 迭代递归深挖法：用‘喷—撞—改’循环把模型推到撞无可撞
+type: tool
 source_refs:
-- src_20260613_98aa19d4
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-  - "ai-collaboration"
-source_refs:
-  - "src_20260614_8269ccdb"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+- ai-collaboration
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[modeling-scientific-milestones]]"
-  - "[[tool-ai-skill-engineering-method]]"
-  - "[[dk-modeling-ai-iterative-prompting]]"
-  - "[[dk-modeling-counterexample-driven]]"
+- '[[modeling-scientific-milestones]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[dk-modeling-ai-iterative-prompting]]'
+- '[[dk-modeling-counterexample-driven]]'
 tags:
-  - "#modeling"
-  - "#tool"
-  - "#iteration"
-  - "#critique"
-  - "#deep-dig"
+- '#modeling'
+- '#tool'
+- '#iteration'
+- '#critique'
+- '#deep-dig'
+source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
 ---
-
 # 迭代递归深挖法：用“喷—撞—改”循环把模型推到撞无可撞
 
 > **Burn line**: 建模不是一次成型，而是“喷到无可喷，撞到无可撞，改到改不动”。

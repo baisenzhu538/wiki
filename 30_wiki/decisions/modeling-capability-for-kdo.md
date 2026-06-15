@@ -1,42 +1,42 @@
 ---
 id: modeling-capability-for-kdo
-title: "KDO 内容路线决策：建模能力在知识库建设中的应用"
+title: KDO 内容路线决策：建模能力在知识库建设中的应用
 type: decision
 status: stable
 confidence: 0.78
 domain:
-  - kdo
-  - yitang
+- kdo
+- yitang
 source_refs:
-  - "Truman-高阶建模课程材料（00_inbox/建模能力/）"
-  - "kdo/wiki 建设实践（药柜主题整理经验）"
+- Truman-高阶建模课程材料（00_inbox/建模能力/）
+- kdo/wiki 建设实践（药柜主题整理经验）
 related:
-  - modeling-three-stages
-  - modeling-capability-system
-  - modeling-level-map
-  - modeling-to-kdo-toolchain
-  - model-quality-four-levels
-  - case-truman-livestream-sop-iteration
-  - case-truman-ai-skill-self-packaging
-  - case-truman-personal-growth-map-creation
-  - dk-modeling-ai-without-judgment
-  - dk-modeling-counterexample-driven
-  - dk-modeling-essence-predictive
-  - dk-modeling-sop-execution-locks
+- modeling-three-stages
+- modeling-capability-system
+- modeling-level-map
+- modeling-to-kdo-toolchain
+- model-quality-four-levels
+- case-truman-livestream-sop-iteration
+- case-truman-ai-skill-self-packaging
+- case-truman-personal-growth-map-creation
+- dk-modeling-ai-without-judgment
+- dk-modeling-counterexample-driven
+- dk-modeling-essence-predictive
+- dk-modeling-sop-execution-locks
 tags:
-  - #modeling
-  - #knowledge-management
-  - #kdo
-  - #meta-method
-  - #decision
-reviewed_by: "黄药师"
+- null
+- null
+- null
+- null
+- null
+reviewed_by: pending
 review_date: 2026-06-14
 promoted_from: 60_feedback/itingnao/kcards-v3/
-author: "黄药师"
+author: 黄药师
 created_at: 2026-06-15
 trust_level: high
+updated_at: '2026-06-16'
 ---
-
 # 概念卡：建模能力在 kdo/wiki 知识库建设中的应用
 
 ## 一句话定义

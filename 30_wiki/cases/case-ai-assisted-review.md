@@ -1,37 +1,34 @@
 ---
-id: "case-ai-assisted-review"
-title: "案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己"
-type: "case"
+id: case-ai-assisted-review
+title: 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己
+type: case
 source_refs:
-- src_20260614_eca9f5b3
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-  - "ai"
-source_refs:
-  - "src_20260614_8269ccdb"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（AI 辅助复盘案例）"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+- ai
+source_person: Truman
+source_context: 一堂高阶建模能力培训（AI 辅助复盘案例） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[case-ai-agent-milestone-design]]"
-  - "[[case-truman-ai-skill-engineering-guide]]"
-  - "[[dk-modeling-ai-iterative-prompting]]"
+- '[[case-ai-agent-milestone-design]]'
+- '[[case-truman-ai-skill-engineering-guide]]'
+- '[[dk-modeling-ai-iterative-prompting]]'
 tags:
-  - "#modeling"
-  - "#case"
-  - "#ai"
-  - "#review"
-  - "#feedback"
+- '#modeling'
+- '#case'
+- '#ai'
+- '#review'
+- '#feedback'
 ---
-
 # 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己复盘自己
 
 > **Burn line**: AI 不仅能帮人复盘，还能自己复盘自己，把一次经验变成下一次的基础。

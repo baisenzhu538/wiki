@@ -6,7 +6,7 @@ domain:
 status: enriched
 title: 诊所O2O外卖平台业务深度调研报告
 type: concept
-updated_at: 2026-05-03
+updated_at: '2026-06-16'
 pipeline:
 - confidence-verified-by-case
 author: unknown
@@ -14,9 +14,9 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium-low
 source_refs:
-- legacy
+- src_20260501_dfa19257
+source_context: （原 legacy，已从 title/context/filename 推断为 src_20260501_dfa19257）
 ---
-
 # 诊所O2O外卖平台业务深度调研报告
 
 ## Summary

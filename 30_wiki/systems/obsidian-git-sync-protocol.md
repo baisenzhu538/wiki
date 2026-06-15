@@ -6,19 +6,18 @@ domain:
 status: draft
 id: obsidian-git-sync-protocol
 created_at: '2026-05-03'
-updated_at: '2026-05-03'
+updated_at: '2026-06-16'
 related: null
 tags: null
-trust_level: high
+trust_level: medium
 reviewed_by: Claude
 review_date: '2026-05-03'
 author: legacy
-source_context: KDO internal record
+source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260501_58b6edef）
 source_refs:
-- legacy
+- src_20260501_58b6edef
 confidence: 0.6
 ---
-
 # Obsidian Git Multi-Device Sync Protocol
 
 ## Core Points

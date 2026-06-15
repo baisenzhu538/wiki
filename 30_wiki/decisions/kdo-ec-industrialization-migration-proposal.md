@@ -6,15 +6,15 @@ domain:
 status: draft
 id: kdo-ec-industrialization-migration-proposal
 author: legacy
-source_context: KDO internal record
+source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
+updated_at: '2026-06-16'
 ---
-
 # EC工业化规范 → KDO管线迁移方案（征求意见稿）
 
 > 黄药师起草，请欧阳锋审查，最终由老朱拍板。

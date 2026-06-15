@@ -1,32 +1,30 @@
 ---
-id: "modeling-three-values"
-title: "建模的三重价值：确定性、框架性、迁移性"
-type: "concept"
+id: modeling-three-values
+title: 建模的三重价值：确定性、框架性、迁移性
+type: concept
 source_refs:
-- src_20260613_61c0cd80
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-source_refs:
-  - "src_20260614_8269ccdb"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[modeling-capability-system]]"
-  - "[[modeling-three-stages]]"
-  - "[[modeling-level-map]]"
+- '[[modeling-capability-system]]'
+- '[[modeling-three-stages]]'
+- '[[modeling-level-map]]'
 tags:
-  - "#modeling"
-  - "#concept"
-  - "#value"
+- '#modeling'
+- '#concept'
+- '#value'
+source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
 ---
-
 # 建模的三重价值：确定性、框架性、迁移性
 
 > **Burn line**: 所有模型最终都是为了解决三个问题：让输出更确定、让思考有框架、让经验可迁移。

@@ -7,15 +7,15 @@ review_date: 2026-05-04
 reviewed_by: 黄药师
 status: enriched
 title: Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl
-trust_level: high
+trust_level: medium
 type: concept
-updated_at: 2026-05-04
+updated_at: '2026-06-16'
 author: unknown
-confidence: 0.75
+confidence: 0.7
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 # Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl
 
 > 2026年AI时代三大网页抓取技术。一句话定位：Firecrawl是托管API（省心付费）、Crawl4AI是开源工作马（免费自托管）、Scrapling是反反爬专家（防封杀最强）。

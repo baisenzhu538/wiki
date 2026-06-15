@@ -9,7 +9,7 @@ tags:
 - '#domain/knowledge-management'
 - '#method/evaluation-method'
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 target_roles:
 - 用户（决策者）
 - 欧阳锋（Architect）
@@ -23,14 +23,13 @@ related:
 - huangyaoshi-data-alignment-response
 - ouyangfeng-data-alignment-response
 author: legacy
-source_context: KDO internal record
+source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # Data Curator Skill — 五角色分工方案
 
 ## 分工逻辑

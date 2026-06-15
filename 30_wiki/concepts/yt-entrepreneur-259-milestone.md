@@ -19,7 +19,7 @@ query_triggers:
 - 最小成本验证
 - 259框架
 review_date: 2026-06-15
-reviewed_by: 老顽童
+reviewed_by: pending
 source_refs:
 - src_20260614_8f80cb0f
 - src_20260522_4be84945
@@ -49,7 +49,7 @@ diagnostic_signals:
 - signal: 用户只关注9个里程碑，忘了2个假设和5个步骤
   framework_lens: 割裂使用——259是一个整体系统
   follow_up_question: 你的里程碑是建立在哪两个核心假设之上？如果假设错了，里程碑还有意义吗？
-updated_at: 2026-06-15
+updated_at: '2026-06-16'
 author: 老顽童
 ---
 # 259里程碑

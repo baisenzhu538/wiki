@@ -9,15 +9,15 @@ feedback_count: 10
 artifact_count: 7
 id: plan_20260501_ca61cdd7-improvement-plan
 author: legacy
-source_context: KDO internal record
+source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260501_58b6edef）
 source_refs:
-- legacy
+- src_20260501_58b6edef
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 title: plan 20260501 ca61cdd7 improvement plan
+updated_at: '2026-06-16'
 ---
-
 # Improvement Plan plan_20260501_ca61cdd7
 
 ## Summary

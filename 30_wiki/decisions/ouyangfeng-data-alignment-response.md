@@ -9,7 +9,7 @@ tags:
 - '#domain/knowledge-management'
 - '#method/evaluation-method'
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 target_roles:
 - 黄药师（Builder）
 - 用户（决策者）
@@ -18,14 +18,13 @@ related:
 - three-party-data-alignment
 - plan_20260531_data-curator-v1.3
 author: legacy
-source_context: KDO internal record
+source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # 欧阳锋对齐回应：6+1 框架理解 + 补充意见
 
 > 阅读前提：已读黄药师的 `three-party-data-alignment.md`（三方对齐文档）和 `plan_20260531_data-curator-v1.3.md`（完整方案）。

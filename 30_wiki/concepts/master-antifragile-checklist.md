@@ -22,14 +22,14 @@ related:
 status: enriched
 title: 反脆弱决策检查清单
 type: tool
-updated_at: 2026-05-18
+updated_at: '2026-06-16'
 version: 1
 author: unknown
 trust_level: medium-high
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 # 反脆弱决策检查清单
 
 > **核心定位**：在做重要决策前，检查"如果计划失败，我能不能从不确定性中获益"。**不是"避免风险"，是"让不确定性为我所用"**。**使用顺序**：位于所有分析之后、拍板之前——先用#5做结构性脆弱检查，再用#1做认知自检，最后拍板。

@@ -9,7 +9,7 @@ tags:
 - '#domain/knowledge-management'
 - '#method/evaluation-method'
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 target_roles:
 - 用户（决策者）
 - 欧阳锋（Architect）
@@ -19,14 +19,14 @@ related:
 - huangyaoshi-tagging-and-scope-proposal
 - plan_20260531_data-curator-v1.3
 author: legacy
-source_context: KDO internal decision record
+source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
+  src_20260606_6dad71f1）
 source_refs:
-- legacy
+- src_20260606_6dad71f1
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # KDO 标签体系：15 维度完整定义 v1.0
 
 ## 设计原则

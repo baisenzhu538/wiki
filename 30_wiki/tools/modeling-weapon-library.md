@@ -4,40 +4,37 @@ title: 常见模型武器库：按问题难度调用模型
 type: tool
 source_refs:
 - src_20260614_73352fa5
+- src_20260614_42f1e977
+- src_20260614_8269ccdb
 status: enriched
 domain:
-  - yitang
-  - product
-  - ai-collaboration
-source_refs:
-  - src_20260614_73352fa5
-  - src_20260614_42f1e977
-  - src_20260614_8269ccdb
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
+- yitang
+- product
+- ai-collaboration
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
 author: 老顽童
-reviewed_by: 老顽童
-review_date: "2026-06-14"
+reviewed_by: pending
+review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.75
 related:
-  - "[[modeling-capability-system]]"
-  - "[[modeling-three-stages]]"
-  - "[[modeling-level-map]]"
+- '[[modeling-capability-system]]'
+- '[[modeling-three-stages]]'
+- '[[modeling-level-map]]'
 tags:
-  - "#modeling"
-  - "#tool"
-  - "#framework"
-  - "#checklist"
+- '#modeling'
+- '#tool'
+- '#framework'
+- '#checklist'
 diagnostic_signals:
-  - signal: 用户说"我想提炼一个方法论，但不知道用什么结构"
-    framework_lens: 模型武器库
-    follow_up_question: 你要解决的问题是分类、排序、对比、因果还是创新？
-  - signal: 用户说"这个模型太简单/太复杂"
-    framework_lens: 难度分层
-    follow_up_question: 这个问题是简单、更难还是最难？是否错配了模型难度？
+- signal: 用户说"我想提炼一个方法论，但不知道用什么结构"
+  framework_lens: 模型武器库
+  follow_up_question: 你要解决的问题是分类、排序、对比、因果还是创新？
+- signal: 用户说"这个模型太简单/太复杂"
+  framework_lens: 难度分层
+  follow_up_question: 这个问题是简单、更难还是最难？是否错配了模型难度？
 ---
-
 # 常见模型武器库：按问题难度调用模型
 
 > **Burn line**: 建模高手不是会很多模型，而是知道什么问题用什么模型。

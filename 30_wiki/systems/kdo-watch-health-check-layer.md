@@ -1,9 +1,9 @@
 ---
 title: kdo watch 定时巡检层技术说明
 author: 审查者欧阳锋
-source_context: KDO internal record
+source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 role: 知识架构师 (Knowledge Architect)
 created_at: '2026-05-04'
 status: proposed
@@ -16,8 +16,8 @@ type: concept
 reviewed_by: pending
 confidence: 0.65
 trust_level: low
+updated_at: '2026-06-16'
 ---
-
 # kdo watch 定时巡检层技术说明
 
 > kdo watch 已解决了"新素材进来自动走流水线"的问题。

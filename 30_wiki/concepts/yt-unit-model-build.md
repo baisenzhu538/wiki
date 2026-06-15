@@ -1,47 +1,50 @@
 ---
 id: yt-unit-model-build
-component_of: "[[yt-unit-model-concept]]"
+component_of: '[[yt-unit-model-concept]]'
 confidence: 0.85
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2400
 language: zh-CN
-prerequisites: "[[yt-unit-model-concept]]"
+prerequisites: '[[yt-unit-model-concept]]'
 query_triggers:
-  - "单元模型怎么搭建"
-  - "商业模式分析步骤"
-  - "算账方法"
-  - "成本清单"
-  - "三点预测"
+- 单元模型怎么搭建
+- 商业模式分析步骤
+- 算账方法
+- 成本清单
+- 三点预测
 related:
-  - yt-unit-model-selection
+- yt-unit-model-selection
 review_date: 2026-06-11
-reviewed_by: "老顽童"
+reviewed_by: pending
 source_refs:
-  - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-单元模型-笔记.txt"
+- 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt
+- 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-笔记.txt
 status: reviewed
-title: "单元模型搭建五步法"
+title: 单元模型搭建五步法
 trust_level: medium
 type: skill
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 version: 1
 yitang:
   map: entrepreneur
-  module: "单元模型"
+  module: 单元模型
   course_id: yt-unit-model-build
   course_type: skill
   level: core
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '单元模型搭得很漂亮，但关键参数怎么都算不准', 'framework_lens': '参数可信度不足——模型结构越精确，参数误差扭曲越严重', 'follow_up_question': '哪些参数来自真实数据、哪些是估算？估算参数偏差±30%结论还站得住吗？'}
-  - {'signal': '按单元模型算出来应该赚钱，但实际在亏钱', 'framework_lens': '隐形成本遗漏——模型算的是理想情况，实际业务有模型未覆盖的随机因素', 'follow_up_question': "实际成本和模型成本之间最大的缺口在哪里？有没有哪项成本'忘了'放进模型？"}
-author: "老顽童"
+- signal: 单元模型搭得很漂亮，但关键参数怎么都算不准
+  framework_lens: 参数可信度不足——模型结构越精确，参数误差扭曲越严重
+  follow_up_question: 哪些参数来自真实数据、哪些是估算？估算参数偏差±30%结论还站得住吗？
+- signal: 按单元模型算出来应该赚钱，但实际在亏钱
+  framework_lens: 隐形成本遗漏——模型算的是理想情况，实际业务有模型未覆盖的随机因素
+  follow_up_question: 实际成本和模型成本之间最大的缺口在哪里？有没有哪项成本'忘了'放进模型？
+author: 老顽童
 ---
-
 # 单元模型搭建五步法
 
 > 来源：一堂五步法·单元模型篇 | [[yt-unit-model-concept]] | [[yt-market-size-estimation]] | [[case-unit-model-gashapon]]

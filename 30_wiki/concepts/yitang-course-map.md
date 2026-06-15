@@ -6,7 +6,7 @@ domain:
 - yitang
 status: stable
 created_at: 2026-05-06
-updated_at: 2026-05-06
+updated_at: '2026-06-16'
 id: yitang-course-map
 tags:
 - course-map
@@ -15,12 +15,12 @@ tags:
 - yitang
 author: 老顽童
 reviewed_by: 欧阳锋
-confidence: 0.8
-trust_level: high
+confidence: 0.7
+trust_level: medium
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 # 一堂课程大地图
 
 > Dataview 驱动的课程列表页。方法论框架和体系解读见 [[30_wiki/systems/一堂方法论体系总图|一堂方法论体系总图]]（权威 Hub）。

@@ -6,19 +6,18 @@ domain:
 status: draft
 id: kdo-protocol-implementation-roadmap
 created_at: '2026-05-03'
-updated_at: '2026-05-03'
+updated_at: '2026-06-16'
 related: null
 tags: null
-trust_level: high
+trust_level: medium
 reviewed_by: Claude
 review_date: '2026-05-03'
 author: legacy
-source_context: KDO internal record
+source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 confidence: 0.6
 ---
-
 # KDO Protocol Implementation Roadmap
 
 ## Executive Summary

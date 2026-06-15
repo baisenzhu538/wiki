@@ -16,7 +16,7 @@ diagnostic_signals:
 - signal: 时间线是否帮助读者独立发现至少 1 个之前忽略的因果问题
   framework_lens: 学习性 / 反直觉发现
   follow_up_question: 如果时间线只验证已知结论，是否还有隐藏节点未发现？
-updated_at: '2026-06-13'
+updated_at: '2026-06-16'
 author: legacy
 reviewed_by: pending
 created_at: '2026-06-15'
@@ -24,7 +24,8 @@ confidence: 0.75
 trust_level: medium
 type: skill
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
 # 清单体故事线①：严格时间线——用时间轴重构事件因果链
 

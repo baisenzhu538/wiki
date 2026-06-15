@@ -2,22 +2,21 @@
 id: yitang-huazong-ama-by-industry
 created_at: 2026-05-29
 domain:
-  - healthcare
+- healthcare
 source_refs:
-  - src_20260529_huazong_ama
+- src_20260529_huazong_ama
 status: stable
-title: "花总AMA按行业分类整理（商业突破大航海）"
+title: 花总AMA按行业分类整理（商业突破大航海）
 type: concept
-updated_at: 2026-05-29
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-source-cited
-  - confidence-verified-by-case
+- confidence-source-cited
+- confidence-verified-by-case
 author: unknown
-reviewed_by: "欧阳锋"
-confidence: 0.8
-trust_level: high
+reviewed_by: 欧阳锋
+confidence: 0.7
+trust_level: medium
 ---
-
 # 花总AMA按行业分类整理
 
 > 原文：[[yitang-huazong-ama-20250526]]

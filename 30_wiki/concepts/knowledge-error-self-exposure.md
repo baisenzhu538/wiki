@@ -16,7 +16,7 @@ query_triggers:
 - 全域检测靶向修复
 - 知识库腐败
 created_at: 2026-06-03
-updated_at: 2026-06-03
+updated_at: '2026-06-16'
 pipeline:
 - confidence-draft
 author: legacy
@@ -24,9 +24,9 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 # 知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向
 
 > **核心定位**：知识库的谬误不会自己消失——它们只会积累。问题不是"要不要全域检测"，而是"能不能在不触发全量重跑的前提下，让每一条错误自己暴露出来"。

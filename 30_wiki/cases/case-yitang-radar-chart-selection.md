@@ -1,37 +1,34 @@
 ---
-id: "case-yitang-radar-chart-selection"
-title: "案例：一堂雷达图评选机制——从 Truman 拍板到‘只聊模型不聊结果’"
-type: "case"
+id: case-yitang-radar-chart-selection
+title: 案例：一堂雷达图评选机制——从 Truman 拍板到‘只聊模型不聊结果’
+type: case
 source_refs:
-- src_20260614_b34f6c6e
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-  - "decision-making"
-source_refs:
-  - "src_20260614_8269ccdb"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（抽象建模/雷达图案例）"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+- decision-making
+source_person: Truman
+source_context: 一堂高阶建模能力培训（抽象建模/雷达图案例） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[tool-radar-chart-modeling]]"
-  - "[[framework-logic-cleanliness-five-levels]]"
-  - "[[dk-modeling-expert-consensus-five-percent]]"
+- '[[tool-radar-chart-modeling]]'
+- '[[framework-logic-cleanliness-five-levels]]'
+- '[[dk-modeling-expert-consensus-five-percent]]'
 tags:
-  - "#modeling"
-  - "#case"
-  - "#radar-chart"
-  - "#decision"
-  - "#selection"
+- '#modeling'
+- '#case'
+- '#radar-chart'
+- '#decision'
+- '#selection'
 ---
-
 # 案例：一堂雷达图评选机制——从 Truman 拍板到「只聊模型不聊结果」
 
 > **Burn line**: 当评选对象多到 CEO 拍不了板时，最好的解法是画一个雷达图，让模型替人做决策。

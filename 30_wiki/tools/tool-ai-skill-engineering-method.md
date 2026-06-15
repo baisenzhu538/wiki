@@ -1,36 +1,34 @@
 ---
-id: "tool-ai-skill-engineering-method"
-title: "AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位"
-type: "tool"
+id: tool-ai-skill-engineering-method
+title: AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位
+type: tool
 source_refs:
-- src_20260614_329d0e0c
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "ai-collaboration"
-  - "skill-engineering"
-source_refs:
-  - "src_20260614_8269ccdb"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- ai-collaboration
+- skill-engineering
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[case-truman-ai-skill-engineering-guide]]"
-  - "[[dk-modeling-ai-iterative-prompting]]"
-  - "[[dk-modeling-ai-cross-validation]]"
-  - "[[dk-modeling-ai-self-retrospection]]"
+- '[[case-truman-ai-skill-engineering-guide]]'
+- '[[dk-modeling-ai-iterative-prompting]]'
+- '[[dk-modeling-ai-cross-validation]]'
+- '[[dk-modeling-ai-self-retrospection]]'
 tags:
-  - "#modeling"
-  - "#tool"
-  - "#ai-skill"
-  - "#skill-engineering"
-  - "#ai-collaboration"
+- '#modeling'
+- '#tool'
+- '#ai-skill'
+- '#skill-engineering'
+- '#ai-collaboration'
+source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
 ---
-
 # AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位
 
 > **Burn line**: AI 不会离职，你可以放心地“喷”它十几轮，直到它改到你能力的上限。

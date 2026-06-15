@@ -6,9 +6,9 @@ status: draft
 domain:
 - design
 source_person: 月白
-source_context: 文创案例
+source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
-- legacy
+- src_20260522_38173b48
 wiki_refs: null
 definition_of_done:
 - 操作步骤清晰可执行
@@ -17,7 +17,7 @@ definition_of_done:
 tools_required: null
 prerequisite_skills: null
 created_at: 2026-06-07
-updated_at: 2026-06-07
+updated_at: '2026-06-16'
 pipeline:
 - confidence-draft
 - confidence-verified-by-case
@@ -26,7 +26,6 @@ reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # 技能：AI智价比评估决策
 
 ## 原始表述

@@ -1,35 +1,32 @@
 ---
-id: "case-nine-pm-livestream-survey"
-title: "案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选"
-type: "case"
+id: case-nine-pm-livestream-survey
+title: 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选
+type: case
 source_refs:
-- src_20260614_eca9f5b3
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-  - "user-research"
-source_refs:
-  - "src_20260614_8269ccdb"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（用户调研与决策案例）"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+- user-research
+source_person: Truman
+source_context: 一堂高阶建模能力培训（用户调研与决策案例） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[concept-thousand-people-square]]"
-  - "[[case-yitang-radar-chart-selection]]"
+- '[[concept-thousand-people-square]]'
+- '[[case-yitang-radar-chart-selection]]'
 tags:
-  - "#modeling"
-  - "#case"
-  - "#user-research"
-  - "#decision"
+- '#modeling'
+- '#case'
+- '#user-research'
+- '#decision'
 ---
-
 # 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选
 
 > **Burn line**: 不是 Truman 想熬到 21:00，而是三次调研后，老用户多数人选了 21:00。

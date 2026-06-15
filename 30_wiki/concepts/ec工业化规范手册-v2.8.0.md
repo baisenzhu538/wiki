@@ -1,23 +1,23 @@
 ---
-id: "ec工业化规范手册-v2.8.0"
+id: ec工业化规范手册-v2.8.0
 created_at: 2026-05-03
 domain:
-  - healthcare
+- healthcare
 review_date: 2026-05-03
 reviewed_by: Claude
 source_refs:
-  - src_20260503_feab72b2
+- src_20260503_feab72b2
 status: enriched
-title: "EC工业化规范手册 v2.8.0"
+title: EC工业化规范手册 v2.8.0
 trust_level: high
 type: concept
-updated_at: 2026-05-03
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 author: unknown
 confidence: 0.8
+source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
 ---
-
 # EC工业化规范手册 v2.8.0
 
 > **定位**：鑫港湾HIS系统 · 执行卡片（Execution Card）设计规范

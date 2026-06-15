@@ -1,33 +1,32 @@
 ---
-id: "concept-一堂-kernel-validation"
-title: "产品内核验证：三维度评估 + 六策略验证"
+id: concept-一堂-kernel-validation
+title: 产品内核验证：三维度评估 + 六策略验证
 type: concept
 status: reviewed
-reviewed_by: "周伯通"
+reviewed_by: 周伯通
 domain:
-  - product
-  - yitang
+- product
+- yitang
 source_person: Truman
-source_context: "一堂产品内核验证课（2026年）"
+source_context: 一堂产品内核验证课（2026年）
 source_refs:
-  - "00_inbox/一堂-产品内核验证课-Truman-口述.txt"
+- 00_inbox/一堂-产品内核验证课-Truman-口述.txt
 created_at: 2026-06-09
-updated_at: 2026-06-09
+updated_at: '2026-06-16'
 related:
-  - "concept-一堂-product-kernel"
-  - "concept-一堂-kernel-iteration"
-  - "concept-一堂-key-assumptions"
+- concept-一堂-product-kernel
+- concept-一堂-kernel-iteration
+- concept-一堂-key-assumptions
 wiki_refs:
-  - "concept-一堂-product-kernel"
-  - "concept-一堂-key-assumptions"
+- concept-一堂-product-kernel
+- concept-一堂-key-assumptions
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: "老顽童"
-confidence: 0.85
-trust_level: high
+- confidence-draft
+- confidence-source-cited
+author: 老顽童
+confidence: 0.7
+trust_level: medium
 ---
-
 # 产品内核验证：三维度评估 + 六策略验证
 
 > **产品内核验证的本质：在投入实质性资源之前，用最小成本确认你的内核假设是否正确。**

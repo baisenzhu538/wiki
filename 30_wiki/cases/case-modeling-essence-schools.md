@@ -11,25 +11,24 @@ source_refs:
 - src_20260614_55135154
 - src_20260614_8269ccdb
 tags:
-- #modeling
-- #case
-- #yitang
-- #truman
+- null
+- null
+- null
+- null
 created_at: 2026-06-15
-updated_at: 2026-06-15
+updated_at: '2026-06-16'
 author: 老顽童
 source_person: Truman
 source_context: Truman-高阶建模-本质建模-案例-02
-reviewed_by: 老顽童
+reviewed_by: pending
 review_date: 2026-06-15
 confidence: 0.85
 trust_level: high
 related:
-- [[modeling-three-stages]]
-- [[case-modeling-essence-levels]]
-- [[yt-note-expert-interview-modeling]]
+- - - modeling-three-stages
+- - - case-modeling-essence-levels
+- - - yt-note-expert-interview-modeling
 ---
-
 # 本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野
 
 > 来源：Truman-高阶建模-本质建模-案例-02 | 一堂建模能力培训（Truman）

@@ -6,7 +6,7 @@ status: draft
 domain:
 - master
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 target_roles:
 - 用户（决策者）
 - 黄药师（Builder）
@@ -15,14 +15,13 @@ related:
 - labeling-research-alignment
 - data-labeling-best-practices-report
 author: legacy
-source_context: KDO internal decision record
+source_context: KDO internal decision record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # 欧阳锋：数据标注全网调研 + 对 15 维度方案的补充建议
 
 > 调研范围：2025-2026 年 AI-powered 数据标注、RAG 元数据治理、LLM 自动标签的行业实践

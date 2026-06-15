@@ -1,36 +1,33 @@
 ---
-id: "dk-modeling-case-explosion-confidence"
-title: "案例大爆炸的底气：来自销冠广场，不是胆子大"
-type: "dark-knowledge"
-dark_knowledge_type: "insight"
+id: dk-modeling-case-explosion-confidence
+title: 案例大爆炸的底气：来自销冠广场，不是胆子大
+type: dark-knowledge
+dark_knowledge_type: insight
 source_refs:
-- src_20260614_8f80cb0f
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（销冠广场与一堂五步法）"
-source_refs:
-  - "src_20260614_8269ccdb"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+source_person: Truman
+source_context: 一堂高阶建模能力培训（销冠广场与一堂五步法） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "modeling-capability-for-kdo"
-  - "[[modeling-three-stages]]"
-  - "[[dk-modeling-expert-consensus-five-percent]]"
+- modeling-capability-for-kdo
+- '[[modeling-three-stages]]'
+- '[[dk-modeling-expert-consensus-five-percent]]'
 tags:
-  - "#modeling"
-  - "#dk"
-  - "#case-study"
-  - "#confidence"
+- '#modeling'
+- '#dk'
+- '#case-study'
+- '#confidence'
 ---
-
 # 案例大爆炸的底气：来自销冠广场，不是胆子大
 
 ## 原始表述

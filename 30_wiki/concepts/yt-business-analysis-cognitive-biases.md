@@ -1,45 +1,48 @@
 ---
 id: yt-business-analysis-cognitive-biases
-component_of: "[[yt-five-step-method]]"
+component_of: '[[yt-five-step-method]]'
 confidence: 0.85
 created_at: 2026-06-11
 difficulty: intermediate
 domain:
-  - yitang
+- yitang
 estimated_tokens: 2400
 language: zh-CN
-prerequisites: "[[yt-five-step-method]] | [[yt-demand-analysis-hiking-map]]"
+prerequisites: '[[yt-five-step-method]] | [[yt-demand-analysis-hiking-map]]'
 query_triggers:
-  - "商业分析认知偏差"
-  - "证实性偏差 商业"
-  - "常见认知陷阱"
-  - "一堂五步法 偏差"
-  - "创业者认知盲区"
+- 商业分析认知偏差
+- 证实性偏差 商业
+- 常见认知陷阱
+- 一堂五步法 偏差
+- 创业者认知盲区
 review_date: 2026-06-11
-reviewed_by: "老顽童"
+reviewed_by: pending
 source_refs:
-  - "00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt"
+- 00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt
+- 00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt
 status: reviewed
-title: "暗知识：五步法中的主要认知偏差"
+title: 暗知识：五步法中的主要认知偏差
 trust_level: medium
 type: dk
 version: 1
 yitang:
   map: entrepreneur
-  module: "落地实操"
+  module: 落地实操
   course_id: yt-business-analysis-cognitive-biases
   course_type: dk
   level: core
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '用户用五步法做了完整分析，但结论和最初直觉一模一样', 'framework_lens': '框架被偏差绑架——五步法不能自动克服认知偏差', 'follow_up_question': '如果这个结论最终被证明是错的，你会看到哪些证据？这些证据你认真找过吗？'}
-  - {'signal': '用户只收集支持自己假设的证据', 'framework_lens': '证实性偏差——分析成了自我证明', 'follow_up_question': '你最近一周主动找过几个反例？如果答案是0，你的分析很可能在自我强化'}
-updated_at: 2026-06-13
-author: "老顽童"
+- signal: 用户用五步法做了完整分析，但结论和最初直觉一模一样
+  framework_lens: 框架被偏差绑架——五步法不能自动克服认知偏差
+  follow_up_question: 如果这个结论最终被证明是错的，你会看到哪些证据？这些证据你认真找过吗？
+- signal: 用户只收集支持自己假设的证据
+  framework_lens: 证实性偏差——分析成了自我证明
+  follow_up_question: 你最近一周主动找过几个反例？如果答案是0，你的分析很可能在自我强化
+updated_at: '2026-06-16'
+author: 老顽童
 ---
-
 # 暗知识：五步法中的主要认知偏差
 
 > 来源：一堂五步法·序言篇及落地实操篇 | [[yt-five-step-method]] | [[yt-five-step-common-pitfalls]] | [[yt-demand-analysis-hiking-map]]

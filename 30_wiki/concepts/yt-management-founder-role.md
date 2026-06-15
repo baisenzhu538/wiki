@@ -15,7 +15,7 @@ diagnostic_signals:
 - signal: 创始人把战略外包给投资人
   framework_lens: 甩手掌柜论
   follow_up_question: 公司的战略方向由谁最终负责？如果答案是投资人或顾问，你失职了
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 id: yt-management-founder-role
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -23,9 +23,9 @@ created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 # 一号位
 
 > 来源：一堂管理必修课「管公司」模块。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

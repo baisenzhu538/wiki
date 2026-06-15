@@ -1,36 +1,33 @@
 ---
-id: "case-course-milestone-model"
-title: "案例：一堂课程里程碑模型——方法论级建模的六步生产流程"
-type: "case"
+id: case-course-milestone-model
+title: 案例：一堂课程里程碑模型——方法论级建模的六步生产流程
+type: case
 source_refs:
-- src_20260510_ba494aea
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-  - "education"
-source_refs:
-  - "src_20260614_8269ccdb"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（课程里程碑模型案例）"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+- education
+source_person: Truman
+source_context: 一堂高阶建模能力培训（课程里程碑模型案例） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[framework-course-milestone-model]]"
-  - "[[case-thousand-people-square]]"
-  - "[[case-personal-map-modeling]]"
+- '[[framework-course-milestone-model]]'
+- '[[case-thousand-people-square]]'
+- '[[case-personal-map-modeling]]'
 tags:
-  - "#modeling"
-  - "#case"
-  - "#education"
-  - "#milestone"
+- '#modeling'
+- '#case'
+- '#education'
+- '#milestone'
 ---
-
 # 案例：一堂课程里程碑模型——方法论级建模的六步生产流程
 
 > **Burn line**: 如果八年前 Truman 能穿越到现在，他会把这套课程建模的六句话带走。

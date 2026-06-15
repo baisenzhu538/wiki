@@ -1,37 +1,34 @@
 ---
-id: "tool-radar-chart-modeling"
-title: "雷达图建模法：多维度评估与筛选"
-type: "tool"
+id: tool-radar-chart-modeling
+title: 雷达图建模法：多维度评估与筛选
+type: tool
 source_refs:
-- src_20260614_8f80cb0f
-status: "enriched"
+- src_20260614_73352fa5
+- src_20260614_8269ccdb
+- src_20260614_42f1e977
+status: enriched
 domain:
-  - "yitang"
-  - "product"
-  - "ai-collaboration"
-source_refs:
-  - "src_20260614_73352fa5"
-  - "src_20260614_8269ccdb"
-  - "src_20260614_42f1e977"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "medium"
+- yitang
+- product
+- ai-collaboration
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: medium
 confidence: 0.75
 related:
-  - "[[modeling-weapon-library]]"
-  - "[[modeling-three-stages]]"
-  - "[[modeling-level-map]]"
+- '[[modeling-weapon-library]]'
+- '[[modeling-three-stages]]'
+- '[[modeling-level-map]]'
 tags:
-  - "#modeling"
-  - "#tool"
-  - "#radar-chart"
-  - "#evaluation"
-  - "#decision"
+- '#modeling'
+- '#tool'
+- '#radar-chart'
+- '#evaluation'
+- '#decision'
 ---
-
 # 雷达图建模法：多维度评估与筛选
 
 > **Burn line**: 当你需要从多个选项中做选择，但不想靠拍脑袋时，先用雷达图把维度拆清楚。

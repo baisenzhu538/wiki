@@ -17,7 +17,7 @@ diagnostic_signals:
 - signal: 财务完全外包，自己不看报表
   framework_lens: 外包论
   follow_up_question: 你最近一次亲自看过三表并理解数字含义是什么时候？
-updated_at: 2026-06-13
+updated_at: '2026-06-16'
 id: yt-management-finance-basics
 author: 老顽童
 reviewed_by: 欧阳锋
@@ -25,9 +25,9 @@ created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
 source_refs:
-- legacy
+- src_20260614_40afd886
+source_context: （原 legacy，已从 title/context/filename 推断为 src_20260614_40afd886）
 ---
-
 # 财务入门
 
 > 来源：一堂管理必修课「管公司」模块，《经营基础：财务入门必修课》。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

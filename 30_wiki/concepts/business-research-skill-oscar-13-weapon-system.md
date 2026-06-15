@@ -9,13 +9,12 @@ source_refs:
 - src_20260614_40afd886
 status: enriched
 title: Business Research Skill — OSCAR 13武器体系 Claude Code 实现
-trust_level: high
+trust_level: medium
 type: concept
-updated_at: 2026-05-04
+updated_at: '2026-06-16'
 author: 老顽童
-confidence: 0.75
+confidence: 0.7
 ---
-
 # Business Research Skill — OSCAR 13武器体系 Claude Code 实现
 
 > huanwang.org 出品，v2.1.0。将 一堂 OSCAR + 13 武器方法论完整编译为 Claude Code Skill 的生产级实现。

@@ -4,44 +4,41 @@ title: 冰火写本罗盘：AI短剧剧本策划全流程体系
 type: concept
 source_refs:
 - src_20260613_41aceaf5
+- src_20260613_687c4ec0
+- src_20260613_12d63c1c
 status: enriched
 domain:
-  - yitang
-  - ai-collaboration
-  - product
-source_refs:
-  - src_20260613_41aceaf5
-  - src_20260613_687c4ec0
-  - src_20260613_12d63c1c
-created_at: "2026-06-13"
-updated_at: "2026-06-14"
+- yitang
+- ai-collaboration
+- product
+created_at: '2026-06-13'
+updated_at: '2026-06-16'
 author: 老顽童
-reviewed_by: 老顽童
-review_date: "2026-06-13"
+reviewed_by: pending
+review_date: '2026-06-13'
 trust_level: medium
 confidence: 0.75
 related:
-  - "[[ai-short-drama-ice-fire-dissection-compass]]"
-  - "[[ai-short-drama-plot-three-axes]]"
-  - "[[ai-short-drama-script-planning-three-axes]]"
-  - "[[ai-short-drama-framework-three-axes]]"
-  - "[[ai-short-drama-conflict-three-axes]]"
+- '[[ai-short-drama-ice-fire-dissection-compass]]'
+- '[[ai-short-drama-plot-three-axes]]'
+- '[[ai-short-drama-script-planning-three-axes]]'
+- '[[ai-short-drama-framework-three-axes]]'
+- '[[ai-short-drama-conflict-three-axes]]'
 tags:
-  - "#ai-short-drama"
-  - "#scriptwriting"
-  - "#framework"
+- '#ai-short-drama'
+- '#scriptwriting'
+- '#framework'
 diagnostic_signals:
-  - signal: 用户说"想用AI写短剧剧本，但不知道从哪里开始"
-    framework_lens: 全本策划五维框架
-    follow_up_question: 你的题材、受众、核心冲突和情绪价值是否已经明确？
-  - signal: 用户说"AI写出来的剧本空洞、没情绪、人设崩塌"
-    framework_lens: 人与AI的分工边界
-    follow_up_question: 你是否先用罗盘搭好了框架，再让AI填肉？
-  - signal: 用户说"剧本写到一半跑题了，后期烂尾"
-    framework_lens: 剧本基地→内容走向→剧情终局的闭环
-    follow_up_question: 内容走向的15个关键节点是否提前锁定？
+- signal: 用户说"想用AI写短剧剧本，但不知道从哪里开始"
+  framework_lens: 全本策划五维框架
+  follow_up_question: 你的题材、受众、核心冲突和情绪价值是否已经明确？
+- signal: 用户说"AI写出来的剧本空洞、没情绪、人设崩塌"
+  framework_lens: 人与AI的分工边界
+  follow_up_question: 你是否先用罗盘搭好了框架，再让AI填肉？
+- signal: 用户说"剧本写到一半跑题了，后期烂尾"
+  framework_lens: 剧本基地→内容走向→剧情终局的闭环
+  follow_up_question: 内容走向的15个关键节点是否提前锁定？
 ---
-
 # 冰火写本罗盘：AI短剧剧本策划全流程体系
 
 > **Burn line**: 不是让AI瞎写，是用专业剧本思维驾驭AI这个"超级执笔"。

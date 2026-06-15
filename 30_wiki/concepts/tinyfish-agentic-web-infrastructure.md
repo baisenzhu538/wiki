@@ -7,15 +7,15 @@ review_date: 2026-05-06
 reviewed_by: 黄药师
 status: enriched
 title: TinyFish — Agentic Web 基础设施建设层 Skill
-trust_level: high
+trust_level: medium
 type: concept
-updated_at: 2026-05-06
+updated_at: '2026-06-16'
 author: unknown
-confidence: 0.75
+confidence: 0.7
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 # TinyFish — Agentic Web 基础设施建设层 Skill
 
 > $47M Series A (led by ICONIQ)，为 AI Agent 提供 Search/Fetch/Browser/Agent 一体化 Web 操作基础设施。

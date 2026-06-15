@@ -16,7 +16,7 @@ diagnostic_signals:
 - signal: 用户能否基于输出独立检验维度选择和权重分配的公正性
   framework_lens: 可审计性 / 组织政治
   follow_up_question: 对比是否被用作 justify 已有决策的修辞武器？
-updated_at: '2026-06-13'
+updated_at: '2026-06-16'
 author: legacy
 reviewed_by: pending
 created_at: '2026-06-15'
@@ -24,7 +24,8 @@ confidence: 0.75
 trust_level: medium
 type: skill
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
 # 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度
 

@@ -3,40 +3,37 @@ id: modeling-level-map
 title: 建模能力段位图：从 L1 到 L6 的十年爬山地图
 type: tool
 source_refs:
-- src_20260614_8f80cb0f
+- src_20260614_bb892297
+- src_20260614_42f1e977
+- src_20260614_8269ccdb
 status: enriched
 domain:
-  - yitang
-  - product
-  - ai-collaboration
-source_refs:
-  - src_20260614_bb892297
-  - src_20260614_42f1e977
-  - src_20260614_8269ccdb
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
+- yitang
+- product
+- ai-collaboration
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
 author: 老顽童
-reviewed_by: 老顽童
-review_date: "2026-06-14"
+reviewed_by: pending
+review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.75
 related:
-  - "[[modeling-capability-system]]"
-  - "[[modeling-three-stages]]"
+- '[[modeling-capability-system]]'
+- '[[modeling-three-stages]]'
 tags:
-  - "#modeling"
-  - "#tool"
-  - "#self-assessment"
-  - "#checklist"
+- '#modeling'
+- '#tool'
+- '#self-assessment'
+- '#checklist'
 diagnostic_signals:
-  - signal: 用户说"我不知道自己建模能力在什么水平"
-    framework_lens: 六段能力段位图
-    follow_up_question: 你能稳定产出 SOP 吗？能跨场景提炼模型吗？能一句话概括本质吗？
-  - signal: 用户说"想提升建模能力但不知道先练什么"
-    framework_lens: 提升路径
-    follow_up_question: 你当前卡在「见识」「实操」「迁移创新」哪个阶段？
+- signal: 用户说"我不知道自己建模能力在什么水平"
+  framework_lens: 六段能力段位图
+  follow_up_question: 你能稳定产出 SOP 吗？能跨场景提炼模型吗？能一句话概括本质吗？
+- signal: 用户说"想提升建模能力但不知道先练什么"
+  framework_lens: 提升路径
+  follow_up_question: 你当前卡在「见识」「实操」「迁移创新」哪个阶段？
 ---
-
 # 建模能力段位图：从 L1 到 L6 的十年爬山地图
 
 > **Burn line**: 建模能力不是天赋，是可以按段位逐步修炼的十年爬山路。

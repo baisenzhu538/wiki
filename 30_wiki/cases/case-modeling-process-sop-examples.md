@@ -11,25 +11,24 @@ source_refs:
 - src_20260614_1e814b94
 - src_20260614_8269ccdb
 tags:
-- #modeling
-- #case
-- #yitang
-- #truman
+- null
+- null
+- null
+- null
 created_at: 2026-06-15
-updated_at: 2026-06-15
+updated_at: '2026-06-16'
 author: 老顽童
 source_person: Truman
 source_context: Truman-高阶建模-流程建模-图-02
-reviewed_by: 老顽童
+reviewed_by: pending
 review_date: 2026-06-15
 confidence: 0.85
 trust_level: high
 related:
-- [[process-modeling]]
-- [[case-modeling-process-sop-evolution]]
-- [[tool-sop-template-modeling]]
+- - - process-modeling
+- - - case-modeling-process-sop-evolution
+- - - tool-sop-template-modeling
 ---
-
 # 流程建模案例：10 个学员企业的 SOP 实践样本
 
 > 来源：Truman-高阶建模-流程建模-图-02 | 一堂建模能力培训（Truman）

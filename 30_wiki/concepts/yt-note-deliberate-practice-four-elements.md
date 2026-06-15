@@ -12,7 +12,7 @@ diagnostic_signals:
 - signal: 用户没有固定套路就追求非舒适区
   framework_lens: 顺序错误
   follow_up_question: 你的笔记有没有一个固定套路？如果没有，先建套路再谈非舒适区
-updated_at: '2026-06-13'
+updated_at: '2026-06-16'
 author: legacy
 reviewed_by: pending
 created_at: '2026-06-15'
@@ -20,9 +20,9 @@ confidence: 0.75
 trust_level: medium
 type: concept
 source_refs:
-- legacy
+- source_unknown
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-
 # 四要素诊断模型——刻意练习的笔记落地框架
 
 ## Constraints & Boundaries

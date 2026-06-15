@@ -8,15 +8,15 @@ version: '2.0'
 supersedes: v1.0（复合编译方案，已废弃）
 id: high-density-composite-compilation-strategy
 author: legacy
-source_context: KDO internal decision record
+source_context: KDO internal decision record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- legacy
+- source_unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.75
 trust_level: medium
+updated_at: '2026-06-16'
 ---
-
 # 高密度素材编译策略 v2.0
 
 > 欧阳锋制定。v1.0 提出的"复合编译"方案已被废弃——该方案按人类线性阅读优化，不适用于 agent 的 RAG 检索模式。v2.0 改用细粒度知识卡 + 导航层架构。

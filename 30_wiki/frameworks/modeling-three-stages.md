@@ -3,44 +3,41 @@ id: modeling-three-stages
 title: 建模三段论：流程建模、抽象建模、本质提炼
 type: framework
 source_refs:
-- src_20260614_c62e0e61
+- src_20260614_42f1e977
+- src_20260614_623cfbfd
+- src_20260614_8269ccdb
 status: enriched
 domain:
-  - yitang
-  - product
-  - ai-collaboration
-source_refs:
-  - src_20260614_42f1e977
-  - src_20260614_623cfbfd
-  - src_20260614_8269ccdb
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
+- yitang
+- product
+- ai-collaboration
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
 author: 老顽童
-reviewed_by: 老顽童
-review_date: "2026-06-14"
+reviewed_by: pending
+review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.75
 tags:
-  - "#modeling"
-  - "#framework"
-  - "#yitang"
+- '#modeling'
+- '#framework'
+- '#yitang'
 related:
-  - "[[modeling-capability-system]]"
-  - "[[modeling-level-map]]"
-  - "[[modeling-weapon-library]]"
-  - "[[process-modeling]]"
+- '[[modeling-capability-system]]'
+- '[[modeling-level-map]]'
+- '[[modeling-weapon-library]]'
+- '[[process-modeling]]'
 diagnostic_signals:
-  - signal: 用户说"这个事情怎么做才能不每次重新想"
-    framework_lens: 流程类建模
-    follow_up_question: 这个任务重复发生吗？失败成本高吗？
-  - signal: 用户说"这类问题有没有通用解法"
-    framework_lens: 抽象建模
-    follow_up_question: 你是否有 10 个以上同类案例可以提炼共性？
-  - signal: 用户说"这个领域的核心到底是什么"
-    framework_lens: 本质提炼
-    follow_up_question: 你能不能用一句话或一个公式概括它的本质？
+- signal: 用户说"这个事情怎么做才能不每次重新想"
+  framework_lens: 流程类建模
+  follow_up_question: 这个任务重复发生吗？失败成本高吗？
+- signal: 用户说"这类问题有没有通用解法"
+  framework_lens: 抽象建模
+  follow_up_question: 你是否有 10 个以上同类案例可以提炼共性？
+- signal: 用户说"这个领域的核心到底是什么"
+  framework_lens: 本质提炼
+  follow_up_question: 你能不能用一句话或一个公式概括它的本质？
 ---
-
 # 建模三段论：流程建模、抽象建模、本质提炼
 
 > **Burn line**: 建模不是一步到位，是从 SOP 到模型再到本质的爬升。

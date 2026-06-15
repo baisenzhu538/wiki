@@ -55,7 +55,7 @@ related:
 - yt-decision-full-process
 - yt-decision-consensus-iceberg
 - yt-panproduct-demand-five-step-method
-reviewed_by: 老顽童
+reviewed_by: pending
 source_refs:
 - src_20260614_8f80cb0f
 - src_20260510_1eb77650
@@ -89,7 +89,7 @@ diagnostic_signals:
 - signal: 用户 rigidly 按顺序走五步，不做迭代
   framework_lens: 僵化使用——五步法需要循环迭代
   follow_up_question: 你的项目走到某一步时，有没有发现需要回到前一步修正？如果没有，可能没有在真实反馈中迭代
-updated_at: 2026-06-15
+updated_at: '2026-06-16'
 author: 老顽童
 review_date: 2026-06-15
 ---

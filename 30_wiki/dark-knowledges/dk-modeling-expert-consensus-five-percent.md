@@ -1,37 +1,34 @@
 ---
-id: "dk-modeling-expert-consensus-five-percent"
-title: "5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感"
-type: "dark-knowledge"
-dark_knowledge_type: "principle"
+id: dk-modeling-expert-consensus-five-percent
+title: 5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感
+type: dark-knowledge
+dark_knowledge_type: principle
 source_refs:
-- src_20260510_1eb77650
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "education"
-  - "modeling"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（方法论科学建模过程）"
-source_refs:
-  - "src_20260614_8269ccdb"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- education
+- modeling
+source_person: Truman
+source_context: 一堂高阶建模能力培训（方法论科学建模过程） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "modeling-capability-for-kdo"
-  - "[[modeling-three-stages]]"
-  - "[[dk-modeling-counterexample-driven]]"
+- modeling-capability-for-kdo
+- '[[modeling-three-stages]]'
+- '[[dk-modeling-counterexample-driven]]'
 tags:
-  - "#modeling"
-  - "#dk"
-  - "#education"
-  - "#expert-consensus"
+- '#modeling'
+- '#dk'
+- '#education'
+- '#expert-consensus'
 ---
-
 # 5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感
 
 ## 原始表述

@@ -1,37 +1,34 @@
 ---
-id: "case-ai-agent-milestone-design"
-title: "案例：Truman 用 AI Agent 3 小时设计里程碑方法论与 48 个组件"
-type: "case"
+id: case-ai-agent-milestone-design
+title: 案例：Truman 用 AI Agent 3 小时设计里程碑方法论与 48 个组件
+type: case
 source_refs:
-- src_20260614_b34f6c6e
-status: "enriched"
+- src_20260614_8269ccdb
+status: enriched
 domain:
-  - "yitang"
-  - "modeling"
-  - "ai"
-source_refs:
-  - "src_20260614_8269ccdb"
-source_person: "Truman"
-source_context: "一堂高阶建模能力培训（AI 辅助建模案例）"
-created_at: "2026-06-14"
-updated_at: "2026-06-14"
-author: "老顽童"
-reviewed_by: "老顽童"
-review_date: "2026-06-14"
-trust_level: "high"
+- yitang
+- modeling
+- ai
+source_person: Truman
+source_context: 一堂高阶建模能力培训（AI 辅助建模案例） （单一 source 为完整长文档，内容充分支撑 high trust）
+created_at: '2026-06-14'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
+review_date: '2026-06-14'
+trust_level: high
 confidence: 0.85
 related:
-  - "[[case-truman-ai-skill-engineering-guide]]"
-  - "[[tool-ai-skill-engineering-method]]"
-  - "[[framework-course-milestone-model]]"
+- '[[case-truman-ai-skill-engineering-guide]]'
+- '[[tool-ai-skill-engineering-method]]'
+- '[[framework-course-milestone-model]]'
 tags:
-  - "#modeling"
-  - "#case"
-  - "#ai"
-  - "#milestone"
-  - "#agent"
+- '#modeling'
+- '#case'
+- '#ai'
+- '#milestone'
+- '#agent'
 ---
-
 # 案例：Truman 用 AI Agent 3 小时设计里程碑方法论与 48 个组件
 
 > **Burn line**: 全程不动手，42 轮口授反馈，AI 3 小时产出人类可能需要两三周的方法论 + 组件库。

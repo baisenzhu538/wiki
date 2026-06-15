@@ -11,25 +11,24 @@ source_refs:
 - src_20260614_4efd4e88
 - src_20260614_8269ccdb
 tags:
-- #modeling
-- #case
-- #yitang
-- #truman
+- null
+- null
+- null
+- null
 created_at: 2026-06-15
-updated_at: 2026-06-15
+updated_at: '2026-06-16'
 author: 老顽童
 source_person: Truman
 source_context: Truman-高阶建模-流程建模-图-01
-reviewed_by: 老顽童
+reviewed_by: pending
 review_date: 2026-06-15
 confidence: 0.85
 trust_level: high
 related:
-- [[process-modeling]]
-- [[tool-sop-template-modeling]]
-- [[case-modeling-process-livestream-prep]]
+- - - process-modeling
+- - - tool-sop-template-modeling
+- - - case-modeling-process-livestream-prep
 ---
-
 # 流程建模案例：一堂 2021-2024 年 SOP 清单演进史
 
 > 来源：Truman-高阶建模-流程建模-图-01 | 一堂建模能力培训（Truman）
