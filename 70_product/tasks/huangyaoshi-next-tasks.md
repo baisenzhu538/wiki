@@ -1439,3 +1439,79 @@ S1 → S2 → S3
 - OCR 卡清单：可通过 `ls 30_wiki/concepts/ocr-*.md` 获取
 
 ---
+
+
+---
+
+## S4：思存知识库分享启发（Kimi 已独立评价，建议全部采纳）
+
+来源：`60_feedback/diagnosis/kimi-sicun-knowledge-base-review-2026-06-16.md`
+
+### S4-1：卡片增加 `aliases` 字段
+
+**优先级**：P0  
+**难度**：低
+
+**目标**：解决同义不同名搜索不到的问题（如"精益创业"/"精益测试"、"关键假设"/"核心假设"）。
+
+**规范**：
+```yaml
+aliases:
+  - 精益创业
+  - Lean Startup
+  - 精益测试
+```
+
+**验收标准**：
+- [ ] `90_control/schemas/card-v1.5.yaml` 增加 `aliases` 字段（可选，list of strings）
+- [ ] 搜索索引（graph/query）包含 aliases
+- [ ] `kcard-quality-gate.py` 校验 aliases 格式
+- [ ] 试点：为 `yt-lean-essence.md` 等 5 张卡添加 aliases
+
+### S4-2：`kdo query --view` 预设视图
+
+**优先级**：P1  
+**难度**：中
+
+**目标**：把常用查询封装成 `--view` 参数，一行命令替代跑报告。
+
+**建议预设视图**：
+- `needs-review`：status=enriched, reviewed_by=pending
+- `high-confidence`：confidence≥0.85
+- `low-trust`：trust_level=low
+- `source-unknown`：source_refs 含 source_unknown
+- `draft-only`：status=draft
+- `p0-risk`：confidence≥0.85 但 source<2
+
+**验收标准**：
+- [ ] `kdo query --view <name>` 可用
+- [ ] 至少实现 3 个预设视图
+- [ ] 输出格式支持 markdown 和 JSON
+
+### S4-3：`kdo scaffold --template book` 拆书模板
+
+**优先级**：P2  
+**难度**：中高
+
+**目标**：为书籍/课程素材生成多卡拆解骨架（concept + framework + skill + case）。
+
+**建议骨架结构**：
+```markdown
+## 摘要
+## 核心概念（concept 候选）
+## 模型/框架（framework 候选）
+## 方法论/技能（skill/tool 候选）
+## 金句/案例（case/quote 候选）
+## 与已有知识库的关系
+```
+
+**验收标准**：
+- [ ] `kdo scaffold --template book --input <book-notes>` 生成骨架
+- [ ] 骨架自动建议卡片类型和 id
+- [ ] 老顽童用该模板拆解 1 本书做试点
+
+### 执行顺序
+
+```
+S4-1 → S4-2 → S4-3
+```

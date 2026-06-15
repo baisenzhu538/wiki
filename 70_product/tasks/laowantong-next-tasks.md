@@ -2066,3 +2066,78 @@ total: 1173, p0: 0, p1: 0, clean: 1173, yaml_error: 0
 ```
 
 **注意**：00_inbox/一堂五步法/ 下还有大量其他五步法素材（序言、需求、解决方案、单元模型、增长、壁垒、落地实操等），本次任务只处理徐剑 To B 两篇。其他素材后续按需启动。
+
+---
+
+## 十六、样板流程：00_inbox/一堂五步法/徐剑 To B 五步法
+
+### 流程启动
+
+用户指定以 `00_inbox/一堂五步法/` 下的徐剑 To B 五步法口述稿与课堂笔记为样板，跑一遍 KDO 素材 → 卡片流水线。
+
+**素材判定**：P0 级（一堂实战专家授课 / 20 年 To B 一线经验 / 大量真实案例）。
+
+### 阶段一：王语嫣入口质量门 ✅ 已完成
+
+**执行时间**：2026-06-16  
+**输出文件**：`60_feedback/quality-gate/徐剑-ToB五步法-入口质量门-2026-06-16.md`
+
+**核心结论**：
+- 素材整体质量高，方法论体系完整，案例丰富
+- 建议出卡 **12 张**，其中 **P0（必须出卡）10 张**、P1（可选）2 张
+- 给出 15 条核心陈述的 confidence 分层（0.40–0.90）
+- 提取 15 个可出 case 卡的真实案例
+- 标注 6 项矛盾/风险提示（数据矛盾、素材截断、单一来源、经验泛化、概念边界、案例跨域归属）
+
+### 阶段二：老顽童主力生产 ⏳ 待启动
+
+**任务**：根据入口质量门报告量产 P0 卡片。
+
+**P0 必出卡清单（10 张）**：
+
+| 卡片 ID 建议 | 类型 | 核心内容 |
+|---|---|---|
+| `yt-tob-core-characteristics` | framework | To B 三大特性：角色分离、务实理性、周期较长 |
+| `yt-tob-customer-tiering` | framework | 头部/腰部/腿部客户按数量级切分 |
+| `yt-tob-demand-scenarios` | framework | 老客老品/老客新品/新客老品/新客新品四象限 |
+| `yt-tob-demand-metrics` | framework / tool | 成本占有率 + 业务天花板测算 |
+| `yt-tob-revenue-is-customer-cost` | concept | To B 收入本质 = 客户成本 |
+| `yt-tob-product-kernel` | framework / skill | 面向决策者研究付费、面向使用者夯实价值 |
+| `yt-tob-solution-model` | framework | 标品/定制、一次性/持续履约、采购方式矩阵 |
+| `yt-tob-unit-model` | framework / tool | 五种常用单元模型；跑通 = 总毛利覆盖所有成本 |
+| `yt-tob-cash-flow` | concept / tool | 自由现金流、现金流口径 vs 财务确认口径 |
+| `yt-tob-growth-channel` | framework / skill | 直销 vs 渠道决策框架 |
+
+**源文件注册**（2026-06-16）：
+
+| src_ID | 文件 |
+|---|---|
+| `src_20260616_0e684368` | `10_raw/sources/xujian-tob-fivestep-oral.md` |
+| `src_20260616_5f991553` | `10_raw/sources/xujian-tob-fivestep-notes.md` |
+
+**执行规范**：
+1. 优先使用 `src_20260616_0e684368`（口述稿），笔记仅作补充；
+2. 每张 framework/tool/skill 卡必须附 1-2 个源材料中的真实案例；
+3. 案例卡须标注「来源：徐剑口述/笔记，外部可验证性有限」；
+4. 继承入口质量门的 confidence 评分，confidence < 0.75 的卡片 status 标为 draft；
+5. 对王语嫣标注的 P1 项（单销售模型、SABC 自定义切分）可择机产出，本次不强制；
+6. 出卡后跑 `kcard-quality-gate.py`，确保 P0/P1 不反弹。
+
+### 阶段三：黄药师自动门禁
+
+- 每日 02:07 自动跑 `kcard-quality-gate.py`；
+- 监控新增卡片 confidence、source_refs、diagnostic_signals 是否合规。
+
+### 阶段四：欧阳锋抽检
+
+- 从 P0 卡片中抽检 3-5 张；
+- 重点交叉验证 claims 与源材料是否一致，并复核数据矛盾点。
+
+### 当前状态
+
+```text
+阶段一 ✅ 完成
+阶段二 🔄 等待老顽童启动
+阶段三 ⏸️ 老顽童出卡后自动触发
+阶段四 ⏸️ 出卡后抽检
+```

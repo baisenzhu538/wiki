@@ -143,3 +143,118 @@ updated_at: '2026-06-16'
 2. **王语嫣**：以后处理课程/书籍素材时，按"摘要→概念→模型→方法→案例"结构输出。
 3. **老顽童**：写卡时主动填写 `related`，把双链当作属性值使用。
 4. **Kimi**：把本次判断写入决策文件，待用户确认后归档。
+
+
+---
+
+## 黄药师三点判断的独立评价
+
+用户转述黄药师对本次分享的三点判断，要求 Kimi 独立评价。
+
+### 1. 视图预设：`kdo query --view`
+
+**黄药师判断**：KDO 元数据丰富，但缺少 Obsidian 式的"保存筛选条件=视图"。目前想看"高 confidence 待抽检"需要跑脚本出报告，查询是批量而非实时。解法：`kdo query` 加 `--view` 预设。
+
+**Kimi 独立评价**：✅ **准确且优先级高**。
+
+- 问题抓得准：KDO frontmatter 已经有 status/confidence/trust_level/reviewed_by 等字段，但调用方式不友好。
+- 当前实际路径：`python 90_control/scripts/kcard-quality-gate.py` 出报告 → 人读报告 → 再定位文件。这是"报表驱动"，不是"查询驱动"。
+- `--view` 预设的价值：把常用查询封装成命令，降低老顽童/欧阳锋的使用门槛。
+
+**建议预设视图**：
+
+| view 名称 | 筛选条件 | 用途 |
+|---|---|---|
+| `needs-review` | status=enriched, reviewed_by=pending | 欧阳锋抽检清单 |
+| `high-confidence` | confidence≥0.85 | 高置信卡片快速浏览 |
+| `low-trust` | trust_level=low | 需要精修/过滤的卡片 |
+| `source-unknown` | source_refs 含 source_unknown | 待认领来源 |
+| `draft-only` | status=draft | 老顽童待产清单 |
+| `p0-risk` | confidence≥0.85 但 source<2 等 P1 规则 | 质量风险预警 |
+
+**实现难度**：中。需要在 `kdo query` 入口增加 view 解析层，把预设条件翻译成当前查询语法（Graph RAG / BM25 / 文件系统过滤）。
+
+**建议优先级**：P1。
+
+### 2. 别名（aliases）
+
+**黄药师判断**：简单有效——一张卡多个搜索名。KDO 卡只有 id 和 title，覆盖不到的搜索就找不到了。加 aliases 字段成本极低，收益高。
+
+**Kimi 独立评价**：✅ **准确且应该最快落地**。
+
+- 成本确实低：frontmatter 加一个可选字段，搜索索引多一个字段。
+- 收益明确：解决"关键假设"vs"核心假设"、"精益创业"vs"精益测试"、"FALSE 模型"vs"借假修真"等同义不同名问题。
+- 与视图预设可以结合：aliases 也可以作为 view 的搜索字段。
+
+**建议规范**：
+
+```yaml
+aliases:
+  - 精益创业
+  - Lean Startup
+  - 精益测试
+```
+
+**实现难度**：低。schema 加字段 + 搜索索引加字段 + 门禁脚本忽略/校验格式。
+
+**建议优先级**：P0。
+
+### 3. 拆书模板：`kdo scaffold --new --template book`
+
+**黄药师判断**：对方把一本书拆成"摘要+核心概念+模型+方法论+金句"五层。KDO 三步编译法覆盖前三层，但后两层（方法论、金句）没有标准模板。`kdo scaffold --new` 可以加 `--template book` 子类型。
+
+**Kimi 独立评价**：✅ **方向对，但边界需细化**。
+
+- 方向对：书籍/课程素材确实需要比通用"三步编译法"更具体的拆解模板。
+- 边界需细化：
+  - "方法论"和"技能"在 KDO 中如何区分？一本书可能同时产生 concept/framework/skill/case 多种类型卡片。
+  - "金句"是否单独成卡？还是作为 concept/framework 卡的 quote 字段？
+  - 拆书后是一本书一张卡，还是一本书拆出多张原子卡？
+- 建议：`--template book` 不是生成一张卡，而是生成一组卡片骨架（1 concept + N framework + M case + K skill），并自动建立 `related`。
+
+**建议模板结构**：
+
+```markdown
+# 书籍拆解骨架
+
+## 元数据
+- 书名、作者、来源、confidence
+
+## 摘要
+- 一句话定位
+- 核心论点（3-5 条）
+
+## 核心概念（concept 候选）
+- 概念 1
+- 概念 2
+
+## 模型/框架（framework 候选）
+- 框架 1
+- 框架 2
+
+## 方法论/技能（skill/tool 候选）
+- 技能 1
+- 工具 1
+
+## 金句/案例（case/quote 候选）
+- 金句 1
+- 案例 1
+
+## 与已有知识库的关系
+- 相关卡片：[[...]]
+- 矛盾点：...
+```
+
+**实现难度**：中偏高。需要扩展 `kdo scaffold` 的模板系统，支持多卡骨架生成。
+
+**建议优先级**：P2（先做 aliases 和 view，book template 随后）。
+
+## 综合建议
+
+| 建议 | 优先级 | 难度 | 负责人 |
+|---|---|---|---|
+| 加 `aliases` 字段 | P0 | 低 | 黄药师 |
+| `kdo query --view` 预设 | P1 | 中 | 黄药师 |
+| `kdo scaffold --template book` | P2 | 中高 | 黄药师 |
+
+**采纳结论**：黄药师的三点判断都准确，建议全部纳入 KDO 基础设施 backlog。
