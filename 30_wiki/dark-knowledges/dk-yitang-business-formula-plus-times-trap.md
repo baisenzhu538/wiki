@@ -25,6 +25,8 @@ related:
 - '[[yt-business-formula-business-pattern-selector]]'
 - '[[yt-business-formula-qualitative-metrics-library]]'
 - '[[case-gym-membership-formula]]'
+- '[[case-toc-content-platform-correlation-trap]]'
+- '[[case-hr-saas-feature-usage-trap]]'
 tags: []
 author: 欧阳锋
 confidence: 0.85
