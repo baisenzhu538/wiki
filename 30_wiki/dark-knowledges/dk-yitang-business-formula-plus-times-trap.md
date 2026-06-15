@@ -22,6 +22,8 @@ related:
 - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-six-level-logic]]'
 - '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-business-formula-business-pattern-selector]]'
+- '[[yt-business-formula-qualitative-metrics-library]]'
 - '[[case-gym-membership-formula]]'
 tags: []
 author: 欧阳锋

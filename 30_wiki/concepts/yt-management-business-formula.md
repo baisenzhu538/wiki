@@ -22,7 +22,14 @@ diagnostic_signals:
 - signal: 公式有了但不更新，业务变了公式不变
   framework_lens: 静态公式
   follow_up_question: 你的业务公式最近一次更新是什么时候？如果超过一个季度，公式可能已经过时
-updated_at: 2026-06-14
+related:
+- '[[yt-business-formula-business-pattern-selector]]'
+- '[[yt-business-formula-qualitative-metrics-library]]'
+- '[[yt-business-formula-abc-model]]'
+- '[[yt-business-formula-parameter-iceberg]]'
+- '[[yt-business-formula-six-level-logic]]'
+- '[[yt-business-formula-ten-paradigms]]'
+updated_at: 2026-06-16
 id: yt-management-business-formula
 author: 老顽童
 reviewed_by: 欧阳锋

@@ -24,6 +24,8 @@ related:
 - '[[yt-management-business-formula]]'
 - '[[yt-business-formula-abc-model]]'
 - '[[yt-business-formula-six-level-logic]]'
+- '[[yt-business-formula-business-pattern-selector]]'
+- '[[yt-business-formula-qualitative-metrics-library]]'
 - '[[yt-entrepreneur-unit-model]]'
 - '[[yt-model-deep-review-iceberg]]'
 ---

@@ -28,6 +28,8 @@ related:
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-business-formula-six-level-logic]]'
+- '[[yt-business-formula-business-pattern-selector]]'
+- '[[yt-business-formula-qualitative-metrics-library]]'
 - '[[yt-unit-model-three-tools]]'
 - '[[yt-five-step-method]]'
 ---

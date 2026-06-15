@@ -28,6 +28,8 @@ related:
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-business-formula-six-level-logic]]'
 - '[[yt-business-formula-ten-paradigms]]'
+- '[[yt-business-formula-business-pattern-selector]]'
+- '[[yt-business-formula-qualitative-metrics-library]]'
 ---
 # 业务公式 L6 魔法参数：跨行业本质公式集锦
 
