@@ -23,6 +23,7 @@ related:
 - '[[process-modeling]]'
 - '[[tool-checklist-cheatsheet-modeling]]'
 - '[[dk-modeling-sop-execution-locks]]'
+- '[[case-modeling-process-sop-examples]]'
 tags:
 - '#method/modeling'
 - '#content-format/concept-card'

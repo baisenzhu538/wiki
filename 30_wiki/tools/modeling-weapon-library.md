@@ -22,6 +22,7 @@ related:
 - '[[modeling-capability-system]]'
 - '[[modeling-three-stages]]'
 - '[[modeling-level-map]]'
+- '[[case-modeling-abstraction-yitang-models]]'
 tags:
 - '#method/modeling'
 - '#content-format/concept-card'

@@ -39,6 +39,8 @@ domain:
 - 知识管理
 - 建模沉淀
 - null
+related:
+- '[[case-modeling-abstraction-yitang-models]]'
 ---
 # 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式
 

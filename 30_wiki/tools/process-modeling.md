@@ -25,6 +25,7 @@ related:
 - '[[modeling-capability-system]]'
 - '[[modeling-three-stages]]'
 - '[[modeling-level-map]]'
+- '[[case-modeling-process-sop-examples]]'
 tags:
 - '#method/modeling'
 - '#content-format/concept-card'

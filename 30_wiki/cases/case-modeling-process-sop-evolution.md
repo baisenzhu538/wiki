@@ -20,7 +20,8 @@ reviewed_by: pending
 review_date: 2026-06-15
 confidence: 0.8
 trust_level: high
-related: []
+related:
+- "[[case-modeling-process-sop-examples]]"
 ---
 # 流程建模案例：一堂 2021-2024 年 SOP 清单演进史
 

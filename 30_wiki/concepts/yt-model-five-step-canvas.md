@@ -16,6 +16,7 @@ query_triggers:
 - 从假设到壁垒的实操工具
 related:
 - '[[yt-tool-product-core-canvas]]'
+- '[[case-modeling-abstraction-yitang-models]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_1eb77650

@@ -22,6 +22,7 @@ related:
 - '[[modeling-capability-system]]'
 - '[[modeling-level-map]]'
 - '[[dk-modeling-expert-consensus-five-percent]]'
+- '[[case-modeling-essence-schools]]'
 tags:
 - '#source-type/diverse'
 - '#domain/yitang'
