@@ -2328,6 +2328,126 @@ total: 1185, p0: 0, p1: 0, clean: 1185, yaml_error: 0
 
 ---
 
+## 十九、下一阶段：三十张卡深度精修（老顽童主责）
+
+> **来源**：用户要求一次性安排 30 张卡让老顽童自行精修，用户去休息，老顽童慢慢干。
+> **目标**：对 30 张已有卡片做第二圈深度提升，重点补 diagnostic_signals、失败模式、互链和案例/模板。
+> **节奏**：不赶工，30 张分 6 批，每批 5 张，逐批完成。
+> **验收人**：王语嫣 / 欧阳锋
+
+### 三十张目标卡
+
+#### 批次 1：ToB 域深化（5 张）
+
+| 序号 | 卡片 ID | 类型 | 精修重点 |
+|:----:|:--------|:----:|:---------|
+| 1 | `yt-tob-customer-tiering` | framework | 客户分层与单元模型/商业模式的映射；补充 2 个不同行业切分案例 |
+| 2 | `yt-tob-solution-model` | framework | 解决方案类型矩阵；补充"误判业务类型"的真实案例和修正路径 |
+| 3 | `yt-tob-core-characteristics` | framework | 三大核心特性；补充 ToB 与 ToC 决策差异的对比表 |
+| 4 | `yt-tob-customer-sabc` | tool | SABC 自定义切分；补充"业务目标变化后 SABC 如何调整"的示例 |
+| 5 | `yt-tob-revenue-is-customer-cost` | concept | 收入=客户成本；补充反向拆解客户成本结构的操作 checklist |
+
+#### 批次 2：精益创业域（5 张）
+
+| 序号 | 卡片 ID | 类型 | 精修重点 |
+|:----:|:--------|:----:|:---------|
+| 6 | `yt-lean-assumption-verification-3means` | framework | 假设验证三手段；补充每种手段的适用边界和失败模式 |
+| 7 | `yt-lean-b2b-b2c-hardware-content-testing` | framework | 内容测试；补充 B2B/B2C/硬件三种场景的具体测试设计 |
+| 8 | `yt-lean-consumer-deep-experience-testing` | framework | 深度体验测试；补充招募用户、设计任务、观察指标的具体 SOP |
+| 9 | `yt-lean-growth-stage-gate` | framework | 增长阶段门；补充各阶段门的关键指标和"跳门"风险 |
+| 10 | `yt-entrepreneur-lean-validation` | concept | 精益验证；补充 related 链接，完善 DS，加常见误用场景 |
+
+#### 批次 3：决策域（5 张）
+
+| 序号 | 卡片 ID | 类型 | 精修重点 |
+|:----:|:--------|:----:|:---------|
+| 11 | `yt-decision-y-model` | framework | Y 模型；补充"什么时候不该用 Y 模型"和误判案例 |
+| 12 | `yt-decision-full-process` | framework | 决策全流程；补充关键节点的质量控制标准和返工条件 |
+| 13 | `yt-decision-consensus-iceberg` | tool | 共识冰山；补充"表面共识 vs 真实分歧"的识别信号 |
+| 14 | `yt-decision-ai-partner` | tool | AI 决策伙伴；补充 AI 替代判断的失效场景和人机分工边界 |
+| 15 | `yt-decision-canvas` | tool | 决策画布；补充画布填完但决策未改善的失败模式 |
+
+#### 批次 4：泛产品设计域（5 张）
+
+| 序号 | 卡片 ID | 类型 | 精修重点 |
+|:----:|:--------|:----:|:---------|
+| 16 | `yt-panproduct-demand-five-step-method` | tool | 需求五步法；补充每步的交付物和验收标准 |
+| 17 | `yt-panproduct-execution-hypothesis-decomposition` | tool | 假设拆解；补充从宏大假设到可验证子假设的拆解模板 |
+| 18 | `yt-panproduct-execution-low-cost-mvp` | tool | 低成本 MVP；补充不同产品形态的 MVP 最小形态示例 |
+| 19 | `yt-panproduct-execution-milestone-breakdown` | tool | 里程碑拆解；补充里程碑与单元模型/资源投入的对应关系 |
+| 20 | `yt-panproduct-execution-war-room` | tool | 作战室；补充作战室的触发条件、角色分工和关闭标准 |
+
+#### 批次 5：案例卡升级（5 张）
+
+| 序号 | 卡片 ID | 类型 | 精修重点 |
+|:----:|:--------|:----:|:---------|
+| 21 | `case-truman-ai-partner` | case | status→enriched；补充"问题-方案-结果-可迁移"四段；建立与相关概念卡互链 |
+| 22 | `case-truman-sales-report-structure` | case | status→enriched；补充销售汇报结构演进的具体前后对比 |
+| 23 | `case-yitang-double-triangle-confidence` | case | status→enriched；补充双三角模型如何成为 AI 难题解题底盘的具体过程 |
+| 24 | `case-yitang-education-supply-chain` | case | status→enriched；补充教育供应链案例的决策链和关键转折点 |
+| 25 | `case-yitang-weekly-modeling-engine` | case | status→enriched；补充周五课程倒逼建模迭代的时间线和具体机制 |
+
+#### 批次 6：跨域案例卡升级（5 张）
+
+| 序号 | 卡片 ID | 类型 | 精修重点 |
+|:----:|:--------|:----:|:---------|
+| 26 | `case-一堂-无人餐厅-hypothesis-failure` | case | status→enriched；补充关键假设失败的具体验证过程和教训 |
+| 27 | `case-一堂-陈贤敏汉堡-hypothesis-validation` | case | status→enriched；补充假设验证的实验设计和数据反馈 |
+| 28 | `case-纪浩-skill-market-problem-validation` | case | status→enriched；补充技能市场的问题验证过程和转向决策 |
+| 29 | `case-ai-agent-milestone-design` | case | status→enriched；补充 AI Agent 里程碑设计的具体拆解 |
+| 30 | `case-livestream-sop-modeling` | case | status→enriched；补充直播 SOP 建模前后的效率对比 |
+
+### 精修标准（必须满足）
+
+每张卡精修后需达到：
+
+1. **diagnostic_signals ≥ 3 条**（框架/工具/概念卡）；case 卡如 frontmatter 无 DS，正文必须有 ≥3 个"诊断性问题"或"触发信号"
+2. **Constraints & Boundaries ≥ 4 条适用边界 + 4 条失败模式**（框架/工具/概念卡）；case 卡必须有 4 条"可迁移场景"或"使用边界"
+3. **失败模式必须具体**：有真实症状 + 可执行修复
+4. **新增至少 1 个案例/实例/计算模板/checklist**
+5. **建立至少 2 条新互链**（与相关框架卡、case 卡双向链接）
+6. **更新 `updated_at`**
+7. **跑单卡 lint 通过**，无 YAML 错误
+
+### 执行节奏
+
+```
+第 1-3 天：批次 1（ToB 域 5 张）
+第 4-6 天：批次 2（精益创业域 5 张）
+第 7-9 天：批次 3（决策域 5 张）
+第 10-12 天：批次 4（泛产品设计域 5 张）
+第 13-16 天：批次 5（案例卡 5 张）
+第 17-20 天：批次 6（跨域案例卡 5 张）
+第 21-22 天：全库 lint + 质量门禁 + 写小结
+```
+
+实际可交叉执行，不必严格按天。用户已说明"慢慢干"，不赶工。
+
+### 严禁
+
+- ❌ 不要新增卡片（本次只精修已有卡）
+- ❌ 不要为了凑数写重复内容
+- ❌ 不要批量改完再跑 lint——改一张跑一张
+- ❌ 不要把 case 卡写成概念描述
+- ❌ 不要改动不熟悉的卡片（30 张已指定，不要替换）
+
+### 验收标准
+
+- [ ] 30 张卡全部完成精修
+- [ ] 每批 5 张完成后可简短记录进度（非必须，但建议）
+- [ ] 全库 `kcard-quality-gate.py` P0 = 0，YAML 错误 = 0
+- [ ] 全库 P1 不新增（重点关注互链是否 dangling）
+- [ ] 在此文件末尾写小结，列出：精修清单、主要改进点、仍存疑的问题
+
+### 当前基线
+
+```text
+python 90_control/scripts/kcard-quality-gate.py
+total: 1190, p0: 0, p1: 0, clean: 1190, yaml_error: 0
+```
+
+---
+
 ## 十八、下阶段：十张卡深度精修（老顽童主责）
 
 > **来源**：用户要求选十张卡让老顽童自行精修。
