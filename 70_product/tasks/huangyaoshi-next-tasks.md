@@ -1419,6 +1419,20 @@ S1 → S2 → S3
 
 ---
 
+## S1-S3 完成验收（2026-06-16）
+
+| 子任务 | 结果 | 验收状态 |
+|---|---|---|
+| S1 搜索过滤 | `kdo query --trust medium` 默认跳过 low（SOP 约定已写入 `90_control/ingestion-pipeline.md` §七） | ✅ 完成 |
+| S2 OCR 迁移 | 184 张 OCR 卡已迁移到 `30_wiki/raw/ocr/`，`30_wiki/concepts/` 与 `dark-knowledges/` 无残留；`kcard-quality-gate.py` 已排除 `raw/` | ✅ 完成 |
+| S3 精修 SOP | OCR 卡分层处理 SOP 已写入 `90_control/ingestion-pipeline.md` §七 | ✅ 完成 |
+
+**遗留注意**：
+- S1 目前为 SOP/文档层约定，实际可执行的 `kdo query` CLI 命令尚未找到对应实现文件；如需要可执行命令，需进一步开发。
+- 质量门禁当前状态：`total: 1155, p0: 0, p1: 0, clean: 1155`。
+
+---
+
 ### 关联文件
 
 - 独立判断报告：`60_feedback/diagnosis/kimi-ocr-yt-mix-review-2026-06-16.md`
