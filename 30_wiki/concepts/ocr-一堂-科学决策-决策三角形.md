@@ -1,5 +1,4 @@
 ---
-
 title: "OCR: 一堂-科学决策-决策三角形"
 type: concept
 domain:

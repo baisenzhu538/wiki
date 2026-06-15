@@ -1,5 +1,4 @@
 ---
-
 id: "skill-react行动推理循环"
 title: "技能：ReACT行动推理循环"
 type: skill

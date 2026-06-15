@@ -1,5 +1,4 @@
 ---
-
 id: source-code-delivery-model
 title: "源码交付模式"
 type: concept

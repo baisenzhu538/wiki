@@ -1,5 +1,4 @@
 ---
-
 id: "skill-采用滚动预测机制"
 title: "技能：采用滚动预测机制"
 type: skill

@@ -1,5 +1,4 @@
 ---
-
 id: "skill-费曼学习法三句话提炼"
 title: "技能：费曼学习法三句话提炼"
 type: skill

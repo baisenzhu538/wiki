@@ -1,5 +1,4 @@
 ---
-
 id: "skill-逐字稿练习演讲"
 title: "技能：逐字稿练习演讲"
 type: skill

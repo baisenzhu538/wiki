@@ -1,5 +1,4 @@
 ---
-
 type: dark-knowledge
 domain:
   - product

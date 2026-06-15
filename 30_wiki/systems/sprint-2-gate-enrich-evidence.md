@@ -2,11 +2,8 @@
 title: Sprint 2 门禁系统 + Enrich 举证 — 设计规格
 type: system
 domain:
-  - kdo
-  - decision-making
-  - design
+- kdo
 status: draft
-domain: null
 id: sprint-2-gate-enrich-evidence
 author: legacy
 source_context: KDO internal record

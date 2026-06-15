@@ -1,5 +1,4 @@
 ---
-
 id: "skill-建立知识联系"
 title: "技能：建立知识联系"
 type: skill

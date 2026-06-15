@@ -1,5 +1,4 @@
 ---
-
 id: dk-ef-002-bom-version-async
 title: "BOM 多版本不同步：你手里的文件和产线手里的不是同一份"
 type: dark-knowledge

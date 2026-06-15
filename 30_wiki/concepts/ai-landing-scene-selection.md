@@ -1,5 +1,4 @@
 ---
-
 id: ai-landing-scene-selection
 type: concept
 domain:

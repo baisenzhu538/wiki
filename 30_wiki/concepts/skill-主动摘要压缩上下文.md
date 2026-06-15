@@ -1,5 +1,4 @@
 ---
-
 id: "skill-主动摘要压缩上下文"
 title: "技能：主动摘要压缩上下文"
 type: skill

@@ -1,5 +1,4 @@
 ---
-
 id: "skill-体系框架构建"
 title: "技能：体系框架构建"
 type: skill

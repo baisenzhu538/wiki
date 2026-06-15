@@ -1,5 +1,4 @@
 ---
-
 id: dk-ef-003-hand-soldering-bom-divergence
 title: "手焊板的隐性修改：原型调通了但量产就是不行"
 type: dark-knowledge

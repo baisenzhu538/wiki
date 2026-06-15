@@ -1,5 +1,4 @@
 ---
-
 id: structured-ai-workspace
 type: tool
 domain:

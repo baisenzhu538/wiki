@@ -1,5 +1,4 @@
 ---
-
 id: "skill-自我反馈检验"
 title: "技能：自我反馈检验"
 type: skill

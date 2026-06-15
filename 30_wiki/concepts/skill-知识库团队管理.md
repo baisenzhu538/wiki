@@ -1,5 +1,4 @@
 ---
-
 id: "skill-知识库团队管理"
 title: "技能：知识库团队管理"
 type: skill

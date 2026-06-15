@@ -1,5 +1,4 @@
 ---
-
 id: design-ai-image-generation
 created_at: 2026-05-21
 domain:

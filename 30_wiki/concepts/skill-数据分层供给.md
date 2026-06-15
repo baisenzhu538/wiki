@@ -1,5 +1,4 @@
 ---
-
 id: "skill-数据分层供给"
 title: "技能：数据分层供给"
 type: skill

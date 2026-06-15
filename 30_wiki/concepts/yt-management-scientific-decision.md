@@ -1,6 +1,5 @@
 ---
 
-
 title: "Y模型/科学决策"
 type: concept
 domain:

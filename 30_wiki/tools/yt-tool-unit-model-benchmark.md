@@ -1,15 +1,14 @@
 ---
 domain:
-  - management
-tags:
-related:
-domain:
-id: "yt-tool-unit-model-benchmark"
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- master
+tags: null
+related: null
+id: yt-tool-unit-model-benchmark
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.75
-trust_level: "medium"
+trust_level: medium
 ---
 ## Reusable Knowledge
 

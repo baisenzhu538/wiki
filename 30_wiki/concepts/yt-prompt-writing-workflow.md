@@ -1,5 +1,4 @@
 ---
-
 id: yt-prompt-writing-workflow
 title: "AI写作工作流：大纲→要点→全文"
 type: tool

@@ -1,5 +1,4 @@
 ---
-
 id: yt-prompt-brainstorming
 title: "AI头脑风暴工作流"
 type: tool

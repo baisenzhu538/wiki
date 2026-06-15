@@ -1,5 +1,4 @@
 ---
-
 id: prd-as-ai-instruction
 type: tool
 domain:

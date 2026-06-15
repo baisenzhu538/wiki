@@ -1,5 +1,4 @@
 ---
-
 id: case-treadmill-demand-analysis
 title: "跑步机需求分析：在家健身场景的需求拆解与替代方案博弈"
 type: case

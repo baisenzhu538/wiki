@@ -1,5 +1,4 @@
 ---
-
 id: yitang-huazong-ama-summary
 created_at: 2026-05-29
 domain:

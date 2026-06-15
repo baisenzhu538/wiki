@@ -1,5 +1,4 @@
 ---
-
 id: "skill-多轮确认防偏差"
 title: "技能：多轮确认防偏差"
 type: skill

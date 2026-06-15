@@ -1,5 +1,4 @@
 ---
-
 id: "skill-增强数据供给"
 title: "技能：增强数据供给"
 type: skill

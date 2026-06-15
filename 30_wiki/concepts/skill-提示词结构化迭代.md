@@ -1,5 +1,4 @@
 ---
-
 id: "skill-提示词结构化迭代"
 title: "技能：提示词结构化迭代"
 type: skill

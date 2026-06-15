@@ -1,24 +1,15 @@
 ---
-
-
-
-
-id: "skill-水水-练习坦然说不知道"
-title: "技能：练习坦然说不知道"
-type: "skill"
+id: skill-水水-练习坦然说不知道
+title: 技能：练习坦然说不知道
+type: skill
 domain:
-  - master
-  - ai-collaboration
-  - yitang
-domain:
-domain:
-status: "needs-review"
-domain:
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- marketing
+status: needs-review
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.7
-trust_level: "medium-low"
+trust_level: medium-low
 ---
 
 # 技能：练习坦然说不知道

@@ -1,5 +1,4 @@
 ---
-
 id: "skill-清单小抄制作"
 title: "技能：清单小抄制作"
 type: skill

@@ -2,11 +2,8 @@
 title: EC工业化规范 → KDO管线迁移方案
 type: decision
 domain:
-  - management
-  - kdo
-  - decision-making
+- kdo
 status: draft
-domain: null
 id: kdo-ec-industrialization-migration-proposal
 author: legacy
 source_context: KDO internal record

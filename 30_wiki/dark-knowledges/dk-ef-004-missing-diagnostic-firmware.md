@@ -1,5 +1,4 @@
 ---
-
 id: dk-ef-004-missing-diagnostic-firmware
 title: "没有诊断固件就是盲调：你不知道信号卡在哪一级"
 type: dark-knowledge

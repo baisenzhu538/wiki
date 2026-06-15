@@ -1,5 +1,4 @@
 ---
-
 id: "skill-ai辅助学习"
 title: "技能：AI辅助学习"
 type: skill

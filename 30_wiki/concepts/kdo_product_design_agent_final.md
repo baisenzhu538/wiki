@@ -1,5 +1,4 @@
 ---
-
 id: kdo_product_design_agent_final
 created_at: 2026-05-03
 domain:

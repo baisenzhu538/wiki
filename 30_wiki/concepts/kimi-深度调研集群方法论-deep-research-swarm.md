@@ -1,5 +1,4 @@
 ---
-
 id: "kimi-深度调研集群方法论-deep-research-swarm"
 created_at: 2026-05-01
 domain:

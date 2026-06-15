@@ -1,6 +1,5 @@
 ---
 
-
 title: "Y Combinator"
 type: entity
 domain:

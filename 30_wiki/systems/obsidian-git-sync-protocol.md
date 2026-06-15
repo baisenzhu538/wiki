@@ -2,18 +2,16 @@
 title: Obsidian Git Multi-Device Sync Protocol
 type: system
 domain:
-  - kdo
-  - design
+- kdo
 status: draft
-id: "obsidian-git-sync-protocol"
+id: obsidian-git-sync-protocol
 created_at: '2026-05-03'
 updated_at: '2026-05-03'
-related:
-tags:
+related: null
+tags: null
 trust_level: high
 reviewed_by: Claude
 review_date: '2026-05-03'
-domain: null
 author: legacy
 source_context: KDO internal record
 source_refs: []

@@ -1,5 +1,4 @@
 ---
-
 id: "skill-1视角升级思考法"
 title: "技能：+1视角升级思考法"
 type: skill

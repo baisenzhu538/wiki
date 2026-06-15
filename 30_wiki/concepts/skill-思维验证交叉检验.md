@@ -1,5 +1,4 @@
 ---
-
 id: "skill-思维验证交叉检验"
 title: "技能：思维验证交叉检验"
 type: skill

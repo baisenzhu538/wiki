@@ -1,5 +1,4 @@
 ---
-
 id: "skill-按图索骥改良外部模板"
 title: "技能：按图索骥改良外部模板"
 type: skill

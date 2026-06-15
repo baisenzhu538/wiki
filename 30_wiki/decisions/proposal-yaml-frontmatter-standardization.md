@@ -1,22 +1,17 @@
 ---
-title: "YAML 标注对 KDO 知识库的启发——从自由填字段到结构化索引"
-type: "improvement-plan"
+title: YAML 标注对 KDO 知识库的启发——从自由填字段到结构化索引
+type: improvement-plan
 domain:
-  - decision-making
-  - design
-  - ai-saas
-  - personal-growth
-  - kdo
-status: "draft"
-source_refs:
+- kdo
+status: draft
+source_refs: null
 created_at: 2026-06-06
 updated_at: 2026-06-06
-domain:
-id: "proposal-yaml-frontmatter-standardization"
-author: "legacy"
-reviewed_by: "pending"
+id: proposal-yaml-frontmatter-standardization
+author: legacy
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
 
 # YAML 标注对 KDO 知识库的启发

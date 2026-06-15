@@ -1,5 +1,4 @@
 ---
-
 id: yitang-huazong-ama-by-industry
 created_at: 2026-05-29
 domain:

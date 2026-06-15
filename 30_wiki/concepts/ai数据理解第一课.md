@@ -1,5 +1,4 @@
 ---
-
 title: "AI数据理解第一课"
 type: concept
 source_refs:

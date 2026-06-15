@@ -1,5 +1,4 @@
 ---
-
 title: "OCR: 一堂-科学决策-X型Y型决策习惯对比"
 type: concept
 domain:

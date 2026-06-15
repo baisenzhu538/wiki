@@ -1,5 +1,4 @@
 ---
-
 id: "skill-反向采访挖掘深度"
 title: "技能：反向采访挖掘深度"
 type: skill

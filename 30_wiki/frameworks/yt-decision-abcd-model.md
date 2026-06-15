@@ -1,5 +1,4 @@
 ---
-
 type: framework
 id: yt-decision-abcd-model
 status: enriched

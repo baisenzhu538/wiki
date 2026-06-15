@@ -1,24 +1,15 @@
 ---
-
-
-
-
-id: "skill-马易-AI落地场景识别-拆工作流找场景"
-title: "技能：AI落地场景识别-拆工作流找场景"
-type: "skill"
+id: skill-马易-AI落地场景识别-拆工作流找场景
+title: 技能：AI落地场景识别-拆工作流找场景
+type: skill
 domain:
-  - ai-saas
-  - ai-collaboration
-  - yitang
-domain:
-domain:
-status: "needs-review"
-domain:
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- ai-saas
+status: needs-review
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.7
-trust_level: "medium-low"
+trust_level: medium-low
 ---
 
 # 技能：AI落地场景识别-拆工作流找场景

@@ -1,5 +1,4 @@
 ---
-
 title: "OCR: 一堂-人机协作-双三角模型"
 type: concept
 domain:

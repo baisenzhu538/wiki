@@ -1,5 +1,4 @@
 ---
-
 id: "skill-获取他人反馈优化笔记"
 title: "技能：获取他人反馈优化笔记"
 type: skill

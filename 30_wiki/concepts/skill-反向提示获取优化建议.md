@@ -1,5 +1,4 @@
 ---
-
 id: "skill-反向提示获取优化建议"
 title: "技能：反向提示获取优化建议"
 type: skill

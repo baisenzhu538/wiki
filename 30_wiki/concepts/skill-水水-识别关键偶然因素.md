@@ -1,24 +1,15 @@
 ---
-
-
-
-
-id: "skill-水水-识别关键偶然因素"
-title: "技能：识别关键偶然因素"
-type: "skill"
+id: skill-水水-识别关键偶然因素
+title: 技能：识别关键偶然因素
+type: skill
 domain:
-  - master
-  - ai-collaboration
-  - yitang
-domain:
-domain:
-status: "needs-review"
-domain:
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- decision-making
+status: needs-review
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.7
-trust_level: "medium-low"
+trust_level: medium-low
 ---
 
 # 技能：识别关键偶然因素

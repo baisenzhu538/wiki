@@ -1,5 +1,4 @@
 ---
-
 id: yt-management-toolkit-overview
 component_of:
   - yt-model-management-map

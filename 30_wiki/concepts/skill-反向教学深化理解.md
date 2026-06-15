@@ -1,5 +1,4 @@
 ---
-
 id: "skill-反向教学深化理解"
 title: "技能：反向教学深化理解"
 type: skill

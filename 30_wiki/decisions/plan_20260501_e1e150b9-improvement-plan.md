@@ -2,17 +2,12 @@
 plan_id: plan_20260501_e1e150b9
 type: improvement-plan
 domain:
-  - decision-making
-  - finance-legal
-  - business-strategy
-  - ai-saas
-  - kdo
+- kdo
 status: draft
 created_at: '2026-04-30T16:08:09+00:00'
 feedback_count: 6
 artifact_count: 7
 id: plan_20260501_e1e150b9-improvement-plan
-domain: null
 author: legacy
 source_context: KDO internal record
 source_refs: []

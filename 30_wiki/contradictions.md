@@ -1,9 +1,10 @@
 ---
-id: "contradictions"
-type: "concept"
-status: "draft"
-title: "Contradictions"
-domain: []
+id: contradictions
+type: concept
+status: draft
+title: Contradictions
+domain:
+- ai-saas
 ---
 
 # Contradictions

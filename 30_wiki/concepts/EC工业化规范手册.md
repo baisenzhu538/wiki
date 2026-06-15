@@ -1,5 +1,4 @@
 ---
-
 id: "EC工业化规范手册"
 created_at: 2026-05-03
 domain:

@@ -1,5 +1,4 @@
 ---
-
 id: "skill-人生红点战略对齐"
 title: "技能：人生红点战略对齐"
 type: skill

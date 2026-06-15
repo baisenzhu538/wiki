@@ -1,5 +1,4 @@
 ---
-
 id: "skill-从案例中学习"
 title: "技能：从案例中学习"
 type: skill

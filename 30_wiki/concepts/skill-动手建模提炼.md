@@ -1,5 +1,4 @@
 ---
-
 id: "skill-动手建模提炼"
 title: "技能：动手建模提炼"
 type: skill

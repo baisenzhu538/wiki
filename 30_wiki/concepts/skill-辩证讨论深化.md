@@ -1,5 +1,4 @@
 ---
-
 id: "skill-辩证讨论深化"
 title: "技能：辩证讨论深化"
 type: skill

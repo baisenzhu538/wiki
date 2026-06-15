@@ -1,19 +1,15 @@
 ---
 domain:
-  - personal-growth
-  - decision-making
-  - product
-  - business-strategy
-tags:
-related:
-domain:
-diagnostic_signals:
-id: "yt-tool-unit-model-selection"
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- master
+tags: null
+related: null
+diagnostic_signals: null
+id: yt-tool-unit-model-selection
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.75
-trust_level: "medium"
+trust_level: medium
 ---
 ## Reusable Knowledge
 

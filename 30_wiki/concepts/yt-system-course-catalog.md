@@ -1,5 +1,4 @@
 ---
-
 id: yt-system-course-catalog
 title: "一堂全课程目录索引"
 type: concept

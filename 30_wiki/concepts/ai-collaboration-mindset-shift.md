@@ -1,5 +1,4 @@
 ---
-
 id: ai-collaboration-mindset-shift
 type: concept
 domain:

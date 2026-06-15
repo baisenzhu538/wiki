@@ -1,5 +1,4 @@
 ---
-
 id: "开源HIS系统代码深度分析报告"
 created_at: 2026-05-03
 domain:

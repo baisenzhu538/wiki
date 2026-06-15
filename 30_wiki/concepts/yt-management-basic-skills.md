@@ -1,6 +1,5 @@
 ---
 
-
 title: "基本功认知"
 type: concept
 domain:

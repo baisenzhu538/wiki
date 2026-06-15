@@ -1,5 +1,4 @@
 ---
-
 id: yt-concept-ai-guard-brain
 title: "守脑如玉：AI时代保持大脑锋利"
 type: concept

@@ -1,5 +1,4 @@
 ---
-
 id: "skill-清单式笔记法"
 title: "技能：清单式笔记法"
 type: skill

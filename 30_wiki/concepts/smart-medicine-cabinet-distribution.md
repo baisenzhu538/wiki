@@ -1,5 +1,4 @@
 ---
-
 id: smart-medicine-cabinet-distribution
 title: "智能药柜分销业态洞察"
 type: concept

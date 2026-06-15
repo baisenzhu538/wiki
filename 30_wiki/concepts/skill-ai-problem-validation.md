@@ -1,26 +1,15 @@
 ---
-
-
-
-id: "skill-ai-problem-validation"
-title: "技能：问题验证三维度法"
-type: "skill"
+id: skill-ai-problem-validation
+title: 技能：问题验证三维度法
+type: skill
 domain:
-  - ai-collaboration
-  - product
-  - business-strategy
-  - ai-saas
-  - personal-growth
-  - yitang
-domain:
-domain:
-status: "needs-review"
-domain:
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- ai-saas
+status: needs-review
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.7
-trust_level: "medium-low"
+trust_level: medium-low
 ---
 
 # 技能：问题验证三维度法

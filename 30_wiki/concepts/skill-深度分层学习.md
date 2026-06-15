@@ -1,5 +1,4 @@
 ---
-
 id: "skill-深度分层学习"
 title: "技能：深度分层学习"
 type: skill

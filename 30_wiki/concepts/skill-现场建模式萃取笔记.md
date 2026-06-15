@@ -1,5 +1,4 @@
 ---
-
 id: "skill-现场建模式萃取笔记"
 title: "技能：现场建模式萃取笔记"
 type: skill

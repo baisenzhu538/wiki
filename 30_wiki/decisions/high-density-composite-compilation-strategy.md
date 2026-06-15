@@ -2,16 +2,10 @@
 title: 高密度素材编译策略（修订）
 type: decision
 domain:
-  - product
-  - design
-  - decision-making
-  - ai-saas
-  - personal-growth
-  - kdo
+- kdo
 status: revised
 version: '2.0'
 supersedes: v1.0（复合编译方案，已废弃）
-domain: null
 id: high-density-composite-compilation-strategy
 author: legacy
 source_context: KDO internal decision record

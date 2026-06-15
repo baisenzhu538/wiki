@@ -1,5 +1,4 @@
 ---
-
 id: "skill-对标借鉴他人决策维度"
 title: "技能：对标借鉴他人决策维度"
 type: skill

@@ -1,6 +1,5 @@
 ---
 
-
 title: "紫鲸AI"
 type: entity
 domain:

@@ -1,5 +1,4 @@
 ---
-
 id: "skill-用清单体记备忘笔记"
 title: "技能：用清单体记备忘笔记"
 type: skill

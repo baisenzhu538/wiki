@@ -1,5 +1,4 @@
 ---
-
 id: "skill-推行分层标准化策略"
 title: "技能：推行分层标准化策略"
 type: skill

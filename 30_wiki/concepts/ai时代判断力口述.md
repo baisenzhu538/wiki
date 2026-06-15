@@ -1,5 +1,4 @@
 ---
-
 id: "ai时代判断力口述"
 created_at: 2026-05-25
 domain:

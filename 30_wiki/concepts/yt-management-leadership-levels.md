@@ -1,6 +1,5 @@
 ---
 
-
 title: "管理段位"
 type: concept
 domain:

@@ -1,5 +1,4 @@
 ---
-
 id: "skill-反向记录整理思路"
 title: "技能：反向记录整理思路"
 type: skill

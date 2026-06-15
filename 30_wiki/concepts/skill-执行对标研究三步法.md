@@ -1,5 +1,4 @@
 ---
-
 id: "skill-执行对标研究三步法"
 title: "技能：执行对标研究三步法"
 type: skill

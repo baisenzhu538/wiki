@@ -1,5 +1,4 @@
 ---
-
 id: case-shampoo-product-kernel
 title: "洗发水产品内核：从卖点混淆到内核清晰的产品定义案例"
 type: case

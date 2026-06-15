@@ -7,12 +7,11 @@ role: 知识架构师 (Knowledge Architect)
 created_at: '2026-05-04'
 status: proposed
 domain:
-  - kdo
+- kdo
 implementor: 黄药师 (Builder)
 dependency: 已有 kdo watch（inbox 监听 + 自动 ingest → enrich → 重建索引）
 id: kdo-watch-health-check-layer
 type: concept
-domain:
 reviewed_by: pending
 confidence: 0.65
 trust_level: low

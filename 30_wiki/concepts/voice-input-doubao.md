@@ -1,5 +1,4 @@
 ---
-
 id: voice-input-doubao
 type: tool
 domain:

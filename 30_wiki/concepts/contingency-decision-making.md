@@ -1,5 +1,4 @@
 ---
-
 id: contingency-decision-making
 type: concept
 domain:

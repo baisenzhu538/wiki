@@ -1,5 +1,4 @@
 ---
-
 id: "skill-专家访谈学习"
 title: "技能：专家访谈学习"
 type: skill

@@ -1,5 +1,4 @@
 ---
-
 id: "skill-六维窗口期扫描法"
 title: "技能：六维窗口期扫描法"
 type: skill

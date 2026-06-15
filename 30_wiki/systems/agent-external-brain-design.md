@@ -1,5 +1,4 @@
 ---
-
 title: Agent 外挂大脑设计
 type: system
 status: enriched

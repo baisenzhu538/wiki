@@ -1,5 +1,4 @@
 ---
-
 id: learning-thinking
 created_at: 2026-05-21
 domain:

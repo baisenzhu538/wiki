@@ -1,6 +1,5 @@
 ---
 
-
 title: "团队知识管理"
 type: concept
 domain:

@@ -1,5 +1,4 @@
 ---
-
 id: course-to-skill-conversion
 type: tool
 domain:

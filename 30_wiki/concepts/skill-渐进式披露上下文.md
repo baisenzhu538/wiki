@@ -1,5 +1,4 @@
 ---
-
 id: "skill-渐进式披露上下文"
 title: "技能：渐进式披露上下文"
 type: skill

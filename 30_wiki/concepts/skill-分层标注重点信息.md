@@ -1,5 +1,4 @@
 ---
-
 id: "skill-分层标注重点信息"
 title: "技能：分层标注重点信息"
 type: skill

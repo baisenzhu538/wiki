@@ -1,6 +1,5 @@
 ---
 
-
 title: "财务入门"
 type: concept
 domain:

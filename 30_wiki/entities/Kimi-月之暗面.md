@@ -1,6 +1,5 @@
 ---
 
-
 title: "Kimi（月之暗面）"
 type: entity
 domain:

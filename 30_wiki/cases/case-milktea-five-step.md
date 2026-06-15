@@ -1,5 +1,4 @@
 ---
-
 id: case-milktea-five-step
 title: "奶茶店五步法：从九死一生到十年百店的科学创业之路"
 type: case

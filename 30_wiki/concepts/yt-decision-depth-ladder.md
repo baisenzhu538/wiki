@@ -1,5 +1,4 @@
 ---
-
 id: yt-decision-depth-ladder
 title: "深度阶梯工具：L1-L4停车场模型 + 三点预测法"
 type: tool

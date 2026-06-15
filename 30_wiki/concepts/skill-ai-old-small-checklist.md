@@ -1,26 +1,15 @@
 ---
-
-
-
-id: "skill-ai-old-small-checklist"
-title: "技能：“找老的干小的”场景评估清单"
-type: "skill"
+id: skill-ai-old-small-checklist
+title: 技能：“找老的干小的”场景评估清单
+type: skill
 domain:
-  - ai-collaboration
-  - product
-  - decision-making
-  - ai-saas
-  - personal-growth
-  - yitang
-domain:
-domain:
-status: "draft"
-domain:
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- ai-saas
+status: draft
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.6
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：“找老的干小的”场景评估清单

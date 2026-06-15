@@ -1,23 +1,15 @@
 ---
-
-
-
-
-id: "skill-Truman-语义对齐沟通法"
-title: "技能：语义对齐沟通法"
-type: "skill"
+id: skill-Truman-语义对齐沟通法
+title: 技能：语义对齐沟通法
+type: skill
 domain:
-  - yitang
-  - ai-collaboration
-domain:
-domain:
-status: "draft"
-domain:
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- yitang
+status: draft
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.6
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：语义对齐沟通法

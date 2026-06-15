@@ -1,5 +1,4 @@
 ---
-
 id: yt-prompt-anti-flattery
 title: "反谄媚机制：让AI说真话"
 type: tool

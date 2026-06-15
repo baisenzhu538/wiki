@@ -1,27 +1,15 @@
 ---
-
-
-
-id: "skill-ai-system-redundancy"
-title: "技能：系统冗余度快速检查清单"
-type: "skill"
+id: skill-ai-system-redundancy
+title: 技能：系统冗余度快速检查清单
+type: skill
 domain:
-  - ai-collaboration
-  - master
-  - business-strategy
-  - management
-  - ai-saas
-  - personal-growth
-  - yitang
-domain:
-domain:
-status: "draft"
-domain:
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- ai-saas
+status: draft
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.6
-trust_level: "low"
+trust_level: low
 ---
 
 # 技能：系统冗余度快速检查清单

@@ -1,5 +1,4 @@
 ---
-
 id: "skill-代入场景推演要素法"
 title: "技能：代入场景推演要素法"
 type: skill

@@ -1,5 +1,4 @@
 ---
-
 id: ai-learning-closed-loop
 type: concept
 domain:

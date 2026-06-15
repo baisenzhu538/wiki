@@ -1,24 +1,15 @@
 ---
-
-
-
-
-id: "skill-马易-销售智能体体系搭建路径"
-title: "技能：销售智能体体系搭建路径"
-type: "skill"
+id: skill-马易-销售智能体体系搭建路径
+title: 技能：销售智能体体系搭建路径
+type: skill
 domain:
-  - ai-saas
-  - ai-collaboration
-  - yitang
-domain:
-domain:
-status: "needs-review"
-domain:
-author: "legacy"
-reviewed_by: "pending"
-created_at: "2026-06-15"
+- marketing
+status: needs-review
+author: legacy
+reviewed_by: pending
+created_at: '2026-06-15'
 confidence: 0.7
-trust_level: "medium-low"
+trust_level: medium-low
 ---
 
 # 技能：销售智能体体系搭建路径

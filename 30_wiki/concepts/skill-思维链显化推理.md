@@ -1,5 +1,4 @@
 ---
-
 id: "skill-思维链显化推理"
 title: "技能：思维链显化推理"
 type: skill
