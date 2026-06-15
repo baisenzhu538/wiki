@@ -1,12 +1,14 @@
 ---
 updated: 2026-06-15
 active_branch: main
-active_task: "王语嫣回填完工(A级报告,10条移除+6条条件标注), 老顽童业务公式域全管线跑通(A级,OCR→source→5卡+1更新→lint clean), 两agent产能同步提升"
+active_task: "黄药师完成全库审查——评分5.2/10，P0-P2问题清单已提交，待欧阳锋裁决"
 blockers:
   - "王语嫣角色升级裁决——待欧阳锋拍板"
   - "老顽童建模域案例补充(3案例+6案例)——见corr_20260614_laowantong-modeling-case-supplement.md"
   - "智能药柜19张卡待迁移(P0)"
-next_session_hint: "用户说'继续'→ ① 欧阳锋角色裁决(王语嫣升级)；② 老顽童业务公式域案例补充(5张) + 暗知识小节；③ 每个域完成后王语嫣自动跑审计"
+  - "全库审查P0: v1.5通过率18.1%(151 Failed), source_refs大面积断裂, index不完整"
+  - "全库审查P1: 60_feedback/auto 508条近重复, inbox 730积压, Graph RAG索引过期"
+next_session_hint: "用户说'继续'→ ① 欧阳锋角色裁决(王语嫣升级)；② 老顽童建模域案例补充(5张)；③ 查看全库审查报告决定修复优先级"
 ---
 
 ## 2026-06-12 变更

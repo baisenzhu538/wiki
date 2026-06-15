@@ -1,38 +1,20 @@
 ---
+
 id: industry-ai-cases
 title: 产业 AI 落地案例集（非药柜）
 type: concept
 status: enriched
 domain:
-- ai
-- ai-saas
-- entrepreneur
+  - ai-collaboration
+  - ai-saas
 source_refs:
-- src_20260614_07a9fc2a
-- src_20260614_3cefab90
-- src_20260614_eca9f5b3
-- src_20260614_b85c364e
-- src_20260614_4b3b6427
-- src_20260614_eed6d83c
-- src_20260614_45ab8b35
-- src_20260614_5e47c1c5
-- src_20260614_b9ae158f
-- src_20260614_b9fbfc2b
 tags:
-- '#industry-ai'
-- '#method/decision-framework'
-- '#ai-saas'
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
 related:
-- '[[ai-landing-scene-selection]]'
-- '[[ai-collaboration-mindset-shift]]'
-- '[[concept-ai-native-organization-five-steps]]'
-- '[[dk-纪浩-ai-cant-design-structure]]'
-- '[[dk-一堂-wishful-thinking-kills-startups]]'
 confidence: 0.65
 trust_level: medium
 ---

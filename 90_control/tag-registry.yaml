@@ -1,4 +1,4 @@
-version: '1.2'
+version: '1.3'
 created_at: 2026-05-31
 updated_at: '2026-06-16'
 dimensions:
@@ -29,7 +29,28 @@ dimensions:
       includes: AI-generated design, visual communication, brand design, AIGC tools,
         design workflow, 月白 design methodology
       excludes: general UI development, frontend coding, CSS frameworks
-  chunk_type:
+    - value: agent-infrastructure
+      includes: AI agent infrastructure and tooling
+      excludes: general software
+    - value: ai
+      includes: general artificial intelligence
+      excludes: specific AI products
+    - value: electronics
+      includes: electronics and hardware
+      excludes: general engineering
+    - value: knowledge-management
+      includes: knowledge management as a domain
+      excludes: general productivity
+    - value: prompt-engineering
+      includes: prompt engineering as a domain
+      excludes: general AI usage
+    - value: skill-engineering
+      includes: skill engineering and course conversion
+      excludes: general education
+    - value: saas
+      includes: SaaS business and product domain
+      excludes: general software
+  chunk-type:
     group: retrieval
     layer: chunk
     activation: required
@@ -73,24 +94,24 @@ dimensions:
       includes: open question, unexplored territory, research direction, future exploration,
         unresolved tension
       excludes: rhetorical questions, Socratic leading questions with obvious answers
-    - value: action_trigger
+    - value: action-trigger
       includes: when-to-use trigger condition, when-NOT-to-use trigger, decision gate,
         activation condition, if-this-then-that rule
       excludes: general advice without trigger conditions, vague recommendations
-    - value: process_data
+    - value: process-data
       includes: decision rationale, change log, before-and-after comparison, iteration
         record, why we chose X over Y, design decision
       excludes: final conclusion without process, polished end-product description
-    - value: error_data
+    - value: error-data
       includes: error record, mistake, correction, C-N record, failure mode instance,
         bug report, incident postmortem, what went wrong
       excludes: success stories, positive case studies, best practices without failure
         context
-    - value: original_quote
+    - value: original-quote
       includes: direct quotation from source material, verbatim transcript excerpt,
         exact words from person, raw interview fragment
       excludes: paraphrased content, summarized version, interpreted meaning
-    - value: use_case
+    - value: use-case
       includes: specific usage scenario, concrete context for applying knowledge,
         who-when-where-how of application
       excludes: generalized description, abstract applicability statement
@@ -102,19 +123,19 @@ dimensions:
       includes: specific counter-example, explicit non-applicability, clear boundary
         condition, preconditions for validity, dark knowledge boundary
       excludes: generic limitations statement, vague 'it depends' caveats
-    - value: why_valuable
+    - value: why-valuable
       includes: rationale for uniqueness, why AI training data doesn't have this,
         competitive moat explanation, dark knowledge value proposition
       excludes: generic statements of importance, 'this is very useful' without evidence
-    - value: cross_reference
+    - value: cross-reference
       includes: link to concept card, reference to related knowledge, bidirectional
         link, knowledge graph edge
       excludes: empty links, broken wikilinks, dangling references
-    - value: extraction_guide
+    - value: extraction-guide
       includes: meta-methodology extracted from a group of cards,统领性方法论摘要, extraction
         guide for a card cluster, domain-wide principles
       excludes: single-card summary, individual card conclusion
-  method_family:
+  method:
     group: retrieval
     layer: chunk
     activation: required
@@ -165,6 +186,60 @@ dimensions:
       includes: knowledge management, ontology design, KDO self-methodology, PKM framework,
         wiki architecture, graph RAG design, tagging methodology
       excludes: general information management, file organization, folder naming conventions
+    - value: ai-collaboration
+      includes: human-AI collaboration workflow, AI pairing
+      excludes: pure prompt technique
+    - value: checklist
+      includes: checklist method and verification list
+      excludes: free-form prose
+    - value: course-design
+      includes: curriculum and course design methodology
+      excludes: learning method itself
+    - value: critical-thinking
+      includes: critical thinking and skepticism techniques
+      excludes: general thinking
+    - value: decision-quality
+      includes: decision quality assessment
+      excludes: general decision making
+    - value: execution-management
+      includes: execution and delivery management
+      excludes: strategic planning
+    - value: essence-modeling
+      includes: essence and abstract modeling
+      excludes: concrete modeling
+    - value: logical-rigor
+      includes: logical rigor and formal reasoning
+      excludes: casual reasoning
+    - value: model-validation
+      includes: model validation methodology
+      excludes: general evaluation
+    - value: project-management
+      includes: project management methods
+      excludes: execution methods
+    - value: retrospective
+      includes: retrospective and review methods
+      excludes: general meeting
+    - value: sop
+      includes: standard operating procedure creation
+      excludes: general execution
+    - value: structure
+      includes: structural thinking and organization
+      excludes: content format
+    - value: visual-design
+      includes: visual design methodology
+      excludes: UI development
+    - value: modeling
+      includes: modeling methodology, abstract or concrete model construction
+      excludes: general thinking
+    - value: workflow
+      includes: workflow design and execution flow
+      excludes: project management
+    - value: knowledge-management
+      includes: knowledge management practice and methods
+      excludes: knowledge engineering systems
+    - value: prompt
+      includes: prompt engineering concise tag
+      excludes: general AI usage
   audience:
     group: perspective
     layer: chunk
@@ -263,7 +338,7 @@ dimensions:
     - value: general
       includes: platform-agnostic content, not tied to any specific platform
       excludes: platform-specific rules or features
-  source_person:
+  source-person:
     group: perspective
     layer: card
     activation: conditional
@@ -301,7 +376,7 @@ dimensions:
       includes: 徐建 entrepreneurship cases, 徐建 data asset methodology, 徐建 startup experience
     - value: multiple
       includes: multiple contributors, collaborative knowledge, team-sourced content
-  source_context_type:
+  source-context-type:
     group: perspective
     layer: card
     activation: conditional
@@ -349,29 +424,27 @@ dimensions:
     layer: chunk
     activation: conditional
     labeling: auto_plus_manual
-    description: Confidence level of the claim in this chunk.
+    description: Confidence level or verification state of the claim.
     values:
     - value: '0.90'
-      includes: multi-source verified, practical experience confirmed, peer consensus,
-        strong empirical evidence, Kahneman-level authority
-      excludes: single-source claims, personal anecdotes without verification
+      includes: multi-source verified, strong empirical evidence
     - value: '0.70'
-      includes: single strong source, logically coherent, expert personal experience,
-        internally consistent but externally unverified, practitioner methodology
-      excludes: speculative claims, hypothetical scenarios
+      includes: single strong source, expert personal experience
     - value: '0.50'
-      includes: single source with partial counterexamples, spontaneous judgment,
-        personal opinion with reasoning, plausible but unverified
-      excludes: widely accepted facts, multi-source confirmed knowledge
+      includes: single source with partial counterexamples, plausible but unverified
     - value: '0.30'
-      includes: hypothesis, speculation, personal preference, untested conjecture,
-        future prediction, 'I think...' statements
-      excludes: empirically grounded claims, expert consensus
-    - value: null
-      includes: pure factual statement without judgment, neutral description, observational
-        data, 'the sky is blue'-level objective facts
-      excludes: any claim involving interpretation, evaluation, or prediction
-  data_generation:
+      includes: hypothesis, speculation, untested conjecture
+    - value: 'null'
+      includes: pure factual statement without judgment
+    - value: draft
+      includes: preliminary claim, not yet verified
+    - value: source-cited
+      includes: claim backed by explicit source citation
+    - value: verified-by-case
+      includes: claim confirmed by real-world case
+    - value: verified-by-test
+      includes: claim confirmed by test or experiment
+  data-generation:
     group: quality
     layer: card
     activation: required
@@ -382,22 +455,22 @@ dimensions:
     - value: original
       includes: human-original content, oral transcript, handwritten notes, real photography,
         human-authored text without AI assistance
-    - value: ai_generated
+    - value: ai-generated
       includes: AI single-pass generation, LLM output without human editing, raw model
         output
-    - value: ai_on_ai
+    - value: ai-on-ai
       includes: AI-generated content further processed by another AI, stacked AI generations,
         multi-pass AI refinement, high hallucination risk
       excludes: AI generated then human edited
-    - value: human_ai_collab
+    - value: human-ai-collab
       includes: AI generated draft + human substantial revision, iterative human-AI
         co-creation, human direction + AI execution
       excludes: AI-only generation, human-only authoring
-    - value: human_edited_ai
+    - value: human-edited-ai
       includes: AI generated content reviewed and lightly edited by human, AI output
         with human approval stamp
       excludes: substantial human rewriting of AI draft
-  error_root:
+  error-root:
     group: quality
     layer: chunk
     activation: conditional
@@ -470,7 +543,7 @@ dimensions:
       includes: explicit expiration date, known sunset date, license expiration, contract
         end date
       excludes: vague future expiration, unspecified timeline
-  value_tier:
+  value-tier:
     group: value
     layer: card
     activation: required
@@ -489,7 +562,7 @@ dimensions:
       includes: moat-level, industry-exclusive scarce asset, competitive barrier,
         full-library strategic advantage, ten-year accumulation, defensible know-how
       excludes: commonly available knowledge, public domain frameworks
-  usage_depth:
+  usage-depth:
     group: value
     layer: card
     activation: required
@@ -517,7 +590,7 @@ dimensions:
       includes: fine-tuning data, training corpus, model customization data — NOT
         CURRENTLY ENABLED for KDO
       excludes: all standard usage levels
-  prerequisite_knowledge:
+  prerequisite-knowledge:
     group: value
     layer: card
     activation: conditional
@@ -545,7 +618,7 @@ dimensions:
       includes: specific card prerequisite,必须先读某张卡, linked dependency, sequential
         reading order
       excludes: general prerequisites without specific card reference
-  content_format:
+  content-format:
     group: retrieval
     layer: card
     activation: conditional
@@ -619,7 +692,22 @@ dimensions:
     - value: local-service
       includes: O2O, local services, delivery, offline service businesses
       excludes: pure online services
-  skill_level:
+    - value: consulting
+      includes: management and strategy consulting
+      excludes: general business
+    - value: fitness
+      includes: fitness, gym, wellness services
+      excludes: healthcare clinical
+    - value: dental
+      includes: dental and oral healthcare services
+      excludes: general healthcare
+    - value: hardware
+      includes: hardware, electronics, prototyping
+      excludes: software development
+    - value: ai-infrastructure
+      includes: AI infrastructure and agent tooling industry
+      excludes: general SaaS
+  skill-level:
     group: perspective
     layer: card
     activation: conditional
@@ -635,60 +723,158 @@ dimensions:
     - value: advanced
       includes: expert-level, nuanced, requires deep experience, specialist knowledge
       excludes: introductory content
+    - value: expert
+      includes: expert-level practitioner
+      excludes: introductory content
+  scene:
+    group: retrieval
+    layer: card
+    activation: conditional
+    labeling: manual
+    description: Usage scene or workflow context where this card is most relevant.
+    values:
+    - value: agent-infrastructure
+      includes: AI agent infrastructure, skill registry, tool use
+    - value: agent-infrastructure/discovery-chain
+      includes: agent discovery chain workflow
+    - value: agent-infrastructure/skill-registry
+      includes: skill registry design and management
+    - value: ai-collaboration
+      includes: human-AI collaboration workflows
+    - value: ai-collaboration/pdca-execution
+      includes: PDCA execution with AI assistance
+    - value: ai-collaboration/problem-validation
+      includes: problem validation using AI
+    - value: ai-collaboration/prompt-engineering
+      includes: prompt engineering workflows
+    - value: ai-collaboration/skill-market
+      includes: AI skill marketplace
+    - value: ai-collaboration/workspace-design
+      includes: AI collaboration workspace design
+    - value: business-analysis
+      includes: business analysis and metrics
+    - value: business-analysis/conversion-rate
+      includes: conversion rate analysis
+    - value: communication
+      includes: communication and messaging
+    - value: consulting
+      includes: consulting and advisory
+    - value: diagnosis
+      includes: diagnostic assessment
+    - value: entrepreneurship
+      includes: startup and entrepreneurship
+    - value: hardware-debugging
+      includes: hardware debugging and prototyping
+    - value: hardware-debugging/prototyping
+      includes: hardware prototyping
+    - value: knowledge-management
+      includes: knowledge management and PKM
+    - value: knowledge-management/case-library
+      includes: case library management
+    - value: knowledge-management/tagging
+      includes: tagging and taxonomy
+    - value: learning-methodology
+      includes: learning methods and deliberate practice
+    - value: learning-methodology/deliberate-practice
+      includes: deliberate practice
+    - value: learning-methodology/mental-models
+      includes: mental model building
+    - value: note-taking
+      includes: note taking and capture
+    - value: note-taking/live-field
+      includes: live field notes
+    - value: note-taking/training-plan
+      includes: training plan notes
+    - value: presentation
+      includes: presentation and pitching
+    - value: product-design/design-freeze
+      includes: design freeze process
+    - value: product-design/focus-workbench
+      includes: focus workbench design
+    - value: relationship-management
+      includes: relationship and stakeholder management
+    - value: skill-engineering
+      includes: skill engineering and course conversion
+    - value: skill-engineering/course-to-skill
+      includes: course to skill conversion
+    - value: skill-engineering/eval-testing
+      includes: skill evaluation testing
+    - value: skill-engineering/manifest-design
+      includes: skill manifest design
+    - value: skill-engineering/publish-deploy
+      includes: skill publish and deploy
+    - value: team-management
+      includes: team and people management
+  problem:
+    group: retrieval
+    layer: card
+    activation: conditional
+    labeling: manual
+    description: Problem domain this card addresses.
+    values:
+    - value: ai-workflow
+      includes: AI workflow integration problems
+    - value: knowledge-management
+      includes: knowledge management problems
+    - value: org-incentives
+      includes: organizational incentive problems
+    - value: org-learning
+      includes: organizational learning problems
+    - value: reporting
+      includes: reporting and status update problems
+  source-type:
+    group: perspective
+    layer: card
+    activation: conditional
+    labeling: manual
+    description: Source diversity or type for this card.
+    values:
+    - value: diverse
+      includes: multiple diverse sources
 activation_rules:
   standard_concept_claim:
     dimensions:
     - domain
-    - chunk_type
-    - method_family
+    - chunk-type
+    - method
     label_count: ~5
   with_audience_signal:
     dimensions:
     - domain
-    - chunk_type
-    - method_family
+    - chunk-type
+    - method
     - audience
     - perspective
     label_count: ~7
   dark_knowledge_error:
     dimensions:
     - domain
-    - chunk_type
-    - method_family
-    - source_person
-    - source_context_type
-    - error_root
+    - chunk-type
+    - method
+    - source-person
+    - source-context-type
+    - error-root
     - confidence
     label_count: ~10
   platform_specific:
     dimensions:
     - domain
-    - chunk_type
-    - method_family
+    - chunk-type
+    - method
     - platform
     - perspective
     label_count: ~7
-chunk_type_triggers:
-  error_data:
-    activate:
-    - error_root
-  original_quote:
-    activate:
-    - source_person
-  critique:
-    activate:
-    - confidence
 inference_map:
   yt-:
   - '#domain/yitang'
-  - '#method_family/product-design'
+  - '#method/product-design'
   master-:
   - '#domain/master'
   ocr-一堂-:
   - '#domain/yitang'
-  - '#quality/ocr-card'
+  - '#data-generation/ocr-card'
   ocr-:
-  - '#quality/ocr-card'
+  - '#data-generation/ocr-card'
   design-:
   - '#domain/design'
   dk-:
@@ -711,4 +897,14 @@ inference_map:
   - '#domain/healthcare'
   ec-:
   - '#domain/master'
-  - '#method_family/evaluation-method'
+  - '#method/evaluation-method'
+chunk-type-triggers:
+  error-data:
+    activate:
+    - error-root
+  original-quote:
+    activate:
+    - source-person
+  critique:
+    activate:
+    - confidence

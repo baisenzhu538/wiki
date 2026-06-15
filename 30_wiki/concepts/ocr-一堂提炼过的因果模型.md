@@ -1,16 +1,15 @@
 ---
+
 id: "ocr-一堂提炼过的因果模型"
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - yitang
 source_refs:
-  - src_20260522_77b6cdaf
 status: draft
 title: "OCR: 一堂提炼过的因果模型"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
 author: unknown
 reviewed_by: pending
 confidence: 0.6

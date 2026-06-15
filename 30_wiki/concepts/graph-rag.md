@@ -1,14 +1,12 @@
 ---
+
 id: graph-rag
 aliases:
 - Graph RAG
 created_at: 2026-05-03
 domain:
-- ai-saas
+  - kdo
 related:
-- '[[kdo-protocol]]'
-- '[[index]]'
-- '[[kimi-深度调研集群方法论-deep-research-swarm]]'
 review_date: 2026-05-04
 reviewed_by: 黄药师
 status: enriched
@@ -17,11 +15,9 @@ trust_level: medium
 type: concept
 updated_at: '2026-06-16'
 pipeline:
-- confidence-verified-by-case
 author: unknown
 confidence: 0.75
 source_refs:
-- source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
 # Graph RAG — Knowledge-Graph-Powered Retrieval

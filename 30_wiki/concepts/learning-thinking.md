@@ -1,16 +1,16 @@
 ---
+
 id: learning-thinking
 created_at: 2026-05-21
 domain:
-  - ai-saas
+  - master
+  - personal-growth
 source_refs:
-  - src_20260522_0af1f6dd
 status: enriched
 title: "Learning Thinking"
 type: concept
 updated_at: 2026-05-22
 pipeline:
-  - confidence-source-cited
 author: unknown
 reviewed_by: "欧阳锋"
 confidence: 0.8
