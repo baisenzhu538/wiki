@@ -26,6 +26,8 @@ related:
 - '[[yt-panproduct-execution-10x-validation]]'
 - '[[yt-panproduct-execution-hypothesis-decomposition]]'
 - '[[yt-model-personal-pitch-toolkit]]'
+- '[[yt-entrepreneur-lean-validation]]'
+- '[[yt-research-hypothesis-test]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_9168476b

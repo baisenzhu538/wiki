@@ -20,10 +20,16 @@ query_triggers:
 - 关键假设测试
 related:
 - '[[dk-yb1-aigc-mvp-before-ps]]'
+- '[[yt-entrepreneur-product-core]]'
+- '[[yt-lean-essence]]'
+- '[[case-yitang-tob-artificial-bone]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_9168476b
+- src_20260616_b1e25c49
+- src_20260616_7dc80216
+- src_20260616_6c8b240b
 status: enriched
 title: 低成本验证/MVP
 trust_level: medium
@@ -44,6 +50,12 @@ diagnostic_signals:
 - signal: 用户验证了一个点但没有继续迭代
   framework_lens: MVP没有闭环
   follow_up_question: 验证结果如何改变了你的下一步行动？如果没有任何改变，验证只是形式主义
+- signal: 用户用免费或补贴获取早期用户，却把转化率当产品价值证据
+  framework_lens: 补贴扭曲验证信号
+  follow_up_question: 如果去掉首单免费/大额补贴，今天表现出正向行为的用户还会重复同样行为吗？实验通过标准是否包含“自然付费”对照组？
+- signal: 用户把“有多少人愿意用”等同于“需求被验证”
+  framework_lens: 混淆兴趣信号与付费/留存信号
+  follow_up_question: 你测的是态度还是行为？如果明天开始收费或取消人工服务，愿意用的人里有多少会留下？
 updated_at: '2026-06-16'
 author: 老顽童
 ---

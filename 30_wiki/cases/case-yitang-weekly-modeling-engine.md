@@ -2,7 +2,7 @@
 id: case-yitang-weekly-modeling-engine
 title: 案例：一堂的"周对周建模迭代"——把周五课程逼成公司增长引擎
 type: case
-status: draft
+status: enriched
 problem_domains:
 - 组织学习
 - 模型迭代
@@ -23,18 +23,30 @@ tags:
 related_skills: []
 related_concepts:
 - '[[dk-modeling-course-rnd-ripe-fruit]]'
-related_cases: []
+related_cases:
+- '[[case-yitang-model-asset-inventory]]'
+- '[[case-yitang-model-valuation-flywheel]]'
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
+review_date: '2026-06-16'
 confidence: 0.8
 trust_level: medium
 domain:
 - yitang
 - 组织学习
 - 模型迭代
-- null
+diagnostic_signals:
+- signal: 团队每周都在交付，但半年后回头看模型能力和上半年几乎一样
+  framework_lens: 组织学习闭环
+  follow_up_question: 过去10次交付中，有多少次明确改进了某个模型或SOP？
+- signal: 复盘会上大家热衷于讨论"谁没做好"，而不是"模型哪里要改"
+  framework_lens: 复盘与模型迭代
+  follow_up_question: 如果同样场景再来一次，团队现在会采用什么不同的模型或检查清单？
+- signal: 管理层要求提前半年排好详细课表/内容计划
+  framework_lens: 研究型交付 vs 标准化交付
+  follow_up_question: 这些内容中哪些是已知成熟可复制的，哪些还是研究中的"未熟果实"？
 ---
 # 案例：一堂的“周对周建模迭代”——把周五课程逼成公司增长引擎
 

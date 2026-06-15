@@ -23,9 +23,13 @@ query_triggers:
 related:
 - '[[yt-model-five-step-canvas]]'
 - '[[yt-model-prediction-model]]'
+- '[[yt-five-step-method]]'
+- '[[yt-five-step-common-pitfalls]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260522_a632cc1c
+- src_20260616_18764078
+- src_20260616_aac184cc
 status: enriched
 title: 泛产品设计·用户卡片：一堂五步法
 type: tool
@@ -38,15 +42,15 @@ yitang:
 pipeline:
 - confidence-source-cited
 diagnostic_signals:
-- signal: 画布五步（需求→解决方案→商业模式→增长→壁垒）都被填入了可证伪的假设
-  framework_lens: 商业成败取决于假设质量
-  follow_up_question: 哪一步的假设如果错了，会让整个项目迅速失败？你打算如何证伪它？
-- signal: 能清楚区分价值假设（前三步）和增长假设（后两步）
-  framework_lens: 价值与增长的验证节奏不同
-  follow_up_question: 如果价值假设还没验证，你是否已经开始做增长假设的规模化投入？
-- signal: 每一步都有明确的go/no-go标准和下一步验证实验
-  framework_lens: 画布是决策工具，不是填写练习
-  follow_up_question: 填完画布后，团队是否据此取消或推迟了某个计划？
+- signal: 画布五步（需求→解决方案→商业模式→增长→壁垒）都被填入了可证伪的假设，且至少一格标注了To B决策链上的关键角色
+  framework_lens: To B商业成败取决于假设质量，而角色分离是需求误判的第一诱因
+  follow_up_question: 哪一步的假设如果错了，会让整个项目迅速失败？如果使用者喜欢但决策者不买单，你的画布哪一格会首先变红？
+- signal: 能清楚区分价值假设（前三步）和增长假设（后两步），并明确价值假设未验证前不做规模化投入
+  framework_lens: 价值与增长的验证节奏不同，To B周期更长，错序投入的回款周期会放大损失
+  follow_up_question: 如果价值假设还没验证，你是否已经开始做增长假设的规模化投入？当前自由现金流能否支撑这个节奏？
+- signal: 每一步都有明确的go/no-go标准和下一步验证实验，且画布中至少有一格被更新过
+  framework_lens: 画布是动态决策工具，不是一次性填写练习
+  follow_up_question: 填完画布后，团队是否据此取消或推迟过某个计划？画布最近一次更新是什么时候？
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
