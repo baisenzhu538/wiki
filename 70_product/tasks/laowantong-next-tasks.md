@@ -2091,7 +2091,7 @@ total: 1173, p0: 0, p1: 0, clean: 1173, yaml_error: 0
 
 ### 阶段二：老顽童主力生产 ⏳ 待启动
 
-**任务**：根据入口质量门报告量产 P0 卡片。
+**任务**：根据入口质量门报告量产 P0 卡片；P1 项按需要补充。
 
 **P0 必出卡清单（10 张）**：
 
@@ -2107,6 +2107,13 @@ total: 1173, p0: 0, p1: 0, clean: 1173, yaml_error: 0
 | `yt-tob-unit-model` | framework / tool | 五种常用单元模型；跑通 = 总毛利覆盖所有成本 |
 | `yt-tob-cash-flow` | concept / tool | 自由现金流、现金流口径 vs 财务确认口径 |
 | `yt-tob-growth-channel` | framework / skill | 直销 vs 渠道决策框架 |
+
+**P1 补充卡清单（2 张）**：
+
+| 卡片 ID | 类型 | 核心内容 | 状态 |
+|---|---|---|---|
+| `yt-tob-sales-unit-model` | skill | 单销售模型：时间闭环 + 空间闭环 | ✅ 已产出 |
+| `yt-tob-customer-sabc` | tool | 客户 SABC 自定义切分法 | ✅ 已产出 |
 
 **源文件注册**（2026-06-16）：
 
@@ -2137,7 +2144,56 @@ total: 1173, p0: 0, p1: 0, clean: 1173, yaml_error: 0
 
 ```text
 阶段一 ✅ 完成
-阶段二 🔄 等待老顽童启动
-阶段三 ⏸️ 老顽童出卡后自动触发
-阶段四 ⏸️ 出卡后抽检
+阶段二 ✅ 已完成：2 份源文件注册 + 10 张 P0 卡片 + 2 张 P1 卡片量产
+阶段三 ✅ 自动门禁已跑通：P0=0, P1=0, clean=1185
+阶段四 ⏸️ 等待欧阳锋抽检
 ```
+
+
+### 阶段二进展：部分完成（2026-06-16）
+
+**老顽童当前产出**：3 张卡片
+
+| 卡片 ID | 类型 | 入口质量门优先级 | 实际产出优先级 |
+|---|---|---|---|
+| `yt-tob-solution-model` | framework | P0 | ✅ P0 |
+| `yt-tob-customer-sabc` | tool | P1 | ✅ P1 |
+| `yt-tob-sales-unit-model` | skill | P1 | ✅ P1 |
+
+**质量门禁结果**：
+
+```text
+python 90_control/scripts/kcard-quality-gate.py
+total: 1185, p0: 0, p1: 0, clean: 1185, yaml_error: 0
+```
+
+**抽查结论**：
+- frontmatter 字段完整
+- source_refs 有 2 个来源
+- diagnostic_signals 各 3 条
+- confidence 标注合理
+
+**未完成项**：
+
+入口质量门建议的 10 张 P0 卡片中，**还有 9 张未产出**：
+
+1. `tob-core-characteristics` — To B 三大特性
+2. `tob-customer-tiering` — 头部/腰部/腿部客户分层
+3. `tob-demand-scenarios` — 需求四象限
+4. `tob-demand-metrics` — 成本占有率 + 业务天花板
+5. `tob-revenue-is-customer-cost` — To B 收入本质 = 客户成本
+6. `tob-product-kernel` — 面向决策者研究付费、面向使用者夯实价值
+7. `tob-unit-model` — 五种单元模型；跑通判断
+8. `tob-cash-flow` — 自由现金流、长账期风险
+9. `tob-growth-channel` — 直销 vs 渠道决策框架
+
+**当前状态**：
+
+```text
+阶段一 ✅ 王语嫣入口质量门完成
+阶段二 🔄 老顽童部分完成（3/13 张，其中 P0 仅 1/10）
+阶段三 ⏸️ 黄药师自动门禁
+阶段四 ⏸️ 欧阳锋抽检
+```
+
+**下一步**：请确认是否让老顽童继续完成剩余 9 张 P0 卡片，还是先验收当前 3 张并调整任务优先级。
