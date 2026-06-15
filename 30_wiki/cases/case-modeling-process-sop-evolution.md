@@ -2,7 +2,7 @@
 id: case-modeling-process-sop-evolution
 title: 流程建模案例：一堂 2021-2024 年 SOP 清单演进史
 type: case
-status: enriched
+status: draft
 domain:
 - yitang
 - master

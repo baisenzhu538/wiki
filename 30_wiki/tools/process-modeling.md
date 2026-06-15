@@ -9,7 +9,7 @@ source_refs:
 - src_20260614_c62e0e61
 - src_20260614_50b37986
 - src_20260614_42f1e977
-status: enriched
+status: draft
 domain:
 - yitang
 - product

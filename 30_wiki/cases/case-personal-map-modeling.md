@@ -4,7 +4,7 @@ title: 案例：一堂个人地图的完整建模过程
 type: case
 source_refs:
 - src_20260614_8269ccdb
-status: enriched
+status: draft
 domain:
 - yitang
 - personal-growth

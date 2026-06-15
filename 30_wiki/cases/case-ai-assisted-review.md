@@ -4,7 +4,7 @@ title: 案例：一堂用 AI 做复盘——从 Before/After 对比到 AI 自己
 type: case
 source_refs:
 - src_20260614_8269ccdb
-status: enriched
+status: draft
 domain:
 - yitang
 - modeling

@@ -4,7 +4,7 @@ title: 案例：创业本质 = 小概率游戏
 type: case
 source_refs:
 - src_20260614_8269ccdb
-status: enriched
+status: draft
 domain:
 - yitang
 - entrepreneurship

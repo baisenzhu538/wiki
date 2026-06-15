@@ -4,7 +4,7 @@ title: 案例：一堂直播时间为什么是 21:00——三次用户调研的�
 type: case
 source_refs:
 - src_20260614_8269ccdb
-status: enriched
+status: draft
 domain:
 - yitang
 - modeling

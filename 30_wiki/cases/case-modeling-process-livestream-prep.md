@@ -2,7 +2,7 @@
 id: case-modeling-process-livestream-prep
 title: 流程建模案例：Truman 直播开播前 2 小时个人准备清单
 type: case
-status: enriched
+status: draft
 domain:
 - yitang
 - master

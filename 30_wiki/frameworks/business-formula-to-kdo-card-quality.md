@@ -6,7 +6,7 @@ source_refs:
 - src_20260613_6edbf0af
 - src_20260613_a8bcfd38
 - src_20260613_6b939d2b
-status: enriched
+status: draft
 confidence: 0.88
 domain:
 - kdo

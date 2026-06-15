@@ -4,7 +4,7 @@ title: 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
 type: case
 source_refs:
 - src_20260614_8269ccdb
-status: enriched
+status: draft
 domain:
 - yitang
 - ai-collaboration

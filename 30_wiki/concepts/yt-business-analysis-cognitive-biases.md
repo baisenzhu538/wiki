@@ -20,7 +20,7 @@ reviewed_by: pending
 source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt
 - 00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt
-status: reviewed
+status: draft
 title: 暗知识：五步法中的主要认知偏差
 trust_level: medium
 type: dk

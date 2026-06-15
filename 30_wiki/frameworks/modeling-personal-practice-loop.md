@@ -4,7 +4,7 @@ title: 建模能力个人修炼闭环：刻意练习 × IPO × PDCA
 type: framework
 source_refs:
 - src_20260614_8269ccdb
-status: enriched
+status: draft
 domain:
 - yitang
 - personal-growth

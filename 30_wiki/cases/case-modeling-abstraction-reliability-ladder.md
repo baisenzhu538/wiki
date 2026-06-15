@@ -2,7 +2,7 @@
 id: case-modeling-abstraction-reliability-ladder
 title: 抽象建模案例：知识可靠度四阶梯——从“听着很香”到“没有反例”
 type: case
-status: enriched
+status: draft
 domain:
 - yitang
 - master

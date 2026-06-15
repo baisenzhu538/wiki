@@ -4,7 +4,7 @@ title: 建模的三重价值：确定性、框架性、迁移性
 type: concept
 source_refs:
 - src_20260614_8269ccdb
-status: enriched
+status: draft
 domain:
 - yitang
 - modeling

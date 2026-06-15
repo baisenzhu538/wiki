@@ -20,7 +20,7 @@ reviewed_by: pending
 source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-产品内核-十大典型指标_paddle_ocr.txt
 - 00_inbox/一堂五步法/一堂-一堂五步法-解决方案（产品内核）-口述.txt
-status: reviewed
+status: draft
 title: 产品内核十大典型指标
 trust_level: medium
 type: tool

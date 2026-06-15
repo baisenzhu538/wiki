@@ -21,7 +21,7 @@ reviewed_by: pending
 source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-笔记.txt
-status: reviewed
+status: draft
 title: 单元模型：商业模式评估的核心工具
 trust_level: medium
 type: framework

@@ -68,7 +68,7 @@ source_refs:
 - src_20260611_7c3a2a57
 - src_20260611_173d9f0e
 - src_20260611_0f0a4c27
-status: enriched
+status: draft
 title: 一堂五步法
 trust_level: high
 type: tool

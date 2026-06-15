@@ -2,7 +2,7 @@
 id: modeling-capability-for-kdo
 title: KDO 内容路线决策：建模能力在知识库建设中的应用
 type: decision
-status: stable
+status: draft
 confidence: 0.78
 domain:
 - kdo

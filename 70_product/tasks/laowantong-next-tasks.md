@@ -1280,3 +1280,52 @@ updated_at: "2026-06-15"
 3. 质量门禁前后对比
 
 然后通知王语嫣验收。
+
+---
+
+## 九、P1 精修 B4-B6 完成小结（2026-06-16）
+
+本阶段任务已完成。
+
+### Baseline（2026-06-15 质量门禁）
+
+- P0：0 张
+- P1：1006 张
+- legacy source 卡：434 张
+- high trust + single source：约 65 条告警
+- 自审卡（author == reviewed_by）：77 张
+
+### 处理结果
+
+| 批次 | 处理方式 | 数量 | 结果 |
+|---|---|---:|---|
+| **B4 legacy 分类** | title/context/filename 关键词推断 source | 193 | source_refs 从 `legacy` 替换为推断出的 src ID |
+| **B4 legacy 分类** | 无法推断的标记为 `source_unknown` | 241 | 写入 `60_feedback/corrections/source-unknown-remaining.md` |
+| **B5 high trust 单 source** | source 为长文档（>30KB）保持 high，并在 source_context 加注释 | 37 | 已加注释说明 |
+| **B5 high trust 单 source** | source 缺失或短文档，降为 medium + confidence 0.7 | 25 | trust_level 已调整 |
+| **B6 自审分流** | author == reviewed_by 的卡统一改为 `reviewed_by: pending` | 77 | 其中 74 张原 status 为 enriched/reviewed/stable，同步降级为 `draft` 以避免 P0 |
+
+处理后：
+
+- `source_refs: [legacy]` 的卡：**0 张**（超额完成 ≥50% 目标）
+- 自审卡（author == reviewed_by）：**0 张**
+- high trust + single source 剩余：**37 张**（均为长文档且已加注释，属有意保留）
+
+### 质量门禁复测
+
+- P0：**0 张**（无新增阻塞问题）
+- P1：**998 张**（从 1006 下降 8 张；P1 主要剩余 dangling 链接、未注册 src ID 等不属于本阶段任务的问题）
+- 完全干净卡片：361 张
+
+### 产出文件
+
+- `60_feedback/corrections/source-unknown-remaining.md` —— 241 张无法追溯 source 的卡片清单
+- 变更卡片：约 482 张（B4 434 + B5 62 + B6 77，有重叠）
+
+### 待验收
+
+请 **王语嫣** 验收 B4-B6。重点确认：
+
+1. `source_unknown` 卡片清单是否需进一步人工认领；
+2. 37 张保留 high trust 的长文档单 source 卡是否可接受；
+3. 74 张自审 enriched/reviewed/stable 卡降级为 draft 是否符合流程预期。

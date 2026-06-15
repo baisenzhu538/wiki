@@ -4,7 +4,7 @@ title: 案例：孩子控笔‘画画歌’——最小单元的建模实践
 type: case
 source_refs:
 - src_20260614_8269ccdb
-status: enriched
+status: draft
 domain:
 - yitang
 - modeling

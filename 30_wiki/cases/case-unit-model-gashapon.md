@@ -20,7 +20,7 @@ reviewed_by: pending
 source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-笔记.txt
-status: reviewed
+status: draft
 title: 案例：扭蛋机/抓娃娃机的单元模型段位进阶
 trust_level: medium
 type: case

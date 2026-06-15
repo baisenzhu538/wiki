@@ -4,7 +4,7 @@ title: 案例：一堂是‘教育供应链创新公司’——从真实实践�
 type: case
 source_refs:
 - src_20260614_8269ccdb
-status: enriched
+status: draft
 domain:
 - yitang
 - modeling

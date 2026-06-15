@@ -4,7 +4,7 @@ title: 课程里程碑模型：一堂做课的七步生产流程
 type: framework
 source_refs:
 - src_20260614_8269ccdb
-status: enriched
+status: draft
 domain:
 - yitang
 - education

@@ -6,7 +6,7 @@ source_refs:
 - src_20260613_c17fcdb2
 - src_20260613_687c4ec0
 - src_20260613_12d63c1c
-status: enriched
+status: draft
 domain:
 - yitang
 - ai-collaboration

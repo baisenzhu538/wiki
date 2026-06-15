@@ -21,7 +21,7 @@ source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-口述.txt
 - 00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt
-status: reviewed
+status: draft
 title: 暗知识：五步法的段位盲区与自评陷阱
 trust_level: medium
 type: dk

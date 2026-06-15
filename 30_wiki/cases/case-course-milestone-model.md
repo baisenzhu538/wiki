@@ -4,7 +4,7 @@ title: 案例：一堂课程里程碑模型——方法论级建模的六步生�
 type: case
 source_refs:
 - src_20260614_8269ccdb
-status: enriched
+status: draft
 domain:
 - yitang
 - modeling

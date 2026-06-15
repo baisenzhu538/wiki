@@ -5,7 +5,7 @@ domain:
 - master
 review_date: 2026-05-07
 reviewed_by: pending
-status: enriched
+status: draft
 title: PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill
 trust_level: medium
 type: concept

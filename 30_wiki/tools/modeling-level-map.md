@@ -6,7 +6,7 @@ source_refs:
 - src_20260614_bb892297
 - src_20260614_42f1e977
 - src_20260614_8269ccdb
-status: enriched
+status: draft
 domain:
 - yitang
 - product

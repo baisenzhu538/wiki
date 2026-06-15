@@ -4,7 +4,7 @@ title: 案例：教育本质与战略本质的提炼
 type: case
 source_refs:
 - src_20260614_8269ccdb
-status: enriched
+status: draft
 domain:
 - yitang
 - modeling

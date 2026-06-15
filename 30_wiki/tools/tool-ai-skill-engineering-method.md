@@ -4,7 +4,7 @@ title: AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水
 type: tool
 source_refs:
 - src_20260614_8269ccdb
-status: enriched
+status: draft
 domain:
 - yitang
 - ai-collaboration

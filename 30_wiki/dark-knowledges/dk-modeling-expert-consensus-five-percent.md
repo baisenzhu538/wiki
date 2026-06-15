@@ -5,7 +5,7 @@ type: dark-knowledge
 dark_knowledge_type: principle
 source_refs:
 - src_20260614_8269ccdb
-status: enriched
+status: draft
 domain:
 - yitang
 - education

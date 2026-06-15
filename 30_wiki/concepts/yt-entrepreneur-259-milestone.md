@@ -29,7 +29,7 @@ source_refs:
 - src_20260611_84990c99
 - src_20260611_4266769b
 - src_20260611_d913eb1d
-status: enriched
+status: draft
 title: 259里程碑
 trust_level: high
 type: tool

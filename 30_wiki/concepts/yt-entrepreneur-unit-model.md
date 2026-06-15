@@ -39,7 +39,7 @@ source_refs:
 - src_20260609_59f0b2a5
 - src_20260609_70068960
 - src_20260611_ff778102
-status: enriched
+status: draft
 title: 单元模型
 trust_level: high
 type: tool

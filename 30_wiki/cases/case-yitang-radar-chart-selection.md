@@ -4,7 +4,7 @@ title: 案例：一堂雷达图评选机制——从 Truman 拍板到‘只聊�
 type: case
 source_refs:
 - src_20260614_8269ccdb
-status: enriched
+status: draft
 domain:
 - yitang
 - modeling
