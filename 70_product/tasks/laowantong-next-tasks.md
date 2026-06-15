@@ -1860,3 +1860,74 @@ concepts ↔ tools ↔ frameworks 之间：0 组同名同 ID 重复
 1. ✅ 跨目录重复卡：已确认无残留，任务关闭。
 2. 🔄 source_unknown 保守推断：老顽童可立即启动。
 3. ⏸️ Top N 单卡精修：等 source_unknown 处理完后再按指定列表执行。
+
+
+---
+
+## 十五、样板流程：00_inbox/精益创业
+
+### 流程启动
+
+用户指定以 `00_inbox/精益创业/` 为样板，全面跑一遍 KDO 素材 → 卡片流水线。
+
+**素材判定**：P0 级（付费课程 AMA / 教练答疑 / 方法论输出）。
+
+### 阶段一：王语嫣入口质量门 ✅ 已完成
+
+**执行时间**：2026-06-16  
+**输出文件**：`60_feedback/quality-gate/精益创业-入口质量门-2026-06-16.md`
+
+**核心结论**：
+- 素材整体质量高，方法论密度高，案例丰富
+- 提取高价值段落 20 条
+- 建议出卡 **20 张**，其中 **P0（必须出卡）12 张**、P1（可选）8 张
+- 给出 19 条核心陈述的 confidence 分层（0.72–0.88）
+- 提取 10 条 case 素材
+- 标注 3 项术语/边界提示 + 2 项数据/转录风险
+
+### 阶段二：老顽童主力生产 ⏳ 待启动
+
+**任务**：根据入口质量门报告量产卡片。
+
+**P0 必出卡清单（12 张）**：
+
+| 卡片 ID 建议 | 类型 | 核心内容 |
+|---|---|---|
+| `concept.lean-essence` | concept | 精益 = 少量试错成本降低系统性风险 |
+| `framework.assumption-verification-3means` | framework | 三种验证手段：专家访谈/调研、经验验证、实验验证 |
+| `framework.qualitative-vs-quantitative` | framework | 定性 vs 定量调研边界 |
+| `framework.false-model-ai` | framework / tool | AI 时代 FALSE 模型提效 |
+| `framework.prioritize-assumptions` | framework | 前置假设优先、风险高的优先 |
+| `framework.growth-stage-gate` | framework | 增长阶段标志：单元模型成立 + 找到增长渠道 |
+| `case.daily-chemical-mvp` | case | 日化沐浴露 MVP 验证案例 |
+| `case.flower-mom-group-leader` | case | 生活鲜花宝妈团长案例 |
+| `case.beauty-store-conversion` | case | 美业门店 200→4000 转化路径案例 |
+| `framework.b2b-vs-b2c-testing` | framework | ToB/ToC/硬件/内容测试差异 |
+| `framework.consumer-deep-experience` | framework | 消费品深层体验测试 |
+| `skill.daily-probability-decision` | skill | 假设驱动日常决策三问 |
+
+**执行规范**：
+1. 优先使用 `张磊教练《精益测试关键问题》AMA精华 副本.md` 的整理文本，口述转录仅作补充；
+2. 每张 framework/tool/skill 卡必须附 1-2 个源材料中的真实案例；
+3. 每张 case 卡须标注「来源：张磊 AMA 口述/笔记，外部可验证性有限」；
+4. 继承入口质量门的 confidence 评分，confidence < 0.75 的卡片 status 标为 draft；
+5. 出卡后跑 `kcard-quality-gate.py`，确保 P0/P1 不反弹。
+
+### 阶段三：黄药师自动门禁
+
+- 每日 02:07 自动跑 `kcard-quality-gate.py`；
+- 监控新增卡片 confidence、source_refs、diagnostic_signals 是否合规。
+
+### 阶段四：欧阳锋抽检
+
+- 从 P0 卡片中抽检 3-5 张；
+- 重点交叉验证 claims 与源材料是否一致。
+
+### 当前状态
+
+```text
+阶段一 ✅ 完成
+阶段二 🔄 等待老顽童启动
+阶段三 ⏸️ 老顽童出卡后自动触发
+阶段四 ⏸️ 出卡后抽检
+```
