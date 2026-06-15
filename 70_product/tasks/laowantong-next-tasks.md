@@ -2745,3 +2745,54 @@ total: 1190, p0=0, p1=0, clean=1190, yaml_error: 0
 **质量门禁**：`total=1190, p0=0, p1=0, clean=1190, yaml_error: 0`
 
 **待审查**：请王语嫣（代欧阳锋）审查本卡内容真实性与链接完整性。
+
+### 批次 1 进度记录：建模域案例卡升级（8/8 完成）
+
+**完成时间**：2026-06-16
+**质量门禁**：`total=1190, p0=0, p1=0, clean=1190, yaml_error=0`
+
+#### 域间自检三问
+
+**1. 案例够了吗？**
+
+当前建模域 8 张 case 卡已覆盖成功、失败、边界三类场景，但仍有缺口：
+
+- **成功类**：`case-modeling-abstraction-reliability-ladder`（四阶梯验收）、`case-modeling-abstraction-yitang-models`（一堂模型资产抽象）、`case-modeling-process-sop-evolution`（SOP 1.0→4.0 演进）。
+- **失败/陷阱类**：`case-modeling-essence-levels`（把 L1 经验当 L4 本质）、`case-modeling-essence-schools`（三派混用导致评审吵架）、`case-modeling-process-sop-examples`（SOP 执行率 50-70% 的陷阱）。
+- **边界类**：`case-modeling-process-livestream-prep`（状态管理 SOP 的适用边界）、`case-modeling-process-livestream-roles`（角色分工模型的边界）。
+
+**还缺的案例类型**：
+- **外部客户侧的模型落地失败**：当前案例多来自 Truman/一堂内部培训，缺少"把模型卖给企业客户后水土不服"的反面案例。
+- **模型退役/更新案例**：模型从有效到失效的转折点，如何识别并下线旧模型。
+- **跨域模型误用案例**：把 A 领域模型硬套到 B 领域导致的决策错误。
+
+这些缺口可在后续批次中通过 `case-ether-online-acquisition`、`case-truman-ai-skill-engineering-guide` 等卡片的精修部分补回，但专门补一张"模型误用/退役"案例会更扎实。
+
+**2. 暗知识在哪里？**
+
+本批次提炼出的反常识/亲历者知识：
+
+1. **"没有反例"不是修辞，而是边界工程。** L4 可靠度的本质是在写下来的边界内找不到反例；公开资料常把"没有反例"当口号，但不会教你怎么画边界。
+2. **AI 盘点模型资产前，人必须先建好分类范式。** 让 AI 直接扫描三四百个模型会按关键词乱聚类；高效的 AI 盘点依赖人先定义「形态分类框架」。
+3. **SOP 执行率从 50% 到 90%，靠的不是写得更细，而是"给 SOP 加 SOP"（督导 + 品控两层锁）。** 这是公开 SOP 资料极少写到的嵌套结构。
+4. **高状态输出的隐形杠杆是"软环节"（饮食/休息/热身/锁门）。** 流程建模常过度关注设备、话术等硬步骤，而忽视状态保障。
+5. **三派建模方法论的分歧不是审美问题，而是目标/角色/证据标准不同。** 没对齐流派前，所有质量标准都是鸡同鸭讲。
+
+**是否需要新 dk 卡**：
+- `dk-modeling-sop-execution-locks` 已存在，本轮通过 `case-modeling-process-sop-examples` 等卡进一步强化。
+- 建议后续新增两张 dk 候选：`dk-modeling-boundary-engineering`（边界工程）和 `dk-modeling-ai-classification-prior`（AI 盘点前的人肉分类范式），但本次任务禁止新增卡片，先作为候选记录。
+
+**3. 这几个案例有共同模式吗？**
+
+有。8 个案例反复呈现一个四步结构：
+
+> **高可靠性输出 = 分解（decomposition） × 锁（locks） × 边界（boundaries） × 迭代（iteration）。**
+
+- **分解**：把复杂输出拆成可检查步骤（SOP、角色、阶梯、层级）。
+- **锁**：给关键步骤加检查/督导/品控，防止执行衰减（"给 SOP 加 SOP"、角色自检）。
+- **边界**：明确模型/SOP/方法的适用范围，避免跨场景误用（可靠度阶梯、三派定位、本质层级）。
+- **迭代**：用反例、失败、现场撞击持续更新模型（SOP 1.0→4.0、四阶梯验收）。
+
+**现有框架卡是否体现？**
+- `modeling-three-stages`、`process-modeling`、`dk-modeling-sop-execution-locks` 分别覆盖了分解、锁、迭代，但没有一个框架卡把这四步整合为统一的"高可靠性输出框架"。
+- 建议：下一轮精修 `modeling-three-stages` 或 `process-modeling` 时，把这一共同模式显式写入，形成跨案例的 checklist/diagnostic_signals。
