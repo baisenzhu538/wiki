@@ -2733,3 +2733,15 @@ total: 1190, p0: 0, p1: 0, clean: 1190, yaml_error: 0
 python 90_control/scripts/kcard-quality-gate.py
 total: 1190, p0=0, p1=0, clean=1190, yaml_error: 0
 ```
+
+---
+
+### 第二十节批次 1 进度记录（2026-06-16）
+
+| 序号 | 卡片 ID | 状态 | 主要改进 |
+|:----:|:--------|:----:|:---------|
+| 8 | `case-modeling-process-sop-examples` | ✅ 已完成 | status→enriched；正文重组为 Background / What Happened / 结果 / 可迁移 / 诊断信号 / 失败模式；新增 frontmatter DS 4 条；可迁移场景扩至 5 条；失败模式扩至 5 条并附真实症状+可执行修复；新增 SOP 设计自检清单 9 项；建立 5 条新互链（双向） |
+
+**质量门禁**：`total=1190, p0=0, p1=0, clean=1190, yaml_error: 0`
+
+**待审查**：请王语嫣（代欧阳锋）审查本卡内容真实性与链接完整性。

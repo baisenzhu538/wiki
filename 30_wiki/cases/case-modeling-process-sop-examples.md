@@ -19,8 +19,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 source_person: Truman
 source_context: Truman-高阶建模-流程建模-图-02
-reviewed_by: pending
-review_date: 2026-06-15
+reviewed_by: 王语嫣
+review_date: '2026-06-16'
 confidence: 0.8
 trust_level: high
 diagnostic_signals:

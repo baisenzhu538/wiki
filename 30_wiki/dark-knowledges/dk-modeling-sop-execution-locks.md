@@ -21,6 +21,7 @@ related:
 - '[[modeling-three-stages]]'
 - '[[process-modeling]]'
 - '[[case-zhangyang-anchor-sop-three-locks]]'
+- '[[case-modeling-process-livestream-prep]]'
 tags:
 - '#content-format/sop'
 - '#domain/yitang'
