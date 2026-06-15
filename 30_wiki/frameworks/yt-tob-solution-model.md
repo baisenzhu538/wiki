@@ -11,6 +11,7 @@ domain:
 source_refs:
 - src_20260616_0e684368
 - src_20260616_5f991553
+- src_20260616_aac184cc
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'
@@ -32,6 +33,8 @@ related:
 - '[[yt-business-formula-business-pattern-selector]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-tob-customer-tiering]]'
+- '[[yt-tob-product-kernel]]'
+- '[[yt-tob-unit-model]]'
 diagnostic_signals:
 - signal: 团队说不清自己是在卖标品、做项目还是卖服务，销售话术与交付成本反复对不上
   framework_lens: 解决方案类型矩阵
