@@ -31,6 +31,8 @@ wiki_refs:
 - '[[yt-foresight-probability-engineering]]'
 - '[[yt-foresight-deliverables-four-levels]]'
 - '[[case-gudong-tea-shop-foresight]]'
+related:
+- "case-ether-online-acquisition"
 pipeline:
 - confidence-source-cited
 - confidence-verified-by-outcome

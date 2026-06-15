@@ -28,7 +28,7 @@ diagnostic_signals:
   framework_lens: 反馈随机化——问题没有被沉淀为检查项
   follow_up_question: 你是否有"评审错题本"？每次被打回的问题是否在24小时内变成清单新条目？
 - signal: 同一个低级错误在两周内出现第二次
-  framework_lens: '"不再二错"机制失效'
+  framework_lens: "\"不再二错\"机制失效"
   follow_up_question: 写新方案时是否强制用清单自检2-3次？清单是否覆盖了最近3次被打回的问题？
 - signal: 清单超过1个月没有新增或重组条目
   framework_lens: 模型僵化——清单没有持续吸收新反馈
