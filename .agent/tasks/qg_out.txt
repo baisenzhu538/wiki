@@ -1,0 +1,2 @@
+报告已生成：C:\Users\Administrator\Desktop\wiki\60_feedback\audit\kcard-quality-gate-report-2026-06-15.md
+统计：{'total': 1359, 'p0': 0, 'p1': 773, 'clean': 586, 'yaml_error': 0}

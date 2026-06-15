@@ -1,5 +1,4 @@
 ---
-
 id: graph-rag
 aliases:
 - Graph RAG

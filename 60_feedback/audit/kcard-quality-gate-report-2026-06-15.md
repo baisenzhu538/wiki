@@ -759,7 +759,7 @@
 | `links\index.md` | author=legacy，建议替换为真实作者 |
 | `log.md` | type 值异常: meta; author=legacy，建议替换为真实作者 |
 | `projects\互联网医院项目.md` | type 值异常: project |
-| `projects\诊所O2O项目.md` | type 值异常: project; dangling 链接: 街顺APP全面调研报告, 诊所O2O外卖平台业务深度调研报告 |
+| `projects\诊所O2O项目.md` | type 值异常: project; dangling 链接: 诊所O2O外卖平台业务深度调研报告, 街顺APP全面调研报告 |
 | `projects\鑫港湾HIS项目.md` | type 值异常: project; dangling 链接: 鑫港湾HIS系统分阶段整改报告 |
 | `systems\kdo-protocol.md` | author=legacy，建议替换为真实作者 |
 | `systems\obsidian-git-sync-protocol.md` | author=legacy，建议替换为真实作者 |

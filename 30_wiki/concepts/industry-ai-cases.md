@@ -1,5 +1,4 @@
 ---
-
 id: industry-ai-cases
 title: 产业 AI 落地案例集（非药柜）
 type: concept
