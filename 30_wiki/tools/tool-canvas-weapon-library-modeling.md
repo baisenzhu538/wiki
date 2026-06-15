@@ -25,7 +25,7 @@ related:
 tags:
 - '#method/modeling'
 - '#content-format/concept-card'
-- '#canvas'
+- '#content-format/canvas'
 - '#weapon-library'
 - '#system'
 ---

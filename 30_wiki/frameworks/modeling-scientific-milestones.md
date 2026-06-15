@@ -14,8 +14,8 @@ updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 review_date: '2026-06-14'
-trust_level: high
-confidence: 0.85
+trust_level: medium
+confidence: 0.7
 related:
 - '[[modeling-three-stages]]'
 - '[[dk-modeling-counterexample-driven]]'
@@ -25,8 +25,9 @@ tags:
 - '#method/modeling'
 - '#content-format/framework'
 - '#methodology'
-- '#research'
-source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
+- '#method/research-method'
+source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
+  high）
 ---
 # 科学建模七步里程碑：从边界到封装的方法论生产流程
 

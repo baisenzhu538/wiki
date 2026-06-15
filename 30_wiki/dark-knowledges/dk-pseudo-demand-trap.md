@@ -11,7 +11,7 @@ source_refs:
 - '[[yt-entrepreneur-key-hypotheses]]'
 tags:
 - '#domain/yitang'
-- '#cognitive-bias'
+- '#chunk-type/critique'
 - '#demand-validation'
 created_at: '2026-06-11'
 updated_at: '2026-06-16'

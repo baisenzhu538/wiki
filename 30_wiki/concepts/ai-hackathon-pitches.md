@@ -23,7 +23,7 @@ source_refs:
 tags:
 - '#ai-hackathon'
 - '#pitch'
-- '#mvp'
+- '#method/product-design'
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 王语嫣

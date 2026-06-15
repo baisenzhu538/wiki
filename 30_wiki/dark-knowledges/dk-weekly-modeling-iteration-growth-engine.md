@@ -10,14 +10,15 @@ domain:
 - yitang
 - modeling
 source_person: Truman
-source_context: 一堂高阶建模能力培训（组织级建模价值） （单一 source 为完整长文档，内容充分支撑 high trust）
+source_context: 一堂高阶建模能力培训（组织级建模价值） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
+  收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 review_date: '2026-06-14'
-trust_level: high
-confidence: 0.85
+trust_level: medium
+confidence: 0.7
 related:
 - '[[framework-course-milestone-model]]'
 - '[[modeling-scientific-milestones]]'
@@ -25,7 +26,7 @@ related:
 tags:
 - '#method/modeling'
 - '#dark-knowledge'
-- '#growth'
+- '#method/execution-method'
 - '#organization'
 ---
 # 暗知识：一堂真正的增长引擎是「周对周的建模能力增长」

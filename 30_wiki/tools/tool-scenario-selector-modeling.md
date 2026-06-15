@@ -27,7 +27,7 @@ tags:
 - '#method/modeling'
 - '#content-format/concept-card'
 - '#selector'
-- '#scenario'
+- '#chunk-type/use-case'
 - '#decision-support'
 ---
 # 场景→工具选择器：根据需求快速匹配合适的建模工具

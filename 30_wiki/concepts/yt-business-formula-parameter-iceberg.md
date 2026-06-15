@@ -14,7 +14,6 @@ tags:
 - '#method/evaluation-method'
 - '#parameters'
 - '#domain/yitang'
-- '#metrics'
 created_at: '2026-06-14'
 updated_at: '2026-06-15'
 author: 孔阳

@@ -24,7 +24,7 @@ tags:
 - '#method/modeling'
 - '#content-format/case-study'
 - '#content-format/sop'
-- '#iteration'
+- '#chunk-type/process-data'
 - '#domain/yitang'
 diagnostic_signals:
 - signal: 我们有SOP但没人执行

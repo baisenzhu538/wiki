@@ -27,9 +27,9 @@ related:
 tags:
 - '#method/modeling'
 - '#content-format/case-study'
-- '#livestream'
+- '#industry/content-creation'
 - '#content-format/sop'
-- '#execution'
+- '#method/execution-method'
 ---
 # 案例：直播前热身 SOP 建模
 

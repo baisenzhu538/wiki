@@ -15,9 +15,9 @@ source_refs:
 - src_20260614_95352714
 tags:
 - '#beverage'
-- '#supply-chain'
+- '#method/management-tool'
 - '#catering-channel'
-- '#cost-optimization'
+- '#method/evaluation-method'
 - '#product-development'
 - '#itingnao'
 created_at: '2026-06-14'

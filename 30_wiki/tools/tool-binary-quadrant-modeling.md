@@ -27,7 +27,7 @@ tags:
 - '#content-format/concept-card'
 - '#binary'
 - '#quadrant'
-- '#classification'
+- '#method/knowledge-engineering'
 ---
 # 二分法/象限图建模法：用正交维度做分类与取舍
 

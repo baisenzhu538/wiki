@@ -26,8 +26,7 @@ tags:
 - '#method/modeling'
 - '#content-format/concept-card'
 - '#content-format/checklist'
-- '#cheatsheet'
-- '#execution'
+- '#method/execution-method'
 ---
 # 清单/小抄建模法：把经验变成可执行的检查点
 

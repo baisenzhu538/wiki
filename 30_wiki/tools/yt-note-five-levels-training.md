@@ -33,10 +33,8 @@ query_triggers:
 - 刻意练习笔记
 tags:
 - '#perspective/professional'
-- '#deliberate-practice'
-- '#note-taking'
-- '#scene/learning-methodology/deliberate-practice'
 - '#method/learning-method'
+- '#scene/learning-methodology/deliberate-practice'
 - '#content-format/checklist'
 - '#scene/note-taking/live-field'
 - '#scene/note-taking/training-plan'

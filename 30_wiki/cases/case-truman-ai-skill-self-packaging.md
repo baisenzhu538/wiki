@@ -5,7 +5,7 @@ type: case
 source_refs:
 - src_20260614_8269ccdb
 status: enriched
-confidence: 0.88
+confidence: 0.7
 domain:
 - yitang
 - ai-collaboration
@@ -13,7 +13,7 @@ created_at: '2026-06-14'
 author: 黄药师（基于 Truman 口述提取）
 reviewed_by: 黄药师
 review_date: '2026-06-14'
-trust_level: high
+trust_level: medium
 related:
 - '[[modeling-capability-for-kdo]]'
 - '[[modeling-three-stages]]'
@@ -31,7 +31,8 @@ diagnostic_signals:
 - signal: 我的AI技能库都是人手工整理的，效率很低
   framework_lens: 让AI跨工具扫描+合并同类项+封装
   follow_up_question: 你用过哪些AI工具？它们的对话/反馈记录是明文存储的吗？如果是，可以直接让另一个AI去读。
-source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
+source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
+  high）
 updated_at: '2026-06-16'
 ---
 # AI 自复盘自封装：Truman 怎么让 AI 把自己包装成一个技能

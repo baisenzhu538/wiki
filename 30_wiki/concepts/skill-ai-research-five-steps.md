@@ -25,10 +25,7 @@ prerequisite_skills: null
 related: null
 created_at: 2026-06-11
 updated_at: '2026-06-16'
-tags:
-- None
-- None
-- None
+tags: []
 pipeline:
 - None
 reviewed_by: laowantong

@@ -12,8 +12,8 @@ source_refs:
 - '[[case-escort-service-tiered-growth]]'
 tags:
 - '#domain/yitang'
-- '#cognitive-bias'
-- '#decision-making'
+- '#chunk-type/critique'
+- '#method/decision-framework'
 created_at: '2026-06-11'
 updated_at: '2026-06-16'
 related:

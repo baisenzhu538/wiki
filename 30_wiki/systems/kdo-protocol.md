@@ -12,10 +12,7 @@ related:
 - '[[kdo-protocol]]'
 - '[[index]]'
 - '[[business-research-skill-oscar-13-weapon-system]]'
-tags:
-- None
-- None
-- None
+tags: []
 trust_level: medium
 reviewed_by: Claude
 review_date: '2026-05-03'

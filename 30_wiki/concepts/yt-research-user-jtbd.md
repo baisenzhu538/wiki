@@ -22,11 +22,7 @@ query_triggers:
 created_at: '2026-06-10'
 updated_at: '2026-06-16'
 estimated_tokens: 2500
-tags:
-- None
-- None
-- None
-- None
+tags: []
 pipeline:
 - confidence-draft
 - confidence-source-cited

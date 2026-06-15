@@ -20,7 +20,7 @@ source_refs:
 - src_20260614_b9fbfc2b
 tags:
 - '#industry-ai'
-- '#business-model'
+- '#method/decision-framework'
 - '#ai-saas'
 created_at: '2026-06-14'
 updated_at: '2026-06-16'

@@ -25,9 +25,9 @@ related:
 tags:
 - '#method/modeling'
 - '#content-format/concept-card'
-- '#radar-chart'
+- '#content-format/radar-chart'
 - '#evaluation'
-- '#decision'
+- '#method/decision-framework'
 ---
 # 雷达图建模法：多维度评估与筛选
 

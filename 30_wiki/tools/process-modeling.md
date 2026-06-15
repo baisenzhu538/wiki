@@ -30,7 +30,7 @@ tags:
 - '#content-format/concept-card'
 - '#content-format/sop'
 - '#content-format/checklist'
-- '#workflow'
+- '#method/execution-method'
 diagnostic_signals:
 - signal: 用户说"每次做这件事都踩同样的坑"
   framework_lens: 流程建模

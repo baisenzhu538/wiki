@@ -13,9 +13,9 @@ source_refs:
 - src_20260614_8a0317f1
 - src_20260614_0e6fd2e7
 tags:
-- "#product-strategy"
-- "#business-strategy"
-- "#operations"
+- '#product-strategy'
+- '#business-strategy'
+- '#method/execution-method'
 created_at: '2026-06-14'
 updated_at: '2026-06-14T16:09:18+00:00'
 author: 王语嫣

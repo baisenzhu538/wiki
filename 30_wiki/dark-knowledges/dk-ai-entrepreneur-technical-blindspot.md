@@ -13,7 +13,7 @@ source_refs:
 tags:
 - '#domain/yitang'
 - '#domain/ai'
-- '#cognitive-bias'
+- '#chunk-type/critique'
 created_at: '2026-06-11'
 updated_at: '2026-06-16'
 related:

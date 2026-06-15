@@ -5,7 +5,7 @@ type: framework
 source_refs:
 - src_20260614_8269ccdb
 status: enriched
-confidence: 0.8
+confidence: 0.7
 domain:
 - yitang
 - kdo
@@ -13,7 +13,7 @@ created_at: '2026-06-14'
 author: 黄药师（基于 Truman 口述提取）
 reviewed_by: 黄药师
 review_date: '2026-06-14'
-trust_level: high
+trust_level: medium
 related:
 - '[[modeling-capability-for-kdo]]'
 - '[[modeling-three-stages]]'
@@ -22,7 +22,7 @@ related:
 tags:
 - '#method/modeling'
 - '#content-format/framework'
-- '#quality'
+- '#method/evaluation-method'
 - '#kdo'
 - '#domain/yitang'
 diagnostic_signals:
@@ -32,7 +32,8 @@ diagnostic_signals:
 - signal: 我用别人的模型总是套不进去
   framework_lens: 四类缺陷诊断（定义不清/丢三落四/边界不清/太随机）
   follow_up_question: 你用的模型中了哪一条？最致命的是哪条？
-source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
+source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
+  high）
 updated_at: '2026-06-16'
 ---
 # 模型可信度四层标准 + 千人广场模型

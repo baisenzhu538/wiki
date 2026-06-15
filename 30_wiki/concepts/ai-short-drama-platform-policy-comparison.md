@@ -23,9 +23,9 @@ related:
 - '[[ai-short-drama-script-planning-three-axes]]'
 tags:
 - '#industry/content-creation'
-- '#platform'
-- '#distribution'
-- '#policy'
+- '#domain/master'
+- '#method/execution-method'
+- '#chunk-type/claim'
 diagnostic_signals:
 - signal: 用户说"写完短剧不知道投哪个平台"
   framework_lens: 平台-题材-分成匹配矩阵

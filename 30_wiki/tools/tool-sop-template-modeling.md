@@ -27,8 +27,8 @@ tags:
 - '#method/modeling'
 - '#content-format/concept-card'
 - '#content-format/sop'
-- '#template'
-- '#execution'
+- '#content-format/canvas'
+- '#method/execution-method'
 ---
 # SOP/模板建模法：把关键动作固化成标准工作流
 

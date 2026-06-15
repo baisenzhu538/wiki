@@ -15,9 +15,9 @@ source_refs:
 - src_20260614_fbe4a480
 - src_20260614_40afd886
 tags:
-- '#finance'
-- '#legal'
-- '#operations'
+- '#domain/master'
+- '#perspective/compliance'
+- '#method/execution-method'
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 王语嫣

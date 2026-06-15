@@ -9,14 +9,15 @@ domain:
 - yitang
 - modeling
 source_person: Truman
-source_context: 一堂高阶建模能力培训（逻辑洁癖与建模审美） （单一 source 为完整长文档，内容充分支撑 high trust）
+source_context: 一堂高阶建模能力培训（逻辑洁癖与建模审美） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
+  收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 review_date: '2026-06-14'
-trust_level: high
-confidence: 0.8
+trust_level: medium
+confidence: 0.7
 related:
 - '[[modeling-scientific-milestones]]'
 - '[[tool-checklist-cheatsheet-modeling]]'
@@ -26,7 +27,7 @@ tags:
 - '#method/modeling'
 - '#content-format/framework'
 - '#logic'
-- '#mece'
+- '#method/thinking-tool'
 ---
 # 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准
 

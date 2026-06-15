@@ -22,7 +22,7 @@ related:
 - '[[yt-decision-ai-partner]]'
 - '[[agent-external-brain-design]]'
 tags:
-- '#workflow'
+- '#method/execution-method'
 - '#agent-standard'
 - '#knowledge-collision'
 reviewed_by: pending

@@ -15,7 +15,7 @@ source_refs:
 - src_20260614_7963c2f2
 - src_20260614_720e62a1
 tags:
-- '#personal-growth'
+- '#domain/master'
 - '#complex-systems'
 - '#learning-methodology'
 created_at: '2026-06-14'

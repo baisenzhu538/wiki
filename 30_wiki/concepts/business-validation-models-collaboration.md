@@ -22,7 +22,7 @@ source_refs:
 tags:
 - '#ai-application'
 - '#lean-validation'
-- '#business-model'
+- '#method/decision-framework'
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 王语嫣

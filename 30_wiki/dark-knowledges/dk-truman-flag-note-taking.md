@@ -26,12 +26,10 @@ query_triggers:
 - 30%自我思考
 - 提升思考量的方法
 tags:
-- '#note-taking'
+- '#method/learning-method'
 - '#cognitive-tool'
-- '#deliberate-practice'
 - '#scene/learning-methodology/deliberate-practice'
 - '#content-format/checklist'
-- '#method/learning-method'
 - '#scene/ai-collaboration'
 - '#domain/yitang'
 created_at: '2026-06-10'

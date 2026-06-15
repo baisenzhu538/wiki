@@ -10,14 +10,15 @@ domain:
 - personal-growth
 - modeling
 source_person: Truman
-source_context: 一堂高阶建模能力培训（做客流程/个人地图案例） （单一 source 为完整长文档，内容充分支撑 high trust）
+source_context: 一堂高阶建模能力培训（做客流程/个人地图案例） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
+  收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 review_date: '2026-06-14'
-trust_level: high
-confidence: 0.85
+trust_level: medium
+confidence: 0.7
 related:
 - '[[tool-canvas-weapon-library-modeling]]'
 - '[[tool-radar-chart-modeling]]'
@@ -28,7 +29,7 @@ tags:
 - '#method/modeling'
 - '#content-format/case-study'
 - '#personal-map'
-- '#canvas'
+- '#content-format/canvas'
 - '#course-design'
 ---
 # 案例：一堂个人地图的完整建模过程

@@ -10,7 +10,7 @@ domain:
 source_refs:
 - src_20260613_96e45c45
 tags:
-- '#due-diligence'
+- '#method/research-method'
 - '#sales-analysis'
 - '#bias-detection'
 - '#vendor-assessment'
@@ -20,8 +20,8 @@ updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 欧阳锋
 review_date: '2026-06-14'
-confidence: 0.8
-trust_level: high
+confidence: 0.7
+trust_level: medium
 related:
 - '[[七件事集团]]'
 - '[[master-cognitive-bias-checklist]]'
@@ -38,7 +38,8 @@ diagnostic_signals:
   follow_up_question: 哪种偏误对当前采购决策影响最大？
 review_grade: A
 review_note: 🟢放行。方法论资产，可复用于任何供应商评估。
-source_context: （单一 source 为完整长文档，内容充分支撑 high trust）
+source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
+  high）
 ---
 # 销售话术偏误识别模式库
 

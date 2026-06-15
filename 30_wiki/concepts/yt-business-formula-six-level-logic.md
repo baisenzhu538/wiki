@@ -14,7 +14,7 @@ tags:
 - '#method/evaluation-method'
 - '#logic'
 - '#domain/yitang'
-- '#causality'
+- '#method/thinking-tool'
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 孔阳

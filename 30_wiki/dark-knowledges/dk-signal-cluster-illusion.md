@@ -11,7 +11,7 @@ source_refs:
 - '[[yt-three-dimension-opportunity-matrix]]'
 tags:
 - '#domain/yitang'
-- '#cognitive-bias'
+- '#chunk-type/critique'
 - '#signal-processing'
 created_at: '2026-06-11'
 updated_at: '2026-06-16'

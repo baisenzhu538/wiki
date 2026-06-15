@@ -25,7 +25,7 @@ related:
 tags:
 - '#method/modeling'
 - '#content-format/concept-card'
-- '#funnel'
+- '#method/evaluation-method'
 - '#formula'
 - '#quantification'
 ---

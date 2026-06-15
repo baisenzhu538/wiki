@@ -11,13 +11,14 @@ domain:
 - ai-collaboration
 source_person: Truman
 source_context: 一堂高阶建模能力培训（AI Skill 工程指南产出过程） （单一 source 为完整长文档，内容充分支撑 high trust）
+  （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 review_date: '2026-06-14'
-trust_level: high
-confidence: 0.85
+trust_level: medium
+confidence: 0.7
 related:
 - '[[modeling-capability-for-kdo]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
@@ -26,7 +27,7 @@ related:
 tags:
 - '#method/modeling'
 - '#method/prompt-engineering'
-- '#iteration'
+- '#chunk-type/process-data'
 ---
 # AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限
 
