@@ -3,8 +3,8 @@
 **扫描时间**：2026-06-15  
 **扫描范围**：30_wiki 全库 1359 张卡片  
 **P0 阻塞问题卡片**：0 张  
-**P1 修复问题卡片**：998 张  
-**完全干净卡片**：361 张  
+**P1 修复问题卡片**：956 张  
+**完全干净卡片**：403 张  
 **YAML 解析错误**：0 张  
 
 ---
@@ -19,48 +19,39 @@
 
 | 文件 | P1 问题 |
 |---|---|
-| `cases\case-ai-agent-milestone-design.md` | dangling 链接: [[framework-course-milestone-model]], [[case-truman-ai-skill-engineering-guide]], [[tool-ai-skill-engineering-method]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `cases\case-ai-assisted-review.md` | dangling 链接: [[case-ai-agent-milestone-design]], [[dk-modeling-ai-iterative-prompting]], [[case-truman-ai-skill-engineering-guide]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `cases\case-child-drawing-rhyme.md` | dangling 链接: [[framework-logic-cleanliness-five-levels]], [[tool-iterative-recursive-deep-dig]], [[modeling-scientific-milestones]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `cases\case-course-milestone-model.md` | dangling 链接: [[framework-course-milestone-model]], [[case-personal-map-modeling]], [[case-thousand-people-square]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `cases\case-dental-clinic-formula.md` | dangling 链接: [[yt-business-formula-parameter-iceberg]], [[yt-business-formula-ten-paradigms]], [[yt-entrepreneur-unit-model]], [[yt-business-formula-abc-model]] |
-| `cases\case-essence-education-strategy.md` | dangling 链接: [[tool-essence-nfactor-modeling]], [[dk-modeling-explanatory-vs-predictive-essence]], [[dk-modeling-essence-predictive]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `cases\case-essence-entrepreneurship.md` | dangling 链接: [[tool-essence-nfactor-modeling]], [[yt-five-step-method]], [[concept-一堂-key-assumptions]], [[dk-modeling-explanatory-vs-predictive-essence]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `cases\case-essence-humanity-trap.md` | dangling 链接: [[case-essence-entrepreneurship]], [[dk-modeling-essence-predictive]], [[case-essence-education-strategy]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `cases\case-ai-agent-milestone-design.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `cases\case-ai-assisted-review.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `cases\case-child-drawing-rhyme.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `cases\case-course-milestone-model.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `cases\case-essence-education-strategy.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `cases\case-essence-entrepreneurship.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `cases\case-essence-humanity-trap.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
 | `cases\case-ether-online-acquisition.md` | author=legacy，建议替换为真实作者; dangling 链接: 规模经济 |
-| `cases\case-gym-membership-formula.md` | dangling 链接: [[yt-business-formula-parameter-iceberg]], [[yt-business-formula-ten-paradigms]], [[yt-entrepreneur-unit-model]], [[yt-business-formula-abc-model]] |
 | `cases\case-jh-yitang-vs-sqlhelper.md` | author=legacy，建议替换为真实作者 |
-| `cases\case-livestream-sop-modeling.md` | dangling 链接: [[tool-sop-template-modeling]], [[dk-modeling-sop-execution-locks]], [[process-modeling]], [[tool-checklist-cheatsheet-modeling]] |
-| `cases\case-modeling-abstraction-reliability-ladder.md` | dangling 链接: [['case-modeling-essence-schools']], [['dk-modeling-counterexample-driven']], [['dk-modeling-case-explosion-confidence']]; status=draft 但 confidence=0.85 |
-| `cases\case-modeling-abstraction-yitang-models.md` | dangling 链接: [['yt-decision-y-model']], [['modeling-three-stages']], [['yt-model-five-step-canvas']], [['modeling-weapon-library']]; status=draft 但 confidence=0.85 |
-| `cases\case-modeling-essence-levels.md` | dangling 链接: [['dk-modeling-essence-predictive']], [['tool-essence-nfactor-modeling']], [['modeling-three-stages']], [['dk-modeling-explanatory-vs-predictive-essence']]; status=draft 但 confidence=0.85 |
-| `cases\case-modeling-essence-schools.md` | dangling 链接: [['case-modeling-essence-levels']], [['modeling-three-stages']], [['yt-note-expert-interview-modeling']]; status=draft 但 confidence=0.85 |
-| `cases\case-modeling-process-livestream-prep.md` | dangling 链接: [['case-modeling-process-sop-evolution']], [['case-modeling-process-livestream-roles']], [['process-modeling']]; status=draft 但 confidence=0.85 |
-| `cases\case-modeling-process-livestream-roles.md` | dangling 链接: [['tool-sop-template-modeling']], [['case-modeling-process-livestream-prep']], [['process-modeling']]; status=draft 但 confidence=0.85 |
-| `cases\case-modeling-process-sop-evolution.md` | dangling 链接: [['tool-sop-template-modeling']], [['case-modeling-process-livestream-prep']], [['process-modeling']]; status=draft 但 confidence=0.85 |
-| `cases\case-modeling-process-sop-examples.md` | dangling 链接: [['case-modeling-process-sop-evolution']], [['tool-sop-template-modeling']], [['process-modeling']]; status=draft 但 confidence=0.85 |
-| `cases\case-nine-pm-livestream-survey.md` | dangling 链接: [[case-yitang-radar-chart-selection]], [[concept-thousand-people-square]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `cases\case-offline-catering-formula.md` | dangling 链接: [[yt-business-formula-parameter-iceberg]], [[yt-business-formula-ten-paradigms]], [[yt-entrepreneur-unit-model]], [[yt-business-formula-abc-model]] |
-| `cases\case-personal-map-modeling.md` | dangling 链接: [[modeling-scientific-milestones]], [[tool-radar-chart-modeling]], [[concept-thousand-people-square]], [[tool-canvas-weapon-library-modeling]], [[tool-iterative-recursive-deep-dig]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `cases\case-private-domain-ecommerce-formula.md` | dangling 链接: [[yt-business-formula-parameter-iceberg]], [[yt-business-formula-ten-paradigms]], [[yt-entrepreneur-unit-model]], [[yt-business-formula-abc-model]] |
-| `cases\case-saas-renewal-formula.md` | dangling 链接: [[yt-business-formula-parameter-iceberg]], [[yt-business-formula-ten-paradigms]], [[yt-entrepreneur-unit-model]], [[yt-business-formula-abc-model]] |
-| `cases\case-smart-medicine-cabinet-business-model-validation.md` | dangling 链接: [['smart-medicine-cabinet-regional-policy-map']], [['smart-medicine-cabinet-clinic-risk-observation']], [['smart-medicine-cabinet-financial-model']], [['smart-medicine-cabinet-fraud-detection']], [['smart-medicine-cabinet-national-policy-redlines']] |
-| `cases\case-smart-medicine-cabinet-corporate-risk.md` | dangling 链接: [['smart-medicine-cabinet-clinic-risk-observation']], [['smart-medicine-cabinet-fraud-detection']], [['case-smart-medicine-cabinet-business-model-validation']] |
-| `cases\case-smart-medicine-cabinet-failure-patterns-library.md` | dangling 链接: [['tool-smart-medicine-cabinet-site-selection-guide']], [['smart-medicine-cabinet-clinic-risk-observation']], [['concept-smart-medicine-cabinet-international-models']], [['smart-medicine-cabinet-financial-model']], [['smart-medicine-cabinet-fraud-detection']]; source_refs 中的 src ID 未注册: src_20260613_3b5c7fdb |
-| `cases\case-thousand-people-square.md` | dangling 链接: [[yt-five-step-method]], [[case-personal-map-modeling]], [[concept-thousand-people-square]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `cases\case-toc-ecommerce-formula-misjudgment.md` | dangling 链接: [[yt-business-formula-parameter-iceberg]], [[yt-entrepreneur-unit-model]], [[yt-management-business-formula]], [[yt-business-formula-six-level-logic]], [[yt-business-formula-abc-model]] |
+| `cases\case-modeling-abstraction-reliability-ladder.md` | status=draft 但 confidence=0.85 |
+| `cases\case-modeling-abstraction-yitang-models.md` | status=draft 但 confidence=0.85 |
+| `cases\case-modeling-essence-levels.md` | status=draft 但 confidence=0.85 |
+| `cases\case-modeling-essence-schools.md` | status=draft 但 confidence=0.85 |
+| `cases\case-modeling-process-livestream-prep.md` | status=draft 但 confidence=0.85 |
+| `cases\case-modeling-process-livestream-roles.md` | status=draft 但 confidence=0.85 |
+| `cases\case-modeling-process-sop-evolution.md` | status=draft 但 confidence=0.85 |
+| `cases\case-modeling-process-sop-examples.md` | status=draft 但 confidence=0.85 |
+| `cases\case-nine-pm-livestream-survey.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `cases\case-personal-map-modeling.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `cases\case-smart-medicine-cabinet-failure-patterns-library.md` | source_refs 中的 src ID 未注册: src_20260613_3b5c7fdb |
+| `cases\case-thousand-people-square.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
 | `cases\case-treadmill-demand-analysis.md` | dangling 链接: concept-一堂-demand-analysis |
 | `cases\case-truman-ai-partner.md` | author=legacy，建议替换为真实作者; dangling 链接: 30_wiki/decisions/truman-ai-partner-design-analysis.md |
-| `cases\case-truman-ai-skill-engineering-guide.md` | dangling 链接: [[dk-modeling-ai-self-retrospection]], [[dk-modeling-ai-iterative-prompting]], [[dk-modeling-ai-cross-validation]], [[tool-ai-skill-engineering-method]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `cases\case-truman-ai-skill-engineering-guide.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
 | `cases\case-truman-ai-skill-self-packaging.md` | trust_level=high 但 source 仅 1 个 |
 | `cases\case-truman-motivation-map-12-versions.md` | author=legacy，建议替换为真实作者 |
 | `cases\case-truman-personal-growth-map-creation.md` | trust_level=high 但 source 仅 1 个 |
 | `cases\case-truman-poker-deck-roi.md` | author=legacy，建议替换为真实作者 |
 | `cases\case-truman-prd-checklist-evolution.md` | author=legacy，建议替换为真实作者 |
 | `cases\case-unit-model-gashapon.md` | status=draft 但 confidence=0.85 |
-| `cases\case-yitang-education-supply-chain.md` | dangling 链接: [[case-course-milestone-model]], [[dk-weekly-modeling-iteration-growth-engine]], [[concept-thousand-people-square]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `cases\case-yitang-radar-chart-selection.md` | dangling 链接: [[tool-radar-chart-modeling]], [[framework-logic-cleanliness-five-levels]], [[dk-modeling-expert-consensus-five-percent]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `cases\case-zhangyang-anchor-sop-three-locks.md` | dangling 链接: [[case-livestream-sop-modeling]], [[framework-logic-cleanliness-five-levels]], [[dk-modeling-sop-execution-locks]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `cases\case-yitang-education-supply-chain.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `cases\case-yitang-radar-chart-selection.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `cases\case-zhangyang-anchor-sop-three-locks.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
 | `cases\case-一堂-AI高考志愿-kernel-mismatch.md` | author=legacy，建议替换为真实作者 |
 | `cases\case-一堂-无人餐厅-hypothesis-failure.md` | author=legacy，建议替换为真实作者 |
 | `cases\case-一堂-陈贤敏汉堡-hypothesis-validation.md` | author=legacy，建议替换为真实作者 |
@@ -77,34 +68,26 @@
 | `cases\case-纪浩-ui-design-constraint-evolution.md` | author=legacy，建议替换为真实作者 |
 | `cases\index.md` | author=legacy，建议替换为真实作者 |
 | `cases\industrial-ai-ops-cases.md` | dangling 链接: ai-agent-workflow, yt-entrepreneur-ai-methodology |
-| `cases\smart-medicine-cabinet-clinic-risk-observation.md` | dangling 链接: [[smart-medicine-cabinet-o2o-cost-structure]], [[master-decision-hygiene]], [[smart-medicine-cabinet-national-policy-redlines]], [[smart-medicine-cabinet-distribution]], [[smart-medicine-cabinet-financial-model]]; source_refs 中的 src ID 未注册: src_20260613_1deb50c8, src_20260613_5f96c5bb, src_20260613_420e8085 |
+| `cases\smart-medicine-cabinet-clinic-risk-observation.md` | source_refs 中的 src ID 未注册: src_20260613_1deb50c8, src_20260613_5f96c5bb, src_20260613_420e8085 |
 | `concept-card-index-latest.md` | author=legacy，建议替换为真实作者 |
 | `concepts\EC工业化规范手册.md` | dangling 链接: 紫鲸AI智能体工作流平台 |
 | `concepts\HIS系统深度调研.md` | dangling 链接: 紫鲸AI智能体工作流平台 |
 | `concepts\ai-collaboration-mindset-shift.md` | author=legacy，建议替换为真实作者; dangling 链接: src_20260606_42e11f09 |
-| `concepts\ai-hackathon-pitches.md` | dangling 链接: [[yt-tool-product-core-canvas]], 90_control/itingnao-kit/work/theme-ai-hackathon-pitches-summary.md, [[find-old-do-small]], [[yt-pitch-colloquialization]], [[ai-collaboration-mindset-shift]] |
+| `concepts\ai-hackathon-pitches.md` | dangling 链接: 90_control/itingnao-kit/work/theme-ai-hackathon-pitches-summary.md |
 | `concepts\ai-landing-scene-selection.md` | author=legacy，建议替换为真实作者; dangling 链接: src_20260606_ef4877d0 |
 | `concepts\ai-learning-closed-loop.md` | author=legacy，建议替换为真实作者; dangling 链接: src_20260606_90b44191 |
 | `concepts\ai-native-im-multi-agent.md` | dangling 链接: ai-agent-workflow, yt-entrepreneur-ai-methodology |
 | `concepts\ai-native-五层进阶从答案到效率到作品到产品到系统.md` | type 值异常: “framework”; author=legacy，建议替换为真实作者; status 值异常: “enriched” |
-| `concepts\ai-short-drama-ice-fire-scripting-compass.md` | dangling 链接: [[ai-short-drama-framework-three-axes]], [[ai-short-drama-plot-three-axes]], [[ai-short-drama-script-planning-three-axes]], [[ai-short-drama-ice-fire-dissection-compass]], [[ai-short-drama-conflict-three-axes]] |
-| `concepts\ai-short-drama-platform-policy-comparison.md` | dangling 链接: [[ai-short-drama-script-planning-three-axes]], [[ai-short-drama-ice-fire-scripting-compass]] |
 | `concepts\aigc文创案例设计课leo文创ip从0到1全流程.md` | author=legacy，建议替换为真实作者 |
 | `concepts\aigc设计基础01ai生图原理与提示词基本功.md` | author=legacy，建议替换为真实作者 |
 | `concepts\aigc设计师实操培训01口喷设计范式与电商ai设计全流程.md` | author=legacy，建议替换为真实作者 |
 | `concepts\business-analysis.md` | author=legacy，建议替换为真实作者 |
-| `concepts\business-research-skill-oscar-13-weapon-system.md` | dangling 链接: 一堂调研武器库13招, 一堂调研行动营-ai辅助系统式调研方法论 |
-| `concepts\business-validation-models-collaboration.md` | dangling 链接: [[concept-mckinsey-issue-tree]], [[ai-collaboration-mindset-shift]], 90_control/itingnao-kit/work/theme-other-summary.md, [[concept-一堂-hypothesis-driven-business-methodology]], [[ai-landing-scene-selection]] |
+| `concepts\business-research-skill-oscar-13-weapon-system.md` | dangling 链接: 一堂调研行动营-ai辅助系统式调研方法论, 一堂调研武器库13招 |
+| `concepts\business-validation-models-collaboration.md` | dangling 链接: 90_control/itingnao-kit/work/theme-other-summary.md |
 | `concepts\concept-ai-native-organization-five-steps.md` | author=legacy，建议替换为真实作者; dangling 链接: ai时代判断力口述-2 |
 | `concepts\concept-mckinsey-issue-tree.md` | author=legacy，建议替换为真实作者 |
 | `concepts\concept-mckinsey-mece.md` | author=legacy，建议替换为真实作者 |
-| `concepts\concept-smart-medicine-cabinet-consumer-acceptance.md` | dangling 链接: [['tool-smart-medicine-cabinet-site-selection-guide']], [['smart-medicine-cabinet-clinic-risk-observation']], [['smart-medicine-cabinet-financial-model']], [['smart-medicine-cabinet-o2o-cost-structure']] |
-| `concepts\concept-smart-medicine-cabinet-digital-pharmacy-diagnosis.md` | dangling 链接: [['smart-medicine-cabinet-national-policy-redlines']], [['case-smart-medicine-cabinet-corporate-risk']], [['smart-medicine-cabinet-clinic-risk-observation']] |
-| `concepts\concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet.md` | dangling 链接: [['smart-medicine-cabinet-national-policy-redlines']], [['smart-medicine-cabinet-financial-model']], [['smart-medicine-cabinet-clinic-risk-observation']] |
-| `concepts\concept-smart-medicine-cabinet-international-models.md` | dangling 链接: [['smart-medicine-cabinet-national-policy-redlines']], [['tool-clinic-cabinet-legal-contract-guide']], [['smart-medicine-cabinet-clinic-risk-observation']], [['case-smart-medicine-cabinet-failure-patterns-library']] |
-| `concepts\concept-smart-medicine-cabinet-platform-cooperation-validation.md` | dangling 链接: [['concept-smart-medicine-cabinet-digital-pharmacy-diagnosis']], [['smart-medicine-cabinet-o2o-cost-structure']] |
-| `concepts\concept-smart-medicine-cabinet-supply-chain-validation.md` | dangling 链接: [['smart-medicine-cabinet-financial-model']], [['case-smart-medicine-cabinet-failure-patterns-library']] |
-| `concepts\concept-thousand-people-square.md` | dangling 链接: [[dk-modeling-case-explosion-confidence]], [[case-personal-map-modeling]], [[yt-five-step-method]], [[modeling-scientific-milestones]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `concepts\concept-thousand-people-square.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
 | `concepts\concept-一堂-business-prediction.md` | author=legacy，建议替换为真实作者 |
 | `concepts\concept-半肥猫-ai-learning-toolification-methodology.md` | author=legacy，建议替换为真实作者; dangling 链接: skill-纪浩-dofirst-pdca, kdo-encapsulate, skill-纪浩-four-elements-validation |
 | `concepts\concept-纪浩-ai-collaboration-five-layer.md` | author=legacy，建议替换为真实作者 |
@@ -112,21 +95,20 @@
 | `concepts\contingency-decision-making.md` | author=legacy，建议替换为真实作者; dangling 链接: src_20260606_cde17edd |
 | `concepts\course-to-skill-conversion.md` | author=legacy，建议替换为真实作者; dangling 链接: src_20260606_90b44191 |
 | `concepts\data-labeling-best-practices-report.md` | author=legacy，建议替换为真实作者 |
-| `concepts\ec工业化规范手册-v2.8.0.md` | dangling 链接: 街顺APP全面调研报告, 鑫港湾HIS系统分阶段整改报告, 诊所O2O外卖平台业务深度调研报告; trust_level=high 但 source 仅 1 个 |
+| `concepts\ec工业化规范手册-v2.8.0.md` | dangling 链接: 鑫港湾HIS系统分阶段整改报告, 街顺APP全面调研报告, 诊所O2O外卖平台业务深度调研报告; trust_level=high 但 source 仅 1 个 |
 | `concepts\finance-legal-business-operations.md` | dangling 链接: 90_control/itingnao-kit/work/theme-finance-legal-business-summary.md |
 | `concepts\find-old-do-small.md` | author=legacy，建议替换为真实作者; dangling 链接: src_20260606_ef4877d0 |
-| `concepts\graph-rag.md` | dangling 链接: [[kimi-深度调研集群方法论-deep-research-swarm]], [[index]], [[kdo-protocol]] |
-| `concepts\industry-ai-cases.md` | dangling 链接: 90_control/itingnao-kit/work/theme-industry-ai-cases-summary.md, [[dk-一堂-wishful-thinking-kills-startups]], [[ai-collaboration-mindset-shift]], [[concept-ai-native-organization-five-steps]], [[ai-landing-scene-selection]] |
-| `concepts\kdo-flywheel.md` | dangling 链接: recursive-deepen, knowledge-flywheel-discovery-20260602, sprint-6-four-death-sentences |
-| `concepts\kdo-yaml-frontmatter-safety.md` | author=legacy，建议替换为真实作者; dangling 链接: 30_wiki/decisions/gold-standard-manual-labels, 30_wiki/decisions/fix-data-curator-parse-bug |
+| `concepts\industry-ai-cases.md` | dangling 链接: 90_control/itingnao-kit/work/theme-industry-ai-cases-summary.md |
+| `concepts\kdo-flywheel.md` | dangling 链接: knowledge-flywheel-discovery-20260602, sprint-6-four-death-sentences, recursive-deepen |
+| `concepts\kdo-yaml-frontmatter-safety.md` | author=legacy，建议替换为真实作者; dangling 链接: 30_wiki/decisions/fix-data-curator-parse-bug, 30_wiki/decisions/gold-standard-manual-labels |
 | `concepts\knowledge-error-self-exposure.md` | author=legacy，建议替换为真实作者 |
 | `concepts\meta-prompt-eng.md` | author=legacy，建议替换为真实作者 |
-| `concepts\modeling-three-values.md` | dangling 链接: [[modeling-capability-system]], [[modeling-three-stages]], [[modeling-level-map]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `concepts\modeling-three-values.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
 | `concepts\obsidian-kdo-内容产出工作流-产品设计大纲.md` | author=legacy，建议替换为真实作者; dangling 链接: 紫鲸AI智能体工作流平台 |
-| `concepts\ocr-ocr_screenshot2.md` | dangling 链接: yt-decision-visual-analysis, yt-decision-ocr-quality |
-| `concepts\ocr-ocr_snipaste_2026-05-15_21-39-40.md` | dangling 链接: yt-decision-visual-analysis, yt-decision-ocr-quality |
-| `concepts\ocr-screenshot1.md` | dangling 链接: yt-decision-visual-analysis, yt-decision-ocr-quality |
-| `concepts\ocr-screenshot2.md` | dangling 链接: yt-decision-visual-analysis, yt-decision-ocr-quality |
+| `concepts\ocr-ocr_screenshot2.md` | dangling 链接: yt-decision-ocr-quality, yt-decision-visual-analysis |
+| `concepts\ocr-ocr_snipaste_2026-05-15_21-39-40.md` | dangling 链接: yt-decision-ocr-quality, yt-decision-visual-analysis |
+| `concepts\ocr-screenshot1.md` | dangling 链接: yt-decision-ocr-quality, yt-decision-visual-analysis |
+| `concepts\ocr-screenshot2.md` | dangling 链接: yt-decision-ocr-quality, yt-decision-visual-analysis |
 | `concepts\ocr-truman的选择两条职业成长路线.md` | dangling 链接: yt-decision-portfolio-career |
 | `concepts\ocr-一堂-个人修炼-y模型.md` | dangling 链接: yt-decision-scientific-learning-ipo |
 | `concepts\ocr-一堂-个人修炼-科学学习ipo完整清单.md` | dangling 链接: yt-decision-scientific-learning-ipo |
@@ -174,10 +156,10 @@
 | `concepts\ocr-微信图片_20260507004804_39_32.md` | dangling 链接: yt-decision-product-launch |
 | `concepts\ocr-微信图片_20260507004806_40_32.md` | dangling 链接: yt-decision-product-launch |
 | `concepts\ocr-微信图片_20260507004811_41_32.md` | dangling 链接: yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-审美卡片-最佳实践建模.md` | dangling 链接: yt-decision-design-philosophy, yt-decision-aesthetic-practice |
-| `concepts\ocr-泛产品设计-审美卡片-最佳实践收集.md` | dangling 链接: yt-decision-design-philosophy, yt-decision-aesthetic-practice |
-| `concepts\ocr-泛产品设计-审美卡片-最佳实践池子.md` | dangling 链接: yt-decision-design-philosophy, yt-decision-aesthetic-practice |
-| `concepts\ocr-泛产品设计-审美卡片-美好作品想象.md` | dangling 链接: yt-decision-design-philosophy, yt-decision-aesthetic-practice |
+| `concepts\ocr-泛产品设计-审美卡片-最佳实践建模.md` | dangling 链接: yt-decision-aesthetic-practice, yt-decision-design-philosophy |
+| `concepts\ocr-泛产品设计-审美卡片-最佳实践收集.md` | dangling 链接: yt-decision-aesthetic-practice, yt-decision-design-philosophy |
+| `concepts\ocr-泛产品设计-审美卡片-最佳实践池子.md` | dangling 链接: yt-decision-aesthetic-practice, yt-decision-design-philosophy |
+| `concepts\ocr-泛产品设计-审美卡片-美好作品想象.md` | dangling 链接: yt-decision-aesthetic-practice, yt-decision-design-philosophy |
 | `concepts\ocr-泛产品设计-审美工具箱指南.md` | dangling 链接: yt-decision-product-launch |
 | `concepts\ocr-泛产品设计-用户卡片-一堂五步法.md` | dangling 链接: yt-decision-product-innovation, yt-decision-user-research |
 | `concepts\ocr-泛产品设计-用户卡片-动力阻力.md` | dangling 链接: yt-decision-product-innovation, yt-decision-user-research |
@@ -190,24 +172,24 @@
 | `concepts\ocr-泛产品设计-用户卡片-行业分析画布.md` | dangling 链接: yt-decision-product-innovation, yt-decision-user-research |
 | `concepts\ocr-泛产品设计-用户卡片-需求挖掘.md` | dangling 链接: yt-decision-product-innovation, yt-decision-user-research |
 | `concepts\ocr-泛产品设计-用户卡片-项目背景分析.md` | dangling 链接: yt-decision-product-innovation, yt-decision-user-research |
-| `concepts\ocr-泛产品设计-落地卡片-roi分析.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-业务建模.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-低成本测试mvp.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-假设拆解.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-内核和边界.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-努力仿真.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-十倍速验证.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-善用佳软.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-复盘迭代.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-攻坚会.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-灵感闪现.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-管理三段论.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-解放思想.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-设计原则.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-逻辑mece.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-酝酿式打磨.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-里程碑拆解.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
-| `concepts\ocr-泛产品设计-落地卡片-风险管理.md` | dangling 链接: yt-decision-project-management, yt-decision-product-launch |
+| `concepts\ocr-泛产品设计-落地卡片-roi分析.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-业务建模.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-低成本测试mvp.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-假设拆解.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-内核和边界.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-努力仿真.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-十倍速验证.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-善用佳软.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-复盘迭代.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-攻坚会.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-灵感闪现.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-管理三段论.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-解放思想.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-设计原则.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-逻辑mece.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-酝酿式打磨.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-里程碑拆解.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
+| `concepts\ocr-泛产品设计-落地卡片-风险管理.md` | dangling 链接: yt-decision-product-launch, yt-decision-project-management |
 | `concepts\ocr-泛产品设计-需求工具箱指南.md` | dangling 链接: yt-decision-product-launch |
 | `concepts\ocr-泛产品设计的应用场景示意图.md` | dangling 链接: yt-decision-product-launch |
 | `concepts\ocr-泛产品设计者的三大自我修养.md` | dangling 链接: yt-decision-product-launch |
@@ -215,7 +197,7 @@
 | `concepts\ocr-泛产品设计落地工具篇指南.md` | dangling 链接: yt-decision-product-launch |
 | `concepts\ocr-萃取总结.md` | dangling 链接: yt-decision-product-launch |
 | `concepts\ocr-顶级产品追求的方向-乔布斯.md` | dangling 链接: yt-decision-product-launch |
-| `concepts\personal-growth-complex-systems.md` | dangling 链接: [[master-decision-hygiene]], 90_control/itingnao-kit/work/theme-personal-growth-summary.md, [[master-first-principles]], [[master-antifragile-checklist]], [[yt-personal-knowledge-extraction]] |
+| `concepts\personal-growth-complex-systems.md` | dangling 链接: 90_control/itingnao-kit/work/theme-personal-growth-summary.md |
 | `concepts\pilot-atomic-chunk-comparison.md` | type 值异常: comparison; author=legacy，建议替换为真实作者 |
 | `concepts\prd-as-ai-instruction.md` | author=legacy，建议替换为真实作者; dangling 链接: src_20260606_90b44191 |
 | `concepts\product-ux.md` | author=legacy，建议替换为真实作者 |
@@ -278,7 +260,7 @@
 | `concepts\skill-一堂-business-prediction-15-char.md` | author=legacy，建议替换为真实作者; dangling 链接: dk-一堂-p-type-vs-l-type, case-一堂-奶茶店创业-business-prediction |
 | `concepts\skill-一堂-five-step-validation.md` | author=legacy，建议替换为真实作者; dangling 链接: dk-一堂-kernel-is-hypothesis |
 | `concepts\skill-一堂-hypothesis-validation-three-axe.md` | author=legacy，建议替换为真实作者; dangling 链接: dk-一堂-kernel-is-hypothesis |
-| `concepts\skill-一堂-kernel-three-questions.md` | author=legacy，建议替换为真实作者; dangling 链接: case-一堂-shampoo-kernel-validation, dk-一堂-premature-refinement-trap |
+| `concepts\skill-一堂-kernel-three-questions.md` | author=legacy，建议替换为真实作者; dangling 链接: dk-一堂-premature-refinement-trap, case-一堂-shampoo-kernel-validation |
 | `concepts\skill-一堂-product-kernel-add-subtract.md` | author=legacy，建议替换为真实作者; dangling 链接: dk-一堂-kernel-is-hypothesis |
 | `concepts\skill-一堂-product-kernel-canvas.md` | author=legacy，建议替换为真实作者 |
 | `concepts\skill-一堂-spectrum-positioning.md` | author=legacy，建议替换为真实作者; dangling 链接: dk-一堂-p-type-vs-l-type, case-一堂-奶茶店创业-business-prediction |
@@ -666,34 +648,33 @@
 | `concepts\skill-马易-隐私安全分层解决.md` | author=legacy，建议替换为真实作者 |
 | `concepts\skill-马易-需求创造验证法.md` | author=legacy，建议替换为真实作者 |
 | `concepts\skill-马易-风口痛点识别法.md` | author=legacy，建议替换为真实作者 |
-| `concepts\smart-medicine-cabinet-national-policy-redlines.md` | dangling 链接: [[master-decision-hygiene]], [[smart-medicine-cabinet-clinic-risk-observation]], [[smart-medicine-cabinet-distribution]], [[smart-medicine-cabinet-regional-policy-map]], [[master-systems-thinking]]; source_refs 中的 src ID 未注册: src_20260613_60c91b70, src_20260613_5f96c5bb |
-| `concepts\smart-medicine-cabinet-o2o-cost-structure.md` | dangling 链接: [[smart-medicine-cabinet-distribution]], [[master-antifragile-checklist]], [[smart-medicine-cabinet-financial-model]], [[yt-unit-model-three-tools]]; source_refs 中的 src ID 未注册: src_20260613_0e40f3cd, src_20260613_815b4103 |
-| `concepts\smart-medicine-cabinet-regional-policy-map.md` | dangling 链接: [[smart-medicine-cabinet-distribution]], [[master-decision-hygiene]], [[smart-medicine-cabinet-national-policy-redlines]], [[smart-medicine-cabinet-clinic-risk-observation]]; source_refs 中的 src ID 未注册: src_20260613_60c91b70, src_20260613_5f96c5bb |
+| `concepts\smart-medicine-cabinet-national-policy-redlines.md` | source_refs 中的 src ID 未注册: src_20260613_60c91b70, src_20260613_5f96c5bb |
+| `concepts\smart-medicine-cabinet-o2o-cost-structure.md` | source_refs 中的 src ID 未注册: src_20260613_0e40f3cd, src_20260613_815b4103 |
+| `concepts\smart-medicine-cabinet-regional-policy-map.md` | source_refs 中的 src ID 未注册: src_20260613_60c91b70, src_20260613_5f96c5bb |
 | `concepts\structured-ai-workspace.md` | author=legacy，建议替换为真实作者; dangling 链接: src_20260606_42e11f09 |
-| `concepts\supply-chain-beverage.md` | dangling 链接: [[smart-medicine-cabinet-distribution]], [[yt-unit-model-overview]], 90_control/itingnao-kit/work/theme-supply-chain-beverage-summary.md |
+| `concepts\supply-chain-beverage.md` | dangling 链接: 90_control/itingnao-kit/work/theme-supply-chain-beverage-summary.md |
 | `concepts\truman-perspective-skill.md` | dangling 链接: 一堂调研武器库13招, 一堂-调研行动营启动_原文润色 |
 | `concepts\voice-input-doubao.md` | author=legacy，建议替换为真实作者; dangling 链接: src_20260606_90b44191 |
 | `concepts\web-scraping-三剑客-scrapling-crawl4ai-firecrawl.md` | dangling 链接: 一堂调研武器库13招 |
-| `concepts\yitang-course-map.md` | dangling 链接: 30_wiki/entities/一堂|一堂实体页, 一堂调研武器库13招, 一堂调研行动营-ai辅助系统式调研方法论, yt-system-course-map-lecture|一堂课程地图精华串讲, 30_wiki/systems/一堂方法论体系总图|一堂方法论体系总图 |
+| `concepts\yitang-course-map.md` | dangling 链接: 一堂调研行动营-ai辅助系统式调研方法论, 30_wiki/systems/一堂方法论体系总图|一堂方法论体系总图, 30_wiki/entities/一堂|一堂实体页, 一堂调研武器库13招, yt-system-course-map-lecture|一堂课程地图精华串讲 |
 | `concepts\yitang-huazong-ama-by-industry.md` | dangling 链接: yitang-huazong-ama-20250526 |
 | `concepts\yitang-huazong-ama-summary.md` | dangling 链接: yitang-huazong-ama-20250526 |
-| `concepts\yitang-methodology-system.md` | dangling 链接: [[ai-learning-closed-loop]], [[course-to-skill-conversion]], [[find-old-do-small]], [[master-first-principles]], [[master-systems-thinking]] |
+| `concepts\yitang-methodology-system.md` | dangling 链接: 90_control/itingnao-kit/work/theme-yitang-methodology-summary.md |
 | `concepts\yt-business-analysis-cognitive-biases.md` | status=draft 但 confidence=0.85 |
-| `concepts\yt-business-formula-l6-essence-formulas.md` | dangling 链接: [[yt-business-formula-parameter-iceberg]], [[yt-business-formula-ten-paradigms]], [[yt-business-formula-six-level-logic]], [[yt-business-formula-abc-model]] |
-| `concepts\yt-business-formula-parameter-iceberg.md` | dangling 链接: [[yt-entrepreneur-unit-model]], [[yt-model-deep-review-iceberg]], [[yt-management-business-formula]], [[yt-business-formula-six-level-logic]], [[yt-business-formula-abc-model]]; source_refs 中的 src ID 未注册: src_20260613_fa7b370d |
-| `concepts\yt-business-formula-six-level-logic.md` | dangling 链接: [[yt-business-formula-parameter-iceberg]], [[yt-decision-depth-ladder]], [[yt-model-deep-review-iceberg]], [[yt-management-business-formula]], [[yt-business-formula-abc-model]]; source_refs 中的 src ID 未注册: src_20260613_0ab21e5e |
-| `concepts\yt-business-formula-ten-paradigms.md` | dangling 链接: [[yt-business-formula-parameter-iceberg]], [[yt-growth-cycle-model]], [[yt-management-business-formula]], [[yt-entrepreneur-unit-model]], [[yt-business-formula-abc-model]]; source_refs 中的 src ID 未注册: src_20260613_8bfdc3d1 |
-| `concepts\yt-case-mandatory-cases.md` | dangling 链接: 30_wiki/systems/一堂方法论体系总图, 一堂|一堂实体页, 一堂调研武器库13招, yitang-course-map|一堂课程大地图, 一堂调研行动营-ai辅助系统式调研方法论 |
+| `concepts\yt-business-formula-parameter-iceberg.md` | source_refs 中的 src ID 未注册: src_20260613_fa7b370d |
+| `concepts\yt-business-formula-six-level-logic.md` | source_refs 中的 src ID 未注册: src_20260613_0ab21e5e |
+| `concepts\yt-business-formula-ten-paradigms.md` | source_refs 中的 src ID 未注册: src_20260613_8bfdc3d1 |
+| `concepts\yt-case-mandatory-cases.md` | dangling 链接: 30_wiki/systems/一堂方法论体系总图, yitang-course-map|一堂课程大地图, 一堂调研行动营-ai辅助系统式调研方法论, 一堂调研武器库13招, 一堂|一堂实体页 |
 | `concepts\yt-composite-pan-product-methodology.md` | type 值异常: composite-concept |
 | `concepts\yt-concept-p-type-l-type.md` | dangling 链接: yt-concept-x-type-y-type |
-| `concepts\yt-decision-ai-partner.md` | dangling 链接: human-in-the-loop-dss, yt-management-intelligent-ops, explainable-ai-xai, yt-growth-data-driven, distributed-cognition-hutchins |
-| `concepts\yt-decision-canvas.md` | dangling 链接: lean-canvas-maurya, business-model-canvas-osterwalder, empathy-map-design-thinking, yt-startup-business-plan, yt-growth-channel-canvas |
-| `concepts\yt-decision-consensus-iceberg.md` | dangling 链接: nonviolent-communication-rosenberg, facilitation-technology, psychological-safety-edmondson |
-| `concepts\yt-decision-full-process.md` | dangling 链接: yt-growth-hacking-loop, yt-lean-startup-mvp, pdca-deming, design-thinking-ideo, ooda-loop-boyd |
-| `concepts\yt-decision-habit-shift.md` | dangling 链接: thinking-fast-slow-kahneman, status-quo-bias-samuelson, immunity-to-change-kegan |
-| `concepts\yt-decision-height-toolkit.md` | dangling 链接: yt-forecast-timing-window, second-curve-handy, blue-ocean-strategy, porter-five-forces, yt-startup-strategic-choice |
-| `concepts\yt-decision-review.md` | dangling 链接: double-loop-learning-argyris, after-action-review-aar, yt-personal-deep-review|五层复盘模型, seci-model-nonaka, yt-management-performance-review |
-| `concepts\yt-decision-y-model.md` | dangling 链接: system-thinking-senge, yt-forecast-trend-signal, yt-startup-mvp-cost, jtbd-framework, yt-growth-channel-roi |
+| `concepts\yt-decision-ai-partner.md` | dangling 链接: yt-management-intelligent-ops, human-in-the-loop-dss, yt-growth-data-driven, distributed-cognition-hutchins, explainable-ai-xai |
+| `concepts\yt-decision-canvas.md` | dangling 链接: business-model-canvas-osterwalder, lean-canvas-maurya, yt-growth-channel-canvas, empathy-map-design-thinking, yt-startup-business-plan |
+| `concepts\yt-decision-consensus-iceberg.md` | dangling 链接: facilitation-technology, psychological-safety-edmondson, nonviolent-communication-rosenberg |
+| `concepts\yt-decision-full-process.md` | dangling 链接: yt-lean-startup-mvp, design-thinking-ideo, pdca-deming, ooda-loop-boyd, yt-growth-hacking-loop |
+| `concepts\yt-decision-habit-shift.md` | dangling 链接: immunity-to-change-kegan, status-quo-bias-samuelson, thinking-fast-slow-kahneman |
+| `concepts\yt-decision-height-toolkit.md` | dangling 链接: porter-five-forces, yt-forecast-timing-window, yt-startup-strategic-choice, blue-ocean-strategy, second-curve-handy |
+| `concepts\yt-decision-review.md` | dangling 链接: yt-management-performance-review, double-loop-learning-argyris, seci-model-nonaka, after-action-review-aar, yt-personal-deep-review|五层复盘模型 |
+| `concepts\yt-decision-y-model.md` | dangling 链接: system-thinking-senge, ooda-loop-boyd, yt-startup-mvp-cost, yt-entrepreneur-key-hypotheses|关键假设, yt-growth-channel-roi |
 | `concepts\yt-entrepreneur-259-milestone.md` | status=draft 但 confidence=0.85 |
 | `concepts\yt-entrepreneur-five-step-method.md` | status=draft 但 confidence=0.85 |
 | `concepts\yt-entrepreneur-key-hypotheses.md` | dangling 链接: yt-concept-x-type-y-type |
@@ -716,11 +697,11 @@
 | `concepts\yt-note-problem-solving-capability.md` | author=legacy，建议替换为真实作者; status=draft 但 confidence=0.88; trust_level=low 但 confidence=0.88 |
 | `concepts\yt-personal-ai-thinking-card.md` | type 值异常: method |
 | `concepts\yt-personal-checklist-notes.md` | dangling 链接: yt-personal-checklist-interview-notes, yt-personal-checklist-ai-data-paradigm |
-| `concepts\yt-personal-deep-review.md` | dangling 链接: 30_wiki/systems/一堂方法论体系总图, yt-personal-deliberate-practice|刻意练习, yt-personal-time-management|时间管理, yt-entrepreneur-scientific-method|科学决策/Y 模型, yt-personal-knowledge-management|知识管理 |
+| `concepts\yt-personal-deep-review.md` | dangling 链接: yt-personal-knowledge-management|知识管理, 30_wiki/systems/一堂方法论体系总图, yt-entrepreneur-scientific-method|科学决策/Y 模型, yt-personal-deliberate-practice|刻意练习, yt-personal-time-management|时间管理 |
 | `concepts\yt-personal-ipo-learning.md` | dangling 链接: 30_wiki/systems/一堂方法论体系总图 |
 | `concepts\yt-product-ten-metrics.md` | status=draft 但 confidence=0.85 |
 | `concepts\yt-prompt-engineering-andrew-ng.md` | type 值异常: course_notes; confidence=0.9 但 source 仅 1 个 |
-| `concepts\yt-research-action-camp-launch.md` | dangling 链接: 一堂|一堂实体页, 一堂调研武器库13招, yitang-course-map|一堂课程大地图, 一堂调研行动营-ai辅助系统式调研方法论, 一堂-调研行动营启动_原文润色 |
+| `concepts\yt-research-action-camp-launch.md` | dangling 链接: yitang-course-map|一堂课程大地图, 一堂调研行动营-ai辅助系统式调研方法论, 一堂调研武器库13招, 一堂|一堂实体页, 一堂-调研行动营启动_原文润色 |
 | `concepts\yt-research-competitor-toolkit.md` | status=reviewed 但 reviewed_by 无效 |
 | `concepts\yt-research-expert-interview.md` | status=reviewed 但 reviewed_by 无效 |
 | `concepts\yt-research-hypothesis-test.md` | status=reviewed 但 reviewed_by 无效 |
@@ -729,7 +710,7 @@
 | `concepts\yt-research-mindset.md` | author=legacy，建议替换为真实作者; status=draft 但 confidence=0.85; trust_level=low 但 confidence=0.85 |
 | `concepts\yt-research-osl-framework.md` | status=reviewed 但 reviewed_by 无效 |
 | `concepts\yt-research-user-jtbd.md` | author=legacy，建议替换为真实作者; status=draft 但 confidence=0.85; trust_level=low 但 confidence=0.85 |
-| `concepts\yt-research-weaponry-course.md` | dangling 链接: 一堂|一堂实体页, 一堂调研武器库13招, yitang-course-map|一堂课程大地图, 一堂调研行动营-ai辅助系统式调研方法论 |
+| `concepts\yt-research-weaponry-course.md` | dangling 链接: yitang-course-map|一堂课程大地图, 一堂调研行动营-ai辅助系统式调研方法论, 一堂调研武器库13招, 一堂|一堂实体页 |
 | `concepts\yt-skill-checklist-as-ai-protocol.md` | author=legacy，建议替换为真实作者; dangling 链接: dk-note-human-creativity-ai-data; status=draft 但 confidence=0.85; trust_level=low 但 confidence=0.85 |
 | `concepts\yt-skill-p-role-prompt-design.md` | author=legacy，建议替换为真实作者 |
 | `concepts\yt-skill-storyline-contrast-analysis.md` | author=legacy，建议替换为真实作者; dangling 链接: dk-note-human-creativity-ai-data |
@@ -737,7 +718,7 @@
 | `concepts\yt-skill-storyline-problem-solving.md` | author=legacy，建议替换为真实作者 |
 | `concepts\yt-skill-storyline-target-tradeoff.md` | author=legacy，建议替换为真实作者 |
 | `concepts\yt-skill-storyline-timeline.md` | author=legacy，建议替换为真实作者 |
-| `concepts\yt-system-course-map-lecture.md` | dangling 链接: 30_wiki/systems/一堂方法论体系总图, 一堂|一堂实体页, yitang-course-map|一堂课程大地图 |
+| `concepts\yt-system-course-map-lecture.md` | dangling 链接: 30_wiki/systems/一堂方法论体系总图, yitang-course-map|一堂课程大地图, 一堂|一堂实体页 |
 | `concepts\yt-tool-equity-checklist.md` | author=legacy，建议替换为真实作者; dangling 链接: 30_wiki/tools/yt-tool-equity-checklist |
 | `concepts\yt-tool-fab-persuasion.md` | dangling 链接: yt-tool-copywriting-framework |
 | `concepts\yt-tool-hiring-scorecard.md` | author=legacy，建议替换为真实作者 |
@@ -749,7 +730,7 @@
 | `concepts\yt-tool-project-health-radar.md` | author=legacy，建议替换为真实作者; dangling 链接: 30_wiki/tools/yt-tool-project-health-radar |
 | `concepts\yt-tool-strategy-workshop.md` | author=legacy，建议替换为真实作者 |
 | `concepts\yt-unit-model-ai-assisted.md` | dangling 链接: yt-decision-system1-system2, yt-decision-ai-innovation; status=reviewed 但 reviewed_by 无效; source_refs 中的 src ID 未注册: src_20260524_5e4f3a2b |
-| `concepts\yt-unit-model-benchmark.md` | dangling 链接: yt-decision-forecasting-accuracy, yt-decision-heuristics-biases; status=reviewed 但 reviewed_by 无效; source_refs 中的 src ID 未注册: src_20260524_7c8d9e0f, src_20260524_6b5a4c3d |
+| `concepts\yt-unit-model-benchmark.md` | dangling 链接: yt-decision-heuristics-biases, yt-decision-forecasting-accuracy; status=reviewed 但 reviewed_by 无效; source_refs 中的 src ID 未注册: src_20260524_7c8d9e0f, src_20260524_6b5a4c3d |
 | `concepts\yt-unit-model-build.md` | status=draft 但 confidence=0.85 |
 | `concepts\yt-unit-model-concept.md` | status=draft 但 confidence=0.9 |
 | `concepts\yt-unit-model-construction.md` | status=reviewed 但 reviewed_by 无效; source_refs 中的 src ID 未注册: src_20260524_9f4e5d6a, src_20260524_7c8d9e0f, src_20260524_6b5a4c3d |
@@ -758,12 +739,12 @@
 | `concepts\yt-unit-model-overview.md` | dangling 链接: yt-decision-key-hypotheses; status=reviewed 但 reviewed_by 无效; source_refs 中的 src ID 未注册: src_20260524_8a3b1c2d, src_20260524_9f4e5d6a, src_20260524_7c8d9e0f |
 | `concepts\yt-unit-model-selection.md` | dangling 链接: yt-decision-key-hypotheses; status=reviewed 但 reviewed_by 无效; source_refs 中的 src ID 未注册: src_20260524_9f4e5d6a, src_20260524_7c8d9e0f |
 | `concepts\互联网医院模式深度调研报告.md` | trust_level=high 但 source 仅 1 个 |
-| `concepts\人机协作决策-双三角模型.md` | dangling 链接: yt-decision-y-model|Y模型科学决策框架, system-thinking-senge |
+| `concepts\人机协作决策-双三角模型.md` | dangling 链接: system-thinking-senge, yt-decision-y-model|Y模型科学决策框架 |
 | `concepts\保达云诊所深度调研报告.md` | dangling 链接: 紫鲸AI智能体工作流平台 |
 | `concepts\数据标注维度最佳实践调研报告.md` | author=legacy，建议替换为真实作者 |
 | `concepts\紫鲸ai_智能体工作流平台_深度分析与产品设计.md` | author=legacy，建议替换为真实作者; dangling 链接: 紫鲸AI智能体工作流平台 |
 | `concepts\紫鲸ai智能体工作流平台.md` | dangling 链接: 街顺APP全面调研报告 |
-| `concepts\诊所o2o外卖平台业务深度调研报告.md` | dangling 链接: 街顺APP全面调研报告, 紫鲸AI智能体工作流平台 |
+| `concepts\诊所o2o外卖平台业务深度调研报告.md` | dangling 链接: 紫鲸AI智能体工作流平台, 街顺APP全面调研报告 |
 | `concepts\鑫港湾his系统分阶段整改报告.md` | dangling 链接: 紫鲸AI智能体工作流平台; trust_level=high 但 source 仅 1 个 |
 | `contradictions.md` | type 值异常: meta; author=legacy，建议替换为真实作者 |
 | `dark-knowledges\dk-ai-entrepreneur-technical-blindspot.md` | author=legacy，建议替换为真实作者 |
@@ -771,7 +752,7 @@
 | `dark-knowledges\dk-ai-judgment-programmer-paradox.md` | author=legacy，建议替换为真实作者; dangling 链接: skill-Truman-个人判断力系统建设 |
 | `dark-knowledges\dk-c1-cjk-regex-silent-fail.md` | author=legacy，建议替换为真实作者 |
 | `dark-knowledges\dk-c10-batch-tool-no-dry-run.md` | author=legacy，建议替换为真实作者 |
-| `dark-knowledges\dk-c11-hongqigong-skip-review.md` | author=legacy，建议替换为真实作者; dangling 链接: 20_memory/beikai-role-positioning.md, 90_control/AGENTS.md |
+| `dark-knowledges\dk-c11-hongqigong-skip-review.md` | author=legacy，建议替换为真实作者; dangling 链接: 90_control/AGENTS.md, 20_memory/beikai-role-positioning.md |
 | `dark-knowledges\dk-c2-dual-status-machine.md` | author=legacy，建议替换为真实作者 |
 | `dark-knowledges\dk-c3-txt-ingest-skip.md` | author=legacy，建议替换为真实作者 |
 | `dark-knowledges\dk-c4-selfcheck-superseded.md` | author=legacy，建议替换为真实作者 |
@@ -803,16 +784,16 @@
 | `dark-knowledges\dk-jh-llm-time-blindness.md` | author=legacy，建议替换为真实作者 |
 | `dark-knowledges\dk-lz-ai-native-organization.md` | author=legacy，建议替换为真实作者 |
 | `dark-knowledges\dk-lz-code-is-disposable.md` | author=legacy，建议替换为真实作者 |
-| `dark-knowledges\dk-modeling-ai-cross-validation.md` | dangling 链接: [[dk-modeling-counterexample-driven]], [[tool-ai-skill-engineering-method]], [[case-truman-ai-skill-engineering-guide]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `dark-knowledges\dk-modeling-ai-iterative-prompting.md` | dangling 链接: [[dk-modeling-ai-self-retrospection]], [[tool-ai-skill-engineering-method]], [[case-truman-ai-skill-engineering-guide]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `dark-knowledges\dk-modeling-ai-judgment-limit.md` | dangling 链接: [[dk-modeling-ai-without-judgment]], [[tool-essence-nfactor-modeling]], [[case-truman-ai-skill-engineering-guide]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-modeling-ai-cross-validation.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-modeling-ai-iterative-prompting.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-modeling-ai-judgment-limit.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
 | `dark-knowledges\dk-modeling-ai-self-retrospection.md` | author=legacy，建议替换为真实作者; dangling 链接: ai-collaboration |
 | `dark-knowledges\dk-modeling-ai-without-judgment.md` | author=legacy，建议替换为真实作者; dangling 链接: ai-collaboration; status=draft 但 confidence=0.85 |
-| `dark-knowledges\dk-modeling-case-explosion-confidence.md` | dangling 链接: [[dk-modeling-expert-consensus-five-percent]], [[modeling-three-stages]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-modeling-case-explosion-confidence.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
 | `dark-knowledges\dk-modeling-counterexample-driven.md` | author=legacy，建议替换为真实作者; status=draft 但 confidence=0.85 |
 | `dark-knowledges\dk-modeling-essence-predictive.md` | author=legacy，建议替换为真实作者; status=draft 但 confidence=0.85 |
-| `dark-knowledges\dk-modeling-expert-consensus-five-percent.md` | dangling 链接: [[dk-modeling-counterexample-driven]], [[modeling-three-stages]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `dark-knowledges\dk-modeling-explanatory-vs-predictive-essence.md` | dangling 链接: [[tool-essence-nfactor-modeling]], [[dk-modeling-essence-predictive]], [[case-essence-education-strategy]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-modeling-expert-consensus-five-percent.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-modeling-explanatory-vs-predictive-essence.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
 | `dark-knowledges\dk-modeling-sop-execution-locks.md` | author=legacy，建议替换为真实作者; status=draft 但 confidence=0.85 |
 | `dark-knowledges\dk-modeling-timely-review-session-window.md` | author=legacy，建议替换为真实作者 |
 | `dark-knowledges\dk-my-ai-landing-three-barriers.md` | author=legacy，建议替换为真实作者 |
@@ -844,7 +825,7 @@
 | `dark-knowledges\dk-truman-flag-note-taking.md` | author=legacy，建议替换为真实作者; status=draft 但 confidence=0.85; trust_level=low 但 confidence=0.85 |
 | `dark-knowledges\dk-truman-iteration-to-aesthetic-ceiling.md` | author=legacy，建议替换为真实作者 |
 | `dark-knowledges\dk-truman-knowledge-extraction-three-schools.md` | author=legacy，建议替换为真实作者 |
-| `dark-knowledges\dk-weekly-modeling-iteration-growth-engine.md` | dangling 链接: [[modeling-scientific-milestones]], [[framework-course-milestone-model]], [[concept-thousand-people-square]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-weekly-modeling-iteration-growth-engine.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
 | `dark-knowledges\dk-yb1-aigc-mvp-before-ps.md` | author=legacy，建议替换为真实作者; dangling 链接: dk-yb15-prompt-length-constraint |
 | `dark-knowledges\dk-yb10-theory-moat-designer.md` | author=legacy，建议替换为真实作者; dangling 链接: dk-yb22-ai-eye-high-principle, dk-yb13-taste-inward-aesthetic-outward |
 | `dark-knowledges\dk-yb11-visual-book-reverse.md` | author=legacy，建议替换为真实作者 |
@@ -899,7 +880,7 @@
 | `decisions\fix-dark-knowledge-extractor-llm.md` | author=legacy，建议替换为真实作者; dangling 链接: task-20260531-huangyaoshi-extractor-run-all |
 | `decisions\fix-data-curator-parse-bug.md` | author=legacy，建议替换为真实作者 |
 | `decisions\gold-standard-manual-labels.md` | type 值异常: reference; author=legacy，建议替换为真实作者 |
-| `decisions\high-density-composite-compilation-strategy.md` | author=legacy，建议替换为真实作者; dangling 链接: 调研方法论 Hub, 婚礼项目管理 Hub, 科学学习IPO Hub, 思维模型提炼 Hub, yt-model-pan-product-three-virtues|三大修养 |
+| `decisions\high-density-composite-compilation-strategy.md` | author=legacy，建议替换为真实作者; dangling 链接: 一堂五步法 Hub, 科学学习IPO Hub, Y模型实操 Hub, 场景推演, 逻辑MECE |
 | `decisions\huangyaoshi-data-alignment-response.md` | author=legacy，建议替换为真实作者 |
 | `decisions\huangyaoshi-extractor-upgrade-report.md` | author=legacy，建议替换为真实作者; dangling 链接: dark-knowledge-card-sop |
 | `decisions\huangyaoshi-tagging-and-scope-proposal.md` | author=legacy，建议替换为真实作者; dangling 链接: tag-registry |
@@ -907,7 +888,7 @@
 | `decisions\kdo-ec-industrialization-migration-proposal.md` | author=legacy，建议替换为真实作者 |
 | `decisions\kdo-priority-checklist.md` | author=legacy，建议替换为真实作者 |
 | `decisions\kdo-protocol-implementation-roadmap.md` | author=legacy，建议替换为真实作者 |
-| `decisions\label-accuracy-standard-alignment.md` | dangling 链接: wiki-link, label-prompt-v10-final |
+| `decisions\label-accuracy-standard-alignment.md` | dangling 链接: label-prompt-v10-final, wiki-link |
 | `decisions\labeling-final-consolidation.md` | author=legacy，建议替换为真实作者; dangling 链接: 数据标注维度最佳实践调研报告（老顽童） |
 | `decisions\labeling-research-alignment.md` | type 值异常: comparison; author=legacy，建议替换为真实作者 |
 | `decisions\ouyangfeng-data-alignment-response.md` | author=legacy，建议替换为真实作者 |
@@ -920,60 +901,50 @@
 | `decisions\plan_20260501_97170532-improvement-plan.md` | author=legacy，建议替换为真实作者 |
 | `decisions\plan_20260501_ca61cdd7-improvement-plan.md` | author=legacy，建议替换为真实作者 |
 | `decisions\plan_20260501_e1e150b9-improvement-plan.md` | author=legacy，建议替换为真实作者 |
-| `decisions\plan_20260503_f3e9a2b1-improvement-plan.md` | author=legacy，建议替换为真实作者; dangling 链接: 诊所O2O外卖平台业务深度调研报告, plan_20260503_f3e9a2b1 |
-| `decisions\plan_20260531_data-curator-v1.1.md` | author=legacy，建议替换为真实作者; dangling 链接: AGENTS, tool-card-excellence-standard, kdo-industrialization-manual |
-| `decisions\plan_20260531_data-curator-v1.3.md` | author=legacy，建议替换为真实作者; dangling 链接: kdo-industrialization-manual, tool-card-excellence-standard, AGENTS, 湖仓升仓决策 |
-| `decisions\plan_20260531_data-curator-v1.md` | author=legacy，建议替换为真实作者; dangling 链接: AGENTS, tool-card-excellence-standard, kdo-industrialization-manual |
+| `decisions\plan_20260503_f3e9a2b1-improvement-plan.md` | author=legacy，建议替换为真实作者; dangling 链接: plan_20260503_f3e9a2b1, 诊所O2O外卖平台业务深度调研报告 |
+| `decisions\plan_20260531_data-curator-v1.1.md` | author=legacy，建议替换为真实作者; dangling 链接: tool-card-excellence-standard, AGENTS, kdo-industrialization-manual |
+| `decisions\plan_20260531_data-curator-v1.3.md` | author=legacy，建议替换为真实作者; dangling 链接: tool-card-excellence-standard, AGENTS, 湖仓升仓决策, kdo-industrialization-manual |
+| `decisions\plan_20260531_data-curator-v1.md` | author=legacy，建议替换为真实作者; dangling 链接: tool-card-excellence-standard, AGENTS, kdo-industrialization-manual |
 | `decisions\proposal-ai-domain-mastery-pipeline.md` | author=legacy，建议替换为真实作者 |
 | `decisions\proposal-deep-synthesis-infrastructure.md` | dangling 链接: content-quality-gate, kdo-industrialization-manual |
 | `decisions\proposal-graph-rag-star-fix.md` | author=legacy，建议替换为真实作者 |
-| `decisions\proposal-kdo-flywheel-infrastructure.md` | dangling 链接: sprint-6-four-death-sentences, knowledge-flywheel-discovery-20260602, kdo-industrialization-manual |
-| `decisions\proposal-prompt-injection-infrastructure.md` | author=legacy，建议替换为真实作者; dangling 链接: judge-three-questions-prompt, label-prompt-v10-final, recursive-deepen-prompt |
+| `decisions\proposal-kdo-flywheel-infrastructure.md` | dangling 链接: sprint-6-four-death-sentences, kdo-industrialization-manual, knowledge-flywheel-discovery-20260602 |
+| `decisions\proposal-prompt-injection-infrastructure.md` | author=legacy，建议替换为真实作者; dangling 链接: judge-three-questions-prompt, recursive-deepen-prompt, label-prompt-v10-final |
 | `decisions\proposal-yaml-frontmatter-standardization.md` | author=legacy，建议替换为真实作者 |
-| `decisions\sprint-6-cli-gap-proposal.md` | dangling 链接: sprint-6-four-death-sentences, sprint-6-laowantong-feedback-18, knowledge-flywheel-discovery-20260602 |
+| `decisions\sprint-6-cli-gap-proposal.md` | dangling 链接: sprint-6-laowantong-feedback-18, sprint-6-four-death-sentences, knowledge-flywheel-discovery-20260602 |
 | `decisions\three-party-data-alignment.md` | author=legacy，建议替换为真实作者 |
 | `decisions\truman-ai-partner-design-analysis.md` | dangling 链接: task-20260607-laowantong-checklist-notes-review |
-| `entities\Kimi-月之暗面.md` | dangling 链接: [[一堂调研行动营-ai辅助系统式调研方法论]], [[kimi-深度调研集群方法论-deep-research-swarm]], [[graph-rag]] |
-| `entities\YC-Y-Combinator.md` | dangling 链接: [[kimi-深度调研集群方法论-deep-research-swarm]], [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]], [[kdo-protocol]] |
-| `entities\一堂.md` | dangling 链接: yt-panproduct-execution-idea-spark|灵感闪现, yt-panproduct-execution-risk-management|风险管理, yt-panproduct-aesthetic-imagination|美好作品想象, yt-panproduct-execution-core-and-boundary|内核和边界, yt-panproduct-demand-industry-canvas|行业分析画布 |
-| `entities\紫鲸AI.md` | dangling 链接: [[紫鲸AI智能体工作流平台]], [[紫鲸AI_智能体工作流平台_深度分析与产品设计]], [[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]] |
-| `entities\鑫港湾.md` | dangling 链接: [[鑫港湾HIS系统分阶段整改报告]], [[HIS系统深度调研]], [[轻量级诊所HIS调研全清单]], [[HIS系统开发实现方案-架构师指南]] |
+| `entities\Kimi-月之暗面.md` | dangling 链接: 一堂调研行动营-ai辅助系统式调研方法论 |
+| `entities\一堂.md` | dangling 链接: yt-panproduct-demand-user-perspective|用户视角, yt-panproduct-execution-hypothesis-decomposition|假设拆解, yt-panproduct-execution-idea-spark|灵感闪现, yt-panproduct-demand-user-segmentation|用户分层, yt-panproduct-demand-project-background|项目背景分析 |
+| `entities\紫鲸AI.md` | dangling 链接: 紫鲸AI智能体工作流平台, 紫鲸AI_智能体工作流平台_深度分析与产品设计 |
+| `entities\鑫港湾.md` | dangling 链接: 鑫港湾HIS系统分阶段整改报告 |
 | `frameworks\ai-complex-communication.md` | dangling 链接: ai-agent-workflow |
-| `frameworks\ai-methodology-tools.md` | dangling 链接: [[ai-learning-closed-loop]], [[course-to-skill-conversion]], [[find-old-do-small]], [[kdo-flywheel]], 90_control/itingnao-kit/work/theme-ai-methodology-tools-summary.md |
-| `frameworks\ai-short-drama-ice-fire-dissection-compass.md` | dangling 链接: [[ai-short-drama-framework-three-axes]], [[ai-short-drama-plot-three-axes]], [[ai-short-drama-script-planning-three-axes]], [[ai-short-drama-ice-fire-scripting-compass]], [[ai-short-drama-conflict-three-axes]] |
+| `frameworks\ai-methodology-tools.md` | dangling 链接: 90_control/itingnao-kit/work/theme-ai-methodology-tools-summary.md |
 | `frameworks\business-formula-to-kdo-card-quality.md` | status=draft 但 confidence=0.88 |
-| `frameworks\concept-maister-trusted-advisor.md` | author=legacy，建议替换为真实作者; dangling 链接: diag_20250611_consulting-skills-research, yt-product-kernel-three-questions |
+| `frameworks\concept-maister-trusted-advisor.md` | author=legacy，建议替换为真实作者; dangling 链接: yt-product-kernel-three-questions, diag_20250611_consulting-skills-research |
 | `frameworks\concept-mckinsey-7s.md` | author=legacy，建议替换为真实作者 |
 | `frameworks\concept-minto-pyramid-principle.md` | author=legacy，建议替换为真实作者 |
-| `frameworks\framework-course-milestone-model.md` | dangling 链接: [[case-personal-map-modeling]], [[concept-thousand-people-square]], [[dk-modeling-expert-consensus-five-percent]], [[modeling-scientific-milestones]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `frameworks\framework-logic-cleanliness-five-levels.md` | dangling 链接: [[tool-essence-nfactor-modeling]], [[tool-checklist-cheatsheet-modeling]], [[dk-modeling-essence-predictive]], [[modeling-scientific-milestones]]; trust_level=high 但 source 仅 1 个 |
+| `frameworks\framework-course-milestone-model.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `frameworks\framework-logic-cleanliness-five-levels.md` | trust_level=high 但 source 仅 1 个 |
 | `frameworks\model-quality-four-levels.md` | trust_level=high 但 source 仅 1 个 |
-| `frameworks\modeling-personal-practice-loop.md` | dangling 链接: [[tool-iterative-recursive-deep-dig]], [[modeling-scientific-milestones]], [[modeling-three-values]], [[modeling-level-map]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `frameworks\modeling-scientific-milestones.md` | dangling 链接: [[dk-modeling-counterexample-driven]], [[tool-ai-skill-engineering-method]], [[dk-modeling-expert-consensus-five-percent]], [[modeling-three-stages]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `frameworks\modeling-three-stages.md` | dangling 链接: [[modeling-capability-system]], [[modeling-level-map]], [[process-modeling]], [[modeling-weapon-library]] |
+| `frameworks\modeling-personal-practice-loop.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `frameworks\modeling-scientific-milestones.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
 | `frameworks\modeling-to-kdo-toolchain.md` | status=draft 但 confidence=0.85 |
-| `frameworks\sales-pitch-bias-patterns.md` | dangling 链接: [[master-cognitive-bias-checklist]], [[master-decision-hygiene]], [[七件事集团]]; trust_level=high 但 source 仅 1 个 |
+| `frameworks\sales-pitch-bias-patterns.md` | trust_level=high 但 source 仅 1 个 |
 | `frameworks\smart-device-foodservice-automation.md` | trust_level=high 但 source 仅 1 个 |
-| `frameworks\yt-business-formula-abc-model.md` | dangling 链接: [[yt-business-formula-parameter-iceberg]], [[yt-business-formula-ten-paradigms]], [[yt-unit-model-three-tools]], [[yt-management-business-formula]], [[yt-business-formula-six-level-logic]]; source_refs 中的 src ID 未注册: src_20260613_91f90839 |
-| `index.md` | author=legacy，建议替换为真实作者; dangling 链接: concepts/skill-Truman-低质量动作识别与拒绝.md|技能：低质量动作识别与拒绝, concepts/yt-personal-inspiration-flash.md|yt-personal-inspiration-flash, cases/case-private-domain-ecommerce-formula.md|私域电商 10W 人社群：从“拉人发广告”到“信任 × 用户升级路径”, concepts/ocr-一堂-科学决策-深度-l2部分定量.md|OCR: 一堂-科学决策-深度-L2部分定量, concepts/skill-月白-AI智价比评估决策.md|技能：AI智价比评估决策 |
-| `links\index.md` | author=legacy，建议替换为真实作者; dangling 链接: 30_wiki\frameworks\concept-mckinsey-mece.md, 30_wiki\concepts\skill-半肥猫-用Skill做对比测试验证效果.md, 30_wiki\concepts\concept-一堂-product-kernel.md, seci-model-nonaka, yt-decision-assumption-hypothesis |
-| `log.md` | type 值异常: meta; author=legacy，建议替换为真实作者; dangling 链接: claude-20260503-kdo仓库遍历与健康度评估, Obsidian Git Multi-Device Sync Protocol |
-| `projects\互联网医院项目.md` | type 值异常: project; dangling 链接: [[保达云诊所深度调研报告]], [[鑫港湾HIS项目]], [[轻量级诊所HIS调研全清单]], [[诊所O2O项目]], [[互联网医院模式深度调研报告]] |
-| `projects\诊所O2O项目.md` | type 值异常: project; dangling 链接: [[保达云诊所深度调研报告]], [[诊所O2O外卖平台业务深度调研报告]], 街顺APP全面调研报告, 诊所O2O外卖平台业务深度调研报告, [[街顺APP全面调研报告]] |
-| `projects\鑫港湾HIS项目.md` | type 值异常: project; dangling 链接: [[鑫港湾HIS系统分阶段整改报告]], [[鑫港湾]], [[EC工业化规范手册]], [[轻量级诊所HIS调研全清单]], 鑫港湾HIS系统分阶段整改报告 |
-| `systems\kdo-protocol.md` | author=legacy，建议替换为真实作者; dangling 链接: [[index]], [[obsidian-kdo-内容产出工作流-产品设计大纲]], [[business-research-skill-oscar-13-weapon-system]], [[kdo-protocol]] |
+| `frameworks\yt-business-formula-abc-model.md` | source_refs 中的 src ID 未注册: src_20260613_91f90839 |
+| `index.md` | author=legacy，建议替换为真实作者; dangling 链接: concepts/skill-纪浩-Problem与Question区分法.md|技能：Problem与Question区分法, concepts/skill-辩证讨论深化.md|技能：辩证讨论深化, concepts/yt-business-formula-l6-essence-formulas.md|业务公式 L6 魔法参数：跨行业本质公式集锦, concepts/product-business-strategy.md|产品-商业战略综合：设备运营、方向取舍与产品开发, concepts/skill-纪浩-处理AI生成代码运行异常.md|技能：处理AI生成代码运行异常 |
+| `links\index.md` | author=legacy，建议替换为真实作者; dangling 链接: 30_wiki\frameworks\yt-business-formula-abc-model.md, 30_wiki\concepts\yt-note-extensive-research-input.md, 30_wiki\dark-knowledges\dk-yb23-ai-pre-screen-three-minutes.md, 30_wiki\dark-knowledges\dk-yb3-diffusion-stepwise-vs-human-holistic.md, 30_wiki\dark-knowledges\dk-yb32-doubao-size-composition.md |
+| `log.md` | type 值异常: meta; author=legacy，建议替换为真实作者; dangling 链接: Obsidian Git Multi-Device Sync Protocol, claude-20260503-kdo仓库遍历与健康度评估 |
+| `projects\互联网医院项目.md` | type 值异常: project |
+| `projects\诊所O2O项目.md` | type 值异常: project; dangling 链接: 诊所O2O外卖平台业务深度调研报告, 街顺APP全面调研报告, 街顺APP全面调研报告, 诊所O2O外卖平台业务深度调研报告 |
+| `projects\鑫港湾HIS项目.md` | type 值异常: project; dangling 链接: 鑫港湾HIS系统分阶段整改报告, 鑫港湾HIS系统分阶段整改报告 |
+| `systems\kdo-protocol.md` | author=legacy，建议替换为真实作者 |
 | `systems\obsidian-git-sync-protocol.md` | author=legacy，建议替换为真实作者 |
 | `systems\sprint-2-gate-enrich-evidence.md` | author=legacy，建议替换为真实作者 |
 | `systems\workflow-knowledge-collision.md` | type 值异常: workflow; dangling 链接: card-id |
-| `systems\一堂方法论体系总图.md` | author=legacy，建议替换为真实作者; dangling 链接: 一堂调研武器库13招, 一堂调研行动营-ai辅助系统式调研方法论, 一堂-课程地图精华串讲, 一堂-调研行动营启动_原文润色, 一堂调研武器库课程原文润色 |
-| `tools\ai-short-drama-conflict-three-axes.md` | dangling 链接: [[ai-short-drama-framework-three-axes]], [[ai-short-drama-plot-three-axes]], [[ai-short-drama-ice-fire-scripting-compass]] |
-| `tools\ai-short-drama-framework-three-axes.md` | dangling 链接: [[ai-short-drama-plot-three-axes]], [[ai-short-drama-conflict-three-axes]], [[ai-short-drama-script-planning-three-axes]], [[ai-short-drama-ice-fire-scripting-compass]] |
-| `tools\ai-short-drama-plot-three-axes.md` | dangling 链接: [[ai-short-drama-conflict-three-axes]], [[ai-short-drama-script-planning-three-axes]], [[ai-short-drama-ice-fire-dissection-compass]], [[ai-short-drama-ice-fire-scripting-compass]] |
-| `tools\ai-short-drama-script-planning-three-axes.md` | dangling 链接: [[ai-short-drama-framework-three-axes]], [[ai-short-drama-plot-three-axes]], [[ai-short-drama-conflict-three-axes]], [[ai-short-drama-ice-fire-scripting-compass]] |
+| `systems\一堂方法论体系总图.md` | author=legacy，建议替换为真实作者; dangling 链接: 一堂调研行动营-ai辅助系统式调研方法论, 一堂调研武器库课程原文润色, 一堂-课程地图精华串讲, 一堂调研武器库13招, 一堂-调研行动营启动_原文润色 |
 | `tools\concept-toyota-5-whys.md` | dangling 链接: case-一堂-shampoo-product-kernel |
-| `tools\modeling-level-map.md` | dangling 链接: [[modeling-capability-system]], [[modeling-three-stages]] |
-| `tools\modeling-weapon-library.md` | dangling 链接: [[modeling-capability-system]], [[modeling-level-map]], [[modeling-three-stages]] |
-| `tools\process-modeling.md` | dangling 链接: [[modeling-capability-system]], [[modeling-level-map]], [[modeling-three-stages]] |
 | `tools\sk-ai-ai-workspace-setup.md` | author=legacy，建议替换为真实作者 |
 | `tools\sk-ai-evidence-check.md` | author=legacy，建议替换为真实作者; dangling 链接: ai-coaching-loop |
 | `tools\sk-ai-landing-five-steps.md` | author=legacy，建议替换为真实作者 |
@@ -989,25 +960,12 @@
 | `tools\skill-note-keyword-bolding.md` | author=legacy，建议替换为真实作者 |
 | `tools\skill-note-layer-constraint.md` | author=legacy，建议替换为真实作者 |
 | `tools\skill-note-one-line-one-point.md` | author=legacy，建议替换为真实作者; status=draft 但 confidence=0.85; trust_level=low 但 confidence=0.85 |
-| `tools\smart-medicine-cabinet-financial-model.md` | dangling 链接: [[smart-medicine-cabinet-o2o-cost-structure]], [[smart-medicine-cabinet-national-policy-redlines]], [[smart-medicine-cabinet-clinic-risk-observation]], [[smart-medicine-cabinet-distribution]], [[yt-unit-model-three-tools]]; source_refs 中的 src ID 未注册: src_20260613_0e40f3cd, src_20260613_5f96c5bb |
-| `tools\smart-medicine-cabinet-fraud-detection.md` | dangling 链接: [[master-decision-hygiene]], [[smart-medicine-cabinet-national-policy-redlines]], [[smart-medicine-cabinet-clinic-risk-observation]], [[smart-medicine-cabinet-distribution]], [[smart-medicine-cabinet-financial-model]]; source_refs 中的 src ID 未注册: src_20260613_3b5c7fdb, src_20260613_5f96c5bb |
-| `tools\tool-ai-skill-engineering-guide.md` | dangling 链接: [[dk-modeling-ai-without-judgment]], [[dk-modeling-counterexample-driven]], [[modeling-weapon-library]], [[modeling-three-stages]], [[case-modeling-abstraction-reliability-ladder]]; status=draft 但 confidence=0.85 |
-| `tools\tool-ai-skill-engineering-method.md` | dangling 链接: [[dk-modeling-ai-self-retrospection]], [[dk-modeling-ai-iterative-prompting]], [[dk-modeling-ai-cross-validation]], [[case-truman-ai-skill-engineering-guide]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `tools\tool-binary-quadrant-modeling.md` | dangling 链接: [[tool-radar-chart-modeling]], [[modeling-weapon-library]], [[modeling-three-stages]] |
-| `tools\tool-canvas-weapon-library-modeling.md` | dangling 链接: [[modeling-weapon-library]], [[tool-scenario-selector-modeling]], [[modeling-three-stages]] |
-| `tools\tool-checklist-cheatsheet-modeling.md` | dangling 链接: [[process-modeling]], [[modeling-weapon-library]], [[modeling-three-stages]] |
-| `tools\tool-clinic-cabinet-legal-contract-guide.md` | dangling 链接: [['smart-medicine-cabinet-national-policy-redlines']], [['tool-clinic-medical-shortvideo-compliance']], [['smart-medicine-cabinet-clinic-risk-observation']] |
-| `tools\tool-clinic-medical-shortvideo-compliance.md` | dangling 链接: [['smart-medicine-cabinet-clinic-risk-observation']], [['smart-medicine-cabinet-fraud-detection']], [['tool-clinic-cabinet-legal-contract-guide']] |
-| `tools\tool-essence-nfactor-modeling.md` | dangling 链接: [[tool-iceberg-triangle-modeling]], [[modeling-weapon-library]], [[modeling-three-stages]], [[dk-modeling-essence-predictive]] |
-| `tools\tool-funnel-formula-modeling.md` | dangling 链接: [[tool-radar-chart-modeling]], [[modeling-weapon-library]], [[modeling-three-stages]] |
-| `tools\tool-iceberg-triangle-modeling.md` | dangling 链接: [[modeling-weapon-library]], [[modeling-three-stages]], [[dk-modeling-essence-predictive]] |
-| `tools\tool-iterative-recursive-deep-dig.md` | dangling 链接: [[dk-modeling-counterexample-driven]], [[modeling-scientific-milestones]], [[dk-modeling-ai-iterative-prompting]], [[tool-ai-skill-engineering-method]]; status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
-| `tools\tool-radar-chart-modeling.md` | dangling 链接: [[modeling-level-map]], [[modeling-weapon-library]], [[modeling-three-stages]] |
-| `tools\tool-sabc-tier-modeling.md` | dangling 链接: [[modeling-level-map]], [[modeling-weapon-library]], [[tool-checklist-cheatsheet-modeling]] |
-| `tools\tool-scenario-selector-modeling.md` | dangling 链接: [[modeling-level-map]], [[tool-canvas-weapon-library-modeling]], [[modeling-weapon-library]], [[modeling-three-stages]] |
-| `tools\tool-smart-medicine-cabinet-compliance-checklist.md` | dangling 链接: [['smart-medicine-cabinet-regional-policy-map']], [['smart-medicine-cabinet-national-policy-redlines']], [['tool-clinic-cabinet-legal-contract-guide']], [['smart-medicine-cabinet-clinic-risk-observation']] |
-| `tools\tool-smart-medicine-cabinet-site-selection-guide.md` | dangling 链接: [['smart-medicine-cabinet-clinic-risk-observation']], [['smart-medicine-cabinet-financial-model']], [['smart-medicine-cabinet-fraud-detection']], [['case-smart-medicine-cabinet-failure-patterns-library']]; source_refs 中的 src ID 未注册: src_20260613_0e40f3cd |
-| `tools\tool-sop-template-modeling.md` | dangling 链接: [[dk-modeling-sop-execution-locks]], [[process-modeling]], [[modeling-weapon-library]], [[tool-checklist-cheatsheet-modeling]] |
+| `tools\smart-medicine-cabinet-financial-model.md` | source_refs 中的 src ID 未注册: src_20260613_0e40f3cd, src_20260613_5f96c5bb |
+| `tools\smart-medicine-cabinet-fraud-detection.md` | source_refs 中的 src ID 未注册: src_20260613_3b5c7fdb, src_20260613_5f96c5bb |
+| `tools\tool-ai-skill-engineering-guide.md` | status=draft 但 confidence=0.85 |
+| `tools\tool-ai-skill-engineering-method.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `tools\tool-iterative-recursive-deep-dig.md` | status=draft 但 confidence=0.85; trust_level=high 但 source 仅 1 个 |
+| `tools\tool-smart-medicine-cabinet-site-selection-guide.md` | source_refs 中的 src ID 未注册: src_20260613_0e40f3cd |
 | `tools\yt-note-five-levels-training.md` | author=legacy，建议替换为真实作者; status=draft 但 confidence=0.88; trust_level=low 但 confidence=0.88 |
 | `tools\yt-note-live-field-skill.md` | author=legacy，建议替换为真实作者; status=draft 但 confidence=0.85; trust_level=low 但 confidence=0.85 |
 | `tools\yt-tool-ai-ppt-maker.md` | dangling 链接: yt-model-personal-branding |

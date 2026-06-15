@@ -163,12 +163,17 @@ def check_card(file_path, all_ids):
     related = fm.get("related") or []
     if isinstance(related, str):
         related = [related]
-    related_links = [str(r).strip().strip('"') for r in related if r is not None and str(r).strip()]
-    body_links = extract_wikilinks(body)
-    all_links = set(related_links + body_links)
+    related_links_raw = [str(r).strip().strip('"') for r in related if r is not None and str(r).strip()]
+    body_links_raw = extract_wikilinks(body)
+    all_links_raw = set(related_links_raw + body_links_raw)
     dangling = []
-    for link in all_links:
-        link_id = link.split("#")[0].strip()
+    for link in all_links_raw:
+        # Normalize: strip multiple bracket layers + quotes
+        link_id = link.strip()
+        while link_id.startswith("[[") and link_id.endswith("]]"):
+            link_id = link_id[2:-2]
+        link_id = link_id.strip().strip("'\"").strip()
+        link_id = link_id.split("#")[0].strip()
         if link_id and link_id not in all_ids:
             dangling.append(link_id)
     if dangling:
