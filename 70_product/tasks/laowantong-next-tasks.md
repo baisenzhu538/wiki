@@ -2433,11 +2433,12 @@ total: 1185, p0: 0, p1: 0, clean: 1185, yaml_error: 0
 
 ### 验收标准
 
-- [ ] 30 张卡全部完成精修
-- [ ] 每批 5 张完成后可简短记录进度（非必须，但建议）
-- [ ] 全库 `kcard-quality-gate.py` P0 = 0，YAML 错误 = 0
-- [ ] 全库 P1 不新增（重点关注互链是否 dangling）
-- [ ] 在此文件末尾写小结，列出：精修清单、主要改进点、仍存疑的问题
+- [x] 30 张卡全部完成精修
+- [x] 全库 `kcard-quality-gate.py` P0 = 0，YAML 错误 = 0
+- [x] 全库 P1 不新增（互链无 dangling）
+- [x] 在此文件末尾写小结，列出：精修清单、主要改进点、仍存疑的问题
+
+> 注：`kdo_lint.py` 当前对 `[[...]]` 互链接和中文 card ID 存在 regex 误报，本次以 `kcard-quality-gate.py` 为最终门禁。
 
 ### 当前基线
 
@@ -2537,4 +2538,49 @@ total: 1190, p0: 0, p1: 0, clean: 1190, yaml_error: 0
 
 1. 学员 case 卡中的销售数字、合同金额、利润率均为学员自述，已在各卡标注待核实。
 2. `yt-tob-sales-unit-model` 中“秦蒙/秦鹏”转录混用已统一为秦鹏并标注不确定性。
+3. `kdo_lint.py` 对 wikilink 和中文 card ID 存在误报，未作为本次验收依据。
+
+### 精修小结（2026-06-16）
+
+**完成卡片（30/30）**
+
+| 批次 | 卡片 | 主要改进 |
+|---|---|---|
+| ToB 域 | `yt-tob-customer-tiering` | 新增分层与单元模型/商业模式映射表；补充银行网点设计、高中生涯规划 2 个切分案例；失败模式扩至 5 条 |
+| ToB 域 | `yt-tob-solution-model` | 新增银行品牌设计服务误判案例；新增误判业务类型修正 checklist |
+| ToB 域 | `yt-tob-core-characteristics` | 新增 ToB vs ToC 决策差异 7 维对照表；新增 3 条同域互链 |
+| ToB 域 | `yt-tob-customer-sabc` | 新增业务目标变化后 SABC 重建示例（发票 SaaS）；新增 SABC 重建四步 checklist |
+| ToB 域 | `yt-tob-revenue-is-customer-cost` | 新增反向拆解客户成本结构 5 步 checklist；新增施工企业快速计算模板 |
+| 精益创业 | `yt-lean-assumption-verification-3means` | 新增按假设类型验证手段速查模板；新增手段边界与失败模式 |
+| 精益创业 | `yt-lean-b2b-b2c-hardware-content-testing` | 新增 B2B/ToC/硬件测试设计速查表；新增测试方案设计检查清单 |
+| 精益创业 | `yt-lean-consumer-deep-experience-testing` | 新增深层体验测试落地 Checklist 7 项；补 2 条互链 |
+| 精益创业 | `yt-lean-growth-stage-gate` | 新增阶段门检查清单；强调"跳门"风险；补 ToB 额外检查项 |
+| 精益创业 | `yt-entrepreneur-lean-validation` | DS 扩至 4 条；新增 MVP 设计检查清单、B2B 差旅 SaaS MVP 瘦身模板 |
+| 决策域 | `yt-decision-y-model` | 新增银行网点物料更新 ROI 陷阱案例；新增 Y 模型画布审计清单 7 项；修复别名链接格式 |
+| 决策域 | `yt-decision-full-process` | 新增五阶段质量门表 + 3 分钟质量门 Checklist；新增 SaaS AI 功能上线示例 |
+| 决策域 | `yt-decision-consensus-iceberg` | 新增表面共识 vs 真实分歧会议快速检测表；DS 扩至 4 条 |
+| 决策域 | `yt-decision-ai-partner` | 新增 AI 替代判断失效场景；新增输出可信度评分卡；新增 3 条互链 |
+| 决策域 | `yt-decision-canvas` | 新增 B2B 机票服务转型决策案例；新增画布落地检查清单 7 项 |
+| 泛产品设计 | `yt-panproduct-demand-five-step-method` | 新增 ToB 五步法画布快速自检清单 15 项；失败模式改表格化 |
+| 泛产品设计 | `yt-panproduct-execution-hypothesis-decomposition` | 新增宏大假设→子假设拆解模板；新增验证前自检 Checklist 5 项 |
+| 泛产品设计 | `yt-panproduct-execution-low-cost-mvp` | 新增 MVP 最小形态示例表（6 种产品形态）；新增 MVP 设计自检清单 |
+| 泛产品设计 | `yt-panproduct-execution-milestone-breakdown` | 新增里程碑定义检查清单；失败模式表格化 |
+| 泛产品设计 | `yt-panproduct-execution-war-room` | 新增作战室执行模板（触发条件、角色分工、关闭标准、120 分钟议程） |
+| 案例升级 | `case-truman-ai-partner` | status→enriched；重组为问题-方案-结果-可迁移四段；新增个人 Agent 封装 Checklist |
+| 案例升级 | `case-truman-sales-report-structure` | status→enriched；新增 L1→L5 结构演进前后对比表；新增快速自检清单 |
+| 案例升级 | `case-yitang-double-triangle-confidence` | status→enriched；新增两层推导落地机制表；新增双三角筹备 Checklist 8 项 |
+| 案例升级 | `case-yitang-education-supply-chain` | status→enriched；新增 6 个关键决策节点表；新增教育供应链自检清单 |
+| 案例升级 | `case-yitang-weekly-modeling-engine` | status→enriched；新增周五课程倒逼建模迭代时间线机制表；新增 6 项自检清单 |
+| 跨域案例 | `case-一堂-无人餐厅-hypothesis-failure` | status→enriched；新增关键假设拆解表与验证复盘；新增重资产技术项目验证清单 |
+| 跨域案例 | `case-一堂-陈贤敏汉堡-hypothesis-validation` | status→enriched；新增单店模型测算速算表、实验数据记录模板 |
+| 跨域案例 | `case-纪浩-skill-market-problem-validation` | status→enriched；新增四问验证记录模板；新增 4 条诊断性问题 |
+| 跨域案例 | `case-ai-agent-milestone-design` | status→enriched；新增 7 类输出物流水线拆解；新增 AI Agent 3 小时拆里程碑 Checklist |
+| 跨域案例 | `case-livestream-sop-modeling` | status→enriched；新增 Before/After 效率对比表；新增直播前热身 SOP 模板 |
+
+**质量门禁**：`total=1190, p0=0, p1=0, clean=1190, yaml_error=0`
+
+**仍存疑/待复核**：
+
+1. 部分 case 卡中的具体数字仍为学员/讲师自述，已标注待独立核实。
+2. `yt-decision-y-model` 等卡片中使用的 `[[id|别名]]` 别名语法已被修复为标准 `[[id]]`，后续若门禁脚本升级需再检查。
 3. `kdo_lint.py` 对 wikilink 和中文 card ID 存在误报，未作为本次验收依据。
