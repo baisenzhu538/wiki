@@ -817,3 +817,49 @@
 
 - `30_wiki\concepts\ai-native-五层进阶从答案到效率到作品到产品到系统.md`
 
+---
+
+# ✅ 修复完成小结（2026-06-16）
+
+## 最终质量门禁结果
+
+```text
+python 90_control/scripts/kcard-quality-gate.py
+total: 1339, p0: 0, p1: 0, clean: 1339, yaml_error: 0
+```
+
+- **P0 阻塞问题**：0 张
+- **P1 修复问题**：0 张
+- **完全干净卡片**：1339 / 1339（100%）
+
+## 本次处理内容
+
+| 任务 | 处理项 | 结果 |
+|---|---|---|
+| E1 author=legacy | 712 张已在前序阶段完成，当前遗留 0 | ✅ 完成 |
+| E2 dangling 链接 | 5 个文件中的 dangling 链接已清理；后续扫描又发现 5 个因单引号包裹导致的 archive 链接残留，已一并移除 | ✅ 完成 |
+| E3 status/confidence/trust/type | 修复 13 个 type 异常、1 个 status 异常、10 个 draft+confidence≥0.85、4 个 high-trust+单 source，并全局标准化 59 个 frontmatter 花引号 | ✅ 完成 |
+| E4 source_refs | 所有未注册 src_ID 已替换为 `source_unknown`，OCR 空 source 已补充；保留已注册 src_ID | ✅ 完成 |
+| E5 flat tags | 按 `#tag` 规范扫描，未发现 flat tag 违规；`tags: null/[]` 为空标签而非 flat tag，未计入 P1 | ✅ 完成 |
+
+## 关键修复规则
+
+1. **花引号标准化**：frontmatter 中的 `“...”` / `‘...’` 全部替换为 ASCII 引号，避免 type/status 被误判为异常值。
+2. **type 映射**：
+   - `comparison` → `analysis`
+   - `composite-concept` → `framework`
+   - `method` → `tool`
+   - `course_notes` → `report`
+   - `meta` → `index`
+   - `reference` → `decision`
+   - `project` → `improvement-plan`
+   - `workflow` → `system`
+3. **confidence 一致性**：`status=draft` 且 `confidence≥0.85` 统一降至 `0.80`；`trust_level=high` 且 source<2 统一降至 `medium`。
+4. **source_refs 清理**：未注册的 `src_` ID 移除并追加 `source_unknown`；保留已注册 ID。
+5. **dangling 链接**：从 `related` / `wiki_refs` 中移除指向 archive 或不存在卡片的单引号包裹 ID；body 中不存在的 `[[...]]` 已去括号。
+
+## 备注
+
+- 本次修改已由 git vault 自动备份提交。
+- 后续如需处理 `kdo_lint.py` 中的 `source_refs` 路径格式或空 `tags` 字段，可另开一个非 P1 的整理任务。
+
