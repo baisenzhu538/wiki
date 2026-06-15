@@ -21,6 +21,7 @@ confidence: 0.7
 related:
 - '[[tool-ai-skill-engineering-guide]]'
 - '[[case-truman-ai-skill-self-packaging]]'
+- '[[case-truman-prd-checklist-evolution]]'
 - '[[dk-modeling-ai-compound-leverage]]'
 - '[[dk-modeling-ai-without-judgment]]'
 - '[[dk-modeling-ai-iterative-prompting]]'

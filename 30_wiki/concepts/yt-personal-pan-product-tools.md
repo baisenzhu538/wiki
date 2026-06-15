@@ -21,6 +21,7 @@ related:
 - '[[yt-model-pan-product-aesthetic-toolkit]]'
 - '[[yt-model-pan-product-execution-toolkit]]'
 - '[[yt-personal-pan-product-concepts]]'
+- '[[case-truman-prd-checklist-evolution]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260510_e6643d52
