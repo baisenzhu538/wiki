@@ -11,6 +11,8 @@ domain:
 source_refs:
 - src_20260616_0e684368
 - src_20260616_5f991553
+- src_20260616_18764078
+- src_20260616_aac184cc
 tags:
 - '#method/evaluation-method'
 - '#method/thinking-tool'
