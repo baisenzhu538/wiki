@@ -2,7 +2,7 @@
 
 **扫描时间**：2026-06-15  
 **扫描范围**：30_wiki 全库 1359 张卡片  
-**P0 阻塞问题卡片**：0 张  
+**P0 阻塞问题卡片**：2 张  
 **P1 修复问题卡片**：773 张  
 **完全干净卡片**：586 张  
 **YAML 解析错误**：0 张  
@@ -11,7 +11,10 @@
 
 ## P0 阻塞问题清单
 
-无 P0 阻塞问题。
+| 文件 | P0 问题 |
+|---|---|
+| `concepts\ocr-一堂提炼过的因果模型.md` | 缺少 id |
+| `concepts\ocr-微信图片_20260507004802_38_32.md` | 缺少 id |
 
 ---
 
@@ -747,7 +750,7 @@
 | `decisions\proposal-yaml-frontmatter-standardization.md` | author=legacy，建议替换为真实作者 |
 | `decisions\three-party-data-alignment.md` | author=legacy，建议替换为真实作者 |
 | `entities\Kimi-月之暗面.md` | dangling 链接: 一堂调研行动营-ai辅助系统式调研方法论 |
-| `entities\紫鲸AI.md` | dangling 链接: 紫鲸AI_智能体工作流平台_深度分析与产品设计, 紫鲸AI智能体工作流平台 |
+| `entities\紫鲸AI.md` | dangling 链接: 紫鲸AI智能体工作流平台, 紫鲸AI_智能体工作流平台_深度分析与产品设计 |
 | `entities\鑫港湾.md` | dangling 链接: 鑫港湾HIS系统分阶段整改报告 |
 | `frameworks\business-formula-to-kdo-card-quality.md` | status=draft 但 confidence=0.88 |
 | `frameworks\concept-maister-trusted-advisor.md` | author=legacy，建议替换为真实作者 |

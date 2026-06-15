@@ -1,6 +1,5 @@
 ---
-
-id: "ocr-一堂提炼过的因果模型"
+d: "ocr-一堂提炼过的因果模型"
 created_at: 2026-05-21
 domain:
   - yitang
