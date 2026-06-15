@@ -23,6 +23,7 @@ related:
 - '[[modeling-three-stages]]'
 - '[[dk-modeling-essence-predictive]]'
 - '[[tool-iceberg-triangle-modeling]]'
+- '[[case-modeling-essence-levels]]'
 tags:
 - '#method/modeling'
 - '#content-format/concept-card'
