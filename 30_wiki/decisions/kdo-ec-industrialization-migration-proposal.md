@@ -5,7 +5,7 @@ domain:
 - kdo
 status: draft
 id: kdo-ec-industrialization-migration-proposal
-author: legacy
+author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
 - source_unknown

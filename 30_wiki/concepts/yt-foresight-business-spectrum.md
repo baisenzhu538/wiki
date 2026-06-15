@@ -1,7 +1,7 @@
 ---
 id: yt-foresight-business-spectrum
 type: framework
-confidence: 0.9
+confidence: 0.8
 created_at: 2026-06-10
 difficulty: intermediate
 domain:

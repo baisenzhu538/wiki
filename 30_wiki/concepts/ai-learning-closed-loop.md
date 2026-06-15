@@ -23,7 +23,7 @@ reviewed_by: null
 pipeline:
 - confidence-draft
 - confidence-source-cited
-author: legacy
+author: unknown
 created_at: 2026-06-15
 confidence: 0.7
 trust_level: low

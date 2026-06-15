@@ -30,7 +30,7 @@ prerequisite_skills: null
 related:
 - '[[sk-ai-ai-workspace-setup]]'
 - '[[course-to-skill-conversion]]'
-author: legacy
+author: 半肥猫
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

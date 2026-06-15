@@ -7,7 +7,7 @@ domain:
 - yitang
 language: zh-CN
 version: 1
-confidence: 0.85
+confidence: 0.7
 source_refs:
 - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt
 related:
@@ -36,7 +36,7 @@ diagnostic_signals:
 - signal: 只在L1-L2任务中使用该协议，复杂任务仍用自然语言
   framework_lens: 协议有适用范围
   follow_up_question: 这个任务是信息整理还是创意策略？
-author: legacy
+author: unknown
 reviewed_by: pending
 trust_level: low
 ---

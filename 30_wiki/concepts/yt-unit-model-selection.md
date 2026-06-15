@@ -28,7 +28,7 @@ related:
 source_refs:
 - src_20260524_9f4e5d6a-一堂-单元模型02口述
 - src_20260524_7c8d9e0f-一堂-单元模型03口述
-status: reviewed
+status: draft
 title: 单元模型选择法：复制哪个算哪个，找到核心经济单元
 trust_level: high
 type: tool

@@ -1,31 +1,30 @@
 ---
-id: "skill-用topdown方式整理内化笔记"
-title: "技能：用Topdown方式整理内化笔记"
+id: skill-用topdown方式整理内化笔记
+title: 技能：用Topdown方式整理内化笔记
 type: skill
 domain:
-  - product
-  - management
-  - yitang
+- product
+- management
+- yitang
 status: draft
-source_person: "一堂"
+source_person: 一堂
 source_context: src_20260609_6809033f
 source_refs:
-  - src_20260609_6809033f
+- src_20260609_6809033f
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "升级后的记录设备"
-  - "文档工具"
-created_at: "2026-06-09T14:40:41+00:00"
-updated_at: "2026-06-09T14:40:41+00:00"
-author: legacy
+- 升级后的记录设备
+- 文档工具
+created_at: '2026-06-09T14:40:41+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：用Topdown方式整理内化笔记
 
 ## 原始表述

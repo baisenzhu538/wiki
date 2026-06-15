@@ -1,30 +1,29 @@
 ---
-id: "skill-现场建模式萃取笔记"
-title: "技能：现场建模式萃取笔记"
+id: skill-现场建模式萃取笔记
+title: 技能：现场建模式萃取笔记
 type: skill
 domain:
-  - product
-  - management
-  - yitang
+- product
+- management
+- yitang
 status: draft
-source_person: "一堂"
+source_person: 一堂
 source_context: src_20260609_6809033f
 source_refs:
-  - src_20260609_6809033f
+- src_20260609_6809033f
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "快速记录工具"
-created_at: "2026-06-09T14:40:41+00:00"
-updated_at: "2026-06-09T14:40:41+00:00"
-author: legacy
+- 快速记录工具
+created_at: '2026-06-09T14:40:41+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：现场建模式萃取笔记
 
 ## 原始表述

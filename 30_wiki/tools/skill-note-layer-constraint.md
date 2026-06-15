@@ -25,7 +25,7 @@ tags:
 - '#content-format/checklist'
 - '#scene/note-taking/live-field'
 - '#scene/skill-engineering/publish-deploy'
-author: legacy
+author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 trust_level: low

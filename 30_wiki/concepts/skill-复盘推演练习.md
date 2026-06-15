@@ -1,32 +1,31 @@
 ---
-id: "skill-复盘推演练习"
-title: "技能：复盘推演练习"
+id: skill-复盘推演练习
+title: 技能：复盘推演练习
 type: skill
 domain:
-  - kdo
-  - decision-making
-  - yitang
+- kdo
+- decision-making
+- yitang
 status: draft
-source_person: "一堂课程"
+source_person: 一堂课程
 source_context: src_20260522_dee56cff
 source_refs:
-  - src_20260522_dee56cff
+- src_20260522_dee56cff
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "复盘模板"
-  - "推演沙盘"
-  - "角色卡片"
-created_at: "2026-06-09T15:59:56+00:00"
-updated_at: "2026-06-09T15:59:56+00:00"
-author: legacy
+- 复盘模板
+- 推演沙盘
+- 角色卡片
+created_at: '2026-06-09T15:59:56+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：复盘推演练习
 
 ## 原始表述

@@ -1,24 +1,23 @@
 ---
-id: "aigc设计基础01ai生图原理与提示词基本功"
+id: aigc设计基础01ai生图原理与提示词基本功
 created_at: 2026-05-28
 domain:
-  - ai-saas
-  - design
+- ai-saas
+- design
 source_refs:
-  - src_20260528_2ba8539f
+- src_20260528_2ba8539f
 status: draft
-title: "AIGC设计基础01：AI生图原理与提示词基本功"
+title: AIGC设计基础01：AI生图原理与提示词基本功
 type: concept
-updated_at: 2026-06-12
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
+- confidence-draft
+- confidence-source-cited
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # AIGC设计基础01：AI生图原理与提示词基本功
 
 > 月白（一堂AI俱乐部线上Live · 2026年）分享。从AI生图技术演进到提示词基本功，面向零基础设计师和生产者的入门课。

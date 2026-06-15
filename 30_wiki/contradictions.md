@@ -7,7 +7,7 @@ domain:
 - master
 source_refs:
 - source_unknown
-author: legacy
+author: system
 reviewed_by: pending
 confidence: 0.5
 trust_level: low

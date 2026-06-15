@@ -26,7 +26,7 @@ tools_required:
 prerequisite_skills: null
 related:
 - '[[sk-ai-landing-five-steps]]'
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

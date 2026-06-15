@@ -12,7 +12,7 @@ source_refs:
 related:
 - '[[yt-decision-height-toolkit]]'
 created_at: '2026-06-09'
-author: legacy
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

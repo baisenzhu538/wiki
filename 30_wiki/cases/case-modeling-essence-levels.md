@@ -18,7 +18,7 @@ source_person: Truman
 source_context: Truman-高阶建模-本质建模-案例-01
 reviewed_by: pending
 review_date: 2026-06-15
-confidence: 0.85
+confidence: 0.8
 trust_level: high
 related:
 - - - modeling-three-stages

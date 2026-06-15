@@ -72,7 +72,7 @@ diagnostic_signals:
   framework_lens: 传达闭环 / 组织对齐
   follow_up_question: 战略会成果是否只停留在参会者脑中？
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 ---
 # 战略研讨会引导手册

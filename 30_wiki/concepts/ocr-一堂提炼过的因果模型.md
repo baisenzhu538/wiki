@@ -1,20 +1,20 @@
 ---
-id: "ocr-一堂提炼过的因果模型"
+id: ocr-一堂提炼过的因果模型
 created_at: 2026-05-21
 domain:
-  - yitang
+- yitang
 source_refs:
+- source_unknown
 status: draft
-title: "OCR: 一堂提炼过的因果模型"
+title: 'OCR: 一堂提炼过的因果模型'
 type: concept
-updated_at: 2026-05-22
-pipeline:
+updated_at: '2026-06-16'
+pipeline: null
 author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # OCR: 一堂提炼过的因果模型
 
 ## Summary

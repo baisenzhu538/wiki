@@ -13,7 +13,7 @@ diagnostic_signals:
   framework_lens: 顺序错误
   follow_up_question: 你的笔记有没有一个固定套路？如果没有，先建套路再谈非舒适区
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.75

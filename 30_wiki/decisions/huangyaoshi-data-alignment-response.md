@@ -18,7 +18,7 @@ related:
 - '[[three-party-data-alignment]]'
 - '[[ouyangfeng-data-alignment-response]]'
 - '[[plan_20260531_data-curator-v1.3]]'
-author: legacy
+author: unknown
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:

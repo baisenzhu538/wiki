@@ -7,7 +7,7 @@ source_refs:
 - src_20260613_a8bcfd38
 - src_20260613_6b939d2b
 status: draft
-confidence: 0.88
+confidence: 0.8
 domain:
 - kdo
 - yitang

@@ -28,7 +28,7 @@ related:
 source_refs:
 - 00_inbox/ideas/一堂-创业必修-调研武器库.md
 - 00_inbox/ideas/一堂-创业必修-调研行动营.md
-status: reviewed
+status: draft
 title: 行业分析画布：五维快速扫描+二维定位
 trust_level: medium
 type: tool

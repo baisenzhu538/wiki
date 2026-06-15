@@ -5,7 +5,7 @@ type: skill
 domain:
 - marketing
 status: draft
-author: legacy
+author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6

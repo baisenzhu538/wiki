@@ -7,7 +7,7 @@ domain:
 - yitang
 language: zh-CN
 version: 1
-confidence: 0.85
+confidence: 0.7
 source_refs:
 - 00_inbox/ideas/一堂-创业必修-需求分析.md
 related:
@@ -36,7 +36,7 @@ diagnostic_signals:
 - signal: 访谈后能写出清晰的 Jobs Statement
   framework_lens: JTBD的输出是任务陈述
   follow_up_question: 你能用‘当我想要____，以便____’描述用户任务吗？
-author: legacy
+author: unknown
 reviewed_by: pending
 trust_level: low
 ---

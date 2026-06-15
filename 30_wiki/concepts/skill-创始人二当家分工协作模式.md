@@ -1,28 +1,27 @@
 ---
-id: "skill-创始人二当家分工协作模式"
-title: "技能：创始人+二当家分工协作模式"
+id: skill-创始人二当家分工协作模式
+title: 技能：创始人+二当家分工协作模式
 type: skill
 domain:
-  - management
+- management
 status: draft
-source_person: "案例讲述者"
+source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
 source_refs:
-  - src_20260609_4ea1fba2
+- src_20260609_4ea1fba2
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "明确的角色分工定义"
-created_at: "2026-06-09T15:07:29+00:00"
-updated_at: "2026-06-09T15:07:29+00:00"
-author: legacy
+- 明确的角色分工定义
+created_at: '2026-06-09T15:07:29+00:00'
+updated_at: '2026-06-16'
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：创始人+二当家分工协作模式
 
 ## 原始表述

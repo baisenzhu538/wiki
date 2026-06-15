@@ -1,30 +1,29 @@
 ---
-id: "skill-动手建模提炼"
-title: "技能：动手建模提炼"
+id: skill-动手建模提炼
+title: 技能：动手建模提炼
 type: skill
 domain:
-  - yitang
+- yitang
 status: draft
-source_person: "一堂课程"
+source_person: 一堂课程
 source_context: src_20260522_dee56cff
 source_refs:
-  - src_20260522_dee56cff
+- src_20260522_dee56cff
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "框架模板"
-  - "MECE原则"
-  - "流程图工具"
-created_at: "2026-06-09T15:59:56+00:00"
-updated_at: "2026-06-09T15:59:56+00:00"
-author: legacy
+- 框架模板
+- MECE原则
+- 流程图工具
+created_at: '2026-06-09T15:59:56+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：动手建模提炼
 
 ## 原始表述

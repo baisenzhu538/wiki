@@ -27,7 +27,7 @@ related:
 source_refs:
 - src_20260524_6b5a4c3d-一堂-单元模型04口述
 - src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述
-status: reviewed
+status: draft
 title: 动态单元模型：规模变量、拐点预判与规模经济对抗
 trust_level: high
 type: tool

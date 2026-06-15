@@ -1,33 +1,32 @@
 ---
-id: "skill-封装可复用skill"
-title: "技能：封装可复用Skill"
+id: skill-封装可复用skill
+title: 技能：封装可复用Skill
 type: skill
 domain:
-  - ai-saas
-  - management
-  - kdo
-  - yitang
+- ai-saas
+- management
+- kdo
+- yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
 source_refs:
-  - src_20260609_03491271
+- src_20260609_03491271
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "GPTs/Claude Projects/自定义指令"
-  - "Prompt管理工具"
-  - "内部知识库"
-created_at: "2026-06-09T14:38:36+00:00"
-updated_at: "2026-06-09T14:38:36+00:00"
-author: legacy
+- GPTs/Claude Projects/自定义指令
+- Prompt管理工具
+- 内部知识库
+created_at: '2026-06-09T14:38:36+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：封装可复用Skill
 
 ## 原始表述

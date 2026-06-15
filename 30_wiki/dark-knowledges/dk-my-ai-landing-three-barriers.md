@@ -1,19 +1,19 @@
 ---
-id: "dk-my-ai-landing-three-barriers"
-title: "AI落地三大壁垒：从“会用”到“用好”的黑洞"
-type: "dark-knowledge"
-status: "draft"
+id: dk-my-ai-landing-three-barriers
+title: AI落地三大壁垒：从“会用”到“用好”的黑洞
+type: dark-knowledge
+status: draft
 domain:
-  - "ai-saas"
+- ai-saas
 source_refs:
-  - "00_inbox/AI俱乐部/马易-2026年-AI实操落地工具籍和案例分享（第六期AI共创社）.md"
-created_at: "2026-06-09"
-author: "legacy"
-reviewed_by: "pending"
+- 00_inbox/AI俱乐部/马易-2026年-AI实操落地工具籍和案例分享（第六期AI共创社）.md
+created_at: '2026-06-09'
+author: unknown
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
+updated_at: '2026-06-16'
 ---
-
 # AI落地三大壁垒
 
 > 马易在AI共创社分享中提出：AI工具从“会用”到“用好”之间存在三大壁垒，大多数人卡在第一层。

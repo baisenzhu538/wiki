@@ -8,7 +8,7 @@ superseded_by: 30_wiki/concepts/kimi-深度调研集群方法论-deep-research-s
 title: Kimi 深度调研集群方法论 (Deep-Research-Swarm)
 type: concept
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low

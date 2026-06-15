@@ -1,25 +1,24 @@
 ---
-id: "aigc文创案例设计课leo文创ip从0到1全流程"
+id: aigc文创案例设计课leo文创ip从0到1全流程
 created_at: 2026-05-28
 domain:
-  - ai-saas
-  - design
+- ai-saas
+- design
 source_refs:
-  - src_20260528_4277c6be
+- src_20260528_4277c6be
 status: draft
-title: "AIGC文创案例设计课：Leo文创IP从0到1全流程"
+title: AIGC文创案例设计课：Leo文创IP从0到1全流程
 type: concept
-updated_at: 2026-06-12
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-  - confidence-verified-by-case
-author: legacy
+- confidence-draft
+- confidence-source-cited
+- confidence-verified-by-case
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # AIGC文创案例设计课：Leo文创IP从0到1全流程
 
 > 月白（一堂AI俱乐部线上Live · 2026年）第三期分享。完整演示"Leo文创小人"从概念→棉花娃娃→表情包→电商→联名全流程。是前两期方法论的综合落地案例。

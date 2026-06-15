@@ -31,7 +31,7 @@ status: draft
 pipeline:
 - confidence-draft
 - confidence-source-cited
-author: legacy
+author: unknown
 trust_level: low
 title: concept ai native organization five steps
 updated_at: '2026-06-16'

@@ -16,7 +16,7 @@ related: []
 pipeline:
 - confidence-draft
 - confidence-source-cited
-author: legacy
+author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

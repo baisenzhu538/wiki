@@ -3,7 +3,7 @@ id: yt-note-p-c-role-boundary-realworld
 title: P/C 角色真实场景边界与切换条件（基于聊天记录案例）
 domain:
 - yitang
-author: legacy
+author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.75

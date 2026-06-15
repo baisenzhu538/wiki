@@ -21,7 +21,7 @@ type: “framework”
 updated_at: '2026-06-16'
 pipeline:
 - confidence-source-cited
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium

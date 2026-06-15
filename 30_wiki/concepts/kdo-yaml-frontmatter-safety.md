@@ -15,7 +15,7 @@ related:
 - '[[gold-standard-manual-labels]]'
 pipeline:
 - confidence-draft
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

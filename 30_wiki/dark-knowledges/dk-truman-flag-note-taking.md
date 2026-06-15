@@ -8,7 +8,7 @@ domain:
 - personal-growth
 language: zh-CN
 version: 1
-confidence: 0.85
+confidence: 0.7
 source_refs:
 - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-02.txt
 related:
@@ -35,7 +35,7 @@ tags:
 created_at: '2026-06-10'
 updated_at: '2026-06-16'
 estimated_tokens: 4200
-author: legacy
+author: 老顽童
 reviewed_by: pending
 trust_level: low
 ---

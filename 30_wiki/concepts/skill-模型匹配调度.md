@@ -1,30 +1,29 @@
 ---
-id: "skill-模型匹配调度"
-title: "技能：模型匹配调度"
+id: skill-模型匹配调度
+title: 技能：模型匹配调度
 type: skill
 domain:
-  - yitang
+- yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
 source_refs:
-  - src_20260609_03491271
+- src_20260609_03491271
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "模型路由层/网关"
-  - "负载均衡器"
-  - "多模型API密钥"
-created_at: "2026-06-09T14:38:36+00:00"
-updated_at: "2026-06-09T14:38:36+00:00"
-author: legacy
+- 模型路由层/网关
+- 负载均衡器
+- 多模型API密钥
+created_at: '2026-06-09T14:38:36+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：模型匹配调度
 
 ## 原始表述

@@ -36,7 +36,7 @@ updated_at: '2026-06-16'
 related:
 - '[[case-纪浩-skills-market]]'
 - - - yt-note-ai-human-division
-author: legacy
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

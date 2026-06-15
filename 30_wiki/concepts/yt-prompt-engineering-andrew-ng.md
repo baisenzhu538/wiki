@@ -1,6 +1,6 @@
 ---
 id: yt-prompt-engineering-andrew-ng
-confidence: 0.9
+confidence: 0.8
 created_at: 2026-05-13
 difficulty: intermediate
 domain:

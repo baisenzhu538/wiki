@@ -9,7 +9,7 @@ domain:
 language: zh-CN
 version: 1
 difficulty: beginner
-confidence: 0.85
+confidence: 0.7
 related:
 - '[[yt-note-checklist-concept]]'
 - '[[skill-note-layer-constraint]]'
@@ -24,7 +24,7 @@ tags:
 - '#content-format/checklist'
 - '#scene/product-design/design-freeze'
 - '#scene/skill-engineering'
-author: legacy
+author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 trust_level: low

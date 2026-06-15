@@ -1,24 +1,24 @@
 ---
 id: pilot-atomic-chunk-comparison
-title: "Pilot：master-decision-hygiene 真原子切分对比"
+title: Pilot：master-decision-hygiene 真原子切分对比
 type: comparison
 domain:
-  - ai-saas
-  - decision-making
-  - master
+- ai-saas
+- decision-making
+- master
 status: draft
 created_at: 2026-05-31
 source_refs:
-  - 30_wiki/concepts/master-decision-hygiene.md
+- 30_wiki/concepts/master-decision-hygiene.md
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
+- confidence-draft
+- confidence-source-cited
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
+updated_at: '2026-06-16'
 ---
-
 # Pilot：master-decision-hygiene 真原子切分对比
 
 ## 素材：Section "三、核心模型：五步法"（原文 ~2200 字）

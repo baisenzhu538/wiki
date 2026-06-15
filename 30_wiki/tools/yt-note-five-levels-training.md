@@ -9,7 +9,7 @@ domain:
 language: zh-CN
 version: 1
 difficulty: intermediate
-confidence: 0.88
+confidence: 0.7
 related:
 - '[[yt-note-checklist-concept]]'
 - '[[yt-note-ai-human-division]]'
@@ -42,7 +42,7 @@ tags:
 created_at: '2026-06-07'
 updated_at: '2026-06-16'
 estimated_tokens: 4200
-author: legacy
+author: unknown
 reviewed_by: pending
 trust_level: low
 ---

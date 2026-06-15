@@ -14,7 +14,7 @@ diagnostic_signals:
   framework_lens: 信息时效 / 单点真相
   follow_up_question: 是否有人仍在引用本 redirect 卡的旧内容做决策？
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium

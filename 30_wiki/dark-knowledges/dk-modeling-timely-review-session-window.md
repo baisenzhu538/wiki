@@ -25,9 +25,9 @@ tags:
 - '#method/retrospective'
 - '#method/modeling'
 trust_level: high
-reviewed_by: 老顽童
+reviewed_by: pending
 review_date: '2026-06-14'
-author: legacy
+author: 老顽童
 confidence: 0.7
 ---
 # 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内

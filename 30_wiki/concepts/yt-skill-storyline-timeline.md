@@ -17,7 +17,7 @@ diagnostic_signals:
   framework_lens: 学习性 / 反直觉发现
   follow_up_question: 如果时间线只验证已知结论，是否还有隐藏节点未发现？
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.75

@@ -1,32 +1,31 @@
 ---
-id: "skill-反向记录整理思路"
-title: "技能：反向记录整理思路"
+id: skill-反向记录整理思路
+title: 技能：反向记录整理思路
 type: skill
 domain:
-  - product
-  - ai-saas
-  - management
-  - yitang
+- product
+- ai-saas
+- management
+- yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
 source_refs:
-  - src_20260609_03491271
+- src_20260609_03491271
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "语音输入+LLM"
-  - "实时转录工具"
-created_at: "2026-06-09T14:38:36+00:00"
-updated_at: "2026-06-09T14:38:36+00:00"
-author: legacy
+- 语音输入+LLM
+- 实时转录工具
+created_at: '2026-06-09T14:38:36+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：反向记录整理思路
 
 ## 原始表述

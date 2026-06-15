@@ -26,7 +26,7 @@ prerequisite_skills:
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 reviewed_by: laowantong
-author: legacy
+author: unknown
 confidence: 0.7
 trust_level: low
 ---

@@ -8,7 +8,7 @@ created_at: '2026-04-30T17:58:15+00:00'
 feedback_count: 19
 artifact_count: 7
 id: plan_20260501_47264869-improvement-plan
-author: legacy
+author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260501_58b6edef）
 source_refs:
 - src_20260501_58b6edef

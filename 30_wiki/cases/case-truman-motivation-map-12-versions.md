@@ -13,7 +13,7 @@ source_refs:
 related:
 - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
 created_at: '2026-06-09'
-author: legacy
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

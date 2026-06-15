@@ -14,7 +14,7 @@ source_refs:
 - src_20260614_d0539c25
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
-confidence: 0.85
+confidence: 0.8
 trust_level: high
 related:
 - '[[modeling-capability-for-kdo]]'
@@ -26,9 +26,9 @@ tags:
 - '#domain/yitang'
 - '#method/essence-modeling'
 - '#method/decision-quality'
-reviewed_by: 老顽童
+reviewed_by: pending
 review_date: '2026-06-14'
-author: legacy
+author: 老顽童
 ---
 # “解释性本质”是高级鸡汤：真正值钱的本质必须能指导下一次真实决策
 

@@ -14,7 +14,7 @@ source_refs:
 - src_20260614_42f1e977
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
-confidence: 0.85
+confidence: 0.8
 trust_level: high
 related:
 - '[[modeling-capability-for-kdo]]'
@@ -27,9 +27,9 @@ tags:
 - '#domain/yitang'
 - '#method/model-validation'
 - '#method/critical-thinking'
-reviewed_by: 老顽童
+reviewed_by: pending
 review_date: '2026-06-14'
-author: legacy
+author: 老顽童
 ---
 # 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
 

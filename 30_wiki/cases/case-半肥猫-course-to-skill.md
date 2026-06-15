@@ -37,7 +37,7 @@ related:
 - '[[case-纪浩-skills-market]]'
 - '[[case-truman-ai-partner]]'
 - '[[case-纪浩-focus-prompt-design]]'
-author: legacy
+author: 半肥猫
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

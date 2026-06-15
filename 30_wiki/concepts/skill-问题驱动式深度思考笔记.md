@@ -8,7 +8,7 @@ domain:
 - personal-growth
 language: zh-CN
 version: 1
-confidence: 0.86
+confidence: 0.7
 source_refs:
 - 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
 related:
@@ -30,7 +30,7 @@ estimated_tokens: 4800
 pipeline:
 - confidence-draft
 - confidence-source-cited
-author: legacy
+author: unknown
 reviewed_by: pending
 trust_level: low
 ---

@@ -28,7 +28,7 @@ prerequisite_skills: null
 related:
 - '[[sk-ai-problem-validation]]'
 - '[[prd-as-ai-instruction]]'
-author: legacy
+author: 半肥猫
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

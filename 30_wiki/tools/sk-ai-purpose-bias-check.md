@@ -24,7 +24,7 @@ tools_required:
 - 笔记本和笔
 prerequisite_skills: null
 related: []
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

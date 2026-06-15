@@ -1245,3 +1245,54 @@ total: 1359, p0: 0, p1: 773, clean: 586, yaml_error: 0
 
 欧阳锋
 2026-06-16
+
+---
+
+## 角色回归：黄药师回归基础设施 / 工厂建设者
+
+> **2026-06-16 明确**：之前任务编排把部分内容修复类任务派给了黄药师，造成角色混淆。现纠正：
+> - **黄药师** = Builder / 工厂建设者 / 基础设施负责人
+> - **老顽童** = Producer / 主力内容生产 + 内容问题修复
+> - 内容判断类任务（author、source、domain、status/confidence、标签语义）**不再派给黄药师**
+
+### 黄药师当前职责
+
+1. **KDO CLI / 工具链**：`kdo scaffold`、`kdo validate`、`kdo enrich`、`kdo graph`、`kdo query` 等命令的迭代
+2. **schema / 模板 / 工厂**：frontmatter schema、卡片模板、scaffold 骨架、lint 规则
+3. **自动化检测器**：自迭代检测器、健康报告、索引更新
+4. **基础设施目录**：`templates.py`、`90_control/schemas/`、`90_control/scripts/`
+5. **为老顽童提供工具支持**：她修内容时需要的脚本、查询、批量辅助工具
+
+### 内容修复任务移交
+
+以下任务从黄药师移交给老顽童：
+
+| 任务 | 移交原因 |
+|:-----|:---------|
+| `author=legacy` 批量治理 | 需要内容作者判断真实 author |
+| dangling 链接清理 | 需要内容判断：stub / 修正 / 删除 |
+| status/confidence/trust 不一致 | 需要内容判断 |
+| source_refs 为空 / source_unknown 认领 | 需要熟悉 source 材料 |
+| 标签 flat tags 人工判断 | 需要内容作者判断语义 |
+
+### 黄药师下一步可承接的基础设施任务（按优先级）
+
+**P0**：
+- 为王语嫣配置 Bing Search API 支持（基础设施层面：环境变量、profile 配置、简单封装）
+
+**P1**：
+- `kdo scaffold --new` 继续完善（老顽童是主要用户，按她的反馈迭代）
+- 出链门禁工具化：为老顽童提供"检查 Synthesis 出链数 / 跨域链接"的 lint/validate 规则
+- Queries 沉淀：`30_wiki/queries` 目录 + `kdo query --save` 命令
+
+**P2**：
+- 健康报告问题批量清理的**工具支持**：给老顽童写辅助脚本，但判断和执行由她做
+- domain-tags 一致性检查的 lint 规则（等老顽童补完 domain 后再上线）
+
+### 严禁
+
+- ❌ 黄药师不再直接修改卡片内容（除测试卡、自己的 bug 修复、基础设施必要字段）
+- ❌ 黄药师不做 author/source/domain 等内容判断
+- ❌ 批量脚本修改卡片前，必须先给老顽童/欧阳锋确认方案
+
+---

@@ -1,20 +1,20 @@
 ---
-id: "dk-ai-judgment-human-responsibility"
-title: "人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果"
-type: "dark-knowledge"
-status: "draft"
+id: dk-ai-judgment-human-responsibility
+title: 人做判断AI做生产：核心不是会不会用AI，而是敢不敢点这个头承担后果
+type: dark-knowledge
+status: draft
 domain:
-  - "ai-saas"
-  - "yitang"
+- ai-saas
+- yitang
 source_refs:
-  - "00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt"
-created_at: "2026-06-09"
-author: "legacy"
-reviewed_by: "pending"
+- 00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt
+created_at: '2026-06-09'
+author: unknown
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
+updated_at: '2026-06-16'
 ---
-
 # 人做判断AI做生产：核心不是会不会用AI
 
 > 一堂CTO国帅在AI时代判断力课上提出：**“我们到底能不能点这个头？我们到底能不能点这个头承担这个后果？”** 这是AI协作中唯一不可替代的人类职责。

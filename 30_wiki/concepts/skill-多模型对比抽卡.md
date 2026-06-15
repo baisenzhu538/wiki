@@ -1,32 +1,31 @@
 ---
-id: "skill-多模型对比抽卡"
-title: "技能：多模型对比抽卡"
+id: skill-多模型对比抽卡
+title: 技能：多模型对比抽卡
 type: skill
 domain:
-  - product
-  - ai-saas
-  - decision-making
-  - yitang
+- product
+- ai-saas
+- decision-making
+- yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
 source_refs:
-  - src_20260609_03491271
+- src_20260609_03491271
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "多个LLM API（GPT/Claude/Gemini等）"
-  - "聚合平台如Poe/ChatHub"
-created_at: "2026-06-09T14:38:36+00:00"
-updated_at: "2026-06-09T14:38:36+00:00"
-author: legacy
+- 多个LLM API（GPT/Claude/Gemini等）
+- 聚合平台如Poe/ChatHub
+created_at: '2026-06-09T14:38:36+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：多模型对比抽卡
 
 ## 原始表述

@@ -22,7 +22,7 @@ source_person: Truman
 source_context: 一堂建模能力培训口述稿中高阶 Skill 工程指南的完整产出过程
 reviewed_by: pending
 review_date: '2026-06-15'
-confidence: 0.85
+confidence: 0.8
 trust_level: high
 related:
 - '[[modeling-three-stages]]'

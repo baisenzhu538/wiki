@@ -1,26 +1,25 @@
 ---
 id: data-labeling-best-practices-report
-title: "数据标注最佳实践调研报告"
+title: 数据标注最佳实践调研报告
 type: concept
 status: draft
 domain:
-  - master
+- master
 source_refs:
-  - "HILTS框架（ScienceDirect, 2026）"
-  - "NVIDIA分块策略基准（2025）"
-  - "KGC 2022 Taxonomy Design Tutorial"
-  - "Gruber本体设计五原则"
+- HILTS框架（ScienceDirect, 2026）
+- NVIDIA分块策略基准（2025）
+- KGC 2022 Taxonomy Design Tutorial
+- Gruber本体设计五原则
 created_at: 2026-05-31
-updated_at: 2026-05-31
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
+- confidence-draft
+- confidence-source-cited
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 数据标注最佳实践调研报告
 
 > 调研目的：为 KDO 的标签体系设计提供行业基准。回答四个问题——标签应该怎么设计？AI 自动标注怎么做？质量怎么控？KDO 当前方案跟行业最佳实践有多大差距？

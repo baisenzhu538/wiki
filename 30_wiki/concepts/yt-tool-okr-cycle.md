@@ -70,7 +70,7 @@ diagnostic_signals:
   framework_lens: 信任建立 / 激励兼容
   follow_up_question: OKR 是否变成变相 KPI？
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 ---
 # OKR 制定与复盘罗盘

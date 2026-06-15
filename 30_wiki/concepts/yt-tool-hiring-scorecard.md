@@ -64,7 +64,7 @@ diagnostic_signals:
 - signal: 候选人面试分数很高，但入职后表现一般
   framework_lens: 面试场景与真实工作场景脱节——打分卡测的是面试表现，不是工作表现
   follow_up_question: 打分卡里的维度能不能对应到该岗位3个月后的真实产出？
-author: legacy
+author: unknown
 reviewed_by: pending
 ---
 # 结构化面试打分卡

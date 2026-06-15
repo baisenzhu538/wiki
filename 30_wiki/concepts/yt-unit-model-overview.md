@@ -5,7 +5,7 @@ type: framework
 domain:
 - entrepreneur
 - master
-status: reviewed
+status: draft
 source_refs:
 - src_20260524_8a3b1c2d-一堂-单元模型01口述
 - src_20260524_9f4e5d6a-一堂-单元模型02口述

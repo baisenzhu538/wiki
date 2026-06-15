@@ -21,7 +21,7 @@ created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
 - confidence-draft
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: medium-low

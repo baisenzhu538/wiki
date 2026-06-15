@@ -16,7 +16,7 @@ updated_at: '2026-06-16'
 version: 1
 supersedes: null
 related: []
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low

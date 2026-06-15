@@ -1,31 +1,30 @@
 ---
-id: "skill-思维链显化推理"
-title: "技能：思维链显化推理"
+id: skill-思维链显化推理
+title: 技能：思维链显化推理
 type: skill
 domain:
-  - ai-saas
-  - decision-making
-  - yitang
+- ai-saas
+- decision-making
+- yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
 source_refs:
-  - src_20260609_03491271
+- src_20260609_03491271
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "支持CoT的LLM"
-  - "提示词模板"
-created_at: "2026-06-09T14:38:36+00:00"
-updated_at: "2026-06-09T14:38:36+00:00"
-author: legacy
+- 支持CoT的LLM
+- 提示词模板
+created_at: '2026-06-09T14:38:36+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：思维链显化推理
 
 ## 原始表述

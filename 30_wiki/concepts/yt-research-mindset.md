@@ -7,7 +7,7 @@ domain:
 - yitang
 language: zh-CN
 version: 1
-confidence: 0.85
+confidence: 0.7
 source_refs:
 - 00_inbox/ideas/一堂-创业必修-调研武器库.md
 related:
@@ -37,7 +37,7 @@ diagnostic_signals:
 - signal: 会为调研设定‘够用就停’的阈值，而不是无限收集
   framework_lens: 决策效率
   follow_up_question: 多少信息足以支撑下一步行动？
-author: legacy
+author: unknown
 reviewed_by: pending
 trust_level: low
 ---

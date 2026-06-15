@@ -19,7 +19,7 @@ pipeline:
 - confidence-draft
 - confidence-source-cited
 - confidence-verified-by-case
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

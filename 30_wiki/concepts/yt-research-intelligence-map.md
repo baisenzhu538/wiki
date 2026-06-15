@@ -24,7 +24,7 @@ related:
 - '[[yt-research-mindset]]'
 source_refs:
 - 00_inbox/ideas/一堂-创业必修-调研武器库.md
-status: reviewed
+status: draft
 title: 情报获取全景地图：13+渠道穷尽手段
 trust_level: medium
 type: framework

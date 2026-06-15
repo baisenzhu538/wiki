@@ -28,7 +28,7 @@ prerequisite_skills: null
 related:
 - '[[structured-ai-workspace]]'
 - '[[sk-ai-problem-validation]]'
-author: legacy
+author: 纪浩
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

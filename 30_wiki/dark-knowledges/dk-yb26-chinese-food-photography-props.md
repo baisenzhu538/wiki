@@ -1,30 +1,26 @@
 ---
 id: dk-yb26-chinese-food-photography-props
-title: "中式食物摄影低成本氛围道具搭配"
+title: 中式食物摄影低成本氛围道具搭配
 type: dark-knowledge
 dark_knowledge_type: workflow
 status: draft
 domain:
-  - design
-source_person: "月白"
-source_context: "口述稿: AI设计-AI设计师实操培训01"
+- design
+source_person: 月白
+source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
-  - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
+- 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
-updated_at: 2026-06-04
-related:
-  - dk-yb17-product-lifestyle-photography
-  - dk-yb19-visual-strategy-price-match
-related: 
+updated_at: '2026-06-16'
+related: null
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
+- confidence-draft
+- confidence-source-cited
+author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 中式食物摄影低成本氛围道具搭配
 
 ## 原始表述

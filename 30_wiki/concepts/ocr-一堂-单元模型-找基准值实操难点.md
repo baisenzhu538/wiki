@@ -1,23 +1,22 @@
 ---
-title: "OCR: 一堂-单元模型-找基准值实操难点"
+title: 'OCR: 一堂-单元模型-找基准值实操难点'
 type: concept
 domain:
-  - management
-  - needs-review
-  - decision-making
-  - yitang
+- management
+- needs-review
+- decision-making
+- yitang
 status: draft
 source_refs:
-  - src_20260609_e79bff0e
-created_at: "2026-06-09T14:05:28+00:00"
-updated_at: 2026-06-13
-id: "ocr-一堂-单元模型-找基准值实操难点"
-author: legacy
+- src_20260609_e79bff0e
+created_at: '2026-06-09T14:05:28+00:00'
+updated_at: '2026-06-16'
+id: ocr-一堂-单元模型-找基准值实操难点
+author: 老顽童
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
 ---
-
 # OCR: 一堂-单元模型-找基准值实操难点
 
 ## Summary

@@ -1,32 +1,31 @@
 ---
-id: "skill-按月份摊销收入成本做计划"
-title: "技能：按月份摊销收入成本做计划"
+id: skill-按月份摊销收入成本做计划
+title: 技能：按月份摊销收入成本做计划
 type: skill
 domain:
-  - finance-legal
-  - decision-making
-  - yitang
-  - business-strategy
+- finance-legal
+- decision-making
+- yitang
+- business-strategy
 status: draft
-source_person: "一堂课程（未具名讲师）"
+source_person: 一堂课程（未具名讲师）
 source_context: src_20260609_99032bf9
 source_refs:
-  - src_20260609_99032bf9
+- src_20260609_99032bf9
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "电子表格（Excel/Sheets）"
-  - "财务软件"
-created_at: "2026-06-09T15:04:59+00:00"
-updated_at: "2026-06-09T15:04:59+00:00"
-author: legacy
+- 电子表格（Excel/Sheets）
+- 财务软件
+created_at: '2026-06-09T15:04:59+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：按月份摊销收入成本做计划
 
 ## 原始表述

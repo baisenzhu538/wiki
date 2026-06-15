@@ -61,7 +61,7 @@ diagnostic_signals:
   framework_lens: 激励机制 / 人力因素
   follow_up_question: 专家是否因担心价值被替代而隐藏关键判断？
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 ---
 # 团队知识萃取器

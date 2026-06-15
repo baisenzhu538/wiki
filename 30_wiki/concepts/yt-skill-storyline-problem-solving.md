@@ -17,7 +17,7 @@ diagnostic_signals:
   framework_lens: 行动阈值 / 成本权衡
   follow_up_question: 问题解决线是否变成'为写诊断而工作'的文档表演？
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.75

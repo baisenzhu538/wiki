@@ -1,23 +1,22 @@
 ---
-id: "case-jh-yitang-vs-sqlhelper"
-title: "一堂数据库vs SQLHelper：同样的需求，两种产品策略——专业与通用的产品分岐"
-type: "case"
-status: "draft"
+id: case-jh-yitang-vs-sqlhelper
+title: 一堂数据库vs SQLHelper：同样的需求，两种产品策略——专业与通用的产品分岐
+type: case
+status: draft
 domain:
-  - "ai-saas"
-source_person: "纪浩"
-source_context: "AI实操落地工具籍和案例分享（第六期AI共创社）"
+- ai-saas
+source_person: 纪浩
+source_context: AI实操落地工具籍和案例分享（第六期AI共创社）
 source_refs:
-  - "00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt"
-  - "00_inbox/AI俱乐部-AI协作方法论-纪浩-笔记.txt"
-created_at: "2026-06-09"
-updated_at: "2026-06-10"
-author: "legacy"
-reviewed_by: "pending"
+- 00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt
+- 00_inbox/AI俱乐部-AI协作方法论-纪浩-笔记.txt
+created_at: '2026-06-09'
+updated_at: '2026-06-16'
+author: 纪浩
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 一堂数据库vs SQLHelper
 
 > 纪浩在AI共创社分享中对比了两个产品：一堂的数据库和SQLHelper。同样是解决数据库问题，但两种完全不同的产品策略——一个深度服务内部场景，一个面向广大开发者通用化。

@@ -2,7 +2,7 @@
 id: yt-model-personal-pitch-toolkit
 component_of:
 - yt-model-personal-map
-confidence: 0.9
+confidence: 0.8
 created_at: 2026-05-13
 difficulty: intermediate
 domain:

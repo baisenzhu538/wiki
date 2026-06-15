@@ -14,7 +14,7 @@ source_refs:
 - src_20260614_42f1e977
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
-confidence: 0.85
+confidence: 0.8
 trust_level: high
 related:
 - '[[modeling-capability-for-kdo]]'
@@ -27,9 +27,9 @@ tags:
 - '#domain/ai-saas'
 - '#method/ai-collaboration'
 - '#method/logical-rigor'
-reviewed_by: 老顽童
+reviewed_by: pending
 review_date: '2026-06-14'
-author: legacy
+author: 老顽童
 ---
 # AI 能生成“看着很厉害”的模型，但如果你没有逻辑洁癖，它只会加速你跑偏
 

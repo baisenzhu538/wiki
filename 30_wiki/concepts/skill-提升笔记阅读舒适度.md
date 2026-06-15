@@ -30,7 +30,7 @@ estimated_tokens: 4200
 pipeline:
 - confidence-draft
 - confidence-source-cited
-author: legacy
+author: unknown
 reviewed_by: pending
 trust_level: low
 ---

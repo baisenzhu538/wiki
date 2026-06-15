@@ -20,7 +20,7 @@ created_at: 2026-06-07
 updated_at: '2026-06-16'
 pipeline:
 - confidence-draft
-author: legacy
+author: 月白
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

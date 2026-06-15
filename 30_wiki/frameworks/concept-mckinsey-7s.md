@@ -48,7 +48,7 @@ tags:
 - '#method/checklist'
 created_at: '2026-06-11'
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

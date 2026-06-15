@@ -7,7 +7,7 @@ domain:
 - yitang
 language: zh-CN
 version: 1
-confidence: 0.85
+confidence: 0.7
 source_refs:
 - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
 related:
@@ -36,7 +36,7 @@ diagnostic_signals:
 - signal: 遇到新问题时，能主动调用旧笔记中的框架，而不是重新从零查资料
   framework_lens: 认知资产的可迁移性
   follow_up_question: 过去30天里，你有多少次在解决问题时主动链接到旧笔记？
-author: legacy
+author: unknown
 reviewed_by: pending
 trust_level: low
 ---

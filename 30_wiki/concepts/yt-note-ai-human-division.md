@@ -9,7 +9,7 @@ domain:
 language: zh-CN
 version: 1
 difficulty: intermediate
-confidence: 0.85
+confidence: 0.7
 related:
 - '[[yt-note-checklist-concept]]'
 - '[[yt-note-five-levels-training]]'
@@ -42,7 +42,7 @@ diagnostic_signals:
   framework_lens: 效率低
   follow_up_question: 你手写笔记中有多少是AI可以帮你整理检索的？
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 trust_level: low
 ---

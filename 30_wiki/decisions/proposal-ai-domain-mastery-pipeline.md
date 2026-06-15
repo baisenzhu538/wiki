@@ -19,7 +19,7 @@ related:
 risk_level: high
 decision_needed: 是否启动此方向？若启动，第一阶段的范围是什么？
 id: proposal-ai-domain-mastery-pipeline
-author: legacy
+author: unknown
 source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为
   source_unknown，待后续补充）
 source_refs:

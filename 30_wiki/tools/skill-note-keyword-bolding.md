@@ -24,7 +24,7 @@ tags:
 - '#content-format/checklist'
 - '#scene/product-design/design-freeze'
 - '#scene/skill-engineering'
-author: legacy
+author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 trust_level: low

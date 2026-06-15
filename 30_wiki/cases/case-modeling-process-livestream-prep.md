@@ -18,7 +18,7 @@ source_person: Truman
 source_context: Truman-高阶建模-流程建模-开播准备-图-01
 reviewed_by: pending
 review_date: 2026-06-15
-confidence: 0.85
+confidence: 0.8
 trust_level: high
 related:
 - - - process-modeling

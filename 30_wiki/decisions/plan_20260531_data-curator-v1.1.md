@@ -17,7 +17,7 @@ version: 1.1
 supersedes:
 - plan_20260531_data-curator-v1
 related: []
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low

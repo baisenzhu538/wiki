@@ -1,7 +1,7 @@
 ---
 id: case-unit-model-gashapon
 component_of: '[[yt-unit-model-concept]]'
-confidence: 0.85
+confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
 domain:

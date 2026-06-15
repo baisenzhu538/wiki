@@ -1,6 +1,6 @@
 ---
 id: yt-entrepreneur-259-milestone
-confidence: 0.85
+confidence: 0.8
 created_at: 2026-05-06
 difficulty: intermediate
 domain:

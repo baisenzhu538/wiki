@@ -7,7 +7,7 @@ status: revised
 version: '2.0'
 supersedes: v1.0（复合编译方案，已废弃）
 id: high-density-composite-compilation-strategy
-author: legacy
+author: unknown
 source_context: KDO internal decision record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
 - source_unknown

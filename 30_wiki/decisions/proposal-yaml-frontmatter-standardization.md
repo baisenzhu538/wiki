@@ -9,7 +9,7 @@ source_refs:
 created_at: 2026-06-06
 updated_at: '2026-06-16'
 id: proposal-yaml-frontmatter-standardization
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

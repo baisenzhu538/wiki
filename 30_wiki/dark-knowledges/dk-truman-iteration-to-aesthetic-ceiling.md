@@ -1,21 +1,20 @@
 ---
-id: "dk-truman-iteration-to-aesthetic-ceiling"
-title: "迭代到审美上限：一张图的隐形成本远超显示器——Truman的泛产品设计第一性原则"
-type: "dark-knowledge"
-status: "draft"
+id: dk-truman-iteration-to-aesthetic-ceiling
+title: 迭代到审美上限：一张图的隐形成本远超显示器——Truman的泛产品设计第一性原则
+type: dark-knowledge
+status: draft
 domain:
-  - "product-design"
-  - "yitang"
+- product-design
+- yitang
 source_refs:
-  - "00_inbox/ideas/一堂-个人修炼-泛产品设计工具篇口述版.md"
-created_at: "2026-06-09"
-updated_at: "2026-06-09"
-author: "legacy"
-reviewed_by: "pending"
+- 00_inbox/ideas/一堂-个人修炼-泛产品设计工具篇口述版.md
+created_at: '2026-06-09'
+updated_at: '2026-06-16'
+author: 老顽童
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
 ---
-
 # 迭代到审美上限：一张图的隐形成本远超显示器
 
 > Truman在泛产品设计课上分享了一个真实的产品迭代案例：为了让一张导航图更好看，他透过一张一张的比对，花了整整半个多小时。最终产品经理一句话点破：**“显示器很便宜，你不用救它。”** 这是一个关于**产品第一性原则**的关键暗知识——迭代的终点不是“足够好”，而是“审美上限”。

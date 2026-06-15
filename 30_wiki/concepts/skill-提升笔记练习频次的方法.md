@@ -1,30 +1,29 @@
 ---
-id: "skill-提升笔记练习频次的方法"
-title: "技能：提升笔记练习频次的方法"
+id: skill-提升笔记练习频次的方法
+title: 技能：提升笔记练习频次的方法
 type: skill
 domain:
-  - design
-  - yitang
+- design
+- yitang
 status: draft
-source_person: "一堂"
+source_person: 一堂
 source_context: src_20260609_6809033f
 source_refs:
-  - src_20260609_6809033f
+- src_20260609_6809033f
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "日历/计划工具"
-  - "MECE等思维模型"
-created_at: "2026-06-09T14:40:41+00:00"
-updated_at: "2026-06-09T14:40:41+00:00"
-author: legacy
+- 日历/计划工具
+- MECE等思维模型
+created_at: '2026-06-09T14:40:41+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：提升笔记练习频次的方法
 
 ## 原始表述

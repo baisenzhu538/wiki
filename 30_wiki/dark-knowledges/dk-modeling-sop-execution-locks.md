@@ -14,7 +14,7 @@ source_refs:
 - src_20260614_623cfbfd
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
-confidence: 0.85
+confidence: 0.8
 trust_level: high
 related:
 - '[[modeling-capability-for-kdo]]'
@@ -26,9 +26,9 @@ tags:
 - '#domain/yitang'
 - '#method/sop'
 - '#method/execution-management'
-reviewed_by: 老顽童
+reviewed_by: pending
 review_date: '2026-06-14'
-author: legacy
+author: 老顽童
 ---
 # SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
 

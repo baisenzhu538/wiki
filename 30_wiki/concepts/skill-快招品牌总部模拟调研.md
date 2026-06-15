@@ -1,30 +1,29 @@
 ---
-id: "skill-快招品牌总部模拟调研"
-title: "技能：快招品牌总部模拟调研"
+id: skill-快招品牌总部模拟调研
+title: 技能：快招品牌总部模拟调研
 type: skill
 domain:
-  - product
-  - business-strategy
+- product
+- business-strategy
 status: draft
-source_person: "案例讲述者"
+source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
 source_refs:
-  - src_20260609_4ea1fba2
+- src_20260609_4ea1fba2
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "调研差旅预算约1200元/家"
-  - "假扮潜在加盟商的身份准备"
-created_at: "2026-06-09T15:07:29+00:00"
-updated_at: "2026-06-09T15:07:29+00:00"
-author: legacy
+- 调研差旅预算约1200元/家
+- 假扮潜在加盟商的身份准备
+created_at: '2026-06-09T15:07:29+00:00'
+updated_at: '2026-06-16'
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：快招品牌总部模拟调研
 
 ## 原始表述

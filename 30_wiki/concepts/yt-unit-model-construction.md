@@ -31,7 +31,7 @@ source_refs:
 - src_20260524_9f4e5d6a-一堂-单元模型02口述
 - src_20260524_7c8d9e0f-一堂-单元模型03口述
 - src_20260524_6b5a4c3d-一堂-单元模型04口述
-status: reviewed
+status: draft
 title: 单元模型构建法：拆推评算与ABCD模型分类
 trust_level: high
 type: tool

@@ -20,7 +20,7 @@ related_concepts: null
 related_cases: ''
 created_at: 2026-06-06
 updated_at: '2026-06-16'
-author: legacy
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

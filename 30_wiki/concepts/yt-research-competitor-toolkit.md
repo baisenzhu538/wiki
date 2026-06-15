@@ -27,7 +27,7 @@ related:
 source_refs:
 - 00_inbox/ideas/一堂-创业必修-调研武器库.md
 - 00_inbox/ideas/一堂-创业必修-需求分析.md
-status: reviewed
+status: draft
 title: 竞品拆解工具包：三层分类+内核边界+单元模型对标
 trust_level: medium
 type: tool

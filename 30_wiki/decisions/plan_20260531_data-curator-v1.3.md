@@ -20,7 +20,7 @@ supersedes:
 - plan_20260531_data-curator-v1
 - plan_20260531_data-curator-v1.1
 related: []
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

@@ -19,7 +19,7 @@ related:
 - '[[yt-ai-startup-20-risky-hypotheses]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-entrepreneur-needs-analysis]]'
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

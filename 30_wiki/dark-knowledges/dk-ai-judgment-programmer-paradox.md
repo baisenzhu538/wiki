@@ -1,20 +1,20 @@
 ---
-id: "dk-ai-judgment-programmer-paradox"
-title: "程序员的AI悖论：写AI工具的人最晚享受到AI红利"
-type: "dark-knowledge"
-status: "draft"
+id: dk-ai-judgment-programmer-paradox
+title: 程序员的AI悖论：写AI工具的人最晚享受到AI红利
+type: dark-knowledge
+status: draft
 domain:
-  - "ai-saas"
-  - "yitang"
+- ai-saas
+- yitang
 source_refs:
-  - "00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt"
-created_at: "2026-06-09"
-author: "legacy"
-reviewed_by: "pending"
+- 00_inbox/AI-study/一堂-AI学习-AI时代判断力口述.txt
+created_at: '2026-06-09'
+author: unknown
+reviewed_by: pending
 confidence: 0.7
-trust_level: "low"
+trust_level: low
+updated_at: '2026-06-16'
 ---
-
 # 程序员的AI悖论
 
 > 国帅在AI时代判断力课上分享了自己的心路历程：作为程序员和一堂CTO，他是ChatGPT最早期的用户之一，却是团队中最晚享受到AI红利的人。**程序员写AI工具，但最晚享受到AI红利**——这是一个关于技术创作者价值捕获盲区的暗知识。

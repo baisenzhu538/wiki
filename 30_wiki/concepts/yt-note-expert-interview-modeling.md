@@ -8,7 +8,7 @@ domain:
 - personal-growth
 language: zh-CN
 version: 1
-confidence: 0.85
+confidence: 0.7
 source_refs:
 - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
 - 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
@@ -39,7 +39,7 @@ diagnostic_signals:
   framework_lens: 关系张力处理不好
   follow_up_question: 你建模时有没有和对方互动、确认、挑战？还是只顾自己写？
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 trust_level: low
 ---

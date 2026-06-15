@@ -17,7 +17,7 @@ related:
 - '[[dk-ef-004-missing-diagnostic-firmware]]'
 pipeline:
 - confidence-source-cited
-author: legacy
+author: 黄药师
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium

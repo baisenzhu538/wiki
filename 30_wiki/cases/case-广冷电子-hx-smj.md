@@ -22,7 +22,7 @@ related:
 - '[[dk-ef-002-bom-version-async]]'
 - '[[dk-ef-003-hand-soldering-bom-divergence]]'
 - '[[dk-ef-004-missing-diagnostic-firmware]]'
-author: legacy
+author: 黄药师
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

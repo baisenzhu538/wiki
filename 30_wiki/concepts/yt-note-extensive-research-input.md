@@ -37,7 +37,7 @@ diagnostic_signals:
   framework_lens: 误解
   follow_up_question: 你听完课后输出的认知结构，比讲者原内容丰富了多少？
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 trust_level: low
 ---

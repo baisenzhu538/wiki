@@ -1,7 +1,7 @@
 ---
 id: yt-unit-model-concept
 component_of: '[[yt-five-step-method]]'
-confidence: 0.9
+confidence: 0.8
 created_at: 2026-06-11
 difficulty: intermediate
 domain:

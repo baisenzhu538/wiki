@@ -28,7 +28,7 @@ related:
 source_refs:
 - 00_inbox/ideas/一堂-创业必修-调研武器库.md
 - 00_inbox/ideas/一堂-创业必修-调研行动营.md
-status: reviewed
+status: draft
 title: 专家访谈工具：2小时获取行业共识的标准流程
 trust_level: medium
 type: tool

@@ -28,7 +28,7 @@ definition_of_done:
 pipeline:
 - confidence-published
 - confidence-source-cited
-author: legacy
+author: 纪浩
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

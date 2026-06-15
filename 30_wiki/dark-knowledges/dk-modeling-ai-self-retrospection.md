@@ -25,9 +25,9 @@ tags:
 - '#method/ai-collaboration'
 - '#method/retrospective'
 trust_level: high
-reviewed_by: 老顽童
+reviewed_by: pending
 review_date: '2026-06-14'
-author: legacy
+author: 老顽童
 confidence: 0.7
 ---
 # AI 也会重复犯同样的错：每次漂亮交付后，必须让它当场总结一个自查清单

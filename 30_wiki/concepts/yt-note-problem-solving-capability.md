@@ -8,7 +8,7 @@ domain:
 - personal-growth
 language: zh-CN
 version: 1
-confidence: 0.88
+confidence: 0.7
 source_refs:
 - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
 related:
@@ -39,7 +39,7 @@ diagnostic_signals:
   framework_lens: 笔记是活的迭代系统
   follow_up_question: 这篇笔记在最近一周内是否被修改或引用过？
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 trust_level: low
 ---

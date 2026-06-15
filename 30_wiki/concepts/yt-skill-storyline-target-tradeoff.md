@@ -17,7 +17,7 @@ diagnostic_signals:
   framework_lens: 杠杆识别 / 聚焦
   follow_up_question: 平均分配权重是否回避了真正的优先级判断？
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.75

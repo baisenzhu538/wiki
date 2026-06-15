@@ -14,7 +14,7 @@ target_roles:
 - 欧阳锋（Architect）
 - 黄药师（Builder）
 - 用户（决策者）
-author: legacy
+author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
 - source_unknown

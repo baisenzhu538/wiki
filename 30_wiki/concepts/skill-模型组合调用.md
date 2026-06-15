@@ -1,30 +1,29 @@
 ---
-id: "skill-模型组合调用"
-title: "技能：模型组合调用"
+id: skill-模型组合调用
+title: 技能：模型组合调用
 type: skill
 domain:
-  - design
-  - yitang
+- design
+- yitang
 status: draft
 source_person: Truman
 source_context: src_20260609_03491271
 source_refs:
-  - src_20260609_03491271
+- src_20260609_03491271
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "多个模型API"
-  - "编排工具如Dify/n8n/自研脚本"
-created_at: "2026-06-09T14:38:36+00:00"
-updated_at: "2026-06-09T14:38:36+00:00"
-author: legacy
+- 多个模型API
+- 编排工具如Dify/n8n/自研脚本
+created_at: '2026-06-09T14:38:36+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：模型组合调用
 
 ## 原始表述

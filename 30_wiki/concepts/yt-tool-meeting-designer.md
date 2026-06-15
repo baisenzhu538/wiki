@@ -66,7 +66,7 @@ diagnostic_signals:
 - signal: 团队说"我们开了会，但什么都没决定"
   framework_lens: 会议缺乏存在理由——没有明确产出标准的会议不应该发生
   follow_up_question: 这个会议如果取消，会发生什么？如果答案是什么都不会发生，那这个会议就不该开
-author: legacy
+author: unknown
 reviewed_by: pending
 ---
 # 会议设计师：一页纸会议蓝图

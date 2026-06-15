@@ -1,29 +1,26 @@
 ---
 id: dk-yb24-ai-poster-de-ai-feeling
-title: "AI海报去AI感：图标+质感人物双要素"
+title: AI海报去AI感：图标+质感人物双要素
 type: dark-knowledge
 dark_knowledge_type: insight
 status: draft
 domain:
-  - design
-source_person: "月白"
-source_context: "口述稿: AI设计-AI设计师实操培训01"
+- design
+source_person: 月白
+source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
-  - "00_inbox/design/AI设计-AI设计师实操培训01.txt"
+- 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
-updated_at: 2026-06-04
-related:
-  - dk-yb20-ai-eye-high-principle
-related: 
+updated_at: '2026-06-16'
+related: null
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
+- confidence-draft
+- confidence-source-cited
+author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # AI海报去AI感：图标+质感人物双要素
 
 ## 原始表述

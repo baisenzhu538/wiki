@@ -17,7 +17,7 @@ diagnostic_signals:
   framework_lens: 边界控制 / C 角色降级
   follow_up_question: 失败时是否出现'模糊问题被套上漂亮框架'的低价值输出？
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.75

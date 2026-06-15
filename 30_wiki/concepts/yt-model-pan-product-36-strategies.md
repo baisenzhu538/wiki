@@ -2,7 +2,7 @@
 id: yt-model-pan-product-36-strategies
 component_of:
 - yt-composite-pan-product-methodology
-confidence: 0.9
+confidence: 0.8
 created_at: 2026-05-11
 difficulty: intermediate
 domain:

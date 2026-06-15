@@ -27,7 +27,7 @@ pipeline:
 - confidence-source-cited
 - confidence-verified-by-case
 - confidence-verified-by-test
-author: legacy
+author: unknown
 created_at: 2026-06-15
 confidence: 0.7
 trust_level: low

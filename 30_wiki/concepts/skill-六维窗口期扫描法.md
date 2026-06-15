@@ -1,37 +1,36 @@
 ---
-id: "skill-六维窗口期扫描法"
-title: "技能：六维窗口期扫描法"
+id: skill-六维窗口期扫描法
+title: 技能：六维窗口期扫描法
 type: skill
 domain:
-  - management
-  - product
-  - business-strategy
-  - ai-saas
-  - yitang
-  - supply-chain
-  - decision-making
+- management
+- product
+- business-strategy
+- ai-saas
+- yitang
+- supply-chain
+- decision-making
 status: draft
-source_person: "一堂课程"
+source_person: 一堂课程
 source_context: src_20260609_44a9e79a
 source_refs:
-  - src_20260609_44a9e79a
+- src_20260609_44a9e79a
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "竞品监控工具"
-  - "政策数据库"
-  - "营销日历"
-  - "流量趋势平台"
-created_at: "2026-06-09T15:09:00+00:00"
-updated_at: "2026-06-09T15:09:00+00:00"
-author: legacy
+- 竞品监控工具
+- 政策数据库
+- 营销日历
+- 流量趋势平台
+created_at: '2026-06-09T15:09:00+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：六维窗口期扫描法
 
 ## 原始表述

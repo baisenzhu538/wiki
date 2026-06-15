@@ -1533,113 +1533,157 @@ total: 1359, p0: 0, p1: 773, clean: 586, yaml_error: 0
 
 ---
 
-## 十一、下一阶段任务（2026-06-16 后）
+## 十一、问题驱动的 P1 清理任务（老顽童主责）
 
-> **原则**：继续做内容生产主责，批量修复类任务交给黄药师/脚本。优先完成文件里已有的 C1-C4，再扩展 yt 精修和标签人工判断。
+> **角色校正**：黄药师回归基础设施/工厂建设者，不介入内容判断类任务。老顽童是主力生产 + 内容修复负责人。本清单按问题优先级排序，老顽童顺序执行。
 
-### 任务 D1：完成 C1-C4 持续产出冲刺
+### 当前知识库问题清单
 
-C1-C4 定义见上文（2026-06-16 的"🔴 下一阶段：持续产出冲刺"）。当前状态：
+由质量门禁扫描（2026-06-16）：
 
-| 子任务 | 目标 | 当前状态 |
-|:-------|:-----|:---------|
-| C1 | 10 张新暗知识卡 | 待完成 |
-| C2 | 10 个新/升级案例卡 | 待完成 |
-| C3 | 认领 30 张 source_unknown 补充 source | 待完成（剩余 242 张可选） |
-| C4 | 完善 10 张已有 DK 卡 | 待完成 |
+| 优先级 | 问题 | 数量 | 负责人 | 说明 |
+|:------:|:-----|:----:|:-------|:-----|
+| 🔴 P1 | `author=legacy` 待替换 | **712 张** | 老顽童 | 按前缀/内容判断真实 author，无法判断标 `unknown` |
+| 🔴 P1 | `dangling 链接` | **505 张** | 老顽童 | 内容判断：创建 stub / 修正拼写 / 删除链接 |
+| 🟡 P1 | `status=draft 但 confidence>=0.85` | **39 张** | 老顽童 | 判断是升 status 还是降 confidence |
+| 🟡 P1 | `trust_level=low/medium-low 但 confidence>=0.85` | **15 张** | 老顽童 | 调整 trust_level 或 confidence 使其一致 |
+| 🟡 P1 | `type 值异常` | **13 张** | 老顽童 | 判断正确 type |
+| 🟡 P1 | `confidence>=0.90 但 source<2` | **4 张** | 老顽童 | 补充 source 或降 confidence |
+| 🟡 P1 | `source_refs 为空` | **2 张** | 老顽童 | 补充 source |
+| 🟡 P1 | `status 值异常` | **1 张** | 老顽童 | 修正 status |
 
-**source_unknown 认领清单**：`60_feedback/corrections/source-unknown-remaining.md`
+**当前门禁状态**：
+```
+total: 1359, p0: 0, p1: 773, clean: 586, yaml_error: 0
+```
 
-**建议节奏**：
-- 第 1-3 天：C1 暗知识卡 5 张
-- 第 4-6 天：C2 案例卡 5 个
-- 第 7-8 天：C3 认领 15 张 source_unknown
-- 第 9-10 天：C4 完善 5 张 DK 卡
-- 第 11-12 天：重复一轮，凑齐 C1-C4 全部目标
-- 第 13-14 天：跑 lint + 质量门禁，写小结
+**P1 问题文件清单**：`60_feedback/corrections/p1-issue-files-2026-06-16.md`
 
-### 任务 D2：扩大 yt 卡第二圈精修范围
+---
 
-**目标**：在 D1 间隙，再选 **10 张 yt 核心卡**按已验证的第二圈标准精修。
+### 任务 E1：`author=legacy` 批量治理（712 张）
 
-**候选卡片**（从 `30_wiki/concepts/yt-*.md` 中自选，优先选被引用次数多或 Graph RAG 中处于关键路径的卡）：
-- 决策域：`yt-decision-*` 系列剩余卡
-- 预判域：`yt-foresight-*` 系列
-- 单元模型域：`yt-unit-model-*` 系列
-- 五步法：`yt-five-step-*` 系列
-
-**精修标准**（同 5 张试点）：
-1. 失败模式从 4 条扩到 6 条，症状和修复更具体
-2. diagnostic_signals 从 2 条 triplet 增加到 3 条
-3. 适用边界表增加 1 条 nuance
-4. 更新 `updated_at` 为修改日期
-5. P0=0, P1=0
-
-**产出**：在本文末尾更新"yt 第二圈精修清单"，列出已修卡片和修改点。
-
-### 任务 D3：标签改革遗留 flat tags 人工判断
-
-**背景**：欧阳锋刚完成标签体系改革，全库唯一标签从 250+ 降到 128，但还有 16 个 flat tags（无维度前缀）含义不够明确，需要内容作者判断。
-
-**待判断标签清单**（出现次数）：
-
-| 标签 | 次数 | 建议处理方向 |
-|:-----|:----:|:-------------|
-| `#kdo` | 3 | 可映射为 `#domain/master` 或保留为卡片元标签 |
-| `#confidence` | 1 | 可映射为 `#confidence/draft` |
-| `#dark-knowledge` | 1 | 可映射为 `#domain/master` 或新增维度 |
-| `#deep-dig` | 1 | 可映射为 `#domain/master` |
-| `#entrepreneurship` | 1 | 可映射为 `#domain/yitang` 或 `#domain/master` |
-| `#iceberg` | 1 | 可映射为 `#method/thinking-tool` |
-| `#itingnao` | 1 | 专有名词，建议保留为 `source-platform` 或 `#domain/ai-saas` |
-| `#l6-essence` | 1 | 专有框架，需确认是否新增维度值 |
-| `#master-system` | 1 | 可映射为 `#domain/master` |
-| `#membership` | 1 | 可映射为 `#domain/master` 或 `#industry/saas` |
-| `#private-domain` | 1 | 可映射为 `#method/execution-method` 或 `#domain/master` |
-| `#renewal` | 1 | 可映射为 `#method/execution-method` |
-| `#self-improvement` | 1 | 可映射为 `#domain/master` |
-| `#tier` | 1 | 可映射为 `#value-tier/meso` 等，需看上下文 |
-| `#value` | 1 | 可映射为 `#method/evaluation-method` |
-| `#weapon-library` | 1 | 可映射为 `#content-format/framework` 或保留 |
+**目标**：把 `author=legacy` 替换为真实作者或 `unknown`。
 
 **操作**：
-1. 对每张含上述标签的卡，读内容判断最合理的维度映射
-2. 能确定映射的 → 直接替换 flat tag 为维度标签
-3. 不能确定的 → 在 `60_feedback/corrections/tag-flat-review-2026-06-16.md` 中记录，等欧阳锋/用户拍板
-4. 全部处理完后跑 `kdo_lint.py 30_wiki/`，确认 tags 格式无告警
+1. 读取 `60_feedback/corrections/p1-issue-files-2026-06-16.md` 中 `author=legacy` 清单
+2. 按文件名前缀/内容判断真实 author：
+   - `yt-*` / `case-一堂-*` / `concept-一堂-*` → 通常来源是 Truman 或 一堂课程，可标 `Truman` 或 `unknown`
+   - `case-纪浩-*` / `concept-纪浩-*` → `纪浩`
+   - `case-半肥猫-*` / `concept-半肥猫-*` → `半肥猫`
+   - `case-月白-*` / `skill-月白-*` → `月白`
+   - 其他按正文署名或来源推断
+3. 无法判断的 → 标 `unknown`，不要硬猜
+4. 每批改 **50 张**，改完一批跑 `kdo_lint.py 30_wiki/`，确认无新增 YAML 错误
 
-**产出**：
-- 已映射的卡片修改
-- `60_feedback/corrections/tag-flat-review-2026-06-16.md`（记录未决标签）
+**严禁**：
+- ❌ 不要批量把所有 legacy 改成同一个 author
+- ❌ 不确定时不要乱填，宁可 `unknown`
+- ❌ 一次不要改超过 50 张
 
-### 严禁
+**完成标准**：
+- [ ] `author=legacy` 降至 ≤50 张
+- [ ] 无法判断的清单写入 `60_feedback/corrections/author-legacy-remaining.md`
+- [ ] 质量门禁 P0 不增加，YAML 错误 = 0
 
-- ❌ 不要为了凑数写重复或空泛内容
-- ❌ 不要把案例写成概念描述
-- ❌ 批量修改不熟悉的 source_unknown 卡
-- ❌ 一次改超过 20 张卡不跑 lint
+---
 
-### 验收标准
+### 任务 E2：`dangling 链接` 清理（505 张）
 
-完成 D1-D3 后写小结：
+**目标**：把剩余 dangling 链接处理完。
 
-- [ ] C1：10 张新暗知识卡，lint 无错误
-- [ ] C2：10 个新/升级案例卡，lint 无错误
-- [ ] C3：30 张 source_unknown 补充 source 或确认无法补充
-- [ ] C4：10 张已有 DK 卡完善内容
-- [ ] D2：10 张 yt 卡第二圈精修完成，每张 P0=0 P1=0
-- [ ] D3：16 个 flat tags 全部人工判断，未决项记录到反馈文件
-- [ ] 全库质量门禁 P0 = 0，YAML 错误 = 0
-- [ ] 小结包含：产出清单、source 认领清单、yt 精修清单、tag 判断清单
+**操作**：
+1. 读取 `60_feedback/corrections/p1-issue-files-2026-06-16.md` 中 `dangling 链接` 清单
+2. 对每个 dangling link 判断：
+   - **目标卡应该存在但缺失** → 创建 stub 卡，或通知用户/欧阳锋
+   - **链接拼写错误** → 修正为正确 ID
+   - **目标已废弃/合并** → 删除该链接
+   - **外部链接** → 改为普通 URL 或移除 `[[]]`
+3. 批量处理前先抽样 10 张，确认模式后再扩大
 
-### 产出文件
+**严禁**：
+- ❌ 不要批量删除所有 dangling link
+- ❌ 不要创建空 stub 卡应付检查
 
-1. `30_wiki/dark-knowledges/dk-*` × 10
-2. `30_wiki/cases/case-*` × 10
-3. 30 张已补充 source 的卡
-4. 10 张已完善的 DK 卡
-5. 10 张已精修的 yt 卡
-6. `60_feedback/corrections/tag-flat-review-2026-06-16.md`
-7. 本文件末尾的小结
+**完成标准**：
+- [ ] dangling 链接告警为 0
+- [ ] 创建的 stub 卡清单写入 `60_feedback/corrections/dangling-link-stubs-2026-06-16.md`
+
+---
+
+### 任务 E3：status / confidence / trust_level 一致性修复（68 张）
+
+**目标**：处理所有 confidence/status/trust 不一致卡片。
+
+包含问题：
+- `status=draft 但 confidence>=0.85`：39 张
+- `trust_level=low/medium-low 但 confidence>=0.85`：15 张
+- `confidence>=0.90 但 source<2`：4 张
+- `status 值异常`：1 张
+- `trust_level 值异常`：1 张（如有）
+- `type 值异常`：13 张
+
+**操作**：
+1. 读取清单，逐张判断
+2. 原则：
+   - draft 卡 confidence 应 <0.85
+   - low/medium-low trust 的 confidence 应 <0.85
+   - confidence>=0.90 至少需要 2 个 source
+   - 异常 status/type 修正为标准值
+3. 无法判断的 → 保持现状并记录到反馈文件
+
+**完成标准**：
+- [ ] 上述不一致问题降至 ≤10 张
+- [ ] 无法判断的清单写入 `60_feedback/corrections/confidence-status-review-2026-06-16.md`
+
+---
+
+### 任务 E4：source_refs 为空补充（2 张 + source_unknown 认领）
+
+**目标**：处理 source 追溯问题。
+
+**操作**：
+1. 先处理清单中 `source_refs 为空` 的 2 张卡
+2. 继续从 `60_feedback/corrections/source-unknown-remaining.md` 认领 source_unknown 卡，补充真实 source
+3. 无法补充的保持 `source_unknown` 不动
+
+**完成标准**：
+- [ ] `source_refs 为空` 降至 0
+- [ ] 本次再认领 ≥30 张 source_unknown（累计完成 C3 目标）
+
+---
+
+### 任务 E5：标签改革遗留 flat tags 人工判断（16 个）
+
+**待判断标签**：
+`#kdo` ×3、`#dark-knowledge`、`#deep-dig`、`#entrepreneurship`、`#iceberg`、`#itingnao`、`#l6-essence`、`#master-system`、`#membership`、`#private-domain`、`#renewal`、`#self-improvement`、`#tier`、`#value`、`#weapon-library`、`#confidence`
+
+**操作**：
+1. 对每张含上述标签的卡，读内容判断最合理维度映射
+2. 能确定的直接替换，不能确定的记录到 `60_feedback/corrections/tag-flat-review-2026-06-16.md`
+3. 跑 `kdo_lint.py 30_wiki/` 确认 tags 格式无告警
+
+---
+
+### 执行顺序
+
+```
+E1 → E2 → E3 → E4 → E5
+```
+
+E1 和 E2 可各占一个阶段，E3-E5 可穿插进行。
+
+---
+
+### 验收标准（全部完成后写小结）
+
+- [ ] `author=legacy` ≤50 张
+- [ ] dangling 链接 = 0
+- [ ] status/confidence/trust 不一致 ≤10 张
+- [ ] `source_refs 为空` = 0
+- [ ] 16 个 flat tags 全部人工判断
+- [ ] 全库 P0 = 0，YAML 错误 = 0
+- [ ] P1 从 773 降至 ≤400
+- [ ] 小结写入本文件末尾，包含：各批次修复数量、剩余问题清单
 
 ---

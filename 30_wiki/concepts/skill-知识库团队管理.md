@@ -1,32 +1,31 @@
 ---
-id: "skill-知识库团队管理"
-title: "技能：知识库团队管理"
+id: skill-知识库团队管理
+title: 技能：知识库团队管理
 type: skill
 domain:
-  - management
-  - design
-  - yitang
-  - entrepreneurship
-  - kdo
+- management
+- design
+- yitang
+- entrepreneurship
+- kdo
 status: draft
-source_person: "一堂课程设计"
+source_person: 一堂课程设计
 source_context: src_20260522_e139c9e9
 source_refs:
-  - src_20260522_e139c9e9
+- src_20260522_e139c9e9
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "知识库软件（未指定具体工具）"
-created_at: "2026-06-09T16:00:43+00:00"
-updated_at: "2026-06-09T16:00:43+00:00"
-author: legacy
+- 知识库软件（未指定具体工具）
+created_at: '2026-06-09T16:00:43+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：知识库团队管理
 
 ## 原始表述

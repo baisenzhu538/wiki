@@ -21,7 +21,7 @@ related:
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[case-coffee-shop-foresight]]'
 - '[[case-escort-service-tiered-growth]]'
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

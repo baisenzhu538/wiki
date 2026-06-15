@@ -25,7 +25,7 @@ wiki_refs:
 pipeline:
 - confidence-draft
 - confidence-source-cited
-author: legacy
+author: 老顽童
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium-low

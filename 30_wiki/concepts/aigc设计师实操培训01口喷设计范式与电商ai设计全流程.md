@@ -1,25 +1,24 @@
 ---
-id: "aigc设计师实操培训01口喷设计范式与电商ai设计全流程"
+id: aigc设计师实操培训01口喷设计范式与电商ai设计全流程
 created_at: 2026-05-28
 domain:
-  - ai-saas
-  - design
-  - business-strategy
+- ai-saas
+- design
+- business-strategy
 source_refs:
-  - src_20260528_04be660c
+- src_20260528_04be660c
 status: draft
-title: "AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程"
+title: AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程
 type: concept
-updated_at: 2026-06-12
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
+- confidence-draft
+- confidence-source-cited
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程
 
 > 月白（一堂AI俱乐部线上Live · 2026年）第二期分享。核心讲"口喷设计"范式——用自然语言对话代替PS的设计方法论，以及电商AI设计全流程。

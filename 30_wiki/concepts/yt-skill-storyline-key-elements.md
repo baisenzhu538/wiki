@@ -17,7 +17,7 @@ diagnostic_signals:
   framework_lens: 复杂系统 / 边界诚实
   follow_up_question: 在复杂适应系统中，移除单因素测试是否仍有效？
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.75

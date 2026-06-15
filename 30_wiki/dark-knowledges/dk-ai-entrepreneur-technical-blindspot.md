@@ -20,7 +20,7 @@ related:
 - '[[yt-three-dimension-opportunity-matrix]]'
 - '[[yt-ai-startup-20-risky-hypotheses]]'
 - '[[case-ai-time-management-tiered-growth]]'
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

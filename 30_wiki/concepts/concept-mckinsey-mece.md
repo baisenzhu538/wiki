@@ -36,7 +36,7 @@ diagnostic_signals:
   follow_up: 你的框架中格与格之间有没有因果/递进关系？还是只是并列罗列？
 pipeline:
 - confidence-draft
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

@@ -9,7 +9,7 @@ domain:
 language: zh-CN
 version: 1
 difficulty: beginner
-confidence: 0.88
+confidence: 0.7
 related:
 - '[[yt-note-five-levels-training]]'
 - '[[yt-note-ai-human-division]]'
@@ -42,7 +42,7 @@ diagnostic_signals:
   framework_lens: 形式主义
   follow_up_question: 你收藏了多少模板？最近一周实际用来加工了几个概念？
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 trust_level: low
 ---

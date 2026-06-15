@@ -1,33 +1,32 @@
 ---
-id: "skill-1视角升级思考法"
-title: "技能：+1视角升级思考法"
+id: skill-1视角升级思考法
+title: 技能：+1视角升级思考法
 type: skill
 domain:
-  - management
-  - decision-making
-  - yitang
-  - business-strategy
+- management
+- decision-making
+- yitang
+- business-strategy
 status: draft
-source_person: "一堂课程"
+source_person: 一堂课程
 source_context: src_20260609_44a9e79a
 source_refs:
-  - src_20260609_44a9e79a
+- src_20260609_44a9e79a
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "组织架构图"
-  - "各层级KPI清单"
-  - "向上管理沟通渠道"
-created_at: "2026-06-09T15:09:00+00:00"
-updated_at: "2026-06-09T15:09:00+00:00"
-author: legacy
+- 组织架构图
+- 各层级KPI清单
+- 向上管理沟通渠道
+created_at: '2026-06-09T15:09:00+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：+1视角升级思考法
 
 ## 原始表述

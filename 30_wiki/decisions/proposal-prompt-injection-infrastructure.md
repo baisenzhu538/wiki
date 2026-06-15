@@ -13,7 +13,7 @@ reviewer: 待定
 related:
 - '[[plan_20260531_data-curator-v1.3]]'
 id: proposal-prompt-injection-infrastructure
-author: legacy
+author: unknown
 source_context: KDO improvement plan — internal process record （原始 source 无法追溯，已标记为
   source_unknown，待后续补充）
 source_refs:

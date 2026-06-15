@@ -18,7 +18,7 @@ reviewed_by: Claude
 review_date: '2026-05-03'
 domain:
 - master
-author: legacy
+author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
 - src_20260503_52ae08ba

@@ -1,33 +1,32 @@
 ---
-id: "skill-对标借鉴他人决策维度"
-title: "技能：对标借鉴他人决策维度"
+id: skill-对标借鉴他人决策维度
+title: 技能：对标借鉴他人决策维度
 type: skill
 domain:
-  - product
-  - decision-making
-  - yitang
+- product
+- decision-making
+- yitang
 status: draft
-source_person: "一堂课程"
+source_person: 一堂课程
 source_context: src_20260609_44a9e79a
 source_refs:
-  - src_20260609_44a9e79a
+- src_20260609_44a9e79a
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "行业报告"
-  - "竞品分析"
-  - "专家访谈"
-  - "公开财报/决策纪要"
-created_at: "2026-06-09T15:09:00+00:00"
-updated_at: "2026-06-09T15:09:00+00:00"
-author: legacy
+- 行业报告
+- 竞品分析
+- 专家访谈
+- 公开财报/决策纪要
+created_at: '2026-06-09T15:09:00+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：对标借鉴他人决策维度
 
 ## 原始表述

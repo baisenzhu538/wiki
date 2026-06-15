@@ -28,7 +28,7 @@ prerequisite_skills: null
 related:
 - '[[sk-ai-old-small-checklist]]'
 - '[[sk-ai-parallel-validation]]'
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

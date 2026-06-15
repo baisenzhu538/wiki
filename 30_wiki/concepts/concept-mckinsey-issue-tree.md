@@ -34,7 +34,7 @@ diagnostic_signals:
   follow_up: 你的 Issue Tree 最底层叶节，有多少个已经被数据验证了？有多少个还是假设？
 pipeline:
 - confidence-draft
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

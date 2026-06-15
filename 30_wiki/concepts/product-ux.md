@@ -2,22 +2,21 @@
 id: product-ux
 created_at: 2026-05-21
 domain:
-  - ai-saas
+- ai-saas
 source_refs:
-  - src_20260522_404f58a2
+- src_20260522_404f58a2
 status: draft
-title: "Product Ux"
+title: Product Ux
 type: concept
-updated_at: 2026-05-21
+updated_at: '2026-06-16'
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
+- confidence-draft
+- confidence-source-cited
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # Product Ux
 
 ## Summary

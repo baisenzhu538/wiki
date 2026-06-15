@@ -5,7 +5,7 @@ type: skill
 domain:
 - yitang
 status: draft
-author: legacy
+author: 老顽童
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6

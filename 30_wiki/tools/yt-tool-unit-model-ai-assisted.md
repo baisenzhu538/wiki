@@ -4,7 +4,7 @@ domain:
 tags: null
 related: null
 id: yt-tool-unit-model-ai-assisted
-author: legacy
+author: unknown
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.75

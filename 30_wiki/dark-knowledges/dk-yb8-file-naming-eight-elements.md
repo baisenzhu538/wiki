@@ -1,30 +1,26 @@
 ---
 id: dk-yb8-file-naming-eight-elements
-title: "AI增效前置：文件命名八要素体系"
+title: AI增效前置：文件命名八要素体系
 type: dark-knowledge
 dark_knowledge_type: workflow
 status: draft
 domain:
-  - design
-source_person: "月白"
-source_context: "口述稿: AI设计-AI设计基础01"
+- design
+source_person: 月白
+source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
-  - "00_inbox/design/AI设计-AI设计基础01.txt"
+- 00_inbox/design/AI设计-AI设计基础01.txt
 created_at: 2026-06-04
-updated_at: 2026-06-04
-related:
-  - dk-yb5-style-asset-archive
-  - dk-yb1-aigc-mvp-before-ps
-related: 
+updated_at: '2026-06-16'
+related: null
 pipeline:
-  - confidence-draft
-  - confidence-source-cited
-author: legacy
+- confidence-draft
+- confidence-source-cited
+author: 月白
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # AI增效前置：文件命名八要素体系
 
 ## 原始表述

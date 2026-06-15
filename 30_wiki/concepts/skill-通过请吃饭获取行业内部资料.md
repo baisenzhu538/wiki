@@ -1,28 +1,27 @@
 ---
-id: "skill-通过请吃饭获取行业内部资料"
-title: "技能：通过请吃饭获取行业内部资料"
+id: skill-通过请吃饭获取行业内部资料
+title: 技能：通过请吃饭获取行业内部资料
 type: skill
 domain:
-  - business-strategy
+- business-strategy
 status: draft
-source_person: "案例讲述者"
+source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
 source_refs:
-  - src_20260609_4ea1fba2
+- src_20260609_4ea1fba2
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "餐饮预算<1000元"
-created_at: "2026-06-09T15:07:28+00:00"
-updated_at: "2026-06-09T15:07:28+00:00"
-author: legacy
+- 餐饮预算<1000元
+created_at: '2026-06-09T15:07:28+00:00'
+updated_at: '2026-06-16'
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：通过请吃饭获取行业内部资料
 
 ## 原始表述

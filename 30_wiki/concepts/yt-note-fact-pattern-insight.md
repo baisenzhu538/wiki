@@ -8,7 +8,7 @@ domain:
 - personal-growth
 language: zh-CN
 version: 1
-confidence: 0.86
+confidence: 0.7
 source_refs:
 - 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
 related:
@@ -39,7 +39,7 @@ diagnostic_signals:
   framework_lens: 见解必须产生行动或判断差异
   follow_up_question: 如果这个见解是错误的，你会在什么观察出现后放弃它？
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 trust_level: low
 ---

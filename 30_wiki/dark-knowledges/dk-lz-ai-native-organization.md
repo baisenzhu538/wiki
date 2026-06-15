@@ -15,7 +15,7 @@ related:
 - '[[dk-lz-code-is-disposable]]'
 created_at: '2026-06-09'
 updated_at: '2026-06-16'
-author: legacy
+author: unknown
 reviewed_by: pending
 confidence: 0.7
 trust_level: low

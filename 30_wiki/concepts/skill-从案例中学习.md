@@ -1,30 +1,29 @@
 ---
-id: "skill-从案例中学习"
-title: "技能：从案例中学习"
+id: skill-从案例中学习
+title: 技能：从案例中学习
 type: skill
 domain:
-  - yitang
+- yitang
 status: draft
-source_person: "一堂课程"
+source_person: 一堂课程
 source_context: src_20260522_dee56cff
 source_refs:
-  - src_20260522_dee56cff
+- src_20260522_dee56cff
 definition_of_done:
-  - "操作步骤清晰可执行"
-  - "适用场景有正反例"
-  - "工具要求明确"
+- 操作步骤清晰可执行
+- 适用场景有正反例
+- 工具要求明确
 tools_required:
-  - "案例库"
-  - "开源案例"
-  - "私会俱乐部"
-created_at: "2026-06-09T15:59:56+00:00"
-updated_at: "2026-06-09T15:59:56+00:00"
-author: legacy
+- 案例库
+- 开源案例
+- 私会俱乐部
+created_at: '2026-06-09T15:59:56+00:00'
+updated_at: '2026-06-16'
+author: 老顽童
 reviewed_by: pending
 confidence: 0.7
 trust_level: low
 ---
-
 # 技能：从案例中学习
 
 ## 原始表述
