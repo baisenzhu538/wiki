@@ -1447,3 +1447,63 @@ updated_at: "2026-06-15"
 3. 30 张已补充 source 的卡
 4. 10 张已完善的 DK 卡
 5. 本文件末尾的小结
+
+---
+
+## 十、2+3+4 组合任务完成小结（2026-06-16）
+
+本次同时推进了用户指定的三项收尾/精修任务：修复 dangling 链接、yt 卡第二圈精修试点、P1 收尾处理 37 张 high trust 单 source 卡。
+
+### 1. 修复 dangling 链接
+
+- 对 `30_wiki` 全库扫描 `related` / `wiki_refs` / `related_*` 等链接字段：
+  - 将 **1233 个已存在目标的 plain ID** 包装为 `[[...]]`；
+  - 将正文中的 **24 个 `[[...]]`** 通过标题匹配修正为正确 ID；
+  - 移除 **51 个 frontmatter 中的死链** 和正文中的 **5337 个无法解析的目标**（多为未创建的别名/中文概念）。
+- 结果：dangling 链接相关 P1 告警大幅下降，全库 P1 从 998 降至 808（第一波）→ 771（第二波 body 死链清理）。
+
+### 2. P1 收尾：37 张 high trust 单 source 卡
+
+- 对 37 张 trust_level=high 且仅单一 source 的卡片，统一：
+  - `trust_level` 从 `high` 降为 `medium`；
+  - `confidence` 调整为 `0.7`；
+  - 在 `source_context` 补充说明：待补充第二来源或充分验证后可升回 high。
+- 结果：`trust_level=high 但 source 仅 1 个` 告警归 **0**。
+
+### 3. yt 卡第二圈精修试点（5 张）
+
+- 目标卡片：
+  - `yt-decision-y-model.md`
+  - `yt-decision-full-process.md`
+  - `yt-decision-consensus-iceberg.md`
+  - `yt-decision-ai-partner.md`
+  - `yt-decision-canvas.md`
+- 每张卡：
+  - 失败模式从 4 条扩展到 6 条，症状和修复更具体；
+  - diagnostic_signals 从 2 条 triplet 增加到 3 条；
+  - 适用边界表增加 1 条 nuance；
+  - `updated_at` 更新为 `2026-06-16`。
+- 质检结果：5 张目标卡 **P0 = 0，P1 = 0**。
+
+### 4. 修复过程中发现的额外问题
+
+- 在批量重写 frontmatter 时，两张 OCR 卡 `ocr-一堂提炼过的因果模型.md` 和 `ocr-微信图片_20260507004802_38_32.md` 的 `d:` 字段被识别为缺少 `id:`，已补正为 `id:`。
+
+### 最终质量门禁
+
+- **P0：0 张**
+- **P1：773 张**（从本次任务前 998 张下降 225 张）
+- **完全干净卡片：586 张**（从 361 张上升 225 张）
+- **YAML 解析错误：0 张**
+
+### 剩余主要 P1 问题（不在本次任务范围）
+
+- `author=legacy` 待替换：约 700 张
+- `status=draft 但 confidence=0.85` 等 confidence/status 不一致：约 60 张
+- 未注册 src ID / source_unknown 等 source 追溯问题：少量
+
+### 下一步建议
+
+1. 如需继续降低 P1，可启动 **author=legacy 批量治理**；
+2. 或对 **status/confidence 不一致** 的卡片做一波快速修复；
+3. 验收通过后，可继续扩大 yt 卡第二圈精修范围。
