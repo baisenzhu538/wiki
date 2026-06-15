@@ -235,7 +235,7 @@ def main():
     parser.add_argument("--fix-p0", action="store_true", help="尝试自动修复部分 P0 问题")
     args = parser.parse_args()
 
-    files = [f for f in WIKI_DIR.rglob("*.md") if "_archive" not in f.parts]
+    files = [f for f in WIKI_DIR.rglob("*.md") if "_archive" not in f.parts and "raw" not in f.parts]
     all_ids = {f.stem for f in files}
 
     stats = {"total": len(files), "p0": 0, "p1": 0, "clean": 0, "yaml_error": 0}

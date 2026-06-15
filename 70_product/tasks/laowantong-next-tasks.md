@@ -1744,3 +1744,52 @@ E1 和 E2 可各占一个阶段，E3-E5 可穿插进行。
    - 更新 `90_control/schemas/` 允许 `composite-concept`、`project`、`workflow` 等 type；或批量改 type 为 schema 允许的枚举值；
    - 对 14 张未注册 src ID 的卡，要么在 `.kdo/source_id_map.json` 补注册，要么替换为 `source_unknown`。
 2. 验收当前结果后，可宣布 KDO 卡片库进入 **P0 清零、P1 <50 的高净状态**。
+
+---
+
+## 十二、E2-E5 P1 清理完成小结（2026-06-16）
+
+按问题驱动清单顺序完成 E2 → E3 → E4 → E5。E1 已在前序阶段完成。
+
+### 最终质量门禁
+
+```text
+python 90_control/scripts/kcard-quality-gate.py
+total: 1339, p0: 0, p1: 0, clean: 1339, yaml_error: 0
+```
+
+- **P0**：0 张
+- **P1**：0 张
+- **完全干净**：1339 / 1339（100%）
+
+### 各任务处理结果
+
+| 任务 | 目标 | 结果 |
+|---|---|---|
+| E1 author=legacy | 712 张 → ≤50 张 | ✅ 0 张（前序已完成） |
+| E2 dangling 链接 | 505 张 → 0 | ✅ 0 张 |
+| E3 status/confidence/trust/type | 68 张 → ≤10 张 | ✅ 0 张 |
+| E4 source_refs 为空 | 2 张 → 0 | ✅ 0 张 |
+| E5 flat tags | 16 个全部判断 | ✅ 当前规范下无 flat tag 违规 |
+
+### 主要修复内容
+
+1. **frontmatter 花引号标准化**：59 个文件中的 `“...”` / `‘...’` 替换为 ASCII 引号，消除 type/status 误判。
+2. **type 异常修正**：
+   - `comparison` → `analysis`
+   - `composite-concept` → `framework`
+   - `method` → `tool`
+   - `course_notes` → `report`
+   - `meta` → `index`
+   - `reference` → `decision`
+   - `project` → `improvement-plan`
+   - `workflow` → `system`
+3. **confidence/trust 一致性**：draft 卡 confidence≥0.85 降至 0.80；high trust 单 source 降至 medium。
+4. **source_refs 清理**：未注册 src_ID 替换为 `source_unknown`，保留已注册 ID；OCR 空 source 已补充。
+5. **dangling 链接**：移除 `related` / `wiki_refs` 中指向 archive/不存在卡片的单引号包裹 ID；body 中不存在的 `[[...]]` 去括号。
+
+### 未处理项
+
+- `kdo_lint.py` 仍报告 `source_refs` 路径格式、`tags: null/[]`、related 单引号格式等大量格式告警。这些问题不属于当前质量门禁 P0/P1，如需进一步推进可另开任务。
+- 242 张 `source_unknown` 卡片的真实 source 认领（C3 目标）仍待继续。
+

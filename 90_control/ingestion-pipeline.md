@@ -109,3 +109,32 @@ P0 必走，P1 老顽童自行判断。小素材直接消化不排队。
 
 **Q: 一张卡跨了多个 domain 怎么归？**  
 主 domain 写在最前面。跨域属性用 `bridges_to` 标记。
+
+---
+
+## 七、OCR 卡分层处理（2026-06-15 新增）
+
+### 问题
+
+OCR 输出直接作为卡片入了 `30_wiki/concepts/`，与精修知识卡混放。368 张 OCR 卡污染了检索和门禁统计。
+
+### 分层方案
+
+```
+图片 → OCR → 30_wiki/raw/ocr/ (原始转录层, trust=low)
+                    ↓
+              人工精修 (老顽童/洪七公)
+                    ↓
+              kdo scaffold --new → 30_wiki/ (精修知识层)
+```
+
+### 规则
+
+1. **OCR 输出默认入 `30_wiki/raw/ocr/`**，不是 `30_wiki/concepts/`
+2. **`trust_level: low`** 标记，搜索默认跳过（`kdo query --trust medium` 自动过滤）
+3. **门禁不扫描 `raw/`** 目录
+4. **精修升级路径**：老顽童从 OCR 卡提取知识点 → `kdo scaffold --new` 创建正式卡 → 原 OCR 卡保留在 raw/ 作为溯源记录
+
+### 存量处理
+
+368 张存量 OCR 卡已迁移到 `30_wiki/raw/ocr/`，门禁已排除。
