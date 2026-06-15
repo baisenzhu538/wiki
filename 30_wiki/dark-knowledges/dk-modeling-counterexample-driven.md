@@ -23,7 +23,7 @@ related:
 - '[[modeling-level-map]]'
 - '[[dk-modeling-expert-consensus-five-percent]]'
 tags:
-- '#source_type/diverse'
+- '#source-type/diverse'
 - '#domain/yitang'
 - '#method/model-validation'
 - '#method/critical-thinking'

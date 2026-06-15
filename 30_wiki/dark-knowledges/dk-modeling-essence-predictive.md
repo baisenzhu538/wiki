@@ -22,7 +22,7 @@ related:
 - '[[modeling-capability-system]]'
 - '[[dk-modeling-counterexample-driven]]'
 tags:
-- '#source_type/diverse'
+- '#source-type/diverse'
 - '#domain/yitang'
 - '#method/essence-modeling'
 - '#method/decision-quality'

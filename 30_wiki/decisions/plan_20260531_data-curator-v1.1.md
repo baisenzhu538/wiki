@@ -138,7 +138,7 @@ v1.0 规则：文件名前缀 → domain tag → 内容关键词
 v1.1 新增：
 - **`#source_type/process`**：检测到修改记录、对比版本、评审标注 → 自动标记
 - **`#source_type/error`**：检测到反例、bad case、Not Do List → 自动标记
-- **`#source_type/diverse`**：检测到口述稿、聊天记录格式 → 自动标记
+- **`#source-type/diverse`**：检测到口述稿、聊天记录格式 → 自动标记
 
 ---
 
