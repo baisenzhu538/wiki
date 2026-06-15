@@ -1,6 +1,7 @@
 ---
 title: KDO Protocol Priority Checklist
-type: improvement-plandomain:
+type: improvement-plan
+domain:
   - kdo
   - ai-saas
   - healthcare

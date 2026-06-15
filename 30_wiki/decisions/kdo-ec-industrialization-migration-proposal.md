@@ -1,6 +1,7 @@
 ---
 title: EC工业化规范 → KDO管线迁移方案
-type: decisiondomain:
+type: decision
+domain:
   - management
   - kdo
   - decision-making

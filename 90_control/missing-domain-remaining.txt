@@ -1,6 +1,6 @@
 # Missing domain cards: 147
-# Generated: 2026-06-15
-# Source: kcard-quality-gate.py after Huangyaoshi S3
+# Generated: 2026-06-16
+# Source: kcard-quality-gate.py after Huangyaoshi S3 final
 
 30_wiki\cases\case-ether-online-acquisition.md
 30_wiki\concepts\skill-Truman-AI场景探索STAR模型.md

@@ -1,6 +1,7 @@
 ---
 plan_id: plan_20260503_f3e9a2b1
-type: improvement-plandomain:
+type: improvement-plan
+domain:
   - kdo
   - ai-saas
   - decision-making

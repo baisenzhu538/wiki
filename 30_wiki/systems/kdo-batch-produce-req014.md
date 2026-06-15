@@ -5,7 +5,8 @@ source_context: KDO infrastructure decision — internal design record
 source_refs: []
 role: Knowledge Builder
 created_at: '2026-05-04'
-status: proposeddomain:
+status: proposed
+domain:
   - master
   - kdo
   - product

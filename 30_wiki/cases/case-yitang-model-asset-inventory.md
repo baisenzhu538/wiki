@@ -1,35 +1,43 @@
 ---
-id: "case-yitang-model-asset-inventory"
-title: "案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式"
+id: case-yitang-model-asset-inventory
+title: 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式
 type: case
 status: draft
 problem_domains:
-  - "知识管理"
-  - "建模沉淀"
-industry: "在线教育"
-scale: "公司"
-source_person: "Truman"
-source_context: "一堂建模能力培训，2026-06-12"
+- 知识管理
+- 建模沉淀
+industry: 在线教育
+scale: 公司
+source_person: Truman
+source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
+- src_20260614_8269ccdb
 wiki_refs:
-  - "[[dk-modeling-model-arsenal-paradigms]]"
-  - "[[modeling-weapon-library]]"
+- '[[dk-modeling-model-arsenal-paradigms]]'
+- '[[modeling-weapon-library]]'
 definition_of_done:
-  - "问题描述清晰"
-  - "方案可理解"
-  - "可迁移点明确"
+- 问题描述清晰
+- 方案可理解
+- 可迁移点明确
 tags:
-  - "#case"
-  - "#problem/knowledge-management"
-  - "#source/truman"
+- '#case'
+- '#problem/knowledge-management'
+- '#source/truman'
 related_skills:
-  - "[[modeling-weapon-library]]"
+- '[[modeling-weapon-library]]'
 related_concepts:
-  - "[[dk-modeling-model-arsenal-paradigms]]"
+- '[[dk-modeling-model-arsenal-paradigms]]'
 related_cases: []
-created_at: "2026-06-15"
-updated_at: "2026-06-15"
+created_at: '2026-06-15'
+updated_at: '2026-06-15'
+author: 老顽童
+reviewed_by: pending
+confidence: 0.8
+trust_level: medium
+domain:
+- yitang
+- 知识管理
+- 建模沉淀
 ---
 
 # 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式

@@ -1,6 +1,7 @@
 ---
 plan_id: plan_20260501_85a84b92
-type: improvement-plandomain:
+type: improvement-plan
+domain:
   - decision-making
   - finance-legal
   - business-strategy

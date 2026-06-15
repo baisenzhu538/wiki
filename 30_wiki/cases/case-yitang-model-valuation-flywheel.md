@@ -1,32 +1,40 @@
 ---
-id: "case-yitang-model-valuation-flywheel"
-title: "案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮"
+id: case-yitang-model-valuation-flywheel
+title: 案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮
 type: case
 status: draft
 problem_domains:
-  - "组织激励"
-  - "模型质量管理"
-industry: "在线教育"
-scale: "公司"
-source_person: "Truman"
-source_context: "一堂建模能力培训，2026-06-12"
+- 组织激励
+- 模型质量管理
+industry: 在线教育
+scale: 公司
+source_person: Truman
+source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
+- src_20260614_8269ccdb
 wiki_refs: []
 definition_of_done:
-  - "问题描述清晰"
-  - "方案可理解"
-  - "可迁移点明确"
+- 问题描述清晰
+- 方案可理解
+- 可迁移点明确
 tags:
-  - "#case"
-  - "#problem/org-incentives"
-  - "#source/truman"
+- '#case'
+- '#problem/org-incentives'
+- '#source/truman'
 related_skills: []
 related_concepts:
-  - "[[dk-modeling-model-arsenal-paradigms]]"
+- '[[dk-modeling-model-arsenal-paradigms]]'
 related_cases: []
-created_at: "2026-06-15"
-updated_at: "2026-06-15"
+created_at: '2026-06-15'
+updated_at: '2026-06-15'
+author: 老顽童
+reviewed_by: pending
+confidence: 0.8
+trust_level: medium
+domain:
+- yitang
+- 组织激励
+- 模型质量管理
 ---
 
 # 案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮

@@ -5,7 +5,8 @@ source_context: KDO internal record
 source_refs: []
 role: 知识架构师 (Knowledge Architect)
 created_at: '2026-05-04'
-status: proposeddomain:
+status: proposed
+domain:
   - kdo
 implementor: 黄药师 (Builder)
 dependency: 已有 kdo watch（inbox 监听 + 自动 ingest → enrich → 重建索引）

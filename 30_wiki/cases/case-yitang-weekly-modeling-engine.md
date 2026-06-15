@@ -1,32 +1,40 @@
 ---
-id: "case-yitang-weekly-modeling-engine"
-title: "案例：一堂的“周对周建模迭代”——把周五课程逼成公司增长引擎"
+id: case-yitang-weekly-modeling-engine
+title: 案例：一堂的“周对周建模迭代”——把周五课程逼成公司增长引擎
 type: case
 status: draft
 problem_domains:
-  - "组织学习"
-  - "模型迭代"
-industry: "在线教育"
-scale: "公司"
-source_person: "Truman"
-source_context: "一堂建模能力培训，2026-06-12"
+- 组织学习
+- 模型迭代
+industry: 在线教育
+scale: 公司
+source_person: Truman
+source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
+- src_20260614_8269ccdb
 wiki_refs: []
 definition_of_done:
-  - "问题描述清晰"
-  - "方案可理解"
-  - "可迁移点明确"
+- 问题描述清晰
+- 方案可理解
+- 可迁移点明确
 tags:
-  - "#case"
-  - "#problem/org-learning"
-  - "#source/truman"
+- '#case'
+- '#problem/org-learning'
+- '#source/truman'
 related_skills: []
 related_concepts:
-  - "[[dk-modeling-course-rnd-ripe-fruit]]"
+- '[[dk-modeling-course-rnd-ripe-fruit]]'
 related_cases: []
-created_at: "2026-06-15"
-updated_at: "2026-06-15"
+created_at: '2026-06-15'
+updated_at: '2026-06-15'
+author: 老顽童
+reviewed_by: pending
+confidence: 0.8
+trust_level: medium
+domain:
+- yitang
+- 组织学习
+- 模型迭代
 ---
 
 # 案例：一堂的“周对周建模迭代”——把周五课程逼成公司增长引擎

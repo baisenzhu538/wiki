@@ -16,7 +16,7 @@ trust_level: medium
 related:
   - "dk-modeling-counterexample-driven"
   - "framework-course-milestone-model"
-  - "dk-modeling-weekly-modeling-iteration-growth-engine"
+  - "case-yitang-weekly-modeling-engine"
 tags:
   - "#source_type/process"
   - "#domain/yitang"
@@ -85,5 +85,5 @@ updated_at: "2026-06-15"
 
 - [[dk-modeling-counterexample-driven]] —— 研究型内容需要以推翻为目标验证。
 - [[framework-course-milestone-model]] —— 一堂课程里程碑模型。
-- [[dk-modeling-weekly-modeling-iteration-growth-engine]] —— 用周对周迭代保证研究持续推进。
+- [[case-yitang-weekly-modeling-engine]] —— 用周对周迭代保证研究持续推进。
 - `src_20260614_8269ccdb#3694-3719` —— Truman 口述原文：研究型课程无法提前排课表。

@@ -1,6 +1,7 @@
 ---
 title: KDO Protocol Implementation Roadmap — Detailed Recommendation Report
-type: improvement-plandomain:
+type: improvement-plan
+domain:
   - decision-making
   - design
   - healthcare

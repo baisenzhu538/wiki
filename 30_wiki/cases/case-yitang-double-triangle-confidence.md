@@ -1,34 +1,42 @@
 ---
-id: "case-yitang-double-triangle-confidence"
-title: "案例：一堂把双三角模型变成 AI 难题的通用解题底盘"
+id: case-yitang-double-triangle-confidence
+title: 案例：一堂把双三角模型变成 AI 难题的通用解题底盘
 type: case
 status: draft
 problem_domains:
-  - "AI 工作流设计"
-  - "复杂问题分析"
-industry: "在线教育/AI 产品"
-scale: "公司"
-source_person: "Truman"
-source_context: "一堂建模能力培训，2026-06-12"
+- AI 工作流设计
+- 复杂问题分析
+industry: 在线教育/AI 产品
+scale: 公司
+source_person: Truman
+source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
+- src_20260614_8269ccdb
 wiki_refs:
-  - "[[dk-modeling-business-visual-logic-match]]"
+- '[[dk-modeling-business-visual-logic-match]]'
 definition_of_done:
-  - "问题描述清晰"
-  - "方案可理解"
-  - "可迁移点明确"
+- 问题描述清晰
+- 方案可理解
+- 可迁移点明确
 tags:
-  - "#case"
-  - "#problem/ai-workflow"
-  - "#source/truman"
+- '#case'
+- '#problem/ai-workflow'
+- '#source/truman'
 related_skills:
-  - "[[tool-binary-quadrant-modeling]]"
+- '[[tool-binary-quadrant-modeling]]'
 related_concepts:
-  - "[[dk-modeling-business-visual-logic-match]]"
+- '[[dk-modeling-business-visual-logic-match]]'
 related_cases: []
-created_at: "2026-06-15"
-updated_at: "2026-06-15"
+created_at: '2026-06-15'
+updated_at: '2026-06-15'
+author: 老顽童
+reviewed_by: pending
+confidence: 0.8
+trust_level: medium
+domain:
+- yitang
+- AI 工作流设计
+- 复杂问题分析
 ---
 
 # 案例：一堂把双三角模型变成 AI 难题的通用解题底盘

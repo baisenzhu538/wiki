@@ -1,34 +1,39 @@
 ---
-id: "case-truman-sales-report-structure"
-title: "案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链"
+id: case-truman-sales-report-structure
+title: 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链
 type: case
 status: draft
-problem_domains:
-  - "工作汇报"
-  - "复盘结构化"
-industry: "通用"
-scale: "团队"
-source_person: "Truman"
-source_context: "一堂建模能力培训，2026-06-12"
+problem_domains: &id001
+- 工作汇报
+- 复盘结构化
+industry: 通用
+scale: 团队
+source_person: Truman
+source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-  - "src_20260614_8269ccdb"
+- src_20260614_8269ccdb
 wiki_refs:
-  - "[[dk-modeling-checklist-formatting-rules]]"
+- '[[dk-modeling-checklist-formatting-rules]]'
 definition_of_done:
-  - "问题描述清晰"
-  - "方案可理解"
-  - "可迁移点明确"
+- 问题描述清晰
+- 方案可理解
+- 可迁移点明确
 tags:
-  - "#case"
-  - "#problem/reporting"
-  - "#source/truman"
+- '#case'
+- '#problem/reporting'
+- '#source/truman'
 related_skills:
-  - "[[dk-modeling-checklist-formatting-rules]]"
+- '[[dk-modeling-checklist-formatting-rules]]'
 related_concepts:
-  - "[[dk-modeling-logical-cleanliness-root]]"
+- '[[dk-modeling-logical-cleanliness-root]]'
 related_cases: []
-created_at: "2026-06-15"
-updated_at: "2026-06-15"
+created_at: '2026-06-15'
+updated_at: '2026-06-15'
+author: 老顽童
+reviewed_by: pending
+confidence: 0.8
+trust_level: medium
+domain: *id001
 ---
 
 # 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链

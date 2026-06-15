@@ -1,6 +1,7 @@
 ---
 title: 高密度素材编译策略（修订）
-type: decisiondomain:
+type: decision
+domain:
   - product
   - design
   - decision-making

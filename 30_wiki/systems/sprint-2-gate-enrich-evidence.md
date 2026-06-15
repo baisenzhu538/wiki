@@ -1,6 +1,7 @@
 ---
 title: Sprint 2 门禁系统 + Enrich 举证 — 设计规格
-type: systemdomain:
+type: system
+domain:
   - kdo
   - decision-making
   - design

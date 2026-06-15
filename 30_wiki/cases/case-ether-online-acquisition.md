@@ -1,7 +1,8 @@
 ---
 id: "case-ether-online-acquisition"
 title: "案例：以太利用全网调研能力快速获客"
-type: "case"domain:
+type: "case"
+domain:
   - ai-collaboration
   - business-strategy
   - ai-saas
