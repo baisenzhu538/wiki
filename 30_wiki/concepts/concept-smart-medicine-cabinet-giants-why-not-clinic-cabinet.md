@@ -17,9 +17,9 @@ review_date: 2026-06-15
 confidence: 0.85
 trust_level: high
 related:
-  - [['smart-medicine-cabinet-national-policy-redlines']]
-  - [['smart-medicine-cabinet-financial-model']]
-  - [['smart-medicine-cabinet-clinic-risk-observation']]
+  - [[smart-medicine-cabinet-national-policy-redlines]]
+  - [[smart-medicine-cabinet-financial-model]]
+  - [[smart-medicine-cabinet-clinic-risk-observation]]
 ---
 
 # 巨头为何不做诊所+智能药柜：竞争格局与壁垒分析

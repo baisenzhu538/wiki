@@ -17,10 +17,10 @@ review_date: 2026-06-15
 confidence: 0.82
 trust_level: high
 related:
-  - [['smart-medicine-cabinet-national-policy-redlines']]
-  - [['smart-medicine-cabinet-clinic-risk-observation']]
-  - [['tool-clinic-cabinet-legal-contract-guide']]
-  - [['case-smart-medicine-cabinet-failure-patterns-library']]
+  - [[smart-medicine-cabinet-national-policy-redlines]]
+  - [[smart-medicine-cabinet-clinic-risk-observation]]
+  - [[tool-clinic-cabinet-legal-contract-guide]]
+  - [[case-smart-medicine-cabinet-failure-patterns-library]]
 ---
 
 # 国际自动取药机/药房模式经验与启示

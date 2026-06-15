@@ -20,10 +20,10 @@ review_date: 2026-06-15
 confidence: 0.78
 trust_level: medium
 related:
-  - [['smart-medicine-cabinet-financial-model']]
-  - [['smart-medicine-cabinet-fraud-detection']]
-  - [['smart-medicine-cabinet-clinic-risk-observation']]
-  - [['case-smart-medicine-cabinet-failure-patterns-library']]
+  - [[smart-medicine-cabinet-financial-model]]
+  - [[smart-medicine-cabinet-fraud-detection]]
+  - [[smart-medicine-cabinet-clinic-risk-observation]]
+  - [[case-smart-medicine-cabinet-failure-patterns-library]]
 ---
 
 ---

@@ -16,11 +16,11 @@ review_date: 2026-06-15
 confidence: 0.6
 trust_level: low
 related:
-  - [['smart-medicine-cabinet-financial-model']]
-  - [['smart-medicine-cabinet-fraud-detection']]
-  - [['smart-medicine-cabinet-clinic-risk-observation']]
-  - [['smart-medicine-cabinet-national-policy-redlines']]
-  - [['smart-medicine-cabinet-regional-policy-map']]
+  - [[smart-medicine-cabinet-financial-model]]
+  - [[smart-medicine-cabinet-fraud-detection]]
+  - [[smart-medicine-cabinet-clinic-risk-observation]]
+  - [[smart-medicine-cabinet-national-policy-redlines]]
+  - [[smart-medicine-cabinet-regional-policy-map]]
 source_person: "王语嫣"
 source_context: "听脑录音 1241665/1883124/2431721/2447560 交叉验证"
 ---

@@ -16,9 +16,9 @@ review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
 related:
-  - [['smart-medicine-cabinet-fraud-detection']]
-  - [['smart-medicine-cabinet-clinic-risk-observation']]
-  - [['case-smart-medicine-cabinet-business-model-validation']]
+  - [[smart-medicine-cabinet-fraud-detection]]
+  - [[smart-medicine-cabinet-clinic-risk-observation]]
+  - [[case-smart-medicine-cabinet-business-model-validation]]
 source_person: "王语嫣"
 source_context: "听脑录音 1422729/4376859/4873420/4785075/4880681/8020205 交叉验证"
 ---

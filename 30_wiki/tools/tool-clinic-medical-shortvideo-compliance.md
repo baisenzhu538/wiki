@@ -17,9 +17,9 @@ review_date: 2026-06-15
 confidence: 0.88
 trust_level: high
 related:
-  - [['smart-medicine-cabinet-fraud-detection']]
-  - [['smart-medicine-cabinet-clinic-risk-observation']]
-  - [['tool-clinic-cabinet-legal-contract-guide']]
+  - [[smart-medicine-cabinet-fraud-detection]]
+  - [[smart-medicine-cabinet-clinic-risk-observation]]
+  - [[tool-clinic-cabinet-legal-contract-guide]]
 ---
 
 ---

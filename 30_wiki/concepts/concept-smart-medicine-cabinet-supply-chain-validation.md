@@ -16,8 +16,8 @@ review_date: 2026-06-15
 confidence: 0.72
 trust_level: medium
 related:
-  - [['smart-medicine-cabinet-financial-model']]
-  - [['case-smart-medicine-cabinet-failure-patterns-library']]
+  - [[smart-medicine-cabinet-financial-model]]
+  - [[case-smart-medicine-cabinet-failure-patterns-library]]
 ---
 
 # 智能药柜供应链/技术交叉验证（知识卡草稿）

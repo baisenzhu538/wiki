@@ -16,9 +16,9 @@ review_date: 2026-06-15
 confidence: 0.7
 trust_level: medium
 related:
-  - [['smart-medicine-cabinet-national-policy-redlines']]
-  - [['smart-medicine-cabinet-clinic-risk-observation']]
-  - [['case-smart-medicine-cabinet-corporate-risk']]
+  - [[smart-medicine-cabinet-national-policy-redlines]]
+  - [[smart-medicine-cabinet-clinic-risk-observation]]
+  - [[case-smart-medicine-cabinet-corporate-risk]]
 ---
 
 # 知识卡草稿：智能药柜/数字药房项目诊断

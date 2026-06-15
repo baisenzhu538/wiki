@@ -18,10 +18,10 @@ review_date: 2026-06-15
 confidence: 0.78
 trust_level: medium
 related:
-  - [['smart-medicine-cabinet-financial-model']]
-  - [['smart-medicine-cabinet-o2o-cost-structure']]
-  - [['smart-medicine-cabinet-clinic-risk-observation']]
-  - [['tool-smart-medicine-cabinet-site-selection-guide']]
+  - [[smart-medicine-cabinet-financial-model]]
+  - [[smart-medicine-cabinet-o2o-cost-structure]]
+  - [[smart-medicine-cabinet-clinic-risk-observation]]
+  - [[tool-smart-medicine-cabinet-site-selection-guide]]
 ---
 
 # 消费者购药行为与智能药柜接受度

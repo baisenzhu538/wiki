@@ -16,10 +16,10 @@ review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
 related:
-  - [['smart-medicine-cabinet-national-policy-redlines']]
-  - [['smart-medicine-cabinet-regional-policy-map']]
-  - [['smart-medicine-cabinet-clinic-risk-observation']]
-  - [['tool-clinic-cabinet-legal-contract-guide']]
+  - [[smart-medicine-cabinet-national-policy-redlines]]
+  - [[smart-medicine-cabinet-regional-policy-map]]
+  - [[smart-medicine-cabinet-clinic-risk-observation]]
+  - [[tool-clinic-cabinet-legal-contract-guide]]
 ---
 
 ---

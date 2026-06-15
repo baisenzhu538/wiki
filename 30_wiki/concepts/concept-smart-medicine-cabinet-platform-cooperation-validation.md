@@ -16,8 +16,8 @@ review_date: 2026-06-15
 confidence: 0.7
 trust_level: medium
 related:
-  - [['smart-medicine-cabinet-o2o-cost-structure']]
-  - [['concept-smart-medicine-cabinet-digital-pharmacy-diagnosis']]
+  - [[smart-medicine-cabinet-o2o-cost-structure]]
+  - [[concept-smart-medicine-cabinet-digital-pharmacy-diagnosis]]
 ---
 
 # 智能药柜平台合作命题交叉验证
