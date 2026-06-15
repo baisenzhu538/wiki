@@ -2584,3 +2584,131 @@ total: 1190, p0: 0, p1: 0, clean: 1190, yaml_error: 0
 1. 部分 case 卡中的具体数字仍为学员/讲师自述，已标注待独立核实。
 2. `yt-decision-y-model` 等卡片中使用的 `[[id|别名]]` 别名语法已被修复为标准 `[[id]]`，后续若门禁脚本升级需再检查。
 3. `kdo_lint.py` 对 wikilink 和中文 card ID 存在误报，未作为本次验收依据。
+
+---
+
+## 二十、下一阶段：再三十张卡深度精修（老顽童主责）
+
+> **来源**：用户要求继续安排 30 张卡让老顽童自行精修。
+> **角色说明**：欧阳锋当前连不上，由王语嫣代欧阳锋评估与验收。
+> **目标**：对 30 张已有卡片做第二圈深度提升，重点补 diagnostic_signals、失败模式、互链和案例/模板。
+> **验收人**：王语嫣（代欧阳锋）
+
+### 三十张目标卡
+
+#### 批次 1：建模域案例卡升级（8 张）
+
+| 序号 | 卡片 ID | 类型 | 精修重点 |
+|:----:|:--------|:----:|:---------|
+| 1 | `case-modeling-abstraction-reliability-ladder` | case | status→enriched；补充抽象阶梯与可靠性梯子的具体应用过程；新增 3 条诊断信号 |
+| 2 | `case-modeling-abstraction-yitang-models` | case | status→enriched；补充一堂模型资产抽象归纳的前后对比；新增可迁移场景 |
+| 3 | `case-modeling-essence-levels` | case | status→enriched；补充本质模型分层落地的关键转折点；新增失败模式 |
+| 4 | `case-modeling-essence-schools` | case | status→enriched；补充本质建模流派对比的具体决策场景；新增诊断信号 |
+| 5 | `case-modeling-process-livestream-prep` | case | status→enriched；补充直播前准备流程建模的 Before/After 对比；新增 SOP 模板 |
+| 6 | `case-modeling-process-livestream-roles` | case | status→enriched；补充直播角色分工模型；新增角色职责检查清单 |
+| 7 | `case-modeling-process-sop-evolution` | case | status→enriched；补充 SOP 从 1.0 到 4.0 的演进时间线和关键升级点 |
+| 8 | `case-modeling-process-sop-examples` | case | status→enriched；补充多个 SOP 案例的共性结构；新增 SOP 设计自检清单 |
+
+#### 批次 2：Truman/一堂案例卡升级（6 张）
+
+| 序号 | 卡片 ID | 类型 | 精修重点 |
+|:----:|:--------|:----:|:---------|
+| 9 | `case-ether-online-acquisition` | case | status→enriched；补充线上获客案例的问题-方案-结果-可迁移四段；新增诊断信号 |
+| 10 | `case-jh-yitang-vs-sqlhelper` | case | status→enriched；补充技术选型对比的关键假设与验证过程 |
+| 11 | `case-truman-motivation-map-12-versions` | case | status→enriched；补充动机图谱 12 版迭代的关键转折；新增失败模式 |
+| 12 | `case-truman-poker-deck-roi` | case | status→enriched；补充扑克牌 ROI 计算模型的应用场景和计算模板 |
+| 13 | `case-truman-prd-checklist-evolution` | case | status→enriched；补充 PRD 清单演进的具体版本对比；新增使用边界 |
+| 14 | `case-truman-ai-skill-engineering-guide` | case | status→enriched；补充 AI Skill 工程指南的产出过程；新增可迁移 checklist |
+
+#### 批次 3：其他案例卡升级（4 张）
+
+| 序号 | 卡片 ID | 类型 | 精修重点 |
+|:----:|:--------|:----:|:---------|
+| 15 | `case-personal-map-modeling` | case | status→enriched；补充个人地图建模的具体步骤和输出物 |
+| 16 | `case-unit-model-gashapon` | case | status→enriched；补充扭蛋机单元模型案例的测算过程；新增模板 |
+| 17 | `case-yitang-model-asset-inventory` | case | status→enriched；补充一堂模型资产盘点的具体方法和 48 个范式归类 |
+| 18 | `case-yitang-model-valuation-flywheel` | case | status→enriched；补充模型定价飞轮的具体机制；新增诊断信号 |
+
+#### 批次 4：精益创业案例卡升级（2 张）
+
+| 序号 | 卡片 ID | 类型 | 精修重点 |
+|:----:|:--------|:----:|:---------|
+| 19 | `yt-lean-daily-chemical-mvp` | case | status→enriched；补充日化 MVP 实验设计和数据反馈；新增失败模式 |
+| 20 | `yt-lean-flower-mom-group-leader` | case | status→enriched；补充宝妈团长 MVP 的关键假设验证过程 |
+
+#### 批次 5：管理概念卡深化（5 张）
+
+| 序号 | 卡片 ID | 类型 | 精修重点 |
+|:----:|:--------|:----:|:---------|
+| 21 | `yt-management-business-formula` | concept | DS 从 2 条扩到 3 条；新增管理业务公式的应用模板 |
+| 22 | `yt-management-finance-basics` | concept | DS 从 2 条扩到 3 条；新增财务基础概念常见误用场景；补互链 |
+| 23 | `yt-management-goal-management` | concept | DS 从 2 条扩到 3 条；新增目标管理失败模式；补互链 |
+| 24 | `yt-management-founder-role` | concept | DS 从 2 条扩到 3 条；新增创始人角色边界与常见错位；补互链 |
+| 25 | `yt-management-company-culture` | concept | DS 从 2 条扩到 3 条；新增文化建设的具体失败模式；补互链 |
+
+#### 批次 6：暗知识卡深化（5 张）
+
+| 序号 | 卡片 ID | 类型 | 精修重点 |
+|:----:|:--------|:----:|:---------|
+| 26 | `dk-modeling-ai-without-judgment` | dark-knowledge | status→enriched；新增"无判断力使用 AI"的失败模式表；补互链 |
+| 27 | `dk-modeling-counterexample-driven` | dark-knowledge | status→enriched；新增反例驱动的具体操作流程；新增诊断信号 |
+| 28 | `dk-modeling-logical-cleanliness-root` | dark-knowledge | status→enriched；新增逻辑洁癖的适用边界；新增失败模式 |
+| 29 | `dk-modeling-checklist-formatting-rules` | dark-knowledge | status→enriched；新增清单体格式错误的前后对比；新增自检清单 |
+| 30 | `dk-modeling-course-rnd-ripe-fruit` | dark-knowledge | status→enriched；新增"菜熟才摘"模式的落地 checklist；补互链 |
+
+### 精修标准（必须满足）
+
+每张卡精修后需达到：
+
+1. **diagnostic_signals ≥ 3 条**（框架/工具/概念卡在 frontmatter；case/dk 卡可在正文，但必须 ≥3 条可识别的触发信号/诊断问题）
+2. **Constraints & Boundaries ≥ 4 条适用边界 + 4 条失败模式**（框架/工具/概念卡）；case/dk 卡必须有 ≥4 条"可迁移场景/使用边界"和 ≥4 条"失败模式/常见陷阱"
+3. **失败模式必须具体**：有真实症状 + 可执行修复
+4. **新增至少 1 个案例/实例/计算模板/checklist**
+5. **建立至少 2 条新互链**（与相关框架卡、case 卡、dk 卡双向链接）
+6. **更新 `updated_at`**
+7. **跑单卡 lint 通过**，无 YAML 错误
+
+### case/dk 卡特殊要求
+
+- case 卡必须有：**Background / What Happened / 结果 / 可迁移 / 诊断信号 / 失败模式**
+- dk 卡必须有：**原始表述 / 深度洞察 / 使用场景 / 操作方法 / 适用边界 / 失败模式 / 为什么值钱**
+- 所有 case/dk 卡 status 从 draft 改为 enriched（如果当前是 draft）
+
+### 执行节奏
+
+```
+第 1-2 天：批次 1（建模域案例卡 8 张）
+第 3-4 天：批次 2（Truman/一堂案例卡 6 张）
+第 5 天：批次 3（其他案例卡 4 张）
+第 6 天：批次 4（精益创业案例卡 2 张）
+第 7-8 天：批次 5（管理概念卡 5 张）
+第 9-10 天：批次 6（暗知识卡 5 张）
+第 11 天：全库 lint + 质量门禁 + 写小结
+```
+
+实际可交叉执行，不必严格按天。用户已允许 agent 高速执行。
+
+### 严禁
+
+- ❌ 不要新增卡片（本次只精修已有卡）
+- ❌ 不要为了凑数写重复内容
+- ❌ 不要批量改完再跑 lint——改一张跑一张
+- ❌ 不要把 case 卡写成概念描述
+- ❌ 不要把 dk 卡写成普通概念卡（必须保留"原始表述"和"为什么值钱"）
+- ❌ 不要改动不熟悉的卡片（30 张已指定，不要替换）
+
+### 验收标准
+
+- [ ] 30 张卡全部完成精修
+- [ ] 每批完成后可简短记录进度
+- [ ] 全库 `kcard-quality-gate.py` P0 = 0，YAML 错误 = 0
+- [ ] 全库 P1 不新增
+- [ ] 30 张目标卡 status 均为 enriched
+- [ ] 在此文件末尾写小结，列出：精修清单、主要改进点、仍存疑的问题
+
+### 当前基线
+
+```text
+python 90_control/scripts/kcard-quality-gate.py
+total: 1190, p0=0, p1=0, clean=1190, yaml_error: 0
+```
