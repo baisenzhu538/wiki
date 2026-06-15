@@ -2286,13 +2286,33 @@ total: 1185, p0: 0, p1: 0, clean: 1185, yaml_error: 0
 - 为新增图片和作业合集在 `.kdo/source_id_map.json` 注册新的 src_ID
 - 所有新增卡片和 case 卡的 source_refs 必须包含新 src_ID
 
+**已注册 source**：
+
+| src_ID | 说明 | 文件 |
+|---|---|---|
+| `src_20260616_18764078` | 19 张 ToB 五步法图片 OCR 合集 | `10_raw/sources/src_20260616_18764078-yitang-tob-five-step-19-images-ocr.md` |
+| `src_20260616_aac184cc` | 一堂 ToB 五步法优秀作业合集 | `10_raw/sources/src_20260616_aac184cc-yitang-tob-five-step-homework-collection.md` |
+
+**新增/修改卡片清单**：
+
+| 卡片 | 类型 | 变更 |
+|---|---|---|
+| `yt-tob-demand-metrics` | framework | 插入 06 图公式可视化，补充 src_20260616_18764078 |
+| `yt-tob-customer-sabc` | tool | 插入 04 图 SABC 说明，补充 src_20260616_18764078 |
+| `yt-tob-unit-model` | framework | 插入 10 图单销售模型强调，补充 src_20260616_18764078 |
+| `yt-tob-barriers` | framework | 新增：壁垒选择、强弱判断、规模不经济对抗 |
+| `case-yitang-tob-artificial-bone` | case | 新增：李志军人工骨医疗器械上市失败 |
+| `case-yitang-tob-grinding-machine` | case | 新增：蔡留照磨床自制项目 |
+| `case-yitang-tob-smart-park` | case | 新增：黄成有智慧园区项目复盘 |
+| `case-yitang-tob-career-planning` | case | 新增：董程滨新高考选科与生涯规划 |
+
 ### 验收标准
 
-- [ ] 任务 A：至少 3 张已有卡片补充了图片中的核心表述
-- [ ] 任务 B：新增 1-3 张壁垒相关卡片
-- [ ] 任务 C：新增 3-5 张学员 case 卡
-- [ ] 任务 D：新增 source 已注册，所有卡片 source_refs 有效
-- [ ] 跑 `kcard-quality-gate.py`，P0/P1 不反弹
+- [x] 任务 A：至少 3 张已有卡片补充了图片中的核心表述
+- [x] 任务 B：新增 1-3 张壁垒相关卡片
+- [x] 任务 C：新增 3-5 张学员 case 卡
+- [x] 任务 D：新增 source 已注册，所有卡片 source_refs 有效
+- [x] 跑 `kcard-quality-gate.py`，P0/P1 不反弹
 
 ### 当前状态
 
@@ -2302,5 +2322,6 @@ total: 1185, p0: 0, p1: 0, clean: 1185, yaml_error: 0
 - 欧阳锋审查通过 ✅
 - 新增图片 19 张 OCR 完成 ✅
 - 新增作业合集 1 个 ✅
-- 下一步：老顽童执行 A+B+C+D
+- 任务 A+B+C+D 已完成 ✅
+- 质量门禁：total=1190, p0=0, p1=0, clean=1190 ✅
 ```
