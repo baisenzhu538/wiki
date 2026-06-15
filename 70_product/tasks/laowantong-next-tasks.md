@@ -2181,3 +2181,42 @@ total: 1185, p0: 0, p1: 0, clean: 1185, yaml_error: 0
 阶段三 ✅ 黄药师自动门禁通过：P0=0, P1=0, clean=1185
 阶段四 ⏸️ 欧阳锋抽检待命
 ```
+
+
+### 欧阳锋审查意见与修补（2026-06-16）
+
+**审查评分**：8/10，A- 级，高于精益创业域（B+）。
+
+**欧阳锋结论**：
+- 13 张卡片全部 enriched、diagnostic_signals 全覆盖
+- 领域逻辑链清晰：总纲 → 需求 → 产品 → 方案 → 单元 → 增长
+- 信源矛盾处理规范，多处标注"讲师观察，非普适规律"
+- `revenue-is-customer-cost`、`core-characteristics`、`product-kernel`、`sales-unit-model` 为亮点
+
+**通过条件与修补结果**：
+
+| # | 问题 | 涉及卡片 | 状态 |
+|---|---|---|---|
+| 1 | `yt-tob-customer-sabc` type=tool 但放在 concepts/ | `yt-tob-customer-sabc` | ✅ 已移入 `30_wiki/tools/` |
+| 2 | `yt-tob-sales-unit-model` type=skill 但放在 concepts/ | `yt-tob-sales-unit-model` | ✅ type 已从 skill 改为 concept，保留在 concepts/ |
+| 3 | 天花板测算公式缺少敏感性分析 | `yt-tob-demand-metrics` | ✅ 已补充 2.3 节"敏感性分析"，说明三变量±30%~±50% 偏差及保守做法 |
+
+**质量门禁复核**：
+
+```text
+python 90_control/scripts/kcard-quality-gate.py
+total: 1185, p0: 0, p1: 0, clean: 1185, yaml_error: 0
+```
+
+**当前状态**：
+
+```text
+阶段一 ✅ 王语嫣入口质量门完成
+阶段二 ✅ 老顽童已完成（12/12）
+阶段三 ✅ 黄药师自动门禁通过
+阶段四 ✅ 欧阳锋审查通过（A- 级）
+```
+
+**后续建议**（欧阳锋提出）：
+1. 考虑建立两域桥接卡："精益测试在 ToB 中的特殊应用"
+2. 与现有 McKinsey/consulting 域建立对位卡

@@ -1,7 +1,7 @@
 ---
 id: yt-tob-sales-unit-model
 title: To B 单销售模型：时间闭环 + 空间闭环
-type: skill
+type: concept
 status: enriched
 domain:
 - yitang
