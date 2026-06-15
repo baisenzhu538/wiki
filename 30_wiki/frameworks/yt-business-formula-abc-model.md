@@ -10,7 +10,7 @@ domain:
 source_refs:
 - src_20260613_6edbf0af
 - src_20260614_6d9f7671
-- source_unknown
+- src_20260613_6b939d2b
 tags:
 - '#method/evaluation-method'
 - '#content-format/framework'
@@ -31,7 +31,6 @@ related:
 - '[[yt-unit-model-three-tools]]'
 - '[[yt-five-step-method]]'
 ---
-
 # 业务公式 ABC 模型（Ambition-Basis-Connection）
 
 > 一堂业务公式拆解培训的极简框架：**目标（Ambition）+ 参数（Basis）+ 逻辑关系（Connection）= 业务公式**。  

@@ -30,7 +30,7 @@ pipeline:
 author: unknown
 trust_level: medium-high
 source_refs:
-- source_unknown
+- src_20260510_4bb17355
 ---
 # 技能：业务为先的AI中台建设
 

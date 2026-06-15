@@ -9,7 +9,7 @@ domain:
 - business-strategy
 source_refs:
 - src_20260613_6edbf0af
-- source_unknown
+- src_20260613_6b939d2b
 tags:
 - '#method/evaluation-method'
 - '#method/thinking-tool'
@@ -28,7 +28,6 @@ related:
 - '[[yt-decision-depth-ladder]]'
 - '[[yt-model-deep-review-iceberg]]'
 ---
-
 # 业务公式六层逻辑关系（L1 模糊 → L6 动态）
 
 > 一堂把人对业务公式的理解深度分为 6 层：从 L1「模糊」的安慰剂，到 L6「动态」的导航仪。每一层不仅对应公式的复杂度，更对应管理者的决策能力。  

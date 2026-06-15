@@ -12,7 +12,6 @@ source_refs:
 - src_20260613_26c69f98
 - src_20260613_6ed8df4b
 - src_20260613_c5f5a7ce
-- source_unknown
 tags:
 - '#industry/healthcare'
 created_at: '2026-06-14'

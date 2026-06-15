@@ -11,7 +11,8 @@ implementor: 黄药师 (Builder)
 id: graph-rag-retrieval-layer
 type: concept
 source_refs:
-- source_unknown
+- src_20260502_7d7c1b7c
+- src_20260503_9bfe6913
 superseded_design: v0.1 keyword-based — 原计划基于 index.json 的纯标准库方案，因黄药师已完成 LightRAG
   MVP 且检索质量更优，该方案已废弃
 reviewed_by: 欧阳锋

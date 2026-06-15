@@ -12,7 +12,6 @@ source_refs:
 - src_20260613_6ed8df4b
 - src_20260613_59270720
 - src_20260613_ccf533f9
-- source_unknown
 tags:
 - '#industry/healthcare'
 created_at: '2026-06-14'
@@ -37,7 +36,6 @@ query_triggers:
 - 药柜高收益承诺
 difficulty: intermediate
 ---
-
 # 智能药柜/智慧药房招商骗局识别清单
 
 > **核心定位**：智能药柜/智慧药房招商领域存在典型骗局模式。本卡以"修正未来智慧药房"等案例为镜鉴，提供招商合作前的风险识别 checklist。

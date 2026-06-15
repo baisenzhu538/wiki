@@ -9,7 +9,7 @@ domain:
 - business-strategy
 source_refs:
 - src_20260613_6edbf0af
-- source_unknown
+- src_20260613_6b939d2b
 tags:
 - '#method/evaluation-method'
 - '#method/thinking-tool'
@@ -29,7 +29,6 @@ related:
 - '[[yt-entrepreneur-unit-model]]'
 - '[[yt-growth-cycle-model]]'
 ---
-
 # 一堂业务公式十大经典范式
 
 > 一堂把常见业务增长问题抽象为 10 个公式范式，按「收入提升」「竞争提升」「运营提升」三大目标聚类。  

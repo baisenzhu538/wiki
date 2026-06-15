@@ -15,7 +15,11 @@ review_date: '2026-05-03'
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- source_unknown
+- src_20260501_58b6edef
+- src_20260501_9962715b
+- src_20260502_7d7c1b7c
+- src_20260613_12d63c1c
+- src_20260613_687c4ec0
 confidence: 0.6
 ---
 # KDO Protocol Implementation Roadmap

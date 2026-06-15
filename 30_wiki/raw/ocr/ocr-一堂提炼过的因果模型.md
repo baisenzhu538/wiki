@@ -4,7 +4,7 @@ created_at: 2026-05-21
 domain:
 - yitang
 source_refs:
-- source_unknown
+- src_20260522_77b6cdaf
 status: draft
 title: 'OCR: 一堂提炼过的因果模型'
 type: concept

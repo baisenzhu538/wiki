@@ -9,7 +9,7 @@ domain:
 - business-strategy
 source_refs:
 - src_20260613_6edbf0af
-- source_unknown
+- src_20260613_6b939d2b
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'
@@ -27,7 +27,6 @@ related:
 - '[[yt-entrepreneur-unit-model]]'
 - '[[yt-model-deep-review-iceberg]]'
 ---
-
 # 业务公式参数冰山（L1-L6）
 
 > 一堂把业务公式中的参数按深度分为 6 层：水面上的 L1-L2 是「靠经验」的基础/财务参数，水面下的 L3-L4 是「靠分析」的分层/转化参数，最深层的 L5-L6 是「靠创新」的创新/魔法参数。  

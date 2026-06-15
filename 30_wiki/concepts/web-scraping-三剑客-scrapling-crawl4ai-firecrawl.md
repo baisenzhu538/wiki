@@ -13,7 +13,7 @@ updated_at: '2026-06-16'
 author: unknown
 confidence: 0.7
 source_refs:
-- source_unknown
+- src_20260502_7d7c1b7c
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
 # Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl

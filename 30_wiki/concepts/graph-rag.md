@@ -4,8 +4,8 @@ aliases:
 - Graph RAG
 created_at: 2026-05-03
 domain:
-  - kdo
-related:
+- kdo
+related: null
 review_date: 2026-05-04
 reviewed_by: 黄药师
 status: enriched
@@ -13,11 +13,11 @@ title: Graph RAG — Knowledge-Graph-Powered Retrieval
 trust_level: medium
 type: concept
 updated_at: '2026-06-16'
-pipeline:
+pipeline: null
 author: unknown
 confidence: 0.75
 source_refs:
-  - source_unknown
+- src_20260502_7d7c1b7c
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
 # Graph RAG — Knowledge-Graph-Powered Retrieval

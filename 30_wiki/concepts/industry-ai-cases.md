@@ -4,17 +4,24 @@ title: 产业 AI 落地案例集（非药柜）
 type: concept
 status: enriched
 domain:
-  - ai-collaboration
-  - ai-saas
+- ai-collaboration
+- ai-saas
 source_refs:
-  - source_unknown
-tags:
+- src_20260614_07a9fc2a
+- src_20260614_3cefab90
+- src_20260614_45ab8b35
+- src_20260614_4b3b6427
+- src_20260614_5e47c1c5
+- src_20260614_b85c364e
+- src_20260614_eca9f5b3
+- src_20260614_eed6d83c
+tags: null
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
-related:
+related: null
 confidence: 0.65
 trust_level: medium
 ---

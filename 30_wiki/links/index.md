@@ -10,7 +10,10 @@ reviewed_by: pending
 confidence: 0.5
 trust_level: low
 source_refs:
-- source_unknown
+- src_20260606_42e11f09
+- src_20260606_90b44191
+- src_20260606_cde17edd
+- src_20260606_ef4877d0
 created_at: '2026-06-16'
 updated_at: '2026-06-16'
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）

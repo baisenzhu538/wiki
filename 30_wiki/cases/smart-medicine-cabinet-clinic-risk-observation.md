@@ -14,7 +14,6 @@ source_refs:
 - src_20260613_ccf533f9
 - src_20260613_f3aecb2d
 - src_20260613_9a2b289e
-- source_unknown
 tags:
 - '#industry/healthcare'
 created_at: '2026-06-14'
@@ -44,7 +43,6 @@ prerequisites: smart-medicine-cabinet-national-policy-redlines
 source_person: 王语嫣
 source_context: 智能药柜五轮迭代调研与诊所访谈
 ---
-
 # 诊所 + 智能药柜协同模式：一线观察与风险提示
 
 > **核心定位**：本卡基于一份广州增城/新塘小型诊所老板的访谈逐字稿，记录推销方描绘的"诊所 + 智能药柜 + 慢性病用药 + 医保个账"模式。经交叉验证，该模式存在重大合规风险，**只能作为一线观察案例和风险警示，不能作为可推广的成熟商业模式**。

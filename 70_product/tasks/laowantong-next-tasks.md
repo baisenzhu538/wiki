@@ -1818,3 +1818,45 @@ total: 1339, p0: 0, p1: 0, clean: 1339, yaml_error: 0
 | P3 | 老顽童 | 对 Top N 高价值卡单卡精修 | 等系统干净、工厂就位后，再挑高频/高价值卡精修 |
 
 **老顽童当前指令**：先停一停，等黄药师 S1+S2 完成；期间可以准备"重复卡合并清单"，但不要开始无差别单卡精修。
+
+
+---
+
+## 十四、跨目录重复卡扫描结果与 source_unknown 启动批准
+
+### 跨目录重复卡扫描（老顽童 2026-06-16）
+
+老顽童已完成全库扫描：
+
+```text
+跨目录相同 ID 的卡片：只有 index（index.md / cases/index.md / links/index.md）
+concepts ↔ tools ↔ frameworks 之间：0 组同名同 ID 重复
+```
+
+**结论**：此前 kimi-independent-review-2026-06-16.md 中提到的 15 组重复卡（McKinsey / yt-pitch / yt-tool / yt-unit-model）已无残留，可能已在之前的清理中被合并/归档/重命名。
+
+- 我（Kimi）手里没有这 15 组的具体清单；那个数字来自之前的诊断报告，不是当前扫描结果。
+- 不需要老顽童再按标题/内容相似度重新生成候选重复组。
+- `index` 三处重复是目录索引文件，不是知识卡，保留不动。
+
+### source_unknown 处理批准
+
+**当前数量**：约 257-259 张（OCR 迁移后口径变化，以老顽童扫描为准）。
+
+**批准执行选项 A（保守推断）**：
+
+- 只处理能明确从 `source_context`、`source_person`、文件名、正文推断出 source 的卡；
+- 推断出的替换为对应 `src_` ID（已在 `.kdo/source_id_map.json` 注册）；
+- 推断不出的保持 `source_unknown` 不动；
+- 输出一张《已推断 / 未推断》清单，写入 `60_feedback/corrections/source_unknown-inference-2026-06-16.md`。
+
+**注意**：
+- 不要批量把所有 `source_unknown` 都改成某个默认 src_ID；
+- 对确实无来源的卡片，保留 `source_unknown` 是正确状态；
+- 推断后重新跑 `kcard-quality-gate.py`，确认 P0/P1 不反弹。
+
+### 当前下一步
+
+1. ✅ 跨目录重复卡：已确认无残留，任务关闭。
+2. 🔄 source_unknown 保守推断：老顽童可立即启动。
+3. ⏸️ Top N 单卡精修：等 source_unknown 处理完后再按指定列表执行。

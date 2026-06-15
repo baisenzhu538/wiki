@@ -8,7 +8,7 @@ domain:
 source_person: 月白
 source_context: 文创案例 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- source_unknown
+- src_20260510_4bb17355
 wiki_refs: null
 definition_of_done:
 - 操作步骤清晰可执行

@@ -8,7 +8,8 @@ id: kdo-ec-industrialization-migration-proposal
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- source_unknown
+- src_20260503_dadc7838
+- src_20260503_feab72b2
 reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.6
