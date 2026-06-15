@@ -17,6 +17,7 @@ query_triggers:
 - 三点预测
 related:
 - '[[yt-unit-model-selection]]'
+- '[[yt-unit-model-overview]]'
 review_date: 2026-06-11
 reviewed_by: pending
 source_refs:

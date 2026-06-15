@@ -2,7 +2,7 @@
 id: case-yitang-tob-artificial-bone
 title: 案例：人工骨医疗器械上市失败复盘
 type: case
-status: draft
+status: enriched
 domain:
   - yitang
   - entrepreneurship
@@ -30,6 +30,8 @@ related:
   - '[[yt-tob-barriers]]'
   - '[[yt-entrepreneur-five-step-method]]'
   - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-tob-sales-unit-model]]'
+  - '[[yt-tob-growth-channel]]'
 diagnostic_signals:
   - signal: 创始人因技术领先和专利优势，认为产品拿证后自然大卖。
     framework_lens: 需求验证与商业模式
@@ -37,6 +39,12 @@ diagnostic_signals:
   - signal: 连续三年销售目标严重脱离实际，三年换三任销售总监。
     framework_lens: 增长节奏与单元模型
     follow_up_question: 新医疗产品进入医院的真实周期和单客户获客成本是多少？
+  - signal: 临床医生认可产品价值，但医院入院采购流程停滞超过 6 个月。
+    framework_lens: ToB 决策链与需求验证
+    follow_up_question: 科室主任、设备科、分管院长、招标办、财务各自的决策标准和关键动作是什么？
+  - signal: 团队反复把销售不达标归因于“销售策略/销售总监能力”，而非商业模式假设错误。
+    framework_lens: 关键假设检验与复盘
+    follow_up_question: 如果换三任销售总监都未达目标，是选人问题还是增长假设与行业导入期不匹配？
 ---
 
 > 来源：一堂 ToB 五步法优秀作业合集，学员李志军自述。案例中的销售数字为学员自述，需独立核实关键数据。
