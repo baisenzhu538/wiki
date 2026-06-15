@@ -1392,11 +1392,11 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\concepts\kdo_product_design_agent_final.md
 - 30_wiki\systems\kdo-protocol.md
 
-## [[ocr-一堂-个人修炼-双三角模型]]
+## ocr-一堂-个人修炼-双三角模型
 - 30_wiki\concepts\yitang-huazong-ama-by-industry.md
 - 30_wiki\concepts\yitang-huazong-ama-summary.md
 
-## [[ocr-一堂-个人修炼-科学学习ipo模型]]
+## ocr-一堂-个人修炼-科学学习ipo模型
 - 30_wiki\concepts\ai时代判断力口述-3.md
 
 ## ooda-loop-boyd

@@ -10,7 +10,6 @@ language: zh-CN
 related:
 - '[[yt-personal-ipo-learning]]'
 - '[[master-knowledge-compound]]'
-- '[[ocr-一堂-个人修炼-科学学习ipo模型]]'
 source_refs:
 - src_20260525_66059442
 speaker: 国帅（胡帅），一堂联合创始人兼CTO
@@ -86,7 +85,7 @@ trust_level: medium
 |--------|------|------|
 | [[yt-personal-ipo-learning]]（IPO科学学习） | **互补——同一模型不同场景** | Truman的IPO用于"科学学习"（人对知识），国帅的IPO用于"AI协作"（人对AI产出）。前者强调循环迭代学习，后者强调I/O的判断权不可外包。 |
 | [[master-knowledge-compound]]（知识复利） | **可迁移** | 知识复利的飞轮与判断力飞轮结构同构——都是I→P→O→更好的I的正循环。国帅的"记忆=文档建设"观点与之高度一致。 |
-| [[ocr-一堂-个人修炼-科学学习ipo模型]] | **参考** | OCR卡中IPO的定义与国帅使用的IPO框架一致，可互引。 |
+| ocr-一堂-个人修炼-科学学习ipo模型 | **参考** | OCR卡中IPO的定义与国帅使用的IPO框架一致，可互引。 |
 
 ### 新增概念（库中尚无）
 
