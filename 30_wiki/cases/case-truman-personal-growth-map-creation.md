@@ -20,6 +20,7 @@ related:
 - '[[case-truman-livestream-sop-iteration]]'
 - '[[case-truman-ai-skill-self-packaging]]'
 - '[[modeling-to-kdo-toolchain]]'
+- '[[case-personal-map-modeling]]'
 tags:
 - '#method/modeling'
 - '#content-format/case-study'

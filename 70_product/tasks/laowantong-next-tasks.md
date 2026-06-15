@@ -2872,3 +2872,13 @@ total: 1190, p0=0, p1=0, clean=1190, yaml_error: 0
 **现有框架卡是否体现？**
 - `yt-panproduct-execution-roi-analysis`、`yt-decision-canvas`、`tool-ai-skill-engineering-guide` 分别覆盖了 ROI、决策、AI Skill，但没有一张框架卡把这五段式整合为统一的"工具投资决策框架"。
 - 建议：下一轮精修 `yt-panproduct-execution-roi-analysis` 时，把"机会成本 + 长期复用性 + 执行锁 + 迭代 + 反从众"作为诊断信号和 checklist 显式写入，形成跨案例的抽象框架。
+
+### 第二十节批次 3 进度记录（2026-06-16）
+
+| 序号 | 卡片 ID | 状态 | 主要改进 |
+|:----:|:--------|:----:|:---------|
+| 15 | `case-personal-map-modeling` | ✅ 已完成 | status→enriched；正文新增“结果”节；frontmatter DS 4 条 + 正文诊断信号表；可迁移场景扩至 5 条；失败模式扩至 6 条并附真实症状+可执行修复；新增“个人地图建模 SOP 检查清单”7 项；建立 2 条新互链（`yt-model-personal-map`、`case-truman-personal-growth-map-creation`）并补反向链接；更新 `updated_at` 与 `reviewed_by` |
+
+**质量门禁**：`total=1190, p0=0, p1=0, clean=1190, yaml_error=0`
+
+**待审查**：请王语嫣（代欧阳锋）审查本卡与 `case-truman-personal-growth-map-creation` 的内容边界，避免两张同素材卡片过度重复。

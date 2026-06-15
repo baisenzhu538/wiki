@@ -21,6 +21,7 @@ related:
 - '[[yt-unit-model-construction]]'
 - '[[yt-unit-model-benchmark]]'
 - '[[yt-unit-model-build]]'
+- '[[case-unit-model-gashapon]]'
 - '[[yt-unit-model-dynamic]]'
 - '[[yt-unit-model-overview]]'
 - '[[yt-entrepreneur-five-step-method]]'

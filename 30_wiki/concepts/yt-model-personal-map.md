@@ -17,6 +17,7 @@ query_triggers:
 - 领先层六大能力
 related:
 - '[[yt-model-personal-pitch-toolkit]]'
+- '[[case-personal-map-modeling]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260614_720e62a1
