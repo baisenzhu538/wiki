@@ -26,6 +26,7 @@ related:
 - '[[yt-panproduct-execution-management-trilogy]]'
 - '[[yt-panproduct-execution-milestone-breakdown]]'
 - '[[yt-panproduct-execution-business-modeling]]'
+- '[[case-truman-poker-deck-roi]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_30219516

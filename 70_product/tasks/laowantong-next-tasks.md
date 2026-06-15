@@ -2746,6 +2746,18 @@ total: 1190, p0=0, p1=0, clean=1190, yaml_error: 0
 
 **待审查**：请王语嫣（代欧阳锋）审查本卡内容真实性与链接完整性。
 
+### 第二十节批次 2 进度记录（2026-06-16）
+
+| 序号 | 卡片 ID | 状态 | 主要改进 |
+|:----:|:--------|:----:|:---------|
+| 12 | `case-truman-poker-deck-roi` | ✅ 已完成 | status→enriched；正文重组为 Background / What Happened / 结果 / 可迁移 / 诊断信号 / 失败模式；新增 frontmatter DS 3 条；可迁移场景扩至 5 条；失败模式扩至 4 条并附真实症状+可执行修复；新增「学习周边 ROI 快速估算表」含评分表、成本人日表、adjusted ROI 公式、替代方案对比；建立 2 条新互链 `yt-panproduct-execution-roi-analysis`、`yt-decision-canvas`；更新 `updated_at` 与 `reviewed_by` |
+
+**质量门禁**：`total=1190, p0=0, p1=0, clean=1190, yaml_error: 0`
+
+**待审查**：请王语嫣（代欧阳锋）审查本卡数字（30 人日、2-4 节课、单份十元）与口述原文一致性，以及估算表中假设参数的合理性。
+
+---
+
 ### 批次 1 进度记录：建模域案例卡升级（8/8 完成）
 
 **完成时间**：2026-06-16
@@ -2796,3 +2808,14 @@ total: 1190, p0=0, p1=0, clean=1190, yaml_error: 0
 **现有框架卡是否体现？**
 - `modeling-three-stages`、`process-modeling`、`dk-modeling-sop-execution-locks` 分别覆盖了分解、锁、迭代，但没有一个框架卡把这四步整合为统一的"高可靠性输出框架"。
 - 建议：下一轮精修 `modeling-three-stages` 或 `process-modeling` 时，把这一共同模式显式写入，形成跨案例的 checklist/diagnostic_signals。
+
+
+### 第二十节批次 2 进度记录（2026-06-16）
+
+| 序号 | 卡片 ID | 状态 | 主要改进 |
+|:----:|:--------|:----:|:---------|
+| 9 | `case-ether-online-acquisition` | ✅ 已完成 | status→enriched；正文重组为 Background / What Happened / 结果 / 可迁移 / 诊断信号 / 失败模式；新增 frontmatter DS 4 条；可迁移场景扩至 4 条；失败模式扩至 5 条并附真实症状+可执行修复；新增"全网项目扫描检查清单"10 项；建立 4 条新互链并补全反向链接（yt-scale-economy-weapon-library / yt-customer-acquisition-toolkit / case-truman-yitang-foresight / skill-ai-evidence-check） |
+
+**质量门禁**：`total=1190, p0=0, p1=0, clean=1190, yaml_error: 0`
+
+**待审查**：请王语嫣（代欧阳锋）审查本卡内容真实性与链接完整性。

@@ -29,6 +29,7 @@ related:
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-tool-meeting-designer]]'
 - '[[yt-tool-hiring-scorecard]]'
+- '[[case-truman-poker-deck-roi]]'
 reviewed_by: 周伯通
 source_refs:
 - src_20260510_1eb77650
