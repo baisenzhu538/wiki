@@ -53,7 +53,7 @@ trust_level: medium
 
 **花总回答精要：** 回到双三角。先定场景，再看审美体系。不会选工具说明审美体系没定清楚。
 
-> 相关卡片：[[ocr-一堂-个人修炼-双三角模型]]、[[yt-model-dual-triangle-competitiveness]]
+> 相关卡片：[[yt-model-dual-triangle-competitiveness]]、[[yt-model-dual-triangle-competitiveness]]
 
 ---
 

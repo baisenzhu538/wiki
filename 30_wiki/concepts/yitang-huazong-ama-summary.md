@@ -43,7 +43,7 @@ AI三角：场景 — 数据 — 基本功**
 
 两个三角的关系：把人的审美和体系往AI的数据去迁移。人类三角决定"能不能做好"，AI三角决定"能不能落地"。
 
-> 相关卡片：[[ocr-一堂-个人修炼-双三角模型]]、[[yt-model-dual-triangle-competitiveness]]
+> 相关卡片：[[yt-model-dual-triangle-competitiveness]]、[[yt-model-dual-triangle-competitiveness]]
 
 ### 2. 五步法
 
