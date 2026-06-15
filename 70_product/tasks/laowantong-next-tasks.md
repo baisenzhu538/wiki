@@ -1507,3 +1507,139 @@ updated_at: "2026-06-15"
 1. 如需继续降低 P1，可启动 **author=legacy 批量治理**；
 2. 或对 **status/confidence 不一致** 的卡片做一波快速修复；
 3. 验收通过后，可继续扩大 yt 卡第二圈精修范围。
+
+---
+
+## ✅ 欧阳锋核查小结（2026-06-16）
+
+老顽童"2+3+4 组合任务"已验收，核心交付属实：
+
+| 任务 | 自评结果 | 欧阳锋复核 |
+|:-----|:---------|:-----------|
+| 修复 dangling 链接 | P1 998 → 771 | ✅ 当前门禁 P1=773，接近 |
+| 37 张 high trust 单 source 卡降级 | trust=high 单 source 告警归零 | ✅ 全库已无 trust=high 且 source≤1 的卡 |
+| yt 卡第二圈精修 5 张 | P0=0, P1=0 | ✅ frontmatter 正常，结构完整 |
+| 2 张 OCR 卡 id 字段补正 | 已补正 | ✅ 无异常 |
+
+**当前质量门禁**：
+```
+total: 1359, p0: 0, p1: 773, clean: 586, yaml_error: 0
+```
+
+**待确认**：C1-C4 持续产出冲刺（10 暗知识 + 10 案例 + 30 source_unknown + 10 DK 完善）尚未看到验收勾选， source_unknown 剩余 242 张，需继续执行。
+
+欧阳锋
+2026-06-16
+
+---
+
+## 十一、下一阶段任务（2026-06-16 后）
+
+> **原则**：继续做内容生产主责，批量修复类任务交给黄药师/脚本。优先完成文件里已有的 C1-C4，再扩展 yt 精修和标签人工判断。
+
+### 任务 D1：完成 C1-C4 持续产出冲刺
+
+C1-C4 定义见上文（2026-06-16 的"🔴 下一阶段：持续产出冲刺"）。当前状态：
+
+| 子任务 | 目标 | 当前状态 |
+|:-------|:-----|:---------|
+| C1 | 10 张新暗知识卡 | 待完成 |
+| C2 | 10 个新/升级案例卡 | 待完成 |
+| C3 | 认领 30 张 source_unknown 补充 source | 待完成（剩余 242 张可选） |
+| C4 | 完善 10 张已有 DK 卡 | 待完成 |
+
+**source_unknown 认领清单**：`60_feedback/corrections/source-unknown-remaining.md`
+
+**建议节奏**：
+- 第 1-3 天：C1 暗知识卡 5 张
+- 第 4-6 天：C2 案例卡 5 个
+- 第 7-8 天：C3 认领 15 张 source_unknown
+- 第 9-10 天：C4 完善 5 张 DK 卡
+- 第 11-12 天：重复一轮，凑齐 C1-C4 全部目标
+- 第 13-14 天：跑 lint + 质量门禁，写小结
+
+### 任务 D2：扩大 yt 卡第二圈精修范围
+
+**目标**：在 D1 间隙，再选 **10 张 yt 核心卡**按已验证的第二圈标准精修。
+
+**候选卡片**（从 `30_wiki/concepts/yt-*.md` 中自选，优先选被引用次数多或 Graph RAG 中处于关键路径的卡）：
+- 决策域：`yt-decision-*` 系列剩余卡
+- 预判域：`yt-foresight-*` 系列
+- 单元模型域：`yt-unit-model-*` 系列
+- 五步法：`yt-five-step-*` 系列
+
+**精修标准**（同 5 张试点）：
+1. 失败模式从 4 条扩到 6 条，症状和修复更具体
+2. diagnostic_signals 从 2 条 triplet 增加到 3 条
+3. 适用边界表增加 1 条 nuance
+4. 更新 `updated_at` 为修改日期
+5. P0=0, P1=0
+
+**产出**：在本文末尾更新"yt 第二圈精修清单"，列出已修卡片和修改点。
+
+### 任务 D3：标签改革遗留 flat tags 人工判断
+
+**背景**：欧阳锋刚完成标签体系改革，全库唯一标签从 250+ 降到 128，但还有 16 个 flat tags（无维度前缀）含义不够明确，需要内容作者判断。
+
+**待判断标签清单**（出现次数）：
+
+| 标签 | 次数 | 建议处理方向 |
+|:-----|:----:|:-------------|
+| `#kdo` | 3 | 可映射为 `#domain/master` 或保留为卡片元标签 |
+| `#confidence` | 1 | 可映射为 `#confidence/draft` |
+| `#dark-knowledge` | 1 | 可映射为 `#domain/master` 或新增维度 |
+| `#deep-dig` | 1 | 可映射为 `#domain/master` |
+| `#entrepreneurship` | 1 | 可映射为 `#domain/yitang` 或 `#domain/master` |
+| `#iceberg` | 1 | 可映射为 `#method/thinking-tool` |
+| `#itingnao` | 1 | 专有名词，建议保留为 `source-platform` 或 `#domain/ai-saas` |
+| `#l6-essence` | 1 | 专有框架，需确认是否新增维度值 |
+| `#master-system` | 1 | 可映射为 `#domain/master` |
+| `#membership` | 1 | 可映射为 `#domain/master` 或 `#industry/saas` |
+| `#private-domain` | 1 | 可映射为 `#method/execution-method` 或 `#domain/master` |
+| `#renewal` | 1 | 可映射为 `#method/execution-method` |
+| `#self-improvement` | 1 | 可映射为 `#domain/master` |
+| `#tier` | 1 | 可映射为 `#value-tier/meso` 等，需看上下文 |
+| `#value` | 1 | 可映射为 `#method/evaluation-method` |
+| `#weapon-library` | 1 | 可映射为 `#content-format/framework` 或保留 |
+
+**操作**：
+1. 对每张含上述标签的卡，读内容判断最合理的维度映射
+2. 能确定映射的 → 直接替换 flat tag 为维度标签
+3. 不能确定的 → 在 `60_feedback/corrections/tag-flat-review-2026-06-16.md` 中记录，等欧阳锋/用户拍板
+4. 全部处理完后跑 `kdo_lint.py 30_wiki/`，确认 tags 格式无告警
+
+**产出**：
+- 已映射的卡片修改
+- `60_feedback/corrections/tag-flat-review-2026-06-16.md`（记录未决标签）
+
+### 严禁
+
+- ❌ 不要为了凑数写重复或空泛内容
+- ❌ 不要把案例写成概念描述
+- ❌ 批量修改不熟悉的 source_unknown 卡
+- ❌ 一次改超过 20 张卡不跑 lint
+
+### 验收标准
+
+完成 D1-D3 后写小结：
+
+- [ ] C1：10 张新暗知识卡，lint 无错误
+- [ ] C2：10 个新/升级案例卡，lint 无错误
+- [ ] C3：30 张 source_unknown 补充 source 或确认无法补充
+- [ ] C4：10 张已有 DK 卡完善内容
+- [ ] D2：10 张 yt 卡第二圈精修完成，每张 P0=0 P1=0
+- [ ] D3：16 个 flat tags 全部人工判断，未决项记录到反馈文件
+- [ ] 全库质量门禁 P0 = 0，YAML 错误 = 0
+- [ ] 小结包含：产出清单、source 认领清单、yt 精修清单、tag 判断清单
+
+### 产出文件
+
+1. `30_wiki/dark-knowledges/dk-*` × 10
+2. `30_wiki/cases/case-*` × 10
+3. 30 张已补充 source 的卡
+4. 10 张已完善的 DK 卡
+5. 10 张已精修的 yt 卡
+6. `60_feedback/corrections/tag-flat-review-2026-06-16.md`
+7. 本文件末尾的小结
+
+---
