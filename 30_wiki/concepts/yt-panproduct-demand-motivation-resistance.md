@@ -136,6 +136,7 @@ trust_level: medium
 | 互补工具 | [[yt-panproduct-demand-surprise-formula]] | 惊喜公式——增强动力的具体方法之一，但不是所有的动力增强都适合用惊喜。惊喜适合"用户预期不高但实际体验很好"的场景，对"用户预期已经很高"的场景无效甚至反效果 |
 | 父框架 | [[yt-model-pan-product-demand-toolkit]] | 需求工具箱总指南——第7张卡片 |
 | 实体页 | [[一堂]] | 一堂实体页 |
+| 案例 | [[case-truman-motivation-map-12-versions]] | 动机地图12版迭代——把"增强用户学习动力"从抽象概念做成可一眼使用的小抄，是动力阻力模型在课程产品设计中的落地实例 |
 
 ### 不要用的场景
 
