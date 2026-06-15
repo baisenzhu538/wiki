@@ -12,7 +12,7 @@ source_refs:
 tags:
 - '#domain/yitang'
 - '#chunk-type/critique'
-- '#demand-validation'
+- '#method/evaluation-method'
 created_at: '2026-06-11'
 updated_at: '2026-06-16'
 related:

@@ -6,6 +6,7 @@ domain:
   - master
   - personal-growth
 source_refs:
+  - src_20260522_0af1f6dd
 status: enriched
 title: "Learning Thinking"
 type: concept

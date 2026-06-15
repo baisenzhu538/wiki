@@ -20,7 +20,7 @@ related:
 - '[[case-truman-livestream-sop-iteration]]'
 - '[[modeling-to-kdo-toolchain]]'
 tags:
-- '#ai-skills'
+- '#domain/skill-engineering'
 - '#content-format/case-study'
 - '#self-improvement'
 - '#domain/yitang'

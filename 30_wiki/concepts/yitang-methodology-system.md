@@ -37,7 +37,7 @@ source_refs:
 - src_20260614_9ca806cd
 tags:
 - '#domain/yitang'
-- '#learning-methodology'
+- '#method/learning-method'
 - '#master-system'
 created_at: '2026-06-14'
 updated_at: '2026-06-16'

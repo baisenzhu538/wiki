@@ -28,7 +28,7 @@ related:
 tags:
 - '#method/modeling'
 - '#method/prompt-engineering'
-- '#judgment'
+- '#method/decision-framework'
 ---
 # AI 能辅助建模，但核心判断必须人做：AI 太容易受你影响
 

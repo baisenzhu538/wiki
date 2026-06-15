@@ -26,8 +26,8 @@ related:
 tags:
 - '#method/modeling'
 - '#content-format/concept-card'
-- '#n-factor'
-- '#insight'
+- '#method/evaluation-method'
+- '#chunk-type/synthesis'
 ---
 # 本质/N要素建模法：提炼不可再约的核心变量
 

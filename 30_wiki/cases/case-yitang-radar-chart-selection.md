@@ -28,7 +28,6 @@ tags:
 - '#content-format/case-study'
 - '#content-format/radar-chart'
 - '#method/decision-framework'
-- '#selection'
 ---
 # 案例：一堂雷达图评选机制——从 Truman 拍板到「只聊模型不聊结果」
 

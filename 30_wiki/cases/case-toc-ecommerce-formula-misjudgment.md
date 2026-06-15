@@ -14,9 +14,9 @@ source_refs:
 tags:
 - '#method/evaluation-method'
 - '#content-format/case-study'
-- '#e-commerce'
+- '#industry/ecommerce'
 - '#domain/yitang'
-- '#misjudgment'
+- '#chunk-type/error-data'
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 孔阳

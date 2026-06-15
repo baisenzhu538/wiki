@@ -23,7 +23,6 @@ related:
 tags:
 - '#method/modeling'
 - '#content-format/case-study'
-- '#abstract-modeling'
 - '#method/product-design'
 - '#domain/yitang'
 diagnostic_signals:

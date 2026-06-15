@@ -18,6 +18,7 @@ pipeline:
 author: unknown
 confidence: 0.75
 source_refs:
+  - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
 # Graph RAG — Knowledge-Graph-Powered Retrieval

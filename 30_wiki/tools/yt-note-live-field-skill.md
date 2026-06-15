@@ -31,13 +31,12 @@ query_triggers:
 - 灵感捕捉
 - 实时笔记
 tags:
-- '#action-driven'
+- '#method/execution-method'
 - '#perspective/professional'
-- '#live-field'
+- '#scene/note-taking/live-field'
 - '#method/learning-method'
 - '#scene/learning-methodology/mental-models'
 - '#content-format/checklist'
-- '#scene/note-taking/live-field'
 - '#scene/skill-engineering'
 - '#domain/yitang'
 created_at: '2026-06-07'

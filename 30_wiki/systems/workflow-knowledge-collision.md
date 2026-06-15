@@ -23,8 +23,8 @@ related:
 - '[[agent-external-brain-design]]'
 tags:
 - '#method/execution-method'
-- '#agent-standard'
-- '#knowledge-collision'
+- '#domain/ai-saas'
+- '#chunk-type/synthesis'
 reviewed_by: pending
 confidence: 0.7
 trust_level: medium

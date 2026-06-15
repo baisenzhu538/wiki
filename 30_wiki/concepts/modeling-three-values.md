@@ -21,7 +21,7 @@ related:
 - '[[modeling-level-map]]'
 tags:
 - '#method/modeling'
-- '#concept'
+- '#chunk-type/definition'
 - '#value'
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）

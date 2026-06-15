@@ -28,9 +28,8 @@ related:
 tags:
 - '#method/modeling'
 - '#content-format/case-study'
-- '#personal-map'
 - '#content-format/canvas'
-- '#course-design'
+- '#method/course-design'
 ---
 # 案例：一堂个人地图的完整建模过程
 

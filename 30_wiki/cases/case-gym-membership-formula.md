@@ -13,7 +13,7 @@ source_refs:
 tags:
 - '#method/evaluation-method'
 - '#content-format/case-study'
-- '#gym'
+- '#industry/fitness'
 - '#membership'
 - '#domain/yitang'
 created_at: '2026-06-15'

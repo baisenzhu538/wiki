@@ -15,7 +15,7 @@ tags:
 - '#method/evaluation-method'
 - '#content-format/case-study'
 - '#private-domain'
-- '#e-commerce'
+- '#industry/ecommerce'
 - '#domain/yitang'
 created_at: '2026-06-15'
 updated_at: '2026-06-16'

@@ -12,7 +12,7 @@ source_refs:
 - src_20260613_6edbf0af
 tags:
 - '#method/evaluation-method'
-- '#paradigms'
+- '#method/thinking-tool'
 - '#domain/yitang'
 - '#content-format/framework'
 created_at: '2026-06-14'

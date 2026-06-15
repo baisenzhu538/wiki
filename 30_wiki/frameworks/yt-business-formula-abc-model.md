@@ -15,7 +15,7 @@ tags:
 - '#method/evaluation-method'
 - '#content-format/framework'
 - '#domain/yitang'
-- '#decision-quality'
+- '#method/decision-framework'
 created_at: '2026-06-14'
 updated_at: '2026-06-15'
 author: 孔阳

@@ -25,9 +25,9 @@ related:
 tags:
 - '#method/modeling'
 - '#content-format/concept-card'
-- '#sabc'
+- '#method/evaluation-method'
 - '#tier'
-- '#priority'
+- '#method/decision-framework'
 ---
 # SABC分级/段位图建模法：给事物排优先级与成长路径
 

@@ -44,7 +44,7 @@ tags:
 - '#scene/business-analysis'
 - '#scene/communication'
 - '#scene/presentation'
-- '#consulting'
+- '#industry/consulting'
 - '#method/structure'
 created_at: '2026-06-12'
 updated_at: '2026-06-16'

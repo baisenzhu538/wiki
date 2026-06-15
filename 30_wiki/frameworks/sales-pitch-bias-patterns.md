@@ -11,10 +11,7 @@ source_refs:
 - src_20260613_96e45c45
 tags:
 - '#method/research-method'
-- '#sales-analysis'
-- '#bias-detection'
-- '#vendor-assessment'
-- '#七件事集团'
+- '#method/evaluation-method'
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 王语嫣

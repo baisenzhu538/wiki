@@ -24,8 +24,8 @@ related:
 tags:
 - '#method/modeling'
 - '#kdo'
-- '#meta-method'
-- '#pipeline'
+- '#method/thinking-tool'
+- '#method/execution-method'
 diagnostic_signals:
 - signal: 我写了一张卡但不知道怎么验证它够不够好
   framework_lens: 三段论门禁映射

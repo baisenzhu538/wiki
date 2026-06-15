@@ -14,11 +14,10 @@ source_refs:
 - 90_control/itingnao-kit/work/theme-supply-chain-beverage-summary.md
 - src_20260614_95352714
 tags:
-- '#beverage'
+- '#industry/local-service'
 - '#method/management-tool'
-- '#catering-channel'
 - '#method/evaluation-method'
-- '#product-development'
+- '#method/product-design'
 - '#itingnao'
 created_at: '2026-06-14'
 updated_at: '2026-06-16'

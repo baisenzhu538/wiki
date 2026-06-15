@@ -26,7 +26,6 @@ related:
 tags:
 - '#method/modeling'
 - '#content-format/case-study'
-- '#minimal-model'
 - '#method/learning-method'
 ---
 # 案例：孩子控笔「画画歌」——最小单元的建模实践

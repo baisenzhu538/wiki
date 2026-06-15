@@ -24,7 +24,7 @@ related:
 tags:
 - '#method/modeling'
 - '#content-format/concept-card'
-- '#self-assessment'
+- '#method/evaluation-method'
 - '#content-format/checklist'
 diagnostic_signals:
 - signal: 用户说"我不知道自己建模能力在什么水平"

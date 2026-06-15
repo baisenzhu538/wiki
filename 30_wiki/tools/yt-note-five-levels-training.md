@@ -38,7 +38,6 @@ tags:
 - '#content-format/checklist'
 - '#scene/note-taking/live-field'
 - '#scene/note-taking/training-plan'
-- '#skill-training'
 - '#domain/yitang'
 created_at: '2026-06-07'
 updated_at: '2026-06-16'

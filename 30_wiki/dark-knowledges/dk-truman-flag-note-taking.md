@@ -27,7 +27,7 @@ query_triggers:
 - 提升思考量的方法
 tags:
 - '#method/learning-method'
-- '#cognitive-tool'
+- '#method/thinking-tool'
 - '#scene/learning-methodology/deliberate-practice'
 - '#content-format/checklist'
 - '#scene/ai-collaboration'

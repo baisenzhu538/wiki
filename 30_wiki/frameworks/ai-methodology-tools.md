@@ -21,8 +21,8 @@ source_refs:
 - src_20260614_d78e7c7b
 - src_20260614_329d0e0c
 tags:
-- '#ai-methodology'
-- '#tool-stack'
+- '#method/thinking-tool'
+- '#domain/ai-saas'
 - '#method/prompt-engineering'
 created_at: '2026-06-14'
 updated_at: '2026-06-16'

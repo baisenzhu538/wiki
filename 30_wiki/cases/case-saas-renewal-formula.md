@@ -14,7 +14,7 @@ source_refs:
 tags:
 - '#method/evaluation-method'
 - '#content-format/case-study'
-- '#saas'
+- '#domain/saas'
 - '#renewal'
 - '#domain/yitang'
 created_at: '2026-06-15'

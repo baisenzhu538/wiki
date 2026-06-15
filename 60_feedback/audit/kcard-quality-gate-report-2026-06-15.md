@@ -3,8 +3,8 @@
 **扫描时间**：2026-06-15  
 **扫描范围**：30_wiki 全库 1359 张卡片  
 **P0 阻塞问题卡片**：0 张  
-**P1 修复问题卡片**：771 张  
-**完全干净卡片**：588 张  
+**P1 修复问题卡片**：773 张  
+**完全干净卡片**：586 张  
 **YAML 解析错误**：0 张  
 
 ---
@@ -76,6 +76,8 @@
 | `concepts\meta-prompt-eng.md` | author=legacy，建议替换为真实作者 |
 | `concepts\obsidian-kdo-内容产出工作流-产品设计大纲.md` | author=legacy，建议替换为真实作者 |
 | `concepts\ocr-一堂-单元模型-找基准值实操难点.md` | author=legacy，建议替换为真实作者 |
+| `concepts\ocr-一堂提炼过的因果模型.md` | source_refs 为空 |
+| `concepts\ocr-微信图片_20260507004802_38_32.md` | source_refs 为空 |
 | `concepts\pilot-atomic-chunk-comparison.md` | type 值异常: comparison; author=legacy，建议替换为真实作者 |
 | `concepts\prd-as-ai-instruction.md` | author=legacy，建议替换为真实作者 |
 | `concepts\product-ux.md` | author=legacy，建议替换为真实作者 |

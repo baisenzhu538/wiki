@@ -26,7 +26,7 @@ related:
 tags:
 - '#method/modeling'
 - '#content-format/case-study'
-- '#predictive'
+- '#method/thinking-tool'
 ---
 # 案例：招聘/股权/激励专家都把本质归为「人性」——解释性本质的陷阱
 

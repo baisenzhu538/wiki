@@ -26,8 +26,8 @@ tags:
 - '#method/modeling'
 - '#content-format/concept-card'
 - '#iceberg'
-- '#triangle'
-- '#insight'
+- '#content-format/framework'
+- '#chunk-type/synthesis'
 ---
 # 冰山图/三角图建模法：从表象深挖结构与本质
 

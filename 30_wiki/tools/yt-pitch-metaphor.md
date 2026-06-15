@@ -27,8 +27,7 @@ query_triggers:
 - 类比
 - 形象比喻
 - 高级比喻
-tags:
-- '#抽象化'
+tags: []
 created_at: 2026-05-13
 updated_at: '2026-06-16'
 estimated_tokens: 2500

@@ -27,7 +27,7 @@ tags:
 - '#content-format/concept-card'
 - '#content-format/canvas'
 - '#weapon-library'
-- '#system'
+- '#domain/master'
 ---
 # 画布/武器库建模法：把工具箱变成可快速调用的系统
 

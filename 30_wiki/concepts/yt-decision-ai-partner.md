@@ -57,6 +57,9 @@ diagnostic_signals:
 - signal: 用户说'我让AI帮我分析，它列了10个维度，我感觉很全面了'
   framework_lens: 全面感幻觉——AI的结构化框架可能只是看起来不错
   follow_up_question: AI列出的维度里，有没有你根本不知道它怎么得出的？如果有，先验证这个维度再往下走
+- signal: AI给出的定量数字和用户内心的隐性预期完全一致
+  framework_lens: AI可能迎合了用户的隐性假设——结构化输出反而强化了确认偏误
+  follow_up_question: 你是否先独立估算过关键数字？如果AI数字与你估算差距<10%，强制让AI给出反向情景分析
 author: 老顽童
 ---
 # AI决策Partner对话法
@@ -140,6 +143,9 @@ Marcus让AI决策Partner使用者睡不着觉的问题是：**当你让AI做L3/L
 - signal: "用户说'我让AI帮我分析，它列了10个维度，我感觉很全面了'"
   framework_lens: "全面感幻觉——AI的结构化框架可能只是看起来不错"
   follow_up_question: "AI列出的维度里，有没有你根本不知道它怎么得出的？如果有，先验证这个维度再往下走"
+- signal: "AI给出的定量数字和用户内心的隐性预期完全一致"
+  framework_lens: "AI可能迎合了用户的隐性假设——结构化输出反而强化了确认偏误"
+  follow_up_question: "你是否先独立估算过关键数字？如果AI数字与你估算差距<10%，强制让AI给出反向情景分析"
 
 ## AI替代判断的失效场景
 

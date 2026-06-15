@@ -20,8 +20,8 @@ source_refs:
 - src_20260614_1a0a6efa
 - src_20260614_7e8857b8
 tags:
-- '#ai-application'
-- '#lean-validation'
+- '#domain/ai-saas'
+- '#method/evaluation-method'
 - '#method/decision-framework'
 created_at: '2026-06-14'
 updated_at: '2026-06-16'

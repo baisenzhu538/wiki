@@ -11,8 +11,8 @@ source_refs:
 - src_20260614_8269ccdb
 - src_20260614_42f1e977
 tags:
-- '#ai'
-- '#skill-engineering'
+- '#domain/ai'
+- '#domain/skill-engineering'
 - '#method/modeling'
 - '#content-format/concept-card'
 created_at: '2026-06-15'

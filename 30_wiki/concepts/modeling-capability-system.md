@@ -22,7 +22,7 @@ tags:
 - '#method/modeling'
 - '#content-format/framework'
 - '#domain/yitang'
-- '#methodology'
+- '#method/thinking-tool'
 diagnostic_signals:
 - signal: 用户说"团队经验无法沉淀，每次都要重新踩坑"
   framework_lens: 流程类建模

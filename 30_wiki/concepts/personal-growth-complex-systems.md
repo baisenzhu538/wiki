@@ -16,8 +16,7 @@ source_refs:
 - src_20260614_720e62a1
 tags:
 - '#domain/master'
-- '#complex-systems'
-- '#learning-methodology'
+- '#method/learning-method'
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 王语嫣

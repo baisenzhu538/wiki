@@ -27,7 +27,7 @@ tags:
 - '#method/modeling'
 - '#content-format/case-study'
 - '#industry/education'
-- '#statistics'
+- '#method/research-method'
 ---
 # 案例：一堂「千人广场模型」——用统计建模心态做课
 

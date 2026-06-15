@@ -28,8 +28,7 @@ query_triggers:
 - 品牌故事
 - 幕后故事
 - 初心故事
-tags:
-- '#具象化'
+tags: []
 created_at: 2026-05-13
 updated_at: '2026-06-16'
 estimated_tokens: 2500

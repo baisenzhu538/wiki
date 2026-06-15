@@ -13,8 +13,7 @@ source_refs:
 tags:
 - '#method/evaluation-method'
 - '#content-format/case-study'
-- '#catering'
-- '#offline-retail'
+- '#industry/local-service'
 - '#domain/yitang'
 created_at: '2026-06-15'
 updated_at: '2026-06-16'

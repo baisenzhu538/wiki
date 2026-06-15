@@ -26,8 +26,7 @@ tags:
 - '#method/modeling'
 - '#content-format/concept-card'
 - '#method/evaluation-method'
-- '#formula'
-- '#quantification'
+- '#content-format/formula'
 ---
 # 漏斗图/公式建模法：量化流程与关键变量
 

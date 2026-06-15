@@ -27,7 +27,7 @@ tags:
 - '#method/modeling'
 - '#dark-knowledge'
 - '#method/execution-method'
-- '#organization'
+- '#method/management-tool'
 ---
 # 暗知识：一堂真正的增长引擎是「周对周的建模能力增长」
 

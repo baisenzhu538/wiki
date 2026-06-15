@@ -26,7 +26,7 @@ related:
 - '[[ai-short-drama-conflict-three-axes]]'
 tags:
 - '#industry/content-creation'
-- '#reverse-engineering'
+- '#method/research-method'
 - '#content-format/framework'
 diagnostic_signals:
 - signal: 用户说"看了很多爆款短剧，但不知道怎么学到东西"

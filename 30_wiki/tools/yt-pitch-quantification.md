@@ -26,8 +26,7 @@ query_triggers:
 - 用数字
 - 对比数字
 - 巧用数字
-tags:
-- '#具象化'
+tags: []
 created_at: 2026-05-13
 updated_at: '2026-06-16'
 estimated_tokens: 2500

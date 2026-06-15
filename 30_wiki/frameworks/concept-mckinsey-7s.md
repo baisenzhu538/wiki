@@ -44,7 +44,7 @@ tags:
 - '#scene/business-analysis'
 - '#scene/entrepreneurship'
 - '#scene/team-management'
-- '#consulting'
+- '#industry/consulting'
 - '#method/checklist'
 created_at: '2026-06-11'
 updated_at: '2026-06-16'

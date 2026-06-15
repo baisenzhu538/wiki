@@ -43,7 +43,7 @@ tags:
 - '#scene/consulting'
 - '#scene/diagnosis'
 - '#scene/relationship-management'
-- '#consulting'
+- '#industry/consulting'
 - '#method/checklist'
 created_at: '2026-06-11'
 updated_at: '2026-06-16'

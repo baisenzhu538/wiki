@@ -26,8 +26,7 @@ related:
 tags:
 - '#method/evaluation-method'
 - '#kdo'
-- '#meta-method'
-- '#card-quality'
+- '#method/thinking-tool'
 diagnostic_signals:
 - signal: 我写了一张卡但不知道缺什么
   framework_lens: ABC三要素诊断

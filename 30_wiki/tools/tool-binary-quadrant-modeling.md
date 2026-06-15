@@ -25,8 +25,8 @@ related:
 tags:
 - '#method/modeling'
 - '#content-format/concept-card'
-- '#binary'
-- '#quadrant'
+- '#method/thinking-tool'
+- '#content-format/framework'
 - '#method/knowledge-engineering'
 ---
 # 二分法/象限图建模法：用正交维度做分类与取舍

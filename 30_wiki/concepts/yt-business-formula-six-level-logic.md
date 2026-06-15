@@ -12,9 +12,8 @@ source_refs:
 - src_20260613_6edbf0af
 tags:
 - '#method/evaluation-method'
-- '#logic'
-- '#domain/yitang'
 - '#method/thinking-tool'
+- '#domain/yitang'
 created_at: '2026-06-14'
 updated_at: '2026-06-14'
 author: 孔阳

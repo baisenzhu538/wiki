@@ -21,8 +21,8 @@ source_refs:
 - src_20260614_ef4f24d7
 - src_20260614_8bd357d3
 tags:
-- '#ai-hackathon'
-- '#pitch'
+- '#domain/ai-saas'
+- '#method/communication-method'
 - '#method/product-design'
 created_at: '2026-06-14'
 updated_at: '2026-06-16'

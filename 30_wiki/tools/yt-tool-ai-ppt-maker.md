@@ -12,7 +12,7 @@ source_refs:
 status: draft
 tags:
 - '#perspective/compliance'
-- '#boundary/single-use-only'
+- '#chunk-type/boundary'
 - '#scene/ai-collaboration/prompt-engineering'
 - '#scene/business-analysis'
 - '#method/learning-method'

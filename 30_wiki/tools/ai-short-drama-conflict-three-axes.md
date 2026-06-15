@@ -26,7 +26,7 @@ tags:
 - '#industry/content-creation'
 - '#content-format/concept-card'
 - '#content-format/checklist'
-- '#conflict'
+- '#chunk-type/question'
 diagnostic_signals:
 - signal: 用户说"反派太单薄，像工具人"
   framework_lens: 第一板斧·外在阵营立分明

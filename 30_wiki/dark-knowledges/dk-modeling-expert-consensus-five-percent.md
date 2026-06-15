@@ -27,7 +27,7 @@ related:
 tags:
 - '#method/modeling'
 - '#industry/education'
-- '#expert-consensus'
+- '#confidence/verified-by-case'
 ---
 # 5% 的专家决定一堂课的最大公约数：课程质量来自专家共识，不是个人灵感
 

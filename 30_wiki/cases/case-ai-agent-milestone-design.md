@@ -26,7 +26,7 @@ related:
 tags:
 - '#method/modeling'
 - '#content-format/case-study'
-- '#ai'
+- '#domain/ai'
 - '#method/execution-method'
 - '#domain/ai-saas'
 ---

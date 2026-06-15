@@ -12,7 +12,7 @@ source_refs:
 tags:
 - '#domain/yitang'
 - '#chunk-type/critique'
-- '#signal-processing'
+- '#domain/ai-saas'
 created_at: '2026-06-11'
 updated_at: '2026-06-16'
 related:
