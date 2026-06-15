@@ -3,8 +3,8 @@
 **扫描时间**：2026-06-15  
 **扫描范围**：30_wiki 全库 1190 张卡片  
 **P0 阻塞问题卡片**：1 张  
-**P1 修复问题卡片**：0 张  
-**完全干净卡片**：1189 张  
+**P1 修复问题卡片**：1 张  
+**完全干净卡片**：1188 张  
 **YAML 解析错误**：0 张  
 
 ---
@@ -13,13 +13,15 @@
 
 | 文件 | P0 问题 |
 |---|---|
-| `cases\case-yitang-education-supply-chain.md` | status=enriched 但 reviewed_by=pending |
+| `cases\case-yitang-weekly-modeling-engine.md` | status=enriched 但 reviewed_by=pending |
 
 ---
 
 ## P1 修复问题清单
 
-无 P1 修复问题。
+| 文件 | P1 问题 |
+|---|---|
+| `cases\case-yitang-education-supply-chain.md` | 自审: author=老顽童, reviewed_by=老顽童 相同 |
 
 ---
 

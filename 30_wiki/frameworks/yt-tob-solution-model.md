@@ -33,6 +33,7 @@ related:
 - '[[yt-business-formula-business-pattern-selector]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-tob-customer-tiering]]'
+- '[[yt-tob-customer-sabc]]'
 - '[[yt-tob-product-kernel]]'
 - '[[yt-tob-unit-model]]'
 diagnostic_signals:

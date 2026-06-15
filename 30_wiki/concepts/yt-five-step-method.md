@@ -16,6 +16,7 @@ query_triggers:
 - 全局分析
 related:
 - '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-panproduct-demand-five-step-method]]'
 review_date: 2026-06-10
 reviewed_by: 洪七公
 source_refs:

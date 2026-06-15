@@ -64,6 +64,17 @@ diagnostic_signals:
 - signal: 共识会开了2小时，但会后没有任何人改变原来的观点或立场
   framework_lens: 共识过程没有产生新信息——信息层没有补充事实或反例，只是重复已知立场
   follow_up_question: 会议中产出了几条'会前没人提过'的新事实、数据或反例？如果为0，说明挖冰没有挖出新信息
+- signal: 会议纪要写满'一致认为''充分认同'，但私下询问时至少两人对决策的理解不同
+  framework_lens: 表面共识 vs 真实分歧——文字统一掩盖了L2判断层或L3逻辑层的真实差异
+  follow_up_question: 把'一致认为'改成'各自理解'，让每个人用自己的话重写决策目标、成功标准和第一动作，差异超过30%则重开会
+related:
+- '[[yt-decision-canvas]]'
+- '[[yt-decision-height-toolkit]]'
+- '[[yt-decision-review]]'
+- '[[yt-decision-y-model]]'
+- '[[yt-decision-width-method]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yt-decision-habit-shift]]'
 author: 老顽童
 ---
 # 共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问

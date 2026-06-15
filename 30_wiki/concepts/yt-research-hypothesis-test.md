@@ -26,6 +26,7 @@ related:
 - '[[yt-research-industry-canvas]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-decision-y-model]]'
+- '[[yt-panproduct-execution-hypothesis-decomposition]]'
 source_refs:
 - 00_inbox/ideas/一堂-创业必修-调研行动营.md
 - 00_inbox/ideas/一堂-创业-调研行动营口述01.md

@@ -194,6 +194,8 @@ diagnostic_signals:
 - **[[yt-unit-model-overview]]**：单元模型是判断"是否成立"的核心工具，指标必须落回单元模型。
 - **[[yt-entrepreneur-lean-validation]]**：本框架是精益验证在"何时放大"这一决策点的具体应用。
 - **[[case-一堂-陈贤敏汉堡-hypothesis-validation]]**：正面案例——用最小单元验证核心假设后再放大。
+- **[[yt-lean-assumption-verification-3means]]**：阶段门前需用诚实调研、经验验证、实验验证三种手段完成前置假设验证。
+- **[[yt-growth-cycle-model]]**：增长阶段判断需结合业务周期模型，避免把早期波动误判为阶段跨越。
 
 ## Action Triggers
 

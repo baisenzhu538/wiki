@@ -16,10 +16,12 @@ related:
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[dk-一堂-wishful-thinking-kills-startups]]'
+- '[[yt-panproduct-execution-hypothesis-decomposition]]'
 wiki_refs:
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[dk-一堂-wishful-thinking-kills-startups]]'
+- '[[yt-panproduct-execution-hypothesis-decomposition]]'
 definition_of_done:
 - 原始表述、问题、方案、可迁移、Feedback Path 均已填写
 - 关键假设验证过程和数据已记录
