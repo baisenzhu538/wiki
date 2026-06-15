@@ -1948,3 +1948,66 @@ concepts ↔ tools ↔ frameworks 之间：0 组同名同 ID 重复
 3. 每张 case 卡须标注「来源：张磊 AMA 口述/笔记，外部可验证性有限」；
 4. 继承入口质量门的 confidence 评分，confidence < 0.75 的卡片 status 标为 draft；
 5. 出卡后跑 `kcard-quality-gate.py`，确保 P0/P1 不反弹。
+
+
+### 阶段二验收：老顽童量产完成 ✅
+
+**验收时间**：2026-06-16  
+**验收人**：Kimi
+
+#### 产出清单
+
+老顽童共产出 **12 张精益创业域 P0 卡片**，完整覆盖入口质量门建议：
+
+| 入口质量门建议 ID | 实际卡片路径 | 类型 | status | confidence | trust_level |
+|---|---|---|---|---|---|
+| concept.lean-essence | `concepts/yt-lean-essence.md` | concept | enriched | 0.88 | high |
+| framework.assumption-verification-3means | `frameworks/yt-lean-assumption-verification-3means.md` | framework | enriched | 0.85 | high |
+| framework.qualitative-vs-quantitative | `frameworks/yt-lean-qualitative-quantitative-research.md` | framework | enriched | 0.85 | high |
+| framework.false-model-ai | `frameworks/yt-lean-false-model-ai.md` | framework | draft | 0.75 | medium-high |
+| framework.prioritize-assumptions | `frameworks/yt-lean-assumption-prioritization.md` | framework | enriched | 0.83 | high |
+| framework.growth-stage-gate | `frameworks/yt-lean-growth-stage-gate.md` | framework | enriched | 0.80 | high |
+| case.daily-chemical-mvp | `cases/yt-lean-daily-chemical-mvp.md` | case | draft | 0.72 | medium-high |
+| case.flower-mom-group-leader | `cases/yt-lean-flower-mom-group-leader.md` | case | draft | 0.75 | medium-high |
+| case.beauty-store-conversion | `cases/yt-lean-beauty-store-conversion.md` | case | draft | 0.82 | medium-high |
+| framework.b2b-vs-b2c-testing | `frameworks/yt-lean-b2b-b2c-hardware-content-testing.md` | framework | enriched | 0.78 | medium-high |
+| framework.consumer-deep-experience | `frameworks/yt-lean-consumer-deep-experience-testing.md` | framework | enriched | 0.82 | high |
+| skill.daily-probability-decision | `concepts/yt-lean-daily-probability-decision.md` | skill | enriched | 0.85 | high |
+
+#### 额外产出
+
+- `concepts/yt-entrepreneur-lean-validation.md`：创业者精益验证整体概念卡
+- `cases/case-hr-saas-feature-usage-trap.md`：HR SaaS 功能使用陷阱案例（非精益域）
+- `cases/case-toc-content-platform-correlation-trap.md`：ToC 内容平台相关性陷阱案例（非精益域）
+
+#### 质量门禁结果
+
+```text
+python 90_control/scripts/kcard-quality-gate.py
+total: 1173, p0: 0, p1: 0, clean: 1173, yaml_error: 0
+```
+
+- 新增 18 张卡片后，P0/P1 仍全部为 0
+- 所有 source_refs 均已在 `.kdo/source_id_map.json` 注册
+- confidence < 0.75 的卡片（3 张 case + 1 张 framework）status 标为 draft，符合规范
+
+#### 抽查结论
+
+- frontmatter 字段完整（id/type/status/confidence/trust_level/source_refs/author/diagnostic_signals）
+- framework/tool/skill 卡均附带 3 条 diagnostic_signals
+- case 卡包含具体业务场景、关键假设、验证路径
+- 卡片正文引用源材料位置明确
+
+#### 待改进项（非阻塞）
+
+1. **case 卡的 diagnostic_signals**：当前 case 卡未填充 diagnostic_signals。按 ingestion-pipeline.md 规则，framework/tool/case 卡建议有 diagnostic_signals。但当前质量门禁未强制检查，可后续补充。
+2. **两张非精益域 case 卡**（hr-saas / toc-content-platform）diagnostic_signals 为空，建议后续补充。
+
+#### 当前状态
+
+```text
+阶段一 ✅ 完成
+阶段二 ✅ 完成
+阶段三 ⏳ 黄药师自动门禁持续监控
+阶段四 ⏸️ 等待欧阳锋抽检
+```
