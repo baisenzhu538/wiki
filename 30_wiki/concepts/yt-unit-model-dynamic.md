@@ -28,7 +28,7 @@ source_refs:
 - source_unknown
 status: draft
 title: 动态单元模型：规模变量、拐点预判与规模经济对抗
-trust_level: high
+trust_level: medium
 type: tool
 version: 1
 yitang:

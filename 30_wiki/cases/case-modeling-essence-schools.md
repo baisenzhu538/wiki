@@ -20,10 +20,7 @@ reviewed_by: pending
 review_date: 2026-06-15
 confidence: 0.8
 trust_level: high
-related:
-- - - modeling-three-stages
-- - - case-modeling-essence-levels
-- - - yt-note-expert-interview-modeling
+related: []
 ---
 # 本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野
 

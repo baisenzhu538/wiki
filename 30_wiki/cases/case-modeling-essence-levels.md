@@ -20,11 +20,7 @@ reviewed_by: pending
 review_date: 2026-06-15
 confidence: 0.8
 trust_level: high
-related:
-- - - modeling-three-stages
-- - - tool-essence-nfactor-modeling
-- - - dk-modeling-essence-predictive
-- - - dk-modeling-explanatory-vs-predictive-essence
+related: []
 ---
 # 本质建模案例：从盲目创新到学科经典的五层思维深度
 

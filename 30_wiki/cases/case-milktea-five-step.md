@@ -149,7 +149,7 @@ trust_level: high
 | 下游工具 | [[concept-一堂-key-assumptions]] | 本案例的每一步都涉及关键假设验证，关键假设思维是本案例的核心方法论基础 |
 | 关联案例 | [[case-treadmill-demand-analysis]] | 跑步机案例展示了需求分析方法，本案例展示了五步法在线下业态中的完整应用 |
 | 关联案例 | [[case-shampoo-product-kernel]] | 洗发水案例展示了产品内核方法，本案例展示了商业模式和增长策略方法 |
-| 上游输入 | [[concept-一堂-business-prediction]] | 古董的成功起点是选对了"健康奶茶"这个方向，商业预判是本案例的隐形基础 |
+| 上游输入 | concept-一堂-business-prediction | 古董的成功起点是选对了"健康奶茶"这个方向，商业预判是本案例的隐形基础 |
 | 对比案例 | [[case-一堂-无人餐厅-hypothesis-failure]] | 无人餐厅是假设驱动方法论的反面教材，本案例是正面典范 |
 
 ## Constraints & Boundaries

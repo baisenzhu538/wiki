@@ -21,16 +21,10 @@ reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.82
 trust_level: high
-related:
-- - - smart-medicine-cabinet-fraud-detection
-- - - smart-medicine-cabinet-financial-model
-- - - smart-medicine-cabinet-clinic-risk-observation
-- - - tool-smart-medicine-cabinet-site-selection-guide
-- - - concept-smart-medicine-cabinet-international-models
+related: []
 source_person: 王语嫣
 source_context: 五轮迭代失败案例与运营数据整合
 ---
-
 # 智能药柜失败模式案例库
 
 > **核心定位**：汇总公开渠道可获取的智能药柜/无人药房失败案例，提炼失败模式共因，为投资决策和风险管理提供反面教材。

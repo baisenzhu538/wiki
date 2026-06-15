@@ -1,25 +1,22 @@
 ---
 id: concept-smart-medicine-cabinet-supply-chain-validation
-title: "智能药柜供应链/技术方案交叉验证"
+title: 智能药柜供应链/技术方案交叉验证
 type: concept
 status: enriched
 domain:
-  - healthcare
-  - business-strategy
+- healthcare
+- business-strategy
 source_refs:
-  - src_20260613_90085bca
+- src_20260613_90085bca
 created_at: 2026-06-15
 updated_at: 2026-06-15
-author: "王语嫣"
-reviewed_by: "老顽童"
+author: 王语嫣
+reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.72
 trust_level: medium
-related:
-  - [[smart-medicine-cabinet-financial-model]]
-  - [[case-smart-medicine-cabinet-failure-patterns-library]]
+related: []
 ---
-
 # 智能药柜供应链/技术交叉验证（知识卡草稿）
 
 ## 1. 一句话摘要

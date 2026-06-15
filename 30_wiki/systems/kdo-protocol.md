@@ -8,7 +8,7 @@ id: kdo-protocol
 created_at: '2026-05-02'
 updated_at: '2026-06-16'
 related:
-- '[[obsidian-kdo-内容产出工作流-产品设计大纲]]'
+- 'obsidian-kdo-内容产出工作流-产品设计大纲'
 - '[[kdo-protocol]]'
 - '[[index]]'
 - '[[business-research-skill-oscar-13-weapon-system]]'
@@ -43,7 +43,7 @@ confidence: 0.6
 
 ### [Synthesis]
 
-- **Links to**: [[obsidian-kdo-内容产出工作流-产品设计大纲]] — Protocol 是 Workflow 的底层基础设施；Workflow 定义"做什么"，Protocol 定义"怎么做"。
+- **Links to**: obsidian-kdo-内容产出工作流-产品设计大纲 — Protocol 是 Workflow 的底层基础设施；Workflow 定义"做什么"，Protocol 定义"怎么做"。
 - **Links to**: [[index]] — Protocol 定义了 Index 的结构规则（概念类型、链接格式、状态枚举）。
 - **Complements**: 一堂课程中提出的 `cloud.md` 协议假设 — KDO Protocol 是对这一假设的具体工程实现，但一堂更关注"产品内核级机会"，KDO Protocol 更关注"单仓库操作契约"。
 - **Conflicts with**: 无直接冲突，但需警惕与 Obsidian 的"自由哲学"之间的张力。Obsidian 推崇无结构、无约束；KDO Protocol 是有结构、有约束的。两者需要在"人类自由度"和"AI 可执行性"之间取得平衡。

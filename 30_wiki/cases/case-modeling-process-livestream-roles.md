@@ -20,10 +20,7 @@ reviewed_by: pending
 review_date: 2026-06-15
 confidence: 0.8
 trust_level: high
-related:
-- - - process-modeling
-- - - case-modeling-process-livestream-prep
-- - - tool-sop-template-modeling
+related: []
 ---
 # 流程建模案例：直播开播团队分工与检查清单
 

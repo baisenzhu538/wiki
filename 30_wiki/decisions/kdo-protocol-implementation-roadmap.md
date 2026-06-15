@@ -237,7 +237,7 @@ Rationale:
 
 - [[kdo-protocol]] — System-level knowledge card
 - [[index]] — Graph topology and statistics
-- [[obsidian-kdo-内容产出工作流-产品设计大纲]] — Workflow design
+- obsidian-kdo-内容产出工作流-产品设计大纲 — Workflow design
 - [[kimi-深度调研集群方法论-deep-research-swarm]] — Research methodology
 
 ### Appendix C: Glossary

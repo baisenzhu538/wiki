@@ -1,27 +1,23 @@
 ---
 id: tool-clinic-medical-shortvideo-compliance
-title: "诊所医疗短视频/个人 IP 合规边界 checklist"
+title: 诊所医疗短视频/个人 IP 合规边界 checklist
 type: tool
 status: enriched
 domain:
-  - healthcare
-  - business-strategy
+- healthcare
+- business-strategy
 source_refs:
-  - src_20260613_ccf533f9
-  - src_20260613_9a2b289e
+- src_20260613_ccf533f9
+- src_20260613_9a2b289e
 created_at: 2026-06-15
 updated_at: 2026-06-15
-author: "王语嫣"
-reviewed_by: "老顽童"
+author: 王语嫣
+reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.88
 trust_level: high
-related:
-  - [[smart-medicine-cabinet-fraud-detection]]
-  - [[smart-medicine-cabinet-clinic-risk-observation]]
-  - [[tool-clinic-cabinet-legal-contract-guide]]
+related: []
 ---
-
 ---
 
 ## Purpose

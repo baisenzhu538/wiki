@@ -29,7 +29,6 @@ related:
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-entrepreneur-unit-model]]'
-- null
 ---
 # 线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定
 

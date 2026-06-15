@@ -31,7 +31,6 @@ related:
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-entrepreneur-unit-model]]'
-- null
 ---
 # ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户“用起来”
 

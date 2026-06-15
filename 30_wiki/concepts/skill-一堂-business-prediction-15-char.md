@@ -17,10 +17,10 @@ tools_required:
 prerequisite_skills:
 - concept-一堂-business-prediction
 related:
-- '[[concept-一堂-business-prediction]]'
+- 'concept-一堂-business-prediction'
 - '[[skill-一堂-spectrum-positioning]]'
 wiki_refs:
-- '[[concept-一堂-business-prediction]]'
+- 'concept-一堂-business-prediction'
 - '[[skill-一堂-spectrum-positioning]]'
 created_at: 2026-06-10
 updated_at: '2026-06-16'
@@ -125,7 +125,7 @@ trust_level: low
 
 | 关系 | 目标节点 | 说明 |
 |------|----------|------|
-| 上位 | [[concept-一堂-business-prediction]] | 15字诀是商业预判概念的核心操作工具 |
+| 上位 | concept-一堂-business-prediction | 15字诀是商业预判概念的核心操作工具 |
 | 下位 | [[skill-一堂-spectrum-positioning]] | 光谱模型是"定中局"阶段的具体定位工具 |
 | 暗知识 | dk-一堂-p-type-vs-l-type | P型 vs L型的核心差异就在是否执行15字诀 |
 | 案例 | case-一堂-奶茶店创业-business-prediction | 用15字诀花两个月预判、十年开100+店的实例 |

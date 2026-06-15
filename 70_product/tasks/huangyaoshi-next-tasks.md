@@ -1296,3 +1296,128 @@ total: 1359, p0: 0, p1: 773, clean: 586, yaml_error: 0
 - ❌ 批量脚本修改卡片前，必须先给老顽童/欧阳锋确认方案
 
 ---
+
+## 新增任务：OCR 原始素材卡与精修成品卡混放问题
+
+> **来源**：Kimi Code CLI 独立核实（2026-06-16）。`30_wiki/concepts/` 下 184 张 OCR 卡（`trust_level=low`, `status=draft`, `confidence≤0.6`）与 229 张 yt-* 精修成品卡（83% enriched/reviewed，90% medium+ trust）无物理隔离，导致搜索召回污染、Producer 找卡干扰、统计失真。
+>
+> **角色分工**：这是基础设施/目录结构问题，由黄药师负责；老顽童只负责后续 OCR 卡精修升级的内容判断。
+
+---
+
+### 任务 S1：搜索层默认过滤 `trust_level=low` 卡
+
+**目标**：在 RAG/搜索/Graph ingest 中默认排除 OCR 原始素材卡，需要时显式开启。
+
+**操作**：
+
+1. **`kdo query` / `kdo graph query` / 搜索索引**：
+   - 默认过滤 `trust_level=low` 的卡
+   - 新增参数 `--include-raw`：需要时包含 low trust 卡
+   - 新增参数 `--trust-level low,medium,high`：按 trust_level 筛选
+
+2. **Graph RAG ingest**：
+   - 在 `_collect_wiki_pages()` 中，默认跳过 `trust_level=low` 的卡
+   - 或将其作为"原始素材节点"单独标记，不参与核心知识图谱
+
+3. **更新帮助文档和 schema 注释**：
+   - 说明 `trust_level=low` 的默认行为
+   - 给出 `--include-raw` 使用场景
+
+**完成标志**：
+- [ ] `kdo query "一堂五步法"` 返回结果中不包含 `ocr-一堂-*.md`
+- [ ] `kdo query "一堂五步法" --include-raw` 可以返回 OCR 卡
+- [ ] `kdo graph ingest --full` 后，Graph RAG 中 low trust 节点被隔离
+- [ ] pytest 通过，标注 `dogfood-tested`
+
+**工作量**：0.5-1 天。
+
+---
+
+### 任务 S2：OCR 卡迁移到 `30_wiki/raw/ocr/`
+
+**目标**：把 184 张 OCR 卡从 `30_wiki/concepts/` 迁移到 `30_wiki/raw/ocr/`，建立原始素材层和精修知识层的物理隔离。
+
+**操作**：
+
+1. **目录注册**：
+   - `templates.py` 的 `REQUIRED_DIRS` 追加 `30_wiki/raw/ocr/`
+   - `90_control/schemas/` 中定义 `raw/` 目录规范（原始素材卡标准 frontmatter）
+
+2. **写迁移脚本**：
+   - 扫描 `30_wiki/concepts/ocr-*.md`
+   - 移动到 `30_wiki/raw/ocr/`
+   - 自动更新所有指向这些卡的 `related`、`source_refs`、`wikilinks`
+   - 生成迁移日志 `60_feedback/corrections/ocr-migration-2026-06-16.log`
+
+3. **更新索引和扫描路径**：
+   - `search_index.py`：默认排除 `30_wiki/raw/`，或单独标记为 raw
+   - `graph.py`：默认不 ingest `30_wiki/raw/`
+   - `kdo validate`：对 `raw/` 卡只检查 YAML 格式，不检查内容质量标准
+
+4. **跑全量验证**：
+   - `kdo lint 30_wiki/`
+   - `kcard-quality-gate.py`
+   - 确认 P0=0、YAML 错误=0
+
+**严禁**：
+- ❌ 不要删除 OCR 卡
+- ❌ 不要修改 OCR 卡正文内容
+- ❌ 迁移前先 git stash/备份
+
+**完成标志**：
+- [ ] `30_wiki/concepts/` 下无 `ocr-*.md`
+- [ ] `30_wiki/raw/ocr/` 下有 184 张 OCR 卡
+- [ ] 所有指向 OCR 卡的链接自动更新
+- [ ] 质量门禁无新增 P0/YAML 错误
+- [ ] 老顽童验收通过
+
+**工作量**：1-2 天。
+
+---
+
+### 任务 S3：建立 OCR 卡精修升级 SOP
+
+**目标**：定义 OCR 原始素材卡如何升级为正式概念卡。
+
+**SOP 草案**：
+
+```
+1. OCR 卡默认存放在 30_wiki/raw/ocr/
+2. 老顽童判断某张 OCR 卡值得精修：
+   - 在 30_wiki/raw/ocr/ 中修改该卡，提升内容质量
+   - 将 status 从 draft 升到 enriched/reviewed
+   - 将 trust_level 从 low 升到 medium+
+   - 补充 source_refs、diagnostic_signals 等字段
+3. 精修完成后：
+   - 将该卡移动到 30_wiki/concepts/（或对应目录）
+   - 重命名为合适的概念卡 ID（不再以 ocr- 开头）
+   - 在 30_wiki/raw/ocr/ 保留一个 redirect stub，指向新概念卡
+4. 黄药师提供 `kdo promote` 命令自动化上述流程
+```
+
+**完成标志**：
+- [ ] SOP 写入 `90_control/schemas/raw-card-promotion-sop.md`
+- [ ] 黄药师提供 `kdo promote --raw <ocr-card> --to <target-dir>` 原型
+- [ ] 老顽童用 SOP 升级 1 张 OCR 卡做试点
+
+**工作量**：1 天。
+
+---
+
+### 执行顺序
+
+```
+S1 → S2 → S3
+```
+
+S1 可以立即做，S2 需要老顽童/欧阳锋确认后再迁移，S3 是长期机制。
+
+---
+
+### 关联文件
+
+- 独立判断报告：`60_feedback/diagnosis/kimi-ocr-yt-mix-review-2026-06-16.md`
+- OCR 卡清单：可通过 `ls 30_wiki/concepts/ocr-*.md` 获取
+
+---

@@ -29,7 +29,7 @@ source_refs:
 - source_unknown
 status: draft
 title: 单元模型选择法：复制哪个算哪个，找到核心经济单元
-trust_level: high
+trust_level: medium
 type: tool
 updated_at: '2026-06-16'
 version: 1

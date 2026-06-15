@@ -32,7 +32,6 @@ related:
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-business-formula-six-level-logic]]'
 - '[[yt-entrepreneur-unit-model]]'
-- null
 ---
 # ToC 消费品电商：业务公式拆解误判导致放量亏损
 

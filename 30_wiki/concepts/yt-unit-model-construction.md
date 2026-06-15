@@ -31,7 +31,7 @@ source_refs:
 - source_unknown
 status: draft
 title: 单元模型构建法：拆推评算与ABCD模型分类
-trust_level: high
+trust_level: medium
 type: tool
 version: 1
 yitang:

@@ -20,11 +20,7 @@ reviewed_by: pending
 review_date: 2026-06-15
 confidence: 0.8
 trust_level: high
-related:
-- - - modeling-weapon-library
-- - - modeling-three-stages
-- - - yt-model-five-step-canvas
-- - - yt-decision-y-model
+related: []
 ---
 # 抽象建模案例：一堂内部模型武器库与跨领域商业模型地图
 

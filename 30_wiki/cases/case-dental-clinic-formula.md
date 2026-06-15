@@ -31,7 +31,6 @@ related:
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-entrepreneur-unit-model]]'
-- null
 ---
 # ToC 连锁口腔诊所：成交率 30% 背后的“危机感知”公式
 

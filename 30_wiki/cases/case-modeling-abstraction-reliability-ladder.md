@@ -20,10 +20,7 @@ reviewed_by: pending
 review_date: 2026-06-15
 confidence: 0.8
 trust_level: high
-related:
-- - - dk-modeling-counterexample-driven
-- - - dk-modeling-case-explosion-confidence
-- - - case-modeling-essence-schools
+related: []
 ---
 # 抽象建模案例：知识可靠度四阶梯——从“听着很香”到“没有反例”
 

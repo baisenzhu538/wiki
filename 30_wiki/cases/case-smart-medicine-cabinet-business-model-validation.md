@@ -1,30 +1,24 @@
 ---
 id: case-smart-medicine-cabinet-business-model-validation
-title: "智能药柜推广项目：录音商业模式命题交叉验证"
+title: 智能药柜推广项目：录音商业模式命题交叉验证
 type: case
 status: enriched
 domain:
-  - healthcare
-  - business-strategy
+- healthcare
+- business-strategy
 source_refs:
-  - src_20260613_732d251f
+- src_20260613_732d251f
 created_at: 2026-06-15
 updated_at: 2026-06-15
-author: "王语嫣"
-reviewed_by: "老顽童"
+author: 王语嫣
+reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.6
 trust_level: low
-related:
-  - [[smart-medicine-cabinet-financial-model]]
-  - [[smart-medicine-cabinet-fraud-detection]]
-  - [[smart-medicine-cabinet-clinic-risk-observation]]
-  - [[smart-medicine-cabinet-national-policy-redlines]]
-  - [[smart-medicine-cabinet-regional-policy-map]]
-source_person: "王语嫣"
-source_context: "听脑录音 1241665/1883124/2431721/2447560 交叉验证"
+related: []
+source_person: 王语嫣
+source_context: 听脑录音 1241665/1883124/2431721/2447560 交叉验证
 ---
-
 # 智能药柜推广项目：录音商业模式命题交叉验证
 
 > **核心定位**：本卡基于 4 条内部听脑录音（1241665、1883124、2431721、2447560）的原文与纪要，对项目相关方提出的商业模型、成本结构、盈利来源、门店/设备数量、毛利率、分成比例、关键假设等命题进行逐条提取与交叉验证。因来源多为单方面宣称且缺乏审计数据，本卡整体置信度较低，**只能作为内部诊断参考，不能作为对外商业计划依据**。

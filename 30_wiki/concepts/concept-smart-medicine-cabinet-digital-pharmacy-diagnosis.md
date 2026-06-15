@@ -1,26 +1,22 @@
 ---
 id: concept-smart-medicine-cabinet-digital-pharmacy-diagnosis
-title: "智能药柜/数字药房项目诊断：大院处方、小院续方模式"
+title: 智能药柜/数字药房项目诊断：大院处方、小院续方模式
 type: concept
 status: enriched
 domain:
-  - healthcare
-  - business-strategy
+- healthcare
+- business-strategy
 source_refs:
-  - src_20260613_98aa19d4
+- src_20260613_98aa19d4
 created_at: 2026-06-15
 updated_at: 2026-06-15
-author: "王语嫣"
-reviewed_by: "老顽童"
+author: 王语嫣
+reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.7
 trust_level: medium
-related:
-  - [[smart-medicine-cabinet-national-policy-redlines]]
-  - [[smart-medicine-cabinet-clinic-risk-observation]]
-  - [[case-smart-medicine-cabinet-corporate-risk]]
+related: []
 ---
-
 # 知识卡草稿：智能药柜/数字药房项目诊断
 
 > 卡片编号：kc_itingnao_digital-pharmacy  

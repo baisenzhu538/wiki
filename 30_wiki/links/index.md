@@ -578,7 +578,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 ## [[concept-toyota-5-whys]]
 - 30_wiki\tools\concept-mckinsey-issue-tree.md
 
-## [[concept-一堂-business-prediction]]
+## concept-一堂-business-prediction
 - 30_wiki\cases\case-milktea-five-step.md
 - 30_wiki\concepts\concept-一堂-hypothesis-driven-business-methodology.md
 - 30_wiki\concepts\concept-一堂-key-assumptions.md
@@ -1388,7 +1388,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 ## nonviolent-communication-rosenberg
 - 30_wiki\concepts\yt-decision-consensus-iceberg.md
 
-## [[obsidian-kdo-内容产出工作流-产品设计大纲]]
+## obsidian-kdo-内容产出工作流-产品设计大纲
 - 30_wiki\concepts\kdo_product_design_agent_final.md
 - 30_wiki\systems\kdo-protocol.md
 
@@ -4854,7 +4854,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 ## [[数据标注维度最佳实践调研报告]]
 - 30_wiki\concepts\ai数据理解第一课.md
 
-## [[紫鲸ai_智能体工作流平台_深度分析与产品设计]]
+## 紫鲸ai_智能体工作流平台_深度分析与产品设计
 - 30_wiki\entities\紫鲸AI.md
 
 ## [[紫鲸ai智能体工作流平台]]

@@ -30,7 +30,7 @@ source_refs:
 - source_unknown
 status: draft
 title: 单元模型基准值：科学类比、三点预测与基准值共建
-trust_level: high
+trust_level: medium
 type: tool
 version: 1
 yitang:
