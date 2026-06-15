@@ -21,6 +21,7 @@ related:
 - '[[modeling-three-stages]]'
 - '[[modeling-capability-system]]'
 - '[[dk-modeling-counterexample-driven]]'
+- '[[case-modeling-essence-levels]]'
 - '[[case-modeling-essence-schools]]'
 tags:
 - '#source-type/diverse'

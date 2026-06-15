@@ -24,6 +24,7 @@ related:
 - '[[tool-essence-nfactor-modeling]]'
 - '[[dk-modeling-essence-predictive]]'
 - '[[case-essence-education-strategy]]'
+- '[[case-modeling-essence-levels]]'
 tags:
 - '#method/modeling'
 - '#chunk-type/question'
