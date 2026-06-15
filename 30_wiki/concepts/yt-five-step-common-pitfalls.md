@@ -21,6 +21,12 @@ source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt
 - 00_inbox/一堂五步法/一堂-一堂五步法-落地实操-笔记.txt
 status: reviewed
+related:
+- '[[yt-five-step-method]]'
+- '[[yt-five-step-implementation]]'
+- '[[yt-demand-analysis-hiking-map]]'
+- '[[yt-product-kernel-cultivation]]'
+- '[[yt-panproduct-demand-five-step-method]]'
 title: 暗知识：五步法常见误区与认知陷阱
 trust_level: medium
 type: dk

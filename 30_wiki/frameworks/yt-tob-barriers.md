@@ -29,6 +29,7 @@ trust_level: high
 related:
   - '[[yt-tob-unit-model]]'
   - '[[yt-tob-growth-channel]]'
+  - '[[yt-tob-customer-sabc]]'
   - '[[yt-entrepreneur-five-step-method]]'
   - '[[yt-entrepreneur-product-core]]'
   - '[[case-yitang-tob-artificial-bone]]'

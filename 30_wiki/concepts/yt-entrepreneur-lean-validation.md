@@ -5,7 +5,7 @@ created_at: 2026-05-06
 difficulty: intermediate
 domain:
 - yitang
-estimated_tokens: 1851
+estimated_tokens: 2800
 language: zh-CN
 query_triggers:
 - 低成本验证

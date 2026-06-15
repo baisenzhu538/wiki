@@ -168,6 +168,8 @@ trust_level: medium
 | 相关工具 | [[yt-panproduct-execution-10x-validation]] | 十倍速验证（MVP是十倍速验证的具体执行） |
 | 相关工具 | [[yt-panproduct-execution-hypothesis-decomposition]] | 假设拆解（先拆解假设再选MVP层级） |
 | 关联 | [[yt-entrepreneur-five-step-method]] | 五步法（精益验证对应五步法第4步） |
+| 关联 | [[yt-entrepreneur-lean-validation]] | 精益验证方法论（MVP是精益验证的核心手段） |
+| 关联 | [[yt-research-hypothesis-test]] | 假设测试（MVP设计与假设测试配套使用） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
 | 实体页 | [[一堂]] | 一堂实体页 |
 

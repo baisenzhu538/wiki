@@ -23,7 +23,8 @@ tags:
 related_skills: []
 related_concepts:
 - '[[dk-modeling-model-arsenal-paradigms]]'
-related_cases: []
+related_cases:
+- '[[case-yitang-weekly-modeling-engine]]'
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 author: 老顽童
@@ -78,7 +79,7 @@ domain:
 
 - 概念：[[dk-modeling-model-arsenal-paradigms]]
 - 技能：无
-- 案例：无
+- 案例：[[case-yitang-weekly-modeling-engine]]
 
 ## 来源
 

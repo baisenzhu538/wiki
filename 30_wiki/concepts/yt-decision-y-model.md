@@ -24,9 +24,14 @@ related:
 - '[[yt-decision-ai-partner]]'
 - '[[yt-model-entrepreneur-map]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-decision-width-method]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yt-decision-full-process]]'
+- '[[yt-five-step-method]]'
 reviewed_by: 周伯通
 source_refs:
 - src_20260609_f00cad16
+- src_20260616_aac184cc
 status: enriched
 title: Y模型科学决策框架（广义ROI）
 trust_level: medium
@@ -120,7 +125,7 @@ author: 老顽童
 
 
 
-Y模型在一堂知识体系中的坐标：科学决策模块的底层框架，贯穿预判、起盘、增长三阶段，与yt-entrepreneur-key-hypotheses|关键假设、单元模型、科学管理等课程形成方法论网络。
+Y模型在一堂知识体系中的坐标：科学决策模块的底层框架，贯穿预判、起盘、增长三阶段，与[[yt-entrepreneur-key-hypotheses|关键假设]]、[[yt-unit-model-build|单元模型]]、科学管理等课程形成方法论网络。
 
 
 

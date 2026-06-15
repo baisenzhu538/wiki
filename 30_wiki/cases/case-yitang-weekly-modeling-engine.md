@@ -29,8 +29,8 @@ related_cases:
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 author: 老顽童
-reviewed_by: pending
-review_date: '2026-06-16'
+reviewed_by: 欧阳锋
+review_date: '2026-06-15'
 confidence: 0.8
 trust_level: medium
 domain:
