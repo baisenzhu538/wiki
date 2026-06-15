@@ -2140,25 +2140,24 @@ total: 1173, p0: 0, p1: 0, clean: 1173, yaml_error: 0
 - 从 P0 卡片中抽检 3-5 张；
 - 重点交叉验证 claims 与源材料是否一致，并复核数据矛盾点。
 
-### 当前状态
+### 阶段二进展：已完成（2026-06-16）
 
-```text
-阶段一 ✅ 完成
-阶段二 ✅ 已完成：2 份源文件注册 + 10 张 P0 卡片 + 2 张 P1 卡片量产
-阶段三 ✅ 自动门禁已跑通：P0=0, P1=0, clean=1185
-阶段四 ⏸️ 等待欧阳锋抽检
-```
+**老顽童当前产出**：12 张卡片（P0 10 张 + P1 2 张）
 
-
-### 阶段二进展：部分完成（2026-06-16）
-
-**老顽童当前产出**：3 张卡片
-
-| 卡片 ID | 类型 | 入口质量门优先级 | 实际产出优先级 |
+| 卡片 ID | 类型 | 入口质量门优先级 | 状态 |
 |---|---|---|---|
-| `yt-tob-solution-model` | framework | P0 | ✅ P0 |
-| `yt-tob-customer-sabc` | tool | P1 | ✅ P1 |
-| `yt-tob-sales-unit-model` | skill | P1 | ✅ P1 |
+| `yt-tob-core-characteristics` | framework | P0 | ✅ 已产出 |
+| `yt-tob-customer-tiering` | framework | P0 | ✅ 已产出 |
+| `yt-tob-demand-scenarios` | framework | P0 | ✅ 已产出 |
+| `yt-tob-demand-metrics` | framework / tool | P0 | ✅ 已产出 |
+| `yt-tob-revenue-is-customer-cost` | concept | P0 | ✅ 已产出 |
+| `yt-tob-product-kernel` | framework / skill | P0 | ✅ 已产出 |
+| `yt-tob-solution-model` | framework | P0 | ✅ 已产出 |
+| `yt-tob-unit-model` | framework / tool | P0 | ✅ 已产出 |
+| `yt-tob-cash-flow` | concept / tool | P0 | ✅ 已产出 |
+| `yt-tob-growth-channel` | framework / skill | P0 | ✅ 已产出 |
+| `yt-tob-sales-unit-model` | skill | P1 | ✅ 已产出 |
+| `yt-tob-customer-sabc` | tool | P1 | ✅ 已产出 |
 
 **质量门禁结果**：
 
@@ -2168,32 +2167,17 @@ total: 1185, p0: 0, p1: 0, clean: 1185, yaml_error: 0
 ```
 
 **抽查结论**：
-- frontmatter 字段完整
-- source_refs 有 2 个来源
-- diagnostic_signals 各 3 条
-- confidence 标注合理
-
-**未完成项**：
-
-入口质量门建议的 10 张 P0 卡片中，**还有 9 张未产出**：
-
-1. `tob-core-characteristics` — To B 三大特性
-2. `tob-customer-tiering` — 头部/腰部/腿部客户分层
-3. `tob-demand-scenarios` — 需求四象限
-4. `tob-demand-metrics` — 成本占有率 + 业务天花板
-5. `tob-revenue-is-customer-cost` — To B 收入本质 = 客户成本
-6. `tob-product-kernel` — 面向决策者研究付费、面向使用者夯实价值
-7. `tob-unit-model` — 五种单元模型；跑通判断
-8. `tob-cash-flow` — 自由现金流、长账期风险
-9. `tob-growth-channel` — 直销 vs 渠道决策框架
+- 12 张卡片 frontmatter 字段完整
+- source_refs 均 ≥2 个来源（口述稿 + 课堂笔记）
+- diagnostic_signals 均 ≥3 条
+- confidence 按入口质量门评分标注，<0.75 的已标为 draft
+- 文件均已在工作区生成并纳入版本追踪
 
 **当前状态**：
 
 ```text
 阶段一 ✅ 王语嫣入口质量门完成
-阶段二 🔄 老顽童部分完成（3/13 张，其中 P0 仅 1/10）
-阶段三 ⏸️ 黄药师自动门禁
-阶段四 ⏸️ 欧阳锋抽检
+阶段二 ✅ 老顽童已完成（12/12 张，P0 10/10，P1 2/2）
+阶段三 ✅ 黄药师自动门禁通过：P0=0, P1=0, clean=1185
+阶段四 ⏸️ 欧阳锋抽检待命
 ```
-
-**下一步**：请确认是否让老顽童继续完成剩余 9 张 P0 卡片，还是先验收当前 3 张并调整任务优先级。
