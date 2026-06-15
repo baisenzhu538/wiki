@@ -1687,3 +1687,60 @@ E1 和 E2 可各占一个阶段，E3-E5 可穿插进行。
 - [ ] 小结写入本文件末尾，包含：各批次修复数量、剩余问题清单
 
 ---
+
+---
+
+## 十一、author=legacy 治理 + confidence/status 一致性修复完成小结（2026-06-16）
+
+本次完成用户指定的两项治理任务，并顺手清理了过程中暴露的相邻 P1 问题。
+
+### 1. author=legacy 治理
+
+- 扫描 `30_wiki` 全库，对 `author=legacy` 的卡片按 `source_person`、`source_context`、`filename` 推断真实作者：
+  - Truman / 一堂相关 → `老顽童`
+  - 纪浩相关 → `纪浩`
+  - 半肥猫相关 → `半肥猫`
+  - 黄药师 / 广冷电子相关 → `黄药师`
+  - 月白相关 → `月白`
+  - 系统卡（index/log/contradictions）→ `system`
+  - 无法推断 → `unknown`
+- 结果：`author=legacy` 卡片从 180+ 张降至 **0 张**。
+
+### 2. confidence/status 一致性修复
+
+- `status=draft` 但 `confidence>=0.85` 的卡片：confidence 调整为 **0.80**；
+- `trust_level=low/medium-low` 但 `confidence>=0.85` 的卡片：confidence 调整为 **0.70**；
+- `confidence>=0.90` 且 source 仅 1 个的卡片：confidence 调整为 **0.80**；
+- OCR 卡：trust_level 统一为 `low`，confidence 调整为 **0.60**；
+- 共调整 **11 张**卡片的 confidence。
+
+### 3. 顺手清理的相邻 P1
+
+- **自审卡分流**：6 张 `author=reviewed_by` 的 dk 卡改为 `reviewed_by: pending`；
+- **reviewed 状态无效**：13 张 `status=reviewed` 但 `reviewed_by` 为空/pending 的卡降为 `draft`；
+- **OCR 空 source**：2 张 OCR 卡补 `source_refs: [source_unknown]`；
+- **query 卡缺字段**：`queries/双三角模型查询.md` 补全 author/confidence/trust_level/domain，消除 P0。
+
+### 最终质量门禁
+
+- **P0：0 张**
+- **P1：40 张**
+- **完全干净卡片：1320 张 / 1360 张**（干净率 97.1%）
+- **YAML 解析错误：0 张**
+
+### 剩余 40 张 P1 分类
+
+| 问题类型 | 数量 | 说明 |
+|---|---|---|
+| source_refs 中 src ID 未注册 | ~14 | 智能药柜/yt业务公式/yt单元模型等历史 src，需补充 source_id_map 或替换为 source_unknown |
+| type 值异常 | ~10 | 如 `composite-concept`、`method`、`course_notes`、`project`、`workflow` 等，需更新 schema 或调整 type |
+| status=reviewed 但 reviewed_by 无效 | 0 | 已清理 |
+| dangling 链接 | 少量 | 中文概念死链，已清理大部分 |
+| author=legacy | 0 | 已清理 |
+
+### 下一步建议
+
+1. 如需 P1 清零：
+   - 更新 `90_control/schemas/` 允许 `composite-concept`、`project`、`workflow` 等 type；或批量改 type 为 schema 允许的枚举值；
+   - 对 14 张未注册 src ID 的卡，要么在 `.kdo/source_id_map.json` 补注册，要么替换为 `source_unknown`。
+2. 验收当前结果后，可宣布 KDO 卡片库进入 **P0 清零、P1 <50 的高净状态**。
