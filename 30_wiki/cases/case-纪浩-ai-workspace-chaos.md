@@ -15,6 +15,7 @@ updated_at: '2026-06-16'
 related:
 - '[[concept-纪浩-ai-collaboration-five-layer]]'
 - '[[dk-纪浩-novice-mindset-advantage]]'
+- '[[case-jh-yitang-vs-sqlhelper]]'
 wiki_refs:
 - '[[concept-纪浩-ai-collaboration-five-layer]]'
 - '[[dk-纪浩-novice-mindset-advantage]]'

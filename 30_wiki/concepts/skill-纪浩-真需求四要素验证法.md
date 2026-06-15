@@ -15,6 +15,7 @@ prerequisite_skills: null
 related:
 - '[[concept-纪浩-ai-collaboration-methodology]]'
 - '[[case-纪浩-from-zip-to-five-layers]]'
+- '[[case-jh-yitang-vs-sqlhelper]]'
 created_at: 2026-06-08
 updated_at: '2026-06-16'
 pipeline:

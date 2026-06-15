@@ -31,6 +31,7 @@ related:
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[skill-一堂-hypothesis-validation-three-axe]]'
 - '[[yt-decision-abcd-model]]'
+- '[[case-jh-yitang-vs-sqlhelper]]'
 diagnostic_signals:
 - signal: 团队同时想测需求、产品、定价、渠道，但说不清先测哪一个
   framework_lens: 前置假设优先 + 五步法阶段判断

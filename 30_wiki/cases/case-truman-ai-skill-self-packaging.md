@@ -19,6 +19,7 @@ related:
 - '[[modeling-three-stages]]'
 - '[[case-truman-livestream-sop-iteration]]'
 - '[[modeling-to-kdo-toolchain]]'
+- '[[case-truman-ai-skill-engineering-guide]]'
 tags:
 - '#domain/skill-engineering'
 - '#content-format/case-study'

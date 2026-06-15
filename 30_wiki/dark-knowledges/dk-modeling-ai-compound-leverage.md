@@ -17,6 +17,7 @@ related:
 - '[[dk-modeling-ai-without-judgment]]'
 - '[[dk-modeling-ai-self-retrospection]]'
 - '[[modeling-three-values]]'
+- '[[case-truman-ai-skill-engineering-guide]]'
 tags:
 - '#chunk-type/synthesis'
 - '#domain/yitang'
