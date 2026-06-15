@@ -16,10 +16,8 @@ tools_required:
 prerequisite_skills:
 - skill-一堂-business-prediction-15-char
 related:
-- 'concept-一堂-business-prediction'
 - '[[skill-一堂-business-prediction-15-char]]'
 wiki_refs:
-- 'concept-一堂-business-prediction'
 - '[[skill-一堂-business-prediction-15-char]]'
 created_at: 2026-06-10
 updated_at: '2026-06-16'

@@ -8,7 +8,7 @@ domain:
 - yitang
 estimated_tokens: 2200
 language: zh-CN
-prerequisites: '[[yt-unit-model-concept]] | [[yt-unit-model-build]]'
+prerequisites: []
 query_triggers:
 - 扭蛋机案例
 - 抓娃娃机商业模式

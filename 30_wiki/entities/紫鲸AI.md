@@ -17,7 +17,6 @@ created_at: 2026-05-03
 updated_at: '2026-06-16'
 related:
 - '[[紫鲸ai智能体工作流平台]]'
-- '紫鲸ai_智能体工作流平台_深度分析与产品设计'
 - '[[yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown]]'
 tags: []
 trust_level: medium

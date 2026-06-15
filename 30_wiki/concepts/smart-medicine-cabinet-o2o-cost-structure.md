@@ -34,9 +34,8 @@ query_triggers:
 - 药店 O2O 成本
 - 即时零售药品抽成
 difficulty: intermediate
-prerequisites: kc-p0-03-financial-model
+prerequisites: []
 ---
-
 # 医药 O2O 成本与毛利结构
 
 > **核心定位**：药柜若作为 O2O 前置仓，平台抽成和配送成本会显著压缩毛利。本卡拆解医药即时零售的成本结构，帮助判断"药柜+O2O"模式是否可行。

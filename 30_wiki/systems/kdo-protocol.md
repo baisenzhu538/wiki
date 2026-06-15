@@ -8,7 +8,6 @@ id: kdo-protocol
 created_at: '2026-05-02'
 updated_at: '2026-06-16'
 related:
-- 'obsidian-kdo-内容产出工作流-产品设计大纲'
 - '[[kdo-protocol]]'
 - '[[index]]'
 - '[[business-research-skill-oscar-13-weapon-system]]'

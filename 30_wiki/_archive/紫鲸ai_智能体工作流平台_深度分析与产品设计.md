@@ -6,7 +6,7 @@ domain:
 source_refs:
 - src_20260501_4eee4e95
 status: superseded
-superseded_by: '[[紫鲸AI智能体工作流平台]]'
+superseded_by: []
 title: 紫鲸AI_智能体工作流平台_深度分析与产品设计
 type: concept
 updated_at: '2026-06-16'

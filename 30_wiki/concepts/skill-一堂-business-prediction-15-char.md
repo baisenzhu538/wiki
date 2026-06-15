@@ -17,10 +17,8 @@ tools_required:
 prerequisite_skills:
 - concept-一堂-business-prediction
 related:
-- 'concept-一堂-business-prediction'
 - '[[skill-一堂-spectrum-positioning]]'
 wiki_refs:
-- 'concept-一堂-business-prediction'
 - '[[skill-一堂-spectrum-positioning]]'
 created_at: 2026-06-10
 updated_at: '2026-06-16'

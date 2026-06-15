@@ -8,7 +8,7 @@ domain:
 - yitang
 estimated_tokens: 2400
 language: zh-CN
-prerequisites: '[[yt-five-step-method]] | [[yt-unit-model-concept]] | [[yt-five-step-implementation]]'
+prerequisites: []
 query_triggers:
 - 五步法段位
 - 五步法自评

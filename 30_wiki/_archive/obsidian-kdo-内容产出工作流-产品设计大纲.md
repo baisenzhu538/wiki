@@ -6,7 +6,7 @@ domain:
 source_refs:
 - src_20260501_58b6edef
 status: superseded
-superseded_by: 30_wiki/concepts/kdo_product_design_agent_final.md
+superseded_by: []
 title: Obsidian + KDO 内容产出工作流 — 产品设计大纲
 type: concept
 updated_at: '2026-06-16'

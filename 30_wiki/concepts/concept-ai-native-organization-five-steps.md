@@ -10,8 +10,7 @@ domain:
 - management
 estimated_tokens: 3500
 language: zh-CN
-prerequisites:
-- ai时代判断力口述-2
+prerequisites: []
 query_triggers:
 - AI原生组织
 - 自进化组织

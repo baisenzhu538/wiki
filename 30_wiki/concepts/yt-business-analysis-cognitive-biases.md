@@ -8,7 +8,7 @@ domain:
 - yitang
 estimated_tokens: 2400
 language: zh-CN
-prerequisites: '[[yt-five-step-method]] | [[yt-demand-analysis-hiking-map]]'
+prerequisites: []
 query_triggers:
 - 商业分析认知偏差
 - 证实性偏差 商业
