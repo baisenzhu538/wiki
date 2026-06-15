@@ -4,7 +4,7 @@ title: 案例：Truman 用 AI Agent 3 小时设计里程碑方法论与 48 个�
 type: case
 source_refs:
 - src_20260614_8269ccdb
-status: draft
+status: enriched
 domain:
 - yitang
 - modeling
@@ -15,7 +15,7 @@ source_context: 一堂高阶建模能力培训（AI 辅助建模案例） （单
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 老顽童
 review_date: '2026-06-14'
 trust_level: medium
 confidence: 0.7
