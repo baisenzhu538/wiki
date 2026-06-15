@@ -1102,3 +1102,88 @@ source_context: "月白 AIGC设计课程 — 实操技巧笔记"  # 重复键，
 2. 修正后的 3 张 design skill 卡
 3. 更新的 `60_feedback/corrections/huangyaoshi-8bbfd08d-review-2026-06-15.md`（写明已处理）
 4. 此任务文件末尾的小结
+
+---
+
+## 🟡 第二阶段：P1 精修 — 技术性清理（2026-06-16）
+
+> **来源**：用户拍板，第一阶段（P0 清零）已完成，进入第二阶段质量精修。
+> **目标**：把 P1 问题从 1006 张降到 300 张以内，clean 卡从 353 张提升到 800 张以上。
+> **执行人**：黄药师
+> **优先级**：P1
+
+第二阶段分 4 个批次。你的批次是 **B1-B3**，先启动 **B1**。
+
+---
+
+### 批次 B1：修复 Dangling 链接（最先启动）
+
+**目标**：质量门禁里所有 `dangling 链接` 告警归 0。
+
+**操作步骤**：
+
+1. 读取最新质量门禁报告：`60_feedback/audit/kcard-quality-gate-report-2026-06-15.md`
+2. 找到所有 `dangling 链接` 告警，提取目标 link ID
+3. 对每个目标 ID，判断属于以下哪种情况：
+
+| 情况 | 处理方式 |
+|---|---|
+| 目标卡应该存在但缺失 | 创建 stub 卡，或通知老顽童/用户补卡 |
+| 链接拼写错误 | 修正为正确的 link ID |
+| 目标卡已废弃/合并 | 删除该链接 |
+| 目标是外部链接（非 wiki 卡） | 改为普通 URL 或移除 `[[]]` |
+
+**严禁**：
+- ❌ 不要批量删除所有 dangling link
+- ❌ 不要创建空 stub 卡应付检查
+
+**完成标准**：
+- [ ] 运行 `kcard-quality-gate.py` 后 dangling 链接告警为 0
+- [ ] 对创建的 stub 卡，写入 `60_feedback/corrections/dangling-link-stubs-2026-06-16.md` 说明
+
+---
+
+### 批次 B2：修复 Tags 格式告警
+
+**目标**：lint 中 tags 格式告警归 0。
+
+**背景**：现有 tags 如 `#source_type/error` 含下划线，与 schema 正则 `^#[a-z0-9-/]+$` 冲突。
+
+**处理方式**：
+1. 全库搜索含下划线的 tags
+2. 统一替换为连字符：`#source_type/error` → `#source-type/error`
+3. 更新 `90_control/tag-registry.yaml` 中相关定义
+
+**完成标准**：
+- [ ] `kdo_lint.py 30_wiki/` 无 tags 格式告警
+- [ ] `90_control/tag-registry.yaml` 已同步更新
+
+---
+
+### 批次 B3：Domain 精确度复核
+
+**目标**：确保我批量推断的 145 张 domain 错误率 ≤10%。
+
+**背景**：P0 清零时我用脚本批量推断了一大批 missing domain，但可能存在误判。
+
+**操作步骤**：
+1. 从 git log 找出被批量推断 domain 的 145 张卡（或从当前质量门禁/ lint 报告中找可疑项）
+2. 随机抽样 30 张
+3. 逐张判断 domain 是否合理
+4. 明显错误的修正，无法判断的保持现状
+
+**完成标准**：
+- [ ] 30 张抽样卡复核完成
+- [ ] 错误率 ≤10%
+- [ ] 修正清单写入 `60_feedback/corrections/domain-inference-review-2026-06-16.md`
+
+---
+
+### 验收与汇报
+
+完成 B1-B3 后，在此文件末尾写小结，包含：
+1. 各批次修复数量
+2. 质量门禁前后对比
+3. 遗留问题清单
+
+然后通知王语嫣验收。

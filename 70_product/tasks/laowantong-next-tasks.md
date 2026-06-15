@@ -1187,3 +1187,96 @@ updated_at: "2026-06-15"
 2. 原始表述引用是否准确、可追溯；
 3. 失败模式表是否可执行、边界是否清晰；
 4. 暗知识卡与案例卡之间的双向链接是否完整。
+
+---
+
+## 🟡 第二阶段：P1 精修 — 来源与审查流程（2026-06-16）
+
+> **来源**：用户拍板，第一阶段（P0 清零）已完成，进入第二阶段质量精修。
+> **目标**：处理 source legacy、source 单薄、自审问题。
+> **执行人**：老顽童
+> **优先级**：P1
+
+第二阶段分 4 个批次。你的批次是 **B4-B6**，与黄药师的 B1-B3 并行启动。
+
+---
+
+### 批次 B4：Source Legacy 卡分类
+
+**目标**：减少 50% 以上的 `source_refs: [legacy]` 卡。
+
+**背景**：第一阶段 P0 清零时，430 张无法追溯 source 的卡被统一标记为 `legacy`。
+
+**操作步骤**：
+
+1. 读取当前质量门禁报告或运行脚本，列出所有 `source_refs: [legacy]` 的卡
+2. 对你熟悉的素材进行分类认领：
+
+| 你能判断来源 | 处理方式 |
+|---|---|
+| 一堂/Truman 相关 | 从 `.kdo/source_id_map.json` 找对应 source_id，替换 `legacy` |
+| 月白/设计相关 | 找对应 source_id 或 source 文件 |
+| 其他你熟悉的 | 补充真实 source |
+| 无法判断 | 改为 `source_unknown`，并在 `source_context` 说明 |
+
+**完成标准**：
+- [ ] `source_refs: [legacy]` 卡数量减少 ≥50%
+- [ ] 剩余无法追溯的卡写入 `60_feedback/corrections/source-unknown-remaining.md`
+- [ ] 运行 `kcard-quality-gate.py` 确认无新增 P0
+
+---
+
+### 批次 B5：High Trust + Single Source 审查
+
+**目标**：处理质量门禁的 `trust_level=high 但 source 仅 1 个` 告警。
+
+**背景**：多张卡 trust_level 设为 high，但只引用了一个 source，可信度支撑不足。
+
+**操作步骤**：
+
+1. 从质量门禁报告提取所有 `trust_level=high 但 source 仅 1 个` 的卡
+2. 逐张判断：
+
+| 判断 | 处理 |
+|---|---|
+| 该 source 内容足够充分（如长口述稿） | 保持 high，加注释说明 |
+| source 单薄 | `trust_level` 降为 `medium`，`confidence` 降为 0.7 |
+| 能找到第二个 source | 补充 source_refs |
+
+**完成标准**：
+- [ ] 所有 high trust + single source 告警处理完毕
+- [ ] 运行质量门禁确认告警归 0
+
+---
+
+### 批次 B6：自审卡分流
+
+**目标**：减少 80% 的 `author == reviewed_by` 自审告警。
+
+**背景**：很多卡 author 和 reviewed_by 是同一个人，违反审查流程。
+
+**操作步骤**：
+
+1. 从质量门禁报告提取所有自审卡
+2. 分类处理：
+
+| 情况 | 处理 |
+|---|---|
+| 你创作的卡 | `reviewed_by` 改为 `pending`，等待欧阳锋/用户审查 |
+| 黄药师创作的卡 | `reviewed_by` 改为 `pending` |
+| 确实是你自己审查过且认为可靠的 | 保留，但在卡片末尾加注释说明 |
+
+**完成标准**：
+- [ ] 自审告警减少 80%
+- [ ] 运行质量门禁确认
+
+---
+
+### 验收与汇报
+
+完成 B4-B6 后，在此文件末尾写小结，包含：
+1. 各批次修复数量
+2. 认领和补充 source 的清单
+3. 质量门禁前后对比
+
+然后通知王语嫣验收。
