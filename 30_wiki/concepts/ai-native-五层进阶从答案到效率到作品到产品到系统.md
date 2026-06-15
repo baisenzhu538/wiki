@@ -1,6 +1,6 @@
 ---
 id: ai-native-五层进阶从答案到效率到作品到产品到系统
-created_at: “2026-05-23T17:29:50+00:00”
+created_at: '2026-05-23T17:29:50+00:00'
 domain:
 - ai-saas
 query_triggers:
@@ -14,14 +14,14 @@ related:
 - '[[master-systems-thinking]]'
 - '[[yt-panproduct-execution-core-and-boundary]]'
 source_refs:
-- '[“src_20260524_3cadf228”]'
-status: “enriched”
-title: “AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统”
-type: “framework”
+- '["src_20260524_3cadf228"]'
+status: draft
+title: AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
+type: framework
 updated_at: '2026-06-16'
 pipeline:
 - confidence-source-cited
-author: unknown
+author: 老顽童
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium

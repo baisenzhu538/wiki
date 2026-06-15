@@ -1,33 +1,32 @@
 ---
-title: "业务公式"
+title: 业务公式
 type: concept
 source_refs:
+- src_20260613_6b939d2b
+- src_20260613_6edbf0af
 - src_20260613_a8bcfd38
+- src_20260614_6d9f7671
+- source_unknown
 status: enriched
 domain:
-  - yitang
-  - master
-  - business-strategy
-source_refs:
-  - src_20260613_6b939d2b
-  - src_20260613_6edbf0af
-  - src_20260613_a8bcfd38
-  - src_20260613_91f90839
-  - src_20260613_8bfdc3d1
-  - src_20260613_0ab21e5e
-  - src_20260613_fa7b370d
-  - src_20260614_6d9f7671
+- yitang
+- master
+- business-strategy
 confidence: 0.92
 trust_level: high
 pipeline:
-  - confidence-source-cited
+- confidence-source-cited
 diagnostic_signals:
-  - {'signal': '业务讨论停留在感觉层面，没有公式', 'framework_lens': '无法量化', 'follow_up_question': '你能用公式描述当前业务的核心驱动因素吗？如果不能，讨论都是拍脑袋'}
-  - {'signal': '公式有了但不更新，业务变了公式不变', 'framework_lens': '静态公式', 'follow_up_question': '你的业务公式最近一次更新是什么时候？如果超过一个季度，公式可能已经过时'}
+- signal: 业务讨论停留在感觉层面，没有公式
+  framework_lens: 无法量化
+  follow_up_question: 你能用公式描述当前业务的核心驱动因素吗？如果不能，讨论都是拍脑袋
+- signal: 公式有了但不更新，业务变了公式不变
+  framework_lens: 静态公式
+  follow_up_question: 你的业务公式最近一次更新是什么时候？如果超过一个季度，公式可能已经过时
 updated_at: 2026-06-14
 id: yt-management-business-formula
-author: "老顽童"
-reviewed_by: "欧阳锋"
+author: 老顽童
+reviewed_by: 欧阳锋
 created_at: 2026-06-15
 ---
 

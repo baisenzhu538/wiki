@@ -40,7 +40,7 @@ diagnostic_signals:
 - signal: 主动跨领域收集最佳实践，而不局限于自己所在行业
   framework_lens: 审美来自见识广度
   follow_up_question: 你最近研究的一个优秀作品来自哪个完全不相干的领域？
-- signal: 能把‘好’拆解成可讨论、可复现的评价维度
+- signal: 能把'好'拆解成可讨论、可复现的评价维度
   framework_lens: 审美白盒化
   follow_up_question: 如果让你教别人判断这个作品的好坏，你会讲哪几个维度？
 - signal: 会把审美标准应用到自己的作品中，并迭代改进

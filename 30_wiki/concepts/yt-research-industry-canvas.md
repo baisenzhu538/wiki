@@ -1,6 +1,6 @@
 ---
 id: yt-research-industry-canvas
-confidence: 0.85
+confidence: 0.8
 created_at: 2026-05-18
 difficulty: intermediate
 domain:
@@ -48,7 +48,7 @@ diagnostic_signals:
 - signal: 能在二维竞争象限中定位关键玩家和机会空白区
   framework_lens: 定位决定机会空间
   follow_up_question: 你选择的定位在象限中是否已经被占据？
-- signal: 行业分析结论直接回答‘要不要进、怎么进’
+- signal: 行业分析结论直接回答'要不要进、怎么进'
   framework_lens: 行业分析服务于进入决策
   follow_up_question: 根据画布结论，你是进入、观望还是放弃？
 updated_at: '2026-06-16'

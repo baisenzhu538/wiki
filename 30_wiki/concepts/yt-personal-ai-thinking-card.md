@@ -29,12 +29,12 @@ source_refs:
 status: enriched
 title: AI思维卡：从「读书」到「安装认知补丁」
 trust_level: medium
-type: method
+type: tool
 version: 1
 pipeline:
 - confidence-source-cited
 diagnostic_signals:
-- signal: 每张卡只聚焦一个可迁移的‘认知补丁’，而不是一本书的摘要
+- signal: 每张卡只聚焦一个可迁移的'认知补丁'，而不是一本书的摘要
   framework_lens: 认知补丁 = 改变判断或行动的单一模型
   follow_up_question: 去掉这张卡，你在什么具体决策上会做出不同选择？
 - signal: 卡中包含明确的适用边界和至少一个可执行的行动建议

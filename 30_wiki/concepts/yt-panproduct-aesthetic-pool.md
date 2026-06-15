@@ -45,7 +45,7 @@ diagnostic_signals:
   follow_up_question: 这些案例是否覆盖了不同价位、不同用户群体和不同技术路径？
 - signal: 池中案例按设计维度（如信息层级、交互效率、视觉一致性）做了标签
   framework_lens: 从素材到结构化参照系
-  follow_up_question: 当你卡在‘信息层级’问题时，能否只过滤出相关案例？
+  follow_up_question: 当你卡在'信息层级'问题时，能否只过滤出相关案例？
 - signal: 同一案例会在多个版本的方案评审中被反复引用，并推动迭代
   framework_lens: 池子的价值在于持续打磨
   follow_up_question: 上一次方案评审中，池子里的哪个案例直接促成了设计改动？

@@ -1,6 +1,6 @@
 ---
 id: yt-unit-model-benchmark
-confidence: 0.85
+confidence: 0.8
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
@@ -27,8 +27,7 @@ related:
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[master-systems-thinking]]'
 source_refs:
-- src_20260524_7c8d9e0f-一堂-单元模型03口述
-- src_20260524_6b5a4c3d-一堂-单元模型04口述
+- source_unknown
 status: draft
 title: 单元模型基准值：科学类比、三点预测与基准值共建
 trust_level: high

@@ -38,12 +38,12 @@ yitang:
 pipeline:
 - confidence-source-cited
 diagnostic_signals:
-- signal: 每个用户需求背后都至少追问一次‘为什么’，并记录到第三层动机
+- signal: 每个用户需求背后都至少追问一次'为什么'，并记录到第三层动机
   framework_lens: 5 Whys / 任务层级理论
   follow_up_question: 用户说的需求如果完全满足，是否能解决他真正想完成的任务？
 - signal: 需求描述中包含具体的用户、场景和期望结果，而不是抽象名词
   framework_lens: 需求必须可验证
-  follow_up_question: 这个需求能否用一句‘谁在什么情况下想达成什么’讲清楚？
+  follow_up_question: 这个需求能否用一句'谁在什么情况下想达成什么'讲清楚？
 - signal: 挖掘出的需求会通过观察或实验验证，而不是只依赖用户口述
   framework_lens: ' stated need ≠ actual need'
   follow_up_question: 用户嘴上说的和实际行为之间有没有不一致？

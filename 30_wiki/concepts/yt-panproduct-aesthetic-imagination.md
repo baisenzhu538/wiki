@@ -40,7 +40,7 @@ yitang:
 pipeline:
 - confidence-source-cited
 diagnostic_signals:
-- signal: 在找不到直接对标时，团队能先写出‘理想体验’的3-5个关键画面
+- signal: 在找不到直接对标时，团队能先写出'理想体验'的3-5个关键画面
   framework_lens: 无对标时的目标态构建
   follow_up_question: 这些画面是基于用户需求的，还是基于个人偏好的？
 - signal: 想象前有明确的约束清单（用户、场景、技术、成本），而不是天马行空

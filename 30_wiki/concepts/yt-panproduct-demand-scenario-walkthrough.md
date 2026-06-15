@@ -39,7 +39,7 @@ yitang:
 pipeline:
 - confidence-source-cited
 diagnostic_signals:
-- signal: 每个需求都用‘[细分用户] 在 [场景] 下遇到了 [真实问题]’句式表达
+- signal: 每个需求都用'[细分用户] 在 [场景] 下遇到了 [真实问题]'句式表达
   framework_lens: 场景化是需求落地的基础
   follow_up_question: 去掉场景后，这个需求还成立吗？
 - signal: 覆盖了主路径、异常路径和边界场景，而不只是理想流程

@@ -41,7 +41,7 @@ yitang:
 pipeline:
 - confidence-source-cited
 diagnostic_signals:
-- signal: 能清晰说出产品的‘内核’是什么，且团队成员理解一致
+- signal: 能清晰说出产品的'内核'是什么，且团队成员理解一致
   framework_lens: 内核是产品存在的根本价值
   follow_up_question: 如果去掉这个内核，产品还是同一个产品吗？
 - signal: 边界上的功能需求会被评估是否损害内核，而不是一律接受或拒绝

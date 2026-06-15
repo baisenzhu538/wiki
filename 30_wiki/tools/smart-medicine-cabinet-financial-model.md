@@ -8,12 +8,11 @@ domain:
 - pharmaceutical-retail
 - financial-model
 source_refs:
-- src_20260613_0e40f3cd
 - src_20260613_26c69f98
 - src_20260613_6ed8df4b
-- src_20260613_5f96c5bb
 - src_20260613_b0cac5a3
 - src_20260613_c5f5a7ce
+- source_unknown
 tags:
 - '#industry/healthcare'
 created_at: '2026-06-14'

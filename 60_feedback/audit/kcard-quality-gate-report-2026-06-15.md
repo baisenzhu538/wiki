@@ -1,10 +1,10 @@
 # KDO 卡片质量门禁报告
 
 **扫描时间**：2026-06-15  
-**扫描范围**：30_wiki 全库 1360 张卡片  
+**扫描范围**：30_wiki 全库 1345 张卡片  
 **P0 阻塞问题卡片**：0 张  
-**P1 修复问题卡片**：40 张  
-**完全干净卡片**：1320 张  
+**P1 修复问题卡片**：37 张  
+**完全干净卡片**：1308 张  
 **YAML 解析错误**：0 张  
 
 ---
@@ -43,8 +43,6 @@
 | `concepts\yt-unit-model-benchmark.md` | status=draft 但 confidence=0.85; source_refs 中的 src ID 未注册: src_20260524_7c8d9e0f, src_20260524_6b5a4c3d |
 | `concepts\yt-unit-model-construction.md` | status=draft 但 confidence=0.85; source_refs 中的 src ID 未注册: src_20260524_9f4e5d6a, src_20260524_7c8d9e0f, src_20260524_6b5a4c3d |
 | `concepts\yt-unit-model-dynamic.md` | status=draft 但 confidence=0.85; source_refs 中的 src ID 未注册: src_20260524_6b5a4c3d, src_20260524_5e4f3a2b |
-| `concepts\yt-unit-model-ladder.md` | status=draft 但 confidence=0.85; source_refs 中的 src ID 未注册: src_20260524_8a3b1c2d, src_20260524_9f4e5d6a, src_20260524_7c8d9e0f |
-| `concepts\yt-unit-model-overview.md` | status=draft 但 confidence=0.85; source_refs 中的 src ID 未注册: src_20260524_8a3b1c2d, src_20260524_9f4e5d6a, src_20260524_7c8d9e0f |
 | `concepts\yt-unit-model-selection.md` | status=draft 但 confidence=0.85; source_refs 中的 src ID 未注册: src_20260524_9f4e5d6a, src_20260524_7c8d9e0f |
 | `contradictions.md` | type 值异常: meta |
 | `decisions\gold-standard-manual-labels.md` | type 值异常: reference |
@@ -54,7 +52,6 @@
 | `projects\互联网医院项目.md` | type 值异常: project |
 | `projects\诊所O2O项目.md` | type 值异常: project |
 | `projects\鑫港湾HIS项目.md` | type 值异常: project |
-| `queries\双三角模型查询.md` | type 值异常: query; source_refs 为空 |
 | `systems\workflow-knowledge-collision.md` | type 值异常: workflow |
 | `tools\smart-medicine-cabinet-financial-model.md` | source_refs 中的 src ID 未注册: src_20260613_0e40f3cd, src_20260613_5f96c5bb |
 | `tools\smart-medicine-cabinet-fraud-detection.md` | source_refs 中的 src ID 未注册: src_20260613_3b5c7fdb, src_20260613_5f96c5bb |

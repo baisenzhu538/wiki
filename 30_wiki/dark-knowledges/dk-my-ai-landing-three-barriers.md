@@ -1,6 +1,6 @@
 ---
 id: dk-my-ai-landing-three-barriers
-title: AI落地三大壁垒：从“会用”到“用好”的黑洞
+title: AI落地三大壁垒：从"会用"到"用好"的黑洞
 type: dark-knowledge
 status: draft
 domain:

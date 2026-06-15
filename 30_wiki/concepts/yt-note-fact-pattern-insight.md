@@ -31,11 +31,11 @@ pipeline:
 diagnostic_signals:
 - signal: 笔记中事实、规律、见解各占独立章节，且规律段落明确引用≥3条事实
   framework_lens: 认知加工分层：记录→归纳→迁移
-  follow_up_question: 如果删掉‘见解’章节，读者能否根据你列出的事实和规律自己推导出结论？
-- signal: 在收集事实阶段会主动标注来源和可信度，而不是只写‘我觉得’
+  follow_up_question: 如果删掉'见解'章节，读者能否根据你列出的事实和规律自己推导出结论？
+- signal: 在收集事实阶段会主动标注来源和可信度，而不是只写'我觉得'
   framework_lens: 证据质量先于解释质量
   follow_up_question: 这些事实中有没有反例？如果存在反例，规律是否需要加上边界条件？
-- signal: 写完后能用一句话回答‘这对我下一步决策有什么改变’
+- signal: 写完后能用一句话回答'这对我下一步决策有什么改变'
   framework_lens: 见解必须产生行动或判断差异
   follow_up_question: 如果这个见解是错误的，你会在什么观察出现后放弃它？
 updated_at: '2026-06-16'

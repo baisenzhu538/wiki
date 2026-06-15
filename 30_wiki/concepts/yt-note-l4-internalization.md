@@ -1,6 +1,6 @@
 ---
 id: yt-note-l4-internalization
-title: 清单体L4内化阶段：从“让别人看懂”到“让自己想清楚”的跳跃
+title: 清单体L4内化阶段：从"让别人看懂"到"让自己想清楚"的跳跃
 type: concept
 status: draft
 domain:
@@ -27,7 +27,7 @@ pipeline:
 - confidence-draft
 - confidence-source-cited
 diagnostic_signals:
-- signal: 每篇笔记开头是一个真实问题，而不是‘今天学了X’的标题
+- signal: 每篇笔记开头是一个真实问题，而不是'今天学了X'的标题
   framework_lens: 问题驱动 vs 内容驱动
   follow_up_question: 如果这个问题不存在，这篇笔记还有必要写吗？
 - signal: 写完后能合上笔记，用自己的话向一个外行解释核心判断

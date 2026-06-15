@@ -8,12 +8,11 @@ domain:
 - pharmaceutical-retail
 - risk-warning
 source_refs:
-- src_20260613_3b5c7fdb
 - src_20260613_26c69f98
 - src_20260613_6ed8df4b
-- src_20260613_5f96c5bb
 - src_20260613_59270720
 - src_20260613_ccf533f9
+- source_unknown
 tags:
 - '#industry/healthcare'
 created_at: '2026-06-14'

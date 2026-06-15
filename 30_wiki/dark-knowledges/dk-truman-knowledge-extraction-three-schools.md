@@ -1,6 +1,6 @@
 ---
 id: dk-truman-knowledge-extraction-three-schools
-title: 知识萃取三流派：99%的知识付费只是A，一堂做B+C——为什么你学的大多数课只是“听个响”
+title: 知识萃取三流派：99%的知识付费只是A，一堂做B+C——为什么你学的大多数课只是"听个响"
 type: dark-knowledge
 status: draft
 domain:

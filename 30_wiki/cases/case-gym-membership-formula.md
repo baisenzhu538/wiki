@@ -1,6 +1,6 @@
 ---
 id: case-gym-membership-formula
-title: 线下连锁健身：把“到店频率”变成“到店习惯”才是续卡率抓手
+title: 线下连锁健身：把"到店频率"变成"到店习惯"才是续卡率抓手
 type: case
 status: enriched
 domain:

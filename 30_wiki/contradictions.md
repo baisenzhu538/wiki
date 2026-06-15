@@ -1,6 +1,6 @@
 ---
 id: contradictions
-type: meta
+type: index
 status: draft
 title: contradictions
 domain:

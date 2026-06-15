@@ -9,17 +9,12 @@ domain:
 - policy-compliance
 - risk-warning
 source_refs:
-- src_20260613_1deb50c8
-- src_20260613_5f96c5bb
-- src_20260613_420e8085
-- src_20260613_36a21181
-- src_20260613_309b7b52
-- src_20260613_dafb968a
 - src_20260613_7cfd7b89
 - src_20260613_59270720
 - src_20260613_ccf533f9
 - src_20260613_f3aecb2d
 - src_20260613_9a2b289e
+- source_unknown
 tags:
 - '#industry/healthcare'
 created_at: '2026-06-14'

@@ -42,7 +42,7 @@ diagnostic_signals:
 - signal: 能明确写出用户对当前体验的预期基线
   framework_lens: 惊喜 = 交付 − 预期
   follow_up_question: 如果没有特别设计，用户原本预期会得到什么？
-- signal: 惊喜设计同时考虑‘提升交付’和‘管理预期’两条路径
+- signal: 惊喜设计同时考虑'提升交付'和'管理预期'两条路径
   framework_lens: 惊喜有两种杠杆
   follow_up_question: 你是通过超预期交付，还是通过巧妙管理预期来创造惊喜？
 - signal: 惊喜方案有可衡量的情感或行为指标，而不是凭感觉

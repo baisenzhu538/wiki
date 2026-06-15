@@ -32,7 +32,7 @@ diagnostic_signals:
 - signal: 每篇笔记都以一个待解决的问题命名，而不是以信息主题命名
   framework_lens: 问题框架决定笔记价值
   follow_up_question: 这篇笔记不写，你的问题解决过程会受到什么影响？
-- signal: 笔记结束时有明确的下一步动作或决策，而不是停在‘我知道了’
+- signal: 笔记结束时有明确的下一步动作或决策，而不是停在'我知道了'
   framework_lens: 解决问题能力=从信息到行动的转化率
   follow_up_question: 这条笔记产生了一个决策、一个任务还是一次验证实验？
 - signal: 同一个问题会被持续更新：新证据、新假设、新结论按时间或逻辑追加

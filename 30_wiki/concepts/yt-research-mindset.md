@@ -28,13 +28,13 @@ pipeline:
 - confidence-draft
 - confidence-source-cited
 diagnostic_signals:
-- signal: 调研前会先写下‘什么证据会让我放弃当前假设’
+- signal: 调研前会先写下'什么证据会让我放弃当前假设'
   framework_lens: 反证思维
   follow_up_question: 你有没有主动寻找过推翻自己的证据？
-- signal: 关注‘如果我错了会怎样’而不是只追求正确
+- signal: 关注'如果我错了会怎样'而不是只追求正确
   framework_lens: 风险管理视角
   follow_up_question: 这个方向最坏的结果是什么？你能承受吗？
-- signal: 会为调研设定‘够用就停’的阈值，而不是无限收集
+- signal: 会为调研设定'够用就停'的阈值，而不是无限收集
   framework_lens: 决策效率
   follow_up_question: 多少信息足以支撑下一步行动？
 author: unknown

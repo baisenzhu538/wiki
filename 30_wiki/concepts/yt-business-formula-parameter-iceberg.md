@@ -8,8 +8,8 @@ domain:
 - master
 - business-strategy
 source_refs:
-- src_20260613_fa7b370d
 - src_20260613_6edbf0af
+- source_unknown
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'

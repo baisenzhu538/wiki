@@ -1,7 +1,7 @@
 ---
 id: workflow-knowledge-collision
 title: 知识碰撞工作流：产出前先碰撞知识库
-type: workflow
+type: system
 domain:
 - hermes
 - kdo

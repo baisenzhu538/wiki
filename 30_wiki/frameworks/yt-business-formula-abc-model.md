@@ -9,8 +9,8 @@ domain:
 - business-strategy
 source_refs:
 - src_20260613_6edbf0af
-- src_20260613_91f90839
 - src_20260614_6d9f7671
+- source_unknown
 tags:
 - '#method/evaluation-method'
 - '#content-format/framework'

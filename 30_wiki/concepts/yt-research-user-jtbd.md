@@ -27,7 +27,7 @@ pipeline:
 - confidence-draft
 - confidence-source-cited
 diagnostic_signals:
-- signal: 访谈中问‘用户想完成什么任务’而不是‘想要什么功能’
+- signal: 访谈中问'用户想完成什么任务'而不是'想要什么功能'
   framework_lens: JTBD = 任务视角
   follow_up_question: 用户最近一次使用类似产品时，想解决什么任务？
 - signal: 会探索用户的动力、阻力、代理品和成功标准
@@ -35,7 +35,7 @@ diagnostic_signals:
   follow_up_question: 如果不解决这个任务，用户会怎样？
 - signal: 访谈后能写出清晰的 Jobs Statement
   framework_lens: JTBD的输出是任务陈述
-  follow_up_question: 你能用‘当我想要____，以便____’描述用户任务吗？
+  follow_up_question: 你能用'当我想要____，以便____'描述用户任务吗？
 author: unknown
 reviewed_by: pending
 trust_level: low

@@ -1,6 +1,6 @@
 ---
 title: 诊所O2O项目
-type: project
+type: improvement-plan
 status: active
 domain:
 - healthcare

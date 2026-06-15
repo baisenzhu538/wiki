@@ -8,10 +8,9 @@ domain:
 - pharmaceutical-retail
 - policy-compliance
 source_refs:
-- src_20260613_60c91b70
 - src_20260613_26c69f98
 - src_20260613_6ed8df4b
-- src_20260613_5f96c5bb
+- source_unknown
 tags:
 - '#industry/healthcare'
 created_at: '2026-06-14'

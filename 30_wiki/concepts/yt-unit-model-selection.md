@@ -1,6 +1,6 @@
 ---
 id: yt-unit-model-selection
-confidence: 0.85
+confidence: 0.8
 created_at: 2026-05-24
 difficulty: intermediate
 domain:
@@ -26,8 +26,7 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[master-systems-thinking]]'
 source_refs:
-- src_20260524_9f4e5d6a-一堂-单元模型02口述
-- src_20260524_7c8d9e0f-一堂-单元模型03口述
+- source_unknown
 status: draft
 title: 单元模型选择法：复制哪个算哪个，找到核心经济单元
 trust_level: high

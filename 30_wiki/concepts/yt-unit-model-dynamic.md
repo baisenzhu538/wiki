@@ -1,6 +1,6 @@
 ---
 id: yt-unit-model-dynamic
-confidence: 0.85
+confidence: 0.8
 created_at: 2026-05-24
 difficulty: advanced
 domain:
@@ -25,8 +25,7 @@ related:
 - '[[master-systems-thinking]]'
 - '[[master-first-principles]]'
 source_refs:
-- src_20260524_6b5a4c3d-一堂-单元模型04口述
-- src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述
+- source_unknown
 status: draft
 title: 动态单元模型：规模变量、拐点预判与规模经济对抗
 trust_level: high

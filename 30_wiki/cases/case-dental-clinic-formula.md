@@ -1,6 +1,6 @@
 ---
 id: case-dental-clinic-formula
-title: ToC 连锁口腔诊所：成交率 30% 背后的“危机感知”公式
+title: ToC 连锁口腔诊所：成交率 30% 背后的"危机感知"公式
 type: case
 status: enriched
 domain:

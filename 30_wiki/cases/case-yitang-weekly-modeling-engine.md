@@ -1,6 +1,6 @@
 ---
 id: case-yitang-weekly-modeling-engine
-title: 案例：一堂的“周对周建模迭代”——把周五课程逼成公司增长引擎
+title: 案例：一堂的"周对周建模迭代"——把周五课程逼成公司增长引擎
 type: case
 status: draft
 problem_domains:

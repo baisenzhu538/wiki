@@ -1,6 +1,6 @@
 ---
 id: yt-skill-storyline-key-elements
-title: 清单体故事线⑥：关键要素线——用结构拆解‘什么才是真正重要的’
+title: 清单体故事线⑥：关键要素线——用结构拆解'什么才是真正重要的'
 domain:
 - yitang
 diagnostic_signals:

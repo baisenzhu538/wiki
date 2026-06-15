@@ -1,6 +1,6 @@
 ---
 id: yt-note-live-field-skill
-title: 现场笔记完成度五步法：从“到场”到“驱动行动”的实战手册
+title: 现场笔记完成度五步法：从"到场"到"驱动行动"的实战手册
 type: tool
 status: draft
 domain:

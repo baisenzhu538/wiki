@@ -1,7 +1,7 @@
 ---
 id: pilot-atomic-chunk-comparison
 title: Pilot：master-decision-hygiene 真原子切分对比
-type: comparison
+type: analysis
 domain:
 - ai-saas
 - decision-making

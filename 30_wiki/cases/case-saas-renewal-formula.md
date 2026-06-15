@@ -1,6 +1,6 @@
 ---
 id: case-saas-renewal-formula
-title: ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户“用起来”
+title: ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户"用起来"
 type: case
 status: enriched
 domain:

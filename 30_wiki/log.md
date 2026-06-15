@@ -1,6 +1,6 @@
 ---
 id: log
-type: meta
+type: index
 status: draft
 title: log
 domain:

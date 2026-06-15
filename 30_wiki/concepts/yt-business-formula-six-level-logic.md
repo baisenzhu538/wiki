@@ -8,8 +8,8 @@ domain:
 - master
 - business-strategy
 source_refs:
-- src_20260613_0ab21e5e
 - src_20260613_6edbf0af
+- source_unknown
 tags:
 - '#method/evaluation-method'
 - '#method/thinking-tool'

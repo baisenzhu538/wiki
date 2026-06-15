@@ -30,7 +30,7 @@ source_refs:
 - src_20260614_9ca806cd
 status: enriched
 title: 泛产品设计方法论
-type: composite-concept
+type: framework
 version: 2
 pipeline:
 - confidence-source-cited

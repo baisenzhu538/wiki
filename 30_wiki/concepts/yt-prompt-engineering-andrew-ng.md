@@ -30,7 +30,7 @@ source_refs:
 - src_20260522_a89ab860
 status: enriched
 title: 吴恩达提示词课程·一堂拆书精华
-type: course_notes
+type: report
 version: 1
 pipeline:
 - confidence-source-cited

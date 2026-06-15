@@ -1,7 +1,7 @@
 ---
 id: gold-standard-manual-labels
 title: Gold Standard — 欧阳锋手工标注 15 条 chunk
-type: reference
+type: decision
 status: draft
 domain:
 - master

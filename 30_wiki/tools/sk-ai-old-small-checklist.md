@@ -1,6 +1,6 @@
 ---
 id: sk-ai-old-small-checklist
-title: 技能：“找老的干小的”场景评估清单
+title: 技能："找老的干小的"场景评估清单
 type: skill
 status: draft
 domain:

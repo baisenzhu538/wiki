@@ -1,7 +1,7 @@
 ---
 id: labeling-research-alignment
 title: 两份标注调研的对齐：黄药师 × 老顽童
-type: comparison
+type: analysis
 status: draft
 domain:
 - master

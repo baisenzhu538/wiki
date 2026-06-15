@@ -41,7 +41,7 @@ pipeline:
 diagnostic_signals:
 - signal: 在项目启动前，八个落差维度中至少前五项被明确回答
   framework_lens: 背景分析是项目成功的前提
-  follow_up_question: 如果去掉‘战略’或‘老板’维度，项目目标会不会出现隐性冲突？
+  follow_up_question: 如果去掉'战略'或'老板'维度，项目目标会不会出现隐性冲突？
 - signal: 背景分析结果直接转化为项目范围和优先级，而不是停留在报告
   framework_lens: 分析必须产生决策输入
   follow_up_question: 背景分析后，有哪些原定的功能被砍掉或推迟了？

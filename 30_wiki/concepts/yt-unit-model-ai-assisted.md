@@ -24,7 +24,7 @@ related:
 - '[[yt-unit-model-dynamic]]'
 - '[[master-systems-thinking]]'
 source_refs:
-- src_20260524_5e4f3a2b-一堂-单元模型-AI+单元模型口述
+- source_unknown
 status: draft
 title: AI+单元模型：TCP-R双导师与出口式咨询实践
 trust_level: medium

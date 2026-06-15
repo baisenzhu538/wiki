@@ -1,6 +1,6 @@
 ---
 id: yt-research-competitor-toolkit
-confidence: 0.85
+confidence: 0.8
 created_at: 2026-05-18
 difficulty: intermediate
 domain:

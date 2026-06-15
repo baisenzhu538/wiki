@@ -35,10 +35,10 @@ pipeline:
 - confidence-source-cited
 - confidence-verified-by-case
 diagnostic_signals:
-- signal: 面对需求时能用‘拆/推/评/算’四字诀系统分析
+- signal: 面对需求时能用'拆/推/评/算'四字诀系统分析
   framework_lens: 需求分析有固定操作链
   follow_up_question: 这个需求的用户任务、场景、真实障碍分别是什么？
-- signal: 在动手设计前会用需求工具箱验证‘做对的事’
+- signal: 在动手设计前会用需求工具箱验证'做对的事'
   framework_lens: 需求先于方案
   follow_up_question: 如果这个问题本身不值得解决，你的方案再好也没用——你验证过吗？
 - signal: 需求分析结论会直接影响方案范围和设计优先级

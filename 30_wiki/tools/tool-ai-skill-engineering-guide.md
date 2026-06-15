@@ -36,7 +36,7 @@ diagnostic_signals:
   follow_up_question: 你的 skill 是否有 P0/P1/P2 分级检查清单？是否用十条 To Do / Not To Do 自评过？
 - signal: 让 AI 直接生成 skill，没有经过多轮审美拉齐
   framework_lens: 把 AI 当作执行者而非协作者
-  follow_up_question: 你在生成 skill 时，是否至少经过 10-15 轮“不完整、有遗漏、没顺序、不完备”的迭代纠偏？
+  follow_up_question: 你在生成 skill 时，是否至少经过 10-15 轮"不完整、有遗漏、没顺序、不完备"的迭代纠偏？
 ---
 # 高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工作流
 
