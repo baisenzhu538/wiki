@@ -94,8 +94,8 @@ confidence: 0.7
 
 ## Synthesis
 
-- [[一堂调研武器库13招]] — 本 Skill 是 13 招的 **Claude Code 工程化实现**。13 招定义了"做什么"，本 Skill 定义了"怎么做+怎么验证"
-- [[一堂调研行动营-ai辅助系统式调研方法论]] — OSCAR 五步法在两个体系中共源。本 Skill 的 Step 0-2 对应行动营的 O-S-C，Step 3-5 对应 A，Step 6-12 对应 R
+- 一堂调研武器库13招 — 本 Skill 是 13 招的 **Claude Code 工程化实现**。13 招定义了"做什么"，本 Skill 定义了"怎么做+怎么验证"
+- 一堂调研行动营-ai辅助系统式调研方法论 — OSCAR 五步法在两个体系中共源。本 Skill 的 Step 0-2 对应行动营的 O-S-C，Step 3-5 对应 A，Step 6-12 对应 R
 - [[kimi-深度调研集群方法论-deep-research-swarm]] — Step 4 的委托机制直接与 deep-research 互操作。两者共享"多Agent并行+交叉验证"的认知前提
 - [[kdo-protocol]] — 本 Skill 的质量门体系（7 BLOCKING + 15 项机械检查）可作为 KDO validate 阶段的参考
 

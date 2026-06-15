@@ -54,5 +54,5 @@ AI工具普及后感到焦虑、试图通过堆砌提示词替代设计能力的
 
 ## 与其他知识的关联
 
-- [[dk-yb13-taste-inward-aesthetic-outward]] — 审美向外，品味向内：AI出图质量的本质
-- [[dk-yb22-ai-eye-high-principle]] — AIGC眼高原则：审美先于技术
+- dk-yb13-taste-inward-aesthetic-outward — 审美向外，品味向内：AI出图质量的本质
+- dk-yb22-ai-eye-high-principle — AIGC眼高原则：审美先于技术

@@ -75,8 +75,8 @@ Peter Drucker 在《管理的实践》中证明：管理的本质是"做正确�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-project-management]] — 项目管理的理论基础
-- [[yt-decision-product-launch]] — 产品发布的方法论补充
+- yt-decision-project-management — 项目管理的理论基础
+- yt-decision-product-launch — 产品发布的方法论补充
 
 ### 可迁移场景
 

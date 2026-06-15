@@ -165,7 +165,7 @@ FAB（Feature特性 → Advantage优点 → Benefit利益）不是填表格，�
 - [[yt-model-conversion-optimization]] — 转化率优化框架提供了 FAB 之上的动力层级（内在自驱 + 外在影响力六法则），FAB 是它的地基
 - [[yt-panproduct-demand-motivation-resistance]] — 动力阻力触点模型诊断了用户为什么没转化，FAB 解决了"转化页面怎么写"
 - [[yt-entrepreneur-needs-analysis]] — 需求分析确定了"用户需要什么“，FAB 是把需求翻译成"用户能感知到的利益"的工具
-- [[yt-tool-copywriting-framework]] — 文案框架提供了 FAB 之外的补充说服结构（如 PAS、AIDA），可以与 FAB 组合使用
+- yt-tool-copywriting-framework — 文案框架提供了 FAB 之外的补充说服结构（如 PAS、AIDA），可以与 FAB 组合使用
 
 ### Contradictions
 

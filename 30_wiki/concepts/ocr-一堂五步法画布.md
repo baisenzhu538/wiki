@@ -75,7 +75,7 @@ Rita McGrath 在《临时优势的竞争》中提出：在当今快速变化的�
 ### 与本库其他概念的关联
 
 - [[yt-decision-y-model]] — Y模型的核心逻辑，五步法画布是其可视化执行版本
-- [[yt-decision-assumption-hypothesis]] — 假设验证工具与画布的"价值假设/增长假设"二分法互补
+- yt-decision-assumption-hypothesis — 假设验证工具与画布的"价值假设/增长假设"二分法互补
 
 ### 可迁移场景
 

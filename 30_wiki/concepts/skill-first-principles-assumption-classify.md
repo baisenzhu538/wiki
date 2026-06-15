@@ -133,9 +133,9 @@ trust_level: low
 
 ## 关联技能
 
-- [[skill-first-principles-rebuild]] — 拆解后的重建方法
+- skill-first-principles-rebuild — 拆解后的重建方法
 - [[skill-decision-outside-view]] — 用外部视角验证新方案
-- [[dk-first-principles-difficulty-vs-impossible]] — 把困难当成不可能
+- dk-first-principles-difficulty-vs-impossible — 把困难当成不可能
 
 ---
 

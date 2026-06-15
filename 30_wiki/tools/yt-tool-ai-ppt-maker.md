@@ -139,7 +139,7 @@ Tufte在分析NASA挑战者号灾难时证明：PPT式的层级化模板会系�
 |---------|---------|
 | [[yt-pitch-storytelling]] | PPT本质是视觉化的故事载体，讲台上的起承转合结构与路演的情感节奏设计相通。当你用本工具生成PPT时，建议先用[[yt-pitch-storytelling]]的框架梳理内容的故事节奏，再让AI做视觉转换。 |
 | [[yt-pitch-quantification]] | 当PPT需要承载数据论证时，避免将"AI生成的漂亮图表"作为论证本身。[[yt-pitch-quantification]]提醒你：数字的可信度光环会让粗糙的数据看起来很有说服力，但这正是选择性呈现的陷阱。先确保数据来源可靠、论证逻辑自治，再用AI做美化。 |
-| [[yt-model-personal-branding]] | 个人品牌的视觉一致性要求PPT风格与整体品牌调性对齐。[[yt-model-personal-branding]]中的品牌资产框架（主色、辅色、字体、图形风格）应作为Step 1风格定义的输入，确保你的每一份PPT都是品牌延伸。 |
+| yt-model-personal-branding | 个人品牌的视觉一致性要求PPT风格与整体品牌调性对齐。yt-model-personal-branding中的品牌资产框架（主色、辅色、字体、图形风格）应作为Step 1风格定义的输入，确保你的每一份PPT都是品牌延伸。 |
 | [[yt-management-scientific-meetings]] | 科学会议场景下，白板 > PPT是一个基本原则。[[yt-management-scientific-meetings]]提醒你：当需要深度讨论、发散思维、现场协同时，静态的PPT可能是认知障碍而非助手。本工具只适用于"信息传递型"演讲，不适用于"思维探索型"会议。 |
 | [[yt-tool-strategy-workshop]] | 战略工作坊中禁止使用PPT，而是用信息包替代。[[yt-tool-strategy-workshop]]的逻辑是：当你需要真正的讨论而非汇报时，预先准备好的PPT会错误地传递"答案已有"的信号。本工具的PPT生成能力应被限制在"汇报、路演、培训"等单向传输场景，而非多向互动场景。 |
 

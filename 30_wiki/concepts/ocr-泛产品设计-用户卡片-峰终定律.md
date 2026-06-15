@@ -72,8 +72,8 @@ Clayton Christensen 在《创新者的窘境》中证明：现有用户往往会
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-user-research]] — 用户研究的理论基础
-- [[yt-decision-product-innovation]] — 产品创新的方法论补充
+- yt-decision-user-research — 用户研究的理论基础
+- yt-decision-product-innovation — 产品创新的方法论补充
 
 ### 可迁移场景
 

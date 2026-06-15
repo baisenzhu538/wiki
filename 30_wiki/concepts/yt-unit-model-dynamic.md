@@ -173,8 +173,8 @@ Flyvbjerg在《Megaprojects and Risk》中对大型项目的研究，对"规模�
 | 上游工具 | [[yt-unit-model-benchmark]] | 动态分析需要基准值作为起点——没有基准，无法判断"变化" |
 | 上游工具 | [[yt-unit-model-construction]] | 动态模型建立在静态模型之上——先算清现在，再预判未来 |
 | 进阶框架 | [[yt-unit-model-ladder]] | 动态预判是L6的核心能力——本工具是L6的实操载体 |
-| 跨域关联 | [[yt-decision-forecasting-accuracy]] | 动态单元模型的"三点预测"需要预测准确性框架来校准 |
-| 跨域关联 | [[yt-decision-system1-system2]] | 拐点识别容易受System 1直觉影响——需要用System 2的系统性分析来制衡 |
+| 跨域关联 | yt-decision-forecasting-accuracy | 动态单元模型的"三点预测"需要预测准确性框架来校准 |
+| 跨域关联 | yt-decision-system1-system2 | 拐点识别容易受System 1直觉影响——需要用System 2的系统性分析来制衡 |
 | 下游工具 | [[yt-unit-model-ai-assisted]] | AI可以帮助扫描三维变量的交互效应和识别非线性拐点 |
 
 ### 不要用的场景

@@ -18,7 +18,7 @@ tags:
 - '#dental'
 - '#domain/yitang'
 created_at: '2026-06-15'
-updated_at: '2026-06-15'
+updated_at: '2026-06-16'
 author: 孔阳
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，连锁口腔诊所案例（单次成交 & 长周期复购型）
@@ -31,8 +31,8 @@ related:
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-entrepreneur-unit-model]]'
+- null
 ---
-
 # ToC 连锁口腔诊所：成交率 30% 背后的“危机感知”公式
 
 > 一堂业务公式拆解培训案例：月接诊 2000 人、GMV 400 万/月的连锁口腔诊所，成交率仅 30%。创始人想靠“拉流量+打折”增长 50%，但真正的瓶颈是客户没有“危机感知”。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。

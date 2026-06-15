@@ -55,5 +55,5 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- [[dk-yb19-small-shop-image-mismatch]] — 小店图片错配陷阱：精致摄影反而吓跑客户
+- dk-yb19-small-shop-image-mismatch — 小店图片错配陷阱：精致摄影反而吓跑客户
 - [[dk-yb27-pseudo-layer-evasion]] — 伪图层叠加规避平台图像识别

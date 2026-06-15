@@ -132,7 +132,7 @@ trust_level: low
 
 | Chunk | 维度 | 判定 | 理由 |
 |:-----:|------|------|------|
-| 5 | chunk_type | **claim**——Gold Standard 保持不动 | Y 模型的体系定位是可证伪的主张（"贯穿三阶段"），不是引用。auto 判 cross_reference 是因为 chunk 里带了 `[[wiki-link]]`，被 pre-screen 引向了错误方向 |
+| 5 | chunk_type | **claim**——Gold Standard 保持不动 | Y 模型的体系定位是可证伪的主张（"贯穿三阶段"），不是引用。auto 判 cross_reference 是因为 chunk 里带了 `wiki-link`，被 pre-screen 引向了错误方向 |
 | 6 | chunk_type | **definition**——Gold Standard 保持不动 | "宽度是什么"是定义句，后面跟的操作要点是展开说明。auto 判 procedure 是因为有"列清单→推演"这些动词 |
 | 15 | perspective | **professional**——Gold Standard 保持不动 | "成长链条断裂"等技术讨论需要领域知识才能理解，不是 general |
 

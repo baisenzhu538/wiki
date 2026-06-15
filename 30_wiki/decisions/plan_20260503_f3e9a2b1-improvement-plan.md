@@ -53,7 +53,7 @@ updated_at: '2026-06-16'
 1. 读取 `10_raw/sources/src_20260501_9962715b-互联网医院模式深度调研报告.md`
 2. 执行 Condense：提取 3-5 条核心结论
 3. 执行 Critique：逐条评估前提假设、边界与反例、可靠性
-4. 执行 Synthesis：创建与现有 wiki 页面的 `双向链接`（如 [[诊所O2O外卖平台业务深度调研报告]]、[[鑫港湾his系统分阶段整改报告]]）
+4. 执行 Synthesis：创建与现有 wiki 页面的 `双向链接`（如 [[诊所o2o外卖平台业务深度调研报告]]、[[鑫港湾his系统分阶段整改报告]]）
 5. 补充 Open Questions 和 Output Opportunities
 6. 更新 frontmatter：`status: reviewed`，`trust_level: medium/high`
 7. 运行 `kdo lint` 确认 0 error
@@ -121,7 +121,7 @@ updated_at: '2026-06-16'
 1. 将本计划（`plan_20260503_f3e9a2b1`）设为当前唯一活跃计划
 2. 将此前 8 个 plan（`plan_20260501_*`）的 status 统一改为 `superseded`，并在每个文件头部追加：
    ```markdown
-   > **Status**: superseded by `[[plan_20260503_f3e9a2b1]]`
+   > **Status**: superseded by `plan_20260503_f3e9a2b1`
    ```
 3. 在 `System Linter Skill` 中增加 "Plan Drift" 检查：若未关闭 plan 数量 > 3，标红告警
 

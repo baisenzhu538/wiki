@@ -81,7 +81,7 @@ Edward Tufte 在《视觉显示量化信息》中证明：信息过载会降低�
 ### 与本库其他概念的关联
 
 - [[yt-decision-y-model]] — 十指模型的基本版本，超级武器库是其技巧展开
-- [[yt-decision-expressive-rocket]] — 表达力火箭模型从宏观角度补充了十指模型的微观技巧
+- yt-decision-expressive-rocket — 表达力火箭模型从宏观角度补充了十指模型的微观技巧
 
 ### 可迁移场景
 

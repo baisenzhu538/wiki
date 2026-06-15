@@ -136,7 +136,7 @@ trust_level: low
 ## 关联技能
 
 - [[skill-ai-four-elements-validation]] — 确认是problem后，用四要素验证是否值得解决
-- [[skill-ai-landing-scene-selection]] — 选具体场景落地
+- skill-ai-landing-scene-selection — 选具体场景落地
 - [[dk-ai-judgment-human-responsibility]] — 人类负责最终判断，AI只提供信息
 
 ---

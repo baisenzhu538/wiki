@@ -150,7 +150,7 @@ trust_level: low
 
 - [[skill-cognitive-bias-12-check]] — 个人偏差自检（前置步骤）
 - [[skill-decision-delay-intuition]] — 延迟直觉法（后置步骤）
-- [[dk-decision-noise-vs-bias]] — 偏差是枪打偏，噪声是枪乱飞
+- dk-decision-noise-vs-bias — 偏差是枪打偏，噪声是枪乱飞
 
 ---
 

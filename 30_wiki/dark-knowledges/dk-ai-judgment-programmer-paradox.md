@@ -61,5 +61,5 @@ trust_level: "low"
 
 ## Synthesis
 
-- [[skill-Truman-个人判断力系统建设]] —— 达克效应应对是判断力系统建设的重要组成部分。
+- skill-Truman-个人判断力系统建设 —— 达克效应应对是判断力系统建设的重要组成部分。
 - [[dk-ai-judgment-human-responsibility]] —— 越依赖AI，越知道AI的边界。

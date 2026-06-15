@@ -25,7 +25,7 @@ related_concepts:
 - '[[dk-modeling-course-rnd-ripe-fruit]]'
 related_cases: []
 created_at: '2026-06-15'
-updated_at: '2026-06-15'
+updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.8
@@ -34,8 +34,8 @@ domain:
 - yitang
 - 组织学习
 - 模型迭代
+- null
 ---
-
 # 案例：一堂的“周对周建模迭代”——把周五课程逼成公司增长引擎
 
 ## 原始表述

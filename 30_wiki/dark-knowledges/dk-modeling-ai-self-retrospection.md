@@ -97,5 +97,5 @@ confidence: 0.7
 
 - [[dk-modeling-ai-without-judgment]] —— AI 可以自动化很多工作，但人必须守住判断和审美。
 - [[modeling-capability-system]] —— 建模能力在 AI 时代的价值：把经验变成可复用资产。
-- [[ai-collaboration]] —— AI 协作不只是 prompt 工程，更是反馈循环和资产沉淀。
+- ai-collaboration —— AI 协作不只是 prompt 工程，更是反馈循环和资产沉淀。
 - `src_20260614_8269ccdb#1178-1216` —— Truman 口述原文：AI 自己复盘自己的 Design Taste 案例。

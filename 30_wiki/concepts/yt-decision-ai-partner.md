@@ -202,11 +202,11 @@ AI决策Partner的核心风险不是"AI会犯错"——而是"AI的犯错方式�
 | 所属框架 | [[yt-decision-y-model]] | 对话法的底层理论框架 |
 | 关联工具 | [[yt-decision-canvas]] | 对话过程中可配合使用的一页纸画布 |
 | 关联工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证，可与AI Partner结合使用 |
-| 跨域连接 | [[human-in-the-loop-dss]] | AI Partner的"人主导AI辅助"与决策支持系统（DSS）的人在回路（HITL）设计原则同源 |
-| 跨域连接 | [[explainable-ai-xai]] | AI Partner的"六步对话流程"本质是XAI的"可解释交互"——让AI的推理过程对人透明 |
-| 跨域连接 | [[distributed-cognition-hutchins]] | 双三角模型（人+AI）与Hutchins分布式认知理论同源——认知过程分布在人与工具之间 |
-| 跨模块连接 | [[yt-growth-data-driven]] | 增长模块的数据驱动决策使用AI Partner进行L3/L4定量分析的快速原型 |
-| 跨模块连接 | [[yt-management-intelligent-ops]] | 管理模块的智能化运营与AI Partner在"人机协作工作流"上互补 |
+| 跨域连接 | human-in-the-loop-dss | AI Partner的"人主导AI辅助"与决策支持系统（DSS）的人在回路（HITL）设计原则同源 |
+| 跨域连接 | explainable-ai-xai | AI Partner的"六步对话流程"本质是XAI的"可解释交互"——让AI的推理过程对人透明 |
+| 跨域连接 | distributed-cognition-hutchins | 双三角模型（人+AI）与Hutchins分布式认知理论同源——认知过程分布在人与工具之间 |
+| 跨模块连接 | yt-growth-data-driven | 增长模块的数据驱动决策使用AI Partner进行L3/L4定量分析的快速原型 |
+| 跨模块连接 | yt-management-intelligent-ops | 管理模块的智能化运营与AI Partner在"人机协作工作流"上互补 |
 
 ## Action Triggers
 

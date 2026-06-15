@@ -179,7 +179,7 @@ Klein 在《Sources of Power》中对消防员、护士等专家的决策研究�
 | 下游工具 | [[yt-unit-model-construction]] | 选定单元后，下一步是建模（拆推评算） |
 | 下游工具 | [[yt-unit-model-benchmark]] | 建模完成后，需要基准值来验证数字是否合理 |
 | 方法论来源 | [[yt-entrepreneur-five-step-method]] | 五步法中的"看数据"需要先选定单元，否则数据是散乱的 |
-| 先导条件 | [[yt-decision-key-hypotheses]] | 在选单元之前，必须先确认"业务假设"是否成立——方向错了，单元选得再好也没用 |
+| 先导条件 | yt-decision-key-hypotheses | 在选单元之前，必须先确认"业务假设"是否成立——方向错了，单元选得再好也没用 |
 
 ### 不要用的场景
 

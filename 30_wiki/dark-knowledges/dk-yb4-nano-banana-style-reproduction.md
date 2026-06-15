@@ -52,5 +52,5 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- [[dk-yb18-zero-shot-style-transfer]] — 零训练风格迁移：三要素描述法
+- dk-yb18-zero-shot-style-transfer — 零训练风格迁移：三要素描述法
 - [[dk-yb11-visual-book-reverse]] — 不训练模型锁定风格的逆向视觉书法

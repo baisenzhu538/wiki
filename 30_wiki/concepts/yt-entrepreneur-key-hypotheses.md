@@ -197,7 +197,7 @@ Popper在《科学发现的逻辑》中提出核心挑战：科学理论无法�
 | 上游框架 | [[yt-entrepreneur-five-step-method]] | 五步法总纲，259工具是五步法的结构化展开 |
 | 上游工具 | [[yt-entrepreneur-industry-forecast]] | 商业预判工具，预判后进入假设验证 |
 | 下游工具 | [[yt-entrepreneur-product-core]] | 产品内核定义，验证产品假设的落点 |
-| 关联概念 | [[yt-concept-x-type-y-type]] | X型/Y型创业者类型学 |
+| 关联概念 | yt-concept-x-type-y-type | X型/Y型创业者类型学 |
 | 关联工具 | [[yt-entrepreneur-unit-model]] | 单元模型，验证商业模式假设的核心指标 |
 | 关联框架 | [[yt-model-cognitive-upgrade-framework]] | 认知升级框架 |
 

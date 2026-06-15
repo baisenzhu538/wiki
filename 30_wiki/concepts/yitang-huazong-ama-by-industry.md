@@ -19,7 +19,7 @@ trust_level: medium
 ---
 # 花总AMA按行业分类整理
 
-> 原文：[[yitang-huazong-ama-20250526]]
+> 原文：yitang-huazong-ama-20250526
 > 摘要：[[yitang-huazong-ama-summary]]
 > 整理时间：2026-05-29
 

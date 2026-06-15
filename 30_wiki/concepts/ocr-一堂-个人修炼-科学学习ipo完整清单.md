@@ -81,7 +81,7 @@ Benedict Carey 在《如何学习》中证明：有效的学习往往是"混乱"
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-scientific-learning-ipo]] — 科学学习IPO模型的概念版本
+- yt-decision-scientific-learning-ipo — 科学学习IPO模型的概念版本
 - [[yt-personal-deliberate-practice]] — 刻意练习是清单中"复盘反思"阶段的理论基础
 
 ### 可迁移场景

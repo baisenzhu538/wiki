@@ -75,7 +75,7 @@ Papert 论证真正的学习来自做中学。稀缺资源清单虽然给出了�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-scarcity-resources]] - 稀缺资源
+- yt-decision-scarcity-resources - 稀缺资源
 - [[yt-decision-canvas]] - 同域决策画布
 - [[master-decision-hygiene]] - 通用决策卫生
 

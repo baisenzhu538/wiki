@@ -78,7 +78,7 @@ Bertrand Russell 在《西方哲学史》中证明：每一个时代的"解放"�
 ### 与本库其他概念的关联
 
 - [[yt-decision-y-model]] — 业务版Y模型，个人修炼版是其在个人成长领域的应用
-- [[yt-decision-scientific-learning-ipo]] — 科学学习IPO模型提供了Y模型中"知行合一"的具体方法论
+- yt-decision-scientific-learning-ipo — 科学学习IPO模型提供了Y模型中"知行合一"的具体方法论
 
 ### 可迁移场景
 

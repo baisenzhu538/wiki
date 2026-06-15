@@ -59,4 +59,4 @@ trust_level: low
 
 - [[dk-yb5-style-asset-archive]] — AI绘图降本的前提：风格资产工程化归档
 - [[dk-yb8-file-naming-eight-elements]] — 文件命名八要素体系
-- [[dk-yb15-prompt-length-constraint]] — 提示词长度即约束强度
+- dk-yb15-prompt-length-constraint — 提示词长度即约束强度

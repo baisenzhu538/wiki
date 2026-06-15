@@ -22,7 +22,7 @@ source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
-> 本卡已迁移至 [[30_wiki/tools/yt-tool-onboarding-90day]]。
+> 本卡已迁移至 30_wiki/tools/yt-tool-onboarding-90day。
 >
 > 原文内容请访问目标页面。
 

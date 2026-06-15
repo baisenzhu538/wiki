@@ -137,7 +137,7 @@ trust_level: low
 | 案例 | [[case-半肥猫-conversion-hacker-skill]] | 八步的完整实例——转化率黑客Skill |
 | 案例 | [[case-半肥猫-skill-ab-test]] | 八步中第7步的A/B测试实例 |
 | 暗知识 | [[dk-半肥猫-skill-rejection-value]] | "Skill的最大价值是拒绝"——八步设计的核心洞察 |
-| KDO对接 | [[kdo-encapsulate]] | KDO的skill编译命令 ↔ 八步工作流的内容设计 |
+| KDO对接 | kdo-encapsulate | KDO的skill编译命令 ↔ 八步工作流的内容设计 |
 
 ## 来源
 

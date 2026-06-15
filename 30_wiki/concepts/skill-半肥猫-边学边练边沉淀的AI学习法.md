@@ -129,7 +129,7 @@ trust_level: low
 | 下位 | [[skill-半肥猫-追问AI证据并标注信源]] | 三轮检查的第一轮——追问证据的具体技能 |
 | 下位 | [[skill-半肥猫-将学习成果沉淀为PRD文档]] | 步骤 6 的具体执行方式 |
 | 下位 | [[skill-半肥猫-课程Skill化的八步工作流]] | 学习沉淀后的产品化路径 |
-| 对位 | [[skill-纪浩-dofirst-pdca]] | 纪浩的 Do-first PDCA ↔ 半肥猫的边学边练——都是从行动中迭代 |
+| 对位 | skill-纪浩-dofirst-pdca | 纪浩的 Do-first PDCA ↔ 半肥猫的边学边练——都是从行动中迭代 |
 | 对位 | [[concept-纪浩-ai-collaboration-methodology]] | 纪浩讲"怎么管理 AI 执行"，半肥猫讲"怎么管理人的学习"——互补关系 |
 | 案例 | [[case-半肥猫-conversion-hacker-skill]] | 边学边练的完整实侍 |
 | 暗知识 | [[dk-半肥猫-silky-answer-warning]] | "AI 回答越丝滑越有问题"——三轮检查的底层动力 |

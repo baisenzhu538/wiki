@@ -25,7 +25,7 @@ tags:
 - '#tool-stack'
 - '#method/prompt-engineering'
 created_at: '2026-06-14'
-updated_at: '2026-06-14T16:09:18+00:00'
+updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
@@ -195,7 +195,7 @@ related:
 
 ## 验证与参考
 
-- 主题摘要：[[90_control/itingnao-kit/work/theme-ai-methodology-tools-summary.md]]
+- 主题摘要：90_control/itingnao-kit/work/theme-ai-methodology-tools-summary.md
 - 原始引用（已纳入 source_refs）：`theme-ai-methodology-tools-summary`
 - 原始引用（未纳入 source_refs）：`rec-7759098`
 - 原始引用（未纳入 source_refs）：`rec-7356146`

@@ -71,7 +71,7 @@ Simon 的有限理性理论证实，人类工作记忆只能同时处理 7±2 �
 ### 与本库其他概念的关联
 
 - [[yt-decision-canvas]] — 同域决策工具，案例01展示了画布在市场活动场景下的具体应用
-- [[yt-decision-key-hypotheses]] — 关键假设验证，案例中的“收益预估”必须建立在可验证的假设之上
+- yt-decision-key-hypotheses — 关键假设验证，案例中的“收益预估”必须建立在可验证的假设之上
 - [[master-decision-hygiene]] — 通用决策卫生，提醒案例学习的幸存者偏差风险
 
 ### 可迁移场景

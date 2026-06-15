@@ -140,7 +140,7 @@ AI系统的最大风险不是"技术失败"，而是"业务失败"——AI输出
 
 - [[skill-ai-scene-four-elements]] — 第一步：评估场景
 - [[skill-ai-research-five-steps]] — 第二步：调研和验证
-- [[dk-ai-only-do-what-you-know]] — AI只能干你会的事
+- dk-ai-only-do-what-you-know — AI只能干你会的事
 
 ---
 

@@ -20,22 +20,22 @@ source_refs:
 - src_20260614_1a0a6efa
 - src_20260614_7e8857b8
 tags:
-- "#ai-application"
-- "#lean-validation"
-- "#business-model"
+- '#ai-application'
+- '#lean-validation'
+- '#business-model'
 created_at: '2026-06-14'
-updated_at: '2026-06-14T16:09:18+00:00'
+updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
 confidence: 0.65
 trust_level: medium
 related:
-- "[[concept-一堂-hypothesis-driven-business-methodology]]"
-- "[[concept-一堂-product-kernel]]"
-- "[[concept-mckinsey-issue-tree]]"
-- "[[ai-collaboration-mindset-shift]]"
-- "[[ai-landing-scene-selection]]"
+- '[[concept-一堂-hypothesis-driven-business-methodology]]'
+- '[[concept-一堂-product-kernel]]'
+- '[[concept-mckinsey-issue-tree]]'
+- '[[ai-collaboration-mindset-shift]]'
+- '[[ai-landing-scene-selection]]'
 ---
 # 非药柜主题综合知识卡
 
@@ -242,7 +242,7 @@ related:
 
 ## 验证与参考
 
-- 主题摘要：[[90_control/itingnao-kit/work/theme-other-summary.md]]
+- 主题摘要：90_control/itingnao-kit/work/theme-other-summary.md
 - 主题摘要已纳入 `source_refs`：`theme-other-summary`
 ---
 

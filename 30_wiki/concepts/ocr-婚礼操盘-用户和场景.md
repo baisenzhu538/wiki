@@ -74,8 +74,8 @@ Herbert Simon 会质疑：**婚礼规划中的"最优解"可能不存在，因�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-project-management]] — 项目管理的理论基础
-- [[yt-decision-user-research]] — 用户研究的方法论补充
+- yt-decision-project-management — 项目管理的理论基础
+- yt-decision-user-research — 用户研究的方法论补充
 
 ### 可迁移场景
 

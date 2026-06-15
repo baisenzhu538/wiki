@@ -76,8 +76,8 @@ Herbert Simon 在《管理行为》中证明：人类的决策受到有限理性
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-aesthetic-practice]] — 审美实践的理论基础
-- [[yt-decision-user-insight]] — 用户洞察与"理解用户·挖需求"同源
+- yt-decision-aesthetic-practice — 审美实践的理论基础
+- yt-decision-user-insight — 用户洞察与"理解用户·挖需求"同源
 
 ### 可迁移场景
 

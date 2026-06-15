@@ -18,7 +18,7 @@ tags:
 - '#renewal'
 - '#domain/yitang'
 created_at: '2026-06-15'
-updated_at: '2026-06-15'
+updated_at: '2026-06-16'
 author: 孔阳
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，ToB 企业培训 SaaS 续费案例（持续复购型）
@@ -31,8 +31,8 @@ related:
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-entrepreneur-unit-model]]'
+- null
 ---
-
 # ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户“用起来”
 
 > 一堂业务公式拆解培训案例：年 GMV 2000 万的企业培训 SaaS，续费率仅 50%，远低于竞对 80%。创始人以为是销售触达不够，真正原因是客户根本没把产品用起来。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。

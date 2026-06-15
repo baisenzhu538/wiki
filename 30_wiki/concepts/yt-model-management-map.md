@@ -43,7 +43,7 @@ trust_level: medium-high
 
 # 一堂管理地图：高潜力管理者修炼全景图
 
-> 来源：一堂《管理地图：高潜力管理者修炼全景图》。[[一堂]] | [[yt-model-progress-map]] | [[yt-system-course-catalog#管理必修]]
+> 来源：一堂《管理地图：高潜力管理者修炼全景图》。[[一堂]] | [[yt-model-progress-map]] | yt-system-course-catalog#管理必修
 
 ## Summary
 
@@ -149,7 +149,7 @@ trust_level: medium-high
 | 关联框架 | [[yt-model-y-organization]] | Y 模型（底层逻辑） |
 | 关联框架 | [[yt-model-entrepreneur-map]] | 创业地图（姊妹篇：创业必修） |
 | 关联框架 | [[yt-model-personal-map]] | 个人地图（从管自己起步的基础） |
-| 关联 | [[yt-system-course-catalog#管理必修]] | 管理必修课程目录 |
+| 关联 | yt-system-course-catalog#管理必修 | 管理必修课程目录 |
 | 实体页 | [[一堂]] | 一堂实体页 |
 
 ### 不要用的场景

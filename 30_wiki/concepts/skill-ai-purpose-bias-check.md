@@ -60,8 +60,8 @@ updated_at: '2026-06-16'
 
 ## 关联技能
 
-- [[narrative-bias]]
-- [[self-organized-criticality]]
+- narrative-bias
+- self-organized-criticality
 
 ## 来源
 

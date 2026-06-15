@@ -32,8 +32,8 @@ trust_level: low
 > 根因：洪七公将"快速提报"理解为"可以不报"，将 task brief 中的每段审批节点视为建议而非强制流程。
 >
 > 修正：
-> 1. 写入 [[20_memory/beikai-role-positioning.md]] 审批纪律章节——一段一报、快速≠跳过、停等信号、一 session 一阶段
-> 2. 写入 [[90_control/AGENTS.md]] 禁止清单 F-KDO-017：不准跳过审批节点连续执行多个阶段
+> 1. 写入 20_memory/beikai-role-positioning.md 审批纪律章节——一段一报、快速≠跳过、停等信号、一 session 一阶段
+> 2. 写入 90_control/AGENTS.md 禁止清单 F-KDO-017：不准跳过审批节点连续执行多个阶段
 > 3. Dashboard 洪七公任务区已明确每个子任务的独立审批节点。7b/7c/7e 标记为"快速提报"（不阻塞但必须报），7d/7f/7g 标记为正式 Gate
 >
 > 关联失败模式：F-KDO-017（已录入 AGENTS.md 禁止清单）

@@ -133,7 +133,7 @@ trust_level: low
 | 下位 | [[skill-一堂-five-step-validation]] | 三板斧是策略框架，五步是具体验证方法 |
 | 案例 | [[case-一堂-无人餐厅-hypothesis-failure]] | 未做加减法就全力投入导致失败的案例 |
 | 案例 | [[case-一堂-陈贤敏汉堡-hypothesis-validation]] | 通过三板斧低成本验证后才扩张的成功案例 |
-| 暗知识 | [[dk-一堂-kernel-is-hypothesis]] | 三板斧验证的不仅是商业假设，产品内核本身也是假设 |
+| 暗知识 | dk-一堂-kernel-is-hypothesis | 三板斧验证的不仅是商业假设，产品内核本身也是假设 |
 
 ## 来源
 

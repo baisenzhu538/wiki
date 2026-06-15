@@ -115,8 +115,8 @@ trust_level: low
 ## 关联技能
 
 - [[skill-ai-problem-question-check]] — 先区分problem/question，再对problem做四要素验证
-- [[skill-ai-landing-scene-selection]] — 验证通过的需求，用场景选择法落地
-- [[dk-ai-four-elements-solvability-overestimate]] — 可解性最容易被高估的暗知识
+- skill-ai-landing-scene-selection — 验证通过的需求，用场景选择法落地
+- dk-ai-four-elements-solvability-overestimate — 可解性最容易被高估的暗知识
 
 ---
 

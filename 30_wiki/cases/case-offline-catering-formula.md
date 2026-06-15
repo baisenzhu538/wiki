@@ -17,7 +17,7 @@ tags:
 - '#offline-retail'
 - '#domain/yitang'
 created_at: '2026-06-15'
-updated_at: '2026-06-15'
+updated_at: '2026-06-16'
 author: 孔阳
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，线下连锁餐饮案例（持续复购型）
@@ -30,8 +30,8 @@ related:
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-entrepreneur-unit-model]]'
+- null
 ---
-
 # 线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定
 
 > 一堂业务公式拆解培训案例：50 家门店、月 GMV 2000 万、客单价 25 元的连锁快餐品牌，目标是同店增长 30%。团队讨论清一色是“投抖音本地推、优化菜单、发优惠券”，真正的增长潜力却藏在会员复购和场景绑定里。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。

@@ -28,7 +28,7 @@ related_concepts:
 - '[[dk-modeling-model-arsenal-paradigms]]'
 related_cases: []
 created_at: '2026-06-15'
-updated_at: '2026-06-15'
+updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.8
@@ -37,8 +37,8 @@ domain:
 - yitang
 - 知识管理
 - 建模沉淀
+- null
 ---
-
 # 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式
 
 ## 原始表述

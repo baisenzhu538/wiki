@@ -81,7 +81,7 @@ Herbert Simon 会质疑：**清单在处理"程序性任务"时有效，但在�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-course-structure]] — 课程结构的宏观视角
+- yt-decision-course-structure — 课程结构的宏观视角
 - [[yt-decision-ai-partner]] — 学习路径规划的理论基础
 
 ### 可迁移场景

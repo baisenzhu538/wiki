@@ -128,7 +128,7 @@ trust_level: low
 | 上位 | [[concept-一堂-product-kernel]] | 加减法是产品内核定义的核心操作工具 |
 | 下位 | [[skill-一堂-product-kernel-canvas]] | 画布是加减法的可视化载体 |
 | 下位 | [[skill-一堂-kernel-three-questions]] | 加减法完成后，用三问验证法检查内核质量 |
-| 暗知识 | [[dk-一堂-kernel-is-hypothesis]] | 加减法得出的内核仍然是假设，需要验证 |
+| 暗知识 | dk-一堂-kernel-is-hypothesis | 加减法得出的内核仍然是假设，需要验证 |
 | 案例 | [[case-一堂-AI高考志愿-kernel-mismatch]] | 没做好减法导致内核失焦的典型反例 |
 
 ## 来源

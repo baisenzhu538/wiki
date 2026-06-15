@@ -76,8 +76,8 @@ Peter Drucker 会质疑：**落地卡片是否过度强调"正确地做事"，�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-project-management]] — 项目管理的理论基础
-- [[yt-decision-product-launch]] — 产品发布的方法论补充
+- yt-decision-project-management — 项目管理的理论基础
+- yt-decision-product-launch — 产品发布的方法论补充
 
 ### 可迁移场景
 

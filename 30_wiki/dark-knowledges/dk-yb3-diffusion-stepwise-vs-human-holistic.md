@@ -52,4 +52,4 @@ trust_level: low
 ## 与其他知识的关联
 
 - [[dk-yb2-llm-muddy-clear-muddy]] — 大模型训练本质：浑水→清水→浑水
-- [[dk-yb14-prompt-migrate-copy-first]] — AIGC提示词迁移：先照搬再微调
+- dk-yb14-prompt-migrate-copy-first — AIGC提示词迁移：先照搬再微调

@@ -68,7 +68,7 @@ Herbert Simon 会质疑：**清单在处理"程序性任务"时有效，但在�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-capability-map]] — 能力地图的宏观视角
+- yt-decision-capability-map — 能力地图的宏观视角
 - [[yt-decision-full-process]] — 技能进阶的理论基础
 
 ### 可迁移场景

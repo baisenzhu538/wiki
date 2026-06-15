@@ -104,10 +104,10 @@ $$
 
 | 桥接目标 | 桥接关系 | 使用场景 |
 |:---------|:---------|:---------|
-| [[yt-product-kernel-three-questions]] | 产品内核三问需要诊断者获得用户信任，Trusted Advisor 提供建立信任的路径 | 在做产品内核诊断时，用户不愿意说出真实痛点，先用信任公式识别是可信度不足还是亲近度不足 |
+| yt-product-kernel-three-questions | 产品内核三问需要诊断者获得用户信任，Trusted Advisor 提供建立信任的路径 | 在做产品内核诊断时，用户不愿意说出真实痛点，先用信任公式识别是可信度不足还是亲近度不足 |
 | [[yt-entrepreneur-five-step-method]] | 五步法的需求分析环节需要创业者成为自己团队的 Trusted Advisor | 创始人在团队内部做需求调研，如果团队不信任你的动机，就得不到真实反馈 |
 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证需要用户/团队披露真实信息，信任是前提 | 在验证会不会死的假设时，如果用户觉得你只想证明自己对，他会保留关键信息 |
-| [[diag_20250611_consulting-skills-research]] | 王语嬏角色的可信顾问定位需要理论支撑 | 王语嬏在做诊断时，用 Trusted Advisor 模型确保自己不潜入 Seller 模式（过早推销解决方案） |
+| diag_20250611_consulting-skills-research | 王语嬏角色的可信顾问定位需要理论支撑 | 王语嬏在做诊断时，用 Trusted Advisor 模型确保自己不潜入 Seller 模式（过早推销解决方案） |
 
 **案例：**
 一堂的"产品内核三问"要求诊断者问出"你的用户是谁、他们的痛点是什么、你的解决方案是什么"。但很多创业者在实际调研时发现，用户不愿意说出真实痛点。这通常不是问题问得不对，而是**信任度还不足以支撑这么敏感的诊断**。Trusted Advisor 模型告诉你：先停止提问，先用 5 分钟建立亲近度（表达同理心、分享类似案例），用户才愿意披露真实痛点。
@@ -205,13 +205,13 @@ Trusted Advisor 的信任公式（T = (C+R+I)/SO）在理论上优雅，但在�
 
 | 关系 | 目标节点 | 说明 |
 |:-----|:---------|:-----|
-| 同域横向 | [[yt-product-kernel-three-questions]] | 产品内核诊断的效果取决于用户是否愿意披露真实痛点，Trusted Advisor 提供建立信任的路径 |
+| 同域横向 | yt-product-kernel-three-questions | 产品内核诊断的效果取决于用户是否愿意披露真实痛点，Trusted Advisor 提供建立信任的路径 |
 | 同域横向 | [[yt-entrepreneur-five-step-method]] | 五步法中需求分析和团队内部诊断同样需要信任关系，否则获取不到真实信息 |
 | 同域横向 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证需要用户/团队披露真实信息，信任是前提条件 |
 | 跨域桥接 | [[concept-mckinsey-mece]] | 信任诊断可以用 MECE 检查：是可信度不足、可靠度不足、亲近度不足，还是自我导向过高？ |
 | 跨域桥接 | [[concept-mckinsey-hypothesis-driven]] | 假设驱动工作法需要用户接受"先形成假设再验证"的工作方式，信任低时会被视为"拍脑袋" |
 | 跨域桥接 | [[concept-mckinsey-7s]] | 组织诊断往往涉及敏感信息，受诊者是否愿意说出真话取决于你的信任度 |
-| 跨域对比 | [[diag_20250611_consulting-skills-research]] | 王语嬏角色的可信顾问定位需要本卡作为理论支撑，同时本卡也需要实际诊断记录来验证 |
+| 跨域对比 | diag_20250611_consulting-skills-research | 王语嬏角色的可信顾问定位需要本卡作为理论支撑，同时本卡也需要实际诊断记录来验证 |
 
 ## Action Triggers
 

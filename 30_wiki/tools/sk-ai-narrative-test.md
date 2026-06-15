@@ -75,7 +75,7 @@ trust_level: low
 
 ## 关联技能
 
-- [[narrative-bias]]
+- narrative-bias
 - [[sk-ai-purpose-bias-check]]
 
 ## 来源

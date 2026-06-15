@@ -80,7 +80,7 @@ Herbert Simon 会质疑：**清单在处理"程序性任务"时有效，但在�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-capability-map]] — 能力地图的宏观视角
+- yt-decision-capability-map — 能力地图的宏观视角
 - [[yt-decision-full-process]] — 技能进阶的理论基础
 - **此卡的纵向金字塔结构（VA 描述为“从下到上递进的纵向结构”）与 [[yt-decision-depth-ladder]] 的 L1-L4 停车场模型在“分层递进”逻辑上同源，但个人地图缺少“停车信号”——学习者无法判断自己当前应停在第几层。**
 

@@ -15,23 +15,23 @@ source_refs:
 - src_20260614_7963c2f2
 - src_20260614_720e62a1
 tags:
-- "#personal-growth"
-- "#complex-systems"
-- "#learning-methodology"
+- '#personal-growth'
+- '#complex-systems'
+- '#learning-methodology'
 created_at: '2026-06-14'
-updated_at: '2026-06-14T16:09:18+00:00'
+updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
 related:
-- "[[master-systems-thinking]]"
-- "[[master-cognitive-bias-checklist]]"
-- "[[master-decision-hygiene]]"
-- "[[master-antifragile-checklist]]"
-- "[[master-first-principles]]"
-- "[[yt-personal-ipo-learning]]"
-- "[[yt-personal-knowledge-extraction]]"
-- "[[ai-collaboration-mindset-shift]]"
+- '[[master-systems-thinking]]'
+- '[[master-cognitive-bias-checklist]]'
+- '[[master-decision-hygiene]]'
+- '[[master-antifragile-checklist]]'
+- '[[master-first-principles]]'
+- '[[yt-personal-ipo-learning]]'
+- '[[yt-personal-knowledge-extraction]]'
+- '[[ai-collaboration-mindset-shift]]'
 confidence: 0.65
 trust_level: medium
 ---
@@ -212,7 +212,7 @@ trust_level: medium
 
 ## 验证与参考
 
-- 主题摘要：[[90_control/itingnao-kit/work/theme-personal-growth-summary.md]]
+- 主题摘要：90_control/itingnao-kit/work/theme-personal-growth-summary.md
 - 原始引用（未纳入 source_refs）：`src_7756785_theme-personal-growth-summary`
 - 原始引用（未纳入 source_refs）：`src_6086372_theme-personal-growth-summary`
 - 原始引用（未纳入 source_refs）：`src_4265699_theme-personal-growth-summary`

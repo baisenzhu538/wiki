@@ -207,7 +207,7 @@ Cagan在《启示录》中强调：伟大的产品来自**赋能产品团队**�
 | 上游工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证，为画布假设提供验证方法论 |
 | 下游工具 | [[yt-entrepreneur-unit-model]] | 单元模型，画布分析的最终落点是单店/单客户盈利性 |
 | 关联工具 | [[yt-tool-meeting-designer]] | 会议设计工具，画布讨论需要结构化会议流程 |
-| 关联概念 | [[yt-concept-user-perspective]] | 用户视角原则的深度解析 |
+| 关联概念 | yt-concept-user-perspective | 用户视角原则的深度解析 |
 
 ### 不要用的场景
 

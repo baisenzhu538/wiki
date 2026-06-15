@@ -81,7 +81,7 @@ Herbert Simon 会质疑：**清单在处理"程序性任务"时有效，但在�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-capability-map]] — 能力地图的宏观视角
+- yt-decision-capability-map — 能力地图的宏观视角
 - [[yt-decision-full-process]] — 技能进阶的理论基础
 - **此卡的 Z 形阅读路径（VA 描述为“F 形与 Z 形结合的复合路径”）与 [[yt-personal-ipo-learning]] 的线性输入→处理→输出结构形成对比，反映聚合思维（地图浏览）vs 线性执行（IPO 流程）的不同认知模式。**
 

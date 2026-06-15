@@ -85,7 +85,7 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 ### 与本库其他概念的关联
 
 - [[yt-personal-product-design]] — 泛产品设计方法论总纲
-- [[yt-decision-product-launch]] — 产品落地发布的方法论补充
+- yt-decision-product-launch — 产品落地发布的方法论补充
 
 ### 可迁移场景
 

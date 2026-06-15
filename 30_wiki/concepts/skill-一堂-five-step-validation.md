@@ -132,7 +132,7 @@ trust_level: low
 | 上位 | [[concept-一堂-product-kernel]] | 五步验证法是内核假设验证的核心工具 |
 | 前序 | [[skill-一堂-kernel-three-questions]] | 三问通过后，再用五步法验证 |
 | 下位 | [[skill-一堂-hypothesis-validation-three-axe]] | 五步是具体验证方法，三板斧是验证策略框架 |
-| 暗知识 | [[dk-一堂-kernel-is-hypothesis]] | 内核是假设，五步是验证假设的工具 |
+| 暗知识 | dk-一堂-kernel-is-hypothesis | 内核是假设，五步是验证假设的工具 |
 | 案例 | [[case-一堂-陈贤敏汉堡-hypothesis-validation]] | 通过低成本验证后才扩张的成功案例 |
 
 ## 来源

@@ -123,7 +123,7 @@ AI落地的失败率超过90%，其中大部分不是因为"技术不行"，而�
 
 - [[skill-ai-four-elements-validation]] — 通用四要素验证法
 - [[skill-ai-landing-five-steps]] — 评估通过后，用五步落地流程执行
-- [[dk-ai-only-do-what-you-know]] — AI只能干你会的事的暗知识
+- dk-ai-only-do-what-you-know — AI只能干你会的事的暗知识
 
 ---
 

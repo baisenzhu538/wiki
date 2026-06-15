@@ -171,8 +171,8 @@ def check_roundtrip(metadata: dict) -> list[str]:
 
 ## 参考
 
-- `[[30_wiki/decisions/fix-data-curator-parse-bug]]` — 原始 bug 报告与修复方案
-- `[[30_wiki/decisions/gold-standard-manual-labels]]` — 受影响的案例
+- `30_wiki/decisions/fix-data-curator-parse-bug` — 原始 bug 报告与修复方案
+- `30_wiki/decisions/gold-standard-manual-labels` — 受影响的案例
 
 ---
 

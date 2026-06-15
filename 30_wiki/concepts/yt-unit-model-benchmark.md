@@ -199,8 +199,8 @@ Thaler 在《Misbehaving》中对"传统经济学"发起的挑战，对单元模
 | 上游工具 | [[yt-unit-model-construction]] | 先建模，再找基准值——没有模型的基准值是空中楼阁 |
 | 上游工具 | [[yt-unit-model-selection]] | 选定单元是建模的前提，也是基准值验证的隐性前置 |
 | 下游工具 | [[yt-unit-model-dynamic]] | 基准值确定后，下一步是预测单元模型如何随时间变化 |
-| 跨域关联 | [[yt-decision-forecasting-accuracy]] | 三点预测是"粗略版的概率预测"——如果需要更精细的预测，可以参考预测准确性框架 |
-| 跨域关联 | [[yt-decision-heuristics-biases]] | 基准值共建中的"锚定效应"、"现在偏误"等行为经济学偏差需要被诊察和管理 |
+| 跨域关联 | yt-decision-forecasting-accuracy | 三点预测是"粗略版的概率预测"——如果需要更精细的预测，可以参考预测准确性框架 |
+| 跨域关联 | yt-decision-heuristics-biases | 基准值共建中的"锚定效应"、"现在偏误"等行为经济学偏差需要被诊察和管理 |
 | 方法论语境 | [[yt-decision-y-model]] | Y 模型验证业务假设是否成立，本工具验证数据假设是否合理——两者互补 |
 | 进阶框架 | [[yt-unit-model-ladder]] | 基准值验证是 L5 的核心能力——L4 建模完成后，需要 L5 来确保数据准确 |
 

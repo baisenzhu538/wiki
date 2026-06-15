@@ -75,8 +75,8 @@ Arthur Danto 在《普通之物的变形》中证明：艺术品的"美好"标�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-aesthetic-practice]] — 审美实践的理论基础
-- [[yt-decision-design-philosophy]] — 设计哲学与"美好作品"同源
+- yt-decision-aesthetic-practice — 审美实践的理论基础
+- yt-decision-design-philosophy — 设计哲学与"美好作品"同源
 
 ### 可迁移场景
 

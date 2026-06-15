@@ -115,7 +115,7 @@ Dweck的成长型思维（Growth Mindset）理论对P/L型的固定分类提出�
 | 上游工具 | [[yt-entrepreneur-industry-forecast]] | 商业预判15字诀，从P型到L型的预判能力升级路径 |
 | 关联工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证，L型创业者的核心习惯 |
 | 关联框架 | [[yt-model-cognitive-upgrade-framework]] | 认知升级框架，从P型到L型的认知跃迁路径 |
-| 关联概念 | [[yt-concept-x-type-y-type]] | X型/Y型创业者（愿望驱动 vs 假设驱动）的类比 |
+| 关联概念 | yt-concept-x-type-y-type | X型/Y型创业者（愿望驱动 vs 假设驱动）的类比 |
 | 关联案例 | [[yt-case-mandatory-cases]] | 必修课案例集，P型/L型案例的详细拆解 |
 
 ### 不要用的场景

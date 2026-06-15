@@ -64,9 +64,9 @@ updated_at: '2026-06-16'
 
 ## 关联技能
 
-- [[skill-ai-prompt-iteration]] — 拿到初稿后如何迭代
-- [[skill-ai-image-text-fix]] — AI 生图文字问题处理
-- [[口喷设计范式]] — 口喷作为设计方法论
+- skill-ai-prompt-iteration — 拿到初稿后如何迭代
+- skill-ai-image-text-fix — AI 生图文字问题处理
+- 口喷设计范式 — 口喷作为设计方法论
 
 ## 来源
 

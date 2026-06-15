@@ -17,7 +17,7 @@ tags:
 - '#domain/yitang'
 - '#content-format/framework'
 created_at: '2026-06-15'
-updated_at: '2026-06-15'
+updated_at: '2026-06-16'
 author: 孔阳
 reviewed_by: 老顽童
 review_date: '2026-06-15'
@@ -28,8 +28,8 @@ related:
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-business-formula-six-level-logic]]'
 - '[[yt-business-formula-ten-paradigms]]'
+- null
 ---
-
 # 业务公式 L6 魔法参数：跨行业本质公式集锦
 
 > 业务公式拆解到 L5 之后，如果继续追问“用户为什么买/为什么留/为什么复购”，就会触及 L6 魔法参数。这些公式不是普通 KPI，而是跨行业可迁移的“本质洞察”。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。

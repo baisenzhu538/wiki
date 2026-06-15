@@ -76,8 +76,8 @@ Robert Cialdini 本人可能会质疑：他在《影响力》中提出的六大�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-conversion-funnel]] — 转化漏斗模型提供了细节化的触点分析，与三条曲线的宏观动力框架互补
-- [[yt-decision-touchpoint-10waste]] — 10大浪费触点专注于触点层面的转化优化，三条曲线则从动力/阻力角度解释为什么触点会浪费
+- yt-decision-conversion-funnel — 转化漏斗模型提供了细节化的触点分析，与三条曲线的宏观动力框架互补
+- yt-decision-touchpoint-10waste — 10大浪费触点专注于触点层面的转化优化，三条曲线则从动力/阻力角度解释为什么触点会浪费
 
 ### 可迁移场景
 

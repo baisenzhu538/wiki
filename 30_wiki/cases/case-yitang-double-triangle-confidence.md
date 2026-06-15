@@ -27,7 +27,7 @@ related_concepts:
 - '[[dk-modeling-business-visual-logic-match]]'
 related_cases: []
 created_at: '2026-06-15'
-updated_at: '2026-06-15'
+updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.8
@@ -36,8 +36,8 @@ domain:
 - yitang
 - AI 工作流设计
 - 复杂问题分析
+- null
 ---
-
 # 案例：一堂把双三角模型变成 AI 难题的通用解题底盘
 
 ## 原始表述

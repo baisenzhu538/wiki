@@ -159,7 +159,7 @@ Ries在《精益创业》中提出的"验证性偏误"（validation bias）挑�
 | 上游框架 | [[yt-entrepreneur-five-step-method]] | 五步法总纲，产品内核是第二步"解决方案"的核心 |
 | 上游工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证，产品内核假设是核心假设之一 |
 | 下游工具 | [[yt-tool-product-core-canvas]] | 产品内核画布，实操层面的结构化工具 |
-| 关联概念 | [[yt-concept-product-core-iteration]] | 产品内核迭代的深度分析 |
+| 关联概念 | yt-concept-product-core-iteration | 产品内核迭代的深度分析 |
 | 关联工具 | [[yt-entrepreneur-unit-model]] | 单元模型，产品内核直接影响单店/单客户盈利性 |
 | 关联框架 | [[yt-model-cognitive-upgrade-framework]] | 认知升级框架，从L1到L6的认知跃迁路径 |
 

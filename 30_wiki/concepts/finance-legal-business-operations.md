@@ -15,11 +15,11 @@ source_refs:
 - src_20260614_fbe4a480
 - src_20260614_40afd886
 tags:
-- "#finance"
-- "#legal"
-- "#operations"
+- '#finance'
+- '#legal'
+- '#operations'
 created_at: '2026-06-14'
-updated_at: '2026-06-14T16:09:18+00:00'
+updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
@@ -227,7 +227,7 @@ trust_level: medium
 
 ## 验证与参考
 
-- 主题摘要：[[90_control/itingnao-kit/work/theme-finance-legal-business-summary.md]]
+- 主题摘要：90_control/itingnao-kit/work/theme-finance-legal-business-summary.md
 - 主题摘要已纳入 source_refs：`theme-finance-legal-business-summary`
 ---
 

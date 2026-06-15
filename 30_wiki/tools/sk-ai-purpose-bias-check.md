@@ -74,8 +74,8 @@ trust_level: low
 
 ## 关联技能
 
-- [[narrative-bias]]
-- [[self-organized-criticality]]
+- narrative-bias
+- self-organized-criticality
 
 ## 来源
 

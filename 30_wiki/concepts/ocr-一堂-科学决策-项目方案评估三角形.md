@@ -62,7 +62,7 @@ Mintzberg 在《策略进程的各个层次》中指出，战略是“形成中�
 
 - [[yt-decision-canvas]] — 同域决策画布，评估三角形是其在项目场景下的简化版
 - [[yt-management-project-management]] — 项目管理方法论，三角形框架引入了决策维度弥补了纯执行屏的缺失
-- [[yt-decision-key-hypotheses]] — 关键假设验证，与三角形结合可在项目立项前做快速风险检查
+- yt-decision-key-hypotheses — 关键假设验证，与三角形结合可在项目立项前做快速风险检查
 
 ### 可迁移场景
 

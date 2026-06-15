@@ -84,7 +84,7 @@ trust_level: medium-high
 ---
 # 一堂创业地图：高潜力创业者修炼全景图
 
-> 来源：一堂《创业地图：高潜力创业者修炼全景图》。[[一堂]] | [[yt-model-progress-map]] | [[yt-system-course-catalog#创业必修]]
+> 来源：一堂《创业地图：高潜力创业者修炼全景图》。[[一堂]] | [[yt-model-progress-map]] | yt-system-course-catalog#创业必修
 
 ## Summary
 
@@ -194,7 +194,7 @@ trust_level: medium-high
 | 关联框架 | [[yt-model-progress-map]] | 无限进步大地图（总图） |
 | 关联框架 | [[yt-model-y-organization]] | Y 模型（底层逻辑） |
 | 关联框架 | [[yt-model-management-map]] | 管理地图（姊妹篇：管理必修） |
-| 关联 | [[yt-system-course-catalog#创业必修]] | 创业必修课程目录 |
+| 关联 | yt-system-course-catalog#创业必修 | 创业必修课程目录 |
 | 实体页 | [[一堂]] | 一堂实体页 |
 | 关联框架 | [[yt-model-personal-map]] | 个人修炼地图，与创业地图互为「内外双修」——前者磨砺创业者个体认知与技能，后者将能力投射到创业实战场景，二者共同构成一堂修炼体系的两大支柱 |
 | 关联框架 | [[yt-personal-deep-review]] | 深度复盘是创业地图「增长阶段」组织复盘与个人反思的核心工具，帮助创业者从经验中提炼可复用的决策模式 |

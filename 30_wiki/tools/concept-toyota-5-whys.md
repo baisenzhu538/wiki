@@ -185,7 +185,7 @@ claim:03 [conf=0.85] **每一步都需要事实支撑，不能纯粹推理。** 
 | 协同工具 | [[concept-mckinsey-issue-tree]] | Issue Tree 中的 Why Tree 是 5 Whys 的结构化升级——当问题复杂到需要多个并行分支时，用 Why Tree 替代 5 Whys |
 | 跨域对比 | [[concept-mckinsey-hypothesis-driven]] | 假设驱动强调"先形成假设再验证"，5 Whys 强调"连续追问到根本原因"——两者结合：用5 Whys 找到问题的根本原因，用假设驱动设计验证"解决根本原因是否能解决原问题" |
 | 跨域对比 | [[yt-entrepreneur-lean-validation]] | 精益验证强调"用最小可行实验获取反馈"，5 Whys 提供"用轻量级工具进行根因分析"——两者精神一致：轻量级、快速、实用 |
-| 跨域案例 | [[case-一堂-shampoo-product-kernel]] | 洗发水案例中产品团队从"功能视角"出发，但用户的真实决策逻辑是"信任+信息全面性"——这正是5 Whys 的典型应用场景：第一层原因是"页面设计不好"，第三层可能是"用户需要信任背书而不是更多功能" |
+| 跨域案例 | case-一堂-shampoo-product-kernel | 洗发水案例中产品团队从"功能视角"出发，但用户的真实决策逻辑是"信任+信息全面性"——这正是5 Whys 的典型应用场景：第一层原因是"页面设计不好"，第三层可能是"用户需要信任背书而不是更多功能" |
 
 ## Action Triggers
 

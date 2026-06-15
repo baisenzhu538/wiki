@@ -74,7 +74,7 @@ Aristotle 在《修辞学》中提出了修辞的三要素：信息（ethos）�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-expressive-weapon]] — 表达力火箭模型的执行武器库，提供了具体的表达工具
+- yt-decision-expressive-weapon — 表达力火箭模型的执行武器库，提供了具体的表达工具
 - [[yt-pitch-storytelling]] — 故事化表达与"打动人"在情感传达上同源
 
 ## Action Triggers

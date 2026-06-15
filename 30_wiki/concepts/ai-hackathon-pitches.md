@@ -21,25 +21,25 @@ source_refs:
 - src_20260614_ef4f24d7
 - src_20260614_8bd357d3
 tags:
-- "#ai-hackathon"
-- "#pitch"
-- "#mvp"
+- '#ai-hackathon'
+- '#pitch'
+- '#mvp'
 created_at: '2026-06-14'
-updated_at: '2026-06-14T16:09:18+00:00'
+updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
 confidence: 0.65
 trust_level: medium
 related:
-- "[[yt-five-step-method]]"
-- "[[yt-entrepreneur-key-hypotheses]]"
-- "[[yt-tool-product-core-canvas]]"
-- "[[yt-pitch-colloquialization]]"
-- "[[concept-ai-native-organization-five-steps]]"
-- "[[ai-collaboration-mindset-shift]]"
-- "[[ai-landing-scene-selection]]"
-- "[[find-old-do-small]]"
+- '[[yt-five-step-method]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-tool-product-core-canvas]]'
+- '[[yt-pitch-colloquialization]]'
+- '[[concept-ai-native-organization-five-steps]]'
+- '[[ai-collaboration-mindset-shift]]'
+- '[[ai-landing-scene-selection]]'
+- '[[find-old-do-small]]'
 ---
 # AI 大航海项目路演：主题综合知识卡
 
@@ -208,7 +208,7 @@ related:
 
 ## 验证与参考
 
-- 主题摘要：[[90_control/itingnao-kit/work/theme-ai-hackathon-pitches-summary.md]]
+- 主题摘要：90_control/itingnao-kit/work/theme-ai-hackathon-pitches-summary.md
 - 原始引用（未纳入 source_refs）：`theme-ai-hackathon-pitches-summary`
 - 原始引用（未纳入 source_refs）：`rec-4046714`
 - 原始引用（未纳入 source_refs）：`rec-4044940`

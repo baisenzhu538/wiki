@@ -153,4 +153,4 @@ Agent 定义层：
 - [[concept-一堂-key-assumptions]]
 - [[concept-一堂-kernel-validation]]
 - [[concept-一堂-kernel-iteration]]
-- [[40_outputs/capabilities/skills/note-coach/SKILL]]
+- 40_outputs/capabilities/skills/note-coach/SKILL

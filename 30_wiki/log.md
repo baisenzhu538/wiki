@@ -202,7 +202,7 @@ Chronological record of knowledge operations.
 - `[[kdo-protocol]]`
 - `[[kdo-protocol-implementation-roadmap]]`
 - `[[index]]`
-- `[[Obsidian Git Multi-Device Sync Protocol]]`
+- `[[obsidian-git-sync-protocol]]`
 
 ---
 
@@ -261,7 +261,7 @@ Chronological record of knowledge operations.
 
 ### References
 
-- `[[claude-20260503-kdo仓库遍历与健康度评估]]`
+- `claude-20260503-kdo仓库遍历与健康度评估`
 - `[[plan_20260503_f3e9a2b1-improvement-plan]]`
 - `[[kdo-protocol]]`
 - `[[index]]`

@@ -18,7 +18,7 @@ tags:
 - '#domain/yitang'
 - '#misjudgment'
 created_at: '2026-06-14'
-updated_at: '2026-06-14'
+updated_at: '2026-06-16'
 author: 孔阳
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，ToC 消费品电商案例
@@ -32,8 +32,8 @@ related:
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-business-formula-six-level-logic]]'
 - '[[yt-entrepreneur-unit-model]]'
+- null
 ---
-
 # ToC 消费品电商：业务公式拆解误判导致放量亏损
 
 > 一堂业务公式拆解培训的核心案例：一个创始人有 10 年经验的 ToC 消费品品牌，因为把「GMV = 流量 × 转化 × 客单价 × 复购」拆得太粗，误判核心矛盾，追加 200 万投放只增长 100 万营收，最终亏损。  

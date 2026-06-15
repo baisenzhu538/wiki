@@ -319,9 +319,9 @@ Klein让Y型训练者睡不着觉的问题是：你最近一次真正正确的�
 | 关联工具 | [[yt-decision-canvas]] | 分层评估时使用的落地画布 |
 | 关联工具 | [[yt-decision-depth-ladder]] | 深度分层的具体操作方法（L1-L4） |
 | 关联工具 | [[yt-decision-ai-partner]] | AI辅助诊断自己是X型还是Y型的对话流程 |
-| 理论同源 | [[thinking-fast-slow-kahneman]] | X型=System 1（快思考/直觉），Y型=System 2（慢思考/分析）——Kahneman双系统理论是习惯转换的认知科学基础 |
-| 跨域连接 | [[immunity-to-change-kegan]] | 从X型到Y型的转换阻力与Kegan"变革免疫"同源——既有承诺阻碍新行为adoption |
-| 跨域连接 | [[status-quo-bias-samuelson]] | X型拍脑袋的惯性部分源于行为经济学的"现状偏见"——默认维持当前行为模式 |
+| 理论同源 | thinking-fast-slow-kahneman | X型=System 1（快思考/直觉），Y型=System 2（慢思考/分析）——Kahneman双系统理论是习惯转换的认知科学基础 |
+| 跨域连接 | immunity-to-change-kegan | 从X型到Y型的转换阻力与Kegan"变革免疫"同源——既有承诺阻碍新行为adoption |
+| 跨域连接 | status-quo-bias-samuelson | X型拍脑袋的惯性部分源于行为经济学的"现状偏见"——默认维持当前行为模式 |
 | 跨模块连接 | [[yt-management-team-knowledge]] | 管理模块的团队建设需要Y型决策习惯作为协作基础——共识建立在结构化分析之上 |
 
 

@@ -83,7 +83,7 @@ David Pye 在《手艺的本质与艺术》中区分了两种手艺形式。Pye 
 ### 与本库其他概念的关联
 
 - [[yt-personal-product-design]] — 泛产品设计方法论总纲
-- [[yt-decision-product-launch]] — 产品落地发布的方法论补充
+- yt-decision-product-launch — 产品落地发布的方法论补充
 - **此卡的横向时间轴结构（VA 描述为“左右延展的阶梯递进结构”）与 [[yt-decision-width-method]] 的“维度×深度”分析矩阵在“横向延展”逻辑上同源，但爬山地图把L1-L6切分为六个独立等级列，暗示各阶段之间有清晰边界，而真实的能力成长往往是跨阶段重叠的。**
 
 ### 可迁移场景

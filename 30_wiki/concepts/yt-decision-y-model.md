@@ -117,7 +117,7 @@ author: 老顽童
 
 
 
-Y模型在一堂知识体系中的坐标：科学决策模块的底层框架，贯穿预判、起盘、增长三阶段，与[[yt-entrepreneur-key-hypotheses|关键假设]]、单元模型、科学管理等课程形成方法论网络。
+Y模型在一堂知识体系中的坐标：科学决策模块的底层框架，贯穿预判、起盘、增长三阶段，与yt-entrepreneur-key-hypotheses|关键假设、单元模型、科学管理等课程形成方法论网络。
 
 
 
@@ -382,12 +382,12 @@ Y模型不是单一工具，而是"四套操作系统"——根据决策场景�
 | 关联工具 | [[yt-decision-ai-partner]] | AI辅助决策的多轮对话流程 |
 | 关联框架 | [[yt-model-entrepreneur-map]] | 一堂创业地图总纲 |
 | 关联工具 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证方法论 |
-| 兼容框架 | [[ooda-loop-boyd]] | Y模型宽度→深度→高度与OODA观察→判断→决策→行动在认知节奏上互补 |
-| 互补框架 | [[jtbd-framework]] | JTBD解决"用户要什么"，Y模型解决"要不要做"——需求验证后进入决策评估 |
-| 跨域连接 | [[system-thinking-senge]] | 宽度找全=系统边界识别，高度视角=系统杠杆点识别 |
-| 跨模块连接 | [[yt-forecast-trend-signal]] | 预判模块的趋势信号识别为高度工具的时间窗口分析提供输入 |
-| 跨模块连接 | [[yt-startup-mvp-cost]] | 起盘模块的MVP成本估算直接调用宽度工具的个人篇盲区清单 |
-| 跨模块连接 | [[yt-growth-channel-roi]] | 增长模块的获客渠道ROI评估使用深度工具的L3转化率漏斗 |
+| 兼容框架 | ooda-loop-boyd | Y模型宽度→深度→高度与OODA观察→判断→决策→行动在认知节奏上互补 |
+| 互补框架 | jtbd-framework | JTBD解决"用户要什么"，Y模型解决"要不要做"——需求验证后进入决策评估 |
+| 跨域连接 | system-thinking-senge | 宽度找全=系统边界识别，高度视角=系统杠杆点识别 |
+| 跨模块连接 | yt-forecast-trend-signal | 预判模块的趋势信号识别为高度工具的时间窗口分析提供输入 |
+| 跨模块连接 | yt-startup-mvp-cost | 起盘模块的MVP成本估算直接调用宽度工具的个人篇盲区清单 |
+| 跨模块连接 | yt-growth-channel-roi | 增长模块的获客渠道ROI评估使用深度工具的L3转化率漏斗 |
 
 
 

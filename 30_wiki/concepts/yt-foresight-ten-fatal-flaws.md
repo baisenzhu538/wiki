@@ -115,4 +115,4 @@ trust_level: medium-high
 - [[yt-foresight-addition-subtraction]] — 减法实操中硬伤识别是核心环节
 - [[yt-ai-startup-20-risky-hypotheses]] — AI创业20个高风险假设是十大硬伤在AI领域的场景化应用
 - [[yt-entrepreneur-key-hypotheses]] — 未被硬伤排除的选项，进入关键假设验证环节
-- [[dk-yt-checklist-max-common-divisor]] — 暗知识：AI和人类在识别硬伤时的分工
+- dk-yt-checklist-max-common-divisor — 暗知识：AI和人类在识别硬伤时的分工

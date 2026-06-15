@@ -327,7 +327,7 @@ Q3：如果现在立刻砍掉我们 50% 的业务——你会保留哪一半、�
 | 管理域 | [[yt-management-founder-role]] | 战略会是一号位行使方向决策权的核心机制 |
 | 管理域 | [[yt-management-company-culture]] | 战略会上的讨论氛围是公司文化的一面镜子 |
 | 科学决策域 | [[yt-decision-y-model]] | 战略决策是回报最高、风险最大的决策类型 |
-| 科学决策域 | [[yt-decision-red-team-blue-team]] | 正反方论证：每个方向必须有一个人担任"恶魔提醒" |
+| 科学决策域 | yt-decision-red-team-blue-team | 正反方论证：每个方向必须有一个人担任"恶魔提醒" |
 | 讲香域 | [[yt-model-personal-pitch-toolkit]] | 战略会产出的"战略方向"必须能被一号位用一句话讲懂——否则这个方向没有被理解 |
 | 武器库元概念域 | [[yt-concept-weapon-arsenal]] | 战略会是组织决策系统中最重量级的武器——开好了方向明确、士气提振；开坏了消耗时间、制造虚假共识、帮全员巩固错误的假设 |
 

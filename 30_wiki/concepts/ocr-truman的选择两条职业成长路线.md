@@ -77,7 +77,7 @@ Seth Godin 在《Linchpin》中主张：真正的艺术家不做"选择题"，�
 ### 与本库其他概念的关联
 
 - [[yt-decision-ai-partner]] — 职业路径选择与两条路线的二元框架形成对照
-- [[yt-decision-portfolio-career]] — 组合职业是对两条路线的突破
+- yt-decision-portfolio-career — 组合职业是对两条路线的突破
 
 ### 可迁移场景
 

@@ -192,8 +192,8 @@ AI 时代下，清单体笔记的价值被重新放大，核心原因在于：**
 
 ### 关联框架卡
 
-- [[yt-personal-checklist-interview-notes]] — 专家访谈笔记六层段位（本次新增）
-- [[yt-personal-checklist-ai-data-paradigm]] — 清单体笔记的AI时代定位（本次新增）
+- yt-personal-checklist-interview-notes — 专家访谈笔记六层段位（本次新增）
+- yt-personal-checklist-ai-data-paradigm — 清单体笔记的AI时代定位（本次新增）
 
 ## Synthesis
 

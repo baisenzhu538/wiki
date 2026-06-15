@@ -62,7 +62,7 @@ Christensen 在《颠耆思考》中指出，颠覆性创新往往发生在"比�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-key-hypotheses]] — 同域决策工具，关键假设 ABCD 模型是其在“场景分类+策略匹配”维度上的扩展
+- yt-decision-key-hypotheses — 同域决策工具，关键假设 ABCD 模型是其在“场景分类+策略匹配”维度上的扩展
 - [[yt-entrepreneur-five-step-method]] — 一堂五步法，ABCD 模型中 A 场景的核心策略工具，二者在实际使用中通常结合运用
 - [[yt-decision-y-model]] — Y 模型决策框架，与 ABCD 模型形成"单点深钻 vs 场景分类"的互补关系
 

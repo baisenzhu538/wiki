@@ -136,8 +136,8 @@ AI的幻觉不是"偶尔出错"，而是**系统性偏差**——AI被训练成"
 ## 关联技能
 
 - [[skill-ai-research-five-steps]] — 调研时的五步流程
-- [[skill-ai-timestamp-validation]] — 时间戳防过时法
-- [[dk-ai-silky-answer-danger]] — AI回答越丝滑问题越大
+- skill-ai-timestamp-validation — 时间戳防过时法
+- dk-ai-silky-answer-danger — AI回答越丝滑问题越大
 
 ---
 

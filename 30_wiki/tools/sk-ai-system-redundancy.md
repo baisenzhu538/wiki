@@ -78,7 +78,7 @@ trust_level: low
 
 ## 关联技能
 
-- [[self-organized-criticality]]
+- self-organized-criticality
 - [[sk-ai-purpose-bias-check]]
 
 ## 来源

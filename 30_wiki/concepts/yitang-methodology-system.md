@@ -40,7 +40,7 @@ tags:
 - '#learning-methodology'
 - '#master-system'
 created_at: '2026-06-14'
-updated_at: '2026-06-14T16:09:18+00:00'
+updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
@@ -56,7 +56,7 @@ related:
 ---
 # 一堂方法论体系：从科学做事到无限进步
 
-> Source: [[90_control/itingnao-kit/work/theme-yitang-methodology-summary.md]]（26 条听脑 AI 录音 meetingSummary 综合提炼）
+> Source: 90_control/itingnao-kit/work/theme-yitang-methodology-summary.md（26 条听脑 AI 录音 meetingSummary 综合提炼）
 
 ## Summary
 
@@ -217,7 +217,7 @@ AI 数据必修课提出「数据是给 AI 的食材」；公司 AI 转型强调
 
 ## 验证与参考
 
-- 主题摘要：[[90_control/itingnao-kit/work/theme-yitang-methodology-summary.md]]
+- 主题摘要：90_control/itingnao-kit/work/theme-yitang-methodology-summary.md
 - 原始引用（未纳入 source_refs）：`90_control/itingnao-kit/work/theme-yitang-methodology-summary.md`
 ---
 

@@ -78,8 +78,8 @@ Richard Thaler 在《助推》中证明：行为经济学工具（如默认选�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-conversion-funnel]] — 转化漏斗模型提供了全流程触点视角，10大浪费触点则聚焦于"容易被忽视"的触点
-- [[yt-decision-motivation-curve]] — 动力曲线模型解释了触点为什么能产生转化，10大触点则回答"哪些触点值得优化"
+- yt-decision-conversion-funnel — 转化漏斗模型提供了全流程触点视角，10大浪费触点则聚焦于"容易被忽视"的触点
+- yt-decision-motivation-curve — 动力曲线模型解释了触点为什么能产生转化，10大触点则回答"哪些触点值得优化"
 
 ### 可迁移场景
 

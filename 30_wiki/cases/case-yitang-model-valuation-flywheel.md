@@ -25,7 +25,7 @@ related_concepts:
 - '[[dk-modeling-model-arsenal-paradigms]]'
 related_cases: []
 created_at: '2026-06-15'
-updated_at: '2026-06-15'
+updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.8
@@ -34,8 +34,8 @@ domain:
 - yitang
 - 组织激励
 - 模型质量管理
+- null
 ---
-
 # 案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮
 
 ## 原始表述

@@ -125,8 +125,8 @@ trust_level: low
 |------|----------|------|
 | 上位 | [[concept-一堂-business-prediction]] | 光谱模型是商业预判的核心定位工具 |
 | 下位 | [[skill-一堂-business-prediction-15-char]] | 15字诀中"定中局"的具体实现 |
-| 暗知识 | [[dk-一堂-p-type-vs-l-type]] | L型创业者会主动使用光谱模型定位，P型则忽略 |
-| 案例 | [[case-一堂-奶茶店创业-business-prediction]] | 从副业到区域主导的阶段过渡实例 |
+| 暗知识 | dk-一堂-p-type-vs-l-type | L型创业者会主动使用光谱模型定位，P型则忽略 |
+| 案例 | case-一堂-奶茶店创业-business-prediction | 从副业到区域主导的阶段过渡实例 |
 
 ## 来源
 

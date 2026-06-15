@@ -137,8 +137,8 @@ AI生成内容的成本趋于零，但**真实性的成本没有下降**。AI能
 ## 关联技能
 
 - [[skill-ai-info-literacy-three-layer]] — 用三层防护框架检查AI输出质量
-- [[skill-ai-timestamp-validation]] — 时间戳防过时法
-- [[dk-ai-silky-answer-danger]] — AI回答越丝滑问题越大的暗知识
+- skill-ai-timestamp-validation — 时间戳防过时法
+- dk-ai-silky-answer-danger — AI回答越丝滑问题越大的暗知识
 
 ---
 

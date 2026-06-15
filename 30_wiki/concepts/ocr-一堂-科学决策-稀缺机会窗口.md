@@ -74,7 +74,7 @@ Orwell 论证语言可以被用来掩盖真实。机会窗口这个术语本身�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-scarcity-window]] - 稀缺机会窗口
+- yt-decision-scarcity-window - 稀缺机会窗口
 - [[yt-decision-canvas]] - 同域决策画布
 - [[master-decision-hygiene]] - 通用决策卫生
 

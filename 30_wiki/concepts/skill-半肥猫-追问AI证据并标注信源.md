@@ -119,7 +119,7 @@ AI 的回答是基于模式匹配的生成，而非基于实际数据的证据�
 |------|----------|------|
 | 上位 | [[concept-半肥猫-ai-learning-toolification-methodology]] | 这是 L1 三轮检查的第一轮 |
 | 下位 | [[skill-半肥猫-优先使用官方权威信源做证据]] | 追问证据后如何判断信源优先级的具体技能 |
-| 并行 | [[skill-纪浩-four-elements-validation]] | 纪浩的四要素验证 ↔ 半肥猫的证据追问——都是前置判断 |
+| 并行 | skill-纪浩-four-elements-validation | 纪浩的四要素验证 ↔ 半肥猫的证据追问——都是前置判断 |
 | 案例 | [[case-半肥猫-conversion-hacker-skill]] | 在 Skill 制作中应用证据追问的实侍 |
 | 暗知识 | [[dk-半肥猫-silky-answer-warning]] | "AI 回答越丝滑越有问题"——这就是要追问证据的原因 |
 

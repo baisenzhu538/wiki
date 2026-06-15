@@ -75,7 +75,7 @@ Meehl 在《临床与统计预测》中证实，简单的统计规则在预测�
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-key-hypotheses]] — 关键假设验证，清单方法与假设验证结合可以形成更完整的成本收益审视
+- yt-decision-key-hypotheses — 关键假设验证，清单方法与假设验证结合可以形成更完整的成本收益审视
 - [[yt-decision-canvas]] — 同域决策画布，清单是其某些维度的细化工具
 - [[master-decision-hygiene]] — 通用决策卫生，提供成本收益审视的更系统性框架
 

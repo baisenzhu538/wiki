@@ -130,10 +130,10 @@ trust_level: low
 
 ## 关联技能
 
-- [[skill-cognitive-bias-4-quick]] — 4偏差快速自检（2分钟版）
+- skill-cognitive-bias-4-quick — 4偏差快速自检（2分钟版）
 - [[skill-decision-outside-view]] — 团队决策的外部视角法
 - [[skill-decision-delay-intuition]] — 延迟直觉法
-- [[dk-cognitive-bias-checklist-illusion]] — 清单给你客观感不是客观
+- dk-cognitive-bias-checklist-illusion — 清单给你客观感不是客观
 
 ---
 

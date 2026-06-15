@@ -149,6 +149,6 @@ trust_level: low
 | 暗知识 | [[dk-半肥猫-skill-rejection-value]] | "Skill 的最大价值是拒绝能力"——L2 的核心洞察 |
 | 暗知识 | [[dk-半肥猫-atomic-no-standard]] | "原子化没有固定标准"——L3 的灵活原则 |
 | 对位 | [[concept-纪浩-ai-collaboration-methodology]] | 纪浩讲"怎么管理 AI 执行"，半肥猫讲"怎么管理人学习"——同一套哲学的两个侧面 |
-| 对位 | [[skill-纪浩-four-elements-validation]] | 纪浩的四要素验证 ↔ 半肥猫的三轮检查——都是前置判断框架 |
-| 对位 | [[skill-纪浩-dofirst-pdca]] | 纪浩的 Do-first PDCA ↔ 半肥猫的边学边练——都是从行动中迭代 |
-| KDO 对接 | [[kdo-encapsulate]] | KDO 的 skill 编译命令 ↔ 半肥猫的八步工作流——内容+工程结合 |
+| 对位 | skill-纪浩-four-elements-validation | 纪浩的四要素验证 ↔ 半肥猫的三轮检查——都是前置判断框架 |
+| 对位 | skill-纪浩-dofirst-pdca | 纪浩的 Do-first PDCA ↔ 半肥猫的边学边练——都是从行动中迭代 |
+| KDO 对接 | kdo-encapsulate | KDO 的 skill 编译命令 ↔ 半肥猫的八步工作流——内容+工程结合 |

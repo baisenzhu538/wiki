@@ -165,7 +165,7 @@ trust_level: low
 
 - [[skill-cognitive-bias-12-check]] — 个人偏差自检（前置步骤）
 - [[skill-decision-outside-view]] — 团队决策外部视角（前置步骤）
-- [[dk-decision-first-reaction-not-best]] — 第一反应不是最佳反应
+- dk-decision-first-reaction-not-best — 第一反应不是最佳反应
 
 ---
 

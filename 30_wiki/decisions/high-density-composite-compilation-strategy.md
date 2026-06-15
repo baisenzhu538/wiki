@@ -49,14 +49,14 @@ v1.0 方案要求将 ~60 份素材（85 张知识地图 + 12 份口述稿）按 
 ```
 知识层（细粒度）          导航层（Hub Pages）
                       
- [[用户视角]] ←────────── [[需求工具箱 Hub]]
- [[用户分层]] ←──────────       │
- [[场景推演]] ←──────────       │ links to all demand cards
- [[动机阻力]] ←──────────       │ + overview summary
+ 用户视角 ←────────── 需求工具箱 Hub
+ 用户分层 ←──────────       │
+ 场景推演 ←──────────       │ links to all demand cards
+ 动机阻力 ←──────────       │ + overview summary
                       
- [[内核边界]] ←────────── [[落地工具箱 Hub]]
- [[逻辑MECE]] ←──────────       │
- [[管理三段论]] ←─────────      │ links to all execution cards
+ 内核边界 ←────────── 落地工具箱 Hub
+ 逻辑MECE ←──────────       │
+ 管理三段论 ←─────────      │ links to all execution cards
 ```
 
 ### 原则
@@ -95,20 +95,20 @@ v1.0 方案要求将 ~60 份素材（85 张知识地图 + 12 份口述稿）按 
 
 | # | Hub Page | 链接的卡片群 | 现有材料 |
 |---|---------|------------|---------|
-| 1 | [[泛产品设计方法论 Hub]] | 三大工具箱 + 36计 + 三大修养 + 爬山地图 | 口述稿 5 份 |
-| 2 | [[需求工具箱 Hub]] | 13 张需求卡片 | 已有 [[yt-model-pan-product-demand-toolkit]] |
-| 3 | [[审美工具箱 Hub]] | 4 张审美卡片 | 已有 [[yt-model-pan-product-aesthetic-toolkit]] |
-| 4 | [[落地工具箱 Hub]] | 19 张落地卡片 | 已有 [[yt-model-pan-product-execution-toolkit]] |
-| 5 | [[一堂五步法 Hub]] | 画布卡 + 产品内核卡 + 指标卡 | 口述稿 |
-| 6 | [[SPIN销售法 Hub]] | SPIN 口述稿 | 已有 [[yt-entrepreneur-spin-selling]] |
-| 7 | [[Y模型实操 Hub]] | Y模型卡片 + 2 份口述 | 已有 |
-| 8 | [[科学学习IPO Hub]] | IPO模型卡 + 口述 | 已有 |
-| 9 | [[调研方法论 Hub]] | 调研口述 + 课程清单 | 已有 |
-| 10 | [[知识萃取方法论 Hub]] | 口述稿 | 已有 |
-| 11 | [[思维模型提炼 Hub]] | 口述稿 | 已有 |
-| 12 | [[个人成长地图 Hub]] | 个人地图 + 五步法 + 进步大地图 | 已有 |
-| 13 | [[转化率优化 Hub]] | 转化率触点 + 动力曲线 | 已有 |
-| 14 | [[婚礼项目管理 Hub]] | 婚礼规划卡 | 已有 |
+| 1 | 泛产品设计方法论 Hub | 三大工具箱 + 36计 + 三大修养 + 爬山地图 | 口述稿 5 份 |
+| 2 | 需求工具箱 Hub | 13 张需求卡片 | 已有 [[yt-model-pan-product-demand-toolkit]] |
+| 3 | 审美工具箱 Hub | 4 张审美卡片 | 已有 [[yt-model-pan-product-aesthetic-toolkit]] |
+| 4 | 落地工具箱 Hub | 19 张落地卡片 | 已有 [[yt-model-pan-product-execution-toolkit]] |
+| 5 | 一堂五步法 Hub | 画布卡 + 产品内核卡 + 指标卡 | 口述稿 |
+| 6 | SPIN销售法 Hub | SPIN 口述稿 | 已有 [[yt-entrepreneur-spin-selling]] |
+| 7 | Y模型实操 Hub | Y模型卡片 + 2 份口述 | 已有 |
+| 8 | 科学学习IPO Hub | IPO模型卡 + 口述 | 已有 |
+| 9 | 调研方法论 Hub | 调研口述 + 课程清单 | 已有 |
+| 10 | 知识萃取方法论 Hub | 口述稿 | 已有 |
+| 11 | 思维模型提炼 Hub | 口述稿 | 已有 |
+| 12 | 个人成长地图 Hub | 个人地图 + 五步法 + 进步大地图 | 已有 |
+| 13 | 转化率优化 Hub | 转化率触点 + 动力曲线 | 已有 |
+| 14 | 婚礼项目管理 Hub | 婚礼规划卡 | 已有 |
 
 ### Hub Page 模板
 
@@ -127,13 +127,13 @@ source_refs: ["10_raw/sources/xxx.md", ...]
 3-5 句话说明这个工具箱/方法论是什么，解决什么问题。
 
 ## 核心概念
-- [[概念卡 A]] — 一句话定位
-- [[概念卡 B]] — 一句话定位
+- 概念卡 A — 一句话定位
+- 概念卡 B — 一句话定位
 - ...
 
 ## 与一堂知识体系的关联
-- 属于 [[yt-model-pan-product-36-strategies|36计]] 的 X 场景层
-- 对练的是 [[yt-model-pan-product-three-virtues|三大修养]] 中的 Y
+- 属于 yt-model-pan-product-36-strategies|36计 的 X 场景层
+- 对练的是 yt-model-pan-product-three-virtues|三大修养 中的 Y
 
 ## Critique
 至少 1 条针对该工具箱整体的质疑。

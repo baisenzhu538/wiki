@@ -61,7 +61,7 @@ updated_at: '2026-06-16'
 
 ## 关联技能
 
-- [[self-organized-criticality]]
+- self-organized-criticality
 - [[sk-ai-purpose-bias-check]]
 
 ## 来源

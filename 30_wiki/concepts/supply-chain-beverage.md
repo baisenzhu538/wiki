@@ -14,20 +14,20 @@ source_refs:
 - 90_control/itingnao-kit/work/theme-supply-chain-beverage-summary.md
 - src_20260614_95352714
 tags:
-- "#beverage"
-- "#supply-chain"
-- "#catering-channel"
-- "#cost-optimization"
-- "#product-development"
-- "#itingnao"
+- '#beverage'
+- '#supply-chain'
+- '#catering-channel'
+- '#cost-optimization'
+- '#product-development'
+- '#itingnao'
 created_at: '2026-06-14'
-updated_at: '2026-06-14T16:09:18+00:00'
+updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: '2026-06-14'
 related:
-- "[[smart-medicine-cabinet-distribution]]"
-- "[[yt-unit-model-overview]]"
+- '[[smart-medicine-cabinet-distribution]]'
+- '[[yt-unit-model-overview]]'
 confidence: 0.65
 trust_level: medium
 ---
@@ -211,7 +211,7 @@ trust_level: medium
 
 ## 验证与参考
 
-- 主题摘要：[[90_control/itingnao-kit/work/theme-supply-chain-beverage-summary.md]]
+- 主题摘要：90_control/itingnao-kit/work/theme-supply-chain-beverage-summary.md
 - 原始引用（未纳入 source_refs）：`90_control/itingnao-kit/work/theme-supply-chain-beverage-summary.md`
 
 ---

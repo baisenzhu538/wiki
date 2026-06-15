@@ -18,7 +18,7 @@ trust_level: medium
 ---
 # 花总AMA精华摘要
 
-> 原文：[[yitang-huazong-ama-20250526]]
+> 原文：yitang-huazong-ama-20250526
 > 来源：一堂商业突破大航海 AMA 直播
 > 摘要生成时间：2026-05-29
 

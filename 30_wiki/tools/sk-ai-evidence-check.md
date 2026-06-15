@@ -73,7 +73,7 @@ AI的骗局不在于"说错话"——而在于"说的好像很对"。这个三�
 
 ## 关联技能
 
-- [[ai-coaching-loop]]
+- ai-coaching-loop
 - [[sk-ai-question-problem-checklist]]
 
 ## 来源

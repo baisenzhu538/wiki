@@ -129,8 +129,8 @@ trust_level: low
 | 上位 | [[concept-一堂-product-kernel]] | 三问是内核定义的质量检测工具 |
 | 前序 | [[skill-一堂-product-kernel-add-subtract]] | 加减法完成后才能做三问质检 |
 | 下位 | [[skill-一堂-five-step-validation]] | 三问通过后，用五步验证法进一步测试 |
-| 暗知识 | [[dk-一堂-premature-refinement-trap]] | 三问的核心目的之一是防止过早细化 |
-| 案例 | [[case-一堂-shampoo-kernel-validation]] | 洗发水项目通过三问找到真正内核的实例 |
+| 暗知识 | dk-一堂-premature-refinement-trap | 三问的核心目的之一是防止过早细化 |
+| 案例 | case-一堂-shampoo-kernel-validation | 洗发水项目通过三问找到真正内核的实例 |
 
 ## 来源
 

@@ -66,7 +66,7 @@ jpg` (no text detected) - 本文件由 PaddleOCR ONNX pipeline 自动提取 - �
 
 ### 与本库其他概念的关联
 
-- [[yt-decision-scientific-learning-ipo]] — 科学学习IPO完整清单提供了该模型的详细内容，本卡片可作为索引引用
+- yt-decision-scientific-learning-ipo — 科学学习IPO完整清单提供了该模型的详细内容，本卡片可作为索引引用
 
 ### 可迁移场景
 

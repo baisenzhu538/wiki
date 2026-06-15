@@ -297,9 +297,9 @@ March让共识冰山使用者睡不着觉的问题是：你最近一次真正重
 | 关联工具 | [[yt-decision-canvas]] | 共识讨论时使用的落地画布 |
 | 关联工具 | [[yt-decision-review]] | 共识执行后，用复盘工具验证假设、校准认知 |
 | 冲突概念 | [[yt-decision-height-toolkit]] | 高度工具中的"共识曲线"与本卡有重叠，但本卡聚焦"如何操作"而非"什么是对齐内容" |
-| 跨域连接 | [[psychological-safety-edmondson]] | L4信息层对齐的前提是团队心理安全——Edmondson研究证明心理安全是团队学习的先决条件 |
-| 跨域连接 | [[nonviolent-communication-rosenberg]] | 教练式提问中的"观察→感受→需要→请求"与NVC四要素在沟通结构上同源 |
-| 跨域连接 | [[facilitation-technology]] | 共识冰山的"教练式提问"与引导技术的"中立主持人"角色互补——前者由领导者执行，后者由第三方执行 |
+| 跨域连接 | psychological-safety-edmondson | L4信息层对齐的前提是团队心理安全——Edmondson研究证明心理安全是团队学习的先决条件 |
+| 跨域连接 | nonviolent-communication-rosenberg | 教练式提问中的"观察→感受→需要→请求"与NVC四要素在沟通结构上同源 |
+| 跨域连接 | facilitation-technology | 共识冰山的"教练式提问"与引导技术的"中立主持人"角色互补——前者由领导者执行，后者由第三方执行 |
 | 跨模块连接 | [[yt-management-scientific-decision]] | 管理模块的会议设计为共识冰山提供结构化会议流程（如六顶思考帽、世界咖啡） |
 
 

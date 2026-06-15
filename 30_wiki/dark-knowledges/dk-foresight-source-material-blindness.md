@@ -71,4 +71,4 @@ updated_at: '2026-06-16'
 ## Synthesis
 
 - [[dk-note-rookie-disaster-veteran-heaven]] — 同一个模式的另一个案例：新手按文件名找 vs 老兵按内容找
-- [[dk-yt-checklist-max-common-divisor]] — AI和人类在素材处理上的分工：AI更适合做"全量内容搜索"这类不怕累的活
+- dk-yt-checklist-max-common-divisor — AI和人类在素材处理上的分工：AI更适合做"全量内容搜索"这类不怕累的活

@@ -44,7 +44,7 @@ trust_level: medium-high
 ---
 # 一堂个人地图：高潜力成长者修炼全景图
 
-> 来源：一堂《个人地图：高潜力成长者修炼全景图》。[[一堂]] | [[yt-model-progress-map]] | [[yt-system-course-catalog#个人必修]]
+> 来源：一堂《个人地图：高潜力成长者修炼全景图》。[[一堂]] | [[yt-model-progress-map]] | yt-system-course-catalog#个人必修
 
 ## Summary
 
@@ -136,7 +136,7 @@ trust_level: medium-high
 | 关联框架 | [[yt-model-progress-map]] | 无限进步大地图（总图） |
 | 关联框架 | [[yt-model-y-organization]] | Y 模型（底层逻辑） |
 | 关联框架 | [[yt-model-ipo-learning-strategy]] | IPO 全景策略图（迭代层核心方法） |
-| 关联 | [[yt-system-course-catalog#个人必修]] | 个人必修课程目录 |
+| 关联 | yt-system-course-catalog#个人必修 | 个人必修课程目录 |
 | 实体页 | [[一堂]] | 一堂实体页 |
 
 ### 不要用的场景

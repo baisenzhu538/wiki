@@ -77,7 +77,7 @@ Marshall McLuhan 在《理解媒介》中证明："媒介即讯息"——传播�
 ### 与本库其他概念的关联
 
 - [[yt-decision-y-model]] — 十指模型的完整版本，提供了更详细的十个维度解释
-- [[yt-decision-expressive-rocket]] — 表达力火箭模型与十指模型在"营销表达"领域形成互补
+- yt-decision-expressive-rocket — 表达力火箭模型与十指模型在"营销表达"领域形成互补
 
 ### 可迁移场景
 

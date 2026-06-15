@@ -17,7 +17,7 @@ tags:
 - '#membership'
 - '#domain/yitang'
 created_at: '2026-06-15'
-updated_at: '2026-06-15'
+updated_at: '2026-06-16'
 author: 孔阳
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，线下连锁健身续卡案例（持续复购型）
@@ -30,8 +30,8 @@ related:
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-entrepreneur-unit-model]]'
+- null
 ---
-
 # 线下连锁健身：把“到店频率”变成“到店习惯”才是续卡率抓手
 
 > 一堂业务公式拆解培训案例：20 家门店、月 GMV 600 万、会员续卡率 35% 的连锁健身房，目标续卡率提升到 50%。团队把“到店频率”“私教购买率”等与续卡率的相关关系当成因果，拼命提升满意度，却忽略了真正该做的是把“到店频率”变成“到店习惯”。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。
