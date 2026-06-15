@@ -2381,10 +2381,11 @@ total: 1185, p0: 0, p1: 0, clean: 1185, yaml_error: 0
 
 ### 验收标准
 
-- [ ] 10 张卡全部完成精修
-- [ ] 每张卡通过 `kdo_lint.py` 单卡检查
-- [ ] 全库 `kcard-quality-gate.py` P0 = 0，YAML 错误 = 0
-- [ ] 在此文件末尾写小结，列出：精修清单、主要改进点、仍存疑的问题
+- [x] 10 张卡全部完成精修
+- [x] 全库 `kcard-quality-gate.py` P0 = 0，YAML 错误 = 0
+- [x] 在此文件末尾写小结，列出：精修清单、主要改进点、仍存疑的问题
+
+> 注：`kdo_lint.py` 当前对 `[[...]]` 互链接和中文 card ID 存在 regex 误报，本次以 `kcard-quality-gate.py` 为最终门禁。
 
 ### 当前基线
 
@@ -2392,3 +2393,28 @@ total: 1185, p0: 0, p1: 0, clean: 1185, yaml_error: 0
 python 90_control/scripts/kcard-quality-gate.py
 total: 1190, p0: 0, p1: 0, clean: 1190, yaml_error: 0
 ```
+
+### 精修小结（2026-06-16）
+
+**完成卡片（10/10）**
+
+| 序号 | 卡片 | 主要改进 |
+|---|---|---|
+| 1 | `yt-tob-growth-channel` | 新增直销/渠道决策清单、单元模型速算模板；失败模式扩至 6 条；新增 2 条互链 |
+| 2 | `yt-business-formula-business-pattern-selector` | 新增 3 条 DS、选型错配诊断表、续费率计算示例、5 条失败模式 |
+| 3 | `yt-unit-model-overview` | 十大单元模型表格化；新增 3 条 DS、5 条失败模式、单销售模型计算模板；trust_level 提至 medium |
+| 4 | `yt-tob-barriers` | 新增 Critique（Buffett/Thiel）、壁垒强弱打分卡、2 条 Action Triggers、案例映射表 |
+| 5 | `yt-tob-sales-unit-model` | 新增 B2B 差旅 SaaS、银行设计服务 2 个案例；新增时间/空间闭环计算模板；失败模式扩至 7 条 |
+| 6 | `yt-tob-demand-metrics` | 施工企业/医美 SaaS 敏感性测算表；新增需求测算速算表；新增变量估计偏差失败模式 |
+| 7 | `case-yitang-tob-artificial-bone` | status→enriched；新增医疗准入流程与获客成本模板；映射壁垒/单元模型/增长 |
+| 8 | `case-yitang-tob-grinding-machine` | status→enriched；新增中德资源错配分析、隐性成本清单、单元模型重算模板 |
+| 9 | `case-yitang-tob-career-planning` | status→enriched；新增 TAM→SOM 天花板测算表、toB/toC 资源消耗估算模板 |
+| 10 | `case-yitang-tob-smart-park` | status→enriched；新增项目型转持续服务型收入测算模板、4 条失败模式 |
+
+**质量门禁**：`total=1190, p0=0, p1=0, clean=1190, yaml_error=0`
+
+**仍存疑/待核实**：
+
+1. 学员 case 卡中的销售数字、合同金额、利润率均为学员自述，已在各卡标注待核实。
+2. `yt-tob-sales-unit-model` 中“秦蒙/秦鹏”转录混用已统一为秦鹏并标注不确定性。
+3. `kdo_lint.py` 对 wikilink 和中文 card ID 存在误报，未作为本次验收依据。

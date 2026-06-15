@@ -25,6 +25,7 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-tob-sales-unit-model]]'
+- '[[yt-business-formula-business-pattern-selector]]'
 - '[[master-decision-hygiene]]'
 - '[[master-first-principles]]'
 diagnostic_signals:
