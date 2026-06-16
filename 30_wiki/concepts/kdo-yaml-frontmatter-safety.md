@@ -11,6 +11,7 @@ target_roles:
 - 黄药师（Builder）
 - 欧阳锋（Architect）
 related:
+- '[[dk-c2-dual-status-machine]]'
 - '[[fix-data-curator-parse-bug]]'
 - '[[gold-standard-manual-labels]]'
 pipeline:
@@ -173,6 +174,7 @@ def check_roundtrip(metadata: dict) -> list[str]:
 
 - `30_wiki/decisions/fix-data-curator-parse-bug` — 原始 bug 报告与修复方案
 - `30_wiki/decisions/gold-standard-manual-labels` — 受影响的案例
+- [[dk-c2-dual-status-machine]] — Schema `status` 字段混用两个状态机的暗知识，提醒 frontmatter 字段语义设计同样属于 YAML 安全范畴
 
 ---
 

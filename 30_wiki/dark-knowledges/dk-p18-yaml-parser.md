@@ -13,6 +13,7 @@ source_refs:
 created_at: 2026-06-03
 updated_at: '2026-06-16'
 related:
+- '[[dk-c2-dual-status-machine]]'
 - '[[kdo-yaml-frontmatter-safety]]'
 - '[[master-first-principles]]'
 pipeline:
@@ -90,6 +91,7 @@ trust_level: low
 
 ## 与其他知识的关联
 
+- [[dk-c2-dual-status-machine]] — 同一领域：frontmatter 中 `status` 字段被两个状态机共用，说明对 frontmatter 的轻率语义设计同样会级联放大
 - dk-f13-handwritten-yaml-parser — F-KDO-013 是同一问题的早期版本
 - dk-p11-regex-cutoff — P-11 是同一类问题在 Markdown 解析上的表现
 - `30_wiki/decisions/fix-data-curator-parse-bug.md` — 修复决策记录
