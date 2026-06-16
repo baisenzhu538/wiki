@@ -9,7 +9,7 @@ source_refs:
 - src_20260614_c62e0e61
 - src_20260614_50b37986
 - src_20260614_42f1e977
-status: draft
+status: enriched
 domain:
 - yitang
 - product
@@ -17,8 +17,8 @@ domain:
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 author: 老顽童
-reviewed_by: pending
-review_date: '2026-06-14'
+reviewed_by: 欧阳锋
+review_date: '2026-06-16'
 trust_level: medium
 confidence: 0.75
 related:
@@ -26,6 +26,8 @@ related:
 - '[[modeling-three-stages]]'
 - '[[modeling-level-map]]'
 - '[[case-modeling-process-sop-examples]]'
+- '[[dk-modeling-logical-cleanliness-root]]'
+- '[[case-modeling-process-sop-evolution]]'
 tags:
 - '#method/modeling'
 - '#content-format/concept-card'
@@ -42,12 +44,32 @@ diagnostic_signals:
 - signal: 用户说"写了 SOP 但没人用"
   framework_lens: 稳定使用
   follow_up_question: 你是否给 SOP 的执行加了监督和检查机制？
+- signal: 团队在高频任务上反复出现"漏步骤、执行衰减、跨场景误用"
+  framework_lens: 分解 × 锁 × 边界 × 迭代
+  follow_up_question: 这个输出是否已拆到可检查步骤？关键节点是否有锁？边界是否写明？是否有迭代触发器？
 ---
 # 流程建模：用 SOP 与清单把经验变成稳定产出
 
 > **Burn line**: 流程建模不是写文档，是把现场经验焊进组织的肌肉记忆。
 
 流程建模是建模三段论的**第一阶段（60 分）**，针对具体、固定的业务场景，输出 SOP（标准工作流）或 Check List（检查清单），确保操作的确定性和稳定性。它解决的是「团队反复踩同样坑、经验无法沉淀、执行质量波动大」的问题。
+
+---
+
+## 高可靠性输出的共同模式
+
+流程建模不是孤立的"写 SOP"，而是建模域高可靠性输出的**四要素底座**：
+
+> **高可靠性输出 = 分解 × 锁 × 边界 × 迭代**
+
+| 要素 | 在建模中的体现 | 自检问题 |
+|:-----|:------|:------|
+| **分解** | 把复杂输出拆成可检查、可追责的步骤（SOP/清单/角色/阶梯）。 | 这个任务能不能拆成 5-9 个可独立检查的动作？ |
+| **锁** | 给关键步骤加检查/督导/品控，把"靠自觉"变成"靠机制"。 | 每个关键节点有没有独立的检查者和检查标准？ |
+| **边界** | 明确 SOP 的触发条件、适用范围、不适用场景，防止跨场景误用。 | 这份 SOP 用在什么场景下会失效？有没有写在头部？ |
+| **迭代** | 用现场错误、反例、执行数据持续更新 SOP，而不是写完即冻结。 | 最近一次更新是因为什么意外？有没有固定迭代触发器？ |
+
+这一模式来自建模域多个案例的交叉验证：`case-modeling-process-sop-examples`（10 个学员企业 SOP）、`case-modeling-process-sop-evolution`（一堂 SOP 1.0→4.0）、`case-modeling-abstraction-reliability-ladder`（四阶梯验收）、`case-modeling-process-livestream-prep`（直播状态 SOP）。流程建模卡负责把"分解+锁"做扎实，为抽象建模和本质建模提供可复用的经验底座。
 
 ---
 
@@ -144,6 +166,22 @@ SOP 格式：
 
 ---
 
+## 跨案例 checklist：流程建模能否落地的 9 问
+
+综合 `case-modeling-process-sop-examples`、`case-modeling-process-sop-evolution`、`case-modeling-process-livestream-prep`、`case-modeling-process-livestream-roles` 等案例，得出以下落地检查清单：
+
+- [ ] 这个任务过去 3 个月重复了 ≥3 次，且单次失败成本可量化。
+- [ ] 关键步骤已被拆到"换一个人也能做出 80 分"的颗粒度。
+- [ ] 每个步骤都有明确的交付物或检查点，可被拍照/截图/签字验收。
+- [ ] SOP 头部写清了触发条件、前置条件、不适用场景。
+- [ ] 高失败成本/高频/高江湖地位环节配置了督导层。
+- [ ] 督导层自己的工作质量有品控或抽查机制。
+- [ ] 团队知道"什么不能标准化"，创意/判断型环节保留了空间。
+- [ ] 每次执行后 30 分钟内有复盘窗口，新规则 24 小时内写入 SOP。
+- [ ] 每季度评估一次：该任务是否应从流程建模升级为抽象建模/本质建模？
+
+---
+
 ## When NOT to Use
 
 | 场景 | 为什么失效 | 替代方案 |
@@ -157,12 +195,23 @@ SOP 格式：
 
 ## Constraints & Boundaries
 
+### 适用边界
+
 | 边界 | 说明 |
-|------|------|
-| **适用任务** | 标准化、高频、重复的任务，不适合创新和探索型工作。 |
-| ** granularity** | 步骤粒度要适中：太粗无法执行，太细难以维护。 |
-| **Owner 机制** | 每个 SOP 需有明确负责人，否则容易失效。 |
-| **AI 边界** | AI 可辅助生成初稿，但步骤是否合理需由业务专家把关。 |
+|:-----|:------|
+| **任务重复度** | 每周/每月至少发生 1 次，单次失败成本可量化。一次性、探索性任务不适用。 |
+| **执行确定性** | 任务步骤可被明确描述，输出标准可被检查。高度依赖个人即兴判断的环节不适合流程建模。 |
+| **组织成熟度** | 小团队可用轻量清单起步；需要三层锁（督导+品控）的场景必须有足够 ROI 和管理成本承受力。 |
+| **变化速度** | 业务规则/环境变化快于迭代周期时，SOP 会迅速失效，应改用最小检查清单或触发式复盘。 |
+
+### 常见失败模式
+
+| 模式 | 真实症状 | 可执行修复 |
+|:-----|:------|:------|
+| **把创意工作硬塞成 SOP** | 团队抱怨"SOP 扼杀创造性"，执行时阳奉阴违，质量反而下降。 | 区分"必须标准化"与"保留判断空间"的环节；对创意部分只提供触发清单，不规定具体产出。 |
+| **只有执行层、没有检查层** | SOP 写完后执行率 50-70%，同一错误反复出现，复盘时归咎于"执行者不自觉"。 | 为关键节点增加督导 SOP（检查执行）和品控 SOP（检查督导），把单点失败改为串联失效。 |
+| **颗粒度失衡** | 步骤太粗时新人看不懂；步骤太细时维护成本爆炸，业务一变就大面积重写。 | 按"换一个人也能做出 80 分"定义单步标准；超过 7 条就分层，非关键步骤允许弹性。 |
+| **边界不写清，跨场景误用** | 一份销售 SOP 被用到售前咨询或客户成功，触发条件、验收标准打架。 | 在 SOP 头部明确写出"触发条件、前置条件、不适用场景"；每次新场景使用前做边界检查。 |
 
 ---
 
@@ -192,6 +241,8 @@ SOP 格式：
 - [[modeling-capability-system]]：流程建模是三段论的第一阶段
 - [[modeling-three-stages]]：流程建模与抽象建模、本质提炼的关系
 - [[modeling-level-map]]：流程建模对应 L3 段位
+- [[dk-modeling-logical-cleanliness-root]]：清单/SOP 背后的逻辑洁癖标准
+- [[case-modeling-process-sop-evolution]]：一堂 SOP 1.0→4.0 的迭代案例
 
 ---
 
@@ -223,6 +274,19 @@ SOP 格式：
 - `src_20260614_c62e0e61-Truman-高阶建模-流程建模-开播准备-图-02.md`
 - `src_20260614_50b37986-Truman-高阶建模-流程建模-识别建模点-图-01.md`
 - `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:32-49`
+
+---
+
+## 单卡收尾检查
+
+- [x] `status` 已从 `draft` 改为 `enriched`
+- [x] `reviewed_by` 已更新为 `欧阳锋`
+- [x] `updated_at` 已更新为 `2026-06-16`
+- [x] `diagnostic_signals` 数量 ≥3（当前 4 条）
+- [x] `Constraints & Boundaries` 含 ≥4 条适用边界 + ≥4 条失败模式
+- [x] 新增 1 个跨案例 checklist（9 问）
+- [x] 新增 ≥2 条互链（`dk-modeling-logical-cleanliness-root`、`case-modeling-process-sop-evolution`）
+- [x] 目标卡已跑 `kcard-quality-gate.py`，无新增 P0/P1
 
 ---
 

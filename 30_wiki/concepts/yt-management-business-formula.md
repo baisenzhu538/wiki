@@ -36,6 +36,7 @@ related:
 - '[[yt-model-management-map]]'
 - '[[yt-management-scientific-decision]]'
 - '[[yt-management-goal-management]]'
+- '[[yt-management-basic-skills]]'
 updated_at: 2026-06-16
 id: yt-management-business-formula
 author: 老顽童
@@ -304,6 +305,7 @@ Weick 称之为"enactment"——你用的测量工具不仅描述现实，它改
 - [[yt-entrepreneur-unit-model]] — 单元模型：创业版业务公式，聚焦最小交易单元的经济可行性（LTV/CAC/回本周期）
 - [[yt-entrepreneur-key-hypotheses]] — 关键假设：业务公式中的每一个变量关系本质上都是一个待验证的假设
 - [[yt-model-management-map]] — 管理修炼地图：业务公式位于 L4"管业务"的核心模块，是管理者从"带团队"跨越到"管业务"的关键能力
+- [[yt-management-basic-skills]] — 管理基本功认知：业务公式是"管理工具落地四问"中"数据可验证"的核心载体——任何管理工具引入前，必须先确认其指标能拆到 L3/L4 行为数据
 - [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：业务公式是管理者的"认知武器"——它不是用来替代判断的，而是用来在不确定时快速定位关键变量的速查工具
 - [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：业务公式的最终价值不在"算对"而在"讲清"——向团队讲清业务逻辑、向投资人讲清增长驱动。能用一张公式讲清楚业务本质，是最重要的 CEO 表达力
 - [[yt-business-formula-abc-model]] — ABC 模型：业务公式的极简构造语法（目标 + 参数 + 逻辑关系）

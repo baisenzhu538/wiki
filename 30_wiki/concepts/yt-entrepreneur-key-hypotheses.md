@@ -23,6 +23,7 @@ query_triggers:
 related:
 - '[[yt-model-entrepreneur-map]]'
 - '[[yt-panproduct-execution-hypothesis-decomposition]]'
+- '[[yt-entrepreneur-lean-validation]]'
 - '[[master-antifragile-checklist]]'
 - '[[master-systems-thinking]]'
 review_date: 2026-06-06

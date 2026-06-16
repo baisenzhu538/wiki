@@ -19,6 +19,7 @@ related:
 - '[[modeling-capability-system]]'
 - '[[yt-unit-model-ladder]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
+- '[[process-modeling]]'
 tags:
 - '#chunk-type/synthesis'
 - '#domain/yitang'

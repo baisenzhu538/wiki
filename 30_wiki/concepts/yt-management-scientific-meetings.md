@@ -31,6 +31,8 @@ trust_level: medium-low
 source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+related:
+- "yt-management-basic-skills"
 ---
 # 科学开会
 
