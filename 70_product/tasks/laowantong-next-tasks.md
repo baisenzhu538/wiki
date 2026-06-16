@@ -3084,3 +3084,22 @@ total: 1190, p0=0, p1=0, clean=1190, yaml_error: 0
 **仍存疑的问题**：
 - 批次 6 其余 4 张暗知识卡中，`dk-modeling-logical-cleanliness-root`、`dk-modeling-checklist-formatting-rules` 仍为 draft，需要继续精修。
 - 本次仅操作了目标卡 `dk-modeling-course-rnd-ripe-fruit`，未对同批次其他卡做改动。
+
+---
+
+### 第二十节批次 6 进度记录：`dk-modeling-checklist-formatting-rules` 深度精修完成
+
+**完成时间**：2026-06-16  
+**质量门禁**：`total=1190, p0=0, p1=0, clean=1190, yaml_error: 0`
+
+| 序号 | 卡片 ID | 当前状态 | 本次操作 |
+|:----:|:--------|:--------:|:---------|
+| 29 | `dk-modeling-checklist-formatting-rules` | ✅ enriched | 新增 frontmatter diagnostic_signals 4 条（Signal→Lens→Follow-up）；新增「清单体格式错误前后对比」4 组；新增「清单体四规则自检清单」10 项；适用边界表格化并扩至 6 条；失败模式扩至 6 条并附真实症状+可执行修复；建立 2 条新互链 `yt-note-checklist-concept`、`case-truman-prd-checklist-evolution`（双向）；status→enriched；reviewed_by→欧阳锋；updated_at→2026-06-16 |
+
+**本卡可提炼的暗知识/反常识**：
+1. **AI 能生成"看起来像清单"的输出，但不会自动满足"换行、分层、优先级、完备"四规则**——在 AI 时代，人的清单体格式审计能力反而变得更值钱。
+2. **清单体不是排版审美，而是组织把"个人能力"变成"组织能力"的最小接口**；一份格式不合格的清单，会让督导、品控、AI 调用全部失效。
+
+**仍存疑的问题**：
+- `dk-modeling-logical-cleanliness-root` 仍为 draft，需继续精修。
+- `yt-note-checklist-concept` 当前 `author: unknown`、`trust_level: low`，建议后续认领或校对。

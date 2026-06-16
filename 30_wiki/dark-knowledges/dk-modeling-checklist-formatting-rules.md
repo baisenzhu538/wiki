@@ -25,7 +25,7 @@ tags:
 - '#method/modeling'
 - '#method/sop'
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 diagnostic_signals:
