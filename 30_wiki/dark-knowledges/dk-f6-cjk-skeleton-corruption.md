@@ -14,6 +14,7 @@ created_at: 2026-05-31
 updated_at: '2026-06-16'
 related:
 - '[[dk-f1-regex-on-cjk]]'
+- '[[dk-c1-cjk-regex-silent-fail]]'
 - '[[master-ai-info-literacy]]'
 pipeline:
 - confidence-draft

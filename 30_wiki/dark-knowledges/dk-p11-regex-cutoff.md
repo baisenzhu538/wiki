@@ -15,6 +15,7 @@ updated_at: '2026-06-16'
 related:
 - '[[master-first-principles]]'
 - '[[kdo-yaml-frontmatter-safety]]'
+- '[[dk-f1-regex-on-cjk]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

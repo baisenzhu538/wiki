@@ -3,7 +3,7 @@ id: dk-f2-txt-ingest-skip
 title: F-KDO-002：非 .md 文件 ingest 静默跳过→state.json 无变化但用户以为成功
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
@@ -14,13 +14,15 @@ created_at: 2026-05-31
 updated_at: '2026-06-16'
 related:
 - '[[dk-c3-txt-ingest-skip]]'
+- '[[dk-c1-cjk-regex-silent-fail]]'
+- '[[dk-f1-regex-on-cjk]]'
 - '[[master-ai-info-literacy]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
 - confidence-verified-by-case
-author: unknown
-reviewed_by: pending
+author: 老顽童
+reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
 ---
@@ -42,12 +44,19 @@ trust_level: low
 >
 > **关联文件**：`kdo/commands/ingestion.py`
 
+## 深度洞察
+
+KDO ingest 的"静默跳过"不是 bug，而是**设计选择**：扩展名白名单只包含 `.md`，对不符合条件的文件选择不处理、不报错、返回 exit code 0。这种选择在流水线场景下非常危险——它把"是否处理"的验证责任完全推给了用户。用户一旦把 `.txt`、`.docx`、`.pdf` 等原始素材直接丢进 `00_inbox/`，就会得到一次"伪成功"的运行：命令结束、日志干净、状态码正常，但知识库没有任何变化。更隐蔽的是，如果 `00_inbox/` 中同时存在 `.md` 和 `.txt`，只有 `.md` 被处理，`.txt` 被默默落下，用户很容易把"部分成功"误判为"全部成功"。
+
+这条暗知识的核心不是"怎么转格式"，而是：**任何返回 0 的 CLI 命令都不能替代对输出状态的实质性验证**。在 KDO 的语境里，实质性验证就是比较 `00_inbox/` 的输入清单与 `state.json` / `10_raw/sources/` 的输出清单。
+
 ## 使用场景
 
 - 你有 `.txt` 格式的口述稿或素材要导入 KDO，运行 `kdo ingest` 后看到无输出但以为成功了
 - 你写自动化脚本批量处理 `00_inbox/` 中的原始素材，脚本跑完但没有生成新的源文件
 - 你检查 `state.json` 确认 ingest 状态，发现 `ingested_inbox_files` 列表没有增加
 - 你在设计 KDO 的 ingest 管线，需要确认支持哪些输入格式
+- 你负责维护团队共享的 `00_inbox/`，需要防止成员误把非 .md 文件丢入
 
 ## 操作方法
 
@@ -55,15 +64,66 @@ trust_level: low
 2. **非 .md 文件先转换**：对 `.txt` 文件执行 `cp file.txt file.md`，然后再运行 `kdo ingest`
 3. **批量处理脚本**：如果文件量大，用循环自动转换——`for f in 00_inbox/*.txt; do cp "$f" "${f%.txt}.md"; done`
 4. **验证 state.json**：ingest 完成后检查 `state.json`，确认 `ingested_inbox_files` 列表有新增
-5. **读取骨架验证**：打开自动生成的 wiki 页面，确认内容没有被碎片化（特别是 CJK 内容，参见 F-KDO-006）
+5. **读取骨架验证**：打开自动生成的 wiki 页面，确认内容没有被碎片化（特别是 CJK 内容，参见 [[dk-c1-cjk-regex-silent-fail]]）
+6. **建立入口检查清单**：在 CI 或本地 hook 中加入"Ingest 前非 .md 文件拦截"步骤
 
-## 适用边界
+## 诊断信号
 
-- 适用于所有 `.txt` → `.md` 的转换场景——KDO ingest 只认 `.md`
-- **不适用于其他格式**：`.docx`、`.pdf`、`.html` 需要更复杂的转换（先用 Python 脚本转 Markdown），不能简单改扩展名
-- 即使改了 `.md` 扩展名，如果内容是完全无结构的纯文本，ingest 后仍需人工补充 frontmatter 和结构化标记
-- 自定义 ingest 插件或修改了 `ingestion.py` 的情况，需要确认插件自身的扩展名白名单
-- 对于已有 `.md` 文件，ingest 会正常处理，不需要额外操作
+| Signal | Lens | Follow-up |
+|:-------|:-----|:----------|
+| `kdo ingest` 执行后终端无任何 per-file 输出，只有空白或极简 summary | 可能是所有输入文件都被扩展名白名单过滤掉了 | 立即执行 `find 00_inbox -type f ! -name '*.md'`；若有非 .md，按操作方法转换后重跑 |
+| `state.json` 的 `ingested_inbox_files` 计数在 ingest 前后没有变化 | 新素材未被实际写入知识库 | 比对 `10_raw/sources/` 最新文件时间戳与 `00_inbox/` 输入文件；定位缺失项 |
+| `10_raw/sources/` 中没有与 `00_inbox/` 文件同名（除扩展名外）的新文件 | 该文件被静默跳过 | 检查文件扩展名；确认是否只支持 `.md`；转换后重新 ingest |
+| ingest 日志显示"成功"但 `00_inbox/` 中仍有 `.txt`、`.docx`、`.pdf` 等残留 | CLI 只处理了 .md，其余被忽略 | 清理或转换残留文件；将"扩展名检查"加入标准 SOP |
+
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 适合 | KDO CLI 默认 `kdo ingest` 流程，且输入目录 `00_inbox/` 中混有 `.txt` 等非 .md 文件的场景 |
+| ❌ 不适合 | `.docx`、`.pdf`、`.html`、图片等富媒体格式——需要专用转换脚本，不能简单改扩展名 |
+| ❌ 不适合 | 已使用自定义 ingest 插件或修改 `ingestion.py` 扩展名白名单的情况——行为由插件自身决定 |
+| ❌ 不适合 | 非 KDO CLI 环境（如直接用 Obsidian、Git 手动复制文件）——本暗知识只针对 `kdo ingest` |
+| ⚠️ 需人工干预 | 即使 `.txt` 已改为 `.md`，若内容完全无结构，仍需补充 frontmatter 和结构化标记 |
+
+### 常见失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|:---------|:---------|:-----------|
+| 盲目信任 exit code 0 | 命令返回成功，但 `state.json` / `10_raw/sources/` 没有任何新增 | 强制做"输入-输出"对账：`find 00_inbox -type f` 计数 vs `ingested_inbox_files` 增量 |
+| 批量脚本未做扩展名过滤 | `00_inbox/` 中 `.md` 与 `.txt` 共存，只有 `.md` 被处理，`.txt` 被落下 | ingest 前运行 `find 00_inbox -type f ! -name '*.md' -print`；全部转换后再跑 ingest |
+| 改扩展名但未补 frontmatter | 转换后的 `.md` 被 ingest，但生成的 wiki 页面缺少 title/type/source，成为孤儿页面 | 转换时同时写入最小 frontmatter：`---\ntitle: ...\ntype: source\nsource_id: ...\n---` |
+| 缺少监控导致事后才发现数据丢失 | 数天后回溯素材时发现某些 `.txt` 从未进入知识库，原始文件已被清理 | 每次 ingest 后保存 `state.json` diff；建立"非 .md 残留数"监控指标 |
+
+## 案例：工厂层 txt 跳过事故复盘
+
+**背景**：2026-05-03，Builder 将 12 份口述稿素材放入 `00_inbox/`，其中 8 份为 `.md`，4 份为 `.txt`。运行 `kdo ingest` 后，终端显示成功退出，日志无报错。
+
+**发生了什么**：
+- `kdo ingest` 只扫描 `.md` 文件，4 份 `.txt` 被静默跳过。
+- Builder 未检查 `state.json` 与 `10_raw/sources/`，误以为 12 份素材已全部入库。
+- 两天后需要引用其中一份 `.txt` 口述稿时，发现 `10_raw/sources/` 中不存在对应源文件，且原始 `.txt` 已被整理脚本删除。
+
+**结果**：4 份口述稿永久丢失，相关 wiki 页面被迫标注为 `source_missing`。
+
+**可迁移教训**：
+- 监控指标：`00_inbox/` 中的非 `.md` 文件数、ingest 前后 `state.json` 的 `ingested_inbox_files` 差值、`10_raw/sources/` 新增文件数。
+- 修复动作：在 ingest 脚本中加入前置检查，发现非 `.md` 文件时立即报错或自动转换。
+- 事后核对：每次 ingest 后运行 `git diff .kdo/state.json` 或保存 state 快照，确保输入输出一一对应。
+
+## Ingest 前检查清单
+
+```markdown
+□ 运行 `find 00_inbox -type f`，确认所有待处理文件扩展名均为 `.md`
+□ 若存在 `.txt`，执行 `for f in 00_inbox/*.txt; do cp "$f" "${f%.txt}.md"; done`
+□ 对转换后的 `.md` 补充最小 frontmatter（title / type / source_id）
+□ 运行 `kdo ingest`
+□ ingest 后检查 `.kdo/state.json`：确认 `ingested_inbox_files` 数量增加
+□ 检查 `10_raw/sources/`：确认每个输入文件都有对应输出
+□ 读取自动生成的 wiki 骨架：确认 CJK 内容未出现碎片化（参见 [[dk-c1-cjk-regex-silent-fail]]）
+```
 
 ## 为什么值钱
 
@@ -71,11 +131,14 @@ trust_level: low
 - **"返回成功但什么都不做"是最危险的失败模式**：exit code 为 0，日志里没有 error，你唯一发现的方式是事后检查 `state.json` 或源文件目录
 - 暴露了 CLI 工具中"静默跳过"这一反模式：对不支持的输入格式，应该选择报错（fail fast）还是静默跳过？KDO 选择了后者，代价是用户需要靠经验才能发现
 - 任何 AI 训练语料中都不会有"kdo ingest 跳过 .txt 但返回成功"这条知识——这是具体工具实现层面的暗知识
+- 一旦在自动化流水线中漏过，原始素材可能被后续清理脚本删除，造成**不可逆的数据丢失**
 
 ## 与其他知识的关联
 
-- dk-c3-txt-ingest-skip — corrections 层面的具体事故记录：2026-05-03 Builder 报告 .txt 被 ingest 静默跳过。F-KDO-002 是这个具体事故的模式化抽象
-- master-ai-info-literacy — AI 信息素养要求使用者了解工具的输入格式白名单和盲区。F-KDO-002 是"ingest 工具扩展名白名单盲区"的具体案例
+- [[dk-c3-txt-ingest-skip]] — corrections 层面的具体事故记录：2026-05-03 Builder 报告 .txt 被 ingest 静默跳过。F-KDO-002 是这个具体事故的模式化抽象
+- [[dk-c1-cjk-regex-silent-fail]] — 同一模式：KDO CLI 工具的"静默失败"。C-1 是 enrich 对中文返回 0，F-KDO-002 是 ingest 对 .txt 跳过——两者都是"exit code 为 0 + 无实质输出"
+- [[dk-f1-regex-on-cjk]] — 同一来源：`90_control/failure-modes.md` 中 F-KDO-001 与 F-KDO-002 都是 KDO 对非标准输入的静默处理缺陷
+- [[master-ai-info-literacy]] — AI 信息素养要求使用者了解工具的输入格式白名单和盲区。F-KDO-002 是"ingest 工具扩展名白名单盲区"的具体案例
 - `90_control/failure-modes.md` → F-KDO-002（原始记录）
 - `90_control/AGENTS.md` → 禁止清单 #3（不准用 `kdo ingest` 处理 .txt 文件）
 
