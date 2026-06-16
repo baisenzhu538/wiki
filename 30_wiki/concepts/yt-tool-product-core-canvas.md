@@ -23,6 +23,8 @@ query_triggers:
 related:
 - '[[yt-five-step-implementation]]'
 - '[[yt-model-five-step-canvas]]'
+- '[[case-一堂-AI高考志愿-kernel-mismatch]]'
+- '[[dk-一堂-wishful-thinking-kills-startups]]'
 review_date: 2026-06-06
 source_refs:
 - src_20260510_1eb77650
@@ -30,7 +32,7 @@ status: enriched
 title: 产品内核画布与九大原则
 trust_level: medium
 type: tool
-version: 1
+version: 2
 yitang:
   map: entrepreneur
   module: 产品内核
@@ -39,6 +41,7 @@ yitang:
   level: foundational
 pipeline:
 - confidence-source-cited
+- confidence-verified-by-case
 diagnostic_signals:
 - signal: 画布四格是否都基于用户视角而非创始人偏好
   framework_lens: 用户中心 / 取舍权
@@ -54,6 +57,7 @@ diagnostic_signals:
   follow_up_question: 画布讨论后是否停留在可视化而不进入验证？
 updated_at: '2026-06-16'
 author: 老顽童
+reviewed_by: 老顽童
 ---
 # 产品内核画布与九大原则
 
