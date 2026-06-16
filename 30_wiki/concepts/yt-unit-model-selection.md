@@ -59,7 +59,7 @@ diagnostic_signals:
   framework_lens: 选错了颗粒度——订单数/客户数平均值掩盖了高利润与亏损单元并存
   follow_up_question: 你的订单按毛利率分成高/中/低三档，各占多少比例？高利润订单和低利润订单的用户画像有什么不同？
 author: 老顽童
-reviewed_by: 老顽童
+reviewed_by: 欧阳锋
 ---
 # 单元模型选择法：复制哪个算哪个，找到核心经济单元
 

@@ -3,8 +3,8 @@
 **扫描时间**：2026-06-15  
 **扫描范围**：30_wiki 全库 1190 张卡片  
 **P0 阻塞问题卡片**：0 张  
-**P1 修复问题卡片**：2 张  
-**完全干净卡片**：1188 张  
+**P1 修复问题卡片**：0 张  
+**完全干净卡片**：1190 张  
 **YAML 解析错误**：0 张  
 
 ---
@@ -17,10 +17,7 @@
 
 ## P1 修复问题清单
 
-| 文件 | P1 问题 |
-|---|---|
-| `concepts\yt-tool-product-core-canvas.md` | 自审: author=老顽童, reviewed_by=老顽童 相同 |
-| `concepts\yt-unit-model-selection.md` | 自审: author=老顽童, reviewed_by=老顽童 相同 |
+无 P1 修复问题。
 
 ---
 

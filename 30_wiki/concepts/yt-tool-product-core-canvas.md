@@ -57,7 +57,7 @@ diagnostic_signals:
   follow_up_question: 画布讨论后是否停留在可视化而不进入验证？
 updated_at: '2026-06-16'
 author: 老顽童
-reviewed_by: 老顽童
+reviewed_by: 欧阳锋
 ---
 # 产品内核画布与九大原则
 
