@@ -14,6 +14,7 @@ related:
 - '[[yt-note-five-levels-training]]'
 - '[[yt-note-ai-human-division]]'
 - '[[yt-note-live-field-skill]]'
+- '[[dk-modeling-checklist-formatting-rules]]'
 prerequisites:
 - yt-model-ipo-learning-strategy
 source_refs:

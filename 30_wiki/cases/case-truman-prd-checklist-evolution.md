@@ -17,6 +17,7 @@ related:
 - '[[ai-learning-closed-loop]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[yt-personal-pan-product-tools]]'
+- '[[dk-modeling-checklist-formatting-rules]]'
 created_at: '2026-06-09'
 updated_at: '2026-06-16'
 author: 老顽童
