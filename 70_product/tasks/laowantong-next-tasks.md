@@ -3062,3 +3062,25 @@ total: 1190, p0=0, p1=0, clean=1190, yaml_error: 0
 **现有框架卡是否体现？**
 - 各张管理卡分别覆盖了四问中的某一环，但没有一张"管理工具落地总框架"把它们串起来。
 - 建议：下一轮精修 `yt-management-basic-skills` 时，把「阶段匹配 × 决策权 × 数据可验证 × 闭环机制」作为核心框架和 diagnostic_signals 显式写入。
+
+
+### 批次 6 进度记录：暗知识卡深化（单卡 `dk-modeling-course-rnd-ripe-fruit` 完成）
+
+**完成时间**：2026-06-16  
+**质量门禁**：`total=1190, p0=0, p1=0, clean=1190, yaml_error=0`
+
+| 序号 | 卡片 ID | 当前状态 | 本次操作 |
+|:----:|:--------|:--------:|:---------|
+| 26 | `dk-modeling-ai-without-judgment` | enriched | 未改动，状态已 enriched |
+| 27 | `dk-modeling-counterexample-driven` | enriched | 未改动，状态已 enriched |
+| 28 | `dk-modeling-logical-cleanliness-root` | draft | 未改动，仍待精修 |
+| 29 | `dk-modeling-checklist-formatting-rules` | draft | 未改动，仍待精修 |
+| 30 | `dk-modeling-course-rnd-ripe-fruit` | ✅ enriched | 新增诊断信号 4 条（Signal→Lens→Follow-up）；新增“菜熟才摘”落地 checklist 七步；建立 2 条新互链 `dk-modeling-unit-pairs-milestone`、`dk-modeling-timely-review-session-window`（双向）；status→enriched；reviewed_by→欧阳锋 |
+
+**本卡可提炼的暗知识/反常识**：
+1. **研究型内容生产的真实约束是“质量与确定性不可兼得”**，公开教育机构不会承认这一点，承认它本身就是暗知识。
+2. **“菜熟才摘”不是拖延，而是一套有明确品控红线和研究截止线的交付纪律**；没有退出标准的“养着”才是真正的拖延。
+
+**仍存疑的问题**：
+- 批次 6 其余 4 张暗知识卡中，`dk-modeling-logical-cleanliness-root`、`dk-modeling-checklist-formatting-rules` 仍为 draft，需要继续精修。
+- 本次仅操作了目标卡 `dk-modeling-course-rnd-ripe-fruit`，未对同批次其他卡做改动。
