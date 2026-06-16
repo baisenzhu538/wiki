@@ -57,7 +57,9 @@ related:
 - '[[yt-entrepreneur-spin-selling]]'
 - '[[yt-entrepreneur-truth-seeking]]'
 - '[[yt-tool-strategy-workshop]]'
-reviewed_by: 黄药师
+- '[[yt-lean-growth-stage-gate]]'
+- '[[case-milktea-five-step]]'
+reviewed_by: 老顽童
 source_refs:
 - src_20260613_96e45c45
 status: enriched
@@ -79,6 +81,12 @@ diagnostic_signals:
 - signal: 创业者刚学完起盘阶段，就跳到壁垒阶段学习，结果什么都用不上
   framework_lens: 跨阶段跳跃——创业地图有阶段顺序，跳过当前阶段的工具会消化不良
   follow_up_question: 你当前业务最大的问题在哪个阶段？是需求验证、商业模式、增长还是壁垒？先锁定当前阶段
+- signal: 业务已进入增长期，团队还在用"低成本验证"思维做扩张决策，导致窗口期被耽误
+  framework_lens: 阶段工具错配——增长阶段的核心指标已从验证成功率切换为单元模型 ROI 与复制成功率
+  follow_up_question: 你当前阶段的核心指标是什么？如果还停留在"花最少钱验证"，是否需要切换到高压验证或组织复制模式？
+- signal: 创业者把"概率"挂在嘴边，但团队没有任何 dashboard 追踪关键假设概率的变化
+  framework_lens: 概率追求缺少度量——地图的核心追求是概率，没有指标就无法验证修炼效果
+  follow_up_question: 你最近一次更新关键假设的成立概率是什么时候？有没有一个机制让团队看到概率随时间的变化？
 author: 老顽童
 trust_level: medium-high
 ---

@@ -58,10 +58,11 @@ related:
 - '[[yt-management-business-formula]]'
 - '[[yt-management-scientific-decision]]'
 - '[[dk-foresight-source-material-blindness]]'
-review_date: 2026-06-10
+- '[[yt-lean-growth-stage-gate]]'
+- '[[yt-research-industry-canvas]]'
+review_date: 2026-06-16
 reviewed_by:
-- 黄药师
-- laowantong
+- 王语嫣
 source_refs:
 - src_20260614_40afd886
 status: enriched
@@ -75,6 +76,9 @@ diagnostic_signals:
 - signal: 用户想融资/做头部，但没做过任何行业预判
   framework_lens: 光谱右侧（L5-L7）强制要求行业预判——没有行业预判能力却追求头部位置=重大硬伤
   follow_up_question: 你的目标在光谱的L4-L7哪一级？这个级别要求的预判深度（商业/团队/行业）你做了吗？
+- signal: 团队扩张后效率反而下降，或创始人急于从"单体"跳到"体系增长"
+  framework_lens: 光谱图揭示"质变点"是跃迁的必要条件——跳过招人/复制/标准化中的任一环节都会翻车
+  follow_up_question: 你当前处于光谱哪一级？下一级的质变点（全职→招人→复制→标准化→融资→上市）中，哪一个还没过关就想跳？
 diagnostic_relations:
 - target: case-coffee-shop-foresight
   relation: applies_when

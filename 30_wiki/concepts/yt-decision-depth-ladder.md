@@ -30,10 +30,13 @@ prerequisites:
 component_of:
 - yt-decision-y-model
 related:
+- '[[yt-decision-y-model]]'
 - '[[yt-decision-width-method]]'
 - '[[yt-decision-canvas]]'
 - '[[yt-decision-height-toolkit]]'
 - '[[yt-decision-ai-partner]]'
+- '[[yt-decision-abcd-model]]'
+- '[[case-truman-poker-deck-roi]]'
 query_triggers:
 - ROI深度
 - 停车场模型
@@ -61,6 +64,12 @@ diagnostic_signals:
 - signal: 创始人在周会上说'等我再算一版更精确的数据就拍板'，但已经说了两周
   framework_lens: 决策延迟——L2已经足够支撑行动，继续算L3是行动拖延
   follow_up_question: 你现在算的这些数据，最乐观和最悲观的假设下，决策结论会改变吗？如果不会，L2已经够了
+- signal: 团队说'我们做了深度定量分析，结论非常确定'，但前提假设完全没提
+  framework_lens: 深度幻觉检查——数字给了你虚假的确定感，但所有定量结论的可靠性取决于前提假设
+  follow_up_question: 你的分析里哪些数值是拍脑袋的？如果这些数值偏差 20%，结论翻不翻？
+- signal: 创始人要求'所有投资决策都必须拆到单元模型、算到 L4 才准过会'
+  framework_lens: 深度过度泛化——L4 只适用于重大投资/融资/生死级战略，小额/高频/可撤回决策停在 L1/L2 更经济
+  follow_up_question: 这个决策如果错了，最快多久能撤回？试错成本低于多少？如果一周内能撤回且成本 <1 万，停在 L1/L2 就够了
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 欧阳锋

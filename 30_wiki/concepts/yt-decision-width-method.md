@@ -27,6 +27,8 @@ related:
 - '[[yt-decision-canvas]]'
 - '[[yt-decision-habit-shift]]'
 - '[[yt-decision-depth-ladder]]'
+- '[[yt-decision-y-model]]'
+- '[[case-truman-poker-deck-roi]]'
 source_refs:
 - src_20260614_9ca806cd
 status: enriched
@@ -81,8 +83,12 @@ diagnostic_signals:
 - signal: 查盲区时调用对应层级的清单（个人/团队/企业），而不是只凭直觉扫描
   framework_lens: 系统性扫描 > 自我启发式回忆
   follow_up_question: 这个决策属于个人、团队还是企业层级？你是否使用了对应清单？
+- signal: 宽度分析结束后，决策者能在3分钟内说出"如果砍掉70%的次要项，结论是否不变"
+  framework_lens: 宽度陷阱检查——宽度分析的价值在于确保关键项不遗漏，而不是用全面性替代决断力
+  follow_up_question: 你目前卡住是因为"漏了什么关键项"，还是"关键项太多无法取舍"？如果是后者，需要切换至[[yt-decision-depth-ladder]]或[[yt-decision-canvas]]
 updated_at: '2026-06-16'
 author: 老顽童
+reviewed_by: 周伯通
 ---
 # 宽度分析工具：列推建查四步法+三层盲区清单
 

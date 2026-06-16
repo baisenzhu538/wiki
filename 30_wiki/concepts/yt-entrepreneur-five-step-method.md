@@ -55,7 +55,9 @@ related:
 - '[[yt-decision-full-process]]'
 - '[[yt-decision-consensus-iceberg]]'
 - '[[yt-panproduct-demand-five-step-method]]'
-reviewed_by: pending
+- '[[dk-foresight-tier-skip-illusion]]'
+- '[[case-milktea-five-step]]'
+reviewed_by: 王语嫣
 source_refs:
 - src_20260614_8f80cb0f
 - src_20260510_1eb77650
@@ -68,7 +70,7 @@ source_refs:
 - src_20260611_7c3a2a57
 - src_20260611_173d9f0e
 - src_20260611_0f0a4c27
-status: draft
+status: enriched
 title: 一堂五步法
 trust_level: high
 type: tool
@@ -89,6 +91,9 @@ diagnostic_signals:
 - signal: 用户 rigidly 按顺序走五步，不做迭代
   framework_lens: 僵化使用——五步法需要循环迭代
   follow_up_question: 你的项目走到某一步时，有没有发现需要回到前一步修正？如果没有，可能没有在真实反馈中迭代
+- signal: 创业者把五步法写成汇报 PPT，每一步都有"规划"但没有验证数据
+  framework_lens: 形式覆盖型使用——用文档完成度替代假设检验
+  follow_up_question: 请拿出上一步最关键假设的"证伪数据"或"反证数据"，而不是只讲计划
 updated_at: '2026-06-16'
 author: 老顽童
 review_date: 2026-06-15
