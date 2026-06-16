@@ -1,11 +1,14 @@
 ---
-updated: 2026-06-16
+updated: 2026-06-17
 active_branch: main
-active_task: "全库P0=0 YAML=0 clean=586。老顽童全域案例回溯35张+dk补12张。KF-025三问铁律写入。S4 aliases/views/book上线。OCR 368张分层隔离。王语嫣六阶段审计闭环。"
+active_task: "欧阳锋6轮审查全部完成(精益创业A-/ToB A/精修30A/管理域A/暗知识A/案例回溯A)。复盘完成，复盘文件已更新。"
 blockers:
   - "238 dangling真悬空需逐卡人工判断"
   - "126 domain缺失需人工标注"
-next_session_hint: "用户说'继续'→ ① dangling逐卡修复；② 王语嫣角色正式升级AGENTS.md；③ 新域走ingestion pipeline测试"
+  - "508 near-duplicate在60_feedback/auto未清理（跨多轮会话的遗留债务）"
+  - "148 v1.5 FAILED卡待裁决：改heading还是改校验器？"
+  - "dk-modeling-logical-cleanliness-root 仍是唯一draft暗知识卡"
+next_session_hint: "用户说'继续'→ ① 裁决148张v1.5 FAILED卡处理方案；② dangling逐卡修复；③ 王语嫣角色正式升级；④ 508 near-duplicate清理"
 ---
 
 ## 2026-06-12 变更
