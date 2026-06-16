@@ -19,6 +19,7 @@ related:
 - '[[process-modeling]]'
 - '[[modeling-three-stages]]'
 - '[[dk-modeling-sop-execution-locks]]'
+- '[[dk-modeling-course-rnd-ripe-fruit]]'
 tags:
 - '#content-format/sop'
 - '#domain/yitang'
@@ -88,4 +89,5 @@ confidence: 0.7
 - [[process-modeling]] —— 流程建模工具卡，SOP/清单的建模方法。
 - [[dk-modeling-sop-execution-locks]] —— 复盘出来的 SOP 要保证执行，还需要两层锁。
 - [[modeling-three-stages]] —— 及时复盘是 60 分流程建模阶段的核心习惯。
+- [[dk-modeling-course-rnd-ripe-fruit]] —— 研究型课程“菜熟才摘”，每次摘果/养菜后都需在 session 窗口内复盘。
 - `src_20260614_8269ccdb#716-758` —— Truman 口述原文：及时复盘的三个习惯。

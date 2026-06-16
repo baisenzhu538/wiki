@@ -24,6 +24,7 @@ related:
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[tool-ai-skill-engineering-method]]'
 - '[[dk-modeling-ai-self-retrospection]]'
+- '[[dk-modeling-ai-without-judgment]]'
 tags:
 - '#method/modeling'
 - '#method/prompt-engineering'

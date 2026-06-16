@@ -3,7 +3,7 @@ id: dk-modeling-course-rnd-ripe-fruit
 title: 研究型课程无法提前排课表：只能等菜熟了再摘
 type: dark-knowledge
 dark_knowledge_type: workflow
-status: draft
+status: enriched
 domain:
 - yitang
 - ai-saas
@@ -17,13 +17,15 @@ related:
 - '[[dk-modeling-counterexample-driven]]'
 - '[[framework-course-milestone-model]]'
 - '[[case-yitang-weekly-modeling-engine]]'
+- '[[dk-modeling-unit-pairs-milestone]]'
+- '[[dk-modeling-timely-review-session-window]]'
 tags:
 - '#content-format/sop'
 - '#domain/yitang'
 - '#method/modeling'
 - '#method/course-design'
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-16'
 ---
@@ -44,6 +46,15 @@ updated_at: '2026-06-16'
 - 你想在“稳定交付”和“研究质量”之间找平衡。
 - 你在评估一堂为什么有时“开天窗”。
 
+## 诊断信号
+
+| 信号 Signal | 透镜 Lens | 跟进 Follow-up |
+|:---|:---|:---|
+| 管理层要求原创研究型课程提前半年给出精确到周的课表 | 把“研究型产品”误当成“微波炉产品” | 明确区分两类产品；用“一波一波做菜”替代精确课表 |
+| 到点交付的内容被专家或学员找出明显反例、低阶错误 | 硬排课表导致未成熟的内容被提前摘下 | 设置品控红线（L4/L5 标准），未达标准宁可不开 |
+| 某个课程方向讨论了很久，但连续数月没有可交付里程碑 | “养着”变成了拖延，缺少研究截止线 | 用成对单元模型切里程碑，设定研究截止线和退出标准 |
+| 用户因“开天窗”不满，团队只能反复道歉 | 没有把不确定性写进交付策略，预期管理缺失 | 对外明确承诺“质量优先于固定时间”，并给出替代节奏 |
+
 ## 操作方法
 
 1. **区分“微波炉产品”和“研究型产品”**
@@ -57,6 +68,18 @@ updated_at: '2026-06-16'
 
 4. **对外管理预期**
    提前告知用户：研究型内容无法像标准化课程那样排课表，保证的是质量而非固定时间。
+
+## 落地 checklist：菜熟才摘七步
+
+在研究型课程/内容启动前，逐条确认：
+
+- [ ] **1. 识别产品类型**：本次内容是“微波炉产品”（可标准化、确定性高）还是“研究型产品”（需原创、不确定性高）？
+- [ ] **2. 定义成熟度标准**：明确 L1-L5 各级的验收标准，尤其是“可摘果”的 L4/L5 标准。
+- [ ] **3. 用成对单元模型切里程碑**：把“输入→输出”“发散→收敛”“假设→验证”等单元拼成阶段评审点，而不是按周排课。
+- [ ] **4. 设置品控红线**：存在可见反例、关键假设未验证、讲师自己都没说服自己的内容，宁可不开。
+- [ ] **5. 设定研究截止线和退出标准**：每个研究方向必须有最大投入上限和“不成熟就放弃/合并”的退出机制。
+- [ ] **6. 管理外部预期**：在宣传页、用户沟通、内部汇报中明确“研究型内容按成熟度交付，不承诺固定课表”。
+- [ ] **7. 建立及时复盘窗口**：每次“摘果”或“养菜”后，在 session 窗口内复盘，把新认知趁热写成 SOP/清单补丁。
 
 ## 适用边界
 
@@ -85,4 +108,6 @@ updated_at: '2026-06-16'
 - [[dk-modeling-counterexample-driven]] —— 研究型内容需要以推翻为目标验证。
 - [[framework-course-milestone-model]] —— 一堂课程里程碑模型。
 - [[case-yitang-weekly-modeling-engine]] —— 用周对周迭代保证研究持续推进。
+- [[dk-modeling-unit-pairs-milestone]] —— 用“成对单元模型”切分研究里程碑，替代精确课表。
+- [[dk-modeling-timely-review-session-window]] —— 研究内容必须卡在 session 窗口内及时复盘，否则细节和体感快速衰减。
 - `src_20260614_8269ccdb#3694-3719` —— Truman 口述原文：研究型课程无法提前排课表。

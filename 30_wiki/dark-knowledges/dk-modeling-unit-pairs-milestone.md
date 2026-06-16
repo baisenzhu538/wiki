@@ -17,6 +17,7 @@ related:
 - '[[dk-modeling-sop-execution-locks]]'
 - '[[tool-sop-template-modeling]]'
 - '[[modeling-three-stages]]'
+- '[[dk-modeling-course-rnd-ripe-fruit]]'
 tags:
 - '#content-format/sop'
 - '#domain/yitang'
@@ -85,4 +86,5 @@ updated_at: '2026-06-16'
 - [[dk-modeling-sop-execution-locks]] —— 里程碑落地后的执行锁机制。
 - [[tool-sop-template-modeling]] —— SOP/清单建模工具。
 - [[modeling-three-stages]] —— 流程建模阶段的方法论。
+- [[dk-modeling-course-rnd-ripe-fruit]] —— 研究型课程用成对单元模型替代精确课表，按成熟度摘果。
 - `src_20260614_8269ccdb#2650-2688` —— Truman 口述原文：单元模型与里程碑拼装。
