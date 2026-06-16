@@ -185,22 +185,38 @@ ln -s Multilingual_PP-OCRv3_det_infer.pth ch_PP-OCRv3_det_infer.pth
 ```json
 {
     "models-dir": "/home/<user>/.cache/magic-pdf/models",
-    "layoutreader-model-dir": "/home/<user>/.cache/magic-pdf/layoutreader",
+    "layoutreader-model-dir": "/home/<user>/.cache/magic-pdf/models/ReadingOrder/layout_reader",
     "device-mode": "cpu",
     "layout-config": { "model": "doclayout_yolo" },
     "formula-config": {
         "mfd_model": "yolo_v8_mfd",
         "mfr_model": "unimernet_small",
-        "enable": true
+        "enable": false
     },
     "table-config": { "model": "rapid_table", "enable": false, "max_time": 400 },
     "config_version": "1.0.0"
 }
 ```
 
-### 模型下载
+> 注：公式识别当前因 transformers 版本不兼容需关闭；表格识别可按需开启。
 
-MinerU 模型需从 HuggingFace `opendatalab/PDF-Extract-Kit` 或 ModelScope 下载到 `models-dir` 目录。模型总大小约 **2-4GB**，建议单独安排下载时间。
+### 使用命令
+
+```bash
+# PDF
+magic-pdf -p input.pdf -o output_dir -m auto
+
+# 图片
+magic-pdf -p input.png -o output_dir -m auto
+```
+
+### 输出文件
+
+- `output.md`：含图片引用的 Markdown
+- `output_content_list.json`：结构化内容块
+- `output_middle.json` / `output_model.json`：中间结果
+- `output_layout.pdf` / `output_spans.pdf`：可视化调试 PDF
+- `images/`：提取的嵌入图片
 
 ---
 
@@ -266,9 +282,15 @@ watch 00_inbox/screenshots/
 
 ---
 
-## 8. 下一步待验证
+## 8. 验证记录
+
+- **2026-06-17**：MinerU（magic-pdf 1.3.12）在 WSL CPU 模式下成功解析中文 PDF，输出 Markdown + JSON + 图片。
+- **测试文件**：`10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf`
+- **测试命令**：`magic-pdf -p input.pdf -o output_dir -m auto`
+
+## 9. 下一步待验证
 
 - [ ] 在本地 Windows/WSL 验证 PaddleOCR-VL 安装
-- [ ] 在本地验证 MinerU `magic-pdf[full]` 安装
+- [x] 在本地验证 MinerU `magic-pdf[full]` 安装与 PDF 解析
 - [ ] 用 3-5 张真实课程截图做引擎对比测试
 - [ ] 建立 Gold Standard 评测集（类似 `_verify_gold_standard.py`）
