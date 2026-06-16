@@ -1,7 +1,8 @@
 ---
+
 id: skill-月白-手机外设计逻辑切换法
 title: 技能：手机外设计逻辑切换法
-type: skill
+type: "tool"
 status: draft
 domain:
 - design
@@ -24,8 +25,7 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.6
-trust_level: low
----
+trust_level: low---
 # 技能：手机外设计逻辑切换法
 
 ## 原始表述

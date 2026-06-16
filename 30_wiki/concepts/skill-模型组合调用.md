@@ -1,7 +1,8 @@
 ---
+
 id: skill-模型组合调用
 title: 技能：模型组合调用
-type: skill
+type: "tool"
 domain:
 - design
 - yitang
@@ -22,8 +23,7 @@ updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：模型组合调用
 
 ## 原始表述

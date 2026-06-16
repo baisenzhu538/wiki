@@ -1,7 +1,8 @@
 ---
+
 id: sk-ai-old-small-checklist
 title: 技能："找老的干小的"场景评估清单
-type: skill
+type: "tool"
 status: draft
 domain:
 - ai-collaboration
@@ -31,8 +32,7 @@ related:
 author: unknown
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：“找老的干小的”场景评估清单
 
 ## 原始表述

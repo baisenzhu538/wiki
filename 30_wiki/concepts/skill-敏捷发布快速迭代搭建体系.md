@@ -1,7 +1,8 @@
 ---
+
 id: skill-敏捷发布快速迭代搭建体系
 title: 技能：敏捷发布快速迭代搭建体系
-type: skill
+type: "tool"
 domain:
 - product
 - finance-legal
@@ -23,8 +24,7 @@ updated_at: '2026-06-16'
 author: unknown
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：敏捷发布快速迭代搭建体系
 
 ## 原始表述

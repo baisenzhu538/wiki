@@ -1,7 +1,8 @@
 ---
+
 id: skill-Truman-Feature特性层训练法
 title: 技能：Feature特性层训练法
-type: skill
+type: "tool"
 domain:
 - yitang
 status: draft
@@ -13,8 +14,7 @@ trust_level: low
 source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
-updated_at: '2026-06-16'
----
+updated_at: '2026-06-16'---
 # 技能：Feature特性层训练法
 
 ## 原始表述

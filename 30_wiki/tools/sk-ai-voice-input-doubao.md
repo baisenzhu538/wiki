@@ -1,7 +1,8 @@
 ---
+
 id: sk-ai-voice-input-doubao
 title: 技能：口喷式语音输入法
-type: skill
+type: "tool"
 status: draft
 domain:
 - ai-collaboration
@@ -33,8 +34,7 @@ related:
 author: 半肥猫
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：口喷式语音输入法
 
 ## 原始表述

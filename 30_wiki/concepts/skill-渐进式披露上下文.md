@@ -1,7 +1,8 @@
 ---
+
 id: skill-渐进式披露上下文
 title: 技能：渐进式披露上下文
-type: skill
+type: "tool"
 domain:
 - management
 - product
@@ -25,8 +26,7 @@ updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：渐进式披露上下文
 
 ## 原始表述

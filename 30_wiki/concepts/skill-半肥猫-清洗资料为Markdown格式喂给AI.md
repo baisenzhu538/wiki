@@ -1,7 +1,8 @@
 ---
+
 id: skill-半肥猫-清洗资料为Markdown格式喂给AI
 title: 技能：清洗资料为 Markdown 格式喂给 AI
-type: skill
+type: "tool"
 status: draft
 domain:
 - ai-collaboration
@@ -25,8 +26,7 @@ pipeline:
 - confidence-source-cited
 author: 半肥猫
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：清洗资料为 Markdown 格式喂给 AI
 
 ## Summary

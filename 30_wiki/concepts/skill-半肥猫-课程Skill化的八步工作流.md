@@ -1,7 +1,8 @@
 ---
+
 id: skill-半肥猫-课程Skill化的八步工作流
 title: 技能：课程Skill化的八步工作流
-type: skill
+type: "tool"
 status: draft
 domain:
 - ai-collaboration
@@ -30,8 +31,7 @@ pipeline:
 - confidence-verified-by-case
 author: 半肥猫
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：课程Skill化的八步工作流
 
 ## Summary

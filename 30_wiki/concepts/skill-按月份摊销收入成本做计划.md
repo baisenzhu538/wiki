@@ -1,7 +1,8 @@
 ---
+
 id: skill-按月份摊销收入成本做计划
 title: 技能：按月份摊销收入成本做计划
-type: skill
+type: "tool"
 domain:
 - finance-legal
 - decision-making
@@ -24,8 +25,7 @@ updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：按月份摊销收入成本做计划
 
 ## 原始表述

@@ -1,7 +1,8 @@
 ---
+
 id: skill-一堂-business-prediction-15-char
 title: 技能：商业预判15字诀
-type: skill
+type: "tool"
 status: draft
 domain:
 - product
@@ -28,8 +29,7 @@ pipeline:
 author: 老顽童
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：商业预判15字诀
 
 ## Summary

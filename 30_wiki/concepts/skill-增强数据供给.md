@@ -1,7 +1,8 @@
 ---
+
 id: skill-增强数据供给
 title: 技能：增强数据供给
-type: skill
+type: "tool"
 domain:
 - design
 - yitang
@@ -25,8 +26,7 @@ updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：增强数据供给
 
 ## 原始表述

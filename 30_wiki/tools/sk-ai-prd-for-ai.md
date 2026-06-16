@@ -1,7 +1,8 @@
 ---
+
 id: sk-ai-prd-for-ai
 title: 技能：把PRD写成AI能执行的指令
-type: skill
+type: "tool"
 status: draft
 domain:
 - ai-collaboration
@@ -31,8 +32,7 @@ related:
 author: 半肥猫
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：把PRD写成AI能执行的指令
 
 ## 原始表述

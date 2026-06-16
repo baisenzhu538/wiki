@@ -1,7 +1,8 @@
 ---
+
 id: skill-ai-research-five-steps
 title: 技能：AI调研五步法
-type: skill
+type: "tool"
 status: draft
 domain:
 - AI
@@ -31,8 +32,7 @@ pipeline:
 reviewed_by: laowantong
 author: 半肥猫
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：AI调研五步法
 
 > **来源**：半肥猫（AI俱乐部-AI学习落地-口述）

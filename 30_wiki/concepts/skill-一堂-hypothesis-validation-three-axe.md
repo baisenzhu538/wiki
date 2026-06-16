@@ -1,7 +1,8 @@
 ---
+
 id: skill-一堂-hypothesis-validation-three-axe
 title: 技能：假设验证三板斧
-type: skill
+type: "tool"
 status: draft
 domain:
 - product
@@ -34,8 +35,7 @@ pipeline:
 author: 老顽童
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：假设验证三板斧
 
 ## Summary

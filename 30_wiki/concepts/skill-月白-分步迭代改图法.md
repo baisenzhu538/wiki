@@ -1,7 +1,8 @@
 ---
+
 id: skill-月白-分步迭代改图法
 title: 技能：分步迭代改图法
-type: skill
+type: "tool"
 status: draft
 domain:
 - design
@@ -23,8 +24,7 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.6
-trust_level: low
----
+trust_level: low---
 # 技能：分步迭代改图法
 
 ## 原始表述

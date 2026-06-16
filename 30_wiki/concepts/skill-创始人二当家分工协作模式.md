@@ -1,7 +1,8 @@
 ---
+
 id: skill-创始人二当家分工协作模式
 title: 技能：创始人+二当家分工协作模式
-type: skill
+type: "tool"
 domain:
 - management
 status: draft
@@ -20,8 +21,7 @@ updated_at: '2026-06-16'
 author: unknown
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：创始人+二当家分工协作模式
 
 ## 原始表述

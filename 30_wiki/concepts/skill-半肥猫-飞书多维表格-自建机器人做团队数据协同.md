@@ -1,7 +1,8 @@
 ---
+
 id: skill-半肥猫-飞书多维表格-自建机器人做团队数据协同
 title: 技能：飞书多维表格 + 自建机器人做团队数据协同
-type: skill
+type: "tool"
 status: draft
 domain:
 - ai-collaboration
@@ -22,8 +23,7 @@ reviewed_by: laowantong
 updated_at: '2026-06-16'
 author: 半肥猫
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：飞书多维表格 + 自建机器人做团队数据协同
 
 ## Summary

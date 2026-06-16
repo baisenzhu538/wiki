@@ -1,7 +1,8 @@
 ---
+
 id: skill-制作行业化要素检查清单
 title: 技能：制作行业化要素检查清单
-type: skill
+type: "tool"
 domain:
 - product
 - design
@@ -22,8 +23,7 @@ updated_at: '2026-06-16'
 author: unknown
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：制作行业化要素检查清单
 
 ## 原始表述

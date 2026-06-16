@@ -1,7 +1,8 @@
 ---
+
 id: sk-ai-system-redundancy
 title: 技能：系统冗余度快速检查清单
-type: skill
+type: "tool"
 status: draft
 domain:
 - ai-collaboration
@@ -30,8 +31,7 @@ related:
 author: unknown
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：系统冗余度快速检查清单
 
 ## 原始表述

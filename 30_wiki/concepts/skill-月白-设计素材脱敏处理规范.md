@@ -1,7 +1,8 @@
 ---
+
 id: skill-月白-设计素材脱敏处理规范
 title: 技能：设计素材脱敏处理规范
-type: skill
+type: "tool"
 status: draft
 domain:
 - design
@@ -24,8 +25,7 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.6
-trust_level: low
----
+trust_level: low---
 # 技能：设计素材脱敏处理规范
 
 ## 原始表述

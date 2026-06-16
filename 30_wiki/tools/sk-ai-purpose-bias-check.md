@@ -1,7 +1,8 @@
 ---
+
 id: sk-ai-purpose-bias-check
 title: 技能：目的论偏差快速识别法
-type: skill
+type: "tool"
 status: draft
 domain:
 - ai-collaboration
@@ -27,8 +28,7 @@ related: []
 author: unknown
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：目的论偏差快速识别法
 
 ## 原始表述

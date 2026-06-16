@@ -1,7 +1,8 @@
 ---
+
 id: skill-月白-具体化优点萃取与复用
 title: 技能：具体化优点萃取与复用
-type: skill
+type: "tool"
 status: draft
 domain:
 - design
@@ -23,8 +24,7 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.6
-trust_level: low
----
+trust_level: low---
 # 技能：具体化优点萃取与复用
 
 ## 原始表述

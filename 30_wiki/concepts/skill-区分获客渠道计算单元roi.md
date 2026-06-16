@@ -1,7 +1,8 @@
 ---
+
 id: skill-区分获客渠道计算单元roi
 title: 技能：区分获客渠道计算单元ROI
-type: skill
+type: "tool"
 domain:
 - product
 - decision-making
@@ -24,8 +25,7 @@ updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：区分获客渠道计算单元ROI
 
 ## 原始表述

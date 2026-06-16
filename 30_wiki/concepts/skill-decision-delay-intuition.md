@@ -1,7 +1,8 @@
 ---
+
 id: skill-decision-delay-intuition
 title: 技能：延迟直觉法
-type: skill
+type: "tool"
 status: draft
 domain:
 - 决策
@@ -33,8 +34,7 @@ pipeline:
 reviewed_by: laowantong
 author: unknown
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：延迟直觉法
 
 > **来源**：基于 master-decision-hygiene 框架提炼（Kahneman《噪声》）

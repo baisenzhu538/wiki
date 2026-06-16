@@ -1,7 +1,8 @@
 ---
+
 id: skill-月白-表情包风格筛选与确定
 title: 技能：表情包风格筛选与确定
-type: skill
+type: "tool"
 status: draft
 domain:
 - design
@@ -24,8 +25,7 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.6
-trust_level: low
----
+trust_level: low---
 # 技能：表情包风格筛选与确定
 
 ## 原始表述

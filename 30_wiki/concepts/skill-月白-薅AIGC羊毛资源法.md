@@ -1,7 +1,8 @@
 ---
+
 id: skill-月白-薅AIGC羊毛资源法
 title: 技能：AIGC工具免费试用与入门资源整理
-type: skill
+type: "tool"
 status: draft
 domain:
 - design
@@ -23,8 +24,7 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.6
-trust_level: low
----
+trust_level: low---
 # 技能：AIGC工具免费试用与入门资源整理
 
 ## 原始表述

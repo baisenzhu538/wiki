@@ -1,7 +1,8 @@
 ---
+
 id: skill-水水-用感性维度构建溢价
 title: 技能：用感性维度构建溢价
-type: skill
+type: "tool"
 domain:
 - design
 status: needs-review
@@ -13,8 +14,7 @@ trust_level: medium-low
 source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
-updated_at: '2026-06-16'
----
+updated_at: '2026-06-16'---
 # 技能：用感性维度构建溢价
 
 ## 原始表述

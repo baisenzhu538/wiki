@@ -1,7 +1,8 @@
 ---
+
 id: skill-Truman-开源模型与商业模型融合方案
 title: 技能：开源模型与商业模型融合方案
-type: skill
+type: "tool"
 domain:
 - yitang
 status: draft
@@ -13,8 +14,7 @@ trust_level: low
 source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
-updated_at: '2026-06-16'
----
+updated_at: '2026-06-16'---
 # 技能：开源模型与商业模型融合方案
 
 ## 原始表述

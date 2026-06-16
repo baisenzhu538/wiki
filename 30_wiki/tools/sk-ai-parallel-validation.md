@@ -1,7 +1,8 @@
 ---
+
 id: sk-ai-parallel-validation
 title: 技能：平行运行验证法
-type: skill
+type: "tool"
 status: draft
 domain:
 - ai-collaboration
@@ -29,8 +30,7 @@ related:
 author: unknown
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：平行运行验证法
 
 ## 原始表述

@@ -1,7 +1,8 @@
 ---
+
 id: skill-多模型对比抽卡
 title: 技能：多模型对比抽卡
-type: skill
+type: "tool"
 domain:
 - product
 - ai-saas
@@ -24,8 +25,7 @@ updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：多模型对比抽卡
 
 ## 原始表述

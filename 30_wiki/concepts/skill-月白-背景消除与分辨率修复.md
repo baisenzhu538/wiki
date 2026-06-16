@@ -1,7 +1,8 @@
 ---
+
 id: skill-月白-背景消除与分辨率修复
 title: 技能：背景消除与分辨率修复
-type: skill
+type: "tool"
 status: draft
 domain:
 - design
@@ -23,8 +24,7 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.6
-trust_level: low
----
+trust_level: low---
 # 技能：背景消除与分辨率修复
 
 ## 原始表述

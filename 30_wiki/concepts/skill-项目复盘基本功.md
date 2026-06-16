@@ -1,7 +1,8 @@
 ---
+
 id: skill-项目复盘基本功
 title: 技能：项目复盘基本功
-type: skill
+type: "tool"
 domain:
 - management
 - business-strategy
@@ -24,8 +25,7 @@ updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：项目复盘基本功
 
 ## 原始表述

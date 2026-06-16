@@ -1,7 +1,8 @@
 ---
+
 id: skill-纪浩-真需求四要素验证法
 title: 技能：真需求四要素验证法
-type: skill
+type: "tool"
 status: draft
 domain:
 - ai-collaboration
@@ -24,8 +25,7 @@ pipeline:
 author: 纪浩
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：真需求四要素验证法
 
 ## 原始表述

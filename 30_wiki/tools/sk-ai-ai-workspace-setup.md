@@ -1,7 +1,8 @@
 ---
+
 id: sk-ai-ai-workspace-setup
 title: 技能：结构化AI工作空间搭建
-type: skill
+type: "tool"
 status: draft
 domain:
 - ai-collaboration
@@ -31,8 +32,7 @@ related:
 author: 纪浩
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：结构化AI工作空间搭建
 
 ## 原始表述

@@ -1,7 +1,8 @@
 ---
+
 id: skill-获取他人反馈优化笔记
 title: 技能：获取他人反馈优化笔记
-type: skill
+type: "tool"
 domain:
 - entrepreneurship
 - yitang
@@ -23,8 +24,7 @@ updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: pending
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：获取他人反馈优化笔记
 
 ## 原始表述

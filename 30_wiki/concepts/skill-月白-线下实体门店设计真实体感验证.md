@@ -1,7 +1,8 @@
 ---
+
 id: skill-月白-线下实体门店设计真实体感验证
 title: 技能：线下实体门店设计真实体感验证
-type: skill
+type: "tool"
 status: draft
 domain:
 - design
@@ -24,8 +25,7 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.6
-trust_level: low
----
+trust_level: low---
 # 技能：线下实体门店设计真实体感验证
 
 ## 原始表述

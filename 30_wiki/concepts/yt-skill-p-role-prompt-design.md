@@ -1,4 +1,5 @@
 ---
+
 id: yt-skill-p-role-prompt-design
 title: P 角色 Prompt 设计——执行者型 AI 的交付规范
 domain:
@@ -22,11 +23,10 @@ reviewed_by: pending
 created_at: '2026-06-15'
 confidence: 0.75
 trust_level: medium
-type: skill
+type: "concept"
 source_refs:
 - src_20260522_38173b48
-source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
----
+source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）---
 # P 角色 Prompt 设计——执行者型 AI 的交付规范
 
 ## Condense

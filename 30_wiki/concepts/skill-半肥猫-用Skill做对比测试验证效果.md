@@ -1,7 +1,8 @@
 ---
+
 id: skill-半肥猫-用Skill做对比测试验证效果
 title: 技能：用 Skill 做对比测试验证效果
-type: skill
+type: "tool"
 status: draft
 domain:
 - ai-collaboration
@@ -27,8 +28,7 @@ pipeline:
 - confidence-verified-by-test
 author: 半肥猫
 confidence: 0.7
-trust_level: low
----
+trust_level: low---
 # 技能：用 Skill 做对比测试验证效果
 
 ## Summary
