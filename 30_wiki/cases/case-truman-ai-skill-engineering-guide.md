@@ -28,6 +28,7 @@ related:
 - '[[dk-modeling-ai-cross-validation]]'
 - '[[dk-modeling-ai-self-retrospection]]'
 - '[[dk-modeling-logical-cleanliness-root]]'
+- '[[modeling-three-stages]]'
 tags:
 - '#method/modeling'
 - '#content-format/case-study'

@@ -17,6 +17,7 @@ related:
 - '[[dk-modeling-logical-cleanliness-root]]'
 - '[[dk-modeling-sop-execution-locks]]'
 - '[[process-modeling]]'
+- '[[modeling-three-stages]]'
 - '[[yt-note-checklist-concept]]'
 - '[[case-truman-prd-checklist-evolution]]'
 tags:

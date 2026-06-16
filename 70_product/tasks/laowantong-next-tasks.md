@@ -3355,3 +3355,26 @@ total: 1190, p0: 0, p1: 0, clean: 1190, yaml_error: 0
 python 90_control/scripts/kcard-quality-gate.py
 total: 1190, p0=0, p1=0, clean: 1190, yaml_error: 0
 ```
+
+
+### 第二十一节批次 1 进度记录：`yt-panproduct-execution-roi-analysis` 深度精修完成
+
+**完成时间**：2026-06-16  
+**质量门禁**：`total=1190, p0=0, p1=0, clean=1190, yaml_error=0`
+
+| 序号 | 卡片 ID | 当前状态 | 本次操作 |
+|:----:|:--------|:--------:|:---------|
+| 4 | `yt-panproduct-execution-roi-analysis` | ✅ enriched | 把第二十节域间自检提炼的"工具投资决策五段式"（真实成本 × 长期复用性 × 执行锁 × 迭代机制 × 反从众判断）显式写入 frontmatter diagnostic_signals 和正文 checklist；DS 从 3 条扩到 5 条；适用边界从 2 条扩到 6 条；失败模式从列表 4 条改为表格 5 条并附真实症状+可执行修复；新增"工具投资决策五段式检查清单"；建立 3 条新互链 `case-ether-online-acquisition`、`case-truman-prd-checklist-evolution`、`case-truman-motivation-map-12-versions`（双向）；`reviewed_by`→王语嫣；`updated_at`→2026-06-16 |
+
+**本卡可提炼的共同模式**：
+> **好投资决策 = 真实成本（含机会成本） × 长期复用性 × 嵌套执行锁 × 迭代机制 × 反从众判断。**
+
+- **真实成本**：以太案例把调研成本重定义为获客投资；扑克牌案例把 30 人日机会成本算进去。
+- **长期复用性**：PRD 清单、动机地图、AI Skill 工程指南都强调"未来多年高频复用"才值得重度投入。
+- **嵌套执行锁**：PRD 清单的"不再二错"、AI Skill 的工程化产出 Checklist，都是给工具加锁。
+- **迭代机制**：动机地图 23 版、PRD 清单 0→5 版、AI Skill 的 10-15 轮挑错。
+- **反从众判断**：扑克牌案例警示"同行都做了"不能代替独立判断；SQLHelper 案例警示不能只看市场规模。
+
+**仍存疑的问题**：
+- 案例卡中的具体数字（如 30 人日、2-4 节课、单份十元）仍为 Truman/讲师自述，已在原案例卡标注待独立核实。
+- `kdo_lint.py` 对 wikilink 和中文 card ID 存在误报，未作为本次验收依据；本次以 `kcard-quality-gate.py` 为最终门禁。
