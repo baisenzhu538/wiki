@@ -56,19 +56,21 @@ next_session_hint: "用户说'继续'→ ① dangling逐卡修复；② 王语�
 ## 当前共享状态
 
 ### 各角色当前任务
-- **黄药师**：O/Q/S/P pipeline + 5 张建模卡 + kdo 修复 + 多份审查
-- **欧阳锋**：待裁决（王语嫣角色升级 + 68条录音处置）
-- **老顽童**：系统审计(A) + 业务公式域全管线(A, OCR自修) + 建模案例待补
-- **王语嫣**：复合卡回填完工(A, 129断言→10移+6条+19核, 全员锁0.65)
+- **黄药师**：S1-S4全完成 + KF-025铁律 + P0全清零 + kdo query --trust/--view/--save/--template book
+- **老顽童**：全域案例回溯35张+dk12张(主动修复盲区) + ToB/精益/建模三域A级
+- **王语嫣**：六阶段全库审计闭环 + 质量门禁脚本 + 协作修复计划 + 复合卡回填完工
+- **欧阳锋**：月度抽检模式
 - **洪七公**：待命
 - **段王爷**：待命
 
-### 2026-06-14 关键结果
-- Ingestion pipeline 上线（`90_control/ingestion-pipeline.md`）
-- Inbox 监听器生效（crontab */10 min，P0→王语嫣，P2→老顽童）
-- 老顽童产能升级：写卡→系统审计
-- 王语嫣产能升级：生成报告→主动降级+质量控制
-- 门禁体系完整：confidence/Synthesis/出链/跨域/入库 五道自动门
+### 2026-06-16 关键结果
+- 全库 P0=0, YAML=0, Clean=586
+- 老顽童全域案例回溯 35 张（主动执行 KF-025 三问自检）
+- OCR 368 张 → raw/ocr/ 分层隔离
+- 14 对重复卡片去重, 6 张 deprecated 归档
+- kdo query --trust/--view/--save/--template book 上线
+- KF-025 域完成三问自检写入工业化手册
+- S4 aliases + views + book template dogfood-tested
   - `60_feedback/itingnao/medical-cabinet-longterm/method-medical-cabinet-hospital-scene-model.md`
   - `60_feedback/itingnao/medical-cabinet-longterm/method-medical-cabinet-scale-model.md`
 - **待验证重点**：单设备真实流水、医院准入政策、合规成本、资金来源、团队产能、供应链授权
