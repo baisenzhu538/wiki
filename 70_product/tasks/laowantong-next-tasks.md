@@ -3218,3 +3218,140 @@ total: 1190, p0: 0, p1: 0, clean: 1190, yaml_error: 0
 2. 批次 5 目标卡 ID 与任务文件清单存在不一致：`manage-team-startup-stage-1-3` 等 5 个 ID 在库中不存在，实际按清单精修了 `yt-management-business-formula` 等 5 卡；另误精修了 `yt-management-scientific-meetings`，请确认是否保留。
 3. 多张卡 `reviewed_by` 设为"王语嫣"或"欧阳锋"以满足门禁，实际人工审查待正式走审。
 4. `kdo_lint.py` 对 wikilink 和中文 card ID 存在误报，未作为验收依据。
+
+---
+
+## 二十一、下一阶段：再三十张卡深度精修（老顽童主责）
+
+> **来源**：用户要求继续安排后续任务。
+> **角色说明**：欧阳锋当前连不上，由王语嫣代欧阳锋评估与验收。
+> **目标**：对 30 张已有卡片做第二圈深度提升。本轮重点回应第二十节域间自检提炼出的共同模式，同时继续深化核心框架卡、case 卡和系统暗知识卡。
+> **验收人**：王语嫣（代欧阳锋）
+
+### 三十张目标卡
+
+#### 批次 1：回应共同模式——跨域框架卡升级（5 张）
+
+| 序号 | 卡片 ID | 类型 | 精修重点 |
+|:----:|:--------|:----:|:---------|
+| 1 | `modeling-three-stages` | framework | status→enriched；把"人在环中建模五步法"（定义边界→生成→挑错→上锁→决定成熟）写入核心流程和 diagnostic_signals |
+| 2 | `process-modeling` | tool | status→enriched；把建模域共同模式"分解 × 锁 × 边界 × 迭代"显式写入，并给出跨案例 checklist |
+| 3 | `yt-entrepreneur-lean-validation` | tool | 把"不确定性重新框定为学习速度"写入核心主张；新增精益验证四步循环 diagnostic_signals |
+| 4 | `yt-panproduct-execution-roi-analysis` | tool | 把工具投资决策五段式（真实成本 × 长期复用性 × 执行锁 × 迭代机制 × 反从众判断）写入诊断信号和 checklist |
+| 5 | `yt-management-basic-skills` | concept | DS 从 2 条扩到 3 条；把管理概念卡共同模式"阶段匹配 × 决策权 × 数据可验证 × 闭环机制"写入核心框架 |
+
+#### 批次 2：核心框架/工具卡深化（10 张）
+
+| 序号 | 卡片 ID | 类型 | 精修重点 |
+|:----:|:--------|:----:|:---------|
+| 6 | `yt-five-step-method` | framework | status→reviewed/enriched；DS 从 2 条扩到 3 条；补充五步法通用边界和失败模式 |
+| 7 | `yt-entrepreneur-five-step-method` | tool | status→enriched；DS 从 2 条扩到 3 条；补充创业者视角的落地 checklist |
+| 8 | `yt-model-entrepreneur-map` | framework | DS 从 2 条扩到 3 条；补充创业修炼地图的误用场景和跨域链接 |
+| 9 | `yt-foresight-business-spectrum` | framework | DS 从 3 条扩到 4 条；补充终局光谱图的具体使用边界 |
+| 10 | `yt-barrier-identification-skill` | skill | DS 从 2 条扩到 3 条；补充假壁垒判断的失败模式和修复 |
+| 11 | `yt-unit-model-build` | skill | status→enriched；DS 从 2 条扩到 3 条；新增单元模型搭建的常见错误和修正路径 |
+| 12 | `yt-unit-model-selection` | tool | status→enriched；DS 从 2 条扩到 3 条；新增单元模型选择的决策树 |
+| 13 | `yt-decision-width-method` | tool | DS 从 3 条扩到 4 条；补充宽度陷阱的跨案例诊断 |
+| 14 | `yt-decision-depth-ladder` | tool | DS 从 2 条扩到 3 条；补充深度幻觉的具体症状和修复 |
+| 15 | `yt-tool-product-core-canvas` | tool | 补充"画布填完但没用"的更多失败模式；新增 AI 时代产品内核画布的变体用法 |
+
+#### 批次 3：Case 卡升级（10 张）
+
+| 序号 | 卡片 ID | 类型 | 精修重点 |
+|:----:|:--------|:----:|:---------|
+| 16 | `case-smart-medicine-cabinet-business-model-validation` | case | status→enriched；正文补充诊断信号、失败模式、可迁移场景；建立 2 条以上互链 |
+| 17 | `case-smart-medicine-cabinet-corporate-risk` | case | 同上；补充企业采购决策链的具体分析 |
+| 18 | `case-smart-medicine-cabinet-failure-patterns-library` | case | 同上；把失败模式库结构化，新增检索/使用指南 |
+| 19 | `case-hr-saas-feature-usage-trap` | case | 正文补充诊断信号、失败模式、可迁移场景；建立 2 条以上互链 |
+| 20 | `case-toc-content-platform-correlation-trap` | case | 同上；补充内容平台因果相关陷阱的跨平台对比 |
+| 21 | `case-truman-ai-skill-self-packaging` | case | status→enriched；DS 从 2 条扩到 3 条；正文补充诊断信号和失败模式 |
+| 22 | `case-truman-personal-growth-map-creation` | case | status→enriched；DS 从 2 条扩到 3 条；正文补充失败模式和可迁移 checklist |
+| 23 | `case-toc-ecommerce-formula-misjudgment` | case | 正文补充诊断信号、失败模式；建立与 `yt-business-formula-business-pattern-selector` 互链 |
+| 24 | `case-ai-time-management-tiered-growth` | case | 正文补充诊断信号、失败模式、可迁移场景；建立 2 条以上互链 |
+| 25 | `case-yitang-radar-chart-selection` | case | status→enriched；正文补充雷达图选项目的具体决策过程、失败模式和诊断信号 |
+
+#### 批次 4：系统暗知识卡深化（5 张）
+
+| 序号 | 卡片 ID | 类型 | 精修重点 |
+|:----:|:--------|:----:|:---------|
+| 26 | `dk-c1-cjk-regex-silent-fail` | dark-knowledge | status→enriched；新增 CJK 正则静默失败的触发信号、修复 checklist、跨系统影响分析 |
+| 27 | `dk-c2-dual-status-machine` | dark-knowledge | status→enriched；新增双状态机的失效场景、调试信号、修复路径 |
+| 28 | `dk-c3-txt-ingest-skip` | dark-knowledge | status→enriched；新增 txt 素材跳过的触发信号、数据丢失风险评估、修复 SOP |
+| 29 | `dk-f1-regex-on-cjk` | dark-knowledge | status→enriched；新增 CJK 环境下正则误匹配的真实案例和防御模式 |
+| 30 | `dk-f2-txt-ingest-skip` | dark-knowledge | status→enriched；新增工厂层 txt 跳过事故的复盘、监控指标和修复动作 |
+
+### 精修标准（必须满足）
+
+每张卡精修后需达到：
+
+1. **diagnostic_signals ≥ 3 条**（框架/工具/概念卡在 frontmatter；case/dk 卡可在正文，但必须 ≥3 条可识别的触发信号/诊断问题）
+2. **Constraints & Boundaries ≥ 4 条适用边界 + 4 条失败模式**（框架/工具/概念卡）；case/dk 卡必须有 ≥4 条"可迁移场景/使用边界"和 ≥4 条"失败模式/常见陷阱"
+3. **失败模式必须具体**：有真实症状 + 可执行修复
+4. **新增至少 1 个案例/实例/计算模板/checklist**
+5. **建立至少 2 条新互链**（与相关框架卡、case 卡、dk 卡双向链接）
+6. **更新 `updated_at`**
+7. **跑单卡 lint 通过**，无 YAML 错误
+
+### case/dk 卡特殊要求
+
+- case 卡必须有：**Background / What Happened / 结果 / 可迁移 / 诊断信号 / 失败模式**
+- dk 卡必须有：**原始表述 / 深度洞察 / 使用场景 / 操作方法 / 适用边界 / 失败模式 / 为什么值钱**
+- 所有 case/dk 卡 status 从 draft 改为 enriched（如果当前是 draft）
+
+### 域间自检三问（每完成一个域必须回答）
+
+老顽童每完成一个批次（一个域），在继续下一个域之前，必须独立回答以下三个问题，并把答案写入本文件末尾的进度记录：
+
+1. **案例够了吗？**
+   - 这个域的框架/概念卡是否有足够的案例支撑？
+   - 案例是否覆盖了成功、失败、边界三种情况？
+   - 还缺哪类案例？是否需要在下一个域中补回？
+
+2. **暗知识在哪里？**
+   - 这个域中哪些知识是"只有亲历者才知道"的反常识？
+   - 哪些失败模式是公开资料不会写的？
+   - 是否有必要把某些洞察提炼为新的 `dk-*` 卡？
+
+3. **这几个案例有共同模式吗？**
+   - 同一域内的多个案例是否呈现出重复出现的结构？
+   - 能否抽象出一个跨案例的框架、检查清单或诊断信号？
+   - 这个共同模式是否已经在现有框架卡中体现？如果没有，是否需要补充？
+
+> 这三个问题不是形式，而是防止"为凑数精修"的质量门。回答必须具体，不能写"够""有""是"等敷衍词。
+
+### 执行节奏
+
+```
+第 1 天：批次 1（回应共同模式的框架卡 5 张）
+第 2-3 天：批次 2（核心框架/工具卡 10 张）
+第 4-6 天：批次 3（Case 卡升级 10 张）
+第 7-8 天：批次 4（系统暗知识卡 5 张）
+第 9 天：全库 lint + 质量门禁 + 写小结
+```
+
+实际可交叉执行，不必严格按天。用户已允许 agent 高速执行。
+
+### 严禁
+
+- ❌ 不要新增卡片（本次只精修已有卡）
+- ❌ 不要为了凑数写重复内容
+- ❌ 不要批量改完再跑 lint——改一张跑一张
+- ❌ 不要把 case 卡写成概念描述
+- ❌ 不要把 dk 卡写成普通概念卡（必须保留"原始表述"和"为什么值钱"）
+- ❌ 不要改动不熟悉的卡片（30 张已指定，不要替换）
+
+### 验收标准
+
+- [ ] 30 张卡全部完成精修
+- [ ] 每批完成后已记录进度并完成域间自检三问
+- [ ] 全库 `kcard-quality-gate.py` P0 = 0，YAML 错误 = 0
+- [ ] 全库 P1 不新增
+- [ ] 30 张目标卡 status 均为 enriched（或 reviewed，如 `yt-five-step-method`）
+- [ ] 在此文件末尾写小结，列出：精修清单、主要改进点、仍存疑的问题
+
+### 当前基线
+
+```text
+python 90_control/scripts/kcard-quality-gate.py
+total: 1190, p0=0, p1=0, clean: 1190, yaml_error: 0
+```
