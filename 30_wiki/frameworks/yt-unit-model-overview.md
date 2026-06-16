@@ -28,6 +28,7 @@ related:
 - '[[yt-business-formula-business-pattern-selector]]'
 - '[[master-decision-hygiene]]'
 - '[[master-first-principles]]'
+- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 diagnostic_signals:
 - signal: 团队能算清公司整体账，但说不清"复制一个单元"到底赚不赚钱
   framework_lens: 缺少最小经济单元视角——总账会掩盖单元的真实盈利能力

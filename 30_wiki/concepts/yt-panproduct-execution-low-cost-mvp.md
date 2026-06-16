@@ -28,6 +28,7 @@ related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-research-hypothesis-test]]'
+- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260609_9168476b

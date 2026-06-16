@@ -29,6 +29,7 @@ related:
 - '[[process-modeling]]'
 - '[[case-modeling-essence-levels]]'
 - '[[case-modeling-abstraction-yitang-models]]'
+- '[[case-yitang-model-asset-inventory]]'
 diagnostic_signals:
 - signal: 用户说"这个事情怎么做才能不每次重新想"
   framework_lens: 流程类建模

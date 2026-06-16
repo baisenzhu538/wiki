@@ -34,6 +34,7 @@ related:
 - '[[concept-一堂-key-assumptions]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
+- '[[case-yitang-weekly-modeling-engine]]'
 wiki_refs:
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
@@ -42,6 +43,7 @@ wiki_refs:
 - '[[concept-一堂-key-assumptions]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
+- '[[case-yitang-weekly-modeling-engine]]'
 diagnostic_signals:
 - signal: 团队把"做出样品"当成验证起点，还没想清楚要验证哪个假设
   framework_lens: 一堂五步法 / 关键假设拆解
