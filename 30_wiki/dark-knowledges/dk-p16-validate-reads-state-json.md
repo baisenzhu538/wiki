@@ -15,6 +15,7 @@ updated_at: '2026-06-16'
 related:
 - '[[master-first-principles]]'
 - '[[master-systems-thinking]]'
+- '[[dk-c3-txt-ingest-skip]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
@@ -69,6 +70,7 @@ trust_level: low
 ## 与其他知识的关联
 
 - dk-p15-claimed-done-not-verified — 同一模式："验证结果不可靠"。P-15 是"执行者的报告不可信"，P-16 是"系统的验证逻辑读错了数据源"——两者都是"以为已验证但实际验证的是错误的东西"
+- [[dk-c3-txt-ingest-skip]] — 诊断 C-3 时必须读取 `state.json` 确认 `ingested_inbox_files` 计数，而 P-16 提醒我们：读 state.json 时要意识到它可能与文件 frontmatter 不一致，避免把"错误的缓存状态"当成"真实入库状态"
 - master-systems-thinking — 系统思维中的"状态一致性"原则：当同一信息存储在多个独立位置时，必须有明确的 truth source 和同步机制，否则不一致是必然结果
 - `.agent/pitfalls.md` → P-16（原始记录，未编号段落）
 
