@@ -27,6 +27,7 @@ related:
 - '[[dk-modeling-ai-iterative-prompting]]'
 - '[[dk-modeling-ai-cross-validation]]'
 - '[[dk-modeling-ai-self-retrospection]]'
+- '[[dk-modeling-logical-cleanliness-root]]'
 tags:
 - '#method/modeling'
 - '#content-format/case-study'

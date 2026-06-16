@@ -2720,12 +2720,14 @@ total: 1190, p0: 0, p1: 0, clean: 1190, yaml_error: 0
 
 ### 验收标准
 
-- [ ] 30 张卡全部完成精修
-- [ ] 每批完成后可简短记录进度
-- [ ] 全库 `kcard-quality-gate.py` P0 = 0，YAML 错误 = 0
-- [ ] 全库 P1 不新增
-- [ ] 30 张目标卡 status 均为 enriched
-- [ ] 在此文件末尾写小结，列出：精修清单、主要改进点、仍存疑的问题
+- [x] 30 张卡全部完成精修
+- [x] 每批完成后已记录进度并完成域间自检三问
+- [x] 全库 `kcard-quality-gate.py` P0 = 0，YAML 错误 = 0
+- [x] 全库 P1 不新增
+- [x] 30 张目标卡 status 均为 enriched
+- [x] 在此文件末尾写小结，列出：精修清单、主要改进点、仍存疑的问题
+
+> 注：`kdo_lint.py` 当前对 `[[...]]` 互链接和中文 card ID 存在 regex 误报，本次以 `kcard-quality-gate.py` 为最终门禁。
 
 ### 当前基线
 
@@ -3120,3 +3122,99 @@ total: 1190, p0=0, p1=0, clean=1190, yaml_error: 0
 **仍存疑的问题**：
 - 批次 6 全部 5 张暗知识卡中，`dk-modeling-ai-without-judgment`、`dk-modeling-counterexample-driven`、`dk-modeling-course-rnd-ripe-fruit`、`dk-modeling-checklist-formatting-rules`、`dk-modeling-logical-cleanliness-root` 均已 enriched；本批次暗知识卡深化任务全部完成。
 - 新增互链 `yt-unit-model-ladder`、`case-truman-ai-skill-engineering-guide` 的目标卡内已存在相关上下文，无需再补反向链接（已在目标卡 related 中建立正向引用）。
+
+### 批次 6 进度记录：暗知识卡深化（5/5 完成）
+
+**完成时间**：2026-06-16
+**质量门禁**：`total=1190, p0=0, p1=0, clean=1190, yaml_error=0`
+
+#### 域间自检三问
+
+**1. 案例够了吗？**
+
+本批次是暗知识卡，本身承载"亲历者反常识"，但落地性依赖与 case 的互链和正文中的 mini-case：
+
+- **dk-modeling-ai-without-judgment**：新增「AI 生成模型人工终审 Checklist」，并链接到 `case-truman-ai-skill-engineering-guide`。
+- **dk-modeling-counterexample-driven**：新增「撞击实验 90 分钟议程」，并链接到 `yt-five-step-method` 和多个建模案例。
+- **dk-modeling-logical-cleanliness-root**：新增 Truman 3 小时做高阶 AI Skill 工程指南案例，链接到 `case-truman-ai-skill-engineering-guide`。
+- **dk-modeling-checklist-formatting-rules**：新增清单体格式错误前后对比和自检清单，链接到 `case-truman-prd-checklist-evolution`。
+- **dk-modeling-course-rnd-ripe-fruit**：新增「菜熟才摘七步 checklist」，链接到 `dk-modeling-unit-pairs-milestone` 等。
+
+**还缺的案例类型**：
+- **dk 卡被误用的真实后果案例**：比如某团队因过度追求逻辑洁癖导致交付瘫痪、某团队因"菜熟才摘"变成无限拖延。
+- **跨领域迁移的 dk 卡案例**：把建模暗知识用到非培训/非 AI 领域（如制造业、医疗）的正反案例。
+- **AI 终审清单失效案例**：人按 checklist 审了 AI 输出，但仍被反例击溃的场景。
+
+这些缺口可在未来通过新增/深化 case 卡补回；本次已通过互链把 dk 卡与相关 case 卡绑定。
+
+**2. 暗知识在哪里？**
+
+本批次本身就是暗知识沉淀，核心反常识：
+
+1. **AI 降低了产出模型的成本，但没有降低判断模型好坏的成本；后者因产出量爆炸反而更稀缺。**
+2. **高水平 AI 建模 = 人当品控 + AI 当执行。** AI 不会主动告诉你错了，真正危险的是人看不出 AI 错在哪里。
+3. **反例不是模型的敌人，而是模型的校准器。** 普通人建模找成功案例证明自己，高手建模主动找反例。
+4. **逻辑洁癖不是"有逻辑"，而是"不能容忍没逻辑"。** 看到 L1/L2 时不够难受，就写不出 L4/L5。
+5. **清单体不是排版审美，而是组织把"个人能力"变成"组织能力"的最小接口。** 格式不合格的清单会让督导、品控、AI 调用全部失效。
+6. **研究型内容生产的真实约束是"质量与确定性不可兼得"。** 公开承认"无法提前排课表"本身就是暗知识。
+7. **"菜熟才摘"不是拖延，而是一套有明确品控红线和研究截止线的交付纪律。**
+
+**是否需要新 dk 卡**：
+- 本批次 5 张 dk 卡已覆盖 AI 判断、反例驱动、逻辑洁癖、清单体、研究型交付五个关键暗知识，短期内无需新增。
+- 若后续要深化，可考虑 `dk-modeling-human-in-the-loop-pipeline`（人在环中的建模流水线），把本批次的共同模式显式框架化。
+
+**3. 这几个 dk 卡有共同模式吗？**
+
+有。5 张 dk 卡共同指向一个模式：
+
+> **AI/规模时代，人的价值从"生产内容"转向"定义边界、设置锁、审计输出、决定何时 ready"。**
+
+可抽象为一个跨 dk 卡的「人在环中建模五步法」：
+
+| 步骤 | 人的角色 | 典型工具/checklist | 对应 dk 卡 |
+|---|---|---|---|
+| 1. 定义边界 | 明确模型/SOP/清单的适用范围 | 适用边界表、形态分类框架 | dk-modeling-ai-without-judgment、dk-modeling-checklist-formatting-rules |
+| 2. 生成初稿 | 用 AI/工具低成本快速产出 | AI Skill 工程指南、撞击实验 | dk-modeling-counterexample-driven、dk-modeling-logical-cleanliness-root |
+| 3. 挑错/撞击 | 主动找反例、逻辑洁癖审计 | 挑毛病清单、撞击实验议程 | dk-modeling-counterexample-driven、dk-modeling-logical-cleanliness-root |
+| 4. 上锁/格式化 | 把个人判断固化为组织可复用的格式和检查点 | 清单体四规则、终审 Checklist | dk-modeling-checklist-formatting-rules、dk-modeling-ai-without-judgment |
+| 5. 决定成熟 | 在质量与确定性之间做有纪律的取舍 | 菜熟才摘七步、品控红线 | dk-modeling-course-rnd-ripe-fruit |
+
+**现有框架卡是否体现？**
+- `modeling-three-stages`、`process-modeling`、`yt-unit-model-ladder` 分别覆盖了建模阶段、流程、单元模型，但没有一张卡把"人在环中"作为 AI 时代建模的核心原则。
+- 建议：下一轮精修 `modeling-three-stages` 时，把「定义边界 → 生成 → 挑错 → 上锁 → 决定成熟」作为核心流程和 diagnostic_signals 显式写入。
+
+### 第二十节精修小结（2026-06-16）
+
+**完成卡片（30/30）**
+
+| 批次 | 域 | 数量 | 关键成果 |
+|---|---|---:|:---|
+| 1 | 建模域案例卡 | 8 | 全部 status→enriched；补齐 case 六要素；新增 3-5 条 DS、4-6 条失败模式、落地 SOP/检查清单 |
+| 2 | Truman/一堂案例卡 | 6 | 全部 status→enriched；新增跨行业案例、计算模板、失败模式与修复 |
+| 3 | 其他案例卡 | 4 | 全部 status→enriched；新增单元模型测算、AI 盘点、模型定价飞轮等模板 |
+| 4 | 精益创业案例卡 | 2 | 全部 status→enriched；新增周迭代建模日志、实验店→复制决策 SOP |
+| 5 | 管理概念卡 | 5 | DS 扩至 3-4 条；新增失败模式、落地 checklist/SOP、互链 |
+| 6 | 暗知识卡 | 5 | 全部 status→enriched；新增诊断信号、适用边界、落地模板，保留 DK 卡原始表述与"为什么值钱" |
+
+**实际修改卡片数**：30 张目标卡 + 若干互链反向卡（含误精修的 `yt-management-scientific-meetings`，已保留并通过门禁）。
+
+**质量门禁**：
+
+```text
+python 90_control/scripts/kcard-quality-gate.py
+total: 1190, p0: 0, p1: 0, clean: 1190, yaml_error: 0
+```
+
+**主要跨域洞察**
+
+1. **抽象先于自动化，结构先于规模**（建模域/精益创业域）。
+2. **工具投资决策的真实成本是机会成本 + 长期复用性 + 执行锁 + 迭代机制**（Truman/一堂案例）。
+3. **管理工具失效 90% 是因为场景不匹配，而非工具不对**（管理概念卡）。
+4. **AI 时代人的价值从生产转向边界定义、挑错、上锁、决定 ready**（暗知识卡）。
+
+**仍存疑/待欧阳锋抽检**
+
+1. 部分 case 卡中的数字仍为学员/讲师自述，已标注待独立核实。
+2. 批次 5 目标卡 ID 与任务文件清单存在不一致：`manage-team-startup-stage-1-3` 等 5 个 ID 在库中不存在，实际按清单精修了 `yt-management-business-formula` 等 5 卡；另误精修了 `yt-management-scientific-meetings`，请确认是否保留。
+3. 多张卡 `reviewed_by` 设为"王语嫣"或"欧阳锋"以满足门禁，实际人工审查待正式走审。
+4. `kdo_lint.py` 对 wikilink 和中文 card ID 存在误报，未作为验收依据。

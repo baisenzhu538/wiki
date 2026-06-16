@@ -2,7 +2,7 @@
 id: yt-lean-daily-chemical-mvp
 title: 日化沐浴露MVP：不生产产品验证行业机会
 type: case
-status: draft
+status: enriched
 domain:
 - yitang
 - entrepreneurship
