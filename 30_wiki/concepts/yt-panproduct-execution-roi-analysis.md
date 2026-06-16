@@ -30,6 +30,7 @@ related:
 - '[[case-ether-online-acquisition]]'
 - '[[case-truman-prd-checklist-evolution]]'
 - '[[case-truman-motivation-map-12-versions]]'
+- '[[case-smart-medicine-cabinet-failure-patterns-library]]'
 reviewed_by: 王语嫣
 source_refs:
 - src_20260609_30219516

@@ -3459,3 +3459,22 @@ total: 1190, p0=0, p1=0, clean: 1190, yaml_error: 0
 **仍存疑的问题**：
 - `yt-research-industry-canvas` 当前 status=draft，作为互链目标不影响目标卡门禁，但建议后续按批次 2/3 计划继续精修。
 - `kdo_lint.py` 对 wikilink 和中文 card ID 存在误报，未作为本次验收依据；本次以 `kcard-quality-gate.py` 为最终门禁。
+
+
+### 第二十一节批次 3 进度记录：`case-smart-medicine-cabinet-failure-patterns-library` 深度精修完成
+
+**完成时间**：2026-06-16  
+**质量门禁**：`total: 1190, p0: 0, p1: 0, clean: 1190, yaml_error: 0`
+
+| 序号 | 卡片 ID | 当前状态 | 本次操作 |
+|:----:|:--------|:--------:|:---------|
+| 18 | `case-smart-medicine-cabinet-failure-patterns-library` | ✅ enriched | 正文重组为 Background / What Happened / 结果 / 可迁移 / 诊断信号 / 失败模式；新增 frontmatter diagnostic_signals 5 条（Signal→Lens→Follow-up）；可迁移场景扩至 5 条；失败模式扩至 6 条并附真实症状+可执行修复；新增「智能药柜项目 10 分钟风险扫描表」；建立 3 条新互链 `yt-entrepreneur-lean-validation`、`yt-panproduct-execution-roi-analysis`、`yt-barrier-identification-skill`（双向）；`reviewed_by`→王语嫣（代欧阳锋）；`updated_at`→2026-06-16 |
+
+**本卡可提炼的暗知识/反常识**：
+1. **智能药柜的核心失败不是技术失败，而是"便利性"这个价值主张被 O2O 送药 silently 取代。** 用户要的不是"下楼买药"，而是"不用下楼也能尽快拿到药"；药柜的 24 小时自助优势在 30 分钟送达面前被瓦解。
+2. **"知名品牌授权"是药柜招商中最危险的烟雾弹。** 修正集团的授权让投资者误以为背书等于可靠性，实际上授权方对加盟商的运营和点位质量不负最终责任。
+
+**仍存疑的问题**：
+- 修正未来药房汉中 31 台机器"月均销售 151 元/台"的数据来源为单一公开报道，待独立核实。
+- 广西 92 台、叮当健康关城等数据来自公开信息，具体财务细节有限。
+- `kdo_lint.py` 对 wikilink 和中文 card ID 存在误报，未作为本次验收依据；本次以 `kcard-quality-gate.py` 为最终门禁。

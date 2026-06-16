@@ -16,6 +16,7 @@ related:
 - '[[dk-truman-knowledge-extraction-three-schools]]'
 - '[[ai-learning-closed-loop]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
+- '[[case-truman-ai-skill-self-packaging]]'
 - '[[yt-personal-pan-product-tools]]'
 - '[[dk-modeling-checklist-formatting-rules]]'
 - '[[yt-panproduct-execution-roi-analysis]]'

@@ -61,6 +61,7 @@ related:
 - '[[case-yitang-weekly-modeling-engine]]'
 - '[[modeling-three-stages]]'
 - '[[case-yitang-model-valuation-flywheel]]'
+- '[[case-yitang-radar-chart-selection]]'
 ---
 # 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式
 

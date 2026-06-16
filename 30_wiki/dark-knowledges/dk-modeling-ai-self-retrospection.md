@@ -18,6 +18,7 @@ related:
 - '[[modeling-capability-for-kdo]]'
 - '[[modeling-capability-system]]'
 - '[[dk-modeling-ai-without-judgment]]'
+- '[[case-truman-ai-skill-self-packaging]]'
 tags:
 - '#content-format/sop'
 - '#domain/yitang'

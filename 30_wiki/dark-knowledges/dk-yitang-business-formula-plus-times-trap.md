@@ -16,7 +16,7 @@ source_refs:
 created_at: 2026-06-15
 updated_at: '2026-06-16'
 reviewed_by: 老顽童
-review_date: 2026-06-15
+review_date: 2026-06-16
 trust_level: high
 related:
 - '[[yt-business-formula-abc-model]]'
@@ -24,6 +24,7 @@ related:
 - '[[yt-business-formula-parameter-iceberg]]'
 - '[[yt-business-formula-business-pattern-selector]]'
 - '[[yt-business-formula-qualitative-metrics-library]]'
+- '[[case-toc-ecommerce-formula-misjudgment]]'
 - '[[case-gym-membership-formula]]'
 - '[[case-toc-content-platform-correlation-trap]]'
 - '[[case-hr-saas-feature-usage-trap]]'

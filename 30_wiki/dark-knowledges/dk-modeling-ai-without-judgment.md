@@ -24,6 +24,7 @@ related:
 - '[[dk-modeling-ai-judgment-limit]]'
 - '[[dk-modeling-ai-iterative-prompting]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
+- '[[case-truman-personal-growth-map-creation]]'
 tags:
 - '#chunk-type/error-data'
 - '#domain/yitang'

@@ -33,6 +33,7 @@ related:
 - '[[case-yitang-model-asset-inventory]]'
 - '[[dk-modeling-checklist-formatting-rules]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
+- '[[case-yitang-radar-chart-selection]]'
 diagnostic_signals:
 - signal: 用户说"这个事情怎么做才能不每次重新想"
   framework_lens: 流程类建模

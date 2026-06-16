@@ -18,6 +18,7 @@ query_triggers:
 related:
 - '[[yt-model-personal-pitch-toolkit]]'
 - '[[case-personal-map-modeling]]'
+- '[[case-truman-personal-growth-map-creation]]'
 reviewed_by: 黄药师
 source_refs:
 - src_20260614_720e62a1

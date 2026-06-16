@@ -28,6 +28,7 @@ related:
 - '[[case-纪浩-skill-market-problem-validation]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[case-yitang-weekly-modeling-engine]]'
+- '[[case-smart-medicine-cabinet-failure-patterns-library]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
