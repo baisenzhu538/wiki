@@ -33,6 +33,7 @@ wiki_refs:
 - '[[case-gudong-tea-shop-foresight]]'
 related:
 - "case-ether-online-acquisition"
+- "yt-management-founder-role"
 pipeline:
 - confidence-source-cited
 - confidence-verified-by-outcome
@@ -138,6 +139,7 @@ updated_at: '2026-06-16'
 
 - [[yt-foresight-probability-engineering]] — 这是概率工程的最完整实战案例
 - [[yt-foresight-deliverables-four-levels]] — Truman的交付物达到了L4（1个Plan A + 2个Plan B，都有Priority）
+- [[yt-management-founder-role]] — 一号位：本案例是创始人"方向决策"不可委托职责的实战参照——从市场扫描到 Plan ABC 最终拍板
 - [[case-gudong-tea-shop-foresight]] — 对照：古董是"只能赌一次"所以预判极深，Truman是"可以试多次"所以预判+快试错组合
 - [[yt-five-step-method]] — 每个Plan都需要填一张五步法画布
 

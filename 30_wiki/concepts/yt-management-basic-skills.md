@@ -25,6 +25,8 @@ trust_level: medium-low
 source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+related:
+- "yt-management-founder-role"
 ---
 # 基本功认知
 
@@ -157,6 +159,7 @@ Argyris 发现，**聪明的、有经验的管理者恰恰是最擅长防御性�
 ### 关联卡片
 
 - [[yt-management-leadership-levels]] — 管理者五段位：基本功是段位晋升的基础层，段位越高对基本功的深度要求越高
+- [[yt-management-founder-role]] — 一号位：管理基本功在创始人身上的最高表现，就是分清"必须亲自盯"与"应该授权"
 - [[yt-management-scientific-hiring]] — 科学招聘：招聘是管理基本功中"选人"环节的深化
 - [[yt-management-onboarding]] — 新人落地：从"招到人"到"人融入"的衔接
 - [[yt-management-scientific-meetings]] — 科学开会：开会是管理者最高频的基本功应用场景

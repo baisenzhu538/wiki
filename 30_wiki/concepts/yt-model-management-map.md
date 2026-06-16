@@ -39,6 +39,8 @@ diagnostic_signals:
   - {'signal': '管理者把L5管公司内容套用到10人团队', 'framework_lens': '阶段错配——管理地图的段位与组织规模不匹配', 'follow_up_question': '你的团队当前处于什么规模？10人团队和1000人团队需要的管理杠杆完全不同'}
 author: "老顽童"
 trust_level: medium-high
+related:
+  - "[[yt-management-business-formula]]"
 ---
 
 # 一堂管理地图：高潜力管理者修炼全景图
@@ -149,6 +151,7 @@ trust_level: medium-high
 | 关联框架 | [[yt-model-y-organization]] | Y 模型（底层逻辑） |
 | 关联框架 | [[yt-model-entrepreneur-map]] | 创业地图（姊妹篇：创业必修） |
 | 关联框架 | [[yt-model-personal-map]] | 个人地图（从管自己起步的基础） |
+| 关联工具 | [[yt-management-business-formula]] | L4 管业务的核心工具：把业务逻辑转化为可量化、可迭代的公式 |
 | 关联 | yt-system-course-catalog#管理必修 | 管理必修课程目录 |
 | 实体页 | [[一堂]] | 一堂实体页 |
 

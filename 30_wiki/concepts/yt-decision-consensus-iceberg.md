@@ -321,6 +321,7 @@ March让共识冰山使用者睡不着觉的问题是：你最近一次真正重
 | 跨域连接 | nonviolent-communication-rosenberg | 教练式提问中的"观察→感受→需要→请求"与NVC四要素在沟通结构上同源 |
 | 跨域连接 | facilitation-technology | 共识冰山的"教练式提问"与引导技术的"中立主持人"角色互补——前者由领导者执行，后者由第三方执行 |
 | 跨模块连接 | [[yt-management-scientific-decision]] | 管理模块的会议设计为共识冰山提供结构化会议流程（如六顶思考帽、世界咖啡） |
+| 跨模块连接 | [[yt-management-scientific-meetings]] | 科学开会提供会议设计的底层框架——议程、时间盒、行动项闭环是共识冰山落地的容器；当会议出现"惯性开会""结论模糊"时，先回到科学开会做存在理由审计 |
 
 
 

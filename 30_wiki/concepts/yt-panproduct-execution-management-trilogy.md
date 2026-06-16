@@ -146,6 +146,7 @@ trust_level: medium
 | 相关工具 | [[yt-panproduct-execution-milestone-breakdown]] | 里程碑拆解（路径拆解的具体方法） |
 | 相关工具 | [[yt-panproduct-execution-roi-analysis]] | ROI分析（资源维度的定量评估） |
 | 父框架 | [[yt-model-pan-product-execution-toolkit]] | 落地工具箱总指南 |
+| 跨模块连接 | [[yt-management-scientific-meetings]] | 科学开会：当团队会议中"各说各话"时，先用科学开会的议程时间盒把讨论框定在三段论的"目标→路径→资源"框架内 |
 | 实体页 | [[一堂]] | 一堂实体页 |
 
 ### 不要用的场景

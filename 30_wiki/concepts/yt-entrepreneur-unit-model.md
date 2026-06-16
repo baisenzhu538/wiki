@@ -20,6 +20,7 @@ query_triggers:
 - 单客经济模型
 related:
 - '[[dk-yb21-ecommerce-pricing-independent-model]]'
+- '[[yt-management-business-formula]]'
 review_date: 2026-06-15
 reviewed_by: pending
 source_refs:
@@ -184,6 +185,7 @@ author: 老顽童
 
 ### 关联框架卡
 - [[yt-model-entrepreneur-map]]
+- [[yt-management-business-formula]] — 业务公式：单元模型是创业场景下的业务公式，聚焦最小交易单元的量化逻辑
 
 ## Synthesis
 
