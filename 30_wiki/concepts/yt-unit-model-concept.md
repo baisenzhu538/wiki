@@ -23,7 +23,9 @@ source_refs:
 - 00_inbox/一堂五步法/一堂-一堂五步法-单元模型-笔记.txt
 related:
 - '[[yt-unit-model-selection]]'
+- '[[yt-unit-model-build]]'
 status: draft
+updated_at: '2026-06-16'
 title: 单元模型：商业模式评估的核心工具
 trust_level: medium
 type: framework

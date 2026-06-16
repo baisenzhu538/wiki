@@ -33,6 +33,8 @@ related:
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[yt-lean-assumption-verification-3means]]'
 - '[[yt-growth-cycle-model]]'
+- '[[yt-model-entrepreneur-map]]'
+- '[[yt-foresight-business-spectrum]]'
 diagnostic_signals:
 - signal: 团队只看总指标（如GMV、总用户数）增长就决定放大
   framework_lens: 指标脱离单元模型

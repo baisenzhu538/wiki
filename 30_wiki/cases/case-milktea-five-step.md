@@ -16,6 +16,8 @@ updated_at: '2026-06-16'
 related:
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[concept-一堂-key-assumptions]]'
+- '[[yt-model-entrepreneur-map]]'
+- '[[yt-entrepreneur-five-step-method]]'
 wiki_refs:
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[concept-一堂-key-assumptions]]'

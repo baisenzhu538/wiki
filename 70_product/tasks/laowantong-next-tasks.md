@@ -3438,3 +3438,24 @@ total: 1190, p0=0, p1=0, clean: 1190, yaml_error: 0
 - `yt-management-basic-skills`（管理工具落地四问）
 
 中分别体现，但缺少一张**跨域 synthesis 卡**把这五个框架统合起来。建议本轮后续或下一轮补一张 `framework-high-quality-knowledge-work-meta` 或类似 synthesis 卡（本次任务禁止新增卡片，先记录）。
+
+---
+
+### 第二十一节批次 2 进度记录：`yt-foresight-business-spectrum` 深度精修完成
+
+**完成时间**：2026-06-16  
+**质量门禁**：`total=1190, p0=0, p1=0, clean=1190, yaml_error=0`
+
+| 序号 | 卡片 ID | 当前状态 | 本次操作 |
+|:----:|:--------|:--------:|:---------|
+| 9 | `yt-foresight-business-spectrum` | ✅ enriched | DS 从 3 条扩到 4 条；Constraints & Boundaries 改为标准格式：适用边界 6 条、常见失败模式 5 条并附真实症状+可执行修复；新增「终局光谱图落地 Checklist」7 步；建立 2 条新互链 `yt-lean-growth-stage-gate`、`yt-research-industry-canvas`（双向）；`reviewed_by`→王语嫣；`updated_at`→2026-06-16 |
+
+**本卡可提炼的使用边界**：
+> **光谱图适合回答"我想做多大/能承受什么代价"，不适合回答"这个机会值多少钱"或"我现在做得怎么样"。**
+
+- 适合：已有创业方向需校准规模野心；团队准备跃迁到下一层级。
+- 不适合：快速变化行业的长期定位、平台转移式机会评估、给现状打分、极早期需求验证。
+
+**仍存疑的问题**：
+- `yt-research-industry-canvas` 当前 status=draft，作为互链目标不影响目标卡门禁，但建议后续按批次 2/3 计划继续精修。
+- `kdo_lint.py` 对 wikilink 和中文 card ID 存在误报，未作为本次验收依据；本次以 `kcard-quality-gate.py` 为最终门禁。

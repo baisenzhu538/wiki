@@ -13,6 +13,13 @@ title: yt decision abcd model
 source_refs:
 - src_20260522_3261e6bd
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_3261e6bd）
+related:
+- '[[yt-decision-y-model]]'
+- '[[yt-decision-width-method]]'
+- '[[yt-decision-height-toolkit]]'
+- '[[yt-decision-depth-ladder]]'
+- '[[yt-decision-consensus-iceberg]]'
+- '[[yt-decision-full-process]]'
 updated_at: '2026-06-16'
 ---
 # 一堂·关键假设ABCD模型

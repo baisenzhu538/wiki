@@ -25,6 +25,7 @@ related:
 - '[[yt-research-expert-interview]]'
 - '[[yt-research-hypothesis-test]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-foresight-business-spectrum]]'
 source_refs:
 - 00_inbox/ideas/一堂-创业必修-调研武器库.md
 - 00_inbox/ideas/一堂-创业必修-调研行动营.md
