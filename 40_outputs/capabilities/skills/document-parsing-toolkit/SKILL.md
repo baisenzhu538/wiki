@@ -2,7 +2,7 @@
 name: document-parsing-toolkit
 title: Document Parsing Toolkit — 从 PDF/图片到结构化 Markdown 的引擎选型与管线
 type: capability/skill
-status: draft
+status: stable
 description: >
   系统梳理从 PDF、课程截图、研报、论文中提取结构化 Markdown 的可用引擎：
   PaddleOCR.js（本地轻量）、PaddleOCR-VL（中文 SOTA）、MinerU 2.5（复杂中文文档）、
@@ -140,13 +140,45 @@ marker_single input.pdf --output_dir output_dir
 
 > ✅ **PaddleOCR.js 已验证**：作为现有 `image-ocr` skill 持续可用。
 >
-> ⚠️ **MinerU 2.5 安装验证**（2026-06-14，WSL Ubuntu 22.04）：
+> ✅ **MinerU 安装验证完成**（2026-06-14/17，WSL Ubuntu 22.04）：
 > - `pip install magic-pdf[full]` 可成功安装（magic-pdf 1.3.12）
-> - Windows 直接运行会报 `onnxruntime_pybind11_state` DLL 加载失败，建议在 WSL 下使用
-> - WSL 下运行需要 `~/magic-pdf.json` 配置文件（模板见下方）
-> - **阻塞点**：模型权重文件需单独下载，未在本会话完成
+> - Windows 直接运行会报 `onnxruntime_pybind11_state` DLL 加载失败，**必须在 WSL 下使用**
+> - 模型从 ModelScope `opendatalab/PDF-Extract-Kit-1.0` 下载（约 3-4GB）
+> - **CPU 模式已跑通**，PDF 可正常解析为 Markdown
+>
+> ⚠️ **当前限制**：
+> - GPU 模式因 WSL NVIDIA 驱动版本过低无法使用（PyTorch 报 driver too old）
+> - 公式识别需关闭（`formula-config.enable: false`），否则 transformers 版本不兼容会报错 `cache_position`
+> - CPU 模式需手动建立 OCR 检测模型软链接（见下方"模型软链接 workaround"）
 >
 > ⚠️ **PaddleOCR-VL**：2026 年新模型，pip 包名和安装方式待官方稳定后验证。
+
+### MinerU 模型下载（ModelScope）
+
+```bash
+# 下载正确版本：PDF-Extract-Kit-1.0（匹配 magic-pdf 1.3.x）
+python3 - <<'PY'
+from modelscope import snapshot_download
+snapshot_download('opendatalab/PDF-Extract-Kit-1.0', cache_dir='/home/<user>/.cache/magic-pdf')
+snapshot_download('ppaanngggg/layoutreader', cache_dir='/home/<user>/.cache/magic-pdf')
+PY
+```
+
+下载完成后建立模型目录软链接：
+
+```bash
+cd /home/<user>/.cache/magic-pdf
+ln -s /home/<user>/.cache/magic-pdf/opendatalab/PDF-Extract-Kit-1.0/models models
+```
+
+### 模型软链接 workaround（CPU 模式必需）
+
+magic-pdf 1.3.12 在 CPU 下会强制切换为 `ch_lite`，硬编码读取 `ch_PP-OCRv3_det_infer.pth`。当前模型包只提供 `Multilingual_PP-OCRv3_det_infer.pth`（同架构）。建立软链接即可：
+
+```bash
+cd /home/<user>/.cache/magic-pdf/models/OCR/paddleocr_torch
+ln -s Multilingual_PP-OCRv3_det_infer.pth ch_PP-OCRv3_det_infer.pth
+```
 
 ### MinerU 配置模板（`~/magic-pdf.json`）
 
