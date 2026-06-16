@@ -189,6 +189,7 @@
 下列东西**已经存在且可用**，不要重新调研、重新部署：
 
 - ✅ OCR：PaddleOCR v5（`C:\Users\Administrator\ocr-pipeline\`）
+- ✅ PDF 解析：MinerU (magic-pdf) v1.3.12（WSL `/home/dministrator/.local/bin/mineru`）→ 见 `30_wiki/tools/mineru-pdf-parsing-setup.md`
 - ✅ 语义检索：LightRAG（`.kdo/graph_index/`）
 - ✅ 测试框架：pytest 9.0.3（182/182 passing）
 - ✅ 备份：坚果云 sandbox（`C:\Users\Administrator\Nutstore\1\我的坚果云\`）
