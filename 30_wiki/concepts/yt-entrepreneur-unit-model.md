@@ -22,6 +22,7 @@ related:
 - '[[dk-yb21-ecommerce-pricing-independent-model]]'
 - '[[yt-management-business-formula]]'
 review_date: 2026-06-15
+updated_at: 2026-06-16
 reviewed_by: pending
 source_refs:
 - src_20260614_8f80cb0f

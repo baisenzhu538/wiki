@@ -297,19 +297,16 @@ Weick 称之为"enactment"——你用的测量工具不仅描述现实，它改
 
 ### 关联卡片
 
-- [[yt-management-scientific-decision]] — 科学决策（Y模型）：业务公式是决策的量化输入，决策模型基于业务公式做 ROI 评估
+- [[yt-management-scientific-decision]] — 科学决策：业务公式提供决策所需的量化输入，决策模型基于公式做 ROI 评估
 - [[yt-management-goal-management]] — 目标管理：OKR 中的 Key Results 应直接来源于业务公式中的关键变量
 - [[yt-management-conversion-hacking]] — 转化率黑客：转化率就是业务公式中最典型的一个变量拆解应用
 - [[yt-management-finance-basics]] — 财务入门：业务公式的"营收端"与财务损益表直接对接
-- [[yt-entrepreneur-unit-model]] — 单元模型：创业版的业务公式，单个最小业务单元的经济模型
+- [[yt-entrepreneur-unit-model]] — 单元模型：创业版业务公式，聚焦最小交易单元的经济可行性（LTV/CAC/回本周期）
 - [[yt-entrepreneur-key-hypotheses]] — 关键假设：业务公式中的每一个变量关系本质上都是一个待验证的假设
+- [[yt-model-management-map]] — 管理修炼地图：业务公式位于 L4"管业务"的核心模块，是管理者从"带团队"跨越到"管业务"的关键能力
 - [[yt-concept-weapon-arsenal]] — 武器库元概念（master 域）：业务公式是管理者的"认知武器"——它不是用来替代判断的，而是用来在不确定时快速定位关键变量的速查工具
 - [[yt-model-personal-pitch-toolkit]] — 讲香十指框架（personal 域）：业务公式的最终价值不在"算对"而在"讲清"——向团队讲清业务逻辑、向投资人讲清增长驱动。能用一张公式讲清楚业务本质，是最重要的 CEO 表达力
 - [[yt-business-formula-abc-model]] — ABC 模型：业务公式的极简构造语法（目标 + 参数 + 逻辑关系）
-- [[yt-entrepreneur-unit-model]] — 单元模型：创业版业务公式，聚焦最小交易单元的经济可行性（LTV/CAC/回本周期）
-- [[yt-model-management-map]] — 管理修炼地图：业务公式位于 L4"管业务"的核心模块，是管理者从"带团队"跨越到"管业务"的关键能力
-- [[yt-management-scientific-decision]] — 科学决策：业务公式提供决策所需的量化输入，决策模型基于公式做 ROI 评估
-- [[yt-management-goal-management]] — 目标管理：OKR 中的 Key Results 应直接来源于业务公式中的关键变量
 - [[yt-business-formula-ten-paradigms]] — 十大经典范式：按收入/竞争/运营三类目标聚类的 10 个公式模板
 - [[yt-business-formula-parameter-iceberg]] — 参数冰山：L1-L6 参数分层模型
 - [[yt-business-formula-six-level-logic]] — 六层逻辑关系：从模糊到动态的公式理解深度

@@ -26,7 +26,7 @@ source_refs:
 status: enriched
 title: "管理修炼地图"
 type: framework
-updated_at: 2026-06-13
+updated_at: 2026-06-16
 version: 1
 yitang:
   map: management

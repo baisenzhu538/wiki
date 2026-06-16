@@ -3000,3 +3000,65 @@ total: 1190, p0=0, p1=0, clean=1190, yaml_error: 0
 **现有框架卡是否体现？**
 - `yt-entrepreneur-lean-validation`、`yt-panproduct-execution-low-cost-mvp` 已覆盖部分，但缺少把「不确定性重新框定为学习速度」作为第一原则的 explicit 表述。
 - 建议：下一轮精修 `yt-entrepreneur-lean-validation` 时，把这一原则写入核心主张和 diagnostic_signals。
+
+### 批次 5 进度记录：管理概念卡深化（5/5 完成）
+
+**完成时间**：2026-06-16
+**质量门禁**：`total=1190, p0=0, p1=0, clean=1190, yaml_error=0`
+
+> 注：本批次目标卡原指令中的 `manage-team-startup-stage-1-3`、`manage-one-on-one`、`manage-team-meeting`、`manage-team-culture-building`、`manage-feedback-coaching` 在库中不存在。实际按第二十节批次 5 清单精修了：`yt-management-business-formula`、`yt-management-finance-basics`、`yt-management-goal-management`、`yt-management-founder-role`、`yt-management-company-culture`。其中 `yt-management-scientific-meetings` 被误当作 `manage-team-meeting` 提前精修，改动已保留且通过门禁。
+
+#### 域间自检三问
+
+**1. 案例够了吗？**
+
+本批次是管理概念卡，主要以模板/checklist/SOP 落地，而非 case 叙事：
+
+- **yt-management-business-formula**：新增业务公式分层应用模板、L1-L4 参数表、加法/乘法/因果/相关判断规则。
+- **yt-management-finance-basics**：新增现金流跑道速算 SOP、财务概念误用 4 场景。
+- **yt-management-goal-management**：新增季度 OKR 设定与复盘 SOP、OKR 质量自检清单。
+- **yt-management-founder-role**：新增创始人角色边界检查清单（8 项季度自检）。
+- **yt-management-company-culture**：新增文化落地 30 天三层对齐检查清单。
+
+**还缺的案例类型**：
+- **匿名/公开公司管理失败案例**：如某创业公司因创始人越级指挥导致决策链瘫痪、某团队因 OKR 与绩效强挂钩导致指标游戏。
+- **跨阶段管理工具误用案例**：把成熟公司的 OKR/财务制度硬套到 0→1 团队的真实后果。
+- **文化建设反面案例**：口号挂在墙上、行为准则与晋升机制冲突导致的文化崩塌。
+
+这些缺口可在未来通过补充 `case-*` 卡片或深化 `yt-management-basic-skills`、`yt-management-leadership-levels` 等卡补回。
+
+**2. 暗知识在哪里？**
+
+本批次提炼出的反常识/亲历者知识：
+
+1. **业务公式拆得越"漂亮"，越可能没用。** 真正可用的公式必须拆到 L3/L4 可量化行为指标；定性指标要找 3-5 个行为指标佐证。
+2. **流量和转化率往往不是正相关，而是负相关。** 投放规模扩大会稀释精准用户占比，导致转化率下降；把"相关"当"因果"会 ROI 崩盘。
+3. **融资到账 ≠ 收入/盈利；现金充足时最危险。** Jensen 代理成本视角：账上钱多时创始人最不需要财务纪律，也最容易做最差资源配置。
+4. **KR 完成率高 ≠ 目标达成；指标游戏比不完成更危险。** 团队会挑软柿子、挪用订单、降低质量来让数字好看。
+5. **目标管理在 0→1 探索期会失效，甚至产生反效果。** 方向每周 pivot 时，应切换为"假设驱动"而非固定数字 OKR。
+6. **"不可替代"不等于"必须亲自做"。** 一号位的核心价值是最终责任归属，不是工作量占比最高。
+7. **文化建设的起点不是"写价值观"，而是"揭示不成文规则"。** 员工真正遵守的往往是墙上没写的规则。
+8. **"我尽量"不是承诺，是会议里的安慰剂。** 给行动项加"承诺级"（L1/L2/L3）后，L1 会自然萎缩，L2 完成率通常能上 80%。
+
+**是否需要新 dk 卡**：
+- 建议新增 `dk-management-tool-context-match`（管理工具必须匹配组织阶段与决策权）和 `dk-financing-cash-abundance-risk`（现金充足反而降低财务纪律）。
+- 本次任务禁止新增卡片，先作为候选记录；可通过深化 `yt-management-basic-skills`、`yt-management-finance-basics` 来承载。
+
+**3. 这几个案例/概念有共同模式吗？**
+
+有。5 张管理概念卡共同指向一个模式：
+
+> **管理工具失效，90% 是因为使用场景不匹配，而不是工具本身不对。**
+
+可抽象为一个跨卡片的「管理工具落地四问」：
+
+| 步骤 | 关键问题 | 常见陷阱 | 对应卡片 |
+|---|---|---|---|
+| 1. 阶段匹配 | 组织处于 0→1 / 1→10 / 10→100 哪个阶段？ | 把成熟公司工具硬套到早期团队 | yt-management-goal-management、yt-management-founder-role |
+| 2. 决策权清晰 | 谁对结果负最终责任？汇报链是否等于决策链？ | 创始人越级指挥、集体决策无人负责 | yt-management-founder-role、yt-management-company-culture |
+| 3. 数据可验证 | 公式/目标/财务指标能否拆到 L3/L4 行为数据？ | 停在 L1/L2 科目层，只看总数不看结构 | yt-management-business-formula、yt-management-finance-basics |
+| 4. 闭环机制 | 会议/目标/文化是否有检查点和迭代锁？ | 开完会无行动项、定完目标不复盘、喊完口号不落地 | yt-management-scientific-meetings、yt-management-goal-management、yt-management-company-culture |
+
+**现有框架卡是否体现？**
+- 各张管理卡分别覆盖了四问中的某一环，但没有一张"管理工具落地总框架"把它们串起来。
+- 建议：下一轮精修 `yt-management-basic-skills` 时，把「阶段匹配 × 决策权 × 数据可验证 × 闭环机制」作为核心框架和 diagnostic_signals 显式写入。
