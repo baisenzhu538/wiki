@@ -3073,8 +3073,8 @@ total: 1190, p0=0, p1=0, clean=1190, yaml_error: 0
 |:----:|:--------|:--------:|:---------|
 | 26 | `dk-modeling-ai-without-judgment` | enriched | 未改动，状态已 enriched |
 | 27 | `dk-modeling-counterexample-driven` | enriched | 未改动，状态已 enriched |
-| 28 | `dk-modeling-logical-cleanliness-root` | draft | 未改动，仍待精修 |
-| 29 | `dk-modeling-checklist-formatting-rules` | draft | 未改动，仍待精修 |
+| 28 | `dk-modeling-logical-cleanliness-root` | ✅ enriched | 新增 frontmatter diagnostic_signals 4 条（Signal→Lens→Follow-up）；新增 L1-L5 模型段位自检表；新增 Truman 3 小时高阶 AI Skill 工程指南案例；适用边界表格化并扩至 6 条；失败模式扩至 6 条并附真实症状+可执行修复；建立 2 条新互链 `yt-unit-model-ladder`、`case-truman-ai-skill-engineering-guide`（双向）；status→enriched；reviewed_by→欧阳锋；updated_at→2026-06-16 |
+| 29 | `dk-modeling-checklist-formatting-rules` | ✅ enriched | 新增 frontmatter diagnostic_signals 4 条（Signal→Lens→Follow-up）；新增「清单体格式错误前后对比」4 组；新增「清单体四规则自检清单」10 项；适用边界表格化并扩至 6 条；失败模式扩至 6 条并附真实症状+可执行修复；建立 2 条新互链 `yt-note-checklist-concept`、`case-truman-prd-checklist-evolution`（双向）；status→enriched；reviewed_by→欧阳锋；updated_at→2026-06-16 |
 | 30 | `dk-modeling-course-rnd-ripe-fruit` | ✅ enriched | 新增诊断信号 4 条（Signal→Lens→Follow-up）；新增“菜熟才摘”落地 checklist 七步；建立 2 条新互链 `dk-modeling-unit-pairs-milestone`、`dk-modeling-timely-review-session-window`（双向）；status→enriched；reviewed_by→欧阳锋 |
 
 **本卡可提炼的暗知识/反常识**：
@@ -3103,3 +3103,20 @@ total: 1190, p0=0, p1=0, clean=1190, yaml_error: 0
 **仍存疑的问题**：
 - `dk-modeling-logical-cleanliness-root` 仍为 draft，需继续精修。
 - `yt-note-checklist-concept` 当前 `author: unknown`、`trust_level: low`，建议后续认领或校对。
+
+### 第二十节批次 6 进度记录：`dk-modeling-logical-cleanliness-root` 深度精修完成
+
+**完成时间**：2026-06-16  
+**质量门禁**：`total=1190, p0=0, p1=0, clean=1190, yaml_error=0`
+
+| 序号 | 卡片 ID | 当前状态 | 本次操作 |
+|:----:|:--------|:--------:|:---------|
+| 28 | `dk-modeling-logical-cleanliness-root` | ✅ enriched | 新增 frontmatter diagnostic_signals 4 条（Signal→Lens→Follow-up）；新增 L1-L5 模型段位自检表；新增 Truman 3 小时高阶 AI Skill 工程指南案例；适用边界表格化并扩至 6 条；失败模式扩至 6 条并附真实症状+可执行修复；建立 2 条新互链 `yt-unit-model-ladder`、`case-truman-ai-skill-engineering-guide`（双向）；status→enriched；reviewed_by→欧阳锋；updated_at→2026-06-16 |
+
+**本卡可提炼的暗知识/反常识**：
+1. **逻辑洁癖不是“有逻辑”，而是“不能容忍没逻辑”**——前者是能力，后者是驱动力。很多人能识别好模型却写不出来，根源在于看到 L1/L2 时不够难受、不够睡不着觉。
+2. **AI 时代，逻辑洁癖从“个人品味”变成“组织刚需”**——AI 能生成看起来像 L4 的模型，但不会为自己生成的漏洞“睡不着觉”；判断模型是否真达到 L4/L5，必须靠人的逻辑洁癖。
+
+**仍存疑的问题**：
+- 批次 6 全部 5 张暗知识卡中，`dk-modeling-ai-without-judgment`、`dk-modeling-counterexample-driven`、`dk-modeling-course-rnd-ripe-fruit`、`dk-modeling-checklist-formatting-rules`、`dk-modeling-logical-cleanliness-root` 均已 enriched；本批次暗知识卡深化任务全部完成。
+- 新增互链 `yt-unit-model-ladder`、`case-truman-ai-skill-engineering-guide` 的目标卡内已存在相关上下文，无需再补反向链接（已在目标卡 related 中建立正向引用）。
