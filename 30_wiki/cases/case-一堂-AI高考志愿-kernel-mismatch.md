@@ -12,10 +12,12 @@ source_refs:
 - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
 created_at: 2026-06-08
 updated_at: '2026-06-16'
+reviewed_by: 老顽童
 related:
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[skill-一堂-product-kernel-canvas]]'
 - '[[dk-一堂-wishful-thinking-kills-startups]]'
+- '[[yt-tool-product-core-canvas]]'
 wiki_refs:
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[skill-一堂-product-kernel-canvas]]'

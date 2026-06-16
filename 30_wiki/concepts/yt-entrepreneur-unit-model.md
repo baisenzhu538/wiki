@@ -21,6 +21,7 @@ query_triggers:
 related:
 - '[[dk-yb21-ecommerce-pricing-independent-model]]'
 - '[[yt-management-business-formula]]'
+- '[[yt-unit-model-selection]]'
 review_date: 2026-06-15
 updated_at: 2026-06-16
 reviewed_by: pending

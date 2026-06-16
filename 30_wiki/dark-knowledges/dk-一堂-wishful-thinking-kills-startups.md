@@ -14,9 +14,11 @@ source_refs:
 - 00_inbox/一堂-产品内核迭代课-Truman-笔记.txt
 created_at: 2026-06-08
 updated_at: '2026-06-16'
+reviewed_by: 老顽童
 related:
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
+- '[[yt-tool-product-core-canvas]]'
 wiki_refs:
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
