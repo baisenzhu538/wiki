@@ -3478,3 +3478,94 @@ total: 1190, p0=0, p1=0, clean: 1190, yaml_error: 0
 - 修正未来药房汉中 31 台机器"月均销售 151 元/台"的数据来源为单一公开报道，待独立核实。
 - 广西 92 台、叮当健康关城等数据来自公开信息，具体财务细节有限。
 - `kdo_lint.py` 对 wikilink 和中文 card ID 存在误报，未作为本次验收依据；本次以 `kcard-quality-gate.py` 为最终门禁。
+
+### 第二十一节批次 3 进度记录：`case-yitang-radar-chart-selection` 深度精修完成
+
+**完成时间**：2026-06-16  
+**质量门禁**：`total: 1190, p0: 0, p1: 0, clean: 1190, yaml_error: 0`
+
+| 序号 | 卡片 ID | 当前状态 | 本次操作 |
+|:----:|:--------|:--------:|:---------|
+| 25 | `case-yitang-radar-chart-selection` | ✅ enriched | 正文重组并补充为 Background / What Happened / 结果 / 可迁移 / 诊断信号 / 失败模式；status draft→enriched；新增 frontmatter diagnostic_signals 5 条（Signal→Lens→Follow-up）；可迁移场景扩至 7 条；失败模式从 3 条扩至 6 条并附真实症状+可执行修复；新增「一堂式评选雷达图启动 SOP」6 步 checklist；建立 3 条新互链 `modeling-three-stages`、`case-yitang-model-asset-inventory`、`case-modeling-abstraction-yitang-models`（双向）；`reviewed_by`→王语嫣（代欧阳锋）；`updated_at`→2026-06-16 |
+
+**本卡可提炼的暗知识/反常识**：
+1. **"只聊模型不聊结果"的本质是把 CEO 的决策权从"通过权"压缩为"否决权"，用权力边界的明确换取模型迭代的空间。** 如果 CEO 仍保留"我觉得这个行"的通过权，雷达图很快沦为装饰。
+2. **雷达图真正的竞争力不是"第一次就画对"，而是"每次犯错后 48 小时内补一个新角"。** 一堂投放视频"宽而不泛"这个角就是失败后补出来的，补丁机制比初始维度更重要。
+
+**仍存疑的问题**：
+- "三四十个雷达图""会员三五千"等数字为 Truman 口述，待独立核实。
+- `kdo_lint.py` 对 wikilink 和中文 card ID 存在误报，未作为本次验收依据；本次以 `kcard-quality-gate.py` 为最终门禁。
+
+### 第二十一节批次 3 进度记录：Case 卡升级（10/10 完成）
+
+**完成时间**：2026-06-16
+**质量门禁**：`total=1190, p0=0, p1=0, clean=1190, yaml_error=0`
+
+| 序号 | 卡片 | 主要新增内容 |
+|---|---|---|
+| 16 | `case-smart-medicine-cabinet-business-model-validation` | 补齐 case 结构；新增 3 条 DS、商业模式交叉验证 Checklist、3 条互链 |
+| 17 | `case-smart-medicine-cabinet-corporate-risk` | 新增 5 条 DS、企业采购决策链 5 角色分析、B2B 医疗采购决策链风险诊断 Checklist、4 条互链 |
+| 18 | `case-smart-medicine-cabinet-failure-patterns-library` | 结构化失败模式库；新增 5 条 DS、6 条失败模式、10 分钟风险扫描表、3 条互链 |
+| 19 | `case-hr-saas-feature-usage-trap` | 新增 4 条 DS、5 条失败模式、功能使用率→续费率因果验证 SOP、2 条互链 |
+| 20 | `case-toc-content-platform-correlation-trap` | 新增 4 条 DS、5 条失败模式、跨平台对比表 + 10 项清单、3 条互链 |
+| 21 | `case-truman-ai-skill-self-packaging` | DS 2→3；新增 5 条失败模式、AI Skill 自封装 SOP + prompt 模板、4 条互链 |
+| 22 | `case-truman-personal-growth-map-creation` | DS 2→4；新增 6 条失败模式、七步创作法落地检查清单、2 条互链 |
+| 23 | `case-toc-ecommerce-formula-misjudgment` | 新增 6 条 DS、6 条失败模式、电商放量前单位模型自检清单 + 边际 ROI 模板、2 条互链 |
+| 24 | `case-ai-time-management-tiered-growth` | 新增 4 条 DS、5 条失败模式、保 A 争 B 终局决策速查表、2 条互链 |
+| 25 | `case-yitang-radar-chart-selection` | status draft→enriched；新增 5 条 DS、6 条失败模式、雷达图启动 SOP 6 步、3 条互链 |
+
+#### 域间自检三问
+
+**1. 案例够了吗？**
+
+本批次 10 张 case 卡覆盖了多个行业和主题，对前两个批次的框架卡形成了有力支撑：
+
+- **成功类**：`case-yitang-radar-chart-selection`（一堂雷达图评选机制）、`case-truman-ai-skill-self-packaging`（AI Skill 自封装）、`case-truman-personal-growth-map-creation`（个人成长地图七步法）。
+- **失败类**：`case-smart-medicine-cabinet-*` 三张（智能药柜商业模式/企业风险/失败模式库）、`case-toc-ecommerce-formula-misjudgment`（电商公式误判）、`case-toc-content-platform-correlation-trap`（内容平台因果相关陷阱）。
+- **边界类**：`case-hr-saas-feature-usage-trap`（功能使用率 vs 续费率边界）、`case-ai-time-management-tiered-growth`（AI 时间管理终局分层边界）。
+
+**还缺的案例类型**：
+- **ToB 五步法/创业地图的独立失败案例**：目前多通过合成示例或隐射，缺少 named 企业案例。
+- **管理工具落地四问的反面案例**：比如硬套 OKR 导致指标游戏的真实企业案例。
+- **工具投资五段式的失败案例**：ROI 估算过度乐观、忽视机会成本的独立 case。
+
+这些缺口可在后续批次或专门案例回溯中补回。
+
+**2. 暗知识在哪里？**
+
+本批次提炼的反常识/亲历者知识：
+
+1. **高毛利想象是硬件亏损项目最常见的麻醉剂**——当设备本身不赚钱时，团队会构造一个"尚未获批"的高毛利产品让模型成立，而该产品往往是最大合规风险源。
+2. **B2B 医疗场景中，「决策链断裂」比「产品不好用」更致命**——产品问题可修复，"谁都不真正承担责任"会让项目慢性死亡。
+3. **智能药柜的核心失败不是技术失败，而是"便利性"价值主张被 O2O 送药静默取代。**
+4. **"知名品牌授权"是药柜招商中最危险的烟雾弹**——授权方对加盟商运营和点位质量不负最终责任。
+5. **功能使用率不是续费率的抓手，而是客户成功体系的副产品**；真正决定续费的是"使用深度 × 价值感知 × 切换成本"。
+6. **"流量↑转化率↓"不是 universal 规律**——必须先切分平台、用户、内容形态，再判断因果。
+7. **AI Skill 自封装不是人总结给 AI 用，而是 AI 扫描自己的纠偏记录自己封装**——人的角色降级为"定义扫描范围 + 终审"。
+8. **AI 把出图成本降到接近零，但判断模型好坏的成本反而更稀缺**——没有逻辑洁癖的人用 AI 建模会更快跑偏。
+9. **公式拆得"细"不等于拆得"对"**——真实杠杆往往藏在最不显眼的转化率/复购率里。
+10. **"保 A 争 B"不是目标管理，而是终局能力匹配**——同一赛道的副业/App/细分头部/上市平台是四种完全不同的生意。
+11. **雷达图真正的竞争力不是第一次就画对，而是每次犯错后 48 小时内补一个新角。**
+
+**是否需要新 dk 卡**：
+- 建议新增 `dk-tob-medical-decision-chain-fracture`（B2B 医疗决策链断裂）和 `dk-saas-feature-usage-not-renewal-driver`（功能使用率不是续费驱动）。
+- 本次任务禁止新增卡片，先作为候选记录。
+
+**3. 这几个案例有共同模式吗？**
+
+有。10 张 case 卡共同指向一个模式：
+
+> **商业误判的根因，往往不是信息不足，而是把「相关/表象/愿望」当成了「因果/本质/事实」。**
+
+可抽象为一个跨案例的「因果防错四问」：
+
+| 步骤 | 关键问题 | 典型症状 | 对应案例 |
+|---|---|---|---|
+| 1. 切分用户/场景 | 不同用户群的因果机制是否相同？ | 只看平均值、动作打架 | `case-hr-saas-feature-usage-trap`、`case-toc-content-platform-correlation-trap` |
+| 2. 区分相关与因果 | 这个指标是结果还是抓手？ | 把相关当因果、把结果当原因 | `case-toc-content-platform-correlation-trap`、`case-toc-ecommerce-formula-misjudgment` |
+| 3. 识别责任主体 | 谁对结果真正负责？ | 决策链断裂、谁都不负责 | `case-smart-medicine-cabinet-corporate-risk` |
+| 4. 验证边界条件 | 这个模式在什么范围外会失效？ | 用头部逻辑做腿部市场、跳级扩张 | `case-smart-medicine-cabinet-failure-patterns-library`、`case-ai-time-management-tiered-growth` |
+
+**现有框架卡是否体现？**
+- `yt-business-formula-business-pattern-selector`、`yt-decision-y-model`、`yt-tob-customer-tiering` 已覆盖部分。
+- 建议：本轮后续或下一轮把「因果防错四问」写入 `yt-decision-y-model` 或 `yt-business-formula-business-pattern-selector` 的诊断信号中。
