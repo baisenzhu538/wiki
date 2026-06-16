@@ -1,13 +1,11 @@
 ---
 updated: 2026-06-17
 active_branch: main
-active_task: "欧阳锋6轮审查全部完成(精益创业A-/ToB A/精修30A/管理域A/暗知识A/案例回溯A)。复盘完成，复盘文件已更新。"
+active_task: "王语嫣复盘行动完成: 470 skill重分类+231 draft精修池+MinerU文档化。P0=0 P1=0 clean=1191。决策域深度研究进行中(Value-ROI dk卡+KF-020报告)。"
 blockers:
-  - "238 dangling真悬空需逐卡人工判断"
-  - "126 domain缺失需人工标注"
-  - "508 near-duplicate在60_feedback/auto未清理（跨多轮会话的遗留债务）"
-  - "148 v1.5 FAILED卡待裁决：改heading还是改校验器？"
-  - "dk-modeling-logical-cleanliness-root 仍是唯一draft暗知识卡"
+  - "决策域深度研究待完成(Y模型↔王阳明/矛盾论三角对照)"
+  - "王语嫣角色正式升级AGENTS.md"
+  - "231张draft精修池→分配老顽童下轮精修"
 next_session_hint: "用户说'继续'→ ① 裁决148张v1.5 FAILED卡处理方案；② dangling逐卡修复；③ 王语嫣角色正式升级；④ 508 near-duplicate清理"
 ---
 
@@ -59,7 +57,7 @@ next_session_hint: "用户说'继续'→ ① 裁决148张v1.5 FAILED卡处理方
 ## 当前共享状态
 
 ### 各角色当前任务
-- **黄药师**：S1-S4全完成 + KF-025铁律 + P0全清零 + kdo query --trust/--view/--save/--template book
+- **黄药师**：S1-S4+Task R全上线 + 470 skill重分类 + 决策域研究(Value-ROI dk卡) + KF-020报告 + MinerU文档化
 - **老顽童**：全域案例回溯35张+dk12张(主动修复盲区) + ToB/精益/建模三域A级
 - **王语嫣**：六阶段全库审计闭环 + 质量门禁脚本 + 协作修复计划 + 复合卡回填完工
 - **欧阳锋**：月度抽检模式
