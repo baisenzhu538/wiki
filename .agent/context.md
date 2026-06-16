@@ -64,14 +64,21 @@ next_session_hint: "用户说'继续'→ ① 裁决148张v1.5 FAILED卡处理方
 - **洪七公**：待命
 - **段王爷**：待命
 
+### 2026-06-17 关键结果
+- 王语嫣复盘：P0=0 P1=0 clean=1191，100张精修完成
+- 470 skill 重分类为 tool/concept（欧阳锋 taxonomy 裁决执行）
+- 231 张 draft 精修池已识别（conf≥0.7+related 非空）
+- MinerU 文档化入 wiki + toolkit
+- 决策域第一张 dk 卡产出（Value-overrides-ROI）
+- 决策域 KF-020 违规报告送审王语嫣
+
 ### 2026-06-16 关键结果
 - 全库 P0=0, YAML=0, Clean=586
 - 老顽童全域案例回溯 35 张（主动执行 KF-025 三问自检）
 - OCR 368 张 → raw/ocr/ 分层隔离
 - 14 对重复卡片去重, 6 张 deprecated 归档
 - kdo query --trust/--view/--save/--template book 上线
-- KF-025 域完成三问自检写入工业化手册
-- S4 aliases + views + book template dogfood-tested
+- KF-025 + S4 上线
   - `60_feedback/itingnao/medical-cabinet-longterm/method-medical-cabinet-hospital-scene-model.md`
   - `60_feedback/itingnao/medical-cabinet-longterm/method-medical-cabinet-scale-model.md`
 - **待验证重点**：单设备真实流水、医院准入政策、合规成本、资金来源、团队产能、供应链授权
