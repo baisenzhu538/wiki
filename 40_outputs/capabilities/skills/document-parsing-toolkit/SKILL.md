@@ -146,12 +146,29 @@ marker_single input.pdf --output_dir output_dir
 > - 模型从 ModelScope `opendatalab/PDF-Extract-Kit-1.0` 下载（约 3-4GB）
 > - **CPU 模式已跑通**，PDF 可正常解析为 Markdown
 >
-> ⚠️ **当前限制**：
-> - GPU 模式因 WSL NVIDIA 驱动版本过低无法使用（PyTorch 报 driver too old）
+> ✅ **当前状态**（2026-06-17 验证）：
+> - **GPU 模式已跑通**：PyTorch 降级到 `2.5.1+cu121` 后，`torch.cuda.is_available()` 为 True
+> - **16 页 PDF GPU 解析耗时约 30 秒**，模型加载约 2 秒
 > - 公式识别需关闭（`formula-config.enable: false`），否则 transformers 版本不兼容会报错 `cache_position`
 > - CPU 模式需手动建立 OCR 检测模型软链接（见下方"模型软链接 workaround"）
+> - 4GB 显存为紧约束，复杂大文档可能 OOM，可切回 CPU
 >
 > ⚠️ **PaddleOCR-VL**：2026 年新模型，pip 包名和安装方式待官方稳定后验证。
+
+### PyTorch 降级到 CUDA 12.1（GPU 模式必需）
+
+如果你的 Windows NVIDIA 驱动较老（如 546.33，最高支持 CUDA 12.3），而 pip 默认装了 PyTorch cu13，需要降级到 cu121：
+
+```bash
+pip install torch==2.5.1+cu121 torchvision==0.20.1+cu121 --index-url https://download.pytorch.org/whl/cu121 --force-reinstall
+```
+
+验证：
+
+```bash
+python3 -c "import torch; print(torch.cuda.is_available())"
+# 应输出 True
+```
 
 ### MinerU 模型下载（ModelScope）
 
@@ -186,7 +203,7 @@ ln -s Multilingual_PP-OCRv3_det_infer.pth ch_PP-OCRv3_det_infer.pth
 {
     "models-dir": "/home/<user>/.cache/magic-pdf/models",
     "layoutreader-model-dir": "/home/<user>/.cache/magic-pdf/models/ReadingOrder/layout_reader",
-    "device-mode": "cpu",
+    "device-mode": "cuda",
     "layout-config": { "model": "doclayout_yolo" },
     "formula-config": {
         "mfd_model": "yolo_v8_mfd",
@@ -198,7 +215,10 @@ ln -s Multilingual_PP-OCRv3_det_infer.pth ch_PP-OCRv3_det_infer.pth
 }
 ```
 
-> 注：公式识别当前因 transformers 版本不兼容需关闭；表格识别可按需开启。
+> 注：
+> - `device-mode` 默认 `cuda`；如显存不足或驱动不兼容，改 `cpu`
+> - 公式识别当前因 transformers 版本不兼容需关闭
+> - 表格识别可按需开启
 
 ### 使用命令
 
@@ -285,6 +305,7 @@ watch 00_inbox/screenshots/
 ## 8. 验证记录
 
 - **2026-06-17**：MinerU（magic-pdf 1.3.12）在 WSL CPU 模式下成功解析中文 PDF，输出 Markdown + JSON + 图片。
+- **2026-06-17**：PyTorch 降级到 `2.5.1+cu121` 后，WSL GPU 模式跑通；16 页 PDF 解析约 30 秒，`using device: cuda` 确认。
 - **测试文件**：`10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf`
 - **测试命令**：`magic-pdf -p input.pdf -o output_dir -m auto`
 
