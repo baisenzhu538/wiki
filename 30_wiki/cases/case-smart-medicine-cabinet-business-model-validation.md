@@ -9,13 +9,18 @@ domain:
 source_refs:
 - src_20260613_732d251f
 created_at: 2026-06-15
-updated_at: 2026-06-15
+updated_at: 2026-06-17
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.6
 trust_level: low
-related: []
+related:
+  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
+  - '[[case-smart-medicine-cabinet-corporate-risk]]'
+  - '[[yt-panproduct-execution-roi-analysis]]'
+  - '[[yt-barrier-identification-skill]]'
+  - '[[yt-entrepreneur-lean-validation]]'
 source_person: 王语嫣
 source_context: 听脑录音 1241665/1883124/2431721/2447560 交叉验证
 ---

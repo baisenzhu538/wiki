@@ -9,13 +9,18 @@ domain:
 source_refs:
 - src_20260613_fc2124d8
 created_at: 2026-06-15
-updated_at: 2026-06-15
+updated_at: 2026-06-17
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
-related: []
+related:
+  - '[[case-smart-medicine-cabinet-business-model-validation]]'
+  - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
+  - '[[yt-tob-customer-tiering]]'
+  - '[[yt-tob-cash-flow]]'
+  - '[[yt-management-founder-role]]'
 source_person: 王语嫣
 source_context: 听脑录音 1422729/4376859/4873420/4785075/4880681/8020205 交叉验证
 ---

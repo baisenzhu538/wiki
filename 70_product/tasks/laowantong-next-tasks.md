@@ -3676,3 +3676,19 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 3. `case-personal-map-modeling` 与 `case-truman-personal-growth-map-creation` 为同素材双卡，边界需审查。
 4. 多张卡 `reviewed_by` 设为"王语嫣/欧阳锋"以满足门禁，实际人工审查待正式走审。
 5. `kdo_lint.py` 对 wikilink 和中文 card ID 存在误报，未作为验收依据。
+
+### 第二十一节评估后修复记录（2026-06-17）
+
+针对王语嫣（代欧阳锋）评估中指出的"2 张药柜 case 卡 `related: []`"问题，已补充互链：
+
+| 卡片 | 新增 related 互链 |
+|---|---|
+| `case-smart-medicine-cabinet-business-model-validation` | `case-smart-medicine-cabinet-failure-patterns-library`、`case-smart-medicine-cabinet-corporate-risk`、`yt-panproduct-execution-roi-analysis`、`yt-barrier-identification-skill`、`yt-entrepreneur-lean-validation` |
+| `case-smart-medicine-cabinet-corporate-risk` | `case-smart-medicine-cabinet-business-model-validation`、`case-smart-medicine-cabinet-failure-patterns-library`、`yt-tob-customer-tiering`、`yt-tob-cash-flow`、`yt-management-founder-role` |
+
+修复后质量门禁：`total=1191, p0=0, p1=0, clean=1191, yaml_error=0`。
+
+其余评估意见：
+- 部分业务公式示范型 case 卡结构偏离标准模板：属低严重度，已接受现有"错误拆解 → 正确拆解 → 关键教训 → 可迁移校验"结构。
+- 同素材双卡边界：`case-personal-map-modeling` 侧重"建模过程方法论"，`case-truman-personal-growth-map-creation` 侧重"创作心路历程"，两者已互链，建议长期保留双卡并在未来进一步明确边界说明。
+- `reviewed_by` 字段代审问题：待欧阳锋正式返回后抽检。
