@@ -48,6 +48,7 @@ related:
   - "yt-customer-acquisition-toolkit"
   - "case-truman-yitang-foresight"
   - "skill-ai-evidence-check"
+  - "yt-panproduct-execution-roi-analysis"
 created_at: "2026-06-06"
 updated_at: "2026-06-16"
 author: 老顽童

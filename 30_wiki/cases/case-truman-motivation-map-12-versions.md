@@ -15,6 +15,7 @@ related:
 - '[[yt-personal-pan-product-tools]]'
 - '[[yt-panproduct-demand-motivation-resistance]]'
 - '[[case-truman-personal-growth-map-creation]]'
+- '[[yt-panproduct-execution-roi-analysis]]'
 created_at: '2026-06-09'
 author: 老顽童
 reviewed_by: 王语嫣
