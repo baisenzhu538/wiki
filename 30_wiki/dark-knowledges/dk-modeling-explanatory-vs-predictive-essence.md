@@ -18,7 +18,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 trust_level: medium
-confidence: 0.9
+confidence: 0.89
 diagnostic_signals:
   - signal: 团队说出一个本质，但能推出的唯一动作是"重视它"
     framework_lens: 解释性本质 vs 预测性本质

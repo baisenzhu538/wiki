@@ -1,10 +1,10 @@
 # KDO 卡片质量门禁报告
 
 **扫描时间**：2026-06-15  
-**扫描范围**：30_wiki 全库 1196 张卡片  
+**扫描范围**：30_wiki 全库 1195 张卡片  
 **P0 阻塞问题卡片**：0 张  
-**P1 修复问题卡片**：18 张  
-**完全干净卡片**：1178 张  
+**P1 修复问题卡片**：24 张  
+**完全干净卡片**：1171 张  
 **YAML 解析错误**：0 张  
 
 ---
@@ -22,10 +22,16 @@
 | `cases\yt-lean-beauty-store-conversion.md` | source_refs 为空 |
 | `cases\yt-lean-daily-chemical-mvp.md` | source_refs 为空 |
 | `cases\yt-lean-flower-mom-group-leader.md` | source_refs 为空 |
+| `concepts\yitang-strategy-canvas.md` | dangling 链接: yitang-blue-ocean-strategy |
 | `concepts\yt-lean-daily-probability-decision.md` | source_refs 为空 |
 | `concepts\yt-lean-essence.md` | source_refs 为空 |
 | `concepts\yt-tob-cash-flow.md` | source_refs 为空 |
 | `concepts\yt-tob-revenue-is-customer-cost.md` | source_refs 为空 |
+| `dark-knowledges\dk-modeling-ai-compound-leverage.md` | confidence=0.9 但 source 仅 1 个 |
+| `dark-knowledges\dk-modeling-ai-judgment-limit.md` | confidence=0.9 但 source 仅 1 个 |
+| `dark-knowledges\dk-modeling-explanatory-vs-predictive-essence.md` | confidence=0.9 但 source 仅 1 个 |
+| `dark-knowledges\dk-modeling-unit-pairs-milestone.md` | confidence=0.9 但 source 仅 1 个 |
+| `frameworks\framework-logic-cleanliness-five-levels.md` | confidence=0.9 但 source 仅 1 个 |
 | `frameworks\yt-lean-assumption-prioritization.md` | source_refs 为空 |
 | `frameworks\yt-lean-assumption-verification-3means.md` | source_refs 为空 |
 | `frameworks\yt-lean-b2b-b2c-hardware-content-testing.md` | source_refs 为空 |

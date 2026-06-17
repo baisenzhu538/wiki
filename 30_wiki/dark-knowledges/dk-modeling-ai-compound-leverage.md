@@ -12,7 +12,7 @@ source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-confidence: 0.9
+confidence: 0.89
 trust_level: medium
 related:
 - '[[dk-modeling-ai-without-judgment]]'

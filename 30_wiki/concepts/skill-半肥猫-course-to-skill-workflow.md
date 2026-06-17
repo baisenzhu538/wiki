@@ -1,38 +1,55 @@
 ---
-
 id: skill-半肥猫-course-to-skill-workflow
-title: 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化
-type: "tool"
-status: draft
+title: "课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化"
+type: tool
+status: enriched
 domain:
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - yitang
 source_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
-- 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
-created_at: 2026-06-08
-reviewed_by: laowantong
-updated_at: '2026-06-16'
+  - 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
+created_at: "2026-06-08"
+updated_at: "2026-06-17"
 related:
-- '[[case-半肥猫-course-to-skill]]'
-- '[[skill-半肥猫-ai-research-validation]]'
-- '[[dk-半肥猫-silky-answers-are-dangerous]]'
+  - "[[case-半肥猫-course-to-skill]]"
+  - "[[skill-半肥猫-ai-research-validation]]"
+  - "[[dk-半肥猫-silky-answers-are-dangerous]]"
+  - "[[skill-半肥猫-课程Skill化的八步工作流]]"
+  - "[[skill-半肥猫-设计Skill的评分规则与风险边界]]"
 wiki_refs:
-- '[[case-半肥猫-course-to-skill]]'
-- '[[skill-半肥猫-ai-research-validation]]'
-- '[[dk-半肥猫-silky-answers-are-dangerous]]'
+  - "[[case-半肥猫-course-to-skill]]"
+  - "[[skill-半肥猫-ai-research-validation]]"
+  - "[[dk-半肥猫-silky-answers-are-dangerous]]"
 definition_of_done:
-- 八步工作流已完整记录
-- 12维度评分标准已提供
-- 测试模板（正向/反向/高风险）已完成
-- 维护手册已设计
+  - 八步工作流已完整记录
+  - 12维度评分标准已提供
+  - 测试模板（正向/反向/高风险）已完成
+  - 维护手册已设计
 pipeline:
-- confidence-draft
-- confidence-source-cited
-author: 半肥猫
-confidence: 0.7
-trust_level: low
+  - confidence-draft
+  - confidence-source-cited
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "想把课程转成Skill但不知道值不值得"
+    lens: "价值判断缺失"
+    follow_up: "执行步骤1：评估课程是否有明确方法论和使用场景，无则放弃"
+  - signal: "Skill上线后被用户投诉给出错误建议"
+    lens: "测试不足"
+    follow_up: "检查是否完成步骤7：5正向+5反向+1高风险测试，高风险场景拒绝能力=3分"
+  - signal: "课程中的观点被当成事实固化到Skill"
+    lens: "证据校准缺失"
+    follow_up: "执行步骤5：每个主张标注事实/观点/待验证，防止丝滑错误放大"
+  - signal: "Skill上线后课程内容更新，Skill失效"
+    lens: "维护缺失"
+    follow_up: "执行步骤8：设计版本号+反馈模板+回归测试周期，维护成本计入总投入"
+  - signal: "未经授权将课程转成Skill被发律师函"
+    lens: "版权风险"
+    follow_up: "步骤1前必须确认授权，未经授权的课程转Skill涉及版权风险"
 ---
 # 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化
 
@@ -138,14 +155,33 @@ trust_level: low
 - 你默认课程里的内容都是对的，不偐证据审查
 - 你需要快速上线，没有时间偐测试和迭代
 
-## Constraints
+## Constraints & Boundaries
 
-**本技能的内部局限**：
+### 适用边界
 
-1. **依赖课程有结构化方法论**——如果课程只有零散观点没有方法论，无论怎么转化都只是"高级搬运"
-2. **需要课程作者授权**——未经授权的课程转Skill涉及版权风险
-3. **测试资源需求高**——至少需要11个测试场景（5正向+5反向+1高风险）
-4. **维护成本不低**——课程内容更新后，Skill需要同步更新
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 有结构化方法论的课程（非零散观点） |
+| ✅ 适合 | 有明确用户场景和使用边界 |
+| ✅ 适合 | 能区分"课程主张"和"可验证事实" |
+| ✅ 适合 | 愿意投入时间做多轮测试（≥11个场景） |
+| ❌ 不适合 | 课程内容缺乏结构（只有零散观点） → 无法转化为协议 |
+| ❌ 不适合 | 没有明确使用场景和边界 → Skill会变成"大而全的废墟" |
+| ❌ 不适合 | 默认课程内容全对，不做证据审查 → 丝滑错误会被放大 |
+| ❌ 不适合 | 需要快速上线（<3周） → 八步流程需要完整测试，时间不足 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **内容搬运** | 把课程当成知识库而非决策协议 | 课程转Skill的本质是方法论固化为协议，不是内容搬运 |
+| **测试不足** | 只测3个正向场景，上线后出事故 | 必须完成5正向+5反向+1高风险测试，高风险拒绝能力=3分 |
+| **证据校准缺失** | 课程观点被当成事实固化到Skill | 每个主张标注事实/观点/待验证，防止系统性误解 |
+| **版权风险** | 未经授权转Skill被发律师函 | 步骤1前必须确认授权，无授权=红线 |
+| **维护缺失** | 课程内容更新后Skill失效 | 设计版本号+反馈模板+回归测试周期，维护成本计入总投入 |
+| **过度设计** | 18维度评分标准太复杂无法执行 | 评分标准简化到3-5级，确保评审员能一致执行 |
+| **快速上线陷阱** | MVP三天上线但无测试，质量不达标 | 快速上线≠跳过测试，至少完成高风险场景验证 |
+| **裸模型替代** | 用户直接把课程丢给模型，无需Skill | Skill必须比裸模型好10倍（36分 vs 8分），否则不值得存在 |
 
 ## Claims
 

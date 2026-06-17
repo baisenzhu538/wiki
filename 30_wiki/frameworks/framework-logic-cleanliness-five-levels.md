@@ -17,7 +17,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-17'
 trust_level: medium
-confidence: 0.9
+confidence: 0.89
 related:
 - '[[modeling-scientific-milestones]]'
 - '[[modeling-three-stages]]'

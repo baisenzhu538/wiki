@@ -1,39 +1,56 @@
 ---
-
 id: skill-一堂-kernel-three-questions
-title: 技能：内核要素三问验证法
-type: "tool"
-status: draft
+title: "技能：内核要素三问验证法"
+type: tool
+status: enriched
 domain:
-- product
-- yitang
+  - product
+  - yitang
 source_person: Truman
 source_context: 一堂产品内核验证课
 source_refs:
-- 00_inbox/一堂-产品内核验证课-Truman-口述.txt
-- 00_inbox/一堂-产品内核验证课-truman-笔记.txt
+  - 00_inbox/一堂-产品内核验证课-Truman-口述.txt
+  - 00_inbox/一堂-产品内核验证课-truman-笔记.txt
 tools_required:
-- 产品内核画布（已完成加减法后的版本）
-- 用户访谈或问卷工具（可选）
+  - 产品内核画布（已完成加减法后的版本）
+  - 用户访谈或问卷工具（可选）
 prerequisite_skills:
-- skill-一堂-product-kernel-add-subtract
-- concept-一堂-product-kernel
+  - skill-一堂-product-kernel-add-subtract
+  - concept-一堂-product-kernel
 related:
-- '[[concept-一堂-product-kernel]]'
-- '[[skill-一堂-product-kernel-add-subtract]]'
-- '[[skill-一堂-five-step-validation]]'
+  - "[[concept-一堂-product-kernel]]"
+  - "[[skill-一堂-product-kernel-add-subtract]]"
+  - "[[skill-一堂-five-step-validation]]"
+  - "[[skill-一堂-product-kernel-canvas]]"
+  - "[[skill-纪浩-problem-validation-four-checks]]"
 wiki_refs:
-- '[[concept-一堂-product-kernel]]'
-- '[[skill-一堂-five-step-validation]]'
-created_at: 2026-06-10
-updated_at: '2026-06-16'
+  - "[[concept-一堂-product-kernel]]"
+  - "[[skill-一堂-five-step-validation]]"
+created_at: "2026-06-10"
+updated_at: "2026-06-17"
 pipeline:
-- confidence-draft
-- confidence-source-cited
+  - confidence-draft
+  - confidence-source-cited
 author: 老顽童
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "内核里混入'有则更好'的要素，核心价值被稀释"
+    lens: "优化性当决定性"
+    follow_up: "执行决定性测试：去掉后转化率会大降吗？要求数据或用户原话支撑"
+  - signal: "单条内核都对，但组合起来缺关键环节"
+    lens: "完备性缺失"
+    follow_up: "画用户决策因果链，检查从'看到产品'到'付费/留存'是否有断点"
+  - signal: "在存疑内核上投入大量研发资源"
+    lens: "过早细化"
+    follow_up: "标注验证状态，存疑项默认'做而不信'，先验证再细化"
+  - signal: "团队自己判断'用户会不会选'，未访谈真实用户"
+    lens: "内部观点代替用户事实"
+    follow_up: "优化性测试必须访谈3-5个真实用户，收集事实而非结论"
+  - signal: "三问通过后停止验证，把三问当成终点"
+    lens: "验证停止"
+    follow_up: "三问是假设的筛选器不是真理判决书，通过后仍需持续验证和动态调整"
 ---
 # 技能：内核要素三问验证法
 
@@ -55,18 +72,33 @@ trust_level: low
 3. **完备性测试** — 对最终保留的3-5条内核问："这几条加在一起，是不是能够通向比较好的转化和留存结果？" 画一条从"用户看到产品"到"用户付费/留存"的因果链，检查是否有断点
 4. **记录验证状态** — 给每条内核标注"已验证/待验证/存疑"，对存疑项制定最小成本验证计划
 
-## 适用场景
+## Constraints & Boundaries
 
-- ✅ 已完成产品内核加减法，需要质检内核质量
-- ✅ 产品转化率低于预期，怀疑内核要素有偏差
-- ✅ 团队对"什么是真正的内核"有分歧，需要结构化裁决
-- ✅ 准备投入研发资源前，最后确认内核假设是否成立
+### 适用边界
 
-## 不适用场景
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 已完成产品内核加减法，需要质检内核质量 |
+| ✅ 适合 | 产品转化率低于预期，怀疑内核要素有偏差 |
+| ✅ 适合 | 团队对"什么是真正的内核"有分歧，需要结构化裁决 |
+| ✅ 适合 | 准备投入研发资源前，最后确认内核假设是否成立 |
+| ❌ 不适合 | 用户需求尚未验证 → 先做需求验证，再做内核验证 |
+| ❌ 不适合 | 内核加减法尚未完成 → 三问是对加减法结果的质检，不能替代加减法 |
+| ❌ 不适合 | 纯技术预研项目 → 无明确用户选择逻辑，三问不适用 |
+| ❌ 不适合 | 早期产品无转化率数据 → 三问退化为"有结构的主观判断"，需辅以用户访谈 |
 
-- ❌ 用户需求尚未验证（先做需求验证，再做内核验证）
-- ❌ 内核加减法尚未完成（三问是对加减法结果的质检，不能替代加减法）
-- ❌ 纯技术预研项目（无明确用户选择逻辑）
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **优化性当决定性** | 内核里混入"有则更好"的要素，稀释核心价值 | 重复问"去掉后转化率会大降吗"，要求数据或用户原话支撑 |
+| **完备性缺失** | 单条都对，但组合起来缺关键环节 | 画用户决策因果链，检查从"看到产品"到"付费/留存"是否有断点 |
+| **过早细化** | 在"存疑"内核上投入大量研发资源 | 标注验证状态，存疑项默认"做而不信"，先验证再细化 |
+| **内部观点代替用户事实** | 团队自己判断"用户会不会选" | 优化性测试必须访谈3-5个真实用户，收集事实而非结论 |
+| **验证停止** | 三问通过后就停止验证 | 三问是假设的筛选器不是真理判决书，通过后仍需持续验证和动态调整 |
+| **叙事自我污染** | 用户访谈得到的是事后合理化解释而非真实决策原因 | 结合行为数据（转化率/留存率）验证，不只依赖用户自述 |
+| **禀赋效应误判** | 用户已体验过的功能被高估为三问"决定性" | 区分"真实价值"和"损失厌恶"，用A/B测试验证去掉后的真实影响 |
+| **颠覆性创新失效** | 全新品类产品用户无参照系回答三问 | 三问对颠覆性创新可能失效，需用其他验证方法（如MVP测试） |
 
 ## 工具/环境
 
