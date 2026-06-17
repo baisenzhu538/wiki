@@ -1,22 +1,4 @@
----
-id: concept-card-index-latest
-title: Concept Card Index — Latest
-type: index
-status: draft
-domain:
-  - kdo
-  - meta
-source_refs:
-  - system-index
-author: system
-reviewed_by: 欧阳锋
-confidence: 0.5
-trust_level: low
-created_at: 2026-06-16
-updated_at: 2026-06-17
----
-
-# Concept Card Index — 2026-06-16 18:08 UTC
+# Concept Card Index — 2026-06-17 18:09 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -24,10 +6,10 @@ updated_at: 2026-06-17
 | EC工业化规范手册 | EC工业化规范手册 | concept | healthcare |
 | HIS系统开发实现方案-架构师指南 | HIS系统开发实现方案-架构师指南 | concept | healthcare |
 | HIS系统深度调研 | HIS系统深度调研 | concept | healthcare |
-| ai-collaboration-mindset-shift | ai collaboration mindset shift | concept | ai-saas, management, decision-making, yitang |
+| ai-collaboration-mindset-shift | AI协作思维转变：从新手到管理者 | concept | ai-saas, management, decision-making, yitang |
 | ai-hackathon-pitches | AI 大航海项目路演：主题综合知识卡 | concept | ai, entrepreneur, product |
-| ai-landing-scene-selection | ai landing scene selection | concept | product, ai-saas, decision-making, yitang |
-| ai-learning-closed-loop | ai learning closed loop | concept | product, ai-saas, yitang, business-strategy |
+| ai-landing-scene-selection | AI落地场景识别：从找老的干小的开始 | concept | product, ai-saas, decision-making, yitang |
+| ai-learning-closed-loop | AI学习闭环：从听懂到能力的转化路径 | concept | product, ai-saas, yitang, business-strategy |
 | ai-native-im-multi-agent | AI 原生 IM：让 Agent 成为一等公民的协作基础设施 | concept | ai, product, ai-collaboration |
 | ai-native-五层进阶从答案到效率到作品到产品到系统 | AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统 | framework | ai-saas |
 | ai-short-drama-ice-fire-scripting-compass | 冰火写本罗盘：AI短剧剧本策划全流程体系 | concept | yitang, ai-collaboration, product |
@@ -49,7 +31,7 @@ updated_at: 2026-06-17
 | concept-ai-native-organization-five-steps | concept ai native organization five steps | concept | ai-native, management |
 | concept-five-step-growth-to-barrier-transition | 五步法衔接：什么时候从增长切换到壁垒建设 | concept | yitang |
 | concept-mckinsey-issue-tree | Issue Tree：问题树拆解 | concept | consulting, problem-solving, structured-thinking |
-| concept-mckinsey-mece | MECE 原则：相互独立、完全究尽 | concept | consulting, structured-thinking, business-strategy |
+| concept-mckinsey-mece | MECE 原则：相互独立、完全穷尽 | concept | consulting, structured-thinking, business-strategy |
 | concept-smart-medicine-cabinet-consumer-acceptance | 消费者购药行为与智能药柜接受度 | concept | healthcare, business-strategy, product |
 | concept-smart-medicine-cabinet-digital-pharmacy-diagnosis | 智能药柜/数字药房项目诊断：大院处方、小院续方模式 | concept | healthcare, business-strategy |
 | concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet | 巨头为何不做诊所+智能药柜：竞争格局与壁垒分析 | concept | healthcare, business-strategy |
@@ -65,15 +47,15 @@ updated_at: 2026-06-17
 | concept-半肥猫-ai-learning-toolification-methodology | 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进 | concept | ai-collaboration, yitang, learning |
 | concept-纪浩-ai-collaboration-five-layer | 概念：纪浩AI协作五层工作空间法 | concept | ai-collaboration, yitang |
 | concept-纪浩-ai-collaboration-methodology | 纪浩 AI 协作方法论：从判断到规模复用的五层体系 | concept | ai-collaboration, yitang |
-| contingency-decision-making | contingency decision making | concept | ai-saas, management, decision-making, yitang |
-| course-to-skill-conversion | course to skill conversion | tool | management, product, business-strategy, ai-saas, yitang, decision-making |
+| contingency-decision-making | 偶然性与决策：承认'我不知道'比虚假确定性更明智 | concept | ai-saas, management, decision-making, yitang |
+| course-to-skill-conversion | 课程到Skill转化：将知识变成AI可执行的能力模块 | tool | management, product, business-strategy, ai-saas, yitang, decision-making |
 | data-labeling-best-practices-report | 数据标注最佳实践调研报告 | concept | master |
 | deepseek-v4-在知识管理系统中的应用 | DeepSeek V4 在知识管理系统中的应用 | concept | healthcare |
 | design-ai-image-generation | Design / Ai Image Generation | concept | yitang |
 | ec工业化规范手册-v2.8.0 | EC工业化规范手册 v2.8.0 | concept | healthcare |
 | fd-forward-deployment | Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式 | concept | business-strategy, ai-saas |
 | finance-legal-business-operations | 企业财务-法务-商务运营实务 | concept | business-strategy, entrepreneur, management |
-| find-old-do-small | find old do small | tool | management, ai-saas, design, yitang, decision-making |
+| find-old-do-small | 找老的干小的：AI落地场景评估框架 | tool | management, ai-saas, design, yitang, decision-making |
 | graph-rag | Graph RAG — Knowledge-Graph-Powered Retrieval | concept | kdo |
 | industry-ai-cases | 产业 AI 落地案例集（非药柜） | concept | ai-collaboration, ai-saas |
 | kdo-flywheel | KDO 飞轮 — 建造→使用→反思→实验 | concept | master |
@@ -96,18 +78,466 @@ updated_at: 2026-06-17
 | paddleocr-skill | PaddleOCR — 本地 ONNX + 云端 API 双模 OCR Skill | concept | master |
 | personal-growth-complex-systems | 个人成长：复杂系统、消除模糊与 AI 时代个体系统 | concept | personal-growth, learning-methodology, master |
 | pilot-atomic-chunk-comparison | Pilot：master-decision-hygiene 真原子切分对比 | analysis | ai-saas, decision-making, master |
-| prd-as-ai-instruction | prd as ai instruction | tool | product, ai-saas, management, yitang |
+| prd-as-ai-instruction | PRD文档作为AI可执行指令 | tool | product, ai-saas, management, yitang |
 | product-business-strategy | 产品-商业战略综合：设备运营、方向取舍与产品开发 | concept | product, business-strategy, entrepreneur |
 | product-ux | Product Ux | concept | ai-saas |
+| skill-1视角升级思考法 | 技能：+1视角升级思考法 | tool | management, decision-making, yitang, business-strategy |
+| skill-Truman-AI场景探索STAR模型 | 技能：AI场景探索STAR模型 | tool | yitang |
+| skill-Truman-AI工具选型决策 | 技能：AI工具选型决策 | tool | yitang |
+| skill-Truman-AI时代IPO模型重构 | 技能：AI时代IPO模型重构 | tool | yitang |
+| skill-Truman-AI时代提示词优化法 | 技能：AI时代提示词优化法 | tool | yitang |
+| skill-Truman-AI能力分层学习路径 | 技能：AI能力分层学习路径 | tool | yitang |
+| skill-Truman-AI辅助思考伙伴养成 | 技能：AI辅助思考伙伴养成 | tool | yitang |
+| skill-Truman-AI输出审慎判断与交付确认 | 技能：AI输出审慎判断与交付确认 | tool | yitang |
+| skill-Truman-Feature特性层训练法 | 技能：Feature特性层训练法 | tool | yitang |
+| skill-Truman-Skill全生命周期管理 | 技能：Skill全生命周期管理 | tool | yitang |
+| skill-Truman-XY-Problem识别与真实问题定位 | 技能：XY Problem识别与真实问题定位 | tool | yitang |
+| skill-Truman-上下文质量管理（AI协作） | 技能：上下文质量管理（AI协作） | tool | yitang |
+| skill-Truman-个人判断力系统建设（达克效应应对） | 技能：个人判断力系统建设（达克效应应对） | tool | yitang |
+| skill-Truman-人在环渐进自动化策略 | 技能：人在环渐进自动化策略 | tool | yitang |
+| skill-Truman-低质量动作识别与拒绝 | 技能：低质量动作识别与拒绝 | tool | yitang |
+| skill-Truman-信息输入持续补全（防AI错误累积） | 技能：信息输入持续补全（防AI错误累积） | tool | yitang |
+| skill-Truman-判断力产品化与系统赋能 | 技能：判断力产品化与系统赋能 | tool | yitang |
+| skill-Truman-双三角模型应用 | 技能：双三角模型应用 | tool | yitang |
+| skill-Truman-复杂项目AI落地稳定性保障 | 技能：复杂项目AI落地稳定性保障 | tool | yitang |
+| skill-Truman-多Agent通信协作方案 | 技能：多Agent通信协作方案 | tool | yitang |
+| skill-Truman-开源模型与商业模型融合方案 | 技能：开源模型与商业模型融合方案 | tool | yitang |
+| skill-Truman-技术社区严肃提问法 | 技能：技术社区严肃提问法 | tool | yitang |
+| skill-Truman-提示词优化底层方法 | 技能：提示词优化底层方法 | tool | yitang |
+| skill-Truman-数学题与语文题区分法 | 技能：数学题与语文题区分法 | tool | yitang |
+| skill-Truman-本地记忆与云端记忆管理 | 技能：本地记忆与云端记忆管理 | tool | yitang |
+| skill-Truman-知识库最佳实践构建 | 技能：知识库最佳实践构建 | tool | yitang |
+| skill-Truman-短视频自动化上传工作流 | 技能：短视频自动化上传工作流 | tool | yitang |
+| skill-Truman-科学提问法 | 技能：科学提问法 | tool | yitang |
+| skill-Truman-职场异步协作提问法 | 技能：职场异步协作提问法 | tool | yitang |
+| skill-Truman-语义对齐沟通法 | 技能：语义对齐沟通法 | tool | yitang |
+| skill-Truman-问题定义澄清法 | 技能：问题定义澄清法 | tool | yitang |
+| skill-ai-ai-workspace-setup | 技能：结构化AI工作空间搭建 | tool | ai-saas |
+| skill-ai-evidence-check | 技能：AI输出证据核查三问法 | tool | ai-saas |
+| skill-ai-four-elements-validation | 技能：真需求四要素验证法 | tool | AI, 决策, 产品 |
+| skill-ai-info-literacy-three-layer | 技能：AI输出三层防护检查法 | tool | AI, 信息素养, 质量检查 |
+| skill-ai-landing-five-steps | 技能：AI落地五步执行流程 | tool | AI, 落地, 执行 |
+| skill-ai-narrative-test | 技能：你的方案有叙事力吗？快速测试 | tool | ai-saas |
+| skill-ai-old-small-checklist | 技能："找老的干小的"场景评估清单 | tool | ai-saas |
+| skill-ai-oral-spray-input | 技能：用口喷输入法生成高质量 AI 提示词 | tool | ai-saas |
+| skill-ai-parallel-validation | 技能：平行运行验证法 | tool | ai-saas |
+| skill-ai-prd-for-ai | 技能：把PRD写成AI能执行的指令 | tool | ai-saas |
+| skill-ai-problem-question-check | 技能：Problem vs Question 区分法 | tool | AI, 决策 |
+| skill-ai-problem-validation | 技能：问题验证三维度法 | tool | ai-saas |
+| skill-ai-purpose-bias-check | 技能：目的论偏差快速识别法 | tool | ai-saas |
+| skill-ai-research-five-steps | 技能：AI调研五步法 | tool | AI, 调研, 信息素养 |
+| skill-ai-scene-four-elements | 技能：AI落地场景四要素评估法 | tool | AI, 落地, 评估 |
+| skill-ai-system-redundancy | 技能：系统冗余度快速检查清单 | tool | ai-saas |
+| skill-ai-voice-input-doubao | 技能：口喷式语音输入法 | tool | ai-saas |
+| skill-ai辅助学习 | 技能：AI辅助学习 | tool | product, ai-saas, design, yitang, entrepreneurship, decision-making |
+| skill-cognitive-bias-12-check | 技能：12种认知偏差完整自检 | tool | 决策, 认知, 心理学 |
+| skill-decision-delay-intuition | 技能：延迟直觉法 | tool | 决策, 认知, 个人管理 |
+| skill-decision-outside-view | 技能：团队决策外部视角法 | tool | 决策, 团队, 噪声减少 |
+| skill-first-principles-assumption-classify | 技能：假设分类法（第一性原理） | tool | 创新, 思维, 产品 |
+| skill-mece体系框架法 | 技能：MECE体系框架法 | tool | learning-methodology, yitang |
+| skill-react行动推理循环 | 技能：ReACT行动推理循环 | tool | ai-saas, yitang |
+| skill-一堂-business-prediction-15-char | 技能：商业预判15字诀 | tool | product, yitang |
+| skill-一堂-five-step-validation | 技能：聊问查测盘五步验证法 | tool | product, yitang |
+| skill-一堂-hypothesis-validation-three-axe | 技能：假设验证三板斧 | tool | product, yitang |
+| skill-一堂-kernel-three-questions | 技能：内核要素三问验证法 | tool | product, yitang |
+| skill-一堂-product-kernel-add-subtract | 技能：产品内核加减法 | tool | product, yitang |
+| skill-一堂-product-kernel-canvas | 一堂产品内核画布应用技能 | tool | yitang, product-strategy |
+| skill-一堂-spectrum-positioning | 技能：光谱模型定位法 | tool | product, yitang |
+| skill-三层目标对齐法 | 技能：三层目标对齐法 | tool | learning-methodology, yitang |
+| skill-三阶追问法穷尽决策要素 | 技能：三阶追问法穷尽决策要素 | tool | management, decision-making, yitang |
+| skill-专家访谈十步法 | 技能：专家访谈十步法 | tool | design, yitang |
+| skill-专家访谈学习 | 技能：专家访谈学习 | tool | yitang |
+| skill-专题笔记整理 | 技能：专题笔记整理 | tool | yitang |
+| skill-专题笔记脑图整理法 | 技能：专题笔记/脑图整理法 | tool | learning-methodology, yitang |
+| skill-主动摘要压缩上下文 | 技能：主动摘要压缩上下文 | tool | ai-saas, management, yitang |
+| skill-人生红点战略对齐 | 技能：人生红点战略对齐 | tool | decision-making, yitang |
+| skill-从案例中学习 | 技能：从案例中学习 | tool | yitang |
+| skill-从案例中学习正反案例法 | 技能：从案例中学习（正反案例法） | tool | learning-methodology, yitang |
+| skill-代入场景推演要素法 | 技能：代入场景推演要素法 | tool | decision-making, yitang, business-strategy |
+| skill-任务拆解为工作流 | 技能：任务拆解为工作流 | tool | management, design, yitang |
+| skill-体系框架构建 | 技能：体系框架构建 | tool | product, management, design, yitang |
+| skill-使用一页纸速查卡快速调用框架 | 技能：使用一页纸速查卡快速调用框架 | tool | knowledge-management |
+| skill-使用优先级快筛卡锁定核心矛盾 | 技能：使用优先级快筛卡锁定核心矛盾 | tool | design, decision-making |
+| skill-使用概念辨析卡区分易混淆概念 | 技能：使用概念辨析卡区分易混淆概念 | tool | design, business-strategy |
+| skill-六维窗口期扫描法 | 技能：六维窗口期扫描法 | tool | management, product, business-strategy, ai-saas, yitang, supply-chain, decision-making |
+| skill-分享输出检验法 | 技能：分享输出检验法 | tool | learning-methodology, yitang |
+| skill-分层标注重点信息 | 技能：分层标注重点信息 | tool | ai-saas, decision-making, yitang |
+| skill-创始人二当家分工协作模式 | 技能：创始人+二当家分工协作模式 | tool | management |
+| skill-制作行业化要素检查清单 | 技能：制作行业化要素检查清单 | tool | product, design, business-strategy |
+| skill-动手建模提炼 | 技能：动手建模提炼 | tool | yitang |
+| skill-动手建模法 | 技能：动手建模法 | tool | learning-methodology, yitang |
+| skill-区分获客渠道计算单元roi | 技能：区分获客渠道计算单元ROI | tool | product, decision-making, yitang, business-strategy |
+| skill-半肥猫-ai-research-validation | AI调研纠偏与验证技能：从'丝滑回答'到'证据决策'的六步闭环 | tool | ai-collaboration, yitang |
+| skill-半肥猫-course-to-skill-workflow | 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化 | tool | ai-collaboration, yitang |
+| skill-半肥猫-优先使用官方权威信源做证据 | 技能：优先使用官方权威信源做证据 | tool | ai-collaboration |
+| skill-半肥猫-判断课程是否值得做成Skill | 技能：判断课程是否值得做成Skill | tool | ai-collaboration, yitang |
+| skill-半肥猫-动态读取-向量化管理迭代知识 | 技能：动态读取 + 向量化管理迭代知识 | tool | ai-collaboration |
+| skill-半肥猫-告诉AI当前日期限制数据时效 | 技能：告诉 AI 当前日期限制数据时效 | tool | ai-collaboration |
+| skill-半肥猫-将学习成果沉淀为PRD文档 | 技能：将学习成果沉淀为 PRD 文档 | tool | ai-collaboration, learning |
+| skill-半肥猫-按语义切分文档做向量化 | 技能：按语义切分文档做向量化 | tool | ai-collaboration |
+| skill-半肥猫-清洗资料为Markdown格式喂给AI | 技能：清洗资料为 Markdown 格式喂给 AI | tool | ai-collaboration |
+| skill-半肥猫-用AI做结构化用户调研 | 技能：用 AI 做结构化用户调研 | tool | ai-collaboration |
+| skill-半肥猫-用Skill做对比测试验证效果 | 技能：用 Skill 做对比测试验证效果 | tool | ai-collaboration |
+| skill-半肥猫-用YAML格式做知识库原子化标签 | 技能：用 YAML 格式做知识库原子化标签 | tool | ai-collaboration |
+| skill-半肥猫-设计Skill的评分规则与风险边界 | 技能：设计 Skill 的评分规则与风险边界 | tool | ai-collaboration |
+| skill-半肥猫-课程Skill化的八步工作流 | 技能：课程Skill化的八步工作流 | tool | ai-collaboration, yitang |
+| skill-半肥猫-边学边练边沉淀的AI学习法 | 技能：边学边练边沉淀的 AI 学习法 | tool | ai-collaboration, learning |
+| skill-半肥猫-追问AI证据并标注信源 | 技能：追问 AI 证据并标注信源 | tool | ai-collaboration |
+| skill-半肥猫-飞书多维表格-自建机器人做团队数据协同 | 技能：飞书多维表格 + 自建机器人做团队数据协同 | tool | ai-collaboration |
+| skill-反向提示获取优化建议 | 技能：反向提示获取优化建议 | tool | product, ai-saas, master, yitang |
+| skill-反向教学深化理解 | 技能：反向教学深化理解 | tool | ai-saas, yitang |
+| skill-反向记录整理思路 | 技能：反向记录整理思路 | tool | product, ai-saas, management, yitang |
+| skill-反向采访挖掘深度 | 技能：反向采访挖掘深度 | tool | ai-saas, yitang |
+| skill-四层联系建立法 | 技能：四层联系建立法 | tool | learning-methodology, yitang |
+| skill-城市合伙人模式复制能力 | 技能：城市合伙人模式复制能力 | tool | management, design, business-strategy |
+| skill-增强数据供给 | 技能：增强数据供给 | tool | design, yitang, decision-making |
+| skill-复盘推演法 | 技能：复盘推演法 | tool | learning-methodology, yitang |
+| skill-复盘推演练习 | 技能：复盘推演练习 | tool | kdo, decision-making, yitang |
+| skill-多模型对比抽卡 | 技能：多模型对比抽卡 | tool | product, ai-saas, decision-making, yitang |
+| skill-多源输入法 | 技能：多源输入法 | tool | learning-methodology, yitang |
+| skill-多轮确认防偏差 | 技能：多轮确认防偏差 | tool | ai-saas, yitang |
+| skill-对标借鉴他人决策维度 | 技能：对标借鉴他人决策维度 | tool | product, decision-making, yitang |
+| skill-寻找学习教练法 | 技能：寻找学习教练法 | tool | learning-methodology, yitang |
+| skill-封装可复用skill | 技能：封装可复用Skill | tool | ai-saas, management, kdo, yitang |
+| skill-将未中标成本纳入循环计算真实投标成本 | 技能：将未中标成本纳入循环计算真实投标成本 | tool | management, decision-making, yitang, business-strategy |
+| skill-应用人员降级公式实现标准化 | 技能：应用人员降级公式实现标准化 | tool | design, business-strategy, decision-making |
+| skill-建立知识联系 | 技能：建立知识联系 | tool | yitang |
+| skill-建立策略-要素映射表设计对抗策略 | 技能：建立策略-要素映射表设计对抗策略 | tool | management, product, business-strategy, design, decision-making |
+| skill-快招品牌总部模拟调研 | 技能：快招品牌总部模拟调研 | tool | product, business-strategy |
+| skill-思维链显化推理 | 技能：思维链显化推理 | tool | ai-saas, decision-making, yitang |
+| skill-思维验证交叉检验 | 技能：思维验证交叉检验 | tool | product, ai-saas, decision-making, yitang |
+| skill-执行对标研究三步法 | 技能：执行对标研究三步法 | tool | product, design |
+| skill-按分阶练习路径渐进掌握方法 | 技能：按分阶练习路径渐进掌握方法 | tool | design |
+| skill-按图索骥改良外部模板 | 技能：按图索骥改良外部模板 | tool | product |
+| skill-按月份摊销收入成本做计划 | 技能：按月份摊销收入成本做计划 | tool | finance-legal, decision-making, yitang, business-strategy |
+| skill-推行分层标准化策略 | 技能：推行分层标准化策略 | tool | product, design |
+| skill-提升笔记练习频次的方法 | 技能：提升笔记练习频次的方法 | tool | design, yitang |
 | skill-提升笔记阅读舒适度 | 提升笔记阅读舒适度：用产品意识和视觉编码降低认知摩擦 | concept | yitang, personal-growth |
+| skill-提示词结构化迭代 | 技能：提示词结构化迭代 | tool | product, ai-saas, management, yitang |
+| skill-敏捷发布快速迭代搭建体系 | 技能：敏捷发布快速迭代搭建体系 | tool | product, finance-legal, business-strategy |
+| skill-数据分层供给 | 技能：数据分层供给 | tool | kdo, product, design, yitang |
+| skill-月白-80分效率设计策略 | 技能：80分效率设计策略 | tool | design |
+| skill-月白-A-B双轨反推模式选择 | 技能：A/B双轨反推模式选择 | tool | design |
+| skill-月白-AIGC产品白底图制作 | 技能：AIGC产品白底图制作 | tool | design |
+| skill-月白-AIGC人群画像驱动详情页规划 | 技能：AIGC人群画像驱动详情页规划 | tool | design |
+| skill-月白-AIGC反向拆解法 | 技能：AIGC反向拆解法 | tool | design |
+| skill-月白-AIGC文字大小精确控制 | 技能：AIGC文字大小精确控制 | tool | design |
+| skill-月白-AIGC模型选型决策法 | 技能：AIGC模型选型决策法 | tool | design |
+| skill-月白-AIGC橱窗陈列设计流程 | 技能：AIGC橱窗陈列设计流程 | tool | design |
+| skill-月白-AIGC海报信息优先级排序法 | 技能：AIGC海报信息优先级排序法 | tool | design |
+| skill-月白-AIGC生成人物证件照 | 技能：AIGC生成人物证件照 | tool | design |
+| skill-月白-AIGC设计作业复盘法 | 技能：AIGC设计作业复盘法 | tool | design |
+| skill-月白-AIGC餐饮海报优化一抽流 | 技能：AIGC餐饮海报优化一抽流 | tool | design |
+| skill-月白-AI一句话改图尺寸 | 技能：AI一句话改图尺寸 | tool | design |
+| skill-月白-AI人物特征精准描述法 | 技能：AI人物特征精准描述法 | tool | design |
+| skill-月白-AI去字-稿定设计加字工作流 | 技能：AI去字+稿定设计加字工作流 | tool | design |
+| skill-月白-AI去文字-稿定设计快速出图法 | 技能：AI去文字+稿定设计快速出图法 | tool | design |
+| skill-月白-AI图片印刷落地预处理 | 技能：AI图片印刷落地预处理 | tool | design |
+| skill-月白-AI图片去文字处理 | 技能：AI图片去文字处理 | tool | design |
+| skill-月白-AI图片风格逆向提取（抄图法） | 技能：AI图片风格逆向提取（抄图法） | tool | design |
+| skill-月白-AI图生图尺寸快速转换 | 技能：AI图生图尺寸快速转换 | tool | design |
+| skill-月白-AI对话式海报修改（免PS） | 技能：AI对话式海报修改（免PS） | tool | design |
+| skill-月白-AI对话情绪管理法 | 技能：AI对话情绪管理法 | tool | design |
+| skill-月白-AI工艺图人工复核法 | 技能：AI工艺图人工复核法 | tool | design |
+| skill-月白-AI平台算法咨询法 | 技能：AI平台算法咨询法 | tool | design |
+| skill-月白-AI归纳共性描述法 | 技能：AI归纳共性描述法 | tool | design |
+| skill-月白-AI抽卡效率控制法 | 技能：AI抽卡效率控制法 | tool | design |
+| skill-月白-AI提示词精准约束法 | 技能：AI提示词精准约束法 | tool | design |
+| skill-月白-AI改图指令精细化 | 技能：AI改图指令精细化 | tool | design |
+| skill-月白-AI智价比评估决策 | 技能：AI智价比评估决策 | tool | design |
+| skill-月白-AI模型选择决策法 | 技能：AI模型选择决策法 | tool | design |
+| skill-月白-AI模型选择策略 | 技能：AI模型选择策略 | tool | design |
+| skill-月白-AI海报快速生成法（15分钟无PS） | 技能：AI海报快速生成法（15分钟无PS） | tool | design |
+| skill-月白-AI生图与图生图决策法 | 技能：AI生图与图生图决策法 | tool | design |
+| skill-月白-AI生成IP表情包 | 技能：AI生成IP表情包 | tool | design |
+| skill-月白-AI生成图小字控制法 | 技能：AI生成图小字控制法 | tool | design |
+| skill-月白-AI生成图片排版控制-尺寸优先法 | 技能：AI生成图片排版控制-尺寸优先法 | tool | design |
+| skill-月白-AI生成棉花娃娃形象 | 技能：AI生成棉花娃娃形象 | tool | design |
+| skill-月白-AI生成电商白底图 | 技能：AI生成电商白底图 | tool | design |
+| skill-月白-AI电商图人工过审处理 | 技能：AI电商图人工精修与平台合规发布 | tool | design |
+| skill-月白-AI精准替换产品技巧 | 技能：AI精准替换产品技巧 | tool | design |
+| skill-月白-AI自动生成多语种专业名词提示词 | 技能：AI自动生成多语种专业名词提示词 | tool | design |
+| skill-月白-AI设计-质价比-决策框架 | 技能：AI设计'质价比'决策框架 | tool | design |
+| skill-月白-AI设计三段式里程碑流程 | 技能：AI设计三段式里程碑流程 | tool | design |
+| skill-月白-AI设计严苛批评法 | 技能：AI设计严苛批评法 | tool | design |
+| skill-月白-AI设计反馈萃取法 | 技能：AI设计反馈萃取法 | tool | design |
+| skill-月白-AI设计底层逻辑：从设计到作图到改图 | 技能：AI设计底层逻辑：从设计到作图到改图 | tool | design |
+| skill-月白-AI设计落地文件标准生成 | 技能：AI设计落地文件标准生成 | tool | design |
+| skill-月白-AI设计里程碑拆解法 | 技能：AI设计里程碑拆解法 | tool | design |
+| skill-月白-AI课程内容深度梳理法 | 技能：AI课程内容深度梳理法 | tool | design |
+| skill-月白-AI质价比评估方法 | 技能：AI质价比评估方法 | tool | design |
+| skill-月白-AI逆向反推描述法 | 技能：AI逆向反推描述法 | tool | design |
+| skill-月白-AI需求拆解咨询法 | 技能：AI需求拆解咨询法 | tool | design |
+| skill-月白-AI高清重绘去模糊 | 技能：AI高清重绘去模糊 | tool | design |
+| skill-月白-PPT全AI生成工作流 | 技能：PPT全AI生成工作流 | tool | design |
+| skill-月白-PPT内容框架AIGC生成法 | 技能：PPT内容框架AIGC生成法 | tool | design |
+| skill-月白-PPT风格锁定工作流 | 技能：PPT风格锁定工作流 | tool | design |
+| skill-月白-PS图层规范管理 | 技能：PS图层规范管理 | tool | design |
+| skill-月白-RGB转CMYK印刷预检 | 技能：RGB转CMYK印刷预检 | tool | design |
+| skill-月白-RGB转CMYK色彩校准法 | 技能：RGB转CMYK色彩校准法 | tool | design |
+| skill-月白-Token效价比决策公式 | 技能：Token效价比决策公式 | tool | design |
+| skill-月白-Token效价比决策法 | 技能：Token效价比决策法 | tool | design |
+| skill-月白-Token智甲比控制法 | 技能：Token智甲比控制法 | tool | design |
+| skill-月白-一抽流改图法（自然语言精准许愿法） | 技能：一抽流改图法（自然语言精准许愿法） | tool | design |
+| skill-月白-一抽流长提示词写作法 | 技能：一抽流长提示词写作法 | tool | design |
+| skill-月白-三步作业反馈法 | 技能：三步作业反馈法 | tool | design |
+| skill-月白-产品反光修复术 | 技能：产品反光修复术 | tool | design |
+| skill-月白-产品替换式场景合成法 | 技能：产品替换式场景合成法 | tool | design |
+| skill-月白-产品白底图标准化制作 | 技能：产品白底图标准化制作 | tool | design |
+| skill-月白-产品风格选择：测而非定 | 技能：产品风格选择：测而非定 | tool | design |
+| skill-月白-价格带视觉策略匹配 | 技能：价格带视觉策略匹配 | tool | design |
+| skill-月白-供应商信息对齐清单法 | 技能：供应商信息对齐清单法 | tool | design |
+| skill-月白-像素图高清重绘修复法 | 技能：像素图高清重绘修复法 | tool | design |
+| skill-月白-光影灰度控制能力构建 | 技能：光影灰度控制能力构建 | tool | design |
+| skill-月白-关键要素提取改图法 | 技能：关键要素提取改图法 | tool | design |
+| skill-月白-具体化优点萃取与复用 | 技能：具体化优点萃取与复用 | tool | design |
+| skill-月白-分层自洽海报生成法 | 技能：分层自洽海报生成法 | tool | design |
+| skill-月白-分步迭代改图法 | 技能：分步迭代改图法 | tool | design |
+| skill-月白-创作与执行双模式切换 | 技能：创作与执行双模式切换 | tool | design |
+| skill-月白-包材工艺参数核对法 | 技能：包材工艺参数核对法 | tool | design |
+| skill-月白-卖点可视化海报设计法 | 技能：卖点可视化海报设计法 | tool | design |
+| skill-月白-印刷DPI标准设置 | 技能：印刷DPI标准设置 | tool | design |
+| skill-月白-叙事性场景海报构建 | 技能：叙事性场景海报构建 | tool | design |
+| skill-月白-口喷作图工作流 | 技能：口喷作图工作流 | tool | design |
+| skill-月白-口喷式AIGC设计法 | 技能：口喷式AIGC设计法 | tool | design |
+| skill-月白-口喷式设计工作流 | 技能：口喷式设计工作流 | tool | design |
+| skill-月白-口述作图法（口喷设计） | 技能：口述作图法（口喷设计） | tool | design |
+| skill-月白-后台数据AI诊断法 | 技能：后台数据AI诊断法 | tool | design |
+| skill-月白-商业项目AI模型选型决策 | 技能：商业项目AI模型选型决策 | tool | design |
+| skill-月白-图像信息逆向解析训练 | 技能：图像信息逆向解析训练 | tool | design |
+| skill-月白-图片逆向反推提示词法 | 技能：图片逆向反推提示词法 | tool | design |
+| skill-月白-图片逆向提示词提取 | 技能：图片逆向提示词提取 | tool | design |
+| skill-月白-图生图产品替换与场景合成 | 技能：图生图产品替换与场景合成 | tool | design |
+| skill-月白-圈图指定修改法 | 技能：圈图指定修改法 | tool | design |
+| skill-月白-基于基础形象做动作延展（1到10） | 技能：基于基础形象做动作延展（1到10） | tool | design |
+| skill-月白-基于白底图做动作延展 | 技能：基于白底图做动作延展 | tool | design |
+| skill-月白-基于需求拆解找设计参考 | 技能：基于需求拆解找设计参考 | tool | design |
+| skill-月白-多窗口并行工作法 | 技能：多窗口并行工作法 | tool | design |
+| skill-月白-多语种专业名词提示词策略 | 技能：多语种专业名词提示词策略 | tool | design |
+| skill-月白-多语言提示词精准法 | 技能：多语言提示词精准法 | tool | design |
+| skill-月白-多语言提示词降幻觉法 | 技能：多语言提示词降幻觉法 | tool | design |
+| skill-月白-官方提示词最佳实践迁移 | 技能：官方提示词最佳实践迁移 | tool | design |
+| skill-月白-实物包装产业链实践 | 技能：实物包装产业链实践 | tool | design |
+| skill-月白-实物包装落地训练法 | 技能：实物包装落地训练法 | tool | design |
+| skill-月白-审美刻意练习法 | 技能：审美刻意练习法 | tool | design |
+| skill-月白-封面情绪转化法 | 技能：封面情绪转化法 | tool | design |
+| skill-月白-小红书双重搜索法 | 技能：小红书双重搜索法 | tool | design |
+| skill-月白-小红书封面趋势判断法 | 技能：小红书封面趋势判断法 | tool | design |
+| skill-月白-小红书平台内容策略：从美图经济到沙雕梗图 | 技能：小红书平台内容策略：从美图经济到沙雕梗图 | tool | design |
+| skill-月白-工厂对接信息清单制作 | 技能：工厂对接信息清单制作 | tool | design |
+| skill-月白-左手Cubox右手里程碑学习法 | 技能：左手Cubox右手里程碑学习法 | tool | design |
+| skill-月白-左脑画面描述训练法 | 技能：左脑画面描述训练法 | tool | design |
+| skill-月白-强约束画面尺寸比例 | 技能：强约束画面尺寸比例 | tool | design |
+| skill-月白-微信公众号封面AI设计-尺寸强约束法 | 技能：微信公众号封面AI设计-尺寸强约束法 | tool | design |
+| skill-月白-手机外设计逻辑切换法 | 技能：手机外设计逻辑切换法 | tool | design |
+| skill-月白-手绘草稿AI转化工作流 | 技能：手绘草稿AI转化工作流 | tool | design |
+| skill-月白-批量生成多视角素材 | 技能：批量生成多视角素材 | tool | design |
+| skill-月白-找AI要平台专属方法（模型对抗法） | 技能：找AI要平台专属方法（模型对抗法） | tool | design |
+| skill-月白-控制产品画面尺寸比例 | 技能：控制产品画面尺寸比例 | tool | design |
+| skill-月白-提示词优化：信息流海报文字修复 | 技能：提示词优化：信息流海报文字修复 | tool | design |
+| skill-月白-提示词长度控制法 | 技能：提示词长度控制法 | tool | design |
+| skill-月白-文件命名与图层命名规范 | 技能：文件命名与图层命名规范 | tool | design |
+| skill-月白-文件命名与存档规范（口述暗示） | 技能：文件命名与存档规范（口述暗示） | tool | design |
+| skill-月白-文件命名与平台适配规范 | 技能：文件命名与平台适配规范 | tool | design |
+| skill-月白-文创产品AI设计到生产的卡点预判 | 技能：文创产品AI设计到生产的卡点预判 | tool | design |
+| skill-月白-文创材质成本调研与精益选择 | 技能：文创材质成本调研与精益选择 | tool | design |
+| skill-月白-文创材质调研与精益选择 | 技能：文创材质调研与精益选择 | tool | design |
+| skill-月白-新媒体平台流量逻辑-问平台亲儿子AI法 | 技能：新媒体平台流量逻辑-问平台亲儿子AI法 | tool | design |
+| skill-月白-新媒体热点物料快速迭代法 | 技能：新媒体热点物料快速迭代法 | tool | design |
+| skill-月白-新手设计师基本功训练法 | 技能：新手设计师基本功训练法 | tool | design |
+| skill-月白-普通人AI快速上手法 | 技能：普通人AI快速上手法 | tool | design |
+| skill-月白-普通人AI设计80分法则 | 技能：普通人AI设计80分法则 | tool | design |
+| skill-月白-智能扩图-拓图双方案 | 技能：智能扩图/拓图双方案 | tool | design |
+| skill-月白-替换大法改图 | 技能：替换大法改图 | tool | design |
+| skill-月白-最佳实践素材收集法 | 技能：最佳实践素材收集法 | tool | design |
+| skill-月白-服务体验类去AI感设计 | 技能：服务体验类去AI感设计 | tool | design |
+| skill-月白-未知领域审美建构法 | 技能：未知领域审美建构法 | tool | design |
+| skill-月白-模型性价比选型决策 | 技能：模型性价比选型决策 | tool | design |
+| skill-月白-模型识别与边界测试法 | 技能：模型识别与边界测试法 | tool | design |
+| skill-月白-正向反馈强化AI生成 | 技能：正向反馈强化AI生成 | tool | design |
+| skill-月白-泛产品设计能力迁移法 | 技能：泛产品设计能力迁移法 | tool | design |
+| skill-月白-海报二维码快速替换法 | 技能：海报二维码快速替换法 | tool | design |
+| skill-月白-海报文字错误修复法 | 技能：海报文字错误修复法 | tool | design |
+| skill-月白-灵感画布建立法 | 技能：灵感画布建立法 | tool | design |
+| skill-月白-烧Token快速积累体感 | 技能：烧Token快速积累体感 | tool | design |
+| skill-月白-用AIGC做设计专家批评复盘 | 技能：用AIGC做设计专家批评复盘 | tool | design |
+| skill-月白-用一堂方法论找最佳实践并拉满执行 | 技能：用一堂方法论找最佳实践并拉满执行 | tool | design |
+| skill-月白-电商场景图三类分类法 | 技能：电商场景图三类分类法 | tool | design |
+| skill-月白-电商场景图三类构建法 | 技能：电商场景图三类构建法 | tool | design |
+| skill-月白-电商白底图生成与场景图匹配 | 技能：电商白底图生成与场景图匹配 | tool | design |
+| skill-月白-电商白底图生成与高清处理 | 技能：电商白底图生成与高清处理 | tool | design |
+| skill-月白-电商白底图生成与高清重绘 | 技能：电商白底图生成与高清重绘 | tool | design |
+| skill-月白-电商详情页起承转合架构法 | 技能：电商详情页起承转合架构法 | tool | design |
+| skill-月白-眼高手低训练法 | 技能：眼高手低训练法 | tool | design |
+| skill-月白-眼高手低转化法 | 技能：眼高手低转化法 | tool | design |
+| skill-月白-短视频封面-音量战争-设计法 | 技能：短视频封面'音量战争'设计法 | tool | design |
+| skill-月白-短视频封面一秒吸睛法 | 技能：短视频封面一秒吸睛法 | tool | design |
+| skill-月白-短视频封面高亮吸睛法 | 技能：短视频封面高亮吸睛法 | tool | design |
+| skill-月白-社群直播海报利益点提炼法 | 技能：社群直播海报利益点提炼法 | tool | design |
+| skill-月白-竞品图精益替换法 | 技能：竞品图精益替换法 | tool | design |
+| skill-月白-精准共用提示词撰写 | 技能：精准共用提示词撰写 | tool | design |
+| skill-月白-精准提示词撰写法 | 技能：精准提示词撰写法 | tool | design |
+| skill-月白-精准提示词消除模型幻觉 | 技能：精准提示词消除模型幻觉 | tool | design |
+| skill-月白-精准改图提示词写法 | 技能：精准改图提示词写法 | tool | design |
+| skill-月白-纳米级抄大师训练法 | 技能：纳米级抄大师训练法 | tool | design |
+| skill-月白-线下实体门店设计真实体感验证 | 技能：线下实体门店设计真实体感验证 | tool | design |
+| skill-月白-线下门店设计复杂度评估 | 技能：线下门店设计复杂度评估 | tool | design |
+| skill-月白-背景消除与分辨率修复 | 技能：背景消除与分辨率修复 | tool | design |
+| skill-月白-色块分区控制法 | 技能：色块分区控制法 | tool | design |
+| skill-月白-薅AIGC羊毛资源法 | 技能：AIGC工具免费试用与入门资源整理 | tool | design |
+| skill-月白-行业配色快速确定法 | 技能：行业配色快速确定法 | tool | design |
+| skill-月白-表情包风格筛选与确定 | 技能：表情包风格筛选与确定 | tool | design |
+| skill-月白-视角替换专用提示法 | 技能：视角替换专用提示法 | tool | design |
+| skill-月白-设计参考图精准定位法 | 技能：设计参考图精准定位法 | tool | design |
+| skill-月白-设计基本功回归法 | 技能：设计基本功回归法 | tool | design |
+| skill-月白-设计师AI工具习惯切换 | 技能：设计师AI工具习惯切换 | tool | design |
+| skill-月白-设计师AI资产四类型沉淀 | 技能：设计师AI资产四类型沉淀 | tool | design |
+| skill-月白-设计文件八要素命名法 | 技能：设计文件八要素命名法 | tool | design |
+| skill-月白-设计素材脱敏处理规范 | 技能：设计素材脱敏处理规范 | tool | design |
+| skill-月白-设计能力蒸馏封装法 | 技能：设计能力蒸馏封装法 | tool | design |
+| skill-月白-设计需求口头化表达法 | 技能：设计需求口头化表达法 | tool | design |
+| skill-月白-设计项目MVP拆解法 | 技能：设计项目MVP拆解法 | tool | design |
+| skill-月白-设计项目里程碑拆解法 | 技能：设计项目里程碑拆解法 | tool | design |
+| skill-月白-课程资料文件命名规范 | 技能：课程资料文件命名规范 | tool | design |
+| skill-月白-课程问题预埋法 | 技能：课程问题预埋法 | tool | design |
+| skill-月白-资深设计师AI工具切换法 | 技能：资深设计师AI工具切换法 | tool | design |
+| skill-月白-跨境电商产品图替换法 | 技能：跨境电商产品图替换法 | tool | design |
+| skill-月白-醒图人脸精修法 | 技能：醒图人脸精修法 | tool | design |
+| skill-月白-里程碑思维-找对标优先于做设计 | 技能：里程碑思维-找对标优先于做设计 | tool | design |
+| skill-月白-里程碑思维拆解设计流程 | 技能：里程碑思维拆解设计流程 | tool | design |
+| skill-月白-风格不变局部调整 | 技能：风格不变局部调整 | tool | design |
+| skill-月白-风格探索试错法 | 技能：风格探索试错法 | tool | design |
+| skill-月白-餐饮海报AB测试法 | 技能：餐饮海报AB测试法 | tool | design |
+| skill-月白-餐饮类线下设计调性把控 | 技能：餐饮类线下设计调性把控 | tool | design |
+| skill-李诞-个人IP的重新定义与输出策略 | 技能：个人IP的重新定义与输出策略 | tool | personal |
+| skill-李诞-内容创作中的观察训练法 | 技能：内容创作中的观察训练法 | tool | design |
+| skill-李诞-判断工作价值的交易成本视角 | 技能：判断工作价值的交易成本视角 | tool | decision-making |
+| skill-李诞-短视频-脱口秀创作：从-风格-自然-的无效建议中解脱 | 技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱 | tool | personal |
+| skill-李诞-销售闭环验证：从0到1的重新定义 | 技能：销售闭环验证：从0到1的重新定义 | tool | marketing |
+| skill-李诞-阅读重读机制：与书籍的-因缘-相遇 | 技能：阅读重读机制：与书籍的'因缘'相遇 | tool | personal |
+| skill-李诞-面对过去错误的平静心法 | 技能：面对过去错误的平静心法 | tool | decision-making |
+| skill-模型匹配调度 | 技能：模型匹配调度 | tool | yitang |
+| skill-模型组合调用 | 技能：模型组合调用 | tool | design, yitang |
+| skill-水水-保持系统冗余 | 技能：保持系统冗余 | tool | management |
+| skill-水水-利用叙事驱动决策 | 技能：利用叙事驱动决策 | tool | decision-making |
+| skill-水水-利用基因漂变视角 | 技能：利用基因漂变视角 | tool | design |
+| skill-水水-区分风险与不确定性 | 技能：区分风险与不确定性 | tool | decision-making |
+| skill-水水-接受发散性世界观 | 技能：接受发散性世界观 | tool | decision-making |
+| skill-水水-构建自利叙事 | 技能：构建自利叙事 | tool | healthcare |
+| skill-水水-用感性维度构建溢价 | 技能：用感性维度构建溢价 | tool | design |
+| skill-水水-管理决策权重偏差 | 技能：管理决策权重偏差 | tool | decision-making |
+| skill-水水-练习坦然说不知道 | 技能：练习坦然说不知道 | tool | marketing |
+| skill-水水-警惕概率虚妄安全感 | 技能：警惕概率虚妄安全感 | tool | yitang |
+| skill-水水-警惕错误归因 | 技能：警惕错误归因 | tool | personal |
+| skill-水水-识别关键偶然因素 | 技能：识别关键偶然因素 | tool | decision-making |
+| skill-水水-识别数据折磨陷阱 | 技能：识别数据折磨陷阱 | tool | decision-making |
+| skill-水水-识别模型局限性 | 技能：识别模型局限性 | tool | decision-making |
+| skill-水水-识别自证预言陷阱 | 技能：识别自证预言陷阱 | tool | management |
+| skill-水水-识别超级传播者风险 | 技能：识别超级传播者风险 | tool | management |
+| skill-水水-识别饥饿效应 | 技能：识别饥饿效应 | tool | decision-making |
+| skill-水水-避免原生家庭万能归因 | 技能：避免原生家庭万能归因 | tool | personal |
+| skill-水水-降低故事逻辑要求 | 技能：降低故事逻辑要求 | tool | design |
+| skill-深度分层学习 | 技能：深度分层学习 | tool | product, decision-making, yitang |
+| skill-清单小抄制作 | 技能：清单小抄制作 | tool | management, kdo, yitang, business-strategy |
+| skill-清单小抄工具箱法 | 技能：清单小抄工具箱法 | tool | learning-methodology, yitang |
+| skill-清单式笔记法 | 技能：清单式笔记法 | tool | design, yitang |
+| skill-渐进式披露上下文 | 技能：渐进式披露上下文 | tool | management, product, ai-saas, design, yitang |
+| skill-现场建模式萃取笔记 | 技能：现场建模式萃取笔记 | tool | product, management, yitang |
+| skill-用topdown方式整理内化笔记 | 技能：用Topdown方式整理内化笔记 | tool | product, management, yitang |
+| skill-用旗舰店替代纯招商投入 | 技能：用旗舰店替代纯招商投入 | tool | product, design, business-strategy |
+| skill-用清单体记备忘笔记 | 技能：用清单体记备忘笔记 | tool | management, decision-making, yitang |
+| skill-知识库团队管理 | 技能：知识库团队管理 | tool | management, design, yitang, entrepreneurship, kdo |
+| skill-知识树存储记忆法 | 技能：知识树存储记忆法 | tool | learning-methodology, yitang |
+| skill-稀缺资源机会成本比对法 | 技能：稀缺资源机会成本比对法 | tool | management, decision-making, yitang |
+| skill-立即实践转化法 | 技能：立即实践转化法 | tool | learning-methodology, yitang |
+| skill-纪浩-AI使用边界管理法 | 技能：AI使用边界管理法 | tool | ai-saas |
+| skill-纪浩-AI对话上下文隔离 | 技能：AI 对话上下文隔离 | tool | ai-collaboration |
+| skill-纪浩-AI工作空间与导诊台设计法 | 技能：AI工作空间与导诊台设计法 | tool | ai-collaboration, yitang |
+| skill-纪浩-AI工具脚本化约束 | 技能：AI工具脚本化约束 | tool | ai-saas |
+| skill-纪浩-Agent开工检查单制作法 | 技能：Agent开工检查单制作法 | tool | ai-saas |
+| skill-纪浩-Agent技能市场设计法 | 技能：Agent技能市场设计法 | tool | ai-collaboration, yitang |
+| skill-纪浩-Do-first-PDCA渐进迭代法 | 技能：Do-first PDCA渐进迭代法 | tool | ai-collaboration, yitang |
+| skill-纪浩-Problem与Question区分法 | 技能：Problem与Question区分法 | tool | ai-saas |
+| skill-纪浩-problem-validation-four-checks | 技能：四问验证法 —— 判断需求是真实Problem还是伪需求 | tool | ai-collaboration, yitang |
+| skill-纪浩-任务交付物标准化 | 技能：任务交付物标准化 | tool | ai-saas |
+| skill-纪浩-低成本输出验证法 | 技能：低成本输出验证法 | tool | ai-saas |
+| skill-纪浩-处理AI生成代码运行异常 | 技能：处理AI生成代码运行异常 | tool | ai-saas |
+| skill-纪浩-多视角切换思考法 | 技能：多视角切换思考法 | tool | ai-saas |
+| skill-纪浩-新手心态启动法 | 技能：新手心态启动法 | tool | ai-saas |
+| skill-纪浩-日志驱动排查法 | 技能：日志驱动排查法 | tool | ai-collaboration, yitang |
+| skill-纪浩-案例池构建法 | 技能：案例池构建法 | tool | ai-saas |
+| skill-纪浩-真需求四要素验证法 | 技能：真需求四要素验证法 | tool | ai-collaboration, yitang |
+| skill-纪浩-线上问题应急值守 | 技能：线上问题应急值守 | tool | ai-saas |
+| skill-纪浩-评估AI从零写UI的可行性 | 技能：评估AI从零写UI的可行性 | tool | ai-saas |
+| skill-纪浩-识别AI不可维护代码 | 技能：识别AI不可维护代码 | tool | ai-saas |
+| skill-纪浩-里程碑验证法 | 技能：里程碑验证法 | tool | ai-saas |
+| skill-纪浩-问题导向备课法 | 技能：问题导向备课法 | tool | ai-saas |
+| skill-纪浩-项目启动五问法 | 技能：项目启动五问法 | tool | ai-saas |
+| skill-自我反馈修正笔记姿势 | 技能：自我反馈修正笔记姿势 | tool | management, yitang |
+| skill-自我反馈检验 | 技能：自我反馈检验 | tool | master, yitang |
+| skill-获取他人反馈优化笔记 | 技能：获取他人反馈优化笔记 | tool | entrepreneurship, yitang, business-strategy |
+| skill-设定管理杠杆率指标评估效率 | 技能：设定管理杠杆率指标评估效率 | tool | management, design, business-strategy |
+| skill-设计对抗效果追踪看板 | 技能：设计对抗效果追踪看板 | tool | product, management, design, decision-making |
+| skill-费曼学习法三句话提炼 | 技能：费曼学习法三句话提炼 | tool | yitang |
+| skill-费曼学习法实践讲香课题 | 技能：费曼学习法实践（讲香课题） | tool | design, yitang, decision-making |
+| skill-费曼简单提炼法 | 技能：费曼简单提炼法 | tool | learning-methodology, yitang |
+| skill-辩证讨论法 | 技能：辩证讨论法 | tool | learning-methodology, yitang |
+| skill-辩证讨论深化 | 技能：辩证讨论深化 | tool | product, management, master, yitang |
+| skill-逐字稿练习演讲 | 技能：逐字稿练习演讲 | tool | design, yitang |
+| skill-通过综合案例沙盘走通全流程 | 技能：通过综合案例沙盘走通全流程 | tool | product, design, business-strategy, decision-making |
+| skill-通过请吃饭获取行业内部资料 | 技能：通过请吃饭获取行业内部资料 | tool | business-strategy |
+| skill-遵循规模前倾原则设计组织架构 | 技能：遵循规模前倾原则设计组织架构 | tool | product, management, design, business-strategy |
+| skill-采用滚动预测机制 | 技能：采用滚动预测机制 | tool | management, product, business-strategy, design, decision-making |
 | skill-问题驱动式深度思考笔记 | 问题驱动式深度思考笔记：用真问题取代真记录 | concept | yitang, personal-growth |
+| skill-项目复盘基本功 | 技能：项目复盘基本功 | tool | management, business-strategy, design, yitang, entrepreneurship |
+| skill-马易-AIGC项目ROI评估 | 技能：AIGC项目ROI评估 | tool | business-strategy, ai-collaboration |
+| skill-马易-AI任务拆解提升控制度 | 技能：AI任务拆解提升控制度 | tool | ai-saas |
+| skill-马易-AI搜索公网数据增强（合规边界） | 技能：AI搜索公网数据增强（合规边界） | tool | ai-saas |
+| skill-马易-AI答疑运营风格适配 | 技能：AI答疑运营风格适配 | tool | ai-saas |
+| skill-马易-AI能力团队复制 | 技能：AI能力团队复制 | tool | ai-saas |
+| skill-马易-AI落地前置条件验证 | 技能：AI落地前置条件验证 | tool | ai-saas |
+| skill-马易-AI落地四阶段验证法 | 技能：AI落地四阶段验证法 | tool | ai-saas |
+| skill-马易-AI落地场景筛选-四有新人法则 | 技能：AI落地场景筛选-四有新人法则 | tool | ai-saas |
+| skill-马易-AI落地场景识别-拆工作流找场景 | 技能：AI落地场景识别-拆工作流找场景 | tool | ai-saas |
+| skill-马易-AI落地场景识别与拆分 | 技能：AI落地场景识别与拆分 | tool | ai-saas |
+| skill-马易-AI落地能力内化训练 | 技能：AI落地能力内化训练 | tool | ai-saas |
+| skill-马易-AI落地认知速成-最佳实践学习法 | 技能：AI落地认知速成-最佳实践学习法 | tool | ai-saas |
+| skill-马易-AI项目上线-先平行再独行 | 技能：AI项目上线-先平行再独行 | tool | ai-saas |
+| skill-马易-AI项目需求拆解筛选 | 技能：AI项目需求拆解筛选 | tool | ai-saas |
+| skill-马易-RPA数据整合法 | 技能：RPA数据整合法 | tool | ai-saas |
+| skill-马易-业务为先的AI中台建设 | 技能：业务为先的AI中台建设 | tool | ai-implementation |
+| skill-马易-业务问题AI化拆解-餐饮设计案例法 | 技能：业务问题AI化拆解-餐饮设计案例法 | tool | ai-saas |
+| skill-马易-中国企业AI落地五步法 | 技能：中国企业AI落地五步法 | tool | ai-saas |
+| skill-马易-低置信度样本黄金漏斗处理 | 技能：低置信度样本黄金漏斗处理 | tool | ai-saas |
+| skill-马易-公寓获客自跑通原则 | 技能：公寓获客自跑通原则 | tool | marketing |
+| skill-马易-关键假设识别与验证 | 技能：关键假设识别与验证 | tool | ai-saas |
+| skill-马易-减少输入噪音法 | 技能：减少输入噪音法 | tool | ai-saas |
+| skill-马易-判断标准快速产出法 | 技能：判断标准快速产出法 | tool | ai-saas |
+| skill-马易-工作流优先于AIGC的决策方法 | 技能：工作流优先于AIGC的决策方法 | tool | ai-collaboration, business-strategy |
+| skill-马易-工作流拆解找场景 | 技能：工作流拆解找场景 | tool | ai-saas |
+| skill-马易-平台模式验证法 | 技能：平台模式验证法 | tool | ai-saas |
+| skill-马易-成为首位F工程师 | 技能：成为首位F工程师 | tool | ai-saas |
+| skill-马易-数字员工FD拆解落地 | 技能：数字员工FD拆解落地 | tool | ai-saas |
+| skill-马易-数据存储架构选择 | 技能：数据存储架构选择 | tool | management |
+| skill-马易-数据标注正确法 | 技能：数据标注正确法 | tool | ai-saas |
+| skill-马易-时间序列大模型场景识别 | 技能：时间序列大模型场景识别 | tool | ai-saas |
+| skill-马易-最小场景优先落地法 | 技能：最小场景优先落地法 | tool | ai-saas |
+| skill-马易-深度沉浸需求挖掘 | 技能：深度沉浸需求挖掘 | tool | ai-saas |
+| skill-马易-痛点驱动的数字化 | 技能：痛点驱动的数字化 | tool | ai-saas |
+| skill-马易-知识库-回答技巧双建设 | 技能：知识库+回答技巧双建设 | tool | marketing |
+| skill-马易-视频转化关键要素标注校验 | 技能：视频转化关键要素标注校验 | tool | marketing |
+| skill-马易-销售智能体体系搭建路径 | 技能：销售智能体体系搭建路径 | tool | marketing |
+| skill-马易-隐性知识萃取与模型化 | 技能：隐性知识萃取与模型化 | tool | ai-saas |
+| skill-马易-隐私安全分层解决 | 技能：隐私安全分层解决 | tool | ai-saas |
+| skill-马易-需求创造验证法 | 技能：需求创造验证法 | tool | ai-saas |
+| skill-马易-风口痛点识别法 | 技能：风口痛点识别法 | tool | ai-saas |
 | smart-medicine-cabinet-distribution | 智能药柜分销业态洞察 | concept | 医药零售, 智能药柜, 分销系统 |
 | smart-medicine-cabinet-national-policy-redlines | 自助售药机国家政策与红线（2024 年第 48 号公告解读） | concept | healthcare, pharmaceutical-retail, policy-compliance |
 | smart-medicine-cabinet-o2o-cost-structure | 医药 O2O 成本与毛利结构 | concept | healthcare, pharmaceutical-retail, o2o, financial-model |
 | smart-medicine-cabinet-regional-policy-map | 各省市自助售药机政策差异地图 | concept | healthcare, pharmaceutical-retail, policy-compliance |
 | source-code-delivery-model | 源码交付模式 | concept | SaaS, 商业模式, 软件交付 |
 | sprint-2-门禁举证验收 | Sprint 2 门禁举证验收 | concept | master |
-| structured-ai-workspace | structured ai workspace | tool | ai-saas, management, yitang |
+| structured-ai-workspace | 结构化AI工作空间搭建 | tool | ai-saas, management, yitang |
 | supply-chain-beverage | 餐饮渠道饮料产品成本-口感-供应链综合洞察 | concept | business-strategy, product, entrepreneur |
 | tinyfish-agentic-web-infrastructure | TinyFish — Agentic Web 基础设施建设层 Skill | concept | master |
 | tools-workflows | Tools Workflows | concept | healthcare |
@@ -123,6 +553,7 @@ updated_at: 2026-06-17
 | yt-ai-startup-20-risky-hypotheses | AI创业20个高风险假设清单 | tool | yitang, ai |
 | yt-ai-trend-12-signals | AI趋势12大变化模型 | framework | yitang, ai |
 | yt-barrier-analysis-cheat-sheet | 壁垒分析完整cheatsheet | tool | yitang |
+| yt-barrier-identification-skill | 壁垒识别与构建技能：从真假壁垒到护城河建设 | tool | yitang |
 | yt-business-analysis-cognitive-biases | 暗知识：五步法中的主要认知偏差 | dk | yitang |
 | yt-business-formula-l6-essence-formulas | 业务公式 L6 魔法参数：跨行业本质公式集锦 | concept | yitang, master, business-strategy |
 | yt-business-formula-parameter-iceberg | 业务公式参数冰山（L1-L6） | concept | yitang, master, business-strategy |
@@ -171,6 +602,7 @@ updated_at: 2026-06-17
 | yt-entrepreneur-truth-seeking | 实事求是 | tool | yitang |
 | yt-entrepreneur-unit-model | 单元模型 | tool | yitang |
 | yt-five-step-common-pitfalls | 暗知识：五步法常见误区与认知陷阱 | dk | yitang |
+| yt-five-step-implementation | 五步法落地实操：从故事版到分工版 | tool | yitang |
 | yt-five-step-level-blindspots | 暗知识：五步法的段位盲区与自评陷阱 | dk | yitang |
 | yt-five-step-method | 一堂五步法总纲 | framework | yitang |
 | yt-foresight-15-char-mantra | 十五字黄金法诀：机会预判的核心框架 | concept | yitang |
@@ -182,6 +614,7 @@ updated_at: 2026-06-17
 | yt-foresight-probability-engineering | 概率工程：把小概率变成大概率的方法论 | concept | yitang |
 | yt-foresight-ten-fatal-flaws | 十大硬伤：商业机会的致死缺陷清单 | tool | yitang |
 | yt-growth-cycle-model | 增长周期模型 | framework | yitang |
+| yt-lean-daily-probability-decision | 假设驱动日常决策三问 | concept | yitang, entrepreneurship, business-strategy |
 | yt-lean-essence | 一堂张磊版精益测试的本质：用少量试错成本降低系统性风险 | concept | yitang, entrepreneurship, business-strategy |
 | yt-management-basic-skills | 基本功认知 | concept | ai-saas, management, yitang |
 | yt-management-business-formula | 业务公式 | concept | yitang, master, business-strategy |
@@ -323,6 +756,12 @@ updated_at: 2026-06-17
 | yt-research-weaponry-course | 一堂调研武器库课程 | concept | yitang |
 | yt-scale-economy-weapon-library | 规模经济分析武器库 | tool | yitang |
 | yt-skill-checklist-as-ai-protocol | 清单体作为AI的I/O协议——用笔记替代prompt工程 | concept | yitang |
+| yt-skill-p-role-prompt-design | P 角色 Prompt 设计——执行者型 AI 的交付规范 | concept | yitang |
+| yt-skill-storyline-contrast-analysis | 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度 | tool | yitang |
+| yt-skill-storyline-key-elements | 清单体故事线⑥：关键要素线——用结构拆解'什么才是真正重要的' | tool | yitang |
+| yt-skill-storyline-problem-solving | 清单体故事线④：问题解决线——把混乱的诊断过程变成可追踪的思维链 | tool | yitang |
+| yt-skill-storyline-target-tradeoff | 清单体故事线⑦：目标取舍线——把模糊的纠结变成显性的决策框架 | tool | yitang |
+| yt-skill-storyline-timeline | 清单体故事线①：严格时间线——用时间轴重构事件因果链 | tool | yitang |
 | yt-system-course-catalog | 一堂全课程目录索引 | concept | yitang |
 | yt-system-course-map-lecture | 一堂课程地图精华串讲 | concept | yitang |
 | yt-three-dimension-opportunity-matrix | 三维排列组合找机会 | tool | yitang |
@@ -339,6 +778,7 @@ updated_at: 2026-06-17
 | yt-tool-y-model-ruler | Y模型尺子刻度法：从模糊经验到可复用评估模型 | tool | yitang |
 | yt-unit-model-ai-assisted | AI+单元模型：TCP-R双导师与出口式咨询实践 | tool | entrepreneur, master, ai |
 | yt-unit-model-benchmark | 单元模型基准值：科学类比、三点预测与基准值共建 | tool | entrepreneur, master |
+| yt-unit-model-build | 单元模型搭建五步法 | tool | yitang |
 | yt-unit-model-concept | 单元模型：商业模式评估的核心工具 | framework | yitang |
 | yt-unit-model-construction | 单元模型构建法：拆推评算与ABCD模型分类 | tool | entrepreneur, master |
 | yt-unit-model-dynamic | 动态单元模型：规模变量、拐点预判与规模经济对抗 | tool | entrepreneur, master |
@@ -383,6 +823,7 @@ updated_at: 2026-06-17
 | yt-business-formula-business-pattern-selector | 业务公式商业模式选型框架：单次成交型 vs 持续复购型 | framework | yitang, master, business-strategy |
 | yt-business-formula-qualitative-metrics-library | 业务公式定性参数行为化指标库 | framework | yitang, master, business-strategy |
 | yt-decision-abcd-model | yt decision abcd model | framework | 一堂·科学决策 |
+| yt-decision-y-model-philosophical-roots | Y 模型的哲学根基：王阳明知行合一、矛盾论、实践论的三重映射 | framework | yitang, master, decision-making |
 | yt-lean-assumption-prioritization | 关键假设排序：前置优先、风险高的优先 | framework | yitang, entrepreneurship, business-strategy |
 | yt-lean-assumption-verification-3means | 关键假设验证的三种手段：访谈调研、经验验证、实验验证 | framework | yitang, entrepreneurship, business-strategy |
 | yt-lean-b2b-b2c-hardware-content-testing | ToB/ToC/硬件/内容产品的测试差异 | framework | yitang, entrepreneurship, business-strategy |
@@ -410,6 +851,18 @@ updated_at: 2026-06-17
 | modeling-level-map | 建模能力段位图：从 L1 到 L6 的十年爬山地图 | tool | yitang, product, ai-collaboration |
 | modeling-weapon-library | 常见模型武器库：按问题难度调用模型 | tool | yitang, product, ai-collaboration |
 | process-modeling | 流程建模：用 SOP 与清单把经验变成稳定产出 | tool | yitang, product, ai-collaboration |
+| sk-ai-ai-workspace-setup | 技能：结构化AI工作空间搭建 | tool | ai-collaboration |
+| sk-ai-evidence-check | 技能：AI输出证据核查三问法 | tool | ai-collaboration |
+| sk-ai-landing-five-steps | 技能：AI落地五步执行清单 | tool | ai-collaboration |
+| sk-ai-narrative-test | 技能：你的方案有叙事力吗？快速测试 | tool | ai-collaboration |
+| sk-ai-old-small-checklist | 技能："找老的干小的"场景评估清单 | tool | ai-collaboration |
+| sk-ai-parallel-validation | 技能：平行运行验证法 | tool | ai-collaboration |
+| sk-ai-prd-for-ai | 技能：把PRD写成AI能执行的指令 | tool | ai-collaboration |
+| sk-ai-problem-validation | 技能：问题验证三维度法 | tool | ai-collaboration |
+| sk-ai-purpose-bias-check | 技能：目的论偏差快速识别法 | tool | ai-collaboration |
+| sk-ai-question-problem-checklist | 技能：提问题转化三问清单 | tool | ai-collaboration |
+| sk-ai-system-redundancy | 技能：系统冗余度快速检查清单 | tool | ai-collaboration |
+| sk-ai-voice-input-doubao | 技能：口喷式语音输入法 | tool | ai-collaboration |
 | skill-mckinsey-hypothesis-driven-workflow | 技能：假设驱动工作流 | tool | consulting, yitang |
 | skill-note-keyword-bolding | 关键词加粗三重结构：视觉重心即认知重心的标记法则 | tool | yitang, note-taking |
 | skill-note-layer-constraint | 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准 | tool | yitang, note-taking |
@@ -483,7 +936,7 @@ updated_at: 2026-06-17
 | case-modeling-process-sop-examples | 流程建模案例：10 个学员企业的 SOP 实践样本 | case | yitang, master, modeling |
 | case-nine-pm-livestream-survey | 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选 | case | yitang, modeling, user-research |
 | case-offline-catering-formula | 线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定 | case | yitang, business-strategy |
-| case-personal-map-modeling | 案例：一堂个人地图的完整建模过程 | case | yitang, personal-growth, modeling |
+| case-personal-map-modeling | 案例：一堂个人地图的完整建模过程（方法论视角） | case | yitang, personal-growth, modeling |
 | case-private-domain-ecommerce-formula | 私域电商 10W 人社群：从"拉人发广告"到"信任 × 用户升级路径" | case | yitang, e-commerce, business-strategy |
 | case-saas-renewal-formula | ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户"用起来" | case | yitang, ai-saas, business-strategy |
 | case-shampoo-product-kernel | 洗发水产品内核：从卖点混淆到内核清晰的产品定义案例 | case | product, yitang |
@@ -501,7 +954,7 @@ updated_at: 2026-06-17
 | case-truman-ai-skill-self-packaging | AI 自复盘自封装：Truman 的 design case 技能是如何让 AI 自己包装出来的 | case | yitang, ai-collaboration |
 | case-truman-livestream-sop-iteration | 一堂直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法 | case | yitang, product |
 | case-truman-motivation-map-12-versions | 动机地图12版迭代：先观察再设计——Truman的用户行为驱动迭代法 | case | product-design, yitang |
-| case-truman-personal-growth-map-creation | Truman 个人地图创作全历程：从模糊想法到四格天花板 | case | yitang, product |
+| case-truman-personal-growth-map-creation | Truman 个人地图创作全历程：七步创作法与 AI 判断（创作者视角） | case | yitang, product |
 | case-truman-poker-deck-roi | 扑克牌案例：同样的任务，两个同学评估结果截然相反 | case | yitang, product-design, decision-making |
 | case-truman-prd-checklist-evolution | Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平 | case | yitang, personal-growth |
 | case-truman-sales-report-structure | 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链 | case | 工作汇报, 复盘结构化 |
