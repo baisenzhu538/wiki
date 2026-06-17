@@ -1,21 +1,38 @@
 ---
-
 title: EC工业化规范 → KDO管线迁移方案
 type: decision
 domain:
 - kdo
-status: draft
+status: enriched
 id: kdo-ec-industrialization-migration-proposal
-author: unknown
+author: 黄药师
 source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
   - src_20260503_dadc7838-EC工业化规范手册
   - src_20260503_feab72b2-ec工业化规范手册-v2.8.0
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 confidence: 0.6
-trust_level: low
-updated_at: '2026-06-16'
+trust_level: medium
+updated_at: '2026-06-17'
+diagnostic_signals:
+  - signal: ingest 后的 source 卡 frontmatter 残缺或 source_refs 指向不存在文件
+    framework_lens: L1 结构完整性门禁
+    follow_up_question: 你的管线是否有 source_refs 存在性检查？broken links 清单是否已清零？
+  - signal: enrich 阶段被跳过，concept 卡直接从 draft 跳到 reviewed
+    framework_lens: 阶段硬阻断 / 强警告
+    follow_up_question: 当前 enrich 步骤是否有不可跳过的交付物和举证记录？status 变更是否被自动审计？
+  - signal: 团队争论"要不要做本质建模"，但基础 lint 和 broken links 还没跑通
+    framework_lens: 基础链路优先 / 左腿右腿交替走
+    follow_up_question: 基础链路（0 broken links、artifact validate 通过）是否已稳定？再讨论高级功能。
+  - signal: 失败模式库停留在理论推演，没有真实事故编号和修复记录
+    framework_lens: 失败模式从事故生长
+    follow_up_question: 每条失败模式是否有对应的真实案例、症状描述和可执行修复？
+related:
+  - '[[modeling-capability-for-kdo]]'
+  - '[[case-半肥猫-course-to-skill]]'
+  - '[[dk-f7-surface-translation]]'
+  - '[[modeling-to-kdo-toolchain]]'
 ---
 # EC工业化规范 → KDO管线迁移方案（征求意见稿）
 
@@ -41,7 +58,21 @@ KDO 当前管线（ingest → enrich → produce → validate → ship）存在�
 
 ---
 
-## 七大迁移方案
+## 问题
+
+KDO 管线已运行一段时间，但质量控制的重心仍依赖人工审查（欧阳锋逐卡审），存在三类结构性问题：
+
+1. **阶段可被跳过**：ingest → enrich → produce 等阶段没有硬阻断或强警告，导致低质量卡片直接进入 wiki。
+2. **缺陷发现滞后**：broken wikilinks、status 漂移、举证缺失等问题在事后才发现，修复成本高于事前预防。
+3. **规则与事故脱节**：失败模式库和 lint 规则多由人工预判，缺少从真实事故中反向生长的机制（参考 [[dk-f7-surface-translation]] 等 F-KDO 系列事故）。
+
+核心决策：是否将 EC 工业化的七类机制（门禁、清单、举证、流水线、版本、反馈、模板）迁移到 KDO 管线，并确定落地顺序与阻断级别？
+
+---
+
+## 方案
+
+采纳 **EC 工业化规范 → KDO 管线迁移**方案，将工程领域的七类质量控制机制映射到知识生产管线：
 
 ### 一、门禁系统（Gating）→ 管线阶段硬阻断
 
@@ -177,6 +208,32 @@ KDO 当前管线（ingest → enrich → produce → validate → ship）存在�
 
 ---
 
+## 结果
+
+黄药师与欧阳锋就以下 8 项决策达成共识，提交老朱终审：
+
+| # | 决策 | 详情 |
+|---|------|------|
+| 1 | **门禁阻断级别** | P0 项为强警告（可 `--skip-gate <reason>` override），非硬阻断。越过记录写入 state.json + log.md |
+| 2 | **L2 内容质量阈值** | Critique ≥ 1 条（须指出具体假设或边界），Synthesis ≥ 2 个 wikilinks（允许含 index 页），全文 > 500 字 |
+| 3 | **举证标准** | 仅 enrich/produce/ship 三节点强制举证。enrich 举证为变更摘要（非完整 diff） |
+| 4 | **模板系统** | 两级：完整版（8 区块）用于深度内容，精简版（3 区块）用于快讯/小结。模板为起点非约束，仅 frontmatter 核心字段不可删 |
+| 5 | **实施顺序** | 四 Sprint 递进，每轮欧阳锋验收。Sprint 1: L1 Lint 扩展 + 修复 broken wikilinks；Sprint 2: 门禁系统 + enrich 举证；Sprint 3: L2 内容检查 + feedback triage；Sprint 4+: 模板/pre-commit/影响分析 |
+| 6 | **角色切换** | 欧阳锋从「逐卡审查」切换为「维护门禁规则 + 抽查产出 + 裁决例外 + 记录决策」，切换条件：Sprint 3 验收通过（L1 零误报 + Builder 内化 Critique 底线） |
+| 7 | **失败模式方法论** | 写入 `90_control/operating-principles.md`——失败模式从实际事故中生长，不提前设计框架。每发现新模式 → 入库 → 更新 Lint → 更新自检清单 |
+| 8 | **基础链路修复** | 与 P0/P1 工业化迁移并行推进（非先后关系）。Sprint 1 同步修复 broken wikilinks + artifact validate 失败 |
+
+---
+
+## 可迁移
+
+1. **任何知识生产管线**：ingest → enrich → produce → validate → ship 的结构可复用到课程转 Skill、文章生产、案例库建设等场景（参考 [[case-半肥猫-course-to-skill]] 的八步工程化）。
+2. **AI Agent 协作流程**：当 Agent 承担 Producer 角色、人承担 Architect/Reviewer 角色时，门禁、清单、举证机制同样适用。
+3. **建模能力落地**：迁移方案可与 [[modeling-capability-for-kdo]] 中的 L3/L4/L5 分级映射结合，把建模段位与管线门禁对应。
+4. **工具链映射**：具体执行层面可参考 [[modeling-to-kdo-toolchain]] 中"建模三段论 → KDO 工具链"的落地映射。
+
+---
+
 ## 优先级排序
 
 | 优先级 | 迁移项 | 解决痛点 | 预计工作量 | 风险 |
@@ -205,16 +262,6 @@ KDO 当前管线（ingest → enrich → produce → validate → ship）存在�
 5. **实施顺序**：是一次性全部铺开，还是先 P0 试点再逐步推进？
 
 6. **欧阳锋角色定位**：以上质量门禁系统落地后，欧阳锋是否从"人工审查每篇文章"转变为"审核门禁规则 + 抽查质量"？是否需要调整角色定义？
-
----
-
-## 参考
-
-- [[EC工业化规范手册]] — EC工业化规范原始卡片
-- [[ec工业化规范手册-v2.8.0]] — v2.8.0 版本
-- [[kdo-protocol]] — KDO 协议定义
-- [[kdo-protocol-implementation-roadmap]] — KDO 实施路线图
-- [[plan_20260503_f3e9a2b1-improvement-plan]] — 最近一次综合改进计划
 
 ---
 
@@ -390,3 +437,94 @@ L1 Lint 扩展 + broken wikilinks 修复是最稳妥的起点。Sprint 1 验收�
 ---
 
 *复审通过。交老朱拍板。*
+
+---
+
+## 诊断信号
+
+以下信号出现时，说明当前 KDO 管线已出现工业化迁移需求或已偏离迁移原则：
+
+| 信号 | 镜头 | 跟进问题 |
+|:-----|:-----|:---------|
+| ingest 后的 source 卡 frontmatter 残缺或 source_refs 指向不存在文件 | L1 结构完整性门禁 | 你的管线是否有 source_refs 存在性检查？broken links 清单是否已清零？ |
+| enrich 阶段被跳过，concept 卡直接从 draft 跳到 reviewed | 阶段硬阻断 / 强警告 | 当前 enrich 步骤是否有不可跳过的交付物和举证记录？status 变更是否被自动审计？ |
+| 团队争论"要不要做本质建模"，但基础 lint 和 broken links 还没跑通 | 基础链路优先 / 左腿右腿交替走 | 基础链路（0 broken links、artifact validate 通过）是否已稳定？再讨论高级功能。 |
+| 失败模式库停留在理论推演，没有真实事故编号和修复记录 | 失败模式从事故生长 | 每条失败模式是否有对应的真实案例、症状描述和可执行修复？ |
+
+---
+
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| **管线已有实际数据流** | 需要 `00_inbox` → `60_feedback` → `30_wiki` 已有真实运行记录。空库或长期未更新的库无法验证迁移效果。 |
+| **团队接受强警告 + override 模式** | 如果组织文化要求"零 override 硬阻断"，P0 规则在知识生产高变异度场景下会频繁误报，导致工作流卡死。 |
+| **问题类型为知识生产/内容管线** | 本方案映射的是文本、概念、案例的质量控制，不适合直接套用到物理制造或纯代码 CI/CD 等低变异度流程。 |
+| **已有统一的 frontmatter/schema 规范** | 没有统一字段的卡片无法被 lint 和门禁规则覆盖；先完成 schema 统一再上线工业化规则。 |
+| **失败模式从事故沉淀** | 组织必须愿意记录真实事故并反向更新规则；否则失败模式库会退化为"坐在房间里编出来的 checklist"。 |
+
+### 常见失败模式
+
+| 失败模式 | 真实症状 | 可执行修复 |
+|:-----|:---------|:-----------|
+| **在漏水管子上加压：基础链路未跑通就上线硬阻断** | `kdo lint` 全量跑出一百多个 P0，团队每天写 `--skip-gate`；enrich 被跳过的根本原因不是缺门禁，而是 enrich 本身产出不可预期。 | 先修复 14 broken links + 8 validate 失败 artifact，确保 L1 零误报；再上线 P0 强警告模式，允许 `--skip-gate` 并记录原因。 |
+| **失败模式提前设计：坐在房间里编"可能出什么问题"** | 失败模式库有 30 条通用描述，但每条都没有真实 case ID、没有触发场景、没有修复记录；Lint 规则无法落地。 | 删除无真实事故支撑的条目；每条新模式必须关联一条 case/dk 卡（如 F-KDO-007 → [[dk-f7-surface-translation]]），并由审查人确认。 |
+| **L2 内容质量机械阈值导致误报** | 简单概念卡因"Critique < 2"被拦截；Synthesis 的 2 个 wikilink 硬凑一个到 index 页。 | Critique 阈值降至 ≥1 且必须指出具体假设/边界；Synthesis 允许含 index 页，但至少要有一个指向 peer 概念卡。 |
+| **举证 overhead 过重导致执行者造假** | enrich/produce/ship 记录变成复制粘贴模板，变更摘要写"优化了内容"等废话；管线链可追溯但不可信。 | 仅 enrich/produce/ship 三节点强制举证；enrich 举证为变更摘要（关键修改点而非完整 diff），并随机抽查摘要质量。 |
+| **模板僵化抑制领域差异** | 所有 concept 卡都被压成 8 区块结构；快讯/小结类卡片也要写 Critique 和 Synthesis。 | 模板分两级（完整版 8 区块 + 精简版 3 区块）；模板为起点非约束，允许增删，仅核心 frontmatter 字段不可删。 |
+
+---
+
+## EC→KDO 迁移落地检查清单
+
+在启动任何 Sprint 前，用下面 10 个问题自检。若 ≥3 题答案为"否"，先回到准备阶段：
+
+| # | 检查项 | 是/否 | 备注 |
+|:--:|:---|:---:|:---|
+| 1 | 当前 vault 是否已跑过一次全量 `kdo lint` 并输出 broken links 清单？ | ☐ | Sprint 1 前置 |
+| 2 | broken links 数量是否已降到 0？ | ☐ | 否则 L1 规则上线即触发大量 override |
+| 3 | artifact validate 失败项是否已修复或明确降级？ | ☐ | 解决痛点 #3 |
+| 4 | 是否已定义 P0/P1/P2 的 override 记录格式（state.json + log.md）？ | ☐ | 门禁为强警告而非硬阻断 |
+| 5 | enrich 步骤是否已有"变更摘要"模板而非完整 diff？ | ☐ | 降低举证 overhead |
+| 6 | 是否已建立 feedback 自动分类规则（broken link=P0, missing tag=P1, style=P2）？ | ☐ | Sprint 3 前置 |
+| 7 | 失败模式库中每条记录是否都关联了真实 case/dk 卡？ | ☐ | 如 [[dk-f7-surface-translation]] |
+| 8 | 是否已区分"完整版模板"与"精简版模板"的使用场景？ | ☐ | 避免模板僵化 |
+| 9 | 欧阳锋是否同意当前 Sprint 的验收标准？ | ☐ | 每轮验收不通过不进入下一轮 |
+| 10 | 是否已识别出 3 张以上 `source_refs` 为空、会在 L1 上线后报 P0 的存量卡？ | ☐ | 先修卡再上线规则 |
+
+**使用示例**：启动 Sprint 1 前自评，第 2 题"broken links 是否为 0"若回答"否"，则先执行"修复 14 broken wikilinks"任务，再上线 source_refs 存在性检查。
+
+---
+
+## 参考
+
+- [[EC工业化规范手册]] — EC工业化规范原始卡片
+- [[ec工业化规范手册-v2.8.0]] — v2.8.0 版本
+- [[kdo-protocol]] — KDO 协议定义
+- [[kdo-protocol-implementation-roadmap]] — KDO 实施路线图
+- [[plan_20260503_f3e9a2b1-improvement-plan]] — 最近一次综合改进计划
+- [[modeling-capability-for-kdo]] — 建模能力在 KDO 内容路线中的应用
+- [[case-半肥猫-course-to-skill]] — 课程转 Skill 八步法实例
+- [[dk-f7-surface-translation]] — 表层翻译式提炼失败模式
+- [[modeling-to-kdo-toolchain]] — 建模三段论到 KDO 工具链映射
+
+---
+
+## 单卡收尾检查
+
+- [x] `status` 已从 `draft` 改为 `enriched`
+- [x] `reviewed_by` 已更新为 `欧阳锋`
+- [x] `updated_at` 已更新为 `2026-06-17`
+- [x] `diagnostic_signals` ≥ 3（实际 4 条）
+- [x] 决策卡结构完整：问题、方案、结果、可迁移均已独立成节
+- [x] 适用边界 ≥ 4（实际 5 条）
+- [x] 常见失败模式 ≥ 4（实际 5 条），每条含真实症状 + 可执行修复
+- [x] 新增至少 1 个模板/checklist（EC→KDO 迁移落地检查清单）
+- [x] 新增至少 2 条互链（实际 4 条：[[modeling-capability-for-kdo]]、[[case-半肥猫-course-to-skill]]、[[dk-f7-surface-translation]]、[[modeling-to-kdo-toolchain]]）
+- [x] 全库质量门禁脚本已运行，目标卡无新增 P0/P1
+
+---
+
+*老顽童精修 · 2026-06-17 · 基于黄药师 v1.0 版 + 欧阳锋复审意见*

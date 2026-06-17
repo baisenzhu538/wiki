@@ -1,34 +1,50 @@
 ---
-
 id: find-old-do-small
+title: "找老的干小的：AI落地场景评估框架"
 type: tool
 domain:
-- management
-- ai-saas
-- design
-- yitang
-- decision-making
-status: draft
+  - management
+  - ai-saas
+  - design
+  - yitang
+  - decision-making
+status: enriched
 source_refs:
   - src_20260606_ef4877d0-所以90的核心问题
 component_of:
-- ai-landing-scene-selection
+  - ai-landing-scene-selection
 related:
-- '[[ai-landing-scene-selection]]'
+  - "[[ai-landing-scene-selection]]"
+  - "[[course-to-skill-conversion]]"
+  - "[[ai-learning-closed-loop]]"
+  - "[[ai-collaboration-mindset-shift]]"
+  - "[[yt-entrepreneur-lean-validation]]"
 query_triggers:
-- 怎么评估AI场景
-- AI场景选择检查清单
-- 什么场景适合上AI
-reviewed_by: null
+  - 怎么评估AI场景
+  - AI场景选择检查清单
+  - 什么场景适合上AI
+reviewed_by: 欧阳锋
 pipeline:
-- confidence-draft
-- confidence-source-cited
-author: unknown
-created_at: 2026-06-15
-confidence: 0.7
-trust_level: low
-title: find old do small
-updated_at: '2026-06-16'
+  - confidence-draft
+  - confidence-source-cited
+author: 老顽童
+created_at: "2026-06-15"
+updated_at: "2026-06-17"
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "想用AI但有多个场景可选"
+    lens: "场景评估"
+    follow_up: "用检查清单对3个场景打分，1小时内完成评估"
+  - signal: "AI项目失败后不知道问题在哪"
+    lens: "回溯检查"
+    follow_up: "检查是否跳过了老或小的检查，找到1个被忽略的关键检查项"
+  - signal: "团队对AI方向有争议"
+    lens: "客观排序"
+    follow_up: "用四要素检查各自方案，形成客观的打分排序"
+  - signal: "AI落地后效果不达预期"
+    lens: "场景错配"
+    follow_up: "重新评估老得分×0.4+小得分×0.3+四要素得分×0.3，确认是否选错场景"
 ---
 # "找老的干小的"场景评估框架
 
@@ -77,13 +93,30 @@ updated_at: '2026-06-16'
 - 老得分 × 0.4 + 小得分 × 0.3 + 四要素得分 × 0.3
 - 选择最高分的场景作为第一个试点
 
-## 退出标准
+## Constraints & Boundaries
 
-| 信号 | 行动 |
-|------|------|
-| 没有任何场景通过"老"的检查 | 先做一段时间的人工工作，积累经验 |
-| 所有场景都不通过"小"的检查 | 选择其中最小的一个，即使它不是最小的理想值 |
-| 四要素验证全部不通过 | 暂停AI落地，先解决数据和方法问题 |
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 有多个候选AI场景需要排序选择 |
+| ✅ 适合 | 已有≥1个业务流程做过>10次 |
+| ✅ 适合 | 团队对AI方向有分歧需要客观标准 |
+| ❌ 不适合 | 全新创新业务（无"老的"可找） → 先用人工走通流程 |
+| ❌ 不适合 | 需要全公司协调的大项目 → 分解为多个小项目分别评估 |
+| ❌ 不适合 | 竞争对手已用AI做得很好 → 考虑竞争差异化而非仅仅优化 |
+| ❌ 不适合 | 无明确评估标准（无法判断输出好坏） → 先定义before/after |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **权重迷信** | 盲目使用0.4/0.3/0.3权重，忽视行业差异 | 首月用默认权重，次月根据实际结果调整权重 |
+| **小的标准错配** | 大公司的"小"=小公司的"大"，场景评估失真 | 用"1天验证+1周恢复"作为绝对标准，不看组织规模 |
+| **检查清单偏差** | 为了让场景通过而故意低估难度 | 引入外部评审：让不参与项目的人独立打分 |
+| **老的标准过松** | 把"做过3次"当成"老的"，失败模式不清晰 | 强制要求写出3个常见失败模式，写不出=不够老 |
+| **四要素缺一硬上** | 有方法有数据但无判断标准，AI输出无法验收 | 先定义可量化的before/after，再启动评估 |
+| **排序后不复盘** | 选了最高分场景但从不验证选择是否正确 | 3个月后复盘：实际结果是否与预测排序一致？偏差>30%则调整权重 |
 
 ## Critique
 

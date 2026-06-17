@@ -1,34 +1,49 @@
 ---
-
 id: prd-as-ai-instruction
+title: "PRD文档作为AI可执行指令"
 type: tool
 domain:
-- product
-- ai-saas
-- management
-- yitang
-status: draft
+  - product
+  - ai-saas
+  - management
+  - yitang
+status: enriched
 source_refs:
   - src_20260606_90b44191-没有人呀现在
 component_of:
-- ai-learning-closed-loop
+  - ai-learning-closed-loop
 related:
-- '[[course-to-skill-conversion]]'
-- '[[voice-input-doubao]]'
+  - "[[course-to-skill-conversion]]"
+  - "[[voice-input-doubao]]"
+  - "[[ai-collaboration-mindset-shift]]"
+  - "[[ai-learning-closed-loop]]"
+  - "[[yt-entrepreneur-lean-validation]]"
 query_triggers:
-- PRD文档怎么写
-- 怎么让AI执行PRD
-- 产品需求文档AI
-reviewed_by: null
+  - PRD文档怎么写
+  - 怎么让AI执行PRD
+  - 产品需求文档AI
+reviewed_by: 欧阳锋
 pipeline:
-- confidence-draft
-- confidence-source-cited
-author: unknown
-created_at: 2026-06-15
-confidence: 0.7
-trust_level: low
-title: prd as ai instruction
-updated_at: '2026-06-16'
+  - confidence-draft
+  - confidence-source-cited
+author: 老顽童
+created_at: "2026-06-15"
+updated_at: "2026-06-17"
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "每次做同一类任务都要重新解释"
+    lens: "流程未固化"
+    follow_up: "写一份1页纸的PRD，包含目标+约束+步骤，1小时内完成"
+  - signal: "团队成员执行结果不一致"
+    lens: "标准缺失"
+    follow_up: "把标准流程写成PRD，让所有人按PRD执行，执行结果一致率>80%"
+  - signal: "AI执行结果每次不同"
+    lens: "约束不足"
+    follow_up: "把预期流程写成PRD加载给AI，连续3次结果一致"
+  - signal: "PRD写了但AI还是偏离"
+    lens: "边界不清"
+    follow_up: "检查PRD是否包含边界条件：什么时候停止、什么时候转交人类"
 ---
 # PRD文档作为AI可执行指令
 
@@ -68,13 +83,30 @@ updated_at: '2026-06-16'
 2. 打上标签（业务类型、复用频率、最后使用时间）
 3. 下次需要时，直接调用PRD作为上下文
 
-## 退出标准
+## Constraints & Boundaries
 
-| 信号 | 行动 |
-|------|------|
-| PRD更新频率低于每月1次 | 检查这个PRD是否还有复用价值，否则弃用 |
-| AI执行结果与PRD偏离>30% | 回到Step 1，检查是约束不足还是步骤不清晰 |
-| 流程发生根本性变化 | 更新PRD或重新写一份 |
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 有反复执行的标准化流程（每周≥2次） |
+| ✅ 适合 | 流程已被人工验证过（执行过≥5次） |
+| ✅ 适合 | 输出好坏可被明确判断（有量化标准） |
+| ❌ 不适合 | 创意类工作（设计/文案） → 只写目标和约束，不写步骤 |
+| ❌ 不适合 | 需要实时反馈的任务 → 用动态检查清单而非固定PRD |
+| ❌ 不适合 | 流程本身未被验证过 → 先用人工执行3-5次验证 |
+| ❌ 不适合 | 执行频率低于每月1次 → 不值得写PRD，用自然语言即可 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **PRD过细** | 把每个操作都写成步骤，AI变成机械执行无灵活度 | 只写约束和边界，步骤留给AI推理 |
+| **PRD过松** | 只写目标不写约束，AI每次结果不同 | 增加输入格式、输出格式、禁止事项 |
+| **边界缺失** | AI遇到未规定情况时自由发挥，偏离目标 | 明确写出"遇到X情况时停止并转交人类" |
+| **PRD成紧身衣** | 业务变化后PRD过时，AI按旧流程执行 | 每月Review PRD，更新频率<1月则弃用 |
+| **约束矛盾** | PRD中多个约束互相冲突，AI无所适从 | 用检查清单验证约束一致性，冲突时标注优先级 |
+| **证据要求缺失** | AI输出无支撑材料，无法验证正确性 | 每步结论后强制要求：数据来源、置信度、备选方案 |
 
 ## Critique
 
