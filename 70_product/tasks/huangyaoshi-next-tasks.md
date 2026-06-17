@@ -1515,3 +1515,231 @@ aliases:
 ```
 S4-1 → S4-2 → S4-3
 ```
+
+---
+
+## KF-020 批量修复：enriched/reviewed 卡 source_refs 指向 00_inbox
+
+> **来源**：王语嫣（代欧阳锋）全库扫描发现 45 张 enriched/reviewed 卡存在 KF-020 违规。
+> **规则依据**：《KDO 工业化手册》§六：source_refs 不得指向临时路径。enriched/reviewed 卡的所有 source 必须归档到 `10_raw/sources/`。
+> **优先级**：P0（阻塞工业化门禁）
+> **负责人**：黄药师
+> **验收人**：王语嫣（代欧阳锋）
+
+### 当前违规规模
+
+```text
+总违规卡数：45 张
+- enriched：23 张
+- reviewed：22 张
+```
+
+完整列表：
+
+#### enriched（23 张）
+
+`case-five-step-fake-vs-real-barriers`、`case-five-step-growth-first-lever`、`case-gudong-tea-shop-foresight`、`case-jh-yitang-vs-sqlhelper`、`case-truman-ai-partner`、`case-truman-motivation-map-12-versions`、`case-truman-poker-deck-roi`、`case-truman-yitang-foresight`、`case-unit-model-gashapon`、`case-xiaolong-ecommerce-foresight`、`case-zhihu-vs-degetao-network-effect`、`case-һ��-���˲���-hypothesis-failure`、`case-һ��-����������-hypothesis-validation`、`case-�ͺ�-skill-market-problem-validation`、`concept-five-step-growth-to-barrier-transition`、`skill-�ͺ�-AI�Ի������ĸ���`、`yt-foresight-15-char-mantra`、`yt-foresight-ab-steady-state`、`yt-foresight-addition-subtraction`、`yt-foresight-deliverables-four-levels`、`yt-foresight-probability-engineering`、`yt-foresight-ten-fatal-flaws`、`yt-research-osl-framework`、`yt-three-dimension-opportunity-matrix`
+
+#### reviewed（22 张）
+
+`case-milktea-five-step`、`case-shampoo-product-kernel`、`case-toy-cabinet-barrier`、`case-toy-cabinet-business-model`、`case-treadmill-demand-analysis`、`concept-һ��-hypothesis-driven-business-methodology`、`concept-һ��-kernel-iteration`、`concept-һ��-kernel-validation`、`concept-һ��-key-assumptions`、`concept-һ��-product-kernel`、`yt-barrier-analysis-cheat-sheet`、`yt-customer-acquisition-toolkit`、`yt-demand-analysis-hiking-map`、`yt-five-step-common-pitfalls`、`yt-five-step-implementation`、`yt-five-step-method`、`yt-growth-cycle-model`、`yt-market-size-estimation`、`yt-product-kernel-cultivation`、`yt-tool-foresight-canvas`、`yt-unit-model-three-tools`
+
+### 修复原则
+
+| 情况 | 处理方式 | 是否降级 | 质量要求 |
+|---|---|---|---|
+| source 已归档到 `10_raw/sources/` | 修正 frontmatter 路径 | 否 | 路径必须指向存在的文件 |
+| source 未归档，但原文件仍在 `00_inbox/` | 先归档到 `10_raw/sources/`，生成 `src_YYYYMMMDD_<hash>-` 前缀，再修正路径 | 否 | 归档文件需包含原始内容或 OCR 结果 |
+| source 未归档，且原始文件已丢失 | 从 source_refs 中移除该引用 | 视情况 | 若移除后 source_refs 为空，卡片降级为 draft |
+| source 是临时笔记/草稿，无归档价值 | 从 source_refs 中移除 | 视情况 | 需判断该 source 对卡片内容是否必要 |
+
+### 执行步骤
+
+#### 步骤 1：生成完整违规清单
+
+运行以下脚本，输出每卡每个违规 source_ref 的精确列表：
+
+```python
+import yaml
+from pathlib import Path
+
+violations = []
+for p in Path('30_wiki').rglob('*.md'):
+    if '_archive' in p.parts or 'raw' in p.parts:
+        continue
+    text = p.read_text(encoding='utf-8', errors='ignore')
+    if not text.startswith('---'):
+        continue
+    try:
+        fm = yaml.safe_load(text.split('---', 2)[1])
+    except:
+        continue
+    if not fm:
+        continue
+    status = fm.get('status', '')
+    src_refs = fm.get('source_refs', [])
+    if not isinstance(src_refs, list):
+        continue
+    inbox_refs = [ref for ref in src_refs if isinstance(ref, str) and '00_inbox' in ref]
+    if inbox_refs and status in ['enriched', 'reviewed']:
+        violations.append({
+            'id': fm.get('id', p.stem),
+            'status': status,
+            'path': str(p),
+            'refs': inbox_refs
+        })
+
+print(f'Total violations: {len(violations)}')
+for v in violations:
+    print(f"\n{v['id']} ({v['status']}):")
+    for ref in v['refs']:
+        print(f"  - {ref}")
+```
+
+#### 步骤 2：建立 00_inbox → 10_raw/sources 映射表
+
+对每个违规 source_ref，检查 `10_raw/sources/` 中是否已有对应归档：
+
+1. **图片类 source**：搜索 `10_raw/sources/` 中文件名包含核心关键词的 OCR md 文件
+   - 例如：`00_inbox/һ���岽��/һ��-һ���岽��-����-һ�ñ��ݷ������.png`
+   - 对应搜索：`ls 10_raw/sources/ | grep '壁垒' | grep 'cheatsheet'`
+
+2. **口述稿 txt**：搜索 `10_raw/sources/` 中同课程或同主题的归档
+   - 如果没有单独归档，可归入 `10_raw/sources/一堂-课程地图精华串讲.md`
+   - 如果课程地图未覆盖，创建新的 src 文件归档
+
+3. **临时笔记 md**：评估是否有归档价值
+   - 如果是课程笔记/讲义，归档到 `10_raw/sources/`
+   - 如果是个人随手记，无长期价值，直接移除引用
+
+#### 步骤 3：批量归档尚未归档的文件
+
+对仍在 `00_inbox/` 但未归档的 source 文件：
+
+1. 复制到 `10_raw/sources/`
+2. 重命名为标准格式：`src_YYYYMMDD_<hash>-<原始描述>.md`
+   - hash 可用文件内容前 32 字节的 md5 前 8 位，或随机生成
+   - 例如：`src_20260617_a1b2c3d4-一堂-五步法-增长-笔记.md`
+3. 确保文件编码为 UTF-8，无 BOM
+
+#### 步骤 4：批量替换 frontmatter 中的 source_refs
+
+对每张违规卡：
+
+1. 读取当前 `source_refs`
+2. 把每个 `00_inbox/...` 路径替换为对应的 `10_raw/sources/...` 路径
+3. 移除无价值的临时笔记引用
+4. 若移除后 `source_refs` 为空，将 `status` 改为 `draft`，`confidence` 不超过 0.65
+5. 更新 `updated_at`
+
+#### 步骤 5：处理丢失的 source
+
+如果某个 `00_inbox/` 文件已不存在：
+
+1. 在 `00_inbox/` 全目录搜索同名/相似文件
+2. 如果完全找不到，从 source_refs 中移除
+3. 如果该 source 对卡片内容至关重要，卡片降级为 draft
+
+### 质量要求
+
+1. **路径准确性**：每个替换后的路径必须指向真实存在的文件
+2. **source 完整性**：原始图片/口述稿/笔记的核心信息必须保留
+3. **卡片状态正确**：
+   - 有有效 source → 保持 enriched/reviewed
+   - source 丢失或为空 → 降级为 draft
+4. **不引入新错误**：
+   - 不改动 body 内容
+   - 不删除卡片
+   - 不破坏 YAML 格式
+5. **保留可追溯性**：归档文件名应能反映原始内容主题
+
+### 验收标准
+
+#### 验收 1：零违规
+
+```python
+import yaml
+from pathlib import Path
+
+violations = []
+for p in Path('30_wiki').rglob('*.md'):
+    if '_archive' in p.parts or 'raw' in p.parts:
+        continue
+    text = p.read_text(encoding='utf-8', errors='ignore')
+    if not text.startswith('---'):
+        continue
+    try:
+        fm = yaml.safe_load(text.split('---', 2)[1])
+    except:
+        continue
+    if not fm:
+        continue
+    status = fm.get('status', '')
+    src_refs = fm.get('source_refs', [])
+    if not isinstance(src_refs, list):
+        continue
+    inbox_refs = [ref for ref in src_refs if isinstance(ref, str) and '00_inbox' in ref]
+    if inbox_refs and status in ['enriched', 'reviewed']:
+        violations.append(fm.get('id', p.stem))
+
+assert len(violations) == 0, f'Still {len(violations)} violations'
+print('KF-020: all clear')
+```
+
+目标：**violations = 0**
+
+#### 验收 2：质量门禁
+
+```bash
+python 90_control/scripts/kcard-quality-gate.py
+```
+
+目标：
+```text
+total: <N>, p0: 0, p1: 0, clean: <N>, yaml_error: 0
+```
+
+#### 验收 3：kdo_lint
+
+```bash
+python 90_control/scripts/kdo_lint.py
+```
+
+目标：不新增 ERROR（当前 84 个，主要来自 decisions 域，本次不要求解决 decisions 域问题）
+
+#### 验收 4：王语嫣抽检
+
+王语嫣随机抽检 10 张修复后的卡，检查：
+- source_refs 中无 00_inbox
+- 每个 source 路径真实存在
+- 卡片状态合理
+
+### 严禁
+
+- ❌ 不要简单地把 `00_inbox/` 替换为 `10_raw/sources/` 而不实际移动文件
+- ❌ 不要把 source_refs 清空后就保持 enriched/reviewed 状态
+- ❌ 不要修改卡片 body 内容
+- ❌ 不要删除任何原始文件（只复制归档，不删除）
+- ❌ 不要为了凑数把无关文件塞进 source_refs
+- ❌ 不要批量运行脚本后不抽检
+
+### 当前基线
+
+```text
+python 90_control/scripts/kcard-quality-gate.py
+total: 1193, p0: 0, p1: 0, clean: 1193, yaml_error: 0
+
+python 90_control/scripts/kdo_lint.py
+errors: 84
+```
+
+### 建议执行顺序
+
+```
+第 1 天：生成清单 + 建立 00_inbox→10_raw/sources 映射表
+第 2-3 天：批量归档未归档文件 + 批量替换 frontmatter 路径
+第 4 天：处理丢失 source + 状态降级
+第 5 天：跑验收脚本 + 王语嫣抽检
+```
+
+实际可分批执行，不必一次完成全部 45 张。
