@@ -132,8 +132,11 @@ def validate_file(fp: Path, schemas: dict) -> list:
         if val is not None and val not in allowed:
             errors.append(f"{rel}: field '{field}' has invalid value '{val}' (allowed: {allowed})")
 
-    # Check patterns
+    # Check patterns (skip content fields that may contain wikilinks or free-form text)
+    _SKIP_PATTERN_FIELDS = {"related", "tags", "domain", "source_refs", "bridges_to", "diagnostic_signals", "diagnostic_relations", "query_triggers", "aliases"}
     for field, pattern in schema.get("patterns", {}).items():
+        if field in _SKIP_PATTERN_FIELDS:
+            continue
         val = fm.get(field)
         if val is not None:
             vals = val if isinstance(val, list) else [val]
