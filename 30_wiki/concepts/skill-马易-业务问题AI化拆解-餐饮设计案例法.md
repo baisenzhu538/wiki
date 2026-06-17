@@ -14,7 +14,8 @@ trust_level: medium-low
 source_refs:
 - src_20260510_4bb17355
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
-updated_at: '2026-06-16'---
+updated_at: '2026-06-16'
+---
 # 技能：业务问题AI化拆解-餐饮设计案例法
 
 ## 原始表述

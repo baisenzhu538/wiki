@@ -30,7 +30,8 @@ pipeline:
 - confidence-verified-by-test
 author: 半肥猫
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：设计 Skill 的评分规则与风险边界
 
 ## Summary

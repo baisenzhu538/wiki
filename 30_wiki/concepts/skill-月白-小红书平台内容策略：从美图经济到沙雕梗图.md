@@ -24,7 +24,8 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.6
-trust_level: low---
+trust_level: low
+---
 # 技能：小红书平台内容策略：从美图经济到沙雕梗图
 
 ## 原始表述

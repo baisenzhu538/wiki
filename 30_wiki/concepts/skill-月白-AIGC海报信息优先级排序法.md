@@ -24,7 +24,8 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.6
-trust_level: low---
+trust_level: low
+---
 # 技能：AIGC海报信息优先级排序法
 
 ## 原始表述

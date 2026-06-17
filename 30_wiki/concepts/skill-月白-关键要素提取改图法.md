@@ -24,7 +24,8 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.6
-trust_level: low---
+trust_level: low
+---
 # 技能：关键要素提取改图法
 
 ## 原始表述

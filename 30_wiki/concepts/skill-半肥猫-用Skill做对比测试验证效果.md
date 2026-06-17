@@ -28,7 +28,8 @@ pipeline:
 - confidence-verified-by-test
 author: 半肥猫
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：用 Skill 做对比测试验证效果
 
 ## Summary

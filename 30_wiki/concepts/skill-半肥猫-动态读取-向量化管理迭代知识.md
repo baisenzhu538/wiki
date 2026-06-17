@@ -25,7 +25,8 @@ reviewed_by: laowantong
 updated_at: '2026-06-16'
 author: 半肥猫
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：动态读取 + 向量化管理迭代知识
 
 ## Summary

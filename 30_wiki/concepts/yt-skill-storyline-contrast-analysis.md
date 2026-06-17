@@ -26,7 +26,8 @@ trust_level: medium
 type: "tool"
 source_refs:
 - source_unknown
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）---
+source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+---
 # 清单体故事线⑤：对比分析线——用结构暴露被忽视的差异维度
 
 ## Condense

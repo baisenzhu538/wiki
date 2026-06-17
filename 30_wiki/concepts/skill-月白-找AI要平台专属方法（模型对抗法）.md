@@ -24,7 +24,8 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.6
-trust_level: low---
+trust_level: low
+---
 # 技能：找AI要平台专属方法（模型对抗法）
 
 ## 原始表述

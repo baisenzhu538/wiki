@@ -29,7 +29,8 @@ pipeline:
 - confidence-verified-by-case
 author: 半肥猫
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：按语义切分文档做向量化
 
 ## Summary

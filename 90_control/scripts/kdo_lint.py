@@ -162,7 +162,7 @@ def lint(wiki_dir: Path) -> dict:
     all_errors = []
     file_count = 0
 
-    md_files = list(wiki_dir.rglob("*.md"))
+    md_files = [f for f in wiki_dir.rglob("*.md") if "raw" not in f.parts and "_archive" not in f.parts]
     for fp in md_files:
         file_count += 1
         errs = validate_file(fp, schemas)

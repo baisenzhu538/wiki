@@ -32,7 +32,8 @@ pipeline:
 author: unknown
 trust_level: medium-high
 source_refs:
-- source_unknown---
+- source_unknown
+---
 # 技能：管理决策权重偏差
 
 > 水水在拆书会中提出的决策改进方法。解决"明明列出了所有决策因素，但权重分配完全是自我服务"这个普遍但少有人正视的问题。

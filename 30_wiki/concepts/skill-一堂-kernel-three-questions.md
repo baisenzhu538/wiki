@@ -33,7 +33,8 @@ pipeline:
 author: 老顽童
 reviewed_by: pending
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：内核要素三问验证法
 
 ## Summary

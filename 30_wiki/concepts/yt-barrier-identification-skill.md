@@ -54,7 +54,8 @@ diagnostic_signals:
   framework_lens: 结果≠壁垒——市场份额、用户规模、资金量是竞争结果或资源投入，不是结构性防御
   follow_up_question: 如果你的市场份额明天被对手用补贴抢走30%，用户会跟着补贴走还是留在你这里？他们留下的真实成本是什么？
 updated_at: '2026-06-16'
-author: 老顽童---
+author: 老顽童
+---
 # 壁垒识别与构建技能：从真假壁垒到护城河建设
 
 > 来源：一堂五步法·壁垒篇 | [[yt-barrier-analysis-cheat-sheet]] | [[yt-five-step-method]] | [[yt-unit-model-three-tools]]

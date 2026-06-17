@@ -32,7 +32,8 @@ related:
 author: 纪浩
 reviewed_by: pending
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：提问题转化三问清单
 
 ## 原始表述

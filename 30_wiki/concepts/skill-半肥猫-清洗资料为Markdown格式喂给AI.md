@@ -26,7 +26,8 @@ pipeline:
 - confidence-source-cited
 author: 半肥猫
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：清洗资料为 Markdown 格式喂给 AI
 
 ## Summary

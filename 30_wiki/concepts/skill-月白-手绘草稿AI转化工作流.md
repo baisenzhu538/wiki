@@ -24,7 +24,8 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.6
-trust_level: low---
+trust_level: low
+---
 # 技能：手绘草稿AI转化工作流
 
 ## 原始表述

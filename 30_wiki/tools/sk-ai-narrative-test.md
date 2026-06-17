@@ -30,7 +30,8 @@ related:
 author: unknown
 reviewed_by: pending
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：你的方案有叙事力吗？快速测试
 
 ## 原始表述

@@ -28,7 +28,8 @@ pipeline:
 - confidence-verified-by-case
 author: 半肥猫
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：将学习成果沉淀为 PRD 文档
 
 ## Summary

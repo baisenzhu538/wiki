@@ -14,7 +14,8 @@ trust_level: low
 source_refs:
 - src_20260609_8c00cb42
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
-updated_at: '2026-06-16'---
+updated_at: '2026-06-16'
+---
 # 技能：新手心态启动法
 
 - **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲

@@ -31,7 +31,8 @@ related:
 author: unknown
 reviewed_by: pending
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：系统冗余度快速检查清单
 
 ## 原始表述

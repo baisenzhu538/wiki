@@ -25,7 +25,8 @@ updated_at: '2026-06-16'
 author: unknown
 reviewed_by: pending
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：建立策略-要素映射表设计对抗策略
 
 ## 原始表述

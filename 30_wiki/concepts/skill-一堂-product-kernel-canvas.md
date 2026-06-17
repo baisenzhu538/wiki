@@ -32,7 +32,8 @@ pipeline:
 author: 老顽童
 reviewed_by: pending
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 一堂产品内核画布应用技能
 
 ## 原始表述

@@ -23,7 +23,8 @@ reviewed_by: laowantong
 updated_at: '2026-06-16'
 author: 半肥猫
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：用 AI 做结构化用户调研
 
 ## Summary

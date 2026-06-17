@@ -21,7 +21,8 @@ updated_at: '2026-06-16'
 author: unknown
 reviewed_by: pending
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：通过请吃饭获取行业内部资料
 
 ## 原始表述

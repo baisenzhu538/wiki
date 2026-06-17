@@ -23,7 +23,8 @@ updated_at: '2026-06-16'
 author: unknown
 reviewed_by: pending
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：快招品牌总部模拟调研
 
 ## 原始表述

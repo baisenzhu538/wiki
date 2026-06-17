@@ -25,7 +25,8 @@ pipeline:
 author: unknown
 reviewed_by: pending
 confidence: 0.7
-trust_level: medium-low---
+trust_level: medium-low
+---
 # 技能：工作流优先于AIGC的决策方法
 
 ## 原始表述

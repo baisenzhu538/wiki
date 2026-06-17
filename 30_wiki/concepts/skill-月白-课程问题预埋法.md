@@ -25,7 +25,8 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.6
-trust_level: low---
+trust_level: low
+---
 # 技能：课程问题预埋法
 
 ## 原始表述

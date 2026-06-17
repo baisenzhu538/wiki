@@ -14,7 +14,8 @@ trust_level: low
 source_refs:
 - src_20260528_4277c6be
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260528_4277c6be）
-updated_at: '2026-06-16'---
+updated_at: '2026-06-16'
+---
 # 技能：销售闭环验证：从0到1的重新定义
 
 ## 原始表述

@@ -14,7 +14,8 @@ trust_level: low
 source_refs:
 - src_20260609_03491271
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
-updated_at: '2026-06-16'---
+updated_at: '2026-06-16'
+---
 # 技能：AI辅助思考伙伴养成
 
 ## 原始表述

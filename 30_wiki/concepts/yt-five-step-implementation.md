@@ -45,7 +45,8 @@ diagnostic_signals:
   framework_lens: 跳级
   follow_up_question: 5分钟内能把商业模式讲清楚吗？如果不能，不要急着定量
 updated_at: '2026-06-16'
-author: 老顽童---
+author: 老顽童
+---
 # 五步法落地实操：从故事版到分工版
 
 > 来源：一堂五步法·落地实操篇 | [[yt-five-step-method]] | [[yt-demand-analysis-hiking-map]] | [[yt-product-kernel-cultivation]] | [[yt-unit-model-concept]] | [[yt-growth-cycle-model]] | [[yt-barrier-analysis-cheat-sheet]]

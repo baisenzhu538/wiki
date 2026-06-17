@@ -35,7 +35,8 @@ pipeline:
 author: 老顽童
 reviewed_by: pending
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：假设验证三板斧
 
 ## Summary

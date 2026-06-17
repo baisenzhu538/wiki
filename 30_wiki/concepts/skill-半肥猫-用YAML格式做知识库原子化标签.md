@@ -27,7 +27,8 @@ pipeline:
 - confidence-source-cited
 author: 半肥猫
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：用 YAML 格式做知识库原子化标签
 
 ## Summary

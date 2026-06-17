@@ -30,7 +30,8 @@ related:
 author: 半肥猫
 reviewed_by: pending
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：AI输出证据核查三问法
 
 ## 原始表述

@@ -26,7 +26,8 @@ trust_level: medium
 type: "concept"
 source_refs:
 - src_20260522_38173b48
-source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）---
+source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
+---
 # P 角色 Prompt 设计——执行者型 AI 的交付规范
 
 ## Condense

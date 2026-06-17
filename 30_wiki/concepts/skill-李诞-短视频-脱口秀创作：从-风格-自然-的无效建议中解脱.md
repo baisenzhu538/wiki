@@ -14,7 +14,8 @@ trust_level: low
 source_refs:
 - source_unknown
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
-updated_at: '2026-06-16'---
+updated_at: '2026-06-16'
+---
 # 技能：短视频/脱口秀创作：从'风格''自然'的无效建议中解脱
 
 ## 原始表述

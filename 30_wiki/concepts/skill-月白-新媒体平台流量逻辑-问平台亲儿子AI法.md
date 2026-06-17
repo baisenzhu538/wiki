@@ -24,7 +24,8 @@ pipeline:
 author: 月白
 reviewed_by: pending
 confidence: 0.6
-trust_level: low---
+trust_level: low
+---
 # 技能：新媒体平台流量逻辑-问平台亲儿子AI法
 
 ## 原始表述

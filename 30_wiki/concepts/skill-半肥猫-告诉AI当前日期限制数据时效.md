@@ -28,7 +28,8 @@ pipeline:
 - confidence-verified-by-test
 author: 半肥猫
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：告诉 AI 当前日期限制数据时效
 
 ## Summary
