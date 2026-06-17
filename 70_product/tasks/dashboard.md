@@ -36,6 +36,6 @@ Generated: 2026-06-15T15:00:00+00:00
 ## Summary
 
 - **Total**: 22
-- **Done**: 4
-- **In Progress**: 1
+- **Done**: 7
+- **In Progress**: 0
 - **Pending**: 2
