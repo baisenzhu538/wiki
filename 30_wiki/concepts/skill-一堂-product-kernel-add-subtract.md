@@ -1,37 +1,54 @@
 ---
-
 id: skill-一堂-product-kernel-add-subtract
-title: 技能：产品内核加减法
-type: "tool"
-status: draft
+title: "技能：产品内核加减法"
+type: tool
+status: enriched
 domain:
-- product
-- yitang
+  - product
+  - yitang
 source_person: Truman
 source_context: 一堂产品内核实操课
 source_refs:
-- 00_inbox/一堂-产品内核实操课-Truman-口述.txt
-- 00_inbox/一堂-产品内核实操课-truman-笔记.txt
+  - 00_inbox/一堂-产品内核实操课-Truman-口述.txt
+  - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
 tools_required:
-- 产品内核画布（纸笔/白板/文档均可）
-- 用户访谈或问卷工具（可选）
+  - 产品内核画布（纸笔/白板/文档均可）
+  - 用户访谈或问卷工具（可选）
 prerequisite_skills:
-- concept-一堂-product-kernel
+  - concept-一堂-product-kernel
 related:
-- '[[concept-一堂-product-kernel]]'
-- '[[skill-一堂-product-kernel-canvas]]'
+  - "[[concept-一堂-product-kernel]]"
+  - "[[skill-一堂-product-kernel-canvas]]"
+  - "[[skill-一堂-kernel-three-questions]]"
+  - "[[skill-一堂-five-step-validation]]"
 wiki_refs:
-- '[[concept-一堂-product-kernel]]'
-- '[[skill-一堂-product-kernel-canvas]]'
-created_at: 2026-06-10
-updated_at: '2026-06-16'
+  - "[[concept-一堂-product-kernel]]"
+  - "[[skill-一堂-product-kernel-canvas]]"
+created_at: "2026-06-10"
+updated_at: "2026-06-17"
 pipeline:
-- confidence-draft
-- confidence-source-cited
+  - confidence-draft
+  - confidence-source-cited
 author: 老顽童
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "内核装7-10条，团队焦点分散"
+    lens: "舍不得减"
+    follow_up: "强迫按'去掉后用户还会选吗'重新排序，内核必须减到3-5条"
+  - signal: "把'我觉得这个功能很酷'当成内核"
+    lens: "内部视角替代用户视角"
+    follow_up: "每条要素必须能说出'用户选择我们的具体原因'，用用户原话支撑"
+  - signal: "加法阶段就否决想法，错过潜在突破点"
+    lens: "过早做减法"
+    follow_up: "加法阶段不评判只做收集，减法阶段才做判断"
+  - signal: "将'有则更好'的要素留在内核，挤占决定性资源"
+    lens: "优化性当决定性"
+    follow_up: "重复问'没有它用户还会选吗'，不会选的才是决定性"
+  - signal: "内核中穿插高成本低信息要素，拖累利润率"
+    lens: "成本敏感缺失"
+    follow_up: "默认不做高成本低信息项，除非有强劣数据支持"
 ---
 # 技能：产品内核加减法
 
