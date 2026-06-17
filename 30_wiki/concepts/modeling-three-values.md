@@ -1,31 +1,47 @@
 ---
-
 id: modeling-three-values
-title: 建模的三重价值：确定性、框架性、迁移性
+title: "建模的三重价值：确定性、框架性、迁移性"
 type: concept
 source_refs:
   - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-status: draft
+status: enriched
 domain:
-- yitang
-- modeling
-created_at: '2026-06-14'
-updated_at: '2026-06-16'
+  - yitang
+  - modeling
+created_at: "2026-06-14"
+updated_at: "2026-06-17"
 author: 老顽童
-reviewed_by: pending
-review_date: '2026-06-14'
+reviewed_by: 欧阳锋
+review_date: "2026-06-14"
 trust_level: medium
-confidence: 0.7
+confidence: 0.75
 related:
-- '[[modeling-capability-system]]'
-- '[[modeling-three-stages]]'
-- '[[modeling-level-map]]'
+  - "[[modeling-capability-system]]"
+  - "[[modeling-three-stages]]"
+  - "[[modeling-level-map]]"
+  - "[[master-knowledge-compound]]"
+  - "[[skill-一堂-hypothesis-validation-three-axe]]"
 tags:
-- '#method/modeling'
-- '#chunk-type/definition'
-- '#value'
-source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
-  high）
+  - "#method/modeling"
+  - "#chunk-type/definition"
+  - "#value"
+source_context: 单一source为完整长文档，内容充分支撑high trust。P1收尾时从high降为medium，待补充第二来源或充分验证后再升回high
+diagnostic_signals:
+  - signal: "同一任务今天做得好，明天做得差"
+    lens: "确定性缺失"
+    follow_up: "检查是否有流程建模/SOP/清单，确保每次稳定产出"
+  - signal: "讨论半天不知道重点在哪"
+    lens: "框架性缺失"
+    follow_up: "引入抽象建模/框架，让复杂问题有章法，抓住主动权"
+  - signal: "只会做A渠道，换渠道就不会"
+    lens: "迁移性缺失"
+    follow_up: "做本质建模，提炼跨领域规律，一次提炼多处复用"
+  - signal: "信息量一大就迷失"
+    lens: "框架性不足"
+    follow_up: "用结构化框架（如冰山图、雷达图）过滤噪声，聚焦关键"
+  - signal: "每个项目都要从零学起"
+    lens: "经验未沉淀"
+    follow_up: "检查是否有本质建模输出，经验是否被提炼为可迁移模式"
 ---
 # 建模的三重价值：确定性、框架性、迁移性
 
