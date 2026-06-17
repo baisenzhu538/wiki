@@ -32,7 +32,8 @@ reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.88
 trust_level: medium-high
-source_refs: []
+source_refs:
+  - 10_raw/sources/src_20260522_4c9a911f-ocr-一堂-管理必修-课程清单.md
 source_context: 原始 source 无法追溯，已清空 source_refs；后续补充真实来源后可在 10_raw/sources/ 下引用相对路径
 related:
 - "yt-management-founder-role"

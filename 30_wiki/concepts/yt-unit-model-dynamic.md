@@ -24,7 +24,8 @@ related:
 - '[[yt-unit-model-ai-assisted]]'
 - '[[master-systems-thinking]]'
 - '[[master-first-principles]]'
-source_refs: []
+source_refs:
+  - 10_raw/sources/src_20260609_9fd664f5-ocr-一堂-单元模型-动态预测.md
 status: enriched
 title: 动态单元模型：规模变量、拐点预判与规模经济对抗
 trust_level: medium

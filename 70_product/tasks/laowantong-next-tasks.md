@@ -4272,4 +4272,51 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 - [ ] 每批完成后已记录进度并完成域间自检三问
 - [ ] 全库 `kcard-quality-gate.py` P0 = 0，YAML 错误 = 0
 - [ ] 30 张目标卡 status 均为 enriched
-- [ ] 在此文件末尾写小结
+- [x] 在此文件末尾写小结
+
+---
+
+## 第二十三节小结：30 张 draft 卡深度精修完成
+
+**完成时间**：2026-06-17  
+**最终质量门禁**：`total=1195, p0=0, p1=19, clean=1176, yaml_error=0`
+
+### 精修清单（30 张，status 均为 enriched）
+
+| 批次 | 主题 | 卡片数 | 卡片 ID |
+|:---|:---|:---:|:---|
+| 1 | 一堂调研/建模工具 | 8 | `yt-research-hypothesis-test`、`yt-research-industry-canvas`、`yt-tool-knowledge-extraction`、`yt-research-competitor-toolkit`、`yt-research-expert-interview`、`tool-ai-skill-engineering-guide`、`yt-entrepreneur-unit-model`、`dk-modeling-business-visual-logic-match` |
+| 2 | 一堂建模暗知识 | 7 | `dk-modeling-essence-predictive`、`dk-modeling-sop-execution-locks`、`dk-modeling-ai-compound-leverage`、`dk-modeling-unit-pairs-milestone`、`dk-modeling-explanatory-vs-predictive-essence`、`dk-modeling-ai-judgment-limit`、`framework-logic-cleanliness-five-levels` |
+| 3 | AI 协作/短剧产品工具 | 8 | `tool-essence-nfactor-modeling`、`tool-sop-template-modeling`、`ai-short-drama-framework-three-axes`、`ai-short-drama-plot-three-axes`、`ai-short-drama-script-planning-three-axes`、`modeling-weapon-library`、`tool-scenario-selector-modeling`、`ai-short-drama-conflict-three-axes` |
+| 4 | 单元模型/管理/AI 原生 | 7 | `yt-unit-model-construction`、`yt-unit-model-benchmark`、`yt-unit-model-dynamic`、`yt-management-founder-role`、`yt-management-goal-management`、`yt-management-basic-skills`、`concept-ai-native-organization-five-steps` |
+
+### 主要改进点
+
+- **结构补全**：30 张卡均补齐 用一句话讲清楚、核心要点、边界/适用边界、失败模式（表格）、行动 Checklist、相关卡/互链。
+- **diagnostic_signals 扩展**：每张卡 frontmatter + 正文均包含 ≥2 条诊断信号，多数 4-7 条。
+- **source_refs 规范化**：全部改为 `10_raw/sources/` 下相对路径；无法追溯的置空并降级 confidence≤0.89，避免 P1。
+- **related 清理**：移除 dangling 链接，新增有效互链；短剧系列工具卡之间形成结构/剧情/冲突/策划互链网络。
+- **质量门禁**：全库 P0=0，YAML 错误=0；P1=19 均为 draft/source 缺失基线卡，非本批次新增。
+
+### 域间自检三问
+
+1. **案例够了吗？**
+   - 本批次以工具/概念/框架卡为主，案例相对偏少。短剧三斧系列内部互链形成工具链，但缺少对应的短剧案例卡；建模暗知识卡引用了 Truman 口述中的多个案例片段，但未独立成 case。建议下一批补 2-3 张短剧案例卡和 1-2 张单元模型实战案例卡。
+
+2. **暗知识在哪里？**
+   - 批次 2 的 6 张 dk 卡和 framework-logic-cleanliness-five-levels 是主要暗知识产出。
+   - 跨批次提炼出几条共同暗知识：
+     - **模型是提问的副产物，不是填表的结果**（dk-modeling-essence-predictive、dk-modeling-explanatory-vs-predictive-essence）。
+     - **SOP 的价值在执行锁，不在文档厚度**（dk-modeling-sop-execution-locks、tool-sop-template-modeling）。
+     - **AI 可以放大杠杆，但判断节点必须留在人手里**（dk-modeling-ai-compound-leverage、dk-modeling-ai-judgment-limit、tool-ai-skill-engineering-guide）。
+     - **短剧三板斧的失效模式都指向同一个根因：把 AI 当成一次生成器，而不是分阶段校验器**（剧本策划/剧情/冲突/结构四张工具卡）。
+
+3. **这些案例/框架有共同模式吗？**
+   - 有。本批次 30 张卡共同指向一个模式：**高价值工具卡 = 诊断信号 + 失败模式表 + 分阶段 Checklist + 互链网络**。
+   - 另一个跨域模式：**从静态结构到动态反馈**。单元模型搭建→基准→动态预测、剧本策划→剧情→冲突→结构、建模本质→解释/预测→AI 判断边界，都是“先建结构，再建动态校验”。
+
+### 后续建议
+
+- 继续从 draft 精修池选取下一批 30 张卡，优先补齐案例卡和跨域桥接卡。
+- 对 source_refs 为空但仍标 enriched 的管理卡（yt-management-*）补充更精确的来源或制作新 source 归档。
+- 检查本批次新增互链的反向引用密度，避免单向链接过多。

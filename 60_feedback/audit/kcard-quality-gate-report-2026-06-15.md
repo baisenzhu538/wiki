@@ -2,21 +2,16 @@
 
 **扫描时间**：2026-06-15  
 **扫描范围**：30_wiki 全库 1195 张卡片  
-**P0 阻塞问题卡片**：4 张  
+**P0 阻塞问题卡片**：0 张  
 **P1 修复问题卡片**：19 张  
-**完全干净卡片**：1172 张  
+**完全干净卡片**：1176 张  
 **YAML 解析错误**：0 张  
 
 ---
 
 ## P0 阻塞问题清单
 
-| 文件 | P0 问题 |
-|---|---|
-| `concepts\yt-management-basic-skills.md` | source_refs 为空 |
-| `concepts\yt-management-founder-role.md` | source_refs 为空 |
-| `concepts\yt-management-goal-management.md` | source_refs 为空 |
-| `concepts\yt-unit-model-dynamic.md` | source_refs 为空 |
+无 P0 阻塞问题。
 
 ---
 
