@@ -52,7 +52,6 @@ diagnostic_signals:
   follow_up_question: 基于竞品分析，你要调整自己的定位、功能还是商业模式？
 updated_at: '2026-06-18'
 author: 老顽童
-reviewed_by: 老顽童
 ---
 # 竞品拆解工具包：三层分类+内核边界+单元模型对标
 

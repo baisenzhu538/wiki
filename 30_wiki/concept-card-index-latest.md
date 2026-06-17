@@ -1,3 +1,16 @@
+---
+id: concept-card-index-latest
+title: Concept Card Index — 2026-06-17 18:09 UTC
+type: index
+status: draft
+author: system
+confidence: 0.5
+trust_level: low
+domain: system
+source_refs: [system-index]
+updated_at: 2026-06-18
+---
+
 # Concept Card Index — 2026-06-17 18:09 UTC
 
 | ID | Title | Type | Domain |
