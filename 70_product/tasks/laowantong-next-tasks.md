@@ -3993,3 +3993,107 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 | 3. 输出/资产化 | 把结构外化为可调用工具/Skill/系统 | `concept-半肥猫-ai-learning-toolification-methodology`、`concept-纪浩-ai-collaboration-methodology`、`ai-native-五层进阶...` |
 
 这个模式与第二十一节「人在环中建模五步法」和第二十二节批次 2 的「人-AI 分工判定框架」相互呼应。
+
+---
+
+## 🔴 新增任务：KF-021 收尾 — 33 张 content 卡 source 缺失处理
+
+> **来源**：黄药师 KF-021 批量修复后遗留。  
+> **负责人**：老顽童  
+> **优先级**：P1  
+> **状态**：待领取
+
+### 背景
+
+黄药师已完成 705 张 hash 前缀 source_refs 的批量补全，但剩余 33 张 content 卡的 hash 前缀在 `10_raw/sources/` 和 `00_inbox/` 中均找不到对应文件。这些卡片的 source 文件确实缺失，需要内容判断：补充真实 source 还是降级为 draft。
+
+### 任务清单（33 张）
+
+| 卡片 ID | status | partial refs 数量 |
+|:--------|:------:|:-----------------:|
+| case-yitang-tob-grinding-machine | enriched | 1 |
+| yt-lean-beauty-store-conversion | enriched | 3 |
+| yt-lean-daily-chemical-mvp | enriched | 3 |
+| yt-lean-flower-mom-group-leader | enriched | 3 |
+| yitang-huazong-ama-by-industry | stable | 1 |
+| yitang-huazong-ama-summary | stable | 1 |
+| yt-entrepreneur-lean-validation | enriched | 3 |
+| yt-lean-daily-probability-decision | enriched | 3 |
+| yt-lean-essence | enriched | 3 |
+| yt-tob-cash-flow | enriched | 2 |
+| yt-tob-revenue-is-customer-cost | enriched | 2 |
+| yt-tob-sales-unit-model | enriched | 2 |
+| concept-minto-pyramid-principle | enriched | 1 |
+| yt-lean-assumption-prioritization | enriched | 4 |
+| yt-lean-assumption-verification-3means | enriched | 3 |
+| yt-lean-b2b-b2c-hardware-content-testing | enriched | 3 |
+| yt-lean-consumer-deep-experience-testing | enriched | 2 |
+| yt-lean-false-model-ai | enriched | 3 |
+| yt-lean-growth-stage-gate | enriched | 3 |
+| yt-lean-qualitative-quantitative-research | enriched | 2 |
+| yt-tob-barriers | enriched | 2 |
+| yt-tob-core-characteristics | enriched | 2 |
+| yt-tob-customer-tiering | enriched | 2 |
+| yt-tob-demand-metrics | enriched | 2 |
+| yt-tob-demand-scenarios | enriched | 2 |
+| yt-tob-growth-channel | enriched | 2 |
+| yt-tob-product-kernel | enriched | 2 |
+| yt-tob-solution-model | enriched | 2 |
+| yt-tob-unit-model | enriched | 2 |
+| ������ҽԺ��Ŀ | active | 3 |
+| ����O2O��Ŀ | active | 1 |
+| �θ���HIS��Ŀ | active | 1 |
+| yt-tob-customer-sabc | enriched | 2 |
+
+### 处理原则
+
+| 情况 | 处理方式 |
+|:-----|:---------|
+| 能找到原始 source（课程地图、口述稿、课堂笔记等） | 补充真实 source_ref，保持/提升 status |
+| 原始 source 已丢失，但内容可独立成立 | 移除 source_refs 中缺失项，status 降为 draft，confidence ≤ 0.65 |
+| 原始 source 已丢失，且内容无法独立成立 | 整体降级为 draft 或交欧阳锋裁决 |
+| 引用的是课程地图通用 source | 改为 `10_raw/sources/一堂-课程地图精华串讲.md` 或具体课程 source |
+
+### 严禁
+
+- ❌ 不要批量删除 source_refs
+- ❌ 不要为了保持 enriched/reviewed 状态而填虚假 source
+- ❌ 不要修改卡片 body 内容
+
+### 完成标准
+
+- [ ] 33 张卡全部处理完毕
+- [ ] 每张卡的 source_refs 中无 hash 前缀
+- [ ] 所有保留的 source_refs 指向真实存在的文件
+- [ ] 降级的卡 status=draft，confidence ≤ 0.65
+- [ ] 运行 `python 90_control/scripts/kcard-quality-gate.py` 后 P0=0、YAML errors=0
+- [ ] 清单写入 `60_feedback/corrections/kf-021-laowantong-cleanup-2026-06-15.md`
+
+---
+
+## 🔴 新增任务：清理 index / log 元页面 source_refs
+
+> **来源**：KF-021 扫描发现 `index.md` 和 `log.md` 两个元页面共有 760 个 hash 前缀 source_refs。  
+> **负责人**：老顽童  
+> **优先级**：P2  
+> **状态**：待领取
+
+### 背景
+
+`index.md` 和 `log.md` 是元页面，不是知识卡。它们的 `source_refs` 中积累了大量已不存在的 hash 前缀引用，影响质量门禁统计和 source 可追溯性。
+
+### 处理原则
+
+1. 元页面的 source_refs 应该只保留**系统级、长期有效**的 source（如 `system-index`、`kdo-protocol` 等）
+2. 对已不存在的 hash 前缀引用，直接移除
+3. 不存在的 source 不要留空列表占位，直接删除整个 `source_refs` 字段或保留有效项
+
+### 完成标准
+
+- [ ] `index.md` 和 `log.md` 的 `source_refs` 中无 hash 前缀
+- [ ] 所有保留的 source_refs 指向真实存在的文件或为系统级标识
+- [ ] 质量门禁 P0=0、YAML errors=0
+
+---
+
+**领取方式**：老顽童回复"领取 KF-021 收尾"后开始执行，先处理 33 张 content 卡，再做 index/log 清理。

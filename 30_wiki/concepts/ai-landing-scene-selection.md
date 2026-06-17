@@ -1,35 +1,49 @@
 ---
-
 id: ai-landing-scene-selection
+title: "AI落地场景识别：从找老的干小的开始"
 type: concept
 domain:
-- product
-- ai-saas
-- decision-making
-- yitang
-status: draft
+  - product
+  - ai-saas
+  - decision-making
+  - yitang
+status: enriched
 source_refs:
   - src_20260606_ef4877d0-所以90的核心问题
 component_of: null
 related:
-- '[[find-old-do-small]]'
-- '[[ai-learning-closed-loop]]'
-- '[[course-to-skill-conversion]]'
+  - "[[find-old-do-small]]"
+  - "[[ai-learning-closed-loop]]"
+  - "[[course-to-skill-conversion]]"
+  - "[[ai-collaboration-mindset-shift]]"
+  - "[[yt-entrepreneur-lean-validation]]"
 query_triggers:
-- AI怎么落地
-- 什么场景适合AI
-- AI项目为什么失败
-- 业务人员怎么用AI
-reviewed_by: null
+  - AI怎么落地
+  - 什么场景适合AI
+  - AI项目为什么失败
+  - 业务人员怎么用AI
+reviewed_by: 欧阳锋
 pipeline:
-- confidence-draft
-- confidence-source-cited
-author: unknown
-created_at: 2026-06-15
-confidence: 0.7
-trust_level: low
-title: ai landing scene selection
-updated_at: '2026-06-16'
+  - confidence-draft
+  - confidence-source-cited
+author: 老顽童
+created_at: "2026-06-15"
+updated_at: "2026-06-17"
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "想用AI但不知道从哪里开始"
+    lens: "找老的干小的"
+    follow_up: "列出最熟悉的3个业务流程，选规模最小的"
+  - signal: "AI项目上线后效果不达预期"
+    lens: "是否跳过平行运行阶段"
+    follow_up: "确认已平行运行至少30天，对比人工与AI结果"
+  - signal: "业务人员说不懂AI技术"
+    lens: "四要素检查"
+    follow_up: "用有容错/有方法/有数据/有判断筛选场景，不讨论技术"
+  - signal: "AI效率提升但业务结果没变"
+    lens: "结果导向验证"
+    follow_up: "把评估指标从效率改为订单/转化率/收入"
 ---
 # AI落地场景识别：从"找老的干小的"开始
 
@@ -61,9 +75,26 @@ AI是"交结果"的。评估标准不是"效率提升了多少"，而是"订单�
 
 ## Constraints & Boundaries
 
-- **claim:boundary-01 [conf=0.75] 业务熟悉度假设**：本框架假设用户对自己的业务足够熟悉。如果用户是转行或初入行业，"找老的干小的"可能找不到合适场景。
-- **claim:boundary-02 [conf=0.70] 时间成本**："先平行再独行"需要3个月，对于资源有限的小团队或个人来说，这是一个重大的时间投入。
-- **claim:boundary-03 [conf=0.65] 规模效应**："拆得越细越好"有一个隐形成本：过度拆分可能导致系统复杂度提升，维护成本超过了AI带来的效益。
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 已有成熟业务流程、数据积累≥3个月、团队有1人可全职跟进AI项目 |
+| ✅ 适合 | 业务人员能清晰描述"好的结果长什么样"（有判断标准） |
+| ❌ 不适合 | 转行或初入行业（无"老的"可找）→ 先用人工跑通流程 |
+| ❌ 不适合 | 零容错场景（如医疗诊断、金融交易风控）→ 需专业AI系统 |
+| ❌ 不适合 | 需要瞬间决策的场景（如实时竞价）→ 用规则引擎而非模型驱动 |
+| ❌ 不适合 | 资源无法支撑3个月平行运行 → 缩小场景或暂缓AI投入 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **选大场景起步** | 选ROI最高但最不熟悉的场景，3个月后AI准确率不足30% | 退回"找老的干小的"，从最小闭环重启 |
+| **跳过平行运行** | 上线即全量切换，2周后发现AI结果与人工偏差大，业务受损 | 立即恢复人工兜底，补跑30天平行期 |
+| **效率指标自欺欺人** | AI处理速度提升5倍，但订单量/转化率无变化 | 把评估指标从效率改为业务结果 |
+| **过度拆分** | 为追求"拆得越细越好"，系统复杂度爆炸，维护成本超过收益 | 合并相邻步骤，保持单模块可独立验证 |
+| **四要素缺一硬上** | 有方法有数据但无判断标准，AI输出无法验收 | 先定义"好结果"的量化标准，再启动开发 |
 
 ## Critique
 

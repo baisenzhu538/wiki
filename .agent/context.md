@@ -1,13 +1,13 @@
 ---
 updated: 2026-06-15
 active_branch: main
-active_task: "黄药师S4-1✅+KF-021完成95%✅；剩余33张content卡+index/log元页面移交老顽童处理。"
+active_task: "黄药师S4-1✅+KF-021完成95%✅；KF-021剩余33张content卡+index/log清理已写入老顽童任务板，待领取。"
 blockers:
   - "王语嫣角色正式升级AGENTS.md"
   - "231张draft精修池→分配老顽童下轮精修"
-  - "老顽童处理KF-021剩余33张卡source缺失/降级"
-  - "index/log元页面760个hash前缀source引用待清理或排除"
-next_session_hint: "用户说'继续'→ ① 王语嫣角色正式升级；② 231 draft精修池分配；③ 老顽童KF-021收尾；④ 决策域深度研究下轮推进"
+  - "老顽童领取并处理KF-021剩余33张卡source缺失/降级"
+  - "老顽童清理index/log元页面760个hash前缀source引用"
+next_session_hint: "用户说'继续'→ ① 王语嫣角色正式升级；② 231 draft精修池分配；③ 老顽童领取KF-021收尾；④ 决策域深度研究下轮推进"
 ---
 
 ## 2026-06-12 变更

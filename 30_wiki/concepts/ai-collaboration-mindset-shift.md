@@ -1,35 +1,49 @@
 ---
-
 id: ai-collaboration-mindset-shift
+title: "AI协作思维转变：从新手到管理者"
 type: concept
 domain:
-- ai-saas
-- management
-- decision-making
-- yitang
-status: draft
+  - ai-saas
+  - management
+  - decision-making
+  - yitang
+status: enriched
 source_refs:
   - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
 component_of: null
 related:
-- '[[structured-ai-workspace]]'
-- '[[ai-learning-closed-loop]]'
-- '[[ai-landing-scene-selection]]'
+  - "[[structured-ai-workspace]]"
+  - "[[ai-learning-closed-loop]]"
+  - "[[ai-landing-scene-selection]]"
+  - "[[course-to-skill-conversion]]"
+  - "[[dk-modeling-ai-without-judgment]]"
 query_triggers:
-- 怎么和AI协作
-- AI输出质量怎么判断
-- 用AI越用越爛
-- 新手怎么用AI
-reviewed_by: null
+  - 怎么和AI协作
+  - AI输出质量怎么判断
+  - 用AI越用越爛
+  - 新手怎么用AI
+reviewed_by: 欧阳锋
 pipeline:
-- confidence-draft
-- confidence-source-cited
-author: unknown
-created_at: 2026-06-15
-confidence: 0.7
-trust_level: low
-title: ai collaboration mindset shift
-updated_at: '2026-06-16'
+  - confidence-draft
+  - confidence-source-cited
+author: 老顽童
+created_at: "2026-06-15"
+updated_at: "2026-06-17"
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "觉得AI输出很好但说不出好在哪"
+    lens: "新手 vs 管理者"
+    follow_up: "强制列出3个可能的改进点，检验判断力"
+  - signal: "大量token浪费在好奇问题上"
+    lens: "question vs problem"
+    follow_up: "每次提问前先分类：这是problem还是question？"
+  - signal: "AI输出质量时好时坏，无法稳定验收"
+    lens: "缺少验收标准"
+    follow_up: "定义before/after、真实锚点、受益对象、可解性四要素"
+  - signal: "每天用AI但能力没有提升"
+    lens: "执行者循环"
+    follow_up: "检查是否在做管理者动作：派活、验收、纠偏，而非只复制粘贴"
 ---
 # AI协作思维转变：从"新手"到"管理者"
 
@@ -65,9 +79,27 @@ AI协作中大多数人的核心问题不是"不会用工具"，而是"不知道
 
 ## Constraints & Boundaries
 
-- **claim:boundary-01 [conf=0.75] 身份转换假设**：本框架假设用户愿意并能够从"新手"变为"管理者"。但很多人在实际工作中的角色就是"执行者"，不是"管理者"，身份转换需要组织机制支撑。
-- **claim:boundary-02 [conf=0.70] 时间成本**：给AI派活、验收、纠偏需要大量时间。如果用户的工作已经满负荷，这个额外负担可能被抛弃。
-- **claim:boundary-03 [conf=0.65] 能力差距**：如果AI在某个领域的能力远超人类（如代码生成），"比AI做得更好"的标准就失去了意义。
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 已使用AI≥1个月、能判断输出好坏、每天有≥30分钟可投入管理动作 |
+| ✅ 适合 | 工作内容涉及判断/决策/验收（而非纯执行） |
+| ❌ 不适合 | 完全新手（第一次用AI）→ 先做执行者，积累3个月后再转管理者 |
+| ❌ 不适合 | 时间极度紧张（每天<15分钟）→ 管理者动作需要额外时间投入 |
+| ❌ 不适合 | AI在该领域已远超人类（如代码生成）→ 接受AI为专家，人类做整合判断 |
+| ❌ 不适合 | 组织无容错机制 → 管理者身份需要组织允许"试错" |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **伪管理者** | 给AI派活但不验收，直接复制粘贴输出 | 强制5分钟验收：列出3个改进点或确认无改进 |
+| **question成瘾** | 80%的提问是好奇驱动，无行动改变 | 提问前强制分类：problem打√，question打×，连续7天统计比例 |
+| **四要素缺一** | 定义了before/after但无真实锚点，AI输出脱离场景 | 补充具体场景描述：谁、在什么情况下、遇到什么困难 |
+| **3-4小时迷信** | 盲目追求每天3-4小时AI使用，导致核心工作被挤压 | 改为"每天3个管理者动作"（派活/验收/纠偏各1次），不计量时间 |
+| **双三角失衡** | 只让AI变强（当教练），不让自己变强（当管理者） | 每周复盘：本周AI帮我完成了什么？我帮AI改进了什么？ |
+| **可解性幻觉** | 认为问题可解，但实际缺少因果链或能力支撑 | 用五步法拆解：假设→验证→最小实验→数据→结论 |
 
 ## Critique
 

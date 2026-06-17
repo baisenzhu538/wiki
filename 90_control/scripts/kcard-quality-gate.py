@@ -307,6 +307,7 @@ def main():
     ])
 
     report_path = REPORT_DIR / "kcard-quality-gate-report-2026-06-15.md"
+    report_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.write_text("\n".join(lines), encoding="utf-8")
 
     print(f"报告已生成：{report_path}")
