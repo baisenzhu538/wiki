@@ -1,37 +1,56 @@
 ---
 id: concept-纪浩-ai-collaboration-five-layer
-title: 概念：纪浩AI协作五层工作空间法
+title: "概念：纪浩AI协作五层工作空间法"
 type: concept
-status: draft
+status: enriched
 domain:
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - yitang
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
-- 00_inbox/纪浩-AI协作方法论-口述.md
-created_at: 2026-06-09
-updated_at: '2026-06-16'
+  - 00_inbox/纪浩-AI协作方法论-口述.md
+created_at: "2026-06-09"
+updated_at: "2026-06-17"
 related:
-- '[[case-纪浩-ai-workspace-chaos]]'
-- '[[dk-纪浩-constraint-beats-talent]]'
+  - "[[case-纪浩-ai-workspace-chaos]]"
+  - "[[dk-纪浩-constraint-beats-talent]]"
+  - "[[structured-ai-workspace]]"
+  - "[[skill-纪浩-AI工作空间与导诊台设计法]]"
+  - "[[skill-纪浩-Agent技能市场设计法]]"
 wiki_refs:
-- '[[case-纪浩-ai-workspace-chaos]]'
-- '[[dk-纪浩-constraint-beats-talent]]'
+  - "[[case-纪浩-ai-workspace-chaos]]"
+  - "[[dk-纪浩-constraint-beats-talent]]"
 definition_of_done:
-- 概念有明确定义
-- 有核心主张
-- 有支撑主张的论证
-- 有演变或派生
-- 有关联案例
-- 有关联与这个概念相关的其他概念
+  - 概念有明确定义
+  - 有核心主张
+  - 有支撑主张的论证
+  - 有演变或派生
+  - 有关联案例
+  - 有关联与这个概念相关的其他概念
 pipeline:
-- confidence-published
-- confidence-source-cited
-author: 纪浩
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+  - confidence-published
+  - confidence-source-cited
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "AI工作空间目录混乱，行为退化"
+    lens: "结构缺失"
+    follow_up: "检查五类知识是否混在一起，按L1-L5分层，分开后结构才能自然长出来"
+  - signal: "AI一次性给太多信息导致输出质量下降"
+    lens: "渐进披露缺失"
+    follow_up: "使用渐进式披露流程：导诊台→工作手册→经验库→领域知识，逐层深入"
+  - signal: "任务定义频繁变更，上下文丢失"
+    lens: "L4管理失控"
+    follow_up: "L4任务管理需要状态管理和版本控制，快速增长的知识需独立管理"
+  - signal: "多个Agent协作时任务分发混乱"
+    lens: "导诊台缺失"
+    follow_up: "用导诊台做任务分发，每个Agent有自己的工作手册，避免冲突"
+  - signal: "约束文档散落在各处，无法复用"
+    lens: "L3未沉淀"
+    follow_up: "约束文档属于L3工作手册，多任务共享时应沉淀为经验库"
 ---
 # 概念：纪浩AI协作五层工作空间法
 
@@ -84,6 +103,34 @@ AI是模式匹配系统，不会创造结构。它的所有结构设计都是从
 ```
 
 知识越来越深，逐层披露，避免一次性给AI过多信息。
+
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 需要管理多个AI Agent的复杂项目 |
+| ✅ 适合 | 知识类型多样、增长速度不同的工作空间 |
+| ✅ 适合 | 需要渐进式披露避免信息过载的场景 |
+| ✅ 适合 | 团队协作中需要统一工作空间结构 |
+| ❌ 不适合 | 单一简单任务（无需分层） → 直接给完整上下文即可 |
+| ❌ 不适合 | 快速原型验证（时间紧迫） → 分层管理增加 overhead |
+| ❌ 不适合 | 无明确项目边界的探索性工作 → L1系统自述难以定义 |
+| ❌ 不适合 | 团队对AI协作结构无共识 → 先对齐认知再分层 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **五类混放** | 系统自述、领域知识、任务管理混在一起，目录混乱 | 强制按L1-L5分目录，每类知识有独立存放位置 |
+| **渐进披露缺失** | 一次性给AI全部信息，输出质量下降 | 按导诊台→工作手册→经验库→领域知识逐层深入 |
+| **L4管理失控** | 任务定义频繁变更，上下文丢失 | L4需要状态管理和版本控制，快速增长的知识独立管理 |
+| **导诊台缺失** | 多个Agent协作时任务分发混乱 | 用导诊台做任务分发，每个Agent有自己的工作手册 |
+| **L3未沉淀** | 约束文档散落在各处，无法复用 | 约束文档属于L3工作手册，多任务共享时沉淀为经验库 |
+| **分层僵化** | 严格按照五层执行，效率低下 | 聊和问可以并行，查和测可以重叠，分层是逻辑不是物理隔离 |
+| **日志不清理** | L5日志堆积，查找困难 | 自动化收集+定期清理，保留关键日志归档 |
+| **结构不迭代** | 初始结构定义后从不更新 | 每季度Review结构有效性，任务稳定后调整分层 |
 
 ## 演变与派生
 

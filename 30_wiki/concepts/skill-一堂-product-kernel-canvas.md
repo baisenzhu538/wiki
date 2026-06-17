@@ -1,38 +1,56 @@
 ---
-
 id: skill-一堂-product-kernel-canvas
-title: 一堂产品内核画布应用技能
-type: "tool"
-status: draft
+title: "一堂产品内核画布应用技能"
+type: tool
+status: enriched
 domain:
-- yitang
-- product-strategy
+  - yitang
+  - product-strategy
 source_person: 一堂·Truman
 source_context: 一堂-产品内核迭代课/验证课/实操课笔记
 source_refs:
-- 00_inbox/一堂-产品内核迭代课-Truman-笔记.txt
-- 00_inbox/一堂-产品内核验证课-truman-笔记.txt
-- 00_inbox/一堂-产品内核实操课-truman-笔记.txt
-created_at: 2026-06-08
-updated_at: '2026-06-16'
+  - 00_inbox/一堂-产品内核迭代课-Truman-笔记.txt
+  - 00_inbox/一堂-产品内核验证课-truman-笔记.txt
+  - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
+created_at: "2026-06-08"
+updated_at: "2026-06-17"
 related:
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[dk-一堂-wishful-thinking-kills-startups]]'
+  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
+  - "[[dk-一堂-wishful-thinking-kills-startups]]"
+  - "[[skill-一堂-five-step-validation]]"
+  - "[[skill-一堂-hypothesis-validation-three-axe]]"
+  - "[[modeling-three-values]]"
 wiki_refs:
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[dk-一堂-wishful-thinking-kills-startups]]'
+  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
+  - "[[dk-一堂-wishful-thinking-kills-startups]]"
 definition_of_done:
-- 技能步骤清晰可执行
-- 每个步骤配有输入/输出或检查清单
-- 外部攻击者和 Constraints 已明确
-- 实际应用后收集反馈并更新技能
+  - 技能步骤清晰可执行
+  - 每个步骤配有输入/输出或检查清单
+  - 外部攻击者和 Constraints 已明确
+  - 实际应用后收集反馈并更新技能
 pipeline:
-- confidence-draft
-- confidence-source-cited
+  - confidence-draft
+  - confidence-source-cited
 author: 老顽童
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "产品功能越做越多但用户不买账"
+    lens: "内核不清晰"
+    follow_up: "执行步骤2做加法+步骤3做减法，找出用户真正选择的3-5条决定性要素"
+  - signal: "团队以为的卖点不是用户关心的买点"
+    lens: "Green-bloat"
+    follow_up: "检查绿色要素是否超过5条，用三问验证：去掉它用户会放弃选择吗？"
+  - signal: "商业模式难以跑通"
+    lens: "指标缺失"
+    follow_up: "执行步骤4：为每个内核要素配可量化指标，设定通过/失败标准"
+  - signal: "明面上排除的功能又偷偷加回来"
+    lens: "Red-resurrection"
+    follow_up: "建立红色要素审查机制，每次迭代检查是否有红色复活"
+  - signal: "为了达到短期指标损害长期价值"
+    lens: "指标游戏"
+    follow_up: "内核画布需配备长期价值指标（续费率/复购率/口碑），不单看转化率"
 ---
 # 一堂产品内核画布应用技能
 
@@ -105,11 +123,31 @@ trust_level: low
 
 > "转化率是一个短期、可操控的指标，它会鼓励团队做出一切提升短期转化但损害长期价值的决策。例如过度优化首页注册转化，可能会降低用户质量和续费率。内核画布需要配备长期价值指标。"
 
-## Constraints
+## Constraints & Boundaries
 
-- **依赖高质量的用户调研：**如果用户访谈不到位，"绿色要素"很可能是团队的一压情愿，而不是真正的用户决策逻辑。
-- **对"红色要素"的执行力要求极高：**"默认不做"很容易在执行中被各种理由"破例"。
-- **不适用于非标准化、高定制化产品：**每个客户的内核要素可能差异很大，需要分层分类讨论。
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 产品定义阶段：已有明确需求，需确定"用户为什么选择我们" |
+| ✅ 适合 | 商业模式设计阶段：需将用户价值转化为可量化转化率指标 |
+| ✅ 适合 | 产品迭代阶段：需对现有功能做取舍，聚焦真正决定性要素 |
+| ❌ 不适合 | 非标准化、高定制化产品 → 每个客户内核要素差异过大，需分层分类 |
+| ❌ 不适合 | 创意/艺术类项目 → 用户决策受情感驱动，难以压缩为3-5条要素 |
+| ❌ 不适合 | 企业级B2B采购 → 决策链涉及多利益相关者，需分角色讨论 |
+| ❌ 不适合 | 高复杂度产品（航空发动机/医院信息系统） → 3-5条内核过于简化 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **Green-bloat** | 不舍得删除要素，绿色列表超过5条，失去聚焦力 | 强制绿色≤5条，每条必须通过三问：去掉它用户会放弃选择吗？ |
+| **Yellow-neglect** | 只关注绿色要素，忽视优化性要素对长期竞争力的贡献 | 黄色要素虽不决定性，但影响体验，需定期Review |
+| **Red-resurrection** | 明面上排除的要素，在产品规划中又偷偷加回来 | 建立红色要素审查机制，每次迭代检查是否有复活 |
+| **指标游戏** | 为达短期指标损害内核长期健康度 | 内核画布需配备长期价值指标（续费率/复购率/口碑） |
+| **用户调研不到位** | 绿色要素是团队一厢情愿，非真实用户决策逻辑 | 用户访谈必须指向具体行为，不能是态度评价 |
+| **红色执行力弱** | "默认不做"在执行中被各种理由破例 | 红色要素需一号位亲自把关，破例需书面记录原因 |
+| **画布不迭代** | 画完一次从不更新，逐渐失效 | 每季度回顾画布，市场变化时动态调整 |
 
 ## Claims
 

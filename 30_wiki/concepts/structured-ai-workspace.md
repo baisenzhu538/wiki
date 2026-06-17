@@ -1,33 +1,51 @@
 ---
-
 id: structured-ai-workspace
+title: "结构化AI工作空间搭建"
 type: tool
 domain:
-- ai-saas
-- management
-- yitang
-status: draft
+  - ai-saas
+  - management
+  - yitang
+status: enriched
 source_refs:
   - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
 component_of:
-- ai-collaboration-mindset-shift
+  - ai-collaboration-mindset-shift
 related:
-- '[[ai-collaboration-mindset-shift]]'
-- '[[prd-as-ai-instruction]]'
+  - "[[ai-collaboration-mindset-shift]]"
+  - "[[prd-as-ai-instruction]]"
+  - "[[ai-learning-closed-loop]]"
+  - "[[concept-纪浩-ai-collaboration-five-layer]]"
+  - "[[skill-纪浩-AI工作空间与导诊台设计法]]"
 query_triggers:
-- AI工作空间怎么搭建
-- 和AI协作文件怎么管理
-- AI任务越来越乱
-reviewed_by: null
+  - AI工作空间怎么搭建
+  - 和AI协作文件怎么管理
+  - AI任务越来越乱
+reviewed_by: 欧阳锋
 pipeline:
-- confidence-draft
-- confidence-source-cited
-author: unknown
-created_at: 2026-06-15
-confidence: 0.7
-trust_level: low
-title: structured ai workspace
-updated_at: '2026-06-16'
+  - confidence-draft
+  - confidence-source-cited
+author: 老顽童
+created_at: "2026-06-15"
+updated_at: "2026-06-17"
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "AI任务多了以后文件乱成一团"
+    lens: "结构缺失"
+    follow_up: "创建五大模块：系统自述、领域知识、Agent服务文档、任务管理、日志"
+  - signal: "经常需要重新'投胎'让AI重来"
+    lens: "上下文丢失"
+    follow_up: "检查是否有系统自述和领域知识模块，确保AI能快速了解项目背景"
+  - signal: "同一个任务每次都要重新解释"
+    lens: "SOP缺失"
+    follow_up: "写一份SOP文档存入Agent服务文档，下次执行时不再需要解释"
+  - signal: "团队成员不知道AI做了什么"
+    lens: "日志缺失"
+    follow_up: "建立日志模板，要求AI每次执行后记录，任务状态可追溯"
+  - signal: "工作空间维护时间超过20%工作时间"
+    lens: "过度工程"
+    follow_up: "简化模块，只保留核心，维护成本必须小于节省的时间"
 ---
 # 结构化AI工作空间搭建
 
@@ -71,13 +89,33 @@ AI任务越多越乱的根源是缺少结构化的工作空间。纪浩提出五
 - 问题排查记录
 - 决策追溯记录
 
-## 退出标准
+## Constraints & Boundaries
 
-| 信号 | 行动 |
-|------|------|
-| 工作空间成为"摆设"而不是"工具" | 检查是否真的在用，否则简化 |
-| 维护时间占用>20%工作时间 | 简化模块，只保留核心 |
-| 团队不愿意使用 | 检查是否过于复杂 |
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | AI任务增多后开始混乱，需要结构化管理 |
+| ✅ 适合 | 团队协作中需要统一AI工作空间标准 |
+| ✅ 适合 | 需要追溯AI执行历史和决策依据 |
+| ✅ 适合 | 同一任务需要反复执行，需要标准化上下文 |
+| ❌ 不适合 | 个人小项目 → 五大模块过重，只用任务管理+日志即可 |
+| ❌ 不适合 | 团队已有成熟工具链 → 迁移成本高，保持现有工具 |
+| ❌ 不适合 | 一次性任务 → 搭建空间成本不值得，直接给AI上下文 |
+| ❌ 不适合 | 维护时间>20%工作时间 → 简化模块，只保留核心 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **五大模块过重** | 小项目中维护成本超过收益 | 个人项目只用任务管理+日志，团队项目再启用全模块 |
+| **场景聚合困难** | 初学者难以按场景聚合信息 | 先用传统分类方式，逐步过渡到场景聚合 |
+| **日志被忽略** | 日志模块空置，问题无法追溯 | 建立日志模板，强制执行，定期Review |
+| **系统成为任务** | 维护工作空间时间超过节省的时间 | 检查是否真的在用，否则简化；维护成本必须<节省时间的20% |
+| **注意力分散** | 在多个模块间切换，深度工作被打断 | 按任务阶段聚焦：执行时只看任务管理，复盘时才看日志 |
+| **信息过载** | 一次性给AI全部模块内容 | 按渐进式披露：先给系统自述，需要时再给领域知识 |
+| **团队不愿意用** | 工作空间过于复杂，团队抵触 | 从1个模块开始（如任务管理），逐步扩展，不要一次性上全 |
+| **模块不更新** | 系统自述过时，AI按旧架构执行 | 设定模块更新周期，项目重大变更时同步更新 |
 
 ## Critique
 

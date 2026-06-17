@@ -4218,3 +4218,58 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 - 清理同素材双卡边界：继续处理 KF-021 33 张 content 卡 source 缺失问题。
 - 修复 `kdo_lint.py` 误报，使其与 `kcard-quality-gate.py` 对齐。
 - 提炼本批次 14 条暗知识候选，决定是否新增独立 dk 卡。
+
+---
+
+## 第二十三节：精修池 30 张 draft 卡深度精修
+
+**来源**：黄药师 2026-06-17 分配的 231 张 draft 精修池（confidence≥0.7 + related 非空）。  
+**负责人**：老顽童  
+**状态**：进行中  
+**目标**：从中选取 30 张高价值 draft 卡，按本节标准精修后 status→enriched，通过质量门禁。
+
+### 选取逻辑
+
+- 优先 ASCII ID 卡，避免中文 ID 终端编码问题。
+- 按域优先级：yitang / ai-collaboration / modeling / ai-saas / master / entrepreneur。
+- 优先 confidence 高、related 多、source 充足的卡。
+- 兼顾工具卡、概念卡、暗知识卡、框架卡、案例卡，避免单一类型扎堆。
+
+### 30 张目标卡（4 批次）
+
+| 批次 | 主题 | 卡片 |
+|---|---|---|
+| 1 | 一堂调研/建模工具（8 张） | `yt-research-hypothesis-test`、`yt-research-industry-canvas`、`yt-tool-knowledge-extraction`、`yt-research-competitor-toolkit`、`yt-research-expert-interview`、`tool-ai-skill-engineering-guide`、`yt-entrepreneur-unit-model`、`dk-modeling-business-visual-logic-match` |
+| 2 | 一堂建模暗知识（7 张） | `dk-modeling-essence-predictive`、`dk-modeling-sop-execution-locks`、`dk-modeling-ai-compound-leverage`、`dk-modeling-unit-pairs-milestone`、`dk-modeling-explanatory-vs-predictive-essence`、`dk-modeling-ai-judgment-limit`、`framework-logic-cleanliness-five-levels` |
+| 3 | AI 协作/短剧产品工具（8 张） | `tool-essence-nfactor-modeling`、`tool-sop-template-modeling`、`ai-short-drama-framework-three-axes`、`ai-short-drama-plot-three-axes`、`ai-short-drama-script-planning-three-axes`、`modeling-weapon-library`、`tool-scenario-selector-modeling`、`ai-short-drama-conflict-three-axes` |
+| 4 | 单元模型/管理/AI 原生（7 张） | `yt-unit-model-construction`、`yt-unit-model-benchmark`、`yt-unit-model-dynamic`、`yt-management-founder-role`、`yt-management-goal-management`、`yt-management-basic-skills`、`concept-ai-native-organization-five-steps` |
+
+### 精修标准
+
+每张卡必须：
+
+1. **diagnostic_signals ≥ 2**（draft 池标准），优先 ≥ 3；按类型写入 frontmatter 或正文。
+2. **检查 related 有效性**：移除 dangling 链接，至少新增 1 条有效互链。
+3. **source_refs 复核**：确保指向真实存在的 `10_raw/sources/` 文件，无 `00_inbox/`、无 hash 前缀。
+4. **confidence / trust_level / status 一致性**：
+   - status→`enriched` 后，confidence 与 trust_level 需匹配门禁规则。
+   - trust_level=high 需 source_count≥2；否则调整为 medium/low。
+5. **结构补全**：按卡片类型补齐 Constraints & Boundaries / 失败模式 / 适用边界等；工具/概念卡至少含 1 个 checklist/模板。
+6. **不新增卡片**，只精修目标卡。
+7. **改完本卡后立即跑** `kcard-quality-gate.py`，单卡无新增 P0/P1。
+
+### 域间自检三问
+
+每完成一个批次必须回答：
+
+1. 案例够了吗？
+2. 暗知识在哪里？
+3. 这些案例/框架有共同模式吗？
+
+### 验收标准
+
+- [ ] 30 张卡全部完成精修
+- [ ] 每批完成后已记录进度并完成域间自检三问
+- [ ] 全库 `kcard-quality-gate.py` P0 = 0，YAML 错误 = 0
+- [ ] 30 张目标卡 status 均为 enriched
+- [ ] 在此文件末尾写小结
