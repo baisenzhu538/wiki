@@ -1,39 +1,53 @@
 ---
-
 id: course-to-skill-conversion
+title: "课程到Skill转化：将知识变成AI可执行的能力模块"
 type: tool
 domain:
-- management
-- product
-- business-strategy
-- ai-saas
-- yitang
-- decision-making
-status: draft
+  - management
+  - product
+  - business-strategy
+  - ai-saas
+  - yitang
+  - decision-making
+status: enriched
 source_refs:
   - src_20260606_90b44191-没有人呀现在
 component_of:
-- ai-learning-closed-loop
+  - ai-learning-closed-loop
 related:
-- '[[ai-learning-closed-loop]]'
-- '[[prd-as-ai-instruction]]'
-- '[[structured-ai-workspace]]'
+  - "[[ai-learning-closed-loop]]"
+  - "[[prd-as-ai-instruction]]"
+  - "[[structured-ai-workspace]]"
+  - "[[ai-collaboration-mindset-shift]]"
+  - "[[yt-entrepreneur-lean-validation]]"
 query_triggers:
-- 怎么把课程变成skill
-- AI skill怎么开发
-- 课程作业怎么升级成工具
-reviewed_by: null
+  - 怎么把课程变成skill
+  - AI skill怎么开发
+  - 课程作业怎么升级成工具
+reviewed_by: 欧阳锋
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
-- confidence-verified-by-test
-author: unknown
-created_at: 2026-06-15
-confidence: 0.7
-trust_level: low
-title: course to skill conversion
-updated_at: '2026-06-16'
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+  - confidence-verified-by-test
+author: 老顽童
+created_at: "2026-06-15"
+updated_at: "2026-06-17"
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "学完课程想在工作中复用但每次都要翻笔记"
+    lens: "方法未固化"
+    follow_up: "写出课程三个核心步骤 + 两个适用边界，30分钟内完成"
+  - signal: "团队对同一业务的分析结果不一致"
+    lens: "标准只在某个人脑子里"
+    follow_up: "把分析流程写成检查清单，让两人分别执行，结果一致率从<50%提升到>80%"
+  - signal: "AI生成的分析报告每次结果都不一样"
+    lens: "缺少固定判断流程"
+    follow_up: "构建输入检查清单，强制验证必填字段，连续3次输出结构一致"
+  - signal: "Skill用了十次都对，第十一次错得离谱"
+    lens: "经验主义陷阱"
+    follow_up: "检查问题类型是否偏移，超出Skill设计范围时强制拒绝而非编造"
 ---
 # 课程→Skill转化：将知识变成AI可执行的能力模块
 
@@ -85,13 +99,30 @@ Skill的核心价值不是"生成"，而是**场景拆解 + 风险识别 + 拒�
 - 写入PRD文档（见 [[prd-as-ai-instruction]]）
 - 存入知识库，配合标签体系管理
 
-## 退出标准
+## Constraints & Boundaries
 
-| 信号 | 行动 |
-|------|------|
-| 连续3次测试结果与事实偏差>20% | 回到Step 3重新设计诊断协议 |
-| 课程本身无法验证（讲师没有实践案例） | 放弃转化，只做笔记 |
-| Skill使用频率低于每月1次 | 检查场景选择是否错误，或简化为检查清单 |
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 课程有科学方法+可验证案例+明确边界（三要素齐全） |
+| ✅ 适合 | 团队有≥2人需要统一分析标准 |
+| ✅ 适合 | 业务场景相对稳定（变化周期≥3个月） |
+| ❌ 不适合 | 课程纯理论/概念型（无可执行流程） → 做概念卡/思维模型卡 |
+| ❌ 不适合 | 业务场景变化极快（如活动运营） → 用灵活检查清单而非固定Skill |
+| ❌ 不适合 | 用户缺少业务判断力 → 先学基础方法论，不要跳过学习直接做Skill |
+| ❌ 不适合 | 课程讲师无真实项目实践 → 放弃转化，只做笔记 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **课程质量陷阱** | 把东拼西凑的课程固化为Skill，系统化地出错 | 转化前先验证：讲师是否用此方法做过真实项目？ |
+| **诊断协议缺失** | Skill只会生成不会拒绝，输入不足时编造答案 | 设计输入检查清单+边界警告，强制拒绝而非编造 |
+| **经验主义自动化** | 用去年的成功经验解决今年的未知问题 | 每季度用新案例测试Skill，偏差>20%时回炉重造 |
+| **使用频率过低** | 每月使用<1次，投入产出不成比例 | 简化为检查清单或放弃，不要为低频场景做重Skill |
+| **团队能力断层** | 只有设计者能用，其他人用就错 | 补充"为什么这样判断"的解释层，让Skill可教学 |
+| **过度工程化** | 为简单流程做复杂Skill，维护成本超过收益 | 评估ROI：做Skill的时间 vs 每月节省的时间，回收期>3个月则不做 |
 
 ## Critique
 

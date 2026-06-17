@@ -1,35 +1,50 @@
 ---
-
 id: ai-learning-closed-loop
+title: "AI学习闭环：从听懂到能力的转化路径"
 type: concept
 domain:
-- product
-- ai-saas
-- yitang
-- business-strategy
-status: draft
+  - product
+  - ai-saas
+  - yitang
+  - business-strategy
+status: enriched
 source_refs:
   - src_20260606_90b44191-没有人呀现在
 component_of: null
 related:
-- '[[course-to-skill-conversion]]'
-- '[[voice-input-doubao]]'
-- '[[prd-as-ai-instruction]]'
+  - "[[course-to-skill-conversion]]"
+  - "[[voice-input-doubao]]"
+  - "[[prd-as-ai-instruction]]"
+  - "[[ai-collaboration-mindset-shift]]"
+  - "[[ai-landing-scene-selection]]"
+  - "[[dk-modeling-ai-without-judgment]]"
 query_triggers:
-- AI时代如何学习
-- 课程怎么转化为能力
-- 学了忘怎么办
-- AI生成内容可靠吗
-reviewed_by: null
+  - AI时代如何学习
+  - 课程怎么转化为能力
+  - 学了忘怎么办
+  - AI生成内容可靠吗
+reviewed_by: 欧阳锋
 pipeline:
-- confidence-draft
-- confidence-source-cited
-author: unknown
-created_at: 2026-06-15
-confidence: 0.7
-trust_level: low
-title: ai learning closed loop
-updated_at: '2026-06-16'
+  - confidence-draft
+  - confidence-source-cited
+author: 老顽童
+created_at: "2026-06-15"
+updated_at: "2026-06-17"
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "学完课程后不知道如何应用"
+    lens: "场景缺失"
+    follow_up: "用1句话写出本课程最适合当前哪个业务场景，72小时内完成第一次小规模实践"
+  - signal: "看到AI输出觉得很顺很完整"
+    lens: "流畅性陷阱"
+    follow_up: "强制问三句：证据在哪里？信源是谁？是事实还是推理？"
+  - signal: "知识库越来越乱找不到东西"
+    lens: "原子化缺失"
+    follow_up: "创建Inbox文件夹，定下每周五下午半小时整理的时间块"
+  - signal: "学了等于没学，听完课就忘"
+    lens: "闭环断裂"
+    follow_up: "检查是否完成学习→实践→沉淀→工具四步，缺哪步补哪步"
 ---
 # AI学习闭环：从"听懂"到"能力"的转化路径
 
@@ -60,9 +75,28 @@ AI生成的内容越流畅、越"完整"，越可能是基于推理而非事实�
 
 ## Constraints & Boundaries
 
-- **claim:boundary-01 [conf=0.75] 详情假设**：本框架假设用户有真实业务场景可以应用。如果用户处于"学习阶段"而非"工作阶段"，缺少真实业务场景，闭环会变成"无场景实践的空转"。
-- **claim:boundary-02 [conf=0.70] 时间成本**：原子化知识库需要持续投入维护时间（5000+文档的管理约每周半天）。如果用户没有建立定期整理习惯，Inbox会快速滥发为"垃圾堆"。
-- **claim:boundary-03 [conf=0.65] 技术依赖**：调研流程依赖特定AI工具的能力（如Claude、ChatGPT的上下文窗长限制）。当模型能力发生变化时，约束提示词可能失效。
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 有真实业务场景可应用（工作/副业/个人项目均可） |
+| ✅ 适合 | 已建立定期整理习惯（每周≥30分钟） |
+| ✅ 适合 | 使用支持长上下文的AI工具（Claude 3.5 Sonnet+/GPT-4o+） |
+| ❌ 不适合 | 纯理论学习无业务场景 → 先找一个微型实习项目 |
+| ❌ 不适合 | 已有成熟知识库系统（Notion/Confluence）→ 保持现有，新增内容原子化 |
+| ❌ 不适合 | 时间敏感任务（金融交易/实时决策）→ 用实时API+专业工具，不依赖通用LLM |
+| ❌ 不适合 | 无法区分事实与推理的新手 → 先练3个月"证据检验"基本功 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **无场景空转** | 学完课程做笔记，但从未在真实问题中试用 | 强制72小时内找一个最小业务问题实践 |
+| **流畅性陷阱** | 被AI的完整输出说服，未做证据检验 | 建立"三问习惯"：证据？信源？事实or推理？ |
+| **Inbox爆炸** | 原子化知识库变成垃圾堆，找不到东西 | 每周五下午30分钟整理，用YAML标签强制分类 |
+| **时间戳迷信** | 以为加了"现在是2026年"就万事大吉 | 时间戳+引用信源+交叉验证三件套 |
+| **老板心态幻觉** | 自称产品经理但行为仍是学生（等作业等评分） | 设定交付物：本周用课程方法解决一个真实问题 |
+| **工具依赖** | 换AI工具后原有约束提示词失效 | 把约束逻辑写成工具无关的checklist，换工具时复用 |
 
 ## Critique
 
