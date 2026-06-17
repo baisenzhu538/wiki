@@ -32,7 +32,8 @@ pipeline:
 - confidence-source-cited
 author: 半肥猫
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # AI调研纠偏与验证技能：从“丝滑回答”到“证据决策”的六步闭环
 
 ## 原始表述

@@ -33,7 +33,8 @@ pipeline:
 reviewed_by: laowantong
 author: unknown
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：AI输出三层防护检查法
 
 > **来源**：基于 master-ai-info-literacy 框架提炼

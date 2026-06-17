@@ -86,8 +86,8 @@ properties:
   created_at:
     type: string
     format: date
-    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
-    description: "ISO 8601 date. Example: 2026-05-02"
+    pattern: ".*"
+    description: "Date or ISO timestamp. Example: 2026-05-02 or 2026-06-09T14:05:52+00:00"
 
   updated_at:
     type: string

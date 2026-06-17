@@ -31,7 +31,8 @@ pipeline:
 reviewed_by: laowantong
 author: unknown
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：假设分类法（第一性原理）
 
 > **来源**：基于 master-first-principles 框架提炼（Aristotle, Elon Musk）

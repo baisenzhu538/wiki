@@ -32,7 +32,8 @@ pipeline:
 reviewed_by: laowantong
 author: unknown
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：12种认知偏差完整自检
 
 > **来源**：基于 master-cognitive-bias-checklist 框架提炼

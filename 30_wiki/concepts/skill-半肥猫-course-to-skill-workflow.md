@@ -32,7 +32,8 @@ pipeline:
 - confidence-source-cited
 author: 半肥猫
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化
 
 ## 原始表述

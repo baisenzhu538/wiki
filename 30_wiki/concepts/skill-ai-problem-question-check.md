@@ -30,7 +30,8 @@ pipeline:
 reviewed_by: laowantong
 author: 纪浩
 confidence: 0.7
-trust_level: low---
+trust_level: low
+---
 # 技能：Problem vs Question 区分法
 
 > **来源**：纪浩（AI俱乐部-AI协作方法论-口述）
