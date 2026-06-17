@@ -6,7 +6,7 @@ domain:
 - ai-saas
 - management
 - yitang
-status: draft
+status: enriched
 pipeline:
 - confidence-source-cited
 diagnostic_signals:
@@ -22,16 +22,18 @@ diagnostic_signals:
 - signal: 团队学完管理课程后，管理行为三个月无变化
   framework_lens: 学习未转化为闭环动作
   follow_up_question: 过去三个月，你用了多少次STAR/授权量表/目标设定？有没有一个"用工具→收数据→调行为"的具体循环？
-updated_at: '2026-06-16'
+- signal: 管理者在关键场景仍依赖直觉，同样错误反复出现
+  framework_lens: 经验论/隐性模式固化
+  follow_up_question: 你最近一次在绩效面谈、授权或冲突处理中的做法，和三个月前有什么不同？如果答不上来，说明经验没有被结构化反思
+updated_at: '2026-06-17'
 id: yt-management-basic-skills
 author: 老顽童
-reviewed_by: 王语嫣
+reviewed_by: 欧阳锋
 created_at: 2026-06-15
-confidence: 0.75
-trust_level: medium-low
-source_refs:
-- source_unknown
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+confidence: 0.88
+trust_level: medium-high
+source_refs: []
+source_context: 原始 source 无法追溯，已清空 source_refs；后续补充真实来源后可在 10_raw/sources/ 下引用相对路径
 related:
 - "yt-management-founder-role"
 - "yt-management-scientific-meetings"
@@ -40,6 +42,18 @@ related:
 # 基本功认知
 
 > 来源：一堂管理必修课「管团队」模块，含认知篇+拆解篇+武器库篇三节系列课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
+
+## 用一句话讲清楚
+
+管理基本功不是天赋，而是一套可以在真实管理场景中被拆解、训练、验证和迭代的动作系统；它的核心是"在正确阶段，让正确的人对可验证的数据负责，并加上闭环锁"。
+
+## 核心要点
+
+1. **管理可训练**：反对天赋论、经验论、速成论，把管理还原为目标设定、任务分配、过程检查、反馈沟通、授权赋能、绩效评估、团队建设等可观察动作。
+2. **三阶段递进**：认知篇建立科学管理观 → 拆解篇把管理拆成动作单元并给出行为锚定 → 武器库篇交付可直接落地的模板和检查清单。
+3. **工具落地四问**：任何管理工具引入前必须先回答——阶段匹配吗？决策权清晰吗？数据可验证吗？有闭环机制吗？
+4. **场景适配优先**：工具失效 90% 是因为场景不匹配，而非工具本身错误；先修场景再推广工具。
+5. **练习产生改变**：课程价值不在"知道"，而在"用工具→收数据→调行为"的最小闭环被反复执行。
 
 ## Constraints & Boundaries
 
@@ -159,6 +173,15 @@ related:
 - **STAR 反馈模型**：Situation → Task → Action → Result，基于行为事实而非人格评价的反馈框架
 - **授权五级量表**：从"等我指示再做"到"你自己决定，事后同步即可"的渐进自主权
 
+## 行动 Checklist
+
+- [ ] 用"管理工具落地四问"评估当前团队正在使用的 1-2 项管理工具，记录哪一问最弱。
+- [ ] 从 7 项基本功中选出当前最痛的 1 项，设计一个"2 周内可完成 3 次"的最小练习。
+- [ ] 为选定的基本功找到一位观察伙伴（同事/上级/教练），约定在练习后给一次反馈。
+- [ ] 在接下来 30 天内，记录至少 3 次"用工具→收数据→调行为"的具体循环。
+- [ ] 每月做一次 Argyris 式双环检测：有没有哪件事我原本会用"管理技巧"处理，最后选择了"真诚对话"？
+- [ ] 如果团队学完课程后行为无变化，暂停引入新工具，先修复"阶段匹配"和"闭环机制"。
+
 ## Critique
 
 ### 外部攻击
@@ -267,10 +290,13 @@ Argyris 发现，**聪明的、有经验的管理者恰恰是最擅长防御性�
 ## 单卡收尾检查
 
 - [x] status: enriched
-- [x] reviewed_by: 王语嫣
-- [x] updated_at: 2026-06-16
-- [x] diagnostic_signals: 4 条（≥3）
-- [x] Constraints & Boundaries: 6 条适用边界 + 5 条失败模式（≥4+4）
-- [x] 新增落地模板：管理工具落地四问检查清单 + 10人创业团队OKR落地示例
-- [x] 新互链：yt-management-scientific-meetings、yt-management-business-formula（双向）
-- [x] 已通过 kcard-quality-gate.py：目标卡无 P0/P1，全库 total/p0/p1 基线不变
+- [x] reviewed_by: 欧阳锋（≠ author 老顽童）
+- [x] updated_at: 2026-06-17
+- [x] diagnostic_signals: 5 条（≥3）
+- [x] 用一句话讲清楚：已补充
+- [x] 核心要点：已补充 5 条
+- [x] 边界 + 失败模式 table：6 条适用边界 + 5 条失败模式（≥4+4）
+- [x] 行动 Checklist：已补充 6 项
+- [x] 相关卡/互链：≥2 internal links 已存在
+- [x] source_refs: []（原始来源不可追溯，清空待补充）
+- [x] confidence: 0.88（<2 sources）

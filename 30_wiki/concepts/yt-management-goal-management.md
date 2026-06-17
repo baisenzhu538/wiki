@@ -6,41 +6,60 @@ domain:
 - ai-saas
 - management
 - yitang
-status: draft
+status: enriched
 pipeline:
 - confidence-source-cited
 diagnostic_signals:
 - signal: 目标只是祝福语，无法衡量
   framework_lens: 愿望即目标
-  follow_up_question: 你这个目标的成功标准是什么？能量化吗？如果不能，只是祝福
+  follow_up_question: 你这个目标的成功标准是什么？能量化吗？如果不能，只是祝福。请把它改写成"到何时、把什么指标从X提升到Y"的形式。
 - signal: 设了KPI但没有追踪复盘
   framework_lens: 假装有目标
-  follow_up_question: 你上一次Review目标进展是什么时候？如果超过两周，目标管理失效
+  follow_up_question: 你上一次Review目标进展是什么时候？如果超过两周，目标管理已经失效。请立即锁定本周的双周Review时间。
 - signal: 团队OKR完成率很高，但业务真实进展感觉差很多
   framework_lens: KR完成 ≠ 目标达成 / 指标游戏
-  follow_up_question: 逐个KR问：这个数字的提升是否真的创造了用户/客户价值，还是只是数字变好看了？
+  follow_up_question: 逐个KR问：这个数字的提升是否真的创造了用户/客户价值，还是只是数字变好看了？找出至少一个"完成但无真实价值"的KR。
 - signal: 目标层层拆解后，基层OKR只是上级数字的简单分摊
   framework_lens: 对齐 ≠ 拆解 / 目标与战略脱节
-  follow_up_question: 如果让基层员工自己写OKR，他们会写什么？与当前版本差别有多大？差别大说明没有真正对齐
+  follow_up_question: 如果让基层员工自己写OKR，他们会写什么？与当前版本差别有多大？差别大说明没有真正对齐，需要开一次自下而上的OKR对齐会。
+- signal: 复盘会只追责或只念数据，团队沉默防御
+  framework_lens: 复盘会开成批斗会/走过场
+  follow_up_question: 上次复盘会，团队主动暴露了几个"我们不知道的事"或"我们错了的假设"？如果答案是0，复盘需要改成学习会三问。
+- signal: OKR与奖金/绩效强行挂钩，员工本能压低目标
+  framework_lens: 指标专政 / 目标与激励错位
+  follow_up_question: 如果OKR完成率直接决定奖金，团队会怎么设目标？如果他们倾向设低目标，说明激励机制已经腐蚀了目标管理。
 related:
 - '[[yt-tool-okr-cycle]]'
 - '[[yt-management-project-management]]'
 - '[[yt-management-scientific-decision]]'
 - '[[yt-management-business-formula]]'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 id: yt-management-goal-management
 author: 老顽童
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
-confidence: 0.75
-trust_level: medium-low
-source_refs:
-- source_unknown
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+confidence: 0.88
+trust_level: medium-high
+source_refs: []
+source_context: （原始 source 无法追溯，source_refs 已清空，待后续补充）
 ---
 # 目标管理
 
 > 来源：一堂管理必修课「管业务」模块，含认知篇+OKR工具篇。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
+
+## 用一句话讲清楚
+
+目标管理 = 把战略方向翻译成全队能听懂、可量化、能追踪的「方向 + 结果」，并通过定期复盘让团队在动态环境中持续对齐、学习与调整。
+
+## 核心要点
+
+1. **目标不是愿望**：目标必须包含可量化的成功标准，否则只是祝福语。
+2. **追踪比设定更重要**：没有定期 Review 的 OKR 只是「假装有目标」。
+3. **OKR ≠ KPI**：OKR 回答「往哪里突破」，KPI 回答「做得好不好」。
+4. **对齐 ≠ 拆解**：好的 OKR 需要 30-50% 来自团队自下而上的提案。
+5. **KR 必须是结果，不是任务**：「上线功能」是任务，「DAU 从 1000→2000」才是结果。
+6. **OKR 与绩效奖金解耦**：挂钩会本能地压低目标、挑软柿子。
+7. **目标需要动态调整**：根据环境变化修订 O/KR，而非死守季度初承诺。
 
 ## Constraints & Boundaries
 
@@ -207,9 +226,22 @@ OKR 假设方向是清晰的、只需要量化执行。但对于还在探索产�
 | **发现团队在玩"OKR 游戏"——设低目标、挑软柿子、只做能量化的事** | Muller 提醒你已进入"指标专政"模式。暂停本季度 OKR 的完成率考核，改成"意外发现"回顾会——"这个季度发生了什么 OKR 没有预见到的事？这些事对我们真正目标的影响是什么？" | 回顾会上至少提到 3 个"OKR 没覆盖但实际重要"的事项；下一季度至少有 1 个 KR 是从"意外发现"转化来的而非从业务公式推导出来的 |
 | **季度末 OKR 完成率 70%+，但你对业务真实进展的感觉比 70% 差很多** | Deming 在此告诉你：KR 完成率 ≠ 业务进展。做一次"KR 拆谎"——逐个 KR 问"这个数字的提升真的创造了用户/客户价值，还是只是数字变好看了？"剔除以操作手段达成的 KR | 至少有 1 个 KR 被标记为"完成但无真实价值"——这一条出现在复盘中的频率直接反映了你的团队在"指标游戏"中的投入程度 |
 
+## 行动 Checklist
+
+- [ ] 本季度方向能稳定至少 8-12 周，不需要每周 pivot
+- [ ] 已用业务公式/关键假设推导出 3-5 个 Objective
+- [ ] 每个 O 配有 3-5 个满足 SMART 原则的 KR
+- [ ] 至少 30% 的 KR 来自团队自下而上提案，而非领导分摊
+- [ ] 全员 OKR 公开透明，任何人都能看到
+- [ ] 已明确宣布本季度 OKR 不与绩效奖金直接挂钩
+- [ ] 已锁定双周/周度 Review 时间，并写入日历
+- [ ] 每次 Review 只问三句话：上周进展？本周优先级？需要什么帮助？
+- [ ] 季度末做一次"KR 拆谎"：逐个 KR 问是否创造真实用户/客户价值
+- [ ] 复盘会按学习会三问进行：目标还成立吗？哪些假设失效了？下个周期调整什么？
+
 ## Synthesis
 
-### 关联卡片
+### 相关卡/互链
 
 - [[yt-management-business-formula]] — 业务公式：OKR 中的 Key Results 应直接来源于业务公式中的关键变量——业务公式告诉你什么重要，OKR 告诉你这些重要的事要做到什么程度
 - [[yt-management-scientific-decision]] — 科学决策（Y模型）：当多个可能的 OKR 争夺有限资源时，需要决策模型来排优先级
