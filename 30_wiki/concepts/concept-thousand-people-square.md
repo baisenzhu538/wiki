@@ -1,34 +1,47 @@
 ---
-
 id: concept-thousand-people-square
-title: 千人广场模型：一堂做课背后的统计建模理念
+title: "千人广场模型：一堂做课背后的统计建模理念"
 type: concept
 source_refs:
   - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-status: draft
+status: enriched
 domain:
-- yitang
-- education
-- modeling
-created_at: '2026-06-14'
-updated_at: '2026-06-16'
+  - yitang
+  - education
+  - modeling
+created_at: "2026-06-14"
+updated_at: "2026-06-17"
 author: 老顽童
-reviewed_by: pending
-review_date: '2026-06-14'
+reviewed_by: 欧阳锋
+review_date: "2026-06-17"
 trust_level: medium
-confidence: 0.7
+confidence: 0.75
 related:
-- '[[case-personal-map-modeling]]'
-- '[[dk-modeling-case-explosion-confidence]]'
-- '[[modeling-scientific-milestones]]'
-- '[[yt-five-step-method]]'
+  - "[[case-personal-map-modeling]]"
+  - "[[dk-modeling-case-explosion-confidence]]"
+  - "[[modeling-scientific-milestones]]"
+  - "[[yt-five-step-method]]"
+  - "[[yt-unit-model-concept]]"
+  - "[[modeling-three-stages]]"
 tags:
-- '#method/modeling'
-- '#chunk-type/definition'
-- '#industry/education'
-- '#method/research-method'
-source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
-  high）
+  - "#method/modeling"
+  - "#chunk-type/definition"
+  - "#industry/education"
+  - "#method/research-method"
+source_context: 单一source为完整长文档，内容充分支撑medium trust；待补充第二来源或充分验证后可升high
+diagnostic_signals:
+  - signal: "做内容时纠结要不要迎合少数高手"
+    lens: "广场优先"
+    follow_up: "检查目标受众占比：是服务95%多数人还是5%少数人？"
+  - signal: "方法论被单个反例击溃"
+    lens: "反例管理"
+    follow_up: "判断反例是否在广场边界内：在内→修正模型，在外→修正边界"
+  - signal: "课程/产品声称所有人都能用"
+    lens: "边界缺失"
+    follow_up: "明确画出问题边界：服务谁？不服务谁？"
+  - signal: "模型从成功案例推导，未验证普适性"
+    lens: "统计建模"
+    follow_up: "找5%已走过的人，提炼共性而非个案"
 ---
 # 千人广场模型：一堂做课背后的统计建模理念
 
@@ -80,6 +93,31 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 
 ---
 
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 面向多数人的方法论/课程/产品设计（受众>100人） |
+| ✅ 适合 | 已有5%先行者验证了路径可行性 |
+| ✅ 适合 | 问题边界可清晰划定（服务谁、不服务谁） |
+| ❌ 不适合 | 一对一咨询/定制化服务 → 用个案分析而非统计建模 |
+| ❌ 不适合 | 全新领域无先行者 → 先做探索性研究，再提炼共性 |
+| ❌ 不适合 | 反例无法识别或边界无法修正 → 模型置信度不足，暂缓推广 |
+| ❌ 不适合 | 追求极致个性化体验 → 千人广场天然牺牲个性化换取普适性 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **广场边界漂移** | 初期定义服务中小企业，后期被大客户拉偏，模型失效 | 每季度复盘：当前反例是否在边界内？边界是否需要收紧？ |
+| **5%幸存者偏差** | 把5%先行者的特殊条件（资源/时机/人脉）当成共性 | 拆解先行者的成功条件，剔除不可复制的因素 |
+| **反例压制** | 发现反例后选择忽视而非修正，模型信用破产 | 建立反例登记机制：每发现一个反例，72小时内判定归属 |
+| **过度泛化** | 从一堂教育场景硬套到SaaS/医疗/金融，水土不服 | 跨域迁移时重新画广场，不要直接复用原模型 |
+| **个性化幻觉** | 声称服务95%但内容越来越迎合5%高手 | 定期抽样：随机选10个before状态用户，测试能否理解 |
+| **边界过窄** | 广场定义太严格，导致方法论无法覆盖合理场景 | 放宽边界前先做小范围测试，确认反例率<5% |
+
 ## 应用方法
 
 1. **定义问题边界**：你的模型服务谁？不服务谁？
@@ -87,6 +125,17 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 3. **找 5% 的 after**：谁已经走过这条路？他们的共性是什么？
 4. **提炼共性**：把 5% 的共性变成可教的方法论
 5. **验证反例**：广场上有没有反例？有就修正
+
+### 千人广场模型落地检查清单
+
+| 步骤 | 检查项 | 通过标准 |
+|:-----|:-----|:---------|
+| 1 | 问题边界是否明确 | 能写出"服务谁"和"不服务谁"各3条 |
+| 2 | 广场画像是否清晰 | 能描述before状态的3个典型特征 |
+| 3 | 5% after是否可识别 | 能找到≥3个已达成after的真实案例 |
+| 4 | 共性是否可提炼 | 能写出≥3条不依赖个案特殊条件的共性 |
+| 5 | 反例机制是否运转 | 近30天内发现反例时，72小时内完成判定 |
+| 6 | 模型是否被验证 | 用模型指导≥1个新用户，从before走到after |
 
 ---
 
