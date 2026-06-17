@@ -1,7 +1,7 @@
 ---
 
 id: master-antifragile-checklist
-confidence: 0.88
+confidence: 0.8
 created_at: 2026-05-18
 difficulty: intermediate
 domain:

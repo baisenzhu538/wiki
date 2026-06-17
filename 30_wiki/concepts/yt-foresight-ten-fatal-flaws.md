@@ -9,7 +9,7 @@ domain:
 source_refs:
   - source_unknown
 status: draft
-confidence: 0.9
+confidence: 0.8
 difficulty: intermediate
 estimated_tokens: 2400
 language: zh-CN

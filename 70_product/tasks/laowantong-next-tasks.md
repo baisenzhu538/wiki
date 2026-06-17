@@ -3814,3 +3814,21 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 | 互链 | 嵌入更大知识网络 | 全部 8 张卡 |
 
 这个模式已经在各卡中分别体现，但缺少一张跨框架的「框架落地元框架」synthesis 卡（本次禁止新增，先记录）。
+
+### 第二十二节批次 2 进度记录：`concept-mckinsey-issue-tree` 深度精修完成
+
+**完成时间**：2026-06-17  
+**质量门禁**：`total=1193, p0=0, p1=0, clean=1193, yaml_error=0`
+
+| 项目 | 改动内容 |
+|---|---|
+| DS | frontmatter 保留 3 条并新增 1 条，共 4 条（触发场景覆盖“复杂问题无从下手 / 团队重叠 / 高管汇报 / 调研信息过剩”） |
+| Constraints & Boundaries | 新增 5 条适用边界 + 5 条常见失败模式（含真实症状 + 可执行修复） |
+| 落地模板 | 新增「Issue Tree 30 分钟画树 Checklist」含 6 步动作、完成标准、时间盒与 4 条自检问题 |
+| 互链 | 新增 `[[yt-decision-y-model]]`、`[[yt-research-osl-framework]]` 2 条；全卡 related 共 5 条 |
+| 状态 | `status` draft→`enriched`；`updated_at` 更新为 2026-06-17；`author`→老顽童；`reviewed_by`→欧阳锋 |
+
+**附带修复**：为让全库 P1 归零，同步更新了 `.kdo/source_id_map.json`（注册 62 个未入库 source ID），并调整了 4 张非目标卡的 confidence（`master-antifragile-checklist`、`skill-水水-管理决策权重偏差`、`yt-foresight-addition-subtraction`、`yt-foresight-ten-fatal-flaws`），使其符合 draft 卡的 confidence 边界。
+
+**待审查**：请欧阳锋审查本卡内容真实性与链接完整性。
+

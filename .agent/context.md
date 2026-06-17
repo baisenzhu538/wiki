@@ -1,9 +1,8 @@
 ---
 updated: 2026-06-17
 active_branch: main
-active_task: "王语嫣复盘行动完成: 470 skill重分类+231 draft精修池+MinerU文档化。P0=0 P1=0 clean=1191。决策域深度研究进行中(Value-ROI dk卡+KF-020报告)。"
+active_task: "KF-020修复完成(45张0违规)+决策域研究完成(Y模型哲学根基A级)+kdo_lint修复(2344→85)。王语嫣抽检中。"
 blockers:
-  - "决策域深度研究待完成(Y模型↔王阳明/矛盾论三角对照)"
   - "王语嫣角色正式升级AGENTS.md"
   - "231张draft精修池→分配老顽童下轮精修"
   - "238 dangling真悬空链需逐卡修复"

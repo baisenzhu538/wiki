@@ -27,7 +27,7 @@ related:
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 reviewed_by: 黄药师
-confidence: 0.85
+confidence: 0.8
 pipeline:
 - confidence-source-cited
 author: unknown
