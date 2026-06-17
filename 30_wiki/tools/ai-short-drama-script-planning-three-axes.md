@@ -226,10 +226,10 @@ diagnostic_signals:
 
 ## 相关卡/互链
 
-- [[ai-short-drama-ice-fire-scripting-compass|冰火写本罗盘]] — 剧本策划三板斧所在的顶层罗盘
-- [[ai-short-drama-plot-three-axes|剧情三板斧]] — 与策划三板斧配合，解决"怎么写得有爆款感"
-- [[ai-short-drama-conflict-three-axes|冲突三板斧]] — 张力设计工具
-- [[ai-short-drama-framework-three-axes|结构三板斧]] — 策划之后的结构搭建工具
+- [[ai-short-drama-ice-fire-scripting-compass]]：剧本策划三板斧所在的顶层罗盘
+- [[ai-short-drama-plot-three-axes]]：与策划三板斧配合，解决"怎么写得有爆款感"
+- [[ai-short-drama-conflict-three-axes]]：张力设计工具
+- [[ai-short-drama-framework-three-axes]]：策划之后的结构搭建工具
 
 ---
 

@@ -186,9 +186,9 @@ diagnostic_signals:
 
 ## 相关卡 / 互链
 
-- [[30_wiki/concepts/ai-short-drama-ice-fire-scripting-compass]]：矛盾冲突三板斧所在的顶层罗盘
-- [[30_wiki/tools/ai-short-drama-plot-three-axes]]：剧情张力工具，与冲突三板斧配合使用
-- [[30_wiki/tools/ai-short-drama-framework-three-axes]]：框架三板斧，决定冲突在整体结构中的落点
+- [[ai-short-drama-ice-fire-scripting-compass]]：矛盾冲突三板斧所在的顶层罗盘
+- [[ai-short-drama-plot-three-axes]]：剧情张力工具，与冲突三板斧配合使用
+- [[ai-short-drama-framework-three-axes]]：框架三板斧，决定冲突在整体结构中的落点
 
 ---
 

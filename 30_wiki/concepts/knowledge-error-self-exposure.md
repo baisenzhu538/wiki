@@ -2,7 +2,7 @@
 id: knowledge-error-self-exposure
 title: "知识库错误自暴露 — 检测半径全域覆盖，修复半径靶向"
 type: concept
-status: enriched
+status: draft
 domain:
   - master
 related:

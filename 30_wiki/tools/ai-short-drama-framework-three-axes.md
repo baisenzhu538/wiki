@@ -4,21 +4,21 @@ id: ai-short-drama-framework-three-axes
 title: 框架三板斧：短剧英雄之旅结构工具
 type: tool
 source_refs:
-  - src_20260613_1ade007d-framework-three-axes
-  - src_20260613_687c4ec0-transcript
-  - src_20260613_12d63c1c-notes
-status: draft
+  - 10_raw/sources/src_20260613_1ade007d-framework-three-axes.md
+  - 10_raw/sources/src_20260613_687c4ec0-transcript.md
+  - 10_raw/sources/src_20260613_12d63c1c-notes.md
+status: enriched
 domain:
 - yitang
 - ai-collaboration
 - product
 created_at: '2026-06-13'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 老顽童
-reviewed_by: pending
-review_date: '2026-06-13'
+reviewed_by: 欧阳锋
+review_date: '2026-06-17'
 trust_level: medium
-confidence: 0.75
+confidence: 0.89
 related:
 - '[[ai-short-drama-ice-fire-scripting-compass]]'
 - '[[ai-short-drama-script-planning-three-axes]]'
@@ -39,10 +39,32 @@ diagnostic_signals:
 - signal: 用户说"结局太仓促，前面铺垫全浪费"
   framework_lens: 第三板斧·决战收官展不凡
   follow_up_question: 决战是否同时回应了开头的欲望、中段的障碍，并给出情绪落点？
+- signal: 用户说"AI 生成的分集大纲越写越散"
+  framework_lens: 三斧结构完整性检查
+  follow_up_question: 每一集能否标注它属于"深渊/迷雾/决战"中的哪一阶段？阶段之间是否有清晰的转折钩子？
+- signal: 用户说"开头留不住人，3 秒就划走"
+  framework_lens: 第一板斧·深渊入局闯难关
+  follow_up_question: 第一集前 30 秒是否让观众看到主角的欲望、日常被打破，以及不得不行动的理由？
 ---
 # 框架三板斧：短剧英雄之旅结构工具
 
 > **Burn line**: 英雄不是一上来就无敌，而是被深渊逼出光芒。
+
+## 用一句话讲清楚
+
+框架三板斧把短剧结构压缩成**深渊入局→迷雾博弈→决战收官**三段式英雄之旅，用于快速搭建全剧骨架、检查分集大纲的完整性，并生成可复用的 AI prompt。
+
+---
+
+## 核心要点
+
+1. **三斧对应三幕剧**：入局（第一幕）+ 对抗（第二幕）+ 结局（第三幕），但节奏更快、钩子更密。
+2. **深渊要快**：主角必须在 1-3 集内被抛出日常，进入高风险情境，否则观众失去耐心。
+3. **迷雾要递进**：中段占 60%-70% 集数，设计 3-5 个难度递增的障碍，每个障碍揭示新信息或迫使主角做选择。
+4. **决战要回收**：结局不是简单胜利，而是同时回应开局欲望、中段障碍，并通过关键选择完成情绪升华。
+5. **可 prompt 化**：三斧可快速转写为 AI 分集大纲生成或结构检查 prompt。
+
+---
 
 框架三板斧是冰火写本罗盘中"框架大纲"维度的核心工具，将短剧结构简化为英雄之旅的三个阶段：**深渊入局闯难关、迷雾博弈克万难、决战收官展不凡**。它解决的是"一部短剧的整体骨架如何搭建"的问题，对应传统三幕剧：入局（第一幕）、对抗（第二幕）、结局（第三幕），但针对短剧的快节奏和高密度钩子做了压缩和本土化。
 
@@ -118,6 +140,32 @@ diagnostic_signals:
 
 ---
 
+## 失败模式
+
+| 失败模式 | 典型症状 | 根因 | 修复动作 |
+|---------|---------|------|---------|
+| **深渊太晚** | 前 5 集还在铺垫日常，观众流失 | 过度交代背景，未快速打破主角平衡 | 把"打破日常"事件提前到第 1 集结尾或第 2 集开头 |
+| **迷雾重复** | 中段剧情像"打怪升级"，情绪曲线扁平 | 障碍只有难度提升，没有信息揭露或情感代价 | 每个新障碍必须揭示反派新信息，并迫使主角做出新选择或牺牲 |
+| **决战脱节** | 结局爽完即忘，与前面铺垫无关 | 最终 BOSS/考验未呼应开局欲望 | 倒推检查：决战是否直接回应主角最初的欲望缺口 |
+| **选择廉价** | 主角获胜没有代价，缺乏回味 | 决战缺少"必须放弃什么"的关键选择 | 给主角设计一个与主题相关的两难选择 |
+| **AI 跑题** | 分集大纲阶段混乱，越写越散 | prompt 未约束三斧阶段 | 要求 AI 为每集标注所属阶段，并检查阶段间转折钩子 |
+
+---
+
+## 行动 Checklist
+
+- [ ] 已写出主角的日常状态与欲望缺口。
+- [ ] 深渊事件在 1-3 集内发生，且主角有"不能退"的理由。
+- [ ] 迷雾阶段已拆分为 3-5 个递进障碍，每个都比前一个更难。
+- [ ] 每个障碍至少揭示一条新信息或迫使主角做一次选择/牺牲。
+- [ ] 决战 BOSS/考验已确定，并与开局欲望直接相关。
+- [ ] 决战设计了主角必须付出代价的关键选择。
+- [ ] 结局情绪落点明确（大快人心/意难平/豁然开朗/余韵悠长）。
+- [ ] 已为每集标注所属阶段（深渊/迷雾/决战），并检查阶段转折钩子。
+- [ ] 已用 AI prompt 生成或检查过分集大纲。
+
+---
+
 ## When NOT to Use
 
 | 场景 | 为什么失效 | 替代方案 |
@@ -129,7 +177,7 @@ diagnostic_signals:
 
 ---
 
-## Constraints & Boundaries
+## 边界
 
 | 边界 | 说明 |
 |------|------|
@@ -172,6 +220,15 @@ diagnostic_signals:
 - [[ai-short-drama-script-planning-three-axes]]：框架之前的剧本基地、内容走向、剧情终局设计
 - [[ai-short-drama-plot-three-axes]]：框架之后的剧情张力检查工具
 - [[ai-short-drama-conflict-three-axes]]：框架中障碍设计的冲突分层工具
+
+---
+
+## 相关卡 / 互链
+
+- [[ai-short-drama-ice-fire-scripting-compass]]：顶层罗盘，决定何时调用框架三板斧。
+- [[ai-short-drama-script-planning-three-axes]]：先搭剧本基地和内容走向，再用框架三板斧展开结构。
+- [[ai-short-drama-plot-three-axes]]：结构搭好后，用剧情三板斧检查每集张力。
+- [[ai-short-drama-conflict-three-axes]]：迷雾阶段障碍设计时，用冲突三板斧分层升级。
 
 ---
 

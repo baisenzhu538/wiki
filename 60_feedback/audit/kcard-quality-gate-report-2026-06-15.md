@@ -3,8 +3,8 @@
 **扫描时间**：2026-06-15  
 **扫描范围**：30_wiki 全库 1195 张卡片  
 **P0 阻塞问题卡片**：0 张  
-**P1 修复问题卡片**：18 张  
-**完全干净卡片**：1177 张  
+**P1 修复问题卡片**：19 张  
+**完全干净卡片**：1176 张  
 **YAML 解析错误**：0 张  
 
 ---
@@ -22,6 +22,7 @@
 | `cases\yt-lean-beauty-store-conversion.md` | source_refs 为空 |
 | `cases\yt-lean-daily-chemical-mvp.md` | source_refs 为空 |
 | `cases\yt-lean-flower-mom-group-leader.md` | source_refs 为空 |
+| `concepts\knowledge-error-self-exposure.md` | source_refs 为空 |
 | `concepts\yt-lean-daily-probability-decision.md` | source_refs 为空 |
 | `concepts\yt-lean-essence.md` | source_refs 为空 |
 | `concepts\yt-tob-cash-flow.md` | source_refs 为空 |
