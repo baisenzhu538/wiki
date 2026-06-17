@@ -2,7 +2,7 @@
 id: yt-tool-knowledge-extraction
 component_of:
 - yt-management-toolkit-overview
-confidence: 0.8
+confidence: 0.85
 created_at: 2026-05-19
 difficulty: intermediate
 domain:
@@ -31,9 +31,11 @@ related:
 - '[[master-knowledge-compound]]'
 - '[[yt-decision-review]]'
 - '[[yt-concept-weapon-arsenal]]'
+- '[[yt-tool-best-practice-learning]]'
 source_refs:
-- 30_wiki/concepts/yt-management-team-knowledge.md
-status: draft
+- 10_raw/sources/src_20260510_14db4c2b-萃取总结.md
+- 10_raw/sources/src_20260510_814ec410-个人修炼-知识萃取探索营.md
+status: enriched
 title: 团队知识萃取器
 trust_level: medium
 type: tool
@@ -60,9 +62,9 @@ diagnostic_signals:
 - signal: 专家分享意愿与萃取者提问能力是否被前置评估
   framework_lens: 激励机制 / 人力因素
   follow_up_question: 专家是否因担心价值被替代而隐藏关键判断？
-updated_at: '2026-06-16'
+updated_at: '2026-06-18'
 author: unknown
-reviewed_by: pending
+reviewed_by: laowantong
 ---
 # 团队知识萃取器
 
@@ -154,6 +156,30 @@ reviewed_by: pending
 | **萃取完就完** | 文档入库后再也没人更新 | 30 天强制反馈机制 + 6 个月失效检查——没有维护机制的知识库是墓地 |
 | **把复杂域当清晰域萃** | 把定价策略写成"第一步、第二步"的 checklist | 萃取前先分类——复杂域知识用案例深描法，清晰域知识才用影子跟随法 |
 | **忽视隐性知识的 90%** | 以为写下来的就是全部 | 明确标注"本文档覆盖了该知识的 X%，剩余部分需要通过实践传承"——诚实标注边界 |
+
+## 萃取执行检查清单
+
+### 启动前必查
+
+- [ ] 触发信号符合 5 条进入标准之一
+- [ ] 已用 Cynefin 完成域分类（清晰 / 繁杂 / 复杂）
+- [ ] 确认"下次还会用到"且"别人会遇到同样问题"——两个否定则不萃
+- [ ] 专家分享意愿已评估，萃取者不是专家本人
+
+### 萃取中必查
+
+- [ ] 已录音 / 录像，原始记录可回溯
+- [ ] 单次萃取 ≤90 分钟
+- [ ] 根据知识类型选对方法：流程型→影子跟随；判断型→决策考古；关系型→对话还原；综合型→案例深描
+- [ ] 已追问"如果信号不同会怎么选"
+
+### 萃取后必查
+
+- [ ] 24 小时内产出初稿
+- [ ] 文档含"预计失效条件"和"最后验证日期"
+- [ ] 非原作者完成可理解性 / 可执行性 / 可检索性 / 时效性验收
+- [ ] 入库后 30 天内收集至少 1 条使用反馈
+- [ ] 诚实标注覆盖度（如"本文档覆盖该知识的约 X%"）
 
 ## Critique
 
