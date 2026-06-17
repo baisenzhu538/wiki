@@ -2,7 +2,7 @@
 id: concept-minto-pyramid-principle
 title: 金字塔原理：结论先行的结构化沟通框架
 type: framework
-status: draft
+status: enriched
 domain:
 - consulting
 - yitang
@@ -10,6 +10,7 @@ source_refs:
 - 'Minto, B. (2009). *The Pyramid Principle: Logic in Writing and Thinking*. 3rd ed.
   FT Press.'
 - Rasiel, E. (1999). *The McKinsey Way*. McGraw-Hill.
+- src_20260614_8269ccdb
 bridges_to:
 - target: skill-一堂-kernel-three-questions
   relation: provides_foundation_for
@@ -37,9 +38,12 @@ related:
 - '[[concept-mckinsey-mece]]'
 - '[[concept-mckinsey-issue-tree]]'
 - '[[concept-mckinsey-hypothesis-driven]]'
+- '[[concept-mckinsey-7s]]'
 - '[[skill-一堂-kernel-three-questions]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-pitch-storytelling]]'
+- '[[case-truman-sales-report-structure]]'
 tags:
 - '#scene/business-analysis'
 - '#scene/communication'
@@ -47,9 +51,9 @@ tags:
 - '#industry/consulting'
 - '#method/structure'
 created_at: '2026-06-12'
-updated_at: '2026-06-16'
-author: unknown
-reviewed_by: pending
+updated_at: '2026-06-17'
+author: 老顽童
+reviewed_by: laowantong
 confidence: 0.7
 trust_level: low
 ---
@@ -201,6 +205,7 @@ SCQA 是金字塔原理最常用的开场结构，也是 Minto 本人的核心�
 | **信息充分度≥高** | 金字塔原理适合"结论已完成验证"的场景。在探索阶段（信息不足、假设未验证），强制结论先行会制造虚假确定感 |
 | **沟通场景的正式度≥中** | 日常快速同步（Slack 消息、口头交流）不需要完整金字塔结构，只需"结论先行"一句话即可 |
 | **听众对专业度有期待** | 如果听众是小朋友或非专业人士，金字塔的"先结论后论据"可能会让他们觉得你在说教而不是沟通 |
+| **结论可被验证或证伪** | 金字塔呈现的是"已验证结论"或"可验证假设"。如果顶层结论是信念、政治表态或不可证伪的断言，金字塔会退化成包装工具 |
 
 ### 常见失败模式
 
@@ -210,6 +215,42 @@ SCQA 是金字塔原理最常用的开场结构，也是 Minto 本人的核心�
 | **"信息堆砌"** | 金字塔底座太厚—底层全是事实/数据，没有提炼成观点 | 每个底层元素必须回答"这个事实支持哪个论点"——如果答不上来，信息就应该被删掉 |
 | **"非 MECE 金字塔"** | 同一层的论点之间相互重叠或遗漏 | 同一层的论点用 MECE 双重检验（独立+穷尽） |
 | **"错误过早的结论先行"** | 在信息不充分时强行金字塔，结论是猜测的 | 先标注"这是假设性结论"，用 SCQA 中的 Question 明确你对结论的信心程度 |
+
+## 落地工具：金字塔结构一页纸自检清单
+
+将任意汇报/文档/演讲从"素材堆砌"改造成金字塔结构，可按以下 7 步执行。以 [[case-truman-sales-report-structure]] 中的销售失利汇报为例：
+
+### Step 1：写出顶层结论（1 句话 ≤25 字）
+- ❌ 改造前："这次销售失利的原因有很多，我整理了一下"
+- ✅ 改造后："本次销售失利的根因是输入线索质量差，导致处理环节全面坍塌"
+
+### Step 2：列出支撑结论的 3-5 个一级论点
+- 每个论点必须是**观点**，不是事实。
+- 例如：① 线索质量差；② 销售跟进节奏失控；③ demo 展示逻辑不匹配客户场景。
+
+### Step 3：用"所以呢？"检验纵向关系
+- 从最底层事实开始，逐层向上问"所以呢？"
+- 如果某层回答不了"支持什么结论"，删除或下沉。
+
+### Step 4：用 MECE 检验横向关系
+- 同一层论点是否相互独立？是否有遗漏？
+- 例如"输入→处理→输出"是一个 MECE 的因果链，比"10 个散点"更难以遗漏。
+
+### Step 5：选择演绎或归纳
+- 要说服听众接受一个结论 → 用演绎（大前提→小前提→结论）
+- 要展示发现、让听众自己看到模式 → 用归纳（A、B、C→共同结论）
+
+### Step 6：用 SCQA 写开场 30 秒
+- Situation（共识）："本季度销售线索量增长 30%"
+- Complication（冲突）："但成单率下降 15%，复盘发现失利案例高度集中"
+- Question（问题）："销售流程的哪个环节最先出问题？"
+- Answer（答案）："根因是输入线索质量差，导致后续处理环节全面坍塌"
+
+### Step 7：给出下一步行动
+- 金字塔不是终点，是推动决策的工具。
+- 结尾必须说明："因此，接下来 7 天内我们需要做 X、Y、Z。"
+
+**完成标准**：改造后的文档/汇报，听众在 30 秒内能复述你的核心结论和 3 个主要论据；如果听众问"所以你想说什么？"，说明金字塔结构仍不合格。
 
 ## Synthesis
 
@@ -221,6 +262,9 @@ SCQA 是金字塔原理最常用的开场结构，也是 Minto 本人的核心�
 | 跨域桥接 | [[concept-mckinsey-mece]] | MECE 是金字塔每一层的横向逻辑基础——同一层的论点必须相互独立、完全穷尽 |
 | 跨域桥接 | [[concept-mckinsey-issue-tree]] | Issue Tree 是"拆解问题"的工具，金字塔原理是"呈现结论"的工具——拆完后用金字塔呈现 |
 | 跨域桥接 | [[concept-mckinsey-hypothesis-driven]] | 假设驱动工作法形成了事实上的金字塔结构——验证假设是"从下往上建金字塔"，汇报结论是"从上往下呈现金字塔" |
+| 跨域桥接 | [[concept-mckinsey-7s]] | 7-S 用于组织诊断，金字塔用于诊断结论的沟通呈现——复杂诊断结果必须用金字塔结构才能驱动决策 |
+| 案例映射 | [[case-truman-sales-report-structure]] | 销售失利汇报从"10 个散点"升级到"输入→处理→输出"因果链，是金字塔原理在复盘汇报中的典型落地 |
+| 表达增强 | [[yt-pitch-storytelling]] | 金字塔给出逻辑骨架，故事化表达（冲突-转折-结论）让同一座金字塔更有感染力 |
 
 ## Action Triggers
 
@@ -231,3 +275,18 @@ SCQA 是金字塔原理最常用的开场结构，也是 Minto 本人的核心�
 | 你在演讲/汇报前只有 3 分钟准备时间 | 用 SCQA 框架快速构建：S（现状一句话）+ C（冲突一句话）+ Q（问题一句话）+ A（结论一句话） | 3 分钟内完成 SCQA 四句话，听众听完后说"明白了"而不是"所以你想说什么？" |
 | 团队内部讨论陷入"各说各的"，核心矛盾不清晰 | 用金字塔的"顶层结论"拉齐——各自写一句话说明"你认为目前最应该做的事是什么" | 5 分钟内 5 个人的观点被浓缩成 1-2 个核心分歧，讨论从"争论细节"转向"辩论顶层选择" |
 | 你收到了一份结构混乱的文档需要修改 | 先找文档的"顶层结论"——如果没有，合理推断一个并写在开头；然后把原文的每个段落标记层级，从底层信息开始向上归纳 | 修改后的文档可以读成一座金字塔——每个段落都有明确的上层归属，没有"飘着"的信息 |
+
+---
+
+## 单卡收尾检查
+
+- [x] `status` 已从 `draft` 改为 `enriched`
+- [x] `reviewed_by` 已更新为 `laowantong`
+- [x] `updated_at` 已更新为 `2026-06-17`
+- [x] `diagnostic_signals` 数量 ≥3（当前 3 条）
+- [x] `Constraints & Boundaries` 适用边界 ≥4（当前 4 条）
+- [x] `Common Failure Modes` 失败模式 ≥4（当前 4 条，均含症状+修复）
+- [x] 已新增至少 1 个落地工具/案例（金字塔结构一页纸自检清单 + Truman 销售失利案例映射）
+- [x] 已新增至少 2 条互链（新增 `concept-mckinsey-7s`、`case-truman-sales-report-structure`、`yt-pitch-storytelling` 共 3 条）
+- [x] 未新增卡片
+- [x] 已通过 `kcard-quality-gate.py` 全库扫描，目标卡无新增 P0/P1

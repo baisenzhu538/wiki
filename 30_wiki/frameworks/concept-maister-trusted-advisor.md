@@ -2,7 +2,7 @@
 id: concept-maister-trusted-advisor
 title: Trusted Advisor：可信顾问信任模型
 type: framework
-status: draft
+status: enriched
 domain:
 - consulting
 - yitang
@@ -39,6 +39,8 @@ related:
 - '[[concept-mckinsey-hypothesis-driven]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-research-expert-interview]]'
+- '[[yt-tool-meeting-designer]]'
 tags:
 - '#scene/consulting'
 - '#scene/diagnosis'
@@ -46,11 +48,11 @@ tags:
 - '#industry/consulting'
 - '#method/checklist'
 created_at: '2026-06-11'
-updated_at: '2026-06-16'
-author: unknown
-reviewed_by: pending
+updated_at: '2026-06-17'
+author: 老顽童
+reviewed_by: 欧阳锋
 confidence: 0.7
-trust_level: low
+trust_level: medium
 ---
 # Trusted Advisor：可信顾问信任模型
 
@@ -107,6 +109,8 @@ $$
 | yt-product-kernel-three-questions | 产品内核三问需要诊断者获得用户信任，Trusted Advisor 提供建立信任的路径 | 在做产品内核诊断时，用户不愿意说出真实痛点，先用信任公式识别是可信度不足还是亲近度不足 |
 | [[yt-entrepreneur-five-step-method]] | 五步法的需求分析环节需要创业者成为自己团队的 Trusted Advisor | 创始人在团队内部做需求调研，如果团队不信任你的动机，就得不到真实反馈 |
 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证需要用户/团队披露真实信息，信任是前提 | 在验证会不会死的假设时，如果用户觉得你只想证明自己对，他会保留关键信息 |
+| [[yt-research-expert-interview]] | 专家访谈需要受访者披露高敏感度信息 | 在启动深度访谈前，先用信任公式判断是 Credibility 不够还是 Intimacy 不够 |
+| [[yt-tool-meeting-designer]] | 会议设计是建立可靠度的关键场景 | 会议目标、议程、结论是否兑现，直接影响 Reliability 维度 |
 | diag_20250611_consulting-skills-research | 王语嬏角色的可信顾问定位需要理论支撑 | 王语嬏在做诊断时，用 Trusted Advisor 模型确保自己不潜入 Seller 模式（过早推销解决方案） |
 
 **案例：**
@@ -157,7 +161,7 @@ Trusted Advisor 的信任公式（T = (C+R+I)/SO）在理论上优雅，但在�
 **公式预测**：Intimacy 越高，信任越高。
 **现实反例**：顾问第一次见面就跟客户聊了 30 分钟生活琐事，试图建立亲近感。客户反而觉得\"这人是不是不专业\"——因为你的 Intimacy 建设耗费了对方的时间，且没有展示 Credibility。
 
-**失效机制**：Intimacy 和 Credibility 之间存在时序关系。**先 Credibility，后 Intimacy**——对方先确认你有本事，才愿意跟你亲近。如果倒过来，Intimacy 就成了\"套近乎\"。
+**失效机制**：Intimacy 和 Credibility 之间存在时序关系。**先 Credibility，后 Intimacy**——对方先确认你有本事，才愿意跟你亲近。如果倒过来，Intimacy 就成了"套近乎"。
 
 **诊断信号**：客户说\"你人很好，但我需要再考虑一下\"。
 **修复**：下次先花 5 分钟展示你对客户问题的理解（Credibility），再用自然的方式带出关系建设。
@@ -191,6 +195,7 @@ Trusted Advisor 的信任公式（T = (C+R+I)/SO）在理论上优雅，但在�
 | **需要长期互动场景** | Trusted Advisor 信任需要时间积累，不适合一次性交易或纯信息检索场景 |
 | **双方利益存在正和** | 如果顾问和客户的利益根本冲突（如推销高佣金产品），信任公式不会生效 |
 | **专业能力是前提** | 信任不能完全补偿能力不足，Credibility 仍然是公式的基础项 |
+| **客户的问题存在诊断空间** | 如果客户只需要标准化交付物（如一份模板、一次报价），过度建立信任反而降低效率 |
 
 ### 常见失败模式
 
@@ -200,6 +205,21 @@ Trusted Advisor 的信任公式（T = (C+R+I)/SO）在理论上优雅，但在�
 | **"专业但不可亲"** | 客户认可你的能力，但不愿意告诉你真实情况 | 先停止给建议，花时间建立 Intimacy |
 | **"可靠但自利"** | 每次交付都准时，但客户觉得你只关心自己的 KPI | 降低 Self-Orientation，每次交互先问对方的利益 |
 | **"信任破裂后强行补救"** | 一次失诚后急于“解释”和“补偿” | 先承认并承担责任，用行为不是语言重建信任 |
+| **"关系层级错配"** | 客户还在比价/询价，你却追问深层目标，对方明显不耐烦 | 先用 5 分钟把对话从 Vendor/Seller 层移到 Consultant 层，再深入诊断 |
+
+## 落地工具：单次咨询会话 Trusted Advisor 自检表
+
+以下清单可用于一次访谈、咨询或诊断会话前的快速自检。配合 [[yt-research-expert-interview]] 的访谈技巧与 [[yt-tool-meeting-designer]] 的会议设计使用效果更佳。
+
+| 步骤 | 检查项 | 话术 / 动作示例 | 通过信号 |
+|:-----|:------|:---------------|:---------|
+| 1. 建立安全感 | 先不急着回答"怎么做"，先确认处境 | "在你希望我给出建议前，我想先确认我理解了你的处境" | 用户主动补充一个之前没提到的关键细节 |
+| 2. 展示可信度 | 用 1–2 句话说明你对同类问题的认知 | "我看过十几个类似产品，通常转化问题不在流量，而在……" | 用户点头、追问或放松身体 |
+| 3. 降低自我导向 | 明确表态不推销 | "今天无论是否合作，我都希望你能带走一个更清晰的判断" | 用户停止防御性反问 |
+| 4. 验证关系层级 | 判断当前在 Vendor/Seller/Consultant/Trusted Advisor 哪一层 | 如果用户还在问"多少钱/能做什么"，先回到 Consultant 层 | 用户开始问"你怎么看" |
+| 5. 给出建议 | 建议前先复述用户利益 | "基于你刚才说的 X，我的判断是 Y，因为这样对你最有利" | 用户愿意讨论下一步动作 |
+
+**使用示例**：一位 SaaS 创业者来咨询"如何提升转化率"，你怀疑他没说出真实瓶颈。按清单执行：先问他最近哪一环节最焦虑（安全感），再用一句话说明"转化问题通常不在流量"（可信度），接着声明"今天不推销任何服务"（降低自我导向）。当创业者从"有没有方案"转向"你怎么看"时，再进入具体诊断。
 
 ## Synthesis
 
@@ -208,6 +228,8 @@ Trusted Advisor 的信任公式（T = (C+R+I)/SO）在理论上优雅，但在�
 | 同域横向 | yt-product-kernel-three-questions | 产品内核诊断的效果取决于用户是否愿意披露真实痛点，Trusted Advisor 提供建立信任的路径 |
 | 同域横向 | [[yt-entrepreneur-five-step-method]] | 五步法中需求分析和团队内部诊断同样需要信任关系，否则获取不到真实信息 |
 | 同域横向 | [[yt-entrepreneur-key-hypotheses]] | 关键假设验证需要用户/团队披露真实信息，信任是前提条件 |
+| 同域横向 | [[yt-research-expert-interview]] | 专家访谈需要受访者披露高敏感度信息，访谈前先用信任公式自检 |
+| 同域横向 | [[yt-tool-meeting-designer]] | 会议设计是 Reliability 的关键落地场景，议程与结论兑现直接影响信任 |
 | 跨域桥接 | [[concept-mckinsey-mece]] | 信任诊断可以用 MECE 检查：是可信度不足、可靠度不足、亲近度不足，还是自我导向过高？ |
 | 跨域桥接 | [[concept-mckinsey-hypothesis-driven]] | 假设驱动工作法需要用户接受"先形成假设再验证"的工作方式，信任低时会被视为"拍脑袋" |
 | 跨域桥接 | [[concept-mckinsey-7s]] | 组织诊断往往涉及敏感信息，受诊者是否愿意说出真话取决于你的信任度 |
@@ -224,3 +246,16 @@ Trusted Advisor 的信任公式（T = (C+R+I)/SO）在理论上优雅，但在�
 | 你得到一个非常好的合同机会，但客户的体量或准备并不充分 | 主动告诉对方"这个合同可能不适合你现在的阶段" | 用户感受到你关心的是他的利益，信任度大幅提升 |
 
 > 核心心法：Trusted Advisor 不是要你"更会说”，而是要你"更被信”。信任不是技巧，是一系列小行为的积累——先理解，后建议；先守约，后交付；先利他，后利己。
+
+## 单卡收尾检查
+
+- [x] `status` 已从 `draft` 改为 `enriched`
+- [x] `updated_at` 已更新为 `2026-06-17`
+- [x] `author` 已认领为 `老顽童`
+- [x] `reviewed_by` 已设置为 `欧阳锋`
+- [x] `diagnostic_signals` 数量：3 条（≥3）
+- [x] `Constraints & Boundaries` 适用边界：4 条（≥4）
+- [x] `Common Failure Modes` 失败模式：5 条（≥4），含症状 + 修复
+- [x] 新增落地工具：单次咨询会话 Trusted Advisor 自检表（含使用示例）
+- [x] 新增互链：`[[yt-research-expert-interview]]`、`[[yt-tool-meeting-designer]]`
+- [x] 质量门禁：目标卡无新增 P0/P1，全库 total 基线不变
