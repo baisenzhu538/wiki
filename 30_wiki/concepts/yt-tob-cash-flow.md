@@ -2,42 +2,44 @@
 id: yt-tob-cash-flow
 title: To B 现金流管理：自由现金流比账面利润更重要
 type: concept
-status: enriched
-domain: [yitang, entrepreneurship, b2b, business-strategy]
-source_refs:
-  - src_20260616_0e684368
-  - src_20260616_5f991553
+status: draft
+domain:
+- yitang
+- entrepreneurship
+- b2b
+- business-strategy
+source_refs: []
 tags:
-  - "#method/evaluation-method"
-  - "#domain/yitang"
-  - "#domain/b2b"
-  - "#content-format/concept"
-  - "#topic/cash-flow"
-  - "#topic/unit-model"
+- '#method/evaluation-method'
+- '#domain/yitang'
+- '#domain/b2b'
+- '#content-format/concept'
+- '#topic/cash-flow'
+- '#topic/unit-model'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 徐剑
 reviewed_by: 老顽童
 review_date: '2026-06-16'
-confidence: 0.80
-trust_level: high
+confidence: 0.65
+trust_level: low
 related:
-  - "[[yt-entrepreneur-five-step-method]]"
-  - "[[yt-unit-model-three-tools]]"
-  - "[[yt-management-business-formula]]"
-  - "[[yt-lean-growth-stage-gate]]"
-  - "[[yt-business-formula-business-pattern-selector]]"
-  - "[[case-yitang-tob-grinding-machine]]"
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-unit-model-three-tools]]'
+- '[[yt-management-business-formula]]'
+- '[[yt-lean-growth-stage-gate]]'
+- '[[yt-business-formula-business-pattern-selector]]'
+- '[[case-yitang-tob-grinding-machine]]'
 diagnostic_signals:
-  - signal: 账面利润为正，但经营现金净流入持续为负或长期靠融资/垫资维持
-    framework_lens: 单元模型双口径验证 — 财务确认口径 vs 现金流口径
-    follow_up_question: 同一单元模型用现金流口径重新测算，自由现金流何时转正？规模化复制是否会放大资金缺口？
-  - signal: 客户账期超过 90-180 天，且新项目需要持续垫付资金
-    framework_lens: To B 业务周期长、回款慢带来的资金占用风险
-    follow_up_question: 能否通过收款节奏、预付款比例、供应链金融或合同条款缩短现金转换周期？
-  - signal: 业务增长越快，现金缺口越大，需要不断追加投入才能维持运转
-    framework_lens: 自由现金流健康度 — 增长质量优于增长规模
-    follow_up_question: 当前增长是否以负向自由现金流为代价？何时达到规模复制的现金流拐点？
+- signal: 账面利润为正，但经营现金净流入持续为负或长期靠融资/垫资维持
+  framework_lens: 单元模型双口径验证 — 财务确认口径 vs 现金流口径
+  follow_up_question: 同一单元模型用现金流口径重新测算，自由现金流何时转正？规模化复制是否会放大资金缺口？
+- signal: 客户账期超过 90-180 天，且新项目需要持续垫付资金
+  framework_lens: To B 业务周期长、回款慢带来的资金占用风险
+  follow_up_question: 能否通过收款节奏、预付款比例、供应链金融或合同条款缩短现金转换周期？
+- signal: 业务增长越快，现金缺口越大，需要不断追加投入才能维持运转
+  framework_lens: 自由现金流健康度 — 增长质量优于增长规模
+  follow_up_question: 当前增长是否以负向自由现金流为代价？何时达到规模复制的现金流拐点？
 ---
 
 > “就算是单元模型早就算清楚了、跑通了，整个业务也非常辛苦，因为现金流难题。很多实体生意有大量的流水、稳定合理的利润率，但始终不赚钱——就是因为自由现金流是负的，负得越久、付得越多。” — 徐剑，To B 五步法口述稿（src_20260616_0e684368，~3124-3202）

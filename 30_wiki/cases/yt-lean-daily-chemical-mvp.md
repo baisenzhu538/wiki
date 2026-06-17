@@ -2,17 +2,14 @@
 id: yt-lean-daily-chemical-mvp
 title: 日化沐浴露MVP：不生产产品验证行业机会
 type: case
-status: enriched
+status: draft
 domain:
 - yitang
 - entrepreneurship
 - business-strategy
 source_person: 张磊
 source_context: 张磊教练《精益测试关键问题》AMA Q4
-source_refs:
-- src_20260616_b1e25c49
-- src_20260616_7dc80216
-- src_20260616_59f708ea
+source_refs: []
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'
@@ -20,12 +17,12 @@ tags:
 - '#topic/lean-startup'
 - '#topic/mvp'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
-confidence: 0.72
-trust_level: medium-high
+confidence: 0.65
+trust_level: low
 related:
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'

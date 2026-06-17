@@ -1,5 +1,4 @@
 ---
-
 id: yt-entrepreneur-lean-validation
 confidence: 0.8
 created_at: 2026-05-06
@@ -33,10 +32,7 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-  - src_20260609_9168476b-ocr-泛产品设计-落地卡片-低成本测试mvp
-  - src_20260616_b1e25c49
-  - src_20260616_7dc80216
-  - src_20260616_6c8b240b
+- src_20260609_9168476b-ocr-泛产品设计-落地卡片-低成本测试mvp
 status: enriched
 title: 低成本验证/MVP
 trust_level: medium
@@ -66,7 +62,7 @@ diagnostic_signals:
 - signal: 团队把"方向不确定"描述为风险而不是学习速度
   framework_lens: 不确定性 = 学习速度；精益验证四步循环
   follow_up_question: 如果把这个不确定性转化为一个2周内可完成的实验，你要验证的关键假设、最小实验、可区分信号和扩张绿灯分别是什么？
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 老顽童
 ---
 # 低成本验证/MVP

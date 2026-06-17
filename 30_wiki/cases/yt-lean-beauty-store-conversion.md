@@ -2,39 +2,39 @@
 id: yt-lean-beauty-store-conversion
 title: 美业门店：200→4000转化链路才是关键假设
 type: case
-status: enriched
-domain: [yitang, entrepreneurship, business-strategy]
-source_refs:
-  - src_20260616_b1e25c49
-  - src_20260616_59f708ea
-  - src_20260616_e66bd149
+status: draft
+domain:
+- yitang
+- entrepreneurship
+- business-strategy
+source_refs: []
 tags:
-  - '#method/evaluation-method'
-  - '#domain/yitang'
-  - '#content-format/case'
-  - '#topic/lean-startup'
-  - '#topic/key-hypothesis'
-  - '#topic/conversion-funnel'
+- '#method/evaluation-method'
+- '#domain/yitang'
+- '#content-format/case'
+- '#topic/lean-startup'
+- '#topic/key-hypothesis'
+- '#topic/conversion-funnel'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
-confidence: 0.82
-trust_level: high
+confidence: 0.65
+trust_level: low
 related:
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
-  - '[[skill-一堂-hypothesis-validation-three-axe]]'
+- '[[yt-entrepreneur-lean-validation]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[concept-一堂-key-assumptions]]'
+- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+- '[[skill-一堂-hypothesis-validation-three-axe]]'
 diagnostic_signals:
-  - signal: 200元体验用户中极少有人询问或升级到3980元套餐
-    framework_lens: 产品内核假设 / 关键转化链路
-    follow_up_question: 是价格过高、效果不明显、信任不够，还是两类目标客户画像本身与3980套餐不匹配？
-  - signal: 团队过早开始打磨2万元加盟政策、选址或新媒体投放方案
-    framework_lens: 里程碑依赖 / 过早固化
-    follow_up_question: 200→4000转化率是否已拿到初步肯定判断？加盟意愿测试是否应放在第三里程碑而非现在就做？
+- signal: 200元体验用户中极少有人询问或升级到3980元套餐
+  framework_lens: 产品内核假设 / 关键转化链路
+  follow_up_question: 是价格过高、效果不明显、信任不够，还是两类目标客户画像本身与3980套餐不匹配？
+- signal: 团队过早开始打磨2万元加盟政策、选址或新媒体投放方案
+  framework_lens: 里程碑依赖 / 过早固化
+  follow_up_question: 200→4000转化率是否已拿到初步肯定判断？加盟意愿测试是否应放在第三里程碑而非现在就做？
 ---
 
 > "你的产品结构是三层漏斗：200元体验 → 3980元套餐 → 2万加盟。表面上看是在问'测200还是测3980'，但这个问题背后真正的命题是：这个漏斗里，最大风险的假设到底是什么？" —— 张磊，AMA Q7

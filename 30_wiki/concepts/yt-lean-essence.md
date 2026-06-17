@@ -1,29 +1,26 @@
 ---
 id: yt-lean-essence
-title: '一堂张磊版精益测试的本质：用少量试错成本降低系统性风险'
+title: 一堂张磊版精益测试的本质：用少量试错成本降低系统性风险
 type: concept
-status: enriched
+status: draft
 domain:
 - yitang
 - entrepreneurship
 - business-strategy
 source_person: 张磊
 source_context: 一堂·精益测试 AMA 答疑（2026-06-14）
-source_refs:
-- src_20260616_b1e25c49
-- src_20260616_7dc80216
-- src_20260616_6c8b240b
+source_refs: []
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'
 - '#content-format/concept'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
-confidence: 0.88
-trust_level: high
+confidence: 0.65
+trust_level: low
 related:
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'

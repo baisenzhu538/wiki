@@ -2,27 +2,25 @@
 id: yt-tob-revenue-is-customer-cost
 title: To B 收入本质 = 客户成本
 type: concept
-status: enriched
+status: draft
 domain:
 - yitang
 - entrepreneurship
 - b2b
 - business-strategy
-source_refs:
-- src_20260616_0e684368
-- src_20260616_5f991553
+source_refs: []
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'
 - '#domain/b2b'
 - '#content-format/concept'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 徐剑
 reviewed_by: 老顽童
 review_date: '2026-06-16'
-confidence: 0.85
-trust_level: high
+confidence: 0.65
+trust_level: low
 related:
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-entrepreneur-product-core]]'

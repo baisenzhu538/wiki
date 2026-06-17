@@ -2,21 +2,19 @@
 id: yt-lean-consumer-deep-experience-testing
 title: 消费品深层体验测试：表层反馈 vs 深层体验
 type: framework
-status: enriched
+status: draft
 domain:
 - yitang
 - entrepreneurship
 - business-strategy
-source_refs:
-- src_20260616_b1e25c49
-- src_20260616_59f708ea
+source_refs: []
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
-confidence: 0.82
-trust_level: high
+confidence: 0.65
+trust_level: low
 related:
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'

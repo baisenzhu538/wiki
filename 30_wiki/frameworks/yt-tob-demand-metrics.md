@@ -1,47 +1,48 @@
 ---
-
 id: yt-tob-demand-metrics
 title: To B 需求测算双指标：成本占有率 + 业务天花板
 type: framework
 status: enriched
-domain: [yitang, entrepreneurship, b2b, business-strategy]
+domain:
+- yitang
+- entrepreneurship
+- b2b
+- business-strategy
 source_refs:
-  - src_20260616_0e684368
-  - src_20260616_5f991553
-  - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
+- src_20260616_18764078-yitang-tob-five-step-19-images-ocr
 tags:
-  - '#method/evaluation-method'
-  - '#domain/yitang'
-  - '#domain/b2b'
-  - '#content-format/framework'
-  - '#topic/demand-analysis'
-  - '#topic/market-sizing'
+- '#method/evaluation-method'
+- '#domain/yitang'
+- '#domain/b2b'
+- '#content-format/framework'
+- '#topic/demand-analysis'
+- '#topic/market-sizing'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 徐剑
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.78
 trust_level: medium-high
 related:
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-unit-model-three-tools]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-lean-assumption-prioritization]]'
-  - '[[yt-lean-growth-stage-gate]]'
-  - '[[yt-tob-revenue-is-customer-cost]]'
-  - '[[yt-tob-demand-scenarios]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-unit-model-three-tools]]'
+- '[[yt-business-formula-business-pattern-selector]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-lean-assumption-prioritization]]'
+- '[[yt-lean-growth-stage-gate]]'
+- '[[yt-tob-revenue-is-customer-cost]]'
+- '[[yt-tob-demand-scenarios]]'
 diagnostic_signals:
-  - signal: 讲不清目标客户每年在类似事项上花多少钱，只能用"行业很大"说服自己
-    framework_lens: 成本占有率
-    follow_up_question: 该需求对应客户成本结构中的哪一项？历史占比是否稳定、是否可持续？
-  - signal: 把行业总产值直接当作自己的市场规模
-    framework_lens: 业务天花板
-    follow_up_question: 单家目标客户为此付出的专项成本是多少？我能切到的占有率上限是多少？同类客户又有多少家？
-  - signal: 客户决策链长、成交慢，但团队仍按 To C 的"情绪价值"逻辑推销
-    framework_lens: To B 收入本质
-    follow_up_question: 我们帮客户省下的成本或创造的收入，能否用客户听得懂的数字呈现并传导给决策者？
+- signal: 讲不清目标客户每年在类似事项上花多少钱，只能用"行业很大"说服自己
+  framework_lens: 成本占有率
+  follow_up_question: 该需求对应客户成本结构中的哪一项？历史占比是否稳定、是否可持续？
+- signal: 把行业总产值直接当作自己的市场规模
+  framework_lens: 业务天花板
+  follow_up_question: 单家目标客户为此付出的专项成本是多少？我能切到的占有率上限是多少？同类客户又有多少家？
+- signal: 客户决策链长、成交慢，但团队仍按 To C 的"情绪价值"逻辑推销
+  framework_lens: To B 收入本质
+  follow_up_question: 我们帮客户省下的成本或创造的收入，能否用客户听得懂的数字呈现并传导给决策者？
 ---
 
 > "我们做 To B 的，你的收入就是你服务对象的成本。" ——徐剑，To B 五步法口述稿 §需求测算（oral ~1366-1577）；课堂笔记 §2 亦将"成本占有率 + 业务天花板"列为需求测算双指标。

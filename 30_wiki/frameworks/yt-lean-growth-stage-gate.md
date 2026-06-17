@@ -2,15 +2,12 @@
 id: yt-lean-growth-stage-gate
 title: 增长阶段标志：单元模型成立 + 找到增长渠道
 type: framework
-status: enriched
+status: draft
 domain:
 - yitang
 - entrepreneurship
 - business-strategy
-source_refs:
-- src_20260616_b1e25c49
-- src_20260616_7dc80216
-- src_20260616_6c8b240b
+source_refs: []
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'
@@ -19,12 +16,12 @@ tags:
 - '#topic/unit-model'
 - '#topic/channel-validation'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
-confidence: 0.80
-trust_level: high
+confidence: 0.65
+trust_level: low
 related:
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-entrepreneur-key-hypotheses]]'

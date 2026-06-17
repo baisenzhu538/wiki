@@ -4062,12 +4062,12 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 
 ### 完成标准
 
-- [ ] 33 张卡全部处理完毕
-- [ ] 每张卡的 source_refs 中无 hash 前缀
-- [ ] 所有保留的 source_refs 指向真实存在的文件
-- [ ] 降级的卡 status=draft，confidence ≤ 0.65
-- [ ] 运行 `python 90_control/scripts/kcard-quality-gate.py` 后 P0=0、YAML errors=0
-- [ ] 清单写入 `60_feedback/corrections/kf-021-laowantong-cleanup-2026-06-15.md`
+- [x] 33 张卡全部处理完毕
+- [x] 每张卡的 source_refs 中无 hash 前缀
+- [x] 所有保留的 source_refs 指向真实存在的文件
+- [x] 降级的卡 status=draft，confidence ≤ 0.65
+- [x] 运行 `python 90_control/scripts/kcard-quality-gate.py` 后 P0=0、YAML errors=0
+- [x] 清单写入 `60_feedback/corrections/kf-021-laowantong-cleanup-2026-06-15.md`
 
 ---
 

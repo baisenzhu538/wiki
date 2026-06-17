@@ -2,42 +2,42 @@
 id: yt-lean-flower-mom-group-leader
 title: 生活鲜花宝妈团长：拆C端与小B的分阶段验证
 type: case
-status: enriched
-domain: [yitang, entrepreneurship, business-strategy]
-source_refs:
-  - src_20260616_b1e25c49
-  - src_20260616_7dc80216
-  - src_20260616_6c8b240b
+status: draft
+domain:
+- yitang
+- entrepreneurship
+- business-strategy
+source_refs: []
 tags:
-  - '#method/evaluation-method'
-  - '#domain/yitang'
-  - '#content-format/case'
-  - '#topic/lean-validation'
-  - '#topic/mvp'
+- '#method/evaluation-method'
+- '#domain/yitang'
+- '#content-format/case'
+- '#topic/lean-validation'
+- '#topic/mvp'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
-confidence: 0.75
-trust_level: medium-high
+confidence: 0.65
+trust_level: low
 related:
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[skill-一堂-hypothesis-validation-three-axe]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[case-yitang-weekly-modeling-engine]]'
+- '[[yt-entrepreneur-lean-validation]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[concept-一堂-key-assumptions]]'
+- '[[skill-一堂-hypothesis-validation-three-axe]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[case-yitang-weekly-modeling-engine]]'
 diagnostic_signals:
-  - signal: 把"主理人妈妈"既当C端消费者又当小B分销者混为一谈，只测总订单量。
-    framework_lens: 角色未拆分，违反了五步法中"需求假设需先拆用户、场景、问题"的原则；小B与C端的动机、付费逻辑完全不同。
-    follow_up_question: 我能否把"自购用户"与"分销团长"拆成两张用户画像，分别列出她们的用户/场景/问题？
-  - signal: 第一轮就铺量招募团长、搭建供应链，却没人愿意开团。
-    framework_lens: 跳过了"意愿"这个前置假设，直接用重资产测试"商业模式"，属于过早固化。
-    follow_up_question: 在没租仓库、没做小程序之前，能否先用3-5个种子妈妈人工跑一轮分销，验证她们是否真愿意帮人买花？
-  - signal: 团长早期热情高，但两周后不再发团，却归咎于激励不够。
-    framework_lens: 把留存问题简单归因于"激励"，忽略了"持续分销"本身需要验证；留存是比意愿更硬的信号。
-    follow_up_question: 除了佣金，团长持续开团还需要哪些支撑（素材、社群互动、损耗兜底）？哪些可通过低成本的定性访谈先排除？
+- signal: 把"主理人妈妈"既当C端消费者又当小B分销者混为一谈，只测总订单量。
+  framework_lens: 角色未拆分，违反了五步法中"需求假设需先拆用户、场景、问题"的原则；小B与C端的动机、付费逻辑完全不同。
+  follow_up_question: 我能否把"自购用户"与"分销团长"拆成两张用户画像，分别列出她们的用户/场景/问题？
+- signal: 第一轮就铺量招募团长、搭建供应链，却没人愿意开团。
+  framework_lens: 跳过了"意愿"这个前置假设，直接用重资产测试"商业模式"，属于过早固化。
+  follow_up_question: 在没租仓库、没做小程序之前，能否先用3-5个种子妈妈人工跑一轮分销，验证她们是否真愿意帮人买花？
+- signal: 团长早期热情高，但两周后不再发团，却归咎于激励不够。
+  framework_lens: 把留存问题简单归因于"激励"，忽略了"持续分销"本身需要验证；留存是比意愿更硬的信号。
+  follow_up_question: 除了佣金，团长持续开团还需要哪些支撑（素材、社群互动、损耗兜底）？哪些可通过低成本的定性访谈先排除？
 ---
 
 > 当一个用户同时是消费者和分销者时，最大的风险不是产品不好，而是你把两种角色当成同一种用户在验证。—— 张磊 AMA Q5（`src_20260616_b1e25c49`）

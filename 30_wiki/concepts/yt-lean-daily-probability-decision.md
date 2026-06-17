@@ -1,42 +1,41 @@
 ---
-
 id: yt-lean-daily-probability-decision
 title: 假设驱动日常决策三问
-type: "concept"
-status: enriched
-domain: [yitang, entrepreneurship, business-strategy]
-source_refs:
-  - src_20260616_b1e25c49
-  - src_20260616_59f708ea
-  - src_20260616_e66bd149
+type: concept
+status: draft
+domain:
+- yitang
+- entrepreneurship
+- business-strategy
+source_refs: []
 tags:
-  - '#method/evaluation-method'
-  - '#domain/yitang'
-  - '#content-format/framework'
-  - '#content-format/skill'
+- '#method/evaluation-method'
+- '#domain/yitang'
+- '#content-format/framework'
+- '#content-format/skill'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
-confidence: 0.85
-trust_level: high
+confidence: 0.65
+trust_level: low
 related:
-  - '[[yt-entrepreneur-lean-validation]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[skill-一堂-hypothesis-validation-three-axe]]'
-  - '[[concept-一堂-key-assumptions]]'
-  - '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-entrepreneur-lean-validation]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[skill-一堂-hypothesis-validation-three-axe]]'
+- '[[concept-一堂-key-assumptions]]'
+- '[[yt-entrepreneur-five-step-method]]'
 diagnostic_signals:
-  - signal: 每天早上列待办时，分不清哪些任务对应致命假设、哪些只是优化项
-    framework_lens: 假设驱动日常决策三问 / 敬畏概率
-    follow_up_question: 这件事如果错了，会导致整个方向崩盘还是只损失局部效率？
-  - signal: 团队频繁陷入"完善方案→推翻重做"的循环，验证前投入过大
-    framework_lens: FALSE 模型 / 征服概率
-    follow_up_question: 这个认知能否用当前 10% 的成本拿到？最便宜的验证手段是什么？
-  - signal: 同时推进多条线，资源分散在低风险环节，高风险假设被延后
-    framework_lens: 关键假设排序 / 分析概率
-    follow_up_question: 这些任务中，哪一个背后的假设一旦被证伪，整个项目就废了？
+- signal: 每天早上列待办时，分不清哪些任务对应致命假设、哪些只是优化项
+  framework_lens: 假设驱动日常决策三问 / 敬畏概率
+  follow_up_question: 这件事如果错了，会导致整个方向崩盘还是只损失局部效率？
+- signal: 团队频繁陷入"完善方案→推翻重做"的循环，验证前投入过大
+  framework_lens: FALSE 模型 / 征服概率
+  follow_up_question: 这个认知能否用当前 10% 的成本拿到？最便宜的验证手段是什么？
+- signal: 同时推进多条线，资源分散在低风险环节，高风险假设被延后
+  framework_lens: 关键假设排序 / 分析概率
+  follow_up_question: 这些任务中，哪一个背后的假设一旦被证伪，整个项目就废了？
 ---
 
 > "三个每天的拷问：你在想这个事情做错了会不会死？这个事情是不是致命的假设？我能不能拿更低的成本来验证这个假设？"  

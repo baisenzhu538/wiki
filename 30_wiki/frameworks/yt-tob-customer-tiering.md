@@ -2,46 +2,48 @@
 id: yt-tob-customer-tiering
 title: To B 客户分层：头部、腰部、腿部
 type: framework
-status: enriched
-domain: [yitang, entrepreneurship, b2b, business-strategy]
-source_refs:
-  - src_20260616_0e684368
-  - src_20260616_5f991553
+status: draft
+domain:
+- yitang
+- entrepreneurship
+- b2b
+- business-strategy
+source_refs: []
 tags:
-  - '#method/evaluation-method'
-  - '#domain/yitang'
-  - '#domain/b2b'
-  - '#content-format/framework'
+- '#method/evaluation-method'
+- '#domain/yitang'
+- '#domain/b2b'
+- '#content-format/framework'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 徐剑
 reviewed_by: 老顽童
 review_date: '2026-06-16'
-confidence: 0.85
-trust_level: high
+confidence: 0.65
+trust_level: low
 related:
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-unit-model-three-tools]]'
-  - '[[yt-business-formula-business-pattern-selector]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[yt-management-business-formula]]'
-  - '[[yt-lean-assumption-prioritization]]'
-  - '[[yt-tob-revenue-is-customer-cost]]'
-  - '[[yt-tob-solution-model]]'
-  - '[[yt-tob-demand-metrics]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-unit-model-three-tools]]'
+- '[[yt-business-formula-business-pattern-selector]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[yt-management-business-formula]]'
+- '[[yt-lean-assumption-prioritization]]'
+- '[[yt-tob-revenue-is-customer-cost]]'
+- '[[yt-tob-solution-model]]'
+- '[[yt-tob-demand-metrics]]'
 diagnostic_signals:
-  - signal: 同一产品试图同时满足大企业、中型企业和小微企业，销售与交付流程反复打架
-    framework_lens: 客户分层（头部/腰部/腿部）
-    follow_up_question: 当前方案分别对应哪类客户的决策链、付费能力和交付周期？是否必须切分客户或切分产品版本？
-  - signal: 大客户项目定制化程度高、账期长，而小客户客单价低、流失快，利润都被两头吃掉
-    framework_lens: 客户分层与单元模型匹配
-    follow_up_question: 三类客户的数量级、需求复杂度、付费特征是否与当前的单元模型和现金流结构匹配？
-  - signal: 团队对不同客户说同一套价值主张，但成交率差异极大
-    framework_lens: 分层后的价值传递
-    follow_up_question: 头部/腰部/腿部客户各自的核心诉求是风险、效果还是投入产出比？卖点是否对齐？
-  - signal: 行业看起来分散（如百万级小微企业），但业务目标要求利润或标杆，导致找不到足够大的“头部”
-    framework_lens: 行业集中度与业务目标交叉判断
-    follow_up_question: 在目标细分场景里，真正符合业务目标的客户数量是多少？是按行业总企业数分层，还是按可服务的有效客户数分层？
+- signal: 同一产品试图同时满足大企业、中型企业和小微企业，销售与交付流程反复打架
+  framework_lens: 客户分层（头部/腰部/腿部）
+  follow_up_question: 当前方案分别对应哪类客户的决策链、付费能力和交付周期？是否必须切分客户或切分产品版本？
+- signal: 大客户项目定制化程度高、账期长，而小客户客单价低、流失快，利润都被两头吃掉
+  framework_lens: 客户分层与单元模型匹配
+  follow_up_question: 三类客户的数量级、需求复杂度、付费特征是否与当前的单元模型和现金流结构匹配？
+- signal: 团队对不同客户说同一套价值主张，但成交率差异极大
+  framework_lens: 分层后的价值传递
+  follow_up_question: 头部/腰部/腿部客户各自的核心诉求是风险、效果还是投入产出比？卖点是否对齐？
+- signal: 行业看起来分散（如百万级小微企业），但业务目标要求利润或标杆，导致找不到足够大的“头部”
+  framework_lens: 行业集中度与业务目标交叉判断
+  follow_up_question: 在目标细分场景里，真正符合业务目标的客户数量是多少？是按行业总企业数分层，还是按可服务的有效客户数分层？
 ---
 
 > **核心观点**：To B 业务最糙、最基础也最通用的客户划分，是按客户数量级切成三层——头部（千级以下）、腰部（几万到几十万）、腿部（百万级以上）。不同层级的需求复杂度、决策机制、合作重点和付费特征差异显著，选择服务哪一层应先于产品设计。——徐剑《To B 五步法》口述稿（约 867–980 行）及课堂笔记 §2

@@ -2,15 +2,12 @@
 id: yt-lean-false-model-ai
 title: FALSE模型在AI时代的加速应用
 type: framework
-status: enriched
+status: draft
 domain:
 - yitang
 - entrepreneurship
 - business-strategy
-source_refs:
-- src_20260616_b1e25c49
-- src_20260616_7dc80216
-- src_20260616_6c8b240b
+source_refs: []
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'
@@ -22,8 +19,8 @@ updated_at: '2026-06-17'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-17'
-confidence: 0.75
-trust_level: medium-high
+confidence: 0.65
+trust_level: low
 diagnostic_signals:
 - signal: 团队开始用 AI 生成大量素材，但说不清楚当前要验证哪个关键假设。
   framework_lens: FALSE 模型 + 一堂关键假设拆解

@@ -8,7 +8,7 @@ source_refs:
 status: stable
 title: 花总AMA按行业分类整理（商业突破大航海）
 type: concept
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 pipeline:
 - confidence-source-cited
 - confidence-verified-by-case

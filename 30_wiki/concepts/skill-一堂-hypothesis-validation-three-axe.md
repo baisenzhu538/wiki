@@ -1,41 +1,58 @@
 ---
-
 id: skill-一堂-hypothesis-validation-three-axe
-title: 技能：假设验证三板斧
-type: "tool"
-status: draft
+title: "技能：假设验证三板斧"
+type: tool
+status: enriched
 domain:
-- product
-- yitang
+  - product
+  - yitang
 source_person: Truman
 source_context: 一堂关键假设课
 source_refs:
-- 00_inbox/一堂-关键假设课-truman-口述.txt
-- 00_inbox/一堂-关键假设课-truman-笔记.txt
+  - 00_inbox/一堂-关键假设课-truman-口述.txt
+  - 00_inbox/一堂-关键假设课-truman-笔记.txt
 tools_required:
-- 259商业分析画布（可用纸笔/文档代替）
-- 用户访谈或问卷工具（可选）
+  - 259商业分析画布（可用纸笔/文档代替）
+  - 用户访谈或问卷工具（可选）
 prerequisite_skills:
-- concept-一堂-key-assumptions
-- skill-一堂-five-step-validation
+  - concept-一堂-key-assumptions
+  - skill-一堂-five-step-validation
 related:
-- '[[concept-一堂-key-assumptions]]'
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[skill-一堂-five-step-validation]]'
-- '[[case-一堂-无人餐厅-hypothesis-failure]]'
-- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
+  - "[[concept-一堂-key-assumptions]]"
+  - "[[concept-一堂-hypothesis-driven-business-methodology]]"
+  - "[[skill-一堂-five-step-validation]]"
+  - "[[case-一堂-无人餐厅-hypothesis-failure]]"
+  - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
+  - "[[master-antifragile-checklist]]"
+  - "[[contingency-decision-making]]"
 wiki_refs:
-- '[[concept-一堂-key-assumptions]]'
-- '[[skill-一堂-five-step-validation]]'
-created_at: 2026-06-10
-updated_at: '2026-06-16'
+  - "[[concept-一堂-key-assumptions]]"
+  - "[[skill-一堂-five-step-validation]]"
+created_at: "2026-06-10"
+updated_at: "2026-06-17"
 pipeline:
-- confidence-draft
-- confidence-source-cited
+  - confidence-draft
+  - confidence-source-cited
 author: 老顽童
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "创业启动前不知道验证什么"
+    lens: "加法缺失"
+    follow_up: "用259工具逐层拆解业务全要素，确保没有漏网"
+  - signal: "验证了很多假设但业务还是失败"
+    lens: "减法排序错误"
+    follow_up: "检查排序标准是否按前置性+风险而非个人关心度"
+  - signal: "验证成本太高，团队负担不起"
+    lens: "验证成本失控"
+    follow_up: "验证成本必须≤失败损失的1/10，用问卷/访谈/假产品替代完整产品"
+  - signal: "发现前置假设不成立但还在继续投入"
+    lens: "否定信号被忽略"
+    follow_up: "前置假设被否定=业务需终止或重大调整，立即复盘"
+  - signal: "产品没跑通就在验证能不能扩大"
+    lens: "价值/增长假设混淆"
+    follow_up: "先验证价值假设，再验证增长假设，顺序不可颠倒"
 ---
 # 技能：假设验证三板斧
 
@@ -57,18 +74,32 @@ trust_level: low
 3. **快速验证：用最小成本测试** — 对每个关键假设设计1-2周的验证实验。方法例子：需求假设→用问卷+访谈验证；产品假设→用假产品/MVP验证；商业模式假设→用单店模型验证。原则：验证成本不超过该假设失败后损失的1/10
 4. **记录验证结果并迭代** — 每个假设标注"已证实/已否定/待验证"。已否定的假设如果是前置性假设，业务需要终止或大幅调整。已证实的假设转入下一轮验证
 
-## 适用场景
+## Constraints & Boundaries
 
-- ✅ 创业项目启动前确定要验证什么、以什么顺序验证
-- ✅ 业务遇到瓶颈时，需要检查哪个前提假设可能不成立
-- ✅ 投资决策前验证创业项目的核心假设
-- ✅ 团队对业务方向有分歧，需要用结构化方法检视前提条件
+### 适用边界
 
-## 不适用场景
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 创业项目启动前确定验证顺序和优先级 |
+| ✅ 适合 | 业务遇到瓶颈时检查哪个前提假设可能不成立 |
+| ✅ 适合 | 投资决策前验证创业项目的核心假设 |
+| ✅ 适合 | 团队对业务方向有分歧需要结构化检视 |
+| ❌ 不适合 | 高度确定性业务（已有明确合同的B2B） → 假设已被客户验证 |
+| ❌ 不适合 | 时间窗口极窄的救火项目 → 无法完成加减法流程 |
+| ❌ 不适合 | 单点创新/革命性业务（从0到1） → 无法被预先拆解，用探索式验证 |
+| ❌ 不适合 | 团队对框架本身有争议 → 先统一框架再使用三板斧 |
 
-- ❌ 高度确定性的业务（如已有明确合同的B2B项目，假设已被客户验证）
-- ❌ 时间窗口极窄的救火项目（无法完成加减法流程）
-- ❌ 单点创新项目（无前人经验可参考，拆解框架本身就是假设）
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **加法不彻底** | 只拆解自己关心的层，漏掉其他环节前提假设 | 必须用框架系统性地拆解，不能只拆熟悉的部分 |
+| **减法排序不对** | 按"我关心的"而非"前置性+风险"排序 | 排序时问：这个假设不成立，整个业务会倒吗？ |
+| **验证成本过高** | 一上来就做完整产品验证假设 | 验证成本≤失败损失的1/10，用问卷/访谈/假产品 |
+| **忽略否定信号** | 发现前置假设不成立还继续投入 | 前置假设被否定=业务需终止或重大调整 |
+| **价值/增长混淆** | 产品没跑通就验证"能不能扩大" | 先验证价值假设，再验证增长假设，顺序不可颠倒 |
+| **框架迷信** | 认为用了三板斧就"考虑全面"，忽视未知未知 | 每轮验证后问：还有什么是我没想到的？ |
+| **团队权力污染** | 排序过程被内部权力结构影响而非真实风险判断 | 引入外部评审或匿名打分，隔离权力影响 |
 
 ## 工具/环境
 

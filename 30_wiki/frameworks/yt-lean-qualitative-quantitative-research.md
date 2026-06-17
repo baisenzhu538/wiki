@@ -2,7 +2,7 @@
 id: yt-lean-qualitative-quantitative-research
 title: 定性调研与定量调研的边界：证伪优先、阶段匹配
 type: framework
-status: enriched
+status: draft
 domain:
 - yitang
 - entrepreneurship
@@ -11,12 +11,10 @@ author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
-confidence: 0.82
-trust_level: high
-source_refs:
-- src_20260616_b1e25c49
-- src_20260616_6c8b240b
+updated_at: '2026-06-17'
+confidence: 0.65
+trust_level: low
+source_refs: []
 source_context: Q1第六、七节关于专项调研与用户访谈的区别、验证指标与产品形态的关系
 tags:
 - '#method/evaluation-method'

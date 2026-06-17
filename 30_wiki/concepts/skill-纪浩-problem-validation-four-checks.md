@@ -1,40 +1,58 @@
 ---
-
 id: skill-纪浩-problem-validation-four-checks
-title: 技能：四问验证法 —— 判断需求是真实Problem还是伪需求
-type: "tool"
-status: draft
+title: "技能：四问验证法 —— 判断需求是真实Problem还是伪需求"
+type: tool
+status: enriched
 domain:
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - yitang
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
-- 00_inbox/纪浩-AI协作方法论-口述.md
-created_at: 2026-06-09
-updated_at: '2026-06-16'
+  - 00_inbox/纪浩-AI协作方法论-口述.md
+created_at: "2026-06-09"
+updated_at: "2026-06-17"
 related:
-- '[[case-纪浩-skill-market-problem-validation]]'
-- '[[dk-纪浩-problem-vs-question]]'
+  - "[[case-纪浩-skill-market-problem-validation]]"
+  - "[[dk-纪浩-problem-vs-question]]"
+  - "[[skill-一堂-hypothesis-validation-three-axe]]"
+  - "[[skill-一堂-product-kernel-canvas]]"
+  - "[[contingency-decision-making]]"
 wiki_refs:
-- '[[case-纪浩-skill-market-problem-validation]]'
-- '[[dk-纪浩-problem-vs-question]]'
+  - "[[case-纪浩-skill-market-problem-validation]]"
+  - "[[dk-纪浩-problem-vs-question]]"
 definition_of_done:
-- 技能有明确的Actionable Steps
-- 有关键要点解读
-- 有常见失误和解决方案
-- 有相关案例
-- 有关联概念
-- 有关联其他skill
-- Constraints或局限性
-- ≥2位外部攻击者
+  - 技能有明确的Actionable Steps
+  - 有关键要点解读
+  - 有常见失误和解决方案
+  - 有相关案例
+  - 有关联概念
+  - 有关联其他skill
+  - Constraints或局限性
+  - ≥2位外部攻击者
 pipeline:
-- confidence-published
-- confidence-source-cited
-author: 纪浩
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+  - confidence-published
+  - confidence-source-cited
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "用户说'如果有XX就好了'但说不清Before/After"
+    lens: "伪需求识别"
+    follow_up: "执行Step 1：要求用户描述解决前后的具体行为变化，说不清=想象需求"
+  - signal: "团队对需求有分歧，有人支持有人反对"
+    lens: "需求真实性争议"
+    follow_up: "用四问逐一验证，任何一问答案不满意=伪需求，需重新定义"
+  - signal: "方案很好但用户不买单"
+    lens: "因果链断裂"
+    follow_up: "检查Step 4因果链：每个环节是否有具体能力/资源支撑？缺了哪个环节？"
+  - signal: "项目执行到一半发现方向错了"
+    lens: "四问未迭代"
+    follow_up: "每达到一个里程碑回顾四问，Problem定义随信息增加而演化"
+  - signal: "上级强制指派的需求，团队被动执行"
+    lens: "强制性任务"
+    follow_up: "四问对强制需求可能走过场，改问：如果可以选择不做，这个需求还值得做吗？"
 ---
 # 技能：四问验证法
 
@@ -132,11 +150,32 @@ trust_level: low
 
 - **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
 
-## Constraints / 局限性
+## Constraints & Boundaries
 
-1. **需要一定的信息收集时间：** 如果对业务不够了解，四问可能回答不出来。需要先做调研。
-2. **不适用于强制性任务：** 如果需求来自上级强制指派，四问可能只是走过场。
-3. **不能替代市场验证：** 四问只能判断"是不是真需求"，不能判断"市场大不大"。
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 创业项目启动前判断需求真实性 |
+| ✅ 适合 | 团队对需求有分歧需要结构化验证 |
+| ✅ 适合 | 业务遇到瓶颈时检查是否解决了错的问题 |
+| ✅ 适合 | 有≥1周时间做需求调研和信息收集 |
+| ❌ 不适合 | 强制性任务（上级指派） → 四问可能走过场，改问"如果可选不做还值得做吗" |
+| ❌ 不适合 | 时间窗口极窄（<3天） → 四问需要信息收集时间，来不及做完整验证 |
+| ❌ 不适合 | 判断"市场大不大" → 四问只验证"是不是真需求"，不验证市场规模 |
+| ❌ 不适合 | 纯情感/潜在欲望类创新 → 用户自己说不清楚的需求，四问可能过滤掉真正创新 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **用"谁需要"代替"是不是真需要" | 有需求就认为是真实需求 | 必须用四问逐一验证，而非直接采纳 |
+| **四问通过后不做记录** | 验证完就忘，项目走偏无法回溯 | 将四问答案写成文档，作为项目"出生证明" |
+| **四问只做一次** | 项目执行到一半发现方向错了 | 每达到一个里程碑回顾四问，Problem定义随信息演化 |
+| **信息不足硬答** | 对业务不够了解，四问回答不出来 | 先做调研，信息不足时标注"待验证"而非强行回答 |
+| **敏捷反噬** | 认为四问太慢，直接做MVP | 四问+MVP不矛盾：四问定方向，MVP验假设，各负责不同环节 |
+| **设计思维冲突** | 四问过滤掉用户情感需求 | 四问后加一步：用户情感动机是什么？是否被满足？ |
+| **因果链过度乐观** | 认为每个环节都有支撑，实际缺资源 | 每个环节必须具体到：谁、用什么、在什么时候、花多少 |
 
 ## 外部攻击
 

@@ -3,8 +3,8 @@
 **扫描时间**：2026-06-15  
 **扫描范围**：30_wiki 全库 1193 张卡片  
 **P0 阻塞问题卡片**：0 张  
-**P1 修复问题卡片**：0 张  
-**完全干净卡片**：1193 张  
+**P1 修复问题卡片**：18 张  
+**完全干净卡片**：1175 张  
 **YAML 解析错误**：0 张  
 
 ---
@@ -17,7 +17,26 @@
 
 ## P1 修复问题清单
 
-无 P1 修复问题。
+| 文件 | P1 问题 |
+|---|---|
+| `cases\yt-lean-beauty-store-conversion.md` | source_refs 为空 |
+| `cases\yt-lean-daily-chemical-mvp.md` | source_refs 为空 |
+| `cases\yt-lean-flower-mom-group-leader.md` | source_refs 为空 |
+| `concepts\yt-lean-daily-probability-decision.md` | source_refs 为空 |
+| `concepts\yt-lean-essence.md` | source_refs 为空 |
+| `concepts\yt-tob-cash-flow.md` | source_refs 为空 |
+| `concepts\yt-tob-revenue-is-customer-cost.md` | source_refs 为空 |
+| `frameworks\yt-lean-assumption-prioritization.md` | source_refs 为空 |
+| `frameworks\yt-lean-assumption-verification-3means.md` | source_refs 为空 |
+| `frameworks\yt-lean-b2b-b2c-hardware-content-testing.md` | source_refs 为空 |
+| `frameworks\yt-lean-consumer-deep-experience-testing.md` | source_refs 为空 |
+| `frameworks\yt-lean-false-model-ai.md` | source_refs 为空 |
+| `frameworks\yt-lean-growth-stage-gate.md` | source_refs 为空 |
+| `frameworks\yt-lean-qualitative-quantitative-research.md` | source_refs 为空 |
+| `frameworks\yt-tob-core-characteristics.md` | source_refs 为空 |
+| `frameworks\yt-tob-customer-tiering.md` | source_refs 为空 |
+| `frameworks\yt-tob-demand-scenarios.md` | source_refs 为空 |
+| `frameworks\yt-tob-product-kernel.md` | source_refs 为空 |
 
 ---
 

@@ -1,5 +1,4 @@
 ---
-
 id: yt-tob-customer-sabc
 title: To B 客户 SABC 自定义切分法
 type: tool
@@ -10,9 +9,7 @@ domain:
 - b2b
 - business-strategy
 source_refs:
-  - src_20260616_0e684368
-  - src_20260616_5f991553
-  - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
+- src_20260616_18764078-yitang-tob-five-step-19-images-ocr
 tags:
 - '#method/evaluation-method'
 - '#method/thinking-tool'
@@ -20,12 +17,12 @@ tags:
 - '#domain/b2b'
 - '#content-format/framework'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 徐剑
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.78
-trust_level: high
+trust_level: medium
 related:
 - '[[yt-tob-customer-tiering]]'
 - '[[yt-tob-demand-scenarios]]'

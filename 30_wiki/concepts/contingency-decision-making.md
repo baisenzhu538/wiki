@@ -1,34 +1,52 @@
 ---
-
 id: contingency-decision-making
+title: "偶然性与决策：承认'我不知道'比虚假确定性更明智"
 type: concept
 domain:
-- ai-saas
-- management
-- decision-making
-- yitang
-status: draft
+  - ai-saas
+  - management
+  - decision-making
+  - yitang
+status: enriched
 source_refs:
   - src_20260606_cde17edd-大的事件它可能是必然的它是被计划的
 component_of: null
 related:
-- '[[ai-collaboration-mindset-shift]]'
-- '[[ai-landing-scene-selection]]'
+  - "[[ai-collaboration-mindset-shift]]"
+  - "[[ai-landing-scene-selection]]"
+  - "[[find-old-do-small]]"
+  - "[[master-antifragile-checklist]]"
+  - "[[master-knowledge-compound]]"
 query_triggers:
-- 决策为什么总是出错
-- 偶然性怎么应对
-- 为什么计划赶不上变化
-- 专家预测为什么不准
-reviewed_by: null
+  - 决策为什么总是出错
+  - 偶然性怎么应对
+  - 为什么计划赶不上变化
+  - 专家预测为什么不准
+reviewed_by: 欧阳锋
 pipeline:
-- confidence-draft
-- confidence-source-cited
-author: unknown
-created_at: 2026-06-15
-confidence: 0.7
-trust_level: low
-title: contingency decision making
-updated_at: '2026-06-16'
+  - confidence-draft
+  - confidence-source-cited
+author: 老顽童
+created_at: "2026-06-15"
+updated_at: "2026-06-17"
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "做出重大决策后感觉很'确定'"
+    lens: "虚假确定性"
+    follow_up: "强制问自己：如果这件事完全错了，我最可能忽略了什么？找到至少1个被忽略因素"
+  - signal: "计划过于完美，没有留出buffer"
+    lens: "冗余缺失"
+    follow_up: "在时间表/预算中强制加入20%冗余，冗余被消耗比例<50%"
+  - signal: "听到一个'很有道理'的故事"
+    lens: "叙事陷阱"
+    follow_up: "问自己：这个故事的反面版本是什么？能讲出至少1个反面故事"
+  - signal: "专家预测又错了"
+    lens: "预测幻觉"
+    follow_up: "区分风险（概率已知）vs不确定性（机制未知），后者不可预测只能准备"
+  - signal: "组织中没人敢承认不知道"
+    lens: "政治资本缺失"
+    follow_up: "检查组织文化：CEO说不知道=坦诚，中层说不知道=无能？建立心理安全"
 ---
 # 偶然性与决策：承认"我不知道"比虚假确定性更明智
 
@@ -64,9 +82,30 @@ updated_at: '2026-06-16'
 
 ## Constraints & Boundaries
 
-- **claim:boundary-01 [conf=0.75] 行动悖论**：本框架强调"承认未知"，但组织决策往往需要"给出确定答案"。
-- **claim:boundary-02 [conf=0.70] 冗余成本**：留有冗余需要资源投入（时间、金钱、精力），资源有限时难以执行。
-- **claim:boundary-03 [conf=0.65] 叙事依赖**：如果所有人都依赖叙事做决策，可能导致"叙事泡沫"——故事自我强化直到崩溃。
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 复杂系统决策（多变量、非线性、不可预测） |
+| ✅ 适合 | 有≥3个月时间窗口可以留出冗余 |
+| ✅ 适合 | 组织已有心理安全文化（承认不知道不会被惩罚） |
+| ✅ 适合 | 需要区分"风险"（概率已知）vs"不确定性"（机制未知） |
+| ❌ 不适合 | 需要快速决策的危机 → 用预案+授权机制，而非讨论不确定性 |
+| ❌ 不适合 | 资源极度紧张 → 接受更高风险，但设计"快速退出"机制 |
+| ❌ 不适合 | 团队缺乏心理安全感 → 先建立信任文化，再引入不确定性框架 |
+| ❌ 不适合 | 简单重复性决策（概率已知） → 用统计方法而非叙事分析 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **行动悖论** | 强调"承认未知"但组织要求"给出确定答案" | 区分"对内认知"和"对外表达"：内部承认未知，外部给出概率区间 |
+| **冗余成本** | 资源紧张时冗余最先被削减 | 把冗余定义为"选择权时间价值"，定期评估启用条件 |
+| **叙事泡沫** | 所有人都依赖叙事，故事自我强化直到崩溃 | 每轮叙事后强制讲反面故事，引入外部评审打破共识 |
+| **反脆弱混淆** | 把冗余当成反脆弱，只抗冲击不成长 | 区分坚韧（不变）vs反脆弱（更强），冗余只是坚韧 |
+| **政治资本错配** | CEO说不知道=坦诚，中层说不知道=无能 | 建立层级无关的"承认不知道"奖励机制 |
+| **后见之明** | 事情发生后感觉"必然"，忽视偶然性 | 决策时写下：如果这件事完全错了，我最可能忽略了什么？ |
+| **叙事依赖过度** | 用故事替代逻辑，决策质量下降 | 故事+数据双轨：先用故事对齐情感，再用数据验证逻辑 |
 
 ## Critique
 

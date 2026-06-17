@@ -2,16 +2,12 @@
 id: yt-lean-assumption-prioritization
 title: 关键假设排序：前置优先、风险高的优先
 type: framework
-status: enriched
+status: draft
 domain:
 - yitang
 - entrepreneurship
 - business-strategy
-source_refs:
-- src_20260616_b1e25c49
-- src_20260616_6c8b240b
-- src_20260616_e66bd149
-- src_20260616_7dc80216
+source_refs: []
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'
@@ -19,12 +15,12 @@ tags:
 - '#topic/lean-startup'
 - '#topic/hypothesis-validation'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 张磊
 reviewed_by: 老顽童
 review_date: '2026-06-16'
-confidence: 0.83
-trust_level: high
+confidence: 0.65
+trust_level: low
 related:
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-entrepreneur-key-hypotheses]]'

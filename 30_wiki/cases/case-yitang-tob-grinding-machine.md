@@ -1,51 +1,49 @@
 ---
-
 id: case-yitang-tob-grinding-machine
 title: 案例：精密磨床自制项目失败复盘
 type: case
 status: enriched
 domain:
-  - yitang
-  - entrepreneurship
-  - b2b
-  - manufacturing
+- yitang
+- entrepreneurship
+- b2b
+- manufacturing
 source_refs:
-  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
-  - src_20260616_0e684368
-  - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
+- src_20260616_aac184cc-yitang-tob-five-step-homework-collection
+- src_20260616_18764078-yitang-tob-five-step-19-images-ocr
 tags:
-  - '#domain/yitang'
-  - '#domain/b2b'
-  - '#domain/manufacturing'
-  - '#content-format/case'
-  - '#topic/market-entry'
-  - '#topic/cross-border'
+- '#domain/yitang'
+- '#domain/b2b'
+- '#domain/manufacturing'
+- '#content-format/case'
+- '#topic/market-entry'
+- '#topic/cross-border'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 蔡留照（一堂学员）
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.68
 trust_level: medium
 related:
-  - '[[yt-tob-demand-metrics]]'
-  - '[[yt-tob-customer-sabc]]'
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-tob-barriers]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-key-hypotheses]]'
-  - '[[case-yitang-tob-artificial-bone]]'
-  - '[[yt-tob-cash-flow]]'
+- '[[yt-tob-demand-metrics]]'
+- '[[yt-tob-customer-sabc]]'
+- '[[yt-tob-unit-model]]'
+- '[[yt-tob-barriers]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
+- '[[case-yitang-tob-artificial-bone]]'
+- '[[yt-tob-cash-flow]]'
 diagnostic_signals:
-  - signal: 项目初期设定“每年 5-15 台、1200 万欧元收入、10% 净利润”的宏大目标。
-    framework_lens: 需求测算与天花板
-    follow_up_question: 这些数字是基于真实客户意向还是基于市场好转的乐观预期？
-  - signal: 德国技术 + 中国床身的组合，在中国市场卖不动。
-    framework_lens: 客户切分与商业模式
-    follow_up_question: 中国用户愿意为“高精度”支付溢价的比例有多高？决策链中有哪些人真正在乎精度？
-  - signal: 销售兼职推竞品、账期风险、新领导要“意思意思”。
-    framework_lens: 单元模型与隐性成本
-    follow_up_question: 如果把关系成本、财务成本、销售不稳定成本计入，单台磨床的真实毛利还是正的吗？
+- signal: 项目初期设定“每年 5-15 台、1200 万欧元收入、10% 净利润”的宏大目标。
+  framework_lens: 需求测算与天花板
+  follow_up_question: 这些数字是基于真实客户意向还是基于市场好转的乐观预期？
+- signal: 德国技术 + 中国床身的组合，在中国市场卖不动。
+  framework_lens: 客户切分与商业模式
+  follow_up_question: 中国用户愿意为“高精度”支付溢价的比例有多高？决策链中有哪些人真正在乎精度？
+- signal: 销售兼职推竞品、账期风险、新领导要“意思意思”。
+  framework_lens: 单元模型与隐性成本
+  follow_up_question: 如果把关系成本、财务成本、销售不稳定成本计入，单台磨床的真实毛利还是正的吗？
 ---
 
 > 来源：一堂 ToB 五步法优秀作业合集，学员蔡留照自述。案例中的财务数字为学员自述，需独立核实关键数据。

@@ -1,43 +1,45 @@
 ---
 id: yt-tob-product-kernel
-title: "To B 产品内核：面向决策者研究付费，面向使用者夯实价值"
+title: To B 产品内核：面向决策者研究付费，面向使用者夯实价值
 type: framework
-status: enriched
-domain: [yitang, entrepreneurship, b2b, business-strategy]
-source_refs:
-  - src_20260616_0e684368
-  - src_20260616_5f991553
+status: draft
+domain:
+- yitang
+- entrepreneurship
+- b2b
+- business-strategy
+source_refs: []
 tags:
-  - "#method/evaluation-method"
-  - "#domain/yitang"
-  - "#domain/b2b"
-  - "#content-format/framework"
-  - "#topic/product-kernel"
-  - "#topic/value-proposition"
+- '#method/evaluation-method'
+- '#domain/yitang'
+- '#domain/b2b'
+- '#content-format/framework'
+- '#topic/product-kernel'
+- '#topic/value-proposition'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 徐剑
 reviewed_by: 老顽童
 review_date: '2026-06-16'
-confidence: 0.85
-trust_level: high
+confidence: 0.65
+trust_level: low
 related:
-  - "[[yt-entrepreneur-five-step-method]]"
-  - "[[yt-entrepreneur-product-core]]"
-  - "[[yt-unit-model-three-tools]]"
-  - "[[yt-business-formula-business-pattern-selector]]"
-  - "[[yt-lean-growth-stage-gate]]"
-  - "[[case-一堂-陈贤敏汉堡-hypothesis-validation]]"
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-entrepreneur-product-core]]'
+- '[[yt-unit-model-three-tools]]'
+- '[[yt-business-formula-business-pattern-selector]]'
+- '[[yt-lean-growth-stage-gate]]'
+- '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 diagnostic_signals:
-  - signal: 团队内部十个销售写卖点，写出的核心卖点各不相同
-    framework_lens: 分阶段多角色卖点缺失；决策链上不同角色未被分别击穿
-    follow_up_question: 我们目前的卖点是否覆盖了首购决策者、复购决策者（可能已变为使用者）以及关键关联方？
-  - signal: 试用反馈很好，但客户就是不买单
-    framework_lens: 产品内核面向使用者而非决策者设计；价值传导在决策层中断
-    follow_up_question: 决策者真正愿意付费的最小解决方案是什么？使用者价值能否被TA感知或量化？
-  - signal: 为了拿下订单过度承诺定制化，导致多客户多代码分支、交付和维护成本飙升
-    framework_lens: 标准化vs项目型判断失误；最小解决方案边界不清
-    follow_up_question: 客户需求中哪些是共性的、可用标准交付覆盖的？哪些必须定制？定制部分能否剥离或转交生态伙伴？
+- signal: 团队内部十个销售写卖点，写出的核心卖点各不相同
+  framework_lens: 分阶段多角色卖点缺失；决策链上不同角色未被分别击穿
+  follow_up_question: 我们目前的卖点是否覆盖了首购决策者、复购决策者（可能已变为使用者）以及关键关联方？
+- signal: 试用反馈很好，但客户就是不买单
+  framework_lens: 产品内核面向使用者而非决策者设计；价值传导在决策层中断
+  follow_up_question: 决策者真正愿意付费的最小解决方案是什么？使用者价值能否被TA感知或量化？
+- signal: 为了拿下订单过度承诺定制化，导致多客户多代码分支、交付和维护成本飙升
+  framework_lens: 标准化vs项目型判断失误；最小解决方案边界不清
+  follow_up_question: 客户需求中哪些是共性的、可用标准交付覆盖的？哪些必须定制？定制部分能否剥离或转交生态伙伴？
 ---
 
 > **"面向使用者夯实价值，面向决策者研究付费。"**  

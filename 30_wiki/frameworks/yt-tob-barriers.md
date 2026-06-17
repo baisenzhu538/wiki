@@ -1,52 +1,49 @@
 ---
-
 id: yt-tob-barriers
 title: To B 业务壁垒：选择、强弱判断与规模不经济对抗
 type: framework
 status: enriched
 domain:
-  - yitang
-  - entrepreneurship
-  - b2b
-  - business-strategy
+- yitang
+- entrepreneurship
+- b2b
+- business-strategy
 source_refs:
-  - src_20260616_0e684368
-  - src_20260616_5f991553
-  - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
-  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
+- src_20260616_18764078-yitang-tob-five-step-19-images-ocr
+- src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 tags:
-  - '#method/evaluation-method'
-  - '#domain/yitang'
-  - '#domain/b2b'
-  - '#content-format/framework'
-  - '#topic/competitive-advantage'
+- '#method/evaluation-method'
+- '#domain/yitang'
+- '#domain/b2b'
+- '#content-format/framework'
+- '#topic/competitive-advantage'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 徐剑
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.82
 trust_level: high
 related:
-  - '[[yt-tob-unit-model]]'
-  - '[[yt-tob-growth-channel]]'
-  - '[[yt-tob-customer-sabc]]'
-  - '[[yt-entrepreneur-five-step-method]]'
-  - '[[yt-entrepreneur-product-core]]'
-  - '[[case-yitang-tob-artificial-bone]]'
-  - '[[case-yitang-tob-smart-park]]'
-  - '[[case-yitang-tob-career-planning]]'
-  - '[[yt-barrier-identification-skill]]'
+- '[[yt-tob-unit-model]]'
+- '[[yt-tob-growth-channel]]'
+- '[[yt-tob-customer-sabc]]'
+- '[[yt-entrepreneur-five-step-method]]'
+- '[[yt-entrepreneur-product-core]]'
+- '[[case-yitang-tob-artificial-bone]]'
+- '[[case-yitang-tob-smart-park]]'
+- '[[case-yitang-tob-career-planning]]'
+- '[[yt-barrier-identification-skill]]'
 diagnostic_signals:
-  - signal: 团队讲不清壁垒是什么，只会说“产品好”“技术领先”。
-    framework_lens: 壁垒类型选择
-    follow_up_question: 客户一旦使用我们的方案，切换出去要付出多少成本？我们有没有规模效应或无形资产在持续加深护城河？
-  - signal: 行业看起来集中、壁垒强，但自己却赚不到钱，护城河成了别人的。
-    framework_lens: 壁垒强弱三维度
-    follow_up_question: 这个壁垒在我们的单元模型中占多大比重？成本是否随着规模显著降低？行业集中度是否真正对我们有利？
-  - signal: 规模化后人效下降、履约成本飙升，越扩张利润越薄。
-    framework_lens: 规模不经济对抗
-    follow_up_question: 哪些环节是“重决策、重关系、重销售、依赖人”的？我们能否通过减少定制、缩减 SKU、替代专家服务来对抗？
+- signal: 团队讲不清壁垒是什么，只会说“产品好”“技术领先”。
+  framework_lens: 壁垒类型选择
+  follow_up_question: 客户一旦使用我们的方案，切换出去要付出多少成本？我们有没有规模效应或无形资产在持续加深护城河？
+- signal: 行业看起来集中、壁垒强，但自己却赚不到钱，护城河成了别人的。
+  framework_lens: 壁垒强弱三维度
+  follow_up_question: 这个壁垒在我们的单元模型中占多大比重？成本是否随着规模显著降低？行业集中度是否真正对我们有利？
+- signal: 规模化后人效下降、履约成本飙升，越扩张利润越薄。
+  framework_lens: 规模不经济对抗
+  follow_up_question: 哪些环节是“重决策、重关系、重销售、依赖人”的？我们能否通过减少定制、缩减 SKU、替代专家服务来对抗？
 ---
 
 > To B 业务常见的三类壁垒：转化成本、规模效应、无形资产；判断强弱看集中度、单元模型占比、成本变化；对抗规模不经济要减少定制、缩减 SKU、替代专家服务。——徐剑《To B 五步法》

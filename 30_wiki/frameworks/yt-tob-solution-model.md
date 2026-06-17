@@ -1,5 +1,4 @@
 ---
-
 id: yt-tob-solution-model
 title: To B 解决方案类型矩阵
 type: framework
@@ -10,9 +9,7 @@ domain:
 - b2b
 - business-strategy
 source_refs:
-  - src_20260616_0e684368
-  - src_20260616_5f991553
-  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
+- src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'
@@ -21,12 +18,12 @@ tags:
 - '#topic/solution-design'
 - '#topic/product-strategy'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 徐剑
 reviewed_by: 老顽童
 review_date: '2026-06-16'
 confidence: 0.82
-trust_level: high
+trust_level: medium
 related:
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[yt-entrepreneur-product-core]]'

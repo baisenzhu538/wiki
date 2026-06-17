@@ -1,37 +1,55 @@
 ---
-
 id: skill-半肥猫-课程Skill化的八步工作流
-title: 技能：课程Skill化的八步工作流
-type: "tool"
-status: draft
+title: "技能：课程Skill化的八步工作流"
+type: tool
+status: enriched
 domain:
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - yitang
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
-- 00_inbox/半肥猫-AI学习落地-口述.md
+  - 00_inbox/半肥猫-AI学习落地-口述.md
 tools_required:
-- AIGC大模型
-- 文档编辑工具
+  - AIGC大模型
+  - 文档编辑工具
 prerequisite_skills:
-- skill-半肥猫-判断课程是否值得做成Skill
-- skill-半肥猫-清洗资料为Markdown格式喂给AI
+  - skill-半肥猫-判断课程是否值得做成Skill
+  - skill-半肥猫-清洗资料为Markdown格式喂给AI
 related:
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[case-半肥猫-conversion-hacker-skill]]'
-- '[[case-半肥猫-skill-ab-test]]'
-- '[[dk-半肥猫-skill-rejection-value]]'
-created_at: 2026-06-07
-reviewed_by: laowantong
-updated_at: '2026-06-16'
+  - "[[concept-半肥猫-ai-learning-toolification-methodology]]"
+  - "[[case-半肥猫-conversion-hacker-skill]]"
+  - "[[case-半肥猫-skill-ab-test]]"
+  - "[[dk-半肥猫-skill-rejection-value]]"
+  - "[[skill-半肥猫-设计Skill的评分规则与风险边界]]"
+  - "[[skill-半肥猫-用Skill做对比测试验证效果]]"
+  - "[[master-knowledge-compound]]"
+created_at: "2026-06-07"
+updated_at: "2026-06-17"
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
-author: 半肥猫
-confidence: 0.7
-trust_level: low
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "想把课程做成Skill但不知道从哪里开始"
+    lens: "流程缺失"
+    follow_up: "先执行第1步质量门判断：是否有科学底层、可验证案例、明确边界"
+  - signal: "Skill做出来但效果不稳定"
+    lens: "测试缺失"
+    follow_up: "检查是否跳过了第7步A/B测试，测试是必需项不是可选项"
+  - signal: "Skill传播了课程中的错误观点"
+    lens: "证据校准缺失"
+    follow_up: "执行第5步批判性审查：不默认老师全对，补充真实案例和权威资料"
+  - signal: "Skill用了一段时间后失效"
+    lens: "维护缺失"
+    follow_up: "维护占生命周期80%，把维护成本计入总投入，定期迭代"
+  - signal: "通用AI总是鼓励做，但我的场景不该做"
+    lens: "拒绝能力不足"
+    follow_up: "检查第4步诊断协议是否包含拒绝条件、风险分级、触发边界"
 ---
 # 技能：课程Skill化的八步工作流
 
@@ -60,17 +78,33 @@ trust_level: low
 7. **测试（正向+反向+高风险场景）**——用多维度评分体系做A/B测试
 8. **安装、调试、迭代、写文档**——部署到AI客户端、持续积累反例、版本迭代
 
-## 适用场景
+## Constraints & Boundaries
 
-- ✅ 有科学方法论底座的培训课程
-- ✅ 需要反复使用的分析/诊断/决策框架
-- ✅ 团队内部需要统一标准的业务方法
+### 适用边界
 
-## 不适用场景
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 有科学方法论底座的培训课程 |
+| ✅ 适合 | 需要反复使用的分析/诊断/决策框架 |
+| ✅ 适合 | 团队内部需要统一标准的业务方法 |
+| ✅ 适合 | 有专门知识管理角色的团队（≥3人） |
+| ❌ 不适合 | 课程本身质量不足（东拼西凑、无方法论） → 先筛选课程质量 |
+| ❌ 不适合 | 一次性使用、不需要复用的场景 → 用自然语言提示词即可 |
+| ❌ 不适合 | 没有测试资源（不做A/B测试） → 测试是必需项，无测试不做Skill |
+| ❌ 不适合 | 1-2人小团队且时间紧迫 → 八步流程对小型团队过于重量级 |
 
-- ❌ 课程本身质量不足（东拼西凑、没有方法论）
-- ❌ 一次性使用、不需要复用的场景
-- ❌ 没有测试资源（不做A/B测试的Skill是自欺欺人）
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **跳过质量门** | 直接开始做，浪费时间在低质量课程上 | 严格执行第1步：是否有科学底层、可验证案例、明确边界 |
+| **证据校准缺失** | Skill传播了课程中的错误观点 | 不默认老师全对，做批判性审查，补充真实案例和权威资料 |
+| **不做A/B测试** | 不知道Skill到底有没有用 | 测试是必需项不是可选项，用多维度评分体系做对比 |
+| **忽视维护** | Skill快速过时，失效 | 维护占生命周期80%，把维护成本计入总投入，设迭代周期 |
+| **过度工程化** | 追求95分Skill，但两周后才能用 | 快速变化市场中，80分但能立即用的Skill更有价值 |
+| **量化暴政** | 12维度评分体系产生虚假客观感 | 承认评分主观性，用"满意解"替代"最优解" |
+| **忽视用户Job** | 制造了完美Skill但用户只想快速得结论 | 先问用户想完成什么工作，再决定Skill粒度 |
+| **维护陷阱** | 80%时间维护旧Skill，无法开发新Skill | 设定维护预算上限，超过则淘汰旧Skill |
 
 ## 工具/环境
 
