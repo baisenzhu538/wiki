@@ -3692,3 +3692,52 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 - 部分业务公式示范型 case 卡结构偏离标准模板：属低严重度，已接受现有"错误拆解 → 正确拆解 → 关键教训 → 可迁移校验"结构。
 - 同素材双卡边界：`case-personal-map-modeling` 侧重"建模过程方法论"，`case-truman-personal-growth-map-creation` 侧重"创作心路历程"，两者已互链，建议长期保留双卡并在未来进一步明确边界说明。
 - `reviewed_by` 字段代审问题：待欧阳锋正式返回后抽检。
+
+## 二十二、下一阶段：再三十张卡深度精修（老顽童主责）
+
+**目标**：从 674 张 draft 卡中按价值密度挑选 30 张，继续深化「框架-概念-case-dk」网络。
+
+**选择逻辑**：
+
+1. 优先核心框架/概念卡：通用商业方法论（OSL、单元模型、咨询框架）、KDO 工业化框架、AI/短剧/笔记法等高密度主题。
+2. 补 case 支撑：课程转 Skill、AI 协作产品设计、zip→五层协作等案例，补全 AI 协作/学习落地领域的案例缺口。
+3. 补 dk 卡：五步法认知偏差、段位盲区等反常识。
+4. 避开纯工具操作卡（如大量 design 域的 AIGC 操作 skill），留给垂直行业簇建设。
+
+### 批次分布
+
+| 批次 | 主题 | 卡片 |
+|---|---|---|
+| 1 | 核心框架/咨询框架 | `yt-research-osl-framework`、`yt-unit-model-concept`、`ai-short-drama-ice-fire-dissection-compass`、`business-formula-to-kdo-card-quality`、`concept-maister-trusted-advisor`、`concept-mckinsey-7s`、`concept-minto-pyramid-principle`、`modeling-to-kdo-toolchain` |
+| 2 | 一堂/AI 概念卡 | `yt-lean-false-model-ai`、`ai-short-drama-ice-fire-scripting-compass`、`ai-short-drama-platform-policy-comparison`、`concept-mckinsey-issue-tree`、`concept-mckinsey-mece`、`modeling-capability-system`、`yt-note-ai-human-division`、`yt-note-checklist-concept` |
+| 3 | 笔记法/研究法概念卡 | `yt-note-expert-interview-modeling`、`yt-research-intelligence-map`、`yt-note-extensive-research-input`、`yt-note-fact-pattern-insight`、`ai-native-五层进阶从答案到效率到作品到产品到系统`、`concept-半肥猫-ai-learning-toolification-methodology`、`concept-纪浩-ai-collaboration-methodology` |
+| 4 | KDO 决策/案例/dk | `kdo-ec-industrialization-migration-proposal`、`modeling-capability-for-kdo`、`case-半肥猫-course-to-skill`、`case-纪浩-focus-prompt-design`、`case-纪浩-from-zip-to-five-layers`、`yt-business-analysis-cognitive-biases`、`yt-five-step-level-blindspots` |
+
+### 精修标准
+
+每张卡必须：
+
+1. `diagnostic_signals ≥ 3`（框架/概念/工具/dk 卡在 frontmatter；case 卡可在正文）。
+2. `Constraints & Boundaries ≥ 4` 条适用边界 + `Common Failure Modes ≥ 4` 条，失败模式含真实症状 + 可执行修复。
+3. 新增至少 1 个案例/实例/计算模板/checklist。
+4. 新增至少 2 条互链。
+5. `status` 从 `draft` 改为 `enriched`。
+6. 更新 `updated_at` 为执行日期。
+7. 改完本卡后立即跑 `kcard-quality-gate.py`，单卡无新增 P0/P1。
+
+### 域间自检三问
+
+每完成一个批次必须回答：
+
+1. 案例够了吗？
+2. 暗知识在哪里？
+3. 这些案例/框架有共同模式吗？
+
+### 验收标准
+
+- [ ] 30 张卡全部完成精修
+- [ ] 每批完成后已记录进度并完成域间自检三问
+- [ ] 全库 `kcard-quality-gate.py` P0 = 0，YAML 错误 = 0
+- [ ] 全库 P1 不新增
+- [ ] 30 张目标卡 status 均为 enriched
+- [ ] 在此文件末尾写小结
