@@ -1226,6 +1226,24 @@ total: 1359, p0: 0, p1: 773, clean: 586, yaml_error: 0
 | source_context = "KDO internal record" | 已 Review | ✅ 0 张残留 | 王语嫣已替换，黄药师无需再动 |
 | frontmatter `---` 后空行 | 已修 43 张 | ✅ 剩余 5 张已补修 | 其中 3 张为标签改革时新引入，已回滚；2 张 OCR 卡已修 |
 | 重复 domain / source_context | 已修 3 张 | ✅ 0 张残留 | skill-月白-* 系列已无重复 |
+
+---
+
+## ✅ Draft 精修池分配（黄药师 2026-06-17）
+
+231 张 draft 卡值得精修（confidence≥0.7 + related 非空），已移交老顽童。
+
+按域分布：
+| 域 | 数量 | 优先级 |
+|:--|:--|:--:|
+| yitang | 142 | P0 |
+| ai-collaboration | 77 | P0 |
+| master | 47 | P1 |
+| product/ai-saas/modeling | 71 | P1 |
+| 其余 11 个域 | 89 | P2 |
+
+**精修标准**：每张卡补 diagnostic_signals ≥2 + 检查 related 有效性 + confidence 复核。
+**验收**：精修后 status 改为 enriched，通过质量门禁。
 | 空 source_refs `[]` | 已清理 | ✅ 0 张残留 | |
 | `contradicts` 字段残留 | 已清理 | ✅ 0 张残留 | |
 | 质量门禁 P0 | 0 | ✅ 0 | |
