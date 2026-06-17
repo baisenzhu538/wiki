@@ -3,8 +3,8 @@
 **扫描时间**：2026-06-15  
 **扫描范围**：30_wiki 全库 1193 张卡片  
 **P0 阻塞问题卡片**：0 张  
-**P1 修复问题卡片**：45 张  
-**完全干净卡片**：1148 张  
+**P1 修复问题卡片**：47 张  
+**完全干净卡片**：1146 张  
 **YAML 解析错误**：0 张  
 
 ---
@@ -44,6 +44,8 @@
 | `concepts\concept-一堂-kernel-validation.md` | source_refs 中的 src ID 未注册: src_20260606_094098c1 |
 | `concepts\concept-一堂-key-assumptions.md` | source_refs 中的 src ID 未注册: src_20260606_9dd317aa |
 | `concepts\concept-一堂-product-kernel.md` | source_refs 中的 src ID 未注册: src_20260606_640c2818, src_20260606_4f5117e3, src_20260606_094098c1 |
+| `concepts\master-antifragile-checklist.md` | status=draft 但 confidence=0.88 |
+| `concepts\skill-水水-管理决策权重偏差.md` | status=draft 但 confidence=0.85 |
 | `concepts\skill-纪浩-AI对话上下文隔离.md` | source_refs 中的 src ID 未注册: src_20260606_6ea91aa8 |
 | `concepts\yt-barrier-analysis-cheat-sheet.md` | source_refs 中的 src ID 未注册: src_20260610_fc964660, src_20260610_a6f3e5b3, src_20260610_64e863c7 |
 | `concepts\yt-customer-acquisition-toolkit.md` | source_refs 中的 src ID 未注册: src_20260610_7590c468, src_20260610_c2430786, src_20260610_5e5bd997 |
@@ -53,10 +55,10 @@
 | `concepts\yt-five-step-method.md` | source_refs 中的 src ID 未注册: src_20260610_e2867174, src_20260610_ad79435b |
 | `concepts\yt-foresight-15-char-mantra.md` | source_refs 中的 src ID 未注册: src_20260610_b3e09bdf, src_20260610_d9fca55f |
 | `concepts\yt-foresight-ab-steady-state.md` | source_refs 中的 src ID 未注册: src_20260606_f6cb0868, src_20260606_c996cb6a |
-| `concepts\yt-foresight-addition-subtraction.md` | confidence=0.9 但 source 仅 1 个 |
+| `concepts\yt-foresight-addition-subtraction.md` | confidence=0.9 但 source 仅 1 个; status=draft 但 confidence=0.9 |
 | `concepts\yt-foresight-deliverables-four-levels.md` | source_refs 中的 src ID 未注册: src_20260606_f6cb0868, src_20260606_c996cb6a |
 | `concepts\yt-foresight-probability-engineering.md` | source_refs 中的 src ID 未注册: src_20260606_f6cb0868, src_20260606_c996cb6a |
-| `concepts\yt-foresight-ten-fatal-flaws.md` | confidence=0.9 但 source 仅 1 个 |
+| `concepts\yt-foresight-ten-fatal-flaws.md` | confidence=0.9 但 source 仅 1 个; status=draft 但 confidence=0.9 |
 | `concepts\yt-growth-cycle-model.md` | source_refs 中的 src ID 未注册: src_20260610_8865798f, src_20260610_f89d0513 |
 | `concepts\yt-market-size-estimation.md` | source_refs 中的 src ID 未注册: src_20260610_2b360d66, src_20260610_2a188b41 |
 | `concepts\yt-product-kernel-cultivation.md` | source_refs 中的 src ID 未注册: src_20260610_d4c3edda, src_20260610_1a72a5cb, src_20260610_29a11a33 |
