@@ -2,7 +2,7 @@
 id: concept-mckinsey-7s
 title: 7-S Framework：组织诊断的七维模型
 type: framework
-status: draft
+status: enriched
 domain:
 - consulting
 - yitang
@@ -33,13 +33,20 @@ diagnostic_signals:
 - signal: 用户说'我们公司战略很清晰，但执行总是变形'
   framework_lens: 7-S 检查：战略（Strategy）与系统（Systems）、风格（Style）、技能（Skills）是否一致
   follow_up_question: 你的考核系统、领导风格和核心团队能力，是在奖励战略方向的行为，还是在奖励相反的行为？
+- signal: 用户说'我们准备从 0 到 1 规模化，但不知道组织能不能跟上'
+  framework_lens: 7-S 检查：创业早期的组织模式（全能型、口头沟通）是否还能支撑规模化
+  follow_up_question: 如果团队规模翻倍，你们现在的 Structure/Systems/Skills 哪一项会先崩？
 related:
 - '[[concept-mckinsey-mece]]'
 - '[[concept-mckinsey-issue-tree]]'
+- '[[concept-mckinsey-hypothesis-driven]]'
+- '[[concept-minto-pyramid-principle]]'
 - '[[yt-model-entrepreneur-map]]'
 - '[[yt-management-toolkit-overview]]'
 - '[[yt-tool-hiring-scorecard]]'
 - '[[yt-tool-okr-cycle]]'
+- '[[case-yitang-weekly-modeling-engine]]'
+- '[[dk-lz-ai-native-organization]]'
 tags:
 - '#scene/business-analysis'
 - '#scene/entrepreneurship'
@@ -47,11 +54,11 @@ tags:
 - '#industry/consulting'
 - '#method/checklist'
 created_at: '2026-06-11'
-updated_at: '2026-06-16'
-author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+updated_at: '2026-06-17'
+author: 老顽童
+reviewed_by: laowantong
+confidence: 0.8
+trust_level: medium
 ---
 # 7-S Framework：组织诊断的七维模型
 
@@ -128,6 +135,64 @@ trust_level: low
 
 **诊断指南**：当创业者说\"我们团队好像有问题\"，先用这三个冲突模式做快速扫描——不需要 7 个维度全看完，通常 1-2 个冲突就能解释 80% 的症状。
 
+## 应用模板：30 分钟 7-S 组织体检表
+
+> 目标：把 7-S 从\"理论框架\"变成\"可复用的组织体检流程\"。适用于季度组织复盘、融资前组织尽调、规模化前组织 readiness 检查。
+
+### Step 1：七维红绿灯自评（15 分钟）
+
+对 7 个维度分别打分：🟢 健康 / 🟡 黄灯 / 🔴 红灯。
+
+| 维度 | 健康（🟢） | 黄灯（🟡） | 红灯（🔴） | 本轮评分 |
+|:-----|:---------|:---------|:---------|:--------:|
+| **Strategy** | 全员能用一句话说出战略 | 战略存在但中层理解不一致 | 创始人说出来的战略每次都变 | |
+| **Structure** | 汇报关系与战略匹配 | 有 1-2 处明显错位 | 结构是历史遗留，没人能说清为什么 | |
+| **Systems** | 考核/流程奖励战略行为 | 部分考核与战略冲突 | 考核系统明确奖励反战略行为 | |
+| **Style** | 高管行为与价值观一致 | 高管偶尔言行不一 | 高管风格与组织需要完全冲突 | |
+| **Staff** | 关键岗位有人、且人能胜任 | 关键岗位有人但能力有缺口 | 关键岗位缺人或人不匹配 | |
+| **Skills** | 组织有 1-2 项核心能力沉淀 | 能力依赖个别英雄 | 没有组织级能力，每次都重新发明 | |
+| **Shared Values** | 价值观能被晋升/奖励标准反推验证 | 价值观写在墙上但难落地 | 价值观只是口号，与实际行为无关 | |
+
+### Step 2：一致性冲突矩阵（10 分钟）
+
+强制检查 7 个维度之间的两两冲突。不要求填满，只找**最痛的 3 对**：
+
+```
+          S   T   R   Y   E   L   V
+Strategy  -   □   □   □   □   □   □
+Structure     -   □   □   □   □   □
+Systems           -   □   □   □   □
+Style                 -   □   □   □
+Staff                     -   □   □
+Skills                        -   □
+Values                            -
+```
+
+- 在冲突格中打 ❌，并写一句话说明冲突表现。
+- 只保留影响最大的 3 个 ❌，作为本季度优先解决的组织矛盾。
+
+### Step 3：行动优先级排序（5 分钟）
+
+用\"影响 × 可控性\"快速排序：
+
+| 冲突对 | 对战略执行的阻碍程度（1-5） | 当前可改变的程度（1-5） | 得分 | 优先级 |
+|:-------|:-------------------------:|:-----------------------:|:----:|:------:|
+| 例：Systems ↔ Values | 5 | 3 | 15 | P0 |
+| | | | | |
+
+**规则**：先处理得分 ≥ 12 的冲突；得分 < 8 的冲突先记录，不投入资源。
+
+### 实例：一堂\"周对周建模迭代\"的 7-S 映射
+
+[[case-yitang-weekly-modeling-engine]] 是一堂把周五课程逼成组织学习引擎的案例。用 7-S 可以解释它为什么有效：
+
+- **Systems**：把\"周五 21:00 交付 + 周六复盘\"固化成硬截止日，用系统对抗惰性。
+- **Shared Values**：把\"模型迭代比单次交付更重要\"变成组织共识。
+- **Skills**：通过每月模型资产盘点，把个人能力沉淀为组织能力。
+- **Style**：创始人/高管以身作则接受\"未达标就临时取消课程\"的品控规则。
+
+这个案例说明：**7-S 的一致性强弱，不取决于每个维度单独有多好，而取决于它们是否相互强化同一个组织目标**。
+
 ## Critique
 
 ### Henry Mintzberg：战略不是结构，也不是 7 个盒子的游戏
@@ -159,6 +224,8 @@ Pfeffer 的批评对创业者特别 relevant：当你调整一个创业团队的
 | **组织规模 ≥ 5 人** | 7-S 对极小团队（如 2-3 人）过度复杂，直接沟通比框架诊断更有效 |
 | **问题涉及组织层面** | 适合诊断"团队/公司怎么运转"，不适合解决纯产品或市场问题 |
 | **有意愿直面软要素** | 如果团队只想改结构、不想碰价值观/风格，7-S 只会暴露矛盾而无法解决 |
+| **组织处于非剧烈动荡期** | 并购、大规模裁员、创始人剧烈冲突期间，7-S 只能做"组织快照"，不能替代危机干预 |
+| **至少有一位决策者愿暴露真实风格** | 诊断 Style/Shared Values 需要创始人/高管愿意被观察真实行为，而非只呈现"管理人设" |
 
 ### 常见失败模式
 
@@ -168,6 +235,7 @@ Pfeffer 的批评对创业者特别 relevant：当你调整一个创业团队的
 | **"把价值观当标语"** | Shared Values 写的是"创新"，考核奖励的是"不出错" | 用"晋升/奖励标准反推法"验证价值观是否被真实执行 |
 | **"一次性对齐 7 个维度"** | 试图同时改所有维度，导致组织休克 | 先定位 1-2 个最冲突的维度，小步迭代 |
 | **"忽视权力动态"** | 诊断很完整，执行被抵制 | 配合权力地图分析，识别谁会因变革受损 |
+| **"把 7-S 当成 7 个独立清单"** | 每个维度单独打分，但没看维度间冲突 | 强制做一致性矩阵，标出至少 3 对关键冲突并排序 |
 
 ## Synthesis
 
@@ -179,7 +247,11 @@ Pfeffer 的批评对创业者特别 relevant：当你调整一个创业团队的
 | 同域横向 | [[yt-tool-okr-cycle]] | Systems 维度的落地工具，把战略转化为可衡量的执行系统 |
 | 跨域桥接 | [[concept-mckinsey-mece]] | 7-S 是 MECE 原则在组织诊断中的应用——7 个维度相互独立、共同穷尽组织的核心要素 |
 | 跨域桥接 | [[concept-mckinsey-issue-tree]] | 当 7-S 定位到某个薄弱维度后，可用 Issue Tree 进一步拆解该维度的子问题 |
+| 跨域桥接 | [[concept-mckinsey-hypothesis-driven]] | 在进入 7-S 详细扫描前，可先用假设驱动快速锁定最可能的冲突维度，避免 7 维全扫的认知过载 |
+| 跨域桥接 | [[concept-minto-pyramid-principle]] | 7-S 诊断结论的输出适合用金字塔结构呈现：先讲核心冲突，再分层展开七维证据 |
 | 跨域对比 | [[concept-maister-trusted-advisor]] | 诊断组织时，顾问/创始人的信任度决定了 7-S 诊断能否触达真实的软要素 |
+| 案例参照 | [[case-yitang-weekly-modeling-engine]] | 一堂用硬截止日和复盘机制把"建模迭代"变成组织习惯，是 Systems/Values/Skills 高度对齐的实例 |
+| 反向对照 | [[dk-lz-ai-native-organization]] | AI 原生组织论挑战 7-S 的隐含前提——当中层信息传递功能被 AI 接管，传统 7-S 的 Structure/Style 诊断权重需要重新评估 |
 
 ## Action Triggers
 
