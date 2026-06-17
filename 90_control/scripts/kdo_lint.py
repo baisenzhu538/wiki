@@ -18,23 +18,23 @@ FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 SOURCE_REF_RE = re.compile(r"^src_[0-9]{8}_[a-f0-9]{8}$")
 
 
-class SimpleYAMLParser:
-    """Parse simple YAML (strings, lists, no nesting)."""
-
-    def parse(self, text: str) -> dict:
+def parse_yaml_frontmatter(text: str) -> dict:
+    """Parse YAML frontmatter using stdlib yaml if available, else simple parser."""
+    try:
+        import yaml
+        return yaml.safe_load(text) or {}
+    except ImportError:
+        # Fallback: simple parser for envs without PyYAML
         result = {}
         current_key = None
         current_list = []
         in_list = False
-
         for line in text.splitlines():
             stripped = line.strip()
             if not stripped or stripped.startswith("#"):
                 continue
-
             if stripped.startswith("-"):
-                item = stripped[1:].strip()
-                item = self._unquote(item)
+                item = stripped[1:].strip().strip('"').strip("'")
                 current_list.append(item)
                 in_list = True
             else:
@@ -42,29 +42,17 @@ class SimpleYAMLParser:
                     result[current_key] = current_list
                     current_list = []
                     in_list = False
-
                 if ":" in stripped:
                     key, val = stripped.split(":", 1)
                     key = key.strip()
-                    val = val.strip()
-                    val = self._unquote(val)
+                    val = val.strip().strip('"').strip("'")
                     if val == "":
                         val = None
                     current_key = key
                     result[key] = val
-
         if in_list and current_key:
             result[current_key] = current_list
-
         return result
-
-    @staticmethod
-    def _unquote(s: str) -> str:
-        if s.startswith('"') and s.endswith('"'):
-            return s[1:-1]
-        if s.startswith("'") and s.endswith("'"):
-            return s[1:-1]
-        return s
 
 
 def load_schemas() -> dict:
@@ -118,9 +106,8 @@ def validate_file(fp: Path, schemas: dict) -> list:
         errors.append(f"{rel}: missing frontmatter")
         return errors
 
-    parser = SimpleYAMLParser()
     try:
-        fm = parser.parse(m.group(1))
+        fm = parse_yaml_frontmatter(m.group(1))
     except Exception as e:
         errors.append(f"{rel}: frontmatter parse error: {e}")
         return errors

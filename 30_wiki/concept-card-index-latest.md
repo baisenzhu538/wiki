@@ -1,3 +1,21 @@
+---
+id: concept-card-index-latest
+title: Concept Card Index — Latest
+type: index
+status: draft
+domain:
+  - kdo
+  - meta
+source_refs:
+  - system-index
+author: system
+reviewed_by: 欧阳锋
+confidence: 0.5
+trust_level: low
+created_at: 2026-06-16
+updated_at: 2026-06-17
+---
+
 # Concept Card Index — 2026-06-16 18:08 UTC
 
 | ID | Title | Type | Domain |

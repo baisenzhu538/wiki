@@ -14,8 +14,9 @@ created_at: "2026-06-17"
 author: 黄药师
 reviewed_by: 黄药师
 review_date: "2026-06-17"
-related:
-  - paddle-ocr-setup
+confidence: 0.75
+trust_level: medium
+related: []
 tags:
   - "#infrastructure"
   - "#pdf"

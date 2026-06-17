@@ -14,8 +14,6 @@ type: object
 required:
   - title
   - type
-  - status
-  - source_refs
   - created_at
   - updated_at
 
@@ -62,16 +60,23 @@ properties:
     type: string
     enum:
       - draft
+      - enriched
       - reviewed
       - stable
-      - deprecated
+      - proposed
       - needs-review
+      - pending
+      - revised
+      - active
+      - deprecated
+      - superseded
+      - redirect
     description: >
-      draft: initial creation, may contain TODOs
-      reviewed: passed human or AI review
-      stable: widely referenced, unlikely to change
-      deprecated: superseded by newer card(s). See 'superseded_by' field.
-      needs-review: contradictions found or source questioned
+      draft/enriched/reviewed/stable: standard lifecycle
+      proposed/pending/revised: workflow states
+      active: currently in use (systems/workflows)
+      deprecated/superseded: retired cards
+      redirect: points to replacement card
 
   source_refs:
     type: array
