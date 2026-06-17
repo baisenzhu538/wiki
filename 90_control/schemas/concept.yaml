@@ -31,20 +31,32 @@ properties:
     enum:
       - concept
       - entity
+      - framework
+      - tool
+      - case
+      - dark-knowledge
       - comparison
       - decision
       - improvement-plan
       - system
       - trend
-      - dark-knowledge
+      - analysis
+      - report
+      - requirement
+      - index
+      - query
+      - proposal
+      - skill
     description: >
       concept: abstract idea or knowledge card
-      entity: person, company, organization
-      comparison: comparing two or more concepts
-      decision: decision record or improvement plan
-      improvement-plan: actionable plan derived from feedback
-      system: architecture or workflow knowledge
-      trend: trend analysis
+      framework: multi-card methodology or knowledge map
+      tool: single-card knowledge map or checklist
+      case: real-world case study
+      dark-knowledge: single insight or pitfall pattern
+      decision: decision record
+      improvement-plan: actionable plan from feedback
+      system: architecture or workflow
+      others: comparison/trend/analysis/report/requirement/index/query/proposal/skill (deprecated)
 
   status:
     type: string
@@ -63,14 +75,13 @@ properties:
 
   source_refs:
     type: array
-    minItems: 1
+    minItems: 0
     items:
       type: string
-      pattern: "^src_[0-9]{8}_[a-f0-9]{8}$"
     description: >
-      Array of source_ids referencing 10_raw/sources/.
-      Format: src_YYYYMMDD_8hexchars
-      Must have at least one entry.
+      Array of source references.
+      Accepts: src_* IDs, [[wikilinks]], file paths, URLs, ISBNs, or descriptive strings.
+      Draft cards may have empty source_refs.
 
   created_at:
     type: string
