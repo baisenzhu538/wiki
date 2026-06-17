@@ -1,4 +1,5 @@
 ---
+
 id: master-knowledge-compound
 confidence: 0.82
 created_at: 2026-05-18
@@ -19,7 +20,7 @@ related:
 - '[[yt-personal-knowledge-management]]'
 - '[[master-systems-thinking]]'
 - '[[master-first-principles]]'
-status: enriched
+status: draft
 title: 知识复利：IPO+萃取+管理的上位整合
 type: concept
 updated_at: '2026-06-16'

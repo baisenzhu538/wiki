@@ -1,11 +1,12 @@
 ---
+
 id: tinyfish-agentic-web-infrastructure
 created_at: 2026-05-06
 domain:
 - master
 review_date: 2026-05-06
 reviewed_by: 黄药师
-status: enriched
+status: draft
 title: TinyFish — Agentic Web 基础设施建设层 Skill
 trust_level: medium
 type: concept

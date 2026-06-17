@@ -1,13 +1,14 @@
 ---
+
+
 id: yt-foresight-ten-fatal-flaws
 title: 十大硬伤：商业机会的致死缺陷清单
 type: tool
 domain:
 - yitang
 source_refs:
-- 00_inbox/一堂-商业预判课-Truman-口述.txt
-- 00_inbox/一堂-商业预判课-truman-笔记.txt
-status: enriched
+  - source_unknown
+status: draft
 confidence: 0.9
 difficulty: intermediate
 estimated_tokens: 2400

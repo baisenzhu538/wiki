@@ -1,4 +1,5 @@
 ---
+
 title: 战略会
 type: concept
 domain:
@@ -6,7 +7,7 @@ domain:
 - management
 - decision-making
 - yitang
-status: enriched
+status: draft
 pipeline:
 - confidence-source-cited
 diagnostic_signals:

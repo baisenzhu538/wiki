@@ -1,4 +1,5 @@
 ---
+
 id: yt-product-kernel-cultivation
 confidence: 0.9
 created_at: 2026-06-10
@@ -18,10 +19,10 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
-  - "00_inbox/一堂五步法/一堂-一堂五步法-解决方案（产品内核）-口述.txt"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-产品内核-修炼段位图.png"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-产品内核-十大典型指标.png"
-  - "00_inbox/ocr_ingest/src_ocr_一堂产品内核_十大典型指标.md"
+  - src_20260610_d4c3edda
+  - src_20260610_1a72a5cb
+  - src_20260610_29a11a33
+  - src_20260522_45e97d9c
 status: reviewed
 title: "产品内核修炼段位图"
 trust_level: medium

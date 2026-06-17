@@ -1,12 +1,13 @@
 ---
+
 id: concept-five-step-growth-to-barrier-transition
 title: 五步法衔接：什么时候从增长切换到壁垒建设
 type: concept
 domain:
 - yitang
 source_refs:
-- 00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt
-- 00_inbox/一堂五步法/一堂-一堂五步法-增长-口述.txt
+  - src_20260610_426daf30
+  - src_20260610_8865798f
 status: enriched
 confidence: 0.85
 difficulty: intermediate

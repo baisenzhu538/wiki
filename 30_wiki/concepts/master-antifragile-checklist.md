@@ -1,4 +1,5 @@
 ---
+
 id: master-antifragile-checklist
 confidence: 0.88
 created_at: 2026-05-18
@@ -19,7 +20,7 @@ related:
 - '[[yt-foresight-ten-fatal-flaws]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[yt-panproduct-execution-risk-management]]'
-status: enriched
+status: draft
 title: 反脆弱决策检查清单
 type: tool
 updated_at: '2026-06-16'

@@ -1,4 +1,5 @@
 ---
+
 id: case-truman-ai-partner
 title: 案例：Truman AI Partner（阿蕊老师）——从十年笔记到可售卖的 Agent
 type: case
@@ -9,10 +10,10 @@ domain:
 source_person: Truman
 source_context: 一堂《AI时代清单体笔记》课程
 source_refs:
-- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
-- 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
-- 00_inbox/Truman的个人成长五步法.png
-- 00_inbox/truman的选择：两条职业成长路线.png
+  - src_20260606_575627a4
+  - src_20260606_db4fc211
+  - src_20260510_cfbce5d1
+  - src_20260510_27fe5f0e
 tags:
 - '#perspective/compliance'
 - '#perspective/professional'

@@ -1,4 +1,5 @@
 ---
+
 id: yt-growth-cycle-model
 confidence: 0.9
 created_at: 2026-06-10
@@ -19,8 +20,8 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
-  - "00_inbox/一堂五步法/一堂-一堂五步法-增长-口述.txt"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-增长-增长周期模型.png"
+  - src_20260610_8865798f
+  - src_20260610_f89d0513
 status: reviewed
 title: "增长周期模型"
 trust_level: medium

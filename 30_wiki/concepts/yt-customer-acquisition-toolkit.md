@@ -1,4 +1,5 @@
 ---
+
 id: yt-customer-acquisition-toolkit
 confidence: 0.9
 created_at: 2026-06-10
@@ -19,11 +20,11 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
-  - "00_inbox/一堂五步法/一堂-一堂五步法-增长-推荐获客小抄.png"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-增长-线上获客小抄.png"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-增长-线下获客小抄.png"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-增长-获客转化小抄.png"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-增长-科学销售五步法.png"
+  - src_20260610_7590c468
+  - src_20260610_c2430786
+  - src_20260610_5e5bd997
+  - src_20260610_b69011cf
+  - src_20260610_0a18623a
 status: reviewed
 title: "获客工具合集"
 trust_level: medium

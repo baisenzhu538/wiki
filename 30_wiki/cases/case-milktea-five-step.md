@@ -1,4 +1,5 @@
 ---
+
 id: case-milktea-five-step
 title: 奶茶店五步法：从九死一生到十年百店的科学创业之路
 type: case
@@ -9,8 +10,8 @@ domain:
 source_person: Truman / 古董
 source_context: 一堂案例拆解课程-奶茶店案例
 source_refs:
-- 00_inbox/ideas/一堂-案例拆解-串讲口述.md
-- 00_inbox/ideas/一堂-案例拆解-课程清单.md
+  - src_20260508_03a07f45
+  - src_20260510_1aea3d4b
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 related:

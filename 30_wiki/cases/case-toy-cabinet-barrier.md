@@ -1,4 +1,5 @@
 ---
+
 id: case-toy-cabinet-barrier
 confidence: 0.85
 created_at: 2026-06-11
@@ -17,8 +18,8 @@ query_triggers:
 review_date: 2026-06-11
 reviewed_by: "周伯通"
 source_refs:
-  - "00_inbox/一堂五步法/一堂=一堂五步法-商业模型-线下玩具柜案例.png"
-  - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt"
+  - src_20260610_91556342
+  - src_20260610_426daf30
 status: reviewed
 title: "案例：线下玩具柜的壁垒困局与突围路径"
 trust_level: medium

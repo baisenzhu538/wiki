@@ -1,4 +1,5 @@
 ---
+
 id: case-一堂-陈贤敏汉堡-hypothesis-validation
 title: 案例：陈贤敏中式汉堡先开实验店验证关键假设
 type: case
@@ -9,8 +10,8 @@ domain:
 source_person: 一堂·Truman
 source_context: 一堂-关键假设课-truman-笔记.txt、一堂-关键假设课-truman-口述.txt
 source_refs:
-- 00_inbox/一堂-关键假设课-truman-笔记.txt
-- 00_inbox/一堂-关键假设课-truman-口述.txt
+  - src_20260606_22c4a291
+  - src_20260606_9dd317aa
 created_at: 2026-06-08
 updated_at: '2026-06-16'
 related:

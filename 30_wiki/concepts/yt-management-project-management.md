@@ -1,4 +1,5 @@
 ---
+
 title: 项目管理
 type: concept
 domain:
@@ -6,7 +7,7 @@ domain:
 - ai-saas
 - management
 - yitang
-status: enriched
+status: draft
 pipeline:
 - confidence-source-cited
 diagnostic_signals:

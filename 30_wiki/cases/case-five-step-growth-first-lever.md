@@ -1,12 +1,13 @@
 ---
+
 id: case-five-step-growth-first-lever
 title: 案例：五步法中从产品内核到增长的第一次跨越
 type: case
 domain:
 - yitang
 source_refs:
-- 00_inbox/一堂五步法/一堂-一堂五步法-增长-口述.txt
-- 00_inbox/一堂五步法/一堂-一堂五步法-增长-笔记.txt
+  - src_20260610_8865798f
+  - src_20260610_92cd2b4e
 status: enriched
 confidence: 0.85
 difficulty: intermediate

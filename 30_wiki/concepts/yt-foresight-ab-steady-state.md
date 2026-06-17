@@ -1,12 +1,13 @@
 ---
+
 id: yt-foresight-ab-steady-state
 title: AB点稳态模型：行业预判的核心框架
 type: concept
 domain:
 - yitang
 source_refs:
-- 00_inbox/一堂-机会预判课-Truman-口述.txt
-- 00_inbox/一堂-机会预判课-truman-笔记.txt
+  - src_20260606_f6cb0868
+  - src_20260606_c996cb6a
 status: enriched
 confidence: 0.85
 difficulty: advanced

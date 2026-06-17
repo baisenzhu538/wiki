@@ -1,4 +1,5 @@
 ---
+
 id: case-jh-yitang-vs-sqlhelper
 title: 案例：一堂数据库 vs SQLHelper —— 同域不同构的产品策略分岔
 type: case
@@ -16,8 +17,8 @@ source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第六期AI共创社，2026-06）
 source_refs:
   - src_20260609_dade3353
-  - 00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt
-  - 00_inbox/AI俱乐部-AI协作方法论-纪浩-笔记.txt
+  - src_20260606_0ecc1afc
+  - src_20260606_592137a7
 related:
   - "[[dk-my-ai-landing-three-barriers]]"
   - "[[concept-纪浩-ai-collaboration-five-layer]]"

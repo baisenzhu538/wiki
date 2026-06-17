@@ -1,4 +1,5 @@
 ---
+
 id: case-zhihu-vs-degetao-network-effect
 confidence: 0.85
 created_at: 2026-06-11
@@ -19,7 +20,7 @@ query_triggers:
 review_date: 2026-06-11
 reviewed_by: "周伯通"
 source_refs:
-  - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt"
+  - src_20260610_426daf30
 status: reviewed
 title: "案例：知乎vs得到——网络效应壁垒的对比分析"
 trust_level: medium

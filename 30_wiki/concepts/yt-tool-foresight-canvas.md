@@ -1,15 +1,16 @@
 ---
+
 id: yt-tool-foresight-canvas
 title: 预判画布：从加法到减法的标准化工作台
 type: tool
 domain:
 - yitang
 source_refs:
-- 00_inbox/一堂-机会预判课-Truman-口述.txt
-- 00_inbox/一堂-机会预判课-truman-笔记.txt
-- 00_inbox/一堂-机会预判-咖啡案例01.png
-- 00_inbox/一堂-机会预判-咖啡案例02.png
-- 00_inbox/一堂-机会预判-咖啡店案例-五步法预判.png
+  - src_20260606_f6cb0868
+  - src_20260606_c996cb6a
+  - src_20260610_0132647f
+  - src_20260610_daaec0bd
+  - src_20260610_53f78579
 status: enriched
 confidence: 0.9
 difficulty: intermediate

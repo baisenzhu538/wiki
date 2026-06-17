@@ -1,4 +1,5 @@
 ---
+
 title: 管理段位
 type: concept
 domain:
@@ -6,7 +7,7 @@ domain:
 - management
 - kdo
 - yitang
-status: enriched
+status: draft
 pipeline:
 - confidence-source-cited
 diagnostic_signals:

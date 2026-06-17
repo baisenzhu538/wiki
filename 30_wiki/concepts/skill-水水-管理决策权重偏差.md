@@ -1,9 +1,10 @@
 ---
 
+
 id: skill-水水-管理决策权重偏差
 title: 技能：管理决策权重偏差
 type: "tool"
-status: enriched
+status: draft
 domain:
 - decision-making
 source_person: 水水

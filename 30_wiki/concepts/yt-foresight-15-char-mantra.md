@@ -1,14 +1,13 @@
 ---
+
 id: yt-foresight-15-char-mantra
 title: 十五字黄金法诀：机会预判的核心框架
 type: concept
 domain:
 - yitang
 source_refs:
-- 00_inbox/一堂-商业预判课-Truman-口述.txt
-- 00_inbox/一堂-商业预判课-truman-笔记.txt
-- 00_inbox/一堂-机会预判-终局光谱图-truman-图01.png
-- 00_inbox/一堂-机会预判-终局光谱图-truman-图02.png
+  - src_20260610_b3e09bdf
+  - src_20260610_d9fca55f
 status: enriched
 confidence: 0.9
 difficulty: beginner

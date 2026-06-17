@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-纪浩-AI对话上下文隔离
 title: 技能：AI 对话上下文隔离
 type: "tool"
@@ -9,7 +10,7 @@ domain:
 source_person: 纪浩
 source_context: AI协作方法论
 source_refs:
-- 00_inbox/纪浩-AI协作方法论-口述.md
+  - src_20260606_6ea91aa8
 wiki_refs:
 - '[[ai-collaboration-mindset-shift]]'
 - '[[case-纪浩-skill-market-problem-validation]]'

@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-five-step-implementation
 component_of: '[[yt-five-step-method]]'
 confidence: 0.85
@@ -22,8 +23,8 @@ related:
 review_date: 2026-06-11
 reviewed_by: 老顷童
 source_refs:
-- 00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt
-- 00_inbox/一堂五步法/一堂-一堂五步法-落地实操-笔记.txt
+  - src_20260611_7c893d19
+  - src_20260611_a7097aed
 status: reviewed
 title: 五步法落地实操：从故事版到分工版
 trust_level: medium

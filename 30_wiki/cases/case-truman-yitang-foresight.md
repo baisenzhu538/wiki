@@ -1,12 +1,13 @@
 ---
+
 id: case-truman-yitang-foresight
 title: Truman一堂：市场扫描→六方向→Plan ABC试错
 type: case
 domain:
 - yitang
 source_refs:
-- 00_inbox/一堂-机会预判课-Truman-口述.txt
-- 00_inbox/一堂-机会预判课-truman-笔记.txt
+  - src_20260606_f6cb0868
+  - src_20260606_c996cb6a
 status: enriched
 confidence: 0.9
 difficulty: intermediate
