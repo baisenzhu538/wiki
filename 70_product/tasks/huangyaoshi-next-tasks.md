@@ -1761,3 +1761,60 @@ errors: 84
 ```
 
 实际可分批执行，不必一次完成全部 45 张。
+
+---
+
+## 🟢 当前执行中（2026-06-15 更新）
+
+> 以下任务已取代上文中的 stale backlog，按顺序执行。
+
+### S4-1：aliases 字段支持
+
+**来源**：思存知识库分享启发  
+**负责人**：黄药师  
+**优先级**：P0  
+**状态**：in_progress
+
+**目标**：解决同义不同名搜索不到的问题（如"精益创业"/"精益测试"、"关键假设"/"核心假设"）。
+
+**子任务**：
+1. `90_control/schemas/card-v1.5.yaml` 增加 `aliases` 字段（可选，list of strings）
+2. 搜索索引（graph/query）包含 aliases
+3. `kcard-quality-gate.py` 校验 aliases 格式
+4. 试点：为 `yt-lean-essence.md` 等 5 张卡添加 aliases
+
+**验收标准**：
+- [ ] schema 已更新
+- [ ] 搜索能命中 alias
+- [ ] 5 张试点卡通过质量门禁
+
+---
+
+### KF-021：705 张 source_refs hash 前缀补全为完整文件名
+
+**来源**：KF-020 抽检发现  
+**负责人**：黄药师  
+**优先级**：P1  
+**状态**：pending（S4-1 完成后启动）
+
+**背景**：KF-020 修复后，source_refs 离开了 `00_inbox/`，但只写了 hash 前缀（如 `src_20260610_91556342`），未写完整文件名。全库约 705 张卡存在此问题，导致 source 引用不精确、人不可读。
+
+**操作**：
+1. 扫描 `30_wiki/` 下所有 `source_refs` 以 `src_YYYYMMDD_hash` 格式且不含 `-` 的卡片
+2. 在 `10_raw/sources/` 中定位对应完整文件
+3. 将 frontmatter 中的 hash 前缀替换为完整文件名
+4. 如果同一 hash 前缀对应多个文件，需要人工判断（但应极少）
+
+**严禁**：
+- ❌ 不要只改引用而不确认文件存在
+- ❌ 不要批量改后不自检
+
+**验收标准**：
+- [ ] source_refs 中无纯 hash 前缀
+- [ ] 所有替换后的路径指向真实存在的文件
+- [ ] 质量门禁 P0=0、YAML errors=0
+- [ ] kdo_lint 不新增 ERROR
+
+---
+
+**备注**：上文 Task P（Bing Search API）等已完成，此处不再列为待办。

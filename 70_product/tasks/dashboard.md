@@ -1,9 +1,11 @@
 # Task Dashboard
 
-Generated: 2026-06-14T13:28:00+00:00
+Generated: 2026-06-15T15:00:00+00:00
 
 | ID | Title | Status | Assigned | Priority | File |
 |----|-------|--------|----------|----------|------|
+| s4-1-aliases-field | S4-1：卡片增加 aliases 字段，提升搜索体验 | in_progress | 黄药师 | P0 | huangyaoshi-next-tasks.md |
+| kf-021-source-refs-hash-completion | KF-021：705 张 source_refs hash 前缀补全为完整文件名 | pending | 黄药师 | P1 | kf021-spot-check-report-2026-06-15.md |
 | quality-gate-automation-v15 | 质量门自动化 — kdo validate --v15 | pending | 黄药师 | P1 | quality-gate-automation-v15.md |
 | domain-digest-cards | 按域摘要卡——agent 入职加速层 | pending | 黄药师 | P3 | domain-digest-cards.md |
 | kdo-scaffold-v15 | kdo scaffold — 为缺失 v1.5 信号的卡片自动生成升级骨架 | done | 黄药师 | P0 | kdo-scaffold-v15.md |
@@ -29,7 +31,7 @@ Generated: 2026-06-14T13:28:00+00:00
 
 ## Summary
 
-- **Total**: 20
+- **Total**: 22
 - **Done**: 4
-- **In Progress**: 0
+- **In Progress**: 1
 - **Pending**: 2

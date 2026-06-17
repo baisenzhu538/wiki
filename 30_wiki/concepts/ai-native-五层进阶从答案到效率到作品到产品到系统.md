@@ -15,7 +15,7 @@ related:
 - '[[yt-panproduct-execution-core-and-boundary]]'
 source_refs:
 - '["src_20260524_3cadf228"]'
-status: draft
+status: enriched
 title: AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
 type: framework
 updated_at: '2026-06-16'

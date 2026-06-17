@@ -1,13 +1,13 @@
 ---
 updated: 2026-06-15
 active_branch: main
-active_task: "KF-020验收通过(P0=P1=0)+决策域研究完成(Y模型哲学根基A级)+kdo_lint修复(2344→85)。待分配下轮任务。"
+active_task: "黄药师：S4-1 aliases字段支持(进行中) → KF-021 705张source_refs hash前缀补全(待启动)。"
 blockers:
   - "王语嫣角色正式升级AGENTS.md"
   - "231张draft精修池→分配老顽童下轮精修"
-  - "705张source_refs hash前缀补全(KF-021)与84个decisions域lint修复(KF-022)待排期"
+  - "黄药师S4-1完成验收后启动KF-021"
   - "极少量真悬空链接(中文卡名/不存在的卡片)需逐张人工判断，非脚本批修"
-next_session_hint: "用户说'继续'→ ① 王语嫣角色正式升级；② 231 draft精修池分配；③ KF-021/KF-022排期；④ 决策域深度研究下轮推进"
+next_session_hint: "用户说'继续'→ ① 王语嫣角色正式升级；② 231 draft精修池分配；③ 跟进黄药师S4-1/KF-021进度；④ 决策域深度研究下轮推进"
 ---
 
 ## 2026-06-12 变更
