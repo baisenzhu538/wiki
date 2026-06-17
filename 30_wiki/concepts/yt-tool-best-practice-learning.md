@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-best-practice-learning
 component_of:
 - yt-model-pan-product-aesthetic-toolkit
@@ -28,7 +29,7 @@ related:
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_0af1f6dd
+  - src_20260522_0af1f6dd-learning-thinking
 status: enriched
 title: 最佳实践学习四步法：从收集到超越
 type: tool

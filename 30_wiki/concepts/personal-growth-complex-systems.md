@@ -1,4 +1,5 @@
 ---
+
 id: personal-growth-complex-systems
 title: 个人成长：复杂系统、消除模糊与 AI 时代个体系统
 type: concept
@@ -8,12 +9,12 @@ domain:
 - learning-methodology
 - master
 source_refs:
-- src_20260614_fb753683
-- src_20260614_8d349c5b
-- src_20260614_82a4fdb9
-- src_20260614_6fb509a4
-- src_20260614_7963c2f2
-- src_20260614_720e62a1
+  - src_20260614_fb753683-世界发展-偶然与必然讨论
+  - src_20260614_8d349c5b-超级个体-百万美元架构师
+  - src_20260614_82a4fdb9-凯文凯利-必然趋势分享
+  - src_20260614_6fb509a4-自我提升-消除模糊
+  - src_20260614_7963c2f2-个人中国行：使命、教学创新与平台价值
+  - src_20260614_720e62a1-theme-personal-growth-summary
 tags:
 - '#domain/master'
 - '#method/learning-method'

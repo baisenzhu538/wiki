@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-five-step-method
 confidence: 0.8
 created_at: 2026-05-06
@@ -59,17 +60,17 @@ related:
 - '[[case-milktea-five-step]]'
 reviewed_by: 王语嫣
 source_refs:
-- src_20260614_8f80cb0f
-- src_20260510_1eb77650
-- src_20260510_8f50e43f
-- src_20260611_d913eb1d
-- src_20260611_3f4646aa
-- src_20260611_ccff2427
-- src_20260611_c0e6e182
-- src_20260611_c3d06675
-- src_20260611_7c3a2a57
-- src_20260611_173d9f0e
-- src_20260611_0f0a4c27
+  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
+  - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
+  - src_20260510_8f50e43f-堂五步法实操产品内核画布-堂
+  - src_20260611_d913eb1d-一堂-一堂五步法-序言-口述
+  - src_20260611_3f4646aa-一堂-一堂五步法-需求-口述
+  - src_20260611_ccff2427-一堂-一堂五步法-解决方案（产品内核）-口述
+  - src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述
+  - src_20260611_c3d06675-一堂-一堂五步法-增长-口述
+  - src_20260611_7c3a2a57-一堂-一堂五步法-壁垒-口述
+  - src_20260611_173d9f0e-一堂-一堂五步法-落地实操-笔记
+  - src_20260611_0f0a4c27-一堂-一堂五步法-增长-里程碑复盘_paddle_ocr
 status: enriched
 title: 一堂五步法
 trust_level: high

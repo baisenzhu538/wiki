@@ -1,11 +1,12 @@
 ---
+
 id: aigc文创案例设计课leo文创ip从0到1全流程
 created_at: 2026-05-28
 domain:
 - ai-saas
 - design
 source_refs:
-- src_20260528_4277c6be
+  - src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程
 status: draft
 title: AIGC文创案例设计课：Leo文创IP从0到1全流程
 type: concept

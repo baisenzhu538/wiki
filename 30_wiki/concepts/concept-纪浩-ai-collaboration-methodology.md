@@ -2,7 +2,7 @@
 id: concept-纪浩-ai-collaboration-methodology
 title: 纪浩 AI 协作方法论：从判断到规模复用的五层体系
 type: concept
-status: draft
+status: enriched
 domain:
 - ai-collaboration
 - yitang
@@ -13,7 +13,7 @@ source_refs:
 - 00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md
 - 00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md
 created_at: 2026-06-07
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 related:
 - '[[skill-纪浩-真需求四要素验证法]]'
 - '[[skill-纪浩-日志驱动排查法]]'
@@ -23,12 +23,24 @@ related:
 - '[[dk-纪浩-logs-fastest-ignored]]'
 - '[[case-纪浩-from-zip-to-five-layers]]'
 - '[[dk-yb5-style-asset-archive]]'
+- '[[yt-note-ai-human-division]]'
+- '[[case-纪浩-focus-prompt-design]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
 - confidence-verified-by-case
+diagnostic_signals:
+- signal: 你准备让AI做一个新项目，但说不清解决前后的具体状态变化
+  framework_lens: L1 四要素验证缺失
+  follow_up_question: 你能用一句话描述 Before-After 吗？受益人是谁？有没有真实锚点？
+- signal: AI 输出质量忽高忽低，同一类任务需要反复调提示词
+  framework_lens: L2 Agent Workspace 不完整
+  follow_up_question: 你的领域知识、导诊台、工作手册、经验模式库、任务管理、日志是否都齐备？
+- signal: 团队里每个人用 AI 的方式都不一样，好的配置无法复用
+  framework_lens: L5 Skills Market 未建立
+  follow_up_question: 你的 Skill 描述是按 Agent 可自安装的方式写的，还是只给人看的说明？
 author: 纪浩
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
 ---
@@ -39,6 +51,26 @@ trust_level: low
 ## Summary
 
 纪浩的 AI 协作方法论是一个五层体系：L1 四要素验证（判断真需求）→ L2 Agent Workspace 设计（搭建 AI 的工作环境）→ L3 Do-first PDCA（从行动开始的迭代循环）→ L4 双三角模型（人让 AI 变强 ≠ AI 让人变强）→ L5 Skills Market（规模复用）。五层不是孤立的，是一条链——每一层是下一层的前提。贯穿始终的底层哲学：必要难度 + A+1 原则 + 保持手感 + "选择不用 AI 的权利"。
+
+## Constraints & Boundaries
+
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 已有明确工作领域或真实问题 | L1 四要素验证要求能清晰描述 Before-After；探索阶段连问题都没有时，四要素无从验证 |
+| ✅ 任务可重复、可结构化 | Agent Workspace 和 Skills Market 对一次性创意任务 ROI 低，更适合有重复执行场景的工作 |
+| ✅ 执行错误的成本可接受 | Do-first PDCA 允许在行动中修正，但如果第一次 Do 的方向完全错误，后续迭代会加深错误 |
+| ✅ 团队有持续维护意愿 | Workspace 五模块和 Skills Market 会随使用膨胀，没有维护预算会退化为信息坟场 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:------|:-----|
+| **四要素凑数但无真实锚点** | 四要素表填满了，但 Before-After 来自想象，找不到具体用户、场景或可验证的数据 | 强制每个要素附一个可验证的事实或访谈记录；任意一项缺失即停止，先补调研 |
+| **Workspace 变成资料坟场** | 导诊台、工作手册越写越长，AI 开始"找不到信息"或输出幻觉，同一条规则反复问 | 按"一次对话一个任务"做渐进式披露；每两周用日志驱动排查删除失效模块 |
+| **PDCA 循环空转** | 从一步拆成八步，但每次 Check 只改提示词，不改 Workspace 结构或 Skill | 每次 Check 必须输出一个要改的结构（文档/规则/模板）；Act 阶段只改结构，提示词由结构自动生成 |
+| **Skills Market 给人看而不是给 Agent 用** | Skill 描述写得像操作说明，Agent 无法按 capability 匹配、自安装或自上报 | 用"输入-能力-输出-反馈"四元组写描述；让 AI 根据描述自动生成安装说明和调用示例 |
 
 ## Claims
 
@@ -107,7 +139,7 @@ trust_level: low
 ## Synthesis
 
 | 关系 | 目标节点 | 说明 |
-|---|---|---|---|
+|---|---|---|
 | 技能落地 | [[skill-纪浩-真需求四要素验证法]] | L1 四要素验证——真需求的判断门禁 |
 | 技能落地 | [[skill-纪浩-AI工作空间与导诊台设计法]] | L2 Agent Workspace 搭建——五大模块的搭建方法 |
 | 技能落地 | [[skill-纪浩-Do-first-PDCA渐进迭代法]] | L3 Do-first PDCA——从行动开始的迭代流程 |
@@ -118,8 +150,24 @@ trust_level: low
 | 暗知识 | [[dk-纪浩-pdca-starts-from-do]] | "PDCA 从 Do 开始不是从 Plan 开始" |
 | 暗知识 | [[dk-纪浩-logs-fastest-ignored]] | "日志增长最快但最容易被忽视" |
 | 案例 | [[case-纪浩-from-zip-to-five-layers]] | Skills 市场——给 Agent 用的分发平台 |
+| 案例 | [[case-纪浩-focus-prompt-design]] | 聚焦提示词设计——四要素验证与导诊台的具体应用 |
 | 对位 | [[case-truman-ai-partner]] | Truman AI Partner——同一套模式的哲学层表述 |
 | 对位 | [[yt-note-ai-human-division]] | AI 时代笔记分工——纪浩的"人让AI变强≠AI让人变强"和 Truman 的分工边界是同构的 |
+
+## 落地工具：纪浩五层体系项目启动检查清单
+
+| 层级 | 检查项 | 通过标准 |
+|:---:|:---|:---|
+| L1 | 四要素是否都有真实锚点？ | 能说出至少一个具体用户/场景/数据，而非"应该会更好" |
+| L1 | Before-After 能否一句话说清？ | 用"从 __ 变成 __"格式描述，且受益人可命名 |
+| L2 | Agent Workspace 五模块是否已命名？ | 系统自述、领域知识、Agent 服务文档、任务管理、日志均有对应文档/目录 |
+| L2 | 导诊台是否按场景而非分类组织？ | 一个入口对应一类高频任务，而非按"文档/代码/数据"分类 |
+| L3 | 第一次 Do 是否有可验证的最小输出？ | 能在 30 分钟内得到一次 AI 产出，并据此做 Check |
+| L3 | Check 是否指向结构改进而非提示词微调？ | 每次 Check 产出至少一条"要改的文档/规则/模板" |
+| L4 | 是否明确人让 AI 变强的 manager 动作？ | 列出本任务中必须由人判断/验收的 3 个关键点 |
+| L4 | 是否预留 AI 让人变强的挑战动作？ | 至少保留一个"不用 AI、手动完成"的子步骤以保持手感 |
+| L5 | Skill 描述是否按 Agent 可自安装格式写？ | 包含输入、能力、输出、反馈四元组，AI 能据此生成安装说明 |
+| L5 | 是否有复用路径（分类+capability+匹配规则）？ | 其他 Agent 能根据任务特征找到并调用该 Skill |
 
 ### 不要用的场景
 

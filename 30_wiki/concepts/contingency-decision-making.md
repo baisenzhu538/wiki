@@ -1,4 +1,5 @@
 ---
+
 id: contingency-decision-making
 type: concept
 domain:
@@ -8,7 +9,7 @@ domain:
 - yitang
 status: draft
 source_refs:
-- src_20260606_cde17edd
+  - src_20260606_cde17edd-大的事件它可能是必然的它是被计划的
 component_of: null
 related:
 - '[[ai-collaboration-mindset-shift]]'

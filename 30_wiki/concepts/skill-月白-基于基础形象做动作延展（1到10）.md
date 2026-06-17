@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-基于基础形象做动作延展（1到10）
 title: 技能：基于基础形象做动作延展（1到10）
 type: "tool"
@@ -9,7 +10,7 @@ domain:
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260528_4277c6be）
 source_refs:
-- src_20260528_4277c6be
+  - src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程
 wiki_refs: null
 definition_of_done:
 - 操作步骤清晰可执行

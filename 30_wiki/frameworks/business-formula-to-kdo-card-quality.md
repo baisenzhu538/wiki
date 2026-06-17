@@ -1,11 +1,12 @@
 ---
+
 id: business-formula-to-kdo-card-quality
 title: 业务公式 ABC → KDO 卡片质量：用公式思维诊断知识卡的健康度
 type: framework
 source_refs:
-- src_20260613_6edbf0af
-- src_20260613_a8bcfd38
-- src_20260613_6b939d2b
+  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
+  - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
+  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 status: enriched
 confidence: 0.8
 domain:

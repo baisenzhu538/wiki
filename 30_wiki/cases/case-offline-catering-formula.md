@@ -1,4 +1,5 @@
 ---
+
 id: case-offline-catering-formula
 title: 线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定
 type: case
@@ -7,9 +8,9 @@ domain:
 - yitang
 - business-strategy
 source_refs:
-- src_20260613_6b939d2b
-- src_20260613_6edbf0af
-- src_20260613_a8bcfd38
+  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
+  - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 tags:
 - '#method/evaluation-method'
 - '#content-format/case-study'

@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-review
 component_of:
 - yt-decision-y-model
@@ -29,7 +30,7 @@ related:
 - '[[yt-unit-model-ladder]]'
 - '[[yt-unit-model-benchmark]]'
 source_refs:
-- src_20260614_8f80cb0f
+  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
 title: 决策复盘工具：L1-L4深度复盘法 + 假设验证闭环
 trust_level: medium

@@ -1,4 +1,5 @@
 ---
+
 id: case-smart-medicine-cabinet-business-model-validation
 title: 智能药柜推广项目：录音商业模式命题交叉验证
 type: case
@@ -7,7 +8,7 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
-- src_20260613_732d251f
+  - src_20260613_732d251f-itingnao-deep-dive-business-model
 created_at: 2026-06-15
 updated_at: 2026-06-17
 author: 王语嫣

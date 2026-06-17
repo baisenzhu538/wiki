@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-deep-review-iceberg
 confidence: 0.85
 created_at: 2026-05-11
@@ -16,9 +17,9 @@ query_triggers:
   - "深度复盘冰山图：从主观感受到能力建设的五层穿透"
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/assets/yitang/一堂深度复盘冰山图.png"
+  - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 source_refs:
-- src_20260522_c92a36ba
+  - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 status: enriched
 title: "深度复盘冰山图：从主观感受到能力建设的五层穿透"
 type: framework

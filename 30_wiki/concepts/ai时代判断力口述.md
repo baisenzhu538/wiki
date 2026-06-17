@@ -1,10 +1,11 @@
 ---
+
 id: "ai时代判断力口述"
 created_at: 2026-05-25
 domain:
   - healthcare
 source_refs:
-  - src_20260525_6748cc27
+  - src_20260525_6748cc27-ai时代判断力口述
 status: enriched
 title: "AI时代判断力口述"
 type: concept

@@ -7,10 +7,9 @@ domain:
 - consulting
 - yitang
 source_refs:
-- 'Minto, B. (2009). *The Pyramid Principle: Logic in Writing and Thinking*. 3rd ed.
-  FT Press.'
-- Rasiel, E. (1999). *The McKinsey Way*. McGraw-Hill.
-- src_20260614_8269ccdb
+  - Minto, B. (2009). *The Pyramid Principle: Logic in Writing and Thinking*. 3rd ed. FT Press.
+  - Rasiel, E. (1999). *The McKinsey Way*. McGraw-Hill.
+  - src_20260614_8269ccdb
 bridges_to:
 - target: skill-一堂-kernel-three-questions
   relation: provides_foundation_for

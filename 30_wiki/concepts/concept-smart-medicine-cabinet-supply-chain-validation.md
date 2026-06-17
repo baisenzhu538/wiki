@@ -1,4 +1,5 @@
 ---
+
 id: concept-smart-medicine-cabinet-supply-chain-validation
 title: 智能药柜供应链/技术方案交叉验证
 type: concept
@@ -7,7 +8,7 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
-- src_20260613_90085bca
+  - src_20260613_90085bca-itingnao-deep-dive-supply-chain
 created_at: 2026-06-15
 updated_at: 2026-06-15
 author: 王语嫣

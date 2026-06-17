@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-liberate-thinking
 confidence: 0.8
 created_at: 2026-05-06
@@ -23,7 +24,7 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-- src_20260609_d22e1266
+  - src_20260609_d22e1266-ocr-一堂-个人修炼-解放思想
 status: enriched
 title: 解放思想
 trust_level: medium

@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-建立知识联系
 title: 技能：建立知识联系
 type: "tool"
@@ -9,7 +10,7 @@ status: draft
 source_person: 一堂课程
 source_context: src_20260522_dee56cff
 source_refs:
-- src_20260522_dee56cff
+  - src_20260522_dee56cff-ocr-一堂-个人修炼-科学学习ipo-全景策略
 definition_of_done:
 - 操作步骤清晰可执行
 - 适用场景有正反例

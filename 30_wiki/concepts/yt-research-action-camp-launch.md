@@ -1,11 +1,12 @@
 ---
+
 id: yt-research-action-camp-launch
 title: "一堂调研行动营 · 启动课（LLM 精炼）"
 type: concept
 status: reviewed
 source_refs:
-  - src_20260506_e4634e13
-  - src_20260507_67cb7ed2
+  - src_20260506_e4634e13-说话人1-00-00
+  - src_20260507_67cb7ed2-说话人1-00-00
 created_at: 2026-05-05
 domain:
   - yitang

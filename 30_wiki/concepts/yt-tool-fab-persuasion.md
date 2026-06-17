@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-fab-persuasion
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -27,7 +28,7 @@ related:
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
-- src_20260614_8f80cb0f
+  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
 title: FAB核心说服：从产品特性到用户利益的转化法
 type: tool

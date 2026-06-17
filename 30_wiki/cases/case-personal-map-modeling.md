@@ -1,9 +1,10 @@
 ---
+
 id: case-personal-map-modeling
 title: 案例：一堂个人地图的完整建模过程（方法论视角）
 type: case
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
 - yitang

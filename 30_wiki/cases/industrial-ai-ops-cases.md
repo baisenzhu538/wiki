@@ -1,4 +1,5 @@
 ---
+
 id: industrial-ai-ops-cases
 title: 产业 AI 运营落地：酒店/房产/电商三大案例的去伪存真
 type: case
@@ -10,9 +11,9 @@ domain:
 - ai-saas
 - entrepreneur
 source_refs:
-- src_20260614_eca9f5b3
-- src_20260614_b85c364e
-- src_20260614_4b3b6427
+  - src_20260614_eca9f5b3-酒店行业-AI标签审核案例
+  - src_20260614_b85c364e-贝壳-云管家AI外呼案例
+  - src_20260614_4b3b6427-阿豪-自动选品系统案例
 related:
 - '[[fd-forward-deployment]]'
 source_person: 多位产业从业者（酒店 SaaS、贝壳云管家、电商阿豪）

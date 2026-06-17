@@ -1,4 +1,5 @@
 ---
+
 id: 鑫港湾his系统分阶段整改报告
 created_at: 2026-04-28
 domain:
@@ -6,7 +7,7 @@ domain:
 review_date: 2026-05-03
 reviewed_by: Claude
 source_refs:
-- src_20260428_db49a647
+  - src_20260428_db49a647-鑫港湾his系统分阶段整改报告
 status: enriched
 title: 鑫港湾HIS系统分阶段整改报告
 trust_level: medium

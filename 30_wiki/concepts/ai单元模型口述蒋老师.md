@@ -1,4 +1,5 @@
 ---
+
 id: ai单元模型口述蒋老师
 confidence: 0.85
 created_at: 2026-05-25
@@ -16,7 +17,7 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[ai时代判断力口述-3]]'
 source_refs:
-- src_20260525_92ea6173
+  - src_20260525_92ea6173-ai单元模型口述蒋老师
 speaker: 蒋老师（磊哥），一堂合伙人、教练
 status: enriched
 title: AI+单元模型口述（蒋老师/磊哥）

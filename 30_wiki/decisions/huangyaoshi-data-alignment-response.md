@@ -1,4 +1,5 @@
 ---
+
 id: huangyaoshi-data-alignment-response
 title: 黄药师对齐回应：对欧阳锋补充的意见 + 4 个分歧
 type: decision
@@ -22,7 +23,7 @@ author: unknown
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
-- src_20260503_52ae08ba
+  - src_20260503_52ae08ba-kdo_product_design_agent_final
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

@@ -1,4 +1,5 @@
 ---
+
 id: ai-complex-communication
 title: AI 辅助复杂职场沟通：角色扮演、攻防演练与受众适配
 type: framework
@@ -10,7 +11,7 @@ domain:
 - ai-collaboration
 - management
 source_refs:
-- src_20260614_d79b42d1
+  - src_20260614_d79b42d1-D同学-AI技术落地案例
 related:
 - '[[industrial-ai-ops-cases]]'
 - '[[yt-entrepreneur-product-core]]'

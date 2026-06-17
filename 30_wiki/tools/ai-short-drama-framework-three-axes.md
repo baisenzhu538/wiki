@@ -1,11 +1,12 @@
 ---
+
 id: ai-short-drama-framework-three-axes
 title: 框架三板斧：短剧英雄之旅结构工具
 type: tool
 source_refs:
-- src_20260613_1ade007d
-- src_20260613_687c4ec0
-- src_20260613_12d63c1c
+  - src_20260613_1ade007d-framework-three-axes
+  - src_20260613_687c4ec0-transcript
+  - src_20260613_12d63c1c-notes
 status: draft
 domain:
 - yitang

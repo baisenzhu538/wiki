@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-execution-war-room
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -30,7 +31,7 @@ related:
 - '[[yt-decision-consensus-iceberg]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_cbb3b77d
+  - src_20260522_cbb3b77d-ocr-泛产品设计-落地卡片-攻坚会
 status: enriched
 title: 泛产品设计·落地卡片：攻坚会
 type: tool

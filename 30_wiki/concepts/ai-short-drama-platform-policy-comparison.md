@@ -1,11 +1,12 @@
 ---
+
 id: ai-short-drama-platform-policy-comparison
 title: 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果
 type: concept
 source_refs:
-- src_20260613_500dbed8
-- src_20260613_12d63c1c
-- src_20260613_687c4ec0
+  - src_20260613_500dbed8-platform-policy-comparison
+  - src_20260613_12d63c1c-notes
+  - src_20260613_687c4ec0-transcript
 status: enriched
 domain:
 - yitang

@@ -1,9 +1,10 @@
 ---
+
 id: case-essence-education-strategy
 title: 案例：教育本质与战略本质的提炼
 type: case
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: draft
 domain:
 - yitang

@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-scientific-questioning-map
 confidence: 0.85
 created_at: 2026-05-07
@@ -16,10 +17,9 @@ query_triggers:
   - "通用工具箱"
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-  - "10_raw/assets/yitang/一堂-个人修炼-科学提问刻意练习.png"
+  - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 source_refs:
-- src_20260609_e13d29d9
+  - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 status: enriched
 title: "科学提问刻意练习地图"
 type: framework

@@ -1,4 +1,5 @@
 ---
+
 id: yt-prompt-engineering-andrew-ng
 confidence: 0.8
 created_at: 2026-05-13
@@ -27,7 +28,7 @@ reviewed_by: 黄药师
 source_of:
 - yt-model-prompt-engineering
 source_refs:
-- src_20260522_a89ab860
+  - src_20260522_a89ab860-meta-prompt-eng
 status: enriched
 title: 吴恩达提示词课程·一堂拆书精华
 type: report

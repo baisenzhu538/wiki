@@ -1,10 +1,11 @@
 ---
+
 id: "EC工业化规范手册"
 created_at: 2026-05-03
 domain:
   - healthcare
 source_refs:
-  - src_20260503_dadc7838
+  - src_20260503_dadc7838-EC工业化规范手册
 status: enriched
 title: "EC工业化规范手册"
 type: concept

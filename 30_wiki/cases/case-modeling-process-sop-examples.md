@@ -1,4 +1,5 @@
 ---
+
 id: case-modeling-process-sop-examples
 title: 流程建模案例：10 个学员企业的 SOP 实践样本
 type: case
@@ -8,8 +9,8 @@ domain:
 - master
 - modeling
 source_refs:
-- src_20260614_1e814b94
-- src_20260614_8269ccdb
+  - src_20260614_1e814b94-Truman-高阶建模-流程建模-图-02
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:
 - "#case"
 - "#method/modeling"

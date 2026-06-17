@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-demand-need-discovery
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -25,7 +26,7 @@ related:
 - '[[yt-panproduct-demand-user-perspective]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_11af6cd2
+  - src_20260522_11af6cd2-ocr-泛产品设计-用户卡片-需求挖掘
 status: enriched
 title: 泛产品设计·用户卡片：需求挖掘
 type: tool

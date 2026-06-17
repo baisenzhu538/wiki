@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-mental-model-refinement
 component_of:
 - yt-model-personal-map
@@ -31,7 +32,7 @@ related:
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
-- src_20260613_96e45c45
+  - src_20260613_96e45c45-qishijian-business-model
 status: enriched
 title: 思维模型提炼：从体感经验到可复用武器库
 type: tool

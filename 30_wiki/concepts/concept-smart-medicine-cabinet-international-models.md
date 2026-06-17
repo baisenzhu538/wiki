@@ -1,4 +1,5 @@
 ---
+
 id: concept-smart-medicine-cabinet-international-models
 title: 国际自动取药机/药房模式经验与启示
 type: concept
@@ -7,8 +8,8 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
-- src_20260613_f23b86fa
-- src_20260613_c5f5a7ce
+  - src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison
+  - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 created_at: 2026-06-15
 updated_at: 2026-06-15
 author: 王语嫣

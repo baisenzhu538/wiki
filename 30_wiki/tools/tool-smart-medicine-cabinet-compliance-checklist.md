@@ -1,4 +1,5 @@
 ---
+
 id: tool-smart-medicine-cabinet-compliance-checklist
 title: 智能药柜/医药项目合规快速校验清单
 type: tool
@@ -7,7 +8,7 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
-- src_20260613_2286ccfb
+  - src_20260613_2286ccfb-itingnao-deep-dive-compliance
 created_at: 2026-06-15
 updated_at: 2026-06-15
 author: 王语嫣

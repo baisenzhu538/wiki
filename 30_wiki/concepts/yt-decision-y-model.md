@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-y-model
 confidence: 0.85
 created_at: 2026-05-17
@@ -30,8 +31,8 @@ related:
 - '[[yt-five-step-method]]'
 reviewed_by: 周伯通
 source_refs:
-- src_20260609_f00cad16
-- src_20260616_aac184cc
+  - src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02
+  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 status: enriched
 title: Y模型科学决策框架（广义ROI）
 trust_level: medium

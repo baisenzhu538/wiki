@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-execution-low-cost-mvp
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -31,7 +32,7 @@ related:
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260609_9168476b
+  - src_20260609_9168476b-ocr-泛产品设计-落地卡片-低成本测试mvp
 status: enriched
 title: 泛产品设计·落地卡片：低成本测试MVP
 type: tool

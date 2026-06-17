@@ -1,4 +1,5 @@
 ---
+
 id: yt-tob-sales-unit-model
 title: To B 单销售模型：时间闭环 + 空间闭环
 type: concept
@@ -9,10 +10,10 @@ domain:
 - b2b
 - business-strategy
 source_refs:
-- src_20260616_0e684368
-- src_20260616_5f991553
-- src_20260616_18764078
-- src_20260616_aac184cc
+  - src_20260616_0e684368
+  - src_20260616_5f991553
+  - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
+  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 tags:
 - '#method/evaluation-method'
 - '#method/thinking-tool'

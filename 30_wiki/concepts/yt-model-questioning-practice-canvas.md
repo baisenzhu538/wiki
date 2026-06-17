@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-questioning-practice-canvas
 confidence: 0.85
 created_at: 2026-05-07
@@ -16,10 +17,9 @@ query_triggers:
   - "知识体系定位"
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-  - "10_raw/assets/yitang/一堂-个人修炼-提问刻意练习画布.png"
+  - src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
 source_refs:
-- src_20260510_e4a6ef49
+  - src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
 status: enriched
 title: "提问刻意练习提升画布"
 type: framework

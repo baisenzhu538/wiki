@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-pan-product-exploration
 component_of:
 - yt-composite-pan-product-methodology
@@ -21,7 +22,7 @@ related:
 - '[[yt-personal-pan-product-tools]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260510_fab64a96
+  - src_20260510_fab64a96-个人修炼-泛产品设计探索营
 status: enriched
 title: 泛产品设计探索营：案例启发与认知重构
 type: concept

@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-execution-management-trilogy
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -28,7 +29,7 @@ related:
 - '[[yt-panproduct-execution-roi-analysis]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_8d5cc8b0
+  - src_20260522_8d5cc8b0-ocr-泛产品设计-落地卡片-管理三段论
 status: enriched
 title: 泛产品设计·落地卡片：管理三段论
 type: tool

@@ -1,4 +1,5 @@
 ---
+
 id: case-hr-saas-feature-usage-trap
 title: HR SaaS：把“功能使用率↑续费率↑”当因果的功能堆砌陷阱
 type: case
@@ -8,9 +9,9 @@ domain:
 - ai-saas
 - business-strategy
 source_refs:
-- src_20260613_6b939d2b
-- src_20260613_6edbf0af
-- src_20260613_a8bcfd38
+  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
+  - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 tags:
 - '#method/evaluation-method'
 - '#content-format/case-study'

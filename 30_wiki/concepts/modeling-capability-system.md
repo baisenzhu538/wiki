@@ -1,11 +1,12 @@
 ---
+
 id: modeling-capability-system
 title: 高阶建模能力体系：一堂从经验到规律的教研方法论
 type: concept
 source_refs:
-- src_20260614_8269ccdb
-- src_20260614_42f1e977
-- src_20260614_623cfbfd
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+  - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
+  - src_20260614_623cfbfd-高阶建模-流程建模
 status: enriched
 domain:
 - yitang

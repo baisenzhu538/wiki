@@ -1,9 +1,10 @@
 ---
+
 id: tool-ai-skill-engineering-method
 title: AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位
 type: tool
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: draft
 domain:
 - yitang

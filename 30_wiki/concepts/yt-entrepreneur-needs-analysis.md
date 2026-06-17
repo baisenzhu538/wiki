@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-needs-analysis
 confidence: 0.7
 created_at: 2026-05-06
@@ -23,7 +24,7 @@ related:
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:
-- src_20260611_375ccfae
+  - src_20260611_375ccfae-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr
 status: enriched
 title: 需求分析
 trust_level: medium

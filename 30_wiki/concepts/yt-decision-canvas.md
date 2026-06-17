@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-canvas
 component_of:
 - yt-decision-y-model
@@ -32,8 +33,8 @@ related:
 - '[[case-truman-poker-deck-roi]]'
 reviewed_by: 周伯通
 source_refs:
-- src_20260510_1eb77650
-- src_20260616_aac184cc
+  - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
+  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 status: enriched
 title: Y模型决策画布（一页纸工具）
 trust_level: medium

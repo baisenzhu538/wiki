@@ -1,10 +1,11 @@
 ---
+
 id: dk-modeling-ai-iterative-prompting
 title: AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限
 type: dark-knowledge
 dark_knowledge_type: pattern
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: draft
 domain:
 - yitang

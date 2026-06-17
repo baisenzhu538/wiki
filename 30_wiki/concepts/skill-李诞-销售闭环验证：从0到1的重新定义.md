@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-李诞-销售闭环验证：从0到1的重新定义
 title: 技能：销售闭环验证：从0到1的重新定义
 type: "tool"
@@ -12,7 +13,7 @@ created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
 source_refs:
-- src_20260528_4277c6be
+  - src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260528_4277c6be）
 updated_at: '2026-06-16'
 ---

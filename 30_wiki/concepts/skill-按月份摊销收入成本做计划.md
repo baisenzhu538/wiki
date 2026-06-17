@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-按月份摊销收入成本做计划
 title: 技能：按月份摊销收入成本做计划
 type: "tool"
@@ -12,7 +13,7 @@ status: draft
 source_person: 一堂课程（未具名讲师）
 source_context: src_20260609_99032bf9
 source_refs:
-- src_20260609_99032bf9
+  - src_20260609_99032bf9-ocr-一堂-单元模型-示例
 definition_of_done:
 - 操作步骤清晰可执行
 - 适用场景有正反例

@@ -1,4 +1,5 @@
 ---
+
 id: case-ether-online-acquisition
 title: 案例：以太利用全网调研能力快速获客
 type: case
@@ -18,8 +19,8 @@ source_person: Truman
 source_context: 一堂课程，规模经济章节；以太资本对接平台用全网调研能力扫描新上创业项目并自动化跟进
 source_refs:
   - source_unknown
-  - src_20260614_6b2c4f5b
-  - src_20260611_3e450477
+  - src_20260614_6b2c4f5b-一堂-To-B业务探索分享
+  - src_20260611_3e450477-一堂-一堂五步法-增长-线上获客小抄_paddle_ocr
 wiki_refs:
   - "[[yt-scale-economy-weapon-library]]"
   - "[[yt-customer-acquisition-toolkit]]"

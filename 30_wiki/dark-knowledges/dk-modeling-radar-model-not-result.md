@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-radar-model-not-result
 title: 复杂评选别让 CEO 拍结果，只让 CEO 审模型
 type: dark-knowledge
@@ -10,7 +11,7 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 confidence: 0.8
 trust_level: medium
 related:

@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-ipo-complete-checklist
 confidence: 0.85
 created_at: 2026-05-07
@@ -18,10 +19,9 @@ query_triggers:
   - "输出 Output"
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-  - "10_raw/assets/yitang/一堂-个人修炼-科学学习IPO完整清单.jpg"
+  - src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
 source_refs:
-- src_20260609_e3a27299
+  - src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
 status: enriched
 title: "IPO 科学学习完整清单"
 type: framework

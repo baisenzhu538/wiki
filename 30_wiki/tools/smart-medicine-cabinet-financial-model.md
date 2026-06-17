@@ -1,4 +1,5 @@
 ---
+
 id: smart-medicine-cabinet-financial-model
 title: 智能药柜单点财务模型与回本测算表
 type: tool
@@ -8,10 +9,10 @@ domain:
 - pharmaceutical-retail
 - financial-model
 source_refs:
-- src_20260613_26c69f98
-- src_20260613_6ed8df4b
-- src_20260613_b0cac5a3
-- src_20260613_c5f5a7ce
+  - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
+  - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
+  - src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness
+  - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 tags:
 - '#industry/healthcare'
 created_at: '2026-06-14'

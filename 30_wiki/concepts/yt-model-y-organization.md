@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-y-organization
 confidence: 0.85
 created_at: 2026-05-07
@@ -17,10 +18,9 @@ query_triggers:
   - "知识体系定位"
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-  - "10_raw/assets/yitang/一堂-个人修炼-Y模型.jpg"
+  - src_20260613_96e45c45-qishijian-business-model
 source_refs:
-- src_20260613_96e45c45
+  - src_20260613_96e45c45-qishijian-business-model
 status: enriched
 title: "Y 型创业模型"
 type: framework

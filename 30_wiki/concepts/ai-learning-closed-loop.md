@@ -1,4 +1,5 @@
 ---
+
 id: ai-learning-closed-loop
 type: concept
 domain:
@@ -8,7 +9,7 @@ domain:
 - business-strategy
 status: draft
 source_refs:
-- src_20260606_90b44191
+  - src_20260606_90b44191-没有人呀现在
 component_of: null
 related:
 - '[[course-to-skill-conversion]]'

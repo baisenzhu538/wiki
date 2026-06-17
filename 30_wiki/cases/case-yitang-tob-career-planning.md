@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-tob-career-planning
 title: 案例：新高考选科与生涯规划项目失败复盘
 type: case
@@ -9,8 +10,8 @@ domain:
   - b2b
   - education
 source_refs:
-  - src_20260616_aac184cc
-  - src_20260616_18764078
+  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
+  - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
 tags:
   - '#domain/yitang'
   - '#domain/b2b'

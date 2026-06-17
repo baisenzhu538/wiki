@@ -1,10 +1,11 @@
 ---
+
 id: knowledge-delivery-os-快速体验指南-飞书云文档
 created_at: 2026-04-30
 domain:
 - master
 source_refs:
-- src_20260501_6a491b80
+  - src_20260501_6a491b80-knowledge-delivery-os-快速体验指南-飞书云文档
 status: enriched
 title: Knowledge Delivery OS 快速体验指南 - 飞书云文档
 type: concept

@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-pan-product-concepts
 component_of:
 - yt-composite-pan-product-methodology
@@ -24,7 +25,7 @@ related:
 - '[[yt-model-pan-product-three-virtues]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260614_720e62a1
+  - src_20260614_720e62a1-theme-personal-growth-summary
 status: enriched
 title: 泛产品设计认知篇：重新理解泛化产品能力
 type: concept

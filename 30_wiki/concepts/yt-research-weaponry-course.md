@@ -1,11 +1,12 @@
 ---
+
 id: yt-research-weaponry-course
 title: 一堂调研武器库课程
 type: concept
 status: reviewed
 source_refs:
-- src_20260506_bb9048a6
-- src_20260507_debc47be
+  - src_20260506_bb9048a6-第一个举手
+  - src_20260507_debc47be-第一个举手
 created_at: 2026-05-05
 domain:
 - yitang

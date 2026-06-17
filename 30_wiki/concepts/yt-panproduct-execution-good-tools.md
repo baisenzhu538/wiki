@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-execution-good-tools
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -27,7 +28,7 @@ related:
 - '[[yt-panproduct-execution-realistic-simulation]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_7ddf8bf2
+  - src_20260522_7ddf8bf2-ocr-泛产品设计-落地卡片-善用佳软
 status: enriched
 title: 泛产品设计·落地卡片：善用佳软
 type: tool

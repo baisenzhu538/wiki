@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-personal-pitch-toolkit
 component_of:
 - yt-model-personal-map
@@ -28,7 +29,7 @@ related:
 - '[[yt-model-prompt-engineering]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260614_8bd357d3
+  - src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary
 status: enriched
 title: 十指讲香模型（框架）
 type: framework

@@ -1,5 +1,6 @@
 ---
 
+
 id: concept-一堂-key-assumptions
 title: 关键假设思维：259工具与假设驱动的创业方法
 type: concept
@@ -11,7 +12,7 @@ domain:
 source_person: Truman
 source_context: 一堂关键假设课（2026年）
 source_refs:
-  - src_20260606_9dd317aa
+  - src_20260606_9dd317aa-一堂-关键假设课-truman-口述
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:

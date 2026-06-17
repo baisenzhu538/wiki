@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-demand-scenario-walkthrough
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -26,7 +27,7 @@ related:
 - '[[yt-panproduct-demand-need-discovery]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_3bc67cbd
+  - src_20260522_3bc67cbd-ocr-泛产品设计-用户卡片-场景推演
 status: enriched
 title: 泛产品设计·用户卡片：场景推演
 type: tool

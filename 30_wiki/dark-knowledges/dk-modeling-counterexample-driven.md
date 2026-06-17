@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-counterexample-driven
 title: 建模不是找证据证明自己是对的，而是用反例把自己逼到没漏洞为止
 type: dark-knowledge
@@ -10,8 +11,8 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训（抽象建模与本质建模方法论），2026-06-12
 source_refs:
-- src_20260614_8269ccdb
-- src_20260614_42f1e977
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+  - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 confidence: 0.8

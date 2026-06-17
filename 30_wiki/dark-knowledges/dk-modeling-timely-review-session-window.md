@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-timely-review-session-window
 title: 离开业务现场再复盘，质量会掉一大半：及时复盘必须卡在 session 窗口内
 type: dark-knowledge
@@ -10,8 +11,8 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训（流程建模原则），2026-06-12
 source_refs:
-- src_20260614_8269ccdb
-- src_20260614_623cfbfd
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+  - src_20260614_623cfbfd-高阶建模-流程建模
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 related:

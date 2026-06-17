@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-lean-validation
 confidence: 0.8
 created_at: 2026-05-06
@@ -32,10 +33,10 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-- src_20260609_9168476b
-- src_20260616_b1e25c49
-- src_20260616_7dc80216
-- src_20260616_6c8b240b
+  - src_20260609_9168476b-ocr-泛产品设计-落地卡片-低成本测试mvp
+  - src_20260616_b1e25c49
+  - src_20260616_7dc80216
+  - src_20260616_6c8b240b
 status: enriched
 title: 低成本验证/MVP
 trust_level: medium

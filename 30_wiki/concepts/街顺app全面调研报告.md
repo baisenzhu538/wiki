@@ -1,4 +1,5 @@
 ---
+
 id: 街顺app全面调研报告
 created_at: 2026-04-26
 domain:
@@ -6,7 +7,7 @@ domain:
 review_date: 2026-05-03
 reviewed_by: Claude
 source_refs:
-- src_20260427_970eb338
+  - src_20260427_970eb338-街顺app全面调研报告
 status: reviewed
 title: 街顺APP全面调研报告
 trust_level: medium

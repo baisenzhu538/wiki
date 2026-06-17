@@ -1,4 +1,5 @@
 ---
+
 id: kdo-15-dimension-label-spec
 title: KDO 标签体系：15 维度完整定义 v1.0
 type: decision
@@ -22,7 +23,7 @@ author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260606_6dad71f1）
 source_refs:
-- src_20260606_6dad71f1
+  - src_20260606_6dad71f1-hx-smj-01_v1.0-pcba加工要求_15
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

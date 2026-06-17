@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-personal-map
 confidence: 0.85
 created_at: 2026-05-07
@@ -21,7 +22,7 @@ related:
 - '[[case-truman-personal-growth-map-creation]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260614_720e62a1
+  - src_20260614_720e62a1-theme-personal-growth-summary
 status: enriched
 title: 个人修炼地图
 type: framework

@@ -1,4 +1,5 @@
 ---
+
 id: yt-concept-weapon-arsenal
 confidence: 0.85
 created_at: 2026-05-13
@@ -22,7 +23,7 @@ related:
 - '[[yt-model-prompt-engineering]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260609_93e2df35
+  - src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库
 status: enriched
 title: 超级武器库（元概念）
 type: concept

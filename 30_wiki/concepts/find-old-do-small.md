@@ -1,4 +1,5 @@
 ---
+
 id: find-old-do-small
 type: tool
 domain:
@@ -9,7 +10,7 @@ domain:
 - decision-making
 status: draft
 source_refs:
-- src_20260606_ef4877d0
+  - src_20260606_ef4877d0-所以90的核心问题
 component_of:
 - ai-landing-scene-selection
 related:

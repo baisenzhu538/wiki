@@ -1,10 +1,11 @@
 ---
+
 id: "开源HIS系统代码深度分析报告"
 created_at: 2026-05-03
 domain:
   - healthcare
 source_refs:
-  - src_20260503_f4891888
+  - src_20260503_f4891888-开源HIS系统代码深度分析报告
 status: enriched
 title: "开源HIS系统代码深度分析报告"
 type: concept

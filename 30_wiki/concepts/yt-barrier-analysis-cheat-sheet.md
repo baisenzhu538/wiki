@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-barrier-analysis-cheat-sheet
 confidence: 0.9
 created_at: 2026-06-10
@@ -25,10 +26,10 @@ related:
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
-  - src_20260610_fc964660
-  - src_20260610_a6f3e5b3
-  - src_20260610_64e863c7
-  - src_20260610_ca60b67f
+  - src_20260610_fc964660-一堂-一堂五步法-壁垒-一堂壁垒分析结果
+  - src_20260610_a6f3e5b3-一堂-一堂五步法-壁垒-假的壁垒
+  - src_20260610_64e863c7-一堂-一堂五步法-打造壁垒完整cheatsheet
+  - src_20260610_ca60b67f-一堂-一堂五步法-壁垒-规模经济分析武器库
 status: reviewed
 title: "壁垒分析完整cheatsheet"
 trust_level: medium

@@ -1,4 +1,5 @@
 ---
+
 title: 单元模型概览：十大单元模型与三角色分工
 date: 2026-05-24
 type: framework
@@ -14,8 +15,8 @@ created_at: 2026-06-15
 confidence: 0.8
 trust_level: medium
 source_refs:
-- src_20260616_18764078
-- src_20260616_aac184cc
+  - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
+  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 source_context: 一堂 To B 五步法课程（徐剑口述稿、课堂笔记、图片 OCR 合集、优秀作业合集）关于单元模型与商业模式部分
 updated_at: '2026-06-16'
 related:

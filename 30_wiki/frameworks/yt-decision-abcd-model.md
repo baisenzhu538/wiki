@@ -1,4 +1,5 @@
 ---
+
 type: framework
 id: yt-decision-abcd-model
 status: enriched
@@ -11,7 +12,7 @@ confidence: 0.75
 trust_level: medium-low
 title: yt decision abcd model
 source_refs:
-- src_20260522_3261e6bd
+  - src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_3261e6bd）
 related:
 - '[[yt-decision-y-model]]'

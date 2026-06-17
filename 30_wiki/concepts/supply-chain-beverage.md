@@ -1,4 +1,5 @@
 ---
+
 id: supply-chain-beverage
 title: 餐饮渠道饮料产品成本-口感-供应链综合洞察
 type: concept
@@ -8,11 +9,11 @@ domain:
 - product
 - entrepreneur
 source_refs:
-- src_20260614_16c4bf0d
-- src_20260614_d6ab6fb6
-- src_20260614_9b574611
-- 90_control/itingnao-kit/work/theme-supply-chain-beverage-summary.md
-- src_20260614_95352714
+  - src_20260614_16c4bf0d-双柚汁产品成本沟通
+  - src_20260614_d6ab6fb6-产品调配-口感与成本讨论
+  - src_20260614_9b574611-金银花浓缩汁餐饮产品方案
+  - 90_control/itingnao-kit/work/theme-supply-chain-beverage-summary.md
+  - src_20260614_95352714-theme-supply-chain-beverage-summary
 tags:
 - '#industry/local-service'
 - '#method/management-tool'

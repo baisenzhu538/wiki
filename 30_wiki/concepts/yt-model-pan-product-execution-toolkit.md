@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-pan-product-execution-toolkit
 component_of:
 - yt-composite-pan-product-methodology
@@ -30,7 +31,7 @@ related:
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
-- src_20260510_f2a1d58b
+  - src_20260510_f2a1d58b-一堂泛产品设计落地工具箱指南-堂
 status: enriched
 title: 泛产品设计·落地工具箱（19张卡牌）
 type: framework

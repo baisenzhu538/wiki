@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-execution-review-iteration
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -28,7 +29,7 @@ related:
 - '[[yt-model-deliberate-practice-growth]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_3b5c417d
+  - src_20260522_3b5c417d-ocr-泛产品设计-落地卡片-复盘迭代
 status: enriched
 title: 泛产品设计·落地卡片：复盘迭代
 type: tool

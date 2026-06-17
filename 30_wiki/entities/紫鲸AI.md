@@ -1,4 +1,5 @@
 ---
+
 title: 紫鲸AI
 type: entity
 domain:
@@ -25,7 +26,7 @@ review_date: 2026-05-04
 author: unknown
 confidence: 0.85
 source_refs:
-- src_20260428_29929c1f
+  - src_20260428_29929c1f-紫鲸ai智能体工作流平台
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260428_29929c1f）
 ---
 # 紫鲸AI

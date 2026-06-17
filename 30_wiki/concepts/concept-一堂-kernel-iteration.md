@@ -1,5 +1,6 @@
 ---
 
+
 id: concept-一堂-kernel-iteration
 title: 产品内核迭代：从静态到动态的五方向演化
 type: concept
@@ -11,7 +12,7 @@ domain:
 source_person: Truman
 source_context: 一堂产品内核迭代课（2026年）
 source_refs:
-  - src_20260606_4f5117e3
+  - src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:

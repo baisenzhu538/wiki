@@ -1,5 +1,6 @@
 ---
 
+
 id: case-toy-cabinet-business-model
 confidence: 0.85
 created_at: 2026-06-10
@@ -17,8 +18,8 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
-  - src_20260610_91556342
-  - src_20260610_be139711
+  - src_20260610_91556342-一堂=一堂五步法-商业模型-线下玩具柜案例
+  - src_20260610_be139711-一堂-一堂五步法-单元模型-口述
 status: reviewed
 title: "案例：线下玩具柜商业模式"
 trust_level: medium

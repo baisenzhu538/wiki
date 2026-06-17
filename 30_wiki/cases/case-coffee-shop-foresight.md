@@ -1,4 +1,5 @@
 ---
+
 id: case-coffee-shop-foresight
 confidence: 0.85
 created_at: 2026-06-10
@@ -16,12 +17,9 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
-  - "00_inbox/一堂-机会预判-咖啡店案例-五步法预判.png"
-  - "00_inbox/一堂-机会预判-咖啡案例01.png"
-  - "00_inbox/一堂-机会预判-咖啡案例02.png"
-  - "00_inbox/一堂-机会预判-案例预判02.png"
+  - src_20260614_eca9f5b3-酒店行业-AI标签审核案例
 source_refs:
-- src_20260614_eca9f5b3
+  - src_20260614_eca9f5b3-酒店行业-AI标签审核案例
 status: enriched
 title: "案例：咖啡馆创业预判"
 trust_level: medium

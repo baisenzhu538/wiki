@@ -1,4 +1,5 @@
 ---
+
 title: KDO Protocol — AI-Agent Operating Contract
 type: system
 status: draft
@@ -20,7 +21,7 @@ domain:
 author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
-- src_20260503_52ae08ba
+  - src_20260503_52ae08ba-kdo_product_design_agent_final
 confidence: 0.6
 ---
 # KDO Protocol — AI-Agent Operating Contract

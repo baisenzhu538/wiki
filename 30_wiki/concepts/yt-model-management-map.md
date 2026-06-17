@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-management-map
 confidence: 0.85
 created_at: 2026-05-07
@@ -19,10 +20,9 @@ query_triggers:
   - "管项目（L2）：四步闭环"
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-  - "10_raw/assets/yitang/一堂-地图-管理地图.webp"
+  - src_20260613_96e45c45-qishijian-business-model
 source_refs:
-- src_20260613_96e45c45
+  - src_20260613_96e45c45-qishijian-business-model
 status: enriched
 title: "管理修炼地图"
 type: framework

@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-scientific-method
 confidence: 0.8
 created_at: 2026-05-06
@@ -20,9 +21,9 @@ query_triggers:
   - "经验主义替代"
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
+  - src_20260614_faa8021d-Y模型探索营-第二节课
 source_refs:
-- src_20260614_faa8021d
+  - src_20260614_faa8021d-Y模型探索营-第二节课
 status: enriched
 title: "Y模型/科学方法"
 trust_level: medium

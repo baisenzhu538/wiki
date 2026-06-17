@@ -1,4 +1,5 @@
 ---
+
 id: ai-native-im-multi-agent
 title: AI 原生 IM：让 Agent 成为一等公民的协作基础设施
 type: concept
@@ -10,7 +11,7 @@ domain:
 - product
 - ai-collaboration
 source_refs:
-- src_20260614_c5115d2c
+  - src_20260614_c5115d2c-龙虾-AI原生IM工具演示
 related:
 - '[[industrial-ai-ops-cases]]'
 created_at: 2026-06-14

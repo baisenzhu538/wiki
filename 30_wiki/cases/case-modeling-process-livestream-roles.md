@@ -1,4 +1,5 @@
 ---
+
 id: case-modeling-process-livestream-roles
 title: 流程建模案例：直播开播团队分工与检查清单
 type: case
@@ -8,8 +9,8 @@ domain:
 - master
 - modeling
 source_refs:
-- src_20260614_c62e0e61
-- src_20260614_8269ccdb
+  - src_20260614_c62e0e61-Truman-高阶建模-流程建模-开播准备-图-02
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:
 - '#method/modeling'
 - '#content-format/case-study'

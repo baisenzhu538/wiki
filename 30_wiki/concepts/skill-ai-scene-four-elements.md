@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-ai-scene-four-elements
 title: 技能：AI落地场景四要素评估法
 type: "tool"
@@ -11,7 +12,7 @@ domain:
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别-口述，2026-06-06
 source_refs:
-- src_20260606_ef4877d0
+  - src_20260606_ef4877d0-所以90的核心问题
 wiki_refs:
 - '[[ai-landing-scene-selection]]'
 - '[[skill-ai-four-elements-validation]]'

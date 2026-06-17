@@ -1,11 +1,12 @@
 ---
+
 id: tool-checklist-cheatsheet-modeling
 title: 清单/小抄建模法：把经验变成可执行的检查点
 type: tool
 source_refs:
-- src_20260614_73352fa5
-- src_20260614_8269ccdb
-- src_20260614_623cfbfd
+  - src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+  - src_20260614_623cfbfd-高阶建模-流程建模
 status: draft
 domain:
 - yitang

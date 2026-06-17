@@ -1,4 +1,5 @@
 ---
+
 id: case-modeling-process-livestream-prep
 title: 流程建模案例：Truman 直播开播前 2 小时个人准备清单
 type: case
@@ -8,8 +9,8 @@ domain:
 - master
 - modeling
 source_refs:
-- src_20260614_9aca19bd
-- src_20260614_8269ccdb
+  - src_20260614_9aca19bd-Truman-高阶建模-流程建模-开播准备-图-01
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:
 - "#domain/yitang"
 - "#method/modeling"

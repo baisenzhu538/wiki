@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-deliberate-practice-growth
 confidence: 0.85
 created_at: 2026-05-11
@@ -16,9 +17,9 @@ query_triggers:
   - "成长曲线三种状态"
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/assets/yitang/一堂刻意练习十年成长指数.png"
+  - src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数
 source_refs:
-- src_20260522_e6cf558a
+  - src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数
 status: enriched
 title: "刻意练习十年成长指数：为什么有人一年顶十年"
 type: framework

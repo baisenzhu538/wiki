@@ -1,10 +1,11 @@
 ---
+
 id: tools-workflows
 created_at: 2026-05-21
 domain:
   - healthcare
 source_refs:
-  - src_20260522_9d322e81
+  - src_20260522_9d322e81-tools-workflows
 status: enriched
 title: "Tools Workflows"
 type: concept

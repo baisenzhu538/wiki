@@ -1,4 +1,5 @@
 ---
+
 plan_id: plan_20260501_47264869
 type: improvement-plan
 domain:
@@ -11,7 +12,7 @@ id: plan_20260501_47264869-improvement-plan
 author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260501_58b6edef）
 source_refs:
-- src_20260501_58b6edef
+  - src_20260501_58b6edef-obsidian-kdo-内容产出工作流-产品设计大纲
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

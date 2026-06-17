@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-unit-model-three-tools
 confidence: 0.9
 created_at: 2026-06-10
@@ -20,8 +21,8 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
-  - src_20260610_be139711
-  - src_20260610_7bcdf9ce
+  - src_20260610_be139711-一堂-一堂五步法-单元模型-口述
+  - src_20260610_7bcdf9ce-一堂-一堂五步法-单元模型-斧子尺子和梯子
 status: reviewed
 title: "单元模型三工具：斧子尺子梯子"
 trust_level: medium

@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-conversion-optimization
 confidence: 0.85
 created_at: 2026-05-11
@@ -21,7 +22,7 @@ related:
 - '[[dk-yb19-visual-strategy-price-match]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260510_d5e71a5e
+  - src_20260510_d5e71a5e-一堂最佳转化率动力三曲线-堂
 status: enriched
 title: 转化率优化：动力三曲线 × 十大浪费触点
 type: framework

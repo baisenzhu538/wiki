@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-unit-pairs-milestone
 title: 里程碑不是任务清单，是"成对单元模型"拼出来的
 type: dark-knowledge
@@ -10,7 +11,7 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 confidence: 0.8
 trust_level: medium
 related:

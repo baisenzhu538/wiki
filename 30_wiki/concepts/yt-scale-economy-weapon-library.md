@@ -1,4 +1,5 @@
 ---
+
 id: yt-scale-economy-weapon-library
 confidence: 0.8
 created_at: 2026-06-10
@@ -17,9 +18,9 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
-  - "00_inbox/一堂五步法/一堂-一堂五步法-壁垒-规模经济分析武器库.png"
+  - src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
 source_refs:
-- src_20260611_79848c35
+  - src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
 status: enriched
 title: "规模经济分析武器库"
 trust_level: medium

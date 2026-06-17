@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-自我反馈修正笔记姿势
 title: 技能：自我反馈修正笔记姿势
 type: "tool"
@@ -10,7 +11,7 @@ status: draft
 source_person: 一堂
 source_context: src_20260609_6809033f
 source_refs:
-- src_20260609_6809033f
+  - src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02
 definition_of_done:
 - 操作步骤清晰可执行
 - 适用场景有正反例

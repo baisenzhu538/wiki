@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-马易-工作流优先于AIGC的决策方法
 title: 技能：工作流优先于AIGC的决策方法
 type: "tool"
@@ -10,7 +11,7 @@ domain:
 source_person: 马易
 source_context: AI落地场景识别 （原 legacy，已从 title/context/filename 推断为 src_20260528_04be660c）
 source_refs:
-- src_20260528_04be660c
+  - src_20260528_04be660c-aigc设计师实操培训01口喷设计范式与电商ai设计全流程
 wiki_refs: null
 definition_of_done:
 - 操作步骤清晰可执行

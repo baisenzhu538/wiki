@@ -1,4 +1,5 @@
 ---
+
 id: yt-management-partnership-equity
 created_at: 2026-05-06
 domain:
@@ -23,7 +24,7 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-- src_20260614_8f80cb0f
+  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
 title: 合伙股权
 trust_level: medium

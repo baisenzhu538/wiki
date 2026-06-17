@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-knowledge-extraction
 confidence: 0.8
 created_at: 2026-05-07
@@ -23,7 +24,7 @@ related:
 - '[[master-systems-thinking]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260614_720e62a1
+  - src_20260614_720e62a1-theme-personal-growth-summary
 status: enriched
 title: 知识萃取方法论
 type: tool

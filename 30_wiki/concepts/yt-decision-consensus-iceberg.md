@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-consensus-iceberg
 component_of:
 - yt-decision-y-model
@@ -25,7 +26,7 @@ query_triggers:
 - 决策执行
 - 事后诸葛亮
 source_refs:
-- src_20260614_8f80cb0f
+  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
 title: 共识冰山工具：决策爬山·说服挖冰四层法 + 教练式提问
 trust_level: medium

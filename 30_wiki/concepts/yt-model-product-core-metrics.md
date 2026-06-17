@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-product-core-metrics
 confidence: 0.85
 created_at: 2026-05-11
@@ -16,9 +17,9 @@ query_triggers:
   - "四大环节 × 十大指标"
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/assets/yitang/一堂产品内核-十大典型指标.png"
+  - src_20260510_5ef61f8f-一堂产品内核十大典型指标
 source_refs:
-- src_20260510_5ef61f8f
+  - src_20260510_5ef61f8f-一堂产品内核十大典型指标
 status: enriched
 title: "产品内核十大典型指标：从获客到推荐的度量框架"
 type: framework

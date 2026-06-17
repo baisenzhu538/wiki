@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-deep-review
 component_of: null
 confidence: 0.8
@@ -32,7 +33,7 @@ related:
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_c92a36ba
+  - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 status: enriched
 title: 深度复盘
 type: tool

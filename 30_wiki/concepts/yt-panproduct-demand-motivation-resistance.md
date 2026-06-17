@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-demand-motivation-resistance
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -26,7 +27,7 @@ related:
 - '[[yt-panproduct-demand-surprise-formula]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_1ec27760
+  - src_20260522_1ec27760-ocr-泛产品设计-用户卡片-动力阻力
 status: enriched
 title: 泛产品设计·用户卡片：动力阻力
 type: tool

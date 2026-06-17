@@ -1,4 +1,5 @@
 ---
+
 id: smart-device-foodservice-automation
 title: 智能设备外卖对接：无人零售接入美团/饿了么的技术与商业模式
 type: framework
@@ -10,7 +11,7 @@ domain:
 - product
 - entrepreneur
 source_refs:
-- src_20260614_909802bd
+  - src_20260614_909802bd-智能设备-外卖对接方案讨论
 related:
 - '[[beverage-foodservice-channel]]'
 - '[[yt-entrepreneur-channel-exploration]]'

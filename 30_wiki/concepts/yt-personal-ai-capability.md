@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-ai-capability
 confidence: 0.8
 created_at: 2026-05-06
@@ -23,7 +24,7 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-- src_20260614_ea308189
+  - src_20260614_ea308189-一堂-教学能力修炼分享
 status: enriched
 title: AI 能力（双模型）
 trust_level: medium

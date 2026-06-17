@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-execution-realistic-simulation
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -28,7 +29,7 @@ related:
 - '[[yt-panproduct-demand-scenario-walkthrough]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_bab48c61
+  - src_20260522_bab48c61-ocr-泛产品设计-落地卡片-努力仿真
 status: enriched
 title: 泛产品设计·落地卡片：努力仿真
 type: tool

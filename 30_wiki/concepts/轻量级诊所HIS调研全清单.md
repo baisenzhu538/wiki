@@ -1,10 +1,11 @@
 ---
+
 id: "轻量级诊所HIS调研全清单"
 created_at: 2026-05-03
 domain:
   - healthcare
 source_refs:
-  - src_20260503_5c91e867
+  - src_20260503_5c91e867-轻量级诊所HIS调研全清单
 status: enriched
 title: "轻量级诊所HIS调研全清单"
 type: concept

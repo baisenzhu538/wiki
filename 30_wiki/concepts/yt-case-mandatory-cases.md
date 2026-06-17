@@ -1,10 +1,11 @@
 ---
+
 title: "一堂案例必修课"
 type: concept
 status: reviewed
 source_refs:
-  - src_20260506_9b4788a6
-  - src_20260507_857c7ed4
+  - src_20260506_9b4788a6-声音和画面正常吗
+  - src_20260507_857c7ed4-声音和画面正常吗
 id: yt-case-mandatory-cases
 created_at: 2026-05-05
 domain:

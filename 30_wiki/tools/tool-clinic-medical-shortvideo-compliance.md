@@ -1,4 +1,5 @@
 ---
+
 id: tool-clinic-medical-shortvideo-compliance
 title: 诊所医疗短视频/个人 IP 合规边界 checklist
 type: tool
@@ -7,8 +8,8 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
-- src_20260613_ccf533f9
-- src_20260613_9a2b289e
+  - src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
+  - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
 created_at: 2026-06-15
 updated_at: 2026-06-15
 author: 王语嫣

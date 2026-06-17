@@ -1,10 +1,11 @@
 ---
+
 id: dk-weekly-modeling-iteration-growth-engine
 title: 暗知识：一堂真正的增长引擎是'周对周的建模能力增长'
 type: dark-knowledge
 dark_knowledge_type: insight
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: draft
 domain:
 - yitang

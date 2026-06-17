@@ -1,4 +1,5 @@
 ---
+
 id: fd-forward-deployment
 title: Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式
 type: concept
@@ -9,7 +10,7 @@ domain:
 - business-strategy
 - ai-saas
 source_refs:
-- src_20260614_ab09af1c
+  - src_20260614_ab09af1c-多人-FD模式解析
 related:
 - '[[source-code-delivery-model]]'
 - '[[private-domain-saas-sales-funnel]]'

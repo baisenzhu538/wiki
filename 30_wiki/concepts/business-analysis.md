@@ -1,10 +1,11 @@
 ---
+
 id: business-analysis
 created_at: 2026-05-21
 domain:
 - ai-saas
 source_refs:
-- src_20260522_9d98d526
+  - src_20260522_9d98d526-business-analysis
 status: draft
 title: Business Analysis
 type: concept

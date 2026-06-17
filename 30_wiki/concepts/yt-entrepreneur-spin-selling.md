@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-spin-selling
 confidence: 0.8
 created_at: 2026-05-11
@@ -18,9 +19,9 @@ query_triggers:
   - "顾问式销售的奠基之作"
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/sources/一堂-读书会-SPIN销售法口述.md"
+  - src_20260510_349a66fd-读书会-spin销售法
 source_refs:
-- src_20260510_349a66fd
+  - src_20260510_349a66fd-读书会-spin销售法
 status: enriched
 title: "SPIN销售法：顾问式销售的奠基之作"
 type: tool

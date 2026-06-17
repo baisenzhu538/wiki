@@ -1,10 +1,11 @@
 ---
+
 id: "deepseek-v4-在知识管理系统中的应用"
 created_at: 2026-05-05
 domain:
   - healthcare
 source_refs:
-  - src_20260505_7766e197
+  - src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
 status: enriched
 title: "DeepSeek V4 在知识管理系统中的应用"
 type: concept

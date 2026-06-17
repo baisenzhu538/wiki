@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-ai-four-elements-validation
 title: 技能：真需求四要素验证法
 type: "tool"
@@ -11,7 +12,7 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论-口述，2026-06-06
 source_refs:
-- src_20260606_42e11f09
+  - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
 wiki_refs:
 - '[[ai-collaboration-mindset-shift]]'
 - '[[skill-ai-problem-question-check]]'

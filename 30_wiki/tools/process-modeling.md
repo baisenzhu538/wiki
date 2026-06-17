@@ -1,14 +1,15 @@
 ---
+
 id: process-modeling
 title: 流程建模：用 SOP 与清单把经验变成稳定产出
 type: tool
 source_refs:
-- src_20260614_623cfbfd
-- src_20260614_4efd4e88
-- src_20260614_9aca19bd
-- src_20260614_c62e0e61
-- src_20260614_50b37986
-- src_20260614_42f1e977
+  - src_20260614_623cfbfd-高阶建模-流程建模
+  - src_20260614_4efd4e88-Truman-高阶建模-流程建模-图-01
+  - src_20260614_9aca19bd-Truman-高阶建模-流程建模-开播准备-图-01
+  - src_20260614_c62e0e61-Truman-高阶建模-流程建模-开播准备-图-02
+  - src_20260614_50b37986-Truman-高阶建模-流程建模-识别建模点-图-01
+  - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
 status: enriched
 domain:
 - yitang

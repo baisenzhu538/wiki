@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-月白-资深设计师AI工具切换法
 title: 技能：资深设计师AI工具切换法
 type: "tool"
@@ -9,7 +10,7 @@ domain:
 source_person: 月白
 source_context: 文创案例 （原 legacy，已从 title/context/filename 推断为 src_20260522_38173b48）
 source_refs:
-- src_20260522_38173b48
+  - src_20260522_38173b48-design-ai-image-generation
 wiki_refs: null
 definition_of_done:
 - 操作步骤清晰可执行

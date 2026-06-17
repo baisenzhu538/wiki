@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-pan-product-climbing-map
 component_of:
 - yt-composite-pan-product-methodology
@@ -28,7 +29,7 @@ related:
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
-- src_20260614_0e6fd2e7
+  - src_20260614_0e6fd2e7-theme-product-business-summary
 status: enriched
 title: 泛产品十年爬山地图：L1-L6成长路径
 type: framework

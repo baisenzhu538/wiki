@@ -1,9 +1,10 @@
 ---
+
 id: case-course-milestone-model
 title: 案例：一堂课程里程碑模型——方法论级建模的六步生产流程
 type: case
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: draft
 domain:
 - yitang

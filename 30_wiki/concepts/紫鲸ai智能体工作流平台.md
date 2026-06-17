@@ -1,10 +1,11 @@
 ---
+
 id: 紫鲸ai智能体工作流平台
 created_at: 2026-04-28
 domain:
 - ai-saas
 source_refs:
-- src_20260428_29929c1f
+  - src_20260428_29929c1f-紫鲸ai智能体工作流平台
 status: enriched
 title: 紫鲸AI智能体工作流平台
 type: concept

@@ -1,4 +1,5 @@
 ---
+
 id: yt-ai-startup-20-risky-hypotheses
 confidence: 0.85
 created_at: 2026-06-10
@@ -18,9 +19,9 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
-  - "00_inbox/一堂-机会预判-AI创业案例-20个高风险假设清单.png"
+  - src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a
 source_refs:
-- src_20260614_086550ab
+  - src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a
 status: enriched
 title: "AI创业20个高风险假设清单"
 trust_level: medium

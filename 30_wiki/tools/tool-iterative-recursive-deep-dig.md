@@ -1,9 +1,10 @@
 ---
+
 id: tool-iterative-recursive-deep-dig
 title: 迭代递归深挖法：用'喷—撞—改'循环把模型推到撞无可撞
 type: tool
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: draft
 domain:
 - yitang

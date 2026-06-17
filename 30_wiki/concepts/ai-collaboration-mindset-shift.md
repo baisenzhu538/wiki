@@ -1,4 +1,5 @@
 ---
+
 id: ai-collaboration-mindset-shift
 type: concept
 domain:
@@ -8,7 +9,7 @@ domain:
 - yitang
 status: draft
 source_refs:
-- src_20260606_42e11f09
+  - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
 component_of: null
 related:
 - '[[structured-ai-workspace]]'

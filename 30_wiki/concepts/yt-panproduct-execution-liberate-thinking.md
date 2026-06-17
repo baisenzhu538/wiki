@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-execution-liberate-thinking
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -27,7 +28,7 @@ related:
 - '[[yt-panproduct-execution-idea-spark]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_c2c6b487
+  - src_20260522_c2c6b487-ocr-泛产品设计-落地卡片-解放思想
 status: enriched
 title: 泛产品设计·落地卡片：解放思想
 type: tool

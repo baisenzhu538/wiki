@@ -1,4 +1,5 @@
 ---
+
 title: Sprint 6 CLI 缺口修复提案 — 响应老顽童飞轮第一圈 8 条 Feedback
 type: improvement-plan
 status: draft
@@ -12,7 +13,7 @@ author: 黄药师
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
-- src_20260503_52ae08ba
+  - src_20260503_52ae08ba-kdo_product_design_agent_final
 reviewer: 欧阳锋
 related: []
 id: sprint-6-cli-gap-proposal

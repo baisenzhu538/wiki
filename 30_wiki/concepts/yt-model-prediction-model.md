@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-prediction-model
 confidence: 0.85
 created_at: 2026-05-11
@@ -18,9 +19,9 @@ superseded_by:
   - yt-foresight-model-taxonomy
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/assets/yitang/预判模型.png"
+  - src_20260522_e71d89ff-ocr-预判模型
 source_refs:
-- src_20260522_e71d89ff
+  - src_20260522_e71d89ff-ocr-预判模型
 status: enriched
 title: "预判模型：从最糙版到复杂版的三种预判范式"
 type: framework

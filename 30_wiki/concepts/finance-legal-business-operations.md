@@ -1,4 +1,5 @@
 ---
+
 id: finance-legal-business-operations
 title: 企业财务-法务-商务运营实务
 type: concept
@@ -8,12 +9,12 @@ domain:
 - entrepreneur
 - management
 source_refs:
-- src_20260614_ccba327a
-- src_20260614_d1166483
-- src_20260614_83ed5758
-- src_20260614_6e91528d
-- src_20260614_fbe4a480
-- src_20260614_40afd886
+  - src_20260614_ccba327a-多人-系统费用沟通
+  - src_20260614_d1166483-朱总-项目履约沟通
+  - src_20260614_83ed5758-多人-进项税处理沟通
+  - src_20260614_6e91528d-项目分账与支付对接方案
+  - src_20260614_fbe4a480-企业高新技术与专精特新资质申报规划
+  - src_20260614_40afd886-theme-finance-legal-business-summary
 tags:
 - '#domain/master'
 - '#perspective/compliance'

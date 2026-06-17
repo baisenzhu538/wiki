@@ -1,4 +1,5 @@
 ---
+
 id: yt-tob-customer-sabc
 title: To B 客户 SABC 自定义切分法
 type: tool
@@ -9,9 +10,9 @@ domain:
 - b2b
 - business-strategy
 source_refs:
-- src_20260616_0e684368
-- src_20260616_5f991553
-- src_20260616_18764078
+  - src_20260616_0e684368
+  - src_20260616_5f991553
+  - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
 tags:
 - '#method/evaluation-method'
 - '#method/thinking-tool'

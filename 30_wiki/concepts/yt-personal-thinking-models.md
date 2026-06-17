@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-thinking-models
 confidence: 0.8
 created_at: 2026-05-11
@@ -19,9 +20,9 @@ query_triggers:
   - "角色推演法"
 reviewed_by: "黄药师"
 source_refs:
-  - "00_inbox/一堂-个人修身-思维模型口述版.md"
+  - src_20260614_1be3d76f-一堂-思维模型案例分享
 source_refs:
-- src_20260614_1be3d76f
+  - src_20260614_1be3d76f-一堂-思维模型案例分享
 status: enriched
 title: "思维模型：从碎片经验到稳定模型"
 type: tool

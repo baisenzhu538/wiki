@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-execution-core-and-boundary
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -28,7 +29,7 @@ related:
 - '[[master-first-principles]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_f3072399
+  - src_20260522_f3072399-ocr-泛产品设计-落地卡片-内核和边界
 status: enriched
 title: 泛产品设计·落地卡片：内核和边界
 type: tool

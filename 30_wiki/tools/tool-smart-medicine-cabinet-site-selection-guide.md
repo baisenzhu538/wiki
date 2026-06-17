@@ -1,4 +1,5 @@
 ---
+
 id: tool-smart-medicine-cabinet-site-selection-guide
 title: 智能药柜选址深度指南：场景、指标与验证方法
 type: tool
@@ -7,10 +8,10 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
-- src_20260613_59270720
-- src_20260613_9a2b289e
-- src_20260613_fb0e6521
-- src_20260613_c5f5a7ce
+  - src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
+  - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
+  - src_20260613_fb0e6521-corr_20260613_smart-medicine-cabinet-iteration-9-tier-cities-and-special-scenes
+  - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 created_at: 2026-06-15
 updated_at: 2026-06-15
 author: 王语嫣

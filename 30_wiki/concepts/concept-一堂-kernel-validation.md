@@ -1,5 +1,6 @@
 ---
 
+
 id: concept-一堂-kernel-validation
 title: 产品内核验证：三维度评估 + 六策略验证
 type: concept
@@ -11,7 +12,7 @@ domain:
 source_person: Truman
 source_context: 一堂产品内核验证课（2026年）
 source_refs:
-  - src_20260606_094098c1
+  - src_20260606_094098c1-一堂-产品内核验证课-Truman-口述
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:

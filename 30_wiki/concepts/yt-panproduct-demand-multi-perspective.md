@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-demand-multi-perspective
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -25,7 +26,7 @@ related:
 - '[[yt-panproduct-demand-user-segmentation]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_f6cf4e83
+  - src_20260522_f6cf4e83-ocr-泛产品设计-用户卡片-多视角思考
 status: enriched
 title: 泛产品设计·用户卡片：多视角思考
 type: tool

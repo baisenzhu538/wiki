@@ -1,11 +1,12 @@
 ---
+
 id: learning-thinking
 created_at: 2026-05-21
 domain:
   - master
   - personal-growth
 source_refs:
-  - src_20260522_0af1f6dd
+  - src_20260522_0af1f6dd-learning-thinking
 status: enriched
 title: "Learning Thinking"
 type: concept

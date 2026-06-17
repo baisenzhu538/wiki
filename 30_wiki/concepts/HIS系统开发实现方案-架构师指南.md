@@ -1,10 +1,11 @@
 ---
+
 id: "HIS系统开发实现方案-架构师指南"
 created_at: 2026-05-03
 domain:
   - healthcare
 source_refs:
-  - src_20260503_1a1f0312
+  - src_20260503_1a1f0312-HIS系统开发实现方案-架构师指南
 status: enriched
 title: "HIS系统开发实现方案-架构师指南"
 type: concept

@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-product-excellence
 confidence: 0.85
 created_at: 2026-05-11
@@ -18,9 +19,9 @@ query_triggers:
   - "顶级产品追求：品味、最佳实践与乔布斯的审美哲学"
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/assets/yitang/顶级产品追求的方向-乔布斯.png"
+  - src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯
 source_refs:
-- src_20260522_ea933690
+  - src_20260522_ea933690-ocr-顶级产品追求的方向-乔布斯
 status: enriched
 title: "顶级产品追求：品味、最佳实践与乔布斯的审美哲学"
 type: framework

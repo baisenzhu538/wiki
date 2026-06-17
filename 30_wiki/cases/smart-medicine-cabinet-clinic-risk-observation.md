@@ -1,4 +1,5 @@
 ---
+
 id: smart-medicine-cabinet-clinic-risk-observation
 title: 诊所 + 智能药柜协同模式：一线观察与风险提示
 type: case
@@ -9,11 +10,11 @@ domain:
 - policy-compliance
 - risk-warning
 source_refs:
-- src_20260613_7cfd7b89
-- src_20260613_59270720
-- src_20260613_ccf533f9
-- src_20260613_f3aecb2d
-- src_20260613_9a2b289e
+  - src_20260613_7cfd7b89-corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape
+  - src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
+  - src_20260613_ccf533f9-corr_20260613_smart-medicine-cabinet-iteration-8-medical-shortvideo-compliance
+  - src_20260613_f3aecb2d-corr_20260613_smart-medicine-cabinet-iteration-8-legal-and-tax
+  - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
 tags:
 - '#industry/healthcare'
 created_at: '2026-06-14'

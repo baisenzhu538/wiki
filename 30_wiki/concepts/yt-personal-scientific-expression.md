@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-scientific-expression
 confidence: 0.8
 created_at: 2026-05-06
@@ -24,7 +25,7 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-- src_20260609_bb221484
+  - src_20260609_bb221484-ocr-一堂-个人修炼-表达力火箭模型-执行武器库
 status: enriched
 title: 科学表达（火箭模型）
 trust_level: medium

@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-formula-business-pattern-selector
 title: 业务公式商业模式选型框架：单次成交型 vs 持续复购型
 type: framework
@@ -8,9 +9,9 @@ domain:
 - master
 - business-strategy
 source_refs:
-- src_20260613_6b939d2b
-- src_20260613_6edbf0af
-- src_20260613_a8bcfd38
+  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
+  - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 tags:
 - '#method/evaluation-method'
 - '#method/decision-framework'

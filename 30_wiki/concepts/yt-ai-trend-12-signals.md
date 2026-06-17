@@ -1,4 +1,5 @@
 ---
+
 id: yt-ai-trend-12-signals
 confidence: 0.85
 created_at: 2026-06-10
@@ -18,9 +19,9 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
-  - "00_inbox/一堂-机会预判-AI趋势12大变化模型.png"
+  - src_20260614_82a4fdb9-凯文凯利-必然趋势分享
 source_refs:
-- src_20260614_82a4fdb9
+  - src_20260614_82a4fdb9-凯文凯利-必然趋势分享
 status: enriched
 title: "AI趋势12大变化模型"
 trust_level: medium

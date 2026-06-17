@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-tob-smart-park
 title: 案例：智慧园区项目复盘
 type: case
@@ -9,7 +10,7 @@ domain:
   - b2b
   - govtech
 source_refs:
-  - src_20260616_aac184cc
+  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 tags:
   - '#domain/yitang'
   - '#domain/b2b'

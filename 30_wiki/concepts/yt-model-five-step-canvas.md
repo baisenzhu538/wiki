@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-five-step-canvas
 confidence: 0.85
 created_at: 2026-05-11
@@ -20,7 +21,7 @@ related:
 - '[[case-modeling-abstraction-yitang-models]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260510_1eb77650
+  - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
 status: enriched
 title: 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
 type: framework

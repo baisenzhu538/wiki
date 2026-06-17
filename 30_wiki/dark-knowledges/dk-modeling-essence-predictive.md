@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-essence-predictive
 title: '''解释性本质''是高级鸡汤：真正值钱的本质必须能指导下一次真实决策'
 type: dark-knowledge
@@ -10,8 +11,8 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训（本质建模案例），2026-06-12
 source_refs:
-- src_20260614_8269ccdb
-- src_20260614_d0539c25
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+  - src_20260614_d0539c25-Truman-高阶建模-本质建模-三个目标-01
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 confidence: 0.8

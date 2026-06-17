@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-execution-design-principles
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -28,7 +29,7 @@ related:
 - '[[yt-panproduct-execution-realistic-simulation]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_9eaf7399
+  - src_20260522_9eaf7399-ocr-泛产品设计-落地卡片-设计原则
 status: enriched
 title: 泛产品设计·落地卡片：设计原则
 type: tool

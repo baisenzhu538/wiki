@@ -1,5 +1,6 @@
 ---
 
+
 id: sk-ai-voice-input-doubao
 title: 技能：口喷式语音输入法
 type: "tool"
@@ -9,7 +10,7 @@ domain:
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
 source_refs:
-- src_20260606_90b44191
+  - src_20260606_90b44191-没有人呀现在
 wiki_refs:
 - '[[sk-ai-ai-workspace-setup]]'
 - '[[course-to-skill-conversion]]'

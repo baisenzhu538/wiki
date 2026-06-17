@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-ai-research-five-steps
 title: 技能：AI调研五步法
 type: "tool"
@@ -11,7 +12,7 @@ domain:
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地-口述，2026-06-06
 source_refs:
-- src_20260606_90b44191
+  - src_20260606_90b44191-没有人呀现在
 wiki_refs:
 - '[[ai-learning-closed-loop]]'
 - '[[master-ai-info-literacy]]'

@@ -1,5 +1,6 @@
 ---
 
+
 id: sk-ai-problem-validation
 title: 技能：问题验证三维度法
 type: "tool"
@@ -9,7 +10,7 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论分享，2026-06
 source_refs:
-- src_20260606_42e11f09
+  - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
 wiki_refs:
 - '[[sk-ai-question-problem-checklist]]'
 - '[[ai-collaboration-mindset-shift]]'

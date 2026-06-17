@@ -1,4 +1,5 @@
 ---
+
 title: KDO Agent 体系建设方案（草案）
 type: proposal
 status: draft
@@ -10,7 +11,7 @@ author: 黄药师
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
-- src_20260503_52ae08ba
+  - src_20260503_52ae08ba-kdo_product_design_agent_final
 id: agent-ecosystem-design
 reviewed_by: pending
 confidence: 0.6

@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-barrier-identification-skill
 confidence: 0.85
 created_at: 2026-06-11
@@ -27,9 +28,9 @@ related:
 review_date: 2026-06-11
 reviewed_by: 周伯通
 source_refs:
-- src_20260611_7c3a2a57
-- src_20260611_89e8a16b
-- src_20260611_79848c35
+  - src_20260611_7c3a2a57-一堂-一堂五步法-壁垒-口述
+  - src_20260611_89e8a16b-一堂-一堂五步法-壁垒-假的壁垒_paddle_ocr
+  - src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr
 status: enriched
 title: 壁垒识别与构建技能：从真假壁垒到护城河建设
 trust_level: medium

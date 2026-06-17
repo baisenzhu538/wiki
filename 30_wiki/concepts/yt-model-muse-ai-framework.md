@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-muse-ai-framework
 confidence: 0.85
 created_at: 2026-05-07
@@ -17,10 +18,9 @@ query_triggers:
   - "知识体系定位"
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
-  - "10_raw/assets/yitang/一堂-个人修炼-全景图MUSE模型.jpg"
+  - src_20260510_62b2cfa1-一堂人工智能全景图muse模型
 source_refs:
-- src_20260510_62b2cfa1
+  - src_20260510_62b2cfa1-一堂人工智能全景图muse模型
 status: enriched
 title: "MUSE 人工智能全景图"
 type: framework

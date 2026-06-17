@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-truman-five-step-growth
 confidence: 0.85
 created_at: 2026-05-11
@@ -17,11 +18,9 @@ query_triggers:
   - "用一页纸解释全部人生规划"
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/assets/yitang/Truman的个人成长五步法.png"
-  - "00_inbox/Truman的个人成长五步法.png  # 源图像，经 deep-image-parser 深度解析"
-  - "00_inbox/Truman的个人成长五步法_paddle_ocr.txt  # PaddleOCR基线对比"
+  - src_20260522_074c72ae-ocr-truman的个人成长五步法
 source_refs:
-- src_20260522_074c72ae
+  - src_20260522_074c72ae-ocr-truman的个人成长五步法
 status: enriched
 title: "Truman的个人成长五步法：用一页纸解释全部人生规划"
 type: framework

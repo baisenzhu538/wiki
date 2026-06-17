@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-research-osl-framework
 title: OSL调研五步法：一堂通用商业调研框架
 type: framework
@@ -24,8 +25,8 @@ query_triggers:
 - 系统式调研
 - 调研框架
 source_refs:
-  - src_20260508_f7f9670e
-  - src_20260510_f42dfdc2
+  - src_20260508_f7f9670e-一堂-创业必修-调研行动营
+  - src_20260510_f42dfdc2-一堂-创业-调研行动营口述01
 related:
 - "[[yt-research-intelligence-map]]"
 - "[[yt-research-competitor-toolkit]]"

@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-model-asset-inventory
 title: 案例：一堂用 AI 扫描内容资产，把三四百个模型归集到二三十个范式
 type: case
@@ -11,7 +12,7 @@ scale: 公司
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 wiki_refs:
 - '[[dk-modeling-model-arsenal-paradigms]]'
 - '[[modeling-weapon-library]]'

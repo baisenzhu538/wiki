@@ -1,4 +1,5 @@
 ---
+
 id: aigc设计师实操培训01口喷设计范式与电商ai设计全流程
 created_at: 2026-05-28
 domain:
@@ -6,7 +7,7 @@ domain:
 - design
 - business-strategy
 source_refs:
-- src_20260528_04be660c
+  - src_20260528_04be660c-aigc设计师实操培训01口喷设计范式与电商ai设计全流程
 status: draft
 title: AIGC设计师实操培训01：口喷设计范式与电商AI设计全流程
 type: concept

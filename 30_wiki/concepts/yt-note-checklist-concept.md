@@ -1,4 +1,5 @@
 ---
+
 id: yt-note-checklist-concept
 title: 一堂笔记法：清单体笔记的核心概念与原理
 type: concept
@@ -20,8 +21,8 @@ related:
 prerequisites:
 - yt-model-ipo-learning-strategy
 source_refs:
-- src_20260606_575627a4
-- src_20260606_db4fc211
+  - src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01
+  - src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02
 query_triggers:
 - 清单体笔记
 - 一堂笔记法

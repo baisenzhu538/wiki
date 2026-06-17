@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-demand-user-perspective
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -26,7 +27,7 @@ related:
 - '[[yt-model-aesthetic-progression]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_11d721ac
+  - src_20260522_11d721ac-ocr-泛产品设计-用户卡片-用户视角
 status: enriched
 title: 泛产品设计·用户卡片：用户视角
 type: tool

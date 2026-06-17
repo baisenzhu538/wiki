@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-tob-grinding-machine
 title: 案例：精密磨床自制项目失败复盘
 type: case
@@ -9,9 +10,9 @@ domain:
   - b2b
   - manufacturing
 source_refs:
-  - src_20260616_aac184cc
+  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
   - src_20260616_0e684368
-  - src_20260616_18764078
+  - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
 tags:
   - '#domain/yitang'
   - '#domain/b2b'

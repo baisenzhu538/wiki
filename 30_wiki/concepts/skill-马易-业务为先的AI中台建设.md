@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-马易-业务为先的AI中台建设
 title: 技能：业务为先的AI中台建设
 type: "tool"
@@ -31,7 +32,7 @@ pipeline:
 author: unknown
 trust_level: medium-high
 source_refs:
-- src_20260510_4bb17355
+  - src_20260510_4bb17355-天花板
 ---
 # 技能：业务为先的AI中台建设
 

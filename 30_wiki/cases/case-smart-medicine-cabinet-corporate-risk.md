@@ -1,4 +1,5 @@
 ---
+
 id: case-smart-medicine-cabinet-corporate-risk
 title: 智能药柜推广项目：公司/股权/资金风险诊断
 type: case
@@ -7,7 +8,7 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
-- src_20260613_fc2124d8
+  - src_20260613_fc2124d8-itingnao-deep-dive-corporate-risk
 created_at: 2026-06-15
 updated_at: 2026-06-17
 author: 王语嫣

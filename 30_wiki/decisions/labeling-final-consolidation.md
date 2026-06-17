@@ -1,4 +1,5 @@
 ---
+
 id: labeling-final-consolidation
 title: 数据标注方案最终汇总 — 三方调研 + 独立判断
 type: decision
@@ -20,7 +21,7 @@ author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260503_52ae08ba）
 source_refs:
-- src_20260503_52ae08ba
+  - src_20260503_52ae08ba-kdo_product_design_agent_final
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

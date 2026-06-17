@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-ai-without-judgment
 title: AI 能生成'看着很厉害'的模型，但如果你没有逻辑洁癖，它只会加速你跑偏
 type: dark-knowledge
@@ -10,8 +11,8 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训（AI 辅助建模案例与警示），2026-06-12
 source_refs:
-- src_20260614_8269ccdb
-- src_20260614_42f1e977
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+  - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 confidence: 0.8

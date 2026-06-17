@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-dual-triangle-competitiveness
 confidence: 0.85
 created_at: 2026-05-07
@@ -20,7 +21,7 @@ related:
 - '[[yt-personal-ipo-learning]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260613_96e45c45
+  - src_20260613_96e45c45-qishijian-business-model
 status: enriched
 title: 双三角竞争力模型
 type: framework

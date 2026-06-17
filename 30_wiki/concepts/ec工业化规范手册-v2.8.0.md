@@ -1,4 +1,5 @@
 ---
+
 id: ec工业化规范手册-v2.8.0
 created_at: 2026-05-03
 domain:
@@ -6,7 +7,7 @@ domain:
 review_date: 2026-05-03
 reviewed_by: Claude
 source_refs:
-- src_20260503_feab72b2
+  - src_20260503_feab72b2-ec工业化规范手册-v2.8.0
 status: enriched
 title: EC工业化规范手册 v2.8.0
 trust_level: medium

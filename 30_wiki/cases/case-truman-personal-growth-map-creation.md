@@ -1,9 +1,10 @@
 ---
+
 id: case-truman-personal-growth-map-creation
 title: Truman 个人地图创作全历程：七步创作法与 AI 判断（创作者视角）
 type: case
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 confidence: 0.7
 domain:

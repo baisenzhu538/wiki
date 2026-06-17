@@ -1,4 +1,5 @@
 ---
+
 id: yt-concept-p-type-l-type
 confidence: 0.8
 created_at: 2026-06-06
@@ -22,10 +23,9 @@ query_triggers:
   - "创业段位"
 review_date: 2026-06-06
 source_refs:
-  - "00_inbox/一堂-商业预判课-Truman-口述.txt"
-  - "00_inbox/一堂-商业预判课-truman-笔记.txt"
+  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 source_refs:
-- src_20260614_8f80cb0f
+  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
 title: "P型与L型创业者"
 trust_level: medium

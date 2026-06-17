@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-market-size-estimation
 confidence: 0.9
 created_at: 2026-06-10
@@ -19,8 +20,8 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
-  - src_20260610_2b360d66
-  - src_20260610_2a188b41
+  - src_20260610_2b360d66-一堂-一堂五步法-需求-市场规模估算四种方法
+  - src_20260610_2a188b41-一堂-一堂五步法-需求-口述
 status: reviewed
 title: "市场规模估算四种方法"
 trust_level: medium

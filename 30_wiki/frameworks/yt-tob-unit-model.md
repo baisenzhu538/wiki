@@ -1,4 +1,5 @@
 ---
+
 id: yt-tob-unit-model
 title: To B 单元模型选择与跑通
 type: framework
@@ -7,7 +8,7 @@ domain: [yitang, entrepreneurship, b2b, business-strategy]
 source_refs:
   - src_20260616_0e684368
   - src_20260616_5f991553
-  - src_20260616_18764078
+  - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
 tags:
   - "#method/evaluation-method"
   - "#domain/yitang"

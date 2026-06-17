@@ -1,11 +1,12 @@
 ---
+
 id: modeling-level-map
 title: 建模能力段位图：从 L1 到 L6 的十年爬山地图
 type: tool
 source_refs:
-- src_20260614_bb892297
-- src_20260614_42f1e977
-- src_20260614_8269ccdb
+  - src_20260614_bb892297-Truman-高阶建模-段位图-01
+  - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: draft
 domain:
 - yitang

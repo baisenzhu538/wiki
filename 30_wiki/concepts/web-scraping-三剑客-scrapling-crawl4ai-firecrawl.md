@@ -1,4 +1,5 @@
 ---
+
 id: web-scraping-三剑客-scrapling-crawl4ai-firecrawl
 created_at: 2026-05-04
 domain:
@@ -13,7 +14,7 @@ updated_at: '2026-06-16'
 author: unknown
 confidence: 0.7
 source_refs:
-- src_20260502_7d7c1b7c
+  - src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 ---
 # Web Scraping 三剑客 — Scrapling / Crawl4AI / Firecrawl

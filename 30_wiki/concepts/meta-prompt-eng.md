@@ -1,10 +1,11 @@
 ---
+
 id: meta-prompt-eng
 created_at: 2026-05-21
 domain:
 - ai-saas
 source_refs:
-- src_20260522_a89ab860
+  - src_20260522_a89ab860-meta-prompt-eng
 status: draft
 title: Meta Prompt Eng
 type: concept

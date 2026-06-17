@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-pan-product-36-strategies
 component_of:
 - yt-composite-pan-product-methodology
@@ -28,7 +29,7 @@ related:
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_7e8d10c4
+  - src_20260522_7e8d10c4-ocr-一堂泛产品设计36计-全套地图
 status: enriched
 title: 泛产品设计36计·全套官方工具箱
 type: framework

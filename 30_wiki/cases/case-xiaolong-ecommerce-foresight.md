@@ -1,13 +1,14 @@
 ---
 
+
 id: case-xiaolong-ecommerce-foresight
 title: 小龙电商：四层剥离——从服装到正装裤
 type: case
 domain:
 - yitang
 source_refs:
-  - src_20260606_f6cb0868
-  - src_20260606_c996cb6a
+  - src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
+  - src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
 status: enriched
 confidence: 0.9
 difficulty: beginner

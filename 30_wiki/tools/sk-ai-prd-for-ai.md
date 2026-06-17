@@ -1,5 +1,6 @@
 ---
 
+
 id: sk-ai-prd-for-ai
 title: 技能：把PRD写成AI能执行的指令
 type: "tool"
@@ -9,7 +10,7 @@ domain:
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
 source_refs:
-- src_20260606_90b44191
+  - src_20260606_90b44191-没有人呀现在
 wiki_refs:
 - '[[sk-ai-problem-validation]]'
 - '[[prd-as-ai-instruction]]'

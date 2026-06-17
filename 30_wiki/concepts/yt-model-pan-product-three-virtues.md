@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-pan-product-three-virtues
 component_of:
 - yt-composite-pan-product-methodology
@@ -27,7 +28,7 @@ related:
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
-- src_20260614_45ab8b35
+  - src_20260614_45ab8b35-GEO业务-最佳实践讨论
 status: enriched
 title: 泛产品三大自我修养：用户价值×最佳实践×无限进步
 type: framework

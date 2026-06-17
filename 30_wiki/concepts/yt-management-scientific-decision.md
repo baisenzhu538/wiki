@@ -1,4 +1,5 @@
 ---
+
 title: Y模型/科学决策
 type: concept
 domain:
@@ -24,7 +25,7 @@ created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
 source_refs:
-- src_20260522_0bb1cb6e
+  - src_20260522_0bb1cb6e-ocr-一堂y模型steps策略集
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_0bb1cb6e）
 ---
 # Y模型/科学决策

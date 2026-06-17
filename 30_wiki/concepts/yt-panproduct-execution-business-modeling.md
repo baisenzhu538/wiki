@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-execution-business-modeling
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -28,7 +29,7 @@ related:
 - '[[yt-panproduct-demand-five-step-method]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_f5a0f2e1
+  - src_20260522_f5a0f2e1-ocr-泛产品设计-落地卡片-业务建模
 status: enriched
 title: 泛产品设计·落地卡片：业务建模
 type: tool

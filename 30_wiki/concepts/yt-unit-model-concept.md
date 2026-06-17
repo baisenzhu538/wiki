@@ -1,4 +1,5 @@
 ---
+
 id: yt-unit-model-concept
 component_of: '[[yt-five-step-method]]'
 confidence: 0.8
@@ -19,8 +20,8 @@ query_triggers:
 review_date: 2026-06-17
 reviewed_by: 王语嫣
 source_refs:
-- src_20260611_c0e6e182
-- src_20260611_3725d306
+  - src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述
+  - src_20260611_3725d306-一堂-一堂五步法-单元模型-笔记
 related:
 - '[[yt-unit-model-selection]]'
 - '[[yt-unit-model-build]]'

@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-反向采访挖掘深度
 title: 技能：反向采访挖掘深度
 type: "tool"
@@ -10,7 +11,7 @@ status: draft
 source_person: Truman
 source_context: src_20260609_03491271
 source_refs:
-- src_20260609_03491271
+  - src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset
 definition_of_done:
 - 操作步骤清晰可执行
 - 适用场景有正反例

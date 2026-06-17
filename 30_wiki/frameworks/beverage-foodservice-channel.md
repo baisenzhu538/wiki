@@ -1,4 +1,5 @@
 ---
+
 id: beverage-foodservice-channel
 title: 餐饮渠道饮料开发：草本浓缩饮品的渠道-产品-工艺框架
 type: framework
@@ -10,10 +11,10 @@ domain:
 - product
 - entrepreneur
 source_refs:
-- src_20260614_8a0317f1
-- src_20260614_16c4bf0d
-- src_20260614_d6ab6fb6
-- src_20260614_9b574611
+  - src_20260614_8a0317f1-产品-市场分析讨论
+  - src_20260614_16c4bf0d-双柚汁产品成本沟通
+  - src_20260614_d6ab6fb6-产品调配-口感与成本讨论
+  - src_20260614_9b574611-金银花浓缩汁餐饮产品方案
 related:
 - '[[yt-entrepreneur-channel-exploration]]'
 - '[[yt-entrepreneur-product-core]]'

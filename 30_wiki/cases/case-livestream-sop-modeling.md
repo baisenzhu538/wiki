@@ -1,10 +1,11 @@
 ---
+
 id: case-livestream-sop-modeling
 title: 案例：直播前热身 SOP 建模
 type: case
 source_refs:
-- src_20260614_8269ccdb
-- src_20260614_623cfbfd
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+  - src_20260614_623cfbfd-高阶建模-流程建模
 status: enriched
 domain:
 - yitang

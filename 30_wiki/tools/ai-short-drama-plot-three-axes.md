@@ -1,11 +1,12 @@
 ---
+
 id: ai-short-drama-plot-three-axes
 title: 剧情三板斧：短剧剧本的情节张力设计工具
 type: tool
 source_refs:
-- src_20260613_083395df
-- src_20260613_687c4ec0
-- src_20260613_12d63c1c
+  - src_20260613_083395df-plot-three-axes
+  - src_20260613_687c4ec0-transcript
+  - src_20260613_12d63c1c-notes
 status: draft
 domain:
 - yitang

@@ -1,14 +1,15 @@
 ---
 
+
 id: case-five-step-fake-vs-real-barriers
 title: 案例：五步法中识别真壁垒和假壁垒
 type: case
 domain:
 - yitang
 source_refs:
-  - src_20260610_426daf30
-  - src_20260610_8ac68c66
-  - src_20260610_a6f3e5b3
+  - src_20260610_426daf30-一堂-一堂五步法-壁垒-口述
+  - src_20260610_8ac68c66-一堂-一堂五步法-壁垒-笔记
+  - src_20260610_a6f3e5b3-一堂-一堂五步法-壁垒-假的壁垒
 status: enriched
 confidence: 0.85
 difficulty: intermediate

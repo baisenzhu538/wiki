@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-pan-product-practice
 component_of:
 - yt-composite-pan-product-methodology
@@ -21,7 +22,7 @@ related:
 - '[[yt-personal-pan-product-aesthetics]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260510_6241b565
+  - src_20260510_6241b565-个人修身-泛产品设计实操
 status: enriched
 title: 泛产品设计实操篇：需求分析与用户洞察
 type: concept

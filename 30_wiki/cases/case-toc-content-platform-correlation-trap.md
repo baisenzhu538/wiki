@@ -1,4 +1,5 @@
 ---
+
 id: case-toc-content-platform-correlation-trap
 title: ToC 内容付费平台：把“流量↑转化率↓”当因果导致的投放崩盘
 type: case
@@ -8,9 +9,9 @@ domain:
 - content
 - business-strategy
 source_refs:
-- src_20260613_6b939d2b
-- src_20260613_6edbf0af
-- src_20260613_a8bcfd38
+  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
+  - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 tags:
 - '#method/evaluation-method'
 - '#content-format/case-study'

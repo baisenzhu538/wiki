@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-logical-cleanliness-root
 title: 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
 type: dark-knowledge
@@ -10,7 +11,7 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 confidence: 0.8
 trust_level: medium
 related:

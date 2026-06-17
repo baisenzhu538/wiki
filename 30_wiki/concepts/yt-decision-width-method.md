@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-width-method
 component_of:
 - yt-decision-y-model
@@ -30,7 +31,7 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[case-truman-poker-deck-roi]]'
 source_refs:
-- src_20260614_9ca806cd
+  - src_20260614_9ca806cd-theme-yitang-methodology-summary
 status: enriched
 title: 宽度分析工具：列推建查四步法+三层盲区清单
 trust_level: medium

@@ -1,4 +1,5 @@
 ---
+
 id: yt-tob-demand-metrics
 title: To B 需求测算双指标：成本占有率 + 业务天花板
 type: framework
@@ -7,7 +8,7 @@ domain: [yitang, entrepreneurship, b2b, business-strategy]
 source_refs:
   - src_20260616_0e684368
   - src_20260616_5f991553
-  - src_20260616_18764078
+  - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
 tags:
   - '#method/evaluation-method'
   - '#domain/yitang'

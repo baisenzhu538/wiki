@@ -1,4 +1,5 @@
 ---
+
 id: yt-management-toolkit-overview
 component_of:
 - yt-model-management-map
@@ -43,7 +44,7 @@ related:
 - '[[yt-model-y-organization]]'
 - '[[dk-yb9-cubox-deployment-failure]]'
 source_refs:
-- src_20260614_8f80cb0f
+  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
 title: 管理工具箱总览
 trust_level: medium

@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-使用一页纸速查卡快速调用框架
 title: 技能：使用一页纸速查卡快速调用框架
 type: "tool"
@@ -9,7 +10,7 @@ domain:
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
 source_refs:
-- src_20260609_1c8b4d0e
+  - src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点
 wiki_refs:
 - '[[yt-five-step-method]]'
 - '[[master-cognitive-bias-checklist]]'

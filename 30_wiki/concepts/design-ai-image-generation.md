@@ -1,12 +1,13 @@
 ---
+
 id: design-ai-image-generation
 created_at: 2026-05-21
 domain:
   - yitang
 source_refs:
-  - src_20260522_38173b48
+  - src_20260522_38173b48-design-ai-image-generation
 source_refs:
-- src_20260522_38173b48
+  - src_20260522_38173b48-design-ai-image-generation
 status: enriched
 title: "Design / Ai Image Generation"
 type: concept

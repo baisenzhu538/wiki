@@ -1,4 +1,5 @@
 ---
+
 id: case-yitang-tob-artificial-bone
 title: 案例：人工骨医疗器械上市失败复盘
 type: case
@@ -9,7 +10,7 @@ domain:
   - b2b
   - healthcare
 source_refs:
-  - src_20260616_aac184cc
+  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 tags:
   - '#domain/yitang'
   - '#domain/b2b'

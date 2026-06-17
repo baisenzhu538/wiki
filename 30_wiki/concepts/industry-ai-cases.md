@@ -1,4 +1,5 @@
 ---
+
 id: industry-ai-cases
 title: 产业 AI 落地案例集（非药柜）
 type: concept
@@ -7,14 +8,14 @@ domain:
 - ai-collaboration
 - ai-saas
 source_refs:
-- src_20260614_07a9fc2a
-- src_20260614_3cefab90
-- src_20260614_45ab8b35
-- src_20260614_4b3b6427
-- src_20260614_5e47c1c5
-- src_20260614_b85c364e
-- src_20260614_eca9f5b3
-- src_20260614_eed6d83c
+  - src_20260614_07a9fc2a-戴志龙-AI剧本创作分享
+  - src_20260614_3cefab90-奢侈品-存量时代营销逻辑
+  - src_20260614_45ab8b35-GEO业务-最佳实践讨论
+  - src_20260614_4b3b6427-阿豪-自动选品系统案例
+  - src_20260614_5e47c1c5-AI营销-AIO与G优行业分享
+  - src_20260614_b85c364e-贝壳-云管家AI外呼案例
+  - src_20260614_eca9f5b3-酒店行业-AI标签审核案例
+  - src_20260614_eed6d83c-AI四格漫画创作交流
 tags: null
 created_at: '2026-06-14'
 updated_at: '2026-06-16'

@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-三阶追问法穷尽决策要素
 title: 技能：三阶追问法穷尽决策要素
 type: "tool"
@@ -11,7 +12,7 @@ status: draft
 source_person: 一堂课程
 source_context: src_20260609_44a9e79a
 source_refs:
-- src_20260609_44a9e79a
+  - src_20260609_44a9e79a-ocr-一堂-科学决策-关键训练清单重要
 definition_of_done:
 - 操作步骤清晰可执行
 - 适用场景有正反例

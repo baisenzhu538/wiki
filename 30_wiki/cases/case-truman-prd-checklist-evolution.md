@@ -1,4 +1,5 @@
 ---
+
 id: case-truman-prd-checklist-evolution
 title: Truman的PRD清单进化：从被领导反复打回到'不再二错'——半年赶上三四年PM水平
 type: case
@@ -9,7 +10,7 @@ domain:
 source_person: Truman
 source_context: 一堂-个人修炼-知识萃取探索营口述版（2026-05）
 source_refs:
-- src_20260510_814ec410
+  - src_20260510_814ec410-个人修炼-知识萃取探索营
 related:
 - '[[dk-truman-document-is-real-project-is-fake]]'
 - '[[yt-note-checklist-concept]]'

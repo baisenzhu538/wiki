@@ -1,4 +1,5 @@
 ---
+
 id: concept-smart-medicine-cabinet-giants-why-not-clinic-cabinet
 title: 巨头为何不做诊所+智能药柜：竞争格局与壁垒分析
 type: concept
@@ -7,8 +8,8 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
-- src_20260613_7cfd7b89
-- src_20260613_9a2b289e
+  - src_20260613_7cfd7b89-corr_20260613_smart-medicine-cabinet-iteration-8-giants-and-landscape
+  - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
 created_at: 2026-06-15
 updated_at: 2026-06-15
 author: 王语嫣

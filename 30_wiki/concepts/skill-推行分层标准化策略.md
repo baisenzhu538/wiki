@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-推行分层标准化策略
 title: 技能：推行分层标准化策略
 type: "tool"
@@ -10,7 +11,7 @@ status: draft
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
 source_refs:
-- src_20260609_1c8b4d0e
+  - src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点
 definition_of_done:
 - 操作步骤清晰可执行
 - 适用场景有正反例

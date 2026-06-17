@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-execution-logic-mece
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -28,7 +29,7 @@ related:
 - '[[yt-model-prediction-model]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260609_e9aa385a
+  - src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
 status: enriched
 title: 泛产品设计·落地卡片：逻辑MECE
 type: tool

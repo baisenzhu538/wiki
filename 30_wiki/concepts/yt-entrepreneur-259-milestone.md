@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-259-milestone
 confidence: 0.8
 created_at: 2026-05-06
@@ -21,14 +22,14 @@ query_triggers:
 review_date: 2026-06-15
 reviewed_by: pending
 source_refs:
-- src_20260614_8f80cb0f
-- src_20260522_4be84945
-- src_20260611_0f0a4c27
-- src_20260611_173d9f0e
-- src_20260611_96419f58
-- src_20260611_84990c99
-- src_20260611_4266769b
-- src_20260611_d913eb1d
+  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
+  - src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解
+  - src_20260611_0f0a4c27-一堂-一堂五步法-增长-里程碑复盘_paddle_ocr
+  - src_20260611_173d9f0e-一堂-一堂五步法-落地实操-笔记
+  - src_20260611_96419f58-一堂-一堂五步法-单元模型-尺子和梯子的调优_paddle_ocr
+  - src_20260611_84990c99-一堂-一堂五步法-单元模型-段位升级三部曲_paddle_ocr
+  - src_20260611_4266769b-一堂-一堂五步法-单元模型-尺子和梯子区别_paddle_ocr
+  - src_20260611_d913eb1d-一堂-一堂五步法-序言-口述
 status: draft
 title: 259里程碑
 trust_level: high

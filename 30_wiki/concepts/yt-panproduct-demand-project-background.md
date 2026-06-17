@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-demand-project-background
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -26,7 +27,7 @@ related:
 - '[[yt-panproduct-demand-industry-canvas]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_115e8827
+  - src_20260522_115e8827-ocr-泛产品设计-用户卡片-项目背景分析
 status: enriched
 title: 泛产品设计·用户卡片：项目背景分析
 type: tool

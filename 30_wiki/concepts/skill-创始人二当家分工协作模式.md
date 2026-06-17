@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-创始人二当家分工协作模式
 title: 技能：创始人+二当家分工协作模式
 type: "tool"
@@ -9,7 +10,7 @@ status: draft
 source_person: 案例讲述者
 source_context: src_20260609_4ea1fba2
 source_refs:
-- src_20260609_4ea1fba2
+  - src_20260609_4ea1fba2-ocr-一堂-科学决策-roi决策评估画布-案例03
 definition_of_done:
 - 操作步骤清晰可执行
 - 适用场景有正反例

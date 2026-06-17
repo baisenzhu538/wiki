@@ -1,4 +1,5 @@
 ---
+
 id: ai时代判断力口述-3
 confidence: 0.75
 created_at: 2026-05-25
@@ -11,7 +12,7 @@ related:
 - '[[yt-personal-ipo-learning]]'
 - '[[master-knowledge-compound]]'
 source_refs:
-- src_20260525_66059442
+  - src_20260525_66059442-ai时代判断力口述
 speaker: 国帅（胡帅），一堂联合创始人兼CTO
 status: enriched
 title: AI时代判断力口述（国帅）

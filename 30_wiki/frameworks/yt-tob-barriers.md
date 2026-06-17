@@ -1,4 +1,5 @@
 ---
+
 id: yt-tob-barriers
 title: To B 业务壁垒：选择、强弱判断与规模不经济对抗
 type: framework
@@ -11,8 +12,8 @@ domain:
 source_refs:
   - src_20260616_0e684368
   - src_20260616_5f991553
-  - src_20260616_18764078
-  - src_20260616_aac184cc
+  - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
+  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 tags:
   - '#method/evaluation-method'
   - '#domain/yitang'

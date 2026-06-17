@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-ai-partner
 component_of:
 - yt-decision-y-model
@@ -29,7 +30,7 @@ related:
 - '[[yt-prompt-anti-flattery]]'
 reviewed_by: 周伯通
 source_refs:
-- src_20260609_f00cad16
+  - src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02
 status: enriched
 title: AI决策Partner对话法
 trust_level: medium

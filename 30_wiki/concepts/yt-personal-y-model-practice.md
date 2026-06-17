@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-y-model-practice
 confidence: 0.8
 created_at: 2026-05-11
@@ -18,9 +19,9 @@ query_triggers:
   - "科学成事的底层操作系统"
 reviewed_by: "黄药师"
 source_refs:
-  - "00_inbox/一堂-个人修炼-Y模型实操口述版.md"
+  - src_20260614_842be4c9-一堂-Y模型实操探索营
 source_refs:
-- src_20260614_842be4c9
+  - src_20260614_842be4c9-一堂-Y模型实操探索营
 status: enriched
 title: "Y模型实操：科学成事的底层操作系统"
 type: tool

@@ -1,4 +1,5 @@
 ---
+
 id: product-business-strategy
 title: 产品-商业战略综合：设备运营、方向取舍与产品开发
 type: concept
@@ -8,10 +9,10 @@ domain:
 - business-strategy
 - entrepreneur
 source_refs:
-- src_20260614_5f74ed61
-- src_20260614_0e07078e
-- src_20260614_8a0317f1
-- src_20260614_0e6fd2e7
+  - src_20260614_5f74ed61-多人-项目问题沟通
+  - src_20260614_0e07078e-多人-产品方向选择讨论
+  - src_20260614_8a0317f1-产品-市场分析讨论
+  - src_20260614_0e6fd2e7-theme-product-business-summary
 tags:
 - '#method/decision-framework'
 - '#method/execution-method'

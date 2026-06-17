@@ -1,4 +1,5 @@
 ---
+
 id: ai-methodology-tools
 title: AI 方法论与工具栈：主题综合知识卡
 type: framework
@@ -8,18 +9,18 @@ domain:
 - ai-collaboration
 - learning-methodology
 source_refs:
-- src_20260614_071928f4
-- src_20260614_dec1c1fe
-- src_20260614_5f13a66f
-- src_20260614_d5cc92d2
-- src_20260614_cafcbbac
-- src_20260614_c5115d2c
-- src_20260614_b3686a84
-- src_20260614_144d986e
-- src_20260614_c1430e21
-- src_20260614_4b226b4f
-- src_20260614_d78e7c7b
-- src_20260614_329d0e0c
+  - src_20260614_071928f4-AI场景落地方法分享
+  - src_20260614_dec1c1fe-一堂-AI工具应用AMA
+  - src_20260614_5f13a66f-何老师-智能入口开发会议
+  - src_20260614_d5cc92d2-AI工具使用分享
+  - src_20260614_cafcbbac-AI组织行为学研究
+  - src_20260614_c5115d2c-龙虾-AI原生IM工具演示
+  - src_20260614_b3686a84-一堂-AI龙虾使用分享
+  - src_20260614_144d986e-多人-Open-Cloud培训
+  - src_20260614_c1430e21-一堂-AI方法论实践课
+  - src_20260614_4b226b4f-一堂-AI方法论探索
+  - src_20260614_d78e7c7b-智慧城市AI应用交流
+  - src_20260614_329d0e0c-theme-ai-methodology-tools-summary
 tags:
 - '#method/thinking-tool'
 - '#domain/ai-saas'

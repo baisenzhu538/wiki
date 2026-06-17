@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-industry-forecast
 confidence: 0.85
 created_at: 2026-05-06
@@ -22,10 +23,9 @@ query_triggers:
   - "创业成功率"
 review_date: 2026-06-11
 source_refs:
-  - "00_inbox/一堂-商业预判课-Truman-口述.txt"
-  - "00_inbox/一堂-商业预判课-truman-笔记.txt"
+  - src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
 source_refs:
-- src_20260614_b9fbfc2b
+  - src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
 status: enriched
 superseded_by:
   - yt-foresight-business-spectrum

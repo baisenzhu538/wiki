@@ -1,9 +1,10 @@
 ---
+
 id: case-truman-ai-skill-engineering-guide
 title: 案例：Truman 如何用 3 小时做出高阶 AI Skill 工程指南
 type: case
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
 - yitang

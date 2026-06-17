@@ -1,4 +1,5 @@
 ---
+
 id: huangyaoshi-tagging-and-scope-proposal
 title: 黄药师：数据标签方案 + 暗知识全量范围
 type: decision
@@ -16,7 +17,7 @@ related:
 author: unknown
 source_context: KDO internal record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- src_20260528_4277c6be
+  - src_20260528_4277c6be-aigc文创案例设计课leo文创ip从0到1全流程
 reviewed_by: pending
 confidence: 0.6
 trust_level: low

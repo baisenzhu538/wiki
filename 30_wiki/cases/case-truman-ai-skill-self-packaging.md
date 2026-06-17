@@ -1,9 +1,10 @@
 ---
+
 id: case-truman-ai-skill-self-packaging
 title: AI 自复盘自封装：Truman 的 design case 技能是如何让 AI 自己包装出来的
 type: case
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 confidence: 0.7
 domain:

@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-pan-product-tools
 component_of:
 - yt-composite-pan-product-methodology
@@ -24,7 +25,7 @@ related:
 - '[[case-truman-prd-checklist-evolution]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260510_e6643d52
+  - src_20260510_e6643d52-个人修炼-泛产品设计工具篇
 status: enriched
 title: 泛产品设计工具篇：出牌教学法与30张卡牌
 type: concept

@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-research-cognition
 confidence: 0.8
 created_at: 2026-05-06
@@ -23,7 +24,7 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-- src_20260502_7d7c1b7c
+  - src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
 status: enriched
 title: 调研认知
 trust_level: medium

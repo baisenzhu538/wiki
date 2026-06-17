@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-ipo-learning
 confidence: 0.8
 created_at: 2026-05-06
@@ -22,7 +23,7 @@ related:
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:
-- src_20260609_e3a27299
+  - src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
 status: enriched
 title: IPO 科学学习
 type: tool

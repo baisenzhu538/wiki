@@ -1,4 +1,5 @@
 ---
+
 id: ai-landing-scene-selection
 type: concept
 domain:
@@ -8,7 +9,7 @@ domain:
 - yitang
 status: draft
 source_refs:
-- src_20260606_ef4877d0
+  - src_20260606_ef4877d0-所以90的核心问题
 component_of: null
 related:
 - '[[find-old-do-small]]'

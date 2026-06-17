@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-truth-seeking
 confidence: 0.8
 created_at: 2026-05-06
@@ -21,9 +22,9 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
+  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 source_refs:
-- src_20260614_8f80cb0f
+  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
 title: "实事求是"
 trust_level: medium

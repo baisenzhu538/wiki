@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-truman-career-routes
 confidence: 0.85
 created_at: 2026-05-11
@@ -17,9 +18,9 @@ query_triggers:
   - "楚门的选择：两条职业成长路线 X vs Y"
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/assets/yitang/truman的选择：两条职业成长路线.png"
+  - src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
 source_refs:
-- src_20260522_9cbdf4fd
+  - src_20260522_9cbdf4fd-ocr-truman的选择两条职业成长路线
 status: enriched
 title: "楚门的选择：两条职业成长路线 X vs Y"
 type: framework

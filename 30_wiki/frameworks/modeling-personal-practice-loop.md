@@ -1,9 +1,10 @@
 ---
+
 id: modeling-personal-practice-loop
 title: 建模能力个人修炼闭环：刻意练习 × IPO × PDCA
 type: framework
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: draft
 domain:
 - yitang

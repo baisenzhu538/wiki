@@ -1,4 +1,5 @@
 ---
+
 id: yt-foresight-business-spectrum
 type: framework
 confidence: 0.8
@@ -64,7 +65,7 @@ review_date: 2026-06-16
 reviewed_by:
 - 王语嫣
 source_refs:
-- src_20260614_40afd886
+  - src_20260614_40afd886-theme-finance-legal-business-summary
 status: enriched
 diagnostic_signals:
 - signal: 用户想开一个店/做一个项目，但说不清楚想做多大、目标模糊

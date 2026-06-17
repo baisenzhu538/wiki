@@ -1,11 +1,12 @@
 ---
+
 id: modeling-to-kdo-toolchain
 title: 建模三段论 → KDO 工具链映射：从 SOP 到本质的知识管理落地
 type: framework
 source_refs:
-- src_20260614_8269ccdb
-- src_20260614_42f1e977
-- src_20260614_623cfbfd
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+  - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
+  - src_20260614_623cfbfd-高阶建模-流程建模
 status: enriched
 confidence: 0.8
 domain:

@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-product-core
 confidence: 0.85
 created_at: 2026-05-06
@@ -23,14 +24,9 @@ query_triggers:
   - "用户视角"
 review_date: 2026-06-06
 source_refs:
-  - "00_inbox/一堂-产品内核迭代课-Truman-口述.txt"
-  - "00_inbox/一堂-产品内核验证课-Truman-口述.txt"
-  - "00_inbox/一堂-产品内核实操课-truman-口述.txt"
-  - "00_inbox/一堂-产品内核迭代课-Truman-笔记.txt"
-  - "00_inbox/一堂-产品内核验证课-truman-笔记.txt"
-  - "00_inbox/一堂-产品内核实操课-truman-笔记.txt"
+  - src_20260614_0e6fd2e7-theme-product-business-summary
 source_refs:
-- src_20260614_0e6fd2e7
+  - src_20260614_0e6fd2e7-theme-product-business-summary
 status: enriched
 title: "产品内核定义、迭代与验证方法论"
 trust_level: medium

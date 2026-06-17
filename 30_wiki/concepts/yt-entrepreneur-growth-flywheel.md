@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-growth-flywheel
 confidence: 0.8
 created_at: 2026-05-06
@@ -23,7 +24,7 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-- src_20260614_720e62a1
+  - src_20260614_720e62a1-theme-personal-growth-summary
 status: enriched
 title: 增长飞轮
 trust_level: medium

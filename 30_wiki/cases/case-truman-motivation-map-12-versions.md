@@ -1,5 +1,6 @@
 ---
 
+
 id: case-truman-motivation-map-12-versions
 title: 动机地图12版迭代：先观察再设计——Truman的用户行为驱动迭代法
 type: case
@@ -10,7 +11,7 @@ domain:
 source_person: Truman
 source_context: 一堂-个人修炼-泛产品设计工具篇口述版.md
 source_refs:
-  - src_20260510_79f0f8c6
+  - src_20260510_79f0f8c6-一堂-个人修炼-泛产品设计工具篇口述版
 related:
 - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
 - '[[yt-personal-pan-product-tools]]'

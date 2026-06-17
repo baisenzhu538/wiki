@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-pan-product-02
 component_of:
 - yt-composite-pan-product-methodology
@@ -25,7 +26,7 @@ related:
 - '[[yt-model-personal-pitch-toolkit]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_e4b635ac
+  - src_20260522_e4b635ac-ocr-泛产品设计落地篇
 status: enriched
 title: 泛产品设计落地篇：无限进步与持续打磨
 type: concept

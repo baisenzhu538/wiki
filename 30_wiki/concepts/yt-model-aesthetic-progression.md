@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-aesthetic-progression
 confidence: 0.85
 created_at: 2026-05-11
@@ -21,7 +22,7 @@ related:
 - '[[yt-personal-pan-product-aesthetics]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_7d2a79f8
+  - src_20260522_7d2a79f8-ocr-审美提升的层级
 status: enriched
 title: 审美提升的层级：从看不见到大胆想象的进化路径
 type: framework

@@ -1,10 +1,11 @@
 ---
+
 id: product-ux
 created_at: 2026-05-21
 domain:
 - ai-saas
 source_refs:
-- src_20260522_404f58a2
+  - src_20260522_404f58a2-product-ux
 status: draft
 title: Product Ux
 type: concept

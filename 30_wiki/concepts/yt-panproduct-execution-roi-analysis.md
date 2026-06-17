@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-execution-roi-analysis
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -33,7 +34,7 @@ related:
 - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
 reviewed_by: 王语嫣
 source_refs:
-- src_20260609_30219516
+  - src_20260609_30219516-ocr-泛产品设计-落地卡片-roi分析
 status: enriched
 title: 泛产品设计·落地卡片：ROI分析
 type: tool

@@ -1,4 +1,5 @@
 ---
+
 id: case-ai-time-management-tiered-growth
 confidence: 0.85
 created_at: 2026-06-10
@@ -17,11 +18,9 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
-  - "00_inbox/一堂-机会预判-AI时间管理案例01.png"
-  - "00_inbox/一堂-机会预判-AI时间管理案例02.png"
-  - "00_inbox/一堂-机会预判-案例预判03.png"
+  - src_20260430_59a3d224-街顺app全面调研报告
 source_refs:
-- src_20260430_59a3d224
+  - src_20260430_59a3d224-街顺app全面调研报告
 status: enriched
 title: "案例：AI时间管理App七级演进"
 trust_level: medium

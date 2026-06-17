@@ -1,5 +1,6 @@
 ---
 
+
 id: case-unit-model-gashapon
 component_of: '[[yt-unit-model-concept]]'
 confidence: 0.8
@@ -19,9 +20,9 @@ query_triggers:
 review_date: 2026-06-16
 reviewed_by: 王语嫣
 source_refs:
-  - src_20260609_31712e1d
-  - src_20260610_be139711
-  - src_20260610_557408fa
+  - src_20260609_31712e1d-ocr-一堂-单元模型-扭蛋机案例
+  - src_20260610_be139711-一堂-一堂五步法-单元模型-口述
+  - src_20260610_557408fa-一堂-一堂五步法-单元模型-笔记
 status: enriched
 title: 案例：扭蛋机/抓娃娃机的单元模型段位进阶
 trust_level: medium

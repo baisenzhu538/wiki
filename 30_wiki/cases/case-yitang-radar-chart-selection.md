@@ -1,9 +1,10 @@
 ---
+
 id: case-yitang-radar-chart-selection
 title: 案例：一堂雷达图评选机制——从 Truman 拍板到「只聊模型不聊结果」
 type: case
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
 - yitang

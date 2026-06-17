@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-execution-10x-validation
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -27,7 +28,7 @@ related:
 - '[[yt-panproduct-execution-hypothesis-decomposition]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_5bd37e0d
+  - src_20260522_5bd37e0d-ocr-泛产品设计-落地卡片-十倍速验证
 status: enriched
 title: 泛产品设计·落地卡片：十倍速验证
 type: tool

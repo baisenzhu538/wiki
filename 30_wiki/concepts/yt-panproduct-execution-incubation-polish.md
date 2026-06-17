@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-execution-incubation-polish
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -28,7 +29,7 @@ related:
 - '[[yt-panproduct-execution-review-iteration]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_2bcc3531
+  - src_20260522_2bcc3531-ocr-泛产品设计-落地卡片-酝酿式打磨
 status: enriched
 title: 泛产品设计·落地卡片：酝酿式打磨
 type: tool

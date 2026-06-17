@@ -1,4 +1,5 @@
 ---
+
 id: case-truman-sales-report-structure
 title: 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链
 type: case
@@ -11,7 +12,7 @@ scale: 团队
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 wiki_refs:
 - '[[dk-modeling-checklist-formatting-rules]]'
 definition_of_done:

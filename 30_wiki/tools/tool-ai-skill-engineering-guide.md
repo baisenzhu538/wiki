@@ -1,4 +1,5 @@
 ---
+
 id: tool-ai-skill-engineering-guide
 title: 高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工作流
 type: tool
@@ -8,8 +9,8 @@ domain:
 - ai
 - modeling
 source_refs:
-- src_20260614_8269ccdb
-- src_20260614_42f1e977
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+  - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
 tags:
 - '#domain/ai'
 - '#domain/skill-engineering'

@@ -1,4 +1,5 @@
 ---
+
 id: course-to-skill-conversion
 type: tool
 domain:
@@ -10,7 +11,7 @@ domain:
 - decision-making
 status: draft
 source_refs:
-- src_20260606_90b44191
+  - src_20260606_90b44191-没有人呀现在
 component_of:
 - ai-learning-closed-loop
 related:

@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-model-arsenal-paradigms
 title: 99% 的模型跑不出二三十个范式：先装武器库再创新
 type: dark-knowledge
@@ -10,7 +11,7 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-- src_20260614_8269ccdb
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 confidence: 0.8
 trust_level: medium
 related:

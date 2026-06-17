@@ -1,4 +1,5 @@
 ---
+
 title: Agent 外挂大脑设计
 type: system
 status: enriched
@@ -8,7 +9,7 @@ id: agent-external-brain-design
 author: unknown
 source_context: KDO internal record （原 legacy，已从 title/context/filename 推断为 src_20260503_52ae08ba）
 source_refs:
-- src_20260503_52ae08ba
+  - src_20260503_52ae08ba-kdo_product_design_agent_final
 reviewed_by: 欧阳锋
 created_at: 2026-06-15
 confidence: 0.75

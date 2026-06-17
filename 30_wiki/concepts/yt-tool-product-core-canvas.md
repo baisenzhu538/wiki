@@ -1,4 +1,5 @@
 ---
+
 id: yt-tool-product-core-canvas
 confidence: 0.85
 created_at: 2026-06-06
@@ -27,7 +28,7 @@ related:
 - '[[dk-一堂-wishful-thinking-kills-startups]]'
 review_date: 2026-06-06
 source_refs:
-- src_20260510_1eb77650
+  - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
 status: enriched
 title: 产品内核画布与九大原则
 trust_level: medium

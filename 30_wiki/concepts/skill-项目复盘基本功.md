@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-项目复盘基本功
 title: 技能：项目复盘基本功
 type: "tool"
@@ -13,7 +14,7 @@ status: draft
 source_person: 一堂课程设计
 source_context: src_20260522_e139c9e9
 source_refs:
-- src_20260522_e139c9e9
+  - src_20260522_e139c9e9-ocr-一堂-个人修炼-科学学习ipo完整清单
 definition_of_done:
 - 操作步骤清晰可执行
 - 适用场景有正反例

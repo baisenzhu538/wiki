@@ -1,4 +1,5 @@
 ---
+
 id: yt-personal-product-design
 confidence: 0.8
 created_at: 2026-05-06
@@ -21,9 +22,9 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/sources/一堂-课程地图精华串讲.md"
+  - src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
 source_refs:
-- src_20260609_e9aa385a
+  - src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
 status: enriched
 title: "泛产品设计"
 trust_level: medium

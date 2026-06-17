@@ -1,5 +1,6 @@
 ---
 
+
 id: yt-five-step-method
 confidence: 0.9
 created_at: 2026-06-10
@@ -26,8 +27,8 @@ related:
 review_date: 2026-06-10
 reviewed_by: 洪七公
 source_refs:
-  - src_20260610_e2867174
-  - src_20260610_ad79435b
+  - src_20260610_e2867174-一堂-一堂五步法-序言-口述
+  - src_20260610_ad79435b-一堂-一堂五步法-序言-笔记
 status: reviewed
 title: 一堂五步法总纲
 trust_level: medium

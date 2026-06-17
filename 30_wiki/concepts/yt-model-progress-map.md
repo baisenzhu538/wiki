@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-progress-map
 confidence: 0.85
 created_at: 2026-05-07
@@ -21,7 +22,7 @@ related:
 - '[[yt-model-personal-map]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260510_ef0a5055
+  - src_20260510_ef0a5055-堂-堂无限进步大地图十年收藏版
 status: enriched
 title: 无限进步大地图
 type: framework

@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-execution-hypothesis-decomposition
 component_of:
 - yt-model-pan-product-execution-toolkit
@@ -30,7 +31,7 @@ related:
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_eb90d179
+  - src_20260522_eb90d179-ocr-泛产品设计-落地卡片-假设拆解
 status: enriched
 title: 泛产品设计·落地卡片：假设拆解
 type: tool

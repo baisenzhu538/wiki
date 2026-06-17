@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-demand-surprise-formula
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -26,7 +27,7 @@ related:
 - '[[yt-panproduct-aesthetic-imagination]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_622b8a41
+  - src_20260522_622b8a41-ocr-泛产品设计-用户卡片-惊喜公式
 status: enriched
 title: 泛产品设计·用户卡片：惊喜公式
 type: tool

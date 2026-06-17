@@ -1,4 +1,5 @@
 ---
+
 id: dk-modeling-sop-execution-locks
 title: SOP 写出来≠被执行：给 SOP 加 SOP 的两层锁，才能把执行率从 50% 拉到近 100%
 type: dark-knowledge
@@ -10,8 +11,8 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训（流程建模案例），2026-06-12
 source_refs:
-- src_20260614_8269ccdb
-- src_20260614_623cfbfd
+  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+  - src_20260614_623cfbfd-高阶建模-流程建模
 created_at: '2026-06-14'
 updated_at: '2026-06-16'
 confidence: 0.8

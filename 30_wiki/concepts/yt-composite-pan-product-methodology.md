@@ -1,4 +1,5 @@
 ---
+
 id: yt-composite-pan-product-methodology
 component_of:
 - yt-model-personal-map
@@ -27,7 +28,7 @@ related:
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
-- src_20260614_9ca806cd
+  - src_20260614_9ca806cd-theme-yitang-methodology-summary
 status: enriched
 title: 泛产品设计方法论
 type: framework

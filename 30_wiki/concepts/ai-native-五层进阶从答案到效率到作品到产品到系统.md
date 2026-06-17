@@ -13,16 +13,19 @@ related:
 - '[[master-knowledge-compound]]'
 - '[[master-systems-thinking]]'
 - '[[yt-panproduct-execution-core-and-boundary]]'
+- '[[case-纪浩-from-zip-to-five-layers]]'
+- '[[yt-note-ai-human-division]]'
+- '[[yt-research-osl-framework]]'
 source_refs:
 - '["src_20260524_3cadf228"]'
 status: enriched
 title: AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
 type: framework
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 pipeline:
 - confidence-source-cited
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 diagnostic_signals:
@@ -99,6 +102,9 @@ Weinberger在《Everything Is Miscellaneous》(2007)中指出：数字时代的�
 - [[master-knowledge-compound]]：知识复利框架强调”IPO+萃取+管理”的正循环，五层框架的L2（项目化Wiki）和L5（回写知识库）直接落地了这一循环的技术实现路径。知识复利是”为什么”，AI Native五层是”怎么做”。
 - [[master-systems-thinking]]：L5的”工程底座”本质上是一个反馈系统——触发→处理→校验→回写→监控。系统思考中的”反馈循环”和”杠杆点”概念可以用来诊断为什么某些AI自动化链路会失控。
 - [[yt-panproduct-execution-core-and-boundary]]：五层框架中”Demo ≠ Product”的判断标准（8条验收清单）与泛产品方法论中”内核与边界”的思维框架互补——L4产品的8条都是”边界”问题（安全、维护、合规），不是”内核”问题（功能、体验）。
+- [[yt-note-ai-human-division]]：L2-L3 的核心不是把笔记丢给 AI，而是划定人与 AI 的分工边界——人负责判断、品味和待验证假设，AI 负责转录、重构和格式标准化。
+- [[yt-research-osl-framework]]：OSL 调研的「目标→范围→逻辑」三步法，为 L1/L2 的问答与重构提供了研究质量控制标准，避免海绵式吸收。
+- [[case-纪浩-from-zip-to-five-layers]]：纪浩从微信传 zip 到 Skills Market 的真实演化，是 L3→L5 跃迁的工程化对照——尤其是「四要素验证」和「PDCA 从 Do 开始」两条约束。
 
 **可迁移场景**：
 - 企业AI培训课程设计：用五层框架做能力分级诊断，让学员自我评估”你在哪一层”并给出对应的提升路径
@@ -111,6 +117,38 @@ Weinberger在《Everything Is Miscellaneous》(2007)中指出：数字时代的�
 - Content: course — 从L1到L3的21天实战计划（面向非技术用户）
 - Code: template — 个人AI Wiki模板（含Project结构、Prompt模板、Skill模板）
 - Capability: workflow — AI Native个人成熟度自评+提升路径工作流
+
+## 落地模板：个人研究笔记的五层升级清单（21 天版）
+
+> 以「一次专家访谈/一堂课程」的研究笔记为例，演示如何把零散记录逐级升级为可复用的 AI 研究资产。本清单可与 [[yt-research-osl-framework]] 的调研流程配合使用。
+
+### 五层升级映射表
+
+| 层级 | 升级前状态 | 关键动作 | 21 天任务 | 通过标准 |
+|:----:|:-----------|:---------|:----------|:---------|
+| **L1 问答层** | 把 AI 当搜索引擎，复制答案到笔记 | 交叉验证、追问来源与反面证据 | 第 1-3 天：对同一问题用 2 个不同模型提问，比较信源与置信度 | 能列出答案的 3 个来源，并指出 1 个潜在漏洞 |
+| **L2 工作流层** | 手写逐字稿，整理耗时 3 小时以上 | 口述输入 + AI 重构 + 项目化 Wiki | 第 4-9 天：用口述或录音转文字，让 AI 按「论点→证据→反方→待验证」重构 | 30 分钟内把 1 小时访谈变成结构化笔记 |
+| **L3 作品层** | 笔记只存在本地，无法被调用 | 输出可传播的清单体/脚本/代码原型 | 第 10-15 天：把 3 份笔记转成统一的清单体或 Skill 模板 | 产出的模板能被同事/自己 3 个月后直接调用 |
+| **L4 产品层** | 每次研究都要从头启动 | 封装成可重复运行的研究服务 | 第 16-19 天：把高频研究动作固定为「输入→处理→输出」SOP | 同一类研究任务第二次启动时间 < 10 分钟 |
+| **L5 系统层** | 研究产出与知识库割裂 | 触发→上下文→技能→校验→回写→监控闭环 | 第 20-21 天：设置自动化触发（如新文章 RSS→摘要→入库→提醒） | 系统能无人值守跑通一轮完整循环 |
+
+### 最小启动 Checklist
+
+- [ ] 选定一个真实研究主题（如一堂课程、一次用户访谈、一个行业课题）。
+- [ ] 在当前层级跑通一个最小闭环：输入 → 处理 → 输出 → 反馈。
+- [ ] 用 [[yt-note-ai-human-division]] 判定哪些环节必须人做、哪些可以交给 AI。
+- [ ] 每升一层前，先回答：「这一层解决的真实问题是什么？没有 AI 我做不到吗？」
+- [ ] 达到 L3 后，把产出放入统一的项目 Wiki，而不是分散在聊天记录或本地文件。
+- [ ] L4/L5 启动前，必须跑通 [[case-纪浩-from-zip-to-five-layers]] 中的「四要素验证」，避免把假需求做成系统。
+
+### 失败症状自检
+
+| 症状 | 可能层级 | 修复动作 |
+|:-----|:---------|:---------|
+| 笔记越记越多，但调用率 < 10% | 卡在 L2/L3 | 强制输出：每记 3 条笔记必须产出 1 份清单体或 1 个 Skill |
+| 同一主题反复做同样的搜索 | 卡在 L1/L2 | 把搜索结果沉淀为 L3 智能资产，并设置 L5 自动化监控 |
+| 研究模板别人用不了 | L3 格式不标准 | 与 [[yt-note-checklist-concept]] 对齐，采用人-AI 双可读结构 |
+| 自动化后反而更累 | L4/L5 监控缺失 | 回退到人工闭环，补齐校验、错误处理、通知机制后再自动化 |
 
 ## Constraints & Boundaries
 

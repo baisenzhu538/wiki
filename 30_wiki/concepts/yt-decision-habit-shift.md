@@ -1,4 +1,5 @@
 ---
+
 id: yt-decision-habit-shift
 component_of:
 - yt-decision-y-model
@@ -26,7 +27,7 @@ related:
 - '[[yt-decision-canvas]]'
 - '[[yt-decision-depth-ladder]]'
 source_refs:
-- src_20260614_8f80cb0f
+  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
 title: X型→Y型决策者习惯诊断与转换
 trust_level: medium

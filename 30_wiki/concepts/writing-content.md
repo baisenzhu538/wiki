@@ -1,10 +1,11 @@
 ---
+
 id: writing-content
 created_at: 2026-05-21
 domain:
   - ai-saas
 source_refs:
-  - src_20260522_5819659f
+  - src_20260522_5819659f-writing-content
 status: enriched
 title: "Writing Content"
 type: concept

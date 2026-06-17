@@ -1,4 +1,5 @@
 ---
+
 id: concept-smart-medicine-cabinet-consumer-acceptance
 title: 消费者购药行为与智能药柜接受度
 type: concept
@@ -8,8 +9,8 @@ domain:
 - business-strategy
 - product
 source_refs:
-- src_20260613_b0cac5a3
-- src_20260613_c5f5a7ce
+  - src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness
+  - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 created_at: 2026-06-15
 updated_at: 2026-06-15
 author: 王语嫣

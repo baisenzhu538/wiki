@@ -1,4 +1,5 @@
 ---
+
 id: yt-foresight-model-taxonomy
 confidence: 0.85
 created_at: 2026-06-10
@@ -17,9 +18,9 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
-  - "00_inbox/预判模型.png"
+  - src_20260613_96e45c45-qishijian-business-model
 source_refs:
-- src_20260613_96e45c45
+  - src_20260613_96e45c45-qishijian-business-model
 status: enriched
 title: "预判模型分类"
 trust_level: medium

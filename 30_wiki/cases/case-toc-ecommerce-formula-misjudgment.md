@@ -1,4 +1,5 @@
 ---
+
 id: case-toc-ecommerce-formula-misjudgment
 title: ToC 消费品电商：业务公式拆解误判导致放量亏损
 type: case
@@ -8,9 +9,9 @@ domain:
 - e-commerce
 - business-strategy
 source_refs:
-- src_20260613_6b939d2b
-- src_20260613_a8bcfd38
-- src_20260613_6edbf0af
+  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+  - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
+  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
 tags:
 - '#method/evaluation-method'
 - '#content-format/case-study'

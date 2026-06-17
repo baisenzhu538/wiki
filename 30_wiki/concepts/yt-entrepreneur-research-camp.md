@@ -1,4 +1,5 @@
 ---
+
 id: yt-entrepreneur-research-camp
 confidence: 0.8
 created_at: 2026-05-11
@@ -17,9 +18,9 @@ query_triggers:
   - "调研黑客五步曲"
 reviewed_by: "黄药师"
 source_refs:
-  - "10_raw/sources/一堂-创业-调研行动营口述01.md"
+  - src_20260510_2ba8671c-创业-调研行动营口述01
 source_refs:
-- src_20260510_2ba8671c
+  - src_20260510_2ba8671c-创业-调研行动营口述01
 status: enriched
 title: "调研行动营：从调研认知到AI调研武器库"
 type: tool

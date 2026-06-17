@@ -1,4 +1,5 @@
 ---
+
 id: sales-pitch-bias-patterns
 title: 销售话术偏误识别模式库
 type: framework
@@ -8,7 +9,7 @@ domain:
 - due-diligence
 - vendor-assessment
 source_refs:
-- src_20260613_96e45c45
+  - src_20260613_96e45c45-qishijian-business-model
 tags:
 - '#method/research-method'
 - '#method/evaluation-method'

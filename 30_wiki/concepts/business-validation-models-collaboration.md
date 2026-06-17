@@ -1,4 +1,5 @@
 ---
+
 id: business-validation-models-collaboration
 title: AI 时代的业务验证、商业模式与组织协作
 type: concept
@@ -8,17 +9,17 @@ domain:
 - entrepreneur
 - ai
 source_refs:
-- src_20260614_606a631d
-- src_20260614_cb61aeca
-- src_20260614_fd0f5a00
-- src_20260614_ab09af1c
-- src_20260614_909802bd
-- src_20260614_d79b42d1
-- src_20260614_e38d86d9
-- src_20260614_350272ef
-- src_20260614_086550ab
-- src_20260614_1a0a6efa
-- src_20260614_7e8857b8
+  - src_20260614_606a631d-张磊-精益方法论培训
+  - src_20260614_cb61aeca-外卖平台-智能分单系统沟通
+  - src_20260614_fd0f5a00-多人-项目联调问题沟通
+  - src_20260614_ab09af1c-多人-FD模式解析
+  - src_20260614_909802bd-智能设备-外卖对接方案讨论
+  - src_20260614_d79b42d1-D同学-AI技术落地案例
+  - src_20260614_e38d86d9-一起引擎-由来与初心介绍
+  - src_20260614_350272ef-阿瑞老师-AI自习室共学
+  - src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a
+  - src_20260614_1a0a6efa-网络话密达数据公司介绍
+  - src_20260614_7e8857b8-theme-other-summary
 tags:
 - '#domain/ai-saas'
 - '#method/evaluation-method'

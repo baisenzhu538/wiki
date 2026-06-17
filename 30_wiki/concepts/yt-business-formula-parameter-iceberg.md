@@ -1,4 +1,5 @@
 ---
+
 id: yt-business-formula-parameter-iceberg
 title: 业务公式参数冰山（L1-L6）
 type: concept
@@ -8,8 +9,8 @@ domain:
 - master
 - business-strategy
 source_refs:
-- src_20260613_6edbf0af
-- src_20260613_6b939d2b
+  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
+  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'

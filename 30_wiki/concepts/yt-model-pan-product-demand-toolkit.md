@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-pan-product-demand-toolkit
 component_of:
 - yt-composite-pan-product-methodology
@@ -26,7 +27,7 @@ related:
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_726a6a3b
+  - src_20260522_726a6a3b-ocr-泛产品设计-需求工具箱指南
 status: enriched
 title: 泛产品设计·需求工具箱（13张卡牌）
 type: framework

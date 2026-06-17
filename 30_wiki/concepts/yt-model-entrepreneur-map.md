@@ -1,4 +1,5 @@
 ---
+
 id: yt-model-entrepreneur-map
 confidence: 0.85
 created_at: 2026-05-07
@@ -61,7 +62,7 @@ related:
 - '[[case-milktea-five-step]]'
 reviewed_by: 王语嫣
 source_refs:
-- src_20260613_96e45c45
+  - src_20260613_96e45c45-qishijian-business-model
 status: enriched
 title: 创业修炼地图
 type: framework

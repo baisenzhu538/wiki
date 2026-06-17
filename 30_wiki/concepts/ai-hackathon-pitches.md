@@ -1,4 +1,5 @@
 ---
+
 id: ai-hackathon-pitches
 title: AI 大航海项目路演：主题综合知识卡
 type: concept
@@ -8,18 +9,18 @@ domain:
 - entrepreneur
 - product
 source_refs:
-- src_20260614_3b46ff78
-- src_20260614_1d4cc0e0
-- src_20260614_852f9158
-- src_20260614_67a2b760
-- src_20260614_35e5c7a5
-- src_20260614_32622548
-- src_20260614_cc542987
-- src_20260614_507e4b9a
-- src_20260614_6463da99
-- src_20260614_489554e9
-- src_20260614_ef4f24d7
-- src_20260614_8bd357d3
+  - src_20260614_3b46ff78-一堂武智院-项目介绍
+  - src_20260614_1d4cc0e0-2298战队-AI组织落地探索
+  - src_20260614_852f9158-唐三超-奶糖项目汇报
+  - src_20260614_67a2b760-科创号1301-AI应用落地汇报
+  - src_20260614_35e5c7a5-稳住战队-价值投资大师项目
+  - src_20260614_32622548-无限进步战队-AI内容营销路演
+  - src_20260614_cc542987-个人-AI航海成果汇报
+  - src_20260614_507e4b9a-AI博客项目-经验分享
+  - src_20260614_6463da99-房浩洋-AI剧本杀项目路演
+  - src_20260614_489554e9-瑶光阁-非遗珠宝项目汇报
+  - src_20260614_ef4f24d7-AI旋风组-项目介绍
+  - src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary
 tags:
 - '#domain/ai-saas'
 - '#method/communication-method'

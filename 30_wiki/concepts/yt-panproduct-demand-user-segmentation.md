@@ -1,4 +1,5 @@
 ---
+
 id: yt-panproduct-demand-user-segmentation
 component_of:
 - yt-model-pan-product-demand-toolkit
@@ -25,7 +26,7 @@ related:
 - '[[yt-panproduct-demand-scenario-walkthrough]]'
 reviewed_by: 黄药师
 source_refs:
-- src_20260522_38ddd826
+  - src_20260522_38ddd826-ocr-泛产品设计-用户卡片-用户分层
 status: enriched
 title: 泛产品设计·用户卡片：用户分层
 type: tool

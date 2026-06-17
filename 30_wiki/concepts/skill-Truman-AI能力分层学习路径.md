@@ -1,5 +1,6 @@
 ---
 
+
 id: skill-Truman-AI能力分层学习路径
 title: 技能：AI能力分层学习路径
 type: "tool"
@@ -12,7 +13,7 @@ created_at: '2026-06-15'
 confidence: 0.6
 trust_level: low
 source_refs:
-- src_20260609_03491271
+  - src_20260609_03491271-ocr-一堂-ai学习-truman自用的ai-featureset
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_03491271）
 updated_at: '2026-06-16'
 ---
