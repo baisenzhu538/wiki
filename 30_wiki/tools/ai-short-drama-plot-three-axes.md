@@ -20,8 +20,6 @@ review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.90
 related:
-- '[[ai-short-drama-ice-fire-scripting-compass]]'
-- '[[ai-short-drama-ice-fire-dissection-compass]]'
 - '[[ai-short-drama-script-planning-three-axes]]'
 - '[[ai-short-drama-conflict-three-axes]]'
 tags:
@@ -182,10 +180,8 @@ diagnostic_signals:
 
 ## 相关卡/互链
 
-- [[ai-short-drama-ice-fire-scripting-compass]]：剧情三板斧所在的顶层罗盘，提供短剧 AI 协作的整体框架。
 - [[ai-short-drama-conflict-three-axes]]：提供更细粒度的矛盾冲突设计，可与"极致对立"互补使用。
 - [[ai-short-drama-script-planning-three-axes]]：剧情三板斧之后的剧本策划落地工具，负责把张力转化为分集结构。
-- [[ai-short-drama-ice-fire-dissection-compass]]：用于拆解爆款短剧时反向验证三斧是否成立。
 
 ---
 
@@ -216,7 +212,6 @@ diagnostic_signals:
 
 ### 关联卡片
 
-- [[ai-short-drama-ice-fire-scripting-compass]]：剧情三板斧所在的顶层罗盘
 - [[ai-short-drama-conflict-three-axes]]：提供更细粒度的矛盾冲突设计
 - [[ai-short-drama-script-planning-three-axes]]：剧情三板斧之后的剧本策划落地工具
 
