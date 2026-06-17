@@ -6,16 +6,16 @@ source_refs:
 - src_20260614_8269ccdb
 - src_20260614_42f1e977
 - src_20260614_623cfbfd
-status: draft
+status: enriched
 domain:
 - yitang
 - product
 - ai-collaboration
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 老顽童
-reviewed_by: pending
-review_date: '2026-06-14'
+reviewed_by: 欧阳锋
+review_date: '2026-06-17'
 trust_level: medium
 confidence: 0.75
 tags:
@@ -23,6 +23,12 @@ tags:
 - '#content-format/framework'
 - '#domain/yitang'
 - '#method/thinking-tool'
+- '#method/ai-collaboration'
+related:
+- '[[modeling-three-stages]]'
+- '[[modeling-to-kdo-toolchain]]'
+- '[[dk-modeling-ai-without-judgment]]'
+- '[[dk-modeling-essence-predictive]]'
 diagnostic_signals:
 - signal: 用户说"团队经验无法沉淀，每次都要重新踩坑"
   framework_lens: 流程类建模
@@ -33,6 +39,9 @@ diagnostic_signals:
 - signal: 用户说"学了很多方法论，但抓不住核心"
   framework_lens: 本质提炼
   follow_up_question: 你能不能用 1-4 个关键词概括这个领域的本质？
+- signal: 团队用 AI 生成了一套"看起来完整"的方法论，但落地时每个场景都要临时打补丁
+  framework_lens: 人在环中建模五步法
+  follow_up_question: 这个模型是否已定义边界、经过挑错/撞击实验、并固化成清单/SOP？
 ---
 # 高阶建模能力体系：一堂从经验到规律的教研方法论
 
@@ -55,6 +64,8 @@ diagnostic_signals:
 
 ## Constraints & Boundaries
 
+### 适用边界
+
 | 边界 | 说明 |
 |------|------|
 | **适用对象** | 创业者、管理者、教研人员、知识工作者，以及需要把经验产品化的人。 |
@@ -62,6 +73,15 @@ diagnostic_signals:
 | **数据基础** | 抽象建模需基于大量案例（千人广场模型），样本不足时模型容易过拟合。 |
 | **领域依赖** | 本质提炼高度依赖领域深度，跨领域迁移需重新验证。 |
 | **AI 边界** | AI 可辅助整理和初稿，但无法替代人类的审美判断和逻辑洁癖。 |
+
+### 常见失败模式
+
+| 模式 | 真实症状 | 可执行修复 |
+|:-----|:---------|:-----------|
+| **阶段跳级：没稳定流程就追求本质** | 团队争论"本质是什么"，一线基础动作反复出错；新人看不懂框架，老人不愿按 SOP 执行。 | 回退到流程建模，输出 SOP/清单并追踪执行率；执行率达到 90% 以上、异常收敛后再进入抽象建模。 |
+| **把解释性本质当预测性本质** | 提炼出"人性""利他""长期主义"等大词，听着对但推不出下一步动作；只能解释历史，无法制定下周计划。 | 用"三步推导测试"验证：能否作为通用解？能否自行推演？是否包含关键要素？至少推导出 3 个具体动作才算过关。 |
+| **AI 生成模型未经挑错与上锁** | AI 输出的框架术语漂亮但缺逻辑链；同一任务两次运行结果不一致；落地时每场景都要临时打补丁。 | 按"人在环中建模五步法"补全边界定义→挑错/撞击→上锁/格式化；用清单体四规则固化；未满足前标记为 beta。 |
+| **模型武器库只建不用** | 积累了大量雷达图/冰山图/清单，但遇到真实问题仍凭直觉决策；工具库越来越厚，调用率越来越低。 | 为每个模型指定"触发场景 + 第一个动作 + 成功指标"，并在会议/决策中强制调用；每季度统计调用率和命中率，淘汰低使用率模型。 |
 
 ---
 
