@@ -161,16 +161,31 @@ def check_roundtrip(metadata: dict) -> list[str]:
 
 ---
 
-## 常见陷阱
+## Constraints & Boundaries
 
-| 陷阱 | 表现 | 修复 |
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 开发/修改KDO流水线中的YAML frontmatter处理代码 |
+| ✅ 适合 | 新建卡片或批量修改卡片元数据 |
+| ✅ 适合 | 排查数据丢失或字段被拍平的bug |
+| ❌ 不适合 | 纯内容编辑（不涉及frontmatter） → 无需关注YAML安全 |
+| ❌ 不适合 | 使用KDO CLI正常读写（已内置安全处理） → 无需手动干预 |
+| ❌ 不适合 | 非YAML格式文件（如纯txt/json） → 用对应格式解析器 |
+| ❌ 不适合 | 紧急修复时跳过round-trip校验 → 宁可慢，不可错 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
 |:-----|:-----|:-----|
-| `- #master` 作 list item | YAML 把 `#master` 当成注释，值为 null | 加引号：`- "#master"` |
-| dict 值用 Python repr | 输出 `{'key': 'val'}` 而非 `key: val` | 用 `yaml.dump()` |
-| 多行字符串不缩进 | YAML 解析截断 | 用 `|-` 或 `>` 块标量 |
-| 手写推断类型 | `"true"` 被识别为 bool | 用 YAML 原生的类型推断 |
-| `:` 在字符串值中 | 被解析为新的 key:value | 加引号包裹 |
-| `visual_analysis` 类嵌套结构 | 解析为扁平 dict 或列表 | 必须用 `yaml.safe_load()` |
+| **手写解析器** | 逐行split(':')，嵌套结构丢失 | 统一用yaml.safe_load()，删除所有手写解析代码 |
+| **Python repr输出** | dict渲染成{'key': 'val'}而非YAML | 嵌套结构用yaml.dump()，不用str(value) |
+| **注释误解析** | #master标签变成null | 所有#开头值加引号："#master" |
+| **跳过round-trip** | 写文件后直接上线，未验证读回 | 写文件前强制做round-trip校验，issues为空才通过 |
+| **多行字符串截断** | 长文本未缩进，YAML解析失败 | 用\|-或>块标量处理多行字符串 |
+| **类型推断错误** | "true"被识别为bool，"123"被识别为int | 需要字符串时显式加引号 |
+| **冒号分隔误解析** | 字符串值中含:被当成新key:value | 含:的字符串值加引号包裹 |
 
 ---
 
