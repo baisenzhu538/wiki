@@ -18,8 +18,8 @@ query_triggers:
 review_date: 2026-06-17
 reviewed_by: 欧阳锋
 source_refs:
-- 00_inbox/一堂五步法/一堂-一堂五步法-序言-口述.txt
-- 00_inbox/一堂五步法/一堂-一堂五步法-落地实操-口述.txt
+- 10_raw/sources/src_20260617_670c28d4-一堂-一堂五步法-序言-口述.txt
+- 10_raw/sources/src_20260617_3c05beda-一堂-一堂五步法-落地实操-口述.txt
 status: enriched
 title: 暗知识：五步法中的主要认知偏差
 trust_level: medium
@@ -46,8 +46,8 @@ diagnostic_signals:
 updated_at: '2026-06-17'
 author: 老顽童
 related:
-- "master-cognitive-bias-checklist"
-- "case-five-step-fake-vs-real-barriers"
+- master-cognitive-bias-checklist
+- case-five-step-fake-vs-real-barriers
 ---
 # 暗知识：五步法中的主要认知偏差
 

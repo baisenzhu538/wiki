@@ -10,7 +10,7 @@ language: zh-CN
 version: 1
 confidence: 0.84
 source_refs:
-- 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
+- 10_raw/sources/src_20260617_c5e5fb8e-一堂-ai时代请单体笔记-truman-口述-02.txt
 related:
 - '[[skill-多源输入法]]'
 - '[[yt-note-l4-internalization]]'

@@ -4076,7 +4076,7 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 > **来源**：KF-021 扫描发现 `index.md` 和 `log.md` 两个元页面共有 760 个 hash 前缀 source_refs。  
 > **负责人**：老顽童  
 > **优先级**：P2  
-> **状态**：待领取
+> **状态**：已完成
 
 ### 背景
 
@@ -4090,9 +4090,9 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 
 ### 完成标准
 
-- [ ] `index.md` 和 `log.md` 的 `source_refs` 中无 hash 前缀
-- [ ] 所有保留的 source_refs 指向真实存在的文件或为系统级标识
-- [ ] 质量门禁 P0=0、YAML errors=0
+- [x] `index.md` 和 `log.md` 的 `source_refs` 中无 hash 前缀
+- [x] 所有保留的 source_refs 指向真实存在的文件或为系统级标识
+- [x] 质量门禁 P0=0、YAML errors=0
 
 ---
 

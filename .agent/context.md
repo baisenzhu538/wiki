@@ -1,14 +1,11 @@
 ---
-updated: 2026-06-17
+updated: 2026-06-18
 active_branch: main
-active_task: "老顽童第二十二节30张卡精修A-通过；剩余13张source_refs残留+KF-021 33张+index/log清理待老顽童处理。"
+active_task: "KF-021+第二十二节source_refs清理全部完成；全库P0=0,P1=18(预期draft空source),clean=1175。待分配下轮任务。"
 blockers:
   - "王语嫣角色正式升级AGENTS.md"
   - "231张draft精修池→分配老顽童下轮精修"
-  - "老顽童清理第二十二节13张卡source_refs残留"
-  - "老顽童处理KF-021剩余33张卡source缺失/降级"
-  - "老顽童清理index/log元页面760个hash前缀source引用"
-next_session_hint: "用户说'继续'→ ① 王语嫣角色正式升级；② 231 draft精修池分配；③ 老顽童清理source_refs残留；④ 决策域深度研究下轮推进"
+next_session_hint: "用户说'继续'→ ① 王语嫣角色正式升级；② 231 draft精修池分配；③ 决策域深度研究下轮推进；④ KF-022 decisions域lint修复排期"
 ---
 
 ## 2026-06-12 变更

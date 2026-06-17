@@ -10,8 +10,8 @@ language: zh-CN
 version: 1
 confidence: 0.82
 source_refs:
-- src_20260606_575627a4
-- src_20260606_db4fc211
+- 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
+- 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 related:
 - '[[yt-note-checklist-concept]]'
 - '[[yt-note-live-field-skill]]'

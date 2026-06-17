@@ -7,7 +7,7 @@ domain:
 - consulting
 - yitang
 source_refs:
-- src_20260614_8269ccdb
+- 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
 bridges_to:
 - target: skill-一堂-kernel-three-questions
   relation: provides_foundation_for

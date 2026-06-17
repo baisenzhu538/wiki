@@ -25,7 +25,7 @@ related:
 - '[[yt-lean-qualitative-quantitative-research]]'
 - '[[dk-foresight-source-material-blindness]]'
 source_refs:
-- src_20260504_13783111
+- 10_raw/sources/src_20260504_13783111-一堂调研武器库课程原文润色.md
 status: enriched
 title: 情报获取全景地图：13+渠道穷尽手段
 trust_level: medium

@@ -10,9 +10,9 @@ domain:
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享（2026-06）
 source_refs:
-- 00_inbox/半肥猫-AI学习落地-口述.md
-- 00_inbox/AI俱乐部-AI学习落地-半肥猫-笔记.txt
-- 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
+- 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
+- 10_raw/sources/src_20260617_26d0ee0b-ai俱乐部-ai学习落地-半肥猫-笔记.txt
+- 10_raw/sources/src_20260617_205eaa9b-ai俱乐部-ai学习落地-半肥猫-口述.txt
 created_at: 2026-06-07
 updated_at: '2026-06-17'
 related:

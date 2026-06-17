@@ -9,8 +9,8 @@ domain:
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享——真实案例：将一堂《转化率黑客五组合落地》课程转化为 Skill
 source_refs:
-- 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
-- 00_inbox/AI俱乐部-AI学习落地-半肥猫-笔记.txt
+- 10_raw/sources/src_20260617_2b8a01ce-ai俱乐部-ai学习落地-半肥猫-口述.txt
+- 10_raw/sources/src_20260617_629e996c-ai俱乐部-ai学习落地-半肥猫-笔记.txt
 tags:
 - '#perspective/professional'
 - '#confidence/source-cited'

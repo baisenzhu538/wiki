@@ -9,9 +9,9 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
-- src_20260606_6ea91aa8
-- src_20260606_592137a7
-- src_20260609_9223aac2
+- 10_raw/sources/src_20260606_6ea91aa8-纪浩-AI协作方法论-口述.md
+- 10_raw/sources/src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记.md
+- 10_raw/sources/src_20260609_9223aac2-ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md
 related:
 - '[[concept-纪浩-ai-collaboration-methodology]]'
 - '[[skill-纪浩-真需求四要素验证法]]'
