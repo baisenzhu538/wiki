@@ -3,19 +3,18 @@ id: mineru-pdf-parsing-setup
 title: MinerU (magic-pdf) PDF 解析工具安装与使用
 type: tool
 status: enriched
-confidence: 0.95
-trust_level: high
+confidence: 0.75
+trust_level: medium
 domain:
   - kdo
   - infrastructure
 source_refs:
   - mineru-docs
 created_at: "2026-06-17"
+updated_at: "2026-06-17"
 author: 黄药师
-reviewed_by: 黄药师
+reviewed_by: 王语嫣（代欧阳锋）
 review_date: "2026-06-17"
-confidence: 0.75
-trust_level: medium
 related: []
 tags:
   - "#infrastructure"
