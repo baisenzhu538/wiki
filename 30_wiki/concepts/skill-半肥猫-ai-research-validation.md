@@ -1,38 +1,56 @@
 ---
-
 id: skill-半肥猫-ai-research-validation
-title: AI调研纠偏与验证技能：从"丝滑回答"到"证据决策"的六步闭环
-type: "tool"
-status: draft
+title: "AI调研纠偏与验证技能：从'丝滑回答'到'证据决策'的六步闭环"
+type: tool
+status: enriched
 domain:
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - yitang
 source_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
-- 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
-created_at: 2026-06-08
-reviewed_by: laowantong
-updated_at: '2026-06-16'
+  - 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
+created_at: "2026-06-08"
+updated_at: "2026-06-17"
 related:
-- '[[case-半肥猫-from-assignment-to-tool]]'
-- '[[dk-半肥猫-silky-answers-are-dangerous]]'
-- '[[dk-半肥猫-real-business-is-the-engine]]'
+  - "[[case-半肥猫-from-assignment-to-tool]]"
+  - "[[dk-半肥猫-silky-answers-are-dangerous]]"
+  - "[[dk-半肥猫-real-business-is-the-engine]]"
+  - "[[skill-半肥猫-course-to-skill-workflow]]"
+  - "[[skill-半肥猫-追问AI证据并标注信源]]"
+  - "[[skill-纪浩-problem-validation-four-checks]]"
 wiki_refs:
-- '[[case-半肥猫-from-assignment-to-tool]]'
-- '[[dk-半肥猫-silky-answers-are-dangerous]]'
-- '[[dk-半肥猫-real-business-is-the-engine]]'
+  - "[[case-半肥猫-from-assignment-to-tool]]"
+  - "[[dk-半肥猫-silky-answers-are-dangerous]]"
+  - "[[dk-半肥猫-real-business-is-the-engine]]"
 definition_of_done:
-- 六步闭环已完整记录
-- 纠偏模板已提供
-- 证据质量标准已明确
-- 实际测试通过
+  - 六步闭环已完整记录
+  - 纠偏模板已提供
+  - 证据质量标准已明确
+  - 实际测试通过
 pipeline:
-- confidence-draft
-- confidence-source-cited
-author: 半肥猫
-confidence: 0.7
-trust_level: low
+  - confidence-draft
+  - confidence-source-cited
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "AI回答听起来很对但找不到数据来源"
+    lens: "丝滑陷阱"
+    follow_up: "执行步骤4走偏检测：识别推理vs证据，用纠偏模板要求标注信源"
+  - signal: "调研结论和实际业务不符"
+    lens: "验证缺失"
+    follow_up: "执行步骤6贴合真实场景：把结论放回业务验证，没有验证=空转"
+  - signal: "纠偏了10轮还在原地打转"
+    lens: "纠偏过度"
+    follow_up: "检查步骤1目标是否过于宽泛，纠偏需要焦点，目标不清则无法收敛"
+  - signal: "AI用'应该''通常'等模糊词"
+    lens: "纯推理无证据"
+    follow_up: "用纠偏模板：请用具体数据支撑，如果没有数据明确说'这是推理缺乏证据'"
+  - signal: "调研做完了但从未用于实际决策"
+    lens: "业务脱节"
+    follow_up: "检查是否有真实业务问题需要解答，没有真实问题=练习而非调研"
 ---
 # AI调研纠偏与验证技能：从“丝滑回答”到“证据决策”的六步闭环
 
