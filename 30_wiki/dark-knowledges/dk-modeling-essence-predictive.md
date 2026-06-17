@@ -4,33 +4,50 @@ id: dk-modeling-essence-predictive
 title: '''解释性本质''是高级鸡汤：真正值钱的本质必须能指导下一次真实决策'
 type: dark-knowledge
 dark_knowledge_type: insight
-status: draft
+status: enriched
 domain:
 - yitang
 - master
 source_person: Truman
 source_context: 一堂建模能力培训（本质建模案例），2026-06-12
 source_refs:
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-  - src_20260614_d0539c25-Truman-高阶建模-本质建模-三个目标-01
+  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+  - 10_raw/sources/src_20260614_d0539c25-Truman-高阶建模-本质建模-三个目标-01.md
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
-confidence: 0.8
+updated_at: '2026-06-17'
+confidence: 0.9
 trust_level: high
+diagnostic_signals:
+  - signal: 团队说出一个本质，但能推出的唯一动作是"重视它"
+    framework_lens: 解释性本质 vs 预测性本质
+    follow_up_question: 用这个本质能推导出三个互不重复的具体决策或检查项吗？
+  - signal: 本质只解释过去所有成功案例，遇到反例就被说成"例外"
+    framework_lens: 可证伪性与预测力
+    follow_up_question: 这个本质能否明确预测一个新场景的结果，以及什么情况下它会失效？
+  - signal: 决策会上大家在"顿悟感"中通过方案，没人能写清因果链
+    framework_lens: 决策可推导性
+    follow_up_question: 如果从本质到方案需要跳跃超过一步，中间缺失的变量是什么？
+  - signal: AI 总结的本质听起来深刻，但落地时每个动作都要重新讨论
+    framework_lens: 生成式模型的解释力幻觉
+    follow_up_question: 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？
 related:
 - '[[modeling-capability-for-kdo]]'
 - '[[modeling-three-stages]]'
 - '[[modeling-capability-system]]'
 - '[[dk-modeling-counterexample-driven]]'
+- '[[dk-modeling-explanatory-vs-predictive-essence]]'
 - '[[case-modeling-essence-levels]]'
 - '[[case-modeling-essence-schools]]'
+- '[[case-essence-education-strategy]]'
+- '[[tool-essence-nfactor-modeling]]'
+- '[[yt-five-step-method]]'
 tags:
 - '#source-type/diverse'
 - '#domain/yitang'
 - '#method/essence-modeling'
 - '#method/decision-quality'
-reviewed_by: pending
-review_date: '2026-06-14'
+reviewed_by: 欧阳锋
+review_date: '2026-06-17'
 author: 老顽童
 ---
 # “解释性本质”是高级鸡汤：真正值钱的本质必须能指导下一次真实决策
@@ -39,7 +56,7 @@ author: 老顽童
 
 > 本质有两种：一种叫解释类本质，一种叫预测类本质。解释类本质更偏文科硕士的解读——你总结一个规律，历史上所有案例好像都能证明它是对的，但你让它预测下一件事，说不清楚。很多专家把什么都说成“人性”：股权的本质是人性，管理的本质是人性，激励的本质是人性。听上去头头是道，但你明天要判断一个人招不入职、股权分多少，你拿“人性”两个字给我一步一步把方案推出来，我看你怎么推。真正有效的本质，必须能指导实践，能作为所有解法的通用解，能自行推演，能包含关键要素。我们一堂追求的，是在有用的情况下尽量简洁，而不是无限抽象。
 
-## 深度洞察
+## 核心洞察
 
 解释性本质和预测性本质的区别，不是“对错”之别，而是“能不能把下一手棋下好”之别。Truman 的底层判断是：一个本质如果不能在真实决策场景中推出至少三个可执行动作，就只是“高级鸡汤”——它让你感觉被点亮，但不会改变你的行为。市场上大量“一句话看透本质”的课程和顾问，卖的正是这种解释力。预测性本质的价值在于，它把复杂问题压缩成一个“通用解”，这个通用解同时具备三个特征：**包含关键要素**（能识别这是不是该类问题）、**自行推演**（能推出具体解法）、**指导实践**（能作为下一次决策的 checklist）。
 
@@ -75,6 +92,15 @@ author: 老顽童
 
 6. **把本质变成“决策检查清单”**
    一个好本质应该能直接导出检查项。例如战略本质导出：是否全局？是否影响成败？是否艰难选择？是否在做取舍？
+
+## 诊断信号
+
+| 诊断信号 (Signal) | 透镜 (Lens) | 跟进问题 (Follow-up) |
+|:---|:---|:---|
+| 团队说出一个本质，但能推出的唯一动作是"重视它" | 解释性本质 vs 预测性本质 | 用这个本质能推导出三个互不重复的具体决策或检查项吗？ |
+| 本质只解释过去所有成功案例，遇到反例就被说成"例外" | 可证伪性与预测力 | 这个本质能否明确预测一个新场景的结果，以及什么情况下它会失效？ |
+| 决策会上大家在"顿悟感"中通过方案，没人能写清因果链 | 决策可推导性 | 如果从本质到方案需要跳跃超过一步，中间缺失的变量是什么？ |
+| AI 总结的本质听起来深刻，但落地时每个动作都要重新讨论 | 生成式模型的解释力幻觉 | 这个本质是否包含可识别问题的关键要素，并能自行展开为 checklist？ |
 
 ## 真实案例
 
@@ -161,4 +187,10 @@ Truman 指出，逐字稿不是“对外交付的稿子”，而是**现场说�
 - [[modeling-three-stages]] —— 本质建模是 85 分阶段；本暗知识说明什么样的“本质”才配得上 85 分。
 - [[modeling-capability-system]] —— 一堂建模能力的最终目标：形成稳定、可迁移、可指导决策的体系。
 - [[dk-modeling-counterexample-driven]] —— 用反例驱动验证本质：一个反例就能说明你的“本质”边界不对。
+- [[dk-modeling-explanatory-vs-predictive-essence]] —— 同一主题的姊妹篇，聚焦可预测性与可证伪性。
+- [[case-modeling-essence-levels]] —— 本质分层案例，说明什么样的本质配得上不同分数段。
+- [[case-modeling-essence-schools]] —— 不同流派对“本质”的理解差异。
+- [[case-essence-education-strategy]] —— 预测性本质在具体业务案例中的应用。
+- [[tool-essence-nfactor-modeling]] —— 本质建模方法，帮助从事实中提炼可预测的本质。
+- [[yt-five-step-method]] —— 一堂五步法，常与本质建模配合用于业务拆解。
 - `src_20260614_8269ccdb#3112-3258` —— Truman 口述原文：解释性本质 vs 预测性本质。
