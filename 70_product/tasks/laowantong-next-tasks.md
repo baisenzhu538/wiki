@@ -3905,3 +3905,19 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 | 5. 决定输出 | 判断何时 ready、何时叫停 | 执行格式化 | 过早或过晚交付 |
 
 这个模式与第二十一节「人在环中建模五步法」高度一致，已在 `modeling-three-stages`、`dk-modeling-ai-without-judgment` 等卡中体现。
+
+### 第二十二节批次 3 进度记录：笔记法/研究法概念卡——`yt-note-expert-interview-modeling` 深度精修完成
+
+**完成时间**：2026-06-17  
+**质量门禁**：`total=1193, p0=0, p1=0, clean=1193, yaml_error=0`
+
+| 项目 | 改动内容 |
+|---|---|
+| DS | frontmatter 新增 2 条，共 4 条（覆盖“只顾记录无法建模 / 建模冒犯对方 / 有逐字稿无模型 / 依赖 AI 转录不再追问”） |
+| Constraints & Boundaries | 适用边界扩充为 5 条正向 + 3 条反向；常见失败模式 5 条，均含真实症状 + 可执行修复 |
+| 落地模板 | 新增「专家访谈式笔记 90 分钟现场操作卡」，含 7 阶段时间盒、关键动作、成功标准与失败信号 |
+| 互链 | 新增 `[[yt-research-expert-interview]]`、`[[yt-note-extensive-research-input]]`、`[[case-truman-ai-skill-engineering-guide]]` 3 条；全卡 related 共 8 条 |
+| source_refs | 从原始文件路径改为已注册 `src_20260606_575627a4`、`src_20260606_db4fc211` |
+| 状态 | `status` draft→`enriched`；`updated_at` 更新为 2026-06-17；`author`→老顽童；`reviewed_by`→欧阳锋；`trust_level`→medium |
+
+**待审查**：请欧阳锋审查本卡与 `yt-research-expert-interview` 的内容边界，避免两张同主题卡片在“访谈方法论”层面过度重复。
