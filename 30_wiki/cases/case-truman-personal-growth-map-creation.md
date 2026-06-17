@@ -1,6 +1,6 @@
 ---
 id: case-truman-personal-growth-map-creation
-title: Truman 个人地图创作全历程：从模糊想法到四格天花板
+title: Truman 个人地图创作全历程：七步创作法与 AI 判断（创作者视角）
 type: case
 source_refs:
 - src_20260614_8269ccdb
@@ -43,11 +43,13 @@ diagnostic_signals:
   follow_up_question: 找 3 个团队成员独立把课程塞进框架，塞法一致率是否 ≥80%？不一致的地方正是分类标准模糊的征兆。
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 ---
 # Truman 个人地图创作：从模糊想法到四格天花板的七步
 
 > **Burn line**: AI 出了几个版本全是"分类不明确"——真正突破来自人手工写 5-10 个版本。
+
+> **本卡定位（边界说明）**：这是一张**创作者视角**的 case 卡。它聚焦 Truman 作为创作者的心路历程与判断：**七步创作法、AI 与人的分工、为什么 AI 无法替代人的逻辑洁癖、以及这张图对 KDO 知识建模的启示**。如果你想看同一素材下更完整的方法论流程（含第 8 步路演验证、团队塞课等），请跳转 [[case-personal-map-modeling]]。
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: case-personal-map-modeling
-title: 案例：一堂个人地图的完整建模过程
+title: 案例：一堂个人地图的完整建模过程（方法论视角）
 type: case
 source_refs:
 - src_20260614_8269ccdb
@@ -13,7 +13,7 @@ source_person: Truman
 source_context: 一堂高阶建模能力培训（做客流程/个人地图案例） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
   收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 老顽童
 reviewed_by: 王语嫣（代欧阳锋）
 review_date: '2026-06-14'
@@ -49,6 +49,8 @@ diagnostic_signals:
 # 案例：一堂个人地图的完整建模过程
 
 > **Burn line**: 一张 10 万美金级别的地图，是从十几个模糊课题开始，经过全量整理、找规律、写废 5–10 版、逻辑洁癖、路演验证才磨出来的。
+
+> **本卡定位（边界说明）**：这是一张**方法论视角**的 case 卡。它还原的是 Truman 在课堂上完整演示的“做客流程”/建模方法论：从 dump 到路演验证的 8 步完整过程，重点看**团队如何碰撞、如何用逻辑洁癖收敛、如何定义最小/最大单位**。如果你想看同一素材下更侧重“创作者心路历程 + AI 与人判断关系”的叙事，请跳转 [[case-truman-personal-growth-map-creation]]。
 
 这是 Truman 在课上完整还原的“做客流程”案例。一堂在 2025 年底决定做第三张地图——个人地图，把创业地图、管理地图里跟个人成长相关的课抽出来。表面看只是“画一张图”，但背后的建模过程极其专业。同一案例的另一种叙事见 [[case-truman-personal-growth-map-creation]]。
 
