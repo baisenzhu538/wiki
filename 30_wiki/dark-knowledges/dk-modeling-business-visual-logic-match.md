@@ -4,7 +4,7 @@ id: dk-modeling-business-visual-logic-match
 title: 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配
 type: dark-knowledge
 dark_knowledge_type: insight
-status: draft
+status: enriched
 domain:
 - yitang
 - ai-saas
@@ -14,19 +14,30 @@ source_refs:
   - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 confidence: 0.8
 trust_level: medium
+diagnostic_signals:
+  - signal: 模型图被反馈"看着很专业但看不懂"
+    framework_lens: 业务逻辑与视觉形态匹配
+    follow_up_question: 如果遮住所有文字，读者能否仅凭图形形态猜出核心逻辑关系？
+  - signal: 团队争论该用雷达图、冰山图还是双三角
+    framework_lens: 形态-逻辑映射
+    follow_up_question: 这个业务关系的本质到底是分类、累加、深挖、辩证还是复利？
+  - signal: AI 生成的图很精美但逻辑混乱
+    framework_lens: AI 出图人审
+    follow_up_question: 我是否先用自然语言写清楚了业务逻辑，再让 AI 选择视觉形态？
 related:
 - '[[dk-modeling-model-arsenal-paradigms]]'
 - '[[tool-iceberg-triangle-modeling]]'
 - '[[tool-binary-quadrant-modeling]]'
+- '[[case-yitang-radar-chart-selection]]'
 tags:
 - '#chunk-type/synthesis'
 - '#domain/yitang'
 - '#method/modeling'
 - '#method/visual-design'
 author: 老顽童
-reviewed_by: pending
+reviewed_by: 欧阳锋
 created_at: '2026-06-15'
-updated_at: '2026-06-16'
+updated_at: '2026-06-18'
 ---
 # 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配
 
@@ -80,6 +91,16 @@ updated_at: '2026-06-16'
 | 一种图走天下 | 什么问题都画三角 | 建立形态-逻辑映射表 |
 | 把美化当设计 | 颜色字体很好，关系表达错误 | 让逻辑洁癖先于审美洁癖 |
 
+## 业务-视觉匹配快速检查单
+
+> 交付任何模型图前，逐条勾选；任一勾"否"都应回到上一步重做。
+
+- [ ] 我已用一句话写清这张图的**业务逻辑**（分类 / 流程 / 深挖 / 累加 / 辩证 / 复利）。
+- [ ] 我选择的**几何形态**与上述逻辑一一对应，而非因为"这个图常用"。
+- [ ] 遮住标题与文字后，**图形本身仍能传递关系**（方向、层级、对比、趋势）。
+- [ ] 图中没有纯装饰元素（无意义的渐变、3D、图标）干扰逻辑阅读。
+- [ ] AI 生成的图我已完成人工逻辑审校，而非直接复制粘贴。
+
 ## 为什么值钱
 
 - 公开设计课讲“好看”“用户体验”，很少把“业务逻辑决定视觉形态”讲得如此决断。
@@ -91,4 +112,5 @@ updated_at: '2026-06-16'
 - [[dk-modeling-model-arsenal-paradigms]] —— 二三十个范式是业务-视觉匹配的具体素材库。
 - [[tool-iceberg-triangle-modeling]] —— 冰山图与三角图工具卡。
 - [[tool-binary-quadrant-modeling]] —— 矩阵/象限工具卡。
+- [[case-yitang-radar-chart-selection]] —— 一堂雷达图选型案例，展示业务逻辑如何决定视觉形态。
 - `src_20260614_8269ccdb#2386-2406` —— Truman 口述原文：业务逻辑与视觉逻辑匹配。

@@ -3,7 +3,7 @@
 id: tool-ai-skill-engineering-guide
 title: 高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工作流
 type: tool
-status: draft
+status: enriched
 domain:
 - yitang
 - ai
@@ -17,13 +17,13 @@ tags:
 - '#method/modeling'
 - '#content-format/concept-card'
 created_at: '2026-06-15'
-updated_at: '2026-06-16'
+updated_at: '2026-06-18'
 author: 老顽童
 source_person: Truman
 source_context: 一堂建模能力培训口述稿中高阶 Skill 工程指南的完整产出过程
-reviewed_by: pending
-review_date: '2026-06-15'
-confidence: 0.8
+reviewed_by: ''
+review_date: '2026-06-18'
+confidence: 0.88
 trust_level: high
 related:
 - '[[modeling-three-stages]]'
@@ -32,6 +32,7 @@ related:
 - '[[dk-modeling-counterexample-driven]]'
 - '[[case-modeling-abstraction-reliability-ladder]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
+- '[[case-truman-ai-skill-self-packaging]]'
 diagnostic_signals:
 - signal: 封装的 AI skill 运行不稳定、触发条件缺失、示例模板丢失
   framework_lens: 缺少工程化标准和自我审计
@@ -39,6 +40,9 @@ diagnostic_signals:
 - signal: 让 AI 直接生成 skill，没有经过多轮审美拉齐
   framework_lens: 把 AI 当作执行者而非协作者
   follow_up_question: 你在生成 skill 时，是否至少经过 10-15 轮"不完整、有遗漏、没顺序、不完备"的迭代纠偏？
+- signal: 团队内部 skill 标准不统一，不同人封装的质量参差不齐
+  framework_lens: 缺乏可复用的工程指南和审计基准
+  follow_up_question: 你是否把"好 skill"的审美转化为 P0/P1/P2 检查清单，并让 AI 用统一维度做交叉验证？
 ---
 # 高阶 AI Skill 工程指南：用 AI 辅助封装高质量 Skill 的工作流
 
@@ -185,6 +189,7 @@ Floridi 会追问：**当 AI 用你写的指南去审计另一个 AI skill 时�
 - [[dk-modeling-ai-without-judgment]]：提醒 AI 只能执行，不能替代人的判断。
 - [[dk-modeling-counterexample-driven]]：交叉验证和找反例是提升指南质量的关键。
 - [[case-modeling-abstraction-reliability-ladder]]：本指南追求的目标是“没有反例”的第四层可靠度。
+- [[case-truman-ai-skill-self-packaging]]：Truman 将自身建模方法封装为 skill 的对照案例，可与本指南互为校验。
 
 ---
 
@@ -196,6 +201,63 @@ Floridi 会追问：**当 AI 用你写的指南去审计另一个 AI skill 时�
 | 已有 skill 运行不稳定 | 用指南做工程化审计，输出 P0 级问题清单 | 识别出 ≥3 个 P0 级缺失项并修复 |
 | 要向团队推广 skill 标准 | 把指南中的 10 To Do / 10 Not To Do 做成团队 checklist | 团队成员能独立用 checklist 自评 skill |
 | 觉得自己的 skill 已经很好 | 拿 1-2 个行业标杆做交叉打分 | 明确自己的指南在实用性/宽度/专业性上的真实位置 |
+
+---
+
+## Examples
+
+### 示例：用本工作流封装「会议纪要萃取」Skill
+
+**第一步：定义边界**
+
+- 目标用户：项目负责人、会议组织者
+- 触发场景：会议结束后拿到 30-120 分钟录音转文字稿
+- 输出形式：结构化 Markdown（决策项 / 责任人 / 截止日期 / 待确认问题 / 上下文原文）
+- 复杂度：★★★☆☆（介于流程类建模与抽象建模之间）
+
+**第二步：收集最佳实践**
+
+- 查阅 Claude 官方 skill creator 指南、飞书妙记 / 听脑导出模板、团队历史优秀纪要 3 份。
+- 让 AI 将每份最佳实践翻译成「对封装这个 skill 有什么用」的条款。
+
+**第三步-第六步：迭代与审计**
+
+- 用 10-15 轮迭代拉齐四层架构、MECE 分类、十条 To Do / Not To Do。
+- 最终产出 P0/P1/P2 检查清单，并用 2 份行业标杆报告按实用性 / 宽度 / 专业性做交叉打分。
+
+**第七步：下饺子与巡查**
+
+- 用该 skill 处理下一次真实会议，记录 AI 输出偏差（如漏掉待确认问题、责任人识别错误），回灌到指南 2.0。
+
+---
+
+## Checklist / Template
+
+### AI Skill 工程化审计清单（可直接复制使用）
+
+#### P0 级（缺少即严重不合格）
+
+- [ ] 目标用户明确且唯一
+- [ ] 触发条件具体可识别（输入格式、场景、边界）
+- [ ] 输出形式定义清晰（文本 / 表格 / 决策建议 / 代码）
+- [ ] 包含 ≥3 个输入/输出示例，覆盖典型与边界情况
+- [ ] 边界说明完整（何时不用、前置条件、失败后的兜底）
+- [ ] 核心流程步骤可执行、无歧义
+
+#### P1 级（影响体验但可补救）
+
+- [ ] 多语言支持或语气风格说明
+- [ ] 异常处理与错误恢复提示
+- [ ] 分类满足 MECE，无重叠遗漏
+- [ ] 有十条 To Do / Not To Do 清单且已编优先级
+- [ ] 含交叉验证记录（≥1 份行业标杆对比）
+
+#### P2 级（锦上添花）
+
+- [ ] 风格 / 语气可定制
+- [ ] 高级参数或开关说明
+- [ ] 版本号与变更日志
+- [ ] 用户反馈收集入口
 
 ---
 
