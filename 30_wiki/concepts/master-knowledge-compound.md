@@ -1,35 +1,50 @@
 ---
-
 id: master-knowledge-compound
-confidence: 0.82
-created_at: 2026-05-18
-difficulty: intermediate
+title: "知识复利：IPO+萃取+管理的上位整合"
+type: concept
 domain:
-- master
+  - master
+confidence: 0.82
+created_at: "2026-05-18"
+difficulty: intermediate
 estimated_tokens: 1420
 language: zh-CN
 query_triggers:
-- 知识复利
-- 知识资产
-- 知识飞轮
-- 认知复利
+  - 知识复利
+  - 知识资产
+  - 知识飞轮
+  - 认知复利
 related:
-- '[[yt-personal-ipo-learning]]'
-- '[[yt-personal-knowledge-extraction]]'
-- '[[yt-personal-knowledge-management]]'
-- '[[yt-personal-knowledge-management]]'
-- '[[master-systems-thinking]]'
-- '[[master-first-principles]]'
-status: draft
-title: 知识复利：IPO+萃取+管理的上位整合
-type: concept
-updated_at: '2026-06-16'
+  - "[[yt-personal-ipo-learning]]"
+  - "[[yt-personal-knowledge-extraction]]"
+  - "[[yt-personal-knowledge-management]]"
+  - "[[master-systems-thinking]]"
+  - "[[master-first-principles]]"
+  - "[[master-antifragile-checklist]]"
+status: enriched
+updated_at: "2026-06-17"
 version: 1
-author: unknown
-trust_level: medium-low
+author: 老顽童
+trust_level: medium
 source_refs:
-- source_unknown
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+  - source_unknown
+source_context: 原始source无法追溯，已标记为source_unknown，待后续补充
+diagnostic_signals:
+  - signal: "学了但用不上"
+    lens: "萃取率不足"
+    follow_up: "检查萃取率——知识是否被萃取到原理层？能用一句话说出适用条件"
+  - signal: "知识碎片化无法整合"
+    lens: "连接深度不足"
+    follow_up: "检查连接深度——能在30秒内找到至少3个相关旧知识"
+  - signal: "读了很多但记不住"
+    lens: "IPO比率失衡"
+    follow_up: "检查输出/输入比率，每读1小时产出≥100字原创输出"
+  - signal: "感觉没有进步"
+    lens: "时间维度不足"
+    follow_up: "确认是否已坚持6个月，回顾6个月前能否说出3个具体变化"
+  - signal: "不知道该学什么"
+    lens: "输入质量低"
+    follow_up: "列出3个当前最紧迫的问题，输入围绕这些问题主动狩猎"
 ---
 # 知识复利：IPO+萃取+管理的上位整合
 
@@ -210,13 +225,31 @@ vault 里有三张讲"知识管理"的卡：
 
 ---
 
-## 七、Constraints
+## Constraints & Boundaries
 
-1. **知识复利需要长期主义**：前 6 个月几乎看不到效果。如果期望短期回报，会放弃在拐点前。
-2. **萃取有损耗**：经验在萃取过程中会丢失 tacit knowledge（默会知识）。不是所有经验都能被语言化。
-3. **连接深度有上限**：人脑的工作记忆有限，过于复杂的连接网络会导致认知超载。
-4. **知识管理是手段不是目的**：如果管理系统的维护时间 > 知识创造时间，系统已经失败。
-5. **复利假设知识稳定**：如 Kuhn 所说，范式转换时旧知识可能贬值。需要定期清理过时的"原理"。
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 有≥6个月的学习/实践积累，能看到复利曲线的拐点 |
+| ✅ 适合 | 有明确的输出渠道（写作/演讲/决策/产品） |
+| ✅ 适合 | 已建立基础的知识管理系统（哪怕是最简单的文件夹） |
+| ❌ 不适合 | 期望短期回报（<3个月） → 知识复利前6个月几乎看不到效果 |
+| ❌ 不适合 | 无输出渠道（只输入不输出） → IPO比率失衡，无法形成飞轮 |
+| ❌ 不适合 | 管理系统维护时间 > 知识创造时间 → 系统已失败，先简化管理 |
+| ❌ 不适合 | 处于范式转换期（行业剧变） → 旧知识可能贬值，先观察新范式 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **输入成瘾** | 每天读很多但从不输出，IPO比率失衡 | 强制1:1规则——读1小时，写10分钟 |
+| **收藏即学习** | 收藏夹1000篇未读，把收藏误认为掌握 | 48小时法则——收藏后48小时内必须加工或删除 |
+| **知识孤岛** | 每个领域知识独立，连接深度=0 | 强制关联——每学新概念，问"这和我已知的什么有关？" |
+| **过早优化** | 花大量时间搭建完美笔记系统 | 先messy输出3个月，再谈管理 |
+| **复利幻觉** | 坚持2周没效果就放弃 | 设定6个月为最小观察期，指数增长前期平缓 |
+| **范式沉没成本** | 旧知识越多，范式转换时越难放弃 | 每季度问：什么证据会让我放弃这个核心信念？ |
+| **管理异化** | 知识管理系统变成自我延续的官僚系统 | 每季度问：过去3个月，系统直接导致什么具体行为改变？ |
 
 
 ## Critique

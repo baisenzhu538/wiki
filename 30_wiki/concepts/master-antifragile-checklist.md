@@ -1,35 +1,50 @@
 ---
-
 id: master-antifragile-checklist
-confidence: 0.8
-created_at: 2026-05-18
-difficulty: intermediate
+title: "反脆弱决策检查清单"
+type: tool
 domain:
-- master
+  - master
+confidence: 0.8
+created_at: "2026-05-18"
+difficulty: intermediate
 estimated_tokens: 1144
 language: zh-CN
 query_triggers:
-- 反脆弱决策
-- 杠铃策略
-- 反脆弱清单
-- Taleb决策
+  - 反脆弱决策
+  - 杠铃策略
+  - 反脆弱清单
+  - Taleb决策
 related:
-- '[[master-decision-hygiene]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[master-systems-thinking]]'
-- '[[yt-foresight-ten-fatal-flaws]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-panproduct-execution-risk-management]]'
-status: draft
-title: 反脆弱决策检查清单
-type: tool
-updated_at: '2026-06-16'
+  - "[[master-decision-hygiene]]"
+  - "[[master-cognitive-bias-checklist]]"
+  - "[[master-systems-thinking]]"
+  - "[[yt-foresight-ten-fatal-flaws]]"
+  - "[[yt-entrepreneur-key-hypotheses]]"
+  - "[[yt-panproduct-execution-risk-management]]"
+status: enriched
+updated_at: "2026-06-17"
 version: 1
-author: unknown
+author: 老顽童
 trust_level: medium-high
 source_refs:
-- source_unknown
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
+  - source_unknown
+source_context: 原始source无法追溯，已标记为source_unknown，待后续补充
+diagnostic_signals:
+  - signal: "这个决策感觉太确定了"
+    lens: "杠铃策略检查"
+    follow_up: "在纸上画出90%安全+10%投机的分配，确认没有中间地带"
+  - signal: "如果失败就完了"
+    lens: "下行风险有限性"
+    follow_up: "把完了转化为最多损失X，确认X可控"
+  - signal: "我已经没有退路了"
+    lens: "选择权耗尽"
+    follow_up: "找到至少一个可以反悔的调整点，恢复选择权"
+  - signal: "这个项目要all in"
+    lens: "杠铃策略缺失"
+    follow_up: "把all in改为分级投入：大部分安全+小部分激进"
+  - signal: "市场环境变化太快"
+    lens: "冗余与选择权"
+    follow_up: "检查关键部位有没有20%缓冲，选择权有没有保留"
 ---
 # 反脆弱决策检查清单
 
@@ -200,13 +215,30 @@ source_context: （原始 source 无法追溯，已标记为 source_unknown，�
 
 ---
 
-## 七、Constraints
+## Constraints & Boundaries
 
-1. **反脆弱是结构特性，不是心态**："保持乐观"不等于"结构反脆弱"。必须能在纸上画出不对称结构。
-2. **冗余有成本**：20%冗余意味着20%资源"闲置"。在资源极度紧张时，反脆弱可能是奢侈品。
-3. **杠铃策略需要纪律**："中间地带"看起来最安全，最难放弃。执行杠铃需要对抗"求稳"本能。
-4. **选择权会过期**：有些选择权如果不使用，会随时间贬值。不是"永远等更好的"，是"在选择权消失前做选择"。
-5. **个体反脆弱 ≠ 系统反脆弱**：你的反脆弱策略可能在系统层面制造脆弱（如Soros所说）。需要考虑外部性。
+### 适用边界
+
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 重要决策前（影响>3个月或>10%资源） |
+| ✅ 适合 | 有明确可画的资源分配结构（能在纸上画杠铃） |
+| ✅ 适合 | 团队/个人已做过基础风险评估（SWOT/敏感性分析） |
+| ❌ 不适合 | 日常操作性决策（<1周影响） → 用简单检查清单 |
+| ❌ 不适合 | 资源极度紧张（无法承担20%冗余） → 先解决资源问题 |
+| ❌ 不适合 | 无法区分"坚韧"和"反脆弱" → 先练3个月基础决策框架 |
+| ❌ 不适合 | 系统级决策（影响>100人） → 需考虑外部性，个体反脆弱≠系统反脆弱 |
+
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **反脆弱幻觉** | 把乐观心态当成结构反脆弱，未画不对称结构 | 强制在纸上画出：下行有限？上行打开？ |
+| **冗余浪费** | 20%冗余长期闲置，团队抱怨资源浪费 | 把冗余定义为"选择权时间价值"，定期评估启用条件 |
+| **中间地带陷阱** | 名义上杠铃，实际70%在中间地带 | 用审计检查：真实分配 vs 计划分配，偏差>10%则调整 |
+| **选择权过期** | 永远等待更好选项，从不做选择 | 给每个选择权设过期日，到期前必须决策 |
+| **个体反脆弱制造系统脆弱** | 多人同时使用杠铃策略，冲击时互相踩踏 | 加问：有多少人和我做同样选择？同时调整时系统会怎样？ |
+| **无法证伪** | 任何结果都事后解释为"证明了反脆弱" | 预先写下：什么结果会证明我的反脆弱判断是错误的？ |
 
 
 ## Critique

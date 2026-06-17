@@ -1,13 +1,14 @@
 ---
-updated: 2026-06-15
+updated: 2026-06-17
 active_branch: main
-active_task: "黄药师S4-1✅+KF-021完成95%✅；KF-021剩余33张content卡+index/log清理已写入老顽童任务板，待领取。"
+active_task: "老顽童第二十二节30张卡精修A-通过；剩余13张source_refs残留+KF-021 33张+index/log清理待老顽童处理。"
 blockers:
   - "王语嫣角色正式升级AGENTS.md"
   - "231张draft精修池→分配老顽童下轮精修"
-  - "老顽童领取并处理KF-021剩余33张卡source缺失/降级"
+  - "老顽童清理第二十二节13张卡source_refs残留"
+  - "老顽童处理KF-021剩余33张卡source缺失/降级"
   - "老顽童清理index/log元页面760个hash前缀source引用"
-next_session_hint: "用户说'继续'→ ① 王语嫣角色正式升级；② 231 draft精修池分配；③ 老顽童领取KF-021收尾；④ 决策域深度研究下轮推进"
+next_session_hint: "用户说'继续'→ ① 王语嫣角色正式升级；② 231 draft精修池分配；③ 老顽童清理source_refs残留；④ 决策域深度研究下轮推进"
 ---
 
 ## 2026-06-12 变更
@@ -58,17 +59,20 @@ next_session_hint: "用户说'继续'→ ① 王语嫣角色正式升级；② 2
 ## 当前共享状态
 
 ### 各角色当前任务
-- **黄药师**：决策域研究完成(Value-ROI dk+Y模型哲学根基卡) + 470 skill重分类 + kdo_lint修复(2344→85)
+- **黄药师**：KF-020全修(45张) + KF-021(681张hash补全) + S4-1 aliases(schema+搜索) + kdo_lint(2344→85) + 决策域研究(2卡A级)
 - **老顽童**：全域案例回溯35张+dk12张(主动修复盲区) + ToB/精益/建模三域A级
 - **王语嫣**：六阶段全库审计闭环 + 质量门禁脚本 + 协作修复计划 + 复合卡回填完工
 - **欧阳锋**：月度抽检模式
 - **洪七公**：待命
 - **段王爷**：待命
 
-### 2026-06-17 关键结果
-- 决策域深度研究完成：Value-ROI dk 卡 + Y模型哲学根基卡（王阳明/矛盾论/实践论）
-- kdo_lint.py 修复：手写 YAML 解析器→yaml.safe_load，误报 2344→85
-- 王语嫣复盘：P0=0 P1=0 clean=1191，100张精修完成
+### 2026-06-17/18 关键结果
+- 决策域研究完成：Value-ROI dk + Y模型哲学根基(欧阳锋A级)
+- KF-020 全修：45张 enriched/reviewed 卡 00_inbox→10_raw/sources
+- KF-021 95%：681张 hash 前缀→完整文件名
+- S4-1 aliases：schema + Graph RAG 搜索索引
+- kdo_lint：2344→85 (96%误报清零)
+- 王语嫣复盘：P0=P1=0 clean=1193
 - 470 skill 重分类为 tool/concept（欧阳锋 taxonomy 裁决执行）
 - 231 张 draft 精修池已识别（conf≥0.7+related 非空）
 - MinerU 文档化入 wiki + toolkit
