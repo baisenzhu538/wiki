@@ -3921,3 +3921,75 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 | 状态 | `status` draft→`enriched`；`updated_at` 更新为 2026-06-17；`author`→老顽童；`reviewed_by`→欧阳锋；`trust_level`→medium |
 
 **待审查**：请欧阳锋审查本卡与 `yt-research-expert-interview` 的内容边界，避免两张同主题卡片在“访谈方法论”层面过度重复。
+
+### 第二十二节批次 3 进度记录：笔记法/研究法概念卡升级（7/7 完成）
+
+**完成时间**：2026-06-17
+**质量门禁**：`total=1193, p0=0, p1=0, clean=1193, yaml_error=0`
+
+| 序号 | 卡片 | 主要新增内容 |
+|---|---|---|
+| 17 | `yt-note-expert-interview-modeling` | status draft→enriched；新增「专家访谈式笔记 90 分钟现场操作卡」；新增 3 条互链 |
+| 18 | `yt-research-intelligence-map` | status draft→enriched；新增 SaaS 竞品调研 30 分钟渠道速查清单；新增 2 条互链 |
+| 19 | `yt-note-extensive-research-input` | status draft→enriched；新增「广泛涉猎笔记五栏卡」+ 课后 5 分钟质量检查单；新增 2 条互链 |
+| 20 | `yt-note-fact-pattern-insight` | status draft→enriched；新增三段论笔记快速自检清单 + 笔记价值分计算模板；新增 2 条互链 |
+| 21 | `ai-native-五层进阶从答案到效率到作品到产品到系统` | 保持 enriched；新增个人研究笔记 21 天五层升级清单；新增 3 条互链 |
+| 22 | `concept-半肥猫-ai-learning-toolification-methodology` | status draft→enriched；新增课程→Skill 八步落地 Checklist + 快速判定表；新增 2 条互链 |
+| 23 | `concept-纪浩-ai-collaboration-methodology` | status draft→enriched；新增纪浩五层体系项目启动检查清单；新增 2 条互链 |
+
+#### 域间自检三问
+
+**1. 案例够了吗？**
+
+本批次 7 张笔记/研究/学习概念卡都补了落地模板或示例：
+
+- `yt-note-expert-interview-modeling`：90 分钟现场操作卡。
+- `yt-research-intelligence-map`：SaaS 竞品调研 30 分钟渠道速查清单。
+- `yt-note-extensive-research-input`：广泛涉猎笔记五栏卡 + 课后 5 分钟检查单。
+- `yt-note-fact-pattern-insight`：三段论笔记自检清单 + 笔记价值分模板。
+- `ai-native-五层进阶...`：21 天五层升级清单 + 失败症状自检表。
+- `concept-半肥猫-ai-learning-toolification-methodology`：课程→Skill 八步落地 Checklist + 快速判定表。
+- `concept-纪浩-ai-collaboration-methodology`：纪浩五层体系项目启动检查清单。
+
+**还缺的案例类型**：
+- **独立命名 case 卡**：缺少「某人用 21 天五层升级法从 L1 到 L4」或「某团队用纪浩五层协作体系把微信传 zip 改为五层协作」的完整叙事 case。
+- **学习失败案例**：课程转 Skill 后无人维护、笔记做了很多但决策没改善的反面案例。
+
+这些缺口可在批次 4 的 case 卡中部分补回。
+
+**2. 暗知识在哪里？**
+
+本批次提炼的反常识/亲历者知识：
+
+1. **「只听 30%」不是技巧，而是能力门槛**：前提是已有框架能判断触发点，新手 30% 模式是「高级的没听懂」。
+2. **多源交叉的真正价值不是更客观，而是逼出自己的判断**：只罗列 A 说/B 说没有自己站位，多源比单源更误导。
+3. **「渠道穷尽」是安全感幻觉**：13 个渠道可能只是同一信息生态的不同投影。
+4. **信息收集的边际收益会迅速转负**：用「再找一条」逃避判断，情报地图应选最小必要渠道组合。
+5. **规律不是想出来的，是摆出来的**：写不出规律时，往往是事实层不够厚或不够真。
+6. **「见解」是风险层，不是安全层**：停在规律层是因为形成见解需要承担被证伪的风险。
+7. **能力的真正形态是可被调用的外化工具，不是记在脑子里的感觉**。
+8. **真实业务驱动不是励志口号，而是质量筛选器**：没有真实业务，学习成果无法被证伪。
+9. **Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述**。
+10. **PDCA 循环空转：只调提示词不叫迭代，改结构才叫迭代**。
+11. **AI 让 L1-L2 变便宜，反而让 L4-L5 更稀缺**：大量人停留在「能跑 Demo」幻觉。
+12. **五层进阶的通关标准是「同一类任务第二次启动的时间」**：能否在不打扰你的情况下稳定复用。
+
+**是否需要新 dk 卡**：
+- 建议新增 `dk-learning-toolification-real-battle`（学习工具化的真实业务筛选器）、`dk-research-channel-illusion`（渠道穷尽幻觉）、`dk-note-insight-risk-layer`（见解是风险层）。
+- 本次任务禁止新增卡片，先作为候选记录。
+
+**3. 这些概念卡有共同模式吗？**
+
+有。7 张概念卡共同指向一个模式：
+
+> **高阶认知工作流的核心不是收集更多信息，而是把信息快速转化为可调用、可验证、可复用的结构。**
+
+可抽象为「认知→结构→工具」三步循环：
+
+| 步骤 | 关键动作 | 对应卡片 |
+|---|---|---|
+| 1. 输入 | 选择最小必要信息源、做好人-AI 分工 | `yt-research-intelligence-map`、`yt-note-extensive-research-input`、`yt-note-ai-human-division` |
+| 2. 加工 | 从事实→规律→见解，边访谈边建模 | `yt-note-fact-pattern-insight`、`yt-note-expert-interview-modeling` |
+| 3. 输出/资产化 | 把结构外化为可调用工具/Skill/系统 | `concept-半肥猫-ai-learning-toolification-methodology`、`concept-纪浩-ai-collaboration-methodology`、`ai-native-五层进阶...` |
+
+这个模式与第二十一节「人在环中建模五步法」和第二十二节批次 2 的「人-AI 分工判定框架」相互呼应。

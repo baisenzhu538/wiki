@@ -129,3 +129,42 @@ python 90_control/scripts/kdo_lint.py 30_wiki
 
 **验收人**：王语嫣  
 **结论**：S4-1 需返工；KF-021 进度 95%，剩余 5% 是内容判断问题，需老顽童介入。
+
+---
+
+## 六、S4-1 返工核查（2026-06-15 二次检查）
+
+黄药师提交 commit `7207e768` 完成返工。
+
+### 核查结果
+
+| 检查项 | 结果 | 证据 |
+|:-------|:----:|:-----|
+| schema 增加 `aliases` | ✅ | `90_control/schemas/concept.yaml` line 103-108，type=array, items=string, maxItems=10 |
+| Graph RAG 索引包含 aliases | ✅ | `kdo/commands/graph.py` line 141-144，将 aliases 拼入 entity description |
+| scaffold 模板包含 aliases | ✅ | `kdo/commands/quality.py` line 1218，`aliases: []` 在 frontmatter 模板中 |
+| 卡片实际使用 aliases | ✅ | 全库 6 张卡已填 aliases |
+| 手写索引 `concept-card-index-latest.md` 包含 aliases | ❌ | 当前表格只有 ID/Title/Type/Domain 四列，无 aliases |
+| quality gate 校验 aliases 格式 | ❌ | 未增加校验，但黄药师主张 aliases 为可选字段，不需要 gate 强制校验 |
+
+### 判断
+
+- **Schema 和 Graph RAG 索引已完成**，search recall 提升目标达成。
+- **手写索引未更新**：如果 `concept-card-index-latest.md` 是给人看的目录，加一列 aliases 会更好；如果它只是 Graph RAG 的辅助输入，可以暂缓。
+- **Gate 校验**：aliases 为可选字段，不强制校验合理。但建议未来增加"若存在则必须是字符串列表"的弱校验，防止格式错误。
+
+### 结论
+
+**S4-1 返工通过。** 核心交付（schema + Graph RAG 索引）已到位，手写索引和 gate 弱校验为非阻塞改进项。
+
+---
+
+## 七、最终结论
+
+| 任务 | 最终状态 |
+|:-----|:--------:|
+| S4-1 aliases 字段支持 | ✅ 完成 |
+| KF-021 source_refs hash 前缀补全 | ⚠️ 95% 完成，剩余 33 张 content 卡 + index/log 元页面需处理 |
+
+**黄药师部分**：全部完成。  
+**老顽童部分**：KF-021 剩余 33 张 content 卡 source 文件缺失，需逐张判断补充或降级。

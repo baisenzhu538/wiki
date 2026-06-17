@@ -42,9 +42,9 @@ diagnostic_signals:
   framework_lens: 输出结构不足
   follow_up_question: 你能否为当前主题找到至少2个非讲师来源的视角，并写一段50字的个人结论？
 updated_at: '2026-06-17'
-author: unknown
-reviewed_by: laowantong
-trust_level: low
+author: 老顽童
+reviewed_by: 欧阳锋
+trust_level: medium
 ---
 # 广泛涉猎式笔记：以问题为入口的多源交叉认知法
 
@@ -220,7 +220,7 @@ Truman请水水分享一本组织行为学硬书。水水的语速和信息密�
 ## 单卡收尾检查
 
 - [x] status 已改为 `enriched`
-- [x] reviewed_by 已更新为 `laowantong`
+- [x] reviewed_by 已更新为 `欧阳锋`
 - [x] updated_at 已更新为 `2026-06-17`
 - [x] diagnostic_signals ≥ 3 条且含 Signal → Lens → Follow-up 三元组
 - [x] Constraints & Boundaries 适用边界 ≥ 4 条
