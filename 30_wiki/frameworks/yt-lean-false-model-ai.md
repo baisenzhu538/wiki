@@ -2,7 +2,7 @@
 id: yt-lean-false-model-ai
 title: FALSE模型在AI时代的加速应用
 type: framework
-status: draft
+status: enriched
 domain:
 - yitang
 - entrepreneurship
@@ -18,10 +18,10 @@ tags:
 - '#method/hypothesis-validation'
 - '#ai/ai-era'
 created_at: '2026-06-16'
-updated_at: '2026-06-16'
+updated_at: '2026-06-17'
 author: 张磊
 reviewed_by: 老顽童
-review_date: '2026-06-16'
+review_date: '2026-06-17'
 confidence: 0.75
 trust_level: medium-high
 diagnostic_signals:
@@ -41,6 +41,8 @@ related:
 - '[[skill-一堂-hypothesis-validation-three-axe]]'
 - '[[yt-entrepreneur-five-step-method]]'
 - '[[concept-一堂-key-assumptions]]'
+- '[[yt-five-step-common-pitfalls]]'
+- '[[yt-panproduct-execution-low-cost-mvp]]'
 ---
 # 一堂精益小抄 FALSE 模型在 AI 时代的加速应用
 
