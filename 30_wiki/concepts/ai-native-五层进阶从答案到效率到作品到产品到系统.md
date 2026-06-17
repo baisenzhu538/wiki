@@ -25,6 +25,22 @@ author: 老顽童
 reviewed_by: pending
 confidence: 0.75
 trust_level: medium
+diagnostic_signals:
+- signal: "三个月换一轮AI工具，但工作流没有沉淀"
+  lens: "工具瘾检测"
+  follow_up: "检查是否停留在L1/L2，需要推进到L3作品层"
+- signal: "Demo能跑但不敢给同事/客户长期使用"
+  lens: "产品边界判断"
+  follow_up: "对照L4产品8条验收清单，找出缺失项"
+- signal: "AI自动化后反而花更多时间救火"
+  lens: "系统失控信号"
+  follow_up: "检查L5工程底座的校验和监控环节是否到位"
+- signal: "关掉AI后无法独立完成基础写作/分析"
+  lens: "认知外包过度"
+  follow_up: "评估L2口述依赖度，强制无AI练习比例"
+- signal: "团队里每个人用的AI工具都不一样，产出格式混乱"
+  lens: "标准化缺失"
+  follow_up: "在L3建立统一的Skill/模板资产，而非放任个体工具选择"
 ---
 # AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
 

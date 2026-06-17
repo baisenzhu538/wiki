@@ -3832,3 +3832,76 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 
 **待审查**：请欧阳锋审查本卡内容真实性与链接完整性。
 
+### 第二十二节批次 2 进度记录：一堂/AI 概念卡升级（8/8 完成）
+
+**完成时间**：2026-06-17
+**质量门禁**：`total=1193, p0=0, p1=0, clean=1193, yaml_error=0`
+
+| 序号 | 卡片 | 主要新增内容 |
+|---|---|---|
+| 9 | `yt-lean-false-model-ai` | status draft→enriched；新增 FALSE 策略成本-风险选择卡（含 4 维度打分表、策略选择矩阵、AI 行业报告算例） |
+| 10 | `ai-short-drama-ice-fire-scripting-compass` | status draft→enriched；新增 5 条失败模式 +「剧本基地七要素速填表」+「完稿前自检清单」 |
+| 11 | `ai-short-drama-platform-policy-comparison` | status draft→enriched；新增 5 条失败模式 + 平台选择决策评分表 + 女频甜宠新团队首投 Mini Case |
+| 12 | `concept-mckinsey-issue-tree` | status draft→enriched；新增 Issue Tree 30 分钟画树 Checklist；新增 2 条互链 |
+| 13 | `concept-mckinsey-mece` | status draft→enriched；新增 MECE 三阶检查表 + 一堂雷达图评选 MECE 校准案例；新增 2 条互链 |
+| 14 | `modeling-capability-system` | status draft→enriched；新增「建模课题分级自检清单」；新增 4 条互链 |
+| 15 | `yt-note-ai-human-division` | status draft→enriched；新增人-AI 笔记分工判定表 + 45 分钟访谈→决策简报案例；新增 2 条互链 |
+| 16 | `yt-note-checklist-concept` | status draft→enriched；新增「一堂清单体笔记最小可用单元」模板 + 自检 Checklist + 正反示例；新增 2 条互链 |
+
+#### 域间自检三问
+
+**1. 案例够了吗？**
+
+本批次 8 张概念卡都补了落地示例或 Mini Case：
+
+- `yt-lean-false-model-ai`：AI 行业报告 199 元付费假设完整算例。
+- `ai-short-drama-ice-fire-scripting-compass`：短剧写本自检清单（可作为案例模板）。
+- `ai-short-drama-platform-policy-comparison`：女频甜宠新团队首投 Mini Case。
+- `concept-mckinsey-issue-tree`：SaaS 转化率下滑 Issue Tree 示例（隐含在 checklist 中）。
+- `concept-mckinsey-mece`：一堂雷达图评选 MECE 校准案例。
+- `modeling-capability-system`：纪浩 Skills 市场五层体系映射示例。
+- `yt-note-ai-human-division`：45 分钟访谈录音 → 决策简报完整案例。
+- `yt-note-checklist-concept`：正反示例 + 最小可用单元模板。
+
+**还缺的案例类型**：
+- **独立命名 case 卡**：AI 短剧、FALSE 模型、笔记法都缺少像「某团队用 FALSE 模型决定不进入某市场」的独立 case 卡。
+- **跨域迁移失败案例**：把 MECE/Issue Tree 从咨询场景硬套到创业 0→1 场景导致的失败。
+
+这些缺口可在批次 4 或未来补。
+
+**2. 暗知识在哪里？**
+
+本批次提炼的反常识/亲历者知识：
+
+1. **AI 没有让精益失效，反而让 FALSE 模型每个节点的执行成本压到 1/10；但跳过假设拆解，AI 只会让错误跑得更快。**
+2. **成本下降 ≠ 风险下降**：验证便宜了，团队容易并行实验过多导致结论污染；便宜应压短单次周期，而非放大并行数量。
+3. **AI 短剧创作中，人的价值不是写得快，而是判断什么不该让 AI 写**；情绪节奏、平台适配、反套路审美必须由人把控。
+4. **「情绪呼吸」比「钩子密度」更能留住观众**：爆款需要在强钩子之间插入 10-15 秒人物细节/情感缓冲。
+5. **平台选择的第一优先级不是分成比例，而是题材匹配度 + 团队资源适配**。
+6. **Issue Tree 不是把问题拆细，而是拆到可验证**；树叶无法验证的树只是精致偶像。
+7. **MECE 最大的陷阱是「在错误维度上显得不漏」**：内部视角的维度会把关键外部因素系统性地排除在外。
+8. **建模能力的分水岭不是会不会画框架图，而是能不能为模型写清楚它不适用于什么场景**。
+9. **AI 让 L1-L2 变便宜，反而让 L4-L5 更稀缺**：新人容易卡在 L3「虚假内化」。
+10. **清单体是人与 AI 的 I/O 协议，不是人的专属笔记格式**：同一份清单体既能被人类扫读，又能直接作为 prompt 被 AI 精确调用。
+
+**是否需要新 dk 卡**：
+- 建议新增 `dk-ai-short-drama-hook-breathing`（短剧情绪呼吸）、`dk-lean-ai-cost-not-risk`（AI 验证成本下降 ≠ 风险下降）、`dk-mece-wrong-dimension`（MECE 错误维度陷阱）。
+- 本次任务禁止新增卡片，先作为候选记录。
+
+**3. 这些概念卡有共同模式吗？**
+
+有。8 张概念卡共同指向一个模式：
+
+> **AI/工具放大的是执行速度，而不是判断质量；人的核心价值从「生产内容」转向「定义边界、选择维度、判断什么不该交给 AI」。**
+
+可抽象为一个跨域的「人-AI 分工判定框架」：
+
+| 步骤 | 人的职责 | AI/工具的用途 | 常见陷阱 |
+|---|---|---|---|
+| 1. 定义问题 | 明确决策问题、边界、成功标准 | 辅助发散 | 把工具输出当问题定义 |
+| 2. 选择维度 | 选择分类/拆解/分析维度 | 提供候选 | 用错误维度做 MECE/Issue Tree |
+| 3. 生成初稿 | 设定约束、提供上下文 | 快速生成多版本 | 直接入库，不过人在环 |
+| 4. 挑错/收敛 | 用逻辑洁癖判断质量 | 辅助检查 | 把生成数量当迭代质量 |
+| 5. 决定输出 | 判断何时 ready、何时叫停 | 执行格式化 | 过早或过晚交付 |
+
+这个模式与第二十一节「人在环中建模五步法」高度一致，已在 `modeling-three-stages`、`dk-modeling-ai-without-judgment` 等卡中体现。
