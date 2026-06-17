@@ -30,19 +30,7 @@
 
 ### 2.3 处理
 
-已将该卡 `source_refs` 全部替换为 `10_raw/sources/` 下的归档文件路径：
-
-| 原路径 | 替换为 |
-|---|---|
-| `00_inbox/科学决策/一堂-科学决策-ROI决策深度实操课口述03.txt` | `src_20260614_8f80cb0f-一堂-课程地图精华串讲.md` |
-| `00_inbox/科学决策/一堂-科学决策-深度-L1优先级定性.png` | `src_20260522_22cb5729-ocr-一堂-科学决策-深度-l1优先级定性.md` |
-| `00_inbox/科学决策/一堂-科学决策-深度-L2部分定量.png` | `src_20260522_ad937c9c-ocr-一堂-科学决策-深度-l2部分定量.md` |
-| `00_inbox/科学决策/一堂-科学决策-深度-L3定量公式.png` | `src_20260522_80e1b943-ocr-一堂-科学决策-深度-l3定量公式.md` |
-| `00_inbox/科学决策/一堂-科学决策-深度-L4严格财务公式.png` | `src_20260522_26271f58-ocr-一堂-科学决策-深度-l4严格财务公式.md` |
-| `00_inbox/科学决策/一堂-科学决策-深度-案例01~06.png` | 对应 6 个 `src_20260522_*-ocr-一堂-科学决策-深度-案例*.md` |
-| `00_inbox/科学决策/一堂-科学决策-深度-L4-案例01.png` | `src_20260522_5323822f-ocr-一堂-科学决策-深度-l4-案例01.md` |
-| `00_inbox/科学决策/一堂-科学决策-深度-你的业务是一次抽样实验.png` | `src_20260522_3693c090-ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md` |
-| `00_inbox/科学决策/一堂-科学决策-深度-决策经验值.png` | `src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md` |
+已将该卡 `source_refs` 全部替换为 `10_raw/sources/` 下的归档文件路径（详见本文件编辑历史）。
 
 ### 2.4 判罚
 
@@ -62,7 +50,7 @@
 - reviewed：22 张
 ```
 
-完整列表见文末附录。
+完整列表见附录。
 
 ### 3.2 重灾区
 
@@ -101,11 +89,10 @@
 
 ### 4.4 验收标准
 
-```bash
-# 全库 enriched/reviewed 卡中 00_inbox 引用数为 0
-python - <<'PY'
+```python
 import yaml
 from pathlib import Path
+
 violations = []
 for p in Path('30_wiki').rglob('*.md'):
     if '_archive' in p.parts or 'raw' in p.parts:
@@ -126,10 +113,10 @@ for p in Path('30_wiki').rglob('*.md'):
     inbox_refs = [ref for ref in src_refs if isinstance(ref, str) and '00_inbox' in ref]
     if inbox_refs and status in ['enriched', 'reviewed']:
         violations.append(fm.get('id', p.stem))
+
 print(f'Violations: {len(violations)}')
 for v in violations[:20]:
     print(v)
-PY
 ```
 
 目标：**violations = 0**
@@ -142,4 +129,110 @@ PY
 
 **有价值，但需控制风险。**
 
-Y 模型目前的定位是
+Y 模型目前的定位是"科学决策工具"。如果能从哲学层面说明：
+- 为什么 Y 模型是"知行合一"的操作化版本
+- 为什么"发现矛盾 → 抓主要矛盾 → 实践验证"与 Y 模型的"问题 → 本质 → 方案"同构
+- 为什么"实践论"的"实践-认识-再实践"循环是 Y 模型迭代的基础
+
+这可以增强 Y 模型的理论深度和说服力。**但前提是：必须落回工具的使用边界和失败模式，不能变成纯哲学阐释。**
+
+### 5.2 建议产出形式
+
+不要写成长篇论文，建议产出为 **1 张 concept 卡或 1 张 dk 卡**：
+
+- **concept 卡**：`concept-yitang-y-model-philosophical-grounding`
+  - 用途：解释 Y 模型的哲学来源，增强理论可信度
+  - 内容：王阳明/矛盾论/实践论各自对应 Y 模型的哪个环节 + 一个"哲学根基不是替代品"的边界
+
+- **dk 卡**：`dk-yitang-y-model-philosophy-misuse`
+  - 用途：反常识——"懂哲学不等于会用 Y 模型"
+  - 内容：哲学给的是思维方向，Y 模型给的是操作步骤；混淆两者会导致"说得对但做不出"
+
+### 5.3 注意事项
+
+| 风险 | 控制方法 |
+|---|---|
+| 过度哲学化，脱离工具 | 每个哲学观点必须对应 Y 模型的一个具体操作步骤 |
+| 来源争议 | 王阳明/矛盾论/实践论是公开经典，可直接引用；但与 Y 模型的"映射关系"是推断，需标注为推断 |
+| 与宗教/意识形态混淆 | 只谈方法论，不谈立场 |
+| 增量不足 | 如果哲学根基只是"换种说法解释 Y 模型"，则不要单独成卡，合并到 `yt-decision-y-model` 的 Critique 或边界说明中 |
+
+### 5.4 建议步骤
+
+1. 先完成 KF-020 修复（更紧急）
+2. 用 web search 收集王阳明"知行合一"、矛盾论"主要矛盾"、实践论"认识论"的核心原文
+3. 画出三者的映射表：
+   | 哲学概念 | Y 模型环节 | 操作化含义 |
+4. 写 1 张 concept 卡，包含：原始表述、深度洞察、使用场景、操作方法、适用边界、失败模式、为什么值钱
+5. 王语嫣/欧阳锋 review 后入库
+
+---
+
+## 六、附录：46 张违规卡列表
+
+（原始扫描输出中部分中文路径显示为乱码，不影响 id 识别）
+
+### enriched 卡（24 张）
+
+1. `case-five-step-fake-vs-real-barriers`
+2. `case-five-step-growth-first-lever`
+3. `case-gudong-tea-shop-foresight`
+4. `case-jh-yitang-vs-sqlhelper`
+5. `case-truman-ai-partner`
+6. `case-truman-motivation-map-12-versions`
+7. `case-truman-poker-deck-roi`
+8. `case-truman-yitang-foresight`
+9. `case-unit-model-gashapon`
+10. `case-xiaolong-ecommerce-foresight`
+11. `case-zhihu-vs-degetao-network-effect`
+12. `case-һ��-���˲���-hypothesis-failure`
+13. `case-һ��-����������-hypothesis-validation`
+14. `case-�ͺ�-skill-market-problem-validation`
+15. `concept-five-step-growth-to-barrier-transition`
+16. `skill-�ͺ�-AI�Ի������ĸ���`
+17. `yt-foresight-15-char-mantra`
+18. `yt-foresight-ab-steady-state`
+19. `yt-foresight-addition-subtraction`
+20. `yt-foresight-deliverables-four-levels`
+21. `yt-foresight-probability-engineering`
+22. `yt-foresight-ten-fatal-flaws`
+23. `yt-research-osl-framework`
+24. `yt-three-dimension-opportunity-matrix`
+
+### reviewed 卡（22 张）
+
+1. `case-milktea-five-step`
+2. `case-shampoo-product-kernel`
+3. `case-toy-cabinet-barrier`
+4. `case-toy-cabinet-business-model`
+5. `case-treadmill-demand-analysis`
+6. `concept-һ��-hypothesis-driven-business-methodology`
+7. `concept-һ��-kernel-iteration`
+8. `concept-һ��-kernel-validation`
+9. `concept-һ��-key-assumptions`
+10. `concept-һ��-product-kernel`
+11. `yt-barrier-analysis-cheat-sheet`
+12. `yt-customer-acquisition-toolkit`
+13. `yt-decision-depth-ladder` ✅ 已修复
+14. `yt-demand-analysis-hiking-map`
+15. `yt-five-step-common-pitfalls`
+16. `yt-five-step-implementation`
+17. `yt-five-step-method`
+18. `yt-growth-cycle-model`
+19. `yt-market-size-estimation`
+20. `yt-product-kernel-cultivation`
+21. `yt-tool-foresight-canvas`
+22. `yt-unit-model-three-tools`
+
+---
+
+## 七、最终裁决
+
+1. **KF-020 违规成立**，46 张 enriched/reviewed 卡 source_refs 指向 `00_inbox/`。
+2. **`yt-decision-depth-ladder` 已修复**，status 保持 enriched。
+3. **剩余 45 张卡需黄药师批量修复**，按"有归档则替换路径、无归档则先归档或降级"原则处理。
+4. **黄药师可继续进行 Y 模型哲学根基研究**，但建议产出为 1 张 concept/dk 卡，并先完成 KF-020 修复。
+
+---
+
+*王语嫣（代欧阳锋）· 2026-06-17*

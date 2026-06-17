@@ -3741,3 +3741,76 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 - [ ] 全库 P1 不新增
 - [ ] 30 张目标卡 status 均为 enriched
 - [ ] 在此文件末尾写小结
+
+### 第二十二节批次 1 进度记录：核心框架/咨询框架升级（8/8 完成）
+
+**完成时间**：2026-06-17
+**质量门禁**：`total=1193, p0=0, p1=0, clean=1193, yaml_error=0`
+
+> 注：全库 total 从 1192 变为 1193，是因为 vault backup 在 2026-06-17 21:56 新增/恢复了 `yt-decision-y-model-philosophical-roots.md`，非本批次新增。
+
+| 序号 | 卡片 | 主要新增内容 |
+|---|---|---|
+| 1 | `yt-research-osl-framework` | DS 3→5；新增 OSL 调研落地检查清单 + SaaS 进入医疗行业 Mini Case |
+| 2 | `yt-unit-model-concept` | status draft→enriched；新增最小可复制单元核算模板；新增 4 条互链 |
+| 3 | `ai-short-drama-ice-fire-dissection-compass` | status draft→enriched；新增 5 条失败模式 +《拆本罗盘执行清单》；新增 2 条互链 |
+| 4 | `business-formula-to-kdo-card-quality` | status draft→enriched；新增 3 条 DS、5+5 边界/失败模式、KDO 卡片 ABC 诊断报告模板 |
+| 5 | `concept-maister-trusted-advisor` | status draft→enriched；新增单次咨询会话 Trusted Advisor 自检表 + SaaS 转化率咨询示例 |
+| 6 | `concept-mckinsey-7s` | status draft→enriched；新增 30 分钟 7-S 组织体检表 + 一堂案例映射；新增 4 条互链 |
+| 7 | `concept-minto-pyramid-principle` | status draft→enriched；新增金字塔结构一页纸自检清单；新增 3 条互链 |
+| 8 | `modeling-to-kdo-toolchain` | status draft→enriched；新增 KDO 工具链落地 Checklist + 纪浩 Skills 市场映射实例；新增 2 条互链 |
+
+#### 域间自检三问
+
+**1. 案例够了吗？**
+
+本批次 8 张框架/概念卡都补了落地示例或 Mini Case：
+
+- `yt-research-osl-framework`：SaaS 进入医疗行业 Mini Case。
+- `yt-unit-model-concept`：单店模型核算模板 + 扭蛋机 case 互链。
+- `ai-short-drama-ice-fire-dissection-compass`：短剧拆本执行清单（可作为案例模板）。
+- `business-formula-to-kdo-card-quality`：yt-business-formula-abc-model 诊断示例。
+- `concept-maister-trusted-advisor`：SaaS 创业者转化率咨询实例。
+- `concept-mckinsey-7s`：一堂周迭代建模引擎案例映射。
+- `concept-minto-pyramid-principle`：Truman 销售报告结构 case 互链。
+- `modeling-to-kdo-toolchain`：纪浩 Skills 市场五层体系 KDO 映射实例。
+
+**还缺的案例类型**：
+- **独立命名 case 卡**：当前多为嵌入示例或互链，缺少像「某企业用 7-S 诊断后发现 Systems/Skills 冲突」的独立 case 卡。
+- **咨询框架失败案例**：Trusted Advisor、金字塔原理、7-S 在实际项目中因阶段错配导致失败的独立 case。
+
+这些缺口可在批次 4 的 case 卡或未来专门补。
+
+**2. 暗知识在哪里？**
+
+本批次提炼的反常识/亲历者知识：
+
+1. **OSL 调研「不回退」原则**：发现范围划错时不能回退重划，只能在当前步微调——这意味着 OSL 要求前期投入更高，而不是更灵活。
+2. **单元模型的真正价值是悲观情景测安全边际**，不是乐观讲故事。
+3. **拆本不是读懂剧情，而是转译为可投喂结构**：AI 需要的是题材特征摘要 + 负面清单 + 可复用台词库。
+4. **KDO 字段凑齐 ≠ 卡片能用**：关键是有没有 A（决策问题），读者能否据此做决定。
+5. **Trusted Advisor 的「先利他」必须显式声明「没有后手」**，否则会被系统 1 解读为推销套路。
+6. **7-S 的核心是维度间一致性，不是每个维度单独好坏**；在 AI 原生组织中，Structure/Style 权重下降，Systems/Shared Values 权重上升。
+7. **金字塔原理是验证后的沟通工具，不是探索工具**；探索阶段强套金字塔会加速确认偏误。
+
+**是否需要新 dk 卡**：
+- 建议新增 `dk-consulting-framework-stage-mismatch`（咨询框架阶段错配）和 `dk-ai-native-organization-7s-reweight`（AI 原生组织对 7-S 的重新加权）。
+- 本次任务禁止新增卡片，先作为候选记录。
+
+**3. 这些框架有共同模式吗？**
+
+有。8 张框架/概念卡共同指向一个模式：
+
+> **高质量框架的落地 = 明确决策问题（A） × 诊断信号 × 自检清单 × 失败模式前置 × 跨框架互链。**
+
+可抽象为「框架落地五要素」：
+
+| 要素 | 作用 | 本批次对应卡 |
+|---|---|---|
+| 决策问题 | 回答"读者读完能做什么决定" | `business-formula-to-kdo-card-quality` |
+| 诊断信号 | 识别何时该用这个框架 | 全部 8 张卡 |
+| 自检清单 | 把框架转化为可执行动作 | `yt-research-osl-framework`、`concept-mckinsey-7s`、`concept-minto-pyramid-principle` |
+| 失败模式 | 提前标出常见误用 | `ai-short-drama-ice-fire-dissection-compass`、`modeling-to-kdo-toolchain` |
+| 互链 | 嵌入更大知识网络 | 全部 8 张卡 |
+
+这个模式已经在各卡中分别体现，但缺少一张跨框架的「框架落地元框架」synthesis 卡（本次禁止新增，先记录）。
