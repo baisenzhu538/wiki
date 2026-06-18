@@ -15,7 +15,8 @@ related:
 - '[[诊所O2O项目]]'
 - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
 - '[[shanxi-field-research-checklist-20260701]]'
-- '[[xingangwan-pharma-business-model-formulas]]'
+- '[[xingangwan-pharma-business-formulas]]'
+- '[[xingangwan-pharma-business-model-calc]]'
 tags:
 - backlog
 - parking-lot
@@ -53,7 +54,7 @@ trust_level: medium
 | PL-008 | 验证单柜获客模型与复购率 | 单柜财务测算（2026-06-18） | 试点城市首柜运营数据，验证 64 位月活跃客户、28% 毛利率假设 | 诊所O2O项目、鑫港湾HIS项目 | 中 | 待排期 | 关键成功因素：诊所导流 + 医保统筹 + 高毛利品类 |
 | PL-009 | 拓展政府公共卫生项目合作形式 | 鑫港湾政府项目在谈（2026-06-18） | 明确政府支持的具体形式（资金/场地/患者导流/数据/品牌背书）及落地协议 | 诊所O2O项目、鑫港湾HIS项目 | 高 | 待排期 | 可能覆盖部分运营成本，降低单柜回本压力 |
 | PL-010 | 执行山西 7 月 1 日现场调研 | 用户告知 7 月 1 日赴山西调研（2026-06-18） | 《山西调研纪要》、合规路径确认、合作诊所/药店意向、品种与医保数据 | 鑫港湾HIS项目、诊所O2O项目、互联网医院项目 | 高 | 待执行 | 已产出调研清单与访谈提纲，见 `30_wiki/projects/shanxi-field-research-checklist-20260701.md` |
-| PL-011 | 基于实际数据修正商业模型 | 用户要求深入商业模式计算与业务公式（2026-06-18） | 填入真实数据后的单柜/单店/区域/平台财务测算 | 鑫港湾HIS项目、诊所O2O项目 | 高 | 待执行 | 已产出框架文档与 CSV 模板，见 `30_wiki/frameworks/xingangwan-pharma-business-model-formulas.md` 和 `30_wiki/projects/xingangwan-business-model-calc-template.csv` |
+| PL-011 | 基于实际数据修正商业模型 | 用户要求深入商业模式计算与业务公式（2026-06-18） | 填入真实数据后的单柜/单店/区域/平台财务测算 | 鑫港湾HIS项目、诊所O2O项目 | 高 | 待执行 | 已拆分为业务公式 `30_wiki/frameworks/xingangwan-pharma-business-formulas.md` 和商业模型计算 `30_wiki/frameworks/xingangwan-pharma-business-model-calc.md`，配套 CSV 模板 `30_wiki/projects/xingangwan-business-model-calc-template.csv` |
 
 ## 已完成任务
 
@@ -236,23 +237,29 @@ trust_level: medium
 
 **背景**：
 - 用户要求深入商业模式计算与业务公式，数据后续由用户修正。
-- 已产出商业模型框架文档和 CSV 计算模板，但所有假设数据均为参考值。
+- 已拆分为两份独立文档：
+  - 业务公式 `30_wiki/frameworks/xingangwan-pharma-business-formulas.md`：聚焦医保药引流 + 原研药利润的转化漏斗与杠杆变量。
+  - 商业模型计算 `30_wiki/frameworks/xingangwan-pharma-business-model-calc.md`：聚焦财务测算、盈亏平衡、回本周期、LTV/CAC。
+- 配套 CSV 计算模板 `30_wiki/projects/xingangwan-business-model-calc-template.csv` 已增加医保药/原研药拆分参数。
 
 **待办**：
 1. 7 月 1 日山西调研后，将实际数据填入 CSV 模板：
    - 单柜硬件成本、场地租金、平台费、审方费
-   - 首批入柜品种采购价、零售价、毛利率
-   - 目标诊所日均门诊量、慢病患者占比、转化率
+   - 首批入柜品种采购价、零售价、毛利率（区分医保药和原研药）
+   - 目标诊所日均门诊量、慢病患者占比、触达率、建档率、首单转化率、自费升级率
    - 医保报销比例、患者自付金额
-2. 重新计算单柜/单店/区域/平台的盈亏平衡、回本周期、LTV/CAC。
-3. 根据计算结果调整落地策略：
-   - 是否调整高毛利品类占比
+2. 分别验证业务公式中的关键转化率假设和商业模型中的财务假设。
+3. 重新计算单柜/单店/区域/平台的盈亏平衡、回本周期、LTV/CAC。
+4. 根据计算结果调整落地策略：
+   - 是否调整医保药与原研药品类结构
+   - 是否调整自费原研药的推荐话术与患者教育
    - 是否调整场地租金谈判目标
    - 是否调整获客策略和定价
 
 **预期产出**：
 - 填入真实数据后的商业模型测算表
 - 修正后的单柜回本路径
+- 更新后的业务公式漏斗数据
 - 单店/区域盈利优化建议
 
 **建议触发条件**：
