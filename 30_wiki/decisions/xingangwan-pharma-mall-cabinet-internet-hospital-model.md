@@ -34,6 +34,7 @@ related:
 - '[[smart-medicine-cabinet-o2o-cost-structure]]'
 - '[[互联网医院模式深度调研报告]]'
 - '[[诊所o2o外卖平台业务深度调研报告]]'
+- '[[山西 7 月 1 日智慧药柜项目调研清单]]'
 tags:
 - 鑫港湾
 - 小程序医药商城

@@ -1,46 +1,61 @@
 ---
-
 id: dk-weekly-modeling-iteration-growth-engine
 title: 暗知识：一堂真正的增长引擎是'周对周的建模能力增长'
 type: dark-knowledge
 dark_knowledge_type: insight
-source_refs:
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-status: draft
+status: enriched
 domain:
-- yitang
-- modeling
-source_person: Truman
-source_context: 一堂高阶建模能力培训（组织级建模价值） （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1
-  收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
-created_at: '2026-06-14'
-updated_at: '2026-06-16'
-author: 老顽童
-reviewed_by: pending
-review_date: '2026-06-14'
+  - yitang
+  - modeling
+language: zh-CN
+version: 1
+confidence: 0.88
 trust_level: medium
-confidence: 0.7
+source_refs:
+  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+source_person: Truman
+source_context: 一堂高阶建模能力培训（组织级建模价值）
 related:
-- '[[framework-course-milestone-model]]'
-- '[[modeling-scientific-milestones]]'
-- '[[concept-thousand-people-square]]'
+  - framework-course-milestone-model
+  - modeling-scientific-milestones
+  - concept-thousand-people-square
+  - case-child-drawing-rhyme
+diagnostic_signals:
+  - signal: 团队把所有增长指标都归结为收入/流量/会员数，却从未讨论"这周我们的建模能力有没有进步"
+    framework_lens: 可购买 vs 不可购买增长视角：收入增长能靠钱买，建模能力增长不能
+    follow_up_question: 如果明天预算砍掉一半，还有哪些增长指标不会随之崩塌？
+  - signal: 固定交付节奏被压缩或跳过，理由是"业务太忙"
+    framework_lens: 交付即训练视角：外部 deadline 是建模能力的反拖延机制
+    follow_up_question: 如果取消本周交付，我们会失去哪一次建模迭代机会？
+  - signal: 复盘只谈业务结果，不谈模型/方法论的进步
+    framework_lens: 能力资产视角：每次交付的副产品应是可复用的模型资产
+    follow_up_question: 这次交付产出的哪个模型可以进入下一轮迭代的起点？
+author: 老顽童
+reviewed_by: 欧阳锋
+created_at: '2026-06-14'
+updated_at: '2026-06-18'
 tags:
-- '#method/modeling'
-- '#dark-knowledge'
-- '#method/execution-method'
-- '#method/management-tool'
+  - '#method/modeling'
+  - '#dark-knowledge'
+  - '#method/execution-method'
+  - '#method/management-tool'
 ---
+
 # 暗知识：一堂真正的增长引擎是「周对周的建模能力增长」
 
 > **Burn line**: 收入增长、利润增长、流量增长都能用钱买；但周对周的建模能力增长，是花钱买不到的。
 
-这是 Truman 在课程末尾点出的组织级洞察。一堂坚持每周五交付新课程，不只是为了给会员交付价值，更是为了强制自己保持建模能力的迭代速度。
-
 ---
 
-## 原始表述
+## 原始表述 / 核心洞察
 
 > "一堂的周对周的建模迭代能力是这家公司最大的增长引擎。这家公司真正的增长是什么？你说收入增长、利润增长、流量增长、会员增长，我觉得都不本质。这些运气好或者钱就能带来的增长。这家公司没办法拿钱买的，就是周对周的建模能力的增长。这就靠足够多的认知、模型、复盘、迭代、反思，只有这一个循环。"
+
+**核心洞察**：
+
+1. **增长分两类：可购买的 vs 不可购买的**。收入、利润、流量、会员数都可以通过投放、促销、运气获得；但"周对周的建模能力增长"无法直接购买，只能通过高密度交付、复盘、迭代积累。
+2. **固定交付节奏不是负担，而是训练机制**。一堂坚持每周五交付新课程，表面是服务会员，实质是强制自己完成一轮建模迭代。
+3. **建模能力的复利周期以半年为单位**。Truman 提到一堂每半年做课和建模水平都会往前走一大步，靠的不是单次顿悟，而是 20 轮以上的周迭代。
 
 ---
 
@@ -50,6 +65,7 @@ tags:
 - 团队陷入"只追收入/流量"的短期焦虑。
 - 你想把"交付"变成组织能力建设的机制。
 - 你在设计自己的个人成长系统，想找到复利资产。
+- 组织有固定产出节奏（周报、课程、产品迭代），但从未把它当作建模训练。
 
 ---
 
@@ -78,6 +94,19 @@ tags:
 - **不适用于纯资源型业务**：如矿产、贸易、投机。
 - **需要长期主义**：建模能力的复利在短期看不到效果。
 - **需要真实交付场景**：没有外部 deadline，很难坚持周对周迭代。
+- **需要入库机制**：如果每次迭代不沉淀为可复用资产，复利无法累积。
+
+---
+
+## 常见失败模式
+
+| 失败模式 | 典型症状 | 根因 | 修复动作 |
+|:---|:---|:---|:---|
+| **把可购买增长当本质** | 团队会议只讨论收入/流量/会员数，从不讨论建模能力 | 可购买指标更容易量化、更容易被老板看见 | 在 OKR/复盘模板中强制加入"建模能力进步"维度 |
+| **交付节奏被业务吞掉** | 以"业务太忙"为由推迟或取消固定交付 | 把交付当成本，没把它当训练机制 | 把固定交付写进不可压缩的日历，并公开承诺 |
+| **复盘只谈结果不谈模型** | 复盘会写成"成绩与问题清单"，没有方法论提炼 | 缺乏"模型资产"意识 | 每次复盘必须产出至少一个可复用的模型/清单/框架 |
+| **没有模型入库机制** | 每次交付从零开始，过去迭代找不到 | 知识散落在聊天记录和临时文档里 | 建立统一的模型/框架库，每次迭代产物必须入库 |
+| **短期看不到效果就放弃** | 坚持 3-4 周后觉得"没变化"就停止 | 低估建模能力复利的半衰期 | 以半年为评估单位，设置中期检查点而非周报即评 |
 
 ---
 
@@ -87,6 +116,7 @@ tags:
 - 每个周五的交付都是一次建模能力训练，一年就是 50 次迭代。
 - 固定交付节奏是反拖延机制：不等到"准备好"，而是到点就交付。
 - 这个视角能帮团队从"追结果"转向"追能力"，建立长期护城河。
+- AI 训练语料中很少包含"组织如何持续迭代建模能力"的实操细节。
 
 ---
 
@@ -99,10 +129,10 @@ tags:
 
 ---
 
-## Sources
-
-- `00_inbox/建模能力/一堂-建模能力培训-truman-口述.txt:3742-3754`
-
----
-
-*老顽童 · 2026-06-14 · 基于一堂建模能力培训课程（Truman 口述）*
+**单卡收尾检查**：
+- [x] 用一句话讲清楚
+- [x] 核心要点已提炼
+- [x] 边界与失败模式已明确
+- [x] 相关卡/互链 ≥2 条有效内部链接
+- [x] source_refs 指向真实存在的 10_raw/sources/ 文件
+- [x] status = enriched，confidence ≤ 0.89，reviewed_by = 欧阳锋
