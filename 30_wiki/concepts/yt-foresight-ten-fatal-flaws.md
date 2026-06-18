@@ -1,23 +1,21 @@
 ---
-
-
 id: yt-foresight-ten-fatal-flaws
 title: 十大硬伤：商业机会的致死缺陷清单
 type: tool
 domain:
 - yitang
-source_refs:
-  - source_unknown
-status: draft
-confidence: 0.8
-difficulty: intermediate
-estimated_tokens: 2400
-language: zh-CN
-created_at: 2026-06-11
-review_date: 2026-06-11
+status: enriched
+confidence: 0.88
+trust_level: medium-high
 reviewed_by:
-- 黄药师
-- laowantong
+- 欧阳锋
+author: 老顽童
+source_refs: []
+related:
+- '[[yt-foresight-15-char-mantra]]'
+- '[[yt-foresight-addition-subtraction]]'
+- '[[yt-ai-startup-20-risky-hypotheses]]'
+- '[[yt-entrepreneur-key-hypotheses]]'
 query_triggers:
 - 十大硬伤
 - 硬伤清单
@@ -26,15 +24,6 @@ query_triggers:
 - 行业硬伤
 - 创业风险清单
 - 项目致命缺陷
-related:
-- '[[dk-yb18-small-shop-image-mismatch]]'
-- '[[master-antifragile-checklist]]'
-wiki_refs:
-- '[[yt-foresight-15-char-mantra]]'
-- '[[yt-foresight-addition-subtraction]]'
-- '[[yt-ai-startup-20-risky-hypotheses]]'
-pipeline:
-- confidence-source-cited
 diagnostic_signals:
 - signal: 用户清单都看完了，但找不出自己项目的硬伤
   framework_lens: 自我盲区
@@ -42,13 +31,23 @@ diagnostic_signals:
 - signal: 用户把每条硬伤都当致命
   framework_lens: 没有结合目标规模
   follow_up_question: 你的项目目标规模是什么？这条硬伤对这个规模来说真的致命吗？
-updated_at: '2026-06-16'
-author: 老顽童
-trust_level: medium-high
+- signal: 用户把"暂时没找到解法"误判为"无解硬伤"
+  framework_lens: 过早放弃
+  follow_up_question: 这条硬伤有没有可能通过缩小规模、换场景或补团队来化解？
+- signal: 用户用预判完全替代MVP验证
+  framework_lens: 验证缺失
+  follow_up_question: 哪条硬伤可以在6周内设计一个低成本实验去证伪？
+language: zh-CN
+created_at: 2026-06-11
+updated_at: 2026-06-18
 ---
 # 十大硬伤：商业机会的致死缺陷清单
 
-## Core Claims
+## 用一句话讲清楚
+
+十大硬伤是一张用于在项目早期识别"即使其他方面做到满分也必然导致失败"的结构性致死缺陷清单；只要命中任意一条在当前条件下无解的硬伤，就应果断放弃该项目。
+
+## 核心要点
 
 1. **硬伤是"就算其他方面做到满分，项目仍然会死"的单项缺陷**——不同于普通的"不足"或"风险"，硬伤是结构性/根因性的，不可通过后期执行弥补。
 
@@ -58,7 +57,7 @@ trust_level: medium-high
 
 4. **硬伤判断随目标规模变化**——同样是"初心不匹配"这条硬伤，做一个小生意可能不重要，但做一个需要长期煎熬才能跑出来的事业（如一堂），初心就是必须项。
 
-## The Ten Fatal Flaws
+## 十大硬伤清单
 
 ### 商业硬伤（Business）
 
@@ -85,7 +84,7 @@ trust_level: medium-high
 | 9 | **无变化无大机会** | 行业长期稳定，没有技术/政策/人口/消费习惯的大变化 | 在成熟市场做"稍微好一点的XX"——只能在存量里抢残羹 |
 | 10 | **窗口期已过/集中度瓶颈** | 头部已出D/E轮公司，资本不再投天使；行业天然分散无法集中 | 外卖换乘站——头部已到D轮，A轮无人问津 |
 
-## Constraints & Boundaries
+## 边界/适用边界
 
 ### 内部局限
 
@@ -102,18 +101,25 @@ trust_level: medium-high
 - **已有PMF的成熟业务做迭代**——硬伤清单是给"还没下场"的阶段用的，已在运转的业务有更好的诊断工具（如单元模型/留存曲线）。
 - **个人副业/小生意**——有些硬伤（如行业预判、初心匹配）在做小生意时权重极低，不必逐条对照。
 
-## Action Triggers
+## 失败模式
 
-1. **做完减法后把剩余选项逐条过十大硬伤**：只要命中一条且判断为"无解"，直接放弃。
-2. **团队决策会前每人独立打分**：每人拿十大硬伤清单对候选项目独立评估，然后对表——可以发现个人盲区。
-3. **过一段时间回看**：最初看好的项目过两周再对照清单看一遍，防止"热恋期"误判。
+| 失败模式 | 典型表现 | 后果 | 规避方法 |
+|:---------|---------|------|---------|
+| **把每条硬伤都当致命** | 不看项目目标规模，逐条对照后得出"全是问题" | 过度保守，错失合理机会 | 先明确目标规模，再判断该硬伤的致命性 |
+| **找不出自己项目的硬伤** | 清单看完了，但觉得条条都不中 | 自我盲区导致清单失效 | 引入外部/同行视角独立打分，强制写出最可能命中的一条 |
+| **误判"暂时无解"为"永久无解"** | 当前没解法，就当作结构死结 | 过早放弃本可调整的项目 | 先尝试缩小规模、换场景、补团队，验证是否真的无解 |
+| **用预判完全替代MVP验证** | 只坐而论道，没有低成本市场实验 | 把可证伪的假设误判为硬伤 | 对关键硬伤设计6周内可完成的低成本实验 |
 
-## Synthesis
+## 行动 Checklist
 
-### 关联卡片
+- [ ] 做完减法后，把剩余选项逐条过十大硬伤：只要命中一条且判断为"无解"，直接放弃。
+- [ ] 团队决策会前，每人独立打分：每人拿十大硬伤清单对候选项目独立评估，然后对表——可以发现个人盲区。
+- [ ] 过一段时间回看：最初看好的项目过两周再对照清单看一遍，防止"热恋期"误判。
+- [ ] 对疑似硬伤设计低成本验证实验：优先验证"需求是否刚需"和"单元模型是否成立"这两条。
+
+## 相关卡/互链
 
 - [[yt-foresight-15-char-mantra]] — 十大硬伤是"专业做减法"的标准化检查工具
 - [[yt-foresight-addition-subtraction]] — 减法实操中硬伤识别是核心环节
 - [[yt-ai-startup-20-risky-hypotheses]] — AI创业20个高风险假设是十大硬伤在AI领域的场景化应用
 - [[yt-entrepreneur-key-hypotheses]] — 未被硬伤排除的选项，进入关键假设验证环节
-- dk-yt-checklist-max-common-divisor — 暗知识：AI和人类在识别硬伤时的分工
