@@ -12,7 +12,7 @@ reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-18'
 confidence: 0.88
-trust_level: medium-low
+trust_level: medium
 source_refs:
   - 10_raw/sources/src_20260522_e2244f17-ocr-一堂-地图-管理地图_conv.md
 source_context: （原始 source 无法追溯，已标记为待补充，待后续补充到 10_raw/sources/ 后更新 source_refs）

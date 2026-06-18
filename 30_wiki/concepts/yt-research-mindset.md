@@ -8,6 +8,7 @@ domain:
 language: zh-CN
 version: 1
 confidence: 0.88
+trust_level: medium
 source_refs:
   - 10_raw/sources/src_20260614_cafcbbac-AI组织行为学研究.md
 related:
