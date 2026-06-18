@@ -14,7 +14,8 @@ related:
 - '[[yt-note-checklist-concept]]'
 - '[[skill-note-layer-constraint]]'
 - '[[skill-note-keyword-bolding]]'
-source_refs: []
+source_refs:
+  - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 tags:
 - '#perspective/compliance'
 - '#perspective/professional'

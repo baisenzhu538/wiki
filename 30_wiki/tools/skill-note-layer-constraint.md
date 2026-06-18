@@ -19,7 +19,8 @@ wiki_refs:
 - '[[skill-note-keyword-bolding]]'
 - '[[skill-note-one-line-one-point]]'
 - '[[dk-note-surplus-brainpower]]'
-source_refs: []
+source_refs:
+  - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 tags:
 - '#perspective/compliance'
 - '#perspective/professional'

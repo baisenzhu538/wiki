@@ -1,31 +1,50 @@
 ---
-
 id: skill-纪浩-真需求四要素验证法
-title: 技能：真需求四要素验证法
-type: "tool"
-status: draft
+title: "技能：真需求四要素验证法"
+type: tool
+status: enriched
 domain:
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - yitang
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
-- 00_inbox/纪浩-AI协作方法论-口述.md
-tools_required: 纸笔或文档、具体场景描述
+  - 00_inbox/纪浩-AI协作方法论-口述.md
+tools_required:
+  - 纸笔或文档
+  - 具体场景描述
 prerequisite_skills: null
 related:
-- '[[concept-纪浩-ai-collaboration-methodology]]'
-- '[[case-纪浩-from-zip-to-five-layers]]'
-- '[[case-jh-yitang-vs-sqlhelper]]'
-created_at: 2026-06-08
-updated_at: '2026-06-16'
+  - "[[concept-纪浩-ai-collaboration-methodology]]"
+  - "[[case-纪浩-from-zip-to-five-layers]]"
+  - "[[case-jh-yitang-vs-sqlhelper]]"
+  - "[[skill-纪浩-Do-first-PDCA渐进迭代法]]"
+  - "[[skill-纪浩-AI工作空间与导诊台设计法]]"
+created_at: "2026-06-08"
+updated_at: "2026-06-17"
 pipeline:
-- confidence-draft
-- confidence-source-cited
+  - confidence-draft
+  - confidence-source-cited
 author: 纪浩
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "Before状态描述模糊，说不出来解决前是什么样子"
+    lens: "Before模糊"
+    follow_up: "必须用一句话说清楚解决前是什么样子，说不出来说明连问题现场都没看清"
+  - signal: "After是'更好'而非'可观察'的变化"
+    lens: "After不可验证"
+    follow_up: "After必须有可量化或可视化的判断标准，模糊的'更好'无法验证效果"
+  - signal: "受益人是'未来用户'或'所有人'"
+    lens: "受益人虚化"
+    follow_up: "受益人必须是能命名的具体人，不能是'所有人'或'未来的用户'"
+  - signal: "可解性验证被'希望'替代"
+    lens: "可解性虚假"
+    follow_up: "因果链中每一环都需要具体的能力或资源支撑，'运气'或'希望'不算可解"
+  - signal: "新手觉得自己没资格做验证，不做判断盲目开干"
+    lens: "验证逃避"
+    follow_up: "新手的验证工具是假设、调研、访谈、问AI、做实验。不做验证就动手是赌博"
 ---
 # 技能：真需求四要素验证法
 
