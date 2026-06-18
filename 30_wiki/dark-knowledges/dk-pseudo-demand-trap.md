@@ -7,7 +7,9 @@ status: enriched
 domain:
 - yitang
 - business-strategy
-source_refs: []
+source_refs:
+- 10_raw/sources/src_20260606_9dd317aa-一堂-关键假设课-truman-口述.md
+- 10_raw/sources/src_20260611_745dfbb7-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr.md
 tags:
 - '#domain/yitang'
 - '#chunk-type/critique'
@@ -37,7 +39,7 @@ diagnostic_signals:
 
 ## 使用场景
 
-- 用[[yt-ai-startup-20-risky-hypotheses|20条高风险假设清单]]或[[yt-entrepreneur-key-hypotheses|关键假设]]完成方向评估后，准备投入开发或融资前。
+- 用[[yt-ai-startup-20-risky-hypotheses]]或[[yt-entrepreneur-key-hypotheses]]完成方向评估后，准备投入开发或融资前。
 - 用户访谈反馈积极，但迟迟无人付费、转化率极低。
 - 团队用“竞品存在”“投资人认可”“技术可行”作为需求已被验证的证据。
 - 产品上线后数据尚可，但付费率、LTV/CAC 长期无法打正。

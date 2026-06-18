@@ -9,7 +9,9 @@ domain:
 - business-strategy
 source_person: 老朱
 source_context: YC口述/AI时代组织与代码价值判断
-source_refs: []
+source_refs:
+- 10_raw/sources/src_20260430_8cc84e5b-yc-放出一套ai-native-公司组织方法论直接把公司当操作系统来设计中层管理变成了-markdown.md
+- 10_raw/sources/src_20260614_1d4cc0e0-2298战队-AI组织落地探索.md
 related:
 - '[[dk-lz-ai-native-organization]]'
 - '[[concept-纪浩-ai-collaboration-five-layer]]'

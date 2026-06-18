@@ -2,20 +2,16 @@
 
 **扫描时间**：2026-06-15  
 **扫描范围**：30_wiki 全库 1200 张卡片  
-**P0 阻塞问题卡片**：3 张  
-**P1 修复问题卡片**：20 张  
-**完全干净卡片**：1178 张  
+**P0 阻塞问题卡片**：0 张  
+**P1 修复问题卡片**：19 张  
+**完全干净卡片**：1181 张  
 **YAML 解析错误**：0 张  
 
 ---
 
 ## P0 阻塞问题清单
 
-| 文件 | P0 问题 |
-|---|---|
-| `dark-knowledges\dk-lz-code-is-disposable.md` | source_refs 为空 |
-| `dark-knowledges\dk-pseudo-demand-trap.md` | source_refs 为空 |
-| `dark-knowledges\dk-signal-cluster-illusion.md` | source_refs 为空 |
+无 P0 阻塞问题。
 
 ---
 
@@ -31,7 +27,6 @@
 | `concepts\yt-lean-essence.md` | source_refs 为空 |
 | `concepts\yt-tob-cash-flow.md` | source_refs 为空 |
 | `concepts\yt-tob-revenue-is-customer-cost.md` | source_refs 为空 |
-| `dark-knowledges\dk-pseudo-demand-trap.md` | dangling 链接: yt-ai-startup-20-risky-hypotheses|20条高风险假设清单, yt-entrepreneur-key-hypotheses|关键假设 |
 | `frameworks\yt-lean-assumption-prioritization.md` | source_refs 为空 |
 | `frameworks\yt-lean-assumption-verification-3means.md` | source_refs 为空 |
 | `frameworks\yt-lean-b2b-b2c-hardware-content-testing.md` | source_refs 为空 |
