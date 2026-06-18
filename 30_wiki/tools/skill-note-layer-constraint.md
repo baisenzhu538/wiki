@@ -14,13 +14,21 @@ related:
 - '[[yt-note-checklist-concept]]'
 - '[[skill-note-keyword-bolding]]'
 - '[[skill-note-one-line-one-point]]'
+- '[[yt-tool-meeting-designer]]'
+- '[[case-truman-prd-checklist-evolution]]'
+- '[[yt-management-scientific-meetings]]'
 wiki_refs:
 - '[[yt-note-checklist-concept]]'
 - '[[skill-note-keyword-bolding]]'
 - '[[skill-note-one-line-one-point]]'
 - '[[dk-note-surplus-brainpower]]'
+- '[[yt-tool-meeting-designer]]'
+- '[[case-truman-prd-checklist-evolution]]'
+- '[[yt-management-scientific-meetings]]'
 source_refs:
   - 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
+  - 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
+  - 10_raw/sources/src_20260503_f4891888-开源HIS系统代码深度分析报告.md
 tags:
 - '#perspective/compliance'
 - '#perspective/professional'
@@ -268,6 +276,38 @@ Truman在美团时期（2015-2016年）开始有意识地控制分层。他发�
 - **超过3层的笔记**，自己3天后回看都费劲
 - **超过7点的列表**，团队成员经常漏看第8点以后的内容
 - 强迫自己"2-3层、每层≤5点"后，笔记的**复用率**（被再次打开和引用的频率）提升了3倍以上
+
+## 分层自检模板：30秒笔记审计表
+
+> 把"分层硬约束"从记忆负担变成可执行动作清单。每次写完分层笔记后，用30秒逐项打钩；任意一项不通过，就回到"Protocol"重排。
+
+| 审计项 | 通过标准 | 不通过时的动作 | 跨域映射 |
+|:---|:---|:---|:---|
+| **1. 层级深度** | 总层级数 ≤ 3（含主题层） | ≥4层时压缩中间层，或拆成多篇 | 会议议程：[[yt-tool-meeting-designer]] 的"一页纸蓝图"也是3层（目标→议程→行动项） |
+| **2. 每层点数** | 每层子点 ≤ 7，理想 ≤ 5 | 先合并同类项，仍超则拆分为并列大分类 | 代码模块：`10_raw/sources/src_20260503_f4891888-开源HIS系统代码深度分析报告.md` 中模块划分每层不超过7个职责域 |
+| **3. 子点饱满度** | 每个父节点下 ≥ 2 个子点 | 仅1-2个子点时取消该层或合并到相邻层 | PRD结构：[[case-truman-prd-checklist-evolution]] 的"输入-处理-输出"三层无空层 |
+| **4. 3秒主题** | 陌生读者3秒内说出大主题和主要结构 | 重命名父节点，或把隐藏主题提到标题/首行 | 会议设计：[[yt-management-scientific-meetings]] 要求会前明确"这个会要产出什么" |
+| **5. 清单闭合** | 无"等等""其他""未完待续" | 强制归类，补全或删除 | — |
+| **6. 层级唯一性** | 同一主题不在多个层级重复出现 | 确定唯一归属，其余改为引用 | — |
+| **7. AI可解析** | AI能正确复述层级关系 | 统一列表符号，压缩到3层以内 | — |
+
+### 使用示例：审计一次周例会纪要
+
+以 `10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md` 的会议结构为例：
+
+- **第1层**：一、本周工作进展同步；二、重点项目讨论决议；三、待跟进风险点（**3点，通过**）
+- **第2层**：重点项目下的（一）官网建设、（二）商城小程序、（三）新疆项目、（四）设备与仓储（**4点，通过**）
+- **第3层**：每个项目下的2-3条具体决议（**≤3点，通过**）
+
+结果：**3层、每层≤4点**，符合硬约束。若把"待跟进风险点"下的4条风险再拆出子层，就会触发"层级深度"审计项。
+
+### 自检表使用节奏
+
+1. **写完即检**：每次生成分层笔记后，花30秒打一遍钩。
+2. **每周抽检**：从本周笔记中随机抽3篇，用本表审计，记录连续通过率。
+3. **低于80%回炉**：连续3次通过率低于80%，回到"步骤2：确定层级数"重新训练。
+
+本模板把 [[yt-note-checklist-concept]] 的"清单体四特征"与 [[skill-note-keyword-bolding]]、[[skill-note-one-line-one-point]] 串联起来：分层约束解决"结构在哪"，加粗解决"重点在哪"，一行一点解决"每行密度多少"。
 
 ## 相关卡/互链
 

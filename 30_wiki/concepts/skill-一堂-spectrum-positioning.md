@@ -1,34 +1,53 @@
 ---
-
 id: skill-一堂-spectrum-positioning
-title: 技能：光谱模型定位法
-type: "tool"
-status: draft
+title: "技能：光谱模型定位法"
+type: tool
+status: enriched
 domain:
-- product
-- yitang
+  - product
+  - yitang
 source_person: Truman
 source_context: 一堂商业预判课
 source_refs:
-- 00_inbox/一堂-商业预判课-Truman-口述.txt
-- 00_inbox/一堂-商业预判课-truman-笔记.txt
+  - 00_inbox/一堂-商业预判课-Truman-口述.txt
+  - 00_inbox/一堂-商业预判课-truman-笔记.txt
 tools_required:
-- 纸笔或文档工具
+  - 纸笔或文档工具
 prerequisite_skills:
-- skill-一堂-business-prediction-15-char
+  - skill-一堂-business-prediction-15-char
 related:
-- '[[skill-一堂-business-prediction-15-char]]'
+  - "[[skill-一堂-business-prediction-15-char]]"
+  - "[[concept-一堂-business-prediction]]"
+  - "[[dk-一堂-p-type-vs-l-type]]"
+  - "[[case-一堂-奶茶店创业-business-prediction]]"
+  - "[[skill-一堂-hypothesis-validation-three-axe]]"
 wiki_refs:
-- '[[skill-一堂-business-prediction-15-char]]'
-created_at: 2026-06-10
-updated_at: '2026-06-16'
+  - "[[skill-一堂-business-prediction-15-char]]"
+created_at: "2026-06-10"
+updated_at: "2026-06-17"
 pipeline:
-- confidence-draft
-- confidence-source-cited
+  - confidence-draft
+  - confidence-source-cited
 author: 老顽童
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "副业阶段花大量时间做正式商业计划"
+    lens: "小目标大做"
+    follow_up: "副业阶段的预判应该是'能不能做'，而非'怎么做大'。预判深度必须与阶段匹配"
+  - signal: "以上市为目标但只做了单店验证的预判深度"
+    lens: "大目标小做"
+    follow_up: "上市阶段需要资本运作、法务合规、全国市场分析，不是单店营销策略。预判深度不足"
+  - signal: "从单店盈利跳到多城市扩张，但组织架构跟不上"
+    lens: "能力错配"
+    follow_up: "每次过渡前先检查组织能力是否配备。光谱模型不是进度条，是能力门槛"
+  - signal: "在一个阶段陷入死磕，不肯认输回归"
+    lens: "沉没成本"
+    follow_up: "每个阶段必须设定退出标准。光谱模型不是进度条，是能力门槛"
+  - signal: "单店还没跑通就开始扩张"
+    lens: "过渡过快"
+    follow_up: "阶段过渡需要明确的进入标准。单元模型没跑通前不要扩张"
 ---
 # 技能：光谱模型定位法
 
@@ -50,18 +69,33 @@ trust_level: low
 3. **匹配预判深度与资源投入** — 副业阶段：低成本试错，不需要正式商业计划；创业阶段：需要完整的259分析和单店盈利验证；上市阶段：需要专业的财务、法律、IPO筹备。根据阶段调整预判投入
 4. **制定阶段过渡标准** — 为每个阶段设定明确的进入标准（如"单店月盈利持续3个月且复制成本可控"）和退出标准（如"6个月内无法达到盈亏平衡则回归副业状态"）
 
-## 适用场景
+## Constraints & Boundaries
 
-- ✅ 创业前确定自己的目标规模和对应能力
-- ✅ 业务增长遇到瓶颈时评估是否该进入下一阶段
-- ✅ 投资评估创业项目的发展阶段是否合理
-- ✅ 副业者决定是否要转为全职创业
+### 适用边界
 
-## 不适用场景
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 创业前确定自己的目标规模和对应能力 |
+| ✅ 适合 | 业务增长遇到瓶颈时评估是否该进入下一阶段 |
+| ✅ 适合 | 投资评估创业项目的发展阶段是否合理 |
+| ✅ 适合 | 副业者决定是否要转为全职创业 |
+| ❌ 不适合 | 纯技术驱动的项目 → 技术突破可能跳过多个阶段 |
+| ❌ 不适合 | 非标准化服务业 → 如自由职业者、艺术家，阶段过渡标准不明确 |
+| ❌ 不适合 | 平台型业务 → 发展曲线通常非线性，光谱模型难以覆盖 |
+| ❌ 不适合 | 打破性创新项目 → 可能从低端直接威胁高端，线性模型不适用 |
 
-- ❌ 纯技术驱动的项目（技术突破可能跳过多个阶段，光谱模型不适用）
-- ❌ 非标准化服务业（如自由职业者、艺术家，阶段过渡标准不明确）
-- ❌ 平台型业务（平台的发展曲线通常非线性，光谱模型难以完全覆盖）
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **小目标大做** | 副业阶段花大量时间做正式商业计划 | 副业阶段的预判应该是'能不能做'，而非'怎么做大'。预判深度必须与阶段匹配 |
+| **大目标小做** | 以上市为目标但只做了单店验证的预判深度 | 上市阶段需要资本运作、法务合规、全国市场分析，不是单店营销策略 |
+| **能力错配** | 从单店盈利跳到多城市扩张，但组织架构跟不上 | 每次过渡前先检查组织能力是否配备。光谱模型不是进度条，是能力门槛 |
+| **沉没成本** | 在一个阶段陷入死磕，不肯认输回归 | 每个阶段必须设定退出标准。避免沉没成本陷阱 |
+| **过渡过快** | 单店还没跑通就开始扩张 | 阶段过渡需要明确的进入标准。单元模型没跑通前不要扩张 |
+| **阶段僵化** | 把7阶段划分当成 rigid 边界，忽视业务的连续性 | 7阶段是离散模型，真实业务是连续的。用阶段做方向指引，不是 rigid 规则 |
+| **能力误判** | 认为自己具备下一阶段能力，但实际只是意愿 | 能力评估要客观：是否有过成功案例？是否有团队支撑？ |
+| **线性迷信** | 认为所有创业都是可扩展的，忽视非标准化服务 | 咨询、艺术创作等行业的规模取决于个人能力，光谱模型可能不适用 |
 
 ## 工具/环境
 
