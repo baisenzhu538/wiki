@@ -4,20 +4,24 @@ id: tool-ai-skill-engineering-method
 title: AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位
 type: tool
 source_refs:
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-status: draft
+  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+status: enriched
 domain:
 - yitang
 - ai-collaboration
 - skill-engineering
+- modeling
+- ai
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
+updated_at: '2026-06-18'
 author: 老顽童
-reviewed_by: pending
-review_date: '2026-06-14'
-trust_level: medium
-confidence: 0.7
+source_person: Truman
+reviewed_by: 欧阳锋
+review_date: '2026-06-18'
+trust_level: high
+confidence: 0.88
 related:
+- '[[tool-ai-skill-engineering-guide]]'
 - '[[case-truman-ai-skill-engineering-guide]]'
 - '[[dk-modeling-ai-iterative-prompting]]'
 - '[[dk-modeling-ai-cross-validation]]'
@@ -27,33 +31,43 @@ tags:
 - '#content-format/concept-card'
 - '#domain/skill-engineering'
 - '#method/prompt-engineering'
-source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
-  high）
+- '#domain/ai'
+source_context: 一堂建模能力培训口述稿中 Truman 分享的 AI Skill 工程化封装工作流，经多轮挑错、交叉验证后沉淀为可复用指南
+diagnostic_signals:
+- signal: 封装的 AI Skill 运行不稳定、输出质量忽高忽低
+  framework_lens: AI Skill 工程化封装——缺少统一质量标准与审计清单
+  follow_up_question: 你的 Skill 是否有 P0/P1/P2 分级检查清单？是否用十条 To Do / Not To Do 自评过？
+- signal: 让 AI 直接生成 Skill，没有经过多轮审美拉齐
+  framework_lens: 把 AI 当作执行者而非协作者
+  follow_up_question: 你在生成 Skill 时，是否至少经过 5-15 轮针对架构、遗漏、逻辑链、优先级的迭代纠偏？
+- signal: 团队内部 Skill 标准不统一，不同人封装的质量参差不齐
+  framework_lens: 缺乏可复用的工程指南和审计基准
+  follow_up_question: 你是否把“好 Skill”的审美转化为 P0/P1/P2 检查清单，并让 AI 用统一维度做交叉验证？
 ---
 # AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位
 
+> 来源：一堂建模能力培训（Truman）口述稿 | 背景：Truman 分享如何通过“找最佳实践 → 翻译解读 → 合并建模 → 迭代挑错 → 交叉验证 → 落地审计”六步，把个人审美和逻辑洁癖固化成一份可复用、可审计的 AI Skill 工程指南。
+
+---
+
+## 用一句话讲清楚
+
+通过 **收集最佳实践 → 翻译合并 → 多轮挑错 → 交叉验证 → 落地审计** 的六步工作流，把个人对高质量 AI Skill 的审美和判断，固化成一份可复用、可审计的工程指南，让 AI 在统一标准下稳定产出并能自我检查问题。
+
 > **Burn line**: AI 不会离职，你可以放心地“喷”它十几轮，直到它改到你能力的上限。
 
-这是 Truman 在一堂高阶建模课上分享的 AI 协作工作流。它不是简单让 AI 写一个 Skill，而是通过“找最佳实践 → 翻译解读 → 合并建模 → 迭代挑错 → 交叉验证 → 落地审计”六步，把个人审美和逻辑洁癖固化成一份可复用的工程指南。
-
 ---
 
-## Visual Analysis
+## 核心要点
 
-该工作流呈现为一个六阶段漏斗：
-- 输入端：大量最佳实践和标杆
-- 处理端：翻译、合并、迭代、验证
-- 输出端：一份可执行的工程指南 + 审计清单
-
----
-
-## Claims
-
-- **C1 [conf=0.9]**: AI Skill 封装的最大风险不是不会写，而是缺少统一质量标准，导致输出不稳定。——依据：`src_20260614_8269ccdb#2556-2566`。
-- **C2 [conf=0.85]**: 高质量 Skill 指南的产出过程是：找最佳实践 → 翻译解读 → 合并生成 1.0 → 十几轮挑错 → 交叉验证 → 落地审计。——依据：`src_20260614_8269ccdb#2420-2586`。
-- **C3 [conf=0.85]**: “喷”式迭代的关键是指出具体缺陷：架构不完整、模块遗漏、逻辑不严谨、没有逻辑链、优先级不清。——依据：`src_20260614_8269ccdb#2466-2490`。
-- **C4 [conf=0.8]**: 工程指南必须具备可审计性，例如 P0/P1/P2 分级、To Do/Not To Do 清单。——依据：`src_20260614_8269ccdb#2504-2516`。
-- **C5 [conf=0.75]**: 交叉验证能避免自我陶醉，用外部标杆撞自己的模型是必要步骤。——依据：`src_20260614_8269ccdb#2518-2538`。
+| 维度 | 说明 |
+|---|---|
+| **核心目标** | 把个人审美和逻辑洁癖固化成可复用的工程指南 |
+| **关键输入** | 2–5 个行业最佳实践/标杆来源 |
+| **关键动作** | 翻译解读、合并建模、5–15 轮挑错迭代、交叉验证、落地审计 |
+| **关键输出** | 一份可执行的工程指南 + P0/P1/P2 审计清单 |
+| **人的角色** | 定义边界、把控审美、指出具体缺陷、最终确认 P0 级问题 |
+| **AI 的角色** | 翻译、合并、排序、自查、交叉对比、输出清单 |
 
 ---
 
@@ -63,7 +77,7 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 
 ---
 
-## Protocol
+## Protocol/Procedure
 
 ### Step 1：找最佳实践
 
@@ -125,18 +139,20 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 
 ---
 
-## When NOT to Use
+## 失败模式
 
-| 场景 | 为什么失效 | 替代方案 |
-|---|---|---|
-| **一次性任务** | 工程指南的投入产出比不够 | 直接写 Prompt |
-| **你对领域没有判断** | 无法有效挑错，AI 会主导方向 | 先学习领域知识 |
-| **缺少标杆** | 没有外部标准可参考 | 先做小范围实验 |
-| **团队不认同标准** | 指南只是个人审美 | 先和关键人对齐标准 |
+| 失败模式 | 典型症状 | 原因 | 修复/预防 |
+|---|---|---|---|
+| **把 AI 当许愿机** | 一句话让 AI 生成 Skill，直接上线使用 | 缺少最佳实践输入和边界定义 | 回到 Step 1，先收集 2–5 个标杆，再进入迭代 |
+| **迭代停在“看起来不错”** | 只改了 2–3 轮就觉得够用 | 缺少逻辑洁癖和持续挑错机制 | 强制完成 5–15 轮，每轮聚焦一个维度 |
+| **缺少交叉验证** | 指南自我感觉良好，没有对比行业标杆 | 缺少外部视角，容易自我陶醉 | 找 2–3 个权威来源按统一维度打分 |
+| **没有审计清单** | 指南很长，但无法用来审计新 Skill | 没有把原则转化为可执行检查项 | 把指南转化为 P0/P1/P2 分级检查清单 |
+| **人类完全放手** | AI 审计后直接采用，不再人工确认 | 过度信任 AI 输出 | P0 级问题必须由人终审 |
+| **标杆选择错误** | 指南吸收了低质量或过时的做法 | 标杆来源本身不可靠 | 优先选择官方文档、权威报告、经过验证的专家实践 |
 
 ---
 
-## Constraints & Boundaries
+## 边界
 
 | 边界 | 说明 |
 |------|------|
@@ -144,6 +160,53 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 | **指南长度** | 太长难以执行，建议一页核心原则 + 可展开的审计清单 |
 | **标杆数量** | 2–3 个最佳，过多会互相矛盾 |
 | **审计频率** | 每次生成新 Skill 都应审计 |
+| **不替代人的判断** | AI 负责执行和自查，审美定义与 P0 终审必须靠人 |
+| **不适用于一次性任务** | 工程指南的投入产出比对临时任务不够划算 |
+
+---
+
+## 行动 Checklist
+
+### 开始封装前
+- [ ] 已明确 Skill 的目标用户、触发场景和输出形式
+- [ ] 已收集 2–5 个高质量最佳实践来源
+- [ ] 已让 AI 完成翻译和解读（如来源为英文或术语密集）
+
+### 合并与迭代
+- [ ] 已让 AI 合并生成工程指南 1.0
+- [ ] 已完成至少 5 轮挑错迭代，覆盖架构、MECE、逻辑链、优先级
+- [ ] 每轮都指出了具体缺陷，而非泛泛要求“再改好一点”
+
+### 验证与落地
+- [ ] 已找 2–3 个外部标杆做交叉验证
+- [ ] 已用统一维度（实用性/宽度/专业性）打分并吸收优点
+- [ ] 已将指南转化为 P0/P1/P2 分级审计清单
+- [ ] 已用清单审计至少 1 个新 Skill，并回灌优化建议
+
+### 团队推广
+- [ ] 已和关键人对齐“好 Skill”的审美标准
+- [ ] 已把清单做成团队可复用的自评模板
+- [ ] 已约定 P0 级问题必须人工终审
+
+---
+
+## 相关卡/互链
+
+- [[tool-ai-skill-engineering-guide]] —— 同主题下更完整的七步工程指南与审计清单
+- [[case-truman-ai-skill-engineering-guide]] —— Truman 做这个指南的完整案例
+- [[dk-modeling-ai-iterative-prompting]] —— 用多轮挑错迭代 AI 输出
+- [[dk-modeling-ai-cross-validation]] —— 用外部标杆交叉验证
+- [[dk-modeling-ai-self-retrospection]] —— 让 AI 自己复盘自己
+
+---
+
+## Claims
+
+- **C1 [conf=0.9]**: AI Skill 封装的最大风险不是不会写，而是缺少统一质量标准，导致输出不稳定。——依据：`src_20260614_8269ccdb#2556-2566`。
+- **C2 [conf=0.85]**: 高质量 Skill 指南的产出过程是：找最佳实践 → 翻译解读 → 合并生成 1.0 → 十几轮挑错 → 交叉验证 → 落地审计。——依据：`src_20260614_8269ccdb#2420-2586`。
+- **C3 [conf=0.85]**: “喷”式迭代的关键是指出具体缺陷：架构不完整、模块遗漏、逻辑不严谨、没有逻辑链、优先级不清。——依据：`src_20260614_8269ccdb#2466-2490`。
+- **C4 [conf=0.8]**: 工程指南必须具备可审计性，例如 P0/P1/P2 分级、To Do/Not To Do 清单。——依据：`src_20260614_8269ccdb#2504-2516`。
+- **C5 [conf=0.75]**: 交叉验证能避免自我陶醉，用外部标杆撞自己的模型是必要步骤。——依据：`src_20260614_8269ccdb#2518-2538`。
 
 ---
 
@@ -166,17 +229,6 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 
 ---
 
-## [Synthesis]
-
-### 关联卡片
-
-- [[case-truman-ai-skill-engineering-guide]] —— Truman 做这个指南的完整案例
-- [[dk-modeling-ai-iterative-prompting]] —— 用多轮挑错迭代 AI 输出
-- [[dk-modeling-ai-cross-validation]] —— 用外部标杆交叉验证
-- [[dk-modeling-ai-self-retrospection]] —— 让 AI 自己复盘自己
-
----
-
 ## Action Triggers
 
 | 触发场景 | 第一个动作 | 成功指标 |
@@ -189,8 +241,8 @@ source_context: （单一 source 为完整长文档，内容充分支撑 high tr
 
 ## Sources
 
-- `src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2406-2586`
+- `10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md:2406-2586`
 
 ---
 
-*老顽童 · 2026-06-14 · 基于一堂建模能力培训课程（Truman 口述）*
+*老顽童 · 2026-06-14 · 基于一堂建模能力培训课程（Truman 口述） · enriched by 欧阳锋 review*
