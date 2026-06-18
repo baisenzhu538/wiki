@@ -3,7 +3,7 @@ id: dk-p16-validate-reads-state-json
 title: P-16：validate 优先读取 state.json 而非文件 frontmatter
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
@@ -11,22 +11,29 @@ source_context: pitfalls.md P-16
 source_refs:
 - .agent/pitfalls.md#P-16
 created_at: 2026-05-31
-updated_at: '2026-06-16'
+updated_at: '2026-06-18'
 related:
 - '[[master-first-principles]]'
 - '[[master-systems-thinking]]'
 - '[[dk-c3-txt-ingest-skip]]'
+- '[[dk-p15-unverified]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
-author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+- format-enriched
+author: system
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 手动修改卡片 frontmatter 后，`kdo validate` 仍然报 "Missing" 或类似错误
+- 文件 frontmatter、`.kdo/state.json`、`90_control/artifact-registry.yaml` 三处同一字段值不一致
+- 用户反复确认文件已改，但验证结果未变，产生"系统是否坏了"的怀疑
 ---
+
 # P-16：validate 优先读取 state.json 而非文件 frontmatter
 
-## 原始表述
+## 原始表述 / 核心洞察
 
 > **症状**：在文件 frontmatter 里更新了 `source_refs` 和 `wiki_refs`，`kdo validate` 仍然报 "Missing"。
 >
@@ -36,6 +43,8 @@ trust_level: low
 > - **短期**：修改后必须同时更新 state.json（用 Python 脚本 or `kdo` 命令）
 > - **长治**：validate 应以文件 frontmatter 为 source of truth，state.json 和 registry 只做缓存/索引。发现不一致时自动同步或报 warning
 > - **优先级**：P1——每次手动改文件都要记住还有 state.json，极易遗忘
+
+**核心洞察**：当同一信息被存储在多个独立位置且缺乏自动同步时，"修改了 A 却读 B" 的迷惑性错误必然发生。验证逻辑必须以单一 truth source 为准，缓存只能作为派生视图。
 
 ## 使用场景
 
@@ -60,6 +69,14 @@ trust_level: low
 - 三份数据拷贝（文件、state.json、registry.yaml）是一个设计缺陷，而非配置错误——即使每个人都按步骤操作，仍然可能出现不一致
 - **长治方案是单一 truth source**，而非多份拷贝——这需要系统层面的修改
 
+## 常见失败模式
+
+| 失败模式 | 表象 | 根因 | 修复 / 规避 |
+|---|---|---|---|
+| 修改 frontmatter 后 validate 仍报 Missing | 手动更新了 `source_refs` / `wiki_refs`，`kdo validate` 依旧报错 | validate 优先读取 `.kdo/state.json` 中的缓存，而非文件 frontmatter | 同步更新 `.kdo/state.json`；优先使用 `kdo` 命令或脚本统一写入 |
+| 三份数据互相不一致 | 同一卡片的 `source_refs` / `wiki_refs` 在文件、state.json、registry.yaml 中值不同 | 三处数据独立维护，无自动同步机制 | 明确以文件 frontmatter 为唯一 truth source，其他两处仅作缓存/索引并自动同步 |
+| 误以为是系统 bug | 反复检查文件修改无误，验证结果却始终未变 | 不了解 validate 的数据读取优先级 | 排障时先检查 `.kdo/state.json` 中的缓存值，再核对文件 frontmatter |
+
 ## 为什么值钱
 
 - 这是 KDO 特有的数据一致性问题：**同一个信息存储在三个独立的地方，没有同步机制**
@@ -69,9 +86,9 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- dk-p15-claimed-done-not-verified — 同一模式："验证结果不可靠"。P-15 是"执行者的报告不可信"，P-16 是"系统的验证逻辑读错了数据源"——两者都是"以为已验证但实际验证的是错误的东西"
+- [[dk-p15-unverified]] — 同一模式："验证结果不可靠"。P-15 是"执行者的报告不可信"，P-16 是"系统的验证逻辑读错了数据源"——两者都是"以为已验证但实际验证的是错误的东西"
 - [[dk-c3-txt-ingest-skip]] — 诊断 C-3 时必须读取 `state.json` 确认 `ingested_inbox_files` 计数，而 P-16 提醒我们：读 state.json 时要意识到它可能与文件 frontmatter 不一致，避免把"错误的缓存状态"当成"真实入库状态"
-- master-systems-thinking — 系统思维中的"状态一致性"原则：当同一信息存储在多个独立位置时，必须有明确的 truth source 和同步机制，否则不一致是必然结果
+- [[master-systems-thinking]] — 系统思维中的"状态一致性"原则：当同一信息存储在多个独立位置时，必须有明确的 truth source 和同步机制，否则不一致是必然结果
 - `.agent/pitfalls.md` → P-16（原始记录，未编号段落）
 
 ## 老顽童疑问（2026-05-31）

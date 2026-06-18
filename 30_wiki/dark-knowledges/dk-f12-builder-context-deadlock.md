@@ -67,7 +67,7 @@ tags:
 
 ## 使用场景
 
-- 你给黄药师（或其他 Builder Agent）分配任务时， tempted 一次性列出多个操作目标
+- 你给黄药师（或其他 Builder Agent）分配任务时，忍不住一次性列出多个操作目标
 - 你发现 Agent 执行时间超过 20 分钟但没有任何文件变更或输出
 - 你观察到 Agent 的 token 计数长时间停留在同一数字（"Caramelizing…"）
 - 你设计 Agent 工作流时，需要规划任务拆分和会话接力策略

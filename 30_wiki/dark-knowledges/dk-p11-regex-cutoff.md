@@ -106,5 +106,5 @@ trust_level: medium
 
 - [[dk-f13-handwritten-yaml-parser]] — F-KDO-013 和 P-11 是同一类问题：手写解析器在边界条件下失效。YAML 解析器拍扁嵌套结构，regex 解析器截断多级标题
 - [[dk-p18-yaml-parser]] — P-18 是 P-11 的姊妹篇：都是"不要手写解析器"的实战教训
-- [[90_control/failure-modes.md]] → F-KDO-013（手写 YAML 解析器）
-- [[.agent/pitfalls.md]] → P-11（原始记录）
+- `90_control/failure-modes.md` → F-KDO-013（手写 YAML 解析器）
+- `.agent/pitfalls.md` → P-11（原始记录）

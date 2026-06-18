@@ -14,7 +14,7 @@ source_refs:
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
-- '[[dk-p15-claimed-done-not-verified]]'
+- '[[dk-p15-unverified]]'
 - '[[master-decision-hygiene]]'
 - '[[master-ai-info-literacy]]'
 - '[[master-systems-thinking]]'
@@ -96,7 +96,7 @@ diagnostic_signals:
 
 ## 与其他知识的关联
 
-- [[dk-p15-claimed-done-not-verified]] — 同一模式："声称了一个没有验证方法的数字"。P-15 是"完工报告中的数字不可信"，F-14 是"准确率声明中的数字不可比"——两者都是"数字需要验证方法才有意义"
+- [[dk-p15-unverified]] — 同一模式："声称了一个没有验证方法的数字"。P-15 是"完工报告中的数字不可信"，F-14 是"准确率声明中的数字不可比"——两者都是"数字需要验证方法才有意义"
 - [[master-systems-thinking]] — 系统思维中的"反馈循环"：如果测量方法不一致，反馈循环就会失效——你以为在改进，实际上在比较两个不同的东西
 - [[master-decision-hygiene]] — 决策卫生要求任何影响决策的数字都必须附带来源、方法和置信度
 - [[master-ai-info-literacy]] — AI 信息素养中的"指标批判"：看到准确率声明时，第一反应是追问"怎么测的"而不是"数字有多高"
