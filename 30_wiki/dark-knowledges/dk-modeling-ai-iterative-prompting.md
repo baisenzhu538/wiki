@@ -1,77 +1,101 @@
 ---
-
 id: dk-modeling-ai-iterative-prompting
 title: AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限
 type: dark-knowledge
 dark_knowledge_type: pattern
+diagnostic_signals:
+  - AI 初稿看起来“还行”，但你总觉得离可复用资产还差一口气
+  - 你能指出 AI 输出中具体的结构、逻辑或优先级问题，但不知道还能榨多少空间
+  - 同一份 Prompt/Skill/指南需要被反复使用，质量每提升 10% 长期收益会被放大
+  - 你习惯一次性让 AI 改完，改完就停止，很少追第二、第三轮
+  - 产出缺少 MECE、排序、逻辑链、To Do / Not To Do 等工程化要素
 source_refs:
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-status: draft
+  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+  - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
+status: enriched
 domain:
-- yitang
-- ai-collaboration
+  - yitang
+  - ai-collaboration
 source_person: Truman
-source_context: 一堂高阶建模能力培训（AI Skill 工程指南产出过程） （单一 source 为完整长文档，内容充分支撑 high trust）
-  （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回 high）
+source_context: 一堂高阶建模能力培训（AI Skill 工程指南产出过程）
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
+updated_at: '2026-06-18'
 author: 老顽童
-reviewed_by: pending
-review_date: '2026-06-14'
+reviewed_by: 欧阳锋
+review_date: '2026-06-18'
 trust_level: medium
-confidence: 0.7
+confidence: 0.88
 related:
-- '[[modeling-capability-for-kdo]]'
-- '[[case-truman-ai-skill-engineering-guide]]'
-- '[[tool-ai-skill-engineering-method]]'
-- '[[dk-modeling-ai-self-retrospection]]'
-- '[[dk-modeling-ai-without-judgment]]'
+  - '[[modeling-capability-for-kdo]]'
+  - '[[case-truman-ai-skill-engineering-guide]]'
+  - '[[tool-ai-skill-engineering-method]]'
+  - '[[dk-modeling-ai-self-retrospection]]'
+  - '[[dk-modeling-ai-without-judgment]]'
 tags:
-- '#method/modeling'
-- '#method/prompt-engineering'
-- '#chunk-type/process-data'
+  - '#method/modeling'
+  - '#method/prompt-engineering'
+  - '#chunk-type/process-data'
 ---
 # AI 不会离职：用十几轮挑错把 AI 输出推到你能力的上限
 
-## 原始表述
+## 原始表述 / 核心洞察
 
 > "我就一路喷他，连着喷了大概十几轮，让他 MECE，让他排序，让他参考案例……这个不 MECE，你 MECE；你自己检查一下；没顺序，内在规律吗？你给我写三个逻辑链……就不断喷他，然后不断跟他说不够好。AI 不会离职，AI 不会离职，AI 离职不了。" —— Truman，`src_20260614_8269ccdb#2466-2494`
+
+**核心洞察**：AI 不会疲劳、不会情绪化、不会离职，这意味着你可以把人类的“逻辑洁癖”和审美标准反复施加给它，直到触及你自身能力的上限。关键不是一次性给 AI 一个完美 prompt，而是先让它产出 1.0，再用多轮、具体、结构化的挑错把它推到你当前能判断的最高质量。最终产出的不是“AI 写得最好的东西”，而是“你能识别出的最好东西”。
 
 ## 使用场景
 
 - 你需要 AI 产出高质量、可复用的结构化资产（Skill、Prompt、指南、模型）
 - AI 第一次生成的内容看起来“还可以”，但你知道离你的标准还有距离
 - 你要把个人审美和判断固化成可复用的工程标准
+- 同一份资产会被高频复用，值得投入多轮迭代榨取质量
+- 你希望通过与 AI 的对抗式迭代，把自己对“好”的定义也打磨得更清晰
 
 ## 操作方法
 
-1. **先让 AI 产出 1.0**：不要过早挑刺，先有一个完整版本
-2. **逐轮指出具体缺陷**：不要泛泛说“不够好”，要指出：
+1. **先让 AI 产出 1.0**：不要过早挑刺，先有一个完整版本。清晰表达你对这份资产的“美好想象”和成功标准。
+2. **逐轮指出具体缺陷**：不要泛泛说“不够好”，要指出具体维度：
    - 架构不完整
    - 模块遗漏（MECE 问题）
    - 逻辑不严谨
    - 缺少逻辑链
    - 优先级不清
-3. **要求 AI 自检**：让 AI 自己检查 MECE、顺序、内在规律
-4. **重复直到上限**：通常 5–15 轮，到你能力的上限为止
-5. **交叉验证**：用外部标杆撞一下，吸收优点
+3. **要求 AI 自检**：让 AI 自己检查 MECE、顺序、内在规律，把一部分纠错责任交还给它。
+4. **重复直到上限**：通常 5–15 轮，到你能力的上限为止——直到你提不出更高质量的问题。
+5. **交叉验证**：用外部标杆、案例或第二来源撞一下，吸收优点，补齐盲区。
+6. **固化标准**：把这一轮迭代中你反复要求的维度沉淀为 checklist 或 prompt 模板，下一次复用。
 
 ## 适用边界
 
 - 适用于需要长期复用、质量要求高的资产
 - 不适用于一次性、低价值的任务
 - 要求你对领域有足够判断，否则挑不出真问题
+- 当任务目标本身模糊时，反复挑错容易陷入无效内卷
+- 当时间成本远高于质量收益时，应降低迭代轮数或接受 80 分版本
+
+## 常见失败模式
+
+| 失败模式 | 典型表现 | 为什么错 | 怎么修正 |
+|---|---|---|---|
+| 过早完美主义 | 第一轮 prompt 就堆满约束，导致 AI 产出僵硬或跑偏 | 还没建立 1.0 框架就在细节上消耗算力和注意力 | 先求完整，再求精致 |
+| 挑错太空泛 | 只会说“不够好”“再改改” | AI 不知道你指的具体维度，容易随机游走 | 每次指出一个具体缺陷：MECE、顺序、逻辑链、优先级 |
+| 不会要求自检 | 自己替 AI 检查所有问题 | 把 AI 当打字机，没发挥它的纠错能力 | 让 AI 先自查：你检查下这里是否 MECE？有没有内在规律？ |
+|  iteration 成瘾 | 已经改不出真问题，还在让 AI 继续改 | 边际收益趋近于零，时间被浪费 | 停下来，用外部标杆撞一下，或接受当前上限 |
+| 没有固化标准 | 每次迭代从 0 开始，重复同样的挑错 | 个人审美无法规模化复用 | 把挑错维度写成 checklist，沉淀进 prompt 模板 |
+| 忽视自身上限 | 把 AI 输出推到比你还能判断更高的位置 | 你不知道它改得对不对，可能引入更隐蔽的错误 | 只在你能判断的范围内挑错；超越自身认知的改动要二次验证 |
 
 ## 为什么值钱
 
-AI 的好处是：你怎么说它都改，态度永远好。人类的迭代受限于耐心和情绪，而 AI 可以让你把“逻辑洁癖”发挥到极致。这是把个人审美规模化固化的关键方法。
+AI 的好处是：你怎么说它都改，态度永远好。人类的迭代受限于耐心和情绪，而 AI 可以让你把“逻辑洁癖”发挥到极致。这是把个人审美规模化固化的关键方法。更重要的是，每一次挑错都在反向训练你自己的判断力：你能提出什么问题，说明你能识别什么水平的好。最终沉淀下来的不只是 AI 产出，还有你自己的审美标准和工程 checklist。
 
 ## 与其他知识的关联
 
-- [[tool-ai-skill-engineering-method]] —— 完整六步工作流
-- [[case-truman-ai-skill-engineering-guide]] —— 这个暗知识的来源案例
-- [[dk-modeling-ai-self-retrospection]] —— 让 AI 自己复盘自己
+- [[tool-ai-skill-engineering-method]] —— 完整六步工作流，多轮挑错通常发生在“迭代打磨”阶段
+- [[case-truman-ai-skill-engineering-guide]] —— 这个暗知识的来源案例，展示了十几轮挑错的实际记录
+- [[dk-modeling-ai-self-retrospection]] —— 让 AI 自己复盘自己，可与挑错交替使用
+- [[dk-modeling-ai-without-judgment]] —— 警惕“让 AI 自己迭代”而人类不投入判断的陷阱
 
 ---
 
-*老顽童 · 2026-06-14 · 基于一堂建模能力培训课程（Truman 口述）*
+*老顽童 · 2026-06-14 · 基于一堂建模能力培训课程（Truman 口述），欧阳锋 2026-06-18 复核 enriched*
