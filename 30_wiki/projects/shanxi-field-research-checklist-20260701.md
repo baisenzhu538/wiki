@@ -2,7 +2,7 @@
 id: shanxi-field-research-checklist-20260701
 title: 山西 7 月 1 日智慧药柜项目调研清单
 type: tool
-status: diagnostic
+status: enriched
 domain:
 - healthcare
 - compliance
@@ -17,7 +17,8 @@ trust_level: medium
 related:
 - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
 - '[[parking-lot]]'
-source_refs: []
+source_refs:
+- 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 captured_at: '2026-06-18'
 tags:
 - 鑫港湾

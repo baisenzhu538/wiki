@@ -21,7 +21,8 @@ related:
 - '[[shanxi-field-research-checklist-20260701]]'
 - '[[tool-funnel-formula-modeling]]'
 - '[[yt-unit-model-construction]]'
-source_refs: []
+source_refs:
+- 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 diagnostic_signals:
 - 全部转化率与客单价为推演假设，尚未经山西调研及首柜运营数据验证
 - 医保支付激活率、医保药毛利率受政策影响大，存在较大外部不确定性
