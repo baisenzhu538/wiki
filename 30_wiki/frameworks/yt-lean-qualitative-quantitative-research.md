@@ -14,7 +14,8 @@ created_at: '2026-06-16'
 updated_at: '2026-06-17'
 confidence: 0.65
 trust_level: low
-source_refs: []
+source_refs:
+- 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 source_context: Q1第六、七节关于专项调研与用户访谈的区别、验证指标与产品形态的关系
 tags:
 - '#method/evaluation-method'

@@ -9,7 +9,9 @@ domain:
 - business-strategy
 source_person: 张磊
 source_context: 张磊教练《精益测试关键问题》AMA Q4
-source_refs: []
+source_refs:
+- 10_raw/sources/zhanglei-lean-testing-oral-01.md
+- 10_raw/sources/zhanglei-lean-testing-notes-01.md
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'

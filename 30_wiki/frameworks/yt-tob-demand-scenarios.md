@@ -8,7 +8,9 @@ domain:
 - entrepreneurship
 - b2b
 - business-strategy
-source_refs: []
+source_refs:
+- 10_raw/sources/xujian-tob-fivestep-oral.md
+- 10_raw/sources/xujian-tob-fivestep-notes.md
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'

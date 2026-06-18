@@ -7,7 +7,8 @@ domain:
 - yitang
 - entrepreneurship
 - business-strategy
-source_refs: []
+source_refs:
+- 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 created_at: '2026-06-16'
 updated_at: '2026-06-17'
 author: 张磊

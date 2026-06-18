@@ -7,7 +7,9 @@ domain:
 - yitang
 - entrepreneurship
 - business-strategy
-source_refs: []
+source_refs:
+- 10_raw/sources/zhanglei-lean-testing-oral-01.md
+- 10_raw/sources/zhanglei-lean-testing-notes-01.md
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'

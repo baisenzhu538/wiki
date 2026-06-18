@@ -9,7 +9,8 @@ domain:
 - business-strategy
 source_person: 张磊
 source_context: 一堂·精益测试 AMA 答疑（2026-06-14）
-source_refs: []
+source_refs:
+- 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'

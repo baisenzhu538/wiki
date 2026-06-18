@@ -17,6 +17,8 @@ query_triggers:
   - 增量一致性
   - 全域检测靶向修复
   - 知识库腐败
+source_refs:
+- 10_raw/sources/src_20260611_4c587435-一堂-一堂五步法-需求-AI企业知识库-产品路线图_paddle_ocr.md
 created_at: "2026-06-03"
 updated_at: "2026-06-17"
 pipeline:
