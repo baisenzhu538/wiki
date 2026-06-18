@@ -2,7 +2,7 @@
 id: xingangwan-pharma-business-formulas
 title: 鑫港湾医药零售业务公式：原研药模式的转化漏斗与杠杆变量
 type: framework
-status: draft
+status: enriched
 domain:
 - healthcare
 - pharmaceutical-retail
@@ -10,10 +10,10 @@ domain:
 - product
 - unit-economics
 created_at: '2026-06-19'
-updated_at: '2026-06-19'
+updated_at: '2026-06-18'
 author: unknown
-reviewed_by: pending
-confidence: 0.78
+reviewed_by: 欧阳锋
+confidence: 0.88
 trust_level: medium
 related:
 - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
@@ -21,10 +21,10 @@ related:
 - '[[shanxi-field-research-checklist-20260701]]'
 - '[[tool-funnel-formula-modeling]]'
 - '[[yt-unit-model-construction]]'
-source_refs:
-- "30_wiki/tools/tool-funnel-formula-modeling.md"
-- "30_wiki/concepts/yt-unit-model-construction.md"
-- "30_wiki/decisions/xingangwan-pharma-mall-cabinet-internet-hospital-model.md"
+source_refs: []
+diagnostic_signals:
+- 全部转化率与客单价为推演假设，尚未经山西调研及首柜运营数据验证
+- 医保支付激活率、医保药毛利率受政策影响大，存在较大外部不确定性
 captured_at: '2026-06-19'
 tags:
 - 鑫港湾
@@ -67,7 +67,17 @@ tags:
 
 ---
 
-## 三、鑫港湾业务公式总览
+## 三、边界
+
+1. **商业模式边界**：本公式适用于「小程序医药商城 + 实体药店 + 智慧药柜 + 诊所场地合作 + 互联网医院/HIS」的鑫港湾原研药零售模式，不适用于纯线上电商或纯线下药房模型。
+2. **最小单元边界**：以单柜/单店为最小测算单元，未合并计算多柜协同、区域密度效应或品牌溢出。
+3. **不可干预变量作为边界条件**：诊所日均门诊量、目标病种占比、医保报销比例、医保药毛利率（集采定价）等视为外部给定，只用于选择合作诊所和设定预期，不纳入运营优化杠杆。
+4. **成本边界**：本公式计算的是**销售毛利**，未扣除固定运营成本（场地租金、人工、平台费、审方合规成本等），完整盈亏测算见配套文档 `[[xingangwan-pharma-business-model-calc]]`。
+5. **数据边界**：当前所有转化率、客单价、复购频次均为推演假设，需在山西调研及首柜上线后校准；在政策或合作诊所结构变化时需重新建模。
+
+---
+
+## 四、鑫港湾业务公式总览
 
 ### 3.1 核心乘法公式
 

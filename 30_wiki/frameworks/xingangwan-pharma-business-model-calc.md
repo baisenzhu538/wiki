@@ -2,7 +2,7 @@
 id: xingangwan-pharma-business-model-calc
 title: 鑫港湾医药零售商业模型计算框架
 type: framework
-status: draft
+status: enriched
 domain:
 - healthcare
 - pharmaceutical-retail
@@ -11,8 +11,9 @@ domain:
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: unknown
-reviewed_by: pending
-confidence: 0.82
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
+confidence: 0.89
 trust_level: medium
 related:
 - '[[xingangwan-pharma-business-formulas]]'
@@ -21,12 +22,8 @@ related:
 - '[[yt-unit-model-construction]]'
 - '[[yt-unit-model-benchmark]]'
 source_refs:
-- "30_wiki/projects/单柜财务测算.json"
-- "30_wiki/decisions/xingangwan-pharma-mall-cabinet-internet-hospital-model.md"
-- "30_wiki/frameworks/xingangwan-pharma-business-formulas.md"
-- "https://m.bjnews.com.cn/detail/1715644681129298.html"
-- "https://pdf.dfcfw.com/pdf/H3_AP202307261592660412_1.pdf"
-- "https://rolandberger.com/publications/publication_pdf/_190103.pdf"
+- "10_raw/sources/corr_20260613_smart-medicine-cabinet-iteration-2-financial-model.md"
+- "10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md"
 captured_at: '2026-06-19'
 tags:
 - 鑫港湾
@@ -37,6 +34,13 @@ tags:
 - 医药零售
 - 原研药
 - 医保引流
+diagnostic_signals:
+- signal: 模型中关键假设（客单价、毛利率、复购率）仍使用桌面推演值，未用山西实地调研数据校准
+  framework_lens: L1-L4 四层财务计算框架
+  follow_up_question: 已落地的诊所/药柜实际日均订单、医保药与原研药销售占比、真实租金与审方费是多少？是否与本框架参考区间一致？
+- signal: 医保报销比例、集采目录、互联网医院审方政策存在地区差异与变动风险
+  framework_lens: 医保支付与政策合规
+  follow_up_question: 山西各地市门诊统筹起付线、报销比例、乙类先行自付比例及审方平台收费标准是否已逐一确认？政策变化对盈亏平衡日订单的影响边界是多少？
 ---
 
 # 鑫港湾医药零售商业模型计算框架

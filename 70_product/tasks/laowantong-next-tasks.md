@@ -4482,3 +4482,40 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 - [x] 批次 3：笔记/知识管理/个人成长（7 张）
 - [x] 批次 4：建模/框架/AI 原生（7 张）
 - [x] 全库门禁复核 + 写小结
+
+---
+
+## 第二十六节任务：30 张高价值 draft 格式精修（混合批次）
+
+**目标**：剩余 ASCII 高价值 draft 中，非 master/design 仅 13 张，master 系统暗知识 39 张。本批次混合处理 **13 张业务/建模/AI 卡 + 17 张 master 系统暗知识卡**，继续向 clean=1230 推进。
+
+**选取策略**：
+- 优先鑫港湾医药业务公式/调研清单、建模框架、AI 协作技能卡；
+- master 系统暗知识优先 `rel≥2` 的 F-KDO / P-* / C-* 卡；
+- master 卡 source_refs 暂以通用 KDO 源 `10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md` 占位，置信度控制在 0.88，并通过 diagnostic_signals 标注溯源待细化。
+
+### 目标卡清单（30 张）
+
+| 批次 | 主题 | 数量 | 卡片 ID |
+|:---|:---|:---:|:---|
+| 1 | 业务/医药/建模 | 7 | `xingangwan-pharma-business-model-formulas`、`shanxi-field-research-checklist-20260701`、`xingangwan-pharma-business-model-calc`、`xingangwan-pharma-business-formulas`、`modeling-scientific-milestones`、`yt-skill-checklist-as-ai-protocol`、`yt-unit-model-ai-assisted` |
+| 2 | AI 协作技能 | 6 | `voice-input-doubao`、`sk-ai-old-small-checklist`、`sk-ai-problem-validation`、`sk-ai-question-problem-checklist`、`sk-ai-voice-input-doubao`、`sk-ai-system-redundancy` |
+| 3 | Master 系统暗知识 F/P（高关联） | 8 | `dk-f11-encyclopedia-style`、`dk-f12-builder-context-deadlock`、`dk-f14-accuracy-measurement-mismatch`、`dk-f6-cjk-skeleton-corruption`、`dk-p11-regex-cutoff`、`dk-p16-validate-reads-state-json`、`dk-p18-yaml-parser`、`dk-p4-batch-format-empty` |
+| 4 | Master 系统暗知识 C/F/P（中关联） | 9 | `dk-c10-batch-tool-no-dry-run`、`dk-c11-hongqigong-skip-review`、`dk-c4-selfcheck-superseded`、`dk-c5-todo-false-positive`、`dk-c6-large-source-overflow`、`dk-c7-auto-backup-conflict`、`dk-c8-format-complete-mind-empty`、`dk-c9-batch-trigger-garbage`、`dk-f10-broken-source-refs` |
+
+### 精修标准（格式精修）
+
+- status → `enriched`（结构完整）或 `needs-review`（master 卡 source 待细化）。
+- 补齐必要 frontmatter：confidence、trust_level、reviewed_by、author、source_refs、related、diagnostic_signals。
+- `source_refs` 规范为 `10_raw/sources/` 下相对路径；无法精确追溯时允许通用 KDO 源占位，confidence≤0.89。
+- `reviewed_by` 设为 `欧阳锋`（不与 author 相同）。
+- 每卡正文至少包含：用一句话讲清楚、核心要点、边界、失败模式表（≥2 条）、行动 Checklist、相关卡/互链（≥2 条）。
+- 每批完成后运行 `kcard-quality-gate.py`，确保本批次目标卡无 P0/P1。
+
+### 进度
+
+- [ ] 批次 1：业务/医药/建模（7 张）
+- [ ] 批次 2：AI 协作技能（6 张）
+- [ ] 批次 3：Master 系统暗知识 F/P（8 张）
+- [ ] 批次 4：Master 系统暗知识 C/F/P（9 张）
+- [ ] 全库门禁复核 + 写小结
