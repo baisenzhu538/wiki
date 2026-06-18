@@ -8,7 +8,8 @@ domain:
 language: zh-CN
 version: 1
 confidence: 0.88
-source_refs: []
+source_refs:
+  - 10_raw/sources/src_20260606_f6cb0868-一堂-机会预判课-Truman-口述.md
 related:
 - '[[yt-research-osl-framework]]'
 - '[[yt-panproduct-demand-need-discovery]]'

@@ -34,7 +34,7 @@ diagnostic_signals:
   framework_lens: 技术可行性幻觉——把能力可见性误当成需求真实性
   follow_up_question: 如果这个AI功能明天消失，用户会因为失去什么而取消订阅？
 - signal: 三维排列组合筛选时优先讨论"哪个交叉点最能展示AI技术"
-  framework_lens: "新能力"维度权重过高，"新行业/新模式"需求验证被系统性跳过
+  framework_lens: "新能力\"维度权重过高，\"新行业/新模式\"需求验证被系统性跳过"
   follow_up_question: 每个候选交叉点是否有≥5个真实用户愿意付费的证据？
 ---
 # 暗知：AI创业者最大的盲区——"我们能做出来"≠"用户需要这个"
