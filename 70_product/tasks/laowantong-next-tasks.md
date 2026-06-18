@@ -4320,3 +4320,37 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 - 继续从 draft 精修池选取下一批 30 张卡，优先补齐案例卡和跨域桥接卡。
 - 对 source_refs 为空但仍标 enriched 的管理卡（yt-management-*）补充更精确的来源或制作新 source 归档。
 - 检查本批次新增互链的反向引用密度，避免单向链接过多。
+
+---
+
+## 第二十四节任务：再精修 30 张 draft 卡
+
+**目标**：从 draft 精修池继续选取 30 张 ASCII ID 的 draft/diagnostic 卡，按主题分 4 批次深度 enrich 至 `status: enriched`，并确保全库 P0=0。
+
+**候选池状态**：当前剩余 ASCII ID draft 卡约 117 张（confidence≥0.7、related 非空、status∈{draft,diagnostic}）。
+
+### 目标卡清单（30 张）
+
+| 批次 | 主题 | 数量 | 卡片 ID |
+|:---|:---|:---:|:---|
+| 1 | 建模工具/层级 | 8 | `modeling-level-map`、`tool-binary-quadrant-modeling`、`tool-canvas-weapon-library-modeling`、`tool-checklist-cheatsheet-modeling`、`tool-funnel-formula-modeling`、`tool-iceberg-triangle-modeling`、`tool-radar-chart-modeling`、`tool-sabc-tier-modeling` |
+| 2 | 建模暗知识与 AI 协作 | 7 | `dk-modeling-model-arsenal-paradigms`、`dk-modeling-radar-model-not-result`、`dk-modeling-ai-cross-validation`、`dk-modeling-ai-iterative-prompting`、`dk-modeling-ai-self-retrospection`、`dk-modeling-case-explosion-confidence`、`dk-modeling-expert-consensus-five-percent` |
+| 3 | 案例卡 | 8 | `case-ai-assisted-review`、`case-child-drawing-rhyme`、`case-course-milestone-model`、`case-essence-education-strategy`、`case-essence-entrepreneurship`、`case-essence-humanity-trap`、`case-nine-pm-livestream-survey`、`case-thousand-people-square` |
+| 4 | 笔记/一堂概念与工具 | 7 | `skill-note-keyword-bolding`、`skill-note-layer-constraint`、`skill-note-one-line-one-point`、`yt-note-five-levels-training`、`yt-note-l4-internalization`、`yt-note-l6-extraction`、`yt-note-live-field-skill` |
+
+### 精修标准（同第二十三节）
+
+- status → `enriched`。
+- 补齐结构：用一句话讲清楚 / 核心要点 / 边界 / 失败模式表 / 行动 Checklist / 相关卡互链。
+- `diagnostic_signals` ≥2（frontmatter + 正文）。
+- `source_refs` 规范为 `10_raw/sources/` 下相对路径；无法追溯时置空，并将 confidence 控制在 ≤0.89。
+- `reviewed_by` 设为 `欧阳锋`（不与 author 相同）。
+- 每批完成后运行 `kcard-quality-gate.py`，确保本批次目标卡无 P0/P1。
+
+### 进度
+
+- [ ] 批次 1：建模工具/层级（8 张）
+- [ ] 批次 2：建模暗知识与 AI 协作（7 张）
+- [ ] 批次 3：案例卡（8 张）
+- [ ] 批次 4：笔记/一堂概念与工具（7 张）
+- [ ] 全库门禁复核 + 写小结
