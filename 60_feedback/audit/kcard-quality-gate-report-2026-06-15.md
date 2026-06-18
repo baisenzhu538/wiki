@@ -3,8 +3,8 @@
 **扫描时间**：2026-06-15  
 **扫描范围**：30_wiki 全库 1199 张卡片  
 **P0 阻塞问题卡片**：0 张  
-**P1 修复问题卡片**：21 张  
-**完全干净卡片**：1178 张  
+**P1 修复问题卡片**：19 张  
+**完全干净卡片**：1180 张  
 **YAML 解析错误**：0 张  
 
 ---
@@ -27,7 +27,6 @@
 | `concepts\yt-lean-essence.md` | source_refs 为空 |
 | `concepts\yt-tob-cash-flow.md` | source_refs 为空 |
 | `concepts\yt-tob-revenue-is-customer-cost.md` | source_refs 为空 |
-| `decisions\xingangwan-pharma-mall-cabinet-internet-hospital-model.md` | dangling 链接: 单柜财务测算; status=draft 但 confidence=0.85; source_refs 中的 src ID 未注册: src_20260613_internet, src_20260613_internet, src_20260618_changzhi |
 | `frameworks\yt-lean-assumption-prioritization.md` | source_refs 为空 |
 | `frameworks\yt-lean-assumption-verification-3means.md` | source_refs 为空 |
 | `frameworks\yt-lean-b2b-b2c-hardware-content-testing.md` | source_refs 为空 |
@@ -39,7 +38,6 @@
 | `frameworks\yt-tob-customer-tiering.md` | source_refs 为空 |
 | `frameworks\yt-tob-demand-scenarios.md` | source_refs 为空 |
 | `frameworks\yt-tob-product-kernel.md` | source_refs 为空 |
-| `projects\parking-lot.md` | type 值异常: task-backlog; status=draft 但 confidence=0.85; source_refs 中的 src ID 未注册: src_20260618_changzhi |
 
 ---
 

@@ -2,7 +2,8 @@
 id: xingangwan-pharma-mall-cabinet-internet-hospital-model
 title: 鑫港湾小程序医药商城+药店+HIS+互联网医院合规商业模式设计（山西首发版）
 type: decision
-status: draft
+status: proposed
+decision_date: '2026-06-18'
 domain:
 - healthcare
 - pharmaceutical-retail
