@@ -1,33 +1,54 @@
 ---
-
 id: skill-三层目标对齐法
-title: 技能：三层目标对齐法
-type: "tool"
-status: draft
+title: "技能：三层目标对齐法"
+type: tool
+status: enriched
 domain:
-- learning-methodology
-- yitang
+  - learning-methodology
+  - yitang
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
-- 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
+  - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[skill-费曼简单提炼法]]'
-- '[[skill-复盘推演法]]'
-- '[[concept-ai-native-organization-five-steps]]'
+  - "[[skill-费曼简单提炼法]]"
+  - "[[skill-复盘推演法]]"
+  - "[[concept-ai-native-organization-five-steps]]"
+related:
+  - "[[skill-费曼简单提炼法]]"
+  - "[[skill-复盘推演法]]"
+  - "[[concept-ai-native-organization-five-steps]]"
+  - "[[skill-立即实践转化法]]"
+  - "[[skill-专题笔记脑图整理法]]"
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+  - 操作步骤清晰可执行
+  - 适用场景有正反例
+  - 工具要求明确
 tools_required:
-- 目标层级图
-- 人生红点定义
-created_at: 2026-06-09
-updated_at: '2026-06-16'
+  - 目标层级图
+  - 人生红点定义
+created_at: "2026-06-09"
+updated_at: "2026-06-17"
 author: 老顽童
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "成为更好的学习者——空洞不可衡量"
+    lens: "目标太虚"
+    follow_up: "目标必须具体到'下季度能独立完成竞品调研报告'，有明确的完成标准和验收条件"
+  - signal: "年度挑战是提升战略思维，每天在学Python教程"
+    lens: "三层断层"
+    follow_up: "每一层必须是上一层的自然延伸，层间断层说明目标体系没有形成逻辑链条"
+  - signal: "确定了年度挑战目标，但没有指定哪些专题/领域要覆盖"
+    lens: "只定高度不定宽度"
+    follow_up: "除了高度（目标层级）外，必须指定宽度（哪些专题/领域要覆盖），否则学习内容散乱"
+  - signal: "把人生红点理解成终身使命，因为太遥远而无法行动"
+    lens: "红点执念"
+    follow_up: "红点是方向不是KPI，提供意义感但不规定具体路径。当下行动只需要对齐到年度挑战即可"
+  - signal: "一年前定的三层目标，现在还在用"
+    lens: "目标过时"
+    follow_up: "每月/每季度检查一次对齐情况，超过3个月没更新可能已经完全不匹配了"
 ---
 # 技能：三层目标对齐法
 
