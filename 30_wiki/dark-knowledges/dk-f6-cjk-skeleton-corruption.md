@@ -24,7 +24,7 @@ pipeline:
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
-trust_level: low
+trust_level: medium
 diagnostic_signals:
 - signal: "ingest 后自动生成的 wiki 骨架中，Summary 或 Reusable Knowledge 段落出现无意义中文碎片，如\"的概和心结提取课特有\""
   framework_lens: "regex 的 `\\b` 词边界对 CJK 字符不生效，extractor 在随机位置切分中文，导致摘要不可读"
