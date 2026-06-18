@@ -3,26 +3,30 @@ id: dk-p11-regex-cutoff
 title: P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
 source_context: pitfalls.md P-11
 source_refs:
 - .agent/pitfalls.md#P-11
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
-updated_at: '2026-06-16'
+updated_at: '2026-06-18'
 related:
 - '[[master-first-principles]]'
 - '[[kdo-yaml-frontmatter-safety]]'
 - '[[dk-f1-regex-on-cjk]]'
+diagnostic_signals:
+- 非空 Draft 被 validate 报告为 "0 words" 或极低字数
+- word count 总是停在文章第一个 `###` 三级标题处
 pipeline:
 - confidence-draft
 - confidence-source-cited
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
 ---
 # P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效
 
@@ -36,6 +40,10 @@ trust_level: low
 > - **临时绕路**：在 `## Draft` 和第一个 `### Part N` 之间插入一段引导文字
 > - **根治**：将正则改为 `(?=^##(?!#)|\Z)` 或 `(?=^##\s|\Z)`——只匹配同级 `## ` heading，不匹配更深级别
 > - **优先级**：P0——阻塞所有文章类artifact的有意义验证
+
+## 核心洞察
+
+基于正则的 Markdown heading 解析器如果只用前缀匹配（`^##`），会把更深级别的标题（`###`）误判为同级标题边界，导致 section 被提前截断。这个 bug 极具隐蔽性：内容看起来完好，但验证/统计结果严重失真。
 
 ## 使用场景
 
@@ -79,6 +87,14 @@ trust_level: low
 - 如果内容中没有三级标题，P-11 不触发——但这在文章中很少见
 - 正则的贪婪/非贪婪模式也可能导致类似截断问题
 
+## 常见失败模式
+
+| 失败模式 | 症状 | 根因 | 修复/绕过 |
+|---|---|---|---|
+| 内容被误报为空 | `kdo validate` 报 "Draft section is empty (0 words)" | regex `(?=^##|\Z)` 把 `###` 当作 section 结束边界 | 改为 `(?=^##(?!#)\|\Z)` 或 `(?=^##\s\|\Z)` |
+| word count 远小于实际 | 1800 字文章只统计到 46 words | section 提取在第一个 `###` 处截断 | 在 `## Draft` 与第一个 `###` 之间插入引导文字临时绕过 |
+| 强制绕过导致数据失真 | 手动改字数或删标题让验证通过 | 未修复 regex，掩盖真实 bug | 修复 regex 并跑全量回归测试 |
+
 ## 为什么值钱
 
 - 这是**手写解析器的经典陷阱**：正则看似正确，但边界条件（`###` 以 `##` 开头）导致灾难性后果
@@ -88,11 +104,7 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- dk-f13-handwritten-yaml-parser — F-KDO-013 和 P-11 是同一类问题：手写解析器在边界条件下失效。YAML 解析器拍扁嵌套结构，regex 解析器截断多级标题
-- dk-p18-yaml-parser — P-18 是 P-11 的姊妹篇：都是"不要手写解析器"的实战教训
-- `90_control/failure-modes.md` → F-KDO-013（手写 YAML 解析器）
-- `.agent/pitfalls.md` → P-11（原始记录）
-
-## 老顽童疑问（2026-06-03）
-
-无疑问，请欧阳锋审查。
+- [[dk-f13-handwritten-yaml-parser]] — F-KDO-013 和 P-11 是同一类问题：手写解析器在边界条件下失效。YAML 解析器拍扁嵌套结构，regex 解析器截断多级标题
+- [[dk-p18-yaml-parser]] — P-18 是 P-11 的姊妹篇：都是"不要手写解析器"的实战教训
+- [[90_control/failure-modes.md]] → F-KDO-013（手写 YAML 解析器）
+- [[.agent/pitfalls.md]] → P-11（原始记录）

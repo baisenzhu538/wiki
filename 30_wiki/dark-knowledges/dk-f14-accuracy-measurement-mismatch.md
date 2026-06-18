@@ -3,32 +3,39 @@ id: dk-f14-accuracy-measurement-mismatch
 title: F-KDO-014：准确率声明的测量口径不一致
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-014
 source_refs:
 - 90_control/failure-modes.md#F-KDO-014
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
-updated_at: '2026-06-16'
+updated_at: '2026-06-18'
 related:
+- '[[dk-p15-claimed-done-not-verified]]'
 - '[[master-decision-hygiene]]'
 - '[[master-ai-info-literacy]]'
 - '[[master-systems-thinking]]'
 pipeline:
-- confidence-draft
+- confidence-enriched
 - confidence-source-cited
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 听到"准确率95%"但追问不出数据集、覆盖维度与计算公式
+- 不同时间/人/场景报告的准确率数字无法复现或相互矛盾
+- 比较两个版本时发现测试集、配置或测量脚本不一致
 ---
+
 # F-KDO-014：准确率声明的测量口径不一致
 
-## 原始表述
+## 原始表述/核心洞察
 
-> **触发条件**：声称某个工具、流程或 AI Agent 的"准确率"时，没有明确测量方法。
+> **原始表述**：在 KDO 项目 failure-modes 中记录为 F-KDO-014——声称某个工具、流程或 AI Agent 的"准确率"时，没有明确测量方法。
 >
 > **表现**：报告中写"准确率 95%"、"错误率 <5%"、"缺失率仅有 2%"——数字看起来很好，但没有人知道这个数字是怎么算出来的。不同人、不同时间、不同场景下的"准确率"完全不可比。
 >
@@ -44,6 +51,8 @@ trust_level: low
 > - **控制变量**：比较两个版本的准确率时，确保数据集、配置、测量脚本完全一致
 >
 > **状态**：Gold Standard 基线已建立，但模式未归档入库。
+
+**核心洞察**："准确率 95%"如果没有附带测量方法、数据集、Gold Standard 和计算口径，就等于没有说。测量结果的价值不在于数字本身，而在于测量过程是否可重复、可验证、可比较。
 
 ## 使用场景
 
@@ -68,6 +77,16 @@ trust_level: low
 - Gold Standard 的建立是成本高的：对于快速迭代的实验性项目，可以先用简化版本，但必须明确说明
 - **"准确率 95%"如果没有测量方法，就等于没有说**——这是底线
 
+## 常见失败模式
+
+| 失败模式 | 典型症状 | 为什么危险 |
+|---|---|---|
+| 无测量方法的准确率声明 | "准确率 95%"但给不出数据集、公式、Gold Standard | 数字无法复现，决策建立在幻觉上 |
+| 跨版本/跨场景直接比较 | 不同数据集、配置、脚本得出的准确率放在一起比 | 看似在比较性能，实则在比较测量条件 |
+| Gold Standard 缺失 | 准确率来自"感觉"或小规模抽样 | 缺少可比对、可审计的客观基准 |
+| 小样本点估计 | 在 <100 样本上报告单一准确率 | 数字不稳定，容易被异常值扭曲 |
+| 把主观正确感当客观准确率 | "我觉得差不多 95%" | 混淆直觉与测量，无法审计 |
+
 ## 为什么值钱
 
 - 这是系统评估中的核心问题：**没有测量方法的数字是毫无意义的**
@@ -77,10 +96,8 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- dk-p15-claimed-done-not-verified — 同一模式："声称了一个没有验证方法的数字"。P-15 是"完工报告中的数字不可信"，F-14 是"准确率声明中的数字不可比"——两者都是"数字需要验证方法才有意义"
-- master-systems-thinking — 系统思维中的"反馈循环"：如果测量方法不一致，反馈循环就会失效——你以为在改进，实际上在比较两个不同的东西
+- [[dk-p15-claimed-done-not-verified]] — 同一模式："声称了一个没有验证方法的数字"。P-15 是"完工报告中的数字不可信"，F-14 是"准确率声明中的数字不可比"——两者都是"数字需要验证方法才有意义"
+- [[master-systems-thinking]] — 系统思维中的"反馈循环"：如果测量方法不一致，反馈循环就会失效——你以为在改进，实际上在比较两个不同的东西
+- [[master-decision-hygiene]] — 决策卫生要求任何影响决策的数字都必须附带来源、方法和置信度
+- [[master-ai-info-literacy]] — AI 信息素养中的"指标批判"：看到准确率声明时，第一反应是追问"怎么测的"而不是"数字有多高"
 - `90_control/failure-modes.md` → F-KDO-014（原始记录）
-
-## 老顽童疑问（2026-05-31）
-
-无疑问，请欧阳锋审查。

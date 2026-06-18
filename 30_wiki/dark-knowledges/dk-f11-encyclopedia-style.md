@@ -3,7 +3,7 @@ id: dk-f11-encyclopedia-style
 title: F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
@@ -11,7 +11,7 @@ source_context: failure-modes.md F-KDO-011
 source_refs:
 - 90_control/failure-modes.md#F-KDO-011
 created_at: 2026-05-31
-updated_at: '2026-06-16'
+updated_at: '2026-06-18'
 related:
 - '[[master-first-principles]]'
 - '[[dk-c8-format-complete-mind-empty]]'
@@ -21,9 +21,12 @@ pipeline:
 - confidence-source-cited
 - confidence-verified-by-case
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 卡片标题或正文出现「XX 的定义」「XX 的分类」「XX 的应用」等百科词条式结构
+- 正文缺少 [Condense]/[Critique]/[Synthesis] 三步编译区块标记
 ---
 # F-KDO-011：百科词条化→概念卡写成定义→分类→特征→应用场景
 
@@ -67,6 +70,16 @@ trust_level: low
 - 百科词条化和表层翻译式提炼（F-KDO-007）经常同时出现——如果检测到其中一个，应同时检查另一个
 - 新 Builder 最容易犯这个错误——需要在入职培训中重点强调
 
+## 常见失败模式
+
+| 失败信号 | 典型表现 | 后果 |
+|---|---|---|
+| 标题是「XX 的定义/分类/应用」 | 卡片按定义→分类→特征→应用场景展开 | 结构完整，但缺少批判性加工 |
+| 缺少 `[Critique]` 区块 | 只有 `[Condense]` 或 `[Synthesis]` | 无法识别边界与反例 |
+| 应用场景被当作知识本身 | 罗列使用场景，未提炼迁移条件 | 新情境下无法复用 |
+| 分类树占主导 | 用分类体系替代核心洞见 | 信息整理≠知识萃取 |
+| 可被直接复制到百度百科 | 内容通用、无攻击者、无个人判断 | 卡片失去 KDO 价值 |
+
 ## 为什么值钱
 
 - **百科词条化和知识萃取是两种完全不同的认知活动**：前者是"整理已有信息"，后者是"加工提炼出新的认知价值"
@@ -76,11 +89,8 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- dk-f7-surface-translation — 交叉模式：百科词条化的卡片往往同时有表层翻译式提炼的 Condense——两者都是"用信息整理替代知识萃取"
-- master-first-principles — 第一性原理：回到"知识卡片的目的"。如果目的是"萃取洞见"，那么百科词条结构就是错误的起点
+- [[dk-f7-surface-translation]] — 交叉模式：百科词条化的卡片往往同时有表层翻译式提炼的 Condense——两者都是"用信息整理替代知识萃取"
+- [[master-first-principles]] — 第一性原理：回到"知识卡片的目的"。如果目的是"萃取洞见"，那么百科词条结构就是错误的起点
+- [[dk-c8-format-complete-mind-empty]] — 同构风险：格式完整≠思维完整，百科词条化是"结构正确但理解缺席"的典型
 - `90_control/failure-modes.md` → F-KDO-011（原始记录）
 - `90_control/AGENTS.md` → 禁止清单 #11（不准用百科词条结构写概念卡）
-
-## 老顽童疑问（2026-05-31）
-
-无疑问，请欧阳锋审查。
