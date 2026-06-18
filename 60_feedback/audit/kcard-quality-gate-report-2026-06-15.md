@@ -2,20 +2,16 @@
 
 **扫描时间**：2026-06-15  
 **扫描范围**：30_wiki 全库 1199 张卡片  
-**P0 阻塞问题卡片**：3 张  
-**P1 修复问题卡片**：23 张  
-**完全干净卡片**：1173 张  
+**P0 阻塞问题卡片**：0 张  
+**P1 修复问题卡片**：21 张  
+**完全干净卡片**：1178 张  
 **YAML 解析错误**：0 张  
 
 ---
 
 ## P0 阻塞问题清单
 
-| 文件 | P0 问题 |
-|---|---|
-| `tools\sk-ai-evidence-check.md` | 缺少 trust_level |
-| `tools\sk-ai-narrative-test.md` | source_refs 为空 |
-| `tools\sk-ai-parallel-validation.md` | source_refs 为空 |
+无 P0 阻塞问题。
 
 ---
 
@@ -44,8 +40,6 @@
 | `frameworks\yt-tob-demand-scenarios.md` | source_refs 为空 |
 | `frameworks\yt-tob-product-kernel.md` | source_refs 为空 |
 | `projects\parking-lot.md` | type 值异常: task-backlog; source_refs 为空 |
-| `tools\sk-ai-prd-for-ai.md` | status 值异常: diagnostic; trust_level=low 但 confidence=0.88 |
-| `tools\tool-ai-skill-engineering-method.md` | trust_level=high 但 source 仅 1 个 |
 
 ---
 

@@ -1,14 +1,14 @@
 ---
-
 id: sk-ai-parallel-validation
 title: 技能：平行运行验证法
-type: "tool"
+type: tool
 status: enriched
 domain:
 - ai-collaboration
 source_person: 马易
 source_context: AI俱乐部-AI落地场景识别分享，2026-06
-source_refs: []
+source_refs:
+- 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
 - '[[sk-ai-landing-five-steps]]'
 - '[[sk-ai-problem-validation]]'

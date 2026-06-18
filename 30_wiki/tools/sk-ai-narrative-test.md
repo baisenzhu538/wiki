@@ -1,14 +1,14 @@
 ---
-
 id: sk-ai-narrative-test
 title: 技能：你的方案有叙事力吗？快速测试
-type: "tool"
+type: tool
 status: enriched
 domain:
 - ai-collaboration
 source_person: 水水
 source_context: 拆书会《偶然》分享，2026-06
-source_refs: []
+source_refs:
+- 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
 - '[[sk-ai-purpose-bias-check]]'
 - '[[yt-pitch-storytelling]]'

@@ -1,15 +1,14 @@
 ---
-
 id: sk-ai-prd-for-ai
 title: 技能：把PRD写成AI能执行的指令
-type: "tool"
-status: diagnostic
+type: tool
+status: enriched
 domain:
 - ai-collaboration
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地分享，2026-06
 source_refs:
-  - 10_raw/sources/src_20260606_90b44191-没有人呀现在.md
+- 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
 - '[[sk-ai-problem-validation]]'
 - '[[prd-as-ai-instruction]]'
@@ -35,7 +34,7 @@ author: 半肥猫
 reviewed_by: 欧阳锋
 review_date: '2026-06-18'
 confidence: 0.88
-trust_level: low
+trust_level: medium
 diagnostic_signals:
 - signal: 原始来源未明确支持"PRD不是给人看的，是给AI看的"及"3-5倍输出质量提升"等核心表述
   framework_lens: source-fidelity

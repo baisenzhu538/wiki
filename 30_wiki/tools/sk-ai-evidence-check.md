@@ -31,6 +31,7 @@ definition_of_done:
 - 操作步骤清晰可执行
 - 适用场景有正反例
 - 工具要求明确
+trust_level: medium
 ---
 # 技能：AI输出证据核查三问法
 
