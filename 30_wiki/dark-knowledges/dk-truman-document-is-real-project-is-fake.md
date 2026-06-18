@@ -9,7 +9,8 @@ domain:
 - personal-growth
 source_person: Truman
 source_context: 一堂知识萃取探索营分享，关于去哪儿产品经理时期建立PRD清单的经验
-source_refs: []
+source_refs:
+- 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
 related:
 - '[[yt-note-checklist-concept]]'
 - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
@@ -21,7 +22,7 @@ updated_at: '2026-06-18'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
-trust_level: low
+trust_level: medium
 diagnostic_signals:
 - source_refs empty: 原始来源未迁移至 10_raw/sources/，溯源链待补
 - trust_level low: 内容基于单次口述分享，缺乏独立验证

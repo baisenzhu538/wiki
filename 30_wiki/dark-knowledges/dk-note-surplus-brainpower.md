@@ -9,7 +9,9 @@ domain:
 - note-taking
 source_person: Truman
 source_context: 一堂-AI时代清单体笔记-Truman-口述-01.txt + 口述-02.txt
-source_refs: []
+source_refs:
+- 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
+- 10_raw/sources/src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02.md
 created_at: '2026-06-07'
 updated_at: '2026-06-18'
 related:

@@ -9,24 +9,19 @@ domain:
 - compliance
 - business-strategy
 source_refs:
-- src_20260613_internet-hospital-business-model-report
-- src_20260613_smart-medicine-cabinet-policy-redlines
-- src_20260613_smart-medicine-cabinet-regional-policy-map
-- src_20260613_smart-medicine-cabinet-distribution
-- src_20260613_smart-medicine-cabinet-o2o-cost-structure
-- src_20260613_clinic-o2o-research
-- src_20260613_internet-hospital-model-research
-- src_20260618_shanxi-drug-retail-management-measures-2026
-- src_20260618_changzhi-medical-institution-smart-cabinet-regulation
-- src_20260618_shanxi-internet-plus-medical-insurance-payment-notice
-- src_20260618_taozi-health-internet-hospital
-- src_20260618_yinye-health-internet-hospital
-- src_20260618_single-cabinet-financial-model
+- "30_wiki/projects/单柜财务测算.json"
+- "https://m.ciopharma.com/supervise/60951"
+- "https://www.changzhi.gov.cn/xxgkml/zfxxgkml/czsrmzf/gzdt_3400/tzgggs/202207/P020220708327821049419.pdf"
+- "https://www.phirda.com/artilce_33315.html"
+- "https://cn.chinadaily.com.cn/a/202605/29/WS6a193fcca310942cc49af01f.html"
+- "https://web.ynye.com/"
+- "https://m.bjnews.com.cn/detail/1715644681129298.html"
+captured_at: '2026-06-18'
 created_at: '2026-06-13'
 updated_at: '2026-06-18'
 author: unknown
 reviewed_by: pending
-confidence: 0.85
+confidence: 0.84
 trust_level: medium
 related:
 - '[[互联网医院项目]]'
@@ -38,7 +33,6 @@ related:
 - '[[smart-medicine-cabinet-o2o-cost-structure]]'
 - '[[互联网医院模式深度调研报告]]'
 - '[[诊所o2o外卖平台业务深度调研报告]]'
-- '[[单柜财务测算]]'
 tags:
 - 鑫港湾
 - 小程序医药商城

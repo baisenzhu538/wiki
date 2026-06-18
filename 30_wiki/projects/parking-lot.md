@@ -1,6 +1,6 @@
 ---
 title: 停车场清单
-type: task-backlog
+type: index
 status: draft
 domain:
 - healthcare
@@ -21,14 +21,15 @@ tags:
 author: unknown
 source_context: KDO internal task tracking
 source_refs:
-- src_20260618_shanxi-drug-retail-management-measures-2026
-- src_20260618_changzhi-medical-institution-smart-cabinet-regulation
-- src_20260618_shanxi-internet-plus-medical-insurance-payment-notice
-- src_20260618_taozi-health-internet-hospital
-- src_20260618_yinye-health-internet-hospital
-- src_20260618_single-cabinet-financial-model
+- "30_wiki/projects/单柜财务测算.json"
+- "https://m.ciopharma.com/supervise/60951"
+- "https://www.changzhi.gov.cn/xxgkml/zfxxgkml/czsrmzf/gzdt_3400/tzgggs/202207/P020220708327821049419.pdf"
+- "https://www.phirda.com/artilce_33315.html"
+- "https://cn.chinadaily.com.cn/a/202605/29/WS6a193fcca310942cc49af01f.html"
+- "https://web.ynye.com/"
+captured_at: '2026-06-18'
 reviewed_by: pending
-confidence: 0.85
+confidence: 0.84
 trust_level: medium
 ---
 
