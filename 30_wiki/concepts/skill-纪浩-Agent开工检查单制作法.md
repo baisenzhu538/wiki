@@ -1,21 +1,43 @@
 ---
-
-
 id: skill-纪浩-Agent开工检查单制作法
-title: 技能：Agent开工检查单制作法
-type: "tool"
+title: "技能：Agent开工检查单制作法"
+type: tool
+status: enriched
 domain:
-- ai-saas
-status: draft
-author: 纪浩
-reviewed_by: pending
-created_at: '2026-06-15'
-confidence: 0.6
-trust_level: low
+  - ai-collaboration
+  - yitang
+source_person: 纪浩
+source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 source_refs:
   - src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01
-source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
-updated_at: '2026-06-16'
+author: 纪浩
+reviewed_by: 欧阳锋
+created_at: "2026-06-15"
+updated_at: "2026-06-17"
+confidence: 0.75
+trust_level: medium
+related:
+  - "[[concept-纪浩-ai-collaboration-methodology]]"
+  - "[[skill-纪浩-AI工作空间与导诊台设计法]]"
+  - "[[skill-纪浩-Do-first-PDCA渐进迭代法]]"
+  - "[[skill-纪浩-日志驱动排查法]]"
+  - "[[skill-纪浩-任务交付物标准化]]"
+diagnostic_signals:
+  - signal: "Agent执行任务时频繁出错，执行失控"
+    lens: "执行失控"
+    follow_up: "先和AI把任务做一遍，记录问题和决策点。把坑提前暴露，生成检查单"
+  - signal: "每次启动相似任务都要重新交代注意事项，效率低下"
+    lens: "重复交代"
+    follow_up: "把历史经验沉淀为检查单，开工前按单执行。隐性经验显性化"
+  - signal: "人工审核检查单时遗漏关键风险点"
+    lens: "审核遗漏"
+    follow_up: "检查单必须包含：输入验证、边界条件、异常处理、输出格式。逐项确认"
+  - signal: "检查单过于冗长，Agent执行时跳过或忽略"
+    lens: "检查单臃肿"
+    follow_up: "检查单控制在10项以内，按优先级排序。关键项必须执行，次要项可选"
+  - signal: "没有历史经验可参考，无法制作检查单"
+    lens: "经验空白"
+    follow_up: "先用Do-first法跑一遍任务，记录问题。没有经验就创造经验，不能跳过第一步"
 ---
 # 技能：Agent开工检查单制作法
 
