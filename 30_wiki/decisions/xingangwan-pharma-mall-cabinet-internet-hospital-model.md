@@ -35,6 +35,7 @@ related:
 - '[[互联网医院模式深度调研报告]]'
 - '[[诊所o2o外卖平台业务深度调研报告]]'
 - '[[shanxi-field-research-checklist-20260701]]'
+- '[[xingangwan-pharma-business-model-formulas]]'
 tags:
 - 鑫港湾
 - 小程序医药商城
