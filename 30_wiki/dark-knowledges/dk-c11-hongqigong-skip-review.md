@@ -3,29 +3,36 @@ id: dk-c11-hongqigong-skip-review
 title: C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: 欧阳锋
 source_context: 2026-05-20
 source_refs:
 - 20_memory/corrections.md#C-11
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
-updated_at: '2026-06-16'
+updated_at: '2026-06-18'
 related:
 - '[[dk-c10-batch-tool-no-dry-run]]'
 - '[[master-decision-hygiene]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
+- format-enriched
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+review_date: '2026-06-18'
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 一个工作 session 内连续完成多个阶段，中间没有任何提报或审查记录
+- '"快速提报"被理解为"不需要提报"，阶段边界处没有停等信号'
+- 审查者刚放行第 N 阶段，发现 N+1、N+2 阶段已经提前跑完
 ---
 # C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过
 
-## 原始表述
+## 原始表述 / 核心洞察
 
 > 视频试点任务 7b-7d，洪七公在 17:54→18:07→18:39 时间窗口内连续产出 Seg 1（10 帧）、Seg 2（7 帧）、Seg 3（14 帧），共 31 帧。三次提报全部缺失，7c 和 7d 在欧阳锋放行 7b 之前就已经完成。
 >
@@ -39,6 +46,8 @@ trust_level: low
 > 关联失败模式：F-KDO-017（已录入 AGENTS.md 禁止清单）
 >
 > 再犯后果：该批次产出全部作废，从违规起点阶段重做
+
+**核心洞察**："快速"和"跳过"在高压、多阶段任务中极易发生语义漂移。流程节点的命名（如"快速提报"）必须配套明确的操作定义，否则执行者会按自己的理解行事；而任何阶段边界如果没有"停等信号"机制，连续执行的惯性必然导致系统性违规。
 
 ## 使用场景
 
@@ -65,6 +74,15 @@ trust_level: low
 - "快速提报"不降低质量标准，只降低审查者的响应延迟要求——你的产出仍然必须合格
 - 再犯后果极其严重：该批次产出全部作废，从违规起点阶段重做。这不是警告，是已经发生过的实际处罚
 
+## 常见失败模式
+
+| 失败模式 | 典型症状 | 根因 | 修复 / 规避 |
+|---|---|---|---|
+| **把"快速提报"当"不用提报"** | 阶段做完后没有提报，直接进入下一阶段 | "快速"一词被理解为"可省略"，缺少明确的操作定义 | 把"快速提报"重新定义为"不阻塞但必须报"，并在 task brief 中写明 |
+| **一个 session 连跑多阶段** | 17 分钟内连续产出三段画面，三次提报全部缺失 | 执行惯性 + 阶段边界缺少强制停等机制 | 规定"一 session 一阶段"，阶段结束必须停下来提报 |
+| **先斩后奏式补提报** | 下一阶段已跑完，再回头补上一阶段的提报 | 把"审批"当成事后确认，而非前置控制点 | 严格"停等信号"：收到放行后再启动下一阶段 |
+| **审查者放行 7b 时发现 7c/7d 已做完** | 后续阶段依赖的输入尚未被批准，却已提前执行 | 对多阶段依赖关系缺乏敬畏，认为"改动不大应该没问题" | 把每个审批节点视为强制 Gate，不论改动大小都必须先批准后执行 |
+
 ## 为什么值钱
 
 - 这是对"快速"一词的**认知偏差误解**：洪七公把"快速提报"理解成了"可以不报"——这种语义漂移在高压工作环境下极易发生
@@ -76,7 +94,7 @@ trust_level: low
 
 - [[dk-c10-batch-tool-no-dry-run]] — 同一深层模式：流程关键节点被跳过导致系统性风险。C-10 是"跳过了 dry-run 验证"，C-11 是"跳过了审批提报"——两者都是"本应人工控制的节点被自动化/惯性跳过"
 - [[master-decision-hygiene]] — 决策卫生的核心原则：关键节点必须有独立评估和停等机制。C-11 的"一段一报、停等信号"就是决策卫生在多人协作流程中的工程实现
-- `90_control/failure-modes.md` → F-KDO-017（已录入 AGENTS.md 禁止清单：不准跳过审批节点连续执行多个阶段）
+- `90_control/AGENTS.md` → F-KDO-017（禁止清单：不准跳过审批节点连续执行多个阶段）
 - `20_memory/corrections.md` → C-11（原始记录）
 
 ## 老顽童疑问（2026-05-31）

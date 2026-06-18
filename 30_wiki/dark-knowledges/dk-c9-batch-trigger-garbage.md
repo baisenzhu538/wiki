@@ -3,29 +3,38 @@ id: dk-c9-batch-trigger-garbage
 title: C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: 欧阳锋
 source_context: Sprint 6 终审发现，2026-05-13
 source_refs:
 - 20_memory/corrections.md#C-9
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
-updated_at: '2026-06-16'
+updated_at: '2026-06-18'
 related:
 - '[[dk-c8-format-complete-mind-empty]]'
 - '[[master-decision-hygiene]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
-author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+- confidence-formatted
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- signal: "query_triggers 中出现章节标题、导航词或 critique 句子，如'与一堂方法论的关系'、'核心定位'、'学习建议'"
+  framework_lens: "脚本把 `### ` 标题当作搜索词，不区分语义；这些词是文章结构标记，不是真实用户搜索意图"
+  follow_up_question: "这条 trigger 是否对应一个真实用户会输入的中文搜索词？如果不会，删除并手动重写"
+- signal: "卡片通过 lint/validate，但 `kdo query` 返回的相关性低，或真 trigger 被淹没在长尾垃圾词中"
+  framework_lens: "格式门禁只检查字段存在性和语法，不检查语义质量；query_triggers 作为 Graph RAG 检索入口，垃圾 trigger 直接降低卡片可发现性"
+  follow_up_question: "抽检 3 张卡的 query_triggers，逐条问'你会这样搜吗？'，有一条不合格就返工"
 ---
 # C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没
 
-## 原始表述
+## 原始表述/核心洞察
 
 > Batches 3-4（entrepreneur + personal 卡）的 `query_triggers` 包含大量无意义的 section headers 和 critique 句子：
 >
@@ -42,13 +51,13 @@ trust_level: low
 > 真正能用的 trigger 只有工具名本身（"融资认知"）——但被淹没在一堆垃圾词里。
 >
 > 根因：脚本规则是"提取所有 `### ` 级标题作为 query_triggers"。这个规则在 panproduct 卡上碰巧可用（标题本身就是方法名："惊喜公式""五要素模型"），但在 entrepreneur/personal 卡上，标题是文章结构标记和 critique 文本——脚本不区分语义，全量灌入。
->
-> 本质是 C-8 的另一个变体：批处理输出在格式上合法（字段非空、格式正确、lint 通过），但语义上是垃圾。格式门禁完全检测不到——只有人读了内容才能判断"这个词不会有人搜"。
->
-> 修正：
-> 1. `query_triggers` 字段**禁止脚本自动提取**。必须手动写 5-10 个真实用户会输入的中文搜索词
-> 2. 验证方法：欧阳锋抽检 3 张卡，每条 trigger 问"你会这样搜吗？"——有一条答不上来就返工
-> 3. 关联原则：见 `operating-principles.md` 第 7 条
+
+核心洞察：
+
+- **格式合法 ≠ 语义可用**：字段非空、格式正确、lint 通过，只能说明语法没报错，不能说明这些词有人搜。
+- **`query_triggers` 是 Graph RAG 的检索入口**：trigger 垃圾化意味着用户搜不到这张卡，卡片等于不存在。
+- **脚本不能替代对用户搜索意图的模拟**：写 trigger 必须站在真实用户角度想"我会怎么搜"，而不是"文章里有什么标题"。
+- **C-9 是 C-8 的深层变体**：C-8 是内容空洞，C-9 是 trigger 垃圾——两者都是"脚本填满了字段，但字段里没有价值"。
 
 ## 使用场景
 
@@ -56,10 +65,11 @@ trust_level: low
 - 你审查卡片时发现 triggers 里充斥着"核心定位""关联卡片""学习建议"这类导航词
 - 你设计自动化管线时，需要决定哪些 frontmatter 字段可以脚本生成、哪些必须人工写
 - 你使用 `kdo query` 检索卡片时发现返回结果相关性差，需要排查是否是 trigger 质量问题
+- 你给旧卡片做质量审计，需要快速识别 trigger 是否被脚本污染
 
 ## 操作方法
 
-1. **禁止脚本自动提取 query_triggers**：这个字段必须**手动写**，任何"提取 ### 标题""提取关键词""提取标签"的脚本都不准碰这个字段
+1. **禁止脚本自动提取 query_triggers**：这个字段必须**手动写**，任何"提取 `###` 标题""提取关键词""提取标签"的脚本都不准碰这个字段
 2. **模拟真实搜索场景**：想象一个需要这张卡的用户，他会输入什么中文搜索词？聚焦在**工具名、方法名、场景描述、痛点关键词**
 3. **写 5-10 个真实搜索词**：
    - ✅ 合格：`惊喜公式`、`峰值体验设计`、`用户留存率提升方法`
@@ -69,11 +79,23 @@ trust_level: low
 
 ## 适用边界
 
-- 适用于所有需要写 `query_triggers` 的 **KDO 知识卡片**
-- **不适用于标签/分类的自动生成**：标签（tags）可以用脚本辅助生成，因为标签是结构化分类，不需要模拟用户搜索意图
-- 如果卡片是结构化数据（如配置模板、代码片段）而非知识内容，trigger 的写法标准不同——此时 trigger 可以是字段名或技术术语
-- 理解门禁的抽检率是底线要求，不能替代"人工写 triggers"的质量——抽检只能发现问题，不能保证写得好的 trigger 覆盖面足够
-- 多语言卡片（中英混合）需要为每种语言写对应的搜索词，不能只写一种
+| 边界 | 说明 |
+|:-----|:------|
+| ✅ 适用 | 所有需要写 `query_triggers` 的 **KDO 知识卡片** |
+| ❌ 不适用 | 标签/分类的自动生成：标签是结构化分类，不需要模拟用户搜索意图 |
+| 特殊场景 | 结构化数据卡片（配置模板、代码片段）的 trigger 可以是字段名或技术术语 |
+| 抽检约束 | 理解门禁的抽检率是底线要求，不能替代"人工写 triggers"的质量——抽检只能发现问题，不能保证覆盖面 |
+| 多语言约束 | 多语言卡片（中英混合）需要为每种语言写对应的搜索词，不能只写一种 |
+
+## 常见失败模式
+
+| 失败模式 | 典型症状 | 根因 | 修复动作 |
+|---|---|---|---|
+| 章节标题混入 triggers | triggers 包含"与一堂方法论的关系""核心定位"等 | 脚本提取 `### ` 标题时不做语义过滤 | 删除，改写成真实搜索词 |
+| critique 句子当 trigger | "从知道到做到的鸿沟""方法论的前提假设需要检验" | 脚本把 critique 文本当作关键词 | 删除，聚焦方法名/痛点词 |
+| 导航词填充 | "关联卡片""学习建议""适用边界"出现在 triggers 中 | 为凑字段数量，用结构标签充数 | 全部删除，每条 trigger 必须通过"你会这样搜吗"测试 |
+| 真 trigger 被淹没 | 有用的工具名/方法名混在一堆垃圾词里 | 没有 prioritization 或 manual curation | 人工精选 5-10 条，把真 trigger 置顶 |
+| 抽检流于形式 | 审查者看一眼就过，没有逐条验证 | 缺少"你会这样搜吗"的硬性规则 | 随机抽 3 张卡，每条 trigger 必须能给出真实搜索场景 |
 
 ## 为什么值钱
 

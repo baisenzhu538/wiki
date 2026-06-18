@@ -3,31 +3,40 @@ id: dk-c10-batch-tool-no-dry-run
 title: C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: 欧阳锋
 source_context: Sprint 6 终审发现，2026-05-20
 source_refs:
 - 20_memory/corrections.md#C-10
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
-updated_at: '2026-06-16'
+updated_at: '2026-06-18'
 related:
 - '[[dk-c8-format-complete-mind-empty]]'
 - '[[master-decision-hygiene]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
+- confidence-reviewed
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 工具改动后直接 --batch --write
+- dry-run 单卡 diff 未逐字段核对
+- validator PASS 后未人工读正文
+- 旧格式/新格式兼容未验证
 ---
 # C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空
 
-## 原始表述
+## 原始表述/核心洞察
 
 > 黄药师交付了 `kdo scaffold`，老顽童直接跑 `kdo scaffold --batch B --write` 对 71 张卡批量操作。结果：scaffold 的 `_count_external_attacks` 只认 `## Critique` H2 节，不认旧格式 `## Framework Gallery` 下的 `### 外部攻击*`。71 张旧格式卡被判定为 atk_count=0 → 生成空壳 `## Critique` 覆盖。Taleb、Snowden、Kahneman、Hayek、Kohn、Illich 等 ~140 个精心研究的攻击段落全部丢失。但更可怕的是：`kdo validate --v15` 给空壳卡打了 PASS——validator 只查 H4 标题存在不查内容。Pass 54→58 是假象。
+
+核心洞察：**任何会修改正文内容的自动化工具，必须先单卡验证、再批量执行；validator 通过不等于内容安全**。C-10 是三重漏洞叠加——工具缺陷（旧格式不兼容）+ 流程缺陷（无 dry-run）+ 校验缺陷（validator 打假 PASS）——但流程缺陷是第一道防线，单卡 dry-run 本可以阻止后续两个漏洞被触发。
 
 ## 使用场景
 
@@ -51,6 +60,15 @@ trust_level: low
 - 不适用于只读操作（audit、lint、validate、query）
 - 即使工具"只是加字段""只是修格式"，也必须走流程——C-10 的 scaffold 也只是"加 Critique section"，结果覆盖了已有内容
 
+## 常见失败模式
+
+| 失败模式 | 典型信号 | 根因 | 修复动作 |
+|---|---|---|---|
+| 跳过 dry-run 直接批量写入 | 工具改动后立刻跑 `--batch --write` | 误以为"只是加字段/修格式"不会破坏正文 | 新工具或改动后，先在 1 张卡上 `--dry-run` 并核对 diff |
+| 把 validator PASS 当安全证明 | `kdo validate` 绿灯即放行 | validator 只查字段/标题存在，不查语义或内容完整性 | 人工读一遍单卡正文，确认关键段落未被覆盖或清空 |
+| 旧格式兼容未验证 | 新工具只认新 H2，旧格式 H3/H4 内容被忽略 | 解析逻辑未覆盖历史格式或边缘结构 | dry-run 时故意挑 1 张旧格式卡，检查其 diff 是否正常 |
+| 批量权限缺乏审批/复核 | 单个人即可对大批量卡片执行 `--write` | 缺少分级管控或双人复核机制 | 批量写入前增加审批节点，关键域引入双人复核 |
+
 ## 为什么值钱
 
 - 这是 KDO 历史上最严重的内容破坏事故——71 张卡、~140 个攻击段落、一次操作全部丢失
@@ -63,5 +81,5 @@ trust_level: low
 
 - [[dk-c8-format-complete-mind-empty]] — 同一模式的另一个变体：批处理输出格式合法但内容空洞
 - [[master-decision-hygiene]] — C-10 的"先单卡后批量"本质上就是决策卫生 Step 3（独立评估）的工程实现
-- `90_control/failure-modes.md` → F-KDO-014（不准擅自运行批量写入命令）
-- `20_memory/corrections.md` → C-10（原始记录）
+- `90_control/failure-modes.md#F-KDO-014` → 不准擅自运行批量写入命令
+- `20_memory/corrections.md#C-10` → C-10（原始记录）

@@ -3,35 +3,43 @@ id: dk-c5-todo-false-positive
 title: C-5：TODO 字符串匹配过宽→正文中的 TODOs/TODOable 被误报为占位符
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: Builder
 source_context: 2026-05-03
 source_refs:
 - 20_memory/corrections.md#C-5
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
-updated_at: '2026-06-16'
+updated_at: '2026-06-18'
 related:
 - '[[dk-c4-selfcheck-superseded]]'
 - '[[master-cognitive-bias-checklist]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
+- confidence-reviewed
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 自检报告将 "TODOs"、"TODOable" 等普通词汇标为 TODO 占位符
+- TODO 检测规则使用 `if "TODO" in line` 等子串匹配
+- 告警数量持续高于实际待办项数量
 ---
 # C-5：TODO 字符串匹配过宽→正文中的 TODOs/TODOable 被误报为占位符
 
-## 原始表述
+## 原始表述/核心洞察
 
 > 正文中出现 `TODO` 字符串（如"TODOs"、"TODOable"）被误报为"有 TODO 占位符"。
 >
 > 根因：使用粗粒度字符串匹配 `if "TODO" in line`。
 >
 > 修正：已修复。改为 `"TODO:"` 精确匹配（含冒号）。
+
+核心洞察：**占位符检测必须匹配指令标记的精确边界，而不是关键字的子串出现**。`TODO:`（带冒号的待办指令）与 `TODOs`/`TODOable`（普通词汇）在语义上完全不同；将两者混为一谈会系统性降低告警可信度，引发告警疲劳。
 
 ## 使用场景
 
@@ -58,6 +66,16 @@ trust_level: low
 - 不同语言/工具的字符串边界行为不同（如 Python 的 `in` 是子串匹配，正则的 `\b` 是单词边界）——实现前必须确认当前语言的行为
 - 如果占位符标记采用了其他格式（如 `[TODO]`、`{{TODO}}`），匹配规则需要相应调整，但原则不变：精确匹配 > 子串匹配
 
+## 常见失败模式
+
+| 失败模式 | 典型信号 | 根因 | 修复动作 |
+|---|---|---|---|
+| 子串匹配误报 | 正文中 "TODOs"、"TODOable" 被标红 | 使用 `if "TODO" in line` 粗粒度匹配 | 改为 `"TODO:"` 精确匹配或正则边界 |
+| 边界假设错误 | 认为所有含 TODO 子串的都是占位符 | 未区分"指令占位符"与"普通词汇" | 建立"冒号+上下文"的判定标准 |
+| 修复后漏报真阳性 | 真正的 `TODO:` 占位符不再被捕获 | 过度收紧规则（如要求前后空格） | 用 `TODO:` 精确匹配保留对标准格式的召回 |
+| 代码块示例误报 | 展示 `# TODO: fix this` 的代码块被标红 | 精确匹配未排除代码块/注释上下文 | 增加上下文判断或排除代码块 |
+| 告警疲劳导致忽略真问题 | 审查者因大量假阳性而关闭/忽略报告 | 假阳性率超过人类容忍阈值 | 先修规则降低噪音，再恢复审查纪律 |
+
 ## 为什么值钱
 
 - 粗粒度字符串匹配是脚本中最常见、最隐蔽的错误来源之一，但"TODO 子串匹配误报"这个具体案例只有 KDO 的 self-check 才会遇到
@@ -70,7 +88,3 @@ trust_level: low
 - [[dk-c4-selfcheck-superseded]] — 同一模式：自检工具的匹配规则缺陷导致假阳性。C-4 是 skip 集合缺失，C-5 是字符串匹配过宽——两者共同构成"self-check 报告不可信"的风险
 - [[master-cognitive-bias-checklist]] — 认知偏差中的"告警疲劳"（Alarm Fatigue）：当假阳性率超过阈值，人类会系统性忽略所有告警。C-4 和 C-5 叠加时，self-check 机制形同虚设
 - `20_memory/corrections.md` → C-5（原始记录）
-
-## 老顽童疑问（2026-05-31）
-
-无疑问，请欧阳锋审查。
