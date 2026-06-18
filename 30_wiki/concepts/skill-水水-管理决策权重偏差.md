@@ -1,39 +1,56 @@
 ---
-
-
+---
 id: skill-水水-管理决策权重偏差
-title: 技能：管理决策权重偏差
-type: "tool"
-status: draft
+title: "技能：管理决策权重偏差"
+type: tool
+status: enriched
 domain:
-- decision-making
+  - decision-making
 source_person: 水水
-source_context: 拆书会-偶然 （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
-wiki_refs:
-- '[[yt-decision-y-model]]'
-- '[[master-decision-hygiene]]'
-- '[[master-cognitive-bias-checklist]]'
-definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 有真实失败案例
-tools_required:
-- 决策矩阵（纸笔或电子表格）
-- 外部咨询（信任的朋友/导师）
-related:
-- '[[master-decision-hygiene]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[yt-decision-y-model]]'
-created_at: 2026-06-07
-updated_at: '2026-06-16'
-reviewed_by: 黄药师
-confidence: 0.8
-pipeline:
-- confidence-source-cited
-author: unknown
-trust_level: medium-high
+source_context: 拆书会-偶然
 source_refs:
-- source_unknown
+  - source_unknown
+wiki_refs:
+  - "[[yt-decision-y-model]]"
+  - "[[master-decision-hygiene]]"
+  - "[[master-cognitive-bias-checklist]]"
+related:
+  - "[[master-decision-hygiene]]"
+  - "[[master-cognitive-bias-checklist]]"
+  - "[[yt-decision-y-model]]"
+  - "[[skill-decision-delay-intuition]]"
+  - "[[skill-decision-outside-view]]"
+definition_of_done:
+  - 操作步骤清晰可执行
+  - 适用场景有正反例
+  - 有真实失败案例
+tools_required:
+  - 决策矩阵（纸笔或电子表格）
+  - 外部咨询（信任的朋友/导师）
+created_at: "2026-06-07"
+updated_at: "2026-06-17"
+reviewed_by: 欧阳锋
+confidence: 0.85
+pipeline:
+  - confidence-source-cited
+author: 老顽童
+trust_level: medium-high
+diagnostic_signals:
+  - signal: "列出决策因素但权重分配明显偏向短期收益"
+    lens: "权重偏差"
+    follow_up: "执行三次独立分配权重：直觉版/年长者版/十年后版，取中位数校准"
+  - signal: "做了分析但最后还是凭直觉选"
+    lens: "分析替代直觉"
+    follow_up: "分析的价值不在替代直觉而在让直觉被充分检视，只要发现之前没看到的偏见就有价值"
+  - signal: "直觉版、年长版、十年后版权重几乎相同"
+    lens: "视角切换失败"
+    follow_up: "第三次（十年后）时先闭眼10秒，真正想象自己老了十岁的生活状态，再开始加权"
+  - signal: "只列了3-4个显而易见的因素，遗漏隐性因素"
+    lens: "因素遗漏"
+    follow_up: "强制至少列出8个因素，不够8个去看别人做类似决策时考虑了哪些因素"
+  - signal: "薪资和意义感被强行放在同一个1-10量表上衡量"
+    lens: "不可通约量化"
+    follow_up: "对于truly hard choices，不要试图用权重计算，而是问'我想成为什么样的人'"
 ---
 # 技能：管理决策权重偏差
 
@@ -59,18 +76,33 @@ source_refs:
 
 5. **记录决策时的权重分配**：把最终权重写下来，标注日期。6 个月或 1 年后回看——"我当时认为最重要的 3 个因素，现在看还是最重要的吗？"这个回看本身就是偏差校准训练。
 
-## 适用场景
+## Constraints & Boundaries
 
-- 职业选择（换工作、转行、创业 vs 打工）
-- 投资决策（买房、大额投资、创业投入）
-- 重大人生决定（搬家、结婚、生育）
-- 团队资源分配（多个项目抢资源时的优先级排序）
+### 适用边界
 
-## 不适用场景
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 职业选择（换工作、转行、创业 vs 打工） |
+| ✅ 适合 | 投资决策（买房、大额投资、创业投入） |
+| ✅ 适合 | 重大人生决定（搬家、结婚、生育） |
+| ✅ 适合 | 团队资源分配（多个项目抢资源时的优先级排序） |
+| ❌ 不适合 | 日常微决策（今天吃什么、穿什么） → 权重分配成本超过收益 |
+| ❌ 不适合 | 纯技术决策（选A还是B有客观指标） → 用数据而不是权重 |
+| ❌ 不适合 | 紧急决策（10分钟内必须决定） → 没时间走五步流程 |
+| ❌ 不适合 | 不可通约的价值观冲突（薪资 vs 意义感） → 强行量化制造偏差 |
 
-- 日常微决策（今天吃什么、穿什么）——权重分配的成本超过收益
-- 纯技术决策（选 A 方案还是 B 方案有客观指标可量化）——用数据而不是权重
-- 紧急决策（必须在 10 分钟内做决定）——没时间走五步流程
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **权重偏差** | 列出决策因素但权重分配明显偏向短期收益 | 执行三次独立分配权重：直觉版/年长者版/十年后版，取中位数校准 |
+| **分析替代直觉** | 做了分析但最后还是凭直觉选 | 分析的价值不在替代直觉而在让直觉被充分检视，只要发现偏见就有价值 |
+| **视角切换失败** | 直觉版、年长版、十年后版权重几乎相同 | 第三次时先闭眼10秒，真正想象自己老了十岁的生活状态，再开始加权 |
+| **因素遗漏** | 只列了3-4个显而易见的因素，遗漏隐性因素 | 强制至少列出8个因素，不够8个去看别人做类似决策时考虑了哪些因素 |
+| **不可通约量化** | 薪资和意义感被强行放在同一个1-10量表上衡量 | 对于truly hard choices，不要试图用权重计算，而是问"我想成为什么样的人" |
+| **外部视角污染** | 找了一个和你想法一致的朋友来"验证"权重 | 明确要求朋友："请至少找出一个我给得太高或太低的因素"，找不出来就换人 |
+| **时间距离失效** | 25岁的人难以想象35岁的自己，时间距离法无效 | 年龄<28岁时，用"年长者版"替代"十年后版"，找35+的朋友做外部视角 |
+| **因素屏蔽偏差** | 大脑自动屏蔽与直觉结论相悖的因素 | 先列出所有因素再排序，不要边列边筛选；用外部视角检查遗漏 |
 
 ## 工具/环境
 
