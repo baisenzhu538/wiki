@@ -1,31 +1,51 @@
 ---
-
 id: skill-纪浩-Agent技能市场设计法
-title: 技能：Agent技能市场设计法
-type: "tool"
-status: draft
+title: "技能：Agent技能市场设计法"
+type: tool
+status: enriched
 domain:
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - yitang
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
-- 00_inbox/纪浩-AI协作方法论-口述.md
-- 00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md
-tools_required: Web平台或内部系统、Skill封装规范
+  - 00_inbox/纪浩-AI协作方法论-口述.md
+  - 00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-结构化.md
+tools_required:
+  - Web平台或内部系统
+  - Skill封装规范
 prerequisite_skills: skill-纪浩-Do-first-PDCA渐进迭代法
 related:
-- '[[concept-纪浩-ai-collaboration-methodology]]'
-- '[[case-纪浩-from-zip-to-five-layers]]'
-created_at: 2026-06-08
-updated_at: '2026-06-16'
+  - "[[concept-纪浩-ai-collaboration-methodology]]"
+  - "[[case-纪浩-from-zip-to-five-layers]]"
+  - "[[skill-纪浩-Do-first-PDCA渐进迭代法]]"
+  - "[[skill-纪浩-AI工作空间与导诊台设计法]]"
+  - "[[skill-纪浩-真需求四要素验证法]]"
+created_at: "2026-06-08"
+updated_at: "2026-06-17"
 pipeline:
-- confidence-draft
-- confidence-source-cited
+  - confidence-draft
+  - confidence-source-cited
 author: 纪浩
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "设计成人用的应用商店，Agent无法自动消费"
+    lens: "人Agent混淆"
+    follow_up: "平台必须提供给Agent的API接口，不是给人的UI。Agent能自动搜索、下载、安装、上报"
+  - signal: "分类是为了人好看，Agent在大量Skill中盲目搜索"
+    lens: "分类错配"
+    follow_up: "分类基于任务类型和能力范围，不是品牌或场景。目的是路由不是导航"
+  - signal: "人填写Skill信息，结果不规范不完整"
+    lens: "信息人工化"
+    follow_up: "让人用自然语言告诉AI需求，AI自动生成标准化的Skill描述和元信息"
+  - signal: "没有反馈闭环，维护者不知道Skill真实使用情况"
+    lens: "反馈缺失"
+    follow_up: "Agent使用后自动上报效果数据，维护者通过反馈判断质量，决定更新或下架"
+  - signal: "团队只有1-2个Agent和3-5个Skill，不是市场是共享文件夹"
+    lens: "市场幻觉"
+    follow_up: "真正的市场需要供给、需求、信任、发现。数量不够时先用Git仓库或共享文件夹"
 ---
 # 技能：Agent技能市场设计法
 

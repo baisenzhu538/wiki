@@ -4349,8 +4349,52 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 
 ### 进度
 
-- [ ] 批次 1：建模工具/层级（8 张）
-- [ ] 批次 2：建模暗知识与 AI 协作（7 张）
-- [ ] 批次 3：案例卡（8 张）
-- [ ] 批次 4：笔记/一堂概念与工具（7 张）
-- [ ] 全库门禁复核 + 写小结
+- [x] 批次 1：建模工具/层级（8 张）
+- [x] 批次 2：建模暗知识与 AI 协作（7 张）
+- [x] 批次 3：案例卡（8 张）
+- [x] 批次 4：笔记/一堂概念与工具（7 张）
+- [x] 全库门禁复核 + 写小结
+
+---
+
+## 第二十四节小结：再精修 30 张 draft 卡完成
+
+**完成时间**：2026-06-18  
+**最终质量门禁**：`total=1195, p0=0, p1=19, clean=1176, yaml_error=0`
+
+### 精修清单（30 张，status 均为 enriched）
+
+| 批次 | 主题 | 卡片数 | 卡片 ID |
+|:---|:---|:---:|:---|
+| 1 | 建模工具/层级 | 8 | `modeling-level-map`、`tool-binary-quadrant-modeling`、`tool-canvas-weapon-library-modeling`、`tool-checklist-cheatsheet-modeling`、`tool-funnel-formula-modeling`、`tool-iceberg-triangle-modeling`、`tool-radar-chart-modeling`、`tool-sabc-tier-modeling` |
+| 2 | 建模暗知识与 AI 协作 | 7 | `dk-modeling-model-arsenal-paradigms`、`dk-modeling-radar-model-not-result`、`dk-modeling-ai-cross-validation`、`dk-modeling-ai-iterative-prompting`、`dk-modeling-ai-self-retrospection`、`dk-modeling-case-explosion-confidence`、`dk-modeling-expert-consensus-five-percent` |
+| 3 | 案例卡 | 8 | `case-ai-assisted-review`、`case-child-drawing-rhyme`、`case-course-milestone-model`、`case-essence-education-strategy`、`case-essence-entrepreneurship`、`case-essence-humanity-trap`、`case-nine-pm-livestream-survey`、`case-thousand-people-square` |
+| 4 | 笔记/一堂概念与工具 | 7 | `skill-note-keyword-bolding`、`skill-note-layer-constraint`、`skill-note-one-line-one-point`、`yt-note-five-levels-training`、`yt-note-l4-internalization`、`yt-note-l6-extraction`、`yt-note-live-field-skill` |
+
+### 主要改进点
+
+- **工具卡形成模型武器库网络**：批次 1 的 8 张工具卡彼此互链，并向上关联 `modeling-weapon-library`、`modeling-three-stages`、`modeling-level-map` 等中枢卡，构成“段位图→武器库→单模型工具”的调用链。
+- **建模暗知识系列化**：批次 2 围绕“AI 辅助建模”主题，形成从交叉验证、迭代提示、自我复盘到专家共识的暗知识闭环。
+- **案例卡补齐可迁移模式**：批次 3 的 8 张案例卡在保留原有 Background/What Happened/关键证据的基础上，统一补全了 用一句话讲清楚、可迁移模式、失败模式表、行动 Checklist，使案例从“故事”升级为“可复用的判断素材”。
+- **笔记工具链打通**：批次 4 围绕 Truman 的清单体笔记训练，把关键词加粗、分层约束、一行一点、L4/L6 内化、现场笔记技能串成一条从输入到内化的技能链。
+- **source_refs 规范化**：无法追溯的笔记卡统一指向 `10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md`；建模系列统一指向 Truman 建模培训来源。
+- **质量门禁稳定**：本批次未新增 P0/P1，P1=19 仍为基线 draft/source 缺失卡。
+
+### 域间自检三问
+
+1. **案例够了吗？**
+   - 本批次案例卡从 0 到 8 张，覆盖教育、创业、用户研究、直播调研、广场管理等领域，但缺少与建模工具卡直接配套的“建模实战案例”。建议下一批补充 3-5 张以“工具→案例”结构呈现的 case 卡。
+
+2. **暗知识在哪里？**
+   - 最突出的跨批次暗知识：**模型不是答案，模型是提问的脚手架**。这在 dk-modeling-radar-model-not-result、dk-modeling-ai-cross-validation、dk-modeling-ai-iterative-prompting 中反复出现。
+   - 第二条暗知识：**清单体笔记的约束（分层、一行一点、关键词加粗）不是格式洁癖，而是为了把大脑的“线性输出”压缩成“可检索、可对话”的结构**。这在笔记技能链中形成共识。
+
+3. **这些案例/框架有共同模式吗？**
+   - 跨批次共同模式：**“工具→信号→失败模式→ checklist”四层结构**。无论是建模工具、案例还是笔记技能，都遵循这一结构。
+   - 第二个共同模式：**从“知道”到“用到”需要显式的边界声明**。本批次所有卡都增加了“边界/不适用场景”章节，避免用户把工具当成万能钥匙。
+
+### 后续建议
+
+- 下一批优先补齐“建模工具→实战案例”桥接卡和“一堂五步法”缺失步骤卡。
+- 检查 `related` 字段中仍指向不存在的 `yt-note-checklist-concept` 的卡片，统一修正或创建该卡。
+- 继续监控 P1=19 的基线 draft 卡，择机集中处理 source 缺失问题。

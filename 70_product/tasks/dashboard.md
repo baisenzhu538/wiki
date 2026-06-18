@@ -9,7 +9,7 @@ Generated: 2026-06-15T15:00:00+00:00
 | section-22-30-cards | 第二十二节 30 张卡深度精修 | A- 通过 | 老顽童 | P0 | section-22-laowantong-acceptance-2026-06-17.md |
 | section-22-source-cleanup | 第二十二节：13 张卡 source_refs 残留清理 | done | 老顽童 | P1 | section-22-laowantong-acceptance-2026-06-17.md |
 | section-23-30-cards | 第二十三节：精修池 30 张 draft 卡深度精修 | A 通过 | 老顽童 | P0 | section-23-laowantong-acceptance-2026-06-18.md |
-| section-24-30-cards | 第二十四节：再精修 30 张 draft 卡 | in_progress | 老顽童 | P0 | laowantong-next-tasks.md |
+| section-24-30-cards | 第二十四节：再精修 30 张 draft 卡 | A 通过 | 老顽童 | P0 | laowantong-next-tasks.md |
 | kf-021-cleanup-content-cards | KF-021 收尾：33 张 content 卡 source 缺失处理 | done | 老顽童 | P1 | laowantong-next-tasks.md |
 | kf-021-cleanup-meta-pages | KF-021 收尾：清理 index / log 元页面 source_refs | done | 老顽童 | P2 | laowantong-next-tasks.md |
 | quality-gate-automation-v15 | 质量门自动化 — kdo validate --v15 | pending | 黄药师 | P1 | quality-gate-automation-v15.md |
@@ -38,6 +38,6 @@ Generated: 2026-06-15T15:00:00+00:00
 ## Summary
 
 - **Total**: 24
-- **Done**: 9
-- **In Progress**: 1
+- **Done**: 10
+- **In Progress**: 0
 - **Pending**: 2
