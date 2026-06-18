@@ -79,7 +79,9 @@ total=1197, p0=0, p1=19, clean=1178, yaml_error=0
 | 问题 | 影响 | 修复动作 |
 |:---|:---|:---|
 | 批次 4 中 3 张笔记卡 source_refs 为空 | 触发 P0：status=enriched 且 source_refs=[] | 统一补充 `10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md` |
+| 批次 1 中 5 张工具卡缺少 `diagnostic_signals` | 不符合 v1.5 结构要求 | 补齐 3 条对象格式 diagnostic_signals：`tool-binary-quadrant-modeling`、`tool-funnel-formula-modeling`、`tool-iceberg-triangle-modeling`、`tool-radar-chart-modeling`、`tool-sabc-tier-modeling` |
 | `skill-note-keyword-bolding` 原 related 含不存在的 `yt-note-checklist-concept` | 潜在 dangling 链接 | enrich 时自动替换为存在的 `dk-note-surplus-brainpower` |
+| 验收扫描发现 2 处历史 dangling 链接 | P1 异常升高 | `skill-ai-problem-question-check` 修正链接 ID；`skill-一堂-business-prediction-15-char` 移除指向 `_archive` 的 related 链接 |
 
 ### 4.2 修复后复核
 
@@ -108,17 +110,19 @@ total=1197, p0=0, p1=19, clean=1178, yaml_error=0
 
 ## 六、总体验收结论
 
-**结论：A 通过**
+**结论：A- 通过**
 
 - 30 张目标卡全部达到 enriched 状态，元数据、结构、来源、互链均合规。
-- 全库质量门禁 P0=0，YAML 错误=0。
+- 全库质量门禁 P0=0，YAML 错误=0；修复后 P1 回到基线 19。
 - 抽检 8 张卡平均等级 A-，无 C 级卡片。
 - 按要求产出 2 张高质量跨域 dk 卡。
+- 验收中发现 5 张工具卡缺少 `diagnostic_signals`，已返工补齐。
 
 **扣分项 / 改进空间**：
 
 1. 部分工具卡仍停留在 B 级（结构化完整但缺少新增 case 或模式提炼），下一批内容精修 5 张/批时应优先把 B 级工具卡推向 A 级。
 2. 3 张笔记卡 initial source_refs 为空，说明 agent 对“无法追溯来源”的处理已按规则执行，但父代理应在批量启动前为高价值卡预分配最接近的来源，减少事后补救。
+3. 部分卡片的 `diagnostic_signals` 仍使用字符串格式而非对象格式，建议下一批统一按 `signal/framework_lens/follow_up_question` 对象格式清洗。
 
 ---
 

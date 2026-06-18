@@ -3,8 +3,8 @@
 **扫描时间**：2026-06-15  
 **扫描范围**：30_wiki 全库 1197 张卡片  
 **P0 阻塞问题卡片**：0 张  
-**P1 修复问题卡片**：21 张  
-**完全干净卡片**：1176 张  
+**P1 修复问题卡片**：19 张  
+**完全干净卡片**：1178 张  
 **YAML 解析错误**：0 张  
 
 ---
@@ -23,8 +23,6 @@
 | `cases\yt-lean-daily-chemical-mvp.md` | source_refs 为空 |
 | `cases\yt-lean-flower-mom-group-leader.md` | source_refs 为空 |
 | `concepts\knowledge-error-self-exposure.md` | source_refs 为空 |
-| `concepts\skill-ai-problem-question-check.md` | dangling 链接: skill-ai-landing-scene-selection |
-| `concepts\skill-一堂-business-prediction-15-char.md` | dangling 链接: case-一堂-奶茶店创业-business-prediction, concept-一堂-business-prediction, dk-一堂-p-type-vs-l-type |
 | `concepts\yt-lean-daily-probability-decision.md` | source_refs 为空 |
 | `concepts\yt-lean-essence.md` | source_refs 为空 |
 | `concepts\yt-tob-cash-flow.md` | source_refs 为空 |

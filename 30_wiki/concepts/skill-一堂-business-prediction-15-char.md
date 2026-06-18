@@ -18,9 +18,7 @@ prerequisite_skills:
   - concept-一堂-business-prediction
 related:
   - "[[skill-一堂-spectrum-positioning]]"
-  - "[[concept-一堂-business-prediction]]"
-  - "[[dk-一堂-p-type-vs-l-type]]"
-  - "[[case-一堂-奶茶店创业-business-prediction]]"
+  - "[[yt-concept-p-type-l-type]]"
   - "[[skill-一堂-hypothesis-validation-three-axe]]"
 wiki_refs:
   - "[[skill-一堂-spectrum-positioning]]"

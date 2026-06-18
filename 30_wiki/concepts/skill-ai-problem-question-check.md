@@ -15,10 +15,9 @@ wiki_refs:
   - "[[ai-landing-scene-selection]]"
 related:
   - "[[skill-ai-four-elements-validation]]"
-  - "[[skill-ai-landing-scene-selection]]"
+  - "[[ai-landing-scene-selection]]"
   - "[[skill-纪浩-真需求四要素验证法]]"
   - "[[dk-ai-judgment-human-responsibility]]"
-  - "[[skill-ai-problem-question-check]]"
 definition_of_done:
   - 每次提问前能3秒内分类
   - 分类准确率>80%（自我评估）
