@@ -1,11 +1,12 @@
 ---
 updated: 2026-06-18
 active_branch: main
-active_task: "KF-021+第二十二节source_refs清理全部完成；全库P0=0,P1=18(预期draft空source),clean=1175。待分配下轮任务。"
+active_task: "第二十三节30张draft卡精修A通过；第二十四节已启动，当前2个P0待修复。"
 blockers:
   - "王语嫣角色正式升级AGENTS.md"
-  - "231张draft精修池→分配老顽童下轮精修"
-next_session_hint: "用户说'继续'→ ① 王语嫣角色正式升级；② 231 draft精修池分配；③ 决策域深度研究下轮推进；④ KF-022 decisions域lint修复排期"
+  - "老顽童第二十四节收尾：修复skill-note-layer-constraint和skill-note-one-line-one-point的P0空source_refs"
+  - "KF-022 decisions域lint修复（84 errors）"
+next_session_hint: "用户说'继续'→ ① 王语嫣角色正式升级；② 老顽童第二十四节收尾；③ KF-022排期；④ 决策域深度研究下轮推进"
 ---
 
 ## 2026-06-12 变更
