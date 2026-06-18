@@ -3,32 +3,36 @@ id: dk-note-surplus-brainpower
 title: “剩余脑力”：高阶笔记的唯一货币与分水岭
 type: dark-knowledge
 dark_knowledge_type: insight
-status: draft
+status: enriched
 domain:
 - yitang
 - note-taking
 source_person: Truman
 source_context: 一堂-AI时代清单体笔记-Truman-口述-01.txt + 口述-02.txt
-source_refs:
-- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
-- 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
-created_at: 2026-06-07
-updated_at: '2026-06-16'
+source_refs: []
+created_at: '2026-06-07'
+updated_at: '2026-06-18'
 related:
 - '[[yt-note-five-levels-training]]'
 - '[[dk-note-maximum-common-divisor]]'
 - '[[dk-note-rookie-disaster-veteran-heaven]]'
-pipeline:
-- confidence-draft
-- confidence-source-cited
+- '[[yt-note-live-field-skill]]'
 author: 老顽童
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+review_date: '2026-06-18'
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- signal: 学习了很多高阶笔记技巧，但一进入真实场景就只能“跟上”不能“超前”
+  framework_lens: 基本功未内化导致CPU满载，没有剩余脑力执行高阶操作
+  follow_up_question: 在不使用AI辅助的情况下，你能否独立完成一次全程记录且留出30%脑力用于思考？
+- signal: 团队用AI做笔记后，成员记录速度变快，但现场判断和建模能力没有提升
+  framework_lens: AI节省的时间没有转化为剩余脑力，而是转化为“认知低保”
+  follow_up_question: 当内容复杂度提升或AI不可用时，团队是否还能保持高阶思考？
 ---
 # “剩余脑力”：高阶笔记的唯一货币与分水岭
 
-## 原始表述
+## 核心洞察
 
 > "剩余脑力啊，注意这四个字，剩余脑力啊，这是今天的主题词之一。"
 >
@@ -39,6 +43,8 @@ trust_level: low
 > "所有的高段位都是来自于低段位的剩余脑力。"
 >
 > "因为能力是一点点累积上来的，它是靠剩余脑力做出来的。不是靠所谓AI一做，你就一做就行了，它非常复杂。"
+
+Truman的核心判断：**高阶笔记能力的唯一货币不是记录速度、不是排版美观，而是“剩余脑力”——当你把基本功练到自动化后，释放出来的那部分认知资源，才是你进行提问、整理、排序、建模、交叉验证的原材料。** 没有剩余脑力，所有高阶技巧都是纸上谈兵；有了剩余脑力，低段位的能力会自然溢出到高段位。
 
 ## 使用场景
 
@@ -74,6 +80,16 @@ trust_level: low
 - **个体差异**：剩余脑力的"绝对值"因人而异。有些人天生工作记忆容量大，有些人需要更长的练习周期。**不要与他人比较绝对值，要与自己比较进步**。
 - **警惕"假性剩余脑力"**：有些人觉得自己"记得很快，还有时间刷手机"，误以为这是剩余脑力。但可能只是内容太简单了。真正的剩余脑力测试：当内容复杂度提升时，你还能不能保持超前思考？
 - **时间窗口**：剩余脑力不会永远持续。一般人的高度注意力时间约25-45分钟。在这个时间窗口内，剩余脑力最充足。超过这个时间，即使是高手也会出现认知疲劳。
+
+## 常见失败模式
+
+| 失败模式 | 典型症状 | 纠偏动作 |
+|:-----|:------|:------|
+| 把"记得快"当成"有剩余脑力" | 记录速度提升，但闭眼复述时讲不出结构，更提不出自己的问题 | 做"闭眼复述测试"：复述内容必须比原文更有结构才算达标 |
+| 基本功不牢时强上高阶技巧 | 尝试建模、交叉验证，但关键信息遗漏严重，笔记支离破碎 | 退回L1-L2反复训练，直到记录过程自动化 |
+| 用AI替代记录导致"脑力吃低保" | AI记笔记后自己不再实时思考，复杂度一升就崩盘 | 人用AI做整理，但实时判断、提问、排序必须由人完成 |
+| 把"内容简单"误判为"剩余脑力充足" | 简单内容游刃有余，复杂内容立刻超载 | 用渐进复杂度的材料做压力测试，找到真实边界 |
+| 追求形式完美消耗剩余脑力 | 过度关注排版、标签、分类，反而没有脑力做深度加工 | 先抓结构和判断，形式优化放在记录完成后 |
 
 ## 为什么值钱
 

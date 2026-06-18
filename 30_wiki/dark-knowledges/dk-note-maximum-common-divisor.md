@@ -1,33 +1,38 @@
 ---
 id: dk-note-maximum-common-divisor
-title: 清单体是人与AI的'最大公约数'：结构降级即认知升级
+title: "清单体是人与AI的'最大公约数'：结构降级即认知升级"
 type: dark-knowledge
 dark_knowledge_type: insight
-status: draft
+status: enriched
 domain:
 - yitang
 - note-taking
 source_person: Truman
-source_context: 一堂-AI时代清单体笔记-Truman-口述-01.txt
+source_context: 一堂-AI时代清单体笔记-Truman-口述-01
 source_refs:
-- 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
+- 10_raw/sources/src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01.md
 created_at: 2026-06-07
-updated_at: '2026-06-16'
+updated_at: '2026-06-18'
 related:
 - '[[yt-note-checklist-concept]]'
 - '[[yt-note-ai-human-division]]'
 - '[[dk-note-surplus-brainpower]]'
+- '[[dk-note-rookie-disaster-veteran-heaven]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
+- confidence-enriched
 author: 老顽童
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 仅依赖单一口述来源，未经过跨来源或实验数据验证
+- "显著更好"等效果描述来自主观对比，缺乏量化指标（token消耗、准确率、迭代轮数）
 ---
 # 清单体是人与AI的"最大公约数"：结构降级即认知升级
 
-## 原始表述
+## 原始表述 / 核心洞察
 
 > "它也许是目前人类使用和AI使用，这个最完美的最大公约数。"
 >
@@ -36,6 +41,8 @@ trust_level: low
 > 清单体对人类：没有语法、没有心理负担、协作简单、无缝迁移。对AI：结构化、逻辑层级、去分化、边界清晰，可以**极大降低token，减少幻觉**。
 >
 > "笔记本质上其实是AI大脑和人类大脑之间效率最高甚至损耗最低的一个接口。"
+
+**核心洞察**：当同一套内容需要同时被人类和AI消费时，"结构降级"（长文→清单体）非但没有损失认知，反而成为认知升级的关键杠杆——它同时满足人类易读与AI易解析，是当下人与AI协作的"最大公约数"格式。
 
 ## 使用场景
 
@@ -60,6 +67,16 @@ trust_level: low
 - **前提条件**：清单体化需要人先理解内容。你不能让AI直接把长文转成清单体就完事——那相当于把"理解"也外包了，你永远练不出来。
 - **警惕"清单体原教旨主义"**：不是所有内容都值得清单体化。Truman 自己强调"清单体不是神，它只是一个相对务实通用的中频手段"。
 - **AI能力边界**：清单体能降低幻觉，但不能消除幻觉。复杂推理类任务，清单体只是辅助，最终判断仍需人类。
+
+## 常见失败模式
+
+| 失败模式 | 典型表现 | 根因 | 修正方法 |
+|:---|:---|:---|:---|
+| 把清单体当成"少写字" | 砍掉关键判断，保留大量修饰和重复论证 | 误将"结构降级"理解为"内容降级" | 明确保留逻辑骨架和关键判断，只砍冗余 |
+| 让AI直接把长文转成清单体 | 人未理解内容，直接外包给AI处理 | 把"理解"也外包，丧失基本功训练 | 人先理解、再清单体化；AI仅作辅助 |
+| 在所有内容上强行清单体化 | 文学、品牌文案变得干巴巴、失去灵魂 | 忽视适用边界，把中频手段当万能药 | 区分结构化内容与修辞/情感类内容 |
+| 清单体化后不再验证AI输出 | 误以为格式对了就消除幻觉，盲信结果 | 混淆"降低幻觉"与"消除幻觉" | 做对比实验，关键判断仍需人类复核 |
+| 组织强推标准但成员基本功不足 | 新人连"好清单体"都判断不了，规范流于形式 | 忽视"剩余脑力"和段位前提 | 先建立基本功训练，再推广清单体化规范 |
 
 ## 为什么值钱
 
