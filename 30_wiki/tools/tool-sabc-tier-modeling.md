@@ -31,6 +31,16 @@ tags:
 - '#method/evaluation-method'
 - '#tier'
 - '#method/decision-framework'
+diagnostic_signals:
+  - signal: S 级事项过多（超过 3 个或几乎所有事项都被标为 S）
+    framework_lens: SABC 分级——S 级是“必须亲自盯、不做会出大事”的稀缺档位
+    follow_up_question: 如果强制把 S 级压缩到 3 个以内，哪些事项可以降级为 A/B，降级标准是什么？
+  - signal: 列表里只有 S/A/B，没有 C 级
+    framework_lens: SABC 分级——C 级代表“可做可不做，资源紧时直接砍掉”
+    follow_up_question: 在资源受限的前提下，哪件事如果现在明确不做，对结果影响最小？
+  - signal: 分级/段位标准模糊，只有“重要”“精通”等不可观察的形容词
+    framework_lens: 段位图与 SABC 标准——每一档必须用“能做什么 + 典型产出”定义
+    follow_up_question: 这一级/档对应的具体行为、产出或可验证标准是什么，谁能一眼判断是否达标？
 ---
 # SABC分级/段位图建模法：给事物排优先级与成长路径
 

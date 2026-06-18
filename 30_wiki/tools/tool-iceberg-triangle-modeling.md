@@ -30,6 +30,16 @@ tags:
 - '#iceberg'
 - '#content-format/framework'
 - '#chunk-type/synthesis'
+diagnostic_signals:
+  - signal: 模型只描述水面上的事件，问题反复出现却治标不治本
+    framework_lens: iceberg-visible-vs-hidden
+    follow_up_question: 水面下的行为、模式、结构、信念中，哪一层真正在维持这个现象？
+  - signal: 三角图被硬凑成三个好听词，去掉一角系统仍成立
+    framework_lens: triangle-oversimplification
+    follow_up_question: 这三个要素之间是否真实相互支撑？去掉任意一个，系统真的会崩塌吗？
+  - signal: 冰山层级过多或边界模糊，讨论在不同层次间跳来跳去
+    framework_lens: iceberg-level-confusion
+    follow_up_question: 当前这一层的证据是什么？它与上一层、下一层的因果或支撑关系是否清晰？
 ---
 # 冰山图/三角图建模法：从表象深挖结构与本质
 

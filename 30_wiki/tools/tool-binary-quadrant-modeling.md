@@ -29,6 +29,16 @@ tags:
 - '#method/thinking-tool'
 - '#content-format/framework'
 - '#method/knowledge-engineering'
+diagnostic_signals:
+- signal: 团队强行把连续或复杂问题塞进 2×2 象限
+  framework_lens: binary-quadrant-modeling
+  follow_up_question: 这个议题是否真的适合用两个离散维度分类？中间态/边界案例如何处理？
+- signal: 讨论中只关注“落在哪个象限”，却不验证坐标轴定义是否成立
+  framework_lens: binary-quadrant-modeling
+  follow_up_question: 两个维度是否相对独立、可判断，且与决策直接相关？
+- signal: 把象限名称当成固定标签，认为同一象限内所有对象策略相同
+  framework_lens: binary-quadrant-modeling
+  follow_up_question: 每个象限是否对应了清晰且差异化的行动策略？
 ---
 # 二分法/象限图建模法：用正交维度做分类与取舍
 

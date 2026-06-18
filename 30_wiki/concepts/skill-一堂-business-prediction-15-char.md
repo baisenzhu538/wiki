@@ -1,35 +1,54 @@
 ---
-
 id: skill-一堂-business-prediction-15-char
-title: 技能：商业预判15字诀
-type: "tool"
-status: draft
+title: "技能：商业预判15字诀"
+type: tool
+status: enriched
 domain:
-- product
-- yitang
+  - product
+  - yitang
 source_person: Truman
 source_context: 一堂商业预判课
 source_refs:
-- 00_inbox/一堂-商业预判课-Truman-口述.txt
-- 00_inbox/一堂-商业预判课-truman-笔记.txt
+  - 00_inbox/一堂-商业预判课-Truman-口述.txt
+  - 00_inbox/一堂-商业预判课-truman-笔记.txt
 tools_required:
-- 纸笔或文档工具
-- 行业报告或公开数据（可选）
+  - 纸笔或文档工具
+  - 行业报告或公开数据（可选）
 prerequisite_skills:
-- concept-一堂-business-prediction
+  - concept-一堂-business-prediction
 related:
-- '[[skill-一堂-spectrum-positioning]]'
+  - "[[skill-一堂-spectrum-positioning]]"
+  - "[[concept-一堂-business-prediction]]"
+  - "[[dk-一堂-p-type-vs-l-type]]"
+  - "[[case-一堂-奶茶店创业-business-prediction]]"
+  - "[[skill-一堂-hypothesis-validation-three-axe]]"
 wiki_refs:
-- '[[skill-一堂-spectrum-positioning]]'
-created_at: 2026-06-10
-updated_at: '2026-06-16'
+  - "[[skill-一堂-spectrum-positioning]]"
+created_at: "2026-06-10"
+updated_at: "2026-06-17"
 pipeline:
-- confidence-draft
-- confidence-source-cited
+  - confidence-draft
+  - confidence-source-cited
 author: 老顽童
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "想做点生意但没有定义中局，最终选项池混乱"
+    lens: "目标模糊"
+    follow_up: "必须先写保A争B，否则不做加法。没有中局定义，加减法都会失去坐标"
+  - signal: "只拆了3-5个选项就开始排除，错过更优路径"
+    lens: "加法不足"
+    follow_up: "强制要求每个维度至少10个选项。加法的目标不是找正确答案，是确保没有遗漏高概率选项"
+  - signal: "将可克服的挑战误判为致命缺陷，过早排除潜力方向"
+    lens: "困难硬伤混淆"
+    follow_up: "硬伤的标准是即使投入最优资源也无法解决。困难可以克服，硬伤不能"
+  - signal: "选了正确的行业和商业模式，但团队核心能力不匹配"
+    lens: "团队硬伤忽视"
+    follow_up: "团队硬伤必须诚实面对，不能靠学习能力掩盖。核心能力不匹配是致命缺陷"
+  - signal: "主选项失败后没有替代方案，被迫继续投入"
+    lens: "Plan B缺失"
+    follow_up: "Plan B必须在开始前就确定，不能临时想。Plan B不是后备，是计划的一部分"
 ---
 # 技能：商业预判15字诀
 
@@ -52,18 +71,33 @@ trust_level: low
 4. **保留3-5个高概率选项** — 通过减法后，保留没有硬伤且与团队能力匹配的3-5个选项。为每个选项制定最小验证计划，确定优先级排序
 5. **制定Plan B和退出标准** — 为主选项设定"验证失败即切换"的明确标准（如"3个月内无法验证单店盈利则切换到选项2"）。Plan B不是后备，是计划的一部分
 
-## 适用场景
+## Constraints & Boundaries
 
-- ✅ 准备创业或启动新项目前的系统性预判
-- ✅ 现有业务遇到瓶颈，需要评估是否继续投入
-- ✅ 投资决策前对创业项目做结构化评估
-- ✅ 职业转型或副业选择时的方向筛选
+### 适用边界
 
-## 不适用场景
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 准备创业或启动新项目前的系统性预判 |
+| ✅ 适合 | 现有业务遇到瓶颈，需要评估是否继续投入 |
+| ✅ 适合 | 投资决策前对创业项目做结构化评估 |
+| ✅ 适合 | 职业转型或副业选择时的方向筛选 |
+| ❌ 不适合 | 时间窗口极窄的紧急机会 → 来不及走完完整流程 |
+| ❌ 不适合 | 高度依赖个人品牌的创意型项目 → 如独立艺术家、作家 |
+| ❌ 不适合 | 已有强约束条件的项目 → 如家族业务传承、政策指定方向 |
+| ❌ 不适合 | 颠覆性创新探索 → 15字诀的减法逻辑可能系统性地排除反直觉机会 |
 
-- ❌ 时间窗口极窄的紧急机会（来不及走完15字诀完整流程）
-- ❌ 高度依赖个人品牌的创意型项目（如独立艺术家、作家）
-- ❌ 已有强约束条件的项目（如家族业务传承、政策指定方向）
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **目标模糊** | 想做点生意但没有定义中局，最终选项池混乱 | 必须先写保A争B，否则不做加法。没有中局定义，加减法都会失去坐标 |
+| **加法不足** | 只拆了3-5个选项就开始排除，错过更优路径 | 强制要求每个维度至少10个选项。加法的目标不是找正确答案，是确保没有遗漏高概率选项 |
+| **困难硬伤混淆** | 将可克服的挑战误判为致命缺陷，过早排除潜力方向 | 硬伤的标准是即使投入最优资源也无法解决。困难可以克服，硬伤不能 |
+| **团队硬伤忽视** | 选了正确的行业和商业模式，但团队核心能力不匹配 | 团队硬伤必须诚实面对，不能靠学习能力掩盖。核心能力不匹配是致命缺陷 |
+| **Plan B缺失** | 主选项失败后没有替代方案，被迫继续投入 | Plan B必须在开始前就确定，不能临时想。Plan B不是后备，是计划的一部分 |
+| **规划谬误** | 定中局时系统性地低估困难、高估能力，产生虚假安全感 | 定中局后做压力测试：如果最优资源减半，保A还能实现吗？ |
+| **选择过载** | 选项池扩大到30-100个，决策者陷入分析瘫痪 | 分阶段筛选：先粗筛到20个，再细筛到10个，最后减法到3-5个。不要一次性面对100个选项 |
+| **静态分析** | 硬伤判定基于当前环境，忽视技术和市场的动态变化 | 定期Review硬伤清单（每季度），技术突破可能让原来的硬伤不再是硬伤 |
 
 ## 工具/环境
 

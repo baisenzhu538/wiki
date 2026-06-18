@@ -29,6 +29,16 @@ tags:
 - '#content-format/concept-card'
 - '#method/evaluation-method'
 - '#content-format/formula'
+diagnostic_signals:
+- signal: 只关注总转化率，忽略阶段间最大跌落点
+  framework_lens: 漏斗图建模
+  follow_up_question: 哪一步的阶段间转化率最低、绝对流失人数最多？
+- signal: 公式变量过多，失去行动指导意义
+  framework_lens: 公式建模
+  follow_up_question: 能否把变量精简到3-5个，并识别出可干预的杠杆变量？
+- signal: 没有数据支撑就套用公式或画漏斗图
+  framework_lens: 数据驱动建模
+  follow_up_question: 每个阶段/变量是否有对应的埋点、数据来源和验证计划？
 ---
 # 漏斗图/公式建模法：量化流程与关键变量
 

@@ -31,6 +31,16 @@ tags:
 - '#content-format/radar-chart'
 - '#method/evaluation-method'
 - '#method/decision-framework'
+diagnostic_signals:
+  - signal: 维度选择偏差
+    framework_lens: 建模 / 维度设计
+    follow_up_question: 当前雷达图的维度是否经过团队共识，还是隐含了某个人的偏好或遗漏了关键反例维度？
+  - signal: 评分主观性
+    framework_lens: 决策框架 / 评分标准
+    follow_up_question: 每个维度的分数是否有可观察的行为定义，还是仅靠个人印象打分？
+  - signal: 不可比项目被硬比较
+    framework_lens: 抽象建模 / 边界判断
+    follow_up_question: 这些候选对象是否面向同一评估目标，维度是否真正覆盖它们之间的关键差异？
 ---
 # 雷达图建模法：多维度评估与筛选
 
