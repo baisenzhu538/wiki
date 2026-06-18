@@ -1,30 +1,50 @@
 ---
-
 id: skill-纪浩-Do-first-PDCA渐进迭代法
-title: 技能：Do-first PDCA渐进迭代法
-type: "tool"
-status: draft
+title: "技能：Do-first PDCA渐进迭代法"
+type: tool
+status: enriched
 domain:
-- ai-collaboration
-- yitang
+  - ai-collaboration
+  - yitang
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
-- 00_inbox/纪浩-AI协作方法论-口述.md
-tools_required: 纸笔或文档、迭代记录方式
+  - 00_inbox/纪浩-AI协作方法论-口述.md
+tools_required:
+  - 纸笔或文档
+  - 迭代记录方式
 prerequisite_skills: skill-纪浩-真需求四要素验证法
 related:
-- '[[concept-纪浩-ai-collaboration-methodology]]'
-- '[[case-纪浩-from-zip-to-five-layers]]'
-created_at: 2026-06-08
-updated_at: '2026-06-16'
+  - "[[concept-纪浩-ai-collaboration-methodology]]"
+  - "[[case-纪浩-from-zip-to-five-layers]]"
+  - "[[skill-纪浩-真需求四要素验证法]]"
+  - "[[skill-纪浩-AI工作空间与导诊台设计法]]"
+  - "[[skill-纪浩-Agent技能市场设计法]]"
+created_at: "2026-06-08"
+updated_at: "2026-06-17"
 pipeline:
-- confidence-draft
-- confidence-source-cited
+  - confidence-draft
+  - confidence-source-cited
 author: 纪浩
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "第一步就想做完美，永远开不了工"
+    lens: "完美主义启动"
+    follow_up: "第一版必须在30分钟内交付，不求完美。目标不是做好，是做出来"
+  - signal: "检查点一下子加太多，AI被检查点埋没"
+    lens: "检查过载"
+    follow_up: "每次检查迭代只增加2-3个检查点，逐步扩展不要一次性追求完美"
+  - signal: "只检查不记录，同样的错误反复犯"
+    lens: "记录缺失"
+    follow_up: "每个检查点和纠偏方案必须记录在案，记录是迭代的基础"
+  - signal: "不成熟的流程被固化，后面发现问题修改成本更高"
+    lens: "规模化过早"
+    follow_up: "规模化前必须验证可复现至少3次，不稳定的流程不要封装成Skill"
+  - signal: "在错误方向上迭代，检查纠偏都在加深错误"
+    lens: "方向错误"
+    follow_up: "四要素验证作为前置门禁，确保Do的方向大致正确。方向错误时停下来重新验证"
 ---
 # 技能：Do-first PDCA渐进迭代法
 
@@ -43,18 +63,33 @@ trust_level: low
 7. **验证可复现（Check-3）**——用同样的输入再跑一遍，看结果是否一致。如果不一致，说明规范还有漏洞
 8. **规模化（Act-3）**——把稳定的流程封装成Skill或模板，供其他任务复用。记录使用场景和限制条件
 
-## 适用场景
+## Constraints & Boundaries
 
-- 让AI执行一个从未做过的新任务时
-- AI产出第一版后不满意，但不知道如何改进
-- 需要把AI的临时操作变成可复用的流程时
-- 自己也不知道"完美方案"是什么样子时（需要在做中学习）
+### 适用边界
 
-## 不适用场景
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 让AI执行从未做过的新任务，不知道从哪里开始 |
+| ✅ 适合 | AI产出第一版后不满意，需要系统改进 |
+| ✅ 适合 | 需要把AI临时操作变成可复用流程 |
+| ✅ 适合 | 自己也不知道完美方案，需要在做中学习 |
+| ❌ 不适合 | 已有标准SOP的重复任务 → 直接按SOP执行效率更高 |
+| ❌ 不适合 | 时间紧迫、不容迭代的一次性任务 → 迭代空间不足 |
+| ❌ 不适合 | 失败成本极高的任务 → 第一步Do可能造成不可逆损失 |
+| ❌ 不适合 | 方向完全不明 → 四要素验证未通过，Do-first可能南辕北辙 |
 
-- 已有标准操作流程的重复任务（直接按SOP执行）
-- 时间紧迫、不容迭代的一次性任务
-- 失败成本极高的任务（如线上生产环境的变更）
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **完美主义启动** | 第一步就想做完美，永远开不了工 | 第一版必须在30分钟内交付，不求完美。目标不是做好，是做出来 |
+| **检查过载** | 检查点一下子加太多，AI被检查点埋没 | 每次检查迭代只增加2-3个检查点，逐步扩展不要一次性追求完美 |
+| **记录缺失** | 只检查不记录，同样的错误反复犯 | 每个检查点和纠偏方案必须记录在案，记录是迭代的基础 |
+| **规模化过早** | 不成熟的流程被固化，后面发现问题修改成本更高 | 规模化前必须验证可复现至少3次，不稳定的流程不要封装成Skill |
+| **方向错误** | 在错误方向上迭代，检查纠偏都在加深错误 | 四要素验证作为前置门禁，确保Do的方向大致正确。方向错误时停下来重新验证 |
+| **症状修补** | 一次次修复具体错误，不触及深层系统性缺陷 | 定期做系统思考：这些错误背后是否有深层结构问题？ |
+| **行动混乱** | 行动清单混乱，重要不重要混在一起随机消耗精力 | 先收集和清理任务清单，再Do。GTD原则：收集→清理→执行 |
+| **时间失控** | 迭代次数过多，时间成本超出预期 | 设定迭代上限（如最多5轮），超时则重新评估需求真实性 |
 
 ## 工具/环境
 

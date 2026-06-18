@@ -1,37 +1,56 @@
 ---
-
-
 id: skill-ai-problem-question-check
-title: 技能：Problem vs Question 区分法
-type: "tool"
-status: draft
+title: "技能：Problem vs Question 区分法"
+type: tool
+status: enriched
 domain:
-- AI
-- 决策
+  - ai-collaboration
+  - yitang
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论-口述，2026-06-06
 source_refs:
   - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
 wiki_refs:
-- '[[ai-collaboration-mindset-shift]]'
-- '[[ai-landing-scene-selection]]'
+  - "[[ai-collaboration-mindset-shift]]"
+  - "[[ai-landing-scene-selection]]"
+related:
+  - "[[skill-ai-four-elements-validation]]"
+  - "[[skill-ai-landing-scene-selection]]"
+  - "[[skill-纪浩-真需求四要素验证法]]"
+  - "[[dk-ai-judgment-human-responsibility]]"
+  - "[[skill-ai-problem-question-check]]"
 definition_of_done:
-- 每次提问前能3秒内分类
-- 分类准确率>80%（自我评估）
-- 能说出"这道题是problem还是question"
+  - 每次提问前能3秒内分类
+  - 分类准确率>80%（自我评估）
+  - 能说出"这道题是problem还是question"
 tools_required:
-- 无（纯思维工具）
+  - 无（纯思维工具）
 prerequisite_skills: null
-related: null
-created_at: 2026-06-11
-updated_at: '2026-06-16'
+created_at: "2026-06-11"
+updated_at: "2026-06-17"
 tags: []
 pipeline:
-- None
-reviewed_by: laowantong
+  - None
+reviewed_by: 欧阳锋
 author: 纪浩
-confidence: 0.7
-trust_level: low
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "所有问题都是question，没有真实业务场景"
+    lens: "纯学习心态"
+    follow_up: "先找一个微型项目，用项目驱动提问。没有problem的question是token浪费"
+  - signal: "太纠结分类，反而不敢问，陷入paralysis"
+    lens: "分类焦虑"
+    follow_up: "设定question预算（最多3个），允许有限的好奇心。分类是为了行动不是为了完美"
+  - signal: "把研究问题当成question，忽视研究本身需要产出"
+    lens: "研究错配"
+    follow_up: "判断标准是是否有交付物而非是否有趣。研究问题也是problem，需要before/after"
+  - signal: "完全拒绝question，忽视question是problem的前置任务"
+    lens: "前置缺失"
+    follow_up: "记录question并关联到具体problem。完全拒绝question会治标不治本"
+  - signal: "分类后没有后续行动，problem也停留在认知层面"
+    lens: "分类即终点"
+    follow_up: "分类只是第一步，problem必须进入四要素验证或立即行动。分类不行动等于没分类"
 ---
 # 技能：Problem vs Question 区分法
 

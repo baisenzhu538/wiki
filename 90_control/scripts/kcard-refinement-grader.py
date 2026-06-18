@@ -15,18 +15,27 @@ ROOT = Path(__file__).resolve().parent.parent.parent
 WIKI = ROOT / "30_wiki"
 DIRS = ["concepts","frameworks","tools","cases","dark-knowledges","entities"]
 
-# Depth signals: content refinement indicators
+# Depth signals: content refinement indicators (type-aware)
 DEPTH_PATTERNS = [
+    # Universal signals
     (r"\d+[%％]\s*(?:vs|对比|基准|benchmark)", 2, "data_comparison"),
-    (r"(?:进入标准|Entry Criteria|适用条件|触发条件)", 2, "entry_criteria"),
-    (r"(?:操作步骤|Protocol|Procedure|执行步骤|操作方法)", 2, "protocol"),
-    (r"(?:失败模式|常见误区|反模式|不要用)", 2, "failure_modes"),
-    (r"(?:案例|Case|真实.*例)", 2, "case_content"),
-    (r"(?:检查清单|checklist|Checklist|自查)", 2, "checklist"),
-    (r"(?:可迁移|跨域|跨场景|通用化)", 2, "transferable"),
     (r"(?:Burn line|核心洞察|一句话定义)", 1, "burn_line"),
+    (r"(?:可迁移|跨域|跨场景|通用化)", 2, "transferable"),
+    # Framework/concept depth: structured insight
+    (r"(?:##\s*(?:模式|Pattern|原则|Principle)\s*[一二三四五\d])", 2, "structured_patterns"),
     (r"(?:##\s*Critique|##\s*Constraints|##\s*Open Questions)", 1, "critique_section"),
     (r"(?:攻击者|Scholar|学者.*质疑|外部.*视角)", 2, "external_attacks"),
+    (r"(?:进入标准|Entry Criteria|适用条件|触发条件)", 2, "entry_criteria"),
+    # Tool/checklist depth: actionable steps
+    (r"(?:操作步骤|Protocol|Procedure|执行步骤|操作方法|操作)", 2, "protocol"),
+    (r"(?:检查清单|checklist|Checklist|自查|清单)", 2, "checklist"),
+    (r"(?:踩坑|常见误区|反模式|不要用|安装步骤)", 2, "failure_modes"),
+    # Case depth: real examples
+    (r"(?:案例|Case|真实.*例|原始表述)", 2, "case_content"),
+    # Entity depth: risk markers + verification
+    (r"(?:风险标记|待核实|已验证|已交叉验证|🟢|🟡|🔴)", 2, "risk_verification"),
+    # Dark-knowledge: original insight + boundary
+    (r"(?:原始表述|核心洞察|边界条件|失效场景)", 2, "dk_insight"),
 ]
 
 def grade_card(filepath: Path) -> dict:

@@ -1,12 +1,12 @@
 ---
 updated: 2026-06-18
 active_branch: main
-active_task: "第二十三节30张draft卡精修A通过；第二十四节已启动，当前2个P0待修复。"
+active_task: "第二十四节30张draft卡精修A-通过；P0已清零；剩余5张卡需补diagnostic_signals后关门。"
 blockers:
   - "王语嫣角色正式升级AGENTS.md"
-  - "老顽童第二十四节收尾：修复skill-note-layer-constraint和skill-note-one-line-one-point的P0空source_refs"
+  - "老顽童返工第二十四节5张卡diagnostic_signals"
   - "KF-022 decisions域lint修复（84 errors）"
-next_session_hint: "用户说'继续'→ ① 王语嫣角色正式升级；② 老顽童第二十四节收尾；③ KF-022排期；④ 决策域深度研究下轮推进"
+next_session_hint: "用户说'继续'→ ① 王语嫣角色正式升级；② 老顽童第二十四节返工；③ KF-022排期；④ draft分级处理（409张低价值draft降级/归档）"
 ---
 
 ## 2026-06-12 变更
