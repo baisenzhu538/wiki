@@ -1,39 +1,56 @@
 ---
-
 id: skill-半肥猫-边学边练边沉淀的AI学习法
-title: 技能：边学边练边沉淀的 AI 学习法
-type: "tool"
-status: draft
+title: "技能：边学边练边沉淀的 AI 学习法"
+type: tool
+status: enriched
 domain:
-- ai-collaboration
-- learning
+  - ai-collaboration
+  - learning
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
-- 00_inbox/半肥猫-AI学习落地-口述.md
+  - 00_inbox/半肥猫-AI学习落地-口述.md
 tools_required:
-- AIGC大模型
-- 真实业务项目
-- 文档沉淀工具
+  - AIGC大模型
+  - 真实业务项目
+  - 文档沉淀工具
 prerequisite_skills:
-- skill-半肥猫-追问AI证据并标注信源
-- skill-半肥猫-将学习成果沉淀为PRD文档
+  - skill-半肥猫-追问AI证据并标注信源
+  - skill-半肥猫-将学习成果沉淀为PRD文档
 related:
-- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
-- '[[case-半肥猫-conversion-hacker-skill]]'
-- '[[dk-半肥猫-silky-answer-warning]]'
-- '[[dk-半肥猫-skill-rejection-value]]'
-- '[[concept-纪浩-ai-collaboration-methodology]]'
-created_at: 2026-06-07
-reviewed_by: laowantong
-updated_at: '2026-06-16'
+  - "[[concept-半肥猫-ai-learning-toolification-methodology]]"
+  - "[[case-半肥猫-conversion-hacker-skill]]"
+  - "[[dk-半肥猫-silky-answer-warning]]"
+  - "[[dk-半肥猫-skill-rejection-value]]"
+  - "[[concept-纪浩-ai-collaboration-methodology]]"
+  - "[[skill-半肥猫-课程Skill化的八步工作流]]"
+  - "[[skill-纪浩-Do-first-PDCA渐进迭代法]]"
+created_at: "2026-06-07"
+updated_at: "2026-06-17"
 pipeline:
-- confidence-draft
-- confidence-source-cited
-- confidence-verified-by-case
-author: 半肥猫
-confidence: 0.7
-trust_level: low
+  - confidence-draft
+  - confidence-source-cited
+  - confidence-verified-by-case
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "学习完课程后只会做笔记总结，没有实际应用"
+    lens: "学用脱节"
+    follow_up: "执行步骤1-2：不问总结而是问对自己最有用的方法，追问之前做得好和不好的地方"
+  - signal: "AI回答看起来很丝滑但缺乏证据支撑"
+    lens: "AI幻觉"
+    follow_up: "执行步骤5：对AI答案做三轮检查——推理→证据→贴近场景数据"
+  - signal: "学习成果没有沉淀，每次都要重新学习"
+    lens: "沉淀缺失"
+    follow_up: "执行步骤6：让AI帮忙沉淀为工具/SOP/PRD/Skill，制造可复用资产"
+  - signal: "用假案例练习，学习深度不够"
+    lens: "场景失真"
+    follow_up: "步骤4必须找真实业务场景，初学者无业务时先确定方向再驱动学习"
+  - signal: "沉淀的工具质量差，成为粗糙传声筒"
+    lens: "沉淀者水平不足"
+    follow_up: "沉淀前确保自己对课程理解深入，三轮检查通过后再固化"
 ---
 # 技能：边学边练边沉淀的 AI 学习法
 
@@ -58,17 +75,33 @@ trust_level: low
 5. **对 AI 答案做三轮检查**：推理→证据→贴近场景数据
 6. **最后让 AI 帮忙沉淀**为工具/SOP/PRD/Skill
 
-## 适用场景
+## Constraints & Boundaries
 
-- ✅ 学习任何需要落地的方法论课程
-- ✅ 希望将知识转化为能力而非仅信息
-- ✅ 有真实业务可以驱动练习
+### 适用边界
 
-## 不适用场景
+| 边界 | 说明 |
+|:-----|:-----|
+| ✅ 适合 | 学习需要落地的方法论课程，有真实业务驱动 |
+| ✅ 适合 | 希望将知识转化为能力而非仅信息 |
+| ✅ 适合 | 有真实业务可以驱动练习 |
+| ✅ 适合 | 学习者有一定判断力，能区分推理和证据 |
+| ❌ 不适合 | 纯兴趣了解无需应用 → 无需沉淀，享受学习即可 |
+| ❌ 不适合 | 时间不允许深度练习 → 无法完成三轮检查和沉淀 |
+| ❌ 不适合 | 没有真实业务场景可以练 → 初学者先确定方向再驱动学习 |
+| ❌ 不适合 | 学习者无法区分推理和证据 → 三轮检查本身需要被教导 |
 
-- ❌ 纯兴趣了解无需应用
-- ❌ 时间不允许深度练习
-- ❌ 没有真实业务场景可以练（初学者尚未确定方向）
+### 常见失败模式
+
+| 模式 | 症状 | 修复 |
+|:-----|:-----|:-----|
+| **学用脱节** | 学习完课程后只会做笔记总结，没有实际应用 | 执行步骤1-2：不问总结而是问对自己最有用的方法，追问之前做得好和不好的地方 |
+| **AI幻觉** | AI回答看起来很丝滑但缺乏证据支撑 | 执行步骤5：对AI答案做三轮检查——推理→证据→贴近场景数据 |
+| **沉淀缺失** | 学习成果没有沉淀，每次都要重新学习 | 执行步骤6：让AI帮忙沉淀为工具/SOP/PRD/Skill，制造可复用资产 |
+| **场景失真** | 用假案例练习，学习深度不够 | 步骤4必须找真实业务场景，初学者无业务时先确定方向再驱动学习 |
+| **沉淀者水平不足** | 沉淀的工具质量差，成为粗糙传声筒 | 沉淀前确保自己对课程理解深入，三轮检查通过后再固化 |
+| **官方来源偏见** | 过度依赖官方信源，忽视真实业务体感 | 小数据和局部体感有时比宏观数据更有预测力，第三轮检查才是核心 |
+| **玩耍空间消亡** | 学习完全绑定业务产出，消灭无目的探索 | 保留10-20%时间用于纯粹好奇的学习，突破性创新来自非目标导向观察 |
+| **老板心态过度** | 过早收敛到"有用"方案，错过革命性探索 | 区分"高效问题解决"和"创造性问题发现"，两者都需要培养 |
 
 ## 工具/环境
 

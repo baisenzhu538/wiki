@@ -1,35 +1,56 @@
 ---
-
 id: skill-多源输入法
-title: 技能：多源输入法
-type: "tool"
-status: draft
+title: "技能：多源输入法"
+type: tool
+status: enriched
 domain:
-- learning-methodology
-- yitang
+  - learning-methodology
+  - yitang
 source_person: 一堂课程
 source_context: 一堂·科学学习IPO全景策略图 V2.0 (2026)
 source_refs:
-- 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
+  - 10_raw/sources/src_20260609_06580bb9-ocr-一堂-个人修炼-科学学习ipo-全景策略.md
 wiki_refs:
-- '[[skill-寻找学习教练法]]'
-- '[[skill-从案例中学习正反案例法]]'
-- '[[skill-知识树存储记忆法]]'
+  - "[[skill-寻找学习教练法]]"
+  - "[[skill-从案例中学习正反案例法]]"
+  - "[[skill-知识树存储记忆法]]"
+related:
+  - "[[skill-寻找学习教练法]]"
+  - "[[skill-从案例中学习正反案例法]]"
+  - "[[skill-知识树存储记忆法]]"
+  - "[[skill-问题驱动式深度思考笔记]]"
+  - "[[skill-半肥猫-边学边练边沉淀的AI学习法]]"
 definition_of_done:
-- 操作步骤清晰可执行
-- 适用场景有正反例
-- 工具要求明确
+  - 操作步骤清晰可执行
+  - 适用场景有正反例
+  - 工具要求明确
 tools_required:
-- 书籍/论文数据库
-- 课程平台
-- 搜索引擎
-- AI工具（ChatGPT/Claude等）
-created_at: 2026-06-09
-updated_at: '2026-06-16'
+  - 书籍/论文数据库
+  - 课程平台
+  - 搜索引擎
+  - AI工具（ChatGPT/Claude等）
+created_at: "2026-06-09"
+updated_at: "2026-06-17"
 author: 老顽童
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.75
+trust_level: medium
+diagnostic_signals:
+  - signal: "读了多篇文章但全是同一个观点的不同写法"
+    lens: "多源同质"
+    follow_up: "检查来源异质性：书（体系）+论文（证据）+课程（实战）+AI（快速连接），至少覆盖2种不同媒介"
+  - signal: "信息流完全由推荐算法驱动，看不到舒适区外内容"
+    lens: "被动输入"
+    follow_up: "主动设计搜索策略和检索词，目标明确，主动搜索比被动推荐重要十倍"
+  - signal: "大量输入但没有输出，产生'我很懂'的假象"
+    lens: "输入输出脱节"
+    follow_up: "维持输入输出正相关：每输入1小时至少产出1个输出物（笔记/复盘/行动）"
+  - signal: "多源信息冲突时无法判断哪个更可靠"
+    lens: "信息矛盾"
+    follow_up: "建立信息质量标准：官方来源>研究机构>专业媒体，自媒体和AIGC内容需验证"
+  - signal: "多源搜索消耗大量时间，决策延迟"
+    lens: "时间成本失控"
+    follow_up: "时间敏感型决策采用'精准单源+快速验证'，非关键决策才用多源深度交叉"
 ---
 # 技能：多源输入法
 
