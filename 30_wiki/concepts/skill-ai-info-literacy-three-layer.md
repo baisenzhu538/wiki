@@ -15,8 +15,7 @@ wiki_refs:
   - "[[skill-ai-research-five-steps]]"
 related:
   - "[[skill-ai-research-five-steps]]"
-  - "[[skill-ai-timestamp-validation]]"
-  - "[[dk-ai-silky-answer-danger]]"
+  - "[[dk-ai-judgment-human-responsibility]]"
   - "[[skill-ai-four-elements-validation]]"
   - "[[skill-ai-problem-question-check]]"
 definition_of_done:

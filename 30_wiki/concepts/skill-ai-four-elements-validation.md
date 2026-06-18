@@ -15,10 +15,9 @@ wiki_refs:
   - "[[skill-ai-problem-question-check]]"
 related:
   - "[[skill-ai-problem-question-check]]"
-  - "[[skill-ai-landing-scene-selection]]"
+  - "[[ai-landing-scene-selection]]"
   - "[[skill-纪浩-真需求四要素验证法]]"
-  - "[[dk-ai-four-elements-solvability-overestimate]]"
-  - "[[skill-ai-four-elements-validation]]"
+  - "[[dk-ai-judgment-human-responsibility]]"
 definition_of_done:
   - 每次验证4个要素全部回答
   - 至少1个要素触发"需要补充信息"的警觉

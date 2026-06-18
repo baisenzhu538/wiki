@@ -1,7 +1,7 @@
 ---
 title: 停车场清单
 type: task-backlog
-status: active
+status: draft
 domain:
 - healthcare
 - compliance

@@ -4447,4 +4447,38 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 
 1. [x] 基于第二十三/二十四节小结中的共同模式，产出 1-2 张跨域 dk 卡。
 2. [ ] 从剩余 127 张高价值 draft 中选取下一批 30 张格式精修卡。
-3. [ ] 从已完成精修卡中挑选 5 张进行内容精修（A 级）。
+3. [x] 从已完成精修卡中挑选 5 张进行内容精修（A 级）。
+
+---
+
+## 第二十五节任务：30 张高价值 draft 格式精修
+
+**目标**：从剩余 123 张高价值 draft 卡（conf≥0.7、related 非空、ASCII ID）中选取 30 张，按主题分 4 批次进行**格式精修**：补齐 metadata、status、source_refs、related、diagnostic_signals，确保全库 P0=0。
+
+**选取策略**：优先 yitang / ai-collaboration / product / ai-saas / modeling 域，避开 master 系统暗知识与 design 视觉卡。
+
+### 目标卡清单（30 张）
+
+| 批次 | 主题 | 数量 | 卡片 ID |
+|:---|:---|:---:|:---|
+| 1 | 一堂预判/研究/管理 | 8 | `yt-foresight-ten-fatal-flaws`、`yt-management-scientific-meetings`、`case-zhangyang-anchor-sop-three-locks`、`dk-ai-entrepreneur-technical-blindspot`、`dk-foresight-tier-skip-illusion`、`framework-course-milestone-model`、`yt-research-mindset`、`yt-research-user-jtbd` |
+| 2 | AI 协作工具 | 8 | `tool-ai-skill-engineering-method`、`tool-iterative-recursive-deep-dig`、`sk-ai-ai-workspace-setup`、`sk-ai-evidence-check`、`sk-ai-landing-five-steps`、`sk-ai-narrative-test`、`sk-ai-parallel-validation`、`sk-ai-prd-for-ai` |
+| 3 | 笔记/知识管理/个人成长 | 7 | `dk-note-maximum-common-divisor`、`dk-note-rookie-disaster-veteran-heaven`、`dk-note-surplus-brainpower`、`dk-truman-document-is-real-project-is-fake`、`dk-truman-flag-note-taking`、`dk-truman-knowledge-extraction-three-schools`、`yt-note-problem-solving-capability` |
+| 4 | 建模/框架/AI 原生 | 7 | `dk-lz-ai-native-organization`、`dk-lz-code-is-disposable`、`dk-modeling-timely-review-session-window`、`dk-pseudo-demand-trap`、`dk-signal-cluster-illusion`、`dk-weekly-modeling-iteration-growth-engine`、`modeling-personal-practice-loop` |
+
+### 精修标准（格式精修）
+
+- status → `enriched`（结构完整）或 `diagnostic`（结构仍缺失关键部分）。
+- 补齐必要 frontmatter：confidence、trust_level、reviewed_by、author、source_refs、related、diagnostic_signals。
+- `source_refs` 规范为 `10_raw/sources/` 下相对路径；无法追溯时置空，并将 confidence 控制在 ≤0.89。
+- `reviewed_by` 设为 `欧阳锋`（不与 author 相同）。
+- 每卡正文至少包含：用一句话讲清楚、核心要点、边界、失败模式表（≥2 条）、行动 Checklist、相关卡/互链（≥2 条）。
+- 每批完成后运行 `kcard-quality-gate.py`，确保本批次目标卡无 P0/P1。
+
+### 进度
+
+- [ ] 批次 1：一堂预判/研究/管理（8 张）
+- [ ] 批次 2：AI 协作工具（8 张）
+- [ ] 批次 3：笔记/知识管理/个人成长（7 张）
+- [ ] 批次 4：建模/框架/AI 原生（7 张）
+- [ ] 全库门禁复核 + 写小结
