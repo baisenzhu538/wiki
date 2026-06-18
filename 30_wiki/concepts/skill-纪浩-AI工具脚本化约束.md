@@ -1,21 +1,43 @@
 ---
-
-
 id: skill-纪浩-AI工具脚本化约束
-title: 技能：AI工具脚本化约束
-type: "tool"
+title: "技能：AI工具脚本化约束"
+type: tool
+status: enriched
 domain:
-- ai-saas
-status: draft
-author: 纪浩
-reviewed_by: pending
-created_at: '2026-06-15'
-confidence: 0.6
-trust_level: low
+  - ai-collaboration
+  - yitang
+source_person: 纪浩
+source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 source_refs:
   - src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01
-source_context: （原 legacy，已从 title/context/filename 推断为 src_20260609_8c00cb42）
-updated_at: '2026-06-16'
+author: 纪浩
+reviewed_by: 欧阳锋
+created_at: "2026-06-15"
+updated_at: "2026-06-17"
+confidence: 0.75
+trust_level: medium
+related:
+  - "[[concept-纪浩-ai-collaboration-methodology]]"
+  - "[[skill-纪浩-AI工作空间与导诊台设计法]]"
+  - "[[skill-纪浩-Do-first-PDCA渐进迭代法]]"
+  - "[[skill-纪浩-日志驱动排查法]]"
+  - "[[skill-纪浩-任务交付物标准化]]"
+diagnostic_signals:
+  - signal: "AI执行结果不稳定，每次输出格式不一致"
+    lens: "随机输出"
+    follow_up: "识别重复操作，写成确定性脚本。AI不脚本化则行为随机，脚本化确保操作确定性"
+  - signal: "AI与外部系统交互时出错，如查数据库、调API失败"
+    lens: "外部交互失败"
+    follow_up: "将外部交互写成脚本，纳入Agent工具集。要求AI优先调用工具而非自主分析"
+  - signal: "重复性验证步骤每次都要重新描述，效率低下"
+    lens: "重复描述"
+    follow_up: "将验证步骤脚本化，变成可复用工具。一次编写，多次调用"
+  - signal: "AI自主分析时产生幻觉，数据查询结果不准确"
+    lens: "分析幻觉"
+    follow_up: "要求AI优先调用工具获取数据，再基于数据做分析。不要让AI直接'知道'数据"
+  - signal: "脚本维护成本高，改一处坏多处"
+    lens: "脚本耦合"
+    follow_up: "脚本模块化设计，每个脚本只做一件事。做好版本控制，变更前测试兼容性"
 ---
 # 技能：AI工具脚本化约束
 
