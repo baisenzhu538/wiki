@@ -18,7 +18,12 @@ last_verified: "2026-06-14"
 - 为老顽童或其他 agent 生成可继续加工的结构化素材
 - 离线/本地运行，图片不上云
 
->  companion skill：`40_outputs/capabilities/skills/image-ocr/`（基于 PaddleOCR.js）。当 PaddleOCR 因网络/版本问题无法下载模型时，使用本 EasyOCR 版。
+>  companion skill：
+> - `40_outputs/capabilities/skills/image-ocr/`（基于 PaddleOCR.js）
+> - `40_outputs/capabilities/skills/image-understanding-pipeline/`（图像理解全流程选型指南）
+>
+> 当 PaddleOCR 因网络/版本问题无法下载模型时，使用本 EasyOCR 版。
+> 如需**语义理解/生成描述**，参见 `image-understanding-pipeline` 中的 MiniMax-M3 / Qwen-VL 方案。
 
 ---
 

@@ -154,6 +154,8 @@ marker_single input.pdf --output_dir output_dir
 > - 4GB 显存为紧约束，复杂大文档可能 OOM，可切回 CPU
 >
 > ⚠️ **PaddleOCR-VL**：2026 年新模型，pip 包名和安装方式待官方稳定后验证。
+>
+> 📌 **相关 skill**：`40_outputs/capabilities/skills/image-understanding-pipeline/` — 图像理解全流程选型（OCR / VLM / 生图）
 
 ### PyTorch 降级到 CUDA 12.1（GPU 模式必需）
 
