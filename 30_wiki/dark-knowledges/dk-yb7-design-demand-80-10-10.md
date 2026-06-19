@@ -3,7 +3,7 @@ id: dk-yb7-design-demand-80-10-10
 title: 中国设计需求的80-10-10分层法则
 type: dark-knowledge
 dark_knowledge_type: insight
-status: draft
+status: enriched
 domain:
 - design
 - yitang
@@ -11,17 +11,26 @@ domain:
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
-- 00_inbox/design/AI设计-AI设计基础01.txt
+- 10_raw/sources/src_20260604_design-ai-basics-01.md
 created_at: 2026-06-04
-updated_at: '2026-06-16'
-related: null
+updated_at: '2026-06-19'
+related:
+- '[[dk-yb21-ecommerce-pricing-independent-model]]'
+- '[[dk-yb25-solution-driven-visual-design]]'
+- '[[dk-yb1-aigc-mvp-before-ps]]'
 pipeline:
-- confidence-draft
 - confidence-source-cited
 author: 月白
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.85
+trust_level: medium
+diagnostic_signals:
+- signal: 设计团队编制规划时，把所有需求混在一起评估，导致"要不要用AI替代设计师"变成非黑即白的争论
+  framework_lens: 需求分层缺失——80%模板化需求、10%强创意需求、10%弹性缓冲需要完全不同的工具和人力策略
+  follow_up_question: 过去一个月的设计需求中，有多少比例是节日海报/朋友圈素材/日常运营物料？这些是否已模板化或AI化？
+- signal: 团队引入AI工具后，资深设计师被拉去做大量运营素材，创意产出反而下降
+  framework_lens: 人力资源错配——高端人才被低端需求消耗
+  follow_up_question: 你团队里最贵的设计师上周有多少时间花在"调风格"而非"做设计"上？
 ---
 # 中国设计需求的80-10-10分层法则
 
@@ -42,8 +51,27 @@ trust_level: low
 
 ## 适用边界
 
-- 不适用：奢侈品/高端时尚/艺术策展等对审美门槛极高的行业；超大型品牌年度视觉战略项目；设计师个人IP工作室
-- 易混淆：把"AI生成初稿"理解为完全替代设计师，忽略品牌调性校准和最终品控环节
+| 边界 | 说明 |
+|:-----|:-----|
+| **不适用奢侈品/高端时尚/艺术策展** | 审美门槛极高的行业，每一张图都需要深度创意。 |
+| **不适用超大型品牌年度视觉战略项目** | 战略级项目不适合模板化。 |
+| **不适用设计师个人IP工作室** | 个人风格是核心资产，模板化会稀释品牌。 |
+| **易混淆：AI生成≠替代设计师** | 80%用AI初稿+人工品控，10%深度人工，始终需要品牌调性校准和最终品控。 |
+
+## 常见失败模式
+
+| 失败模式 | 典型症状 | 修复方法 |
+|---|---|---|
+| 一刀切AI化 | 所有需求都推给AI，品牌视觉同质化严重 | 按80-10-10分层：运营类→AI+模板，创意类→人+AIGC深度介入 |
+| 高端人力做低端活 | 资深设计师被节日海报/朋友圈素材占满时间 | 将80%运营需求模板化，解放资深设计师做10%的创意突破 |
+| 忽视中间10%弹性缓冲 | 模板化和深度创意之间没有过渡带，需求波动时人手不足或闲置 | 中间10%根据业务周期动态调配，旺季支援运营，淡季投入创意 |
+| AI初稿直接交付 | AI生成后不经过品牌调性校准就发出去 | AI初稿→人工品牌检查（字体/配色/调性）→交付 |
+
+## 行动 Checklist
+
+- [ ] 是否已统计过去3个月设计需求的类型分布（运营 vs 创意 vs 其他）？
+- [ ] 80%的运营类需求是否已建立模板库和AI生成流程？
+- [ ] 资深设计师的时间分配：创意占比是否≥50%？如果不是，什么在消耗他们？
 
 ## 为什么值钱
 

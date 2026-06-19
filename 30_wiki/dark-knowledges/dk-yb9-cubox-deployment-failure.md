@@ -3,7 +3,7 @@ id: dk-yb9-cubox-deployment-failure
 title: Cubox及AI协作工具的团队部署失败模式
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - design
 - management
@@ -11,17 +11,26 @@ domain:
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
-- 00_inbox/design/AI设计-AI设计基础01.txt
+- 10_raw/sources/src_20260604_design-ai-basics-01.md
 created_at: 2026-06-04
-updated_at: '2026-06-16'
-related: null
+updated_at: '2026-06-19'
+related:
+- '[[dk-yb27-pseudo-layer-evasion]]'
+- '[[dk-yb7-design-demand-80-10-10]]'
+- '[[dk-yb18-small-shop-image-mismatch]]'
 pipeline:
-- confidence-draft
 - confidence-source-cited
 author: 月白
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.80
+trust_level: medium
+diagnostic_signals:
+- signal: 老板买了AI协作工具发给团队，两周后发现没人用了——不是工具不好，是没人负责推动落地
+  framework_lens: 部署≠落地——发账号是最简单的步骤，把工具嵌入工作流才是最难的
+  follow_up_question: 团队里有没有一个明确的人负责工具的配置、培训和流程嵌入？如果没有，任何工具都会在两周后闲置。
+- signal: 企划部用企划部的AI，商务部用商务部的AI，各部门工具和数据不互通
+  framework_lens: 孤岛采购——各部门独立选型导致协作断裂
+  follow_up_question: 跨部门协作场景下，A部门用工具X产出的文件能被B部门的工具Y直接读取和调用吗？
 ---
 # Cubox及AI协作工具的团队部署失败模式
 

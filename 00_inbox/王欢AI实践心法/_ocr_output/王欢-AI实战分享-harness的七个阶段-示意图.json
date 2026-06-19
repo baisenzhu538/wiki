@@ -1,0 +1,70 @@
+[
+  {
+    "text": "七个阶段，从规划到交付",
+    "score": 1.0
+  },
+  {
+    "text": "Harness把一次构建分解为严格定义的阶段，每个阶段有明确的输入、输出和质量门控。",
+    "score": 1.0
+  },
+  {
+    "text": "PHASE 0 初始化&预检",
+    "score": 0.98
+  },
+  {
+    "text": "恢复。 创建harness/目录、检测CLI工具、生成budget.ymL（默认：50轮选代，8个Sprint，4小时墙时）。自动检测是否需要从checkpoint",
+    "score": 0.99
+  },
+  {
+    "text": "PHASE 1 Planner:产品规划（Opus模型）",
+    "score": 0.98
+  },
+  {
+    "text": "义等待解决。 用最强推理模型做产品规划—只跑一次，成本可控。输出product-spec.md（功能优先级、审美方向、送代计划），同时标出所有高风险歧",
+    "score": 0.99
+  },
+  {
+    "text": "PHASE 1.5 TechStackSelector：技术栈选型（Opus模型）",
+    "score": 0.99
+  },
+  {
+    "text": "未列出的顶层依赖。 Planner结束后立即确定技术栈。输出tech-stack.md一语言、框架、测试工具、构建工具、部署目标、选型理由。Generator不得自行引l入",
+    "score": 0.99
+  },
+  {
+    "text": "PHASE2-5（循环) Sprint对抗循环",
+    "score": 0.96
+  },
+  {
+    "text": "围。 每轮Sprint：写Sprint Contract→启动Workflow→Generator构建→四个Evaluator并行评分→决策引擎判断是继续、修复、还是裁剪范",
+    "score": 0.98
+  },
+  {
+    "text": "评分通过条件：没有维度低于3分、加权平均≥4.0分（取两个代码审查者中更严那个）、零CRITICAL对抗发现。",
+    "score": 0.98
+  },
+  {
+    "text": "PHASE 5.5 PolishSprint:审美精修",
+    "score": 0.97
+  },
+  {
+    "text": "3，功能维度下调到1）。 所有PO功能完成后，自动插入一轮PolishSprint：空状态、错误状态、加载动画、字体节奏、微交互。评分权重自动切换（审美维度上调到",
+    "score": 0.99
+  },
+  {
+    "text": "PHASE 6 ShipPipeline：最终交付",
+    "score": 0.98
+  },
+  {
+    "text": "顺序执行，每步互为门控： ①AestheticReviewer（Opus）整体审美评分≥4.0才过",
+    "score": 0.99
+  },
+  {
+    "text": "②文档生成器写README+CHANGELOG+KNOWN_LIMITATIONS并提交",
+    "score": 0.99
+  },
+  {
+    "text": "④AuditTrail生成从spec到ship的完整旅程记录 ③FreshCloneTester从零克隆、按README操作，确认真的能跑",
+    "score": 0.98
+  }
+]

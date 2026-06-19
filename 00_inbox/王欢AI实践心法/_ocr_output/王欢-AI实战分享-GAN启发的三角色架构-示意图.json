@@ -1,0 +1,74 @@
+[
+  {
+    "text": "GAN启发的三角色架构",
+    "score": 1.0
+  },
+  {
+    "text": "三个不同公司。 灵感来自生成对抗网络（GAN）—生成器和判别器对抗进化，但这里判别器是四个，来自",
+    "score": 0.99
+  },
+  {
+    "text": "用户 一句话or spec.md",
+    "score": 0.94
+  },
+  {
+    "text": "Team Lead 当前Claude会话·负责编排",
+    "score": 0.96
+  },
+  {
+    "text": "Claude Sonnet",
+    "score": 0.99
+  },
+  {
+    "text": " Phase 1 → Planning",
+    "score": 0.95
+  },
+  {
+    "text": "只路一次·产品规划 Claude Opus Planner 技术栈选型 Tech Stack Selector",
+    "score": 0.97
+  },
+  {
+    "text": "Phase 35 →> Sprint Iner Loop (Workflow)",
+    "score": 0.91
+  },
+  {
+    "text": "每轮全新启动·“牛模式” Generator",
+    "score": 0.92
+  },
+  {
+    "text": "写代码·commit·退出",
+    "score": 0.96
+  },
+  {
+    "text": "VFunctional Tester Adversarial Tester",
+    "score": 0.97
+  },
+  {
+    "text": "pouuos opnero 跑起来测验收标准Happypath Claude Sonnet 主动攻击·目标是找bug",
+    "score": 0.91
+  },
+  {
+    "text": "Codex Evaluator 代码审查·专注安全边界 架构设计·原创性评分 Gemini Evaluator",
+    "score": 0.97
+  },
+  {
+    "text": "OpenAl Codex Google Gemini",
+    "score": 0.97
+  },
+  {
+    "text": "Sprint 边界→ Regression Net",
+    "score": 0.94
+  },
+  {
+    "text": "Master Integration Tester",
+    "score": 0.95
+  },
+  {
+    "text": "Claude Sonnet 跑所有已完成Sprint的验收标准·防回归",
+    "score": 0.98
+  },
+  {
+    "text": "(adversarial）比被动审查能找到更多bug—它的成功标准就是找到你的问题。 为什么四个判别器？Codex（OpenAl）和Gemini（Google）来自完全不同的模型族，训练分布不同，盲区不重合。主动攻击",
+    "score": 0.96
+  }
+]

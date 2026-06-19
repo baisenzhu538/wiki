@@ -3,23 +3,32 @@ id: dk-yb8-file-naming-eight-elements
 title: AI增效前置：文件命名八要素体系
 type: dark-knowledge
 dark_knowledge_type: workflow
-status: draft
+status: enriched
 domain:
 - design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
-- 00_inbox/design/AI设计-AI设计基础01.txt
+- 10_raw/sources/src_20260604_design-ai-basics-01.md
 created_at: 2026-06-04
-updated_at: '2026-06-16'
-related: null
+updated_at: '2026-06-19'
+related:
+- '[[dk-yb5-style-asset-archive]]'
+- '[[dk-yb1-aigc-mvp-before-ps]]'
+- '[[dk-yb7-design-demand-80-10-10]]'
 pipeline:
-- confidence-draft
 - confidence-source-cited
 author: 月白
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.85
+trust_level: medium
+diagnostic_signals:
+- signal: 团队引入了AI生图工具，但每次找历史素材都要翻半天文件夹，AI的优势被文件混乱抵消
+  framework_lens: 输入侧负债——AI增效的前提是文件可检索、可调用，混乱的输入产生混乱的输出
+  follow_up_question: 找一个3个月前的项目素材，需要多长时间？超过30秒说明文件体系需要重建。
+- signal: 不同设计师命名文件的方式完全不同，同一个项目的素材散落各处无法拼合
+  framework_lens: 标准缺失——没有统一的八要素命名，AI的批处理能力无法发挥
+  follow_up_question: 你的团队有统一的文件命名规范吗？随机抽查3个设计师最近的文件名，一致性多高？
 ---
 # AI增效前置：文件命名八要素体系
 
@@ -41,9 +50,28 @@ trust_level: low
 
 ## 适用边界
 
-- 不适用于个人临时一次性文件
-- 不适用于已具备完善DAM（数字资产管理）系统的中大型企业
-- 易混淆为简单的"文件要命名规范"的常识，而非八要素的具体框架
+| 边界 | 说明 |
+|:-----|:-----|
+| **不适用于个人临时一次性文件** | 个人临时文件不需要八要素框架。 |
+| **不适用于已具备完善DAM系统的大企业** | 已有数字资产管理系统的团队按现有规范即可。 |
+| **易混淆为"文件要命名规范"的常识** | 重点是八要素的完整框架（特别是输出端和对接端），而非简单的"要规范命名"。 |
+| **适用于需要AI批量处理素材的团队** | 批处理/AI检索/AI调用的前提是可解析的文件命名。 |
+
+## 常见失败模式
+
+| 失败模式 | 典型症状 | 修复方法 |
+|---|---|---|
+| AI先行，命名后补 | 先用AI生成了几百张图，回头看文件名叫"未标题-1""final-final-v3" | 先停工1周，统一重命名归档，再恢复AI使用 |
+| 只命名不执行 | 制定了规范但没人遵守，新旧文件混在一起 | 把命名规范集成到工具链：保存模板/导出脚本自动生成符合规范的文件名 |
+| 要素缺失 | 文件名只有项目+日期，缺少输出端和对接端信息 | 补齐八要素模板，特别是"输出端"和"对接端" |
+| 规范过度 | 要求每个临时文件都八要素命名，团队抵触 | 区分正式产出（八要素）和临时草稿（简化命名） |
+
+## 行动 Checklist
+
+- [ ] 团队是否有统一的文件命名规范文档？
+- [ ] 八要素是否全部覆盖？（项目/渠道/用途/尺寸/版本/输出端/对接端/时间）
+- [ ] 历史素材是否已按规范批量重命名？
+- [ ] 新的导出/保存流程是否自动化了命名格式？
 
 ## 为什么值钱
 

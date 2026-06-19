@@ -1,0 +1,17 @@
+[
+  {
+    "score": 9,
+    "grade": "B_PARTIAL",
+    "issues": [
+      "NO_DIAGNOSTIC_SIGNALS"
+    ],
+    "simulated_question": "你能帮我理解暗知识：复制销冠不是复制话术——是还原决策链吗？我遇到了相关问题。",
+    "actionable": true,
+    "has_boundary": true,
+    "wikilink_count": 3,
+    "id": "dk-wanghuan-paced-sales-decision",
+    "title": "暗知识：复制销冠不是复制话术——是还原决策链",
+    "type": "dark-knowledge",
+    "status": "draft"
+  }
+]
