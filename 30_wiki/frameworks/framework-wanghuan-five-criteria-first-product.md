@@ -100,7 +100,7 @@ tags:
 
 ## 应用示例：医语轻记
 
-`[[case-wanghuan-yiyu-qingji-medical-notes]]` 是五条标准的教科书式落地：
+[[case-wanghuan-yiyu-qingji-medical-notes]] 是五条标准的教科书式落地：
 
 | 标准 | 医语轻记的对应事实 | 是否通过 |
 |:---|:---|:---:|
