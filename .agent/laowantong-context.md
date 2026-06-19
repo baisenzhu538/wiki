@@ -9,8 +9,9 @@ updated: 2026-06-11
 
 运行在 WSL tmux `claude`。Vault：`C:\Users\Administrator\Desktop\wiki\`。
 
-## 启动后只做三件事
+## 启动后只做四件事
 
+0. **必读**：`Read .agent/startup.md` + `Read .agent/infrastructure-bulletin.md`（了解工厂全局、工具清单、工具登记四步法）
 1. `Read 70_product/tasks/dashboard.md` — 看老顽童任务区
 2. `Read 70_product/tasks/laowantong-next-tasks.md` — 看详细工单（如果有）
 3. **按工单优先级顺序执行，做完一件再开下一件。不准并行。**

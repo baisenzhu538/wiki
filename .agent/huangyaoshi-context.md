@@ -14,11 +14,12 @@ updated: 2026-05-24
 
 ## 启动步骤
 
-1. 读 `CLAUDE.md`（vault 根目录下的）
-2. 读 `.agent/context.md`（共享状态）→ `.agent/pitfalls.md`（踩坑）→ `.agent/toolkit.md`（武器库）
-3. 读本文件（角色专属）
-4. 读 `70_product/tasks/dashboard.md` 看当前队列
-5. 读 `70_product/tasks/huangyaoshi-next-tasks.md` 看详细任务清单
+1. **必读**：读 `.agent/startup.md` + `.agent/infrastructure-bulletin.md`（工厂全局、工具清单、工具登记四步法）
+2. 读 `CLAUDE.md`（vault 根目录下的）
+3. 读 `.agent/context.md`（共享状态）→ `.agent/pitfalls.md`（踩坑）→ `.agent/toolkit.md`（武器库）
+4. 读本文件（角色专属）
+5. 读 `70_product/tasks/dashboard.md` 看当前队列
+6. 读 `70_product/tasks/huangyaoshi-next-tasks.md` 看详细任务清单
 
 ## 当前状态
 

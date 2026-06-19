@@ -26,3 +26,8 @@
 | 王欢-AI实战分享-海报工具-示意图.png | 海报 | AI落地诊断·业务翻译官 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\王欢AI实践心法\王欢-AI实战分享-海报工具-示意图_vlm_desc.md` |
 | 王欢-AI实战分享-选场景五条标准-示意图.png | 信息图 | 选场景·五条标准 / Five Criteria for Choosing Your First Product | 0.96 | `C:\Users\Administrator\Desktop\wiki\00_inbox\王欢AI实践心法\王欢-AI实战分享-选场景五条标准-示意图_vlm_desc.md` |
 | 王欢-AI实战分享-飞轮第一圈-示意图.png | 框架图 | 飞轮启动·第一圈 / The Flywheel: First Loop | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\王欢AI实践心法\王欢-AI实战分享-飞轮第一圈-示意图_vlm_desc.md` |
+
+## 备注
+
+- 生成过程中 4 张图（AI业务档案、AI双角色教练训练、OODA循环、飞轮第一圈）因模型返回的 JSON 内嵌引号未转义导致解析失败，已人工修复并回填结构化描述。
+- 当前 16 张图全部具备有效 VLM 描述，无低置信度（<0.8）项。
