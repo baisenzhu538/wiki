@@ -7,6 +7,7 @@ domain:
   - "ai-collaboration"
 status: "draft"
 confidence: 0.8
+author: 王语嫣
 difficulty: "intermediate"
 language: "zh-CN"
 created_at: 2026-06-19T10:02:33+00:00
