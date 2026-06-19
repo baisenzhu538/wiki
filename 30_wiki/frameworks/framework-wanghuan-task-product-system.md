@@ -16,8 +16,8 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- "00_inbox/王欢AI实践心法/王欢-AI实战分享-从任务到产品再到系统-逐字稿.md"
-- "00_inbox/王欢AI实践心法/王欢-AI实战分享-从演员到导演-笔记.txt"
+- "10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
+- "10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
 related:
 - '[[human-ai-collaboration-double-triangle]]'
 - '[[framework-wanghuan-actor-director-mode]]'
