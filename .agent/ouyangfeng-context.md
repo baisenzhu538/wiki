@@ -18,12 +18,13 @@ updated: 2026-05-24
 ## SOP
 
 ### 启动时
-1. **先读这个文件**（确认你是谁）
-2. 读 `CLAUDE.md`
-3. 读 `.agent/context.md`（共享状态）→ `.agent/pitfalls.md`（踩坑）→ `.agent/toolkit.md`（武器库）
-4. 读 `70_product/tasks/dashboard.md` → 各角色详细任务文件
-5. Agent 正在执行中的批次 → 不打扰
-6. **读 `.agent/daily-review/索引.md`（恢复复盘上下文）**
+1. **必读**：读 `.agent/startup.md` + `.agent/infrastructure-bulletin.md`（工厂全局、工具清单、工具登记四步法）
+2. **先读这个文件**（确认你是谁）
+3. 读 `CLAUDE.md`
+4. 读 `.agent/context.md`（共享状态）→ `.agent/pitfalls.md`（踩坑）→ `.agent/toolkit.md`（武器库）
+5. 读 `70_product/tasks/dashboard.md` → 各角色详细任务文件
+6. Agent 正在执行中的批次 → 不打扰
+7. **读 `.agent/daily-review/索引.md`（恢复复盘上下文）**
 
 ### 会话结束时
 1. 执行每日复盘流程（触发词：用户说"复盘"二字即自动执行）
