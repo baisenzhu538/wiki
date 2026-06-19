@@ -3,7 +3,7 @@
 skill_name: ai-image-generation-setup  
 status: stable  
 scope: Multimodal Arbiter / 洪七公  
-last_verified: 2026-06-13  
+last_verified: 2026-06-19  
 
 ---
 
@@ -282,9 +282,61 @@ export FAL_KEY=你的fal_api_key
 2. ✅ 选择最便宜云端方案：fal.ai FLUX.1 [schnell]（$0.003/张，新用户 $10-$20 免费额度）。
 3. ✅ 已提供 Python 脚本：`40_outputs/code/scripts/generate-images-fal.py`，填入 FAL_KEY 即可跑。
 4. ✅ 已整理 fal.ai 注册、取 key、设环境变量步骤。
-5. 注册 fal.ai 获取 API key，运行脚本生成 KDO 文章封面/信息图测试。
-6. 如需本地轻量生图，尝试 Stable Diffusion 1.5 + 4GB 优化配置。
-7. 如未来升级硬件（12GB+ 显存），再按本 skill 安装 ComfyUI + FLUX.1 dev FP8。
+5. ~~注册 fal.ai 获取 API key~~ → fal.ai 余额耗尽且国内无法外币支付，已迁移到 MiniMax Image-01。
+6. ✅ 已提供 MiniMax 生图脚本：`40_outputs/code/scripts/generate-images-minimax.py`，使用现有 `MINIMAX_API_KEY` 即可跑通。
+7. 如需本地轻量生图，尝试 Stable Diffusion 1.5 + 4GB 优化配置。
+8. 如未来升级硬件（12GB+ 显存），再按本 skill 安装 ComfyUI + FLUX.1 dev FP8。
+
+---
+
+## 10. 国内方案：MiniMax Image-01
+
+由于本机 4GB 显存无法本地跑 FLUX，且 fal.ai 等海外平台存在充值/支付障碍，**MiniMax Image-01** 是国内可复用、可直接支付的生图方案。
+
+### 10.1 为什么选 MiniMax Image-01
+
+| 维度 | 说明 |
+|:--|:--|
+| **同一账号** | 与 MiniMax-M3 VLM 共用同一个 `MINIMAX_API_KEY`，无需额外注册 |
+| **国内 endpoint** | `https://api.minimax.chat/v1/image_generation`，无需科学上网 |
+| **人民币结算** | MiniMax 国内平台支持国内支付方式 |
+| **模型能力** | 支持 `image-01`，提示词控制力强，支持多种画风和比例 |
+| **批量友好** | 单次最多生成 9 张，支持 16:9 / 1:1 / 3:4 / 21:9 等比例 |
+
+### 10.2 关键参数
+
+| 参数 | 说明 | 示例 |
+|:--|:--|:--|
+| `model` | 固定为 `image-01` | `image-01` |
+| `prompt` | 英文提示词效果最佳 | `A minimalist infographic...` |
+| `aspect_ratio` | 16:9 / 4:3 / 3:2 / 2:3 / 3:4 / 9:16 / 21:9 | `16:9` |
+| `n` | 生成数量 1-9 | `1` |
+| `style.style_type` | 可选画风：漫画、元气、中世纪、水彩 | `--style 漫画` |
+| `response_format` | `url`（24h 有效）或 `base64` | `url` |
+| `prompt_optimizer` | 是否自动优化 prompt | `--optimize` |
+
+### 10.3 调用示例
+
+```bash
+export MINIMAX_API_KEY=sk-api-...
+python3 40_outputs/code/scripts/generate-images-minimax.py \
+  -p "A minimalist business infographic about scientific decision making, blue and white, clean vector" \
+  -o "40_outputs/content/images/generative/decision-cover.png" \
+  -r 16:9
+```
+
+### 10.4 与 KDO 流水线的集成建议
+
+- **prompt 来源**：从 KDO 文章标题/摘要自动生成英文 prompt（可复用 `kdo-tools/web_search.py` 的 prompt 模板）
+- **输出目录**：统一放到 `40_outputs/content/images/generative/`
+- **后处理**：用 Pillow 裁剪/加水印/转 WebP，再进入发布流程
+- **成本**：按调用量计费，具体以 MiniMax 官方定价为准；通常低于海外 FLUX API
+
+### 10.5 限制
+
+- 人物/敏感内容需遵守 MiniMax 内容审核策略
+- 中文文字渲染仍可能乱码/缺字，建议用英文 prompt，中文标题后期叠加
+- 如需电影级最高质量，海外 FLUX.1 [pro] 仍是上限，但 MiniMax Image-01 对 KDO 封面/信息图已足够
 
 ---
 

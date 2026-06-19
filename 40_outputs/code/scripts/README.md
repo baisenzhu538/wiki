@@ -50,12 +50,27 @@
 
 ## 图像生成
 
+### `generate-images-minimax.py`（推荐 · 国内可直接支付）
+- **功能**：用 MiniMax Image-01 国内 API 文生图
+- **输出**：指定路径图片 + `*_metadata.json`
+- **使用场景**：需要批量生成封面/海报/信息图，且 fal.ai 无法充值时
+- **依赖**：MiniMax API key（与 VLM 共用同一个 key）
+- **运行**：
+  ```bash
+  export MINIMAX_API_KEY=你的key
+  python3 40_outputs/code/scripts/generate-images-minimax.py \
+    -p "一张极简商务风格的信息图，主题是科学决策" \
+    -o "40_outputs/content/images/generative/test.png" \
+    -r 16:9
+  ```
+- **备注**：`MINIMAX_API_KEY` 与 `describe-images-minimax.py` 相同；支持 16:9 / 1:1 / 3:4 / 21:9 等比例，可选画风参数 `--style`。
+
 ### `generate-images-fal.py`
 - **功能**：用 fal.ai FLUX 把文章标题转成封面图
 - **输出**：`40_outputs/content/images/generative/`
 - **使用场景**：需要批量生成文章封面/信息图
 - **依赖**：fal.ai API key（注意：当前账户余额不足，需充值）
-- **状态**：待充值或迁移到国内平台
+- **状态**：余额耗尽，已降级为备用方案
 
 ---
 

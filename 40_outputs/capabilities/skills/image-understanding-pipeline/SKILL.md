@@ -32,7 +32,7 @@ KDO 中多个 agent 都需要处理图片（OCR、识图、生成描述、归档
 | **PDF/复杂图文混排** | MinerU | `magic-pdf` + `document-parsing-toolkit` skill | 单张简单图片 |
 | **要理解画面内容、生成描述** | MiniMax-M3 VLM | `40_outputs/code/scripts/describe-images-minimax.py` | 只需文字、不想花钱 |
 | **MiniMax 不可用时** | SiliconFlow Qwen-VL | `40_outputs/code/scripts/describe-images-siliconflow.py` | 已有 MiniMax key 且可用 |
-| **要生成图片/封面** | fal.ai / MiniMax / 通义万相 | `40_outputs/code/scripts/generate-images-*.py` | 只需识图 |
+| **要生成图片/封面** | **MiniMax Image-01**（国内，推荐） / 通义万相 / fal.ai（余额耗尽） | `40_outputs/code/scripts/generate-images-minimax.py` | 只需识图 |
 
 ---
 
