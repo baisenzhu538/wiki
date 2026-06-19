@@ -27,6 +27,10 @@ related:
 - '[[tool-wanghuan-ai-business-profile]]'
 - '[[framework-wanghuan-ooda-loop]]'
 - '[[dk-wanghuan-paced-sales-decision]]'
+- '[[dk-wanghuan-standard-by-iteration]]'
+- '[[dk-wanghuan-output-equals-standard-times-iteration]]'
+- '[[dk-wanghuan-ai-lifts-personal-ceiling]]'
+- '[[dk-wanghuan-creativity-in-description-and-taste]]'
 tags:
 - 人机协作
 - AI导演
@@ -78,6 +82,10 @@ tags:
 |:---|:---|
 | `dk-wanghuan-paced-sales-decision` | 复制销冠不是复制话术，是还原决策链 |
 | `framework-wanghuan-actor-director-mode` | 给马车装更好的发动机，但马还在拉——工具升级不等于系统升级 |
+| `dk-wanghuan-standard-by-iteration` | 标准不是想出来的，是迭代出来的——用 AI 对抗 AI 生成标准 |
+| `dk-wanghuan-output-equals-standard-times-iteration` | 输出质量 = 标准 × 迭代，别只优化提示词 |
+| `dk-wanghuan-ai-lifts-personal-ceiling` | AI 拉升个人上限，你可以做出以前做不出来的东西 |
+| `dk-wanghuan-creativity-in-description-and-taste` | 未来人的创造力在问题描述和验收审美上 |
 
 ## 六、域间桥接
 
