@@ -23,18 +23,18 @@ reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: Skill 运行后总是给出"看起来完整"的回答，但从未说"这个请求超出我的边界"
+- signal: 'Skill 运行后总是给出"看起来完整"的回答，但从未说"这个请求超出我的边界"'
   lens: 边界感缺失——模型被训练成满足用户，而不是在不确定时拒绝
-  follow_up_question: 你的 Skill 是否明确定义了 3 个以上"应该拒绝或追问"的触发条件？
+  follow_up_question: '你的 Skill 是否明确定义了 3 个以上"应该拒绝或追问"的触发条件？'
 - signal: 在高风险场景（医疗、金融、法律、保险）中，AI 直接给出建议而没有要求补充信息
-  lens: 低容错场景中的"错误行动"比"不行动"更危险
-  follow_up_question: 如果 AI 这个建议错了，最坏后果是什么？Skill 有没有在输出前主动触发"证据/资源拒绝"？
-- signal: 团队讨论 AI 输出时只争论"怎么改得更好"，没人问"这个任务该不该由 AI 做"
-  lens: 生成迷恋——把注意力放在"做不做得到"，而不是"应不应该做"
+  lens: '低容错场景中的"错误行动"比"不行动"更危险'
+  follow_up_question: '如果 AI 这个建议错了，最坏后果是什么？Skill 有没有在输出前主动触发"证据/资源拒绝"？'
+- signal: '团队讨论 AI 输出时只争论"怎么改得更好"，没人问"这个任务该不该由 AI 做"'
+  lens: '生成迷恋——把注意力放在"做不做得到"，而不是"应不应该做"'
   follow_up_question: 过去一周，你的团队有多少次主动终止或回退了一个 AI 任务，因为判断它不适合做？
-- signal: 把"拒绝用户"等同于"糟糕体验"，导致 Skill 什么请求都接
-  lens: 过度顺从——把用户满意度凌驾于结果正确性之上
-  follow_up_question: 你的用户是在为"被取悦"付费，还是为"正确结果"付费？拒绝是否反而保护了长期信任？
+- signal: '把"拒绝用户"等同于"糟糕体验"，导致 Skill 什么请求都接'
+  lens: '过度顺从——把用户满意度凌驾于结果正确性之上'
+  follow_up_question: '你的用户是在为"被取悦"付费，还是为"正确结果"付费？拒绝是否反而保护了长期信任？'
 pipeline:
 - confidence-draft
 - confidence-source-cited
