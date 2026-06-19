@@ -3,8 +3,8 @@
 **扫描时间**：2026-06-15  
 **扫描范围**：30_wiki 全库 1304 张卡片  
 **P0 阻塞问题卡片**：0 张  
-**P1 修复问题卡片**：11 张  
-**完全干净卡片**：1293 张  
+**P1 修复问题卡片**：12 张  
+**完全干净卡片**：1292 张  
 **YAML 解析错误**：0 张  
 
 ---
@@ -23,6 +23,7 @@
 | `concepts\yt-demand-hierarchy-model.md` | confidence=0.92 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
 | `concepts\yt-demand-user-segmentation.md` | confidence=0.92 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
 | `concepts\yt-product-kernel-aesthetic.md` | dangling 链接: yt-model-pan-product-aesthetic-progression |
+| `dark-knowledges\dk-wanghuan-ai-lifts-personal-ceiling.md` | trust_level=high 但 source 仅 1 个; source_refs 中的 src ID 未注册: src_20260618_wanghuan |
 | `dark-knowledges\yt-demand-competitive-displacement.md` | confidence=0.92 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
 | `dark-knowledges\yt-demand-fake-demand-detection.md` | confidence=0.93 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
 | `dark-knowledges\yt-demand-scope-creep.md` | confidence=0.92 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
