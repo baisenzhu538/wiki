@@ -272,6 +272,7 @@ export FAL_KEY=你的fal_api_key
 - AUTOMATIC1111 原版 **不支持** FLUX，请用 Forge 或 ComfyUI。
 - **fal.ai 返回 `403 User is locked. Reason: Exhausted balance.` 不代表 key 错了，而是余额耗尽，需要去 Billing 充值。**
 - Windows 11 的 Recall 功能可能截图保存本地生成的图；如在意隐私请关闭。
+- 相关 skill：`40_outputs/capabilities/skills/image-understanding-pipeline/` — 图像理解全流程选型（OCR / VLM / 生图）
 
 ---
 
