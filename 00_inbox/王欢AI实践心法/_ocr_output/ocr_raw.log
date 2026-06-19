@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\wiki\40_outputs\capabilities\skills\image-ocr\ocr-image.ps1 : No images found matching: 00_inbox/王欢AI实践心法/
+_ocr_input
+    + CategoryInfo          : NotSpecified: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteErrorException,ocr-image.ps1
+ 
