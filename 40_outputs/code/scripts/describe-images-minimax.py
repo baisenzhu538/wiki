@@ -123,21 +123,21 @@ def describe_image(api_key: str, image_path: Path) -> dict:
     import re
     content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL).strip()
 
-    # Try parse JSON; if wrapped in markdown, strip it
-    content = content.strip()
-    if content.startswith("```json"):
-        content = content[7:]
-    elif content.startswith("```"):
-        content = content[3:]
-    if content.endswith("```"):
-        content = content[:-3]
-    content = content.strip()
-
+    # Try parse JSON; if wrapped in markdown code fence, extract it
     try:
         return json.loads(content)
     except json.JSONDecodeError:
-        # Fallback: extract first JSON object from text
-        match = re.search(r"\{.*\}", content, re.DOTALL)
+        # Extract content from ```json ... ``` or ``` ... ``` fence
+        fence_match = re.search(r"```(?:json)?\s*(.*?)\s*```", content, re.DOTALL)
+        if fence_match:
+            inner = fence_match.group(1).strip()
+            try:
+                return json.loads(inner)
+            except json.JSONDecodeError:
+                pass
+
+        # Fallback: extract first balanced JSON object
+        match = re.search(r"\{[\s\S]*?\}", content)
         if match:
             return json.loads(match.group(0))
         raise
