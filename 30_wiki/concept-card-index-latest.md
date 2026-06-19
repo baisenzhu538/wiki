@@ -61,7 +61,7 @@ trust_level: medium
 | concept-一堂-product-kernel | 产品内核：用户愿意选择你的最小解决方案 | concept | product, yitang |
 | concept-半肥猫-ai-learning-toolification-methodology | 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进 | concept | ai-collaboration, yitang, learning |
 | concept-纪浩-ai-collaboration-five-layer | 概念：纪浩AI协作五层工作空间法 | concept | ai-collaboration, yitang |
-| concept-纪浩-ai-collaboration-methodology | 纪浩 AI 协作方法论：从判断到规模复用的五层体系 | concept | ai-collaboration, yitang |
+| concept-ji-hao-ai-collaboration-methodology | 纪浩 AI 协作方法论：从判断到规模复用的五层体系 | concept | ai-collaboration, yitang |
 | contingency-decision-making | 偶然性与决策：承认'我不知道'比虚假确定性更明智 | concept | ai-saas, management, decision-making, yitang |
 | course-to-skill-conversion | 课程到Skill转化：将知识变成AI可执行的能力模块 | tool | management, product, business-strategy, ai-saas, yitang, decision-making |
 | data-labeling-best-practices-report | 数据标注最佳实践调研报告 | concept | master |
@@ -1004,7 +1004,7 @@ trust_level: medium
 | case-ji-hao-ai-workspace-chaos | 案例：AI工作空间混乱导致'行为退化'而重来 | case | ai-collaboration, yitang |
 | case-纪浩-focus-prompt-design | 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接 | case | prompt-engineering, yitang |
 | case-纪浩-from-zip-to-five-layers | 纪浩：从微信传 zip 到五层协作体系 | case | ai-collaboration, yitang |
-| case-纪浩-skill-market-problem-validation | 案例：一堂Skill市场从伪需求到真实需求的四问验证 | case | ai-collaboration, yitang |
+| case-ji-hao-skill-market-problem-validation | 案例：一堂Skill市场从伪需求到真实需求的四问验证 | case | ai-collaboration, yitang |
 | case-ji-hao-skills-market | 案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助 | case | agent-infrastructure, yitang |
 | case-ji-hao-ui-design-constraint-evolution | 案例：纪浩从'求你了'到1100行约束文档的UI设计迭代 | case | ai-collaboration, yitang |
 | industrial-ai-ops-cases | 产业 AI 运营落地：酒店/房产/电商三大案例的去伪存真 | case | ai, ai-saas, entrepreneur |

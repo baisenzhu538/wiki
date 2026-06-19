@@ -21,7 +21,7 @@ tools_required:
   - 版本控制工具
 prerequisite_skills: skill-纪浩-真需求四要素验证法
 related:
-  - "[[concept-纪浩-ai-collaboration-methodology]]"
+  - "[[concept-ji-hao-ai-collaboration-methodology]]"
   - "[[case-纪浩-from-zip-to-five-layers]]"
   - "[[skill-纪浩-真需求四要素验证法]]"
   - "[[skill-纪浩-Do-first-PDCA渐进迭代法]]"
@@ -167,7 +167,7 @@ AI是模式匹配系统，不会自己创造结构。当上下文环境稳定、
 
 ### 关联说明
 
-- [[concept-纪浩-ai-collaboration-methodology]] —— 工作空间是纪浩五层体系的L2，是整个体系中最需要人工干预的环节。AI不会自己搭建结构，人必须先帮它搭
+- [[concept-ji-hao-ai-collaboration-methodology]] —— 工作空间是纪浩五层体系的L2，是整个体系中最需要人工干预的环节。AI不会自己搭建结构，人必须先帮它搭
 - [[skill-纪浩-真需求四要素验证法]] —— 四要素通过后才需要搭建工作空间。如果需求是假的，搭工作空间就是在建空中楼阁
 - [[skill-纪浩-Do-first-PDCA渐进迭代法]] —— 工作空间搭建完成后，PDCA负责让AI在这个空间里持续迭代产出更好的结果
 

@@ -16,7 +16,7 @@ tools_required:
   - 具体场景描述
 prerequisite_skills: null
 related:
-  - "[[concept-纪浩-ai-collaboration-methodology]]"
+  - "[[concept-ji-hao-ai-collaboration-methodology]]"
   - "[[case-纪浩-from-zip-to-five-layers]]"
   - "[[case-jh-yitang-vs-sqlhelper]]"
   - "[[skill-纪浩-Do-first-PDCA渐进迭代法]]"
@@ -159,7 +159,7 @@ diagnostic_signals:
 
 ### 关联说明
 
-- [[concept-纪浩-ai-collaboration-methodology]] —— 四要素验证是纪浩五层体系的L1入口门禁，是整个体系的前提条件。没有四要素验证通过，后面的Workspace搭建和PDCA迭代都是在解决假需求
+- [[concept-ji-hao-ai-collaboration-methodology]] —— 四要素验证是纪浩五层体系的L1入口门禁，是整个体系的前提条件。没有四要素验证通过，后面的Workspace搭建和PDCA迭代都是在解决假需求
 - [[case-纪浩-from-zip-to-five-layers]] —— Skills市场案例展示了四要素在真实场景中的具体应用，特别是"真实锚点"如何防止需求无限放大
 - [[skill-纪浩-Do-first-PDCA渐进迭代法]] —— 四要素和PDCA的关系是"先判断，后动手"。四要素决定"是不是值得做"，PDCA决定"怎么做得更好"
 

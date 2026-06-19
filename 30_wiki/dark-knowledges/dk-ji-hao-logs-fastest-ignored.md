@@ -12,7 +12,7 @@ source_refs:
 - 00_inbox/纪浩-AI协作方法论-口述.md
 - 00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md
 related:
-- '[[concept-纪浩-ai-collaboration-methodology]]'
+- '[[concept-ji-hao-ai-collaboration-methodology]]'
 - '[[skill-纪浩-日志驱动排查法]]'
 created_at: 2026-06-08
 updated_at: '2026-06-16'
@@ -45,4 +45,4 @@ trust_level: low
 ## 关联
 
 - [[skill-纪浩-日志驱动排查法]] —— 日志驱动排查的具体执行方法，包含日志规范、定期审查和反馈闭环
-- [[concept-纪浩-ai-collaboration-methodology]] —— 日志是五层体系的最底层，是所有上层活动的"事实基座"
+- [[concept-ji-hao-ai-collaboration-methodology]] —— 日志是五层体系的最底层，是所有上层活动的"事实基座"

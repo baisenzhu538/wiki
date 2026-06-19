@@ -12,7 +12,7 @@ source_refs:
 - 00_inbox/纪浩-AI协作方法论-口述.md
 - 00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md
 related:
-- '[[concept-纪浩-ai-collaboration-methodology]]'
+- '[[concept-ji-hao-ai-collaboration-methodology]]'
 created_at: 2026-06-08
 updated_at: '2026-06-16'
 pipeline:
@@ -44,4 +44,4 @@ AI是模式匹配系统，不是结构创造系统。它可以在你给定的结
 ## 关联
 
 - [[skill-纪浩-AI工作空间与导诊台设计法]] —— 工作空间搭建法就是"人帮AI搞结构设计"的具体实操，包含五大模块的搭建方法
-- [[concept-纪浩-ai-collaboration-methodology]] —— 这个暗知识是纪浩五层体系的基础性前提：如果人不做结构设计，五层体系本身就不存在
+- [[concept-ji-hao-ai-collaboration-methodology]] —— 这个暗知识是纪浩五层体系的基础性前提：如果人不做结构设计，五层体系本身就不存在

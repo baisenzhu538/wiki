@@ -254,4 +254,4 @@ npm run build
 - **[[dk-ji-hao-pdca-starts-from-do]]** — S1-S5 冻结前的 HTML 原型来自 Do-first 迭代：先做出一版，再加 Check/Plan/Act，而不是先写完整计划再动手。
 - **[[case-ji-hao-ui-design-constraint-evolution]]** — 约束文档从临时规则沉淀为 L3 工作手册的演化案例。与本案例的"29 条封闭决策"形成"规则如何被持久化"的对照。
 - **[[case-truman-ai-partner]]** — Truman 的 AI Partner 设计哲学。纪浩的 /focus 提示词是同一套"给 Agent 结构化环境"思想在产品功能设计上的工程实现。
-- **[[concept-纪浩-ai-collaboration-methodology]]** — 纪浩 AI 协作方法论总纲。本案例是其中 L2 Agent Workspace、L3 Do-first PDCA 与 L5 Skills Market 思想的共同产物。
+- **[[concept-ji-hao-ai-collaboration-methodology]]** — 纪浩 AI 协作方法论总纲。本案例是其中 L2 Agent Workspace、L3 Do-first PDCA 与 L5 Skills Market 思想的共同产物。

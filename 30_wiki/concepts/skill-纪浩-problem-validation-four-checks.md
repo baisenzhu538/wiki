@@ -14,13 +14,13 @@ source_refs:
 created_at: "2026-06-09"
 updated_at: "2026-06-17"
 related:
-  - "[[case-纪浩-skill-market-problem-validation]]"
+  - "[[case-ji-hao-skill-market-problem-validation]]"
   - "[[dk-ji-hao-problem-vs-question]]"
   - "[[skill-一堂-hypothesis-validation-three-axe]]"
   - "[[skill-一堂-product-kernel-canvas]]"
   - "[[contingency-decision-making]]"
 wiki_refs:
-  - "[[case-纪浩-skill-market-problem-validation]]"
+  - "[[case-ji-hao-skill-market-problem-validation]]"
   - "[[dk-ji-hao-problem-vs-question]]"
 definition_of_done:
   - 技能有明确的Actionable Steps
@@ -142,14 +142,14 @@ diagnostic_signals:
 
 ## 相关案例
 
-- **case-纪浩-skill-market-problem-validation**：一堂Skill市场用四问验证后确认是真实Problem，Before/After清晰、真实锚点明确（微信传zip的痛点）、受益人确定、因果链可解。
+- **case-ji-hao-skill-market-problem-validation**：一堂Skill市场用四问验证后确认是真实Problem，Before/After清晰、真实锚点明确（微信传zip的痛点）、受益人确定、因果链可解。
 
 ## 关联概念
 
 - **关于 [[dk-ji-hao-problem-vs-question]]：** 四问验证法是将Question转化为Problem的具体工具。它解决了"我知道要验证，但不知道怎么验证"的问题。
-- **关于 [[case-纪浩-skill-market-problem-validation]]：** 这个案例展示了四问在实际中的应用过程。特别是"真实锚点"这一问，帮助团队避免了从"做一个Skill市场"放大到"做一个生态系统"的陷阱。
+- **关于 [[case-ji-hao-skill-market-problem-validation]]：** 这个案例展示了四问在实际中的应用过程。特别是"真实锚点"这一问，帮助团队避免了从"做一个Skill市场"放大到"做一个生态系统"的陷阱。
 
-- **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
 
 ## Constraints & Boundaries
 
@@ -192,7 +192,7 @@ diagnostic_signals:
 
 ### 关联知识节点
 - **上游：**[[dk-ji-hao-problem-vs-question]] — 四问是将 Question 转化为 Problem 的具体工具
-- **下游：**[[case-纪浩-skill-market-problem-validation]] — 四问在实际案例中的应用过程
+- **下游：**[[case-ji-hao-skill-market-problem-validation]] — 四问在实际案例中的应用过程
 - **平行：**[[skill-一堂-product-kernel-canvas]] — 产品内核画布定义“用户为什么选你”，四问验证“他们是不是真的需要你”
 
 ### 知识体系定位

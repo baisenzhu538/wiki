@@ -13,7 +13,7 @@ source_refs:
 - 10_raw/sources/src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记.md
 - 10_raw/sources/src_20260609_9223aac2-ocr-ai俱乐部-人和ai协作-纪浩-参考案例-图片02.md
 related:
-- '[[concept-纪浩-ai-collaboration-methodology]]'
+- '[[concept-ji-hao-ai-collaboration-methodology]]'
 - '[[skill-纪浩-真需求四要素验证法]]'
 - '[[skill-纪浩-日志驱动排查法]]'
 - '[[case-纪浩-focus-prompt-design]]'
@@ -174,7 +174,7 @@ L5 Skills Market（规模复用的基础设施）
 
 ## Synthesis
 
-- **纪浩体系总纲**：[[concept-纪浩-ai-collaboration-methodology]] — 五层方法论的完整概念展开
+- **纪浩体系总纲**：[[concept-ji-hao-ai-collaboration-methodology]] — 五层方法论的完整概念展开
 - **同作者案例**：[[case-纪浩-focus-prompt-design]] — `/focus` 功能中四要素验证与导诊台的具体应用
 - **Skill 工程对照**：[[case-半肥猫-course-to-skill]] — 课程转 Skill 的八步工程化流程，与 Skills Market 形成复用基础设施的互补视角
 - **暗知识**：[[dk-ji-hao-pdca-starts-from-do]] — "PDCA 从 Do 开始不是从 Plan 开始"

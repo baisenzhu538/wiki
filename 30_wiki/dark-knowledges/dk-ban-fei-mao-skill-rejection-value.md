@@ -15,7 +15,7 @@ updated_at: '2026-06-16'
 related:
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[case-ban-fei-mao-skill-ab-test]]'
-- '[[concept-纪浩-ai-collaboration-methodology]]'
+- '[[concept-ji-hao-ai-collaboration-methodology]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

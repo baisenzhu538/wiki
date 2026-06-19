@@ -29,8 +29,8 @@ created_at: 2026-06-07
 updated_at: '2026-06-19'
 related:
 - '[[case-truman-ai-partner]]'
-- '[[case-纪浩-skill-market-problem-validation]]'
-- '[[concept-纪浩-ai-collaboration-methodology]]'
+- '[[case-ji-hao-skill-market-problem-validation]]'
+- '[[concept-ji-hao-ai-collaboration-methodology]]'
 author: 纪浩
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -134,5 +134,5 @@ diagnostic_signals:
 ## 相关卡/互链
 
 - **[[case-truman-ai-partner]]**：Truman 的单一 Agent 封装与纪浩的 Skills 平台是同一模式的两个实例——先做扎实单个 skill，再做分发层。
-- **[[case-纪浩-skill-market-problem-validation]]**：用四问法验证 Skill 市场从伪需求到真实需求的过程，是本案例的前置过滤器。
-- **[[concept-纪浩-ai-collaboration-methodology]]**：纪浩 AI 协作方法论总纲。
+- **[[case-ji-hao-skill-market-problem-validation]]**：用四问法验证 Skill 市场从伪需求到真实需求的过程，是本案例的前置过滤器。
+- **[[concept-ji-hao-ai-collaboration-methodology]]**：纪浩 AI 协作方法论总纲。

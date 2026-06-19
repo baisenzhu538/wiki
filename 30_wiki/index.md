@@ -87,7 +87,7 @@ _Last updated: 2026-06-14T19:07:54+00:00_
 - cases/case-ji-hao-ai-workspace-chaos.md|案例：AI工作空间混乱导致'行为退化'而重来 — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - cases/case-纪浩-focus-prompt-design.md|案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接 — source `00_inbox/AI俱乐部-人和AI协作-纪浩-提示词案例01.txt`
 - cases/case-纪浩-from-zip-to-five-layers.md|纪浩：从微信传 zip 到五层协作体系 — source `00_inbox/纪浩-AI协作方法论-口述.md`
-- cases/case-纪浩-skill-market-problem-validation.md|案例：一堂Skill市场从伪需求到真实需求的四问验证 — source `00_inbox/纪浩-AI协作方法论-口述.md`
+- cases/case-ji-hao-skill-market-problem-validation.md|案例：一堂Skill市场从伪需求到真实需求的四问验证 — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - cases/case-ji-hao-skills-market.md|案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助 — source `00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt`
 - cases/case-ji-hao-ui-design-constraint-evolution.md|案例：纪浩从'求你了'到1100行约束文档的UI设计迭代 — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - cases/industrial-ai-ops-cases.md|产业 AI 运营落地：酒店/房产/电商三大案例的去伪存真 — source `src_20260614_eca9f5b3`
@@ -135,7 +135,7 @@ _Last updated: 2026-06-14T19:07:54+00:00_
 - concepts/concept-一堂-product-kernel.md|产品内核：用户愿意选择你的最小解决方案 — source `00_inbox/一堂-产品内核实操课-Truman-口述.txt`
 - concepts/concept-半肥猫-ai-learning-toolification-methodology.md|半肥猫 AI 学习落地方法论：从听课到造工具的三层递进 — source `00_inbox/半肥猫-AI学习落地-口述.md`
 - concepts/concept-纪浩-ai-collaboration-five-layer.md|概念：纪浩AI协作五层工作空间法 — source `00_inbox/纪浩-AI协作方法论-口述.md`
-- concepts/concept-纪浩-ai-collaboration-methodology.md|纪浩 AI 协作方法论：从判断到规模复用的五层体系 — source `00_inbox/纪浩-AI协作方法论-口述.md`
+- concepts/concept-ji-hao-ai-collaboration-methodology.md|纪浩 AI 协作方法论：从判断到规模复用的五层体系 — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - concepts/contingency-decision-making.md|contingency-decision-making — source `src_20260606_cde17edd`
 - concepts/course-to-skill-conversion.md|course-to-skill-conversion — source `src_20260606_90b44191`
 - concepts/data-labeling-best-practices-report.md|数据标注最佳实践调研报告 — source `HILTS框架（ScienceDirect, 2026）`

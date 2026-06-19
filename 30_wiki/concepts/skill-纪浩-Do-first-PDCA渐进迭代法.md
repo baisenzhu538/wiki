@@ -16,7 +16,7 @@ tools_required:
   - 迭代记录方式
 prerequisite_skills: skill-纪浩-真需求四要素验证法
 related:
-  - "[[concept-纪浩-ai-collaboration-methodology]]"
+  - "[[concept-ji-hao-ai-collaboration-methodology]]"
   - "[[case-纪浩-from-zip-to-five-layers]]"
   - "[[skill-纪浩-真需求四要素验证法]]"
   - "[[skill-纪浩-AI工作空间与导诊台设计法]]"
@@ -160,7 +160,7 @@ Do-first PDCA 的核心机制是**用行动解锁信息**。大多数人的分�
 
 ### 关联说明
 
-- [[concept-纪浩-ai-collaboration-methodology]] —— Do-first PDCA 是纪浩五层体系的L3，负责让AI在工作空间里持续迭代产出更好的结果
+- [[concept-ji-hao-ai-collaboration-methodology]] —— Do-first PDCA 是纪浩五层体系的L3，负责让AI在工作空间里持续迭代产出更好的结果
 - [[skill-纪浩-AI工作空间与导诊台设计法]] —— 工作空间搭建完成后，PDCA才有稳定的运行环境。没有工作空间的PDCA是在泥沼里打滚
 - [[case-纪浩-from-zip-to-five-layers]] —— 纪浩自己的UI设计Skill就是用Do-first PDCA从一步迭代到八步的典型案例
 

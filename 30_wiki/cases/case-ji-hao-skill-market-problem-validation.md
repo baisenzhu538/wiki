@@ -1,7 +1,7 @@
 ---
 
 
-id: case-纪浩-skill-market-problem-validation
+id: case-ji-hao-skill-market-problem-validation
 title: 案例：一堂Skill市场从伪需求到真实需求的四问验证
 type: case
 status: enriched
@@ -155,7 +155,7 @@ trust_level: low
 2. 是否有"原来以为是真需求，四问后发现是伪需求"的情况？
 3. 四问中哪一问对你的决策影响最大？
 
-- 使用本案例后有反馈，提交至 `60_feedback/cases/case-纪浩-skill-market-problem-validation`。
+- 使用本案例后有反馈，提交至 `60_feedback/cases/case-ji-hao-skill-market-problem-validation`。
 
 ## 关联参考
 

@@ -18,7 +18,7 @@ updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 related:
-  - "[[concept-纪浩-ai-collaboration-methodology]]"
+  - "[[concept-ji-hao-ai-collaboration-methodology]]"
   - "[[skill-纪浩-AI工作空间与导诊台设计法]]"
   - "[[skill-纪浩-Do-first-PDCA渐进迭代法]]"
   - "[[skill-纪浩-Agent开工检查单制作法]]"
@@ -42,7 +42,7 @@ diagnostic_signals:
 ---
 # 技能：任务交付物标准化
 
-- **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
 
 ## 原始表述
 
@@ -89,7 +89,7 @@ diagnostic_signals:
 
 ## 关联技能
 
-- [[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- [[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
 - [[skill-纪浩-AI工作空间与导诊台设计法]] — 交付物标准化是工作空间规范的一部分
 - [[skill-纪浩-Agent开工检查单制作法]] — 检查单和交付标准配合使用
 

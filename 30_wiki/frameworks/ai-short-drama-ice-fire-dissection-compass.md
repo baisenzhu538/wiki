@@ -29,7 +29,7 @@ related:
 - '[[ai-short-drama-framework-three-axes]]'
 - '[[ai-short-drama-conflict-three-axes]]'
 - '[[ai-short-drama-platform-policy-comparison]]'
-- '[[concept-纪浩-ai-collaboration-methodology]]'
+- '[[concept-ji-hao-ai-collaboration-methodology]]'
 tags:
 - '#industry/content-creation'
 - '#method/research-method'
@@ -146,7 +146,7 @@ diagnostic_signals:
 - [[ai-short-drama-plot-three-axes]]：剧情三板斧——拆本时重点检查的高潮反转维度
 - [[ai-short-drama-script-planning-three-axes]]：剧本策划三板斧——把拆本结论转译为写本输入
 - [[ai-short-drama-platform-policy-comparison]]：平台政策差异会直接影响钩子类型和文本语言选择
-- [[concept-纪浩-ai-collaboration-methodology]]：把拆本结论转化为 AI 可理解的投喂上下文
+- [[concept-ji-hao-ai-collaboration-methodology]]：把拆本结论转化为 AI 可理解的投喂上下文
 
 ---
 

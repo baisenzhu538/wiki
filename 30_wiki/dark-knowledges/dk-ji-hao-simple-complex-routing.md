@@ -12,7 +12,7 @@ source_refs:
 - 00_inbox/纪浩-AI协作方法论-口述.md
 - 00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md
 related:
-- '[[concept-纪浩-ai-collaboration-methodology]]'
+- '[[concept-ji-hao-ai-collaboration-methodology]]'
 created_at: 2026-06-08
 updated_at: '2026-06-16'
 pipeline:
@@ -44,4 +44,4 @@ trust_level: low
 ## 关联
 
 - [[skill-纪浩-AI工作空间与导诊台设计法]] —— 导诊台的具体搭建方法，包含路由规则的设计和维护
-- [[concept-纪浩-ai-collaboration-methodology]] —— 这个暗知识是五层体系中"当何时需要导诊台"的判断基准
+- [[concept-ji-hao-ai-collaboration-methodology]] —— 这个暗知识是五层体系中"当何时需要导诊台"的判断基准

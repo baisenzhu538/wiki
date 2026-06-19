@@ -23,7 +23,7 @@ related:
 - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-research-hypothesis-test]]'
-- '[[case-纪浩-skill-market-problem-validation]]'
+- '[[case-ji-hao-skill-market-problem-validation]]'
 - '[[yt-panproduct-execution-low-cost-mvp]]'
 - '[[yt-unit-model-overview]]'
 wiki_refs:
@@ -32,7 +32,7 @@ wiki_refs:
 - '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-research-hypothesis-test]]'
-- '[[case-纪浩-skill-market-problem-validation]]'
+- '[[case-ji-hao-skill-market-problem-validation]]'
 - '[[yt-panproduct-execution-low-cost-mvp]]'
 - '[[yt-unit-model-overview]]'
 definition_of_done:
@@ -207,6 +207,6 @@ diagnostic_signals:
 - **[[dk-yi-tang-wishful-thinking-kills-startups]]** — 陈贤敏克制了"资源充足就想多开店"的愿望思维，用实验数据替代美好设想。
 - **[[yt-entrepreneur-lean-validation]]** — 本案例是"低成本验证/MVP"工具的正面典范：陈贤敏用"开一家店"这个最小行为实验，验证了"中式汉堡能否在目标市场跑通"这个核心假设，而不是先冒风险规模化。
 - **[[yt-research-hypothesis-test]]** — 陈贤敏的验证过程对应"假设验证调研工具"的三步设计：关键假设（中式汉堡能否跑通）→可证伪问题（实验店用户复购率、价格弹性接受度）→最小实验（单店测试）。
-- **[[case-纪浩-skill-market-problem-validation]]** — 跨域对照：纪浩用四问验证法识别"伪需求"，陈贤敏用实验店验证"真需求"，两者共同说明"验证先于规模化"在不同业态中的落地形态。
+- **[[case-ji-hao-skill-market-problem-validation]]** — 跨域对照：纪浩用四问验证法识别"伪需求"，陈贤敏用实验店验证"真需求"，两者共同说明"验证先于规模化"在不同业态中的落地形态。
 - **[[yt-panproduct-execution-low-cost-mvp]]** — 实验店本质上是实体业态的"低成本MVP"：用一家真实门店的最小版本，验证核心假设后再决定是否全量投入。
 - **[[yt-unit-model-overview]]** — 本案例的核心是"单店模型"验证：把复制问题拆到最小经济单元，确认一个门店成立后再谈规模化。

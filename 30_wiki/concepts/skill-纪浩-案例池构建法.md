@@ -19,7 +19,7 @@ updated_at: '2026-06-16'
 ---
 # 技能：案例池构建法
 
-- **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
 
 ## 原始表述
 

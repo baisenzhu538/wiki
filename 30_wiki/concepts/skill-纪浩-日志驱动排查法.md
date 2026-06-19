@@ -18,7 +18,7 @@ tools_required:
   - 版本控制工具
 prerequisite_skills: skill-纪浩-AI工作空间与导诊台设计法
 related:
-  - "[[concept-纪浩-ai-collaboration-methodology]]"
+  - "[[concept-ji-hao-ai-collaboration-methodology]]"
   - "[[case-纪浩-from-zip-to-five-layers]]"
   - "[[skill-纪浩-AI工作空间与导诊台设计法]]"
   - "[[skill-纪浩-Do-first-PDCA渐进迭代法]]"
@@ -162,7 +162,7 @@ diagnostic_signals:
 
 ### 关联说明
 
-- [[concept-纪浩-ai-collaboration-methodology]] —— 日志驱动排查是纪浩五层体系中日志层的核心技能，负责把AI的执行过程变成可被人理解的事实
+- [[concept-ji-hao-ai-collaboration-methodology]] —— 日志驱动排查是纪浩五层体系中日志层的核心技能，负责把AI的执行过程变成可被人理解的事实
 - [[skill-纪浩-AI工作空间与导诊台设计法]] —— 日志是工作空间的组成部分，必须和其他四个模块一起搭建
 - [[skill-纪浩-Do-first-PDCA渐进迭代法]] —— 日志为PDCA提供了检查的客观依据，没有日志的Check是盲目的Check
 

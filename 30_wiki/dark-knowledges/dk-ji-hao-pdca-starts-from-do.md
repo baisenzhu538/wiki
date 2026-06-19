@@ -11,7 +11,7 @@ source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
 - 00_inbox/纪浩-AI协作方法论-口述.md
 related:
-- '[[concept-纪浩-ai-collaboration-methodology]]'
+- '[[concept-ji-hao-ai-collaboration-methodology]]'
 created_at: 2026-06-08
 updated_at: '2026-06-16'
 pipeline:
@@ -44,4 +44,4 @@ trust_level: low
 ## 关联
 
 - [[skill-纪浩-Do-first-PDCA渐进迭代法]] —— Do-first PDCA的具体执行流程，包含从一步到八步的演化方法
-- [[concept-纪浩-ai-collaboration-methodology]] —— 这个暗知识是五层体系中PDCA层的核心设计原则
+- [[concept-ji-hao-ai-collaboration-methodology]] —— 这个暗知识是五层体系中PDCA层的核心设计原则

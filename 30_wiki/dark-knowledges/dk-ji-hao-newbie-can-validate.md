@@ -14,7 +14,7 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 related:
-- '[[concept-纪浩-ai-collaboration-methodology]]'
+- '[[concept-ji-hao-ai-collaboration-methodology]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited

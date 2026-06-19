@@ -413,7 +413,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\concepts\yt-unit-model-three-tools.md
 
 ## [[case-truman-ai-partner]]
-- 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
+- 30_wiki\concepts\concept-ji-hao-ai-collaboration-methodology.md
 
 ## [[case-truman-ai-skill-engineering-guide]]
 - 30_wiki\cases\case-ai-agent-milestone-design.md
@@ -512,12 +512,12 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\dark-knowledges\dk-ji-hao-novice-mindset-advantage.md
 
 ## [[case-纪浩-from-zip-to-five-layers]]
-- 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
+- 30_wiki\concepts\concept-ji-hao-ai-collaboration-methodology.md
 - 30_wiki\concepts\skill-纪浩-Agent技能市场设计法.md
 - 30_wiki\concepts\skill-纪浩-Do-first-PDCA渐进迭代法.md
 - 30_wiki\concepts\skill-纪浩-真需求四要素验证法.md
 
-## [[case-纪浩-skill-market-problem-validation]]
+## [[case-ji-hao-skill-market-problem-validation]]
 - 30_wiki\concepts\skill-纪浩-AI对话上下文隔离.md
 - 30_wiki\concepts\skill-纪浩-problem-validation-four-checks.md
 - 30_wiki\dark-knowledges\dk-ji-hao-problem-vs-question.md
@@ -656,7 +656,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\dark-knowledges\dk-lz-code-is-disposable.md
 - 30_wiki\dark-knowledges\dk-ji-hao-constraint-beats-talent.md
 
-## [[concept-纪浩-ai-collaboration-methodology]]
+## [[concept-ji-hao-ai-collaboration-methodology]]
 - 30_wiki\cases\case-纪浩-focus-prompt-design.md
 - 30_wiki\cases\case-ji-hao-skills-market.md
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
@@ -1075,7 +1075,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 
 ## [[dk-ji-hao-ai-cant-design-structure]]
 - 30_wiki\cases\case-jh-yitang-vs-sqlhelper.md
-- 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
+- 30_wiki\concepts\concept-ji-hao-ai-collaboration-methodology.md
 - 30_wiki\concepts\industry-ai-cases.md
 - 30_wiki\dark-knowledges\dk-lz-ai-native-organization.md
 
@@ -1085,16 +1085,16 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\dark-knowledges\dk-ji-hao-novice-mindset-advantage.md
 
 ## [[dk-ji-hao-logs-fastest-ignored]]
-- 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
+- 30_wiki\concepts\concept-ji-hao-ai-collaboration-methodology.md
 
 ## [[dk-ji-hao-pdca-starts-from-do]]
-- 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
+- 30_wiki\concepts\concept-ji-hao-ai-collaboration-methodology.md
 
 ## [[dk-ji-hao-problem-vs-question]]
 - 30_wiki\concepts\skill-纪浩-problem-validation-four-checks.md
 
 ## [[dk-ji-hao-simple-complex-routing]]
-- 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
+- 30_wiki\concepts\concept-ji-hao-ai-collaboration-methodology.md
 
 ## double-loop-learning-argyris
 - 30_wiki\concepts\yt-decision-review.md
@@ -1731,7 +1731,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\concepts\skill-费曼简单提炼法.md
 
 ## [[skill-纪浩-AI工作空间与导诊台设计法]]
-- 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
+- 30_wiki\concepts\concept-ji-hao-ai-collaboration-methodology.md
 - 30_wiki\concepts\skill-纪浩-AI对话上下文隔离.md
 - 30_wiki\concepts\skill-纪浩-Do-first-PDCA渐进迭代法.md
 - 30_wiki\concepts\skill-纪浩-日志驱动排查法.md
@@ -1739,10 +1739,10 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\dark-knowledges\dk-ji-hao-simple-complex-routing.md
 
 ## [[skill-纪浩-Agent技能市场设计法]]
-- 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
+- 30_wiki\concepts\concept-ji-hao-ai-collaboration-methodology.md
 
 ## [[skill-纪浩-Do-first-PDCA渐进迭代法]]
-- 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
+- 30_wiki\concepts\concept-ji-hao-ai-collaboration-methodology.md
 - 30_wiki\concepts\skill-纪浩-AI工作空间与导诊台设计法.md
 - 30_wiki\concepts\skill-纪浩-Agent技能市场设计法.md
 - 30_wiki\concepts\skill-纪浩-日志驱动排查法.md
@@ -1762,12 +1762,12 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\dark-knowledges\dk-ji-hao-problem-vs-question.md
 
 ## [[skill-纪浩-日志驱动排查法]]
-- 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
+- 30_wiki\concepts\concept-ji-hao-ai-collaboration-methodology.md
 - 30_wiki\dark-knowledges\dk-ji-hao-logs-fastest-ignored.md
 
 ## [[skill-纪浩-真需求四要素验证法]]
 - 30_wiki\cases\case-ban-fei-mao-from-assignment-to-tool.md
-- 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
+- 30_wiki\concepts\concept-ji-hao-ai-collaboration-methodology.md
 - 30_wiki\concepts\skill-纪浩-AI工作空间与导诊台设计法.md
 
 ## [[skill-纪浩-里程碑验证法]]
@@ -3684,7 +3684,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\concepts\yt-personal-y-model-practice.md
 
 ## [[yt-note-ai-human-division]]
-- 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
+- 30_wiki\concepts\concept-ji-hao-ai-collaboration-methodology.md
 - 30_wiki\concepts\skill-提升笔记阅读舒适度.md
 - 30_wiki\concepts\yt-note-checklist-concept.md
 - 30_wiki\dark-knowledges\dk-note-maximum-common-divisor.md

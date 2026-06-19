@@ -8,7 +8,9 @@ domain:
 - yitang
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
-source_refs: []
+source_refs:
+- 10_raw/sources/src_20260617_627a8803-纪浩-ai协作方法论-口述.md
+- 10_raw/sources/src_20260617_15ca3bb2-ai俱乐部-人和ai协作-纪浩-参考案例-结构化.md
 created_at: 2026-06-09
 updated_at: 2026-06-19
 related:

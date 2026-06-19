@@ -18,7 +18,7 @@ updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 related:
-  - "[[concept-纪浩-ai-collaboration-methodology]]"
+  - "[[concept-ji-hao-ai-collaboration-methodology]]"
   - "[[skill-ai-problem-question-check]]"
   - "[[skill-纪浩-真需求四要素验证法]]"
   - "[[skill-ai-four-elements-validation]]"
@@ -42,7 +42,7 @@ diagnostic_signals:
 ---
 # 技能：Problem与Question区分法
 
-- **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
 
 ## 原始表述
 
@@ -91,7 +91,7 @@ AI时代AI能执行工具改变现实世界，区分Problem与Question避免将t
 
 ## 关联技能
 
-- [[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- [[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
 - [[skill-ai-problem-question-check]] — 更通用的problem/question区分法
 - [[skill-纪浩-真需求四要素验证法]] — 确认是problem后的详细验证
 - [[skill-ai-four-elements-validation]] — 四要素验证的AI应用版本

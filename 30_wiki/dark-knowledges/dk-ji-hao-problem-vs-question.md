@@ -14,10 +14,10 @@ source_refs:
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
-- '[[case-纪浩-skill-market-problem-validation]]'
+- '[[case-ji-hao-skill-market-problem-validation]]'
 - '[[skill-纪浩-problem-validation-four-checks]]'
 wiki_refs:
-- '[[case-纪浩-skill-market-problem-validation]]'
+- '[[case-ji-hao-skill-market-problem-validation]]'
 - '[[skill-纪浩-problem-validation-four-checks]]'
 pipeline:
 - confidence-published
@@ -80,10 +80,10 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- [[case-纪浩-skill-market-problem-validation]] — 展示了如何用四问法将模糊需求转化为可验证的真实Problem。关键转折点是找到了"微信传zip的痛点"这个真实场景
+- [[case-ji-hao-skill-market-problem-validation]] — 展示了如何用四问法将模糊需求转化为可验证的真实Problem。关键转折点是找到了"微信传zip的痛点"这个真实场景
 - [[skill-纪浩-problem-validation-four-checks]] — 可复制的检查清单，用于快速判断需求是Question还是Problem
 - [[case-ji-hao-ui-design-constraint-evolution]] — 纪浩从Question（"AI能帮我做UI吗？"）转到Problem（"每次做UI花极高成本，怎么把设计规范沉淀为可复用资产？"），最终产出可复用方案
 
 ## Synthesis
 
-- **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲

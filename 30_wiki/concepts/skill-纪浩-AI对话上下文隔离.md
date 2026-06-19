@@ -15,7 +15,7 @@ source_refs:
   - src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
 wiki_refs:
 - '[[ai-collaboration-mindset-shift]]'
-- '[[case-纪浩-skill-market-problem-validation]]'
+- '[[case-ji-hao-skill-market-problem-validation]]'
 definition_of_done:
 - 操作步骤清晰可执行
 - 适用场景有正反例
@@ -38,7 +38,7 @@ trust_level: medium-high
 
 > 纪浩在 AI 协作方法论中提出的核心实操。解决"AI 对话越聊越乱、越聊越偏"这个所有 AI 重度用户都会遇到的通用问题。
 
-- **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
 
 ## Claims
 
@@ -147,7 +147,7 @@ AI 的上下文窗口是有限的（即使现在动辄百万 token）。每个 t
 | 前置 | [[skill-纪浩-AI工作空间与导诊台设计法]] | 工作空间设计是做"任务隔离"的基础——没有清晰的工作空间，就无法做到一任务一对话 |
 | 互补 | [[skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]] | 清洗后的知识片段是"新对话注入"的原材料 |
 | 上位 | [[ai-collaboration-mindset-shift]] | 上下文隔离是纪浩"AI 协作思维转变"体系中的具体操作技能 |
-| 案例 | [[case-纪浩-skill-market-problem-validation]] | 纪浩在 Skills 市场验证中多次使用上下文隔离 |
+| 案例 | [[case-ji-hao-skill-market-problem-validation]] | 纪浩在 Skills 市场验证中多次使用上下文隔离 |
 
 ## Action Triggers
 

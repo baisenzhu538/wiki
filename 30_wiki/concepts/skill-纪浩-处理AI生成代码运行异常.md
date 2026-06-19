@@ -18,7 +18,7 @@ updated_at: "2026-06-17"
 confidence: 0.75
 trust_level: medium
 related:
-  - "[[concept-纪浩-ai-collaboration-methodology]]"
+  - "[[concept-ji-hao-ai-collaboration-methodology]]"
   - "[[skill-纪浩-AI工具脚本化约束]]"
   - "[[skill-纪浩-日志驱动排查法]]"
   - "[[skill-纪浩-Do-first-PDCA渐进迭代法]]"
@@ -42,7 +42,7 @@ diagnostic_signals:
 ---
 # 技能：处理AI生成代码运行异常
 
-- **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
 
 ## 原始表述
 
@@ -88,7 +88,7 @@ diagnostic_signals:
 
 ## 关联技能
 
-- [[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
+- [[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
 - [[skill-纪浩-AI工具脚本化约束]] — 脚本化减少环境差异导致的异常
 - [[skill-纪浩-日志驱动排查法]] — 异常排查需要日志支持
 - [[skill-纪浩-Do-first-PDCA渐进迭代法]] — 异常修复后迭代优化提示词

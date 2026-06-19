@@ -25,7 +25,7 @@ related:
 - '[[yt-panproduct-execution-low-cost-mvp]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
 - '[[case-yitang-tob-artificial-bone]]'
-- '[[case-纪浩-skill-market-problem-validation]]'
+- '[[case-ji-hao-skill-market-problem-validation]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[case-yitang-weekly-modeling-engine]]'
 - '[[case-smart-medicine-cabinet-failure-patterns-library]]'

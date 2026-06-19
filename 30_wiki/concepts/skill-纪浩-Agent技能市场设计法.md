@@ -18,7 +18,7 @@ tools_required:
   - Skill封装规范
 prerequisite_skills: skill-纪浩-Do-first-PDCA渐进迭代法
 related:
-  - "[[concept-纪浩-ai-collaboration-methodology]]"
+  - "[[concept-ji-hao-ai-collaboration-methodology]]"
   - "[[case-纪浩-from-zip-to-five-layers]]"
   - "[[skill-纪浩-Do-first-PDCA渐进迭代法]]"
   - "[[skill-纪浩-AI工作空间与导诊台设计法]]"
@@ -160,7 +160,7 @@ diagnostic_signals:
 
 ### 关联说明
 
-- [[concept-纪浩-ai-collaboration-methodology]] —— Skills市场是纪浩五层体系的L5，是规模复用的基础设施。前四层都是为了让L5有东西可以封装和复用
+- [[concept-ji-hao-ai-collaboration-methodology]] —— Skills市场是纪浩五层体系的L5，是规模复用的基础设施。前四层都是为了让L5有东西可以封装和复用
 - [[case-纪浩-from-zip-to-five-layers]] —— 纪浩团队的Skills市场是从微信传zip的痛点中长出来的，是一个典型的Agent-facing设计
 - [[skill-纪浩-Do-first-PDCA渐进迭代法]] —— Skill本身是用Do-first PDCA迭代出来的，市场只是让这个迭代成果能被复用
 
