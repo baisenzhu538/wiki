@@ -1,0 +1,29 @@
+[INFO] 2026-06-19 18:06:27,875 [RapidOCR] base.py:22: Using engine_name: onnxruntime
+[INFO] 2026-06-19 18:06:28,282 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\Administrator\Desktop\wiki\_tmp\ocr_venv\Lib\site-packages\rapidocr\models\ch_PP-OCRv4_det_mobile.onnx
+[INFO] 2026-06-19 18:06:28,282 [RapidOCR] main.py:65: Using C:\Users\Administrator\Desktop\wiki\_tmp\ocr_venv\Lib\site-packages\rapidocr\models\ch_PP-OCRv4_det_mobile.onnx
+[INFO] 2026-06-19 18:06:30,615 [RapidOCR] base.py:22: Using engine_name: onnxruntime
+[INFO] 2026-06-19 18:06:30,620 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\Administrator\Desktop\wiki\_tmp\ocr_venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-06-19 18:06:30,621 [RapidOCR] main.py:65: Using C:\Users\Administrator\Desktop\wiki\_tmp\ocr_venv\Lib\site-packages\rapidocr\models\ch_ppocr_mobile_v2.0_cls_mobile.onnx
+[INFO] 2026-06-19 18:06:30,857 [RapidOCR] base.py:22: Using engine_name: onnxruntime
+[INFO] 2026-06-19 18:06:30,915 [RapidOCR] download_file.py:60: File exists and is valid: C:\Users\Administrator\Desktop\wiki\_tmp\ocr_venv\Lib\site-packages\rapidocr\models\ch_PP-OCRv4_rec_mobile.onnx
+[INFO] 2026-06-19 18:06:30,916 [RapidOCR] main.py:65: Using C:\Users\Administrator\Desktop\wiki\_tmp\ocr_venv\Lib\site-packages\rapidocr\models\ch_PP-OCRv4_rec_mobile.onnx
+[1/16] OCR: 王欢-AI实战分享-AI native定义-示意图.png
+[2/16] OCR: 王欢-AI实战分享-AI业务档案的五个字段.png
+[3/16] OCR: 王欢-AI实战分享-AI双角色教练训练-示例图.png
+[4/16] OCR: 王欢-AI实战分享-AI工具链四级台阶-示意图.png
+[5/16] OCR: 王欢-AI实战分享-AI能力五层跃迁-示意图.png
+[6/16] OCR: 王欢-AI实战分享-BTICOE框架-示意图.png
+[7/16] OCR: 王欢-AI实战分享-GAN启发的三角色架构-示意图.png
+[8/16] OCR: 王欢-AI实战分享-harness的七个阶段-示意图.png
+[9/16] OCR: 王欢-AI实战分享-OODA循环-示意图.png
+[10/16] OCR: 王欢-AI实战分享-PACED框架-图-01.png
+[11/16] OCR: 王欢-AI实战分享-医语轻记-示意图.png
+[12/16] OCR: 王欢-AI实战分享-导演的工作方式-图-01.png
+[13/16] OCR: 王欢-AI实战分享-标准的力量-示意图.png
+[14/16] OCR: 王欢-AI实战分享-海报工具-示意图.png
+[15/16] OCR: 王欢-AI实战分享-选场景五条标准-示意图.png
+[16/16] OCR: 王欢-AI实战分享-飞轮第一圈-示意图.png
+
+完成。输出目录: 00_inbox\王欢AI实践心法\_ocr_output
+汇总文件: 00_inbox\王欢AI实践心法\_ocr_output\README.md
+合并原始文本: 00_inbox\王欢AI实践心法\_ocr_output\all_ocr_raw.md
