@@ -8,7 +8,7 @@ domain:
 - ai-collaboration
 - yitang
 created_at: '2026-06-19'
-updated_at: '2026-06-19'
+updated_at: '2026-06-20'
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -37,6 +37,11 @@ related:
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[framework-wanghuan-task-product-system]]'
 - '[[framework-wanghuan-ai-five-level-ladder]]'
+- '[[concept-wanghuan-tacit-knowledge-examples]]'
+- '[[human-ai-collaboration-double-triangle]]'
+- '[[concept-wanghuan-tacit-knowledge-examples]]'
+- '[[dk-wanghuan-magic-defeats-magic]]'
+- '[[dk-wanghuan-spec-trap]]'
 tags:
 - 王欢
 - AI业务档案
@@ -76,7 +81,7 @@ AI 业务档案是一个 5 字段模板，用来在每次与 AI 协作前，快�
 | 01 | 关于我 | About Me | 你的角色和核心职责是什么？ | 我是知识工厂的质量负责人，负责 wiki 卡片进入和出去的质量把关 |
 | 02 | 我服务谁 | Who I Serve | 你的客户/上级在乎什么？ | 内容生产者需要清晰标准，审查者需要可追溯的证据链 |
 | 03 | 我的风格偏好 | My Style | 你的表达习惯是什么？ | 简洁、结构化、少修辞、多用表格和 checklist |
-| 04 | 行业暗规则 | Tacit Rules | 哪些事不说但默认要遵守？ | 卡片必须有 source_refs，不能用"我觉得"代替证据 |
+| 04 | 行业暗规则 | Tacit Rules | 哪些事不说但默认要遵守？ | 卡片必须有 source_refs；给客户的报价留 8% 谈判空间；收到简历 48 小时内未回复，offer 接受率降 30%（详见 `[[concept-wanghuan-tacit-knowledge-examples]]`） |
 | 05 | 我的输出标准 | My Standards | 你的底线是什么？（不是格式） | 事实准确、逻辑自洽、可执行、有明确的 Action Trigger |
 
 > **第 4 个字段"行业暗规则"是王欢标星的重点**——高手和 AI 的差距，往往就在这些"不说但默认"的规则上。
@@ -107,6 +112,8 @@ AI 业务档案是一个 5 字段模板，用来在每次与 AI 协作前，快�
 - 不说但默认要遵守的事：
 - 新人常犯的错误：
 - 高手的隐性判断标准：
+
+> 参考示例：`[[concept-wanghuan-tacit-knowledge-examples]]`（招聘 48 小时回复规则、招投标 95% 报价规则、报价 8% 谈判空间等）
 
 ### 05 · 我的输出标准 / My Standards
 - 红线（绝对不能出现）：
