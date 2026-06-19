@@ -2,26 +2,42 @@
 id: dk-wanghuan-output-equals-standard-times-iteration
 title: 王欢暗知识：输出质量 = 标准 × 迭代
 type: dark-knowledge
-status: draft
+status: enriched
 domain:
 - human-ai-collaboration
 - ai-collaboration
 - yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
-author: 王语嫣
-reviewed_by: pending
-confidence: 0.82
-trust_level: medium
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: high
 source_person: 王欢
 source_context: 王欢 AI 实战分享课后问答（2026-06-18）
 source_refs:
-- "00_inbox/王欢AI实践心法/王欢-AI实战分享-从演员到导演-口述.txt"
+- src_20260618_wanghuan-ai-practice-sharing-actor-to-director-oral.txt
 related:
-- '[[human-ai-collaboration-double-triangle]]'
-- '[[dk-wanghuan-standard-by-iteration]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[framework-wanghuan-ooda-loop]]'
+- human-ai-collaboration-double-triangle
+- dk-wanghuan-standard-by-iteration
+- framework-wanghuan-actor-director-mode
+- framework-wanghuan-ooda-loop
+diagnostic_signals:
+- signal: "用户写了很详细的prompt，但只看一版结果"
+  framework_lens: 输出=标准×迭代——标准高但迭代少，输出质量不高
+  follow_up_question: "你强制至少3轮迭代了吗？每轮迭代都有明确的验收标准吗？"
+- signal: "用户反复让AI改，但说不出具体哪里不对"
+  framework_lens: 输出=标准×迭代——迭代多但标准不提升，输出质量不高
+  follow_up_question: "每轮迭代前，你明确验收标准了吗？标准是否在迭代中提升？"
+- signal: "用户说'AI输出总是60-70分'"
+  framework_lens: 输出=标准×迭代——检查是标准不够还是迭代不够
+  follow_up_question: "你的标准维度有几个？迭代次数是多少？两个乘数哪个更低？"
+- signal: "用户迭代20轮还没满意"
+  framework_lens: 输出=标准×迭代——迭代成本失控，需要设定终止条件
+  follow_up_question: "你设定迭代上限了吗？连续两轮无重大问题就应该终止。"
+- signal: "用户团队产出质量参差不齐"
+  framework_lens: 输出=标准×迭代——团队需要统一最低迭代次数和验收标准
+  follow_up_question: "团队有统一的最低迭代次数和验收标准吗？"
 tags:
 - 王欢
 - 暗知识
