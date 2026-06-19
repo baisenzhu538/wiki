@@ -1,0 +1,448 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        291,
+                        393,
+                        2712,
+                        720
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                338,
+                                426,
+                                2673,
+                                559
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        338,
+                                        426,
+                                        2673,
+                                        559
+                                    ],
+                                    "score": 0.975,
+                                    "content": "一堂项自管理-方案评估三角形",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "bbox": [
+                                612,
+                                626,
+                                2422,
+                                719
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        612,
+                                        628,
+                                        922,
+                                        709
+                                    ],
+                                    "score": 0.999,
+                                    "content": "Yitang",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        976,
+                                        626,
+                                        1363,
+                                        719
+                                    ],
+                                    "score": 0.998,
+                                    "content": "Project",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1412,
+                                        631,
+                                        2024,
+                                        717
+                                    ],
+                                    "score": 0.997,
+                                    "content": "Management",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        2076,
+                                        629,
+                                        2422,
+                                        698
+                                    ],
+                                    "score": 0.991,
+                                    "content": "Toolkit",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 0.5
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        846,
+                        921,
+                        2451,
+                        2170
+                    ],
+                    "blocks": [
+                        {
+                            "type": "image_body",
+                            "bbox": [
+                                846,
+                                921,
+                                2451,
+                                2170
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        846,
+                                        921,
+                                        2410,
+                                        2170
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                846,
+                                                921,
+                                                2410,
+                                                2170
+                                            ],
+                                            "score": 0.141,
+                                            "type": "image",
+                                            "image_path": "47ab5578dddaee0e312d5d380f2cbf23a32fc3928b830e7b73133afacf011726.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        846,
+                                        921,
+                                        2451,
+                                        1337.3333333333333
+                                    ],
+                                    "spans": [],
+                                    "index": 2
+                                },
+                                {
+                                    "bbox": [
+                                        846,
+                                        1337.3333333333333,
+                                        2451,
+                                        1753.6666666666665
+                                    ],
+                                    "spans": [],
+                                    "index": 3
+                                },
+                                {
+                                    "bbox": [
+                                        846,
+                                        1753.6666666666665,
+                                        2451,
+                                        2170.0
+                                    ],
+                                    "spans": [],
+                                    "index": 4
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                }
+            ],
+            "layout_bboxes": [],
+            "page_idx": 0,
+            "page_size": [
+                3050.0,
+                2900.0
+            ],
+            "_layout_tree": [],
+            "images": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        846,
+                        921,
+                        2451,
+                        2170
+                    ],
+                    "blocks": [
+                        {
+                            "type": "image_body",
+                            "bbox": [
+                                846,
+                                921,
+                                2451,
+                                2170
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        846,
+                                        921,
+                                        2410,
+                                        2170
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                846,
+                                                921,
+                                                2410,
+                                                2170
+                                            ],
+                                            "score": 0.141,
+                                            "type": "image",
+                                            "image_path": "47ab5578dddaee0e312d5d380f2cbf23a32fc3928b830e7b73133afacf011726.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        846,
+                                        921,
+                                        2451,
+                                        1337.3333333333333
+                                    ],
+                                    "spans": [],
+                                    "index": 2
+                                },
+                                {
+                                    "bbox": [
+                                        846,
+                                        1337.3333333333333,
+                                        2451,
+                                        1753.6666666666665
+                                    ],
+                                    "spans": [],
+                                    "index": 3
+                                },
+                                {
+                                    "bbox": [
+                                        846,
+                                        1753.6666666666665,
+                                        2451,
+                                        2170.0
+                                    ],
+                                    "spans": [],
+                                    "index": 4
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3
+                }
+            ],
+            "tables": [],
+            "interline_equations": [],
+            "discarded_blocks": [],
+            "need_drop": false,
+            "drop_reason": [],
+            "para_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        291,
+                        393,
+                        2712,
+                        720
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                338,
+                                426,
+                                2673,
+                                559
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        338,
+                                        426,
+                                        2673,
+                                        559
+                                    ],
+                                    "score": 0.975,
+                                    "content": "一堂项自管理-方案评估三角形",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "bbox": [
+                                612,
+                                626,
+                                2422,
+                                719
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        612,
+                                        628,
+                                        922,
+                                        709
+                                    ],
+                                    "score": 0.999,
+                                    "content": "Yitang",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        976,
+                                        626,
+                                        1363,
+                                        719
+                                    ],
+                                    "score": 0.998,
+                                    "content": "Project",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1412,
+                                        631,
+                                        2024,
+                                        717
+                                    ],
+                                    "score": 0.997,
+                                    "content": "Management",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        2076,
+                                        629,
+                                        2422,
+                                        698
+                                    ],
+                                    "score": 0.991,
+                                    "content": "Toolkit",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        }
+                    ],
+                    "index": 0.5,
+                    "page_num": "page_0",
+                    "page_size": [
+                        3050.0,
+                        2900.0
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        846,
+                        921,
+                        2451,
+                        2170
+                    ],
+                    "blocks": [
+                        {
+                            "type": "image_body",
+                            "bbox": [
+                                846,
+                                921,
+                                2451,
+                                2170
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        846,
+                                        921,
+                                        2410,
+                                        2170
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                846,
+                                                921,
+                                                2410,
+                                                2170
+                                            ],
+                                            "score": 0.141,
+                                            "type": "image",
+                                            "image_path": "47ab5578dddaee0e312d5d380f2cbf23a32fc3928b830e7b73133afacf011726.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        846,
+                                        921,
+                                        2451,
+                                        1337.3333333333333
+                                    ],
+                                    "spans": [],
+                                    "index": 2
+                                },
+                                {
+                                    "bbox": [
+                                        846,
+                                        1337.3333333333333,
+                                        2451,
+                                        1753.6666666666665
+                                    ],
+                                    "spans": [],
+                                    "index": 3
+                                },
+                                {
+                                    "bbox": [
+                                        846,
+                                        1753.6666666666665,
+                                        2451,
+                                        2170.0
+                                    ],
+                                    "spans": [],
+                                    "index": 4
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "page_num": "page_0",
+                    "page_size": [
+                        3050.0,
+                        2900.0
+                    ]
+                }
+            ]
+        }
+    ],
+    "_parse_type": "ocr",
+    "_version_name": "1.3.12"
+}
