@@ -1,6 +1,6 @@
 # 科学决策 - VLM 描述汇总
 
-模型: `MiniMax-VL-01`
+模型: `MiniMax-M3`
 
 图片数: 1
 成功: 0
@@ -13,4 +13,4 @@
 
 ## 失败列表
 
-- 一堂-科学决策-ROI决策评估画布-案例01.png: 'NoneType' object is not subscriptable
+- 一堂-科学决策-ROI决策评估画布-案例01.png: Expecting value: line 11 column 30 (char 570)
