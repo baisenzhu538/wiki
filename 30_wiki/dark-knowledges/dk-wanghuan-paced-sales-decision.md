@@ -11,10 +11,13 @@ difficulty: "intermediate"
 language: "zh-CN"
 created_at: 2026-06-19T10:02:33+00:00
 review_date: 2026-06-19T10:02:33+00:00
-reviewed_by: ""
-source_refs: []
-source_person: ""
-source_context: ""
+reviewed_by: pending
+trust_level: medium
+source_refs:
+- "00_inbox/王欢AI实践心法/王欢-AI实战分享-从演员到导演-笔记.txt"
+- "00_inbox/王欢AI实践心法/王欢-AI实战分享-从任务到产品再到系统-逐字稿.md"
+source_person: 王欢
+source_context: 王欢 AI 实战分享（2026-06-18 授课）"
 query_triggers: []
 aliases: []
 tags:
