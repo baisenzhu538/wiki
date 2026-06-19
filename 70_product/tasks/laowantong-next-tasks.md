@@ -4524,28 +4524,28 @@ total: 1191, p0: 0, p1: 0, clean: 1191, yaml_error: 0
 
 ## 第二十七节任务：清尾剩余 32 张 ASCII 高价值 draft
 
-**目标**：剩余 ASCII 高价值 draft 共 32 张——21 张 master 系统暗知识、9 张 design 视觉/电商暗知识、2 张其他（parking-lot 索引 + session 记录）。本批次一次性清尾，完成后 ASCII 高价值 draft 池基本清空。
+**目标**：剩余 ASCII 高价值 draft 共 31 张——21 张 master 系统暗知识、9 张 design 视觉/电商暗知识、1 张其他（parking-lot 索引）。`session-20260619-xingangwan-business-formula-reconstruction` 位于 `60_feedback/usage-logs/`，不在 `30_wiki` 范围内，故剔除。本批次一次性清尾，完成后 30_wiki 内 ASCII 高价值 draft 池基本清空。
 
 **选取策略**：
 - master 系统暗知识按 P-* / F-KDO 编号分组，优先处理 P 类（问题/陷阱）；
 - design 视觉暗知识按 `dk-yb*` 分组，统一补齐标准 dk 结构；
-- `parking-lot` 和 `session-20260619-xingangwan-business-formula-reconstruction` 作为收尾索引/会话记录处理；
+- `parking-lot` 作为收尾索引处理；
 - 所有卡 source_refs 以通用 KDO 源 `10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md` 占位或保留原有 `.agent`/`.kdo` 内源，confidence≤0.89。
 
-### 目标卡清单（32 张）
+### 目标卡清单（31 张）
 
 | 批次 | 主题 | 数量 | 卡片 ID |
 |:---|:---|:---:|:---|
 | 1 | Master P 类暗知识 | 7 | `dk-p1-model-switch-env`、`dk-p2-tmux-cache`、`dk-p3-auth-cache`、`dk-p5-cc-connect-config`、`dk-p6-session-resume-fail`、`dk-p7-ocr-skip`、`dk-p9-glob-miss` |
 | 2 | Master P/F 类暗知识 | 8 | `dk-p8-toolkit-forget`、`dk-p10-oral-ban`、`dk-p13-token-burn`、`dk-p14-zombie`、`dk-p17-accuracy-gap`、`dk-p19-quote-yaml`、`dk-p20-bigram-fail`、`dk-f3-state-json-race-condition` |
 | 3 | Master F/Design 暗知识 | 8 | `dk-f4-wrong-workdir`、`dk-f5-stale-feedback-ref`、`dk-f7-surface-translation`、`dk-f8-phony-wikilink`、`dk-f9-generic-critique`、`dk-f13-handwritten-yaml-parser`、`dk-yb11-visual-book-reverse`、`dk-yb16-ecommerce-product-image-vs-lucky-draw` |
-| 4 | Design / 其他 | 9 | `dk-yb18-small-shop-image-mismatch`、`dk-yb19-visual-strategy-price-match`、`dk-yb22-visual-presentation-scene-match`、`dk-yb23-ai-pre-screen-three-minutes`、`dk-yb27-pseudo-layer-evasion`、`dk-yb30-ecommerce-channel-version`、`yt-tool-ai-ppt-maker`、`parking-lot`、`session-20260619-xingangwan-business-formula-reconstruction` |
+| 4 | Design / 其他 | 8 | `dk-yb18-small-shop-image-mismatch`、`dk-yb19-visual-strategy-price-match`、`dk-yb22-visual-presentation-scene-match`、`dk-yb23-ai-pre-screen-three-minutes`、`dk-yb27-pseudo-layer-evasion`、`dk-yb30-ecommerce-channel-version`、`yt-tool-ai-ppt-maker`、`parking-lot` |
 
 ### 进度
 
-- [ ] 批次 1：Master P 类暗知识（7 张）
-- [ ] 批次 2：Master P/F 类暗知识（8 张）
-- [ ] 批次 3：Master F/Design 暗知识（8 张）
-- [ ] 批次 4：Design / 其他（9 张）
-- [ ] 跨域 dk 卡（1-2 张）
-- [ ] 全库门禁复核 + 写小结
+- [x] 批次 1：Master P 类暗知识（7 张）
+- [x] 批次 2：Master P/F 类暗知识（8 张）
+- [x] 批次 3：Master F/Design 暗知识（8 张）
+- [x] 批次 4：Design / 其他（8 张）
+- [x] 跨域 dk 卡（2 张）
+- [x] 全库门禁复核 + 写小结

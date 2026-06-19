@@ -21,7 +21,6 @@ related:
 - '[[yt-tool-meeting-designer]]'
 - '[[yt-tool-strategy-workshop]]'
 - '[[yt-management-scientific-meetings]]'
-- '[[yt-model-personal-branding]]'
 contradicts: null
 query_triggers:
 - AI PPT
@@ -113,4 +112,3 @@ author: 老顽童
 | [[yt-tool-meeting-designer]] | 会议场景下先判断是否需要PPT——信息同步型会议可能根本不需要幻灯片 |
 | [[yt-tool-strategy-workshop]] | 战略工作坊等需要深度讨论的场景，PPT可能是认知障碍，应使用信息包替代 |
 | [[yt-management-scientific-meetings]] | 科学会议基本原则：白板 > PPT；本工具只适用于信息传递型演讲 |
-| [[yt-model-personal-branding]] | 个人品牌视觉一致性要求PPT风格与品牌资产（主色、辅色、字体）对齐 |
