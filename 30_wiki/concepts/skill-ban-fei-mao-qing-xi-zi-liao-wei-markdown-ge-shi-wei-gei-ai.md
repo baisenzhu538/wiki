@@ -6,7 +6,9 @@ status: enriched
 author: 半肥猫
 reviewed_by: 欧阳锋
 confidence: 0.88
-source_refs: []
+trust_level: medium
+source_refs:
+  - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 related:
   - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
   - '[[skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]'

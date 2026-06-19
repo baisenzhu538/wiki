@@ -8,7 +8,8 @@ domain:
 - ai-collaboration
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
-source_refs: []
+source_refs:
+  - 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required:
 - 向量化工具
 - 向量数据库
