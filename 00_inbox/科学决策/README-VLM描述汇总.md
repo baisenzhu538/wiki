@@ -13,4 +13,4 @@
 
 ## 失败列表
 
-- 一堂-科学决策-ROI决策评估画布-案例01.png: Expecting value: line 11 column 30 (char 570)
+- 一堂-科学决策-ROI决策评估画布-案例01.png: Expecting ',' delimiter: line 4 column 142 (char 202)

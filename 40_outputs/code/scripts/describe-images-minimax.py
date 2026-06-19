@@ -127,12 +127,20 @@ def describe_image(api_key: str, image_path: Path) -> dict:
     content = content.strip()
     if content.startswith("```json"):
         content = content[7:]
-    if content.startswith("```"):
+    elif content.startswith("```"):
         content = content[3:]
     if content.endswith("```"):
         content = content[:-3]
     content = content.strip()
-    return json.loads(content)
+
+    try:
+        return json.loads(content)
+    except json.JSONDecodeError:
+        # Fallback: extract first JSON object from text
+        match = re.search(r"\{.*\}", content, re.DOTALL)
+        if match:
+            return json.loads(match.group(0))
+        raise
 
 
 def save_description(output_path: Path, image_path: Path, result: dict):
