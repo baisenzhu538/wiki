@@ -1,0 +1,72 @@
+[
+  {
+    "score": 10,
+    "grade": "A_USABLE",
+    "issues": [],
+    "simulated_question": "讲不清目标客户每年在类似事项上花多少钱，只能用\"行业很大\"说服自己",
+    "actionable": true,
+    "has_boundary": true,
+    "wikilink_count": 9,
+    "id": "yt-tob-demand-metrics",
+    "title": "To B 需求测算双指标：成本占有率 + 业务天花板",
+    "type": "framework",
+    "status": "enriched"
+  },
+  {
+    "score": 10,
+    "grade": "A_USABLE",
+    "issues": [],
+    "simulated_question": "审查者在对话中说\"后续不要 X\"\"全面禁止 Y\"，但任务文件里找不到对应约束",
+    "actionable": true,
+    "has_boundary": true,
+    "wikilink_count": 3,
+    "id": "dk-p10-oral-ban",
+    "title": "P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件",
+    "type": "dark-knowledge",
+    "status": "enriched"
+  },
+  {
+    "score": 10,
+    "grade": "A_USABLE",
+    "issues": [],
+    "simulated_question": "用户把MVP做成完整产品",
+    "actionable": true,
+    "has_boundary": true,
+    "wikilink_count": 13,
+    "id": "yt-entrepreneur-lean-validation",
+    "title": "低成本验证/MVP",
+    "type": "tool",
+    "status": "enriched"
+  },
+  {
+    "score": 9,
+    "grade": "B_PARTIAL",
+    "issues": [
+      "NO_DIAGNOSTIC_SIGNALS",
+      "FEW_WIKILINKS"
+    ],
+    "simulated_question": "你能帮我理解国际自动取药机/药房模式经验与启示吗？我遇到了相关问题。",
+    "actionable": true,
+    "has_boundary": true,
+    "wikilink_count": 0,
+    "id": "concept-smart-medicine-cabinet-international-models",
+    "title": "国际自动取药机/药房模式经验与启示",
+    "type": "concept",
+    "status": "enriched"
+  },
+  {
+    "score": 10,
+    "grade": "A_USABLE",
+    "issues": [
+      "NO_DIAGNOSTIC_SIGNALS"
+    ],
+    "simulated_question": "你能帮我理解技能：使用一页纸速查卡快速调用框架吗？我遇到了相关问题。",
+    "actionable": true,
+    "has_boundary": true,
+    "wikilink_count": 2,
+    "id": "skill-使用一页纸速查卡快速调用框架",
+    "title": "技能：使用一页纸速查卡快速调用框架",
+    "type": "tool",
+    "status": "enriched"
+  }
+]
