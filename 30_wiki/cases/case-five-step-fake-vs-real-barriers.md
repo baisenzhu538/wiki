@@ -7,6 +7,9 @@ type: case
 domain:
 - yitang
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260610_426daf30-一堂-一堂五步法-壁垒-口述
   - src_20260610_8ac68c66-一堂-一堂五步法-壁垒-笔记
   - src_20260610_a6f3e5b3-一堂-一堂五步法-壁垒-假的壁垒

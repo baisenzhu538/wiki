@@ -4,6 +4,9 @@ id: ai-short-drama-ice-fire-dissection-compass
 title: 冰火拆本罗盘：短剧剧本逆向拆解五维模型
 type: framework
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260613_c17fcdb2-ice-fire-dissection-compass
   - src_20260613_687c4ec0-transcript
   - src_20260613_12d63c1c-notes

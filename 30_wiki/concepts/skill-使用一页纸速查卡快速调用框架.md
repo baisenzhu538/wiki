@@ -10,6 +10,7 @@ domain:
 source_person: 课程设计者
 source_context: src_20260609_1c8b4d0e
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260609_1c8b4d0e-ocr-一堂-单元模型-规模对抗实操难点
 wiki_refs:
 - '[[yt-five-step-method]]'

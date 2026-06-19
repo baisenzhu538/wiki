@@ -9,19 +9,20 @@ domain:
 source_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
+- 10_raw/sources/src_20260619_6b081aec_00_inbox_AI俱乐部_AI学习落地_半肥猫_口述.txt
   - 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
 created_at: "2026-06-08"
 updated_at: "2026-06-17"
 related:
   - "[[case-半肥猫-course-to-skill]]"
   - "[[skill-半肥猫-ai-research-validation]]"
-  - "[[dk-半肥猫-silky-answers-are-dangerous]]"
+  - "[[dk-ban-fei-mao-silky-answers-are-dangerous]]"
   - "[[skill-半肥猫-课程Skill化的八步工作流]]"
-  - "[[skill-半肥猫-设计Skill的评分规则与风险边界]]"
+  - "[[skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
 wiki_refs:
   - "[[case-半肥猫-course-to-skill]]"
   - "[[skill-半肥猫-ai-research-validation]]"
-  - "[[dk-半肥猫-silky-answers-are-dangerous]]"
+  - "[[dk-ban-fei-mao-silky-answers-are-dangerous]]"
 definition_of_done:
   - 八步工作流已完整记录
   - 12维度评分标准已提供
@@ -234,8 +235,8 @@ diagnostic_signals:
 ### 关联知识节点
 - **实践案例：**[[case-半肥猫-course-to-skill]] — 案例是一次成功的实践，技能是可复制的方法。案例告诉你"可以转成"，技能告诉你"怎么重复转成"
 - **上游输入：**[[skill-半肥猫-ai-research-validation]] — 调研纠偏技能用于"获取高质量信息输入"，本技能用于"将信息输入转化为可复用工具"。两者是同一条产业链的上下游
-- **质量警示：**[[dk-半肥猫-silky-answers-are-dangerous]] — 暗知告诉你"为什么要纠偏"（AI首轮回答是推理而非证据），技能告诉你"怎么纠偏"。两者缺一不可
-- **前置条件：**[[dk-半肥猫-real-business-is-the-engine]] — 如果课程不能解决真实业务问题，那么无论技术上转得多好，都是"用锤子找钉子"
+- **质量警示：**[[dk-ban-fei-mao-silky-answers-are-dangerous]] — 暗知告诉你"为什么要纠偏"（AI首轮回答是推理而非证据），技能告诉你"怎么纠偏"。两者缺一不可
+- **前置条件：**[[dk-ban-fei-mao-real-business-is-the-engine]] — 如果课程不能解决真实业务问题，那么无论技术上转得多好，都是"用锤子找钉子"
 
 ### 知识体系定位
 - 本技能位于 **AI协作产品化层**，是"知识→工具→协议”转化链的核心环节

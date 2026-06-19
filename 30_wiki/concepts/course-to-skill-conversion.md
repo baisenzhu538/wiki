@@ -11,6 +11,7 @@ domain:
   - decision-making
 status: enriched
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260606_90b44191-没有人呀现在
 component_of:
   - ai-learning-closed-loop

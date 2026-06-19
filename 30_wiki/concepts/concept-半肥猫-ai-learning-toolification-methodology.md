@@ -16,15 +16,15 @@ source_refs:
 created_at: 2026-06-07
 updated_at: '2026-06-17'
 related:
-- '[[skill-半肥猫-动态读取-向量化管理迭代知识]]'
-- '[[case-半肥猫-conversion-hacker-skill]]'
-- '[[case-半肥猫-skill-ab-test]]'
-- '[[case-半肥猫-from-assignment-to-tool]]'
+- '[[skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
+- '[[case-ban-fei-mao-conversion-hacker-skill]]'
+- '[[case-ban-fei-mao-skill-ab-test]]'
+- '[[case-ban-fei-mao-from-assignment-to-tool]]'
 - '[[case-半肥猫-course-to-skill]]'
-- '[[dk-半肥猫-silky-answer-warning]]'
-- '[[dk-半肥猫-skill-rejection-value]]'
-- '[[dk-半肥猫-atomic-no-standard]]'
-- '[[dk-半肥猫-real-business-is-the-engine]]'
+- '[[dk-ban-fei-mao-silky-answer-warning]]'
+- '[[dk-ban-fei-mao-skill-rejection-value]]'
+- '[[dk-ban-fei-mao-atomic-no-standard]]'
+- '[[dk-ban-fei-mao-real-business-is-the-engine]]'
 - '[[concept-纪浩-ai-collaboration-methodology]]'
 - '[[yt-note-ai-human-division]]'
 - '[[ai-native-五层进阶从答案到效率到作品到产品到系统]]'
@@ -187,7 +187,7 @@ diagnostic_signals:
 
 ### 成功案例
 
-- **[[case-半肥猫-from-assignment-to-tool]]**：半肥猫将一堂 AIGC 调研课程作业，通过连续纠偏 AI、强制证据纪律，最终沉淀为一套可复用的调研工具。关键转折：AI 首轮回答"老板买解脱、职场人买底气、博主买效率"是纯推理，经纠偏后发现"已有流量但被卡住的 IP/博主"付费意愿最强，一个纠偏带来了完全不同的商业结论。
+- **[[case-ban-fei-mao-from-assignment-to-tool]]**：半肥猫将一堂 AIGC 调研课程作业，通过连续纠偏 AI、强制证据纪律，最终沉淀为一套可复用的调研工具。关键转折：AI 首轮回答"老板买解脱、职场人买底气、博主买效率"是纯推理，经纠偏后发现"已有流量但被卡住的 IP/博主"付费意愿最强，一个纠偏带来了完全不同的商业结论。
 
 - **[[case-半肥猫-course-to-skill]]**：半肥猫将「转化率黑客」课程转化为 AI Skill，设计八步工作流和 12 维度评分标准。关键数据：正常场景 Skill 得 36 分 vs 裸模型 8 分（差距 28 分）；最大差异项为"拒绝能力"（Skill 3 分 vs 裸模型 0 分）。
 
@@ -207,18 +207,18 @@ diagnostic_signals:
 |------|----------|------|
 | 技能落地 | [[skill-半肥猫-边学边练边沉淀的AI学习法]] | L1 学习落地法的完整操作流程 |
 | 技能落地 | [[skill-半肥猫-课程Skill化的八步工作流]] | L2 课程 Skill 化的工程化路径 |
-| 技能落地 | [[skill-半肥猫-追问AI证据并标注信源]] | L1 三轮检查的核心技能——追问证据 |
-| 技能落地 | [[skill-半肥猫-优先使用官方权威信源做证据]] | L1 信源纪律的具体操作 |
-| 技能落地 | [[skill-半肥猫-清洗资料为Markdown格式喂给AI]] | L3 知识库管理——资料预处理 |
-| 技能落地 | [[skill-半肥猫-用YAML格式做知识库原子化标签]] | L3 知识库管理——原子化与标签体系 |
-| 技能落地 | [[skill-半肥猫-动态读取-向量化管理迭代知识]] | L3 知识库管理——动态更新机制 |
-| 技能落地 | [[skill-半肥猫-用Skill做对比测试验证效果]] | L2 八步中的第7步——测试验证 |
-| 技能落地 | [[skill-半肥猫-设计Skill的评分规则与风险边界]] | L2 八步中的第4步——诊断协议设计 |
-| 案例 | [[case-半肥猫-conversion-hacker-skill]] | L2 的完整实例——转化率黑客 Skill 制作 |
-| 案例 | [[case-半肥猫-skill-ab-test]] | L2 测试阶段的 A/B 对比实例 |
-| 暗知识 | [[dk-半肥猫-silky-answer-warning]] | "AI 回答越丝滑越有问题"——L1 的底层警觉 |
-| 暗知识 | [[dk-半肥猫-skill-rejection-value]] | "Skill 的最大价值是拒绝能力"——L2 的核心洞察 |
-| 暗知识 | [[dk-半肥猫-atomic-no-standard]] | "原子化没有固定标准"——L3 的灵活原则 |
+| 技能落地 | [[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]] | L1 三轮检查的核心技能——追问证据 |
+| 技能落地 | [[skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]] | L1 信源纪律的具体操作 |
+| 技能落地 | [[skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]] | L3 知识库管理——资料预处理 |
+| 技能落地 | [[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]] | L3 知识库管理——原子化与标签体系 |
+| 技能落地 | [[skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]] | L3 知识库管理——动态更新机制 |
+| 技能落地 | [[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]] | L2 八步中的第7步——测试验证 |
+| 技能落地 | [[skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]] | L2 八步中的第4步——诊断协议设计 |
+| 案例 | [[case-ban-fei-mao-conversion-hacker-skill]] | L2 的完整实例——转化率黑客 Skill 制作 |
+| 案例 | [[case-ban-fei-mao-skill-ab-test]] | L2 测试阶段的 A/B 对比实例 |
+| 暗知识 | [[dk-ban-fei-mao-silky-answer-warning]] | "AI 回答越丝滑越有问题"——L1 的底层警觉 |
+| 暗知识 | [[dk-ban-fei-mao-skill-rejection-value]] | "Skill 的最大价值是拒绝能力"——L2 的核心洞察 |
+| 暗知识 | [[dk-ban-fei-mao-atomic-no-standard]] | "原子化没有固定标准"——L3 的灵活原则 |
 | 对位 | [[concept-纪浩-ai-collaboration-methodology]] | 纪浩讲"怎么管理 AI 执行"，半肥猫讲"怎么管理人学习"——同一套哲学的两个侧面 |
 | 对位 | skill-纪浩-four-elements-validation | 纪浩的四要素验证 ↔ 半肥猫的三轮检查——都是前置判断框架 |
 | 对位 | skill-纪浩-dofirst-pdca | 纪浩的 Do-first PDCA ↔ 半肥猫的边学边练——都是从行动中迭代 |

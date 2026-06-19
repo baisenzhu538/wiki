@@ -28,6 +28,7 @@ reviewed_by: 黄药师
 source_of:
 - yt-model-prompt-engineering
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260522_a89ab860-meta-prompt-eng
 status: enriched
 title: 吴恩达提示词课程·一堂拆书精华

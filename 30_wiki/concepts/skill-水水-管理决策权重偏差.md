@@ -9,6 +9,7 @@ domain:
 source_person: 水水
 source_context: 拆书会-偶然
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - source_unknown
 wiki_refs:
   - "[[yt-decision-y-model]]"

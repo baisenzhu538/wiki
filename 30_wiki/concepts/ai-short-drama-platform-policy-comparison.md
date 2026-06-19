@@ -4,6 +4,9 @@ id: ai-short-drama-platform-policy-comparison
 title: 主流短剧平台政策对比：抖音/红果/快手/腾讯/爱奇艺/优酷/芒果
 type: concept
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260613_500dbed8-platform-policy-comparison
   - src_20260613_12d63c1c-notes
   - src_20260613_687c4ec0-transcript

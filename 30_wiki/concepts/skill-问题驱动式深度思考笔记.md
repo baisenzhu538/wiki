@@ -10,6 +10,7 @@ language: zh-CN
 version: 1
 confidence: 0.75
 source_refs:
+- 10_raw/sources/src_20260619_12c87c06_00_inbox_一堂_AI时代请单体笔记_Truman_口述_02.txt
   - 00_inbox/一堂-AI时代请单体笔记-Truman-口述-02.txt
 related:
   - "[[yt-note-l4-internalization]]"

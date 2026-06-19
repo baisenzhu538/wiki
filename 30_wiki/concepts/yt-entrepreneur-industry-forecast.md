@@ -23,6 +23,7 @@ query_triggers:
   - "创业成功率"
 review_date: 2026-06-11
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
 source_refs:
   - src_20260614_b9fbfc2b-theme-industry-ai-cases-summary

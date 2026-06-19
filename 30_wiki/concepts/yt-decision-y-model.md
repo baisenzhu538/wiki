@@ -31,6 +31,8 @@ related:
 - '[[yt-five-step-method]]'
 reviewed_by: 周伯通
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02
   - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 status: enriched
@@ -440,5 +442,5 @@ Y模型不是单一工具，而是"四套操作系统"——根据决策场景�
 
 ## Related Cards
 
-- **[[dk-一堂-wishful-thinking-kills-startups]]** — 本暗知卡揭示了Y模型决策框架的心理对手——愿望思维。Y模型的核心价值之一就是用强制列表收益与成本的方式，拦截System 1的乐观偏差。
+- **[[dk-yi-tang-wishful-thinking-kills-startups]]** — 本暗知卡揭示了Y模型决策框架的心理对手——愿望思维。Y模型的核心价值之一就是用强制列表收益与成本的方式，拦截System 1的乐观偏差。
 - **[[concept-一堂-hypothesis-driven-business-methodology]]** — 本概念卡与Y模型在"先胜后战"原则上高度兼容：两者都强调在大规模投入前先验证核心假设。Y模型偏重决策评估，假设驱动方法论偏重业务拆解与验证节奏。

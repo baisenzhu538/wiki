@@ -11,6 +11,7 @@ domain:
 source_person: Truman
 source_context: 一堂-个人修炼-泛产品设计工具篇口述版.md
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260510_79f0f8c6-一堂-个人修炼-泛产品设计工具篇口述版
 related:
 - '[[dk-truman-iteration-to-aesthetic-ceiling]]'

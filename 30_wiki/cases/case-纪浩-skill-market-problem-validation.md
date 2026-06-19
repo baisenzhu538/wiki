@@ -11,18 +11,19 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 reviewed_by: 老顽童
 related:
-- '[[dk-纪浩-problem-vs-question]]'
+- '[[dk-ji-hao-problem-vs-question]]'
 - '[[skill-纪浩-problem-validation-four-checks]]'
 - '[[concept-纪浩-ai-collaboration-five-layer]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 wiki_refs:
-- '[[dk-纪浩-problem-vs-question]]'
+- '[[dk-ji-hao-problem-vs-question]]'
 - '[[skill-纪浩-problem-validation-four-checks]]'
 - '[[concept-纪浩-ai-collaboration-five-layer]]'
 - '[[yt-entrepreneur-lean-validation]]'

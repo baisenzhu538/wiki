@@ -11,6 +11,10 @@ domain:
 source_person: Truman
 source_context: 一堂《AI时代清单体笔记》课程
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01
   - src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02
   - src_20260510_cfbce5d1-Truman的个人成长五步法
@@ -35,7 +39,7 @@ tags:
 created_at: 2026-06-07
 updated_at: '2026-06-16'
 related:
-- '[[case-纪浩-skills-market]]'
+- '[[case-ji-hao-skills-market]]'
 - '[[yt-decision-ai-partner]]'
 - '[[yt-personal-checklist-notes]]'
 - '[[yt-note-checklist-concept]]'
@@ -160,7 +164,7 @@ Agent 的输入（学生交的笔记）和输出（反馈/训练计划）都是�
 
 ## 对 KDO 的启发
 
-Truman 的 AI Partner 和纪浩的 Skills 市场（[[case-纪浩-skills-market]]）是**同一模式的两个实例**：
+Truman 的 AI Partner 和纪浩的 Skills 市场（[[case-ji-hao-skills-market]]）是**同一模式的两个实例**：
 
 | | Truman | 纪浩 |
 |:---|:---|:---|

@@ -3,7 +3,8 @@ id: yt-prompt-anti-flattery
 title: "反谄媚机制：让AI说真话"
 type: tool
 source_refs:
-- src_20260522_a89ab860
+- 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 domain:
   - yitang

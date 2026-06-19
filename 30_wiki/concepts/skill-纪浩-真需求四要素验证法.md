@@ -9,6 +9,7 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
 source_refs:
+- 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
   - 00_inbox/纪浩-AI协作方法论-口述.md
 tools_required:
   - 纸笔或文档

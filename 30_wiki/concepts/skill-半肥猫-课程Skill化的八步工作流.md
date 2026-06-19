@@ -9,20 +9,21 @@ domain:
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
+- 10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md
   - 00_inbox/半肥猫-AI学习落地-口述.md
 tools_required:
   - AIGC大模型
   - 文档编辑工具
 prerequisite_skills:
-  - skill-半肥猫-判断课程是否值得做成Skill
-  - skill-半肥猫-清洗资料为Markdown格式喂给AI
+  - skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill
+  - skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai
 related:
   - "[[concept-半肥猫-ai-learning-toolification-methodology]]"
-  - "[[case-半肥猫-conversion-hacker-skill]]"
-  - "[[case-半肥猫-skill-ab-test]]"
-  - "[[dk-半肥猫-skill-rejection-value]]"
-  - "[[skill-半肥猫-设计Skill的评分规则与风险边界]]"
-  - "[[skill-半肥猫-用Skill做对比测试验证效果]]"
+  - "[[case-ban-fei-mao-conversion-hacker-skill]]"
+  - "[[case-ban-fei-mao-skill-ab-test]]"
+  - "[[dk-ban-fei-mao-skill-rejection-value]]"
+  - "[[skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]"
+  - "[[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]"
   - "[[master-knowledge-compound]]"
 created_at: "2026-06-07"
 updated_at: "2026-06-17"
@@ -164,14 +165,14 @@ diagnostic_signals:
 | 关系 | 目标节点 | 说明 |
 |------|----------|------|
 | 上位 | [[concept-半肥猫-ai-learning-toolification-methodology]] | 八步工作流是L2课程Skill化的核心工程化路径 |
-| 下位 | [[skill-半肥猫-判断课程是否值得做成Skill]] | 八步中的第1步——质量门判断 |
-| 下位 | [[skill-半肥猫-设计Skill的评分规则与风险边界]] | 八步中的第4步——诊断协议设计 |
-| 下位 | [[skill-半肥猫-用Skill做对比测试验证效果]] | 八步中的第7步——测试验证 |
-| 下位 | [[skill-半肥猫-清洗资料为Markdown格式喂给AI]] | 八步中的第2步——资料预处理 |
-| 下位 | [[skill-半肥猫-用YAML格式做知识库原子化标签]] | 八步中的第6步——目录结构设计 |
-| 案例 | [[case-半肥猫-conversion-hacker-skill]] | 八步的完整实例——转化率黑客Skill |
-| 案例 | [[case-半肥猫-skill-ab-test]] | 八步中第7步的A/B测试实例 |
-| 暗知识 | [[dk-半肥猫-skill-rejection-value]] | "Skill的最大价值是拒绝"——八步设计的核心洞察 |
+| 下位 | [[skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]] | 八步中的第1步——质量门判断 |
+| 下位 | [[skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]] | 八步中的第4步——诊断协议设计 |
+| 下位 | [[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]] | 八步中的第7步——测试验证 |
+| 下位 | [[skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]] | 八步中的第2步——资料预处理 |
+| 下位 | [[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]] | 八步中的第6步——目录结构设计 |
+| 案例 | [[case-ban-fei-mao-conversion-hacker-skill]] | 八步的完整实例——转化率黑客Skill |
+| 案例 | [[case-ban-fei-mao-skill-ab-test]] | 八步中第7步的A/B测试实例 |
+| 暗知识 | [[dk-ban-fei-mao-skill-rejection-value]] | "Skill的最大价值是拒绝"——八步设计的核心洞察 |
 | KDO对接 | kdo-encapsulate | KDO的skill编译命令 ↔ 八步工作流的内容设计 |
 
 ## 来源

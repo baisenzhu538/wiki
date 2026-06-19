@@ -14,6 +14,9 @@ diagnostic_signals:
   - {'signal': '厂商是否有除一次性授权外的经常性收入设计', 'framework_lens': '商业模式 / 现金流', 'follow_up_question': '版本碎片化是否可控？'}
   - {'signal': '源码交付是否被当成逃避 SaaS 订阅锁定的方式', 'framework_lens': '锁定 vs 自主 / 隐性成本', 'follow_up_question': '客户是否意识到数据与安全责任转移？'}
 source_refs:
+- 10_raw/sources/src_20260619_390e2bb4_60_feedback_diagnosis_2026_06_13_kdo_admission_checklist.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
   - "七件事集团深度调研综合报告"
   - "七件事集团业务模式深度解读"

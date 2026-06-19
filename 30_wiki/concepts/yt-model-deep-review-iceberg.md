@@ -17,6 +17,7 @@ query_triggers:
   - "深度复盘冰山图：从主观感受到能力建设的五层穿透"
 reviewed_by: "黄药师"
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 source_refs:
   - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图

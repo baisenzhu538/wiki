@@ -33,7 +33,7 @@ tags:
 created_at: 2026-06-08
 updated_at: '2026-06-17'
 related:
-- '[[case-纪浩-skills-market]]'
+- '[[case-ji-hao-skills-market]]'
 - '[[case-truman-ai-partner]]'
 - '[[case-纪浩-focus-prompt-design]]'
 - '[[case-纪浩-from-zip-to-five-layers]]'

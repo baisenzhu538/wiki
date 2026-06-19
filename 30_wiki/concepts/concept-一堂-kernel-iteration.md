@@ -12,6 +12,7 @@ domain:
 source_person: Truman
 source_context: 一堂产品内核迭代课（2026年）
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述
 created_at: 2026-06-09
 updated_at: '2026-06-16'

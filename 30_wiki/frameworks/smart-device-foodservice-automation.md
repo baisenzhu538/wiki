@@ -11,6 +11,7 @@ domain:
 - product
 - entrepreneur
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_909802bd-智能设备-外卖对接方案讨论
 related:
 - '[[beverage-foodservice-channel]]'

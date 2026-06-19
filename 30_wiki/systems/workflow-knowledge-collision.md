@@ -10,7 +10,7 @@ created_at: '2026-06-14'
 author: 周伯通
 source_context: KDO internal decision record （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
 source_refs:
-- source_unknown
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 query_triggers:
 - 写作
 - 分析

@@ -28,6 +28,7 @@ related:
 - '[[yt-panproduct-execution-realistic-simulation]]'
 reviewed_by: 黄药师
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260522_7ddf8bf2-ocr-泛产品设计-落地卡片-善用佳软
 status: enriched
 title: 泛产品设计·落地卡片：善用佳软

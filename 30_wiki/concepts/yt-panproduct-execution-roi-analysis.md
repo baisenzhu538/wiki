@@ -34,6 +34,7 @@ related:
 - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
 reviewed_by: 王语嫣
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260609_30219516-ocr-泛产品设计-落地卡片-roi分析
 status: enriched
 title: 泛产品设计·落地卡片：ROI分析

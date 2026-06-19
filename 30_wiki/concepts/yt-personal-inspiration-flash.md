@@ -22,6 +22,7 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
 source_refs:
   - src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现

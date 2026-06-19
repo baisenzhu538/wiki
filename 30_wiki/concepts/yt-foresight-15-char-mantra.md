@@ -7,6 +7,8 @@ type: concept
 domain:
 - yitang
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260610_b3e09bdf-一堂-机会预判-终局光谱图-truman-图01
   - src_20260610_d9fca55f-一堂-机会预判-终局光谱图-truman-图02
 status: enriched

@@ -23,6 +23,7 @@ related:
 - '[[yt-model-liberate-thinking-layers]]'
 reviewed_by: 黄药师
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260510_d7218337-泛产品设计审美卡片
 status: enriched
 title: 泛产品设计审美篇：最佳实践与审美建模

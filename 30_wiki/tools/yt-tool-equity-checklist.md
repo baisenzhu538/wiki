@@ -3,7 +3,7 @@ id: yt-tool-equity-checklist
 title: 股权设计检查清单
 type: tool
 source_refs:
-- 30_wiki/concepts/yt-management-business-formula.md
+- 10_raw/sources/src_20260619_52c76864_30_wiki_concepts_yt_management_business_formula.md
 status: enriched
 domain:
 - yitang

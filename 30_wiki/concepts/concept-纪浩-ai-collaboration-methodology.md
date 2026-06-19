@@ -17,10 +17,10 @@ updated_at: '2026-06-17'
 related:
 - '[[skill-纪浩-真需求四要素验证法]]'
 - '[[skill-纪浩-日志驱动排查法]]'
-- '[[dk-纪浩-ai-cant-design-structure]]'
-- '[[dk-纪浩-simple-complex-routing]]'
-- '[[dk-纪浩-pdca-starts-from-do]]'
-- '[[dk-纪浩-logs-fastest-ignored]]'
+- '[[dk-ji-hao-ai-cant-design-structure]]'
+- '[[dk-ji-hao-simple-complex-routing]]'
+- '[[dk-ji-hao-pdca-starts-from-do]]'
+- '[[dk-ji-hao-logs-fastest-ignored]]'
 - '[[case-纪浩-from-zip-to-five-layers]]'
 - '[[dk-yb5-style-asset-archive]]'
 - '[[yt-note-ai-human-division]]'
@@ -145,10 +145,10 @@ trust_level: low
 | 技能落地 | [[skill-纪浩-Do-first-PDCA渐进迭代法]] | L3 Do-first PDCA——从行动开始的迭代流程 |
 | 技能落地 | [[skill-纪浩-Agent技能市场设计法]] | L5 Skills Market——给 Agent 用的分发平台 |
 | 技能落地 | [[skill-纪浩-日志驱动排查法]] | L5 日志驱动排查——规模复用的排查方法 |
-| 暗知识 | [[dk-纪浩-ai-cant-design-structure]] | "AI 不会自己搞结构设计，必须帮它搭" |
-| 暗知识 | [[dk-纪浩-simple-complex-routing]] | "简单系统跳过导诊台，复杂系统必须路由" |
-| 暗知识 | [[dk-纪浩-pdca-starts-from-do]] | "PDCA 从 Do 开始不是从 Plan 开始" |
-| 暗知识 | [[dk-纪浩-logs-fastest-ignored]] | "日志增长最快但最容易被忽视" |
+| 暗知识 | [[dk-ji-hao-ai-cant-design-structure]] | "AI 不会自己搞结构设计，必须帮它搭" |
+| 暗知识 | [[dk-ji-hao-simple-complex-routing]] | "简单系统跳过导诊台，复杂系统必须路由" |
+| 暗知识 | [[dk-ji-hao-pdca-starts-from-do]] | "PDCA 从 Do 开始不是从 Plan 开始" |
+| 暗知识 | [[dk-ji-hao-logs-fastest-ignored]] | "日志增长最快但最容易被忽视" |
 | 案例 | [[case-纪浩-from-zip-to-five-layers]] | Skills 市场——给 Agent 用的分发平台 |
 | 案例 | [[case-纪浩-focus-prompt-design]] | 聚焦提示词设计——四要素验证与导诊台的具体应用 |
 | 对位 | [[case-truman-ai-partner]] | Truman AI Partner——同一套模式的哲学层表述 |

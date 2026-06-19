@@ -9,6 +9,7 @@ domain:
   - kdo
   - infrastructure
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - mineru-docs
 created_at: "2026-06-17"
 updated_at: "2026-06-17"

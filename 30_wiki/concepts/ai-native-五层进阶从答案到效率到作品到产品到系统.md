@@ -17,7 +17,7 @@ related:
 - '[[yt-note-ai-human-division]]'
 - '[[yt-research-osl-framework]]'
 source_refs:
-- '["src_20260524_3cadf228"]'
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 title: AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
 type: framework

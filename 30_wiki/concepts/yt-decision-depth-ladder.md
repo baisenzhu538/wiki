@@ -3,20 +3,20 @@ id: yt-decision-depth-ladder
 title: 深度阶梯工具：L1-L4停车场模型 + 三点预测法
 type: tool
 source_refs:
-- src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
-- src_20260522_22cb5729-ocr-一堂-科学决策-深度-l1优先级定性.md
-- src_20260522_ad937c9c-ocr-一堂-科学决策-深度-l2部分定量.md
-- src_20260522_80e1b943-ocr-一堂-科学决策-深度-l3定量公式.md
-- src_20260522_26271f58-ocr-一堂-科学决策-深度-l4严格财务公式.md
-- src_20260522_9b437f93-ocr-一堂-科学决策-深度-案例01.md
-- src_20260522_e60022cc-ocr-一堂-科学决策-深度-案例02.md
-- src_20260522_3782f983-ocr-一堂-科学决策-深度-案例03.md
-- src_20260522_b4a26e00-ocr-一堂-科学决策-深度-案例04.md
-- src_20260522_7344d957-ocr-一堂-科学决策-深度-案例05.md
-- src_20260522_e70d298c-ocr-一堂-科学决策-深度-案例06.md
-- src_20260522_5323822f-ocr-一堂-科学决策-深度-l4-案例01.md
-- src_20260522_3693c090-ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md
-- src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
+- 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
+- 10_raw/sources/src_20260522_22cb5729-ocr-一堂-科学决策-深度-l1优先级定性.md
+- 10_raw/sources/src_20260522_ad937c9c-ocr-一堂-科学决策-深度-l2部分定量.md
+- 10_raw/sources/src_20260522_80e1b943-ocr-一堂-科学决策-深度-l3定量公式.md
+- 10_raw/sources/src_20260522_26271f58-ocr-一堂-科学决策-深度-l4严格财务公式.md
+- 10_raw/sources/src_20260522_9b437f93-ocr-一堂-科学决策-深度-案例01.md
+- 10_raw/sources/src_20260522_e60022cc-ocr-一堂-科学决策-深度-案例02.md
+- 10_raw/sources/src_20260522_3782f983-ocr-一堂-科学决策-深度-案例03.md
+- 10_raw/sources/src_20260522_b4a26e00-ocr-一堂-科学决策-深度-案例04.md
+- 10_raw/sources/src_20260522_7344d957-ocr-一堂-科学决策-深度-案例05.md
+- 10_raw/sources/src_20260522_e70d298c-ocr-一堂-科学决策-深度-案例06.md
+- 10_raw/sources/src_20260522_5323822f-ocr-一堂-科学决策-深度-l4-案例01.md
+- 10_raw/sources/src_20260522_3693c090-ocr-一堂-科学决策-深度-你的业务是一次抽样实验.md
+- 10_raw/sources/src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
 status: enriched
 domain:
 - yitang

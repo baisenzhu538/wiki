@@ -7,6 +7,7 @@ domain:
 review_date: 2026-05-03
 reviewed_by: Claude
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260428_db49a647-鑫港湾his系统分阶段整改报告
 status: enriched
 title: 鑫港湾HIS系统分阶段整改报告

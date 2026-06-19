@@ -16,6 +16,8 @@ pipeline:
 author: 老顽童
 confidence: 0.7
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260503_9bfe6913-一堂-调研行动营启动_原文润色
   - src_20260510_4bb17355-天花板
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）

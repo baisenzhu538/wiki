@@ -28,6 +28,7 @@ related:
 - '[[yt-panproduct-execution-idea-spark]]'
 reviewed_by: 黄药师
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260522_c2c6b487-ocr-泛产品设计-落地卡片-解放思想
 status: enriched
 title: 泛产品设计·落地卡片：解放思想

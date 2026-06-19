@@ -4,7 +4,7 @@ created_at: 2026-05-29
 domain:
 - healthcare
 source_refs:
-- src_20260529_huazong_ama
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: stable
 title: 花总AMA按行业分类整理（商业突破大航海）
 type: concept

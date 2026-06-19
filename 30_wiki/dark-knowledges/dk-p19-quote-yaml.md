@@ -9,7 +9,7 @@ domain:
 source_person: system
 source_context: pitfalls.md P-19
 source_refs:
-- .agent/pitfalls.md#P-19
+- 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-19
 - 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
 updated_at: '2026-06-19'

@@ -41,6 +41,7 @@ related:
 - '[[yt-unit-model-dynamic]]'
 - '[[yt-unit-model-ai-assisted]]'
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
 title: 科学决策全景流程：有意识→写初版→细打磨→有共识→复盘五阶段模型

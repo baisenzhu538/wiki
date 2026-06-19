@@ -9,10 +9,10 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论 分享 + 真实项目 /focus 功能的产品设计提示词
 source_refs:
-- 00_inbox/AI俱乐部-人和AI协作-纪浩-提示词案例01.txt
-- 00_inbox/AI俱乐部-人和AI协作-纪浩-提示词案例02.txt
-- 00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-图片01.png
-- 00_inbox/AI俱乐部-人和AI协作-纪浩-参考案例-图片02.png
+- 10_raw/sources/src_20260619_76cc7f71_00_inbox_AI俱乐部_人和AI协作_纪浩_提示词案例01.txt
+- 10_raw/sources/src_20260619_5ec7f3c8_00_inbox_AI俱乐部_人和AI协作_纪浩_提示词案例02.txt
+- 10_raw/sources/src_20260619_d9794671_00_inbox_AI俱乐部_人和AI协作_纪浩_五层结构_图片01.png
+- 10_raw/sources/src_20260619_df980155_00_inbox_AI俱乐部_人和AI协作_纪浩_参考案例_图片02.png
 tags:
 - '#perspective/compliance'
 - '#perspective/professional'
@@ -36,12 +36,12 @@ tags:
 created_at: 2026-06-07
 updated_at: '2026-06-17'
 related:
-- '[[case-纪浩-skills-market]]'
+- '[[case-ji-hao-skills-market]]'
 - '[[case-truman-ai-partner]]'
 - '[[case-纪浩-from-zip-to-five-layers]]'
-- '[[dk-纪浩-ai-cant-design-structure]]'
-- '[[dk-纪浩-pdca-starts-from-do]]'
-- '[[case-纪浩-ui-design-constraint-evolution]]'
+- '[[dk-ji-hao-ai-cant-design-structure]]'
+- '[[dk-ji-hao-pdca-starts-from-do]]'
+- '[[case-ji-hao-ui-design-constraint-evolution]]'
 author: 纪浩
 reviewed_by: 老顽童
 confidence: 0.75
@@ -248,10 +248,10 @@ npm run build
 
 ## 关联卡牌
 
-- **[[case-纪浩-skills-market]]** — 同一演讲者的另一个真实案例：一堂内部 Skills 分发平台，从"微信传 zip"到"Agent 自助"。与本案例共同展示纪浩五层方法论在不同工程问题上的落地。
+- **[[case-ji-hao-skills-market]]** — 同一演讲者的另一个真实案例：一堂内部 Skills 分发平台，从"微信传 zip"到"Agent 自助"。与本案例共同展示纪浩五层方法论在不同工程问题上的落地。
 - **[[case-纪浩-from-zip-to-five-layers]]** — 纪浩从微信传 zip 的混乱到五层协作体系的完整演化。本案例是 L2 Agent Workspace 与 L3 Do-first PDCA 在产品设计场景的具体应用。
-- **[[dk-纪浩-ai-cant-design-structure]]** — 本案例的底层暗知识："AI 不会自己搞结构设计，必须人先定义结构"。S1-S5 冻结稿就是人帮 AI 定义的产品结构。
-- **[[dk-纪浩-pdca-starts-from-do]]** — S1-S5 冻结前的 HTML 原型来自 Do-first 迭代：先做出一版，再加 Check/Plan/Act，而不是先写完整计划再动手。
-- **[[case-纪浩-ui-design-constraint-evolution]]** — 约束文档从临时规则沉淀为 L3 工作手册的演化案例。与本案例的"29 条封闭决策"形成"规则如何被持久化"的对照。
+- **[[dk-ji-hao-ai-cant-design-structure]]** — 本案例的底层暗知识："AI 不会自己搞结构设计，必须人先定义结构"。S1-S5 冻结稿就是人帮 AI 定义的产品结构。
+- **[[dk-ji-hao-pdca-starts-from-do]]** — S1-S5 冻结前的 HTML 原型来自 Do-first 迭代：先做出一版，再加 Check/Plan/Act，而不是先写完整计划再动手。
+- **[[case-ji-hao-ui-design-constraint-evolution]]** — 约束文档从临时规则沉淀为 L3 工作手册的演化案例。与本案例的"29 条封闭决策"形成"规则如何被持久化"的对照。
 - **[[case-truman-ai-partner]]** — Truman 的 AI Partner 设计哲学。纪浩的 /focus 提示词是同一套"给 Agent 结构化环境"思想在产品功能设计上的工程实现。
 - **[[concept-纪浩-ai-collaboration-methodology]]** — 纪浩 AI 协作方法论总纲。本案例是其中 L2 Agent Workspace、L3 Do-first PDCA 与 L5 Skills Market 思想的共同产物。

@@ -12,6 +12,10 @@ domain:
 source_person: 一堂·Truman
 source_context: 一堂-关键假设课/商业预判课/产品内核课程笔记
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260606_22c4a291-一堂-关键假设课-truman-笔记
   - src_20260606_deeb4e26-一堂-产品内核迭代课-Truman-笔记
   - src_20260606_7610584b-一堂-产品内核验证课-truman-笔记
@@ -22,12 +26,12 @@ related:
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[skill-一堂-product-kernel-canvas]]'
-- '[[dk-一堂-wishful-thinking-kills-startups]]'
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 wiki_refs:
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[skill-一堂-product-kernel-canvas]]'
-- '[[dk-一堂-wishful-thinking-kills-startups]]'
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 definition_of_done:
 - 核心定义、与其他概念的区别、典型场景已清晰
 - 外部攻击者以及对应的 Constraints 已明确

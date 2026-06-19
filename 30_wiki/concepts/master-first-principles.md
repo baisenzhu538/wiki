@@ -24,7 +24,7 @@ related:
 - '[[yt-unit-model-dynamic]]'
 - '[[dk-yb20-ai-eye-high-principle]]'
 source_refs:
-- 来源: Aristotle, Elon Musk
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 title: 第一性原理拆解器
 type: tool

@@ -30,6 +30,7 @@ related:
 - '[[yt-prompt-anti-flattery]]'
 reviewed_by: 周伯通
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02
 status: enriched
 title: AI决策Partner对话法

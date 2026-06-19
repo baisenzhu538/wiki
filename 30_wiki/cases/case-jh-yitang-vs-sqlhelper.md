@@ -17,14 +17,17 @@ scale: 团队 / 公司
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第六期AI共创社，2026-06）
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
   - src_20260606_0ecc1afc-AI俱乐部-AI协作方法论-纪浩-口述
   - src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记
 related:
   - "[[dk-my-ai-landing-three-barriers]]"
   - "[[concept-纪浩-ai-collaboration-five-layer]]"
-  - "[[dk-纪浩-ai-cant-design-structure]]"
-  - "[[case-纪浩-ai-workspace-chaos]]"
+  - "[[dk-ji-hao-ai-cant-design-structure]]"
+  - "[[case-ji-hao-ai-workspace-chaos]]"
   - "[[skill-纪浩-真需求四要素验证法]]"
   - "[[yt-lean-assumption-prioritization]]"
 tags:
@@ -250,9 +253,9 @@ diagnostic_signals:
 
 - [[concept-纪浩-ai-collaboration-five-layer]] —— 一堂数据库是五层结构中的"系统自述 + 领域知识 + Agent 服务"的完整实例；SQLHelper 则展示了"领域知识足够稀疏时，可以压缩为表结构映射"的简化版本。
 
-- [[dk-纪浩-ai-cant-design-structure]] —— AI 不会自己设计结构。一堂数据库的成功前提是"人先把五层结构定义清楚"；SQLHelper 能跳过导诊台，也正是因为它的结构足够简单、人可以一次性定义完。
+- [[dk-ji-hao-ai-cant-design-structure]] —— AI 不会自己设计结构。一堂数据库的成功前提是"人先把五层结构定义清楚"；SQLHelper 能跳过导诊台，也正是因为它的结构足够简单、人可以一次性定义完。
 
-- [[case-纪浩-ai-workspace-chaos]] —— 反面案例：当复杂系统缺少五层结构时，Agent 会行为退化到"重新投胎"。一堂数据库的"专业深井"路线正是为了避免这个结局。
+- [[case-ji-hao-ai-workspace-chaos]] —— 反面案例：当复杂系统缺少五层结构时，Agent 会行为退化到"重新投胎"。一堂数据库的"专业深井"路线正是为了避免这个结局。
 
 - [[skill-纪浩-真需求四要素验证法]] —— 在选型前先验证：Before/After 是什么？真实锚点在哪里？受益人是谁？可解性如何？避免把通用/专业之争变成意识形态之争。
 

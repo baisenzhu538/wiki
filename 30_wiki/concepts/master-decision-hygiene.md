@@ -21,7 +21,7 @@ related:
 - '[[yt-unit-model-ladder]]'
 - '[[yt-unit-model-selection]]'
 source_refs:
-- 来源: Daniel Kahneman, Olivier Sibony, Cass Sunstein
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 title: 决策卫生五步法
 type: framework

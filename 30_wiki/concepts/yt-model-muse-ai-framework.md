@@ -18,6 +18,7 @@ query_triggers:
   - "知识体系定位"
 reviewed_by: "黄药师"
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260510_62b2cfa1-一堂人工智能全景图muse模型
 source_refs:
   - src_20260510_62b2cfa1-一堂人工智能全景图muse模型

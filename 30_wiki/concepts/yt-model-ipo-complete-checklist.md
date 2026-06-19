@@ -19,6 +19,7 @@ query_triggers:
   - "输出 Output"
 reviewed_by: "黄药师"
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
 source_refs:
   - src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型

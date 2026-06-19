@@ -76,20 +76,20 @@ _Last updated: 2026-06-14T19:07:54+00:00_
 - cases/case-yitang-radar-chart-selection.md|case-yitang-radar-chart-selection — source no source
 - cases/case-zhangyang-anchor-sop-three-locks.md|case-zhangyang-anchor-sop-three-locks — source no source
 - cases/case-zhihu-vs-degetao-network-effect.md|案例：知乎vs得到——网络效应壁垒的对比分析 — source `00_inbox/一堂五步法/一堂-一堂五步法-壁垒-口述.txt`
-- cases/case-一堂-AI高考志愿-kernel-mismatch.md|案例：AI高考志愿填报产品因内核错位而失敗 — source `00_inbox/一堂-产品内核实操课-truman-笔记.txt`
+- cases/case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch.md|案例：AI高考志愿填报产品因内核错位而失敗 — source `00_inbox/一堂-产品内核实操课-truman-笔记.txt`
 - cases/case-一堂-无人餐厅-hypothesis-failure.md|案例：一堂无人餐厅项目因忽视关键假设而失败 — source `00_inbox/一堂-关键假设课-truman-笔记.txt`
 - cases/case-一堂-陈贤敏汉堡-hypothesis-validation.md|案例：陈贤敏中式汉堡先开实验店验证关键假设 — source `00_inbox/一堂-关键假设课-truman-笔记.txt`
-- cases/case-半肥猫-conversion-hacker-skill.md|案例：一堂转化率黑客课→Skill ——从拿到资料到测试通过的完整历程 — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- cases/case-ban-fei-mao-conversion-hacker-skill.md|案例：一堂转化率黑客课→Skill ——从拿到资料到测试通过的完整历程 — source `00_inbox/半肥猫-AI学习落地-口述.md`
 - cases/case-半肥猫-course-to-skill.md|案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具 — source `00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt`
-- cases/case-半肥猫-from-assignment-to-tool.md|案例：半肥猫把一堂课程作业变成可复用调研工具 — source `00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt`
-- cases/case-半肥猫-skill-ab-test.md|案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比 — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- cases/case-广冷电子-hx-smj.md|案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线 — source `90_control/electronics-practice/failure-modes-electronics.md`
-- cases/case-纪浩-ai-workspace-chaos.md|案例：AI工作空间混乱导致'行为退化'而重来 — source `00_inbox/纪浩-AI协作方法论-口述.md`
+- cases/case-ban-fei-mao-from-assignment-to-tool.md|案例：半肥猫把一堂课程作业变成可复用调研工具 — source `00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt`
+- cases/case-ban-fei-mao-skill-ab-test.md|案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比 — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- cases/case-guang-leng-dian-zi-hx-smj.md|案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线 — source `90_control/electronics-practice/failure-modes-electronics.md`
+- cases/case-ji-hao-ai-workspace-chaos.md|案例：AI工作空间混乱导致'行为退化'而重来 — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - cases/case-纪浩-focus-prompt-design.md|案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接 — source `00_inbox/AI俱乐部-人和AI协作-纪浩-提示词案例01.txt`
 - cases/case-纪浩-from-zip-to-five-layers.md|纪浩：从微信传 zip 到五层协作体系 — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - cases/case-纪浩-skill-market-problem-validation.md|案例：一堂Skill市场从伪需求到真实需求的四问验证 — source `00_inbox/纪浩-AI协作方法论-口述.md`
-- cases/case-纪浩-skills-market.md|案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助 — source `00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt`
-- cases/case-纪浩-ui-design-constraint-evolution.md|案例：纪浩从'求你了'到1100行约束文档的UI设计迭代 — source `00_inbox/纪浩-AI协作方法论-口述.md`
+- cases/case-ji-hao-skills-market.md|案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助 — source `00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt`
+- cases/case-ji-hao-ui-design-constraint-evolution.md|案例：纪浩从'求你了'到1100行约束文档的UI设计迭代 — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - cases/industrial-ai-ops-cases.md|产业 AI 运营落地：酒店/房产/电商三大案例的去伪存真 — source `src_20260614_eca9f5b3`
 - cases/smart-medicine-cabinet-clinic-risk-observation.md|诊所 + 智能药柜协同模式：一线观察与风险提示 — source `src_20260613_1deb50c8`
 - concept-card-index-latest.md|concept-card-index-latest — source no source
@@ -447,21 +447,21 @@ _Last updated: 2026-06-14T19:07:54+00:00_
 - concepts/skill-区分获客渠道计算单元roi.md|技能：区分获客渠道计算单元ROI — source `src_20260609_99032bf9`
 - concepts/skill-半肥猫-ai-research-validation.md|AI调研纠偏与验证技能：从“丝滑回答”到“证据决策”的六步闭环 — source `00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt`
 - concepts/skill-半肥猫-course-to-skill-workflow.md|课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化 — source `00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt`
-- concepts/skill-半肥猫-优先使用官方权威信源做证据.md|技能：优先使用官方权威信源做证据 — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- concepts/skill-半肥猫-判断课程是否值得做成Skill.md|技能：判断课程是否值得做成Skill — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- concepts/skill-半肥猫-动态读取-向量化管理迭代知识.md|技能：动态读取 + 向量化管理迭代知识 — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- concepts/skill-半肥猫-告诉AI当前日期限制数据时效.md|技能：告诉 AI 当前日期限制数据时效 — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- concepts/skill-半肥猫-将学习成果沉淀为PRD文档.md|技能：将学习成果沉淀为 PRD 文档 — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- concepts/skill-半肥猫-按语义切分文档做向量化.md|技能：按语义切分文档做向量化 — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- concepts/skill-半肥猫-清洗资料为Markdown格式喂给AI.md|技能：清洗资料为 Markdown 格式喂给 AI — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- concepts/skill-半肥猫-用AI做结构化用户调研.md|技能：用 AI 做结构化用户调研 — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- concepts/skill-半肥猫-用Skill做对比测试验证效果.md|技能：用 Skill 做对比测试验证效果 — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- concepts/skill-半肥猫-用YAML格式做知识库原子化标签.md|技能：用 YAML 格式做知识库原子化标签 — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- concepts/skill-半肥猫-设计Skill的评分规则与风险边界.md|技能：设计 Skill 的评分规则与风险边界 — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- concepts/skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju.md|技能：优先使用官方权威信源做证据 — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- concepts/skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill.md|技能：判断课程是否值得做成Skill — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- concepts/skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi.md|技能：动态读取 + 向量化管理迭代知识 — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- concepts/skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao.md|技能：告诉 AI 当前日期限制数据时效 — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- concepts/skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang.md|技能：将学习成果沉淀为 PRD 文档 — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- concepts/skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua.md|技能：按语义切分文档做向量化 — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- concepts/skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai.md|技能：清洗资料为 Markdown 格式喂给 AI — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- concepts/skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan.md|技能：用 AI 做结构化用户调研 — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- concepts/skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo.md|技能：用 Skill 做对比测试验证效果 — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- concepts/skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian.md|技能：用 YAML 格式做知识库原子化标签 — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- concepts/skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie.md|技能：设计 Skill 的评分规则与风险边界 — source `00_inbox/半肥猫-AI学习落地-口述.md`
 - concepts/skill-半肥猫-课程Skill化的八步工作流.md|技能：课程Skill化的八步工作流 — source `00_inbox/半肥猫-AI学习落地-口述.md`
 - concepts/skill-半肥猫-边学边练边沉淀的AI学习法.md|技能：边学边练边沉淀的 AI 学习法 — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- concepts/skill-半肥猫-追问AI证据并标注信源.md|技能：追问 AI 证据并标注信源 — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- concepts/skill-半肥猫-飞书多维表格-自建机器人做团队数据协同.md|技能：飞书多维表格 + 自建机器人做团队数据协同 — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- concepts/skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan.md|技能：追问 AI 证据并标注信源 — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- concepts/skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong.md|技能：飞书多维表格 + 自建机器人做团队数据协同 — source `00_inbox/半肥猫-AI学习落地-口述.md`
 - concepts/skill-反向提示获取优化建议.md|技能：反向提示获取优化建议 — source `src_20260609_03491271`
 - concepts/skill-反向教学深化理解.md|技能：反向教学深化理解 — source `src_20260609_03491271`
 - concepts/skill-反向记录整理思路.md|技能：反向记录整理思路 — source `src_20260609_03491271`
@@ -1199,20 +1199,20 @@ _Last updated: 2026-06-14T19:07:54+00:00_
 - dark-knowledges/dk-yb8-file-naming-eight-elements.md|AI增效前置：文件命名八要素体系 — source `00_inbox/design/AI设计-AI设计基础01.txt`
 - dark-knowledges/dk-yb9-cubox-deployment-failure.md|Cubox及AI协作工具的团队部署失败模式 — source `00_inbox/design/AI设计-AI设计基础01.txt`
 - dark-knowledges/dk-yitang-business-formula-plus-times-trap.md|业务公式拆解：先切分再拆转化，+ 与 × 写错会误导决策 — source `src_20260613_6b939d2b`
-- dark-knowledges/dk-一堂-wishful-thinking-kills-startups.md|暗知：'愿望思维'是创业最大的陷阱 — source `00_inbox/一堂-关键假设课-truman-笔记.txt`
-- dark-knowledges/dk-半肥猫-atomic-no-standard.md|暗知识：原子化没有固定标准 — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- dark-knowledges/dk-半肥猫-real-business-is-the-engine.md|暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁 — source `00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt`
-- dark-knowledges/dk-半肥猫-silky-answer-warning.md|暗知识：AI 回答越丝滑，问题越大 — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- dark-knowledges/dk-半肥猫-silky-answers-are-dangerous.md|暗知：AI给的回答越丝滑，问题越大——“完全不等于可靠”陷阱 — source `00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt`
-- dark-knowledges/dk-半肥猫-skill-rejection-value.md|暗知识：Skill 的最大价值不是生成，是拒绝 — source `00_inbox/半肥猫-AI学习落地-口述.md`
-- dark-knowledges/dk-纪浩-ai-cant-design-structure.md|暗知识：AI不会自己搞结构设计 — source `00_inbox/纪浩-AI协作方法论-口述.md`
-- dark-knowledges/dk-纪浩-constraint-beats-talent.md|暗知识：约束的力量 —— 600行文档让AI输出吊打人类手动设计 — source `00_inbox/纪浩-AI协作方法论-口述.md`
-- dark-knowledges/dk-纪浩-logs-fastest-ignored.md|暗知识：日志增长最快但最容易被忽视 — source `00_inbox/纪浩-AI协作方法论-口述.md`
-- dark-knowledges/dk-纪浩-newbie-can-validate.md|暗知识：新手也可以用四要素验证——因为验证用的是工具，不是眼光 — source `00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt`
-- dark-knowledges/dk-纪浩-novice-mindset-advantage.md|暗知识：新手心态的五个保护期 —— 萌新时代才是AI协作的黄金窗口 — source `00_inbox/纪浩-AI协作方法论-口述.md`
-- dark-knowledges/dk-纪浩-pdca-starts-from-do.md|暗知识：PDCA从Do开始不是从Plan开始 — source `00_inbox/纪浩-AI协作方法论-口述.md`
-- dark-knowledges/dk-纪浩-problem-vs-question.md|暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem — source `00_inbox/纪浩-AI协作方法论-口述.md`
-- dark-knowledges/dk-纪浩-simple-complex-routing.md|暗知识：简单系统跳过导诊台，复杂系统必须路由 — source `00_inbox/纪浩-AI协作方法论-口述.md`
+- dark-knowledges/dk-yi-tang-wishful-thinking-kills-startups.md|暗知：'愿望思维'是创业最大的陷阱 — source `00_inbox/一堂-关键假设课-truman-笔记.txt`
+- dark-knowledges/dk-ban-fei-mao-atomic-no-standard.md|暗知识：原子化没有固定标准 — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- dark-knowledges/dk-ban-fei-mao-real-business-is-the-engine.md|暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁 — source `00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt`
+- dark-knowledges/dk-ban-fei-mao-silky-answer-warning.md|暗知识：AI 回答越丝滑，问题越大 — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- dark-knowledges/dk-ban-fei-mao-silky-answers-are-dangerous.md|暗知：AI给的回答越丝滑，问题越大——“完全不等于可靠”陷阱 — source `00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt`
+- dark-knowledges/dk-ban-fei-mao-skill-rejection-value.md|暗知识：Skill 的最大价值不是生成，是拒绝 — source `00_inbox/半肥猫-AI学习落地-口述.md`
+- dark-knowledges/dk-ji-hao-ai-cant-design-structure.md|暗知识：AI不会自己搞结构设计 — source `00_inbox/纪浩-AI协作方法论-口述.md`
+- dark-knowledges/dk-ji-hao-constraint-beats-talent.md|暗知识：约束的力量 —— 600行文档让AI输出吊打人类手动设计 — source `00_inbox/纪浩-AI协作方法论-口述.md`
+- dark-knowledges/dk-ji-hao-logs-fastest-ignored.md|暗知识：日志增长最快但最容易被忽视 — source `00_inbox/纪浩-AI协作方法论-口述.md`
+- dark-knowledges/dk-ji-hao-newbie-can-validate.md|暗知识：新手也可以用四要素验证——因为验证用的是工具，不是眼光 — source `00_inbox/AI俱乐部-AI协作方法论-纪浩-口述.txt`
+- dark-knowledges/dk-ji-hao-novice-mindset-advantage.md|暗知识：新手心态的五个保护期 —— 萌新时代才是AI协作的黄金窗口 — source `00_inbox/纪浩-AI协作方法论-口述.md`
+- dark-knowledges/dk-ji-hao-pdca-starts-from-do.md|暗知识：PDCA从Do开始不是从Plan开始 — source `00_inbox/纪浩-AI协作方法论-口述.md`
+- dark-knowledges/dk-ji-hao-problem-vs-question.md|暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem — source `00_inbox/纪浩-AI协作方法论-口述.md`
+- dark-knowledges/dk-ji-hao-simple-complex-routing.md|暗知识：简单系统跳过导诊台，复杂系统必须路由 — source `00_inbox/纪浩-AI协作方法论-口述.md`
 - dark-knowledges/yt-note-ai-p-role-not-c-role.md|AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考 — source no source
 - dark-knowledges/yt-note-p-c-role-boundary-realworld.md|P/C 角色真实场景边界与切换条件（基于聊天记录案例） — source no source
 - dark-knowledges/yt-note-three-level-evolution.md|碎片化→结构化→体系化：笔记认知的三级进化跃迁 — source no source

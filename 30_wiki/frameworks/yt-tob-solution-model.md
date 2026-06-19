@@ -9,7 +9,7 @@ domain:
 - b2b
 - business-strategy
 source_refs:
-- src_20260616_aac184cc-yitang-tob-five-step-homework-collection
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'

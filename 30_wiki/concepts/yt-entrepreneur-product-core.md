@@ -24,6 +24,7 @@ query_triggers:
   - "用户视角"
 review_date: 2026-06-06
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_0e6fd2e7-theme-product-business-summary
 source_refs:
   - src_20260614_0e6fd2e7-theme-product-business-summary

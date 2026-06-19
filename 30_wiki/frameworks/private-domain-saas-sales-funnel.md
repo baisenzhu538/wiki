@@ -14,6 +14,8 @@ diagnostic_signals:
   - {'signal': '模式设计是否经过合规审查', 'framework_lens': '合规前置 / 风险隔离', 'follow_up_question': '分销层级与佣金结构是否触碰法律红线？'}
   - {'signal': '系统交付形态是否与前期承诺一致', 'framework_lens': '承诺一致性 / 交付对齐', 'follow_up_question': '源码/SaaS/定制边界是否在合同中明确？'}
 source_refs:
+- 10_raw/sources/src_20260619_390e2bb4_60_feedback_diagnosis_2026_06_13_kdo_admission_checklist.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
   - "智能药柜-招商合作沟通录音 (2026-06-13)"
 created_at: 2026-06-13

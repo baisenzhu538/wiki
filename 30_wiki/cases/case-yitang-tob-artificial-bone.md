@@ -10,6 +10,7 @@ domain:
   - b2b
   - healthcare
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 tags:
   - '#domain/yitang'

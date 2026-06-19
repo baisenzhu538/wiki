@@ -1,0 +1,47 @@
+---
+id: dk-ji-hao-simple-complex-routing
+title: 暗知识：简单系统跳过导诊台，复杂系统必须路由
+type: dk
+status: draft
+domain:
+- ai-collaboration
+- yitang
+source_person: 纪浩
+source_context: AI俱乐部·人和AI协作（第三次分享，2026-06）
+source_refs:
+- 00_inbox/纪浩-AI协作方法论-口述.md
+- 00_inbox/AI俱乐部-人和AI协作-纪浩-五层结构-结构化.md
+related:
+- '[[concept-纪浩-ai-collaboration-methodology]]'
+created_at: 2026-06-08
+updated_at: '2026-06-16'
+pipeline:
+- confidence-draft
+- confidence-source-cited
+author: 纪浩
+reviewed_by: pending
+confidence: 0.7
+trust_level: low
+---
+# 暗知识：简单系统跳过导诊台，复杂系统必须路由
+
+## 关键洞察
+
+导诊台是复杂系统的路由器，但对于简单系统，导诊台是多余的层级。纪浩说："一开始不需要这么复杂。你有几个任务就直接写几个文件夹，不需要设计导诊台。当任务类型超过3种，或者一个任务需要多个步骤跳转时，才需要导诊台。"
+
+**核心判断**：当任务类型超过三种，或一个复杂任务需要多个独立步骤跳转时，就需要导诊台。否则直接分类即可。
+
+## 为什么重要
+
+很多人在搭建工作空间时，**第一个反应就是建导诊台**。但导诊台本身是有成本的：它需要维护、需要更新、需要与工作手册联动。**对于简单系统，导诊台的成本远超其价值**。只有当系统复杂度达到一定阈值时，导诊台的路由价值才会显现。
+
+## 什么时候会失效
+
+- 当系统复杂度已经超过人工路由的能力范围（如一个任务需要十几个步骤跳转），需要自动化路由或工作流引擎
+- 当任务类型是动态变化的（如每天都有新的任务类型出现），导诊台的分类会迅速过时
+- 当系统的主要用户是人而非AI时，导诊台的"给AI用"的设计理念可能不适用
+
+## 关联
+
+- [[skill-纪浩-AI工作空间与导诊台设计法]] —— 导诊台的具体搭建方法，包含路由规则的设计和维护
+- [[concept-纪浩-ai-collaboration-methodology]] —— 这个暗知识是五层体系中"当何时需要导诊台"的判断基准

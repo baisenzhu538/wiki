@@ -3,7 +3,8 @@ id: skill-mckinsey-hypothesis-driven-workflow
 title: 技能：假设驱动工作流
 type: tool
 source_refs:
-- 'Rasiel, E. (1999). *The McKinsey Way*. McGraw-Hill. Chapter 4: ''Conducting the
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   Analysis.'''
 - 'Friga, P. N. (2003). *The McKinsey Mind*. McGraw-Hill. Part II: ''The McKinsey
   Problem-Solving Method.'''

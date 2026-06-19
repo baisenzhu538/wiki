@@ -18,7 +18,7 @@ related:
 - '[[yt-research-weaponry-course]]'
 - '[[yt-decision-y-model]]'
 source_refs:
-- 来源: 一堂 (Truman)
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 title: AI时代信息素养框架
 type: framework

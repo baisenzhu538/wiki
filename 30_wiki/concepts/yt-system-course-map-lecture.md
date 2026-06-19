@@ -4,6 +4,8 @@ title: "一堂课程地图精华串讲"
 type: concept
 status: reviewed
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260506_13e7bbca-值班主
   - src_20260507_3f2ac357-值班主
 id: yt-system-course-map-lecture

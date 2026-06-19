@@ -4,6 +4,9 @@ id: modeling-capability-system
 title: 高阶建模能力体系：一堂从经验到规律的教研方法论
 type: concept
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
   - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
   - src_20260614_623cfbfd-高阶建模-流程建模

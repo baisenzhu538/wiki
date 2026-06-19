@@ -24,6 +24,7 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
 title: 合伙股权

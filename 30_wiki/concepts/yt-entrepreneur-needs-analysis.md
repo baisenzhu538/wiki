@@ -24,6 +24,7 @@ related:
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260611_375ccfae-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr
 status: enriched
 title: 需求分析

@@ -9,6 +9,7 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论-口述，2026-06-06
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
 wiki_refs:
   - "[[ai-collaboration-mindset-shift]]"

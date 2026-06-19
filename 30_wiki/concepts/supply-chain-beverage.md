@@ -9,6 +9,11 @@ domain:
 - product
 - entrepreneur
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260619_2b1a1c00_90_control_itingnao_kit_work_theme_supply_chain_beverage_summary.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_16c4bf0d-双柚汁产品成本沟通
   - src_20260614_d6ab6fb6-产品调配-口感与成本讨论
   - src_20260614_9b574611-金银花浓缩汁餐饮产品方案

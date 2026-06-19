@@ -4,7 +4,7 @@ title: 讲香·故事化
 type: tool
 source_refs:
 - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
-- 10_raw/assets/yitang/一堂-个人修炼-讲香十指模型-超级武器库.png
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 domain:
 - personal

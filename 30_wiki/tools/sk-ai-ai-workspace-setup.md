@@ -12,7 +12,7 @@ source_refs:
   - 10_raw/sources/src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记.md
 wiki_refs:
 - '[[concept-纪浩-ai-collaboration-five-layer]]'
-- '[[case-纪浩-ai-workspace-chaos]]'
+- '[[case-ji-hao-ai-workspace-chaos]]'
 - '[[structured-ai-workspace]]'
 definition_of_done:
 - 操作步骤清晰可执行
@@ -30,7 +30,7 @@ tools_required:
 prerequisite_skills: []
 related:
 - '[[concept-纪浩-ai-collaboration-five-layer]]'
-- '[[case-纪浩-ai-workspace-chaos]]'
+- '[[case-ji-hao-ai-workspace-chaos]]'
 - '[[structured-ai-workspace]]'
 author: 纪浩
 reviewed_by: 欧阳锋
@@ -166,7 +166,7 @@ diagnostic_signals:
 ## 相关卡/互链
 
 - [[concept-纪浩-ai-collaboration-five-layer]] —— 五层工作空间法的完整概念定义
-- [[case-纪浩-ai-workspace-chaos]] —— 目录混乱导致 AI 行为退化、只能“重新投胎”的真实案例
+- [[case-ji-hao-ai-workspace-chaos]] —— 目录混乱导致 AI 行为退化、只能“重新投胎”的真实案例
 - [[structured-ai-workspace]] —— 结构化工作空间相关概念与模板
 
 ---

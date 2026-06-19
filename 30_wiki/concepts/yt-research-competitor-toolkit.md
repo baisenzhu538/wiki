@@ -26,7 +26,7 @@ related:
 - '[[yt-decision-width-method]]'
 - '[[yt-research-weaponry-course]]'
 source_refs:
-- src_20260504_13783111-一堂调研武器库课程原文润色
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 title: 竞品拆解工具包：三层分类+内核边界+单元模型对标
 trust_level: medium

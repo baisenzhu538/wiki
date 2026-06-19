@@ -7,6 +7,7 @@ domain:
 review_date: 2026-05-04
 reviewed_by: 黄药师
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_40afd886-theme-finance-legal-business-summary
 status: enriched
 title: Business Research Skill — OSCAR 13武器体系 Claude Code 实现

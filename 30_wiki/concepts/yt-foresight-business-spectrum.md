@@ -65,6 +65,7 @@ review_date: 2026-06-16
 reviewed_by:
 - 王语嫣
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_40afd886-theme-finance-legal-business-summary
 status: enriched
 diagnostic_signals:

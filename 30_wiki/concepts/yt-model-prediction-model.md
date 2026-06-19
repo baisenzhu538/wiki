@@ -19,6 +19,7 @@ superseded_by:
   - yt-foresight-model-taxonomy
 reviewed_by: "黄药师"
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260522_e71d89ff-ocr-预判模型
 source_refs:
   - src_20260522_e71d89ff-ocr-预判模型

@@ -20,7 +20,7 @@ author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260428_db49a647）
 source_refs:
-- src_20260428_db49a647
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 reviewed_by: pending
 confidence: 0.7
 trust_level: medium

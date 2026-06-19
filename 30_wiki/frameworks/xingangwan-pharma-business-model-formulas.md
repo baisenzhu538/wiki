@@ -18,7 +18,7 @@ related:
 - '[[xingangwan-pharma-mall-cabinet-internet-hospital-model]]'
 - '[[shanxi-field-research-checklist-20260701]]'
 source_refs:
-- src_20260618_xingangwan-weekly-meeting-20260618.md
+- 10_raw/sources/src_20260618_xingangwan-weekly-meeting-20260618.md
 captured_at: '2026-06-19'
 diagnostic_signals:
 - 单柜核心假设（硬件成本、场地租金、转化率）尚未经实地调研验证

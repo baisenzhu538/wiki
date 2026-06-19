@@ -11,6 +11,7 @@ domain:
 - product
 - ai-collaboration
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_c5115d2c-龙虾-AI原生IM工具演示
 related:
 - '[[industrial-ai-ops-cases]]'

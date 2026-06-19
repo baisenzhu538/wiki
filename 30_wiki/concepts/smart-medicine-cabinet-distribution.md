@@ -14,6 +14,11 @@ diagnostic_signals:
   - {'signal': '商业模式是否把医保结算作为前置假设', 'framework_lens': '关键依赖 / 商业可行性', 'follow_up_question': '当地医保是否已接入智慧药房？'}
   - {'signal': '是否已完成单点单元模型测算而非仅看政策允许', 'framework_lens': '单元经济 / 从政策到利润', 'follow_up_question': '冷链、追溯、药师成本是否纳入模型？'}
 source_refs:
+- 10_raw/sources/src_20260619_390e2bb4_60_feedback_diagnosis_2026_06_13_kdo_admission_checklist.md
+- 10_raw/sources/src_20260619_d919434b_00_inbox_广冷电子_pharma_policy.agent.final.md
+- 10_raw/sources/src_20260619_0cb1b22c_00_inbox_广冷电子_pharma_policy_sec02.md
+- 10_raw/sources/src_20260619_c14d9dde_00_inbox_广冷电子_pharma_policy_sec03.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
   - "00_inbox/广冷电子/pharma_policy.agent.final.md"
   - "00_inbox/广冷电子/pharma_policy_sec02.md"

@@ -62,6 +62,7 @@ related:
 - '[[case-milktea-five-step]]'
 reviewed_by: 王语嫣
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260613_96e45c45-qishijian-business-model
 status: enriched
 title: 创业修炼地图

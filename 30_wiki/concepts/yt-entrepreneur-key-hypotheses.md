@@ -29,6 +29,7 @@ related:
 - '[[master-systems-thinking]]'
 review_date: 2026-06-06
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260609_76e76298-ocr-一堂-科学决策-关键假设abcd模型
 status: enriched
 title: 关键假设259工具与假设验证三板斧

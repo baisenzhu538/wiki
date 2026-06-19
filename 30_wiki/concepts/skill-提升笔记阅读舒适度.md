@@ -10,6 +10,7 @@ language: zh-CN
 version: 1
 confidence: 0.85
 source_refs:
+- 10_raw/sources/src_20260619_3a55a2eb_00_inbox_一堂_AI时代清单体笔记_Truman_口述_01.txt
   - 00_inbox/一堂-AI时代清单体笔记-Truman-口述-01.txt
 related:
   - "[[yt-note-checklist-concept]]"

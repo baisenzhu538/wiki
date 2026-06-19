@@ -12,6 +12,7 @@ related:
 - '[[yt-personal-ipo-learning]]'
 - '[[master-knowledge-compound]]'
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260525_66059442-ai时代判断力口述
 speaker: 国帅（胡帅），一堂联合创始人兼CTO
 status: enriched

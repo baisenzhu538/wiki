@@ -9,6 +9,8 @@ domain:
 source_person: Truman
 source_context: 一堂产品内核实操课
 source_refs:
+- 10_raw/sources/src_20260619_e67b2222_00_inbox_一堂_产品内核实操课_Truman_口述.txt
+- 10_raw/sources/src_20260619_20974e4a_00_inbox_一堂_产品内核实操课_truman_笔记.txt
   - 00_inbox/一堂-产品内核实操课-Truman-口述.txt
   - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
 tools_required:
@@ -163,7 +165,7 @@ diagnostic_signals:
 | 下位 | [[skill-一堂-product-kernel-canvas]] | 画布是加减法的可视化载体 |
 | 下位 | [[skill-一堂-kernel-three-questions]] | 加减法完成后，用三问验证法检查内核质量 |
 | 暗知识 | dk-一堂-kernel-is-hypothesis | 加减法得出的内核仍然是假设，需要验证 |
-| 案例 | [[case-一堂-AI高考志愿-kernel-mismatch]] | 没做好减法导致内核失焦的典型反例 |
+| 案例 | [[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]] | 没做好减法导致内核失焦的典型反例 |
 
 ## 来源
 

@@ -3,7 +3,7 @@ id: yt-tool-okr-cycle
 title: OKR 制定与复盘罗盘
 type: tool
 source_refs:
-- 30_wiki/concepts/yt-management-goal-management.md
+- 10_raw/sources/src_20260619_adef6403_30_wiki_concepts_yt_management_goal_management.md
 status: enriched
 domain:
 - yitang

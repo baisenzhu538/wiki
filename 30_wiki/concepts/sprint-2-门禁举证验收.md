@@ -5,6 +5,7 @@ created_at: 2026-05-09
 domain:
   - master
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260510_9e98a292-sprint-2-门禁举证验收
 status: enriched
 title: "Sprint 2 门禁举证验收"

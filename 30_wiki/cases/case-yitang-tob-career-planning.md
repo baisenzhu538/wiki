@@ -10,6 +10,8 @@ domain:
   - b2b
   - education
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
   - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
 tags:

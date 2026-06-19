@@ -9,6 +9,9 @@ domain:
 source_person: 一堂·Truman
 source_context: 一堂-产品内核迭代课/验证课/实操课笔记
 source_refs:
+- 10_raw/sources/src_20260619_e2f3dfec_00_inbox_一堂_产品内核迭代课_Truman_笔记.txt
+- 10_raw/sources/src_20260619_6e7c14ee_00_inbox_一堂_产品内核验证课_truman_笔记.txt
+- 10_raw/sources/src_20260619_20974e4a_00_inbox_一堂_产品内核实操课_truman_笔记.txt
   - 00_inbox/一堂-产品内核迭代课-Truman-笔记.txt
   - 00_inbox/一堂-产品内核验证课-truman-笔记.txt
   - 00_inbox/一堂-产品内核实操课-truman-笔记.txt
@@ -16,13 +19,13 @@ created_at: "2026-06-08"
 updated_at: "2026-06-17"
 related:
   - "[[concept-一堂-hypothesis-driven-business-methodology]]"
-  - "[[dk-一堂-wishful-thinking-kills-startups]]"
+  - "[[dk-yi-tang-wishful-thinking-kills-startups]]"
   - "[[skill-一堂-five-step-validation]]"
   - "[[skill-一堂-hypothesis-validation-three-axe]]"
   - "[[modeling-three-values]]"
 wiki_refs:
   - "[[concept-一堂-hypothesis-driven-business-methodology]]"
-  - "[[dk-一堂-wishful-thinking-kills-startups]]"
+  - "[[dk-yi-tang-wishful-thinking-kills-startups]]"
 definition_of_done:
   - 技能步骤清晰可执行
   - 每个步骤配有输入/输出或检查清单
@@ -186,7 +189,7 @@ diagnostic_signals:
 - **工具模板：**[[yt-tool-product-core-canvas]] — 已有的一堂产品内核画布工具是本技能卡的‘模板原型’
 - **系统定位：**[[yt-model-five-step-canvas]] — 五步法画布×产品内核画布提供了产品内核在整个创业逻辑中的位置：它是‘方案’层的核心，承接需求、支撑商业模式
 - **补充维度：**[[yt-panproduct-execution-core-and-boundary]] — 泛产品落地卡片‘内核和边界’是本画布的‘美学维度’补充：它讨论的是‘如何让内核不变’，本画布讨论的是‘如何让内核先清’。两者组合使用
-- **反面案例：**[[case-一堂-AI高考志愿-kernel-mismatch]] — 这个失败案例是本画布‘非要点验证’触发场景的实际体：当一个产品的内核与用户决策模型不匹配时，即使功能完备、数据准确，产品仍会失败
+- **反面案例：**[[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]] — 这个失败案例是本画布‘非要点验证’触发场景的实际体：当一个产品的内核与用户决策模型不匹配时，即使功能完备、数据准确，产品仍会失败
 
 ### 知识体系定位
 - 在一堂假设驱动方法论中，本技能位于 **“方案层”**

@@ -9,18 +9,19 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
+- 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
   - 00_inbox/纪浩-AI协作方法论-口述.md
 created_at: "2026-06-09"
 updated_at: "2026-06-17"
 related:
   - "[[case-纪浩-skill-market-problem-validation]]"
-  - "[[dk-纪浩-problem-vs-question]]"
+  - "[[dk-ji-hao-problem-vs-question]]"
   - "[[skill-一堂-hypothesis-validation-three-axe]]"
   - "[[skill-一堂-product-kernel-canvas]]"
   - "[[contingency-decision-making]]"
 wiki_refs:
   - "[[case-纪浩-skill-market-problem-validation]]"
-  - "[[dk-纪浩-problem-vs-question]]"
+  - "[[dk-ji-hao-problem-vs-question]]"
 definition_of_done:
   - 技能有明确的Actionable Steps
   - 有关键要点解读
@@ -145,7 +146,7 @@ diagnostic_signals:
 
 ## 关联概念
 
-- **关于 [[dk-纪浩-problem-vs-question]]：** 四问验证法是将Question转化为Problem的具体工具。它解决了"我知道要验证，但不知道怎么验证"的问题。
+- **关于 [[dk-ji-hao-problem-vs-question]]：** 四问验证法是将Question转化为Problem的具体工具。它解决了"我知道要验证，但不知道怎么验证"的问题。
 - **关于 [[case-纪浩-skill-market-problem-validation]]：** 这个案例展示了四问在实际中的应用过程。特别是"真实锚点"这一问，帮助团队避免了从"做一个Skill市场"放大到"做一个生态系统"的陷阱。
 
 - **纪浩体系**：[[concept-纪浩-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
@@ -190,7 +191,7 @@ diagnostic_signals:
 ## Synthesis
 
 ### 关联知识节点
-- **上游：**[[dk-纪浩-problem-vs-question]] — 四问是将 Question 转化为 Problem 的具体工具
+- **上游：**[[dk-ji-hao-problem-vs-question]] — 四问是将 Question 转化为 Problem 的具体工具
 - **下游：**[[case-纪浩-skill-market-problem-validation]] — 四问在实际案例中的应用过程
 - **平行：**[[skill-一堂-product-kernel-canvas]] — 产品内核画布定义“用户为什么选你”，四问验证“他们是不是真的需要你”
 

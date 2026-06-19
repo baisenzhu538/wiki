@@ -11,6 +11,8 @@ domain:
 source_person: 一堂·Truman
 source_context: 一堂-关键假设课-truman-笔记.txt、一堂-关键假设课-truman-口述.txt
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260606_22c4a291-一堂-关键假设课-truman-笔记
   - src_20260606_9dd317aa-一堂-关键假设课-truman-口述
 created_at: 2026-06-08
@@ -18,7 +20,7 @@ updated_at: '2026-06-16'
 related:
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[dk-一堂-wishful-thinking-kills-startups]]'
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-research-hypothesis-test]]'
 - '[[case-纪浩-skill-market-problem-validation]]'
@@ -27,7 +29,7 @@ related:
 wiki_refs:
 - '[[case-一堂-无人餐厅-hypothesis-failure]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[dk-一堂-wishful-thinking-kills-startups]]'
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 - '[[yt-entrepreneur-lean-validation]]'
 - '[[yt-research-hypothesis-test]]'
 - '[[case-纪浩-skill-market-problem-validation]]'
@@ -202,7 +204,7 @@ diagnostic_signals:
 
 - **[[case-一堂-无人餐厅-hypothesis-failure]]** — 反面案例：无人餐厅在"机器人经营价值"假设未验证前all in，最终成本高于传统餐厅、口味差、复购下滑。与陈贤敏形成"先验证再复制"vs"先复制再验证"的对照。
 - **[[concept-一堂-hypothesis-driven-business-methodology]]** — 本案例是该方法论在餐饮连锁场景的具体应用：用259工具拆假设、做减法、快速验证。
-- **[[dk-一堂-wishful-thinking-kills-startups]]** — 陈贤敏克制了"资源充足就想多开店"的愿望思维，用实验数据替代美好设想。
+- **[[dk-yi-tang-wishful-thinking-kills-startups]]** — 陈贤敏克制了"资源充足就想多开店"的愿望思维，用实验数据替代美好设想。
 - **[[yt-entrepreneur-lean-validation]]** — 本案例是"低成本验证/MVP"工具的正面典范：陈贤敏用"开一家店"这个最小行为实验，验证了"中式汉堡能否在目标市场跑通"这个核心假设，而不是先冒风险规模化。
 - **[[yt-research-hypothesis-test]]** — 陈贤敏的验证过程对应"假设验证调研工具"的三步设计：关键假设（中式汉堡能否跑通）→可证伪问题（实验店用户复购率、价格弹性接受度）→最小实验（单店测试）。
 - **[[case-纪浩-skill-market-problem-validation]]** — 跨域对照：纪浩用四问验证法识别"伪需求"，陈贤敏用实验店验证"真需求"，两者共同说明"验证先于规模化"在不同业态中的落地形态。

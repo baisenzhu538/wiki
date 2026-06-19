@@ -24,6 +24,7 @@ related:
 - '[[master-first-principles]]'
 reviewed_by: 黄药师
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260510_6d771b2a-个人修身-y模型探索营2
 status: enriched
 title: Y模型探索营2：五次质变与科学推演

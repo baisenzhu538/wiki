@@ -10,9 +10,9 @@ domain:
 source_person: Barbara Minto / McKinsey & Company
 source_context: McKinsey 问题解决方法论核心原则，最早系统化呈现于 Minto《金字塔原理》(1987) 与 McKinsey 内部培训
 source_refs:
-- 'Minto, B. (2009). The Pyramid Principle: Logic in Writing and Thinking. Pearson.'
-- Rasiel, E. (1999). The McKinsey Way. McGraw-Hill.
-- Rasiel, E. & Friga, P. (2001). The McKinsey Mind. McGraw-Hill.
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 related:
 - '[[concept-mckinsey-issue-tree]]'
 - '[[concept-minto-pyramid-principle]]'

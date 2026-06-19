@@ -24,13 +24,13 @@ tags:
 author: unknown
 source_context: KDO internal task tracking
 source_refs:
-- "30_wiki/projects/单柜财务测算.json"
-- "https://m.ciopharma.com/supervise/60951"
-- "https://www.changzhi.gov.cn/xxgkml/zfxxgkml/czsrmzf/gzdt_3400/tzgggs/202207/P020220708327821049419.pdf"
-- "https://www.phirda.com/artilce_33315.html"
-- "https://cn.chinadaily.com.cn/a/202605/29/WS6a193fcca310942cc49af01f.html"
-- "https://web.ynye.com/"
-- "10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md"
+- 10_raw/sources/src_20260619_9b664d88_30_wiki_projects_单柜财务测算.json
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 captured_at: '2026-06-18'
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'

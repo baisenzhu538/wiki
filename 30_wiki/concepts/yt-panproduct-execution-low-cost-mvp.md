@@ -32,6 +32,7 @@ related:
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 reviewed_by: 黄药师
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260609_9168476b-ocr-泛产品设计-落地卡片-低成本测试mvp
 status: enriched
 title: 泛产品设计·落地卡片：低成本测试MVP

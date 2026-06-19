@@ -32,6 +32,7 @@ related:
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260613_96e45c45-qishijian-business-model
 status: enriched
 title: Y模型尺子刻度法：从模糊经验到可复用评估模型

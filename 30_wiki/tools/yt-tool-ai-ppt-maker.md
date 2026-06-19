@@ -3,7 +3,7 @@ id: yt-tool-ai-ppt-maker
 title: AI对话式PPT生成器：把排版变成说话
 type: tool
 source_refs:
-- 00_inbox/design/AI设计-文创案例设计课口述.txt
+- 10_raw/sources/src_20260619_3f10f20d_00_inbox_design_AI设计_文创案例设计课口述.txt
 - 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 domain:

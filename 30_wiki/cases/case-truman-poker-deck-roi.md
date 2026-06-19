@@ -12,6 +12,7 @@ domain:
 source_person: Truman
 source_context: 一堂-科学决策-ROI决策高度实操课口述04（2026）
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04
 related:
 - '[[yt-decision-height-toolkit]]'

@@ -20,6 +20,8 @@ query_triggers:
 review_date: 2026-06-17
 reviewed_by: 王语嫣
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述
   - src_20260611_3725d306-一堂-一堂五步法-单元模型-笔记
 related:

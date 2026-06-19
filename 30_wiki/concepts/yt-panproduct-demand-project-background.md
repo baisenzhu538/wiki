@@ -27,6 +27,7 @@ related:
 - '[[yt-panproduct-demand-industry-canvas]]'
 reviewed_by: 黄药师
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260522_115e8827-ocr-泛产品设计-用户卡片-项目背景分析
 status: enriched
 title: 泛产品设计·用户卡片：项目背景分析

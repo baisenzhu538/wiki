@@ -6,6 +6,7 @@ domain:
   - ai-saas
   - design
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260522_1ede9202-视觉prompt三层操作系统-srom-visual-os
 status: enriched
 title: "视觉Prompt三层操作系统 (SROM Visual OS)"

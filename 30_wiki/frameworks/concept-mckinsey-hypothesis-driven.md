@@ -3,8 +3,8 @@ id: concept-mckinsey-hypothesis-driven
 title: Hypothesis-Driven Approach：假设驱动工作法
 type: framework
 source_refs:
-- Rasiel, E. (1999). *The McKinsey Way*. McGraw-Hill.
-- Friga, P. N. (2003). *The McKinsey Mind*. McGraw-Hill.
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 domain:
 - consulting

@@ -9,10 +9,7 @@ domain:
 source_person: system
 source_context: pitfalls.md P-9
 source_refs:
-- path: .agent/pitfalls.md#P-9
-  confidence: 0.92
-- path: 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  confidence: 0.88
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:

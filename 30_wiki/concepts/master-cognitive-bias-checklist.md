@@ -22,7 +22,7 @@ related:
 - '[[yt-unit-model-ladder]]'
 - '[[yt-unit-model-benchmark]]'
 source_refs:
-- 来源: 消化全库后提炼
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 title: 认知偏差快速诊断清单
 type: tool

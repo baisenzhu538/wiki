@@ -7,6 +7,8 @@ type: case
 domain:
 - yitang
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260610_8865798f-一堂-一堂五步法-增长-口述
   - src_20260610_92cd2b4e-一堂-一堂五步法-增长-笔记
 status: enriched

@@ -28,6 +28,9 @@ related:
 review_date: 2026-06-11
 reviewed_by: 周伯通
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260611_7c3a2a57-一堂-一堂五步法-壁垒-口述
   - src_20260611_89e8a16b-一堂-一堂五步法-壁垒-假的壁垒_paddle_ocr
   - src_20260611_79848c35-一堂-一堂五步法-壁垒-规模经济分析武器库_paddle_ocr

@@ -9,6 +9,8 @@ domain:
 source_person: Truman
 source_context: 一堂商业预判课
 source_refs:
+- 10_raw/sources/src_20260619_4078c38f_00_inbox_一堂_商业预判课_Truman_口述.txt
+- 10_raw/sources/src_20260619_3a207bbd_00_inbox_一堂_商业预判课_truman_笔记.txt
   - 00_inbox/一堂-商业预判课-Truman-口述.txt
   - 00_inbox/一堂-商业预判课-truman-笔记.txt
 tools_required:

@@ -10,7 +10,7 @@ domain:
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
-- 00_inbox/design/AI设计-AI设计师实操培训01.txt
+- 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
 - 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 confidence: 0.88
 trust_level: medium

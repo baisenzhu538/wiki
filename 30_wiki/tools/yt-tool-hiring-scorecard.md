@@ -3,7 +3,7 @@ id: yt-tool-hiring-scorecard
 title: 结构化面试打分卡
 type: tool
 source_refs:
-- 30_wiki/concepts/yt-management-scientific-hiring.md
+- 10_raw/sources/src_20260619_642947cb_30_wiki_concepts_yt_management_scientific_hiring.md
 status: enriched
 domain:
 - yitang

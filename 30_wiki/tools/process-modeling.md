@@ -4,6 +4,12 @@ id: process-modeling
 title: 流程建模：用 SOP 与清单把经验变成稳定产出
 type: tool
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_623cfbfd-高阶建模-流程建模
   - src_20260614_4efd4e88-Truman-高阶建模-流程建模-图-01
   - src_20260614_9aca19bd-Truman-高阶建模-流程建模-开播准备-图-01

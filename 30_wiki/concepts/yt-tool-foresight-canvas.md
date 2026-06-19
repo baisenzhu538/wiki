@@ -7,6 +7,11 @@ type: tool
 domain:
 - yitang
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
   - src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
   - src_20260610_0132647f-一堂-机会预判-咖啡案例01

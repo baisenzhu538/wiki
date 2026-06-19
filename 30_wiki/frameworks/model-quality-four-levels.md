@@ -4,6 +4,7 @@ id: model-quality-four-levels
 title: 模型可信度四层标准 + 千人广场模型：Truman 如何定义一个好模型
 type: framework
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 confidence: 0.7

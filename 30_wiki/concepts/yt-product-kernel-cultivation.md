@@ -20,6 +20,10 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260610_d4c3edda-一堂-一堂五步法-解决方案（产品内核）-口述
   - src_20260610_1a72a5cb-一堂-一堂五步法-产品内核-修炼段位图
   - src_20260610_29a11a33-一堂-一堂五步法-产品内核-十大典型指标

@@ -9,18 +9,19 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部·AI协作方法论分享（2026年）
 source_refs:
+- 10_raw/sources/src_20260619_e18427b7_00_inbox_纪浩_AI协作方法论_口述.md
   - 00_inbox/纪浩-AI协作方法论-口述.md
 created_at: "2026-06-09"
 updated_at: "2026-06-17"
 related:
-  - "[[case-纪浩-ai-workspace-chaos]]"
-  - "[[dk-纪浩-constraint-beats-talent]]"
+  - "[[case-ji-hao-ai-workspace-chaos]]"
+  - "[[dk-ji-hao-constraint-beats-talent]]"
   - "[[structured-ai-workspace]]"
   - "[[skill-纪浩-AI工作空间与导诊台设计法]]"
   - "[[skill-纪浩-Agent技能市场设计法]]"
 wiki_refs:
-  - "[[case-纪浩-ai-workspace-chaos]]"
-  - "[[dk-纪浩-constraint-beats-talent]]"
+  - "[[case-ji-hao-ai-workspace-chaos]]"
+  - "[[dk-ji-hao-constraint-beats-talent]]"
 definition_of_done:
   - 概念有明确定义
   - 有核心主张
@@ -140,10 +141,10 @@ AI是模式匹配系统，不会创造结构。它的所有结构设计都是从
 
 ## 关联案例
 
-- **case-纪浩-ai-workspace-chaos**：正反面案例——目录混乱导致行为退化，最终只能"重新投胎"。证明了没有结构的代价。
-- **case-纪浩-ui-design-constraint-evolution**：约束文档属于L3的工作手册，是从无结构到有结构的典型过程。
+- **case-ji-hao-ai-workspace-chaos**：正反面案例——目录混乱导致行为退化，最终只能"重新投胎"。证明了没有结构的代价。
+- **case-ji-hao-ui-design-constraint-evolution**：约束文档属于L3的工作手册，是从无结构到有结构的典型过程。
 
 ## 关联概念
 
-- **关于 [[case-纪浩-ai-workspace-chaos]]：** 这个案例是五层法的反面教材——当五类知识混在一起时，结构不会自然长出来，只会越来越乱。这是让人最终走向"重新投胎"的根本原因。
-- **关于 [[dk-纪浩-constraint-beats-talent]]：** 约束文档是L3工作手册的核心组成部分。当多个任务共享同一套约束时，它会沉淀为经验库。这是从临时规范到长期知识资产的转化路径。
+- **关于 [[case-ji-hao-ai-workspace-chaos]]：** 这个案例是五层法的反面教材——当五类知识混在一起时，结构不会自然长出来，只会越来越乱。这是让人最终走向"重新投胎"的根本原因。
+- **关于 [[dk-ji-hao-constraint-beats-talent]]：** 约束文档是L3工作手册的核心组成部分。当多个任务共享同一套约束时，它会沉淀为经验库。这是从临时规范到长期知识资产的转化路径。

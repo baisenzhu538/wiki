@@ -9,19 +9,20 @@ domain:
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
+- 10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md
   - 00_inbox/半肥猫-AI学习落地-口述.md
 tools_required:
   - AIGC大模型
   - 真实业务项目
   - 文档沉淀工具
 prerequisite_skills:
-  - skill-半肥猫-追问AI证据并标注信源
-  - skill-半肥猫-将学习成果沉淀为PRD文档
+  - skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan
+  - skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang
 related:
   - "[[concept-半肥猫-ai-learning-toolification-methodology]]"
-  - "[[case-半肥猫-conversion-hacker-skill]]"
-  - "[[dk-半肥猫-silky-answer-warning]]"
-  - "[[dk-半肥猫-skill-rejection-value]]"
+  - "[[case-ban-fei-mao-conversion-hacker-skill]]"
+  - "[[dk-ban-fei-mao-silky-answer-warning]]"
+  - "[[dk-ban-fei-mao-skill-rejection-value]]"
   - "[[concept-纪浩-ai-collaboration-methodology]]"
   - "[[skill-半肥猫-课程Skill化的八步工作流]]"
   - "[[skill-纪浩-Do-first-PDCA渐进迭代法]]"
@@ -160,14 +161,14 @@ diagnostic_signals:
 | 关系 | 目标节点 | 说明 |
 |------|----------|------|
 | 上位 | [[concept-半肥猫-ai-learning-toolification-methodology]] | 这张技能卡是 L1 学习落地法的核心操作流程 |
-| 下位 | [[skill-半肥猫-追问AI证据并标注信源]] | 三轮检查的第一轮——追问证据的具体技能 |
-| 下位 | [[skill-半肥猫-将学习成果沉淀为PRD文档]] | 步骤 6 的具体执行方式 |
+| 下位 | [[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]] | 三轮检查的第一轮——追问证据的具体技能 |
+| 下位 | [[skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]] | 步骤 6 的具体执行方式 |
 | 下位 | [[skill-半肥猫-课程Skill化的八步工作流]] | 学习沉淀后的产品化路径 |
 | 对位 | skill-纪浩-dofirst-pdca | 纪浩的 Do-first PDCA ↔ 半肥猫的边学边练——都是从行动中迭代 |
 | 对位 | [[concept-纪浩-ai-collaboration-methodology]] | 纪浩讲"怎么管理 AI 执行"，半肥猫讲"怎么管理人的学习"——互补关系 |
-| 案例 | [[case-半肥猫-conversion-hacker-skill]] | 边学边练的完整实侍 |
-| 暗知识 | [[dk-半肥猫-silky-answer-warning]] | "AI 回答越丝滑越有问题"——三轮检查的底层动力 |
-| 暗知识 | [[dk-半肥猫-skill-rejection-value]] | "Skill 的最大价值是拒绝"——沉淀工具时需要考虑的边界 |
+| 案例 | [[case-ban-fei-mao-conversion-hacker-skill]] | 边学边练的完整实侍 |
+| 暗知识 | [[dk-ban-fei-mao-silky-answer-warning]] | "AI 回答越丝滑越有问题"——三轮检查的底层动力 |
+| 暗知识 | [[dk-ban-fei-mao-skill-rejection-value]] | "Skill 的最大价值是拒绝"——沉淀工具时需要考虑的边界 |
 
 ## 来源
 

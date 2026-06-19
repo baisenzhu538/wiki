@@ -23,6 +23,7 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - source_unknown
 source_context: 原始source无法追溯，已标记为source_unknown，待后续补充
 diagnostic_signals:

@@ -3,7 +3,8 @@ id: yt-prompt-iterative-prompting
 title: "迭代式提示词工作流（5步法）"
 type: tool
 source_refs:
-- src_20260611_ff778102
+- 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 domain:
   - yitang

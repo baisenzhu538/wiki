@@ -10,6 +10,7 @@ domain:
 - business-strategy
 - ai-saas
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_ab09af1c-多人-FD模式解析
 related:
 - '[[source-code-delivery-model]]'

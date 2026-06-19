@@ -3,7 +3,7 @@ id: yt-tool-meeting-designer
 title: 会议设计师：一页纸会议蓝图
 type: tool
 source_refs:
-- 30_wiki/concepts/yt-management-scientific-meetings.md
+- 10_raw/sources/src_20260619_d11dc3a2_30_wiki_concepts_yt_management_scientific_meetings.md
 status: enriched
 domain:
 - yitang

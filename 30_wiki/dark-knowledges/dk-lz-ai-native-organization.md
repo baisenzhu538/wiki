@@ -12,7 +12,7 @@ source_refs:
 - 10_raw/sources/src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md
 related:
 - '[[concept-纪浩-ai-collaboration-five-layer]]'
-- '[[dk-纪浩-ai-cant-design-structure]]'
+- '[[dk-ji-hao-ai-cant-design-structure]]'
 - '[[ai-collaboration-mindset-shift]]'
 - '[[dk-lz-code-is-disposable]]'
 - '[[dk-my-ai-landing-three-barriers]]'
@@ -98,6 +98,6 @@ diagnostic_signals:
 
 - **[[dk-lz-code-is-disposable]]** — 中层消失与代码消耗品化是同一个趋势的两个面向：AI能力爆发正在同时重构组织的"人"的结构和"代码"的价值。
 - **[[concept-纪浩-ai-collaboration-five-layer]]** — 纪浩五层结构中的"监控层"与老朱的"监控Agent"同源：都是让系统能够自我进化。五层结构是技术实现，老朱的洞察是组织层面的影响。
-- **[[dk-纪浩-ai-cant-design-structure]]** — 纪浩说AI不会自己设计结构，但老朱的洞察是：AI虽然不会设计结构，但它可以替代维持旧结构所需的人——两者构成了一个完整的逻辑链。
+- **[[dk-ji-hao-ai-cant-design-structure]]** — 纪浩说AI不会自己设计结构，但老朱的洞察是：AI虽然不会设计结构，但它可以替代维持旧结构所需的人——两者构成了一个完整的逻辑链。
 - **[[ai-collaboration-mindset-shift]]** — 人机协作 mindset 的升级：从"AI辅助人"到"AI成为组织骨架"。老朱的口述是这个升级在组织层面的极致表达。
 - **[[dk-my-ai-landing-three-barriers]]** — 马易提出的"不懂原理×不知边界×没有审美"三大障碍，在组织转型中更加明显：大多数公司的管理层不懂AI原理、不知AI边界、没有AI审美，因此只能做出"副驾驶"级别的改良。

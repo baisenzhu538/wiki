@@ -17,6 +17,7 @@ query_triggers:
   - "成长曲线三种状态"
 reviewed_by: "黄药师"
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数
 source_refs:
   - src_20260522_e6cf558a-ocr-一堂刻意练习十年成长指数

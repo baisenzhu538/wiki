@@ -9,6 +9,8 @@ domain:
 - ai
 - modeling
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
   - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
 tags:

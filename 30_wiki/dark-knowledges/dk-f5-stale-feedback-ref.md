@@ -9,7 +9,7 @@ domain:
 source_person: system
 source_context: failure-modes.md F-KDO-005
 source_refs:
-- 90_control/failure-modes.md#F-KDO-005
+- 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-005
 - 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-19'

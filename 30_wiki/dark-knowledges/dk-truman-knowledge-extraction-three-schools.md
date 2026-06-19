@@ -17,13 +17,13 @@ related:
 - '[[yt-personal-pan-product-tools]]'
 - '[[yt-note-checklist-concept]]'
 - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
-- '[[dk-纪浩-constraint-beats-talent]]'
+- '[[dk-ji-hao-constraint-beats-talent]]'
 - '[[ai-learning-closed-loop]]'
 wiki_refs:
 - '[[yt-personal-pan-product-tools]]'
 - '[[yt-note-checklist-concept]]'
 - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
-- '[[dk-纪浩-constraint-beats-talent]]'
+- '[[dk-ji-hao-constraint-beats-talent]]'
 - '[[ai-learning-closed-loop]]'
 tags:
 - '#domain/yitang'
@@ -166,6 +166,6 @@ diagnostic_signals:
 
 - [[dk-truman-iteration-to-aesthetic-ceiling]] —— 迭代到审美上限是C流派对知识产品质量的要求：不仅要"正确"，还要"教科书级的精细"。
 
-- [[dk-纪浩-constraint-beats-talent]] —— 约束设计是知识萃取的核心方法：Truman在三流派分析中实际上是在为知识萃取设置严格的范式约束（什么算A、什么算B、什么算C），这种约束本身就是一种萃取能力。
+- [[dk-ji-hao-constraint-beats-talent]] —— 约束设计是知识萃取的核心方法：Truman在三流派分析中实际上是在为知识萃取设置严格的范式约束（什么算A、什么算B、什么算C），这种约束本身就是一种萃取能力。
 
 - [[ai-learning-closed-loop]] —— 学习闭环是知识萃取的实操框架：输入→处理→输出→反馈的单元模型。本暗知识展示了当这个模型被正确应用时的威力，以及被错误应用时的陷阱。

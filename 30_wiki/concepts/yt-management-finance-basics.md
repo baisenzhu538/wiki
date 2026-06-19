@@ -32,6 +32,7 @@ created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_40afd886-theme-finance-legal-business-summary
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260614_40afd886）
 ---

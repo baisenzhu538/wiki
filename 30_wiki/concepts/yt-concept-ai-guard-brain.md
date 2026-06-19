@@ -4,7 +4,7 @@ title: 守脑如玉：AI时代保持大脑锋利
 type: concept
 source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
-- 10_raw/assets/yitang/拆书会第202期-吴恩达AI提示词课程.pdf
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 domain:
 - yitang

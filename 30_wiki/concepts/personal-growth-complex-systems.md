@@ -9,6 +9,12 @@ domain:
 - learning-methodology
 - master
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_fb753683-世界发展-偶然与必然讨论
   - src_20260614_8d349c5b-超级个体-百万美元架构师
   - src_20260614_82a4fdb9-凯文凯利-必然趋势分享

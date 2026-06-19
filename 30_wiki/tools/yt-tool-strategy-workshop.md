@@ -3,7 +3,7 @@ id: yt-tool-strategy-workshop
 title: 战略研讨会引导手册
 type: tool
 source_refs:
-- 30_wiki/concepts/yt-management-strategy-meeting.md
+- 10_raw/sources/src_20260619_86ca05fb_30_wiki_concepts_yt_management_strategy_meeting.md
 status: enriched
 domain:
 - yitang

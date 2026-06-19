@@ -12,6 +12,9 @@ domain:
 source_person: Truman
 source_context: 一堂产品内核系列（实操课+迭代课+验证课，2026年）
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述
   - src_20260606_4f5117e3-一堂-产品内核迭代课-Truman-口述
   - src_20260606_094098c1-一堂-产品内核验证课-Truman-口述

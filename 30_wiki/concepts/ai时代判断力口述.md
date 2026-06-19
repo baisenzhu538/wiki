@@ -5,6 +5,7 @@ created_at: 2026-05-25
 domain:
   - healthcare
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260525_6748cc27-ai时代判断力口述
 status: enriched
 title: "AI时代判断力口述"

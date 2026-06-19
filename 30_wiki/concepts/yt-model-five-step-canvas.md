@@ -21,6 +21,7 @@ related:
 - '[[case-modeling-abstraction-yitang-models]]'
 reviewed_by: 黄药师
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
 status: enriched
 title: 五步法画布 × 产品内核画布：从假设到壁垒的实操工具

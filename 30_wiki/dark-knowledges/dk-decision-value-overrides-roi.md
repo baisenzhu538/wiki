@@ -13,6 +13,8 @@ domain:
 source_person: 黄药师、老朱
 source_context: 2026-06-16 决策域深度对齐讨论
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - yt-decision-y-model
   - master-decision-hygiene
 created_at: "2026-06-17"

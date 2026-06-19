@@ -10,8 +10,8 @@ domain:
 source_person: McKinsey & Company
 source_context: McKinsey 问题解决方法论核心工具，用于将复杂商业问题逐层拆解为可独立分析的子问题
 source_refs:
-- Rasiel, E. (1999). The McKinsey Way. McGraw-Hill.
-- Rasiel, E. & Friga, P. (2001). The McKinsey Mind. McGraw-Hill.
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 related:
 - '[[concept-mckinsey-mece]]'
 - '[[concept-mckinsey-hypothesis-driven]]'

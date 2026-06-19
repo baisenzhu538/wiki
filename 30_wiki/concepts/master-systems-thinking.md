@@ -26,7 +26,7 @@ related:
 - '[[yt-unit-model-benchmark]]'
 - '[[yt-unit-model-ai-assisted]]'
 source_refs:
-- 来源: Jay Forrester, Donella Meadows, Peter Senge
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 title: 系统思考：反馈循环与杠杆点
 type: concept

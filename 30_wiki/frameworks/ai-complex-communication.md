@@ -11,6 +11,7 @@ domain:
 - ai-collaboration
 - management
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_d79b42d1-D同学-AI技术落地案例
 related:
 - '[[industrial-ai-ops-cases]]'

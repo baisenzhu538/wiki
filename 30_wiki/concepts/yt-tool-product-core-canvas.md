@@ -24,10 +24,11 @@ query_triggers:
 related:
 - '[[yt-five-step-implementation]]'
 - '[[yt-model-five-step-canvas]]'
-- '[[case-一堂-AI高考志愿-kernel-mismatch]]'
-- '[[dk-一堂-wishful-thinking-kills-startups]]'
+- '[[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]'
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 review_date: 2026-06-06
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
 status: enriched
 title: 产品内核画布与九大原则
@@ -199,7 +200,7 @@ AI 不会替代创始人做价值取舍，但可以把画布的"发散—收敛�
 
 ### 案例映射：AI 高考志愿填报产品的内核错位
 
-[[case-一堂-AI高考志愿-kernel-mismatch]] 是画布变体用法中\"用户视角\"原则的经典反例。该产品团队最初把\"智能问答\"\"算法推荐\"标为绿色，但家长真正的决策逻辑是\"信任、信息全面性、防滑档\"。如果用画布四格重新分析：
+[[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]] 是画布变体用法中\"用户视角\"原则的经典反例。该产品团队最初把\"智能问答\"\"算法推荐\"标为绿色，但家长真正的决策逻辑是\"信任、信息全面性、防滑档\"。如果用画布四格重新分析：
 
 | 画布格 | 团队原先填写 | 用户视角修正 |
 |:-----|:------------|:------------|

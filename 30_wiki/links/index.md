@@ -445,10 +445,10 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\cases\case-shampoo-product-kernel.md
 - 30_wiki\concepts\yt-barrier-identification-skill.md
 
-## [[case-一堂-AI高考志愿-kernel-mismatch]]
+## [[case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch]]
 - 30_wiki\concepts\skill-一堂-product-kernel-add-subtract.md
 - 30_wiki\concepts\skill-一堂-product-kernel-canvas.md
-- 30_wiki\dark-knowledges\dk-一堂-wishful-thinking-kills-startups.md
+- 30_wiki\dark-knowledges\dk-yi-tang-wishful-thinking-kills-startups.md
 
 ## case-一堂-shampoo-kernel-validation
 - 30_wiki\concepts\skill-一堂-kernel-three-questions.md
@@ -469,7 +469,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\concepts\skill-一堂-hypothesis-validation-three-axe.md
 - 30_wiki\concepts\yt-entrepreneur-lean-validation.md
 - 30_wiki\dark-knowledges\dk-mckinsey-hypothesis-driven-pitfalls.md
-- 30_wiki\dark-knowledges\dk-一堂-wishful-thinking-kills-startups.md
+- 30_wiki\dark-knowledges\dk-yi-tang-wishful-thinking-kills-startups.md
 - 30_wiki\frameworks\concept-mckinsey-hypothesis-driven.md
 
 ## [[case-一堂-陈贤敏汉堡-hypothesis-validation]]
@@ -480,36 +480,36 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\frameworks\concept-mckinsey-hypothesis-driven.md
 - 30_wiki\tools\skill-mckinsey-hypothesis-driven-workflow.md
 
-## [[case-半肥猫-conversion-hacker-skill]]
+## [[case-ban-fei-mao-conversion-hacker-skill]]
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
-- 30_wiki\concepts\skill-半肥猫-判断课程是否值得做成Skill.md
-- 30_wiki\concepts\skill-半肥猫-将学习成果沉淀为PRD文档.md
+- 30_wiki\concepts\skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill.md
+- 30_wiki\concepts\skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang.md
 - 30_wiki\concepts\skill-半肥猫-课程Skill化的八步工作流.md
 - 30_wiki\concepts\skill-半肥猫-边学边练边沉淀的AI学习法.md
-- 30_wiki\concepts\skill-半肥猫-追问AI证据并标注信源.md
-- 30_wiki\concepts\skill-半肥猫-飞书多维表格-自建机器人做团队数据协同.md
+- 30_wiki\concepts\skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan.md
+- 30_wiki\concepts\skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong.md
 
 ## [[case-半肥猫-course-to-skill]]
-- 30_wiki\cases\case-半肥猫-from-assignment-to-tool.md
+- 30_wiki\cases\case-ban-fei-mao-from-assignment-to-tool.md
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
 - 30_wiki\concepts\skill-半肥猫-course-to-skill-workflow.md
 
-## [[case-半肥猫-from-assignment-to-tool]]
+## [[case-ban-fei-mao-from-assignment-to-tool]]
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
 - 30_wiki\concepts\skill-半肥猫-ai-research-validation.md
-- 30_wiki\dark-knowledges\dk-半肥猫-real-business-is-the-engine.md
-- 30_wiki\dark-knowledges\dk-半肥猫-silky-answers-are-dangerous.md
+- 30_wiki\dark-knowledges\dk-ban-fei-mao-real-business-is-the-engine.md
+- 30_wiki\dark-knowledges\dk-ban-fei-mao-silky-answers-are-dangerous.md
 
-## [[case-半肥猫-skill-ab-test]]
+## [[case-ban-fei-mao-skill-ab-test]]
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
-- 30_wiki\concepts\skill-半肥猫-告诉AI当前日期限制数据时效.md
-- 30_wiki\concepts\skill-半肥猫-用Skill做对比测试验证效果.md
-- 30_wiki\concepts\skill-半肥猫-设计Skill的评分规则与风险边界.md
+- 30_wiki\concepts\skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao.md
+- 30_wiki\concepts\skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo.md
+- 30_wiki\concepts\skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie.md
 - 30_wiki\concepts\skill-半肥猫-课程Skill化的八步工作流.md
 
-## [[case-纪浩-ai-workspace-chaos]]
+## [[case-ji-hao-ai-workspace-chaos]]
 - 30_wiki\concepts\concept-纪浩-ai-collaboration-five-layer.md
-- 30_wiki\dark-knowledges\dk-纪浩-novice-mindset-advantage.md
+- 30_wiki\dark-knowledges\dk-ji-hao-novice-mindset-advantage.md
 
 ## [[case-纪浩-from-zip-to-five-layers]]
 - 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
@@ -520,12 +520,12 @@ _Auto-generated index of `wikilink` references across wiki pages._
 ## [[case-纪浩-skill-market-problem-validation]]
 - 30_wiki\concepts\skill-纪浩-AI对话上下文隔离.md
 - 30_wiki\concepts\skill-纪浩-problem-validation-four-checks.md
-- 30_wiki\dark-knowledges\dk-纪浩-problem-vs-question.md
+- 30_wiki\dark-knowledges\dk-ji-hao-problem-vs-question.md
 
-## [[case-纪浩-ui-design-constraint-evolution]]
-- 30_wiki\dark-knowledges\dk-纪浩-constraint-beats-talent.md
-- 30_wiki\dark-knowledges\dk-纪浩-novice-mindset-advantage.md
-- 30_wiki\dark-knowledges\dk-纪浩-problem-vs-question.md
+## [[case-ji-hao-ui-design-constraint-evolution]]
+- 30_wiki\dark-knowledges\dk-ji-hao-constraint-beats-talent.md
+- 30_wiki\dark-knowledges\dk-ji-hao-novice-mindset-advantage.md
+- 30_wiki\dark-knowledges\dk-ji-hao-problem-vs-question.md
 
 ## [[concept-ai-native-organization-five-steps]]
 - 30_wiki\concepts\ai-hackathon-pitches.md
@@ -604,7 +604,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\concepts\yt-decision-y-model.md
 - 30_wiki\concepts\yt-entrepreneur-key-hypotheses.md
 - 30_wiki\dark-knowledges\dk-mckinsey-hypothesis-driven-pitfalls.md
-- 30_wiki\dark-knowledges\dk-一堂-wishful-thinking-kills-startups.md
+- 30_wiki\dark-knowledges\dk-yi-tang-wishful-thinking-kills-startups.md
 - 30_wiki\frameworks\concept-mckinsey-hypothesis-driven.md
 
 ## [[concept-一堂-kernel-iteration]]
@@ -641,24 +641,24 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\concepts\skill-一堂-product-kernel-add-subtract.md
 
 ## [[concept-半肥猫-ai-learning-toolification-methodology]]
-- 30_wiki\concepts\skill-半肥猫-优先使用官方权威信源做证据.md
-- 30_wiki\concepts\skill-半肥猫-告诉AI当前日期限制数据时效.md
-- 30_wiki\concepts\skill-半肥猫-将学习成果沉淀为PRD文档.md
+- 30_wiki\concepts\skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju.md
+- 30_wiki\concepts\skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao.md
+- 30_wiki\concepts\skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang.md
 - 30_wiki\concepts\skill-半肥猫-课程Skill化的八步工作流.md
 - 30_wiki\concepts\skill-半肥猫-边学边练边沉淀的AI学习法.md
-- 30_wiki\concepts\skill-半肥猫-追问AI证据并标注信源.md
-- 30_wiki\dark-knowledges\dk-半肥猫-real-business-is-the-engine.md
+- 30_wiki\concepts\skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan.md
+- 30_wiki\dark-knowledges\dk-ban-fei-mao-real-business-is-the-engine.md
 
 ## [[concept-纪浩-ai-collaboration-five-layer]]
 - 30_wiki\cases\case-jh-yitang-vs-sqlhelper.md
 - 30_wiki\dark-knowledges\dk-ai-judgment-human-responsibility.md
 - 30_wiki\dark-knowledges\dk-lz-ai-native-organization.md
 - 30_wiki\dark-knowledges\dk-lz-code-is-disposable.md
-- 30_wiki\dark-knowledges\dk-纪浩-constraint-beats-talent.md
+- 30_wiki\dark-knowledges\dk-ji-hao-constraint-beats-talent.md
 
 ## [[concept-纪浩-ai-collaboration-methodology]]
 - 30_wiki\cases\case-纪浩-focus-prompt-design.md
-- 30_wiki\cases\case-纪浩-skills-market.md
+- 30_wiki\cases\case-ji-hao-skills-market.md
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
 - 30_wiki\concepts\skill-半肥猫-边学边练边沉淀的AI学习法.md
 - 30_wiki\concepts\skill-纪浩-AI使用边界管理法.md
@@ -684,12 +684,12 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\concepts\skill-纪浩-里程碑验证法.md
 - 30_wiki\concepts\skill-纪浩-问题导向备课法.md
 - 30_wiki\concepts\skill-纪浩-项目启动五问法.md
-- 30_wiki\dark-knowledges\dk-纪浩-ai-cant-design-structure.md
-- 30_wiki\dark-knowledges\dk-纪浩-logs-fastest-ignored.md
-- 30_wiki\dark-knowledges\dk-纪浩-novice-mindset-advantage.md
-- 30_wiki\dark-knowledges\dk-纪浩-pdca-starts-from-do.md
-- 30_wiki\dark-knowledges\dk-纪浩-problem-vs-question.md
-- 30_wiki\dark-knowledges\dk-纪浩-simple-complex-routing.md
+- 30_wiki\dark-knowledges\dk-ji-hao-ai-cant-design-structure.md
+- 30_wiki\dark-knowledges\dk-ji-hao-logs-fastest-ignored.md
+- 30_wiki\dark-knowledges\dk-ji-hao-novice-mindset-advantage.md
+- 30_wiki\dark-knowledges\dk-ji-hao-pdca-starts-from-do.md
+- 30_wiki\dark-knowledges\dk-ji-hao-problem-vs-question.md
+- 30_wiki\dark-knowledges\dk-ji-hao-simple-complex-routing.md
 
 ## [[contingency-decision-making]]
 - 30_wiki\concepts\ai-learning-closed-loop.md
@@ -1033,67 +1033,67 @@ _Auto-generated index of `wikilink` references across wiki pages._
 ## dk-一堂-premature-refinement-trap
 - 30_wiki\concepts\skill-一堂-kernel-three-questions.md
 
-## [[dk-一堂-wishful-thinking-kills-startups]]
+## [[dk-yi-tang-wishful-thinking-kills-startups]]
 - 30_wiki\concepts\concept-一堂-business-prediction.md
 - 30_wiki\concepts\industry-ai-cases.md
 - 30_wiki\concepts\yt-decision-y-model.md
 
-## [[dk-半肥猫-atomic-no-standard]]
+## [[dk-ban-fei-mao-atomic-no-standard]]
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
-- 30_wiki\concepts\skill-半肥猫-动态读取-向量化管理迭代知识.md
-- 30_wiki\concepts\skill-半肥猫-将学习成果沉淀为PRD文档.md
-- 30_wiki\concepts\skill-半肥猫-按语义切分文档做向量化.md
-- 30_wiki\concepts\skill-半肥猫-清洗资料为Markdown格式喂给AI.md
-- 30_wiki\concepts\skill-半肥猫-用YAML格式做知识库原子化标签.md
-- 30_wiki\concepts\skill-半肥猫-飞书多维表格-自建机器人做团队数据协同.md
+- 30_wiki\concepts\skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi.md
+- 30_wiki\concepts\skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang.md
+- 30_wiki\concepts\skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua.md
+- 30_wiki\concepts\skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai.md
+- 30_wiki\concepts\skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian.md
+- 30_wiki\concepts\skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong.md
 
-## [[dk-半肥猫-real-business-is-the-engine]]
+## [[dk-ban-fei-mao-real-business-is-the-engine]]
 - 30_wiki\concepts\skill-半肥猫-ai-research-validation.md
 - 30_wiki\concepts\skill-半肥猫-course-to-skill-workflow.md
-- 30_wiki\dark-knowledges\dk-半肥猫-silky-answers-are-dangerous.md
+- 30_wiki\dark-knowledges\dk-ban-fei-mao-silky-answers-are-dangerous.md
 
-## [[dk-半肥猫-silky-answer-warning]]
+## [[dk-ban-fei-mao-silky-answer-warning]]
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
-- 30_wiki\concepts\skill-半肥猫-优先使用官方权威信源做证据.md
-- 30_wiki\concepts\skill-半肥猫-用AI做结构化用户调研.md
+- 30_wiki\concepts\skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju.md
+- 30_wiki\concepts\skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan.md
 - 30_wiki\concepts\skill-半肥猫-边学边练边沉淀的AI学习法.md
-- 30_wiki\concepts\skill-半肥猫-追问AI证据并标注信源.md
+- 30_wiki\concepts\skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan.md
 
-## [[dk-半肥猫-silky-answers-are-dangerous]]
-- 30_wiki\cases\case-半肥猫-from-assignment-to-tool.md
+## [[dk-ban-fei-mao-silky-answers-are-dangerous]]
+- 30_wiki\cases\case-ban-fei-mao-from-assignment-to-tool.md
 - 30_wiki\concepts\skill-半肥猫-ai-research-validation.md
 - 30_wiki\concepts\skill-半肥猫-course-to-skill-workflow.md
-- 30_wiki\dark-knowledges\dk-半肥猫-real-business-is-the-engine.md
+- 30_wiki\dark-knowledges\dk-ban-fei-mao-real-business-is-the-engine.md
 
-## [[dk-半肥猫-skill-rejection-value]]
+## [[dk-ban-fei-mao-skill-rejection-value]]
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
-- 30_wiki\concepts\skill-半肥猫-判断课程是否值得做成Skill.md
-- 30_wiki\concepts\skill-半肥猫-用Skill做对比测试验证效果.md
-- 30_wiki\concepts\skill-半肥猫-设计Skill的评分规则与风险边界.md
+- 30_wiki\concepts\skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill.md
+- 30_wiki\concepts\skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo.md
+- 30_wiki\concepts\skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie.md
 - 30_wiki\concepts\skill-半肥猫-课程Skill化的八步工作流.md
 - 30_wiki\concepts\skill-半肥猫-边学边练边沉淀的AI学习法.md
 
-## [[dk-纪浩-ai-cant-design-structure]]
+## [[dk-ji-hao-ai-cant-design-structure]]
 - 30_wiki\cases\case-jh-yitang-vs-sqlhelper.md
 - 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
 - 30_wiki\concepts\industry-ai-cases.md
 - 30_wiki\dark-knowledges\dk-lz-ai-native-organization.md
 
-## [[dk-纪浩-constraint-beats-talent]]
+## [[dk-ji-hao-constraint-beats-talent]]
 - 30_wiki\concepts\concept-纪浩-ai-collaboration-five-layer.md
 - 30_wiki\dark-knowledges\dk-truman-knowledge-extraction-three-schools.md
-- 30_wiki\dark-knowledges\dk-纪浩-novice-mindset-advantage.md
+- 30_wiki\dark-knowledges\dk-ji-hao-novice-mindset-advantage.md
 
-## [[dk-纪浩-logs-fastest-ignored]]
+## [[dk-ji-hao-logs-fastest-ignored]]
 - 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
 
-## [[dk-纪浩-pdca-starts-from-do]]
+## [[dk-ji-hao-pdca-starts-from-do]]
 - 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
 
-## [[dk-纪浩-problem-vs-question]]
+## [[dk-ji-hao-problem-vs-question]]
 - 30_wiki\concepts\skill-纪浩-problem-validation-four-checks.md
 
-## [[dk-纪浩-simple-complex-routing]]
+## [[dk-ji-hao-simple-complex-routing]]
 - 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
 
 ## double-loop-learning-argyris
@@ -1583,7 +1583,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 ## [[skill-一堂-product-kernel-canvas]]
 - 30_wiki\concepts\skill-一堂-product-kernel-add-subtract.md
 - 30_wiki\concepts\skill-纪浩-problem-validation-four-checks.md
-- 30_wiki\dark-knowledges\dk-一堂-wishful-thinking-kills-startups.md
+- 30_wiki\dark-knowledges\dk-yi-tang-wishful-thinking-kills-startups.md
 
 ## [[skill-一堂-spectrum-positioning]]
 - 30_wiki\concepts\skill-一堂-business-prediction-15-char.md
@@ -1616,81 +1616,81 @@ _Auto-generated index of `wikilink` references across wiki pages._
 
 ## [[skill-半肥猫-ai-research-validation]]
 - 30_wiki\concepts\skill-半肥猫-course-to-skill-workflow.md
-- 30_wiki\dark-knowledges\dk-半肥猫-silky-answers-are-dangerous.md
+- 30_wiki\dark-knowledges\dk-ban-fei-mao-silky-answers-are-dangerous.md
 
 ## [[skill-半肥猫-course-to-skill-workflow]]
 - 30_wiki\concepts\skill-半肥猫-ai-research-validation.md
 
-## [[skill-半肥猫-优先使用官方权威信源做证据]]
+## [[skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju]]
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
-- 30_wiki\concepts\skill-半肥猫-告诉AI当前日期限制数据时效.md
-- 30_wiki\concepts\skill-半肥猫-用AI做结构化用户调研.md
-- 30_wiki\concepts\skill-半肥猫-追问AI证据并标注信源.md
+- 30_wiki\concepts\skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao.md
+- 30_wiki\concepts\skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan.md
+- 30_wiki\concepts\skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan.md
 
-## [[skill-半肥猫-判断课程是否值得做成Skill]]
+## [[skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill]]
 - 30_wiki\concepts\skill-半肥猫-课程Skill化的八步工作流.md
 
-## [[skill-半肥猫-动态读取-向量化管理迭代知识]]
+## [[skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
-- 30_wiki\concepts\skill-半肥猫-按语义切分文档做向量化.md
+- 30_wiki\concepts\skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua.md
 
-## [[skill-半肥猫-告诉AI当前日期限制数据时效]]
-- 30_wiki\concepts\skill-半肥猫-优先使用官方权威信源做证据.md
-- 30_wiki\concepts\skill-半肥猫-动态读取-向量化管理迭代知识.md
+## [[skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao]]
+- 30_wiki\concepts\skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju.md
+- 30_wiki\concepts\skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi.md
 
-## [[skill-半肥猫-将学习成果沉淀为PRD文档]]
+## [[skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang]]
 - 30_wiki\concepts\skill-半肥猫-边学边练边沉淀的AI学习法.md
 
-## [[skill-半肥猫-按语义切分文档做向量化]]
-- 30_wiki\concepts\skill-半肥猫-动态读取-向量化管理迭代知识.md
-- 30_wiki\concepts\skill-半肥猫-清洗资料为Markdown格式喂给AI.md
-- 30_wiki\concepts\skill-半肥猫-用YAML格式做知识库原子化标签.md
+## [[skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua]]
+- 30_wiki\concepts\skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi.md
+- 30_wiki\concepts\skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai.md
+- 30_wiki\concepts\skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian.md
 
-## [[skill-半肥猫-清洗资料为Markdown格式喂给AI]]
+## [[skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
-- 30_wiki\concepts\skill-半肥猫-按语义切分文档做向量化.md
-- 30_wiki\concepts\skill-半肥猫-用YAML格式做知识库原子化标签.md
+- 30_wiki\concepts\skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua.md
+- 30_wiki\concepts\skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian.md
 - 30_wiki\concepts\skill-半肥猫-课程Skill化的八步工作流.md
 - 30_wiki\concepts\skill-纪浩-AI对话上下文隔离.md
 
-## [[skill-半肥猫-用Skill做对比测试验证效果]]
+## [[skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo]]
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
-- 30_wiki\concepts\skill-半肥猫-设计Skill的评分规则与风险边界.md
+- 30_wiki\concepts\skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie.md
 - 30_wiki\concepts\skill-半肥猫-课程Skill化的八步工作流.md
 
-## [[skill-半肥猫-用YAML格式做知识库原子化标签]]
+## [[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
-- 30_wiki\concepts\skill-半肥猫-将学习成果沉淀为PRD文档.md
-- 30_wiki\concepts\skill-半肥猫-按语义切分文档做向量化.md
-- 30_wiki\concepts\skill-半肥猫-清洗资料为Markdown格式喂给AI.md
+- 30_wiki\concepts\skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang.md
+- 30_wiki\concepts\skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua.md
+- 30_wiki\concepts\skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai.md
 - 30_wiki\concepts\skill-半肥猫-课程Skill化的八步工作流.md
-- 30_wiki\concepts\skill-半肥猫-飞书多维表格-自建机器人做团队数据协同.md
+- 30_wiki\concepts\skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong.md
 
-## [[skill-半肥猫-设计Skill的评分规则与风险边界]]
+## [[skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie]]
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
-- 30_wiki\concepts\skill-半肥猫-用Skill做对比测试验证效果.md
+- 30_wiki\concepts\skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo.md
 - 30_wiki\concepts\skill-半肥猫-课程Skill化的八步工作流.md
 
 ## [[skill-半肥猫-课程Skill化的八步工作流]]
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
-- 30_wiki\concepts\skill-半肥猫-判断课程是否值得做成Skill.md
-- 30_wiki\concepts\skill-半肥猫-将学习成果沉淀为PRD文档.md
-- 30_wiki\concepts\skill-半肥猫-按语义切分文档做向量化.md
-- 30_wiki\concepts\skill-半肥猫-清洗资料为Markdown格式喂给AI.md
-- 30_wiki\concepts\skill-半肥猫-用Skill做对比测试验证效果.md
-- 30_wiki\concepts\skill-半肥猫-用YAML格式做知识库原子化标签.md
-- 30_wiki\concepts\skill-半肥猫-设计Skill的评分规则与风险边界.md
+- 30_wiki\concepts\skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill.md
+- 30_wiki\concepts\skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang.md
+- 30_wiki\concepts\skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua.md
+- 30_wiki\concepts\skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai.md
+- 30_wiki\concepts\skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo.md
+- 30_wiki\concepts\skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian.md
+- 30_wiki\concepts\skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie.md
 - 30_wiki\concepts\skill-半肥猫-边学边练边沉淀的AI学习法.md
 
 ## [[skill-半肥猫-边学边练边沉淀的AI学习法]]
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
 
-## [[skill-半肥猫-追问AI证据并标注信源]]
+## [[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
-- 30_wiki\concepts\skill-半肥猫-优先使用官方权威信源做证据.md
-- 30_wiki\concepts\skill-半肥猫-判断课程是否值得做成Skill.md
-- 30_wiki\concepts\skill-半肥猫-告诉AI当前日期限制数据时效.md
-- 30_wiki\concepts\skill-半肥猫-用AI做结构化用户调研.md
+- 30_wiki\concepts\skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju.md
+- 30_wiki\concepts\skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill.md
+- 30_wiki\concepts\skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao.md
+- 30_wiki\concepts\skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan.md
 - 30_wiki\concepts\skill-半肥猫-边学边练边沉淀的AI学习法.md
 
 ## [[skill-四层联系建立法]]
@@ -1735,8 +1735,8 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\concepts\skill-纪浩-AI对话上下文隔离.md
 - 30_wiki\concepts\skill-纪浩-Do-first-PDCA渐进迭代法.md
 - 30_wiki\concepts\skill-纪浩-日志驱动排查法.md
-- 30_wiki\dark-knowledges\dk-纪浩-ai-cant-design-structure.md
-- 30_wiki\dark-knowledges\dk-纪浩-simple-complex-routing.md
+- 30_wiki\dark-knowledges\dk-ji-hao-ai-cant-design-structure.md
+- 30_wiki\dark-knowledges\dk-ji-hao-simple-complex-routing.md
 
 ## [[skill-纪浩-Agent技能市场设计法]]
 - 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
@@ -1747,7 +1747,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\concepts\skill-纪浩-Agent技能市场设计法.md
 - 30_wiki\concepts\skill-纪浩-日志驱动排查法.md
 - 30_wiki\concepts\skill-纪浩-真需求四要素验证法.md
-- 30_wiki\dark-knowledges\dk-纪浩-pdca-starts-from-do.md
+- 30_wiki\dark-knowledges\dk-ji-hao-pdca-starts-from-do.md
 
 ## skill-纪浩-dofirst-pdca
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
@@ -1755,18 +1755,18 @@ _Auto-generated index of `wikilink` references across wiki pages._
 
 ## skill-纪浩-four-elements-validation
 - 30_wiki\concepts\concept-半肥猫-ai-learning-toolification-methodology.md
-- 30_wiki\concepts\skill-半肥猫-追问AI证据并标注信源.md
+- 30_wiki\concepts\skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan.md
 
 ## [[skill-纪浩-problem-validation-four-checks]]
-- 30_wiki\dark-knowledges\dk-纪浩-constraint-beats-talent.md
-- 30_wiki\dark-knowledges\dk-纪浩-problem-vs-question.md
+- 30_wiki\dark-knowledges\dk-ji-hao-constraint-beats-talent.md
+- 30_wiki\dark-knowledges\dk-ji-hao-problem-vs-question.md
 
 ## [[skill-纪浩-日志驱动排查法]]
 - 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
-- 30_wiki\dark-knowledges\dk-纪浩-logs-fastest-ignored.md
+- 30_wiki\dark-knowledges\dk-ji-hao-logs-fastest-ignored.md
 
 ## [[skill-纪浩-真需求四要素验证法]]
-- 30_wiki\cases\case-半肥猫-from-assignment-to-tool.md
+- 30_wiki\cases\case-ban-fei-mao-from-assignment-to-tool.md
 - 30_wiki\concepts\concept-纪浩-ai-collaboration-methodology.md
 - 30_wiki\concepts\skill-纪浩-AI工作空间与导诊台设计法.md
 
@@ -2650,7 +2650,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\concepts\yt-unit-model-ladder.md
 - 30_wiki\concepts\yt-unit-model-overview.md
 - 30_wiki\concepts\人机协作决策-双三角模型.md
-- 30_wiki\dark-knowledges\dk-一堂-wishful-thinking-kills-startups.md
+- 30_wiki\dark-knowledges\dk-yi-tang-wishful-thinking-kills-startups.md
 - 30_wiki\frameworks\yt-decision-abcd-model.md
 - 30_wiki\frameworks\yt-unit-model-overview.md
 - 30_wiki\tools\yt-tool-meeting-designer.md
@@ -2834,7 +2834,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\concepts\yt-management-project-management.md
 - 30_wiki\concepts\yt-model-five-step-canvas.md
 - 30_wiki\concepts\yt-model-pan-product-execution-toolkit.md
-- 30_wiki\dark-knowledges\dk-一堂-wishful-thinking-kills-startups.md
+- 30_wiki\dark-knowledges\dk-yi-tang-wishful-thinking-kills-startups.md
 - 30_wiki\frameworks\concept-mckinsey-hypothesis-driven.md
 - 30_wiki\tools\concept-toyota-5-whys.md
 - 30_wiki\tools\skill-mckinsey-hypothesis-driven-workflow.md
@@ -2864,7 +2864,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\concepts\yt-model-liberate-thinking-layers.md
 
 ## [[yt-entrepreneur-product-core]]
-- 30_wiki\cases\case-一堂-AI高考志愿-kernel-mismatch.md
+- 30_wiki\cases\case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch.md
 - 30_wiki\concepts\skill-一堂-product-kernel-canvas.md
 - 30_wiki\concepts\yt-entrepreneur-key-hypotheses.md
 - 30_wiki\concepts\yt-model-five-step-canvas.md
@@ -3898,7 +3898,7 @@ _Auto-generated index of `wikilink` references across wiki pages._
 - 30_wiki\entities\一堂.md
 
 ## [[yt-panproduct-execution-core-and-boundary]]
-- 30_wiki\cases\case-一堂-AI高考志愿-kernel-mismatch.md
+- 30_wiki\cases\case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch.md
 - 30_wiki\concepts\ai-native-五层进阶从答案到效率到作品到产品到系统.md
 - 30_wiki\concepts\skill-一堂-product-kernel-canvas.md
 - 30_wiki\concepts\yt-panproduct-execution-logic-mece.md

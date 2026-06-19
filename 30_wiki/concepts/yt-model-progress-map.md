@@ -22,6 +22,7 @@ related:
 - '[[yt-model-personal-map]]'
 reviewed_by: 黄药师
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260510_ef0a5055-堂-堂无限进步大地图十年收藏版
 status: enriched
 title: 无限进步大地图

@@ -32,7 +32,7 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-- src_20260609_9168476b-ocr-泛产品设计-落地卡片-低成本测试mvp
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 title: 低成本验证/MVP
 trust_level: medium

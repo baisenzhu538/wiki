@@ -3,7 +3,8 @@ id: concept-toyota-5-whys
 title: 5 Whys：追问到根本原因
 type: tool
 source_refs:
-- 'Ohno, T. (1988). *Toyota Production System: Beyond Large-Scale Production*. Productivity
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   Press.'
 - 'Senge, P. M. (1990). *The Fifth Discipline: The Art and Practice of the Learning
   Organization*. Doubleday.'

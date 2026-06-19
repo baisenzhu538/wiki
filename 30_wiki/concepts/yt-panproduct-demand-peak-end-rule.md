@@ -27,6 +27,7 @@ related:
 - '[[yt-model-conversion-optimization]]'
 reviewed_by: 黄药师
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260522_041b5a94-ocr-泛产品设计-用户卡片-峰终定律
 status: enriched
 title: 泛产品设计·用户卡片：峰终定律

@@ -27,6 +27,7 @@ related:
 - '[[yt-decision-canvas]]'
 - '[[yt-decision-depth-ladder]]'
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
 title: X型→Y型决策者习惯诊断与转换

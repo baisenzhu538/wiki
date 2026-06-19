@@ -10,6 +10,7 @@ domain:
   - master
   - decision-making
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - yt-decision-y-model
 academic_refs:
   - "戴国斌.基于知行合一的管理者战略素质理论模型与实证研究.管理学报,2012(5)"

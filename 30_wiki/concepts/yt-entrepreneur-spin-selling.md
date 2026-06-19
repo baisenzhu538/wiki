@@ -19,6 +19,7 @@ query_triggers:
   - "顾问式销售的奠基之作"
 reviewed_by: "黄药师"
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260510_349a66fd-读书会-spin销售法
 source_refs:
   - src_20260510_349a66fd-读书会-spin销售法

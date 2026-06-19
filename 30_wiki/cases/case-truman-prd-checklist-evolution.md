@@ -10,6 +10,7 @@ domain:
 source_person: Truman
 source_context: 一堂-个人修炼-知识萃取探索营口述版（2026-05）
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260510_814ec410-个人修炼-知识萃取探索营
 related:
 - '[[dk-truman-document-is-real-project-is-fake]]'

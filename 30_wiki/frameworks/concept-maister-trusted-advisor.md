@@ -7,7 +7,8 @@ domain:
 - consulting
 - yitang
 source_refs:
-- Maister, D. H., Green, C. H., & Galford, R. M. (2000). *The Trusted Advisor*. Free
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   Press.
 - Maister, D. H. (1997). 'True Professionalism'. Free Press.
 bridges_to:

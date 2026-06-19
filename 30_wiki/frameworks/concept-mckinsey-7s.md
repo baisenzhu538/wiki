@@ -7,8 +7,8 @@ domain:
 - consulting
 - yitang
 source_refs:
-- Peters, T. J., & Waterman, R. H. (1982). *In Search of Excellence*. Harper & Row.
-- Waterman, R. H., Peters, T. J., & Phillips, J. R. (1980). 'Structure is not organization.'
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   *Business Horizons*, 23(3), 14-26.
 bridges_to:
 - target: yt-model-entrepreneur-map

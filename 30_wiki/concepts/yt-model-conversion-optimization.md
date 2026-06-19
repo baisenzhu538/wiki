@@ -22,6 +22,7 @@ related:
 - '[[dk-yb19-visual-strategy-price-match]]'
 reviewed_by: 黄药师
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260510_d5e71a5e-一堂最佳转化率动力三曲线-堂
 status: enriched
 title: 转化率优化：动力三曲线 × 十大浪费触点

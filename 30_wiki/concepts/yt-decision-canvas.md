@@ -33,6 +33,8 @@ related:
 - '[[case-truman-poker-deck-roi]]'
 reviewed_by: 周伯通
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
   - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 status: enriched

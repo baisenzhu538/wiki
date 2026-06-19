@@ -11,6 +11,7 @@ domain:
 source_person: 纪浩
 source_context: AI协作方法论
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260606_6ea91aa8-纪浩-AI协作方法论-口述
 wiki_refs:
 - '[[ai-collaboration-mindset-shift]]'
@@ -144,7 +145,7 @@ AI 的上下文窗口是有限的（即使现在动辄百万 token）。每个 t
 | 关系 | 目标节点 | 说明 |
 |:-----|---------|:-----|
 | 前置 | [[skill-纪浩-AI工作空间与导诊台设计法]] | 工作空间设计是做"任务隔离"的基础——没有清晰的工作空间，就无法做到一任务一对话 |
-| 互补 | [[skill-半肥猫-清洗资料为Markdown格式喂给AI]] | 清洗后的知识片段是"新对话注入"的原材料 |
+| 互补 | [[skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]] | 清洗后的知识片段是"新对话注入"的原材料 |
 | 上位 | [[ai-collaboration-mindset-shift]] | 上下文隔离是纪浩"AI 协作思维转变"体系中的具体操作技能 |
 | 案例 | [[case-纪浩-skill-market-problem-validation]] | 纪浩在 Skills 市场验证中多次使用上下文隔离 |
 

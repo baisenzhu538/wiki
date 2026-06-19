@@ -29,6 +29,7 @@ related:
 - '[[yt-decision-ai-partner]]'
 - '[[yt-model-liberate-thinking-layers]]'
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260609_006cb9b3-ocr-一堂-科学决策-高水平共识曲线重要
 status: enriched
 title: 高度分析工具：上帝视角四维提升法 + 高水平共识曲线

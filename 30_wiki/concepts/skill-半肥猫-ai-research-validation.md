@@ -9,20 +9,21 @@ domain:
 source_person: 半肥猫
 source_context: AI俱乐部·AI学习落地（2026-06分享）
 source_refs:
+- 10_raw/sources/src_20260619_6b081aec_00_inbox_AI俱乐部_AI学习落地_半肥猫_口述.txt
   - 00_inbox/AI俱乐部-AI学习落地-半肥猫-口述.txt
 created_at: "2026-06-08"
 updated_at: "2026-06-17"
 related:
-  - "[[case-半肥猫-from-assignment-to-tool]]"
-  - "[[dk-半肥猫-silky-answers-are-dangerous]]"
-  - "[[dk-半肥猫-real-business-is-the-engine]]"
+  - "[[case-ban-fei-mao-from-assignment-to-tool]]"
+  - "[[dk-ban-fei-mao-silky-answers-are-dangerous]]"
+  - "[[dk-ban-fei-mao-real-business-is-the-engine]]"
   - "[[skill-半肥猫-course-to-skill-workflow]]"
-  - "[[skill-半肥猫-追问AI证据并标注信源]]"
+  - "[[skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan]]"
   - "[[skill-纪浩-problem-validation-four-checks]]"
 wiki_refs:
-  - "[[case-半肥猫-from-assignment-to-tool]]"
-  - "[[dk-半肥猫-silky-answers-are-dangerous]]"
-  - "[[dk-半肥猫-real-business-is-the-engine]]"
+  - "[[case-ban-fei-mao-from-assignment-to-tool]]"
+  - "[[dk-ban-fei-mao-silky-answers-are-dangerous]]"
+  - "[[dk-ban-fei-mao-real-business-is-the-engine]]"
 definition_of_done:
   - 六步闭环已完整记录
   - 纠偏模板已提供
@@ -175,7 +176,7 @@ diagnostic_signals:
 
 **成功案例**：
 
-- [[case-半肥猫-from-assignment-to-tool]] —— 半肥猫运用本技能，将一堂AIGC调研课程作业转化为可复用的调研工具。关键转折：AI首轮回答的“三类用户画像”是纯推理，经过四轮纠偏后，发现"已有流量但被卡住的IP/博主"付费意愿最强，一个纠偏带来了完全不同的商业结论。
+- [[case-ban-fei-mao-from-assignment-to-tool]] —— 半肥猫运用本技能，将一堂AIGC调研课程作业转化为可复用的调研工具。关键转折：AI首轮回答的“三类用户画像”是纯推理，经过四轮纠偏后，发现"已有流量但被卡住的IP/博主"付费意愿最强，一个纠偏带来了完全不同的商业结论。
 
 **失败案例**：
 
@@ -194,9 +195,9 @@ diagnostic_signals:
 ## Synthesis
 
 ### 关联知识节点
-- **质量警示：**[[dk-半肥猫-silky-answers-are-dangerous]] — 暗知告诉你"为什么要纠偏"（AI首轮回答是推理而非证据），技能告诉你"怎么纠偏"。两者缺一不可：知道要纠偏但不会方法，等于知道有毒但不会解毒
-- **前置条件：**[[dk-半肥猫-real-business-is-the-engine]] — 如果没有真实业务作为燃料，这项技能的纠偏环节会变成空转。真实业务提供了"纠偏是否有效”的验证标准
-- **实践案例：**[[case-半肥猫-from-assignment-to-tool]] — 案例展示了技能的具体应用，技能提供了案例的可复制方法
+- **质量警示：**[[dk-ban-fei-mao-silky-answers-are-dangerous]] — 暗知告诉你"为什么要纠偏"（AI首轮回答是推理而非证据），技能告诉你"怎么纠偏"。两者缺一不可：知道要纠偏但不会方法，等于知道有毒但不会解毒
+- **前置条件：**[[dk-ban-fei-mao-real-business-is-the-engine]] — 如果没有真实业务作为燃料，这项技能的纠偏环节会变成空转。真实业务提供了"纠偏是否有效”的验证标准
+- **实践案例：**[[case-ban-fei-mao-from-assignment-to-tool]] — 案例展示了技能的具体应用，技能提供了案例的可复制方法
 - **下游输出：**[[skill-半肥猫-course-to-skill-workflow]] — 调研纠偏技能用于"获取高质量信息输入"，课程转Skill技能用于"将信息输入转化为可复用工具"。两者是同一条产业链的上下游
 
 ### 知识体系定位
@@ -214,7 +215,7 @@ diagnostic_signals:
 
 **退出条件**：你发现自己只是在"练习使用AI"，而不是在解决真实问题。
 
-**下一步**：回去查看 [[case-半肥猫-from-assignment-to-tool]] 中的四轮纠偏对话记录，选择一个你当前的调研项目尝试应用本技能。
+**下一步**：回去查看 [[case-ban-fei-mao-from-assignment-to-tool]] 中的四轮纠偏对话记录，选择一个你当前的调研项目尝试应用本技能。
 
 ---
 

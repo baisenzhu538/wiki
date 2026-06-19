@@ -9,7 +9,7 @@ domain:
 source_person: system
 source_context: pitfalls.md P-3
 source_refs:
-- .agent/pitfalls.md#P-3
+- 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-3
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:

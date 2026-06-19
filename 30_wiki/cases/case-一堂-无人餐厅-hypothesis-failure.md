@@ -11,6 +11,8 @@ domain:
 source_person: 一堂·Truman
 source_context: 一堂关键假设课，京东天津无人餐厅案例
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260506_9b4788a6-声音和画面正常吗
   - src_20260606_22c4a291-一堂-关键假设课-truman-笔记
 created_at: 2026-06-08
@@ -18,13 +20,13 @@ updated_at: '2026-06-16'
 related:
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[dk-一堂-wishful-thinking-kills-startups]]'
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 - '[[concept-一堂-key-assumptions]]'
 - '[[yt-lean-assumption-verification-3means]]'
 wiki_refs:
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 - '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[dk-一堂-wishful-thinking-kills-startups]]'
+- '[[dk-yi-tang-wishful-thinking-kills-startups]]'
 - '[[concept-一堂-key-assumptions]]'
 - '[[yt-lean-assumption-verification-3means]]'
 definition_of_done:

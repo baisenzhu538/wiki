@@ -30,7 +30,7 @@ related:
 - '[[yt-unit-model-concept]]'
 - '[[yt-entrepreneur-unit-model]]'
 source_refs:
-- source_unknown
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 title: 单元模型选择法：复制哪个算哪个，找到核心经济单元
 trust_level: medium

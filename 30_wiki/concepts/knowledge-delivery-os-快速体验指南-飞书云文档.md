@@ -5,6 +5,7 @@ created_at: 2026-04-30
 domain:
 - master
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260501_6a491b80-knowledge-delivery-os-快速体验指南-飞书云文档
 status: enriched
 title: Knowledge Delivery OS 快速体验指南 - 飞书云文档

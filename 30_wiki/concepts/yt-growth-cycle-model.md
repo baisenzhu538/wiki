@@ -21,6 +21,8 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260610_8865798f-一堂-一堂五步法-增长-口述
   - src_20260610_f89d0513-一堂-一堂五步法-增长-增长周期模型
 status: reviewed

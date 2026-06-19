@@ -9,7 +9,7 @@ domain:
 source_person: 欧阳锋
 source_context: 2026-05-20
 source_refs:
-- 20_memory/corrections.md#C-11
+- 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-11
 - 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-18'

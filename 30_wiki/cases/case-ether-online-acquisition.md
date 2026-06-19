@@ -18,6 +18,9 @@ scale: 平台级
 source_person: Truman
 source_context: 一堂课程，规模经济章节；以太资本对接平台用全网调研能力扫描新上创业项目并自动化跟进
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - source_unknown
   - src_20260614_6b2c4f5b-一堂-To-B业务探索分享
   - src_20260611_3e450477-一堂-一堂五步法-增长-线上获客小抄_paddle_ocr

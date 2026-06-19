@@ -15,6 +15,9 @@ updated_at: '2026-06-17'
 confidence: 0.90
 trust_level: high
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_606a631d-张磊-精益方法论培训
   - src_20260614_6d9f7671-业务公式拆解培训
   - src_20260616_b1e25c49-zhanglei-lean-testing-ama

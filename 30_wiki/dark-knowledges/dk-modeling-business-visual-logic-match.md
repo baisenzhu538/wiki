@@ -11,6 +11,7 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 confidence: 0.8
 trust_level: medium
@@ -31,7 +32,7 @@ related:
 - '[[case-yitang-radar-chart-selection]]'
 - '[[dk-yb25-solution-driven-visual-design]]'
 - '[[dk-yb22-visual-presentation-scene-match]]'
-- '[[dk-纪浩-ai-cant-design-structure]]'
+- '[[dk-ji-hao-ai-cant-design-structure]]'
 tags:
 - '#chunk-type/synthesis'
 - '#domain/yitang'
@@ -124,7 +125,7 @@ updated_at: '2026-06-18'
 
 ### 3. AI 提示设计：人先搭结构，AI 后选形态
 
-[[dk-纪浩-ai-cant-design-structure]] 强调 AI 不会自己创造结构，它只能在人给定的结构里填充内容。这与“业务逻辑决定视觉形态”完全一致：**如果你让 AI 同时决定“说什么”和“怎么画”，它大概率会给出形态精美但逻辑错位的图**。正确顺序是：先用自然语言把业务逻辑写清楚（分类/流程/深挖/累加/辩证/复利），再让 AI 在既定结构里选视觉形态，最后人审形态是否忠实于逻辑。
+[[dk-ji-hao-ai-cant-design-structure]] 强调 AI 不会自己创造结构，它只能在人给定的结构里填充内容。这与“业务逻辑决定视觉形态”完全一致：**如果你让 AI 同时决定“说什么”和“怎么画”，它大概率会给出形态精美但逻辑错位的图**。正确顺序是：先用自然语言把业务逻辑写清楚（分类/流程/深挖/累加/辩证/复利），再让 AI 在既定结构里选视觉形态，最后人审形态是否忠实于逻辑。
 
 ### 可复用判断句
 

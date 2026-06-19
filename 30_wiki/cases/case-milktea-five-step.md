@@ -11,6 +11,8 @@ domain:
 source_person: Truman / 古董
 source_context: 一堂案例拆解课程-奶茶店案例
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260508_03a07f45-一堂-案例拆解-串讲口述
   - src_20260510_1aea3d4b-一堂-案例拆解-课程清单
 created_at: 2026-06-11

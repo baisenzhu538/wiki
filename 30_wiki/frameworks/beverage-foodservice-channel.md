@@ -11,6 +11,10 @@ domain:
 - product
 - entrepreneur
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_8a0317f1-产品-市场分析讨论
   - src_20260614_16c4bf0d-双柚汁产品成本沟通
   - src_20260614_d6ab6fb6-产品调配-口感与成本讨论

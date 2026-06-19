@@ -3,8 +3,8 @@ id: dk-mckinsey-hypothesis-driven-pitfalls
 title: 暗知：假设驱动方法论的三个反直觉陷阱
 type: dk
 source_refs:
-- Rasiel, E. (1999). *The McKinsey Way*. McGraw-Hill.
-- Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 domain:
 - consulting

@@ -18,6 +18,7 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_eca9f5b3-酒店行业-AI标签审核案例
 source_refs:
   - src_20260614_eca9f5b3-酒店行业-AI标签审核案例

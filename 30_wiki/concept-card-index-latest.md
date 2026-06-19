@@ -184,21 +184,21 @@ trust_level: medium
 | skill-区分获客渠道计算单元roi | 技能：区分获客渠道计算单元ROI | tool | product, decision-making, yitang, business-strategy |
 | skill-半肥猫-ai-research-validation | AI调研纠偏与验证技能：从'丝滑回答'到'证据决策'的六步闭环 | tool | ai-collaboration, yitang |
 | skill-半肥猫-course-to-skill-workflow | 课程→Skill八步工作流：从结构化内容到可复用AI技能的完整转化 | tool | ai-collaboration, yitang |
-| skill-半肥猫-优先使用官方权威信源做证据 | 技能：优先使用官方权威信源做证据 | tool | ai-collaboration |
-| skill-半肥猫-判断课程是否值得做成Skill | 技能：判断课程是否值得做成Skill | tool | ai-collaboration, yitang |
-| skill-半肥猫-动态读取-向量化管理迭代知识 | 技能：动态读取 + 向量化管理迭代知识 | tool | ai-collaboration |
-| skill-半肥猫-告诉AI当前日期限制数据时效 | 技能：告诉 AI 当前日期限制数据时效 | tool | ai-collaboration |
-| skill-半肥猫-将学习成果沉淀为PRD文档 | 技能：将学习成果沉淀为 PRD 文档 | tool | ai-collaboration, learning |
-| skill-半肥猫-按语义切分文档做向量化 | 技能：按语义切分文档做向量化 | tool | ai-collaboration |
-| skill-半肥猫-清洗资料为Markdown格式喂给AI | 技能：清洗资料为 Markdown 格式喂给 AI | tool | ai-collaboration |
-| skill-半肥猫-用AI做结构化用户调研 | 技能：用 AI 做结构化用户调研 | tool | ai-collaboration |
-| skill-半肥猫-用Skill做对比测试验证效果 | 技能：用 Skill 做对比测试验证效果 | tool | ai-collaboration |
-| skill-半肥猫-用YAML格式做知识库原子化标签 | 技能：用 YAML 格式做知识库原子化标签 | tool | ai-collaboration |
-| skill-半肥猫-设计Skill的评分规则与风险边界 | 技能：设计 Skill 的评分规则与风险边界 | tool | ai-collaboration |
+| skill-ban-fei-mao-you-xian-shi-yong-guan-fang-quan-wei-xin-yuan-zuo-zheng-ju | 技能：优先使用官方权威信源做证据 | tool | ai-collaboration |
+| skill-ban-fei-mao-pan-duan-ke-cheng-shi-fou-zhi-de-zuo-cheng-skill | 技能：判断课程是否值得做成Skill | tool | ai-collaboration, yitang |
+| skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi | 技能：动态读取 + 向量化管理迭代知识 | tool | ai-collaboration |
+| skill-ban-fei-mao-gao-su-ai-dang-qian-ri-qi-xian-zhi-shu-ju-shi-xiao | 技能：告诉 AI 当前日期限制数据时效 | tool | ai-collaboration |
+| skill-ban-fei-mao-jiang-xue-xi-cheng-guo-chen-dian-wei-prd-wen-dang | 技能：将学习成果沉淀为 PRD 文档 | tool | ai-collaboration, learning |
+| skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua | 技能：按语义切分文档做向量化 | tool | ai-collaboration |
+| skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai | 技能：清洗资料为 Markdown 格式喂给 AI | tool | ai-collaboration |
+| skill-ban-fei-mao-yong-ai-zuo-jie-gou-hua-yong-hu-diao-yan | 技能：用 AI 做结构化用户调研 | tool | ai-collaboration |
+| skill-ban-fei-mao-yong-skill-zuo-dui-bi-ce-shi-yan-zheng-xiao-guo | 技能：用 Skill 做对比测试验证效果 | tool | ai-collaboration |
+| skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian | 技能：用 YAML 格式做知识库原子化标签 | tool | ai-collaboration |
+| skill-ban-fei-mao-she-ji-skill-de-ping-fen-gui-ze-yu-feng-xian-bian-jie | 技能：设计 Skill 的评分规则与风险边界 | tool | ai-collaboration |
 | skill-半肥猫-课程Skill化的八步工作流 | 技能：课程Skill化的八步工作流 | tool | ai-collaboration, yitang |
 | skill-半肥猫-边学边练边沉淀的AI学习法 | 技能：边学边练边沉淀的 AI 学习法 | tool | ai-collaboration, learning |
-| skill-半肥猫-追问AI证据并标注信源 | 技能：追问 AI 证据并标注信源 | tool | ai-collaboration |
-| skill-半肥猫-飞书多维表格-自建机器人做团队数据协同 | 技能：飞书多维表格 + 自建机器人做团队数据协同 | tool | ai-collaboration |
+| skill-ban-fei-mao-zhui-wen-ai-zheng-ju-bing-biao-zhu-xin-yuan | 技能：追问 AI 证据并标注信源 | tool | ai-collaboration |
+| skill-ban-fei-mao-fei-shu-duo-wei-biao-ge-zi-jian-ji-qi-ren-zuo-tuan-dui-shu-ju-xie-tong | 技能：飞书多维表格 + 自建机器人做团队数据协同 | tool | ai-collaboration |
 | skill-反向提示获取优化建议 | 技能：反向提示获取优化建议 | tool | product, ai-saas, master, yitang |
 | skill-反向教学深化理解 | 技能：反向教学深化理解 | tool | ai-saas, yitang |
 | skill-反向记录整理思路 | 技能：反向记录整理思路 | tool | product, ai-saas, management, yitang |
@@ -993,20 +993,20 @@ trust_level: medium
 | case-yitang-weekly-modeling-engine | 案例：一堂的"周对周建模迭代"——把周五课程逼成公司增长引擎 | case | yitang, 组织学习, 模型迭代 |
 | case-zhangyang-anchor-sop-three-locks | 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100% | case | yitang, modeling, execution |
 | case-zhihu-vs-degetao-network-effect | 案例：知乎vs得到——网络效应壁垒的对比分析 | case | yitang |
-| case-一堂-AI高考志愿-kernel-mismatch | 案例：AI高考志愿填报产品因内核错位而失敗 | case | yitang, product-strategy |
+| case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch | 案例：AI高考志愿填报产品因内核错位而失敗 | case | yitang, product-strategy |
 | case-一堂-无人餐厅-hypothesis-failure | 案例：一堂无人餐厅项目因忽视关键假设而失败 | case | yitang, business-strategy |
 | case-一堂-陈贤敏汉堡-hypothesis-validation | 案例：陈贤敏中式汉堡先开实验店验证关键假设 | case | yitang, business-strategy |
-| case-半肥猫-conversion-hacker-skill | 案例：一堂转化率黑客课→Skill ——从拿到资料到测试通过的完整历程 | case | ai-collaboration, yitang |
+| case-ban-fei-mao-conversion-hacker-skill | 案例：一堂转化率黑客课→Skill ——从拿到资料到测试通过的完整历程 | case | ai-collaboration, yitang |
 | case-半肥猫-course-to-skill | 案例：半肥猫的课程转 Skill 八步法——从一堂转化率课程到可验证的 AI 工具 | case | skill-engineering, yitang |
-| case-半肥猫-from-assignment-to-tool | 案例：半肥猫把一堂课程作业变成可复用调研工具 | case | ai-collaboration, yitang |
-| case-半肥猫-skill-ab-test | 案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比 | case | ai-collaboration, yitang |
-| case-广冷电子-hx-smj | 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线 | case | electronics, hardware-debugging |
-| case-纪浩-ai-workspace-chaos | 案例：AI工作空间混乱导致'行为退化'而重来 | case | ai-collaboration, yitang |
+| case-ban-fei-mao-from-assignment-to-tool | 案例：半肥猫把一堂课程作业变成可复用调研工具 | case | ai-collaboration, yitang |
+| case-ban-fei-mao-skill-ab-test | 案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比 | case | ai-collaboration, yitang |
+| case-guang-leng-dian-zi-hx-smj | 案例：广冷电子 HX-SMJ 红外光栅项目——从文件混乱到可投产基线 | case | electronics, hardware-debugging |
+| case-ji-hao-ai-workspace-chaos | 案例：AI工作空间混乱导致'行为退化'而重来 | case | ai-collaboration, yitang |
 | case-纪浩-focus-prompt-design | 案例：纪浩的 AI 协作产品设计——从 S1 设计冻结到 S7 实现交接 | case | prompt-engineering, yitang |
 | case-纪浩-from-zip-to-five-layers | 纪浩：从微信传 zip 到五层协作体系 | case | ai-collaboration, yitang |
 | case-纪浩-skill-market-problem-validation | 案例：一堂Skill市场从伪需求到真实需求的四问验证 | case | ai-collaboration, yitang |
-| case-纪浩-skills-market | 案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助 | case | agent-infrastructure, yitang |
-| case-纪浩-ui-design-constraint-evolution | 案例：纪浩从'求你了'到1100行约束文档的UI设计迭代 | case | ai-collaboration, yitang |
+| case-ji-hao-skills-market | 案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助 | case | agent-infrastructure, yitang |
+| case-ji-hao-ui-design-constraint-evolution | 案例：纪浩从'求你了'到1100行约束文档的UI设计迭代 | case | ai-collaboration, yitang |
 | industrial-ai-ops-cases | 产业 AI 运营落地：酒店/房产/电商三大案例的去伪存真 | case | ai, ai-saas, entrepreneur |
 | smart-medicine-cabinet-clinic-risk-observation | 诊所 + 智能药柜协同模式：一线观察与风险提示 | case | healthcare, pharmaceutical-retail, policy-compliance, risk-warning |
 | yt-lean-beauty-store-conversion | 美业门店：200→4000转化链路才是关键假设 | case | yitang, entrepreneurship, business-strategy |
@@ -1138,20 +1138,20 @@ trust_level: medium
 | dk-yb8-file-naming-eight-elements | AI增效前置：文件命名八要素体系 | dark-knowledge | design |
 | dk-yb9-cubox-deployment-failure | Cubox及AI协作工具的团队部署失败模式 | dark-knowledge | design, management, ai-collaboration |
 | dk-yitang-business-formula-plus-times-trap | 业务公式拆解：先切分再拆转化，+ 与 × 写错会误导决策 | dark-knowledge | yitang, master |
-| dk-一堂-wishful-thinking-kills-startups | 暗知：'愿望思维'是创业最大的陷阱 | dk | yitang, business-strategy |
-| dk-半肥猫-atomic-no-standard | 暗知识：原子化没有固定标准 | dark-knowledge | ai-collaboration, yitang |
-| dk-半肥猫-real-business-is-the-engine | 暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁 | dk | ai-collaboration, yitang |
-| dk-半肥猫-silky-answer-warning | 暗知识：AI 回答越丝滑，问题越大 | dark-knowledge | ai-collaboration, yitang |
-| dk-半肥猫-silky-answers-are-dangerous | 暗知：AI给的回答越丝滑，问题越大——"完全不等于可靠"陷阱 | dk | ai-collaboration |
-| dk-半肥猫-skill-rejection-value | 暗知识：Skill 的最大价值不是生成，是拒绝 | dark-knowledge | ai-collaboration, yitang |
-| dk-纪浩-ai-cant-design-structure | 暗知识：AI不会自己搞结构设计 | dk | ai-collaboration, yitang |
-| dk-纪浩-constraint-beats-talent | 暗知识：约束的力量 —— 600行文档让AI输出吊打人类手动设计 | dark-knowledge | ai-collaboration, yitang |
-| dk-纪浩-logs-fastest-ignored | 暗知识：日志增长最快但最容易被忽视 | dk | ai-collaboration, yitang |
-| dk-纪浩-newbie-can-validate | 暗知识：新手也可以用四要素验证——因为验证用的是工具，不是眼光 | dark-knowledge | ai-collaboration, yitang |
-| dk-纪浩-novice-mindset-advantage | 暗知识：新手心态的五个保护期 —— 萌新时代才是AI协作的黄金窗口 | dark-knowledge | ai-collaboration, yitang |
-| dk-纪浩-pdca-starts-from-do | 暗知识：PDCA从Do开始不是从Plan开始 | dk | ai-collaboration, yitang |
-| dk-纪浩-problem-vs-question | 暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem | dark-knowledge | ai-collaboration, yitang |
-| dk-纪浩-simple-complex-routing | 暗知识：简单系统跳过导诊台，复杂系统必须路由 | dk | ai-collaboration, yitang |
+| dk-yi-tang-wishful-thinking-kills-startups | 暗知：'愿望思维'是创业最大的陷阱 | dk | yitang, business-strategy |
+| dk-ban-fei-mao-atomic-no-standard | 暗知识：原子化没有固定标准 | dark-knowledge | ai-collaboration, yitang |
+| dk-ban-fei-mao-real-business-is-the-engine | 暗知：真实业务是唯一的燃料——没有真实问题，工具化就是空中楼阁 | dk | ai-collaboration, yitang |
+| dk-ban-fei-mao-silky-answer-warning | 暗知识：AI 回答越丝滑，问题越大 | dark-knowledge | ai-collaboration, yitang |
+| dk-ban-fei-mao-silky-answers-are-dangerous | 暗知：AI给的回答越丝滑，问题越大——"完全不等于可靠"陷阱 | dk | ai-collaboration |
+| dk-ban-fei-mao-skill-rejection-value | 暗知识：Skill 的最大价值不是生成，是拒绝 | dark-knowledge | ai-collaboration, yitang |
+| dk-ji-hao-ai-cant-design-structure | 暗知识：AI不会自己搞结构设计 | dk | ai-collaboration, yitang |
+| dk-ji-hao-constraint-beats-talent | 暗知识：约束的力量 —— 600行文档让AI输出吊打人类手动设计 | dark-knowledge | ai-collaboration, yitang |
+| dk-ji-hao-logs-fastest-ignored | 暗知识：日志增长最快但最容易被忽视 | dk | ai-collaboration, yitang |
+| dk-ji-hao-newbie-can-validate | 暗知识：新手也可以用四要素验证——因为验证用的是工具，不是眼光 | dark-knowledge | ai-collaboration, yitang |
+| dk-ji-hao-novice-mindset-advantage | 暗知识：新手心态的五个保护期 —— 萌新时代才是AI协作的黄金窗口 | dark-knowledge | ai-collaboration, yitang |
+| dk-ji-hao-pdca-starts-from-do | 暗知识：PDCA从Do开始不是从Plan开始 | dk | ai-collaboration, yitang |
+| dk-ji-hao-problem-vs-question | 暗知识：Problem vs Question —— AI时代大部分人在用AI回答Question而非解决Problem | dark-knowledge | ai-collaboration, yitang |
+| dk-ji-hao-simple-complex-routing | 暗知识：简单系统跳过导诊台，复杂系统必须路由 | dk | ai-collaboration, yitang |
 | yt-note-ai-p-role-not-c-role | AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考 | dark-knowledge | yitang |
 | yt-note-p-c-role-boundary-realworld | P/C 角色真实场景边界与切换条件（基于聊天记录案例） | dark-knowledge | yitang |
 | yt-note-three-level-evolution | 碎片化→结构化→体系化：笔记认知的三级进化跃迁 | dark-knowledge | yitang |

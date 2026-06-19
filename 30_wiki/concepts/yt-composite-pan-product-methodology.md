@@ -28,6 +28,7 @@ related:
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_9ca806cd-theme-yitang-methodology-summary
 status: enriched
 title: 泛产品设计方法论

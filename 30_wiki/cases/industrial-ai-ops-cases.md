@@ -11,6 +11,9 @@ domain:
 - ai-saas
 - entrepreneur
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260614_eca9f5b3-酒店行业-AI标签审核案例
   - src_20260614_b85c364e-贝壳-云管家AI外呼案例
   - src_20260614_4b3b6427-阿豪-自动选品系统案例

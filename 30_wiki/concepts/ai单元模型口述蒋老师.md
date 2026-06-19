@@ -17,6 +17,7 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[ai时代判断力口述-3]]'
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260525_92ea6173-ai单元模型口述蒋老师
 speaker: 蒋老师（磊哥），一堂合伙人、教练
 status: enriched

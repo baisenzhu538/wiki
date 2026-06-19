@@ -17,6 +17,7 @@ query_triggers:
   - "四大环节 × 十大指标"
 reviewed_by: "黄药师"
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260510_5ef61f8f-一堂产品内核十大典型指标
 source_refs:
   - src_20260510_5ef61f8f-一堂产品内核十大典型指标

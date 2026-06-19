@@ -9,6 +9,7 @@ domain:
   - yitang
 status: enriched
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260606_ef4877d0-所以90的核心问题
 component_of: null
 related:

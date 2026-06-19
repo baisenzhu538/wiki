@@ -3,7 +3,8 @@ id: yt-concept-context-engineering
 title: "上下文工程：充分≠越多越好"
 type: concept
 source_refs:
-- src_20260614_8f80cb0f
+- 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 domain:
   - yitang

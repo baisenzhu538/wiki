@@ -9,7 +9,7 @@ domain:
 source_person: 消化全库后提炼
 source_context: 基于master-ai-info-literacy框架提炼，2026-05-18
 source_refs:
-  - 来源: 一堂 (Truman)
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 wiki_refs:
   - "[[master-ai-info-literacy]]"
   - "[[skill-ai-research-five-steps]]"

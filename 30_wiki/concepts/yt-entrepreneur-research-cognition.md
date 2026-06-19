@@ -24,6 +24,7 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
 status: enriched
 title: 调研认知

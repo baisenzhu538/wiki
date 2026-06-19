@@ -8,6 +8,10 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260613_59270720-corr_20260613_smart-medicine-cabinet-iteration-8-operating-data-and-failures
   - src_20260613_9a2b289e-corr_20260613_smart-medicine-cabinet-iteration-8-synthesis
   - src_20260613_fb0e6521-corr_20260613_smart-medicine-cabinet-iteration-9-tier-cities-and-special-scenes

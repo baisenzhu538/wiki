@@ -20,6 +20,9 @@ query_triggers:
 review_date: 2026-06-16
 reviewed_by: 王语嫣
 source_refs:
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - src_20260609_31712e1d-ocr-一堂-单元模型-扭蛋机案例
   - src_20260610_be139711-一堂-一堂五步法-单元模型-口述
   - src_20260610_557408fa-一堂-一堂五步法-单元模型-笔记
