@@ -8,7 +8,8 @@ domain:
 - yitang
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论 分享
-source_refs: []
+source_refs:
+- 10_raw/sources/src_20260606_0ecc1afc-AI俱乐部-AI协作方法论-纪浩-口述.md
 tags:
 - '#perspective/professional'
 - '#confidence/source-cited'

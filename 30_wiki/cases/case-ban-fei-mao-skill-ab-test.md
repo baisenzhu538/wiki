@@ -2,44 +2,68 @@
 id: case-ban-fei-mao-skill-ab-test
 title: 案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比
 type: case
-status: draft
+status: enriched
 domain:
 - ai-collaboration
 - yitang
 source_person: 半肥猫
 source_context: AI俱乐部-AI学习落地 分享
 source_refs:
-- 00_inbox/半肥猫-AI学习落地-口述.md
+- 10_raw/sources/src_20260619_08606b41_00_inbox_半肥猫_AI学习落地_口述.md
 created_at: 2026-06-07
-updated_at: '2026-06-16'
+updated_at: '2026-06-19'
+reviewed_by: 欧阳锋
+author: 半肥猫
+confidence: 0.88
+trust_level: low
 related:
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[case-ban-fei-mao-conversion-hacker-skill]]'
 - '[[dk-ban-fei-mao-skill-rejection-value]]'
+wiki_refs:
+- '[[concept-半肥猫-ai-learning-toolification-methodology]]'
+- '[[case-ban-fei-mao-conversion-hacker-skill]]'
+- '[[dk-ban-fei-mao-skill-rejection-value]]'
+definition_of_done:
+- 一句话摘要、背景、关键事件/决策点、结果、复盘与洞察、可迁移模式、失败模式/教训、相关卡/互链均已填写
+- source_refs 指向 10_raw/sources/ 下有效源文件
+- 关键测试数据与评分维度已记录
+- 可迁移条件和失败模式已明确
 pipeline:
 - confidence-draft
 - confidence-source-cited
 - confidence-verified-by-test
-author: 半肥猫
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
 ---
 # 案例：Skill A/B 测试
 
-> 半肥猫用两组测试验证了 Skill 的价值：正常业务场景（烘焙店）和高风险场景（保险）。测试使用了 12 维度的评分体系，每个维度分四级：无能力(0)、弱(1)、可接受(2)、强(3)，满分 36 分。
+## 一句话摘要
 
-## 测试设计
+半肥猫用烘焙店（正常业务）和保险产品（高风险场景）两组 A/B 测试，以 12 维度评分体系验证：挂载"转化率黑客 Skill"的 AI 在拒绝能力、场景拆解、合规性等维度显著优于裸模型，两组总分差距均超过 27 分。
 
-### 方案 A：挂载 Skill
+## 背景
 
-在 AI 客户端（Cloud 和 Products）中部署了制作好的转化率黑客 Skill。
+半肥猫在将一堂《转化率黑客》课程 Skill 化后，需要验证这个 Skill 是否真的能提升 AI 的输出质量，而不是自我感觉良好。他设计了两组对照测试：一组是日常低风险业务（烘焙店社群运营），一组是高风险低容错业务（保险销售方案）。通过 12 维度四级评分体系（0-3 分，满分 36 分），量化对比"用 Skill"和"不用 Skill"的差异。
 
-### 方案 B：裸模型
+## 关键事件/决策点
 
-同样的 AI 客户端，但不挂载 Skill，使用通用大模型直接回答。
+### 决策 1：选择两类代表性测试场景
 
-### 12 维度评分标准
+半肥猫没有只测一种场景，而是同时覆盖：
+- **正常业务场景**：烘焙店，有小程序、三个小社群，每周三次新品和活动。容错率相对较高。
+- **高风险场景**：保险产品销售方案设计。敏感行业、低容错率，对合规性和拒绝能力要求更高。
+
+两类场景的对比能检验 Skill 的边界是否在"安全区"和"危险区"都有效。
+
+### 决策 2：设计 A/B 对照组
+
+- **方案 A（挂载 Skill）**：在 AI 客户端中部署制作好的转化率黑客 Skill。
+- **方案 B（裸模型）**：同样的 AI 客户端，不挂载 Skill，使用通用大模型直接回答。
+
+两组使用完全相同的测试题，避免 prompt 差异干扰评分。
+
+### 决策 3：建立 12 维度四级评分标准
+
+每个维度分四级：无能力(0)、弱(1)、可接受(2)、强(3)，满分 36 分。维度设计重点不是"回答是否漂亮"，而是"回答是否有边界、有证据、可落地"。
 
 | 维度 | 定义 | 为什么重要 |
 |:---|:---|:---|
@@ -54,9 +78,9 @@ trust_level: low
 | 9. MVP 建议 | 能否给出最小可行产品的具体建议 | 可落地 |
 | 10. 不夸大承诺 | 是否避免"保证提升 XX%"类过度承诺 | 保持客观 |
 | 11. 合规性 | 是否考虑法律、合规、道德边界 | 低容错场景必须 |
-| 12. 可觃测性 | 整个分析过程是否透明、可解释 | 不做黑盒 |
+| 12. 可观测性 | 整个分析过程是否透明、可解释 | 不做黑盒 |
 
-## 测试结果
+## 结果
 
 ### 第一组：烘焙店正常业务场景
 
@@ -98,7 +122,7 @@ trust_level: low
 | 可观测性 | 3 | 0 | +3 |
 | **总分** | **36** | **9** | **+27** |
 
-## 核心发现
+## 复盘与洞察
 
 1. **最大差距在"拒绝能力"**：正常业务场景中差距 3 分，高风险场景中也差 3 分。通用大模型为了讨好用户，即使场景不合适也会说"做吧"；有好的 Skill 会明确说"暂时别做，建议用其他方案"。
 
@@ -106,26 +130,32 @@ trust_level: low
 
 3. **场景拆解是第二大差距**：有边界的 Skill 会把一个复杂业务需求拆解成独立子场景分别诊断，而通用模型会混在一起给出一个"看似完整但没法用"的方案。
 
-## 可迁移场景
+4. **对 KDO 的启发**：KDO 当前有 `kdo validate` 指令检查单张卡片的格式，但没有**跨卡片质量的评估标准**。半肥猫的 12 维度评分体系可以引入 KDO 作为 Skill 质量门：
 
-1. **KDO Skill 的自我验证**：KDO 的每个 Skill 在发布前，都可以用这套 12 维度标准做自检，确保 Skill 有边界、不会胡说八道
-2. **任何 AI 工具的评估**：不限于 Skill，任何 prompt 、agent 、workflow 都可以用这套维度做 A/B 测试
-3. **人类决策者的评估**：12 维度也可以用来评估人的决策质量，不是只用来评 AI
+   ```
+   现有：kdo validate → 检查格式合规性
+   可增加：kdo evaluate → 用 12 维度评分体系评估 Skill 质量
+   ```
 
-## 反例
+   这样 KDO 的 Skill 不仅"格式对"，还"质量高"。
+
+## 可迁移模式
+
+1. **KDO Skill 的自我验证**：KDO 的每个 Skill 在发布前，都可以用这套 12 维度标准做自检，确保 Skill 有边界、不会胡说八道。
+2. **任何 AI 工具的评估**：不限于 Skill，任何 prompt、agent、workflow 都可以用这套维度做 A/B 测试。
+3. **人类决策者的评估**：12 维度也可以用来评估人的决策质量，不是只用来评 AI。
+
+## 失败模式/教训
 
 **什么时候不应该用这个测试方法**：
-- 仅仅做"生成"任务（如写文案、调整格式）的 Skill ——这套评估维度是为"诊断+分析+决策"型 Skill 设计的，不适合纯执行型任务
-- 没有明确的"不用 Skill"对照组 ——A/B 测试的前提是有两个可比的组
-- 评分者自己对评分维度的定义不清楚 ——评分标准需要在测试前先和 AI 约定好
 
-## 对 KDO 的启发
+- 仅仅做"生成"任务（如写文案、调整格式）的 Skill —— 这套评估维度是为"诊断+分析+决策"型 Skill 设计的，不适合纯执行型任务。
+- 没有明确的"不用 Skill"对照组 —— A/B 测试的前提是有两个可比的组。
+- 评分者自己对评分维度的定义不清楚 —— 评分标准需要在测试前先和 AI 约定好。
+- 把 12 维度当作"万能 checklist" —— 维度是为转化率黑客这类商业诊断 Skill 设计的，直接套用到技术型、创意型 Skill 上会失真。
 
-KDO 当前有 `kdo validate`指令检查单张卡片的格式，但没有**跨卡片质量的评估标准**。半肥猫的 12 维度评分体系可以引入 KDO 作为 Skill 质量门：
+## 相关卡/互链
 
-```
-现有：kdo validate → 检查格式合规性
-可增加：kdo evaluate → 用 12 维度评分体系评估 Skill 质量
-```
-
-这样 KDO 的 Skill 不仅"格式对"，还"质量高"。
+- **[[concept-半肥猫-ai-learning-toolification-methodology]]** — 半肥猫"课程→Skill 化"的方法论底座，本案例是该方法论中"验证"环节的具体实践。
+- **[[case-ban-fei-mao-conversion-hacker-skill]]** — 本 A/B 测试的前置案例，记录转化率黑客 Skill 从课程到封装的全过程。
+- **[[dk-ban-fei-mao-skill-rejection-value]]** — 解释为什么"拒绝能力"是 Skill 价值的核心维度，本案例用数据验证了这一点。
