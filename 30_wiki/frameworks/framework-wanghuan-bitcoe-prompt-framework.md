@@ -2,7 +2,7 @@
 id: framework-wanghuan-bitcoe-prompt-framework
 title: 王欢BITCOE提示词框架
 type: framework
-status: draft
+status: enriched
 domain:
 - human-ai-collaboration
 - ai-collaboration
@@ -10,18 +10,22 @@ domain:
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
-reviewed_by: pending
-confidence: 0.84
+reviewed_by: 欧阳锋
+confidence: 0.88
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
-- "10_raw/sources/src_20260619_67d0fc3f_wanghuan_BTICOE框架_示意图.md"
-- "10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
+- '10_raw/sources/src_20260619_67d0fc3f_wanghuan_BTICOE框架_示意图.md'
+- '10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md'
+- '10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt'
 related:
 - '[[human-ai-collaboration-double-triangle]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[tool-wanghuan-ai-business-profile]]'
+- '[[framework-wanghuan-ai-five-level-ladder]]'
+- '[[framework-wanghuan-ooda-loop]]'
+- '[[framework-wanghuan-task-product-system]]'
 tags:
 - 王欢
 - BITCOE
@@ -29,6 +33,19 @@ tags:
 - prompt
 - 人机协作
 - 消灭模糊
+diagnostic_signals:
+- signal: '用户说"我已经说得很清楚了，AI 还是给不出我要的结果"'
+  lens: 意图模糊
+  follow_up: 用 BITCOE 六槽位逐条检查：背景、指令、任务、约束、输出、示例是否都已显式写出？
+- signal: '同一个 prompt 今天好用、明天跑偏，输出不稳定'
+  lens: 约束缺失
+  follow_up: Constraint 槽位是否写明了"不要做什么、不能碰什么、避免什么风格"？
+- signal: 'AI 输出看着专业，但放到真实场景里没法用'
+  lens: 示例与格式缺位
+  follow_up: Output 和 Example 槽位是否给出了可对照的格式样例和风格参考？
+- signal: '每次新对话都要重新交代身份和业务背景'
+  lens: 上下文工程缺失
+  follow_up: 高频任务是否已把稳定背景写进 [[tool-wanghuan-ai-business-profile]]，而非每次用 BITCOE 重复？
 ---
 
 # 王欢BITCOE提示词框架
@@ -36,17 +53,19 @@ tags:
 > **Burn line**: BITCOE 不是公式，是消灭模糊的思维习惯。
 >
 > **来源**：王欢 AI 实战分享（2026-06-18）  
-> **原名差异**：图片中写为 BTICOE，笔记中写为 BTICME（M = Method），用户统一命名为 **BITCOE**。
+> **原名差异**：图片中写为 BTICOE，笔记中写为 BTICME（M = Method），入 wiki 统一命名为 **BITCOE**。
 
 ---
 
-## 一、用一句话讲清楚
+## 用一句话讲清楚
 
-BITCOE 是一个六槽位提示词框架，通过强制填写**背景、指令、任务、约束、输出、示例**，把模糊需求变成 AI 可精确执行的指令。
+BITCOE 是一个六槽位提示词框架，通过强制填写**背景、指令、任务、约束、输出、示例**，把"模糊需求"变成"AI 可精确执行、人可验收的指令"。
 
 ---
 
-## 二、六个槽位
+## 核心要点
+
+### 1. 六槽位与各自消灭的模糊
 
 ```
 ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐
@@ -55,20 +74,18 @@ BITCOE 是一个六槽位提示词框架，通过强制填写**背景、指令�
 └─────┘ └─────┘ └─────┘ └─────┘ └─────┘ └─────┘
 ```
 
-| 槽位 | 英文 | 问题 | 作用 |
+| 槽位 | 英文 | 核心问题 | 消灭的模糊 |
 |:---|:---|:---|:---|
-| **B** | Background | 你是谁？你的处境是什么？ | 让 AI 理解上下文 |
-| **I** | Instruction | 按什么逻辑做？ | 规定思考路径和方法 |
-| **T** | Task | 这次做什么？ | 明确具体目标 |
-| **C** | Constraint | 不要做什么？ | 划定红线，避免跑偏 |
-| **O** | Output | 什么格式？ | 规定输出形式 |
-| **E** | Example | 什么风格？ | 提供参考样例 |
+| **B** | Background | 你是谁？处境是什么？ | AI 不知道上下文，只能给通用答案 |
+| **I** | Instruction | 按什么逻辑做？ | AI 按默认逻辑执行，偏离你的方法 |
+| **T** | Task | 这次做什么？ | AI 不知道具体产出目标 |
+| **C** | Constraint | 不要做什么？红线是什么？ | AI 往错误方向走、碰不该碰的东西 |
+| **O** | Output | 什么格式、多长、结构？ | AI 输出格式不稳定、无法直接使用 |
+| **E** | Example | 什么风格、语气？ | AI 对"好"的理解与你不同 |
 
-> **C（约束）是王欢特别强调的“最致命”槽位**——多数 AI 输出跑偏，不是因为任务没说清，而是因为约束没说清。
+> **C（约束）是王欢标星的"最致命"槽位**——多数 AI 输出跑偏，不是因为任务没说清，而是因为约束没说清。
 
----
-
-## 三、与传统 prompt 的区别
+### 2. BITCOE 与传统 prompt 的区别
 
 | 维度 | 传统 prompt | BITCOE |
 |:---|:---|:---|
@@ -76,101 +93,110 @@ BITCOE 是一个六槽位提示词框架，通过强制填写**背景、指令�
 | 重点 | 告诉 AI 做什么 | 同时告诉 AI 不要做什么 |
 | 上下文 | 常被忽略 | 必填背景 |
 | 输出控制 | 较弱 | 明确格式和示例 |
-| 适用场景 | 简单任务 | 复杂、需要稳定输出的任务 |
+| 复用性 | 每次重新写 | 可固化为模板 |
 
----
+### 3. 与 AI 业务档案的关系
 
-## 四、使用模板
+BITCOE 负责"这次任务"，[[tool-wanghuan-ai-business-profile]] 负责"长期稳定的我"。两者组合使用效果更佳：
 
-```markdown
-## Background（背景）
-- 我的角色：
-- 业务场景：
-- 目标用户：
-
-## Instruction（指令）
-- 思考逻辑：
-- 分析方法：
-- 优先顺序：
-
-## Task（任务）
-- 本次目标：
-- 需要产出的核心内容：
-
-## Constraint（约束）
-- 不要做的事：
-- 避免的风格/词汇：
-- 红线：
-
-## Output（输出）
-- 格式：
-- 长度：
-- 结构：
-
-## Example（示例）
-- 参考样例：
-```
-
----
-
-## 五、应用示例
-
-### 示例：让 AI 写一份 wiki 卡片
-
-```markdown
-## Background
-我是知识工厂的质量负责人，正在把王欢的 AI 实战分享整理成 wiki 卡片。目标读者是团队内部的 content producer 和 reviewer。
-
-## Instruction
-按照“用一句话讲清楚 → 核心框架 → 应用场景 → 常见走偏 → Action Triggers”的结构组织内容。
-
-## Task
-写一张关于 BITCOE 提示词框架的 concept/tool 卡片。
-
-## Constraint
-- 不要泛泛而谈 prompt engineering
-- 不要抄袭原始课件原文，要提炼和结构化
-- 必须包含六槽位的具体定义和示例
-
-## Output
-Markdown 格式，约 2000 字，使用表格和代码块增强可读性。
-
-## Example
-参考 `[[framework-wanghuan-actor-director-mode]]` 的卡片风格。
-```
-
----
-
-## 六、与 AI 业务档案的关系
-
-BITCOE 用于单次任务的精确描述，而 `[[tool-wanghuan-ai-business-profile]]` 用于定义长期稳定的角色和输出标准。两者结合使用效果更佳：
-
-1. 先用 AI 业务档案定义“我是谁、我服务谁、我的输出标准”。
+1. 先用 AI 业务档案注入"我是谁、我服务谁、我的输出标准"。
 2. 再用 BITCOE 描述每次具体任务。
 
+### 4. 案例支撑
+
+王欢在课上对比了"丢了一个大客户，帮我分析原因"的三个版本：
+
+- **零上下文**：AI 给出五条通用原因，放哪个行业都成立，无法决策。
+- **有一点上下文**：方向稍好，但仍在猜。
+- **完整 BITCOE**：AI 识别到"老板没出现在结项汇报"这一关键信号，给出可验证动作，结果可直接用于决策。
+
+这验证了 BITCOE 的核心价值：**不是让 AI 更聪明，而是逼你自己把模糊消灭干净**。
+
 ---
 
-## 七、常见走偏模式
+## 边界
+
+| 适用 | 不适用 |
+|:---|:---|
+| 需要稳定、可复用输出的高频任务 | 一次性、临时、没有复用价值的问答 |
+| 人已经想清楚"要什么"和"不要什么" | 人自己也没想清楚目标 |
+| 需要团队协作、统一 prompt 标准 | 个人随意探索，不需要一致性 |
+| 输出有明确格式、风格、质量红线 | 追求自由发散的创意探索 |
+| 与 AI 业务档案配合，形成"长期角色 + 短期任务" | 没有长期协作需求，写档案成本过高 |
+| 任务在 AI 当前能力边界内，可通过验收兜底 | 超出 AI 能力且无法验收的高风险任务 |
+
+> **关键判断**：BITCOE 不能代替你思考，它只能把你已经想清楚的东西显式化。
+
+---
+
+## 失败模式 / 常见走偏
 
 | 走偏模式 | 表现 | 纠偏动作 |
 |:---|:---|:---|
-| **B 缺失** | AI 不理解上下文，输出泛泛 | 先说明角色和场景 |
-| **I 缺失** | AI 按默认逻辑执行，不符合预期 | 明确思考路径和方法 |
-| **T 缺失** | AI 不知道要产出什么 | 一句话说清任务 |
-| **C 缺失** | 输出跑偏或包含不该有的内容 | 明确约束和红线 |
-| **O 缺失** | 输出格式不稳定 | 规定格式、长度、结构 |
-| **E 缺失** | 风格不符合要求 | 提供参考样例 |
+| **B 缺失** | AI 输出泛泛，像在对"平行宇宙里的你"说话 | 先写角色、业务场景、目标用户 |
+| **I 缺失** | AI 按默认逻辑执行，不符合你的分析方法 | 明确思考路径、分析框架、优先顺序 |
+| **T 缺失** | AI 不知道要产出什么，给出无关内容 | 用一句话写明本次具体目标 |
+| **C 缺失** | 输出跑偏、包含不该有的内容、触犯红线 | 强制写"不要做什么、不能碰什么" |
+| **O 缺失** | 格式不稳定，每次输出长度/结构不同 | 规定格式、长度、结构和交付物形态 |
+| **E 缺失** | 风格不符合要求，"专业"理解不一致 | 提供参考样例，锁定语气和表达习惯 |
+| **把格式当标准** | 只写"用表格输出"，没写质量红线 | 区分格式偏好与不可接受的内容错误 |
+| **只写正面不写负面** | AI 不断加入你不想要的内容 | 每个槽位补一条"不要…"的否定约束 |
 
 ---
 
-## 八、Action Triggers
+## 行动 Checklist
 
-| 触发场景 | 第一个动作 |
-|:---|:---|
-| AI 输出不符合预期 | 检查 BITCOE 六槽位是否填全 |
-| 同一个任务要反复调试 prompt | 把它固化成 BITCOE 模板 |
-| 团队协作时 prompt 效果不一致 | 用 BITCOE 统一标准 |
-| 复杂任务 AI 总是跑偏 | 重点检查 Constraint 槽位 |
+- [ ] 选一个下周还会重复做的任务，不是一次性任务。
+- [ ] 用 BITCOE 六槽位把它写成可复用提示词模板。
+- [ ] 在 Constraint 槽位至少写 3 条"不要做什么"的负面约束。
+- [ ] 为 Output 槽位提供具体格式和长度要求，并附一个 Example。
+- [ ] 跑通一轮"输入 → 输出 → 验收 → 改约束 → 再输出"的闭环。
+- [ ] 把稳定的 Background 内容迁移到 [[tool-wanghuan-ai-business-profile]]，避免每次重复。
+- [ ] 一周后复盘：哪些约束 AI 还经常违反？补进模板。
+
+---
+
+## 相关卡 / 互链
+
+- [[framework-wanghuan-actor-director-mode]]：BITCOE 是导演定义任务和标准的核心语言。
+- [[tool-wanghuan-ai-business-profile]]：长期角色与标准资产，与 BITCOE 形成"长期 + 短期"组合。
+- [[framework-wanghuan-ai-five-level-ladder]]：BITCOE 主要帮助稳定工作流层到作品层的输出。
+- [[framework-wanghuan-ooda-loop]]：用 OODA 持续迭代 BITCOE 模板。
+- [[framework-wanghuan-task-product-system]]：把一次 BITCOE 提示词沉淀为可复用产品/系统。
+- [[human-ai-collaboration-double-triangle]]：王欢人机协作域的总索引。
+
+---
+
+## Critique
+
+**攻击者 1：提示词工程师 / 效率优先者**
+> "每次写 prompt 都要填六个槽位，太慢了。日常问答用一句话就够了，BITCOE 过于繁琐。"
+>
+> **回应**：BITCOE 的目标不是让"随便聊聊"变复杂，而是让"重要且反复出现的任务"变稳定。对于高频、协作、质量敏感的任务，前期多花 2 分钟写约束，能节省后面几十分钟的反复调试。
+
+**攻击者 2：建构主义学习理论（Piaget / Vygotsky）**
+> "把提示词结构固定成六槽位，会限制探索式学习。很多问题是在与 AI 对话中逐步澄清的，提前写满六槽位反而可能把错误假设固化。"
+>
+> **回应**：BITCOE 适合"目标相对清晰、需要稳定输出"的任务；对于探索性、创造性、目标本身模糊的任务，应先用自由对话澄清，再用 BITCOE 固化。它不是万能公式，而是"消灭已知模糊"的工具。
+
+**攻击者 3：组织行为学（Herbert Simon 有限理性）**
+> "BITCOE 假设人能完整表达自己的目标和约束，但现实中人的认知有限，很多约束只有看到 AI 输出后才意识到。"
+>
+> **回应**：这正是 BITCOE 需要配合 [[framework-wanghuan-ooda-loop]] 迭代的原因。第一次写不完美是正常的，关键是用输出反推缺失的约束，把隐性的"不要"显性化。
+
+**不要用**：
+- 不要在目标完全模糊时强行套用 BITCOE——先用自由对话或草稿探索。
+- 不要把 BITCOE 当成"填完就准"的免验收金牌——最终仍需人验收。
+- 不要只写"做什么"、不写"不做什么"——约束缺失是跑偏主因。
+- 不要把它用于超出 AI 能力边界且无法验收的高风险任务。
+
+---
+
+## Synthesis
+
+BITCOE 是王欢人机协作方法论中的"意图显式化"基础设施。它把一次 AI 协作中最重要的六类信息——背景、指令、任务、约束、输出、示例——强制结构化，从而把"模糊进、模糊出"的随机过程，变成"清晰进、可验收出"的可靠过程。它的最大价值不只在于让 AI 输出更好，更在于逼使用者在开口之前先把需求想明白：很多时候当你把 BITCOE 写完，答案已经清晰了一半。
+
+在 KDO 知识工厂的工作流中，BITCOE 既是单张卡片生产的提示词模板，也是把个人隐性判断沉淀为团队可复用资产的桥梁。与 [[tool-wanghuan-ai-business-profile]] 搭配解决"长期角色"问题，与 [[framework-wanghuan-ooda-loop]] 搭配解决"持续迭代"问题，与 [[framework-wanghuan-actor-director-mode]] 搭配解决"人机分工"问题。它不能代替人的判断力，但能把判断力外化成 AI 可执行、可验收的标准。
 
 ---
 
