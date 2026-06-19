@@ -8,6 +8,11 @@ trust_level: high
 domain:
   - yitang
   - kdo
+source_person: Truman
+source_context: 一堂五步法培训口述与笔记
+source_refs:
+  - 10_raw/sources/src_20260611_d913eb1d-一堂-一堂五步法-序言-口述.md
+  - 10_raw/sources/src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述.md
 created_at: "2026-06-19"
 author: 黄药师
 reviewed_by: 黄药师
