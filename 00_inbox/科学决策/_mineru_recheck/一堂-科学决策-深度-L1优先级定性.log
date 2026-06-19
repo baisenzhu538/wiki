@@ -16,4 +16,6 @@
 Layout Predict:   0%|          | 0/1 [00:00<?, ?it/s]Layout Predict: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]Layout Predict: 100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
 OCR-det Predict:   0%|          | 0/1 [00:00<?, ?it/s]OCR-det Predict: 100%|██████████| 1/1 [00:00<00:00,  2.34it/s]OCR-det Predict: 100%|██████████| 1/1 [00:00<00:00,  2.34it/s]
 OCR-rec Predict:   0%|          | 0/11 [00:00<?, ?it/s]OCR-rec Predict:  55%|█████▍    | 6/11 [00:00<00:00, 37.65it/s]OCR-rec Predict: 100%|██████████| 11/11 [00:00<00:00, 26.43it/s]OCR-rec Predict: 100%|██████████| 11/11 [00:00<00:00, 27.67it/s]
-Processing pages:   0%|          | 0/1 [00:00<?, ?it/s]
+Processing pages:   0%|          | 0/1 [00:00<?, ?it/s]Processing pages: 100%|██████████| 1/1 [00:21<00:00, 21.57s/it]Processing pages: 100%|██████████| 1/1 [00:21<00:00, 21.57s/it]
+2026-06-19 17:36:01.477 | WARNING  | magic_pdf.libs.config_reader:get_llm_aided_config:123 - 'llm-aided-config' not found in magic-pdf.json, use 'None' as default
+2026-06-19 17:36:02.212 | INFO     | magic_pdf.tools.common:_do_parse:243 - local output dir is 00_inbox/科学决策/_mineru_recheck/一堂-科学决策-深度-L1优先级定性/一堂-科学决策-深度-L1优先级定性/auto

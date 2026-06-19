@@ -1,0 +1,344 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        317,
+                        91,
+                        2964,
+                        272
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                370,
+                                114,
+                                2920,
+                                258
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        370,
+                                        114,
+                                        1724,
+                                        258
+                                    ],
+                                    "score": 0.985,
+                                    "content": "单元模型ROI深度：",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1741,
+                                        120,
+                                        2920,
+                                        252
+                                    ],
+                                    "score": 0.999,
+                                    "content": "L4严格财务公式",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        166,
+                        732,
+                        2928,
+                        1125
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                211,
+                                762,
+                                1392,
+                                901
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        211,
+                                        762,
+                                        1392,
+                                        901
+                                    ],
+                                    "score": 0.98,
+                                    "content": "ROI=产出/投入",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                429,
+                                966,
+                                2862,
+                                1107
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        429,
+                                        966,
+                                        2862,
+                                        1107
+                                    ],
+                                    "score": 0.924,
+                                    "content": "(A+B+C+D)/(X+Y+Z)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 1.5
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        1896,
+                        1581,
+                        3021,
+                        1693
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                1916,
+                                1593,
+                                3006,
+                                1690
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1916,
+                                        1603,
+                                        2150,
+                                        1685
+                                    ],
+                                    "score": 0.997,
+                                    "content": "图示：",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        2194,
+                                        1593,
+                                        3006,
+                                        1690
+                                    ],
+                                    "score": 0.987,
+                                    "content": "定性<定量<定钱",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3
+                }
+            ],
+            "layout_bboxes": [],
+            "page_idx": 0,
+            "page_size": [
+                3231.0,
+                1828.5
+            ],
+            "_layout_tree": [],
+            "images": [],
+            "tables": [],
+            "interline_equations": [],
+            "discarded_blocks": [],
+            "need_drop": false,
+            "drop_reason": [],
+            "para_blocks": [
+                {
+                    "type": "title",
+                    "bbox": [
+                        317,
+                        91,
+                        2964,
+                        272
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                370,
+                                114,
+                                2920,
+                                258
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        370,
+                                        114,
+                                        1724,
+                                        258
+                                    ],
+                                    "score": 0.985,
+                                    "content": "单元模型ROI深度：",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        1741,
+                                        120,
+                                        2920,
+                                        252
+                                    ],
+                                    "score": 0.999,
+                                    "content": "L4严格财务公式",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 0
+                        }
+                    ],
+                    "index": 0,
+                    "page_num": "page_0",
+                    "page_size": [
+                        3231.0,
+                        1828.5
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        166,
+                        732,
+                        2928,
+                        1125
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                211,
+                                762,
+                                1392,
+                                901
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        211,
+                                        762,
+                                        1392,
+                                        901
+                                    ],
+                                    "score": 0.98,
+                                    "content": "ROI=产出/投入",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "bbox": [
+                                429,
+                                966,
+                                2862,
+                                1107
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        429,
+                                        966,
+                                        2862,
+                                        1107
+                                    ],
+                                    "score": 0.924,
+                                    "content": "(A+B+C+D)/(X+Y+Z)",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 2
+                        }
+                    ],
+                    "index": 1.5,
+                    "page_num": "page_0",
+                    "page_size": [
+                        3231.0,
+                        1828.5
+                    ],
+                    "bbox_fs": [
+                        211,
+                        762,
+                        2862,
+                        1107
+                    ]
+                },
+                {
+                    "type": "text",
+                    "bbox": [
+                        1896,
+                        1581,
+                        3021,
+                        1693
+                    ],
+                    "lines": [
+                        {
+                            "bbox": [
+                                1916,
+                                1593,
+                                3006,
+                                1690
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        1916,
+                                        1603,
+                                        2150,
+                                        1685
+                                    ],
+                                    "score": 0.997,
+                                    "content": "图示：",
+                                    "type": "text"
+                                },
+                                {
+                                    "bbox": [
+                                        2194,
+                                        1593,
+                                        3006,
+                                        1690
+                                    ],
+                                    "score": 0.987,
+                                    "content": "定性<定量<定钱",
+                                    "type": "text"
+                                }
+                            ],
+                            "index": 3
+                        }
+                    ],
+                    "index": 3,
+                    "page_num": "page_0",
+                    "page_size": [
+                        3231.0,
+                        1828.5
+                    ],
+                    "bbox_fs": [
+                        1916,
+                        1593,
+                        3006,
+                        1690
+                    ]
+                }
+            ]
+        }
+    ],
+    "_parse_type": "ocr",
+    "_version_name": "1.3.12"
+}

@@ -1,0 +1,22 @@
+/home/dministrator/.local/lib/python3.10/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.6.3) or chardet (7.4.3)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+2026-06-19 17:37:36.355 | WARNING  | magic_pdf.libs.config_reader:get_latex_delimiter_config:132 - 'latex-delimiter-config' not found in magic-pdf.json, use 'None' as default
+2026-06-19 17:37:43.294 | INFO     | magic_pdf.data.dataset:__init__:157 - lang: None
+2026-06-19 17:37:43.347 | INFO     | magic_pdf.libs.pdf_check:detect_invalid_chars:67 - cid_count: 0, text_len: 1, cid_chars_radio: 0.0
+2026-06-19 17:37:43.348 | WARNING  | magic_pdf.filter.pdf_classify_by_type:classify:335 - OCR needed based on classification result, by_image_area: False, by_text: False, by_avg_words: False, by_img_num: True, by_img_narrow_strips: True, by_invalid_chars: True
+2026-06-19 17:37:43.417 | INFO     | magic_pdf.model.doc_analyze_by_custom_model:doc_analyze:162 - Batch 1/1: 1 pages/1 pages
+2026-06-19 17:37:44.996 | INFO     | magic_pdf.model.doc_analyze_by_custom_model:may_batch_image_analyze:278 - gpu_memory: 4 GB, batch_ratio: 1
+2026-06-19 17:37:44.999 | INFO     | magic_pdf.model.pdf_extract_kit:__init__:68 - DocAnalysis init, this may take some times, layout_model: doclayout_yolo, apply_formula: False, apply_ocr: True, apply_table: False, table_model: rapid_table, lang: None
+2026-06-19 17:37:45.000 | INFO     | magic_pdf.model.pdf_extract_kit:__init__:82 - using device: cuda
+2026-06-19 17:37:45.001 | INFO     | magic_pdf.model.pdf_extract_kit:__init__:86 - using models_dir: /home/dministrator/.cache/magic-pdf/models
+/home/dministrator/.local/lib/python3.10/site-packages/magic_pdf/model/sub_modules/ocr/paddleocr2pytorch/pytorchocr/base_ocr_v20.py:18: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  weights = torch.load(weights_path)
+2026-06-19 17:37:48.817 | INFO     | magic_pdf.model.pdf_extract_kit:__init__:164 - DocAnalysis init done!
+2026-06-19 17:37:48.818 | INFO     | magic_pdf.model.doc_analyze_by_custom_model:custom_model_init:116 - model init cost: 3.82149076461792
+Layout Predict:   0%|          | 0/1 [00:00<?, ?it/s]Layout Predict: 100%|██████████| 1/1 [00:01<00:00,  1.89s/it]Layout Predict: 100%|██████████| 1/1 [00:01<00:00,  1.89s/it]
+OCR-det Predict:   0%|          | 0/1 [00:00<?, ?it/s]OCR-det Predict: 100%|██████████| 1/1 [00:00<00:00,  4.02it/s]OCR-det Predict: 100%|██████████| 1/1 [00:00<00:00,  4.00it/s]
+OCR-rec Predict:   0%|          | 0/4 [00:00<?, ?it/s]OCR-rec Predict: 100%|██████████| 4/4 [00:00<00:00, 25.57it/s]OCR-rec Predict: 100%|██████████| 4/4 [00:00<00:00, 25.40it/s]
+Processing pages:   0%|          | 0/1 [00:00<?, ?it/s]2026-06-19 17:37:51.766 | WARNING  | magic_pdf.pdf_parse_union_core_v2:sort_lines_by_model:551 - bottom > page_h, left: 3, right: 791, top: 252.0, bottom: 353.0, page_w: 793.5, page_h: 352.5
+Processing pages: 100%|██████████| 1/1 [00:07<00:00,  7.93s/it]Processing pages: 100%|██████████| 1/1 [00:07<00:00,  7.93s/it]
+2026-06-19 17:37:59.379 | WARNING  | magic_pdf.libs.config_reader:get_llm_aided_config:123 - 'llm-aided-config' not found in magic-pdf.json, use 'None' as default
+2026-06-19 17:37:59.923 | INFO     | magic_pdf.tools.common:_do_parse:243 - local output dir is 00_inbox/科学决策/_mineru_recheck/一堂-科学决策-深度-L4-案例01/一堂-科学决策-深度-L4-案例01/auto

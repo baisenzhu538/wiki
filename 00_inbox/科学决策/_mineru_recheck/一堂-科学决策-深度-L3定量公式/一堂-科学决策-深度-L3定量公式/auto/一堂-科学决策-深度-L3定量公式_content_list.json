@@ -1,0 +1,18 @@
+[
+    {
+        "type": "text",
+        "text": "单元模型ROI深度： L3定量公式",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ROI =产出/投入 (A+B+C+D）/(X+Y+Z) ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "图示： 定性<定量<定钱",
+        "page_idx": 0
+    }
+]
