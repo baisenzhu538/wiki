@@ -3,15 +3,16 @@ id: dk-f3-state-json-race-condition
 title: F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-003
 source_refs:
 - 90_control/failure-modes.md#F-KDO-003
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
-updated_at: '2026-06-16'
+updated_at: '2026-06-19'
 related:
 - '[[dk-c10-batch-tool-no-dry-run]]'
 - '[[master-systems-thinking]]'
@@ -19,9 +20,13 @@ pipeline:
 - confidence-draft
 - confidence-source-cited
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- kdo improve --apply 执行成功但 .kdo/state.json 中 wiki_snapshots 为空
+- 同一次 improve 执行前后 state.json 的 mtime 或 revision 数量不一致
+- kdo 命令连续快速执行时出现 state 数据回退
 ---
 # F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失
 
@@ -63,6 +68,14 @@ trust_level: low
 - **代码已修复（2026-05-01）**，但模式未入库——修了 bug 不等于消除了失败模式，同样的竞态逻辑可能存在于其他命令中
 - 如果你在自定义扩展 kdo 时写了新的 state 写入逻辑，必须遵循"单一 save 入口"原则
 - 在多用户/多进程环境下，即使单一函数内部也需要加文件锁（file lock），而不仅仅是"统一入口"
+
+## 常见失败模式
+
+| 失败模式 | 触发条件 | 表面症状 | 后果 |
+|---|---|---|---|
+| 并发覆盖写 | `snapshot_wiki_page()` 与 `cmd_improve()` 各自独立保存 state | improve 成功但 wiki_snapshots 为空 | revision 历史丢失，无法回滚 |
+| 旧 state dict 写回 | 调用方持有旧 state，子函数写入后被覆盖 | state 字段值回退到执行前 | 反馈状态、快照数据不一致 |
+| 多进程同时写 state | 自动化管线中多个 kdo 实例并行 | 无报错但 state.json 损坏或丢失 | 系统状态不可恢复 |
 
 ## 为什么值钱
 
