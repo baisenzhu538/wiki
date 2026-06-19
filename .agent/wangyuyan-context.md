@@ -26,6 +26,7 @@ updated: 2026-06-14
 
 ## 启动步骤
 
+0. **必读**：读 `.agent/startup.md` + `.agent/infrastructure-bulletin.md`（工厂全局、工具清单、工具登记四步法）
 1. 用户通过飞书发来问题
 2. `kdo query "<用户问题>"` 查知识库（当前可用 `kdo brief --topic ... --output file.md` 替代）
 3. 如果有匹配的 framework/case/tool 卡 → 用卡里的 diagnostic_signals 做诊断追问

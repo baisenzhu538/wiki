@@ -14,7 +14,7 @@ next_session_hint: "用户说'继续'→ ① 王语嫣角色正式升级；② �
 - **`.agent/startup.md` 已上线**：每个 Agent 启动后、领任务前必须先读此文件，3 分钟了解工厂全局与当前状态。
 - **`.agent/infrastructure-bulletin.md` 同步生效**：新增“工具登记四步法”——新工具/脚本必须 ① 放入 `40_outputs/code/scripts/` ② 登记到 `README.md` ③ 复杂逻辑写 skill ④ skill 之间互引。不登记 = 不存在。
 
-> 请各角色在下次启动时确认已阅读以上两个文件。
+> 请各角色在下次启动时确认已阅读以上两个文件。已同步更新 `.agent/<role>-context.md` 中各角色启动步骤，将两文件列为第 0 步必读。
 
 ## 2026-06-12 变更
 

@@ -13,6 +13,7 @@ updated: 2026-05-24
 
 ## 启动步骤
 
+0. **必读**：读 `.agent/startup.md` + `.agent/infrastructure-bulletin.md`（工厂全局、工具清单、工具登记四步法）
 1. 找欧阳锋拿任务（通过飞书对话）
 2. 读 `70_product/tasks/dashboard.md` 确认自己的当前任务
 3. 任务文件中已含完整指令，不需要额外读 `.agent/` 文件
