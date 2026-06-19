@@ -122,7 +122,7 @@ diagnostic_signals:
 ## 来源
 
 - 半肥猫，AI俱乐部AI学习落地分享
-- [[10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md|半肥猫-AI学习落地-口述]]
+- 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 
 ## Feedback Path
 

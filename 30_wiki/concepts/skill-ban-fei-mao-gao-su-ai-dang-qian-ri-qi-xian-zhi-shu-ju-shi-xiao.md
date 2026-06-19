@@ -29,7 +29,7 @@ pipeline:
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
-trust_level: high
+trust_level: medium
 diagnostic_signals:
   - signal: "AI 引用明显过时的政策、价格或市场数据"
     lens: "时效约束缺失"
