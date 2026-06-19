@@ -1,6 +1,6 @@
 # 科学决策 - VLM 描述汇总
 
-模型: `Qwen/Qwen2.5-VL-7B-Instruct`
+模型: `MiniMax-VL-01`
 
 图片数: 1
 成功: 0
@@ -13,4 +13,4 @@
 
 ## 失败列表
 
-- 一堂-科学决策-ROI决策评估画布-案例01.png: 401 Client Error: Unauthorized for url: https://api.siliconflow.cn/v1/chat/completions
+- 一堂-科学决策-ROI决策评估画布-案例01.png: 'NoneType' object is not subscriptable
