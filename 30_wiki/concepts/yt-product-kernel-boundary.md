@@ -16,8 +16,8 @@ source_refs:
 created_at: "2026-06-19"
 updated_at: "2026-06-19"
 author: 老顽童
-reviewed_by: ""
-review_date: ""
+reviewed_by: "待审"
+review_date: "2026-06-19"
 related:
   - yt-product-kernel-definition
   - yt-product-kernel-add-subtract

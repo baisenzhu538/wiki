@@ -15,8 +15,8 @@ source_refs:
 created_at: "2026-06-19"
 updated_at: "2026-06-19"
 author: 老顽童
-reviewed_by: ""
-review_date: ""
+reviewed_by: "欧阳锋"
+review_date: "2026-06-19"
 related:
   - yt-demand-fake-demand-detection
   - yt-demand-qualitative-analysis

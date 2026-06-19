@@ -10,12 +10,10 @@ trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
 source_refs:
+- "10_raw/sources/src_20260619_38fcb705_wanghuan_AI双角色教练训练_示例图_ocr.md"
 - "10_raw/sources/src_20260619_2ec9f157_wanghuan_AI双角色教练训练_示例图.md"
 - "10_raw/sources/src_20260619_e4b35a3a_wanghuan_task_product_system_transcript.md"
-domain:
-- human-ai-collaboration
-- ai-collaboration
-- yitang
+domain: human-ai-collaboration;ai-collaboration;yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
 diagnostic_signals:
@@ -33,10 +31,8 @@ diagnostic_signals:
   follow_up: 让扮演用户的 AI 不知道销冠策略，教练 AI 能看到全部
 related:
 - '[[case-wanghuan-education-sales-paced]]'
-- '[[framework-wanghuan-five-criteria-first-product]]'
-- '[[concept-wanghuan-ai-native-definition]]'
-- '[[framework-wanghuan-task-product-system]]'
-- '[[tool-wanghuan-ai-business-profile]]'
+- '[[dk-wanghuan-paced-sales-decision]]'
+- '[[framework-wanghuan-actor-director-mode]]'
 tags:
 - 王欢
 - 双角色教练
@@ -122,10 +118,8 @@ AI 双角色教练对练工具：一个 AI 扮演真实用户制造压力，另�
 ## 相关卡 / 互链
 
 - [[case-wanghuan-education-sales-paced]]：双角色教练工具最初来自教育销售案例的实践经验。
-- [[framework-wanghuan-five-criteria-first-product]]：对练工具的选题也符合五条标准——高频、真实痛点、领域熟。
-- [[concept-wanghuan-ai-native-definition]]：把 AI 默认纳入新人培训流程，是 AI Native 的应用。
-- [[framework-wanghuan-task-product-system]]：对练工具是从任务（老带新）到产品（AI 对练系统）的跃迁。
-- [[tool-wanghuan-ai-business-profile]]：业务档案中的行业暗规则和输出标准是教练 AI 评分的重要依据。
+- [[dk-wanghuan-paced-sales-decision]]：PACED 五维判断是教练 AI 做策略级复盘的底层框架。
+- [[framework-wanghuan-actor-director-mode]]：从「演员」到「导演」的身份切换，是设计对练系统而非仅生成话术的前提。
 
 ---
 
