@@ -15,19 +15,18 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 def ocr_image(engine, image_path: Path):
     """对单张图片 OCR，返回按阅读顺序排列的文本行。"""
     result = engine(str(image_path))
-    if not result or not result[0]:
+    if not result or not result.txts:
         return []
 
     blocks = []
-    for line in result[0]:
-        bbox, (text, score) = line
-        y = sum(p[1] for p in bbox) / 4
-        x = sum(p[0] for p in bbox) / 4
+    for box, text, score in zip(result.boxes, result.txts, result.scores):
+        y = sum(p[1] for p in box) / 4
+        x = sum(p[0] for p in box) / 4
         blocks.append({
             "text": text,
-            "score": round(score, 3),
-            "x": round(x, 1),
-            "y": round(y, 1),
+            "score": round(float(score), 3),
+            "x": round(float(x), 1),
+            "y": round(float(y), 1),
         })
 
     # 按从上到下、从左到右排序
