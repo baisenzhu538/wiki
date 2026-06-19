@@ -3,29 +3,36 @@ id: dk-f8-phony-wikilink
 title: F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-008
 source_refs:
 - 90_control/failure-modes.md#F-KDO-008
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
-updated_at: '2026-06-16'
+updated_at: '2026-06-19'
 related:
 - '[[dk-c8-format-complete-mind-empty]]'
 - '[[master-decision-hygiene]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
+- confidence-verified-by-case
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- Synthesis 段 wikilink 目标与当前卡片的 domain/module 无实质交叉
+- wikilink 指向当前卡片自身（self-link）
+- 为通过"≥2 个 wikilinks"规则而堆砌低信息量关联
 ---
 # F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数
 
-## 原始表述
+## 原始表述/核心洞察
 
 > **触发场景**：Builder 执行三步编译法的 Synthesis 阶段
 >
@@ -38,6 +45,13 @@ trust_level: low
 > **防御措施**：① L2 Lint：检测 self-link（直接报 P0）② 审查时检查每个 wikilink 目标页面的内容是否与本卡有实质关联
 >
 > **关联案例**：yt-entrepreneur-scientific-method.md Synthesis 段 wikilink 了自己（2026-05-08 审查）
+
+核心洞察：
+
+- wikilink 是 Graph RAG 的边，虚假关联会污染整条检索图——它让"相关"变成"看起来相关"。
+- self-link 是最低成本的造假：它满足计数规则，却贡献零信息增益，甚至制造循环。
+- "≥2 个 wikilinks"是结构性要求，不是内容质量要求；把结构要求当成目标，会诱导 Builder 用无关链接填充。
+- 真正的 Synthesis 价值在于揭示当前知识与已有知识之间的非显然关系，而不是完成链接配额。
 
 ## 使用场景
 
@@ -62,6 +76,15 @@ trust_level: low
 - "实质关联"的标准：两张卡片的知识内容互相补充、互相质疑、或可以迁移应用——"都是一堂的课"不算实质关联
 - 不同审查者对"实质关联"的判断可能有差异——有争议时以欧阳锋的判定为准
 
+## 常见失败模式
+
+| 失败模式 | 典型信号 | 为什么 L2 Lint 会漏 | 快速自检 |
+|---|---|---|---|
+| self-link | Synthesis 段出现 “当前卡片名” 式自引用 | 规则只检查数量，不检查目标是否等于自身 | 全文搜索当前卡片 id，确认没有自引用 |
+| 灌水同域关联 | 链接目标与当前卡片同 domain，但仅共享粗粒度标签（如"都是一堂的课"） | 规则不验证关联说明的信息量 | 追问：两张卡互相补充了什么具体结论？ |
+| 跨域硬凑 | 链接目标属于不相关 domain，内容无交叉 | 规则不验证 domain/module 交叉 | 检查目标页与当前卡的核心概念是否有交集 |
+| 数量优先 | 卡片刚好有 2 个 wikilink，但均缺乏关联说明 | 规则只检查数量 | 移除链接后，Synthesis 是否仍能独立成立？ |
+
 ## 为什么值钱
 
 - **虚假关联破坏的是整个 Graph RAG 网络的可信度**：如果 wikilink 只是凑数的，用户通过关联导航找到的内容与当前主题无关，Graph RAG 的检索质量会系统性下降
@@ -71,11 +94,6 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- dk-c8-format-complete-mind-empty — 同一模式："格式完整但思维空洞"。C-8 是 Constraints 节空洞，F-KDO-008 是 Synthesis 段空洞——两者都是"为满足格式要求而填充无价值内容"
-- master-decision-hygiene — 决策卫生 Step 3（独立评估）：每个 wikilink 都需要独立验证其关联的实质价值，不能让写卡的人自己判定"够了"
+- [[dk-c8-format-complete-mind-empty]] — 同一模式："格式完整但思维空洞"。C-8 是 Constraints 节空洞，F-KDO-008 是 Synthesis 段空洞——两者都是"为满足格式要求而填充无价值内容"
+- [[master-decision-hygiene]] — 决策卫生 Step 3（独立评估）：每个 wikilink 都需要独立验证其关联的实质价值，不能让写卡的人自己判定"够了"
 - `90_control/failure-modes.md` → F-KDO-008（原始记录）
-- `90_control/AGENTS.md` → 禁止清单 #8（不准在 Synthesis 中堆砌无实质关联的 wikilink）
-
-## 老顽童疑问（2026-05-31）
-
-无疑问，请欧阳锋审查。

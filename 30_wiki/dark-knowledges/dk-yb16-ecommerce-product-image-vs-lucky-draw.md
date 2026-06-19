@@ -3,7 +3,7 @@ id: dk-yb16-ecommerce-product-image-vs-lucky-draw
 title: AI电商产品图：抽卡图≠产品图，白底图才是交付标准
 type: dark-knowledge
 dark_knowledge_type: insight
-status: draft
+status: enriched
 domain:
 - design
 source_person: 月白
@@ -11,23 +11,30 @@ source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
 - 00_inbox/design/AI设计-AI设计师实操培训01.txt
 created_at: 2026-06-04
-updated_at: '2026-06-16'
+updated_at: '2026-06-19'
 related:
 - '[[dk-yb26-chinese-food-photography-props]]'
 - '[[dk-yb18-small-shop-image-mismatch]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
+- confidence-reviewed
 author: 月白
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 团队把 AI 抽卡场景图直接当跨境电商主图使用
+- 追求"图好看"但忽略了平台白底图合规要求
+- 国内电商经验直接套用到亚马逊/速卖通导致审核被拒
 ---
 # AI电商产品图：抽卡图≠产品图，白底图才是交付标准
 
-## 原始表述
+## 原始表述/核心洞察
 
 > 这张图也是我抽卡抽出来的。然后第二张白底图才是跨境电商真正的产品。
+
+核心洞察：**AI 抽卡生成的精美场景图是"营销素材"，跨境电商平台真正需要的是"白底产品图"**；两者目标、标准和用途完全不同，混在一起会直接导致上架失败或转化失真。
 
 ## 使用场景
 
@@ -44,6 +51,15 @@ trust_level: low
 - 不适用于纯内容创作无销售转化的场景
 - 不适用于平台允许场景图作为主图的情况（如部分独立站）
 - 国内电商部分类目已允许场景图，但跨境主流平台仍以白底图为强制要求
+
+## 常见失败模式
+
+| 失败模式 | 典型信号 | 根因 | 修复动作 |
+|---|---|---|---|
+| 把抽卡场景图直接当主图上架 | 亚马逊/速卖通后台提示"主图需白底"或审核被拒 | 误将营销素材与平台合规素材混为一谈 | 单独输出一张白底产品图作为主图，场景图只用于详情页或广告投放 |
+| 运营只追求"抽卡好看"，忽略交付标准 | 团队反复调 prompt 做氛围，最终无图可上架 | AI绘画社区话语取代了电商运营目标 | 先确认平台主图规范，再决定"要什么图"和"图的标准是什么" |
+| 用同一张图既做引流又做详情 | 点击率不错但转化率低、退货率高 | 氛围图提高了期待，白底图/实物未能对齐 | 建立"营销素材库"和"上架合规素材库"两套文件，分别管理 |
+| 国内电商经验直接套用到跨境 | 淘宝/拼多多允许场景主图，照搬后跨境 listing 被下架 | 不同平台规则不同，把局部经验当全局规则 | 上架前按目标平台（亚马逊、速卖通、Temu 等）主图规范清单核对 |
 
 ## 为什么值钱
 

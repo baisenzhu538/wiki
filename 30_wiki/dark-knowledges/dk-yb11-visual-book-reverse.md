@@ -3,15 +3,16 @@ id: dk-yb11-visual-book-reverse
 title: 不训练模型锁定风格的逆向视觉书法
 type: dark-knowledge
 dark_knowledge_type: workflow
-status: draft
+status: enriched
 domain:
 - design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
 - 00_inbox/design/AI设计-AI设计师实操培训01.txt
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-04
-updated_at: '2026-06-16'
+updated_at: '2026-06-19'
 related:
 - '[[dk-yb13-zero-shot-style-transfer]]'
 - '[[dk-yb12-ai-image-analysis-replace-training]]'
@@ -19,15 +20,21 @@ pipeline:
 - confidence-draft
 - confidence-source-cited
 author: 月白
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- source_cited_with_transcript
+- operational_steps_structured
+- failure_mode_table_included
 ---
 # 不训练模型锁定风格的逆向视觉书法
 
-## 原始表述
+## 原始表述/核心洞察
 
 > 必须要解决的问题是不训练模型也能锁定风格。我的核心解法是先逆向，然后再进行风格描述三要素。什么叫做先逆向？就是你先让大家分析一堆你喜欢的参考图，根据这一堆的参考图自动生成一份视觉书。
+
+**核心洞察**：风格锁定不一定要走模型训练路线。通过组织化地逆向分析参考图，把隐性的视觉偏好转译成结构化的「视觉书」，再从中提取可复用的风格描述三要素，就能用工程化流程替代微调/LoRA，实现零训练的风格稳定复现。
 
 ## 使用场景
 
@@ -46,6 +53,15 @@ trust_level: low
 - 不适用需要像素级一致性的角色/IP场景（仍需LoRA/模型训练）
 - 参考图风格混杂导致视觉书矛盾
 - 团队缺乏基础视觉分析能力时逆向阶段会失真
+
+## 常见失败模式
+
+| 失败模式 | 典型表现 | 规避方法 |
+| --- | --- | --- |
+| 参考图风格不统一 | 视觉书自相矛盾，生成结果风格漂移 | 严格筛选同一风格、同一阶段、同一媒介的参考图，剔除离群样本 |
+| 分析维度遗漏 | 只描述色彩忽略构图/质感，生成图缺乏整体一致性 | 使用标准化检查清单：色彩、构图、质感、光影、笔触、情绪 |
+| 关键词过度抽象 | 风格词过于笼统，模型无法稳定复现 | 每个关键词都绑定具体参考图截图与反例说明 |
+| 跳过逆向直接写prompt | 未分析参考图共性，生成图与目标风格偏差大 | 坚持「先逆向→再视觉书→再三要素」的完整流程 |
 
 ## 为什么值钱
 

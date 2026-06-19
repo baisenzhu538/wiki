@@ -3,30 +3,35 @@ id: dk-f9-generic-critique
 title: F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
 source_context: failure-modes.md F-KDO-009
 source_refs:
 - 90_control/failure-modes.md#F-KDO-009
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
-updated_at: '2026-06-16'
+updated_at: '2026-06-19'
 related:
 - '[[master-cognitive-bias-checklist]]'
 - '[[master-first-principles]]'
+- '[[dk-c8-format-complete-mind-empty]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
 - confidence-verified-by-case
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 单条 Critique 不指名任何具体假设、边界或反例
+- 多张卡片的 Critique 段文本相似度 >50%
 ---
 # F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上
 
-## 原始表述
+## 原始表述/核心洞察
 
 > **触发场景**：Builder 执行三步编译法的 Critique 阶段
 >
@@ -63,6 +68,15 @@ trust_level: low
 - **至少一条 Critique 必须指名具体假设或边界**——这是底线，不能妥协
 - 不同范式的外部攻击者（如 Mintzberg vs Taleb）对同一卡片的攻击角度不同——选择攻击者时要考虑与卡片主题的匹配度
 
+## 常见失败模式
+
+| 失败模式 | 典型表现 | 预警信号 | 修正方向 |
+|---|---|---|---|
+| 模板化质疑 | Critique 段出现"默会知识未完全转化""从知道到做到有鸿沟"等可粘贴到任意卡片的句子 | 单条 Critique 不指名任何具体假设、边界、反例 | 删除万能句，替换为针对当前卡片具体主张的攻击 |
+| 只描述不攻击 | 重复卡片标题或优点，如"该方法强调用户洞察，但可能忽略其他因素" | 读完 Critique 后不知道具体反对什么 | 每条 Critique 必须指名一个具体假设或边界条件 |
+| 跨卡雷同 | 多张不同主题卡片的 Critique 段相似度 >50% | 用 diff 工具查看，差异仅在于主语名词 | 强制跨卡对比，要求至少一条反例或数字 |
+| 模糊情感词 | 使用"有点理想化""不够落地"等模糊评价 | 没有具体数字、案例或条件 | 将情感词转化为可验证的条件或反例 |
+
 ## 为什么值钱
 
 - **Critique 是 KDO 卡片的核心差异化价值**：如果 Critique 只是万能废话，KDO 卡片和百度百科就没有区别
@@ -72,8 +86,9 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- dk-c8-format-complete-mind-empty — 同一模式："格式完整但思维空洞"。C-8 是批处理导致的内容空洞，F-KDO-009 是人工编译时的思维懒惰——两者都是"有段落标题但没有实质内容"
-- master-cognitive-bias-checklist — 认知偏差中的"确认偏误"：人倾向于寻找支持自己观点的证据，而回避反面证据。无质疑接受是确认偏误在知识生产中的具体表现
+- [[dk-c8-format-complete-mind-empty]] — 同一模式："格式完整但思维空洞"。C-8 是批处理导致的内容空洞，F-KDO-009 是人工编译时的思维懒惰——两者都是"有段落标题但没有实质内容"
+- [[master-cognitive-bias-checklist]] — 认知偏差中的"确认偏误"：人倾向于寻找支持自己观点的证据，而回避反面证据。无质疑接受是确认偏误在知识生产中的具体表现
+- [[master-first-principles]] — 第一性原理要求回到基本假设进行质疑；无质疑接受则是用通用模板绕开对具体假设的回溯
 - `90_control/failure-modes.md` → F-KDO-009（原始记录）
 - `90_control/AGENTS.md` → 禁止清单 #9（不准用通用质疑模板替代针对性质疑）
 
