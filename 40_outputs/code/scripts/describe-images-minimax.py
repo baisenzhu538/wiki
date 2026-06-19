@@ -15,7 +15,7 @@ import requests
 from PIL import Image
 
 API_BASE = "https://api.minimax.chat/v1"
-MODEL = "MiniMax-VL-01"  # 视觉理解模型
+MODEL = "MiniMax-M3"  # M3 原生支持图文理解
 
 SYSTEM_PROMPT = """你是一位专业的视觉内容分析师。请仔细观察图片，并输出一段结构化描述。
 
@@ -110,7 +110,7 @@ def describe_image(api_key: str, image_path: Path) -> dict:
     }
 
     resp = requests.post(
-        f"{API_BASE}/text/chatcompletion_v2",
+        f"{API_BASE}/chat/completions",
         headers=headers,
         json=payload,
         timeout=120,
@@ -118,6 +118,11 @@ def describe_image(api_key: str, image_path: Path) -> dict:
     resp.raise_for_status()
     data = resp.json()
     content = data["choices"][0]["message"]["content"]
+
+    # MiniMax-M3 returns thinking content wrapped in <think>...</think>
+    import re
+    content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL).strip()
+
     # Try parse JSON; if wrapped in markdown, strip it
     content = content.strip()
     if content.startswith("```json"):
