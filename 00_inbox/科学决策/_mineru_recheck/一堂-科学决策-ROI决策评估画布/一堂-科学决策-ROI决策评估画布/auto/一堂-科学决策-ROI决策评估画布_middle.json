@@ -1,0 +1,370 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        23,
+                        94,
+                        1044,
+                        704
+                    ],
+                    "blocks": [
+                        {
+                            "type": "table_caption",
+                            "bbox": [
+                                336,
+                                26,
+                                723,
+                                84
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        345,
+                                        33,
+                                        716,
+                                        78
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                345,
+                                                33,
+                                                716,
+                                                78
+                                            ],
+                                            "score": 0.996,
+                                            "content": "ROI决策评估画布",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "index": 0
+                                }
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "type": "table_body",
+                            "bbox": [
+                                23,
+                                94,
+                                1044,
+                                704
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        23,
+                                        94,
+                                        1044,
+                                        704
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                23,
+                                                94,
+                                                1044,
+                                                704
+                                            ],
+                                            "score": 0.91,
+                                            "type": "table",
+                                            "image_path": "e4b20645a53febccaeac01214b61a87204c24520ba205b3bcfde7f8ffdd9821d.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        23,
+                                        94,
+                                        1044,
+                                        297.33333333333337
+                                    ],
+                                    "spans": [],
+                                    "index": 1
+                                },
+                                {
+                                    "bbox": [
+                                        23,
+                                        297.33333333333337,
+                                        1044,
+                                        500.66666666666674
+                                    ],
+                                    "spans": [],
+                                    "index": 2
+                                },
+                                {
+                                    "bbox": [
+                                        23,
+                                        500.66666666666674,
+                                        1044,
+                                        704.0000000000001
+                                    ],
+                                    "spans": [],
+                                    "index": 3
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1.0
+                }
+            ],
+            "layout_bboxes": [],
+            "page_idx": 0,
+            "page_size": [
+                1060.5,
+                715.5
+            ],
+            "_layout_tree": [],
+            "images": [],
+            "tables": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        23,
+                        94,
+                        1044,
+                        704
+                    ],
+                    "blocks": [
+                        {
+                            "type": "table_caption",
+                            "bbox": [
+                                336,
+                                26,
+                                723,
+                                84
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        345,
+                                        33,
+                                        716,
+                                        78
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                345,
+                                                33,
+                                                716,
+                                                78
+                                            ],
+                                            "score": 0.996,
+                                            "content": "ROI决策评估画布",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "index": 0
+                                }
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "type": "table_body",
+                            "bbox": [
+                                23,
+                                94,
+                                1044,
+                                704
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        23,
+                                        94,
+                                        1044,
+                                        704
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                23,
+                                                94,
+                                                1044,
+                                                704
+                                            ],
+                                            "score": 0.91,
+                                            "type": "table",
+                                            "image_path": "e4b20645a53febccaeac01214b61a87204c24520ba205b3bcfde7f8ffdd9821d.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        23,
+                                        94,
+                                        1044,
+                                        297.33333333333337
+                                    ],
+                                    "spans": [],
+                                    "index": 1
+                                },
+                                {
+                                    "bbox": [
+                                        23,
+                                        297.33333333333337,
+                                        1044,
+                                        500.66666666666674
+                                    ],
+                                    "spans": [],
+                                    "index": 2
+                                },
+                                {
+                                    "bbox": [
+                                        23,
+                                        500.66666666666674,
+                                        1044,
+                                        704.0000000000001
+                                    ],
+                                    "spans": [],
+                                    "index": 3
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1.0
+                }
+            ],
+            "interline_equations": [],
+            "discarded_blocks": [],
+            "need_drop": false,
+            "drop_reason": [],
+            "para_blocks": [
+                {
+                    "type": "table",
+                    "bbox": [
+                        23,
+                        94,
+                        1044,
+                        704
+                    ],
+                    "blocks": [
+                        {
+                            "type": "table_caption",
+                            "bbox": [
+                                336,
+                                26,
+                                723,
+                                84
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        345,
+                                        33,
+                                        716,
+                                        78
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                345,
+                                                33,
+                                                716,
+                                                78
+                                            ],
+                                            "score": 0.996,
+                                            "content": "ROI决策评估画布",
+                                            "type": "text"
+                                        }
+                                    ],
+                                    "index": 0
+                                }
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "type": "table_body",
+                            "bbox": [
+                                23,
+                                94,
+                                1044,
+                                704
+                            ],
+                            "group_id": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        23,
+                                        94,
+                                        1044,
+                                        704
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                23,
+                                                94,
+                                                1044,
+                                                704
+                                            ],
+                                            "score": 0.91,
+                                            "type": "table",
+                                            "image_path": "e4b20645a53febccaeac01214b61a87204c24520ba205b3bcfde7f8ffdd9821d.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2,
+                            "virtual_lines": [
+                                {
+                                    "bbox": [
+                                        23,
+                                        94,
+                                        1044,
+                                        297.33333333333337
+                                    ],
+                                    "spans": [],
+                                    "index": 1
+                                },
+                                {
+                                    "bbox": [
+                                        23,
+                                        297.33333333333337,
+                                        1044,
+                                        500.66666666666674
+                                    ],
+                                    "spans": [],
+                                    "index": 2
+                                },
+                                {
+                                    "bbox": [
+                                        23,
+                                        500.66666666666674,
+                                        1044,
+                                        704.0000000000001
+                                    ],
+                                    "spans": [],
+                                    "index": 3
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1.0,
+                    "page_num": "page_0",
+                    "page_size": [
+                        1060.5,
+                        715.5
+                    ]
+                }
+            ]
+        }
+    ],
+    "_parse_type": "ocr",
+    "_version_name": "1.3.12"
+}
