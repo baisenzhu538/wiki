@@ -87,8 +87,8 @@ diagnostic_signals:
 
 - 适用于所有使用 Claude Code CLI 或 Claudian 插件的本地/桌面场景
 - 不适用纯 Web 端使用（无本地进程）
-- **与 [[dk-p13-token-burn|P-13]] 的区别**：P-13 是"主动使用中的高消耗"，P-14 是"后台僵尸的静默消耗"
-- **与 [[dk-p6-session-resume-fail|P-6]] 的关联**：P-6 是 session 文件缓存死身份，P-14 是本地进程本身未被清理，两者都属于"旧运行时状态残留"
+- **与 [[dk-p13-token-burn]] 的区别**：P-13 是"主动使用中的高消耗"，P-14 是"后台僵尸的静默消耗"
+- **与 [[dk-p6-session-resume-fail]] 的关联**：P-6 是 session 文件缓存死身份，P-14 是本地进程本身未被清理，两者都属于"旧运行时状态残留"
 - 如果使用 Docker/container，僵尸进程问题会更隐蔽——宿主机 `ps` 可能看不到容器内进程
 
 ## 常见失败模式
