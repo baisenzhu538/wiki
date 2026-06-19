@@ -31,10 +31,10 @@ author: 半肥猫
 confidence: 0.88
 trust_level: medium
 diagnostic_signals:
-- signal: Skill 在边界场景仍然输出"做吧做吧"式鼓励
+- signal: 'Skill 在边界场景仍然输出"做吧做吧"式鼓励'
   lens: 拒绝能力与风险边界
   follow_up: 检查评分规则与风险边界是否写入 Skill 主体并被自动执行
-- signal: 不同用户对同一 Skill 输出给出差异极大的"好坏"判断
+- signal: '不同用户对同一 Skill 输出给出差异极大的"好坏"判断'
   lens: 量化评分维度
   follow_up: 核对是否每个维度都有 0-3 四级标准和可复现的评分示例
 - signal: 高风险场景下 Skill 没有触发额外审查或降级输出
