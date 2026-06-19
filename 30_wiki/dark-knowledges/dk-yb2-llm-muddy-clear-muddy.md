@@ -3,23 +3,31 @@ id: dk-yb2-llm-muddy-clear-muddy
 title: 大模型训练本质：浑水→清水→浑水的双向转换
 type: dark-knowledge
 dark_knowledge_type: insight
-status: draft
+status: enriched
 domain:
 - design
 source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
-- 00_inbox/design/AI设计-AI设计基础01.txt
+- 10_raw/sources/src_20260604_design-ai-basics-01.md
 created_at: 2026-06-04
-updated_at: '2026-06-16'
-related: null
+updated_at: '2026-06-19'
+related:
+- '[[dk-yb3-diffusion-stepwise-vs-human-holistic]]'
+- '[[master-knowledge-compound]]'
 pipeline:
-- confidence-draft
 - confidence-source-cited
 author: 月白
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.85
+trust_level: medium
+diagnostic_signals:
+- signal: 向非技术人员解释AI原理时，对方听完标准"概率预测"解释后更困惑了
+  framework_lens: 隐喻缺失——技术术语没有转化为可感知的类比
+  follow_up_question: 你的解释是否让听众能用自己的话复述一遍？如果不能，换一个更贴近日常经验的隐喻。
+- signal: 团队成员写提示词时，把prompt当成"精准指令"而非"定向扰动"，导致对不可控结果感到挫败
+  framework_lens: 推理阶段误解——提示词是"污染清水"而非"精确控制"
+  follow_up_question: 最近一次prompt未达预期时，是调整了prompt本身还是调整了对结果的预期？前者是工程优化，后者才是架构理解。
 ---
 # 大模型训练本质：浑水→清水→浑水的双向转换
 
@@ -39,9 +47,26 @@ trust_level: low
 
 ## 适用边界
 
-- 不适用于解释扩散模型等生成机制完全不同的架构
-- 不能替代技术层面的损失函数、注意力机制等原理讲解
-- 容易被误解为模型"存储"了原始数据
+| 边界 | 说明 |
+|:-----|:-----|
+| **不适用于解释扩散模型等架构** | 生成机制完全不同的模型需要不同的隐喻。 |
+| **不能替代技术原理讲解** | 损失函数、注意力机制等仍需技术层面理解。 |
+| **容易被误解为"模型存储了原始数据"** | 需强调这是"规律内化"而非"数据存储"。 |
+| **适用于沟通和教育场景** | 作为直觉入口，不是精确模型。 |
+
+## 常见失败模式
+
+| 失败模式 | 典型症状 | 修复方法 |
+|---|---|---|
+| 隐喻过度延伸 | 用浑水清水解释一切，包括注意力机制、梯度下降等完全不适用此隐喻的概念 | 明确告知"这个隐喻只解释训练和推理的宏观过程" |
+| 听众误以为模型"记得"训练数据 | "所以它是把看过的图拼起来？" | 补充说明：模型学的是规律分布，不是像素拼接 |
+| 提示词当成精确指令 | 反复微调prompt期望精确输出，不理解"定向扰动"的随机性 | 将prompt心态从"编程"切换为"引导探索" |
+
+## 行动 Checklist
+
+- [ ] 下次向非技术人员解释AI原理时，尝试用"浑水→清水→浑水"替代"概率预测"
+- [ ] 听完解释后，问对方："你能用你自己的话讲一遍吗？"
+- [ ] 检查团队对prompt的期望：是把它当"精确指令"还是"定向扰动"？
 
 ## 为什么值钱
 
