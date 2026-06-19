@@ -1,29 +1,54 @@
 # User Preferences
 
+> 上次审查：2026-06-19（段王爷/健康巡检）
+> 审查结论：从 KDO 单工具时代 → 五绝架构时代，大幅更新。
+
 ## Profile
 
-- **Name**: Linhai Zhu
-- **Primary Use Case**: 多项目 / 多客户咨询（B2B SaaS、医疗信息化、AI 产品）
-- **Content Crossover**: 中度交叉（跨领域迁移思考常见，如将 YC 方法论应用于医疗产品）
-- **Tool Stack**: Obsidian + Git + KDO Protocol + Claude
+- **Name**: 朱振滔（老板老朱/欧阳锋）
+- **飞书名**: 阿海（OAuth）
+- **飞书域**: ncngpxaokb38.feishu.cn（独立企业空间）
+- **GitHub**: baisenzhu538
+- **Wiki 工作区**: C:\Users\Administrator\Desktop\wiki\
+- **主要角色**: 多项目 B2B 咨询（医疗信息化、AI 产品、SaaS）+ 知识库建设总指挥
+
+## 五绝架构（2026-05-03 确立）
+
+| 角色 | 代号 | 职责 | 运行方式 |
+|------|------|------|----------|
+| 西毒 | 欧阳锋（老朱本人） | 定方向/规则/优先级/最终拍板 | 老板本人 |
+| 东邪 | 黄药师 | 内容生产线 ingest→enrich→produce | 独立 Claude |
+| 北丐 | 洪七公 | 多模态渲染（视频/音频/图片） | Hermes bot |
+| 南帝 | 段智兴（本王） | 发布+反馈闭环 | Hermes bot |
+| 中神通 | 周伯通 | 总协调+审查，不做执行 | Hermes bot |
+
+## Communication Preferences
+
+- **"你来做，我看结果"模式**：不喜欢 AI 频繁提问，希望主动推进
+- **简单直接**：偏好飞书内操作，少跳转，低门槛
+- **不关心技术细节**：只关心最终能不能用
+- **中文沟通**：英文能力有限
+- **"我说的不对的，你要提出来"**：鼓励 AI 主动纠正老板的判断
 
 ## Workflow Preferences
 
-- **Vault Strategy**: 偏好低摩擦操作，厌恶频繁切换 Vault 的重新加载等待
-- **Organization**: 接受单库内文件夹隔离 + 工作区切换，作为拆库前的过渡方案
-- **Content Quality**: 重视知识卡片的可复用性，认同"先 enrich 后 produce"原则
-- **Output Channel**: 文章/报告为主，面向客户交付
+- **先调研再动手**：做任何事情之前先调研，看看方向对不对，工具选得对不对
+- **接受小错率，批量换速度**：先定策略再动手，中间不停
+- **不啰嗦确认，直接执行**
+- **产出物放桌面**：不只是给路径，要有实际文件
+- **飞书发布**：用户域用 tenant token，外部域用 OAuth
 
 ## Domain Focus (by Priority)
 
-1. 医疗信息化（互联网医院、HIS、诊所 O2O）
-2. AI 产品 / Agent 工作流 / 组织方法论
-3. SaaS 商业模式与定价策略
-4. KDO / Obsidian 工作流基础设施（工具层）
+1. 医疗信息化（智能药柜、HIS、互联网医院、诊所 O2O）
+2. AI 落地 / Agent 工作流 / 多 Agent 协作
+3. B2B SaaS 商业模式与定价
+4. 电商/AIGC 设计（月白域）
+5. KDO 知识库基础设施
 
 ## Known Pain Points
 
-- 担心 AI 跨会话失忆（已通过 20_memory/ 解决）
-- 担心多库维护成本高（Protocol、Schema、Lint 脚本重复）
-- 对 Obsidian 性能敏感（不希望图谱过大导致卡顿）
+- 担心 AI 跨会话失忆 → 已通过 MEMORY(hermes) + wiki/20_memory/ + wiki/laowantong/ 三层记忆解决
+- 不喜欢飞书操作跳转到开放平台后台 → 偏好飞书内直接授权
 - 晚上工作，会话可能在深夜结束
+- 对微信历史消息检索需求强烈 → 已建立微信双号提取体系
