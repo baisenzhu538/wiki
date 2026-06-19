@@ -105,7 +105,7 @@ def describe_image(api_key: str, image_path: Path) -> dict:
                 ],
             },
         ],
-        "max_tokens": 800,
+        "max_tokens": 2000,
         "temperature": 0.3,
     }
 
@@ -119,28 +119,50 @@ def describe_image(api_key: str, image_path: Path) -> dict:
     data = resp.json()
     content = data["choices"][0]["message"]["content"]
 
-    # MiniMax-M3 returns thinking content wrapped in <think>...</think>
+    # MiniMax-M3 often returns thinking content wrapped in <think>...</think>
     import re
-    content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL).strip()
+    think_match = re.search(r"<think>(.*?)</think>", content, flags=re.DOTALL)
+    non_think = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL).strip()
 
-    # Try parse JSON; if wrapped in markdown code fence, extract it
-    try:
-        return json.loads(content)
-    except json.JSONDecodeError:
-        # Extract content from ```json ... ``` or ``` ... ``` fence
-        fence_match = re.search(r"```(?:json)?\s*(.*?)\s*```", content, re.DOTALL)
+    candidates = []
+    if non_think:
+        candidates.append(non_think)
+    if think_match:
+        # If non-thinking part is empty, the actual answer may be inside think tags
+        candidates.append(think_match.group(1).strip())
+    candidates.append(content.strip())
+
+    for raw in candidates:
+        # Try parse JSON; if wrapped in markdown code fence, extract it
+        text = raw
+        fence_match = re.search(r"```(?:json)?\s*(.*?)\s*```", text, re.DOTALL)
         if fence_match:
-            inner = fence_match.group(1).strip()
-            try:
-                return json.loads(inner)
-            except json.JSONDecodeError:
-                pass
+            text = fence_match.group(1).strip()
 
-        # Fallback: extract first balanced JSON object
-        match = re.search(r"\{[\s\S]*?\}", content)
-        if match:
-            return json.loads(match.group(0))
-        raise
+        try:
+            return json.loads(text)
+        except json.JSONDecodeError:
+            # Fallback: extract first balanced JSON object
+            match = re.search(r"\{[\s\S]*?\}", text)
+            if match:
+                try:
+                    return json.loads(match.group(0))
+                except json.JSONDecodeError:
+                    pass
+
+    # If all JSON parsing fails, return a structured fallback with raw text
+    fallback_text = non_think if non_think else (think_match.group(1).strip() if think_match else content)
+    return {
+        "category": "未识别",
+        "title": "",
+        "description": fallback_text[:2000],
+        "key_elements": [],
+        "visual_style": "",
+        "tags": [],
+        "usable_for": "",
+        "confidence": 0.3,
+        "_parse_error": True,
+    }
 
 
 def save_description(output_path: Path, image_path: Path, result: dict):
