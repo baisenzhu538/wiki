@@ -3,7 +3,7 @@ id: dk-p3-auth-cache
 title: P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
@@ -11,21 +11,28 @@ source_context: pitfalls.md P-3
 source_refs:
 - .agent/pitfalls.md#P-3
 created_at: 2026-06-03
-updated_at: '2026-06-16'
+updated_at: '2026-06-19'
 related:
 - '[[master-systems-thinking]]'
 - '[[master-first-principles]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
-author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+- confidence-reviewed
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 更新 API Key 后 Hermes 仍然报 HTTP 401
+- auth.json 的 credential_pool 仍缓存旧 access_token
+- ~/.hermes/.env 与 profiles/*/.env 中的 Key 不一致
+- config.yaml provider 名与 auth.json 的 credential_pool 键名不一致
+- credential_pool 条目的 last_status 为 exhausted 或 last_error_code 为 401
 ---
 # P-3：Hermes 换 API Key 后仍然 401 — auth.json 缓存覆盖 .env
 
-## 原始表述
+## 原始表述/核心洞察
 
 > **症状**：更新 `~/.hermes/profiles/*/.env` 中的 `KIMI_API_KEY` 后重启服务，仍然 HTTP 401，日志显示用的还是旧 Key。用户和欧阳锋多轮尝试换新 Key 无效——"系统顽固用旧的覆盖新的"。
 >
@@ -75,6 +82,16 @@ trust_level: low
 - 如果 auth.json 不存在（首次安装），P-3 不触发——此时 .env 修改直接生效
 - Provider 名问题看似低级，但在频繁切换 provider 时极易踩坑
 
+## 常见失败模式
+
+| 失败模式 | 典型信号 | 根因 | 修复动作 |
+|---|---|---|---|
+| 改错 .env 文件 | `profiles/<name>/.env` 已更新，但全局 `~/.hermes/.env` 仍是旧 Key | Hermes 只读取全局 .env，profile 下的 .env 不被加载 | 修改 `~/.hermes/.env`，并确认服务重启后读取的是该文件 |
+| auth.json 缓存旧 token | auth.json 中 `credential_pool.kimi-coding[].access_token` 仍是旧值 | Hermes 优先使用缓存的 access_token，而不是重新从 .env 读取 | 删除对应 provider 下的旧 access_token 缓存条目 |
+| 状态标记导致跳过 | `last_status: exhausted` 或 `last_error_code: 401` 仍存在 | Hermes 认为该 Key 已死，直接跳过不再尝试 | 清除 `last_status` 和 `last_error_code` 字段 |
+| provider 名不一致 | config.yaml 用 `kimi-coding`，auth.json 键名为 `kimi-for-coding` | credential_pool 键名与 config 不匹配，导致缓存/配置无法对应 | 统一 provider 名，并同步 auth.json 的 credential_pool 键名 |
+| 只改一处就验证 | 全局 .env 改了但 auth.json 没清，或反之 | 三处状态（.env / auth.json / provider 名）未同步 | 建立 Key 轮换 checklist：三处全部修改并清除状态标记后再重启验证 |
+
 ## 为什么值钱
 
 - 这是**缓存层 vs 配置层**的三层嵌套陷阱：.env → auth.json → provider 名，任何一层不一致都导致 401
@@ -84,11 +101,9 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- dk-p1-model-switch-env — P-1 和 P-3 是同一模式在不同工具上的复现：都是"配置改了但不生效，因为有更高优先级的缓存层"。Claude Code 用全局设置覆盖 .env，Hermes 用 auth.json 覆盖 .env
-- dk-p5-cc-connect-config — P-5 的 systemd drop-in 是 cc-connect 的"全局设置"，与 P-3 的 auth.json 缓存是同一模式的不同表现
+- [[dk-p1-model-switch-env]] — P-1 和 P-3 是同一模式在不同工具上的复现：都是"配置改了但不生效，因为有更高优先级的缓存层"。Claude Code 用全局设置覆盖 .env，Hermes 用 auth.json 覆盖 .env
+- [[dk-p5-cc-connect-config]] — P-5 的 systemd drop-in 是 cc-connect 的"全局设置"，与 P-3 的 auth.json 缓存是同一模式的不同表现
 - `90_control/failure-modes.md` → F-KDO-003（state.json 覆盖写竞态）— 同样是"状态文件与配置不一致导致的问题"
 - `.agent/pitfalls.md` → P-3（原始记录）
 
-## 老顽童疑问（2026-06-03）
 
-无疑问，请欧阳锋审查。

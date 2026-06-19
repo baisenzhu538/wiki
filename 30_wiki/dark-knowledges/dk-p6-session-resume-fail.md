@@ -1,32 +1,38 @@
 ---
 id: dk-p6-session-resume-fail
-title: P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session
-  ID
+title: P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session ID
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
 source_context: pitfalls.md P-6
 source_refs:
 - .agent/pitfalls.md#P-6
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
-updated_at: '2026-06-16'
+updated_at: '2026-06-19'
 related:
 - '[[master-systems-thinking]]'
 - '[[master-first-principles]]'
+- '[[dk-p5-cc-connect-config]]'
+- '[[dk-p2-tmux-cache]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 日志出现 is_resume=true 后紧跟 No conversation found with session ID
+- 配置已修正（work_dir/API Key）但 bot 仍返回空响应
+- 服务重启后首次发消息即复现
 ---
 # P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session ID
 
-## 原始表述
+## 原始表述/核心洞察
 
 > **症状**：cc-connect 的 `work_dir` 和 `env.conf` 都已修正（→ wiki vault + DeepSeek），飞书发消息后 bot 返回空。日志显示 `is_resume=true`，紧接着 `exit status 1: No conversation found with session ID: cb687591...`。
 >
@@ -79,6 +85,15 @@ trust_level: low
 - **与 P-5 的关系**：P-5 是事故链的第一环（配置错），P-6 是第三环（session 缓存）。中间的第二环是 API Key 修复
 - 如果应用在启动时自动检测并清理无效 session，P-6 不触发——但这需要额外的工程实现
 
+## 常见失败模式
+
+| 失败模式 | 典型症状 | 根因 | 解法/预防措施 |
+|---|---|---|---|
+| 旧 session ID 指向已销毁的 Claude Code 进程 | `is_resume=true` 后 `No conversation found with session ID` | 服务重启杀掉了旧进程，但 session 文件仍保留旧 `agent_session_id` | 重启 cc-connect 前删除 `~/.cc-connect/sessions/<project>_<hash>.json` |
+| work_dir 修改后 resume 旧项目 session | 配置已修正，bot 仍返回空响应 | 旧 session 是在错误 work_dir 下创建的，新 work_dir 下无此 session | 改 work_dir 时同步清空 sessions 目录 |
+| 首次发消息触发静默失败 | 重启后长时间无日志，随后空响应 | WebSocket 处于僵尸状态，直到有新消息才尝试 resume 死 session | 重启后立即发测试消息验证；把 session 清理写进启动脚本 |
+| 依赖自动恢复但未校验 session 有效性 | 每次重启都复现空响应 | cc-connect 启动时不检查 `agent_session_id` 是否有效 | 在启动脚本中加入 session 有效性探测，无效则自动清理 |
+
 ## 为什么值钱
 
 - 这是**运行时缓存 vs 新配置**的实战教训：修复配置不等于修复状态。旧状态可能以多种形式隐藏（session 文件、缓存、旧进程的内存等）
@@ -88,11 +103,7 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- dk-p5-cc-connect-config — P-6 是 P-5 的事故链延伸：工作目录错 → env.conf 错 → API Key 修复 → work_dir 修正 → session 缓存 → 空响应。完整的五环事故链
-- dk-p2-tmux-cache — 同一模式在不同工具上的复现：tmux session 缓存环境 vs cc-connect session 缓存 Claude Code 身份
-- dk-p1-model-switch-env — 事故链的起点：切换模型配置
+- [[dk-p5-cc-connect-config]] — P-6 是 P-5 的事故链延伸：工作目录错 → env.conf 错 → API Key 修复 → work_dir 修正 → session 缓存 → 空响应。完整的五环事故链
+- [[dk-p2-tmux-cache]] — 同一模式在不同工具上的复现：tmux session 缓存环境 vs cc-connect session 缓存 Claude Code 身份
+- [[dk-p1-model-switch-env]] — 事故链的起点：切换模型配置
 - `.agent/pitfalls.md` → P-6（原始记录）
-
-## 老顽童疑问（2026-06-03）
-
-无疑问，请欧阳锋审查。

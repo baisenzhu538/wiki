@@ -3,29 +3,36 @@ id: dk-p1-model-switch-env
 title: P-1：切模型改环境变量无效——Claude Code 走全局设置
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
 source_context: pitfalls.md P-1
 source_refs:
 - .agent/pitfalls.md#P-1
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
-updated_at: '2026-06-16'
+updated_at: '2026-06-19'
 related:
 - '[[master-systems-thinking]]'
 - '[[master-first-principles]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
+- confidence-reviewed
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 在 WSL `.bashrc`/`.profile` 中 export ANTHROPIC_* 后，`claude.exe` 仍连接旧模型/DeepSeek
+- 改 Windows 注册表或 `wsl --shutdown` 后模型切换仍然无效
+- CLI 链路正常，但飞书 Agent 出现 401 或使用的模型不一致
+- 改完配置后未重开 tmux 或未 reload cc-connect 服务
 ---
 # P-1：切模型改环境变量无效——Claude Code 走全局设置
 
-## 原始表述
+## 原始表述/核心洞察
 
 > **症状**：在 WSL `.bashrc` / `.profile` 里 `export ANTHROPIC_*` 设为 Kimi，但 `claude.exe` 始终读不到，一直连 DeepSeek。改 Windows 注册表 + `wsl --shutdown` 也无效。
 >
@@ -34,6 +41,8 @@ trust_level: low
 > **对策**：直接改 Claude Code 的全局设置文件，一处修改即生效，无需注销重登。
 >
 > **补充**：P-1 的初始诊断不完全准确。真正的覆盖源对飞书黄药师而言是 cc-connect 的 systemd `env.conf` drop-in（见 P-5），对 CLI 黄药师则可能是全局设置或注册表。两者互不影响——这就是为什么 CLI 黄药师正常工作而飞书黄药师 401。
+
+核心洞察：**Claude Code 的模型/API 配置存在“全局设置 > 环境变量”的优先级，且 CLI 与 cc-connect 两条链路各自独立；改配置时必须对准对应链路的最高优先级文件并分别验证。** 只在 `.bashrc` 或注册表里改环境变量，往往是在优先级更低的层上做无用功。
 
 ## 使用场景
 
@@ -75,6 +84,14 @@ trust_level: low
 - 如果全局设置文件不存在，环境变量确实会生效——此时 P-1 不触发
 - Windows 侧和 WSL 侧的配置完全隔离，改 WSL 不影响 Windows `claude.exe`
 
+## 常见失败模式
+
+| 失败模式 | 典型信号 | 根因 | 修复动作 |
+|---|---|---|---|
+| 在环境变量层改模型，期待覆盖全局设置 | WSL `.bashrc` 已 export ANTHROPIC_*，但 `claude.exe` 仍连 DeepSeek；改注册表/`wsl --shutdown` 无效 | Claude Code 全局设置（`~/.claude/settings.json`）优先级高于环境变量 | 直接改对应链路的全局设置文件；CLI 链路检查 `~/.claude/settings.json`，飞书链路检查 systemd `env.conf` |
+| 误以为改一条链路等于改全链路 | CLI 正常但飞书 Agent 401，或反之 | CLI 与 cc-connect 是两条独立配置链路，互不影响 | 分别修改并分别验证：CLI 重开 tmux session，飞书 reload+restart cc-connect |
+| 改完配置不验证实际生效状态 | 日志仍显示旧模型或旧 endpoint | 未重启 session/服务，或缓存未刷新 | CLI：kill 并重建 tmux session；飞书：`systemctl --user show cc-connect | grep Environment` 并查看日志 |
+
 ## 为什么值钱
 
 - 这是**配置层优先级**的实战教训：大多数开发者假设"环境变量是最高优先级"，但 Claude Code 的全局设置优先级更高。这个假设在 90% 的工具中成立，在 Claude Code 中不成立
@@ -83,9 +100,9 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- dk-f4-wrong-workdir — 配置类失败模式的双杀。P-1 是"改配置不生效"，F-KDO-004 是"在错误目录执行命令"——两者都是"配置/环境假设与实际行为不一致"
-- dk-p3-auth-cache — P-1 和 P-3 是同一事故链的前两环：模型配置不对 → 401 → 换 Key → Key 被缓存覆盖。理解 P-1 才能正确诊断 P-3
-- dk-p5-cc-connect-config — P-5 是 P-1 在飞书链路的精确复现：cc-connect 的 systemd drop-in 就是飞书链路的"全局设置"
+- [[dk-f4-wrong-workdir]] — 配置类失败模式的双杀。P-1 是"改配置不生效"，F-KDO-004 是"在错误目录执行命令"——两者都是"配置/环境假设与实际行为不一致"
+- [[dk-p3-auth-cache]] — P-1 和 P-3 是同一事故链的前两环：模型配置不对 → 401 → 换 Key → Key 被缓存覆盖。理解 P-1 才能正确诊断 P-3
+- [[dk-p5-cc-connect-config]] — P-5 是 P-1 在飞书链路的精确复现：cc-connect 的 systemd drop-in 就是飞书链路的"全局设置"
 - `.agent/pitfalls.md` → P-1（原始记录）
 
 ## 老顽童疑问（2026-06-03）

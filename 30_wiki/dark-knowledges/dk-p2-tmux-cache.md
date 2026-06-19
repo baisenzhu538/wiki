@@ -3,35 +3,44 @@ id: dk-p2-tmux-cache
 title: P-2：tmux session 缓存旧配置
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
 source_context: pitfalls.md P-2
 source_refs:
 - .agent/pitfalls.md#P-2
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
-updated_at: '2026-06-16'
+updated_at: '2026-06-19'
 related:
 - '[[master-systems-thinking]]'
 - '[[master-first-principles]]'
+- '[[dk-p1-model-switch-env]]'
+- '[[dk-p5-cc-connect-config]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
-author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+author: system
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 修改 shell 配置文件后进程行为未立即改变
+- 长期 tmux session 中的环境变量与当前 shell 不一致
 ---
+
 # P-2：tmux session 缓存旧配置
 
-## 原始表述
+## 原始表述 / 核心洞察
 
 > **症状**：改了 `.bashrc` 后 `claude` 行为没变。
 >
 > **根因**：`claude()` 函数包装了 tmux session `claude`，只要 session 活着，用的是 session 创建时的环境，不是最新 `.bashrc`。
 >
 > **对策**：改完配置后 `tmux kill-session -t claude`，再重新 `claude`。
+
+**核心洞察**：tmux/screen 等终端复用器在创建 session 时会快照当前 shell 环境；session 存活期间，子进程继承的是这份快照，而非文件系统上最新的配置文件。修改 `.bashrc`、环境变量或 API Key 后，必须 kill session 重建，否则新配置不会生效。
 
 ## 使用场景
 
@@ -66,6 +75,15 @@ trust_level: low
 - **与 P-1 的区别**：P-1 是"配置层级优先级"问题（全局设置覆盖 env var），P-2 是"运行时缓存"问题（session 创建时的 env 快照不刷新）。两者可能同时触发
 - 如果进程不是通过 tmux 启动的（如 systemd service、Docker container），P-2 不适用——那些有自己的配置刷新机制
 
+## 常见失败模式
+
+| 失败模式 | 典型表现 | 根因 | 纠正动作 |
+|---|---|---|---|
+| 改完 `.bashrc` 直接 `source ~/.bashrc` | 当前终端变量变了，但 tmux 里的程序仍用旧值 | `source` 只刷新当前 shell，不更新 tmux session 的环境快照 | `tmux kill-session -t <name>` 后重开 |
+| 只重启目标程序，不 kill tmux session | 程序行为如故，环境变量仍旧 | 程序仍跑在旧 session 中，继承旧环境 | 先 kill session，再启动程序 |
+| 找不到正确的 session 名 | `tmux kill-session -t claude` 报错 "session not found" | session 名与预期不一致，或用了不同用户/终端 | `tmux ls` 确认 session 名；必要时用 `tmux kill-server`（谨慎） |
+| 误杀其他重要 session | 其他工作区中断 | 使用了通配符或 kill-server | 精确指定 `-t <session-name>` |
+
 ## 为什么值钱
 
 - 这是**运行时缓存 vs 静态配置**的经典盲区：开发者习惯改文件 → 期望生效，但忽略了中间层的缓存（tmux session、systemd 环境、Docker 镜像层等）
@@ -74,11 +92,7 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- dk-p1-model-switch-env — P-1 和 P-2 是同一事故链：改模型配置 → 改 `.bashrc` → tmux 缓存旧配置 → 配置不生效。理解 P-2 才能完整诊断"为什么我改了配置但 Claude Code 没变化"
-- dk-p5-cc-connect-config — P-5 的 session 缓存（P-6）是 P-2 在 systemd/cc-connect 链路的变体：都是"旧运行时状态阻碍新配置生效"
+- [[dk-p1-model-switch-env]] — P-1 和 P-2 是同一事故链：改模型配置 → 改 `.bashrc` → tmux 缓存旧配置 → 配置不生效。理解 P-2 才能完整诊断"为什么我改了配置但 Claude Code 没变化"
+- [[dk-p5-cc-connect-config]] — P-5 的 session 缓存（P-6）是 P-2 在 systemd/cc-connect 链路的变体：都是"旧运行时状态阻碍新配置生效"
 - `90_control/failure-modes.md` → F-KDO-004（错误工作目录）— 配置类问题的另一维度
 - `.agent/pitfalls.md` → P-2（原始记录）
-
-## 老顽童疑问（2026-06-03）
-
-无疑问，请欧阳锋审查。

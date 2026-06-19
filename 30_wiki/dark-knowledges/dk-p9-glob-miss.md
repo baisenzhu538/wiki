@@ -3,33 +3,43 @@ id: dk-p9-glob-miss
 title: P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
 source_context: pitfalls.md P-9
 source_refs:
-- .agent/pitfalls.md#P-9
+- path: .agent/pitfalls.md#P-9
+  confidence: 0.92
+- path: 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+  confidence: 0.88
 created_at: 2026-06-03
-updated_at: '2026-06-16'
+updated_at: '2026-06-19'
 related:
+- '[[dk-p8-toolkit-forget]]'
+- '[[dk-p15-unverified]]'
 - '[[master-first-principles]]'
 - '[[master-ai-info-literacy]]'
 pipeline:
-- confidence-draft
+- confidence-enriched
 - confidence-source-cited
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- Glob 返回空但用户坚称文件存在
+- 用 PowerShell/Get-ChildItem 能找到 Glob 找不到的文件
 ---
 # P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
 
-## 原始表述
+## 原始表述 / 核心洞察
 
 > **症状**：用户说设计域文件在 `00_inbox/design/`，执行 `Glob "00_inbox/*design*/**/*"` + `Glob "00_inbox/**/*.txt"` 均返回空。结论"文件不存在"。用户指出文件就在那里后，改用 PowerShell `Get-ChildItem -Recurse` 立即找到：`design\AI设计-AI设计基础01.txt` (72KB) 和 `AI设计-AI设计师实操培训01.txt` (122KB)。误判导致任务文件被错误标注为"阻塞"后又回滚，浪费时间+信誉。
 >
-> **根因**：Glob 工具对特定路径模式（含中文名？子目录深度？）可能漏匹配。单一工具判断"不存在"是危险的。
+> **根因**：Glob 工具对特定路径模式（含中文名、子目录深度、特殊字符）可能漏匹配。单一工具判断"不存在"是危险的。
+>
+> **核心洞察**：**任何工具的 negative result 都不是事实本身**。"我没找到"≠"它不存在"；在宣布文件缺失前，必须至少用两种独立工具交叉验证。
 >
 > **对策**：
 > - **查文件是否存在：先用 PowerShell `Get-ChildItem -Path ... -Recurse`，再按需 Glob/Grep**
@@ -43,6 +53,7 @@ trust_level: low
 - 你使用 Glob 工具扫描文件系统，返回空结果
 - 你需要基于文件存在性做决策（如"是否阻塞""是否跳过"）
 - 你怀疑某个工具可能漏匹配（特别是涉及中文路径、子目录、特殊字符时）
+- 用户反驳你的"文件不存在"结论，需要快速二次验证
 
 ## 操作方法
 
@@ -81,19 +92,31 @@ trust_level: low
 - 在远程文件系统（如 SMB、NFS、云存储）上，Glob 的限制可能更多
 - 如果文件权限不足，即使存在也可能扫描不到——这与 Glob 缺陷不同
 
+## 常见失败模式
+
+| 失败模式 | 典型症状 | 根因 | 止损动作 |
+|---|---|---|---|
+| **Glob 漏扫子目录** | `Glob "dir/**/*.ext"` 返回空，但文件实际存在 | Glob 对递归深度、中文路径、特殊字符处理有边界 | 改用 `Get-ChildItem -Recurse` 或 `find -type f` 做全量枚举 |
+| **把 negative result 当结论** | 直接宣布"文件不存在"并标记任务阻塞 | 未对单一工具的"未找到"做二次确认 | 至少两种独立工具确认后再下结论；优先使用系统原生递归命令 |
+| **忽略中文/特殊字符路径** | 含中文、空格、括号的文件反复漏匹配 | Glob 转义、编码或分词规则不一致 | 先用无模式过滤的全量列表，再本地过滤；避免过度依赖通配符 |
+
 ## 为什么值钱
 
 - 这是**工具可信度**的实战教训：每个工具都有边界条件，"返回空"不等于"事实为空"
 - 极具破坏力：一次"文件不存在"的误判直接导致任务文件错误标注、用户不满（"连你都失忆了"）
 - 揭示了"negative result"的普遍风险：不仅是 Glob，任何工具的"未找到""未匹配""未触发"都需要警惕
-- **AI 训练语料中不会有这条**：没有任何文档会写"Glob 对中文文件名可能漏匹配，先用 PowerShell 验证"
+- 可直接转化为操作流程：凡基于文件存在性做决策，必须先做原生递归扫描
+- **AI 训练语料中不会有这条**：没有任何官方文档会写"Glob 对中文文件名可能漏匹配，先用 PowerShell 验证"
 
 ## 与其他知识的关联
 
-- dk-p8-toolkit-forget — P-8 和 P-9 是同一事件的两种失败：P-8 是"忘了用 OCR 工具"，P-9 是"用了 Glob 工具但盲目信任其 negative result"。如果当时先用 PowerShell 验证，就不会误判
-- dk-p15-unverified — P-15 是"声称完成但实际未做"，P-9 是"声称不存在但实际存在"——两者都是"未经独立验证就下结论"
+- [[dk-p8-toolkit-forget]] — P-8 和 P-9 是同一事件的两种失败：P-8 是"忘了用可用工具"，P-9 是"用了 Glob 但盲目信任其 negative result"。如果当时先用 PowerShell 验证，就不会误判
+- [[dk-p15-unverified]] — P-15 是"声称完成但实际未做"，P-9 是"声称不存在但实际存在"——两者都是"未经独立验证就下结论"
+- [[master-first-principles]] — "单一工具 negative result 不能作为事实"属于第一性原理层面的操作纪律
+- [[master-ai-info-literacy]] — 对工具边界条件的敏感度是 AI 信息素养的核心组成部分
 - `.agent/pitfalls.md` → P-9（原始记录）
 
-## 老顽童疑问（2026-06-03）
+## 审查记录
 
-无疑问，请欧阳锋审查。
+- 老顽童无疑问（2026-06-03），提请欧阳锋审查。
+- 欧阳锋复核通过，状态更新为 `enriched`（2026-06-19）。

@@ -3,29 +3,37 @@ id: dk-p5-cc-connect-config
 title: P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
 source_context: pitfalls.md P-5
 source_refs:
 - .agent/pitfalls.md#P-5
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
-updated_at: '2026-06-16'
+updated_at: '2026-06-19'
 related:
 - '[[master-systems-thinking]]'
 - '[[master-first-principles]]'
+- '[[dk-p1-model-switch-env]]'
+- '[[dk-p2-tmux-cache]]'
+- '[[dk-p6-session-resume-fail]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
+- confidence-reviewed
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- CLI Agent 正常但飞书 Agent 报 401 或找不到项目文件夹
+- cc-connect 的 env.conf 或 config.toml 在切换模型后未同步回切
 ---
 # P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
 
-## 原始表述
+## 原始表述/核心洞察
 
 > **症状**：从 Kimi 切回 DeepSeek 后，WSL 终端的 `claude` 命令正常工作，但飞书黄药师报 `HTTP 401` 且无法访问 wiki/KDO。
 >
@@ -35,9 +43,11 @@ trust_level: low
 >
 > **为什么 CLI 黄药师正常**：CLI 走 `.bashrc` → tmux session env，和 cc-connect 的 systemd env 互不影响。两条独立的配置链路。
 >
-> **对策**：切模型/切 API 时，c-connect 的配置有独立的两个文件需要同步改完后 `daemon-reload && restart`。
+> **对策**：切模型/切 API 时，cc-connect 的配置有独立的两个文件需要同步改完后 `daemon-reload && restart`。
 >
 > **关联**：Config Cascade Debug skill — 这本质是同一模式：多个独立配置层（.bashrc / 注册表 / systemd drop-in / cc-connect config.toml），改了三处漏了一处。
+
+核心洞察：**同一台机器上的 CLI Agent 与飞书 Agent 走两条独立的配置链路；修改其中一条后必须显式检查另一条，否则"正常"的链路会掩盖"异常"的链路。**
 
 ## 使用场景
 
@@ -80,6 +90,15 @@ trust_level: low
 - **与 P-6 的关系**：P-5 是事故链的第一环（配置错），P-6 是事故链的第三环（session 缓存）。中间还有 API Key 修复环
 - 如果使用 Docker 或 Kubernetes 部署，配置层会更复杂（ConfigMap / Secret / 环境变量层级更多）——P-5 的模式仍然适用
 
+## 常见失败模式
+
+| 失败模式 | 典型信号 | 根因 | 修复动作 |
+|---|---|---|---|
+| 只改 CLI 链路就宣布完成 | `claude` 命令正常，但飞书 bot 报 401 / 找不到文件夹 | 误以为 `.bashrc` 的修改会同步影响 cc-connect | 同时检查 `env.conf` + `config.toml`，并 `daemon-reload && restart` |
+| work_dir 被旧配置覆盖 | Claude Code 从 `/home/dministrator` 启动，读不到 wiki | 切换模型时 config.toml 被重置或误改 | 将 `work_dir` 改回 wiki 根目录并重启服务 |
+| env.conf 残留旧 provider | `systemctl show` 仍指向 Kimi endpoint 或旧 Key | systemd drop-in 未被覆盖或更新 | 重写 `env.conf` 后执行 `daemon-reload` |
+| 两条链路混为一谈 | 改一处后凭"感觉"认为另一处也对了 | 不理解 CLI 与 systemd 的独立环境 | 建立分开的切换 checklist，分别验证 CLI 与飞书 |
+
 ## 为什么值钱
 
 - 这是**多链路配置**的经典陷阱：同一台机器上运行多个实例，每个实例有独立的配置，改一处不影响其他处
@@ -89,11 +108,7 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- dk-p1-model-switch-env — P-1 是单一链路的配置层级问题，P-5 是多链路的配置层级问题。两者组合起来构成完整的"切换模型时的配置集"
-- dk-p2-tmux-cache — P-2 是 CLI 链路的缓存问题，P-5 是飞书链路的配置问题。两者是同一事故的不同表现
-- dk-p6-session-resume-fail — P-6 是 P-5 的事故链延伸：配置修复后仍然失败，因为旧 session 缓存了旧配置
+- [[dk-p1-model-switch-env]] — P-1 是单一链路的配置层级问题，P-5 是多链路的配置层级问题。两者组合起来构成完整的"切换模型时的配置集"
+- [[dk-p2-tmux-cache]] — P-2 是 CLI 链路的缓存问题，P-5 是飞书链路的配置问题。两者是同一事故的不同表现
+- [[dk-p6-session-resume-fail]] — P-6 是 P-5 的事故链延伸：配置修复后仍然失败，因为旧 session 缓存了旧配置
 - `.agent/pitfalls.md` → P-5（原始记录）
-
-## 老顽童疑问（2026-06-03）
-
-无疑问，请欧阳锋审查。

@@ -3,29 +3,36 @@ id: dk-p7-ocr-skip
 title: P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
 source_context: pitfalls.md P-7
 source_refs:
 - .agent/pitfalls.md#P-7
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
-updated_at: '2026-06-16'
+updated_at: '2026-06-19'
 related:
 - '[[master-decision-hygiene]]'
 - '[[master-ai-info-literacy]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
+- confidence-reviewed
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 素材文件夹含图片但执行者声称"没有图片需要 OCR"
+- 架构者未独立检查原始文件夹即采信"已全部消化"
+- 重要质量判断发生在长会话末期（30+ 轮后）
+- 图片被默认视为文本复述而被跳过
 ---
 # P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片
 
-## 原始表述
+## 原始表述/核心洞察
 
 > **症状**：科学决策文件夹有 35 张关键框架图（共识四层冰山、ROI 全景图、X 型 Y 型对比等），老顽童声称"没有图片需要 OCR"。欧阳锋未核实即采信。后发现 35 张图全部未 OCR，图中含有口述稿未系统展开的结构信息。
 >
@@ -37,6 +44,8 @@ trust_level: low
 > - 新域素材消化第一步：扫描文件夹 → 如有图片，强制 OCR 全部后再读文本
 > - 架构者审查新域提案时，独立验证"素材是否全部消化"——不能只信执行者的自述
 > - 长对话中出现判断失误时主动收尾，下次干净状态接手
+
+核心洞察：**多模态素材消化必须在流程层面设置强制检查点，不能依赖执行者自述或架构者临场判断**。当图片与文本互补时，跳过图片会丢失一半以上的结构信息；而防止跳过的唯一可靠方式，是"先扫描、再结论"的不可逆 checklist。
 
 ## 使用场景
 
@@ -81,6 +90,15 @@ trust_level: low
 - 如果图片是装饰性的（如封面图、图标），OCR 价值有限——需要判断图片的信息密度
 - 如果图片是数据图表，OCR 可能不足——需要结合图表识别工具
 
+## 常见失败模式
+
+| 失败模式 | 典型信号 | 根因 | 修复动作 |
+|---|---|---|---|
+| 执行者声称"没有图片需要 OCR" | 素材文件夹含 PNG/JPG 但未触发 OCR 步骤 | 缺少"先扫描再结论"的强制检查点 | 入库 checklist 第一步：ls 文件夹，发现图片即强制 OCR |
+| 架构者采信执行者自述未独立核实 | 审查时只看结论不看原始文件夹 | 过度信任执行者状态汇报 | 随机抽查 1-2 张图，确认 OCR 结果已进入管线 |
+| 长会话末期做重要质量判断 | 讨论已进行 30+ 轮后仍在做 go/no-go | 认知疲劳导致判断力下降 | 重要审查安排在清醒状态，疲劳时主动收尾 |
+| 把图片当文本的重复信息而跳过 | 认为"图只是口述稿的重复" | 未认识到图承载结构/比例/层级等文本未展开的信息 | 交叉验证图中结构与文本内容，确认互补而非重叠 |
+
 ## 为什么值钱
 
 - 这是**多模态素材消化**的实战教训：文本和图像是两种不同的信息载体，互补而非替代
@@ -90,11 +108,8 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- dk-p8-toolkit-forget — P-7 和 P-8 是同一事件的两个维度：P-7 是"跳过了图片"，P-8 是"忘了有 OCR 工具可以处理图片"。如果当时想起 toolkit.md 里的 OCR 工具，P-7 可能不会发生
-- dk-f7-surface-translation — 表层翻译式提炼的另一种表现：只看文本不看图，等于只提取了"表层"信息
+- [[dk-p8-toolkit-forget]] — P-7 和 P-8 是同一事件的两个维度：P-7 是"跳过了图片"，P-8 是"忘了有 OCR 工具可以处理图片"。如果当时想起 toolkit.md 里的 OCR 工具，P-7 可能不会发生
+- [[dk-f7-surface-translation]] — 表层翻译式提炼的另一种表现：只看文本不看图，等于只提取了"表层"信息
+- [[master-decision-hygiene]] — 架构者未独立核实即采信，属于决策卫生中的"未做独立验证"
 - `90_control/failure-modes.md` → F-KDO-006（骨架页面 CJK 内容损毁）— 同样是"图文信息处理"相关的失败模式
 - `.agent/pitfalls.md` → P-7（原始记录）
-
-## 老顽童疑问（2026-06-03）
-
-无疑问，请欧阳锋审查。
