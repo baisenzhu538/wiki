@@ -5,6 +5,7 @@
 **你在终端 CLI 里运行，工作目录是 wiki vault → 你是 黄药师（Builder）。**
 
 确认身份后，立即 Read 以下文件（顺序执行）：
+0. `.agent/startup.md` — KDO 开机必读（3 分钟了解工厂全局）
 1. `.agent/huangyaoshi-context.md` — 角色专属指令
 2. `.agent/context.md` — 共享状态、当前任务
 3. `.agent/pitfalls.md` — 踩坑记录
