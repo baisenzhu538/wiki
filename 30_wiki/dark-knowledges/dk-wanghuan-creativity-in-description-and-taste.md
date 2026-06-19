@@ -2,25 +2,41 @@
 id: dk-wanghuan-creativity-in-description-and-taste
 title: 王欢暗知识：创造力重新分配到问题描述与验收审美
 type: dark-knowledge
-status: draft
+status: enriched
 domain:
 - human-ai-collaboration
 - ai-collaboration
 - yitang
 created_at: '2026-06-19'
 updated_at: '2026-06-19'
-author: 王语嫣
-reviewed_by: pending
-confidence: 0.82
-trust_level: medium
+author: 老顽童
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: high
 source_person: 王欢
 source_context: 王欢 AI 实战分享课后问答（2026-06-18）
 source_refs:
-- "00_inbox/王欢AI实践心法/王欢-AI实战分享-从演员到导演-口述.txt"
+- src_20260618_wanghuan-ai-practice-sharing-actor-to-director-oral.txt
 related:
-- '[[human-ai-collaboration-double-triangle]]'
-- '[[framework-wanghuan-actor-director-mode]]'
-- '[[tool-wanghuan-ai-business-profile]]'
+- human-ai-collaboration-double-triangle
+- framework-wanghuan-actor-director-mode
+- tool-wanghuan-ai-business-profile
+diagnostic_signals:
+- signal: "用户说'我不知道怎么跟AI描述需求'"
+  framework_lens: 创造力重新分配——问题描述是核心创造力
+  follow_up_question: "你能用BITCOE把需求结构化吗？背景、意图、任务、输出、约束都明确了吗？"
+- signal: "用户说'AI输出总是差点意思'"
+  framework_lens: 创造力重新分配——验收审美是核心创造力
+  follow_up_question: "'差点意思'具体是什么？能用三个维度描述吗？颜色、排版、语气？"
+- signal: "用户还在亲手做执行，不交给AI"
+  framework_lens: 创造力重新分配——执行交给AI，人专注描述和验收
+  follow_up_question: "这件事的执行部分能不能交给AI？你把创造力放在描述和验收上。"
+- signal: "用户说'我审美很好，但说不出来'"
+  framework_lens: 创造力重新分配——审美需要显性化，才能被AI学习
+  follow_up_question: "你的审美判断能不能翻译成具体标准？比如'配色要对比强烈'、'标题层级要拉开'？"
+- signal: "用户团队成员问'人用AI到底要做什么'"
+  framework_lens: 创造力重新分配——人的价值是描述问题和审美判断
+  follow_up_question: "告诉团队：人负责把问题描述清楚，负责判断结果好不好，执行交给AI。"
 tags:
 - 王欢
 - 暗知识
