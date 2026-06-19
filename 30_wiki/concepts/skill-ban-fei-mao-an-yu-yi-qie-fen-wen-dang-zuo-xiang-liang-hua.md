@@ -3,13 +3,13 @@
 id: skill-ban-fei-mao-an-yu-yi-qie-fen-wen-dang-zuo-xiang-liang-hua
 title: 技能：按语义切分文档做向量化
 type: "tool"
-status: draft
+status: enriched
 domain:
 - ai-collaboration
 source_person: 半肥猫
 source_context: AI俱学乐部-AI学习落地 分享
 source_refs:
-- 00_inbox/半肥猫-AI学习落地-口述.md
+- 10_raw/sources/src_20260617_f1830fa6-半肥猫-ai学习落地-口述.md
 tools_required:
 - 向量化工具（如 OpenAI embedding API、本地 embedding 模型）
 - 向量数据库（如 Pinecone、Weaviate、Chroma 等）
@@ -20,18 +20,78 @@ related:
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]]'
 - '[[dk-ban-fei-mao-atomic-no-standard]]'
+- '[[skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]]'
+- '[[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]]'
 created_at: 2026-06-07
-reviewed_by: laowantong
-updated_at: '2026-06-16'
+reviewed_by: 欧阳锋
+updated_at: '2026-06-19'
 pipeline:
 - confidence-draft
 - confidence-source-cited
 - confidence-verified-by-case
 author: 半肥猫
-confidence: 0.7
-trust_level: low
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- signal: 向量化检索返回的片段缺少上下文或来源信息
+  lens: 切块元数据锚点缺失
+  follow_up: 检查每块是否包含文章标题、YAML 标签、来源信息，确保 AI 能判断片段归属
+- signal: AI 基于检索片段给出断章取义的答案
+  lens: 切分粒度破坏语义完整性
+  follow_up: 放弃固定字数切分，改为按语义主题切分，并抽样验证答案是否依赖完整上下文
+- signal: 向量化后检索质量持续下降却未被发现
+  lens: 缺乏检索质量监控
+  follow_up: 建立定期检索测试集，覆盖边界问题与负例，监控召回率与答案可用性
 ---
 # 技能：按语义切分文档做向量化
+
+## 用一句话讲清楚
+
+按语义主题（而非固定字数）把文档切成“意义完整且带元数据锚点”的块，再向量化入库，让 AI 检索时拿到有上下文的完整信息，而不是断章取义的片段。
+
+## 核心要点
+
+- **语义切分保上下文**。不是按每 500 字机械切块，而是按主题/论点/意义单元切分，确保检索到的片段自身就是可理解的完整信息。
+- **每块必须带元数据锚点**。切块不能只含正文，还要继承文章标题、YAML 标签、来源信息，否则 AI 不知道这块内容从哪里来、属于什么主题。
+- **文章头部标签是“元数据锚点”**。向量化时保留完整的头部标签，能帮助 embedding 模型理解内容整体语义，提高匹配精度。
+- **向量化只是中间步骤**。切分后的块需要经过 embedding 模型编码，再写入向量数据库，并配合检索策略才能发挥作用。
+- **需要持续验证与更新**。向量库会随内容、模型、业务问题变化而衰减，必须建立检索测试与增量更新机制。
+
+## 边界
+
+| 维度 | 适用 | 不适用 |
+|------|------|--------|
+| 场景 | 大规模知识库需要语义检索；内容量 >100 篇且关键词检索效率低；需要 AI 基于知识库做问答或分析 | 内容量小、关键词检索足够；没有 embedding API 或向量数据库资源；内容更新极快、向量化跟不上更新速度 |
+| 用户 | 能维护 YAML 标签体系、能判断切分质量的人 | 无法区分语义单元、没有耐心做验证的人 |
+| 数据 | 已有 Markdown 等半结构化文档，头部含标题/标签/来源 | 完全无元数据、排版混乱、OCR 质量差的原始材料 |
+
+## 失败模式
+
+| 失败信号 | 根因 | 修正动作 |
+|----------|------|----------|
+| 检索答案断章取义 | 固定长度切分在句子或论点中间切断 | 按语义主题切分，确保每块是一个完整的“意义单元” |
+| 片段不知道内容来源 | 切块缺少标题、标签、来源等元数据 | 每块必须继承文章头部的 YAML 标签与来源信息 |
+| 向量化后检索质量差却未察觉 | 缺少检索质量验证 | 建立测试集，定期做检索测试、召回率与答案可用性评估 |
+| 新内容检索不到 | 向量库未随内容更新而更新 | 设计增量更新或定时重跑向量化流程 |
+| 更换 embedding 模型后检索崩溃 | 向量空间变化导致旧向量失效 | 更新模型时批量重新计算向量并做一致性验证 |
+
+## 行动 Checklist
+
+- [ ] 清洗并统一文档格式，确保头部 YAML 标签完整
+- [ ] 按语义主题切分文档，避免在论点或句子中间切断
+- [ ] 为每个切块补充标题、标签、来源等元数据锚点
+- [ ] 选择适合中文/业务语义的 embedding 模型
+- [ ] 将向量写入向量数据库并建立索引
+- [ ] 建立检索测试集（含正例、负例、边界问题），验证召回质量
+- [ ] 制定增量更新策略，确保内容更新后向量库同步
+
+## 相关卡/互链
+
+- [[concept-半肥猫-ai-learning-toolification-methodology]] — L3 知识库管理的上位方法论
+- [[skill-ban-fei-mao-dong-tai-du-qu-xiang-liang-hua-guan-li-die-dai-zhi-shi]] — 静态向量化与动态读取的互补关系
+- [[dk-ban-fei-mao-atomic-no-standard]] — “原子化没有固定标准”，切分粒度需要灵活
+- [[skill-ban-fei-mao-qing-xi-zi-liao-wei-markdown-ge-shi-wei-gei-ai]] — 清洗后的文档才能做语义切分
+- [[skill-ban-fei-mao-yong-yaml-ge-shi-zuo-zhi-shi-ku-yuan-zi-hua-biao-qian]] — 标签信息是向量化的元数据锚点
 
 ## Summary
 
@@ -53,28 +113,10 @@ trust_level: low
 4. 对切块做向量化（使用 embedding 模型）
 5. 存储到向量数据库
 
-## 适用场景
-
-- ✅ 大规模知识库需要语义检索
-- ✅ 需要 AI 基于知识库做问答或分析
-- ✅ 知识库内容量大（>100 篇），关键词检索效率低
-
-## 不适用场景
-
-- ❌ 内容量小，关键词检索足够
-- ❌ 没有向量数据库或 embedding API 资源
-- ❌ 内容更新极快，向量化跟不上更新速度
-
 ## 工具/环境
 
 - 向量化工具（OpenAI embedding API、Sentence-Transformers 等）
 - 向量数据库（Pinecone、Weaviate、Chroma、Milvus 等）
-
-## 常见失败模式
-
-- 固定长度切分 → 上下文断裂 → **必须按语义主题切分**
-- 切块缺少元数据 → AI 不知道内容来源 → **每块必须包含标签信息**
-- 向量化后不做验证 → 检索质量差 → **定期做检索测试**
 
 ## 为什么有效
 

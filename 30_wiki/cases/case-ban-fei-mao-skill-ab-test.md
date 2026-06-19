@@ -15,7 +15,7 @@ updated_at: '2026-06-19'
 reviewed_by: 欧阳锋
 author: 半肥猫
 confidence: 0.88
-trust_level: low
+trust_level: medium
 related:
 - '[[concept-半肥猫-ai-learning-toolification-methodology]]'
 - '[[case-ban-fei-mao-conversion-hacker-skill]]'

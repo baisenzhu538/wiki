@@ -29,8 +29,6 @@ related:
 - '[[dk-ef-002-bom-version-async]]'
 - '[[dk-ef-003-hand-soldering-bom-divergence]]'
 - '[[dk-ef-004-missing-diagnostic-firmware]]'
-- '[[failure-modes-electronics]]'
-- '[[project-standards]]'
 diagnostic_signals:
 - 文件命名出现"最终版""真的最终版"且版本关系不明
 - 原理图/BOM/PCB 之间存在多处不一致，无法判断哪个版本可投产
@@ -106,5 +104,5 @@ HX-SMJ 是闸机红外光栅控制系统，包含四块板卡：主控板（MCU+
 - [[dk-ef-002-bom-version-async]]
 - [[dk-ef-003-hand-soldering-bom-divergence]]
 - [[dk-ef-004-missing-diagnostic-firmware]]
-- [[failure-modes-electronics]]
-- [[project-standards]]
+- `electronics-failure-modes`
+- `project-standards`
