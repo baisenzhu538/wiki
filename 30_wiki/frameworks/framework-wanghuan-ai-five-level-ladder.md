@@ -11,7 +11,7 @@ created_at: '2026-06-19'
 updated_at: '2026-06-19'
 author: 王语嫣
 reviewed_by: pending
-confidence: 0.85
+confidence: 0.84
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享（2026-06-18 授课）
