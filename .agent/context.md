@@ -1,12 +1,11 @@
 ---
-updated: 2026-06-19
+updated: 2026-06-20
 active_branch: main
-active_task: "第二十四节30张draft卡精修A-通过；P0已清零；剩余5张卡需补diagnostic_signals后关门。"
+active_task: "王欢AI实践域完成；startup.md上线；识别Prompt vs 档案的本质差异"
 blockers:
-  - "王语嫣角色正式升级AGENTS.md"
-  - "老顽童返工第二十四节5张卡diagnostic_signals"
-  - "KF-022 decisions域lint修复（84 errors）"
-next_session_hint: "用户说'继续'→ ① 王语嫣角色正式升级；② 老顽童第二十四节返工；③ KF-022排期；④ draft分级处理（409张低价值draft降级/归档）"
+  - "老顽童需补挖王欢闲聊Q&A暗知识（2-3张dk卡）"
+  - "各Agent需建立自己的AI业务档案（行业暗规则字段）"
+next_session_hint: "用户说'继续'→ ① 推进各Agent建立AI业务档案（用王欢5字段模板，重点挖行业暗规则）；② 老顽童补王欢闲聊dk卡；③ 王语嫣角色升级AGENTS.md"
 ---
 
 ## 📢 全厂通知（2026-06-19）

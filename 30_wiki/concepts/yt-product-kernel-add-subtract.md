@@ -21,7 +21,7 @@ review_date: "2026-06-19"
 related:
   - yt-product-kernel-definition
   - yt-product-kernel-canvas
-n  - yt-product-kernel-premature-optimization
+  - yt-product-kernel-premature-optimization
   - yt-product-kernel-iteration
   - yt-five-step-method
   - skill-一堂-product-kernel-add-subtract

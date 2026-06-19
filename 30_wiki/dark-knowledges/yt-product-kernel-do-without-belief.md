@@ -1,6 +1,6 @@
 ---
 id: yt-product-kernel-do-without-belief
-title: "做而不信"陷阱：执行了流程，但不相信结果
+title: '"做而不信"陷阱：执行了流程，但不相信结果'
 type: dark-knowledge
 status: enriched
 confidence: 0.92
