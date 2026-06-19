@@ -3,15 +3,16 @@ id: dk-p8-toolkit-forget
 title: P-8：欧阳锋忘记本地已有武器——重新调研已部署工具
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
 source_context: pitfalls.md P-8
 source_refs:
 - .agent/pitfalls.md#P-8
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
-updated_at: '2026-06-16'
+updated_at: '2026-06-19'
 related:
 - '[[master-knowledge-compound]]'
 - '[[kdo-flywheel]]'
@@ -19,14 +20,20 @@ related:
 pipeline:
 - confidence-draft
 - confidence-source-cited
+- confidence-reviewed
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 新 session 启动后 10 分钟内就开始调研或部署一个已存在的本地工具
+- 工具信息分散在 CLAUDE.md 或长文档中，没有独立的 toolkit.md
+- 同一工具在仓库不同位置出现多个副本或安装记录
+- toolkit.md 最后更新时间早于最近一次工具部署时间
 ---
 # P-8：欧阳锋忘记本地已有武器——重新调研已部署工具
 
-## 原始表述
+## 原始表述/核心洞察
 
 > **症状**：新欧阳锋 session 启动后，遇到 OCR/图片处理需求，花大量时间调研方案、测试依赖、试图部署新工具。最后才想起来 vault 旁边 `C:\Users\Administrator\ocr-pipeline\` 已经部署了 PaddleOCR v5，且有 PowerShell 封装脚本。
 >
@@ -41,6 +48,8 @@ trust_level: low
 > - context.md "下次启动"第 1 条加了 `toolkit.md` 提醒
 > - 新增工具/能力时必须同步更新 `toolkit.md`
 > - 原则：**先查武器库再行动——不要重复造轮子**
+
+核心洞察：**在多角色、多 session 的协作环境中，"本地已有什么能力"必须是一份独立、最新、且被强制读取的武器库；否则每个新 session 都会重复支付调研与部署的启动税。** 工具信息不能藏在巨型启动文档里，也不能只依赖人的记忆。
 
 ## 使用场景
 
@@ -83,6 +92,16 @@ trust_level: low
 - 如果武器库文件存在但过期了（工具已被卸载），P-8 仍然会触发——需要定期验证
 - 如果工具是云端服务（如 SaaS API），武器库需要记录 API 文档链接和账户信息
 
+## 常见失败模式
+
+| 失败模式 | 典型信号 | 根因 | 修复动作 |
+|---|---|---|---|
+| 启动时不查武器库直接调研 | 新 session 启动后 10 分钟内开始调研已部署工具 | 启动 checklist 缺少 `.agent/toolkit.md` | 启动流程第一步：先读 `toolkit.md` 再决定是否需要新工具 |
+| 工具信息藏在巨型文档里 | 工具清单混在 CLAUDE.md 第 200+ 行，启动时不会被读到 | 未抽出独立的武器库文件 | 新建 `.agent/toolkit.md`，并从启动文档中移除冗余工具信息 |
+| 部署后不更新武器库 | toolkit.md 中没有最新部署工具的条目 | 缺少"部署即记录"的纪律 | 把"更新 toolkit.md"写进每次部署的完成定义（DoD） |
+| 武器库过期未验证 | toolkit.md 记录的工具路径已失效或工具已被卸载 | 缺少定期审计与验证机制 | 每月/每季度 audit 一次 toolkit.md，对失效条目标记"已退役" |
+| 多角色重复部署同一工具 | 不同角色目录下出现同一工具的多个副本 | 武器库未作为团队共享契约 | 所有角色启动时读取同一个 toolkit.md，统一工具位置 |
+
 ## 为什么值钱
 
 - 这是**组织知识**的实战教训：单人可以靠记忆，但团队必须靠文档。每次新 session 重建记忆 = 重复造轮子
@@ -92,12 +111,8 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- dk-p7-ocr-skip — P-7 和 P-8 是同一事件的两个维度。如果当时查了 toolkit.md 发现 OCR 工具已部署，P-7 可能不会发生
-- dk-p1-model-switch-env — 同样是"启动时信息缺口"导致的问题：不知道配置层级优先级 → 改了配置不生效
-- `90_control/AGENTS.md` — Agent 启动指令规范
+- [[dk-p7-ocr-skip]] — P-7 和 P-8 是同一事件的两个维度。如果当时查了 toolkit.md 发现 OCR 工具已部署，P-7 可能不会发生
+- [[dk-p1-model-switch-env]] — 同样是"启动时信息缺口"导致的问题：不知道配置层级优先级 → 改了配置不生效
+- [[master-first-principles]] — 先查武器库再行动，本质上是在执行前先做"事实核查"，避免默认从零开始
 - `.agent/toolkit.md` — 武器库文件（如果存在）
 - `.agent/pitfalls.md` → P-8（原始记录）
-
-## 老顽童疑问（2026-06-03）
-
-无疑问，请欧阳锋审查。

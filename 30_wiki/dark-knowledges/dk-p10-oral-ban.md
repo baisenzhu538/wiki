@@ -3,30 +3,38 @@ id: dk-p10-oral-ban
 title: P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
-source_person: system
-source_context: pitfalls.md P-10
+source_person: 欧阳锋
+source_context: pitfalls.md P-10，老顽童 Batch 2+3 审查，2026-06-03
 source_refs:
 - .agent/pitfalls.md#P-10
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
-updated_at: '2026-06-16'
+updated_at: '2026-06-19'
 related:
+- '[[dk-p15-unverified]]'
+- '[[dk-f9-generic-critique]]'
 - '[[master-decision-hygiene]]'
-- '[[master-knowledge-compound]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
 - confidence-verified-by-case
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+review_date: '2026-06-19'
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 审查者在对话中说"后续不要 X""全面禁止 Y"，但任务文件里找不到对应约束
+- 执行者复述"我记得审查者说过……"，却无法指出任务文件中的具体条款
+- 用户/下游角色问"禁令指什么？"，说明约束没有唯一真相源
+- 跨会话后口头指令被遗忘或被不同参与者解读为不同含义
 ---
 # P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件
 
-## 原始表述
+## 原始表述/核心洞察
 
 > **症状**：欧阳锋在审查老顽童 Batch 2+3 时口头说"后续 Batch 全面封禁 Kahneman 和 Taleb"。用户问"禁令指什么？"——任务文件里根本没有这条。口头意见与书面指令脱节，造成执行者和决策者之间的信息不对称。
 >
@@ -38,12 +46,19 @@ trust_level: low
 > - 任务文件是唯一真相源——如果任务文件里没有，就等于不存在
 > - 具体案例：最终改为写入任务文件的软约束"同一域内，每5张卡至少引入1位新攻击者"
 
+核心洞察：
+
+- Agent 协作没有持续记忆，任务文件是唯一真相源；口头约束在跨会话后等于不存在。
+- "全面封禁 X"这类绝对化禁令难以执行，必须转化为可量化、可验证的软约束。
+- 审查者的记录懒惰和执行者的印象依赖共同导致信息失真，双方都有责任落笔。
+
 ## 使用场景
 
 - 你是审查者，在对话中给出了约束性意见（如"不要用 X""必须做 Y"）
 - 你是执行者，收到了口头指令但任务文件里没有记录
 - 你需要区分"观察/建议"和"指令/约束"
 - 你在跨会话协作中，需要确保指令不丢失
+- 你写完工报告或审查反馈时，需要把约束写入可持久化的任务文件
 
 ## 操作方法
 
@@ -79,6 +94,16 @@ trust_level: low
 - 在面对面协作中，口头指令可能足够——但 Agent 协作是跨会话的，必须书面化
 - 紧急情况下可以先口头指令，但必须在 5 分钟内补录到任务文件
 
+## 常见失败模式
+
+| 失败模式 | 典型信号 | 根因 | 防御措施 |
+|---|---|---|---|
+| 口头禁令未落笔 | 审查者说"全面禁止 X"，任务文件无记录 | 审查者把对话当作已生效指令 | 当场打开任务文件写入约束，并复述确认 |
+| 绝对化禁令 | "不要出现任何 Kahneman""完全禁止 Taleb" | 约束不可量化，执行者无法判断是否合规 | 改写为可验证的软约束，如"每5张卡至少1位新攻击者" |
+| 执行者依赖口头印象 | "我记得欧阳锋说过……" | 执行者未要求书面确认 | 没有书面就不算；主动提醒写入任务文件 |
+| 跨会话失忆 | 换会话后 nobody 记得禁令具体内容 | Agent 无记忆，口头信息未持久化 | 所有约束性指令必须在任务文件中可追溯 |
+| 观察与指令混淆 | 审查者说"这张卡有问题"，执行者理解为"以后都不许做" | 未区分"观察"与"指令" | 明确标注"这是观察"或"这是指令，请写入任务文件" |
+
 ## 为什么值钱
 
 - 这是**跨会话信息传递**的核心规则：Agent 没有记忆，任务文件是唯一的外部存储
@@ -88,8 +113,9 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- dk-p15-unverified — P-10 和 P-15 是对称问题：P-10 是"指令未落笔"，P-15 是"完成未验证"。两者共同构成"信息失真"的完整图谱
-- dk-f9-generic-critique — F-KDO-009 是"审查时的思维懒惰"，P-10 是"审查时的记录懒惰"——两者都是审查质量问题的不同表现
+- [[dk-p15-unverified]] — P-10 和 P-15 是对称问题：P-10 是"指令未落笔"，P-15 是"完成未验证"。两者共同构成"信息失真"的完整图谱
+- [[dk-f9-generic-critique]] — F-KDO-009 是"审查时的思维懒惰"，P-10 是"审查时的记录懒惰"——两者都是审查质量问题的不同表现
+- [[master-decision-hygiene]] — 决策卫生要求关键约束必须书面化、可复核，P-10 是其在 Agent 协作中的具体落点
 - `90_control/AGENTS.md` — Agent 协作规范
 - `.agent/pitfalls.md` → P-10（原始记录）
 

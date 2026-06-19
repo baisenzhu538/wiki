@@ -3,29 +3,35 @@ id: dk-p14-zombie
 title: P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环
 type: dark-knowledge
 dark_knowledge_type: failure
-status: draft
+status: enriched
 domain:
 - master
 source_person: system
 source_context: pitfalls.md P-14
 source_refs:
 - .agent/pitfalls.md#P-14
+- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
-updated_at: '2026-06-16'
+updated_at: '2026-06-19'
 related:
 - '[[master-systems-thinking]]'
 - '[[master-decision-hygiene]]'
+- '[[dk-p13-token-burn]]'
+- '[[dk-p6-session-resume-fail]]'
 pipeline:
 - confidence-draft
 - confidence-source-cited
 author: unknown
-reviewed_by: pending
-confidence: 0.7
-trust_level: low
+reviewed_by: 欧阳锋
+confidence: 0.88
+trust_level: medium
+diagnostic_signals:
+- 原始卡缺少常见失败模式表与诊断信号字段
+- 关联知识未使用内部链接格式，且未与事故链 P-13/P-6 建立显式回链
 ---
 # P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环
 
-## 原始表述
+## 原始表述/核心洞察
 
 > **症状**：PID 17916 `claude` 从 5月19日跑到今天（5天），CPU 仅 502 秒但可能烧了大量 API 费用。另外 PID 15540（hermes）从 5月16日跑了 8 天。80元账单不全是黄药师消耗。
 >
@@ -40,12 +46,15 @@ trust_level: low
 > - Obsidian Claudian 用完即关——不要让它在后台被 vault backup 反复唤醒
 > - **每完成一批任务就检查一次账单**——不要等积累了 80元才发现
 
+**核心洞察**：最小化窗口 ≠ 进程退出；低 CPU 占用更会掩盖后台 API 调用型僵尸进程。Obsidian 的自动 backup + Claudian 插件构成了一个“静默唤醒—持续计费”的隐蔽循环，常规性能监控无法发现，只能从账单或进程列表反查。
+
 ## 使用场景
 
 - 你使用 Obsidian + Claudian 插件
 - 你的 vault 有自动备份/git commit 机制
 - 你发现账单异常但找不到明显的高消耗会话
 - 你需要排查后台是否有意外的 Claude Code 进程
+- 你习惯最小化终端而不是显式退出会话
 
 ## 操作方法
 
@@ -76,10 +85,20 @@ trust_level: low
 
 ## 适用边界
 
-- 适用于所有使用 Claude Code CLI 或 Claudian 插件的场景
+- 适用于所有使用 Claude Code CLI 或 Claudian 插件的本地/桌面场景
 - 不适用纯 Web 端使用（无本地进程）
-- **与 P-13 的区别**：P-13 是"主动使用中的高消耗"，P-14 是"后台僵尸的静默消耗"
-- 如果使用 Docker/container，僵尸进程问题会更隐蔽
+- **与 [[dk-p13-token-burn|P-13]] 的区别**：P-13 是"主动使用中的高消耗"，P-14 是"后台僵尸的静默消耗"
+- **与 [[dk-p6-session-resume-fail|P-6]] 的关联**：P-6 是 session 文件缓存死身份，P-14 是本地进程本身未被清理，两者都属于"旧运行时状态残留"
+- 如果使用 Docker/container，僵尸进程问题会更隐蔽——宿主机 `ps` 可能看不到容器内进程
+
+## 常见失败模式
+
+| 失败模式 | 典型症状 | 根因 | 解法/预防措施 |
+|---|---|---|---|
+| Obsidian vault backup 反复唤醒 Claudian | 账单出现零星 API 调用，但找不到对应的高频会话；Obsidian 窗口只是最小化 | 自动 `git commit` 触发文件变更事件，Claude Code 被插件唤醒处理 diff | 用完即关 Claudian；禁用或降低自动 backup 频率；改为手动 commit |
+| 终端最小化被误认为已关闭 | `Get-Process claude` 显示有残留进程，CPU 占用却很低 | 用户以为最小化/挂 tmux 等于退出，实际上进程仍在后台持有 session | 会话结束显式 `exit`；关闭终端窗口；定期 `ps`/`Get-Process` 检查 |
+| 缺少账单检查习惯 | 累计 80 元账单后才发现异常 | 未设置费用告警，也未养成每批任务后查账单的习惯 | 每完成一批任务检查一次账单；设置单会话/单日费用阈值告警 |
+| Docker/container 中僵尸进程隐蔽 | 宿主机看不到异常进程，账单却持续产生 | 容器隔离导致 `ps` 命令默认只能看到容器内进程 | 容器内也定期检查；宿主机监控容器进程与资源；设置容器级费用告警 |
 
 ## 为什么值钱
 
@@ -90,10 +109,6 @@ trust_level: low
 
 ## 与其他知识的关联
 
-- dk-p13-token-burn — P-13 和 P-14 是账单的两大来源
-- dk-p6-session-resume-fail — 同样是"旧进程/旧状态未被清理"的问题
+- [[dk-p13-token-burn]] — P-13 和 P-14 是账单的两大来源：主动高消耗 + 僵尸进程消耗
+- [[dk-p6-session-resume-fail]] — 同样是"旧进程/旧状态未被清理"的问题，只是残留形态不同
 - `.agent/pitfalls.md` → P-14（原始记录）
-
-## 老顽童疑问（2026-06-03）
-
-无疑问，请欧阳锋审查。
