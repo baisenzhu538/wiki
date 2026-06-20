@@ -5,12 +5,12 @@ type: tool
 status: enriched
 domain:
   - master
-source_person: 王语嫣/一堂科学决策课程 + 公开学习材料
-source_context: 一堂科学决策课程关键假设模型、知识萃取探索营与通用学习方法论综合
+source_person: Truman
+source_context: 一堂科学决策课程——第一性原理与关键假设拆解框架
 source_refs:
-  - 10_raw/sources/src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md
-  - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
-  - 10_raw/sources/src_20260522_0af1f6dd-learning-thinking.md
+  - src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md
+  - src_20260614_239c9f4e-一堂-知识萃取探索营.md
+  - src_20260522_0af1f6dd-learning-thinking.md
 created_at: 2026-05-18
 updated_at: '2026-06-20'
 author: 老顽童
