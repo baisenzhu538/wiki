@@ -25,10 +25,9 @@ query_triggers:
 - 系统式调研
 - 调研框架
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260508_f7f9670e-一堂-创业必修-调研行动营
-  - src_20260510_f42dfdc2-一堂-创业-调研行动营口述01
+- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
+- 00_inbox/调研专题/一堂-系统式调研-口述.txt
+- 00_inbox/调研专题/一堂-系统式调研-笔记.txt
 related:
 - "[[yt-research-intelligence-map]]"
 - "[[yt-research-competitor-toolkit]]"
