@@ -17,7 +17,7 @@ source_refs:
 - "00_inbox/王欢AI实践心法/王欢-AI实战分享-从演员到导演-笔记.txt"
 - "00_inbox/王欢AI实践心法/_ocr_output/README.md"
 created_at: '2026-06-19'
-updated_at: '2026-06-19'
+updated_at: '2026-06-20'
 author: 王语嫣
 reviewed_by: pending
 related:
@@ -33,6 +33,7 @@ related:
 - '[[dk-wanghuan-creativity-in-description-and-taste]]'
 - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[dk-wanghuan-spec-trap]]'
+- '[[dk-wanghuan-agent-platform-director-mode]]'
 - '[[concept-wanghuan-tacit-knowledge-examples]]'
 tags:
 - 人机协作
