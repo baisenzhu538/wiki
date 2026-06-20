@@ -5,10 +5,9 @@ title: 一堂调研武器库课程
 type: concept
 status: reviewed
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260506_bb9048a6-第一个举手
-  - src_20260507_debc47be-第一个举手
+- 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
+- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+- 00_inbox/调研专题/一堂-调研武器库培训-笔记.txt
 created_at: 2026-05-05
 domain:
 - yitang
