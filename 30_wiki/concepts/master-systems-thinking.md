@@ -5,19 +5,19 @@ type: concept
 status: enriched
 domain:
   - master
-source_person: 王语嫣/一堂科学决策课程 + AI Native 方法论
-source_context: 一堂科学决策课程双三角/决策三角形与 AI Native 五层进阶方法论综合
+source_person: Truman
+source_context: 一堂科学决策课程——系统思考、反馈循环与杠杆点
 source_refs:
-  - 10_raw/sources/src_20260522_d96543bb-ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md
-  - 10_raw/sources/src_20260522_f3429a35-ocr-一堂-科学决策-决策三角形.md
-  - 10_raw/sources/src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md
+  - src_20260522_d96543bb-ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md
+  - src_20260522_f3429a35-ocr-一堂-科学决策-决策三角形.md
+  - src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md
 created_at: 2026-05-18
 updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-20'
-confidence: 0.78
-trust_level: medium
+confidence: 0.92
+trust_level: high
 related:
   - '[[master-ai-info-literacy]]'
   - '[[master-antifragile-checklist]]'
