@@ -8,7 +8,7 @@ domain:
 - ai-collaboration
 - yitang
 created_at: '2026-06-19'
-updated_at: '2026-06-19'
+updated_at: '2026-06-20'
 author: 王语嫣
 reviewed_by: 欧阳锋
 confidence: 0.88
@@ -20,6 +20,7 @@ source_refs:
 - "10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt"
 related:
 - '[[dk-wanghuan-paced-sales-decision]]'
+- '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[case-wanghuan-shenyang-software-3x-efficiency]]'
 - '[[framework-wanghuan-task-product-system]]'

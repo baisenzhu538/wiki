@@ -34,6 +34,7 @@ related:
 - '[[dk-wanghuan-magic-defeats-magic]]'
 - '[[dk-wanghuan-spec-trap]]'
 - '[[dk-wanghuan-agent-platform-director-mode]]'
+- '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
 - '[[concept-wanghuan-tacit-knowledge-examples]]'
 tags:
 - 人机协作

@@ -37,6 +37,7 @@ diagnostic_signals:
 related:
 - '[[case-wanghuan-education-sales-paced]]'
 - '[[dk-wanghuan-paced-sales-decision]]'
+- '[[dk-wanghuan-tacit-decision-extraction-cross-domain]]'
 - '[[framework-wanghuan-actor-director-mode]]'
 - '[[tool-wanghuan-ai-dual-role-coach]]'
 - '[[concept-wanghuan-tacit-knowledge-examples]]'
