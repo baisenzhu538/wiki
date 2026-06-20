@@ -1,60 +1,48 @@
 ---
-
 id: ai-methodology-tools
 title: AI 方法论与工具栈：主题综合知识卡
 type: framework
 status: enriched
 domain:
-- ai
-- ai-collaboration
-- learning-methodology
+  - ai
+  - ai-collaboration
+  - learning-methodology
+source_person: 王语嫣
+source_context: 听脑 AI AI 方法论与工具栈主题摘要综合提炼
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_071928f4-AI场景落地方法分享
-  - src_20260614_dec1c1fe-一堂-AI工具应用AMA
-  - src_20260614_5f13a66f-何老师-智能入口开发会议
-  - src_20260614_d5cc92d2-AI工具使用分享
-  - src_20260614_cafcbbac-AI组织行为学研究
-  - src_20260614_c5115d2c-龙虾-AI原生IM工具演示
-  - src_20260614_b3686a84-一堂-AI龙虾使用分享
-  - src_20260614_144d986e-多人-Open-Cloud培训
-  - src_20260614_c1430e21-一堂-AI方法论实践课
-  - src_20260614_4b226b4f-一堂-AI方法论探索
-  - src_20260614_d78e7c7b-智慧城市AI应用交流
-  - src_20260614_329d0e0c-theme-ai-methodology-tools-summary
+  - 10_raw/sources/src_20260614_071928f4-AI场景落地方法分享.md
+  - 10_raw/sources/src_20260614_144d986e-多人-Open-Cloud培训.md
+  - 10_raw/sources/src_20260614_4b226b4f-一堂-AI方法论探索.md
+  - 10_raw/sources/src_20260614_b3686a84-一堂-AI龙虾使用分享.md
+  - 10_raw/sources/src_20260614_c1430e21-一堂-AI方法论实践课.md
+  - 10_raw/sources/src_20260614_c5115d2c-龙虾-AI原生IM工具演示.md
+  - 10_raw/sources/src_20260614_cafcbbac-AI组织行为学研究.md
+  - 10_raw/sources/src_20260614_d5cc92d2-AI工具使用分享.md
+  - 10_raw/sources/src_20260614_dec1c1fe-一堂-AI工具应用AMA.md
+  - 10_raw/sources/src_20260614_329d0e0c-theme-ai-methodology-tools-summary.md
+  - 10_raw/sources/src_20260614_5f13a66f-何老师-智能入口开发会议.md
 tags:
-- '#method/thinking-tool'
-- '#domain/ai-saas'
-- '#method/prompt-engineering'
+  - '#method/thinking-tool'
+  - '#domain/ai-saas'
+  - '#method/prompt-engineering'
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
-author: 王语嫣
-reviewed_by: 老顽童
-review_date: '2026-06-14'
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-20'
 confidence: 0.65
 trust_level: medium
 related:
-- '[[find-old-do-small]]'
-- '[[ai-collaboration-mindset-shift]]'
-- '[[ai-landing-scene-selection]]'
-- '[[ai-learning-closed-loop]]'
-- '[[course-to-skill-conversion]]'
-- '[[kdo-flywheel]]'
+  - '[[find-old-do-small]]'
+  - '[[ai-collaboration-mindset-shift]]'
+  - '[[ai-landing-scene-selection]]'
+  - '[[ai-learning-closed-loop]]'
+  - '[[course-to-skill-conversion]]'
+  - '[[kdo-flywheel]]'
 ---
 # AI 方法论与工具栈：主题综合知识卡
 
-> 本卡基于 `90_control/itingnao-kit/work/theme-ai-methodology-tools-summary.md` 中的 11 条录音 meetingSummary 摘要提炼而成。**未逐段核对原文**，关键结论已按置信度分层，不确定处标注「待原文复核」。
+> 本卡基于 `90_control/itingnao-kit/work/theme-ai-methodology-tools-summary.md` 中的 10 条录音 meetingSummary 摘要提炼而成（已剔除 1 条药柜/医疗相关录音）。**未逐段核对原文**，关键结论已按置信度分层，不确定处标注「待原文复核」。
 
 ## 主题定义
 
@@ -98,7 +86,6 @@ related:
 | 5060599 | 多人-Open Cloud 培训 | 企业级智能体应用 | 长时间自主工作、记忆系统、Skill 市场、成本替代案例 |
 | 4431344 | 一堂-AI 方法论实践课 | 方法论产品化 | TCPR、上下文工程、AI 团队四阶段、线索转化率提升 |
 | 4288010 | 一堂-AI 方法论探索 | 认知体系构建 | Muse 模型、双三角、Feature 思维、原子封装 |
-| 1486162 | 智慧城市 AI 应用交流 | ⚠️ 含药柜/医疗内容，建议移出 | 见下方「药柜标注」 |
 
 ## 六层交叉验证
 
@@ -159,7 +146,7 @@ related:
 ## 置信度分层
 
 ### 事实层
-- 主题下共有 11 条录音，非医疗/药柜核心内容 10 条。
+- 主题下共有 10 条录音（已剔除 1 条药柜/医疗相关录音）。
 - 关键术语多次出现：双三角模型、Feature、Skill、Agent、龙虾、Openclaw、智能入口、五步流程、平行运行。
 - 主讲人/发言人身份多数标注为"说话人 1""发言人 1"，具体姓名待原文复核。
 
@@ -190,15 +177,18 @@ related:
 4. **证据补充**：对"73.2% 认知投降""40%→80% 转化率""200 美元替代 2 万美元"等数据补充原始出处或标注为"未验证口述数据"；其中"效率提升 300%"已确认无原文支持，不再保留。
 5. **管线注册**：如本卡后续升级进入 30_wiki，需按 KDO 三步编译法补充 Critique 与 Synthesis，并注册 source_refs 到 `10_raw/sources/`。
 
-## 药柜 / 医疗内容标注
+## 子主题映射与待拆分提示
 
-录音 **1486162（智慧城市 AI 应用交流）** 明显涉及药柜/医疗主题，不应混入本卡：
+本卡为 theme 级综合草稿，建议拆分为以下子卡：
 
-- 发言者自称"从事医疗行业 16 年，现转向智慧城市"。
-- 讨论内容包括：**消费医疗小程序**、智慧水务/水利、AI 行为识别系统、特殊学校项目。
-- 涉及人物/公司：朱博士、李总、张总、联通、警方学院等，信息碎片化且以个人背景与商务沟通为主。
+- [[ai-landing-scene-selection]]（已存在）：五步落地与场景选择
+- [[ai-collaboration-mindset-shift]]（已存在）：人机分工与双三角模型
+- `feature-thinking-ai-capability`（待建）：Feature 思维与 AI 能力训练
+- `tcpr-ai-methodology`（待建）：TCPR 方法论产品化
+- `lobster-ai-native-collaboration`（待建）：龙虾/Openclaw 与 AI 原生协作
+- `intelligent-entrypoint-ai`（待建）：智能入口与基础设施落地
 
-**建议**：将 1486162 移入**药柜处理队列**（如 `90_control/itingnao-kit/medical-queue/` 或等效位置），由负责医疗/药柜主题的流程单独处理。本卡仅基于其余 10 条录音生成。
+> 注：录音 1486162（智慧城市 AI 应用交流）因含药柜/医疗内容，已剥离至 `60_feedback/pending-wiki-cards/pending-smart-city-medical-2026-06-20.md`，本卡不再引用。
 
 ---
 

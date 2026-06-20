@@ -1,32 +1,29 @@
 ---
-
 id: product-business-strategy
-title: 产品-商业战略综合：设备运营、方向取舍与产品开发
+title: 产品-商业战略综合：设备运营、方向取舍与产品开发：主题综合索引卡
 type: concept
 status: enriched
 domain:
-- product
-- business-strategy
-- entrepreneur
+  - product
+  - business-strategy
+  - entrepreneur
+source_person: 王语嫣
+source_context: 听脑产品-商业战略主题摘要综合（3 条录音 meetingSummary）
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_5f74ed61-多人-项目问题沟通
-  - src_20260614_0e07078e-多人-产品方向选择讨论
-  - src_20260614_8a0317f1-产品-市场分析讨论
-  - src_20260614_0e6fd2e7-theme-product-business-summary
+  - 10_raw/sources/src_20260614_5f74ed61-多人-项目问题沟通.md
+  - 10_raw/sources/src_20260614_0e07078e-多人-产品方向选择讨论.md
+  - 10_raw/sources/src_20260614_8a0317f1-产品-市场分析讨论.md
+  - 10_raw/sources/src_20260614_0e6fd2e7-theme-product-business-summary.md
 tags:
-- '#method/decision-framework'
-- '#method/execution-method'
+  - '#method/decision-framework'
+  - '#method/execution-method'
 created_at: '2026-06-14'
-updated_at: '2026-06-14T16:09:18+00:00'
-author: 王语嫣
-reviewed_by: 老顽童
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
 confidence: 0.65
 trust_level: medium
-review_date: '2026-06-14'
+review_date: '2026-06-20'
 ---
 # 产品-商业战略综合：设备运营、方向取舍与产品开发
 
@@ -246,3 +243,34 @@ review_date: '2026-06-14'
 
 - 清理时间：2026-06-14
 - 置信度与信任等级：维持原设置，不因清理而提升。
+
+---
+
+## 子主题映射表
+
+| 子主题 | 建议拆分为独立卡 | 当前位置 | 状态 |
+|---|---|---|---|
+| 设备运营 troubleshooting | `case-device-operation-troubleshooting` | 核心洞察 #1 | 待拆分 |
+| 战略方向四选一取舍 | `case-strategic-direction-tradeoff` | 核心洞察 #2 | 待拆分 |
+| 食品饮料产品开发标准化 | `concept-food-beverage-product-standardization` | 核心洞察 #4 | 待拆分 |
+| 药食同源电商方向 | `pending-smart-medicine-cabinet-medicinal-food-ecommerce` | 核心洞察 #3 | 已剥离（见下文） |
+
+---
+
+## 口述数据标注
+
+| 数据/断言 | 来源类型 | 验证状态 |
+|---|---|---|
+| 方向四约需 200 万启动资金、京东资源支持 | 项目方自述 | 未独立验证 |
+| 药食同源市场规模 3700 亿+、电商增速 28.9% | 外部公开报告 | ✅ 已多源交叉验证 |
+| 日销 600 单 | 第三方门店案例引用 | 非该团队自身数据 |
+| 电压不稳定是否为设备故障根本原因 | 当事人自述不确定 | 只能作为待排查因素 |
+
+---
+
+## 药柜/医疗内容分离说明
+
+| 内容片段 | 涉及主题 | 处理方式 |
+|---|---|---|
+| 方向四（药食同源电商） | 中医药/健康食品 | 保留索引，核心数据与策略建议已登记至 `60_feedback/pending-wiki-cards/pending-medicinal-food-ecommerce-2026-06-20.md`，待后续决定是否新建 `smart-medicine-cabinet-*` 卡 |
+| 设备运营、战略取舍、食品饮料标准化 | 通用产品-商业 | 保留在本卡 |

@@ -1,86 +1,52 @@
 ---
-
 id: yitang-methodology-system
 title: 一堂方法论体系：从科学做事到无限进步
 type: concept
 status: enriched
 domain:
-- yitang
-- master
-- learning-methodology
+  - yitang
+  - master
+  - learning-methodology
+source_person: 王语嫣
+source_context: 听脑 AI 一堂方法论主题摘要综合提炼
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_6d9f7671-业务公式拆解培训
-  - src_20260614_a25ca678-一堂-AI数据必修课
-  - src_20260614_64015d4d-AI数据第一课闲聊篇.mp4
-  - src_20260614_1be3d76f-一堂-思维模型案例分享
-  - src_20260614_faa8021d-Y模型探索营-第二节课
-  - src_20260614_842be4c9-一堂-Y模型实操探索营
-  - src_20260614_239c9f4e-一堂-知识萃取探索营
-  - src_20260614_b65be94b-一堂-IPO模型实操课
-  - src_20260614_c944bda5-一堂-案例必修课
-  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
-  - src_20260614_2e2a1e9c-一堂-商业项目宣讲会
-  - src_20260614_a3ae193a-一堂-《原则》拆书分享
-  - src_20260614_93ffa2b0-一堂-公司AI转型
-  - src_20260614_b23e9ae3-波特五力模型-商业分析
-  - src_20260614_70cde3fb-一堂-需求评估方法论
-  - src_20260614_610cbfc3-一堂-新人落地必修课
-  - src_20260614_f2578dfb-一堂-世总会0到1实践
-  - src_20260614_6b2c4f5b-一堂-To-B业务探索分享
-  - src_20260614_ea308189-一堂-教学能力修炼分享
-  - src_20260614_aceef535-一堂-线下训战营介绍
-  - src_20260614_dcf9d023-战略培训-案例分析
-  - src_20260614_4ff08501-商业分析方法论培训
-  - src_20260614_22f103f0-战略培训-实战案例分析
-  - src_20260614_3501eb39-一堂-PCPR模型课程
-  - src_20260614_78622699-战略培训-九层宝塔模型
-  - src_20260614_46bc4b82-一堂-AI业务应用分享
-  - src_20260614_9ca806cd-theme-yitang-methodology-summary
+  - 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+  - 10_raw/sources/src_20260614_1be3d76f-一堂-思维模型案例分享.md
+  - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
+  - 10_raw/sources/src_20260614_3501eb39-一堂-PCPR模型课程.md
+  - 10_raw/sources/src_20260614_610cbfc3-一堂-新人落地必修课.md
+  - 10_raw/sources/src_20260614_64015d4d-AI数据第一课闲聊篇.mp4.md
+  - 10_raw/sources/src_20260614_6d9f7671-业务公式拆解培训.md
+  - 10_raw/sources/src_20260614_70cde3fb-一堂-需求评估方法论.md
+  - 10_raw/sources/src_20260614_78622699-战略培训-九层宝塔模型.md
+  - 10_raw/sources/src_20260614_842be4c9-一堂-Y模型实操探索营.md
+  - 10_raw/sources/src_20260614_8f80cb0f-一堂-课程地图精华串讲.md
+  - 10_raw/sources/src_20260614_93ffa2b0-一堂-公司AI转型.md
+  - 10_raw/sources/src_20260614_a25ca678-一堂-AI数据必修课.md
+  - 10_raw/sources/src_20260614_b23e9ae3-波特五力模型-商业分析.md
+  - 10_raw/sources/src_20260614_b65be94b-一堂-IPO模型实操课.md
+  - 10_raw/sources/src_20260614_c944bda5-一堂-案例必修课.md
+  - 10_raw/sources/src_20260614_f2578dfb-一堂-世总会0到1实践.md
+  - 10_raw/sources/src_20260614_faa8021d-Y模型探索营-第二节课.md
+  - 10_raw/sources/src_20260614_9ca806cd-theme-yitang-methodology-summary.md
 tags:
-- '#domain/yitang'
-- '#method/learning-method'
-- '#master-system'
+  - '#domain/yitang'
+  - '#method/learning-method'
+  - '#master-system'
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
-author: 王语嫣
-reviewed_by: 老顽童
-review_date: '2026-06-14'
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-20'
 confidence: 0.65
 trust_level: medium
 related:
-- '[[ai-landing-scene-selection]]'
-- '[[find-old-do-small]]'
-- '[[course-to-skill-conversion]]'
-- '[[ai-learning-closed-loop]]'
-- '[[master-first-principles]]'
-- '[[master-systems-thinking]]'
+  - '[[ai-landing-scene-selection]]'
+  - '[[find-old-do-small]]'
+  - '[[course-to-skill-conversion]]'
+  - '[[ai-learning-closed-loop]]'
+  - '[[master-first-principles]]'
+  - '[[master-systems-thinking]]'
 ---
 # 一堂方法论体系：从科学做事到无限进步
 

@@ -1,38 +1,33 @@
 ---
-
 id: supply-chain-beverage
-title: 餐饮渠道饮料产品成本-口感-供应链综合洞察
+title: 餐饮渠道饮料产品成本-口感-供应链综合洞察：主题综合索引卡
 type: concept
 status: enriched
 domain:
-- business-strategy
-- product
-- entrepreneur
+  - business-strategy
+  - product
+  - entrepreneur
+source_person: 王语嫣
+source_context: 听脑餐饮渠道饮料主题摘要综合（3 条录音 meetingSummary）
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260619_2b1a1c00_90_control_itingnao_kit_work_theme_supply_chain_beverage_summary.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_16c4bf0d-双柚汁产品成本沟通
-  - src_20260614_d6ab6fb6-产品调配-口感与成本讨论
-  - src_20260614_9b574611-金银花浓缩汁餐饮产品方案
-  - 90_control/itingnao-kit/work/theme-supply-chain-beverage-summary.md
-  - src_20260614_95352714-theme-supply-chain-beverage-summary
+  - 10_raw/sources/src_20260614_16c4bf0d-双柚汁产品成本沟通.md
+  - 10_raw/sources/src_20260614_d6ab6fb6-产品调配-口感与成本讨论.md
+  - 10_raw/sources/src_20260614_9b574611-金银花浓缩汁餐饮产品方案.md
+  - 10_raw/sources/src_20260614_95352714-theme-supply-chain-beverage-summary.md
 tags:
-- '#industry/local-service'
-- '#method/management-tool'
-- '#method/evaluation-method'
-- '#method/product-design'
-- '#itingnao'
+  - '#industry/local-service'
+  - '#method/management-tool'
+  - '#method/evaluation-method'
+  - '#method/product-design'
+  - '#itingnao'
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
-author: 王语嫣
-reviewed_by: 老顽童
-review_date: '2026-06-14'
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-20'
 related:
-- '[[smart-medicine-cabinet-distribution]]'
-- '[[yt-unit-model-overview]]'
+  - smart-medicine-cabinet-distribution
+  - yt-unit-model-overview
 confidence: 0.65
 trust_level: medium
 ---
@@ -286,3 +281,32 @@ trust_level: medium
 
 - 清理时间：2026-06-14
 - 置信度与信任等级：维持原设置，不因清理而提升。
+
+---
+
+## 子主题映射表
+
+| 子主题 | 建议拆分为独立卡 | 当前位置 | 状态 |
+|---|---|---|---|
+| 双柚汁成本-口感权衡 | `case-shuangyouju-cost-taste-tradeoff` | 核心洞察 #1 | 待拆分 |
+| 产品调配口感与成本 | `concept-beverage-formulation-cost-taste` | 核心洞察 #2 | 待拆分 |
+| 金银花浓缩汁餐饮方案 | `case-honeysuckle-concentrate-catering` | 核心洞察 #3 | 待拆分 |
+| 渠道定价与供应链策略 | `concept-catering-beverage-pricing-supply-chain` | 核心洞察 #4 | 待拆分 |
+
+---
+
+## 口述数据标注
+
+| 数据/断言 | 来源类型 | 验证状态 |
+|---|---|---|
+| 双柚汁成本 21.5 元/升、香精 33 公斤/吨 | 录音原文 | ✅ 已核对 |
+| 毛利率 30%、终端 8-15 元/升 | 录音原文 | ✅ 已核对 |
+| 洛神陈皮广东接受度较低 | 纪要语义放大 | 需复核录音或消费者调研 |
+| 无添加/草本概念支撑溢价 | 项目方主观判断 | 需外部市场数据验证 |
+| 同主题下混入 1 条智能药柜硬件开发录音 | 主题摘要 | 已单独标注，未纳入本卡分析 |
+
+---
+
+## 药柜/医疗内容分离说明
+
+经扫描，本卡主题为餐饮渠道饮料，未发现药柜/医疗专属内容。同主题下混入的 1 条智能药柜硬件开发录音已单独标注，未纳入本卡分析；如需处理，应归入 `smart-medicine-cabinet-hardware-development` 队列。

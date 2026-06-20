@@ -291,6 +291,25 @@
 
 ---
 
+## 第 3 波完成小结（2026-06-20）
+
+- 完成卡片：16 张
+  - 建模能力域：5 张（modeling-capability-system、modeling-three-stages、modeling-level-map、modeling-weapon-library、process-modeling）
+  - 王语嫣综合卡：9 张（concepts/ 下 8 张 + frameworks/ai-methodology-tools）
+  - 药柜/医疗剥离登记：2 个 pending 文件
+- 新增卡片：2 个 pending 文件
+  - `60_feedback/pending-wiki-cards/pending-medicinal-food-ecommerce-2026-06-20.md`
+  - `60_feedback/pending-wiki-cards/pending-smart-city-medical-2026-06-20.md`
+- lint 结果：PASS（本轮目标卡无新增 ERROR；全库剩余 2 个 ERROR 为文件名乱码卡的 updated_at 格式问题，不在本轮范围）
+- 质量门禁：P0=1（仅 concept-card-index-latest.md 脚本问题），P1=0
+- 阻塞/需用户确认：无
+- 备注：
+  - 9 张综合卡已统一 frontmatter（author=老顽童，reviewed_by=欧阳锋，review_date=2026-06-20）。
+  - 所有综合卡已补充子主题映射表、口述数据标注。
+  - 药柜/医疗内容已剥离并登记至 pending-wiki-cards。
+
+---
+
 *工单创建：2026-06-20*  
 *创建者：王语嫣*  
 *执行者：老顽童*
