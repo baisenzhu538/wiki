@@ -3,7 +3,7 @@ id: dk-wanghuan-agent-platform-director-mode
 title: 王欢暗知识：Agent 平台的正确用法是当导演，不是当甩手掌柜
 type: dark-knowledge
 dark_knowledge_type: workflow
-status: draft
+status: enriched
 domain:
 - human-ai-collaboration
 - ai-collaboration
@@ -11,8 +11,8 @@ domain:
 created_at: '2026-06-20'
 updated_at: '2026-06-20'
 author: 老顽童
-reviewed_by: pending
-confidence: 0.7
+reviewed_by: 欧阳锋
+confidence: 0.78
 trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享视频闲聊 Q&A（用户转述，2026-06-18 授课），口述稿最后部分交叉验证

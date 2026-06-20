@@ -3,9 +3,8 @@ updated: 2026-06-20
 active_branch: main
 active_task: "王欢AI实践域完成；startup.md上线；识别Prompt vs 档案的本质差异"
 blockers:
-  - "老顽童已产出王欢闲聊Q&A暗知识卡 1 张（Agent平台导演式使用），待欧阳锋审查"
   - "各Agent需建立自己的AI业务档案（行业暗规则字段）"
-next_session_hint: "用户说'继续'→ ① 推进各Agent建立AI业务档案（用王欢5字段模板，重点挖行业暗规则）；② 欧阳锋审查dk-wanghuan-agent-platform-director-mode；③ 王语嫣角色升级AGENTS.md"
+next_session_hint: "用户说'继续'→ ① 推进各Agent建立AI业务档案（用王欢5字段模板，重点挖行业暗规则）；② 王语嫣角色升级AGENTS.md"
 ---
 
 ## 📢 全厂通知（2026-06-19）
