@@ -16,8 +16,8 @@ updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-20'
-confidence: 0.75
-trust_level: medium
+confidence: 0.92
+trust_level: high
 related:
   - '[[master-antifragile-checklist]]'
   - '[[master-cognitive-bias-checklist]]'
