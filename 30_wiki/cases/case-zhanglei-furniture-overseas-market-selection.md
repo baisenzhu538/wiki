@@ -1,0 +1,35 @@
+---
+id: case-zhanglei-furniture-overseas-market-selection
+title: 案例：张磊——洗衣液蹲超市+假扮促销员
+type: case
+status: enriched
+author: 老顽童
+reviewed_by: 待审
+review_date: 2026-06-21
+created_at: 2026-06-21
+confidence: 0.85
+trust_level: high
+language: zh-CN
+domain: [yitang, research]
+source_refs:
+- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+related:
+- "[[tool-yitang-field-research]]"
+- "[[tool-yitang-social-engineering-research]]"
+---
+
+# 案例：洗衣液市场调研——蹲超市+假扮促销员
+
+**人物**：张磊（化名），多次消费品创业者。
+
+**做法**：调研内衣洗衣液这个垂直品类时，第一步判断"女生真的对内衣洗衣液有需求吗？"——不是看报告，不是做问卷，是直接去超市蹲点。观察什么人在洗衣液货架前停留，拿了什么，放回去什么。后来又假扮促销员，直接跟消费者聊天。
+
+**拿到什么**：真实的消费者购买行为——什么人在买、为什么买、什么因素让她们放回货架。
+
+**核心洞察**：最原始的方法往往最有效。蹲在超市货架前看2小时，比看20份消费者报告更接近真相。
+
+口述案例，细节待独立核实。
+
+---
+
+*卡片类型：case | 审核状态：待审*
