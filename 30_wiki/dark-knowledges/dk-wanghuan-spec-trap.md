@@ -2,6 +2,7 @@
 id: dk-wanghuan-spec-trap
 title: 王欢暗知识：Spec 陷阱——过度拆解会锁死 AI 上限
 type: dark-knowledge
+dark_knowledge_type: insight
 status: enriched
 domain:
 - human-ai-collaboration

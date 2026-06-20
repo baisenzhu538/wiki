@@ -2,6 +2,7 @@
 id: yt-demand-market-size-pitfalls
 title: 市场规模估算的5个陷阱：从"拍脑袋"到"结构化验证"
 type: dark-knowledge
+dark_knowledge_type: insight
 status: enriched
 confidence: 0.92
 trust_level: high
@@ -14,7 +15,7 @@ source_refs:
   - src_20260610_2b360d66-一堂-一堂五步法-需求-市场规模估算四种方法.md
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
 created_at: "2026-06-19"
-updated_at: "2026-06-19"
+updated_at: "2026-06-20"
 author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"

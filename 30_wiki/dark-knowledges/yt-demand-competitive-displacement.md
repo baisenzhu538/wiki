@@ -2,9 +2,10 @@
 id: yt-demand-competitive-displacement
 title: 需求替代陷阱：竞品不是敌人，替代方案才是
 type: dark-knowledge
+dark_knowledge_type: insight
 status: enriched
-confidence: 0.92
-trust_level: high
+confidence: 0.78
+trust_level: medium
 domain:
   - yitang
   - product
@@ -13,7 +14,7 @@ source_context: 一堂五步法需求分析——替代方案分析
 source_refs:
   - src_20260610_2a188b41-一堂-一堂五步法-需求-口述.md
 created_at: "2026-06-19"
-updated_at: "2026-06-19"
+updated_at: "2026-06-20"
 author: 老顽童
 reviewed_by: "欧阳锋"
 review_date: "2026-06-19"

@@ -24,7 +24,6 @@ related:
   - yt-demand-decision-chain
   - yt-demand-qualitative-analysis
   - yt-five-step-method
-  - xujian-tob-fivestep-oral
 diagnostic_signals:
   - signal: "用户用ToC方法做ToB产品，只关注使用者，忽视决策者"
     framework_lens: ToB vs ToC差异——ToB必须分析决策链

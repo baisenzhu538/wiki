@@ -2,9 +2,10 @@
 id: yt-product-kernel-premature-optimization
 title: 过早细化陷阱：在验证前追求完美
 type: dark-knowledge
+dark_knowledge_type: insight
 status: enriched
-confidence: 0.93
-trust_level: high
+confidence: 0.78
+trust_level: medium
 domain:
   - yitang
   - product
@@ -14,7 +15,7 @@ source_refs:
   - src_20260606_640c2818-一堂-产品内核实操课-Truman-口述.md
   - src_20260606_094098c1-一堂-产品内核验证课-Truman-口述.md
 created_at: "2026-06-19"
-updated_at: "2026-06-19"
+updated_at: "2026-06-20"
 author: 老顽童
 reviewed_by: "待审"
 review_date: "2026-06-19"

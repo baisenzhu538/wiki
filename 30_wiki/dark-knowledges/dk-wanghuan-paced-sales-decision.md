@@ -2,6 +2,7 @@
 id: "dk-wanghuan-paced-sales-decision"
 title: "暗知识：复制销冠不是复制话术——是还原决策链"
 type: "dark-knowledge"
+dark_knowledge_type: insight
 domain:
   - "yitang"
   - "ai-collaboration"
@@ -11,9 +12,9 @@ confidence: 0.88
 author: 王语嫣
 difficulty: "intermediate"
 language: "zh-CN"
-created_at: 2026-06-19T10:02:33+00:00
-updated_at: 2026-06-19
-review_date: 2026-06-19T10:02:33+00:00
+created_at: '2026-06-19'
+updated_at: '2026-06-20'
+review_date: '2026-06-19'
 reviewed_by: 欧阳锋
 trust_level: medium
 source_refs:

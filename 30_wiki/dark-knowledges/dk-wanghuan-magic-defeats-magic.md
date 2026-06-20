@@ -2,6 +2,7 @@
 id: dk-wanghuan-magic-defeats-magic
 title: 王欢暗知识：不知道怎么定标准时，用 AI 对抗 AI 建立标准
 type: dark-knowledge
+dark_knowledge_type: workflow
 status: enriched
 domain:
 - human-ai-collaboration

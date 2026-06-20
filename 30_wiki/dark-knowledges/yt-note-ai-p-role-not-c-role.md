@@ -1,18 +1,21 @@
 ---
 id: yt-note-ai-p-role-not-c-role
 title: AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考
-domain:
-- yitang
-author: unknown
-reviewed_by: pending
-created_at: '2026-06-15'
+type: dark-knowledge
+dark_knowledge_type: insight
+status: draft
 confidence: 0.75
 trust_level: medium
-type: dark-knowledge
+domain:
+  - yitang
+author: 老顽童
+reviewed_by: pending
+source_person: Truman
+source_context: 一堂AI Partner设计——P角色设计哲学
 source_refs:
-- source_unknown
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
-updated_at: '2026-06-16'
+  - source_unknown
+created_at: '2026-06-15'
+updated_at: '2026-06-20'
 ---
 # AI Partner应是P角色（实践者）而非C角色（顾问）：防止AI越界替人思考
 

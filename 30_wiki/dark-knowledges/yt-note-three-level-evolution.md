@@ -1,18 +1,21 @@
 ---
 id: yt-note-three-level-evolution
 title: 碎片化→结构化→体系化：笔记认知的三级进化跃迁
-domain:
-- yitang
-author: unknown
-reviewed_by: pending
-created_at: '2026-06-15'
+type: dark-knowledge
+dark_knowledge_type: insight
+status: draft
 confidence: 0.75
 trust_level: medium
-type: dark-knowledge
+domain:
+  - yitang
+author: 老顽童
+reviewed_by: pending
+source_person: Truman
+source_context: 一堂笔记训练体系——认知三级跃迁
 source_refs:
-- source_unknown
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
-updated_at: '2026-06-16'
+  - source_unknown
+created_at: '2026-06-15'
+updated_at: '2026-06-20'
 ---
 # 碎片化→结构化→体系化：笔记认知的三级进化跃迁
 

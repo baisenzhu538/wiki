@@ -1,18 +1,21 @@
 ---
 id: yt-note-p-c-role-boundary-realworld
 title: P/C 角色真实场景边界与切换条件（基于聊天记录案例）
-domain:
-- yitang
-author: unknown
-reviewed_by: pending
-created_at: '2026-06-15'
+type: dark-knowledge
+dark_knowledge_type: insight
+status: draft
 confidence: 0.75
 trust_level: medium
-type: dark-knowledge
+domain:
+  - yitang
+author: 老顽童
+reviewed_by: pending
+source_person: Truman
+source_context: 一堂AI Partner设计——P/C角色边界真实案例
 source_refs:
-- source_unknown
-source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
-updated_at: '2026-06-16'
+  - source_unknown
+created_at: '2026-06-15'
+updated_at: '2026-06-20'
 ---
 # P/C 角色真实场景边界与切换条件（基于聊天记录案例）
 

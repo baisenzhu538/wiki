@@ -22,7 +22,7 @@ related:
   - yt-product-kernel-definition
   - yt-product-kernel-shampoo-case
   - yt-model-pan-product-aesthetic-toolkit
-  - yt-model-pan-product-aesthetic-progression
+  - yt-model-aesthetic-progression
   - yt-five-step-method
 diagnostic_signals:
   - signal: "用户说'产品功能很好，但用户无感'"

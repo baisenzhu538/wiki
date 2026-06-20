@@ -2,9 +2,10 @@
 id: yt-growth-scaling-pitfalls
 title: 增长规模化陷阱
 type: dark-knowledge
+dark_knowledge_type: insight
 status: enriched
-confidence: 0.93
-trust_level: high
+confidence: 0.78
+trust_level: medium
 domain:
   - yitang
   - business

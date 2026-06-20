@@ -23,7 +23,6 @@ related:
   - yt-demand-scenario-reconstruction
   - yt-demand-qualitative-analysis
   - yt-five-step-method
-  - xujian-tob-fivestep-oral
 diagnostic_signals:
   - signal: "ToB产品只关注使用者需求，但采购决策者不买账"
     framework_lens: ToB决策链——每个角色需求不同，必须分别分析
