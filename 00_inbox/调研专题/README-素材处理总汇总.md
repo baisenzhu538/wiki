@@ -112,7 +112,7 @@ references/
 
 ## 六、后续建议
 
-1. **图片 OCR 补充**: 当前仅完成 VLM 结构描述，如需逐字提取图中文字，可补跑 `batch-paddleocr-js`
+1. **图片 OCR 提取**: ✅ 已完成，48 张 `_ocr_text.md`，MiniMax M3 OCR 模式逐字提取
 2. **低置信度图片**: 4 张 confidence=0.3 的图片建议人工命名或单独处理
 3. **PDF 深度分析**: 3 份 PDF 对话记录含丰富调研案例，可做摘要提取
 4. **ZIP Skill 集成**: `business-research-skill` 和 `deep-research` 可提炼为 Hermes 技能
