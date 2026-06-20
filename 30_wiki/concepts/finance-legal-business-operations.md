@@ -1,35 +1,30 @@
 ---
-
 id: finance-legal-business-operations
-title: 企业财务-法务-商务运营实务
+title: 企业财务-法务-商务运营实务：主题综合索引卡
 type: concept
 status: enriched
 domain:
-- business-strategy
-- entrepreneur
-- management
+  - business-strategy
+  - entrepreneur
+  - management
+source_person: 王语嫣
+source_context: 听脑财务-法务-商务主题摘要综合（6 条录音 meetingSummary）
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_ccba327a-多人-系统费用沟通
-  - src_20260614_d1166483-朱总-项目履约沟通
-  - src_20260614_83ed5758-多人-进项税处理沟通
-  - src_20260614_6e91528d-项目分账与支付对接方案
-  - src_20260614_fbe4a480-企业高新技术与专精特新资质申报规划
-  - src_20260614_40afd886-theme-finance-legal-business-summary
+  - 10_raw/sources/src_20260614_ccba327a-多人-系统费用沟通.md
+  - 10_raw/sources/src_20260614_d1166483-朱总-项目履约沟通.md
+  - 10_raw/sources/src_20260614_83ed5758-多人-进项税处理沟通.md
+  - 10_raw/sources/src_20260614_6e91528d-项目分账与支付对接方案.md
+  - 10_raw/sources/src_20260614_fbe4a480-企业高新技术与专精特新资质申报规划.md
+  - 10_raw/sources/src_20260614_40afd886-theme-finance-legal-business-summary.md
 tags:
-- '#domain/master'
-- '#perspective/compliance'
-- '#method/execution-method'
+  - '#domain/master'
+  - '#perspective/compliance'
+  - '#method/execution-method'
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
-author: 王语嫣
-reviewed_by: 老顽童
-review_date: '2026-06-14'
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-20'
 confidence: 0.65
 trust_level: medium
 ---
@@ -321,3 +316,31 @@ trust_level: medium
 
 - 清理时间：2026-06-14
 - 置信度与信任等级：维持原设置，不因清理而提升。
+
+---
+
+## 子主题映射表
+
+| 子主题 | 建议拆分为独立卡 | 当前位置 | 状态 |
+|---|---|---|---|
+| B2B 合同履约与资金争议 | `case-b2b-contract-payment-dispute` | 核心洞察 #1 | 待拆分 |
+| 进项税处理与税务筹划 | `concept-input-vat-tax-planning` | 核心洞察 #3 | 待拆分 |
+| 支付分账与通道费用 | `concept-payment-splitting-channel-cost` | 核心洞察 #4 | 待拆分 |
+| 高新技术/专精特新资质申报 | `concept-hitech-sme-qualification` | 核心洞察 #5 | 待拆分 |
+
+---
+
+## 口述数据标注
+
+| 数据/断言 | 来源类型 | 验证状态 |
+|---|---|---|
+| 欠款金额 11 万 15800 / 1 万 | ASR 模糊 | 待录音确认 |
+| 提前 2-3 年布局资质 | 无原文支持 | 已移除 |
+| 税务筹划合规边界 | 口述/推断 | 需财务/税务专业复核 |
+| 项目预算 "百80万"（倾向 180 万） | ASR 歧义 | 待录音确认 |
+
+---
+
+## 药柜/医疗内容分离说明
+
+经扫描，本卡主题为财务-法务-商务运营，未发现药柜/医疗专属内容。与智能药柜相关的合同/采购/分账等议题，已作为通用 B2B 运营案例处理，未单独剥离。

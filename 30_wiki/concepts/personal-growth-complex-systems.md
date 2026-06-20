@@ -1,43 +1,38 @@
 ---
-
 id: personal-growth-complex-systems
-title: 个人成长：复杂系统、消除模糊与 AI 时代个体系统
+title: 个人成长：复杂系统、消除模糊与 AI 时代个体系统：主题综合索引卡
 type: concept
 status: enriched
 domain:
-- personal-growth
-- learning-methodology
-- master
+  - personal-growth
+  - learning-methodology
+  - master
+source_person: 王语嫣
+source_context: 听脑个人成长主题摘要综合（6 条录音 meetingSummary）
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_fb753683-世界发展-偶然与必然讨论
-  - src_20260614_8d349c5b-超级个体-百万美元架构师
-  - src_20260614_82a4fdb9-凯文凯利-必然趋势分享
-  - src_20260614_6fb509a4-自我提升-消除模糊
-  - src_20260614_7963c2f2-个人中国行：使命、教学创新与平台价值
-  - src_20260614_720e62a1-theme-personal-growth-summary
+  - 10_raw/sources/src_20260614_fb753683-世界发展-偶然与必然讨论.md
+  - 10_raw/sources/src_20260614_8d349c5b-超级个体-百万美元架构师.md
+  - 10_raw/sources/src_20260614_82a4fdb9-凯文凯利-必然趋势分享.md
+  - 10_raw/sources/src_20260614_6fb509a4-自我提升-消除模糊.md
+  - 10_raw/sources/src_20260614_7963c2f2-个人中国行：使命、教学创新与平台价值.md
+  - 10_raw/sources/src_20260614_720e62a1-theme-personal-growth-summary.md
 tags:
-- '#domain/master'
-- '#method/learning-method'
+  - '#domain/master'
+  - '#method/learning-method'
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
-author: 王语嫣
-reviewed_by: 老顽童
-review_date: '2026-06-14'
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-20'
 related:
-- '[[master-systems-thinking]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[master-decision-hygiene]]'
-- '[[master-antifragile-checklist]]'
-- '[[master-first-principles]]'
-- '[[yt-personal-ipo-learning]]'
-- '[[yt-personal-knowledge-extraction]]'
-- '[[ai-collaboration-mindset-shift]]'
+  - master-systems-thinking
+  - master-cognitive-bias-checklist
+  - master-decision-hygiene
+  - master-antifragile-checklist
+  - master-first-principles
+  - yt-personal-ipo-learning
+  - yt-personal-knowledge-extraction
+  - ai-collaboration-mindset-shift
 confidence: 0.65
 trust_level: medium
 ---
@@ -298,3 +293,27 @@ trust_level: medium
 
 - 清理时间：2026-06-14
 - 置信度与信任等级：维持原设置，不因清理而提升。
+
+---
+
+## 子主题映射表
+
+| 子主题 | 建议拆分为独立卡 | 当前位置 | 状态 |
+|---|---|---|---|
+| 世界发展的偶然与必然 | `concept-contingency-and-necessity-world-development` | 录音 7756785 | 待拆分 |
+| 超级个体/百万美元架构师 | `concept-super-individual-million-dollar-architect` | 录音 6086372 | 待拆分 |
+| 凯文·凯利必然趋势 | `concept-kevin-kelly-inevitable-trends` | 录音 4265699 | 待拆分 |
+| 消除模糊：自我提升 | `concept-eliminate-ambiguity-self-improvement` | 录音 2678368 | 待拆分 |
+| 个人中国行：使命与教学创新 | `concept-personal-china-trip-mission` | 录音 1236213 | 待拆分 |
+
+---
+
+## 口述数据标注
+
+| 数据/断言 | 来源类型 | 验证状态 |
+|---|---|---|
+| 2.5% 转化率、$2777/日、720 访客 | 演讲者断言 | 无来源、无风险提示，已降级 |
+| 医疗 AI 98%-99% 准确率 | 分享者口述举例 | 未标注研究来源，适用条件需复核 |
+| 国家数据局 63 个试点 | 公开政策 | ✅ 已核对（国数综资源〔2025〕46 号） |
+| 京都未被投原子弹原因 | 口述简化 | “蜜月说”为误传，已标注 |
+| 恐龙灭绝机制 | 口述简化 | 科学共识为撞击后气候效应，已标注 |

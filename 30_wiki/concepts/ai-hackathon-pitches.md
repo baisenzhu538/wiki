@@ -1,58 +1,47 @@
 ---
-
 id: ai-hackathon-pitches
-title: AI 大航海项目路演：主题综合知识卡
+title: AI 大航海项目路演：主题综合索引卡
 type: concept
 status: enriched
 domain:
-- ai
-- entrepreneur
-- product
+  - ai
+  - entrepreneur
+  - product
+source_person: 王语嫣
+source_context: 听脑 AI 大航海项目路演主题摘要综合（11 条录音 meetingSummary）
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_3b46ff78-一堂武智院-项目介绍
-  - src_20260614_1d4cc0e0-2298战队-AI组织落地探索
-  - src_20260614_852f9158-唐三超-奶糖项目汇报
-  - src_20260614_67a2b760-科创号1301-AI应用落地汇报
-  - src_20260614_35e5c7a5-稳住战队-价值投资大师项目
-  - src_20260614_32622548-无限进步战队-AI内容营销路演
-  - src_20260614_cc542987-个人-AI航海成果汇报
-  - src_20260614_507e4b9a-AI博客项目-经验分享
-  - src_20260614_6463da99-房浩洋-AI剧本杀项目路演
-  - src_20260614_489554e9-瑶光阁-非遗珠宝项目汇报
-  - src_20260614_ef4f24d7-AI旋风组-项目介绍
-  - src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary
+  - 10_raw/sources/src_20260614_3b46ff78-一堂武智院-项目介绍.md
+  - 10_raw/sources/src_20260614_1d4cc0e0-2298战队-AI组织落地探索.md
+  - 10_raw/sources/src_20260614_852f9158-唐三超-奶糖项目汇报.md
+  - 10_raw/sources/src_20260614_67a2b760-科创号1301-AI应用落地汇报.md
+  - 10_raw/sources/src_20260614_35e5c7a5-稳住战队-价值投资大师项目.md
+  - 10_raw/sources/src_20260614_32622548-无限进步战队-AI内容营销路演.md
+  - 10_raw/sources/src_20260614_cc542987-个人-AI航海成果汇报.md
+  - 10_raw/sources/src_20260614_507e4b9a-AI博客项目-经验分享.md
+  - 10_raw/sources/src_20260614_6463da99-房浩洋-AI剧本杀项目路演.md
+  - 10_raw/sources/src_20260614_489554e9-瑶光阁-非遗珠宝项目汇报.md
+  - 10_raw/sources/src_20260614_ef4f24d7-AI旋风组-项目介绍.md
+  - 10_raw/sources/src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary.md
 tags:
-- '#domain/ai-saas'
-- '#method/communication-method'
-- '#method/product-design'
+  - '#domain/ai-saas'
+  - '#method/communication-method'
+  - '#method/product-design'
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
-author: 王语嫣
-reviewed_by: 老顽童
-review_date: '2026-06-14'
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-20'
 confidence: 0.65
 trust_level: medium
 related:
-- '[[yt-five-step-method]]'
-- '[[yt-entrepreneur-key-hypotheses]]'
-- '[[yt-tool-product-core-canvas]]'
-- '[[yt-pitch-colloquialization]]'
-- '[[concept-ai-native-organization-five-steps]]'
-- '[[ai-collaboration-mindset-shift]]'
-- '[[ai-landing-scene-selection]]'
-- '[[find-old-do-small]]'
+  - yt-five-step-method
+  - yt-entrepreneur-key-hypotheses
+  - yt-tool-product-core-canvas
+  - yt-pitch-colloquialization
+  - concept-ai-native-organization-five-steps
+  - ai-collaboration-mindset-shift
+  - ai-landing-scene-selection
+  - find-old-do-small
 ---
 # AI 大航海项目路演：主题综合知识卡
 
@@ -308,3 +297,30 @@ related:
 
 - 清理时间：2026-06-14
 - 置信度与信任等级：维持原设置，不因清理而提升。
+
+---
+
+## 子主题映射表
+
+| 子主题 | 建议拆分为独立卡 | 当前位置 | 状态 |
+|---|---|---|---|
+| AI 组织落地（2298 战队案例） | `case-ai-organization-landing-2298` | 核心洞察 #4、代表案例 | 待拆分 |
+| AI 内容营销工具（无限进步战队） | `case-ai-content-marketing-infinite-progress` | 核心洞察 #2、代表案例 | 待拆分 |
+| AI 专利智能体（科创号 1301） | `case-ai-patent-agent-kechuang` | 核心洞察 #1、代表案例 | 待拆分 |
+| AI 剧本杀产品（房浩洋） | `case-ai-script-murder-fanghaoyang` | 核心洞察 #3、代表案例 | 待拆分 |
+| AI 非遗珠宝电商（瑶光阁） | `case-ai-intangible-jewelry-yaoguangge` | 核心洞察 #2、代表案例 | 待拆分 |
+| AI 硬件 Agent（AI 旋风组） | `case-ai-hardware-agent-xuanfeng` | 核心洞察 #2、代表案例 | 待拆分 |
+
+> 本卡定位为**主题综合索引卡**，不替代上述子卡。如需深入某一项目，应单独建立 case 卡并回听原文。
+
+---
+
+## 口述数据标注
+
+| 数据/断言 | 来源类型 | 验证状态 |
+|---|---|---|
+| 剧本杀 73% 满意度、40% 付费意愿、单局 API 成本 0.3 元 | 项目方自述 | 未独立验证 |
+| 科创号 1301 12 万高校订单、800 万中小企业客户渠道 | 项目方自述 | 未独立验证 |
+| 非遗珠宝完成 3 单成交 | 项目方自述 | 未独立验证 |
+| 2298 战队 5 个项目完成率 90%、专利撰写周期从 24h 缩至 8h | 项目方自述 | 未独立验证 |
+| 个人汇报者效率提升 32%、输出 14 份业绩文档 | 项目方自述 | 未独立验证 |

@@ -1,36 +1,33 @@
 ---
-
 id: industry-ai-cases
-title: 产业 AI 落地案例集（非药柜）
+title: 产业 AI 落地案例集（非药柜）：主题综合索引卡
 type: concept
 status: enriched
 domain:
-- ai-collaboration
-- ai-saas
+  - ai-collaboration
+  - ai-saas
+source_person: 王语嫣
+source_context: 听脑产业 AI 案例主题摘要综合（8 条录音 meetingSummary）
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_07a9fc2a-戴志龙-AI剧本创作分享
-  - src_20260614_3cefab90-奢侈品-存量时代营销逻辑
-  - src_20260614_45ab8b35-GEO业务-最佳实践讨论
-  - src_20260614_4b3b6427-阿豪-自动选品系统案例
-  - src_20260614_5e47c1c5-AI营销-AIO与G优行业分享
-  - src_20260614_b85c364e-贝壳-云管家AI外呼案例
-  - src_20260614_eca9f5b3-酒店行业-AI标签审核案例
-  - src_20260614_eed6d83c-AI四格漫画创作交流
-tags: null
+  - 10_raw/sources/src_20260614_07a9fc2a-戴志龙-AI剧本创作分享.md
+  - 10_raw/sources/src_20260614_3cefab90-奢侈品-存量时代营销逻辑.md
+  - 10_raw/sources/src_20260614_45ab8b35-GEO业务-最佳实践讨论.md
+  - 10_raw/sources/src_20260614_4b3b6427-阿豪-自动选品系统案例.md
+  - 10_raw/sources/src_20260614_5e47c1c5-AI营销-AIO与G优行业分享.md
+  - 10_raw/sources/src_20260614_b85c364e-贝壳-云管家AI外呼案例.md
+  - 10_raw/sources/src_20260614_eca9f5b3-酒店行业-AI标签审核案例.md
+  - 10_raw/sources/src_20260614_eed6d83c-AI四格漫画创作交流.md
+tags:
+  - '#domain/ai-saas'
+  - '#method/evaluation-method'
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
-author: 王语嫣
-reviewed_by: 老顽童
-review_date: '2026-06-14'
-related: null
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-20'
+related:
+  - ai-short-drama-ice-fire-scripting-compass
+  - ai-landing-scene-selection
 confidence: 0.65
 trust_level: medium
 ---
@@ -269,3 +266,30 @@ trust_level: medium
 
 - 清理时间：2026-06-14
 - 置信度与信任等级：维持原设置，不因清理而提升。
+
+---
+
+## 子主题映射表
+
+| 子主题 | 建议拆分为独立卡 | 当前位置 | 状态 |
+|---|---|---|---|
+| AI 短剧/漫剧内容生产 | `case-ai-short-drama-content-production` | 代表案例：戴志龙 | 待拆分 |
+| 奢侈品存量时代营销 | `concept-luxury-brand-marketing-stagnation` | 代表案例：奢侈品 | 待拆分 |
+| GEO/AIO 业务最佳实践 | `concept-geo-aio-service-practice` | 代表案例：GEO、AIO | 待拆分 |
+| 自动选品系统 | `case-auto-product-selection-a-hao` | 代表案例：阿豪 | 待拆分 |
+| 房产外呼 AI 应用 | `case-ai-outbound-shell` | 代表案例：贝壳 | 待拆分 |
+| 酒店标签审核人机协同 | `case-hotel-ai-tag-review` | 代表案例：酒店 | 待拆分 |
+| AI 四格漫画创作 | `case-ai-four-panel-comic` | 代表案例：四格漫画 | 待拆分 |
+
+---
+
+## 口述数据标注
+
+| 数据/断言 | 来源类型 | 验证状态 |
+|---|---|---|
+| 短剧 10 分钟出 60 集初稿、95% 以上用 AI | 课程自述 | 未独立验证 |
+| 短剧行业 1000 亿、12.8 万部、40 亿海外 | 课程自述/行业宣讲 | 未第三方交叉验证 |
+| 贝壳 60→110 场景、计划全国上线 | 项目方自述/计划 | 未跟踪实际落地 |
+| 酒店标签审核接管超 50%、规模翻倍 | 项目方自述 | 未独立验证 |
+| 奢侈品净利润 10%/20% 基线 | 演讲者主观判断 | 行业差异大，未标准化 |
+| GEO 结果付费 5 万元报价 | 口述市场询价 | 非实际成交记录 |

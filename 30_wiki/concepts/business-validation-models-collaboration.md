@@ -1,53 +1,43 @@
 ---
-
 id: business-validation-models-collaboration
-title: AI 时代的业务验证、商业模式与组织协作
+title: AI 时代的业务验证、商业模式与组织协作：主题综合索引卡
 type: concept
 status: enriched
 domain:
-- business-strategy
-- entrepreneur
-- ai
+  - business-strategy
+  - entrepreneur
+  - ai
+source_person: 王语嫣
+source_context: 听脑 other 主题摘要综合（11 条录音 meetingSummary）
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_606a631d-张磊-精益方法论培训
-  - src_20260614_cb61aeca-外卖平台-智能分单系统沟通
-  - src_20260614_fd0f5a00-多人-项目联调问题沟通
-  - src_20260614_ab09af1c-多人-FD模式解析
-  - src_20260614_909802bd-智能设备-外卖对接方案讨论
-  - src_20260614_d79b42d1-D同学-AI技术落地案例
-  - src_20260614_e38d86d9-一起引擎-由来与初心介绍
-  - src_20260614_350272ef-阿瑞老师-AI自习室共学
-  - src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a
-  - src_20260614_1a0a6efa-网络话密达数据公司介绍
-  - src_20260614_7e8857b8-theme-other-summary
+  - 10_raw/sources/src_20260614_606a631d-张磊-精益方法论培训.md
+  - 10_raw/sources/src_20260614_cb61aeca-外卖平台-智能分单系统沟通.md
+  - 10_raw/sources/src_20260614_fd0f5a00-多人-项目联调问题沟通.md
+  - 10_raw/sources/src_20260614_ab09af1c-多人-FD模式解析.md
+  - 10_raw/sources/src_20260614_909802bd-智能设备-外卖对接方案讨论.md
+  - 10_raw/sources/src_20260614_d79b42d1-D同学-AI技术落地案例.md
+  - 10_raw/sources/src_20260614_e38d86d9-一起引擎-由来与初心介绍.md
+  - 10_raw/sources/src_20260614_350272ef-阿瑞老师-AI自习室共学.md
+  - 10_raw/sources/src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a.md
+  - 10_raw/sources/src_20260614_1a0a6efa-网络话密达数据公司介绍.md
+  - 10_raw/sources/src_20260614_7e8857b8-theme-other-summary.md
 tags:
-- '#domain/ai-saas'
-- '#method/evaluation-method'
-- '#method/decision-framework'
+  - '#domain/ai-saas'
+  - '#method/evaluation-method'
+  - '#method/decision-framework'
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
-author: 王语嫣
-reviewed_by: 老顽童
-review_date: '2026-06-14'
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-20'
 confidence: 0.65
 trust_level: medium
 related:
-- '[[concept-一堂-hypothesis-driven-business-methodology]]'
-- '[[concept-一堂-product-kernel]]'
-- '[[concept-mckinsey-issue-tree]]'
-- '[[ai-collaboration-mindset-shift]]'
-- '[[ai-landing-scene-selection]]'
+  - concept-一堂-hypothesis-driven-business-methodology
+  - concept-一堂-product-kernel
+  - concept-mckinsey-issue-tree
+  - ai-collaboration-mindset-shift
+  - ai-landing-scene-selection
 ---
 # 非药柜主题综合知识卡
 
@@ -338,3 +328,26 @@ related:
 
 - 清理时间：2026-06-14
 - 置信度与信任等级：维持原设置，不因清理而提升。
+
+---
+
+## 子主题映射表
+
+| 子主题 | 建议拆分为独立卡 | 当前位置 | 状态 |
+|---|---|---|---|
+| 精益创业与假设驱动验证 | `concept-lean-startup-hypothesis-validation` | 主题定义、核心洞察 | 待拆分 |
+| 外卖平台智能分单系统 | `case-smart-dispatch-takeout-platform` | 核心洞察、代表案例 | 待拆分 |
+| FD 大客户规模化模式 | `concept-fd-partnership-scale-model` | 核心洞察 | 待拆分 |
+| AI 自习室共学组织 | `case-ai-study-room-collaboration` | 代表案例 | 待拆分 |
+| 一起引擎项目由来 | `case-yiqiying-engine-origin` | 代表案例 | 待拆分 |
+
+---
+
+## 口述数据标注
+
+| 数据/断言 | 来源类型 | 验证状态 |
+|---|---|---|
+| 设备成本 2-3 万元/台、规模化阈值 | 录音摘要 | 待原文复核 |
+| 外卖分单系统多平台接口稳定性 | 推断 | 无原文直接支持 |
+| 龙虾工具权限开放安全风险 | 推断 | 无原文直接支持 |
+| 精益方法论培训中的案例数据 | 讲师口述/学员自述 | 未独立验证 |
