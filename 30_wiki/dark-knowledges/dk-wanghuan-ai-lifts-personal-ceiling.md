@@ -2,21 +2,23 @@
 id: dk-wanghuan-ai-lifts-personal-ceiling
 title: 王欢暗知识：AI 拉升个人上限
 type: dark-knowledge
+dark_knowledge_type: insight
 status: enriched
 domain:
 - human-ai-collaboration
 - ai-collaboration
 - yitang
 created_at: '2026-06-19'
-updated_at: '2026-06-19'
+updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.88
-trust_level: high
+trust_level: medium
 source_person: 王欢
 source_context: 王欢 AI 实战分享课后问答（2026-06-18）
 source_refs:
-- src_20260618_wanghuan-ai-practice-sharing-actor-to-director-oral.txt
+- 10_raw/sources/src_20260619_536bca67_wanghuan_actor_director_oral.txt
+- 10_raw/sources/src_20260619_a3a2a803_wanghuan_actor_director_notes.txt
 related:
 - human-ai-collaboration-double-triangle
 - framework-wanghuan-actor-director-mode
