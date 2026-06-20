@@ -10,7 +10,8 @@
 |:--|:--:|:--|:--|:--:|
 | 🖼️ PNG 图片 | 48 | MiniMax M3 VLM 结构化描述 | `_vlm_desc.md` × 48 | ✅ 全成功 |
 | 📄 PDF 文档 | 3 | pymupdf 文字提取 | `_ocr.md` × 3 | ✅ 125页/11.2万字 |
-| 📝 TXT 文本 | 5 | 元数据统计 | `_meta.md` × 5 | ✅ 22.3万字 |
+| 📝 TXT 文本 | 18 | 元数据统计 | `_meta.md` × 18 | ✅ 46.7万字 |
+| 📄 DOCX 文档 | 1 | python-docx | `_ocr.md` × 1 | ✅ 7.9万字 |
 | 📦 ZIP 压缩包 | 2 | 解压 | `_extracted/` 目录 | ✅ 含调研 skill |
 
 ---

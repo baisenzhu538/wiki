@@ -10,6 +10,7 @@
 |:--|:--:|:--|:--|:--:|
 | 🖼️ PPT 截图 | 299 | MiniMax M3 VLM | `_vlm_desc.md` × 299 | ✅ 全成功 |
 | 📄 PDF 文档 | 4 | pymupdf 提取 | `_ocr.md` × 4 | ✅ 357页/28万字 |
+| 📄 DOCX 文档 | 1 | python-docx | `_ocr.md` × 1 | ✅ 3,318字 |
 
 ---
 
