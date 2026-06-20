@@ -33,10 +33,14 @@ def run_script(name, args=None):
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=120,
                                 cwd=str(VAULT_ROOT), encoding="utf-8")
-        # 提取关键统计行作为 summary
+        # 提取关键统计行
         lines = result.stdout.strip().split("\n")
-        stat_lines = [l for l in lines if l.startswith("**")]
-        summary = stat_lines[0] if stat_lines else (lines[0][:100] if lines else "no output")
+        stat_lines = [l for l in lines if "Files checked" in l or "扫描" in l or "P0" in l or "整体进度" in l or "正常" in l]
+        if stat_lines:
+            summary = stat_lines[0][:120]
+        else:
+            summary = [l for l in lines if l and not l.startswith("=")][:2]
+            summary = summary[-1][:120] if summary else "no output"
         return result.returncode, summary
     except subprocess.TimeoutExpired:
         return -1, "超时"

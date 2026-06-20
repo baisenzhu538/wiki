@@ -15,7 +15,24 @@ import json
 import sys
 from pathlib import Path
 
-HERMES_HOME = Path.home() / ".hermes"
+# Hermes 可能安装在多个位置：WSL / Windows / Git Bash
+HERMES_HOMES = [
+    Path("/home/dministrator/.hermes"),                          # WSL native
+    Path("//wsl.localhost/Ubuntu-22.04/home/dministrator/.hermes"),  # WSL via UNC
+    Path("//wsl$/Ubuntu-22.04/home/dministrator/.hermes"),       # WSL via UNC (legacy)
+    Path("/mnt/c/Users/Administrator/.hermes"),                  # Git Bash / WSL interop
+    Path.home() / ".hermes",                                     # Windows native
+]
+
+HERMES_HOME = None
+for candidate in HERMES_HOMES:
+    if (candidate / "profiles").exists():
+        HERMES_HOME = candidate
+        break
+
+if HERMES_HOME is None:
+    HERMES_HOME = Path.home() / ".hermes"  # fallback
+
 PROFILES_DIR = HERMES_HOME / "profiles"
 WIKI_VAULT = "/mnt/c/Users/Administrator/Desktop/wiki"
 

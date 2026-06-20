@@ -217,6 +217,15 @@
 
 | 脚本 | 用途 | 用法 |
 |:--|:--|:--|
+| **health-check.py** 🆕 | **一键全检**：lint + source_refs + VLM + 进度 + agent 配置 | `python 90_control/scripts/health-check.py [--quick] [--domain yitang]` |
+| **kdo_lint.py** 🆕 | frontmatter schema + **source_refs 文件存在性** + 污染检测 | `python 90_control/scripts/kdo_lint.py` |
+| **check-source-refs.py** | source_refs 健康：验证路径存在 + 标记污染模式 | `python 90_control/scripts/check-source-refs.py [--domain yitang] [--json]` |
+| **purge-dead-source-refs.py** | 批量移除虚假 source_refs（行级精确替换 + 缩进修复） | `python 90_control/scripts/purge-dead-source-refs.py --dry-run` |
+| **scan-vlm-parse-errors.py** | VLM 描述质量：parse_error / 低置信度 / 未识别类型 | `python 90_control/scripts/scan-vlm-parse-errors.py [--dir PATH]` |
+| **track-production-progress.py** | 读任务清单 → 检查卡片产出 → 算完成率 | `python 90_control/scripts/track-production-progress.py [--task PATH] [--missing]` |
+| **check-agent-config.py** 🆕 | Hermes agent 配置自检：provider / KIMI 残留 / prefill / SOUL.md | `python 90_control/scripts/check-agent-config.py [--fix]` |
+| **scaffold-domain-index.py** 🆕 | 扫描域卡片 → 生成四段式索引入口卡骨架 | `python 90_control/scripts/scaffold-domain-index.py --domain yitang --topic xxx` |
+| **kcard-quality-gate.py** | P0/P1 门禁：id/title/source_count/dangling/confidence | `python 90_control/scripts/kcard-quality-gate.py [--fix-p0]` |
 | **check-source-refs.py** | 扫全库 source_refs，验证路径存在 + 标记污染模式 | `python 90_control/scripts/check-source-refs.py [--domain yitang] [--json]` |
 | **scan-vlm-parse-errors.py** | 扫 VLM 描述文件的 parse_error / 低置信度 / 未识别类型 | `python 90_control/scripts/scan-vlm-parse-errors.py [--dir PATH] [--json]` |
 | **track-production-progress.py** | 读任务清单，检查目标卡片产出状态，算完成率 | `python 90_control/scripts/track-production-progress.py [--task PATH] [--missing] [--json]` |
