@@ -26,6 +26,7 @@ related:
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
 - '[[framework-wanghuan-gan-three-roles]]'
 - '[[framework-wanghuan-ai-five-level-ladder]]'
+- '[[framework-yitang-nine-layer-deep-dig]]'
 tags:
 - 王欢
 - OODA
