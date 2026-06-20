@@ -18,10 +18,8 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260610_91556342-一堂=一堂五步法-商业模型-线下玩具柜案例
-  - src_20260610_be139711-一堂-一堂五步法-单元模型-口述
+- src_20260610_91556342-一堂=一堂五步法-商业模型-线下玩具柜案例
+- src_20260610_be139711-一堂-一堂五步法-单元模型-口述
 status: reviewed
 title: "案例：线下玩具柜商业模式"
 trust_level: medium
@@ -38,7 +36,6 @@ pipeline:
   - confidence-source-cited
 author: "老顽童"
 ---
-
 # 案例：线下玩具柜商业模式
 
 > 来源：一堂五步法·商业模式篇 | [[yt-unit-model-three-tools]] | [[yt-barrier-analysis-cheat-sheet]] | [[yt-scale-economy-weapon-library]] | [[yt-five-step-method]]

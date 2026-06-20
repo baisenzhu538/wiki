@@ -11,14 +11,10 @@ domain:
 source_person: Truman
 source_context: 一堂《AI时代清单体笔记》课程
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01
-  - src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02
-  - src_20260510_cfbce5d1-Truman的个人成长五步法
-  - src_20260510_27fe5f0e-truman的选择：两条职业成长路线
+- src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01
+- src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02
+- src_20260510_cfbce5d1-Truman的个人成长五步法
+- src_20260510_27fe5f0e-truman的选择：两条职业成长路线
 tags:
 - '#perspective/compliance'
 - '#perspective/professional'
@@ -57,8 +53,7 @@ diagnostic_signals:
 - signal: 想用 AI 整理个人十年笔记，直接让它"建模"或"给建议"
   framework_lens: AI 在语料不足或边界不清时会产生幻觉建议
   follow_up_question: 你的笔记库是否已有 100+ 同主题案例？Agent 的角色是 P 执行还是 C 共创？
----
-# 案例：Truman AI Partner（阿蕊老师）
+---# 案例：Truman AI Partner（阿蕊老师）
 
 > Truman 用十年时间积累 1500+ 篇清单体模型笔记，将其编译为领域知识库，封装成一个 P 角色的 AI agent（内部代号"阿蕊老师"），在一堂内部使用并计划单独售卖。
 

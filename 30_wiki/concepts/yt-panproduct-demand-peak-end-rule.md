@@ -27,8 +27,7 @@ related:
 - '[[yt-model-conversion-optimization]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_041b5a94-ocr-泛产品设计-用户卡片-峰终定律
+- src_20260522_041b5a94-ocr-泛产品设计-用户卡片-峰终定律
 status: enriched
 title: 泛产品设计·用户卡片：峰终定律
 type: tool
@@ -54,8 +53,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 峰终定律：用户体验的二八定律
+---# 峰终定律：用户体验的二八定律
 
 > 需求工具箱第 9 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

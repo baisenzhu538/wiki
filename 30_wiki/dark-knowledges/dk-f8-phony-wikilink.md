@@ -10,7 +10,6 @@ source_person: system
 source_context: failure-modes.md F-KDO-008
 source_refs:
 - 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-008
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
@@ -29,8 +28,7 @@ diagnostic_signals:
 - Synthesis 段 wikilink 目标与当前卡片的 domain/module 无实质交叉
 - wikilink 指向当前卡片自身（self-link）
 - 为通过"≥2 个 wikilinks"规则而堆砌低信息量关联
----
-# F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数
+---# F-KDO-008：虚假关联→wikilink 指向自身或堆砌无关链接凑数
 
 ## 原始表述/核心洞察
 

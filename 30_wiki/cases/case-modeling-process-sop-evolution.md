@@ -9,10 +9,8 @@ domain:
 - master
 - modeling
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_4efd4e88-Truman-高阶建模-流程建模-图-01
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_4efd4e88-Truman-高阶建模-流程建模-图-01
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:
 - "#method/modeling"
 - "#content-format/sop"
@@ -47,8 +45,7 @@ diagnostic_signals:
 - signal: "团队抱怨 SOP 扼杀创造性，开始抵触"
   framework_lens: 流程建模适用边界
   follow_up_question: 哪些步骤必须标准化（高失败成本），哪些环节应该保留判断空间？这份 SOP 是否用在了不该标准化的创意型任务上？
----
-# 流程建模案例：一堂 2021-2024 年 SOP 清单演进史
+---# 流程建模案例：一堂 2021-2024 年 SOP 清单演进史
 
 > 来源：Truman-高阶建模-流程建模-图-01 | 一堂建模能力培训（Truman）
 

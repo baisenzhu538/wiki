@@ -28,8 +28,7 @@ reviewed_by: 黄药师
 source_of:
 - yt-model-prompt-engineering
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_a89ab860-meta-prompt-eng
+- src_20260522_a89ab860-meta-prompt-eng
 status: enriched
 title: 吴恩达提示词课程·一堂拆书精华
 type: report
@@ -50,8 +49,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
----
-# 吴恩达提示词课程·一堂拆书精华
+---# 吴恩达提示词课程·一堂拆书精华
 
 > **此卡已展开为完整卡片树。** 本文是课程原始笔记（20条 claims），系统化架构见 [[yt-model-prompt-engineering]]（1 framework + 4 tool + 2 concept）。
 >

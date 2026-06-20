@@ -10,7 +10,6 @@ source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
 - 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
@@ -27,8 +26,7 @@ diagnostic_signals:
 - "客户无法从10套方案中做出选择，反而要求'再出一轮看看'，导致风格确认阶段无限拖延"
 - "风格锁定后客户仍频繁要求'试试另一种风格'，说明前置选风格环节未获得明确确认"
 - "精调阶段反复返工，回溯发现是对标了未被选中的初稿风格"
----
-# AI出图前置筛选：三分钟十套方案定风格
+---# AI出图前置筛选：三分钟十套方案定风格
 
 ## 原始表述/核心洞察
 

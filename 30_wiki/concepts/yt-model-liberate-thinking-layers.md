@@ -17,8 +17,7 @@ query_triggers:
   - "解放思想五层模型"
 reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_96e45c45-qishijian-business-model
+- src_20260613_96e45c45-qishijian-business-model
 source_refs:
   - src_20260613_96e45c45-qishijian-business-model
 status: enriched
@@ -39,7 +38,6 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 ---
-
 # 解放思想五层模型
 
 > 来源：一堂《解放思想》模型图。[[一堂]] | [[yt-entrepreneur-liberate-thinking]] | [[yt-entrepreneur-scientific-method]]

@@ -8,10 +8,8 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison
-  - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
+- src_20260613_f23b86fa-corr_20260613_smart-medicine-cabinet-iteration-9-international-comparison
+- src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 created_at: 2026-06-15
 updated_at: 2026-06-15
 author: 王语嫣
@@ -20,8 +18,7 @@ review_date: 2026-06-15
 confidence: 0.82
 trust_level: high
 related: []
----
-# 国际自动取药机/药房模式经验与启示
+---# 国际自动取药机/药房模式经验与启示
 
 > **核心定位**：梳理日本、美国、欧洲在自动售药机/自动取药机/药房机器人领域的模式、监管和成败，为中国智能药柜政策设计和商业定位提供他山之石。
 

@@ -20,10 +20,8 @@ query_triggers:
 review_date: 2026-06-17
 reviewed_by: 王语嫣
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述
-  - src_20260611_3725d306-一堂-一堂五步法-单元模型-笔记
+- src_20260611_c0e6e182-一堂-一堂五步法-单元模型-口述
+- src_20260611_3725d306-一堂-一堂五步法-单元模型-笔记
 related:
 - '[[yt-unit-model-selection]]'
 - '[[yt-unit-model-build]]'
@@ -59,8 +57,7 @@ diagnostic_signals:
   framework_lens: 阶段顺序 / 反脆弱
   follow_up_question: 是否在单元模型未跑通前就开始扩张？
 author: 老顽童
----
-# 单元模型：商业模式评估的核心工具
+---# 单元模型：商业模式评估的核心工具
 
 > 来源：一堂五步法·单元模型篇 | [[yt-five-step-method]] | [[yt-market-size-estimation]] | [[yt-unit-model-build]] | [[case-unit-model-gashapon]]
 

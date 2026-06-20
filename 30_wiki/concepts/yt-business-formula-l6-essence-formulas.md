@@ -9,12 +9,9 @@ domain:
 - master
 - business-strategy
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-  - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
+- src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+- src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
+- src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 tags:
 - '#method/evaluation-method'
 - '#l6-essence'
@@ -34,8 +31,7 @@ related:
 - '[[yt-business-formula-ten-paradigms]]'
 - '[[yt-business-formula-business-pattern-selector]]'
 - '[[yt-business-formula-qualitative-metrics-library]]'
----
-# 业务公式 L6 魔法参数：跨行业本质公式集锦
+---# 业务公式 L6 魔法参数：跨行业本质公式集锦
 
 > 业务公式拆解到 L5 之后，如果继续追问“用户为什么买/为什么留/为什么复购”，就会触及 L6 魔法参数。这些公式不是普通 KPI，而是跨行业可迁移的“本质洞察”。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。
 

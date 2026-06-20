@@ -23,8 +23,7 @@ related:
 - '[[yt-model-liberate-thinking-layers]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260510_d7218337-泛产品设计审美卡片
+- src_20260510_d7218337-泛产品设计审美卡片
 status: enriched
 title: 泛产品设计审美篇：最佳实践与审美建模
 type: concept
@@ -51,8 +50,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 泛产品设计审美篇：永远以最佳实践为追求
+---# 泛产品设计审美篇：永远以最佳实践为追求
 
 > 来源：一堂泛产品设计实操第二课·审美篇口述（Truman）。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-personal-pan-product-concepts]] | [[一堂]]
 

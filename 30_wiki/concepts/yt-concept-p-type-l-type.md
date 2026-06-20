@@ -23,8 +23,7 @@ query_triggers:
   - "创业段位"
 review_date: 2026-06-06
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
+- src_20260614_8f80cb0f-一堂-课程地图精华串讲
 source_refs:
   - src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
@@ -47,7 +46,6 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 ---
-
 # P型与L型创业者
 
 > 来源：一堂商业预判课 | 阶段：预判阶段。一堂创业者类型学的核心概念，通过对比热情驱动（Passion）与逻辑驱动（Logic）两种创业者的认知模式、行为特征和失败路径，帮助创业者识别自身类型并实现认知跃迁。这是一堂老学员特别喜欢的模型之一。[[yitang-course-map]]

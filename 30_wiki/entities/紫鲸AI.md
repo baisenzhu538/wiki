@@ -26,11 +26,9 @@ review_date: 2026-05-04
 author: unknown
 confidence: 0.85
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260428_29929c1f-紫鲸ai智能体工作流平台
+- src_20260428_29929c1f-紫鲸ai智能体工作流平台
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260428_29929c1f）
----
-# 紫鲸AI
+---# 紫鲸AI
 
 > 面向中型品牌的AI内容营销操作系统——6个专精Agent编排为"数字员工团队"。
 

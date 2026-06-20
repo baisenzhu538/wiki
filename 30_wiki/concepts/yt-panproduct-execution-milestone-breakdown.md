@@ -31,8 +31,7 @@ related:
 - '[[yt-panproduct-execution-10x-validation]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解
+- src_20260522_4be84945-ocr-泛产品设计-落地卡片-里程碑拆解
 status: enriched
 title: 泛产品设计·落地卡片：里程碑拆解
 type: tool
@@ -60,8 +59,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 里程碑拆解：主动设定交付中间节点
+---# 里程碑拆解：主动设定交付中间节点
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

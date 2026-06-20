@@ -4,8 +4,6 @@ title: 人机协作操作系统：提示词工程总框架
 type: framework
 source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 domain:
 - yitang
@@ -43,8 +41,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
----
-# 人机协作操作系统：提示词工程总框架
+---# 人机协作操作系统：提示词工程总框架
 
 > 基于吴恩达《AI Prompting for Everyone》（21节课） × 一堂拆书会第202期深度消化。提示词工程不是"写提示词的技巧"，而是**把 AI 纳入自己工作系统的管理能力**。
 

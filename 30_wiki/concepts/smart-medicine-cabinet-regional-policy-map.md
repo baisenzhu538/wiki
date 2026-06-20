@@ -9,10 +9,8 @@ domain:
 - pharmaceutical-retail
 - policy-compliance
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
-  - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
+- src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
+- src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
 tags:
 - '#industry/healthcare'
 created_at: '2026-06-14'
@@ -36,8 +34,7 @@ query_triggers:
 - 黑龙江自助售药机
 difficulty: intermediate
 prerequisites: []
----
-# 各省市自助售药机政策差异地图
+---# 各省市自助售药机政策差异地图
 
 > **核心定位**：国家底线是"仅乙类 OTC"，但各省市在设置主体、设置地点、医保支付、远程药柜等方面存在差异。进入具体城市前，必须核实现行有效政策。
 

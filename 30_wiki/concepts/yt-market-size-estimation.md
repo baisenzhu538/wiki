@@ -20,10 +20,8 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260610_2b360d66-一堂-一堂五步法-需求-市场规模估算四种方法
-  - src_20260610_2a188b41-一堂-一堂五步法-需求-口述
+- src_20260610_2b360d66-一堂-一堂五步法-需求-市场规模估算四种方法
+- src_20260610_2a188b41-一堂-一堂五步法-需求-口述
 status: reviewed
 title: "市场规模估算四种方法"
 trust_level: medium
@@ -43,7 +41,6 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 ---
-
 # 市场规模估算四种方法
 
 > 来源：一堂五步法·需求篇 | [[yt-demand-analysis-hiking-map]] | [[yt-five-step-method]]

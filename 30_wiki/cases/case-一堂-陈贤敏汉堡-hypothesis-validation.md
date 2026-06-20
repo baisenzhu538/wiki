@@ -11,10 +11,8 @@ domain:
 source_person: 一堂·Truman
 source_context: 一堂-关键假设课-truman-笔记.txt、一堂-关键假设课-truman-口述.txt
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260606_22c4a291-一堂-关键假设课-truman-笔记
-  - src_20260606_9dd317aa-一堂-关键假设课-truman-口述
+- src_20260606_22c4a291-一堂-关键假设课-truman-笔记
+- src_20260606_9dd317aa-一堂-关键假设课-truman-口述
 created_at: 2026-06-08
 updated_at: '2026-06-16'
 related:
@@ -58,7 +56,6 @@ diagnostic_signals:
   framework_lens: 可迁移性检验
   follow_up_question: 实验店的数据中，哪些指标是 location-specific（如选址红利），哪些是 model-specific（如产品-价格接受度）？复制时前者会消失吗？
 ---
-
 # 案例：陈贤敏中式汉堡先开实验店验证关键假设
 
 > "他没有直接开三家店，而是先做实验验证关键假设，这就是假设思维的价值。" —— 一堂关键假设课

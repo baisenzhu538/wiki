@@ -10,7 +10,6 @@ source_person: system
 source_context: pitfalls.md P-14
 source_refs:
 - 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-14
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
@@ -28,8 +27,7 @@ trust_level: medium
 diagnostic_signals:
 - 原始卡缺少常见失败模式表与诊断信号字段
 - 关联知识未使用内部链接格式，且未与事故链 P-13/P-6 建立显式回链
----
-# P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环
+---# P-14：僵尸 claude 进程默默烧钱 — Obsidian Claudian + vault backup 死循环
 
 ## 原始表述/核心洞察
 

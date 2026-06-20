@@ -10,7 +10,6 @@ source_person: system
 source_context: failure-modes.md F-KDO-010
 source_refs:
 - 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-010
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
@@ -26,8 +25,7 @@ trust_level: medium
 diagnostic_signals:
 - "kdo lint 检查 frontmatter 的 source_refs 字段为空数组或指向不存在的文件"
 - "从卡片正文无法反推到 10_raw/sources/ 或 90_control/failure-modes.md 中的具体源文件"
----
-# F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料
+---# F-KDO-010：溯源断裂→source_refs 为空，知识卡片无法追溯到原始材料
 
 ## 原始表述/核心洞察
 

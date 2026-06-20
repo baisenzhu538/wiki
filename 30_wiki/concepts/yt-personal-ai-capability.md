@@ -24,8 +24,7 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_ea308189-一堂-教学能力修炼分享
+- src_20260614_ea308189-一堂-教学能力修炼分享
 status: enriched
 title: AI 能力（双模型）
 trust_level: medium
@@ -52,8 +51,7 @@ diagnostic_signals:
   follow_up_question: 这个结论如果错了，代价是什么？你能承担吗？
 updated_at: '2026-06-16'
 author: 老顽童
----
-# AI 能力（双模型）
+---# AI 能力（双模型）
 
 > 来源：一堂个人必修课，属于"形成竞争力"子模块。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

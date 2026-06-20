@@ -28,8 +28,7 @@ related:
 - '[[yt-model-aesthetic-progression]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_6697adcb-ocr-泛产品设计-审美卡片-美好作品想象
+- src_20260522_6697adcb-ocr-泛产品设计-审美卡片-美好作品想象
 status: enriched
 title: 泛产品设计·审美卡片：美好作品想象
 type: tool
@@ -54,8 +53,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 美好作品想象：缺对标就自己想象
+---# 美好作品想象：缺对标就自己想象
 
 > 审美工具箱第 4 张卡片。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-panproduct-aesthetic-modeling]] | [[一堂]]
 

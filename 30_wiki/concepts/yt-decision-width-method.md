@@ -31,8 +31,7 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[case-truman-poker-deck-roi]]'
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_9ca806cd-theme-yitang-methodology-summary
+- src_20260614_9ca806cd-theme-yitang-methodology-summary
 status: enriched
 title: 宽度分析工具：列推建查四步法+三层盲区清单
 trust_level: medium
@@ -91,8 +90,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 reviewed_by: 周伯通
----
-# 宽度分析工具：列推建查四步法+三层盲区清单
+---# 宽度分析工具：列推建查四步法+三层盲区清单
 
 
 

@@ -22,8 +22,7 @@ related:
 - '[[yt-personal-pan-product-aesthetics]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260510_6241b565-个人修身-泛产品设计实操
+- src_20260510_6241b565-个人修身-泛产品设计实操
 status: enriched
 title: 泛产品设计实操篇：需求分析与用户洞察
 type: concept
@@ -49,8 +48,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 泛产品设计实操篇：需求分析与用户洞察
+---# 泛产品设计实操篇：需求分析与用户洞察
 
 > 来源：一堂泛产品设计实操第一课·需求篇口述（Truman）。[[yt-model-pan-product-demand-toolkit]] | [[yt-personal-pan-product-concepts]] | [[一堂]]
 

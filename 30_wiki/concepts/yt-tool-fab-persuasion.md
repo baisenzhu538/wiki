@@ -28,8 +28,7 @@ related:
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_8f80cb0f-一堂-课程地图精华串讲
+- src_20260614_8f80cb0f-一堂-课程地图精华串讲
 status: enriched
 title: FAB核心说服：从产品特性到用户利益的转化法
 type: tool
@@ -54,8 +53,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
----
-## Summary
+---## Summary
 
 > **一句话**：90% 的产品介绍都死在第一句——因为他们在说「我有什么」，而不是「你能得到什么」。
 

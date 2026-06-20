@@ -8,8 +8,7 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_945a21d7-itingnao-deep-dive-platforms
+- src_20260613_945a21d7-itingnao-deep-dive-platforms
 created_at: 2026-06-15
 updated_at: 2026-06-15
 author: 王语嫣
@@ -18,8 +17,7 @@ review_date: 2026-06-15
 confidence: 0.7
 trust_level: medium
 related: []
----
-# 智能药柜平台合作命题交叉验证
+---# 智能药柜平台合作命题交叉验证
 
 ## 一、已记录的关键数字（原样保留）
 

@@ -10,7 +10,6 @@ source_person: 欧阳锋
 source_context: Sprint 6 审查发现，2026-05-13
 source_refs:
 - 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-8
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
@@ -29,8 +28,7 @@ diagnostic_signals:
 - 卡片通过所有格式门禁，但 Constraints & Boundaries 节完全缺失或只有空话
 - Claims 是口述稿直接摘录，零合成加工，无提炼的核心洞察
 - related 字段非空，但跨域连接只是薄标签，缺乏实质关系
----
-# C-8：批处理格式升级产生格式完整但思维空洞的卡片
+---# C-8：批处理格式升级产生格式完整但思维空洞的卡片
 
 ## 原始表述/核心洞察
 

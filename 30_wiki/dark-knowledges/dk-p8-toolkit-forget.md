@@ -10,7 +10,6 @@ source_person: system
 source_context: pitfalls.md P-8
 source_refs:
 - 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-8
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
@@ -30,8 +29,7 @@ diagnostic_signals:
 - 工具信息分散在 CLAUDE.md 或长文档中，没有独立的 toolkit.md
 - 同一工具在仓库不同位置出现多个副本或安装记录
 - toolkit.md 最后更新时间早于最近一次工具部署时间
----
-# P-8：欧阳锋忘记本地已有武器——重新调研已部署工具
+---# P-8：欧阳锋忘记本地已有武器——重新调研已部署工具
 
 ## 原始表述/核心洞察
 

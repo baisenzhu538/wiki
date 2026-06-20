@@ -23,8 +23,7 @@ reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - source_unknown
+- source_unknown
 source_context: 原始source无法追溯，已标记为source_unknown，待后续补充
 diagnostic_signals:
   - signal: "手写YAML解析器导致数据丢失"
@@ -39,8 +38,7 @@ diagnostic_signals:
   - signal: "写文件后读回来数据不一致"
     lens: "round-trip失败"
     follow_up: "写文件前做round-trip校验：读回来确认嵌套结构无损"
----
-# KDO YAML Frontmatter 安全操作指南
+---# KDO YAML Frontmatter 安全操作指南
 
 > **背景**：2026-05-31 Data Curator Phase 2 Clean 因手写 YAML 解析器导致 `visual_analysis` 4 图→5 字符串、`related` 4 链接→`level: intermediate` 的数据丢失。教训：**不要手写 YAML 解析器，用标准库**。
 

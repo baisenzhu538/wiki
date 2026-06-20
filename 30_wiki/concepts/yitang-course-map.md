@@ -13,11 +13,9 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
----
-# 一堂课程大地图
+---# 一堂课程大地图
 
 > Dataview 驱动的课程列表页。方法论框架和体系解读见 30_wiki/systems/一堂方法论体系总图|一堂方法论体系总图（权威 Hub）。
 

@@ -11,10 +11,8 @@ domain:
 source_person: Truman
 source_context: 一堂五步法-需求分析课程案例
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260610_c8e74781-一堂-一堂五步法-需求-跑步机案例-需求分析图
-  - src_20260611_745dfbb7-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr
+- src_20260610_c8e74781-一堂-一堂五步法-需求-跑步机案例-需求分析图
+- src_20260611_745dfbb7-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr
 created_at: 2026-06-11
 updated_at: '2026-06-16'
 related:
@@ -28,8 +26,7 @@ author: 黄药师
 reviewed_by: 欧阳锋
 confidence: 0.85
 trust_level: high
----
-# 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈
+---# 跑步机需求分析：在家健身场景的需求拆解与替代方案博弈
 
 > 黄药师骨架 · 老顽童填内容
 

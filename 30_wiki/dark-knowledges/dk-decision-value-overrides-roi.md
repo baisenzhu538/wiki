@@ -13,10 +13,8 @@ domain:
 source_person: 黄药师、老朱
 source_context: 2026-06-16 决策域深度对齐讨论
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - yt-decision-y-model
-  - master-decision-hygiene
+- yt-decision-y-model
+- master-decision-hygiene
 created_at: "2026-06-17"
 author: 黄药师
 reviewed_by: 黄药师
@@ -35,7 +33,6 @@ diagnostic_signals:
     framework_lens: 价值观权重检测
     follow_up_question: 团队成员愿意为这个决策付出什么个人代价？如果答案是"什么都愿意"——你正在做一个价值观驱动的决策，Y 模型帮不了你。
 ---
-
 # Y 模型失效场景：当价值观权重超过经济理性时
 
 ## 原始表述

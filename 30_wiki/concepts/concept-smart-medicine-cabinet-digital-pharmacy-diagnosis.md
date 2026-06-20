@@ -8,8 +8,7 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_98aa19d4-itingnao-deep-dive-digital-pharmacy
+- src_20260613_98aa19d4-itingnao-deep-dive-digital-pharmacy
 created_at: 2026-06-15
 updated_at: 2026-06-15
 author: 王语嫣
@@ -18,8 +17,7 @@ review_date: 2026-06-15
 confidence: 0.7
 trust_level: medium
 related: []
----
-# 知识卡草稿：智能药柜/数字药房项目诊断
+---# 知识卡草稿：智能药柜/数字药房项目诊断
 
 > 卡片编号：kc_itingnao_digital-pharmacy  
 > 对应诊断报告：`60_feedback/itingnao-deep-dive-digital-pharmacy.md`  

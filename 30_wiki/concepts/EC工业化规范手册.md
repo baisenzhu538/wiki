@@ -5,8 +5,7 @@ created_at: 2026-05-03
 domain:
   - healthcare
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260503_dadc7838-EC工业化规范手册
+- src_20260503_dadc7838-EC工业化规范手册
 status: enriched
 title: "EC工业化规范手册"
 type: concept
@@ -18,7 +17,6 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 ---
-
 # EC工业化规范手册
 
 ## Summary

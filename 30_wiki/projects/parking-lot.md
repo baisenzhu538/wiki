@@ -25,12 +25,6 @@ author: unknown
 source_context: KDO internal task tracking
 source_refs:
 - 10_raw/sources/src_20260619_9b664d88_30_wiki_projects_单柜财务测算.json
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 captured_at: '2026-06-18'
 reviewed_by: 欧阳锋
 review_date: '2026-06-19'
@@ -40,7 +34,6 @@ diagnostic_signals:
 - author 字段为 unknown，原始任务创建者未记录
 - source_refs 中部分引用为 URL 且无独立 source_id，置信度上限 0.88
 ---
-
 # 停车场清单
 
 > 已识别但尚未排期执行的任务集合。此处不承诺完成时间，仅用于防止任务遗漏，并在规划新迭代时作为输入。

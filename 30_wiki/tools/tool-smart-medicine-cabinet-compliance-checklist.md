@@ -8,8 +8,7 @@ domain:
 - healthcare
 - business-strategy
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_2286ccfb-itingnao-deep-dive-compliance
+- src_20260613_2286ccfb-itingnao-deep-dive-compliance
 created_at: 2026-06-15
 updated_at: 2026-06-15
 author: 王语嫣
@@ -18,8 +17,7 @@ review_date: 2026-06-15
 confidence: 0.75
 trust_level: medium
 related: []
----
----
+------
 
 ## Purpose
 

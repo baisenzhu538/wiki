@@ -9,10 +9,8 @@ domain:
 - master
 - modeling
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_9aca19bd-Truman-高阶建模-流程建模-开播准备-图-01
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_9aca19bd-Truman-高阶建模-流程建模-开播准备-图-01
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:
 - "#domain/yitang"
 - "#method/modeling"
@@ -47,7 +45,6 @@ diagnostic_signals:
   framework_lens: 及时复盘 + SOP 迭代
   follow_up_question: 每次意外后是否有固定动作把新规则写进 SOP，并在下一次执行前验证？
 ---
-
 # 流程建模案例：Truman 直播开播前 2 小时个人准备清单
 
 > 来源：Truman-高阶建模-流程建模-开播准备-图-01 | 一堂建模能力培训（Truman）

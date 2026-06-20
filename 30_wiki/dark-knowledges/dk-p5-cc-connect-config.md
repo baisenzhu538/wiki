@@ -10,7 +10,6 @@ source_person: system
 source_context: pitfalls.md P-5
 source_refs:
 - 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-5
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
@@ -30,8 +29,7 @@ trust_level: medium
 diagnostic_signals:
 - CLI Agent 正常但飞书 Agent 报 401 或找不到项目文件夹
 - cc-connect 的 env.conf 或 config.toml 在切换模型后未同步回切
----
-# P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
+---# P-5：cc-connect 切模型后 CLI 正常但飞书 401 + 找不到文件夹
 
 ## 原始表述/核心洞察
 

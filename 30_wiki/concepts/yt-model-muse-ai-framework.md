@@ -18,8 +18,7 @@ query_triggers:
   - "知识体系定位"
 reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260510_62b2cfa1-一堂人工智能全景图muse模型
+- src_20260510_62b2cfa1-一堂人工智能全景图muse模型
 source_refs:
   - src_20260510_62b2cfa1-一堂人工智能全景图muse模型
 status: enriched
@@ -39,7 +38,6 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 ---
-
 # MUSE 人工智能全景图 (Yitang AI MUSE Framework V3.0)
 
 > 来源：一堂《人工智能全景图·MUSE 模型》V3.0（2025.9.5 北京一堂实验室）。[[一堂]] | [[一堂方法论体系总图]]

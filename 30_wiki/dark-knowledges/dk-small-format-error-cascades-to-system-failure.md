@@ -10,8 +10,7 @@ domain:
 - ai-collaboration
 source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修中反复出现的模式：YAML引号、regex截断、source refs断裂
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 related:
 - '[[dk-p11-regex-cutoff]]'
 - '[[dk-p18-yaml-parser]]'
@@ -37,8 +36,7 @@ diagnostic_signals:
 - signal: source_refs / 路径 / ID 使用了非规范命名，导致注册表/链接解析器只能匹配前半段
   framework_lens: 命名规范失效
   follow_up_question: 如果按严格正则提取ID/路径，当前命名是否能被唯一识别？
----
-# 小格式错误在批量系统中引发级联失效
+---# 小格式错误在批量系统中引发级联失效
 
 ## 原始表述 / 核心洞察
 

@@ -11,8 +11,7 @@ domain:
 source_person: Truman
 source_context: 一堂-个人修炼-泛产品设计工具篇口述版.md
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260510_79f0f8c6-一堂-个人修炼-泛产品设计工具篇口述版
+- src_20260510_79f0f8c6-一堂-个人修炼-泛产品设计工具篇口述版
 related:
 - '[[dk-truman-iteration-to-aesthetic-ceiling]]'
 - '[[yt-personal-pan-product-tools]]'
@@ -42,8 +41,7 @@ tags:
 - '#method/product-design'
 - '#content-format/case-study'
 - '#domain/yitang'
----
-# 动机地图12版迭代：先观察再设计
+---# 动机地图12版迭代：先观察再设计
 
 > Truman在设计一堂的"学习动机地图"时，没有先画设计稿，而是**先观察了大量用户的学习行为，然后才开始设计**。这张地图经历12个版本的迭代（第一阶段），并在48小时内继续迭代到约23个版本，最终成为一堂课程体系的核心视觉交付物。
 

@@ -10,7 +10,6 @@ source_person: 欧阳锋
 source_context: Sprint 6 终审发现，2026-05-13
 source_refs:
 - 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-9
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
@@ -31,8 +30,7 @@ diagnostic_signals:
 - signal: "卡片通过 lint/validate，但 `kdo query` 返回的相关性低，或真 trigger 被淹没在长尾垃圾词中"
   framework_lens: "格式门禁只检查字段存在性和语法，不检查语义质量；query_triggers 作为 Graph RAG 检索入口，垃圾 trigger 直接降低卡片可发现性"
   follow_up_question: "抽检 3 张卡的 query_triggers，逐条问'你会这样搜吗？'，有一条不合格就返工"
----
-# C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没
+---# C-9：批处理脚本提取 query_triggers→格式合法但语义垃圾，真 trigger 被淹没
 
 ## 原始表述/核心洞察
 

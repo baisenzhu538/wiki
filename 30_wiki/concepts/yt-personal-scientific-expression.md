@@ -25,8 +25,7 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260609_bb221484-ocr-一堂-个人修炼-表达力火箭模型-执行武器库
+- src_20260609_bb221484-ocr-一堂-个人修炼-表达力火箭模型-执行武器库
 status: enriched
 title: 科学表达（火箭模型）
 trust_level: medium
@@ -54,8 +53,7 @@ diagnostic_signals:
   follow_up_question: 你为这次表达做了几次完整演练？
 updated_at: '2026-06-16'
 author: 老顽童
----
-# 科学表达（火箭模型）
+---# 科学表达（火箭模型）
 
 > 来源：一堂个人必修课"练能力"模块——科学表达必修课+公开演讲练习。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

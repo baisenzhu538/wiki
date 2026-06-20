@@ -32,8 +32,7 @@ related:
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260609_9168476b-ocr-泛产品设计-落地卡片-低成本测试mvp
+- src_20260609_9168476b-ocr-泛产品设计-落地卡片-低成本测试mvp
 status: enriched
 title: 泛产品设计·落地卡片：低成本测试MVP
 type: tool
@@ -59,8 +58,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 低成本测试MVP：用实验思维10倍速验证假设
+---# 低成本测试MVP：用实验思维10倍速验证假设
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

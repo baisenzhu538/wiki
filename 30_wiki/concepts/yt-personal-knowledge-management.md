@@ -22,8 +22,7 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
+- src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
 source_refs:
   - src_20260505_7766e197-deepseek-v4-在知识管理系统中的应用
 status: enriched
@@ -47,7 +46,6 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 ---
-
 # 知识管理
 
 > 来源：一堂个人必修课"提认知"模块——知识管理必修课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

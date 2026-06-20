@@ -26,8 +26,7 @@ related:
 - '[[yt-panproduct-demand-scenario-walkthrough]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_38ddd826-ocr-泛产品设计-用户卡片-用户分层
+- src_20260522_38ddd826-ocr-泛产品设计-用户卡片-用户分层
 status: enriched
 title: 泛产品设计·用户卡片：用户分层
 type: tool
@@ -53,8 +52,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 用户分层：分层理解用户差异
+---# 用户分层：分层理解用户差异
 
 > 需求工具箱第 2 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

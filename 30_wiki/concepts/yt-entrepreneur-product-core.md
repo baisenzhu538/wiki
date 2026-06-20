@@ -24,8 +24,7 @@ query_triggers:
   - "用户视角"
 review_date: 2026-06-06
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_0e6fd2e7-theme-product-business-summary
+- src_20260614_0e6fd2e7-theme-product-business-summary
 source_refs:
   - src_20260614_0e6fd2e7-theme-product-business-summary
 status: enriched
@@ -47,7 +46,6 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 ---
-
 # 产品内核定义、迭代与验证方法论
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。产品内核是用户愿意选择你的**最小解决方案**，是商业模式中承上启下的关键环节。通过"定义→验证→迭代"闭环，解决关键转化率问题，支撑业务长期健康发展。[[yitang-course-map]] | [[yt-system-course-catalog]]

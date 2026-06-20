@@ -17,8 +17,7 @@ related:
 - '[[yt-decision-y-model]]'
 - '[[ai时代判断力口述-3]]'
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260525_92ea6173-ai单元模型口述蒋老师
+- src_20260525_92ea6173-ai单元模型口述蒋老师
 speaker: 蒋老师（磊哥），一堂合伙人、教练
 status: enriched
 title: AI+单元模型口述（蒋老师/磊哥）
@@ -30,8 +29,7 @@ pipeline:
 author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium-high
----
-# AI+单元模型口述（蒋老师/磊哥）
+---# AI+单元模型口述（蒋老师/磊哥）
 
 > **一句话定位**：单元模型是商业可行性的最后一道防线——AI的角色不是替人算账，而是陪人拆解。人必须守住判断权。
 

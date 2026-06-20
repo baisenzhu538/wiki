@@ -12,8 +12,7 @@ scale: 公司
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 wiki_refs: []
 definition_of_done:
 - 问题描述清晰
@@ -39,8 +38,7 @@ domain:
 - yitang
 - 组织激励
 - 模型质量管理
----
-# 案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮
+---# 案例：一堂内部给模型“定价”——从 5000 元到 10 万美金的价值飞轮
 
 ## 原始表述
 

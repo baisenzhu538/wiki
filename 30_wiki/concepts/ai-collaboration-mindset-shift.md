@@ -9,8 +9,7 @@ domain:
   - yitang
 status: enriched
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
+- src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
 component_of: null
 related:
   - "[[structured-ai-workspace]]"
@@ -45,8 +44,7 @@ diagnostic_signals:
   - signal: "每天用AI但能力没有提升"
     lens: "执行者循环"
     follow_up: "检查是否在做管理者动作：派活、验收、纠偏，而非只复制粘贴"
----
-# AI协作思维转变：从"新手"到"管理者"
+---# AI协作思维转变：从"新手"到"管理者"
 
 > Source: src_20260606_42e11f09 (纪浩-AI协作方法论-口述)
 

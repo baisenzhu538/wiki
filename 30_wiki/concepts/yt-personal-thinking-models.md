@@ -20,8 +20,7 @@ query_triggers:
   - "角色推演法"
 reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_1be3d76f-一堂-思维模型案例分享
+- src_20260614_1be3d76f-一堂-思维模型案例分享
 source_refs:
   - src_20260614_1be3d76f-一堂-思维模型案例分享
 status: enriched
@@ -43,7 +42,6 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium
 ---
-
 # 思维模型：从碎片经验到稳定模型
 
 > 来源：一堂VIP思维模型案例营（Truman + 水水 + 子敬三人分享，Truman口述）。[[yt-personal-knowledge-extraction]] | [[yt-model-liberate-thinking-layers]] | [[一堂]]

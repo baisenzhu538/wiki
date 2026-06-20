@@ -29,8 +29,7 @@ related:
 - '[[yt-panproduct-demand-five-step-method]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_f5a0f2e1-ocr-泛产品设计-落地卡片-业务建模
+- src_20260522_f5a0f2e1-ocr-泛产品设计-落地卡片-业务建模
 status: enriched
 title: 泛产品设计·落地卡片：业务建模
 type: tool
@@ -55,8 +54,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 业务建模：学习拆解业务公式
+---# 业务建模：学习拆解业务公式
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

@@ -26,8 +26,7 @@ related:
 - '[[yt-panproduct-demand-user-segmentation]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_f6cf4e83-ocr-泛产品设计-用户卡片-多视角思考
+- src_20260522_f6cf4e83-ocr-泛产品设计-用户卡片-多视角思考
 status: enriched
 title: 泛产品设计·用户卡片：多视角思考
 type: tool
@@ -52,8 +51,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 多视角思考：综合内部/外部/角色考量
+---# 多视角思考：综合内部/外部/角色考量
 
 > 需求工具箱第 6 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

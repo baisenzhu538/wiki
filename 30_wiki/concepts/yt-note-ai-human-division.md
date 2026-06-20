@@ -22,14 +22,10 @@ related:
 prerequisites:
   - yt-note-checklist-concept
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01
-  - src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02
-  - src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
-  - src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02
+- src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01
+- src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02
+- src_20260609_a7f2ae2e-ocr-一堂-ai清单体笔记系统故事线-truman-图片01
+- src_20260609_6809033f-ocr-一堂-ai清单体笔记训练段位图-truman-图片02
 query_triggers:
   - AI笔记分工
   - 清单体与AI协作
@@ -58,8 +54,7 @@ updated_at: 2026-06-17
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
----
-# AI时代笔记分工边界：人在哪里，AI在哪里
+---# AI时代笔记分工边界：人在哪里，AI在哪里
 
 > 来源：一堂《AI时代清单体笔记》课程。Truman的核心判断：AI时代不是不用练笔记，而是要练更高级的笔记。清单体是人类认知与AI处理之间的"最大公约数"——但前提是，人必须先走到L3以上。
 

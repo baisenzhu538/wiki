@@ -29,8 +29,7 @@ related:
 - '[[yt-model-prompt-engineering]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary
+- src_20260614_8bd357d3-theme-ai-hackathon-pitches-summary
 status: enriched
 title: 十指讲香模型（框架）
 type: framework
@@ -47,8 +46,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
----
-# 十指讲香模型（框架）
+---# 十指讲香模型（框架）
 
 > 将干瘪的价值点转化为饱满的价值感的微观战术框架——用双手十指向下具象、向上抽象，双向拉伸。
 

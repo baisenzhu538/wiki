@@ -7,10 +7,8 @@ type: concept
 domain:
 - yitang
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260610_426daf30-一堂-一堂五步法-壁垒-口述
-  - src_20260610_8865798f-一堂-一堂五步法-增长-口述
+- src_20260610_426daf30-一堂-一堂五步法-壁垒-口述
+- src_20260610_8865798f-一堂-一堂五步法-增长-口述
 status: enriched
 confidence: 0.85
 difficulty: intermediate
@@ -52,8 +50,7 @@ wiki_refs:
 author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'
----
-# 五步法衔接：什么时候从增长切换到壁垒建设
+---# 五步法衔接：什么时候从增长切换到壁垒建设
 
 > 五步法第四步"增长"和第五步"壁垒"之间存在一个隐蔽的切换点。多数创业者要么永远不建壁垒（"增长还不够大"），要么过早建壁垒（"增长还没跑通就开始想护城河"）。本卡定义这个切换标准。
 

@@ -10,12 +10,9 @@ domain:
 - o2o
 - financial-model
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
-  - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
-  - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
+- src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
+- src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
+- src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 tags:
 - '#industry/healthcare'
 created_at: '2026-06-14'
@@ -38,8 +35,7 @@ query_triggers:
 - 即时零售药品抽成
 difficulty: intermediate
 prerequisites: []
----
-# 医药 O2O 成本与毛利结构
+---# 医药 O2O 成本与毛利结构
 
 > **核心定位**：药柜若作为 O2O 前置仓，平台抽成和配送成本会显著压缩毛利。本卡拆解医药即时零售的成本结构，帮助判断"药柜+O2O"模式是否可行。
 

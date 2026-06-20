@@ -62,8 +62,7 @@ related:
 - '[[case-milktea-five-step]]'
 reviewed_by: 王语嫣
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_96e45c45-qishijian-business-model
+- src_20260613_96e45c45-qishijian-business-model
 status: enriched
 title: 创业修炼地图
 type: framework
@@ -91,8 +90,7 @@ diagnostic_signals:
   follow_up_question: 你最近一次更新关键假设的成立概率是什么时候？有没有一个机制让团队看到概率随时间的变化？
 author: 老顽童
 trust_level: medium-high
----
-# 一堂创业地图：高潜力创业者修炼全景图
+---# 一堂创业地图：高潜力创业者修炼全景图
 
 > 来源：一堂《创业地图：高潜力创业者修炼全景图》。[[一堂]] | [[yt-model-progress-map]] | yt-system-course-catalog#创业必修
 

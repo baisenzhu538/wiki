@@ -18,18 +18,16 @@ source_refs:
 - 10_raw/sources/src_20260619_d919434b_00_inbox_广冷电子_pharma_policy.agent.final.md
 - 10_raw/sources/src_20260619_0cb1b22c_00_inbox_广冷电子_pharma_policy_sec02.md
 - 10_raw/sources/src_20260619_c14d9dde_00_inbox_广冷电子_pharma_policy_sec03.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
-  - "00_inbox/广冷电子/pharma_policy.agent.final.md"
-  - "00_inbox/广冷电子/pharma_policy_sec02.md"
-  - "00_inbox/广冷电子/pharma_policy_sec03.md"
-  - "智能药柜-招商合作沟通录音 (2026-06-13)"
+- 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
+- "00_inbox/广冷电子/pharma_policy.agent.final.md"
+- "00_inbox/广冷电子/pharma_policy_sec02.md"
+- "00_inbox/广冷电子/pharma_policy_sec03.md"
+- "智能药柜-招商合作沟通录音 (2026-06-13)"
 created_at: 2026-06-13
 updated_at: 2026-06-13
 author: unknown
 reviewed_by: "欧阳锋"
 ---
-
 # 智能药柜分销业态洞察
 
 > 从七件事集团招商录音与山西省药品零售政策调研中提炼出的智能药柜/智慧药房分销业态关键事实与瓶颈。绿色内容可复用，黄色内容需进一步验证。

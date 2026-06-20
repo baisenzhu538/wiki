@@ -18,8 +18,7 @@ query_triggers:
   - "知识体系定位"
 reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_96e45c45-qishijian-business-model
+- src_20260613_96e45c45-qishijian-business-model
 source_refs:
   - src_20260613_96e45c45-qishijian-business-model
 status: enriched
@@ -39,7 +38,6 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 ---
-
 # Y 型创业模型 (Y Model for Startups)
 
 > 来源：一堂《Y 型创业：一堂科学型组织》模型图。[[一堂]] | [[一堂方法论体系总图]] | [[yt-system-course-catalog]]

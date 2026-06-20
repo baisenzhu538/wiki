@@ -10,8 +10,7 @@ domain:
   - decision-making
 status: enriched
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260606_ef4877d0-所以90的核心问题
+- src_20260606_ef4877d0-所以90的核心问题
 component_of:
   - ai-landing-scene-selection
 related:
@@ -46,8 +45,7 @@ diagnostic_signals:
   - signal: "AI落地后效果不达预期"
     lens: "场景错配"
     follow_up: "重新评估老得分×0.4+小得分×0.3+四要素得分×0.3，确认是否选错场景"
----
-# "找老的干小的"场景评估框架
+---# "找老的干小的"场景评估框架
 
 > Source: src_20260606_ef4877d0 (马易-AI落地场景识别-口述)
 

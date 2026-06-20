@@ -22,8 +22,7 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_720e62a1-theme-personal-growth-summary
+- src_20260614_720e62a1-theme-personal-growth-summary
 source_refs:
   - src_20260614_720e62a1-theme-personal-growth-summary
 status: enriched
@@ -49,7 +48,6 @@ related:
 updated_at: 2026-06-16
 author: "老顽童"
 ---
-
 # 业务增长
 
 > 来源：一堂课程体系 | 阶段：预判阶段/五步法进阶。[[yitang-course-map]] | [[yt-system-course-catalog]]

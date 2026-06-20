@@ -10,7 +10,6 @@ source_person: Builder
 source_context: 2026-05-03
 source_refs:
 - 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-4
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
@@ -34,8 +33,7 @@ diagnostic_signals:
 - signal: '新增 status 值（如 archived、deprecated）后，self-check 误报率突然上升'
   framework_lens: '新增终态 status 时只改 schema 不改 skip 集合，是系统性误报的直接诱因'
   follow_up_question: '每新增一个 status，先判定是中间态还是终态；终态必须同步到所有检查函数的 skip 集合'
----
-# C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich
+---# C-4：自检误报 superseded 页面→终态卡片被标记为未 enrich
 
 ## 原始表述
 

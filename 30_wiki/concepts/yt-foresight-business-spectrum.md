@@ -65,8 +65,7 @@ review_date: 2026-06-16
 reviewed_by:
 - 王语嫣
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_40afd886-theme-finance-legal-business-summary
+- src_20260614_40afd886-theme-finance-legal-business-summary
 status: enriched
 diagnostic_signals:
 - signal: 用户想开一个店/做一个项目，但说不清楚想做多大、目标模糊
@@ -105,8 +104,7 @@ pipeline:
 - confidence-source-cited
 - confidence-verified-by-case
 author: 老顽童
----
-# 终局光谱图
+---# 终局光谱图
 
 > 来源：一堂课程体系 | 阶段：预判阶段 | [[yt-entrepreneur-opportunity-selection]] | [[yitang-course-map]]
 

@@ -29,8 +29,7 @@ related:
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_0af1f6dd-learning-thinking
+- src_20260522_0af1f6dd-learning-thinking
 status: enriched
 title: 最佳实践学习四步法：从收集到超越
 type: tool
@@ -55,8 +54,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
----
-## Summary
+---## Summary
 
 > **一句话**：大多数人做产品做得差，不是因为不努力，而是因为“最佳实践”只停留在“看过”——从来没有系统性地收集、建池、拆解、超越。
 

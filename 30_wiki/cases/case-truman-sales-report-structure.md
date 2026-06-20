@@ -12,8 +12,7 @@ scale: 团队
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 wiki_refs:
 - '[[dk-modeling-checklist-formatting-rules]]'
 definition_of_done:
@@ -39,7 +38,6 @@ confidence: 0.8
 trust_level: medium
 domain: *id001
 ---
-
 # 案例：Truman 重构销售失利汇报——把 10 个散点升级成逻辑链
 
 ## 原始表述

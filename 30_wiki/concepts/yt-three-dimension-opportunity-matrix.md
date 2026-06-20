@@ -5,8 +5,7 @@ id: yt-three-dimension-opportunity-matrix
 title: 三维排列组合找机会
 type: tool
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260610_ac25d82a-一堂-机会预判-三维排列组合01
+- src_20260610_ac25d82a-一堂-机会预判-三维排列组合01
 status: enriched
 confidence: 0.8
 created_at: 2026-06-10
@@ -41,8 +40,7 @@ diagnostic_signals:
   follow_up_question: 机会筛选是否只停留在需求-能力-模式三档匹配？
 updated_at: '2026-06-16'
 author: 老顽童
----
-# 三维排列组合找机会
+---# 三维排列组合找机会
 
 > 来源：一堂课程体系 | [[yt-foresight-business-spectrum]] | [[yt-ai-trend-12-signals]]
 

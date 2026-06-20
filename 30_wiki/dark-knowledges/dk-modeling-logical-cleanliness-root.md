@@ -11,8 +11,7 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 confidence: 0.8
 trust_level: medium
 related:
@@ -44,8 +43,7 @@ diagnostic_signals:
 - signal: 自己做的模型"看着还行"，交出去后总觉得"哪里不对"，改不动又放不下
   framework_lens: 缺少段位标准和自检清单，逻辑洁癖没有可执行的操作定义
   follow_up_question: 用 L1-L5 段位表逐条对标，明确当前段位和目标段位，列出 3 个具体升级动作。
----
-# 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
+---# 逻辑洁癖是建模之本：不是天赋，而是不能容忍低水平逻辑
 
 ## 原始表述
 

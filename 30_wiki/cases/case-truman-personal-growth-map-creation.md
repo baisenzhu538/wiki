@@ -4,8 +4,7 @@ id: case-truman-personal-growth-map-creation
 title: Truman 个人地图创作全历程：七步创作法与 AI 判断（创作者视角）
 type: case
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 confidence: 0.7
 domain:
@@ -46,8 +45,7 @@ diagnostic_signals:
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
 updated_at: '2026-06-17'
----
-# Truman 个人地图创作：从模糊想法到四格天花板的七步
+---# Truman 个人地图创作：从模糊想法到四格天花板的七步
 
 > **Burn line**: AI 出了几个版本全是"分类不明确"——真正突破来自人手工写 5-10 个版本。
 

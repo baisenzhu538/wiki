@@ -16,13 +16,11 @@ tags: []
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260501_dfa19257）
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 reviewed_by: pending
 confidence: 0.7
 trust_level: medium
----
-# 诊所O2O项目
+---# 诊所O2O项目
 
 > 诊所外卖/O2O送药业务的合规路径与商业闭环探索。
 

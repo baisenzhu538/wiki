@@ -9,8 +9,7 @@ domain:
 - due-diligence
 - vendor-assessment
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_96e45c45-qishijian-business-model
+- src_20260613_96e45c45-qishijian-business-model
 tags:
 - '#method/research-method'
 - '#method/evaluation-method'
@@ -39,8 +38,7 @@ review_grade: A
 review_note: 🟢放行。方法论资产，可复用于任何供应商评估。
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
----
-# 销售话术偏误识别模式库
+---# 销售话术偏误识别模式库
 
 > 从一次真实招商录音中提取的7种销售话术偏误。可用于交叉验证任何供应商的销售陈述。
 

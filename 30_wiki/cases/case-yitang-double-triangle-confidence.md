@@ -12,10 +12,8 @@ scale: 公司
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-  - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
 wiki_refs:
 - '[[dk-modeling-business-visual-logic-match]]'
 definition_of_done:
@@ -55,8 +53,7 @@ diagnostic_signals:
 - signal: AI 项目交付不稳定，时好时坏，找不到根因
   lens: 体系/里程碑成为最大卡点，而非基本功或数据
   follow_up: 用双三角做前置筹备，把“六词空壳”往下推两层变成具体检查项和动作
----
-# 案例：一堂把双三角模型变成 AI 难题的通用解题底盘
+---# 案例：一堂把双三角模型变成 AI 难题的通用解题底盘
 
 ## 原始表述
 

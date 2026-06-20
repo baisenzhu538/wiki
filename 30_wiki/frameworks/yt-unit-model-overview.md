@@ -15,10 +15,8 @@ created_at: 2026-06-15
 confidence: 0.8
 trust_level: medium
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
-  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
+- src_20260616_18764078-yitang-tob-five-step-19-images-ocr
+- src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 source_context: 一堂 To B 五步法课程（徐剑口述稿、课堂笔记、图片 OCR 合集、优秀作业合集）关于单元模型与商业模式部分
 updated_at: '2026-06-16'
 related:
@@ -42,8 +40,7 @@ diagnostic_signals:
 - signal: 单订单/单SKU模型算出来盈利，但公司总账还在亏钱
   framework_lens: 选了错误的"主模型"——容易算的单元不代表业务核心经济逻辑
   follow_up_question: 除了单订单，单销售、单客户LTV、单城市/单门店的账是否也算过？哪个单元是真正拖累总账的漏项？
----
-## Reusable Knowledge
+---## Reusable Knowledge
 
 ### 核心定义
 

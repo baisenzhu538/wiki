@@ -4,7 +4,6 @@ title: 讲香·数字化
 type: tool
 source_refs:
 - 10_raw/sources/一堂-个人修炼-讲香十指模型口述版.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 domain:
 - personal
@@ -33,8 +32,7 @@ estimated_tokens: 2500
 reviewed_by: null
 author: 老顽童
 trust_level: medium-high
----
-# 讲香·数字化
+---# 讲香·数字化
 
 > 十指模型左手第三指——向下具象。客观的数字让用户默认「这就是事实」，在用户犹豫反复时一锤定音。
 

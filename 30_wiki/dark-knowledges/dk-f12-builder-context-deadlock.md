@@ -10,7 +10,6 @@ source_person: system
 source_context: failure-modes.md F-KDO-012
 source_refs:
 - 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-012
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
@@ -41,8 +40,7 @@ tags:
 - '#domain/master'
 - '#agent/builder'
 - '#context-window'
----
-# F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
+---# F-KDO-012：Builder 上下文过载死锁→Token 零跳动、Agent 卡死、无产出
 
 ## 原始表述
 

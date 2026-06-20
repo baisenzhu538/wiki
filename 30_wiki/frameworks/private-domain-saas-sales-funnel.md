@@ -15,15 +15,13 @@ diagnostic_signals:
   - {'signal': '系统交付形态是否与前期承诺一致', 'framework_lens': '承诺一致性 / 交付对齐', 'follow_up_question': '源码/SaaS/定制边界是否在合同中明确？'}
 source_refs:
 - 10_raw/sources/src_20260619_390e2bb4_60_feedback_diagnosis_2026_06_13_kdo_admission_checklist.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
-  - "智能药柜-招商合作沟通录音 (2026-06-13)"
+- 60_feedback/diagnosis/2026-06-13-kdo-admission-checklist.md
+- "智能药柜-招商合作沟通录音 (2026-06-13)"
 created_at: 2026-06-13
 updated_at: 2026-06-13
 author: unknown
 reviewed_by: "欧阳锋"
 ---
-
 # 私域 SaaS 销售四步法
 
 > 从七件事集团招商录音中提取的标准销售流程，可复用于分析同类私域/SaaS 公司的销售漏斗设计：先顶层设计，再模式设计，然后系统搭建，最后招商落地。

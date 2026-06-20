@@ -24,8 +24,7 @@ related:
 - '[[yt-concept-weapon-arsenal]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库
+- src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库
 status: enriched
 title: 讲香·冲突化
 type: tool
@@ -46,8 +45,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
----
-# 讲香·冲突化
+---# 讲香·冲突化
 
 > 十指模型右手第四指——向上抽象。大家都喜欢反差——制造认知/价值/竞争/逆袭的反差，让用户从「无所谓」到「我倒要看看怎么回事」。
 

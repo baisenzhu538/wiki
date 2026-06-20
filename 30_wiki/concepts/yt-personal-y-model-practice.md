@@ -19,8 +19,7 @@ query_triggers:
   - "科学成事的底层操作系统"
 reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_842be4c9-一堂-Y模型实操探索营
+- src_20260614_842be4c9-一堂-Y模型实操探索营
 source_refs:
   - src_20260614_842be4c9-一堂-Y模型实操探索营
 status: enriched
@@ -41,7 +40,6 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium
 ---
-
 # Y模型实操：科学成事的底层操作系统
 
 > 来源：一堂MBA专属Y模型实操探索营（Truman口述）。[[yt-model-y-organization]] | [[yt-entrepreneur-scientific-method]] | [[一堂]]

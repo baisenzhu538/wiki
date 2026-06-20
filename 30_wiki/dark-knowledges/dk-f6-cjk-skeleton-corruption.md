@@ -10,7 +10,6 @@ source_person: system
 source_context: failure-modes.md F-KDO-006
 source_refs:
 - 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-006
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
@@ -32,8 +31,7 @@ diagnostic_signals:
 - signal: "ingest 一批中文源文件后，所有生成页面的中文内容都呈现断裂、乱序或缺失"
   framework_lens: "KDO 当前没有 CJK-aware 的 extractor，CJK 内容的自动骨架生成是系统性设计约束而非个案 bug"
   follow_up_question: "确认源文件本身可读；若源文件正常，则判定为 extractor 问题，直接重写页面并记录为 F-KDO-006"
----
-# F-KDO-006：骨架页面 CJK 内容损毁→ingest 后中文摘要变成随机碎片
+---# F-KDO-006：骨架页面 CJK 内容损毁→ingest 后中文摘要变成随机碎片
 
 ## 原始表述
 

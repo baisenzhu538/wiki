@@ -10,7 +10,6 @@ source_person: system
 source_context: pitfalls.md P-6
 source_refs:
 - 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-6
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
@@ -29,8 +28,7 @@ diagnostic_signals:
 - 日志出现 is_resume=true 后紧跟 No conversation found with session ID
 - 配置已修正（work_dir/API Key）但 bot 仍返回空响应
 - 服务重启后首次发消息即复现
----
-# P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session ID
+---# P-6：cc-connect 修好 work_dir + API Key 后仍然空响应 — session 缓存了失效的 Claude Code session ID
 
 ## 原始表述/核心洞察
 

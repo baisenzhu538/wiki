@@ -25,8 +25,7 @@ related:
 - '[[yt-model-pan-product-three-virtues]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_720e62a1-theme-personal-growth-summary
+- src_20260614_720e62a1-theme-personal-growth-summary
 status: enriched
 title: 泛产品设计认知篇：重新理解泛化产品能力
 type: concept
@@ -52,8 +51,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 泛产品设计认知篇：重新理解泛化产品能力
+---# 泛产品设计认知篇：重新理解泛化产品能力
 
 > 来源：一堂《全员必修：泛产品设计认知篇》口述（Truman）。[[yt-model-pan-product-36-strategies]] | [[yt-personal-product-design]] | [[一堂]]
 

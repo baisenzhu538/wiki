@@ -23,8 +23,7 @@ related:
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
+- src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
 status: enriched
 title: IPO 科学学习
 type: tool
@@ -51,8 +50,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
----
-# IPO 科学学习
+---# IPO 科学学习
 
 > 来源：Truman (许楚) 周五直播课，course_id 402，IPO 科学学习实操篇（下）。[[一堂方法论体系总图]] | [[yitang-course-map]]
 

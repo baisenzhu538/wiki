@@ -5,8 +5,7 @@ created_at: 2026-05-03
 domain:
   - ai-saas
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260503_52ae08ba-kdo_product_design_agent_final
+- src_20260503_52ae08ba-kdo_product_design_agent_final
 status: enriched
 title: "Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)"
 type: concept
@@ -18,7 +17,6 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 ---
-
 # Obsidian + KDO 内容产出工作流 — 产品设计大纲 (v1.0完整版)
 
 ## Summary

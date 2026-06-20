@@ -10,7 +10,6 @@ source_person: Builder
 source_context: 2026-05-03
 source_refs:
 - 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-6
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
@@ -34,8 +33,7 @@ diagnostic_signals:
 - signal: '同一 session 内先跑三步编译法再跑 produce，大源文件（>100KB）必然出现产出 truncated'
   framework_lens: 'Agent 手动编译模式下，编译与产出两阶段叠加超出 LLM context window 物理上限'
   follow_up_question: '强制分 session：当前 session 只完成编译和 angle 确认，新 session 负责 produce 填充'
----
-# C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
+---# C-6：大源文件导致 session 容量超载→produce 骨架生成但内容填不进去
 
 ## 原始表述
 

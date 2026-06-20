@@ -26,14 +26,10 @@ related:
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260610_fc964660-一堂-一堂五步法-壁垒-一堂壁垒分析结果
-  - src_20260610_a6f3e5b3-一堂-一堂五步法-壁垒-假的壁垒
-  - src_20260610_64e863c7-一堂-一堂五步法-打造壁垒完整cheatsheet
-  - src_20260610_ca60b67f-一堂-一堂五步法-壁垒-规模经济分析武器库
+- src_20260610_fc964660-一堂-一堂五步法-壁垒-一堂壁垒分析结果
+- src_20260610_a6f3e5b3-一堂-一堂五步法-壁垒-假的壁垒
+- src_20260610_64e863c7-一堂-一堂五步法-打造壁垒完整cheatsheet
+- src_20260610_ca60b67f-一堂-一堂五步法-壁垒-规模经济分析武器库
 status: reviewed
 title: "壁垒分析完整cheatsheet"
 trust_level: medium
@@ -53,7 +49,6 @@ diagnostic_signals:
 updated_at: 2026-06-16
 author: "老顽童"
 ---
-
 # 壁垒分析完整cheatsheet
 
 > 来源：一堂五步法·壁垒篇 | [[yt-five-step-method]] | [[yt-scale-economy-weapon-library]] | [[yt-unit-model-three-tools]]

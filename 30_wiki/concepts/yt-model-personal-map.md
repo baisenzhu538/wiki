@@ -22,8 +22,7 @@ related:
 - '[[case-truman-personal-growth-map-creation]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_720e62a1-theme-personal-growth-summary
+- src_20260614_720e62a1-theme-personal-growth-summary
 status: enriched
 title: 个人修炼地图
 type: framework
@@ -45,8 +44,7 @@ diagnostic_signals:
   follow_up_question: 你每天有多少时间是被自己主动规划的？如果<50%，先别谈人生红点，先死磕基础层
 author: 老顽童
 trust_level: medium-high
----
-# 一堂个人地图：高潜力成长者修炼全景图
+---# 一堂个人地图：高潜力成长者修炼全景图
 
 > 来源：一堂《个人地图：高潜力成长者修炼全景图》。[[一堂]] | [[yt-model-progress-map]] | yt-system-course-catalog#个人必修
 

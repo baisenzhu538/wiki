@@ -4,8 +4,7 @@ id: case-yitang-education-supply-chain
 title: 案例：一堂是'教育供应链创新公司'——从真实实践里种菜、摘菜、炒菜
 type: case
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
 - yitang
@@ -32,8 +31,7 @@ tags:
 - '#content-format/case-study'
 - '#industry/education'
 - '#domain/yitang'
----
-# 案例：一堂是「教育供应链创新公司」——从真实实践里种菜、摘菜、炒菜
+---# 案例：一堂是「教育供应链创新公司」——从真实实践里种菜、摘菜、炒菜
 
 > **Burn line**: 一堂不是包装 IP 讲别人课的公司，而是把真实实践当成地里的菜，成熟了再摘下来炒给观众吃。
 

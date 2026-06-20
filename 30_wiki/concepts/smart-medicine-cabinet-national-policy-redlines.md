@@ -9,10 +9,8 @@ domain:
 - pharmaceutical-retail
 - policy-compliance
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
-  - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
+- src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
+- src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
 tags:
 - '#industry/healthcare'
 created_at: '2026-06-14'
@@ -36,8 +34,7 @@ query_triggers:
 - 国家药监局 48 号公告
 - 自助售药机合规
 difficulty: intermediate
----
-# 自助售药机国家政策与红线（2024 年第 48 号公告解读）
+---# 自助售药机国家政策与红线（2024 年第 48 号公告解读）
 
 > **核心定位**：国家药监局对自助售药机的销售品类有明确红线——**仅可销售乙类非处方药（乙类 OTC），不得销售甲类非处方药和处方药**。这是药柜推广不可逾越的合规天花板。
 

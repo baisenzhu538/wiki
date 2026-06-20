@@ -10,7 +10,6 @@ source_person: 月白
 source_context: '口述稿: AI设计-AI设计基础01'
 source_refs:
 - 10_raw/sources/src_20260619_82fb121b_00_inbox_design_AI设计_AI设计基础01.txt
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
@@ -31,8 +30,7 @@ diagnostic_signals:
 - signal: 内部沟通把"修改一/修改二"与"电商版/拼多多版"混用
   framework_lens: 技术版本命名与渠道版本命名未做隔离，易引发库存、客服与合规混乱
   follow_up_question: 是否有一套不依赖渠道名称的内部版本号，且渠道专版在BOM/ERP中有独立编码？
----
-# 电商渠道专版区分：淘宝≠拼多多
+---# 电商渠道专版区分：淘宝≠拼多多
 
 ## 原始表述 / 核心洞察
 

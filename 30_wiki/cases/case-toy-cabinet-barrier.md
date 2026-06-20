@@ -19,10 +19,8 @@ query_triggers:
 review_date: 2026-06-11
 reviewed_by: "周伯通"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260610_91556342-一堂=一堂五步法-商业模型-线下玩具柜案例
-  - src_20260610_426daf30-一堂-一堂五步法-壁垒-口述
+- src_20260610_91556342-一堂=一堂五步法-商业模型-线下玩具柜案例
+- src_20260610_426daf30-一堂-一堂五步法-壁垒-口述
 status: reviewed
 title: "案例：线下玩具柜的壁垒困局与突围路径"
 trust_level: medium
@@ -39,7 +37,6 @@ pipeline:
   - confidence-source-cited
 author: "老顽童"
 ---
-
 # 案例：线下玩具柜的壁垒困局与突围路径
 
 > 来源：一堂五步法·壁垒篇 | [[yt-barrier-analysis-cheat-sheet]] | [[yt-barrier-identification-skill]] | [[case-toy-cabinet-business-model]] | [[yt-unit-model-three-tools]]

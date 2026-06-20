@@ -22,8 +22,7 @@ related:
 - '[[yt-personal-pan-product-tools]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260510_fab64a96-个人修炼-泛产品设计探索营
+- src_20260510_fab64a96-个人修炼-泛产品设计探索营
 status: enriched
 title: 泛产品设计探索营：案例启发与认知重构
 type: concept
@@ -48,8 +47,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 泛产品设计探索营：案例启发与认知重构
+---# 泛产品设计探索营：案例启发与认知重构
 
 > 来源：一堂泛产品设计探索营（千人集体学习，Truman口述）。[[yt-personal-pan-product-concepts]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

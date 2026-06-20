@@ -8,8 +8,7 @@ domain:
 - master
 source_person: system
 source_context: pitfalls.md P-9
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
@@ -27,8 +26,7 @@ trust_level: medium
 diagnostic_signals:
 - Glob 返回空但用户坚称文件存在
 - 用 PowerShell/Get-ChildItem 能找到 Glob 找不到的文件
----
-# P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
+---# P-9：Glob 漏扫子目录 → 误判文件缺失 → 来回打脸
 
 ## 原始表述 / 核心洞察
 

@@ -34,8 +34,7 @@ related:
 - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
 reviewed_by: 王语嫣
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260609_30219516-ocr-泛产品设计-落地卡片-roi分析
+- src_20260609_30219516-ocr-泛产品设计-落地卡片-roi分析
 status: enriched
 title: 泛产品设计·落地卡片：ROI分析
 type: tool
@@ -66,8 +65,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# ROI分析：擅做投产比分析
+---# ROI分析：擅做投产比分析
 
 > 落地工具箱卡片（磨方案）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

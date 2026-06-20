@@ -10,7 +10,6 @@ source_person: system
 source_context: pitfalls.md P-18
 source_refs:
 - 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-18
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
 updated_at: '2026-06-18'
 related:
@@ -35,8 +34,7 @@ diagnostic_signals:
 - signal: 一个看似简单的解析器只能处理“最常见”的格式，遇到列表内 dict 或多行字符串就出错
   framework_lens: 格式复杂度低估
   follow_up_question: 这个格式是否有官方/成熟库？为什么没用？
----
-# P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复
+---# P-18：手写YAML解析器导致嵌套数据丢失 — 97行bug → 15行修复
 
 ## 原始表述 / 核心洞察
 

@@ -10,7 +10,6 @@ source_person: system
 source_context: pitfalls.md P-7
 source_refs:
 - 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-7
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
@@ -29,8 +28,7 @@ diagnostic_signals:
 - 架构者未独立检查原始文件夹即采信"已全部消化"
 - 重要质量判断发生在长会话末期（30+ 轮后）
 - 图片被默认视为文本复述而被跳过
----
-# P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片
+---# P-7：素材预处理缺少 OCR 强制检查——执行者跳过图片
 
 ## 原始表述/核心洞察
 

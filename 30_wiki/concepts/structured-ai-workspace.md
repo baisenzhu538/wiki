@@ -8,8 +8,7 @@ domain:
   - yitang
 status: enriched
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
+- src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
 component_of:
   - ai-collaboration-mindset-shift
 related:
@@ -47,8 +46,7 @@ diagnostic_signals:
   - signal: "工作空间维护时间超过20%工作时间"
     lens: "过度工程"
     follow_up: "简化模块，只保留核心，维护成本必须小于节省的时间"
----
-# 结构化AI工作空间搭建
+---# 结构化AI工作空间搭建
 
 > Source: src_20260606_42e11f09 (纪浩-AI协作方法论-口述)
 

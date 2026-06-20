@@ -10,7 +10,6 @@ source_person: system
 source_context: failure-modes.md F-KDO-009
 source_refs:
 - 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-009
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
@@ -28,8 +27,7 @@ trust_level: medium
 diagnostic_signals:
 - 单条 Critique 不指名任何具体假设、边界或反例
 - 多张卡片的 Critique 段文本相似度 >50%
----
-# F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上
+---# F-KDO-009：无质疑接受→Critique 段全是万能废话，可粘贴到任何卡片上
 
 ## 原始表述/核心洞察
 

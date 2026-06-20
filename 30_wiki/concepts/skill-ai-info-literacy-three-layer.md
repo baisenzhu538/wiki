@@ -8,8 +8,7 @@ domain:
   - yitang
 source_person: 消化全库后提炼
 source_context: 基于master-ai-info-literacy框架提炼，2026-05-18
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 wiki_refs:
   - "[[master-ai-info-literacy]]"
   - "[[skill-ai-research-five-steps]]"
@@ -52,8 +51,7 @@ diagnostic_signals:
   - signal: "验证为真就够了，不追到原始来源"
     lens: "追溯缺失"
     follow_up: "必须追到原始来源，防止综合后的信息丢失来源。第三层不可跳过"
----
-# 技能：AI输出三层防护检查法
+---# 技能：AI输出三层防护检查法
 
 > **来源**：基于 master-ai-info-literacy 框架提炼
 > **核心**：用AI做调研时，三层防护网——先辨别是不是幻觉，再验证是不是真的，最后追溯到原始来源。

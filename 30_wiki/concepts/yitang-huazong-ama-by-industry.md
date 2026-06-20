@@ -3,8 +3,7 @@ id: yitang-huazong-ama-by-industry
 created_at: 2026-05-29
 domain:
 - healthcare
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 status: stable
 title: 花总AMA按行业分类整理（商业突破大航海）
 type: concept
@@ -16,8 +15,7 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
----
-# 花总AMA按行业分类整理
+---# 花总AMA按行业分类整理
 
 > 原文：yitang-huazong-ama-20250526
 > 摘要：[[yitang-huazong-ama-summary]]

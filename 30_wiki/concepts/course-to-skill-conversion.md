@@ -11,8 +11,7 @@ domain:
   - decision-making
 status: enriched
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260606_90b44191-没有人呀现在
+- src_20260606_90b44191-没有人呀现在
 component_of:
   - ai-learning-closed-loop
 related:
@@ -49,8 +48,7 @@ diagnostic_signals:
   - signal: "Skill用了十次都对，第十一次错得离谱"
     lens: "经验主义陷阱"
     follow_up: "检查问题类型是否偏移，超出Skill设计范围时强制拒绝而非编造"
----
-# 课程→Skill转化：将知识变成AI可执行的能力模块
+---# 课程→Skill转化：将知识变成AI可执行的能力模块
 
 > Source: src_20260606_90b44191 (半肥猫-AI学习落地-口述)
 

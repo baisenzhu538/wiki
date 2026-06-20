@@ -7,16 +7,11 @@ type: tool
 domain:
 - yitang
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
-  - src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
-  - src_20260610_0132647f-一堂-机会预判-咖啡案例01
-  - src_20260610_daaec0bd-一堂-机会预判-咖啡案例02
-  - src_20260610_53f78579-一堂-机会预判-咖啡店案例-五步法预判
+- src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
+- src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
+- src_20260610_0132647f-一堂-机会预判-咖啡案例01
+- src_20260610_daaec0bd-一堂-机会预判-咖啡案例02
+- src_20260610_53f78579-一堂-机会预判-咖啡店案例-五步法预判
 status: enriched
 confidence: 0.9
 difficulty: intermediate
@@ -52,8 +47,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
----
-# 预判画布：从加法到减法的标准化工作台
+---# 预判画布：从加法到减法的标准化工作台
 
 ## 用途
 

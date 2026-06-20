@@ -17,12 +17,9 @@ scale: 团队 / 公司
 source_person: 纪浩
 source_context: AI俱乐部·人和AI协作（第六期AI共创社，2026-06）
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
-  - src_20260606_0ecc1afc-AI俱乐部-AI协作方法论-纪浩-口述
-  - src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记
+- src_20260609_dade3353-ai-俱乐部人和-ai-协作-参考案例对比一堂-vs-sql-helper
+- src_20260606_0ecc1afc-AI俱乐部-AI协作方法论-纪浩-口述
+- src_20260606_592137a7-AI俱乐部-AI协作方法论-纪浩-笔记
 related:
   - "[[dk-my-ai-landing-three-barriers]]"
   - "[[concept-纪浩-ai-collaboration-five-layer]]"
@@ -57,7 +54,6 @@ diagnostic_signals:
     lens: 领域知识层缺失或不足
     follow_up: 列出该问题涉及的业务术语、表结构/字段映射、常见例外情况，补进领域知识库
 ---
-
 # 案例：一堂数据库 vs SQLHelper
 
 > **原始表述**：

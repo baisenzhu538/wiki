@@ -18,12 +18,9 @@ scale: 平台级
 source_person: Truman
 source_context: 一堂课程，规模经济章节；以太资本对接平台用全网调研能力扫描新上创业项目并自动化跟进
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - source_unknown
-  - src_20260614_6b2c4f5b-一堂-To-B业务探索分享
-  - src_20260611_3e450477-一堂-一堂五步法-增长-线上获客小抄_paddle_ocr
+- source_unknown
+- src_20260614_6b2c4f5b-一堂-To-B业务探索分享
+- src_20260611_3e450477-一堂-一堂五步法-增长-线上获客小抄_paddle_ocr
 wiki_refs:
   - "[[yt-scale-economy-weapon-library]]"
   - "[[yt-customer-acquisition-toolkit]]"
@@ -72,8 +69,7 @@ diagnostic_signals:
   - signal: 线索转化率极低，销售抱怨"垃圾线索太多"
     framework_lens: 抓取规则缺少质量分门槛
     follow_up_question: 除了"是新公司"之外，是否还设置了融资阶段、行业匹配度、需求信号等过滤条件？
----
-# 案例：以太利用全网调研能力快速获客
+---# 案例：以太利用全网调研能力快速获客
 
 ## 原始表述
 

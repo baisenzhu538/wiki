@@ -23,8 +23,7 @@ related:
 - '[[yt-model-prompt-engineering]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
+- src_20260609_e3a27299-ocr-一堂-个人修炼-科学学习ipo模型
 status: enriched
 title: IPO 科学学习全景策略
 type: framework
@@ -47,8 +46,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
----
-# IPO 科学学习全景策略 (Yitang Scientific Learning IPO V2.0)
+---# IPO 科学学习全景策略 (Yitang Scientific Learning IPO V2.0)
 
 > 来源：一堂《科学学习 IPO·全景策略图》第二版。[[一堂]] | [[yt-personal-ipo-learning]] | [[yt-personal-deep-review]]
 

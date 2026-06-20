@@ -24,8 +24,7 @@ related:
 review_date: 2026-05-08
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260609_d22e1266-ocr-一堂-个人修炼-解放思想
+- src_20260609_d22e1266-ocr-一堂-个人修炼-解放思想
 status: enriched
 title: 解放思想
 trust_level: medium
@@ -48,8 +47,7 @@ diagnostic_signals:
   follow_up_question: 你所在行业有哪些"向来如此"的做法？它们背后的假设在今天还成立吗？
 updated_at: '2026-06-16'
 author: 老顽童
----
-# 解放思想
+---# 解放思想
 
 > 来源：一堂课程体系 | 阶段：底层逻辑。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

@@ -17,8 +17,7 @@ query_triggers:
   - "四大环节 × 十大指标"
 reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260510_5ef61f8f-一堂产品内核十大典型指标
+- src_20260510_5ef61f8f-一堂产品内核十大典型指标
 source_refs:
   - src_20260510_5ef61f8f-一堂产品内核十大典型指标
 status: enriched
@@ -38,7 +37,6 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 ---
-
 # 产品内核十大典型指标：从获客到推荐的度量框架
 
 > 来源：一堂知识地图《产品内核·十大典型指标》。[[yt-entrepreneur-product-core]] | [[yt-entrepreneur-unit-model]] | [[一堂]]

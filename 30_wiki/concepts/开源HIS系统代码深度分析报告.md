@@ -5,8 +5,7 @@ created_at: 2026-05-03
 domain:
   - healthcare
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260503_f4891888-开源HIS系统代码深度分析报告
+- src_20260503_f4891888-开源HIS系统代码深度分析报告
 status: enriched
 title: "开源HIS系统代码深度分析报告"
 type: concept
@@ -18,7 +17,6 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 ---
-
 # 开源HIS系统代码深度分析报告
 
 ## Summary

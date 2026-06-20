@@ -29,8 +29,7 @@ related:
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_7e8d10c4-ocr-一堂泛产品设计36计-全套地图
+- src_20260522_7e8d10c4-ocr-一堂泛产品设计36计-全套地图
 status: enriched
 title: 泛产品设计36计·全套官方工具箱
 type: framework
@@ -48,8 +47,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
----
-## Constraints & Boundaries
+---## Constraints & Boundaries
 
 ### 适用边界
 

@@ -8,8 +8,7 @@ domain:
 - entrepreneurship
 - b2b
 - business-strategy
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 tags:
 - '#method/evaluation-method'
 - '#method/thinking-tool'
@@ -46,8 +45,7 @@ diagnostic_signals:
 - signal: 公司战略从"规模优先"转向"利润优先"后，原来的 S 类客户贡献度排序失效，销售资源分配出现混乱。
   framework_lens: 业务目标变化后，SABC 的权重与切分标准必须重建，不能沿用旧分层。
   follow_up_question: 如果明年目标从"新增 100 家客户"变成"毛利转正"，我的 S 类客户会变成哪一类？哪些旧 S 类需要降级或剥离？
----
-# To B 客户 SABC 自定义切分法
+---# To B 客户 SABC 自定义切分法
 
 > 头部/腰部/腿部只是极简经验模型，真正有效的客户分层必须基于**你自己的业务目标**和**客户所在行业的集中度**来自建 SABC。——徐剑《To B 五步法》
 

@@ -12,16 +12,14 @@ target_roles:
 author: 黄药师
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）
-source_refs:
-  - src_20260503_52ae08ba-kdo_product_design_agent_final
+source_refs: []
 reviewer: 欧阳锋
 related: []
 id: sprint-6-cli-gap-proposal
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----
-# Sprint 6 CLI 缺口修复提案
+---# Sprint 6 CLI 缺口修复提案
 
 > **触发**：老顽童飞轮第一圈 6 篇文章的 Feedback 段，自动扫描提取出 8 条"缺 CLI 命令"的系统级反馈。
 > **目标**：用最小的工程代价覆盖最高频的摩擦点。

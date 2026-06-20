@@ -8,9 +8,7 @@ domain:
 - entrepreneurship
 - b2b
 - manufacturing
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 tags:
 - '#domain/yitang'
 - '#domain/b2b'
@@ -45,7 +43,6 @@ diagnostic_signals:
   framework_lens: 单元模型与隐性成本
   follow_up_question: 如果把关系成本、财务成本、销售不稳定成本计入，单台磨床的真实毛利还是正的吗？
 ---
-
 > 来源：一堂 ToB 五步法优秀作业合集，学员蔡留照自述。案例中的财务数字为学员自述，需独立核实关键数据。
 
 ---

@@ -29,8 +29,7 @@ related:
 - '[[master-systems-thinking]]'
 - '[[yt-unit-model-concept]]'
 - '[[yt-entrepreneur-unit-model]]'
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 status: enriched
 title: 单元模型选择法：复制哪个算哪个，找到核心经济单元
 trust_level: medium
@@ -60,8 +59,7 @@ diagnostic_signals:
   follow_up_question: 你的订单按毛利率分成高/中/低三档，各占多少比例？高利润订单和低利润订单的用户画像有什么不同？
 author: 老顽童
 reviewed_by: 欧阳锋
----
-# 单元模型选择法：复制哪个算哪个，找到核心经济单元
+---# 单元模型选择法：复制哪个算哪个，找到核心经济单元
 
 > 来源：一堂《单元模型实操系列课》第二课——选择篇。面对一个复杂业务，存在多个可能的单元模型（单订单、单用户、单门店等），本工具解决"到底复制哪个单元来分析“的问题。
 

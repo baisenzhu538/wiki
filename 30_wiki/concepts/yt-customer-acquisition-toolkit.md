@@ -21,16 +21,11 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "老顷童（精修）"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260610_7590c468-一堂-一堂五步法-增长-推荐获客小抄
-  - src_20260610_c2430786-一堂-一堂五步法-增长-线上获客小抄
-  - src_20260610_5e5bd997-一堂-一堂五步法-增长-线下获客小抄
-  - src_20260610_b69011cf-一堂-一堂五步法-增长-获客转化小抄
-  - src_20260610_0a18623a-一堂-一堂五步法-增长-科学销售五步法
+- src_20260610_7590c468-一堂-一堂五步法-增长-推荐获客小抄
+- src_20260610_c2430786-一堂-一堂五步法-增长-线上获客小抄
+- src_20260610_5e5bd997-一堂-一堂五步法-增长-线下获客小抄
+- src_20260610_b69011cf-一堂-一堂五步法-增长-获客转化小抄
+- src_20260610_0a18623a-一堂-一堂五步法-增长-科学销售五步法
 status: reviewed
 title: "获客工具合集"
 trust_level: medium
@@ -52,7 +47,6 @@ author: "老顽童"
 related:
   - "case-ether-online-acquisition"
 ---
-
 # 获客工具合集
 
 > 来源：一堂五步法·增长篇 | [[yt-growth-cycle-model]] | [[yt-unit-model-three-tools]] | [[case-toy-cabinet-business-model]]

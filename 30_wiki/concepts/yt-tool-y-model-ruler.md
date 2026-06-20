@@ -32,8 +32,7 @@ related:
 review_by: 2026-12-06
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_96e45c45-qishijian-business-model
+- src_20260613_96e45c45-qishijian-business-model
 status: enriched
 title: Y模型尺子刻度法：从模糊经验到可复用评估模型
 type: tool
@@ -58,8 +57,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
----
-## Summary
+---## Summary
 
 > **一句话**：“我觉得这个人不错”不是评估，是猜测。真正的评估是：**用一套“尺子”量化每个维度，用“刻度”确定打分标准，用“基准”找到参照系，用“权重”告诉你哪些维度值得花更多时间”。
 

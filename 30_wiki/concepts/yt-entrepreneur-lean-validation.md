@@ -31,8 +31,7 @@ related:
 - '[[case-smart-medicine-cabinet-failure-patterns-library]]'
 review_date: 2026-05-08
 reviewed_by: 黄药师
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 status: enriched
 title: 低成本验证/MVP
 trust_level: medium
@@ -64,8 +63,7 @@ diagnostic_signals:
   follow_up_question: 如果把这个不确定性转化为一个2周内可完成的实验，你要验证的关键假设、最小实验、可区分信号和扩张绿灯分别是什么？
 updated_at: '2026-06-17'
 author: 老顽童
----
-# 低成本验证/MVP
+---# 低成本验证/MVP
 
 > 来源：一堂课程体系 | 阶段：起盘阶段。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

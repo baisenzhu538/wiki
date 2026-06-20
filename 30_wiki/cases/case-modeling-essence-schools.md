@@ -9,10 +9,8 @@ domain:
 - master
 - modeling
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_55135154-Truman-高阶建模-本质建模-案例-02
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_55135154-Truman-高阶建模-本质建模-案例-02
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:
 - "#case"
 - "#domain/yitang"
@@ -45,8 +43,7 @@ diagnostic_signals:
 - signal: 内部 SOP 被外部顾问评价"过度抽象、无法使用"
   lens: 学科建模标准侵入经验萃取场景
   follow_up: 把抽象层级降到组织内可执行，补充上下文和触发条件
----
-# 本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野
+---# 本质建模案例：知识付费派、经验萃取派与学科建模派的三派分野
 
 > 来源：Truman-高阶建模-本质建模-案例-02 | 一堂建模能力培训（Truman）
 

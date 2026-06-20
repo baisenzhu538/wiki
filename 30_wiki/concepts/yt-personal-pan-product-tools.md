@@ -25,8 +25,7 @@ related:
 - '[[case-truman-prd-checklist-evolution]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260510_e6643d52-个人修炼-泛产品设计工具篇
+- src_20260510_e6643d52-个人修炼-泛产品设计工具篇
 status: enriched
 title: 泛产品设计工具篇：出牌教学法与30张卡牌
 type: concept
@@ -51,8 +50,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 泛产品设计工具篇：出牌教学法与30张卡牌
+---# 泛产品设计工具篇：出牌教学法与30张卡牌
 
 > 来源：一堂泛产品设计框架篇口述（Truman）。[[yt-model-pan-product-36-strategies]] | [[yt-personal-pan-product-concepts]] | [[一堂]]
 

@@ -28,12 +28,9 @@ related:
 - '[[yt-five-step-common-pitfalls]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_a632cc1c-ocr-泛产品设计-用户卡片-一堂五步法
-  - src_20260616_18764078-yitang-tob-five-step-19-images-ocr
-  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
+- src_20260522_a632cc1c-ocr-泛产品设计-用户卡片-一堂五步法
+- src_20260616_18764078-yitang-tob-five-step-19-images-ocr
+- src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 status: enriched
 title: 泛产品设计·用户卡片：一堂五步法
 type: tool
@@ -58,8 +55,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 一堂五步法：善于分析商业成败假设
+---# 一堂五步法：善于分析商业成败假设
 
 > 需求工具箱高级卡牌。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[yt-five-step-method]] | [[yt-five-step-common-pitfalls]] | [[一堂]]
 

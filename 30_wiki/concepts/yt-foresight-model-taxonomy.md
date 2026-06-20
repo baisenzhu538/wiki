@@ -18,8 +18,7 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_96e45c45-qishijian-business-model
+- src_20260613_96e45c45-qishijian-business-model
 source_refs:
   - src_20260613_96e45c45-qishijian-business-model
 status: enriched
@@ -40,7 +39,6 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 ---
-
 # 预判模型分类
 
 > 来源：一堂课程体系 | [[yt-foresight-business-spectrum]] | [[yt-entrepreneur-opportunity-selection]]

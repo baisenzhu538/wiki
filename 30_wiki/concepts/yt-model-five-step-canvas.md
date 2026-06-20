@@ -21,8 +21,7 @@ related:
 - '[[case-modeling-abstraction-yitang-models]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
+- src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
 status: enriched
 title: 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
 type: framework
@@ -43,8 +42,7 @@ diagnostic_signals:
   follow_up_question: 产品内核画布上的3-5条内核假设，对应五步法画布上哪个模块的哪条假设？如果对应不上，说明两张画布没有打通
 author: 老顽童
 trust_level: medium-high
----
-# 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
+---# 五步法画布 × 产品内核画布：从假设到壁垒的实操工具
 
 > 来源：一堂知识地图《五步法画布》+《产品内核画布》。[[yt-entrepreneur-five-step-method]] | [[yt-entrepreneur-product-core]] | [[一堂]]
 

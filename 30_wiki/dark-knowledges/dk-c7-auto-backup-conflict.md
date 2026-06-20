@@ -10,7 +10,6 @@ source_person: Builder
 source_context: 2026-05-03
 source_refs:
 - 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-7
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
@@ -35,8 +34,7 @@ diagnostic_signals:
 - signal: "同一 backup commit 里同时出现概念卡、格式修复、索引更新等不同类型的变更"
   framework_lens: "commit 历史被永久性破坏，后续 `git blame`、`git revert`、`git log --grep` 都会失效"
   follow_up_question: "该 backup commit 是否需要拆分重建，以恢复可检索、可回滚的历史？"
----
-# C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交
+---# C-7：Obsidian auto-backup 干扰 commit 拆分→staged 文件被自动打包提交
 
 ## 原始表述 / 核心洞察
 

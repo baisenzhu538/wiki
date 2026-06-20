@@ -10,7 +10,6 @@ source_person: system
 source_context: pitfalls.md P-17
 source_refs:
 - 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-17
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
@@ -31,7 +30,6 @@ diagnostic_signals:
 - 调优前后数字对比时没有独立的 Gold Standard 基线测量
 - 报告中只展示部分维度或成功样本的准确率
 ---
-
 # P-17：auto_label 声称“85%准确率”——实测34.8%，差距来自被忽略的5个维度
 
 ## 原始表述/核心洞察

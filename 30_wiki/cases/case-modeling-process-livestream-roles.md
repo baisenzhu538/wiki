@@ -9,10 +9,8 @@ domain:
 - master
 - modeling
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_c62e0e61-Truman-高阶建模-流程建模-开播准备-图-02
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_c62e0e61-Truman-高阶建模-流程建模-开播准备-图-02
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:
 - '#method/modeling'
 - '#content-format/case-study'
@@ -47,8 +45,7 @@ diagnostic_signals:
 - signal: 出问题后互相推诿，找不到明确责任人
   framework_lens: RACI / 专人专事
   follow_up_question: 这个任务的 R（执行）和 A（负责）是否为同一个人？检查权是否也归他？
----
-# 流程建模案例：直播开播团队分工与检查清单
+---# 流程建模案例：直播开播团队分工与检查清单
 
 > 来源：`src_20260614_c62e0e61`（Truman-高阶建模-流程建模-开播准备-图-02）| 一堂建模能力培训（Truman）
 

@@ -10,7 +10,6 @@ source_person: system
 source_context: failure-modes.md F-KDO-003
 source_refs:
 - 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-003
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
@@ -27,8 +26,7 @@ diagnostic_signals:
 - kdo improve --apply 执行成功但 .kdo/state.json 中 wiki_snapshots 为空
 - 同一次 improve 执行前后 state.json 的 mtime 或 revision 数量不一致
 - kdo 命令连续快速执行时出现 state 数据回退
----
-# F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失
+---# F-KDO-003：state.json 覆盖写竞态→improve 执行后 revision 记录丢失
 
 ## 原始表述
 

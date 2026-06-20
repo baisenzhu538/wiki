@@ -33,8 +33,7 @@ related:
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
+- src_20260522_c92a36ba-ocr-一堂深度复盘冰山图
 status: enriched
 title: 深度复盘
 type: tool
@@ -63,8 +62,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
----
-# 深度复盘
+---# 深度复盘
 
 > 来源：src_20260507_9dd09688（周子敬讲授，2026年科学学习/深度复盘课程录音）。[[一堂方法论体系总图]] | [[yitang-course-map]]
 

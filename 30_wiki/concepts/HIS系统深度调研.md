@@ -7,8 +7,7 @@ domain:
 review_date: 2026-05-03
 reviewed_by: Claude
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260503_968e0210-HIS系统深度调研
+- src_20260503_968e0210-HIS系统深度调研
 status: reviewed
 title: "HIS系统深度调研"
 trust_level: medium
@@ -20,7 +19,6 @@ pipeline:
 author: unknown
 confidence: 0.85
 ---
-
 # HIS系统深度调研
 
 ## Summary

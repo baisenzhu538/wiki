@@ -22,8 +22,7 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
+- src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 source_refs:
   - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 status: enriched
@@ -46,7 +45,6 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 ---
-
 # 科学成长（刻意练习）
 
 > 来源：一堂个人必修课"练能力"模块——刻意练习认知课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

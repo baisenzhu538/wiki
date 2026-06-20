@@ -8,9 +8,7 @@ domain:
 - entrepreneurship
 - b2b
 - business-strategy
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 tags:
 - '#method/evaluation-method'
 - '#domain/yitang'
@@ -45,7 +43,6 @@ diagnostic_signals:
   framework_lens: 规模不经济对抗
   follow_up_question: 哪些环节是“重决策、重关系、重销售、依赖人”的？我们能否通过减少定制、缩减 SKU、替代专家服务来对抗？
 ---
-
 > To B 业务常见的三类壁垒：转化成本、规模效应、无形资产；判断强弱看集中度、单元模型占比、成本变化；对抗规模不经济要减少定制、缩减 SKU、替代专家服务。——徐剑《To B 五步法》
 
 ---

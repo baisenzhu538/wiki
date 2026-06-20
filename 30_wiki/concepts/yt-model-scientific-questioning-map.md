@@ -17,8 +17,7 @@ query_triggers:
   - "通用工具箱"
 reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
+- src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 source_refs:
   - src_20260609_e13d29d9-ocr-一堂-个人修炼-科学提问刻意练习
 status: enriched
@@ -38,7 +37,6 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 ---
-
 # 科学提问刻意练习地图
 
 > 来源：一堂《科学提问·刻意练习成长地图》（内部使用）。[[一堂]] | [[yt-personal-deliberate-practice]] | [[yt-personal-deep-review]]

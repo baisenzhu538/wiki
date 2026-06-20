@@ -10,8 +10,7 @@ domain:
 - yitang
 source_person: KDO 团队复盘
 source_context: 第26-27节精修中反复出现：source ID、文件名、正则边界、YAML 命名导致解析失败
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 related:
 - '[[dk-f10-broken-source-refs]]'
 - '[[dk-f8-phony-wikilink]]'
@@ -38,8 +37,7 @@ diagnostic_signals:
 - signal: 链接/引用在人工阅读时正确，但机器解析时 dangling 或截断
   framework_lens: 人眼与机器解析不一致
   follow_up_question: 是否有别名、特殊字符、过长 ID 导致解析器只能识别前半段？
----
-# 命名不规范会让整条工具链"失明"
+---# 命名不规范会让整条工具链"失明"
 
 ## 原始表述 / 核心洞察
 

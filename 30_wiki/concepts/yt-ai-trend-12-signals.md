@@ -19,8 +19,7 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_82a4fdb9-凯文凯利-必然趋势分享
+- src_20260614_82a4fdb9-凯文凯利-必然趋势分享
 source_refs:
   - src_20260614_82a4fdb9-凯文凯利-必然趋势分享
 status: enriched
@@ -42,7 +41,6 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 ---
-
 # AI趋势12大变化模型
 
 > 来源：一堂2025《重新理解人工智能》| [[yt-foresight-business-spectrum]] | [[yt-ai-startup-20-risky-hypotheses]]

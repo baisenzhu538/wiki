@@ -10,8 +10,7 @@ domain:
 source_person: Truman
 source_context: 一堂-个人修炼-知识萃取探索营口述版（2026-05）
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260510_814ec410-个人修炼-知识萃取探索营
+- src_20260510_814ec410-个人修炼-知识萃取探索营
 related:
 - '[[dk-truman-document-is-real-project-is-fake]]'
 - '[[yt-note-checklist-concept]]'
@@ -41,8 +40,7 @@ diagnostic_signals:
 - signal: 清单条目很多，但写方案时仍然漏掉关键点
   framework_lens: 清单结构失效——缺少触发场景或执行顺序
   follow_up_question: 清单是否按"输入-处理-输出"或评审阶段组织？每个检查项是否有明确的"何时检查"触发条件？
----
-# Truman的PRD清单进化
+---# Truman的PRD清单进化
 
 > Truman在知识萃取探索营中回溯了他早期在去哪儿做产品经理时的关键突破——从一个新人PM被领导反复打回，到用一个简单的检查清单实现"不再二错"，半年内赶上三四年经验PM的水平。这是"面向过去建模型，面向未来解决问题"的典范案例。
 

@@ -12,8 +12,7 @@ scale: 公司
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 wiki_refs: []
 definition_of_done:
 - 问题描述清晰
@@ -52,8 +51,7 @@ diagnostic_signals:
 - signal: 管理层要求提前半年排好详细课表/内容计划
   framework_lens: 研究型交付 vs 标准化交付
   follow_up_question: 这些内容中哪些是已知成熟可复制的，哪些还是研究中的"未熟果实"？
----
-# 案例：一堂的“周对周建模迭代”——把周五课程逼成公司增长引擎
+---# 案例：一堂的“周对周建模迭代”——把周五课程逼成公司增长引擎
 
 ## 原始表述
 

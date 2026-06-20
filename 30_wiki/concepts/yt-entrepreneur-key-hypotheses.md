@@ -29,8 +29,7 @@ related:
 - '[[master-systems-thinking]]'
 review_date: 2026-06-06
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260609_76e76298-ocr-一堂-科学决策-关键假设abcd模型
+- src_20260609_76e76298-ocr-一堂-科学决策-关键假设abcd模型
 status: enriched
 title: 关键假设259工具与假设验证三板斧
 trust_level: medium
@@ -53,8 +52,7 @@ diagnostic_signals:
   follow_up_question: 你的验证计划中，价值假设和增长假设各占多少比例？
 updated_at: '2026-06-16'
 author: 老顽童
----
-# 关键假设259工具与假设验证三板斧
+---# 关键假设259工具与假设验证三板斧
 
 > 来源：一堂课程体系 | 阶段：预判阶段/核心框架。一堂报名听课人数超过11万人的第一节必修课。通过"2阶段划分+5步拆解法+9要素画布"将复杂商业逻辑结构化，帮助创业者从"美好愿望驱动"转向"假设驱动"，实现"先胜后战"。[[yitang-course-map]] | [[yt-system-course-catalog]]
 

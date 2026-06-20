@@ -18,8 +18,7 @@ query_triggers:
   - "用一页纸解释全部人生规划"
 reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_074c72ae-ocr-truman的个人成长五步法
+- src_20260522_074c72ae-ocr-truman的个人成长五步法
 source_refs:
   - src_20260522_074c72ae-ocr-truman的个人成长五步法
 status: enriched
@@ -39,7 +38,6 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 ---
-
 # Truman的个人成长五步法：用一页纸解释全部人生规划
 
 > 来源：Truman（许楚）的个人成长框架。[[一堂]] | [[yt-entrepreneur-five-step-method]] | [[yt-model-personal-map]]

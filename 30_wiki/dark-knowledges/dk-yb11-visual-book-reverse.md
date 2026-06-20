@@ -10,7 +10,6 @@ source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
 - 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
@@ -27,8 +26,7 @@ diagnostic_signals:
 - source_cited_with_transcript
 - operational_steps_structured
 - failure_mode_table_included
----
-# 不训练模型锁定风格的逆向视觉书法
+---# 不训练模型锁定风格的逆向视觉书法
 
 ## 原始表述/核心洞察
 

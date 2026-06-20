@@ -29,8 +29,7 @@ related:
 - '[[yt-panproduct-execution-realistic-simulation]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_9eaf7399-ocr-泛产品设计-落地卡片-设计原则
+- src_20260522_9eaf7399-ocr-泛产品设计-落地卡片-设计原则
 status: enriched
 title: 泛产品设计·落地卡片：设计原则
 type: tool
@@ -56,8 +55,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 设计原则：掌握基本的UI/UE审美原则
+---# 设计原则：掌握基本的UI/UE审美原则
 
 > 落地工具箱卡片（磨设计）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

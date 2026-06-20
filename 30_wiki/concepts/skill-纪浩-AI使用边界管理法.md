@@ -9,8 +9,7 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部-人和AI协作-纪浩-五层结构-图片01
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01
+- src_20260609_8c00cb42-ocr-ai俱乐部-人和ai协作-纪浩-五层结构-图片01
 author: 纪浩
 reviewed_by: 欧阳锋
 created_at: "2026-06-15"
@@ -39,8 +38,7 @@ diagnostic_signals:
   - signal: "用AI代替所有练习，从不手写代码或手动操作"
     lens: "手感丧失"
     follow_up: "学习的本质是摩擦和必要难度。必须保留手动操作环节，AI辅助但不能替代"
----
-# 技能：AI使用边界管理法
+---# 技能：AI使用边界管理法
 
 - **纪浩体系**：[[concept-ji-hao-ai-collaboration-methodology]] — 纪浩 AI 协作方法论总纲
 

@@ -9,14 +9,10 @@ domain:
 - pharmaceutical-retail
 - financial-model
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
-  - src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
-  - src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness
-  - src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
+- src_20260613_26c69f98-corr_20260613_smart-medicine-cabinet-iteration-6-supplemental-deep-dive
+- src_20260613_6ed8df4b-corr_20260613_smart-medicine-cabinet-iteration-7-supplemental-deep-dive
+- src_20260613_b0cac5a3-corr_20260613_smart-medicine-cabinet-iteration-9-consumer-willingness
+- src_20260613_c5f5a7ce-corr_20260613_smart-medicine-cabinet-iteration-9-synthesis
 tags:
 - '#industry/healthcare'
 created_at: '2026-06-14'
@@ -43,8 +39,7 @@ query_triggers:
 - 药柜保本销售额
 difficulty: advanced
 prerequisites: smart-medicine-cabinet-national-policy-redlines
----
-# 智能药柜单点财务模型与回本测算表
+---# 智能药柜单点财务模型与回本测算表
 
 > **核心定位**：药柜推广的经济可行性取决于**点位质量 > 购买频次 > 客单价 > 毛利率 > 设备成本**。本卡提供单点财务模型框架和区间估算，所有回本周期数据均为估算，需结合实际点位验证。
 

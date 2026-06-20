@@ -22,8 +22,7 @@ related:
 - '[[yt-personal-pan-product-aesthetics]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_7d2a79f8-ocr-审美提升的层级
+- src_20260522_7d2a79f8-ocr-审美提升的层级
 status: enriched
 title: 审美提升的层级：从看不见到大胆想象的进化路径
 type: framework
@@ -44,8 +43,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
----
-# 审美提升的层级：从看不见到大胆想象的进化路径
+---# 审美提升的层级：从看不见到大胆想象的进化路径
 
 > 来源：一堂知识地图《审美提升的层级》。[[yt-model-pan-product-aesthetic-toolkit]] | [[yt-model-product-excellence]] | [[一堂]]
 

@@ -11,7 +11,6 @@ source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
 - 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 confidence: 0.88
 trust_level: medium
 author: 月白
@@ -26,8 +25,7 @@ pipeline:
 diagnostic_signals:
 - "视觉精度与价格预期存在可验证的负反馈：低价产品使用连锁级精修图会抬高用户预期，导致差评率上升"
 - "平台A/B测试可量化验证：同一产品用自然光/精修两种视觉策略，点击率与转化率呈现显著差异"
----
-# 餐饮图片视觉策略与价格定位的匹配法则
+---# 餐饮图片视觉策略与价格定位的匹配法则
 
 ## 原始表述/核心洞察
 

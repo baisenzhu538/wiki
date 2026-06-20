@@ -4,7 +4,6 @@ title: "反谄媚机制：让AI说真话"
 type: tool
 source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 domain:
   - yitang
@@ -44,7 +43,6 @@ author: "老顽童"
 reviewed_by: "欧阳锋"
 trust_level: medium-high
 ---
-
 # 反谄媚机制：让 AI 说真话
 
 > [[yt-model-prompt-engineering]] 的子工具。AI 天生迎合使用者——这是预训练中"对人类友好"指令的产物，不是 bug 是 feature。反谄媚是创业者使用 AI 最关键的自我保护机制。

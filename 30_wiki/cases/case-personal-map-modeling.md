@@ -4,8 +4,7 @@ id: case-personal-map-modeling
 title: 案例：一堂个人地图的完整建模过程（方法论视角）
 type: case
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
 - yitang
@@ -47,8 +46,7 @@ diagnostic_signals:
 - signal: 地图画完后不敢拿到真实用户面前讲
   framework_lens: 缺少路演验证锁，模型只在内部自洽，没有外部撞击
   follow_up_question: 这张图有没有在 ≥100 人的目标用户场域讲过？听众能否在 30 秒内复述出核心结构？
----
-# 案例：一堂个人地图的完整建模过程
+---# 案例：一堂个人地图的完整建模过程
 
 > **Burn line**: 一张 10 万美金级别的地图，是从十几个模糊课题开始，经过全量整理、找规律、写废 5–10 版、逻辑洁癖、路演验证才磨出来的。
 

@@ -9,8 +9,7 @@ domain:
   - yitang
 status: enriched
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260606_cde17edd-大的事件它可能是必然的它是被计划的
+- src_20260606_cde17edd-大的事件它可能是必然的它是被计划的
 component_of: null
 related:
   - "[[ai-collaboration-mindset-shift]]"
@@ -48,8 +47,7 @@ diagnostic_signals:
   - signal: "组织中没人敢承认不知道"
     lens: "政治资本缺失"
     follow_up: "检查组织文化：CEO说不知道=坦诚，中层说不知道=无能？建立心理安全"
----
-# 偶然性与决策：承认"我不知道"比虚假确定性更明智
+---# 偶然性与决策：承认"我不知道"比虚假确定性更明智
 
 > Source: src_20260606_cde17edd (水水-拆书会《偶然》-口述)
 

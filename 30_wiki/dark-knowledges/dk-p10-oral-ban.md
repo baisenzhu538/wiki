@@ -10,7 +10,6 @@ source_person: 欧阳锋
 source_context: pitfalls.md P-10，老顽童 Batch 2+3 审查，2026-06-03
 source_refs:
 - 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-10
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
@@ -31,8 +30,7 @@ diagnostic_signals:
 - 执行者复述"我记得审查者说过……"，却无法指出任务文件中的具体条款
 - 用户/下游角色问"禁令指什么？"，说明约束没有唯一真相源
 - 跨会话后口头指令被遗忘或被不同参与者解读为不同含义
----
-# P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件
+---# P-10：口头禁令 vs 书面约束——审查意见必须落笔到任务文件
 
 ## 原始表述/核心洞察
 

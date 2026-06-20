@@ -21,8 +21,7 @@ query_triggers:
   - "经验主义替代"
 reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_faa8021d-Y模型探索营-第二节课
+- src_20260614_faa8021d-Y模型探索营-第二节课
 source_refs:
   - src_20260614_faa8021d-Y模型探索营-第二节课
 status: enriched
@@ -44,7 +43,6 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 ---
-
 # Y模型/科学方法
 
 > 来源：一堂课程体系 | 阶段：底层逻辑。[[yitang-course-map]] | [[yt-system-course-catalog]]

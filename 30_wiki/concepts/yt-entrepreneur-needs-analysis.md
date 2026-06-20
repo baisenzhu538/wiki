@@ -24,8 +24,7 @@ related:
 review_date: 2026-05-07
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260611_375ccfae-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr
+- src_20260611_375ccfae-一堂-一堂五步法-需求-跑步机案例-需求分析图_paddle_ocr
 status: enriched
 title: 需求分析
 trust_level: medium
@@ -49,8 +48,7 @@ diagnostic_signals:
   follow_up_question: 这个反馈来自几个用户？他们代表多大的用户群体？
 updated_at: '2026-06-16'
 author: 老顽童
----
-# 需求分析
+---# 需求分析
 
 > 来源：一堂创业五步法第一步实操课（拆推评算之推演篇）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-map-lecture]]
 

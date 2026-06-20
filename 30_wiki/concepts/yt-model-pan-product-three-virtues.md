@@ -28,8 +28,7 @@ related:
 review_by: 2026-11-11
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_45ab8b35-GEO业务-最佳实践讨论
+- src_20260614_45ab8b35-GEO业务-最佳实践讨论
 status: enriched
 title: 泛产品三大自我修养：用户价值×最佳实践×无限进步
 type: framework
@@ -46,8 +45,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
----
-## Constraints & Boundaries
+---## Constraints & Boundaries
 
 ### 适用边界
 

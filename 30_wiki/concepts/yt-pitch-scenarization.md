@@ -24,8 +24,7 @@ related:
 - '[[yt-concept-weapon-arsenal]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库
+- src_20260609_93e2df35-ocr-一堂-个人修炼-讲香十指模型-超级武器库
 status: enriched
 title: 讲香·场景化
 type: tool
@@ -46,8 +45,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium-high
----
-# 讲香·场景化
+---# 讲香·场景化
 
 > 十指模型左手第一指——向下具象。在产品/服务与用户之间架一座场景的桥，让用户从「与我无关」到「我正需要」。
 

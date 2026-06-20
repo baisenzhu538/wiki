@@ -10,14 +10,12 @@ updated_at: '2026-06-16'
 author: 黄药师
 source_context: KDO infrastructure decision — internal design record （原 legacy，已从
   title/context/filename 推断为 src_20260503_52ae08ba）
-source_refs:
-  - src_20260503_52ae08ba-kdo_product_design_agent_final
+source_refs: []
 id: agent-ecosystem-design
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----
-# KDO Agent 体系建设方案
+---# KDO Agent 体系建设方案
 
 > 状态：**待欧阳锋裁决**。三个核心问题未定：agent 数量、分发机制、颗粒度。
 

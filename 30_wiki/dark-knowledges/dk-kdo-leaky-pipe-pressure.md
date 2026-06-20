@@ -9,8 +9,7 @@ domain:
 - master
 source_person: 黄药师
 source_context: KDO EC工业化迁移提案讨论，第二十二节批次4精修，2026-06-17
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 confidence: 0.88
 trust_level: medium
 related:
@@ -43,7 +42,6 @@ diagnostic_signals:
   framework_lens: 政策前置于基建——在没有干净数据的情况下定义标准，如在没有地基的沙地上画建筑图
   follow_up_question: 暂停门禁标准讨论。用一周集中修复 status 漂移、dangling links 和 source 缺失。修完后再看需要什么门禁。
 ---
-
 # 暗知识：在漏水的管子上加压
 
 > 基础链路没跑通时，硬门禁不是质量控制，而是流程卡死。更多控制 ≠ 更高质量。

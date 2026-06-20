@@ -20,13 +20,11 @@ related:
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260503_52ae08ba）
-source_refs:
-  - src_20260503_52ae08ba-kdo_product_design_agent_final
+source_refs: []
 reviewed_by: pending
 confidence: 0.6
 trust_level: low
----
-# 数据标注方案最终汇总 — 三方调研 + 黄药师独立判断
+---# 数据标注方案最终汇总 — 三方调研 + 黄药师独立判断
 
 > 汇总人：黄药师
 > 审查人：用户（决策者）、欧阳锋（Architect）

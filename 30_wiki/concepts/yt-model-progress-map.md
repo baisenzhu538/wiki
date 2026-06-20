@@ -22,8 +22,7 @@ related:
 - '[[yt-model-personal-map]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260510_ef0a5055-堂-堂无限进步大地图十年收藏版
+- src_20260510_ef0a5055-堂-堂无限进步大地图十年收藏版
 status: enriched
 title: 无限进步大地图
 type: framework
@@ -44,8 +43,7 @@ diagnostic_signals:
   follow_up_question: 你进入这个体系多久了？如果<6个月，你的任务不是无限修炼，而是先跑通个人修炼的一个小闭环
 author: 老顽童
 trust_level: medium-high
----
-# 一堂无限进步大地图·十年收藏版
+---# 一堂无限进步大地图·十年收藏版
 
 > 来源：一堂《无限进步大地图》十年收藏版。[[一堂]] | [[yt-model-y-organization]] | [[yt-system-course-catalog]]
 

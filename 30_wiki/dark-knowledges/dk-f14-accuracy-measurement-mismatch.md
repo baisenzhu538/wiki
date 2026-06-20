@@ -10,7 +10,6 @@ source_person: system
 source_context: failure-modes.md F-KDO-014
 source_refs:
 - 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-014
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
@@ -30,7 +29,6 @@ diagnostic_signals:
 - 不同时间/人/场景报告的准确率数字无法复现或相互矛盾
 - 比较两个版本时发现测试集、配置或测量脚本不一致
 ---
-
 # F-KDO-014：准确率声明的测量口径不一致
 
 ## 原始表述/核心洞察

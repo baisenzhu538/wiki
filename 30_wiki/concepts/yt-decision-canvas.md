@@ -33,10 +33,8 @@ related:
 - '[[case-truman-poker-deck-roi]]'
 reviewed_by: 周伯通
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
-  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
+- src_20260510_1eb77650-一堂五步法画布yitangfive-stepcanvas
+- src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 status: enriched
 title: Y模型决策画布（一页纸工具）
 trust_level: medium
@@ -98,8 +96,7 @@ diagnostic_signals:
   framework_lens: 定量区变成虚假精确性——数字看起来可靠但无法追溯，团队误以为已经"算过"
   follow_up_question: 前3个关键数字中，有几个标注了"高/中/低"置信度和数据来源？如果<2个，深度区需要重新标定
 author: 老顽童
----
-# Y模型决策画布（一页纸工具）
+---# Y模型决策画布（一页纸工具）
 
 > 来源：一堂《科学决策》落地篇。与[[yt-decision-y-model]]配套使用的一页纸落地工具，将"宽度-深度-高度"框架转化为可填写的结构化画布，支持独自决策、团队共识和AI辅助三种场景。
 

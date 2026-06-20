@@ -11,8 +11,7 @@ domain:
 - ai-collaboration
 - management
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_d79b42d1-D同学-AI技术落地案例
+- src_20260614_d79b42d1-D同学-AI技术落地案例
 related:
 - '[[industrial-ai-ops-cases]]'
 - '[[yt-entrepreneur-product-core]]'
@@ -21,8 +20,7 @@ updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-14
----
-# AI 辅助复杂职场沟通：角色扮演、攻防演练与受众适配
+---# AI 辅助复杂职场沟通：角色扮演、攻防演练与受众适配
 
 > 来源：听脑录音 5641781 + 公开信源六层交叉验证  
 > 置信度：方法论 0.85+，个案成果（集团一等奖）为无法验证的故事

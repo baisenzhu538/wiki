@@ -20,10 +20,8 @@ query_triggers:
 review_date: 2026-06-11
 reviewed_by: 老顷童
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260611_7c893d19-一堂-一堂五步法-落地实操-口述
-  - src_20260611_a7097aed-一堂-一堂五步法-落地实操-笔记
+- src_20260611_7c893d19-一堂-一堂五步法-落地实操-口述
+- src_20260611_a7097aed-一堂-一堂五步法-落地实操-笔记
 status: reviewed
 related:
 - '[[yt-five-step-method]]'
@@ -52,8 +50,7 @@ diagnostic_signals:
   follow_up_question: 你最近一次被五步法分析结果 surprise 到是什么时候？如果没有，你可能在用框架确认偏见
 updated_at: '2026-06-16'
 author: 老顽童
----
-# 暗知识：五步法常见误区与认知陷阱
+---# 暗知识：五步法常见误区与认知陷阱
 
 > 来源：一堂五步法·落地实操篇 | [[yt-five-step-method]] | [[yt-five-step-implementation]] | [[yt-demand-analysis-hiking-map]] | [[yt-product-kernel-cultivation]]
 

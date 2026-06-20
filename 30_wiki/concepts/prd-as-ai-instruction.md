@@ -9,8 +9,7 @@ domain:
   - yitang
 status: enriched
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260606_90b44191-没有人呀现在
+- src_20260606_90b44191-没有人呀现在
 component_of:
   - ai-learning-closed-loop
 related:
@@ -45,8 +44,7 @@ diagnostic_signals:
   - signal: "PRD写了但AI还是偏离"
     lens: "边界不清"
     follow_up: "检查PRD是否包含边界条件：什么时候停止、什么时候转交人类"
----
-# PRD文档作为AI可执行指令
+---# PRD文档作为AI可执行指令
 
 > Source: src_20260606_90b44191 (半肥猫-AI学习落地-口述，第430-448行)
 

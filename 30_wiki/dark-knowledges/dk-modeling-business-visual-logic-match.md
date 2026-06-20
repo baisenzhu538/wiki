@@ -11,8 +11,7 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 confidence: 0.8
 trust_level: medium
 diagnostic_signals:
@@ -42,8 +41,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 created_at: '2026-06-15'
 updated_at: '2026-06-18'
----
-# 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配
+---# 交互设计的精髓不是好看，是业务逻辑和视觉逻辑高度匹配
 
 ## 原始表述
 

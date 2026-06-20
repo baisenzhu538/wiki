@@ -17,8 +17,7 @@ query_triggers:
   - "知识体系定位"
 reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
+- src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
 source_refs:
   - src_20260510_e4a6ef49-提问刻意练习提升画布byyitang
 status: enriched
@@ -38,7 +37,6 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 ---
-
 # 提问刻意练习提升画布 (By YITANG)
 
 > 来源：一堂《提问刻意练习提升画布》。[[一堂]] | [[yt-model-scientific-questioning-map]] | [[yt-personal-deliberate-practice]]

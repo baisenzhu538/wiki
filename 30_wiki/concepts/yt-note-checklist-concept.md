@@ -21,10 +21,8 @@ related:
 prerequisites:
 - yt-model-ipo-learning-strategy
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01
-  - src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02
+- src_20260606_575627a4-一堂-AI时代清单体笔记-Truman-口述-01
+- src_20260606_db4fc211-一堂-AI时代请单体笔记-Truman-口述-02
 query_triggers:
 - 清单体笔记
 - 一堂笔记法
@@ -56,8 +54,7 @@ updated_at: '2026-06-17'
 author: 老顽童
 reviewed_by: 欧阳锋
 trust_level: medium
----
-# 一堂笔记法：清单体笔记的核心概念与原理
+---# 一堂笔记法：清单体笔记的核心概念与原理
 
 > 来源：一堂《AI时代清单体笔记》完整课程。Truman十年刻意练习的沉淀——清单体不是"简陋"，而是"极简"；不是备忘手段，而是认知加工方法。
 

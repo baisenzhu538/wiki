@@ -2,10 +2,8 @@
 id: concept-toyota-5-whys
 title: 5 Whys：追问到根本原因
 type: tool
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  Press.'
+source_refs: []
+Press.'
 - 'Senge, P. M. (1990). *The Fifth Discipline: The Art and Practice of the Learning
   Organization*. Doubleday.'
 status: enriched
@@ -41,8 +39,7 @@ reviewed_by: laowantong
 author: 老顽童
 confidence: 0.85
 trust_level: medium-high
----
-# 5 Whys：追问到根本原因
+---# 5 Whys：追问到根本原因
 
 > 来源：Ohno, T. (1988). *Toyota Production System: Beyond Large-Scale Production*; Senge, P. M. (1990). *The Fifth Discipline*
 > 核心：面对任何问题，连续问"为什么"，逐层探索直到触及根本原因——而非停留在表象层面。

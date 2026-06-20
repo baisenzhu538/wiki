@@ -9,9 +9,7 @@ domain:
 - structured-thinking
 source_person: McKinsey & Company
 source_context: McKinsey 问题解决方法论核心工具，用于将复杂商业问题逐层拆解为可独立分析的子问题
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 related:
 - '[[concept-mckinsey-mece]]'
 - '[[concept-mckinsey-hypothesis-driven]]'
@@ -43,8 +41,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.75
 trust_level: medium
----
-# Issue Tree：问题树拆解
+---# Issue Tree：问题树拆解
 
 ## 核心定义
 

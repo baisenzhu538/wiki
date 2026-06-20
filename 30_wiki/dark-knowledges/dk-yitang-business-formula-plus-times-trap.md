@@ -11,12 +11,9 @@ domain:
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，逻辑关系与运算符号章节
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-  - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
+- src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+- src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
+- src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 created_at: 2026-06-15
 updated_at: '2026-06-16'
 reviewed_by: 老顽童
@@ -35,8 +32,7 @@ related:
 tags: []
 author: 欧阳锋
 confidence: 0.85
----
-# 业务公式拆解：先切分再拆转化，+ 与 × 写错会误导决策
+---# 业务公式拆解：先切分再拆转化，+ 与 × 写错会误导决策
 
 ## 原始表述
 

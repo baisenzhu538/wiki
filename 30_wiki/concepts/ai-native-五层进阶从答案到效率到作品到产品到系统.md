@@ -16,8 +16,7 @@ related:
 - '[[case-纪浩-from-zip-to-five-layers]]'
 - '[[yt-note-ai-human-division]]'
 - '[[yt-research-osl-framework]]'
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 status: enriched
 title: AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
 type: framework
@@ -44,8 +43,7 @@ diagnostic_signals:
 - signal: "团队里每个人用的AI工具都不一样，产出格式混乱"
   lens: "标准化缺失"
   follow_up: "在L3建立统一的Skill/模板资产，而非放任个体工具选择"
----
-# AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
+---# AI Native 五层进阶：从答案，到效率，到作品，到产品，到系统
 
 > **核心定位**：一个普通人从”把AI当搜索框”到”搭建个人AI操作系统”的五层进阶框架。层级不是按工具难度排序，而是按**复利密度和责任边界**排序——越往上，AI替你创造的长期资产越多，你必须承担的验证、安全、维护责任也越大。
 

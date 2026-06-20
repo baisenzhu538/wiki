@@ -5,8 +5,7 @@ created_at: 2026-05-21
 domain:
   - healthcare
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_9d322e81-tools-workflows
+- src_20260522_9d322e81-tools-workflows
 status: enriched
 title: "Tools Workflows"
 type: concept
@@ -19,7 +18,6 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 ---
-
 # Tools Workflows
 
 ## Summary

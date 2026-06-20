@@ -5,8 +5,7 @@ created_at: 2026-05-03
 domain:
   - healthcare
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260503_1a1f0312-HIS系统开发实现方案-架构师指南
+- src_20260503_1a1f0312-HIS系统开发实现方案-架构师指南
 status: enriched
 title: "HIS系统开发实现方案-架构师指南"
 type: concept
@@ -18,7 +17,6 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 ---
-
 # HIS系统开发实现方案-架构师指南
 
 ## Summary

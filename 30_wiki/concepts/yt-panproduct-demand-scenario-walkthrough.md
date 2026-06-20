@@ -27,8 +27,7 @@ related:
 - '[[yt-panproduct-demand-need-discovery]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_3bc67cbd-ocr-泛产品设计-用户卡片-场景推演
+- src_20260522_3bc67cbd-ocr-泛产品设计-用户卡片-场景推演
 status: enriched
 title: 泛产品设计·用户卡片：场景推演
 type: tool
@@ -53,8 +52,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 场景推演：细颗粒度推演
+---# 场景推演：细颗粒度推演
 
 > 需求工具箱第 3 张卡片。[[yt-model-pan-product-demand-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

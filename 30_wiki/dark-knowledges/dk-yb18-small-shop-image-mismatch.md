@@ -12,7 +12,6 @@ source_person: 月白
 source_context: '口述稿: AI设计-AI设计师实操培训01'
 source_refs:
 - 10_raw/sources/src_20260619_abb86057_00_inbox_design_AI设计_AI设计师实操培训01.txt
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-04
 updated_at: '2026-06-19'
 related:
@@ -30,8 +29,7 @@ trust_level: medium
 diagnostic_signals:
 - 小店在美团/大众点评/海报中使用大酒店/连锁品牌级别的精修食品摄影图
 - 视觉传递的价格锚点显著高于实际客单价，出现"看图想来、到店不敢进"的落差
----
-# 小店图片错配陷阱：精致摄影反而吓跑客户
+---# 小店图片错配陷阱：精致摄影反而吓跑客户
 
 ## 原始表述
 

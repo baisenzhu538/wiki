@@ -10,7 +10,6 @@ source_person: Builder
 source_context: 2026-05-03
 source_refs:
 - 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-5
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
@@ -28,8 +27,7 @@ diagnostic_signals:
 - 自检报告将 "TODOs"、"TODOable" 等普通词汇标为 TODO 占位符
 - TODO 检测规则使用 `if "TODO" in line` 等子串匹配
 - 告警数量持续高于实际待办项数量
----
-# C-5：TODO 字符串匹配过宽→正文中的 TODOs/TODOable 被误报为占位符
+---# C-5：TODO 字符串匹配过宽→正文中的 TODOs/TODOable 被误报为占位符
 
 ## 原始表述/核心洞察
 

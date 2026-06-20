@@ -9,12 +9,9 @@ domain:
 - master
 - business-strategy
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-  - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
+- src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+- src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
+- src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
 tags:
 - '#method/evaluation-method'
 - '#method/thinking-tool'
@@ -38,8 +35,7 @@ related:
 - '[[case-dental-clinic-formula]]'
 - '[[case-offline-catering-formula]]'
 - '[[case-gym-membership-formula]]'
----
-# 业务公式定性参数行为化指标库
+---# 业务公式定性参数行为化指标库
 
 > 业务公式拆到 L3-L4 时，会出现大量定性参数（如信任度、满意度、使用深度）。这些参数如果停留在“我觉得很高”，就只是主观判断。必须把它们拆成**可定量的行为指标**，才能提出可验证的假设。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。
 

@@ -3,8 +3,7 @@ id: concept-thousand-people-square
 title: "千人广场模型：一堂做课背后的统计建模理念"
 type: concept
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
   - yitang
@@ -43,8 +42,7 @@ diagnostic_signals:
   - signal: "模型从成功案例推导，未验证普适性"
     lens: "统计建模"
     follow_up: "找5%已走过的人，提炼共性而非个案"
----
-# 千人广场模型：一堂做课背后的统计建模理念
+---# 千人广场模型：一堂做课背后的统计建模理念
 
 > **Burn line**: 一堂不是为三五个人做课，而是对广场上的所有人负责——广场上任何一个可见反例，都是模型的错。
 

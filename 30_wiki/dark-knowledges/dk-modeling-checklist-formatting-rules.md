@@ -11,8 +11,7 @@ domain:
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 confidence: 0.8
 trust_level: medium
 related:
@@ -44,8 +43,7 @@ diagnostic_signals:
 - signal: 团队对同一清单的理解不一致，执行时变形
   framework_lens: 清单缺少分层或分级标准未共识
   follow_up_question: 为清单增加二级分类，并对S/A/B/C或P0/P1/P2的定义达成书面共识
----
-# 清单体写不好，模型就建不好：换行、分层、优先级、完备
+---# 清单体写不好，模型就建不好：换行、分层、优先级、完备
 
 ## 原始表述
 

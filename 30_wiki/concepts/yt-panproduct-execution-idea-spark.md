@@ -29,8 +29,7 @@ related:
 - '[[yt-panproduct-aesthetic-imagination]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
+- src_20260522_e861d61d-ocr-泛产品设计-落地卡片-灵感闪现
 status: enriched
 title: 泛产品设计·落地卡片：灵感闪现
 type: tool
@@ -55,8 +54,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 灵感闪现：如何激发大量idea
+---# 灵感闪现：如何激发大量idea
 
 > 落地工具箱卡片（磨创新）。[[yt-model-pan-product-execution-toolkit]] | [[yt-model-pan-product-36-strategies]] | [[一堂]]
 

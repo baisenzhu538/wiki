@@ -5,8 +5,7 @@ created_at: 2026-05-03
 domain:
   - healthcare
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260503_5c91e867-轻量级诊所HIS调研全清单
+- src_20260503_5c91e867-轻量级诊所HIS调研全清单
 status: enriched
 title: "轻量级诊所HIS调研全清单"
 type: concept
@@ -19,7 +18,6 @@ reviewed_by: "欧阳锋"
 confidence: 0.8
 trust_level: medium
 ---
-
 # 轻量级诊所HIS调研全清单
 
 ## Summary

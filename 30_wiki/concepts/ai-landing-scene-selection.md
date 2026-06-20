@@ -9,8 +9,7 @@ domain:
   - yitang
 status: enriched
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260606_ef4877d0-所以90的核心问题
+- src_20260606_ef4877d0-所以90的核心问题
 component_of: null
 related:
   - "[[find-old-do-small]]"
@@ -45,8 +44,7 @@ diagnostic_signals:
   - signal: "AI效率提升但业务结果没变"
     lens: "结果导向验证"
     follow_up: "把评估指标从效率改为订单/转化率/收入"
----
-# AI落地场景识别：从"找老的干小的"开始
+---# AI落地场景识别：从"找老的干小的"开始
 
 > Source: src_20260606_ef4877d0 (马易-AI落地场景识别-口述)
 

@@ -6,10 +6,8 @@ status: enriched
 domain:
 - consulting
 - yitang
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  Press.
+source_refs: []
+Press.
 - Maister, D. H. (1997). 'True Professionalism'. Free Press.
 bridges_to:
 - target: diag_20250611_consulting-skills-research
@@ -54,8 +52,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
----
-# Trusted Advisor：可信顾问信任模型
+---# Trusted Advisor：可信顾问信任模型
 
 > 来源：Maister, Green & Galford (2000). *The Trusted Advisor*
 > 核心：信任 = 可信度（Credibility）+ 可靠度（Reliability）+ 亲近度（Intimacy），除以自我导向（Self-Orientation）。专业服务的终极竞争力不是"更会说服"，而是"更被信任"。

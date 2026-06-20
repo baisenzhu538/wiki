@@ -7,8 +7,7 @@ domain:
 review_date: 2026-05-03
 reviewed_by: Claude
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260428_db49a647-鑫港湾his系统分阶段整改报告
+- src_20260428_db49a647-鑫港湾his系统分阶段整改报告
 status: enriched
 title: 鑫港湾HIS系统分阶段整改报告
 trust_level: medium
@@ -20,8 +19,7 @@ author: unknown
 confidence: 0.7
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
----
-# 鑫港湾HIS系统分阶段整改报告
+---# 鑫港湾HIS系统分阶段整改报告
 
 ## Summary
 

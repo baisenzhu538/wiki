@@ -10,7 +10,6 @@ source_person: system
 source_context: pitfalls.md P-1
 source_refs:
 - 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-1
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
@@ -29,8 +28,7 @@ diagnostic_signals:
 - 改 Windows 注册表或 `wsl --shutdown` 后模型切换仍然无效
 - CLI 链路正常，但飞书 Agent 出现 401 或使用的模型不一致
 - 改完配置后未重开 tmux 或未 reload cc-connect 服务
----
-# P-1：切模型改环境变量无效——Claude Code 走全局设置
+---# P-1：切模型改环境变量无效——Claude Code 走全局设置
 
 ## 原始表述/核心洞察
 

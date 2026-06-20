@@ -7,10 +7,8 @@ type: case
 domain:
 - yitang
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260610_8865798f-一堂-一堂五步法-增长-口述
-  - src_20260610_92cd2b4e-一堂-一堂五步法-增长-笔记
+- src_20260610_8865798f-一堂-一堂五步法-增长-口述
+- src_20260610_92cd2b4e-一堂-一堂五步法-增长-笔记
 status: enriched
 confidence: 0.85
 difficulty: intermediate
@@ -54,8 +52,7 @@ wiki_refs:
 author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'
----
-# 案例：五步法中从产品内核到增长的第一次跨越
+---# 案例：五步法中从产品内核到增长的第一次跨越
 
 > 五步法在"产品内核验证"和"开始增长"之间，存在一个多数创业者踩坑的盲区。本案例还原三个跨过这道坎的真实路径。
 

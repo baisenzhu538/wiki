@@ -27,11 +27,9 @@ created_at: 2026-06-15
 confidence: 0.75
 trust_level: medium-low
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+- src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260613_6b939d2b）
----
-# 转化率黑客
+---# 转化率黑客
 
 > 来源：一堂管理必修课「管业务」模块，共5节系列课（认知篇/动力实操/阻力实操/触点实操/组合落地）。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]
 

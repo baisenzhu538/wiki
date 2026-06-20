@@ -12,8 +12,7 @@ related:
 - '[[yt-personal-ipo-learning]]'
 - '[[master-knowledge-compound]]'
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260525_66059442-ai时代判断力口述
+- src_20260525_66059442-ai时代判断力口述
 speaker: 国帅（胡帅），一堂联合创始人兼CTO
 status: enriched
 title: AI时代判断力口述（国帅）
@@ -25,8 +24,7 @@ pipeline:
 author: unknown
 reviewed_by: 欧阳锋
 trust_level: medium
----
-# AI时代判断力口述（国帅）
+---# AI时代判断力口述（国帅）
 
 > **一句话定位**：AI接管Process（加工推理）后，人的核心竞争力从"会做"变成"会判断"——判断力成为AI时代唯一不可外包的能力。
 

@@ -21,8 +21,7 @@ query_triggers:
 review_date: 2026-06-11
 reviewed_by: "周伯通"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260610_426daf30-一堂-一堂五步法-壁垒-口述
+- src_20260610_426daf30-一堂-一堂五步法-壁垒-口述
 status: reviewed
 title: "案例：知乎vs得到——网络效应壁垒的对比分析"
 trust_level: medium
@@ -39,7 +38,6 @@ pipeline:
   - confidence-source-cited
 author: "老顽童"
 ---
-
 # 案例：知乎vs得到——网络效应壁垒的对比分析
 
 > 来源：一堂五步法·壁垒篇 | [[yt-barrier-analysis-cheat-sheet]] | [[yt-barrier-identification-skill]] | [[yt-five-step-method]]

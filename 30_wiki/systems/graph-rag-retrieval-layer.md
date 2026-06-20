@@ -12,18 +12,15 @@ implementor: 黄药师 (Builder)
 id: graph-rag-retrieval-layer
 type: concept
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
-  - src_20260503_9bfe6913-一堂-调研行动营启动_原文润色
+- src_20260502_7d7c1b7c-kimi-深度调研集群方法论-deep-research-swarm
+- src_20260503_9bfe6913-一堂-调研行动营启动_原文润色
 superseded_design: v0.1 keyword-based — 原计划基于 index.json 的纯标准库方案，因黄药师已完成 LightRAG
   MVP 且检索质量更优，该方案已废弃
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: medium
 source_context: （原始 source 无法追溯，已标记为 source_unknown，待后续补充）
----
-# Graph RAG 检索层技术说明
+---# Graph RAG 检索层技术说明
 
 > **实际实现：LightRAG（图 + 向量混合检索）**
 > 黄药师于 2026-05-04 完成 MVP，全链路跑通，零 LLM 调用。

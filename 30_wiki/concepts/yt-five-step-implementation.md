@@ -24,10 +24,8 @@ related:
 review_date: 2026-06-11
 reviewed_by: 老顷童
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260611_7c893d19-一堂-一堂五步法-落地实操-口述
-  - src_20260611_a7097aed-一堂-一堂五步法-落地实操-笔记
+- src_20260611_7c893d19-一堂-一堂五步法-落地实操-口述
+- src_20260611_a7097aed-一堂-一堂五步法-落地实操-笔记
 status: reviewed
 title: 五步法落地实操：从故事版到分工版
 trust_level: medium
@@ -50,8 +48,7 @@ diagnostic_signals:
   follow_up_question: 5分钟内能把商业模式讲清楚吗？如果不能，不要急着定量
 updated_at: '2026-06-16'
 author: 老顽童
----
-# 五步法落地实操：从故事版到分工版
+---# 五步法落地实操：从故事版到分工版
 
 > 来源：一堂五步法·落地实操篇 | [[yt-five-step-method]] | [[yt-demand-analysis-hiking-map]] | [[yt-product-kernel-cultivation]] | [[yt-unit-model-concept]] | [[yt-growth-cycle-model]] | [[yt-barrier-analysis-cheat-sheet]]
 

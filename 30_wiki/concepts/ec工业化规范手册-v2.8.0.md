@@ -7,8 +7,7 @@ domain:
 review_date: 2026-05-03
 reviewed_by: Claude
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260503_feab72b2-ec工业化规范手册-v2.8.0
+- src_20260503_feab72b2-ec工业化规范手册-v2.8.0
 status: enriched
 title: EC工业化规范手册 v2.8.0
 trust_level: medium
@@ -20,8 +19,7 @@ author: unknown
 confidence: 0.7
 source_context: （单一 source 为完整长文档，内容充分支撑 high trust） （单一 source，P1 收尾时从 high 降为 medium，待补充第二来源或充分验证后再升回
   high）
----
-# EC工业化规范手册 v2.8.0
+---# EC工业化规范手册 v2.8.0
 
 > **定位**：鑫港湾HIS系统 · 执行卡片（Execution Card）设计规范
 > **编制**：扫地僧 | 初版 2026-03-28 | 最新更新 2026-04-27（v2.8.0）

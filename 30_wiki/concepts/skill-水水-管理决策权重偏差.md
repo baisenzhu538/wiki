@@ -9,8 +9,7 @@ domain:
 source_person: 水水
 source_context: 拆书会-偶然
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - source_unknown
+- source_unknown
 wiki_refs:
   - "[[yt-decision-y-model]]"
   - "[[master-decision-hygiene]]"
@@ -52,8 +51,7 @@ diagnostic_signals:
   - signal: "薪资和意义感被强行放在同一个1-10量表上衡量"
     lens: "不可通约量化"
     follow_up: "对于truly hard choices，不要试图用权重计算，而是问'我想成为什么样的人'"
----
-# 技能：管理决策权重偏差
+---# 技能：管理决策权重偏差
 
 > 水水在拆书会中提出的决策改进方法。解决"明明列出了所有决策因素，但权重分配完全是自我服务"这个普遍但少有人正视的问题。
 

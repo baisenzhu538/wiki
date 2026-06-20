@@ -18,8 +18,7 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260430_59a3d224-街顺app全面调研报告
+- src_20260430_59a3d224-街顺app全面调研报告
 source_refs:
   - src_20260430_59a3d224-街顺app全面调研报告
 status: enriched
@@ -38,7 +37,6 @@ pipeline:
   - confidence-verified-by-case
 author: "老顽童"
 ---
-
 # 案例：AI时间管理App七级演进
 
 > 来源：一堂机会预判案例课 | [[yt-foresight-business-spectrum]] | [[yt-ai-trend-12-signals]]

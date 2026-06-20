@@ -32,10 +32,8 @@ pipeline:
 author: unknown
 trust_level: medium-high
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260510_4bb17355-天花板
----
-# 技能：业务为先的AI中台建设
+- src_20260510_4bb17355-天花板
+---# 技能：业务为先的AI中台建设
 
 > 马易在 AI 落地场景识别中提出的核心实操方法。解决"先建平台还是先找场景"这个 AI 落地中最常见的路径错误。
 

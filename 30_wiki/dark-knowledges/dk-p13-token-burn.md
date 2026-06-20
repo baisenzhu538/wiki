@@ -10,7 +10,6 @@ source_person: system
 source_context: pitfalls.md P-13
 source_refs:
 - 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-13
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
@@ -29,8 +28,7 @@ diagnostic_signals:
 - 账单中缓存未命中费用占比超过 50%
 - 单晚/单次会话费用超过过去 7 天日均费用的 5 倍
 - 同一会话中连续处理多个独立 Sprint 或批量验证任务
----
-# P-13：长会话 = token黑洞 — 一晚上烧掉80元
+---# P-13：长会话 = token黑洞 — 一晚上烧掉80元
 
 ## 原始表述/核心洞察
 

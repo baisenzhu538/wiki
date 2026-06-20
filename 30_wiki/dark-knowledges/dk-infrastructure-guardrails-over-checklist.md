@@ -10,8 +10,7 @@ domain:
 - ai-collaboration
 source_person: KDO 团队复盘
 source_context: 第26节master系统暗知识精修：C-10/C-11/P-16/P-8 共同暴露的护栏缺失问题
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 related:
 - '[[dk-c10-batch-tool-no-dry-run]]'
 - '[[dk-c11-hongqigong-skip-review]]'
@@ -37,8 +36,7 @@ diagnostic_signals:
 - signal: validator 通过后发现验证逻辑读错了数据源
   framework_lens: 验证器本身无校验
   follow_up_question: 验证器的结果是否被另一个独立数据源交叉校验过？
----
-# 基础设施工具不能只有检查清单，还必须有硬护栏
+---# 基础设施工具不能只有检查清单，还必须有硬护栏
 
 ## 原始表述 / 核心洞察
 

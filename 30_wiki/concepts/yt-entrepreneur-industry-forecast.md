@@ -23,8 +23,7 @@ query_triggers:
   - "创业成功率"
 review_date: 2026-06-11
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
+- src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
 source_refs:
   - src_20260614_b9fbfc2b-theme-industry-ai-cases-summary
 status: enriched
@@ -49,7 +48,6 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 ---
-
 # 商业预判15字诀
 
 > 来源：一堂课程体系 | 阶段：预判阶段/核心框架。主动定中局→充分做加法→专业做减法，将创业成功率从10%提升至30%以上。[[yitang-course-map]] | [[yt-system-course-catalog]]

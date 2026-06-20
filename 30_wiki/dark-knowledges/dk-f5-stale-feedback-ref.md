@@ -10,7 +10,6 @@ source_person: system
 source_context: failure-modes.md F-KDO-005
 source_refs:
 - 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-005
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
@@ -27,8 +26,7 @@ trust_level: medium
 diagnostic_signals:
 - "kdo lint 输出 ERROR: Feedback 'fb_xxx' path does not exist，但对应文件在 60_feedback/ 或 .kdo/feedback/ 中已不存在"
 - "state.json 的 feedback 列表包含路径，但 ls 该路径显示文件不存在"
----
-# F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在
+---# F-KDO-005：过期 feedback 引用残留→kdo lint 报错但文件已不存在
 
 ## 原始表述/核心洞察
 

@@ -4,10 +4,8 @@ title: "一堂案例必修课"
 type: concept
 status: reviewed
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260506_9b4788a6-声音和画面正常吗
-  - src_20260507_857c7ed4-声音和画面正常吗
+- src_20260506_9b4788a6-声音和画面正常吗
+- src_20260507_857c7ed4-声音和画面正常吗
 id: yt-case-mandatory-cases
 created_at: 2026-05-05
 domain:
@@ -28,7 +26,6 @@ author: "老顽童"
 confidence: 0.85
 trust_level: high
 ---
-
 # 一堂案例必修课
 
 ## Summary

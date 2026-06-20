@@ -19,8 +19,7 @@ query_triggers:
 review_date: 2026-06-10
 reviewed_by: "洪七公"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a
+- src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a
 source_refs:
   - src_20260614_086550ab-刘长胜@136-0281-5868_20251008160644.m4a
 status: enriched
@@ -42,7 +41,6 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 ---
-
 # AI创业20个高风险假设清单
 
 > 来源：一堂2025《重新理解人工智能》| 烧掉数亿元、几百个AI项目的关键假设总结 | [[yt-ai-trend-12-signals]] | [[yt-entrepreneur-key-hypotheses]]

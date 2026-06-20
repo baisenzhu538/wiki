@@ -9,8 +9,7 @@ domain:
   - business-strategy
 status: enriched
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260606_90b44191-没有人呀现在
+- src_20260606_90b44191-没有人呀现在
 component_of: null
 related:
   - "[[course-to-skill-conversion]]"
@@ -46,8 +45,7 @@ diagnostic_signals:
   - signal: "学了等于没学，听完课就忘"
     lens: "闭环断裂"
     follow_up: "检查是否完成学习→实践→沉淀→工具四步，缺哪步补哪步"
----
-# AI学习闭环：从"听懂"到"能力"的转化路径
+---# AI学习闭环：从"听懂"到"能力"的转化路径
 
 > Source: src_20260606_90b44191 (半肥猫-AI学习落地-口述)
 

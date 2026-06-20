@@ -9,10 +9,7 @@ domain:
 - business-strategy
 source_person: Barbara Minto / McKinsey & Company
 source_context: McKinsey 问题解决方法论核心原则，最早系统化呈现于 Minto《金字塔原理》(1987) 与 McKinsey 内部培训
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 related:
 - '[[concept-mckinsey-issue-tree]]'
 - '[[concept-minto-pyramid-principle]]'
@@ -45,8 +42,7 @@ author: 老顽童
 reviewed_by: 欧阳锋
 confidence: 0.7
 trust_level: low
----
-# MECE 原则：相互独立、完全穷尽
+---# MECE 原则：相互独立、完全穷尽
 
 ## 核心定义
 

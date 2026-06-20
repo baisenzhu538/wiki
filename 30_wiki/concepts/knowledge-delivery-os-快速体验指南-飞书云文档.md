@@ -5,8 +5,7 @@ created_at: 2026-04-30
 domain:
 - master
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260501_6a491b80-knowledge-delivery-os-快速体验指南-飞书云文档
+- src_20260501_6a491b80-knowledge-delivery-os-快速体验指南-飞书云文档
 status: enriched
 title: Knowledge Delivery OS 快速体验指南 - 飞书云文档
 type: concept
@@ -18,7 +17,6 @@ reviewed_by: 欧阳锋
 confidence: 0.8
 trust_level: medium
 ---
-
 # Knowledge Delivery OS 快速体验指南
 
 > **定位**：KDO 是一个本地优先的产品，用于将知识转化为可交付资产。不是笔记应用——是基于仓库的工作空间 + CLI，将输入编译为可重用知识，生成三类产出：内容、代码、能力。

@@ -18,8 +18,7 @@ query_triggers:
   - "调研黑客五步曲"
 reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260510_2ba8671c-创业-调研行动营口述01
+- src_20260510_2ba8671c-创业-调研行动营口述01
 source_refs:
   - src_20260510_2ba8671c-创业-调研行动营口述01
 status: enriched
@@ -40,7 +39,6 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium
 ---
-
 # 调研行动营：从调研认知到AI调研武器库
 
 > 来源：一堂调研行动营第0期口述（Truman）。[[yt-entrepreneur-research-cognition]] | [[yt-model-ipo-learning-strategy]] | [[一堂]]

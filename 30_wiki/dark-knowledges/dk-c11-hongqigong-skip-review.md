@@ -10,7 +10,6 @@ source_person: 欧阳锋
 source_context: 2026-05-20
 source_refs:
 - 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-11
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
@@ -29,8 +28,7 @@ diagnostic_signals:
 - 一个工作 session 内连续完成多个阶段，中间没有任何提报或审查记录
 - '"快速提报"被理解为"不需要提报"，阶段边界处没有停等信号'
 - 审查者刚放行第 N 阶段，发现 N+1、N+2 阶段已经提前跑完
----
-# C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过
+---# C-11：洪七公跳步——三段画面连续产出，三次提报全部跳过
 
 ## 原始表述 / 核心洞察
 

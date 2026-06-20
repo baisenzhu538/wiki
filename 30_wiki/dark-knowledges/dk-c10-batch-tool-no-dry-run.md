@@ -10,7 +10,6 @@ source_person: 欧阳锋
 source_context: Sprint 6 终审发现，2026-05-20
 source_refs:
 - 10_raw/sources/src_20260619_f35cd8b6_20_memory_corrections.md#C-10
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-18'
 related:
@@ -29,8 +28,7 @@ diagnostic_signals:
 - dry-run 单卡 diff 未逐字段核对
 - validator PASS 后未人工读正文
 - 旧格式/新格式兼容未验证
----
-# C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空
+---# C-10：基础设施工具改后直接跑批量→71张卡攻击者内容被清空
 
 ## 原始表述/核心洞察
 

@@ -12,8 +12,7 @@ domain:
 source_person: Truman
 source_context: 一堂关键假设课（2026年）
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260606_9dd317aa-一堂-关键假设课-truman-口述
+- src_20260606_9dd317aa-一堂-关键假设课-truman-口述
 created_at: 2026-06-09
 updated_at: '2026-06-16'
 related:
@@ -30,8 +29,7 @@ pipeline:
 author: 黄药师
 confidence: 0.7
 trust_level: medium
----
-# 关键假设思维：259工具与假设驱动的创业方法
+---# 关键假设思维：259工具与假设驱动的创业方法
 
 > 黄药师骨架 · 老顽童填内容
 

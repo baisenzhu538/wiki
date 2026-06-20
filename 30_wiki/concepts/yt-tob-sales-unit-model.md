@@ -8,9 +8,7 @@ domain:
 - entrepreneurship
 - b2b
 - business-strategy
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 tags:
 - '#method/evaluation-method'
 - '#method/thinking-tool'
@@ -46,8 +44,7 @@ diagnostic_signals:
 - signal: 准备发展渠道商/代理商时，给不出“一个销售能赚多少”的预期。
   framework_lens: 渠道模型需要以跑通的单销售模型为底层假设，否则渠道商无法复制成功。
   follow_up_question: 我能否向渠道商展示：在当地招一名销售、按标准打法跑 12 个月，保守/乐观情形下分别能赚多少钱？
----
-# To B 单销售模型：时间闭环 + 空间闭环
+---# To B 单销售模型：时间闭环 + 空间闭环
 
 > To B 业务最容易被忽视的单元模型不是单订单，而是**单销售模型**。一个销售能否覆盖自己的成本，必须在**时间**和**空间**两个维度同时闭环。——徐剑《To B 五步法》
 

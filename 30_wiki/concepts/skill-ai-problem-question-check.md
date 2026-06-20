@@ -9,8 +9,7 @@ domain:
 source_person: 纪浩
 source_context: AI俱乐部-AI协作方法论-口述，2026-06-06
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
+- src_20260606_42e11f09-ai需要练那个ai时代要不要练笔记
 wiki_refs:
   - "[[ai-collaboration-mindset-shift]]"
   - "[[ai-landing-scene-selection]]"
@@ -51,8 +50,7 @@ diagnostic_signals:
   - signal: "分类后没有后续行动，problem也停留在认知层面"
     lens: "分类即终点"
     follow_up: "分类只是第一步，problem必须进入四要素验证或立即行动。分类不行动等于没分类"
----
-# 技能：Problem vs Question 区分法
+---# 技能：Problem vs Question 区分法
 
 > **来源**：纪浩（AI俱乐部-AI协作方法论-口述）
 > **核心**：每次向AI提问前，先用3秒判断这是"需要行动改变的问题"还是"满足好奇心的疑问"。

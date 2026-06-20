@@ -10,8 +10,7 @@ domain:
 - business-strategy
 - ai-saas
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_ab09af1c-多人-FD模式解析
+- src_20260614_ab09af1c-多人-FD模式解析
 related:
 - '[[source-code-delivery-model]]'
 - '[[private-domain-saas-sales-funnel]]'
@@ -22,8 +21,7 @@ updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-14
----
-# Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式
+---# Forward Deployment（FD）模式：企业级 AI 落地的高接触服务范式
 
 > 来源：听脑录音 6086504 + 公开信源六层交叉验证  
 > 置信度：核心机制 0.85+，客单价跨度 0.55，绝对化断言需降级

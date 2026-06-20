@@ -9,8 +9,7 @@ domain:
   - kdo
   - infrastructure
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - mineru-docs
+- mineru-docs
 created_at: "2026-06-17"
 updated_at: "2026-06-17"
 author: 黄药师
@@ -27,7 +26,6 @@ diagnostic_signals:
     framework_lens: MinerU 安装检查
     follow_up_question: 安装了 magic-pdf 吗？WSL 里执行 `pip show magic-pdf` 确认。
 ---
-
 # MinerU (magic-pdf) PDF 解析工具
 
 ## 当前状态

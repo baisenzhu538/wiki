@@ -10,7 +10,6 @@ source_person: system
 source_context: pitfalls.md P-2
 source_refs:
 - 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-2
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
@@ -29,7 +28,6 @@ diagnostic_signals:
 - 修改 shell 配置文件后进程行为未立即改变
 - 长期 tmux session 中的环境变量与当前 shell 不一致
 ---
-
 # P-2：tmux session 缓存旧配置
 
 ## 原始表述 / 核心洞察

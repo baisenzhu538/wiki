@@ -12,8 +12,7 @@ confidence: 0.75
 trust_level: medium-low
 title: yt decision abcd model
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型
+- src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型
 source_context: （原 legacy，已从 title/context/filename 推断为 src_20260522_3261e6bd）
 related:
 - '[[yt-decision-y-model]]'
@@ -23,8 +22,7 @@ related:
 - '[[yt-decision-consensus-iceberg]]'
 - '[[yt-decision-full-process]]'
 updated_at: '2026-06-16'
----
-# 一堂·关键假设ABCD模型
+---# 一堂·关键假设ABCD模型
 
 
 

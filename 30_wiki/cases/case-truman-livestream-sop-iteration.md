@@ -4,10 +4,8 @@ id: case-truman-livestream-sop-iteration
 title: 一堂直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法
 type: case
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-  - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
 status: enriched
 confidence: 0.9
 domain:
@@ -38,8 +36,7 @@ diagnostic_signals:
   framework_lens: 迭代第三阶段——微颗粒度补丁
   follow_up_question: 你最近一次SOP更新是什么时候？更新触发是什么？
 updated_at: '2026-06-16'
----
-# Truman 直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法
+---# Truman 直播 SOP 三年迭代：从 0 到 50 条的迭代递归深挖法
 
 > **这不是方法论——这是方法论在现场长出来的过程。**
 

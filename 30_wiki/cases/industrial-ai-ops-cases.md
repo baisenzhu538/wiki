@@ -11,12 +11,9 @@ domain:
 - ai-saas
 - entrepreneur
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_eca9f5b3-酒店行业-AI标签审核案例
-  - src_20260614_b85c364e-贝壳-云管家AI外呼案例
-  - src_20260614_4b3b6427-阿豪-自动选品系统案例
+- src_20260614_eca9f5b3-酒店行业-AI标签审核案例
+- src_20260614_b85c364e-贝壳-云管家AI外呼案例
+- src_20260614_4b3b6427-阿豪-自动选品系统案例
 related:
 - '[[fd-forward-deployment]]'
 source_person: 多位产业从业者（酒店 SaaS、贝壳云管家、电商阿豪）
@@ -26,8 +23,7 @@ updated_at: '2026-06-16'
 author: 王语嫣
 reviewed_by: 老顽童
 review_date: 2026-06-14
----
-# 产业 AI 运营落地：酒店/房产/电商三大案例的去伪存真
+---# 产业 AI 运营落地：酒店/房产/电商三大案例的去伪存真
 
 > 来源：听脑录音 5640373/5639853/5638569 + 公开信源六层交叉验证  
 > 置信度：整体 0.82，部分数字为个案/待复核

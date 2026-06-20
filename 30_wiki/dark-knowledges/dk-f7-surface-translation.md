@@ -10,7 +10,6 @@ source_person: system
 source_context: failure-modes.md F-KDO-007
 source_refs:
 - 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-007
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
@@ -29,8 +28,7 @@ diagnostic_signals:
 - Condense 段出现"本课程属于""在一堂知识地图中的位置""与同模块其他课程并列"等目录定位语言
 - 读完 Condense 仍说不出该课程独有的 3 条核心方法或洞见
 - Condense 内容可直接从课程目录或章节标题改写得到，无实质增量
----
-# F-KDO-007：表层翻译式提炼→Condense 段变成课程目录改写
+---# F-KDO-007：表层翻译式提炼→Condense 段变成课程目录改写
 
 ## 原始表述/核心洞察
 

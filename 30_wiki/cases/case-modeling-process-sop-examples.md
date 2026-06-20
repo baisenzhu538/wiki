@@ -9,10 +9,8 @@ domain:
 - master
 - modeling
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_1e814b94-Truman-高阶建模-流程建模-图-02
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_1e814b94-Truman-高阶建模-流程建模-图-02
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:
 - "#case"
 - "#method/modeling"
@@ -45,8 +43,7 @@ related:
 - "[[case-modeling-process-sop-evolution]]"
 - "[[dk-modeling-logical-cleanliness-root]]"
 - "[[dk-modeling-sop-execution-locks]]"
----
-# 流程建模案例：10 个学员企业的 SOP 实践样本
+---# 流程建模案例：10 个学员企业的 SOP 实践样本
 
 > 来源：Truman-高阶建模-流程建模-图-02 | 一堂建模能力培训（Truman）
 

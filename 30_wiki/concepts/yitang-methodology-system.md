@@ -10,7 +10,6 @@ domain:
 source_person: 王语嫣
 source_context: 听脑 AI 一堂方法论主题摘要综合提炼
 source_refs:
-  - 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
   - 10_raw/sources/src_20260614_1be3d76f-一堂-思维模型案例分享.md
   - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
   - 10_raw/sources/src_20260614_3501eb39-一堂-PCPR模型课程.md
@@ -47,8 +46,7 @@ related:
   - '[[ai-learning-closed-loop]]'
   - '[[master-first-principles]]'
   - '[[master-systems-thinking]]'
----
-# 一堂方法论体系：从科学做事到无限进步
+---# 一堂方法论体系：从科学做事到无限进步
 
 > Source: 90_control/itingnao-kit/work/theme-yitang-methodology-summary.md（26 条听脑 AI 录音 meetingSummary 综合提炼）
 

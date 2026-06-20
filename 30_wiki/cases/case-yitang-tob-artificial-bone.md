@@ -10,8 +10,7 @@ domain:
   - b2b
   - healthcare
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
+- src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 tags:
   - '#domain/yitang'
   - '#domain/b2b'
@@ -49,7 +48,6 @@ diagnostic_signals:
     framework_lens: 关键假设检验与复盘
     follow_up_question: 如果换三任销售总监都未达目标，是选人问题还是增长假设与行业导入期不匹配？
 ---
-
 > 来源：一堂 ToB 五步法优秀作业合集，学员李志军自述。案例中的销售数字为学员自述，需独立核实关键数据。
 
 ---

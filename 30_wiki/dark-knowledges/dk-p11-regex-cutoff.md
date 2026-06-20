@@ -10,7 +10,6 @@ source_person: system
 source_context: pitfalls.md P-11
 source_refs:
 - 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-11
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
 updated_at: '2026-06-18'
 related:
@@ -27,8 +26,7 @@ author: unknown
 reviewed_by: 欧阳锋
 confidence: 0.88
 trust_level: medium
----
-# P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效
+---# P-11：validator `section_content` regex 在 `###` 处截断——所有文章 word count 失效
 
 ## 原始表述
 

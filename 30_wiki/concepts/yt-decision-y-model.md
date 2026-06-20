@@ -31,10 +31,8 @@ related:
 - '[[yt-five-step-method]]'
 reviewed_by: 周伯通
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02
-  - src_20260616_aac184cc-yitang-tob-five-step-homework-collection
+- src_20260609_f00cad16-ocr-一堂-科学决策-roi决策评估画布-案例02
+- src_20260616_aac184cc-yitang-tob-five-step-homework-collection
 status: enriched
 title: Y模型科学决策框架（广义ROI）
 trust_level: medium
@@ -91,8 +89,7 @@ diagnostic_signals:
   framework_lens: 高度视角沦为事后叙事工具——Y模型要求决策时显式记录高度判断，否则无法证伪
   follow_up_question: 当前画布的高度区是否写明了'3年后回看会后悔吗'和'放弃的最佳替代方案是什么'？如果没有，补齐后再继续
 author: 老顽童
----
-# Y模型科学决策框架（广义ROI）
+---# Y模型科学决策框架（广义ROI）
 
 
 

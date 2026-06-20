@@ -7,8 +7,7 @@ domain:
 review_date: 2026-05-03
 reviewed_by: Claude
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260427_970eb338-街顺app全面调研报告
+- src_20260427_970eb338-街顺app全面调研报告
 status: reviewed
 title: 街顺APP全面调研报告
 trust_level: medium
@@ -20,7 +19,6 @@ pipeline:
 author: unknown
 confidence: 0.85
 ---
-
 # 街顺APP全面调研报告
 
 ## Summary

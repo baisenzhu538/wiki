@@ -19,13 +19,11 @@ tags: []
 author: unknown
 source_context: KDO internal decision record （原 legacy，已从 title/context/filename 推断为
   src_20260428_db49a647）
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
+source_refs: []
 reviewed_by: pending
 confidence: 0.7
 trust_level: medium
----
-# 鑫港湾HIS项目
+---# 鑫港湾HIS项目
 
 > 基于 .NET 8 + Vue 3 的医疗信息管理系统——从代码审查到上线交付的全流程工程化。
 

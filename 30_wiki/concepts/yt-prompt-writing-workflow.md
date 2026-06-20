@@ -4,7 +4,6 @@ title: "AI写作工作流：大纲→要点→全文"
 type: tool
 source_refs:
 - 10_raw/sources/一堂-拆书会-吴恩达提示词课程.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 domain:
   - yitang
@@ -41,7 +40,6 @@ author: "老顽童"
 reviewed_by: "欧阳锋"
 trust_level: medium-high
 ---
-
 # AI 写作工作流：大纲→要点→全文
 
 > [[yt-model-prompt-engineering]] 的子工具。AI 写作最高频（24.5%），但也是最容易出"看起来完整、实际上空洞"的垃圾的地方。正确的流程从大纲开始——大纲有杠杆效应。

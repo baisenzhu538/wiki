@@ -10,7 +10,6 @@ source_person: system
 source_context: pitfalls.md P-20
 source_refs:
 - 10_raw/sources/src_20260619_1545a6ee_.agent_pitfalls.md#P-20
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-06-03
 updated_at: '2026-06-19'
 related:
@@ -35,8 +34,7 @@ diagnostic_signals:
 - signal: 'pre-screen 过滤后下游 LLM 收到的候选集为空或严重偏斜'
   framework_lens: '自动化管线的"预筛层"成为了语言歧视层，把中文内容系统性排除在后续处理之外'
   follow_up_question: '在 pre-screen 前后分别抽样检查候选集语言分布；若中文候选显著缺失，改为全量直送 LLM 或引入中文 Embedding'
----
-# P-20：pre-screen bigram 匹配对中文文本完全失效
+---# P-20：pre-screen bigram 匹配对中文文本完全失效
 
 ## 原始表述
 

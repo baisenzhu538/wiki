@@ -22,8 +22,7 @@ query_triggers:
 review_date: 2026-05-08
 reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
+- src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
 source_refs:
   - src_20260609_e9aa385a-ocr-泛产品设计-落地卡片-逻辑mece
 status: enriched
@@ -47,7 +46,6 @@ diagnostic_signals:
 updated_at: 2026-06-13
 author: "老顽童"
 ---
-
 # 泛产品设计
 
 > 来源：一堂个人必修课"形成竞争力"模块——泛产品设计力系列课。[[一堂方法论体系总图]] | [[yitang-course-map]] | [[yt-system-course-catalog]]

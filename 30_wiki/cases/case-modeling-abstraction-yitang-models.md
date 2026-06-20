@@ -17,10 +17,8 @@ scale: 公司
 source_person: Truman
 source_context: 一堂建模能力培训，2026-06-12
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_87b29a61-Truman-高阶建模-抽象建模-案例-图-01
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
+- src_20260614_87b29a61-Truman-高阶建模-抽象建模-案例-图-01
+- src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 tags:
 - '#content-format/case-study'
 - '#problem/knowledge-management'
@@ -48,8 +46,7 @@ diagnostic_signals:
 - signal: 业务讨论中频繁出现"我们再用XX模型套一下"，但套完没有新洞察
   lens: 模型空转——把模型当装饰，没有结合真实问题推导到具体动作
   follow_up: 要求每次使用模型后输出"3条具体判断"和"1个下一步动作"，否则视为无效使用
----
-# 抽象建模案例：一堂内部模型武器库与跨领域商业模型地图
+---# 抽象建模案例：一堂内部模型武器库与跨领域商业模型地图
 
 > 来源：Truman-高阶建模-抽象建模-案例-图-01 | 一堂建模能力培训（Truman），`src_20260614_87b29a61`、`src_20260614_8269ccdb`
 

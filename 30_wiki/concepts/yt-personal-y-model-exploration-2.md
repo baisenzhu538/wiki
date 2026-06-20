@@ -24,8 +24,7 @@ related:
 - '[[master-first-principles]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260510_6d771b2a-个人修身-y模型探索营2
+- src_20260510_6d771b2a-个人修身-y模型探索营2
 status: enriched
 title: Y模型探索营2：五次质变与科学推演
 type: tool
@@ -51,8 +50,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# Y模型探索营2：五次质变与科学推演
+---# Y模型探索营2：五次质变与科学推演
 
 > 来源：一堂Y模型探索营第二课口述（Truman）。[[yt-personal-y-model-practice]] | [[yt-model-y-organization]] | [[一堂]]
 

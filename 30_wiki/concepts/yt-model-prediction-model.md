@@ -19,8 +19,7 @@ superseded_by:
   - yt-foresight-model-taxonomy
 reviewed_by: "黄药师"
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_e71d89ff-ocr-预判模型
+- src_20260522_e71d89ff-ocr-预判模型
 source_refs:
   - src_20260522_e71d89ff-ocr-预判模型
 status: enriched
@@ -41,7 +40,6 @@ updated_at: 2026-06-13
 author: "老顽童"
 trust_level: medium-high
 ---
-
 # 预判模型：从最糙版到复杂版的三种预判范式
 
 > 来源：一堂知识地图《预判模型》。[[yt-entrepreneur-industry-forecast]] | [[yt-entrepreneur-key-hypotheses]] | [[一堂]]

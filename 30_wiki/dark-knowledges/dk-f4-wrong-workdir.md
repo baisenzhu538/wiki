@@ -10,7 +10,6 @@ source_person: system
 source_context: failure-modes.md F-KDO-004
 source_refs:
 - 10_raw/sources/src_20260619_d967c8f5_90_control_failure_modes.md#F-KDO-004
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 created_at: 2026-05-31
 updated_at: '2026-06-19'
 related:
@@ -28,8 +27,7 @@ diagnostic_signals:
 - 命令返回 0 但无任何文件变化
 - 在非 wiki 根目录（如 ~/.claude/plugins/）执行 kdo pipeline 命令
 - 执行后 state.json 或目标文件的时间戳/哈希 unchanged
----
-# F-KDO-004：错误工作目录执行 pipeline 命令→命令静默失败、无报错、无文件变更
+---# F-KDO-004：错误工作目录执行 pipeline 命令→命令静默失败、无报错、无文件变更
 
 ## 原始表述/核心洞察
 

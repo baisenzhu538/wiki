@@ -7,10 +7,8 @@ type: case
 domain:
 - yitang
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
-  - src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
+- src_20260606_f6cb0868-一堂-机会预判课-Truman-口述
+- src_20260606_c996cb6a-一堂-机会预判课-truman-笔记
 status: enriched
 confidence: 0.9
 difficulty: beginner
@@ -40,8 +38,7 @@ pipeline:
 author: 老顽童
 trust_level: medium-high
 updated_at: '2026-06-16'
----
-# 小龙电商：四层剥离——从服装到正装裤
+---# 小龙电商：四层剥离——从服装到正装裤
 
 ## 背景
 

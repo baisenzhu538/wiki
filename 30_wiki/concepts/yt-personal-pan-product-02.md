@@ -26,8 +26,7 @@ related:
 - '[[yt-model-personal-pitch-toolkit]]'
 reviewed_by: 黄药师
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260522_e4b635ac-ocr-泛产品设计落地篇
+- src_20260522_e4b635ac-ocr-泛产品设计落地篇
 status: enriched
 title: 泛产品设计落地篇：无限进步与持续打磨
 type: concept
@@ -52,8 +51,7 @@ diagnostic_signals:
 updated_at: '2026-06-16'
 author: 老顽童
 trust_level: medium
----
-# 泛产品设计落地篇：无限进步与持续打磨
+---# 泛产品设计落地篇：无限进步与持续打磨
 
 > 来源：一堂泛产品设计系列最后一课·落地篇口述（Truman）。[[yt-model-pan-product-execution-toolkit]] | [[yt-personal-pan-product-concepts]] | [[一堂]]
 

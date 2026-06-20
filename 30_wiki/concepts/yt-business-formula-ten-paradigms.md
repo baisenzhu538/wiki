@@ -9,10 +9,8 @@ domain:
 - master
 - business-strategy
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
+- src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
+- src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
 tags:
 - '#method/evaluation-method'
 - '#method/thinking-tool'
@@ -33,8 +31,7 @@ related:
 - '[[yt-business-formula-qualitative-metrics-library]]'
 - '[[yt-entrepreneur-unit-model]]'
 - '[[yt-growth-cycle-model]]'
----
-# 一堂业务公式十大经典范式
+---# 一堂业务公式十大经典范式
 
 > 一堂把常见业务增长问题抽象为 10 个公式范式，按「收入提升」「竞争提升」「运营提升」三大目标聚类。  
 > 来源：一堂 2026-06-13 业务公式拆解培训（孔阳），「一堂业务公式·十大经典范式」图。
