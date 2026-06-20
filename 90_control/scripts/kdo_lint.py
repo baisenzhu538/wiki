@@ -96,6 +96,36 @@ def parse_schema(text: str) -> dict:
     return schema
 
 
+def check_source_refs_exist(fm: dict, rel: str) -> list:
+    """检查 source_refs 指向的文件是否真实存在。（新增 2026-06-21）"""
+    errors = []
+    refs = fm.get("source_refs", [])
+    if not refs:
+        return errors
+    if isinstance(refs, str):
+        refs = [refs]
+
+    for ref in refs:
+        s = str(ref).strip()
+        # 只检查文件路径类型的 source_ref
+        if "/" not in s:
+            continue
+        # 跳过 wikilink 和 URL
+        if s.startswith("[[") or s.startswith("http"):
+            continue
+        candidate = VAULT_ROOT / s
+        if not candidate.exists():
+            errors.append(f"{rel}: source_refs dead file: {s}")
+
+    # 检查已知污染模式
+    CONTAMINATION = "src_20260503_52ae08ba"
+    for ref in refs:
+        if CONTAMINATION in str(ref):
+            errors.append(f"{rel}: source_refs contaminated: {str(ref)[:80]}")
+
+    return errors
+
+
 def validate_file(fp: Path, schemas: dict) -> list:
     errors = []
     rel = fp.relative_to(VAULT_ROOT).as_posix()
@@ -143,6 +173,9 @@ def validate_file(fp: Path, schemas: dict) -> list:
             for v in vals:
                 if not re.match(pattern, str(v)):
                     errors.append(f"{rel}: field '{field}' value '{v}' does not match pattern '{pattern}'")
+
+    # source_refs 文件存在性检查
+    errors.extend(check_source_refs_exist(fm, rel))
 
     return errors
 
