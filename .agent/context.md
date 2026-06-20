@@ -1,10 +1,12 @@
 ---
 updated: 2026-06-20
 active_branch: main
-active_task: "老顽童批量工单：全库待办一次性打包（5波），当前第1波门禁清理"
+active_task: "王语嫣完成调研专题域素材验收，产出诊断记录待老顽童生产"
 blockers:
-  - "第4波新域建设需前置审批：调研方法论域待欧阳锋批准，master域7张卡待确认分配给老顽童"
-next_session_hint: "老顽童按 laowantong-batch-2026-06-20.md 执行；每波完成跑门禁并写小结；第4波待欧阳锋审批后启动"
+  - "第4波新域建设需前置审批：调研方法论域素材已通过王语嫣验收，但 source_refs 污染需老顽童先清理再生产；master域7张卡待确认分配给老顽童"
+  - "调研专题域4张VLM描述存在_parse_error=true，外层confidence被错误标记为0.3，需人工复核"
+  - "多张yt-research-*卡片source_refs指向不存在的src_20260503_52ae08ba-kdo_product_design_agent_final.md，生产前必须清理"
+next_session_hint: "老顽童启动调研方法论域生产前，先按diag_20260620_调研专题素材验收.md清理source_refs并建立素材→卡片映射；每波完成跑门禁并写小结"
 ---
 
 ## 📢 全厂通知（2026-06-19）
