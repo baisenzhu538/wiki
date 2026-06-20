@@ -1,0 +1,24 @@
+---
+feedback_id: "fb_20260620_98844972"
+kind: "auto"
+title: "Near-duplicate wiki pages (slug: 技能把prd写成ai能执行的指令)"
+artifact_id: ""
+source: "kdo self-check"
+captured_at: "2026-06-20T14:07:24+00:00"
+path: "60_feedback/auto/fb_20260620_98844972-near-duplicate-wiki-pages-slug-技能把prd写成ai能执行的指令.md"
+---
+
+# Near-duplicate wiki pages (slug: 技能把prd写成ai能执行的指令)
+
+## Kind
+
+auto
+
+## Duplicate Group (slug=`技能把prd写成ai能执行的指令`)
+
+- `30_wiki/concepts/skill-ai-prd-for-ai.md` — 技能：把PRD写成AI能执行的指令
+- `30_wiki/tools/sk-ai-prd-for-ai.md` — 技能：把PRD写成AI能执行的指令
+
+## Follow-up
+
+- TODO: Merge duplicate pages or disambiguate titles.
