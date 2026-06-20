@@ -1,42 +1,33 @@
 ---
-
 id: case-saas-renewal-formula
 title: ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户"用起来"
 type: case
 status: enriched
 domain:
-- yitang
-- ai-saas
-- business-strategy
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-  - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
-tags:
-- '#method/evaluation-method'
-- '#content-format/case-study'
-- '#domain/saas'
-- '#renewal'
-- '#domain/yitang'
-created_at: '2026-06-15'
-updated_at: '2026-06-16'
-author: 孔阳
+  - yitang
+  - ai-saas
+  - business-strategy
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，ToB 企业培训 SaaS 续费案例（持续复购型）
-reviewed_by: 老顽童
-review_date: '2026-06-15'
-confidence: 0.9
+source_refs:
+  - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
+  - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
+  - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
+created_at: "2026-06-15"
+updated_at: "2026-06-20"
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: "2026-06-20"
+confidence: 0.85
 trust_level: high
 related:
-- '[[yt-business-formula-abc-model]]'
-- '[[yt-business-formula-ten-paradigms]]'
-- '[[yt-business-formula-parameter-iceberg]]'
-- '[[yt-entrepreneur-unit-model]]'
+  - yt-business-formula-abc-model
+  - yt-business-formula-ten-paradigms
+  - yt-business-formula-parameter-iceberg
+  - yt-entrepreneur-unit-model
 ---
-# ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户“用起来”
+
+# ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户“用起来"
 
 > 一堂业务公式拆解培训案例：年 GMV 2000 万的企业培训 SaaS，续费率仅 50%，远低于竞对 80%。创始人以为是销售触达不够，真正原因是客户根本没把产品用起来。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。
 

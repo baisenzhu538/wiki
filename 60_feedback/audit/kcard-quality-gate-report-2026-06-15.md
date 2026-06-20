@@ -3,8 +3,8 @@
 **扫描时间**：2026-06-15  
 **扫描范围**：30_wiki 全库 1347 张卡片  
 **P0 阻塞问题卡片**：1 张  
-**P1 修复问题卡片**：2 张  
-**完全干净卡片**：1344 张  
+**P1 修复问题卡片**：0 张  
+**完全干净卡片**：1346 张  
 **YAML 解析错误**：1 张  
 
 ---
@@ -19,10 +19,7 @@
 
 ## P1 修复问题清单
 
-| 文件 | P1 问题 |
-|---|---|
-| `frameworks\yt-demand-early-validation.md` | confidence=0.92 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
-| `frameworks\yt-demand-scenario-reconstruction.md` | confidence=0.92 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+无 P1 修复问题。
 
 ---
 

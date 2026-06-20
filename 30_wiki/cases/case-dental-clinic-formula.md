@@ -1,42 +1,33 @@
 ---
-
 id: case-dental-clinic-formula
 title: ToC 连锁口腔诊所：成交率 30% 背后的"危机感知"公式
 type: case
 status: enriched
 domain:
-- yitang
-- healthcare
-- business-strategy
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-  - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
-tags:
-- '#method/evaluation-method'
-- '#content-format/case-study'
-- '#industry/healthcare'
-- '#industry/dental'
-- '#domain/yitang'
-created_at: '2026-06-15'
-updated_at: '2026-06-16'
-author: 孔阳
+  - yitang
+  - healthcare
+  - business-strategy
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，连锁口腔诊所案例（单次成交 & 长周期复购型）
-reviewed_by: 老顽童
-review_date: '2026-06-15'
-confidence: 0.9
+source_refs:
+  - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
+  - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
+  - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
+created_at: "2026-06-15"
+updated_at: "2026-06-20"
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: "2026-06-20"
+confidence: 0.85
 trust_level: high
 related:
-- '[[yt-business-formula-abc-model]]'
-- '[[yt-business-formula-ten-paradigms]]'
-- '[[yt-business-formula-parameter-iceberg]]'
-- '[[yt-entrepreneur-unit-model]]'
+  - yt-business-formula-abc-model
+  - yt-business-formula-ten-paradigms
+  - yt-business-formula-parameter-iceberg
+  - yt-entrepreneur-unit-model
 ---
-# ToC 连锁口腔诊所：成交率 30% 背后的“危机感知”公式
+
+# ToC 连锁口腔诊所：成交率 30% 背后的“危机感知"公式
 
 > 一堂业务公式拆解培训案例：月接诊 2000 人、GMV 400 万/月的连锁口腔诊所，成交率仅 30%。创始人想靠“拉流量+打折”增长 50%，但真正的瓶颈是客户没有“危机感知”。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。
 

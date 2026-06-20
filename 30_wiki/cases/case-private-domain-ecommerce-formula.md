@@ -1,42 +1,33 @@
 ---
-
 id: case-private-domain-ecommerce-formula
 title: 私域电商 10W 人社群：从"拉人发广告"到"信任 × 用户升级路径"
 type: case
 status: enriched
 domain:
-- yitang
-- e-commerce
-- business-strategy
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-  - src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral
-tags:
-- '#method/evaluation-method'
-- '#content-format/case-study'
-- '#private-domain'
-- '#industry/ecommerce'
-- '#domain/yitang'
-created_at: '2026-06-15'
-updated_at: '2026-06-16'
-author: 孔阳
+  - yitang
+  - e-commerce
+  - business-strategy
 source_person: 孔阳
 source_context: 一堂 2026-06-13 业务公式拆解培训，私域电商案例（持续复购型）
-reviewed_by: 老顽童
-review_date: '2026-06-15'
-confidence: 0.9
+source_refs:
+  - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
+  - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
+  - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
+created_at: "2026-06-15"
+updated_at: "2026-06-20"
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: "2026-06-20"
+confidence: 0.85
 trust_level: high
 related:
-- '[[yt-business-formula-abc-model]]'
-- '[[yt-business-formula-ten-paradigms]]'
-- '[[yt-business-formula-parameter-iceberg]]'
-- '[[yt-entrepreneur-unit-model]]'
+  - yt-business-formula-abc-model
+  - yt-business-formula-ten-paradigms
+  - yt-business-formula-parameter-iceberg
+  - yt-entrepreneur-unit-model
 ---
-# 私域电商 10W 人社群：从“拉人发广告”到“信任 × 用户升级路径”
+
+# 私域电商 10W 人社群：从“拉人发广告”到“信任 × 用户升级路径"
 
 > 一堂业务公式拆解培训案例：一个 10 万人的私域社群月 GMV 仅 100 万，创始人通过“拉人+发广告+做活动”试图翻倍，但真正的瓶颈是人均贡献低、用户不信任、缺少升级路径。来源：一堂 2026-06-13 业务公式拆解培训（孔阳）。
 
