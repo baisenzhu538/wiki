@@ -310,6 +310,30 @@
 
 ---
 
+## 第 4 波 Master 域完成小结（2026-06-20）
+
+- 完成卡片：7 张
+  - `master-ai-info-literacy`
+  - `master-cognitive-bias-checklist`
+  - `master-decision-hygiene`
+  - `master-first-principles`
+  - `master-systems-thinking`
+  - `master-antifragile-checklist`
+  - `master-knowledge-compound`
+- 新增卡片：0 张（7 张卡已存在，本次为接管与规范化）
+- 处理内容：
+  - 统一 frontmatter：`author=老顽童`，`reviewed_by=欧阳锋`，`review_date=2026-06-20`，`updated_at=2026-06-20`
+  - 补充 `source_person` / `source_context`
+  - 替换虚假 source_refs 为真实存在的 2–3 个 source（主要来源：一堂科学决策课程、知识萃取探索营、《学会提问》、learning-thinking、AI Native 五层进阶等）
+  - 调整 `confidence=0.75–0.78`，`trust_level=medium`
+  - 补充 master 域内部互链
+  - `master-antifragile-checklist` 与 `master-knowledge-compound` 原 frontmatter 中的 `diagnostic_signals` 已移入正文「边界与诊断信号」小节
+- lint 结果：PASS（本轮目标卡无新增 ERROR）
+- 质量门禁：P0=1（仅 concept-card-index-latest.md 脚本问题），P1=0
+- 阻塞/需用户确认：无
+
+---
+
 *工单创建：2026-06-20*  
 *创建者：王语嫣*  
 *执行者：老顽童*
