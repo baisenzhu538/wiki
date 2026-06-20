@@ -230,6 +230,65 @@
 
 写卡顺序：#6 → #1 → #2 → #3 → #4 → #5 → #7。
 
+### 4.2.1 老顽童执行要求
+
+**现状**：7 张卡已存在，但 frontmatter 不规范（author=unknown 或 王语嫣，source_refs 指向 `src_20260503_52ae08ba-kdo_product_design_agent_final.md` 等虚假 source，source_person/source_context 缺失）。需要老顽童接管并规范化，不是重写正文。
+
+**每张卡必做**：
+1. **frontmatter 标准化**
+   - `author: 老顽童`
+   - `reviewed_by: 欧阳锋`
+   - `review_date: '2026-06-20'`
+   - `updated_at: '2026-06-20'`
+   - 添加 `source_person` 和 `source_context`
+2. **source_refs 替换**
+   - 移除虚假 source（如 `src_20260503_52ae08ba-kdo_product_design_agent_final.md`）
+   - 替换为 2–3 个真实存在的 source（优先从一堂科学决策课程、知识萃取探索营、《学会提问》、learning-thinking、AI Native 五层进阶等素材中选取）
+   - 规范路径为 `10_raw/sources/...`
+3. **confidence / trust 调整**
+   - 因内容为通用知识整理且未逐段核对原文，`confidence` 建议 0.75–0.78
+   - `trust_level` 统一为 `medium`
+4. **related 互链**
+   - 保留现有有效 related
+   - 补充至少 2 条 master 域内部互链
+   - 如有正文引用 yt-* 卡，确保相关 yt-* 卡有反向链接（如缺少，补双向）
+5. **内容格式检查**
+   - 确保有「边界/失败模式」小节（表格形式，≥2 条适用边界 + ≥2 条失败模式）
+   - 确保有「Action Checklist / 使用步骤」
+   - `diagnostic_signals` 如在 frontmatter 中，需移入正文并改为表格格式
+6. **改完一张跑一张 lint**，禁止批量改后统一跑
+
+### 4.2.2 推荐 source 素材池
+
+| 素材主题 | 推荐 source 文件 |
+|:---|:---|
+| 科学决策 / ROI | `src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md` |
+| 发现决策 | `src_20260522_1a2ffc3e-ocr-一堂-科学决策-发现决策.md` |
+| 思考习惯 / 认知偏差 | `src_20260522_23b5714d-ocr-一堂-科学决策-高度-两种典型的思考习惯.md` |
+| 决策经验值 | `src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md` |
+| 关键假设 / 第一性 | `src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md` |
+| 关键训练清单 | `src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md` |
+| 双三角 / 系统思考 | `src_20260522_d96543bb-ocr-一堂-科学决策-一堂双三角磨合追求-从入门到无限进步.md` |
+| 决策三角形 | `src_20260522_f3429a35-ocr-一堂-科学决策-决策三角形.md` |
+| 人机协作 / 信息素养 | `src_20260522_33c40d41-ocr-一堂-科学决策-人机协作决策.md` |
+| 知识萃取 | `src_20260614_239c9f4e-一堂-知识萃取探索营.md` |
+| 通用学习 / 思维 | `src_20260522_0af1f6dd-learning-thinking.md` |
+| 批判性思维 | `src_20260524_836ad51c-学会提问在信息洪流中锻造批判性思维的利刃.md` |
+| AI Native 五层进阶 | `src_20260524_3cadf228-ai-native-五层进阶从答案到效率到作品到产品到系统.md` |
+| 萃取总结 | `src_20260510_14db4c2b-萃取总结.md` |
+
+### 4.2.3 7 张卡 source 建议分配
+
+| 卡 ID | 建议 source（选 2–3） |
+|:---|:---|
+| `master-ai-info-literacy` | 人机协作决策 + 学会提问 + 知识萃取探索营 |
+| `master-cognitive-bias-checklist` | 两种典型思考习惯 + 决策经验值 + 关键训练清单 |
+| `master-decision-hygiene` | 发现决策 + 关键训练清单 + ROI 决策口述 |
+| `master-first-principles` | 关键假设 ABCD 模型 + 知识萃取探索营 + learning-thinking |
+| `master-systems-thinking` | 双三角磨合 + 决策三角形 + AI Native 五层进阶 |
+| `master-antifragile-checklist` | 决策经验值 + 关键训练清单 + ROI 决策口述 |
+| `master-knowledge-compound` | 知识萃取探索营 + learning-thinking + 萃取总结 |
+
 ### 第 4 波验收标准
 
 - [ ] 每张新卡通过 lint + 质量门禁
@@ -240,17 +299,14 @@
 
 ## 第 5 波：KF-021 收尾协助（33 张 source 缺失）
 
-**来源**：parking-lot PL-012。
+**状态**：✅ 已完成（2026-06-18 验收通过）。
 
-**角色**：王语嫣牵头，老顽童协助补充证据链，黄药师协助 source 注册表基础设施。
+**处理结果**：
+- 33 张 content 卡已全部处理（18 张因 source 不可定位降级为 draft，15 张清理/调整 trust 后保留 enriched/stable）
+- 验收报告：`60_feedback/audit/kf-021-section22-final-acceptance-2026-06-18.md`
+- 最终门禁：`total=1193, p0=0, p1=18, yaml_error=0`（18 张 P1 为预期内的 draft 降级卡）
 
-**老顽童任务**：
-- 从王语嫣提供的 33 张卡清单中，认领自己熟悉/产出的卡片
-- 为每张卡补充 `source_refs`，规范为 `10_raw/sources/` 下相对路径
-- 无法追溯的 source 留空，并将 confidence 控制在 ≤0.89
-- 协助验证 source 注册表中是否存在对应条目
-
-**前置条件**：等待王语嫣提供 33 张卡的具体清单和分工。
+无需再安排给老顽童。
 
 ---
 
@@ -307,30 +363,6 @@
   - 9 张综合卡已统一 frontmatter（author=老顽童，reviewed_by=欧阳锋，review_date=2026-06-20）。
   - 所有综合卡已补充子主题映射表、口述数据标注。
   - 药柜/医疗内容已剥离并登记至 pending-wiki-cards。
-
----
-
-## 第 4 波 Master 域完成小结（2026-06-20）
-
-- 完成卡片：7 张
-  - `master-ai-info-literacy`
-  - `master-cognitive-bias-checklist`
-  - `master-decision-hygiene`
-  - `master-first-principles`
-  - `master-systems-thinking`
-  - `master-antifragile-checklist`
-  - `master-knowledge-compound`
-- 新增卡片：0 张（7 张卡已存在，本次为接管与规范化）
-- 处理内容：
-  - 统一 frontmatter：`author=老顽童`，`reviewed_by=欧阳锋`，`review_date=2026-06-20`，`updated_at=2026-06-20`
-  - 补充 `source_person` / `source_context`
-  - 替换虚假 source_refs 为真实存在的 2–3 个 source（主要来源：一堂科学决策课程、知识萃取探索营、《学会提问》、learning-thinking、AI Native 五层进阶等）
-  - 调整 `confidence=0.75–0.78`，`trust_level=medium`
-  - 补充 master 域内部互链
-  - `master-antifragile-checklist` 与 `master-knowledge-compound` 原 frontmatter 中的 `diagnostic_signals` 已移入正文「边界与诊断信号」小节
-- lint 结果：PASS（本轮目标卡无新增 ERROR）
-- 质量门禁：P0=1（仅 concept-card-index-latest.md 脚本问题），P1=0
-- 阻塞/需用户确认：无
 
 ---
 
