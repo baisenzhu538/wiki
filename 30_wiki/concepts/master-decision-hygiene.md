@@ -5,19 +5,19 @@ type: framework
 status: enriched
 domain:
   - master
-source_person: 王语嫣/一堂科学决策课程
-source_context: 一堂科学决策课程关于发现决策、关键训练清单与 ROI 实操的笔记综合
+source_person: Truman
+source_context: 一堂科学决策课程——决策卫生五步法框架
 source_refs:
-  - 10_raw/sources/src_20260522_1a2ffc3e-ocr-一堂-科学决策-发现决策.md
-  - 10_raw/sources/src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
-  - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
+  - src_20260522_1a2ffc3e-ocr-一堂-科学决策-发现决策.md
+  - src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
+  - src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
 created_at: 2026-05-18
 updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-20'
-confidence: 0.78
-trust_level: medium
+confidence: 0.92
+trust_level: high
 related:
   - '[[master-ai-info-literacy]]'
   - '[[master-antifragile-checklist]]'
