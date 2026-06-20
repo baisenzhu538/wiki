@@ -77,10 +77,30 @@ def parse_task_file(task_path):
             current_section = stripped.lstrip("# ").strip()
             continue
 
-        # 混合模式：表格行和列表项都可能含卡片 ID
+        # 表格行：只看第一列（或第二列，如果第一列是序号）
+        if stripped.startswith("|") and not stripped.startswith("|:") and not stripped.startswith("|---"):
+            cells = [c.strip() for c in stripped.split("|")]
+            # 跳过首尾空
+            cells = [c for c in cells if c]
+            if not cells:
+                continue
+            # 如果第一列是纯数字（序号），取第二列；否则取第一列
+            target_cell_idx = 0
+            if cells[0].isdigit() and len(cells) > 1:
+                target_cell_idx = 1
+            if target_cell_idx < len(cells):
+                cid_match = CARD_ID_RE.search(cells[target_cell_idx])
+                if cid_match and current_wave is not None:
+                    cid = cid_match.group(1)
+                    if not cid.startswith("src_") and not cid.startswith("http"):
+                        if cid not in waves[current_wave]["card_ids"]:
+                            waves[current_wave]["card_ids"].append(cid)
+                            waves[current_wave]["count"] += 1
+            continue
+
+        # 非表格行：提取所有卡片 ID（用于列表、段落中的引用）
         ids_in_line = CARD_ID_RE.findall(line)
         for cid in ids_in_line:
-            # 过滤掉明显不是卡片 ID 的（如文件路径中的 ID、素材描述等）
             if cid.startswith("src_") or cid.startswith("http"):
                 continue
             if current_wave is not None:
