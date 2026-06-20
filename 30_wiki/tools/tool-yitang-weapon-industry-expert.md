@@ -1,0 +1,44 @@
+---
+id: tool-yitang-weapon-industry-expert
+title: 武器库策略9：行业专家访谈——五步找到对的专家
+type: tool
+status: enriched
+author: 老顽童
+reviewed_by: 待审
+review_date: 2026-06-21
+created_at: 2026-06-21
+confidence: 0.88
+trust_level: high
+language: zh-CN
+domain: [yitang, research]
+source_refs:
+- 00_inbox/调研专题/调研超级武器库_ocr_text.md
+- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+related:
+- "[[framework-yitang-research-weapon-system]]"
+- "[[framework-yitang-expert-interview-10steps]]"
+---
+
+# 武器库策略9：行业专家访谈
+
+> 找到对的人聊——行业专家见多识广，一句话可能顶你自己调研一周。
+
+## 找专家的五个渠道
+
+| # | 渠道 | 具体做法 |
+|:---:|:---|:---|
+| 1 | **同行/同业熟人** | 自己认识或朋友认识的行业内人 |
+| 2 | **招聘相关** | 工作中接触到的同行熟手 |
+| 3 | **同业上下游找熟手** | 供应商、客户方的行业老人 |
+| 4 | **同业熟人/前员工** | 在这个行业工作过的人 |
+| 5 | **转介绍** | 一个专家推荐另一个专家（链式扩展） |
+
+## 核心原则
+
+- 先明确范围→确认角色→联系沟通→准备问题→预约拜访
+- 专家访谈需准备充分：问题清单、行业背景、对方关注点
+- 专家之间互相引荐=最有效的拓展方式
+
+---
+
+*卡片类型：tool | 审核状态：待审*

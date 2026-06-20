@@ -9,6 +9,7 @@
 | 素材类型 | 数量 | 处理方式 | 产出 | 状态 |
 |:--|:--:|:--|:--|:--:|
 | 🖼️ PPT 截图 | 299 | MiniMax M3 VLM | `_vlm_desc.md` × 299 | ✅ 全成功 |
+| 🔤 PPT OCR | 299 | MiniMax M3 OCR | `_ocr_text.md` × 299 | ✅ 101,521字 |
 | 📄 PDF 文档 | 4 | pymupdf 提取 | `_ocr.md` × 4 | ✅ 357页/28万字 |
 | 📄 DOCX 文档 | 1 | python-docx | `_ocr.md` × 1 | ✅ 3,318字 |
 
@@ -62,7 +63,8 @@
 战略专题/
 ├── 冉鹏PPT截图/                    # VLM 已处理
 │   ├── 引擎点火..._001~299.png    # 299张 PPT 截图
-│   ├── 引擎点火..._*_vlm_desc.md  # 299份 VLM 描述
+│   ├── 引擎点火..._*_vlm_desc.md  # 299份 VLM 结构描述
+│   ├── 引擎点火..._*_ocr_text.md  # 299份 OCR 逐字提取（101,521字）
 │   └── README-VLM描述汇总.md       # VLM 汇总
 │
 ├── 引擎点火..._ocr.md             # 299页 PPT 讲义 (20万字)
