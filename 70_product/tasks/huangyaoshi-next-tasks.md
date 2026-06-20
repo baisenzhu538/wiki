@@ -1833,3 +1833,4 @@ errors: 84
 | P-3 | **卡片语义去重**：5000 张体量下必有内容重叠，需近重复检测 → 合并建议 | 用户 2026-06-20 | P2 | 2-3d |
 | P-4 | **过期检测**：标记 `freshness: stale` 的卡在搜索结果中降权 + 标注"可能过时" | 用户 2026-06-20 | P2 | 1d |
 | P-5 | **多库架构设计**：四库拓扑（商业+人 / 电子+软件 / 结构工程 / 平面设计+推广）+ 中央欧阳锋 + 子库精简配置 + 启动序列 + Agent 分拆方案。已有讨论稿待正式决策 | 用户 2026-06-20 | P2 | 待定 |
+| P-6 | **business-research skill → KDO skill 适配**：工具调用层翻译（WebSearch/WebFetch/Agent → kdo-tools/web_search.py），写入 `40_outputs/capabilities/skills/business-research/`，让 Hermes Agent（王语嫣/老顽童等）也能用 | 用户 2026-06-20 | P1 | 1-2h |
