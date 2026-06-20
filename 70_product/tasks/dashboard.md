@@ -20,6 +20,7 @@ Generated: 2026-06-15T15:00:00+00:00
 | validate-v15-upgrade-plan | kdo validate --v15 --upgrade-plan：从诊断到可行动的升级路线图 | done | 黄药师 | P1 | validate-v15-upgrade-plan.md |
 | huangyaoshi-codex-lessons-review | 审查请求：Codex 调试复盘 → KDO 系统改进 4 条建议 | pending_review | 欧阳锋 | - | huangyaoshi-codex-lessons-review.md |
 | proposal-ouyangfeng-2026-06-14 | 建议书：欧阳锋工作模式调整与知识库三层化 | 待欧阳锋确认 | - | - | proposal-ouyangfeng-workmode-2026-06-14.md |
+| laowantong-batch-2026-06-20 | 老顽童批量工单：全库待办一次性打包（5 波） | in_progress | 老顽童 | P0-P2 | laowantong-batch-2026-06-20.md |
 | auto-label-accuracy-baseline-vs-gold-standard | Auto-label 准确率基线 vs Gold Standard：34.8%（47/135） | draft | - | - | task-20260531-huangyaoshi-label-accuracy-fix.md |
 | domain-prompt-engineering-andre-ng | 提示词工程域：吴恩达课程消化 + 人机协作技能内化 | completed | 黄药师 | P0 | domain-prompt-engineering-andre-ng.md |
 | domain-xiang-jiang-deep-digestion | 讲香域深度消化 + 架构重建 | completed | 黄药师 | P0 | domain-xiang-jiang-deep-digestion.md |

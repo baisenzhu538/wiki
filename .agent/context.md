@@ -1,10 +1,10 @@
 ---
 updated: 2026-06-20
 active_branch: main
-active_task: "王欢AI实践域完成；startup.md上线；识别Prompt vs 档案的本质差异"
+active_task: "老顽童批量工单：全库待办一次性打包（5波），当前第1波门禁清理"
 blockers:
-  - "各Agent需建立自己的AI业务档案（行业暗规则字段）"
-next_session_hint: "用户说'继续'→ ① 推进各Agent建立AI业务档案（用王欢5字段模板，重点挖行业暗规则）；② 王语嫣角色升级AGENTS.md"
+  - "第4波新域建设需前置审批：调研方法论域待欧阳锋批准，master域7张卡待确认分配给老顽童"
+next_session_hint: "老顽童按 laowantong-batch-2026-06-20.md 执行；每波完成跑门禁并写小结；第4波待欧阳锋审批后启动"
 ---
 
 ## 📢 全厂通知（2026-06-19）
