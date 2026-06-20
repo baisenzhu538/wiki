@@ -1,38 +1,30 @@
 ---
 id: master-cognitive-bias-checklist
-confidence: 0.85
-created_at: 2026-05-18
-difficulty: intermediate
-domain:
-- master
-estimated_tokens: 1082
-language: zh-CN
-query_triggers:
-- 认知偏差自检
-- 决策前检查表
-- 12种常见偏差
-related:
-- '[[yt-decision-y-model]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-decision-habit-shift]]'
-- '[[yt-decision-ai-partner]]'
-- '[[yt-decision-review]]'
-- '[[master-decision-hygiene]]'
-- '[[master-ai-info-literacy]]'
-- '[[yt-unit-model-ladder]]'
-- '[[yt-unit-model-benchmark]]'
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-status: enriched
 title: 认知偏差快速诊断清单
 type: tool
-updated_at: '2026-06-16'
-version: 1
-pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
-author: unknown
-trust_level: medium-high
+status: enriched
+domain:
+  - master
+source_person: 王语嫣/一堂科学决策课程
+source_context: 一堂科学决策课程中关于思考习惯、决策经验值与关键训练清单的笔记综合
+source_refs:
+  - 10_raw/sources/src_20260522_23b5714d-ocr-一堂-科学决策-高度-两种典型的思考习惯.md
+  - 10_raw/sources/src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
+  - 10_raw/sources/src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
+created_at: 2026-05-18
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-20'
+confidence: 0.78
+trust_level: medium
+related:
+  - '[[master-ai-info-literacy]]'
+  - '[[master-antifragile-checklist]]'
+  - '[[master-decision-hygiene]]'
+  - '[[master-first-principles]]'
+  - '[[master-knowledge-compound]]'
+  - '[[master-systems-thinking]]'
 ---
 # 认知偏差快速诊断清单
 

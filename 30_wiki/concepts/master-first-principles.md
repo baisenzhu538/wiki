@@ -1,40 +1,30 @@
 ---
 id: master-first-principles
-confidence: 0.85
-created_at: 2026-05-18
-difficulty: intermediate
-domain:
-- master
-estimated_tokens: 1622
-language: zh-CN
-query_triggers:
-- 第一性原理
-- 拆到不可拆
-- 本质思维
-- 底层逻辑拆解
-related:
-- '[[yt-entrepreneur-liberate-thinking]]'
-- '[[yt-personal-y-model-exploration-2]]'
-- '[[yt-entrepreneur-liberate-thinking]]'
-- '[[yt-panproduct-execution-core-and-boundary]]'
-- '[[yt-personal-deep-review]]'
-- '[[master-systems-thinking]]'
-- '[[yt-unit-model-ladder]]'
-- '[[yt-unit-model-construction]]'
-- '[[yt-unit-model-dynamic]]'
-- '[[dk-yb20-ai-eye-high-principle]]'
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-status: enriched
-title: 第一性原理拆解器
+title: 第一性原理
 type: tool
-updated_at: '2026-06-16'
-version: 1
-pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
-author: unknown
-trust_level: medium-high
+status: enriched
+domain:
+  - master
+source_person: 王语嫣/一堂科学决策课程 + 公开学习材料
+source_context: 一堂科学决策课程关键假设模型、知识萃取探索营与通用学习方法论综合
+source_refs:
+  - 10_raw/sources/src_20260522_3261e6bd-ocr-一堂-科学决策-关键假设abcd模型.md
+  - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
+  - 10_raw/sources/src_20260522_0af1f6dd-learning-thinking.md
+created_at: 2026-05-18
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-20'
+confidence: 0.78
+trust_level: medium
+related:
+  - '[[master-ai-info-literacy]]'
+  - '[[master-antifragile-checklist]]'
+  - '[[master-cognitive-bias-checklist]]'
+  - '[[master-decision-hygiene]]'
+  - '[[master-knowledge-compound]]'
+  - '[[master-systems-thinking]]'
 ---
 # 第一性原理拆解器
 

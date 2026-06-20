@@ -1,37 +1,30 @@
 ---
 id: master-decision-hygiene
-confidence: 0.8
-created_at: 2026-05-18
-difficulty: intermediate
-domain:
-- master
-estimated_tokens: 1589
-language: zh-CN
-query_triggers:
-- 决策卫生
-- 噪声减少
-- 团队决策降噪
-related:
-- '[[yt-decision-y-model]]'
-- '[[yt-decision-canvas]]'
-- '[[yt-decision-consensus-iceberg]]'
-- '[[yt-decision-full-process]]'
-- '[[master-cognitive-bias-checklist]]'
-- '[[master-ai-info-literacy]]'
-- '[[yt-unit-model-ladder]]'
-- '[[yt-unit-model-selection]]'
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-status: enriched
 title: 决策卫生五步法
 type: framework
-updated_at: '2026-06-16'
-version: 1
-pipeline:
-- confidence-source-cited
-- confidence-verified-by-case
-author: unknown
-trust_level: medium-high
+status: enriched
+domain:
+  - master
+source_person: 王语嫣/一堂科学决策课程
+source_context: 一堂科学决策课程关于发现决策、关键训练清单与 ROI 实操的笔记综合
+source_refs:
+  - 10_raw/sources/src_20260522_1a2ffc3e-ocr-一堂-科学决策-发现决策.md
+  - 10_raw/sources/src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
+  - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
+created_at: 2026-05-18
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-20'
+confidence: 0.78
+trust_level: medium
+related:
+  - '[[master-ai-info-literacy]]'
+  - '[[master-antifragile-checklist]]'
+  - '[[master-cognitive-bias-checklist]]'
+  - '[[master-first-principles]]'
+  - '[[master-knowledge-compound]]'
+  - '[[master-systems-thinking]]'
 ---
 # 决策卫生五步法
 

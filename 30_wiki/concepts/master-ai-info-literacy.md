@@ -1,33 +1,30 @@
 ---
 id: master-ai-info-literacy
-confidence: 0.8
-created_at: 2026-05-18
-difficulty: intermediate
-domain:
-- master
-estimated_tokens: 1176
-language: zh-CN
-query_triggers:
-- AI信息素养
-- 信息真伪辨别
-- AI幻觉检测
-related:
-- '[[yt-entrepreneur-research-cognition]]'
-- '[[yt-model-prompt-engineering]]'
-- '[[yt-personal-ai-capability]]'
-- '[[yt-research-weaponry-course]]'
-- '[[yt-decision-y-model]]'
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-status: enriched
 title: AI时代信息素养框架
 type: framework
-updated_at: '2026-06-16'
-version: 1
-pipeline:
-- confidence-source-cited
-author: unknown
-trust_level: medium-high
+status: enriched
+domain:
+  - master
+source_person: 王语嫣/一堂科学决策课程 + 公开著作
+source_context: 一堂科学决策课程、知识萃取探索营与《学会提问》公开阅读笔记综合
+source_refs:
+  - 10_raw/sources/src_20260522_33c40d41-ocr-一堂-科学决策-人机协作决策.md
+  - 10_raw/sources/src_20260524_836ad51c-学会提问在信息洪流中锻造批判性思维的利刃.md
+  - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
+created_at: 2026-05-18
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-20'
+confidence: 0.75
+trust_level: medium
+related:
+  - '[[master-antifragile-checklist]]'
+  - '[[master-cognitive-bias-checklist]]'
+  - '[[master-decision-hygiene]]'
+  - '[[master-first-principles]]'
+  - '[[master-knowledge-compound]]'
+  - '[[master-systems-thinking]]'
 ---
 # AI时代信息素养框架
 

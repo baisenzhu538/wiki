@@ -1,51 +1,33 @@
 ---
 id: master-antifragile-checklist
-title: "反脆弱决策检查清单"
+title: 反脆弱决策检查清单
 type: tool
+status: enriched
 domain:
   - master
-confidence: 0.8
-created_at: "2026-05-18"
-difficulty: intermediate
-estimated_tokens: 1144
-language: zh-CN
-query_triggers:
-  - 反脆弱决策
-  - 杠铃策略
-  - 反脆弱清单
-  - Taleb决策
-related:
-  - "[[master-decision-hygiene]]"
-  - "[[master-cognitive-bias-checklist]]"
-  - "[[master-systems-thinking]]"
-  - "[[yt-foresight-ten-fatal-flaws]]"
-  - "[[yt-entrepreneur-key-hypotheses]]"
-  - "[[yt-panproduct-execution-risk-management]]"
-status: enriched
-updated_at: "2026-06-17"
-version: 1
-author: 老顽童
-trust_level: medium-high
+source_person: 王语嫣/一堂科学决策课程
+source_context: 一堂科学决策课程关于决策经验值、关键训练清单与 ROI 实操的笔记综合
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - source_unknown
-source_context: 原始source无法追溯，已标记为source_unknown，待后续补充
-diagnostic_signals:
-  - signal: "这个决策感觉太确定了"
-    lens: "杠铃策略检查"
-    follow_up: "在纸上画出90%安全+10%投机的分配，确认没有中间地带"
-  - signal: "如果失败就完了"
-    lens: "下行风险有限性"
-    follow_up: "把完了转化为最多损失X，确认X可控"
-  - signal: "我已经没有退路了"
-    lens: "选择权耗尽"
-    follow_up: "找到至少一个可以反悔的调整点，恢复选择权"
-  - signal: "这个项目要all in"
-    lens: "杠铃策略缺失"
-    follow_up: "把all in改为分级投入：大部分安全+小部分激进"
-  - signal: "市场环境变化太快"
-    lens: "冗余与选择权"
-    follow_up: "检查关键部位有没有20%缓冲，选择权有没有保留"
+  - 10_raw/sources/src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
+  - 10_raw/sources/src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
+  - 10_raw/sources/src_20260516_e7a0024e-一堂-科学决策-ROI决策高度实操课口述04.md
+created_at: "2026-05-18"
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-20'
+confidence: 0.75
+trust_level: medium
+related:
+  - '[[master-ai-info-literacy]]'
+  - '[[master-cognitive-bias-checklist]]'
+  - '[[master-decision-hygiene]]'
+  - '[[master-first-principles]]'
+  - '[[master-knowledge-compound]]'
+  - '[[master-systems-thinking]]'
+  - '[[yt-entrepreneur-key-hypotheses]]'
+  - '[[yt-foresight-ten-fatal-flaws]]'
+  - '[[yt-panproduct-execution-risk-management]]'
 ---
 # 反脆弱决策检查清单
 
@@ -263,3 +245,13 @@ diagnostic_signals:
 |------|-----------|---------|
 | 把这个框架/方法当成绝对真理执行 | 任何方法论都是时间截面，它们假设未来会像过去一样发展 | 每次使用前先问"这个结论现在还成立吗？有没有新的反例出现？" |
 | 在无专业背景的情况下做出重大决策 | 框架是信息输入，不是决策代理 | 结合自身业务场景做二次判断 |
+
+## 边界与诊断信号
+
+| 信号 | 透镜 | 跟进动作 |
+|------|------|----------|
+| 这个决策感觉太确定了 | 杠铃策略检查 | 在纸上画出90%安全+10%投机的分配，确认没有中间地带 |
+| 如果失败就完了 | 下行风险有限性 | 把完了转化为最多损失X，确认X可控 |
+| 我已经没有退路了 | 选择权耗尽 | 找到至少一个可以反悔的调整点，恢复选择权 |
+| 这个项目要all in | 杠铃策略缺失 | 把all in改为分级投入：大部分安全+小部分激进 |
+

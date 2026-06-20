@@ -1,51 +1,33 @@
 ---
 id: master-knowledge-compound
-title: "知识复利：IPO+萃取+管理的上位整合"
+title: 知识复利：IPO+萃取+原子化复用
 type: concept
+status: enriched
 domain:
   - master
-confidence: 0.82
-created_at: "2026-05-18"
-difficulty: intermediate
-estimated_tokens: 1420
-language: zh-CN
-query_triggers:
-  - 知识复利
-  - 知识资产
-  - 知识飞轮
-  - 认知复利
-related:
-  - "[[yt-personal-ipo-learning]]"
-  - "[[yt-personal-knowledge-extraction]]"
-  - "[[yt-personal-knowledge-management]]"
-  - "[[master-systems-thinking]]"
-  - "[[master-first-principles]]"
-  - "[[master-antifragile-checklist]]"
-status: enriched
-updated_at: "2026-06-17"
-version: 1
-author: 老顽童
-trust_level: medium
+source_person: 王语嫣/一堂知识萃取课程
+source_context: 一堂知识萃取探索营与学习/萃取方法论综合
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - source_unknown
-source_context: 原始source无法追溯，已标记为source_unknown，待后续补充
-diagnostic_signals:
-  - signal: "学了但用不上"
-    lens: "萃取率不足"
-    follow_up: "检查萃取率——知识是否被萃取到原理层？能用一句话说出适用条件"
-  - signal: "知识碎片化无法整合"
-    lens: "连接深度不足"
-    follow_up: "检查连接深度——能在30秒内找到至少3个相关旧知识"
-  - signal: "读了很多但记不住"
-    lens: "IPO比率失衡"
-    follow_up: "检查输出/输入比率，每读1小时产出≥100字原创输出"
-  - signal: "感觉没有进步"
-    lens: "时间维度不足"
-    follow_up: "确认是否已坚持6个月，回顾6个月前能否说出3个具体变化"
-  - signal: "不知道该学什么"
-    lens: "输入质量低"
-    follow_up: "列出3个当前最紧迫的问题，输入围绕这些问题主动狩猎"
+  - 10_raw/sources/src_20260614_239c9f4e-一堂-知识萃取探索营.md
+  - 10_raw/sources/src_20260522_0af1f6dd-learning-thinking.md
+  - 10_raw/sources/src_20260510_14db4c2b-萃取总结.md
+created_at: "2026-05-18"
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-20'
+confidence: 0.78
+trust_level: medium
+related:
+  - '[[master-ai-info-literacy]]'
+  - '[[master-antifragile-checklist]]'
+  - '[[master-cognitive-bias-checklist]]'
+  - '[[master-decision-hygiene]]'
+  - '[[master-first-principles]]'
+  - '[[master-systems-thinking]]'
+  - '[[yt-personal-ipo-learning]]'
+  - '[[yt-personal-knowledge-extraction]]'
+  - '[[yt-personal-knowledge-management]]'
 ---
 # 知识复利：IPO+萃取+管理的上位整合
 
@@ -274,3 +256,13 @@ vault 里有三张讲"知识管理"的卡：
 |------|-----------|---------|
 | 把这个框架/方法当成绝对真理执行 | 任何方法论都是时间截面，它们假设未来会像过去一样发展 | 每次使用前先问"这个结论现在还成立吗？有没有新的反例出现？" |
 | 在无专业背景的情况下做出重大决策 | 框架是信息输入，不是决策代理 | 结合自身业务场景做二次判断 |
+
+## 边界与诊断信号
+
+| 信号 | 透镜 | 跟进动作 |
+|------|------|----------|
+| 学了但用不上 | 萃取率不足 | 检查萃取率——知识是否被萃取到原理层？能用一句话说出适用条件 |
+| 知识碎片化无法整合 | 连接深度不足 | 检查连接深度——能在30秒内找到至少3个相关旧知识 |
+| 读了很多但记不住 | IPO比率失衡 | 检查输出/输入比率，每读1小时产出≥100字原创输出 |
+| 感觉没有进步 | 时间维度不足 | 确认是否已坚持6个月，回顾6个月前能否说出3个具体变化 |
+
