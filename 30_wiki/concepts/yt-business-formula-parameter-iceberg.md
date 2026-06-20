@@ -1,36 +1,33 @@
 ---
-
 id: yt-business-formula-parameter-iceberg
 title: 业务公式参数冰山（L1-L6）
 type: concept
 status: enriched
 domain:
-- yitang
-- master
-- business-strategy
+  - yitang
+  - master
+  - business-strategy
+source_person: 孔阳
+source_context: 一堂 2026-06-13 业务公式拆解培训，参数冰山模型
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-tags:
-- '#method/evaluation-method'
-- '#domain/yitang'
+  - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
+  - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
+  - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
 created_at: '2026-06-14'
-updated_at: '2026-06-15'
-author: 孔阳
-reviewed_by: 老顽童
-review_date: '2026-06-14'
-confidence: 0.9
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-20'
+confidence: 0.85
 trust_level: high
 related:
-- '[[yt-management-business-formula]]'
-- '[[yt-business-formula-abc-model]]'
-- '[[yt-business-formula-six-level-logic]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[yt-business-formula-qualitative-metrics-library]]'
-- '[[yt-entrepreneur-unit-model]]'
-- '[[yt-model-deep-review-iceberg]]'
+  - yt-management-business-formula
+  - yt-business-formula-abc-model
+  - yt-business-formula-six-level-logic
+  - yt-business-formula-business-pattern-selector
+  - yt-business-formula-qualitative-metrics-library
+  - yt-entrepreneur-unit-model
+  - yt-model-deep-review-iceberg
 ---
 # 业务公式参数冰山（L1-L6）
 

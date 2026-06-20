@@ -1,37 +1,33 @@
 ---
-
 id: yt-business-formula-six-level-logic
 title: 业务公式六层逻辑关系（L1 模糊 → L6 动态）
 type: concept
 status: enriched
 domain:
-- yitang
-- master
-- business-strategy
+  - yitang
+  - master
+  - business-strategy
+source_person: 孔阳
+source_context: 一堂 2026-06-13 业务公式拆解培训，六层逻辑关系框架
 source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_6edbf0af-yitang-business-formula-decomposition-notes
-  - src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript
-tags:
-- '#method/evaluation-method'
-- '#method/thinking-tool'
-- '#domain/yitang'
+  - 10_raw/sources/src_20260613_6b939d2b-yitang-business-formula-decomposition-transcript.md
+  - 10_raw/sources/src_20260613_6edbf0af-yitang-business-formula-decomposition-notes.md
+  - 10_raw/sources/src_20260613_a8bcfd38-yitang-business-formula-decomposition-oral.md
 created_at: '2026-06-14'
-updated_at: '2026-06-14'
-author: 孔阳
-reviewed_by: 老顽童
-review_date: '2026-06-14'
-confidence: 0.9
+updated_at: '2026-06-20'
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: '2026-06-20'
+confidence: 0.85
 trust_level: high
 related:
-- '[[yt-management-business-formula]]'
-- '[[yt-business-formula-abc-model]]'
-- '[[yt-business-formula-parameter-iceberg]]'
-- '[[yt-business-formula-business-pattern-selector]]'
-- '[[yt-business-formula-qualitative-metrics-library]]'
-- '[[yt-decision-depth-ladder]]'
-- '[[yt-model-deep-review-iceberg]]'
+  - yt-management-business-formula
+  - yt-business-formula-abc-model
+  - yt-business-formula-parameter-iceberg
+  - yt-business-formula-business-pattern-selector
+  - yt-business-formula-qualitative-metrics-library
+  - yt-decision-depth-ladder
+  - yt-model-deep-review-iceberg
 ---
 # 业务公式六层逻辑关系（L1 模糊 → L6 动态）
 
@@ -156,6 +152,18 @@ R_t = f(A_t, B_t, C_t, 外部变量_t)
 1. **L2 陷阱**：把相关当因果。看到两个变量同向变化就加大投入。
 2. **L4 陷阱**：公式完美但参数不准。形式正确，结论错误。
 3. **L6 陷阱**：公式过于复杂，团队无法执行。动态性变成不确定性。
+
+---
+
+## 自检清单：当前业务公式拆到哪一层才够
+
+| 检查项 | 达标标准 | 未达标的风险 |
+|---|---|---|
+| **1. 当前业务应拆到哪一层** | 新业务/找方向 → L3-L4；成熟业务/做预算 → L4-L5；战略调整 → L6 | 层级过低：拍脑袋；层级过高：过度复杂 |
+| **2. 每个定性参数是否找到 3-5 个行为指标** | 如“信任度”拆为详情页完成率、评论停留时长、完课率、咨询发起率等 | 定性参数无法验证，沦为口号 |
+| **3. 公式是否可验证、可执行** | 每个参数都有数据来源、责任人和迭代节奏 | 公式停留在 PPT，无法落地 |
+| **4. 加减乘除是否与业务关系一致** | 同一维度内用加法（+），漏斗环节用乘法（×），监控用相关（~），干预用因果（→） | 关系写错，资源错配 |
+| **5. 是否建立了公式版本迭代机制** | 每季度复盘：公式是否还描述当前业务的主要矛盾 | 业务变了，公式没变 |
 
 ---
 
