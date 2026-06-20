@@ -30,6 +30,8 @@ related:
 source_refs:
 - 10_raw/sources/src_20260504_13783111-一堂调研武器库课程原文润色.md
 - 10_raw/sources/src_20260508_f7f9670e-一堂-创业必修-调研行动营.md
+- 00_inbox/调研专题/Doris-行业报告调研-口述.txt
+- 00_inbox/调研专题/Doris-行业报告调研-笔记.txt
 status: enriched
 title: 行业分析画布：五维快速扫描+二维定位
 trust_level: medium

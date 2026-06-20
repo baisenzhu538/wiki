@@ -8,9 +8,6 @@ source_refs:
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 - 00_inbox/调研专题/一堂-调研行动营-口述.txt
 - 00_inbox/调研专题/一堂-调研行动营-笔记.txt
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260506_e4634e13-说话人1-00-00
-  - src_20260507_67cb7ed2-说话人1-00-00
 created_at: 2026-05-05
 domain:
   - yitang

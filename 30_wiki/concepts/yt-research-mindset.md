@@ -11,6 +11,8 @@ confidence: 0.88
 trust_level: medium
 source_refs:
   - 10_raw/sources/src_20260614_cafcbbac-AI组织行为学研究.md
+  - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+  - 00_inbox/调研专题/一堂-调研武器库培训-笔记.txt
 related:
 - '[[yt-research-osl-framework]]'
 - '[[yt-research-hypothesis-test]]'

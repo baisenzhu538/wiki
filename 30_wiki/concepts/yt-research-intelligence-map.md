@@ -26,6 +26,8 @@ related:
 - '[[dk-foresight-source-material-blindness]]'
 source_refs:
 - 10_raw/sources/src_20260504_13783111-一堂调研武器库课程原文润色.md
+- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+- 00_inbox/调研专题/一堂-调研武器库培训-笔记.txt
 status: enriched
 title: 情报获取全景地图：13+渠道穷尽手段
 trust_level: medium

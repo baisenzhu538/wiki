@@ -30,6 +30,8 @@ related:
 source_refs:
 - 10_raw/sources/一堂调研武器库课程原文润色.md
 - 10_raw/sources/一堂-创业-调研行动营口述01.md
+- 00_inbox/调研专题/一堂-专家访谈调研-口述.txt
+- 00_inbox/调研专题/一堂-专家访谈调研-笔记.txt
 status: enriched
 title: 专家访谈工具：2小时获取行业共识的标准流程
 trust_level: medium

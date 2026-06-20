@@ -33,6 +33,8 @@ related:
 source_refs:
 - 10_raw/sources/src_20260508_f7f9670e-一堂-创业必修-调研行动营.md
 - 10_raw/sources/src_20260510_f42dfdc2-一堂-创业-调研行动营口述01.md
+- 00_inbox/调研专题/一堂-高阶情报调研课-口述.txt
+- 00_inbox/调研专题/一堂-高阶情报调研课-笔记.txt
 status: enriched
 title: 假设验证调研工具：关键假设→可证伪问题→最小实验
 trust_level: high
