@@ -111,8 +111,55 @@ def score_keywords(text, query_terms):
     for term in query_terms:
         count = text_lower.count(term.lower())
         if count > 0:
-            score += 1 + min(count, 5)  # cap at 5 occurrences
+            score += 1 + min(count, 5)
     return score
+
+
+# 方法论相关关键词 → 信号：用户要的是"怎么做"的方法卡，不是"做了什么"的报告卡
+METHODOLOGY_SIGNALS = [
+    "方法论", "方法", "框架", "framework", "步骤", "流程", "怎么", "如何",
+    "工具", "tool", "手段", "技巧", "策略", "五步", "指南", "系统式",
+    "OSCAR", "OSL", "降龙十八掌", "武器库", "雷达", "深挖", "交叉验证",
+]
+
+# 报告/输出相关关键词 → 下调权重，用户通常不需要这些
+REPORT_SIGNALS = [
+    "调研报告", "分析报告", "评估报告", "诊断报告", "可行性", "规划方案",
+]
+
+
+def score_keywords(text, query_terms):
+    """简单 BM25 风格关键词评分"""
+    text_lower = text.lower()
+    score = 0
+    for term in query_terms:
+        count = text_lower.count(term.lower())
+        if count > 0:
+            score += 1 + min(count, 5)
+    return score
+
+
+def is_methodology_query(query):
+    """判断用户是否在问方法论（怎么做），还是找具体报告（做了什么）"""
+    for sig in METHODOLOGY_SIGNALS:
+        if sig in query:
+            return True
+    return False
+
+
+def type_boost(card_type):
+    """方法类查询下，framework/tool 加权，report/case 降权"""
+    boosts = {
+        "framework": 5,
+        "tool": 4,
+        "dark-knowledge": 3,
+        "dk": 3,
+        "concept": 1,
+        "case": -2,
+        "report": -3,
+        "analysis": -1,
+    }
+    return boosts.get(card_type, 0)
 
 
 def search_card_body(fp, query_terms):
@@ -185,12 +232,23 @@ def query_domain(query, top_k=10):
     # Step 4: 在候选池内打分
     scored = []
     card_files = find_card_files(candidates, search_dirs)
+    is_method = is_methodology_query(query)
+
     for cid, fp in card_files.items():
         score = search_card_body(fp, query_terms)
+        fm = parse_frontmatter(fp.read_text(encoding="utf-8"))
+        card_type = fm.get("type", "?")
+
+        # 方法类查询：framework/tool 加权，report/case 降权
+        if is_method:
+            score += type_boost(card_type)
+
+        # 标题匹配加权
+        title = fm.get("title", "")
+        title_score = score_keywords(title, query_terms) * 3
+        score += title_score
+
         if score > 0:
-            fm = parse_frontmatter(fp.read_text(encoding="utf-8"))
-            card_type = fm.get("type", "?")
-            title = fm.get("title", cid)
             scored.append((cid, title, card_type, score))
 
     scored.sort(key=lambda x: x[3], reverse=True)
