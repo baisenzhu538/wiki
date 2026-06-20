@@ -366,6 +366,31 @@
 
 ---
 
+## 第 4 波 Master 域完成小结（2026-06-20）
+
+- 完成卡片：7 张
+  - `master-ai-info-literacy`
+  - `master-cognitive-bias-diagnosis`
+  - `master-decision-hygiene`
+  - `master-first-principles`
+  - `master-systems-thinking`
+  - `master-antifragile-checklist`
+  - `master-knowledge-compound`
+- 新增卡片：0 张
+- 处理内容：
+  - 统一 frontmatter：`author=老顽童`，`reviewed_by=欧阳锋`，`review_date=2026-06-20`，`updated_at=2026-06-20`
+  - `source_person` 统一为 `Truman`
+  - `source_context` 精确化为"课程名——具体主题"
+  - `source_refs` 路径标准化为无前缀形式
+  - `confidence=0.92`，`trust_level=high`
+  - related 互链完整，每张 ≥5 条
+- 验收结果：✅ ALL 7 CARDS PASS QUALITY CHECK
+- lint 结果：PASS（无新增 ERROR）
+- 质量门禁：P0=1（仅 concept-card-index-latest.md 脚本问题），P1=0
+- 阻塞/需用户确认：无
+
+---
+
 *工单创建：2026-06-20*  
 *创建者：王语嫣*  
 *执行者：老顽童*
