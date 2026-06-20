@@ -13,15 +13,15 @@ domain:
 - ai-collaboration
 - product
 created_at: '2026-06-13'
-updated_at: '2026-06-17'
+updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-17'
+review_date: '2026-06-20'
 trust_level: medium
-confidence: 0.90
+confidence: 0.65
 related:
-- '[[ai-short-drama-script-planning-three-axes]]'
-- '[[ai-short-drama-conflict-three-axes]]'
+  - ai-short-drama-script-planning-three-axes
+  - ai-short-drama-conflict-three-axes
 tags:
 - '#industry/content-creation'
 - '#content-format/concept-card'
@@ -227,6 +227,16 @@ diagnostic_signals:
 
 ---
 
+## 真实案例锚点
+
+| 锚点 | 来源 | 用途 |
+|---|---|---|
+| **《我在80年代当后妈》年代逆袭案例** | `src_20260613_687c4ec0-transcript.md` 口述 | 可用"极致对立"（现代女主 vs 80年代家庭）+"高能吸睛"（开局冲突）+"立意升华"（女性自立）三斧拆解 |
+| **代俊隆团队签约 2 部** | `src_20260613_687c4ec0-transcript.md:605-613` | 说明剧情三板斧可作为 AI 生成过稿剧本的检查维度 |
+
+> ⚠️ 案例说明：本卡未对《我在80年代当后妈》做完整三斧拆解，仅作为可迁移案例提示；具体拆解结论需用户自行验证。
+
+---
 
 ## Sources
 

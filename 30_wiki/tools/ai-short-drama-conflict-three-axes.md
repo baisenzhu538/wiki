@@ -13,16 +13,16 @@ domain:
 - ai-collaboration
 - product
 created_at: '2026-06-13'
-updated_at: '2026-06-17'
+updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-17'
+review_date: '2026-06-20'
 trust_level: medium
-confidence: 0.89
+confidence: 0.65
 related:
-- '[[ai-short-drama-ice-fire-scripting-compass]]'
-- '[[ai-short-drama-plot-three-axes]]'
-- '[[ai-short-drama-framework-three-axes]]'
+  - ai-short-drama-ice-fire-scripting-compass
+  - ai-short-drama-plot-three-axes
+  - ai-short-drama-framework-three-axes
 tags:
 - '#industry/content-creation'
 - '#content-format/concept-card'
@@ -246,6 +246,16 @@ diagnostic_signals:
 
 ---
 
+## 真实案例锚点
+
+| 锚点 | 来源 | 用途 |
+|---|---|---|
+| **《我在80年代当后妈》三层冲突映射** | `src_20260613_687c4ec0-transcript.md` 口述 | 外在阵营=女主 vs 婆家/社会环境；内在人际=女主与丈夫、孩子；自我宿命=现代女性如何在旧时代实现自我价值 |
+| **逆袭剧重外在阵营，甜宠剧重内在人际，成长剧重自我宿命** | `src_20260613_12d63c1c-notes.md:98-114` | 说明三层冲突的题材配比原则 |
+
+> ⚠️ 案例说明：本卡对《我在80年代当后妈》的映射为推断示例，未经过逐集拆本验证；具体冲突层次需用户自行拆解。
+
+---
 
 ## Sources
 

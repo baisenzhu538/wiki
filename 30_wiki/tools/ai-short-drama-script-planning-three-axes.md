@@ -13,17 +13,17 @@ domain:
 - ai-collaboration
 - product
 created_at: '2026-06-13'
-updated_at: '2026-06-17'
+updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-17'
+review_date: '2026-06-20'
 trust_level: medium
-confidence: 0.9
+confidence: 0.65
 related:
-- '[[ai-short-drama-ice-fire-scripting-compass]]'
-- '[[ai-short-drama-plot-three-axes]]'
-- '[[ai-short-drama-framework-three-axes]]'
-- '[[ai-short-drama-conflict-three-axes]]'
+  - ai-short-drama-ice-fire-scripting-compass
+  - ai-short-drama-plot-three-axes
+  - ai-short-drama-framework-three-axes
+  - ai-short-drama-conflict-three-axes
 tags:
 - '#industry/content-creation'
 - '#content-format/concept-card'
@@ -243,6 +243,16 @@ diagnostic_signals:
 
 ---
 
+## 真实案例锚点
+
+| 锚点 | 来源 | 用途 |
+|---|---|---|
+| **《我在80年代当后妈》可作为基地七要素填充案例** | `src_20260613_687c4ec0-transcript.md` 口述 | 题材=年代逆袭；核心欲望=女主摆脱困境；核心阻碍=时代与家庭双重束缚；可用于训练 AI 的"剧本基地"理解 |
+| **30+ 剧本、签约 2 部** | `src_20260613_687c4ec0-transcript.md:605-613` | 说明"基地→走向→终局"三段式策划可降低 AI 跑题率 |
+
+> ⚠️ 案例说明：本卡未完整还原《我在80年代当后妈》的 15 个关键节点，仅提示可作为训练样本；具体节点需用户自行拆解。
+
+---
 
 ## Sources
 

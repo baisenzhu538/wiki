@@ -1,52 +1,53 @@
 ---
-
 id: modeling-level-map
 title: 建模能力段位图：从 L1 到 L6 的十年爬山地图
 type: tool
+status: enriched
+domain:
+  - yitang
+  - product
+  - ai-collaboration
+source_person: 楚门/Truman
+source_context: 一堂 2026-06-12 建模能力培训课程，段位图与 L1-L6 自评框架
 source_refs:
   - 10_raw/sources/src_20260614_bb892297-Truman-高阶建模-段位图-01.md
   - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-status: enriched
-domain:
-- yitang
-- product
-- ai-collaboration
 created_at: '2026-06-14'
-updated_at: '2026-06-18'
+updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-18'
+review_date: '2026-06-20'
 trust_level: medium
-confidence: 0.89
+confidence: 0.78
 related:
-- '[[modeling-capability-system]]'
-- '[[modeling-three-stages]]'
-- '[[modeling-weapon-library]]'
-- '[[tool-sabc-tier-modeling]]'
-- '[[tool-checklist-cheatsheet-modeling]]'
-- '[[tool-iceberg-triangle-modeling]]'
+  - modeling-capability-system
+  - modeling-three-stages
+  - modeling-weapon-library
+  - tool-sabc-tier-modeling
+  - tool-checklist-cheatsheet-modeling
+  - tool-iceberg-triangle-modeling
 tags:
-- '#method/modeling'
-- '#content-format/concept-card'
-- '#method/evaluation-method'
-- '#content-format/checklist'
+  - '#method/modeling'
+  - '#content-format/concept-card'
+  - '#method/evaluation-method'
+  - '#content-format/checklist'
 diagnostic_signals:
-- signal: 用户说"我不知道自己建模能力在什么水平"
-  framework_lens: 六段能力段位图
-  follow_up_question: 你能稳定产出 SOP 吗？能跨场景提炼模型吗？能一句话概括本质吗？
-- signal: 用户说"想提升建模能力但不知道先练什么"
-  framework_lens: 提升路径
-  follow_up_question: 你当前卡在「见识」「实操」「迁移创新」哪个阶段？
-- signal: 用户说"我学了很多方法论，但还是不会用"
-  framework_lens: 段位瓶颈诊断
-  follow_up_question: 你现在是缺见识（L1-L2）、缺稳定输出（L3-L4），还是缺本质提炼（L5-L6）？
-- signal: 用户说"团队建模能力参差不齐，没法协同"
-  framework_lens: 团队能力分布
-  follow_up_question: 让成员分别自评 L1-L6，先画出团队 heatmap，再决定统一训练还是分层培养。
-- signal: 用户急于用 AI 直接生成高阶模型，跳过 L3-L4 的扎实训练
-  framework_lens: 段位跃迁风险
-  follow_up_question: 你是否有 10+ 案例支撑和可复用的 SOP？没有的话，先回 L3 补课。
+  - signal: 用户说"我不知道自己建模能力在什么水平"
+    framework_lens: 六段能力段位图
+    follow_up_question: 你能稳定产出 SOP 吗？能跨场景提炼模型吗？能一句话概括本质吗？
+  - signal: 用户说"想提升建模能力但不知道先练什么"
+    framework_lens: 提升路径
+    follow_up_question: 你当前卡在「见识」「实操」「迁移创新」哪个阶段？
+  - signal: 用户说"我学了很多方法论，但还是不会用"
+    framework_lens: 段位瓶颈诊断
+    follow_up_question: 你现在是缺见识（L1-L2）、缺稳定输出（L3-L4），还是缺本质提炼（L5-L6）？
+  - signal: 用户说"团队建模能力参差不齐，没法协同"
+    framework_lens: 团队能力分布
+    follow_up_question: 让成员分别自评 L1-L6，先画出团队 heatmap，再决定统一训练还是分层培养。
+  - signal: 用户急于用 AI 直接生成高阶模型，跳过 L3-L4 的扎实训练
+    framework_lens: 段位跃迁风险
+    follow_up_question: 你是否有 10+ 案例支撑和可复用的 SOP？没有的话，先回 L3 补课。
 ---
 # 建模能力段位图：从 L1 到 L6 的十年爬山地图
 
@@ -97,7 +98,7 @@ diagnostic_signals:
 - **C2 [conf=0.85]**: L1-L2 属于「入门」阶段，核心瓶颈是意识和见识；L3-L4 属于「进阶」阶段，核心瓶颈是动手和稳定使用；L5-L6 属于「高阶」阶段，核心瓶颈是本质提炼和跨界创新。——依据：`src_20260614_bb892297-Truman-高阶建模-段位图-01.md` + `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:103-110`。
 - **C3 [conf=0.85]**: 每个段位都有明确的能力标签：L3 对应「清单/SOP + 及时复盘 + 知行合一」，L4 对应「武器库强 + 场景广泛 + 稳定使用」，L5 对应「提炼本质 + 精准匹配 + 分层自洽」。——依据：`src_20260614_bb892297-Truman-高阶建模-段位图-01.md:18-47`。
 - **C4 [conf=0.8]**: 提升路径按时间单位分层：见识提升以天为单位，实操提升以月为单位，迁移创新以年为单位。——依据：`src_20260614_bb892297-Truman-高阶建模-段位图-01.md:50-52`。
-- **C5 [conf=0.75]**: 段位图可用于个人自评、团队诊断和招聘/培养建模人才。——推断：基于段位图结构。
+- **C5 [conf=0.65]**: 段位图可用于个人自评、团队诊断和招聘/培养建模人才。——推断：基于段位图结构（`src_20260614_bb892297-Truman-高阶建模-段位图-01.md`）及培训笔记中的自我诊断作业（`src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:139-143`），未找到招聘/培养场景的独立验证。
 
 ---
 

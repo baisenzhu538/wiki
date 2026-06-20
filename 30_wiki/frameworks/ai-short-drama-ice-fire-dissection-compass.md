@@ -1,52 +1,50 @@
 ---
-
 id: ai-short-drama-ice-fire-dissection-compass
 title: 冰火拆本罗盘：短剧剧本逆向拆解五维模型
 type: framework
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_c17fcdb2-ice-fire-dissection-compass
-  - src_20260613_687c4ec0-transcript
-  - src_20260613_12d63c1c-notes
 status: enriched
 domain:
-- yitang
-- ai-collaboration
-- product
+  - yitang
+  - ai-collaboration
+  - product
+source_person: 代俊隆
+source_context: 一堂 2026-06-13 AI 短剧创作培训，拆本罗盘方法论
+source_refs:
+  - 10_raw/sources/src_20260613_c17fcdb2-ice-fire-dissection-compass.md
+  - 10_raw/sources/src_20260613_687c4ec0-transcript.md
+  - 10_raw/sources/src_20260613_12d63c1c-notes.md
 created_at: '2026-06-13'
-updated_at: '2026-06-17'
+updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-17'
+review_date: '2026-06-20'
+confidence: 0.78
 trust_level: medium
-confidence: 0.75
 related:
-- '[[ai-short-drama-ice-fire-scripting-compass]]'
-- '[[ai-short-drama-plot-three-axes]]'
-- '[[ai-short-drama-script-planning-three-axes]]'
-- '[[ai-short-drama-framework-three-axes]]'
-- '[[ai-short-drama-conflict-three-axes]]'
-- '[[ai-short-drama-platform-policy-comparison]]'
-- '[[concept-ji-hao-ai-collaboration-methodology]]'
+  - ai-short-drama-ice-fire-scripting-compass
+  - ai-short-drama-plot-three-axes
+  - ai-short-drama-script-planning-three-axes
+  - ai-short-drama-framework-three-axes
+  - ai-short-drama-conflict-three-axes
+  - ai-short-drama-platform-policy-comparison
+  - concept-ji-hao-ai-collaboration-methodology
 tags:
-- '#industry/content-creation'
-- '#method/research-method'
-- '#content-format/framework'
+  - '#industry/content-creation'
+  - '#method/research-method'
+  - '#content-format/framework'
 diagnostic_signals:
-- signal: 用户说"看了很多爆款短剧，但不知道怎么学到东西"
-  framework_lens: 结构化拆本五维模型
-  follow_up_question: 你拆本时是凭感觉，还是按文本语言、核心角色、主题事件、高潮反转、钩子密度五个维度逐一分析？
-- signal: 用户说"AI 生成的剧本总是差点爆款味"
-  framework_lens: 投喂前先拆本
-  follow_up_question: 你有没有先用拆本罗盘分析 3-5 部同题材爆款，再把结论喂给 AI？
-- signal: 用户说"不知道自己的剧本差在哪里"
-  framework_lens: 五维自检清单
-  follow_up_question: 你的剧本在钩子密度、情绪峰值、反转铺垫三个维度上，分别对标爆款差多少？
-- signal: 用户说"拆完本还是写不出好剧本"
-  framework_lens: 拆本→写本的转译闭环
-  follow_up_question: 你有没有把拆本结论转译成"题材特征摘要 + 负面清单 + 可复用台词库"三类投喂素材？
+  - signal: 用户说"看了很多爆款短剧，但不知道怎么学到东西"
+    framework_lens: 结构化拆本五维模型
+    follow_up_question: 你拆本时是凭感觉，还是按文本语言、核心角色、主题事件、高潮反转、钩子密度五个维度逐一分析？
+  - signal: 用户说"AI 生成的剧本总是差点爆款味"
+    framework_lens: 投喂前先拆本
+    follow_up_question: 你有没有先用拆本罗盘分析 3-5 部同题材爆款，再把结论喂给 AI？
+  - signal: 用户说"不知道自己的剧本差在哪里"
+    framework_lens: 五维自检清单
+    follow_up_question: 你的剧本在钩子密度、情绪峰值、反转铺垫三个维度上，分别对标爆款差多少？
+  - signal: 用户说"拆完本还是写不出好剧本"
+    framework_lens: 拆本→写本的转译闭环
+    follow_up_question: 你有没有把拆本结论转译成"题材特征摘要 + 负面清单 + 可复用台词库"三类投喂素材？
 ---
 # 冰火拆本罗盘：短剧剧本逆向拆解五维模型
 
@@ -204,6 +202,16 @@ diagnostic_signals:
 
 ---
 
+## 真实案例锚点
+
+| 锚点 | 来源 | 用途 |
+|---|---|---|
+| **《我在80年代当后妈》投喂样本** | `src_20260613_687c4ec0-transcript.md` 口述 | 讲师用该剧作为 AI 拆解/投喂对象，说明拆本罗盘可直接用于真实爆款 |
+| **30+ 剧本、签约 2 部** | `src_20260613_687c4ec0-transcript.md:605-613` | 拆本→写本→投稿的闭环验证数据 |
+
+> ⚠️ 案例说明：拆本罗盘对《我在80年代当后妈》的具体拆解结论未在素材中完整呈现，用户若用于同题材创作，需自行补充完整五维拆本。
+
+---
 
 ## Sources
 

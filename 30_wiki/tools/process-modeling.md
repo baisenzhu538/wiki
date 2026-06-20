@@ -1,59 +1,54 @@
 ---
-
 id: process-modeling
 title: 流程建模：用 SOP 与清单把经验变成稳定产出
 type: tool
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_623cfbfd-高阶建模-流程建模
-  - src_20260614_4efd4e88-Truman-高阶建模-流程建模-图-01
-  - src_20260614_9aca19bd-Truman-高阶建模-流程建模-开播准备-图-01
-  - src_20260614_c62e0e61-Truman-高阶建模-流程建模-开播准备-图-02
-  - src_20260614_50b37986-Truman-高阶建模-流程建模-识别建模点-图-01
-  - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
 status: enriched
 domain:
-- yitang
-- product
-- ai-collaboration
+  - yitang
+  - product
+  - ai-collaboration
+source_person: 楚门/Truman
+source_context: 一堂 2026-06-12 建模能力培训课程，流程建模与 SOP
+source_refs:
+  - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
+  - 10_raw/sources/src_20260614_4efd4e88-Truman-高阶建模-流程建模-图-01.md
+  - 10_raw/sources/src_20260614_9aca19bd-Truman-高阶建模-流程建模-开播准备-图-01.md
+  - 10_raw/sources/src_20260614_c62e0e61-Truman-高阶建模-流程建模-开播准备-图-02.md
+  - 10_raw/sources/src_20260614_50b37986-Truman-高阶建模-流程建模-识别建模点-图-01.md
+  - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
+updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-16'
+review_date: '2026-06-20'
 trust_level: medium
-confidence: 0.75
+confidence: 0.78
 related:
-- '[[modeling-capability-system]]'
-- '[[modeling-three-stages]]'
-- '[[modeling-level-map]]'
-- '[[case-modeling-process-sop-examples]]'
-- '[[dk-modeling-logical-cleanliness-root]]'
-- '[[case-modeling-process-sop-evolution]]'
+  - modeling-capability-system
+  - modeling-three-stages
+  - modeling-level-map
+  - case-modeling-process-sop-examples
+  - dk-modeling-logical-cleanliness-root
+  - case-modeling-process-sop-evolution
 tags:
-- '#method/modeling'
-- '#content-format/concept-card'
-- '#content-format/sop'
-- '#content-format/checklist'
-- '#method/execution-method'
+  - '#method/modeling'
+  - '#content-format/concept-card'
+  - '#content-format/sop'
+  - '#content-format/checklist'
+  - '#method/execution-method'
 diagnostic_signals:
-- signal: 用户说"每次做这件事都踩同样的坑"
-  framework_lens: 流程建模
-  follow_up_question: 这个任务有没有 3 次以上重复发生？失败成本是什么？
-- signal: 用户说"团队新人总是做不对"
-  framework_lens: SOP + 检查清单
-  follow_up_question: 你是否有一份新人可独立执行的步骤文档？
-- signal: 用户说"写了 SOP 但没人用"
-  framework_lens: 稳定使用
-  follow_up_question: 你是否给 SOP 的执行加了监督和检查机制？
-- signal: 团队在高频任务上反复出现"漏步骤、执行衰减、跨场景误用"
-  framework_lens: 分解 × 锁 × 边界 × 迭代
-  follow_up_question: 这个输出是否已拆到可检查步骤？关键节点是否有锁？边界是否写明？是否有迭代触发器？
+  - signal: 用户说"每次做这件事都踩同样的坑"
+    framework_lens: 流程建模
+    follow_up_question: 这个任务有没有 3 次以上重复发生？失败成本是什么？
+  - signal: 用户说"团队新人总是做不对"
+    framework_lens: SOP + 检查清单
+    follow_up_question: 你是否有一份新人可独立执行的步骤文档？
+  - signal: 用户说"写了 SOP 但没人用"
+    framework_lens: 稳定使用
+    follow_up_question: 你是否给 SOP 的执行加了监督和检查机制？
+  - signal: 团队在高频任务上反复出现"漏步骤、执行衰减、跨场景误用"
+    framework_lens: 分解 × 锁 × 边界 × 迭代
+    follow_up_question: 这个输出是否已拆到可检查步骤？关键节点是否有锁？边界是否写明？是否有迭代触发器？
 ---
 # 流程建模：用 SOP 与清单把经验变成稳定产出
 

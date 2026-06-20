@@ -13,17 +13,17 @@ domain:
 - ai-collaboration
 - product
 created_at: '2026-06-13'
-updated_at: '2026-06-17'
+updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-17'
+review_date: '2026-06-20'
 trust_level: medium
-confidence: 0.89
+confidence: 0.65
 related:
-- '[[ai-short-drama-ice-fire-scripting-compass]]'
-- '[[ai-short-drama-script-planning-three-axes]]'
-- '[[ai-short-drama-plot-three-axes]]'
-- '[[ai-short-drama-conflict-three-axes]]'
+  - ai-short-drama-ice-fire-scripting-compass
+  - ai-short-drama-script-planning-three-axes
+  - ai-short-drama-plot-three-axes
+  - ai-short-drama-conflict-three-axes
 tags:
 - '#industry/content-creation'
 - '#content-format/concept-card'
@@ -242,6 +242,16 @@ diagnostic_signals:
 
 ---
 
+## 真实案例锚点
+
+| 锚点 | 来源 | 用途 |
+|---|---|---|
+| **《我在80年代当后妈》英雄之旅映射** | `src_20260613_687c4ec0-transcript.md` 口述 | 可套用"深渊入局"（女主穿越/重生后的首次危机）→"迷雾博弈"（家庭与事业的多重阻碍）→"决战收官"（女主实现自立） |
+| **短剧生命周期 3-4 周** | `src_20260613_687c4ec0-transcript.md:217-227` | 说明短剧结构必须高密度，框架三板斧的"快深渊、递进迷雾、强决战"与市场节奏匹配 |
+
+> ⚠️ 案例说明：本卡未对《我在80年代当后妈》做完整三阶段映射，仅作为年代逆袭题材的结构参考；具体分集结构需用户自行拆解。
+
+---
 
 ## Sources
 

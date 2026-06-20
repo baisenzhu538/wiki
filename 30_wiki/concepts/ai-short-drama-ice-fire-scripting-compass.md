@@ -1,48 +1,46 @@
 ---
-
 id: ai-short-drama-ice-fire-scripting-compass
 title: 冰火写本罗盘：AI短剧剧本策划全流程体系
 type: concept
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260613_41aceaf5-ice-fire-scripting-compass
-  - src_20260613_687c4ec0-transcript
-  - src_20260613_12d63c1c-notes
 status: enriched
 domain:
-- yitang
-- ai-collaboration
-- product
+  - yitang
+  - ai-collaboration
+  - product
+source_person: 代俊隆
+source_context: 一堂 2026-06-13 AI 短剧创作培训，写本罗盘方法论
+source_refs:
+  - 10_raw/sources/src_20260613_41aceaf5-ice-fire-scripting-compass.md
+  - 10_raw/sources/src_20260613_687c4ec0-transcript.md
+  - 10_raw/sources/src_20260613_12d63c1c-notes.md
 created_at: '2026-06-13'
-updated_at: '2026-06-17'
+updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-17'
+review_date: '2026-06-20'
+confidence: 0.78
 trust_level: medium
-confidence: 0.75
 related:
-- '[[ai-short-drama-ice-fire-dissection-compass]]'
-- '[[ai-short-drama-plot-three-axes]]'
-- '[[ai-short-drama-script-planning-three-axes]]'
-- '[[ai-short-drama-framework-three-axes]]'
-- '[[ai-short-drama-conflict-three-axes]]'
-- '[[ai-short-drama-platform-policy-comparison]]'
-- '[[yt-note-ai-human-division]]'
+  - ai-short-drama-ice-fire-dissection-compass
+  - ai-short-drama-plot-three-axes
+  - ai-short-drama-script-planning-three-axes
+  - ai-short-drama-framework-three-axes
+  - ai-short-drama-conflict-three-axes
+  - ai-short-drama-platform-policy-comparison
+  - yt-note-ai-human-division
 tags:
-- '#industry/content-creation'
-- '#content-format/framework'
+  - '#industry/content-creation'
+  - '#content-format/framework'
 diagnostic_signals:
-- signal: 用户说"想用AI写短剧剧本，但不知道从哪里开始"
-  framework_lens: 全本策划五维框架
-  follow_up_question: 你的题材、受众、核心冲突和情绪价值是否已经明确？
-- signal: 用户说"AI写出来的剧本空洞、没情绪、人设崩塌"
-  framework_lens: 人与AI的分工边界
-  follow_up_question: 你是否先用罗盘搭好了框架，再让AI填肉？
-- signal: 用户说"剧本写到一半跑题了，后期烂尾"
-  framework_lens: 剧本基地→内容走向→剧情终局的闭环
-  follow_up_question: 内容走向的15个关键节点是否提前锁定？
+  - signal: 用户说"想用AI写短剧剧本，但不知道从哪里开始"
+    framework_lens: 全本策划五维框架
+    follow_up_question: 你的题材、受众、核心冲突和情绪价值是否已经明确？
+  - signal: 用户说"AI写出来的剧本空洞、没情绪、人设崩塌"
+    framework_lens: 人与AI的分工边界
+    follow_up_question: 你是否先用罗盘搭好了框架，再让AI填肉？
+  - signal: 用户说"剧本写到一半跑题了，后期烂尾"
+    framework_lens: 剧本基地→内容走向→剧情终局的闭环
+    follow_up_question: 内容走向的15个关键节点是否提前锁定？
 ---
 # 冰火写本罗盘：AI短剧剧本策划全流程体系
 
@@ -188,6 +186,18 @@ diagnostic_signals:
 - [ ] AI 生成的台词/场景至少经过 1 轮人工重写，关键情绪节点 100% 人工把控
 - [ ] 15 个关键节点已列出，当前剧情无偏离主线的段落
 - [ ] 人设、动机、关系链在全本中无明显矛盾
+
+---
+
+## 真实案例锚点
+
+| 锚点 | 来源 | 用途 |
+|---|---|---|
+| **《我在80年代当后妈》投喂拆解** | `src_20260613_687c4ec0-transcript.md` 口述：讲师用该剧作为 AI 投喂样本，让 AI 学习年代逆袭题材的冲突节奏 | 说明拆本→写本的闭环：先拆爆款，再喂 AI |
+| **代俊隆团队 2025-05 商业化测试** | `src_20260613_687c4ec0-transcript.md:605-613` | 用 AI 生成 30+ 剧本，签约 2 部，单本初稿时间压缩到 10 分钟 |
+| **短剧市场数据** | `src_20260613_687c4ec0-transcript.md:217-227` | 2024 年短剧+漫剧总产值约 1000 亿；2025 年上新 12.8 万部，95% 以上使用 AI 辅助 |
+
+> ⚠️ 案例说明：本卡方法论基于代俊隆团队自述案例与市场公开数据，未对《我在80年代当后妈》做独立拆本验证，具体爆款结构需用户自行拆解。
 
 ---
 

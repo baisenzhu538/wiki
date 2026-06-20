@@ -2,53 +2,54 @@
 id: yt-tool-ai-ppt-maker
 title: AI对话式PPT生成器：把排版变成说话
 type: tool
-source_refs:
-- 10_raw/sources/src_20260619_3f10f20d_00_inbox_design_AI设计_文创案例设计课口述.txt
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
 status: enriched
 domain:
-- design
-- personal-growth
+  - design
+  - personal-growth
+source_person: Leo/一堂AI设计课讲师
+source_context: 一堂 AI 设计-文创案例设计课口述，PPT 生成方法片段（txt:4532-4546）
+source_refs:
+  - 10_raw/sources/src_20260619_3f10f20d_00_inbox_design_AI设计_文创案例设计课口述.txt
 language: zh-CN
 version: 1
 difficulty: foundational
-confidence: 0.88
+confidence: 0.78
 prerequisites: null
 component_of: null
 related:
-- '[[yt-pitch-storytelling]]'
-- '[[yt-pitch-quantification]]'
-- '[[yt-tool-meeting-designer]]'
-- '[[yt-tool-strategy-workshop]]'
-- '[[yt-management-scientific-meetings]]'
+  - yt-pitch-storytelling
+  - yt-pitch-quantification
+  - yt-tool-meeting-designer
+  - yt-tool-strategy-workshop
+  - yt-management-scientific-meetings
 contradicts: null
 query_triggers:
-- AI PPT
-- 对话式PPT
-- PPT生成
-- 快速出PPT
-- PPT风格统一
-- AI排版
+  - AI PPT
+  - 对话式PPT
+  - PPT生成
+  - 快速出PPT
+  - PPT风格统一
+  - AI排版
 tags:
-- '#perspective/compliance'
-- '#chunk-type/boundary'
-- '#scene/ai-collaboration/prompt-engineering'
-- '#scene/business-analysis'
-- '#method/learning-method'
-- '#domain/ai-saas'
-- '#method/communication-method'
+  - '#perspective/compliance'
+  - '#chunk-type/boundary'
+  - '#scene/ai-collaboration/prompt-engineering'
+  - '#scene/business-analysis'
+  - '#method/learning-method'
+  - '#domain/ai-saas'
+  - '#method/communication-method'
 trust_level: medium
 created_at: '2026-05-29'
-updated_at: '2026-06-19'
+updated_at: '2026-06-20'
 estimated_tokens: 2600
 reviewed_by: 欧阳锋
 diagnostic_signals:
-- signal: 用本工具3小时出了一套漂亮PPT，但投资人反馈"模板感太强、看不到思考深度"
-  framework_lens: 工具完成了"视觉包装"，但没有完成"认知包装"。当PPT被用于高风险决策场景（融资、重大项目汇报），观众会默认漂亮排版背后有深度思考，反而放大认知风险
-  follow_up_question: 这份PPT的核心论点是否有独立的数据源和逻辑链支撑？如果没有，是否应该先用[[yt-pitch-quantification]]和[[yt-pitch-storytelling]]梳理清楚再生成视觉？
-- signal: 团队用本工具统一了风格，但每次内容修改后都要重新生成全部页面
-  framework_lens: 工具将"风格"和"内容"绑定在同一个AI窗口中，导致迭代成本被低估。当演讲稿频繁变动时，逐页重新生成的成本可能超过传统PPT模板
-  follow_up_question: 内容是否已经冻结到可以逐页丢给AI？如果修改频率>每周一次，是否应该用PPT模板+AI仅生成底图的分工模式？
+  - signal: 用本工具3小时出了一套漂亮PPT，但投资人反馈"模板感太强、看不到思考深度"
+    framework_lens: 工具完成了"视觉包装"，但没有完成"认知包装"。当PPT被用于高风险决策场景（融资、重大项目汇报），观众会默认漂亮排版背后有深度思考，反而放大认知风险
+    follow_up_question: 这份PPT的核心论点是否有独立的数据源和逻辑链支撑？如果没有，是否应该先用[[yt-pitch-quantification]]和[[yt-pitch-storytelling]]梳理清楚再生成视觉？
+  - signal: 团队用本工具统一了风格，但每次内容修改后都要重新生成全部页面
+    framework_lens: 工具将"风格"和"内容"绑定在同一个AI窗口中，导致迭代成本被低估。当演讲稿频繁变动时，逐页重新生成的成本可能超过传统PPT模板
+    follow_up_question: 内容是否已经冻结到可以逐页丢给AI？如果修改频率>每周一次，是否应该用PPT模板+AI仅生成底图的分工模式？
 author: 老顽童
 ---
 # AI对话式PPT生成器：把排版变成说话
@@ -102,6 +103,17 @@ author: 老顽童
 - [ ] 已完成信息层级清晰性检查（主标题/副标题/正文/注释区分明确）
 - [ ] 关键数据/图表已人工核查来源与准确性
 - [ ] 已导出为PPTX/PDF并在目标演示设备上预览确认
+
+## 真实使用案例
+
+| 场景 | 来源 | 结果/教训 |
+|---|---|---|
+| **一堂 AI 设计课 PPT 生成流程** | `src_20260619_3f10f20d_00_inbox_design_AI设计_文创案例设计课口述.txt:4532-4546` | 讲师演示：先与 AI 沟通确定 PPT 风格提示词 → 把风格提示词单独丢给一个新窗口 → 逐页丢内容生成图片 → 风格保持一致。关键前提是"内容框架已经想清楚"。 |
+| **Leo 文创品牌展示 PPT（推断）** | 同 source 中 Leo 文创案例 | 若用本工具为 Leo 小人做品牌展示 PPT，应先完成"信息分层"再生成视觉；否则会出现"图片好看但品牌逻辑不清"的问题。 |
+
+> ⚠️ 案例说明：目前素材中仅包含讲师的方法论演示，未找到第三方独立验证的具体用户使用案例；上述"Leo 文创品牌展示 PPT"为合理推断，非已验证案例。
+
+---
 
 ## 相关卡/互链
 

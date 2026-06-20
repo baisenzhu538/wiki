@@ -1,59 +1,57 @@
 ---
-
 id: modeling-three-stages
 title: 建模三段论：流程建模、抽象建模、本质提炼
 type: framework
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
-  - src_20260614_623cfbfd-高阶建模-流程建模
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
 status: enriched
 domain:
-- yitang
-- product
-- ai-collaboration
+  - yitang
+  - product
+  - ai-collaboration
+source_person: 楚门/Truman
+source_context: 一堂 2026-06-12 建模能力培训课程，三阶段框架
+source_refs:
+  - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
+  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+  - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 created_at: '2026-06-14'
-updated_at: '2026-06-16'
+updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-16'
+review_date: '2026-06-20'
 trust_level: medium
-confidence: 0.75
+confidence: 0.78
 tags:
-- '#method/modeling'
-- '#content-format/framework'
-- '#domain/yitang'
-- '#method/ai-collaboration'
+  - '#method/modeling'
+  - '#content-format/framework'
+  - '#domain/yitang'
+  - '#method/ai-collaboration'
 related:
-- '[[modeling-capability-system]]'
-- '[[modeling-level-map]]'
-- '[[modeling-weapon-library]]'
-- '[[process-modeling]]'
-- '[[case-modeling-essence-levels]]'
-- '[[case-modeling-abstraction-yitang-models]]'
-- '[[case-yitang-model-asset-inventory]]'
-- '[[dk-modeling-checklist-formatting-rules]]'
-- '[[case-truman-ai-skill-engineering-guide]]'
-- '[[case-yitang-radar-chart-selection]]'
+  - modeling-capability-system
+  - modeling-level-map
+  - modeling-weapon-library
+  - process-modeling
+  - case-modeling-essence-levels
+  - case-modeling-abstraction-yitang-models
+  - case-yitang-model-asset-inventory
+  - dk-modeling-checklist-formatting-rules
+  - case-truman-ai-skill-engineering-guide
+  - case-yitang-radar-chart-selection
 diagnostic_signals:
-- signal: 用户说"这个事情怎么做才能不每次重新想"
-  framework_lens: 流程类建模
-  follow_up_question: 这个任务重复发生吗？失败成本高吗？
-- signal: 用户说"这类问题有没有通用解法"
-  framework_lens: 抽象建模
-  follow_up_question: 你是否有 10 个以上同类案例可以提炼共性？
-- signal: 用户说"这个领域的核心到底是什么"
-  framework_lens: 本质提炼
-  follow_up_question: 你能不能用一句话或一个公式概括它的本质？
-- signal: 用户想用 AI 直接生成一个可用模型，跳过人工边界定义与质量审计
-  framework_lens: 人在环中建模五步法
-  follow_up_question: 你是否已经先定义了模型的适用边界、挑错标准、上锁格式和成熟标准？
-- signal: 团队产出的模型或 SOP 看起来完整，但一上线就发现大量例外和反例
-  framework_lens: 边界工程 + 决定成熟
-  follow_up_question: 在发布前，你是否组织过以"推翻模型"为目标的撞击实验？是否把例外情况写进了边界说明？
+  - signal: 用户说"这个事情怎么做才能不每次重新想"
+    framework_lens: 流程类建模
+    follow_up_question: 这个任务重复发生吗？失败成本高吗？
+  - signal: 用户说"这类问题有没有通用解法"
+    framework_lens: 抽象建模
+    follow_up_question: 你是否有 10 个以上同类案例可以提炼共性？
+  - signal: 用户说"这个领域的核心到底是什么"
+    framework_lens: 本质提炼
+    follow_up_question: 你能不能用一句话或一个公式概括它的本质？
+  - signal: 用户想用 AI 直接生成一个可用模型，跳过人工边界定义与质量审计
+    framework_lens: 人在环中建模五步法
+    follow_up_question: 你是否已经先定义了模型的适用边界、挑错标准、上锁格式和成熟标准？
+  - signal: 团队产出的模型或 SOP 看起来完整，但一上线就发现大量例外和反例
+    framework_lens: 边界工程 + 决定成熟
+    follow_up_question: 在发布前，你是否组织过以"推翻模型"为目标的撞击实验？是否把例外情况写进了边界说明？
 ---
 # 建模三段论：流程建模、抽象建模、本质提炼
 
@@ -84,6 +82,19 @@ diagnostic_signals:
 - **C4 [conf=0.8]**: 三阶段对应不同的典型错误：流程建模缺复盘，抽象建模缺案例验证，本质提炼缺可预测性。——依据：`src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:44-49`、`src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:62-67`、`src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:80-84`。
 - **C5 [conf=0.8]**: 三阶段可叠加使用：先用流程建模稳定执行，再用抽象建模提炼模型，最后逼近本质。——依据：`src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md`。
 - **C6 [conf=0.75]**: 抽象建模需通过「撞击实验」寻找反例，以推翻模型为目标不断优化边界。——依据：`src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:62-67`。
+
+---
+
+## 三阶段案例对照表
+
+| 阶段 | 典型案例 | 来源 | 解决的问题 | 关键产出 |
+|---|---|---|---|---|
+| **流程类建模（60分）** | 直播前热身 SOP | `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:58` | 直播状态不稳定 | 20-30 条细则（提前 2 小时吃饭、30 分钟喝咖啡等） |
+| **流程类建模（60分）** | 孩子控笔训练口诀 | `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:57` | 孩子绘画控笔不稳 | 四句话口诀（找开头、控比例、随时改、画曲线） |
+| **抽象建模（75分）** | 评选雷达图 | `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:75` | 讲师/案例评选主观拍板 | 4-6 个评选维度 + 打分排序 |
+| **抽象建模（75分）** | 个人成长地图 | `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:76` | 成长课题散乱 | "顶天立地"模型 |
+| **本质提炼（85分）** | 战略的本质 | `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:93` | 什么是战略 | 战略 = 站在全局 + 影响成败 + 艰难选择 |
+| **本质提炼（85分）** | 教育的本质 | `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:94` | 什么是教育 | 教育 = 教材（问题加减法）+ 教学 |
 
 ---
 

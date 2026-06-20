@@ -1,53 +1,54 @@
 ---
-
 id: modeling-weapon-library
 title: 常见模型武器库：按问题难度调用模型
 type: tool
+status: enriched
+domain:
+  - yitang
+  - product
+  - ai-collaboration
+source_person: 楚门/Truman
+source_context: 一堂 2026-06-12 建模能力培训课程，常见模型武器库
 source_refs:
   - 10_raw/sources/src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md
   - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
   - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
-status: enriched
-domain:
-- yitang
-- product
-- ai-collaboration
 created_at: '2026-06-14'
-updated_at: '2026-06-17'
+updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-17'
+review_date: '2026-06-20'
 trust_level: medium
-confidence: 0.89
+confidence: 0.78
 related:
-- '[[modeling-capability-system]]'
-- '[[modeling-three-stages]]'
-- '[[modeling-level-map]]'
-- '[[case-modeling-abstraction-yitang-models]]'
+  - modeling-capability-system
+  - modeling-three-stages
+  - modeling-level-map
+  - case-modeling-abstraction-yitang-models
 tags:
-- '#method/modeling'
-- '#content-format/concept-card'
-- '#content-format/framework'
-- '#content-format/checklist'
+  - '#method/modeling'
+  - '#content-format/concept-card'
+  - '#content-format/framework'
+  - '#content-format/checklist'
 diagnostic_signals:
-- signal: 用户说"我想提炼一个方法论，但不知道用什么结构"
-  framework_lens: 模型武器库
-  follow_up_question: 你要解决的问题是分类、排序、对比、因果还是创新？
-- signal: 用户说"这个模型太简单/太复杂"
-  framework_lens: 难度分层
-  follow_up_question: 这个问题是简单、更难还是最难？是否错配了模型难度？
-- signal: 用户问"该用什么模型来表达这个观点/流程/关系？"
-  framework_lens: 模型选型
-  follow_up_question: 先判断问题难度，再从武器库对应层级挑选 1 个主模型。
-- signal: 用户已有信息但输出结构混乱，或"不知道该画什么图"
-  framework_lens: 结构化映射
-  follow_up_question: 信息之间是并列、流程、对比、因果还是层级关系？
-- signal: 用户的方法论被反馈"没有洞察/太散/太深"
-  framework_lens: 难度校准
-  follow_up_question: 当前模型处于哪一层？是否需要升维到深度模型或降维到基础模型？
-- signal: 用户想用 AI 直接生成复杂模型但缺乏案例支撑
-  framework_lens: 数据先行
-  follow_up_question: 是否已有 10+ 案例或足够样本？模型不能替代数据和思考。
+  - signal: 用户说"我想提炼一个方法论，但不知道用什么结构"
+    framework_lens: 模型武器库
+    follow_up_question: 你要解决的问题是分类、排序、对比、因果还是创新？
+  - signal: 用户说"这个模型太简单/太复杂"
+    framework_lens: 难度分层
+    follow_up_question: 这个问题是简单、更难还是最难？是否错配了模型难度？
+  - signal: 用户问"该用什么模型来表达这个观点/流程/关系？"
+    framework_lens: 模型选型
+    follow_up_question: 先判断问题难度，再从武器库对应层级挑选 1 个主模型。
+  - signal: 用户已有信息但输出结构混乱，或"不知道该画什么图"
+    framework_lens: 结构化映射
+    follow_up_question: 信息之间是并列、流程、对比、因果还是层级关系？
+  - signal: 用户的方法论被反馈"没有洞察/太散/太深"
+    framework_lens: 难度校准
+    follow_up_question: 当前模型处于哪一层？是否需要升维到深度模型或降维到基础模型？
+  - signal: 用户想用 AI 直接生成复杂模型但缺乏案例支撑
+    framework_lens: 数据先行
+    follow_up_question: 是否已有 10+ 案例或足够样本？模型不能替代数据和思考。
 ---
 # 常见模型武器库：按问题难度调用模型
 
@@ -146,6 +147,20 @@ diagnostic_signals:
 2. 再用进阶模型进行结构化分析。
 3. 最后用深度模型提炼洞察或本质。
 4. 用「撞击实验」寻找反例，验证模型边界。
+
+---
+
+## 代表性模型使用指南
+
+| 模型 | 适用问题 | 使用步骤 | 典型场景 | 常见错误 |
+|---|---|---|---|---|
+| **清单/Checklist** | 高频重复任务，怕漏步骤 | ① 列出所有关键步骤 ② 标注检查标准 ③ 设定触发条件 ④ 迭代更新 | 直播前准备、活动复盘、新人 onboarding | 把清单当万能工具，用于需要判断的复杂决策 |
+| **SOP** | 需要稳定产出的流程 | ① 定义输入/输出 ② 拆分到可检查动作 ③ 加关键节点检查 ④ 写明边界和异常处理 | 客服话术、内容生产、数据录入 | 步骤太粗或太细，没有监督机制 |
+| **雷达图** | 多维度评估/评选 | ① 确定 4-6 个维度 ② 定义每个维度的评分标准 ③ 打分 ④ 排序并讨论分歧 | 讲师评选、供应商评估、方案比选 | 维度之间不独立（违反 MECE），权重不明确 |
+| **象限图/二分法** | 分类、优先级 | ① 选择两个关键维度 ② 定义坐标轴含义 ③ 把案例放入象限 ④ 为每个象限制定策略 | 客户分层、任务优先级、产品定位 | 维度选择不关键，导致分类无意义 |
+| **逻辑链/漏斗图** | 因果分析、流程优化 | ① 写出结果 ② 逆向追问"导致它的直接因素" ③ 检查因果 vs 相关 ④ 找到杠杆变量 | 转化率提升、问题归因、增长拆解 | 把相关当因果，跳过中间变量 |
+| **三角图** | 本质提炼、三要素平衡 | ① 找出三个相互支撑的要素 ② 验证缺一不可 ③ 推导出具体策略 | 商业模式、组织能力、产品内核 | 三个要素其实是同一维度，或有一个是结果而非原因 |
+| **冰山图** | 从表象到本质 | ① 列出事件/行为 ② 下挖到模式、结构、信念 ③ 找到杠杆变量 | 问题反复出现、团队冲突、组织惯性 | 停在"模式"层，没有真正下到"信念/结构"层 |
 
 ---
 

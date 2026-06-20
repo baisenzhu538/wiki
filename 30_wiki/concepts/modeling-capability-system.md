@@ -1,51 +1,49 @@
 ---
-
 id: modeling-capability-system
 title: 高阶建模能力体系：一堂从经验到规律的教研方法论
 type: concept
-source_refs:
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-- 10_raw/sources/src_20260503_52ae08ba-kdo_product_design_agent_final.md
-  - src_20260614_8269ccdb-一堂-建模能力培训-truman-口述
-  - src_20260614_42f1e977-一堂-建模能力培训-truman-笔记
-  - src_20260614_623cfbfd-高阶建模-流程建模
 status: enriched
 domain:
-- yitang
-- product
-- ai-collaboration
+  - yitang
+  - product
+  - ai-collaboration
+source_person: 楚门/Truman
+source_context: 一堂 2026-06-12 建模能力培训课程
+source_refs:
+  - 10_raw/sources/src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md
+  - 10_raw/sources/src_20260614_8269ccdb-一堂-建模能力培训-truman-口述.md
+  - 10_raw/sources/src_20260614_623cfbfd-高阶建模-流程建模.md
 created_at: '2026-06-14'
-updated_at: '2026-06-17'
+updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
-review_date: '2026-06-17'
+review_date: '2026-06-20'
 trust_level: medium
-confidence: 0.75
+confidence: 0.78
 tags:
-- '#method/modeling'
-- '#content-format/framework'
-- '#domain/yitang'
-- '#method/thinking-tool'
-- '#method/ai-collaboration'
+  - '#method/modeling'
+  - '#content-format/framework'
+  - '#domain/yitang'
+  - '#method/thinking-tool'
+  - '#method/ai-collaboration'
 related:
-- '[[modeling-three-stages]]'
-- '[[modeling-to-kdo-toolchain]]'
-- '[[dk-modeling-ai-without-judgment]]'
-- '[[dk-modeling-essence-predictive]]'
+  - modeling-three-stages
+  - modeling-to-kdo-toolchain
+  - dk-modeling-ai-without-judgment
+  - dk-modeling-essence-predictive
 diagnostic_signals:
-- signal: 用户说"团队经验无法沉淀，每次都要重新踩坑"
-  framework_lens: 流程类建模
-  follow_up_question: 这个场景是否有 3 次以上重复发生？能否沉淀为 SOP 或清单？
-- signal: 用户说"道理都懂，但遇到新问题还是不会用"
-  framework_lens: 抽象建模
-  follow_up_question: 你是否有 3-5 个可跨场景调用的模型武器库？
-- signal: 用户说"学了很多方法论，但抓不住核心"
-  framework_lens: 本质提炼
-  follow_up_question: 你能不能用 1-4 个关键词概括这个领域的本质？
-- signal: 团队用 AI 生成了一套"看起来完整"的方法论，但落地时每个场景都要临时打补丁
-  framework_lens: 人在环中建模五步法
-  follow_up_question: 这个模型是否已定义边界、经过挑错/撞击实验、并固化成清单/SOP？
+  - signal: 用户说"团队经验无法沉淀，每次都要重新踩坑"
+    framework_lens: 流程类建模
+    follow_up_question: 这个场景是否有 3 次以上重复发生？能否沉淀为 SOP 或清单？
+  - signal: 用户说"道理都懂，但遇到新问题还是不会用"
+    framework_lens: 抽象建模
+    follow_up_question: 你是否有 3-5 个可跨场景调用的模型武器库？
+  - signal: 用户说"学了很多方法论，但抓不住核心"
+    framework_lens: 本质提炼
+    follow_up_question: 你能不能用 1-4 个关键词概括这个领域的本质？
+  - signal: 团队用 AI 生成了一套"看起来完整"的方法论，但落地时每个场景都要临时打补丁
+    framework_lens: 人在环中建模五步法
+    follow_up_question: 这个模型是否已定义边界、经过挑错/撞击实验、并固化成清单/SOP？
 ---
 # 高阶建模能力体系：一堂从经验到规律的教研方法论
 
@@ -63,6 +61,20 @@ diagnostic_signals:
 - **C4 [conf=0.8]**: 每个阶段对应不同的能力段位：L1-L2 缺少意识/追求，L3 流程建模，L4 抽象建模，L5 本质提炼，L6 持续创新。——依据：`src_20260614_bb892297-Truman-高阶建模-段位图-01.md`。
 - **C5 [conf=0.8]**: 建模修炼的核心心法是**刻意练习、IPO 循环、逻辑洁癖**。——依据：`src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:112-116`。
 - **C6 [conf=0.75]**: 常见模型武器库按难度分层：基础模型（清单/SOP/模板）、进阶模型（雷达图/二分法/象限图）、深度模型（三角图/冰山图/本质公式）。——依据：`src_20260614_73352fa5-Truman-高阶建模-抽象建模-常见模型武器库-图-01.md`。
+
+---
+
+## 课程案例速览
+
+| 阶段 | 案例 | 来源 | 说明 |
+|---|---|---|---|
+| **流程类建模** | 直播前热身 SOP | `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:58` | 一堂复盘直播前常见问题（饮食、休息、设备），建立 20-30 条细则，确保状态稳定 |
+| **流程类建模** | 孩子控笔训练口诀 | `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:57` | 将绘画动作规律提炼为四句话口诀，帮助孩子快速掌握控笔 |
+| **抽象建模** | 评选雷达图 | `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:75` | 针对讲师/案例评选，定义 4-6 个维度打分排序，替代主观拍板 |
+| **抽象建模** | 个人成长地图 | `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:76` | 用"顶天立地"模型构建成长框架 |
+| **本质提炼** | 战略的本质 | `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:93` | 战略 = 站在全局 + 影响成败 + 艰难选择 |
+| **本质提炼** | 教育的本质 | `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:94` | 教育 = 教材（问题加减法）+ 教学 |
+| **AI 建模实践** | 高阶 Skill 设计指南 | `src_20260614_42f1e977-一堂-建模能力培训-truman-笔记.md:113` | 用 AI 翻译解读最佳实践，结合逻辑洁癖迭代，形成 7 个范式、10 条 To Do/Not To Do |
 
 ---
 
