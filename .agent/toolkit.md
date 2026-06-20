@@ -213,6 +213,20 @@
 
 ---
 
+## 十、质量检查脚本（90_control/scripts/）
+
+| 脚本 | 用途 | 用法 |
+|:--|:--|:--|
+| **check-source-refs.py** | 扫全库 source_refs，验证路径存在 + 标记污染模式 | `python 90_control/scripts/check-source-refs.py [--domain yitang] [--json]` |
+| **scan-vlm-parse-errors.py** | 扫 VLM 描述文件的 parse_error / 低置信度 / 未识别类型 | `python 90_control/scripts/scan-vlm-parse-errors.py [--dir PATH] [--json]` |
+| **track-production-progress.py** | 读任务清单，检查目标卡片产出状态，算完成率 | `python 90_control/scripts/track-production-progress.py [--task PATH] [--missing] [--json]` |
+| **kcard-quality-gate.py** | P0/P1 门禁：id/title/source_count/dangling/confidence 一致性 | `python 90_control/scripts/kcard-quality-gate.py [--fix-p0]` |
+| **kdo_lint.py** | frontmatter schema 校验（必填字段、枚举值、正则匹配） | `python 90_control/scripts/kdo_lint.py` |
+
+> 调用时设置 `$env:PYTHONIOENCODING='utf-8'` 避免 Windows 控制台 GBK 编码错误。
+
+---
+
 ## 八、Hermes Provider 迁移 SOP（P-5/P-6 教训）
 
 > 切 API（如 Kimi→DeepSeek）必须同步更新三层，漏一层就全挂。
