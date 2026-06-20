@@ -67,6 +67,7 @@ related:
 | 找对标案例 | `tool-yitang-research-follow-map` |
 | 用户 JTBD 访谈 | `yt-research-user-jtbd` |
 | 专家访谈 | `yt-research-expert-interview` |
+| **全网爬虫采集** 🆕 | `tool-yitang-web-scraping-research` |
 
 ### 分析与验证
 

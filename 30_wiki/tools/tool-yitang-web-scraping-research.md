@@ -15,6 +15,7 @@ source_refs:
   - https://cnil.fr/en/legal-basis-legitimate-interest-focus-sheet-measures-implement-case-data-collection-web-scraping
   - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 created_at: "2026-06-21"
+updated_at: "2026-06-21"
 author: 黄药师
 reviewed_by: 欧阳锋
 difficulty: intermediate

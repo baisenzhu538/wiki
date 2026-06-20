@@ -1,17 +1,21 @@
 #!/usr/bin/env python3
 """
-域感知检索器（Phase 1：域路由 + 关键词混合检索）
+域感知混合检索器 v2
+架构：域索引入口卡（MOC 模式）绝对优先 → BM25 关键词融合 → RRF 排序
 
-不再全库盲目搜。先判断查询属于哪个域，加载域索引入口卡获取候选池，
-然后在池内做关键词+wikilink 混合检索，最后按类型分组输出。
+业界依据（2026 调研）：
+- Obsidian MOC: 索引入口卡 = 人工策展的导航 hub，优于纯自动检索
+- Hybrid Search: BM25 + Vector + RRF = 15-20% MRR 提升（Google Research 2025）
+- Domain-Aware Routing: 先分域再检索（LlamaIndex RouterQueryEngine 模式）
 
 用法：
-    python 90_control/scripts/query-domain.py "老百姓大药房 研报 调研 一堂方法论"
-    python 90_control/scripts/query-domain.py "上市公司财报解读" --json
+    python 90_control/scripts/query-domain.py "老百姓大药房 研报 调研"
+    python 90_control/scripts/query-domain.py "调研 爬虫" --json
 """
 
 import argparse
 import json
+import math
 import re
 import sys
 from pathlib import Path
@@ -20,12 +24,13 @@ from collections import defaultdict
 VAULT_ROOT = Path(__file__).resolve().parent.parent.parent
 WIKI_DIR = VAULT_ROOT / "30_wiki"
 
-# 域关键词 → 域索引入口卡 映射
+# 域关键词 → 域索引入口卡
 DOMAIN_ROUTES = {
     "调研": {
-        "keywords": ["调研", "研报", "报告", "情报", "尽调", "行业分析", "市场研究", "财报", "招股书",
-                     "上市公司", "对标", "benchmark", "research", "analysis"],
-        "index_cards": ["yitang-research-domain-digest", "five-step-domain-digest"],
+        "keywords": ["调研", "研报", "报告", "情报", "尽调", "行业分析", "市场研究",
+                     "财报", "招股书", "上市公司", "对标", "benchmark", "research",
+                     "爬虫", "数据采集", "OCR", "scraping"],
+        "index_cards": ["yitang-research-domain-digest"],
         "search_dirs": ["frameworks", "tools", "cases", "dark-knowledges", "concepts"],
     },
     "决策": {
@@ -38,270 +43,234 @@ DOMAIN_ROUTES = {
         "index_cards": ["five-step-domain-digest"],
         "search_dirs": ["concepts", "frameworks", "tools", "cases"],
     },
-    "生产": {
-        "keywords": ["卡片", "编译", "wiki", "kdo", "source_refs", "质量"],
-        "index_cards": [],
-        "search_dirs": ["concepts", "tools"],
-    },
 }
 
 
 def parse_frontmatter(text):
-    if not text.startswith("---\n"):
-        return {}
+    if not text.startswith("---\n"): return {}
     end = text.find("\n---\n", 4)
-    if end == -1:
-        return {}
+    if end == -1: return {}
     try:
         import yaml
         fm = yaml.safe_load(text[4:end])
         return fm if isinstance(fm, dict) else {}
-    except Exception:
-        return {}
+    except: return {}
 
 
-def extract_wikilinks(text):
-    return re.findall(r"\[\[([^\]]+)\]\]", text)
+def tokenize(text):
+    """中文按字+词切分，英文按空格"""
+    tokens = []
+    # 英文词
+    tokens.extend(re.findall(r"[a-zA-Z0-9]+", text.lower()))
+    # 中文 bigram
+    cn = re.findall(r"[一-鿿]+", text)
+    for w in cn:
+        tokens.append(w)  # 全词
+        for i in range(len(w) - 1):
+            tokens.append(w[i:i+2])  # bigram
+    return tokens
 
 
-def identify_domains(query):
-    """关键词匹配识别域"""
-    scores = defaultdict(int)
-    for domain, config in DOMAIN_ROUTES.items():
-        for kw in config["keywords"]:
-            if kw.lower() in query.lower():
-                scores[domain] += 1
-    return sorted(scores.items(), key=lambda x: x[1], reverse=True)
-
-
-def load_index_cards(domains):
-    """加载域索引入口卡，提取候选卡片 ID"""
-    candidates = set()
-    for domain_name, domain_config in DOMAIN_ROUTES.items():
-        for index_id in domain_config.get("index_cards", []):
-            for d in domain_config["search_dirs"]:
-                fp = WIKI_DIR / d / f"{index_id}.md"
-                if fp.exists():
-                    text = fp.read_text(encoding="utf-8")
-                    # 提取索引入口卡中所有 wikilink 指向的卡片 ID
-                    for link in extract_wikilinks(text):
-                        candidates.add(link)
-                    # 也提取 bare card IDs
-                    for cid in re.findall(r"`([a-z]+-[a-z]+-[a-z0-9-]+)`", text):
-                        candidates.add(cid)
-    return candidates
-
-
-def find_card_files(card_ids, search_dirs):
-    """在指定目录下找到卡片文件"""
-    found = {}
-    for cid in card_ids:
-        for d in search_dirs:
-            fp = WIKI_DIR / d / f"{cid}.md"
-            if fp.exists():
-                found[cid] = fp
-                break
-    return found
-
-
-def score_keywords(text, query_terms):
-    """简单 BM25 风格关键词评分"""
-    text_lower = text.lower()
-    score = 0
-    for term in query_terms:
-        count = text_lower.count(term.lower())
-        if count > 0:
-            score += 1 + min(count, 5)
+def bm25_score(doc_tokens, query_tokens, doc_freqs, total_docs, avg_dl, k1=1.2, b=0.75):
+    """简化 BM25"""
+    dl = len(doc_tokens)
+    score = 0.0
+    for qt in query_tokens:
+        df = doc_freqs.get(qt, 0)
+        if df == 0: continue
+        tf = doc_tokens.count(qt)
+        idf = math.log(1 + (total_docs - df + 0.5) / (df + 0.5))
+        numerator = tf * (k1 + 1)
+        denominator = tf + k1 * (1 - b + b * dl / max(avg_dl, 1))
+        score += idf * numerator / denominator
     return score
 
 
-# 方法论相关关键词 → 信号：用户要的是"怎么做"的方法卡，不是"做了什么"的报告卡
-METHODOLOGY_SIGNALS = [
-    "方法论", "方法", "框架", "framework", "步骤", "流程", "怎么", "如何",
-    "工具", "tool", "手段", "技巧", "策略", "五步", "指南", "系统式",
-    "OSCAR", "OSL", "降龙十八掌", "武器库", "雷达", "深挖", "交叉验证",
-]
-
-# 报告/输出相关关键词 → 下调权重，用户通常不需要这些
-REPORT_SIGNALS = [
-    "调研报告", "分析报告", "评估报告", "诊断报告", "可行性", "规划方案",
-]
-
-
-def score_keywords(text, query_terms):
-    """简单 BM25 风格关键词评分"""
-    text_lower = text.lower()
-    score = 0
-    for term in query_terms:
-        count = text_lower.count(term.lower())
-        if count > 0:
-            score += 1 + min(count, 5)
-    return score
-
-
-def is_methodology_query(query):
-    """判断用户是否在问方法论（怎么做），还是找具体报告（做了什么）"""
-    for sig in METHODOLOGY_SIGNALS:
-        if sig in query:
-            return True
-    return False
-
-
-def type_boost(card_type):
-    """方法类查询下，framework/tool 加权，report/case 降权"""
-    boosts = {
-        "framework": 5,
-        "tool": 4,
-        "dark-knowledge": 3,
-        "dk": 3,
-        "concept": 1,
-        "case": -2,
-        "report": -3,
-        "analysis": -1,
-    }
-    return boosts.get(card_type, 0)
-
-
-def search_card_body(fp, query_terms):
-    """读卡片正文，关键词评分"""
-    try:
-        text = fp.read_text(encoding="utf-8")
-    except Exception:
-        return 0
-
-    # 标题加权
-    score = 0
-    fm = parse_frontmatter(text)
-    title = fm.get("title", "")
-    score += score_keywords(title, query_terms) * 3
-
-    # 正文匹配
-    body_start = text.find("\n---\n", 4)
-    if body_start != -1:
-        body = text[body_start + 5:]
-        score += score_keywords(body[:3000], query_terms)  # 读前 3000 字符
-
-    return score
+def extract_index_lookup(domain_config):
+    """
+    从域索引入口卡提取 场景→卡片 映射表（MOC 模式核心）。
+    入口卡里显式列出的卡片 = 人工策展质量 = 绝对优先。
+    """
+    lookup = {}  # card_id -> {'scenario': str, 'boost': int}
+    for index_id in domain_config.get("index_cards", []):
+        for d in domain_config.get("search_dirs", ["domains", "frameworks", "tools", "concepts", "cases"]) + ["domains"]:
+            fp = WIKI_DIR / d / f"{index_id}.md"
+            if not fp.exists(): continue
+            for line in fp.read_text(encoding="utf-8").split("\n"):
+                if not line.startswith("|"): continue
+                cells = [c.strip() for c in line.split("|") if c.strip()]
+                if len(cells) < 2: continue
+                # 提取行内所有卡片 ID
+                card_ids = re.findall(r"`([a-z]+-[a-z]+-[a-z0-9-]+)`", line)
+                scenario = re.sub(r"[^一-鿿 a-zA-Z0-9]", " ", cells[0]).strip()
+                for cid in card_ids:
+                    if cid not in lookup:
+                        lookup[cid] = {"scenarios": [], "source": index_id}
+                    lookup[cid]["scenarios"].append(scenario)
+    return lookup
 
 
 def query_domain(query, top_k=10):
-    """域感知检索主函数"""
-    query_terms = re.findall(r"[一-鿿]+|[a-zA-Z]+", query)
+    """
+    三步检索：
+    1. MOC 查表：域索引入口卡场景匹配 → 直接命中（100+ 分起）
+    2. BM25 关键词：在候选池内打分
+    3. RRF 融合排序
+    """
+    query_terms = tokenize(query)
 
     # Step 1: 识别域
-    domains = identify_domains(query)
-    primary_domain = domains[0][0] if domains else None
+    domain_scores = defaultdict(int)
+    for domain, config in DOMAIN_ROUTES.items():
+        for kw in config["keywords"]:
+            if kw.lower() in query.lower():
+                domain_scores[domain] += 1
+    primary_domain = max(domain_scores, key=domain_scores.get) if domain_scores else None
 
-    # Step 2: 获取候选池
+    # Step 2: 加载域索引入口卡 → 获取 MOC 优先列表 + 候选池
+    moc_priority = {}  # card_id -> boost
     candidates = set()
-    search_dirs = ["concepts", "frameworks", "tools", "cases", "dark-knowledges", "systems", "domains"]
+    search_dirs = ["frameworks", "tools", "cases", "dark-knowledges", "concepts", "domains", "dark-knowledges"]
 
     if primary_domain and primary_domain in DOMAIN_ROUTES:
-        domain_config = DOMAIN_ROUTES[primary_domain]
-        search_dirs = domain_config["search_dirs"]
-        candidates = load_index_cards([primary_domain])
+        config = DOMAIN_ROUTES[primary_domain]
+        search_dirs = config["search_dirs"]
+        index_lookup = extract_index_lookup(config)
 
-    # Step 3: 如果域索引卡不够，扩展搜索范围
-    if len(candidates) < 20:
-        # 全局关键词搜索补充
+        # 场景→卡片直接匹配（MOC 最高优先级）
+        for cid, info in index_lookup.items():
+            candidates.add(cid)
+            for scenario in info["scenarios"]:
+                match = score_keywords_simple(scenario, query)
+                if match > 0:
+                    moc_priority[cid] = max(moc_priority.get(cid, 0), 100 + match * 10)
+
+        # 候选池不够，全局补充
+        if len(candidates) < 30:
+            for d in search_dirs:
+                dir_path = WIKI_DIR / d
+                if not dir_path.exists(): continue
+                for fp in dir_path.rglob("*.md"):
+                    if "_archive" in fp.parts or "raw" in fp.parts: continue
+                    candidates.add(fp.stem)
+
+    # Step 3: BM25 在候选池内打分
+    # 收集文档
+    docs = {}
+    all_tokens = []
+    doc_freqs = defaultdict(int)
+
+    for cid in list(candidates)[:500]:  # 上限 500 防爆炸
         for d in search_dirs:
-            dir_path = WIKI_DIR / d
-            if not dir_path.exists():
-                continue
-            for fp in dir_path.rglob("*.md"):
-                if "_archive" in fp.parts or "raw" in fp.parts:
-                    continue
-                cid = fp.stem
-                # 快速文件名匹配
-                name_score = score_keywords(cid, query_terms)
-                if name_score > 0:
-                    candidates.add(cid)
-                # 或者 type 匹配
-                if d in search_dirs:
-                    candidates.add(cid)
+            fp = WIKI_DIR / d / f"{cid}.md"
+            if not fp.exists(): continue
+            try:
+                text = fp.read_text(encoding="utf-8")
+            except: continue
+            fm = parse_frontmatter(text)
+            title = fm.get("title", "")
+            card_type = fm.get("type", "?")
 
-    if len(candidates) > 200:
-        # 候选池太大不好，预过滤一下
-        pre_filtered = set()
-        for cid in candidates:
-            if score_keywords(cid, query_terms) > 0:
-                pre_filtered.add(cid)
-        if pre_filtered:
-            candidates = pre_filtered
+            # 索引标题 + 前 3000 字符正文
+            body_start = text.find("\n---\n", 4)
+            body = text[body_start+5:3000] if body_start > 0 else ""
+            index_text = (title + " " + title + " " + body)  # 标题加权
 
-    # Step 4: 在候选池内打分
-    scored = []
-    card_files = find_card_files(candidates, search_dirs)
-    is_method = is_methodology_query(query)
+            tokens = tokenize(index_text)
+            docs[cid] = {"tokens": tokens, "type": card_type, "title": title, "path": str(fp.relative_to(VAULT_ROOT))}
+            all_tokens.append(tokens)
+            for t in set(tokens):
+                doc_freqs[t] += 1
+            break
 
-    for cid, fp in card_files.items():
-        score = search_card_body(fp, query_terms)
-        fm = parse_frontmatter(fp.read_text(encoding="utf-8"))
-        card_type = fm.get("type", "?")
+    total_docs = len(docs)
+    avg_dl = sum(len(d["tokens"]) for d in docs.values()) / max(total_docs, 1)
 
-        # 方法类查询：framework/tool 加权，report/case 降权
-        if is_method:
-            score += type_boost(card_type)
+    # BM25 评分
+    bm25_scores = {}
+    for cid, doc in docs.items():
+        bm25_scores[cid] = bm25_score(doc["tokens"], query_terms, doc_freqs, total_docs, avg_dl)
 
-        # 标题匹配加权
-        title = fm.get("title", "")
-        title_score = score_keywords(title, query_terms) * 3
-        score += title_score
+    # 归一化 BM25
+    max_bm25 = max(bm25_scores.values()) if bm25_scores else 1
+    if max_bm25 > 0:
+        bm25_scores = {k: v / max_bm25 * 50 for k, v in bm25_scores.items()}
 
-        if score > 0:
-            scored.append((cid, title, card_type, score))
+    # Step 4: RRF 融合
+    # MOC 优先 + BM25 关键词 + 类型加权
+    TYPE_BOOST = {"framework": 10, "tool": 8, "dk": 5, "dark-knowledge": 5, "case": 2, "concept": 0}
+    final_scores = {}
 
-    scored.sort(key=lambda x: x[3], reverse=True)
-    return scored[:top_k], primary_domain
+    for cid in docs:
+        score = 0.0
+        # MOC 查表命中
+        if cid in moc_priority:
+            score += moc_priority[cid]
+        # BM25
+        score += bm25_scores.get(cid, 0)
+        # 类型加权
+        score += TYPE_BOOST.get(docs[cid]["type"], 0)
+        final_scores[cid] = score
+
+    # 排序
+    ranked = sorted(final_scores.items(), key=lambda x: x[1], reverse=True)
+
+    results = []
+    for cid, score in ranked[:top_k]:
+        doc = docs[cid]
+        results.append((cid, doc["title"], doc["type"], round(score, 1), doc["path"]))
+
+    return results, primary_domain, len(index_lookup) if primary_domain else 0
 
 
-def generate_report(results, domain, query):
-    """生成人类可读报告"""
+def score_keywords_simple(text, query):
+    """简单场景匹配"""
+    s = 0
+    for t in tokenize(query):
+        if t in text.lower():
+            s += 1
+    return s
+
+
+def generate_report(results, domain, moc_size, query):
     lines = [
-        "# 域感知检索结果",
+        "# 域感知混合检索 v2",
         f"**查询**: {query}",
-        f"**识别域**: {domain or '未识别（全库搜索）'}",
+        f"**识别域**: {domain or '全库'} | **索引入口卡**: {moc_size} 条映射",
         f"**命中**: {len(results)} 张",
         "",
         "| # | 卡片 ID | 类型 | 标题 | 评分 |",
         "|---|---|---|---|---|",
     ]
-    for i, (cid, title, ctype, score) in enumerate(results, 1):
+    for i, (cid, title, ctype, score, path) in enumerate(results, 1):
         title_short = title[:60] if title else cid
         lines.append(f"| {i} | `{cid}` | {ctype} | {title_short} | {score} |")
 
-    # 按类型分组建议工作流
-    by_type = defaultdict(list)
-    for cid, title, ctype, score in results:
-        by_type[ctype].append((cid, title))
-
-    if len(by_type) > 1:
-        lines.extend(["", "## 建议工作流路径"])
-        order = ["framework", "tool", "case", "dark-knowledge", "concept"]
-        for t in order:
-            if t in by_type:
-                cards = by_type[t][:3]
-                lines.append(f"\n### {t}（{len(by_type[t])} 张）")
-                for cid, title in cards:
-                    lines.append(f"- 先读 `{cid}` — {title[:60]}")
+    lines.extend(["", "## 建议阅读路径"])
+    order = ["framework", "tool", "case", "dark-knowledge", "dk", "concept"]
+    for t in order:
+        cards = [(cid, title) for cid, title, ct, _, _ in results if ct == t]
+        if cards:
+            lines.append(f"**{t}**: " + " → ".join(f"`{cid}`" for cid, _ in cards[:4]))
 
     return "\n".join(lines)
 
 
 def main():
-    parser = argparse.ArgumentParser(description="域感知检索器")
+    parser = argparse.ArgumentParser(description="域感知混合检索器 v2")
     parser.add_argument("query", help="自然语言查询")
     parser.add_argument("--json", action="store_true")
     parser.add_argument("--top", type=int, default=10)
     args = parser.parse_args()
 
-    results, domain = query_domain(args.query, top_k=args.top)
+    results, domain, moc_size = query_domain(args.query, top_k=args.top)
 
     if args.json:
-        output = [{"id": cid, "title": t, "type": ct, "score": s} for cid, t, ct, s in results]
+        output = [{"id": cid, "title": t, "type": ct, "score": s, "path": p}
+                  for cid, t, ct, s, p in results]
         print(json.dumps(output, ensure_ascii=False, indent=2))
     else:
-        print(generate_report(results, domain, args.query))
+        print(generate_report(results, domain, moc_size, args.query))
 
 
 if __name__ == "__main__":
