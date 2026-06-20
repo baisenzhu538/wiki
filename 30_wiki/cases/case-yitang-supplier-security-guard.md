@@ -1,0 +1,35 @@
+---
+id: case-yitang-supplier-security-guard
+title: 案例：通过保安打听到工厂收购价
+type: case
+status: enriched
+author: 老顽童
+reviewed_by: 待审
+review_date: 2026-06-21
+created_at: 2026-06-21
+confidence: 0.85
+trust_level: high
+language: zh-CN
+domain: [yitang, research]
+source_refs:
+- 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
+related:
+- "[[tool-yitang-supply-chain-research]]"
+- "[[tool-yitang-field-research]]"
+---
+
+# 案例：通过保安打听到工厂收购价
+
+**背景**：创业者做萝卜干生意，想自己掌控供应链。考虑收购一个小工厂但不知道花多少钱。
+
+**过程**：去了目标工厂暗访，先找工人聊→没聊出什么→找管理层聊→还是没聊出关键信息→最后注意到保安24小时在厂里，而且往往是老板亲戚。
+
+改变策略：递烟、混脸熟、建立关系。最终和保安成了很熟的朋友，发现他果然是某股东的亲戚。通过保安打听到了工厂的实际运营状况和老板的心理价位。
+
+**核心洞察**：供应链上的任何一个人都可能掌握核心信息——不是高管，不是技术人员，而是一个24小时在场的保安。关键不是找"对的人"，是找"知道内情且愿意说的人"。
+
+口述待独立核实。
+
+---
+
+*卡片类型：case | 审核状态：待审*
