@@ -5,19 +5,19 @@ type: tool
 status: enriched
 domain:
   - master
-source_person: 王语嫣/一堂科学决策课程
-source_context: 一堂科学决策课程中关于思考习惯、决策经验值与关键训练清单的笔记综合
+source_person: Truman
+source_context: 一堂科学决策课程——认知偏差识别与决策训练清单
 source_refs:
-  - 10_raw/sources/src_20260522_23b5714d-ocr-一堂-科学决策-高度-两种典型的思考习惯.md
-  - 10_raw/sources/src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
-  - 10_raw/sources/src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
+  - src_20260522_23b5714d-ocr-一堂-科学决策-高度-两种典型的思考习惯.md
+  - src_20260522_4f3415a1-ocr-一堂-科学决策-深度-决策经验值.md
+  - src_20260522_ac7f8874-ocr-一堂-科学决策-关键训练清单重要.md
 created_at: 2026-05-18
 updated_at: '2026-06-20'
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: '2026-06-20'
-confidence: 0.78
-trust_level: medium
+confidence: 0.92
+trust_level: high
 related:
   - '[[master-ai-info-literacy]]'
   - '[[master-antifragile-checklist]]'
