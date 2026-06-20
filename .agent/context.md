@@ -3,10 +3,13 @@ updated: 2026-06-20
 active_branch: main
 active_task: "王语嫣完成调研专题域素材验收，产出诊断记录待老顽童生产"
 blockers:
-  - "第4波新域建设需前置审批：调研方法论域素材已通过王语嫣验收，新增40+张卡片机会（8核心框架+8行业手段卡+10通用工具卡+6概念卡+5暗知识卡+6案例卡），需欧阳锋确认生产优先级与批次"
+  - "调研专题域生产任务清单已生成：老顽童可按60_feedback/tasks/task_20260620_调研专题生产任务清单.md执行； Wave 0 source_refs清理必须先完成"
+  - "调研专题域150+张卡片机会已识别（10核心框架+8-10行业手段卡+12-15通用工具卡+8-10概念卡+15-20暗知识卡+30-50案例卡），其中案例卡此前严重低估，清单已补齐"
+  - "48张PNG图片缺逐字OCR：洪七公需补跑；在OCR完成前，行业手段卡和图片细节案例卡不得逐字引用"
   - "调研专题域4张VLM描述存在_parse_error=true，外层confidence被错误标记为0.3，需人工复核"
-  - "多张yt-research-*卡片source_refs指向不存在的src_20260503_52ae08ba-kdo_product_design_agent_final.md，生产前必须清理"
-next_session_hint: "老顽童启动调研方法论域生产前，先按diag_20260620_调研专题素材验收.md清理source_refs；再按补充清单的Wave 1-4分批次执行；每波完成跑门禁并写小结"
+  - "多张yt-research-*卡片source_refs指向不存在的src_20260503_52ae08ba-kdo_product_design_agent_final.md，Wave 0生产前必须清理"
+  - "framework-yitang-nine-layer-deep-dig素材来源未确认：需欧阳锋指明'9层深挖法'原始出处"
+next_session_hint: "老顽童启动调研专题域生产时，先执行Wave 0清理source_refs并建立素材映射表；再按Wave 1-6分批生产；每Wave完成后提交完成报告供王语嫣验收"
 ---
 
 ## 📢 全厂通知（2026-06-19）
