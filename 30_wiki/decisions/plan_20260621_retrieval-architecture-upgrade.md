@@ -2,7 +2,7 @@
 id: plan_20260621_retrieval-architecture-upgrade
 title: 检索架构升级 —— 从向量匹配到域路由 + 混合检索 + 工作流组装
 type: improvement-plan
-status: proposed
+status: active
 domain:
   - master
   - kdo
@@ -87,4 +87,18 @@ Layer 3: 工作流组装
 4. `framework-yitang-high-level-execution`（AR：获取情报→正确归因）
 5. `framework-yitang-six-layer-cross-validation`（六层交叉验证）
 
-Phase 1 原型已同步交付：`90_control/scripts/query-domain.py`
+## Phase 1 实测结果（2026-06-21）
+
+原型 `query-domain.py` 已交付并实测。
+
+**正确**：
+- 域识别准确（"调研"关键词命中）
+- 域索引入口卡候选池机制正常
+- framework/tool 类型加权生效
+
+**暴露的系统性依赖**：
+- 域索引入口卡刚建骨架，TODO 行未填 → 候选池不够精准
+- Wave 3 工具卡（`tool-yitang-financial-report-intelligence` 等）尚未产出 → 方法论匹配缺失
+- 等 Wave 1-3 完成后重新验证
+
+**下一步**：Phase 2 混合检索（BM25 + 向量 + 图遍历）待 Wave 3 交付后开发

@@ -2,7 +2,7 @@
 id: plan_20260621_domain-index-infrastructure
 title: 域索引入口卡 —— 大规模域建制的基础设施方案
 type: improvement-plan
-status: proposed
+status: approved
 domain:
   - master
   - kdo
