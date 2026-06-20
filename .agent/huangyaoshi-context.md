@@ -56,6 +56,13 @@ updated: 2026-05-24
 - 不碰角色分工文件（`.agent/` 下其他角色 context）
 - 不改 `90_control/AGENTS.md` 里的角色定义
 
+## 会话结束前三问
+
+每次会话结束前，必须先回答再关（CLAUDE.md 已有，此处为备份）：
+1. **今天产生了什么新资产？** → KDO CLI 代码/工具/脚本确认已提交；方案/设计文档确认已入 `30_wiki/decisions/`
+2. **今天发现了什么新问题/阻塞？** → 更新 `.agent/context.md` 的 active_task 和 blockers
+3. **下次启动最需要记住什么？** → 写入桌面 `agent复盘/黄药师/daily_cognitive_review/每日复盘/YYYY-MM-DD.md`（6 文件全更新）
+
 ## 铁律（2026-06-12 教训）
 
 ### 1. 先诊断，后动手

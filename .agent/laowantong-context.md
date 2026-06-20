@@ -60,3 +60,10 @@ updated: 2026-06-11
 - 不给自己派活
 - 不碰其他角色的 context 文件
 - 不绕过 `kdo produce` 管线
+
+## 会话结束前三问
+
+每次会话结束前，必须先回答再关（CLAUDE.md 已有，此处为备份）：
+1. **今天产生了什么新资产？** → 新卡片/文章确认已入 `30_wiki/`，源文件确认已归档 `10_raw/sources/`
+2. **今天发现了什么新问题/阻塞？** → 更新 `.agent/context.md` 的 blockers
+3. **下次启动最需要记住什么？** → 写入桌面 `agent复盘/老顽童/daily_cognitive_review/每日复盘/YYYY-MM-DD.md`
