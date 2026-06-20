@@ -103,27 +103,75 @@
 
 ---
 
-## 任务 2：调研方法论域 8 张卡（暂缓，等待欧阳锋输入资料）
+## 任务 2：调研方法论域拆卡（优先级：P1，资料已到位）
 
-**状态**：暂缓。欧阳锋表示还需输入大量资料，暂不启动。
+### 任务概述
 
-| 卡 ID | 类型 | 标题 |
-|:---|:---:|:---|
-| `yt-research-osl-framework` | framework | OSL调研五步法：一堂通用商业调研框架 |
-| `yt-research-intelligence-map` | framework | 情报获取全景地图：13+渠道穷尽手段 |
-| `yt-research-competitor-toolkit` | tool | 竞品拆解工具包：三层分类+内核边界+单元模型对标 |
-| `yt-research-expert-interview` | tool | 专家访谈工具：2小时获取行业共识的标准流程 |
-| `yt-research-user-jtbd` | tool | 用户深度访谈工具：JTBD视角区分“说的”和“真正要的” |
-| `yt-research-industry-canvas` | tool | 行业分析画布：五维快速扫描+二维定位 |
-| `yt-research-hypothesis-test` | tool | 假设验证调研工具：关键假设→可证伪问题→最小实验 |
-| `yt-research-mindset` | concept | 调研认知升级：从“原创自信”到“情报驱动” |
+欧阳锋已将 `business-research skill v2.1.0` 归档到：
 
-**素材来源**：
-- `00_inbox/ideas/一堂-创业必修-调研武器库.md`
-- `00_inbox/ideas/一堂-创业必修-调研行动营.md`
-- `00_inbox/ideas/一堂-创业-调研行动营口述01.md`
-- `00_inbox/ideas/一堂-创业必修-需求分析.md`
-- 已有 `yt-research-action-camp-launch.md`、`yt-research-weaponry-course.md`
+```
+10_raw/sources/src_20260620_business-research-skill-v2.1.0/
+├── SKILL.md                          # 主文档：OSCAR + 13 武器体系 + Step 0-15 工作流
+├── references/
+│   ├── ach-methodology.md            # ACH 竞争假设矩阵
+│   ├── analysis-frameworks.md        # 竞争格局分析框架
+│   ├── bias-checklist.md             # 偏见级联检查清单
+│   ├── ci-platforms.md               # 信息哨兵系统与 CI 平台
+│   ├── databases-index.md            # 关键数据库索引
+│   ├── market-sizing.md              # 市场规模估算方法论
+│   ├── report-guide.md               # 报告配图与排版规范
+│   ├── research-principles.md        # AI 调研十原则
+│   ├── style-guide.md                # 商业调研报告 Style Guide
+│   └── weapon-action-templates.md    # 13 武器行动模板
+└── templates/
+    ├── fact-card.md                  # 事实卡片模板
+    ├── report-structure.md           # 报告结构模板
+    └── weapon-checklist.md           # 武器检查清单模板
+```
+
+老顽童需基于以上素材，将调研方法论拆分为标准 30_wiki 卡片。**优先复用工单中已有的 8 个调研域卡 ID**，不足时再新建。
+
+### 必拆卡片清单（至少 8 张）
+
+| 卡 ID | 类型 | 标题 | 主要素材来源 |
+|:---|:---:|:---|:---|
+| `yt-research-osl-framework` | framework | OSL调研五步法：一堂通用商业调研框架 | `SKILL.md` 中 OSCAR 方法论 + Step 0-2 |
+| `yt-research-intelligence-map` | framework | 情报获取全景地图：13+渠道穷尽手段 | `SKILL.md` Step 2 武器决策表 + `databases-index.md` |
+| `yt-research-competitor-toolkit` | tool | 竞品拆解工具包：三层分类+内核边界+单元模型对标 | `SKILL.md` 武器1/2/4/5 + `analysis-frameworks.md` |
+| `yt-research-expert-interview` | tool | 专家访谈工具：2小时获取行业共识的标准流程 | `SKILL.md` 武器10 + `weapon-action-templates.md` |
+| `yt-research-user-jtbd` | tool | 用户深度访谈工具：JTBD视角区分“说的”和“真正要的” | `SKILL.md` 武器3 + `weapon-action-templates.md` |
+| `yt-research-industry-canvas` | tool | 行业分析画布：五维快速扫描+二维定位 | `SKILL.md` 武器11/12/13 + `market-sizing.md` |
+| `yt-research-hypothesis-test` | tool | 假设验证调研工具：关键假设→可证伪问题→最小实验 | `SKILL.md` Step 7-8 + `ach-methodology.md` |
+| `yt-research-mindset` | concept | 调研认知升级：从“原创自信”到“情报驱动” | `SKILL.md` 核心理念 + `research-principles.md` |
+
+### 可选扩展卡片（如 8 张核心卡拆完后仍有余力）
+
+| 卡 ID | 类型 | 标题 | 素材来源 |
+|:---|:---:|:---|:---|
+| `yt-research-source-rating` | concept | 信源分级与事实卡片：五级评分体系 | `SKILL.md` Step 6 + `templates/fact-card.md` |
+| `yt-research-pre-mortem` | tool | Pre-Mortem 反向证据门：在拍板前先找反例 | `SKILL.md` Step 8 + `bias-checklist.md` |
+| `yt-research-market-sizing` | tool | 市场规模估算三角验证法 | `market-sizing.md` |
+| `yt-research-ci-platforms` | tool | 商业情报信息哨兵系统搭建指南 | `ci-platforms.md` |
+| `yt-research-report-style` | tool | 商业调研报告 Style Guide | `style-guide.md` + `report-guide.md` |
+
+### 拆卡原则
+
+1. **不是搬运**：每张卡必须提炼出「一句话讲清楚 + 核心洞察 + 边界/失败模式表 + Action Checklist + ≥2 条互链」。
+2. **source 规范**：每张卡 `source_refs` 必须指向 `10_raw/sources/src_20260620_business-research-skill-v2.1.0/` 下的具体文件，并精确到相关小节/段落。
+3. **避免重复**：8 张核心卡之间应有清晰边界，不要把 OSCAR 全部内容塞进第一张卡。
+4. **confidence 控制**：基于单一 Skill 素材拆出的工具/框架卡，`confidence` 建议 0.75–0.78，`trust_level` 建议 `medium`。
+5. **互链优先**：新卡之间先互链；与已有 yt-research-*、yt-decision-*、yt-entrepreneur-* 卡建立反向链接。
+6. **改一张跑一张 lint**：`python 90_control/scripts/kdo_lint.py 30_wiki/<目录>/<卡名>.md`
+
+### 验收标准
+
+- [ ] 至少完成 8 张核心卡
+- [ ] 每张卡 frontmatter 完整（含 source_person / source_context / source_refs / author / reviewed_by）
+- [ ] 每张卡有边界/失败模式表 + Action Checklist
+- [ ] 每张卡 ≥2 条互链
+- [ ] 全库 lint 无新增 ERROR
+- [ ] 全库质量门禁 P0/P1 无新增
+- [ ] 调研域 index（`30_wiki/index.md` 或等效位置）已更新
 
 ---
 
@@ -150,5 +198,10 @@
 
 ## 完成回执
 
-老顽童完成任务 1 后，请在此文件末尾追加完成小结，并通知欧阳锋审查。
+老顽童每完成一个任务，请在此文件末尾追加完成小结，并通知欧阳锋审查。
+
+### 建议执行顺序
+
+1. **先执行任务 1（Master 域 7 张卡）**：每张卡改动范围小，容易快速验证标准。
+2. **再执行任务 2（调研域拆卡）**：工作量较大，建议先做 3 张核心卡（`yt-research-osl-framework`、`yt-research-intelligence-map`、`yt-research-mindset`）让欧阳锋抽检，通过后再继续。
 
