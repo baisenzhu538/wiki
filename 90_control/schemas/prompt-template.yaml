@@ -41,8 +41,7 @@ properties:
 
   prompt_version:
     type: string
-    description: "提示词的版本号，用于迭代追踪"
-    pattern: "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    description: "提示词的版本号，用于迭代追踪（如 1.0.0）"
 
   trigger_scenario:
     type: string
