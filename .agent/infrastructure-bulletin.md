@@ -12,6 +12,9 @@
 | 新卡冲突检测 | `90_control/scripts/kcard-diff-new-vs-existing.py --new <id>` | 新卡入场自动对比旧卡 |
 | 精修分级器 | `90_control/scripts/kcard-refinement-grader.py --card <id>` | A/B/C/D 四级精修深度评估 |
 | 域摘要卡 | `30_wiki/domains/five-step-domain-digest.md` | 读一张读完一个域 |
+| **知识自攻击** 🆕 | `/kdo-self-attack` 或 `60_feedback/adversarial/` | 四路Agent攻击知识卡片→人只审攻击报告 |
+| **合成用户调研** 🆕 | `/demand-analysis-synthetic` | 多Agent角色扮演+全网验证，替代问卷 |
+| **审查流程升级** 🆕 | 旧：逐卡读→新：先自攻击→再审报告 | 解决 E009/P-35 审查疲劳漏检 |
 
 ## 新增模板
 

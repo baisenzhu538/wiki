@@ -38,6 +38,7 @@
 | **Graph RAG** | KDO CLI | `kdo graph query "<问题>" --json` | 黄药师 / 王语嫣 |
 | **联网搜索** | `kdo-tools/web_search.py` | `python kdo-tools/web_search.py "query" --json` | 王语嫣 / 老顽童 |
 | **域迭代五阶段法** 🆕 | `.claude/skills/domain-iteration/` | `/domain-iteration` → 自动按阶段调用子 Skill | 全员（收到新域任务时调用） |
+| **知识自攻击** 🆕 | `.claude/skills/kdo-self-attack/` | `/kdo-self-attack <card-id>` 四路Agent攻击→人只审报告 | 欧阳锋 / 老顽童 / 黄药师 |
 | **质量门禁** | `90_control/scripts/` | `python 90_control/scripts/kcard-quality-gate.py` | 黄药师 / 王语嫣 |
 | **Lint** | KDO CLI | `kdo lint` 或 `python 90_control/scripts/kdo_lint.py` | 黄药师 |
 | **卡片骨架** | KDO CLI | `kdo scaffold --new --card <id> --type <type>` | 老顽童 |
