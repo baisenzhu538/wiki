@@ -1,9 +1,9 @@
 ---
 id: yitang-research-domain-digest
-title: 域摘要：调研方法论（60张卡）
+title: 域摘要：调研方法论（90+张卡）
 type: index
 status: enriched
-confidence: 0.9
+confidence: 0.95
 trust_level: high
 domain:
   - yitang
@@ -93,6 +93,70 @@ related:
 | 行动前杀死错误想法 | `tool-yitang-research-validate-assumption` |
 | 建立持续跟踪机制 | `tool-yitang-research-continuous-tracking` |
 
+### 🆕 OSINT 工具链（6张）
+
+| 场景 | 用这张卡 |
+|:--|:--|
+| OSINT工具总览 | `tool-osint-overview` |
+| 实体关系图谱——画关联网络 | `tool-osint-maltego` |
+| 一键200+数据源自动化扫描 | `tool-osint-spiderfoot` |
+| 全球联网设备搜索 | `tool-osint-shodan` |
+| 用户名跨300+平台追踪 | `tool-osint-sherlock` |
+| 网站历史快照 | `tool-osint-wayback` |
+
+### 🆕 Agent 原生工具（4张）
+
+| 场景 | 用这张卡 |
+|:--|:--|
+| Agent原生工具总览 | `tool-agent-native-overview` |
+| URL→Markdown 专为LLM | `tool-agent-firecrawl` |
+| 开源AI爬虫 | `tool-agent-crawl4ai` |
+| Agent调用外部工具标准 | `concept-mcp-protocol` |
+
+### 🆕 替代数据与高级搜索（4张）
+
+| 场景 | 用这张卡 |
+|:--|:--|
+| Hedge Fund级替代数据 | `tool-alt-data-overview` |
+| 免费替代数据 | `tool-alt-data-free` |
+| Google Dorking 高级搜索 | `tool-google-dorking` |
+| DNS/SSL情报 | `tool-dns-intelligence` |
+
+### 🆕 媒体验证（3张）
+
+| 场景 | 用这张卡 |
+|:--|:--|
+| 媒体验证总览 | `tool-media-verification-overview` |
+| 反向图片搜索 | `tool-reverse-image-search` |
+| 文件元数据提取 | `tool-metadata-extraction` |
+
+### 🆕 SATs 结构化分析（5张）
+
+| 场景 | 用这张卡 |
+|:--|:--|
+| SATs 总览——CIA八类技术 | `framework-structured-analytic-techniques` |
+| 审计隐藏假设 | `tool-key-assumptions-check` |
+| 攻击自己的结论 | `tool-devils-advocacy` |
+| 模拟竞对最优策略 | `tool-red-team-analysis` |
+| 设置重新评估触发信号 | `tool-indicators-signposts` |
+
+### 🆕 CI 框架（3张）
+
+| 场景 | 用这张卡 |
+|:--|:--|
+| CI运营四阶段循环 | `framework-ci-operating-model` |
+| 从决策倒推信息需求 | `tool-ci-define-phase` |
+| 把洞察嵌入决策 | `tool-ci-implement-phase` |
+
+### 🆕 多智能体架构（4张）
+
+| 场景 | 用这张卡 |
+|:--|:--|
+| 四种模式对比与选择 | `framework-multi-agent-research-architecture` |
+| Supervisor 一主多Worker | `tool-agent-research-supervisor` |
+| Swarm 自发协同 | `tool-agent-research-swarm` |
+| Pipeline OSCAR实现 | `tool-agent-research-pipeline` |
+
 ## 关键案例
 
 | 卡 | 行业 | 核心教训 |
@@ -151,25 +215,25 @@ related:
 
 ## 待产
 
-### 原计划（Wave 2-6）
+### 原计划（Wave 2-6） ✅ 全部完成
 
 | Wave | 数量 | 内容 | 状态 |
 |:--|:--|:--|:--|
-| Wave 2 | 8 张 | 行业场景手段卡 | ⏳ 等洪七公 OCR |
-| Wave 3 | 15 张 | 通用技巧工具卡 | ⏳ 老顽童待产 |
-| Wave 4 | 8 张 | 概念/原则卡 | ⏳ 老顽童待产 |
-| Wave 5 | 15 张 | 暗知识卡 | ⏳ 老顽童待产 |
-| Wave 6 | 20+ 张 | 案例卡 | ⏳ 老顽童待产 |
+| Wave 2 | 8 张 | 行业场景手段卡 | ✅ 已产 |
+| Wave 3 | 15 张 | 通用技巧工具卡 | ✅ 已产 |
+| Wave 4 | 8 张 | 概念/原则卡 | ✅ 已产 |
+| Wave 5 | 15 张 | 暗知识卡 | ✅ 已产 |
+| Wave 6 | 20+ 张 | 案例卡 | ✅ 已产 |
 
-### 🆕 武器库盲区补充（王语嫣诊断 · 欧阳锋批准）
+### 🆕 武器库盲区补充（王语嫣诊断 · 欧阳锋批准） ✅ 全部完成
 
 | Wave | 数量 | 内容 | 状态 |
 |:--|:--|:--|:--|
-| Wave 1 | 6 张 | OSINT 工具链（overview/Maltego/SpiderFoot/Shodan/Sherlock/Wayback） | ⏳ 老顽童待产 |
-| Wave 2 | 4 张 | Agent 原生工具（overview/Firecrawl/Crawl4AI/MCP协议） | ⏳ 老顽童待产 |
-| Wave 3 | 7 张 | 替代数据/Google Dorking/DNS情报/媒体验证/反向搜索/元数据 | ⏳ 老顽童待产 |
-| Wave 4 | 交叉链接 | 武器库 + 18策略 + 四类调研补链 | ⏳ 全部 Wave 完成后 |
-| **Wave 5 🆕** | **12 张** | **CI框架(3) + SATs工具包(5) + 多智能体架构(4)** | ⏳ **王语嫣外部探索·欧阳锋批准** |
+| Wave 1 | 6 张 | OSINT 工具链 | ✅ 已产 |
+| Wave 2 | 4 张 | Agent 原生工具 | ✅ 已产 |
+| Wave 3 | 7 张 | 替代数据/搜索/验证 | ✅ 已产 |
+| Wave 4 | 交叉链接 | 武器库 + 18策略补链 | ✅ 已完成 |
+| **Wave 5** | **12 张** | **CI框架(3) + SATs(5) + 多智能体(4)** | ✅ **已产** |
 
 > Wave 1-4 来源：老顽童独立调研 → 王语嫣诊断 → 欧阳锋裁决
 > Wave 5 来源：王语嫣外部探索——武器库只有 Gather，缺 Define 和 Implement（CI框架）；缺对手视角模拟（SATs）；缺多智能体协作模式
