@@ -1,0 +1,52 @@
+---
+id: concept-harness-cattle-not-pets
+title: 牲口而非宠物：每次迭代用全新Generator实例
+type: concept
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: 2026-06-21
+created_at: 2026-06-21
+confidence: 0.88
+trust_level: high
+language: zh-CN
+domain: [yitang, ai-collaboration]
+source_refs:
+- 10_raw/sources/src_20260621_harness-engineering-wanghuan.md
+related:
+- "[[framework-wanghuan-gan-three-roles]]"
+- "[[framework-wanghuan-harness-seven-stages]]"
+- "[[framework-multi-agent-research-architecture]]"
+---
+
+# 牲口而非宠物
+
+> 传统模式：一个Agent实例持续运行，不断修改自己的代码——久而久之，Agent会对自己的代码产生"情感依附"，舍不得删、不敢大改。牲口模式：每轮迭代起全新Generator实例，从checkpoint重建状态，无历史包袱。
+
+## 对比
+
+| 维度 | 宠物模式（传统） | 牲口模式（Harness） |
+|:---|:---|:---|
+| Agent实例 | 同一个实例持续运行 | 每轮全新实例 |
+| 状态恢复 | 依赖Agent"记忆" | 从checkpoint重建 |
+| 代码依附 | Agent不愿大改自己的代码 | 无包袱，该删就删 |
+| 适用场景 | 简单连续任务 | 质量敏感任务（代码/报告/方案） |
+
+## 为什么有效
+
+1. **消灭"这是我的代码"心态**：新实例没有历史包袱，不会为了保护"自己的作品"而拒绝大幅修改
+2. **状态一致性**：从checkpoint重建确保每轮从确定的基线出发
+3. **与Swarm模式的同构**：调研域的Swarm模式同样受益——每次探索用新Worker实例，避免前一任务的"认知惯性"污染新任务
+
+## 与GAN三角色的关系
+
+GAN三角色（Generator/Executor/Evaluator）中的Generator天然适合牲口模式——每轮重新实例化，旧Generator的输出由Evaluator独立评审，不合格就扔掉。
+
+## 适用边界
+
+- **适用**：代码生成、报告撰写、方案设计等需要多轮迭代的质量敏感任务
+- **不适用**：简单一次性任务、需要长期上下文记忆的对话
+
+---
+
+*卡片类型：concept | 审核状态：待审*

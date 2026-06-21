@@ -25,6 +25,8 @@ related:
 - '[[framework-wanghuan-task-product-system]]'
 - '[[framework-wanghuan-three-tier-dev-architecture]]'
 - '[[framework-wanghuan-say-think-do-toolchain]]'
+- '[[concept-harness-cattle-not-pets]]'
+- '[[tool-harness-adversarial-tester]]'
 tags:
 - 王欢
 - GAN

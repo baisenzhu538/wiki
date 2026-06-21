@@ -42,6 +42,8 @@ metadata:
 | 替代数据 | research-alt-data | "Google Trends/卫星/信用卡" |
 | 验证图片/视频真伪 | research-media-verification | "这张图是真的吗" |
 | 结构化分析 | research-sats | "魔鬼代言人/Red Team" |
+| 建立CI竞争情报系统 | research-ci-framework | "持续监控竞对" |
+| 多Agent协作调研 | research-multi-agent | "复杂任务分工" |
 | 调研质量自检 | research-quality-gate | "够好了吗" (Step7) |
 | 综合调研 | 按顺序调用多个子 Skill | "全面分析XX行业" |
 

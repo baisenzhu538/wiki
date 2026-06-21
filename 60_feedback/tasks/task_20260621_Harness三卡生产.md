@@ -87,7 +87,7 @@ executor: "老顽童"
 
 | # | 操作 | 路径 |
 |:--|:---|:---|
-| 1 | 移入 source 目录 | `00_inbox/Harness Engineering：让 AI 像团队一样写出生产级代码.md` → `10_raw/sources/src_20260621_harness-engineering-wanghuan.md` |
+| 1 | 移入 source 目录 | `00_inbox/Harness Engineering-让 AI 像团队一样写出生产级代码.md`（已就位）→ `10_raw/sources/src_20260621_harness-engineering-wanghuan.md` |
 | 2 | 三张新卡 source_refs 均引用此 source | `src_20260621_harness-engineering-wanghuan.md` |
 
 ---
