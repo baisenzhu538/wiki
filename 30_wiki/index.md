@@ -1321,3 +1321,31 @@ _Last updated: 2026-06-14T19:07:54+00:00_
 - tools/yt-tool-unit-model-construction.md|yt-tool-unit-model-construction — source no source
 - tools/yt-tool-unit-model-dynamic.md|yt-tool-unit-model-dynamic — source no source
 - tools/yt-tool-unit-model-selection.md|yt-tool-unit-model-selection — source no source
+
+# 调研域——2026-06-21 武器库五大盲区补充
+
+## OSINT 工具链
+- tools/tool-osint-overview.md|OSINT工具总览：情报界的调研武器库
+- tools/tool-osint-maltego.md|Maltego：实体关系图谱分析
+- tools/tool-osint-spiderfoot.md|SpiderFoot：自动化OSINT扫描
+- tools/tool-osint-shodan.md|Shodan：全球联网设备搜索引擎
+- tools/tool-osint-sherlock.md|Sherlock：跨300+平台用户名追踪
+- tools/tool-osint-wayback.md|Wayback Machine：网页历史快照
+
+## Agent 原生工具
+- tools/tool-agent-native-overview.md|Agent原生调研工具总览：2025-2026新范式
+- tools/tool-agent-firecrawl.md|Firecrawl：URL→Markdown，专为LLM设计
+- tools/tool-agent-crawl4ai.md|Crawl4AI：开源LLM友好型爬虫
+
+## 替代数据
+- tools/tool-alt-data-overview.md|替代数据总览：Hedge Fund级别的调研武器
+- tools/tool-alt-data-free.md|免费替代数据：Google Trends/Reddit/Glassdoor
+
+## 高级搜索
+- tools/tool-google-dorking.md|Google Dorking：高级搜索语法
+- tools/tool-dns-intelligence.md|域名/DNS/SSL情报技术
+
+## 媒体验证
+- tools/tool-media-verification-overview.md|媒体验证总览：OSINT验证技术
+- tools/tool-reverse-image-search.md|反向图片搜索：验证图片真伪
+- tools/tool-metadata-extraction.md|元数据提取与时间验证
