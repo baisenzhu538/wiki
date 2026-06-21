@@ -28,6 +28,7 @@
 | KF-025 | 三问→四问：新增"④跨域共同模式——每完成两个域做跨域对比" |
 | 知识冲突 SOP | `90_control/contradiction-resolution-sop.md` — 新素材与旧卡冲突的四种处理 |
 | 批量操作 P-30 | 任何批量操作前必须在任务文件声明预期变更范围 |
+| Skill 迭代标准 | `30_wiki/decisions/plan_20260621_skill-iteration-standard.md` — 卡片→Skill 的触发条件、质量标准、审核流程。各域生产者 Wave 末尾评估 |
 | **工具登记四步法** | 新增工具/脚本必须：①放入 `40_outputs/code/scripts/` ②登记到 README.md ③复杂逻辑写 skill ④ skill 之间互引。不登记=不存在 |
 | 精修分级 | 格式精修(30张/批) vs 内容精修(5张/批) — 验收时区分 |
 

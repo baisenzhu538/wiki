@@ -1,0 +1,77 @@
+---
+id: tool-osint-wayback
+title: Wayback Machine：网站时光机——看竞对的每一个历史版本
+type: tool
+status: enriched
+author: 老顽童
+reviewed_by: 欧阳锋
+review_date: 2026-06-21
+created_at: 2026-06-21
+confidence: 0.90
+trust_level: high
+language: zh-CN
+domain: [yitang, research]
+source_refs:
+- web: Internet Archive Wayback Machine (web.archive.org)
+- web: OSINT tools comparison 2026
+related:
+- "[[tool-osint-overview]]"
+- "[[tool-yitang-weapon-public-official-info]]"
+---
+
+# Wayback Machine：网站时光机
+
+> 看竞对官网的每一个历史版本——什么时候改了定位？什么时候删了产品？什么时候换了团队介绍？这些都是公开的战略信号。
+
+## 核心能力
+
+| 看什么 | 能发现什么 |
+|:---|:---|
+| 首页变化 | 定位/口号/Slogan的演变=战略转向 |
+| 产品页面增删 | 新增产品=新业务线；删除产品=砍业务线 |
+| 团队介绍变化 | 高管进/出=组织动荡/战略调整 |
+| 价格页面变化 | 调价时间点=竞争压力/成本变化 |
+| 客户案例变化 | 新增案例=新行业拓展；删除案例=客户流失 |
+
+## Agent执行指令
+
+```bash
+# Wayback Machine API (免费，无需key)
+curl "https://archive.org/wayback/available?url=target.com"
+# 返回最近的快照时间戳
+
+# 获取历史快照列表
+curl "http://web.archive.org/cdx/search/cdx?url=target.com&output=json&limit=10"
+
+# 查看特定日期的快照
+# https://web.archive.org/web/20240101000000/https://target.com
+
+# 批量比对（Agent脚本化）
+# 拉取12个月的首日快照，逐月比对首页文字变化
+```
+
+## 实战场景
+
+**场景**：追踪竞对过去两年的战略变化
+1. 拉取每季度的首页快照 → 发现去年Q3定位从"AI驱动"改为"企业级"
+2. 查看产品页 → 发现去年Q4删除了3个产品、新增了1个
+3. 查看团队页 → 发现核心高管在删除产品前已离职
+4. 结论：竞对在收缩C端、转向B端——提前6个月就暴露了信号
+
+## 失败模式
+
+| 失败 | 症状 | 修复 |
+|:---|:---|:---|
+| 快照不全 | 某些页面从未被收录 | 小网站收录不完整，不要依赖单一来源 |
+| JS渲染页面 | SPA应用的快照可能是空白 | Wayback Machine不执行JS，SPA网站需其他工具 |
+| 过度解读 | 把页面改版当成战略转向 | 区分"UI重构"和"战略变化"——前者只改样式 |
+
+## 适用边界
+
+- **适用**：有官网的公司、需要追踪历史变化的竞对分析
+- **不适用**：纯App/小程序产品（没有Web端）、SPA应用
+- **成本**：完全免费
+
+---
+
+*卡片类型：tool | 审核状态：待审*

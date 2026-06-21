@@ -1,15 +1,12 @@
 ---
-updated: 2026-06-20
+updated: 2026-06-21
 active_branch: main
-active_task: "欧阳锋独立审查调研专题域素材完成，发现王语嫣诊断覆盖度仅~10%，实际可产73-97张卡"
+active_task: "调研域 82 张卡老顽童已完成；黄药师产出 7 个 research-* Skill 已审核通过；Skill 迭代标准已发布"
 blockers:
-  - "调研专题域生产任务清单已生成，但王语嫣的诊断范围太窄（只覆盖~10%素材）"
-  - "欧阳锋独立审查确认实际素材密度为73-97张卡：一堂课程体系57-72张 + 外部skill包13-21张 + PDF 3-4张"
-  - "最大漏报：降龙十八掌（18策略全体系）、8张行业手段卡、14个DOC实操策略、外部工业化框架全套"
-  - "正在等待用户对4个决策问题的回答：①生产分阶段方案 ②降龙十八掌出卡策略 ③外部skill合并策略 ④PDF AI体系归属"
-  - "之前欧阳锋的审查结论已被撤销（P-7/P-15复现——未独立验证原始素材即批准）"
-  - "九层深挖法来源已确认：40_outputs/capabilities/skills/nine-layer-business-dig/SKILL.md（王语嫣在药柜案例中固化），不是未确认来源；生产任务清单中 framework-yitang-nine-layer-deep-dig 已修正"
-next_session_hint: "等待用户拍板Q1-Q4后再下达修正后的写卡工单给老顽童。Q1: 生产分8阶段方案；Q2: 降龙十八掌出18张独立卡/5张牌组卡/混合；Q3: 外部skill合并到调研域或独立成域；Q4: PDF AI体系归档/补充/开新域"
+  - "老顽童调研域 supplement 卡管线违规待拆除（corr_20260621），按王语嫣 Wave 0→4 拆为 17 张细粒度卡"
+  - "调研域五大盲区已确认（OSINT/Agent原生/替代数据/Google Dorking/媒体验证），12🟢+5🟡已批，17 张新卡待老顽童按 Wave 生产"
+  - "Y 模型决策域（66 张卡）列为下一 Skill 化候选 P0，待黄药师排期"
+next_session_hint: "欧阳锋审核结论：调研域老顽童产出 82 张卡已通过，待审 17 张移至 30_wiki；黄药师 research-* Skill 7 个已审核通过；Skill 迭代标准 plan_20260621_skill-iteration-standard.md 已发布到 30_wiki/decisions/；各域生产者在 Wave 末尾评估 Skill 化条件"
 ---
 
 ## 📢 全厂通知（2026-06-19）

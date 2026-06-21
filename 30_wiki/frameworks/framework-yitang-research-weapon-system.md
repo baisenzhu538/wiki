@@ -40,6 +40,8 @@ related:
 - "[[tool-yitang-social-engineering-research]]"
 - "[[tool-yitang-job-intelligence-research]]"
 - "[[tool-yitang-ai-research-workflow]]"
+- "[[tool-osint-overview]]"
+- "[[framework-yitang-research-weapon-supplement-2026]]"
 ---
 
 # 调研超级武器库：三层八模块十四节点

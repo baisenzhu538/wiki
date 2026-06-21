@@ -31,6 +31,7 @@ source_refs:
 related:
 - "[[framework-yitang-oscar-research]]"
 - "[[framework-yitang-research-weapon-system]]"
+- "[[framework-yitang-research-weapon-supplement-2026]]"
 - "[[framework-yitang-four-research-types]]"
 - "[[yt-research-intelligence-map]]"
 - "[[yt-research-competitor-toolkit]]"

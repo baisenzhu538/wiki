@@ -107,10 +107,11 @@
 | 想看什么 | 去这里 |
 |:--|:--|
 | 角色分工 + 禁止清单 | `90_control/AGENTS.md` |
-| 踩坑全集（30 条） | `.agent/pitfalls.md` |
-| 武器库详情 | `.agent/toolkit.md` |
+| 踩坑全集（35 条） | `.agent/pitfalls.md` |
+| 武器库（本地工具） | `.agent/toolkit.md` |
 | 基建变更公告 | `.agent/infrastructure-bulletin.md` |
 | 工厂铁律 + 失败模式（25 条） | `90_control/kdo-industrialization-manual.md` |
+| **卡片→Skill 迭代标准（新）** | `30_wiki/decisions/plan_20260621_skill-iteration-standard.md` |
 | 共享状态 + 里程碑 | `.agent/context.md` |
 | 架构决策记录 | `.agent/decisions.md` |
 | 运作原则（9 条） | `20_memory/operating-principles.md` |

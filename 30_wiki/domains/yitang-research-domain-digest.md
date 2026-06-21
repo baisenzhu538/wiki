@@ -142,13 +142,16 @@ related:
 | Skill | 用途 | 调用 |
 |:--|:--|:--|
 | **research** | 调研总入口——自动判断类型，路由到子 Skill | `/research <问题>` |
+| **research-osint** 🆕 | OSINT 开源情报工具链——SpiderFoot/Maltego/Shodan/Sherlock/Wayback | `/research-osint` |
 | **research-financial-report** | 财报/招股书深度解读 | `/research-financial-report` |
 | **research-industry-report** | 行业报告调研——Doris 四步法 + 搜索七技 | `/research-industry-report` |
 | **research-web-scraping** | 全网爬虫采集——10 大工具 + 合规红线 | `/research-web-scraping` |
 | **research-cross-validation** | 六层交叉验证 + 多重身份验证 | `/research-cross-validation` |
 | **research-expert-interview** | 专家访谈黄金十步法 | `/research-expert-interview` |
 
-## 待产（Wave 2-6）
+## 待产
+
+### 原计划（Wave 2-6）
 
 | Wave | 数量 | 内容 | 状态 |
 |:--|:--|:--|:--|
@@ -157,6 +160,17 @@ related:
 | Wave 4 | 8 张 | 概念/原则卡 | ⏳ 老顽童待产 |
 | Wave 5 | 15 张 | 暗知识卡 | ⏳ 老顽童待产 |
 | Wave 6 | 20+ 张 | 案例卡 | ⏳ 老顽童待产 |
+
+### 🆕 武器库盲区补充（王语嫣诊断 · 欧阳锋批准）
+
+| Wave | 数量 | 内容 | 状态 |
+|:--|:--|:--|:--|
+| Wave 1 | 6 张 | OSINT 工具链（overview/Maltego/SpiderFoot/Shodan/Sherlock/Wayback） | ⏳ 老顽童待产 |
+| Wave 2 | 4 张 | Agent 原生工具（overview/Firecrawl/Crawl4AI/MCP协议） | ⏳ 老顽童待产 |
+| Wave 3 | 7 张 | 替代数据/Google Dorking/DNS情报/媒体验证/反向搜索/元数据 | ⏳ 老顽童待产 |
+| Wave 4 | 交叉链接 | 武器库 + 18策略 + 四类调研补链 | ⏳ 全部 Wave 完成后 |
+
+> 来源：老顽童独立调研 → 王语嫣诊断 → 欧阳锋裁决（task_20260621_调研武器库盲区补充.md）
 
 ---
 
