@@ -40,6 +40,8 @@ related:
 - "[[tool-yitang-research-competitor-tracking]]"
 - "[[tool-yitang-research-industry-scan]]"
 - "[[tool-yitang-research-company-disassembly]]"
+- "[[tool-key-assumptions-check]]"
+- "[[tool-devils-advocacy]]"
 ---
 
 # 降龙十八掌：18张调研策略卡全景图

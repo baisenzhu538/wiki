@@ -1349,3 +1349,23 @@ _Last updated: 2026-06-14T19:07:54+00:00_
 - tools/tool-media-verification-overview.md|媒体验证总览：OSINT验证技术
 - tools/tool-reverse-image-search.md|反向图片搜索：验证图片真伪
 - tools/tool-metadata-extraction.md|元数据提取与时间验证
+
+# Wave 5——2026-06-21 CI框架+SATs+多智能体
+
+## CI 框架
+- frameworks/framework-ci-operating-model.md|CI运营模型：Define→Gather→Analyze→Implement
+- tools/tool-ci-define-phase.md|CI Define：KITs和KIQs定义
+- tools/tool-ci-implement-phase.md|CI Implement：洞察嵌入决策
+
+## SATs 结构化分析
+- frameworks/framework-structured-analytic-techniques.md|SATs总览：CIA情报分析八类工具箱
+- tools/tool-key-assumptions-check.md|Key Assumptions Check：审计隐藏假设
+- tools/tool-devils-advocacy.md|Devil's Advocacy：攻击自己的结论
+- tools/tool-red-team-analysis.md|Red Team：模拟竞对策略
+- tools/tool-indicators-signposts.md|Indicators：设置重新评估的触发信号
+
+## 多智能体架构
+- frameworks/framework-multi-agent-research-architecture.md|多智能体调研：四种模式对比
+- tools/tool-agent-research-supervisor.md|Supervisor：一主多Worker
+- tools/tool-agent-research-swarm.md|Swarm：多Agent自发协同
+- tools/tool-agent-research-pipeline.md|Pipeline：OSCAR的Agent实现
