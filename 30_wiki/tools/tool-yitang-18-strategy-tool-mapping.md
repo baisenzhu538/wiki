@@ -9,7 +9,7 @@ domain:
   - yitang
 source_refs:
   - 30_wiki/frameworks/framework-yitang-18-strategy-cards.md
-  - 30_wiki/frameworks/yt-research-osl-framework.md
+  - 30_wiki/concepts/yt-research-osl-framework.md
   - 30_wiki/domains/yitang-research-domain-digest.md
   - 00_inbox/调研专题/一堂-系统式调研-口述.txt
 created_at: "2026-06-21"
