@@ -27,6 +27,7 @@ related:
 - '[[framework-wanghuan-say-think-do-toolchain]]'
 - '[[concept-harness-cattle-not-pets]]'
 - '[[tool-harness-adversarial-tester]]'
+- '[[concept-candy-ai-as-collaborator]]'
 tags:
 - 王欢
 - GAN

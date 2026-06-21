@@ -17,6 +17,7 @@ related:
 - "[[framework-wanghuan-gan-three-roles]]"
 - "[[framework-wanghuan-harness-seven-stages]]"
 - "[[framework-multi-agent-research-architecture]]"
+- "[[concept-candy-ai-as-collaborator]]"
 ---
 
 # 牲口而非宠物
