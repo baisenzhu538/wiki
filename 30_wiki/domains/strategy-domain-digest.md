@@ -81,16 +81,31 @@ related:
 | `/strategy-lifecycle` 🆕 | 六阶段模型——不同阶段的战略奥义 |
 | `/strategy-diagnose` 🆕 | 九问题诊断——你的战略卡在哪个问题上？ |
 
-## 待产
+## 已入库（38张 + 16张已有 = 54张）
 
-| Wave | 内容 | 状态 |
-|:--|:--|:--|
-| Wave 1 | 核心框架 3 张 + 索引入口 | ⏳ 老顽童待产 |
-| Wave 2 | 工具卡（九问题/差距分析/鱼骨图） | ⏳ |
-| Wave 3 | 案例卡（8+ 张） | ⏳ |
-| Wave 4 | 暗知识卡 | ⏳ |
-| Wave 5 | 五基本功展开 | ⏳ |
+### Wave 1-5 新入库（老顽童 2026-06-21）
+
+| Wave | 内容 | 数量 | 状态 |
+|:--|:--|:---:|:---|
+| Wave 1 | 核心框架（BRM/六阶段/五基本功） | 3 | ✅ |
+| Wave 2 | 诊断工具（九问题/差距分析/鱼骨图/五看三定/三地平线/帕雷托） | 6 | ✅ |
+| Wave 3 | 案例（9失败+3实操+2起死回生） | 14 | ✅ |
+| Wave 4 | 暗知识（8张） | 8 | ✅ |
+| Wave 5 | 五基本功展开（5张） | 5 | ✅ |
+| 补丁 | 战略框架全景图 + 2024-2026新变量 | 2 | ✅ |
+| **合计** | | **38** | |
+
+### 已有战略相关卡（不重复，仅链接）
+
+`framework-yitang-18-strategy-cards` · `yt-barrier-strategy-overview` · `yt-barrier-offensive-strategy` · `yt-barrier-defensive-strategy` · `yitang-strategy-canvas` · `yt-management-strategy-meeting` · `yt-tool-strategy-workshop` · 等 16 张
+
+### 交叉验证
+
+详见 `60_feedback/diagnosis/diag_20260621_战略域_冉鹏框架_交叉验证.md`
+- 103条知识点全量映射到38张卡
+- 5项修正全部落地
+- Greiner对照/BLM溯源/Gucci波音核验完成
 
 ---
 
-*黄药师 · 2026-06-21 · 战略域建制*
+*黄药师 · 2026-06-21 · 战略域建制 · 老顽童 2026-06-21 全量交付*
