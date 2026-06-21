@@ -31,6 +31,7 @@ metadata:
 | AI主动给选项，用户只需选择 | 引用 `tool-prompt-jtbd-scenario-coach` | 30-60分钟 |
 | 判断需求真伪/大小/紧迫 | `/demand-analysis-evaluate` | 15分钟 |
 | 扫描遗漏维度 | `/demand-analysis-blindspot` | 10分钟 |
+| Agent角色扮演+数据验证 | `/demand-analysis-synthetic` | 2-4小时 |
 
 ## 核心公式
 
