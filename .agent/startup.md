@@ -108,6 +108,7 @@
 |:--|:--|
 | 角色分工 + 禁止清单 | `90_control/AGENTS.md` |
 | 踩坑全集（35 条） | `.agent/pitfalls.md` |
+| 欧阳锋审查方法论（新） | `30_wiki/frameworks/framework-ouyangfeng-review-methodology.md` |
 | 武器库（本地工具） | `.agent/toolkit.md` |
 | 基建变更公告 | `.agent/infrastructure-bulletin.md` |
 | 工厂铁律 + 失败模式（25 条） | `90_control/kdo-industrialization-manual.md` |

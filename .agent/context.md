@@ -1,12 +1,14 @@
 ---
 updated: 2026-06-21
 active_branch: main
-active_task: "调研域 82 张卡老顽童已完成；黄药师产出 7 个 research-* Skill 已审核通过；Skill 迭代标准已发布"
+active_task: "调研域完整建制收工（100+ 张卡 + 7 个 Skill + 工作流 + 质量门 + 映射表）。欧阳锋审查方法论已固化为 framework-ouyangfeng-review-methodology"
 blockers:
-  - "老顽童调研域 supplement 卡管线违规待拆除（corr_20260621），按王语嫣 Wave 0→4 拆为 17 张细粒度卡"
-  - "调研域五大盲区已确认（OSINT/Agent原生/替代数据/Google Dorking/媒体验证），12🟢+5🟡已批，17 张新卡待老顽童按 Wave 生产"
-  - "Y 模型决策域（66 张卡）列为下一 Skill 化候选 P0，待黄药师排期"
-next_session_hint: "欧阳锋审核结论：调研域老顽童产出 82 张卡已通过，待审 17 张移至 30_wiki；黄药师 research-* Skill 7 个已审核通过；Skill 迭代标准 plan_20260621_skill-iteration-standard.md 已发布到 30_wiki/decisions/；各域生产者在 Wave 末尾评估 Skill 化条件"
+  - "老顽童调研域 supplement 卡管线违规已处理（corr_20260621）"
+  - "调研域全部 Wave 0→4 生产完成，30 张新卡已入库"
+  - "王语嫣 Harness Engineering 文档诊断 3🟢+2🟡 已批"
+  - "Y 模型决策域（66 张卡）列为下一 Skill 化候选 P0"
+  - "欧阳锋审查方法论新卡待首次实地使用后更新"
+next_session_hint: "调研域全线完工。欧阳锋审查方法论 framework-ouyangfeng-review-methodology 已注册到 startup.md 导航。下一优先级：Y 模型决策域 Skill 化（黄药师排期）。老顽童待命"
 ---
 
 ## 📢 全厂通知（2026-06-19）
