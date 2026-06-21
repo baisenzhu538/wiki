@@ -23,7 +23,7 @@ related:
 
 # 域摘要：调研方法论
 
-> 60 张卡 · 双源结构 · 🏫 一堂认知框架 + 🏭 工业化执行体系
+> 90+ 张卡 · 双源结构 · 🏫 一堂认知框架 + 🏭 工业化执行体系 + 🔍 OSINT/AI 工具链
 
 ## 核心框架（先读）
 
@@ -50,6 +50,14 @@ related:
 | `framework-yitang-six-layer-cross-validation` | 六层交叉验证：单源→多源信息可信度提升 |
 | `framework-yitang-nine-layer-deep-dig` | 九层深挖法：自我纠错式迭代分析框架 |
 | `framework-doris-industry-report-4step` | 行业报告四步法：7 天建立行业认知 |
+
+### 🔧 整合层——域基础设施（先读）
+
+| 卡 | 类型 | 一句话 |
+|:--|:--|:--|
+| `system-yitang-research-workflow` 🆕 | system | 端到端工作流：接到任务→7步到交付报告 |
+| `framework-yitang-research-quality-gate` 🆕 | framework | 六维门禁：判断调研是否"足够好" |
+| `tool-yitang-18-strategy-tool-mapping` 🆕 | tool | 降龙十八掌→工具/Skill 映射 |
 
 ## 工具索引（按场景查）
 
@@ -237,6 +245,19 @@ related:
 
 > Wave 1-4 来源：老顽童独立调研 → 王语嫣诊断 → 欧阳锋裁决
 > Wave 5 来源：王语嫣外部探索——武器库只有 Gather，缺 Define 和 Implement（CI框架）；缺对手视角模拟（SATs）；缺多智能体协作模式
+
+---
+
+## 域间桥接
+
+调研域不是孤岛。以下相邻域直接依赖调研方法论的输出：
+
+| 目标域 | 桥接点 | 典型场景 |
+|:--|:--|:--|
+| **一堂五步法** `five-step-domain-digest` | 五步法 Step 1（需求）依赖用户调研；Step 3（商业模式）依赖竞对调研 | 做需求分析前，先跑一遍 `tool-yitang-user-interview-5steps` |
+| **单元模型** `yt-unit-model-overview` | 单元模型的 benchmark 数据来自行业报告和财报调研 | 建单元模型前，先用 `tool-yitang-financial-report-intelligence` 拿同行数据 |
+| **精益验证** `yt-lean-validation` | 关键假设检验 = Key Assumptions Check + 九层深挖 | 精益实验设计前，先用 `tool-key-assumptions-check` 审计假设 |
+| **ToB 销售** `yt-b2b-sales` | Red Team 模拟竞对策略 + CI Battlecard | 大单打标前，跑 `tool-red-team-analysis` + `tool-ci-implement-phase` |
 
 ---
 
