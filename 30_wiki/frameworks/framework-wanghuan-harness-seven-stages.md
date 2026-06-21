@@ -37,6 +37,8 @@ related:
 - '[[concept-wanghuan-ai-native-definition]]'
 - '[[concept-wanghuan-power-of-standards]]'
 - '[[framework-wanghuan-bitcoe-prompt-framework]]'
+- '[[concept-harness-cattle-not-pets]]'
+- '[[concept-harness-scoring-anchors]]'
 tags:
 - 王欢
 - Harness
