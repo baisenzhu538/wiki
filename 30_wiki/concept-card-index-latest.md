@@ -1,4 +1,4 @@
-# Concept Card Index — 2026-06-20 18:08 UTC
+# Concept Card Index — 2026-06-21 18:08 UTC
 
 | ID | Title | Type | Domain |
 |---|---|---|---|
@@ -20,13 +20,31 @@
 | business-analysis | Business Analysis | concept | ai-saas |
 | business-validation-models-collaboration | AI 时代的业务验证、商业模式与组织协作：主题综合索引卡 | concept | business-strategy, entrepreneur, ai |
 | concept-ai-native-organization-five-steps | concept ai native organization five steps | concept | ai-native, management |
+| concept-candy-ai-as-collaborator | Candy：AI是协作者而非代写工具 | concept | yitang, content-production, ai-collaboration |
+| concept-ceo-must-do-user-research | CEO必须亲自做用户调研 | concept | yitang, research |
+| concept-harness-cattle-not-pets | 牲口而非宠物：每次迭代用全新Generator实例 | concept | yitang, ai-collaboration |
+| concept-harness-scoring-anchors | 评分锚定：1-5分制+语义锚点+取较低值 | concept | yitang, ai-collaboration |
 | concept-ji-hao-ai-collaboration-methodology | 纪浩 AI 协作方法论：从判断到规模复用的五层体系 | concept | ai-collaboration, yitang |
+| concept-mcp-protocol | MCP协议：Agent调用外部工具的统一标准 | concept | yitang, research, ai-collaboration |
+| concept-research-delegation-in-scaling | 规模化中的调研委派：从"自己做"到"建机制" | concept | yitang, research |
+| concept-research-responsibility-boundary | 调研责任边界：道德、法律与生存的平衡 | concept | yitang, research |
+| concept-strategy-2024-2026-supplement | 2024-2026战略新变量：AI决策/地缘政治/ESG——冉鹏课程未覆盖的盲区 | concept | strategy |
+| concept-strategy-capability-pyramid | 战略能力金字塔：格局→行动→决断→洞察——战略统帅四层素养 | concept | strategy |
+| concept-strategy-evolution-cycle | 新兴业务进化周期：适者生存→绝望之谷→物种爆发→平台期 | concept | strategy |
+| concept-strategy-framework-landscape | 战略框架全景图：冉鹏覆盖了什么、没覆盖什么 | concept | strategy |
+| concept-strategy-market-segmentation-yashili | 细分市场分析逻辑——雅士利/蒙牛案例（© Yashili 2021） | concept | strategy |
 | concept-wanghuan-adversarial-generation | 王欢概念：对抗式生成 | concept | human-ai-collaboration, ai-collaboration, yitang |
 | concept-wanghuan-ai-native-definition | 王欢：AI Native 不是会用工具，而是默认把 AI 纳入流程 | concept | human-ai-collaboration, ai-collaboration, yitang |
 | concept-wanghuan-flywheel-first-loop | 王欢：AI 飞轮第一圈 | concept | human-ai-collaboration, ai-collaboration, yitang |
 | concept-wanghuan-power-of-standards | 王欢：标准的力量——质量乘数 | concept | human-ai-collaboration, ai-collaboration, yitang |
 | concept-wanghuan-tacit-knowledge-examples | 王欢：行业暗规则实例库（招聘/招投标/销售/培训） | concept | human-ai-collaboration, ai-collaboration, yitang |
+| concept-yitang-ai-research-10-assumptions | AI调研十大假设：人机协作的底层原则 | concept | yitang, research, ai-collaboration |
+| concept-yitang-ai-research-human-loop | AI调研中人机协作的判断节点 | concept | yitang, research, ai-collaboration |
+| concept-yitang-facts-first | 事实优先：调研的基本纪律 | concept | yitang, research |
+| concept-yitang-ideal-research-goal | 理想调研目标三原则：敏感·短期·支撑 | concept | yitang, research |
+| concept-yitang-research-aesthetic | 调研审美：判断"什么是好的调研"的能力 | concept | yitang, research |
 | concept-yitang-research-facts-first | 事实优先：区分事实与观点的认知纪律 | concept | yitang, research |
+| concept-yitang-research-mindset | 调研心态：从"找答案"到"拆假设" | concept | yitang, research |
 | concept-yitang-research-objective | 调研目标锁定：从"了解"到"决策"的认知跃迁 | concept | yitang, research |
 | concept-yitang-research-scope | 调研范围缩小：专注·专业·剥离三原则 | concept | yitang, research |
 | concept-半肥猫-ai-learning-toolification-methodology | 半肥猫 AI 学习落地方法论：从听课到造工具的三层递进 | concept | ai-collaboration, yitang, learning |
@@ -674,9 +692,25 @@
 | ai-methodology-tools | AI 方法论与工具栈：主题综合知识卡 | framework | ai, ai-collaboration, learning-methodology |
 | ai-short-drama-ice-fire-dissection-compass | 冰火拆本罗盘：短剧剧本逆向拆解五维模型 | framework | yitang, ai-collaboration, product |
 | concept-minto-pyramid-principle | 金字塔原理：结论先行的结构化沟通框架 | framework | consulting, yitang |
+| framework-candy-transcript-workflow | Candy逐字稿九步法：从素材到可交付内容的生产流程 | framework | yitang, content-production |
+| framework-ci-operating-model | CI运营模型：从信息收集到决策改变的闭环 | framework | yitang, research |
 | framework-course-milestone-model | 课程里程碑模型：一堂做课的七步生产流程 | framework | yitang, education, modeling |
+| framework-demand-iceberg | 需求洞察冰山模型：L1-L6六层深度推演框架 | framework | yitang, five-step-method |
+| framework-demand-opportunity-spectrum | 商业机会预判·终局光谱图 | framework | yitang, five-step-method |
+| framework-demand-usp-model | USP需求洞察模型：Demand = User × Situation × Problem | framework | yitang, five-step-method |
 | framework-doris-industry-report-4step | 行业报告调研四步法：7天快速建立行业认知 | framework | yitang, research |
 | framework-logic-cleanliness-five-levels | 逻辑洁癖五段位：从散点堆到逻辑链的建模审美标准 | framework | yitang, modeling |
+| framework-multi-agent-research-architecture | 多智能体调研架构：四种模式的对比与选择 | framework | yitang, research, ai-collaboration |
+| framework-ouyangfeng-review-methodology | 欧阳锋审查方法论：三阶段架构评审框架 | framework | master, kdo |
+| framework-strategy-basics-01-core | 定式（Core Foundation）：BRM框架为核心，战略肌肉记忆 | framework | strategy |
+| framework-strategy-basics-02-insight | 洞察（Critical Insight）：模型+图表+假设验证，战略视野需登高望远 | framework | strategy |
+| framework-strategy-basics-04-system | 体系（Creation System）：丰田供应链生态+苹果iOS生态 | framework | strategy |
+| framework-strategy-basics-04-system | 体系（Creation System）：生态体系——丰田供应链+苹果iOS | framework | strategy |
+| framework-strategy-brm | 冉鹏版 BRM 框架（源于 IBM BLM 方法论） | framework | strategy |
+| framework-strategy-business-design | 业务设计六要素×三步骤——冉鹏战略规划核心操作框架（源于IBM BLM） | framework | strategy |
+| framework-strategy-five-basics | 冉鹏战略五基本功（5C）：定式/洞察/布局/体系/变革 | framework | strategy |
+| framework-strategy-six-stages | 冉鹏六阶段企业生命周期：不同阶段的核心命题完全不同 | framework | strategy |
+| framework-structured-analytic-techniques | SATs结构化分析技术：CIA情报分析的八类工具箱 | framework | yitang, research |
 | framework-wanghuan-actor-director-mode | 王欢人机协作框架：从演员到导演 | framework | human-ai-collaboration, ai-collaboration, yitang |
 | framework-wanghuan-ai-five-level-ladder | 王欢AI能力五层跃迁模型 | framework | human-ai-collaboration, ai-collaboration, yitang |
 | framework-wanghuan-bitcoe-prompt-framework | 王欢BITCOE提示词框架 | framework | human-ai-collaboration, ai-collaboration, yitang |
@@ -693,8 +727,10 @@
 | framework-yitang-high-level-execution | 高水平执行 AR：获取情报·正确归因 | framework | yitang, research |
 | framework-yitang-high-level-plan | 高水平计划 OSC：锁定目标·缩小范围·罗列清单 | framework | yitang, research |
 | framework-yitang-iterative-recursive-digging | 迭代递归深挖法：从表层到内核的认知穿透 | framework | yitang, research |
+| framework-yitang-nine-layer-deep-dig | 九层深挖法：商业分析的自我纠错式迭代框架 | framework | yitang, research, business-analysis |
 | framework-yitang-oscar-research | OSCAR调研模型：从目标锁定到正确归因的五步法 | framework | yitang, research |
 | framework-yitang-research-radar | 调研雷达图：四象限能力诊断与六种缺失识别 | framework | yitang, research |
+| framework-yitang-research-weapon-supplement-2026 | 调研武器库补充：2025-2026年新武器——OSINT工具+Agent原生+替代数据+验证技术 | framework | yitang, research |
 | framework-yitang-research-weapon-system | 调研超级武器库：三层八模块十四节点 | framework | yitang, research |
 | framework-yitang-six-layer-cross-validation | 六层交叉验证：从单源到多源的信息可信度提升 | framework | yitang, research |
 | modeling-personal-practice-loop | 建模能力个人修炼闭环：刻意练习 × IPO × PDCA | framework | yitang, personal-growth, modeling |
@@ -772,30 +808,145 @@
 | skill-note-keyword-bolding | 关键词加粗三重结构：视觉重心即认知重心的标记法则 | tool | yitang, note-taking |
 | skill-note-layer-constraint | 清单体分层硬约束：2-3层每层≤7点，Truman十年经验的量化标准 | tool | yitang, note-taking |
 | skill-note-one-line-one-point | 一行一点精简法则：砍掉语气词、括号、修饰语，只留主语+关键词+关键动作 | tool | yitang, note-taking |
+| tool-agent-crawl4ai | Crawl4AI：开源AI爬虫——自然语言描述即可提取 | tool | yitang, research, ai-collaboration |
+| tool-agent-firecrawl | Firecrawl：专为LLM设计的Web抓取API | tool | yitang, research, ai-collaboration |
+| tool-agent-native-overview | Agent原生调研工具总览：2025-2026新范式 | tool | yitang, research, ai-collaboration |
+| tool-agent-research-pipeline | Pipeline模式：OSCAR五步法的Agent实现 | tool | yitang, research, ai-collaboration |
+| tool-agent-research-supervisor | Supervisor模式：一个主Agent调度多个Worker | tool | yitang, research, ai-collaboration |
+| tool-agent-research-swarm | Swarm模式：多Agent自发协同与交叉验证 | tool | yitang, research, ai-collaboration |
 | tool-ai-skill-engineering-method | AI Skill 工程化封装法：用指南把 AI 输出锁死在高质量水位 | tool | yitang, ai-collaboration, skill-engineering, modeling, ai |
+| tool-alt-data-free | 免费替代数据：小团队的Hedge Fund武器 | tool | yitang, research |
+| tool-alt-data-overview | 替代数据总览：Hedge Fund级别的调研武器 | tool | yitang, research |
 | tool-binary-quadrant-modeling | 二分法/象限图建模法：用正交维度做分类与取舍 | tool | yitang, product, ai-collaboration |
+| tool-candy-oral-polish | Candy口语化润色：七条原则让文字"读出声来" | tool | yitang, content-production |
+| tool-candy-positioning-canvas | Candy差异化定位画布：回答"这篇东西凭什么存在" | tool | yitang, content-production |
 | tool-canvas-weapon-library-modeling | 画布/武器库建模法：把工具箱变成可快速调用的系统 | tool | yitang, product, ai-collaboration |
 | tool-checklist-cheatsheet-modeling | 清单/小抄建模法：把经验变成可执行的检查点 | tool | yitang, product, ai-collaboration |
+| tool-ci-define-phase | CI Define阶段：KITs和KIQs——从决策倒推信息需求 | tool | yitang, research |
+| tool-ci-implement-phase | CI Implement阶段：把洞察嵌入决策——最后一公里 | tool | yitang, research |
+| tool-demand-agent-auto-verify | Agent L6自动预验证：RAT的竞品数据+趋势快速验证 | tool | yitang, five-step-method, ai-collaboration |
+| tool-demand-agent-case-match | Agent L4案例匹配：以历史摩擦点为起点填充8步地图 | tool | yitang, five-step-method, ai-collaboration |
+| tool-demand-agent-l4-case-match | Agent做L4：案例库自动检索匹配——用历史摩擦点作为推演起点 | tool | yitang |
+| tool-demand-agent-multi-hypothesis | Agent L3多假设并行：5个核心任务同时推演 | tool | yitang, five-step-method, ai-collaboration |
+| tool-demand-agent-signal-substitute | Agent L5信号提取：替代微观体感的非结构化数据分析 | tool | yitang, five-step-method, ai-collaboration |
+| tool-demand-agent-signals | Agent L1-L2信号聚合：替代"凭经验猜用户" | tool | yitang, five-step-method, ai-collaboration |
+| tool-demand-assessment-triangle | 需求评估三角形：普遍性×频次×刚性 | tool | yitang, five-step-method |
+| tool-demand-blindspot-checklist | 2B/2C盲区和机会清单：场景拆解的维度小抄 | tool | yitang, five-step-method |
+| tool-demand-four-forces | 四种力量建模：用户切换决策的博弈机制 | tool | yitang, five-step-method |
+| tool-demand-iceberg-l1-user | L1粗拆用户标签：识别任务执行者的核心角色 | tool | yitang, five-step-method |
+| tool-demand-iceberg-l2-scenario | L2粗拆场景问题：捕捉表层的痛点和需求 | tool | yitang, five-step-method |
+| tool-demand-iceberg-l3-core-job | L3圈定核心任务：方案中立的动词+对象+语境 | tool | yitang, five-step-method |
+| tool-demand-iceberg-l4-job-map | L4任务地图：全流程8步推演+摩擦点识别 | tool | yitang, five-step-method |
+| tool-demand-iceberg-l5-forces | L5隐藏洞察：四种力量+三种任务+微观体感 | tool | yitang, five-step-method |
+| tool-demand-iceberg-l6-hypothesis | L6需求假设：机会卡片+最危险假设(RAT) | tool | yitang, five-step-method |
+| tool-demand-report-template | 需求分析报告模板——TAM/SAM/CR1 + 策略 + 假设 + 元认知提醒 | tool | yitang |
+| tool-devils-advocacy | Devil's Advocacy：主动攻击自己的结论 | tool | yitang, research |
+| tool-dns-intelligence | DNS情报：从域名和网络基础设施反推竞对动态 | tool | yitang, research |
+| tool-doris-industry-report-search-tips | 行业报告搜索七技：三级搜索能力+渠道清单 | tool | yitang, research |
+| tool-doris-industry-report-source-evaluation | 行业报告可信度评估：多信数据，少信观点 | tool | yitang, research |
 | tool-essence-nfactor-modeling | 本质/N要素建模法：提炼不可再约的核心变量 | tool | yitang, product, ai-collaboration |
 | tool-funnel-formula-modeling | 漏斗图/公式建模法：量化流程与关键变量 | tool | yitang, product, ai-collaboration |
+| tool-google-dorking | Google Dorking：高级搜索语法——挖出搜索引擎的隐藏信息 | tool | yitang, research |
+| tool-harness-adversarial-tester | 对抗测试员：成功标准是"找到bug" | tool | yitang, ai-collaboration |
 | tool-iceberg-triangle-modeling | 冰山图/三角图建模法：从表象深挖结构与本质 | tool | yitang, product, ai-collaboration |
+| tool-indicators-signposts | Indicators & Signposts：设置"重新评估"的触发信号 | tool | yitang, research |
 | tool-iterative-recursive-deep-dig | 迭代递归深挖法：用“喷—撞—改”循环把模型推到撞无可撞 | tool | yitang, modeling, ai-collaboration |
+| tool-key-assumptions-check | Key Assumptions Check：审计你信以为真的东西 | tool | yitang, research |
+| tool-media-verification-overview | 媒体验证技术总览：判断"对方说的是不是真的" | tool | yitang, research |
+| tool-metadata-extraction | 元数据提取：从文件中提取隐藏信息 | tool | yitang, research |
+| tool-osint-maltego | Maltego：实体关系图谱——画出目标公司的隐藏网络 | tool | yitang, research |
+| tool-osint-overview | OSINT工具总览：情报界的调研武器库 | tool | yitang, research |
+| tool-osint-sherlock | Sherlock：用户名跨平台追踪——找到一个人的所有社交账号 | tool | yitang, research |
+| tool-osint-shodan | Shodan：互联网设备搜索引擎——发现竞对的技术栈 | tool | yitang, research |
+| tool-osint-spiderfoot | SpiderFoot：一键自动化OSINT扫描 | tool | yitang, research |
+| tool-osint-wayback | Wayback Machine：网站时光机——看竞对的每一个历史版本 | tool | yitang, research |
+| tool-prompt-iceberg-demand-analysis | 冰山图 L1-L6 需求深挖——多层引导提示词模板 | prompt-template | yitang |
+| tool-prompt-jtbd-scenario-coach | JTBD 场景推演教练——六层需求深挖提示词模板 | prompt-template | yitang |
+| tool-prompt-usp-demand-analysis | USP 深度洞察引擎——需求分析提示词模板 | prompt-template | yitang |
+| tool-prompt-usp-quick-scan | USP 快速需求拆解——3分钟单轮提示词模板 | prompt-template | yitang |
 | tool-radar-chart-modeling | 雷达图建模法：多维度评估与筛选 | tool | yitang, product, ai-collaboration |
+| tool-red-team-analysis | Red Team Analysis：模拟竞对的最优策略 | tool | yitang, research |
+| tool-reverse-image-search | 反向图片搜索：追踪图片来源和真实性 | tool | yitang, research |
 | tool-sabc-tier-modeling | SABC分级/段位图建模法：给事物排优先级与成长路径 | tool | yitang, product, ai-collaboration |
 | tool-scenario-selector-modeling | 场景→工具选择器：根据需求快速匹配合适的建模工具 | tool | yitang, product, ai-collaboration |
 | tool-sop-template-modeling | SOP/模板建模法：把关键动作固化成标准工作流 | tool | yitang, product, ai-collaboration |
+| tool-strategy-12-word-test | 12词战略测试：只有份额/收入/ROI/SWOT/OKR/数字化这些≠战略 | tool | strategy |
+| tool-strategy-activity-scope | 活动范围：价值链分析+边界决策——做什么/不做什么 | tool | strategy |
+| tool-strategy-business-summary | 业务设计总结：战略蓝图输出+关键任务卡片 | tool | strategy |
+| tool-strategy-capability-matrix | 核心能力评估矩阵：影响力×急迫性四象限 | tool | strategy |
+| tool-strategy-competition-traps | 竞争分析两大陷阱：假空间（表面有实际没有）+假饱和（表面没实际有） | tool | strategy |
+| tool-strategy-control-points | 战略控制点：护城河的五锚点定位法 | tool | strategy |
+| tool-strategy-customer-selection | 客户选择：六步循环迭代法——场景→行为→情绪→触发器→数据→循环 | tool | strategy |
+| tool-strategy-fishbone | 鱼骨图拆解：按维度拆销售/利润/组织问题找到根因 | tool | strategy |
+| tool-strategy-five-see-three-set | 华为五看三定：看行业/市场/客户/竞争/自己 → 定控制点/目标/路径 | tool | strategy |
+| tool-strategy-four-layers | 战略四层结构：集团→业务单元→职能→执行 | tool | strategy |
+| tool-strategy-four-moves | 战略四招法：小李飞刀/分筋错骨手/葵花点穴手/乾坤大挪移 | tool | strategy |
+| tool-strategy-gap-analysis | 差距分析：战略的起点——业绩差距（内部）+机会差距（外部） | tool | strategy |
+| tool-strategy-map | 战略地图——公司/各BU/业务单元的战略蓝图模板 | tool | strategy |
+| tool-strategy-nine-problems | 九个常见战略问题：方向/目标/定位/路径/共识/组织/能力/资源/机制 | tool | strategy |
+| tool-strategy-pareto | 帕雷托图（80/20法则）：识别库存/客户/品类的关键少数 | tool | strategy |
+| tool-strategy-profit-model-comparison | 盈利模式对比框架——直营/强类直营/弱类直营/代理加盟四象限决策 | tool | strategy |
+| tool-strategy-risk-management | 风险管理：麦肯锡7S七维对齐诊断 | tool | strategy |
+| tool-strategy-sentence-formula | 战略造句公式：聚焦X市场→达到Y竞争优势→选择不做Z→采取连贯活动 | tool | strategy |
+| tool-strategy-three-horizons | 三个地平线：现金流（现在）/增长（1-3年）/种子（3-5年） | tool | strategy |
+| tool-strategy-value-capture | 价值获取：盈利模式八问——从价值主张到怎么赚钱 | tool | strategy |
+| tool-strategy-value-proposition | 价值主张：马斯洛金字塔交叉定位+排序方法 | tool | strategy |
 | tool-wanghuan-ai-business-profile | 王欢AI业务档案5字段工具 | tool | human-ai-collaboration, ai-collaboration, yitang |
 | tool-wanghuan-ai-dual-role-coach | 王欢：AI 双角色教练对练工具 | tool |  |
+| tool-yitang-18-strategy-tool-mapping | 降龙十八掌→工具映射表：每掌对应的执行工具和 Skill | tool | yitang |
+| tool-yitang-ai-assisted-analysis | AI辅助分析：用AI做数据分析和模式识别 | tool | yitang, research |
+| tool-yitang-ai-assisted-organize | AI辅助整理：把访谈录音/会议记录结构化 | tool | yitang, research |
+| tool-yitang-ai-monitoring-alert | AI监控/预警：自动化竞争情报跟踪 | tool | yitang, research |
+| tool-yitang-ai-report-drafting | AI草写报告：用AI生成调研初稿 | tool | yitang, research |
+| tool-yitang-ai-research-workflow | AI辅助调研工作流：七工具四层深度+十大假设 | tool | yitang, research, ai-collaboration |
+| tool-yitang-amazon-bestseller | 亚马逊榜单：海外市场的品类趋势 | tool | yitang, research |
+| tool-yitang-anonymous-product-testing | 匿名产品体验：以真实用户身份盲测竞品 | tool | yitang, research |
+| tool-yitang-anonymous-roundtable | 匿名座谈：以第三方身份组织行业讨论 | tool | yitang, research |
+| tool-yitang-app-store-data | APP数据查询：应用商店排名与下载量估算 | tool | yitang, research |
+| tool-yitang-app-store-review | 应用商店评论分析：功能请求+竞品对比的富矿 | tool | yitang, research |
 | tool-yitang-b2b-gov-research | To B/To G调研手段：浅中深三层10大评估法 | tool | yitang, research |
+| tool-yitang-baidu-index | 百度指数：搜索需求趋势分析 | tool | yitang, research |
+| tool-yitang-behavioral-observation | 行为观察法：不提问，只看用户怎么做 | tool | yitang, research |
+| tool-yitang-bidding-analysis | 招投标分析：从政府采购反推客户和订单 | tool | yitang, research |
+| tool-yitang-bp-analysis | 商业计划书分析：从竞对BP中提取商业模式 | tool | yitang, research |
+| tool-yitang-business-registration-check | 工商查询：社保人数+股权穿透+关联公司 | tool | yitang, research |
+| tool-yitang-channel-agent-interview | 渠道/代理商访谈：渠道端的情报获取 | tool | yitang, research |
+| tool-yitang-comparable-company-selection | 对标公司选择三步法：加法·减法·三原则 | tool | yitang, research |
+| tool-yitang-competitor-financial-analysis | 竞对财税分析：从社保/纳税/财报反推真实规模 | tool | yitang, research |
+| tool-yitang-conference-networking | 行业会议/论坛情报：茶歇时的信息质量最高 | tool | yitang, research |
 | tool-yitang-consulting-business-research | 咨询类业务调研手段：浅中深三层10大评估法 | tool | yitang, research |
 | tool-yitang-consumer-goods-research | 消费品调研手段：浅中深三层10大评估法 | tool | yitang, research |
 | tool-yitang-content-ip-research | 内容IP/MCN调研手段：浅中深三层10大评估法 | tool | yitang, research |
+| tool-yitang-court-record-search | 裁判文书检索：从法律纠纷中挖掘商业情报 | tool | yitang, research |
+| tool-yitang-database-index | 第三方数据库与行业报告来源索引 | tool | yitang, research |
+| tool-yitang-douyin-data | 抖音数据：直播电商和短视频趋势追踪 | tool | yitang, research |
+| tool-yitang-employee-directory | 员工公开名录：从通讯录取组织架构 | tool | yitang, research |
+| tool-yitang-executive-speech-analysis | 高管公开发言分析：从CEO讲话中提取战略信号 | tool | yitang, research |
+| tool-yitang-expert-network-platform | 专家网络付费平台：快速找到对的人 | tool | yitang, research |
+| tool-yitang-fake-complaint-research | 假装客户投诉：以投诉之名获取内部信息 | tool | yitang, research |
 | tool-yitang-field-research | 实地调研/蹲店：蹲店·谈话·数人头三板斧 | tool | yitang, research |
 | tool-yitang-financial-report-intelligence | 财报/招股书情报：用上市公司公开报告做创业预判 | tool | yitang, research |
+| tool-yitang-financing-intelligence | 融资信息分析：从融资事件反推竞对状态 | tool | yitang, research |
+| tool-yitang-forum-data | 论坛/社区数据：知乎豆瓣贴吧的深度讨论 | tool | yitang, research |
+| tool-yitang-gossip-intelligence | 三人八卦：饭局/聚会中的非正式情报 | tool | yitang, research |
+| tool-yitang-government-data-search | 国家数据查询：最权威的宏观数据来源 | tool | yitang, research |
+| tool-yitang-hardware-product-disassembly | 硬件产品拆解调研：BOM成本+工艺分析 | tool | yitang, research |
+| tool-yitang-in-home-experience-research | 上门体验调研：去用户家里看真实使用场景 | tool | yitang, research |
+| tool-yitang-industry-report-search | 行业报告搜索：拓宽关键词+多平台交叉 | tool | yitang, research |
+| tool-yitang-ipo-annual-report-cheat-sheet | 上市公司报告价值Cheat Sheet：创业各阶段该读什么 | tool | yitang, research |
 | tool-yitang-job-intelligence-research | 招聘渠道情报：五层递进挖掘竞对内部信息 | tool | yitang, research |
+| tool-yitang-news-monitoring | 新闻媒体监控：从报道频率和角度追踪竞对 | tool | yitang, research |
+| tool-yitang-online-product-experience | 线上产品完整体验：从注册到售后的全流程 | tool | yitang, research |
 | tool-yitang-organization-research | 组织调研手段：浅中深三层10大评估法 | tool | yitang, research |
 | tool-yitang-overseas-research | 出海调研手段：浅中深三层10大评估法 | tool | yitang, research |
+| tool-yitang-partner-data-analysis | 合作方案数据：从合作方拿到的真实数字 | tool | yitang, research |
+| tool-yitang-patent-analysis | 专利分析：从知识产权反推技术路线 | tool | yitang, research |
+| tool-yitang-pc-web-data | PC/Web端数据：传统互联网的数据来源 | tool | yitang, research |
+| tool-yitang-people-network-database | 人脉库检索：系统化搜索目标公司的员工 | tool | yitang, research |
 | tool-yitang-product-full-experience | 完整体验产品：从用户视角理解产品全貌 | tool | yitang, research |
+| tool-yitang-public-information-research | 官方公开信息渠道：公司自己发布的信息最有价值 | tool | yitang, research |
+| tool-yitang-public-sentiment-research | 舆情/口碑批量收集：好评决定内核，差评决定机会 | tool | yitang, research |
+| tool-yitang-recruit-user-interview | 招募用户访谈：公开招募+激励设计 | tool | yitang, research |
 | tool-yitang-research-best-practice | 最佳实践调研：找到行业标杆，复制成功因素 | tool | yitang, research |
 | tool-yitang-research-company-disassembly | 公司拆解：深度分析竞争对手的六维框架 | tool | yitang, research |
 | tool-yitang-research-competitive-quadrant | 竞争象限：用二维矩阵可视化竞争格局 | tool | yitang, research |
@@ -814,9 +965,40 @@
 | tool-yitang-research-unit-model | 单元模型：找到业务最小单元的经济密码 | tool | yitang, research |
 | tool-yitang-research-validate-assumption | 调研先行验证假设：在行动前杀死错误想法 | tool | yitang, research |
 | tool-yitang-reverse-data-analysis | 逆向数据分析：从公开数据反推商业真相 | tool | yitang, research |
+| tool-yitang-review-analysis | 差评分析：系统化提取竞品缺陷 | tool | yitang, research |
+| tool-yitang-securities-research | 证券研报：券商分析师的行业深度报告 | tool | yitang, research |
+| tool-yitang-security-guard-intel | 保安/门卫情报：非正式但有效的信息源 | tool | yitang, research |
+| tool-yitang-shareholder-analysis | 股东信息穿透：从股权结构看利益格局 | tool | yitang, research |
+| tool-yitang-signup-statistics | 线上签约统计：通过自增ID推算用户/订单量 | tool | yitang, research |
 | tool-yitang-social-engineering-research | 社会工程学调研：身份设计与信息获取的合法边界 | tool | yitang, research |
+| tool-yitang-social-media-interview | 社交媒体采访：在用户活跃的平台做轻量访谈 | tool | yitang, research |
+| tool-yitang-social-media-monitoring | 社交媒体监控：持续追踪竞对的公开动态 | tool | yitang, research |
+| tool-yitang-stock-data | 股票/上市公司数据：从二级市场看一级市场 | tool | yitang, research |
 | tool-yitang-store-franchise-research | 门店加盟调研手段：浅中深三层10大评估法 | tool | yitang, research |
+| tool-yitang-supplier-interview | 供应商访谈：从供应链端获取竞对数据 | tool | yitang, research |
+| tool-yitang-supply-chain-research | 供应链/合作方情报：从合作方口中拿到竞对的水下数据 | tool | yitang, research |
 | tool-yitang-tech-project-research | 科技型项目调研手段：浅中深三层10大评估法 | tool | yitang, research |
+| tool-yitang-trend-data | 趋势数据查询：行业走向的定量判断 | tool | yitang, research |
+| tool-yitang-user-interview-5steps | 用户访谈五步执行法：画像·场景·信任·提问·判断 | tool | yitang, research |
+| tool-yitang-weapon-ai-tools | 武器库策略10：AI工具——七种AI辅助调研方式 | tool | yitang, research |
+| tool-yitang-weapon-anonymous-identity | 武器库策略7：匿名身份访谈——社会工程学的四种方式 | tool | yitang, research |
+| tool-yitang-weapon-field-reconnaissance | 武器库策略14：线下门店侦察——蹲店·数人头·看运营 | tool | yitang, research |
+| tool-yitang-weapon-former-employee-network | 武器库策略6：前员工人脉网络——六度人脉的实战应用 | tool | yitang, research |
+| tool-yitang-weapon-full-product-experience | 武器库策略3：完整体验产品——从购买到使用的全链路 | tool | yitang, research |
+| tool-yitang-weapon-industry-expert | 武器库策略9：行业专家访谈——五步找到对的专家 | tool | yitang, research |
+| tool-yitang-weapon-insider-intelligence | 武器库策略5：内部人情报——员工/离职员工的信息价值 | tool | yitang, research |
+| tool-yitang-weapon-media-search | 武器库策略12：媒体/社区搜索——从业者观点和专业讨论 | tool | yitang, research |
+| tool-yitang-weapon-partner-research | 武器库策略4：合作方调研——上下游的信息金矿 | tool | yitang, research |
+| tool-yitang-weapon-product-reputation | 武器库策略2：收集产品口碑/舆情——批量获取用户声音 | tool | yitang, research |
+| tool-yitang-weapon-product-reverse | 武器库策略13：产品逆向/拆解——从竞品实物反推技术和成本 | tool | yitang, research |
+| tool-yitang-weapon-public-official-info | 武器库策略8：官方公开信息——公司的十大公开信息源 | tool | yitang, research |
+| tool-yitang-weapon-third-party-database | 武器库策略11：第三方数据库——15+核心数据源 | tool | yitang, research |
+| tool-yitang-weapon-user-direct-interview | 武器库策略1：直接访谈用户——四种接触方式 | tool | yitang, research |
+| tool-yitang-web-scraping-research | 全网爬虫调研武器库：AI 时代 10 大工具 + 合规红线 | tool | yitang |
+| tool-yitang-wechat-group-infiltration | 微信群潜伏：加入竞对的用户/加盟商社群 | tool | yitang, research |
+| tool-yitang-wechat-index | 微信指数：公众号内容热度追踪 | tool | yitang, research |
+| tool-yitang-weibo-index | 微博指数：公共话题热度追踪 | tool | yitang, research |
+| tool-yitang-xiaohongshu-data | 小红书数据：种草热度和用户口碑追踪 | tool | yitang, research |
 | yt-barrier-moat-assessment | 护城河评估工具 | tool | yitang, business |
 | yt-business-model-cac-ltv | CAC与LTV的实战计算 | tool | yitang, business |
 | yt-business-model-canvas | 商业模式画布：一堂版 | tool | yitang, business |
@@ -850,10 +1032,30 @@
 | case-ban-fei-mao-conversion-hacker-skill | 案例：一堂转化率黑客课→Skill ——从拿到资料到测试通过的完整历程 | case | ai-collaboration, yitang |
 | case-ban-fei-mao-from-assignment-to-tool | 案例：半肥猫把一堂课程作业变成可复用调研工具 | case | ai-collaboration, yitang |
 | case-ban-fei-mao-skill-ab-test | 案例：Skill A/B 测试——用 Skill vs 不用 Skill 的 12 维度对比 | case | ai-collaboration, yitang |
+| case-candy-problem-os-vpn | 案例：VPN场景——一个低质量提问如何消耗双方关系 | case | yitang, content-production |
 | case-child-drawing-rhyme | 案例：孩子控笔「画画歌」——最小单元的建模实践 | case | yitang, modeling, personal-life |
 | case-coffee-shop-foresight | 案例：咖啡馆创业预判 | case | yitang |
 | case-course-milestone-model | 案例：一堂课程里程碑模型——方法论级建模的六步生产流程 | case | yitang, modeling, education |
+| case-demand-ai-fitness-four-forces | 案例：AI健身四力——四种力量的博弈分析 | case | yitang, five-step-method |
+| case-demand-dialer | 案例：小胖猴拨号器——需求到方案的跳跃 | case | yitang, five-step-method |
+| case-demand-elderly-smart-device | 案例：老年智能设备——USP模型中的用户边界 | case | yitang, five-step-method |
+| case-demand-equestrian-three-tasks | 案例：马术三层任务——功能/情感/社交的完美展演 | case | yitang, five-step-method |
+| case-demand-financial-literacy | 案例：少儿财商教育——刚性误判 | case | yitang, five-step-method |
+| case-demand-indonesia-insurance | 案例：印尼寿险分支——场景错配 | case | yitang, five-step-method |
+| case-demand-milkshake-jtbd | 案例：奶昔JTBD——经典的任务洞察 | case | yitang, five-step-method |
+| case-demand-pharma-bigdata | 案例：大数据私有化在创新药领域的切入——评估三角形实战 | case | yitang, five-step-method |
+| case-demand-restaurant-hiring | 案例：麦家小馆人才选拔——频次高估 | case | yitang, five-step-method |
+| case-demand-rural-5g | 案例：偏远县域5G覆盖——普遍性误判 | case | yitang, five-step-method |
+| case-demand-silver-parenting | 案例：银发育儿——冰山模型的完整应用 | case | yitang, five-step-method |
+| case-demand-tier4-housekeeping | 案例：四线家政创业——天花板误判 | case | yitang, five-step-method |
+| case-demand-travel-agent | 案例：旅行攻略Agent——隐性需求被忽略 | case | yitang, five-step-method |
 | case-dental-clinic-formula | ToC 连锁口腔诊所：成交率 30% 背后的"危机感知"公式 | case | yitang, healthcare, business-strategy |
+| case-doris-2014-music-streaming-prediction | 案例：2014年预判音乐流媒体趋势 | case | yitang, research |
+| case-doris-beauty-ecommerce-channel | 案例：美妆行业渠道效率发现 | case | yitang, research |
+| case-doris-catering-chain-benchmark | 案例：餐饮连锁对标调研 | case | yitang, research |
+| case-doris-crossborder-ecommerce-opportunity | 案例：跨境电商机会识别——从报告到行动 | case | yitang, research |
+| case-doris-grab-industry-cognition | 案例：Doris 7天从零建立行业认知 | case | yitang, research |
+| case-doris-outbound-travel-community | 案例：出境游产业链拆解 | case | yitang, research |
 | case-escort-service-tiered-growth | 案例：陪诊业务七级演进 | case | yitang |
 | case-essence-education-strategy | 案例：教育本质与战略本质的提炼 | case | yitang, modeling, strategy |
 | case-essence-entrepreneurship | 案例：创业本质 = 小概率游戏 | case | yitang, entrepreneurship, modeling |
@@ -864,12 +1066,42 @@
 | case-ji-hao-ai-workspace-chaos | 案例：AI工作空间混乱导致'行为退化'而重来 | case | ai-collaboration, yitang |
 | case-ji-hao-skills-market | 案例：一堂内部 Skills 分发平台——从微信传 zip 到 Agent 自助 | case | agent-infrastructure, yitang |
 | case-ji-hao-ui-design-constraint-evolution | 案例：纪浩从'求你了'到1100行约束文档的UI设计迭代 | case | ai-collaboration, yitang |
+| case-liutao-douyin-team-leader-9m | 案例：刘涛——从信息碎片拼出抖音团长赛道真相 | case | yitang, research |
+| case-liutao-electric-bike-localization | 案例：电动车出海本地化——从0调研目标市场 | case | yitang, research |
 | case-modeling-essence-levels | 本质建模案例：从盲目创新到学科经典的五层思维深度 | case | yitang, master, modeling |
 | case-modeling-process-livestream-prep | 流程建模案例：Truman 直播开播前 2 小时个人准备清单 | case | yitang, master, modeling |
+| case-neworiental-prospectus-marketing | 案例：新东方招股书——营销渠道全览 | case | yitang, research |
 | case-nine-pm-livestream-survey | 案例：一堂直播时间为什么是 21:00——三次用户调研的多数人选 | case | yitang, modeling, user-research |
 | case-offline-catering-formula | 线下连锁餐饮：同店增长 30% 的盲区在会员复购与场景绑定 | case | yitang, business-strategy |
+| case-popmart-prospectus-pricing | 案例：泡泡玛特招股书——IP产品毛利率60-70% | case | yitang, research |
 | case-private-domain-ecommerce-formula | 私域电商 10W 人社群：从"拉人发广告"到"信任 × 用户升级路径" | case | yitang, e-commerce, business-strategy |
+| case-proya-betaine-skincare-benchmark | 案例：贝泰妮招股书——敏感肌市场的完整画像 | case | yitang, research |
 | case-saas-renewal-formula | ToB 企业培训 SaaS：续费率 50%→80% 不是靠催费，而是让客户"用起来" | case | yitang, ai-saas, business-strategy |
+| case-strategy-cool-boiled-water | 凉白开：细分垄断——从高考生切入，两年30亿 | case | strategy |
+| case-strategy-edward-jones | 爱德华琼斯：每个小镇只招一人——0办公位的券商模式 | case | strategy |
+| case-strategy-failure-01-cosmetics | 案例：长尾品类化妆品——方向错误。天花板低+营销浪费 | case | strategy |
+| case-strategy-failure-02-supermarket | 案例：精品超市O——目标错误。高速增长期追求盈利反噬增长 | case | strategy |
+| case-strategy-failure-03-cleaning | 案例：清洁用品L——定位错误。盲目高端丢低端市场 | case | strategy |
+| case-strategy-failure-04-appliance | 案例：家电公司G——路径错误。重渠道轻研发导致非核心品类失败 | case | strategy |
+| case-strategy-failure-05-it | 案例：IT公司H——共识不足。高层反复横跳致市值下降 | case | strategy |
+| case-strategy-failure-06-phone-n | 案例：手机公司N——组织僵化。组织不适致迭代缓慢 | case | strategy |
+| case-strategy-failure-07-phone-l | 案例：国产手机L——能力缺失。无软件生态致收购失败 | case | strategy |
+| case-strategy-failure-08-video | 案例：视频平台B——资源短缺。版权库太弱致转型失败 | case | strategy |
+| case-strategy-failure-09-boeing | 案例：飞机制造公司——机制背离。激励偏财务致安全事故 | case | strategy |
+| case-strategy-fangte-disney | 方特vs迪士尼：集团战略的范围经济——有IP也打不过 | case | strategy |
+| case-strategy-lekai-film | 乐凯胶卷：乾坤大挪移——胶卷→光学薄膜→新赛道存活 | case | strategy |
+| case-strategy-li-ka-shing | 李嘉诚分筋错骨手：每次经济下行周期逆势并购→等涨 | case | strategy |
+| case-strategy-longzhong-plan | 隆中对：中国最著名的战略规划——成功与失败四因 | case | strategy |
+| case-strategy-practice-10-turnaround | 案例：尾部企业扭亏——7个月转连续7年亏损，2年30亿→50亿 | case | strategy |
+| case-strategy-practice-11-third-place | 案例：行业老三翻盘——2个月减亏7000万，10个月电商超竞品 | case | strategy |
+| case-strategy-practice-12-zero-loss | 案例：央企新店零亏损——2015年后无亏店，大店年均盈利300万 | case | strategy |
+| case-strategy-practice-ranpeng-crossborder | 冉鹏失败案例：美区TikTok跨境电商——3个月一单没卖 | case | strategy |
+| case-strategy-practice-ranpeng-milk-powder | 冉鹏操盘：一米八八儿童奶粉——从零到20亿的细分垄断 | case | strategy |
+| case-strategy-revival-13-bestore | 案例：良品铺子——涨价暴跌→换代言+新媒体+品类拓展+区域扩张 | case | strategy |
+| case-strategy-revival-14-gucci | 案例：Gucci起死回生——砍折扣+收渠道+换创意+聚焦千禧一代 | case | strategy |
+| case-strategy-shell-oil | 壳牌石油：价值链突变→市场规模预测→从生产转服务 | case | strategy |
+| case-strategy-wuxi-suntech | 无锡尚德：全球光伏第一→熬不过绝望之谷→被外资阴了 | case | strategy |
+| case-strategy-xiaobear | 小熊电器：跳出行业范式——定位年轻单身男性 | case | strategy |
 | case-thousand-people-square | 案例：一堂'千人广场模型'——用统计建模心态做课 | case | yitang, modeling, education |
 | case-toy-cabinet-barrier | 案例：线下玩具柜的壁垒困局与突围路径 | case | yitang |
 | case-toy-cabinet-business-model | 案例：线下玩具柜商业模式 | case | yitang |
@@ -878,11 +1110,38 @@
 | case-wanghuan-education-sales-paced | 王欢案例：教育机构用 PACED 还原销冠决策链 | case | human-ai-collaboration, ai-collaboration, yitang |
 | case-wanghuan-shenyang-software-3x-efficiency | 王欢案例：沈阳软件公司三层架构实现3倍效率 | case | human-ai-collaboration, ai-collaboration, yitang |
 | case-wanghuan-yiyu-qingji-medical-notes | 王欢案例：医语轻记用语音录入缩短病历时间 | case | human-ai-collaboration, ai-collaboration, yitang, healthcare |
+| case-xian-franchise-location-decision | 案例：西安加盟选址——系统调研vs拍脑袋 | case | yitang, research |
 | case-yi-tang-ai-gao-kao-zhi-yuan-kernel-mismatch | 案例：AI高考志愿填报产品因内核错位而失敗 | case | yitang, product, ai, education, business-strategy |
+| case-yitang-ai-time-management-coach | 案例：AI辅助调研——时间管理教练产品验证 | case | yitang, research, ai-collaboration |
+| case-yitang-beauty-device-overseas-sales | 案例：美容仪出海——用行业报告判断海外市场 | case | yitang, research |
+| case-yitang-competitor-pricing-intelligence | 案例：假装订货套取竞品真实价格 | case | yitang, research |
+| case-yitang-consumer-offline-channel-decision | 案例：消费品线下渠道决策——先访谈再算账 | case | yitang, research |
+| case-yitang-doorstep-nail-service-context | 案例：上门美甲——在用户真实场景中访谈 | case | yitang, research |
+| case-yitang-doorstep-pet-feeding-trust | 案例：上门宠物喂养——用调研解决信任障碍 | case | yitang, research |
+| case-yitang-elderly-home-roleplay | 案例：假扮家属潜入养老院微信群 | case | yitang, research |
+| case-yitang-fake-interview-intelligence | 案例：假扮面试发现行业红利退潮 | case | yitang, research |
+| case-yitang-hardware-factory-photo | 案例：从朋友圈照片找到代工厂 | case | yitang, research |
+| case-yitang-homestay-reception-design | 案例：民宿接待方案——用调研优化服务体验设计 | case | yitang, research |
+| case-yitang-jtbd-story-formula | 案例：JTBD故事公式——从用户故事中提取需求 | case | yitang, research |
+| case-yitang-luckin-field-research | 案例：瑞幸做空——实地调研的教科书 | case | yitang, research |
+| case-yitang-mahjong-machine-fake-order | 案例：假装订货套取麻将机竞品数据 | case | yitang, research |
+| case-yitang-mvp-reward-interview-waste | 案例：MVP阶段花钱做用户访谈的浪费 | case | yitang, research |
+| case-yitang-pet-fostering-user-research | 案例：宠物寄养——观察现有替代方案 | case | yitang, research |
+| case-yitang-sanjieke-benchmark-failure | 案例：对标三节课做C端，半年后发现对方已转型B端 | case | yitang, research |
+| case-yitang-senior-university-product-design | 案例：老年大学——用假设链逐层验证赛道可行性 | case | yitang, research |
+| case-yitang-ski-project-user-as-expert | 案例：滑雪项目——把用户当专家访谈 | case | yitang, research |
+| case-yitang-supplier-security-guard | 案例：通过保安打听到工厂收购价 | case | yitang, research |
 | case-yitang-tob-artificial-bone | 案例：人工骨医疗器械上市失败复盘 | case | yitang, entrepreneurship, b2b, healthcare |
 | case-yitang-tob-career-planning | 案例：新高考选科与生涯规划项目失败复盘 | case | yitang, entrepreneurship, b2b, education |
 | case-yitang-tob-grinding-machine | 案例：精密磨床自制项目失败复盘 | case | yitang, entrepreneurship, b2b, manufacturing |
 | case-yitang-tob-smart-park | 案例：智慧园区项目复盘 | case | yitang, entrepreneurship, b2b, govtech |
+| case-yitang-track-selection-research | 案例：一堂赛道选择——用调研方法论选创业方向 | case | yitang, research |
+| case-yitang-travel-receipt-analysis | 案例：旅行公司收据分析——从单据反推真实数据 | case | yitang, research |
+| case-yitang-voice-robot-companion-design | 案例：陪伴式语音机器人——声音设计如何调研 | case | yitang, research |
+| case-zhanglan-amusement-park-undercover | 案例：张兰假扮游乐园店长卧底15天 | case | yitang, research |
+| case-zhanglei-furniture-overseas-market-selection | 案例：张磊——洗衣液蹲超市+假扮促销员 | case | yitang, research |
+| case-zhanglei-nursing-home-family | 案例：假扮孙子调研养老院真实状况 | case | yitang, research |
+| case-zhanglei-twist-egg-machine-yogurt-nursing | 案例：张磊——扭蛋机+酸奶+养老院，调研先行的连续创业 | case | yitang, research |
 | case-zhangyang-anchor-sop-three-locks | 案例：张扬主播 SOP 三层锁——把执行率从 50% 拉到近 100% | case | yitang, modeling, execution |
 | case-zhihu-vs-degetao-network-effect | 案例：知乎vs得到——网络效应壁垒的对比分析 | case | yitang |
 | case-一堂-陈贤敏汉堡-hypothesis-validation | 案例：陈贤敏中式汉堡先开实验店验证关键假设 | case | yitang, business-strategy |
@@ -907,6 +1166,18 @@
 | dk-c2-dual-status-machine | C-2：Schema status 字段混用两个状态机→字段值互相污染 | dark-knowledge | master |
 | dk-c3-txt-ingest-skip | C-3：.txt 文件被 kdo ingest 静默跳过→state.json 无变化但返回成功 | dark-knowledge | master |
 | dk-decision-value-overrides-roi | Y 模型失效场景：当价值观权重超过经济理性时，广义 ROI 公式不再适用 | dark-knowledge | yitang, master, decision-making |
+| dk-demand-feature-stacking | 功能堆叠陷阱：加功能≠满足需求 | dark_knowledge | yitang, five-step-method |
+| dk-demand-hidden-need | 隐性需求伪装：用户说的≠用户要的 | dark_knowledge | yitang, five-step-method |
+| dk-demand-misjudgment-rate | 30-50%创业失败源于需求误判 | dark_knowledge | yitang, five-step-method |
+| dk-demand-pitfall-dialer | 踩坑：小胖猴拨号器——需求→方案跳跃。跳过L3直接到L6 | dark_knowledge | yitang, five-step-method |
+| dk-demand-pitfall-financial-literacy | 踩坑：少儿财商——刚性误判。用户说重要≠会付费 | dark_knowledge | yitang, five-step-method |
+| dk-demand-pitfall-indonesia-insurance | 踩坑：印尼寿险——场景错配。Situation变了，需求不存在 | dark_knowledge | yitang, five-step-method |
+| dk-demand-pitfall-restaurant-hiring | 踩坑：麦家小馆——频次高估。需求强烈≠高频 | dark_knowledge | yitang, five-step-method |
+| dk-demand-pitfall-rural-5g | 踩坑：偏远县域5G——普遍性误判。政策推动≠市场存在 | dark_knowledge | yitang, five-step-method |
+| dk-demand-pitfall-tier4-housekeeping | 踩坑：四线家政——天花板误判。普遍性高≠能做大 | dark_knowledge | yitang, five-step-method |
+| dk-demand-pitfall-travel-agent | 踩坑：旅行攻略Agent——隐性需求忽略。只做功能不碰情感 | dark_knowledge | yitang, five-step-method |
+| dk-demand-premature-solution | 过早进入解决方案空间——冰山模型的根本价值 | dark_knowledge | yitang, five-step-method |
+| dk-demand-switching-cost | 新体验-旧体验-切换成本=产品价值 | dark_knowledge | yitang, five-step-method |
 | dk-ef-001-sn74lvc2g07-open-drain | 开漏输出的陷阱：上拉电阻太大导致信号边沿变缓 | dark-knowledge | entrepreneurship, ai-saas |
 | dk-ef-002-bom-version-async | BOM 多版本不同步：你手里的文件和产线手里的不是同一份 | dark-knowledge | needs-review |
 | dk-ef-003-hand-soldering-bom-divergence | 手焊板的隐性修改：原型调通了但量产就是不行 | dark-knowledge | product |
@@ -961,6 +1232,18 @@
 | dk-pseudo-demand-trap | 暗知：伪需求陷阱——为什么排除了所有风险的方向，仍然可能一败涂地 | dk | yitang, business-strategy |
 | dk-signal-cluster-illusion | 暗知：信号簇幻觉——为什么12个AI变化信号同时亮起时，你反而应该更警惕 | dk | yitang, ai |
 | dk-skill-market-agent-self-install | 暗知识：Skills Market 不是给人看的说明书，而是给 Agent 自安装的自描述 | dark-knowledge | ai-collaboration, yitang |
+| dk-strategy-01-not-goal-setting | 战略≠定目标。"三年100亿"不是战略，从现状到100亿的路径才是 | dark-knowledge | strategy |
+| dk-strategy-02-three-paradoxes | 战略三悖论：80%培训讲执行 / 90%公司无战略部 / 99%项目有断层 | dark-knowledge | strategy |
+| dk-strategy-03-advantage-temporary | 竞争优势难持久。30年前500强90%已消失——竞争优势≠永久 | dark-knowledge | strategy |
+| dk-strategy-04-consulting-trap | 战略咨询陷阱：告诉已知信息+方案脱离实际+缺逻辑闭环 | dark-knowledge | strategy |
+| dk-strategy-05-positioning-trap | 定位公司陷阱：高端定位→丢低端市场。清洁用品L的教训 | dark-knowledge | strategy |
+| dk-strategy-06-dividend-to-strategy | 过去靠红利，现在靠战略。红利消退≠没有红利——新能源汽车/AI制药/低空经济仍有新红利 | dark-knowledge | strategy |
+| dk-strategy-07-strategy-vs-dividend | 战略驱动 vs 红利驱动：前者创造路径，后者依赖环境 | dark-knowledge | strategy |
+| dk-strategy-08-not-local-optimum | 战略≠局部优化。战略是构建完整生态系统，不是单点提效 | dark-knowledge | strategy |
+| dk-strategy-consulting-jokes | 战略咨询两个笑话：属羊+勺子——告诉已知/脱离实际/无闭环 | dark-knowledge | strategy |
+| dk-strategy-essence-four-elements | 战略内核四要素：细分市场+竞争优势+资源配置+范围经济 | dark-knowledge | strategy |
+| dk-strategy-longzhong-four-failures | 隆中对失败四因：资源/联盟/执行/环境——诸葛亮都栽了 | dark-knowledge | strategy |
+| dk-strategy-three-must-do-moments | 三种必做战略的时刻：快速扩张/业务平台期/行业下行期 | dark-knowledge | strategy |
 | dk-tool-as-answer-trap | 把工具/框架当成答案，而不是提问的脚手架 | dark-knowledge | yitang, lean-startup, tob, modeling |
 | dk-tool-as-phased-validator | 把 AI/工具当成分阶段校验器，而不是一次性生成器 | dark-knowledge | yitang, ai-collaboration, product, modeling |
 | dk-truman-document-is-real-project-is-fake | 文档是真的，项目是假的——面向过去建模型，面向未来解决问题 | dark-knowledge | yitang, personal-growth |
