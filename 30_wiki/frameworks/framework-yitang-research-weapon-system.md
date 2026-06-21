@@ -45,6 +45,9 @@ related:
 - "[[tool-alt-data-overview]]"
 - "[[tool-google-dorking]]"
 - "[[tool-media-verification-overview]]"
+- "[[framework-ci-operating-model]]"
+- "[[framework-structured-analytic-techniques]]"
+- "[[framework-multi-agent-research-architecture]]"
 ---
 
 # 调研超级武器库：三层八模块十四节点
