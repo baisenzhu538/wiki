@@ -36,8 +36,13 @@ metadata:
 | 行业报告/市场研究 | research-industry-report | "药品零售市场规模和趋势" |
 | 需要爬虫采集公开数据 | research-web-scraping | "爬取竞品网站的价格信息" |
 | 专家访谈 | research-expert-interview | "怎么找到并访谈行业专家" |
-| 需要多源交叉验证 | research-cross-validation | "多个数据源互相矛盾怎么办" |
-| OSINT工具链 | research-osint | "用Shodan搜竞对暴露的设备" |
+| 多源交叉验证 | research-cross-validation | "多个数据源互相矛盾怎么办" |
+| OSINT工具链 | research-osint | "用Shodan搜竞对设备" |
+| 高级搜索/域名情报 | research-google-dorking | "site:filetype:WHOIS查竞对" |
+| 替代数据 | research-alt-data | "Google Trends/卫星/信用卡" |
+| 验证图片/视频真伪 | research-media-verification | "这张图是真的吗" |
+| 结构化分析 | research-sats | "魔鬼代言人/Red Team" |
+| 调研质量自检 | research-quality-gate | "够好了吗" (Step7) |
 | 综合调研 | 按顺序调用多个子 Skill | "全面分析XX行业" |
 
 ### Step 1: OSCAR 定目标

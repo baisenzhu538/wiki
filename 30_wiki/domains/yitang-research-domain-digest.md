@@ -213,13 +213,18 @@ related:
 
 | Skill | 用途 | 调用 |
 |:--|:--|:--|
-| **research** | 调研总入口——自动判断类型，路由到子 Skill | `/research <问题>` |
-| **research-osint** 🆕 | OSINT 开源情报工具链——SpiderFoot/Maltego/Shodan/Sherlock/Wayback | `/research-osint` |
+| **research** | 调研总入口——13个子Skill，自动路由 | `/research <问题>` |
 | **research-financial-report** | 财报/招股书深度解读 | `/research-financial-report` |
-| **research-industry-report** | 行业报告调研——Doris 四步法 + 搜索七技 | `/research-industry-report` |
-| **research-web-scraping** | 全网爬虫采集——10 大工具 + 合规红线 | `/research-web-scraping` |
-| **research-cross-validation** | 六层交叉验证 + 多重身份验证 | `/research-cross-validation` |
+| **research-industry-report** | 行业报告调研——Doris 四步法 | `/research-industry-report` |
+| **research-web-scraping** | 全网爬虫——10大工具+合规红线 | `/research-web-scraping` |
+| **research-cross-validation** | 六层交叉验证+多重身份验证 | `/research-cross-validation` |
 | **research-expert-interview** | 专家访谈黄金十步法 | `/research-expert-interview` |
+| **research-osint** | OSINT工具链——SpiderFoot/Maltego/Shodan/Sherlock/Wayback | `/research-osint` |
+| **research-google-dorking** 🆕 | Google Dorking + DNS/SSL域名情报 | `/research-google-dorking` |
+| **research-alt-data** 🆕 | 替代数据——免费到百万级分级推荐 | `/research-alt-data` |
+| **research-media-verification** 🆕 | 媒体验证链——反向搜索→元数据→天气阴影 | `/research-media-verification` |
+| **research-sats** 🆕 | CIA结构化分析——Devil's Advocacy/Red Team | `/research-sats` |
+| **research-quality-gate** 🆕 | 六维门禁——提交前最后一道自检 | `/research-quality-gate` |
 
 ## 待产
 
