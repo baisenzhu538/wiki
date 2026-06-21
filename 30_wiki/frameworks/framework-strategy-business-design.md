@@ -10,7 +10,6 @@ domain:
 source_refs:
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_vlm_desc.md
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_99_vlm_desc.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_{100~132}_vlm_desc.md
   - 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
 created_at: "2026-06-21"
 updated_at: "2026-06-21"

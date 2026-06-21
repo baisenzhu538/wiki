@@ -9,7 +9,7 @@ domain:
   - strategy
 source_refs:
   - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_vlm_desc.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_{101}_{103~105}_vlm_desc.md
+  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_101_vlm_desc.md
 created_at: "2026-06-21"
 updated_at: "2026-06-21"
 author: 老顽童（初版）→ 黄药师（PPT _97 补强 v2）
