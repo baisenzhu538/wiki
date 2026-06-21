@@ -41,7 +41,10 @@ related:
 - "[[tool-yitang-job-intelligence-research]]"
 - "[[tool-yitang-ai-research-workflow]]"
 - "[[tool-osint-overview]]"
-- "[[framework-yitang-research-weapon-supplement-2026]]"
+- "[[tool-agent-native-overview]]"
+- "[[tool-alt-data-overview]]"
+- "[[tool-google-dorking]]"
+- "[[tool-media-verification-overview]]"
 ---
 
 # 调研超级武器库：三层八模块十四节点
