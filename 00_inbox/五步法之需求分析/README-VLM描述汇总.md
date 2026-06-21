@@ -1,0 +1,46 @@
+# 五步法之需求分析 - VLM 描述汇总
+
+模型: `MiniMax-M3`
+
+图片数: 34
+成功: 34
+失败: 0
+
+## 描述清单
+
+| 图片 | 类型 | 标题 | 置信度 | 描述文件 |
+|---|---|---|---|---|
+| 一堂-场景分析-场景代表图-01.png | 未识别 |  | 0.3 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-场景分析-场景代表图-01_vlm_desc.md` |
+| 一堂-场景分析-天花板分析-市场规模估算-4种方法.png | 未识别 |  | 0.3 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-场景分析-天花板分析-市场规模估算-4种方法_vlm_desc.md` |
+| 一堂-需求分析-2B拆用户-盲区和机会清单-图-01.png | 信息图 | 2B拆用户：盲区和机会清单 | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-2B拆用户-盲区和机会清单-图-01_vlm_desc.md` |
+| 一堂-需求分析-2B拆问题-盲区和机会清单-图-01.png | 框架图 | 2B拆问题：盲区和机会清单 | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-2B拆问题-盲区和机会清单-图-01_vlm_desc.md` |
+| 一堂-需求分析-2C拆场景-盲区和机会清单-图-01.png | 信息图 | 2C拆场景：盲区和机会清单 | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-2C拆场景-盲区和机会清单-图-01_vlm_desc.md` |
+| 一堂-需求分析-2C拆用户-盲区和机会清单-01.png | 信息图 | 2C拆用户：盲区和机会清单 | 0.96 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-2C拆用户-盲区和机会清单-01_vlm_desc.md` |
+| 一堂-需求分析-2C拆问题-盲区和机会清单-图-01.png | 框架图 | 2C拆问题：盲区和机会清单 | 0.96 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-2C拆问题-盲区和机会清单-图-01_vlm_desc.md` |
+| 一堂-需求分析-AIparter图示.png | 框架图 | 一堂：业务天花板测算Partner探索 | 0.96 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-AIparter图示_vlm_desc.md` |
+| 一堂-需求分析-三原则-图-01.png | 幻灯片 | 商业要素分析与机会定位小抄 | 0.82 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-三原则-图-01_vlm_desc.md` |
+| 一堂-需求分析-任务洞察冰山图-01.png | 框架图/信息图 | 一堂需求分析·任务洞察冰山图 (Yitang Demand Analysis: The Insight Iceberg Model) | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-01_vlm_desc.md` |
+| 一堂-需求分析-任务洞察冰山图-详细图解.png | 框架图/信息图 | 一堂需求分析·任务洞察冰山图 (Yitang Demand Analysis: The Insight Iceberg Model) | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-任务洞察冰山图-详细图解_vlm_desc.md` |
+| 一堂-需求分析-六层级-图-01.png | 幻灯片 | 用户需求分析层级（L1-L6） | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-六层级-图-01_vlm_desc.md` |
+| 一堂-需求分析-分析深度-01.png | 未识别 |  | 0.3 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-分析深度-01_vlm_desc.md` |
+| 一堂-需求分析-动力三曲线图-01.png | 框架图 | 一堂最佳转化率·动力三曲线 (Yitang Motivation Boosting · Three-Curve Model) | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-动力三曲线图-01_vlm_desc.md` |
+| 一堂-需求分析-商业终局光谱图-图-01.png | 框架图 | 一堂商业机会预判 · 终局光谱图（Yitang Opportunity Foresight Framework: Business Scale Spectrum） | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-商业终局光谱图-图-01_vlm_desc.md` |
+| 一堂-需求分析-四种力量建模-01.png | 教学示意图 | 四种力量 (The Four Forces) | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-四种力量建模-01_vlm_desc.md` |
+| 一堂-需求分析-场景推演-银发育儿-图-01.png | 教学示意图 | 更深一步的需求洞察 | 0.88 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-场景推演-银发育儿-图-01_vlm_desc.md` |
+| 一堂-需求分析-场景推演公司-图-01.png | 幻灯片 | （无明确标题）优化任务示例清单 | 0.92 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-场景推演公司-图-01_vlm_desc.md` |
+| 一堂-需求分析-天花板估算-天花板全景图-01.png | 信息图 | 一堂商业空间估算·天花板全景图 | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-天花板估算-天花板全景图-01_vlm_desc.md` |
+| 一堂-需求分析-天花板分析图-01.png | 未识别 |  | 0.3 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-天花板分析图-01_vlm_desc.md` |
+| 一堂-需求分析-市场天花板-图-01.png | 教学示意图 | 市场分析三大核心概念：TAM、SAM、SOM | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-市场天花板-图-01_vlm_desc.md` |
+| 一堂-需求分析-常见错误-示例图.png | 幻灯片 | 忽视需求环节的用户拆分，先干再说 | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-常见错误-示例图_vlm_desc.md` |
+| 一堂-需求分析-拆-图-01.png | 幻灯片 | 粗拆用户标签与场景问题 | 0.93 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-拆-图-01_vlm_desc.md` |
+| 一堂-需求分析-拆推评算之评-案例01.png | 信息图 | 需求定性对比表 | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-拆推评算之评-案例01_vlm_desc.md` |
+| 一堂-需求分析-拆推评算之评-案例02.png | 框架图 | 商业原型分类框架（基于RFU维度：刚性×频次×普遍性） | 0.92 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-拆推评算之评-案例02_vlm_desc.md` |
+| 一堂-需求分析-案例示例-01.png | 框架图 | 需求与解决方案分析表 | 0.88 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-案例示例-01_vlm_desc.md` |
+| 一堂-需求分析-用户场景问题-图-01.png | 未识别 |  | 0.3 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-用户场景问题-图-01_vlm_desc.md` |
+| 一堂-需求分析-盲区和机会清单-图-01.png | 框架图 | 2B拆场景：盲区和机会清单 | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-盲区和机会清单-图-01_vlm_desc.md` |
+| 一堂-需求分析-银发育儿-01.png | 未识别 |  | 0.3 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-银发育儿-01_vlm_desc.md` |
+| 一堂-需求分析-银发育儿-02.png | 框架图 | 隔代育儿协作流程及痛点分析 | 0.96 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-银发育儿-02_vlm_desc.md` |
+| 一堂-需求分析-银发育儿案例.png | 信息图 | 用户场景与问题分析表 | 0.93 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-银发育儿案例_vlm_desc.md` |
+| 一堂-需求分析-需求洞察USP模型-图-01.png | 框架图 | 一堂需求洞察内在规律 · USP模型 | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-需求洞察USP模型-图-01_vlm_desc.md` |
+| 一堂-需求分析-需求评估三角形-01.png | 教学示意图 | 一堂·需求评估三角形 (Yitang Requirement Assessment Triangle) | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-需求评估三角形-01_vlm_desc.md` |
+| 一堂-需求分析-需求评估三角形.png | 框架图 | 一堂·需求评估三角形 (Yitang Requirement Assessment Triangle) | 0.95 | `/mnt/c/Users/Administrator/Desktop/wiki/00_inbox/五步法之需求分析/一堂-需求分析-需求评估三角形_vlm_desc.md` |
