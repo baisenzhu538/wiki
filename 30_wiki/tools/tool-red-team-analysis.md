@@ -16,6 +16,7 @@ source_refs:
 related:
 - "[[framework-structured-analytic-techniques]]"
 - "[[tool-yitang-research-competitor-tracking]]"
+- "[[tool-harness-adversarial-tester]]"
 ---
 
 # Red Team Analysis
