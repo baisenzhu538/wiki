@@ -56,6 +56,8 @@ def select_framework(problem_type):
         return "VRIO"
     elif problem_type == "新市场创造":
         return "蓝海战略ERRC"
+    elif problem_type == "外部框架补充":
+        return "创新方向框架（凯纳跨界战略咨询）——补充蓝海战略以外的跨界创新视角"
 ```
 
 ---
