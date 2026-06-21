@@ -24,6 +24,9 @@ related:
   - yt-demand-scenario-reconstruction
   - yt-demand-fake-demand-detection
   - yt-five-step-method
+  - "[[tool-demand-iceberg-l3-core-job]]"
+  - "[[tool-demand-iceberg-l4-job-map]]"
+  - "[[tool-demand-iceberg-l5-forces]]"
 diagnostic_signals:
   - signal: "用户说'我想要一个更快的马'"
     framework_lens: JTBD——用户要的不是马，是更快到达目的地的方案

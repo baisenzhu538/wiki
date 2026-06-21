@@ -43,6 +43,11 @@ diagnostic_signals:
   - {'signal': '用户只谈初心概念，不推演使用场景', 'framework_lens': '停留在L1——需求分析需要爬山进阶', 'follow_up_question': '你能描述目标用户典型的一天中，会在什么具体场景使用你的产品吗？'}
 updated_at: 2026-06-13
 author: "老顽童"
+related:
+- "[[framework-demand-iceberg]]"
+- "[[tool-demand-iceberg-l1-user]]"
+- "[[tool-demand-iceberg-l2-scenario]]"
+- "[[tool-demand-assessment-triangle]]"
 ---
 # 需求分析爬山地图
 
