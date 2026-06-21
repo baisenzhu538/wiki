@@ -1,6 +1,6 @@
 ﻿---
 name: demand-analysis-synthetic
-description: 合成用户调研——多Agent角色扮演+全网数据交叉验证，替代传统问卷和焦点小组
+description: 合成用户调研——多Agent角色扮演+案例检索+全网数据交叉验证，替代传统问卷和焦点小组
 version: 1.0.0
 author: 黄药师
 license: MIT
@@ -28,6 +28,8 @@ metadata:
 ```
 Orchestrator (你)
   │
+  ├── Case Retriever: 检索13张需求案例卡 → 提取历史摩擦点作为推演起点
+  │
   ├── Persona Agents (3-5个并行)
   │   ├── Persona A: 扮演「用户画像1」→ 推演典型一天 → 输出痛点和期望
   │   ├── Persona B: 扮演「用户画像2」→ 同上
@@ -40,7 +42,7 @@ Orchestrator (你)
   └── Synthesizer: 合并 → 产出需求假设卡片
 ```
 
-## Pipeline（7 步）
+## Pipeline（8 步）
 
 ### Step 1: 定义推演范围
 
@@ -54,6 +56,31 @@ Orchestrator (你)
 画像B：退休老人（60-75岁，独居或与老伴，腿脚不便，价格敏感）
 画像C：单身白领（25-35岁，加班多，外卖为主，偶尔做饭）
 ```
+
+### Step 1.5: 案例检索（Case Retriever）🆕
+
+**在 Persona 推演之前，先从已有案例库中找最相似的案例——用历史摩擦点作为推演起点，避免从零开始。**
+
+| 动作 | 操作 |
+|:--|:--|
+| 关键词匹配 | 从业务方向提取关键词（如"生鲜""配送""社区"），检索 `case-demand-*` 案例卡 |
+| 向量相似 | 如果关键词匹配 <3 个结果，用语义相似度扩展搜索 |
+| 提取共性摩擦点 | 从匹配到的案例中提取"用户最痛苦的环节"和"为什么现有方案不work" |
+| 注入推演起点 | 将历史摩擦点作为 Persona Agent 的推演上下文——"已知类似场景下用户在这些环节崩溃，请基于此推演..." |
+
+**案例库检索指令**：
+```python
+# 检索 30_wiki/cases/ 下的需求案例
+keywords = extract_keywords(business_idea)
+matches = search_files(pattern=keywords, path="30_wiki/cases/")
+# 提取每张案例卡的"核心教训"和"摩擦点"
+for case in matches[:5]:
+    friction_points = extract_section(case, "核心教训")
+    persona_context.append(f"类似案例中发现：{friction_points}")
+```
+
+**可用的需求案例卡（13 张）**：
+`case-demand-milkshake-jtbd` / `case-demand-ai-fitness-four-forces` / `case-demand-elderly-smart-device` / `case-demand-equestrian-three-tasks` / `case-demand-financial-literacy` / `case-demand-indonesia-insurance` / `case-demand-pharma-bigdata` / `case-demand-restaurant-hiring` / `case-demand-rural-5g` / `case-demand-silver-parenting` / `case-demand-tier4-housekeeping` / `case-demand-travel-agent` / `case-yitang-jtbd-story-formula`
 
 ### Step 2: 角色扮演推演（Persona Agents 并行）
 
@@ -78,7 +105,7 @@ Orchestrator (你)
 4. 如果换了新方案，我希望感觉到什么？希望别人看到我什么？
 ```
 
-### Step 3: 全网数据交叉验证（Verifier Agent）
+### Step 4: 全网数据交叉验证（Verifier Agent）
 
 **Data Verifier 做的事**：
 
@@ -91,7 +118,7 @@ Orchestrator (你)
 
 **验证输出**：每条 Persona 推演的结论旁标注 🧠（Agent 推演）或 🔍（数据验证）
 
-### Step 4: 对抗检验（Adversary Agent）
+### Step 5: 对抗检验（Adversary Agent）
 
 **Adversary 做的事**（SATs Devil's Advocacy + Red Team）：
 
@@ -103,14 +130,14 @@ Orchestrator (你)
 | 方案不如人 | "为什么竞对没做？如果他们做了呢？" |
 | 用户不会切换 | "现状偏见 ×1.5——用户的习惯和焦虑是不是被低估了？" |
 
-### Step 5: 合并 + 筛选（Synthesizer）
+### Step 6: 合并 + 筛选（Synthesizer）
 
 **Synthesizer 做的事**：
 1. 合并所有 Persona 的共同痛点（≥2 个 Persona 都提到的 → 高信号）
 2. 标注每个痛点的验证状态（🔍已验证 / 🧠待验证 / ⚠️数据矛盾）
 3. 用评估三角形打分（普遍性/频次/刚性）
 
-### Step 6: 产出需求假设卡片（冰山 L6）
+### Step 7: 产出需求假设卡片（冰山 L6）
 
 每张机会卡片：
 ```
@@ -125,7 +152,7 @@ Orchestrator (你)
 评估三角形：普遍性 X/5 | 频次 X/5 | 刚性 X/5
 ```
 
-### Step 7: 质量自检
+### Step 8: 质量自检
 
 | 检查项 | 标准 |
 |:--|:--|
