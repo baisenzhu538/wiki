@@ -45,6 +45,7 @@ properties:
       - query
       - proposal
       - skill
+      - prompt-template
     description: >
       concept: abstract idea or knowledge card
       framework: multi-card methodology or knowledge map

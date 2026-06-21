@@ -1,0 +1,121 @@
+# Prompt Template Card JSON Schema
+# KDO 新卡片类型——可复用、可迭代的 AI 提示词模板
+# File: 90_control/schemas/prompt-template.yaml
+# Created: 2026-06-21 黄药师
+
+$id: "kdo://schemas/prompt-template"
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "KDO Prompt Template Card"
+description: >
+  可复用的 AI 提示词模板。不只包含完整提示词文本，
+  还包含设计原理——让其他 Agent 能学会"怎么写"而不只是"复制"。
+
+type: object
+required:
+  - title
+  - type
+  - created_at
+  - updated_at
+
+properties:
+  type:
+    type: string
+    const: prompt-template
+
+  status:
+    type: string
+    enum:
+      - draft
+      - enriched
+      - reviewed
+      - stable
+      - deprecated
+
+  prompt_role:
+    type: string
+    description: "提示词的角色定义（如：你是一位拥有上帝视角的顶级商业洞察大师）"
+
+  prompt_methodology:
+    type: string
+    description: "提示词使用的核心方法论（如：USP模型 + 五层深度分析 + 五步法画布）"
+
+  prompt_version:
+    type: string
+    description: "提示词的版本号，用于迭代追踪"
+    pattern: "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+
+  trigger_scenario:
+    type: string
+    description: "什么场景下使用这个提示词（如：用户提出模糊的商业方向时需要做系统性需求分析）"
+
+  full_prompt:
+    type: string
+    description: "完整的提示词文本，可直接复制使用。包含占位符（如[你的业务名称]）"
+
+  customization_guide:
+    type: string
+    description: "定制方法：替换什么、保留什么、为什么。让使用者知道怎么改成自己的版本"
+
+  design_principles:
+    type: string
+    description: "设计原理：这个提示词为什么有效——Role→内核→字典→引擎→产出的方法论层解释"
+
+  known_limitations:
+    type: string
+    description: "已知局限：什么情况下不适用、什么输入会让输出变差"
+
+  iteration_history:
+    type: array
+    items:
+      type: object
+      properties:
+        version:
+          type: string
+        date:
+          type: string
+        changes:
+          type: string
+    description: "版本迭代记录"
+
+  related:
+    type: array
+    items:
+      type: string
+      pattern: "^\\[\\[.+\\]\\]$"
+
+  domain:
+    type: array
+    items:
+      type: string
+
+  source_refs:
+    type: array
+    items:
+      type: string
+
+  created_at:
+    type: string
+
+  updated_at:
+    type: string
+    pattern: "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+
+  author:
+    type: string
+
+  reviewed_by:
+    type: string
+
+  confidence:
+    type: number
+    minimum: 0
+    maximum: 1
+
+  trust_level:
+    type: string
+    enum:
+      - high
+      - medium
+      - low
+
+additionalProperties: false

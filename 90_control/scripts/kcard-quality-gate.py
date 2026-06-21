@@ -22,7 +22,7 @@ REPORT_DIR = Path("C:/Users/Administrator/Desktop/wiki/60_feedback/audit")
 VALID_TYPES = {
     "concept", "skill", "case", "framework", "dark-knowledge", "tool",
     "decision", "proposal", "improvement-plan", "entity", "analysis",
-    "system", "requirement", "report", "index", "dk"
+    "system", "requirement", "report", "index", "dk", "prompt-template"
 }
 
 VALID_STATUSES = {"draft", "enriched", "reviewed", "stable", "proposed", "needs-review", "deprecated", "superseded", "active", "redirect", "pending", "revised"}
