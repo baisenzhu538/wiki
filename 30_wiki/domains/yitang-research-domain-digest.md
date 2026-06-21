@@ -137,6 +137,17 @@ related:
 | `dk-research-multi-identity-validation` | ⏳ 待建：多重身份验证（欧阳锋建议） |
 | `dk-research-failure-premium` | ⏳ 待建：失败者溢价——关店比开店更值得调研（欧阳锋建议） |
 
+## 可调用 Skill（Agent 入口）🆕
+
+| Skill | 用途 | 调用 |
+|:--|:--|:--|
+| **research** | 调研总入口——自动判断类型，路由到子 Skill | `/research <问题>` |
+| **research-financial-report** | 财报/招股书深度解读 | `/research-financial-report` |
+| **research-industry-report** | 行业报告调研——Doris 四步法 + 搜索七技 | `/research-industry-report` |
+| **research-web-scraping** | 全网爬虫采集——10 大工具 + 合规红线 | `/research-web-scraping` |
+| **research-cross-validation** | 六层交叉验证 + 多重身份验证 | `/research-cross-validation` |
+| **research-expert-interview** | 专家访谈黄金十步法 | `/research-expert-interview` |
+
 ## 待产（Wave 2-6）
 
 | Wave | 数量 | 内容 | 状态 |

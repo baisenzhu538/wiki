@@ -2,7 +2,7 @@
 id: framework-yitang-research-weapon-supplement-2026
 title: 调研武器库补充：2025-2026年新武器——OSINT工具+Agent原生+替代数据+验证技术
 type: framework
-status: enriched
+status: draft
 author: 老顽童
 reviewed_by: 待审
 review_date: 2026-06-21
