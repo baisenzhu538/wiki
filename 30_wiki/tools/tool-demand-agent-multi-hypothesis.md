@@ -31,6 +31,8 @@ related:
 
 ## Agent执行指令
 
+**具体工具引用**：`tool-agent-research-swarm`（Swarm模式推演）、`tool-demand-iceberg-l3-core-job`（核心任务定义模板）
+
 ```python
 hypotheses = agent.generate_hypotheses(user_segment, scenario, n=5)
 swarm = SwarmOrchestrator()

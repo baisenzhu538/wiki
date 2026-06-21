@@ -39,6 +39,8 @@ related:
 
 ## Agent执行指令
 
+**具体工具引用**：`research-web-scraping`（Firecrawl抓取竞品评论）、`research-osint`（Wayback Machine查历史版本）
+
 ```python
 # Agent自动聚合用户信号
 signals = agent.search_across([

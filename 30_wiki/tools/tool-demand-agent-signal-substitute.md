@@ -30,6 +30,8 @@ related:
 
 ## Agent执行指令
 
+**具体工具引用**：`research-web-scraping`（批量抓取竞品用户评价）、Firecrawl API（`/v1/scrape` 提取结构化文本）、`research-cross-validation`（标注结果抽样验证）
+
 ```python
 reviews = agent.collect_reviews(competitor="X", n=500)
 analysis = agent.analyze_forces(reviews)

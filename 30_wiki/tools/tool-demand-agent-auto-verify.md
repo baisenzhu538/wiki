@@ -29,6 +29,8 @@ related:
 
 ## Agent执行指令
 
+**具体工具引用**：`research-cross-validation`（双重验证RAT）、`research-osint`（Wayback Machine查竞对历史产品变化）
+
 ```python
 for rat in rats:
     evidence = agent.search(f"has anyone tried {rat['hypothesis']}?")

@@ -30,6 +30,8 @@ related:
 
 ## Agent执行指令
 
+**具体工具引用**：`search_files`（检索30_wiki/cases/下相关案例）、`tool-demand-iceberg-l4-job-map`（提取8步地图模板）
+
 ```python
 similar_cases = agent.search_cases(
     job_statement="{CORE_JOB}",

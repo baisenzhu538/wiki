@@ -1,6 +1,6 @@
 ---
 id: five-step-domain-digest
-title: 域摘要：一堂五步法（90+张卡）
+title: 域摘要：一堂五步法（80+张卡）
 type: index
 status: enriched
 confidence: 0.95
@@ -72,6 +72,28 @@ diagnostic_signals:
 | `yt-barrier-analysis-cheat-sheet` | 壁垒分析完整 cheatsheet |
 | `yt-customer-acquisition-toolkit` | 获客工具合集 |
 | `yt-demand-analysis-hiking-map` | 需求分析爬山地图 |
+
+## 需求分析冰山六层（2026-06-21）
+
+| 卡 | 层 | 用途 |
+|:--|:---|:---|
+| `framework-demand-iceberg` | 总纲 | L1-L6冰山模型全览 |
+| `tool-demand-iceberg-l1-user` | L1 | 粗拆用户标签——三维拆解 |
+| `tool-demand-iceberg-l2-scenario` | L2 | 粗拆场景问题——Job Story格式 |
+| `tool-demand-iceberg-l3-core-job` | L3 | 圈定核心任务——方案中立 |
+| `tool-demand-iceberg-l4-job-map` | L4 | 8步任务地图——崩溃感识别 |
+| `tool-demand-iceberg-l5-forces` | L5 | 四种力量+三种任务+微观体感 |
+| `tool-demand-iceberg-l6-hypothesis` | L6 | 机会卡片+RAT+评估三角形 |
+
+## 需求分析 Agent 原生工具（2026-06-21）
+
+| 卡 | 对应层 | 用途 |
+|:--|:---|:---|
+| `tool-demand-agent-signals` | L1+L2 | Agent自动聚合Reddit/评论/搜索信号 |
+| `tool-demand-agent-multi-hypothesis` | L3 | Swarm并行推演5个核心任务假设 |
+| `tool-demand-agent-case-match` | L4 | 案例库自动检索匹配8步地图 |
+| `tool-demand-agent-signal-substitute` | L5 | LLM分析四种力量出现频率和强度 |
+| `tool-demand-agent-auto-verify` | L6 | RAT自动预验证——竞品数据+趋势 |
 
 ## 域间桥接
 
