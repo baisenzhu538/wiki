@@ -1,4 +1,4 @@
----
+﻿---
 id: tool-demand-iceberg-l5-forces
 title: L5隐藏洞察：四种力量+三种任务+微观体感
 type: tool
@@ -6,6 +6,7 @@ status: enriched
 author: 老顽童
 reviewed_by: 欧阳锋
 review_date: 2026-06-21
+updated_at: "2026-06-21"
 created_at: 2026-06-21
 confidence: 0.90
 trust_level: high
