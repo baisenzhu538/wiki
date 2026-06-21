@@ -256,16 +256,44 @@ def main():
         if fm is None:
             stats["yaml_error"] += 1
 
+    # 锚定评分：根据 P0/P1 数量和 source_refs 健康度给出总体评分
+    p0_weight = stats['p0'] / max(stats['total'], 1)
+    p1_weight = stats['p1'] / max(stats['total'], 1)
+    if p0_weight == 0 and p1_weight < 0.02:
+        anchor_score = 5
+    elif p0_weight < 0.01:
+        anchor_score = 4
+    elif p0_weight < 0.05:
+        anchor_score = 3
+    elif p0_weight < 0.15:
+        anchor_score = 2
+    else:
+        anchor_score = 1
+    anchor_labels = {5: "可发布", 4: "可靠", 3: "可用", 2: "草稿", 1: "不可用"}
+
     # 生成报告
     lines = [
         "# KDO 卡片质量门禁报告",
         "",
-        f"**扫描时间**：2026-06-15  ",
+        f"**扫描时间**：2026-06-21  ",
         f"**扫描范围**：30_wiki 全库 {stats['total']} 张卡片  ",
+        f"**锚定评分**：{anchor_score}/5 — {anchor_labels[anchor_score]}",
         f"**P0 阻塞问题卡片**：{stats['p0']} 张  ",
         f"**P1 修复问题卡片**：{stats['p1']} 张  ",
         f"**完全干净卡片**：{stats['clean']} 张  ",
         f"**YAML 解析错误**：{stats['yaml_error']} 张  ",
+        "",
+        "---",
+        "",
+        "## 锚定评分标准（Harness 1-5 + 取较低值）",
+        "",
+        "| 分 | 标签 | 标准 |",
+        "|---|---|---|",
+        "| 5 | 可发布 | P0=0, P1<2%, 零CRITICAL |",
+        "| 4 | 可靠 | P0<1%, source_refs 真实 |",
+        "| 3 | 可用 | P0<5%, 骨架完整 |",
+        "| 2 | 草稿 | 需大量修复 |",
+        "| 1 | 不可用 | P0≥15% 或违反铁律 |",
         "",
         "---",
         "",

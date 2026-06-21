@@ -19,6 +19,7 @@ reviewed_by: 欧阳锋
 related:
   - "[[framework-yitang-oscar-research]]"
   - "[[framework-yitang-six-layer-cross-validation]]"
+- "[[concept-harness-scoring-anchors]]"
   - "[[framework-yitang-nine-layer-deep-dig]]"
   - "[[yitang-research-domain-digest]]"
 diagnostic_signals:

@@ -142,6 +142,12 @@ def validate_file(fp: Path, schemas: dict) -> list:
         errors.append(f"{rel}: frontmatter parse error: {e}")
         return errors
 
+    # 自审检测——"牲口而非宠物"原则（Harness Engineering 落地）
+    author = str(fm.get("author", "")).strip().strip('"')
+    reviewed_by = str(fm.get("reviewed_by", "")).strip().strip('"')
+    if author and reviewed_by and author == reviewed_by and author not in ("黄药师", "欧阳锋"):
+        errors.append(f"{rel}: SELF-REVIEW BLOCKED: author==reviewed_by=={author}. 写审必须分离——产卡Agent不得审查自己的卡片。")
+
     page_type = fm.get("type", "unknown")
     if isinstance(page_type, list):
         page_type = page_type[0] if page_type else "unknown"

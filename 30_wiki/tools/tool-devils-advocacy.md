@@ -16,6 +16,7 @@ source_refs:
 related:
 - "[[framework-structured-analytic-techniques]]"
 - "[[concept-半肥猫-ai-research-validation]]"
+- "[[tool-harness-adversarial-tester]]"
 ---
 
 # Devil's Advocacy
