@@ -139,6 +139,87 @@ Harness 把一次复杂 AI 构建分解为**初始化、规划、技术栈选型
 
 ---
 
+## Sprint 内部循环（实现细节）
+
+每个 Sprint 的内部执行流程：
+
+```
+Generator（Sonnet）→ 生成代码
+    ↓
+冒烟检查：代码能跑吗？不能→PASS回退给Generator
+    ↓
+4 Evaluator 并行评审：
+  ├─ Code Reviewer（Gemini）：逻辑/安全/性能
+  ├─ Adversarial Tester（Codex）：空值/边界/恶意输入攻击
+  ├─ Aesthetic Reviewer：AI烂活检测、视觉一致性
+  └─ FreshCloneTester：从零克隆→安装→运行
+    ↓
+合并评估 → 评分（1-5语义锚点，取较低值）
+    ↓
+零CRITICAL？→ PASS：进入下一阶段
+有CRITICAL？→ FAIL：退回Generator修复
+```
+
+---
+
+## 评分体系锚定规则
+
+| 分数 | 语义锚点 | 动作 |
+|:---:|:---|:---|
+| 5 | 生产就绪，可直接部署 | PASS |
+| 4 | 小问题，修复<5分钟 | PASS |
+| 3 | 中等问题，修复<1小时 | FAIL（退回） |
+| 2 | 严重问题，需重新设计 | FAIL |
+| 1 | 推倒重来 | FAIL |
+
+**取较低值**：两个评审者取较低分，而非平均分。短板决定质量。
+**零CRITICAL门槛**：任何CRITICAL bug → 自动FAIL，不论其他维度得分。
+
+---
+
+## 文件系统新组件
+
+| 文件 | 作用 | 机制 |
+|:---|:---|:---|
+| `events.jsonl` | 时间机器——记录每轮迭代的完整输入输出 | 状态恢复、审计追溯、问题定位 |
+| `lessons.md` | 错误记忆飞轮——记录每个bug和解决方案 | 后续Sprint自动参考历史教训 |
+| `design-taste.md` | 美学参考——定义视觉风格和品质标准 | Planner和Aesthetic Reviewer的锚定 |
+
+---
+
+## 模型分工
+
+| Phase | 主力模型 | 原因 |
+|:---|:---|:---|
+| Phase 0-1（规划+技术选型） | Opus | 最强推理，需要深度思考 |
+| Phase 1.5（Sprint规划） | Opus | 分解任务需要全局视角 |
+| Phase 2-5（生成+评审循环） | Sonnet | 性价比最优，代码生成质量高 |
+| 代码评审 | Gemini | 异构模型交叉，避免"自己审自己" |
+| 对抗测试 | Codex | 擅长攻击性测试 |
+| Phase 6（最终门控） | Opus | 最高标准验收 |
+
+**核心原则**：Generator和执行者用同一模型是合理的（Sonnet），但Evaluator必须用不同模型——"自己审自己的代码"是质量崩溃的根源。
+
+---
+
+## 美学全链路
+
+```
+design-taste.md（定义美学标准）
+    ↓
+Planner 读取 design-taste.md → 美学参考嵌入任务描述
+    ↓
+Generator 生成（受美学约束）
+    ↓
+Adversarial Tester 专门检查"AI烂活"：圆角不对/字体不统一/空白过多
+    ↓
+Polish Sprint：切换评分权重到审美维度（代码逻辑权重降到20%）
+    ↓
+Aesthetic Reviewer 最终审美验收
+```
+
+---
+
 ## Critique
 
 **攻击者 1：成本敏感者**
