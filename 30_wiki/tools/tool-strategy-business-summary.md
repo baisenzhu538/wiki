@@ -9,7 +9,9 @@ trust_level: high
 language: zh-CN
 domain: [strategy]
 source_refs:
-- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110战略破局（冉鹏）(1)_{130~132}_vlm_desc.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_130_vlm_desc.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_131_vlm_desc.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_132_vlm_desc.md
 related:
 - "[[framework-strategy-business-design]]"
 ---

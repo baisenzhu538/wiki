@@ -19,8 +19,9 @@
 ## 零、启动动作（3 步，3 分钟）
 
 1. **确认你是谁** → 读 `.agent/<角色>-context.md`（不知道角色？先读 `90_control/AGENTS.md` 判断）
-2. **读完本文件** → 了解工厂有什么、当前谁在做什么、紧急注意
-3. **领任务** → 读 `70_product/tasks/dashboard.md`，找自己的任务
+2. **🆕 读 Vault 实时状态** → `Read 90_control/vault-status.md`（一页纸：域×类型矩阵 + 最近 48h 变更 + 质量提示。**审查/裁决前必读，避免基于过时信息做判断**）
+3. **读完本文件** → 了解工厂有什么、当前谁在做什么、紧急注意
+4. **领任务** → 读 `70_product/tasks/dashboard.md`，找自己的任务
 
 > ⚠️ **本次会话结束前，必须回答三问（见 CLAUDE.md 末尾）**：
 > ① 今天产生了什么新资产？ ② 今天发现了什么新问题/阻塞？ ③ 下次启动最需要记住什么？**不答完不算完成。**
@@ -35,6 +36,7 @@
 | **OCR（RapidOCR）** | `C:\Users\Administrator\Desktop\wiki\_tmp\ocr_venv\` | `from rapidocr import RapidOCR` | 王语嫣（轻量） |
 | **PDF 解析** | WSL `/home/dministrator/.local/bin/mineru` | `magic-pdf` CLI | 洪七公 |
 | **语义检索** | KDO CLI | `kdo query "<问题>"` | 全员 |
+| **Vault 快照** 🆕 | `90_control/scripts/vault-snapshot.py` | `python 90_control/scripts/vault-snapshot.py`（产出 `90_control/vault-status.md`） | 全员（审前必跑） |
 | **Graph RAG** | KDO CLI | `kdo graph query "<问题>" --json` | 黄药师 / 王语嫣 |
 | **联网搜索** | `kdo-tools/web_search.py` | `python kdo-tools/web_search.py "query" --json` | 王语嫣 / 老顽童 |
 | **域迭代五阶段法** 🆕 | `.claude/skills/domain-iteration/` | `/domain-iteration` → 自动按阶段调用子 Skill | 全员（收到新域任务时调用） |
@@ -108,6 +110,7 @@
 
 | 想看什么 | 去这里 |
 |:--|:--|
+| **🆕 Vault 实时状态（启动必读）** | **`90_control/vault-status.md`**（自动生成，域×类型矩阵 + 最近 48h 变更 + 质量提示） |
 | 角色分工 + 禁止清单 | `90_control/AGENTS.md` |
 | 踩坑全集（35 条） | `.agent/pitfalls.md` |
 | 欧阳锋审查方法论（新） | `30_wiki/frameworks/framework-ouyangfeng-review-methodology.md` |
