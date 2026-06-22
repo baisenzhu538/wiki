@@ -119,7 +119,6 @@ def describe_image(api_key: str, image_path: Path) -> dict:
     data = resp.json()
     content = data["choices"][0]["message"]["content"]
 
-    # MiniMax-M3 often returns thinking content wrapped in <think>...</think>
     import re
     think_match = re.search(r"<think>(.*?)</think>", content, flags=re.DOTALL)
     non_think = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL).strip()
@@ -128,29 +127,14 @@ def describe_image(api_key: str, image_path: Path) -> dict:
     if non_think:
         candidates.append(non_think)
     if think_match:
-        # If non-thinking part is empty, the actual answer may be inside think tags
         candidates.append(think_match.group(1).strip())
     candidates.append(content.strip())
 
     for raw in candidates:
-        # Try parse JSON; if wrapped in markdown code fence, extract it
-        text = raw
-        fence_match = re.search(r"```(?:json)?\s*(.*?)\s*```", text, re.DOTALL)
-        if fence_match:
-            text = fence_match.group(1).strip()
+        result = _robust_json_parse(raw)
+        if result:
+            return result
 
-        try:
-            return json.loads(text)
-        except json.JSONDecodeError:
-            # Fallback: extract first balanced JSON object
-            match = re.search(r"\{[\s\S]*?\}", text)
-            if match:
-                try:
-                    return json.loads(match.group(0))
-                except json.JSONDecodeError:
-                    pass
-
-    # If all JSON parsing fails, return a structured fallback with raw text
     fallback_text = non_think if non_think else (think_match.group(1).strip() if think_match else content)
     return {
         "category": "未识别",
@@ -163,6 +147,119 @@ def describe_image(api_key: str, image_path: Path) -> dict:
         "confidence": 0.3,
         "_parse_error": True,
     }
+
+
+def _robust_json_parse(text: str) -> dict | None:
+    """Multi-strategy JSON extraction from VLM output. Returns parsed dict or None."""
+    import re
+
+    # Strategy 1: Extract from markdown code fence (non-greedy, outermost match)
+    fences = list(re.finditer(r"```(?:json)?\s*\n?(.*?)```", text, re.DOTALL))
+    candidates = []
+    for m in fences:
+        candidates.append(m.group(1).strip())
+    # Also try the raw text
+    candidates.append(text.strip())
+
+    for candidate in candidates:
+        # Strategy 2a: json5 — handles unescaped quotes, trailing commas, unquoted keys
+        try:
+            import json5
+            parsed = json5.loads(candidate)
+            if isinstance(parsed, dict) and "category" in parsed:
+                return _normalize_parsed(parsed)
+        except Exception:
+            pass
+
+        # Strategy 2b: stdlib json with quote-fixing pre-pass
+        try:
+            return _normalize_parsed(json.loads(candidate))
+        except json.JSONDecodeError:
+            fixed = _fix_unescaped_chinese_quotes(candidate)
+            if fixed != candidate:
+                try:
+                    return _normalize_parsed(json.loads(fixed))
+                except json.JSONDecodeError:
+                    pass
+
+        # Strategy 2c: find first balanced JSON object
+        match = re.search(r"\{[\s\S]*\}", candidate)
+        if match:
+            chunk = match.group(0)
+            try:
+                return _normalize_parsed(json.loads(chunk))
+            except json.JSONDecodeError:
+                try:
+                    import json5
+                    return _normalize_parsed(json5.loads(chunk))
+                except Exception:
+                    pass
+
+        # Strategy 2d: find first balanced object with json5
+        match = re.search(r"\{[\s\S]*?\}", candidate)
+        if match:
+            try:
+                import json5
+                return _normalize_parsed(json5.loads(match.group(0)))
+            except Exception:
+                pass
+
+    return None
+
+
+def _fix_unescaped_chinese_quotes(text: str) -> str:
+    """Fix unescaped Chinese-context double quotes inside JSON string values.
+
+    Pattern: inside a JSON string value (between unescaped " delimiters),
+    Chinese text often contains raw double quotes like 标题为"xxx"
+    These need to be escaped to avoid breaking the JSON parser.
+    """
+    import re
+
+    def escape_inner_quotes(match):
+        """Escape inner double quotes within a matched JSON string value pair."""
+        full = match.group(0)
+        key = match.group(1)
+        colon = match.group(2)
+        value = match.group(3)
+        # Find patterns like Chinese_char"Chinese_char and escape the inner quote
+        # Also handle cases like 称为"xxx" where quotes surround Chinese text
+        fixed_value = re.sub(
+            r'(?<=[一-鿿])"(?=[一-鿿，。、；：！？）\)】\]""''、])',
+            r'\"',
+            value
+        )
+        # Also fix quotes after certain Chinese punctuation
+        fixed_value = re.sub(
+            r'(?<=[：:])"(?=[一-鿿])',
+            r'\"',
+            fixed_value
+        )
+        return f'{key}{colon}{fixed_value}'
+
+    # Match "key": "value with potentially bad quotes"
+    # This handles the common case where description/etc contain unescaped quotes
+    result = re.sub(
+        r'("(?:description|title|usable_for|visual_style)"\s*:\s*)"((?:[^"\\]|\\.)*?)"',
+        escape_inner_quotes,
+        text,
+        flags=re.DOTALL
+    )
+    return result
+
+
+def _normalize_parsed(parsed: dict) -> dict:
+    """Ensure all expected keys exist and confidence is in range."""
+    for key in ("key_elements", "tags"):
+        if key not in parsed:
+            parsed[key] = []
+    for key in ("category", "title", "description", "visual_style", "usable_for"):
+        if key not in parsed:
+            parsed[key] = ""
+    conf = parsed.get("confidence", 0.0)
+    if not isinstance(conf, (int, float)) or conf <= 0 or conf > 1:
+        parsed["confidence"] = max(0.0, min(1.0, float(conf) if conf else 0.5))
+    return parsed
 
 
 def save_description(output_path: Path, image_path: Path, result: dict):

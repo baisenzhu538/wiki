@@ -20,11 +20,12 @@ If you are reading this file, the human (朱振滔/老朱/欧阳锋) has likely 
 - 微信双号提取已固化：大号baconzhu_5d29 + 小号wxid_53kdj7ep82rv22_ffd5
 
 **Pending tasks (待办)**:
-1. **老顽童 P0**：按 v2 标准补完 5 张战略域 tool 卡（value-proposition / value-capture / activity-scope / control-points / risk-management）
-2. **欧阳锋待确认**：新增 11 张业务设计/战略能力卡片优先级
-3. **黄药师**：修复 P-33 parse error 脚本，让 113 张 PPT 内层 JSON 可用
-4. **洪七公**：对 113 张 parse error PPT 截图补跑 OCR
-5. **老顽童 2026-06-20 批量工单 waves 1-2**：因战略域 PPT 补强插入而暂停，未取消
+1. **王语嫣**：完成冉鹏 PPT 视觉层标记/确认（老顽童待命，标记好后启动）
+2. **老顽童 P0**：按 v2 标准补完 5 张战略域 tool 卡（value-proposition / value-capture / activity-scope / control-points / risk-management）—— **等王语嫣标记好后开始**
+3. **欧阳锋待确认**：新增 11 张业务设计/战略能力卡片优先级
+4. **黄药师**：修复 P-33 parse error 脚本，让 113 张 PPT 内层 JSON 可用
+5. **洪七公**：对 113 张 parse error PPT 截图补跑 OCR
+6. **老顽童 2026-06-20 批量工单 waves 1-2**：因战略域 PPT 补强插入而暂停，未取消
 
 **Current actual state (from health check)**:
 - 全库 1703 张卡（质量门禁统计）/ 1705 lint errors / 4694 lint warnings

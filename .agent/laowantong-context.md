@@ -18,6 +18,16 @@ updated: 2026-06-22
 
 没有工单？→ 主动报欧阳锋："老顽童就绪，当前无工单。五步法域已完成，可接新活。"
 
+## ⚠️ 每件工单启动后、动手前（强制检查点）
+
+**在写任何一张卡之前，必须完成以下三步，缺一不可：**
+
+1. **查路由**：本域是否已有同主题卡片？→ `kdo cards --domain <domain>`。本素材是否需要外部交叉验证？→ 查下方「调研 Skill 路由」表，Read 对应 Skill 文件。
+2. **WebSearch**：本域核心框架在国际上有没有通行标准？名称是否与国际术语冲突？（如 BRM = Business Relationship Management ≠ 冉鹏的战略框架缩写）——搜完再写，不搜不写。
+3. **自攻击预留**：本批卡完成后，调用 `Read 40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`，照 SKILL.md 流程执行四路攻击。
+
+> **如果前三步没做就开始写卡 → 老顽童本批交付无效。** 欧阳锋审查时第一步就查这个。
+
 ## ⚠️ 当前待办（优先级从高到低）
 
 **全部完成 ✅**（2026-06-16 批次）：
@@ -28,10 +38,10 @@ updated: 2026-06-22
 - **主动执行 KF-025**：全域案例回溯 35+ 张 case 卡 + 12 张 dk 卡 + 3 张新 dk 卡，修复"框架丰满、案例空缺"的系统性盲区
 - 第十九节、第二十节 30+30 张卡深度精修 → 欧阳锋/王语嫣评估均为 **A**
 
-**当前执行中（2026-06-22 更新）**：
+**当前状态：待命 ⏸️（2026-06-22 更新）**：
 - 主工单：`60_feedback/tasks/task_20260621_战略域PPT补强_黄药师标杆.md`
-- 动作：CLI 王语嫣重标冉鹏 PPT 视觉层后，老顽童按 v2 标准补 5 张战略域 tool 卡
-- 5 张待补卡：`tool-strategy-value-proposition` / `tool-strategy-value-capture` / `tool-strategy-activity-scope` / `tool-strategy-control-points` / `tool-strategy-risk-management`
+- 等待：王语嫣完成 PPT 视觉层标记/确认
+- 待补 5 张 tool 卡（暂不启动）：`tool-strategy-value-proposition` / `tool-strategy-value-capture` / `tool-strategy-activity-scope` / `tool-strategy-control-points` / `tool-strategy-risk-management`
 - 标杆卡：`30_wiki/tools/tool-strategy-customer-selection.md`（v2 已升级）
 - 诊断记录：`60_feedback/diagnosis/diag_20260622_战略域PPT视觉层重标_CLI王语嫣.md`
 - 素材路径：`00_inbox/战略专题/冉鹏PPT截图/`
