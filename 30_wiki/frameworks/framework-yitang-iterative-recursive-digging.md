@@ -33,9 +33,9 @@ related:
 - "[[framework-yitang-nine-layer-deep-dig]]"
 - "[[tool-yitang-research-deep-attribution]]"
 - "[[tool-yitang-research-cross-validation]]"
-- "[[dk-yitang-research-novice-vs-veteran]]"
-- "[[dk-yitang-research-determination]]"
-- "[[dk-yitang-research-survivorship-bias]]"
+- "[[dk-yitang-research-starter-vs-veteran]]"
+- "（dk-yitang-research-determination，待补）"
+- "[[dk-yitang-survivor-bias-in-research]]"
 - "[[concept-yitang-research-mindset]]"
 - "[[case-yitang-sanjieke-benchmark-failure]]"
 ---
@@ -257,9 +257,8 @@ Step 6: 输出内核认知
 - [[framework-yitang-nine-layer-deep-dig]] — 九层深挖法
 - [[tool-yitang-research-deep-attribution]] — 深度归因工具
 - [[tool-yitang-research-cross-validation]] — 交叉验证工具
-- [[dk-yitang-research-novice-vs-veteran]] — 新手vs老兵
-- [[dk-yitang-research-determination]] — 深挖决心
-- [[dk-yitang-research-survivorship-bias]] — 幸存者偏差
+- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
+- [[dk-yitang-survivor-bias-in-research]] — 幸存者偏差
 - [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
 - [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
 

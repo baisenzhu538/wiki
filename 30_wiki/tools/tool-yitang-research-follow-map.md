@@ -34,9 +34,9 @@ related:
 - "[[tool-yitang-research-two-dimensional-positioning]]"
 - "[[tool-yitang-research-best-practice]]"
 - "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[case-yitang-haidilao-service-research]]"
-- "[[dk-yitang-research-novice-vs-veteran]]"
-- "[[dk-yitang-research-survivorship-bias]]"
+- "（case-yitang-haidilao-service-research，待补）"
+- "[[dk-yitang-research-starter-vs-veteran]]"
+- "[[dk-yitang-survivor-bias-in-research]]"
 - "[[concept-yitang-research-mindset]]"
 ---
 
@@ -210,9 +210,8 @@ related:
 - [[tool-yitang-research-two-dimensional-positioning]] — 二维定位工具
 - [[tool-yitang-research-best-practice]] — 最佳实践工具
 - [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[case-yitang-haidilao-service-research]] — 海底捞案例
-- [[dk-yitang-research-novice-vs-veteran]] — 新手vs老兵
-- [[dk-yitang-research-survivorship-bias]] — 幸存者偏差
+- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
+- [[dk-yitang-survivor-bias-in-research]] — 幸存者偏差
 - [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
 
 ---

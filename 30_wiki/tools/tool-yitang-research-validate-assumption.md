@@ -30,12 +30,12 @@ source_refs:
 related:
 - "[[framework-yitang-oscar-research]]"
 - "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-hypothesis-test]]"
+- "（tool-yitang-research-hypothesis-test，待补）"
 - "[[yt-research-hypothesis-test]]"
 - "[[concept-yitang-research-objective]]"
 - "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[case-yitang-haidilao-service-research]]"
-- "[[dk-yitang-research-novice-vs-veteran]]"
+- "（case-yitang-haidilao-service-research，待补）"
+- "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[dk-yitang-research-ai-hallucination]]"
 - "[[concept-yitang-research-mindset]]"
 ---
@@ -272,12 +272,10 @@ Step 5: 决策（Go / No-Go / 需验证）
 
 - [[framework-yitang-oscar-research]] — OSCAR调研五步法
 - [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-hypothesis-test]] — 假设测试工具
 - [[yt-research-hypothesis-test]] — 旧版假设测试
 - [[concept-yitang-research-objective]] — 锁定目标方法论
 - [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[case-yitang-haidilao-service-research]] — 海底捞案例
-- [[dk-yitang-research-novice-vs-veteran]] — 新手vs老兵
+- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
 - [[dk-yitang-research-ai-hallucination]] — AI幻觉
 - [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
 

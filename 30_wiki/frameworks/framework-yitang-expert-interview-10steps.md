@@ -38,7 +38,7 @@ related:
 - "[[dk-yitang-expert-interview-5-traps]]"
 - "[[concept-yitang-research-mindset]]"
 - "[[tool-yitang-expert-network-platform]]"
-- "[[tool-yitang-linkedin-expert]]"
+- "（tool-yitang-linkedin-expert，待补）"
 - "[[case-yitang-sanjieke-benchmark-failure]]"
 ---
 
@@ -346,7 +346,6 @@ related:
 - [[dk-yitang-expert-interview-5-traps]] — 专家访谈5大陷阱
 - [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
 - [[tool-yitang-expert-network-platform]] — 专家网络付费平台
-- [[tool-yitang-linkedin-expert]] — LinkedIn找专家
 - [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
 
 ---

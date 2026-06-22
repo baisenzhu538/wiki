@@ -34,8 +34,8 @@ related:
 - "[[tool-yitang-research-industry-scan]]"
 - "[[yt-research-competitor-toolkit]]"
 - "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[case-yitang-haidilao-service-research]]"
-- "[[dk-yitang-research-novice-vs-veteran]]"
+- "（case-yitang-haidilao-service-research，待补）"
+- "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[dk-yitang-research-source-freshness]]"
 - "[[concept-yitang-research-mindset]]"
 ---
@@ -233,8 +233,7 @@ related:
 - [[tool-yitang-research-industry-scan]] — 行业扫描工具
 - [[yt-research-competitor-toolkit]] — 竞品拆解工具包
 - [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[case-yitang-haidilao-service-research]] — 海底捞案例
-- [[dk-yitang-research-novice-vs-veteran]] — 新手vs老兵
+- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
 - [[dk-yitang-research-source-freshness]] — 信源时效性
 - [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
 

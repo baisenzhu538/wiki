@@ -29,11 +29,11 @@ source_refs:
 related:
 - "[[framework-yitang-oscar-research]]"
 - "[[framework-yitang-18-strategy-cards]]"
-- "[[tool-yitang-research-facts-first]]"
+- "（tool-yitang-research-facts-first，待补）"
 - "[[tool-yitang-research-quantitative-modeling]]"
 - "[[dk-yitang-research-ai-hallucination]]"
 - "[[dk-yitang-research-source-freshness]]"
-- "[[dk-yitang-research-expert-trap]]"
+- "[[dk-yitang-expert-interview-5-traps]]"
 - "[[concept-yitang-research-mindset]]"
 ---
 
@@ -201,11 +201,10 @@ related:
 
 - [[framework-yitang-oscar-research]] — OSCAR调研五步法
 - [[framework-yitang-18-strategy-cards]] — 降龙十八掌
-- [[tool-yitang-research-facts-first]] — 事实优先工具
 - [[tool-yitang-research-quantitative-modeling]] — 定量建模工具
 - [[dk-yitang-research-ai-hallucination]] — AI幻觉
 - [[dk-yitang-research-source-freshness]] — 信源时效性
-- [[dk-yitang-research-expert-trap]] — 专家陷阱
+- [[dk-yitang-expert-interview-5-traps]] — 专家陷阱
 - [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
 
 ---

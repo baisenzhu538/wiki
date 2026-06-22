@@ -30,11 +30,11 @@ related:
 - "[[framework-yitang-oscar-research]]"
 - "[[framework-yitang-18-strategy-cards]]"
 - "[[tool-yitang-research-validate-assumption]]"
-- "[[tool-yitang-research-hypothesis-test]]"
+- "（tool-yitang-research-hypothesis-test，待补）"
 - "[[yt-research-hypothesis-test]]"
 - "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[dk-yitang-research-novice-vs-veteran]]"
-- "[[dk-yitang-research-determination]]"
+- "[[dk-yitang-research-starter-vs-veteran]]"
+- "（dk-yitang-research-determination，待补）"
 - "[[concept-yitang-research-mindset]]"
 ---
 
@@ -200,11 +200,9 @@ related:
 - [[framework-yitang-oscar-research]] — OSCAR调研五步法
 - [[framework-yitang-18-strategy-cards]] — 降龙十八掌
 - [[tool-yitang-research-validate-assumption]] — 假设验证工具
-- [[tool-yitang-research-hypothesis-test]] — 假设测试工具
 - [[yt-research-hypothesis-test]] — 旧版假设测试
 - [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-novice-vs-veteran]] — 新手vs老兵
-- [[dk-yitang-research-determination]] — 深挖决心
+- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
 - [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
 
 ---

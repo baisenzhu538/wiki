@@ -28,7 +28,7 @@ related:
 - '[[tool-strategy-activity-scope]]'
 - '[[tool-strategy-business-design-template]]'
 - '[[tool-strategy-industry-chain-analysis]]'
-- '[[tool-strategy-logistics-cost-planning]]'
+- '（tool-strategy-logistics-cost-planning，待补）'
 - '[[tool-strategy-platform-business-map]]'
 - '[[tool-strategy-value-proposition]]'
 ---

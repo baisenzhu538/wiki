@@ -31,11 +31,11 @@ related:
 - "[[framework-yitang-oscar-research]]"
 - "[[framework-yitang-high-level-plan]]"
 - "[[concept-yitang-research-objective]]"
-- "[[tool-yitang-research-checklist]]"
+- "（tool-yitang-research-checklist，待补）"
 - "[[yt-research-osl-framework]]"
 - "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[dk-yitang-research-novice-vs-veteran]]"
-- "[[dk-yitang-research-cost-match]]"
+- "[[dk-yitang-research-starter-vs-veteran]]"
+- "（dk-yitang-research-cost-match，待补）"
 - "[[concept-yitang-research-mindset]]"
 - "[[tool-yitang-research-competitive-quadrant]]"
 ---
@@ -209,11 +209,9 @@ related:
 - [[framework-yitang-oscar-research]] — OSCAR调研五步法
 - [[framework-yitang-high-level-plan]] — 高水平计划OSC
 - [[concept-yitang-research-objective]] — 锁定目标方法论
-- [[tool-yitang-research-checklist]] — 调研清单工具
 - [[yt-research-osl-framework]] — 旧版OSCAR五步法
 - [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-novice-vs-veteran]] — 新手vs老兵
-- [[dk-yitang-research-cost-match]] — 成本匹配
+- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
 - [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
 - [[tool-yitang-research-competitive-quadrant]] — 竞争象限工具
 

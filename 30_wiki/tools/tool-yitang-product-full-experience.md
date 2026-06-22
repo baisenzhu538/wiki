@@ -29,10 +29,10 @@ source_refs:
 related:
 - "[[framework-yitang-research-weapon-system]]"
 - "[[tool-yitang-online-product-experience]]"
-- "[[tool-yitang-offline-product-experience]]"
+- "（tool-yitang-offline-product-experience，待补）"
 - "[[tool-yitang-hardware-product-disassembly]]"
 - "[[yt-research-competitor-toolkit]]"
-- "[[case-yitang-haidilao-service-research]]"
+- "（case-yitang-haidilao-service-research，待补）"
 ---
 
 # 完整体验产品：从用户视角理解产品全貌
@@ -197,10 +197,8 @@ related:
 
 - [[framework-yitang-research-weapon-system]] — 调研超级武器库
 - [[tool-yitang-online-product-experience]] — 线上产品体验
-- [[tool-yitang-offline-product-experience]] — 线下产品体验
 - [[tool-yitang-hardware-product-disassembly]] — 硬件产品拆解
 - [[yt-research-competitor-toolkit]] — 竞品拆解工具包
-- [[case-yitang-haidilao-service-research]] — 海底捞案例
 
 ---
 

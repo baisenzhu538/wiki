@@ -19,8 +19,8 @@ related:
   - "[[tool-demand-iceberg-l6-hypothesis]]"
   - "[[framework-demand-opportunity-spectrum]]"
   - "[[yt-market-size-estimation]]"
-  - "[[five-step-barrier]]"
-  - "[[demand-analysis-synthetic]]"
+  - "（five-step-barrier，待补）"
+  - "（demand-analysis-synthetic，待补）"
 ---
 
 # 需求分析报告模板

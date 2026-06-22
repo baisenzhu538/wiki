@@ -30,7 +30,7 @@ source_refs:
 - 00_inbox/调研专题/一堂-调研武器库培训-口述.txt
 related:
 - "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-product-reverse-engineering]]"
+- "（tool-yitang-product-reverse-engineering，待补）"
 - "[[tool-yitang-reverse-data-analysis]]"
 - "[[yt-research-competitor-toolkit]]"
 ---

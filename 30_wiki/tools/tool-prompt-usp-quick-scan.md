@@ -18,7 +18,7 @@ author: 黄药师（从程诚同学提示词提取）
 reviewed_by: 欧阳锋
 related:
   - "[[tool-prompt-usp-demand-analysis]]"
-  - "[[framework-yitang-usp-model]]"
+  - "（framework-yitang-usp-model，待补）"
 ---
 
 # USP 快速需求拆解

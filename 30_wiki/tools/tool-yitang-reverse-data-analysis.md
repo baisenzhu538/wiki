@@ -28,10 +28,10 @@ source_refs:
 - 10_raw/sources/src_20260620_business-research-skill-v2.1.0/SKILL.md
 related:
 - "[[framework-yitang-research-weapon-system]]"
-- "[[tool-yitang-id-increment-analysis]]"
-- "[[tool-yitang-web-crawler-research]]"
-- "[[tool-yitang-product-reverse-engineering]]"
-- "[[tool-yitang-offline-store-reconnaissance]]"
+- "（tool-yitang-id-increment-analysis，待补）"
+- "（tool-yitang-web-crawler-research，待补）"
+- "（tool-yitang-product-reverse-engineering，待补）"
+- "（tool-yitang-offline-store-reconnaissance，待补）"
 - "[[yt-research-competitor-toolkit]]"
 ---
 
@@ -216,10 +216,6 @@ ID自增分析 → 爬虫抓取 → 产品拆解 → 门店侦察
 ## 关联卡片
 
 - [[framework-yitang-research-weapon-system]] — 调研超级武器库
-- [[tool-yitang-id-increment-analysis]] — ID自增分析
-- [[tool-yitang-web-crawler-research]] — 爬虫抓取
-- [[tool-yitang-product-reverse-engineering]] — 产品拆解
-- [[tool-yitang-offline-store-reconnaissance]] — 门店侦察
 - [[yt-research-competitor-toolkit]] — 竞品拆解工具包
 
 ---

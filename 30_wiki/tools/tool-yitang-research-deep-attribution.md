@@ -31,8 +31,8 @@ related:
 - "[[framework-yitang-18-strategy-cards]]"
 - "[[tool-yitang-research-cross-validation]]"
 - "[[tool-yitang-research-quantitative-modeling]]"
-- "[[dk-yitang-research-novice-vs-veteran]]"
-- "[[dk-yitang-research-determination]]"
+- "[[dk-yitang-research-starter-vs-veteran]]"
+- "（dk-yitang-research-determination，待补）"
 - "[[concept-yitang-research-mindset]]"
 ---
 
@@ -204,8 +204,7 @@ related:
 - [[framework-yitang-18-strategy-cards]] — 降龙十八掌
 - [[tool-yitang-research-cross-validation]] — 交叉验证工具
 - [[tool-yitang-research-quantitative-modeling]] — 定量建模工具
-- [[dk-yitang-research-novice-vs-veteran]] — 新手vs老兵
-- [[dk-yitang-research-determination]] — 深挖决心
+- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
 - [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
 
 ---

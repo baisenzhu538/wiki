@@ -35,7 +35,7 @@ related:
 - "[[framework-yitang-research-radar]]"
 - "[[yt-research-osl-framework]]"
 - "[[yt-research-intelligence-map]]"
-- "[[tool-yitang-research-checklist]]"
+- "（tool-yitang-research-checklist，待补）"
 - "[[concept-yitang-research-scope]]"
 - "[[concept-yitang-research-objective]]"
 - "[[tool-yitang-research-competitive-quadrant]]"
@@ -231,7 +231,6 @@ Step 5: 归因与决策（R）
 - [[framework-yitang-research-radar]] — 调研能力诊断
 - [[yt-research-osl-framework]] — OSCAR调研五步法
 - [[yt-research-intelligence-map]] — 情报获取地图
-- [[tool-yitang-research-checklist]] — 调研清单工具
 - [[concept-yitang-research-scope]] — 缩小范围三原则
 - [[concept-yitang-research-objective]] — 锁定目标方法论
 - [[tool-yitang-research-competitive-quadrant]] — 竞争象限工具

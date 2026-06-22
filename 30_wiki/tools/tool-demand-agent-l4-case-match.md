@@ -16,7 +16,7 @@ author: 黄药师
 reviewed_by: 欧阳锋
 related:
   - "[[tool-demand-iceberg-l4-job-map]]"
-  - "[[tool-demand-agent-l3-multi-hypothesis]]"
+  - "（tool-demand-agent-l3-multi-hypothesis，待补）"
   - "[[framework-multi-agent-research-architecture]]"
 ---
 

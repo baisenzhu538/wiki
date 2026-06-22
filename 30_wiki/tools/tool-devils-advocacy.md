@@ -15,7 +15,7 @@ source_refs:
 - web: CIA Tradecraft Primer - Devil's Advocacy
 related:
 - "[[framework-structured-analytic-techniques]]"
-- "[[concept-半肥猫-ai-research-validation]]"
+- "（concept-半肥猫-ai-research-validation，待补）"
 - "[[tool-harness-adversarial-tester]]"
 ---
 

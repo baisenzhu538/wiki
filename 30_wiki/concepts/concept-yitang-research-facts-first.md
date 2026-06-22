@@ -32,7 +32,7 @@ related:
 - "[[tool-yitang-research-cross-validation]]"
 - "[[tool-yitang-research-quantitative-modeling]]"
 - "[[dk-yitang-research-ai-hallucination]]"
-- "[[dk-yitang-research-expert-trap]]"
+- "[[dk-yitang-expert-interview-5-traps]]"
 - "[[concept-yitang-research-mindset]]"
 ---
 
@@ -188,7 +188,7 @@ related:
 - [[tool-yitang-research-cross-validation]] — 交叉验证工具
 - [[tool-yitang-research-quantitative-modeling]] — 定量建模工具
 - [[dk-yitang-research-ai-hallucination]] — AI幻觉
-- [[dk-yitang-research-expert-trap]] — 专家陷阱
+- [[dk-yitang-expert-interview-5-traps]] — 专家陷阱
 - [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
 
 ---

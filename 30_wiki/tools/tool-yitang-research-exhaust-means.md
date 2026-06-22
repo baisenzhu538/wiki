@@ -36,7 +36,7 @@ related:
 - "[[tool-yitang-field-research]]"
 - "[[tool-yitang-social-engineering-research]]"
 - "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[dk-yitang-research-novice-vs-veteran]]"
+- "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[concept-yitang-research-mindset]]"
 ---
 
@@ -191,7 +191,7 @@ related:
 - [[tool-yitang-field-research]] — 实地调研
 - [[tool-yitang-social-engineering-research]] — 社会工程学
 - [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-novice-vs-veteran]] — 新手vs老兵
+- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
 - [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
 
 ---

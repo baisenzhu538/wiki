@@ -35,8 +35,8 @@ related:
 - "[[framework-yitang-research-radar]]"
 - "[[yt-research-osl-framework]]"
 - "[[yt-research-intelligence-map]]"
-- "[[tool-yitang-research-acquisition]]"
-- "[[tool-yitang-research-reasoning]]"
+- "（tool-yitang-research-acquisition，待补）"
+- "（tool-yitang-research-reasoning，待补）"
 - "[[concept-yitang-research-facts-first]]"
 - "[[tool-yitang-research-cross-validation]]"
 - "[[tool-yitang-research-quantitative-modeling]]"
@@ -234,8 +234,6 @@ Step 8: 输出结论
 - [[framework-yitang-research-radar]] — 调研能力诊断
 - [[yt-research-osl-framework]] — OSCAR调研五步法
 - [[yt-research-intelligence-map]] — 情报获取地图
-- [[tool-yitang-research-acquisition]] — 获取情报工具
-- [[tool-yitang-research-reasoning]] — 正确归因工具
 - [[concept-yitang-research-facts-first]] — 事实优先原则
 - [[tool-yitang-research-cross-validation]] — 交叉验证工具
 - [[tool-yitang-research-quantitative-modeling]] — 定量建模工具

@@ -35,7 +35,7 @@ related:
 - "[[yt-research-industry-canvas]]"
 - "[[framework-doris-industry-report-4step]]"
 - "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[dk-yitang-research-novice-vs-veteran]]"
+- "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[dk-yitang-research-ai-hallucination]]"
 - "[[concept-yitang-research-mindset]]"
 ---
@@ -303,7 +303,7 @@ Step 6: 输出行业认知
 - [[yt-research-industry-canvas]] — 行业分析画布
 - [[framework-doris-industry-report-4step]] — 行业报告四步法
 - [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-novice-vs-veteran]] — 新手vs老兵
+- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
 - [[dk-yitang-research-ai-hallucination]] — AI幻觉
 - [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
 

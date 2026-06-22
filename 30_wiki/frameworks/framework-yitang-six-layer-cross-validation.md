@@ -31,13 +31,13 @@ related:
 - "[[framework-yitang-oscar-research]]"
 - "[[framework-yitang-18-strategy-cards]]"
 - "[[tool-yitang-research-cross-validation]]"
-- "[[tool-yitang-research-facts-first]]"
+- "（tool-yitang-research-facts-first，待补）"
 - "[[dk-yitang-research-ai-hallucination]]"
 - "[[dk-yitang-research-source-freshness]]"
-- "[[dk-yitang-research-expert-trap]]"
+- "[[dk-yitang-expert-interview-5-traps]]"
 - "[[concept-yitang-research-mindset]]"
 - "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[case-yitang-haidilao-service-research]]"
+- "（case-yitang-haidilao-service-research，待补）"
 ---
 
 # 六层交叉验证：从单源到多源的信息可信度提升
@@ -281,13 +281,11 @@ related:
 - [[framework-yitang-oscar-research]] — OSCAR调研五步法
 - [[framework-yitang-18-strategy-cards]] — 降龙十八掌
 - [[tool-yitang-research-cross-validation]] — 交叉验证工具
-- [[tool-yitang-research-facts-first]] — 事实优先工具
 - [[dk-yitang-research-ai-hallucination]] — AI幻觉
 - [[dk-yitang-research-source-freshness]] — 信源时效性
-- [[dk-yitang-research-expert-trap]] — 专家陷阱
+- [[dk-yitang-expert-interview-5-traps]] — 专家陷阱
 - [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
 - [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[case-yitang-haidilao-service-research]] — 海底捞案例
 
 ---
 

@@ -36,9 +36,9 @@ related:
 - "[[framework-yitang-research-radar]]"
 - "[[concept-yitang-research-objective]]"
 - "[[concept-yitang-research-scope]]"
-- "[[tool-yitang-research-checklist]]"
-- "[[tool-yitang-research-acquisition]]"
-- "[[tool-yitang-research-reasoning]]"
+- "（tool-yitang-research-checklist，待补）"
+- "（tool-yitang-research-acquisition，待补）"
+- "（tool-yitang-research-reasoning，待补）"
 - "[[yt-research-osl-framework]]"
 ---
 
@@ -261,9 +261,6 @@ Step 5: 验证与归因（R）
 - [[framework-yitang-research-radar]] — 调研能力诊断
 - [[concept-yitang-research-objective]] — 锁定目标方法论
 - [[concept-yitang-research-scope]] — 缩小范围三原则
-- [[tool-yitang-research-checklist]] — 调研清单工具
-- [[tool-yitang-research-acquisition]] — 获取情报工具
-- [[tool-yitang-research-reasoning]] — 正确归因工具
 - [[yt-research-osl-framework]] — 旧版OSCAR五步法
 
 ---

@@ -31,7 +31,7 @@ related:
 - "[[framework-yitang-18-strategy-cards]]"
 - "[[tool-yitang-research-cross-validation]]"
 - "[[tool-yitang-research-deep-attribution]]"
-- "[[dk-yitang-research-novice-vs-veteran]]"
+- "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[concept-yitang-research-mindset]]"
 ---
 
@@ -229,7 +229,7 @@ related:
 - [[framework-yitang-18-strategy-cards]] — 降龙十八掌
 - [[tool-yitang-research-cross-validation]] — 交叉验证工具
 - [[tool-yitang-research-deep-attribution]] — 深度归因工具
-- [[dk-yitang-research-novice-vs-veteran]] — 新手vs老兵
+- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
 - [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
 
 ---

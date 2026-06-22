@@ -17,7 +17,7 @@ updated_at: "2026-06-21"
 author: 黄药师（从 inbox 提示词提取）
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-yitang-jtbd-theory]]"
+  - "（framework-yitang-jtbd-theory，待补）"
   - "[[tool-prompt-usp-demand-analysis]]"
   - "[[yt-demand-analysis-hiking-map]]"
 ---

@@ -34,7 +34,7 @@ related:
 - "[[yt-research-intelligence-map]]"
 - "[[tool-yitang-database-index]]"
 - "[[case-yitang-sanjieke-benchmark-failure]]"
-- "[[dk-yitang-research-novice-vs-veteran]]"
+- "[[dk-yitang-research-starter-vs-veteran]]"
 - "[[dk-yitang-research-source-freshness]]"
 - "[[concept-yitang-research-mindset]]"
 ---
@@ -206,7 +206,7 @@ related:
 - [[yt-research-intelligence-map]] — 情报获取地图
 - [[tool-yitang-database-index]] — 数据库索引
 - [[case-yitang-sanjieke-benchmark-failure]] — 三节课案例
-- [[dk-yitang-research-novice-vs-veteran]] — 新手vs老兵
+- [[dk-yitang-research-starter-vs-veteran]] — 新手vs老兵
 - [[dk-yitang-research-source-freshness]] — 信源时效性
 - [[concept-yitang-research-mindset]] — 从"找答案"到"拆假设"
 

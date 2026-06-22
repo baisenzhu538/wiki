@@ -18,8 +18,8 @@ updated_at: "2026-06-21"
 author: 黄药师（从 inbox 提示词提取 + 结构化）
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-yitang-usp-model]]"
-  - "[[framework-yitang-jtbd-theory]]"
+  - "（framework-yitang-usp-model，待补）"
+  - "（framework-yitang-jtbd-theory，待补）"
   - "[[yt-demand-analysis-hiking-map]]"
   - "[[five-step-domain-digest]]"
 iteration_history:
