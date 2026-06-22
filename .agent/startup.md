@@ -126,6 +126,7 @@
 | 想看什么 | 去这里 |
 |:--|:--|
 | **🆕 Vault 实时状态（启动必读）** | **`90_control/vault-status.md`**（自动生成，域×类型矩阵 + 最近 48h 变更 + 质量提示） |
+| **🆕 新域上线清单** | **`90_control/new-domain-onboarding.md`**（9 步打勾，缺一不注册 index） |
 | 角色分工 + 禁止清单 | `90_control/AGENTS.md` |
 | 踩坑全集（35 条） | `.agent/pitfalls.md` |
 | 欧阳锋审查方法论（新） | `30_wiki/frameworks/framework-ouyangfeng-review-methodology.md` |
