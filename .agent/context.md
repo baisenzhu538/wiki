@@ -1,14 +1,15 @@
 ---
 updated: 2026-06-22
 active_branch: main
-active_task: "王语嫣 36 张战略卡收尾完成，黄药师 parse error 修复完成。老顽童接手 5 个可选后续高潜幻灯片（_54/_115/_184/_249/_269）"
+active_task: "老顽童已完成 `_54` 国产零食出口案例卡，待用户确认下一张可选后续（_115/_184/_249/_269）"
 blockers:
   - "✅ CLI 王语嫣已完成冉鹏 PPT 视觉层重标 + 36 张卡片创建 + 质量收尾"
   - "✅ 113 张 VLM parse error (P-33) 已由黄药师修复，归零"
+  - "✅ 老顽童完成 `_54` case-strategy-snack-export-opportunity.md"
   - "🟡 shared/README.md 过期 — 只列 ~20% Skill，缺失调研域 13 子 Skill、kdo-self-attack、strategy 系列等"
   - "🟢 Y 模型决策域（66 张卡）Skill 化 — P0 候选，欧阳锋已批，黄药师排期中"
   - "🟢 调研域全线完工 — 100+ 张卡 + 7 Skill + 质量门 + 映射表"
-next_session_hint: "老顽童按可选后续清单启动下一张战略卡片；黄药师继续 shared/README 更新 + Y 模型决策域 Skill 化"
+next_session_hint: "老顽童按用户指令启动下一张可选后续幻灯片；黄药师继续 shared/README 更新 + Y 模型决策域 Skill 化"
 ---
 
 ## 📢 全厂通知（2026-06-19）

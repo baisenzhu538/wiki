@@ -38,15 +38,15 @@ updated: 2026-06-22
 - **主动执行 KF-025**：全域案例回溯 35+ 张 case 卡 + 12 张 dk 卡 + 3 张新 dk 卡，修复"框架丰满、案例空缺"的系统性盲区
 - 第十九节、第二十节 30+30 张卡深度精修 → 欧阳锋/王语嫣评估均为 **A**
 
-**当前状态：接手可选后续（2026-06-22 更新）**：
+**当前状态：_54 已完成，待用户指定下一张（2026-06-22 更新）**：
 - 主工单：`00_inbox/战略专题/_strategy_cards_implementation_status.md`
-- 已完成：王语嫣 36 张战略卡收尾 + 黄药师 parse error 修复
-- 待启动 5 个高潜幻灯片（按优先级/素材清晰度排序）：
-  1. `_54` 国产零食出口至 220 个国家和地区 → `case-strategy-snack-export-opportunity`
-  2. `_115` 价值获取 8 问 → 补充进 `tool-strategy-value-capture`
-  3. `_184` 物流费用节约三年计划模板 → `tool-strategy-logistics-cost-planning`
-  4. `_249` 各细分市场机会分析矩阵 → `tool-strategy-market-opportunity-matrix`
-  5. `_269` 深蓝海洋主题页 → 需先确认内容
+- 已完成：
+  - ✅ `_54` 国产零食出口 → `30_wiki/cases/case-strategy-snack-export-opportunity.md`
+- 待启动 4 个高潜幻灯片：
+  1. `_115` 价值获取 8 问 → 补充进 `tool-strategy-value-capture`
+  2. `_184` 物流费用节约三年计划模板 → `tool-strategy-logistics-cost-planning`
+  3. `_249` 各细分市场机会分析矩阵 → `tool-strategy-market-opportunity-matrix`
+  4. `_269` 深蓝海洋主题页 → 需先确认内容
 - 标杆卡：`30_wiki/tools/tool-strategy-customer-selection.md`（v2）
 - 素材路径：`00_inbox/战略专题/冉鹏PPT截图/`
 

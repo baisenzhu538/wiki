@@ -120,7 +120,7 @@
 
 | 幻灯片 | 主题 | 建议卡片类型 |
 |--|--|--|
-| `_54` | 国产零食出口至 220 个国家和地区 | case-strategy-snack-export-opportunity |
+| `_54` | 国产零食出口至 220 个国家和地区 | ✅ `case-strategy-snack-export-opportunity`（老顽童 2026-06-22） |
 | `_115` | 价值获取 8 问（业务模式/运营模式创新） | 可补充进 `tool-strategy-value-capture` |
 | `_184` | 物流费用节约三年计划模板 | tool-strategy-logistics-cost-planning |
 | `_249` | 各细分市场机会分析矩阵 | tool-strategy-market-opportunity-matrix |

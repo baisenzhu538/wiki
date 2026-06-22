@@ -18,6 +18,8 @@ source_refs:
 related:
 - '[[framework-strategy-brm]]'
 - '[[framework-strategy-five-basics]]'
+- '[[yt-decision-y-model]]'
+- '[[framework-ouyangfeng-review-methodology]]'
 ---
 
 # 六阶段企业生命周期

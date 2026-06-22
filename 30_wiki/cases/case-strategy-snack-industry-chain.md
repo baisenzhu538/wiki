@@ -15,6 +15,7 @@ related:
 - "[[tool-strategy-industry-chain-analysis]]"
 - "[[framework-strategy-five-forces]]"
 - "[[tool-strategy-value-capture]]"
+- "[[case-strategy-snack-export-opportunity]]"
 ---
 **案例**：话梅果干品类从上游种植/养殖到下游零售的完整产业链利润与竞争分析
 

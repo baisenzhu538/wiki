@@ -1466,7 +1466,7 @@ _Last updated: 2026-06-14T19:07:54+00:00_
 - [[concepts/cases/case-strategy-revival-14-gucci.md|案例：Gucci起死回生——砍折扣+收渠道+换创意+聚焦千禧一代]] — strategy
 - [[concepts/cases/case-strategy-shell-oil.md|壳牌石油：价值链突变→市场规模预测→从生产转服务]] — strategy
 - [[concepts/cases/case-strategy-snack-business-design.md|零食企业业务设计示例：从大众散货到家庭健康亲子零食专家]] — strategy
-- cases/case-strategy-snack-export-opportunity.md|国产零食出口220国：新区域机会的诱惑与风险预估 — strategy
+- [国产零食出口220国：新区域机会的诱惑与风险预估](cases/case-strategy-snack-export-opportunity.md) — strategy
 - [[concepts/cases/case-strategy-snack-industry-chain.md|话梅果干产业链分析：从种植到零售的利润分布与竞争格局]] — strategy
 - [[concepts/cases/case-strategy-walmart-vs-costco-pyramid.md|沃尔玛 vs 好市多：同样的"性价比第一"，不同的战略金字塔]] — strategy
 - [[concepts/cases/case-strategy-wuxi-suntech.md|无锡尚德：全球光伏第一→熬不过绝望之谷→被外资阴了]] — strategy

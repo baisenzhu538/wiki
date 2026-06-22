@@ -19,6 +19,8 @@ source_refs:
 related:
 - '[[framework-strategy-six-stages]]'
 - '[[tool-strategy-gap-analysis]]'
+- '[[five-step-domain-digest]]'
+- '[[yitang-research-domain-digest]]'
 ---
 
 # 冉鹏版 BRM 框架（源于 IBM BLM 方法论）

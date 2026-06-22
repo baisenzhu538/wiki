@@ -19,6 +19,8 @@ related:
   - "[[five-step-domain-digest]]"
   - "[[yitang-research-domain-digest]]"
   - "[[human-ai-collaboration-double-triangle]]"
+  - "[[framework-demand-iceberg]]"
+  - "[[yt-decision-y-model]]"
 ---
 
 # 域摘要：企业战略

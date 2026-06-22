@@ -17,6 +17,7 @@ source_refs:
 related:
 - '[[framework-strategy-six-stages]]'
 - '[[framework-strategy-brm]]'
+- '[[framework-demand-iceberg]]'
 ---
 
 # 三个地平线
