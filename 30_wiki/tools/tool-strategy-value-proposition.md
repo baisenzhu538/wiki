@@ -1,28 +1,37 @@
 ---
 id: tool-strategy-value-proposition
 title: 价值主张设计工具：三问 + 六维排序法
-aliases: [价值主张设计, 差异化定位]
+aliases:
+- 价值主张设计
+- 差异化定位
 type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - strategy
-  - marketing
+- strategy
+- marketing
 source_refs:
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_107_ocr_text.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_107_vlm_desc.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_110_ocr_text.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_112_ocr_text.md
-created_at: "2026-06-22"
-updated_at: "2026-06-22"
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_107_ocr_text.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_107_vlm_desc.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_110_ocr_text.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_112_ocr_text.md
+created_at: '2026-06-22'
+updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-strategy-business-design]]"
-  - "[[tool-strategy-customer-selection]]"
-  - "[[tool-strategy-value-capture]]"
-  - "[[framework-strategy-blue-ocean]]"
+- '[[case-strategy-retailer-activity-scope]]'
+- '[[case-strategy-snack-business-design]]'
+- '[[framework-strategy-blm]]'
+- '[[framework-strategy-blue-ocean]]'
+- '[[framework-strategy-business-design]]'
+- '[[tool-strategy-blue-ocean-canvas]]'
+- '[[tool-strategy-business-design-template]]'
+- '[[tool-strategy-category-role-matrix]]'
+- '[[tool-strategy-control-points]]'
+- '[[tool-strategy-customer-selection]]'
+- '[[tool-strategy-value-capture]]'
 ---
 
 # 价值主张设计工具：三问 + 六维排序法

@@ -6,21 +6,22 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - strategy
-  - organization
-  - change_management
+- strategy
+- organization
+- change_management
 source_refs:
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_128_ocr_text.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_128_vlm_desc.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_203_ocr_text.md
-created_at: "2026-06-22"
-updated_at: "2026-06-22"
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_128_ocr_text.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_128_vlm_desc.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_203_ocr_text.md
+created_at: '2026-06-22'
+updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-strategy-blm]]"
-  - "[[tool-strategy-risk-management]]"
-  - "[[framework-strategy-pyramid]]"
+- '[[case-strategy-model-selection-quiz]]'
+- '[[framework-strategy-blm]]'
+- '[[framework-strategy-pyramid]]'
+- '[[tool-strategy-risk-management]]'
 ---
 
 # 麦肯锡 7S 模型：组织诊断与变革管理

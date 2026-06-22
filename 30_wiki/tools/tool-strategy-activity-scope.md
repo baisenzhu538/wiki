@@ -1,28 +1,34 @@
 ---
 id: tool-strategy-activity-scope
 title: 活动范围设计工具：What × How × Where 三问
-aliases: [经营边界, 价值链定位]
+aliases:
+- 经营边界
+- 价值链定位
 type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - strategy
-  - operations
+- strategy
+- operations
 source_refs:
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_119_ocr_text.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_119_vlm_desc.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_ocr_text.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_vlm_desc.md
-created_at: "2026-06-22"
-updated_at: "2026-06-22"
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_119_ocr_text.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_119_vlm_desc.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_ocr_text.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_121_vlm_desc.md
+created_at: '2026-06-22'
+updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-strategy-business-design]]"
-  - "[[tool-strategy-value-capture]]"
-  - "[[tool-strategy-control-points]]"
-  - "[[framework-strategy-value-chain]]"
+- '[[case-strategy-retailer-activity-scope]]'
+- '[[case-strategy-snack-business-design]]'
+- '[[framework-strategy-business-design]]'
+- '[[framework-strategy-value-chain]]'
+- '[[tool-strategy-business-design-template]]'
+- '[[tool-strategy-control-points]]'
+- '[[tool-strategy-industry-chain-analysis]]'
+- '[[tool-strategy-value-capture]]'
 ---
 
 # 活动范围设计工具：What × How × Where 三问

@@ -10,8 +10,9 @@ language: zh-CN
 domain: [strategy]
 source_refs:
 - 00_inbox/战略专题/冉鹏老师战略课程知识点_ocr.md §47
-related: "[[framework-strategy-five-basics]]"
-"[[tool-strategy-three-horizons]]"
+related:
+- "[[framework-strategy-five-basics]]"
+- "[[tool-strategy-three-horizons]]"
 ---
 **五件事**：
 - 现金流业务：榨取利润，养其他四个

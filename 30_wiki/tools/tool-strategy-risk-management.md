@@ -1,28 +1,32 @@
 ---
 id: tool-strategy-risk-management
 title: 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵
-aliases: [风险识别, 风险评估, 风险应对]
+aliases:
+- 风险识别
+- 风险评估
+- 风险应对
 type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - strategy
-  - risk_management
+- strategy
+- risk_management
 source_refs:
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_127_ocr_text.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_127_vlm_desc.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_129_ocr_text.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_129_vlm_desc.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_131_ocr_text.md
-created_at: "2026-06-22"
-updated_at: "2026-06-22"
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_127_ocr_text.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_127_vlm_desc.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_129_ocr_text.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_129_vlm_desc.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_131_ocr_text.md
+created_at: '2026-06-22'
+updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-strategy-business-design]]"
-  - "[[tool-strategy-control-points]]"
-  - "[[framework-strategy-risk-matrix]]"
+- '[[framework-strategy-business-design]]'
+- '[[framework-strategy-mckinsey-7s]]'
+- '[[framework-strategy-risk-matrix]]'
+- '[[tool-strategy-control-points]]'
 ---
 
 # 业务设计风险管理工具：ISO31000 四步闭环 × Grace LaConte 矩阵

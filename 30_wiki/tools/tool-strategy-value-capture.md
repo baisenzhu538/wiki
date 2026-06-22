@@ -1,28 +1,35 @@
 ---
 id: tool-strategy-value-capture
 title: 价值获取设计工具：8 问盈利模型
-aliases: [盈利模式设计, 价值捕获]
+aliases:
+- 盈利模式设计
+- 价值捕获
 type: tool
 status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - strategy
-  - business_model
+- strategy
+- business_model
 source_refs:
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_115_ocr_text.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_115_vlm_desc.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_ocr_text.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md
-created_at: "2026-06-22"
-updated_at: "2026-06-22"
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_115_ocr_text.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_115_vlm_desc.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_ocr_text.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_117_vlm_desc.md
+created_at: '2026-06-22'
+updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-strategy-business-design]]"
-  - "[[tool-strategy-value-proposition]]"
-  - "[[tool-strategy-activity-scope]]"
-  - "[[framework-business-model-canvas]]"
+- '[[case-strategy-m-brand-profit-model]]'
+- '[[case-strategy-snack-industry-chain]]'
+- '[[framework-business-model-canvas]]'
+- '[[framework-strategy-business-design]]'
+- '[[tool-strategy-activity-scope]]'
+- '[[tool-strategy-business-design-template]]'
+- '[[tool-strategy-industry-chain-analysis]]'
+- '[[tool-strategy-platform-business-map]]'
+- '[[tool-strategy-value-proposition]]'
 ---
 
 # 价值获取设计工具：8 问盈利模型

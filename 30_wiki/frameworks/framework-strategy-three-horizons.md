@@ -6,19 +6,20 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - strategy
-  - portfolio
+- strategy
+- portfolio
 source_refs:
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_246_ocr_text.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_246_vlm_desc.md
-created_at: "2026-06-22"
-updated_at: "2026-06-22"
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_246_ocr_text.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_246_vlm_desc.md
+created_at: '2026-06-22'
+updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-strategy-bcg]]"
-  - "[[framework-strategy-ansoff]]"
-  - "[[framework-strategy-business-design]]"
+- '[[framework-strategy-ansoff]]'
+- '[[framework-strategy-bcg]]'
+- '[[framework-strategy-business-design]]'
+- '[[tool-strategy-lifecycle]]'
 ---
 
 # 三个地平线：短中长期业务组合管理

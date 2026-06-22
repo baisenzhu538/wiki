@@ -6,20 +6,26 @@ status: enriched
 confidence: 0.95
 trust_level: high
 domain:
-  - strategy
+- strategy
 source_refs:
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_34_ocr_text.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_35_ocr_text.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_ocr_text.md
-created_at: "2026-06-22"
-updated_at: "2026-06-22"
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_34_ocr_text.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_35_ocr_text.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_ocr_text.md
+created_at: '2026-06-22'
+updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-strategy-business-design]]"
-  - "[[framework-strategy-pyramid]]"
-  - "[[tool-strategy-customer-selection]]"
-  - "[[tool-strategy-value-proposition]]"
+- '[[case-strategy-model-selection-quiz]]'
+- '[[framework-strategy-business-design]]'
+- '[[framework-strategy-five-forces]]'
+- '[[framework-strategy-kai-innovation-directions]]'
+- '[[framework-strategy-mckinsey-7s]]'
+- '[[framework-strategy-pyramid]]'
+- '[[tool-strategy-customer-selection]]'
+- '[[tool-strategy-fishbone]]'
+- '[[tool-strategy-swot]]'
+- '[[tool-strategy-value-proposition]]'
 ---
 
 # IBM BLM 业务领导力模型 + 华为五看三定

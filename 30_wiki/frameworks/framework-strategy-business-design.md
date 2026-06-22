@@ -6,25 +6,35 @@ status: enriched
 confidence: 0.95
 trust_level: high
 domain:
-  - strategy
+- strategy
 source_refs:
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_vlm_desc.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_99_vlm_desc.md
-  - 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
-created_at: "2026-06-21"
-updated_at: "2026-06-21"
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_97_vlm_desc.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_99_vlm_desc.md
+- 00_inbox/战略专题/引擎点火20260110 战略破局（冉鹏）(1)_ocr.md
+created_at: '2026-06-21'
+updated_at: '2026-06-21'
 author: 老顽童（初版）→ 黄药师（PPT _97+_99 补强 v2）
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-strategy-brm]]"
-  - "[[framework-strategy-five-basics]]"
-  - "[[tool-strategy-customer-selection]]"
-  - "[[tool-strategy-value-proposition]]"
-  - "[[tool-strategy-value-capture]]"
-  - "[[tool-strategy-activity-scope]]"
-  - "[[tool-strategy-control-points]]"
-  - "[[tool-strategy-risk-management]]"
-  - "[[five-step-domain-digest]]"
+- '[[case-strategy-m-brand-profit-model]]'
+- '[[case-strategy-snack-business-design]]'
+- '[[five-step-domain-digest]]'
+- '[[framework-strategy-ansoff]]'
+- '[[framework-strategy-blm]]'
+- '[[framework-strategy-brm]]'
+- '[[framework-strategy-five-basics]]'
+- '[[framework-strategy-pyramid]]'
+- '[[framework-strategy-three-horizons]]'
+- '[[tool-strategy-activity-scope]]'
+- '[[tool-strategy-blue-ocean-canvas]]'
+- '[[tool-strategy-business-design-template]]'
+- '[[tool-strategy-control-points]]'
+- '[[tool-strategy-core-competence-matrix]]'
+- '[[tool-strategy-customer-selection]]'
+- '[[tool-strategy-platform-business-map]]'
+- '[[tool-strategy-risk-management]]'
+- '[[tool-strategy-value-capture]]'
+- '[[tool-strategy-value-proposition]]'
 ---
 
 # 业务设计六要素×三步骤

@@ -6,18 +6,19 @@ status: enriched
 confidence: 0.92
 trust_level: high
 domain:
-  - strategy
+- strategy
 source_refs:
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_87_ocr_text.md
-  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_87_vlm_desc.md
-created_at: "2026-06-22"
-updated_at: "2026-06-22"
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_87_ocr_text.md
+- 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_87_vlm_desc.md
+created_at: '2026-06-22'
+updated_at: '2026-06-22'
 author: 王语嫣 → 老顽童
 reviewed_by: 欧阳锋
 related:
-  - "[[framework-strategy-five-forces]]"
-  - "[[tool-strategy-ksf]]"
-  - "[[framework-strategy-blm]]"
+- '[[case-strategy-model-selection-quiz]]'
+- '[[framework-strategy-blm]]'
+- '[[framework-strategy-five-forces]]'
+- '[[tool-strategy-ksf]]'
 ---
 
 # SWOT 分析工具：从四象限到行动策略
