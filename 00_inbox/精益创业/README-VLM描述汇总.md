@@ -3,8 +3,8 @@
 模型: `MiniMax-M3`
 
 图片数: 52
-成功: 46
-失败: 6
+成功: 52
+失败: 0
 
 ## 描述清单
 
@@ -24,6 +24,7 @@
 | Truman-精益创业-低成本验证-案例-4种对比-01.png | 信息图 | 产品验证四版本对比表 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\Truman-精益创业-低成本验证-案例-4种对比-01_vlm_desc.md` |
 | Truman-精益创业-低成本验证-案例01.png | 框架图 | 产品开发方法演进对比表（从All in到精益MVP） | 0.92 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\Truman-精益创业-低成本验证-案例01_vlm_desc.md` |
 | truman-精益创业-低成本验证-过早扩张-01.png | 幻灯片 | 【划重点】过早扩张导致的失败案例 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\truman-精益创业-低成本验证-过早扩张-01_vlm_desc.md` |
+| truman-精益创业-低成本验证-过早细化-01.png | 幻灯片 | 【划重点】我们收到了大量的案例，都是过早细化导致的 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\truman-精益创业-低成本验证-过早细化-01_vlm_desc.md` |
 | truman-精益创业-低成本验证-闭门造车-01.png | 幻灯片 | 【划重点】我们收到了大量的案例，都是闭门造车导致的 | 0.93 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\truman-精益创业-低成本验证-闭门造车-01_vlm_desc.md` |
 | truman-精益创业-低成本验证-需求找错-01.png | 幻灯片 | 【划重点】这种错误极其普遍，几乎是所有项目失败最大的错误 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\truman-精益创业-低成本验证-需求找错-01_vlm_desc.md` |
 | truman-精益创业-关键假设ABCD模型.png | 框架图 | 一堂·关键假设ABCD模型 V2.0 / Yitang ABCD Strategy Model | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\truman-精益创业-关键假设ABCD模型_vlm_desc.md` |
@@ -42,12 +43,17 @@
 | 一堂DOC-20260622212212.png | 幻灯片 | A1.偷偷服务 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\一堂DOC-20260622212212_vlm_desc.md` |
 | 一堂DOC-20260622212224.png | 幻灯片 | A2.超值服务 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\一堂DOC-20260622212224_vlm_desc.md` |
 | 一堂DOC-20260622212241.png | 幻灯片 | L1.借同行产品 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\一堂DOC-20260622212241_vlm_desc.md` |
+| 一堂DOC-20260622212256.png | 教育/商业培训幻灯片 | L2.借现成资源 | 0.96 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\一堂DOC-20260622212256_vlm_desc.md` |
 | 一堂DOC-20260622212311.png | 幻灯片 | L3. 借搭建工具 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\一堂DOC-20260622212311_vlm_desc.md` |
+| 一堂DOC-20260622212323.png | 幻灯片 | L4.借流量工具 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\一堂DOC-20260622212323_vlm_desc.md` |
+| 一堂DOC-20260622212341.png | 幻灯片 | S1.替代高阶研发 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\一堂DOC-20260622212341_vlm_desc.md` |
 | 一堂DOC-20260622212351.png | 幻灯片 | S2.替代复杂系统 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\一堂DOC-20260622212351_vlm_desc.md` |
 | 一堂DOC-20260622212406.png | 信息图 | E1.只发布最小版本 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\一堂DOC-20260622212406_vlm_desc.md` |
 | 一堂DOC-20260622212421.png | 幻灯片 | E2.太复杂就砍功能 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\一堂DOC-20260622212421_vlm_desc.md` |
 | 一堂DOC-20260622212431.png | 幻灯片 | E3.只测试最小数量 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\一堂DOC-20260622212431_vlm_desc.md` |
 | 一堂DOC-20260622212440.png | 幻灯片 | E3.只测试最小数量 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\一堂DOC-20260622212440_vlm_desc.md` |
+| 一堂DOC-20260622212828.png | 信息图 | 第一种范式：灰度测试 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\一堂DOC-20260622212828_vlm_desc.md` |
+| 一堂DOC-20260622213019.png | 幻灯片 | 第二种范式：组合测试 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\一堂DOC-20260622213019_vlm_desc.md` |
 | 一堂DOC-20260622213143.png | 教学示意图 | 第三种范式：里程碑测试 | 0.92 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\一堂DOC-20260622213143_vlm_desc.md` |
 | 低成本验证-系统测试曲线.png | 信息图 | 一堂低成本验证 · 系统测试曲线 | 0.92 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\低成本验证-系统测试曲线_vlm_desc.md` |
 | 元气森林-试错工具箱.png | 幻灯片 | 元气森林的试错工具箱 | 0.96 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\元气森林-试错工具箱_vlm_desc.md` |
@@ -56,12 +62,3 @@
 | 洗发水案例卖点组合.png | 信息图/表格 | 洗发水案例卖点组合 | 0.92 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\洗发水案例卖点组合_vlm_desc.md` |
 | 精益创业-false模型-策略图.png | 信息图 | 一堂低成本创业全景图谱·FALSE模型（Yitang Lean Startup Super Cheatsheet · FALSE Model） | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\精益创业-false模型-策略图_vlm_desc.md` |
 | 萝卜干业务渠道选择预判复盘.png | 框架图 | 萝卜干业务渠道选择预判复盘 | 0.95 | `C:\Users\Administrator\Desktop\wiki\00_inbox\精益创业\萝卜干业务渠道选择预判复盘_vlm_desc.md` |
-
-## 失败列表
-
-- truman-精益创业-低成本验证-过早细化-01.png: no such group
-- 一堂DOC-20260622212256.png: no such group
-- 一堂DOC-20260622212323.png: no such group
-- 一堂DOC-20260622212341.png: no such group
-- 一堂DOC-20260622212828.png: no such group
-- 一堂DOC-20260622213019.png: no such group
