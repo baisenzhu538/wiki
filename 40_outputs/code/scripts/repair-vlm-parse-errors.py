@@ -115,7 +115,46 @@ def _robust_json_parse(text: str) -> dict | None:
                     except Exception:
                         pass
 
-    return None
+    # 终极兜底：字段级正则提取
+    return _regex_field_extract(text)
+
+
+def _regex_field_extract(text: str) -> dict | None:
+    """不依赖 JSON 语法——逐字段正则匹配 VLM 固定结构的 8 个字段。"""
+    KEYS = ["category", "title", "description", "key_elements",
+            "visual_style", "tags", "usable_for", "confidence"]
+
+    def _str(key):
+        # 匹配 "key": "..."  — 值到下一个 key 或 } 为止
+        m = re.search(
+            rf'"{key}"\s*:\s*"((?:(?!",\s*(?:"(?:{"|".join(KEYS)}"|\}}))).)*)"',
+            text, re.DOTALL
+        )
+        return m.group(1) if m else ""
+
+    def _list(key):
+        m = re.search(rf'"{key}"\s*:\s*\[(.*?)\]', text, re.DOTALL)
+        if not m:
+            return []
+        return re.findall(r'"((?:(?!",).)*?)"', m.group(1))
+
+    def _num(key):
+        m = re.search(rf'"{key}"\s*:\s*([0-9.]+)', text)
+        return float(m.group(1)) if m else 0.8
+
+    cat = _str("category")
+    if not cat or cat == "未识别":
+        return None
+    return {
+        "category": cat,
+        "title": _str("title"),
+        "description": _str("description"),
+        "key_elements": _list("key_elements"),
+        "visual_style": _str("visual_style"),
+        "tags": _list("tags"),
+        "usable_for": _str("usable_for"),
+        "confidence": _num("confidence"),
+    }
 
 
 def _extract_balanced_json(text: str) -> str | None:
