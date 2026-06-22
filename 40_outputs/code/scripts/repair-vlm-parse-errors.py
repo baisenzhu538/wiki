@@ -17,35 +17,45 @@ import argparse
 from pathlib import Path
 
 
-def _escape_inner_quotes_in_json_string(text: str) -> str:
+def _fix_unescaped_quotes(text: str) -> str:
     """
     对 JSON 字符串值内部未转义的双引号进行转义。
-    只处理出现在中文字符或中文标点附近的内部引号，避免破坏 JSON 结构。
-    """
-    # 中文字符范围
-    CJK = r"\u4e00-\u9fa5"
-    # 中文标点
-    CJK_PUNCT = r"\uff0c\u3002\u3001\uff1b\uff1a\uff01\uff1f\uff08\uff09\u3010\u3011\u300c\u300d\u300e\u300f\u201c\u201d\u2018\u2019"
 
-    # 情况1：中文字符/中文标点 -> " -> 中文字符/中文标点（内部引号）
-    text = re.sub(
-        rf'(?<=[{CJK}{CJK_PUNCT}])"(?=[{CJK}{CJK_PUNCT}])',
-        r'\\"',
-        text,
-    )
-    # 情况2：中文冒号/西文冒号/逗号 -> " -> 中文字符（如 称为"xxx"）
-    text = re.sub(
-        rf'(?<=[{CJK}{CJK_PUNCT}:,"])"(?=[{CJK}])',
-        r'\\"',
-        text,
-    )
-    # 情况3：中文字符 -> " -> 中文冒号/中文标点（如 xxx"，）
-    text = re.sub(
-        rf'(?<=[{CJK}])"(?=[{CJK_PUNCT}])',
-        r'\\"',
-        text,
-    )
-    return text
+    VLM 经常在中文描述里使用未转义的引号（如 description: "主题为"连续动作""），
+    导致 json/json5 解析失败。本函数通过状态机遍历文本：进入字符串后，只有遇到
+    后面跟着 JSON 结构字符（, : } ]）或文本结束的引号，才视为字符串结束；
+    否则将该引号转义为内部引号。
+    """
+    result = []
+    i = 0
+    n = len(text)
+    in_string = False
+    while i < n:
+        ch = text[i]
+        if ch == '\\' and i + 1 < n:
+            result.append(ch)
+            result.append(text[i + 1])
+            i += 2
+            continue
+        if ch == '"':
+            if not in_string:
+                in_string = True
+                result.append(ch)
+            else:
+                # 判断此引号是否为字符串结束符：后面跟结构字符或已到结尾
+                j = i + 1
+                while j < n and text[j] in ' \t\n\r':
+                    j += 1
+                if j >= n or text[j] in ',:}]':
+                    in_string = False
+                    result.append(ch)
+                else:
+                    result.append('\\"')
+            i += 1
+        else:
+            result.append(ch)
+            i += 1
+    return ''.join(result)
 
 
 def _robust_json_parse(text: str) -> dict | None:
@@ -72,8 +82,8 @@ def _robust_json_parse(text: str) -> dict | None:
         except json.JSONDecodeError:
             pass
 
-        # 2c：修复中文内部引号后重试
-        fixed = _escape_inner_quotes_in_json_string(candidate)
+        # 2c：修复未转义内部引号后重试
+        fixed = _fix_unescaped_quotes(candidate)
         if fixed != candidate:
             try:
                 return json.loads(fixed)
@@ -86,19 +96,20 @@ def _robust_json_parse(text: str) -> dict | None:
                 except Exception:
                     pass
 
-        # 2d：提取最外层平衡 JSON 对象
-        # 使用计数器找到第一个匹配的 {}，而不是贪婪/懒惰正则
+        # 2d：提取最外层平衡 JSON 对象（避开正则的贪婪/懒惰陷阱）
         chunk = _extract_balanced_json(candidate)
         if chunk:
-            for parser in (json.loads, lambda x: json5.loads(x) if "json5" in globals() or __import__("json5").loads(x) else None):
+            # 先对提取的 chunk 也做一次引号修复
+            chunk_fixed = _fix_unescaped_quotes(chunk)
+            for source in (chunk_fixed, chunk):
                 try:
-                    parsed = json.loads(chunk)
+                    parsed = json.loads(source)
                     if isinstance(parsed, dict):
                         return parsed
                 except Exception:
                     try:
                         import json5
-                        parsed = json5.loads(chunk)
+                        parsed = json5.loads(source)
                         if isinstance(parsed, dict):
                             return parsed
                     except Exception:
