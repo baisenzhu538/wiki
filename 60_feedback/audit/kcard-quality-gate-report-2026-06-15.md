@@ -1,12 +1,12 @@
 # KDO 卡片质量门禁报告
 
 **扫描时间**：2026-06-21  
-**扫描范围**：30_wiki 全库 1576 张卡片  
+**扫描范围**：30_wiki 全库 1703 张卡片  
 **锚定评分**：1/5 — 不可用
-**P0 阻塞问题卡片**：338 张  
-**P1 修复问题卡片**：153 张  
-**完全干净卡片**：1087 张  
-**YAML 解析错误**：331 张  
+**P0 阻塞问题卡片**：351 张  
+**P1 修复问题卡片**：238 张  
+**完全干净卡片**：1117 张  
+**YAML 解析错误**：343 张  
 
 ---
 
@@ -893,6 +893,15 @@ could not find expected ':'
 | `frameworks\concept-maister-trusted-advisor.md` | YAML 解析错误: None |
 | `frameworks\concept-mckinsey-7s.md` | YAML 解析错误: None |
 | `frameworks\concept-mckinsey-hypothesis-driven.md` | YAML 解析错误: None |
+| `frameworks\framework-strategy-basics-03-layout.md` | YAML 解析错误: while scanning a simple key
+  in "<unicode string>", line 13, column 1:
+    "[[tool-strategy-three-horizons]]"
+    ^
+could not find expected ':'
+  in "<unicode string>", line 13, column 35:
+    "[[tool-strategy-three-horizons]]"
+                                      ^ |
+| `frameworks\framework-strategy-basics-05-change.md` | id (framework-strategy-basics-04-system) 与文件名 (framework-strategy-basics-05-change) 不一致 |
 | `frameworks\framework-yitang-research-quality-gate.md` | YAML 解析错误: while parsing a block mapping
   in "<unicode string>", line 1, column 1:
     id: framework-yitang-research-qu ... 
@@ -1064,6 +1073,12 @@ could not find expected ':'
   in "<unicode string>", line 22, column 1:
     ## Purpose
     ^ |
+| `tools\tool-demand-iceberg-l1-user.md` | YAML 解析错误: None |
+| `tools\tool-demand-iceberg-l2-scenario.md` | YAML 解析错误: None |
+| `tools\tool-demand-iceberg-l3-core-job.md` | YAML 解析错误: None |
+| `tools\tool-demand-iceberg-l4-job-map.md` | YAML 解析错误: None |
+| `tools\tool-demand-iceberg-l5-forces.md` | YAML 解析错误: None |
+| `tools\tool-demand-iceberg-l6-hypothesis.md` | YAML 解析错误: None |
 | `tools\tool-smart-medicine-cabinet-compliance-checklist.md` | YAML 解析错误: while scanning a simple key
   in "<unicode string>", line 19, column 1:
     ------
@@ -1080,6 +1095,11 @@ could not find expected ':'
   in "<unicode string>", line 24, column 1:
     ## Purpose
     ^ |
+| `tools\tool-strategy-activity-scope.md` | YAML 解析错误: None |
+| `tools\tool-strategy-control-points.md` | YAML 解析错误: None |
+| `tools\tool-strategy-risk-management.md` | YAML 解析错误: None |
+| `tools\tool-strategy-value-capture.md` | YAML 解析错误: None |
+| `tools\tool-strategy-value-proposition.md` | YAML 解析错误: None |
 | `tools\yt-pitch-metaphor.md` | YAML 解析错误: while scanning a simple key
   in "<unicode string>", line 35, column 1:
     ---# 讲香·比喻化
@@ -1127,6 +1147,13 @@ could not find expected ':'
 
 | 文件 | P1 问题 |
 |---|---|
+| `cases\case-candy-problem-os-vpn.md` | trust_level=high 但 source 仅 1 个 |
+| `cases\case-demand-financial-literacy.md` | trust_level=high 但 source 仅 1 个 |
+| `cases\case-demand-milkshake-jtbd.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `cases\case-demand-pharma-bigdata.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `cases\case-demand-restaurant-hiring.md` | trust_level=high 但 source 仅 1 个 |
+| `cases\case-demand-rural-5g.md` | trust_level=high 但 source 仅 1 个 |
+| `cases\case-demand-silver-parenting.md` | trust_level=high 但 source 仅 1 个 |
 | `cases\case-doris-beauty-ecommerce-channel.md` | trust_level=high 但 source 仅 1 个 |
 | `cases\case-doris-catering-chain-benchmark.md` | trust_level=high 但 source 仅 1 个 |
 | `cases\case-doris-crossborder-ecommerce-opportunity.md` | trust_level=high 但 source 仅 1 个 |
@@ -1137,6 +1164,20 @@ could not find expected ':'
 | `cases\case-neworiental-prospectus-marketing.md` | trust_level=high 但 source 仅 1 个 |
 | `cases\case-popmart-prospectus-pricing.md` | trust_level=high 但 source 仅 1 个 |
 | `cases\case-proya-betaine-skincare-benchmark.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `cases\case-strategy-cool-boiled-water.md` | trust_level=high 但 source 仅 1 个 |
+| `cases\case-strategy-edward-jones.md` | trust_level=high 但 source 仅 1 个 |
+| `cases\case-strategy-fangte-disney.md` | trust_level=high 但 source 仅 1 个 |
+| `cases\case-strategy-lekai-film.md` | trust_level=high 但 source 仅 1 个 |
+| `cases\case-strategy-li-ka-shing.md` | trust_level=high 但 source 仅 1 个 |
+| `cases\case-strategy-longzhong-plan.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `cases\case-strategy-practice-10-turnaround.md` | trust_level=high 但 source 仅 1 个 |
+| `cases\case-strategy-practice-11-third-place.md` | trust_level=high 但 source 仅 1 个 |
+| `cases\case-strategy-practice-12-zero-loss.md` | trust_level=high 但 source 仅 1 个 |
+| `cases\case-strategy-practice-ranpeng-crossborder.md` | trust_level=high 但 source 仅 1 个 |
+| `cases\case-strategy-practice-ranpeng-milk-powder.md` | trust_level=high 但 source 仅 1 个 |
+| `cases\case-strategy-shell-oil.md` | trust_level=high 但 source 仅 1 个 |
+| `cases\case-strategy-wuxi-suntech.md` | trust_level=high 但 source 仅 1 个 |
+| `cases\case-strategy-xiaobear.md` | trust_level=high 但 source 仅 1 个 |
 | `cases\case-yitang-ai-time-management-coach.md` | trust_level=high 但 source 仅 1 个 |
 | `cases\case-yitang-beauty-device-overseas-sales.md` | trust_level=high 但 source 仅 1 个 |
 | `cases\case-yitang-competitor-pricing-intelligence.md` | trust_level=high 但 source 仅 1 个 |
@@ -1157,14 +1198,41 @@ could not find expected ':'
 | `cases\case-zhanglan-amusement-park-undercover.md` | trust_level=high 但 source 仅 1 个 |
 | `cases\case-zhanglei-furniture-overseas-market-selection.md` | trust_level=high 但 source 仅 1 个 |
 | `cases\case-zhanglei-nursing-home-family.md` | trust_level=high 但 source 仅 1 个 |
+| `concepts\concept-candy-ai-as-collaborator.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
 | `concepts\concept-harness-cattle-not-pets.md` | trust_level=high 但 source 仅 1 个 |
 | `concepts\concept-harness-scoring-anchors.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `concepts\concept-strategy-evolution-cycle.md` | trust_level=high 但 source 仅 1 个 |
+| `concepts\concept-strategy-framework-landscape.md` | trust_level=high 但 source 仅 1 个 |
 | `concepts\concept-yitang-ai-research-10-assumptions.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
 | `concepts\concept-yitang-ideal-research-goal.md` | trust_level=high 但 source 仅 1 个 |
 | `concepts\concept-yitang-research-facts-first.md` | dangling 链接: dk-yitang-research-expert-trap, dk-yitang-research-expert-trap |
-| `concepts\concept-yitang-research-objective.md` | dangling 链接: tool-yitang-research-checklist, dk-yitang-research-novice-vs-veteran, dk-yitang-research-novice-vs-veteran, tool-yitang-research-checklist, case-yitang-haidilao-service-research |
-| `concepts\concept-yitang-research-scope.md` | dangling 链接: dk-yitang-research-cost-match, tool-yitang-research-checklist, dk-yitang-research-cost-match, dk-yitang-research-novice-vs-veteran, dk-yitang-research-novice-vs-veteran |
-| `decisions\plan_20260621_domain-index-infrastructure.md` | status 值异常: approved; dangling 链接: track-production-progress.py, check-source-refs.py |
+| `concepts\concept-yitang-research-objective.md` | dangling 链接: tool-yitang-research-checklist, case-yitang-haidilao-service-research, tool-yitang-research-checklist, dk-yitang-research-novice-vs-veteran, case-yitang-haidilao-service-research |
+| `concepts\concept-yitang-research-scope.md` | dangling 链接: tool-yitang-research-checklist, tool-yitang-research-checklist, dk-yitang-research-novice-vs-veteran, dk-yitang-research-cost-match, dk-yitang-research-novice-vs-veteran |
+| `dark-knowledges\dk-demand-feature-stacking.md` | type 值异常: dark_knowledge; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-demand-hidden-need.md` | type 值异常: dark_knowledge; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-demand-misjudgment-rate.md` | type 值异常: dark_knowledge; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-demand-pitfall-dialer.md` | type 值异常: dark_knowledge; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-demand-pitfall-financial-literacy.md` | type 值异常: dark_knowledge; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-demand-pitfall-indonesia-insurance.md` | type 值异常: dark_knowledge; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-demand-pitfall-restaurant-hiring.md` | type 值异常: dark_knowledge; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-demand-pitfall-rural-5g.md` | type 值异常: dark_knowledge; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-demand-pitfall-tier4-housekeeping.md` | type 值异常: dark_knowledge; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-demand-pitfall-travel-agent.md` | type 值异常: dark_knowledge; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-demand-premature-solution.md` | type 值异常: dark_knowledge; confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-demand-switching-cost.md` | type 值异常: dark_knowledge; confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-strategy-01-not-goal-setting.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-strategy-02-three-paradoxes.md` | trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-strategy-03-advantage-temporary.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-strategy-04-consulting-trap.md` | trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-strategy-05-positioning-trap.md` | trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-strategy-06-dividend-to-strategy.md` | trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-strategy-07-strategy-vs-dividend.md` | trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-strategy-08-not-local-optimum.md` | trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-strategy-consulting-jokes.md` | trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-strategy-essence-four-elements.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-strategy-longzhong-four-failures.md` | trust_level=high 但 source 仅 1 个 |
+| `dark-knowledges\dk-strategy-three-must-do-moments.md` | trust_level=high 但 source 仅 1 个 |
+| `decisions\plan_20260621_domain-index-infrastructure.md` | status 值异常: approved; dangling 链接: check-source-refs.py, track-production-progress.py |
 | `decisions\plan_20260621_skill-iteration-standard.md` | status 值异常: approved |
 | `dk\dk-yitang-ai-research-prompt-craft.md` | type 值异常: dark_knowledge |
 | `dk\dk-yitang-cross-case-pattern-failure-premium.md` | type 值异常: dark_knowledge |
@@ -1184,26 +1252,63 @@ could not find expected ':'
 | `dk\dk-yitang-research-starter-vs-veteran.md` | type 值异常: dark_knowledge; confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
 | `dk\dk-yitang-survivor-bias-in-research.md` | type 值异常: dark_knowledge; confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
 | `entities\七件事集团.md` | confidence=0.9 但 source 仅 1 个 |
+| `frameworks\framework-candy-transcript-workflow.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `frameworks\framework-demand-opportunity-spectrum.md` | trust_level=high 但 source 仅 1 个 |
+| `frameworks\framework-demand-usp-model.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
 | `frameworks\framework-multi-agent-research-architecture.md` | dangling 链接: concepts/kimi-深度调研集群方法论-deep-research-swarm |
 | `frameworks\framework-ouyangfeng-review-methodology.md` | status=draft 但 confidence=0.88 |
+| `frameworks\framework-strategy-basics-01-core.md` | trust_level=high 但 source 仅 1 个 |
+| `frameworks\framework-strategy-basics-02-insight.md` | trust_level=high 但 source 仅 1 个 |
+| `frameworks\framework-strategy-basics-04-system.md` | trust_level=high 但 source 仅 1 个 |
+| `frameworks\framework-strategy-basics-05-change.md` | trust_level=high 但 source 仅 1 个 |
 | `frameworks\framework-yitang-expert-interview-10steps.md` | dangling 链接: tool-yitang-linkedin-expert, tool-yitang-linkedin-expert |
-| `frameworks\framework-yitang-high-level-execution.md` | dangling 链接: tool-yitang-research-reasoning, tool-yitang-research-acquisition, tool-yitang-research-acquisition, tool-yitang-research-reasoning |
+| `frameworks\framework-yitang-high-level-execution.md` | dangling 链接: tool-yitang-research-acquisition, tool-yitang-research-reasoning, tool-yitang-research-reasoning, tool-yitang-research-acquisition |
 | `frameworks\framework-yitang-high-level-plan.md` | dangling 链接: tool-yitang-research-checklist, tool-yitang-research-checklist |
-| `frameworks\framework-yitang-iterative-recursive-digging.md` | dangling 链接: dk-yitang-research-survivorship-bias, dk-yitang-research-survivorship-bias, dk-yitang-research-novice-vs-veteran, dk-yitang-research-novice-vs-veteran, dk-yitang-research-determination |
-| `frameworks\framework-yitang-oscar-research.md` | dangling 链接: tool-yitang-research-checklist, tool-yitang-research-reasoning, tool-yitang-research-checklist, tool-yitang-research-acquisition, tool-yitang-research-acquisition |
+| `frameworks\framework-yitang-iterative-recursive-digging.md` | dangling 链接: dk-yitang-research-determination, dk-yitang-research-survivorship-bias, dk-yitang-research-novice-vs-veteran, dk-yitang-research-novice-vs-veteran, dk-yitang-research-survivorship-bias |
+| `frameworks\framework-yitang-oscar-research.md` | dangling 链接: tool-yitang-research-checklist, tool-yitang-research-acquisition, tool-yitang-research-reasoning, tool-yitang-research-reasoning, tool-yitang-research-checklist |
 | `frameworks\framework-yitang-research-weapon-supplement-2026.md` | status=draft 但 confidence=0.88 |
-| `frameworks\framework-yitang-six-layer-cross-validation.md` | dangling 链接: tool-yitang-research-facts-first, tool-yitang-research-facts-first, dk-yitang-research-expert-trap, case-yitang-haidilao-service-research, dk-yitang-research-expert-trap |
+| `frameworks\framework-yitang-six-layer-cross-validation.md` | dangling 链接: case-yitang-haidilao-service-research, tool-yitang-research-facts-first, case-yitang-haidilao-service-research, dk-yitang-research-expert-trap, tool-yitang-research-facts-first |
 | `frameworks\yt-tob-barriers.md` | trust_level=high 但 source 仅 0 个 |
+| `prompt-methodology\prompt-demand-ai-coach.md` | type 值异常: prompt-methodology; confidence=0.92 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
 | `tools\tool-agent-research-pipeline.md` | trust_level=high 但 source 仅 1 个 |
 | `tools\tool-agent-research-supervisor.md` | trust_level=high 但 source 仅 1 个 |
 | `tools\tool-agent-research-swarm.md` | dangling 链接: concepts/kimi-深度调研集群方法论-deep-research-swarm |
+| `tools\tool-candy-oral-polish.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `tools\tool-candy-positioning-canvas.md` | trust_level=high 但 source 仅 1 个 |
 | `tools\tool-ci-define-phase.md` | trust_level=high 但 source 仅 1 个 |
 | `tools\tool-ci-implement-phase.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-demand-agent-auto-verify.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-demand-agent-case-match.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-demand-agent-l4-case-match.md` | dangling 链接: tool-demand-agent-l3-multi-hypothesis |
+| `tools\tool-demand-agent-multi-hypothesis.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-demand-agent-signal-substitute.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-demand-assessment-triangle.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `tools\tool-demand-blindspot-checklist.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-demand-four-forces.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `tools\tool-demand-report-template.md` | dangling 链接: demand-analysis-synthetic, five-step-barrier |
 | `tools\tool-devils-advocacy.md` | dangling 链接: concept-半肥猫-ai-research-validation; confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
 | `tools\tool-harness-adversarial-tester.md` | trust_level=high 但 source 仅 1 个 |
 | `tools\tool-indicators-signposts.md` | trust_level=high 但 source 仅 1 个 |
 | `tools\tool-key-assumptions-check.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `tools\tool-prompt-iceberg-demand-analysis.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-prompt-jtbd-scenario-coach.md` | dangling 链接: framework-yitang-jtbd-theory; confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `tools\tool-prompt-usp-demand-analysis.md` | dangling 链接: framework-yitang-usp-model, framework-yitang-jtbd-theory |
+| `tools\tool-prompt-usp-quick-scan.md` | dangling 链接: framework-yitang-usp-model; trust_level=high 但 source 仅 1 个 |
 | `tools\tool-red-team-analysis.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-strategy-12-word-test.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-strategy-business-summary.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-strategy-capability-matrix.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-strategy-competition-traps.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-strategy-fishbone.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `tools\tool-strategy-five-see-three-set.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-strategy-four-layers.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-strategy-four-moves.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-strategy-gap-analysis.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `tools\tool-strategy-map.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-strategy-nine-problems.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `tools\tool-strategy-pareto.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
+| `tools\tool-strategy-sentence-formula.md` | trust_level=high 但 source 仅 1 个 |
+| `tools\tool-strategy-three-horizons.md` | confidence=0.9 但 source 仅 1 个; trust_level=high 但 source 仅 1 个 |
 | `tools\tool-yitang-ai-assisted-analysis.md` | trust_level=high 但 source 仅 1 个 |
 | `tools\tool-yitang-ai-assisted-organize.md` | trust_level=high 但 source 仅 1 个 |
 | `tools\tool-yitang-ai-monitoring-alert.md` | trust_level=high 但 source 仅 1 个 |
@@ -1246,23 +1351,23 @@ could not find expected ':'
 | `tools\tool-yitang-public-information-research.md` | trust_level=high 但 source 仅 1 个 |
 | `tools\tool-yitang-public-sentiment-research.md` | trust_level=high 但 source 仅 1 个 |
 | `tools\tool-yitang-recruit-user-interview.md` | trust_level=high 但 source 仅 1 个 |
-| `tools\tool-yitang-research-best-practice.md` | dangling 链接: dk-yitang-research-survivorship-bias, dk-yitang-research-survivorship-bias, dk-yitang-research-novice-vs-veteran, dk-yitang-research-novice-vs-veteran, case-yitang-haidilao-service-research |
-| `tools\tool-yitang-research-company-disassembly.md` | dangling 链接: dk-yitang-research-survivorship-bias, dk-yitang-research-survivorship-bias, dk-yitang-research-novice-vs-veteran, dk-yitang-research-novice-vs-veteran, case-yitang-haidilao-service-research |
-| `tools\tool-yitang-research-competitive-quadrant.md` | dangling 链接: dk-yitang-research-novice-vs-veteran, dk-yitang-research-novice-vs-veteran, case-yitang-haidilao-service-research, case-yitang-haidilao-service-research |
-| `tools\tool-yitang-research-competitor-tracking.md` | dangling 链接: dk-yitang-research-novice-vs-veteran, dk-yitang-research-novice-vs-veteran, case-yitang-haidilao-service-research, case-yitang-haidilao-service-research |
-| `tools\tool-yitang-research-cross-validation.md` | dangling 链接: dk-yitang-research-expert-trap, tool-yitang-research-facts-first, tool-yitang-research-facts-first, dk-yitang-research-expert-trap |
-| `tools\tool-yitang-research-deep-attribution.md` | dangling 链接: dk-yitang-research-determination, dk-yitang-research-novice-vs-veteran, dk-yitang-research-determination, dk-yitang-research-novice-vs-veteran |
+| `tools\tool-yitang-research-best-practice.md` | dangling 链接: case-yitang-haidilao-service-research, dk-yitang-research-survivorship-bias, dk-yitang-research-novice-vs-veteran, case-yitang-haidilao-service-research, dk-yitang-research-novice-vs-veteran |
+| `tools\tool-yitang-research-company-disassembly.md` | dangling 链接: case-yitang-haidilao-service-research, dk-yitang-research-survivorship-bias, dk-yitang-research-novice-vs-veteran, case-yitang-haidilao-service-research, dk-yitang-research-novice-vs-veteran |
+| `tools\tool-yitang-research-competitive-quadrant.md` | dangling 链接: case-yitang-haidilao-service-research, dk-yitang-research-novice-vs-veteran, case-yitang-haidilao-service-research, dk-yitang-research-novice-vs-veteran |
+| `tools\tool-yitang-research-competitor-tracking.md` | dangling 链接: case-yitang-haidilao-service-research, dk-yitang-research-novice-vs-veteran, case-yitang-haidilao-service-research, dk-yitang-research-novice-vs-veteran |
+| `tools\tool-yitang-research-cross-validation.md` | dangling 链接: tool-yitang-research-facts-first, dk-yitang-research-expert-trap, dk-yitang-research-expert-trap, tool-yitang-research-facts-first |
+| `tools\tool-yitang-research-deep-attribution.md` | dangling 链接: dk-yitang-research-novice-vs-veteran, dk-yitang-research-determination, dk-yitang-research-novice-vs-veteran, dk-yitang-research-determination |
 | `tools\tool-yitang-research-exhaust-means.md` | dangling 链接: dk-yitang-research-novice-vs-veteran, dk-yitang-research-novice-vs-veteran |
-| `tools\tool-yitang-research-follow-map.md` | dangling 链接: dk-yitang-research-survivorship-bias, dk-yitang-research-survivorship-bias, dk-yitang-research-novice-vs-veteran, dk-yitang-research-novice-vs-veteran, case-yitang-haidilao-service-research |
+| `tools\tool-yitang-research-follow-map.md` | dangling 链接: case-yitang-haidilao-service-research, dk-yitang-research-survivorship-bias, dk-yitang-research-novice-vs-veteran, case-yitang-haidilao-service-research, dk-yitang-research-novice-vs-veteran |
 | `tools\tool-yitang-research-industry-scan.md` | dangling 链接: dk-yitang-research-novice-vs-veteran, dk-yitang-research-novice-vs-veteran |
 | `tools\tool-yitang-research-intelligence-map-in-hand.md` | dangling 链接: dk-yitang-research-novice-vs-veteran, dk-yitang-research-novice-vs-veteran |
 | `tools\tool-yitang-research-normalize-summary.md` | dangling 链接: dk-yitang-research-novice-vs-veteran, dk-yitang-research-novice-vs-veteran |
-| `tools\tool-yitang-research-quantitative-modeling.md` | dangling 链接: dk-yitang-research-expert-trap, tool-yitang-research-facts-first, tool-yitang-research-facts-first, dk-yitang-research-expert-trap |
-| `tools\tool-yitang-research-single-point-sniper.md` | dangling 链接: tool-yitang-research-hypothesis-test, dk-yitang-research-determination, tool-yitang-research-hypothesis-test, dk-yitang-research-novice-vs-veteran, dk-yitang-research-determination |
-| `tools\tool-yitang-research-two-dimensional-positioning.md` | dangling 链接: dk-yitang-research-novice-vs-veteran, dk-yitang-research-novice-vs-veteran, case-yitang-haidilao-service-research, case-yitang-haidilao-service-research |
-| `tools\tool-yitang-research-unit-model.md` | dangling 链接: dk-yitang-research-cost-match, dk-yitang-research-cost-match, dk-yitang-research-novice-vs-veteran, dk-yitang-research-novice-vs-veteran, case-yitang-haidilao-service-research |
-| `tools\tool-yitang-research-validate-assumption.md` | dangling 链接: dk-yitang-research-novice-vs-veteran, dk-yitang-research-novice-vs-veteran, tool-yitang-research-hypothesis-test, case-yitang-haidilao-service-research, tool-yitang-research-hypothesis-test |
-| `tools\tool-yitang-reverse-data-analysis.md` | dangling 链接: tool-yitang-id-increment-analysis, tool-yitang-product-reverse-engineering, tool-yitang-offline-store-reconnaissance, tool-yitang-id-increment-analysis, tool-yitang-web-crawler-research |
+| `tools\tool-yitang-research-quantitative-modeling.md` | dangling 链接: tool-yitang-research-facts-first, dk-yitang-research-expert-trap, dk-yitang-research-expert-trap, tool-yitang-research-facts-first |
+| `tools\tool-yitang-research-single-point-sniper.md` | dangling 链接: dk-yitang-research-novice-vs-veteran, dk-yitang-research-determination, tool-yitang-research-hypothesis-test, tool-yitang-research-hypothesis-test, dk-yitang-research-novice-vs-veteran |
+| `tools\tool-yitang-research-two-dimensional-positioning.md` | dangling 链接: case-yitang-haidilao-service-research, dk-yitang-research-novice-vs-veteran, case-yitang-haidilao-service-research, dk-yitang-research-novice-vs-veteran |
+| `tools\tool-yitang-research-unit-model.md` | dangling 链接: case-yitang-haidilao-service-research, dk-yitang-research-novice-vs-veteran, dk-yitang-research-cost-match, case-yitang-haidilao-service-research, dk-yitang-research-novice-vs-veteran |
+| `tools\tool-yitang-research-validate-assumption.md` | dangling 链接: tool-yitang-research-hypothesis-test, case-yitang-haidilao-service-research, dk-yitang-research-novice-vs-veteran, tool-yitang-research-hypothesis-test, case-yitang-haidilao-service-research |
+| `tools\tool-yitang-reverse-data-analysis.md` | dangling 链接: tool-yitang-web-crawler-research, tool-yitang-offline-store-reconnaissance, tool-yitang-id-increment-analysis, tool-yitang-product-reverse-engineering, tool-yitang-id-increment-analysis |
 | `tools\tool-yitang-review-analysis.md` | trust_level=high 但 source 仅 1 个 |
 | `tools\tool-yitang-securities-research.md` | trust_level=high 但 source 仅 1 个 |
 | `tools\tool-yitang-shareholder-analysis.md` | trust_level=high 但 source 仅 1 个 |

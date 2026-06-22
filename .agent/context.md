@@ -1,14 +1,18 @@
 ---
-updated: 2026-06-21
+updated: 2026-06-22
 active_branch: main
-active_task: "调研域完整建制收工（100+ 张卡 + 7 个 Skill + 工作流 + 质量门 + 映射表）。欧阳锋审查方法论已固化为 framework-ouyangfeng-review-methodology"
+active_task: "CLI 王语嫣重标冉鹏 PPT 视觉层完成，产出诊断记录 + 更新生产任务文件。待欧阳锋确认新增 11 张卡优先级，老顽童按 v2 标准补 5 张 tool 卡"
 blockers:
   - "老顽童调研域 supplement 卡管线违规已处理（corr_20260621）"
   - "调研域全部 Wave 0→4 生产完成，30 张新卡已入库"
   - "王语嫣 Harness Engineering 文档诊断 3🟢+2🟡 已批"
   - "Y 模型决策域（66 张卡）列为下一 Skill 化候选 P0"
   - "欧阳锋审查方法论新卡待首次实地使用后更新"
-next_session_hint: "调研域全线完工。欧阳锋审查方法论 framework-ouyangfeng-review-methodology 已注册到 startup.md 导航。下一优先级：Y 模型决策域 Skill 化（黄药师排期）。老顽童待命"
+  - "🆕 飞书王语嫣误判冉鹏 PPT 视觉层——CLI 已重标，113 张 parse error 为 P-33 模式，内层 JSON 高质量可用"
+  - "🆕 战略域 5 张 tool 卡 v2 待老顽童补完（source_refs 已精确到幻灯片编号）"
+  - "🆕 新增 11 张业务设计/战略能力卡片待欧阳锋确认优先级"
+  - "🆕 凯纳创新框架未在 PPT 中找到，需用户/欧阳锋确认是否存在"
+next_session_hint: "老顽童优先补完 5 张 tool 卡 v2；欧阳锋确认新增 11 张卡优先级；黄药师修复 P-33 parse error 脚本。CLI 王语嫣待命"
 ---
 
 ## 📢 全厂通知（2026-06-19）

@@ -1,6 +1,6 @@
 ---
 role: 老顽童（Producer）
-updated: 2026-06-11
+updated: 2026-06-22
 ---
 
 ## 你是谁
@@ -28,13 +28,16 @@ updated: 2026-06-11
 - **主动执行 KF-025**：全域案例回溯 35+ 张 case 卡 + 12 张 dk 卡 + 3 张新 dk 卡，修复"框架丰满、案例空缺"的系统性盲区
 - 第十九节、第二十节 30+30 张卡深度精修 → 欧阳锋/王语嫣评估均为 **A**
 
-**当前执行中（2026-06-20 批量工单）**：
-- 主工单：`70_product/tasks/laowantong-batch-2026-06-20.md`
-- 第 1 波：门禁快速清理（11 张卡）
-- 第 2 波：P0 返工（13 张卡）—— 业务公式域 + AI 短剧域 + AI PPT 工具卡
-- 第 3 波：P1 返工（14 张卡 + 2 项清理）—— 建模域 + 综合卡格式转换 + 数据验证 + 药柜内容分离
-- 第 4 波：新域建设（15 张卡）—— 调研方法论域 8 张 + master 域 7 张（待审批）
-- 第 5 波：KF-021 收尾协助（33 张 source 缺失，王语嫣牵头）
+**当前执行中（2026-06-22 更新）**：
+- 主工单：`60_feedback/tasks/task_20260621_战略域PPT补强_黄药师标杆.md`
+- 动作：CLI 王语嫣重标冉鹏 PPT 视觉层后，老顽童按 v2 标准补 5 张战略域 tool 卡
+- 5 张待补卡：`tool-strategy-value-proposition` / `tool-strategy-value-capture` / `tool-strategy-activity-scope` / `tool-strategy-control-points` / `tool-strategy-risk-management`
+- 标杆卡：`30_wiki/tools/tool-strategy-customer-selection.md`（v2 已升级）
+- 诊断记录：`60_feedback/diagnosis/diag_20260622_战略域PPT视觉层重标_CLI王语嫣.md`
+- 素材路径：`00_inbox/战略专题/冉鹏PPT截图/`
+
+**已暂停/过期（不要继续）**：
+- `70_product/tasks/laowantong-batch-2026-06-20.md` waves 1-2 因战略域 PPT 补强插入而暂停，未取消；重启需欧阳锋/用户明确指令
 
 ## 铁律（执行前读一遍）
 
@@ -44,6 +47,29 @@ updated: 2026-06-11
 4. 写新卡前先 `kdo cards --domain <domain>` 查同域已有卡。
 5. 新域素材第一步：扫描图片→OCR→读文本。搜索不能只靠文件名，要全文搜主题词。
 6. 产新卡后跑 `kdo index --rebuild`。
+7. **🆕 接到新域/新素材，第一步不是写卡——是 WebSearch 调研业界最佳实践。** 卡片的方法论是否与国际通行框架一致？有没有 2025-2026 年的新研究？P-28 教训：不调研就写 = 浪费一个版本。
+8. **🆕 每批卡提交前，跑一次自攻击。** 调用 `kdo-self-attack` Skill（`40_outputs/capabilities/skills/shared/kdo-self-attack/SKILL.md`）——四路 Agent 攻击卡片逻辑漏洞。人只审攻击报告。自攻击通过后再交欧阳锋。
+9. **🆕 写完卡必须桥接 Hermes。** Skill/工具卡写完 Claude Code 版后，确认 `40_outputs/capabilities/skills/shared/` 下有对应副本。没有 → 通知黄药师补桥接。
+
+## 🆕 调研 Skill 路由（接到新域/新素材时用）
+
+> 全部在 `40_outputs/capabilities/skills/shared/` 下。总入口：`research/SKILL.md`（OSCAR + 13 武器体系）。
+
+| 场景 | 用哪个 |
+|:--|:--|
+| 域内有财报/上市公司数据 | `research-financial-report` |
+| 需要行业报告/市场规模 | `research-industry-report` |
+| 需要抓取网页/公众号 | `research-web-scraping` |
+| 需要全网交叉验证框架 | `research-cross-validation` |
+| 需要模拟专家访谈 | `research-expert-interview` |
+| 需要公开情报搜集 | `research-osint` |
+| 需要替代数据源 | `research-alt-data` |
+| 需要 Google Dorking 深搜 | `research-google-dorking` |
+| 需要媒体验证信息真伪 | `research-media-verification` |
+| 需要多 Agent 并行调研 | `research-multi-agent` |
+| 需要 SATs 结构化攻击测试 | `research-sats` |
+| 需要 CI 框架持续监控 | `research-ci-framework` |
+| 调研结果需要质量把关 | `research-quality-gate` |
 7. **KF-025 域完成三问自检**（v1.9）：每个域完成前必须自答——① 案例够了吗（每个框架至少配 1 张真实案例卡）？② 暗知识在哪里（讲师随口说的心法/失败模式/判断口诀是否已提取为 dk 卡）？③ 这些案例有共同模式吗（跨案例共性根因是否已写成 synthesis 卡）？三问答不上来→域未完成，不得标记为收工。
 
 ## 产出标准
