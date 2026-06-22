@@ -12,7 +12,6 @@ import re
 import sys
 from pathlib import Path
 
-# 尝试加载 json5（更宽容的 JSON 解析器）
 try:
     import json5
 except ImportError:
@@ -20,56 +19,41 @@ except ImportError:
 
 
 def extract_inner_json_from_description(desc_text: str) -> dict | None:
-    """从 fallback 写入的 description 字段中提取内嵌 JSON。
+    """从 fallback 写入的 description 字段中提取内嵌 JSON。"""
+    candidates = []
 
-    fallback 将 VLM 原始返回（含 markdown fence + JSON）写入了 description。
-    这里反向提取。
-    """
-    # 情况 1: description 以 ```json 开头 → 整个就是被 fence 包裹的 JSON
-    fence_inner = re.search(r'```(?:json)?\s*\n?(.*?)```', desc_text, re.DOTALL)
-    if fence_inner:
-        chunk = fence_inner.group(1).strip()
-        parsed = _try_parse(chunk)
-        if parsed:
-            return parsed
+    # 情况 1: description 里有 ```json ... ``` fence
+    for m in re.finditer(r'```(?:json)?\s*\n?(.*?)```', desc_text, re.DOTALL):
+        candidates.append(m.group(1).strip())
 
-    # 情况 2: description 本身就是 JSON 字符串（无 fence）
+    # 情况 2: description 本身就是 JSON
     if desc_text.strip().startswith('{'):
-        parsed = _try_parse(desc_text)
+        candidates.append(desc_text.strip())
+
+    for chunk in candidates:
+        parsed = _robust_parse(chunk)
         if parsed:
             return parsed
-
-    # 情况 3: 从任意位置提取 JSON 对象
-    for pattern in [r'\{[\s\S]*\}', r'\{[\s\S]*?\}']:
-        for match in re.finditer(pattern, desc_text):
-            parsed = _try_parse(match.group(0))
-            if parsed:
-                return parsed
 
     return None
 
 
-def _try_parse(text: str) -> dict | None:
-    """尝试解析 JSON，含中文引号修复 + json5 兜底。"""
-    # 预处理：修复 JSON 字符串值内部的中文裸引号
-    fixed = _escape_chinese_context_quotes(text)
+def _robust_parse(text: str) -> dict | None:
+    """多策略 JSON 解析，专门处理中文引号未转义的问题。"""
+    # Pass 1: 清洗中文语境下的裸双引号
+    cleaned = _clean_chinese_quotes(text)
 
-    if json5:
-        try:
-            parsed = json5.loads(fixed)
-            if isinstance(parsed, dict) and "category" in parsed:
-                return parsed
-        except Exception:
-            pass
-        # 原文本也试一次
-        try:
-            parsed = json5.loads(text)
-            if isinstance(parsed, dict) and "category" in parsed:
-                return parsed
-        except Exception:
-            pass
+    for candidate in [cleaned, text]:
+        # json5
+        if json5:
+            try:
+                parsed = json5.loads(candidate)
+                if isinstance(parsed, dict) and "category" in parsed:
+                    return parsed
+            except Exception:
+                pass
 
-    for candidate in [fixed, text]:
+        # stdlib json
         try:
             parsed = json.loads(candidate)
             if isinstance(parsed, dict) and "category" in parsed:
@@ -80,110 +64,65 @@ def _try_parse(text: str) -> dict | None:
     return None
 
 
-def _escape_chinese_context_quotes(text: str) -> str:
-    """修复 JSON 字符串值内中文语境下的裸双引号。
+def _clean_chinese_quotes(text: str) -> str:
+    """将 JSON 字符串值内、中文语境下的裸双引号转义。
 
-    模式: 中文文字 " 中文文字  →  中文文字 \" 中文文字
-    如: 标题为"保密条款" → 标题为\"保密条款\"
-        称为"xxx" → 称为\"xxx\"
+    模式: 中文字符后面的 " 后面跟着中文字符 → 转义
+    例如: 标题为"保密条款" → 标题为\"保密条款\"
+         称为"xxx" → 称为\"xxx\"
+         主题为"连续动作" → 主题为\"连续动作\"
     """
-    import re
-    result = []
-    i = 0
-    in_string = False
-    string_char = None
-    escape_next = False
-
-    while i < len(text):
-        ch = text[i]
-        if escape_next:
-            result.append(ch)
-            escape_next = False
-            i += 1
-            continue
-        if ch == '\\' and in_string:
-            result.append(ch)
-            escape_next = True
-            i += 1
-            continue
-        if ch == '"' and not in_string:
-            in_string = True
-            string_char = '"'
-            result.append(ch)
-            i += 1
-            continue
-        if ch == '"' and in_string:
-            # 消耗后续空白看是不是真正的 JSON 键/分隔符
-            after = i + 1
-            while after < len(text) and text[after] in ' \t\n\r':
-                after += 1
-            if after < len(text) and text[after] in ':,':
-                # 真正的 JSON 语法：字符串结束，后跟 : 或 ,
-                in_string = False
-                result.append(ch)
-            elif after < len(text) and text[after] == '"':
-                # 连续两个引号 → 下一个字符串开始（JSON 键值对之间）
-                in_string = False
-                result.append(ch)
-            elif i > 0 and _has_chinese_context(text, i):
-                # 中文语境下的裸引号 → 转义
-                result.append('\\"')
-            else:
-                in_string = False
-                result.append(ch)
-            i += 1
-            continue
-        result.append(ch)
-        i += 1
-
-    return ''.join(result)
-
-
-def _has_chinese_context(text: str, pos: int) -> bool:
-    """检查位置 pos 的引号是否夹在中文语境中。"""
-    # 向前找最近的中文字符
-    for j in range(pos - 1, max(pos - 30, -1), -1):
-        if '一' <= text[j] <= '鿿' or text[j] in '，。、；：！？）】》':
-            # 有中文在前 → 中文语境
-            return True
-        if text[j] in '"\n{}[]':
-            break
-    # 向后找最近的中文字符
-    for j in range(pos + 1, min(pos + 30, len(text))):
-        if '一' <= text[j] <= '鿿' or text[j] in '，。、；：！？（【《':
-            return True
-        if text[j] in '"\n{}[]':
-            break
-    return False
+    # 模式: 中文字符 + 紧接的 " + 后续是中文 → 把 " 转义成 \"
+    # 同时匹配: 中文的 " 中文 → 中文 \" 中文
+    result = re.sub(
+        r'([一-鿿　-〿＀-￯])'
+        r'"'
+        r'(?=[一-鿿　-〿＀-￯])',
+        r'\1\\"',
+        text
+    )
+    # 匹配: 中文的："中文 → 中文：\"中文
+    result = re.sub(
+        r'([：:])'
+        r'"'
+        r'(?=[一-鿿])',
+        r'\1\\"',
+        result
+    )
+    # 匹配: 中文。"中文 → 中文。\"中文
+    result = re.sub(
+        r'([。，、；！？）\)】\]、])'
+        r'"'
+        r'(?=[一-鿿])',
+        r'\1\\"',
+        result
+    )
+    return result
 
 
 def repair_file(desc_path: Path, dry_run: bool = False) -> bool:
-    """修复单个 VLM 描述文件。返回是否成功。"""
-    with open(desc_path, "r", encoding="utf-8") as f:
-        content = f.read()
+    """修复单个 VLM 描述文件。"""
+    content = desc_path.read_text(encoding="utf-8")
 
-    # 确认是 parse error 文件
-    if '"_parse_error": true' not in content and '"_parse_error": True' not in content:
+    if '"_parse_error"' not in content.replace("true", "True"):
         return False
 
-    # 从 "原始 JSON" 段提取当前保存的 JSON
-    raw_json_match = re.search(
+    # 提取 "原始 JSON" 段
+    raw_match = re.search(
         r'## 原始 JSON\s*\n\s*```json\s*\n(.*?)\n```',
         content, re.DOTALL
     )
-    if not raw_json_match:
+    if not raw_match:
         return False
 
-    saved_json_text = raw_json_match.group(1)
     try:
-        saved = json.loads(saved_json_text)
+        saved = json.loads(raw_match.group(1))
     except json.JSONDecodeError:
         return False
 
     if not saved.get("_parse_error"):
         return False
 
-    # 从 description 字段提取内嵌 JSON
     desc_text = saved.get("description", "")
     if not desc_text:
         return False
@@ -193,40 +132,40 @@ def repair_file(desc_path: Path, dry_run: bool = False) -> bool:
         return False
 
     if dry_run:
-        print(f"  [DRY-RUN] 可修复: {desc_path.name}  ->  {inner.get('title', '无标题')[:60]}")
+        print(f"  [DRY-RUN] {desc_path.name}  ->  {inner.get('title', '无标题')[:60]}")
         return True
 
-    # 重建 VLM 描述文件
+    # 重建文件
     image_stem = desc_path.stem.replace("_vlm_desc", "")
-    image_path = desc_path.parent / f"{image_stem}.png"
 
-    with open(desc_path, "w", encoding="utf-8") as f:
-        f.write(f"# VLM 描述：{image_stem}\n\n")
-        f.write(f"**原图**: `{image_path}`\n\n")
-        f.write(f"**模型**: `MiniMax-M3`\n\n")
-        f.write("## 结构化描述\n\n")
-        f.write(f"- **类型**: {inner.get('category', '')}\n")
-        f.write(f"- **标题**: {inner.get('title', '')}\n")
-        f.write(f"- **置信度**: {inner.get('confidence', '')}\n")
-        f.write(f"- **视觉风格**: {inner.get('visual_style', '')}\n\n")
-        f.write(f"### 描述\n\n{inner.get('description', '')}\n\n")
+    lines = []
+    lines.append(f"# VLM 描述：{image_stem}\n")
+    lines.append(f"**原图**: `{desc_path.parent / f'{image_stem}.png'}`\n")
+    lines.append(f"**模型**: `MiniMax-M3`\n")
+    lines.append("## 结构化描述\n")
+    lines.append(f"- **类型**: {inner.get('category', '')}\n")
+    lines.append(f"- **标题**: {inner.get('title', '')}\n")
+    lines.append(f"- **置信度**: {inner.get('confidence', '')}\n")
+    lines.append(f"- **视觉风格**: {inner.get('visual_style', '')}\n")
+    lines.append(f"### 描述\n\n{inner.get('description', '')}\n")
 
-        f.write("### 关键元素\n\n")
-        for elem in inner.get("key_elements", []) or []:
-            f.write(f"- {elem}\n")
+    lines.append("### 关键元素\n\n")
+    for elem in (inner.get("key_elements") or []):
+        lines.append(f"- {elem}\n")
 
-        f.write("\n### 标签\n\n")
-        for tag in inner.get("tags", []) or []:
-            f.write(f"- {tag}\n")
+    lines.append("\n### 标签\n\n")
+    for tag in (inner.get("tags") or []):
+        lines.append(f"- {tag}\n")
 
-        f.write(f"\n### 适用场景\n\n{inner.get('usable_for', '')}\n\n")
+    lines.append(f"\n### 适用场景\n\n{inner.get('usable_for', '')}\n")
 
-        f.write("## 原始 JSON\n\n")
-        f.write("```json\n")
-        f.write(json.dumps(inner, ensure_ascii=False, indent=2))
-        f.write("\n```\n")
+    lines.append("## 原始 JSON\n\n")
+    lines.append("```json\n")
+    lines.append(json.dumps(inner, ensure_ascii=False, indent=2))
+    lines.append("\n```\n")
 
-    print(f"  修复成功: {desc_path.name}")
+    desc_path.write_text("".join(lines), encoding="utf-8")
+    print(f"  OK: {desc_path.name}")
     return True
 
 
@@ -241,11 +180,11 @@ def main(target_dir: str, dry_run: bool = False):
 
     parse_errors = []
     for df in desc_files:
-        with open(df, "r", encoding="utf-8") as f:
-            if '"_parse_error": true' in f.read() or '"_parse_error": True' in f.read():
-                parse_errors.append(df)
+        text = df.read_text(encoding="utf-8")
+        if '"_parse_error"' in text.replace("true", "True"):
+            parse_errors.append(df)
 
-    print(f"其中 {len(parse_errors)} 个含 parse error")
+    print(f"其中 {len(parse_errors)} 个含 parse error\n")
 
     repaired = 0
     unfixable = []
@@ -262,7 +201,7 @@ def main(target_dir: str, dry_run: bool = False):
             unfixable.append(df.name)
 
     mode = "[DRY-RUN] " if dry_run else ""
-    print(f"\n{mode}修复: {repaired}  无法修复: {len(unfixable)}")
+    print(f"\n{mode}修复成功: {repaired}  无法修复: {len(unfixable)}")
     if unfixable:
         for name in unfixable:
             print(f"  - {name}")
