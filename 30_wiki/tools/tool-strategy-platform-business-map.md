@@ -1,0 +1,137 @@
+---
+id: tool-strategy-platform-business-map
+title: 平台商业模式地图
+type: tool
+status: enriched
+confidence: 0.95
+trust_level: high
+domain:
+  - strategy
+  - platform
+source_refs:
+  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_263_vlm_desc.md
+  - 00_inbox/战略专题/冉鹏PPT截图/引擎点火20260110 战略破局（冉鹏）(1)_263_ocr_text.md
+created_at: "2026-06-22"
+updated_at: "2026-06-22"
+author: 王语嫣 → 老顽童
+reviewed_by: 欧阳锋
+related:
+  - "[[framework-strategy-business-design]]"
+  - "[[tool-strategy-value-capture]]"
+  - "[[tool-strategy-customer-selection]]"
+---
+
+# 平台商业模式地图
+
+> 用可视化地图拆解平台型企业的核心结构：利益相关方、互动交易关系、价值主张与核心资源、网络效应与盈利模式。
+
+---
+
+## 一、Facebook 平台地图示例
+
+```
+                    ┌─────────────┐
+                    │   Users     │
+                    │  (linchpin) │
+                    │  枢纽用户    │
+                    └──────┬──────┘
+                           │ Social interaction, content, apps
+                           │ (Networking tools)
+                           │
+    ┌─────────────┐        │        ┌─────────────┐
+    │  Publishers │ ←──────┼──────→ │ Advertisers │
+    │ (sweetener) │ Audience      │(primary payer)│
+    │  甜味剂      │ (Viral        │  主要付费方    │
+    └──────┬──────┘  distribution) └──────┬──────┘
+           │ Content                      │ $ for audience
+           │ (User stickiness)            │
+           │                              │
+           └──────────┬───────────────────┘
+                      │
+                      ▼
+              ┌─────────────┐
+              │  Facebook   │
+              │  (platform) │
+              │   平台       │
+              └──────┬──────┘
+                     │
+                     │ Social interaction, $ for apps, audience
+                     │ ($ share for apps, data)
+                     ▼
+              ┌─────────────┐
+              │   App       │
+              │ developers  │
+              │  (payer)    │
+              │  付费方      │
+              └─────────────┘
+```
+
+---
+
+## 二、四类利益相关方角色
+
+| 角色 | 属性 | 功能 | 价值交换 |
+|--|--|--|--|
+| **Users（用户）** | linchpin / 枢纽 | 平台存在的根本，提供注意力和数据 | 获得社交互动、内容、应用 |
+| **Publishers（内容发布者）** | sweetener / 甜味剂 | 创造内容，增加用户粘性 | 获得受众（Audience）；平台获得内容 |
+| **Advertisers（广告主）** | primary payer / 主要付费方 | 为触达用户付费 | 付费购买受众；平台获得收入 |
+| **App developers（应用开发者）** | payer / 付费方 | 丰富平台功能 | 获得用户和分成；平台获得应用生态 |
+
+---
+
+## 三、地图四要素
+
+| 要素 | 说明 |
+|--|--|
+| **利益相关方** | 平台上的关键参与方：生产者、消费者、合作伙伴 |
+| **核心互动与交易关系** | 各方如何交换价值，双向箭头上的具体内容 |
+| **价值主张与核心资源** | 平台吸引各方的核心吸引力，以及可开放的资源 |
+| **网络效应与盈利模式** | 如何通过匹配、吸引实现增长和变现 |
+
+---
+
+## 四、使用步骤
+
+1. **识别核心参与方**：谁使用平台？谁生产内容？谁付费？谁提供补充服务？
+2. **标注角色属性**：枢纽（linchpin）、甜味剂（sweetener）、主要付费方（primary payer）、付费方（payer）。
+3. **画出价值交换**：用双向箭头标注各方之间交换的具体价值（注意、内容、数据、金钱）。
+4. **确认网络效应**：同一侧用户增加是否提升另一侧价值？（跨边网络效应）
+5. **设计盈利模式**：从哪一方收费？是否有多边补贴（一方免费、一方付费）？
+
+---
+
+## 五、分析模板
+
+```markdown
+| 参与方 | 角色 | 获得价值 | 付出价值 | 对平台的重要性 |
+|--|--|--|--|--|
+| | | | | |
+```
+
+---
+
+## 六、失败模式
+
+| 失败 | 症状 | 修复 |
+|--|--|--|
+| 只画单边 | 只关注用户，忽视付费方 | 必须同时画出多边参与者 |
+| 价值交换空洞 | 只写"用户获得价值" | 具体到可量化的交换物（注意、数据、金钱、内容） |
+| 忽视角色属性 | 所有参与方平级 | 明确谁是枢纽、谁是甜味剂、谁是付费方 |
+| 网络效应假设错误 | 认为用户多了自然有人付费 | 验证跨边网络效应是否真实存在 |
+
+---
+
+## 七、Agent 执行指令
+
+```python
+def platform_business_map(platform: str):
+    """绘制平台商业模式地图"""
+    prompts = {
+        "参与方": f"列出{platform}上的所有关键利益相关方。",
+        "角色标注": "为每个参与方标注枢纽/甜味剂/主要付费方/付费方角色。",
+        "价值交换": "画出各方之间的双向价值交换。",
+        "网络效应": "分析同边和跨边网络效应。",
+        "盈利模式": "说明平台从哪方收费、补贴哪方。"
+    }
+    return {step: ask(prompt) for step, prompt in prompts.items()}
+```
