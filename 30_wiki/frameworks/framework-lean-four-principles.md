@@ -15,9 +15,9 @@ domain:
 - yitang
 - product
 source_refs:
-- 00_inbox/精益创业/truman-精益创业-低成本验证-四大原则-01_ocr_text.md §6
-- 00_inbox/精益创业/truman-精益创业-低成本验证-四大原则-01_vlm_desc.md §7-16
-- 00_inbox/精益创业/truman-精益创业-创业全景图-超级小抄_ocr_text.md §148-155
+- 00_inbox/精益创业/truman-精益创业-低成本验证-四大原则-01_ocr_text.md
+- 00_inbox/精益创业/truman-精益创业-低成本验证-四大原则-01_vlm_desc.md
+- 00_inbox/精益创业/truman-精益创业-创业全景图-超级小抄_ocr_text.md
 related:
 - "[[framework-lean-false-model]]"
 - "[[yt-entrepreneur-lean-validation]]"

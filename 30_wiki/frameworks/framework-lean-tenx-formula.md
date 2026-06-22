@@ -13,8 +13,8 @@ domain:
 - yitang
 - product
 source_refs:
-- 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_ocr_text.md §6-43
-- 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_vlm_desc.md §7-84
+- 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_ocr_text.md
+- 00_inbox/精益创业/truman-精益创业-低成本验证-十倍数公式-01_vlm_desc.md
 related:
 - "[[framework-lean-false-model]]"
 - "[[yt-entrepreneur-lean-validation]]"

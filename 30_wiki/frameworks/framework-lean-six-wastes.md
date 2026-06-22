@@ -10,13 +10,13 @@ trust_level: high
 language: zh-CN
 domain: [strategy, yitang, product]
 source_refs:
-  - 00_inbox/精益创业/一堂-精益创业-浪费六宗罪-01_ocr_text.md §1-11
-  - 00_inbox/精益创业/truman-精益创业-低成本验证-需求找错-01_ocr_text.md §6-16
-  - 00_inbox/精益创业/truman-精益创业-低成本验证-方案做错-01_ocr_text.md §6-24
-  - 00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_ocr_text.md §6-20
-  - 00_inbox/精益创业/truman-精益创业-低成本验证-过早扩张-01_ocr_text.md §6-12
-  - 00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_ocr_text.md §6-19
-  - 00_inbox/精益创业/精益创业-false模型-策略图_ocr_text.md §193-208
+  - 00_inbox/精益创业/一堂-精益创业-浪费六宗罪-01_ocr_text.md
+  - 00_inbox/精益创业/truman-精益创业-低成本验证-需求找错-01_ocr_text.md
+  - 00_inbox/精益创业/truman-精益创业-低成本验证-方案做错-01_ocr_text.md
+  - 00_inbox/精益创业/truman-精益创业-低成本验证-过早细化-01_ocr_text.md
+  - 00_inbox/精益创业/truman-精益创业-低成本验证-过早扩张-01_ocr_text.md
+  - 00_inbox/精益创业/truman-精益创业-低成本验证-闭门造车-01_ocr_text.md
+  - 00_inbox/精益创业/精益创业-false模型-策略图_ocr_text.md
 related:
   - "[[framework-lean-false-model]]"
   - "[[yt-entrepreneur-lean-validation]]"
