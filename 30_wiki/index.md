@@ -20,9 +20,11 @@ _Last updated: 2026-06-22T18:35:15+00:00_
 ## 域入口（Domain Digests）
 | 域 | 入口卡 |
 |---|---|
+| Yitang | [[yitang-domain-digest]] |
+| Research | [[yitang-research-domain-digest]] |
 | Five Step | [[five-step-domain-digest]] |
 | Strategy | [[strategy-domain-digest]] |
-| Yitang Research | [[yitang-research-domain-digest]] |
+| AI Collaboration | [[ai-collaboration-domain-digest]] |
 
 ## 域统计
 | 域 | 卡片数 | 入口 |
