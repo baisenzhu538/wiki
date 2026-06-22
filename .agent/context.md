@@ -1,18 +1,24 @@
 ---
-updated: 2026-06-22
+updated: 2026-06-23
 active_branch: main
-active_task: "老顽童执行精益创业专题完整卡片化：38 张卡分 P0/P1/P2 三批，来源 00_inbox/精益创业/ 52 张图 + 4 份课程稿 + 5 份张磊 AMA。当前完成 P0 1/7。"
+active_task: "王语嫣已完成精益创业素材 9 层深挖 + 六层交叉验证标注，38 张卡任务指令已下达老顽童。老顽童待按 P0→P1→P2 分批生产。"
 blockers:
-  - "✅ CLI 王语嫣已完成冉鹏 PPT 视觉层重标 + 36 张卡片创建 + 质量收尾"
-  - "✅ 113 张 VLM parse error (P-33) 已由黄药师修复，归零"
-  - "✅ 战略域收工：76 张卡，23 张最近 2 天入库，平均置信度 0.88"
-  - "🆕 精益创业卡片化任务已下达：`60_feedback/tasks/task_20260623_laowantong-lean-startup-cards.md`"
-  - "🆕 P0 核心框架：framework-lean-false-model 已完成"
-  - "⏭️ _269 深蓝海洋主题页跳过，待用户/欧阳锋确认内容"
-  - "🟡 shared/README.md 过期 — 只列 ~20% Skill，缺失调研域 13 子 Skill、kdo-self-attack、strategy 系列等"
-  - "🟢 Y 模型决策域（66 张卡）Skill 化 — P0 候选，欧阳锋已批，黄药师排期中"
-  - "🟢 调研域全线完工 — 100+ 张卡 + 7 Skill + 质量门 + 映射表"
-next_session_hint: "老顽童继续推进精益创业 P0 剩余 6 张框架卡；P0 完成后通知王语嫣验收，再进入 P1"
+  - "✅ 113 张 VLM parse error 归零"
+  - "✅ Obsidian 图谱修复（1846 路径错误 + 50+ 调研域死链 + 759 无出链卡补 related）"
+  - "✅ 四层验收管线落地（L1 lint → L2 自攻击 → L3 王语嫣 20% → L4 欧阳锋例外）"
+  - "✅ 备份与恢复体系上线（坚果云 + vault-backup.py + 每日 9:03 自动巡检）"
+  - "✅ 知识库重新定位 AI for Business——index.md + CLAUDE.md + startup.md 已重写"
+  - "✅ 战略域收工：76 张卡，平均置信度 0.88"
+  - "✅ 精益创业素材标注完成：52 张图 + 4 份课程稿 + 5 份 AMA 的 9 层深挖 + 六层交叉验证"
+  - "🆕 老顽童待执行精益创业 38 张卡生产（P0 7 张优先，framework/tool/case 三类）"
+  - "🆕 王语嫣待按 20% 抽样对老顽童产出做六层交叉验证"
+  - "🟡 精益创业域待建 domain digest（老顽童 P0 完成后启动）"
+  - "🟡 决策域（Y模型，66卡）待建 domain digest"
+  - "🟡 需求分析域待建 domain digest"
+  - "🟡 五步法子域待建独立 digest"
+  - "🟢 新域上线清单已建（90_control/new-domain-onboarding.md）"
+  - "🟢 创业/管理/个人修养/Y模型 四个板块待陆续入库"
+next_session_hint: "检查老顽童精益创业 P0 生产进度；验收时重点查重复创建、source_refs 精确性、related 跨域链接、可信度标注。"
 ---
 
 ## 📢 全厂通知（2026-06-19）

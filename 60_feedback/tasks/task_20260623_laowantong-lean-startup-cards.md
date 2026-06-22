@@ -118,6 +118,7 @@
 | `tool-lean-cut-features` | 太复杂就砍功能 | P1 | `一堂DOC-20260622212421` | 可砍模块清单：只开发一半、成长体系、多账号登录、VI、官网、精装修门店 |
 | `tool-lean-minimum-test-volume` | 只测试最小数量 | P1 | `一堂DOC-20260622212431`（合并 12440） | 用户、采购、门店、SKU、用户规模五维度最小化 |
 | `tool-lean-product-kernel-metrics` | 产品内核十大典型指标 | P1 | `一堂-精益创业-产品内核十大典型指标` | 获客/服务/复购三环节指标、各指标定义、使用场景 |
+| `tool-lean-ai-accelerated-validation` | AI 加速 FALSE 模型验证 | P1 | `张磊教练《精益测试关键问题》AMA精华 副本.md` + 口述文件 | AI 对 F/A/L/S/E 各环节加速方式、成本变化、人机分工边界 |
 
 ### 2.4 Case 卡（15 张，部分为 enrich 已有卡）
 
@@ -174,25 +175,26 @@
 20. `tool-lean-cut-features`
 21. `tool-lean-minimum-test-volume`
 22. `tool-lean-product-kernel-metrics`
-23. `framework-lean-product-kernel`
-24. `case-lean-wrong-demand`
-25. `case-lean-building-in-vacuum`
-26. `case-lean-weak-solution`
-27. `case-lean-premature-refinement`
-28. `case-lean-premature-expansion`
-29. `case-lean-perfectionism-traps`
-30. `case-lean-medical-device-milestone`
-31. `case-lean-genki-forest-toolkit`
-32. `case-lean-shoe-mvp-evolution`
-33. `case-lean-2b-gray-test`
+23. `tool-lean-ai-accelerated-validation`
+24. `framework-lean-product-kernel`
+25. `case-lean-wrong-demand`
+26. `case-lean-building-in-vacuum`
+27. `case-lean-weak-solution`
+28. `case-lean-premature-refinement`
+29. `case-lean-premature-expansion`
+30. `case-lean-perfectionism-traps`
+31. `case-lean-medical-device-milestone`
+32. `case-lean-genki-forest-toolkit`
+33. `case-lean-shoe-mvp-evolution`
+34. `case-lean-2b-gray-test`
 
 ### 3.3 第三批：P2 补充框架 + 窄行业案例
 
-34. `framework-lean-expert-roadmap`
-35. `case-lean-crayfish-combo-test`
-36. `case-lean-shampoo-selling-points`
-37. `case-lean-radish-channel-selection`
-38. `case-lean-adult-education`
+35. `framework-lean-expert-roadmap`
+36. `case-lean-crayfish-combo-test`
+37. `case-lean-shampoo-selling-points`
+38. `case-lean-radish-channel-selection`
+39. `case-lean-adult-education`
 
 ---
 
@@ -319,7 +321,7 @@ related:
 2. **写卡前先查路由**：确认同主题 `framework-lean-*`、`tool-lean-*`、`case-lean-*` 或 `yt-*`、`case-一堂-*`、`case-yitang-*` 不存在。
 3. **重叠案例 enrich 而非新建**：如发现已有案例卡覆盖同一项目，补充新素材来源并更新 related。
 4. **新域/新素材第一步是 WebSearch**：但本次素材为一堂内部课程，优先基于讲义内容，必要时再做外部框架对照（如 Eric Ries、Steve Blank、Alberto Savoia）。
-5. **分批提交**：建议每完成一批（P0/P1/P2）通知验收，不要等全部 38 张卡完成后一次性提交。
+5. **分批提交**：建议每完成一批（P0/P1/P2）通知验收，不要等全部 39 张卡完成后一次性提交。
 
 ---
 

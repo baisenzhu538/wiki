@@ -19,6 +19,7 @@ related:
 - '[[concept-一堂-product-kernel]]'
 - '[[concept-一堂-kernel-iteration]]'
 - '[[concept-一堂-key-assumptions]]'
+- '[[framework-lean-six-wastes]]'
 wiki_refs:
 - '[[concept-一堂-product-kernel]]'
 - '[[concept-一堂-key-assumptions]]'

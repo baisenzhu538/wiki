@@ -24,6 +24,7 @@ related:
 - '[[yt-lean-essence]]'
 - '[[yt-panproduct-execution-low-cost-mvp]]'
 - '[[yt-entrepreneur-key-hypotheses]]'
+- '[[framework-lean-six-wastes]]'
 - '[[case-yitang-tob-artificial-bone]]'
 - '[[case-ji-hao-skill-market-problem-validation]]'
 - '[[case-一堂-陈贤敏汉堡-hypothesis-validation]]'

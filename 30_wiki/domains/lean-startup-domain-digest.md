@@ -49,7 +49,7 @@ related:
 | `framework-lean-10x-formula` | 十倍速公式——从单点验证到规模化的增长方程 | 🟡 |
 | `framework-lean-bml-loop` | BML 循环——Build/Measure/Learn，最小可行产品的迭代引擎 | 🟢 |
 | `framework-lean-hypothesis-hierarchy` | 假设金字塔——从生存假设到增长假设的层级结构 | 🟢 |
-| `framework-lean-system-test-curve` | 系统测试曲线——产品复杂度 vs 验证速度的平衡点 | 🟡 |
+| `framework-lean-systematic-test-curve` | 系统测试曲线——X/Y 曲线与灰度/组合/里程碑三范式 | 🟡 |
 
 > 🟢 高可信度（国际通行方法论） 🟡 中可信度（一堂归纳/本土化，需标注来源）
 > 🔴 低可信度声明（如"80%-90% 创业浪费""平台成功率 <<1%"）必须降级或标注待验证。
