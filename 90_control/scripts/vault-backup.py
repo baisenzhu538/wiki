@@ -136,10 +136,10 @@ def health():
     issues.append("有未提交变更，git 未同步" if changed > 0 else "")
     active = [i for i in issues if i]
     if active:
-        print(f"\n  ⚠️  {len(active)} 个问题:")
+        print(f"\n  !! {len(active)} issues:")
         for i in active: print(f"    - {i}")
     else:
-        print(f"\n  🟢 健康")
+        print(f"\n  OK: Healthy")
 
 if __name__ == "__main__":
     import argparse

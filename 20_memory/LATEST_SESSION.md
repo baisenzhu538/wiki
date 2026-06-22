@@ -20,11 +20,12 @@ If you are reading this file, the human (朱振滔/老朱/欧阳锋) has likely 
 - 微信双号提取已固化：大号baconzhu_5d29 + 小号wxid_53kdj7ep82rv22_ffd5
 
 **Pending tasks (待办)**:
-1. **老顽童已完成战略域可选后续清单**：`_54`/`_115`/`_184`/`_249`，`_269` 跳过待确认
+1. **✅ 老顽童已完成战略域可选后续清单**：`_54`/`_115`/`_184`/`_249`，`_269` 跳过待确认
 2. **王语嫣已完成**：36 张战略卡创建 + source_ref 修复 + 孤立链接清理 + 质量复核
 3. **黄药师已完成**：P-33 parse error 修复归零
 4. **欧阳锋待确认**：新增 11 张业务设计/战略能力卡片优先级；`_269` 深蓝海洋主题页内容待确认
 5. **老顽童 2026-06-20 批量工单 waves 1-2**：因战略域 PPT 补强插入而暂停，未取消
+6. **王语嫣反馈已执行**：`60_feedback/tasks/task_20260623_laowantong-strategy-ppt-supplement.md`
 
 **Current actual state (from health check)**:
 - 全库 1703 张卡（质量门禁统计）/ 1705 lint errors / 4694 lint warnings
