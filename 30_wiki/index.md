@@ -36,6 +36,7 @@ related:
 | **需求判断** | 用户真的要什么？市场多大？ | `/demand-analysis` |
 | **决策判断** | 怎么选？怎么不选错？ | `/decision` |
 | **市场洞察** | 对手在干什么？行业在怎么变？ | [[yitang-research-domain-digest]] |
+| **精益验证** | 怎么做 MVP？怎么用最小成本验证假设？ | [[lean-startup-domain-digest]] |
 | **商业模型** | 怎么赚钱？单元模型成立吗？ | `/five-step-business-model` |
 | **增长设计** | 怎么放大？增长引擎是什么？ | `/five-step-growth` |
 | **壁垒构建** | 怎么守住？优势能持续多久？ | `/five-step-barrier` |
